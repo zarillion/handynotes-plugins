@@ -219,9 +219,10 @@ L['mysterious_wand_note'] = '拾取 {object:水晶钥匙} 并将其放入 {objec
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
--- RARES
-
 L['in_the_war_creche'] = nil
+L['in_the_high_creche'] = nil
+
+-- RARES
 
 L['duzalgor_note'] = nil
 L['mad_eye_carrey_note'] = nil
@@ -268,8 +269,11 @@ L['options_icons_scalecommander_item_desc'] = nil
 -- MISC
 
 L['awakened_soil_label'] = nil
+
 L['book_of_arcane_entities_label'] = nil
 L['tuskarr_kite_post_label'] = nil
+L['farescale_shrine_label'] = nil
+L['resonating_crystal_label'] = nil
 
 L['zskera_vault_label'] = nil
 L['zskera_vault_note'] = nil

@@ -18,6 +18,7 @@ local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
+local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 
 local Path = ns.poi.Path
@@ -36,6 +37,7 @@ local froststoneVault = Map({id = 2154, settings = false}) -- Froststone Vault
 ------------------------------ HELPER FUNCTIONS ------------------------------- -- DISABLE BEFORE RELEASE
 -------------------------------------------------------------------------------
 
+-- Get Vignette information from mouseover
 hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
     if self and self.vignetteID then
         local mapID = self:GetMap().mapID
@@ -43,6 +45,19 @@ hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
         local x = C_VignetteInfo.GetVignettePosition(guid, mapID).x
         local y = C_VignetteInfo.GetVignettePosition(guid, mapID).y
         print(C_VignetteInfo.GetVignetteInfo(guid).name)
+        print(mapID .. ': ' .. HandyNotes:getCoord(x, y))
+    end
+end)
+
+-- Get Area POI information from mouseover
+hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+    if self and self.areaPoiID then
+        local mapID = self:GetMap().mapID
+        local x = C_AreaPoiInfo.GetAreaPOIInfo(mapID, self.areaPoiID).position.x
+        local y = C_AreaPoiInfo.GetAreaPOIInfo(mapID, self.areaPoiID).position.y
+        print(
+            C_AreaPoiInfo.GetAreaPOIInfo(mapID, self.areaPoiID).name .. ' (' ..
+                self.areaPoiID .. ')')
         print(mapID .. ': ' .. HandyNotes:getCoord(x, y))
     end
 end)
@@ -390,6 +405,27 @@ seigeCreche.nodes[58993931] = Volcanakk() -- Volcanakk (The Seige Creche)
 -- }) -- Amephyst
 
 -------------------------------------------------------------------------------
+
+-- TODO: A very sus spider named "Unknown" with no Wowhead entry and no silver
+-- dragon potrait. Might be one of the rares listed above?
+
+-- map.nodes[53533679] = ns.node.Node({
+--     id = 199238
+-- }) -- Unknown
+
+-- TODO: A very sus dragon named Adamanthia. Trapped in earth-bound stasis and
+-- referenced all over the place especially by the [While We Were Sleeping]
+-- achievement criteria. May be a rare from above? Or possibly quest related?
+
+-- map.nodes[58937114] = ns.node.Node({
+--     id = 199134,
+--     note = L['in_the_high_creche'],
+--     pois = {
+--         POI({58666933}) -- Entrance
+--     }
+-- }) -- Adamanthia
+
+-------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -474,16 +510,17 @@ map.nodes[44745794] = SmallTreasure()
 map.nodes[45705660] = SmallTreasure()
 map.nodes[47071542] = SmallTreasure()
 map.nodes[48764706] = SmallTreasure()
+map.nodes[50374387] = SmallTreasure()
 map.nodes[54285826] = SmallTreasure()
 map.nodes[54575658] = SmallTreasure()
 map.nodes[54904277] = SmallTreasure()
 map.nodes[57545601] = SmallTreasure()
 map.nodes[67284345] = SmallTreasure()
 map.nodes[68604706] = SmallTreasure()
+map.nodes[70806917] = SmallTreasure()
 map.nodes[71385357] = SmallTreasure()
 map.nodes[72305308] = SmallTreasure()
 map.nodes[72396117] = SmallTreasure()
-map.nodes[50374387] = SmallTreasure()
 
 warCreche.nodes[49098242] = SmallTreasure()
 
@@ -757,10 +794,11 @@ local ScalecommanderItem = Class('scalecommander_item', Collectible, {
 --     rewards = {Achievement({id = 17315, criteria = 1})}
 -- }) -- Journal Entry: The Creches
 
--- map.nodes[] = ScalecommanderItem({
---     label = '{item:}',
---     rewards = {Achievement({id = 17315, criteria = 2})}
--- }) -- Journal Entry: Experiments
+map.nodes[59646492] = ScalecommanderItem({
+    label = '{item:204200}',
+    quest = 73110,
+    rewards = {Achievement({id = 17315, criteria = 2})}
+}) -- Journal Entry: Experiments
 
 map.nodes[50884345] = ScalecommanderItem({
     label = '{item:202335}',
@@ -772,15 +810,25 @@ map.nodes[50884345] = ScalecommanderItem({
 --     rewards = {Achievement({id = 17315, criteria = 4})}
 -- }) -- Journal Entry: Silence
 
--- map.nodes[] = ScalecommanderItem({
---     label = '{item:}',
---     rewards = {Achievement({id = 17315, criteria = 5})}
--- }) -- Receiving Stone: Final Warning
+map.nodes[48967237] = ScalecommanderItem({
+    label = '{item:202328}',
+    quest = 74900,
+    note = L['in_the_high_creche'],
+    rewards = {Achievement({id = 17315, criteria = 5})},
+    pois = {
+        POI({58666933}) -- Entrance
+    }
+}) -- Receiving Stone: Final Warning
 
--- map.nodes[] = ScalecommanderItem({
---     label = '{item:}',
---     rewards = {Achievement({id = 17315, criteria = 6})}
--- }) -- Sending Stone: Protest
+map.nodes[58407053] = ScalecommanderItem({
+    label = '{item:202203}',
+    quest = 74901,
+    note = L['in_the_high_creche'],
+    rewards = {Achievement({id = 17315, criteria = 6})},
+    pois = {
+        POI({58666933}) -- Entrance
+    }
+}) -- Sending Stone: Protest
 
 map.nodes[55393586] = ScalecommanderItem({
     label = '{item:202326}',
@@ -805,13 +853,17 @@ map.nodes[55393586] = ScalecommanderItem({
 map.nodes[56425914] = ns.node.Node({
     label = L['awakened_soil_label'],
     icon = 656681,
-    requires = ns.requirement.Item(203416) -- Lifebloom Seeds
+    requires = ns.requirement.Item(203416) -- Lifebloom Seeds -- Appears to NOT be Herbalism related
 }) -- Awakened Soil
+
+-- TODO: Each of these nodes requires a specific crafted item from a
+-- profession. I suspect there may be an entire set - one for each
+-- profession.
 
 map.nodes[55633610] = ns.node.Node({
     label = L['book_of_arcane_entities_label'],
     icon = 1033184,
-    requires = ns.requirement.Item(203410), -- Glowing Crystal Bookmark
+    requires = ns.requirement.Item(203410), -- Glowing Crystal Bookmark -- Enchanting
     pois = {
         POI({55103837}) -- Entrance
     }
@@ -820,8 +872,37 @@ map.nodes[55633610] = ns.node.Node({
 map.nodes[57634843] = ns.node.Node({
     label = L['tuskarr_kite_post_label'],
     icon = 318523,
-    requires = ns.requirement.Item(203415) -- Morqut Kite
+    requires = ns.requirement.Item(203415) -- Morqut Kite -- Tailoring
 }) -- Tuskarr Kite Post
+
+map.nodes[67237599] = ns.node.Node({
+    label = L['farescale_shrine_label'],
+    icon = 2735993,
+    requires = ns.requirement.Item(203408) -- Ceremonial Trident -- Blacksmithing
+}) -- Farscale Shrine
+
+map.nodes[28905707] = ns.node.Node({
+    label = L['resonating_crystal_label'],
+    icon = 2264901,
+    requires = ns.requirement.Item(203413), -- Tuning Fork -- Jewelcrafting
+    note = L['in_small_cave'],
+    pois = {
+        POI({30496101}) -- Entrance
+    }
+}) -- Resonating Crystal
+
+-- TODO: I've ran into 3 different Edicts while exploring. No quest flips and
+-- nothing in the Achievement frame about them. Might be quest related? There
+-- was ah achievement in Panderia related to edicts. Starting to save them now
+-- just in case.
+
+-- map.nodes[55616889] = ns.node.Node({
+--     label = 'Edict: The Adamant Vigil', -- TODO: Non-localized name for now
+--     note = L['in_the_high_creche'],
+--     pois = {
+--         POI({58666933}) -- Entrance
+--     }
+-- }) -- Edict: The Adamant Vigil
 
 --------------------------------- ZSKERA VAULT --------------------------------
 
@@ -839,7 +920,7 @@ map.nodes[29185303] = Collectible({
         Pet({item = 193908, id = 3338}), -- Kobaldt
         Pet({item = 204079, id = 3476}), -- Gilded Mechafrog
         Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
-        Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
+        Spacer(), Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
         Toy({item = 204262}) -- Holoviewer: The timeless One
     }
 }) -- Zskera Vault

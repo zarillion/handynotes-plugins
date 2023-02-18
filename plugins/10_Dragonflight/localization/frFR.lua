@@ -220,9 +220,10 @@ L['mysterious_wand_note'] = 'Ramassez la {object:Clé en cristal} et placez-la d
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
--- RARES
-
 L['in_the_war_creche'] = 'Au fond du {location:Couvoir Martial}'
+L['in_the_high_creche'] = nil
+
+-- RARES
 
 L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751}({dot:Green}) pour vous soigner du gaz toxique dans la grotte.'
 L['mad_eye_carrey_note'] = '{npc:201181} se trouve dans un groupe avec la {npc:201184} et la {npc:201182}'
@@ -269,8 +270,11 @@ L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des obj
 -- MISC
 
 L['awakened_soil_label'] = 'Sol éveillé'
+
 L['book_of_arcane_entities_label'] = 'Livre des entités arcaniques'
 L['tuskarr_kite_post_label'] = nil
+L['farescale_shrine_label'] = nil
+L['resonating_crystal_label'] = nil
 
 L['zskera_vault_label'] = 'Caveau de Zskera'
 L['zskera_vault_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans le {location:Caveau de Zskera}.'

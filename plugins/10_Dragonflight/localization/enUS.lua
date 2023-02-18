@@ -219,9 +219,10 @@ L['mysterious_wand_note'] = 'Pick up the {object:Crystal Key} and place it into 
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
--- RARES
-
 L['in_the_war_creche'] = 'Deep within {location:The War Creche}'
+L['in_the_high_creche'] = 'Within {location:The High Creche}'
+
+-- RARES
 
 L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal from the poisonous gas within the cave.'
 L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}'
@@ -268,8 +269,11 @@ L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achie
 -- MISC
 
 L['awakened_soil_label'] = 'Awakened Soil'
+
 L['book_of_arcane_entities_label'] = 'Book of Arcane Entities'
 L['tuskarr_kite_post_label'] = 'Tuskarr Kite Post'
+L['farescale_shrine_label'] = 'Farscale Shrine'
+L['resonating_crystal_label'] = 'Resonating Crystal'
 
 L['zskera_vault_label'] = 'Zskera Vault'
 L['zskera_vault_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vault}.'

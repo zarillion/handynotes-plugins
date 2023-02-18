@@ -220,9 +220,10 @@ L['mysterious_wand_note'] = 'Coge la {object:Llave de Cristal} y ponla dentro de
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
--- RARES
-
 L['in_the_war_creche'] = 'En las profundidades de {location:El Nido Bélico}'
+L['in_the_high_creche'] = nil
+
+-- RARES
 
 L['duzalgor_note'] = 'Coge un frasco de {spell:400751} ({dot:Green}) para sanarte del gas venenoso de la cueva.'
 L['mad_eye_carrey_note'] = '{npc:201181} está en grupo con la {npc:201184} y la {npc:201182}.'
@@ -269,8 +270,11 @@ L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos
 -- MISC
 
 L['awakened_soil_label'] = nil
+
 L['book_of_arcane_entities_label'] = nil
 L['tuskarr_kite_post_label'] = nil
+L['farescale_shrine_label'] = nil
+L['resonating_crystal_label'] = nil
 
 L['zskera_vault_label'] = nil
 L['zskera_vault_note'] = nil
