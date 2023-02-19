@@ -488,11 +488,13 @@ L['colored_potion'] = 'Poción Coloreada'
 L['colored_potion_note'] = [[
 La poción junto al cuerpo de %s siempre indica el color de la poción de efectos negativos de la visión en curso.
 El color de la poción de +100 de cordura se puede saber por el color de esta poción (|cFFFF0000bad|r => |cFF00FF00good|r):
+
 Negro => Verde
 Azul => Violeta
 Verde => Rojo
 Violeta => Negro
 Rojo => Azul
+
 ]]
 
 L['bear_spirit_note'] = 'Mata el {npc:160404} y todas las oleadas de enemigos para conseguir un buff de 10% de celeridad.'
@@ -627,6 +629,7 @@ L['zujai_note'] = '¿Te atreves a desafiarme en mi propia casa? Buena suerte.'
 
 L['kuafon_note'] = [[
 Despoja un {item:157782} de cualquier Pterrordáctilo en {location:Zandalar} para empezar la cadena de misiones. Algunas misiones tardarán varios dias en ser completadas.
+
 Los mejores Pterrordáctilos para matar son {npc:126618} en {location:Zanchul} o {npc:122113} justo al sur de {location:Tal'gurub}.
 ]]
 L['torcali_note'] = 'Completa misiones en el {location:Redil Bestia de Guerra} hasta que {quest:47261} esté disponible para hacer. Algunas misiones tardarán varios dias en ser completadas.'
@@ -705,6 +708,7 @@ L['options_icons_sausage_sampler_desc'] = 'Muestra dónde están los vendedores 
 
 -- Para la Horda, incluida una nota para las bebidas que deben comprarse en la AH
 local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Las siguientes bebidas son inaccesibles para la Horda y deben comprarse en la casa de subastas:
+
 • {item:163639}
 • {item:163638}
 • {item:158927}
