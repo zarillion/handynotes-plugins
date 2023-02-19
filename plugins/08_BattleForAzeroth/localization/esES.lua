@@ -487,9 +487,7 @@ L['weighted_artifact'] = 'Coge el {object:Jarrón Extrañamente Pesado} y vuelve
 L['colored_potion'] = 'Poción Coloreada'
 L['colored_potion_note'] = [[
 La poción junto al cuerpo de %s siempre indica el color de la poción de efectos negativos de la visión en curso.
-
 El color de la poción de +100 de cordura se puede saber por el color de esta poción (|cFFFF0000bad|r => |cFF00FF00good|r):
-
 Negro => Verde
 Azul => Violeta
 Verde => Rojo
@@ -568,9 +566,9 @@ L['zunashi_note'] = 'Entrando por el norte de la boca de un gran cráneo se acce
 
 L['ashvane_spoils_note'] = 'Monta en la {npc:132662} para bajar colina abajo para hacer aparecer el botín en la parte inferior.'
 L['excavators_greed_note'] = 'Dentro de un túnel colapsado.'
-L['grayals_offering_note'] = 'Tras completar {quest:50702}, entra en Atul\'Aman y haz click en el Altar Antiguo para hacer aparecer la ofrenda.'
-L['kimbul_offerings_note'] = 'Encima de una colina sobre el Templo de Kimbul.'
-L['sandsunken_note'] = 'Haz click en el Corcho Abandonado para sacar el tesoro fuera de la arena.'
+L['grayals_offering_note'] = 'Tras completar {quest:50702}, entra en {location:Atul\'Aman} y haz click en el {object:Altar Antiguo} para hacer aparecer la ofrenda.'
+L['kimbul_offerings_note'] = 'Encima de una colina sobre el {location:Templo de Kimbul}.'
+L['sandsunken_note'] = 'Haz click en el {object:Corcho Abandonado} para sacar el tesoro fuera de la arena.'
 
 L['keeyo_note'] = '¡Hora de una gran aventura!'
 L['kusa_note'] = 'Tengo una racha ganadora, tú no tienes ninguna oportunidad contra mí y mi equipo.'
@@ -598,7 +596,7 @@ L['elusive_alpaca'] = 'Alimenta a la {npc:162681} con {item:161128} para aprende
 ---------------------------------- WARFRONTS ----------------------------------
 -------------------------------------------------------------------------------
 
-L['boulderfist_outpost'] = 'Dentro de la cueva de los Puño de Roca (la cueva grande). Entrada al noreste.'
+L['boulderfist_outpost'] = 'Dentro de la cueva de los {location:Puño de Roca} (la cueva grande). Entrada al noreste.'
 L['burning_goliath_note'] = 'Una vez derrotado, aparecerá un {npc:141663} cerca del {npc:141668}.'
 L['cresting_goliath_note'] = 'Una vez derrotado, aparecerá un {npc:141658} cerca del {npc:141668}.'
 L['rumbling_goliath_note'] = 'Una vez derrotado, aparecerá un {npc:141659} cerca del {npc:141668}.'
@@ -617,7 +615,7 @@ L['cache_of_secrets_note'] = 'Sostenido por un {npc:137234} en una cueva detrás
 L['da_white_shark_note'] = 'Espera cerca de {npc:133208} hasta que se vuelva hostil.'
 L['dazars_forgotten_chest_note'] = 'El camino comienza cerca de {npc:134738}.'
 L['gift_of_the_brokenhearted_note'] = 'Coloca el incienso para hacer aparecer el cofre.'
-L['offerings_of_the_chosen_note'] = 'En el segundo nivel de Zanchul.'
+L['offerings_of_the_chosen_note'] = 'En el segundo nivel de {location:Zanchul}.'
 L['riches_of_tornowa_note'] = 'En el lado del acantilado.'
 L['spoils_of_pandaria_note'] = 'En el piso inferior del barco.'
 L['tiny_voodoo_mask_note'] = 'Sentado en la choza encima de {npc:141617}.'
@@ -628,17 +626,16 @@ L['talia_spark_note'] = 'En esta tierra las criaturas son feroces. Espero que es
 L['zujai_note'] = '¿Te atreves a desafiarme en mi propia casa? Buena suerte.'
 
 L['kuafon_note'] = [[
-Despoja un {item:157782} de cualquier Pterrordáctilo en Zandalar para empezar la cadena de misiones. Algunas misiones tardarán varios dias en ser completadas.
-
-Los mejores Pterrordáctilos para matar son {npc:126618} en Zanchul o {npc:122113} justo al sur de Tal'gurub.
+Despoja un {item:157782} de cualquier Pterrordáctilo en {location:Zandalar} para empezar la cadena de misiones. Algunas misiones tardarán varios dias en ser completadas.
+Los mejores Pterrordáctilos para matar son {npc:126618} en {location:Zanchul} o {npc:122113} justo al sur de {location:Tal'gurub}.
 ]]
-L['torcali_note'] = 'Completa misiones en el Redil Bestia de Guerra hasta que {quest:47261} esté disponible para hacer. Algunas misiones tardarán varios dias en ser completadas.'
+L['torcali_note'] = 'Completa misiones en el {location:Redil Bestia de Guerra} hasta que {quest:47261} esté disponible para hacer. Algunas misiones tardarán varios dias en ser completadas.'
 
-L['totem_of_paku_note'] = 'Habla con la {npc:137510} al norte del Gran Sello para seleccionar a Pa\'ku como tu loa en Zuldazar.'
+L['totem_of_paku_note'] = 'Habla con la {npc:137510} al norte del {location:Gran Sello} para seleccionar a Pa\'ku como tu loa en {location:Zuldazar}.'
 L['options_icons_paku_totems'] = 'Tótems de Pa\'ku'
-L['options_icons_paku_totems_desc'] = 'Muestra dónde están los {npc:131154} y sus rutas de viaje en Dazar\'alor.'
+L['options_icons_paku_totems_desc'] = 'Muestra dónde están los {npc:131154} y sus rutas de viaje en {location:Dazar\'alor}.'
 
-L['tales_gonk_note'] = 'Reposa en la manta.'
+L['tales_gonk_note'] = 'Encima de la manta.'
 L['tales_gral_note'] = 'En las raices del árbol.'
 L['tales_jani_note'] = 'En el pilar destruido.'
 L['tales_paku_note'] = 'Encima del edificio, en una roca cerca del agua.'
@@ -657,17 +654,17 @@ L['options_icons_life_finds_a_way_desc'] = 'Muestra dónde están los dinosaurio
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L['goramor_note'] = 'Compra una {item:163563} de {npc:126833} y alimenta a {npc:143644}. {npc:126833} está en una cueva pequeña cerca del Bancal de los Pesares.'
-L['makafon_note'] = 'Compra un {item:163564} de {npc:124034} en el Puesto Proveescamas y alimenta a {npc:130922}.'
-L['stompy_note'] = 'Compra una {item:163567} de {npc:133833} al norte del Oasis Silbaflor y alimenta al {npc:143332}.'
+L['goramor_note'] = 'Compra una {item:163563} de {npc:126833} y alimenta a {npc:143644}. {npc:126833} está en una cueva pequeña cerca del {location:Bancal de los Pesares}.'
+L['makafon_note'] = 'Compra un {item:163564} de {npc:124034} en el {location:Puesto Proveescamas} y alimenta a {npc:130922}.'
+L['stompy_note'] = 'Compra una {item:163567} de {npc:133833} al norte del {location:Oasis Silbaflor} y alimenta al {npc:143332}.'
 L['options_icons_brutosaurs'] = '{achievement:13029}'
 L['options_icons_brutosaurs_desc'] = 'Muestra dónde están los brutosaurios para el logro {achievement:13029}.'
 
 local hekd_note = '\n\nPara conseguir acceso a {npc:126334}, necesitas completar %s.'
 if UnitFactionGroup('player') == 'Horde' then
-    hekd_note = hekd_note:format('{quest:47441} que te da {npc:127665} en Dazar\'alor le sigue la misión {quest:47442} que te da {npc:126334}')
+    hekd_note = hekd_note:format('{quest:47441} que te da {npc:127665} en {location:Dazar\'alor} le sigue la misión {quest:47442} que te da {npc:126334}')
 else
-    hekd_note = hekd_note:format('{quest:51142} que te da el {npc:136562} en Voldun le sigue la misión {quest:51145} que te da {npc:136559}')
+    hekd_note = hekd_note:format('{quest:51142} que te da el {npc:136562} en {location:Voldun} le sigue la misión {quest:51145} que te da {npc:136559}')
 end
 local hekd_quest = 'Completa la misión %s que te da {npc:126334}.' .. ns.color.Orange(hekd_note)
 local hekd_item = 'Despoja %s de %s cerca del montón de basura y llévaselo a {npc:126334}.' .. ns.color.Orange(hekd_note)
@@ -693,14 +690,14 @@ L['options_icons_mushroom_harvest_desc'] = 'Muestra dónde están los villanos f
 L['options_icons_tales_of_de_loa'] = '{achievement:13036}'
 L['options_icons_tales_of_de_loa_desc'] = 'Muestra dónde están los volúmenes para el logro {achievement:13036}.'
 
-L['jani_note'] = 'Haz click en el Montón de Basura Misteriosa para que aparezca {npc:126334}.'
+L['jani_note'] = 'Haz click en el {object:Montón de Basura Misteriosa} para que aparezca {npc:126334}.'
 L['rezan_note'] = '{note:Dentro de la mazmorra {location:Atal\'Dazar}.}'
-L['bow_to_your_masters_note'] = 'Reverencia a los loa de Zandalar ({emote:/reverenciar}).'
+L['bow_to_your_masters_note'] = 'Reverencia a los loa de {location:Zandalar} ({emote:/reverenciar}).'
 L['options_icons_bow_to_your_masters'] = '{achievement:13020}'
 L['options_icons_bow_to_your_masters_desc'] = 'Muestra dónde están los sitios para el logro {achievement:13020}.'
 
-L['alisha_note'] = 'Este vendedor requiere progresar en las misiones de Drustvar.'
-L['elijah_note'] = 'Este vendedor requiere progresar en las misiones de Drustvar. Él comienza a vender salchichas tras hacer la misión {quest:47945}.'
+L['alisha_note'] = 'Este vendedor requiere progresar en las misiones de {location:Drustvar}.'
+L['elijah_note'] = 'Este vendedor requiere progresar en las misiones de {location:Drustvar}. Él comienza a vender salchichas tras hacer la misión {quest:47945}.'
 L['raal_note'] = '{note:Está dentro de la mazmorraz {location:Mansión Crestavía}.}'
 L['sausage_sampler_note'] = 'Come cada una de las salchichas para conseguir el logro.'
 L['options_icons_sausage_sampler'] = '{achievement:13087}'
@@ -708,7 +705,6 @@ L['options_icons_sausage_sampler_desc'] = 'Muestra dónde están los vendedores 
 
 -- Para la Horda, incluida una nota para las bebidas que deben comprarse en la AH
 local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Las siguientes bebidas son inaccesibles para la Horda y deben comprarse en la casa de subastas:
-
 • {item:163639}
 • {item:163638}
 • {item:158927}
@@ -726,7 +722,7 @@ L['options_icons_daily_chests'] = 'Cofres'
 L['supply_chest'] = 'Cofre de Suministros de Guerra'
 L['supply_chest_note'] = 'Una {npc:135181} o un {npc:138694} volarán por lo alto cada 45 minutos y soltarán un {npc:135238} en uno de estos tres sitios.'
 L['supply_single_drop'] = '{note:Esta ruta de vuelo siempre suelta el cofre de suministros en este lugar.}'
-L['options_icons_supplies_desc'] = 'Muestra dlos sitios posibles para los {npc:135238}.'
+L['options_icons_supplies_desc'] = 'Muestra los sitios posibles para los {npc:135238}.'
 L['options_icons_supplies'] = '{npc:135238}'
 
 L['secret_supply_chest'] = 'Cofres de Suministros Secreto'
