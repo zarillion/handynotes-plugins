@@ -249,6 +249,15 @@ L['options_icons_small_treasures_desc'] = nil
 
 L['storm_bound_chest_label'] = nil
 
+-- ARTISAN CURIO
+
+L['book_of_arcane_entities_label'] = nil
+L['tuskarr_kite_post_label'] = nil
+L['farescale_shrine_label'] = nil
+L['resonating_crystal_label'] = nil
+L['spellsworn_ward_label'] = nil
+L['rumbling_draconion_label'] = nil
+
 -- ACH: LIBRARIAN OF THE REACH
 
 L['spellsworn_missive_label'] = nil
@@ -257,6 +266,8 @@ L['confiscated_journal_label'] = nil
 L['confiscated_journal_note'] = nil
 L['farscale_manifesto_label'] = nil
 L['farscale_manifesto_note'] = nil
+L['lost_expeditions_notes_label'] = nil
+L['lost_expeditions_notes_note'] = nil
 
 L['options_icons_librarian_of_the_reach'] = nil
 L['options_icons_librarian_of_the_reach_desc'] = nil
@@ -269,11 +280,6 @@ L['options_icons_scalecommander_item_desc'] = nil
 -- MISC
 
 L['awakened_soil_label'] = nil
-
-L['book_of_arcane_entities_label'] = nil
-L['tuskarr_kite_post_label'] = nil
-L['farescale_shrine_label'] = nil
-L['resonating_crystal_label'] = nil
 
 L['zskera_vault_label'] = nil
 L['zskera_vault_note'] = nil

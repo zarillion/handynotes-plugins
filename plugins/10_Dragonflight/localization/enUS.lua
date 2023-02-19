@@ -241,13 +241,22 @@ L['options_icons_forbidden_hoard_desc'] = 'Display possible locations of {object
 -- SMALL TREASURES
 
 L['small_treasures_label'] = 'Small Treasure'
-L['small_treasures_note'] = 'Small treasures are shared between spawn points.'
+L['small_treasures_note'] = 'Small treasures are shared between spawn points.\n\nPurchase {item:204558} from {npc:200566} at {location:Morqut Village} to receive the {spell:405637} buff which allows you to see small treasures on the minimap for 60 minutes.'
 L['options_icons_small_treasures'] = 'Small Treasures'
 L['options_icons_small_treasures_desc'] = 'Display possible locations for small treasures.'
 
 -- MISC TREASURES
 
 L['storm_bound_chest_label'] = 'Storm-Bound Chest'
+
+-- ARTISAN CURIO
+
+L['book_of_arcane_entities_label'] = 'Book of Arcane Entities'
+L['tuskarr_kite_post_label'] = 'Tuskarr Kite Post'
+L['farescale_shrine_label'] = 'Farscale Shrine'
+L['resonating_crystal_label'] = 'Resonating Crystal'
+L['spellsworn_ward_label'] = 'Spellsworn Ward'
+L['rumbling_draconion_label'] = 'Rumbling Draconium'
 
 -- ACH: LIBRARIAN OF THE REACH
 
@@ -257,6 +266,8 @@ L['confiscated_journal_label'] = 'Confiscated Journal'
 L['confiscated_journal_note'] = 'Open the {object:Confiscated Journal} and loot the {item:204316}.'
 L['farscale_manifesto_label'] = 'Farscale Manifesto'
 L['farscale_manifesto_note'] = 'Open the {object:Farscale Manifesto} and loot the {item:204335}.'
+L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
+L['lost_expeditions_notes_note'] = 'Open the {object:Lost Expedition Notes} and loot the {item:204321}.'
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}.'
@@ -269,11 +280,6 @@ L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achie
 -- MISC
 
 L['awakened_soil_label'] = 'Awakened Soil'
-
-L['book_of_arcane_entities_label'] = 'Book of Arcane Entities'
-L['tuskarr_kite_post_label'] = 'Tuskarr Kite Post'
-L['farescale_shrine_label'] = 'Farscale Shrine'
-L['resonating_crystal_label'] = 'Resonating Crystal'
 
 L['zskera_vault_label'] = 'Zskera Vault'
 L['zskera_vault_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vault}.'

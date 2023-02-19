@@ -28,10 +28,11 @@ local POI = ns.poi.POI
 
 local map = Map({id = 2151, settings = true})
 
-local seigeCreche = Map({id = 2100, settings = false}) -- The Seige Crech
+local siegeCreche = Map({id = 2100, settings = false}) -- The Seige Crech
 local supportCreche = Map({id = 2101, settings = false}) -- The Support Creche
 local warCreche = Map({id = 2102, settings = false}) -- The War Creche
 local froststoneVault = Map({id = 2154, settings = false}) -- Froststone Vault
+local dragonskullIsland = Map({id = 2150, settings = false}) -- Dragonskull Island
 
 -------------------------------------------------------------------------------
 ------------------------------ HELPER FUNCTIONS ------------------------------- -- DISABLE BEFORE RELEASE
@@ -298,7 +299,7 @@ map.nodes[78205066] = Volcanakk({
     }
 }) -- Volcanakk (The Forbidden Reach)
 
-seigeCreche.nodes[58993931] = Volcanakk() -- Volcanakk (The Seige Creche)
+siegeCreche.nodes[58993931] = Volcanakk() -- Volcanakk (The Siege Creche)
 
 -- map.nodes[] = Rare({
 --     id = 200619,
@@ -461,12 +462,23 @@ local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
 }) -- Forbidden Hoard
 
 map.nodes[39192452] = ForbiddenHoard()
-map.nodes[50733679] = ForbiddenHoard()
+map.nodes[41154445] = ForbiddenHoard({
+    sublabel = L['in_a_small_cave'],
+    pois = {
+        POI({41184350}) -- Entrance
+    }
+})
+map.nodes[50733679] = ForbiddenHoard({
+    sublabel = L['in_a_small_cave'],
+    pois = {
+        POI({49463696}) -- Entrance
+    }
+})
 map.nodes[53157801] = ForbiddenHoard()
+map.nodes[56765534] = ForbiddenHoard()
 map.nodes[58006276] = ForbiddenHoard()
 map.nodes[62584946] = ForbiddenHoard()
 map.nodes[67756834] = ForbiddenHoard()
-map.nodes[56765534] = ForbiddenHoard()
 
 -------------------------------------------------------------------------------
 ------------------------------- SMALL TREASURES -------------------------------
@@ -502,37 +514,55 @@ local SmallTreasure = Class('SmallTreasure', Collectible, {
             }
         }), -- Hoarder of the Forbidden Reach
         Currency({id = 2118}) -- Elemental Overflow
+    },
+    pois = {
+        POI({34325997}) -- Cataloger Daela
     }
 }) -- Small Treasure
 
+map.nodes[17935425] = SmallTreasure()
 map.nodes[29704826] = SmallTreasure()
+map.nodes[33124319] = SmallTreasure()
+map.nodes[40314192] = SmallTreasure()
+map.nodes[42045105] = SmallTreasure()
 map.nodes[44745794] = SmallTreasure()
 map.nodes[45705660] = SmallTreasure()
 map.nodes[47071542] = SmallTreasure()
 map.nodes[48764706] = SmallTreasure()
+map.nodes[49464251] = SmallTreasure()
 map.nodes[50374387] = SmallTreasure()
 map.nodes[54285826] = SmallTreasure()
 map.nodes[54575658] = SmallTreasure()
 map.nodes[54904277] = SmallTreasure()
 map.nodes[57545601] = SmallTreasure()
+map.nodes[58556090] = SmallTreasure()
+map.nodes[59425809] = SmallTreasure()
 map.nodes[67284345] = SmallTreasure()
 map.nodes[68604706] = SmallTreasure()
 map.nodes[70806917] = SmallTreasure()
+map.nodes[70826916] = SmallTreasure()
+map.nodes[70844360] = SmallTreasure()
 map.nodes[71385357] = SmallTreasure()
 map.nodes[72305308] = SmallTreasure()
 map.nodes[72396117] = SmallTreasure()
 
+warCreche.nodes[38095249] = SmallTreasure()
 warCreche.nodes[49098242] = SmallTreasure()
+warCreche.nodes[64044226] = SmallTreasure()
 
-seigeCreche.nodes[44804622] = SmallTreasure()
+siegeCreche.nodes[44804622] = SmallTreasure()
+siegeCreche.nodes[53712134] = SmallTreasure()
 
 froststoneVault.nodes[56505366] = SmallTreasure()
 
+dragonskullIsland.nodes[42454551] = SmallTreasure()
+
 -------------------------------- MISCELLANEOUS --------------------------------
 
-map.nodes[48697111] = ns.node.ElementalChest({
+map.nodes[48947352] = ns.node.ElementalChest({
     label = L['storm_bound_chest_label'],
-    quest = nil
+    quest = nil,
+    areaPOI = 7415
 }) -- Storm-Bound Chest
 
 -------------------------------------------------------------------------------
@@ -585,6 +615,95 @@ map.nodes[76285343] = Flag({quest = 73702})
 -------------------------------------------------------------------------------
 
 map.nodes[39988182] = SignalTransmitter({quest = 73145}) -- Sharpscale Coast
+
+-------------------------------------------------------------------------------
+------------------------------- ARTISAN CURIOS --------------------------------
+-------------------------------------------------------------------------------
+
+-- TODO: These nodes might end up in ns.groups.PROFESSION_TREASURES as soon as
+-- I find out what they actually do. The name will probably change but at least
+-- they are organized for now.
+--
+-- Profession Treasures currently use the skill UI icon. These currently use
+-- the required item icon. Depending on what happens these icons may need to be
+-- updated.
+
+-- L['options_icons_artisan_curio'] = nil
+-- L['options_icons_artisan_curio_desc'] = nil
+
+-- ns.groups.ARTISAN_CURIO = Group('artisan_curio', nil, {
+--     defaults = ns.GROUP_HIDDEN,
+--     type = ns.group_types.EXPANSION
+-- })
+
+local ArtisanCurio = Class('ArtisanCurio', Collectible, {
+    -- group = ns.groups.ARTISAN_CURIO,
+    -- group = ns.groups.PROFESSION_TREASURES,
+    IsEnabled = function(self)
+        if not ns.PlayerHasProfession(self.skillID) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- Artisan Curio
+
+map.nodes[67237599] = ArtisanCurio({
+    label = L['farescale_shrine_label'],
+    icon = 2735993,
+    -- icon = 4620670, -- Blacksmithing
+    requires = ns.requirement.Item(203408), -- Ceremonial Trident
+    skillID = 164 -- Blacksmithing
+}) -- Farscale Shrine
+
+map.nodes[55633610] = ArtisanCurio({
+    label = L['book_of_arcane_entities_label'],
+    icon = 1033184,
+    -- icon = 4620672, -- Enchanting
+    requires = ns.requirement.Item(203410), -- Glowing Crystal Bookmark
+    skillID = 333, -- Enchanting
+    pois = {
+        POI({55103837}) -- Entrance
+    }
+}) -- Book of Arcane Entities
+
+map.nodes[61256442] = ArtisanCurio({
+    label = L['spellsworn_ward_label'],
+    icon = 4638727,
+    -- icon = 4620676. -- Inscription
+    requires = ns.requirement.Item(203412), -- Dispelling Rune
+    skillID = 773 -- Inscription
+}) -- Spellsworn Ward
+
+map.nodes[28905707] = ArtisanCurio({
+    label = L['resonating_crystal_label'],
+    icon = 2264901,
+    -- icon = 4620677, -- Jewelcrafting
+    requires = ns.requirement.Item(203413), -- Tuning Fork
+    skillID = 755, -- Jewelcrafting
+    note = L['in_small_cave'],
+    pois = {
+        POI({30496101}) -- Entrance
+    }
+}) -- Resonating Crystal
+
+dragonskullIsland.nodes[56947247] = ArtisanCurio({
+    label = L['rumbling_draconion_label'],
+    icon = 134463,
+    -- icon = 4620679, -- Mining
+    parent = map.id,
+    note = L['in_cave'],
+    requires = ns.requirement.Item(203418), -- Quaking Stone
+    skillID = 186, -- Mining
+    pois = {
+        POI({74533560, 76633764}) -- Entrances
+    }
+}) -- Rumbling Draconium
+
+map.nodes[57634843] = ArtisanCurio({
+    label = L['tuskarr_kite_post_label'],
+    icon = 318523,
+    -- icon = 4620681,  -- Tailoring
+    requires = ns.requirement.Item(203415), -- Morqut Kite
+    skillID = 197 -- Tailoring
+}) -- Tuskarr Kite Post
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -698,9 +817,27 @@ map.nodes[49426006] = Dragonrace({
     }
 }) -- Forbidden Reach Ramble
 
-------------------------------------------------------------------------
----------------------------- SCROLL HUNTER -----------------------------
-------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+------------------------ FROSTSTONE VAULT PRIMAL STORM ------------------------
+-------------------------------------------------------------------------------
+
+-- TODO: This is more of a placeholder to track areaPOIs for Froststone
+-- Vault Primal Storms. I'm sure evetually we'll tap into AreaPOIPinMixin
+-- to show rewards on tooltips.
+
+-- TODO: This node might be categorized "Snowstorm" but I need WoW.tools to
+-- update their database. So I can get all of the areaPOI ids.
+map.nodes[60103875] = Collectible({
+    label = 'Frostone Vault Primal Storm', -- TODO: Non-localized name for now
+    areaPOI = 7411,
+    rewards = {
+        Item({item = 199748, quest = 70752}) -- Primal Water Core
+    }
+}) -- Primal Storm
+
+-------------------------------------------------------------------------------
+-------------------------------- SCROLL HUNTER --------------------------------
+-------------------------------------------------------------------------------
 
 -- L['scroll_hunter_suffix'] = 'Treasures found'
 -- L['options_icons_scroll_hunter'] = '{achievement:17532}'
@@ -733,9 +870,9 @@ map.nodes[49426006] = Dragonrace({
 
 -- map.nodes[] = SealedScroll()
 
-------------------------------------------------------------------------
------------------------- LIBRARIAN OF THE REACH ------------------------
-------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+--------------------------- LIBRARIAN OF THE REACH ----------------------------
+-------------------------------------------------------------------------------
 
 local LibraryBook = Class('LibraryBook', Collectible,
     {icon = 4549135, group = ns.groups.LIBRARY})
@@ -765,10 +902,11 @@ map.nodes[71036732] = LibraryBook({
 --     rewards = {Achievement({id = 17530, criteria = 58504})}
 -- })-- Return of the Nightsquall
 
--- map.nodes[] = LibraryBook({
---     id = 204321,
---     rewards = {Achievement({id = 17530, criteria = 58505})}
--- })-- Expedition Notes
+map.nodes[57446349] = LibraryBook({
+    label = L['lost_expeditions_notes_label'],
+    note = L['lost_expeditions_notes_note'],
+    rewards = {Achievement({id = 17530, criteria = 58505})}
+}) -- Expedition Notes
 
 -- map.nodes[] = LibraryBook({
 --     id = 204317,
@@ -780,9 +918,9 @@ map.nodes[71036732] = LibraryBook({
 --     rewards = {Achievement({id = 17530, criteria = 58507})}
 -- })-- The Old Gods and the Ordering of Azeroth (Annotated)
 
-------------------------------------------------------------------------
------------------------- WHILE WE WERE SLEEPING ------------------------
-------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+--------------------------- WHILE WE WERE SLEEPING ----------------------------
+-------------------------------------------------------------------------------
 
 local ScalecommanderItem = Class('scalecommander_item', Collectible, {
     icon = 134422,
@@ -850,59 +988,51 @@ map.nodes[55393586] = ScalecommanderItem({
 -- TODO: Not sure what the following nodes are for yet. But they look
 -- interesting so I saved them just in case!
 
-map.nodes[56425914] = ns.node.Node({
+map.nodes[35354003] = ns.node.Node({
     label = L['awakened_soil_label'],
     icon = 656681,
     requires = ns.requirement.Item(203416) -- Lifebloom Seeds -- Appears to NOT be Herbalism related
 }) -- Awakened Soil
 
--- TODO: Each of these nodes requires a specific crafted item from a
--- profession. I suspect there may be an entire set - one for each
--- profession.
+-- TODO: I've ran into several different Edicts while exploring. No quest flips
+-- and nothing in the Achievement frame about them. Might be quest related?
+-- There was ah achievement in Panderia related to edicts. Starting to save
+-- them now just in case.
 
-map.nodes[55633610] = ns.node.Node({
-    label = L['book_of_arcane_entities_label'],
-    icon = 1033184,
-    requires = ns.requirement.Item(203410), -- Glowing Crystal Bookmark -- Enchanting
+map.nodes[55616889] = ns.node.Node({
+    label = 'Edict: The Adamant Vigil', -- TODO: Non-localized name for now
+    note = L['in_the_high_creche'],
     pois = {
-        POI({55103837}) -- Entrance
+        POI({58666933}) -- Entrance
     }
-}) -- Book of Arcane Entities
+}) -- Edict: The Adamant Vigil
 
-map.nodes[57634843] = ns.node.Node({
-    label = L['tuskarr_kite_post_label'],
-    icon = 318523,
-    requires = ns.requirement.Item(203415) -- Morqut Kite -- Tailoring
-}) -- Tuskarr Kite Post
-
-map.nodes[67237599] = ns.node.Node({
-    label = L['farescale_shrine_label'],
-    icon = 2735993,
-    requires = ns.requirement.Item(203408) -- Ceremonial Trident -- Blacksmithing
-}) -- Farscale Shrine
-
-map.nodes[28905707] = ns.node.Node({
-    label = L['resonating_crystal_label'],
-    icon = 2264901,
-    requires = ns.requirement.Item(203413), -- Tuning Fork -- Jewelcrafting
-    note = L['in_small_cave'],
+warCreche.nodes[32346769] = ns.node.Node({
+    label = 'Edict: Dark Talons', -- TODO: Non-localized name for now
+    note = L['in_the_war_creche'],
+    parent = map.id,
     pois = {
-        POI({30496101}) -- Entrance
+        POI({51786020}) -- Entrance
     }
-}) -- Resonating Crystal
+}) -- Edict: Dark Talons
 
--- TODO: I've ran into 3 different Edicts while exploring. No quest flips and
--- nothing in the Achievement frame about them. Might be quest related? There
--- was ah achievement in Panderia related to edicts. Starting to save them now
--- just in case.
+warCreche.nodes[39347578] = ns.node.Node({
+    label = 'Edict: The Earth-Warder', -- TODO: Non-localized name for now
+    note = L['in_the_war_creche'],
+    parent = map.id,
+    pois = {
+        POI({51786020}) -- Entrance
+    }
+}) -- Edict: The Earth-Warder
 
--- map.nodes[55616889] = ns.node.Node({
---     label = 'Edict: The Adamant Vigil', -- TODO: Non-localized name for now
---     note = L['in_the_high_creche'],
---     pois = {
---         POI({58666933}) -- Entrance
---     }
--- }) -- Edict: The Adamant Vigil
+warCreche.nodes[31118323] = ns.node.Node({
+    label = 'Edict: Obsidian Warders', -- TODO: Non-localized name for now
+    note = L['in_the_war_creche'],
+    parent = map.id,
+    pois = {
+        POI({51786020}) -- Entrance
+    }
+}) -- Edict: Obsidian Warders
 
 --------------------------------- ZSKERA VAULT --------------------------------
 

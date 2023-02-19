@@ -242,13 +242,22 @@ L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles d
 -- SMALL TREASURES
 
 L['small_treasures_label'] = 'Petit Trésor'
-L['small_treasures_note'] = 'Les petits trésors sont répartis entre les points d\'apparition.'
+L['small_treasures_note'] = 'Les petits trésors sont répartis entre les points d\'apparition.' -- review
 L['options_icons_small_treasures'] = 'Petits Trésors'
 L['options_icons_small_treasures_desc'] = 'Afficher les emplacements possibles des petits trésors.'
 
 -- MISC TREASURES
 
 L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
+
+-- ARTISAN CURIO
+
+L['book_of_arcane_entities_label'] = 'Livre des entités arcaniques'
+L['tuskarr_kite_post_label'] = nil
+L['farescale_shrine_label'] = nil
+L['resonating_crystal_label'] = nil
+L['spellsworn_ward_label'] = nil
+L['rumbling_draconion_label'] = nil
 
 -- ACH: LIBRARIAN OF THE REACH
 
@@ -258,6 +267,8 @@ L['confiscated_journal_label'] = nil
 L['confiscated_journal_note'] = nil
 L['farscale_manifesto_label'] = nil
 L['farscale_manifesto_note'] = nil
+L['lost_expeditions_notes_label'] = nil
+L['lost_expeditions_notes_note'] = nil
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}.'
@@ -270,11 +281,6 @@ L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des obj
 -- MISC
 
 L['awakened_soil_label'] = 'Sol éveillé'
-
-L['book_of_arcane_entities_label'] = 'Livre des entités arcaniques'
-L['tuskarr_kite_post_label'] = nil
-L['farescale_shrine_label'] = nil
-L['resonating_crystal_label'] = nil
 
 L['zskera_vault_label'] = 'Caveau de Zskera'
 L['zskera_vault_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans le {location:Caveau de Zskera}.'
