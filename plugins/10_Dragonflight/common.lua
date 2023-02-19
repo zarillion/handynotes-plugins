@@ -78,7 +78,7 @@ ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {
     end
 })
 
-ns.groups.TUSKARR_TACKLEBOX = Group('tuskarr_tacklebox', 'chest_bl', {
+ns.groups.TUSKARR_TACKLEBOX = Group('tuskarr_tacklebox', 'chest_yw', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -731,7 +731,7 @@ ns.node.MagicBoundChest = MagicBoundChest
 
 local TuskarrTacklebox = Class('TuskarrTacklebox', Node, {
     label = L['tuskarr_tacklebox'],
-    icon = 'chest_bl',
+    icon = 'chest_yw',
     group = ns.groups.TUSKARR_TACKLEBOX,
     requires = {
         ns.requirement.Reputation(2511, 27, true), -- Iskaara Tuskarr
