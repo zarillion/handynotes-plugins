@@ -79,7 +79,7 @@ L['faerie_trove'] = 'Está debajo de la plataforma.'
 L['harmonic_chest'] = 'Requiere dos personas. Uno toca el arpa y el otro toca el tambor para desbloquear el cofre.'
 L['hearty_dragon_plume'] = 'Haz click en la {spell:333554} en la cima de las cascadas cercanas y úsala para flotar abajo hasta la rama.'
 L['old_ardeite_note'] = 'Mata al {npc:160747} y al {npc:160748} en {location:Ramacentella} hacia el sureste para conseguir el {item:174042}. Usa este objeto para volar cerca del {npc:164391} y targetearlo.'
-L['swollen_anima_seed'] = 'Una gran semilla que reposa dentro del tronco de un árbol.'
+L['swollen_anima_seed'] = 'Una gran semilla que est dentro del tronco de un árbol.'
 
 L['playful_vulpin_note'] = [[
 Encuentra y teclea la emoción correcta seleccionando a {npc:171206} cinco veces para conseguir la mascota.
@@ -458,7 +458,7 @@ Para tirar sólo del brazo, sólo hacen falta las {spell:327367}.
 
 L['pet_cat'] = '¡Acaricia al maldito gato!'
 L['hairball'] = ns.color.Red('¡Sólo aparece en el Sagrario Purulento dentro de la mazmorra Bajapeste!')
-L['lime'] = 'Reposa sobre el gran arco óseo.'
+L['lime'] = 'Est sobre el gran arco óseo.'
 L['moldstopheles'] = 'Corre alrededor del tallo y salta hacia la pared para saltar en la plataforma con forma de champiñón. Salta otra y para la última, usa una montura y salta en la raíz que rodea el tallo del champiñón gigante.'
 L['pus_in_boots'] = 'Está debajo del puente.'
 
@@ -909,7 +909,7 @@ L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 a
 
 L['architects_reserve_note'] = 'Completa la cadena de misiones {quest:64829} que da {npc:180630} en Gracia del Peregrino para desbloquear el tesoro.'
 L['bushel_of_produce_note'] = 'Mata al {npc:182368} al norte mientras tenga el buff {spell:360945} para ganártelo tú. Mata más {npc:182368} (no necesitan tener el buff) hasta que tengas 5 acumulaciones. Ya puedes romper la puerta que da al tesoro.'
-L['crushed_crate_note'] = 'Despoja la {item:189767} que reposa encima del pilar caido por encima del tesoro. Dásela a {npc:185151} a cambio del {item:189768} el cual puede romper las rocas caidas.'
+L['crushed_crate_note'] = 'Despoja la {item:189767} que est encima del pilar caido por encima del tesoro. Dásela a {npc:185151} a cambio del {item:189768} el cual puede romper las rocas caidas.'
 L['domination_cache_note'] = 'La {item:189704} tiene pocas probabilidades de caer de los {npc:181403} y de los {npc:182426} de la zona.'
 L['drowned_broker_supplies_note'] = 'Dile a {npc:181059} que coja el control de un {npc:185282} cercano.'
 L['forgotten_protovault_note'] = 'Sólo está disponible durante la misión del mundo {wq:A salto de rana}.'
