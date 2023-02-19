@@ -710,7 +710,7 @@ map.nodes[57634843] = ArtisanCurio({
 -------------------------------------------------------------------------------
 
 map.nodes[76136563] = Dragonrace({
-    -- label = nil,
+    label = '{quest:73017}',
     -- normal = {nil, nil, nil},
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
@@ -728,7 +728,7 @@ map.nodes[76136563] = Dragonrace({
 }) -- Stormsunder Crater Circuit
 
 map.nodes[45917966] = Dragonrace({
-    -- label = nil,
+    label = '{quest:73020}',
     -- normal = {nil, nil, nil},
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
@@ -743,10 +743,10 @@ map.nodes[45917966] = Dragonrace({
         Achievement({id = 17289, criteria = 2, oneline = true}), -- reverse silver
         Achievement({id = 17290, criteria = 2, oneline = true}) -- reverse gold
     }
-}) -- Morqt Ascent
+}) -- Morqut Ascent
 
 map.nodes[63095195] = Dragonrace({
-    -- label = nil,
+    label = '{quest:73025}',
     -- normal = {nil, nil, nil},
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
@@ -764,7 +764,7 @@ map.nodes[63095195] = Dragonrace({
 }) -- Aerie Chasm Cruise
 
 map.nodes[63658406] = Dragonrace({
-    -- label = nil,
+    label = '{quest:73029}',
     -- normal = {nil, nil, nil},
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
@@ -782,7 +782,7 @@ map.nodes[63658406] = Dragonrace({
 }) -- Southern Reach Route
 
 map.nodes[41361455] = Dragonrace({
-    -- label = nil,
+    label = '{quest:73033}',
     -- normal = {nil, nil, nil},
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
@@ -800,7 +800,7 @@ map.nodes[41361455] = Dragonrace({
 }) -- Caldera Coaster
 
 map.nodes[49426006] = Dragonrace({
-    -- label = nil,
+    label = '{quest:73061}',
     -- normal = {nil, nil, nil},
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
@@ -815,7 +815,7 @@ map.nodes[49426006] = Dragonrace({
         Achievement({id = 17289, criteria = 6, oneline = true}), -- reverse silver
         Achievement({id = 17290, criteria = 6, oneline = true}) -- reverse gold
     }
-}) -- Forbidden Reach Ramble
+}) -- Forbidden Reach Rush
 
 -------------------------------------------------------------------------------
 ------------------------ FROSTSTONE VAULT PRIMAL STORM ------------------------
