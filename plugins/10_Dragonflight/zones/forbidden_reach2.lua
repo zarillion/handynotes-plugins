@@ -28,7 +28,7 @@ local POI = ns.poi.POI
 
 local map = Map({id = 2151, settings = true})
 
-local siegeCreche = Map({id = 2100, settings = false}) -- The Seige Crech
+local siegeCreche = Map({id = 2100, settings = false}) -- The Siege Crech
 local supportCreche = Map({id = 2101, settings = false}) -- The Support Creche
 local warCreche = Map({id = 2102, settings = false}) -- The War Creche
 local froststoneVault = Map({id = 2154, settings = false}) -- Froststone Vault
