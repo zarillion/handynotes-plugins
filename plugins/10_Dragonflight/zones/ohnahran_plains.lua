@@ -810,6 +810,59 @@ map.nodes[53296890] = Treasure({
     }
 }) -- Forgotten Dragon Treasure
 
+----------------------------- Nokhudon Clan Chest -----------------------------
+
+local ClanChest = Class('ClanChest', ns.node.Node, {
+    label = L['clan_chest'],
+    icon = 'chest_bk',
+    group = ns.groups.CLAN_CHEST,
+    rewards = {
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Item({item = 190454}), -- Primal Chaos
+        Transmog({item = 201024, slot = L['cosmetic']}), -- Nokhudon Mantle
+        Transmog({item = 201025, slot = L['cosmetic']}), -- Nokhudon Harness
+        Transmog({item = 201027, slot = L['cosmetic']}), -- Nokhudon Breeches
+        Transmog({item = 201028, slot = L['cosmetic']}), -- Nokhudon Boots
+        Transmog({item = 201029, slot = L['cosmetic']}), -- Nokhudon Hood
+        Transmog({item = 201030, slot = L['cosmetic']}), -- Nokhudon Grips
+        Transmog({item = 201031, slot = L['cosmetic']}), -- Nokhudon Cloak
+        Transmog({item = 201032, slot = L['cosmetic']}), -- Nokhudon Wraps
+        Transmog({item = 201034, slot = L['cosmetic']}), -- Nokhudon Girdle
+        Transmog({item = 201380, slot = L['cosmetic']}), -- Nokhud Hunter's Bow
+        Transmog({item = 201382, slot = L['cosmetic']}), -- Centaur Warglaives
+        Transmog({item = 201383, slot = L['cosmetic']}), -- Nokhud Stalker's Spear
+        Transmog({item = 201384, slot = L['cosmetic']}), -- Centaur Tracker's Javelin
+        Transmog({item = 201385, slot = L['cosmetic']}), -- Nokhud Centaur Warstaff
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Item({item = 200093}), -- Centaur Hunting Trophy
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+})
+
+map.nodes[25003780] = ClanChest()
+map.nodes[25303740] = ClanChest()
+map.nodes[31307060] = ClanChest()
+map.nodes[32206810] = ClanChest()
+map.nodes[32403900] = ClanChest()
+map.nodes[32503890] = ClanChest()
+map.nodes[33504240] = ClanChest()
+map.nodes[34803705] = ClanChest()
+map.nodes[35004190] = ClanChest()
+map.nodes[35406580] = ClanChest()
+map.nodes[36104173] = ClanChest()
+map.nodes[49406770] = ClanChest()
+map.nodes[50906650] = ClanChest()
+map.nodes[71845676] = ClanChest()
+map.nodes[73405610] = ClanChest()
+map.nodes[74603920] = ClanChest()
+map.nodes[74704040] = ClanChest()
+map.nodes[75204160] = ClanChest()
+map.nodes[75504050] = ClanChest()
+map.nodes[83705360] = ClanChest()
+map.nodes[85505470] = ClanChest()
+map.nodes[86485063] = ClanChest()
+map.nodes[86505330] = ClanChest()
+
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------

@@ -88,6 +88,11 @@ ns.groups.TUSKARR_CHEST = Group('tuskarr_chest', 'chest_bn', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.CLAN_CHEST = Group('clan_chest', 'chest_bk', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 -------------------------------------------------------------------------------
 
 ns.groups.ANCESTOR = Group('ancestor', 135946, {

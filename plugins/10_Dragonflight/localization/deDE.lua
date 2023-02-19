@@ -312,6 +312,10 @@ L['chest_of_the_flood'] = 'Truhe der Flut'
 
 L['aylaag_camp_note'] = 'Der {faction:Aylaag Klan} zieht alle 3 Tage und 3 Stunden (75 Stunden) weiter in ein anderes Lager, folge ihnen und verteidige sie auf ihren Weg.'
 
+L['tuskarr_chest'] = 'Klankiste'
+L['options_icons_tuskarr_chest'] = 'Klankisten'
+L['options_icons_tuskarr_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Klankisten} an.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
