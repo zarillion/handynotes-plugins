@@ -837,7 +837,7 @@ local ClanChest = Class('ClanChest', ns.node.Node, {
     }
 })
 
-map.nodes[25003780] = ClanChest()
+map.nodes[25013785] = ClanChest()
 map.nodes[25303740] = ClanChest()
 map.nodes[31307060] = ClanChest()
 map.nodes[32206810] = ClanChest()
@@ -1187,11 +1187,11 @@ map.nodes[80133864] = Disturbeddirt({
     note = L['in_cave'],
     pois = {POI({79403650})}
 })
+map.nodes[32834660] = Disturbeddirt()
 map.nodes[81403827] = Disturbeddirt()
 map.nodes[82543651] = Disturbeddirt()
 map.nodes[82593486] = Disturbeddirt()
 map.nodes[83243606] = Disturbeddirt()
-map.nodes[32834660] = Disturbeddirt()
 map.nodes[83731265] = Disturbeddirt()
 map.nodes[85833271] = Disturbeddirt()
 map.nodes[86683243] = Disturbeddirt()
@@ -1208,8 +1208,10 @@ map.nodes[23944019] = Scoutpack()
 map.nodes[24745680] = Scoutpack()
 map.nodes[25205876] = Scoutpack()
 map.nodes[27395211] = Scoutpack()
+map.nodes[31927666] = Scoutpack()
 map.nodes[32043887] = Scoutpack()
 map.nodes[32135114] = Scoutpack()
+map.nodes[33764307] = Scoutpack()
 map.nodes[35925854] = Scoutpack()
 map.nodes[42883769] = Scoutpack()
 map.nodes[43335647] = Scoutpack()
@@ -1233,7 +1235,6 @@ map.nodes[78736935] = Scoutpack()
 map.nodes[84685647] = Scoutpack()
 map.nodes[86084606] = Scoutpack()
 map.nodes[91393390] = Scoutpack()
-map.nodes[33764307] = Scoutpack()
 
 -------------------------------------------------------------------------------
 ------------------------------ Magic-Bound Chest ------------------------------
