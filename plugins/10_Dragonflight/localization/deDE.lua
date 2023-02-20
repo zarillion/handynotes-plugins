@@ -228,10 +228,10 @@ L['hoarder_of_the_forbidden_reach_suffix'] = 'kleine Schätze geöffnet.'
 L['hoarder_of_the_forbidden_reach_suffix'] = nil
 L['forbidden_spoils_suffix'] = nil
 
-L['forbidden_hoard_label'] = nil
+L['forbidden_hoard_label'] = 'Verbotener Schatz'
 L['forbidden_hoard_note'] = 'Besiege die umliegenden Gegner um den Schatz zu öffnen.'
-L['options_icons_forbidden_hoard'] = nil
-L['options_icons_forbidden_hoard_desc'] = 'Zeige mögliche Positionen von {object:Forbidden Hoard}.'
+L['options_icons_forbidden_hoard'] = 'Verbotene Schätze'
+L['options_icons_forbidden_hoard_desc'] = 'Zeige mögliche Positionen von {object:Forbidden Verbotener Schatz}.'
 
 -- SMALL TREASURES
 
@@ -286,9 +286,9 @@ L['zskera_vault_label'] = nil
 L['zskera_vault_note'] = 'Sammle {item:202196} von Seltenen Gegnern und Schätzen um Türen in {location:Zskera Vault} zu öffnen.'
 L['door_buster_suffix'] = 'Türen können mit {item:202196} aufgesperrt werden'
 
-L['froststone_vault_storm_label'] = nil
-L['options_icons_froststone_vault_storm'] = nil
-L['options_icons_froststone_vault_storm_desc'] = 'Zeige die Positionen der Items für den Erfolg {achievement:17315}.'
+L['froststone_vault_storm_label'] = 'Ursturm am Froststeingewölbe'
+L['options_icons_froststone_vault_storm'] = 'Ursturm am Froststeingewölbe'
+L['options_icons_froststone_vault_storm_desc'] = 'Zeige die Positionen der Belohnungen für {object:Ursturm am Froststeingewölbe}.'
 
 L['spellsworn_gateway'] = 'Tor der Zauberverschworenen'
 

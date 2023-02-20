@@ -567,12 +567,10 @@ map.nodes[48947352] = ns.node.ElementalChest({
     rewards = {
         Item({item = 203639}), -- Primalist Mail Boots -- Catch-Up Gear
         Item({item = 202196}), -- Zskera Vault Key
-        Item({item = 204577}), -- Condensed Nature Magic
+        Item({item = 204577}) -- Condensed Nature Magic
     },
     areaPOI = 7415
 }) -- Storm-Bound Chest
-
-
 
 warCreche.nodes[46984738] = ns.node.Node({
     label = L['spellsworn_gateway'],
