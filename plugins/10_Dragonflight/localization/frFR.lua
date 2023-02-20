@@ -295,6 +295,8 @@ L['froststone_vault_storm_label'] = 'Tempête primordiale du caveau Givre-Pierre
 L['options_icons_froststone_vault_storm'] = 'Tempêtes primordiales du caveau Givre-Pierre'
 L['options_icons_froststone_vault_storm_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Tempêtes primordiales du caveau Givre-Pierre}'
 
+L['spellsworn_gateway'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------

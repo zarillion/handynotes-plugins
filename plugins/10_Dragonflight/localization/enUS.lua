@@ -288,11 +288,13 @@ L['awakened_soil_label'] = 'Awakened Soil'
 
 L['zskera_vault_label'] = 'Zskera Vault'
 L['zskera_vault_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vault}.'
-L['door_buster_suffix'] = 'Doors unlocked using Zskera Vault Keys'
+L['door_buster_suffix'] = 'Doors unlocked using {item:202196s}'
 
 L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm'
 L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm'
 L['options_icons_froststone_vault_storm_desc'] = 'Display location and rewards for {object:Froststone Vault Primal Storm}'
+
+L['spellsworn_gateway'] = 'Spellsworn Gateway'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

@@ -294,6 +294,8 @@ L['froststone_vault_storm_label'] = nil
 L['options_icons_froststone_vault_storm'] = nil
 L['options_icons_froststone_vault_storm_desc'] = nil
 
+L['spellsworn_gateway'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------

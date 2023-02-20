@@ -295,6 +295,8 @@ L['froststone_vault_storm_label'] = 'Tormenta Primigenia de La Cámara Petraesca
 L['options_icons_froststone_vault_storm'] = 'Tormenta Primigenia de La Cámara Petraescarcha'
 L['options_icons_froststone_vault_storm_desc'] = 'Muestra dónde está y las recompensas de las Tormentas Primigenia de La Cámara Petraescarcha.'
 
+L['spellsworn_gateway'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------

@@ -549,6 +549,7 @@ map.nodes[72396117] = SmallTreasure()
 
 warCreche.nodes[38095249] = SmallTreasure()
 warCreche.nodes[49098242] = SmallTreasure()
+warCreche.nodes[60734407] = SmallTreasure()
 warCreche.nodes[64044226] = SmallTreasure()
 
 siegeCreche.nodes[44804622] = SmallTreasure()
@@ -562,9 +563,28 @@ dragonskullIsland.nodes[42454551] = SmallTreasure()
 
 map.nodes[48947352] = ns.node.ElementalChest({
     label = L['storm_bound_chest_label'],
-    quest = nil,
+    quest = 74567,
+    rewards = {
+        Item({item = 203639}), -- Primalist Mail Boots -- Catch-Up Gear
+        Item({item = 202196}), -- Zskera Vault Key
+        Item({item = 204577}), -- Condensed Nature Magic
+    },
     areaPOI = 7415
 }) -- Storm-Bound Chest
+
+
+
+warCreche.nodes[46984738] = ns.node.Node({
+    label = L['spellsworn_gateway'],
+    icon = 'portal_pp',
+    fgroup = 'spellsworn_gateway',
+    pois = {Path({46984738, 49915424})}
+})
+warCreche.nodes[49915424] = ns.node.Node({
+    label = L['spellsworn_gateway'],
+    icon = 'portal_pp',
+    fgroup = 'spellsworn_gateway'
+})
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
@@ -1053,7 +1073,7 @@ map.nodes[50884345] = ScalecommanderItem({
 --     rewards = {Achievement({id = 17315, criteria = 4})}
 -- }) -- Journal Entry: Silence
 
-map.nodes[48967237] = ScalecommanderItem({
+map.nodes[58957238] = ScalecommanderItem({
     label = '{item:202328}',
     quest = 74900,
     note = L['in_the_high_creche'],

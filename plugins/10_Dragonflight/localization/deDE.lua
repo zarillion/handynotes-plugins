@@ -213,31 +213,32 @@ L['mysterious_wand_note'] = 'Hebe den {object:Kristallschlüssel} auf und platzi
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
-L['in_the_war_creche'] = nil
-L['in_the_high_creche'] = nil
+L['in_the_war_creche'] = 'Tief im {location:Kriegshort}'
+L['in_the_high_creche'] = 'Im {location:Hohen Hort}'
 
 -- RARES
 
-L['duzalgor_note'] = nil
-L['mad_eye_carrey_note'] = nil
-L['wymslayer_angvardi_note'] = nil
+L['duzalgor_note'] = 'Sammel eine Flasche {spell:400751}({dot:Green}) um dich von den giftigen Gasen in der Höhle zu heilen.'
+L['mad_eye_carrey_note'] = '{npc:201181} ist in einer Gruppe mit {npc:201184} und {npc:201182}'
+L['wymslayer_angvardi_note'] = '{npc:201013} ist mit {npc:201310} verbunden.'
 
 -- FORBIDDEN HOARD
 
+L['hoarder_of_the_forbidden_reach_suffix'] = 'kleine Schätze geöffnet.'
 L['hoarder_of_the_forbidden_reach_suffix'] = nil
 L['forbidden_spoils_suffix'] = nil
 
 L['forbidden_hoard_label'] = nil
-L['forbidden_hoard_note'] = nil
+L['forbidden_hoard_note'] = 'Besiege die umliegenden Gegner um den Schatz zu öffnen.'
 L['options_icons_forbidden_hoard'] = nil
-L['options_icons_forbidden_hoard_desc'] = nil
+L['options_icons_forbidden_hoard_desc'] = 'Zeige mögliche Positionen von {object:Forbidden Hoard}.'
 
 -- SMALL TREASURES
 
-L['small_treasures_label'] = nil
-L['small_treasures_note'] = nil
-L['options_icons_small_treasures'] = nil
-L['options_icons_small_treasures_desc'] = nil
+L['small_treasures_label'] = 'Kleiner Schatz'
+L['small_treasures_note'] = 'Small treasures are shared between spawn points.\n\nKaufe {item:204558} von {npc:200566} beim {location:Morqutdorf} um den buff {spell:405637} zu erhalten, dieser erlaubt es dir für 60 Minuten kleine Schätze auf der Minimap zu sehen.'
+L['options_icons_small_treasures'] = 'Kleine Schätze'
+L['options_icons_small_treasures_desc'] = 'Zeige mögliche Positionen von kleinen Schätzen an.'
 
 -- MISC TREASURES
 
@@ -252,41 +253,44 @@ L['resonating_crystal_label'] = nil
 L['spellsworn_ward_label'] = nil
 L['rumbling_draconium_label'] = nil
 
-L['artisan_curio_note'] = nil
+L['artisan_curio_note'] = 'Spieler mit %s (50) können {item:%s} von {npc:202445} beim {location:Morqutdorf} für 10 {item:190456} kaufen.'
 
 L['options_icons_artisan_curio'] = nil
-L['options_icons_artisan_curio_desc'] = nil
+L['options_icons_artisan_curio_desc'] = 'Zeige Orte und Belohnungen für Artisan Curios' -- review
 
 -- ACH: LIBRARIAN OF THE REACH
 
 L['spellsworn_missive_label'] = nil
-L['spellsworn_missive_note'] = nil
+L['spellsworn_missive_note'] = 'Öffne {object:Spellsworn Missive} und erhalte {item:204338}.'
 L['confiscated_journal_label'] = nil
-L['confiscated_journal_note'] = nil
+L['confiscated_journal_note'] = 'Öffne {object:Confiscated Journal} und erhalte {item:204316}.'
 L['farscale_manifesto_label'] = nil
-L['farscale_manifesto_note'] = nil
+L['farscale_manifesto_note'] = 'Öffne {object:Farscale Manifesto} und erhalte {item:204335}.'
 L['lost_expeditions_notes_label'] = nil
-L['lost_expeditions_notes_note'] = nil
+L['lost_expeditions_notes_note'] = 'Öffne {object:Lost Expedition Notes} und erhalte {item:204321}.'
 
 L['options_icons_librarian_of_the_reach'] = nil
-L['options_icons_librarian_of_the_reach_desc'] = nil
+L['options_icons_librarian_of_the_reach_desc'] = 'Zeige die Positionen der Bücher für den Erfolg {achievement:17530}.'
+
 
 -- ACH: WHILE WE WERE SLEEPING
 
 L['options_icons_scalecommander_item'] = nil
-L['options_icons_scalecommander_item_desc'] = nil
+L['options_icons_scalecommander_item_desc'] = 'Zeige die Positionen der Items für den Erfolg {achievement:17315}.'
 
 -- MISC
 
 L['awakened_soil_label'] = nil
 
 L['zskera_vault_label'] = nil
-L['zskera_vault_note'] = nil
-L['door_buster_suffix'] = nil
+L['zskera_vault_note'] = 'Sammle {item:202196} von Seltenen Gegnern und Schätzen um Türen in {location:Zskera Vault} zu öffnen.'
+L['door_buster_suffix'] = 'Türen können mit {item:202196} aufgesperrt werden'
 
 L['froststone_vault_storm_label'] = nil
 L['options_icons_froststone_vault_storm'] = nil
-L['options_icons_froststone_vault_storm_desc'] = nil
+L['options_icons_froststone_vault_storm_desc'] = 'Zeige die Positionen der Items für den Erfolg {achievement:17315}.'
+
+L['spellsworn_gateway'] = 'Tor der Zauberverschworenen'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
