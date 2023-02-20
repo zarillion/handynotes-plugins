@@ -894,7 +894,7 @@ local FROSTSTONE_VAULT_PRIMAL_STORM_REWARDS = {
     }
 }
 
-local FrostStoneVaultPrimalStorm = Class('FrostStoneVaultPrimalStorm',
+local FroststoneVaultPrimalStorm = Class('FroststoneVaultPrimalStorm',
     Collectible, {
         label = L['froststone_vault_storm_label'],
         icon = 463562,
@@ -916,7 +916,7 @@ local FrostStoneVaultPrimalStorm = Class('FrostStoneVaultPrimalStorm',
         end
     })
 
-map.nodes[60103875] = FrostStoneVaultPrimalStorm()
+map.nodes[60103875] = FroststoneVaultPrimalStorm()
 
 hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
     if self and self.areaPoiID then
