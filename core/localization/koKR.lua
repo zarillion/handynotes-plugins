@@ -37,6 +37,20 @@ L['cloak'] = '망토'
 L['trinket'] = '장신구'
 
 -------------------------------------------------------------------------------
+-------------------------------- RECIPE PREFIX --------------------------------
+-------------------------------------------------------------------------------
+
+L['recipe_prefix_alchemy'] = nil
+L['recipe_prefix_blacksmithing'] = nil
+L['recipe_prefix_enchanting'] = nil
+L['recipe_prefix_engineering'] = nil
+L['recipe_prefix_inscription'] = nil
+L['recipe_prefix_jewelcrafting'] = nil
+L['recipe_prefix_leatherworking'] = nil
+L['recipe_prefix_tailoring'] = nil
+L['recipe_prefix_cooking'] = nil
+
+-------------------------------------------------------------------------------
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -81,20 +95,6 @@ L['elite'] = '정예'
 L['follower_type_follower'] = '추종자'
 L['follower_type_champion'] = '영웅'
 L['follower_type_companion'] = '동료'
-
--------------------------------------------------------------------------------
--------------------------------- RECIPE PREFIX --------------------------------
--------------------------------------------------------------------------------
-
-L['recipe_prefix_alchemy'] = nil
-L['recipe_prefix_blacksmithing'] = nil
-L['recipe_prefix_enchanting'] = nil
-L['recipe_prefix_engineering'] = nil
-L['recipe_prefix_inscription'] = nil
-L['recipe_prefix_jewelcrafting'] = nil
-L['recipe_prefix_leatherworking'] = nil
-L['recipe_prefix_tailoring'] = nil
-L['recipe_prefix_cooking'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
