@@ -90,7 +90,7 @@ map.nodes[31097121] = Rare({
     }
 }) -- Blightpaw the Depraved
 
-map.nodes[59847057] = Rare({ -- required 67030
+map.nodes[59847057] = Rare({
     id = 193220,
     quest = 73987,
     note = L['spawns_periodically'],
@@ -146,7 +146,7 @@ local CRAGGRAVATEDELEMENTAL = Rare({
 map.nodes[45458518] = CRAGGRAVATEDELEMENTAL
 map.nodes[52746732] = CRAGGRAVATEDELEMENTAL
 
-map.nodes[47675115] = Rare({ -- required 67030
+map.nodes[47675115] = Rare({
     id = 193234,
     quest = 73990,
     note = L['spawns_periodically'],
@@ -179,7 +179,7 @@ map.nodes[53374092] = Rare({
     }
 }) -- Goremaul the Gluttonous
 
-map.nodes[59128380] = Rare({ -- review
+map.nodes[59128380] = Rare({
     id = 193126,
     quest = 73881,
     rewards = {
@@ -238,7 +238,7 @@ map.nodes[52895903] = Rare({
     }
 }) -- Matriarch Remalla
 
-map.nodes[59806100] = Rare({ -- reqired 67030
+map.nodes[59806100] = Rare({
     id = 193688,
     quest = 74020,
     rewards = {
@@ -254,7 +254,7 @@ map.nodes[59806100] = Rare({ -- reqired 67030
     }
 }) -- Phenran
 
-map.nodes[57218420] = Rare({ -- reqired 67030 review
+map.nodes[57218420] = Rare({
     id = 193210,
     quest = 74021,
     note = L['spawns_periodically'],
@@ -308,7 +308,7 @@ map.nodes[50404840] = Rare({
     }
 }) -- Razk'vex the Untamed
 
-map.nodes[40087014] = Rare({ -- reqiured 67030
+map.nodes[40087014] = Rare({
     id = 193240,
     quest = 74024,
     note = L['spawns_periodically'],
@@ -328,7 +328,7 @@ map.nodes[40087014] = Rare({ -- reqiured 67030
     }
 }) -- Riverwalker Tamopo
 
-map.nodes[50005180] = Rare({ -- reqiured 67030 review
+map.nodes[50005180] = Rare({
     id = 193666,
     quest = 74025,
     note = L['spawns_periodically'],
@@ -346,7 +346,7 @@ map.nodes[50005180] = Rare({ -- reqiured 67030 review
     }
 }) -- Rokmur
 
-map.nodes[37607780] = Rare({ -- reqiured 67030
+map.nodes[37607780] = Rare({
     id = 193176,
     quest = 74029,
     note = L['spawns_periodically'] .. '\n\n' .. L['in_cave'],
@@ -364,7 +364,7 @@ map.nodes[37607780] = Rare({ -- reqiured 67030
     pois = {POI({38507640})} -- Cave entrance
 }) -- Sandana the Tempest
 
-map.nodes[47207895] = Rare({ -- review -- reqiured 67030
+map.nodes[47207895] = Rare({
     id = 193258,
     quest = 74035,
     note = L['spawns_periodically'],
@@ -417,7 +417,7 @@ map.nodes[46267317] = Rare({
     pois = {POI({47547180})} -- Cave entrance
 }) -- The Weeping Vilomah
 
-map.nodes[35027001] = Rare({ -- reqiured 67030 review
+map.nodes[35027001] = Rare({
     id = 193146,
     quest = 74036,
     note = L['spawns_periodically'] .. '\n\n' .. L['in_small_cave'],
@@ -466,7 +466,7 @@ map.nodes[57366540] = Rare({
 
 map.nodes[55647727] = Rare({
     id = 193229,
-    quest = 72814, -- 69873
+    quest = 72814,
     rewards = {
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
