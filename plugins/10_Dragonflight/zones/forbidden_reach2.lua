@@ -711,9 +711,9 @@ map.nodes[57634843] = ArtisanCurio({
 
 map.nodes[76136563] = Dragonrace({
     label = '{quest:73017}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2201, 46, 43},
+    advanced = {2207, 47, 42},
+    reverse = {2213, 47, 42},
     rewards = {
         Achievement({id = 17279, criteria = 1, oneline = true}), -- normal bronze
         Achievement({id = 17280, criteria = 1, oneline = true}), -- normal silver
@@ -727,11 +727,11 @@ map.nodes[76136563] = Dragonrace({
     }
 }) -- Stormsunder Crater Circuit
 
-map.nodes[45917966] = Dragonrace({
+map.nodes[31326573] = Dragonrace({
     label = '{quest:73020}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2202, 55, 52},
+    advanced = {2208, 54, 49},
+    reverse = {2214, 58, 53},
     rewards = {
         Achievement({id = 17279, criteria = 2, oneline = true}), -- normal bronze
         Achievement({id = 17280, criteria = 2, oneline = true}), -- normal silver
@@ -747,9 +747,9 @@ map.nodes[45917966] = Dragonrace({
 
 map.nodes[63095195] = Dragonrace({
     label = '{quest:73025}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2203, 56, 53},
+    advanced = {2209, 55, 50},
+    reverse = {2215, 55, 50},
     rewards = {
         Achievement({id = 17279, criteria = 3, oneline = true}), -- normal bronze
         Achievement({id = 17280, criteria = 3, oneline = true}), -- normal silver
@@ -765,9 +765,9 @@ map.nodes[63095195] = Dragonrace({
 
 map.nodes[63658406] = Dragonrace({
     label = '{quest:73029}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2204, 73, 70},
+    advanced = {2210, 73, 68},
+    reverse = {2216, 68, 63},
     rewards = {
         Achievement({id = 17279, criteria = 4, oneline = true}), -- normal bronze
         Achievement({id = 17280, criteria = 4, oneline = true}), -- normal silver
@@ -783,9 +783,9 @@ map.nodes[63658406] = Dragonrace({
 
 map.nodes[41361455] = Dragonrace({
     label = '{quest:73033}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2205, 61, 58},
+    advanced = {2211, 61, 58},
+    reverse = {2217, 55, 50},
     rewards = {
         Achievement({id = 17279, criteria = 5, oneline = true}), -- normal bronze
         Achievement({id = 17280, criteria = 5, oneline = true}), -- normal silver
@@ -801,9 +801,9 @@ map.nodes[41361455] = Dragonrace({
 
 map.nodes[49426006] = Dragonrace({
     label = '{quest:73061}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2206, 62, 59},
+    advanced = {2212, 61, 58},
+    reverse = {2218, 61, 58},
     rewards = {
         Achievement({id = 17279, criteria = 6, oneline = true}), -- normal bronze
         Achievement({id = 17280, criteria = 6, oneline = true}), -- normal silver
@@ -829,6 +829,7 @@ map.nodes[49426006] = Dragonrace({
 -- update their database. So I can get all of the areaPOI ids.
 map.nodes[60103875] = Collectible({
     label = 'Frostone Vault Primal Storm', -- TODO: Non-localized name for now
+    icon = 538566,
     areaPOI = 7411,
     rewards = {
         Item({item = 199748, quest = 70752}) -- Primal Water Core
@@ -1001,6 +1002,7 @@ map.nodes[35354003] = ns.node.Node({
 
 map.nodes[55616889] = ns.node.Node({
     label = 'Edict: The Adamant Vigil', -- TODO: Non-localized name for now
+    icon = 'chest_yw',
     note = L['in_the_high_creche'],
     pois = {
         POI({58666933}) -- Entrance
@@ -1009,6 +1011,7 @@ map.nodes[55616889] = ns.node.Node({
 
 warCreche.nodes[32346769] = ns.node.Node({
     label = 'Edict: Dark Talons', -- TODO: Non-localized name for now
+    icon = 'chest_yw',
     note = L['in_the_war_creche'],
     parent = map.id,
     pois = {
@@ -1018,6 +1021,7 @@ warCreche.nodes[32346769] = ns.node.Node({
 
 warCreche.nodes[39347578] = ns.node.Node({
     label = 'Edict: The Earth-Warder', -- TODO: Non-localized name for now
+    icon = 'chest_yw',
     note = L['in_the_war_creche'],
     parent = map.id,
     pois = {
@@ -1027,6 +1031,7 @@ warCreche.nodes[39347578] = ns.node.Node({
 
 warCreche.nodes[31118323] = ns.node.Node({
     label = 'Edict: Obsidian Warders', -- TODO: Non-localized name for now
+    icon = 'chest_yw',
     note = L['in_the_war_creche'],
     parent = map.id,
     pois = {
