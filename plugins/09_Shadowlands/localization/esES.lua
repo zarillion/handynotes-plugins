@@ -30,7 +30,7 @@ L['faeflayer_note'] = 'En una cueva pequeña oculta tras una cascada.'
 L['gormbore_note'] = 'Mata a los {npc:165420} sobre el suelo tembloroso para hacer aparecer {npc:163370}.'
 L['gormtamer_tizo_note'] = 'Mata Spriggans Conobarba en la {location:Espesura Velo de Niebla} hasta que aparezca {npc:164110} el cual tendrás que matar.'
 L['humongozz_note'] = 'Planta un {item:175247} en la {object:Marga Húmeda} para hacer aparecer un {npc:164122}. El champiñón cae de muchos enemigos de la zona.'
-L['lehgo_note'] = 'Destruye los {object:Huevos de Gorm Temblorosos} y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las Madrigueras Polvorientas).'
+L['lehgo_note'] = 'Destruye los {object:Huevos de Gorm Temblorosos} y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las {location:Madrigueras Polvorientas}).'
 L['macabre_note'] = [[
 Aparece en varios sitios. Para invocar a {npc:164093}, espera en el {object:Anillo de Champiñón Misterioso} con otros 2 jugadores y bailad juntos.
 
@@ -49,8 +49,8 @@ Siempre aparecerá al norte de {location:Tirna Vaal}, así que pon tu {item:6948
 L['rootwrithe_note'] = 'Haz click en las {npc:167928} hasta que aparezca el {npc:167726}.'
 L['rotbriar_note'] = 'Habla con {npc:171684} y comenzará a cantar. Tras algo de diálogo, aparecerá {npc:167724} cerca.'
 L['slumbering_note'] = 'Correr hacia la niebla te dormirá en pocos segundos y te alejará. Usa una bengala o una mascota con daño en área para sacar al {npc:167721} fuera de la niebla.'
-L['skuld_vit_note'] = 'En una cueva bloqueada por una barrera. Con el hechizo {spell:310143} de la curia de las Sílfides Nocturnas se podrá atravesar la barrera y entrar en la cueva. Una vez haya sido pulleado {npc:164415}, la barrera desaparecerá.'
-L['valfir_note'] = 'Haz click en la Semilla de Ánima Brillante a mitad de camino y usa la {spell:338045} para quitar el buff {spell:338038} de {npc:168647}.'
+L['skuld_vit_note'] = 'En una cueva bloqueada por una barrera. Con el hechizo {spell:310143} de la curia de las {faction:2422} se podrá atravesar la barrera y entrar en la cueva. Una vez haya sido pulleado {npc:164415}, la barrera desaparecerá.'
+L['valfir_note'] = 'Haz click en la {object:Semilla de Ánima Brillante} a mitad de camino y usa la {spell:338045} para quitar el buff {spell:338038} de {npc:168647}.'
 L['wrigglemortis_note'] = 'Tira del {npc:164179} para sacarlo de la tierra y hacer aparecer al {npc:164147}.'
 
 L['night_mare_note'] = [[
@@ -58,7 +58,7 @@ Viaja a {location:Tirna Scithe} y sigue el camino por la raíz, en el acantilado
 
 Lleva ese objeto a la {npc:165704} a la {location:Cuenca Brillocascada}. Te dará una {item:181242} a cambio de 10 {item:173204}. {note:Si ella no está aquí, tienes que completar las cadenas de misiones |cFFFFFD00Problemas en el Corral de Gormitos|r y |cFFFFFD00Spriggans marrulleros|r.}
 
-Después, habla con {npc:160262} en el {location:Corazón del Bosque} para cambiarle la {item:181242} por un {item:178675}. Habla con los guardias para hacerla salir si no perteneces a las Sílfides Nocturnas. Usa el {item:178675} para conseguir el buff {spell:327083}, que te permite ver a la {npc:168135}.
+Después, habla con {npc:160262} en el {location:Corazón del Bosque} para cambiarle la {item:181242} por un {item:178675}. Habla con los guardias para hacerla salir si no perteneces a las {faction:2422}. Usa el {item:178675} para conseguir el buff {spell:327083}, que te permite ver a la {npc:168135}.
 ]]
 
 L['star_lake'] = 'Anfiteatro del Lago Estrellado'
@@ -146,7 +146,7 @@ La opción Corgi estará disponible en cuanto hables con {npc:181582}.
 L['soulshape_well_fed_cat_note'] = [[
 1. Recoge {item:187811} en {location:Refugioscuro}.
 2. Selecciona a {npc:182093} y teclea {emote:/maullar}.
-3. |cFFFF8C00Ma'oh te maulla hambriento|r.
+3. {emote:Ma'oh te maulla hambriento}.
 4. Selecciona a {npc:182093} y usa el {item:187811}.
 
 La opción Alma de Gato (Bien Alimentado) estará disponible en cuanto hables con {npc:181582}.
@@ -166,7 +166,7 @@ L['beasts_of_bastion_note'] = 'Habla con la {npc:161441} para invocar una de las
 L['bookkeeper_mnemis_note'] = 'Tiene la posibilidad de aparecer en lugar de las {npc:166867} del sitio.'
 L['cloudfeather_patriarch_note'] = 'Mata {npc:158110} en el aŕea hasta que el {npc:170932} te ataque.'
 L['collector_astor_note'] = 'Lee los seis capítulos de {object:El Legado de Mercia} dispersos por la habitación y habla con el {npc:157979} para recibir {spell:333779}. Con ello podrás encontrar {item:180569} alrededor del área. Al devolvérselo, aparecerá el {npc:171014}.'
-L['corrupted_clawguard_note'] = 'Despoja un {item:180651} en la habitación o en {location:Avanzada Forjafuego} subiendo la colina y úsalo para reparar el {npc:171300}.'
+L['corrupted_clawguard_note'] = 'Despoja un {item:180651} en la habitación o en la {location:Avanzada Forjafuego} subiendo la colina y úsalo para reparar el {npc:171300}.'
 L['dark_watcher_note'] = 'Sólo puede verse estando muerto. Habla con la {npc:170623} y te lanzará {spell:332830} antes de que seas atacado.'
 L['demi_hoarder_note'] = 'Comienza con 99 acumulaciones de {spell:333874}, reduciendo el daño recibido. Las acumulaciones bajan lentamente con el daño. {npc:171011} seguirá una ruta. Desaparecerá si alcanza el final.'
 L['dionae_note'] = 'Cuando {npc:163460} se hace immune, haz click en las cuatro {npc:163747} para romperle el escudo.'
@@ -175,7 +175,7 @@ Recoge {item:172451} y úsalas para darle a {npc:158659} acumulaciones de {spell
 
 Las motas se pueden recoger de los {object:Botes de Ánima Agotados} cercanos que hay en la habitación o justo fuera.
 
-|cFFFF8C00No puede ser derrotado durante la misión del mundo {wq:Asalto al Vestíbulo}.|r
+{note:No puede ser derrotado durante la misión del mundo {wq:Asalto al Vestíbulo}.}
 ]]
 L['reekmonger_note'] = 'Mata enemigos en el {location:Templo del Coraje} hasta que hable {npc:171327} y aterrice.'
 L['repair_note'] = 'Con otros dos jugadores, haz click en el {object:Incienso Antiguo} para invocar a {npc:160895}.'
@@ -188,7 +188,7 @@ L['wingflayer_note'] = 'Para invocar a {npc:167078}, haz click en el {object:Cue
 L['broken_flute'] = 'Mata a las {npc:170009} cercanas hasta que una suelte la {item:180536}. Usa las herramientas para repararla.'
 L['cloudwalkers_coffer'] = 'Arca de Caminanubes'
 L['cloudwalkers_coffer_note'] = 'Usa las grandes flores lilas para saltar a la plataforma.'
-L['experimental_construct_part'] = 'Despoja un {item:180534} cercano y úsalo para reparar la Pieza de Ensamblaje Experimental. El ánima tiene varios sitios de aparición.'
+L['experimental_construct_part'] = 'Despoja un {item:180534} cercano y úsalo para reparar la {object:Pieza de Ensamblaje Experimental}. El ánima tiene varios sitios de aparición.'
 L['larion_harness'] = 'Está dentro de la {location:Sala de las Bestias}.'
 L['memorial_offering'] = 'Encuentra a {npc:171526} en uno de estos lugares de {location:Bastión} y cómprale una botella de {item:180788}. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}.'
 L['scroll_of_aeons'] = 'Coge de un cuenco 2 {item:173973} en el centro del área y colócalas en los cuencos de tributo cercanos para revelar el tesoro {item:173984}.'
@@ -274,9 +274,9 @@ L['anima_shard_61291'] = 'En el fondo del estanque junto a los pies de una estat
 L['anima_shard_61292'] = 'Sobre un arco de piedra.'
 L['anima_shard_61293'] = 'Sobre una fina columna de piedra en el nivel inferior.'
 L['anima_shard_61294'] = 'Oculta detrás de una pila de barriles.'
-L['anima_shard_61295'] = 'Detrás de la {npc:156889} en una estantería.'
-L['anima_shard_61296'] = 'Junto a una campana caida grande.\n\n' .. ns.color.Red('Dentro de la mazmorra Estela Necrótica.')
-L['anima_shard_61297'] = 'Detrás de un pilar de piedra.\n\n' .. ns.color.Red('Dentro de la mazmorra Estela Necrótica.')
+L['anima_shard_61295'] = 'Detrás de la {npc:156889}, en una estantería.'
+L['anima_shard_61296'] = 'Junto a una campana caida grande.\n\n{note:Dentro de la mazmorra Estela Necrótica.}
+L['anima_shard_61297'] = 'Detrás de un pilar de piedra.\n\n{note:Dentro de la mazmorra Estela Necrótica.}
 L['anima_shard_61298'] = 'Detrás de un sillón.'
 L['anima_shard_61299'] = 'Oculta detrás de una gran antorcha junto al ángel.'
 L['anima_shard_61300'] = 'En una repisa sobre la fuente central justo detrás de los ángeles.'
@@ -305,7 +305,7 @@ Este raro no soltará botín hasta que haya consumido a {npc:179758} x40 para tr
 
 Este raro soltará objetos de investigación extra después de consumir otros {npc:179758} x40 para transformarse en su forma verde sombreada (Raro Élite).
 
-|cFFFF0000El raro no hará aparecer {npc:179758} para consumir si está en combate.|r
+{note:El raro no hará aparecer {npc:179758} para consumir si está en combate.}
 ]]
 L['darkmaul_note'] = 'Recoge {item:187153} de los {object:Champifauces Invasivos} y alimenta a la {npc:180063} con ellos. Se ha de completar el evento 10 veces para conseguir la montura.'
 L['dislodged_nest_note'] = 'Haz click en una {object:Polilla Nociva} cercana para conseguir {spell:355181}. Usa el botón de acción extra de {spell:355131} en el {npc:178547} para controlarlo y montarlo en el árbol que tiene el nido.'
@@ -314,7 +314,7 @@ L['flayedwing_transporter_note'] = 'Haz click en el {npc:178633} para volar a/o 
 L['fleshwing_note'] = 'Habla con {npc:180079} para empezar el evento de recolección.'
 L['forgotten_feather_note'] = 'Flotando en una isla pequeña que se accede saltando hacia abajo desde el {location:Respiro del Guardían}.'
 L['konthrogz_note'] = 'Aparece de un portal del evento de los devoradores. El evento puede aparecer en varios sitios a lo largo de {location:Korthia}.'
-L['sl_limited_rare'] = '|cFFFF8C00Este raro no está disponible algunos días.|r'
+L['sl_limited_rare'] = '{note:Este raro no está disponible algunos días.}'
 L['krelva_note'] = 'Se mueve a otra plataforma al 80%, entonces se mueve al suelo al 60%. {note:¡Has de darle al boss después del 60% para que te cuente!}'
 L['kroke_note'] = 'Mata a los {npc:179029} de la zona hasta que aparezca. No puede aparecer los días que no estén los {npc:179029}.'
 L['maelie_wanderer'] = '{npc:179912} aparecerá en varios sitios durante el día. Una vez se haya usado {spell:355862} en ella 6 días distintos hay que volver con {npc:179930} para aprender la montura.'
@@ -457,7 +457,7 @@ Para tirar sólo del brazo, sólo hacen falta las {spell:327367}.
 ]]
 
 L['pet_cat'] = '¡Acaricia al maldito gato!'
-L['hairball'] = ns.color.Red('¡Sólo aparece en el Sagrario Purulento dentro de la mazmorra Bajapeste!')
+L['hairball'] = '{note:¡Sólo aparece en el {location:Sagrario Purulento} dentro de la mazmorra {location:Bajapeste}!}'
 L['lime'] = 'Está sobre el gran arco óseo.'
 L['moldstopheles'] = 'Corre alrededor del tallo y salta hacia la pared para saltar en la plataforma con forma de champiñón. Salta otra y para la última, usa una montura y salta en la raíz que rodea el tallo del champiñón gigante.'
 L['pus_in_boots'] = 'Está debajo del puente.'
