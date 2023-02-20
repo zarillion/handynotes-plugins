@@ -167,7 +167,7 @@ map.nodes[44727943] = Rare({
 
 map.nodes[43949052] = Rare({
     id = 200721,
-    quest = nil, -------------------------------------------------------------- TODO: Missing questID
+    quest = 73154,
     rewards = {
         Achievement({id = 17525, criteria = 58465}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
