@@ -515,7 +515,7 @@ L['lord_mortegore_note'] = 'Mata a los enemigos de alrededor para conseguir el {
 L['madalav_note'] = 'Haz click en el {object:Martillo de Madalav} en el yunque cercano para invocar al {npc:159496}.'
 L['manifestation_of_wrath_note'] = 'Tiene probabilidad de aparecer cuando es recuperada una {npc:169916} durante la misión del mundo {wq:Almas enjambradoras}.'
 L['scrivener_lenua_note'] = 'Devuelve los {npc:160753} a la {location:Biblioteca Prohibida}.'
-L['sinstone_hoarder_note'] = 'Intenta despojar el {npc:162503} y el {npc:162481}, se revelará él solo.'
+L['sinstone_hoarder_note'] = 'Intenta despojar el {npc:162503} y el {npc:162481}. Se revelará él solo.'
 L['sire_ladinas_note'] = 'Coge un {object:Remanente de la Luz} cercano y usa {spell:313065} en los {npc:157733} hasta que aparezca {npc:160857}.'
 L['soulstalker_doina_note'] = 'Sigue a la {npc:160392} cuando se escape escaleras abajo y dentro del espejo esquivando trampas.'
 L['tomb_burster_note'] = 'Puede aparecer si {npc:155777} queda atrapado en una telaraña. Mata los {npc:155769} cercanos y a las oleadas de {npc:155795} que comenzarán a salir hasta que aparezca la {npc:155779}.'
@@ -531,7 +531,7 @@ L['gilded_plum_chest_note'] = 'Mata al {npc:166680} que deambula por el camino a
 L['lost_quill_note'] = 'Despoja la {item:182475} de la botella que hay sobre la mesa en la {location:Biblioteca Prohibida} y dásela a la {npc:173449} encima del arco de fuera.'
 L['rapier_fearless_note'] = 'Haz click en el estoque del suelo, y entonces derrota a {npc:173603}.'
 L['remlates_cache_note'] = 'En la pared exterior de {location:Refugioscuro} detrás de la cripta.'
-L['smuggled_cache_note'] = ns.color.Red('ANTES DE QUE DESPOJES: ') .. 'Asegúrate de haber completado {quest:60480} o te perderás 40 {currency:1820} del tesoro y de la misión juntos.'
+L['smuggled_cache_note'] = '{note:ANTES DE QUE DESPOJES : Asegúrate de haber completado {quest:60480} o te perderás 40 {currency:1820} del tesoro y de la misión juntos}.'
 L['taskmaster_trove_note'] = 'Lee {object:Ritos de Acceso y Salida}. Después sigue el camino al cofre con cuidado.'
 L['the_count_note'] = 'Farmea 99 {currency:1820} en el {location:Cenagal del Fin} y llévaselos a {npc:173488}.'
 
@@ -540,12 +540,12 @@ L['forgotten_anglers_rod'] = 'Caña de Pescador Olvidada'
 L['loyal_gorger_note'] = 'Visita el {location:Cenagal del Fin} y completa una misión diaria ofrecida por el {npc:173498} 7 veces para conseguirlo como montura.'
 
 L['sinrunner_note'] = 'Lleva comida y suministros a {npc:173468} durante seis días para conseguir sus riendas. Sólo aparece durante unos pocos minutos hasta que vuelva a aparecer.'
-L['sinrunner_note_day1'] = 'Ofrece a Blanchy 8 {item:182581} que se pueden recoger en las granjas de {location:Páramos de Poniente}.'
-L['sinrunner_note_day2'] = 'Consigue un {item:182585} de {npc:173570} en {location:Refugioscuro} y úsalo para limpiar a Blanchy.'
-L['sinrunner_note_day3'] = 'Equipa a Blanchy con 4 {item:182595} que se pueden encontrar por los caminos que rodean {location:Refugioscuro}.'
-L['sinrunner_note_day4'] = 'Coge el {item:182620} cerca de {npc:173570} y llénalo con agua en {location:Bastión} o {location:Ardenweald}. Llévale a Blanchy el {item:182599}.'
-L['sinrunner_note_day5'] = 'Equipa a Blanchy con una {item:182597}, vendida por {npc:171808} cerca del {location:Mercado Nocturno} a cambio de varias carnes.'
-L['sinrunner_note_day6'] = 'Alimenta a Blanchy con 3 {item:179271}, vendidas por {npc:167815} que está en {location:Agujero en la Pared}.'
+L['sinrunner_note_day1'] = 'Ofrece a {npc:173468} 8 {item:182581} que se pueden recoger en las granjas de {location:Páramos de Poniente}.'
+L['sinrunner_note_day2'] = 'Consigue un {item:182585} de {npc:173570} en {location:Refugioscuro} y úsalo para limpiar a {npc:173468}.'
+L['sinrunner_note_day3'] = 'Equipa a {npc:173468} con 4 {item:182595} que se pueden encontrar por los caminos que rodean {location:Refugioscuro}.'
+L['sinrunner_note_day4'] = 'Coge el {item:182620} cerca de {npc:173570} y llénalo con agua en {location:Bastión} o {location:Ardenweald}. Llévale a {npc:173468} el {item:182599}.'
+L['sinrunner_note_day5'] = 'Equipa a {npc:173468} con una {item:182597}, vendida por {npc:171808} cerca del {location:Mercado Nocturno} a cambio de varias carnes.'
+L['sinrunner_note_day6'] = 'Alimenta a {npc:173468} con 3 {item:179271}, vendidas por {npc:167815} que está en {location:Agujero en la Pared}.'
 
 L['options_icons_carriages'] = 'Carruajes'
 L['options_icons_carriages_desc'] = 'Muestra dónde están los caminos y los posibles carruajes que se pueden llevar.'
@@ -594,7 +594,7 @@ L['options_icons_broken_mirror_desc'] = 'Muestra dónde están los espejos rotos
 L['soulshape_chicken_note'] = [[
 1. Recoge {item:187811} de {location:Refugioscuro}.
 2. Selecciona al {npc:181660} y teclea {emote:/gallina}.
-3. |cFFFF8C00Alma Perdida te cacarea hambrienta|r.
+3. {emote:Alma Perdida te cacarea hambrienta}.
 4. Selecciona al {npc:181660} y usa el {item:187811}.
 ]]
 L['spectral_feed_label'] = '{item:187811}'
