@@ -811,27 +811,31 @@ hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
     if self and self.vignetteID then
         local mapID = self:GetMap().mapID
         local group = ns.groups.DRAGONRACE
-        if self.vignetteID == 5104 and group:GetDisplay(mapID) then -- Bronze Timekeeper Vignette 5104
-            local guid = self.vignetteGUID
-            local x = C_VignetteInfo.GetVignettePosition(guid, mapID).x
-            local y = C_VignetteInfo.GetVignettePosition(guid, mapID).y
-            local node = ns.maps[mapID].nodes[HandyNotes:getCoord(x, y)]
-            if node then
-                GameTooltip:SetText(ns.RenderLinks(node.label, true))
-                GameTooltip:AddLine(ns.RenderLinks(node.sublabel, true), 1, 1, 1)
-                if ns:GetOpt('show_notes') then
-                    GameTooltip_AddBlankLineToTooltip(GameTooltip)
-                    GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1, true)
-                end
-                if ns:GetOpt('show_loot') then
-                    GameTooltip:AddLine(' ')
-                    for i, reward in ipairs(node.rewards) do
-                        if reward:IsEnabled() then
-                            reward:Render(GameTooltip)
+        if ns.maps[mapID] then
+            if self.vignetteID == 5104 and group:GetDisplay(mapID) then -- Bronze Timekeeper Vignette 5104
+                local guid = self.vignetteGUID
+                local x = C_VignetteInfo.GetVignettePosition(guid, mapID).x
+                local y = C_VignetteInfo.GetVignettePosition(guid, mapID).y
+                local node = ns.maps[mapID].nodes[HandyNotes:getCoord(x, y)]
+                if node then
+                    GameTooltip:SetText(ns.RenderLinks(node.label, true))
+                    GameTooltip:AddLine(ns.RenderLinks(node.sublabel, true), 1,
+                        1, 1)
+                    if ns:GetOpt('show_notes') then
+                        GameTooltip_AddBlankLineToTooltip(GameTooltip)
+                        GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1,
+                            true)
+                    end
+                    if ns:GetOpt('show_loot') then
+                        GameTooltip:AddLine(' ')
+                        for i, reward in ipairs(node.rewards) do
+                            if reward:IsEnabled() then
+                                reward:Render(GameTooltip)
+                            end
                         end
                     end
+                    GameTooltip:Show()
                 end
-                GameTooltip:Show()
             end
         end
     end
