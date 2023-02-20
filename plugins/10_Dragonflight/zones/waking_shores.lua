@@ -1325,7 +1325,7 @@ local DjaradinCache = Class('DjaradinCache', ns.node.Node, {
         Transmog({item = 201432, slot = L['cosmetic']}), -- Obsidian Dragontooth
         Transmog({item = 201433, slot = L['cosmetic']}), -- Citadel Wardens Mace
         Transmog({item = 201434, slot = L['cosmetic']}), -- Obsidian Barrier
-        Item({item = 199230}), -- Schematic: Projectile Propulsion Pinion
+        Recipe({item = 199230, id = 382325, profession = 202}), -- Schematic: Projectile Propulsion Pinion
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Item({item = 199065, quest = 70534}), -- Sorrowful Letter
@@ -2302,7 +2302,7 @@ map.nodes[37104453] = TameMagmammoth() -- Smoldering Perch
 
 nel.nodes[57407880] = PT.Engineering({
     id = 199229,
-    rewards = {Item({item = 199229})}
+    rewards = {Recipe({item = 199229, id = 382324, profession = 202})}
 }) -- Schematic: Tinker: Breath of Neltharion
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
