@@ -74,6 +74,7 @@ map.nodes[58174826] = Rare({
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58458}), -- Champion of the Forbidden Reach
+        Item({item = 204276}), -- Untapped Forbidden Knowledge
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
@@ -527,16 +528,19 @@ map.nodes[29704826] = SmallTreasure()
 map.nodes[33124319] = SmallTreasure()
 map.nodes[40314192] = SmallTreasure()
 map.nodes[42045105] = SmallTreasure()
+map.nodes[44055921] = SmallTreasure()
 map.nodes[44745794] = SmallTreasure()
 map.nodes[45705660] = SmallTreasure()
 map.nodes[47071542] = SmallTreasure()
 map.nodes[48764706] = SmallTreasure()
 map.nodes[49464251] = SmallTreasure()
 map.nodes[50374387] = SmallTreasure()
+map.nodes[50534337] = SmallTreasure()
 map.nodes[54285826] = SmallTreasure()
 map.nodes[54575658] = SmallTreasure()
 map.nodes[54904277] = SmallTreasure()
 map.nodes[57545601] = SmallTreasure()
+map.nodes[57816240] = SmallTreasure()
 map.nodes[58556090] = SmallTreasure()
 map.nodes[59425809] = SmallTreasure()
 map.nodes[67284345] = SmallTreasure()

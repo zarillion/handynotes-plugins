@@ -236,7 +236,7 @@ L['options_icons_forbidden_hoard_desc'] = 'Zeige mögliche Positionen von {objec
 -- SMALL TREASURES
 
 L['small_treasures_label'] = 'Kleiner Schatz'
-L['small_treasures_note'] = 'Small treasures are shared between spawn points.\n\nKaufe {item:204558} von {npc:200566} beim {location:Morqutdorf} um den buff {spell:405637} zu erhalten, dieser erlaubt es dir für 60 Minuten kleine Schätze auf der Minimap zu sehen.'
+L['small_treasures_note'] = 'An jeder Position können verscheiene Schätze erscheinen.\n\nKaufe {item:204558} von {npc:200566} beim {location:Morqutdorf} um den buff {spell:405637} zu erhalten, dieser erlaubt es dir für 60 Minuten kleine Schätze auf der Minimap zu sehen.'
 L['options_icons_small_treasures'] = 'Kleine Schätze'
 L['options_icons_small_treasures_desc'] = 'Zeige mögliche Positionen von kleinen Schätzen an.'
 
