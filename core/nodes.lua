@@ -51,10 +51,13 @@ function Node:Initialize(attrs)
     self.questDeps = ns.AsTable(self.questDeps)
     self.parent = ns.AsIDTable(self.parent)
     self.requires = ns.AsTable(self.requires, Requirement)
+    self.group = ns.AsTable(self.group, Group)
 
-    -- ensure proper group is assigned
-    if not IsInstance(self.group, Group) then
-        error('group attribute must be a Group class instance: ' .. self.group)
+    -- ensure proper group(s) is/are assigned
+    for _, group in pairs(self.group) do
+        if not IsInstance(group, Group) then
+            error('group attribute must be a Group class instance: ' .. group)
+        end
     end
 end
 
@@ -65,8 +68,8 @@ for this node.
 
 function Node:GetDisplayInfo(mapID, minimap)
     local icon = ns.GetIconPath(self.icon)
-    local scale = self.scale * self.group:GetScale(mapID)
-    local alpha = self.alpha * self.group:GetAlpha(mapID)
+    local scale = self.scale * self.group[1]:GetScale(mapID) -- Get scale/alpha form first (main) group
+    local alpha = self.alpha * self.group[1]:GetAlpha(mapID)
 
     if not minimap and WorldMapFrame.isMaximized and
         ns:GetOpt('maximized_enlarged') then
@@ -88,6 +91,8 @@ function Node:GetGlow(mapID, minimap, focused)
         self.glow.scale = scale
         if focused then
             self.glow.r, self.glow.g, self.glow.b = 0, 1, 0
+        elseif self.OnClick then
+            self.glow.r, self.glow.g, self.glow.b = 0, 0, 1
         else
             self.glow.r, self.glow.g, self.glow.b = 1, 1, 0
         end
@@ -262,6 +267,11 @@ function Node:Render(tooltip, focusable)
         local focus = ns.GetIconLink('left_mouse', 12) ..
                           ns.status.Gray(L['focus'])
         rlabel = (#rlabel > 0) and focus .. ' ' .. rlabel or focus
+    end
+
+    if self.OnClick then
+        local click = ns.GetIconLink('left_mouse', 12)
+        rlabel = click .. ' ' .. ns.status.Gray(self.clabel) or click
     end
 
     -- render top-right label text

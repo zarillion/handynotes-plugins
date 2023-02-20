@@ -17,6 +17,9 @@ L['squirrels_note'] = 'Du musst das Emote /liebe auf Kleintiere anwenden (KEINE 
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:14731} an.'
 
+L['options_icons_safari'] = '{achievement:14867}'
+L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:14867} an.'
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------

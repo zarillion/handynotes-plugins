@@ -9,6 +9,7 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local Safari = ns.node.Safari
 local Supply = ns.node.Supply
 local Treasure = ns.node.Treasure
 
@@ -162,10 +163,7 @@ map.nodes[18716138] = Rare({
     id = 134706,
     quest = 50669,
     note = L['in_small_cave'],
-    rewards = {
-        Achievement({id = 12941, criteria = 42342}),
-        Item({item = 158555, note = L['trinket']}) -- Doom Shroom
-    }
+    rewards = {Achievement({id = 12941, criteria = 42342})}
 }) -- Deathcap
 
 map.nodes[63404009] = Rare({
@@ -303,10 +301,7 @@ map.nodes[67986688] = Rare({
     quest = 49341,
     label = GetAchievementCriteriaInfoByID(12941, 41719),
     note = L['seething_cache_note'],
-    rewards = {
-        Achievement({id = 12941, criteria = 41719}),
-        Item({item = 158598, note = L['ring']}) -- Band of Seething Manifest
-    }
+    rewards = {Achievement({id = 12941, criteria = 41719})}
 }) -- Seething Cache
 
 map.nodes[32985711] = Rare({
@@ -330,10 +325,7 @@ map.nodes[31934061] = Rare({
 map.nodes[25101624] = Rare({
     id = 139358,
     quest = 51949,
-    note = L['the_caterer_note'],
-    rewards = {
-        Item({item = 155560, note = L['ring']}) -- Lazy-Baker's Ring
-    }
+    note = L['the_caterer_note']
 }) -- The Caterer
 
 map.nodes[72856047] = Rare({
@@ -825,3 +817,31 @@ map.nodes[60802340] = ns.node.Squirrel({
     rewards = {Achievement({id = 14730, criteria = 50241})},
     pois = {POI({60801600, 62602380, 59202340})}
 }) -- Bramble Hare
+
+-------------------------------------------------------------------------------
+-------------------------------- BATTLE SAFARI --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[27407220] = Safari.CoastalScuttler({
+    pois = {POI({26407340, 27207280, 27407100, 27407220, 27607100, 28007320})}
+}) -- Coastal Scuttler
+
+map.nodes[35004020] = Safari.RiverOtter({
+    pois = {
+        POI({
+            28804480, 30404460, 30604460, 31004560, 31804260, 32004400,
+            32404200, 32804060, 32804340, 33003920, 33404040, 33604060,
+            34203980, 35004020, 35004620
+        })
+    }
+}) -- River Otter
+
+map.nodes[21602880] = Safari.ShackCrab({
+    pois = {
+        POI({
+            20403020, 20603000, 20802840, 20802880, 21202700, 21402620,
+            21602620, 21602880, 22402260, 22402500, 22602300, 22602420,
+            22602480, 58601440
+        })
+    }
+}) -- ShackCrab

@@ -17,6 +17,9 @@ L['squirrels_note'] = nil
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = nil
 
+L['options_icons_safari'] = '{achievement:14867}'
+L['options_icons_safari_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------

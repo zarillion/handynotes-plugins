@@ -117,9 +117,7 @@ map.nodes[19324172] = Rare({
     note = L['apholeias_note'],
     rlabel = ns.status.LightBlue('+100 ' .. L['rep']),
     rewards = {
-        Achievement({id = 14744, criteria = 49842}),
-        Item({item = 184106, note = L['ring']}), -- Gimble
-        Item({item = 182327}) -- Dominion Etching: Loss
+        Achievement({id = 14744, criteria = 49842}), Item({item = 182327}) -- Dominion Etching: Loss
     }
 }) -- Apholeias, Herald of Loss
 
@@ -212,9 +210,7 @@ map.nodes[42342108] = Rare({
     note = L['ekphoras_note'],
     rlabel = ns.status.LightBlue('+100 ' .. L['rep']),
     rewards = {
-        Achievement({id = 14744, criteria = 49849}),
-        Item({item = 184105, note = L['ring']}), -- Gyre
-        Item({item = 182328}) -- Dominion Etching: Grief
+        Achievement({id = 14744, criteria = 49849}), Item({item = 182328}) -- Dominion Etching: Grief
     }
 }) -- Ekphoras, Herald of Grief
 
@@ -238,7 +234,6 @@ map.nodes[20586935] = Rare({
     fgroup = 'nilganihmaht_group',
     rewards = {
         Achievement({id = 14744, criteria = 49851}),
-        Item({item = 184108, note = L['neck']}), -- Vorpal Amulet
         Item({item = 183066, quest = 63160}), -- Korrath's Grimoire: Aleketh
         Item({item = 183067, quest = 63161}), -- Korrath's Grimoire: Belidir
         Item({item = 183068, quest = 63162}), -- Korrath's Grimoire: Gyadrek
@@ -439,7 +434,6 @@ map.nodes[36034433] = Rare({
     rift = 2,
     rewards = {
         Achievement({id = 15107, criteria = 52297}),
-        Item({item = 187406, note = L['ring']}), -- Band of Blinding Shadows
         Transmog({item = 187361, slot = L['bow']}) -- Rift-Bound Shadow Piercer
     }
 }) -- Blinding Shadow
@@ -494,12 +488,10 @@ map.nodes[69214521] = Treasure({
     quest = 64256,
     rlabel = ns.status.LightBlue(L['plus_research']),
     rewards = {
-        Achievement({id = 15099, criteria = 52243}),
-        Item({item = 185902, note = L['trinket']}), -- Iron Maiden's Toolkit
-        --[[
-        Transmog({item=187014, slot=L["cosmetic"]}), -- Shackler's Spiked Shoulders
-        Transmog({item=187018, slot=L["cosmetic"]}), -- Ritualist's Shoulder Scythes
-        Transmog({item=187019, slot=L["cosmetic"]}), -- Infiltrator's Shoulderguards
+        Achievement({id = 15099, criteria = 52243}), --[[
+        Transmog({item=187014, slot=L['cosmetic']}), -- Shackler's Spiked Shoulders
+        Transmog({item=187018, slot=L['cosmetic']}), -- Ritualist's Shoulder Scythes
+        Transmog({item=187019, slot=L['cosmetic']}), -- Infiltrator's Shoulderguards
         ]] Transmog({item = 187026, slot = L['cosmetic']}), -- Field Warden's Torture Kit
         Transmog({item = 187240, slot = L['cosmetic']}) -- Field Warden's Watchful Eye
     }
@@ -717,7 +709,6 @@ map.nodes[55626318] = BonusBoss({
     note = L['in_cave'] .. ' ' .. L['sanngror_note'],
     rewards = {
         Achievement({id = 14660, criteria = 49489}),
-        Item({item = 186629, note = L['ring']}), -- Sanngors Spiked Band
         Pet({item = 183410, id = 3040}) -- Sharpclaw
     },
     pois = {
@@ -750,10 +741,7 @@ map.nodes[36844480] = BonusBoss({
     id = 156203,
     quest = 62539,
     noassault = KYRIAN,
-    rewards = {
-        Achievement({id = 14660, criteria = 50409}),
-        Item({item = 186631, note = L['ring']}) -- Emberfused Band
-    }
+    rewards = {Achievement({id = 14660, criteria = 50409})}
 }) -- Stygian Incinerator
 
 map.nodes[40705959] = BonusBoss({

@@ -103,6 +103,10 @@ L['options_icons_locked_chest_desc'] = 'Display locations of locked chests in th
 L['options_icons_recrig'] = '{npc:150448}'
 L['options_icons_recrig_desc'] = 'Display the location of the {npc:150448} and its rewards.'
 
+L['mechagon_snooter_note'] = '{npc:154769} (pretty rare) and {npc:154767} share the same spawn points.'
+L['battlepet_secondary_only_note'] = 'Can be found only as secondary pet.'
+L['mechagon_explode_note'] = '{note:Beware, it can {spell:90096}, which will kill it and you won\'t be able to catch it.}'
+
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
 -------------------------------------------------------------------------------
@@ -691,14 +695,14 @@ L['options_icons_tales_of_de_loa'] = '{achievement:13036}'
 L['options_icons_tales_of_de_loa_desc'] = 'Display tablet locations for the {achievement:13036} achievement.'
 
 L['jani_note'] = 'Click on the Mysterious Trashpile to reveal {npc:126334}.'
-L['rezan_note'] = ns.color.Red('Inside the Atal\'Dazar dungeon.')
-L['bow_to_your_masters_note'] = 'Bow to the loa of Zandalar (' .. ns.color.Orange('/bow') .. ').'
+L['rezan_note'] = '{note:Inside the {location:Atal\'Dazar} dungeon.}'
+L['bow_to_your_masters_note'] = 'Bow to the loa of Zandalar ({emote/bow}).'
 L['options_icons_bow_to_your_masters'] = '{achievement:13020}'
 L['options_icons_bow_to_your_masters_desc'] = 'Display loa locations for the {achievement:13020} achievement.'
 
 L['alisha_note'] = 'This vendor requires quest progress in Drustvar.'
 L['elijah_note'] = 'This vendor requires quest progress in Drustvar. He begins selling sausage after {quest:47945}.'
-L['raal_note'] = ns.color.Red('Inside the Waycrest Manor dungeon.')
+L['raal_note'] = '{note:Inside the {location:Waycrest Manor} dungeon.}'
 L['sausage_sampler_note'] = 'Eat one of every sausage to earn the achievement.'
 L['options_icons_sausage_sampler'] = '{achievement:13087}'
 L['options_icons_sausage_sampler_desc'] = 'Display vendor locations for the {achievement:13087} achievement.'
@@ -722,15 +726,22 @@ L['options_icons_daily_chests'] = 'Chests'
 
 L['supply_chest'] = 'War Supply Chest'
 L['supply_chest_note'] = 'A {npc:135181} or {npc:138694} will fly overhead once every 45 minutes and drop a {npc:135238} at one of three potential drop locations.'
-L['supply_single_drop'] = ns.color.Orange('This flight path always drops the supply crate at this location.')
+L['supply_single_drop'] = '{note:This flight path always drops the supply crate at this location.}'
 L['options_icons_supplies_desc'] = 'Display {npc:135238} drop locations.'
 L['options_icons_supplies'] = '{npc:135238s}'
 
 L['secret_supply_chest'] = 'Secret Supply Chest'
-L['secret_supply_chest_note'] = 'When a faction assault is active, a ' .. ns.color.Yellow('Secret Supply Chest') .. ' can appear at one of these locations for a short time.'
+L['secret_supply_chest_note'] = 'When a faction assault is active, a {object:Secret Supply Chest} can appear at one of these locations for a short time.'
 L['options_icons_secret_supplies'] = 'Secret Supply Chests'
-L['options_icons_secret_supplies_desc'] = 'Display ' .. ns.color.Yellow('Secret Supply Chest') .. ' locations for the {achievement:13317} achievement.'
+L['options_icons_secret_supplies_desc'] = 'Display {object:Secret Supply Chest} locations for the {achievement:13317} achievement.'
 
-L['squirrels_note'] = 'You must use the emote /love on critters not battle pets.'
+L['squirrels_note'] = 'You must use the emote {emote:/love} on critters not battle pets.'
 L['options_icons_squirrels'] = '{achievement:14730}'
 L['options_icons_squirrels_desc'] = 'Display the locations of critters for {achievement:14730} achievement.'
+
+L['options_icons_battle_safari'] = '{achievement:12930}'
+L['options_icons_battle_safari_desc'] = 'Display battle pet locations for the {achievement:12930} achievement.'
+L['options_icons_mecha_safari'] = '{achievement:13693}'
+L['options_icons_mecha_safari_desc'] = 'Display battle pet locations for the {achievement:13693} achievement.'
+L['options_icons_nazja_safari'] = '{achievement:13694}'
+L['options_icons_nazja_safari_desc'] = 'Display battle pet locations for the {achievement:13694} achievement.'

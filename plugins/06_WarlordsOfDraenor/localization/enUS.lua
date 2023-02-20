@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = 'Edge of Reality'
-L['edge_of_reality_note'] = ns.color.Yellow('Edge of Reality') .. ' portal will take you to a scenario, where you can loot {item:121815}.'
+L['edge_of_reality_note'] = '{object:Edge of Reality} portal will take you to a scenario, where you can loot {item:121815}.'
 L['treasures_discovered'] = 'treasures discovered'
 L['strange_spore_treasure'] = 'Strange Spore'
 L['burning_blade_cache_treasure'] = 'Burning Blade Cache'
@@ -33,7 +33,7 @@ L['fen_tao_follower_note'] = 'Talk to him to recruit him as a follower'
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
-L['borrok_the_devourer_note'] = ns.color.Red('Do not kill!') .. '\n\nInstead, kill nearby ogres and feed them to {npc:72156}. After 10 ogres he will cough up a lootable |cffffff00Devourer\'s Gutstone\r'
+L['borrok_the_devourer_note'] = '{note:Do not kill!}\n\nInstead, kill nearby ogres and feed them to {npc:72156}. After 10 ogres he will cough up a lootable |cffffff00Devourer\'s Gutstone\r'
 L['gibblette_the_cowardly_note'] = 'Interrupt {spell:175415} or he will run from battle and despawn'
 
 L['arena_masters_war_horn_treasure'] = 'Arena Master\'s War Horn'
@@ -97,9 +97,9 @@ L['shadow_hunter_rala_follower_note'] = 'Complete {quest:34348} to recruit him a
 L['gronnstalker_rokash_follower_note'] = 'Complete {quest:32981} to recruit him as a follower.'
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
-L['options_icons_writing_in_the_snow_desc'] = 'Display the locations of |cffffff00Tattered Journal Page|r for {achievement:9531}'
+L['options_icons_writing_in_the_snow_desc'] = 'Display the locations of {object:Tattered Journal Page} for {achievement:9531}'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = 'Display the locations of |cffffff00Frozen Slave|r and |cffffff00Prisoner Cage|r for {achievement:9533}'
+L['options_icons_breaker_of_chains_desc'] = 'Display the locations of {npc:82680} and {location:Prisoner Cage} for {achievement:9533}'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
 L['options_icons_delectable_ogre_delicacies_desc'] = 'Display the locations of delicacies for {achievement:9534}'
 
@@ -141,9 +141,9 @@ L['weapons_cache_treasure'] = 'Weapons Cache'
 L['ninja_pepe_note'] = 'Inside the hut sitting on a chair.'
 L['ninja_pepe_treasure'] = 'Ninja Pepe'
 
-L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r, |cffffff00{npc:86258}|r, and |cffffff00{npc:86257}|r form the |cffffff00Protectors of the Grove|r'
+L['protectors_of_the_grove_sublabel'] = '{npc:86259}, {npc:86258}, and {npc:86257} form the {object:Protectors of the Grove}.'
 
-L['prove_your_strength_note'] = 'Requires {spell:164012} garrison ability to be active. To enable |cffffff00The Sparring Arena|r visit your faction outpost.'
+L['prove_your_strength_note'] = 'Requires {spell:164012} garrison ability to be active. To enable {location:The Sparring Arena} visit your faction outpost.'
 L['prove_your_strength_drop_single'] = 'Dropped by %s.'
 L['prove_your_strength_drop_double'] = 'Dropped by %s or %s.'
 
@@ -226,23 +226,23 @@ L['viking_pepe_treasure'] = 'Viking Pepe'
 
 L['highmaul_farm_path'] = [[
 Farming Path
-1. Start at the front gate and go right into |cffffff00The Underbelly|r.
+1. Start at the front gate and go right into {location:The Underbelly}.
 2. Go left through the gladiator pit area. Be sure to tag the ogre overlooking on the upper left.
 3. Continue up the stairs and past the pond with the {npc:87227}.
-4. Turn left and up into the |cffffff00Path of Victors|r.
+4. Turn left and up into the {location:Path of Victors}.
 5. Go up to the fork in the path. Be sure to tag the ogre to the right.
-6. Turn left into |cffffff00The Market District|r and clear the entire thing out moving counterclockwise.
-7. Go left into |cffffff00The Imperator's Favor|r, continue following the path and clear it all.
-8. To Left again, down the path, and back into |cffffff00The Path of Victors|r.
-9. Mount up and fly up, over, and into |cffffff00The Coliseum|r. Don't try to use the front door, it's locked.
+6. Turn left into {location:The Market District} and clear the entire thing out moving counterclockwise.
+7. Go left into {location:The Imperator's Favor}, continue following the path and clear it all.
+8. To Left again, down the path, and back into {location:The Path of Victors}.
+9. Mount up and fly up, over, and into {location:The Coliseum}. Don't try to use the front door, it's locked.
 
 Fly out to the right and back to the front gate. One single run takes just under 4 minutes and by the time you're back at the front gate everything will have already respawned.
 ]]
 
-L['steamwheedle_note'] = 'Farm {item:118099} and {item:118100} from {npc:87223} and {npc:87222} around |cffffff00Highmaul|r. Turn items into {npc:87393} for reputation.'
+L['steamwheedle_note'] = 'Farm {item:118099} and {item:118100} from {npc:87223} and {npc:87222} around {location:Highmaul}. Turn items into {npc:87393} for reputation.'
 
 L['finding_your_waystones_label'] = '{achievement:9497}'
-L['finding_your_waystones_note'] = 'Farm {item:117491} from {npc:87223} and {npc:87222} around |cffffff00Highmaul|r'
+L['finding_your_waystones_note'] = 'Farm {item:117491} from {npc:87223} and {npc:87222} around {location:Highmaul}'
 L['ogre_waystones'] = 'ogre waystones looted'
 
 L['signal_horn_note'] = 'Obtain {item:120290} from nearby {npc:86658} then use the {npc:87361} to summon {npc:87239} and {npc:87344}.'
@@ -252,13 +252,13 @@ L['warsong_relics'] = 'Against a fence outside a hut'
 L['stolen_draenei_tome'] = 'Can spawn in multiple locations on top of towers'
 L['dirt_mound'] = 'Kill {npc:86659} to spawn a {npc:87280} on the floor nearby. Click the totem to receive {spell:174572}. You can now dig up nearby {npc:87530} to find items.'
 
-L['stable_master_note'] = 'Talk to {stablemaster} to receive a mount-in-training whistle.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUse the whistle to summon your mount-in-training and kill the target.\n\n{achievement:9539} requires {item:118469} from a |cffffff00Level 2 Stables|r.\n{achievement:9540} requires {item:118470} from a |cffffff00Level 3 Stables|r.'
+L['stable_master_note'] = 'Talk to {stablemaster} to receive a mount-in-training whistle.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUse the whistle to summon your mount-in-training and kill the target.\n\n{achievement:9539} requires {item:118469} from a {location:Level 2 Stables}.\n{achievement:9540} requires {item:118470} from a {location:Level 3 Stables}.'
 
-L['making_the_cut_note'] = 'While {npc:88210} is available kill 15 {npc:88207} around |cffffff00The Ring of Blood|r. Once 15 have been killed {npc:88210} will become targetable.\n\n' .. ns.color.Red('Not bad for a bunch of worthless pukes! Come face Krud when you ready to die!')
+L['making_the_cut_note'] = 'While {npc:88210} is available kill 15 {npc:88207} around {location:The Ring of Blood}. Once 15 have been killed {npc:88210} will become targetable.\n\n{yell:Not bad for a bunch of worthless pukes! Come face Krud when you ready to die!}'
 
 L['goldmane_follower_note'] = 'Kill {npc:80080} nearby to loot {item:111863} and unlock the cage to recruit {npc:80083} as a follower'
 L['abugar_follower_note'] = [[
-Deliver 3 fishing items found around |cffffff00Nagrand|r and then speak to him to recruit him as a follower.
+Deliver 3 fishing items found around {location:Nagrand} and then speak to him to recruit him as a follower.
 
 {item:114245}
 {item:114242}
@@ -280,7 +280,7 @@ L['options_icons_buried_treasures_desc'] = 'Display item locations for {achievem
 L['options_icons_the_stable_master'] = '{achievement:9539} and {achievement:9540}'
 L['options_icons_the_stable_master_desc'] = 'Display target locations for {achievement:9539} and {achievement:9540}'
 L['options_icons_making_the_cut'] = '{achievement:9617}'
-L['options_icons_making_the_cut_desc'] = 'Display |cffffff00Bloodring Slaver|r locations for {achievement:9617}'
+L['options_icons_making_the_cut_desc'] = 'Display {npc:88207} locations for {achievement:9617}'
 
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------
@@ -317,7 +317,7 @@ L['ronokks_belongings_treasure'] = 'Ronokk\'s Belongings'
 L['rotting_basket_treasure'] = 'Rotting Basket'
 L['rovos_dagger_treasure'] = 'Rovo\'s Dagger'
 L['scaly_rylak_egg_treasure'] = 'Scaly Rylak Egg'
-L['shadowmoon_exile_treasure_note'] = 'In a cave below |cffffff00Exile\'s Rise|r'
+L['shadowmoon_exile_treasure_note'] = 'In a cave below {location:Exile\'s Rise}'
 L['shadowmoon_exile_treasure_treasure'] = 'Shadowmoon Exile Treasure'
 L['shadowmoon_sacrificial_dagger_treasure'] = 'Shadowmoon Sacrificial Dagger'
 L['shadowmoon_treasure_treasure'] = 'Shadowmoon Treasure'
@@ -341,7 +341,7 @@ L['options_icons_you_have_been_rylakinated_desc'] = 'Display Rylak locations for
 -------------------------------------------------------------------------------
 
 L['abandoned_mining_pick_treasure'] = 'Abandoned Mining Pick'
-L['admiral_taylors_coffer_note'] = 'Use the {item:116020} to unlock |cffffff00Admiral Taylor\'s Coffer|r in |cffffff00Admiral Taylor\'s Garrison Town Hall|r'
+L['admiral_taylors_coffer_note'] = 'Use the {item:116020} to unlock {object:Admiral Taylor\'s Coffer} in {location:Admiral Taylor\'s Garrison Town Hall}'
 L['admiral_taylors_coffer_treasure'] = 'Admiral Taylor\'s Coffer'
 L['assassins_spear_treasure'] = 'Assassin\'s Spear'
 L['campaign_contributions_treasure'] = 'Campaign Contributions'
@@ -361,7 +361,7 @@ L['ogron_plunder_treasure'] = 'Ogron Plunder'
 L['orcish_signaling_horn_treasure'] = 'Orcish Signaling Horn'
 L['outcasts_belongings_treasure'] = 'Outcast\'s Belongings'
 L['outcasts_pouch_treasure'] = 'Outcast\'s Pouch'
-L['rooby_roos_ruby_collar_note'] = 'Buy 3 {item:114835} from {npc:82432} in the basement of |cffffff00The Briny Barnacle|r. Follow and feed {npc:84332} until he leaves a "treasure" on the floor.'
+L['rooby_roos_ruby_collar_note'] = 'Buy 3 {item:114835} from {npc:82432} in the basement of {location:The Briny Barnacle}. Follow and feed {npc:84332} until he leaves a "treasure" on the floor.'
 L['rooby_roos_ruby_rollar_treasure'] = 'Rooby\'s Roo'
 L['rukhmars_image_treasure'] = 'Rukhmar\'s Image'
 L['sailor_zazzuks_180_proof_rum_note'] = 'In the control room'
@@ -385,7 +385,7 @@ L['smuggled_apexis_artifacts_treasure'] = 'Smuggled Apexis Artifacts'
 L['offering_to_the_raven_mother_treasure'] = 'Offering to the Raven Mother'
 
 L['elixir_of_shadow_sight_treasure'] = 'Elixir of Shadow Sight'
-L['elixir_pre_note'] = 'Take to a |cffffff00Shrine to Terokk|r.'
+L['elixir_pre_note'] = 'Take to a {object:Shrine to Terokk}.'
 L['elixir_01_note'] = 'Next to a small hut in a hanging basket.'
 L['elixir_02_note'] = 'In a basket within the back of a burning hut.'
 L['elixir_03_note'] = 'Within a basket between a tree and a broken wall.'
@@ -408,18 +408,18 @@ Interact with {npc:85992} to randomly receive one of three buffs.
 {spell:171768}
 ]]
 
-L['leorajh_follower_note'] = 'Talk to him to recruit him as a follower'
+L['leorajh_follower_note'] = 'Talk to him to recruit him as a follower.'
 
 L['options_icons_archaeology_treasure'] = 'Archaeology Treasures'
-L['options_icons_archaeology_treasure_desc'] = 'Display locations for archaeology treasures'
+L['options_icons_archaeology_treasure_desc'] = 'Display locations for archaeology treasures.'
 L['options_icons_offering'] = 'Offering to the Raven Mother'
-L['options_icons_offering_desc'] = 'Display item locations of |cffffff00Offering to the Raven Mother|r'
+L['options_icons_offering_desc'] = 'Display item locations of {object:Offering to the Raven Mother}.'
 L['options_icons_shrines_of_terokk'] = 'Shrines of Terokk'
-L['options_icons_shrines_of_terokk_desc'] = 'Display locations for |cffffff00Shrines of Terokk|r'
+L['options_icons_shrines_of_terokk_desc'] = 'Display locations for {object:Shrines of Terokk}.'
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
-L['options_icons_would_you_like_a_pamplet_desc'] = 'Display item locations for {achievement:9432}'
+L['options_icons_would_you_like_a_pamplet_desc'] = 'Display item locations for {achievement:9432}.'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
-L['options_icons_king_of_the_monsters_desc'] = 'Display rare locations for {achievement:9601}'
+L['options_icons_king_of_the_monsters_desc'] = 'Display rare locations for {achievement:9601}.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
@@ -493,14 +493,14 @@ L['ahm_follower_note'] = 'Complete {quest:33973} then meet him at your garrison 
 L['defender_illona_follower_note'] = 'Complete {quest:34777} to recruit her as a follower'
 L['pleasure_bot_8000_follower_note'] = 'Complete {quest:34761} to recruit it as a follower'
 L['image_of_archmage_vargoth_follower_note'] = [[
-Find 4 mysterious objects around |cffffff00Draenor|r.
+Find 4 mysterious objects around {location:Draenor}.
 
-{quest:34463} is found in |cffffff00Gorgrond|r
-{quest:34464} is found in |cffffff00Frostfire Ridge|r
-{quest:34465} is found in |cffffff00Talador|r
-{quest:34466} is found in |cffffff00Nagrand|r
+{quest:34463} is found in {location:Gorgrond}
+{quest:34464} is found in {location:Frostfire Ridge}
+{quest:34465} is found in {location:Talador}
+{quest:34466} is found in {location:Nagrand}
 
-Turn each quest into {npc:86949} at |cffffff00Khadgar's Tower|r in |cffffff00Talador|r who will then have {quest:34472}. Complete the quest and then speak to {npc:77853} to recruit him as a follower.
+Turn each quest into {npc:86949} at {location:Khadgar's Tower} in {location:Talador} who will then have {quest:34472}. Complete the quest and then speak to {npc:77853} to recruit him as a follower.
 ]]
 
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
@@ -512,10 +512,10 @@ L['options_icons_wingmen_desc'] = 'Display farm locations for {achievement:9499}
 --------------------------------- TANAAN JUNGLE -------------------------------
 -------------------------------------------------------------------------------
 
-L['deathtalon_note'] = ns.color.Red('Shadow Lord Iskar yells: Behind the veil, all you find is death!')
-L['doomroller_note'] = ns.color.Red('Siegemaster Mar\'tak yells: Hah-ha! Trample their corpses!')
-L['terrorfist_note'] = ns.color.Red('Frogan yells: A massive gronnling is heading for Rangari Refuge! We are going to require some assistance!')
-L['vengeance_note'] = ns.color.Red('Tyrant Velhari yells: Insects deserve to be crushed!')
+L['deathtalon_note'] = '{yell:Shadow Lord Iskar yells: Behind the veil, all you find is death!}'
+L['doomroller_note'] = '{yell:Siegemaster Mar\'tak yells: Hah-ha! Trample their corpses!}'
+L['terrorfist_note'] = '{yell:Frogan yells: A massive gronnling is heading for Rangari Refuge! We are going to require some assistance!}'
+L['vengeance_note'] = '{yell:Tyrant Velhari yells: Insects deserve to be crushed!}'
 L['iron_armada_note'] = 'This toy is also buyable on AH and is required for {achievement:10353}.'
 L['commander_kraggoth_note'] = 'At the top of the north-east tower.'
 L['grannok_note'] = 'At the top of the south-east tower.'

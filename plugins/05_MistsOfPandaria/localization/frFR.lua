@@ -7,21 +7,21 @@ if not L then return end
 -------------------------------- TIMELESS ISLE --------------------------------
 -------------------------------------------------------------------------------
 
-L['cavern_of_lost_spirits'] = 'Dans la Caverne des Esprits perdus.'
+L['cavern_of_lost_spirits'] = 'Dans la {location:Caverne des Esprits perdus}.'
 L['looted_twice'] = 'Vous n\'avez jamais tué ce rare sur ce personnage. Il peut être looté deux fois aujourd\'hui.'
 L['neverending_spritewood'] = 'Bois de lutins sans fin'
-L['neverending_spritewood_note'] = 'Après avoir brisé le Bois de lutins sans fin, tuez autant de {npc:71824s} que possible pendant que vous avez le debuff {spell:144052} !'
+L['neverending_spritewood_note'] = 'Après avoir brisé le {object:Bois de lutins sans fin}, tuez autant de {npc:71824s} que possible pendant que vous avez le debuff {spell:144052} !'
 L['zarhym_note'] = 'Une fois par jour, vous pouvez parler à {npc:71876} pour entrer dans le {spell:144145} et tenter de récupérer son corps.'
 
 L['archiereus_note'] = 'Achetez un {item:103684} au {npc:73306} pour invoquer ce rare.'
-L['chelon_note'] = 'Cliquez sur la Carapace visiblement vide pour faire apparaître le rare.'
+L['chelon_note'] = 'Cliquez sur la {object:Carapace visiblement vide} pour faire apparaître le rare.'
 L['cranegnasher_note'] = 'Kitez une {npc:72095} depuis le sud jusqu\'au cadavre de la grue.'
-L['dread_ship_note'] = 'Récupérez la {item:104115} sur {npc:73279} et utilisez-la à la Pierre tombale maudite pour invoquer le rare.'
-L['emerald_gander_note'] = 'Tuez des {npc:72762s} autour de la Cour Céleste jusqu\'à ce que {npc:73158} apparaisse.'
+L['dread_ship_note'] = 'Récupérez la {item:104115} sur {npc:73279} et utilisez-la à la {object:Pierre tombale maudite} pour invoquer le rare.'
+L['emerald_gander_note'] = 'Tuez des {npc:72762s} autour de la {location:Cour Céleste} jusqu\'à ce que {npc:73158} apparaisse.'
 L['evermaw_note'] = 'Nage dans le sens des aiguilles d\'une montre tout autour de l\'île.'
 L['great_turtle_furyshell_note'] = 'Tuez des {npc:72764s} ou {npc:72763s} jusqu\'à ce que {npc:73161} apparaisse.'
-L['imperial_python_note'] = 'Tuez des {npc:72841s} autour de la Cour Céleste jusqu\'à ce que {npc:73163} apparaisse.'
-L['ironfur_steelhorn_note'] = 'Tuez des {npc:72844s} autour de la Cour Céleste jusqu\'à ce que {npc:73160} apparaisse.'
+L['imperial_python_note'] = 'Tuez des {npc:72841s} autour de la {location:Cour Céleste} jusqu\'à ce que {npc:73163} apparaisse.'
+L['ironfur_steelhorn_note'] = 'Tuez des {npc:72844s} autour de la {location:Cour Céleste} jusqu\'à ce que {npc:73160} apparaisse.'
 L['karkanos_note'] = 'Parlez à {npc:72151} pour remonter le rare. Quelle prise !'
 L['monstrous_spineclaw_note'] = 'Tuez des {npc:72766s} tout autour de l\'île jusqu\'à ce que {npc:73166} apparaisse.'
 L['rattleskew_note'] = 'Vainquez des vagues de {npc:72033s} jusqu\'à ce que le rare apparaisse.'
@@ -48,9 +48,9 @@ L['sturdy_chest_note'] = 'Frappez un {npc:73531} pour être transporté ici.'
 L['gleaming_treasure_satchel_note'] = 'Marchez sur les cordes du bateau puis sautez sur le poteau où est suspendue la sacoche.'
 L['gleaming_treasure_chest_note'] = 'Sautez sur les piliers pour atteindre le trésor.'
 L['mist_covered_treasure_chest_note'] = [[
-Nécessite de looter d'abord le Coffre au trésor resplendissant et le Coffre au trésor fermé par une corde.
+Nécessite de looter d'abord le {object:Coffre au trésor resplendissant} et le {object:Coffre au trésor fermé par une corde}.
 
-Cliquez sur la Statue de grue resplendissante pour vous envoler vers le trésor.
+Cliquez sur la {object:Statue de grue resplendissante} pour vous envoler vers le trésor.
 ]]
 L['ropebound_treasure_chest_note'] = 'Marchez sur les cordes jusqu\'au trésor.'
 L['sunken_treasure_note'] = 'Tuez des élites sur le navire englouti pour obtenir la clé.'
@@ -66,7 +66,7 @@ La couleur de la monture du {npc:69842} déterminera la couleur de la monture l�
 ]]
 L['zandalari_warbringer_killed'] = 'Porteguerre zandalari tué.'
 
-L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat.'
+L['squirrels_note'] = 'Vous devez utiliser l\'émote {emote:/amour} sur les bestioles, pas sur les familiers de combat.'
 L['options_icons_squirrels'] = '{achievement:6350}'
 L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:6350}.'
 
@@ -77,7 +77,7 @@ L['options_icons_lorewalker_desc'] = 'Afficher les emplacements pour le haut-fai
 --------------------------------- Jade Forest ---------------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_pick'] = '{item:85777} se trouve dans la Carrière de Pierre-Verte au niveau inférieur.'
+L['ancient_pick'] = '{item:85777} se trouve dans la {location:Carrière de Pierre-Verte} au niveau inférieur.'
 L['ships_locker'] = 'Placard de bateau'
 L['ships_locker_note'] = 'dans le navire englouti. Contient environ 96 or.'
 L['chest_of_supplies'] = 'Coffre de fournitures'
@@ -104,8 +104,8 @@ L['forgotten_lockbox_note'] = 'Dans la taverne au deuxième étage.\nContient en
 -------------------------- Vale of Eternal Blossoms ---------------------------
 -------------------------------------------------------------------------------
 
-L['guolai_halls'] = 'Dans les Salles de Guo-Lai'
-L['guolai_cache'] = 'Trouvez une {item:87779} et ouvrez une Cache antique de Guo-Lai.'
+L['guolai_halls'] = 'Dans les {location:Salles de Guo-Lai}'
+L['guolai_cache'] = 'Trouvez une {item:87779} et ouvrez une {object:Cache antique de Guo-Lai}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Kun Lai Summit --------------------------------

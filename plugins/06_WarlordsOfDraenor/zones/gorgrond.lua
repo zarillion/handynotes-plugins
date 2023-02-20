@@ -165,10 +165,7 @@ map.nodes[58006360] = Rare({
 map.nodes[49003300] = Rare({
     id = 86562,
     quest = 37363,
-    rewards = {
-        Achievement({id = 9655, criteria = 26542}),
-        Item({item = 119230, note = L['neck']}) -- Unpopped Pustule Pendant
-    }
+    rewards = {Achievement({id = 9655, criteria = 26542})}
 }) -- Maniacal Madgard
 
 map.nodes[48202100] = Rare({
@@ -321,21 +318,9 @@ map.nodes[40606020] = Rare({
     }
 }) -- Sulfurious
 
-map.nodes[46005080] = Rare({
-    id = 80868,
-    quest = 36204,
-    rewards = {
-        Item({item = 118229, note = L['trinket']}) -- Resonant Hidecrystal of the Gorger
-    }
-}) -- Glut
+map.nodes[46005080] = Rare({id = 80868, quest = 36204}) -- Glut
 
-map.nodes[41804560] = Rare({
-    id = 81038,
-    quest = 36391,
-    rewards = {
-        Item({item = 118230, note = L['trinket']}) -- Smoldering Cerulean Stone
-    }
-}) -- Gelgor of the Blue Flame
+map.nodes[41804560] = Rare({id = 81038, quest = 36391}) -- Gelgor of the Blue Flame
 
 map.nodes[40007900] = Rare({
     id = 82085,
@@ -420,13 +405,7 @@ map.nodes[37608140] = Rare({
     }
 }) -- Riptar
 
-map.nodes[47804160] = Rare({
-    id = 85264,
-    quest = 36393,
-    rewards = {
-        Item({item = 118211, note = L['trinket']}) -- Rolkor's Rage
-    }
-}) -- Rolkor
+map.nodes[47804160] = Rare({id = 85264, quest = 36393}) -- Rolkor
 
 map.nodes[64006180] = Rare({
     id = 86410,

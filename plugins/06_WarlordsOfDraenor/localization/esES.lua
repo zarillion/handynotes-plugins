@@ -8,7 +8,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = 'Acantilado de la Realidad'
-L['edge_of_reality_note'] = ns.color.Yellow('Edge of Reality') .. ' el portal te llevará a otro sitio, donde podrás despojar la {item:121815}.'
+L['edge_of_reality_note'] = '{object:Edge of Reality} el portal te llevará a otro sitio, donde podrás despojar la {item:121815}.'
 L['treasures_discovered'] = 'tesoros descubiertos'
 L['strange_spore_treasure'] = 'Espora Extraña'
 L['burning_blade_cache_treasure'] = 'Alijo del Clan Filo Ardiente'
@@ -34,7 +34,7 @@ L['fen_tao_follower_note'] = 'Habla con él para reclutarlo como seguidor.'
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
-L['borrok_the_devourer_note'] = ns.color.Red('¡No lo mates!') .. '\n\nEn lugar de eso, mata ogros cercanos y alimenta a {npc:72156}. Después de comer 10 ogros toserá un |cffffff00Piedra Devastadora de Devorador\r despojable.'
+L['borrok_the_devourer_note'] = '{note:¡No lo mates!}\n\nEn lugar de eso, mata ogros cercanos y alimenta a {npc:72156}. Después de comer 10 ogros toserá un {object:Piedra Devastadora de Devorador} despojable.'
 L['gibblette_the_cowardly_note'] = 'Interrumpe {spell:175415} o huirá corriendo del combate y desaparecerá.'
 
 L['arena_masters_war_horn_treasure'] = 'Cuerno de Guerra de Maestro de Arena'
@@ -513,10 +513,10 @@ L['options_icons_wingmen_desc'] = 'Muestra dónde están los sitios para farmear
 --------------------------------- TANAAN JUNGLE -------------------------------
 -------------------------------------------------------------------------------
 
-L['deathtalon_note'] = ns.color.Red('Señor de las Sombras Iskar grita: ¡Tras el velo, todo lo que encontraréis es muerte!')
-L['doomroller_note'] = ns.color.Red('Maestra de asedio Mar\'tak grita: ¡Ja ja! ¡Pisotead sus cuerpos!')
-L['terrorfist_note'] = ns.color.Red('Frogan grita: ¡Un gronito enorme va hacia el Refugio Rangari! ¡Vamos a necesitar ayuda!')
-L['vengeance_note'] = ns.color.Red('Tyrana Velhari grita: ¡Los insectos merecen ser aplastados!')
+L['deathtalon_note'] = '{yell:Señor de las Sombras Iskar grita: ¡Tras el velo, todo lo que encontraréis es muerte!}'
+L['doomroller_note'] = '{yell:Maestra de asedio Mar\'tak grita: ¡Ja ja! ¡Pisotead sus cuerpos!}'
+L['terrorfist_note'] = '{yell:Frogan grita: ¡Un gronito enorme va hacia el Refugio Rangari! ¡Vamos a necesitar ayuda!}'
+L['vengeance_note'] = '{yell:Tyrana Velhari grita: ¡Los insectos merecen ser aplastados!}'
 L['iron_armada_note'] = 'Este juguete también se puede comprar en la AH y hace falta para {achievement:10353}.'
 L['commander_kraggoth_note'] = 'Encima de la torre al noreste.'
 L['grannok_note'] = 'Encima de la torre al sureste.'

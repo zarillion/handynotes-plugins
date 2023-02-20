@@ -36,7 +36,7 @@ local map = Map({id = 542, settings = true})
 map.nodes[25202420] = Rare({
     id = 86978,
     quest = 36943,
-    rewards = {Item({item = 118696, note = L['ring']}), Currency({id = 824})}
+    rewards = {Currency({id = 824})}
 }) -- Gaze
 
 map.nodes[33005900] = Rare({
@@ -121,11 +121,7 @@ map.nodes[53798872] = Rare({
     rewards = {Transmog({item = 118206, slot = L['2h_mace']})}
 }) -- Mutafen
 
-map.nodes[54636320] = Rare({
-    id = 84836,
-    quest = 36278,
-    rewards = {Item({item = 116838, note = L['neck']})}
-}) -- Talonbreaker
+map.nodes[54636320] = Rare({id = 84836, quest = 36278}) -- Talonbreaker
 
 map.nodes[54793699] = Rare({
     id = 84890,
@@ -133,17 +129,9 @@ map.nodes[54793699] = Rare({
     rewards = {Transmog({item = 118200, slot = L['offhand']})}
 }) -- Festerbloom
 
-map.nodes[56469478] = Rare({
-    id = 84955,
-    quest = 36306,
-    rewards = {Item({item = 118202, note = L['trinket']})}
-}) -- Jiasska the Sporegorger
+map.nodes[56469478] = Rare({id = 84955, quest = 36306}) -- Jiasska the Sporegorger
 
-map.nodes[57277410] = Rare({
-    id = 84775,
-    quest = 36254,
-    rewards = {Item({item = 116852, note = L['neck']})}
-}) -- Tesska the Broken
+map.nodes[57277410] = Rare({id = 84775, quest = 36254}) -- Tesska the Broken
 
 map.nodes[58318444] = Rare({
     id = 84887,
@@ -165,11 +153,7 @@ map.nodes[59281484] = Rare({
     rewards = {Transmog({item = 118279, slot = L['cloth']})}
 }) -- Hermit Palefur
 
-map.nodes[59403740] = Rare({
-    id = 84838,
-    quest = 36279,
-    rewards = {Item({item = 118199, note = L['trinket']})}
-}) -- Poisonmaster Bortusk
+map.nodes[59403740] = Rare({id = 84838, quest = 36279}) -- Poisonmaster Bortusk
 
 map.nodes[62783737] = Rare({
     id = 84810,
@@ -836,28 +820,32 @@ map.nodes[73404500] = KingOfTheMonstersRare({
 map.nodes[71203380] = KingOfTheMonstersRare({
     id = 87027,
     rewards = {
-        Achievement({id = 9601, criteria = 27428}), Item({item = 119363})
+        Achievement({id = 9601, criteria = 27428}),
+        Transmog({item = 119363, slot = L['leather']}) -- Stretchy Purple Pants
     }
 }) -- Shadow Hulk
 
 map.nodes[71404500] = KingOfTheMonstersRare({
     id = 87029,
     rewards = {
-        Achievement({id = 9601, criteria = 27429}), Item({item = 119401})
+        Achievement({id = 9601, criteria = 27429}),
+        Transmog({item = 119401, slot = L['1h_sword']}) -- Sentinel's Wingblade
     }
 }) -- Giga Sentinel
 
 map.nodes[73803820] = KingOfTheMonstersRare({
     id = 87026,
     rewards = {
-        Achievement({id = 9601, criteria = 27427}), Item({item = 119398})
+        Achievement({id = 9601, criteria = 27427}),
+        Transmog({item = 119398, slot = L['1h_mace']}) -- Plunderer's Drill
     }
 }) -- Mecha Plunderer
 
 map.nodes[74404280] = KingOfTheMonstersRare({
     id = 87019,
     rewards = {
-        Achievement({id = 9601, criteria = 27426}), Item({item = 119404})
+        Achievement({id = 9601, criteria = 27426}),
+        Transmog({item = 119404, slot = L['wand']}) -- Glowing Morel
     }
 }) -- Glutonous Giant
 

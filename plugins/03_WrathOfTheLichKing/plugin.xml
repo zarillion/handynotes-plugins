@@ -1,6 +1,8 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
   <Script file="common.lua"/>
   <Script file="zones\borean_tundra.lua"/>
+  <Script file="zones\crystalsong_forest.lua"/>
+  <Script file="zones\dalaran.lua"/>
   <Script file="zones\dragonblight.lua"/>
   <Script file="zones\grizzly_hills.lua"/>
   <Script file="zones\howling_fjord.lua"/>
@@ -8,5 +10,4 @@
   <Script file="zones\sholazar_basin.lua"/>
   <Script file="zones\storm_peaks.lua"/>
   <Script file="zones\zuldrak.lua"/>
-  <Script file="zones\dalaran.lua"/>
 </Ui>

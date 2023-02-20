@@ -61,15 +61,17 @@ function Map:AddNode(coord, node)
         fgroup[#fgroup + 1] = coord
     end
 
-    if node.group ~= ns.groups.QUEST then
-        -- Initialize group defaults and UI controls for this map if the group does
-        -- not inherit its settings and defaults from a parent map
-        if self.settings then ns.CreateGroupOptions(self, node.group) end
+    for _, group in pairs(node.group) do
+        if group ~= ns.groups.QUEST then
+            -- Initialize group defaults and UI controls for this map if the group does
+            -- not inherit its settings and defaults from a parent map
+            if self.settings then ns.CreateGroupOptions(self, group) end
 
-        -- Keep track of all groups associated with this map
-        if not self.groups[node.group.name] then
-            self.groups[#self.groups + 1] = node.group
-            self.groups[node.group.name] = true
+            -- Keep track of all groups associated with this map
+            if not self.groups[group.name] then
+                self.groups[#self.groups + 1] = group
+                self.groups[group.name] = true
+            end
         end
     end
 
@@ -144,14 +146,14 @@ function Map:IsNodeEnabled(node, coord, minimap)
     -- Check if the node is disabled in the current context
     if not self:CanDisplay(node, coord, minimap) then return false end
 
-    -- Check if node's group is disabled
-    if not node.group:IsEnabled() then return false end
+    for _, group in pairs(node.group) do
+        -- Check if group is enable and checked/unchecked and then check for prerequisites and quest (or custom) completion
+        if group:IsEnabled() and group:GetDisplay(self.id) then
+            return node:IsEnabled()
+        end
+    end
 
-    -- Check if node's group is checked/unchecked
-    if not node.group:GetDisplay(self.id) then return false end
-
-    -- Check for prerequisites and quest (or custom) completion
-    return node:IsEnabled()
+    return false
 end
 
 function Map:Prepare()
@@ -162,6 +164,15 @@ function Map:Prepare()
             node._prepared = true
         end
     end
+
+    -- Sort groups by type, order and name
+    table.sort(self.groups, function(a, b)
+        if a.type ~= b.type then return a.type < b.type end
+        if a.order ~= b.order then return a.order < b.order end
+        local alabel = ns.RenderLinks(a.label, true)
+        local blabel = ns.RenderLinks(b.label, true)
+        return alabel < blabel
+    end)
 end
 
 function Map:SetFocus(node, coord, state, hover)

@@ -1,3 +1,50 @@
+# v31
+
+* Added Djaradin Cache locations.
+* Added missing rewards for rares.
+* Added more Tuskarr Tacklebox locations.
+* Added race info to the Bronze Timekeeper vignette.
+* Added reverse racer achievement tracking.
+* Added vendor and rares for the Storm's Fury event.
+* Fixed "Add group to TomTom" for multi-group nodes.
+
+# v30
+
+* Achievements that are completed will now display a checkmark next to them.
+* Added a number of missing rares.
+* Added Artist's Easel and Somewhat-Stabilized Arcana toys.
+* Added Loyal Magmammoth mount.
+* Added more scout pack and disturbed dirt locations.
+* Added quest tracking for Tarjin the Blind.
+* Added Snack Attach achievement.
+* Added Tuskarr Tacklebox locations.
+* Fixed a bug when hovering over assaults on the flight map.
+* Rares that count for That's Pretty Neat will now display separate icons when rares are hidden.
+* Updated numerous rewards and tracking ids.
+
+# v29
+
+* Added some missing Astray Splasher spawns.
+* Added the Three Minutes or It's Free achievement.
+* Added the training course location for Knew You Nokhud Do It.
+* Added weekly elemental chest locations.
+* Fixed a bug when hovering over primal storms with "Use Map Settings" enabled.
+
+# v28
+
+* Reorganized the map menu to better display groups.
+  * Standard groups are at the top.
+  * Expansion specific groups are in the next section.
+  * Achievement-related groups have their own sub-menu.
+* Added nodes and vignette info for elemental storms.
+* Added missing profession treasure tracking ids.
+
+# v27
+
+* Added more dirt and scout pack locations.
+* Added signal transmitter locations for the wormhole generator.
+* Overhauled the way colors are rendered in many of our notes.
+
 # v26
 
 * Added lunker rares in the Azure Span.

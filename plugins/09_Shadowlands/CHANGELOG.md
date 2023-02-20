@@ -1,3 +1,12 @@
+# v53
+
+* Added Shadowlands Safari nodes.
+
+# v52
+
+* Added improvements from the Dragonflight plugin.
+* Updated TOC for 10.0.5
+
 # v51
 
 * Added a new "Add group to TomTom" menu option.

@@ -24,16 +24,11 @@
 
 # Classic
 
-* [Eastern Kingdoms Safari](https://www.wowhead.com/achievement=6586/eastern-kingdoms-safari)
-* [Kalimdor Safari](https://www.wowhead.com/achievement=6585/kalimdor-safari)
-
 # Burning Crusade
-
-* [Outland Safari](https://www.wowhead.com/achievement=6587/outland-safari)
 
 # Wrath of the Lich King
 
-* [Northrend Safari](https://www.wowhead.com/achievement=6588/northrend-safari)
+# Cataclysm
 
 # Mists of Pandaria
 

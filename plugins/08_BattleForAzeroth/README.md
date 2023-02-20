@@ -111,6 +111,7 @@ This addon has been translated to the following languages:
 
 * `deDE` - German (thanks Dathwada EU-Eredar!)
 * `esES` - Spanish (Spain) (thanks (EU) Krovikan-Minahonda!)
+* `frFR` - French (thanks Lightuky EU-Khaz Modan!)
 * `ruRU` - Russian (thanks ZamestoTV, Сстра (Ирина), Артем!)!)
 * `zhCN` - Chinese (Simplified) (thanks Adavak and wyjbuxiu!)
 * `zhTW` - Chinese (Traditional) (thanks BNS333!)

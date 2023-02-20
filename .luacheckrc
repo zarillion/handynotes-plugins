@@ -51,6 +51,7 @@ read_globals = {
     'CombatLogGetCurrentEventInfo',
     'EJ_GetTierInfo',
     'Enum',
+    'FlightMapFrame',
     'GetAchievementCriteriaInfo',
     'GetAchievementCriteriaInfoByID',
     'GetAchievementInfo',
@@ -116,6 +117,7 @@ read_globals = {
 
     -- WoW Global variables
     'ACHIEVEMENT_COLOR_CODE',
+    'ACHIEVEMENTS',
     'AVAILABLE_QUEST',
     'CLOSE',
     'ITEM_QUALITY_COLORS',
