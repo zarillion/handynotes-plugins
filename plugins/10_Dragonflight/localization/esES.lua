@@ -255,14 +255,14 @@ L['storm_bound_chest_label'] = nil
 L['book_of_arcane_entities_label'] = nil
 L['tuskarr_kite_post_label'] = nil
 L['farescale_shrine_label'] = nil
-L['resonating_crystal_label'] = nil
+L['resonating_crystal_label'] = nil -- don't exists
 L['spellsworn_ward_label'] = nil
 L['rumbling_draconium_label'] = nil
 
 L['artisan_curio_note'] = nil
 
-L['options_icons_artisan_curio'] = nil
-L['options_icons_artisan_curio_desc'] = nil
+L['options_icons_artisan_curio'] = nil -- don't exists
+L['options_icons_artisan_curio_desc'] = nil -- don't exists
 
 -- ACH: LIBRARIAN OF THE REACH
 
@@ -291,9 +291,9 @@ L['zskera_vault_label'] = nil
 L['zskera_vault_note'] = nil
 L['door_buster_suffix'] = nil
 
-L['froststone_vault_storm_label'] = nil
-L['options_icons_froststone_vault_storm'] = nil
-L['options_icons_froststone_vault_storm_desc'] = nil
+L['froststone_vault_storm_label'] = 'Tormenta Primigenia de La Cámara Petraescarcha'
+L['options_icons_froststone_vault_storm'] = 'Tormenta Primigenia de La Cámara Petraescarcha'
+L['options_icons_froststone_vault_storm_desc'] = 'Muestra dónde está y las recompensas de las Tormentas Primigenia de La Cámara Petraescarcha.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
