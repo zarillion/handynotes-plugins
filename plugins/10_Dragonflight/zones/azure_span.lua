@@ -108,11 +108,10 @@ map.nodes[13584855] = Rare({
     rewards = {
         Achievement({id = 16678, criteria = 55381}), -- Adventurer of The Azure Span
         Achievement({id = 16444, criteria = 55381}), -- Leftovers' Revenge
-        ns.reward.Spacer(),
-        Item({item = 200095}), -- Supply-Laden Soup Pot
-        Recipe({id = 381415, profession = 185}), -- Recipe: Gral's Reverence
-        Recipe({id = 381417, profession = 185}), -- Recipe: Gral's Veneration
-        Recipe({id = 381418, profession = 185}), -- Recipe: Gral's Devotion
+        ns.reward.Spacer(), Item({item = 200095}), -- Supply-Laden Soup Pot
+        Recipe({item = 198129, id = 381415, profession = 185}), -- Recipe: Gral's Reverence
+        Recipe({item = 198130, id = 381417, profession = 185}), -- Recipe: Gral's Veneration
+        Recipe({item = 198131, id = 381418, profession = 185}), -- Recipe: Gral's Devotion
         Item({item = 200652}) -- Alchemical Flavor Pocket
     }
 }) -- Bisquius

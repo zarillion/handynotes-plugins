@@ -568,6 +568,30 @@ local Recipe = Class('Recipe', Reward, {
     type = L['recipe']
 })
 
+function Recipe:Initialize(attrs)
+    if attrs.item then
+        Item.Initialize(self, attrs)
+    else
+        Reward.Initialize(self, attrs)
+        local prefix = {
+            [171] = L['recipe_prefix_alchemy'],
+            [164] = L['recipe_prefix_blacksmithing'],
+            [333] = L['recipe_prefix_enchanting'],
+            [202] = L['recipe_prefix_engineering'],
+            [773] = L['recipe_prefix_inscription'],
+            [755] = L['recipe_prefix_jewelcrafting'],
+            [165] = L['recipe_prefix_leatherworking'],
+            [197] = L['recipe_prefix_tailoring'],
+            [185] = L['recipe_prefix_cooking']
+        }
+        prefix = prefix[self.profession] or ''
+
+        local name, _, icon = GetSpellInfo(self.id)
+        self.itemIcon = icon
+        self.itemLink = ns.color.White('[' .. prefix .. name .. ']')
+    end
+end
+
 function Recipe:IsObtained() return IsSpellKnown(self.id) end
 
 function Recipe:IsEnabled()
@@ -581,26 +605,11 @@ function Recipe:IsEnabled()
 end
 
 function Recipe:GetText()
-    local prefix = {
-        [171] = L['recipe_prefix_alchemy'],
-        [164] = L['recipe_prefix_blacksmithing'],
-        [333] = L['recipe_prefix_enchanting'],
-        [202] = L['recipe_prefix_engineering'],
-        [773] = L['recipe_prefix_inscription'],
-        [755] = L['recipe_prefix_jewelcrafting'],
-        [165] = L['recipe_prefix_leatherworking'],
-        [197] = L['recipe_prefix_tailoring'],
-        [185] = L['recipe_prefix_cooking']
-    }
-    prefix = prefix[self.profession] or ''
-
-    local name, _, icon = GetSpellInfo(self.id)
-
-    local text = Icon(self.icon or icon)
-    text = text .. ns.color.White('[' .. prefix .. name .. ']')
-    text = text .. ' (' .. self.type .. ')'
-
-    return text
+    local text = self.itemLink .. ' (' .. self.type .. ')'
+    if self.note then -- additional info
+        text = text .. ' (' .. ns.RenderLinks(self.note, true) .. ')'
+    end
+    return Icon(self.itemIcon) .. text
 end
 
 function Recipe:GetStatus()
