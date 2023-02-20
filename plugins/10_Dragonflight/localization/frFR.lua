@@ -221,7 +221,7 @@ L['mysterious_wand_note'] = 'Ramassez la {object:Clé en cristal} et placez-la d
 -------------------------------------------------------------------------------
 
 L['in_the_war_creche'] = 'Au fond du {location:Couvoir Martial}'
-L['in_the_high_creche'] = nil
+L['in_the_high_creche'] = 'Dans le {location:Haut Couvoir}'
 
 -- RARES
 
@@ -254,15 +254,15 @@ L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
 
 L['book_of_arcane_entities_label'] = 'Livre des entités arcaniques'
 L['tuskarr_kite_post_label'] = nil
-L['farescale_shrine_label'] = nil
-L['resonating_crystal_label'] = nil
-L['spellsworn_ward_label'] = nil
-L['rumbling_draconium_label'] = nil
+L['farescale_shrine_label'] = 'Sanctuaire Longuécaille'
+L['resonating_crystal_label'] = 'Cristal résonnant'
+L['spellsworn_ward_label'] = 'Protection sorcelige'
+L['rumbling_draconium_label'] = 'Draconium grondant'
 
-L['artisan_curio_note'] = nil
+L['artisan_curio_note'] = 'Les joueurs ayant le métier %s (à 50) peuvent acheter {item:%s} à la {npc:202445} au {location:Village de Morqut} pour 10 {item:190456}.'
 
-L['options_icons_artisan_curio'] = nil
-L['options_icons_artisan_curio_desc'] = nil
+L['options_icons_artisan_curio'] = 'Bibelot d\'Artisanat'
+L['options_icons_artisan_curio_desc'] = 'Afficher les emplacements et les récompenses pour les Bibelots d\'Artisanat.'
 
 -- ACH: LIBRARIAN OF THE REACH
 
@@ -291,9 +291,9 @@ L['zskera_vault_label'] = 'Caveau de Zskera'
 L['zskera_vault_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans le {location:Caveau de Zskera}.'
 L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des Clés des Caveaux Zskera.'
 
-L['froststone_vault_storm_label'] = nil
-L['options_icons_froststone_vault_storm'] = nil
-L['options_icons_froststone_vault_storm_desc'] = nil
+L['froststone_vault_storm_label'] = 'Tempête primordiale du caveau Givre-Pierre'
+L['options_icons_froststone_vault_storm'] = 'Tempêtes primordiales du caveau Givre-Pierre'
+L['options_icons_froststone_vault_storm_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Tempêtes primordiales du caveau Givre-Pierre}'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
