@@ -219,7 +219,7 @@ map.nodes[67924531] = Rare({
 
 map.nodes[61723400] = Rare({
     id = 201013,
-    quest = nil, -------------------------------------------------------------- TODO: Missing questID
+    quest = 73409,
     note = L['wymslayer_angvardi_note'],
     rewards = {
         Achievement({id = 17525, criteria = 58469}), -- Champion of the Forbidden Reach
@@ -233,7 +233,7 @@ map.nodes[61723400] = Rare({
 
 local WardenEntrix = Class('WardenEntrix', Rare, {
     id = 200960,
-    quest = nil, -------------------------------------------------------------- TODO: Missing questID
+    quest = 73367,
     note = L['in_the_war_creche'],
     rewards = {
         Achievement({id = 17525, criteria = 58470}), -- Champion of the Forbidden Reach
