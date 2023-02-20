@@ -256,7 +256,12 @@ L['tuskarr_kite_post_label'] = 'Tuskarr Kite Post'
 L['farescale_shrine_label'] = 'Farscale Shrine'
 L['resonating_crystal_label'] = 'Resonating Crystal'
 L['spellsworn_ward_label'] = 'Spellsworn Ward'
-L['rumbling_draconion_label'] = 'Rumbling Draconium'
+L['rumbling_draconium_label'] = 'Rumbling Draconium'
+
+L['artisan_curio_note'] = 'Players with %s (50) can purchase {item:%s} from {npc:202445} at {location:Morqut Village} for 10 {item:190456}.'
+
+L['options_icons_artisan_curio'] = 'Artisan Curio'
+L['options_icons_artisan_curio_desc'] = 'Display locations and rewards for Artisan Curios.'
 
 -- ACH: LIBRARIAN OF THE REACH
 
@@ -284,6 +289,10 @@ L['awakened_soil_label'] = 'Awakened Soil'
 L['zskera_vault_label'] = 'Zskera Vault'
 L['zskera_vault_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vault}.'
 L['door_buster_suffix'] = 'Doors unlocked using Zskera Vault Keys'
+
+L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm'
+L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm'
+L['options_icons_froststone_vault_storm_desc'] = 'Display location and rewards for {object:Froststone Vault Primal Storm}'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

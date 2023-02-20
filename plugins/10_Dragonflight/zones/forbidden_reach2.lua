@@ -621,38 +621,52 @@ map.nodes[39988182] = SignalTransmitter({quest = 73145}) -- Sharpscale Coast
 ------------------------------- ARTISAN CURIOS --------------------------------
 -------------------------------------------------------------------------------
 
--- TODO: These nodes might end up in ns.groups.PROFESSION_TREASURES as soon as
--- I find out what they actually do. The name will probably change but at least
--- they are organized for now.
---
--- Profession Treasures currently use the skill UI icon. These currently use
--- the required item icon. Depending on what happens these icons may need to be
--- updated.
-
--- L['options_icons_artisan_curio'] = nil
--- L['options_icons_artisan_curio_desc'] = nil
-
--- ns.groups.ARTISAN_CURIO = Group('artisan_curio', nil, {
---     defaults = ns.GROUP_HIDDEN,
---     type = ns.group_types.EXPANSION
--- })
-
 local ArtisanCurio = Class('ArtisanCurio', Collectible, {
-    -- group = ns.groups.ARTISAN_CURIO,
-    -- group = ns.groups.PROFESSION_TREASURES,
+    group = ns.groups.ARTISAN_CURIO,
     IsEnabled = function(self)
         if not ns.PlayerHasProfession(self.skillID) then return false end
         return ns.node.Item.IsEnabled(self)
     end
 }) -- Artisan Curio
 
+function ArtisanCurio.getters:note()
+    local note = ''
+    if self.prenote then note = self.prenote end
+    if self.skillID and self.recipeID then
+        local profession = C_TradeSkillUI.GetTradeSkillDisplayName(self.skillID)
+        local recipeID = self.recipeID
+        if self.prenote then note = note .. '\n\n' end
+        note = note .. format(L['artisan_curio_note'], profession, recipeID)
+    end
+    return note
+end
+
+-- map.nodes[] = ArtisanCurio({
+--     label = nil,
+--     icon = 650638,
+--     -- icon = 4620669, -- Alchemy
+--     requires = ns.requirement.Item(203407), -- Neutralizing Agent
+--     skillID = 171 -- Alchemy
+--     recipeID = 203420 -- Recipe: Neutralizing Agent
+-- }) -- UNKNOWN
+
 map.nodes[67237599] = ArtisanCurio({
     label = L['farescale_shrine_label'],
     icon = 2735993,
     -- icon = 4620670, -- Blacksmithing
     requires = ns.requirement.Item(203408), -- Ceremonial Trident
-    skillID = 164 -- Blacksmithing
+    skillID = 164, -- Blacksmithing
+    recipeID = 203421 -- Plans: Ceremonial Trident
 }) -- Farscale Shrine
+
+-- map.nodes[] = ArtisanCurio({
+--     label = nil,
+--     icon = 133210,
+--     -- icon = 4620671, -- Cooking
+--     requires = ns.requirement.Item(203409), -- Sparkling Spice Pouch
+--     skillID = 185, -- Cooking
+--     recipeID = 203422, -- Recipe: Sparkling Spice Pouch
+-- }) -- UNKNOWN
 
 map.nodes[55633610] = ArtisanCurio({
     label = L['book_of_arcane_entities_label'],
@@ -660,17 +674,28 @@ map.nodes[55633610] = ArtisanCurio({
     -- icon = 4620672, -- Enchanting
     requires = ns.requirement.Item(203410), -- Glowing Crystal Bookmark
     skillID = 333, -- Enchanting
+    recipeID = 203423, -- Formula: Glowing Crystal Bookmark
     pois = {
         POI({55103837}) -- Entrance
     }
 }) -- Book of Arcane Entities
+
+-- map.nodes[] = ArtisanCurio({
+--     label = nil,
+--     icon = 2902385,
+--     -- icon = 4620673, -- Engineering
+--     requires = ns.requirement.Item(203411), -- Gnomish Voicebox
+--     skillID = 202, -- Engineering
+--     recipeID = 203424 -- Schematic: Gnomish Voicebox
+-- }) -- UNKNOWN
 
 map.nodes[61256442] = ArtisanCurio({
     label = L['spellsworn_ward_label'],
     icon = 4638727,
     -- icon = 4620676. -- Inscription
     requires = ns.requirement.Item(203412), -- Dispelling Rune
-    skillID = 773 -- Inscription
+    skillID = 773, -- Inscription
+    recipeID = 203425 -- Technique: Dispellng Rune
 }) -- Spellsworn Ward
 
 map.nodes[28905707] = ArtisanCurio({
@@ -679,20 +704,31 @@ map.nodes[28905707] = ArtisanCurio({
     -- icon = 4620677, -- Jewelcrafting
     requires = ns.requirement.Item(203413), -- Tuning Fork
     skillID = 755, -- Jewelcrafting
-    note = L['in_small_cave'],
+    recipeID = 203426, -- Design: Tuning Fork
+    prenote = L['in_small_cave'],
     pois = {
         POI({30496101}) -- Entrance
     }
 }) -- Resonating Crystal
 
+-- map.nodes[] = ArtisanCurio({
+--     label = nil,
+--     icon = 4635266,
+--     -- icon = 4620678, -- Leatherworking
+--     requires = ns.requirement.Item(203414), -- Reinforced Leather Patch
+--     skillID = 165, -- Leatherworking
+--     recipeID = 203427, -- Reinforced Leather Patch
+-- }) -- UNKNOWN
+
 dragonskullIsland.nodes[56947247] = ArtisanCurio({
-    label = L['rumbling_draconion_label'],
+    label = L['rumbling_draconium_label'],
     icon = 134463,
     -- icon = 4620679, -- Mining
     parent = map.id,
-    note = L['in_cave'],
+    prenote = L['in_cave'],
     requires = ns.requirement.Item(203418), -- Quaking Stone
     skillID = 186, -- Mining
+    -- recipeID = nil, -- UNKNOWN
     pois = {
         POI({74533560, 76633764}) -- Entrances
     }
@@ -701,10 +737,17 @@ dragonskullIsland.nodes[56947247] = ArtisanCurio({
 map.nodes[57634843] = ArtisanCurio({
     label = L['tuskarr_kite_post_label'],
     icon = 318523,
-    -- icon = 4620681,  -- Tailoring
+    -- icon = 4620681, -- Tailoring
     requires = ns.requirement.Item(203415), -- Morqut Kite
-    skillID = 197 -- Tailoring
+    skillID = 197, -- Tailoring
+    recipeID = 203428 -- Pattern: Morqut Kite
 }) -- Tuskarr Kite Post
+
+map.nodes[35905745] = ns.node.Node({
+    label = '{npc:202445}',
+    icon = 134327,
+    group = ns.groups.ARTISAN_CURIO
+}) -- Trader Hag'arth
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -822,20 +865,80 @@ map.nodes[49426006] = Dragonrace({
 ------------------------ FROSTSTONE VAULT PRIMAL STORM ------------------------
 -------------------------------------------------------------------------------
 
--- TODO: This is more of a placeholder to track areaPOIs for Froststone
--- Vault Primal Storms. I'm sure evetually we'll tap into AreaPOIPinMixin
--- to show rewards on tooltips.
+local FROSTSTONE_VAULT_PRIMAL_STORM_AREA_POIS = {
+    [7409] = 'earth',
+    [7411] = 'water'
+}
 
--- TODO: This node might be categorized "Snowstorm" but I need WoW.tools to
--- update their database. So I can get all of the areaPOI ids.
-map.nodes[60103875] = Collectible({
-    label = 'Frostone Vault Primal Storm', -- TODO: Non-localized name for now
-    icon = 538566,
-    areaPOI = 7411,
-    rewards = {
+local FROSTSTONE_VAULT_PRIMAL_STORM_REWARDS = {
+    ['all'] = {
+        Achievement({
+            id = 17540,
+            criteria = {
+                58567, -- Air
+                58568, -- Earth
+                58569, -- Fire
+                58570 -- Water
+            }
+        }), -- Under the Weather
+        Item({item = 199691, quest = 70723}), -- Primal Earth Core
         Item({item = 199748, quest = 70752}) -- Primal Water Core
+    },
+    ['earth'] = {
+        Achievement({id = 17540, criteria = 58568}), -- Under the Weather
+        Spacer(), Item({item = 199691, quest = 70723}) -- Primal Earth Core
+    },
+    ['water'] = {
+        Achievement({id = 17540, criteria = 58570}), -- Under the Weather
+        Spacer(), Item({item = 199748, quest = 70752}) -- Primal Water Core
     }
-}) -- Primal Storm
+}
+
+local FrostStoneVaultPrimalStorm = Class('FrostStoneVaultPrimalStorm',
+    Collectible, {
+        label = L['froststone_vault_storm_label'],
+        icon = 463562,
+        areaPOIs = {7409, 7411},
+        mapID = map.id,
+        group = ns.groups.FROSTSTONE_VAULT_STORM,
+        rewards = FROSTSTONE_VAULT_PRIMAL_STORM_REWARDS['all'],
+        IsEnabled = function(self)
+            local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
+            local possiblePOIs = self.areaPOIs
+            for a = 1, #activePOIs do
+                for p = 1, #possiblePOIs do
+                    if activePOIs[a] == possiblePOIs[p] then
+                        return false
+                    end
+                end
+            end
+            return true
+        end
+    })
+
+map.nodes[60103875] = FrostStoneVaultPrimalStorm()
+
+hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+    if self and self.areaPoiID then
+        local mapID = self:GetMap().mapID
+        local group = ns.groups.FROSTSTONE_VAULT_STORM
+        local stormType =
+            FROSTSTONE_VAULT_PRIMAL_STORM_AREA_POIS[self.areaPoiID]
+
+        if FlightMapFrame == nil or not FlightMapFrame:IsShown() then
+            if stormType and group:GetDisplay(mapID) then
+                local rewards = FROSTSTONE_VAULT_PRIMAL_STORM_REWARDS[stormType]
+                GameTooltip:AddLine(' ')
+                for i, reward in ipairs(rewards) do
+                    if reward:IsEnabled() then
+                        reward:Render(GameTooltip)
+                    end
+                end
+                GameTooltip:Show()
+            end
+        end
+    end
+end)
 
 -------------------------------------------------------------------------------
 -------------------------------- SCROLL HUNTER --------------------------------

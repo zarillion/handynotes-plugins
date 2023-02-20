@@ -257,7 +257,12 @@ L['tuskarr_kite_post_label'] = nil
 L['farescale_shrine_label'] = nil
 L['resonating_crystal_label'] = nil
 L['spellsworn_ward_label'] = nil
-L['rumbling_draconion_label'] = nil
+L['rumbling_draconium_label'] = nil
+
+L['artisan_curio_note'] = nil
+
+L['options_icons_artisan_curio'] = nil
+L['options_icons_artisan_curio_desc'] = nil
 
 -- ACH: LIBRARIAN OF THE REACH
 
@@ -285,6 +290,10 @@ L['awakened_soil_label'] = 'Sol éveillé'
 L['zskera_vault_label'] = 'Caveau de Zskera'
 L['zskera_vault_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans le {location:Caveau de Zskera}.'
 L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des Clés des Caveaux Zskera.'
+
+L['froststone_vault_storm_label'] = nil
+L['options_icons_froststone_vault_storm'] = nil
+L['options_icons_froststone_vault_storm_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

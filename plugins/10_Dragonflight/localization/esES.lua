@@ -257,7 +257,12 @@ L['tuskarr_kite_post_label'] = nil
 L['farescale_shrine_label'] = nil
 L['resonating_crystal_label'] = nil
 L['spellsworn_ward_label'] = nil
-L['rumbling_draconion_label'] = nil
+L['rumbling_draconium_label'] = nil
+
+L['artisan_curio_note'] = nil
+
+L['options_icons_artisan_curio'] = nil
+L['options_icons_artisan_curio_desc'] = nil
 
 -- ACH: LIBRARIAN OF THE REACH
 
@@ -285,6 +290,10 @@ L['awakened_soil_label'] = nil
 L['zskera_vault_label'] = nil
 L['zskera_vault_note'] = nil
 L['door_buster_suffix'] = nil
+
+L['froststone_vault_storm_label'] = nil
+L['options_icons_froststone_vault_storm'] = nil
+L['options_icons_froststone_vault_storm_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
