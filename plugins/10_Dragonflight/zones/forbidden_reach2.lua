@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local Node = ns.node.Node
 local Rare = ns.node.Rare
 
 local Dragonglyph = ns.node.Dragonglyph
@@ -97,7 +98,7 @@ map.nodes[28303794] = Rare({
 
 map.nodes[41021436] = Rare({
     id = 200579,
-    quest = nil,
+    quest = nil, -------------------------------------------------------------- TODO: Missing questID
     rewards = {
         Achievement({id = 17525, criteria = 58460}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
@@ -141,7 +142,7 @@ supportCreche.nodes[35254374] = Duzalgor() -- Duzalgor (The Support Creche)
 
 map.nodes[43736121] = Rare({
     id = 200681,
-    quest = nil,
+    quest = nil, -------------------------------------------------------------- TODO: Missing questID
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58463}), -- Champion of the Forbidden Reach
@@ -165,7 +166,7 @@ map.nodes[44727943] = Rare({
 
 map.nodes[43949052] = Rare({
     id = 200721,
-    quest = nil,
+    quest = nil, -------------------------------------------------------------- TODO: Missing questID
     rewards = {
         Achievement({id = 17525, criteria = 58465}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
@@ -189,7 +190,7 @@ map.nodes[59695883] = Rare({
 
 map.nodes[72986738] = Rare({
     id = 200904,
-    quest = nil,
+    quest = nil, -------------------------------------------------------------- TODO: Missing questID
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58467}), -- Champion of the Forbidden Reach
@@ -217,7 +218,7 @@ map.nodes[67924531] = Rare({
 
 map.nodes[61723400] = Rare({
     id = 201013,
-    quest = nil,
+    quest = nil, -------------------------------------------------------------- TODO: Missing questID
     note = L['wymslayer_angvardi_note'],
     rewards = {
         Achievement({id = 17525, criteria = 58469}), -- Champion of the Forbidden Reach
@@ -231,7 +232,7 @@ map.nodes[61723400] = Rare({
 
 local WardenEntrix = Class('WardenEntrix', Rare, {
     id = 200960,
-    quest = nil,
+    quest = nil, -------------------------------------------------------------- TODO: Missing questID
     note = L['in_the_war_creche'],
     rewards = {
         Achievement({id = 17525, criteria = 58470}), -- Champion of the Forbidden Reach
@@ -410,7 +411,7 @@ siegeCreche.nodes[58993931] = Volcanakk() -- Volcanakk (The Siege Creche)
 -- TODO: A very sus spider named "Unknown" with no Wowhead entry and no silver
 -- dragon potrait. Might be one of the rares listed above?
 
--- map.nodes[53533679] = ns.node.Node({
+-- map.nodes[53533679] = Node({
 --     id = 199238
 -- }) -- Unknown
 
@@ -418,7 +419,7 @@ siegeCreche.nodes[58993931] = Volcanakk() -- Volcanakk (The Siege Creche)
 -- referenced all over the place especially by the [While We Were Sleeping]
 -- achievement criteria. May be a rare from above? Or possibly quest related?
 
--- map.nodes[58937114] = ns.node.Node({
+-- map.nodes[58937114] = Node({
 --     id = 199134,
 --     note = L['in_the_high_creche'],
 --     pois = {
@@ -571,18 +572,6 @@ map.nodes[48947352] = ns.node.ElementalChest({
     },
     areaPOI = 7415
 }) -- Storm-Bound Chest
-
-warCreche.nodes[46984738] = ns.node.Node({
-    label = L['spellsworn_gateway'],
-    icon = 'portal_pp',
-    fgroup = 'spellsworn_gateway',
-    pois = {Path({46984738, 49915424})}
-})
-warCreche.nodes[49915424] = ns.node.Node({
-    label = L['spellsworn_gateway'],
-    icon = 'portal_pp',
-    fgroup = 'spellsworn_gateway'
-})
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
@@ -761,7 +750,7 @@ map.nodes[57634843] = ArtisanCurio({
     recipeID = 203428 -- Pattern: Morqut Kite
 }) -- Tuskarr Kite Post
 
-map.nodes[35905745] = ns.node.Node({
+map.nodes[35905745] = Node({
     label = '{npc:202445}',
     icon = 134327,
     group = ns.groups.ARTISAN_CURIO
@@ -1111,7 +1100,7 @@ map.nodes[55393586] = ScalecommanderItem({
 -- TODO: Not sure what the following nodes are for yet. But they look
 -- interesting so I saved them just in case!
 
-map.nodes[35354003] = ns.node.Node({
+map.nodes[35354003] = Node({
     label = L['awakened_soil_label'],
     icon = 656681,
     requires = ns.requirement.Item(203416) -- Lifebloom Seeds -- Appears to NOT be Herbalism related
@@ -1122,7 +1111,7 @@ map.nodes[35354003] = ns.node.Node({
 -- There was ah achievement in Panderia related to edicts. Starting to save
 -- them now just in case.
 
-map.nodes[55616889] = ns.node.Node({
+map.nodes[55616889] = Node({
     label = 'Edict: The Adamant Vigil', -- TODO: Non-localized name for now
     icon = 'chest_yw',
     note = L['in_the_high_creche'],
@@ -1131,7 +1120,9 @@ map.nodes[55616889] = ns.node.Node({
     }
 }) -- Edict: The Adamant Vigil
 
-warCreche.nodes[32346769] = ns.node.Node({
+------------------------------- THE WAR CRECHE --------------------------------
+
+warCreche.nodes[32346769] = Node({
     label = 'Edict: Dark Talons', -- TODO: Non-localized name for now
     icon = 'chest_yw',
     note = L['in_the_war_creche'],
@@ -1141,7 +1132,7 @@ warCreche.nodes[32346769] = ns.node.Node({
     }
 }) -- Edict: Dark Talons
 
-warCreche.nodes[39347578] = ns.node.Node({
+warCreche.nodes[39347578] = Node({
     label = 'Edict: The Earth-Warder', -- TODO: Non-localized name for now
     icon = 'chest_yw',
     note = L['in_the_war_creche'],
@@ -1151,7 +1142,7 @@ warCreche.nodes[39347578] = ns.node.Node({
     }
 }) -- Edict: The Earth-Warder
 
-warCreche.nodes[31118323] = ns.node.Node({
+warCreche.nodes[31118323] = Node({
     label = 'Edict: Obsidian Warders', -- TODO: Non-localized name for now
     icon = 'chest_yw',
     note = L['in_the_war_creche'],
@@ -1160,6 +1151,19 @@ warCreche.nodes[31118323] = ns.node.Node({
         POI({51786020}) -- Entrance
     }
 }) -- Edict: Obsidian Warders
+
+warCreche.nodes[46984738] = Node({
+    label = L['spellsworn_gateway'],
+    icon = 'portal_pp',
+    fgroup = 'spellsworn_gateway',
+    pois = {Path({46984738, 49915424})}
+})
+
+warCreche.nodes[49915424] = Node({
+    label = L['spellsworn_gateway'],
+    icon = 'portal_pp',
+    fgroup = 'spellsworn_gateway'
+})
 
 --------------------------------- ZSKERA VAULT --------------------------------
 
