@@ -261,8 +261,8 @@ L['rumbling_draconium_label'] = nil
 
 L['artisan_curio_note'] = nil
 
-L['options_icons_artisan_curio'] = nil -- don't exists
-L['options_icons_artisan_curio_desc'] = nil -- don't exists
+L['options_icons_artisan_curio'] = nil -- "Artisan Curio" se puede encontrar en Recipe: Neutralizing Agent
+L['options_icons_artisan_curio_desc'] = nil -- "Artisan Curio" se puede encontrar en Recipe: Neutralizing Agent
 
 -- ACH: LIBRARIAN OF THE REACH
 
