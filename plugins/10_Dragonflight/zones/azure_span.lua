@@ -758,7 +758,7 @@ map.nodes[58024201] = Treasure({
     quest = 70237,
     label = L['snow_covered_scroll'],
     rewards = {
-        Item({item = 198103}) -- Recipe: Snow in a Cone
+        Recipe({item = 198103, id = 381376, profession = 185}) -- Recipe: Snow in a Cone
     }
 }) -- Snow Covered Scroll
 
