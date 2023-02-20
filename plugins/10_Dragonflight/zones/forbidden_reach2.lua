@@ -191,7 +191,7 @@ map.nodes[59695883] = Rare({
 
 map.nodes[72986738] = Rare({
     id = 200904,
-    quest = nil, -------------------------------------------------------------- TODO: Missing questID
+    quest = 70517,
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58467}), -- Champion of the Forbidden Reach
