@@ -83,7 +83,7 @@ map.nodes[58174826] = Rare({
 
 map.nodes[28303794] = Rare({
     id = 200537,
-    quest = nil,
+    quest = 73095,
     note = L['in_water_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58459}), -- Champion of the Forbidden Reach
