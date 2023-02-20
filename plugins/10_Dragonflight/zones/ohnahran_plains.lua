@@ -644,16 +644,16 @@ map.nodes[43105078] = Rare({
 map.nodes[35803600] = Rare(
     { -- is all over the place on wowhead, took a random one,
         id = 201540,
-        quest = 74464,
+        quest = 74464, -- 74546
         rewards = {
             Transmog({item = 203674, slot = L['plate']}), -- Brutal Tramplers
             DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair
         }
     }) -- Lurgan
 
-map.nodes[36803800] = Rare({ -- rough coordinates from wowhead
+map.nodes[36803800] = Rare({
     id = 201535,
-    quest = 74467,
+    quest = 74467, -- 74552
     rewards = {
         Transmog({item = 203673, slot = L['dagger']}), -- Bloodbeak's Ravenor
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -671,19 +671,20 @@ map.nodes[35804040] = Rare({ -- rough coordinates from wowhead
     }
 }) -- Groffnar
 
-map.nodes[33604160] = Rare({ -- rough coordinates from wowhead
+map.nodes[32614184] = Rare({
     id = 201539,
-    quest = 74465,
+    quest = 74465, -- 74547
     rewards = {
         Transmog({item = 203676, slot = L['cloth']}), -- Stormcaller's Grounding Shoes
         Transmog({item = 200441, slot = L['leather']}), -- Jhakan's Horned Cowl
         DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair
-    }
+    },
+    pois = {Path({32614184, 33014157, 33404161})}
 }) -- Stormcaller Narkena
 
-map.nodes[33803860] = Rare({ -- rough coordinates from wowhead
+map.nodes[33843872] = Rare({
     id = 201538,
-    quest = 74466,
+    quest = 74466, -- 74548
     rewards = {
         Transmog({item = 203672, slot = L['mail']}), -- Master Huntmaster's Wristguards
         Transmog({item = 200308, slot = L['bow']}), -- Rellen's Legacy
@@ -1235,6 +1236,7 @@ map.nodes[78736935] = Scoutpack()
 map.nodes[84685647] = Scoutpack()
 map.nodes[86084606] = Scoutpack()
 map.nodes[91393390] = Scoutpack()
+map.nodes[33764307] = Scoutpack()
 
 -------------------------------------------------------------------------------
 ------------------------------ Magic-Bound Chest ------------------------------
