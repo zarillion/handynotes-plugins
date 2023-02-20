@@ -878,6 +878,7 @@ map.nodes[49426006] = Dragonrace({
 
 local FROSTSTONE_VAULT_PRIMAL_STORM_AREA_POIS = {
     [7409] = 'earth',
+    [7410] = 'fire',
     [7411] = 'water'
 }
 
@@ -899,6 +900,10 @@ local FROSTSTONE_VAULT_PRIMAL_STORM_REWARDS = {
         Achievement({id = 17540, criteria = 58568}), -- Under the Weather
         Spacer(), Item({item = 199691, quest = 70723}) -- Primal Earth Core
     },
+    ['fire'] = {
+        Achievement({id = 17540, criteria = 58569}), -- Under the Weather
+        Spacer(), Item({item = 199750, quest = 70754}) -- Primal Fire Core
+    },
     ['water'] = {
         Achievement({id = 17540, criteria = 58570}), -- Under the Weather
         Spacer(), Item({item = 199748, quest = 70752}) -- Primal Water Core
@@ -909,7 +914,7 @@ local FroststoneVaultPrimalStorm = Class('FroststoneVaultPrimalStorm',
     Collectible, {
         label = L['froststone_vault_storm_label'],
         icon = 463562,
-        areaPOIs = {7409, 7411},
+        areaPOIs = {7409, 7410, 7411},
         mapID = map.id,
         group = ns.groups.FROSTSTONE_VAULT_STORM,
         rewards = FROSTSTONE_VAULT_PRIMAL_STORM_REWARDS['all'],
