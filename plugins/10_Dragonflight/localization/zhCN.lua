@@ -318,9 +318,9 @@ L['chest_of_the_flood'] = '洪水宝箱'
 
 L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天3小时（75）移动到另一个营地，跟随并在途中保护他们。'
 
-L['clan_chest'] = 'Сундук клана'
-L['options_icons_clan_chest'] = nil
-L['options_icons_clan_chest_desc'] = nil
+L['clan_chest'] = '氏族宝箱'
+L['options_icons_clan_chest'] = '氏族宝箱'
+L['options_icons_clan_chest_desc'] = '显示 {object:氏族宝箱} 可能的位置。'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
