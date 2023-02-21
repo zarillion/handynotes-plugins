@@ -221,8 +221,8 @@ L['mysterious_wand_note'] = 'Coge la {object:Llave de Cristal} y ponla dentro de
 -------------------------------------------------------------------------------
 
 L['in_the_war_creche'] = 'En las profundidades de {location:El Nido Bélico}'
-L['in_the_high_creche'] = nil
-L['in_froststone_vault'] = nil
+L['in_the_high_creche'] = 'Dentro de {location:El Nido Alto}'
+L['in_froststone_vault'] = 'Dentro de {location:La Cámara Petraescarcha}.'
 
 L['duzalgor_note'] = 'Coge un frasco de {spell:400751} ({dot:Green}) para sanarte del gas venenoso de la cueva.'
 L['mad_eye_carrey_note'] = '{npc:201181} está en grupo con la {npc:201184} y la {npc:201182}.'
@@ -237,7 +237,7 @@ L['options_icons_forbidden_hoard'] = nil
 L['options_icons_forbidden_hoard_desc'] = nil
 
 L['small_treasures_label'] = 'Tesoro Pequeño'
-L['small_treasures_note'] = 'Los tesoros pequeños comparten los puntos de aparición.' -- review
+L['small_treasures_note'] = nil
 L['options_icons_small_treasures'] = 'Tesoros Pequeños'
 L['options_icons_small_treasures_desc'] = 'Muestra dónde pueden haber tesoros pequeños.'
 
