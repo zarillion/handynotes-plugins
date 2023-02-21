@@ -214,9 +214,9 @@ L['tuskarr_chest'] = 'Kiste der Tuskarr'
 L['options_icons_tuskarr_chest'] = 'Kisten der Tuskarr'
 L['options_icons_tuskarr_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Kiste der Tuskarr} an.'
 
-L['community_feast_label'] = nil
-L['options_icons_community_feast'] = nil
-L['options_icons_community_feast_desc'] = nil
+L['community_feast_label'] = '{spell:386441}'
+L['options_icons_community_feast'] = '{spell:386441}'
+L['options_icons_community_feast_desc'] = 'Zeigt die Position und Belohnungen des {spell:386441s}'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
