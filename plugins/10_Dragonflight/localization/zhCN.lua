@@ -221,14 +221,11 @@ L['mysterious_wand_note'] = '拾取 {object:水晶钥匙} 并将其放入 {objec
 
 L['in_the_war_creche'] = nil
 L['in_the_high_creche'] = nil
-
--- RARES
+L['in_froststone_vault'] = nil
 
 L['duzalgor_note'] = nil
 L['mad_eye_carrey_note'] = nil
 L['wymslayer_angvardi_note'] = nil
-
--- FORBIDDEN HOARD
 
 L['hoarder_of_the_forbidden_reach_suffix'] = nil
 L['forbidden_spoils_suffix'] = nil
@@ -238,18 +235,12 @@ L['forbidden_hoard_note'] = nil
 L['options_icons_forbidden_hoard'] = nil
 L['options_icons_forbidden_hoard_desc'] = nil
 
--- SMALL TREASURES
-
 L['small_treasures_label'] = nil
 L['small_treasures_note'] = nil
 L['options_icons_small_treasures'] = nil
 L['options_icons_small_treasures_desc'] = nil
 
--- MISC TREASURES
-
 L['storm_bound_chest_label'] = nil
-
--- ARTISAN CURIO
 
 L['book_of_arcane_entities_label'] = nil
 L['tuskarr_kite_post_label'] = nil
@@ -257,13 +248,11 @@ L['farescale_shrine_label'] = nil
 L['resonating_crystal_label'] = nil
 L['spellsworn_ward_label'] = nil
 L['rumbling_draconium_label'] = nil
+L['spiceless_stew_label'] = nil
 
 L['artisan_curio_note'] = nil
-
 L['options_icons_artisan_curio'] = nil
 L['options_icons_artisan_curio_desc'] = nil
-
--- ACH: LIBRARIAN OF THE REACH
 
 L['spellsworn_missive_label'] = nil
 L['spellsworn_missive_note'] = nil
@@ -273,16 +262,14 @@ L['farscale_manifesto_label'] = nil
 L['farscale_manifesto_note'] = nil
 L['lost_expeditions_notes_label'] = nil
 L['lost_expeditions_notes_note'] = nil
+L['vrykul_tome_label'] = nil
+L['vrykul_tome_note'] = nil
 
 L['options_icons_librarian_of_the_reach'] = nil
 L['options_icons_librarian_of_the_reach_desc'] = nil
 
--- ACH: WHILE WE WERE SLEEPING
-
 L['options_icons_scalecommander_item'] = nil
 L['options_icons_scalecommander_item_desc'] = nil
-
--- MISC
 
 L['awakened_soil_label'] = nil
 

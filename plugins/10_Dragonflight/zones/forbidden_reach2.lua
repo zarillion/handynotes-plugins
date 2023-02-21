@@ -8,6 +8,7 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 
 local Dragonglyph = ns.node.Dragonglyph
@@ -517,9 +518,6 @@ local SmallTreasure = Class('SmallTreasure', Collectible, {
             }
         }), -- Hoarder of the Forbidden Reach
         Currency({id = 2118}) -- Elemental Overflow
-    },
-    pois = {
-        POI({34325997}) -- Cataloger Daela
     }
 }) -- Small Treasure
 
@@ -536,6 +534,7 @@ map.nodes[48764706] = SmallTreasure()
 map.nodes[49464251] = SmallTreasure()
 map.nodes[50374387] = SmallTreasure()
 map.nodes[50534337] = SmallTreasure()
+map.nodes[51405334] = SmallTreasure()
 map.nodes[54285826] = SmallTreasure()
 map.nodes[54575658] = SmallTreasure()
 map.nodes[54904277] = SmallTreasure()
@@ -576,6 +575,24 @@ map.nodes[48947352] = ns.node.ElementalChest({
     },
     areaPOI = 7415
 }) -- Storm-Bound Chest
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[18371315] = PetBattle({
+    id = 200769,
+    rewards = {
+        Achievement({id = 17541, criteria = 58572}) -- Global Swarming
+    }
+}) -- Vortex
+
+map.nodes[89366022] = PetBattle({
+    id = 200772,
+    rewards = {
+        Achievement({id = 17541, criteria = 58575}) -- Global Swarming
+    }
+}) -- Flow
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
@@ -627,6 +644,7 @@ map.nodes[76285343] = Flag({quest = 73702})
 -------------------------------------------------------------------------------
 
 map.nodes[39988182] = SignalTransmitter({quest = 73145}) -- Sharpscale Coast
+map.nodes[78035110] = SignalTransmitter({quest = 73144}) -- Stormsunder Mountain
 
 -------------------------------------------------------------------------------
 ------------------------------- ARTISAN CURIOS --------------------------------
@@ -670,14 +688,14 @@ map.nodes[67237599] = ArtisanCurio({
     recipeID = 203421 -- Plans: Ceremonial Trident
 }) -- Farscale Shrine
 
--- map.nodes[] = ArtisanCurio({
---     label = nil,
---     icon = 133210,
---     -- icon = 4620671, -- Cooking
---     requires = ns.requirement.Item(203409), -- Sparkling Spice Pouch
---     skillID = 185, -- Cooking
---     recipeID = 203422, -- Recipe: Sparkling Spice Pouch
--- }) -- UNKNOWN
+map.nodes[55695154] = ArtisanCurio({
+    label = L['spiceless_stew_label'],
+    icon = 133210,
+    -- icon = 4620671, -- Cooking
+    requires = ns.requirement.Item(203409), -- Sparkling Spice Pouch
+    skillID = 185, -- Cooking
+    recipeID = 203422 -- Recipe: Sparkling Spice Pouch
+}) -- Spiceless Stew
 
 map.nodes[55633610] = ArtisanCurio({
     label = L['book_of_arcane_entities_label'],
@@ -941,7 +959,7 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         local stormType =
             FROSTSTONE_VAULT_PRIMAL_STORM_AREA_POIS[self.areaPoiID]
 
-        if FlightMapFrame == nil or not FlightMapFrame:IsShown() then
+        if FROSTSTONE_VAULT_PRIMAL_STORM_AREA_POIS[mapID] then
             if stormType and group:GetDisplay(mapID) then
                 local rewards = FROSTSTONE_VAULT_PRIMAL_STORM_REWARDS[stormType]
                 GameTooltip:AddLine(' ')
@@ -1007,7 +1025,7 @@ warCreche.nodes[52405962] = LibraryBook({
 
 froststoneVault.nodes[64775677] = LibraryBook({
     label = L['confiscated_journal_label'],
-    note = L['confiscated_journal_note'],
+    note = L['in_froststone_vault'] .. '\n\n' .. L['confiscated_journal_note'],
     parent = map.id,
     rewards = {Achievement({id = 17530, criteria = 58502})}
 }) -- A Soldier's Journal
@@ -1029,10 +1047,11 @@ map.nodes[57446349] = LibraryBook({
     rewards = {Achievement({id = 17530, criteria = 58505})}
 }) -- Expedition Notes
 
--- map.nodes[] = LibraryBook({
---     id = 204317,
---     rewards = {Achievement({id = 17530, criteria = 58506})}
--- })-- Words of the Wyrmslayer
+map.nodes[61533375] = LibraryBook({
+    label = L['vrykul_tome_label'],
+    note = L['vrykul_tome_note'],
+    rewards = {Achievement({id = 17530, criteria = 58506})}
+}) -- Words of the Wyrmslayer
 
 -- map.nodes[] = LibraryBook({
 --     id = 204185,
@@ -1109,11 +1128,14 @@ map.nodes[55393586] = ScalecommanderItem({
 -- TODO: Not sure what the following nodes are for yet. But they look
 -- interesting so I saved them just in case!
 
-map.nodes[35354003] = Node({
+local AwakenedSoil = Class('AwakenedSoil', Node, {
     label = L['awakened_soil_label'],
     icon = 656681,
-    requires = ns.requirement.Item(203416) -- Lifebloom Seeds -- Appears to NOT be Herbalism related
+    requires = ns.requirement.Item(203416) -- Lifebloom Seeds
 }) -- Awakened Soil
+
+map.nodes[35354003] = AwakenedSoil()
+map.nodes[56435911] = AwakenedSoil()
 
 -- TODO: I've ran into several different Edicts while exploring. No quest flips
 -- and nothing in the Achievement frame about them. Might be quest related?

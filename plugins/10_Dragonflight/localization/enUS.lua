@@ -221,14 +221,11 @@ L['mysterious_wand_note'] = 'Pick up the {object:Crystal Key} and place it into 
 
 L['in_the_war_creche'] = 'Deep within {location:The War Creche}'
 L['in_the_high_creche'] = 'Within {location:The High Creche}'
-
--- RARES
+L['in_froststone_vault'] = 'Within {location:Froststone Vault}.'
 
 L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal from the poisonous gas within the cave.'
 L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}'
-
--- FORBIDDEN HOARD
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'small treasures opened'
 L['forbidden_spoils_suffix'] = 'Forbidden Hoards opened'
@@ -238,18 +235,12 @@ L['forbidden_hoard_note'] = 'Defeat the surrounding mobs to open the chest.'
 L['options_icons_forbidden_hoard'] = 'Forbidden Hoard'
 L['options_icons_forbidden_hoard_desc'] = 'Display possible locations of {object:Forbidden Hoard} chests.'
 
--- SMALL TREASURES
-
 L['small_treasures_label'] = 'Small Treasure'
 L['small_treasures_note'] = 'Small treasures are shared between spawn points.\n\nPurchase {item:204558} from {npc:200566} at {location:Morqut Village} to receive the {spell:405637} buff which allows you to see small treasures on the minimap for 60 minutes.'
 L['options_icons_small_treasures'] = 'Small Treasures'
 L['options_icons_small_treasures_desc'] = 'Display possible locations for small treasures.'
 
--- MISC TREASURES
-
 L['storm_bound_chest_label'] = 'Storm-Bound Chest'
-
--- ARTISAN CURIO
 
 L['book_of_arcane_entities_label'] = 'Book of Arcane Entities'
 L['tuskarr_kite_post_label'] = 'Tuskarr Kite Post'
@@ -257,13 +248,11 @@ L['farescale_shrine_label'] = 'Farscale Shrine'
 L['resonating_crystal_label'] = 'Resonating Crystal'
 L['spellsworn_ward_label'] = 'Spellsworn Ward'
 L['rumbling_draconium_label'] = 'Rumbling Draconium'
+L['spiceless_stew_label'] = 'Spiceless Stew'
 
 L['artisan_curio_note'] = 'Players with %s (50) can purchase {item:%s} from {npc:202445} at {location:Morqut Village} for 10 {item:190456}.'
-
 L['options_icons_artisan_curio'] = 'Artisan Curio'
 L['options_icons_artisan_curio_desc'] = 'Display locations and rewards for Artisan Curios.'
-
--- ACH: LIBRARIAN OF THE REACH
 
 L['spellsworn_missive_label'] = 'Spellsworn Missive'
 L['spellsworn_missive_note'] = 'Open the {object:Spellsworn Missive} and loot the {item:204338}.'
@@ -273,16 +262,14 @@ L['farscale_manifesto_label'] = 'Farscale Manifesto'
 L['farscale_manifesto_note'] = 'Open the {object:Farscale Manifesto} and loot the {item:204335}.'
 L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
 L['lost_expeditions_notes_note'] = 'Open the {object:Lost Expedition Notes} and loot the {item:204321}.'
+L['vrykul_tome_label'] = 'Vrykul Tome'
+L['vrykul_tome_note'] = 'Open the {object:Vrykul Tome} and loot the {item:204317}.'
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}.'
 
--- ACH: WHILE WE WERE SLEEPING
-
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achievement:17315}.'
-
--- MISC
 
 L['awakened_soil_label'] = 'Awakened Soil'
 

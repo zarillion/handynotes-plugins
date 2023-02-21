@@ -222,14 +222,11 @@ L['mysterious_wand_note'] = 'Coge la {object:Llave de Cristal} y ponla dentro de
 
 L['in_the_war_creche'] = 'En las profundidades de {location:El Nido Bélico}'
 L['in_the_high_creche'] = nil
-
--- RARES
+L['in_froststone_vault'] = nil
 
 L['duzalgor_note'] = 'Coge un frasco de {spell:400751} ({dot:Green}) para sanarte del gas venenoso de la cueva.'
 L['mad_eye_carrey_note'] = '{npc:201181} está en grupo con la {npc:201184} y la {npc:201182}.'
 L['wymslayer_angvardi_note'] = '{npc:201013} está acompañado por {npc:201310}.'
-
--- FORBIDDEN HOARD
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'tesoros pequeños abiertos'
 L['forbidden_spoils_suffix'] = nil
@@ -239,18 +236,12 @@ L['forbidden_hoard_note'] = nil
 L['options_icons_forbidden_hoard'] = nil
 L['options_icons_forbidden_hoard_desc'] = nil
 
--- SMALL TREASURES
-
 L['small_treasures_label'] = 'Tesoro Pequeño'
 L['small_treasures_note'] = 'Los tesoros pequeños comparten los puntos de aparición.' -- review
 L['options_icons_small_treasures'] = 'Tesoros Pequeños'
 L['options_icons_small_treasures_desc'] = 'Muestra dónde pueden haber tesoros pequeños.'
 
--- MISC TREASURES
-
 L['storm_bound_chest_label'] = nil
-
--- ARTISAN CURIO
 
 L['book_of_arcane_entities_label'] = nil
 L['tuskarr_kite_post_label'] = nil
@@ -258,13 +249,11 @@ L['farescale_shrine_label'] = nil
 L['resonating_crystal_label'] = nil -- don't exists
 L['spellsworn_ward_label'] = nil
 L['rumbling_draconium_label'] = nil
+L['spiceless_stew_label'] = nil
 
 L['artisan_curio_note'] = nil
-
 L['options_icons_artisan_curio'] = nil -- "Artisan Curio" se puede encontrar en Recipe: Neutralizing Agent
 L['options_icons_artisan_curio_desc'] = nil -- "Artisan Curio" se puede encontrar en Recipe: Neutralizing Agent
-
--- ACH: LIBRARIAN OF THE REACH
 
 L['spellsworn_missive_label'] = nil
 L['spellsworn_missive_note'] = nil
@@ -274,16 +263,14 @@ L['farscale_manifesto_label'] = nil
 L['farscale_manifesto_note'] = nil
 L['lost_expeditions_notes_label'] = nil
 L['lost_expeditions_notes_note'] = nil
+L['vrykul_tome_label'] = nil
+L['vrykul_tome_note'] = nil
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Muestra dónde están los libros para el logro {achievement:17530}.'
 
--- ACH: WHILE WE WERE SLEEPING
-
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos para el logro {achievement:17315}.'
-
--- MISC
 
 L['awakened_soil_label'] = nil
 

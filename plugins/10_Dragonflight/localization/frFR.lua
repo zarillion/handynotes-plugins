@@ -222,14 +222,11 @@ L['mysterious_wand_note'] = 'Ramassez la {object:Clé en cristal} et placez-la d
 
 L['in_the_war_creche'] = 'Au fond du {location:Couvoir Martial}'
 L['in_the_high_creche'] = 'Dans le {location:Haut Couvoir}'
-
--- RARES
+L['in_froststone_vault'] = nil
 
 L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751}({dot:Green}) pour vous soigner du gaz toxique dans la grotte.'
 L['mad_eye_carrey_note'] = '{npc:201181} se trouve dans un groupe avec la {npc:201184} et la {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} fait équipe avec {npc:201310}'
-
--- FORBIDDEN HOARD
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'Petits trésors ouverts'
 L['forbidden_spoils_suffix'] = 'Provisions interdites ouvertes'
@@ -239,18 +236,12 @@ L['forbidden_hoard_note'] = 'Battez les monstres voisins pour ouvrir le coffre.'
 L['options_icons_forbidden_hoard'] = 'Provisions interdites'
 L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles des coffres de {object:Provisions interdites}.'
 
--- SMALL TREASURES
-
 L['small_treasures_label'] = 'Petit Trésor'
 L['small_treasures_note'] = 'Les petits trésors sont répartis entre les points d\'apparition.' -- review
 L['options_icons_small_treasures'] = 'Petits Trésors'
 L['options_icons_small_treasures_desc'] = 'Afficher les emplacements possibles des petits trésors.'
 
--- MISC TREASURES
-
 L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
-
--- ARTISAN CURIO
 
 L['book_of_arcane_entities_label'] = 'Livre des entités arcaniques'
 L['tuskarr_kite_post_label'] = nil
@@ -258,13 +249,11 @@ L['farescale_shrine_label'] = 'Sanctuaire Longuécaille'
 L['resonating_crystal_label'] = 'Cristal résonnant'
 L['spellsworn_ward_label'] = 'Protection sorcelige'
 L['rumbling_draconium_label'] = 'Draconium grondant'
+L['spiceless_stew_label'] = nil
 
 L['artisan_curio_note'] = 'Les joueurs ayant le métier %s (à 50) peuvent acheter {item:%s} à la {npc:202445} au {location:Village de Morqut} pour 10 {item:190456}.'
-
 L['options_icons_artisan_curio'] = 'Bibelot d\'Artisanat'
 L['options_icons_artisan_curio_desc'] = 'Afficher les emplacements et les récompenses pour les Bibelots d\'Artisanat.'
-
--- ACH: LIBRARIAN OF THE REACH
 
 L['spellsworn_missive_label'] = 'Missive Sorcelige'
 L['spellsworn_missive_note'] = 'Ouvrez la {object:Missive Sorcelige} et récupérez {item:204338}.'
@@ -274,16 +263,14 @@ L['farscale_manifesto_label'] = nil
 L['farscale_manifesto_note'] = nil
 L['lost_expeditions_notes_label'] = nil
 L['lost_expeditions_notes_note'] = nil
+L['vrykul_tome_label'] = nil
+L['vrykul_tome_note'] = nil
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}.'
 
--- ACH: WHILE WE WERE SLEEPING
-
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des objets pour le haut-fait {achievement:17315}.'
-
--- MISC
 
 L['awakened_soil_label'] = 'Sol éveillé'
 

@@ -890,7 +890,8 @@ local ElementalChest = Class('ElementalChest', ns.node.Treasure, {
     getters = {
         rlabel = function(self)
             if self.quest then
-                local completed = C_QuestLog.IsQuestFlaggedCompleted(self.quest[1])
+                local completed = C_QuestLog.IsQuestFlaggedCompleted(
+                    self.quest[1])
                 local color = completed and ns.status.Green or ns.status.Gray
                 return color(L['weekly'])
             end
