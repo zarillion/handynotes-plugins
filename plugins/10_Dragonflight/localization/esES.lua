@@ -217,13 +217,13 @@ Los NPC pueden morir sin ayuda y hacer fallar el evento.
 Se puede hacer en solitario pero se recomiendan 2-3 jugadores.
 ]]
 
-L['community_feast_label'] = '{spell:388961}'
-L['options_icons_community_feast'] = '{spell:388961}'
-L['options_icons_community_feast_desc'] = 'Muestra los festines y recompensas para los {spell:388961}.'
-
 L['tuskarr_chest'] = 'Cofre Colmillarr'
 L['options_icons_tuskarr_chest'] = 'Cofre Colmillarr'
 L['options_icons_tuskarr_chest_desc'] = 'Muestra dónde pueden haber {object:Cofres colmillarr}.'
+
+L['community_feast_label'] = '{spell:388961}'
+L['options_icons_community_feast'] = '{spell:388961}'
+L['options_icons_community_feast_desc'] = 'Muestra los festines y recompensas para los {spell:388961}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------

@@ -216,13 +216,13 @@ NPC 可以在没有帮助的情况下死亡，这将使事件失败。
 这可以单独完成，但建议2-3名玩家。
 ]]
 
-L['community_feast_label'] = '{spell:388961}'
-L['options_icons_community_feast'] = '{spell:388961}'
-L['options_icons_community_feast_desc'] = '显示 {spell:388961} 的位置和奖励。'
-
 L['tuskarr_chest'] = '海象人宝箱'
 L['options_icons_tuskarr_chest'] = '海象人宝箱'
 L['options_icons_tuskarr_chest_desc'] = '显示 {object:海象人宝箱} 可能的位置。'
+
+L['community_feast_label'] = '{spell:388961}'
+L['options_icons_community_feast'] = '{spell:388961}'
+L['options_icons_community_feast_desc'] = '显示 {spell:388961} 的位置和奖励。'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------

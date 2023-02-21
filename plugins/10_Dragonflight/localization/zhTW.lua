@@ -208,13 +208,13 @@ L['stranded_soul_note'] = [[
 
 L['gethdazr_note'] = nil
 
-L['community_feast_label'] = nil
-L['options_icons_community_feast'] = nil
-L['options_icons_community_feast_desc'] = nil
-
 L['tuskarr_chest'] = nil
 L['options_icons_tuskarr_chest'] = nil
 L['options_icons_tuskarr_chest_desc'] = nil -- '顯示 {object:巨牙海民釣具箱} 可能的位置'
+
+L['community_feast_label'] = nil
+L['options_icons_community_feast'] = nil
+L['options_icons_community_feast_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------

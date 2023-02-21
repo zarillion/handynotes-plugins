@@ -197,13 +197,13 @@ L['stranded_soul_note'] = nil
 
 L['gethdazr_note'] = nil
 
-L['community_feast_label'] = nil
-L['options_icons_community_feast'] = nil
-L['options_icons_community_feast_desc'] = nil
-
 L['tuskarr_chest'] = '투스카르 상자'
 L['options_icons_tuskarr_chest'] = nil
 L['options_icons_tuskarr_chest_desc'] = nil
+
+L['community_feast_label'] = nil
+L['options_icons_community_feast'] = nil
+L['options_icons_community_feast_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
