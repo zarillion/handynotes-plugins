@@ -16,8 +16,10 @@ local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
+local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
+local GrandHunt = ns.node.GrandHunt
 local LegendaryCharacter = ns.node.LegendaryCharacter
 local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
@@ -179,7 +181,7 @@ map.nodes[53374092] = Rare({
     }
 }) -- Goremaul the Gluttonous
 
-map.nodes[59128380] = Rare({ -- review
+map.nodes[59128380] = Rare({
     id = 193126,
     quest = 73881,
     rewards = {
@@ -238,7 +240,7 @@ map.nodes[52895903] = ns.node.Rare14h({
     }
 }) -- Matriarch Remalla
 
-map.nodes[59806100] = Rare({ -- reqired 67030
+map.nodes[59806100] = Rare({
     id = 193688,
     quest = 74020,
     rewards = {
@@ -468,7 +470,7 @@ map.nodes[57366540] = Rare({
 
 map.nodes[55647727] = Rare({
     id = 193229,
-    quest = 72814, -- 69873
+    quest = 72814,
     rewards = {
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
@@ -719,10 +721,10 @@ map.nodes[52208050] = PT.Blacksmithing({
 }) -- Draconic Flux
 
 map.nodes[55203050] = PT.Alchemy({
-    id = 201003,
+    id = 203471,
     quest = 70278,
-    note = L['pt_alch_furry_gloop_note']
-}) -- Furry Gloop
+    note = L['pt_alch_tasty_candy_note']
+}) -- Tasty Candy
 
 map.nodes[56104090] = PT.Inscription({
     id = 201015,
@@ -1438,6 +1440,44 @@ function Mythressa.getters:note()
 end
 
 val.nodes[38113773] = Mythressa()
+
+-------------------------------------------------------------------------------
+------------------------------ ELUSIVE CREATURES ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[56007100] = ElusiveCreature({
+    label = '{npc:195518}',
+    rewards = {
+        Item({item = 193224}), -- Lustrous Scaled Hide
+        Item({item = 193215}), -- Adamant Scales
+        Item({item = 193255}) -- Pristine Vorquin Horn
+    }
+}) -- Elusive Cliffdweller Vorquin
+
+map.nodes[48005100] = ElusiveCreature({
+    label = '{npc:195472}',
+    rewards = {
+        Item({item = 193218}), -- Dense Hide
+        Item({item = 193211}), -- Resilient Leather
+        Item({item = 193254}) -- Rockfang Leather
+    }
+}) -- Elusive Ferocious Titanfang
+
+-------------------------------------------------------------------------------
+--------------------------------- GRAND HUNTS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[34576668] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7097,
+    criteria = 55686
+}) -- Southern Thaldraszus Hunt
+
+map.nodes[50594665] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7099,
+    criteria = 55687
+}) -- Northern Thaldraszus Hunt
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

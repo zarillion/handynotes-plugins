@@ -15,8 +15,10 @@ local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
+local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
+local GrandHunt = ns.node.GrandHunt
 local LegendaryCharacter = ns.node.LegendaryCharacter
 local MagicBoundChest = ns.node.MagicBoundChest
 local PetBattle = ns.node.PetBattle
@@ -181,7 +183,7 @@ map.nodes[29935074] = RareElite({
     pois = {POI({29335248, 30535144})}
 }) -- Char
 
-map.nodes[31785474] = RareElite({ -- review -- required 67030
+map.nodes[31785474] = RareElite({
     id = 190985,
     quest = 73074,
     note = format(L['obsidian_citadel_rare_note'], 20, '{npc:187447}'),
@@ -268,7 +270,7 @@ map.nodes[33127632] = RareElite({
     }
 }) -- Forgotten Gryphon
 
-map.nodes[52345829] = Rare({ -- review
+map.nodes[52345829] = Rare({
     id = 196056,
     quest = 73879,
     rewards = {
@@ -279,7 +281,7 @@ map.nodes[52345829] = Rare({ -- review
     }
 }) -- Gushgut the Beaksinker
 
-map.nodes[43007465] = Rare({ -- review
+map.nodes[43007465] = Rare({
     id = 193263,
     quest = 73880,
     rewards = {Achievement({id = 16676, criteria = 56037})}
@@ -440,7 +442,7 @@ map.nodes[46997332] = Rare({
     pois = {POI({47727466, 47557369})}
 }) -- Shadeslash Trakken
 
-map.nodes[23755724] = RareElite({ -- required 67030
+map.nodes[23755724] = RareElite({
     id = 189822,
     quest = 74077,
     note = L['obsidian_throne_rare_note'] .. ' ' ..
@@ -634,7 +636,7 @@ map.nodes[65617410] = Rare({
 
 map.nodes[77302198] = Rare({
     id = 187111,
-    quest = 72835, -- 66076
+    quest = 72835,
     note = L['in_small_cave'],
     rewards = {
         Transmog({item = 200165, slot = L['shield']}), -- Aegis of Scales
@@ -657,7 +659,7 @@ map.nodes[77302198] = Rare({
 
 map.nodes[64173289] = Rare({
     id = 191611,
-    quest = 72838, -- 66956
+    quest = 72838,
     rewards = {
         Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
@@ -679,7 +681,7 @@ map.nodes[54582137] = Rare({
 
 map.nodes[54728225] = Rare({
     id = 187209,
-    quest = 72841, -- 66960
+    quest = 72841,
     rewards = {
         Transmog({item = 200199, slot = L['mail']}), -- Elements' Burden
         Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
@@ -714,7 +716,7 @@ map.nodes[24135392] = Rare({
 
 map.nodes[81133794] = Rare({
     id = 184853,
-    quest = 72843, -- 66074
+    quest = 72843,
     note = L['in_small_cave'],
     rewards = {
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -816,7 +818,7 @@ map.nodes[29454699] = Treasure({
 }) -- Onyx Gem Cluster
 
 map.nodes[65804182] = Treasure({
-    quest = 70600, -- 70409
+    quest = 70600,
     note = L['golden_dragon_goblet_note'],
     requires = {
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt
@@ -2142,6 +2144,108 @@ map.nodes[64712635] = ElementalStorm({
     mapID = map.id,
     areaPOIs = {7257, 7258, 7259, 7260}
 }) -- Elemental Storm: Scalecracker Keep
+
+-------------------------------------------------------------------------------
+------------------------------ ELUSIVE CREATURES ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[54705860] = ElusiveCreature({
+    label = '{npc:195492}',
+    rewards = {
+        Item({item = 193224}), -- Lustrous Scaled Hide
+        Item({item = 193215}), -- Adamant Scales
+        Item({item = 193252}) -- Salamanther Scales
+    }
+}) -- Elusive Deepwater Salamanther
+
+map.nodes[45007700] = ElusiveCreature({
+    label = '{npc:195509}',
+    rewards = {
+        Item({item = 193224}), -- Lustrous Scaled Hide
+        Item({item = 193215}), -- Adamant Scales
+        Item({item = 193259}) -- Flawless Proto Dragon Scale
+    }
+}) -- Elusive Proto Skyterror
+
+-------------------------------------------------------------------------------
+--------------------------------- GRAND HUNTS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[25268855] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7091,
+    criteria = 55680
+}) -- Southern Waking Shores Hunt
+
+map.nodes[69726838] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7092,
+    criteria = 55681
+}) -- Eastern Waking Shores Hunt
+
+map.nodes[42788061] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7093,
+    criteria = 55682
+}) -- Northern Waking Shores Hunt
+
+-------------------------------------------------------------------------------
+-------------------------- SEIGE ON DRAGONBANE KEEP ---------------------------
+-------------------------------------------------------------------------------
+
+local SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS = {
+    [7267] = 'Before Siege',
+    [7104] = 'During Siege',
+    [7413] = 'After Siege'
+}
+
+local SIEGE_ON_DRAGONBANE_KEEP_REWARDS = {
+    Achievement({id = 16411}), -- Seige on Dragonbane Keep: Home Sweet Home
+    Toy({item = 200116}), -- Everlasting Horn of Lavaswimming
+    ns.reward.Spacer(), Item({item = 192055}) -- Dragon Isles Artifact
+}
+
+map.nodes[30287005] = Collectible({
+    label = L['dragonbane_siege_label'],
+    icon = 3753264,
+    areaPOIs = {7104, 7394, 7413},
+    mapID = map.id,
+    group = ns.groups.DRAGONBANE_SIEGE,
+    requires = ns.requirement.Reputation(2510, 5, true), -- Valdrakken Accord
+    rewards = SIEGE_ON_DRAGONBANE_KEEP_REWARDS,
+    IsEnabled = function(self)
+        local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
+        local possiblePOIs = self.areaPOIs
+        for a = 1, #activePOIs do
+            for p = 1, #possiblePOIs do
+                if activePOIs[a] == possiblePOIs[p] then
+                    return false
+                end
+            end
+        end
+        return true
+    end
+}) -- Siege on Dragonbane Keep
+
+hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+    if self and self.areaPoiID then
+        local mapID = self:GetMap().mapID
+        local group = ns.groups.DRAGONBANE_SIEGE
+        if SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS[self.areaPoiID] then
+            if group:GetDisplay(mapID) then
+                if ns:GetOpt('show_loot') then
+                    GameTooltip:AddLine(' ')
+                    for i, reward in ipairs(SIEGE_ON_DRAGONBANE_KEEP_REWARDS) do
+                        if reward:IsEnabled() then
+                            reward:Render(GameTooltip)
+                        end
+                    end
+                end
+                GameTooltip:Show()
+            end
+        end
+    end
+end)
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

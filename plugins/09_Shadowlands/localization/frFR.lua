@@ -38,7 +38,7 @@ Apparaît en plusieurs endroits. Pour l'invoquer, placez-vous dans le {object:Ce
 • Le joueur 2 danse avec le joueur 3
 • Le joueur 3 danse avec le joueur 1
 ]]
-L['mymaen_note'] = 'Tuez les lutins putréronce dans la zone jusqu\'à ce qu\'il lance une émote et apparaisse.'
+L['mymaen_note'] = 'Tuez les {npc:Lutins putréronce} dans la zone jusqu\'à ce qu\'il lance une émote et apparaisse.'
 L['rainbowhorn_note'] = [[
 Trouvez et cliquez sur la {object:Grande corne du cerf runique} pour invoquer le rare. La corne peut apparaître à plusieurs endroits dans {location:Sylvarden}.
 
@@ -49,8 +49,8 @@ Il apparaîtra toujours au nord de {location:Tirna Vaal}, fixez votre {item:6948
 L['rootwrithe_note'] = 'Tapez sur les {npc:167928} jusqu\'à ce que le rare apparaisse.'
 L['rotbriar_note'] = 'Parlez à {npc:171684} à proximité pour faire apparaître le rare après un peu de dialogue.'
 L['slumbering_note'] = 'Courir dans le brouillard vous assommera et vous éjectera. Utilisez une fusée éclairante ou un familier avec une AOE pour le faire sortir du brouillard.'
-L['skuld_vit_note'] = 'Dans une grotte bloquée par une barrière. Une Faë nocturne doit utiliser {spell:310143} pour entrer dans la grotte. Une fois qu\'il est engagé, la barrière disparaîtra.'
-L['valfir_note'] = 'Cliquez sur le cocon d\'anima instable à mi-parcours du chemin et utilisez {spell:338045} pour retirer son {spell:338038}.'
+L['skuld_vit_note'] = 'Dans une grotte bloquée par une barrière. Un membre des {faction:2422} doit utiliser {spell:310143} pour entrer dans la grotte. Une fois qu\'il est engagé, la barrière disparaîtra.'
+L['valfir_note'] = 'Cliquez sur le {object:Cocon d\'anima instable} à mi-parcours du chemin et utilisez {spell:338045} pour retirer son {spell:338038}.'
 L['wrigglemortis_note'] = 'Engagez la {npc:164179} pour faire apparaître le rare.'
 
 L['night_mare_note'] = [[
@@ -143,7 +143,7 @@ Une option Corgi sera immédiatement disponible en parlant avec {npc:181582}
 L['soulshape_well_fed_cat_note'] = [[
 1. Récupérer des {item:187811} à {location:Sombrehavre}
 2. Ciblez {npc:182093} et tapez {emote:/meow}
-3. |cFFFF8C00Ma'oh miaule vers vous avec avidité.|r
+3. {emote:Ma'oh miaule vers vous avec avidité.}
 4. Ciblez {npc:182093} et utilisez les {item:187811}
 L'option Âme de Chat (Bien Nourri) deviendra immédiatement disponible en parlant avec {npc:181582}
 ]]
@@ -152,8 +152,8 @@ L'option Âme de Chat (Bien Nourri) deviendra immédiatement disponible en parla
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L['aegeon_note'] = 'Tuez des ennemis dans les environs jusqu\'à l\'apparition d\'Aegéon en renfort.'
-L['ascended_council_note'] = 'Avec quatre autres joueurs, cliquez sur les cinq Vêpres de la pureté, du courage, de l\'humilité, de la sagesse et de la loyauté en même temps. Ensuite, dirigez-vous vers le {location:Creuset de l\'aspirant} pour vaincre le Conseil des Transcendés et révéler la cache.'
+L['aegeon_note'] = 'Tuez des ennemis dans les environs jusqu\'à l\'apparition d\'{npc:Aegéon} en renfort.'
+L['ascended_council_note'] = 'Avec quatre autres joueurs, cliquez sur les cinq {object:Vêpres} de la pureté, du courage, de l\'humilité, de la sagesse et de la loyauté en même temps. Ensuite, dirigez-vous vers le {location:Creuset de l\'aspirant} pour vaincre le Conseil des Transcendés et révéler la cache.'
 L['aspirant_eolis_note'] = 'Prenez un {item:180613} à proximité et lisez-le avec le PNJ ciblé pour l\'activer.'
 L['baedos_note'] = 'Transportez les {object:Fûts de fruits de purian fermentés} des alentours vers {npc:161536} jusqu\'à son activation.'
 L['basilofos_note'] = 'Déplacez-vous autour du rocher jusqu\'à ce qu\'un repère violet apparaisse au-dessus de votre tête. Ne bougez pas et attendez que quatre émotes apparaissent, puis il apparaîtra.'
@@ -171,7 +171,7 @@ Collectez des {item:172451} et utilisez-les pour donner des charges d'{spell:343
 
 Les granules peuvent être collectées à partir de {object:Bidons d'Anima épuisés} situés dans la pièce ou juste à l'extérieur.
 
-|cFFFF8C00Ne peut être vaincu lors de l'expédition {wq:Assaut sur le vestibule}.|r
+{note:Ne peut être vaincu lors de l'expédition {wq:Assaut sur le vestibule}.}
 ]]
 L['reekmonger_note'] = 'Tuez des ennemis dans le {location:Temple du Courage} jusqu\'à ce que {npc:171327} lance une émote dans le chat et atterrisse.'
 L['repair_note'] = 'Avec deux autres joueurs, cliquez sur l\'{object:Encens antique} pour l\'invoquer.'
@@ -184,12 +184,12 @@ L['wingflayer_note'] = 'Pour l\'invoquer, cliquez sur la {object:Corne du Courag
 L['broken_flute'] = 'Tuez les {npc:170009} à proximité jusqu\'à ce qu\'ils laissent tomber la {item:180536}, puis utilisez les outils pour la réparer.'
 L['cloudwalkers_coffer'] = 'Coffre de marche-nuage'
 L['cloudwalkers_coffer_note'] = 'Utilisez les grandes fleurs violettes pour rebondir sur la plate-forme.'
-L['experimental_construct_part'] = 'Procurez-vous un {item:180534} proche et utilisez-le pour réparer la pièce. L\'anima a plusieurs lieux d\'apparition.'
+L['experimental_construct_part'] = 'Procurez-vous un {item:180534} proche et utilisez-le pour réparer la {object:Pièce d’assemblage expérimental}. L\'anima a plusieurs lieux d\'apparition.'
 L['larion_harness'] = 'Situé à l\'intérieur du {location:Hall des Bêtes}.'
 L['memorial_offering'] = 'Achetez un {item:180788} auprès de {npc:171526} au {location:Repos de l\'Aspirant}. Placez-le sur le plateau de boissons près du coffre pour obtenir la {item:180797}.'
-L['scroll_of_aeons'] = 'Procurez-vous 2 {item:173973} dans la zone centrale et placez-les sur les plateaux d\'hommage à proximité pour révéler le trésor.'
+L['scroll_of_aeons'] = 'Procurez-vous 2 {item:173973} dans la zone centrale et placez-les sur les {object:plateaux d\'hommage} à proximité pour révéler le trésor.'
 L['vesper_of_silver_wind'] = 'Vêpre vent-d’argent'
-L['vesper_of_silver_wind_note'] = 'Terminez le haut-fait {achievement:14339} et parlez ensuite à {npc:171732} près de l\'entrée des Flèches de l\'Ascension pour forger un {item:180858}.'
+L['vesper_of_silver_wind_note'] = 'Terminez le haut-fait {achievement:14339} et parlez ensuite à {npc:171732} près de l\'entrée des {location:Flèches de l\'Ascension} pour forger un {item:180858}.'
 
 L['gift_of_agthia'] = 'Cliquez sur la torche allumée près du pont brisé au nord-ouest et portez {spell:333320} de torche en torche jusqu\'au coffre. En allumant la dernière torche, vous obtiendrez {spell:333063}.'
 L['gift_of_chyrus'] = 'S\'agenouiller devant le coffre pour recevoir {spell:333045}.'
@@ -271,8 +271,8 @@ L['anima_shard_61292'] = 'Au-dessus de l\'arche de pierre.'
 L['anima_shard_61293'] = 'Au sommet d\'une mince colonne de pierre au niveau inférieur.'
 L['anima_shard_61294'] = 'Caché derrière une pile de barils.'
 L['anima_shard_61295'] = 'Derrière {npc:156889} dans une étagère.'
-L['anima_shard_61296'] = 'Derrière la grande cloche tombée.\n\n' .. ns.color.Red('Dans le donjon : {location:Sillage nécrotique}.')
-L['anima_shard_61297'] = 'Derrière un pilier de pierre.\n\n' .. ns.color.Red('Dans le donjon : {location:Sillage nécrotique}.')
+L['anima_shard_61296'] = 'Derrière la grande cloche tombée.\n\n{note:Dans le donjon : {location:Sillage nécrotique}.}'
+L['anima_shard_61297'] = 'Derrière un pilier de pierre.\n\n{note:Dans le donjon : {location:Sillage nécrotique}.}'
 L['anima_shard_61298'] = 'Situé derrière une chaise longue.'
 L['anima_shard_61299'] = 'Caché derrière une grande torche.'
 L['anima_shard_61300'] = 'Sur un rebord surplombant la fontaine centrale.'
@@ -288,7 +288,7 @@ L['stratios_note'] = 'Même les plus petites batailles doivent être menées ave
 L['thenia_note'] = 'Quelles magnifiques plaines dégagées ici. Un endroit glorieux pour se battre. Êtes-vous prêt ?'
 L['zolla_note'] = 'Nous prenons nos défenses très au sérieux. Qu\'elles soient petites ou grandes, nous sommes pleinement engagés à maintenir et à former les ressources qui permettent au Bastion de rester fort.'
 
-L['soulshape_otter_soul'] = 'Ciblez {npc:181682} et tapez /hug'
+L['soulshape_otter_soul'] = 'Ciblez {npc:181682} et tapez {emote:/hug}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- KORTHIA -----------------------------------
@@ -301,7 +301,7 @@ Ce monstre rare ne laissera pas de butin avant d'avoir consommé 40 {npc:179758}
 
 Ce monstre rare laissera tomber des objets de recherche supplémentaires après avoir consommé *de nouveau* 40 {npc:179758} pour se transformer en sa forme verte (Élite Rare).
 
-|cFFFF0000Le monstre rare ne fera pas apparaître des {npc:179758} pour les consommer si engagé en combat.|r
+{note:Le monstre rare ne fera pas apparaître des {npc:179758} pour les consommer si engagé en combat.}
 ]]
 L['darkmaul_note'] = 'Collectez des {item:187153} sur les {object:Champignantres envahissants} et nourrissez {npc:180063} avec. Vous devez terminer l\'événement 10 fois pour obtenir la monture.'
 L['dislodged_nest_note'] = 'Cliquez sur un {object:Papillon nocif} proche pour obtenir {spell:355181}. Utilisez le bouton d\'action supplémentaire {spell:355131} sur un {npc:178547} pour en prendre le contrôle et le conduire dans l\'arbre où se trouve le nid.'
@@ -310,12 +310,12 @@ L['flayedwing_transporter_note'] = 'Cliquez sur {npc:178633} pour voler vers ou 
 L['fleshwing_note'] = 'Parlez à {npc:180079} pour commencer l\'événement de collecte.'
 L['forgotten_feather_note'] = 'Flottant sur une petite île à laquelle on accède en sautant depuis le {location:Répit du gardien}.'
 L['konthrogz_note'] = 'Apparaît lors d\'un événement lié à un portail de dévoreur. L\'événement peut apparaître dans de nombreux endroits de {location:Korthia}.'
-L['sl_limited_rare'] = '|cFFFF8C00Ce monstre rare n\'est pas disponible certains jours.|r'
-L['krelva_note'] = 'Se déplace vers une autre plateforme à 80%, puis se déplace vers la terre ferme à 60%. |cFFFF8C00Vous devez attaquer le rare après 60% pour être compté dans le combat !|r'
+L['sl_limited_rare'] = '{note:Ce monstre rare n\'est pas disponible certains jours.}'
+L['krelva_note'] = 'Se déplace vers une autre plateforme à 80%, puis se déplace vers la terre ferme à 60%. {note:Vous devez attaquer le rare après 60% pour être compté dans le combat !}'
 L['kroke_note'] = 'Tuez des {npc:179029s} dans la zone jusqu\'à ce qu\'il apparaisse. Ne peut pas apparaître les jours où les {npc:179029s} sont absents.'
 L['maelie_wanderer'] = '{npc:179912} apparaîtra à un endroit défini pour la journée. Une fois que vous avez utilisé {spell:355862} sur elle 6 jours différents, revenez voir {npc:179930} pour obtenir la monture.'
 L['malbog_note'] = 'Parlez au {npc:179729} pour obtenir {spell:355078} et suivez les traces de pas jusqu\'à ce que vous trouviez les {object:Restes de chair}.'
-L['offering_box_note'] = 'Requiert une {object:Petite clé des offrandes} qui peut être trouvée sur le haut du mur ouest des ruines voisines.'
+L['offering_box_note'] = 'Requiert une {item:187033} qui peut être trouvée sur le haut du mur ouest des ruines voisines.'
 L['pop_quiz_note'] = 'L\'événement Pop Quizz apparaîtra aléatoirement sur la carte. Cliquez sur le {object:Mât voilé abandonné} et répondez aux questions de {npc:180162}.'
 L['razorwing_note'] = 'Apportez 10 {item:187054} obtenus sur les dévoreurs dans la zone.'
 L['reliwik_note'] = 'Cliquez sur l\'{object:Œuf de rasaile inaltéré} pour le faire descendre.'
@@ -337,7 +337,7 @@ Entrez dans {location:La Faille}, une phase alternative de {location:Korthia} et
 
 Nécessite une {item:186731}, qui peut être achetée à {npc:178257} une fois que vous avez atteint le rang 4 avec {faction:2472}. Les clés ont également une faible chance d'être laissées par les monstres rares et coffres dans la zone.
 
-|cFFFF8C00Les {object:Portails de failles} ne sont pas tous actifs à un moment donné.|r
+{note:Les {object:Portails de failles} ne sont pas tous actifs à un moment donné.}
 ]]
 L['rift_rare_only_note'] = 'Ce monstre ne peut être vu et tué qu\'en étant entré dans {location:La Faille}.'
 L['rift_rare_exit_note'] = [[
@@ -383,7 +383,7 @@ L['options_icons_nest_materials'] = 'Tas de matériaux inhabituels'
 
 L['chelicerae_note'] = 'Détruisez {npc:159885} pour activer le rare.'
 L['deepscar_note'] = 'Peut apparaître dans plusieurs entrées du {location:Théâtre de la souffrance}.'
-L['forgotten_mementos'] = 'Tirez la chaîne de la herse du caveau, dans la chambre à l\'ouest du trésor pour ouvrir la porte.'
+L['forgotten_mementos'] = 'Tirez la {object:Chaîne de la Herse du caveau}, dans la chambre à l\'ouest du trésor pour ouvrir la porte.'
 L['gieger_note'] = 'Tirez sur le {npc:162815} pour activer le rare.'
 L['gristlebeak_note'] = 'Brisez tout les {npc:162761} à proximité pour affronter le rare.'
 L['leeda_note'] = 'Tuez les deux {npc:162220} jusqu\'à ce que le rare apparaisse.'
@@ -451,7 +451,7 @@ Pour retirer seulement le bras, seuls quatre 4x {spell:327367} sont nécessaires
 ]]
 
 L['pet_cat'] = 'Caressez ce satané chat !'
-L['hairball'] = ns.color.Red('N\'apparaît que dans le {location:Sanctuaire Purulent} à l\'intérieur du donjon {location:Malepeste} !')
+L['hairball'] = '{bug:N\'apparaît que dans le {location:Sanctuaire Purulent} à l\'intérieur du donjon {location:Malepeste} !}'
 L['lime'] = 'Située au sommet de la grande arche osseuse.'
 L['moldstopheles'] = 'Courez à l\'arrière de la tige et sautez sur les plates-formes en champignons. Pour la dernière plate-forme, utilisez une monture et sautez à l\'angle où il rencontre la tige.'
 L['pus_in_boots'] = 'Situé sous le pont.'
@@ -514,7 +514,7 @@ L['sire_ladinas_note'] = 'Ramassez un {object:Vestige de lumière} à proximité
 L['soulstalker_doina_note'] = 'Descendez et traversez le miroir quand elle s\'enfuit.'
 L['tomb_burster_note'] = 'Peut être invoqué si {npc:155777} est piégé dans une toile. Tuez les {npc:155769}s et les vagues de {npc:155795}s proches jusqu\'à ce que le rare apparaisse.'
 L['worldedge_gorger_note'] = [[
-Obtenez un {item:173939} sur les Mange-monde, Dévoreurs et Acarus dans le {location:Malbois} et le {location:Marais des Affres}. Utilisez-le pour allumer les {object:Braseros garde-âme} et invoquer le rare.
+Obtenez un {item:173939} sur les {npc:Mange-monde}, {npc:Dévoreurs} et {npc:Acarus} dans le {location:Malbois} et le {location:Marais des Affres}. Utilisez-le pour allumer les {object:Braseros garde-âme} et invoquer le rare.
 
 A une chance de lâcher un {item:180583}, qui commence une suite de quête de 7 jours pour obtenir la monture {spell:333027}.
 ]]
@@ -523,9 +523,9 @@ L['dredglaive_note'] = 'Sous le pont, dans le cadavre de {npc:173671}.'
 L['forbidden_chamber_note'] = 'Procurez-vous une {object:Cuve d’anima abandonnée} devant la porte fermée à clé et apprenez {spell:340701}. Utilisez-le pour vider cinq des {npc:173838}s à proximité, puis utilisez {spell:340866} devant le {npc:173786}.'
 L['gilded_plum_chest_note'] = 'Tuez les {npc:166680} qui errent sur la route.'
 L['lost_quill_note'] = 'Ramasser {item:182475} depuis la bouteille sur la table de la {object:Bibliothèque interdite}.'
-L['rapier_fearless_note'] = 'Cliquez sur la rapière au sol, puis vaincre {npc:173603}.'
+L['rapier_fearless_note'] = 'Cliquez sur la {object:rapière} au sol, puis vaincre {npc:173603}.'
 L['remlates_cache_note'] = 'Sur le mur extérieur de {location:Sombrehavre}, derrière la crypte.'
-L['smuggled_cache_note'] = ns.color.Red('AVANT DE RAMASSER LE BUTIN: ') .. 'Assurez-vous que vous avez terminé la quête secondaire {quest:60480} ou il vous manquera 40 {currency:1820} provenant du trésor et de la quête.'
+L['smuggled_cache_note'] = '{bug:AVANT DE RAMASSER LE BUTIN : Assurez-vous que vous avez terminé la quête secondaire {quest:60480} ou il vous manquera 40 {currency:1820} provenant du trésor et de la quête.'
 L['taskmaster_trove_note'] = 'Lisez les {object:Rites d\'entrée et sortie}, puis dirigez-vous avec précaution vers le coffre.'
 L['the_count_note'] = 'Collectez 99 {currency:1820} dans le {location:Marais des Affres} et amenez-les ensuite à {npc:173488}.'
 
@@ -534,12 +534,12 @@ L['forgotten_anglers_rod'] = 'Canne à pêche oubliée'
 L['loyal_gorger_note'] = 'Visitez le {location:Marais des Affres} et complétez une quête journalière offerte par votre {npc:173498} 7 fois pour l\'obtenir en tant que monture.'
 
 L['sinrunner_note'] = 'Apportez de la nourriture et des fournitures à {npc:173468} pendant six jours pour obtenir ses rênes. Elle ne se présente que quelques minutes à la fois.'
-L['sinrunner_note_day1'] = 'Offrez à Blanchette 8 {item:182581} provenant de zones agricoles de la {location:Marche de L\'Ouest}.'
-L['sinrunner_note_day2'] = 'Obtenez une {item:182585} de {npc:173570} à {location:Sombrehavre} et utilisez-la pour nettoyer Blanchette.'
-L['sinrunner_note_day3'] = 'Equiper Blanchette avec 4 {item:182595} trouvés sur les routes entourant {location:Sombrehavre}.'
-L['sinrunner_note_day4'] = 'Ramassez un {item:182620} près de {npc:173570} et remplissez-le avec de l\'eau provenant de {location:Bastion} ou de {location:Sylvarden}. Ramenez le {item:182599} à Blanchette.'
-L['sinrunner_note_day5'] = 'Equipez Blanchette d\'un {item:182597}, vendu par {npc:171808} près du {location:Marché Nocturne} en échange de viandes assorties.'
-L['sinrunner_note_day6'] = 'Nourrissez blanchette avec 3 {item:179271}, vendus par {npc:167815} à la {location:Gargote}.'
+L['sinrunner_note_day1'] = 'Offrez à {npc:Blanchette} 8 {item:182581} provenant de zones agricoles de la {location:Marche de L\'Ouest}.'
+L['sinrunner_note_day2'] = 'Obtenez une {item:182585} de {npc:173570} à {location:Sombrehavre} et utilisez-la pour nettoyer {npc:Blanchette}.'
+L['sinrunner_note_day3'] = 'Equiper {npc:Blanchette} avec 4 {item:182595} trouvés sur les routes entourant {location:Sombrehavre}.'
+L['sinrunner_note_day4'] = 'Ramassez un {item:182620} près de {npc:173570} et remplissez-le avec de l\'eau provenant de {location:Bastion} ou de {location:Sylvarden}. Ramenez le {item:182599} à {npc:Blanchette}.'
+L['sinrunner_note_day5'] = 'Equipez {npc:Blanchette} d\'un {item:182597}, vendu par {npc:171808} près du {location:Marché Nocturne} en échange de viandes assorties.'
+L['sinrunner_note_day6'] = 'Nourrissez {npc:Blanchette} avec 3 {item:179271}, vendus par {npc:167815} à la {location:Gargote}.'
 
 L['options_icons_carriages'] = 'Calèches'
 L['options_icons_carriages_desc'] = 'Afficher les emplacements et les parcours des calèches.'
@@ -569,7 +569,28 @@ L['atonement_crypt_label'] = 'Crypte de l’Expiation'
 L['atonement_crypt_note'] = 'Ouvrez une {object:Crypte de l’Expiation} en utilisant une {item:172957}.'
 L['atonement_crypts_opened'] = 'Cryptes de l’Expiation ouvertes'
 L['atonement_crypt_key_label'] = '{item:172957}'
-L['atonement_crypt_key_note'] = 'Les {item:172957} peuvent être obtenues sur la plupart des monstres dans la zone des {location:Salles de l\'Expiation}.\n\n{npc:158902}\n{npc:176109}\n{npc:158894}\n{npc:156911}\n{npc:158910}\n{npc:176121}\n{npc:176114}\n{npc:156909}\n{npc:156256}\n{npc:176124}\n{npc:156260}\n{npc:159027}\n{npc:158897}\n{npc:176116}\n{npc:158908}\n{npc:176122}\n\nLe taux de drop le plus élevé est celui des {npc:158892}.'
+L['atonement_crypt_key_note'] = [[
+Les {item:172957} peuvent être obtenues sur la plupart des monstres dans la zone des {location:Salles de l\'Expiation}.
+
+{npc:158902}
+{npc:176109}
+{npc:158894}
+{npc:156911}
+{npc:158910}
+{npc:176121}
+{npc:176114}
+{npc:156909}
+{npc:156256}
+{npc:176124}
+{npc:156260}
+{npc:159027}
+{npc:158897}
+{npc:176116}
+{npc:158908}
+{npc:176122}
+
+Le taux de drop le plus élevé est celui des {npc:158892}.
+]]
 L['options_icons_crypt_kicker'] = '{achievement:14273}'
 L['options_icons_crypt_kicker_desc'] = 'Afficher les lieux de farm pour le haut-fait {achievement:14273}.'
 
@@ -583,19 +604,21 @@ L['broken_mirror_61818'] = 'Dans une petite pièce avec {npc:173699}.'
 L['broken_mirror_61819'] = 'Dans une petite pièce au rez-de-chaussée.'
 L['broken_mirror_61827'] = 'Dans une petite pièce.'
 L['options_icons_broken_mirror'] = 'Miroirs brisés'
-L['options_icons_broken_mirror_desc'] = 'Afficher les emplacements des miroirs brisés.'
+L['options_icons_broken_mirror_desc'] = 'Afficher les emplacements des {object:miroirs brisés}.'
 
 L['soulshape_chicken_note'] = [[
 1. Récupérez des {item:187811} à {location:Sombrehavre}
 2. Ciblez {npc:181660} et tapez {emote:/chicken}
-3. |cFFFF8C00L'Ame perdue glousse vers vous avec avidité.|r
+3. {note:L'Ame perdue glousse vers vous avec avidité.}
 4. Ciblez {npc:181660} et utilisez les {item:187811}
 ]]
 L['spectral_feed_label'] = '{item:187811}'
 L['spectral_feed_note'] = [[
 {item:187811} sont utilisées pour nourrir {npc:181660} à {location:Revendreth} pour obtenir {item:187813}
+
 {item:187811} sont utilisées pour nourrir {npc:182093} à {location:Sylvarden} pour obtenir {object:[Ame de Chat Bien Nourri]}
-|cFFFF8C00{item:187811} ont un timer de 10 minutes et un respawn de 60 minutes|r
+
+{note:{item:187811} ont un timer de 10 minutes et un respawn de 60 minutes}
 ]]
 
 -------------------------------------------------------------------------------
@@ -614,7 +637,7 @@ L['dekaris_note'] = 'Au sommet d\'un gros rocher en saillie.'
 L['deomen_note'] = 'Pour ouvrir sa cage, entrez dans la pièce au sud et activez les deux verrous situés de chaque côté de la salle.'
 L['drifting_sorrow_note'] = 'Tuez des {npc:175246s} près de l\'orbe flottante pour activer le boss.'
 L['ekphoras_note'] = 'Avec 3 autres joueurs, placez-vous sur les coins de la plateforme et lancez {spell:330650} pour invoquer le rare.'
-L['etherwyrm_note'] = 'Nécessite que l\'Assaut des Faë nocturnes soit actif. Tuez un {npc:179030} en étant dans {location:La Faille} pour obtenir l\'objet {item:186190}. Utilisez la clé sur la {object:Cage à wyrm d’éther} (à l\'extérieur de {location:La Faille}) dans la caverne du {location:Creux Désolé} (où se trouve {npc:175821} lorsque l\'Assaut n\'est pas actif).'
+L['etherwyrm_note'] = 'Nécessite que l\'Assaut des Faë nocturnes soit actif. Tuez un {npc:179030} en étant dans {location:La Faille} pour obtenir l\'objet {item:186190}. Utilisez la clé sur la {object:Cage à wyrm d’éther} (à l\'extérieur de {location:La Faille}) dans la {location:caverne du Creux Désolé} (où se trouve {npc:175821} lorsque l\'Assaut n\'est pas actif).'
 L['fallen_charger_note'] = 'Après le cri dans toute la zone, il prendra l\'un des deux chemins jusqu\'à ce qu\'il atteigne {location:Korthia} où il disparaîtra.'
 L['ikras_note'] = 'Vole autour du {location:Fort de la Perdition}. C\'est un bon endroit pour l\'attirer.'
 L['lilabom_note'] = [[
@@ -648,7 +671,7 @@ L['chaotic_riftstone_note'] = 'À activer pour utiliser {spell:344157} et voyage
 L['venari_note'] = [[
 Utilisez {currency:1767} pour acheter des améliorations pour l'{location:Antre} et {location:Tourment}.
 
-|cFFFF8C00Les améliorations de {location:Tourment} liées au compte s'afficheront comme incomplètes sur les alts !|r
+{note:Les améliorations de {location:Tourment} liées au compte s'afficheront comme incomplètes sur les alts !}
 ]]
 L['venari_upgrade'] = 'Améliorations de {npc:162804}'
 L['torghast'] = 'Tourment'
@@ -749,7 +772,7 @@ L['cov_assault_only'] = 'Disponible uniquement pendant l\'assaut des %s.'
 L['helgarde_supply'] = 'Cache de fournitures de Helgarde'
 L['helgarde_supply_note'] = 'Apparaîssent dans toute la zone du {location:Desmotæron}. Votre {npc:180598} peut vous aider à les localiser.'
 L['options_icons_helgarde_cache'] = 'Caches de fournitures de Helgarde'
-L['options_icons_helgarde_cache_desc'] = 'Afficher les emplacements possibles des Caches de fournitures de Helgarde dans la zone du {location:Desmotæron}.'
+L['options_icons_helgarde_cache_desc'] = 'Afficher les emplacements possibles des {object:Caches de fournitures de Helgarde} dans la zone du {location:Desmotæron}.'
 
 L['mawsworn_cache_ramparts_note'] = 'Cette cache se trouve au sommet des remparts. Utilisez les {object:Prises de grappin} ou un {npc:177093} pour les atteindre.'
 L['mawsworn_cache_tower_note'] = 'Cette cache se trouve au sommet de la tour et nécessite un {npc:177093} pour l\'atteindre. Utilisez la capacité {spell:349853} pour y grimper.'
@@ -807,14 +830,14 @@ L['night_fae_assault_quantity_note'] = 'Cache secrète de la faille ouverte'
 L['kyrian_assault'] = '{quest:63824}'
 L['kyrian_assault_note'] = 'Le {item:185993} peut être récupéré une fois par Assaut'
 L['kyrian_assault_quantity_note1'] = 'Fino trouvé'
-L['kyrian_assault_quantity_note2'] = 'Danse près des forges'
+L['kyrian_assault_quantity_note2'] = '{emote:/danse} près des forges'
 
 -------------------------------------------------------------------------------
 ---------------------- TORGHAST, THE TOWER OF THE DAMNED ----------------------
 -------------------------------------------------------------------------------
 
 L['torghast_the_tower_of_the_damned'] = 'Tourment, La tour des Damnés'
-L['torghast_reward_sublabel'] = '|cFFFF8C00Récompenses partagées entre la plupart des ailes|r'
+L['torghast_reward_sublabel'] = '{note:Récompenses partagées entre la plupart des ailes}'
 L['torghast_boss_note'] = 'Obtenables sur plusieurs boss dans {location:Tourment, La tour des Damnés} '
 L['torghast_vendor_note'] = 'Vendu par les marchands {npc:152594} et {npc:170257} pour 300 {currency:1728} ou 1000 {currency:1728}'
 L['torghast_reward_note'] = 'Obtenu dans {location:Tourment, La tour des Damnés} '
@@ -843,7 +866,7 @@ L['bloating_fodder_note'] = 'Détonation de Fourrage ballonnant'
 L['flawless_master_note'] = 'Complétez |cffffff00[{achievement:15322}]|r'
 L['tower_ranger_note'] = 'Complétez |cffffff00[{achievement:15324}]|r'
 
-L['the_jailers_gauntlet_note'] = '|cFFFF8C00Les boss ne comptent pas pour |r |cffffff00{achievement:14498}|r'
+L['the_jailers_gauntlet_note'] = '{note:Les boss ne comptent pas pour} |cffffff00{achievement:14498}|r'
 
 L['the_box_of_many_things'] = 'La boîte aux mille tours'
 L['the_box_of_many_things_note'] = 'Débloquez des pouvoirs supplémentaires avec du {currency:1904}'
@@ -879,7 +902,8 @@ L['garudeon_note'] = 'Ramassez des {npc:183562s} dans les environs et utilisez {
 L['gluttonous_overgrowth_note'] = 'Brisez toutes les {npc:184048s} proches pour activer le monstre rare.'
 L['helmix_note'] = [[
 Tuez des {npc:179005s} dans la zone jusqu'à ce qu'il émette un signal et apparaisse.
-|cFFFF8C00Le sol tremble... Quelque chose se déplace sous la surface !|r
+
+{emote:Le sol tremble... Quelque chose se déplace sous la surface !}
 ]]
 L['hirukon_note'] = [[
 Pour attirer {npc:180978} à la surface, il est nécessaire de créer un {item:187923}.
@@ -972,7 +996,7 @@ L['cache_shrouded_cypher'] = 'Cache cryptique dissimulée'
 L['cache_shrouded_cypher_note'] = [[
 Ces caches ne peuvent être vues que si l'on possède le buff {spell:361917} et l'on porte un Équipement Cryptique approprié :
 
-|cFF00FF00Améliore la perception de Pocopoc, ce qui lui permet de détecter des caches supplémentaires.|r
+{note:Améliore la perception de Pocopoc, ce qui lui permet de détecter des caches supplémentaires.}
 ]]
 
 L['cache_cantaric'] = 'Cache cantabilienne'
@@ -981,9 +1005,9 @@ L['cache_glissandian'] = 'Cache glissandienne'
 L['cache_mezzonic'] = 'Cache mezzonique'
 L['cache_toccatian'] = 'Cache toccatienne'
 
-L['schematic_treasure_note'] = '|cFFFF8C00Ce trésor ne contiendra pas le schéma de protoforme si vous n\'avez pas encore débloqué le synthétiseur. Si vous avez déjà récupéré le trésor, vous trouverez le schéma sur le sol à proximité.|r'
-L['schematic_treasure_mount_note'] = '|cFFFF8C00Ce schéma se trouve dans un trésor à usage unique situé à proximité. Si le trésor est ouvert avant le déverrouillage du synthétiseur de montures, le schéma peut être trouvé ici.|r'
-L['schematic_treasure_pet_note'] = '|cFFFF8C00Ce schéma se trouve dans un trésor à usage unique situé à proximité. Si le trésor est ouvert avant le déverrouillage du synthétiseur de familiers, le schéma peut être trouvé ici.|r'
+L['schematic_treasure_note'] = '{note:Ce trésor ne contiendra pas le schéma de protoforme si vous n\'avez pas encore débloqué le synthétiseur. Si vous avez déjà récupéré le trésor, vous trouverez le schéma sur le sol à proximité.}'
+L['schematic_treasure_mount_note'] = '{note:Ce schéma se trouve dans un trésor à usage unique situé à proximité. Si le trésor est ouvert avant le déverrouillage du synthétiseur de montures, le schéma peut être trouvé ici.}'
+L['schematic_treasure_pet_note'] = '{note:Ce schéma se trouve dans un trésor à usage unique situé à proximité. Si le trésor est ouvert avant le déverrouillage du synthétiseur de familiers, le schéma peut être trouvé ici.}'
 L['schematic_bronze_helicid_note'] = 'Peut être trouvé dans le {item:190610} de la quête hebdomadaire {quest:65324}.'
 L['schematic_ambystan_darter_note'] = 'Dissimulé sous l\'eau, près du {npc:185312}.'
 L['schematic_bronzewing_vespoid_note'] = 'A l\'intérieur du {location:Repos de la fertilité}.'
@@ -1043,7 +1067,7 @@ L['volatile_precursor_note'] = 'Trouvé dans la petite forge au sommet. Peut né
 L['wayward_essence_note'] = 'Difficile à atteindre sans voler; utilisez {spell:300728} ou {spell:111771}. Dans une forge flottante derrière le {location:Creux de l’Exil}. Placez-vous dans le renfoncement pour siphonner la forge.'
 
 L['patient_bufonid_note'] = 'Progressez dans l\'histoire de {location:Zereth Mortis} jusqu\'à ce que {npc:180950} propose {quest:65727}. Complétez les quêtes chaque jour pour attirer le {npc:185798} hors de l\'étang.'
-L['patient_bufonid_note_day1'] = 'Récupérez 15x {item:190852} sur des Vespoïdes dans la zone.'
+L['patient_bufonid_note_day1'] = 'Récupérez 15x {item:190852} sur des {npc:Vespoïdes} dans la zone.'
 L['patient_bufonid_note_day2'] = 'Achetez 30x {item:172053} à l\'{location:Hôtel des Ventes}.'
 L['patient_bufonid_note_day3'] = 'Achetez 200x {item:173202} à l\'{location:Hôtel des Ventes}.'
 L['patient_bufonid_note_day4'] = 'Achetez 10x {item:173037} à l\'{location:Hôtel des Ventes}.'
@@ -1055,8 +1079,8 @@ L['lost_comb'] = 'Rayon de miel égaré'
 L['soulshape_penguin_note'] = 'Situé au sommet de la forge flottante.'
 
 L['coreless_automa'] = 'Automas sauvages'
-L['coreless_automa_note'] = 'Équiper un objet avec {spell:364480} donnera à {object:Pocopoc} la capacité de prendre le contrôle de créatures sans consommer d\'énergie et permettra d\'obtenir ce haut-fait plus rapidement.'
-L['coreless_automa_warning'] = '|cFFFF8C00Attendez que l\'automa commence réellement à vous suivre avant de dire à Pocopoc de partir pour éviter de provoquer un bug qui vous obligerait à vous reconnecter.|r'
+L['coreless_automa_note'] = 'Équiper un objet avec {spell:364480} donnera à {npc:181059} la capacité de prendre le contrôle de créatures sans consommer d\'énergie et permettra d\'obtenir ce haut-fait plus rapidement.'
+L['coreless_automa_warning'] = '{note:Attendez que l\'automa commence réellement à vous suivre avant de dire à Pocopoc de partir pour éviter de provoquer un bug qui vous obligerait à vous reconnecter.}'
 
 L['olea_manu'] = 'Vend des objets et des recettes en échange de {currency:1979}.'
 

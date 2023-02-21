@@ -120,8 +120,19 @@ L['empowered_mobs_killed_suffix'] = 'Monstres Imprégnés tués'
 L['elemental_storm_mythressa_note_start'] = 'Échangez vos {currency:2118} contre de l\'équipement, des mascottes et une monture.'
 L['elemental_storm_mythressa_note_end'] = 'Vous avez actuellement %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = 'Tempêtes élémentaires'
-L['options_icons_elemental_storm_desc'] = 'Afficher les récompenses pour les Tempêtes élementaires.'
+L['options_icons_elemental_storm'] = '{spell:392768}'
+L['options_icons_elemental_storm_desc'] = 'Afficher les récompenses pour les {spell:392768}.'
+
+L['elusive_creature_note'] = 'Le {object:Niveau de Maîtrise 40/40} en {object:Fabrication d’appâts} vous permet de créer des {item:193906} qui peuvent être utilisés pour invoquer et dépecer chaque créature une fois par jour.'
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = 'Afficher les emplacements des créatures insaisissables invoquées grâce aux {item:193906}.'
+
+L['grand_hunts_label'] = 'Grande Chasse'
+L['longhunter_suffix'] = 'étapes de chasse terminées'
+L['the_best_at_what_i_do_suffix'] = 'boss tués'
+
+L['options_icons_grand_hunts'] = 'Grandes Chasses'
+L['options_icons_grand_hunts_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Grandes Chasses}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -201,6 +212,24 @@ Vous devez les activer pour faire fondre le mur de glace (deux joueurs sont reco
 
 Tuez l'{npc:197183} à l'intérieur et vous recevrez le {item:200528}.
 ]]
+
+L['gethdazr_note'] = [[
+Apparaît lors d'un événement à {location:Imbou} qui commence en soufflant dans la {object:Grande corne d’Imbou}({dot:Blue}).
+La Corne ne devient cliquable qu'après avoir tué l'{npc:196155} qui a un temps de réapparition d'environ 30 à 60 minutes.
+
+{npc:191143}({dot:Green}) et d'autres PNJ se frayeront un chemin depuis l'entrée nord-est d'{location:Imbou} jusqu'à la falaise où {npc:196165} apparaîtra.
+Les PNJ peuvent mourir sans aide, ce qui fera échouer l'événement.
+
+Cela peut être accompli en solo mais 2 ou 3 joueurs sont recommandés.
+]]
+
+L['tuskarr_chest'] = 'Coffre rohart'
+L['options_icons_tuskarr_chest'] = 'Coffres roharts'
+L['options_icons_tuskarr_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres roharts}.'
+
+L['community_feast_label'] = '{spell:388961}'
+L['options_icons_community_feast'] = '{spell:388961}'
+L['options_icons_community_feast_desc'] = 'Afficher les emplacements et les récompenses pour le {spell:388961}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -307,6 +336,10 @@ L['chest_of_the_flood'] = 'Coffre du déluge'
 
 L['aylaag_camp_note'] = 'Le {faction:Clan des Aylaags} se déplace vers un autre campement tous les 3 jours et 3 heures (75), suivez-les et défendez-les sur leur chemin.'
 
+L['clan_chest'] = 'Coffre clanique'
+L['options_icons_clan_chest'] = 'Coffres claniques'
+L['options_icons_clan_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres claniques}.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -328,7 +361,7 @@ L['tasty_hatchling_treat_note'] = 'Dans un tonneau derrière l\'étagère.'
 L['pm_mining_bridgette_holdug'] = 'Au sommet d\'un pilier de roche couvert d\'herbe.'
 L['pm_tailor_elysa_raywinder'] = 'Sur une corniche à mi-hauteur de la tour.'
 L['pt_alch_contraband_concoction_note'] = 'Caché dans les buissons. {note:Difficile à voir}.'
-L['pt_alch_furry_gloop_note'] = 'Jetez un {npc:194855} proche dans chaque chaudron puis tuez le monstre qui apparaît.'
+L['pt_alch_tasty_candy_note'] = 'Jetez un {object:Jouet abandonné} proche dans chaque chaudron puis tuez le monstre qui apparaît.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'Au sud du {location:Bastion de Tyr}.'
 L['pt_jewel_alexstraszite_cluster_note'] = 'Au {location:Bastion de Tyr}.'
 L['pt_jewel_painters_pretty_jewel_note'] = 'A l\'intérieur d\'une lanterne.'
@@ -501,3 +534,7 @@ L['loyal_magmammoth_taming_note'] = 'Utilisez le {item:201837} tout en chevaucha
 L['djaradin_cache'] = 'Cache djaradine'
 L['options_icons_djaradin_cache'] = 'Cache djaradine'
 L['options_icons_djaradin_cache_desc'] = 'Afficher les emplacements possibles des {object:Caches djaradines}.'
+
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = 'Affichez les emplacements et les récompenses pour le {spell:388945}.'

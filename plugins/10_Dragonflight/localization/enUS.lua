@@ -119,8 +119,19 @@ L['empowered_mobs_killed_suffix'] = 'Empowered mobs killed'
 L['elemental_storm_mythressa_note_start'] = 'Exchange for {currency:2118} for gear, pets, and a mount.'
 L['elemental_storm_mythressa_note_end'] = 'You currently have %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = 'Elemental Storms'
-L['options_icons_elemental_storm_desc'] = 'Display rewards for Elemental Storms.'
+L['options_icons_elemental_storm'] = '{spell:392768}'
+L['options_icons_elemental_storm_desc'] = 'Display rewards for {spell:392768}.'
+
+L['elusive_creature_note'] = '{object:Mastery Rank 40/40} in {object:Bait Crafter} enables you to create {item:193906} which can be used to summon and skin each creature once a day.'
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = 'Display locations for elusive creatures summoned with {item:193906}.'
+
+L['grand_hunts_label'] = 'Grand Hunts'
+L['longhunter_suffix'] = 'bosses killed'
+L['the_best_at_what_i_do_suffix'] = 'hunt steps completed'
+
+L['options_icons_grand_hunts'] = 'Grand Hunts'
+L['options_icons_grand_hunts_desc'] = 'Display locations and rewards for {object:Grand Hunts}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -200,6 +211,24 @@ You need to activate them to melt the ice wall (two players are recommended).
 
 Kill {npc:197183} inside and you will recieve {item:200528}.
 ]]
+
+L['gethdazr_note'] = [[
+Spawns as part of an event in {location:Imbu} that starts by blowing the {object:Great Horn of Imbu}({dot:Blue}).
+The Horn will only become clickable after killing the {npc:196155} which has about 30-60 minutes of respawn time.
+
+{npc:191143}({dot:Green}) and other NPCs will then fight their way from the north east entrance of {location:Imbu} up to the cliff where {npc:196165} will then spawn.
+The NPCs can die without help, which then will fail the event.
+
+This can be done solo but 2-3 players are recommended.
+]]
+
+L['tuskarr_chest'] = 'Tuskarr Chest'
+L['options_icons_tuskarr_chest'] = 'Tuskarr Chests'
+L['options_icons_tuskarr_chest_desc'] = 'Display possible locations of {object:Tuskarr Chest}.'
+
+L['community_feast_label'] = '{spell:388961}'
+L['options_icons_community_feast'] = '{spell:388961}'
+L['options_icons_community_feast_desc'] = 'Display locations and rewards for the {spell:388961}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -306,6 +335,10 @@ L['chest_of_the_flood'] = 'Chest of the Flood'
 
 L['aylaag_camp_note'] = '{faction:Clan Aylaag} moves on to another camp every 3 days and 3 hours (75), follow them and defend them on their way.'
 
+L['clan_chest'] = 'Clan Chest'
+L['options_icons_clan_chest'] = 'Clan Chests'
+L['options_icons_clan_chest_desc'] = 'Display possible locations of {object:Clan Chests}.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -327,7 +360,7 @@ L['tasty_hatchling_treat_note'] = 'In a barrel behind the bookshelf.'
 L['pm_mining_bridgette_holdug'] = 'On top of a grassy rock pillar.'
 L['pm_tailor_elysa_raywinder'] = 'On a ledge halfway up the tower.'
 L['pt_alch_contraband_concoction_note'] = 'Hidden in bushes. {note:Difficult to see}.'
-L['pt_alch_furry_gloop_note'] = 'Drop a nearby {npc:194855} into each cauldron then kill the monster that spawns.'
+L['pt_alch_tasty_candy_note'] = 'Drop a nearby {object:Discarded Toy} into each cauldron then kill the monster that spawns.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'South of {location:Tyrhold}.'
 L['pt_jewel_alexstraszite_cluster_note'] = 'In {location:Tyrhold}.'
 L['pt_jewel_painters_pretty_jewel_note'] = 'Inside a lantern.'
@@ -500,3 +533,7 @@ L['loyal_magmammoth_taming_note'] = 'Use the {item:201837} while riding a {npc:1
 L['djaradin_cache'] = 'Djaradin Cache'
 L['options_icons_djaradin_cache'] = 'Djaradin Cache'
 L['options_icons_djaradin_cache_desc'] = 'Display possible locations of {object:Djaradin Cache}.'
+
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = 'Display locations and rewards for the {spell:388945}.'

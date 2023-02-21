@@ -122,6 +122,17 @@ L['elemental_storm_mythressa_note_end'] = nil
 L['options_icons_elemental_storm'] = nil
 L['options_icons_elemental_storm_desc'] = nil
 
+L['elusive_creature_note'] = nil
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = nil
+
+L['grand_hunts_label'] = nil
+L['longhunter_suffix'] = nil
+L['the_best_at_what_i_do_suffix'] = nil
+
+L['options_icons_grand_hunts'] = nil
+L['options_icons_grand_hunts_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -189,6 +200,16 @@ L['artists_easel_note_step4'] = nil
 L['somewhat_stabilized_arcana_note'] = nil
 
 L['stranded_soul_note'] = nil
+
+L['gethdazr_note'] = nil
+
+L['tuskarr_chest'] = '투스카르 상자'
+L['options_icons_tuskarr_chest'] = nil
+L['options_icons_tuskarr_chest_desc'] = nil
+
+L['community_feast_label'] = nil
+L['options_icons_community_feast'] = nil
+L['options_icons_community_feast_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -295,6 +316,10 @@ L['chest_of_the_flood'] = nil
 
 L['aylaag_camp_note'] = nil
 
+L['clan_chest'] = '부족 보관함'
+L['options_icons_clan_chest'] = nil
+L['options_icons_clan_chest_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -316,7 +341,7 @@ L['tasty_hatchling_treat_note'] = '책장 뒤에 있는 통에서 얻을 수 있
 L['pm_mining_bridgette_holdug'] = '풀이 우거진 바위 기둥 위에 있음'
 L['pm_tailor_elysa_raywinder'] = '탑 위로 중간쯤 튀어나온 선반 위에 있음'
 L['pt_alch_contraband_concoction_note'] = '덤불 속에 숨겨져있음. {note:찾기 힘듬}'
-L['pt_alch_furry_gloop_note'] = nil
+L['pt_alch_tasty_candy_note'] = nil
 L['pt_ench_fractured_titanic_sphere_note'] = '{location:티르홀드} 남쪽에 있음'
 L['pt_jewel_alexstraszite_cluster_note'] = '{location:티르홀드} 내에 있음'
 L['pt_jewel_painters_pretty_jewel_note'] = '등불 안에 있음'
@@ -479,3 +504,7 @@ L['loyal_magmammoth_taming_note'] = nil
 L['djaradin_cache'] = nil
 L['options_icons_djaradin_cache'] = nil
 L['options_icons_djaradin_cache_desc'] = nil
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil

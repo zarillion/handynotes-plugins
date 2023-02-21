@@ -120,8 +120,19 @@ L['empowered_mobs_killed_suffix'] = 'Enemigo potenciado matado'
 L['elemental_storm_mythressa_note_start'] = 'Entrega {currency:2118} a cambio de equipo, mascotas, y una montura.'
 L['elemental_storm_mythressa_note_end'] = 'Actualmente tienes %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = 'Tormentas Elementales'
-L['options_icons_elemental_storm_desc'] = 'Muestra las recompensas para las Tormentas Elementales.'
+L['options_icons_elemental_storm'] = '{spell:392768}'
+L['options_icons_elemental_storm_desc'] = 'Muestra las recompensas para las {spell:392768}.'
+
+L['elusive_creature_note'] = 'Con un {object:Rango de Maestría 40/40} en {object:Fabricación de Cebos} activas el poder crear un {item:193906} que puede ser usado para invocar y desollar cada criatura una vez al día.'
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = 'Muestra dónde están las criaturas esquivas invocadas con el {item:193906}.'
+
+L['grand_hunts_label'] = 'Grandes Cacerías'
+L['longhunter_suffix'] = 'bosses matados'
+L['the_best_at_what_i_do_suffix'] = 'pasos de la cacería completados'
+
+L['options_icons_grand_hunts'] = 'Grandes Cacerías'
+L['options_icons_grand_hunts_desc'] = 'Muestra las cacerías y las recompensas del {object:Botín de la Gran cacería}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -201,6 +212,24 @@ Necesitas activarlos para derretir la pared de hielo (se recomienda dos jugadore
 
 Mata el {npc:197183} de dentro y recibirás la {item:200528}.
 ]]
+
+L['gethdazr_note'] = [[
+Aparece como parte de un evento en {location:Imbu} que empieza soplando el {object:Gran Cuerno de Imbu} ({dot:Blue}).
+Sólo se podrá hacer click en el Cuerno después de matar al {npc:196155}, el cual tiene una reaparición de 30-60 minutos.
+
+Luego, {npc:191143} ({dot:Green}) y otros NPC se abrirán camino desde la entrada noreste de {location:Imbu} hasta donde aparece {npc:196165}.
+Los NPC pueden morir sin ayuda y hacer fallar el evento.
+
+Se puede hacer en solitario pero se recomiendan 2-3 jugadores.
+]]
+
+L['tuskarr_chest'] = 'Cofre Colmillarr'
+L['options_icons_tuskarr_chest'] = 'Cofre Colmillarr'
+L['options_icons_tuskarr_chest_desc'] = 'Muestra dónde pueden haber {object:Cofres colmillarr}.'
+
+L['community_feast_label'] = '{spell:388961}'
+L['options_icons_community_feast'] = '{spell:388961}'
+L['options_icons_community_feast_desc'] = 'Muestra los festines y recompensas para los {spell:388961}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -307,6 +336,10 @@ L['chest_of_the_flood'] = 'Cofre de la inundación'
 
 L['aylaag_camp_note'] = 'El {faction:Clan Aylaag} se mueve de un campamento a otro cada 3 días y 3 horas (75 horas). Síguelos y defiéndelos durante su marcha.'
 
+L['clan_chest'] = 'Cofre de Clan'
+L['options_icons_clan_chest'] = 'Cofres de Clan'
+L['options_icons_clan_chest_desc'] = 'Muestra dónde pueden estár los {object:Cofres de Clan}.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -328,7 +361,7 @@ L['tasty_hatchling_treat_note'] = 'En un barril detrás de la librería.'
 L['pm_mining_bridgette_holdug'] = 'Encima de un pilar de roca cubierto de hierba.'
 L['pm_tailor_elysa_raywinder'] = 'En una repisa a media altura de la torre.'
 L['pt_alch_contraband_concoction_note'] = 'Escondido en los arbustos. {note:Difícil de ver}'
-L['pt_alch_furry_gloop_note'] = 'Deja a un {npc:194855} cercano dentro de cada caldera y mata al monstruo que aparecerá.'
+L['pt_alch_tasty_candy_note'] = 'Deja a un {object:Juguete Descartado} cercano dentro de cada caldera y mata al monstruo que aparecerá.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'Al Sur de {location:Tyrhold}.'
 L['pt_jewel_alexstraszite_cluster_note'] = 'En {location:Tyrhold}.'
 L['pt_jewel_painters_pretty_jewel_note'] = 'Dentro de una lámpara.'
@@ -501,3 +534,7 @@ L['loyal_magmammoth_taming_note'] = 'Usa el {item:201837} mientras montas a un {
 L['djaradin_cache'] = 'Alijo Djaradin'
 L['options_icons_djaradin_cache'] = 'Alijo Djaradin'
 L['options_icons_djaradin_cache_desc'] = 'Muestra dónde pueden haber {object:Alijos Djaradin}.'
+
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = 'Muestra los asedios y las recompensas del {spell:388945}.'

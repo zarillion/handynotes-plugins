@@ -17,8 +17,10 @@ local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
+local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
+local GrandHunt = ns.node.GrandHunt
 local LegendaryCharacter = ns.node.LegendaryCharacter
 local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
@@ -201,9 +203,9 @@ map.nodes[27214490] = Rare({
     }
 }) -- Dragonhunter Gorund
 
-map.nodes[50043631] = Rare({ -- review
+map.nodes[50043631] = Rare({
     id = 193691,
-    quest = 72254, -- wrong id? 72730, 74064?
+    quest = 72254,
     note = L['fisherman_tinnak_note'],
     requires = {
         ns.requirement.Reputation(2511, 7, true) -- Iskaara Tuskarr
@@ -223,7 +225,7 @@ map.nodes[50043631] = Rare({ -- review
 
 map.nodes[64992995] = Rare({
     id = 193698,
-    quest = 73876, -- 69985?
+    quest = 73876,
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 16678, criteria = 56104}) -- Adventurer of The Azure Span
@@ -331,9 +333,9 @@ map.nodes[40514797] = Rare({
     }
 }) -- Mange the Outcast
 
-map.nodes[58095471] = Rare({ -- review
+map.nodes[58095471] = Rare({
     id = 193201,
-    quest = 73885, -- 73886 both?
+    quest = 73885,
     rewards = {
         Achievement({id = 16678, criteria = 56102}), -- Adventurer of The Azure Span
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -432,7 +434,7 @@ map.nodes[10863229] = ns.node.Brackenhide({
 
 map.nodes[55033405] = RareElite({
     id = 193238,
-    quest = 74082, -- 69879 ?
+    quest = 74082,
     note = L['spellwrought_snowman_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56124}), -- Adventurer of The Azure Span
@@ -521,7 +523,7 @@ map.nodes[23503317] = Rare({
 
 map.nodes[38155901] = Rare({
     id = 193214,
-    quest = 72840, -- 69864
+    quest = 72840,
     note = L['in_cave'],
     rewards = {
         Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
@@ -533,7 +535,7 @@ map.nodes[38155901] = Rare({
 
 map.nodes[70143327] = Rare({
     id = 193288,
-    quest = 72848, -- 69895
+    quest = 72848,
     rewards = {
         Item({item = 198048}), -- Titan Training Matrix I
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
@@ -545,7 +547,7 @@ map.nodes[70143327] = Rare({
 
 map.nodes[17254144] = Rare({
     id = 193223,
-    quest = 72853, -- 69872
+    quest = 72853,
     rewards = {
         Item({item = 201728}), -- Vakril's Strongbox
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
@@ -556,7 +558,7 @@ map.nodes[17254144] = Rare({
 
 map.nodes[36723247] = Rare({
     id = 192749,
-    quest = 72846, -- 67173
+    quest = 72846,
     note = L['sharpfang_note'],
     rewards = {
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
@@ -565,8 +567,6 @@ map.nodes[36723247] = Rare({
         Item({item = 198048}) -- Titan Training Matrix I
     }
 }) -- Sharpfang
-
--------------------------------------------------------------------------------
 
 map.nodes[76602460] = Rare({
     id = 197183,
@@ -581,6 +581,104 @@ map.nodes[76602460] = Rare({
         POI({color = 'Red', 75812428}) -- Lost Elemental, 196900
     }
 }) -- Stranded Soul
+
+map.nodes[56407080] = Rare({
+    id = 196165,
+    quest = 74446,
+    note = L['gethdazr_note'],
+    rewards = {
+        Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
+        Transmog({item = 200237, slot = L['shield']}), -- Burnished Lifewarder's Targe
+        Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
+        DC.HighlandDrake.SpinedChin, DC.CliffsideWylderdrake.SpikedBack,
+        DC.HighlandDrake.StripedPattern, DC.WindborneVelocidrake.SpikedBack
+    },
+    pois = {
+        POI({58946695}), -- Great Horn of Imbu
+        POI({color = 'Green', 60496603}), -- The Blubberwall
+        Path({
+            color = 'Green',
+            points = {
+                60496603, 59956724, 59376836, 58516913, 57816923, 56866903,
+                56406928, 56457017, 56407080
+            }
+        })
+    }
+}) -- Gethdazr
+
+map.nodes[60196818] = Rare({
+    id = 201559,
+    quest = 74533,
+    rewards = {
+        Transmog({item = 203661, slot = L['cloth']}) -- Watercaller's Mantle
+    }
+}) -- Shiobhan Waterborn
+
+map.nodes[57916842] = Rare({
+    id = 201557,
+    quest = 74532,
+    rewards = {
+        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
+        Transmog({item = 200254, slot = L['mail']}), -- Totemic Cinch
+        Transmog({item = 200313, slot = L['cloak']}), -- Earthen Protoscale Drape
+        Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
+        Transmog({item = 203658, slot = L['leather']}), -- Graniteclaw's Vest
+        DC.CliffsideWylderdrake.ManedNeck, DC.WindborneVelocidrake.ClusterHorns,
+        DC.WindborneVelocidrake.ClubTail
+    }
+}) -- Graniteclaw
+
+map.nodes[56016760] = Rare({
+    id = 201558,
+    quest = 74531,
+    rewards = {
+        Transmog({item = 200292, slot = L['plate']}), -- Cragforge Pauldrons
+        Transmog({item = 203660, slot = L['mail']}), -- Rockknell's Groundpounders
+        DC.WindborneVelocidrake.ClubTail, DC.WindborneVelocidrake.ClusterHorns
+    }
+}) -- Malgain Rockknell
+
+map.nodes[57256464] = Rare({
+    id = 201556,
+    quest = 74535,
+    rewards = {
+        Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
+        Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
+        Transmog({item = 203659, slot = L['shield']}), -- Waterpot's Halfpot Deflector
+        DC.RenewedProtoDrake.HeavyHorns, DC.WindborneVelocidrake.ClusterHorns
+    }
+}) -- Waterpots
+
+map.nodes[43903096] = Rare({
+    id = 201561,
+    quest = 74544,
+    rewards = {
+        Transmog({item = 203675, slot = L['plate']}), -- Legplates of the Brutal Motivator
+        Transmog({item = 200434, slot = L['cloth']}), -- Anund's Mana-Singed Amice
+        DC.RenewedProtoDrake.SharkSnout, DC.HighlandDrake.FinnedHead
+    }
+}) -- Movtivator Krathos
+
+map.nodes[47102582] = Rare({
+    id = 201554,
+    quest = 74536,
+    rewards = {
+        Transmog({item = 203662, slot = L['dagger']}), -- Arcanogolem Crystalblade
+        Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
+        Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
+        DC.HighlandDrake.StripedPattern, DC.WindborneVelocidrake.SpikedBack
+    }
+}) -- Unstable Arcanogolem
+
+map.nodes[47912378] = Rare({ -- TODO, coordinates may be wrong
+    id = 201553,
+    quest = 74545,
+    rewards = {
+        Transmog({item = 203664, slot = L['cloth']}), -- Wild Magic Insulating Bands
+        Transmog({item = 200434, slot = L['cloth']}), -- Anund's Mana-Singed Amice
+        DC.RenewedProtoDrake.SharkSnout, DC.HighlandDrake.FinnedHead
+    }
+}) -- Grand Artificer Zeerak
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -986,9 +1084,11 @@ map.nodes[72154242] = Scoutpack({note = L['in_cave']})
 map.nodes[72604263] = Scoutpack({note = L['in_cave']})
 map.nodes[78953094] = Scoutpack()
 map.nodes[79823175] = Scoutpack()
+map.nodes[46892208] = Scoutpack()
+map.nodes[49052541] = Scoutpack()
 
 -------------------------------------------------------------------------------
------------------------------- Magic-Bound Chest ------------------------------
+------------------------------ MAGIC-BOUND CHEST ------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[09104840] = MagicBoundChest({
@@ -1018,6 +1118,46 @@ map.nodes[72304210] = MagicBoundChest({
 -------------------------------------------------------------------------------
 
 map.nodes[30512493] = TuskarrTacklebox()
+
+-------------------------------------------------------------------------------
+-------------------------------- TUSKARR CHEST --------------------------------
+-------------------------------------------------------------------------------
+
+local TuskarrChest = Class('TuskarrChest', ns.node.Node, {
+    label = L['tuskarr_chest'],
+    icon = 'chest_bn',
+    group = ns.groups.TUSKARR_CHEST,
+    rewards = {
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Item({item = 190454}), -- Primal Chaos
+        Transmog({item = 201372, slot = L['cosmetic']}), -- Imbu Tuskarr Axe
+        Transmog({item = 201373, slot = L['cosmetic']}), -- Imbu Net Cutter
+        Transmog({item = 201374, slot = L['cosmetic']}), -- Tuskarr Fishing Pike
+        Transmog({item = 201376, slot = L['cosmetic']}), -- Imbu Tuskarr Mace
+        Transmog({item = 201377, slot = L['cosmetic']}), -- Imbu Warrior's Club
+        Transmog({item = 201377, slot = L['cosmetic']}), -- Tuskarr Elder's Staff
+        Transmog({item = 201378, slot = L['cosmetic']}), -- Tuskarr Angler's Crossbow
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Item({item = 200071}), -- Sacred Tuskarr Totem
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+}) -- Tuskarr Chest
+
+map.nodes[07134508] = TuskarrChest()
+map.nodes[08424067] = TuskarrChest()
+map.nodes[09403790] = TuskarrChest()
+map.nodes[45052513] = TuskarrChest()
+map.nodes[45852614] = TuskarrChest()
+map.nodes[46905420] = TuskarrChest()
+map.nodes[55726866] = TuskarrChest()
+map.nodes[56506570] = TuskarrChest()
+map.nodes[56926793] = TuskarrChest()
+map.nodes[57626966] = TuskarrChest()
+map.nodes[58776833] = TuskarrChest()
+map.nodes[58925475] = TuskarrChest({note = L['in_water']})
+map.nodes[59006670] = TuskarrChest()
+map.nodes[59235652] = TuskarrChest()
+map.nodes[60505900] = TuskarrChest()
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -1381,6 +1521,113 @@ map.nodes[58506660] = ElementalStorm({
     mapID = map.id,
     areaPOIs = {7237, 7238, 7239, 7240}
 }) -- Elemental Storm: Imbu
+
+-------------------------------------------------------------------------------
+------------------------------ ELUSIVE CREATURES ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[65002900] = ElusiveCreature({
+    label = '{npc:194491}',
+    rewards = {
+        Item({item = 193211}), -- Resilient Leather
+        Item({item = 193218}) -- Dense Hide
+    }
+}) -- Elusive Elder Frigidpelt
+
+map.nodes[23203380] = ElusiveCreature({
+    label = '{npc:194489}',
+    rewards = {
+        Item({item = 193218}), -- Dense Hide
+        Item({item = 193211}), -- Resilient Leather
+        Item({item = 193053}) -- Contoured Fowlfeather
+    }
+}) -- Elusive Elder Drake
+
+-------------------------------------------------------------------------------
+--------------------------------- GRAND HUNTS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[68302652] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7095,
+    criteria = 55684
+}) -- Eastern Azure Span Hunt
+
+map.nodes[68505285] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7096,
+    criteria = 55685
+}) -- Southern Azure Span Hunt
+
+map.nodes[38453474] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7094,
+    criteria = 55683
+}) -- Western Azure San Hunt
+
+-------------------------------------------------------------------------------
+------------------------------- COMMUNITY FEAST -------------------------------
+-------------------------------------------------------------------------------
+
+local COMMUNITY_FEAST_AREA_POIS = {
+    [7218] = 'Before Feast',
+    [7219] = 'During Feast',
+    [7220] = 'After Feast'
+}
+
+local COMMUNITY_FEAST_REWARDS = {
+    Achievement({id = 16444}), -- Leftovers Revenge
+    Item({item = 198131}), -- Recipe: Gral's Devotion
+    Item({item = 198129}), -- Recipe: Gral's Reverence
+    Item({item = 198130}), -- Recipe: Gral's Veneration
+    Transmog({item = 200882, slot = L['cosmetic']}), -- Big Kinook's Spare Ladle
+    ns.reward.Spacer(), Item({item = 200652}), -- Alchemical Flavor Pocket
+    Item({item = 190454}), -- Primal Chaos
+    Item({item = 192055}), -- Dragon Isles Artifact
+    Item({item = 200071}) -- Sacred Tuskarr Totem
+}
+
+map.nodes[13524860] = Collectible({
+    label = L['community_feast_label'],
+    icon = 629056,
+    areaPOIs = {7218, 7219, 7220},
+    mapID = map.id,
+    group = ns.groups.COMMUNITY_FEAST,
+    requires = ns.requirement.Reputation(2511, 3, true), -- Iskaara Tuskarr
+    rewards = COMMUNITY_FEAST_REWARDS,
+    IsEnabled = function(self)
+        local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
+        local possiblePOIs = self.areaPOIs
+        for a = 1, #activePOIs do
+            for p = 1, #possiblePOIs do
+                if activePOIs[a] == possiblePOIs[p] then
+                    return false
+                end
+            end
+        end
+        return true
+    end
+}) -- Community Feast
+
+hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+    if self and self.areaPoiID then
+        local mapID = self:GetMap().mapID
+        local group = ns.groups.COMMUNITY_FEAST
+        if COMMUNITY_FEAST_AREA_POIS[self.areaPoiID] then
+            if group:GetDisplay(mapID) then
+                if ns:GetOpt('show_loot') then
+                    GameTooltip:AddLine(' ')
+                    for i, reward in ipairs(COMMUNITY_FEAST_REWARDS) do
+                        if reward:IsEnabled() then
+                            reward:Render(GameTooltip)
+                        end
+                    end
+                end
+                GameTooltip:Show()
+            end
+        end
+    end
+end)
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

@@ -122,6 +122,17 @@ L['elemental_storm_mythressa_note_end'] = '你現在有 %s 個 {currency:2118}.'
 L['options_icons_elemental_storm'] = '元素風暴'
 L['options_icons_elemental_storm_desc'] = '顯示元素風暴的獎勵.'
 
+L['elusive_creature_note'] = nil
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = nil
+
+L['grand_hunts_label'] = nil
+L['longhunter_suffix'] = nil
+L['the_best_at_what_i_do_suffix'] = nil
+
+L['options_icons_grand_hunts'] = nil
+L['options_icons_grand_hunts_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -200,6 +211,16 @@ L['stranded_soul_note'] = [[
 
 殺掉裡面的 {npc:197183}, 你會收到 {item:200528}.
 ]]
+
+L['gethdazr_note'] = nil
+
+L['tuskarr_chest'] = nil
+L['options_icons_tuskarr_chest'] = nil
+L['options_icons_tuskarr_chest_desc'] = nil -- '顯示 {object:巨牙海民釣具箱} 可能的位置'
+
+L['community_feast_label'] = nil
+L['options_icons_community_feast'] = nil
+L['options_icons_community_feast_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -306,6 +327,10 @@ L['chest_of_the_flood'] = '洪流寶箱'
 
 L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天又3小時 (75) 移動到另外一個營地, 跟著他們並在路上保護他們.'
 
+L['clan_chest'] = nil
+L['options_icons_clan_chest'] = nil
+L['options_icons_clan_chest_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -327,7 +352,7 @@ L['tasty_hatchling_treat_note'] = '在書架後的一個桶子內'
 L['pm_mining_bridgette_holdug'] = '在一個長草的石柱頂端'
 L['pm_tailor_elysa_raywinder'] = '在塔中間的平台上'
 L['pt_alch_contraband_concoction_note'] = '藏在樹叢內 {note:很難看到}.'
-L['pt_alch_furry_gloop_note'] = '各丟一個在附近的 {npc:194855} 到每個大鍋, 然後殺掉刷新出來的怪物'
+L['pt_alch_tasty_candy_note'] = '各丟一個在附近的 {object:[Discarded Toy]} 到每個大鍋, 然後殺掉刷新出來的怪物'
 L['pt_ench_fractured_titanic_sphere_note'] = '{location:提爾堡} 南邊.'
 L['pt_jewel_alexstraszite_cluster_note'] = '{location:提爾堡} 內.'
 L['pt_jewel_painters_pretty_jewel_note'] = '在燈籠內'
@@ -500,3 +525,7 @@ L['loyal_magmammoth_taming_note'] = '當你騎著 {npc:198150} 時使用 {item:2
 L['djaradin_cache'] = '加拉登貯物所'
 L['options_icons_djaradin_cache'] = '加拉登貯物所'
 L['options_icons_djaradin_cache_desc'] = '顯示 {object:加拉登貯物所} 可能的位置'
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil
