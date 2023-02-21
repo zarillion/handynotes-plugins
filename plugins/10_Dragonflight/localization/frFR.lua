@@ -221,8 +221,8 @@ L['mysterious_wand_note'] = 'Ramassez la {object:Clé en cristal} et placez-la d
 -------------------------------------------------------------------------------
 
 L['in_the_war_creche'] = 'Au fond du {location:Couvoir Martial}'
-L['in_the_high_creche'] = 'Dans le {location:Haut Couvoir}'
-L['in_froststone_vault'] = nil
+L['in_the_high_creche'] = 'À l\'intérieur du {location:Haut Couvoir}'
+L['in_froststone_vault'] = 'À l\'intérieur du {location:Caveau Givre-Pierre}'
 
 L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751}({dot:Green}) pour vous soigner du gaz toxique dans la grotte.'
 L['mad_eye_carrey_note'] = '{npc:201181} se trouve dans un groupe avec la {npc:201184} et la {npc:201182}'
@@ -237,7 +237,7 @@ L['options_icons_forbidden_hoard'] = 'Provisions interdites'
 L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles des coffres de {object:Provisions interdites}.'
 
 L['small_treasures_label'] = 'Petit Trésor'
-L['small_treasures_note'] = 'Les petits trésors sont répartis entre les points d\'apparition.' -- review
+L['small_treasures_note'] = 'Les petits trésors sont répartis entre les points d\'apparition.'
 L['options_icons_small_treasures'] = 'Petits Trésors'
 L['options_icons_small_treasures_desc'] = 'Afficher les emplacements possibles des petits trésors.'
 
@@ -249,7 +249,7 @@ L['farescale_shrine_label'] = 'Sanctuaire Longuécaille'
 L['resonating_crystal_label'] = 'Cristal résonnant'
 L['spellsworn_ward_label'] = 'Protection sorcelige'
 L['rumbling_draconium_label'] = 'Draconium grondant'
-L['spiceless_stew_label'] = nil
+L['spiceless_stew_label'] = 'Ragoût sans épices'
 
 L['artisan_curio_note'] = 'Les joueurs ayant le métier %s (à 50) peuvent acheter {item:%s} à la {npc:202445} au {location:Village de Morqut} pour 10 {item:190456}.'
 L['options_icons_artisan_curio'] = 'Bibelot d\'Artisanat'
@@ -282,7 +282,7 @@ L['froststone_vault_storm_label'] = 'Tempête primordiale du caveau Givre-Pierre
 L['options_icons_froststone_vault_storm'] = 'Tempêtes primordiales du caveau Givre-Pierre'
 L['options_icons_froststone_vault_storm_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Tempêtes primordiales du caveau Givre-Pierre}'
 
-L['spellsworn_gateway'] = nil
+L['spellsworn_gateway'] = 'Porte sorcelige'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
