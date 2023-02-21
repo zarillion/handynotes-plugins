@@ -91,6 +91,8 @@ L['options_icons_signal_transmitter'] = 'Wyrmlochgenerator Signaltransmitters'
 L['options_icons_signal_transmitter_desc'] = 'Zeigt die Positionen der {object:Deaktivierten Signaltransmitter} für {item:198156} an.'
 
 L['spawns_periodically'] = '{note:Erscheint möglicherweise alle 30 Minuten, synchronisiert über den Realm. (Beispiel: 9:00, 17:30)}'
+L['rare_14h'] = 'Die Gegner teilt sich einen 14 Stunden Interval mit Anderen Gegnern, wobei alle 30 Minuten ein Gegner spawnen kann.\n\nNächster möglicher spawn: {note:%s} (Server Zeit)'
+L['time_format'] = '%H:%M - %d.%m.%Y'
 L['spawns_at_night'] = '{note:Erscheint nur nachts. (Ab 18:30 Server Zeit)}'
 
 L['elemental_storm'] = 'Elementarsturm'
@@ -135,9 +137,9 @@ L['options_icons_grand_hunts_desc'] = 'Zeigt die Position und Belohnungen der {l
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['bisquis_note'] = 'Kocht beim gemeinschaftlichen Festmahl in {location:Iskaara} eine legendäre Suppe und besiegt dann {npc:197557}.'
+L['bisquis_note'] = 'Kocht beim gemeinschaftlichen Festmahl in {location:Iskaara} eine legendäre Suppe und besiegt dann {npc:197557}.\n\nNächstes Festmahl: {note:%s} (Serverzeit)'
 L['blightfur_note'] = 'Sprich mit {npc:193633}, um den seltenen Gegner erscheinen zu lassen.'
-L['brackenhide_rare_note'] = 'Dieser seltene Gegner erscheint nach einer festen Rotation von {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} im Abstand von 10 Minuten.'
+L['brackenhide_rare_note'] = 'Dieser seltene Gegner erscheint nach einer festen Rotation von {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} im Abstand von 10 Minuten.\n\nNächster möglicher spawn: {note:%s} (Server Zeit)'
 L['fisherman_tinnak_note'] = 'Sammel {object:Zerbrochene Angelrute}, {object:Zerrissenes Fischernetz} und {object:Alte Harpune}, um ihn zu beschwören.'
 L['frostpaw_note'] = 'Hebe den {object:Holzhammer} in der Nähe auf und schlage die drei {object:Hau den Gnoll} innerhalb von 20 Sekunden auf dem {object:Baumstumpf} damit, um den seltenen Gegner erscheinen zu lassen.'
 L['sharpfang_note'] = 'Hilf {npc:192747} dabei, drei {npc:192748s} zu besiegen, um den seltenen Gegner erscheinen zu lassen.'

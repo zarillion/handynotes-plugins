@@ -25,6 +25,7 @@ local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
+local Rare14h = ns.node.Rare14h
 local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
@@ -92,10 +93,10 @@ map.nodes[31097121] = Rare({
     }
 }) -- Blightpaw the Depraved
 
-map.nodes[59847057] = Rare({
+map.nodes[59847057] = Rare14h({ -- required 67030
     id = 193220,
     quest = 73987,
-    note = L['spawns_periodically'],
+    rotationID = 25,
     rewards = {
         Achievement({id = 16679, criteria = 56149}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -148,10 +149,10 @@ local CRAGGRAVATEDELEMENTAL = Rare({
 map.nodes[45458518] = CRAGGRAVATEDELEMENTAL
 map.nodes[52746732] = CRAGGRAVATEDELEMENTAL
 
-map.nodes[47675115] = Rare({
+map.nodes[47675115] = Rare14h({ -- required 67030
     id = 193234,
     quest = 73990,
-    note = L['spawns_periodically'],
+    rotationID = 6,
     rewards = {
         Achievement({id = 16446, criteria = 55398, note = L['pretty_neat_note']}),
         Achievement({id = 16679, criteria = 56147}),
@@ -223,10 +224,10 @@ map.nodes[62298177] = Rare({
     pois = {POI({61708120})} -- Entrance
 }) -- Lord Epochbrgl
 
-map.nodes[52895903] = Rare({
+map.nodes[52895903] = Rare14h({
     id = 193246,
     quest = 74013,
-    note = L['spawns_periodically'],
+    rotationID = 12,
     rewards = {
         Achievement({id = 16679, criteria = 56141}),
         Transmog({item = 200257, slot = L['2h_mace']}), -- Decay Infused Branch
@@ -256,10 +257,10 @@ map.nodes[59806100] = Rare({
     }
 }) -- Phenran
 
-map.nodes[57218420] = Rare({
+map.nodes[57218420] = Rare14h({ -- reqired 67030 review
     id = 193210,
     quest = 74021,
-    note = L['spawns_periodically'],
+    rotationID = 0,
     rewards = {
         Achievement({id = 16679, criteria = 56142}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
@@ -310,10 +311,10 @@ map.nodes[50404840] = Rare({
     }
 }) -- Razk'vex the Untamed
 
-map.nodes[40087014] = Rare({
+map.nodes[40087014] = Rare14h({ -- reqiured 67030
     id = 193240,
     quest = 74024,
-    note = L['spawns_periodically'],
+    rotationID = 4,
     rewards = {
         Achievement({id = 16679, criteria = 56148}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -330,10 +331,10 @@ map.nodes[40087014] = Rare({
     }
 }) -- Riverwalker Tamopo
 
-map.nodes[50005180] = Rare({
+map.nodes[50005180] = Rare14h({ -- reqiured 67030 review
     id = 193666,
     quest = 74025,
-    note = L['spawns_periodically'],
+    rotationID = 10,
     rewards = {
         Achievement({id = 16679, criteria = 56151}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -348,10 +349,11 @@ map.nodes[50005180] = Rare({
     }
 }) -- Rokmur
 
-map.nodes[37607780] = Rare({
+map.nodes[37607780] = Rare14h({ -- reqiured 67030
     id = 193176,
     quest = 74029,
-    note = L['spawns_periodically'] .. '\n\n' .. L['in_cave'],
+    rotationID = 18,
+    cave = true,
     rewards = {
         Achievement({id = 16679, criteria = 56150}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
@@ -366,10 +368,10 @@ map.nodes[37607780] = Rare({
     pois = {POI({38507640})} -- Cave entrance
 }) -- Sandana the Tempest
 
-map.nodes[47207895] = Rare({
+map.nodes[47207895] = Rare14h({ -- review -- reqiured 67030
     id = 193258,
     quest = 74035,
-    note = L['spawns_periodically'],
+    rotationID = 21,
     rewards = {
         Achievement({id = 16679, criteria = 56144}),
         Transmog({item = 200139, slot = L['bow']}) -- Tempest Arc
@@ -419,10 +421,11 @@ map.nodes[46267317] = Rare({
     pois = {POI({47547180})} -- Cave entrance
 }) -- The Weeping Vilomah
 
-map.nodes[35027001] = Rare({
+map.nodes[35027001] = Rare14h({ -- reqiured 67030 review
     id = 193146,
     quest = 74036,
-    note = L['spawns_periodically'] .. '\n\n' .. L['in_small_cave'],
+    rotationID = 15,
+    cave = true,
     rewards = {
         Achievement({id = 16679, criteria = 56146}),
         Transmog({item = 200291, slot = L['leather']}), -- Waterlogged Racing Grips
