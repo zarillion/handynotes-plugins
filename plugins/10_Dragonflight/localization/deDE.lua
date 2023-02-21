@@ -120,6 +120,17 @@ L['elemental_storm_mythressa_note_end'] = 'Zurzeit hast du %s {currency:2118}.'
 L['options_icons_elemental_storm'] = 'Elementarstürme'
 L['options_icons_elemental_storm_desc'] = 'Zeigt die möglichen Positionen der Elementarstürme an.'
 
+L['elusive_creature_note'] = 'Benötigt {object:Rang 40/40} in der {object:Köderherstellung}s Spezialisierung um {item:193906} herstellen zu können, dieser wird benötigt um die Kreaturen einmal pro Tag anlocken und Kürschnern zu können.'
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = 'Zeigt die Positionen der scheuen Kreaturen welche mit {item:193906} angelockt werden können.'
+
+L['grand_hunts_label'] = 'Große Jagden'
+L['longhunter_suffix'] = 'Bosse getötet.'
+L['the_best_at_what_i_do_suffix'] = 'Jagd schritte abgeschlossen'
+
+L['options_icons_grand_hunts'] = 'Große Jagden'
+L['options_icons_grand_hunts_desc'] = 'Zeigt die Position und Belohnungen der {location:Großen Jagd}'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -206,6 +217,10 @@ Das Event kann alleine geschafft werden, 2-3 Spieler sind aber empfohlen.
 L['tuskarr_chest'] = 'Kiste der Tuskarr'
 L['options_icons_tuskarr_chest'] = 'Kisten der Tuskarr'
 L['options_icons_tuskarr_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Kiste der Tuskarr} an.'
+
+L['community_feast_label'] = '{spell:386441}'
+L['options_icons_community_feast'] = '{spell:386441}'
+L['options_icons_community_feast_desc'] = 'Zeigt die Position und Belohnungen des {spell:386441s}'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -508,3 +523,7 @@ L['loyal_magmammoth_taming_note'] = 'Benutze den {item:201837} während du auf e
 L['djaradin_cache'] = 'Depot der Djaradin'
 L['options_icons_djaradin_cache'] = 'Depots der Djaradin'
 L['options_icons_djaradin_cache_desc'] = 'Zeigt die möglichen Positionen für {object:Depot der Djaradin} an.'
+
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = 'Zeigt die Position und Belohnungen der {spell:388945}'

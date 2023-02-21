@@ -16,7 +16,9 @@ local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
+local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
+local GrandHunt = ns.node.GrandHunt
 local LegendaryCharacter = ns.node.LegendaryCharacter
 local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
@@ -845,7 +847,7 @@ local ClanChest = Class('ClanChest', ns.node.Node, {
 })
 
 map.nodes[25013785] = ClanChest()
-map.nodes[25303740] = ClanChest()
+map.nodes[25323730] = ClanChest()
 map.nodes[31307060] = ClanChest()
 map.nodes[32206810] = ClanChest()
 map.nodes[32403900] = ClanChest()
@@ -1835,6 +1837,50 @@ map.nodes[34153854] = ElementalStorm({
 --     mapID = map.id,
 --     areaPOIs = {7225, 7226, 7227, 7228}
 -- }) -- Elemental Storm: Ohn'iri Springs
+
+-------------------------------------------------------------------------------
+------------------------------ ELUSIVE CREATURES ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[55005500] = ElusiveCreature({
+    label = '{npc:195465}',
+    rewards = {
+        Item({item = 193224}), -- Lustrous Scaled Hide
+        Item({item = 193215}), -- Adamant Scales
+        Item({item = 193253}) -- Cacophonous Thunderscale
+    }
+}) -- Elusive Tempest Lizard
+
+map.nodes[24005600] = ElusiveCreature({
+    label = '{npc:195541}',
+    rewards = {
+        Item({item = 193218}), -- Dense Hide
+        Item({item = 193211}), -- Resilient Leather
+        Item({item = 193251}) -- Crystalspine Fur
+    }
+}) -- Elusive Flourishing Quillbloom
+
+-------------------------------------------------------------------------------
+--------------------------------- GRAND HUNTS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[81891730] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7098,
+    criteria = 55677
+}) -- Northern Ohn'ahran Plains Hunt
+
+map.nodes[61655301] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7089,
+    criteria = 55678
+}) -- Western Ohn'ahran Plains Hunt
+
+map.nodes[81144996] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7090,
+    criteria = 55679
+}) -- Eastern Ohn'ahran Plains Hunt
 
 -------------------------------------------------------------------------------
 --------------------------- KNEW YOU NOKHUD DO IT! ----------------------------

@@ -121,6 +121,17 @@ L['elemental_storm_mythressa_note_end'] = 'В настоящее время у �
 L['options_icons_elemental_storm'] = 'Буря Стихий'
 L['options_icons_elemental_storm_desc'] = 'Показать награды за Бури Стихий.'
 
+L['elusive_creature_note'] = nil
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = nil
+
+L['grand_hunts_label'] = nil
+L['longhunter_suffix'] = nil
+L['the_best_at_what_i_do_suffix'] = nil
+
+L['options_icons_grand_hunts'] = nil
+L['options_icons_grand_hunts_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -205,8 +216,12 @@ L['gethdazr_note'] = [[
 ]]
 
 L['tuskarr_chest'] = 'Клыкаррский сундук'
-L['options_icons_tuskarr_chest'] = nil
-L['options_icons_tuskarr_chest_desc'] = nil -- 'Показать возможные места {object:Клыкаррских рыболовных снастей}.'
+L['options_icons_tuskarr_chest'] = 'Клыкаррский сундук'
+L['options_icons_tuskarr_chest_desc'] = 'Показать возможные места {object:Клыкаррских сундуков}.'
+
+L['community_feast_label'] = nil
+L['options_icons_community_feast'] = nil
+L['options_icons_community_feast_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -314,8 +329,8 @@ L['chest_of_the_flood'] = 'Сундук Прилива'
 L['aylaag_camp_note'] = '{faction:Клан Айлааг} переходит в другой лагерь каждые 3 дня и 3 часа (75), следуйте за ними и защищайте их по пути.'
 
 L['clan_chest'] = 'Сундук клана'
-L['options_icons_clan_chest'] = nil
-L['options_icons_clan_chest_desc'] = nil
+L['options_icons_clan_chest'] = 'Сундук клана'
+L['options_icons_clan_chest_desc'] = 'Показать возможные места {object:Сундуков клана}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -510,3 +525,7 @@ L['loyal_magmammoth_taming_note'] = 'Используйте {item:201837} сид
 L['djaradin_cache'] = 'Тайник джарадинов'
 L['options_icons_djaradin_cache'] = 'Тайник джарадинов'
 L['options_icons_djaradin_cache_desc'] = 'Показать возможные места {object:Тайников джарадинов}.'
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil

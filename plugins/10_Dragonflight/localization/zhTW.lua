@@ -120,6 +120,17 @@ L['elemental_storm_mythressa_note_end'] = '你現在有 %s 個 {currency:2118}.'
 L['options_icons_elemental_storm'] = '元素風暴'
 L['options_icons_elemental_storm_desc'] = '顯示元素風暴的獎勵.'
 
+L['elusive_creature_note'] = nil
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = nil
+
+L['grand_hunts_label'] = nil
+L['longhunter_suffix'] = nil
+L['the_best_at_what_i_do_suffix'] = nil
+
+L['options_icons_grand_hunts'] = nil
+L['options_icons_grand_hunts_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -204,6 +215,10 @@ L['gethdazr_note'] = nil
 L['tuskarr_chest'] = nil
 L['options_icons_tuskarr_chest'] = nil
 L['options_icons_tuskarr_chest_desc'] = nil -- '顯示 {object:巨牙海民釣具箱} 可能的位置'
+
+L['community_feast_label'] = nil
+L['options_icons_community_feast'] = nil
+L['options_icons_community_feast_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -508,3 +523,7 @@ L['loyal_magmammoth_taming_note'] = '當你騎著 {npc:198150} 時使用 {item:2
 L['djaradin_cache'] = '加拉登貯物所'
 L['options_icons_djaradin_cache'] = '加拉登貯物所'
 L['options_icons_djaradin_cache_desc'] = '顯示 {object:加拉登貯物所} 可能的位置'
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil

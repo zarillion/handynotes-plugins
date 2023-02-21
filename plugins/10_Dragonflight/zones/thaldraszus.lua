@@ -16,8 +16,10 @@ local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
+local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
+local GrandHunt = ns.node.GrandHunt
 local LegendaryCharacter = ns.node.LegendaryCharacter
 local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
@@ -1437,6 +1439,44 @@ function Mythressa.getters:note()
 end
 
 val.nodes[38113773] = Mythressa()
+
+-------------------------------------------------------------------------------
+------------------------------ ELUSIVE CREATURES ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[56007100] = ElusiveCreature({
+    label = '{npc:195518}',
+    rewards = {
+        Item({item = 193224}), -- Lustrous Scaled Hide
+        Item({item = 193215}), -- Adamant Scales
+        Item({item = 193255}) -- Pristine Vorquin Horn
+    }
+}) -- Elusive Cliffdweller Vorquin
+
+map.nodes[48005100] = ElusiveCreature({
+    label = '{npc:195472}',
+    rewards = {
+        Item({item = 193218}), -- Dense Hide
+        Item({item = 193211}), -- Resilient Leather
+        Item({item = 193254}) -- Rockfang Leather
+    }
+}) -- Elusive Ferocious Titanfang
+
+-------------------------------------------------------------------------------
+--------------------------------- GRAND HUNTS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[34576668] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7097,
+    criteria = 55686
+}) -- Southern Thaldraszus Hunt
+
+map.nodes[50594665] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7099,
+    criteria = 55687
+}) -- Northern Thaldraszus Hunt
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

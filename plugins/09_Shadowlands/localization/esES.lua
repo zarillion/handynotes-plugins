@@ -610,7 +610,7 @@ L['spectral_feed_note'] = [[
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L['return_to_the_maw'] = 'Regreso a Las Fauces'
+L['return_to_the_maw'] = 'Regreso a {location:Las Fauces}'
 L['maw_intro_note'] = 'Comienza la cadena de misiones introductoria de {npc:162804} para desbloquear los raros y los eventos en {location:Las Fauces}.'
 
 L['apholeias_note'] = 'Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:331783} para hacer aparecer a {npc:170301}.'
@@ -716,7 +716,7 @@ L['nexus_npc_willbreaker'] = 'En la esquina, detrás del {npc:168233}'
 -- Locations given relative to the main path/road nearby
 L['nexus_road_below'] = 'En el suelo, debajo del camino principal'
 L['nexus_road_cave'] = 'En una cueva pequeña, debajo del camino'
-L['nexus_road_mawrats'] = 'En un pack de ratas de las Fauces a un lado del camino'
+L['nexus_road_mawrats'] = 'En un pack de {npc:165342} a un lado del camino'
 L['nexus_road_next'] = 'Junto al camino principal'
 L['nexus_room_ramparts'] = 'En una habitación pequeña debajo de las murallas'
 -- Random locations described as best as possible
@@ -757,7 +757,7 @@ L['options_icons_helgarde_cache_desc'] = 'Muestra dónde están los {object:Alij
 
 L['mawsworn_cache_ramparts_note'] = 'Este alijo está sobre las murallas. Usa los puntos de agarre o un {npc:177093} para llegar a ellos.'
 L['mawsworn_cache_tower_note'] = 'Este alijo está sobre una torre y requiere un {npc:177093} para llegar. Usa la habilidad {spell:349853} para saltar arriba.'
-L['mawsworn_cache_quest_note'] = 'The {item:186573} will only drop after you have completed the {quest:63545} quest!'
+L['mawsworn_cache_quest_note'] = 'El {item:186573} sólo caerá después de haber completado la misión {quest:63545}'
 
 L['nilg_silver_ring_note'] = 'Recoge 4 {item:186727} en {location:Desmotaeron} para abrir el {object:Cofre Sellado de Dominación}.'
 L['nilg_silver_ring_note1'] = 'Mata a {npc:177444} y abre la {item:186970}.'
