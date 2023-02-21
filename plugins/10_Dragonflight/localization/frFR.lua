@@ -121,16 +121,16 @@ L['elemental_storm_mythressa_note_end'] = 'Vous avez actuellement %s {currency:2
 L['options_icons_elemental_storm'] = '{spell:392768}'
 L['options_icons_elemental_storm_desc'] = 'Afficher les récompenses pour les {spell:392768}.'
 
+L['elusive_creature_note'] = 'Le {object:Niveau de Maîtrise 40/40} en {object:Fabrication d’appâts} vous permet de créer des {item:193906} qui peuvent être utilisés pour invoquer et dépecer chaque créature une fois par jour.'
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = 'Afficher les emplacements des créatures insaisissables invoquées grâce aux {item:193906}.'
+
 L['grand_hunts_label'] = 'Grande Chasse'
 L['longhunter_suffix'] = 'étapes de chasse terminées'
 L['the_best_at_what_i_do_suffix'] = 'boss tués'
 
 L['options_icons_grand_hunts'] = 'Grandes Chasses'
 L['options_icons_grand_hunts_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Grandes Chasses}.'
-
-L['elusive_creature_note'] = 'Le {object:Niveau de Maîtrise 40/40} en {object:Fabrication d’appâts} vous permet de créer des {item:193906} qui peuvent être utilisés pour invoquer et dépecer chaque créature une fois par jour.'
-L['options_icons_elusive_creature'] = '{item:193906}'
-L['options_icons_elusive_creature_desc'] = 'Afficher les emplacements des créatures insaisissables invoquées grâce aux {item:193906}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------

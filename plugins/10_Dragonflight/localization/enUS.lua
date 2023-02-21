@@ -120,16 +120,16 @@ L['elemental_storm_mythressa_note_end'] = 'You currently have %s {currency:2118}
 L['options_icons_elemental_storm'] = '{spell:392768}'
 L['options_icons_elemental_storm_desc'] = 'Display rewards for {spell:392768}.'
 
+L['elusive_creature_note'] = '{object:Mastery Rank 40/40} in {object:Bait Crafter} enables you to create {item:193906} which can be used to summon and skin each creature once a day.'
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = 'Display locations for elusive creatures summoned with {item:193906}.'
+
 L['grand_hunts_label'] = 'Grand Hunts'
 L['longhunter_suffix'] = 'bosses killed'
 L['the_best_at_what_i_do_suffix'] = 'hunt steps completed'
 
 L['options_icons_grand_hunts'] = 'Grand Hunts'
 L['options_icons_grand_hunts_desc'] = 'Display locations and rewards for {object:Grand Hunts}.'
-
-L['elusive_creature_note'] = '{object:Mastery Rank 40/40} in {object:Bait Crafter} enables you to create {item:193906} which can be used to summon and skin each creature once a day.'
-L['options_icons_elusive_creature'] = '{item:193906}'
-L['options_icons_elusive_creature_desc'] = 'Display locations for elusive creatures summoned with {item:193906}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
