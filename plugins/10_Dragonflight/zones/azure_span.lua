@@ -307,6 +307,9 @@ map.nodes[16213364] = RareElite({
         Transmog({item = 200432, slot = L['cloth']}), -- Rotguard Cowl
         Transmog({item = 200127, slot = L['1h_sword']}), -- Gold-Alloy Blade
         Toy({item = 200178}), -- Infected Ichor
+        Recipe({item = 194298, id = 376566, profession = 197}), -- Pattern: Forlorn Funeral Pall - 0.07%
+        Recipe({item = 194312, id = 375171, profession = 165}), -- Pattern: Gnoll Tent - 0.06%
+        Recipe({item = 198907, id = 383571, profession = 773}), -- Technique: Illusion Parchment: Chilling Wind - 0.01%
         DC.CliffsideWylderdrake.BlackHair, DC.HighlandDrake.SpikedClubTail,
         DC.CliffsideWylderdrake.Ears, DC.CliffsideWylderdrake.DualHornedChin
     }
@@ -431,6 +434,8 @@ map.nodes[10863229] = RareElite({
         Achievement({id = 16678, criteria = 56125}), -- Adventurer of The Azure Span
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
+        Recipe({item = 194298, id = 376566, profession = 197}), -- Pattern: Forlorn Funeral Pall - 0.04%
+        Recipe({item = 194312, id = 375171, profession = 165}), -- Pattern: Gnoll Tent - 0.04%
         DC.HighlandDrake.SpikedClubTail, DC.CliffsideWylderdrake.Ears
     }
 }) -- Snarglebone
@@ -520,6 +525,7 @@ map.nodes[23503317] = Rare({
         Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
+        Recipe({item = 198876, id = 383545, profession = 171}), -- Technique: Weathered Explorer's Stave - 0.01%
         DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek
     }
 }) -- Cascade
@@ -531,6 +537,7 @@ map.nodes[38155901] = Rare({
     rewards = {
         Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
         Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
+        Recipe({item = 191578, id = 370707, profession = 773}), -- Recipe: Transmute: Awakened Fire - 0.3%
         DC.HighlandDrake.StripedPattern, DC.WindborneVelocidrake.SpikedBack
     },
     pois = {POI({38625988})}
@@ -544,6 +551,7 @@ map.nodes[70143327] = Rare({
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
+        Recipe({item = 191578, id = 370707, profession = 773}), -- Recipe: Transmute: Awakened Fire - 0.19%
         DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.ImpalerHorns
     }
 }) -- Summoned Destroyer
@@ -566,6 +574,7 @@ map.nodes[36723247] = Rare({
     rewards = {
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
+        Recipe({item = 194312, id = 375171, profession = 165}), -- Pattern: Gnoll Tent - 0.02%
         DC.HighlandDrake.SpikedClubTail, DC.CliffsideWylderdrake.Ears,
         Item({item = 198048}) -- Titan Training Matrix I
     }
@@ -626,6 +635,7 @@ map.nodes[57916842] = Rare({
         Transmog({item = 200313, slot = L['cloak']}), -- Earthen Protoscale Drape
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Transmog({item = 203358, slot = L['leather']}), -- Graniteclaw's Vest
+        Recipe({item = 191580, id = 370710, profession = 773}), -- Recipe: Transmute: Awakened Earth - 0.3%
         DC.CliffsideWylderdrake.ManedNeck, DC.WindborneVelocidrake.ClusterHorns,
         DC.WindborneVelocidrake.ClubTail
     }

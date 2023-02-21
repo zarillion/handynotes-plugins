@@ -83,6 +83,7 @@ map.nodes[49866673] = Rare({
         Achievement({id = 16677, criteria = 56077}),
         Transmog({item = 200308, slot = L['bow']}), -- Rellen's Legacy
         Transmog({item = 200441, slot = L['leather']}), -- Jhakan's Horned Cowl
+        Recipe({item = 194267, id = 376537, profession = 197}) -- Pattern: Shimmering Embroidery Thread - 0.03%
         DC.RenewedProtoDrake.GrayHair, DC.CliffsideWylderdrake.ManedTail
     }
 }) -- Eaglemaster Niraak
@@ -524,6 +525,7 @@ map.nodes[59926696] = Rare({
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Transmog({item = 200439, slot = L['offhand']}), -- Earthpact Scepter
         Toy({item = 200198}), -- Primalist Prison
+        Recipe({item = 198876, id = 383545, profession = 773}), -- Technique: Weathered Explorer's Stave - 0.01%
         DC.RenewedProtoDrake.PurpleHair, DC.WindborneVelocidrake.SweptHorns,
         DC.RenewedProtoDrake.HeavyHorns, DC.WindborneVelocidrake.ClusterHorns
     }
@@ -542,6 +544,7 @@ map.nodes[26366533] = Rare({
         Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Recipe({item = 198904, id = 383585, profession = 773}) -- Technique: Windborne Velocidrake: Windswept Pattern - 0.03%
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     }
@@ -562,6 +565,7 @@ map.nodes[44894924] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
+        Recipe({item = 198876, id = 383545, profession = 773}), -- Technique: Weathered Explorer's Stave - 0.02%
         DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     }
 }) -- Skaara
@@ -599,6 +603,7 @@ map.nodes[22956670] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
+        Recipe({item = 198876, id = 383545, profession = 773}), -- Technique: Weathered Explorer's Stave - 0.03%
         DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     }
 }) -- Territorial Coastling
@@ -614,6 +619,7 @@ map.nodes[26073412] = Rare({
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Transmog({item = 200439, slot = L['offhand']}), -- Earthpact Scepter
         Toy({item = 200198}), -- Primalist Prison
+        Recipe({item = 198904, id = 383585, profession = 773}) -- Technique: Windborne Velocidrake: Windswept Pattern - 0.02%
         DC.WindborneVelocidrake.SweptHorns, DC.RenewedProtoDrake.PurpleHair,
         DC.RenewedProtoDrake.HeavyHorns, DC.WindborneVelocidrake.ClusterHorns
     },
