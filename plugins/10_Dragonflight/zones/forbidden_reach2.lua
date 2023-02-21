@@ -479,6 +479,7 @@ map.nodes[50733679] = ForbiddenHoard({
     }
 })
 map.nodes[53157801] = ForbiddenHoard()
+map.nodes[54843439] = ForbiddenHoard()
 map.nodes[56765534] = ForbiddenHoard()
 map.nodes[58006276] = ForbiddenHoard()
 map.nodes[62584946] = ForbiddenHoard()
@@ -586,6 +587,13 @@ map.nodes[18371315] = PetBattle({
         Achievement({id = 17541, criteria = 58572}) -- Global Swarming
     }
 }) -- Vortex
+
+map.nodes[67251238] = PetBattle({
+    id = 200770,
+    rewards ={
+        Achievement({id = 17541, criteria = 58573}) -- Global Swarming
+    }
+}) -- Temblor
 
 map.nodes[89366022] = PetBattle({
     id = 200772,
