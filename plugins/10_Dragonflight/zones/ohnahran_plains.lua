@@ -838,7 +838,7 @@ local ClanChest = Class('ClanChest', ns.node.Node, {
 })
 
 map.nodes[25013785] = ClanChest()
-map.nodes[25303740] = ClanChest()
+map.nodes[25323730] = ClanChest()
 map.nodes[31307060] = ClanChest()
 map.nodes[32206810] = ClanChest()
 map.nodes[32403900] = ClanChest()
