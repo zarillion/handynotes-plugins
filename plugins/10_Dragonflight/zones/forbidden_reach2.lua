@@ -37,7 +37,7 @@ local froststoneVault = Map({id = 2154, settings = false}) -- Froststone Vault
 local dragonskullIsland = Map({id = 2150, settings = false}) -- Dragonskull Island
 
 -------------------------------------------------------------------------------
------------------------------- HELPER FUNCTIONS ------------------------------- -- DISABLE BEFORE RELEASE
+------------------------------ HELPER FUNCTIONS -------------------------------
 -------------------------------------------------------------------------------
 
 -- Get Vignette information from mouseover
@@ -144,7 +144,7 @@ supportCreche.nodes[35254374] = Duzalgor() -- Duzalgor (The Support Creche)
 
 map.nodes[43736121] = Rare({
     id = 200681,
-    quest = nil, -------------------------------------------------------------- TODO: Missing questID
+    quest = nil,
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58463}), -- Champion of the Forbidden Reach
@@ -590,7 +590,7 @@ map.nodes[18371315] = PetBattle({
 
 map.nodes[67251238] = PetBattle({
     id = 200770,
-    rewards ={
+    rewards = {
         Achievement({id = 17541, criteria = 58573}) -- Global Swarming
     }
 }) -- Temblor
@@ -681,7 +681,6 @@ end
 -- map.nodes[] = ArtisanCurio({
 --     label = nil,
 --     icon = 650638,
---     -- icon = 4620669, -- Alchemy
 --     requires = ns.requirement.Item(203407), -- Neutralizing Agent
 --     skillID = 171 -- Alchemy
 --     recipeID = 203420 -- Recipe: Neutralizing Agent
@@ -690,7 +689,6 @@ end
 map.nodes[67237599] = ArtisanCurio({
     label = L['farescale_shrine_label'],
     icon = 2735993,
-    -- icon = 4620670, -- Blacksmithing
     requires = ns.requirement.Item(203408), -- Ceremonial Trident
     skillID = 164, -- Blacksmithing
     recipeID = 203421 -- Plans: Ceremonial Trident
@@ -699,7 +697,6 @@ map.nodes[67237599] = ArtisanCurio({
 map.nodes[55695154] = ArtisanCurio({
     label = L['spiceless_stew_label'],
     icon = 133210,
-    -- icon = 4620671, -- Cooking
     requires = ns.requirement.Item(203409), -- Sparkling Spice Pouch
     skillID = 185, -- Cooking
     recipeID = 203422 -- Recipe: Sparkling Spice Pouch
@@ -708,7 +705,6 @@ map.nodes[55695154] = ArtisanCurio({
 map.nodes[55633610] = ArtisanCurio({
     label = L['book_of_arcane_entities_label'],
     icon = 1033184,
-    -- icon = 4620672, -- Enchanting
     requires = ns.requirement.Item(203410), -- Glowing Crystal Bookmark
     skillID = 333, -- Enchanting
     recipeID = 203423, -- Formula: Glowing Crystal Bookmark
@@ -720,7 +716,6 @@ map.nodes[55633610] = ArtisanCurio({
 -- map.nodes[] = ArtisanCurio({
 --     label = nil,
 --     icon = 2902385,
---     -- icon = 4620673, -- Engineering
 --     requires = ns.requirement.Item(203411), -- Gnomish Voicebox
 --     skillID = 202, -- Engineering
 --     recipeID = 203424 -- Schematic: Gnomish Voicebox
@@ -729,7 +724,6 @@ map.nodes[55633610] = ArtisanCurio({
 map.nodes[61256442] = ArtisanCurio({
     label = L['spellsworn_ward_label'],
     icon = 4638727,
-    -- icon = 4620676. -- Inscription
     requires = ns.requirement.Item(203412), -- Dispelling Rune
     skillID = 773, -- Inscription
     recipeID = 203425 -- Technique: Dispellng Rune
@@ -738,7 +732,6 @@ map.nodes[61256442] = ArtisanCurio({
 map.nodes[28905707] = ArtisanCurio({
     label = L['resonating_crystal_label'],
     icon = 2264901,
-    -- icon = 4620677, -- Jewelcrafting
     requires = ns.requirement.Item(203413), -- Tuning Fork
     skillID = 755, -- Jewelcrafting
     recipeID = 203426, -- Design: Tuning Fork
@@ -751,7 +744,6 @@ map.nodes[28905707] = ArtisanCurio({
 -- map.nodes[] = ArtisanCurio({
 --     label = nil,
 --     icon = 4635266,
---     -- icon = 4620678, -- Leatherworking
 --     requires = ns.requirement.Item(203414), -- Reinforced Leather Patch
 --     skillID = 165, -- Leatherworking
 --     recipeID = 203427, -- Reinforced Leather Patch
@@ -760,12 +752,10 @@ map.nodes[28905707] = ArtisanCurio({
 dragonskullIsland.nodes[56947247] = ArtisanCurio({
     label = L['rumbling_draconium_label'],
     icon = 134463,
-    -- icon = 4620679, -- Mining
     parent = map.id,
     prenote = L['in_cave'],
     requires = ns.requirement.Item(203418), -- Quaking Stone
     skillID = 186, -- Mining
-    -- recipeID = nil, -- UNKNOWN
     pois = {
         POI({74533560, 76633764}) -- Entrances
     }
@@ -774,7 +764,6 @@ dragonskullIsland.nodes[56947247] = ArtisanCurio({
 map.nodes[57634843] = ArtisanCurio({
     label = L['tuskarr_kite_post_label'],
     icon = 318523,
-    -- icon = 4620681, -- Tailoring
     requires = ns.requirement.Item(203415), -- Morqut Kite
     skillID = 197, -- Tailoring
     recipeID = 203428 -- Pattern: Morqut Kite
@@ -920,6 +909,7 @@ local FROSTSTONE_VAULT_PRIMAL_STORM_REWARDS = {
             }
         }), -- Under the Weather
         Item({item = 199691, quest = 70723}), -- Primal Earth Core
+        Item({item = 199750, quest = 70754}), -- Primal Fire Core
         Item({item = 199748, quest = 70752}) -- Primal Water Core
     },
     ['earth'] = {
@@ -981,41 +971,6 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         end
     end
 end)
-
--------------------------------------------------------------------------------
--------------------------------- SCROLL HUNTER --------------------------------
--------------------------------------------------------------------------------
-
--- L['scroll_hunter_suffix'] = 'Treasures found'
--- L['options_icons_scroll_hunter'] = '{achievement:17532}'
--- L['options_icons_scroll_hunter_desc'] = 'Display sealed scroll locations for {achievement:17532}.'
-
--- ns.groups.SCROLL_HUNTER = Group('scroll_hunter', 4549192, {
---     defaults = ns.GROUP_HIDDEN,
---     type = ns.group_types.ACHIEVEMENT,
---     achievement = 17532
--- })
-
--- local SealedScroll = Class('SealedScroll', Collectible, {
---     -- id = 202667, -- Sealed Artifact Scroll
---     -- id = 202668, -- Sealed Spirit Scroll
---     -- id = 202669, -- Sealed Fish Scroll
---     -- id = 202670, -- Sealed Knowledge Scroll
---     -- id = 203464, -- Sealed Spellsworn Scroll
---     icon = 4549192,
---     rewards = {
---         Achievement({
---             id = 17532,
---             criteria = {
---                 id = 1,
---                 qty = true,
---                 suffix = L['scroll_hunter_suffix']
---             }
---         }) -- Scroll Hunter
---     }
--- }) -- Sealed Scroll
-
--- map.nodes[] = SealedScroll()
 
 -------------------------------------------------------------------------------
 --------------------------- LIBRARIAN OF THE REACH ----------------------------
@@ -1133,6 +1088,8 @@ map.nodes[55393586] = ScalecommanderItem({
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
+-------------------------------- AWAKENED SOIL --------------------------------
+
 -- TODO: Not sure what the following nodes are for yet. But they look
 -- interesting so I saved them just in case!
 
@@ -1144,6 +1101,8 @@ local AwakenedSoil = Class('AwakenedSoil', Node, {
 
 map.nodes[35354003] = AwakenedSoil()
 map.nodes[56435911] = AwakenedSoil()
+
+----------------------------------- EDICTS ------------------------------------
 
 -- TODO: I've ran into several different Edicts while exploring. No quest flips
 -- and nothing in the Achievement frame about them. Might be quest related?
@@ -1158,8 +1117,6 @@ map.nodes[55616889] = Node({
         POI({58666933}) -- Entrance
     }
 }) -- Edict: The Adamant Vigil
-
-------------------------------- THE WAR CRECHE --------------------------------
 
 warCreche.nodes[32346769] = Node({
     label = 'Edict: Dark Talons', -- TODO: Non-localized name for now
@@ -1191,18 +1148,20 @@ warCreche.nodes[31118323] = Node({
     }
 }) -- Edict: Obsidian Warders
 
+----------------------------- SPELLSWORN GATEWAYS -----------------------------
+
 warCreche.nodes[46984738] = Node({
     label = L['spellsworn_gateway'],
     icon = 'portal_pp',
     fgroup = 'spellsworn_gateway',
     pois = {Path({46984738, 49915424})}
-})
+}) -- Spellsworn Gateway
 
 warCreche.nodes[49915424] = Node({
     label = L['spellsworn_gateway'],
     icon = 'portal_pp',
     fgroup = 'spellsworn_gateway'
-})
+}) -- Spellsworn Gateway
 
 --------------------------------- ZSKERA VAULT --------------------------------
 
@@ -1219,8 +1178,8 @@ map.nodes[29185303] = Collectible({
         Pet({item = 193851, id = 3332}), -- Patos
         Pet({item = 193908, id = 3338}), -- Kobaldt
         Pet({item = 204079, id = 3476}), -- Gilded Mechafrog
-        Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
-        Spacer(), Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
+        Spacer(), Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
+        Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
         Toy({item = 204262}) -- Holoviewer: The timeless One
     }
 }) -- Zskera Vault
