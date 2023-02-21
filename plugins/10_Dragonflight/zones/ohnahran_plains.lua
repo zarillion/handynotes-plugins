@@ -546,7 +546,7 @@ map.nodes[26366533] = Rare({
         Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
-        Recipe({item = 198904, id = 383585, profession = 773}) -- Technique: Windborne Velocidrake: Windswept Pattern - 0.03%
+        Recipe({item = 198904, id = 383585, profession = 773}), -- Technique: Windborne Velocidrake: Windswept Pattern - 0.03%
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     }
@@ -621,7 +621,7 @@ map.nodes[26073412] = Rare({
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Transmog({item = 200439, slot = L['offhand']}), -- Earthpact Scepter
         Toy({item = 200198}), -- Primalist Prison
-        Recipe({item = 198904, id = 383585, profession = 773}) -- Technique: Windborne Velocidrake: Windswept Pattern - 0.02%
+        Recipe({item = 198904, id = 383585, profession = 773}), -- Technique: Windborne Velocidrake: Windswept Pattern - 0.02%
         DC.WindborneVelocidrake.SweptHorns, DC.RenewedProtoDrake.PurpleHair,
         DC.RenewedProtoDrake.HeavyHorns, DC.WindborneVelocidrake.ClusterHorns
     },
@@ -1991,7 +1991,7 @@ map.nodes[41606220] = Collectible({
     icon = 4659336,
     note = L['elder_yusa_note'],
     rewards = {
-        ns.reward.Recipe({id = 381413, profession = 185}) -- Yusa's Hearty Stew
+        Recipe({id = 381413, profession = 185}) -- Yusa's Hearty Stew
     }
 }) -- Elder Yusa
 
