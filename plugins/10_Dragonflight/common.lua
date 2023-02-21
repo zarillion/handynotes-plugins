@@ -64,7 +64,7 @@ ns.groups.ELUSIVE_CREATURE = ns.Group('elusive_creature', 644271, {
         if not ns.PlayerHasProfession(393) then return false end
         return ns.Group.IsEnabled(self)
     end
-}
+})
 
 ns.groups.GRAND_HUNTS = Group('grand_hunts', 237377, {
     defaults = ns.GROUP_HIDDEN,
