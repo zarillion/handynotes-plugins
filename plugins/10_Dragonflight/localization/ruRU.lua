@@ -121,6 +121,13 @@ L['elemental_storm_mythressa_note_end'] = 'В настоящее время у �
 L['options_icons_elemental_storm'] = 'Буря Стихий'
 L['options_icons_elemental_storm_desc'] = 'Показать награды за Бури Стихий.'
 
+L['grand_hunts_label'] = nil
+L['longhunter_suffix'] = nil
+L['the_best_at_what_i_do_suffix'] = nil
+
+L['options_icons_grand_hunts'] = nil
+L['options_icons_grand_hunts_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -207,6 +214,10 @@ L['gethdazr_note'] = [[
 L['tuskarr_chest'] = 'Клыкаррский сундук'
 L['options_icons_tuskarr_chest'] = 'Клыкаррский сундук'
 L['options_icons_tuskarr_chest_desc'] = 'Показать возможные места {object:Клыкаррских сундуков}.'
+
+L['community_feast_label'] = nil
+L['options_icons_community_feast'] = nil
+L['options_icons_community_feast_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -510,3 +521,7 @@ L['loyal_magmammoth_taming_note'] = 'Используйте {item:201837} сид
 L['djaradin_cache'] = 'Тайник джарадинов'
 L['options_icons_djaradin_cache'] = 'Тайник джарадинов'
 L['options_icons_djaradin_cache_desc'] = 'Показать возможные места {object:Тайников джарадинов}.'
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil

@@ -118,8 +118,15 @@ L['empowered_mobs_killed_suffix'] = 'Enemigo potenciado matado'
 L['elemental_storm_mythressa_note_start'] = 'Entrega {currency:2118} a cambio de equipo, mascotas, y una montura.'
 L['elemental_storm_mythressa_note_end'] = 'Actualmente tienes %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = 'Tormentas Elementales'
-L['options_icons_elemental_storm_desc'] = 'Muestra las recompensas para las Tormentas Elementales.'
+L['options_icons_elemental_storm'] = '{spell:392768}'
+L['options_icons_elemental_storm_desc'] = 'Muestra las recompensas para las {spell:392768}.'
+
+L['grand_hunts_label'] = 'Grandes Cacerías'
+L['longhunter_suffix'] = 'bosses matados'
+L['the_best_at_what_i_do_suffix'] = 'pasos de la cacería completados'
+
+L['options_icons_grand_hunts'] = 'Grandes Cacerías'
+L['options_icons_grand_hunts_desc'] = 'Muestra las cacerías y las recompensas del {object:Botín de la Gran cacería}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -213,6 +220,10 @@ Se puede hacer en solitario pero se recomiendan 2-3 jugadores.
 L['tuskarr_chest'] = 'Cofre Colmillarr'
 L['options_icons_tuskarr_chest'] = 'Cofre Colmillarr'
 L['options_icons_tuskarr_chest_desc'] = 'Muestra dónde pueden haber {object:Cofres colmillarr}.'
+
+L['community_feast_label'] = '{spell:388961}'
+L['options_icons_community_feast'] = '{spell:388961}'
+L['options_icons_community_feast_desc'] = 'Muestra los festines y recompensas para los {spell:388961}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -517,3 +528,7 @@ L['loyal_magmammoth_taming_note'] = 'Usa el {item:201837} mientras montas a un {
 L['djaradin_cache'] = 'Alijo Djaradin'
 L['options_icons_djaradin_cache'] = 'Alijo Djaradin'
 L['options_icons_djaradin_cache_desc'] = 'Muestra dónde pueden haber {object:Alijos Djaradin}.'
+
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = 'Muestra los asedios y las recompensas del {spell:388945}.'

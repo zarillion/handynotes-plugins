@@ -487,7 +487,6 @@ L['weighted_artifact'] = 'Coge el {object:Jarrón Extrañamente Pesado} y vuelve
 L['colored_potion'] = 'Poción Coloreada'
 L['colored_potion_note'] = [[
 La poción junto al cuerpo de %s siempre indica el color de la poción de efectos negativos de la visión en curso.
-
 El color de la poción de +100 de cordura se puede saber por el color de esta poción (|cFFFF0000bad|r => |cFF00FF00good|r):
 
 Negro => Verde
@@ -495,6 +494,7 @@ Azul => Violeta
 Verde => Rojo
 Violeta => Negro
 Rojo => Azul
+
 ]]
 
 L['bear_spirit_note'] = 'Mata el {npc:160404} y todas las oleadas de enemigos para conseguir un buff de 10% de celeridad.'

@@ -117,8 +117,15 @@ L['empowered_mobs_killed_suffix'] = 'Empowered mobs killed'
 L['elemental_storm_mythressa_note_start'] = 'Exchange for {currency:2118} for gear, pets, and a mount.'
 L['elemental_storm_mythressa_note_end'] = 'You currently have %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = 'Elemental Storms'
-L['options_icons_elemental_storm_desc'] = 'Display rewards for Elemental Storms.'
+L['options_icons_elemental_storm'] = '{spell:392768}'
+L['options_icons_elemental_storm_desc'] = 'Display rewards for {spell:392768}.'
+
+L['grand_hunts_label'] = 'Grand Hunts'
+L['longhunter_suffix'] = 'bosses killed'
+L['the_best_at_what_i_do_suffix'] = 'hunt steps completed'
+
+L['options_icons_grand_hunts'] = 'Grand Hunts'
+L['options_icons_grand_hunts_desc'] = 'Display locations and rewards for {object:Grand Hunts}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -212,6 +219,10 @@ This can be done solo but 2-3 players are recommended.
 L['tuskarr_chest'] = 'Tuskarr Chest'
 L['options_icons_tuskarr_chest'] = 'Tuskarr Chests'
 L['options_icons_tuskarr_chest_desc'] = 'Display possible locations of {object:Tuskarr Chest}.'
+
+L['community_feast_label'] = '{spell:388961}'
+L['options_icons_community_feast'] = '{spell:388961}'
+L['options_icons_community_feast_desc'] = 'Display locations and rewards for the {spell:388961}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -516,3 +527,7 @@ L['loyal_magmammoth_taming_note'] = 'Use the {item:201837} while riding a {npc:1
 L['djaradin_cache'] = 'Djaradin Cache'
 L['options_icons_djaradin_cache'] = 'Djaradin Cache'
 L['options_icons_djaradin_cache_desc'] = 'Display possible locations of {object:Djaradin Cache}.'
+
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = 'Display locations and rewards for the {spell:388945}.'
