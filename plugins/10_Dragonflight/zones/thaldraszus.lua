@@ -94,7 +94,6 @@ map.nodes[59847057] = ns.node.Rare14h({ -- required 67030
     id = 193220,
     quest = 73987,
     rotationID = 25,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16679, criteria = 56149}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -151,7 +150,6 @@ map.nodes[47675115] = ns.node.Rare14h({ -- required 67030
     id = 193234,
     quest = 73990,
     rotationID = 6,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16446, criteria = 55398, note = L['pretty_neat_note']}),
         Achievement({id = 16679, criteria = 56147}),
@@ -227,7 +225,6 @@ map.nodes[52895903] = ns.node.Rare14h({
     id = 193246,
     quest = 74013,
     rotationID = 12,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16679, criteria = 56141}),
         Transmog({item = 200257, slot = L['2h_mace']}), -- Decay Infused Branch
@@ -261,7 +258,6 @@ map.nodes[57218420] = ns.node.Rare14h({ -- reqired 67030 review
     id = 193210,
     quest = 74021,
     rotationID = 0,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16679, criteria = 56142}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
@@ -316,7 +312,6 @@ map.nodes[40087014] = ns.node.Rare14h({ -- reqiured 67030
     id = 193240,
     quest = 74024,
     rotationID = 4,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16679, criteria = 56148}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -337,7 +332,6 @@ map.nodes[50005180] = ns.node.Rare14h({ -- reqiured 67030 review
     id = 193666,
     quest = 74025,
     rotationID = 10,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16679, criteria = 56151}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -356,7 +350,7 @@ map.nodes[37607780] = ns.node.Rare14h({ -- reqiured 67030
     id = 193176,
     quest = 74029,
     rotationID = 18,
-    -- note = L['spawns_periodically'] .. '\n\n' .. L['in_cave'],
+    cave = true,
     rewards = {
         Achievement({id = 16679, criteria = 56150}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
@@ -375,7 +369,6 @@ map.nodes[47207895] = ns.node.Rare14h({ -- review -- reqiured 67030
     id = 193258,
     quest = 74035,
     rotationID = 21,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16679, criteria = 56144}),
         Transmog({item = 200139, slot = L['bow']}) -- Tempest Arc
@@ -429,7 +422,7 @@ map.nodes[35027001] = ns.node.Rare14h({ -- reqiured 67030 review
     id = 193146,
     quest = 74036,
     rotationID = 15,
-    -- note = L['spawns_periodically'] .. '\n\n' .. L['in_small_cave'],
+    cave = true,
     rewards = {
         Achievement({id = 16679, criteria = 56146}),
         Transmog({item = 200291, slot = L['leather']}), -- Waterlogged Racing Grips

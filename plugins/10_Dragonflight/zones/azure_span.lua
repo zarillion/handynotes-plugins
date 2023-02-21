@@ -124,7 +124,6 @@ map.nodes[14053096] = ns.node.Brackenhide({
     quest = 73985,
     fgroup = 'brackenhide',
     rotationID = 2,
-    -- note = L['brackenhide_rare_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56126}), -- Adventurer of The Azure Span
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -246,7 +245,6 @@ map.nodes[14083747] = ns.node.Brackenhide({
     quest = 73996,
     fgroup = 'brackenhide',
     rotationID = 3,
-    -- note = L['brackenhide_rare_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56127}), -- Adventurer of The Azure Span
         Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
@@ -260,7 +258,6 @@ map.nodes[32682911] = ns.node.RareElite14h(
         id = 193251,
         quest = 74001,
         rotationID = 2,
-        -- note = L['spawns_periodically'],
         rewards = {
             Achievement({id = 16678, criteria = 56111}), -- Adventurer of The Azure Span
             Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -279,7 +276,6 @@ map.nodes[19234362] = ns.node.Rare14h({ -- required 67030
     id = 193269,
     quest = 74002,
     rotationID = 23,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16678, criteria = 56112}), -- Adventurer of The Azure Span
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -299,7 +295,6 @@ map.nodes[16213364] = ns.node.Brackenhide({
     quest = 74004,
     fgroup = 'brackenhide',
     rotationID = 0,
-    -- note = L['brackenhide_rare_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56128}), -- Adventurer of The Azure Span
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
@@ -409,7 +404,6 @@ map.nodes[26494939] = ns.node.Rare14h({ -- review -- required 67030
     id = 193149,
     quest = 74030,
     rotationID = 8,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16678, criteria = 56110}), -- Adventurer of The Azure Span
         Transmog({item = 200203, slot = L['mail']}), -- Repurposed Giant's Thimble
@@ -428,7 +422,6 @@ map.nodes[10863229] = ns.node.Brackenhide({
     quest = 74032,
     fgroup = 'brackenhide',
     rotationID = 1,
-    -- note = L['brackenhide_rare_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56125}), -- Adventurer of The Azure Span
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher

@@ -933,7 +933,9 @@ local Rare14h = Class('Rare14h', Rare, {
 })
 
 function Rare14h.getters:note()
-    return format(L['rare_14h'], date(L['time_format'], nextSpawn(self)))
+    local note = format(L['rare_14h'], date(L['time_format'], nextSpawn(self)))
+    if self.cave then note = note .. '\n\n' .. L['in_cave'] end
+    return note
 end
 
 local RareElite14h = Class('RareElite14h', RareElite, {
@@ -943,7 +945,9 @@ local RareElite14h = Class('RareElite14h', RareElite, {
 })
 
 function RareElite14h.getters:note()
-    return format(L['rare_14h'], date(L['time_format'], nextSpawn(self)))
+    local note = format(L['rare_14h'], date(L['time_format'], nextSpawn(self)))
+    if self.cave then note = note .. '\n\n' .. L['in_cave'] end
+    return note
 end
 
 --------------------------------- BRACKENHIDE ---------------------------------

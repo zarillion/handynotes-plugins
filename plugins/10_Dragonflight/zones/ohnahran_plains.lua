@@ -105,7 +105,6 @@ map.nodes[75184651] = ns.node.Rare14h({ -- reqiured 67030 review
     id = 193170,
     quest = 73994,
     rotationID = 17,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56075}),
         Transmog({item = 200433, slot = L['leather']}), -- Footwraps of Subjugation
@@ -173,7 +172,6 @@ map.nodes[71694585] = ns.node.Rare14h({
     id = 193212,
     quest = 74011,
     rotationID = 27,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56073}),
         Transmog({item = 200197, slot = L['staff']}), -- Armoredon Herding Crook
@@ -193,7 +191,6 @@ map.nodes[63017996] = ns.node.Rare14h({ -- reqiured 67030
     id = 193173,
     quest = 74015,
     rotationID = 9,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56070}),
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
@@ -224,7 +221,6 @@ map.nodes[61212950] = ns.node.Rare14h({ -- reqiured 67030
     id = 193235,
     quest = 74018,
     rotationID = 24,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56074}),
         Transmog({item = 200203, slot = L['mail']}), -- Repurposed Giant's Thimble
@@ -282,7 +278,6 @@ map.nodes[37005380] = ns.node.Rare14h({
     id = 196010,
     quest = 74023,
     rotationID = 14,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56069}),
         Transmog({item = 200165, slot = L['shield']}), -- Aegis of Scales
@@ -297,7 +292,6 @@ map.nodes[43405560] = ns.node.Rare14h({
     id = 193227,
     quest = 74026,
     rotationID = 3,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56071}),
         Transmog({item = 200308, slot = L['bow']}), -- Rellen's Legacy
@@ -388,7 +382,6 @@ map.nodes[53627281] = ns.node.Rare14h({ -- reqiured 67030 review
     id = 193123,
     quest = 74034,
     rotationID = 20,
-    -- note = L['spawns_periodically'],
     rewards = {
         Achievement({id = 16677, criteria = 56072}),
         Transmog({item = 200216, slot = L['cloth']}), -- Water Heating Cord
