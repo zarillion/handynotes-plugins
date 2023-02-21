@@ -237,7 +237,7 @@ L['options_icons_forbidden_hoard'] = nil
 L['options_icons_forbidden_hoard_desc'] = nil
 
 L['small_treasures_label'] = 'Tesoro Pequeño'
-L['small_treasures_note'] = nil
+L['small_treasures_note'] = 'Los tesoros pequeños comparten los puntos de aparición.\n\nCompra un {item:204558} a la {npc:200566} en la {location:Aldea Morqut} para recibir el buff {spell:405637} que te permite ver los tesoros pequeños en el minimapa durante 60 minutos.' -- Revisar que Morqut Village es Aldea Morqut (comprobable buscando Morqut Hearth Totem) y los artículos de item y npc
 L['options_icons_small_treasures'] = 'Tesoros Pequeños'
 L['options_icons_small_treasures_desc'] = 'Muestra dónde pueden haber tesoros pequeños.'
 
