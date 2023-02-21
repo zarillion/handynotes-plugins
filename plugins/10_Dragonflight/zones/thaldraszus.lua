@@ -645,7 +645,7 @@ val.nodes[09535629] = Treasure({
     note = L['tasty_hatchling_treat_note'],
     parent = map.id,
     rewards = {
-        Item({item = 198106}) -- Recipe: Tasty Hatchling's Treat
+        Recipe({item = 198106, id = 381380, profession = 185}) -- Recipe: Tasty Hatchling's Treat
     }
 }) -- Tasty Hatchling's Treat
 
@@ -1479,7 +1479,7 @@ local Rumiastrasza = Class('Rumiastrasza', Collectible, {
     quest = 67071, -- What a Long Sweet Trip It's Been
     parent = map.id,
     rewards = {
-        Item({item = 198132}) -- Recipe: Hoard of Draconic Delicacies
+        Recipe({item = 198132, id = 381420, profession = 185}) -- Recipe: Hoard of Draconic Delicacies
     }
 }) -- Rumiastrasza
 
