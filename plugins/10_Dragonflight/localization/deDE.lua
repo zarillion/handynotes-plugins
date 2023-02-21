@@ -120,12 +120,12 @@ L['elemental_storm_mythressa_note_end'] = 'Zurzeit hast du %s {currency:2118}.'
 L['options_icons_elemental_storm'] = 'Elementarstürme'
 L['options_icons_elemental_storm_desc'] = 'Zeigt die möglichen Positionen der Elementarstürme an.'
 
-L['grand_hunts_label'] = nil
-L['longhunter_suffix'] = nil
-L['the_best_at_what_i_do_suffix'] = nil
+L['grand_hunts_label'] = 'Große Jagden'
+L['longhunter_suffix'] = 'Bosse getötet.'
+L['the_best_at_what_i_do_suffix'] = 'Jagd schritte abgeschlossen'
 
-L['options_icons_grand_hunts'] = nil
-L['options_icons_grand_hunts_desc'] = nil
+L['options_icons_grand_hunts'] = 'Große Jagden'
+L['options_icons_grand_hunts_desc'] = 'Zeigt die Position und Belohnungen der {location:Großen Jagd}'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -520,6 +520,6 @@ L['djaradin_cache'] = 'Depot der Djaradin'
 L['options_icons_djaradin_cache'] = 'Depots der Djaradin'
 L['options_icons_djaradin_cache_desc'] = 'Zeigt die möglichen Positionen für {object:Depot der Djaradin} an.'
 
-L['dragonbane_siege_label'] = nil
-L['options_icons_dragonbane_siege'] = nil
-L['options_icons_dragonbane_siege_desc'] = nil
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = 'Zeigt die Position und Belohnungen der {spell:388945}'
