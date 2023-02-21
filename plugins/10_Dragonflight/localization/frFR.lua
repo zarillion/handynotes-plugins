@@ -118,8 +118,15 @@ L['empowered_mobs_killed_suffix'] = 'Monstres Imprégnés tués'
 L['elemental_storm_mythressa_note_start'] = 'Échangez vos {currency:2118} contre de l\'équipement, des mascottes et une monture.'
 L['elemental_storm_mythressa_note_end'] = 'Vous avez actuellement %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = 'Tempêtes élémentaires'
-L['options_icons_elemental_storm_desc'] = 'Afficher les récompenses pour les Tempêtes élementaires.'
+L['options_icons_elemental_storm'] = '{spell:392768}'
+L['options_icons_elemental_storm_desc'] = 'Afficher les récompenses pour les {spell:392768}.'
+
+L['grand_hunts_label'] = 'Grande Chasse'
+L['longhunter_suffix'] = 'étapes de chasse terminées'
+L['the_best_at_what_i_do_suffix'] = 'boss tués'
+
+L['options_icons_grand_hunts'] = 'Grandes Chasses'
+L['options_icons_grand_hunts_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Grandes Chasses}.'
 
 L['elusive_creature_note'] = 'Le {object:Niveau de Maîtrise 40/40} en {object:Fabrication d’appâts} vous permet de créer des {item:193906} qui peuvent être utilisés pour invoquer et dépecer chaque créature une fois par jour.'
 L['options_icons_elusive_creature'] = '{item:193906}'
@@ -213,6 +220,14 @@ Les PNJ peuvent mourir sans aide, ce qui fera échouer l'événement.
 
 Cela peut être accompli en solo mais 2 ou 3 joueurs sont recommandés.
 ]]
+
+L['tuskarr_chest'] = 'Coffre rohart'
+L['options_icons_tuskarr_chest'] = 'Coffres roharts'
+L['options_icons_tuskarr_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres roharts}.'
+
+L['community_feast_label'] = '{spell:388961}'
+L['options_icons_community_feast'] = '{spell:388961}'
+L['options_icons_community_feast_desc'] = 'Afficher les emplacements et les récompenses pour le {spell:388961}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -318,6 +333,10 @@ L['options_icons_nokhud_do_it_desc'] = 'Afficher des informations utiles pour ob
 L['chest_of_the_flood'] = 'Coffre du déluge'
 
 L['aylaag_camp_note'] = 'Le {faction:Clan des Aylaags} se déplace vers un autre campement tous les 3 jours et 3 heures (75), suivez-les et défendez-les sur leur chemin.'
+
+L['clan_chest'] = 'Coffre clanique'
+L['options_icons_clan_chest'] = 'Coffres claniques'
+L['options_icons_clan_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres claniques}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -513,3 +532,7 @@ L['loyal_magmammoth_taming_note'] = 'Utilisez le {item:201837} tout en chevaucha
 L['djaradin_cache'] = 'Cache djaradine'
 L['options_icons_djaradin_cache'] = 'Cache djaradine'
 L['options_icons_djaradin_cache_desc'] = 'Afficher les emplacements possibles des {object:Caches djaradines}.'
+
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = 'Affichez les emplacements et les récompenses pour le {spell:388945}.'

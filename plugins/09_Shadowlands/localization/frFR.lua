@@ -49,7 +49,7 @@ Il apparaîtra toujours au nord de {location:Tirna Vaal}, fixez votre {item:6948
 L['rootwrithe_note'] = 'Tapez sur les {npc:167928} jusqu\'à ce que le rare apparaisse.'
 L['rotbriar_note'] = 'Parlez à {npc:171684} à proximité pour faire apparaître le rare après un peu de dialogue.'
 L['slumbering_note'] = 'Courir dans le brouillard vous assommera et vous éjectera. Utilisez une fusée éclairante ou un familier avec une AOE pour le faire sortir du brouillard.'
-L['skuld_vit_note'] = 'Dans une grotte bloquée par une barrière. Une Faë nocturne doit utiliser {spell:310143} pour entrer dans la grotte. Une fois qu\'il est engagé, la barrière disparaîtra.'
+L['skuld_vit_note'] = 'Dans une grotte bloquée par une barrière. Un membre des {faction:2422} doit utiliser {spell:310143} pour entrer dans la grotte. Une fois qu\'il est engagé, la barrière disparaîtra.'
 L['valfir_note'] = 'Cliquez sur le {object:Cocon d\'anima instable} à mi-parcours du chemin et utilisez {spell:338045} pour retirer son {spell:338038}.'
 L['wrigglemortis_note'] = 'Engagez la {npc:164179} pour faire apparaître le rare.'
 
@@ -184,7 +184,7 @@ L['wingflayer_note'] = 'Pour l\'invoquer, cliquez sur la {object:Corne du Courag
 L['broken_flute'] = 'Tuez les {npc:170009} à proximité jusqu\'à ce qu\'ils laissent tomber la {item:180536}, puis utilisez les outils pour la réparer.'
 L['cloudwalkers_coffer'] = 'Coffre de marche-nuage'
 L['cloudwalkers_coffer_note'] = 'Utilisez les grandes fleurs violettes pour rebondir sur la plate-forme.'
-L['experimental_construct_part'] = 'Procurez-vous un {item:180534} proche et utilisez-le pour réparer la pièce. L\'anima a plusieurs lieux d\'apparition.'
+L['experimental_construct_part'] = 'Procurez-vous un {item:180534} proche et utilisez-le pour réparer la {object:Pièce d’assemblage expérimental}. L\'anima a plusieurs lieux d\'apparition.'
 L['larion_harness'] = 'Situé à l\'intérieur du {location:Hall des Bêtes}.'
 L['memorial_offering'] = 'Achetez un {item:180788} auprès de {npc:171526} au {location:Repos de l\'Aspirant}. Placez-le sur le plateau de boissons près du coffre pour obtenir la {item:180797}.'
 L['scroll_of_aeons'] = 'Procurez-vous 2 {item:173973} dans la zone centrale et placez-les sur les {object:plateaux d\'hommage} à proximité pour révéler le trésor.'

@@ -124,6 +124,13 @@ L['elusive_creature_note'] = nil
 L['options_icons_elusive_creature'] = '{item:193906}'
 L['options_icons_elusive_creature_desc'] = nil
 
+L['grand_hunts_label'] = nil
+L['longhunter_suffix'] = nil
+L['the_best_at_what_i_do_suffix'] = nil
+
+L['options_icons_grand_hunts'] = nil
+L['options_icons_grand_hunts_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -193,6 +200,14 @@ L['somewhat_stabilized_arcana_note'] = nil
 L['stranded_soul_note'] = nil
 
 L['gethdazr_note'] = nil
+
+L['tuskarr_chest'] = '투스카르 상자'
+L['options_icons_tuskarr_chest'] = nil
+L['options_icons_tuskarr_chest_desc'] = nil
+
+L['community_feast_label'] = nil
+L['options_icons_community_feast'] = nil
+L['options_icons_community_feast_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -298,6 +313,10 @@ L['options_icons_nokhud_do_it_desc'] = nil
 L['chest_of_the_flood'] = nil
 
 L['aylaag_camp_note'] = nil
+
+L['clan_chest'] = '부족 보관함'
+L['options_icons_clan_chest'] = nil
+L['options_icons_clan_chest_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -483,3 +502,7 @@ L['loyal_magmammoth_taming_note'] = nil
 L['djaradin_cache'] = nil
 L['options_icons_djaradin_cache'] = nil
 L['options_icons_djaradin_cache_desc'] = nil
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil

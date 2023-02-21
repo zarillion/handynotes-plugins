@@ -124,6 +124,13 @@ L['elusive_creature_note'] = nil
 L['options_icons_elusive_creature'] = '{item:193906}'
 L['options_icons_elusive_creature_desc'] = nil
 
+L['grand_hunts_label'] = 'Große Jagden'
+L['longhunter_suffix'] = 'Bosse getötet.'
+L['the_best_at_what_i_do_suffix'] = 'Jagd schritte abgeschlossen'
+
+L['options_icons_grand_hunts'] = 'Große Jagden'
+L['options_icons_grand_hunts_desc'] = 'Zeigt die Position und Belohnungen der {location:Großen Jagd}'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -206,6 +213,14 @@ Die NPCs können sterben wenn du ihnen nicht hilfst, dadurch wird das Event fehl
 
 Das Event kann alleine geschafft werden, 2-3 Spieler sind aber empfohlen.
 ]]
+
+L['tuskarr_chest'] = 'Kiste der Tuskarr'
+L['options_icons_tuskarr_chest'] = 'Kisten der Tuskarr'
+L['options_icons_tuskarr_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Kiste der Tuskarr} an.'
+
+L['community_feast_label'] = '{spell:386441}'
+L['options_icons_community_feast'] = '{spell:386441}'
+L['options_icons_community_feast_desc'] = 'Zeigt die Position und Belohnungen des {spell:386441s}'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -311,6 +326,10 @@ L['options_icons_nokhud_do_it_desc'] = 'Zeigt die Position für den Erfolg {achi
 L['chest_of_the_flood'] = 'Truhe der Flut'
 
 L['aylaag_camp_note'] = 'Der {faction:Aylaag Klan} zieht alle 3 Tage und 3 Stunden (75 Stunden) weiter in ein anderes Lager, folge ihnen und verteidige sie auf ihren Weg.'
+
+L['clan_chest'] = 'Klankiste'
+L['options_icons_clan_chest'] = 'Klankisten'
+L['options_icons_clan_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Klankisten} an.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -504,3 +523,7 @@ L['loyal_magmammoth_taming_note'] = 'Benutze den {item:201837} während du auf e
 L['djaradin_cache'] = 'Depot der Djaradin'
 L['options_icons_djaradin_cache'] = 'Depots der Djaradin'
 L['options_icons_djaradin_cache_desc'] = 'Zeigt die möglichen Positionen für {object:Depot der Djaradin} an.'
+
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = 'Zeigt die Position und Belohnungen der {spell:388945}'

@@ -124,6 +124,13 @@ L['elusive_creature_note'] = nil
 L['options_icons_elusive_creature'] = '{item:193906}'
 L['options_icons_elusive_creature_desc'] = nil
 
+L['grand_hunts_label'] = nil
+L['longhunter_suffix'] = nil
+L['the_best_at_what_i_do_suffix'] = nil
+
+L['options_icons_grand_hunts'] = nil
+L['options_icons_grand_hunts_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -204,6 +211,14 @@ L['stranded_soul_note'] = [[
 ]]
 
 L['gethdazr_note'] = nil
+
+L['tuskarr_chest'] = nil
+L['options_icons_tuskarr_chest'] = nil
+L['options_icons_tuskarr_chest_desc'] = nil -- '顯示 {object:巨牙海民釣具箱} 可能的位置'
+
+L['community_feast_label'] = nil
+L['options_icons_community_feast'] = nil
+L['options_icons_community_feast_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -309,6 +324,10 @@ L['options_icons_nokhud_do_it_desc'] = '顯示成就 {achievement:16583} 有用�
 L['chest_of_the_flood'] = '洪流寶箱'
 
 L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天又3小時 (75) 移動到另外一個營地, 跟著他們並在路上保護他們.'
+
+L['clan_chest'] = nil
+L['options_icons_clan_chest'] = nil
+L['options_icons_clan_chest_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -504,3 +523,7 @@ L['loyal_magmammoth_taming_note'] = '當你騎著 {npc:198150} 時使用 {item:2
 L['djaradin_cache'] = '加拉登貯物所'
 L['options_icons_djaradin_cache'] = '加拉登貯物所'
 L['options_icons_djaradin_cache_desc'] = '顯示 {object:加拉登貯物所} 可能的位置'
+
+L['dragonbane_siege_label'] = nil
+L['options_icons_dragonbane_siege'] = nil
+L['options_icons_dragonbane_siege_desc'] = nil
