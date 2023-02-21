@@ -120,16 +120,16 @@ L['elemental_storm_mythressa_note_end'] = nil
 L['options_icons_elemental_storm'] = nil
 L['options_icons_elemental_storm_desc'] = nil
 
+L['elusive_creature_note'] = nil
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = nil
+
 L['grand_hunts_label'] = nil
 L['longhunter_suffix'] = nil
 L['the_best_at_what_i_do_suffix'] = nil
 
 L['options_icons_grand_hunts'] = nil
 L['options_icons_grand_hunts_desc'] = nil
-
-L['elusive_creature_note'] = nil
-L['options_icons_elusive_creature'] = '{item:193906}'
-L['options_icons_elusive_creature_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
