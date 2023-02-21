@@ -621,7 +621,7 @@ map.nodes[57916842] = Rare({
         Transmog({item = 200254, slot = L['mail']}), -- Totemic Cinch
         Transmog({item = 200313, slot = L['cloak']}), -- Earthen Protoscale Drape
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
-        Transmog({item = 203358, slot = L['leather']}), -- Graniteclaw's Vest
+        Transmog({item = 203658, slot = L['leather']}), -- Graniteclaw's Vest
         DC.CliffsideWylderdrake.ManedNeck, DC.WindborneVelocidrake.ClusterHorns,
         DC.WindborneVelocidrake.ClubTail
     }
