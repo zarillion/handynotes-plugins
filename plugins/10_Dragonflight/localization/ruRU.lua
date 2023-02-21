@@ -205,8 +205,8 @@ L['gethdazr_note'] = [[
 ]]
 
 L['tuskarr_chest'] = 'Клыкаррский сундук'
-L['options_icons_tuskarr_chest'] = nil
-L['options_icons_tuskarr_chest_desc'] = nil -- 'Показать возможные места {object:Клыкаррских рыболовных снастей}.'
+L['options_icons_tuskarr_chest'] = 'Клыкаррский сундук'
+L['options_icons_tuskarr_chest_desc'] = 'Показать возможные места {object:Клыкаррских сундуков}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -314,8 +314,8 @@ L['chest_of_the_flood'] = 'Сундук Прилива'
 L['aylaag_camp_note'] = '{faction:Клан Айлааг} переходит в другой лагерь каждые 3 дня и 3 часа (75), следуйте за ними и защищайте их по пути.'
 
 L['clan_chest'] = 'Сундук клана'
-L['options_icons_clan_chest'] = nil
-L['options_icons_clan_chest_desc'] = nil
+L['options_icons_clan_chest'] = 'Сундук клана'
+L['options_icons_clan_chest_desc'] = 'Показать возможные места {object:Сундуков клана}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
