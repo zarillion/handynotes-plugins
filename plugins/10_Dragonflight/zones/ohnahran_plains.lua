@@ -16,6 +16,7 @@ local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
+local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
 local GrandHunt = ns.node.GrandHunt
 local LegendaryCharacter = ns.node.LegendaryCharacter
@@ -1829,6 +1830,28 @@ map.nodes[34153854] = ElementalStorm({
 --     mapID = map.id,
 --     areaPOIs = {7225, 7226, 7227, 7228}
 -- }) -- Elemental Storm: Ohn'iri Springs
+
+-------------------------------------------------------------------------------
+------------------------------ ELUSIVE CREATURES ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[55005500] = ElusiveCreature({
+    label = '{npc:195465}',
+    rewards = {
+        Item({item = 193224}), -- Lustrous Scaled Hide
+        Item({item = 193215}), -- Adamant Scales
+        Item({item = 193253}) -- Cacophonous Thunderscale
+    }
+}) -- Elusive Tempest Lizard
+
+map.nodes[24005600] = ElusiveCreature({
+    label = '{npc:195541}',
+    rewards = {
+        Item({item = 193218}), -- Dense Hide
+        Item({item = 193211}), -- Resilient Leather
+        Item({item = 193251}) -- Crystalspine Fur
+    }
+}) -- Elusive Flourishing Quillbloom
 
 -------------------------------------------------------------------------------
 --------------------------------- GRAND HUNTS ---------------------------------

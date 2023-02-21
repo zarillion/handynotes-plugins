@@ -17,6 +17,7 @@ local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
+local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
 local GrandHunt = ns.node.GrandHunt
@@ -1519,6 +1520,27 @@ map.nodes[58506660] = ElementalStorm({
     mapID = map.id,
     areaPOIs = {7237, 7238, 7239, 7240}
 }) -- Elemental Storm: Imbu
+
+-------------------------------------------------------------------------------
+------------------------------ ELUSIVE CREATURES ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[65002900] = ElusiveCreature({
+    label = '{npc:194491}',
+    rewards = {
+        Item({item = 193211}), -- Resilient Leather
+        Item({item = 193218}) -- Dense Hide
+    }
+}) -- Elusive Elder Frigidpelt
+
+map.nodes[23203380] = ElusiveCreature({
+    label = '{npc:194489}',
+    rewards = {
+        Item({item = 193218}), -- Dense Hide
+        Item({item = 193211}), -- Resilient Leather
+        Item({item = 193053}) -- Contoured Fowlfeather
+    }
+}) -- Elusive Elder Drake
 
 -------------------------------------------------------------------------------
 --------------------------------- GRAND HUNTS ---------------------------------

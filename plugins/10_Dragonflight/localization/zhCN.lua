@@ -120,6 +120,10 @@ L['elemental_storm_mythressa_note_end'] = '目前有 %s {currency:2118}。'
 L['options_icons_elemental_storm'] = '{spell:392768}'
 L['options_icons_elemental_storm_desc'] = '显示 {spell:392768} 奖励。'
 
+L['elusive_creature_note'] = '{object:制皮律法} 中 {object:精通等级 40/40} 将能够制造 {item:193906} 可以用来每天召唤和剥皮每个生物一次。'
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = '显示 {item:193906} 召唤的隐秘生物位置。'
+
 L['grand_hunts_label'] = '洪荒狩猎'
 L['longhunter_suffix'] = '首领已击杀'
 L['the_best_at_what_i_do_suffix'] = '狩猎进度已完成'

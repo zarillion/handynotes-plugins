@@ -120,6 +120,10 @@ L['elemental_storm_mythressa_note_end'] = 'Zurzeit hast du %s {currency:2118}.'
 L['options_icons_elemental_storm'] = 'Elementarstürme'
 L['options_icons_elemental_storm_desc'] = 'Zeigt die möglichen Positionen der Elementarstürme an.'
 
+L['elusive_creature_note'] = nil
+L['options_icons_elusive_creature'] = '{item:193906}'
+L['options_icons_elusive_creature_desc'] = nil
+
 L['grand_hunts_label'] = 'Große Jagden'
 L['longhunter_suffix'] = 'Bosse getötet.'
 L['the_best_at_what_i_do_suffix'] = 'Jagd schritte abgeschlossen'
