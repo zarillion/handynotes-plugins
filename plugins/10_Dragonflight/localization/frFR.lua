@@ -237,14 +237,14 @@ L['options_icons_forbidden_hoard'] = 'Provisions interdites'
 L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles des coffres de {object:Provisions interdites}.'
 
 L['small_treasures_label'] = 'Petit Trésor'
-L['small_treasures_note'] = 'Les petits trésors sont répartis entre les points d\'apparition.'
+L['small_treasures_note'] = 'Les petits trésors sont répartis entre les points d\'apparition.\n\nAchetez un {item:204558} à l\'{npc:200566} au {location:Village de Morqut} pour recevoir le buff {spell:405637} qui vous permet de voir les petits trésors sur la mini-carte pendant 60 minutes.'
 L['options_icons_small_treasures'] = 'Petits Trésors'
 L['options_icons_small_treasures_desc'] = 'Afficher les emplacements possibles des petits trésors.'
 
 L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
 
 L['book_of_arcane_entities_label'] = 'Livre des entités arcaniques'
-L['tuskarr_kite_post_label'] = nil
+L['tuskarr_kite_post_label'] = 'Poteau à cerfs-volants roharts'
 L['farescale_shrine_label'] = 'Sanctuaire Longuécaille'
 L['resonating_crystal_label'] = 'Cristal résonnant'
 L['spellsworn_ward_label'] = 'Protection sorcelige'
