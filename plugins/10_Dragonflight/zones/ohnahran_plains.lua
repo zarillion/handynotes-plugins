@@ -85,7 +85,7 @@ map.nodes[49866673] = Rare({
         Achievement({id = 16677, criteria = 56077}),
         Transmog({item = 200308, slot = L['bow']}), -- Rellen's Legacy
         Transmog({item = 200441, slot = L['leather']}), -- Jhakan's Horned Cowl
-        Recipe({item = 194267, id = 376537, profession = 197}) -- Pattern: Shimmering Embroidery Thread - 0.03%
+        Recipe({item = 194267, id = 376537, profession = 197}), -- Pattern: Shimmering Embroidery Thread - 0.03%
         DC.RenewedProtoDrake.GrayHair, DC.CliffsideWylderdrake.ManedTail
     }
 }) -- Eaglemaster Niraak
