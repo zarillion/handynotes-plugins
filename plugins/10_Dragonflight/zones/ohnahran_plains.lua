@@ -102,7 +102,7 @@ map.nodes[56718128] = Rare({
     }
 }) -- Enraged Sapphire
 
-map.nodes[74414762] = Rare({ -- reqiured 67030 review
+map.nodes[74414762] = Rare({
     id = 193170,
     quest = 73994,
     note = L['spawns_periodically'],
@@ -118,7 +118,7 @@ map.nodes[74414762] = Rare({ -- reqiured 67030 review
     }
 }) -- Fulgurb
 
-map.nodes[85221544] = Rare({ -- review
+map.nodes[85221544] = Rare({
     id = 187781,
     quest = 73951,
     note = L['aylaag_outpost_note'],
@@ -159,14 +159,11 @@ map.nodes[87556151] = Rare({
     }
 }) -- Liskheszaera
 
-map.nodes[32823817] = Rare({ -- review
+map.nodes[32823817] = Rare({
     id = 195409,
     quest = 73968,
     note = L['eaglewatch_outpost_note'],
-    rewards = {
-        Achievement({id = 16677, criteria = 56094})
-        -- Transmog({item = , slot = L['']}) -- Name
-    }
+    rewards = {Achievement({id = 16677, criteria = 56094})}
 }) -- Makhra the Ashtouched
 
 map.nodes[71694585] = Rare({
@@ -188,7 +185,7 @@ map.nodes[71694585] = Rare({
     }
 }) -- Malsegan
 
-map.nodes[63017996] = Rare({ -- reqiured 67030
+map.nodes[63017996] = Rare({
     id = 193173,
     quest = 74015,
     note = L['spawns_periodically'],
@@ -218,7 +215,7 @@ map.nodes[58604940] = Rare({
     }
 }) -- Defend Clan Aylaag
 
-map.nodes[61212950] = Rare({ -- reqiured 67030
+map.nodes[61212950] = Rare({
     id = 193235,
     quest = 74018,
     note = L['spawns_periodically'],
@@ -301,7 +298,7 @@ map.nodes[43405560] = Rare({
     }
 }) -- Ronsak the Decimator
 
-map.nodes[42804428] = Rare({ -- review
+map.nodes[42804428] = Rare({
     id = 195223,
     quest = 73973,
     note = L['eaglewatch_outpost_note'],
@@ -379,7 +376,7 @@ map.nodes[21603960] = Rare({
     }
 }) -- Sparkspitter Vrak
 
-map.nodes[53627281] = Rare({ -- reqiured 67030 review
+map.nodes[53627281] = Rare({
     id = 193123,
     quest = 74034,
     note = L['spawns_periodically'],
@@ -553,7 +550,7 @@ map.nodes[26366533] = Rare({
 
 map.nodes[44894924] = Rare({
     id = 192949,
-    quest = 72847, -- 70783
+    quest = 72847,
     note = L['in_small_cave'],
     rewards = {
         Item({item = 198048}), -- Titan Training Matrix I
@@ -572,7 +569,7 @@ map.nodes[44894924] = Rare({
 
 map.nodes[63034854] = Rare({
     id = 193133,
-    quest = 72849, -- 69837
+    quest = 72849,
     note = L['in_waterfall_cave'],
     rewards = {
         Item({item = 198048}), -- Titan Training Matrix I
@@ -591,7 +588,7 @@ map.nodes[63034854] = Rare({
 
 map.nodes[22956670] = Rare({
     id = 193163,
-    quest = 72851, -- 66378
+    quest = 72851,
     rewards = {
         Item({item = 198048}), -- Titan Training Matrix I
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -609,7 +606,7 @@ map.nodes[22956670] = Rare({
 
 map.nodes[26073412] = Rare({
     id = 191354,
-    quest = 72852, -- 66970
+    quest = 72852,
     note = L['in_cave'],
     rewards = {
         Item({item = 198048}), -- Titan Training Matrix I
@@ -641,6 +638,57 @@ map.nodes[43105078] = Rare({
     },
     pois = {POI({43724823})}
 }) -- Web-Queen Ashkaz
+
+map.nodes[35803600] = Rare(
+    { -- is all over the place on wowhead, took a random one,
+        id = 201540,
+        quest = 74546,
+        rewards = {
+            Transmog({item = 203674, slot = L['plate']}), -- Brutal Tramplers
+            DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair
+        }
+    }) -- Lurgan
+
+map.nodes[36803800] = Rare({
+    id = 201535,
+    quest = 74552,
+    rewards = {
+        Transmog({item = 203673, slot = L['dagger']}), -- Bloodbeak's Ravenor
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200442, slot = L['leather']}) -- Basilisk Hide Jerkin
+    }
+}) -- Bloodbeak the Ravenous
+
+map.nodes[35804040] = Rare({ -- rough coordinates from wowhead
+    id = 201537,
+    quest = 74463,
+    rewards = {
+        Transmog({item = 203671, slot = L['cloak']}), -- Bloodbeak's Ravenor
+        DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair
+    }
+}) -- Groffnar
+
+map.nodes[32614184] = Rare({
+    id = 201539,
+    quest = 74547,
+    rewards = {
+        Transmog({item = 203676, slot = L['cloth']}), -- Stormcaller's Grounding Shoes
+        Transmog({item = 200441, slot = L['leather']}), -- Jhakan's Horned Cowl
+        DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair
+    },
+    pois = {Path({32614184, 33014157, 33404161})}
+}) -- Stormcaller Narkena
+
+map.nodes[33843872] = Rare({
+    id = 201538,
+    quest = 74548,
+    rewards = {
+        Transmog({item = 203672, slot = L['mail']}), -- Master Huntmaster's Wristguards
+        Transmog({item = 200308, slot = L['bow']}), -- Rellen's Legacy
+        DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair
+    }
+}) -- Huntmaster Yrgena
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -689,7 +737,7 @@ map.nodes[32423817] = Treasure({
 }) -- Nokhud Warspear
 
 map.nodes[70603543] = Treasure({
-    quest = 67950, -- 67718
+    quest = 67950,
     note = L['slightly_chewed_duck_egg_note'],
     requires = ns.requirement.Item(195453), -- Ludo's Stash Map
     rewards = {
@@ -760,6 +808,59 @@ map.nodes[53296890] = Treasure({
         }) -- Emerald Chest
     }
 }) -- Forgotten Dragon Treasure
+
+----------------------------- Nokhudon Clan Chest -----------------------------
+
+local ClanChest = Class('ClanChest', ns.node.Node, {
+    label = L['clan_chest'],
+    icon = 'chest_bk',
+    group = ns.groups.CLAN_CHEST,
+    rewards = {
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Item({item = 190454}), -- Primal Chaos
+        Transmog({item = 201024, slot = L['cosmetic']}), -- Nokhudon Mantle
+        Transmog({item = 201025, slot = L['cosmetic']}), -- Nokhudon Harness
+        Transmog({item = 201027, slot = L['cosmetic']}), -- Nokhudon Breeches
+        Transmog({item = 201028, slot = L['cosmetic']}), -- Nokhudon Boots
+        Transmog({item = 201029, slot = L['cosmetic']}), -- Nokhudon Hood
+        Transmog({item = 201030, slot = L['cosmetic']}), -- Nokhudon Grips
+        Transmog({item = 201031, slot = L['cosmetic']}), -- Nokhudon Cloak
+        Transmog({item = 201032, slot = L['cosmetic']}), -- Nokhudon Wraps
+        Transmog({item = 201034, slot = L['cosmetic']}), -- Nokhudon Girdle
+        Transmog({item = 201380, slot = L['cosmetic']}), -- Nokhud Hunter's Bow
+        Transmog({item = 201382, slot = L['cosmetic']}), -- Centaur Warglaives
+        Transmog({item = 201383, slot = L['cosmetic']}), -- Nokhud Stalker's Spear
+        Transmog({item = 201384, slot = L['cosmetic']}), -- Centaur Tracker's Javelin
+        Transmog({item = 201385, slot = L['cosmetic']}), -- Nokhud Centaur Warstaff
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Item({item = 200093}), -- Centaur Hunting Trophy
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+})
+
+map.nodes[25013785] = ClanChest()
+map.nodes[25303740] = ClanChest()
+map.nodes[31307060] = ClanChest()
+map.nodes[32206810] = ClanChest()
+map.nodes[32403900] = ClanChest()
+map.nodes[32503890] = ClanChest()
+map.nodes[33504240] = ClanChest()
+map.nodes[34803705] = ClanChest()
+map.nodes[35004190] = ClanChest()
+map.nodes[35406580] = ClanChest()
+map.nodes[36104173] = ClanChest()
+map.nodes[49406770] = ClanChest()
+map.nodes[50906650] = ClanChest()
+map.nodes[71845676] = ClanChest()
+map.nodes[73405610] = ClanChest()
+map.nodes[74603920] = ClanChest()
+map.nodes[74704040] = ClanChest()
+map.nodes[75204160] = ClanChest()
+map.nodes[75504050] = ClanChest()
+map.nodes[83705360] = ClanChest()
+map.nodes[85505470] = ClanChest()
+map.nodes[86485063] = ClanChest()
+map.nodes[86505330] = ClanChest()
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
@@ -1087,11 +1188,11 @@ map.nodes[80133864] = Disturbeddirt({
     note = L['in_cave'],
     pois = {POI({79403650})}
 })
+map.nodes[32834660] = Disturbeddirt()
 map.nodes[81403827] = Disturbeddirt()
 map.nodes[82543651] = Disturbeddirt()
 map.nodes[82593486] = Disturbeddirt()
 map.nodes[83243606] = Disturbeddirt()
-map.nodes[32834660] = Disturbeddirt()
 map.nodes[83731265] = Disturbeddirt()
 map.nodes[85833271] = Disturbeddirt()
 map.nodes[86683243] = Disturbeddirt()
@@ -1108,8 +1209,10 @@ map.nodes[23944019] = Scoutpack()
 map.nodes[24745680] = Scoutpack()
 map.nodes[25205876] = Scoutpack()
 map.nodes[27395211] = Scoutpack()
+map.nodes[31927666] = Scoutpack()
 map.nodes[32043887] = Scoutpack()
 map.nodes[32135114] = Scoutpack()
+map.nodes[33764307] = Scoutpack()
 map.nodes[35925854] = Scoutpack()
 map.nodes[42883769] = Scoutpack()
 map.nodes[43335647] = Scoutpack()

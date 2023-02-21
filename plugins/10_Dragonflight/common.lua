@@ -93,7 +93,17 @@ ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {
     end
 })
 
-ns.groups.TUSKARR_TACKLEBOX = Group('tuskarr_tacklebox', 'chest_bl', {
+ns.groups.TUSKARR_TACKLEBOX = Group('tuskarr_tacklebox', 'chest_yw', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.TUSKARR_CHEST = Group('tuskarr_chest', 'chest_bn', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.CLAN_CHEST = Group('clan_chest', 'chest_bk', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -741,7 +751,7 @@ ns.node.MagicBoundChest = MagicBoundChest
 
 local TuskarrTacklebox = Class('TuskarrTacklebox', Node, {
     label = L['tuskarr_tacklebox'],
-    icon = 'chest_bl',
+    icon = 'chest_yw',
     group = ns.groups.TUSKARR_TACKLEBOX,
     requires = {
         ns.requirement.Reputation(2511, 27, true), -- Iskaara Tuskarr
@@ -816,27 +826,31 @@ hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
     if self and self.vignetteID then
         local mapID = self:GetMap().mapID
         local group = ns.groups.DRAGONRACE
-        if self.vignetteID == 5104 and group:GetDisplay(mapID) then -- Bronze Timekeeper Vignette 5104
-            local guid = self.vignetteGUID
-            local x = C_VignetteInfo.GetVignettePosition(guid, mapID).x
-            local y = C_VignetteInfo.GetVignettePosition(guid, mapID).y
-            local node = ns.maps[mapID].nodes[HandyNotes:getCoord(x, y)]
-            if node then
-                GameTooltip:SetText(ns.RenderLinks(node.label, true))
-                GameTooltip:AddLine(ns.RenderLinks(node.sublabel, true), 1, 1, 1)
-                if ns:GetOpt('show_notes') then
-                    GameTooltip_AddBlankLineToTooltip(GameTooltip)
-                    GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1, true)
-                end
-                if ns:GetOpt('show_loot') then
-                    GameTooltip:AddLine(' ')
-                    for i, reward in ipairs(node.rewards) do
-                        if reward:IsEnabled() then
-                            reward:Render(GameTooltip)
+        if ns.maps[mapID] then
+            if self.vignetteID == 5104 and group:GetDisplay(mapID) then -- Bronze Timekeeper Vignette 5104
+                local guid = self.vignetteGUID
+                local x = C_VignetteInfo.GetVignettePosition(guid, mapID).x
+                local y = C_VignetteInfo.GetVignettePosition(guid, mapID).y
+                local node = ns.maps[mapID].nodes[HandyNotes:getCoord(x, y)]
+                if node then
+                    GameTooltip:SetText(ns.RenderLinks(node.label, true))
+                    GameTooltip:AddLine(ns.RenderLinks(node.sublabel, true), 1,
+                        1, 1)
+                    if ns:GetOpt('show_notes') then
+                        GameTooltip_AddBlankLineToTooltip(GameTooltip)
+                        GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1,
+                            true)
+                    end
+                    if ns:GetOpt('show_loot') then
+                        GameTooltip:AddLine(' ')
+                        for i, reward in ipairs(node.rewards) do
+                            if reward:IsEnabled() then
+                                reward:Render(GameTooltip)
+                            end
                         end
                     end
+                    GameTooltip:Show()
                 end
-                GameTooltip:Show()
             end
         end
     end

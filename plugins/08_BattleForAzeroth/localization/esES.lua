@@ -232,12 +232,12 @@ L['options_icons_fabious_desc'] = 'Muestra dónde está {npc:65090} para su mont
 ------------------------------------ NAZMIR -----------------------------------
 -------------------------------------------------------------------------------
 
-L['captain_mukala_note'] = 'Intenta abrir el Cofre Maldito para invocar a {npc:125232}.'
+L['captain_mukala_note'] = 'Intenta abrir el {object:Cofre Maldito} para invocar a {npc:125232}.'
 L['enraged_water_note'] = 'Examina el {npc:134295} para invocar al {npc:134294}.'
 L['lucille_note'] = 'Habla con {npc:134297} para invocar a {npc:134296}.'
 L['offering_to_bwonsamdi_note'] = 'Corre al árbol cercano y salta dentro de la estructura rota.'
 L['shambling_ambusher_note'] = 'Intenta abrir el {npc:124473} para activar al {npc=124475}.'
-L['zaamar_note'] = 'Dentro de las Catacumbas de la Necrópolis, entrada al sur, te encontrarás con {npc:129657}.'
+L['zaamar_note'] = 'Dentro de las {location:Catacumbas de la Necrópolis}, entrada al sur, te encontrarás con {npc:129657}.'
 
 L['grady_prett_note'] = '¡Hora de luchar! ¡Que empiece la acción!'
 L['korval_dark_note'] = 'Este lugar es espeluznante, hagamos que esta batalle termine rápido.'
@@ -270,7 +270,7 @@ L['options_icons_hoppin_sad_desc'] = 'Muestra dónde están los {npc:143317} par
 
 L['in_basement'] = 'En el sótano.'
 L['jakala_note'] = 'Habla con {npc:140925}.'
-L['nestmother_acada_note'] = 'Inspecciona el Nido de Acada para hacer aparecer a la {npc:138963}.'
+L['nestmother_acada_note'] = 'Inspecciona el {object:Nido de Acada} para hacer aparecer a la {npc:138963}.'
 L['sabertron_note'] = 'Mata al {npc:139334} para activar uno de los {npc:139328}.'
 L['whiplash_note'] = 'Sólo aparece cuando la misión {wq:Trallazo} está activa.'
 
@@ -291,26 +291,26 @@ L['eddie_fixit_note'] = '¡Prepárate para enfrentarte a mi invencible equipo de
 L['ellie_vern_note'] = 'He encontrado las criaturas marinas más poderosas de todas. No tienes posibilidades de vencerme.'
 L['leana_darkwind_note'] = 'Las extrañas criaturas de esta isla prometen brindarnos una batalla más extraña aún.'
 
-L['honeyback_harvester_note'] = 'Habla con {npc:155193} para empezar el evento. El Depósito de Jalea Fresca puede ser despojado una vez a la hora y se restablece pasada una hora.'
+L['honeyback_harvester_note'] = 'Habla con {npc:155193} para empezar el evento. El {object:Depósito de Jalea Fresca} puede ser despojado una vez a la hora y se restablece pasada una hora.'
 L['options_icons_honeybacks'] = '{npc:155193}'
-L['options_icons_honeybacks_desc'] = 'Muestra dónde está el evento de la {npc:155193} para el farmeo de la reputación Colmena Mielabdomen.'
+L['options_icons_honeybacks_desc'] = 'Muestra dónde está el evento de la {npc:155193} para el farmeo de la reputación {faction:2395}.'
 
 L['lets_bee_friends_note'] = 'Completa la misión diaria {daily:53371} siete veces para conseguir el logro y la mascota. Para desbloquear la misión diaria:'
 L['lets_bee_friends_step_1'] = 'Completa la cadena de misiones desde {quest:50343} hasta {quest:50553}.'
-L['lets_bee_friends_step_2'] = 'Mata {npc:133429} y {npc:131663} en Granja de Hidromiel Mildenhall hasta que te encuentres un {item:163699}.'
-L['lets_bee_friends_step_3'] = 'Dale el {item:163699} a {npc:143128} en Boralus.'
-L['lets_bee_friends_step_4'] = 'Dale la {item:163702} a {npc:133907} en Granja de Hidromiel Mildenhall.'
+L['lets_bee_friends_step_2'] = 'Mata {npc:133429} y {npc:131663} en {location:Granja de Hidromiel Mildenhall} hasta que te encuentres un {item:163699}.'
+L['lets_bee_friends_step_3'] = 'Dale el {item:163699} a {npc:143128} en {location:Boralus}.'
+L['lets_bee_friends_step_4'] = 'Dale la {item:163702} a {npc:133907} en {location:Granja de Hidromiel Mildenhall}.'
 L['lets_bee_friends_step_5'] = 'Completa la misión {quest:53347} para {npc:133907}.'
 
-local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} en Brennadam' or '{npc:138096} en Fuerte Guerracolmillo'
-L['these_hills_sing_note'] = 'Abre {item:160485} aquí. Cómpraselo a ' .. luncheon .. ' o despoja uno del tesoro "Fiambrera desechada" en Brennadam.'
+local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} en {location:Brennadam}' or '{npc:138096} en {location:Fuerte Guerracolmillo}'
+L['these_hills_sing_note'] = 'Abre {item:160485} aquí. Cómpraselo a ' .. luncheon .. ' o despoja uno del tesoro {object:Fiambrera desechada} en {location:Brennadam}.'
 
 L['ancient_tidesage_scroll'] = 'Pergamino Antiguo de Sabiomar'
 L['ancient_tidesage_scroll_note'] = 'Lee los 8 Pergamino Antiguo de Sabiomar para conseguir el logro.'
 L['options_icons_tidesage_legends'] = '{achievement:13051}'
 L['options_icons_tidesage_legends_desc'] = 'Muestra dónde están los pergaminos antiguos para el logro {achievement:13051}.'
 
-L['long_forgotten_rum_note'] = 'Para entrar en la cueva debe haberse completado la misión {quest:50697} de {npc:134710} en Ribera Inerte. También lo vende {npc:137040} en Drustvar.'
+L['long_forgotten_rum_note'] = 'Para entrar en la cueva debe haberse completado la misión {quest:50697} de {npc:134710} en {location:Ribera Inerte}. También lo vende {npc:137040} en {location:Drustvar}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------

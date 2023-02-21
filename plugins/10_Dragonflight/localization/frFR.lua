@@ -208,15 +208,22 @@ Tuez l'{npc:197183} à l'intérieur et vous recevrez le {item:200528}.
 ]]
 
 L['gethdazr_note'] = [[
-Apparaît lors d'un événement impliquant {npc:191143} qui commence en soufflant dans la {object:Grande corne d’Imbou}.
-La Corne ne devient cliquable qu'après avoir tué l'{npc:196155} qui l'attaque, et a un temps de recharge/réapparition d'environ une heure.
-{npc:191143} et d'autres PNJ se frayeront un chemin depuis l'entrée nord-est d'{location:Imbou}, d'abord vers le sud puis vers l'ouest pour atteindre le coin sud-ouest, où apparaîtra {npc:196165}.
-Les PNJ peuvent mourir sans aide, ce qui met fin à l'événement prématurément et empêche l'apparition du rare.
+Apparaît lors d'un événement à {location:Imbou} qui commence en soufflant dans la {object:Grande corne d’Imbou}({dot:Blue}).
+La Corne ne devient cliquable qu'après avoir tué l'{npc:196155} qui a un temps de réapparition d'environ 30 à 60 minutes.
+
+{npc:191143}({dot:Green}) et d'autres PNJ se frayeront un chemin depuis l'entrée nord-est d'{location:Imbou} jusqu'à la falaise où {npc:196165} apparaîtra.
+Les PNJ peuvent mourir sans aide, ce qui fera échouer l'événement.
+
+Cela peut être accompli en solo mais 2 ou 3 joueurs sont recommandés.
 ]]
 
 L['community_feast_label'] = '{spell:388961}'
 L['options_icons_community_feast'] = '{spell:388961}'
 L['options_icons_community_feast_desc'] = 'Afficher les emplacements et les récompenses pour le {spell:388961}.'
+
+L['tuskarr_chest'] = 'Coffre rohart'
+L['options_icons_tuskarr_chest'] = 'Coffres roharts'
+L['options_icons_tuskarr_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres roharts}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -323,6 +330,10 @@ L['chest_of_the_flood'] = 'Coffre du déluge'
 
 L['aylaag_camp_note'] = 'Le {faction:Clan des Aylaags} se déplace vers un autre campement tous les 3 jours et 3 heures (75), suivez-les et défendez-les sur leur chemin.'
 
+L['clan_chest'] = 'Coffre clanique'
+L['options_icons_clan_chest'] = 'Coffres claniques'
+L['options_icons_clan_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres claniques}.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -344,7 +355,7 @@ L['tasty_hatchling_treat_note'] = 'Dans un tonneau derrière l\'étagère.'
 L['pm_mining_bridgette_holdug'] = 'Au sommet d\'un pilier de roche couvert d\'herbe.'
 L['pm_tailor_elysa_raywinder'] = 'Sur une corniche à mi-hauteur de la tour.'
 L['pt_alch_contraband_concoction_note'] = 'Caché dans les buissons. {note:Difficile à voir}.'
-L['pt_alch_furry_gloop_note'] = 'Jetez un {npc:194855} proche dans chaque chaudron puis tuez le monstre qui apparaît.'
+L['pt_alch_tasty_candy_note'] = 'Jetez un {object:Jouet abandonné} proche dans chaque chaudron puis tuez le monstre qui apparaît.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'Au sud du {location:Bastion de Tyr}.'
 L['pt_jewel_alexstraszite_cluster_note'] = 'Au {location:Bastion de Tyr}.'
 L['pt_jewel_painters_pretty_jewel_note'] = 'A l\'intérieur d\'une lanterne.'

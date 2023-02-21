@@ -76,7 +76,7 @@ map.nodes[58634021] = Rare({
     }
 }) -- Anhydros the Tidetaker
 
-map.nodes[54517174] = Rare({ -- review -- required 67030
+map.nodes[54517174] = Rare({
     id = 193135,
     quest = 73984,
     note = L['spawns_periodically'],
@@ -180,7 +180,7 @@ map.nodes[29935074] = RareElite({
     pois = {POI({29335248, 30535144})}
 }) -- Char
 
-map.nodes[31785474] = RareElite({ -- review -- required 67030
+map.nodes[31785474] = RareElite({
     id = 190985,
     quest = 73074,
     note = format(L['obsidian_citadel_rare_note'], 20, '{npc:187447}'),
@@ -267,7 +267,7 @@ map.nodes[33127632] = RareElite({
     }
 }) -- Forgotten Gryphon
 
-map.nodes[52345829] = Rare({ -- review
+map.nodes[52345829] = Rare({
     id = 196056,
     quest = 73879,
     rewards = {
@@ -278,7 +278,7 @@ map.nodes[52345829] = Rare({ -- review
     }
 }) -- Gushgut the Beaksinker
 
-map.nodes[43007465] = Rare({ -- review
+map.nodes[43007465] = Rare({
     id = 193263,
     quest = 73880,
     rewards = {Achievement({id = 16676, criteria = 56037})}
@@ -302,7 +302,7 @@ map.nodes[34618275] = Rare({
     }
 }) -- Lepidoralia the Resplendent
 
-map.nodes[39596353] = Rare({ -- review -- required 67030
+map.nodes[39596353] = Rare({
     id = 186827,
     quest = 74010,
     note = L['spawns_periodically'],
@@ -318,7 +318,7 @@ map.nodes[39596353] = Rare({ -- review -- required 67030
     }
 }) -- Magmaton
 
-map.nodes[22207649] = RareElite({ -- required 67030
+map.nodes[22207649] = RareElite({
     id = 193152,
     quest = 74012,
     note = L['spawns_periodically'],
@@ -363,7 +363,7 @@ map.nodes[56004592] = Rare({
     }
 }) -- Nulltheria the Void Gazer
 
-map.nodes[81485082] = Rare({ -- required 67030
+map.nodes[81485082] = Rare({
     id = 193118,
     quest = 74017,
     note = L['spawns_periodically'],
@@ -439,7 +439,7 @@ map.nodes[46997332] = Rare({
     pois = {POI({47727466, 47557369})}
 }) -- Shadeslash Trakken
 
-map.nodes[23755724] = RareElite({ -- required 67030
+map.nodes[23755724] = RareElite({
     id = 189822,
     quest = 74077,
     note = L['obsidian_throne_rare_note'] .. ' ' ..
@@ -633,7 +633,7 @@ map.nodes[65617410] = Rare({
 
 map.nodes[77302198] = Rare({
     id = 187111,
-    quest = 72835, -- 66076
+    quest = 72835,
     note = L['in_small_cave'],
     rewards = {
         Transmog({item = 200165, slot = L['shield']}), -- Aegis of Scales
@@ -656,7 +656,7 @@ map.nodes[77302198] = Rare({
 
 map.nodes[64173289] = Rare({
     id = 191611,
-    quest = 72838, -- 66956
+    quest = 72838,
     rewards = {
         Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
@@ -678,7 +678,7 @@ map.nodes[54582137] = Rare({
 
 map.nodes[54728225] = Rare({
     id = 187209,
-    quest = 72841, -- 66960
+    quest = 72841,
     rewards = {
         Transmog({item = 200199, slot = L['mail']}), -- Elements' Burden
         Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
@@ -713,7 +713,7 @@ map.nodes[24135392] = Rare({
 
 map.nodes[81133794] = Rare({
     id = 184853,
-    quest = 72843, -- 66074
+    quest = 72843,
     note = L['in_small_cave'],
     rewards = {
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -815,7 +815,7 @@ map.nodes[29454699] = Treasure({
 }) -- Onyx Gem Cluster
 
 map.nodes[65804182] = Treasure({
-    quest = 70600, -- 70409
+    quest = 70600,
     note = L['golden_dragon_goblet_note'],
     requires = {
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt

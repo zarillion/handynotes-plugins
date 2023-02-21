@@ -220,6 +220,10 @@ L['community_feast_label'] = '{spell:388961}'
 L['options_icons_community_feast'] = '{spell:388961}'
 L['options_icons_community_feast_desc'] = '显示 {spell:388961} 的位置和奖励。'
 
+L['tuskarr_chest'] = '海象人宝箱'
+L['options_icons_tuskarr_chest'] = '海象人宝箱'
+L['options_icons_tuskarr_chest_desc'] = '显示 {object:海象人宝箱} 可能的位置。'
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
@@ -325,6 +329,10 @@ L['chest_of_the_flood'] = '洪水宝箱'
 
 L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天3小时（75）移动到另一个营地，跟随并在途中保护他们。'
 
+L['clan_chest'] = '氏族宝箱'
+L['options_icons_clan_chest'] = '氏族宝箱'
+L['options_icons_clan_chest_desc'] = '显示 {object:氏族宝箱} 可能的位置。'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -346,7 +354,7 @@ L['tasty_hatchling_treat_note'] = '在书架后面的一个桶里。'
 L['pm_mining_bridgette_holdug'] = '在长满草的石柱上。'
 L['pm_tailor_elysa_raywinder'] = '在塔的中间的一个壁架上。'
 L['pt_alch_contraband_concoction_note'] = '隐藏在灌木丛中。{note:很难发现。}'
-L['pt_alch_furry_gloop_note'] = '将附近的 {npc:194855} 放入每个大锅中，然后杀死出现的怪物。'
+L['pt_alch_tasty_candy_note'] = '将附近的 {object:丢弃的玩具} 放入每个大锅中，然后杀死出现的怪物。'
 L['pt_ench_fractured_titanic_sphere_note'] = '{location:提尔要塞} 南侧。'
 L['pt_jewel_alexstraszite_cluster_note'] = '{location:提尔要塞} 内。'
 L['pt_jewel_painters_pretty_jewel_note'] = '一盏灯内。'

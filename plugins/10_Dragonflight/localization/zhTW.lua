@@ -212,6 +212,10 @@ L['community_feast_label'] = nil
 L['options_icons_community_feast'] = nil
 L['options_icons_community_feast_desc'] = nil
 
+L['tuskarr_chest'] = nil
+L['options_icons_tuskarr_chest'] = nil
+L['options_icons_tuskarr_chest_desc'] = nil -- '顯示 {object:巨牙海民釣具箱} 可能的位置'
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
@@ -317,6 +321,10 @@ L['chest_of_the_flood'] = '洪流寶箱'
 
 L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天又3小時 (75) 移動到另外一個營地, 跟著他們並在路上保護他們.'
 
+L['clan_chest'] = nil
+L['options_icons_clan_chest'] = nil
+L['options_icons_clan_chest_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -338,7 +346,7 @@ L['tasty_hatchling_treat_note'] = '在書架後的一個桶子內'
 L['pm_mining_bridgette_holdug'] = '在一個長草的石柱頂端'
 L['pm_tailor_elysa_raywinder'] = '在塔中間的平台上'
 L['pt_alch_contraband_concoction_note'] = '藏在樹叢內 {note:很難看到}.'
-L['pt_alch_furry_gloop_note'] = '各丟一個在附近的 {npc:194855} 到每個大鍋, 然後殺掉刷新出來的怪物'
+L['pt_alch_tasty_candy_note'] = '各丟一個在附近的 {object:[Discarded Toy]} 到每個大鍋, 然後殺掉刷新出來的怪物'
 L['pt_ench_fractured_titanic_sphere_note'] = '{location:提爾堡} 南邊.'
 L['pt_jewel_alexstraszite_cluster_note'] = '{location:提爾堡} 內.'
 L['pt_jewel_painters_pretty_jewel_note'] = '在燈籠內'

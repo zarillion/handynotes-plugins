@@ -200,7 +200,19 @@ Du musst sie aktivieren, um die Eiswand zu schmelzen (Zwei Spieler empfohlen).
 Töte dann {npc:197183} in der Höhle, um {item:200528} zu erhalten.
 ]]
 
-L['gethdazr_note'] = nil
+L['gethdazr_note'] = [[
+Erscheint als Teil eines Events in {location:Imbu} welches durch das blasen des {object:Großen Horns von Imbu} gestartet wird.({dot:Blue})
+Das Horn kann erst angeklicht werden nachdem der {npc:Wütende Luftelementar} besiegt wurde. Dieser hat eine Respawn Zeit von ca. 30-60 Minuten.
+
+{npc:191143}({dot:Green}) und andere NPCs kämpfen sich dann vom nordöstlichen Eingang von {location:Imbu} bis zur Klippe vor, wo {npc:196165} dann spawnen wird.
+Die NPCs können sterben wenn du ihnen nicht hilfst, dadurch wird das Event fehlschlagen.
+
+Das Event kann alleine geschafft werden, 2-3 Spieler sind aber empfohlen.
+]]
+
+L['tuskarr_chest'] = 'Kiste der Tuskarr'
+L['options_icons_tuskarr_chest'] = 'Kisten der Tuskarr'
+L['options_icons_tuskarr_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Kiste der Tuskarr} an.'
 
 L['community_feast_label'] = nil
 L['options_icons_community_feast'] = nil
@@ -311,6 +323,10 @@ L['chest_of_the_flood'] = 'Truhe der Flut'
 
 L['aylaag_camp_note'] = 'Der {faction:Aylaag Klan} zieht alle 3 Tage und 3 Stunden (75 Stunden) weiter in ein anderes Lager, folge ihnen und verteidige sie auf ihren Weg.'
 
+L['clan_chest'] = 'Klankiste'
+L['options_icons_clan_chest'] = 'Klankisten'
+L['options_icons_clan_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Klankisten} an.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -332,7 +348,7 @@ L['tasty_hatchling_treat_note'] = 'In einem Fass hinter dem Bücherregal.'
 L['pm_mining_bridgette_holdug'] = 'Auf einem grasbewachsenen Felspfeiler.'
 L['pm_tailor_elysa_raywinder'] = 'Auf einem Vorsprung auf halber Höhe des Turms.'
 L['pt_alch_contraband_concoction_note'] = 'In Büschen versteckt. {note:Schwer zu sehen.}'
-L['pt_alch_furry_gloop_note'] = 'Wirf ein {npc:194855} in der Nähe in jeden Kessel und töte dann den Gegner, der erscheint.'
+L['pt_alch_tasty_candy_note'] = 'Wirf ein {object:Weggeworfenes Spielzeug} in der Nähe in jeden Kessel und töte dann den Gegner, der erscheint.' -- laut wowhead [Discarded Toy]
 L['pt_ench_fractured_titanic_sphere_note'] = 'Südlich von {location:Tyrhold}.'
 L['pt_jewel_alexstraszite_cluster_note'] = 'In {location:Tyrhold}.'
 L['pt_jewel_painters_pretty_jewel_note'] = 'In einer Laterne.'

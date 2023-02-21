@@ -221,6 +221,10 @@ L['community_feast_label'] = '{spell:388961}'
 L['options_icons_community_feast'] = '{spell:388961}'
 L['options_icons_community_feast_desc'] = 'Muestra los festines y recompensas para los {spell:388961}.'
 
+L['tuskarr_chest'] = 'Cofre Colmillarr'
+L['options_icons_tuskarr_chest'] = 'Cofre Colmillarr'
+L['options_icons_tuskarr_chest_desc'] = 'Muestra dónde pueden haber {object:Cofres colmillarr}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
@@ -325,6 +329,10 @@ L['options_icons_nokhud_do_it_desc'] = 'Muestra información de ayuda para compl
 L['chest_of_the_flood'] = 'Cofre de la inundación'
 
 L['aylaag_camp_note'] = 'El {faction:Clan Aylaag} se mueve de un campamento a otro cada 3 días y 3 horas (75 horas). Síguelos y defiéndelos durante su marcha.'
+
+L['clan_chest'] = 'Cofre de Clan'
+L['options_icons_clan_chest'] = 'Cofres de Clan'
+L['options_icons_clan_chest_desc'] = 'Muestra dónde pueden estár los {object:Cofres de Clan}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

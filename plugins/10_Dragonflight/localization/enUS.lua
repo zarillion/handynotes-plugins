@@ -207,11 +207,18 @@ Kill {npc:197183} inside and you will recieve {item:200528}.
 ]]
 
 L['gethdazr_note'] = [[
-Spawns as part of an event involving {npc:191143} that starts by blowing the {object:Great Horn of Imbu}.
-The Horn will only become clickable after killing the {npc:196155} attacking it, and has a cooldown/respawn of around an hour.
-{npc:191143} and other NPCs will then fight their way from the north east entrance of {location:Imbu}, first heading south and then west to reach the south west corner, at which point {npc:196165} will spawn.
-The NPCs can die without help, ending the event early and failing to spawn the rare.
-]] -- taken straight from wowhead comments, might need some changes.
+Spawns as part of an event in {location:Imbu} that starts by blowing the {object:Great Horn of Imbu}({dot:Blue}).
+The Horn will only become clickable after killing the {npc:196155} which has about 30-60 minutes of respawn time.
+
+{npc:191143}({dot:Green}) and other NPCs will then fight their way from the north east entrance of {location:Imbu} up to the cliff where {npc:196165} will then spawn.
+The NPCs can die without help, which then will fail the event.
+
+This can be done solo but 2-3 players are recommended.
+]]
+
+L['tuskarr_chest'] = 'Tuskarr Chest'
+L['options_icons_tuskarr_chest'] = 'Tuskarr Chests'
+L['options_icons_tuskarr_chest_desc'] = 'Display possible locations of {object:Tuskarr Chest}.'
 
 L['community_feast_label'] = '{spell:388961}'
 L['options_icons_community_feast'] = '{spell:388961}'
@@ -322,6 +329,10 @@ L['chest_of_the_flood'] = 'Chest of the Flood'
 
 L['aylaag_camp_note'] = '{faction:Clan Aylaag} moves on to another camp every 3 days and 3 hours (75), follow them and defend them on their way.'
 
+L['clan_chest'] = 'Clan Chest'
+L['options_icons_clan_chest'] = 'Clan Chests'
+L['options_icons_clan_chest_desc'] = 'Display possible locations of {object:Clan Chests}.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -343,7 +354,7 @@ L['tasty_hatchling_treat_note'] = 'In a barrel behind the bookshelf.'
 L['pm_mining_bridgette_holdug'] = 'On top of a grassy rock pillar.'
 L['pm_tailor_elysa_raywinder'] = 'On a ledge halfway up the tower.'
 L['pt_alch_contraband_concoction_note'] = 'Hidden in bushes. {note:Difficult to see}.'
-L['pt_alch_furry_gloop_note'] = 'Drop a nearby {npc:194855} into each cauldron then kill the monster that spawns.'
+L['pt_alch_tasty_candy_note'] = 'Drop a nearby {object:Discarded Toy} into each cauldron then kill the monster that spawns.'
 L['pt_ench_fractured_titanic_sphere_note'] = 'South of {location:Tyrhold}.'
 L['pt_jewel_alexstraszite_cluster_note'] = 'In {location:Tyrhold}.'
 L['pt_jewel_painters_pretty_jewel_note'] = 'Inside a lantern.'
