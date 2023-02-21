@@ -24,6 +24,7 @@ local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
+local Rare14h = ns.node.Rare14h
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
@@ -103,7 +104,7 @@ map.nodes[56718128] = Rare({
     }
 }) -- Enraged Sapphire
 
-map.nodes[75184651] = ns.node.Rare14h({ -- reqiured 67030 review
+map.nodes[75184651] = Rare14h({ -- reqiured 67030 review
     id = 193170,
     quest = 73994,
     rotationID = 17,
@@ -167,7 +168,7 @@ map.nodes[32823817] = Rare({
     rewards = {Achievement({id = 16677, criteria = 56094})}
 }) -- Makhra the Ashtouched
 
-map.nodes[71694585] = ns.node.Rare14h({
+map.nodes[71694585] = Rare14h({
     id = 193212,
     quest = 74011,
     rotationID = 27,
@@ -186,7 +187,7 @@ map.nodes[71694585] = ns.node.Rare14h({
     }
 }) -- Malsegan
 
-map.nodes[63017996] = ns.node.Rare14h({ -- reqiured 67030
+map.nodes[63017996] = Rare14h({ -- reqiured 67030
     id = 193173,
     quest = 74015,
     rotationID = 9,
@@ -216,7 +217,7 @@ map.nodes[58604940] = Rare({
     }
 }) -- Defend Clan Aylaag
 
-map.nodes[61212950] = ns.node.Rare14h({ -- reqiured 67030
+map.nodes[61212950] = Rare14h({ -- reqiured 67030
     id = 193235,
     quest = 74018,
     rotationID = 24,
@@ -273,7 +274,7 @@ end
 
 map.nodes[68207920] = Quackers() -- Quackers the Terrible
 
-map.nodes[37005380] = ns.node.Rare14h({
+map.nodes[37005380] = Rare14h({
     id = 196010,
     quest = 74023,
     rotationID = 14,
@@ -287,7 +288,7 @@ map.nodes[37005380] = ns.node.Rare14h({
     }
 }) -- Researcher Sneakwing
 
-map.nodes[43405560] = ns.node.Rare14h({
+map.nodes[43405560] = Rare14h({
     id = 193227,
     quest = 74026,
     rotationID = 3,
@@ -377,7 +378,7 @@ map.nodes[21603960] = Rare({
     }
 }) -- Sparkspitter Vrak
 
-map.nodes[53627281] = ns.node.Rare14h({ -- reqiured 67030 review
+map.nodes[53627281] = Rare14h({ -- reqiured 67030 review
     id = 193123,
     quest = 74034,
     rotationID = 20,

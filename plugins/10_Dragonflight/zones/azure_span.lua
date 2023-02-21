@@ -26,6 +26,7 @@ local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
+local Rare14h = ns.node.Rare14h
 local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
@@ -274,7 +275,7 @@ map.nodes[32682911] = ns.node.RareElite14h(
         }
     }) -- Gruffy
 
-map.nodes[19234362] = ns.node.Rare14h({ -- required 67030
+map.nodes[19234362] = Rare14h({ -- required 67030
     id = 193269,
     quest = 74002,
     rotationID = 23,
@@ -402,7 +403,7 @@ map.nodes[58813260] = Rare({
 --     }
 -- }) -- Rusthide
 
-map.nodes[26494939] = ns.node.Rare14h({ -- review -- required 67030
+map.nodes[26494939] = Rare14h({ -- review -- required 67030
     id = 193149,
     quest = 74030,
     rotationID = 8,
