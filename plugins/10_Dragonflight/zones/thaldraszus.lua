@@ -70,6 +70,7 @@ map.nodes[59075874] = RareElite({
         Transmog({item = 200299, slot = L['1h_sword']}), -- Strange Clockwork Gladius
         Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
         Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
+        Recipe({item = 194641, id = 374499, profession = 755}), -- Design: Elemental Lariat - 0.06%
         DC.WindborneVelocidrake.SpikedBack, DC.HighlandDrake.StripedPattern,
         DC.HighlandDrake.CrestedBrow
     },
@@ -192,6 +193,7 @@ map.nodes[59128380] = Rare({
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
+        Recipe({item = 191578, id = 370707, profession = 171}), -- Recipe: Transmute: Awakened Fire - 0.16%
         Toy({item = 200148}), -- A Collection Of Me
         DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
     },
@@ -479,6 +481,7 @@ map.nodes[55647727] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
+        Recipe({item = 198906, id = 383570, profession = 773}), -- Technique: Illusion Parchment: Arcane Burst - 0.02%
         DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane,
         Item({item = 198048}) -- Titan Training Matrix I
     }
@@ -497,6 +500,8 @@ map.nodes[36757287] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
+        Recipe({item = 198906, id = 383570, profession = 773}), -- Technique: Illusion Parchment: Arcane Burst - 0.04%
+        Recipe({item = 194312, id = 375171, profession = 165}), -- Pattern: Gnoll Tent - 0.02%
         Item({item = 198048}) -- Titan Training Matrix I
     }
 }) -- Liskron the Dazzling
@@ -510,6 +515,7 @@ map.nodes[36798556] = Rare({
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Toy({item = 200198}), -- Primalist Prison
+        Recipe({item = 194267, id = 376537, profession = 197}), -- Pattern: Shimmering Embroidery Thread - 0.02%
         DC.WindborneVelocidrake.ClusterHorns, DC.RenewedProtoDrake.ImpalerHorns,
         DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.HeavyHorns,
         Item({item = 198048}) -- Titan Training Matrix I
