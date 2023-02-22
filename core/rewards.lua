@@ -563,7 +563,19 @@ end
 ------------------------------------ RECIPE -----------------------------------
 -------------------------------------------------------------------------------
 
-local Recipe = Class('Recipe', Reward, {
+local PROFESSION_PREFIX = {
+    [171] = L['recipe_prefix_alchemy'],
+    [164] = L['recipe_prefix_blacksmithing'],
+    [333] = L['recipe_prefix_enchanting'],
+    [202] = L['recipe_prefix_engineering'],
+    [773] = L['recipe_prefix_inscription'],
+    [755] = L['recipe_prefix_jewelcrafting'],
+    [165] = L['recipe_prefix_leatherworking'],
+    [197] = L['recipe_prefix_tailoring'],
+    [185] = L['recipe_prefix_cooking']
+}
+
+local Recipe = Class('Recipe', Item, {
     display_option = 'show_recipe_rewards',
     type = L['recipe']
 })
@@ -573,19 +585,14 @@ function Recipe:Initialize(attrs)
         Item.Initialize(self, attrs)
     else
         Reward.Initialize(self, attrs)
-        local prefix = {
-            [171] = L['recipe_prefix_alchemy'],
-            [164] = L['recipe_prefix_blacksmithing'],
-            [333] = L['recipe_prefix_enchanting'],
-            [202] = L['recipe_prefix_engineering'],
-            [773] = L['recipe_prefix_inscription'],
-            [755] = L['recipe_prefix_jewelcrafting'],
-            [165] = L['recipe_prefix_leatherworking'],
-            [197] = L['recipe_prefix_tailoring'],
-            [185] = L['recipe_prefix_cooking']
-        }
-        prefix = prefix[self.profession] or ''
+    end
 
+    if not self.profession then
+        error('Recipe() reward requires a profession id to be set')
+    end
+
+    if not self.item then
+        local prefix = PROFESSION_PREFIX[self.profession] or ''
         local name, _, icon = GetSpellInfo(self.id)
         self.itemIcon = icon
         self.itemLink = ns.color.White('[' .. prefix .. name .. ']')
@@ -595,21 +602,8 @@ end
 function Recipe:IsObtained() return IsSpellKnown(self.id) end
 
 function Recipe:IsEnabled()
-    if self.display_option and not ns:GetOpt(self.display_option) then
-        return false
-    end
-    if self.profession and ns.PlayerHasProfession(self.profession) then
-        return true
-    end
-    return false
-end
-
-function Recipe:GetText()
-    local text = self.itemLink .. ' (' .. self.type .. ')'
-    if self.note then -- additional info
-        text = text .. ' (' .. ns.RenderLinks(self.note, true) .. ')'
-    end
-    return Icon(self.itemIcon) .. text
+    if not Item.IsEnabled(self) then return false end
+    return ns.PlayerHasProfession(self.profession)
 end
 
 function Recipe:GetStatus()
