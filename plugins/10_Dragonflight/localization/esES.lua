@@ -131,7 +131,7 @@ L['longhunter_suffix'] = 'bosses matados'
 L['the_best_at_what_i_do_suffix'] = 'pasos de la cacería completados'
 
 L['options_icons_grand_hunts'] = 'Grandes Cacerías'
-L['options_icons_grand_hunts_desc'] = 'Muestra las cacerías y las recompensas del {object:Botín de la Gran cacería}.'
+L['options_icons_grand_hunts_desc'] = 'Muestra las cacerías y las recompensas de las {object:Grandes Cacerías}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -214,10 +214,10 @@ Mata el {npc:197183} de dentro y recibirás la {item:200528}.
 
 L['gethdazr_note'] = [[
 Aparece como parte de un evento en {location:Imbu} que empieza soplando el {object:Gran Cuerno de Imbu} ({dot:Blue}).
-Sólo se podrá hacer click en el Cuerno después de matar al {npc:196155}, el cual tiene una reaparición de 30-60 minutos.
+Sólo se podrá hacer click en el cuerno después de matar al {npc:196155}, el cual tiene una reaparición de 30-60 minutos.
 
 Luego, {npc:191143} ({dot:Green}) y otros NPC se abrirán camino desde la entrada noreste de {location:Imbu} hasta donde aparece {npc:196165}.
-Los NPC pueden morir sin ayuda y hacer fallar el evento.
+Los NPC pueden morir si no reciben ayuda y hacer fallar el evento.
 
 Se puede hacer en solitario pero se recomiendan 2-3 jugadores.
 ]]
@@ -255,12 +255,12 @@ L['windscale_the_stormborn_note'] = 'Mata a los {npc:192367} que están canaliza
 L['windseeker_avash_note'] = 'Mata a los {npc:195742} cercanos y a los {npc:187916} para hacer aparecer al raro.'
 L['zarizz_note'] = 'Selecciona a las {npc:193169} y teclea {emote:/hiss} en ellas para invocar al raro.'
 
-L['aylaag_outpost_note'] = '{note:Este raro sólo aparece cuando el campamento del {faction:Clan Aylaag} está en la {location:Avanzada Aylaag}.}'
-L['eaglewatch_outpost_note'] = '{note:Este raro sólo aparece cuando el campamento del {faction:Clan Aylaag} está en la {location:Avanzada Vigía del Águila}.}'
-L['river_camp_note'] = '{note:Este raro sólo aparece cuando el campamento del {faction:Clan Aylaag} está en el {location:Campamento del Río}.}'
+L['aylaag_outpost_note'] = '{note:Este raro sólo aparece cuando el campamento del {faction:2512} está en la {location:Avanzada Aylaag}.}'
+L['eaglewatch_outpost_note'] = '{note:Este raro sólo aparece cuando el campamento del {faction:2512} está en la {location:Avanzada Vigía del Águila}.}'
+L['river_camp_note'] = '{note:Este raro sólo aparece cuando el campamento del {faction:2512} está en el {location:Campamento del Río}.}'
 
 L['defend_clan_aylaag'] = 'Defiende al Clan Aylaag'
-L['defend_clan_aylaag_note'] = '{note:Sólo aparece cuando se defienden los eventos de movimiento de campamentos del {faction:Clan Aylaag}. No hay botín.}'
+L['defend_clan_aylaag_note'] = '{note:Sólo aparece cuando se defienden los eventos de movimiento de campamentos del {faction:2512}. No hay botín.}'
 
 L['gold_swong_coin_note'] = 'Dentro de la cueva con {npc:191608} a su lado derecho.'
 L['nokhud_warspear_note'] = 'Las {item:194540} se pueden encontrar en las {object:Mochilas de Explorador de Expedición} y en las {object:Tierras Revueltas}.'
@@ -324,16 +324,16 @@ L['hunt_instructor_basku_note'] = 'Entrega {item:200093} para conseguir reputaci
 L['elder_yusa_note'] = 'Selecciona a la {npc:192818} y teclea {emote:/hambre} para conseguir la receta de cocina.'
 L['initiate_kittileg_note'] = 'Completa la misión {quest:66226} para conseguir el juguete.'
 
-L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en el campamento cercano del {location:Clan Aylaag}. {dot:Blue}\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
+L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en el campamento cercano del {faction:2512}. {dot:Blue}\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
 L['quackers_spawn'] = 'Ahora necesitas pillar un pato cerca del nido con la {item:194712}. Después usa el {item:194739} en el {npc:192581} para invocar a {npc:192557}.'
 
-L['knew_you_nokhud_do_it_note'] = '{note:Los 3 objetos son únicos y dejan de existir tras 30 minutos.}\n\nConsigue {item:200184}, {item:200194}, y {item:200196} de varios {npc:185357}, {npc:185353}, o {npc:185168} alrededor de {location:Bastión Nokhudon}.\n\nCombínalos para crear el {item:200201} y úsalo para hablar con {npc:197884} para comenzar el circuito de entrenamiento.\n\nUsa tu |cFFFFFD00Botón de Acción Extra|r para completarlo y conseguir el logro.\n\n{note:Completar el logro mientras estás en banda durante una Tormenta Elemental hace más fácil conseguir los objetos.}'
+L['knew_you_nokhud_do_it_note'] = '{note:Los 3 objetos son únicos y dejan de existir tras 30 minutos.}\n\nConsigue {item:200184}, {item:200194}, y {item:200196} de varios {npc:185357}, {npc:185353}, o {npc:185168} alrededor de {location:Bastión Nokhudon}.\n\nCombínalos para crear el {item:200201} y úsalo para hablar con {npc:197884} para comenzar el circuito de entrenamiento.\n\nUsa tu {object:Botón de Acción Extra} para completarlo y conseguir el logro.\n\n{note:Completar el logro mientras estás en banda durante una Tormenta Elemental hace más fácil conseguir los objetos.}'
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
 L['options_icons_nokhud_do_it_desc'] = 'Muestra información de ayuda para completar el logro {achievement:16583}.'
 
 L['chest_of_the_flood'] = 'Cofre de la inundación'
 
-L['aylaag_camp_note'] = 'El {faction:Clan Aylaag} se mueve de un campamento a otro cada 3 días y 3 horas (75 horas). Síguelos y defiéndelos durante su marcha.'
+L['aylaag_camp_note'] = 'El {faction:2512} se mueve de un campamento a otro cada 3 días y 3 horas (75 horas). Síguelos y defiéndelos durante su marcha.'
 
 L['clan_chest'] = 'Cofre de Clan'
 L['options_icons_clan_chest'] = 'Cofres de Clan'
@@ -405,7 +405,7 @@ L['brendormi_note_currency'] = 'Actualmente tienes %s {currency:2118}.'
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
 
-L['brundin_the_dragonbane_note'] = 'El Destacamento de Guerra Qalashi viaja encima de su {npc:192737} a esta torre.'
+L['brundin_the_dragonbane_note'] = 'El {object:Destacamento de Guerra Qalashi} viaja encima de su {npc:192737} a esta torre.'
 L['captain_lancer_note'] = 'Aparece inmediatamente después de completar el evento {spell:388945}.'
 L['enkine_note'] = 'Mata a {npc:193137}, {npc:193138} o {npc:193139} a lo largo del rio de lava para consesguir {item:201092}. Úsalas y pesca cerca de la {npc:191866} en la lava.'
 L['lepidoralia_note'] = 'Está en la {location:Caverna del Aleteo}. Ayuda al {npc:193342} a coger {npc:193274} hasta que aparezca el raro.'
