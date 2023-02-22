@@ -1101,7 +1101,7 @@ local ELEMENTAL_STORM_FORMULA_REWARDS = {
     ['all'] = Recipe({
         item = 194641,
         spell = 374499,
-        profession = 755, -- Jewelcrafting
+        profession = 755 -- Jewelcrafting
     }), -- Design: Elemental Lariat
     ['thunderstorm'] = Recipe({
         item = 200911,
