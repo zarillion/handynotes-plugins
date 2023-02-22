@@ -118,14 +118,14 @@ L['kaara_the_pale_note'] = '{npc:126860} ne lâche plus {item:153190}'
 L['turek_the_lucid_note'] = 'Dans l’{location:Effondrement d’Oronaar}'
 
 L['ancient_eredar_cache'] = 'Ancienne cache érédar'
-L['ancient_eredar_cache_note'] = 'Il y a 6 anciennes caches érédar distinctes qui peuvent chacune apparaître à des endroits précis.'
+L['ancient_eredar_cache_note'] = 'Il y a 6 {object:Anciennes caches érédar} distinctes qui peuvent chacune apparaître à des endroits précis.'
 L['void_seeped_cache'] = 'Cache infiltrée par le Vide'
 L['void_seeped_cache_note'] = 'Il y a 2 {object:Caches infiltrées par le Vide} distinctes qui peuvent chacune apparaître à des endroits précis.'
 
 L['options_icons_ancient_eredar_cache'] = 'Ancienne cache érédar'
-L['options_icons_ancient_eredar_cache_desc'] = 'Afficher les emplacements possibles pour les Anciennes caches érédar (coffres journaliers).'
+L['options_icons_ancient_eredar_cache_desc'] = 'Afficher les emplacements possibles pour les {object:Anciennes caches érédar} (coffres journaliers).'
 L['options_icons_void_seeped_cache'] = 'Cache infiltrée par le Vide'
-L['options_icons_void_seeped_cache_desc'] = 'Afficher les emplacements possibles pour les Caches infiltrées par le Vide (coffres journaliers).'
+L['options_icons_void_seeped_cache_desc'] = 'Afficher les emplacements possibles pour les {object:Caches infiltrées par le Vide} (coffres journaliers).'
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
@@ -140,10 +140,10 @@ L['bredda_tenderhide_note'] = 'Que le plus courageux soit victorieux !'
 -------------------------------------------------------------------------------
 
 L['eredar_war_supplies'] = 'Fournitures de guerre érédars'
-L['eredar_war_supplies_note'] = 'Il y a 7 Fournitures de guerre érédars distinctes qui peuvent chacune apparaître à des endroits précis.'
+L['eredar_war_supplies_note'] = 'Il y a 7 {object:Fournitures de guerre érédars} distinctes qui peuvent chacune apparaître à des endroits précis.'
 
 L['options_icons_eredar_war_supplies'] = 'Fournitures de guerre érédars'
-L['options_icons_eredar_war_supplies_desc'] = 'Afficher les emplacements possibles pour les Fournitures de guerre érédars (coffres journaliers).'
+L['options_icons_eredar_war_supplies_desc'] = 'Afficher les emplacements possibles pour les {object:Fournitures de guerre érédars} (coffres journaliers).'
 
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
