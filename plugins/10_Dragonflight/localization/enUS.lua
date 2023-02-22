@@ -213,7 +213,7 @@ Kill {npc:197183} inside and you will recieve {item:200528}.
 
 L['gethdazr_note'] = [[
 Spawns as part of an event in {location:Imbu} that starts by blowing the {object:Great Horn of Imbu}({dot:Blue}).
-The Horn will only become clickable after killing the {npc:196155} which has about 30-60 minutes of respawn time.
+The horn will only become clickable after killing the {npc:196155} which has about 30-60 minutes of respawn time.
 
 {npc:191143}({dot:Green}) and other NPCs will then fight their way from the north east entrance of {location:Imbu} up to the cliff where {npc:196165} will then spawn.
 The NPCs can die without help, which then will fail the event.
@@ -254,12 +254,12 @@ L['windscale_the_stormborn_note'] = 'Kill the {npc:192367s} channeling into the 
 L['windseeker_avash_note'] = 'Kill nearby {npc:195742s} and {npc:187916s} to spawn the rare.'
 L['zarizz_note'] = 'Click and {emote:/hiss} at the four {npc:193169s} to summon the rare.'
 
-L['aylaag_outpost_note'] = '{note:This rare only spawns when {faction:Clan Aylaag} Camp in {location:Aylaag Outpost}.}'
-L['eaglewatch_outpost_note'] = '{note:This rare only spawns when {faction:Clan Aylaag} Camp in {location:Eaglewatch Outpost}.}'
-L['river_camp_note'] = '{note:This rare only spawns when {faction:Clan Aylaag} Camp in {location:River Camp}.}'
+L['aylaag_outpost_note'] = '{note:This rare only spawns when {faction:2512} Camp in {location:Aylaag Outpost}.}'
+L['eaglewatch_outpost_note'] = '{note:This rare only spawns when {faction:2512} Camp in {location:Eaglewatch Outpost}.}'
+L['river_camp_note'] = '{note:This rare only spawns when {faction:2512} Camp in {location:River Camp}.}'
 
 L['defend_clan_aylaag'] = 'Defend Clan Aylaag'
-L['defend_clan_aylaag_note'] = '{note:Only spawns when defending the {faction:Clan Aylaag} Camp moving events, not loot.}'
+L['defend_clan_aylaag_note'] = '{note:Only spawns when defending the {faction:2512} Camp moving events, not loot.}'
 
 L['gold_swong_coin_note'] = 'Inside the cave with {npc:191608} to his right side.'
 L['nokhud_warspear_note'] = '{item:194540} can be found in {object:Expedition Scout\'s Packs} and {object:Disturbed Dirts}.'
@@ -323,7 +323,7 @@ L['hunt_instructor_basku_note'] = 'Exchange {item:200093} for {faction:2503} rep
 L['elder_yusa_note'] = 'Target {npc:192818} and {emote:/hungry} to obtain the cooking recipe.'
 L['initiate_kittileg_note'] = 'Complete {quest:66226} to obtain the toy!'
 
-L['quackers_duck_trap_kit'] = 'To summon {npc:192557} you first need the {item:194740} which you can find in a nearby {location:Clan Aylaag camp}.{dot:Blue}\n\nTo make a {item:194712} you need the following materials:'
+L['quackers_duck_trap_kit'] = 'To summon {npc:192557} you first need the {item:194740} which you can find in a nearby {faction:2512} camp.{dot:Blue}\n\nTo make a {item:194712} you need the following materials:'
 L['quackers_spawn'] = 'Next you need to catch a duck near the nest with the {item:194712}. Use the {item:194739} at the {npc:192581} to summon {npc:192557}.'
 
 L['knew_you_nokhud_do_it_note'] = '{note:All 3 items are unique and have a 30 minute timer.}\n\nCollect {item:200184}, {item:200194}, and {item:200196} from various {npc:185357s}, {npc:185353s}, and {npc:185168s} around {location:Nokhudon Hold}.\n\nCombine them to create {item:200201} and use it to speak with {npc:197884} to begin the training course.\n\nUse your |cFFFFFD00Extra Action Button|r to complete it and earn your achievement.\n\n{note:Completing the achievement while in a raid during an Elemental Storm makes farming the items much easier.}'
@@ -332,7 +332,7 @@ L['options_icons_nokhud_do_it_desc'] = 'Display helpful information for completi
 
 L['chest_of_the_flood'] = 'Chest of the Flood'
 
-L['aylaag_camp_note'] = '{faction:Clan Aylaag} moves on to another camp every 3 days and 3 hours (75), follow them and defend them on their way.'
+L['aylaag_camp_note'] = '{faction:2512} moves on to another camp every 3 days and 3 hours (75), follow them and defend them on their way.'
 
 L['clan_chest'] = 'Clan Chest'
 L['options_icons_clan_chest'] = 'Clan Chests'
