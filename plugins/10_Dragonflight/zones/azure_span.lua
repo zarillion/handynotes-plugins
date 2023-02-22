@@ -91,7 +91,6 @@ map.nodes[73032680] = Rare({
 map.nodes[13584855] = ns.node.Feast({
     id = 197557,
     quest = 74097,
-    -- note = L['bisquis_note'],
     rewards = {
         Achievement({id = 16678, criteria = 55381}), -- Adventurer of The Azure Span
         Achievement({id = 16444}), -- Leftovers' Revenge
@@ -256,26 +255,25 @@ map.nodes[14083747] = ns.node.Brackenhide({
     }
 }) -- Gnarls
 
-map.nodes[32682911] = ns.node.RareElite14h(
-    { -- review -- required 67030
-        id = 193251,
-        quest = 74001,
-        rotationID = 2,
-        rewards = {
-            Achievement({id = 16678, criteria = 56111}), -- Adventurer of The Azure Span
-            Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
-            Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
-            Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
-            Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
-            Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
-            Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
-            Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-            Toy({item = 200249}), -- Mage's Chewed Wand
-            DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
-        }
-    }) -- Gruffy
+map.nodes[32682911] = ns.node.RareElite14h({
+    id = 193251,
+    quest = 74001,
+    rotationID = 2,
+    rewards = {
+        Achievement({id = 16678, criteria = 56111}), -- Adventurer of The Azure Span
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
+    }
+}) -- Gruffy
 
-map.nodes[19234362] = Rare14h({ -- required 67030
+map.nodes[19234362] = Rare14h({
     id = 193269,
     quest = 74002,
     rotationID = 23,
@@ -403,7 +401,7 @@ map.nodes[58813260] = Rare({
 --     }
 -- }) -- Rusthide
 
-map.nodes[26494939] = Rare14h({ -- review -- required 67030
+map.nodes[26494939] = Rare14h({
     id = 193149,
     quest = 74030,
     rotationID = 8,

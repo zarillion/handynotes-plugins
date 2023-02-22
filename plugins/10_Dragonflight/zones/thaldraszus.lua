@@ -93,7 +93,7 @@ map.nodes[31097121] = Rare({
     }
 }) -- Blightpaw the Depraved
 
-map.nodes[59847057] = Rare14h({ -- required 67030
+map.nodes[59847057] = Rare14h({
     id = 193220,
     quest = 73987,
     rotationID = 25,
@@ -149,7 +149,7 @@ local CRAGGRAVATEDELEMENTAL = Rare({
 map.nodes[45458518] = CRAGGRAVATEDELEMENTAL
 map.nodes[52746732] = CRAGGRAVATEDELEMENTAL
 
-map.nodes[47675115] = Rare14h({ -- required 67030
+map.nodes[47675115] = Rare14h({
     id = 193234,
     quest = 73990,
     rotationID = 6,
@@ -244,6 +244,7 @@ map.nodes[52895903] = Rare14h({
 map.nodes[59806100] = Rare({
     id = 193688,
     quest = 74020,
+    -- rotationID = 7, -- wait for blizz fix.
     rewards = {
         Achievement({id = 16679, criteria = 56140}),
         Transmog({item = 200146, slot = L['1h_mace']}), -- Phenran's Discordant Smasher
@@ -257,7 +258,7 @@ map.nodes[59806100] = Rare({
     }
 }) -- Phenran
 
-map.nodes[57218420] = Rare14h({ -- reqired 67030 review
+map.nodes[57218420] = Rare14h({
     id = 193210,
     quest = 74021,
     rotationID = 0,
@@ -311,7 +312,7 @@ map.nodes[50404840] = Rare({
     }
 }) -- Razk'vex the Untamed
 
-map.nodes[40087014] = Rare14h({ -- reqiured 67030
+map.nodes[40087014] = Rare14h({
     id = 193240,
     quest = 74024,
     rotationID = 4,
@@ -331,7 +332,7 @@ map.nodes[40087014] = Rare14h({ -- reqiured 67030
     }
 }) -- Riverwalker Tamopo
 
-map.nodes[50005180] = Rare14h({ -- reqiured 67030 review
+map.nodes[50005180] = Rare14h({
     id = 193666,
     quest = 74025,
     rotationID = 10,
@@ -349,7 +350,7 @@ map.nodes[50005180] = Rare14h({ -- reqiured 67030 review
     }
 }) -- Rokmur
 
-map.nodes[37607780] = Rare14h({ -- reqiured 67030
+map.nodes[37607780] = Rare14h({
     id = 193176,
     quest = 74029,
     rotationID = 18,
@@ -368,7 +369,7 @@ map.nodes[37607780] = Rare14h({ -- reqiured 67030
     pois = {POI({38507640})} -- Cave entrance
 }) -- Sandana the Tempest
 
-map.nodes[47207895] = Rare14h({ -- review -- reqiured 67030
+map.nodes[47207895] = Rare14h({
     id = 193258,
     quest = 74035,
     rotationID = 21,
@@ -421,7 +422,7 @@ map.nodes[46267317] = Rare({
     pois = {POI({47547180})} -- Cave entrance
 }) -- The Weeping Vilomah
 
-map.nodes[35027001] = Rare14h({ -- reqiured 67030 review
+map.nodes[35027001] = Rare14h({
     id = 193146,
     quest = 74036,
     rotationID = 15,

@@ -90,7 +90,6 @@ L['signal_transmitter_note'] = ns.color.Orange('Benötigt 10 Punkte in Mechanisc
 L['options_icons_signal_transmitter'] = 'Wyrmlochgenerator Signaltransmitters'
 L['options_icons_signal_transmitter_desc'] = 'Zeigt die Positionen der {object:Deaktivierten Signaltransmitter} für {item:198156} an.'
 
-L['spawns_periodically'] = '{note:Erscheint möglicherweise alle 30 Minuten, synchronisiert über den Realm. (Beispiel: 9:00, 17:30)}'
 L['rare_14h'] = 'Die Gegner teilt sich einen 14 Stunden Interval mit Anderen Gegnern, wobei alle 30 Minuten ein Gegner spawnen kann.\n\nNächster möglicher spawn: {note:%s} (Server Zeit)'
 L['time_format'] = '%H:%M - %d.%m.%Y'
 L['spawns_at_night'] = '{note:Erscheint nur nachts. (Ab 18:30 Server Zeit)}'

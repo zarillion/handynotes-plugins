@@ -91,7 +91,6 @@ L['signal_transmitter_note'] = '{note:Requiert 10 points dans Esprit mécanique\
 L['options_icons_signal_transmitter'] = 'Transmetteurs de signaux du Générateur de trou de wyrm'
 L['options_icons_signal_transmitter_desc'] = 'Afficher les emplacements des {object:Transmetteurs de signaux désactivés} pour le {item:198156}.'
 
-L['spawns_periodically'] = '{note:Apparitions possibles toutes les 30 minutes, synchronisées sur l\'ensemble du serveur. (Exemple : 9:00, 17:30)}'
 L['rare_14h'] = 'Ce rare fait partie d\'une rotation de 14 heures avec les autres rares, un rare apparaissant toutes les 30 minutes.\n\nProchaine apparition possible : {note:%s} (heure du serveur)'
 L['time_format'] = '%H:%M - %d/%m/%Y'
 L['spawns_at_night'] = '{note:Apparaît uniquement la nuit. (Après 18:30, heure du serveur)}'

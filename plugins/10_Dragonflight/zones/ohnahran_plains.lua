@@ -104,7 +104,7 @@ map.nodes[56718128] = Rare({
     }
 }) -- Enraged Sapphire
 
-map.nodes[75184651] = Rare14h({ -- reqiured 67030 review
+map.nodes[75184651] = Rare14h({
     id = 193170,
     quest = 73994,
     rotationID = 17,
@@ -187,7 +187,7 @@ map.nodes[71694585] = Rare14h({
     }
 }) -- Malsegan
 
-map.nodes[63017996] = Rare14h({ -- reqiured 67030
+map.nodes[63017996] = Rare14h({
     id = 193173,
     quest = 74015,
     rotationID = 9,
@@ -217,7 +217,7 @@ map.nodes[58604940] = Rare({
     }
 }) -- Defend Clan Aylaag
 
-map.nodes[61212950] = Rare14h({ -- reqiured 67030
+map.nodes[61212950] = Rare14h({
     id = 193235,
     quest = 74018,
     rotationID = 24,
@@ -378,7 +378,7 @@ map.nodes[21603960] = Rare({
     }
 }) -- Sparkspitter Vrak
 
-map.nodes[53627281] = Rare14h({ -- reqiured 67030 review
+map.nodes[53627281] = Rare14h({
     id = 193123,
     quest = 74034,
     rotationID = 20,
@@ -662,7 +662,7 @@ map.nodes[36803800] = Rare({
     }
 }) -- Bloodbeak the Ravenous
 
-map.nodes[35804040] = Rare({ -- rough coordinates from wowhead
+map.nodes[35804040] = Rare({
     id = 201537,
     quest = 74463,
     rewards = {

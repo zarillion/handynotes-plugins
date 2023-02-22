@@ -79,7 +79,7 @@ map.nodes[58634021] = Rare({
     }
 }) -- Anhydros the Tidetaker
 
-map.nodes[54517174] = Rare14h({ -- review -- required 67030
+map.nodes[54517174] = Rare14h({
     id = 193135,
     quest = 73984,
     rotationID = 26,
@@ -305,7 +305,7 @@ map.nodes[34618275] = Rare({
     }
 }) -- Lepidoralia the Resplendent
 
-map.nodes[39596353] = Rare14h({ -- review -- required 67030
+map.nodes[39596353] = Rare14h({
     id = 186827,
     quest = 74010,
     rotationID = 1,
@@ -321,7 +321,7 @@ map.nodes[39596353] = Rare14h({ -- review -- required 67030
     }
 }) -- Magmaton
 
-map.nodes[22207649] = ns.node.RareElite14h({ -- required 67030
+map.nodes[22207649] = ns.node.RareElite14h({
     id = 193152,
     quest = 74012,
     rotationID = 22,
@@ -366,7 +366,7 @@ map.nodes[56004592] = Rare({
     }
 }) -- Nulltheria the Void Gazer
 
-map.nodes[81485082] = Rare14h({ -- required 67030
+map.nodes[81485082] = Rare14h({
     id = 193118,
     quest = 74017,
     rotationID = 13,

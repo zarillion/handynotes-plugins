@@ -91,7 +91,6 @@ L['signal_transmitter_note'] = '{note:Требуется 10 очков в Мас
 L['options_icons_signal_transmitter'] = 'Драконий генератор червоточин'
 L['options_icons_signal_transmitter_desc'] = 'Отображение местоположения {object:Отключенных передатчиков} для {item:198156}.'
 
-L['spawns_periodically'] = '{note:Возможные появления каждые 30 минут, синхронизированные по всем игровым мирам. (Пример: 9:00, 17:30)}'
 L['rare_14h'] = nil
 L['time_format'] = nil
 L['spawns_at_night'] = '{note:Появляется только ночью. (После 18:30 по серверному времени)}'
