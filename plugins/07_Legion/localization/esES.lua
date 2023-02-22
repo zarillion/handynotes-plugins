@@ -4,7 +4,6 @@ local L = ns.NewLocale('esES')
 if not L then return end
 
 local Gold = ns.color.Gold
-local Red = ns.color.Red
 
 -------------------------------------------------------------------------------
 ------------------------------- ANTORAN WASTES --------------------------------
