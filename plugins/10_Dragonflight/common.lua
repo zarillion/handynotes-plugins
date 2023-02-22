@@ -16,6 +16,7 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Spacer = ns.reward.Spacer
 local Transmog = ns.reward.Transmog
 
