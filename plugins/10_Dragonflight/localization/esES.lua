@@ -127,8 +127,8 @@ L['options_icons_elusive_creature'] = '{item:193906}'
 L['options_icons_elusive_creature_desc'] = 'Muestra dónde están las criaturas esquivas invocadas con el {item:193906}.'
 
 L['grand_hunts_label'] = 'Grandes Cacerías'
-L['longhunter_suffix'] = 'bosses matados'
-L['the_best_at_what_i_do_suffix'] = 'pasos de la cacería completados'
+L['longhunter_suffix'] = 'pasos de la cacería completados'
+L['the_best_at_what_i_do_suffix'] = 'bosses matados'
 
 L['options_icons_grand_hunts'] = 'Grandes Cacerías'
 L['options_icons_grand_hunts_desc'] = 'Muestra las cacerías y las recompensas de las {object:Grandes Cacerías}.'

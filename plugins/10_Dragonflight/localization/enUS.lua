@@ -126,8 +126,8 @@ L['options_icons_elusive_creature'] = '{item:193906}'
 L['options_icons_elusive_creature_desc'] = 'Display locations for elusive creatures summoned with {item:193906}.'
 
 L['grand_hunts_label'] = 'Grand Hunts'
-L['longhunter_suffix'] = 'bosses killed'
-L['the_best_at_what_i_do_suffix'] = 'hunt steps completed'
+L['longhunter_suffix'] = 'hunt steps completed'
+L['the_best_at_what_i_do_suffix'] = 'bosses killed'
 
 L['options_icons_grand_hunts'] = 'Grand Hunts'
 L['options_icons_grand_hunts_desc'] = 'Display locations and rewards for {object:Grand Hunts}.'

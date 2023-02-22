@@ -126,8 +126,8 @@ L['options_icons_elusive_creature'] = '{item:193906}'
 L['options_icons_elusive_creature_desc'] = '显示 {item:193906} 召唤的隐秘生物位置。'
 
 L['grand_hunts_label'] = '洪荒狩猎'
-L['longhunter_suffix'] = '首领已击杀'
-L['the_best_at_what_i_do_suffix'] = '狩猎进度已完成'
+L['longhunter_suffix'] = '狩猎进度已完成'
+L['the_best_at_what_i_do_suffix'] = '首领已击杀'
 
 L['options_icons_grand_hunts'] = '洪荒狩猎'
 L['options_icons_grand_hunts_desc'] = '显示 {object:洪荒狩猎} 的位置和奖励。'

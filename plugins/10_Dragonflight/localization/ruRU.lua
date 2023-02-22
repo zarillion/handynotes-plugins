@@ -127,8 +127,8 @@ L['options_icons_elusive_creature'] = '{item:193906}'
 L['options_icons_elusive_creature_desc'] = 'Отображать местоположения неуловимых существ, призванных с помощью {item:193906}.'
 
 L['grand_hunts_label'] = 'Великая охота'
-L['longhunter_suffix'] = 'боссы убиты'
-L['the_best_at_what_i_do_suffix'] = 'этапы охоты завершены'
+L['longhunter_suffix'] = 'этапы охоты завершены'
+L['the_best_at_what_i_do_suffix'] = 'боссы убиты'
 
 L['options_icons_grand_hunts'] = 'Великая охота'
 L['options_icons_grand_hunts_desc'] = 'Отображение локаций и наград за {object:Великую охоту}.'

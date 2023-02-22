@@ -126,8 +126,8 @@ L['options_icons_elusive_creature'] = '{item:193906}'
 L['options_icons_elusive_creature_desc'] = 'Zeigt die Positionen der scheuen Kreaturen welche mit {item:193906} angelockt werden können.'
 
 L['grand_hunts_label'] = 'Große Jagden'
-L['longhunter_suffix'] = 'Bosse getötet.'
-L['the_best_at_what_i_do_suffix'] = 'Jagd schritte abgeschlossen'
+L['longhunter_suffix'] = 'Jagdschritte abgeschlossen'
+L['the_best_at_what_i_do_suffix'] = 'Bosse getötet'
 
 L['options_icons_grand_hunts'] = 'Große Jagden'
 L['options_icons_grand_hunts_desc'] = 'Zeigt die Position und Belohnungen der {location:Großen Jagd}'
