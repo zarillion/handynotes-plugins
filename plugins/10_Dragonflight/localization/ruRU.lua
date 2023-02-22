@@ -220,9 +220,9 @@ L['tuskarr_chest'] = 'Клыкаррский сундук'
 L['options_icons_tuskarr_chest'] = 'Клыкаррский сундук'
 L['options_icons_tuskarr_chest_desc'] = 'Показать возможные места {object:Клыкаррских сундуков}.'
 
-L['community_feast_label'] = nil
-L['options_icons_community_feast'] = nil
-L['options_icons_community_feast_desc'] = nil
+L['community_feast_label'] = '{spell:388961}'
+L['options_icons_community_feast'] = '{spell:388961}'
+L['options_icons_community_feast_desc'] = 'Отображение локации и наград за {spell:388961}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -527,6 +527,6 @@ L['djaradin_cache'] = 'Тайник джарадинов'
 L['options_icons_djaradin_cache'] = 'Тайник джарадинов'
 L['options_icons_djaradin_cache_desc'] = 'Показать возможные места {object:Тайников джарадинов}.'
 
-L['dragonbane_siege_label'] = nil
-L['options_icons_dragonbane_siege'] = nil
-L['options_icons_dragonbane_siege_desc'] = nil
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = 'Отображение локации и наград за {spell:388945}.'
