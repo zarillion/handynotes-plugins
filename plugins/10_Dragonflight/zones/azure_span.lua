@@ -1592,9 +1592,9 @@ local COMMUNITY_FEAST_AREA_POIS = {
 
 local COMMUNITY_FEAST_REWARDS = {
     Achievement({id = 16444}), -- Leftovers Revenge
-    Item({item = 198131}), -- Recipe: Gral's Devotion
-    Item({item = 198129}), -- Recipe: Gral's Reverence
-    Item({item = 198130}), -- Recipe: Gral's Veneration
+    Recipe({item = 198129, id = 381415, profession = 185}), -- Recipe: Gral's Reverence
+    Recipe({item = 198130, id = 381417, profession = 185}), -- Recipe: Gral's Veneration
+    Recipe({item = 198131, id = 381418, profession = 185}), -- Recipe: Gral's Devotion
     Transmog({item = 200882, slot = L['cosmetic']}), -- Big Kinook's Spare Ladle
     ns.reward.Spacer(), Item({item = 200652}), -- Alchemical Flavor Pocket
     Item({item = 190454}), -- Primal Chaos
