@@ -99,7 +99,7 @@ L['gronnstalker_rokash_follower_note'] = 'Complétez {quest:32981} pour le recru
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = 'Afficher les emplacements de la {object:Page de journal en lambeaux} pour {achievement:9531}'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = 'Affichez les emplacements des {npc:82680} et {object:Cage de prisonnier} pour {achievement:9533}'
+L['options_icons_breaker_of_chains_desc'] = 'Afficher les emplacements des {npc:82680} et {object:Cage de prisonnier} pour {achievement:9533}'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
 L['options_icons_delectable_ogre_delicacies_desc'] = 'Afficher les emplacements des spécialités pour {achievement:9534}'
 
