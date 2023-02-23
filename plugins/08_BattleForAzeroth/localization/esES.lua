@@ -56,7 +56,7 @@ L['linda_deepwater_note'] = 'Para poder acceder, debes haber completado la caden
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
 
-L['avenger_note'] = 'Cuando {npc:155254} esté en Pernoóxido, mata al {npc:151159} que corre por toda la zona para hacer aparecer al {npc:151296}.'
+L['avenger_note'] = 'Cuando {npc:155254} esté en {location:Pernoóxido}, mata al {npc:151159} que corre por toda la zona para hacer aparecer al {npc:151296}.'
 L['beastbot_note'] = 'Fabrica un {item:168045} en {npc:150359} para activar a la {npc:151933}.'
 L['cogstar_note'] = 'Mata {npc:154213} en cualquier sitio de la zona hasta que {npc:153228} se teleporte a ayudarlos.'
 L['crazed_trogg_note'] = 'Usa un Roboespray, una vejiga llena de pintura, o un robot pintador en el {location:Vertedero de Bondo} para vestirte del color que grita {npc:152569}.'
@@ -76,7 +76,7 @@ Piratea el {npc:152174} usando uno de estos objetos:
 L['scrapclaw_note'] = 'Cerca de la orilla bajo el agua (82.3 77.9) aparece {npc:155583}.'
 L['sparkqueen_note'] = '{npc:153000} sólo aparece cuando la misión diaria {daily:55765} está activa.'
 L['rusty_note'] = 'Fabrica un {item:169114} en {npc:150359} para ir al futuro alternativo. {npc:154225} sólo aparece cuando {npc:153993} NO está presente en {location:Pernoóxido}.'
-L['vaultbot_note'] = 'Kitea al {npc:150394} hasta la bobina tesla en el {location:Vertedero de Bondo} o fabrica una {item:167062} en {npc:150359} para abrirlo.'
+L['vaultbot_note'] = 'Kitea al {npc:150394} hasta la {npc:151482} en el {location:Vertedero de Bondo} o fabrica una {item:167062} en {npc:150359} para abrirlo.'
 
 L['iron_chest'] = 'Arcón de los Marea de Hierro'
 L['mech_chest'] = 'Cofre mecanizado'
@@ -93,10 +93,10 @@ L['shock_bot_note'] = 'Haz click en el robot para conseguir un proc de poder hac
 L['welding_bot_note'] = 'Haz click en el robot para aumentar la vida y la sanación recibida un 10% durante 2 horas.'
 
 L['options_icons_mech_buffs'] = 'Buff de Robots'
-L['options_icons_mech_buffs_desc'] = 'Muestra dónde están los robots de grasa, descargas y soldador en el mapa estando dentro de la mazmorra.'
-L['options_icons_mech_chest'] = 'Cofres Mecanizados'
+L['options_icons_mech_buffs_desc'] = 'Muestra dónde están los {npc:155911}, {npc:155909} y {npc:155910} en el mapa estando dentro de la mazmorra.'
+L['options_icons_mech_chest'] = 'Cofre Mecanizado'
 L['options_icons_mech_chest_desc'] = 'Muestra dónde están los {object:Cofre Mecanizado}. Hay 10 cofres únicos que pueden ser despojados una vez al día y cada cofre tiene 4-5 puntos de aparición. Los sitios están agrupados por color.'
-L['options_icons_locked_chest'] = 'Cofres Cerrados'
+L['options_icons_locked_chest'] = 'Cofre Cerrado'
 L['options_icons_locked_chest_desc'] = 'Muestra dónde están los cofres cerrados en {location:Rocío del Oeste}.'
 L['options_icons_recrig'] = '{npc:150448}'
 L['options_icons_recrig_desc'] = 'Muestra dónde está el {npc:150448} y sus recompensas.'
@@ -120,7 +120,7 @@ L['elderunu_note'] = 'Aparece en cualquier sitio en la parte superior de {locati
 L['gakula_note'] = 'Espanta a otro sitio a los {npc:152275} hasta que aparezca {npc:152323}.'
 L['glimmershell_note'] = 'Tiene una pequeña posibilidad de aparecer en lugar de {npc:152426}.'
 L['kelpwillow_note'] = 'Para activar a {npc:152567} llévale una {npc:154725} usando en ella un {item:167893}.'
-L['lasher_note'] = 'Planta una {item:166888} en el suelo y aliméntala con moscas hasta que aparezca el {npc:149653}.'
+L['lasher_note'] = 'Planta una {item:166888} en el suelo y aliméntala con moscas cercanas hasta que aparezca el {npc:149653}.'
 L['matriarch_note'] = '{npc:152542}, {npc:152548} y {npc:152545} comparten entre si el tiempo de aparición.'
 L['needle_note'] = 'Normalmente aparece en la zona de la {location:Puerta de la Reina}.'
 L['oronu_note'] = 'Para activar a {npc:152397} invoca la mascota {npc:154849}.'
