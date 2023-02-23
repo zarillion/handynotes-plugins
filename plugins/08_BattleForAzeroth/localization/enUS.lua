@@ -226,7 +226,7 @@ L['options_icons_slimes_nazj_desc'] = 'Display locations of the four {npc:151782
 L['options_icons_cats_nazj'] = '{achievement:13836}'
 L['options_icons_cats_nazj_desc'] = 'Display locations of the cat figurines for the {achievement:13836} achievement.'
 L['options_icons_misc_nazj'] = 'Miscellaneous'
-L['options_icons_misc_nazj_desc'] = 'Display the location of {location:Murloco's Hideaway} and {location:Mardivas\'s Laboratory}.'
+L['options_icons_misc_nazj_desc'] = 'Display the location of {location:Murloco\'s Hideaway} and {location:Mardivas\'s Laboratory}.'
 L['options_icons_fabious'] = '{npc:65090}'
 L['options_icons_fabious_desc'] = 'Display possible locations of {npc:65090} for the {item:169201} mount.'
 
