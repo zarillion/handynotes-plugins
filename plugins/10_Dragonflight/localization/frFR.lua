@@ -257,14 +257,14 @@ L['options_icons_artisan_curio_desc'] = 'Afficher les emplacements et les récom
 
 L['spellsworn_missive_label'] = 'Missive Sorcelige'
 L['spellsworn_missive_note'] = 'Ouvrez la {object:Missive Sorcelige} et récupérez {item:204338}.'
-L['confiscated_journal_label'] = nil
-L['confiscated_journal_note'] = nil
-L['farscale_manifesto_label'] = nil
-L['farscale_manifesto_note'] = nil
-L['lost_expeditions_notes_label'] = nil
-L['lost_expeditions_notes_note'] = nil
-L['vrykul_tome_label'] = nil
-L['vrykul_tome_note'] = nil
+L['confiscated_journal_label'] = 'Journal confisqué'
+L['confiscated_journal_note'] = 'Ouvrez le {object:Journal confisqué} et récupérez le {item:204316}.'
+L['farscale_manifesto_label'] = 'Manifeste longuécaille'
+L['farscale_manifesto_note'] = 'Ouvrez le {object:Manifeste longuécaille} et récupérez {item:204335}.'
+L['lost_expeditions_notes_label'] = 'Notes d\'expédition'
+L['lost_expeditions_notes_note'] = 'Ouvrez les {object:Notes d\'expédition} et récupérez les {item:204321}.'
+L['vrykul_tome_label'] = 'Tome vrykule'
+L['vrykul_tome_note'] = 'Ouvrez le {object:Tome vrykule} et récupérez le {item:204317}.'
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}.'
@@ -284,10 +284,10 @@ L['options_icons_froststone_vault_storm_desc'] = 'Afficher les emplacements et l
 
 L['spellsworn_gateway'] = 'Porte sorcelige'
 
-L['recipe_rat_note_1'] = nil
-L['recipe_rat_note_2'] = nil
-L['recipe_rat_note_3'] = nil
-L['recipe_rat_note_4'] = nil
+L['recipe_rat_note_1'] = 'Parlez au {npc:202982} dans le {location:Caveau de Zskera} et vous recevrez dans vos sacs le {item:202252}.'
+L['recipe_rat_note_2'] = 'Interagissez avec le {item:202252} pour recevoir des {item:204340}. {note:(5 minutes de recharge)}'
+L['recipe_rat_note_3'] = 'Une fois que vous avez 30x {item:204340}, combinez les fragments pour obtenir la recette.'
+L['recipe_rat_note_4'] = '{note:Ce rat adore le fromage et consommera un {item:3927} toutes les trois minutes environ. Planifiez en conséquence !}'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
