@@ -8,7 +8,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = 'Acantilado de la Realidad'
-L['edge_of_reality_note'] = '{object:Edge of Reality} el portal te llevará a otro sitio, donde podrás despojar la {item:121815}.'
+L['edge_of_reality_note'] = 'El portal {object:Filo de la Realidad} te llevará a otro sitio, donde podrás despojar la {item:121815}.'
 L['treasures_discovered'] = 'tesoros descubiertos'
 L['strange_spore_treasure'] = 'Espora Extraña'
 L['burning_blade_cache_treasure'] = 'Alijo del Clan Filo Ardiente'
@@ -17,7 +17,7 @@ L['multiple_spawn_note'] = 'Puede aparecer en varios sitios.'
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = 'Muestra dónde están los atuendos para el logro {achievement:10053}.'
 
-L['squirrels_note'] = 'Debes usar la emoción /amor en las alimañas que no sean mascotas de combate.'
+L['squirrels_note'] = 'Debes teclear la emoción {emote:/amor} en las alimañas que no sean mascotas de combate.'
 L['options_icons_squirrels'] = '{achievement:14728}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:14728}.'
 
