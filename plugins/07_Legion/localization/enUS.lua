@@ -114,12 +114,12 @@ L['bohdi_sunwayver_note'] = 'Sun\'s out! Pets out!'
 -------------------------------------------------------------------------------
 
 L['kaara_the_pale_note'] = '{npc:126860} no longer drops {item:153190}'
-L['turek_the_lucid_note'] = 'In the |cFFFFFD00Oronaar Collapse|r'
+L['turek_the_lucid_note'] = 'In the {location:Oronaar Collapse}'
 
 L['ancient_eredar_cache'] = 'Ancient Eredar Cache'
 L['ancient_eredar_cache_note'] = 'There are 6 unique ancient eredar caches that can each appear at set locations.'
 L['void_seeped_cache'] = 'Void-Seeped Cache'
-L['void_seeped_cache_note'] = 'There are 2 unique void-seeped caches that can each appear at set locations. |c00ff0000These do not contain transmogs.|r'
+L['void_seeped_cache_note'] = 'There are 2 unique void-seeped caches that can each appear at set locations. {note:These do not contain transmogs.}'
 
 L['options_icons_ancient_eredar_cache'] = 'Ancient Eredar Cache'
 L['options_icons_ancient_eredar_cache_desc'] = 'Display possible locations for ancient eredar caches (daily chests).'

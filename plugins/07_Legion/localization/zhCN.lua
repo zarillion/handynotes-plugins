@@ -3,7 +3,6 @@ local L = ns.NewLocale('zhCN')
 if not L then return end
 
 local Gold = ns.color.Gold
-local Red = ns.color.Red
 
 -------------------------------------------------------------------------------
 ------------------------------- ANTORAN WASTES --------------------------------
@@ -123,7 +122,7 @@ L['turek_the_lucid_note'] = '在 {location:奥罗纳尔陷坑} 内'
 L['ancient_eredar_cache'] = '上古艾瑞达宝箱'
 L['ancient_eredar_cache_note'] = '有6个独特的上古艾瑞达宝箱可以出现位置组中。'
 L['void_seeped_cache'] = '浸透虚空的宝箱'
-L['void_seeped_cache_note'] = '有2个独特的浸透虚空的宝箱可以出现位置组中。|c00ff0000这些不包含幻化。|r'
+L['void_seeped_cache_note'] = '有2个独特的浸透虚空的宝箱可以出现位置组中。{note:这些不包含幻化。}'
 
 L['options_icons_ancient_eredar_cache'] = '上古艾瑞达宝箱'
 L['options_icons_ancient_eredar_cache_desc'] = '显示上古艾瑞达宝箱的可能位置（每日宝箱）。'
