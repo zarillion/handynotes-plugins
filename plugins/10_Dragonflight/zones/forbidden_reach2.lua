@@ -56,11 +56,10 @@ end)
 hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
     if self and self.areaPoiID then
         local mapID = self:GetMap().mapID
-        local x = C_AreaPoiInfo.GetAreaPOIInfo(mapID, self.areaPoiID).position.x
-        local y = C_AreaPoiInfo.GetAreaPOIInfo(mapID, self.areaPoiID).position.y
-        print(
-            C_AreaPoiInfo.GetAreaPOIInfo(mapID, self.areaPoiID).name .. ' (' ..
-                self.areaPoiID .. ')')
+        local AreaPoiInfo = C_AreaPoiInfo.GetAreaPOIInfo(mapID, self.areaPoiID)
+        local x = AreaPoiInfo.position.x
+        local y = AreaPoiInfo.position.y
+        print(AreaPoiInfo.name .. ' (' .. self.areaPoiID .. ')')
         print(mapID .. ': ' .. HandyNotes:getCoord(x, y))
     end
 end)
