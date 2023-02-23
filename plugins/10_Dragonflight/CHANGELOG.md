@@ -1,3 +1,13 @@
+# v32
+
+* Added Clan Chests in the Ohnahran Plains.
+* Added more missing rares.
+* Added timer tracking to some rares and events.
+* Added Tuskarr Chests in the Azure Span.
+* Changed icon color of Tuskarr Tackle Boxes.
+* Fixed a few incorrect item ids.
+* Fixed errors when Better World Quests is installed.
+
 # v31
 
 * Added Djaradin Cache locations.
