@@ -635,7 +635,7 @@ The best mobs to farm are {npc:126618} in {location:Zanchul} or {npc:122113s} at
 ]]
 L['torcali_note'] = 'Complete quests at {location:Warbeast Kraal} until {quest:47261} becomes available. Some quests will take multiple days to complete.'
 
-L['totem_of_paku_note'] = 'Speak to {npc:137510} north of the {location:Great Seal} to select Pa\'ku as your loa in Zuldazar.'
+L['totem_of_paku_note'] = 'Speak to {npc:137510} north of the {location:Great Seal} to select Pa\'ku as your loa in {location:Zuldazar}.'
 L['options_icons_paku_totems'] = 'Totems of Pa\'ku'
 L['options_icons_paku_totems_desc'] = 'Display {npc:131154} locations and their travel paths in {location:Dazar\'alor}.'
 
