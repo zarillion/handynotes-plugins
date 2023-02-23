@@ -131,7 +131,7 @@ map.nodes[14053096] = ns.node.Brackenhide({
     id = 197353,
     quest = 73985,
     fgroup = 'brackenhide',
-    rotationID = 2,
+    rotationID = 1,
     rewards = {
         Achievement({id = 16678, criteria = 56126}), -- Adventurer of The Azure Span
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -252,7 +252,7 @@ map.nodes[14083747] = ns.node.Brackenhide({
     id = 197354,
     quest = 73996,
     fgroup = 'brackenhide',
-    rotationID = 3,
+    rotationID = 2,
     rewards = {
         Achievement({id = 16678, criteria = 56127}), -- Adventurer of The Azure Span
         Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
@@ -301,7 +301,7 @@ map.nodes[16213364] = ns.node.Brackenhide({
     id = 197356,
     quest = 74004,
     fgroup = 'brackenhide',
-    rotationID = 0,
+    rotationID = 3,
     rewards = {
         Achievement({id = 16678, criteria = 56128}), -- Adventurer of The Azure Span
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
@@ -431,7 +431,7 @@ map.nodes[10863229] = ns.node.Brackenhide({
     id = 197344,
     quest = 74032,
     fgroup = 'brackenhide',
-    rotationID = 1,
+    rotationID = 0,
     rewards = {
         Achievement({id = 16678, criteria = 56125}), -- Adventurer of The Azure Span
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher

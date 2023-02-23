@@ -993,9 +993,9 @@ end
 
 local Brackenhide = Class('Brackenhide', Rare, {
     initialSpawn = {
-        us = 1672531200, -- review
-        eu = 1672530600,
-        tw = 1675247400 -- review
+        us = 1672531800, -- review
+        eu = 1672531200,
+        tw = 1677162000
     },
     spawnOffset = 600,
     spawnInterval = 2400
@@ -1009,10 +1009,7 @@ end
 ------------------------------------ FEAST ------------------------------------
 
 local Feast = Class('Feast', Rare, {
-    initialSpawn = {
-        us = 1668997800, -- review
-        tw = 1670070660 -- review
-    },
+    initialSpawn = {us = 1677164400, eu = 1677168000, tw = 1677166200},
     spawnOffset = 5400, -- review
     spawnInterval = 5400, -- review
     rotationID = 0
