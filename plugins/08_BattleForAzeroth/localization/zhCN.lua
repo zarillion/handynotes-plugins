@@ -55,27 +55,27 @@ L['linda_deepwater_note'] = '要获得访问权限，必须完成就在 {locatio
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
 
-L['avenger_note'] = '当 {npc:155254} 是访客时，击杀 {npc:151159}（在全地图跑）来刷新。'
+L['avenger_note'] = '当 {npc:155254} 在 {location:锈栓镇}，击杀 {npc:151159}（在全地图跑）来出现。'
 L['beastbot_note'] = '在 {npc:150359} 制作一个 {item:168045} 来激活。'
 L['cogstar_note'] = '在任意区域内击 {npc:150667} 直到他传送来加强它们。'
 L['crazed_trogg_note'] = '在 {location:邦多的大杂院} 使用 {npc:154573} 或颜料囊袋，把自己染色成他大喊的颜色然后去找他。'
 L['deepwater_note'] = '在 {npc:150359} 制作一个 {item:167649} 来召唤。'
 L['doppel_note'] = '与其他两名玩家，使用 {daily:56405} 获得的 {item:169470} 来激活。'
 L['foul_manifest_note'] = '连接三个断路器到水中的能量塔。'
-L['furor_note'] = '在 {daily:55463} 期间，点击蓝色小 {npc:135497} 直到它刷新。'
-L['killsaw_note'] = '在 {location:瀑溪森林} 任何地方出现，似乎因为击杀 {npc:151871} 后比较容易刷新。不会在风险投资公司在森林里时刷新，那时候没有 {npc:151871}。'
-L['leachbeast_note'] = '在 {location:电屑运输站} 与 {npc:151745} 共享一个刷新点，它只在该地区下雨时出现。使用 {item:168961} 激活 {object:天气更迭器}。'
+L['furor_note'] = '在 {daily:55463} 期间，点击蓝色小 {npc:135497} 直到它出现。'
+L['killsaw_note'] = '在 {location:瀑溪森林} 任何地方出现，似乎因为击杀 {npc:151871} 后比较容易出现。不会在风险投资公司在森林里时出现，那时候没有 {npc:151871}。'
+L['leachbeast_note'] = '在 {location:电屑运输站} 与 {npc:151745} 共享一个出现点，它只在该地区下雨时出现。使用 {item:168961} 激活 {object:天气更迭器}。'
 L['nullifier_note'] = [[
 侵入 {npc:152174} 使用其一：
 
 · {npc:151625} 掉落的 {item:168435}。
 
-· 钻机JD41与JD99的小怪掉落的 {item:168023} 。
+· 攻击钻机JD41与JD99的小怪掉落的 {item:168023} 。
 ]]
 L['scrapclaw_note'] = '远离岸边的水中。'
-L['sparkqueen_note'] = '只在 {daily:55765} 期间刷新。'
-L['rusty_note'] = '在 {npc:150359} 制作一个 {item:169114} 进入平行未来时空。只在 {npc:153993} *不是* {location:锈栓镇} 访客期间才会刷新。'
-L['vaultbot_note'] = '风筝到 {location:邦多的大杂院} 的电磁圈或在 {npc:150359} 制作一个 {item:167062} 来打开它。'
+L['sparkqueen_note'] = '只在 {daily:55765} 期间出现。'
+L['rusty_note'] = '在 {npc:150359} 制作一个 {item:169114} 进入平行未来时空。只在 {npc:153993} *不在* {location:锈栓镇} 期间才会出现。'
+L['vaultbot_note'] = '风筝到 {location:邦多的大杂院} 的 {npc:151482} 或在 {npc:150359} 制作一个 {item:167062} 来打开它。'
 
 L['iron_chest'] = '铁潮保险箱'
 L['mech_chest'] = '机械化的宝箱'
@@ -94,13 +94,13 @@ L['welding_bot_note'] = '点击 {npc:155910} 增加生命值和承受治疗效�
 L['options_icons_mech_buffs'] = '增益机器人'
 L['options_icons_mech_buffs_desc'] = '显示 {npc:155911}、{npc:155909} 和 {npc:155910} 在地下城内地图上的位置。'
 L['options_icons_mech_chest'] = '机械补给箱'
-L['options_icons_mech_chest_desc'] = '显示 {object:机械补给箱} 的位置。有10个独立的箱子可以每日拾取一次，每个箱子有4-5个刷新位置。位置按颜色分组。'
+L['options_icons_mech_chest_desc'] = '显示 {object:机械补给箱} 的位置。有10个独立的箱子可以每日拾取一次，每个箱子有4-5个出现位置。位置按颜色分组。'
 L['options_icons_locked_chest'] = '锁住的箱子'
 L['options_icons_locked_chest_desc'] = '在 {location:西浪岩} 显示锁住的箱子的位置。'
 L['options_icons_recrig'] = '{npc:150448}'
 L['options_icons_recrig_desc'] = '显示 {npc:150448} 的位置和奖励。'
 
-L['mechagon_snooter_note'] = '{npc:154769}（非常稀有）和 {npc:154767} 共享刷新点。'
+L['mechagon_snooter_note'] = '{npc:154769}（非常稀有）和 {npc:154767} 共享出现点。'
 L['battlepet_secondary_only_note'] = '只能作为次要宠物找到。'
 L['mechagon_explode_note'] = '{note:当心，它可以 {spell:90096}，这会杀死它，将无法抓住它。}'
 
@@ -119,23 +119,23 @@ L['elderunu_note'] = '在 {location:卡梅希尔} 高层的任何地方出现。
 L['gakula_note'] = '驱赶 {npc:152275} 直到它出现。'
 L['glimmershell_note'] = '有小几率在 {npc:152426} 的位置出现。'
 L['kelpwillow_note'] = '使用 {item:167893} 魅惑 {npc:154725} 到它身边来激活。'
-L['lasher_note'] = '在土壤中种植 {item:166888} 并喂给它海萤。'
-L['matriarch_note'] = '与另外两个鳞母共享刷新计时器。'
-L['needle_note'] = '通常在 {location:女王之扉} 区域刷新。'
+L['lasher_note'] = '在土壤中种植 {item:166888} 并用周围的 {npc:海萤} 喂它。'
+L['matriarch_note'] = '与另外两个鳞母共享出现计时器。'
+L['needle_note'] = '通常在 {location:女王之扉} 区域出现。'
 L['oronu_note'] = '召唤 {npc:154849} 来激活。'
 L['rockweed_note'] = '击杀整个区域的 {npc:152549} 和 {npc:151166} 直到它出现。建议组团，因为这可能需要很长时间。'
 L['sandcastle_note'] = '使用 {item:167077} 在区域内任何地方探测宝箱直到它出现。'
 L['tidelord_note'] = '击杀三个 {npc:145326} 和被召唤的 {npc:153999} 直到海潮领主被召唤出来。'
-L['tidemistress_note'] = '点击 {object:原状标本} 直到她刷新。'
+L['tidemistress_note'] = '点击 {object:原状标本} 直到她出现。'
 L['urduu_note'] = '击杀一个 {npc:152563} 在它面前来激活。'
 L['voice_deeps_notes'] = '使用一个 {item:168161} 来打碎岩石。'
-L['vorkoth_note'] = '丢出 {item:167059} 到水池直到它刷新。'
-L['area_spawn'] = '在周围地区刷新。'
-L['cora_spawn'] = '在 {location:赤珊森林} 任意地方刷新。'
-L['cave_spawn'] = '在洞穴中刷新。'
-L['east_spawn'] = '在任何区域的东半部分刷新。'
-L['ucav_spawn'] = '在水下的洞穴刷新。'
-L['zone_spawn'] = '在整个区域刷新。'
+L['vorkoth_note'] = '丢出 {item:167059} 到水池直到它出现。'
+L['area_spawn'] = '在周围地区出现。'
+L['cora_spawn'] = '在 {location:赤珊森林} 任意地方出现。'
+L['cave_spawn'] = '在洞穴中出现。'
+L['east_spawn'] = '在任何区域的东半部分出现。'
+L['ucav_spawn'] = '在水下的洞穴出现。'
+L['zone_spawn'] = '在整个区域出现。'
 
 L['assassin_looted'] = '充当刺客时拾取。'
 
@@ -172,12 +172,12 @@ L['glowing_chest_8'] = '在屋顶。保护塔。'
 
 L['prismatic_crystal_note'] = '用它喂食小动物给 {location:纳沙塔尔} 的 {npc:151782}。'
 L['strange_crystal'] = '奇怪的水晶'
-L['strange_crystal_note'] = '解锁 {item:167893} 刷新，必须在此位置先拾取 {item:169778} 并把它上交 {quest:56560}。'
+L['strange_crystal_note'] = '解锁 {item:167893} 出现，必须在此位置先拾取 {item:169778} 并把它上交 {quest:56560}。'
 L['options_icons_prismatics'] = '{item:167893}'
 L['options_icons_prismatics_desc'] = '显示喂食 {npc:151782} 的 {item:167893} 的位置。'
 
 L['slimy_cocoon'] = '粘糊糊的茧'
-L['ravenous_slime_note'] = '使用 {item:167893} 魅惑小动物喂养茧。重复五天直到它刷新一个宠物的蛋。茧会消失直到下周重置。'
+L['ravenous_slime_note'] = '使用 {item:167893} 魅惑小动物喂养茧。重复五天直到它出现一个宠物的蛋。茧会消失直到下周重置。'
 L['slimy_cocoon_note'] = '一只宠物可以从茧中收集！如果它没有出现，茧在这个位面正在冷却，更换位面或稍后再来检查。'
 
 L['cat_figurine'] = '水晶猫咪雕像'
@@ -193,7 +193,7 @@ L['cat_figurine_09'] = '在一个水下洞穴。雕像位于天花板的岩石�
 L['cat_figurine_10'] = '在路径下方的一个洞穴里。雕像在三个桶之间。'
 L['figurines_found'] = '已找到水晶猫咪雕像'
 
-L['fabious_desc'] = '使用 {item:122637} 或 {item:122674} 玩具与 {npc:65090} 拍摄“自拍”照片。长时间在随机位置刷新并存在很短的时间。'
+L['fabious_desc'] = '使用 {item:122637} 或 {item:122674} 玩具与 {npc:65090} 拍摄“自拍”照片。长时间在随机位置出现并存在很短的时间。'
 
 L['mardivas_lab'] = '马蒂瓦斯的实验室'
 L['no_reagent'] = '不使用材料'
@@ -320,7 +320,7 @@ L['tempestria_note'] = '检查 {object:可疑的肉堆} 来召唤稀有。'
 L['twin_hearted_note'] = '惊动 {object:仪式雕像} 来激活构造体。'
 L['wintersail_note'] = '摧毁 {object:走私者的箱子} 来召唤船长。'
 
-L['hay_covered_chest_note'] = '骑上 {npc:130350} 沿路往下走到达 {npc:131453} 来刷新宝藏。'
+L['hay_covered_chest_note'] = '骑上 {npc:130350} 沿路往下走到达 {npc:131453} 来出现宝藏。'
 L['pirate_treasure_note'] = [[
 需要对应的藏宝图。
 
@@ -368,26 +368,26 @@ L['options_icons_upright_citizens_desc'] = '显示 {achievement:13285} 成就中
 
 L['uldum_intro_note'] = '完成 {location:奥丹姆} 引导任务解锁稀有、宝藏及突袭任务！'
 
-L['aqir_flayer'] = '与 {npc:163114} 和 {npc:154365} 共享刷新点。'
-L['aqir_titanus'] = '与 {npc:154353} 共享刷新点。'
-L['aqir_warcaster'] = '与 {npc:154352} 共享刷新点。'
+L['aqir_flayer'] = '与 {npc:163114} 和 {npc:154365} 共享出现点。'
+L['aqir_titanus'] = '与 {npc:154353} 共享出现点。'
+L['aqir_warcaster'] = '与 {npc:154352} 共享出现点。'
 L['atekhramun'] = '踩死周围的 {npc:152765} 直到稀有出现。'
 L['chamber_of_the_moon'] = '在 {location:月亮密室} 下面。'
 L['chamber_of_the_stars'] = '在 {location:群星密室} 下面。'
 L['chamber_of_the_sun'] = '在 {location:太阳密室} 里面。'
 L['dunewalker'] = '点击平台上方的 {object:太阳精华} 释放它。'
-L['friendly_alpaca'] = '每天可以喂食 {npc:162765} 一个 {item:174858}，7天(次)后会获得坐骑。在一个位置只出现10分钟，然后在一个较长的刷新时间后再次出现。'
-L['gaze_of_nzoth'] = '与 {npc:156890} 共享刷新。'
+L['friendly_alpaca'] = '每天可以喂食 {npc:162765} 一个 {item:174858}，7天(次)后会获得坐骑。在一个位置只出现10分钟，然后在一个较长的出现时间后再次出现。'
+L['gaze_of_nzoth'] = '与 {npc:156890} 共享出现。'
 L['gersahl_note'] = '用于喂食 {npc:162765} 七次后可以获得坐骑。不需要草药学。'
 L['hmiasma'] = '喂食它周围的软泥直到激活。'
-L['kanebti'] = '从 {npc:152427} 身上收集 {item:168160}，与一般的 {npc:151859} 共享刷新。把雕像插入 {objcet:甲虫神龛} 召唤稀有。'
-L['neferset_rare'] = '这六个稀有在尼斐塞特具有共享三个刷新点。 完成召唤仪式事件后，将随机刷新三个。'
-L['platform'] = '刷新在浮空平台顶部。'
+L['kanebti'] = '从 {npc:152427} 身上收集 {item:168160}，与一般的 {npc:151859} 共享出现。把雕像插入 {objcet:甲虫神龛} 召唤稀有。'
+L['neferset_rare'] = '这六个稀有在尼斐塞特具有共享三个出现点。 完成召唤仪式事件后，将随机出现三个。'
+L['platform'] = '出现在浮空平台顶部。'
 L['right_eye'] = '掉落 {item:175140} 玩具的 {item:175142}。'
-L['single_chest'] = '此宝箱只在一处刷新！如果没有在这没有发现，等待一会儿将会刷新。'
+L['single_chest'] = '此宝箱只在一处出现！如果没有在这没有发现，等待一会儿将会出现。'
 L['tomb_widow'] = '当柱子上出现白色卵囊时，杀死看不见的蜘蛛召唤。'
 L['uatka'] = '需要三个人分别同时点击 {npc:152777}，消耗一个 {item:171208} 出自 {object:阿玛塞特圣箱}。'
-L['wastewander'] = '与 {npc:154369} 共享刷新点。'
+L['wastewander'] = '与 {npc:154369} 共享出现点。'
 
 L['amathet_cache'] = '阿玛赛特之箱'
 L['black_empire_cache'] = '黑暗帝国宝箱'
@@ -415,10 +415,10 @@ L['purging_flames'] = '捡起尸体，丢进火里。'
 L['pyre_amalgamated'] = '地上有个融合者的火堆，点击之后击杀小怪直到稀有出现。'
 L['ritual_ascension'] = '击杀 {npc:152233}。'
 L['solar_collector'] = '使收集器开启所有周边的全部5个模块。点击一个模块也会切换与它相邻的模块。'
-L['summoning_ritual'] = '击杀侍战者后传送门关闭。几次事件完成后，{location:尼斐塞特} 周围将刷新一组三种稀有怪。'
+L['summoning_ritual'] = '击杀侍战者后传送门关闭。几次事件完成后，{location:尼斐塞特} 周围将出现一组三种稀有怪。'
 L['titanus_egg'] = '摧毁 {npc:163257}，然后击杀 {npc:163268}。'
 L['unearthed_keeper'] = '摧毁 {npc:156849}。'
-L['virnall_front'] = '击败几波怪物之后 {npc:152163} 刷新。'
+L['virnall_front'] = '击败几波怪物之后 {npc:152163} 出现。'
 L['voidflame_ritual'] = '扑灭所有虚触蜡烛。'
 
 L['beacon_of_sun_king'] = '向内旋转三个雕像。'
@@ -506,7 +506,7 @@ L['ethereal_note'] = '收集隐藏在整个视野中的橙色水晶，并将其�
 L['heroes_bulwark_note'] = '击杀旅店的 {npc:158588} 获得10%生命值增益。'
 L['inside_building'] = '建筑物内。'
 L['mailbox'] = '邮箱'
-L['mail_muncher'] = '打开时，机会刷新 {npc:160708}。'
+L['mail_muncher'] = '打开时，几率出现 {npc:160708}。'
 L['odd_crystal'] = '怪异水晶'
 L['requited_bulwark_note'] = '击杀 {npc:157700} 获得7%全能增益。'
 L['shave_kit_note'] = '理发店内。拾取桌子上的箱子。'
@@ -564,7 +564,7 @@ L['nezara_note'] = '切断拴在 {npc:128952} 上的绳子释放稀有。'
 L['vathikur_note'] = '击杀 {npc:126894} 召唤稀有。'
 L['zunashi_note'] = '入口在北方巨大头骨的嘴里。'
 
-L['ashvane_spoils_note'] = '坐上 {npc:132662} 下山来刷新下面的宝箱。'
+L['ashvane_spoils_note'] = '坐上 {npc:132662} 下山来出现下面的宝箱。'
 L['excavators_greed_note'] = '在倒塌的隧道内。'
 L['grayals_offering_note'] = '完成 {quest:50702} 后，进入 {location:阿图阿曼} 并点击 {object:上古祭坛} 宝箱出现。'
 L['kimbul_offerings_note'] = '在 {location:吉布尔神殿} 上方的山上。'
@@ -590,31 +590,31 @@ L['options_icons_dune_rider_desc'] = '显示 {achievement:13018} 成就中摇晃
 L['options_icons_scavenger_of_the_sands'] = '{achievement:13016}'
 L['options_icons_scavenger_of_the_sands_desc'] = '显示 {achievement:13016} 成就中垃圾物品的位置。'
 
-L['elusive_alpaca'] = '将 {item:161128} 喂给 {npc:162681} 以获得坐骑。一个位置存在10分钟，很长时间刷新。'
+L['elusive_alpaca'] = '将 {item:161128} 喂给 {npc:162681} 以获得坐骑。一个位置存在10分钟，很长时间出现。'
 
 -------------------------------------------------------------------------------
 ---------------------------------- WARFRONTS ----------------------------------
 -------------------------------------------------------------------------------
 
 L['boulderfist_outpost'] = '进入 {location:石拳岗哨}（一个大洞穴）。入口在东北方。'
-L['burning_goliath_note'] = '击杀后，一个 {npc:141663} 将在 {npc:141668} 附近刷新。'
-L['cresting_goliath_note'] = '击杀后，一个 {npc:141658} 将在 {npc:141668} 附近刷新。'
-L['rumbling_goliath_note'] = '击杀后，一个 {npc:141659} 将在 {npc:141668} 附近刷新。'
-L['thundering_goliath_note'] = '击杀后，一个 {npc:141648} 将在 {npc:141668} 附近刷新。'
+L['burning_goliath_note'] = '击杀后，一个 {npc:141663} 将在 {npc:141668} 附近出现。'
+L['cresting_goliath_note'] = '击杀后，一个 {npc:141658} 将在 {npc:141668} 附近出现。'
+L['rumbling_goliath_note'] = '击杀后，一个 {npc:141659} 将在 {npc:141668} 附近出现。'
+L['thundering_goliath_note'] = '击杀后，一个 {npc:141648} 将在 {npc:141668} 附近出现。'
 L['echo_of_myzrael_note'] = '一旦四个元素巨怪被击杀后，{npc:141668} 将出现。'
-L['frightened_kodo_note'] = '几分钟后会消失。服务器重启后肯定刷新。'
+L['frightened_kodo_note'] = '几分钟后会消失。服务器重启后肯定出现。'
 
 -------------------------------------------------------------------------------
 ----------------------------------- ZULDAZAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['murderbeak_note'] = '把鱼饵扔进海里，然后击杀数只 {npc:134780} 直到 {npc:134782} 刷新。'
-L['vukuba_note'] = '调查 {npc:134049}，然后击杀数波 {npc:134047} 直到 {npc:134048} 刷新。'
+L['murderbeak_note'] = '把鱼饵扔进海里，然后击杀数只 {npc:134780} 直到 {npc:134782} 出现。'
+L['vukuba_note'] = '调查 {npc:134049}，然后击杀数波 {npc:134047} 直到 {npc:134048} 出现。'
 
 L['cache_of_secrets_note'] = '瀑布后面的洞穴内一个 {npc:137234} 拿着。'
 L['da_white_shark_note'] = '站在 {npc:133208} 附近直到她变为敌对。'
 L['dazars_forgotten_chest_note'] = '路径开始于 {npc:134738} 附近。'
-L['gift_of_the_brokenhearted_note'] = '放置熏香刷新宝箱。'
+L['gift_of_the_brokenhearted_note'] = '放置熏香出现宝箱。'
 L['offerings_of_the_chosen_note'] = '位于 {location:赞枢尔} 第二层。'
 L['riches_of_tornowa_note'] = '在悬崖边上。'
 L['spoils_of_pandaria_note'] = '在船的下层甲板。'
@@ -646,8 +646,8 @@ L['tales_torcali_note'] = '在几个桶和楼梯之间。'
 L['tales_zandalar_note'] = '{npc:132989} 后面。'
 
 local shared_dinos = '从 {npc:133680} 的任务线 {daily:50860} 日常必须激活（四个可能的日常之一）让他们出现，任何人可以在这些天看到他们。'
-L['azuresail_note'] = '与 {npc:135512} 和 {npc:135508} 共享刷新计时器。\n\n' .. shared_dinos
-L['thunderfoot_note'] = '与 {npc:135510} 和 {npc:135508} 共享刷新计时器。\n\n' .. shared_dinos
+L['azuresail_note'] = '与 {npc:135512} 和 {npc:135508} 共享出现计时器。\n\n' .. shared_dinos
+L['thunderfoot_note'] = '与 {npc:135510} 和 {npc:135508} 共享出现计时器。\n\n' .. shared_dinos
 L['options_icons_life_finds_a_way'] = '{achievement:13048}'
 L['options_icons_life_finds_a_way_desc'] = '显示 {achievement:13048} 成就中可怕恐龙的位置。'
 

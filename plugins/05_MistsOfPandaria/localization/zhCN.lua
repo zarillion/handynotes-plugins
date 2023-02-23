@@ -13,10 +13,10 @@ L['neverending_spritewood_note'] = '打破 {object:无宁魂木} 之后，获得
 L['zarhym_note'] = '每天可以和 {npc:71876} 交谈进入 {spell:144145} 并尝试找回他的身体。'
 
 L['archiereus_note'] = '从 {npc:73306} 购买一个 {item:103684} 来召唤此稀有。'
-L['chelon_note'] = '点击 {object:显眼的空壳} 来刷新稀有。'
+L['chelon_note'] = '点击 {object:显眼的空壳} 来出现稀有。'
 L['cranegnasher_note'] = '从南侧风筝一个 {npc:72095} 到顶上鹤的尸体。'
 L['dread_ship_note'] = '从 {npc:73279} 拾取 {item:104115} 并在 {object:被诅咒的墓碑} 使用来召唤稀有。'
-L['emerald_gander_note'] = '击杀 {location:天神庭院} 周围的 {npc:72762} 直到 {npc:73158} 刷新。'
+L['emerald_gander_note'] = '击杀 {location:天神庭院} 周围的 {npc:72762} 直到 {npc:73158} 出现。'
 L['evermaw_note'] = '绕着整个岛屿顺时针游泳。'
 L['great_turtle_furyshell_note'] = '击杀 {npc:72764} 或 {npc:72763} 直到 {npc:73161} 出现。'
 L['imperial_python_note'] = '击杀 {location:天神庭院} 周围的 {npc:72841} 直到 {npc:73163} 出现。'

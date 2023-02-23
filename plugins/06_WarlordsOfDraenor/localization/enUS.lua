@@ -16,7 +16,7 @@ L['multiple_spawn_note'] = 'Can spawn in multiple locations.'
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = 'Display costume locations for {achievement:10053}'
 
-L['squirrels_note'] = 'You must use the emote /love on critters not battle pets.'
+L['squirrels_note'] = 'You must use the emote {emote:/love} on critters not battle pets.'
 L['options_icons_squirrels'] = '{achievement:14728}'
 L['options_icons_squirrels_desc'] = 'Display the locations of critters for {achievement:14728} achievement.'
 
@@ -27,13 +27,13 @@ L['options_icons_GarrFollower_desc'] = 'Display the locations of Followers.'
 ------------------------------------ ASHRAN -----------------------------------
 -------------------------------------------------------------------------------
 
-L['fen_tao_follower_note'] = 'Talk to him to recruit him as a follower'
+L['fen_tao_follower_note'] = 'Talk to him to recruit him as a follower.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FROSTFIRE RIDGE -------------------------------
 -------------------------------------------------------------------------------
 
-L['borrok_the_devourer_note'] = '{note:Do not kill!}\n\nInstead, kill nearby ogres and feed them to {npc:72156}. After 10 ogres he will cough up a lootable |cffffff00Devourer\'s Gutstone\r'
+L['borrok_the_devourer_note'] = '{note:Do not kill!}\n\nInstead, kill nearby ogres and feed them to {npc:72156}. After 10 ogres he will cough up a lootable {object:Devourer\'s Gutstone}.'
 L['gibblette_the_cowardly_note'] = 'Interrupt {spell:175415} or he will run from battle and despawn'
 
 L['arena_masters_war_horn_treasure'] = 'Arena Master\'s War Horn'
@@ -99,7 +99,7 @@ L['gronnstalker_rokash_follower_note'] = 'Complete {quest:32981} to recruit him 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = 'Display the locations of {object:Tattered Journal Page} for {achievement:9531}'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = 'Display the locations of {npc:82680} and {location:Prisoner Cage} for {achievement:9533}'
+L['options_icons_breaker_of_chains_desc'] = 'Display the locations of {npc:82680} and {object:Prisoner Cage} for {achievement:9533}'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
 L['options_icons_delectable_ogre_delicacies_desc'] = 'Display the locations of delicacies for {achievement:9534}'
 
@@ -108,8 +108,8 @@ L['options_icons_delectable_ogre_delicacies_desc'] = 'Display the locations of d
 -------------------------------------------------------------------------------
 
 L['poundfist_note'] = 'Has really long respawn between 50 and 90 hours.'
-L['trophy_of_glory_note'] = 'You must finish building up your Gorgrond Garrison Outpost to get quest items to drop.'
-L['roardan_sky_terror_note'] = 'Flies around Tangleheart and Beastwatch and makes 3 stops on the way.'
+L['trophy_of_glory_note'] = 'You must finish building up your {location:Gorgrond} {location:Garrison Outpost} to get quest items to drop.'
+L['roardan_sky_terror_note'] = 'Flies around {location:Tangleheart} and {location:Beastwatch} and makes 3 stops on the way.'
 
 L['attack_plans_treasure'] = 'Iron Horde Attack Orders'
 L['brokors_sack_treasure'] = 'Brokor\'s Sack'
@@ -141,7 +141,7 @@ L['weapons_cache_treasure'] = 'Weapons Cache'
 L['ninja_pepe_note'] = 'Inside the hut sitting on a chair.'
 L['ninja_pepe_treasure'] = 'Ninja Pepe'
 
-L['protectors_of_the_grove_sublabel'] = '{npc:86259}, {npc:86258}, and {npc:86257} form the {object:Protectors of the Grove}.'
+L['protectors_of_the_grove_sublabel'] = '{npc:86259}, {npc:86258}, and {npc:86257} form the {npc:Protectors of the Grove}.'
 
 L['prove_your_strength_note'] = 'Requires {spell:164012} garrison ability to be active. To enable {location:The Sparring Arena} visit your faction outpost.'
 L['prove_your_strength_drop_single'] = 'Dropped by %s.'
@@ -151,7 +151,7 @@ L['tormmok_follower_note'] = 'First appears as ' .. ns.color.Red('Hostile') .. '
 L['blook_follower_note'] = 'Talk to him, fight him, beat him, then talk to him again to recruit him as a follower'
 
 L['options_icons_attack_plans'] = '{achievement:9656}'
-L['options_icons_attack_plans_desc'] = 'Display the locations of Iron Horde Attack Orders for {achievement:9656}.'
+L['options_icons_attack_plans_desc'] = 'Display the locations of {object:Iron Horde Attack Orders} for {achievement:9656}.'
 L['options_icons_ancient_no_more'] = '{achievement:9678}'
 L['options_icons_ancient_no_more_desc'] = 'Display rare locations for {achievement:9678}'
 L['options_icons_fight_the_power'] = '{achievement:9655}'
@@ -166,8 +166,8 @@ L['options_icons_prove_your_strength_desc'] = 'Display drop locations for {achie
 L['fangler_note'] = 'Use the fishing rod.'
 L['berserk_t_300_series_mark_ii_note'] = 'Use the switch.'
 L['graveltooth_note'] = 'Kill {npc:84255} until {npc:84263} spawns.'
-L['gorepetal_note'] = 'In a cave.\n\nDoes not show up on the minimap. Click on the Pristine Lily to spawn {npc:83509}.'
-L['sean_whitesea_note'] = 'Open the Abandoned Chest so that {npc:83542} appears.'
+L['gorepetal_note'] = 'In a cave.\n\nDoes not show up on the minimap. Click on the {object:Pristine Lily} to spawn {npc:83509}.'
+L['sean_whitesea_note'] = 'Open the {object:Abandoned Chest} so that {npc:83542} appears.'
 
 L['a_pile_of_dirt_treasure'] = 'A Pile of Dirt'
 L['abandoned_cargo_treasure'] = 'Abandoned Cargo'
@@ -252,7 +252,7 @@ L['warsong_relics'] = 'Against a fence outside a hut'
 L['stolen_draenei_tome'] = 'Can spawn in multiple locations on top of towers'
 L['dirt_mound'] = 'Kill {npc:86659} to spawn a {npc:87280} on the floor nearby. Click the totem to receive {spell:174572}. You can now dig up nearby {npc:87530} to find items.'
 
-L['stable_master_note'] = 'Talk to {stablemaster} to receive a mount-in-training whistle.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUse the whistle to summon your mount-in-training and kill the target.\n\n{achievement:9539} requires {item:118469} from a {location:Level 2 Stables}.\n{achievement:9540} requires {item:118470} from a {location:Level 3 Stables}.'
+L['stable_master_note'] = 'Talk to {npc:Stablemaster} to receive a mount-in-training whistle.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUse the whistle to summon your mount-in-training and kill the target.\n\n{achievement:9539} requires {item:118469} from a {location:Level 2 Stables}.\n{achievement:9540} requires {item:118470} from a {location:Level 3 Stables}.'
 
 L['making_the_cut_note'] = 'While {npc:88210} is available kill 15 {npc:88207} around {location:The Ring of Blood}. Once 15 have been killed {npc:88210} will become targetable.\n\n{yell:Not bad for a bunch of worthless pukes! Come face Krud when you ready to die!}'
 
@@ -334,7 +334,7 @@ L['you_have_been_rylakinated_note'] = 'Must complete {quest:34355}.\n\nCollect {
 L['artificer_romuul_follower_note'] = 'Complete the crystal defense event to recruit him as a follower'
 
 L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
-L['options_icons_you_have_been_rylakinated_desc'] = 'Display Rylak locations for {achievement:9481}'
+L['options_icons_you_have_been_rylakinated_desc'] = 'Display {npc:85357} locations for {achievement:9481}'
 
 -------------------------------------------------------------------------------
 ------------------------------- SPIRES OF ARAK --------------------------------
@@ -376,7 +376,7 @@ L['sun_touched_cache_treasure'] = 'Sun-Touched Cache'
 L['toxicfang_venom_treasure'] = 'Toxicfang Venom'
 L['waterlogged_satchel_treasure'] = 'Waterlogged Satchel'
 L['nizzixs_chest_treasure'] = 'Nizzix\'s Chest'
-L['nizzixs_chest_treasure_note'] = 'Click on the Escape Pod floating nearby in the water.'
+L['nizzixs_chest_treasure_note'] = 'Click on the {object:Escape Pod} floating nearby in the water.'
 
 L['misplaced_scroll_treasure'] = 'Misplaced Scroll'
 L['relics_of_the_outcasts_treasure'] = 'Relics of the Outcasts'
@@ -457,7 +457,7 @@ L['draenei_weapons_treasure'] = 'Draenei Weapons'
 L['farmers_bounty_treasure'] = 'Farmer\'s Bounty'
 L['foremans_lunchbox_treasure'] = 'Foreman\'s Lunchbox'
 L['iron_box_treasure'] = 'Iron Box'
-L['isaaris_cache_note'] = 'Rescue 4 draenei trapped in spider webs, then Isaari\'s Cache will spawn here'
+L['isaaris_cache_note'] = 'Rescue 4 draenei trapped in spider webs, then {object:Isaari\'s Cache} will spawn here'
 L['isarris_cache_treasure'] = 'Isaari\'s Cache'
 L['jug_of_aged_ironwine_treasure'] = 'Jug of Aged Ironwine'
 L['keluus_belongings_treasure'] = 'Keluu\'s Belongings'
@@ -465,7 +465,7 @@ L['ketyas_stash_treasure'] = 'Ketya\'s Stash'
 L['light_of_the_sea_treasure'] = 'Light of the Sea'
 L['lightbearer_treasure'] = 'Lightbearer'
 L['luminous_shell_treasure'] = 'Luminous Shell'
-L['noranas_cache_note'] = 'Rescue 4 adventurers trapped in spider webs, then Norana\'s Cache will spawn here'
+L['noranas_cache_note'] = 'Rescue 4 adventurers trapped in spider webs, then {object:Norana\'s Cache} will spawn here'
 L['noranas_cache_treasure'] = 'Norana\'s Cache'
 L['pure_crystal_dust_note'] = 'Upper level of the mine'
 L['pure_crystal_dust_treasure'] = 'Pure Crystal Dust'
@@ -473,7 +473,7 @@ L['relic_of_aruuna_treasure'] = 'Relic of Aruuna'
 L['relic_of_telmor_treasure'] = 'Relic of Telmor'
 L['rooks_tacklebox_treasure'] = 'Rook\'s Tacklebox'
 L['rusted_lockbox_treasure'] = 'Rusted Lockbox'
-L['rusted_lockbox_treasure_note'] = 'In a cave.\n Way down in the water.'
+L['rusted_lockbox_treasure_note'] = 'In a cave.\nWay down in the water.'
 L['soulbinders_reliquary_treasure'] = 'Soulbinder\'s Reliquary'
 L['teroclaw_nest_treasure'] = 'Teroclaw Nest'
 L['treasure_of_angorosh_treasure'] = 'Treasure of Ango\'rosh'
@@ -488,10 +488,10 @@ L['knight_pepe_note'] = 'Sitting in the tent sitting on a chest'
 L['wingmen_note'] = 'Kill the endless streams of {npc:78433}, {npc:76883}, and {npc:78432} for 10 reputation each.\n\nLarge demons such as {npc:78715} and {npc:78713} do not provide additional reputation.'
 L['fel_portal'] = 'Fel Portal'
 
-L['aeda_brightdawn_follower_note'] = 'Complete {quest:34776} to recruit her as a follower'
-L['ahm_follower_note'] = 'Complete {quest:33973} then meet him at your garrison to recruit him as a follower'
-L['defender_illona_follower_note'] = 'Complete {quest:34777} to recruit her as a follower'
-L['pleasure_bot_8000_follower_note'] = 'Complete {quest:34761} to recruit it as a follower'
+L['aeda_brightdawn_follower_note'] = 'Complete {quest:34776} to recruit her as a follower.'
+L['ahm_follower_note'] = 'Complete {quest:33973} then meet him at your garrison to recruit him as a follower.'
+L['defender_illona_follower_note'] = 'Complete {quest:34777} to recruit her as a follower.'
+L['pleasure_bot_8000_follower_note'] = 'Complete {quest:34761} to recruit it as a follower.'
 L['image_of_archmage_vargoth_follower_note'] = [[
 Find 4 mysterious objects around {location:Draenor}.
 
@@ -530,9 +530,9 @@ L['grand_warlock_netherkurse_note'] = 'Kill enemies around spawn point.'
 L['ceraxas_note'] = 'Spawns {npc:90426} with quest {quest:38428} for pet after killing it.'
 L['commander_orgmok_note'] = 'Rides around on {npc:89676}.'
 L['rendrak_note'] = 'Collect 10 {item:124045} from {npc:89788} around bog. Combine them to summon rare.'
-L['akrrilo_note'] = 'Buy {item:124093} from {npc:92805} and use it at Blackfang Challenge Arena.'
-L['rendarr_note'] = 'Buy {item:124094} from {npc:92805} and use it at Blackfang Challenge Arena.'
-L['eyepiercer_note'] = 'Buy {item:124095} from {npc:92805} and use it at Blackfang Challenge Arena.'
+L['akrrilo_note'] = 'Buy {item:124093} from {npc:92805} and use it at {location:Blackfang Challenge Arena}.'
+L['rendarr_note'] = 'Buy {item:124094} from {npc:92805} and use it at {location:Blackfang Challenge Arena}.'
+L['eyepiercer_note'] = 'Buy {item:124095} from {npc:92805} and use it at {location:Blackfang Challenge Arena}.'
 L['the_night_haunter_note'] = [[
 Collect 10 stacks of {spell:183612} debuff.
 

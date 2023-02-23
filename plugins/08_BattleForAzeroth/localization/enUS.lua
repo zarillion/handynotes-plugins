@@ -6,7 +6,7 @@ if not L then return end
 ----------------------------------- DRUSTVAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_sarco_note'] = 'Open the Ancient Sarcophagus to summon waves of {npc:128181}.'
+L['ancient_sarco_note'] = 'Open the {object:Ancient Sarcophagus} to summon waves of {npc:128181}.'
 L['beshol_note'] = 'Open the {object:Obviously Safe Chest} to summon the rare.'
 L['cottontail_matron_note'] = 'Study the {object:Beastly Ritual Skull} to summon the rare.'
 L['gluttonous_yeti_note'] = 'This {npc:127979} is doomed ...'
@@ -58,7 +58,7 @@ L['linda_deepwater_note'] = 'To gain access, you must complete {npc:136458}\'s q
 ----------------------------------- MECHAGON ----------------------------------
 -------------------------------------------------------------------------------
 
-L['avenger_note'] = 'When {npc:155254} is in Rustbolt, kill the {npc:151159} (runs all over the zone) to spawn.'
+L['avenger_note'] = 'When {npc:155254} is in {location:Rustbolt}, kill the {npc:151159} (runs all over the zone) to spawn.'
 L['beastbot_note'] = 'Craft a {item:168045} at {npc:150359} to activate.'
 L['cogstar_note'] = 'Kill {npc:150667} mobs anywhere in the zone until he teleports in to reinforce them.'
 L['crazed_trogg_note'] = 'Use a spraybot, paint filled bladder or the bots in {location:Bondo\'s Yard} to coat yourself in the color he yells.'
@@ -78,7 +78,7 @@ Hack the {npc:152174} using either:
 L['scrapclaw_note'] = 'Off the shore in the water.'
 L['sparkqueen_note'] = 'Spawns only when {daily:55765} is active.'
 L['rusty_note'] = 'Craft a {item:169114} at {npc:150359} to enter the alternate future. Only spawns when {npc:153993} is NOT present in {location:Rustbolt}.'
-L['vaultbot_note'] = 'Kite to the tesla coil in {location:Bondo\'s Yard} or craft a {item:167062} at {npc:150359} to break him open.'
+L['vaultbot_note'] = 'Kite to the {npc:151482} in {location:Bondo\'s Yard} or craft a {item:167062} at {npc:150359} to break him open.'
 
 L['iron_chest'] = 'Irontide Lockbox'
 L['mech_chest'] = 'Mechanized Chest'
@@ -95,10 +95,10 @@ L['shock_bot_note'] = 'Click the bot to gain a chain lightning damage proc for 2
 L['welding_bot_note'] = 'Click the bot to increase health and healing received by 10% for 2 hours.'
 
 L['options_icons_mech_buffs'] = 'Buff Bots'
-L['options_icons_mech_buffs_desc'] = 'Display locations of grease, shock and welding bots on the map inside the dungeon.'
-L['options_icons_mech_chest'] = 'Mechanized Chests'
+L['options_icons_mech_buffs_desc'] = 'Display locations of {npc:155911}, {npc:155909} and {npc:155910} on the map inside the dungeon.'
+L['options_icons_mech_chest'] = 'Mechanized Chest'
 L['options_icons_mech_chest_desc'] = 'Display locations of {object:Mechanized Chest}. There are 10 unique chests that can be looted once a day and each chest has 4-5 spawn locations. Locations are grouped by color.'
-L['options_icons_locked_chest'] = 'Locked Chests'
+L['options_icons_locked_chest'] = 'Locked Chest'
 L['options_icons_locked_chest_desc'] = 'Display locations of locked chests in the {location:Western Spray}.'
 L['options_icons_recrig'] = '{npc:150448}'
 L['options_icons_recrig_desc'] = 'Display the location of the {npc:150448} and its rewards.'
@@ -122,7 +122,7 @@ L['elderunu_note'] = 'Spawns anywhere in upper {location:Kal\'methir}.'
 L['gakula_note'] = 'Shoo away {npc:152275s} until he spawns.'
 L['glimmershell_note'] = 'Small chance to spawn in place of {npc:152426s}.'
 L['kelpwillow_note'] = 'Bring a {npc:154725} using a {item:167893} to activate.'
-L['lasher_note'] = 'Plant a {item:166888} in the soil and feed it flies.'
+L['lasher_note'] = 'Plant a {item:166888} in the soil and and feed it with nearby {npc:Seafly}.'
 L['matriarch_note'] = 'Shares a respawn timer with the other two Scale Matriarchs.'
 L['needle_note'] = 'Usually spawns in the {location:Gate of the Queen} area.'
 L['oronu_note'] = 'Summon a {npc:154849} pet to activate.'

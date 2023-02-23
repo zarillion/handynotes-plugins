@@ -7,11 +7,11 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = '现世边界'
-L['edge_of_reality_note'] = '{location:现世边界} 传送门将你带到一个场景，可以拾取 {item:121815}。'
+L['edge_of_reality_note'] = '{object:现世边界} 传送门将你带到一个场景，可以拾取 {item:121815}。'
 L['treasures_discovered'] = '宝藏已发现'
 L['strange_spore_treasure'] = '奇异孢子'
 L['burning_blade_cache_treasure'] = '火刃宝箱'
-L['multiple_spawn_note'] = '在多个位置刷新。'
+L['multiple_spawn_note'] = '在多个位置出现。'
 
 L['options_icons_pepe'] = '{achievement:10053}'
 L['options_icons_pepe_desc'] = '显示 {achievement:10053} 成就中服装的位置。'
@@ -84,7 +84,7 @@ L['slaves_freed'] = '解救奴隶'
 
 L['delectable_ogre_delicacies_label'] = '{achievement:9534}'
 L['delectable_ogre_delicacies_note'] = [[
-{npc:82801}，{npc:82822}，和 {npc:82823} 可能在任意位置刷新
+{npc:82801}，{npc:82822}，和 {npc:82823} 可能在任意位置出现
 
 {spell:166684} 持续5分钟
 {spell:166686} 持续2分钟
@@ -99,7 +99,7 @@ L['gronnstalker_rokash_follower_note'] = '完成 {quest:32981} 后招募他为�
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = '显示 {achievement:9531} 成就中 {object:散落的日志书页} 的位置。'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = '显示 {achievement:9533} 成就中 {object:冰封的奴隶} 和 {object:囚笼} 的位置。'
+L['options_icons_breaker_of_chains_desc'] = '显示 {achievement:9533} 成就中 {npc:82680} 和 {object:囚笼} 的位置。'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
 L['options_icons_delectable_ogre_delicacies_desc'] = '显示 {achievement:9534} 成就中美食的位置。'
 
@@ -141,7 +141,7 @@ L['weapons_cache_treasure'] = '武器架'
 L['ninja_pepe_note'] = '小屋内椅子上。'
 L['ninja_pepe_treasure'] = '忍者佩佩'
 
-L['protectors_of_the_grove_sublabel'] = '{npc:86259}，{npc:86258}，和 {npc:86257} 来自 |cffffff00丛林守护者|r'
+L['protectors_of_the_grove_sublabel'] = '{npc:86259}，{npc:86258}，和 {npc:86257} 来自 {npc:丛林守护者}。'
 
 L['prove_your_strength_note'] = '需要 {spell:164012} 要塞技能来激活。访问你的阵营哨站启用 {location:格斗竞技场}。'
 L['prove_your_strength_drop_single'] = '%s 掉落。'
@@ -165,7 +165,7 @@ L['options_icons_prove_your_strength_desc'] = '显示 {achievement:9402} 成就�
 
 L['fangler_note'] = '使用钓鱼竿。'
 L['berserk_t_300_series_mark_ii_note'] = '使用开关。'
-L['graveltooth_note'] = '击杀 {npc:84255} 直到 {npc:84263} 刷新。'
+L['graveltooth_note'] = '击杀 {npc:84255} 直到 {npc:84263} 出现。'
 L['gorepetal_note'] = '洞穴内。\n\n不在迷你地图上显示。点击 {object:原始百合} 后 {npc:83509} 出现。'
 L['sean_whitesea_note'] = '打开被 {object:遗弃的箱子} 后 {npc:83542} 出现。'
 
@@ -236,7 +236,7 @@ L['highmaul_farm_path'] = [[
 8. 再次向左，沿着小路，回到 {location:凯旋之路}。
 9. 上坐骑飞过去，进入 {location:角斗场}。不要试图使用前门，它是锁着的。
 
-向右飞出并返回前门。一波只需不到4分钟，当你回到前门时，一切都已经刷新了。
+向右飞出并返回前门。一波只需不到4分钟，当你回到前门时，一切都已经出现了。
 ]]
 
 L['steamwheedle_note'] = '从 {location:悬槌堡} 周围的 {npc:87223} 和 {npc:87222} 刷 {item:118099} 和 {item:118100}。交付物品给 {npc:87393} 获得声望。'
@@ -249,12 +249,12 @@ L['signal_horn_note'] = '从附近的 {npc:86658} 获得 {item:120290} 然后使
 
 L['garroshs_shackles'] = '小屋内'
 L['warsong_relics'] = '靠在小屋外的栅栏上'
-L['stolen_draenei_tome'] = '可以在塔顶的多个位置刷新'
-L['dirt_mound'] = '在附近击杀 {npc:86659} 来刷新 {npc:87280}。点击图腾获得 {spell:174572}。现在可以挖掘附近的 {npc:87530} 来寻找物品。'
+L['stolen_draenei_tome'] = '可以在塔顶的多个位置出现'
+L['dirt_mound'] = '在附近击杀 {npc:86659} 来出现 {npc:87280}。点击图腾获得 {spell:174572}。现在可以挖掘附近的 {npc:87530} 来寻找物品。'
 
-L['stable_master_note'] = '和 {兽栏管理员} 交谈获得一个训练中的坐骑哨。\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\n使用哨子召唤你的坐骑并杀死目标。\n\n{achievement:9539} 需要 {item:118469} 来自 |cffffff00二级兽栏|r。\n{achievement:9540} 需要 {item:118470} 来自 |cffffff00三级兽栏|r。'
+L['stable_master_note'] = '和 {npc:兽栏管理员} 交谈获得一个训练中的坐骑哨。\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\n使用哨子召唤你的坐骑并杀死目标。\n\n{achievement:9539} 需要 {item:118469} 来自 {location:二级兽栏}。\n{achievement:9540} 需要 {item:118470} 来自 {location:三级兽栏}。'
 
-L['making_the_cut_note'] = '当 {npc:88210} 可用时，在 {location:鲜血竞技场} 附近杀死15个 {npc:88207}。一旦15个被杀死 {npc:88210} 将可成为目标。\n\n' .. ns.color.Red('对一群废物来说还算不错！等你们准备好送死，就来面对克鲁德吧！')
+L['making_the_cut_note'] = '当 {npc:88210} 可用时，在 {location:鲜血竞技场} 附近杀死15个 {npc:88207}。一旦15个被杀死 {npc:88210} 将可成为目标。\n\n{yell:对一群废物来说还算不错！等你们准备好送死，就来面对克鲁德吧！}'
 
 L['goldmane_follower_note'] = '击杀附近的 {npc:80080} 以拾取 {item:111863} 并解锁笼子招募 {npc:80083} 作为追随者。'
 L['abugar_follower_note'] = [[
@@ -334,7 +334,7 @@ L['you_have_been_rylakinated_note'] = '必须完成 {quest:34355}。\n\n从附�
 L['artificer_romuul_follower_note'] = '完成水晶防御事件招募他为随从。'
 
 L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
-L['options_icons_you_have_been_rylakinated_desc'] = '显示 {achievement:9481} 成就中双头飞龙的位置。'
+L['options_icons_you_have_been_rylakinated_desc'] = '显示 {achievement:9481} 成就中 {npc:85357} 的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------- SPIRES OF ARAK --------------------------------
@@ -385,7 +385,7 @@ L['smuggled_apexis_artifacts_treasure'] = '走私的埃匹希斯遗物'
 L['offering_to_the_raven_mother_treasure'] = '鸦母的供品'
 
 L['elixir_of_shadow_sight_treasure'] = '暗影视觉药剂'
-L['elixir_pre_note'] = '带到 {location:泰罗克圣坛}。'
+L['elixir_pre_note'] = '带到 {object:泰罗克圣坛}。'
 L['elixir_01_note'] = '小木屋旁边的一个吊篮内。'
 L['elixir_02_note'] = '在燃烧的小屋后面的篮子里。'
 L['elixir_03_note'] = '在一棵树和一堵破墙之间的篮子里。'
@@ -415,7 +415,7 @@ L['options_icons_archaeology_treasure_desc'] = '显示考古宝藏的位置。'
 L['options_icons_offering'] = '鸦母的供品'
 L['options_icons_offering_desc'] = '显示 {object:鸦母的供品} 的物品位置。'
 L['options_icons_shrines_of_terokk'] = '泰罗克圣坛'
-L['options_icons_shrines_of_terokk_desc'] = '显示 {location:泰罗克圣坛} 的位置。'
+L['options_icons_shrines_of_terokk_desc'] = '显示 {object:泰罗克圣坛} 的位置。'
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
 L['options_icons_would_you_like_a_pamplet_desc'] = '显示 {achievement:9432} 成就中物品的位置。'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
@@ -429,7 +429,7 @@ L['wandering_vindicator_note'] = '击败他后，需要从石头中拾取宝剑�
 L['legion_vanguard_note'] = '从传送门中召唤 {npc:88494}。击杀传送门周围 {npc:83023} 及其它，会把他召唤出来。'
 L['taladorantula_note'] = '踩踏卵巢并击杀周围的 {npc:75258} 来召唤 {npc:77634}。大约需要3到5分钟的踩踏时间。'
 L['shirzir_note'] = '在地下墓穴。'
-L['kharazos_galzomar_sikthiss_note'] = '{npc:78710}、{npc:78713} 和 {npc:78715} 共享掉落、刷新和路径。'
+L['kharazos_galzomar_sikthiss_note'] = '{npc:78710}、{npc:78713} 和 {npc:78715} 共享掉落、出现和路径。'
 L['orumo_the_observer_note'] = [[
 {npc:87668} 需要5人站在符文上直到他可被击杀。
 
@@ -457,7 +457,7 @@ L['draenei_weapons_treasure'] = '德莱尼武器'
 L['farmers_bounty_treasure'] = '农夫的宝贝'
 L['foremans_lunchbox_treasure'] = '工头的午餐盒'
 L['iron_box_treasure'] = '铁盒子'
-L['isaaris_cache_note'] = '营救4名被困在蜘蛛网中的德莱尼，然后伊萨莉宝箱将在这里出现。'
+L['isaaris_cache_note'] = '营救4名被困在蜘蛛网中的德莱尼，然后 {object:伊萨莉宝箱} 将在这里出现。'
 L['isarris_cache_treasure'] = '伊萨莉宝箱'
 L['jug_of_aged_ironwine_treasure'] = '一大壶陈年黑铁佳酿'
 L['keluus_belongings_treasure'] = '克鲁的物品'
@@ -465,7 +465,7 @@ L['ketyas_stash_treasure'] = '凯特娅的宝箱'
 L['light_of_the_sea_treasure'] = '海洋之光'
 L['lightbearer_treasure'] = '圣光使者'
 L['luminous_shell_treasure'] = '微光贝壳'
-L['noranas_cache_note'] = '营救4名被困在蜘蛛网中的冒险者，然后诺拉纳的宝箱将在这里出现。'
+L['noranas_cache_note'] = '营救4名被困在蜘蛛网中的冒险者，然后 {object:诺拉纳的宝箱} 将在这里出现。'
 L['noranas_cache_treasure'] = '诺拉纳的宝箱'
 L['pure_crystal_dust_note'] = '矿井上层。'
 L['pure_crystal_dust_treasure'] = '纯净水晶尘'
@@ -473,7 +473,7 @@ L['relic_of_aruuna_treasure'] = '阿鲁纳遗物'
 L['relic_of_telmor_treasure'] = '泰尔莫遗物'
 L['rooks_tacklebox_treasure'] = '鲁克的工具盒'
 L['rusted_lockbox_treasure'] = '生锈宝箱'
-L['rusted_lockbox_treasure_note'] = '洞穴内。\n 沉入在水里。'
+L['rusted_lockbox_treasure_note'] = '洞穴内。\n沉入水中。'
 L['soulbinders_reliquary_treasure'] = '缚魂者的圣物箱'
 L['teroclaw_nest_treasure'] = '恐爪鸟巢穴'
 L['treasure_of_angorosh_treasure'] = '安葛洛什宝藏'
@@ -523,11 +523,11 @@ L['szirek_the_twisted_note'] = '占领东侧据点召唤此稀有。'
 L['the_iron_houndmaster_note'] = '占领西侧据点召唤此稀有。'
 L['belgork_thromma_note'] = '此洞穴有2个入口。'
 L['driss_vile_note'] = '在塔顶上。'
-L['overlord_magruth_note'] = '击杀营地附近兽人让他刷新。'
+L['overlord_magruth_note'] = '击杀营地附近兽人让他出现。'
 L['mistress_thavra_note'] = '在洞穴上层。'
-L['dorg_the_bloody_note'] = '在刷新点击杀 {npc:89706} 和其他敌人。'
-L['grand_warlock_netherkurse_note'] = '击杀刷新点附近的敌人。'
-L['ceraxas_note'] = '击杀后刷新的 {npc:90426} 有任务 {quest:38428} 获得宠物。'
+L['dorg_the_bloody_note'] = '在出现点击杀 {npc:89706} 和其他敌人。'
+L['grand_warlock_netherkurse_note'] = '击杀出现点附近的敌人。'
+L['ceraxas_note'] = '击杀后出现的 {npc:90426} 有任务 {quest:38428} 获得宠物。'
 L['commander_orgmok_note'] = '骑着 {npc:89676} 巡逻。'
 L['rendrak_note'] = '从沼泽周围的 {npc:89788} 收集10个 {item:124045}。将它们结合起来召唤稀有。'
 L['akrrilo_note'] = '从 {npc:92805} 购买 {item:124093} 并在 {location:黑齿挑战竞技场} 使用它。'
@@ -539,7 +539,7 @@ L['the_night_haunter_note'] = [[
 使用 {npc:92651} 或找到 {npc:92645}（100%几率）可以获得负面效果。
 ]]
 L['xemirkol_note'] = [[
-从 {npc:95424} 购买 {item:128502} 或 {item:128503} 并在刷新点使用它传送到 {npc:96235}。
+从 {npc:95424} 购买 {item:128502} 或 {item:128503} 并在出现点使用它传送到 {npc:96235}。
 
 水晶将你传送到附近的随机稀有地点，所以最好在击杀 {npc:92887} 并使用 {item:128502}。
 
