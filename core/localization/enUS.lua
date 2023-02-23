@@ -37,6 +37,20 @@ L['cloak'] = 'Cloak'
 L['trinket'] = 'Trinket'
 
 -------------------------------------------------------------------------------
+-------------------------------- RECIPE PREFIX --------------------------------
+-------------------------------------------------------------------------------
+
+L['recipe_prefix_alchemy'] = 'Recipe: '
+L['recipe_prefix_blacksmithing'] = 'Plans: '
+L['recipe_prefix_enchanting'] = 'Formula: '
+L['recipe_prefix_engineering'] = 'Schematic: '
+L['recipe_prefix_inscription'] = 'Technique: '
+L['recipe_prefix_jewelcrafting'] = 'Design: '
+L['recipe_prefix_leatherworking'] = 'Pattern: '
+L['recipe_prefix_tailoring'] = 'Pattern: '
+L['recipe_prefix_cooking'] = 'Recipe: '
+
+-------------------------------------------------------------------------------
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -67,6 +81,7 @@ L['spell'] = 'Spell'
 L['title'] = 'Title'
 L['toy'] = 'Toy'
 L['rep'] = 'Rep'
+L['recipe'] = 'Recipe'
 L['completed'] = 'Completed'
 L['incomplete'] = 'Incomplete'
 L['known'] = 'Known'
@@ -148,6 +163,8 @@ L['options_toy_rewards'] = 'Show toy rewards'
 L['options_toy_rewards_desc'] = 'Display toy rewards in tooltips and track their collected status.'
 L['options_transmog_rewards'] = 'Show transmog rewards'
 L['options_transmog_rewards_desc'] = 'Display transmog rewards in tooltips and track their collected status.'
+L['options_recipe_rewards'] = 'Show recipe rewards'
+L['options_recipe_rewards_desc'] = 'Display recipe rewards in tooltips and track their collected status.'
 L['options_all_transmog_rewards'] = 'Show unobtainable transmog rewards'
 L['options_all_transmog_rewards_desc'] = 'Display transmog rewards obtainable by other classes.'
 

@@ -37,6 +37,20 @@ L['cloak'] = 'Плащ'
 L['trinket'] = 'Аксессуар'
 
 -------------------------------------------------------------------------------
+-------------------------------- RECIPE PREFIX --------------------------------
+-------------------------------------------------------------------------------
+
+L['recipe_prefix_alchemy'] = nil
+L['recipe_prefix_blacksmithing'] = nil
+L['recipe_prefix_enchanting'] = nil
+L['recipe_prefix_engineering'] = nil
+L['recipe_prefix_inscription'] = nil
+L['recipe_prefix_jewelcrafting'] = nil
+L['recipe_prefix_leatherworking'] = nil
+L['recipe_prefix_tailoring'] = nil
+L['recipe_prefix_cooking'] = nil
+
+-------------------------------------------------------------------------------
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -67,6 +81,7 @@ L['spell'] = 'Заклинание'
 L['title'] = 'Звание'
 L['toy'] = 'Игрушка'
 L['rep'] = 'Реп.'
+L['recipe'] = nil
 L['completed'] = 'Получено'
 L['incomplete'] = 'Незавершенно'
 L['known'] = 'Известно'
@@ -148,6 +163,8 @@ L['options_toy_rewards'] = 'Показать игрушки'
 L['options_toy_rewards_desc'] = 'Отображать игрушки во всплывающих подсказках и отслеживание их статуса.'
 L['options_transmog_rewards'] = 'Показать трансмогрификацию'
 L['options_transmog_rewards_desc'] = 'Отображать трансмогрификацию во всплывающих подсказках и отслеживать их статус.'
+L['options_recipe_rewards'] = nil
+L['options_recipe_rewards_desc'] = nil
 L['options_all_transmog_rewards'] = 'Показать недоступные награды за трансмогрификацию'
 L['options_all_transmog_rewards_desc'] = 'Показать награды за трансмогрификацию, доступные другим классам.'
 

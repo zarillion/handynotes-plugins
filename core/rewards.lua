@@ -560,19 +560,71 @@ function Transmog:GetStatus()
 end
 
 -------------------------------------------------------------------------------
+------------------------------------ RECIPE -----------------------------------
+-------------------------------------------------------------------------------
+
+local PROFESSION_PREFIX = {
+    [171] = L['recipe_prefix_alchemy'],
+    [164] = L['recipe_prefix_blacksmithing'],
+    [333] = L['recipe_prefix_enchanting'],
+    [202] = L['recipe_prefix_engineering'],
+    [773] = L['recipe_prefix_inscription'],
+    [755] = L['recipe_prefix_jewelcrafting'],
+    [165] = L['recipe_prefix_leatherworking'],
+    [197] = L['recipe_prefix_tailoring'],
+    [185] = L['recipe_prefix_cooking']
+}
+
+local Recipe = Class('Recipe', Item, {
+    display_option = 'show_recipe_rewards',
+    type = L['recipe']
+})
+
+function Recipe:Initialize(attrs)
+    if attrs.item then
+        Item.Initialize(self, attrs)
+    else
+        Reward.Initialize(self, attrs)
+    end
+
+    if not self.profession then
+        error('Recipe() reward requires a profession id to be set')
+    end
+
+    if not self.item then
+        local prefix = PROFESSION_PREFIX[self.profession] or ''
+        local name, _, icon = GetSpellInfo(self.id)
+        self.itemIcon = icon
+        self.itemLink = ns.color.White('[' .. prefix .. name .. ']')
+    end
+end
+
+function Recipe:IsObtained() return IsSpellKnown(self.id) end
+
+function Recipe:IsEnabled()
+    if not Item.IsEnabled(self) then return false end
+    return ns.PlayerHasProfession(self.profession)
+end
+
+function Recipe:GetStatus()
+    return IsSpellKnown(self.id) and Green(L['known']) or Red(L['missing'])
+end
+
+-------------------------------------------------------------------------------
 
 ns.reward = {
-    Reward = Reward,
-    Section = Section,
-    Spacer = Spacer,
     Achievement = Achievement,
     Currency = Currency,
     Follower = Follower,
-    Item = Item,
     Heirloom = Heirloom,
+    Item = Item,
     Mount = Mount,
     Pet = Pet,
     Quest = Quest,
+    Recipe = Recipe,
+    Reward = Reward,
+    Section = Section,
+    Spacer = Spacer,
     Spell = Spell,
     Title = Title,
     Toy = Toy,

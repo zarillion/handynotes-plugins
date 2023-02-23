@@ -38,6 +38,7 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -65,6 +66,7 @@ map.nodes[63695509] = Rare14h({
         Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
         Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
+        Recipe({item = 191580, id = 370710, profession = 773}), -- Recipe: Transmute: Awakened Earth - 0.3%
         DC.CliffsideWylderdrake.BlackHorns, DC.WindborneVelocidrake.ClubTail
     }
 }) -- Amethyzar the Glittering
@@ -138,6 +140,10 @@ map.nodes[26847642] = RareElite({
         Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
         Transmog({item = 200286, slot = L['polearm']}), -- Dragonbane Lance
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
+        Recipe({item = 194507, id = 371394, profession = 164}), -- Plans: Serevite Skeleton Key - 0.02%
+        Recipe({item = 194483, id = 367593, profession = 164}), -- Plans: Obsidian Seared Slicer - 0.02%
+        Recipe({item = 194476, id = 367587, profession = 164}), -- Plans: Obsidian Seared Hexsword - 0.01%
+        Recipe({item = 194641, id = 374499, profession = 755}), -- Design: Elemental Lariat - 0.001%
         DC.CliffsideWylderdrake.BluntSpikedTail,
         DC.CliffsideWylderdrake.HornedNose
     }
@@ -150,6 +156,10 @@ map.nodes[30575625] = RareElite({
         Achievement({id = 16676, criteria = 56056}),
         Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
+        Recipe({item = 194507, id = 371394, profession = 164}), -- Plans: Serevite Skeleton Key - 0.05%
+        Recipe({item = 194483, id = 367593, profession = 164}), -- Plans: Obsidian Seared Slicer - 0.02%
+        Recipe({item = 194476, id = 367587, profession = 164}), -- Plans: Obsidian Seared Hexsword - 0.02%
+        Recipe({item = 194481, id = 367591, profession = 164}), -- Plans: Obsidian Seared Crusher - 0.02%
         DC.CliffsideWylderdrake.BluntSpikedTail,
         DC.CliffsideWylderdrake.HornedNose
     }
@@ -177,6 +187,7 @@ map.nodes[29935074] = RareElite({
         Transmog({item = 200439, slot = L['offhand']}), -- Earthpact Scepter
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Toy({item = 200198}), -- Primalist Prison
+        Recipe({item = 191580, id = 370710, profession = 773}), -- Recipe: Transmute: Awakened Earth - 0.15%
         DC.RenewedProtoDrake.HeavyHorns, DC.WindborneVelocidrake.ClubTail,
         DC.WindborneVelocidrake.ClusterHorns, DC.CliffsideWylderdrake.BlackHorns
     },
@@ -221,6 +232,7 @@ map.nodes[60204535] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
+        Recipe({item = 198876, id = 383545, profession = 171}), -- Technique: Weathered Explorer's Stave - 0.3%
         DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     },
     pois = {
@@ -277,6 +289,7 @@ map.nodes[52345829] = Rare({
         Achievement({id = 16676, criteria = 56033}),
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
+        Recipe({item = 198909, id = 383565, profession = 773}), -- Technique: Illusion Parchment: Magma Missile - 0.4%
         DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek
     }
 }) -- Gushgut the Beaksinker
@@ -348,6 +361,7 @@ map.nodes[32805248] = RareElite({
         Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
         Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
+        Recipe({item = 194641, id = 374499, profession = 755}), -- Design: Elemental Lariat - 0.03%
         DC.WindborneVelocidrake.ClubTail, DC.CliffsideWylderdrake.BlackHorns
     },
     pois = {POI({32245246})} -- Igys the Believer
@@ -361,6 +375,7 @@ map.nodes[56004592] = Rare({
         Transmog({item = 200165, slot = L['shield']}), -- Aegis of Scales
         Transmog({item = 200256, slot = L['offhand']}), -- Darkmaul Soul Horn
         Transmog({item = 200310, note = L['cloak']}), -- Stole of the Iron Phantom
+        Recipe({item = 198909, id = 383565, profession = 773}), -- Technique: Illusion Parchment: Magma Missile - 0.19%
         DC.RenewedProtoDrake.ClubTail, DC.RenewedProtoDrake.WhiteHorns,
         DC.CliffsideWylderdrake.HeavyHorns, DC.CliffsideWylderdrake.HornedJaw
     }
@@ -410,6 +425,8 @@ map.nodes[24005896] = RareElite({
         Achievement({id = 16676, criteria = 56061}),
         Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
+        Recipe({item = 194481, id = 367591, profession = 164}), -- Plans: Obsidian Seared Crusher - 0.04%
+        Recipe({item = 194476, id = 367587, profession = 164}), -- Plans: Obsidian Seared Hexsword - 0.01%
         DC.CliffsideWylderdrake.BluntSpikedTail,
         DC.CliffsideWylderdrake.HornedNose
     },
@@ -424,6 +441,12 @@ map.nodes[30736110] = RareElite({
         Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Recipe({item = 194503, id = 371372, profession = 164}), -- Plans: Black Dragon Touched Hammer - 1.6%
+        Recipe({item = 194508, id = 371403, profession = 164}), -- Plans: Alvin the Anvil - 0.02%
+        Recipe({item = 194483, id = 367593, profession = 164}), -- Plans: Obsidian Seared Slicer - 0.03%
+        Recipe({item = 194481, id = 367591, profession = 164}), -- Plans: Obsidian Seared Crusher - 0.03%
+        Recipe({item = 194507, id = 371394, profession = 164}), -- Plans: Serevite Skeleton Key - 0.02%
+        Recipe({item = 194476, id = 367587, profession = 164}), -- Plans: Obsidian Seared Hexsword - 0.01%
         DC.CliffsideWylderdrake.HornedNose,
         DC.CliffsideWylderdrake.BluntSpikedTail
     }
@@ -560,6 +583,7 @@ map.nodes[33525576] = RareElite({
         Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
+        Recipe({item = 191580, id = 370710, profession = 773}), -- Recipe: Transmute: Awakened Earth - 0.2%
         DC.WindborneVelocidrake.ClubTail, DC.CliffsideWylderdrake.BlackHorns
     }
 }) -- Turboris
@@ -663,6 +687,11 @@ map.nodes[64173289] = Rare({
     rewards = {
         Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
+        Recipe({item = 194483, id = 367593, profession = 164}), -- Plans: Obsidian Seared Slicer - 0.02%
+        Recipe({item = 194481, id = 367591, profession = 164}), -- Plans: Obsidian Seared Crusher - 0.02%
+        Recipe({item = 201741, id = 383581, profession = 773}), -- Technique: Renewed Proto-Drake: Bovine Horns - 0.02%
+        Recipe({item = 194507, id = 371394, profession = 164}), -- Plans: Serevite Skeleton Key - 0.01%
+        Recipe({item = 198909, id = 383565, profession = 773}), -- Technique: Illusion Parchment: Magma Missile - 0.01%
         DC.CliffsideWylderdrake.BluntSpikedTail,
         DC.CliffsideWylderdrake.HornedNose
     }
@@ -675,6 +704,10 @@ map.nodes[54582137] = Rare({
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
+        Recipe({item = 191578, id = 370707, profession = 773}), -- Recipe: Transmute: Awakened Fire - 0.07%
+        Recipe({item = 194267, id = 376537, profession = 197}), -- Pattern: Shimmering Embroidery Thread - 0.01%
+        Recipe({item = 201741, id = 383581, profession = 773}), -- Technique: Renewed Proto-Drake: Bovine Horns - 0.01%
+        Recipe({item = 198876, id = 383545, profession = 171}), -- Technique: Weathered Explorer's Stave - 0.01%
         DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth
     }
 }) -- Firava the Rekindler
@@ -695,6 +728,8 @@ map.nodes[54728225] = Rare({
         Transmog({item = 200439, slot = L['offhand']}), -- Earthpact Scepter
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Toy({item = 200198}), -- Primalist Prison
+        Recipe({item = 191580, id = 370710, profession = 773}), -- Recipe: Transmute: Awakened Earth - 0.3%
+        Recipe({item = 194267, id = 376537, profession = 197}), -- Pattern: Shimmering Embroidery Thread - 0.01%
         DC.CliffsideWylderdrake.BlackHorns, DC.CliffsideWylderdrake.ManedNeck,
         DC.WindborneVelocidrake.ClubTail, DC.RenewedProtoDrake.HeavyHorns,
         DC.WindborneVelocidrake.ClusterHorns
@@ -727,6 +762,8 @@ map.nodes[81133794] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Recipe({item = 198909, id = 383565, profession = 773}), -- Technique: Illusion Parchment: Magma Missile - 0.02%
+        Recipe({item = 194267, id = 376537, profession = 197}), -- Pattern: Shimmering Embroidery Thread - 0.01%
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     },
@@ -1329,7 +1366,7 @@ local DjaradinCache = Class('DjaradinCache', ns.node.Node, {
         Transmog({item = 201432, slot = L['cosmetic']}), -- Obsidian Dragontooth
         Transmog({item = 201433, slot = L['cosmetic']}), -- Citadel Wardens Mace
         Transmog({item = 201434, slot = L['cosmetic']}), -- Obsidian Barrier
-        Item({item = 199230}), -- Schematic: Projectile Propulsion Pinion
+        Recipe({item = 199230, id = 382325, profession = 202}), -- Schematic: Projectile Propulsion Pinion
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Item({item = 199065, quest = 70534}), -- Sorrowful Letter
@@ -2408,7 +2445,7 @@ map.nodes[37104453] = TameMagmammoth() -- Smoldering Perch
 
 nel.nodes[57407880] = PT.Engineering({
     id = 199229,
-    rewards = {Item({item = 199229})}
+    rewards = {Recipe({item = 199229, id = 382324, profession = 202})}
 }) -- Schematic: Tinker: Breath of Neltharion
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------

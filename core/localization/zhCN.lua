@@ -37,6 +37,20 @@ L['cloak'] = '披风'
 L['trinket'] = '饰品'
 
 -------------------------------------------------------------------------------
+-------------------------------- RECIPE PREFIX --------------------------------
+-------------------------------------------------------------------------------
+
+L['recipe_prefix_alchemy'] = '配方：'
+L['recipe_prefix_blacksmithing'] = '设计图：'
+L['recipe_prefix_enchanting'] = '公式：'
+L['recipe_prefix_engineering'] = '结构图：'
+L['recipe_prefix_inscription'] = '工艺图：'
+L['recipe_prefix_jewelcrafting'] = '图鉴：'
+L['recipe_prefix_leatherworking'] = '图样：'
+L['recipe_prefix_tailoring'] = '图样：'
+L['recipe_prefix_cooking'] = '食谱：'
+
+-------------------------------------------------------------------------------
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -67,6 +81,7 @@ L['spell'] = '法术'
 L['title'] = '头衔'
 L['toy'] = '玩具'
 L['rep'] = '声望'
+L['recipe'] = '配方'
 L['completed'] = '已完成'
 L['incomplete'] = '未完成'
 L['known'] = '已获得'
@@ -141,13 +156,15 @@ L['options_restore_hidden_nodes_desc'] = '使用右击菜单恢复全部隐藏�
 L['options_rewards_settings'] = '奖励'
 L['options_reward_types'] = '显示奖励类型'
 L['options_mount_rewards'] = '显示坐骑奖励'
-L['options_mount_rewards_desc'] = '在提示和追踪其收集状态显示坐骑奖励。'
+L['options_mount_rewards_desc'] = '在提示中显示坐骑奖励并跟踪其收集状态。'
 L['options_pet_rewards'] = '显示宠物奖励'
-L['options_pet_rewards_desc'] = '在提示和追踪其收集状态显示宠物奖励。'
+L['options_pet_rewards_desc'] = '在提示中显示宠物奖励并跟踪其收集状态。'
 L['options_toy_rewards'] = '显示玩具奖励'
-L['options_toy_rewards_desc'] = '在提示和追踪其收集状态显示玩具奖励。'
+L['options_toy_rewards_desc'] = '在提示中显示玩具奖励并跟踪其收集状态。'
 L['options_transmog_rewards'] = '显示幻化奖励'
-L['options_transmog_rewards_desc'] = '在提示和追踪其收集状态显示幻化奖励。'
+L['options_transmog_rewards_desc'] = '在提示中显示幻化奖励并跟踪其收集状态。'
+L['options_recipe_rewards'] = '显示配方奖励'
+L['options_recipe_rewards_desc'] = '在提示中显示配方奖励并跟踪其收集状态。'
 L['options_all_transmog_rewards'] = '显示无法获取的幻化奖励'
 L['options_all_transmog_rewards_desc'] = '显示其它职业可以获取的幻化奖励。'
 

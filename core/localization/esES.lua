@@ -38,6 +38,20 @@ L['cloak'] = 'Capa'
 L['trinket'] = 'Abalorio'
 
 -------------------------------------------------------------------------------
+-------------------------------- RECIPE PREFIX --------------------------------
+-------------------------------------------------------------------------------
+
+L['recipe_prefix_alchemy'] = 'Receta: '
+L['recipe_prefix_blacksmithing'] = 'Diseño: '
+L['recipe_prefix_enchanting'] = 'Fórmula: '
+L['recipe_prefix_engineering'] = 'Esquema: '
+L['recipe_prefix_inscription'] = 'Técnica: '
+L['recipe_prefix_jewelcrafting'] = 'Boceto: '
+L['recipe_prefix_leatherworking'] = 'Patrón: '
+L['recipe_prefix_tailoring'] = 'Patrón: '
+L['recipe_prefix_cooking'] = 'Receta: '
+
+-------------------------------------------------------------------------------
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -68,6 +82,7 @@ L['spell'] = 'Hechizo'
 L['title'] = 'Título'
 L['toy'] = 'Juguete'
 L['rep'] = 'Reputación'
+L['recipe'] = nil
 L['completed'] = 'Terminado'
 L['incomplete'] = 'Incompleto'
 L['known'] = 'Conocido'
@@ -149,6 +164,8 @@ L['options_toy_rewards'] = 'Mostrar recompensas de juguetes'
 L['options_toy_rewards_desc'] = 'Muestra las recompensas de juguetes en las notas y rastrea el estado de si ha sido aprendida.'
 L['options_transmog_rewards'] = 'Mostrar recompensas de transfiguraciones'
 L['options_transmog_rewards_desc'] = 'Muestra las recompensas de transfiguraciones en las notas y rastrea el estado de si ha sido aprendida.'
+L['options_recipe_rewards'] = nil
+L['options_recipe_rewards_desc'] = nil
 L['options_all_transmog_rewards'] = 'Mostrar las recompensas de transfiguraciones que no pueden conseguirse'
 L['options_all_transmog_rewards_desc'] = 'Muestra las recompensas de transfiguraciones conseguibles por otras clases.'
 

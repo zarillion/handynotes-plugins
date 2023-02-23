@@ -37,6 +37,20 @@ L['cloak'] = '披風'
 L['trinket'] = '飾品'
 
 -------------------------------------------------------------------------------
+-------------------------------- RECIPE PREFIX --------------------------------
+-------------------------------------------------------------------------------
+
+L['recipe_prefix_alchemy'] = nil
+L['recipe_prefix_blacksmithing'] = nil
+L['recipe_prefix_enchanting'] = nil
+L['recipe_prefix_engineering'] = nil
+L['recipe_prefix_inscription'] = nil
+L['recipe_prefix_jewelcrafting'] = nil
+L['recipe_prefix_leatherworking'] = nil
+L['recipe_prefix_tailoring'] = nil
+L['recipe_prefix_cooking'] = nil
+
+-------------------------------------------------------------------------------
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -67,6 +81,7 @@ L['spell'] = '法術'
 L['title'] = '稱號'
 L['toy'] = '玩具'
 L['rep'] = '聲望'
+L['recipe'] = nil
 L['completed'] = '已完成'
 L['incomplete'] = '未完成'
 L['known'] = '已獲得'
@@ -148,6 +163,8 @@ L['options_toy_rewards'] = '顯示玩具獎勵'
 L['options_toy_rewards_desc'] = '在提示顯示玩具獎勵並追蹤收集狀態'
 L['options_transmog_rewards'] = '顯示塑形獎勵'
 L['options_transmog_rewards_desc'] = '在提示顯示塑型獎勵並追蹤收集狀態'
+L['options_recipe_rewards'] = nil
+L['options_recipe_rewards_desc'] = nil
 L['options_all_transmog_rewards'] = '顯示無法取得的塑形獎勵'
 L['options_all_transmog_rewards_desc'] = '顯示其他職業可以取得的塑形獎勵'
 

@@ -37,6 +37,20 @@ L['cloak'] = 'Umhang'
 L['trinket'] = 'Schmuck'
 
 -------------------------------------------------------------------------------
+-------------------------------- RECIPE PREFIX --------------------------------
+-------------------------------------------------------------------------------
+
+L['recipe_prefix_alchemy'] = 'Rezept: '
+L['recipe_prefix_blacksmithing'] = 'Pläne: '
+L['recipe_prefix_enchanting'] = 'Formel: '
+L['recipe_prefix_engineering'] = 'Bauplan: '
+L['recipe_prefix_inscription'] = 'Technik: '
+L['recipe_prefix_jewelcrafting'] = 'Vorlage: '
+L['recipe_prefix_leatherworking'] = 'Muster: '
+L['recipe_prefix_tailoring'] = 'Muster: '
+L['recipe_prefix_cooking'] = 'Rezept: '
+
+-------------------------------------------------------------------------------
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -67,6 +81,7 @@ L['spell'] = 'Fähigkeit'
 L['title'] = 'Titel'
 L['toy'] = 'Spielzeug'
 L['rep'] = 'Ruf'
+L['recipe'] = 'Rezept'
 L['completed'] = 'Abgeschlossen'
 L['incomplete'] = 'Unvollständig'
 L['known'] = 'Bekannt'
@@ -148,6 +163,8 @@ L['options_toy_rewards'] = 'Zeige Spielzeugbelohnungen'
 L['options_toy_rewards_desc'] = 'Zeige Spielzeugbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_transmog_rewards'] = 'Zeige Vorlagenbelohnungen'
 L['options_transmog_rewards_desc'] = 'Zeige Vorlagenbelohnungen für Waffen und Rüstungen in Tooltips an und verfolge ihren Sammlungsstatus.'
+L['options_recipe_rewards'] = 'Zeige Rezeptbelohnungen'
+L['options_recipe_rewards_desc'] = 'Zeige Rezeptbelohnungen für bekannte Berufe in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_all_transmog_rewards'] = 'Zeige nicht erhältliche Vorlagenbelohnungen'
 L['options_all_transmog_rewards_desc'] = 'Zeigt Vorlagenbelohnungen an, die nur für andere Klassen erhältlich sind.'
 
