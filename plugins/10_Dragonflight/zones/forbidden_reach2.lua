@@ -1119,7 +1119,6 @@ warCreche.nodes[32346769] = Node({
     label = 'Edict: Dark Talons', -- TODO: Non-localized name for now
     icon = 'chest_yw',
     note = L['in_the_war_creche'],
-    parent = map.id,
     pois = {
         POI({51786020}) -- Entrance
     }
@@ -1129,7 +1128,6 @@ warCreche.nodes[39347578] = Node({
     label = 'Edict: The Earth-Warder', -- TODO: Non-localized name for now
     icon = 'chest_yw',
     note = L['in_the_war_creche'],
-    parent = map.id,
     pois = {
         POI({51786020}) -- Entrance
     }
@@ -1139,7 +1137,6 @@ warCreche.nodes[31118323] = Node({
     label = 'Edict: Obsidian Warders', -- TODO: Non-localized name for now
     icon = 'chest_yw',
     note = L['in_the_war_creche'],
-    parent = map.id,
     pois = {
         POI({51786020}) -- Entrance
     }
