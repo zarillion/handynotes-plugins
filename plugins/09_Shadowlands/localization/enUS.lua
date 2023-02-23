@@ -27,9 +27,9 @@ L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievem
 L['deifir_note'] = 'Ride the rare around in a circle and use {spell:319566} and {spell:319575} to slow and stun him.'
 L['faeflayer_note'] = 'In a small cave hidden behind a waterfall.'
 L['gormbore_note'] = 'Kill {npc:165420s} over the rumbling ground to spawn the rare.'
-L['gormtamer_tizo_note'] = 'Kill Bristlecone Sprites in the Mistveil Tangle until {npc:164110} spawns.'
-L['humongozz_note'] = 'Plant an {item:175247} in the Damp Loam to spawn a {npc:164122}. The mushroom drops from numerous mobs in the zone.'
-L['lehgo_note'] = 'Destroy {object:Quivering Gorm Eggs} and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the Dusty Burrows).'
+L['gormtamer_tizo_note'] = 'Kill Bristlecone Sprites in the {location:Mistveil Tangle} until {npc:164110} spawns.'
+L['humongozz_note'] = 'Plant an {item:175247} in the {object:Damp Loam} to spawn a {npc:164122}. The mushroom drops from numerous mobs in the zone.'
+L['lehgo_note'] = 'Destroy {object:Quivering Gorm Eggs} and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the {location:Dusty Burrows}).'
 L['macabre_note'] = [[
 Spawns in multiple locations. To summon, stand in the Mysterious Mushroom Ring with 2 other players and dance with each other.
 
@@ -55,7 +55,7 @@ L['wrigglemortis_note'] = 'Pull the {npc:164179} to spawn the rare.'
 L['night_mare_note'] = [[
 Travel to {location:Tirna Scithe} and follow the root path on the northwest cliff to a broken cart. There you can loot a {item:181243} on the ground.
 
-Take this item to {npc:165704} at {location:Glitterfall Basin}. She will give you a {item:181242} in exchange for 10 {item:173204}. {note:If she is not there, you must complete the {|cFFFFFD00Trouble at the Gormling Corral|r} and |cFFFFFD00Tricky Spriggans|r quest lines.}
+Take this item to {npc:165704} at {location:Glitterfall Basin}. She will give you a {item:181242} in exchange for 10 {item:173204}. {note:If she is not there, you must complete the |cFFFFFD00Trouble at the Gormling Corral|r and |cFFFFFD00Tricky Spriggans|r quest lines.}
 
 Next, talk to {npc:160262} in the {location:Heart of the Forest} to exchange the {item:181242} for a {item:178675}. Talk to the guards to have her come outside if you are not a Night Fae. Use this item to get {spell:327083} buff, allowing you to see the {npc:168135}.
 ]]
@@ -614,7 +614,7 @@ L['options_icons_broken_mirror_desc'] = 'Display the locations of {object:broken
 L['soulshape_chicken_note'] = [[
 1. Collect {item:187811} from {location:Darkhaven}
 2. Target {npc:181660} and {emote:/chicken}
-3. {note:Lost Soul clucks at you hungrily.}
+3. {emote:Lost Soul clucks at you hungrily.}
 4. Target {npc:181660} and use {item:187811}
 ]]
 L['spectral_feed_label'] = '{item:187811}'
@@ -623,7 +623,7 @@ L['spectral_feed_note'] = [[
 
 {item:187811} is used to feed {npc:182093} in {location:Ardenweald} for |cFF00FF00[Well Fed Cat Soul]|r
 
-{note:{item:187811} has a 10 minute timer and 60 minute respawn}
+{note:{item:187811} has a 10 minute timer and 60 minute respawn.}
 ]]
 
 -------------------------------------------------------------------------------
@@ -672,7 +672,7 @@ L['chaotic_riftstone_note'] = 'Activate to {spell:344157} quickly across {locati
 L['venari_note'] = [[
 Use {currency:1767} to purchase Maw and Torghast upgrades.
 
-{note:Account-wide Torghast upgrades will show as incomplete on alts!}|r
+{note:Account-wide Torghast upgrades will show as incomplete on alts!}
 ]]
 L['venari_upgrade'] = '{npc:162804} Upgrade'
 L['torghast'] = 'Torghast'
@@ -999,7 +999,7 @@ L['cache_shrouded_cypher'] = 'Shrouded Cypher Cache'
 L['cache_shrouded_cypher_note'] = [[
 These caches can only be seen while having {spell:361917} buff and wearing an appropriate Cypher Equipment item:
 
-{note:Enhances Pocopoc's perception, allowing it to discover additional hidden caches.}
+{note:Enhances {npc:181059} perception, allowing it to discover additional hidden caches.}
 ]]
 
 L['cache_cantaric'] = 'Cantaric Cache'

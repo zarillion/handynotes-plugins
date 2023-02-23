@@ -29,7 +29,7 @@ L['faeflayer_note'] = '瀑布后面隐藏的小洞穴内。'
 L['gormbore_note'] = '在颤动地面上击杀 {npc:165420} 稀有出现。'
 L['gormtamer_tizo_note'] = '在 {location:纱雾迷结} 击杀蓟果精灵直到 {npc:164110} 出现。'
 L['humongozz_note'] = '种植一个 {item:175247} 在 {object:潮湿的沃土} 将出现 {npc:164122}。区域内的许多怪物都掉落蘑菇。'
-L['lehgo_note'] = '摧毁 {object:颤动的戈姆之卵} 并击杀 {npc:171827} 直到他出现。在洞穴内（入口在东南尘泥地穴内）。'
+L['lehgo_note'] = '摧毁 {object:颤动的戈姆之卵} 并击杀 {npc:171827} 直到他出现。在洞穴内（入口在东南 {location:尘泥地穴} 内）。'
 L['macabre_note'] = [[
 有多个刷新点。要召唤，和其他两名玩家站在 {object:神秘的蘑菇环} 上并相互跳舞。
 
@@ -37,9 +37,9 @@ L['macabre_note'] = [[
 · 玩家2与玩家3跳舞
 · 玩家3与玩家1跳舞
 ]]
-L['mymaen_note'] = '击杀区域内的腐楠精灵直到他做出表情并出现。'
+L['mymaen_note'] = '击杀区域内的 {npc:腐楠精灵} 直到他做出表情并出现。'
 L['rainbowhorn_note'] = [[
-找到并点击 {object:符文牡鹿的巨角|r 来召唤稀有。角可以在 {location:炽蓝仙野} 多个地点出现。
+找到并点击 {object:符文牡鹿的巨角} 来召唤稀有。角可以在 {location:炽蓝仙野} 多个地点出现。
 
 他总是在 {location:瓦尔仙林} 北侧出现，所以设定 {item:6948} 到这里并留意区域的表情。
 
@@ -145,7 +145,7 @@ L['soulshape_corgi_note'] = [[
 L['soulshape_well_fed_cat_note'] = [[
 1. 从 {location:暗湾镇} 收集 {item:187811}
 2. 目标为 {npc:182093} 并使用表情 {emote:/喵}，{emote:/meow}
-3. |cFFFF8C00玛欧冲着你喵喵叫，显得很饿。|r
+3. {emote:玛欧冲着你喵喵叫，显得很饿。}
 4. 目标为 {npc:182093} 并使用 {item:187811}
 
 与 {npc:181582} 交谈时将立即可用吃饱的猫之魂选项。
@@ -174,7 +174,7 @@ L['herculon_note'] = [[
 
 可以从房间内或室外的 {object:枯竭的心能之罐} 中收集微粒。
 
-|cFFFF8C00不能在世界任务 {wq:突袭前庭} 期间击败。|r
+{note:不能在世界任务 {wq:突袭前庭} 期间击败。}
 ]]
 L['reekmonger_note'] = '在 {location:勇气神庙} 击杀敌人直到 {npc:171327} 做出表情并降落。'
 L['repair_note'] = '和两名其他玩家，点击 {object:上古熏香} 来召唤。'
@@ -304,7 +304,7 @@ L['consumption_note'] = [[
 
 此稀有*继续*吞噬40个 {npc:179758} 后变为绿色阴影形态（稀有精英）将掉落额外的研究物品。
 
-|cFFFF0000*{npc:179758} 在此稀有战斗中将不会出现并被吞噬。*|r
+{note:{npc:179758} 在此稀有战斗中将不会出现并被吞噬。}
 ]]
 L['darkmaul_note'] = '从 {object:入侵的渊菇} 收集 {item:187153} 并喂食给 {npc:180063}。你必须完成事件10次获得坐骑。'
 L['dislodged_nest_note'] = '点击附近的 {object:剧毒之蛾} 获得 {spell:355181}。给 {npc:178547} 使用额外动作按钮 {spell:355131} 获得控制并骑上它让其撞击巢穴所在的树干。'
@@ -313,7 +313,7 @@ L['flayedwing_transporter_note'] = '点击 {npc:178633} 飞向和飞离 {locatio
 L['fleshwing_note'] = '和 {npc:180079} 交谈开始收集事件。'
 L['forgotten_feather_note'] = '从 {location:守护者的休憩} 跳下来到漂浮的一个小岛上。'
 L['konthrogz_note'] = '在吞噬者的传送门事件中出现。事件可能在 {location:刻希亚} 许多地方出现。'
-L['sl_limited_rare'] = '|cFFFF8C00此稀有某些天不可用。|r'
+L['sl_limited_rare'] = '{note:此稀有某些天不可用。}'
 L['krelva_note'] = '80% 血量会移动到其它平台，60% 血量会移动到主陆地。{note:你必须击杀稀有 60% 血量才能获得奖励！}'
 L['kroke_note'] = '击杀区域内 {npc:179029} 直到他出现。{npc:179029} 不在的天内不会出现。'
 L['maelie_wanderer'] = '{npc:179912} 将在当天固定位置出现。使用 {spell:355862} 他，需要6天交互，然后回到 {npc:179930} 获得坐骑。'
@@ -593,7 +593,7 @@ L['options_icons_broken_mirror_desc'] = '显示残破的镜子的位置。'
 L['soulshape_chicken_note'] = [[
 1. 从 {location:暗湾镇} 收集 {item:187811}
 2. 目标为 {npc:181660} 并使用表情 {emote:/小鸡}，{emote:/chicken}
-3. |cFFFF8C00失落之魂冲着你咯咯叫，显得很饿。|r
+3. {emote:失落之魂冲着你咯咯叫，显得很饿。}
 4. 目标为 {npc:181660} 并使用 {item:187811}
 ]]
 L['spectral_feed_label'] = '{item:187811}'
@@ -602,7 +602,7 @@ L['spectral_feed_note'] = [[
 
 {item:187811} 用于喂食 {location:炽蓝仙野} 的 {npc:182093} 获得 |cFF00FF00[吃饱的猫之魂]|r
 
-|cFFFF8C00{item:187811} 显示10分钟并需60分钟刷新。|r
+{note:{item:187811} 显示10分钟并需60分钟刷新。}
 ]]
 
 -------------------------------------------------------------------------------
@@ -651,7 +651,7 @@ L['chaotic_riftstone_note'] = '激活 {spell:344157} 快速穿过 {location:噬�
 L['venari_note'] = [[
 使用 {currency:1767} 购买 {location:噬渊} 和 {location:托加斯特} 升级。
 
-|cFFFF8C00帐号通用 {location:托加斯特} 升级在小号上显示不完整！|r
+{note:帐号通用 {location:托加斯特} 升级在小号上显示不完整！}
 ]]
 L['venari_upgrade'] = '{npc:162804} 升级'
 L['torghast'] = '托加斯特'
@@ -817,7 +817,7 @@ L['kyrian_assault_quantity_note2'] = '熔炉附近 {emote:/跳舞}，{emote:/dan
 -------------------------------------------------------------------------------
 
 L['torghast_the_tower_of_the_damned'] = '托加斯特，罪魂之塔'
-L['torghast_reward_sublabel'] = '|cFFFF8C00大多数区域共享奖励|r'
+L['torghast_reward_sublabel'] = '{note:大多数区域共享奖励}'
 L['torghast_boss_note'] = '{location:托加斯特，罪魂之塔} 各种首领掉落。'
 L['torghast_vendor_note'] = '供应商 {npc:152594} 和 {npc:170257} 出售，售价 300 {currency:1728} 或 1,000 {currency:1728}。'
 L['torghast_reward_note'] = '{location:托加斯特，罪魂之塔} 全程获取'
@@ -846,7 +846,7 @@ L['bloating_fodder_note'] = '鼓胀饲料爆裂'
 L['flawless_master_note'] = '完成 |cffffff00[{achievement:15322}]|r'
 L['tower_ranger_note'] = '完成 |cffffff00[{achievement:15324}]|r'
 
-L['the_jailers_gauntlet_note'] = '|cFFFF8C00首领不计入|r |cffffff00{achievement:14498}|r'
+L['the_jailers_gauntlet_note'] = '{note:首领不计入} |cffffff00{achievement:14498}|r'
 
 L['the_box_of_many_things'] = '万物之盒'
 L['the_box_of_many_things_note'] = '{currency:1904} 解锁额外的能力'
@@ -884,7 +884,7 @@ L['gluttonous_overgrowth_note'] = '摧毁周围全部 {npc:184048} 激活此稀�
 L['helmix_note'] = [[
 击杀区域内的 {npc:179005} 直到它做出表情并出现。
 
-|cFFFF8C00大地在震颤……有什么东西潜藏在地表之下！|r
+{emote:大地在震颤……有什么东西潜藏在地表之下！}
 ]]
 L['hirukon_note'] = [[
 引诱 {npc:180978} 到上面，需要制造一个 {item:187923}。
@@ -978,7 +978,7 @@ L['cache_shrouded_cypher'] = '氤氲密文宝箱'
 L['cache_shrouded_cypher_note'] = [[
 这些宝箱只在有 {spell:361917} 增益和装备一件适当的密文装备物品时能看到：
 
-|cFF00FF00强化 {npc:181059} 的观察力，使其可以发现额外的隐藏宝箱。|r
+{note:强化 {npc:181059} 的观察力，使其可以发现额外的隐藏宝箱。}
 ]]
 
 L['cache_cantaric'] = '声乐宝箱'
@@ -987,9 +987,9 @@ L['cache_glissandian'] = '滑音宝箱'
 L['cache_mezzonic'] = '中音宝箱'
 L['cache_toccatian'] = '弹奏宝箱'
 
-L['schematic_treasure_note'] = '|cFFFF8C00如果尚未解锁合成，此宝藏将不包含原生体结构图。如果您已经拾取了宝藏，会在附近的地面上找到结构图。|r'
-L['schematic_treasure_mount_note'] = '|cFFFF8C00此结构图在附近的一次性宝藏中找到。如果在解锁坐骑合成之前打开宝藏，结构图会在这里找到。|r'
-L['schematic_treasure_pet_note'] = '|cFFFF8C00此结构图在附近的一次性宝藏中找到。如果在解锁宠物合成之前打开宝藏，结构图会在这里找到。|r'
+L['schematic_treasure_note'] = '{note:如果尚未解锁合成，此宝藏将不包含原生体结构图。如果您已经拾取了宝藏，会在附近的地面上找到结构图。}'
+L['schematic_treasure_mount_note'] = '{note:此结构图在附近的一次性宝藏中找到。如果在解锁坐骑合成之前打开宝藏，结构图会在这里找到。}'
+L['schematic_treasure_pet_note'] = '{note:此结构图在附近的一次性宝藏中找到。如果在解锁宠物合成之前打开宝藏，结构图会在这里找到。}'
 L['schematic_bronze_helicid_note'] = '每周任务 {quest:65324} 的 {item:190610} 内几率发现。'
 L['schematic_ambystan_darter_note'] = '隐藏在 {npc:185312} 旁边的水下。'
 L['schematic_bronzewing_vespoid_note'] = '{location:孕育栖地} 内。'
@@ -1062,7 +1062,7 @@ L['soulshape_penguin_note'] = '位于浮空锻炉顶部。'
 
 L['coreless_automa'] = '无核自动体'
 L['coreless_automa_note'] = '装备一个 {spell:364480} 物品将赋予 {npc:181059} 不消耗能量就能控制生物的能力，这将会获得成就更加快速。'
-L['coreless_automa_warning'] = '|cFFFF8C00等待自动机真正开始跟随你然后让 {npc:181059} 离开，以避免导致需要你重新登录的错误。|r'
+L['coreless_automa_warning'] = '{note:等待自动机真正开始跟随你然后让 {npc:181059} 离开，以避免导致需要你重新登录的错误。}'
 
 L['olea_manu'] = '用 {currency:1979} 换取出售的收藏和食谱。'
 
