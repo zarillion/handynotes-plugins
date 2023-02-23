@@ -4,7 +4,6 @@ local L = ns.NewLocale('esES')
 if not L then return end
 
 local Gold = ns.color.Gold
-local Red = ns.color.Red
 
 -------------------------------------------------------------------------------
 ------------------------------- ANTORAN WASTES --------------------------------
@@ -17,7 +16,7 @@ L['reziera_the_seer_note'] = 'Mientrás tengas el buff del {spell:254174} recoge
 L['squadron_commander_vishax_note'] = 'Recoge un {item:152890} de un {npc:127598}.\n\nRecoge una {item:152941}, un {item:152940}, y una {item:152891} de {npc:127597} y {npc:127596}.\n\nUsa el {item:152890} para obtener la misión {quest:49007}.\n\n{note:Esta misión se puede compartir.}'
 L['ven_orn_note'] = 'Entra en la cueva de arañas, gira a la derecha, y baja dentro de otra cueva pequeña. Ella está en la 2ª cámara en la parte trasera.'
 
-L['the_many_faced_devourer_note'] = 'Recoge un {item:152786} de {npc:126193} y {npc:126171} en el |cFFFFFD00Cementerio del Carroñero|r.\n\nRecoge un {item:152991}, un {item:152992}, y un {item:152993}.\n\nInvoca a {npc:127581} en {npc:127442}.\n\n{note:Si no puedes ver {npc:127442} puede que necesites hacer relog.}'
+L['the_many_faced_devourer_note'] = 'Recoge un {item:152786} de {npc:126193} y {npc:126171} en el {location:Cementerio del Carroñero}.\n\nRecoge un {item:152991}, un {item:152992}, y un {item:152993}.\n\nInvoca a {npc:127581} en {npc:127442}.\n\n{note:Si no puedes ver {npc:127442} puede que necesites hacer relog.}'
 L['the_many_faced_devourer_checklist'] = Gold('Lista de chequeo de Objetos (en bolsas o en el banco):')
 
 L['orix_the_all_seer_note'] = 'Vende coleccionables a cambio de {item:153021}.'
@@ -38,7 +37,7 @@ L['fel_spotted_egg_contains'] = '{item:153190} puede contener'
 L['goblin_glider_treasure_note'] = 'Usa un {item:109076} para planear hasta el tesoro.'
 L['lightforged_warframe_treasure_note'] = 'Activa un {item:152098} en el {npc:121365} a bordo del {npc:126426}.\n\nUsa el {item:152098} y el {spell:250434} para hacer trizas las rocas y encontrar el tesoro.'
 L['lights_judgement_treasure_note'] = 'Activa la {item:151830} en el {npc:121365} a bordo del {npc:126426}.\n\nUsa la {item:151830} para explotar las rocas y encontrar el tesoro.'
-L['shroud_of_arcane_echoes_treasures_note'] = 'Activa el {item:151912} en el {npc:121365} a bordo del {npc:126426}.\n\nUsa el {item:151912} para desbloquear el tesoro.\n\n' .. Red('"Sólo se abrirá a uno que ejerza el poder que se hace eco del Augari."')
+L['shroud_of_arcane_echoes_treasures_note'] = 'Activa el {item:151912} en el {npc:121365} a bordo del {npc:126426}.\n\nUsa el {item:151912} para desbloquear el tesoro.\n\n{note:"Sólo se abrirá a uno que ejerza el poder que se hace eco del Augari."}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- AZSUNA ------------------------------------
@@ -48,22 +47,22 @@ L['arcavellus_note'] = 'Mata las {npc:90242} y las {npc:90243} hasta que aparezc
 L['beacher_note'] = 'Cuando la misión del mundo {wq:Desembarco Helarjar: Marisma Gris} esté activa, no estará {npc:91187}.'
 L['brogozog_note'] = 'Habla con {npc:91097}.'
 L['chief_bitterbrine_note'] = 'En el barco, en la cubierta inferior.'
-L['devious_sunrunner_note'] = 'Usa el Portal Ley en una cueva pequeña y no te de olvides despojar el cofre.'
+L['devious_sunrunner_note'] = 'Usa el {object:Portal Ley} en una cueva pequeña y no te olvides de despojar el cofre.'
 L['doomlord_kazrok_note'] = 'Habla con {npc:91580}.'
 L['felwing_note'] = 'Habla con {npc:105913} y mata {npc:105919} hasta que aparezca {npc:105938}.'
-L['golza_note'] = 'Sopla el Cuerno de la Sirena y mata {npc:90774} y {npc:90778} hasta que aparezca {npc:89816}.'
-L['infernal_lord_note'] = 'Haz click en el Alijo de Infernales y mata {npc:90797} hasta que aparezca el {npc:90803}.'
-L['inquisitor_tivos_note'] = 'Usa el Portal de la Legión. Está en el piso inferior.'
+L['golza_note'] = 'Sopla el {object:Cuerno de la Sirena} y mata {npc:90774} y {npc:90778} hasta que aparezca {npc:89816}.'
+L['infernal_lord_note'] = 'Haz click en el {object:Alijo de Infernales} y mata {npc:90797} hasta que aparezca el {npc:90803}.'
+L['inquisitor_tivos_note'] = 'Usa el {object:Portal de la Legión}. Está en el piso inferior.'
 L['shaliman_note'] = 'Camina alrededor de la piscina.'
 
 L['disputed_treasure'] = 'Tesoro Disputado'
-L['in_academy'] = 'Dentro de la Academia de Nar\'thalas.'
-L['in_oceanus_cove'] = 'Dentro de Cala de Oceanus.'
+L['in_academy'] = 'Dentro de la {location:Academia de Nar\'thalas}.'
+L['in_oceanus_cove'] = 'Dentro de {location:Cala de Oceanus}.'
 L['seemingly_unguarded_treasure'] = 'Tesoro Aparentemente sin Vigilancia'
 L['seemingly_unguarded_treasure_note'] = 'Intenta despojar el tesoro y entonces matar algunas oleadas de {npc:94167}.'
 L['treasure_37958'] = 'En un nivel inferior del edificio.'
-L['treasure_37980'] = 'Usa el Portal Ley en el puente roto.'
-L['treasure_40711'] = 'Usa el Portal Ley dentro de la torre.'
+L['treasure_37980'] = 'Usa el {object:Portal Ley} en el puente roto.'
+L['treasure_40711'] = 'Usa el {object:Portal Ley} dentro de la torre.'
 L['treasure_42282'] = 'Detrás de un pilar en una esquina.'
 L['treasure_42283'] = 'En el segundo piso.'
 L['treasure_42287'] = 'Bajo el agua.'
@@ -80,7 +79,7 @@ L['book_6'] = 'Libro 6 (Viernes)'
 L['book_7'] = 'Libro 7 (Sábado)'
 
 L['higher_dimensional_learning_location'] = 'Está encima de la torre.'
-L['higher_dimensional_learning_note'] = 'Compra una {item:129276} de {npc:107376} en el |cFFFFFD00Palacio Derrumbado|r. Usa la {item:129276} cada día para teleportarse a una ubicación distinta de un libro.\n\nLibro 1: Domingo\nLibro 2: Lunes\nLibro 3: Martes\nLibro 4: Miércoles\nLibro 5: Jueves\nLibro 6: Viernes\nLibro 7: Sábado'
+L['higher_dimensional_learning_note'] = 'Compra una {item:129276} de {npc:107376} en el {location:Palacio Derrumbado}. Usa la {item:129276} cada día para teleportarse a una ubicación distinta de un libro.\n\nLibro 1: Domingo\nLibro 2: Lunes\nLibro 3: Martes\nLibro 4: Miércoles\nLibro 5: Jueves\nLibro 6: Viernes\nLibro 7: Sábado'
 L['higher_dimensional_learning_disclaimer'] = '{note:Teleportarse a la ubicación de un libro no garantiza que el libro aparezca. Quizás tengas que esperar o volver más tarde.}'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
@@ -90,7 +89,7 @@ L['options_icons_higher_dimensional_learning_desc'] = 'Muestra dónde están los
 -------------------------------- BROKEN SHORE ---------------------------------
 -------------------------------------------------------------------------------
 
-L['bringing_home_the_beacon_note'] = 'Mientras estés bajo el {npc:127264}, tendrás el buff {spell:240640}.\n\nMata demonios para despojar varias |cFFFFFD00Balizas del Sentinax|r.'
+L['bringing_home_the_beacon_note'] = 'Mientras estés bajo el {npc:127264}, tendrás el buff {spell:240640}.\n\nMata demonios para despojar varias {object:Balizas del Sentinax}.'
 
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
 L['options_icons_bringing_home_the_beacon_desc'] = 'Muestra dónde aparece el {npc:127264} para el logro {achievement:11802}.'
@@ -115,18 +114,18 @@ L['bohdi_sunwayver_note'] = '¡Ha salido el sol! ¡Mascotas fuera!'
 ----------------------------------- EREDATH -----------------------------------
 -------------------------------------------------------------------------------
 
-L['kaara_the_pale_note'] = '{npc:126860} ya no suelta el {item:153190}'
-L['turek_the_lucid_note'] = 'En el |cFFFFFD00Derrumbe de Oronaar|r'
+L['kaara_the_pale_note'] = '{npc:126860} ya no suelta el {item:153190}.'
+L['turek_the_lucid_note'] = 'En el {location:Derrumbe de Oronaar}.'
 
 L['ancient_eredar_cache'] = 'Alijo Eredar Antiguo'
-L['ancient_eredar_cache_note'] = 'Hay 6 Alijo eredar antiguo únicos que pueden aparecer en sitios determinados.'
+L['ancient_eredar_cache_note'] = 'Hay 6 {object:Alijo eredar antiguo} únicos que pueden aparecer en sitios determinados.'
 L['void_seeped_cache'] = 'Alijo Calado de Vacío'
-L['void_seeped_cache_note'] = 'Hay 2 Alijo calado de Vacío únicos que pueden aparecer en sitios determinados. |c00ff0000Estos no contienen transfiguraciones.|r'
+L['void_seeped_cache_note'] = 'Hay 2 {object:Alijo calado de Vacío} únicos que pueden aparecer en sitios determinados. {note:Estos no contienen transfiguraciones.}'
 
 L['options_icons_ancient_eredar_cache'] = 'Alijo Eredar Antiguo'
-L['options_icons_ancient_eredar_cache_desc'] = 'Muestra dónde pueden estar los Alijo eredar antiguo (cofres diarios).'
+L['options_icons_ancient_eredar_cache_desc'] = 'Muestra dónde pueden estar los {object:Alijo eredar antiguo} (cofres diarios).'
 L['options_icons_void_seeped_cache'] = 'Alijo Calado de Vacío'
-L['options_icons_void_seeped_cache_desc'] = 'Muestra dónde pueden estar los Alijo calado de Vacío (cofres diarios).'
+L['options_icons_void_seeped_cache_desc'] = 'Muestra dónde pueden estar los {object:Alijo calado de Vacío} (cofres diarios).'
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
@@ -141,10 +140,10 @@ L['bredda_tenderhide_note'] = '¡Que los más valientes resulten victoriosos!'
 -------------------------------------------------------------------------------
 
 L['eredar_war_supplies'] = 'Suministros Bélicos Eredar'
-L['eredar_war_supplies_note'] = 'Hay 7 Suministros bélicos eredar únicos que pueden aparecer en sitios determinados.'
+L['eredar_war_supplies_note'] = 'Hay 7 {object:Suministros bélicos eredar} únicos que pueden aparecer en sitios determinados.'
 
 L['options_icons_eredar_war_supplies'] = 'Suministros Bélicos Eredar'
-L['options_icons_eredar_war_supplies_desc'] = 'Muestra dónde pueden estar los Suministros bélicos eredar (cofres diarios).'
+L['options_icons_eredar_war_supplies_desc'] = 'Muestra dónde pueden estar los {object:Suministros bélicos eredar} (cofres diarios).'
 
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
@@ -170,13 +169,13 @@ L['elandris_note'] = 'Cuando, durante una invasión de la legión, la misión de
 L['gathenak_note'] = 'Habla con {npc:112472}.'
 L['gorebeak_note'] = 'Habla con {npc:92111}.'
 L['jinikki_note'] = 'Habla con el {npc:93677} y mata {npc:93684} hasta que aparezca {npc:93686}.'
-L['kiranys_note'] = 'Haz click en la Trampa Arcana vibrante.'
+L['kiranys_note'] = 'Haz click en la {object:Trampa Arcana vibrante}.'
 L['mad_henryk_note'] = 'Pisa la {npc:109602}.'
 L['skulvrax_note'] = 'Resucita a {npc:92334} y síguela.'
 L['theryssia_note'] = 'Lee la placa de la lápida de {npc:94194}.'
 L['unguarded_thistleleaf_treasure'] = 'Tesoro Hojacardo sin Vigilancia'
 
-L['in_darkpens'] = 'Dentro de Celdas Oscuras.'
+L['in_darkpens'] = 'Dentro de {location:Celdas Oscuras}.'
 L['treasure_38366'] = 'Bajo las raices del árbol.'
 L['treasure_38386'] = 'En el balcón del segundo piso.'
 L['treasure_38387'] = 'En una cueva pequeña debajo de la posada. La entrada está detrás del edificio.'
@@ -187,7 +186,7 @@ L['treasure_39074'] = 'Debajo del árbol.'
 L['treasure_39080'] = 'En el sótano. Necesitas empezar una cadena de misiones. Comienza con {quest:38643} dada por {npc:92688} y seguida por {quest:38644} que la da {npc:92683}.'
 L['treasure_39083'] = 'Oculto en un árbol.'
 L['treasure_39088'] = 'Oculto en el lago entre algunas raices.'
-L['treasure_39093'] = 'En el rio bajo las raices.'
+L['treasure_39093'] = 'En el río bajo las raíces.'
 
 L['grumpy_note'] = 'Sube las escaleras del edificio en llamas.'
 

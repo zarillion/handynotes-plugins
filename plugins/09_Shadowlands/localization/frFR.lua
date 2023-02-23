@@ -609,7 +609,7 @@ L['options_icons_broken_mirror_desc'] = 'Afficher les emplacements des {object:m
 L['soulshape_chicken_note'] = [[
 1. Récupérez des {item:187811} à {location:Sombrehavre}
 2. Ciblez {npc:181660} et tapez {emote:/chicken}
-3. {note:L'Ame perdue glousse vers vous avec avidité.}
+3. {emote:L'Ame perdue glousse vers vous avec avidité.}
 4. Ciblez {npc:181660} et utilisez les {item:187811}
 ]]
 L['spectral_feed_label'] = '{item:187811}'
@@ -735,7 +735,7 @@ L['nexus_npc_willbreaker'] = 'Dans le coin derrière un {npc:168233}'
 -- Locations given relative to the main path/road nearby
 L['nexus_road_below'] = 'Sur le sol en dessous de la route principale'
 L['nexus_road_cave'] = 'Dans une petite grotte en dessous de la route'
-L['nexus_road_mawrats'] = 'Dans un groupe de Rats de l’Antre au bord de la route'
+L['nexus_road_mawrats'] = 'Dans un groupe de {npc:165342} au bord de la route'
 L['nexus_road_next'] = 'A côté du chemin principal'
 L['nexus_room_ramparts'] = 'Dans une petite pièce sous les remparts'
 -- Random locations described as best as possible
@@ -759,7 +759,7 @@ L['options_icons_rift_hidden_cache_desc'] = 'Afficher les emplacements des cache
 L['options_icons_bonus_boss'] = 'Élites bonus'
 L['options_icons_bonus_boss_desc'] = 'Afficher les emplacements des élites bonus.'
 L['options_icons_riftstone'] = '{npc:174962s}'
-L['options_icons_riftstone_desc'] = 'Affichez les emplacements des téléporteurs de Failles Chaotiques'
+L['options_icons_riftstone_desc'] = 'Afficher les emplacements des téléporteurs de Failles Chaotiques'
 L['options_icons_grapples'] = '{npc:176308s}'
 L['options_icons_grapples_desc'] = 'Afficher les emplacements des grappins pour l\'amélioration {item:184653}.'
 L['options_icons_stygia_nexus'] = 'Nexus de stygies'
@@ -944,9 +944,9 @@ L['undulating_foliage_note'] = [[
 Pressez les quatre {npc:185390s} pour activer le téléporteur dans la salle centrale des {location:Champs Catalyseurs}.
 
 • Dehors, derrière le {object:Verrou des champs Catalyseurs}
-• Dans la salle sud-ouest des champs
+• Dans la salle sud-ouest des {location:Champs Catalyseurs}
 • Dans la pièce sud avec {npc:181652}
-• Dans la salle sud-est des champs
+• Dans la salle sud-est des {location:Champs Catalyseurs}
 ]]
 
 L['provis_cache'] = 'Cache verrouillée de Provis'
@@ -1005,9 +1005,9 @@ L['cache_glissandian'] = 'Cache glissandienne'
 L['cache_mezzonic'] = 'Cache mezzonique'
 L['cache_toccatian'] = 'Cache toccatienne'
 
-L['schematic_treasure_note'] = '{note:Ce trésor ne contiendra pas le schéma de protoforme si vous n\'avez pas encore débloqué le synthétiseur. Si vous avez déjà récupéré le trésor, vous trouverez le schéma sur le sol à proximité.}'
-L['schematic_treasure_mount_note'] = '{note:Ce schéma se trouve dans un trésor à usage unique situé à proximité. Si le trésor est ouvert avant le déverrouillage du synthétiseur de montures, le schéma peut être trouvé ici.}'
-L['schematic_treasure_pet_note'] = '{note:Ce schéma se trouve dans un trésor à usage unique situé à proximité. Si le trésor est ouvert avant le déverrouillage du synthétiseur de familiers, le schéma peut être trouvé ici.}'
+L['schematic_treasure_note'] = '{note:Ce trésor ne contiendra pas le schéma de protoforme si vous n\'avez pas encore débloqué la {npc:184172}. Si vous avez déjà récupéré le trésor, vous trouverez le schéma sur le sol à proximité.}'
+L['schematic_treasure_mount_note'] = '{note:Ce schéma se trouve dans un trésor à usage unique situé à proximité. Si le trésor est ouvert avant le déverrouillage de la {npc:184172} de montures, le schéma peut être trouvé ici.}'
+L['schematic_treasure_pet_note'] = '{note:Ce schéma se trouve dans un trésor à usage unique situé à proximité. Si le trésor est ouvert avant le déverrouillage de la {npc:184172} de familiers, le schéma peut être trouvé ici.}'
 L['schematic_bronze_helicid_note'] = 'Peut être trouvé dans le {item:190610} de la quête hebdomadaire {quest:65324}.'
 L['schematic_ambystan_darter_note'] = 'Dissimulé sous l\'eau, près du {npc:185312}.'
 L['schematic_bronzewing_vespoid_note'] = 'A l\'intérieur du {location:Repos de la fertilité}.'

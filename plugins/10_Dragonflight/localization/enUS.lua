@@ -90,7 +90,8 @@ L['signal_transmitter_note'] = '{note:Requires 10 points in Mechanical Mind\nReq
 L['options_icons_signal_transmitter'] = 'Wyrmhole Generator Signal Transmitters'
 L['options_icons_signal_transmitter_desc'] = 'Display {object:Deactivated Signal Transmitters} locations for the {item:198156}.'
 
-L['spawns_periodically'] = '{note:Possible spawns every 30 minutes, synchronized across the realm. (Example: 9:00, 17:30)}'
+L['rare_14h'] = 'The rare is on a 14 hour rotation with other rares, one rare can spawning every 30 minutes.\n\nNext possible spawn: {note:%s} (server time)'
+L['time_format'] = '%H:%M - %m/%d/%Y'
 L['spawns_at_night'] = '{note:Spawns only at night. (After 18:30 server time)}'
 
 L['elemental_storm'] = 'Elemental Storm'
@@ -125,8 +126,8 @@ L['options_icons_elusive_creature'] = '{item:193906}'
 L['options_icons_elusive_creature_desc'] = 'Display locations for elusive creatures summoned with {item:193906}.'
 
 L['grand_hunts_label'] = 'Grand Hunts'
-L['longhunter_suffix'] = 'bosses killed'
-L['the_best_at_what_i_do_suffix'] = 'hunt steps completed'
+L['longhunter_suffix'] = 'hunt steps completed'
+L['the_best_at_what_i_do_suffix'] = 'bosses killed'
 
 L['options_icons_grand_hunts'] = 'Grand Hunts'
 L['options_icons_grand_hunts_desc'] = 'Display locations and rewards for {object:Grand Hunts}.'
@@ -135,9 +136,9 @@ L['options_icons_grand_hunts_desc'] = 'Display locations and rewards for {object
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['bisquis_note'] = 'Cook Legendary soup at the Community Feast in {location:Iskaara}, then defeat {npc:197557}.'
+L['bisquis_note'] = 'Cook Legendary soup at the Community Feast in {location:Iskaara}, then defeat {npc:197557}.\n\nNext Feast: {note:%s} (server time)'
 L['blightfur_note'] = 'Talk to {npc:193633} to summon the rare.'
-L['brackenhide_rare_note'] = 'These rares spawn in a set rotation of {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} on a 10 minute timer.'
+L['brackenhide_rare_note'] = 'These rares spawn in a set rotation of {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} on a 10 minute timer.\n\nNext possible spawn: {note:%s} (server time)'
 L['fisherman_tinnak_note'] = 'Collect {object:Broken Fishing Pole}, {object:Torn Fishing Net} and {object:Old Harpoon} to spawn the rare.'
 L['frostpaw_note'] = 'After taking the {object:Wooden Hammer}, you have 20 seconds to hit the {object:Whack a Gnoll} on the {object:Tree Stump}, and spawn the rare.'
 L['sharpfang_note'] = 'Help {npc:192747} defeat {npc:192748s} to spawn the rare.'
@@ -212,7 +213,7 @@ Kill {npc:197183} inside and you will recieve {item:200528}.
 
 L['gethdazr_note'] = [[
 Spawns as part of an event in {location:Imbu} that starts by blowing the {object:Great Horn of Imbu}({dot:Blue}).
-The Horn will only become clickable after killing the {npc:196155} which has about 30-60 minutes of respawn time.
+The horn will only become clickable after killing the {npc:196155} which has about 30-60 minutes of respawn time.
 
 {npc:191143}({dot:Green}) and other NPCs will then fight their way from the north east entrance of {location:Imbu} up to the cliff where {npc:196165} will then spawn.
 The NPCs can die without help, which then will fail the event.
@@ -322,7 +323,7 @@ L['hunt_instructor_basku_note'] = 'Exchange {item:200093} for {faction:2503} rep
 L['elder_yusa_note'] = 'Target {npc:192818} and {emote:/hungry} to obtain the cooking recipe.'
 L['initiate_kittileg_note'] = 'Complete {quest:66226} to obtain the toy!'
 
-L['quackers_duck_trap_kit'] = 'To summon {npc:192557} you first need the {item:194740} which you can find in a nearby {location:Clan Aylaag camp}.{dot:Blue}\n\nTo make a {item:194712} you need the following materials:'
+L['quackers_duck_trap_kit'] = 'To summon {npc:192557} you first need the {item:194740} which you can find in a nearby {faction:Clan Aylaag} camp.{dot:Blue}\n\nTo make a {item:194712} you need the following materials:'
 L['quackers_spawn'] = 'Next you need to catch a duck near the nest with the {item:194712}. Use the {item:194739} at the {npc:192581} to summon {npc:192557}.'
 
 L['knew_you_nokhud_do_it_note'] = '{note:All 3 items are unique and have a 30 minute timer.}\n\nCollect {item:200184}, {item:200194}, and {item:200196} from various {npc:185357s}, {npc:185353s}, and {npc:185168s} around {location:Nokhudon Hold}.\n\nCombine them to create {item:200201} and use it to speak with {npc:197884} to begin the training course.\n\nUse your |cFFFFFD00Extra Action Button|r to complete it and earn your achievement.\n\n{note:Completing the achievement while in a raid during an Elemental Storm makes farming the items much easier.}'

@@ -25,6 +25,7 @@ local PetBattle = ns.node.PetBattle
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
+local Rare14h = ns.node.Rare14h
 local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
@@ -55,10 +56,11 @@ local nel = Map({id = 2080, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[63695509] = Rare({
+map.nodes[63695509] = Rare14h({
     id = 193132,
     quest = 73981,
-    note = L['spawns_periodically'] .. '\n\n' .. L['in_cave'],
+    rotationID = 5,
+    cave = true,
     rewards = {
         Achievement({id = 16676, criteria = 56045}),
         Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
@@ -79,10 +81,10 @@ map.nodes[58634021] = Rare({
     }
 }) -- Anhydros the Tidetaker
 
-map.nodes[54517174] = Rare({
+map.nodes[54517174] = Rare14h({
     id = 193135,
     quest = 73984,
-    note = L['spawns_periodically'],
+    rotationID = 26,
     rewards = {
         Achievement({id = 16676, criteria = 56041}),
         Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
@@ -316,10 +318,10 @@ map.nodes[34618275] = Rare({
     }
 }) -- Lepidoralia the Resplendent
 
-map.nodes[39596353] = Rare({
+map.nodes[39596353] = Rare14h({
     id = 186827,
     quest = 74010,
-    note = L['spawns_periodically'],
+    rotationID = 1,
     rewards = {
         Achievement({id = 16676, criteria = 56046}),
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
@@ -332,10 +334,10 @@ map.nodes[39596353] = Rare({
     }
 }) -- Magmaton
 
-map.nodes[22207649] = RareElite({
+map.nodes[22207649] = ns.node.RareElite14h({
     id = 193152,
     quest = 74012,
-    note = L['spawns_periodically'],
+    rotationID = 22,
     rewards = {
         Achievement({id = 16676, criteria = 56047}),
         Transmog({item = 200192, slot = L['1h_mace']}), -- Handheld Geyser
@@ -379,10 +381,10 @@ map.nodes[56004592] = Rare({
     }
 }) -- Nulltheria the Void Gazer
 
-map.nodes[81485082] = Rare({
+map.nodes[81485082] = Rare14h({
     id = 193118,
     quest = 74017,
-    note = L['spawns_periodically'],
+    rotationID = 13,
     rewards = {
         Achievement({id = 16676, criteria = 56043}),
         Transmog({item = 200684, slot = L['2h_sword']}), -- Emerald Tailbone
@@ -526,10 +528,10 @@ map.nodes[34578950] = Rare({
     pois = {POI({36028984})} -- Entrance
 }) -- Slurpo, the Incredible Snail
 
-map.nodes[69486653] = Rare({
+map.nodes[69486653] = Rare14h({
     id = 193120,
     quest = 74031,
-    note = L['spawns_periodically'],
+    rotationID = 11,
     rewards = {
         Achievement({id = 16676, criteria = 56044}),
         Transmog({item = 200209, slot = L['mail']}), -- Firebreather's Cowl
@@ -541,10 +543,10 @@ map.nodes[69486653] = Rare({
     }
 }) -- Smogswog the Firebreather
 
-map.nodes[78514999] = Rare({
+map.nodes[78514999] = Rare14h({
     id = 193228,
     quest = 73997,
-    note = L['spawns_periodically'],
+    rotationID = 19,
     rewards = {
         Achievement({id = 16676, criteria = 56042}),
         Transmog({item = 200281, slot = L['offhand']}), -- Gorjo's Riding Crop
@@ -785,10 +787,10 @@ map.nodes[60598285] = Rare({
     }
 }) -- Terillod the Devout
 
-map.nodes[42203960] = Rare({
+map.nodes[42203960] = Rare14h({
     id = 186200,
     quest = 74000,
-    note = L['spawns_periodically'],
+    rotationID = 16,
     rewards = {
         Transmog({item = 200171, slot = L['1h_sword']}), -- Grymheart Blade
         Transmog({item = 200175, slot = L['2h_mace']}), -- Repurposed Anvil

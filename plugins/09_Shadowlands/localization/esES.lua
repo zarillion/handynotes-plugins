@@ -885,7 +885,7 @@ L['gluttonous_overgrowth_note'] = 'Rompe todas las {npc:184048} cercanas para ac
 L['helmix_note'] = [[
 Mata {npc:179005} de la zona hasta que aparezca el siguiente mensaje.
 
-|cFFFF8C00El suelo vibra... ¡Hay algo bajo la superfície!|r
+{emote:El suelo vibra... ¡Hay algo bajo la superfície!}
 ]]
 L['hirukon_note'] = [[
 Para atraer a {npc:180978} a la superfície, tiene que crearse un {item:187923}.
@@ -896,18 +896,18 @@ Para atraer a {npc:180978} a la superfície, tiene que crearse un {item:187923}.
 
 3. Pesca un {item:187922} del {object:Banco de Pez aletón} cerca del punto de vuelo {location:Tumba de Kelya} en {location:Nazjatar}.
 
-4. Despoja una (está muy escondida) {item:187916} de un balcón en el segundo nivel del {location:Bancal de Nar'shola} en la {location:Extensión Bruñida} (34.7, 75.0).
+4. Despoja una {item:187916} (está muy escondida) de un balcón en el segundo nivel del {location:Bancal de Nar'shola} en la {location:Extensión Bruñida} (34.7, 75.0).
 
 5. Localiza a la {npc:182194} en el estanque al sur del {location:Trono del Prelado en Maldraxxus}. Dile que te construya el {item:187923} acabado.
 
-6. Usa el {item:187923} que te permitirá ver los {object:Banco de Aurélido} junto a {npc:180978} durante 15min. Pesca dentro para traer a {npc:180978} a la superfície.
+6. Usa el {item:187923} que te permitirá ver los {object:Banco de Aurélido} junto a {npc:180978} durante 15 minutos. Pesca dentro para sacar a {npc:180978} a la superfície.
 ]]
 L['orixal_note'] = 'Comparte punto de aparición con el {npc:185487} que patrulla la zona.'
 L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas correspondientes a cada consola (están en los alrededores) para abrir la barrera.'
 L['the_engulfer_note'] = 'Defiende a {npc:183505} hasta que {npc:183516} salte de la grieta.'
-L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 acumulaciones de {spell:362976} hasta que estés {spell:362983}. Tienes que estar dentro del anillo de cuerpos de los {npc:183774} cuando seas paralizado para que {npc:183764} se fije en ti.'
+L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 acumulaciones de {spell:362976} hasta que estés {spell:362983}. Tienes que estar dentro del anillo de cuerpos de los {npc:183774} cuando estés paralizado para que {npc:183764} se fije en ti.'
 
-L['architects_reserve_note'] = 'Completa la cadena de misiones {quest:64829} que da {npc:180630} en Gracia del Peregrino para desbloquear el tesoro.'
+L['architects_reserve_note'] = 'Completa la cadena de misiones {quest:64829} que da {npc:180630} en {location:Gracia del Peregrino} para desbloquear el tesoro.'
 L['bushel_of_produce_note'] = 'Mata al {npc:182368} al norte mientras tenga el buff {spell:360945} para ganártelo tú. Mata más {npc:182368} (no necesitan tener el buff) hasta que tengas 5 acumulaciones. Ya puedes romper la puerta que da al tesoro.'
 L['crushed_crate_note'] = 'Despoja la {item:189767} que está encima del pilar caido por encima del tesoro. Dásela a {npc:185151} a cambio del {item:189768} el cual puede romper las rocas caidas.'
 L['domination_cache_note'] = 'La {item:189704} tiene pocas probabilidades de caer de los {npc:181403} y de los {npc:182426} de la zona.'
@@ -926,9 +926,9 @@ L['undulating_foliage_note'] = [[
 Pulsa los cuatro {npc:185390} para activar el teleportador del centro de la sala de los {location:Distritos Catalizadores}.
 
 • Fuera y detrás del {object:Bloqueo de los Distritos Catalizadores}
-• En la habitación suroeste de los distritos
+• En la habitación suroeste de los {location:Distritos Catalizadores}
 • En la habitación sur con el {npc:181652}
-• En la habitación sureste de los distritos
+• En la habitación sureste de los {location:Distritos Catalizadores}
 ]]
 
 L['provis_cache'] = 'Alijo de Provis cerrado'
@@ -979,7 +979,7 @@ L['cache_shrouded_cypher'] = 'Alijo de Claves Camuflado'
 L['cache_shrouded_cypher_note'] = [[
 Estos alijos sólo se pueden ver teniendo el buff {spell:361917} y llevando el objeto apropiado de Equipo de Claves:
 
-|cFF00FF00Mejora la percepción de Pocopoc y le permite descubrir más alijos ocultos.|r
+{note:Mejora la percepción de Pocopoc y le permite descubrir más alijos ocultos.}
 ]]
 
 L['cache_cantaric'] = 'Alijo Cantárico'
@@ -988,9 +988,9 @@ L['cache_glissandian'] = 'Alijo Glissadiano'
 L['cache_mezzonic'] = 'Alijo Mezzónico'
 L['cache_toccatian'] = 'Alijo Tocata'
 
-L['schematic_treasure_note'] = '{note:Este tesoro no tendrá el esquema de la protoforma si no has desbloqueado todavía la forja de síntesis. Si ya has despojado el tesoro, encontrarás el esquema cerca en el suelo.}'
-L['schematic_treasure_mount_note'] = '{note:Este esquema está en un tesoro cercano la primera vez. Si el tesoro se abrió antes de desbloquear la forja de síntesis de monturas, el esquema estará aquí.}'
-L['schematic_treasure_pet_note'] = '{note:Este esquema está en un tesoro cercano la primera vez. Si el tesoro se abrió antes de desbloquear la forja de síntesis de mascotas, el esquema estará aquí.}'
+L['schematic_treasure_note'] = '{note:Este tesoro no tendrá el esquema de la protoforma si no has desbloqueado todavía la {npc:184172}. Si ya has despojado el tesoro, encontrarás el esquema cerca en el suelo.}'
+L['schematic_treasure_mount_note'] = '{note:Este esquema está en un tesoro cercano la primera vez. Si el tesoro se abrió antes de desbloquear la {npc:184172} de monturas, el esquema estará aquí.}'
+L['schematic_treasure_pet_note'] = '{note:Este esquema está en un tesoro cercano la primera vez. Si el tesoro se abrió antes de desbloquear la {npc:184172} de mascotas, el esquema estará aquí.}'
 L['schematic_bronze_helicid_note'] = 'Probabilidad de que esté en el {item:190610} de la misión semanal {quest:65324}.'
 L['schematic_ambystan_darter_note'] = 'Escondido bajo el agua junto al {npc:185312}.'
 L['schematic_bronzewing_vespoid_note'] = 'Dentro del {location:Reposo Grávido}.'
@@ -1070,7 +1070,7 @@ L['olea_manu'] = 'Vende transfiguraciones y recetas a cambio de {currency:1979}.
 L['venaris_fate_sublabel'] = 'Está en el {location:Catalizador de Creación}.'
 L['venaris_fate_note'] = [[
 1. Habla con la {npc:162804} incorpórea en el {location:Refugio de Ve'nari} de {location:Las Fauces}.
-2. Si no es incorpórea, hay que progresar en la historia adicional del parche 9.2.5.
+2. Si no es incorpórea, hay que progresar más en la historia del parche 9.2.
 3. Interactúa con el cuerpo de {npc:162804} en el {location:Catalizador de Creación} de {location:Zereth Mortis}.
 4. 5 días después recibirás una carta en el buzón de {npc:162804} junto con el juguete {item:192485}.
 ]]

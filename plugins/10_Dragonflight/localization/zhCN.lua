@@ -90,7 +90,8 @@ L['signal_transmitter_note'] = '{note:需要10点机械头脑\n需要30点新奇
 L['options_icons_signal_transmitter'] = '龙洞发生器信号发射机'
 L['options_icons_signal_transmitter_desc'] = '显示 {item:198156} 的 {object:关闭的信号发射机} 的位置。'
 
-L['spawns_periodically'] = '{note:每隔30分钟可能出现，全服务器同步。（例如：9:00、17:30）}'
+L['rare_14h'] = '此稀有与其他稀有构成14小时的循环，每30分钟可以出现一个稀有。\n\n下次可能出现：{note:%s}（服务器时间）'
+L['time_format'] = '%Y/%m/%d - %H:%M'
 L['spawns_at_night'] = '{note:只可能在夜间出现。（服务器时间18:30准时出现，可能会延迟几分钟）}'
 
 L['elemental_storm'] = '元素风暴'
@@ -125,8 +126,8 @@ L['options_icons_elusive_creature'] = '{item:193906}'
 L['options_icons_elusive_creature_desc'] = '显示 {item:193906} 召唤的隐秘生物位置。'
 
 L['grand_hunts_label'] = '洪荒狩猎'
-L['longhunter_suffix'] = '首领已击杀'
-L['the_best_at_what_i_do_suffix'] = '狩猎进度已完成'
+L['longhunter_suffix'] = '狩猎进度已完成'
+L['the_best_at_what_i_do_suffix'] = '首领已击杀'
 
 L['options_icons_grand_hunts'] = '洪荒狩猎'
 L['options_icons_grand_hunts_desc'] = '显示 {object:洪荒狩猎} 的位置和奖励。'
@@ -135,9 +136,9 @@ L['options_icons_grand_hunts_desc'] = '显示 {object:洪荒狩猎} 的位置和
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['bisquis_note'] = '在 {location:伊斯卡拉} 的社区盛宴烹饪出传说品质的汤，然后击败 {npc:197557}。 '
+L['bisquis_note'] = '在 {location:伊斯卡拉} 的社区盛宴烹饪出传说品质的汤，然后击败 {npc:197557}。\n\n下次宴会：{note:%s}（服务器时间）'
 L['blightfur_note'] = '和 {npc:193633} 交谈开始召唤稀有。'
-L['brackenhide_rare_note'] = '这些稀有以10分钟计时按固定轮次 {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} 出现。'
+L['brackenhide_rare_note'] = '这些稀有以10分钟计时按固定轮次 {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} 出现。\n\n下次可能出现：{note:%s}（服务器时间）'
 L['fisherman_tinnak_note'] = '收集 {object:破损的鱼竿}，{object:扯烂的渔网} 和 {object:旧鱼叉} 后稀有出现。'
 L['frostpaw_note'] = '拿上 {object:木槌} 后有20秒的时间去打 {object:树桩} 上的 {object:打豺狼人}，之后稀有出现。'
 L['sharpfang_note'] = '帮助 {npc:192747} 击败 {npc:192748} 后稀有出现。'

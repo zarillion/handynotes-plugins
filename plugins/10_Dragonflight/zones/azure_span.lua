@@ -26,6 +26,7 @@ local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
+local Rare14h = ns.node.Rare14h
 local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
@@ -88,10 +89,9 @@ map.nodes[73032680] = Rare({
     }
 }) -- Beogoka
 
-map.nodes[13584855] = Rare({
+map.nodes[13584855] = ns.node.Feast({
     id = 197557,
     quest = 74097,
-    note = L['bisquis_note'],
     rewards = {
         Achievement({id = 16678, criteria = 55381}), -- Adventurer of The Azure Span
         Achievement({id = 16444}), -- Leftovers' Revenge
@@ -127,11 +127,11 @@ map.nodes[13432270] = Rare({
     }
 }) -- Blightfur
 
-map.nodes[14053096] = RareElite({
+map.nodes[14053096] = ns.node.Brackenhide({
     id = 197353,
     quest = 73985,
     fgroup = 'brackenhide',
-    note = L['brackenhide_rare_note'],
+    rotationID = 2,
     rewards = {
         Achievement({id = 16678, criteria = 56126}), -- Adventurer of The Azure Span
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -248,11 +248,11 @@ map.nodes[58264391] = Rare({
     pois = {POI({58664339})}
 }) -- Frostpaw
 
-map.nodes[14083747] = RareElite({
+map.nodes[14083747] = ns.node.Brackenhide({
     id = 197354,
     quest = 73996,
     fgroup = 'brackenhide',
-    note = L['brackenhide_rare_note'],
+    rotationID = 3,
     rewards = {
         Achievement({id = 16678, criteria = 56127}), -- Adventurer of The Azure Span
         Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
@@ -261,10 +261,10 @@ map.nodes[14083747] = RareElite({
     }
 }) -- Gnarls
 
-map.nodes[32682911] = RareElite({
+map.nodes[32682911] = ns.node.RareElite14h({
     id = 193251,
     quest = 74001,
-    note = L['spawns_periodically'],
+    rotationID = 2,
     rewards = {
         Achievement({id = 16678, criteria = 56111}), -- Adventurer of The Azure Span
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -279,10 +279,10 @@ map.nodes[32682911] = RareElite({
     }
 }) -- Gruffy
 
-map.nodes[19234362] = Rare({ -- required 67030
+map.nodes[19234362] = Rare14h({
     id = 193269,
     quest = 74002,
-    note = L['spawns_periodically'],
+    rotationID = 23,
     rewards = {
         Achievement({id = 16678, criteria = 56112}), -- Adventurer of The Azure Span
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -297,11 +297,11 @@ map.nodes[19234362] = Rare({ -- required 67030
     }
 }) -- Grumbletrunk
 
-map.nodes[16213364] = RareElite({
+map.nodes[16213364] = ns.node.Brackenhide({
     id = 197356,
     quest = 74004,
     fgroup = 'brackenhide',
-    note = L['brackenhide_rare_note'],
+    rotationID = 0,
     rewards = {
         Achievement({id = 16678, criteria = 56128}), -- Adventurer of The Azure Span
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
@@ -410,10 +410,10 @@ map.nodes[58813260] = Rare({
 --     }
 -- }) -- Rusthide
 
-map.nodes[26494939] = Rare({
+map.nodes[26494939] = Rare14h({
     id = 193149,
     quest = 74030,
-    note = L['spawns_periodically'],
+    rotationID = 8,
     rewards = {
         Achievement({id = 16678, criteria = 56110}), -- Adventurer of The Azure Span
         Transmog({item = 200203, slot = L['mail']}), -- Repurposed Giant's Thimble
@@ -427,11 +427,11 @@ map.nodes[26494939] = Rare({
     }
 }) -- Skag the Thrower
 
-map.nodes[10863229] = RareElite({
+map.nodes[10863229] = ns.node.Brackenhide({
     id = 197344,
     quest = 74032,
     fgroup = 'brackenhide',
-    note = L['brackenhide_rare_note'],
+    rotationID = 1,
     rewards = {
         Achievement({id = 16678, criteria = 56125}), -- Adventurer of The Azure Span
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher

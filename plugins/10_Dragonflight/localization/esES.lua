@@ -91,7 +91,8 @@ L['signal_transmitter_note'] = '{note:Requiere 10 puntos en Mente Mecánica\nReq
 L['options_icons_signal_transmitter'] = 'Transmisores de Generadores de Agujeros de Vermis'
 L['options_icons_signal_transmitter_desc'] = 'Muestra dónde están los {object:Transmisores Desactivados} para los {item:198156}.'
 
-L['spawns_periodically'] = '{note:Puede aparecer cada 30 minutos (horas en punto y media) sincronizado con la hora del reino.}'
+L['rare_14h'] = 'El raro está en una rotación de 14 horas junto con otros raros. Puede aparecer un raro cada 30 minutos.\n\nPróxima aparición posible: {note:%s} (hora del servidor).'
+L['time_format'] = '%H:%M - %d/%m/%Y'
 L['spawns_at_night'] = '{note:Sólo aparece por la noche. (Después de las 18:30 hora del servidor)}'
 
 L['elemental_storm'] = 'Tormenta Elemental'
@@ -126,19 +127,19 @@ L['options_icons_elusive_creature'] = '{item:193906}'
 L['options_icons_elusive_creature_desc'] = 'Muestra dónde están las criaturas esquivas invocadas con el {item:193906}.'
 
 L['grand_hunts_label'] = 'Grandes Cacerías'
-L['longhunter_suffix'] = 'bosses matados'
-L['the_best_at_what_i_do_suffix'] = 'pasos de la cacería completados'
+L['longhunter_suffix'] = 'pasos de la cacería completados'
+L['the_best_at_what_i_do_suffix'] = 'bosses matados'
 
 L['options_icons_grand_hunts'] = 'Grandes Cacerías'
-L['options_icons_grand_hunts_desc'] = 'Muestra las cacerías y las recompensas del {object:Botín de la Gran cacería}.'
+L['options_icons_grand_hunts_desc'] = 'Muestra las cacerías y las recompensas de las {object:Grandes Cacerías}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['bisquis_note'] = 'Cocina una sopa legendaria en el festín comunitario de {location:Iskaara} y luego derrota a {npc:197557}.'
+L['bisquis_note'] = 'Cocina una sopa legendaria en el festín comunitario de {location:Iskaara} y luego derrota a {npc:197557}.\n\nSiguiente Festín: {note:%s} (hora del servidor).'
 L['blightfur_note'] = 'Habla con {npc:193633} para hacer aparecer al raro.'
-L['brackenhide_rare_note'] = 'Estos raros aparecen en un rotación fija en el siguiente orden: {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} con una diferencia de 10 minutos.'
+L['brackenhide_rare_note'] = 'Estos raros aparecen en un rotación fija en el siguiente orden: {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} con una diferencia de 10 minutos.\n\nSiguiente aparición posible: {note:%s} (hora del servidor).'
 L['fisherman_tinnak_note'] = 'Recoge la {object:Caña de Pescar Rota}, la {object:Red de Pescar Rota} y el {object:Arpón Viejo} para hacer aparecer al raro.'
 L['frostpaw_note'] = 'Después de coger el {object:Martillo de Madera}, tienes 20 segundos para golpear el {object:Machacagnolls} en el {object:Tocón}, y hacer aparecer al raro.'
 L['sharpfang_note'] = 'Ayuda a {npc:192747} a derrotar a los {npc:192748} para hacer aparecer al raro.'
@@ -213,10 +214,10 @@ Mata el {npc:197183} de dentro y recibirás la {item:200528}.
 
 L['gethdazr_note'] = [[
 Aparece como parte de un evento en {location:Imbu} que empieza soplando el {object:Gran Cuerno de Imbu} ({dot:Blue}).
-Sólo se podrá hacer click en el Cuerno después de matar al {npc:196155}, el cual tiene una reaparición de 30-60 minutos.
+Sólo se podrá hacer click en el cuerno después de matar al {npc:196155}, el cual tiene una reaparición de 30-60 minutos.
 
 Luego, {npc:191143} ({dot:Green}) y otros NPC se abrirán camino desde la entrada noreste de {location:Imbu} hasta donde aparece {npc:196165}.
-Los NPC pueden morir sin ayuda y hacer fallar el evento.
+Los NPC pueden morir si no reciben ayuda y hacer fallar el evento.
 
 Se puede hacer en solitario pero se recomiendan 2-3 jugadores.
 ]]
@@ -323,10 +324,10 @@ L['hunt_instructor_basku_note'] = 'Entrega {item:200093} para conseguir reputaci
 L['elder_yusa_note'] = 'Selecciona a la {npc:192818} y teclea {emote:/hambre} para conseguir la receta de cocina.'
 L['initiate_kittileg_note'] = 'Completa la misión {quest:66226} para conseguir el juguete.'
 
-L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en el campamento cercano del {location:Clan Aylaag}. {dot:Blue}\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
+L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en el campamento cercano del {faction:Clan Aylaag}. {dot:Blue}\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
 L['quackers_spawn'] = 'Ahora necesitas pillar un pato cerca del nido con la {item:194712}. Después usa el {item:194739} en el {npc:192581} para invocar a {npc:192557}.'
 
-L['knew_you_nokhud_do_it_note'] = '{note:Los 3 objetos son únicos y dejan de existir tras 30 minutos.}\n\nConsigue {item:200184}, {item:200194}, y {item:200196} de varios {npc:185357}, {npc:185353}, o {npc:185168} alrededor de {location:Bastión Nokhudon}.\n\nCombínalos para crear el {item:200201} y úsalo para hablar con {npc:197884} para comenzar el circuito de entrenamiento.\n\nUsa tu |cFFFFFD00Botón de Acción Extra|r para completarlo y conseguir el logro.\n\n{note:Completar el logro mientras estás en banda durante una Tormenta Elemental hace más fácil conseguir los objetos.}'
+L['knew_you_nokhud_do_it_note'] = '{note:Los 3 objetos son únicos y dejan de existir tras 30 minutos.}\n\nConsigue {item:200184}, {item:200194}, y {item:200196} de varios {npc:185357}, {npc:185353}, o {npc:185168} alrededor de {location:Bastión Nokhudon}.\n\nCombínalos para crear el {item:200201} y úsalo para hablar con {npc:197884} para comenzar el circuito de entrenamiento.\n\nUsa tu {object:Botón de Acción Extra} para completarlo y conseguir el logro.\n\n{note:Completar el logro mientras estás en banda durante una Tormenta Elemental hace más fácil conseguir los objetos.}'
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
 L['options_icons_nokhud_do_it_desc'] = 'Muestra información de ayuda para completar el logro {achievement:16583}.'
 
@@ -404,7 +405,7 @@ L['brendormi_note_currency'] = 'Actualmente tienes %s {currency:2118}.'
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
 
-L['brundin_the_dragonbane_note'] = 'El Destacamento de Guerra Qalashi viaja encima de su {npc:192737} a esta torre.'
+L['brundin_the_dragonbane_note'] = 'El {object:Destacamento de Guerra Qalashi} viaja encima de su {npc:192737} a esta torre.'
 L['captain_lancer_note'] = 'Aparece inmediatamente después de completar el evento {spell:388945}.'
 L['enkine_note'] = 'Mata a {npc:193137}, {npc:193138} o {npc:193139} a lo largo del rio de lava para consesguir {item:201092}. Úsalas y pesca cerca de la {npc:191866} en la lava.'
 L['lepidoralia_note'] = 'Está en la {location:Caverna del Aleteo}. Ayuda al {npc:193342} a coger {npc:193274} hasta que aparezca el raro.'
