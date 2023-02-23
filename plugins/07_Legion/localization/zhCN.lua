@@ -36,7 +36,7 @@ L['fel_spotted_egg_contains'] = '{item:153190} 可包含'
 L['goblin_glider_treasure_note'] = '使用 {item:109076} 滑翔到宝藏。'
 L['lightforged_warframe_treasure_note'] = '登上 {npc:126426} 在 {npc:121365} 激活 {item:152098}。\n\n使用 {item:152098} 和 {spell:250434} 融化岩石并找到宝藏。'
 L['lights_judgement_treasure_note'] = '登上 {npc:126426} 在 {npc:121365} 激活 {item:151830}。\n\n使用 {item:151830} 炸开岩石并找到宝藏。'
-L['shroud_of_arcane_echoes_treasures_note'] = '登上 {npc:126426} 在 {npc:121365} 激活 {item:151912}。\n\n使用 {item:151912} 解锁宝藏。\n\n' .. Red('"只对拥有与奥古雷相呼应的力量的人开放。"')
+L['shroud_of_arcane_echoes_treasures_note'] = '登上 {npc:126426} 在 {npc:121365} 激活 {item:151912}。\n\n使用 {item:151912} 解锁宝藏。\n\n{note:“只对拥有与奥古雷相呼应的力量的人开放。”}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- AZSUNA ------------------------------------
