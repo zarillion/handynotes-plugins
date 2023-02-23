@@ -49,12 +49,12 @@ L['options_icons_scout_pack'] = 'Expedition Scout\'s Packs'
 L['options_icons_scout_pack_desc'] = 'Display possible locations of {object:Expedition Scout\'s Packs}.'
 
 L['magicbound_chest'] = 'Magic-Bound Chest'
-L['options_icons_magicbound_chest'] = 'Magic-Bound Chest'
+L['options_icons_magicbound_chest'] = 'Magic-Bound Chests'
 L['options_icons_magicbound_chest_desc'] = 'Display possible locations of {object:Magic-Bound Chests}.'
 
 L['tuskarr_tacklebox'] = 'Tuskarr Tacklebox'
-L['options_icons_tuskarr_tacklebox'] = 'Tuskarr Tacklebox'
-L['options_icons_tuskarr_tacklebox_desc'] = 'Display possible locations of {object:Tuskarr Tacklebox}.'
+L['options_icons_tuskarr_tacklebox'] = 'Tuskarr Tackleboxes'
+L['options_icons_tuskarr_tacklebox_desc'] = 'Display possible locations of {object:Tuskarr Tackleboxes}.'
 
 L['dr_best'] = 'Your best time:\n - Normal: %.3fs\n - Advanced: %.3fs\n - Reverse: %.3fs'
 L['dr_best_dash'] = 'Your best time:\n - %.3fs'
@@ -118,8 +118,8 @@ L['empowered_mobs_killed_suffix'] = 'Empowered mobs killed'
 L['elemental_storm_mythressa_note_start'] = 'Exchange for {currency:2118} for gear, pets, and a mount.'
 L['elemental_storm_mythressa_note_end'] = 'You currently have %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = '{spell:392768}'
-L['options_icons_elemental_storm_desc'] = 'Display rewards for {spell:392768}.'
+L['options_icons_elemental_storm'] = 'Elemental Storms'
+L['options_icons_elemental_storm_desc'] = 'Display rewards for Elemental Storms.'
 
 L['elusive_creature_note'] = '{object:Mastery Rank 40/40} in {object:Bait Crafter} enables you to create {item:193906} which can be used to summon and skin each creature once a day.'
 L['options_icons_elusive_creature'] = '{item:193906}'
@@ -223,11 +223,11 @@ This can be done solo but 2-3 players are recommended.
 
 L['tuskarr_chest'] = 'Tuskarr Chest'
 L['options_icons_tuskarr_chest'] = 'Tuskarr Chests'
-L['options_icons_tuskarr_chest_desc'] = 'Display possible locations of {object:Tuskarr Chest}.'
+L['options_icons_tuskarr_chest_desc'] = 'Display possible locations of {object:Tuskarr Chests}.'
 
-L['community_feast_label'] = '{spell:388961}'
-L['options_icons_community_feast'] = '{spell:388961}'
-L['options_icons_community_feast_desc'] = 'Display locations and rewards for the {spell:388961}.'
+L['community_feast_label'] = 'Community Feast'
+L['options_icons_community_feast'] = 'Community Feast'
+L['options_icons_community_feast_desc'] = 'Display location and rewards for the Community Feast.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
