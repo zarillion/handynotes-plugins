@@ -22,10 +22,10 @@ L['the_many_faced_devourer_checklist'] = Gold('Lista de chequeo de Objetos (en b
 L['orix_the_all_seer_note'] = 'Vende coleccionables a cambio de {item:153021}.'
 
 L['legion_war_supplies'] = 'Suministros Bélicos de la Legión'
-L['legion_war_supplies_note'] = 'Hay 9 Suministros bélicos de la Legión únicos que pueden aparecer en sitios determinados.'
+L['legion_war_supplies_note'] = 'Hay 9 {object:Suministros Bélicos de la Legión} únicos que pueden aparecer en sitios determinados.'
 
 L['options_icons_legion_war_supplies'] = 'Suministros Bélicos de la Legión'
-L['options_icons_legion_war_supplies_desc'] = 'Muestra dónde pueden estar los Suministros bélicos de la Legión (cofres diarios).'
+L['options_icons_legion_war_supplies_desc'] = 'Muestra dónde pueden estar los {object:Suministros Bélicos de la Legión} (cofres diarios).'
 
 -------------------------------------------------------------------------------
 ------------------------------------ ARGUS ------------------------------------
@@ -59,7 +59,7 @@ L['disputed_treasure'] = 'Tesoro Disputado'
 L['in_academy'] = 'Dentro de la {location:Academia de Nar\'thalas}.'
 L['in_oceanus_cove'] = 'Dentro de {location:Cala de Oceanus}.'
 L['seemingly_unguarded_treasure'] = 'Tesoro Aparentemente sin Vigilancia'
-L['seemingly_unguarded_treasure_note'] = 'Intenta despojar el tesoro y entonces matar algunas oleadas de {npc:94167}.'
+L['seemingly_unguarded_treasure_note'] = 'Intenta despojar el {object:Tesoro Aparentemente Sin Vigilancia} y entonces mata algunas oleadas de {npc:94167}.'
 L['treasure_37958'] = 'En un nivel inferior del edificio.'
 L['treasure_37980'] = 'Usa el {object:Portal Ley} en el puente roto.'
 L['treasure_40711'] = 'Usa el {object:Portal Ley} dentro de la torre.'
