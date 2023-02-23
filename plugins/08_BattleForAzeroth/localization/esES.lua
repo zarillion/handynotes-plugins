@@ -46,7 +46,7 @@ L['embers_flask_note'] = 'Recoge el {item:163746} del agua entre dos rocas y dev
 L['embers_hat_note'] = 'Recoge el {item:163748} de la pila de huesos y devuélvelo a las {location:Ruinas de Gol Var}.'
 L['embers_knife_note'] = 'Estira del {item:163747} para sacarlo del tronco del árbol y devuélvelo a las {location:Ruinas de Gol Var}.'
 L['embers_golvar_note'] = 'Devuelve cada una de las reliquias a las {location:Ruinas de Gol Var} para conseguir el logro.'
-L['golvar_ruins'] = 'Ruinas de Gol Var'
+L['golvar_ruins'] = '{location:Ruinas de Gol Var}'
 L['options_icons_ember_relics_desc'] = 'Muestra dónde están las reliquias para el logro {achievement:13082}.'
 L['options_icons_ember_relics'] = '{achievement:13082}'
 
@@ -95,7 +95,7 @@ L['welding_bot_note'] = 'Haz click en el robot para aumentar la vida y la sanaci
 L['options_icons_mech_buffs'] = 'Buff de Robots'
 L['options_icons_mech_buffs_desc'] = 'Muestra dónde están los robots de grasa, descargas y soldador en el mapa estando dentro de la mazmorra.'
 L['options_icons_mech_chest'] = 'Cofres Mecanizados'
-L['options_icons_mech_chest_desc'] = 'Muestra dónde están los cofres mecanizados. Hay 10 cofres únicos que pueden ser despojados una vez al día y cada cofre tiene 4-5 puntos de aparición. Los sitios están agrupados por color.'
+L['options_icons_mech_chest_desc'] = 'Muestra dónde están los {object:Cofre Mecanizado}. Hay 10 cofres únicos que pueden ser despojados una vez al día y cada cofre tiene 4-5 puntos de aparición. Los sitios están agrupados por color.'
 L['options_icons_locked_chest'] = 'Cofres Cerrados'
 L['options_icons_locked_chest_desc'] = 'Muestra dónde están los cofres cerrados en {location:Rocío del Oeste}.'
 L['options_icons_recrig'] = '{npc:150448}'
@@ -127,7 +127,7 @@ L['oronu_note'] = 'Para activar a {npc:152397} invoca la mascota {npc:154849}.'
 L['rockweed_note'] = 'Mata a todos los {npc:152549} y al {npc:151166} de la zona hasta que aparezca el {npc:150583}. Se recomienda un grupo de banda ya que esto puede requerir mucho tiempo.'
 L['sandcastle_note'] = 'Usa una {item:167077} para revelar todos los cofres de la zona hasta que aparezca {npc:151870}.'
 L['tidelord_note'] = 'Mata a los tres {npc:145326} y al {npc:153999} que ellos invocan hasta que aparezca {npc:153928} o {npc:153898}.'
-L['tidemistress_note'] = 'Haz click en los huevos de {object:Espécimen Inalterado} hasta que aparezca {npc:154148}.'
+L['tidemistress_note'] = 'Haz click en los {object:Espécimen Inalterado} hasta que aparezca {npc:154148}.'
 L['urduu_note'] = 'Para activar a {npc:152568} mata enfrente suyo a un {npc:152563}.'
 L['voice_deeps_notes'] = 'Usa un {item:168161} para romper la barrera de rocas y acceder a {npc:151719}.'
 L['vorkoth_note'] = 'Lanza la {item:167059} dentro del charco de {npc:152472} hasta que aparezca {npc:150468}.'
@@ -224,7 +224,7 @@ L['options_icons_slimes_nazj_desc'] = 'Muestra dónde están las cuatro {npc:151
 L['options_icons_cats_nazj'] = '{achievement:13836}'
 L['options_icons_cats_nazj_desc'] = 'Muestra dónde están las figurillas de gato para el logro {achievement:13836}.'
 L['options_icons_misc_nazj'] = 'Miscelánea'
-L['options_icons_misc_nazj_desc'] = 'Muestra dónde está la cueva de Murloco y el Laboratorio de Mardivas.'
+L['options_icons_misc_nazj_desc'] = 'Muestra dónde está la {location:Cueva de Murloco} y el {location:Laboratorio de Mardivas}.'
 L['options_icons_fabious'] = '{npc:65090}'
 L['options_icons_fabious_desc'] = 'Muestra dónde está {npc:65090} para su montura {item:169201}.'
 
@@ -296,7 +296,7 @@ L['options_icons_honeybacks'] = '{npc:155193}'
 L['options_icons_honeybacks_desc'] = 'Muestra dónde está el evento de la {npc:155193} para el farmeo de la reputación {faction:2395}.'
 
 L['lets_bee_friends_note'] = 'Completa la misión diaria {daily:53371} siete veces para conseguir el logro y la mascota. Para desbloquear la misión diaria:'
-L['lets_bee_friends_step_1'] = 'Completa la cadena de misiones desde {quest:50343} hasta {quest:50553}.'
+L['lets_bee_friends_step_1'] = 'Completa la cadena de misiones en {location:Granja de Hidromiel Mildenhall} hasta {quest:50553}.'
 L['lets_bee_friends_step_2'] = 'Mata {npc:133429} y {npc:131663} en {location:Granja de Hidromiel Mildenhall} hasta que te encuentres un {item:163699}.'
 L['lets_bee_friends_step_3'] = 'Dale el {item:163699} a {npc:143128} en {location:Boralus}.'
 L['lets_bee_friends_step_4'] = 'Dale la {item:163702} a {npc:133907} en {location:Granja de Hidromiel Mildenhall}.'
@@ -306,7 +306,7 @@ local luncheon = (UnitFactionGroup('player') == 'Alliance') and '{npc:138221} en
 L['these_hills_sing_note'] = 'Abre {item:160485} aquí. Cómpraselo a ' .. luncheon .. ' o despoja uno del tesoro {object:Fiambrera desechada} en {location:Brennadam}.'
 
 L['ancient_tidesage_scroll'] = 'Pergamino Antiguo de Sabiomar'
-L['ancient_tidesage_scroll_note'] = 'Lee los 8 Pergamino Antiguo de Sabiomar para conseguir el logro.'
+L['ancient_tidesage_scroll_note'] = 'Lee los 8 {object:Pergamino Antiguo de Sabiomar} para conseguir el logro.'
 L['options_icons_tidesage_legends'] = '{achievement:13051}'
 L['options_icons_tidesage_legends_desc'] = 'Muestra dónde están los pergaminos antiguos para el logro {achievement:13051}.'
 
@@ -338,7 +338,7 @@ L['damp_scroll_note_4'] = 'En el suelo de un sótano junto al {npc:136343}.' .. 
 L['damp_scroll_note_5'] = 'En una esquina bajo el malecón.' .. damp_note
 L['ominous_altar'] = 'Altar Agorero'
 L['ominous_altar_note'] = 'Habla con el {object:Altar Agorero} para ser teleportado al tesoro.'
-L['secret_of_the_depths_note'] = 'Lee los cinco {object:Pergaminos Húmedos}, y entonces habla con el {object:Altar Agorero} para ser teleportado al tesoro.'
+L['secret_of_the_depths_note'] = 'Lee los cinco {object:Pergamino Húmedo}, y entonces habla con el {object:Altar Agorero} para ser teleportado al tesoro.'
 
 L['burly_note'] = 'Estos pequeñines son muy extraños, pero tienen muchísima fuerza. ¿Estás seguro de que quieres luchar?'
 L['delia_hanako_note'] = 'Antes de comenzar, me gustaría recordarte que no hace falta que te sientas mal cuando mi equipo aniquile al tuyo.'
@@ -443,7 +443,7 @@ L['guolai_center'] = 'Está dentro de las {location:Salas Guo-Lai} (pasillo cent
 L['guolai_right'] = 'Está dentro de las {location:Salas Guo-Lai} (pasillo de la derecha).'
 L['left_eye'] = 'Te da la mitad izquierda del juguete {item:175140}.'
 L['pools_of_power'] = 'Está dentro de las {location:Pozas de Poder}. La entrada está por {location:La Pagoda Dorada}.'
-L['tisiphon'] = 'Haz click en la {object:Caña de pescar de la suerte de Danielle}.'
+L['tisiphon'] = 'Haz click en la {object:Caña de Pescar de la Suerte de Danielle}.'
 
 L['ambered_cache'] = 'Alijo ámbar'
 L['ambered_coffer'] = 'Arca de ámbar'
@@ -504,7 +504,7 @@ L['craggle'] = 'Deja un juguete en el suelo (como el {item:44606}) para distraer
 L['empowered_note'] = 'Atraviesa el laberinto de minas hasta el piso superior y súbete encima de la {npc:161324} para conseguir un buff de 10% de daño incrementado.'
 L['enriched_note'] = 'Mata al {npc:161293} para conseguir un buff de 10% de crítico.'
 L['ethereal_essence_note'] = 'Mata a {npc:161198} para conseguir un buff de 10% de crítico.'
-L['ethereal_note'] = 'Consigue cristales naranjas escondidos a lo largo de la visión y llévaselos a {npc:162358} para conseguir Recuerdos adicionales. Hay un total de 10 cristales, 2 en cada zona.\n\n|cFF00FF00¡No olvides despojar el cofre!|r'
+L['ethereal_note'] = 'Consigue cristales naranjas escondidos a lo largo de la visión y llévaselos a {npc:162358} para conseguir Recuerdos adicionales. Hay un total de 10 cristales, 2 en cada zona.\n\n{note:¡No olvides despojar el cofre!}'
 L['heroes_bulwark_note'] = 'Mata a {npc:158588} dentro de la taberna para conseguir un buff de 10% de vida.'
 L['inside_building'] = 'Dentro de un edificio.'
 L['mailbox'] = 'Buzón de Correos'
@@ -628,7 +628,7 @@ L['talia_spark_note'] = 'En esta tierra las criaturas son feroces. Espero que es
 L['zujai_note'] = '¿Te atreves a desafiarme en mi propia casa? Buena suerte.'
 
 L['kuafon_note'] = [[
-Despoja un {item:157782} de cualquier Pterrordáctilo en {location:Zandalar} para empezar la cadena de misiones. Algunas misiones tardarán varios dias en ser completadas.
+Despoja un {item:157782} de cualquier {npc:143431} en {location:Zandalar} para empezar la cadena de misiones. Algunas misiones tardarán varios dias en ser completadas.
 
 Los mejores Pterrordáctilos para matar son {npc:126618} en {location:Zanchul} o {npc:122113} justo al sur de {location:Tal'gurub}.
 ]]
