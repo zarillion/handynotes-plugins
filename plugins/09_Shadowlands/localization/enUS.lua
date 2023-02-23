@@ -156,9 +156,9 @@ A Cat Soul (Well Fed) option will immediately become available when talking with
 -------------------------------------------------------------------------------
 
 L['aegeon_note'] = 'Kill enemies in the surrounding area until {npc:Aegeon} spawns as a reinforcement.'
-L['ascended_council_note'] = 'With four other players, click the five {object:temple vespers} at the same time to summon the {npc:170899} at {location:Aspirant\'s Crucible}.'
+L['ascended_council_note'] = 'With four other players, click the five temple {object:Vesper} at the same time to summon the {npc:170899} at {location:Aspirant\'s Crucible}.'
 L['aspirant_eolis_note'] = 'Loot a nearby {item:180613} and read it with the NPC targeted to activate him.'
-L['baedos_note'] = 'Carry {object:casks of Fermenting Purian Fruit} from the surrounding area to {npc:161536} until he activates.'
+L['baedos_note'] = 'Carry {object:Cask of Fermenting Purian Fruit} from the surrounding area to {npc:161536} until he activates.'
 L['basilofos_note'] = 'Move around the rock until a purple fixate marker appears over your head. Stand still and wait for four emotes to appear, then he will spawn.'
 L['beasts_of_bastion'] = 'Beasts of Bastion'
 L['beasts_of_bastion_note'] = 'Talk to {npc:161441} to summon one of the four beasts.'
@@ -190,9 +190,9 @@ L['cloudwalkers_coffer_note'] = 'Use the large purple flowers to bounce up to th
 L['experimental_construct_part'] = 'Loot a nearby {item:180534} and use it to repair the part. The anima has multiple spawn locations.'
 L['larion_harness'] = 'Located inside the {location:Hall of Beasts}.'
 L['memorial_offering'] = 'Find {npc:171526} at one of his locations across {location:Bastion} and purchase a {item:180788}. Place it in the drink tray near the chest to obtain the {item:180797}.'
-L['scroll_of_aeons'] = 'Loot 2 {item:173973} in the center area and place them on the nearby {object:tribute platters} to reveal the treasure.'
+L['scroll_of_aeons'] = 'Loot 2 {item:173973} in the center area and place them on the nearby {object:Tribute} platters to reveal the treasure.'
 L['vesper_of_silver_wind'] = 'Vesper of the Silver Wind'
-L['vesper_of_silver_wind_note'] = 'Complete the {achievement:14339} achievement and then talk to {npc:171732} near the entrance to {object:Spires of Ascension} to forge a {item:180858}.'
+L['vesper_of_silver_wind_note'] = 'Complete the {achievement:14339} achievement and then talk to {npc:171732} near the entrance to forge a {item:180858}.'
 
 L['gift_of_agthia'] = 'Click the lit torch near the broken bridge to the northwest and carry {spell:333320} from torch to torch until you reach the chest. Lighting the final torch will grant you {spell:333063}.'
 L['gift_of_chyrus'] = 'Kneel in front of the chest to be granted {spell:333045}.'
@@ -202,14 +202,14 @@ Southwest of the chest is a torch where you can pick up the {spell:333912}. Moun
 Before picking up the flame, clear all mobs in front of the chest. While running the flame, click any {npc:156571} along the way for a {spell:335012} debuff that increases movement speed.
 ]]
 L['gift_of_thenios'] = [[
-Behind the chest is a flight pad called {object:"Path of Wisdom"}. This leads to a sequence of platforms with different incenses you can commune with:
+Behind the chest is a flight pad called {object:Path of Wisdom}. This leads to a sequence of platforms with different incenses you can commune with:
 
 • Incense of Knowledge
 • Incense of Patience
 • Incense of Insight
 • Incense of Judgement
 
-Commune with them in the order Patience => Knowledge => Insight. On the Judgement platform an orb called the "{object:Path of Judgement}" will appear.
+Commune with them in the order Patience => Knowledge => Insight. On the Judgement platform an orb called the {object:Path of Judgement} will appear.
 
 The orb will take you to the true Incense of Judgment. Commune with it and the final flight pad will grant you {spell:333068} to open the chest.
 ]]
@@ -259,7 +259,7 @@ L['anima_shard_61277'] = 'On top of a thin stone column.'
 L['anima_shard_61278'] = 'Underneath the bridge on a rock.'
 L['anima_shard_61279'] = 'On top of a thin stone column.'
 L['anima_shard_61280'] = 'On the corner of the table.'
-L['anima_shard_61281'] = 'On a ledge above the {object:Memorial Offerings treasure}.'
+L['anima_shard_61281'] = 'On a ledge above the {object:Memorial Offerings} treasure.'
 L['anima_shard_61282'] = 'On a ledge below the cliff top.'
 L['anima_shard_61283'] = 'In a cave under {location:Miri\'s Chapel}, behind some barrels.'
 L['anima_shard_61284'] = 'On a ledge under a rocky overhang, path to the south.'
@@ -306,7 +306,7 @@ This rare will drop extra research items after it consumes *another* 40x {npc:17
 
 {note:The rare will not spawn {npc:179758} to consume while in combat.}
 ]]
-L['darkmaul_note'] = 'Collect {item:187153} from {object:Invasive Mawshrooms} and feed them to {npc:180063}. You must complete the event 10 times to obtain the mount.'
+L['darkmaul_note'] = 'Collect {item:187153} from {object:Invasive Mawshroom} and feed them to {npc:180063}. You must complete the event 10 times to obtain the mount.'
 L['dislodged_nest_note'] = 'Click on a nearby {object:Noxious Moth} to gain {spell:355181}. Use the {spell:355131} extra action button on {npc:178547} to gain control and ride it into the tree the nest is in.'
 L['escaped_wilderling_note'] = 'Click on the {npc:180014} to start the taming event.'
 L['flayedwing_transporter_note'] = 'Click on {npc:178633} to fly to or from the {location:Vault of Secrets}.'
@@ -323,7 +323,7 @@ L['pop_quiz_note'] = 'The Pop Quiz event will spawn randomly on the map. Click o
 L['razorwing_note'] = 'Hand in 10x {item:187054} dropped by devourers in the area.'
 L['reliwik_note'] = 'Click on the {object:Uncorrupted Razorwing Egg} to pull him down.'
 L['spectral_bound_chest'] = 'Spectral Bound Chest'
-L['spectral_bound_note'] = 'Click on 3 nearby {object:Spectral Keys} to unlock the chest.'
+L['spectral_bound_note'] = 'Click on 3 nearby {object:Spectral Key} to unlock the chest.'
 L['stonecrusher_note'] = 'Talk to {npc:179974} to start the event.'
 L['towering_exterminator_note'] = 'Spawns from a mawsworn portal event. The event can appear in many places throughout {location:Korthia}.'
 L['worldcracker_note'] = 'Talk to {npc:180028} to trigger the escort event.'
@@ -499,7 +499,7 @@ L['soulshape_saurid_note'] = 'In a small cave. Target the {npc:182105} and {emot
 -------------------------------------------------------------------------------
 
 L['amalgamation_of_filth_note'] = 'When the world quest {wq:Dirty Job: Demolition Detail} is available click on a {object:Rubbish Box} and use {spell:324115} into the water.'
-L['amalgamation_of_light_note'] = 'Move all three {object:mirror traps} to release the rare.'
+L['amalgamation_of_light_note'] = 'Move all three {object:Mirror Trap} to release the rare.'
 L['amalgamation_of_sin_note'] = 'During the {wq:Summon Your Sins} world quest, pick the {object:Catalyst of Power} for a chance to obtain {item:180376}, then use the item to summon the rare.'
 L['bog_beast_note'] = 'Has a chance to spawn during the world quest {wq:Muck It Up} after using {item:177880} on a {npc:166206}.'
 L['endlurker_note'] = 'Click {object:Anima Stake} near {npc:165229} corpse and use {spell:321826} on top of the {location:Shimmering Rift}.'
@@ -519,7 +519,7 @@ L['sire_ladinas_note'] = 'Pick up a {object:Remnant of Light} nearby and use {sp
 L['soulstalker_doina_note'] = 'Follow downstairs and through the mirror when she runs away.'
 L['tomb_burster_note'] = 'Can be spawned if {npc:155777} is trapped in a web. Kill nearby {npc:155769s} and waves of {npc:155795s} until the rare spawns.'
 L['worldedge_gorger_note'] = [[
-Obtain an {item:173939} from {npc:World Reavers}, {npc:Devourers} and {npc:Mites} in the {location:Banewood} and the {location:Endmire}. Use it to light the {object:Worldedge Braziers} and summon the rare.
+Obtain an {item:173939} from {npc:World Reavers}, {npc:Devourers} and {npc:Mites} in the {location:Banewood} and the {location:Endmire}. Use it to light the {object:Worldedge Brazier} and summon the rare.
 
 Has a chance to drop an {item:180583}, which begins a 7 day quest line to obtain the {spell:333027} mount.
 ]]
@@ -528,7 +528,7 @@ L['dredglaive_note'] = 'Under the bridge in the {npc:173671} corpse.'
 L['forbidden_chamber_note'] = 'Loot a {object:Discarded Anima Canister} in front of the locked door and learn {spell:340701}. Use it to drain five of the nearby {npc:173838s}, then use {spell:340866} in front of the {npc:173786}.'
 L['gilded_plum_chest_note'] = 'Kill the {npc:166680} wandering up and down the road.'
 L['lost_quill_note'] = 'Loot the {item:182475} from the bottle on the table in the {location:Forbidden Library}, then give it to the {npc:173449} on top of the archway outside.'
-L['rapier_fearless_note'] = 'Click the {object:rapier} on the ground, then defeat {npc:173603}.'
+L['rapier_fearless_note'] = 'Click the {object:Rapier of the Fearless} on the ground, then defeat {npc:173603}.'
 L['remlates_cache_note'] = 'On the outer wall of {location:Darkhaven} behind the crypt.'
 L['smuggled_cache_note'] = '{bug:BEFORE YOU LOOT}: Make sure you have completed {quest:60480} side quest or you will miss out on 40 {currency:1820} from the treasure and quest.'
 L['taskmaster_trove_note'] = 'Read the {object:Ingress and Egress Rites} then carefully make your way to the chest.'
@@ -571,7 +571,7 @@ L['options_icons_inquisitors_desc'] = 'Display inquisitor locations for the {ach
 
 L['bell_of_shame_note'] = 'Every 30 minutes a random ghost will spawn next to {npc:176006}.\n\nRepair the {npc:176056} for 30 {currency:1820} and then ring the bell to receive a buff from the active ghost.\n\nOne of the ghosts, {npc:176043}, gives {spell:346708} which provides an increased {item:172957} drop rate within the surrounding |cFFFFFD00Halls of Atonement|r area.'
 L['atonement_crypt_label'] = 'Atonement Crypt'
-L['atonement_crypt_note'] = 'Open an {object:Atonement Crypt} using an {item:172957}.'
+L['atonement_crypt_note'] = 'Open an {object:Crypt Door} using an {item:172957}.'
 L['atonement_crypts_opened'] = 'Atonement Crypts opened'
 L['atonement_crypt_key_label'] = '{item:172957}'
 L['atonement_crypt_key_note'] = [[
@@ -600,7 +600,7 @@ L['options_icons_crypt_kicker'] = '{achievement:14273}'
 L['options_icons_crypt_kicker_desc'] = 'Display farming locations for the {achievement:14273} achievement.'
 
 L['broken_mirror'] = 'Broken Mirror'
-L['broken_mirror_note'] = 'A group of three {object:broken mirrors} will be active each day. Use a {item:181363} to repair each mirror and open the {object:Forgotten Chest} inside.'
+L['broken_mirror_note'] = 'A group of three {object:Broken Mirror} will be active each day. Use a {item:181363} to repair each mirror and open the {object:Forgotten Chest} inside.'
 L['broken_mirror_crypt'] = 'Inside a crypt.'
 L['broken_mirror_elite'] = 'In a small room with elite mobs.'
 L['broken_mirror_group'] = 'Group'
@@ -609,7 +609,7 @@ L['broken_mirror_61818'] = 'In a small room with {npc:173699}.'
 L['broken_mirror_61819'] = 'In a small room on the ground floor.'
 L['broken_mirror_61827'] = 'In a small room.'
 L['options_icons_broken_mirror'] = 'Broken Mirrors'
-L['options_icons_broken_mirror_desc'] = 'Display the locations of {object:broken mirrors}.'
+L['options_icons_broken_mirror_desc'] = 'Display the locations of {object:Broken Mirror}.'
 
 L['soulshape_chicken_note'] = [[
 1. Collect {item:187811} from {location:Darkhaven}
@@ -672,7 +672,7 @@ L['chaotic_riftstone_note'] = 'Activate to {spell:344157} quickly across {locati
 L['venari_note'] = [[
 Use {currency:1767} to purchase Maw and Torghast upgrades.
 
-{note:Account-wide Torghast upgrades will show as incomplete on alts!}
+{note:Account-wide {location:Torghast} upgrades will show as incomplete on alts!}
 ]]
 L['venari_upgrade'] = '{npc:162804} Upgrade'
 L['torghast'] = 'Torghast'
@@ -773,7 +773,7 @@ L['cov_assault_only'] = 'Only available during the %s assault.'
 L['helgarde_supply'] = 'Helgarde Supply Cache'
 L['helgarde_supply_note'] = 'Spawns throughout the {location:Desmotaeron} area. Your {npc:180598} can help you locate them.'
 L['options_icons_helgarde_cache'] = 'Helgarde Supply Caches'
-L['options_icons_helgarde_cache_desc'] = 'Display possible locations for {object:Helgarde Supply Caches} in the {location:Desmotaeron} area.'
+L['options_icons_helgarde_cache_desc'] = 'Display possible locations for {object:Helgarde Supply Cache} in the {location:Desmotaeron} area.'
 
 L['mawsworn_cache_ramparts_note'] = 'This cache is on top of the ramparts. Use the grapple points or a {npc:177093} to reach them.'
 L['mawsworn_cache_tower_note'] = 'This cache is on top of the tower and requires a {npc:177093} to reach. Use the {spell:349853} ability to climb up.'
@@ -782,11 +782,11 @@ L['mawsworn_cache_quest_note'] = 'The {item:186573} will only drop after you hav
 L['nilg_silver_ring_note'] = 'Collect 4 {item:186727} in the {location:Desmotaeron} and use them to open the {object:Domination Sealed Chest}.'
 L['nilg_silver_ring_note1'] = 'Kill {npc:177444} and open the {item:186970}.'
 L['nilg_silver_ring_note2'] = 'Loot the {object:Harrower\'s Key Ring}, located on the wall in an underground room next to {npc:178311}.'
-L['nilg_silver_ring_note3'] = 'Open {object:Helgarde Supply Caches} in the {location:Desmotaeron} area. Your {npc:180598} can help you locate them.'
+L['nilg_silver_ring_note3'] = 'Open {object:Helgarde Supply Cache} in the {location:Desmotaeron} area. Your {npc:180598} can help you locate them.'
 L['nilg_silver_ring_note4'] = 'Farm {npc:177134s} in the {location:Desmotaeron} area (low drop rate).'
 L['nilg_stone_ring_note'] = 'Collect four {item:186600} during the Necrolord assault and combine them at any {npc:171492} in {location:Zovaal\'s Cauldron}.'
-L['nilg_stone_ring_note1'] = 'Found in certain {object:Mawsworn Caches} (yellow icon) on top of the ramparts in {location:Perdition Hold}.'
-L['nilg_stone_ring_note2'] = 'Complete the {quest:63545} quest, then loot {object:Mawsworn Caches} until you find the quest item {item:186573}. This quest is shareable!'
+L['nilg_stone_ring_note1'] = 'Found in certain {object:Mawsworn Cache} (yellow icon) on top of the ramparts in {location:Perdition Hold}.'
+L['nilg_stone_ring_note2'] = 'Complete the {quest:63545} quest, then loot {object:Mawsworn Cache} until you find the quest item {item:186573}. This quest is shareable!'
 L['nilg_stone_ring_note3'] = 'Looted from {npc:179601} in the center area of {location:Perdition Hold}.'
 L['nilg_stone_ring_note4'] = 'Found on the ground in {location:Perdition Hold} near {npc:170634}. Your {npc:180598} can help you locate it.'
 L['nilg_gold_band_note'] = 'Use the grapple point and follow the path up to the top of the mountain.'
@@ -899,7 +899,7 @@ L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Repertory', 'Repertor
 L['corrupted_architect_note'] = 'Engage {npc:183958} and {npc:183961} to activate the rare.'
 L['dune_dominance_note'] = 'All three rare elites for the {achievement:15392} achievement spawn at this location.'
 L['feasting_note'] = 'Will sometimes circle the area before returning to this spot.'
-L['furidian_note'] = 'Activate three {object:Empowered Keys} in the area, then unlock the {object:Suspiciously Angry Vault}.'
+L['furidian_note'] = 'Activate three {object:Empowered Key} in the area, then unlock the {object:Suspiciously Angry Vault}.'
 L['garudeon_note'] = 'Collect {npc:183562s} from the surrounding area and use {spell:362655} to feed the {npc:183554s}. Once all three are fed, {npc:180924} will activate.'
 L['gluttonous_overgrowth_note'] = 'Break all nearby {npc:184048s} to activate the rare.'
 L['helmix_note'] = [[
