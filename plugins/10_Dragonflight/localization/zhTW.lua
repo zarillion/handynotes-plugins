@@ -90,8 +90,8 @@ L['signal_transmitter_note'] = '{note:需要點機械心靈 10點\n需要點新�
 L['options_icons_signal_transmitter'] = '龍洞產生器信號發送器'
 L['options_icons_signal_transmitter_desc'] = '顯示 {item:198156} 所需的 {object:未啟動的信號發送器} 位置.'
 
-L['rare_14h'] = nil
-L['time_format'] = nil
+L['rare_14h'] = '此稀有和其他稀有們共用一個14小時的循環, 每30分鐘會重生一隻稀有.\n\n下個可能的重生時間是: {note:%s} (伺服器時間)'
+L['time_format'] = '%Y/%m/%d - %H:%M'
 L['spawns_at_night'] = '{note:僅在晚上重生 (伺服器時間 18:30 之後)}'
 
 L['elemental_storm'] = '元素風暴'
@@ -121,16 +121,16 @@ L['elemental_storm_mythressa_note_end'] = '你現在有 %s 個 {currency:2118}.'
 L['options_icons_elemental_storm'] = '元素風暴'
 L['options_icons_elemental_storm_desc'] = '顯示元素風暴的獎勵.'
 
-L['elusive_creature_note'] = nil
+L['elusive_creature_note'] = '在 {object:餌食工匠} 升級到 {object:專精等級 40/40} 可以讓你每天用所製造的 {item:193906} 召喚並剝皮獨特的難捉動物一次.'
 L['options_icons_elusive_creature'] = '{item:193906}'
-L['options_icons_elusive_creature_desc'] = nil
+L['options_icons_elusive_creature_desc'] = '顯示 {item:193906} 所召喚出來的難捉的動物的位置'
 
-L['grand_hunts_label'] = nil
-L['longhunter_suffix'] = nil
-L['the_best_at_what_i_do_suffix'] = nil
+L['grand_hunts_label'] = '大狩獵'
+L['longhunter_suffix'] = '狩獵階段完成'
+L['the_best_at_what_i_do_suffix'] = '首領已擊殺'
 
-L['options_icons_grand_hunts'] = nil
-L['options_icons_grand_hunts_desc'] = nil
+L['options_icons_grand_hunts'] = '大狩獵'
+L['options_icons_grand_hunts_desc'] = '顯示 {object:大狩獵} 的位置和獎勵.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -213,13 +213,13 @@ L['stranded_soul_note'] = [[
 
 L['gethdazr_note'] = nil
 
-L['tuskarr_chest'] = nil
-L['options_icons_tuskarr_chest'] = nil
-L['options_icons_tuskarr_chest_desc'] = nil -- '顯示 {object:巨牙海民釣具箱} 可能的位置'
+L['tuskarr_chest'] = '巨牙海民釣具箱'
+L['options_icons_tuskarr_chest'] = '巨牙海民釣具箱'
+L['options_icons_tuskarr_chest_desc'] = '顯示 {object:巨牙海民釣具箱} 可能的位置.'
 
-L['community_feast_label'] = nil
-L['options_icons_community_feast'] = nil
-L['options_icons_community_feast_desc'] = nil
+L['community_feast_label'] = '{spell:388961}'
+L['options_icons_community_feast'] = '{spell:388961}'
+L['options_icons_community_feast_desc'] = '顯示 {spell:388961} 的位置和獎勵.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -525,6 +525,6 @@ L['djaradin_cache'] = '加拉登貯物所'
 L['options_icons_djaradin_cache'] = '加拉登貯物所'
 L['options_icons_djaradin_cache_desc'] = '顯示 {object:加拉登貯物所} 可能的位置'
 
-L['dragonbane_siege_label'] = nil
-L['options_icons_dragonbane_siege'] = nil
-L['options_icons_dragonbane_siege_desc'] = nil
+L['dragonbane_siege_label'] = '{spell:388945}'
+L['options_icons_dragonbane_siege'] = '{spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = '顯示 {spell:388945} 的位置和獎勵.'
