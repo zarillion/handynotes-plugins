@@ -277,6 +277,11 @@ L['options_icons_froststone_vault_storm_desc'] = 'Zeige die Positionen der Beloh
 
 L['spellsworn_gateway'] = 'Tor der Zauberverschworenen'
 
+L['recipe_rat_note_1'] = nil
+L['recipe_rat_note_2'] = nil
+L['recipe_rat_note_3'] = nil
+L['recipe_rat_note_4'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------

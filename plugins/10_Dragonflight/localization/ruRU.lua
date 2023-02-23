@@ -278,6 +278,11 @@ L['options_icons_froststone_vault_storm_desc'] = nil
 
 L['spellsworn_gateway'] = nil
 
+L['recipe_rat_note_1'] = nil
+L['recipe_rat_note_2'] = nil
+L['recipe_rat_note_3'] = nil
+L['recipe_rat_note_4'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------

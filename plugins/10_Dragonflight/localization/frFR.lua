@@ -284,6 +284,11 @@ L['options_icons_froststone_vault_storm_desc'] = 'Afficher les emplacements et l
 
 L['spellsworn_gateway'] = 'Porte sorcelige'
 
+L['recipe_rat_note_1'] = nil
+L['recipe_rat_note_2'] = nil
+L['recipe_rat_note_3'] = nil
+L['recipe_rat_note_4'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------

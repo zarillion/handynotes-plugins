@@ -1157,6 +1157,44 @@ warCreche.nodes[49915424] = Node({
     fgroup = 'spellsworn_gateway'
 }) -- Spellsworn Gateway
 
+---------------------- RATCIPE: DEVIOUSLY DEVILVED EGGS -----------------------
+
+local RecipeRat = Class('RecipeRat', Node, {
+    label = '{npc:202982}',
+    icon = 4509424,
+    requires = ns.requirement.Item(3927), -- Fine Aged Cheddar
+    rewards = {
+        Item({item = 204073}) -- Ratcipe: Deviously Deviled Eggs
+    }
+}) -- Recipe Rat
+
+function RecipeRat.getters:note()
+    local function status(id, itemsNeed, itemsNeedString)
+        local itemsHave = GetItemCount(id, true);
+        if ns.PlayerHasItem(id, itemsNeed) then
+            return ns.status.Green(itemsHave .. '/' .. itemsNeedString)
+        else
+            return ns.status.Red(itemsHave .. '/' .. itemsNeedString)
+        end
+    end
+
+    local function getString(id)
+        local s = '??????'
+        return s:sub(1, #tostring(GetItemCount(id))) -- 1/? or 26/?? or 159/???
+    end
+
+    local note = L['recipe_rat_note_1'] .. '\n\n'
+    note = note .. status(202252, 1, '1') .. ' ' .. L['recipe_rat_note_2'] ..
+               '\n\n'
+    note = note .. status(204340, 30, '30') .. ' ' .. L['recipe_rat_note_3'] ..
+               '\n\n'
+    note = note .. status(3927, 1, getString(3927)) .. ' ' ..
+               L['recipe_rat_note_4']
+    return note
+end
+
+map.nodes[30185303] = RecipeRat()
+
 --------------------------------- ZSKERA VAULT --------------------------------
 
 map.nodes[29185303] = Collectible({
