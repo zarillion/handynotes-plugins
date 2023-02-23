@@ -564,6 +564,7 @@ siegeCreche.nodes[53712134] = SmallTreasure()
 froststoneVault.nodes[56505366] = SmallTreasure()
 
 dragonskullIsland.nodes[42454551] = SmallTreasure()
+dragonskullIsland.nodes[69933512] = SmallTreasure()
 
 -------------------------------- MISCELLANEOUS --------------------------------
 
