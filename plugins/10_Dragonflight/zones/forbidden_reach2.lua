@@ -526,6 +526,7 @@ local SmallTreasure = Class('SmallTreasure', Collectible, {
 map.nodes[17935425] = SmallTreasure()
 map.nodes[29704826] = SmallTreasure()
 map.nodes[33124319] = SmallTreasure()
+map.nodes[39056332] = SmallTreasure()
 map.nodes[40314192] = SmallTreasure()
 map.nodes[42045105] = SmallTreasure()
 map.nodes[44055921] = SmallTreasure()
