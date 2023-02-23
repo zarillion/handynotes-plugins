@@ -472,6 +472,7 @@ map.nodes[41154445] = ForbiddenHoard({
         POI({41184350}) -- Entrance
     }
 })
+map.nodes[58003875] = ForbiddenHoard()
 map.nodes[50733679] = ForbiddenHoard({
     sublabel = L['in_small_cave'],
     pois = {
@@ -891,13 +892,7 @@ map.nodes[49426006] = Dragonrace({
 ------------------------ FROSTSTONE VAULT PRIMAL STORM ------------------------
 -------------------------------------------------------------------------------
 
-local FROSTSTONE_VAULT_PRIMAL_STORM_AREA_POIS = {
-    [7409] = 'earth',
-    [7410] = 'fire',
-    [7411] = 'water'
-}
-
-local FROSTSTONE_VAULT_PRIMAL_STORM_REWARDS = {
+local FSV_PS = {
     ['all'] = {
         Achievement({
             id = 17540,
@@ -908,32 +903,37 @@ local FROSTSTONE_VAULT_PRIMAL_STORM_REWARDS = {
                 58570 -- Water
             }
         }), -- Under the Weather
+        Item({item = 199749, quest = 70753}), -- Primal Air Core
         Item({item = 199691, quest = 70723}), -- Primal Earth Core
         Item({item = 199750, quest = 70754}), -- Primal Fire Core
         Item({item = 199748, quest = 70752}) -- Primal Water Core
     },
-    ['earth'] = {
+    [7408] = {
+        Achievement({id = 17540, criteria = 58567}), -- Under the Weather
+        Spacer(), Item({item = 199749, quest = 70753}) -- Primal Air Core
+    }, -- Air
+    [7409] = {
         Achievement({id = 17540, criteria = 58568}), -- Under the Weather
         Spacer(), Item({item = 199691, quest = 70723}) -- Primal Earth Core
-    },
-    ['fire'] = {
+    }, -- Earth
+    [7410] = {
         Achievement({id = 17540, criteria = 58569}), -- Under the Weather
         Spacer(), Item({item = 199750, quest = 70754}) -- Primal Fire Core
-    },
-    ['water'] = {
+    }, -- Fire
+    [7411] = {
         Achievement({id = 17540, criteria = 58570}), -- Under the Weather
         Spacer(), Item({item = 199748, quest = 70752}) -- Primal Water Core
-    }
+    } -- Water
 }
 
 local FroststoneVaultPrimalStorm = Class('FroststoneVaultPrimalStorm',
     Collectible, {
         label = L['froststone_vault_storm_label'],
         icon = 463562,
-        areaPOIs = {7409, 7410, 7411},
+        areaPOIs = {7408, 7409, 7410, 7411},
         mapID = map.id,
         group = ns.groups.FROSTSTONE_VAULT_STORM,
-        rewards = FROSTSTONE_VAULT_PRIMAL_STORM_REWARDS['all'],
+        rewards = FSV_PS['all'],
         IsEnabled = function(self)
             local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
             local possiblePOIs = self.areaPOIs
@@ -954,20 +954,15 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
     if self and self.areaPoiID then
         local mapID = self:GetMap().mapID
         local group = ns.groups.FROSTSTONE_VAULT_STORM
-        local stormType =
-            FROSTSTONE_VAULT_PRIMAL_STORM_AREA_POIS[self.areaPoiID]
-
-        if FROSTSTONE_VAULT_PRIMAL_STORM_AREA_POIS[mapID] then
-            if stormType and group:GetDisplay(mapID) then
-                local rewards = FROSTSTONE_VAULT_PRIMAL_STORM_REWARDS[stormType]
-                GameTooltip:AddLine(' ')
-                for i, reward in ipairs(rewards) do
-                    if reward:IsEnabled() then
-                        reward:Render(GameTooltip)
-                    end
+        if FSV_PS[self.areaPoiID] and group:GetDisplay(mapID) then
+            local rewards = FSV_PS[self.areaPoiID]
+            GameTooltip:AddLine(' ')
+            for i, reward in ipairs(rewards) do
+                if reward:IsEnabled() then
+                    reward:Render(GameTooltip)
                 end
-                GameTooltip:Show()
             end
+            GameTooltip:Show()
         end
     end
 end)
