@@ -229,7 +229,7 @@ L['vespers_ascended_note'] = 'Haz click en la campana de vísperas al mismo tiem
 L['options_icons_vespers'] = '{achievement:14734}'
 L['options_icons_vespers_desc'] = 'Muestra dónde están las campanas para el logro {achievement:14734}.'
 
-L['anima_shard'] = 'Fragmento de Ánima Perdido'
+L['anima_shard'] = 'Fragmento de Cristal de Ánima'
 L['anima_shard_61225'] = 'En un piso por debajo del puente.'
 L['anima_shard_61235'] = 'En una repisa a medio salto de la cascada.'
 L['anima_shard_61236'] = 'Sobre un arco enmedio de la estructura principal.'
@@ -275,18 +275,18 @@ L['anima_shard_61292'] = 'Sobre un arco de piedra.'
 L['anima_shard_61293'] = 'Sobre una fina columna de piedra en el nivel inferior.'
 L['anima_shard_61294'] = 'Oculta detrás de una pila de barriles.'
 L['anima_shard_61295'] = 'Detrás de la {npc:156889}, en una estantería.'
-L['anima_shard_61296'] = 'Junto a una campana caida grande.\n\n{note:Dentro de la mazmorra Estela Necrótica.}'
-L['anima_shard_61297'] = 'Detrás de un pilar de piedra.\n\n{note:Dentro de la mazmorra Estela Necrótica.}'
+L['anima_shard_61296'] = 'Junto a una campana caida grande.\n\n{note:Dentro de la mazmorra {location:Estela Necrótica}.}'
+L['anima_shard_61297'] = 'Detrás de un pilar de piedra.\n\n{note:Dentro de la mazmorra {location:Estela Necrótica}.}'
 L['anima_shard_61298'] = 'Detrás de un sillón.'
 L['anima_shard_61299'] = 'Oculta detrás de una gran antorcha junto al ángel.'
 L['anima_shard_61300'] = 'En una repisa sobre la fuente central justo detrás de los ángeles.'
 L['anima_shard_spires'] = 'Tres fragmentos están dentro de la mazmorra {location:Agujas de Ascensión}.'
 L['options_icons_anima_shard'] = '{achievement:14339}'
-L['options_icons_anima_shard_desc'] = 'Muestra dónde están los 50 fragmentos de cristal de ánima perdidos para el logro {achievement:14339}.'
+L['options_icons_anima_shard_desc'] = 'Muestra dónde están los 50x {object:Fragmento de Cristal de Ánima} para el logro {achievement:14339}.'
 
-L['hymn_note'] = 'Localiza los himnos en cada uno de los templos y consigue sus buffs para conseguir el logro.'
+L['hymn_note'] = 'Localiza los {object:Himno} en cada uno de los templos y consigue sus buffs para conseguir el logro.'
 L['options_icons_hymns'] = '{achievement:14768}'
-L['options_icons_hymns_desc'] = 'Muestra dónde están los himnos para el logro {achievement:14768}.'
+L['options_icons_hymns_desc'] = 'Muestra dónde están los {object:Himno} para el logro {achievement:14768}.'
 
 L['stratios_note'] = 'Incluso las pequeñas batallas se deben librar con honor y cuidado. Presenta a tu equipo cuando lo tengas todo listo.'
 L['thenia_note'] = 'Qué llanuras más maravillosas. Un lugar glorioso para combatir. ¿Listo?'
@@ -318,10 +318,10 @@ L['sl_limited_rare'] = '{note:Este raro no está disponible algunos días.}'
 L['krelva_note'] = 'Se mueve a otra plataforma al 80%, entonces se mueve al suelo al 60%. {note:¡Has de darle al boss después del 60% para que te cuente!}'
 L['kroke_note'] = 'Mata a los {npc:179029} de la zona hasta que aparezca. No puede aparecer los días que no estén los {npc:179029}.'
 L['maelie_wanderer'] = '{npc:179912} aparecerá en varios sitios durante el día. Una vez se haya usado {spell:355862} en ella 6 días distintos hay que volver con {npc:179930} para aprender la montura.'
-L['malbog_note'] = 'Habla con el {npc:179729} para conseguir {spell:355078} y seguir las huellas de pisadas hasta encontrar los restos carnosos.'
+L['malbog_note'] = 'Habla con el {npc:179729} para conseguir {spell:355078} y seguir las huellas de pisadas hasta encontrar los {object:Restos Carnosos}.'
 L['offering_box_note'] = 'Requiere una {item:187033} que se puede encontrar en la parte superior de la pared del lado oeste de las ruinas cercanas.'
 L['pop_quiz_note'] = 'El evento del Cuestionario aparecerá aleatoriamente en el mapa. Haz click en el {object:Bastón del Velo Abandonado} y responde a las preguntas de {npc:180162}.'
-L['razorwing_note'] = 'Devuelve 10 {item:187054} soltados por los devoradores de la zona.'
+L['razorwing_note'] = 'Devuelve 10x {item:187054} soltados por los devoradores de la zona.'
 L['reliwik_note'] = 'Haz click en el {object:Huevo de Alafilada Prístino} para hacerlo bajar.'
 L['spectral_bound_chest'] = 'Cofre reforzado espectral'
 L['spectral_bound_note'] = 'Haz click en las 3 {item:179369} cercanas para debloquear el cofre.'
@@ -359,7 +359,7 @@ L['options_icons_rift_portal_desc'] = 'Muestra dónde están los {npc:179595} us
 L['riftbound_cache'] = 'Alijo Vinculafalla'
 L['riftbound_cache_note'] = 'Sólo pueden aparecer 4 alijos diferentes en un conjunto de sitios dentro de {location:La Falla.}'
 L['options_icons_riftbound_cache'] = 'Alijos Vinculafalla'
-L['options_icons_riftbound_cache_desc'] = 'Muestra dónde están los alijos dentro de {location:La Falla}.'
+L['options_icons_riftbound_cache_desc'] = 'Muestra dónde están los {object:Alijo Vinculafalla} dentro de {location:La Falla}.'
 
 L['invasive_mawshroom'] = 'Champifauces Invasivos'
 L['invasive_mawshroom_note'] = 'Sólo pueden aparecer 5 champifauces diferentes en un conjunto de sitios.'
@@ -374,12 +374,12 @@ L['unusual_nest_note'] = 'Todos los sitios con nidos se pueden despojar sólo 5 
 
 L['options_icons_invasive_mawshroom_desc'] = 'Muestra dónde están los {object:Champifauces Invasivos}.'
 L['options_icons_invasive_mawshroom'] = 'Champifauces Invasivos'
-L['options_icons_korthia_dailies_desc'] = 'Muestra dónde están los {object:Alijos de Reliquias sin marcar}.'
+L['options_icons_korthia_dailies_desc'] = 'Muestra dónde están los {object:Alijo de Reliquias sin Marcar}.'
 L['options_icons_korthia_dailies'] = 'Alijos de Reliquias'
-L['options_icons_mawsworn_cache_desc'] = 'Muestra dónde están los {object:Alijos jurafauces}.'
+L['options_icons_mawsworn_cache_desc'] = 'Muestra dónde están los {object:Alijo jurafauces}.'
 L['options_icons_mawsworn_cache'] = 'Alijos jurafauces'
-L['options_icons_nest_materials_desc'] = 'Muestra dónde están los {object:Nidos de Materiales Inusuales}.'
-L['options_icons_nest_materials'] = 'Nidos de Materiales Inusuales'
+L['options_icons_nest_materials_desc'] = 'Muestra dónde están los {object:Nido de Materiales Inusuales}.'
+L['options_icons_nest_materials'] = 'Nido de Materiales Inusuales'
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -540,12 +540,12 @@ L['forgotten_anglers_rod'] = 'Caña de Pescador Olvidada'
 L['loyal_gorger_note'] = 'Visita el {location:Cenagal del Fin} y completa una misión diaria ofrecida por el {npc:173498} 7 veces para conseguirlo como montura.'
 
 L['sinrunner_note'] = 'Lleva comida y suministros a {npc:173468} durante seis días para conseguir sus riendas. Sólo aparece durante unos pocos minutos hasta que vuelva a aparecer.'
-L['sinrunner_note_day1'] = 'Ofrece a {npc:173468} 8 {item:182581} que se pueden recoger en las granjas de {location:Páramos de Poniente}.'
+L['sinrunner_note_day1'] = 'Ofrece a {npc:173468} 8x {item:182581} que se pueden recoger en las granjas de {location:Páramos de Poniente}.'
 L['sinrunner_note_day2'] = 'Consigue un {item:182585} de {npc:173570} en {location:Refugioscuro} y úsalo para limpiar a {npc:173468}.'
-L['sinrunner_note_day3'] = 'Equipa a {npc:173468} con 4 {item:182595} que se pueden encontrar por los caminos que rodean {location:Refugioscuro}.'
+L['sinrunner_note_day3'] = 'Equipa a {npc:173468} con 4x {item:182595} que se pueden encontrar por los caminos que rodean {location:Refugioscuro}.'
 L['sinrunner_note_day4'] = 'Coge el {item:182620} cerca de {npc:173570} y llénalo con agua en {location:Bastión} o {location:Ardenweald}. Llévale a {npc:173468} el {item:182599}.'
 L['sinrunner_note_day5'] = 'Equipa a {npc:173468} con una {item:182597}, vendida por {npc:171808} cerca del {location:Mercado Nocturno} a cambio de varias carnes.'
-L['sinrunner_note_day6'] = 'Alimenta a {npc:173468} con 3 {item:179271}, vendidas por {npc:167815} que está en {location:Agujero en la Pared}.'
+L['sinrunner_note_day6'] = 'Alimenta a {npc:173468} con 3x {item:179271}, vendidas por {npc:167815} que está en {location:Agujero en la Pared}.'
 
 L['options_icons_carriages'] = 'Carruajes'
 L['options_icons_carriages_desc'] = 'Muestra dónde están los caminos y los posibles carruajes que se pueden llevar.'
@@ -562,11 +562,11 @@ L['avowed_ritualist_note'] = 'Trae aquí las {npc:160149} cercanas para absolver
 L['fugitive_soul_note'] = 'Trae las {npc:160149} a una {npc:166150} cercana para comenzar el ritual de absolución.'
 L['souls_absolved'] = 'almas absueltas'
 L['options_icons_fugitives'] = '{achievement:14274}'
-L['options_icons_fugitives_desc'] = 'Muestra dónde están las almas fugitivas para el logro {achievement:14274}.'
+L['options_icons_fugitives_desc'] = 'Muestra dónde están las {npc:160149} para el logro {achievement:14274}.'
 
-L['grand_inquisitor_note'] = 'Entrega 10 {item:180451} al {npc:160248} para tener una oportunidad en esta piedra del pecado.'
-L['high_inquisitor_note'] = 'Entrega 250 {currency:1816} al {npc:160248} para tener una oportunidad en esta piedra del pecado.'
-L['inquisitor_note'] = 'Entrega 100 {currency:1816} al {npc:160248} para tener una oportunidad en esta piedra del pecado.'
+L['grand_inquisitor_note'] = 'Entrega 10x {item:180451} al {npc:160248} para tener una oportunidad en esta piedra del pecado.'
+L['high_inquisitor_note'] = 'Entrega 250x {currency:1816} al {npc:160248} para tener una oportunidad en esta piedra del pecado.'
+L['inquisitor_note'] = 'Entrega 100x {currency:1816} al {npc:160248} para tener una oportunidad en esta piedra del pecado.'
 L['options_icons_inquisitors'] = 'Inquisidores'
 L['options_icons_inquisitors_desc'] = 'Muestra dónde están los inquisidores para el logro {achievement:14276}.'
 
@@ -575,7 +575,28 @@ L['atonement_crypt_label'] = 'Cripta de Expiación'
 L['atonement_crypt_note'] = 'Abre una {object:Puerta de Cripta} usando una {item:172957}.'
 L['atonement_crypts_opened'] = 'Criptas de Expiación abiertas'
 L['atonement_crypt_key_label'] = '{item:172957}'
-L['atonement_crypt_key_note'] = '{item:172957} puede caer como botín de los enemigos en el área de las {location:Criptas de Expiación} area.\n\n{npc:158902}\n{npc:176109}\n{npc:158894}\n{npc:156911}\n{npc:158910}\n{npc:176121}\n{npc:176114}\n{npc:156909}\n{npc:156256}\n{npc:176124}\n{npc:156260}\n{npc:159027}\n{npc:158897}\n{npc:176116}\n{npc:158908}\n{npc:176122}\n\nLas mayores probabilidades las tiene {npc:158892}.'
+L['atonement_crypt_key_note'] = [[
+{item:172957} puede caer como botín de los enemigos en el área de las {location:Criptas de Expiación} area.
+
+{npc:158902}
+{npc:176109}
+{npc:158894}
+{npc:156911}
+{npc:158910}
+{npc:176121}
+{npc:176114}
+{npc:156909}
+{npc:156256}
+{npc:176124}
+{npc:156260}
+{npc:159027}
+{npc:158897}
+{npc:176116}
+{npc:158908}
+{npc:176122}
+
+Las mayores probabilidades las tiene {npc:158892}.
+]]
 L['options_icons_crypt_kicker'] = '{achievement:14273}'
 L['options_icons_crypt_kicker_desc'] = 'Muestra dónde están las criptas para el logro {achievement:14273}.'
 
@@ -589,7 +610,7 @@ L['broken_mirror_61818'] = 'En una habitación pequeña con {npc:173699}.'
 L['broken_mirror_61819'] = 'En una habitación pequeña en el piso inferior.'
 L['broken_mirror_61827'] = 'En una habitación pequeña.'
 L['options_icons_broken_mirror'] = 'Espejos Rotos'
-L['options_icons_broken_mirror_desc'] = 'Muestra dónde están los espejos rotos.'
+L['options_icons_broken_mirror_desc'] = 'Muestra dónde están los {object:Espejo Roto}.'
 
 L['soulshape_chicken_note'] = [[
 1. Recoge {item:187811} de {location:Refugioscuro}.
@@ -731,22 +752,22 @@ L['nexus_misc_three_chains'] = 'En el suelo, cerca de tres cadenas'
 L['stolen_anima_vessel'] = 'Receptáculo de Ánima Robado'
 L['hidden_anima_cache'] = 'Alijo de Ánima Oculto'
 L['options_icons_anima_vessel'] = 'Receptáculos de Ánima Robados'
-L['options_icons_anima_vessel_desc'] = 'Muestra dónde están los receptáculos de ánima durante los asaltos y dentro de {location:La Falla}.'
+L['options_icons_anima_vessel_desc'] = 'Muestra dónde están los {object:Receptáculos de Ánima Robado} durante los asaltos y dentro de {location:La Falla}.'
 
 L['rift_hidden_cache'] = 'Alijo Oculto de Falla'
 L['options_icons_rift_hidden_cache'] = 'Alijos Ocultos de Falla'
-L['options_icons_rift_hidden_cache_desc'] = 'Muestra donde están los alijos dentro de {location:La Falla}.'
+L['options_icons_rift_hidden_cache_desc'] = 'Muestra donde están los {object:Alijo Oculto de Falla} dentro de {location:La Falla}.'
 
 L['options_icons_bonus_boss'] = 'Élites de Bonificación'
 L['options_icons_bonus_boss_desc'] = 'Muestra dónde están los élites de bonificación.'
 L['options_icons_riftstone'] = '{npc:174962}'
-L['options_icons_riftstone_desc'] = 'Muestra dónde están los teletransportadores de piedras de falla caóticas.'
+L['options_icons_riftstone_desc'] = 'Muestra dónde están los teletransportadores de {object:Piedra de Falla Caótica}.'
 L['options_icons_grapples'] = '{npc:176308}'
-L['options_icons_grapples_desc'] = 'Muestra dónde están los agarres de la mejora {item:184653}.'
+L['options_icons_grapples_desc'] = 'Muestra dónde están los {npc:176308} de la mejora {item:184653}.'
 L['options_icons_stygia_nexus'] = 'Nexos de Stigia'
-L['options_icons_stygia_nexus_desc'] = 'Muestra dónde están los Nexos necesarios para la montura {item:184168}.'
+L['options_icons_stygia_nexus_desc'] = 'Muestra dónde están los {object:Nexo de Stigia} necesarios para la montura {item:184168}.'
 L['options_icons_stygian_caches'] = 'Alijos de Estigia'
-L['options_icons_stygian_caches_desc'] = 'Muestra dónde están los alijos con Estigia extra.'
+L['options_icons_stygian_caches_desc'] = 'Muestra dónde están los {object:Alijo de Estigia} con cantidad extra.'
 
 L['cov_assault_only'] = 'Disponible sólo durante el asalto de %s.'
 
@@ -782,7 +803,7 @@ L['tormentors'] = 'Torturadores de Torghast'
 L['tormentors_note'] = [[
 Los eventos de torturadores aparecen cada 2 horas impares en punto. Aparecerán siempre en el orden listado abajo.
 
-El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1906}.
+El {item:185972} se puede despojar una vez a la semana y contiene 50x {currency:1906}.
 ]]
 
 L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
@@ -801,13 +822,13 @@ L['assault_sublabel_AS'] = 'Los asaltos cambian los Jueves a las 8 AM KST y los 
 
 L['necrolord_assault'] = '{quest:63543}'
 L['necrolord_assault_note'] = 'El {item:185992} sólo se puede conseguir una vez por asalto.'
-L['necrolord_assault_quantity_note'] = 'Alijos Jurafauces abiertos.'
+L['necrolord_assault_quantity_note'] = '{object:Alijo Jurafauces} abiertos.'
 L['venthyr_assault'] = '{quest:63822}'
 L['venthyr_assault_note'] = 'El {item:185990} sólo se puede conseguir una vez por asalto.'
 L['venthyr_assault_quantity_note'] = 'Objetos usados.'
 L['night_fae_assault'] = '{quest:63823}'
 L['night_fae_assault_note'] = 'El {item:185991} sólo se puede conseguir una vez por asalto.'
-L['night_fae_assault_quantity_note'] = 'Alijos Ocultos de Falla abiertos.'
+L['night_fae_assault_quantity_note'] = '{object:Alijo Oculto de Falla} abiertos.'
 L['kyrian_assault'] = '{quest:63824}'
 L['kyrian_assault_note'] = 'El {item:185993} sólo se puede conseguir una vez por asalto.'
 L['kyrian_assault_quantity_note1'] = '{npc:179096} encontrado.'
@@ -820,7 +841,7 @@ L['kyrian_assault_quantity_note2'] = 'Teclea {emote:/dance} cerca de las forjas.
 L['torghast_the_tower_of_the_damned'] = 'Torghast, la Torre de los Condenados'
 L['torghast_reward_sublabel'] = '|cFFFF8C00Recompensas compartidas entre muchas alas|r'
 L['torghast_boss_note'] = 'Soltado por varios bosses a lo largo de {location:Torghast, la Torre de los Condenados}.'
-L['torghast_vendor_note'] = 'Vendido por {npc:152594} y {npc:170257} por 300 {currency:1728} o 1.000 {currency:1728}.'
+L['torghast_vendor_note'] = 'Vendido por {npc:152594} y {npc:170257} por 300x {currency:1728} o 1.000x {currency:1728}.'
 L['torghast_reward_note'] = 'Ganado a lo largo de {location:Torghast, la Torre de los Condenados}.'
 L['torghast_soulshape_note'] = 'Capa 12+'
 L['colossal_umbrahide_mawrat_note'] = 'Capa 13+'
@@ -865,9 +886,9 @@ Para acceder a la {location:Alcoba %s} tienes que:
 
 1. Completar el capítulo 6 de la campaña de {location:Zereth Mortis}.
 2. Encontrar la {location:Disposición de la Casa %s} %s.
-3. En las {location:Cumbres Resonantes}, matar enemigos que estén {spell:362651} o quedarse de pie en el círculo blanco hasta llegar a 60 de {npc:183569}.
-4. Usar el {npc:184329} que hay en el {location:Reposo Grávido} para acceder al {location:Enclave Interior}. (Requiere 30 de {npc:183569})
-5. Usar un {npc:184485} diferente para acceder a la {location:Alcoba %s}. (Requiere 30 de {npc:183569})
+3. En las {location:Cumbres Resonantes}, matar enemigos que estén {spell:362651} o quedarse de pie en el círculo blanco hasta llegar a 60 acumulaciones de {npc:183569}.
+4. Usar el {npc:184329} que hay en el {location:Reposo Grávido} para acceder al {location:Enclave Interior}. (Requiere 30x {npc:183569})
+5. Usar un {npc:184485} diferente para acceder a la {location:Alcoba %s}. (Requiere 30x {npc:183569})
 ]]
 
 L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Combada', 'Combada', 'detrás del edificio en el {location:Enclave Ultimus}', 'Combada')
@@ -1038,7 +1059,7 @@ L['misaligned_enforcer_note'] = 'Aparece aquí. Patrulla la zona y entonces desa
 L['overcharged_vespoid_note'] = 'Puede aparecer como parte de una multitud de la zona.'
 L['runethief_xylora_note'] = 'Aparece en sigilo en la zona de {location:Gracia del Peregrino}.'
 
-local proto_area = 'Probabilidad de ser encontrado en las forjas alrededor de {location:%s}.'
+local proto_area = 'Probabilidad de ser encontrado en las forjas alrededor de {object:%s}.'
 L['proto_material_zone_chance'] = 'Probabilidad de ser encontrado en forjas seleccionadas por toda la zona.'
 L['anima_charged_yolk_note'] = 'Recoge {item:187728} de cualquier forja y combínalas para un {item:187787}, el cual tiene probabilidad de contener {item:187890}.'
 L['energized_firmament_note'] = string.format(proto_area, 'Cúspides Resonantes')
@@ -1078,7 +1099,7 @@ L['venaris_fate_note'] = [[
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Muestra dónde están las criaturas para el logro {achievement:15211}.'
 L['options_icons_concordances'] = 'Concordancias de Conocimiento'
-L['options_icons_concordances_desc'] = 'Muestra dónde están las consolas de las concordancias de conocimiento.'
+L['options_icons_concordances_desc'] = 'Muestra dónde están las consolas de {object:Concordancias de Conocimiento}.'
 L['options_icons_echoed_jiros'] = 'Jiro en Eco'
 L['options_icons_echoed_jiros_desc'] = 'Muestra dónde están los {object:Jiro en Eco} que dan bufos.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
@@ -1088,12 +1109,12 @@ L['options_icons_proto_materials_desc'] = 'Muestra dónde están los materiales 
 L['options_icons_protoform_schematics'] = 'Esquemas de Protoforma'
 L['options_icons_protoform_schematics_desc'] = 'Muestra dónde están los esquemas de monturas y mascotas.'
 L['options_icons_puzzle_caches'] = 'Alijos Puzzles'
-L['options_icons_puzzle_caches_desc'] = 'Muestra dónde están los sitios posibles para los alijos puzzle.'
+L['options_icons_puzzle_caches_desc'] = 'Muestra dónde están los sitios posibles para los {object:Alijo Puzzle}.'
 L['options_icons_zereth_caches'] = 'Cofres con Clave'
-L['options_icons_zereth_caches_desc'] = 'Muestra dónde están los sitios posibles para los cofres con clave.'
+L['options_icons_zereth_caches_desc'] = 'Muestra dónde están los sitios posibles para los {object:Cofre con Clave}.'
 L['options_icons_shrouded_cyphers'] = 'Alijos de claves camuflado'
-L['options_icons_shrouded_cyphers_desc'] = 'Muestra dónde están los sitios posibles para los alijos de claves camuflado.'
+L['options_icons_shrouded_cyphers_desc'] = 'Muestra dónde están los sitios posibles para los {object:Alijo de Claves Camuflado}.'
 L['options_icons_mawsworn_supply_cache'] = 'Cofres de Suministros Jurafauces'
-L['options_icons_mawsworn_supply_cache_desc'] = 'Muestra dónde están los sitios posibles para los cofres de suministros Jurafauces.'
+L['options_icons_mawsworn_supply_cache_desc'] = 'Muestra dónde están los sitios posibles para los {object:Cofre de Suministros Jurafauces}.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Muestra dónde están los Automas salvajes que controlar para el logro {achievement:15542}.'
