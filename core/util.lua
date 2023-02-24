@@ -4,10 +4,7 @@ local ADDON_NAME, ns = ...
 ------------------------------ DATAMINE TOOLTIP -------------------------------
 -------------------------------------------------------------------------------
 
-local NameResolver = {
-    cache = {},
-    prepared = {}
-}
+local NameResolver = {cache = {}, prepared = {}}
 
 function NameResolver:IsLink(link)
     if link == nil then return link end
