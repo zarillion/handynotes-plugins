@@ -55,7 +55,7 @@ L['iron_horde_supplies_treasure'] = 'Suministros de la Horda de Hierro'
 L['lady_senas_materials_stash_treasure'] = 'Alijo de Materiales de Lady Sena'
 L['lady_senas_other_materials_stash_treasure'] = 'Alijo de Otros Materiales de Lady Sena'
 L['lagoon_pool_treasure'] = 'Poza de Laguna'
-L['lagoon_pool_treasure_note'] = 'Pesca en la Poza de Laguna.'
+L['lagoon_pool_treasure_note'] = 'Pesca en la {object:Poza de Laguna}.'
 L['lucky_coin_treasure'] = 'Moneda de la Suerte'
 L['obsidian_petroglyph_treasure'] = 'Petroglifo Obsidiana'
 L['ogre_booty_treasure'] = 'Botín Ogro'
@@ -93,14 +93,14 @@ L['delectable_ogre_delicacies_note'] = [[
 ]]
 
 L['weaponsmith_na_shra_follower_note'] = 'Completa la misión {quest:33838} para reclutarla como seguidora.'
-L['dagg_follower_note'] = 'Rescata a {npc:79607} de la primera jaula y después rescátalo de nuevo de la segunda jaula. Lo encontrarás fuera de tu Ciudadela para reclutarlo como seguidor.'
+L['dagg_follower_note'] = 'Rescata a {npc:79607} de la primera jaula y después rescátalo de nuevo de la segunda jaula. Lo encontrarás fuera de tu {location:Ciudadela} para reclutarlo como seguidor.'
 L['shadow_hunter_rala_follower_note'] = 'Completa la misión {quest:34348} para reclutarlo como seguidor.'
 L['gronnstalker_rokash_follower_note'] = 'Completa la misión {quest:32981} para reclutarlo como seguidor.'
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
-L['options_icons_writing_in_the_snow_desc'] = 'Muestra dónde están las páginas de |cffffff00Diario Ajado|r para el logro {achievement:9531}.'
+L['options_icons_writing_in_the_snow_desc'] = 'Muestra dónde están las páginas del {object:Diario Ajado} para el logro {achievement:9531}.'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = 'Muestra dónde están los |cffffff00Esclavo Congelado|r y las |cffffff00Jaula de Prisionero|r para el logro {achievement:9533}.'
+L['options_icons_breaker_of_chains_desc'] = 'Muestra dónde están los {npc:82680} y las {object:Jaula de Prisionero} para el logro {achievement:9533}.'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
 L['options_icons_delectable_ogre_delicacies_desc'] = 'Muestra dónde están las delicias para el logro {achievement:9534}.'
 
@@ -109,8 +109,8 @@ L['options_icons_delectable_ogre_delicacies_desc'] = 'Muestra dónde están las 
 -------------------------------------------------------------------------------
 
 L['poundfist_note'] = 'Tiene una reaparición larga de entre 50 y 90 horas.'
-L['trophy_of_glory_note'] = 'Has de acabar de construir tu Edificio de Avanzada de la Ciudadela en Gorgrond para conseguir que caigan los objetos de misión.'
-L['roardan_sky_terror_note'] = 'Vuela alrededor de Madreselva y de Avanzada de las Bestias haciendo 3 paradas en el camino.'
+L['trophy_of_glory_note'] = 'Has de acabar de construir tu {location:Edificio de Avanzada de la Ciudadela} en {location:Gorgrond} para conseguir que caigan los objetos de misión.'
+L['roardan_sky_terror_note'] = 'Vuela alrededor de {location:Madreselva} y de {location:Avanzada de las Bestias} haciendo 3 paradas en el camino.'
 
 L['attack_plans_treasure'] = 'Órdenes de Ataque de la Horda de Hierro'
 L['brokors_sack_treasure'] = 'Bolsa de Brokor'
@@ -135,16 +135,16 @@ L['stashed_emergency_rucksack_treasure'] = 'Mochila de Emergencia Oculta'
 L['strange_looking_dagger_treasure'] = 'Daga de Apariencia Rara'
 L['suntouched_spear_treasure'] = 'Lanza Toquesol'
 L['vindicators_hammer_treasure'] = 'Martillo de Vindicador'
-L['warm_goren_egg_note'] = 'El {item:118705} tras incubar 7 días se convierte en {item:118716}.'
+L['warm_goren_egg_note'] = 'Tras incubar el {item:118705} durante 7 días se convierte en {item:118716}.'
 L['warm_goren_egg_treasure'] = 'Huevo de Goren Caliente'
 L['weapons_cache_treasure'] = 'Alijo de Armas'
 
 L['ninja_pepe_note'] = 'Posado en una silla que hay dentro de la choza.'
 L['ninja_pepe_treasure'] = 'Pepe Ninja'
 
-L['protectors_of_the_grove_sublabel'] = '|cffffff00{npc:86259}|r, |cffffff00{npc:86258}|r, y |cffffff00{npc:86257}|r forman los |cffffff00Protectores de la Arboleda|r.'
+L['protectors_of_the_grove_sublabel'] = '{npc:86259}, {npc:86258}, y {npc:86257} forman los {npc:Protectores de la Arboleda}.'
 
-L['prove_your_strength_note'] = 'Requiere que la habilidad {spell:164012} de la ciudadela esté activa. Para activar la |cffffff00Arena de Entrenamiento|r visita tu edificio de avanzada de facción.'
+L['prove_your_strength_note'] = 'Requiere que la habilidad {spell:164012} de la ciudadela esté activa. Para activar la {location:Arena de Entrenamiento} visita tu edificio de avanzada de facción.'
 L['prove_your_strength_drop_single'] = 'Botín de %s.'
 L['prove_your_strength_drop_double'] = 'Botín de %s y %s.'
 
@@ -152,7 +152,7 @@ L['tormmok_follower_note'] = 'Primero aparece como ' .. ns.color.Red('Hostil') .
 L['blook_follower_note'] = 'Habla con él, lucha contra él, véncelo, y habla de nuevo con él para reclutarlo como seguidor.'
 
 L['options_icons_attack_plans'] = '{achievement:9656}'
-L['options_icons_attack_plans_desc'] = 'Muestra dónde están las Órdenes de Ataque de la Horda de Hierro para el logro {achievement:9656}.'
+L['options_icons_attack_plans_desc'] = 'Muestra dónde están las {object:Órdenes de Ataque de la Horda de Hierro} para el logro {achievement:9656}.'
 L['options_icons_ancient_no_more'] = '{achievement:9678}'
 L['options_icons_ancient_no_more_desc'] = 'Muestra dónde están los raros para el logro {achievement:9678}.'
 L['options_icons_fight_the_power'] = '{achievement:9655}'
@@ -167,8 +167,8 @@ L['options_icons_prove_your_strength_desc'] = 'Muestra dónde están los botines
 L['fangler_note'] = 'Usa la caña de pescar.'
 L['berserk_t_300_series_mark_ii_note'] = 'Usa el interruptor.'
 L['graveltooth_note'] = 'Mata {npc:84255} hasta que aparezca {npc:84263}.'
-L['gorepetal_note'] = 'En una cueva.\n\nNo se muestra en el minimapa. Haz click en el Lirio Prístino para hacer aparecer a {npc:83509}.'
-L['sean_whitesea_note'] = 'Abre el Cofre Abandonado para que aparezca el {npc:83542}.'
+L['gorepetal_note'] = 'En una cueva.\n\nNo se muestra en el minimapa. Haz click en el {object:Lirio Prístino} para hacer aparecer a {npc:83509}.'
+L['sean_whitesea_note'] = 'Abre el {object:Cofre Abandonado} para que aparezca el {npc:83542}.'
 
 L['a_pile_of_dirt_treasure'] = 'Un Montón de Tierra'
 L['abandoned_cargo_treasure'] = 'Cargamento Abandonado'
@@ -180,7 +180,7 @@ L['adventurers_staff_treasure'] = 'Bastón del Aventurero'
 L['appropriated_warsong_supplies_treasure'] = 'Suministros Grito de Guerra Adueñados'
 L['bag_of_herbs_treasure'] = 'Bolsa de Hierbas'
 L['bone_carved_dagger_treasure'] = 'Daga de Hueso Tallado'
-L['bounty_of_the_elements_note'] = 'Haz click en los Tótems en el orden siguiente:\n 1. {npc:84307}\n 2. {npc:84343}\n 3. {npc:84345}\n 4. {npc:84347}'
+L['bounty_of_the_elements_note'] = 'Haz click en los {object:Tótem} en el orden siguiente:\n 1. {npc:84307}\n 2. {npc:84343}\n 3. {npc:84345}\n 4. {npc:84347}'
 L['bounty_of_the_elements_treasure'] = 'Recompensa de los Elementos'
 L['brilliant_dreampetal_treasure'] = 'Pétalo de Ensueño Luminoso'
 L['elemental_offering_treasure'] = 'Ofrenda Elemental'
@@ -222,28 +222,28 @@ L['spirit_coffer_treasure'] = 'Arca de espíritus'
 L['spirits_gift_treasure'] = 'Regalo de Espíritu'
 L['spirits_gift_treasure_note'] = 'Enciende los 6 blandones olvidados para hacer aparecer el tesoro.'
 
-L['viking_pepe_note'] = 'Posado en una caja detrás de unos goblins con una Bola de Discoteca.'
+L['viking_pepe_note'] = 'Posado en una caja detrás de unos goblins con una {object:Bola de Discoteca}.'
 L['viking_pepe_treasure'] = 'Pepe Vikingo'
 
 L['highmaul_farm_path'] = [[
 Ruta de Farmeo
-1. Comienza en la puerta principal y gira a la derecha dentro de |cffffff00Los Bajos Fondos|r.
+1. Comienza en la puerta principal y gira a la derecha dentro de {location:Los Bajos Fondos}.
 2. Ves a la izquierda a través del foso de gladiadores de la zona. Asegúrate de elegir como objetivo al ogro que está en la parte superior izquierda.
 3. Continúa subiendo las escaleras y pasa la charca con {npc:87227}.
-4. Gira a la izquierda dentro de la |cffffff00Senda de los Vencedores|r.
+4. Gira a la izquierda dentro de la {location:Senda de los Vencedores}.
 5. Sube a la bifurcación del camino. Asegúrate de elegir como objetivo al ogro de la derecha.
-6. Gira a la izquierda en el |cffffff00Distrito del Mercado|r y mátalo todo moviéndote en sentido contrario a las agujas del reloj.
-7. Ves a la izquierda dentro del |cffffff00Beneplácito del Imperador|r, continúa siguiendo el camino y matándolo todo.
-8. A la izquierda de nuevo, baja el camino, y regresa a la |cffffff00Senda de los Vencedores|r.
-9. Monta y vuela hacia arriba, por encima de |cffffff00El Coliseo|r. No intentes usar la puerta principal, está cerrada.
+6. Gira a la izquierda en el {location:Distrito del Mercado} y mátalo todo moviéndote en sentido contrario a las agujas del reloj.
+7. Ves a la izquierda dentro del {location:Beneplácito del Imperador}, continúa siguiendo el camino y matándolo todo.
+8. A la izquierda de nuevo, baja el camino, y regresa a la {location:Senda de los Vencedores}.
+9. Monta y vuela hacia arriba, por encima de {location:El Coliseo}. No intentes usar la puerta principal, está cerrada.
 
 Vuela fuera hacia la derecha y vuelve a la puerta principal. Una sola pasada lleva unos 4 minutos y cuando has vuelto a la puerta principal todo habrá reaparecido.
 ]]
 
-L['steamwheedle_note'] = 'Acumula {item:118099} y {item:118100} de los {npc:87223} y {npc:87222} alrededor de |cffffff00Ogrópolis|r. Entrega los objetos a {npc:87393} a cambio de reputación.'
+L['steamwheedle_note'] = 'Acumula {item:118099} y {item:118100} de los {npc:87223} y {npc:87222} alrededor de {location:Ogrópolis}. Entrega los objetos a {npc:87393} a cambio de reputación.'
 
 L['finding_your_waystones_label'] = '{achievement:9497}'
-L['finding_your_waystones_note'] = 'Acumula {item:117491} de los {npc:87223} y {npc:87222} alrededor de |cffffff00Ogrópolis|r.'
+L['finding_your_waystones_note'] = 'Acumula {item:117491} de los {npc:87223} y {npc:87222} alrededor de {location:Ogrópolis}.'
 L['ogre_waystones'] = 'piedra de puerta ogra despojada'
 
 L['signal_horn_note'] = 'Consigue los {item:120290} del {npc:86658} cercano y utiliza el {npc:87361} para invocar a {npc:87239} y a {npc:87344}.'
@@ -259,7 +259,7 @@ L['making_the_cut_note'] = 'Mientras {npc:88210} esté disponible mata a 15 ogro
 
 L['goldmane_follower_note'] = 'Mata a {npc:80080} que anda cerca y despoja la {item:111863} para abrir la jaula con el fin de reclutar a {npc:80083} como seguidor.'
 L['abugar_follower_note'] = [[
-Llévale 3 objetos de pesca encontrados alrededor de |cffffff00Nagrand|r y entonces habla con él para reclutarlo como seguidor.
+Llévale 3 objetos de pesca encontrados alrededor de {location:Nagrand} y entonces habla con él para reclutarlo como seguidor.
 
 {item:114245}
 {item:114242}
@@ -273,7 +273,7 @@ L['options_icons_broke_back_precipice_desc'] = 'Muestra dónde están los raros 
 L['options_icons_steamwheedle'] = '{achievement:9472}'
 L['options_icons_steamwheedle_desc'] = 'Muestra dónde están los sitios de farmeo para el logro {achievement:9472}.'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
-L['options_icons_finding_your_waystones_desc'] = 'Muestra dlos sitios de farmeo para el logro {achievement:9497}.'
+L['options_icons_finding_your_waystones_desc'] = 'Muestra los sitios de farmeo para el logro {achievement:9497}.'
 L['options_icons_song_of_silence'] = '{achievement:9541}'
 L['options_icons_song_of_silence_desc'] = 'Muestra dónde están los raros para el logro {achievement:9541}.'
 L['options_icons_buried_treasures'] = '{achievement:9548}'
@@ -281,7 +281,7 @@ L['options_icons_buried_treasures_desc'] = 'Muestra dónde están los objetos pa
 L['options_icons_the_stable_master'] = '{achievement:9539} y {achievement:9540}'
 L['options_icons_the_stable_master_desc'] = 'Muestra dónde están los objetivos para los logros {achievement:9539} y {achievement:9540}.'
 L['options_icons_making_the_cut'] = '{achievement:9617}'
-L['options_icons_making_the_cut_desc'] = 'Muestra dónde están los |cffffff00Esclavista Anillo Sangriento|r para el logro {achievement:9617}.'
+L['options_icons_making_the_cut_desc'] = 'Muestra dónde están los {npc:88207} para el logro {achievement:9617}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------
