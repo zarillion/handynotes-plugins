@@ -46,16 +46,16 @@ L['options_icons_disturbed_dirt'] = 'Tierra Revuelta'
 L['options_icons_disturbed_dirt_desc'] = 'Muestrá dónde puede haber {object:Tierra Revuelta}.'
 
 L['scout_pack'] = 'Mochilas de Explorador de Expedición'
-L['options_icons_scout_pack'] = 'Mochilas de explorador de expedición'
+L['options_icons_scout_pack'] = 'Mochilas de Explorador de Expedición'
 L['options_icons_scout_pack_desc'] = 'Muestra dónde pueden haber {object:Mochilas de Explorador de Expedición}.'
 
-L['magicbound_chest'] = 'Cofre reforzado con magia'
-L['options_icons_magicbound_chest'] = 'Cofre reforzado con magia'
+L['magicbound_chest'] = 'Cofre Reforzado con Magia'
+L['options_icons_magicbound_chest'] = 'Cofres Reforzados con Magia'
 L['options_icons_magicbound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofres reforzados con magia}.'
 
-L['tuskarr_tacklebox'] = 'Caja de Pesca Colmillar'
-L['options_icons_tuskarr_tacklebox'] = 'Caja de Pesca Colmillar'
-L['options_icons_tuskarr_tacklebox_desc'] = 'Muestra dónde pueden haber {object:Cajas de Pesca Colmillar}.'
+L['tuskarr_tacklebox'] = 'Cajas de Pesca Colmillar'
+L['options_icons_tuskarr_tacklebox'] = 'Cajas de Pesca Colmillar'
+L['options_icons_tuskarr_tacklebox_desc'] = 'Muestra dónde pueden haber {object:Caja de Pesca Colmillar}.'
 
 L['dr_best'] = 'Tu mejor tiempo:\n - Normal: %.3fs\n - Avanzado: %.3fs\n - Inverso: %.3fs'
 L['dr_best_dash'] = 'Tu mejor tiempo:\n - %.3fs'
@@ -119,8 +119,8 @@ L['empowered_mobs_killed_suffix'] = 'Enemigo potenciado matado'
 L['elemental_storm_mythressa_note_start'] = 'Entrega {currency:2118} a cambio de equipo, mascotas, y una montura.'
 L['elemental_storm_mythressa_note_end'] = 'Actualmente tienes %s {currency:2118}.'
 
-L['options_icons_elemental_storm'] = '{spell:392768}'
-L['options_icons_elemental_storm_desc'] = 'Muestra las recompensas para las {spell:392768}.'
+L['options_icons_elemental_storm'] = 'Tormentas Elementales'
+L['options_icons_elemental_storm_desc'] = 'Muestra las recompensas para las Tormentas Elementales.'
 
 L['elusive_creature_note'] = 'Con un {object:Rango de Maestría 40/40} en {object:Fabricación de Cebos} activas el poder crear un {item:193906} que puede ser usado para invocar y desollar cada criatura una vez al día.'
 L['options_icons_elusive_creature'] = '{item:193906}'
@@ -223,12 +223,12 @@ Se puede hacer en solitario pero se recomiendan 2-3 jugadores.
 ]]
 
 L['tuskarr_chest'] = 'Cofre Colmillarr'
-L['options_icons_tuskarr_chest'] = 'Cofre Colmillarr'
-L['options_icons_tuskarr_chest_desc'] = 'Muestra dónde pueden haber {object:Cofres colmillarr}.'
+L['options_icons_tuskarr_chest'] = 'Cofres Colmillarr'
+L['options_icons_tuskarr_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Colmillarr}.'
 
-L['community_feast_label'] = '{spell:388961}'
-L['options_icons_community_feast'] = '{spell:388961}'
-L['options_icons_community_feast_desc'] = 'Muestra los festines y recompensas para los {spell:388961}.'
+L['community_feast_label'] = 'Festín Comunitario'
+L['options_icons_community_feast'] = 'Festín Comunitario'
+L['options_icons_community_feast_desc'] = 'Muestra dónde hay y las recompensas para los Festines Comunitarios.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
