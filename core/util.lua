@@ -6,7 +6,7 @@ local ADDON_NAME, ns = ...
 
 local NameResolver = {
     cache = {},
-    prepared = {},
+    prepared = {}
 }
 
 function NameResolver:IsLink(link)
