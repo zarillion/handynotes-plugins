@@ -39,7 +39,6 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
-local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -98,12 +97,7 @@ map.nodes[13584855] = ns.node.Feast({
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
-        DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.ImpalerHorns,
-        ns.reward.Spacer(), Item({item = 200095}), -- Supply-Laden Soup Pot
-        Recipe({item = 198129, id = 381415, profession = 185}), -- Recipe: Gral's Reverence
-        Recipe({item = 198130, id = 381417, profession = 185}), -- Recipe: Gral's Veneration
-        Recipe({item = 198131, id = 381418, profession = 185}), -- Recipe: Gral's Devotion
-        Item({item = 200652}) -- Alchemical Flavor Pocket
+        DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.ImpalerHorns
     }
 }) -- Bisquius
 
@@ -309,9 +303,6 @@ map.nodes[16213364] = ns.node.Brackenhide({
         Transmog({item = 200432, slot = L['cloth']}), -- Rotguard Cowl
         Transmog({item = 200127, slot = L['1h_sword']}), -- Gold-Alloy Blade
         Toy({item = 200178}), -- Infected Ichor
-        Recipe({item = 194298, id = 376566, profession = 197}), -- Pattern: Forlorn Funeral Pall - 0.07%
-        Recipe({item = 194312, id = 375171, profession = 165}), -- Pattern: Gnoll Tent - 0.06%
-        Recipe({item = 198907, id = 383571, profession = 773}), -- Technique: Illusion Parchment: Chilling Wind - 0.01%
         DC.CliffsideWylderdrake.BlackHair, DC.HighlandDrake.SpikedClubTail,
         DC.CliffsideWylderdrake.Ears, DC.CliffsideWylderdrake.DualHornedChin
     }
@@ -436,8 +427,6 @@ map.nodes[10863229] = ns.node.Brackenhide({
         Achievement({id = 16678, criteria = 56125}), -- Adventurer of The Azure Span
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
-        Recipe({item = 194298, id = 376566, profession = 197}), -- Pattern: Forlorn Funeral Pall - 0.04%
-        Recipe({item = 194312, id = 375171, profession = 165}), -- Pattern: Gnoll Tent - 0.04%
         DC.HighlandDrake.SpikedClubTail, DC.CliffsideWylderdrake.Ears
     }
 }) -- Snarglebone
@@ -527,7 +516,6 @@ map.nodes[23503317] = Rare({
         Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
-        Recipe({item = 198876, id = 383545, profession = 171}), -- Technique: Weathered Explorer's Stave - 0.01%
         DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek
     }
 }) -- Cascade
@@ -539,7 +527,6 @@ map.nodes[38155901] = Rare({
     rewards = {
         Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
         Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
-        Recipe({item = 191578, id = 370707, profession = 773}), -- Recipe: Transmute: Awakened Fire - 0.3%
         DC.HighlandDrake.StripedPattern, DC.WindborneVelocidrake.SpikedBack
     },
     pois = {POI({38625988})}
@@ -553,7 +540,6 @@ map.nodes[70143327] = Rare({
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
-        Recipe({item = 191578, id = 370707, profession = 773}), -- Recipe: Transmute: Awakened Fire - 0.19%
         DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.ImpalerHorns
     }
 }) -- Summoned Destroyer
@@ -576,7 +562,6 @@ map.nodes[36723247] = Rare({
     rewards = {
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
-        Recipe({item = 194312, id = 375171, profession = 165}), -- Pattern: Gnoll Tent - 0.02%
         DC.HighlandDrake.SpikedClubTail, DC.CliffsideWylderdrake.Ears,
         Item({item = 198048}) -- Titan Training Matrix I
     }
@@ -637,7 +622,6 @@ map.nodes[57916842] = Rare({
         Transmog({item = 200313, slot = L['cloak']}), -- Earthen Protoscale Drape
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Transmog({item = 203658, slot = L['leather']}), -- Graniteclaw's Vest
-        Recipe({item = 191580, id = 370710, profession = 773}), -- Recipe: Transmute: Awakened Earth - 0.3%
         DC.CliffsideWylderdrake.ManedNeck, DC.WindborneVelocidrake.ClusterHorns,
         DC.WindborneVelocidrake.ClubTail
     }
@@ -770,7 +754,7 @@ map.nodes[58024201] = Treasure({
     quest = 70237,
     label = L['snow_covered_scroll'],
     rewards = {
-        Recipe({item = 198103, id = 381376, profession = 185}) -- Recipe: Snow in a Cone
+        Item({item = 198103}) -- Recipe: Snow in a Cone
     }
 }) -- Snow Covered Scroll
 
@@ -1592,9 +1576,9 @@ local COMMUNITY_FEAST_AREA_POIS = {
 
 local COMMUNITY_FEAST_REWARDS = {
     Achievement({id = 16444}), -- Leftovers Revenge
-    Recipe({item = 198129, id = 381415, profession = 185}), -- Recipe: Gral's Reverence
-    Recipe({item = 198130, id = 381417, profession = 185}), -- Recipe: Gral's Veneration
-    Recipe({item = 198131, id = 381418, profession = 185}), -- Recipe: Gral's Devotion
+    Item({item = 198131}), -- Recipe: Gral's Devotion
+    Item({item = 198129}), -- Recipe: Gral's Reverence
+    Item({item = 198130}), -- Recipe: Gral's Veneration
     Transmog({item = 200882, slot = L['cosmetic']}), -- Big Kinook's Spare Ladle
     ns.reward.Spacer(), Item({item = 200652}), -- Alchemical Flavor Pocket
     Item({item = 190454}), -- Primal Chaos

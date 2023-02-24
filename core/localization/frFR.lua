@@ -37,20 +37,6 @@ L['cloak'] = 'Cape'
 L['trinket'] = 'Bijou'
 
 -------------------------------------------------------------------------------
--------------------------------- RECIPE PREFIX --------------------------------
--------------------------------------------------------------------------------
-
-L['recipe_prefix_alchemy'] = 'Recette : '
-L['recipe_prefix_blacksmithing'] = 'Plans : '
-L['recipe_prefix_enchanting'] = 'Formule : '
-L['recipe_prefix_engineering'] = 'Schéma : '
-L['recipe_prefix_inscription'] = 'Technique : '
-L['recipe_prefix_jewelcrafting'] = 'Dessin : '
-L['recipe_prefix_leatherworking'] = 'Patron : '
-L['recipe_prefix_tailoring'] = 'Patron : '
-L['recipe_prefix_cooking'] = 'Recette : '
-
--------------------------------------------------------------------------------
 ---------------------------------- TOOLTIPS -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -81,7 +67,6 @@ L['spell'] = 'Sort'
 L['title'] = 'Titre'
 L['toy'] = 'Jouet'
 L['rep'] = 'Rep'
-L['recipe'] = 'Recette'
 L['completed'] = 'Complété'
 L['incomplete'] = 'Incomplet'
 L['known'] = 'Connu'
@@ -163,8 +148,6 @@ L['options_toy_rewards'] = 'Afficher les jouets en récompense'
 L['options_toy_rewards_desc'] = 'Afficher les jouets en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_transmog_rewards'] = 'Afficher les transmos en récompense'
 L['options_transmog_rewards_desc'] = 'Afficher les transmos en récompenses dans les infobulles et suivre leur état de possession.'
-L['options_recipe_rewards'] = 'Afficher les recettes en récompense'
-L['options_recipe_rewards_desc'] = 'Afficher les recettes en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_all_transmog_rewards'] = 'Afficher les transmos plus obtenables en récompense'
 L['options_all_transmog_rewards_desc'] = 'Afficher les transmos en récompenses pouvant être obtenus par d\'autres classes.'
 

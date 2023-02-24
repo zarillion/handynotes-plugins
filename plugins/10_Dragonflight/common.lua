@@ -16,7 +16,6 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
-local Recipe = ns.reward.Recipe
 local Spacer = ns.reward.Spacer
 local Transmog = ns.reward.Transmog
 
@@ -1182,35 +1181,14 @@ local ELEMENTAL_STORM_PET_REWARDS = {
 }
 
 local ELEMENTAL_STORM_FORMULA_REWARDS = {
-    ['all'] = Recipe({
-        item = 194641,
-        spell = 374499,
-        profession = 755 -- Jewelcrafting
-    }), -- Design: Elemental Lariat
-    ['thunderstorm'] = Recipe({
+    ['all'] = Item({item = 194641}), -- Design: Elemental Lariat
+    ['thunderstorm'] = Item({
         item = 200911,
-        spell = 391813,
-        profession = 333, -- Enchanting
         note = L['elemental_storm_thunderstorm']
     }), -- Formula: Illusion: Primal Air
-    ['sandstorm'] = Recipe({
-        item = 200912,
-        spell = 391814,
-        profession = 333, -- Enchanting
-        note = L['elemental_storm_sandstorm']
-    }), -- Formula: Illusion: Primal Earth
-    ['firestorm'] = Recipe({
-        item = 200913,
-        spell = 391815,
-        profession = 333, -- Enchanting
-        note = L['elemental_storm_firestorm']
-    }), -- Formula: Illusion: Primal Fire
-    ['snowstorm'] = Recipe({
-        item = 200914,
-        pell = 391816,
-        profession = 333, -- Enchanting
-        note = L['elemental_storm_snowstorm']
-    }) -- Formula: Illusion: Primal Frost
+    ['sandstorm'] = Item({item = 200912, note = L['elemental_storm_sandstorm']}), -- Formula: Illusion: Primal Earth
+    ['firestorm'] = Item({item = 200913, note = L['elemental_storm_firestorm']}), -- Formula: Illusion: Primal Fire
+    ['snowstorm'] = Item({item = 200914, note = L['elemental_storm_snowstorm']}) -- Formula: Illusion: Primal Frost
 }
 
 local ElementalStorm = Class('ElementalStorm', Collectible, {
