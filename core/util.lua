@@ -39,11 +39,9 @@ function NameResolver:Resolve(link)
         local tooltipData = C_TooltipInfo.GetHyperlink(link)
         if tooltipData then
             TooltipUtil.SurfaceArgs(tooltipData)
-            for _, line in ipairs(tooltipData.lines) do
-                TooltipUtil.SurfaceArgs(line)
-            end
             local line = tooltipData.lines[1]
-            name = line and line.leftText or UNKNOWN
+            TooltipUtil.SurfaceArgs(line)
+            name = line.leftText or UNKNOWN
         end
         if name == UNKNOWN then
             ns.Debug('NameResolver returned UNKNOWN')
