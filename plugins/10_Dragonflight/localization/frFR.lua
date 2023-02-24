@@ -233,7 +233,7 @@ L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751}({dot:Green}) pour
 L['mad_eye_carrey_note'] = '{npc:201181} se trouve dans un groupe avec la {npc:201184} et la {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} fait équipe avec {npc:201310}'
 
-L['loot_specialist_note'] = '{npc:203353} apparaît avec les sorts {spell:406143} et {spell:406141} et s\'enfuira s\'il est attaqué.\n\n{note:Tuez-le rapidement avant qu\'il ne finisse de lancer {spell:406141}.}'
+L['loot_specialist_note'] = '{npc:203353} apparaît avec les sorts {spell:406143} et {spell:1784} et s\'enfuira s\'il est attaqué.\n\n{note:Tuez-le rapidement avant qu\'il ne finisse de lancer {spell:406141}.}'
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'Petits trésors ouverts'
 L['forbidden_spoils_suffix'] = 'Provisions interdites ouvertes'
@@ -282,7 +282,7 @@ L['awakened_soil_label'] = 'Sol éveillé'
 
 L['zskera_vaults_label'] = 'Caveaux de Zskera'
 L['zskera_vaults_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans les {location:Caveaux de Zskera}.'
-L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des {item:202196}'
+L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des {item:202196}' -- review
 
 L['recipe_rat_note_1'] = 'Parlez au {npc:202982} dans le {location:Caveau de Zskera} et vous recevrez dans vos sacs le {item:202252}.'
 L['recipe_rat_note_2'] = 'Interagissez avec le {item:202252} pour recevoir des {item:204340}. {note:(5 minutes de recharge)}'

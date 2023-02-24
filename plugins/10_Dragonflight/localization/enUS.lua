@@ -232,7 +232,7 @@ L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal fr
 L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}'
 
-L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {spell:406141} and will run away when attacked.\n\n{note:Kill him quickly before he finishes casting {spell:406141}.}'
+L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {spell:1784} and will run away when attacked.\n\n{note:Kill him quickly before he finishes casting {spell:406141}.}'
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'small treasures opened'
 L['forbidden_spoils_suffix'] = 'Forbidden Hoards opened'
@@ -281,7 +281,7 @@ L['awakened_soil_label'] = 'Awakened Soil'
 
 L['zskera_vaults_label'] = 'Zskera Vaults'
 L['zskera_vaults_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vaults}.'
-L['door_buster_suffix'] = 'Doors unlocked using {item:202196s}'
+L['door_buster_suffix'] = 'Doors unlocked using Zskera Vault keys'
 
 L['recipe_rat_note_1'] = 'Speak to the {npc:202982} within {location:Zskera Vault} and {item:202252} will enter your bags.'
 L['recipe_rat_note_2'] = 'Interact with {item:202252} to receive {item:204340}. {note:(5 minute cooldown)}'

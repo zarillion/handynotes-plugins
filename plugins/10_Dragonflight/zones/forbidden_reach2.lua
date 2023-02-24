@@ -318,8 +318,7 @@ local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
                 suffix = L['forbidden_spoils_suffix']
             }
         }), -- Forbidden Spoils
-        Item({item = 202196}), -- Zskera Vault Key
-        Item({item = 203464}) -- Sealed Spellsworn Scroll
+        Item({item = 202196}) -- Zskera Vault Key
     }
 }) -- Forbidden Hoard
 
@@ -455,7 +454,7 @@ map.nodes[48947352] = ns.node.ElementalChest({
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nods[13095369] = PetBattle({
+map.nodes[13095369] = PetBattle({
     id = 200689,
     rewards = {
         Achievement({id = 17541, criteria = 58574}) -- Global Swarming
@@ -615,7 +614,7 @@ map.nodes[28905707] = ArtisanCurio({
     }
 }) -- Resonating Crystal
 
-map.nodes[43734947] = ArtisanCurio({
+map.nodes[48734944] = ArtisanCurio({
     label = L['tuskarr_tanning_rack'],
     icon = 4635266,
     requires = ns.requirement.Item(203414), -- Reinforced Pristine Leather
@@ -866,7 +865,7 @@ map.nodes[71036732] = LibraryBook({
 -- map.nodes[] = LibraryBook({
 --     id = 204328,
 --     rewards = {Achievement({id = 17530, criteria = 58504})}
--- })-- Return of the Nightsquall
+-- }) -- Return of the Nightsquall
 
 map.nodes[57446349] = LibraryBook({
     label = L['lost_expeditions_notes_label'],
@@ -880,10 +879,20 @@ map.nodes[61533375] = LibraryBook({
     rewards = {Achievement({id = 17530, criteria = 58506})}
 }) -- Words of the Wyrmslayer
 
-map.nodes[29185303] = LibraryBook({
+-- map.nodes[] = LibraryBook({
+--     id = nil,
+--     rewards = {Achievement({id = 17530, criteria = 58660})}
+-- }) -- Living Book
+
+-- map.nodes[] = LibraryBook({
+--     id = nil,
+--     rewards = {Achievement({id = 17530, criteria = 58661})}
+-- }) -- Opera of the Aspects
+
+map.nodes[28185303] = LibraryBook({
     label = L['old_gods_label'],
     sublabel = L['in_zskera_vaults'],
-    note = format(L['library_book_note'], L['old_gods_label'], 204185),
+    note = format(L['library_note'], L['old_gods_label'], 204185),
     rewards = {Achievement({id = 17530, criteria = 58507})}
 }) -- The Old Gods and the Ordering of Azeroth (Annotated)
 
@@ -965,11 +974,16 @@ map.nodes[55393586] = ScalecommanderItem({
 -------------------------------- ZSKERA VAULTS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[29185303] = Collectible({
+map.nodes[29265268] = Collectible({
     label = L['zskera_vaults_label'],
     icon = 4909720,
     note = L['zskera_vaults_note'],
     group = ns.groups.ZSKERA_VAULTS,
+    requires = {
+        ns.requirement.Quest(73160), -- Helping Hand and Claw
+        ns.requirement.Quest(73159) -- Exploring Our Past
+    },
+    areaPOI = 7414,
     rewards = {
         Achievement({id = 17509}), -- Every Door, Everywhere, All At Once
         Achievement({
@@ -981,7 +995,8 @@ map.nodes[29185303] = Collectible({
         Pet({item = 204079, id = 3476}), -- Gilded Mechafrog
         Spacer(), Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
         Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
-        Toy({item = 204262}) -- Holoviewer: The timeless One
+        Toy({item = 204262}), -- Holoviewer: The timeless One
+        Spacer(), Achievement({id = 17530, criteria = 58507}) -- Librarian of the Reach
     }
 }) -- Zskera Vaults
 
@@ -989,9 +1004,9 @@ map.nodes[29185303] = Collectible({
 
 local RecipeRat = Class('RecipeRat', Node, {
     label = '{npc:202982}',
+    sublabel = L['in_zskera_vaults'],
     icon = 4509424,
     group = ns.groups.ZSKERA_VAULTS,
-    requires = ns.requirement.Item(3927), -- Fine Aged Cheddar
     rewards = {
         Item({item = 204073}) -- Ratcipe: Deviously Deviled Eggs
     }
@@ -1052,30 +1067,35 @@ map.nodes[56435911] = AwakenedSoil()
 map.nodes[55616889] = Node({
     label = 'Edict: The Adamant Vigil', -- TODO: Non-localized name for now
     icon = 'peg_yw',
+    scale = 1.8,
     sublabel = L['in_the_high_creche']
 }) -- Edict: The Adamant Vigil
 
 warCreche.nodes[32346769] = Node({
     label = 'Edict: Dark Talons', -- TODO: Non-localized name for now
     icon = 'peg_yw',
+    scale = 1.8,
     sublabel = L['in_the_war_creche']
 }) -- Edict: Dark Talons
 
 warCreche.nodes[39347578] = Node({
     label = 'Edict: The Earth-Warder', -- TODO: Non-localized name for now
     icon = 'peg_yw',
+    scale = 1.8,
     sublabel = L['in_the_war_creche']
 }) -- Edict: The Earth-Warder
 
 warCreche.nodes[31118323] = Node({
     label = 'Edict: Obsidian Warders', -- TODO: Non-localized name for now
     icon = 'peg_yw',
+    scale = 1.8,
     sublabel = L['in_the_war_creche']
 }) -- Edict: Obsidian Warders
 
 siegeCreche.nodes[65095921] = Node({
     label = 'Edict: Ebon Scales', -- TODO: Non-localized name for now
     icon = 'peg_yw',
+    scale = 1.8,
     sublabel = L['in_the_siege_creche']
 }) -- Edict: Ebon Scales
 
@@ -1084,7 +1104,7 @@ siegeCreche.nodes[65095921] = Node({
 local SpellswornGateway = Class('SpellswornGateway', Node, {
     label = L['spellsworn_gateway'],
     icon = 'portal_pp',
-    scale = 1.3,
+    scale = 1.5,
     fgroup = 'spellsworn_gateway'
 }) -- Spellsworn Gateway
 
@@ -1099,7 +1119,7 @@ warCreche.nodes[49915424] = SpellswornGateway()
 local GemstoneOfReturn = Class('GemstoneOfReturn', Node, {
     label = L['gemstone_of_return'],
     icon = 'portal_gn',
-    scale = 1.3,
+    scale = 1.5,
     fgroup = 'gemstone_of_return'
 }) -- Gemstone of Return
 
