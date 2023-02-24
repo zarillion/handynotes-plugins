@@ -220,20 +220,20 @@ L['mysterious_wand_note'] = 'Ramassez la {object:Clé en cristal} et placez-la d
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
-L['in_dragonskull_island'] = nil
+L['in_dragonskull_island'] = 'Sur l\'{location:Île du Crâne-de-Dragon}.'
 L['in_froststone_vault'] = 'À l\'intérieur du {location:Caveau Givre-Pierre}'
 L['in_the_high_creche'] = 'À l\'intérieur du {location:Haut Couvoir}'
-L['in_the_lost_atheneum'] = nil
-L['in_the_siege_creche'] = nil
-L['in_the_support_creche'] = nil
+L['in_the_lost_atheneum'] = 'À l\'intérieur de l\'{location:Athénée perdu}'
+L['in_the_siege_creche'] = 'À l\'intérieur du {location:Couvoir du Siège}'
+L['in_the_support_creche'] = 'À l\'intérieur du {location:Couvoir Auxiliaire}'
 L['in_the_war_creche'] = 'Au fond du {location:Couvoir Martial}'
-L['in_zskera_vaults'] = nil
+L['in_zskera_vaults'] = 'À l\'intérieur des {location:Caveaux de Zskera}'
 
-L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751}({dot:Green}) pour vous soigner du gaz toxique dans la grotte.'
+L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751}({dot:Green}) pour vous soigner du gaz toxique dans le {location:Couvoir Auxiliaire}.'
 L['mad_eye_carrey_note'] = '{npc:201181} se trouve dans un groupe avec la {npc:201184} et la {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} fait équipe avec {npc:201310}'
 
-L['loot_specialist_note'] = nil
+L['loot_specialist_note'] = '{npc:203353} apparaît avec les sorts {spell:406143} et {spell:406141} et s\'enfuira s\'il est attaqué.\n\n{note:Tuez-le rapidement avant qu\'il ne finisse de lancer {spell:406141}.}'
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'Petits trésors ouverts'
 L['forbidden_spoils_suffix'] = 'Provisions interdites ouvertes'
@@ -254,7 +254,7 @@ L['tuskarr_kite_post_label'] = 'Poteau à cerfs-volants roharts'
 L['farescale_shrine_label'] = 'Sanctuaire Longuécaille'
 L['resonating_crystal_label'] = 'Cristal résonnant'
 L['spellsworn_ward_label'] = 'Protection sorcelige'
-L['rumbling_deposit_label'] = nil
+L['rumbling_deposit_label'] = nil -- not yet localized
 L['spiceless_stew_label'] = 'Ragoût sans épices'
 
 L['artisan_curio_note'] = 'Les joueurs ayant le métier %s (à 50) peuvent acheter {item:%s} à la {npc:202445} au {location:Village de Morqut} pour 10 {item:190456}.'
@@ -266,9 +266,9 @@ L['confiscated_journal_label'] = 'Journal confisqué'
 L['farscale_manifesto_label'] = 'Manifeste longuécaille'
 L['lost_expeditions_notes_label'] = 'Notes d\'expédition'
 L['vrykul_tome_label'] = 'Tome vrykule'
-L['old_gods_label'] = nil
+L['old_gods_label'] = 'Les Dieux très anciens et l\'ordonnancement d\'Azeroth'
 
-L['library_note'] = 'Ouvrez la {object:%s} et récupérez {item:%s}.'
+L['library_note'] = 'Ouvrez l\'objet {object:%s} et récupérez le livre {item:%s}.'
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}.'
@@ -278,24 +278,24 @@ L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des obj
 
 L['awakened_soil_label'] = 'Sol éveillé'
 
-L['zskera_vaults_label'] = 'Caveau de Zskera' -- review
-L['zskera_vaults_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans le {location:Caveau de Zskera}.' -- review
-L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des Clés des Caveaux Zskera.'
+L['zskera_vaults_label'] = 'Caveaux de Zskera'
+L['zskera_vaults_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans les {location:Caveaux de Zskera}.'
+L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des {item:202196}'
 
 L['recipe_rat_note_1'] = 'Parlez au {npc:202982} dans le {location:Caveau de Zskera} et vous recevrez dans vos sacs le {item:202252}.'
 L['recipe_rat_note_2'] = 'Interagissez avec le {item:202252} pour recevoir des {item:204340}. {note:(5 minutes de recharge)}'
 L['recipe_rat_note_3'] = 'Une fois que vous avez 30x {item:204340}, combinez les fragments pour obtenir la recette.'
 L['recipe_rat_note_4'] = '{note:Ce rat adore le fromage et consommera un {item:3927} toutes les trois minutes environ. Planifiez en conséquence !}'
 
-L['options_icons_zskera_vaults'] = nil
-L['options_icons_zskera_vaults_desc'] = nil
+L['options_icons_zskera_vaults'] = 'Caveaux de Zskera'
+L['options_icons_zskera_vaults_desc'] = 'Afficher les récompenses pour les {location:Caveaux de Zskera}.'
 
 L['froststone_vault_storm_label'] = 'Tempête primordiale du caveau Givre-Pierre'
 L['options_icons_froststone_vault_storm'] = 'Tempêtes primordiales du caveau Givre-Pierre'
 L['options_icons_froststone_vault_storm_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Tempêtes primordiales du caveau Givre-Pierre}'
 
 L['spellsworn_gateway'] = 'Porte sorcelige'
-L['gemstone_of_return'] = nil
+L['gemstone_of_return'] = 'Gemme de retour'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
