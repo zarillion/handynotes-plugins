@@ -36,19 +36,14 @@ function NameResolver:Resolve(link)
     local name = self.cache[link]
     if name == nil then
         name = UNKNOWN
-
         local tooltipData = C_TooltipInfo.GetHyperlink(link)
-
         if tooltipData then
             TooltipUtil.SurfaceArgs(tooltipData)
-
             for _, line in ipairs(tooltipData.lines) do
                 TooltipUtil.SurfaceArgs(line)
             end
-
             name = tooltipData.lines[1] and tooltipData.lines[1].leftText or UNKNOWN
         end
-
         if name == UNKNOWN then
             ns.Debug('NameResolver returned UNKNOWN')
         else
