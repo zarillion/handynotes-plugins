@@ -244,6 +244,8 @@ L['resonating_crystal_label'] = nil
 L['spellsworn_ward_label'] = nil
 L['rumbling_deposit_label'] = nil
 L['spiceless_stew_label'] = nil
+L['tuskarr_tanning_rack'] = nil
+L['volatile_brazier'] = nil
 
 L['artisan_curio_note'] = nil
 L['options_icons_artisan_curio'] = nil

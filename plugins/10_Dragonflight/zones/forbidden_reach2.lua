@@ -273,110 +273,6 @@ siegeCreche.nodes[58993931] = Rare({
     }
 }) -- Volcanakk
 
--- map.nodes[] = Rare({
---     id = 200619,
---     quest = nil,
---     rewards = {
---         Achievement({id = 17525, criteria = 58474}), -- Champion of the Forbidden Reach
---     }
--- }) -- Tectonus
-
--- map.nodes[] = Rare({
---     id = 200620,
---     quest = nil,
---     rewards = {
---         Achievement({id = 17525, criteria = 58475}), -- Champion of the Forbidden Reach
---     }
--- }) -- Sir Pinchalot
-
--- map.nodes[] = Rare({
---     id = 200621,
---     quest = nil,
---     rewards = {
---         Achievement({id = 17525, criteria = 58476}), -- Champion of the Forbidden Reach
---     }
--- }) -- Manathema
-
--- map.nodes[] = Rare({
---     id = 200622,
---     quest = nil,
---     rewards = {
---         Achievement({id = 17525, criteria = 58477}), -- Champion of the Forbidden Reach
---     }
--- }) -- Snarfang
-
--- map.nodes[] = Rare({
---     id = 200722,
---     quest = nil,
---     rewards = {
---         Achievement({id = 17525, criteria = 58478}), -- Champion of the Forbidden Reach
---     }
--- }) -- Gareed
-
--- map.nodes[] = Rare({
---     id = 200725,
---     quest = nil,
---     rewards = {
---         Achievement({id = 17525, criteria = 58479}), -- Champion of the Forbidden Reach
---     }
--- }) -- Faunos
-
--- map.nodes[] = Rare({
---     id = 200730,
---     quest = nil,
---     rewards = {
---         Achievement({id = 17525, criteria = 58480}), -- Champion of the Forbidden Reach
---     }
--- }) -- Tidesmith Zarviss
-
--- map.nodes[] = Rare({
---     id = 200737,
---     quest = nil,
---     rewards = {
---         Achievement({id = 17525, criteria = 58481}), -- Champion of the Forbidden Reach
---     }
--- }) -- Arcantrix
-
--- map.nodes[] = Rare({
---     id = 200738,
---     quest = nil,
---     rewards = {
---         Achievement({id = 17525, criteria = 58482}), -- Champion of the Forbidden Reach
---     }
--- }) -- Kangalo
-
--- map.nodes[] = Rare({
---     id = 200739,
---     quest = nil,
---     rewards = {
---         Achievement({id = 17525, criteria = 58483}), -- Champion of the Forbidden Reach
---     }
--- }) -- Fimbul
-
--- map.nodes[] = Rare({
---     id = 200740,
---     quest = nil,
---     rewards = {
---         Achievement({id = 17525, criteria = 58484}), -- Champion of the Forbidden Reach
---     }
--- }) -- Agni Blazehoof
-
--- map.nodes[] = Rare({
---     id = 200742,
---     quest = nil,
---     rewards = {
---         Achievement({id = 17525, criteria = 58485}), -- Champion of the Forbidden Reach
---     }
--- }) -- Luttrok
-
--- map.nodes[] = Rare({
---     id = 200743,
---     quest = nil,
---     rewards = {
---         Achievement({id = 17525, criteria = 58486}), -- Champion of the Forbidden Reach
---     }
--- }) -- Amephyst
-
 -------------------------------------------------------------------------------
 ---------------------------- BONUS OBJECTIVE BOSSES ---------------------------
 -------------------------------------------------------------------------------
@@ -643,33 +539,24 @@ map.nodes[78035110] = SignalTransmitter({quest = 73144}) -- Stormsunder Mountain
 ------------------------------- ARTISAN CURIOS --------------------------------
 -------------------------------------------------------------------------------
 
-local ArtisanCurio = Class('ArtisanCurio', Collectible, {
-    group = ns.groups.ARTISAN_CURIO
-    -- IsEnabled = function(self)
-    --     if not ns.PlayerHasProfession(self.skillID) then return false end -- DISABLED DURING DEVELOPMENT
-    --     return ns.node.Item.IsEnabled(self)
-    -- end
-}) -- Artisan Curio
+local ArtisanCurio = Class('ArtisanCurio', Collectible,
+    {group = ns.groups.ARTISAN_CURIO}) -- Artisan Curio
 
 function ArtisanCurio.getters:note()
-    local note = ''
-    if self.prenote then note = self.prenote end
     if self.skillID and self.recipeID then
         local profession = C_TradeSkillUI.GetTradeSkillDisplayName(self.skillID)
         local recipeID = self.recipeID
-        if self.prenote then note = note .. '\n\n' end
-        note = note .. format(L['artisan_curio_note'], profession, recipeID)
+        return format(L['artisan_curio_note'], profession, recipeID)
     end
-    return note
 end
 
--- map.nodes[] = ArtisanCurio({
---     label = nil,
---     icon = 650638,
---     requires = ns.requirement.Item(203407), -- Neutralizing Agent
---     skillID = 171 -- Alchemy
---     recipeID = 203420 -- Recipe: Neutralizing Agent
--- }) -- UNKNOWN
+map.nodes[67256157] = ArtisanCurio({
+    label = L['volatile_brazier'],
+    icon = 650638,
+    requires = ns.requirement.Item(203407), -- Draconic Suppression Powder
+    skillID = 171, -- Alchemy
+    recipeID = 203420 -- Recipe: Draconic Suppression Powder
+}) -- Volatile Brazier
 
 map.nodes[67237599] = ArtisanCurio({
     label = L['farescale_shrine_label'],
@@ -679,13 +566,16 @@ map.nodes[67237599] = ArtisanCurio({
     recipeID = 203421 -- Plans: Ceremonial Trident
 }) -- Farscale Shrine
 
-map.nodes[55695154] = ArtisanCurio({
+local SpicelessStew = Class('SpicelessStew', ArtisanCurio, {
     label = L['spiceless_stew_label'],
     icon = 133210,
     requires = ns.requirement.Item(203409), -- Sparkling Spice Pouch
     skillID = 185, -- Cooking
     recipeID = 203422 -- Recipe: Sparkling Spice Pouch
 }) -- Spiceless Stew
+
+map.nodes[40295336] = SpicelessStew()
+map.nodes[55695154] = SpicelessStew()
 
 warCreche.nodes[31308084] = ArtisanCurio({
     label = L['book_of_arcane_entities_label'],
@@ -725,13 +615,13 @@ map.nodes[28905707] = ArtisanCurio({
     }
 }) -- Resonating Crystal
 
--- map.nodes[] = ArtisanCurio({
---     label = nil,
---     icon = 4635266,
---     requires = ns.requirement.Item(203414), -- Reinforced Leather Patch
---     skillID = 165, -- Leatherworking
---     recipeID = 203427, -- Reinforced Leather Patch
--- }) -- UNKNOWN
+map.nodes[43734947] = ArtisanCurio({
+    label = L['tuskarr_tanning_rack'],
+    icon = 4635266,
+    requires = ns.requirement.Item(203414), -- Reinforced Pristine Leather
+    skillID = 165, -- Leatherworking
+    recipeID = 203427 -- Pattern: Reinforced Pristine Leather
+}) -- Tuskarr Tanning Rack
 
 dragonskullIsland.nodes[56947247] = ArtisanCurio({
     label = L['rumbling_deposit_label'],
@@ -740,15 +630,18 @@ dragonskullIsland.nodes[56947247] = ArtisanCurio({
     parent = map.id,
     requires = ns.requirement.Item(203418), -- Amplified Quaking Stone
     skillID = 186 -- Mining
-}) -- Rumbling Draconium
+}) -- Rumbling Deposit
 
-map.nodes[57634843] = ArtisanCurio({
+local TuskarrKitePost = Class('TuskarrKitePost', ArtisanCurio, {
     label = L['tuskarr_kite_post_label'],
     icon = 318523,
     requires = ns.requirement.Item(203415), -- Morqut Kite
     skillID = 197, -- Tailoring
     recipeID = 203428 -- Pattern: Morqut Kite
 }) -- Tuskarr Kite Post
+
+map.nodes[31195341] = TuskarrKitePost()
+map.nodes[57634843] = TuskarrKitePost()
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------

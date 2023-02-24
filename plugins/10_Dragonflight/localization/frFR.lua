@@ -256,6 +256,8 @@ L['resonating_crystal_label'] = 'Cristal résonnant'
 L['spellsworn_ward_label'] = 'Protection sorcelige'
 L['rumbling_deposit_label'] = nil -- not yet localized
 L['spiceless_stew_label'] = 'Ragoût sans épices'
+L['tuskarr_tanning_rack'] = nil
+L['volatile_brazier'] = nil
 
 L['artisan_curio_note'] = 'Les joueurs ayant le métier %s (à 50) peuvent acheter {item:%s} à la {npc:202445} au {location:Village de Morqut} pour 10 {item:190456}.'
 L['options_icons_artisan_curio'] = 'Bibelot d\'Artisanat'
