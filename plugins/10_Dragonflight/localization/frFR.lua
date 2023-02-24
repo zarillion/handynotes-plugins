@@ -256,8 +256,8 @@ L['resonating_crystal_label'] = 'Cristal résonnant'
 L['spellsworn_ward_label'] = 'Protection sorcelige'
 L['rumbling_deposit_label'] = nil -- not yet localized
 L['spiceless_stew_label'] = 'Ragoût sans épices'
-L['tuskarr_tanning_rack'] = nil
-L['volatile_brazier'] = nil
+L['tuskarr_tanning_rack'] = 'Chevalet de tannage rohart'
+L['volatile_brazier'] = 'Brasero volatil'
 
 L['artisan_curio_note'] = 'Les joueurs ayant le métier %s (à 50) peuvent acheter {item:%s} à la {npc:202445} au {location:Village de Morqut} pour 10 {item:190456}.'
 L['options_icons_artisan_curio'] = 'Bibelot d\'Artisanat'
@@ -282,7 +282,7 @@ L['awakened_soil_label'] = 'Sol éveillé'
 
 L['zskera_vaults_label'] = 'Caveaux de Zskera'
 L['zskera_vaults_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans les {location:Caveaux de Zskera}.'
-L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des {item:202196}' -- review
+L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des clés des Caveaux Zskera.'
 
 L['recipe_rat_note_1'] = 'Parlez au {npc:202982} dans le {location:Caveau de Zskera} et vous recevrez dans vos sacs le {item:202252}.'
 L['recipe_rat_note_2'] = 'Interagissez avec le {item:202252} pour recevoir des {item:204340}. {note:(5 minutes de recharge)}'
