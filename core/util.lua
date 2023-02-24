@@ -4,17 +4,9 @@ local ADDON_NAME, ns = ...
 ------------------------------ DATAMINE TOOLTIP -------------------------------
 -------------------------------------------------------------------------------
 
-local function CreateDatamineTooltip(name)
-    local f = CreateFrame('GameTooltip', name, UIParent, 'GameTooltipTemplate')
-    f:SetOwner(UIParent, 'ANCHOR_NONE')
-    return f
-end
-
 local NameResolver = {
     cache = {},
     prepared = {},
-    preparer = CreateDatamineTooltip(ADDON_NAME .. '_NamePreparer'),
-    resolver = CreateDatamineTooltip(ADDON_NAME .. '_NameResolver')
 }
 
 function NameResolver:IsLink(link)
@@ -27,7 +19,7 @@ function NameResolver:Prepare(link)
         -- use a separate tooltip to spam load NPC names, doing this with the
         -- main tooltip can sometimes cause it to become unresponsive and never
         -- update its text until a reload
-        self.preparer:SetHyperlink(link)
+        C_TooltipInfo.GetHyperlink(link)
         self.prepared[link] = true
     end
 end
@@ -43,11 +35,22 @@ function NameResolver:Resolve(link)
 
     local name = self.cache[link]
     if name == nil then
-        self.resolver:SetHyperlink(link)
-        name = _G[self.resolver:GetName() .. 'TextLeft1']:GetText() or UNKNOWN
+        name = UNKNOWN
+
+        local tooltipData = C_TooltipInfo.GetHyperlink(link)
+
+        if tooltipData then
+            TooltipUtil.SurfaceArgs(tooltipData)
+
+            for _, line in ipairs(tooltipData.lines) do
+                TooltipUtil.SurfaceArgs(line)
+            end
+
+            name = tooltipData.lines[1] and tooltipData.lines[1].leftText or UNKNOWN
+        end
+
         if name == UNKNOWN then
-            ns.Debug('NameResolver returned UNKNOWN, recreating tooltip ...')
-            self.resolver = CreateDatamineTooltip(ADDON_NAME .. '_NameResolver')
+            ns.Debug('NameResolver returned UNKNOWN')
         else
             self.cache[link] = name
         end
