@@ -13,7 +13,7 @@ L['anima_channeled'] = 'anima channeled to %s.'
 --------------------------------- SHADOWLANDS ---------------------------------
 -------------------------------------------------------------------------------
 
-L['squirrels_note'] = 'You must use the emote /love on critters not battle pets.'
+L['squirrels_note'] = 'You must use the emote {emote:/love} on critters not battle pets.'
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = 'Display the locations of critters for {achievement:14731} achievement.'
 
@@ -102,10 +102,10 @@ L['glitterdust_note'] = 'The creatures of Ardenweald may look docile, but they w
 
 L['lost_book_note'] = 'Return this lost book to {npc:165867} in the {location:Grove of Memory}.'
 L['options_icons_faerie_tales'] = '{achievement:14788}'
-L['options_icons_faerie_tales_desc'] = 'Display lost book locations for the {achievement:14788} achievement.'
+L['options_icons_faerie_tales_desc'] = 'Display lost books locations for the {achievement:14788} achievement.'
 
 L['options_icons_wild_hunting'] = '{achievement:14779}'
-L['options_icons_wild_hunting_desc'] = 'Ardenweald beast locations for {achievement:14779}'
+L['options_icons_wild_hunting_desc'] = 'Ardenweald beasts locations for {achievement:14779}.'
 
 L['options_icons_wildseed_spirits'] = 'Wildseed Spirits'
 L['options_icons_wildseed_spirits_desc'] = 'Rewards from wildseed spirits'
@@ -155,7 +155,7 @@ A Cat Soul (Well Fed) option will immediately become available when talking with
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L['aegeon_note'] = 'Kill enemies in the surrounding area until {npc:Aegeon} spawns as a reinforcement.'
+L['aegeon_note'] = 'Kill enemies in the surrounding area until {npc:171009} spawns as a reinforcement.'
 L['ascended_council_note'] = 'With four other players, click the five temple {object:Vesper} at the same time to summon the {npc:170899} at {location:Aspirant\'s Crucible}.'
 L['aspirant_eolis_note'] = 'Loot a nearby {item:180613} and read it with the NPC targeted to activate him.'
 L['baedos_note'] = 'Carry {object:Cask of Fermenting Purian Fruit} from the surrounding area to {npc:161536} until he activates.'
@@ -204,20 +204,20 @@ Before picking up the flame, clear all mobs in front of the chest. While running
 L['gift_of_thenios'] = [[
 Behind the chest is a flight pad called {object:Path of Wisdom}. This leads to a sequence of platforms with different incenses you can commune with:
 
-• Incense of Knowledge
-• Incense of Patience
-• Incense of Insight
-• Incense of Judgement
+• {object:Incense of Knowledge}
+• {object:Incense of Patience}
+• {object:Incense of Insight}
+• {object:Incense of Judgement}
 
 Commune with them in the order Patience => Knowledge => Insight. On the Judgement platform an orb called the {object:Path of Judgement} will appear.
 
-The orb will take you to the true Incense of Judgment. Commune with it and the final flight pad will grant you {spell:333068} to open the chest.
+The orb will take you to the true {object:Incense of Judgment}. Commune with it and the final flight pad will grant you {spell:333068} to open the chest.
 ]]
 L['gift_of_vesiphone'] = 'Ring one of the bells to spawn a {npc:170849} and kill it to receive the {spell:333239} debuff. The falling water opposite the chest will cleanse this debuff and grant you {spell:332785}.'
 
-L['count_your_blessings_note'] = 'Place a {item:178915} in the tribute bowl to receive the blessing.'
+L['count_your_blessings_note'] = 'Place a {item:178915} in the {object:Tribute} bowl to receive the blessing.'
 L['options_icons_blessings'] = '{achievement:14767}'
-L['options_icons_blessings_desc'] = 'Display tribute locations for the {achievement:14767} achievement.'
+L['options_icons_blessings_desc'] = 'Display {object:Tributes} locations for the {achievement:14767} achievement.'
 
 L['vesper_of_courage'] = 'Vesper of Courage'
 L['vesper_of_humility'] = 'Vesper of Humility'
@@ -228,7 +228,7 @@ L['vespers_ascended_note'] = 'Click this vesper at the same time as the other fo
 L['options_icons_vespers'] = '{achievement:14734}'
 L['options_icons_vespers_desc'] = 'Display vesper locations for the {achievement:14734} achievement.'
 
-L['anima_shard'] = 'Lost Anima Shard'
+L['anima_shard'] = 'Anima Crystal Shard'
 L['anima_shard_61225'] = 'On a lower platform below the bridge.'
 L['anima_shard_61235'] = 'On a ledge above the waterfall.'
 L['anima_shard_61236'] = 'On top of an arch halfway up the main structure.'
@@ -274,18 +274,18 @@ L['anima_shard_61292'] = 'On top of the stone archway.'
 L['anima_shard_61293'] = 'On top of a thin stone column on the lower level.'
 L['anima_shard_61294'] = 'Hidden behind a stack of barrels.'
 L['anima_shard_61295'] = 'Behind {npc:156889} in a bookshelf.'
-L['anima_shard_61296'] = 'Behind the large fallen bell.\n\n{note:Inside the Necrotic Wake dungeon.}'
-L['anima_shard_61297'] = 'Behind a stone pillar.\n\n{note:Inside the Necrotic Wake dungeon.}'
+L['anima_shard_61296'] = 'Behind the large fallen bell.\n\n{note:Inside the {location:Necrotic Wake} dungeon.}'
+L['anima_shard_61297'] = 'Behind a stone pillar.\n\n{note:Inside the {location:Necrotic Wake} dungeon.}'
 L['anima_shard_61298'] = 'Sitting behind a lounge chair.'
 L['anima_shard_61299'] = 'Hidden behind a large torch.'
 L['anima_shard_61300'] = 'On a ledge hanging over the central font.'
 L['anima_shard_spires'] = 'Three shards are located in the {location:Spires of Ascension} dungeon.'
 L['options_icons_anima_shard'] = '{achievement:14339}'
-L['options_icons_anima_shard_desc'] = 'Display the locations of all 50 lost anima shards for the {achievement:14339} achievement.'
+L['options_icons_anima_shard_desc'] = 'Display the locations of all 50x {object:Anima Crystal Shard} for the {achievement:14339} achievement.'
 
-L['hymn_note'] = 'Locate hymns at each of the temples and acquire their buffs to earn the achievement.'
+L['hymn_note'] = 'Locate {object:Hymns} at each of the temples and acquire their buffs to earn the achievement.'
 L['options_icons_hymns'] = '{achievement:14768}'
-L['options_icons_hymns_desc'] = 'Display hymn locations for the {achievement:14768} achievement.'
+L['options_icons_hymns_desc'] = 'Display {object:Hymns} locations for the {achievement:14768} achievement.'
 
 L['stratios_note'] = 'Even the smallest battles should be fought with honor and care. Present your team when you are ready.'
 L['thenia_note'] = 'Such magnificent open plains here. A glorious place to battle. Are you prepared?'
@@ -297,7 +297,7 @@ L['soulshape_otter_soul'] = 'Target {npc:181682} and {emote:/hug}'
 ----------------------------------- KORTHIA -----------------------------------
 -------------------------------------------------------------------------------
 
-L['carriage_crusher_note'] = 'Follow the {npc:180182} into {location:the Maw} and defend it until the {npc:180246} attacks.'
+L['carriage_crusher_note'] = 'Follow the {npc:180182} into {location:The Maw} and defend it until the {npc:180246} attacks.'
 L['chamber_note'] = 'Use a {item:186718} from {npc:178257} on the {object:Ancient Teleporter} to access the chamber.'
 L['consumption_note'] = [[
 This rare will not drop loot until after it consumes 40x {npc:179758} to transform into its blue-shaded form (Rare).
@@ -317,10 +317,10 @@ L['sl_limited_rare'] = '{note:This rare is not available on some days.}'
 L['krelva_note'] = 'Moves to another platform at 80%, then moves to the mainland at 60%. {note:You must tag the rare after 60% to get kill credit!}'
 L['kroke_note'] = 'Slay {npc:179029s} in the area until he appears. Cannot spawn on days when {npc:179029s} are missing.'
 L['maelie_wanderer'] = '{npc:179912} will spawn in a set location for the day. Once you have used {spell:355862} on her 6 different days return to {npc:179930} to earn the mount.'
-L['malbog_note'] = 'Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the fleshy remains.'
+L['malbog_note'] = 'Talk to {npc:179729} to gain {spell:355078} and follow the foot prints until you find the {object:Fleshy Remains}.'
 L['offering_box_note'] = 'Requires {item:187033} which can be found on the top of the west side wall of the near by ruins.'
 L['pop_quiz_note'] = 'The Pop Quiz event will spawn randomly on the map. Click on the {object:Abandoned Veilstaff} and answer the questions from {npc:180162}.'
-L['razorwing_note'] = 'Hand in 10x {item:187054} dropped by devourers in the area.'
+L['razorwing_note'] = 'Hand in 10x {item:187054} dropped by {npc:Devourer} in the area.'
 L['reliwik_note'] = 'Click on the {object:Uncorrupted Razorwing Egg} to pull him down.'
 L['spectral_bound_chest'] = 'Spectral Bound Chest'
 L['spectral_bound_note'] = 'Click on 3 nearby {object:Spectral Key} to unlock the chest.'
@@ -336,7 +336,7 @@ L['options_icons_relic'] = '{achievement:15066}'
 L['options_icons_relic_desc'] = 'Display the locations of all 20 relics for {achievement:15066}.'
 
 L['rift_portal_note'] = [[
-Enter {location:The Rift}, an alternate phase of {location:Korthia} and {location:the Maw} with additional rares, relics and caches.
+Enter {location:The Rift}, an alternate phase of {location:Korthia} and {location:The Maw} with additional rares, relics and caches.
 
 Requires a {item:186731}, which can be purchased from {npc:178257} once you reach tier 4 with {faction:2472}. The keys also have a low chance to drop from rares and caches in the zone.
 
@@ -344,9 +344,9 @@ Requires a {item:186731}, which can be purchased from {npc:178257} once you reac
 ]]
 L['rift_rare_only_note'] = 'This rare can only be seen and killed inside {location:The Rift} phase.'
 L['rift_rare_exit_note'] = [[
-This rare will exit {location:The Rift} phase once interacted with inside {location:the rift}.
+This rare will exit {location:The Rift} phase once interacted with inside {location:The Rift}.
 
-The three rift rares typically spawn in a set order at about a 20 minute interval:
+{location:The Rift} three rares typically spawn in a set order at about a 20 minute interval:
 
   1. {npc:179913}
   2. {npc:179608}
@@ -356,9 +356,9 @@ L['options_icons_rift_portal'] = '{npc:179595s}'
 L['options_icons_rift_portal_desc'] = 'Display the locations of {npc:179595s} used to enter {location:The Rift}.'
 
 L['riftbound_cache'] = 'Riftbound Cache'
-L['riftbound_cache_note'] = 'There are 4 unique caches that can each appear at set locations inside {location:the rift}.'
+L['riftbound_cache_note'] = 'There are 4 unique caches that can each appear at set locations inside {location:The Rift}.'
 L['options_icons_riftbound_cache'] = 'Riftbound Caches'
-L['options_icons_riftbound_cache_desc'] = 'Display the locations of caches inside {location:The Rift}.'
+L['options_icons_riftbound_cache_desc'] = 'Display the locations of {object:Riftbound Caches} inside {location:The Rift}.'
 
 L['invasive_mawshroom'] = 'Invasive Mawshroom'
 L['invasive_mawshroom_note'] = 'There are 5 unique mawshrooms that can each appear at set locations.'
@@ -371,14 +371,14 @@ L['korthia_shared_chest_note'] = 'Can be looted 5 times for relics. Progress res
 L['unusual_nest'] = 'Nest of Unusual Materials'
 L['unusual_nest_note'] = 'All 5 nest locations can be looted each day.'
 
-L['options_icons_invasive_mawshroom_desc'] = 'Display the locations of Invasive Mawshrooms.'
+L['options_icons_invasive_mawshroom_desc'] = 'Display the locations of {object:Invasive Mawshrooms}.'
 L['options_icons_invasive_mawshroom'] = 'Invasive Mawshrooms'
-L['options_icons_korthia_dailies_desc'] = 'Display the locations of unmarked relic caches.'
+L['options_icons_korthia_dailies_desc'] = 'Display the locations of unmarked {object:Relic Caches}.'
 L['options_icons_korthia_dailies'] = 'Relic Caches'
-L['options_icons_mawsworn_cache_desc'] = 'Display the locations of Mawsworn Caches.'
+L['options_icons_mawsworn_cache_desc'] = 'Display the locations of {object:Mawsworn Caches}.'
 L['options_icons_mawsworn_cache'] = 'Mawsworn Caches'
-L['options_icons_nest_materials_desc'] = 'Display the locations of Nests of Unusual Materials.'
-L['options_icons_nest_materials'] = 'Nests of Unusual Materials'
+L['options_icons_nest_materials_desc'] = 'Display the locations of {object:Nest of Unusual Materials}.'
+L['options_icons_nest_materials'] = 'Nest of Unusual Materials'
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -429,7 +429,7 @@ Stand in the green slime (requires healing!) to get 10 stacks of {spell:330069} 
 
 Once transformed, visit the cave underneath {npc:158406}'s platform (entrance on the east side) and click the pipe to transport to the chest.
 ]]
-L['ritualists_cache_note'] = 'Pick up the {item:181558} on the floor and use them to complete the Book of Binding Rituals.'
+L['ritualists_cache_note'] = 'Pick up the {item:181558} on the floor and use them to complete the {object:Book of Binding Rituals}.'
 L['runespeakers_trove_note'] = 'Find {npc:170563} to the east and kill him to obtain the {item:181777}.'
 L['stolen_jar_note'] = 'Spawns in multiple different caves.'
 L['strange_growth_note'] = 'Pull on the {npc:165037} to reveal the treasure.'
@@ -456,7 +456,7 @@ To pull just the arm, only the 4x {spell:327367} are needed.
 ]]
 
 L['pet_cat'] = 'Pet the damn cat!'
-L['hairball'] = '{bug:Only appears in the Festering Sanctum inside the Plaguefall dungeon!}'
+L['hairball'] = '{note:Only appears in the {location:Festering Sanctum} inside the {location:Plaguefall dungeon}!}'
 L['lime'] = 'Sitting on top of the large bone arch.'
 L['moldstopheles'] = 'Run around the back of the stalk and jump up the mushroom platforms. For the final platform, use a mount and jump at the corner where it meets the stalk.'
 L['pus_in_boots'] = 'Located under the bridge.'
@@ -539,12 +539,12 @@ L['forgotten_anglers_rod'] = 'Forgotten Angler\'s Rod'
 L['loyal_gorger_note'] = 'Visit the {location:Endmire} and complete a daily offered by your {npc:173498} 7 times to obtain him as a mount.'
 
 L['sinrunner_note'] = 'Bring food and supplies to {npc:173468} for six days to obtain her reins. She only appears for a few minutes at a time.'
-L['sinrunner_note_day1'] = 'Offer {npc:Blanchy} 8 {item:182581} from farm areas in Westfall.'
-L['sinrunner_note_day2'] = 'Obtain a {item:182585} from {npc:173570} in {location:Darkhaven} and use it to clean {npc:Blanchy}.'
-L['sinrunner_note_day3'] = 'Equip {npc:Blanchy} with 4 {item:182595} found on the roads surrounding {location:Darkhaven}.'
-L['sinrunner_note_day4'] = 'Pick up the {item:182620} near {npc:173570} and fill it with water from {location:Bastion} or {location:Ardenweald}. Return the {item:182599} to {npc:Blanchy}.'
-L['sinrunner_note_day5'] = 'Equip {npc:Blanchy} with a {item:182597}, sold by {npc:171808} near the {location:Night Market} in exchange for assorted meats.'
-L['sinrunner_note_day6'] = 'Feed {npc:Blanchy} 3 {item:179271}, sold by {npc:167815} by the {location:Hole in the Wall}.'
+L['sinrunner_note_day1'] = 'Offer {npc:173468} 8x {item:182581} from farm areas in {location:Westfall}.'
+L['sinrunner_note_day2'] = 'Obtain a {item:182585} from {npc:173570} in {location:Darkhaven} and use it to clean {npc:173468}.'
+L['sinrunner_note_day3'] = 'Equip {npc:173468} with 4 {item:182595} found on the roads surrounding {location:Darkhaven}.'
+L['sinrunner_note_day4'] = 'Pick up the {item:182620} near {npc:173570} and fill it with water from {location:Bastion} or {location:Ardenweald}. Return the {item:182599} to {npc:173468}.'
+L['sinrunner_note_day5'] = 'Equip {npc:173468} with a {item:182597}, sold by {npc:171808} near the {location:Night Market} in exchange for assorted meats.'
+L['sinrunner_note_day6'] = 'Feed {npc:173468} 3 {item:179271}, sold by {npc:167815} by the {location:Hole in the Wall}.'
 
 L['options_icons_carriages'] = 'Carriages'
 L['options_icons_carriages_desc'] = 'Display locations and paths of rideable carriages.'
@@ -561,15 +561,15 @@ L['avowed_ritualist_note'] = 'Bring nearby {npc:160149s} here to absolve them.'
 L['fugitive_soul_note'] = 'Bring this {npc:160149} to a nearby {npc:166150} to begin a ritual of absolution.'
 L['souls_absolved'] = 'souls absolved'
 L['options_icons_fugitives'] = '{achievement:14274}'
-L['options_icons_fugitives_desc'] = 'Display fugitive soul locations for the {achievement:14274} achievement.'
+L['options_icons_fugitives_desc'] = 'Display {npc:160149} locations for the {achievement:14274} achievement.'
 
-L['grand_inquisitor_note'] = 'Turn in 10 {item:180451} to {npc:160248} for a chance at this sinstone.'
-L['high_inquisitor_note'] = 'Turn in 250 {currency:1816} to {npc:160248} for a chance at this sinstone.'
-L['inquisitor_note'] = 'Turn in 100 {currency:1816} to {npc:160248} for a chance at this sinstone.'
+L['grand_inquisitor_note'] = 'Turn in 10x {item:180451} to {npc:160248} for a chance at this sinstone.'
+L['high_inquisitor_note'] = 'Turn in 250x {currency:1816} to {npc:160248} for a chance at this sinstone.'
+L['inquisitor_note'] = 'Turn in 100x {currency:1816} to {npc:160248} for a chance at this sinstone.'
 L['options_icons_inquisitors'] = 'Inquisitors'
-L['options_icons_inquisitors_desc'] = 'Display inquisitor locations for the {achievement:14276} achievement.'
+L['options_icons_inquisitors_desc'] = 'Display inquisitors locations for the {achievement:14276} achievement.'
 
-L['bell_of_shame_note'] = 'Every 30 minutes a random ghost will spawn next to {npc:176006}.\n\nRepair the {npc:176056} for 30 {currency:1820} and then ring the bell to receive a buff from the active ghost.\n\nOne of the ghosts, {npc:176043}, gives {spell:346708} which provides an increased {item:172957} drop rate within the surrounding |cFFFFFD00Halls of Atonement|r area.'
+L['bell_of_shame_note'] = 'Every 30 minutes a random ghost will spawn next to {npc:176006}.\n\nRepair the {npc:176056} for 30 {currency:1820} and then ring the bell to receive a buff from the active ghost.\n\nOne of the ghosts, {npc:176043}, gives {spell:346708} which provides an increased {item:172957} drop rate within the surrounding {location:Halls of Atonement} area.'
 L['atonement_crypt_label'] = 'Atonement Crypt'
 L['atonement_crypt_note'] = 'Open an {object:Crypt Door} using an {item:172957}.'
 L['atonement_crypts_opened'] = 'Atonement Crypts opened'
@@ -609,7 +609,7 @@ L['broken_mirror_61818'] = 'In a small room with {npc:173699}.'
 L['broken_mirror_61819'] = 'In a small room on the ground floor.'
 L['broken_mirror_61827'] = 'In a small room.'
 L['options_icons_broken_mirror'] = 'Broken Mirrors'
-L['options_icons_broken_mirror_desc'] = 'Display the locations of {object:Broken Mirror}.'
+L['options_icons_broken_mirror_desc'] = 'Display the locations of {object:Broken Mirrors}.'
 
 L['soulshape_chicken_note'] = [[
 1. Collect {item:187811} from {location:Darkhaven}
@@ -630,15 +630,15 @@ L['spectral_feed_note'] = [[
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L['return_to_the_maw'] = 'Return to {location:the Maw}'
-L['maw_intro_note'] = 'Begin the introductory quest chain from {npc:162804} to unlock rares and events in {location:the maw}.'
+L['return_to_the_maw'] = 'Return to {location:The Maw}'
+L['maw_intro_note'] = 'Begin the introductory quest chain from {npc:162804} to unlock rares and events in {location:The Maw}.'
 
 L['apholeias_note'] = 'With 3 other players, stand on the corners of the platform and cast {spell:331783} to summon the rare.'
 L['dekaris_note'] = 'On top of a large jutting rock.'
 L['deomen_note'] = 'To open his cage, enter the chamber to the south and activate both lock controls on either side of the room.'
 L['drifting_sorrow_note'] = 'Kill {npc:175246s} near the hovering orb to activate the boss.'
 L['ekphoras_note'] = 'With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare.'
-L['etherwyrm_note'] = 'Requires the Night Fae assault to be active. Kill an {npc:179030} while in {location:the rift} to gain the {item:186190}. Use the key on the {object:Etherwyrm Cage} (outside the rift) in the {location:Desolate Hollow cavern} (where {npc:175821} resides when the assault is not active).'
+L['etherwyrm_note'] = 'Requires the Night Fae assault to be active. Kill an {npc:179030} while in {location:The Rift} to gain the {item:186190}. Use the key on the {object:Etherwyrm Cage} (outside {location:The Rift}) in the {location:Desolate Hollow cavern} (where {npc:175821} resides when the assault is not active).'
 L['fallen_charger_note'] = 'After the zone-wide yell it will take either of the two paths until it reaches {location:Korthia} where it will despawn.'
 L['ikras_note'] = 'Flies around Perdition Hold. This is a good place to pull him.'
 L['lilabom_note'] = [[
@@ -667,10 +667,10 @@ Kill the other three Heralds of Grief, Pain and Loss to collect their etchings.
 Combine all three etchings to create the {item:182329}, which can be used to summon the rare at the {location:Altar of Domination}. Use the {npc:173892} to reach the upper level.
 ]]
 
-L['animaflow_teleporter_note'] = 'Activate to travel directly to other locations in {location:the Maw}.'
-L['chaotic_riftstone_note'] = 'Activate to {spell:344157} quickly across {location:the Maw}.'
+L['animaflow_teleporter_note'] = 'Activate to travel directly to other locations in {location:The Maw}.'
+L['chaotic_riftstone_note'] = 'Activate to {spell:344157} quickly across {location:The Maw}.'
 L['venari_note'] = [[
-Use {currency:1767} to purchase Maw and Torghast upgrades.
+Use {currency:1767} to purchase {location: The Maw} and {location:Torghast} upgrades.
 
 {note:Account-wide {location:Torghast} upgrades will show as incomplete on alts!}
 ]]
@@ -751,29 +751,29 @@ L['nexus_misc_three_chains'] = 'On the ground by three chains'
 L['stolen_anima_vessel'] = 'Stolen Anima Vessel'
 L['hidden_anima_cache'] = 'Hidden Anima Cache'
 L['options_icons_anima_vessel'] = 'Stolen Anima Vessels'
-L['options_icons_anima_vessel_desc'] = 'Display the locations of anima vessels during assaults and inside |cFFFFFF00The Rift|r.'
+L['options_icons_anima_vessel_desc'] = 'Display the locations of {object:Stolen Anima Vessels} during assaults and inside {location:The Rift}.'
 
 L['rift_hidden_cache'] = 'Rift Hidden Cache'
 L['options_icons_rift_hidden_cache'] = 'Rift Hidden Caches'
-L['options_icons_rift_hidden_cache_desc'] = 'Display the locations of caches inside |cFFFFFF00The Rift|r.'
+L['options_icons_rift_hidden_cache_desc'] = 'Display the locations of {object:Rift Hidden Caches} inside {location:The Rift}.'
 
 L['options_icons_bonus_boss'] = 'Bonus Elites'
 L['options_icons_bonus_boss_desc'] = 'Display locations of bonus elites.'
 L['options_icons_riftstone'] = '{npc:174962s}'
-L['options_icons_riftstone_desc'] = 'Display the locations of chaotic riftstone teleporters.'
+L['options_icons_riftstone_desc'] = 'Display the locations of {object:Chaotic Riftstones} teleporters.'
 L['options_icons_grapples'] = '{npc:176308s}'
-L['options_icons_grapples_desc'] = 'Display grapple locations for the {item:184653} upgrade.'
+L['options_icons_grapples_desc'] = 'Display {npc:176308s} locations for the {item:184653} upgrade.'
 L['options_icons_stygia_nexus'] = 'Stygia Nexus'
-L['options_icons_stygia_nexus_desc'] = 'Display nexus locations needed for the {item:184168} mount.'
+L['options_icons_stygia_nexus_desc'] = 'Display {object:Stygia Nexus} locations needed for the {item:184168} mount.'
 L['options_icons_stygian_caches'] = 'Stygian Caches'
-L['options_icons_stygian_caches_desc'] = 'Display cache locations containing extra Stygia.'
+L['options_icons_stygian_caches_desc'] = 'Display {object:Stygian Caches} locations containing extra Stygia.'
 
 L['cov_assault_only'] = 'Only available during the %s assault.'
 
 L['helgarde_supply'] = 'Helgarde Supply Cache'
 L['helgarde_supply_note'] = 'Spawns throughout the {location:Desmotaeron} area. Your {npc:180598} can help you locate them.'
 L['options_icons_helgarde_cache'] = 'Helgarde Supply Caches'
-L['options_icons_helgarde_cache_desc'] = 'Display possible locations for {object:Helgarde Supply Cache} in the {location:Desmotaeron} area.'
+L['options_icons_helgarde_cache_desc'] = 'Display possible locations for {object:Helgarde Supply Caches} in the {location:Desmotaeron} area.'
 
 L['mawsworn_cache_ramparts_note'] = 'This cache is on top of the ramparts. Use the grapple points or a {npc:177093} to reach them.'
 L['mawsworn_cache_tower_note'] = 'This cache is on top of the tower and requires a {npc:177093} to reach. Use the {spell:349853} ability to climb up.'
@@ -790,7 +790,7 @@ L['nilg_stone_ring_note2'] = 'Complete the {quest:63545} quest, then loot {objec
 L['nilg_stone_ring_note3'] = 'Looted from {npc:179601} in the center area of {location:Perdition Hold}.'
 L['nilg_stone_ring_note4'] = 'Found on the ground in {location:Perdition Hold} near {npc:170634}. Your {npc:180598} can help you locate it.'
 L['nilg_gold_band_note'] = 'Use the grapple point and follow the path up to the top of the mountain.'
-L['nilganihmaht_note'] = 'You must collect the 5 rings and bring them to {npc:179572} in the rift.'
+L['nilganihmaht_note'] = 'You must collect the 5 rings and bring them to {npc:179572} in  {location:The Rift}.'
 L['calcis'] = 'Calcis'
 L['desmotaeron'] = 'Desmotaeron'
 
@@ -802,11 +802,11 @@ L['tormentors'] = 'Tormentors of Torghast'
 L['tormentors_note'] = [[
 A tormentor event spawns every 2 hours on the hour. The bosses will always spawn in the order listed below.
 
-The {item:185972} can be looted once a week and contains 50 {currency:1906}.
+The {item:185972} can be looted once a week and contains 50x {currency:1906}.
 ]]
 
 L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
-L['options_icons_mawsworn_blackguard_desc'] = '{npc:183173} locations for {achievement:14742}'
+L['options_icons_mawsworn_blackguard_desc'] = '{npc:183173s} locations for {achievement:14742}'
 
 L['mawsworn_blackguard'] = 'Mawsworn Blackguard'
 L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
@@ -821,13 +821,13 @@ L['assault_sublabel_AS'] = 'Assaults change on Thursday at 8 AM KST and Sunday a
 
 L['necrolord_assault'] = '{quest:63543}'
 L['necrolord_assault_note'] = 'The {item:185992} can be looted once per assault'
-L['necrolord_assault_quantity_note'] = 'Mawsworn Caches opened'
+L['necrolord_assault_quantity_note'] = '{object:Mawsworn Caches} opened'
 L['venthyr_assault'] = '{quest:63822}'
 L['venthyr_assault_note'] = 'The {item:185990} can be looted once per assault'
 L['venthyr_assault_quantity_note'] = 'Items used'
 L['night_fae_assault'] = '{quest:63823}'
 L['night_fae_assault_note'] = 'The {item:185991} can be looted once per assault'
-L['night_fae_assault_quantity_note'] = 'Rift Hidden Cache opened'
+L['night_fae_assault_quantity_note'] = '{object:Rift Hidden Caches} opened'
 L['kyrian_assault'] = '{quest:63824}'
 L['kyrian_assault_note'] = 'The {item:185993} can be looted once per assault'
 L['kyrian_assault_quantity_note1'] = '{npc:179096} found'
@@ -840,7 +840,7 @@ L['kyrian_assault_quantity_note2'] = '{emote:/dance} near forges'
 L['torghast_the_tower_of_the_damned'] = 'Torghast, the Tower of the Damned'
 L['torghast_reward_sublabel'] = '{note:Rewards shared between most wings}'
 L['torghast_boss_note'] = 'Dropped by various bosses throughout {location:Torghast, the Tower of the Damned} '
-L['torghast_vendor_note'] = 'Sold by vendors {npc:152594} and {npc:170257} for 300 {currency:1728} or 1,000 {currency:1728}'
+L['torghast_vendor_note'] = 'Sold by vendors {npc:152594} and {npc:170257} for 300x {currency:1728} or 1,000x {currency:1728}.'
 L['torghast_reward_note'] = 'Earned throughout {location:Torghast, the Tower of the Damned} '
 L['torghast_soulshape_note'] = 'Layer 12+'
 L['colossal_umbrahide_mawrat_note'] = 'Layer 13+'
@@ -885,9 +885,9 @@ To access the {location:%s Alcove}:
 
 1. Complete chapter 6 of the {location:Zereth Mortis} campaign.
 2. Find the {object:%s Alcove Arrangement} %s.
-3. In the {location:Resonant Peaks}, Kill the mobs who have {spell:362651} or stand in white pool to got 60 {npc:183569}.
-4. Use the {npc:184329} inside the {location:Gravid Repose} to access the {location:Inner Chamber}. (Requires 30 {npc:183569})
-5. Use {npc:184485} to access the {location:%s Alcove}. (Requires 30 {npc:183569})
+3. In the {location:Resonant Peaks}, Kill the mobs who have {spell:362651} or stand in white pool to got 60 stacks of {npc:183569}.
+4. Use the {npc:184329} inside the {location:Gravid Repose} to access the {location:Inner Chamber}. (Requires 30x {npc:183569})
+5. Use {npc:184485} to access the {location:%s Alcove}. (Requires 30x {npc:183569})
 ]]
 
 L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Camber', 'Camber', 'behind the building at the {location:Ultimus Locus}', 'Camber')
@@ -1049,7 +1049,7 @@ L['concordance_mercurial'] = 'Mercurial Concordance'
 L['concordance_tranquil'] = 'Tranquil Concordance'
 L['concordance_note'] = 'Read each concordance to unlock entries at the {object:Lore Console} in {location:Exile\'s Hollow}.'
 
-L['echoed_jiro_note'] = 'Spend {npc:181059} energy to gain temporary buffs. Requires |cFFFFFD00Creatian|r research at the {npc:181397}.'
+L['echoed_jiro_note'] = 'Spend {npc:181059} energy to gain temporary buffs. Requires {object:Creatian} research at the {npc:181397}.'
 
 L['bygone_elemental_note'] = 'A {npc:181221} can spawn in place of any {npc:179007} in the area.'
 L['dominated_irregular_note'] = 'A {npc:184819} can spawn in place of any {npc:183184} in the area.'
@@ -1058,7 +1058,7 @@ L['misaligned_enforcer_note'] = 'Spawns here. Patrols the area and then despawns
 L['overcharged_vespoid_note'] = 'Can spawn as part of any swarm pack in the area.'
 L['runethief_xylora_note'] = 'Spawns stealthed in the {location:Pilgrim\'s Grace} area.'
 
-local proto_area = 'Chance to be found in forges around the {location:%s}.'
+local proto_area = 'Chance to be found in forges around the {object:%s}.'
 L['proto_material_zone_chance'] = 'Chance to be found in select forges across the zone.'
 L['anima_charged_yolk_note'] = 'Collect {item:187728} from any forge and combine them into an {item:187787}, which has a chance to contain an {item:187890}.'
 L['energized_firmament_note'] = string.format(proto_area, 'Resonant Peaks')
@@ -1098,9 +1098,9 @@ L['venaris_fate_note'] = [[
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Display creature locations for the {achievement:15211} achievement.'
 L['options_icons_concordances'] = 'Lore Concordances'
-L['options_icons_concordances_desc'] = 'Display locations of lore concordance consoles.'
-L['options_icons_echoed_jiros'] = 'Echoed Jiro'
-L['options_icons_echoed_jiros_desc'] = 'Display locations of |cFFFFFD00Echoed Jiro|r offering buffs.'
+L['options_icons_concordances_desc'] = 'Display locations of {object:Lore Concordance Consoles}.'
+L['options_icons_echoed_jiros'] = 'Echoed Jiros'
+L['options_icons_echoed_jiros_desc'] = 'Display locations of {object:Echoed Jiros} offering buffs.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Display tale locations for the {achievement:15509} achievement.'
 L['options_icons_proto_materials'] = '{achievement:15229}'
@@ -1108,12 +1108,12 @@ L['options_icons_proto_materials_desc'] = 'Display rare protoform material locat
 L['options_icons_protoform_schematics'] = 'Protoform Schematics'
 L['options_icons_protoform_schematics_desc'] = 'Display locations of mount and pet schematics.'
 L['options_icons_puzzle_caches'] = 'Puzzle Caches'
-L['options_icons_puzzle_caches_desc'] = 'Display possible locations of puzzle caches.'
+L['options_icons_puzzle_caches_desc'] = 'Display possible locations of {object:Puzzle Caches}.'
 L['options_icons_zereth_caches'] = 'Cypher Caches'
-L['options_icons_zereth_caches_desc'] = 'Display possible locations for cypher caches.'
+L['options_icons_zereth_caches_desc'] = 'Display possible locations for {object:Cypher Caches}.'
 L['options_icons_shrouded_cyphers'] = 'Shrouded Cypher Caches'
-L['options_icons_shrouded_cyphers_desc'] = 'Display possible locations for hidden cypher caches.'
+L['options_icons_shrouded_cyphers_desc'] = 'Display possible locations for hidden {object:Shrouded Cypher Caches}.'
 L['options_icons_mawsworn_supply_cache'] = 'Mawsworn Supply Caches'
-L['options_icons_mawsworn_supply_cache_desc'] = 'Display possible locations for mawsworn supply caches.'
+L['options_icons_mawsworn_supply_cache_desc'] = 'Display possible locations for {object:Mawsworn Supply Caches}.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Coreless automa locations for the {achievement:15542} achievement.'

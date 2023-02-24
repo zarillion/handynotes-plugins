@@ -78,7 +78,7 @@ L['book_6'] = 'Book 6 (Friday)'
 L['book_7'] = 'Book 7 (Saturday)'
 
 L['higher_dimensional_learning_location'] = 'Located at the top of the tower.'
-L['higher_dimensional_learning_note'] = 'Purchase {item:129276} from {npc:107376} at |cFFFFFD00Crumbled Palace|r. Use {item:129276} each day to be teleported to a different book location.\n\nBook 1: Sunday\nBook 2: Monday\nBook 3: Tuesday\nBook 4: Wednesday\nBook 5: Thursday\nBook 6: Friday\nBook 7: Saturday'
+L['higher_dimensional_learning_note'] = 'Purchase {item:129276} from {npc:107376} at {location:Crumbled Palace}. Use {item:129276} each day to be teleported to a different book location.\n\nBook 1: Sunday\nBook 2: Monday\nBook 3: Tuesday\nBook 4: Wednesday\nBook 5: Thursday\nBook 6: Friday\nBook 7: Saturday'
 L['higher_dimensional_learning_disclaimer'] = '{note:Teleporting to a book location does not guarentee the book will spawn. You may need to wait or check back later.}'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
