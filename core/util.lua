@@ -42,7 +42,8 @@ function NameResolver:Resolve(link)
             for _, line in ipairs(tooltipData.lines) do
                 TooltipUtil.SurfaceArgs(line)
             end
-            name = tooltipData.lines[1] and tooltipData.lines[1].leftText or UNKNOWN
+            local line = tooltipData.lines[1]
+            name = line and line.leftText or UNKNOWN
         end
         if name == UNKNOWN then
             ns.Debug('NameResolver returned UNKNOWN')
