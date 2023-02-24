@@ -152,7 +152,7 @@ L'option Âme de Chat (Bien Nourri) deviendra immédiatement disponible en parla
 ----------------------------------- BASTION -----------------------------------
 -------------------------------------------------------------------------------
 
-L['aegeon_note'] = 'Tuez des ennemis dans les environs jusqu\'à l\'apparition d\'{npc:Aegéon} en renfort.'
+L['aegeon_note'] = 'Tuez des ennemis dans les environs jusqu\'à l\'apparition d\'{npc:171009} en renfort.'
 L['ascended_council_note'] = 'Avec quatre autres joueurs, cliquez sur les cinq {object:Vêpres} de la pureté, du courage, de l\'humilité, de la sagesse et de la loyauté en même temps. Ensuite, dirigez-vous vers le {location:Creuset de l\'aspirant} pour vaincre le Conseil des Transcendés et révéler la cache.'
 L['aspirant_eolis_note'] = 'Prenez un {item:180613} à proximité et lisez-le avec le PNJ ciblé pour l\'activer.'
 L['baedos_note'] = 'Transportez les {object:Fûts de fruits de purian fermentés} des alentours vers {npc:161536} jusqu\'à son activation.'
@@ -212,9 +212,9 @@ L'orbe vous emmènera au véritable {object:Encens du jugement}. Communiez avec 
 ]]
 L['gift_of_vesiphone'] = 'Sonnez une des cloches pour faire apparaître une {npc:170849} et tuez-la pour recevoir le debuff {spell:333239}. L\'eau qui tombe en face du coffre supprimera ce debuff et vous donnera {spell:332785}.'
 
-L['count_your_blessings_note'] = 'Placez un {item:178915} dans le bol de tribut pour recevoir la bénédiction.'
+L['count_your_blessings_note'] = 'Placez un {item:178915} dans le bol de {object:Tribut} pour recevoir la bénédiction.'
 L['options_icons_blessings'] = '{achievement:14767}'
-L['options_icons_blessings_desc'] = 'Afficher les emplacements des tributs pour le haut-fait {achievement:14767}.'
+L['options_icons_blessings_desc'] = 'Afficher les emplacements des {object:Tributs} pour le haut-fait {achievement:14767}.'
 
 L['vesper_of_courage'] = 'Vêpre du Courage'
 L['vesper_of_humility'] = 'Vêpre de l\'Humilité'
@@ -225,7 +225,7 @@ L['vespers_ascended_note'] = 'Cliquez sur cette vêpre en même temps que les qu
 L['options_icons_vespers'] = '{achievement:14734}'
 L['options_icons_vespers_desc'] = 'Afficher les emplacements des vêpres pour le haut-fait {achievement:14734}.'
 
-L['anima_shard'] = 'Eclat de cristal d\'Anima perdu'
+L['anima_shard'] = 'Éclat de cristal d\'anima'
 L['anima_shard_61225'] = 'Sur une plate-forme inférieure sous le pont.'
 L['anima_shard_61235'] = 'Sur un rebord au-dessus de la cascade.'
 L['anima_shard_61236'] = 'Au sommet d\'une arche à mi-chemin de la structure principale.'
@@ -278,11 +278,11 @@ L['anima_shard_61299'] = 'Caché derrière une grande torche.'
 L['anima_shard_61300'] = 'Sur un rebord surplombant la fontaine centrale.'
 L['anima_shard_spires'] = 'Trois éclats de cristal sont situés dans le donjon des {location:Flèches de l\'Ascension}.'
 L['options_icons_anima_shard'] = 'Éclats de cristal d\'anima perdus'
-L['options_icons_anima_shard_desc'] = 'Afficher les emplacements des 50 éclats de cristal d\'anima perdus pour l\'exploit Mission éclatante.'
+L['options_icons_anima_shard_desc'] = 'Afficher les emplacements des 50 {object:Éclats de cristal d\'anima} pour l\'exploit Mission éclatante.'
 
-L['hymn_note'] = 'Trouvez les hymnes dans chacun des temples et obtenez leurs buffs pour obtenir le haut-fait.'
+L['hymn_note'] = 'Trouvez les {object:Hymnes} dans chacun des temples et obtenez leurs buffs pour obtenir le haut-fait.'
 L['options_icons_hymns'] = '{achievement:14768}'
-L['options_icons_hymns_desc'] = 'Afficher les emplacements des hymnes pour le haut-fait {achievement:14768}.'
+L['options_icons_hymns_desc'] = 'Afficher les emplacements des {object:Hymnes} pour le haut-fait {achievement:14768}.'
 
 L['stratios_note'] = 'Même les plus petites batailles doivent être menées avec honneur et prudence. Présentez votre équipe quand vous êtes prêt.'
 L['thenia_note'] = 'Quelles magnifiques plaines dégagées ici. Un endroit glorieux pour se battre. Êtes-vous prêt ?'
@@ -317,7 +317,7 @@ L['maelie_wanderer'] = '{npc:179912} apparaîtra à un endroit défini pour la j
 L['malbog_note'] = 'Parlez au {npc:179729} pour obtenir {spell:355078} et suivez les traces de pas jusqu\'à ce que vous trouviez les {object:Restes de chair}.'
 L['offering_box_note'] = 'Requiert une {item:187033} qui peut être trouvée sur le haut du mur ouest des ruines voisines.'
 L['pop_quiz_note'] = 'L\'événement Pop Quizz apparaîtra aléatoirement sur la carte. Cliquez sur le {object:Mât voilé abandonné} et répondez aux questions de {npc:180162}.'
-L['razorwing_note'] = 'Apportez 10 {item:187054} obtenus sur les dévoreurs dans la zone.'
+L['razorwing_note'] = 'Apportez 10 {item:187054} obtenus sur les {npc:Dévoreurs} dans la zone.'
 L['reliwik_note'] = 'Cliquez sur l\'{object:Œuf de rasaile inaltéré} pour le faire descendre.'
 L['spectral_bound_chest'] = 'Cliquez sur 3 {object:Clés spectrales} proches pour déverrouiller le coffre.'
 L['spectral_bound_note'] = 'Coffre cerclé spectral'
@@ -355,7 +355,7 @@ L['options_icons_rift_portal_desc'] = 'Afficher les emplacements des {npc:179595
 L['riftbound_cache'] = 'Cache liée à la faille'
 L['riftbound_cache_note'] = 'Il y a 4 caches uniques qui peuvent apparaître à des endroits précis dans {location:La Faille}.'
 L['options_icons_riftbound_cache'] = 'Caches liées à la faille'
-L['options_icons_riftbound_cache_desc'] = 'Afficher les emplacements des caches à l\'intérieur de {location:La Faille}.'
+L['options_icons_riftbound_cache_desc'] = 'Afficher les emplacements des {object:Caches liées à la faille} à l\'intérieur de {location:La Faille}.'
 
 L['invasive_mawshroom'] = 'Champignantre envahissant'
 L['invasive_mawshroom_note'] = 'Il y a 5 champignantres uniques qui peuvent chacun apparaître à des endroits précis.'
@@ -368,13 +368,13 @@ L['korthia_shared_chest_note'] = 'Peuvent être pillés 5 fois pour des reliques
 L['unusual_nest'] = 'Tas de matériaux inhabituels.'
 L['unusual_nest_note'] = 'Les 5 emplacements de nids peuvent être pillés chaque jour.'
 
-L['options_icons_invasive_mawshroom_desc'] = 'Afficher les emplacements des Champignantres envahissants.'
+L['options_icons_invasive_mawshroom_desc'] = 'Afficher les emplacements des {object:Champignantres envahissants}.'
 L['options_icons_invasive_mawshroom'] = 'Champignantres envahissants'
-L['options_icons_korthia_dailies_desc'] = 'Afficher les emplacements des Caches à reliques non marquées.'
+L['options_icons_korthia_dailies_desc'] = 'Afficher les emplacements des {object:Caches à reliques non marquées}.'
 L['options_icons_korthia_dailies'] = 'Caches à reliques'
-L['options_icons_mawsworn_cache_desc'] = 'Afficher les emplacements des Caches antreliges.'
+L['options_icons_mawsworn_cache_desc'] = 'Afficher les emplacements des {object:Caches antreliges}.'
 L['options_icons_mawsworn_cache'] = 'Caches antreliges'
-L['options_icons_nest_materials_desc'] = 'Afficher les emplacements des Tas de matériaux inhabituels.'
+L['options_icons_nest_materials_desc'] = 'Afficher les emplacements des {object:Tas de matériaux inhabituels}.'
 L['options_icons_nest_materials'] = 'Tas de matériaux inhabituels'
 
 -------------------------------------------------------------------------------
@@ -451,7 +451,7 @@ Pour retirer seulement le bras, seuls quatre 4x {spell:327367} sont nécessaires
 ]]
 
 L['pet_cat'] = 'Caressez ce satané chat !'
-L['hairball'] = '{bug:N\'apparaît que dans le {location:Sanctuaire Purulent} à l\'intérieur du donjon {location:Malepeste} !}'
+L['hairball'] = '{note:N\'apparaît que dans le {location:Sanctuaire Purulent} à l\'intérieur du donjon {location:Malepeste} !}'
 L['lime'] = 'Située au sommet de la grande arche osseuse.'
 L['moldstopheles'] = 'Courez à l\'arrière de la tige et sautez sur les plates-formes en champignons. Pour la dernière plate-forme, utilisez une monture et sautez à l\'angle où il rencontre la tige.'
 L['pus_in_boots'] = 'Situé sous le pont.'
@@ -534,12 +534,12 @@ L['forgotten_anglers_rod'] = 'Canne à pêche oubliée'
 L['loyal_gorger_note'] = 'Visitez le {location:Marais des Affres} et complétez une quête journalière offerte par votre {npc:173498} 7 fois pour l\'obtenir en tant que monture.'
 
 L['sinrunner_note'] = 'Apportez de la nourriture et des fournitures à {npc:173468} pendant six jours pour obtenir ses rênes. Elle ne se présente que quelques minutes à la fois.'
-L['sinrunner_note_day1'] = 'Offrez à {npc:Blanchette} 8 {item:182581} provenant de zones agricoles de la {location:Marche de L\'Ouest}.'
-L['sinrunner_note_day2'] = 'Obtenez une {item:182585} de {npc:173570} à {location:Sombrehavre} et utilisez-la pour nettoyer {npc:Blanchette}.'
-L['sinrunner_note_day3'] = 'Equiper {npc:Blanchette} avec 4 {item:182595} trouvés sur les routes entourant {location:Sombrehavre}.'
-L['sinrunner_note_day4'] = 'Ramassez un {item:182620} près de {npc:173570} et remplissez-le avec de l\'eau provenant de {location:Bastion} ou de {location:Sylvarden}. Ramenez le {item:182599} à {npc:Blanchette}.'
-L['sinrunner_note_day5'] = 'Equipez {npc:Blanchette} d\'un {item:182597}, vendu par {npc:171808} près du {location:Marché Nocturne} en échange de viandes assorties.'
-L['sinrunner_note_day6'] = 'Nourrissez {npc:Blanchette} avec 3 {item:179271}, vendus par {npc:167815} à la {location:Gargote}.'
+L['sinrunner_note_day1'] = 'Offrez à {npc:173468} 8x {item:182581} provenant de zones agricoles de la {location:Marche de L\'Ouest}.'
+L['sinrunner_note_day2'] = 'Obtenez une {item:182585} de {npc:173570} à {location:Sombrehavre} et utilisez-la pour nettoyer {npc:173468}.'
+L['sinrunner_note_day3'] = 'Equiper {npc:173468} avec 4 {item:182595} trouvés sur les routes entourant {location:Sombrehavre}.'
+L['sinrunner_note_day4'] = 'Ramassez un {item:182620} près de {npc:173570} et remplissez-le avec de l\'eau provenant de {location:Bastion} ou de {location:Sylvarden}. Ramenez le {item:182599} à {npc:173468}.'
+L['sinrunner_note_day5'] = 'Equipez {npc:173468} d\'un {item:182597}, vendu par {npc:171808} près du {location:Marché Nocturne} en échange de viandes assorties.'
+L['sinrunner_note_day6'] = 'Nourrissez {npc:173468} avec 3 {item:179271}, vendus par {npc:167815} à la {location:Gargote}.'
 
 L['options_icons_carriages'] = 'Calèches'
 L['options_icons_carriages_desc'] = 'Afficher les emplacements et les parcours des calèches.'
@@ -556,11 +556,11 @@ L['avowed_ritualist_note'] = 'Rassemblez les {npc:160149s} à proximité pour le
 L['fugitive_soul_note'] = 'Amenez cette {npc:160149} à un {npc:166150} proche pour commencer un rituel d\'absolution.'
 L['souls_absolved'] = 'âmes absoutes'
 L['options_icons_fugitives'] = '{achievement:14274}'
-L['options_icons_fugitives_desc'] = 'Afficher les emplacements des âmes fugitives pour le haut-fait {achievement:14274}.'
+L['options_icons_fugitives_desc'] = 'Afficher les emplacements des {npc:160149} pour le haut-fait {achievement:14274}.'
 
-L['grand_inquisitor_note'] = 'Donnez 10 {item:180451} à l\'{npc:160248} pour avoir une chance d\'obtenir cette {object:Stèle du vice}.'
-L['high_inquisitor_note'] = 'Donnez 250 {currency:1816} à l\'{npc:160248} pour avoir une chance d\'obtenir cette {object:stèle du vice}.'
-L['inquisitor_note'] = 'Donnez 100 {currency:1816} à l\'{npc:160248} our avoir une chance d\'obtenir cette stèle {object:du vice}.'
+L['grand_inquisitor_note'] = 'Donnez 10x {item:180451} à l\'{npc:160248} pour avoir une chance d\'obtenir cette {object:Stèle du vice}.'
+L['high_inquisitor_note'] = 'Donnez 250x {currency:1816} à l\'{npc:160248} pour avoir une chance d\'obtenir cette {object:stèle du vice}.'
+L['inquisitor_note'] = 'Donnez 100x {currency:1816} à l\'{npc:160248} our avoir une chance d\'obtenir cette stèle {object:du vice}.'
 L['options_icons_inquisitors'] = 'Inquisiteurs'
 L['options_icons_inquisitors_desc'] = 'Afficher les emplacements des inquisiteurs pour le haut-fait {achievement:14276}.'
 
@@ -750,22 +750,22 @@ L['nexus_misc_three_chains'] = 'Sur le sol près de trois chaînes'
 L['stolen_anima_vessel'] = 'Réceptacle d’anima volé'
 L['hidden_anima_cache'] = 'Cache d\'Anima cachée'
 L['options_icons_anima_vessel'] = 'Réceptacles d’anima volés'
-L['options_icons_anima_vessel_desc'] = 'Afficher les emplacements des réceptacles d’anima pendant les Assauts et à l\'intérieur de {location:La Faille}.'
+L['options_icons_anima_vessel_desc'] = 'Afficher les emplacements des {object:Réceptacles d’anima volés} pendant les Assauts et à l\'intérieur de {location:La Faille}.'
 
 L['rift_hidden_cache'] = 'Cache secrète de la faille'
 L['options_icons_rift_hidden_cache'] = 'Caches secrètes de la faille'
-L['options_icons_rift_hidden_cache_desc'] = 'Afficher les emplacements des caches à l\'intérieur de {location:La Faille}.'
+L['options_icons_rift_hidden_cache_desc'] = 'Afficher les emplacements des {object:Caches secrètes de la faille} à l\'intérieur de {location:La Faille}.'
 
 L['options_icons_bonus_boss'] = 'Élites bonus'
 L['options_icons_bonus_boss_desc'] = 'Afficher les emplacements des élites bonus.'
 L['options_icons_riftstone'] = '{npc:174962s}'
-L['options_icons_riftstone_desc'] = 'Afficher les emplacements des téléporteurs de Failles Chaotiques'
+L['options_icons_riftstone_desc'] = 'Afficher les emplacements des {object:Téléporteurs de Failles Chaotiques}'
 L['options_icons_grapples'] = '{npc:176308s}'
-L['options_icons_grapples_desc'] = 'Afficher les emplacements des grappins pour l\'amélioration {item:184653}.'
+L['options_icons_grapples_desc'] = 'Afficher les emplacements des {npc:176308s} pour l\'amélioration {item:184653}.'
 L['options_icons_stygia_nexus'] = 'Nexus de stygies'
-L['options_icons_stygia_nexus_desc'] = 'Afficher les emplacements des Nexus de stygies nécessaires pour la monture {item:184168}.'
+L['options_icons_stygia_nexus_desc'] = 'Afficher les emplacements des {object:Nexus de stygies} nécessaires pour la monture {item:184168}.'
 L['options_icons_stygian_caches'] = 'Caches stygiennes'
-L['options_icons_stygian_caches_desc'] = 'Afficher les emplacements des caches contenant de la Stygie supplémentaire.'
+L['options_icons_stygian_caches_desc'] = 'Afficher les emplacements des {object:Caches stygiennes} contenant de la Stygie supplémentaire.'
 
 L['cov_assault_only'] = 'Disponible uniquement pendant l\'assaut des %s.'
 
@@ -801,7 +801,7 @@ L['tormentors'] = 'Tourmenteurs de Tourment'
 L['tormentors_note'] = [[
 Un événement de tourmenteur apparaît toutes les 2 heures à heure pile. Les boss apparaîtront toujours dans l'ordre indiqué ci-dessous.
 
-La {item:185972} peut être obtenue une fois par semaine et contient 50 {currency:1906}.
+La {item:185972} peut être obtenue une fois par semaine et contient 50x {currency:1906}.
 ]]
 
 L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
@@ -820,13 +820,13 @@ L['assault_sublabel_AS'] = 'Les Assauts changent le Jeudi à 8 heures KST et le 
 
 L['necrolord_assault'] = '{quest:63543}'
 L['necrolord_assault_note'] = 'Le {item:185992} peut être récupéré une fois par Assaut'
-L['necrolord_assault_quantity_note'] = 'Caches antreliges ouvertes'
+L['necrolord_assault_quantity_note'] = '{object:Caches antreliges} ouvertes'
 L['venthyr_assault'] = '{quest:63822}'
 L['venthyr_assault_note'] = 'Le {item:185990} peut être récupéré une fois par Assaut'
 L['venthyr_assault_quantity_note'] = 'Objets utilisés'
 L['night_fae_assault'] = '{quest:63823}'
 L['night_fae_assault_note'] = 'Le {item:185991} peut être récupéré une fois par Assaut'
-L['night_fae_assault_quantity_note'] = 'Cache secrète de la faille ouverte'
+L['night_fae_assault_quantity_note'] = '{object:Caches secrètes de la faille} ouverte'
 L['kyrian_assault'] = '{quest:63824}'
 L['kyrian_assault_note'] = 'Le {item:185993} peut être récupéré une fois par Assaut'
 L['kyrian_assault_quantity_note1'] = 'Fino trouvé'
@@ -839,7 +839,7 @@ L['kyrian_assault_quantity_note2'] = '{emote:/danse} près des forges'
 L['torghast_the_tower_of_the_damned'] = 'Tourment, La tour des Damnés'
 L['torghast_reward_sublabel'] = '{note:Récompenses partagées entre la plupart des ailes}'
 L['torghast_boss_note'] = 'Obtenables sur plusieurs boss dans {location:Tourment, La tour des Damnés} '
-L['torghast_vendor_note'] = 'Vendu par les marchands {npc:152594} et {npc:170257} pour 300 {currency:1728} ou 1000 {currency:1728}'
+L['torghast_vendor_note'] = 'Vendu par les marchands {npc:152594} et {npc:170257} pour 300x {currency:1728} ou 1000x {currency:1728}'
 L['torghast_reward_note'] = 'Obtenu dans {location:Tourment, La tour des Damnés} '
 L['torghast_soulshape_note'] = 'Échelon 12+'
 L['colossal_umbrahide_mawrat_note'] = 'Échelon 13+'
@@ -883,9 +883,9 @@ local HIDDEN_ALCOVE = [[
 Pour accéder à l'{location:Alcôve %s} :
 1. Terminez le chapitre 6 de la campagne de {locationZereth Mortis}.
 2. Trouvez l'{object:Agencement de l'alcôve %s} %s.
-3. Aux {location:Pics Résonnants}, tuez les monstres affectés par {spell:362651} ou placez-vous dans les zones blanches pour obtenir 60 {npc:183569}.
+3. Aux {location:Pics Résonnants}, tuez les monstres affectés par {spell:362651} ou placez-vous dans les zones blanches pour obtenir 60 charges d'{npc:183569}.
 4. Utilisez le {npc:184329} à l'intérieur du {location:Repos de la fertilité} pour accéder à la {location:Chambre Intérieure}. (Nécessite 30 {npc:183569})
-5. Utilisez le {npc:184485} pour accéder à l'{location:Alcôve %s}. (Nécessite 30 {npc:183569})
+5. Utilisez le {npc:184485} pour accéder à l'{location:Alcôve %s}. (Nécessite 30x {npc:183569})
 ]]
 
 L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Concave', 'Concave', 'derrière le bâtiment du {location:Locus Ultimus}', 'Concave')
@@ -1095,7 +1095,7 @@ L['venaris_fate_note'] = [[
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Afficher les emplacements des créatures pour le haut-fait {achievement:15211}.'
 L['options_icons_concordances'] = 'Histoires Harmoniques'
-L['options_icons_concordances_desc'] = 'Afficher les emplacements des consoles d\'harmoniques d\'histoire.'
+L['options_icons_concordances_desc'] = 'Afficher les emplacements des {object:Consoles d\'harmoniques d\'histoire}.'
 L['options_icons_echoed_jiros'] = 'Jiro sonore'
 L['options_icons_echoed_jiros_desc'] = 'Afficher les emplacements des buffs d\'offrandes des {object:Jiros sonores}.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
@@ -1105,12 +1105,12 @@ L['options_icons_proto_materials_desc'] = 'Afficher les emplacements des matéri
 L['options_icons_protoform_schematics'] = 'Schémas de protoforme'
 L['options_icons_protoform_schematics_desc'] = 'Afficher les emplacements des schémas de montures et familiers.'
 L['options_icons_puzzle_caches'] = 'Caches de la création (Puzzle)'
-L['options_icons_puzzle_caches_desc'] = 'Afficher les emplacements possibles des caches de puzzles'
-L['options_icons_zereth_caches'] = 'Caches cryptiques' -- Needs Review
-L['options_icons_zereth_caches_desc'] = 'Afficher les emplacements possibles des Caches cryptiques' -- Needs Review
+L['options_icons_puzzle_caches_desc'] = 'Afficher les emplacements possibles des {object:Caches de puzzles}.'
+L['options_icons_zereth_caches'] = 'Caches cryptiques'
+L['options_icons_zereth_caches_desc'] = 'Afficher les emplacements possibles des {object:Caches cryptiques}.'
 L['options_icons_shrouded_cyphers'] = 'Caches cryptiques dissimulées'
-L['options_icons_shrouded_cyphers_desc'] = 'Afficher les emplacements possibles des Caches cryptiques dissimulées.'
+L['options_icons_shrouded_cyphers_desc'] = 'Afficher les emplacements possibles des {object:Caches cryptiques dissimulées}.'
 L['options_icons_mawsworn_supply_cache'] = 'Coffres de fournitures antreliges'
-L['options_icons_mawsworn_supply_cache_desc'] = 'Afficher les emplacements possibles des Coffres de fournitures antreliges.'
+L['options_icons_mawsworn_supply_cache_desc'] = 'Afficher les emplacements possibles des {object:Coffres de fournitures antreliges}.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Emplacements des Automas sans noyaux pour le haut-fait {achievement:15542}.'
