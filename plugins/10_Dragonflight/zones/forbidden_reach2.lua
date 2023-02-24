@@ -909,11 +909,12 @@ function ScalecommanderItem.getters:label()
     return ns.faction == 'Alliance' and self.allianceLabel or self.hordeLabel
 end
 
--- map.nodes[] = ScalecommanderItem({
---    allianceLabel = '{quest:73114}',
---    hordeLabel = '{quest:74883}',
---     rewards = {Achievement({id = 17315, criteria = 1})}
--- }) -- Journal Entry: The Creches
+map.nodes[26185303] = ScalecommanderItem({
+    allianceLabel = '{quest:73114}',
+    hordeLabel = '{quest:74883}',
+    sublabel = L['in_zskera_vaults'], ----------------- TODO: Remove or find a better way to display
+    rewards = {Achievement({id = 17315, criteria = 1})}
+}) -- Journal Entry: The Creches
 
 map.nodes[59646492] = ScalecommanderItem({
     allianceLabel = '{quest:74866}',
@@ -928,11 +929,12 @@ map.nodes[50884345] = ScalecommanderItem({
     rewards = {Achievement({id = 17315, criteria = 3})}
 }) -- Journal Entry: Relics
 
--- map.nodes[] = ScalecommanderItem({
---    allianceLabel = '{quest:73115}',
---    hordeLabel = '{quest:74896}',
---     rewards = {Achievement({id = 17315, criteria = 4})}
--- }) -- Journal Entry: Silence
+map.nodes[27185303] = ScalecommanderItem({
+    allianceLabel = '{quest:73115}',
+    hordeLabel = '{quest:74896}',
+    sublabel = L['in_zskera_vaults'], ----------------- TODO: Remove or find a better way to display
+    rewards = {Achievement({id = 17315, criteria = 4})}
+}) -- Journal Entry: Silence
 
 map.nodes[58957238] = ScalecommanderItem({
     allianceLabel = '{quest:73109}',
@@ -996,7 +998,8 @@ map.nodes[29265268] = Collectible({
         Spacer(), Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
         Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
         Toy({item = 204262}), -- Holoviewer: The timeless One
-        Spacer(), Achievement({id = 17530, criteria = 58507}) -- Librarian of the Reach
+        Spacer(), Achievement({id = 17530, criteria = 58507}), -- Librarian of the Reach
+        Achievement({id = 17315, criteria = {1, 4}}) -- While We Were Sleeping
     }
 }) -- Zskera Vaults
 
