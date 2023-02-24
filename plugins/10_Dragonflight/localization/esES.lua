@@ -220,19 +220,25 @@ L['mysterious_wand_note'] = 'Coge la {object:Llave de Cristal} y ponla dentro de
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
-L['in_the_war_creche'] = 'En las profundidades de {location:El Nido Bélico}'
-L['in_the_high_creche'] = 'Dentro de {location:El Nido Alto}'
+L['in_dragonskull_island'] = nil
 L['in_froststone_vault'] = 'Dentro de {location:La Cámara Petraescarcha}.'
+L['in_the_high_creche'] = 'Dentro de {location:El Nido Alto}'
+L['in_the_lost_atheneum'] = nil
+L['in_the_siege_creche'] = nil
+L['in_the_support_creche'] = nil
+L['in_the_war_creche'] = 'En las profundidades de {location:El Nido Bélico}'
+L['in_zskera_vaults'] = nil
 
 L['duzalgor_note'] = 'Coge un frasco de {spell:400751} ({dot:Green}) para sanarte del gas venenoso de la cueva.'
 L['mad_eye_carrey_note'] = '{npc:201181} está en grupo con la {npc:201184} y la {npc:201182}.'
 L['wymslayer_angvardi_note'] = '{npc:201013} está acompañado por {npc:201310}.'
 
+L['loot_specialist_note'] = nil
+
 L['hoarder_of_the_forbidden_reach_suffix'] = 'tesoros pequeños abiertos'
 L['forbidden_spoils_suffix'] = nil
 
 L['forbidden_hoard_label'] = nil
-L['forbidden_hoard_note'] = nil
 L['options_icons_forbidden_hoard'] = nil
 L['options_icons_forbidden_hoard_desc'] = nil
 
@@ -246,9 +252,9 @@ L['storm_bound_chest_label'] = nil
 L['book_of_arcane_entities_label'] = nil
 L['tuskarr_kite_post_label'] = nil
 L['farescale_shrine_label'] = nil
-L['resonating_crystal_label'] = nil -- don't exists
+L['resonating_crystal_label'] = nil
 L['spellsworn_ward_label'] = nil
-L['rumbling_draconium_label'] = nil
+L['rumbling_deposit_label'] = nil
 L['spiceless_stew_label'] = nil
 
 L['artisan_curio_note'] = nil
@@ -256,15 +262,13 @@ L['options_icons_artisan_curio'] = nil -- "Artisan Curio" se puede encontrar en 
 L['options_icons_artisan_curio_desc'] = nil -- "Artisan Curio" se puede encontrar en Recipe: Neutralizing Agent
 
 L['spellsworn_missive_label'] = nil
-L['spellsworn_missive_note'] = nil
 L['confiscated_journal_label'] = nil
-L['confiscated_journal_note'] = nil
 L['farscale_manifesto_label'] = nil
-L['farscale_manifesto_note'] = nil
 L['lost_expeditions_notes_label'] = nil
-L['lost_expeditions_notes_note'] = nil
 L['vrykul_tome_label'] = nil
-L['vrykul_tome_note'] = nil
+L['old_gods_label'] = nil
+
+L['library_note'] = nil
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Muestra dónde están los libros para el logro {achievement:17530}.'
@@ -274,20 +278,24 @@ L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos
 
 L['awakened_soil_label'] = nil
 
-L['zskera_vault_label'] = nil
-L['zskera_vault_note'] = nil
+L['zskera_vaults_label'] = nil
+L['zskera_vaults_note'] = nil
 L['door_buster_suffix'] = nil
+
+L['recipe_rat_note_1'] = nil
+L['recipe_rat_note_2'] = nil
+L['recipe_rat_note_3'] = nil
+L['recipe_rat_note_4'] = nil
+
+L['options_icons_zskera_vaults'] = nil
+L['options_icons_zskera_vaults_desc'] = nil
 
 L['froststone_vault_storm_label'] = 'Tormenta Primigenia de La Cámara Petraescarcha'
 L['options_icons_froststone_vault_storm'] = 'Tormenta Primigenia de La Cámara Petraescarcha'
 L['options_icons_froststone_vault_storm_desc'] = 'Muestra dónde está y las recompensas de las Tormentas Primigenia de La Cámara Petraescarcha.'
 
 L['spellsworn_gateway'] = nil
-
-L['recipe_rat_note_1'] = nil
-L['recipe_rat_note_2'] = nil
-L['recipe_rat_note_3'] = nil
-L['recipe_rat_note_4'] = nil
+L['gemstone_of_return'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

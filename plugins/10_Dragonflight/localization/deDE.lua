@@ -213,19 +213,25 @@ L['mysterious_wand_note'] = 'Hebe den {object:Kristallschlüssel} auf und platzi
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
-L['in_the_war_creche'] = 'Tief im {location:Kriegshort}'
-L['in_the_high_creche'] = 'Im {location:Hohen Hort}'
+L['in_dragonskull_island'] = nil
 L['in_froststone_vault'] = nil
+L['in_the_high_creche'] = 'Im {location:Hohen Hort}'
+L['in_the_lost_atheneum'] = nil
+L['in_the_siege_creche'] = nil
+L['in_the_support_creche'] = nil
+L['in_the_war_creche'] = 'Tief im {location:Kriegshort}'
+L['in_zskera_vaults'] = nil
 
 L['duzalgor_note'] = 'Sammel eine Flasche {spell:400751}({dot:Green}) um dich von den giftigen Gasen in der Höhle zu heilen.'
 L['mad_eye_carrey_note'] = '{npc:201181} ist in einer Gruppe mit {npc:201184} und {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} ist mit {npc:201310} verbunden.'
 
+L['loot_specialist_note'] = nil
+
 L['hoarder_of_the_forbidden_reach_suffix'] = 'kleine Schätze geöffnet.'
 L['forbidden_spoils_suffix'] = nil
 
 L['forbidden_hoard_label'] = 'Verbotener Schatz'
-L['forbidden_hoard_note'] = 'Besiege die umliegenden Gegner um den Schatz zu öffnen.'
 L['options_icons_forbidden_hoard'] = 'Verbotene Schätze'
 L['options_icons_forbidden_hoard_desc'] = 'Zeige mögliche Positionen von {object:Forbidden Verbotener Schatz}.'
 
@@ -241,7 +247,7 @@ L['tuskarr_kite_post_label'] = nil
 L['farescale_shrine_label'] = nil
 L['resonating_crystal_label'] = nil
 L['spellsworn_ward_label'] = nil
-L['rumbling_draconium_label'] = nil
+L['rumbling_deposit_label'] = nil
 L['spiceless_stew_label'] = nil
 
 L['artisan_curio_note'] = 'Spieler mit %s (50) können {item:%s} von {npc:202445} beim {location:Morqutdorf} für 10 {item:190456} kaufen.'
@@ -249,15 +255,13 @@ L['options_icons_artisan_curio'] = nil
 L['options_icons_artisan_curio_desc'] = 'Zeige Orte und Belohnungen für Artisan Curios' -- review
 
 L['spellsworn_missive_label'] = nil
-L['spellsworn_missive_note'] = 'Öffne {object:Spellsworn Missive} und erhalte {item:204338}.'
 L['confiscated_journal_label'] = nil
-L['confiscated_journal_note'] = 'Öffne {object:Confiscated Journal} und erhalte {item:204316}.'
 L['farscale_manifesto_label'] = nil
-L['farscale_manifesto_note'] = 'Öffne {object:Farscale Manifesto} und erhalte {item:204335}.'
 L['lost_expeditions_notes_label'] = nil
-L['lost_expeditions_notes_note'] = 'Öffne {object:Lost Expedition Notes} und erhalte {item:204321}.'
 L['vrykul_tome_label'] = nil
-L['vrykul_tome_note'] = nil
+L['old_gods_label'] = nil
+
+L['library_note'] = 'Öffne {object:%s} und erhalte {item:%s}.'
 
 L['options_icons_librarian_of_the_reach'] = nil
 L['options_icons_librarian_of_the_reach_desc'] = 'Zeige die Positionen der Bücher für den Erfolg {achievement:17530}.'
@@ -267,20 +271,24 @@ L['options_icons_scalecommander_item_desc'] = 'Zeige die Positionen der Items f�
 
 L['awakened_soil_label'] = nil
 
-L['zskera_vault_label'] = nil
-L['zskera_vault_note'] = 'Sammle {item:202196} von Seltenen Gegnern und Schätzen um Türen in {location:Zskera Vault} zu öffnen.'
+L['zskera_vaults_label'] = nil
+L['zskera_vaults_note'] = 'Sammle {item:202196} von Seltenen Gegnern und Schätzen um Türen in {location:Zskera Vaults} zu öffnen.'
 L['door_buster_suffix'] = 'Türen können mit {item:202196} aufgesperrt werden'
+
+L['recipe_rat_note_1'] = nil
+L['recipe_rat_note_2'] = nil
+L['recipe_rat_note_3'] = nil
+L['recipe_rat_note_4'] = nil
+
+L['options_icons_zskera_vaults'] = nil
+L['options_icons_zskera_vaults_desc'] = nil
 
 L['froststone_vault_storm_label'] = 'Ursturm am Froststeingewölbe'
 L['options_icons_froststone_vault_storm'] = 'Ursturm am Froststeingewölbe'
 L['options_icons_froststone_vault_storm_desc'] = 'Zeige die Positionen der Belohnungen für {object:Ursturm am Froststeingewölbe}.'
 
 L['spellsworn_gateway'] = 'Tor der Zauberverschworenen'
-
-L['recipe_rat_note_1'] = nil
-L['recipe_rat_note_2'] = nil
-L['recipe_rat_note_3'] = nil
-L['recipe_rat_note_4'] = nil
+L['gemstone_of_return'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

@@ -219,19 +219,25 @@ L['mysterious_wand_note'] = 'Pick up the {object:Crystal Key} and place it into 
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
-L['in_the_war_creche'] = 'Deep within {location:The War Creche}'
-L['in_the_high_creche'] = 'Within {location:The High Creche}'
+L['in_dragonskull_island'] = 'Within {location:Dragonskull Island}.'
 L['in_froststone_vault'] = 'Within {location:Froststone Vault}.'
+L['in_the_high_creche'] = 'Within {location:The High Creche}'
+L['in_the_lost_atheneum'] = 'Within {location:The Lost Atheneum}.'
+L['in_the_siege_creche'] = 'Within {location:The Siege Creche}.'
+L['in_the_support_creche'] = 'Within {location:The Support Creche}.'
+L['in_the_war_creche'] = 'Deep within {location:The War Creche}'
+L['in_zskera_vaults'] = 'Within {location:Zskera Vaults}.'
 
-L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal from the poisonous gas within the cave.'
+L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal from the poisonous gas within {location:The Support Creche}.'
 L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}'
+
+L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {spell:406141} and will run away when attacked.\n\n{note:Kill him quickly before he finishes casting {spell:406141}.}'
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'small treasures opened'
 L['forbidden_spoils_suffix'] = 'Forbidden Hoards opened'
 
 L['forbidden_hoard_label'] = 'Forbidden Hoard'
-L['forbidden_hoard_note'] = 'Defeat the surrounding mobs to open the chest.'
 L['options_icons_forbidden_hoard'] = 'Forbidden Hoard'
 L['options_icons_forbidden_hoard_desc'] = 'Display possible locations of {object:Forbidden Hoard} chests.'
 
@@ -247,7 +253,7 @@ L['tuskarr_kite_post_label'] = 'Tuskarr Kite Post'
 L['farescale_shrine_label'] = 'Farscale Shrine'
 L['resonating_crystal_label'] = 'Resonating Crystal'
 L['spellsworn_ward_label'] = 'Spellsworn Ward'
-L['rumbling_draconium_label'] = 'Rumbling Draconium'
+L['rumbling_deposit_label'] = 'Rumbling Deposit'
 L['spiceless_stew_label'] = 'Spiceless Stew'
 
 L['artisan_curio_note'] = 'Players with %s (50) can purchase {item:%s} from {npc:202445} at {location:Morqut Village} for 10 {item:190456}.'
@@ -255,15 +261,13 @@ L['options_icons_artisan_curio'] = 'Artisan Curio'
 L['options_icons_artisan_curio_desc'] = 'Display locations and rewards for Artisan Curios.'
 
 L['spellsworn_missive_label'] = 'Spellsworn Missive'
-L['spellsworn_missive_note'] = 'Open the {object:Spellsworn Missive} and loot the {item:204338}.'
 L['confiscated_journal_label'] = 'Confiscated Journal'
-L['confiscated_journal_note'] = 'Open the {object:Confiscated Journal} and loot the {item:204316}.'
 L['farscale_manifesto_label'] = 'Farscale Manifesto'
-L['farscale_manifesto_note'] = 'Open the {object:Farscale Manifesto} and loot the {item:204335}.'
 L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
-L['lost_expeditions_notes_note'] = 'Open the {object:Lost Expedition Notes} and loot the {item:204321}.'
 L['vrykul_tome_label'] = 'Vrykul Tome'
-L['vrykul_tome_note'] = 'Open the {object:Vrykul Tome} and loot the {item:204317}.'
+L['old_gods_label'] = 'The Old Gods and the Ordering of Azeroth'
+
+L['library_note'] = 'Open the {object:%s} and loot the {item:%s}.'
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}.'
@@ -273,20 +277,24 @@ L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achie
 
 L['awakened_soil_label'] = 'Awakened Soil'
 
-L['zskera_vault_label'] = 'Zskera Vault'
-L['zskera_vault_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vault}.'
+L['zskera_vaults_label'] = 'Zskera Vaults'
+L['zskera_vaults_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vaults}.'
 L['door_buster_suffix'] = 'Doors unlocked using {item:202196s}'
+
+L['recipe_rat_note_1'] = 'Speak to the {npc:202982} within {location:Zskera Vault} and {item:202252} will enter your bags.'
+L['recipe_rat_note_2'] = 'Interact with {item:202252} to receive {item:204340}. {note:(5 minute cooldown)}'
+L['recipe_rat_note_3'] = 'Once you have 30x {item:204340} combine the scraps to receive the recipe.'
+L['recipe_rat_note_4'] = '{note:This rat loves cheese and will consume one {item:3927} roughly every three minutes. Plan accordingly!}'
+
+L['options_icons_zskera_vaults'] = 'Zskera Vaults'
+L['options_icons_zskera_vaults_desc'] = 'Display rewards for {location:Zskera Vaults}.'
 
 L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm'
 L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm'
 L['options_icons_froststone_vault_storm_desc'] = 'Display location and rewards for {object:Froststone Vault Primal Storm}'
 
 L['spellsworn_gateway'] = 'Spellsworn Gateway'
-
-L['recipe_rat_note_1'] = 'Speak to the {npc:202982} within {location:Zskera Vault} and {item:202252} will enter your bags.'
-L['recipe_rat_note_2'] = 'Interact with {item:202252} to receive {item:204340}. {note:(5 minute cooldown)}'
-L['recipe_rat_note_3'] = 'Once you have 30x {item:204340} combine the scraps to receive the recipe.'
-L['recipe_rat_note_4'] = '{note:This rat loves cheese and will consume one {item:3927} roughly every three minutes. Plan accordingly!}'
+L['gemstone_of_return'] = 'Gemstone of Return'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

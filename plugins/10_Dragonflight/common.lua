@@ -32,6 +32,11 @@ ns.groups.ARTISAN_CURIO = ns.Group('artisan_curio', 134327, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.BONUS_BOSS = Group('bonus_boss', 'peg_rd', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 1060570, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -94,6 +99,11 @@ ns.groups.SMALL_TREASURES = Group('small_treasures', 'chest_rd', {
 })
 
 ns.groups.TUSKARR_TACKLEBOX = Group('tuskarr_tacklebox', 'chest_bl', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.ZSKERA_VAULTS = Group('zskera_vaults', 4909720, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
