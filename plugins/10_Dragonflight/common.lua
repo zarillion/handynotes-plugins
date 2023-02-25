@@ -965,7 +965,7 @@ end
 ---------------------------------- 14 HOURS -----------------------------------
 
 local Rare14h = Class('Rare14h', Rare, {
-    initialSpawn = {eu = 1676237400, us = 1676205000, tw = 1675701000}, -- initial spawn time of the first rare to calculate other rares
+    initialSpawn = {eu = 1676237400, us = 1677335400, tw = 1675701000}, -- initial spawn time of the first rare to calculate other rares
     spawnOffset = 1800, -- time between rares
     spawnInterval = 50400 -- inverval of a single rare
 })
@@ -977,7 +977,7 @@ function Rare14h.getters:note()
 end
 
 local RareElite14h = Class('RareElite14h', RareElite, {
-    initialSpawn = {eu = 1676237400, us = 1676205000, tw = 1675701000},
+    initialSpawn = {eu = 1676237400, us = 1677335400, tw = 1675701000},
     spawnOffset = 1800,
     spawnInterval = 50400
 })
