@@ -248,7 +248,7 @@ L['mysterious_wand_note'] = 'Coge la {object:Llave de Cristal} y ponla dentro de
 
 L['eaglemaster_niraak_note'] = 'Mata a los {npc:186295} cercanos y a los {npc:186299} para hacer aparecer al raro.'
 L['hunter_of_the_deep_note'] = 'Haz click en el armero y dispara a los peces hasta que aparezca el raro.'
-L['porta_the_overgrown_note'] = 'Encuentra 5x {item:194426} en el fondo del lago al oeste. Después espárcelos en el {npc:191953} para hacer aparecer al raro.'
+L['porta_the_overgrown_note'] = 'Encuentra 5x {item:194426} en el fondo de {location:Espejo del Cielo} al oeste. Después espárcelos en el {npc:191953} para hacer aparecer al raro.'
 L['scaleseeker_mezeri_note'] = 'Ofrece {item:194681} a {npc:193224} y síguela hasta que te enseñe al raro.\n\n{note:La vendedora más cercana es {npc:190315} de {location:Atalaya de Tres Cascadas} en las {location:Tierras Azures}.}'
 L['shade_of_grief_note'] = 'Haz click en {npc:193166} para hacer aparecer al raro.'
 L['windscale_the_stormborn_note'] = 'Mata a los {npc:192367} que están canalizando en los {npc:192357}.'
