@@ -233,7 +233,7 @@ L['duzalgor_note'] = 'Coge un frasco de {spell:400751} ({dot:Green}) para sanart
 L['mad_eye_carrey_note'] = '{npc:201181} está en grupo con la {npc:201184} y la {npc:201182}.'
 L['wymslayer_angvardi_note'] = '{npc:201013} está acompañado por {npc:201310}.'
 
-L['loot_specialist_note'] = nil
+L['loot_specialist_note'] = 'El {npc:203353} aparece con {spell:406143} y en {spell:132653}. Huirá en cuanto sea atacado.\n\n{note:Mátalo rápidamente antes de que acabe de lanzar {spell:406141}.}'
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'tesoros pequeños abiertos'
 L['forbidden_spoils_suffix'] = nil
@@ -268,7 +268,7 @@ L['confiscated_journal_label'] = nil
 L['farscale_manifesto_label'] = nil
 L['lost_expeditions_notes_label'] = nil
 L['vrykul_tome_label'] = nil
-L['old_gods_label'] = nil
+L['old_gods_label'] = 'Los Dioses Antiguos y el Orden de Azeroth'
 
 L['library_note'] = nil
 
@@ -287,7 +287,7 @@ L['door_buster_suffix'] = nil
 L['recipe_rat_note_1'] = nil
 L['recipe_rat_note_2'] = nil
 L['recipe_rat_note_3'] = nil
-L['recipe_rat_note_4'] = nil
+L['recipe_rat_note_4'] = '{note:A esta rata le encanta el queso y consumirá un {item:3927} aproximadamente cada tres minutos. ¡Planifica en consecuencia!}'
 
 L['options_icons_zskera_vaults'] = nil
 L['options_icons_zskera_vaults_desc'] = nil
