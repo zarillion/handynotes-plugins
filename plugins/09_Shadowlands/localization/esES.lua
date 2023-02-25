@@ -28,7 +28,7 @@ L['options_icons_safari_desc'] = 'Muestra dónde están  las mascotas de combate
 L['deifir_note'] = 'Monta en {npc:164238} que va dando vueltas en círculos y usa {spell:319566} y {spell:319575} para frenarlo o aturdirlo respectivamente.'
 L['faeflayer_note'] = 'En una cueva pequeña oculta tras una cascada.'
 L['gormbore_note'] = 'Mata a los {npc:165420} sobre el suelo tembloroso para hacer aparecer {npc:163370}.'
-L['gormtamer_tizo_note'] = 'Mata Spriggans Conobarba en la {location:Espesura Velo de Niebla} hasta que aparezca {npc:164110} el cual tendrás que matar.'
+L['gormtamer_tizo_note'] = 'Mata {npc:Spriggan Conobarba} en la {location:Espesura Velo de Niebla} hasta que aparezca {npc:164110} el cual tendrás que matar.'
 L['humongozz_note'] = 'Planta un {item:175247} en la {object:Marga Húmeda} para hacer aparecer un {npc:164122}. El champiñón cae de muchos enemigos de la zona.'
 L['lehgo_note'] = 'Destruye los {object:Huevos de Gorm Temblorosos} y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las {location:Madrigueras Polvorientas}).'
 L['macabre_note'] = [[
@@ -93,9 +93,9 @@ Encuentra y teclea la emoción correcta seleccionando a {npc:171206} cinco veces
 
 L['tame_gladerunner'] = 'Asaltaclaros domesticado'
 L['tame_gladerunner_note'] = [[
-Lee la {object:Historia del enredo} y sigue las lámparas azules a través del camino hasta que alcances a {npc:171767}. Mátalo y despoja el {npc:171699}.
+Lee la {object:Historia del Enredo} y sigue las lámparas azules a través del camino hasta que alcances a {npc:171767}. Mátalo y despoja el {npc:171699}.
 
-Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al final vuelve al comienzo y lee de nuevo la {object:Historia del enredo} antes de volver a intentarlo. Si {npc:171767} no está, tendrás que esperar a que aparezca.
+Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al final vuelve al comienzo y lee de nuevo la {object:Historia del Enredo} antes de volver a intentarlo. Si {npc:171767} no está, tendrás que esperar a que aparezca.
 ]]
 
 L['faryl_note'] = 'Deja que la defensa de Ardenweald la dirijan las criaturas de los cielos.'
@@ -1101,7 +1101,7 @@ L['options_icons_code_creature_desc'] = 'Muestra dónde están las criaturas par
 L['options_icons_concordances'] = 'Concordancias de Conocimiento'
 L['options_icons_concordances_desc'] = 'Muestra dónde están las consolas de {object:Concordancias de Conocimiento}.'
 L['options_icons_echoed_jiros'] = 'Jiro en Eco'
-L['options_icons_echoed_jiros_desc'] = 'Muestra dónde están los {object:Jiro en Eco} que dan bufos.'
+L['options_icons_echoed_jiros_desc'] = 'Muestra dónde están los {npc:Jiro en Eco} que dan bufos.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Muestra dónde están los libros para el logro {achievement:15509}.'
 L['options_icons_proto_materials'] = '{achievement:15229}'
