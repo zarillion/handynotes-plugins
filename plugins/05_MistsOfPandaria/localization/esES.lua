@@ -48,7 +48,7 @@ L['sturdy_chest_note'] = 'Golpea a un {npc:73531} para ser llevado aquí.'
 L['gleaming_treasure_satchel_note'] = 'Camina por las cuerdas del barco y salta al poste donde está colgando la cartera.'
 L['gleaming_treasure_chest_note'] = 'Salta por los pilares hasta llegar al tesoro.'
 L['mist_covered_treasure_chest_note'] = [[
-Requiere haber despojado antes el {object:Cofre del Tesoro Reluciente} y el {object:Cofre del Tesoro Atado con Cuerda}.
+{note:Requiere haber despojado antes el {object:Cofre del Tesoro Reluciente} y el {object:Cofre del Tesoro Atado con Cuerda}.}
 
 Haz click en la {object:Estatua de la Grulla Reluciente} para volar hasta el tesoro.
 ]]
