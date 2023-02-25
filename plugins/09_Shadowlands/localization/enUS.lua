@@ -27,11 +27,11 @@ L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievem
 L['deifir_note'] = 'Ride the rare around in a circle and use {spell:319566} and {spell:319575} to slow and stun him.'
 L['faeflayer_note'] = 'In a small cave hidden behind a waterfall.'
 L['gormbore_note'] = 'Kill {npc:165420s} over the rumbling ground to spawn the rare.'
-L['gormtamer_tizo_note'] = 'Kill Bristlecone Sprites in the {location:Mistveil Tangle} until {npc:164110} spawns.'
+L['gormtamer_tizo_note'] = 'Kill {npc:Bristlecone Sprites} in the {location:Mistveil Tangle} until {npc:164110} spawns.'
 L['humongozz_note'] = 'Plant an {item:175247} in the {object:Damp Loam} to spawn a {npc:164122}. The mushroom drops from numerous mobs in the zone.'
 L['lehgo_note'] = 'Destroy {object:Quivering Gorm Eggs} and kill {npc:171827} until he spawns. In a cave (entrance to the south-east in the {location:Dusty Burrows}).'
 L['macabre_note'] = [[
-Spawns in multiple locations. To summon, stand in the Mysterious Mushroom Ring with 2 other players and dance with each other.
+Spawns in multiple locations. To summon, stand in the {object:Mysterious Mushroom Ring} with 2 other players and dance with each other.
 
 • Player 1 dances with Player 2
 • Player 2 dances with Player 3
@@ -41,7 +41,7 @@ L['mymaen_note'] = 'Kill {npc:Rotbriar sprites} in the area until he emotes and 
 L['rainbowhorn_note'] = [[
 Find and click the {object:Great Horn of the Runestag} to summon the rare. The horn can spawn in multiple places across {location:Ardenweald}.
 
-He will always spawn north of Tirna Vaal, so set your {item:6948} there and watch for the zone emote.
+He will always spawn north of {location:Tirna Vaal}, so set your {item:6948} there and watch for the zone emote.
 
 |cffff5400T|r|cffffaa00A|r|cffffff00S|r|cffaaff00T|r|cff54ff00E|r |cff00ff55T|r|cff00ffa9H|r|cff00ffffE|r |cff0055ffR|r|cff0000ffA|r|cff5400ffI|r|cffaa00ffN|r|cffff00ffB|r|cffff00aaO|r|cffff0054W|r|cffff0000!|r
 ]]
@@ -70,14 +70,14 @@ Participate in all seven encounters to unlock {item:180748} from {npc:163714}.
 L['cache_of_the_moon'] = 'Collect {npc:171360}\'s five missing tools in the {location:Garden of Night} and combine them to create {item:180753}. Return her toolkit and she will cast {spell:334353} on you, allowing you to see the cache.'
 L['cache_of_the_night'] = 'Collect {item:180656}, {item:180654} and {item:180655} from across the zone and combine them to create {item:180652}.'
 L['darkreach_supplies'] = 'Jump on the {npc:169995} and glide southwest into the hollowed spire directly above the {object:Cache of the Night} treasure.'
-L['desiccated_moth'] = 'Jump on the {npc:169997} northwest of the tree to float onto a branch. Burn {item:180784} in the Incense Burner to collect the treasure.'
+L['desiccated_moth'] = 'Jump on the {npc:169997} northwest of the tree to float onto a branch. Burn {item:180784} in the {object:Incense Burner} to collect the treasure.'
 L['dreamsong_heart'] = 'Use the {npc:169997} beneath the tree to get launched into the tree.'
-L['elusive_faerie_cache'] = 'Pick up the {spell:333923} in the northeast corner of Eventide Grove and use it to loot the chest.'
+L['elusive_faerie_cache'] = 'Pick up the {spell:333923} in the northeast corner of {location:Eventide Grove} and use it to loot the chest.'
 L['enchanted_dreamcatcher'] = 'Hanging from the top of the roots. Easiest to jump up on the west side.'
 L['faerie_trove'] = 'Located underneath the platform.'
 L['harmonic_chest'] = 'Requires two people. One person plays the harp and the other plays the drum to unlock the chest.'
 L['hearty_dragon_plume'] = 'Click {spell:333554} at the top of the nearby waterfalls and use it to float down onto the branch.'
-L['old_ardeite_note'] = 'Kill {npc:160747} and {npc:160748} in Shimmerbough to the southeast for {item:174042}. Use this item to fly up near the rare and tag it.'
+L['old_ardeite_note'] = 'Kill {npc:160747} and {npc:160748} in {location:Shimmerbough} to the southeast for {item:174042}. Use this item to fly up near the rare and tag it.'
 L['swollen_anima_seed'] = 'A large seed sitting inside a tree trunk.'
 
 L['playful_vulpin_note'] = [[
@@ -92,9 +92,9 @@ Find and use the correct emote on the {npc:171206} five times to obtain the pet.
 
 L['tame_gladerunner'] = 'Tame Gladerunner'
 L['tame_gladerunner_note'] = [[
-Read the "Tale of the Tangle" and then follow the blue lamps through the path until you reach {npc:171767}. Kill him and then loot the {npc:171699}.
+Read the {object:Tale of the Tangle} and then follow the blue lamps through the path until you reach {npc:171767}. Kill him and then loot the {npc:171699}.
 
-If you take a wrong path and {npc:171699} disappears when you reach the end, go back to the start and read "Tale of the Tangle" once more before trying again. If {npc:171767} is not there, you will have to wait for him to respawn.
+If you take a wrong path and {npc:171699} disappears when you reach the end, go back to the start and read {object:Tale of the Tangle} once more before trying again. If {npc:171767} is not there, you will have to wait for him to respawn.
 ]]
 
 L['faryl_note'] = 'Let Ardenweald\'s defense be lead by the creatures in the sky.'
@@ -192,7 +192,7 @@ L['larion_harness'] = 'Located inside the {location:Hall of Beasts}.'
 L['memorial_offering'] = 'Find {npc:171526} at one of his locations across {location:Bastion} and purchase a {item:180788}. Place it in the drink tray near the chest to obtain the {item:180797}.'
 L['scroll_of_aeons'] = 'Loot 2 {item:173973} in the center area and place them on the nearby {object:Tribute} platters to reveal the treasure.'
 L['vesper_of_silver_wind'] = 'Vesper of the Silver Wind'
-L['vesper_of_silver_wind_note'] = 'Complete the {achievement:14339} achievement and then talk to {npc:171732} near the entrance to forge a {item:180858}.'
+L['vesper_of_silver_wind_note'] = 'Complete the {achievement:14339} achievement and then talk to {npc:171732} near the {location:Spires of Ascension} entrance to forge a {item:180858}.'
 
 L['gift_of_agthia'] = 'Click the lit torch near the broken bridge to the northwest and carry {spell:333320} from torch to torch until you reach the chest. Lighting the final torch will grant you {spell:333063}.'
 L['gift_of_chyrus'] = 'Kneel in front of the chest to be granted {spell:333045}.'
@@ -640,7 +640,7 @@ L['drifting_sorrow_note'] = 'Kill {npc:175246s} near the hovering orb to activat
 L['ekphoras_note'] = 'With 3 other players, stand on the corners of the platform and cast {spell:330650} to summon the rare.'
 L['etherwyrm_note'] = 'Requires the Night Fae assault to be active. Kill an {npc:179030} while in {location:The Rift} to gain the {item:186190}. Use the key on the {object:Etherwyrm Cage} (outside {location:The Rift}) in the {location:Desolate Hollow cavern} (where {npc:175821} resides when the assault is not active).'
 L['fallen_charger_note'] = 'After the zone-wide yell it will take either of the two paths until it reaches {location:Korthia} where it will despawn.'
-L['ikras_note'] = 'Flies around Perdition Hold. This is a good place to pull him.'
+L['ikras_note'] = 'Flies around {location:Perdition Hold}. This is a good place to pull him.'
 L['lilabom_note'] = [[
 Collect all 5 parts to complete the pet. Some parts may appear in multiple locations.
 
@@ -711,11 +711,11 @@ L['nexus_cave_anguish_outside'] = 'Outside the {location:Pit of Anguish}'
 L['nexus_cave_anguish_upper'] = 'In the {location:Pit of Anguish} (upper level)'
 L['nexus_cave_desmotaeron'] = 'In a small cave outside the {location:Desmotaeron}'
 L['nexus_cave_echoing_outside'] = 'Outside the {location:Echoing Caverns}'
-L['nexus_cave_forlorn'] = 'Inside the {location:Forlorn Respite cavern}.'
-L['nexus_cave_howl_outside'] = 'On the ground outside the {location:Death\'s Howl cavern}'
-L['nexus_cave_howl'] = 'Inside the {location:Death\'s Howl cavern}'
-L['nexus_cave_roar'] = 'Inside the {location:Death\'s Roar cavern}'
-L['nexus_cave_roar_outside'] = 'Outside the {location:Death\'s Roar cavern}'
+L['nexus_cave_forlorn'] = 'Inside the {location:Forlorn Respite} cavern'
+L['nexus_cave_howl_outside'] = 'On the ground outside the {location:Death\'s Howl} cavern'
+L['nexus_cave_howl'] = 'Inside the {location:Death\'s Howl} cavern'
+L['nexus_cave_roar'] = 'Inside the {location:Death\'s Roar} cavern'
+L['nexus_cave_roar_outside'] = 'Outside the {location:Death\'s Roar} cavern'
 L['nexus_cave_ledge'] = 'In a small cave below a ledge'
 L['nexus_cave_prodigum'] = 'In a small cave in the {location:Prodigum}'
 L['nexus_cave_soulstained'] = 'In a small cave in the {location:Soulstained Fields}'
@@ -1100,7 +1100,7 @@ L['options_icons_code_creature_desc'] = 'Display creature locations for the {ach
 L['options_icons_concordances'] = 'Lore Concordances'
 L['options_icons_concordances_desc'] = 'Display locations of {object:Lore Concordance Consoles}.'
 L['options_icons_echoed_jiros'] = 'Echoed Jiros'
-L['options_icons_echoed_jiros_desc'] = 'Display locations of {object:Echoed Jiros} offering buffs.'
+L['options_icons_echoed_jiros_desc'] = 'Display locations of {npc:Echoed Jiros} offering buffs.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Display tale locations for the {achievement:15509} achievement.'
 L['options_icons_proto_materials'] = '{achievement:15229}'

@@ -98,10 +98,7 @@ L['options_icons_bringing_home_the_beacon_desc'] = '显示 {achievement:11802} �
 -------------------------------------------------------------------------------
 
 -- Midnight tz per region: US=>PST, KR=>KST, EU=>CET, TW=>CST, CN=>CST
-local tz = ({
-    '太平洋标准时间', '韩国标准时间', '欧洲中部时间',
-    '中国标准时间', '中国标准时间'
-})[GetCurrentRegion()]
+local tz = ({'太平洋标准时间', '韩国标准时间', '欧洲中部时间','中国标准时间', '中国标准时间'})[GetCurrentRegion()]
 
 L['sheddles_chest'] = '西德尔的箱子'
 L['shoe_shine_kit_note'] = '每个星期六晚上的午夜零时（' .. tz .. '）{npc:97003} 将他的箱子丢在地上几小时并离开。'

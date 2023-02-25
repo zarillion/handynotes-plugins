@@ -247,7 +247,7 @@ L['mysterious_wand_note'] = '拾取 {object:水晶钥匙} 并将其放入 {objec
 
 L['eaglemaster_niraak_note'] = '击杀附近的 {npc:186295} 和 {npc:186299} 直到稀有出现。'
 L['hunter_of_the_deep_note'] = '单击武器架并射击鱼直到稀有出现。'
-L['porta_the_overgrown_note'] = '从西侧的 {location:镜天湖} 湖底找到 {item:194426}，然后撒在 {npc:191953} 后稀有出现。'
+L['porta_the_overgrown_note'] = '从西侧的 {location:镜天湖} 湖底找到5个 {item:194426}，然后撒在 {npc:191953} 后稀有出现。'
 L['scaleseeker_mezeri_note'] = '向 {npc:193224} 提供一个 {item:194681}，并跟着她，直到她揭示稀有。\n\n{note:位于 {location:碧蓝林海} 的 {location:三瀑勘查点} 的 {npc:190315} 是最近的供应商。}'
 L['shade_of_grief_note'] = '点击 {npc:193166} 稀有出现。'
 L['windscale_the_stormborn_note'] = '击杀引导 {npc:192357} 的 {npc:192367}。'
@@ -323,7 +323,7 @@ L['hunt_instructor_basku_note'] = '用 {item:200093} 换取 {faction:2503} 声�
 L['elder_yusa_note'] = '目标为 {npc:192818} 并 {emote:/饿}，{emote:/hungry} 获得烹饪配方。'
 L['initiate_kittileg_note'] = '完成 {quest:66226} 获得玩具！'
 
-L['quackers_duck_trap_kit'] = '要召唤 {npc:192557} 首先需要附近 {location:艾拉格氏族营地} {dot:Blue} 找到 {item:194740}。\n\n做成 {item:194712} 需要以下材料：'
+L['quackers_duck_trap_kit'] = '要召唤 {npc:192557} 首先需要附近艾拉格氏族营地 {dot:Blue} 找到 {item:194740}。\n\n做成 {item:194712} 需要以下材料：'
 L['quackers_spawn'] = '接下来需要用 {item:194712} 在巢穴附近抓一只鸭子。在 {npc:192581} 处使用 {item:194739} 来召唤 {npc:192557}。'
 
 L['knew_you_nokhud_do_it_note'] = '{note:所有3个物品都是唯一的，并且有30分钟的计时。}\n\n从 {location:诺库顿要塞} 附近的各种 {npc:185357}、{npc:185353} 和 {npc:185168} 收集 {item:200184}，{item:200194} 和 {item:200196}。\n\n将它们组合起来制造 {item:200201} 并使用它之后与 {npc:197884} 交谈以开始训练课程。\n\n使用你的 |cFFFFFD00额外的动作按钮|r 完成它并获得成就。\n\n{note:在元素风暴期间团队中完成成就可以更容易地刷物品。}'
@@ -502,12 +502,12 @@ L['slumbering_worldsnail_note2'] = '{note:注意：如果你死了，将失去�
 
 L['magmashell_note'] = '从 {location:黑曜堡垒} 周围的 {npc:193138} 拾取 {item:201883} 并将其带给 {npc:199010}。\n\n{note:在熔岩中用一个20秒的引导法术来获得坐骑，因此建议带上治疗或类似 {item:200116} 的物品。}'
 
-L['otto_note_start1'] = '收集一副 {item:202042}。眼镜是从 {location:欧恩哈拉平原} 的 {npc:191608} 处购买的 {item:202102} 100%掉落。\n\n可以用1个 {item:199340} 购买，可以用5个 {item:199339} 购买，可以用75个 {item:199338} 购买，可以在 {location:巨龙群岛} 周围钓鱼或通过在钓鱼洞中击败 {title:<大家伙>} 怪物来购买。'
+L['otto_note_start1'] = '从 {location:欧恩哈拉平原} 的 {npc:191608} 处购买的 {item:202102} 收集一副 {item:202042}。这个包需要75个 {item:199338}，可以从钓鱼洞附近的 {title:<大家伙>} 怪物那里钓鱼或拾取。'
 L['otto_note_start2'] = '一旦你有了一副 {item:202042}，就可以前往位于 {location:嘶鸣海湾} 的 {location:泡泡浴} 深水酒吧找到一个跳舞垫，然后站在上面获得负面效果 {spell:396539}。一旦负面效果结束，你就会昏倒并在桶旁醒来。与它互动以拾取 {item:202061}。现在需要在桶里装满鱼来喂给 {npc:199563}。'
 L['otto_note_item1'] = '收集100个 {item:202072}，一种高掉率鱼类，可以在 {location:碧蓝林海} 的 {location:伊斯卡拉} 的开阔水域钓到。将桶与鱼一起使用可获得 {item:202066}。'
 L['otto_note_item2'] = '收集25个 {item:202073}，一种低掉率鱼类，可以在 {location:觉醒海岸} 的 {location:黑曜堡垒} 周围的熔岩中钓到。将桶与鱼一起使用可获得 {item:202068}。'
 L['otto_note_item3'] = '收集1个 {item:202074}，一种稀有掉率鱼类，可以在 {location:索德拉苏斯} 的 {location:艾杰斯亚学院} 的水域中钓到。将桶与鱼一起使用可获得 {item:202069}。'
-L['otto_note_end'] = '返回 {location:觉醒海岸} 的 {location:嘶鸣海湾}，将桶放在找到它的地方以召唤 {npc:199563} 并领取坐骑！'
+L['otto_note_end'] = '返回 {location:嘶鸣海湾} 并将桶放在找到它的地方以召唤 {npc:199563} 并领取坐骑！'
 
 L['options_icons_safari'] = '{achievement:16519}'
 L['options_icons_safari_desc'] = '显示 {achievement:16519} 成就中战斗宠物的位置。'

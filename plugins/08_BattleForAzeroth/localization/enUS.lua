@@ -45,7 +45,7 @@ L['options_icons_drust_facts'] = '{achievement:13064}'
 
 L['embers_crossbow_note'] = 'Loot the {item:163749} on the ground between two trees, then return it to the ruins of {location:Gol Var}.'
 L['embers_flask_note'] = 'Loot the {item:163746} in the water between two rocks, then return it to the ruins of {location:Gol Var}.'
-L['embers_hat_note'] = 'Loot the {item:163748} from the pile of bones, then return it to the ruins of {location:Gol Var｝.'
+L['embers_hat_note'] = 'Loot the {item:163748} from the pile of bones, then return it to the ruins of {location:Gol Var}.'
 L['embers_knife_note'] = 'Pull the {item:163747} from the trunk of the tree, then return it to the ruins of {location:Gol Var}.'
 L['embers_golvar_note'] = 'Return each relic to the ruins of {location:Gol Var} to complete the achievement.'
 L['golvar_ruins'] = 'Ruins of {location:Gol Var}'
@@ -295,7 +295,7 @@ L['leana_darkwind_note'] = 'Strange creatures on this island will make for a str
 
 L['honeyback_harvester_note'] = 'Talk to the {npc:155193} to begin the event. {object:The Fresh Jelly Deposit} can be looted once an hour and resets on the hour.'
 L['options_icons_honeybacks'] = '{npc:155193s}'
-L['options_icons_honeybacks_desc'] = 'Display {npc:155193} event locations for farming Honeyback Hive reputation.'
+L['options_icons_honeybacks_desc'] = 'Display {npc:155193} event locations for farming {faction:2395} reputation.'
 
 L['lets_bee_friends_note'] = 'Complete {daily:53371} seven times to earn the achievement and pet. To unlock the daily:'
 L['lets_bee_friends_step_1'] = 'Complete the {location:Mildenhall Meadery} questline through {quest:50553}.'
@@ -312,7 +312,7 @@ L['ancient_tidesage_scroll_note'] = 'Read all 8 {object:Ancient Tidesage Scroll}
 L['options_icons_tidesage_legends'] = '{achievement:13051}'
 L['options_icons_tidesage_legends_desc'] = 'Display ancient scroll locations for the {achievement:13051} achievement.'
 
-L['long_forgotten_rum_note'] = 'To enter the cave, {quest:50697} must be completed from {npc:134710} in Deadwash. Also sold by {npc:137040} in Drustvar.'
+L['long_forgotten_rum_note'] = 'To enter the cave, {quest:50697} must be completed from {npc:134710} in {location:Deadwash}. Also sold by {npc:137040} in {location:Drustvar}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- TIRAGARDE SOUND -------------------------------
@@ -327,13 +327,13 @@ L['hay_covered_chest_note'] = 'Ride the {npc:130350} down the road to {npc:13145
 L['pirate_treasure_note'] = [[
 Requires the corresponding treasure map.
 
-The maps drop from any pirate mobs in Kul Tiras. Freehold (open world) is a good place to farm pirates.
+The maps drop from any pirate mobs in {location:Kul Tiras}. {location:Freehold} (open world) is a good place to farm pirates.
 ]]
 
 local damp_note = '\n\nRead all five scrolls to gain access to the treasure.'
 
 L['damp_scroll'] = 'A Damp Scroll'
-L['damp_scroll_note_1'] = 'Entrance in Stormsong Monastery.' .. damp_note
+L['damp_scroll_note_1'] = 'Entrance in {location:Stormsong Monastery}.' .. damp_note
 L['damp_scroll_note_2'] = 'On the floor in a basement behind a {npc:136343}.' .. damp_note
 L['damp_scroll_note_3'] = 'On the floor upstairs next to a {npc:136343}.' .. damp_note
 L['damp_scroll_note_4'] = 'On the floor in a basement next to a {npc:136343}.' .. damp_note
@@ -369,15 +369,15 @@ L['options_icons_upright_citizens_desc'] = 'Display NPC locations for the {achie
 ------------------------------------ ULDUM ------------------------------------
 -------------------------------------------------------------------------------
 
-L['uldum_intro_note'] = 'Complete the introductory quest chain to unlock rares, treasures and assault quests in Uldum.'
+L['uldum_intro_note'] = 'Complete the introductory quest chain to unlock rares, treasures and assault quests in {location:Uldum}.'
 
 L['aqir_flayer'] = 'Shares a spawn with {npc:163114s} and {npc:154365s}.'
 L['aqir_titanus'] = 'Shares a spawn with {npc:154353s}.'
 L['aqir_warcaster'] = 'Shares a spawn with {npc:154352s}.'
 L['atekhramun'] = 'Squish nearby {npc:152765s} until he spawns.'
-L['chamber_of_the_moon'] = 'Underground in the Chamber of the Moon.'
-L['chamber_of_the_stars'] = 'Underground in the Chamber of the Stars.'
-L['chamber_of_the_sun'] = 'Inside the Chamber of the Sun.'
+L['chamber_of_the_moon'] = 'Underground in the {location:Chamber of the Moon}.'
+L['chamber_of_the_stars'] = 'Underground in the {location:Chamber of the Stars}.'
+L['chamber_of_the_sun'] = 'Inside the {location:Chamber of the Sun}.'
 L['dunewalker'] = 'Click the {object:Essence of the Sun} on the platform above to release him.'
 L['friendly_alpaca'] = 'Feed the alpaca {item:174858} seven times to learn it as a mount. Appears for 10 minutes in one location, then a long respawn.'
 L['gaze_of_nzoth'] = 'Shares a spawn with {npc:156890s}.'
@@ -418,7 +418,7 @@ L['purging_flames'] = 'Pick up the bodies and toss them into the fire.'
 L['pyre_amalgamated'] = 'Cleanse the pyre, then kill all amalgamations until the rare spawns.'
 L['ritual_ascension'] = 'Kill the {npc:152233s}.'
 L['solar_collector'] = 'Enable all five cells on all sides of the collector. Clicking a cell also toggles all cells touching that cell.'
-L['summoning_ritual'] = 'Kill the acolytes then close the summoning portal. After the event is completed a number of times, a set of three rares will spawn around Neferset.'
+L['summoning_ritual'] = 'Kill the acolytes then close the summoning portal. After the event is completed a number of times, a set of three rares will spawn around {location:Neferset}.'
 L['titanus_egg'] = 'Destroy the {npc:163257}, then defeat the {npc:163268}.'
 L['unearthed_keeper'] = 'Destroy the {npc:156849}.'
 L['virnall_front'] = 'Defeat waves of mobs until {npc:152163} spawns.'
@@ -435,15 +435,15 @@ L['unsealed_tomb'] = 'Protect {npc:152439} from waves of mobs.'
 ------------------------------------ VALE -------------------------------------
 -------------------------------------------------------------------------------
 
-L['vale_intro_note'] = 'Complete the introductory quest chain to unlock rares, treasures and assault quests in the Vale of Eternal Blossoms.'
+L['vale_intro_note'] = 'Complete the introductory quest chain to unlock rares, treasures and assault quests in the {location:Vale of Eternal Blossoms}.'
 
-L['big_blossom_mine'] = 'Inside the Big Blossom Mine. Entrance to the north-east.'
-L['guolai'] = 'Inside Guo-Lai Halls.'
-L['guolai_left'] = 'Inside Guo-Lai Halls (left passage).'
-L['guolai_center'] = 'Inside Guo-Lai Halls (center passage).'
-L['guolai_right'] = 'Inside Guo-Lai Halls (right passage).'
+L['big_blossom_mine'] = 'Inside the {location:Big Blossom Mine}. Entrance to the north-east.'
+L['guolai'] = 'Inside {location:Guo-Lai Halls}.'
+L['guolai_left'] = 'Inside {location:Guo-Lai Halls} (left passage).'
+L['guolai_center'] = 'Inside {location:Guo-Lai Halls} (center passage).'
+L['guolai_right'] = 'Inside {location:Guo-Lai Halls} (right passage).'
 L['left_eye'] = 'Drops the left half of the {item:175140} toy.'
-L['pools_of_power'] = 'Inside the Pools of Power. Entrance at The Golden Pagoda.'
+L['pools_of_power'] = 'Inside the {location:Pools of Power}. Entrance at {location:The Golden Pagoda}.'
 L['tisiphon'] = 'Click on {object:Danielle\'s Lucky Fishing Rod}.'
 
 L['ambered_cache'] = 'Ambered Cache'
@@ -570,7 +570,7 @@ L['zunashi_note'] = 'Entrance to the north in the mouth of a large skull.'
 L['ashvane_spoils_note'] = 'Ride the {npc:132662} down the hill to spawn the treasure at the bottom.'
 L['excavators_greed_note'] = 'Inside a collapsed tunnel.'
 L['grayals_offering_note'] = 'After completing {quest:50702}, enter {location:Atul\'Aman} and click the {object:Ancient Altar} to spawn the treasure.'
-L['kimbul_offerings_note'] = 'On the hill above the Temple of Kimbul.'
+L['kimbul_offerings_note'] = 'On the hill above the {location:Temple of Kimbul}.'
 L['sandsunken_note'] = 'Click the {object:Abandoned Bobber} to pull the treasure out of the sand.'
 
 L['keeyo_note'] = 'Time for a great adventure!'
@@ -631,7 +631,7 @@ L['zujai_note'] = 'You come to face me in my own home? Good luck.'
 L['kuafon_note'] = [[
 Loot a {item:157782} from any {npc:Pterrordax} in {location:Zandalar} to begin the quest line. Some quests will take multiple days to complete.
 
-The best mobs to farm are {npc:126618} in {location:Zanchul} or {npc:122113s} at {location:Skyrender Eyrie} south of Tal'gurub.
+The best mobs to farm are {npc:126618} in {location:Zanchul} or {npc:122113s} at {location:Skyrender Eyrie} south of {location:Tal'gurub}.
 ]]
 L['torcali_note'] = 'Complete quests at {location:Warbeast Kraal} until {quest:47261} becomes available. Some quests will take multiple days to complete.'
 

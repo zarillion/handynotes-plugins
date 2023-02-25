@@ -27,7 +27,7 @@ L['options_icons_safari_desc'] = '显示 {achievement:14867} 成就中战斗宠�
 L['deifir_note'] = '骑上圈内的稀有并使用 {spell:319566} 和 {spell:319575} 使其减速和昏迷。'
 L['faeflayer_note'] = '瀑布后面隐藏的小洞穴内。'
 L['gormbore_note'] = '在颤动地面上击杀 {npc:165420} 稀有出现。'
-L['gormtamer_tizo_note'] = '在 {location:纱雾迷结} 击杀蓟果精灵直到 {npc:164110} 出现。'
+L['gormtamer_tizo_note'] = '在 {location:纱雾迷结} 击杀 {npc:蓟果精灵} 直到 {npc:164110} 出现。'
 L['humongozz_note'] = '种植一个 {item:175247} 在 {object:潮湿的沃土} 将出现 {npc:164122}。区域内的许多怪物都掉落蘑菇。'
 L['lehgo_note'] = '摧毁 {object:颤动的戈姆之卵} 并击杀 {npc:171827} 直到他出现。在洞穴内（入口在东南 {location:尘泥地穴} 内）。'
 L['macabre_note'] = [[
@@ -519,7 +519,7 @@ L['sire_ladinas_note'] = '拾取附近的 {object:圣光残余} 并使用 {spell
 L['soulstalker_doina_note'] = '跟随下楼并当她逃跑时穿过镜子。'
 L['tomb_burster_note'] = '如果 {npc:155777} 被网困住会出现。击杀附近 {npc:155769} 和几波 {npc:155795} 直到稀有出现。'
 L['worldedge_gorger_note'] = [[
-从 {location:灾厄林} 和 {location:末日迷沼} 的世界掠夺者、吞噬者和幼虫获得一个 {item:173939}。使用它点着 {object:界缘火盆} 召唤稀有。
+从 {location:灾厄林} 和 {location:末日迷沼} 的 {npc:世界掠夺者}、{npc:吞噬者} 和 {npc:幼虫} 获得一个 {item:173939}。使用它点着 {object:界缘火盆} 召唤稀有。
 
 有几率掉落一个 {item:180583}，然后开始七天任务线获得 {spell:333027} 坐骑。
 ]]
@@ -691,7 +691,7 @@ L['words_of_warden_note'] = '检查一些罐子后面岩石上的 {object:碎纸
 
 -- Locations given relative to a map area name
 L['nexus_area_calcis_branch'] = '位于 {location:白垩之地} 的水晶分叉上（使用锚点）'
-L['nexus_area_calcis_crystals'] = '在 {location:白垩之地} 的一些青色水晶后面 '
+L['nexus_area_calcis_crystals'] = '在 {location:白垩之地} 的一些青色水晶后面'
 L['nexus_area_cradle_bridge'] = '{location:毁灭之源} 的桥下'
 L['nexus_area_domination_bridge'] = '{location:统御祭坛} 南方的桥上'
 L['nexus_area_domination_edge'] = '{location:统御祭坛} 的边上'
@@ -711,12 +711,12 @@ L['nexus_cave_anguish_outside'] = '{location:苦楚之洞} 外'
 L['nexus_cave_anguish_upper'] = '{location:苦楚之洞} 内（上层）'
 L['nexus_cave_desmotaeron'] = '{location:渊狱} 外的小洞穴内'
 L['nexus_cave_echoing_outside'] = '{location:回音之洞} 外'
-L['nexus_cave_forlorn'] = '{location:荒弃之息} 洞穴内。'
+L['nexus_cave_forlorn'] = '{location:荒弃之息} 洞穴内'
 L['nexus_cave_howl_outside'] = '{location:死亡之嚎} 洞穴外的地面上'
 L['nexus_cave_howl'] = '{location:死亡之嚎} 洞穴内'
 L['nexus_cave_roar'] = '{location:死亡之哮} 洞穴内'
 L['nexus_cave_roar_outside'] = '{location:死亡之哮} 洞穴外'
-L['nexus_cave_ledge'] = '在壁架下方的一个小洞穴中 '
+L['nexus_cave_ledge'] = '在壁架下方的一个小洞穴中'
 L['nexus_cave_prodigum'] = '{location:浪骸之所} 的小洞穴内'
 L['nexus_cave_soulstained'] = '{location:魂渍原野} 的小洞穴内'
 L['nexus_cave_torturer'] = '{location:折磨者陋居} 内'
@@ -734,8 +734,8 @@ L['nexus_npc_talaporas'] = '{npc:170302} 的平台楼梯上'
 L['nexus_npc_thanassos'] = '{npc:170731} 的平台后面'
 L['nexus_npc_willbreaker'] = '{npc:168233} 后面的角落'
 -- Locations given relative to the main path/road nearby
-L['nexus_road_below'] = '在主干道下方的地面上 '
-L['nexus_road_cave'] = '在路下面的一个小山洞里 '
+L['nexus_road_below'] = '在主干道下方的地面上'
+L['nexus_road_cave'] = '在路下面的一个小山洞里'
 L['nexus_road_mawrats'] = '在路边的一群噬渊鼠'
 L['nexus_road_next'] = '主路旁'
 L['nexus_room_ramparts'] = '在城墙下的一个小房间里'
@@ -745,7 +745,7 @@ L['nexus_misc_floating_cage'] = '再漂浮的笼子上（使用锚点）'
 L['nexus_misc_below_ramparts'] = '沿着城墙的底部'
 L['nexus_misc_grapple_ramparts'] = '在城墙之上（使用锚点）'
 L['nexus_misc_grapple_rock'] = '通过锚点到岩石上'
-L['nexus_misc_ledge_below'] = '在窗台下的地面上 '
+L['nexus_misc_ledge_below'] = '在窗台下的地面上'
 L['nexus_misc_three_chains'] = '在地上的三个铁链'
 
 L['stolen_anima_vessel'] = '失窃的心能容器'
@@ -918,7 +918,7 @@ L['hirukon_note'] = [[
 
 4. 从 {location:烁光海床} 的 {location:纳舒拉平台}（34.7, 75.0）二楼的平台拾取一个 {item:187916}（非常隐蔽）。
 
-5. {npc:182194} 位于 {location:玛卓克萨斯} 的 {{location:兵主之座} 的南边池塘。问她制作完成 {item:187923}。
+5. {npc:182194} 位于 {location:玛卓克萨斯} 的 {location:兵主之座} 的南边池塘。问她制作完成 {item:187923}。
 
 6. 使用 {item:187923}，可以让你在 {npc:180978} 附近看到 {object:元水母群} 渔点15分钟。在此钓鱼会召唤 {npc:180978} 到上面。
 ]] -- Breaking my rule of no coords in the notes for this one
@@ -1100,7 +1100,7 @@ L['options_icons_code_creature_desc'] = '显示 {achievement:15211} 成就中生
 L['options_icons_concordances'] = '知识索引'
 L['options_icons_concordances_desc'] = '显示 {object:知识索引控制台} 的位置。'
 L['options_icons_echoed_jiros'] = '回声机若'
-L['options_icons_echoed_jiros_desc'] = '显示 {object:回声机若} 提供增益的位置。'
+L['options_icons_echoed_jiros_desc'] = '显示 {npc:回声机若} 提供增益的位置。'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = '显示 {achievement:15509} 成就中传说的位置。'
 L['options_icons_proto_materials'] = '{achievement:15229}'

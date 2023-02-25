@@ -174,7 +174,7 @@ L['skulvrax_note'] = 'Resuscitate {npc:92334} and follow her.'
 L['theryssia_note'] = 'Read {npc:94194}\'s nameplate on the gravestone.'
 L['unguarded_thistleleaf_treasure'] = 'Unguarded Thistleleaf Treasure'
 
-L['in_darkpens'] = 'Inside the Darkpens.'
+L['in_darkpens'] = 'Inside the {location:Darkpens}.'
 L['treasure_38366'] = 'Under the tree roots.'
 L['treasure_38386'] = 'On the balcony on the second floor.'
 L['treasure_38387'] = 'In an small cave under the inn. The entrance is behind the building.'
@@ -204,4 +204,4 @@ L['small_treasure_chest'] = 'Small Treasure Chest'
 L['treasure_chest'] = 'Treasure Chest'
 L['treasures_discovered'] = 'treasures discovered'
 
-L['general_pet_tamer_note'] = ns.color.Orange('Only appears when the corresponding world quest is active.')
+L['general_pet_tamer_note'] = '{note:Only appears when the corresponding world quest is active.}'
