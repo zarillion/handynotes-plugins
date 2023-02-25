@@ -232,7 +232,7 @@ L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal fr
 L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}'
 
-L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {spell:1784} and will run away when attacked.\n\n{note:Kill him quickly before he finishes casting {spell:406141}.}'
+L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {spell:132653} and will run away when attacked.\n\n{note:Kill him quickly before he finishes casting {spell:406141}.}'
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'small treasures opened'
 L['forbidden_spoils_suffix'] = 'Forbidden Hoards opened'
