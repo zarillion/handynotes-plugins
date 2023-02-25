@@ -25,19 +25,19 @@ L['hyjal_phase4b'] = 'Fase 4b - Zona de las Celadoras de las Sombras'
 L['hyjal_phase5'] = 'Fase 5 - El Recrecimiento'
 
 L['hyjal_phase1_note'] = 'Completa misiones en el {location:Monte Hyjal} hasta conseguir la misión {quest:29389}. Esta cadena de misiones comenzará la Fase de Invasión.'
-L['hyjal_phase2_note'] = 'Para avanzar en la Fase 2 necesitarás 10 {currency:416} para poder hacer la misión {quest:29198}.\n\nConseguirás {currency:416} en las misiones diarias.'
-L['hyjal_phase3_note'] = 'Para avanzar en la Fase 3 necesitarás 15 {currency:416} para poder hacer la misión {quest:29201}.\n\nConseguirás {currency:416} en las misiones diarias.'
+L['hyjal_phase2_note'] = 'Para avanzar en la Fase 2 necesitarás 10x {currency:416} para poder hacer la misión {quest:29198}.\n\nConseguirás {currency:416} en las misiones diarias.'
+L['hyjal_phase3_note'] = 'Para avanzar en la Fase 3 necesitarás 15x {currency:416} para poder hacer la misión {quest:29201}.\n\nConseguirás {currency:416} en las misiones diarias.'
 L['hyjal_phase4_note'] = [[
 La Fase 4 está dividida en 2 partes.
 
-Para avanzar en la Fase 4a necesitarás 150 {currency:416} para poder hacer la misión {quest:29181}.
-Para avanzar en la Fase 4b necesitarás 150 {currency:416} para poder hacer la misión {quest:29214}.
+Para avanzar en la Fase 4a necesitarás 150x {currency:416} para poder hacer la misión {quest:29181}.
+Para avanzar en la Fase 4b necesitarás 150x {currency:416} para poder hacer la misión {quest:29214}.
 
 Conseguirás {currency:416} en las misiones diarias.
 ]]
 L['hyjal_phase5_note'] = 'Para avanzar en la Fase 5 necesitarás completar las misiones {quest:29215} y {quest:29182}.' -- review
 
-L['portal_molten_front'] = 'Portal al Frente de Magma'
+L['portal_molten_front'] = 'Portal al {location:Frente de Magma}'
 
 L['spider_hill_note'] = [[
 Alcanza el punto más alto en la {location:Guarida de la Viuda}.
@@ -104,8 +104,8 @@ L['options_icons_molten_flow_master_desc'] = 'Muestra dónde hacer el logro {ach
 ---------------------------------- DEEPHOLM -----------------------------------
 -------------------------------------------------------------------------------
 
-L['portal_to_therazane'] = 'Portal al Trono de Therazane'
-L['portal_to_earth_temple'] = 'Portal al Templo de la Tierra'
+L['portal_to_therazane'] = 'Portal al {location:Trono de Therazane}'
+L['portal_to_earth_temple'] = 'Portal al {location:Templo de la Tierra}'
 
 L['fungal_frenzy_note'] = [[
 Sufre los efectos de {spell:83803}, {spell:83805}, {spell:83747} y {spell:83804} simultáneamente.
