@@ -596,6 +596,16 @@ warCreche.nodes[31308084] = ArtisanCurio({
 --     recipeID = 203424 -- Schematic: Gnomish Voicebox
 -- }) -- UNKNOWN
 
+local AwakenedSoil = Class('AwakenedSoil', ArtisanCurio, {
+    label = L['awakened_soil_label'],
+    icon = 656681,
+    requires = ns.requirement.Item(203416), -- Dormant Lifebloom Seeds
+    skillID = 182, -- Herbalism
+}) -- Awakened Soil
+
+map.nodes[35354003] = AwakenedSoil()
+map.nodes[56435911] = AwakenedSoil()
+
 map.nodes[61256442] = ArtisanCurio({
     label = L['spellsworn_ward_label'],
     icon = 4638727,
@@ -1123,20 +1133,6 @@ map.nodes[30185303] = RecipeRat()
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
-
--------------------------------- AWAKENED SOIL --------------------------------
-
--- TODO: Not sure what the following nodes are for yet. But they look
--- interesting so I saved them just in case!
-
-local AwakenedSoil = Class('AwakenedSoil', Node, {
-    label = L['awakened_soil_label'],
-    icon = 656681,
-    requires = ns.requirement.Item(203416) -- Lifebloom Seeds
-}) -- Awakened Soil
-
-map.nodes[35354003] = AwakenedSoil()
-map.nodes[56435911] = AwakenedSoil()
 
 ----------------------------------- EDICTS ------------------------------------
 
