@@ -259,6 +259,7 @@ L['spiceless_stew_label'] = nil
 L['tuskarr_tanning_rack'] = nil
 L['volatile_brazier'] = nil
 L['raw_argali_pelts'] = nil
+L['awakened_soil_label'] = nil
 
 L['artisan_curio_note'] = nil
 L['options_icons_artisan_curio'] = nil -- "Artisan Curio" se puede encontrar en Recipe: Neutralizing Agent
@@ -278,8 +279,6 @@ L['options_icons_librarian_of_the_reach_desc'] = 'Muestra dónde están los libr
 
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos para el logro {achievement:17315}.'
-
-L['awakened_soil_label'] = nil
 
 L['zskera_vaults_label'] = nil
 L['zskera_vaults_note'] = nil
