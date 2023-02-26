@@ -233,7 +233,7 @@ L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751}({dot:Green}) pour
 L['mad_eye_carrey_note'] = '{npc:201181} se trouve dans un groupe avec la {npc:201184} et la {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} fait équipe avec {npc:201310}'
 
-L['loot_specialist_note'] = '{npc:203353} apparaît avec les sorts {spell:406143} et {spell:1784} et s\'enfuira s\'il est attaqué.\n\n{note:Tuez-le rapidement avant qu\'il ne finisse de lancer {spell:406141}.}'
+L['loot_specialist_note'] = '{npc:203353} apparaît avec les sorts {spell:406143} et {spell:132653} et s\'enfuira s\'il est attaqué.\n\n{note:Tuez-le rapidement avant qu\'il ne finisse de lancer {spell:406141}.}'
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'Petits trésors ouverts'
 L['forbidden_spoils_suffix'] = 'Provisions interdites ouvertes'
@@ -258,7 +258,7 @@ L['rumbling_deposit_label'] = nil -- not yet localized
 L['spiceless_stew_label'] = 'Ragoût sans épices'
 L['tuskarr_tanning_rack'] = 'Chevalet de tannage rohart'
 L['volatile_brazier'] = 'Brasero volatil'
-L['raw_argali_pelts'] = nil
+L['raw_argali_pelts'] = 'Toisons d\'argali brutes'
 
 L['artisan_curio_note'] = 'Les joueurs ayant le métier %s (à 50) peuvent acheter {item:%s} à la {npc:202445} au {location:Village de Morqut} pour 10 {item:190456}.'
 L['options_icons_artisan_curio'] = 'Bibelot d\'Artisanat'
