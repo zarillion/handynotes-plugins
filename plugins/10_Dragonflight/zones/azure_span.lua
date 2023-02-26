@@ -1605,6 +1605,7 @@ local Kazzi = Class('Kazzi', Collectible, {
         Spacer(), Section(L['rep_revered']),
         Item({item = 202287, note = '100'}), -- Paw-Made Winterpelt Reagent Bag
         Transmog({item = 204355, slot = L['cosmetic'], note = '500'}), -- Hollowed Winterpelt Food Pack
+        Toy({item = 203734, note = '200'}), -- Snow Blanket
         -- NOT IN DC
         Item({item = 202279, quest = nil, note = '100'}), -- Renewed Proto-Drake: Malevolent Horns
         Item({item = 197629, quest = 69835, note = '100'}), -- Windborne Velocidrake: Spiked Neck
