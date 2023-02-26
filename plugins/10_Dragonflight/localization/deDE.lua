@@ -251,6 +251,7 @@ L['rumbling_deposit_label'] = nil
 L['spiceless_stew_label'] = nil
 L['tuskarr_tanning_rack'] = nil
 L['volatile_brazier'] = nil
+L['raw_argali_pelts'] = nil
 
 L['artisan_curio_note'] = 'Spieler mit %s (50) können {item:%s} von {npc:202445} beim {location:Morqutdorf} für 10 {item:190456} kaufen.'
 L['options_icons_artisan_curio'] = nil

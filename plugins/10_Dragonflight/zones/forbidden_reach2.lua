@@ -633,6 +633,13 @@ dragonskullIsland.nodes[56947247] = ArtisanCurio({
     skillID = 186 -- Mining
 }) -- Rumbling Deposit
 
+map.nodes[70664614] = ArtisanCurio({
+    label = L['raw_argali_pelts'],
+    icon = 1029749,
+    requires = ns.requirement.Item(203417), -- Razor-Sharp Animal Bone
+    skillID = 393 -- Skinning
+}) -- Raw Argali Pelts
+
 local TuskarrKitePost = Class('TuskarrKitePost', ArtisanCurio, {
     label = L['tuskarr_kite_post_label'],
     icon = 318523,
@@ -973,6 +980,74 @@ map.nodes[55393586] = ScalecommanderItem({
 --     hordeLabel = '{quest:74903}',
 --     rewards = {Achievement({id = 17315, criteria = 8})}
 -- }) -- Sending Stone: The Prisoner
+
+-------------------------------------------------------------------------------
+-------------------------------- SCROLL HUNTER --------------------------------
+-------------------------------------------------------------------------------
+
+-- L['scroll_hunter_suffix'] = 'treasures found from Sealed Scrolls'
+-- L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal a {npc:%s} on the map who will offer a {item:%s} which provides reputation for {faction:%s}.'
+
+-- L['options_icons_scroll_hunter'] = '{achievement:17532}'
+-- L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532}.'
+
+-- ns.groups.SCROLL_HUNTER = Group('scroll_hunter', 4549192, {
+--     defaults = ns.GROUP_HIDDEN,
+--     type = ns.group_types.EXPANSION
+-- })
+
+-- local ScrollHunter = Class('ScrollHunter', Collectible, {
+--     icon = 4549192,
+--     group = ns.groups.SCROLL_HUNTER,
+--     rewards = {
+--         Achievement({
+--             id = 17532,
+--             criteria = {id = 1, qty = true, suffix = L['scroll_hunter_suffix']}
+--         }) -- Scroll Hunter
+--     }
+-- }) -- Scroll Hunter
+
+-- local DraconicArtifact = Class('DraconicArtifact', ScrollHunter, {
+--     id = '{npc:196127}',
+--     note = format(L['scroll_hunter_note'],
+--         202667, -- Sealed Artifact Scroll
+--         196127, -- Draconic Artifact (NPC)
+--         202871, -- Draconic Artifact (Item)
+--         2507 -- Dragonscale Expedition
+--     )
+-- }) -- Draconic Artifact
+
+-- local SpiritOfBlessing = Class('SpiritOfBlessing', ScrollHunter, {
+--     id = '{npc:201006}',
+--     note = format(L['scroll_hunter_note'],
+--         202668, -- Sealed Spirit Scroll
+--         201006, -- Spirit of Blessing (NPC)
+--         202872, -- Token of Blessing (Item)
+--         2503 -- Maruuk Centaur
+--     )
+-- }) -- Spirit of Blessing
+
+-- local WondrousFish = Class('', ScrollHunter, {
+--     id = '{npc:200958}',
+--     note = format(L['scroll_hunter_note'],
+--         202669, -- Sealed Fish Scroll
+--         200958, -- Wondrous Fish (NPC)
+--         202854, -- Wondrous Fish (Item)
+--         2511 -- Iskaara Tuskarr
+--     )
+-- }) -- Wondrous Fish
+
+-- local nil = Class('nil', ScrollHunter, {
+--     id = '{npc:nil}',
+--     note = format(L['scroll_hunter_note'],
+--         202670, -- Sealed Knowledge Scroll
+--         nil, --
+--         202870, -- Mysterious Writings (Item)
+--         2510 -- Valdrakken Accord
+--     )
+-- }) -- nil
+
+-- map.nodes[60515053] = SpiritOfBlessing()
 
 -------------------------------------------------------------------------------
 -------------------------------- ZSKERA VAULTS --------------------------------

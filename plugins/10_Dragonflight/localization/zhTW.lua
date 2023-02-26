@@ -257,6 +257,7 @@ L['rumbling_deposit_label'] = nil
 L['spiceless_stew_label'] = nil
 L['tuskarr_tanning_rack'] = nil
 L['volatile_brazier'] = nil
+L['raw_argali_pelts'] = nil
 
 L['artisan_curio_note'] = nil
 L['options_icons_artisan_curio'] = nil

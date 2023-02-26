@@ -257,6 +257,7 @@ L['rumbling_deposit_label'] = 'Rumbling Deposit'
 L['spiceless_stew_label'] = 'Spiceless Stew'
 L['tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack'
 L['volatile_brazier'] = 'Volatile Brazier'
+L['raw_argali_pelts'] = 'Raw Argali Pelts'
 
 L['artisan_curio_note'] = 'Players with %s (50) can purchase {item:%s} from {npc:202445} at {location:Morqut Village} for 10 {item:190456}.'
 L['options_icons_artisan_curio'] = 'Artisan Curio'
