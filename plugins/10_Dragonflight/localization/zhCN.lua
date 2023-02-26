@@ -219,85 +219,85 @@ L['mysterious_wand_note'] = '拾取 {object:水晶钥匙} 并将其放入 {objec
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
-L['in_dragonskull_island'] = nil
-L['in_froststone_vault'] = nil
-L['in_the_high_creche'] = nil
-L['in_the_lost_atheneum'] = nil
-L['in_the_siege_creche'] = nil
-L['in_the_support_creche'] = nil
-L['in_the_war_creche'] = nil
-L['in_zskera_vaults'] = nil
+L['in_dragonskull_island'] = '位于 {location:龙颅岛}。'
+L['in_froststone_vault'] = '位于 {location:霜石宝库}。'
+L['in_the_high_creche'] = '位于 {location:至高育幼所}。'
+L['in_the_lost_atheneum'] = '位于 {location:失落图书馆}。'
+L['in_the_siege_creche'] = '位于 {location:攻城育幼所}。'
+L['in_the_support_creche'] = '位于 {location:支援育幼所}。'
+L['in_the_war_creche'] = '位于 {location:至高育幼所} 深处。'
+L['in_zskera_vaults'] = '位于 {location:Zskera Vaults}。'
 
-L['duzalgor_note'] = nil
-L['mad_eye_carrey_note'] = nil
-L['wymslayer_angvardi_note'] = nil
+L['duzalgor_note'] = '收集一瓶 {spell:400751}（{dot:Green}）来治疗 {location:支援育幼所} 内的有毒气体。'
+L['mad_eye_carrey_note'] = '{npc:201181} 与 {npc:201184} 和 {npc:201182} 在一组。'
+L['wymslayer_angvardi_note'] = '{npc:201013} 和 {npc:201310} 为伴。'
 
-L['loot_specialist_note'] = nil
+L['loot_specialist_note'] = '{npc:203353} 出现时有 {spell:406143} 和 {spell:132653} 并且会在受到攻击时逃跑。\n\n{note:在他施放 {spell:406141} 完之前快速击杀他。}'
 
-L['hoarder_of_the_forbidden_reach_suffix'] = nil
-L['forbidden_spoils_suffix'] = nil
+L['hoarder_of_the_forbidden_reach_suffix'] = '已打开小宝藏'
+L['forbidden_spoils_suffix'] = '已打开 Forbidden Hoards'
 
-L['forbidden_hoard_label'] = nil
-L['options_icons_forbidden_hoard'] = nil
-L['options_icons_forbidden_hoard_desc'] = nil
+L['forbidden_hoard_label'] = 'Forbidden Hoard'
+L['options_icons_forbidden_hoard'] = 'Forbidden Hoard'
+L['options_icons_forbidden_hoard_desc'] = '显示 {object:Forbidden Hoard} 宝箱可能的位置。'
 
-L['small_treasures_label'] = nil
-L['small_treasures_note'] = nil
-L['options_icons_small_treasures'] = nil
-L['options_icons_small_treasures_desc'] = nil
+L['small_treasures_label'] = '小宝藏'
+L['small_treasures_note'] = '刷新点之间共享小宝藏。\n\n从 {location:Morqut Village} 的 {npc:200566} 购买 {item:204558} 以获得{spell:405637} 增益，可以在小地图上看到小宝藏60分钟。'
+L['options_icons_small_treasures'] = '小宝藏'
+L['options_icons_small_treasures_desc'] = '显示小宝藏可能的位置。'
 
-L['storm_bound_chest_label'] = nil
+L['storm_bound_chest_label'] = 'Storm-Bound Chest'
 
-L['book_of_arcane_entities_label'] = nil
-L['tuskarr_kite_post_label'] = nil
-L['farescale_shrine_label'] = nil
-L['resonating_crystal_label'] = nil
-L['spellsworn_ward_label'] = nil
-L['rumbling_deposit_label'] = nil
-L['spiceless_stew_label'] = nil
-L['tuskarr_tanning_rack'] = nil
-L['volatile_brazier'] = nil
-L['raw_argali_pelts'] = nil
+L['book_of_arcane_entities_label'] = 'Book of Arcane Entities'
+L['tuskarr_kite_post_label'] = 'Tuskarr Kite Post'
+L['farescale_shrine_label'] = 'Farscale Shrine'
+L['resonating_crystal_label'] = 'Resonating Crystal'
+L['spellsworn_ward_label'] = 'Spellsworn Ward'
+L['rumbling_deposit_label'] = 'Rumbling Deposit'
+L['spiceless_stew_label'] = 'Spiceless Stew'
+L['tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack'
+L['volatile_brazier'] = 'Volatile Brazier'
+L['raw_argali_pelts'] = 'Raw Argali Pelts'
 
-L['artisan_curio_note'] = nil
-L['options_icons_artisan_curio'] = nil
-L['options_icons_artisan_curio_desc'] = nil
+L['artisan_curio_note'] = '拥有 %s (50) 的玩家可以在 {location:Morqut Village} 的 {npc:202445} 以10个 {item:190456} 的价格购买 {item:%s}。'
+L['options_icons_artisan_curio'] = 'Artisan Curio'
+L['options_icons_artisan_curio_desc'] = '显示 Artisan Curios 的位置和奖励。'
 
-L['spellsworn_missive_label'] = nil
-L['confiscated_journal_label'] = nil
-L['farscale_manifesto_label'] = nil
-L['lost_expeditions_notes_label'] = nil
-L['vrykul_tome_label'] = nil
-L['old_gods_label'] = nil
+L['spellsworn_missive_label'] = 'Spellsworn Missive'
+L['confiscated_journal_label'] = 'Confiscated Journal'
+L['farscale_manifesto_label'] = 'Farscale Manifesto'
+L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
+L['vrykul_tome_label'] = 'Vrykul Tome'
+L['old_gods_label'] = 'The Old Gods and the Ordering of Azeroth'
 
-L['library_note'] = nil
+L['library_note'] = '打开 {object:%s} 并拾取 {item:%s}。'
 
-L['options_icons_librarian_of_the_reach'] = nil
-L['options_icons_librarian_of_the_reach_desc'] = nil
+L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
+L['options_icons_librarian_of_the_reach_desc'] = '显示 {achievement:17530} 成就中书籍的位置。'
 
-L['options_icons_scalecommander_item'] = nil
-L['options_icons_scalecommander_item_desc'] = nil
+L['options_icons_scalecommander_item'] = '{achievement:17315}'
+L['options_icons_scalecommander_item_desc'] = '显示 {achievement:17315} 成就物品的位置。'
 
-L['awakened_soil_label'] = nil
+L['awakened_soil_label'] = 'Awakened Soil'
 
-L['zskera_vaults_label'] = nil
-L['zskera_vaults_note'] = nil
-L['door_buster_suffix'] = nil
+L['zskera_vaults_label'] = 'Zskera Vaults'
+L['zskera_vaults_note'] = '从各种稀有物品和宝箱中收集 {item:202196}，打开 {location:Zskera Vaults} 内的大门。'
+L['door_buster_suffix'] = '使用 Zskera Vault 钥匙解锁的门'
 
-L['recipe_rat_note_1'] = nil
-L['recipe_rat_note_2'] = nil
-L['recipe_rat_note_3'] = nil
-L['recipe_rat_note_4'] = nil
+L['recipe_rat_note_1'] = '与 {location:Zskera Vault} 中的 {npc:202982} 交谈，{item:202252} 会进入包内。'
+L['recipe_rat_note_2'] = '与 {item:202252} 互动以收到 {item:204340}。{note:（5 分钟冷却时间）}'
+L['recipe_rat_note_3'] = '一旦有30个 {item:204340} 组合废料来收到配方。'
+L['recipe_rat_note_4'] = '{note:这只老鼠喜欢奶酪并且大约每三分钟就会吃掉一个 {item:3927}。做好计划！}'
 
-L['options_icons_zskera_vaults'] = nil
-L['options_icons_zskera_vaults_desc'] = nil
+L['options_icons_zskera_vaults'] = 'Zskera Vaults'
+L['options_icons_zskera_vaults_desc'] = '显示 {location:Zskera Vaults} 的奖励。'
 
-L['froststone_vault_storm_label'] = nil
-L['options_icons_froststone_vault_storm'] = nil
-L['options_icons_froststone_vault_storm_desc'] = nil
+L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm'
+L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm'
+L['options_icons_froststone_vault_storm_desc'] = '显示 {object:Froststone Vault Primal Storm} 的位置和奖励。'
 
-L['spellsworn_gateway'] = nil
-L['gemstone_of_return'] = nil
+L['spellsworn_gateway'] = 'Spellsworn Gateway'
+L['gemstone_of_return'] = 'Gemstone of Return'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
