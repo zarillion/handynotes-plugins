@@ -259,6 +259,7 @@ L['spiceless_stew_label'] = 'Ragoût sans épices'
 L['tuskarr_tanning_rack'] = 'Chevalet de tannage rohart'
 L['volatile_brazier'] = 'Brasero volatil'
 L['raw_argali_pelts'] = 'Toisons d\'argali brutes'
+L['awakened_soil_label'] = 'Sol éveillé'
 
 L['artisan_curio_note'] = 'Les joueurs ayant le métier %s (à 50) peuvent acheter {item:%s} à la {npc:202445} au {location:Village de Morqut} pour 10 {item:190456}.'
 L['options_icons_artisan_curio'] = 'Bibelot d\'Artisanat'
@@ -278,8 +279,6 @@ L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des 
 
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des objets pour le haut-fait {achievement:17315}.'
-
-L['awakened_soil_label'] = 'Sol éveillé'
 
 L['zskera_vaults_label'] = 'Caveaux de Zskera'
 L['zskera_vaults_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans les {location:Caveaux de Zskera}.'
