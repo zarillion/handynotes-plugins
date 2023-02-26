@@ -999,6 +999,7 @@ map.nodes[29265268] = Collectible({
         Spacer(), Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
         Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
         Toy({item = 204262}), -- Holoviewer: The timeless One
+        Toy({item = 203852}), -- Spore-Bound Essence
         Spacer(), Achievement({id = 17530, criteria = 58507}), -- Librarian of the Reach
         Achievement({id = 17315, criteria = {1, 4}}) -- While We Were Sleeping
     }
