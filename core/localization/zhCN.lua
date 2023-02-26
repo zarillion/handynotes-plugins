@@ -81,9 +81,9 @@ L['follower_type_follower'] = '追随者'
 L['follower_type_champion'] = '勇士'
 L['follower_type_companion'] = '伙伴'
 
-L['rep_honored'] = nil
-L['rep_revered'] = nil
-L['rep_exalted'] = nil
+L['rep_honored'] = '尊敬'
+L['rep_revered'] = '崇敬'
+L['rep_exalted'] = '崇拜'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
