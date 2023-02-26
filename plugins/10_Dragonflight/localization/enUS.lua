@@ -258,6 +258,7 @@ L['spiceless_stew_label'] = 'Spiceless Stew'
 L['tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack'
 L['volatile_brazier'] = 'Volatile Brazier'
 L['raw_argali_pelts'] = 'Raw Argali Pelts'
+L['awakened_soil_label'] = 'Awakened Soil'
 
 L['artisan_curio_note'] = 'Players with %s (50) can purchase {item:%s} from {npc:202445} at {location:Morqut Village} for 10 {item:190456}.'
 L['options_icons_artisan_curio'] = 'Artisan Curio'
@@ -277,8 +278,6 @@ L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {ac
 
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achievement:17315}.'
-
-L['awakened_soil_label'] = 'Awakened Soil'
 
 L['zskera_vaults_label'] = 'Zskera Vaults'
 L['zskera_vaults_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vaults}.'
