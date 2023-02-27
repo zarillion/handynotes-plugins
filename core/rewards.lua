@@ -422,7 +422,7 @@ local Recipe = Class('Recipe', Item, {
 })
 
 function Recipe:Initialize(attrs)
-    Item.Initialize(self.attrs)
+    Item.Initialize(self, attrs)
 
     if not self.profession then
         error('Recipe() reward requires a profession id to be set')
