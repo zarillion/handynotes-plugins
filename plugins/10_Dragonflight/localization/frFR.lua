@@ -92,7 +92,7 @@ L['options_icons_signal_transmitter'] = 'Transmetteurs de signaux du Générateu
 L['options_icons_signal_transmitter_desc'] = 'Afficher les emplacements des {object:Transmetteurs de signaux désactivés} pour le {item:198156}.'
 
 L['rare_14h'] = 'Ce rare fait partie d\'une rotation de 14 heures avec les autres rares, un rare apparaissant toutes les 30 minutes.\n\nProchaine apparition possible : {note:%s} (heure locale)'
-L['time_format'] = '%H:%M - %d/%m/%Y'
+L['time_format'] = '%H:%M - %d/%m'
 L['spawns_at_night'] = '{note:Apparaît uniquement la nuit. (Après 18:30, heure du serveur)}'
 
 L['elemental_storm'] = 'Tempête élémentaire'
@@ -333,7 +333,7 @@ L['options_icons_nokhud_do_it_desc'] = 'Afficher des informations utiles pour ob
 
 L['chest_of_the_flood'] = 'Coffre du déluge'
 
-L['aylaag_camp_note'] = 'Le {faction:Clan des Aylaags} se déplace vers un autre campement tous les 3 jours et 3 heures (75), suivez-les et défendez-les sur leur chemin.'
+L['aylaag_camp_note'] = 'Le {faction:Clan des Aylaags} se déplace vers un autre campement tous les 3 jours et 3 heures (75), suivez-les et défendez-les sur leur chemin.\n\nProchain déplacement : {note:%s} (heure locale)'
 
 L['clan_chest'] = 'Coffre clanique'
 L['options_icons_clan_chest'] = 'Coffres claniques'
