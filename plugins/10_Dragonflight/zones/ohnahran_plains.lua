@@ -36,6 +36,7 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -2030,7 +2031,7 @@ map.nodes[41606220] = Collectible({
     icon = 4659336,
     note = L['elder_yusa_note'],
     rewards = {
-        Item({item = 197793}) -- Yusa's Hearty Stew
+        Recipe({item = 197793, profession = 185}) -- Yusa's Hearty Stew
     }
 }) -- Elder Yusa
 

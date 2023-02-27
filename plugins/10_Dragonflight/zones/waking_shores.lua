@@ -38,6 +38,7 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -2408,7 +2409,7 @@ map.nodes[37104453] = TameMagmammoth() -- Smoldering Perch
 
 nel.nodes[57407880] = PT.Engineering({
     id = 199229,
-    rewards = {Item({item = 199229})}
+    rewards = {Recipe({item = 199229, profession = 202})}
 }) -- Schematic: Tinker: Breath of Neltharion
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
