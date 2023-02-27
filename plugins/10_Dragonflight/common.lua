@@ -1028,7 +1028,8 @@ local AylaagCamp = Class('AylaagCamp', Collectible, {
 })
 
 function AylaagCamp.getters:note()
-    return format(L['aylaag_camp_note'], date(L['time_format'], nextSpawn(self)))
+    return
+        format(L['aylaag_camp_note'], date(L['time_format'], nextSpawn(self)))
 end
 
 ns.node.Rare14h = Rare14h
