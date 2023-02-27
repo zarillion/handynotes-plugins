@@ -332,7 +332,7 @@ L['options_icons_nokhud_do_it_desc'] = '显示 {achievement:16583} 成就中有�
 
 L['chest_of_the_flood'] = '洪水宝箱'
 
-L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天3小时（75）移动到另一个营地，跟随并在途中保护他们。'
+L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天3小时（75）移动到另一个营地，跟随并在途中保护他们。\n\n下次移动：{note:%s}（本地时间）'
 
 L['clan_chest'] = '氏族宝箱'
 L['options_icons_clan_chest'] = '氏族宝箱'

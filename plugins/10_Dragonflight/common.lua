@@ -1018,10 +1018,24 @@ function Feast.getters:note()
     return format(L['bisquis_note'], date(L['time_format'], nextSpawn(self)))
 end
 
+----------------------------- THE OHN'AHRAN TRAIL -----------------------------
+
+local AylaagCamp = Class('AylaagCamp', Collectible, {
+    initialSpawn = {us = 1677456000, eu = 1677502800, tw = 1677571200},
+    spawnOffset = 270000,
+    spawnInterval = 810000,
+    rotationID = 0
+})
+
+function AylaagCamp.getters:note()
+    return format(L['aylaag_camp_note'], date(L['time_format'], nextSpawn(self)))
+end
+
 ns.node.Rare14h = Rare14h
 ns.node.RareElite14h = RareElite14h
 ns.node.Brackenhide = Brackenhide
 ns.node.Feast = Feast
+ns.node.AylaagCamp = AylaagCamp
 
 -------------------------------------------------------------------------------
 ------------------------------ ELEMENTAL STORMS -------------------------------

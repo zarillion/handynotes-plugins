@@ -332,7 +332,7 @@ L['options_icons_nokhud_do_it_desc'] = 'Display helpful information for completi
 
 L['chest_of_the_flood'] = 'Chest of the Flood'
 
-L['aylaag_camp_note'] = '{faction:Clan Aylaag} moves on to another camp every 3 days and 3 hours (75), follow them and defend them on their way.'
+L['aylaag_camp_note'] = '{faction:Clan Aylaag} moves on to another camp every 3 days and 3 hours (75), follow them and defend them on their way.\n\nNext move: {note:%s} (local time)'
 
 L['clan_chest'] = 'Clan Chest'
 L['options_icons_clan_chest'] = 'Clan Chests'

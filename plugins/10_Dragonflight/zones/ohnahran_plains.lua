@@ -1979,34 +1979,44 @@ map.nodes[57473193] = Ohnahra()
 
 ----------------------------- THE OHN'AHRAN TRAIL -----------------------------
 
-local AylaagCamp = Class('AylaagCamp', Collectible, {
-    icon = 237385,
-    requires = {
-        ns.requirement.Reputation(2503, 4, true) -- Maruuk Centaur
-    },
-    note = L['aylaag_camp_note']
-})
+map.nodes[71473180] = ns.node.AylaagCamp(
+    { -- Aylaag Outpost to river camp
+        icon = 237385,
+        requires = {
+            ns.requirement.Reputation(2503, 4, true) -- Maruuk Centaur
+        },
+        rotationID = 0,
+        rewards = {
+            Achievement({id = 16462, criteria = 55480}) -- The Ohn'ahran Trail
+        },
+        pois = {POI({70666300})}
+    })
 
-map.nodes[71473180] = AylaagCamp({ -- Aylaag Outpost to river camp
-    rewards = {
-        Achievement({id = 16462, criteria = 55480}) -- The Ohn'ahran Trail
-    },
-    pois = {POI({70666300})}
-})
+map.nodes[70666300] = ns.node.AylaagCamp(
+    { -- River camp to Eaglewatch Outpost
+        icon = 237385,
+        requires = {
+            ns.requirement.Reputation(2503, 4, true) -- Maruuk Centaur
+        },
+        rotationID = 1,
+        rewards = {
+            Achievement({id = 16462, criteria = 55481}) -- The Ohn'ahran Trail
+        },
+        pois = {POI({55375224})}
+    })
 
-map.nodes[70666300] = AylaagCamp({ -- River camp to Eaglewatch Outpost
-    rewards = {
-        Achievement({id = 16462, criteria = 55481}) -- The Ohn'ahran Trail
-    },
-    pois = {POI({55375224})}
-})
-
-map.nodes[55375224] = AylaagCamp({ -- Eaglewatch Outpost to Aylaag Outpost
-    rewards = {
-        Achievement({id = 16462, criteria = 55482}) -- The Ohn'ahran Trail
-    },
-    pois = {POI({71473180})}
-})
+map.nodes[55375224] = ns.node.AylaagCamp(
+    { -- Eaglewatch Outpost to Aylaag Outpost
+        icon = 237385,
+        requires = {
+            ns.requirement.Reputation(2503, 4, true) -- Maruuk Centaur
+        },
+        rotationID = 2,
+        rewards = {
+            Achievement({id = 16462, criteria = 55482}) -- The Ohn'ahran Trail
+        },
+        pois = {POI({71473180})}
+    })
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
