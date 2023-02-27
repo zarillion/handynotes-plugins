@@ -283,13 +283,22 @@ local BonusBoss = Class('BonusBoss', NPC, {
     group = ns.groups.BONUS_BOSS
 })
 
-dragonskullIsland.nodes[28984051] = BonusBoss({
+local LootSpecialist = Class('LootSpecialist', BonusBoss, {
     id = 203353,
-    quest = nil,
-    location = L['in_dragonskull_island'],
     note = L['loot_specialist_note'],
-    parent = map.id
+    rewards = {
+        Item({item = 204276}), -- Untapped Forbidden Knowledge
+        Item({item = 202196}), -- Zskera Vault Key
+        Currency({id = 2118}) -- Elemental Overflow
+    }
 }) -- Loot Specialist
+
+map.nodes[47394256] = LootSpecialist()
+
+dragonskullIsland.nodes[28984051] = LootSpecialist({
+    location = L['in_dragonskull_island'],
+    parent = map.id
+})
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN HOARD -------------------------------
@@ -391,6 +400,7 @@ local SMALLTREASURE = Collectible({
 map.nodes[17935425] = SMALLTREASURE
 map.nodes[29704826] = SMALLTREASURE
 map.nodes[33124319] = SMALLTREASURE
+map.nodes[35731741] = SMALLTREASURE
 map.nodes[36867659] = SMALLTREASURE
 map.nodes[39056332] = SMALLTREASURE
 map.nodes[40314192] = SMALLTREASURE
@@ -403,8 +413,8 @@ map.nodes[48764706] = SMALLTREASURE
 map.nodes[49464251] = SMALLTREASURE
 map.nodes[50374387] = SMALLTREASURE
 map.nodes[50534337] = SMALLTREASURE
-map.nodes[51405334] = SMALLTREASURE
 map.nodes[51365854] = SMALLTREASURE
+map.nodes[51405334] = SMALLTREASURE
 map.nodes[54195433] = SMALLTREASURE
 map.nodes[54285826] = SMALLTREASURE
 map.nodes[54575658] = SMALLTREASURE
@@ -412,6 +422,7 @@ map.nodes[54904277] = SMALLTREASURE
 map.nodes[57545601] = SMALLTREASURE
 map.nodes[57816240] = SMALLTREASURE
 map.nodes[58556090] = SMALLTREASURE
+map.nodes[59375286] = SMALLTREASURE
 map.nodes[59425809] = SMALLTREASURE
 map.nodes[67284345] = SMALLTREASURE
 map.nodes[68604706] = SMALLTREASURE
@@ -422,6 +433,7 @@ map.nodes[71385357] = SMALLTREASURE
 map.nodes[72305308] = SMALLTREASURE
 map.nodes[72396117] = SMALLTREASURE
 map.nodes[74863764] = SMALLTREASURE
+map.nodes[79216521] = SMALLTREASURE
 
 warCreche.nodes[38095249] = SMALLTREASURE
 warCreche.nodes[45005760] = SMALLTREASURE
