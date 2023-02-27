@@ -73,7 +73,7 @@ end)
 map.nodes[58174826] = Rare({
     id = 200584,
     quest = 73111,
-    sublabel = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58458}), -- Champion of the Forbidden Reach
         Item({item = 204276}), -- Untapped Forbidden Knowledge
@@ -88,7 +88,7 @@ map.nodes[58174826] = Rare({
 map.nodes[28303794] = Rare({
     id = 200537,
     quest = 73095,
-    sublabel = L['in_water_cave'],
+    location = L['in_water_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58459}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
@@ -112,7 +112,7 @@ map.nodes[41021436] = Rare({
 map.nodes[47722071] = Rare({
     id = 200600,
     quest = 73117,
-    sublabel = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58461}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
@@ -126,7 +126,7 @@ map.nodes[47722071] = Rare({
 supportCreche.nodes[35254374] = Rare({
     id = 200610,
     quest = 73881,
-    sublabel = L['in_the_support_creche'],
+    location = L['in_the_support_creche'],
     note = L['duzalgor_note'],
     rewards = {
         Achievement({id = 17525, criteria = 58462}), -- Champion of the Forbidden Reach
@@ -138,7 +138,7 @@ supportCreche.nodes[35254374] = Rare({
 map.nodes[43736121] = Rare({
     id = 200681,
     quest = nil,
-    sublabel = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58463}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
@@ -172,7 +172,7 @@ map.nodes[43949052] = Rare({
 map.nodes[59695883] = Rare({
     id = 200885,
     quest = 73222,
-    sublabel = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58466}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
@@ -186,7 +186,7 @@ map.nodes[59695883] = Rare({
 map.nodes[72986738] = Rare({
     id = 200904,
     quest = 70517,
-    sublabel = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58467}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
@@ -200,7 +200,7 @@ map.nodes[72986738] = Rare({
 map.nodes[67924531] = Rare({
     id = 201181,
     quest = 74283,
-    sublabel = L['in_small_cave'],
+    location = L['in_small_cave'],
     note = L['mad_eye_carrey_note'],
     rewards = {
         Achievement({id = 17525, criteria = 58468}), -- Champion of the Forbidden Reach
@@ -226,7 +226,7 @@ map.nodes[61723400] = Rare({
 warCreche.nodes[42958468] = Rare({
     id = 200960,
     quest = 73367,
-    sublabel = L['in_the_war_creche'],
+    location = L['in_the_war_creche'],
     parent = map.id,
     rewards = {
         Achievement({id = 17525, criteria = 58470}), -- Champion of the Forbidden Reach
@@ -252,7 +252,7 @@ map.nodes[36731223] = Rare({
 warCreche.nodes[67355579] = Rare({
     id = 200978,
     quest = 73385,
-    sublabel = L['in_the_war_creche'],
+    location = L['in_the_war_creche'],
     parent = map.id,
     rewards = {
         Achievement({id = 17525, criteria = 58472}), -- Champion of the Forbidden Reach
@@ -264,7 +264,7 @@ warCreche.nodes[67355579] = Rare({
 siegeCreche.nodes[58993931] = Rare({
     id = 200911,
     quest = 73225,
-    sublabel = L['in_the_siege_creche'],
+    location = L['in_the_siege_creche'],
     parent = map.id,
     rewards = {
         Achievement({id = 17525, criteria = 58473}), -- Champion of the Forbidden Reach
@@ -286,7 +286,7 @@ local BonusBoss = Class('BonusBoss', NPC, {
 dragonskullIsland.nodes[28984051] = BonusBoss({
     id = 203353,
     quest = nil,
-    sublabel = L['in_dragonskull_island'],
+    location = L['in_dragonskull_island'],
     note = L['loot_specialist_note'],
     parent = map.id
 }) -- Loot Specialist
@@ -325,14 +325,14 @@ local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
 map.nodes[28414200] = ForbiddenHoard()
 map.nodes[39192452] = ForbiddenHoard()
 map.nodes[41154445] = ForbiddenHoard({
-    sublabel = L['in_small_cave'],
+    location = L['in_small_cave'],
     pois = {
         POI({41184350}) -- Entrance
     }
 })
 map.nodes[58003875] = ForbiddenHoard()
 map.nodes[50733679] = ForbiddenHoard({
-    sublabel = L['in_small_cave'],
+    location = L['in_small_cave'],
     pois = {
         POI({49463696}) -- Entrance
     }
@@ -341,7 +341,7 @@ map.nodes[53157801] = ForbiddenHoard()
 map.nodes[54843439] = ForbiddenHoard()
 map.nodes[56765534] = ForbiddenHoard()
 map.nodes[57142267] = ForbiddenHoard({
-    sublabel = L['in_small_cave'],
+    location = L['in_small_cave'],
     pois = {
         POI({57272170}) -- Entrance
     }
@@ -580,7 +580,7 @@ map.nodes[55695154] = SpicelessStew()
 
 warCreche.nodes[31308084] = ArtisanCurio({
     label = L['book_of_arcane_entities_label'],
-    sublabel = L['in_the_war_creche'],
+    location = L['in_the_war_creche'],
     icon = 1033184,
     parent = map.id,
     requires = ns.requirement.Item(203410), -- Glowing Crystal Bookmark
@@ -616,7 +616,7 @@ map.nodes[61256442] = ArtisanCurio({
 
 map.nodes[28905707] = ArtisanCurio({
     label = L['resonating_crystal_label'],
-    sublabel = L['in_small_cave'],
+    location = L['in_small_cave'],
     icon = 2264901,
     requires = ns.requirement.Item(203413), -- Tuning Fork
     skillID = 755, -- Jewelcrafting
@@ -636,7 +636,7 @@ map.nodes[48734944] = ArtisanCurio({
 
 dragonskullIsland.nodes[56947247] = ArtisanCurio({
     label = L['rumbling_deposit_label'],
-    sublabel = L['in_dragonskull_island'],
+    location = L['in_dragonskull_island'],
     icon = 134463,
     parent = map.id,
     requires = ns.requirement.Item(203418), -- Amplified Quaking Stone
@@ -861,7 +861,7 @@ local LibraryBook = Class('LibraryBook', Collectible,
 
 warCreche.nodes[52405962] = LibraryBook({
     label = L['spellsworn_missive_label'],
-    sublabel = L['in_the_war_creche'],
+    location = L['in_the_war_creche'],
     note = format(L['library_note'], L['spellsworn_missive_label'], 204338),
     parent = map.id,
     rewards = {Achievement({id = 17530, criteria = 58501})}
@@ -869,7 +869,7 @@ warCreche.nodes[52405962] = LibraryBook({
 
 froststoneVault.nodes[64775677] = LibraryBook({
     label = L['confiscated_journal_label'],
-    sublabel = L['in_froststone_vault'],
+    location = L['in_froststone_vault'],
     note = format(L['library_note'], L['confiscated_journal_label'], 204316),
     parent = map.id,
     rewards = {Achievement({id = 17530, criteria = 58502})}
@@ -910,7 +910,7 @@ map.nodes[61533375] = LibraryBook({
 
 map.nodes[28185303] = LibraryBook({
     label = L['old_gods_label'],
-    sublabel = L['in_zskera_vaults'],
+    location = L['in_zskera_vaults'],
     note = format(L['library_note'], L['old_gods_label'], 204185),
     rewards = {Achievement({id = 17530, criteria = 58507})}
 }) -- The Old Gods and the Ordering of Azeroth (Annotated)
@@ -931,7 +931,7 @@ end
 map.nodes[26185303] = ScalecommanderItem({
     allianceLabel = '{quest:73114}',
     hordeLabel = '{quest:74883}',
-    sublabel = L['in_zskera_vaults'], ----------------- TODO: Remove or find a better way to display
+    location = L['in_zskera_vaults'], ----------------- TODO: Remove or find a better way to display
     rewards = {Achievement({id = 17315, criteria = 1})}
 }) -- Journal Entry: The Creches
 
@@ -951,14 +951,14 @@ map.nodes[50884345] = ScalecommanderItem({
 map.nodes[27185303] = ScalecommanderItem({
     allianceLabel = '{quest:73115}',
     hordeLabel = '{quest:74896}',
-    sublabel = L['in_zskera_vaults'], ----------------- TODO: Remove or find a better way to display
+    location = L['in_zskera_vaults'], ----------------- TODO: Remove or find a better way to display
     rewards = {Achievement({id = 17315, criteria = 4})}
 }) -- Journal Entry: Silence
 
 map.nodes[58957238] = ScalecommanderItem({
     allianceLabel = '{quest:73109}',
     hordeLabel = '{quest:74900}',
-    sublabel = L['in_the_high_creche'],
+    location = L['in_the_high_creche'],
     rewards = {Achievement({id = 17315, criteria = 5})},
     pois = {
         POI({58666933}) -- Entrance
@@ -968,7 +968,7 @@ map.nodes[58957238] = ScalecommanderItem({
 map.nodes[58407053] = ScalecommanderItem({
     allianceLabel = '{quest:72944}',
     hordeLabel = '{quest:74901}',
-    sublabel = L['in_the_high_creche'],
+    location = L['in_the_high_creche'],
     rewards = {Achievement({id = 17315, criteria = 6})},
     pois = {
         POI({58666933}) -- Entrance
@@ -978,7 +978,7 @@ map.nodes[58407053] = ScalecommanderItem({
 map.nodes[55393586] = ScalecommanderItem({
     allianceLabel = '{quest:73107}',
     hordeLabel = '{quest:74902}',
-    sublabel = L['in_the_lost_atheneum'],
+    location = L['in_the_lost_atheneum'],
     rewards = {Achievement({id = 17315, criteria = 7})},
     pois = {
         POI({55103837}) -- Entrance
@@ -1095,7 +1095,7 @@ map.nodes[29265268] = Collectible({
 
 local RecipeRat = Class('RecipeRat', Node, {
     label = '{npc:202982}',
-    sublabel = L['in_zskera_vaults'],
+    location = L['in_zskera_vaults'],
     icon = 4509424,
     group = ns.groups.ZSKERA_VAULTS,
     rewards = {
@@ -1145,35 +1145,35 @@ map.nodes[55616889] = Node({
     label = 'Edict: The Adamant Vigil', -- TODO: Non-localized name for now
     icon = 'peg_yw',
     scale = 1.8,
-    sublabel = L['in_the_high_creche']
+    location = L['in_the_high_creche']
 }) -- Edict: The Adamant Vigil
 
 warCreche.nodes[32346769] = Node({
     label = 'Edict: Dark Talons', -- TODO: Non-localized name for now
     icon = 'peg_yw',
     scale = 1.8,
-    sublabel = L['in_the_war_creche']
+    location = L['in_the_war_creche']
 }) -- Edict: Dark Talons
 
 warCreche.nodes[39347578] = Node({
     label = 'Edict: The Earth-Warder', -- TODO: Non-localized name for now
     icon = 'peg_yw',
     scale = 1.8,
-    sublabel = L['in_the_war_creche']
+    location = L['in_the_war_creche']
 }) -- Edict: The Earth-Warder
 
 warCreche.nodes[31118323] = Node({
     label = 'Edict: Obsidian Warders', -- TODO: Non-localized name for now
     icon = 'peg_yw',
     scale = 1.8,
-    sublabel = L['in_the_war_creche']
+    location = L['in_the_war_creche']
 }) -- Edict: Obsidian Warders
 
 siegeCreche.nodes[65095921] = Node({
     label = 'Edict: Ebon Scales', -- TODO: Non-localized name for now
     icon = 'peg_yw',
     scale = 1.8,
-    sublabel = L['in_the_siege_creche']
+    location = L['in_the_siege_creche']
 }) -- Edict: Ebon Scales
 
 ----------------------------- SPELLSWORN GATEWAYS -----------------------------
