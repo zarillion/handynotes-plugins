@@ -429,7 +429,7 @@ function Recipe:Initialize(attrs)
     end
 end
 
--- Tooltip Documenation:
+-- Tooltip Documentation:
 -- https://wowpedia.fandom.com/wiki/Patch_10.0.2/API_changes
 function Recipe:IsObtained()
     local info = C_TooltipInfo.GetItemByID(self.item)
