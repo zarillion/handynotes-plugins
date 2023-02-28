@@ -1183,4 +1183,11 @@ warCreche.nodes[65376249] = GemstoneOfReturn({
 
 warCreche.nodes[67030720] = GemstoneOfReturn() -- Entrance
 
+-- map.nodes[10001000] = Collectible({ -- placeholder Node
+--     id = 200564,
+--     rewards = {
+--         Mount({item = 192770, id = nil, note = '10000 {currency:2118}'}) -- item id from wowhead beta, wowhead.com/beta/spell=349935/noble-elderhorn#taught-by-item
+--     }
+-- }) -- Noble Bruffalon
+
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
