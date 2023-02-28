@@ -260,6 +260,7 @@ L['tuskarr_tanning_rack'] = 'Chevalet de tannage rohart'
 L['volatile_brazier'] = 'Brasero volatil'
 L['raw_argali_pelts'] = 'Toisons d\'argali brutes'
 L['awakened_soil_label'] = 'Sol éveillé'
+L['empty_crab_trap'] = nil
 
 L['artisan_curio_note'] = 'Les joueurs ayant le métier %s (à 50) peuvent acheter {item:%s} à la {npc:202445} au {location:Village de Morqut} pour 10 {item:190456}.'
 L['options_icons_artisan_curio'] = 'Bibelot d\'Artisanat'

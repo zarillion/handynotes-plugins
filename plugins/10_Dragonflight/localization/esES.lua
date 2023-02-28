@@ -260,6 +260,7 @@ L['tuskarr_tanning_rack'] = nil
 L['volatile_brazier'] = nil
 L['raw_argali_pelts'] = nil
 L['awakened_soil_label'] = nil
+L['empty_crab_trap'] = nil
 
 L['artisan_curio_note'] = nil
 L['options_icons_artisan_curio'] = nil -- "Artisan Curio" se puede encontrar en Recipe: Neutralizing Agent

@@ -259,6 +259,7 @@ L['tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack'
 L['volatile_brazier'] = 'Volatile Brazier'
 L['raw_argali_pelts'] = 'Raw Argali Pelts'
 L['awakened_soil_label'] = 'Awakened Soil'
+L['empty_crab_trap'] = nil
 
 L['artisan_curio_note'] = '拥有 %s (50) 的玩家可以在 {location:Morqut Village} 的 {npc:202445} 以10个 {item:190456} 的价格购买 {item:%s}。'
 L['options_icons_artisan_curio'] = 'Artisan Curio'

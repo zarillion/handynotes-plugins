@@ -407,6 +407,7 @@ map.nodes[40314192] = SMALLTREASURE
 map.nodes[42045105] = SMALLTREASURE
 map.nodes[44055921] = SMALLTREASURE
 map.nodes[44745794] = SMALLTREASURE
+map.nodes[44815577] = SMALLTREASURE
 map.nodes[45705660] = SMALLTREASURE
 map.nodes[47071542] = SMALLTREASURE
 map.nodes[48764706] = SMALLTREASURE
@@ -424,6 +425,7 @@ map.nodes[57816240] = SMALLTREASURE
 map.nodes[58556090] = SMALLTREASURE
 map.nodes[59375286] = SMALLTREASURE
 map.nodes[59425809] = SMALLTREASURE
+map.nodes[66915815] = SMALLTREASURE
 map.nodes[67284345] = SMALLTREASURE
 map.nodes[68604706] = SMALLTREASURE
 map.nodes[70806917] = SMALLTREASURE
@@ -608,11 +610,18 @@ warCreche.nodes[31308084] = ArtisanCurio({
 --     recipeID = 203424 -- Schematic: Gnomish Voicebox
 -- }) -- UNKNOWN
 
+map.nodes[23066700] = ArtisanCurio({
+    label = L['empty_crab_trap'],
+    icon = 2027925,
+    requires = ns.requirement.Item(203419), -- Elusive Croaking Crab
+    skillID = 356 -- Fishing
+}) -- Empty Crab Trap
+
 local AwakenedSoil = Class('AwakenedSoil', ArtisanCurio, {
     label = L['awakened_soil_label'],
     icon = 656681,
     requires = ns.requirement.Item(203416), -- Dormant Lifebloom Seeds
-    skillID = 182, -- Herbalism
+    skillID = 182 -- Herbalism
 }) -- Awakened Soil
 
 map.nodes[35354003] = AwakenedSoil()
@@ -655,12 +664,15 @@ dragonskullIsland.nodes[56947247] = ArtisanCurio({
     skillID = 186 -- Mining
 }) -- Rumbling Deposit
 
-map.nodes[70664614] = ArtisanCurio({
+local RawArgaliPelts = Class('RawArgaliPelts', ArtisanCurio, {
     label = L['raw_argali_pelts'],
     icon = 1029749,
     requires = ns.requirement.Item(203417), -- Razor-Sharp Animal Bone
     skillID = 393 -- Skinning
 }) -- Raw Argali Pelts
+
+map.nodes[70664614] = RawArgaliPelts()
+map.nodes[44993658] = RawArgaliPelts()
 
 local TuskarrKitePost = Class('TuskarrKitePost', ArtisanCurio, {
     label = L['tuskarr_kite_post_label'],
