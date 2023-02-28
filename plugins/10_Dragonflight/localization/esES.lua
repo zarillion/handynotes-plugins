@@ -276,10 +276,10 @@ L['vrykul_tome_label'] = nil
 L['library_note'] = nil
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
-L['options_icons_librarian_of_the_reach_desc'] = 'Muestra dónde están los libros para el logro {achievement:17530}.' -- review
+L['options_icons_librarian_of_the_reach_desc'] = nil
 
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
-L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos para el logro {achievement:17315}.' -- review
+L['options_icons_scalecommander_item_desc'] = nil
 
 L['zskera_vaults_label'] = nil
 L['zskera_vaults_note'] = nil
@@ -295,7 +295,7 @@ L['options_icons_zskera_vaults_desc'] = nil
 
 L['froststone_vault_storm_label'] = 'Tormenta Primigenia de La Cámara Petraescarcha'
 L['options_icons_froststone_vault_storm'] = 'Tormenta Primigenia de La Cámara Petraescarcha'
-L['options_icons_froststone_vault_storm_desc'] = 'Muestra dónde está y las recompensas de las Tormentas Primigenia de La Cámara Petraescarcha.'
+L['options_icons_froststone_vault_storm_desc'] = 'Muestra dónde está y las recompensas de las Tormentas Primigenias de La Cámara Petraescarcha.'
 
 L['spellsworn_gateway'] = nil
 L['gemstone_of_return'] = nil
