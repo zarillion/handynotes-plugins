@@ -264,7 +264,7 @@ L['empty_crab_trap'] = nil
 -- L['damaged_buzzspire'] = nil
 
 L['artisan_curio_note'] = 'Les joueurs ayant le métier %s (à 50) peuvent acheter {item:%s} à la {npc:202445} au {location:Village de Morqut} pour 10 {item:190456}.'
-L['options_icons_artisan_curio'] = 'Bibelot d\'Artisanat'
+L['options_icons_artisan_curio'] = 'Bibelots d\'Artisanat'
 L['options_icons_artisan_curio_desc'] = 'Afficher les emplacements et les récompenses pour les Bibelots d\'Artisanat.'
 
 L['spellsworn_missive_label'] = 'Missive Sorcelige'
@@ -276,16 +276,16 @@ L['vrykul_tome_label'] = 'Tome vrykule'
 L['library_note'] = 'Ouvrez l\'objet {object:%s} et récupérez le livre {item:%s}.'
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
-L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}.' -- review
+L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}. {note:Certains livres sont dans les {location:Caveaux de Zskera}}.'
 
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
-L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des objets pour le haut-fait {achievement:17315}.' -- review
+L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des objets pour le haut-fait {achievement:17315}. {note:Certains objets sont dans les {location:Caveaux de Zskera}}.'
 
 L['zskera_vaults_label'] = 'Caveaux de Zskera'
 L['zskera_vaults_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans les {location:Caveaux de Zskera}.'
-L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des clés des Caveaux Zskera.'
+L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des Clés des Caveaux de Zskera.'
 
-L['recipe_rat_note_1'] = 'Parlez au {npc:202982} dans le {location:Caveau de Zskera} et vous recevrez dans vos sacs le {item:202252}.'
+L['recipe_rat_note_1'] = 'Parlez au {npc:202982} dans les {location:Caveaux de Zskera} et vous recevrez dans vos sacs le {item:202252}.'
 L['recipe_rat_note_2'] = 'Interagissez avec le {item:202252} pour recevoir des {item:204340}. {note:(5 minutes de recharge)}'
 L['recipe_rat_note_3'] = 'Une fois que vous avez 30x {item:204340}, combinez les fragments pour obtenir la recette.'
 L['recipe_rat_note_4'] = '{note:Ce rat adore le fromage et consommera un {item:3927} toutes les trois minutes environ. Planifiez en conséquence !}'
