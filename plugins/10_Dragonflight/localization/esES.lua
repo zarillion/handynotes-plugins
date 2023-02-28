@@ -261,6 +261,7 @@ L['volatile_brazier'] = nil
 L['raw_argali_pelts'] = nil
 L['awakened_soil_label'] = nil
 L['empty_crab_trap'] = nil
+-- L['damaged_buzzspire'] = nil
 
 L['artisan_curio_note'] = nil
 L['options_icons_artisan_curio'] = nil -- "Artisan Curio" se puede encontrar en Recipe: Neutralizing Agent
@@ -271,15 +272,14 @@ L['confiscated_journal_label'] = nil
 L['farscale_manifesto_label'] = nil
 L['lost_expeditions_notes_label'] = nil
 L['vrykul_tome_label'] = nil
-L['old_gods_label'] = 'Los Dioses Antiguos y el Orden de Azeroth'
 
 L['library_note'] = nil
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
-L['options_icons_librarian_of_the_reach_desc'] = 'Muestra dónde están los libros para el logro {achievement:17530}.'
+L['options_icons_librarian_of_the_reach_desc'] = 'Muestra dónde están los libros para el logro {achievement:17530}.' -- review
 
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
-L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos para el logro {achievement:17315}.'
+L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos para el logro {achievement:17315}.' -- review
 
 L['zskera_vaults_label'] = nil
 L['zskera_vaults_note'] = nil

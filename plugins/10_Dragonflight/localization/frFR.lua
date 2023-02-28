@@ -261,6 +261,7 @@ L['volatile_brazier'] = 'Brasero volatil'
 L['raw_argali_pelts'] = 'Toisons d\'argali brutes'
 L['awakened_soil_label'] = 'Sol éveillé'
 L['empty_crab_trap'] = nil
+-- L['damaged_buzzspire'] = nil
 
 L['artisan_curio_note'] = 'Les joueurs ayant le métier %s (à 50) peuvent acheter {item:%s} à la {npc:202445} au {location:Village de Morqut} pour 10 {item:190456}.'
 L['options_icons_artisan_curio'] = 'Bibelot d\'Artisanat'
@@ -271,15 +272,14 @@ L['confiscated_journal_label'] = 'Journal confisqué'
 L['farscale_manifesto_label'] = 'Manifeste longuécaille'
 L['lost_expeditions_notes_label'] = 'Notes d\'expédition'
 L['vrykul_tome_label'] = 'Tome vrykule'
-L['old_gods_label'] = 'Les Dieux très anciens et l\'ordonnancement d\'Azeroth'
 
 L['library_note'] = 'Ouvrez l\'objet {object:%s} et récupérez le livre {item:%s}.'
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
-L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}.'
+L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}.' -- review
 
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
-L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des objets pour le haut-fait {achievement:17315}.'
+L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des objets pour le haut-fait {achievement:17315}.' -- review
 
 L['zskera_vaults_label'] = 'Caveaux de Zskera'
 L['zskera_vaults_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans les {location:Caveaux de Zskera}.'

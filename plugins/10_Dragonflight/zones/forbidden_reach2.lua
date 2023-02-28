@@ -568,7 +568,10 @@ end
 map.nodes[67256157] = ArtisanCurio({
     label = L['volatile_brazier'],
     icon = 650638,
-    requires = ns.requirement.Item(203407), -- Draconic Suppression Powder
+    requires = {
+        ns.requirement.Item(203398), -- Essance of Dampening
+        ns.requirement.Item(203407) -- Draconic Suppression Powder
+    },
     skillID = 171, -- Alchemy
     recipeID = 203420 -- Recipe: Draconic Suppression Powder
 }) -- Volatile Brazier
@@ -576,7 +579,10 @@ map.nodes[67256157] = ArtisanCurio({
 map.nodes[67237599] = ArtisanCurio({
     label = L['farescale_shrine_label'],
     icon = 2735993,
-    requires = ns.requirement.Item(203408), -- Ceremonial Trident
+    requires = {
+        ns.requirement.Item(203399), -- Damaged Trident
+        ns.requirement.Item(203408) -- Ceremonial Trident
+    },
     skillID = 164, -- Blacksmithing
     recipeID = 203421 -- Plans: Ceremonial Trident
 }) -- Farscale Shrine
@@ -584,7 +590,10 @@ map.nodes[67237599] = ArtisanCurio({
 local SpicelessStew = Class('SpicelessStew', ArtisanCurio, {
     label = L['spiceless_stew_label'],
     icon = 133210,
-    requires = ns.requirement.Item(203409), -- Sparkling Spice Pouch
+    requires = {
+        ns.requirement.Item(203400), -- Lackluster Spices
+        ns.requirement.Item(203409) -- Sparkling Spice Pouch
+    },
     skillID = 185, -- Cooking
     recipeID = 203422 -- Recipe: Sparkling Spice Pouch
 }) -- Spiceless Stew
@@ -597,18 +606,24 @@ warCreche.nodes[31308084] = ArtisanCurio({
     location = L['in_the_war_creche'],
     icon = 1033184,
     parent = map.id,
-    requires = ns.requirement.Item(203410), -- Glowing Crystal Bookmark
+    requires = {
+        ns.requirement.item(203401), -- Dull Crystal
+        ns.requirement.Item(203410) -- Glowing Crystal Bookmark
+    },
     skillID = 333, -- Enchanting
     recipeID = 203423 -- Formula: Glowing Crystal Bookmark
 }) -- Book of Arcane Entities
 
 -- map.nodes[] = ArtisanCurio({
---     label = nil,
+--     label = L['damaged_buzzspire'],
 --     icon = 2902385,
---     requires = ns.requirement.Item(203411), -- Gnomish Voicebox
+--     requires = {
+--         ns.requirement.Item(203402), -- Broken Gnomish Voicebox
+--         ns.requirement.Item(203411) -- Gnomish Voicebox
+--     },
 --     skillID = 202, -- Engineering
 --     recipeID = 203424 -- Schematic: Gnomish Voicebox
--- }) -- UNKNOWN
+-- }) -- Damaged Buzzspire 505
 
 map.nodes[23066700] = ArtisanCurio({
     label = L['empty_crab_trap'],
@@ -630,7 +645,10 @@ map.nodes[56435911] = AwakenedSoil()
 map.nodes[61256442] = ArtisanCurio({
     label = L['spellsworn_ward_label'],
     icon = 4638727,
-    requires = ns.requirement.Item(203412), -- Dispelling Rune
+    requires = {
+        ns.requirement.Item(203403), -- Hastily Scrawled Rune
+        ns.requirement.Item(203412) -- Dispelling Rune
+    },
     skillID = 773, -- Inscription
     recipeID = 203425 -- Technique: Dispellng Rune
 }) -- Spellsworn Ward
@@ -639,7 +657,10 @@ map.nodes[28905707] = ArtisanCurio({
     label = L['resonating_crystal_label'],
     location = L['in_small_cave'],
     icon = 2264901,
-    requires = ns.requirement.Item(203413), -- Tuning Fork
+    requires = {
+        ns.requirement.Item(203404), -- Crystal Fork
+        ns.requirement.Item(203413) -- Tuning Fork
+    },
     skillID = 755, -- Jewelcrafting
     recipeID = 203426, -- Design: Tuning Fork
     pois = {
@@ -650,7 +671,10 @@ map.nodes[28905707] = ArtisanCurio({
 map.nodes[48734944] = ArtisanCurio({
     label = L['tuskarr_tanning_rack'],
     icon = 4635266,
-    requires = ns.requirement.Item(203414), -- Reinforced Pristine Leather
+    requires = {
+        ns.requirement.Item(203405), -- Pristine Pelt
+        ns.requirement.Item(203414) -- Reinforced Pristine Leather
+    },
     skillID = 165, -- Leatherworking
     recipeID = 203427 -- Pattern: Reinforced Pristine Leather
 }) -- Tuskarr Tanning Rack
@@ -677,7 +701,10 @@ map.nodes[44993658] = RawArgaliPelts()
 local TuskarrKitePost = Class('TuskarrKitePost', ArtisanCurio, {
     label = L['tuskarr_kite_post_label'],
     icon = 318523,
-    requires = ns.requirement.Item(203415), -- Morqut Kite
+    requires = {
+        ns.requirement.Item(203406), -- Torn Morqut Kite
+        ns.requirement.Item(203415) -- Morqut Kite
+    },
     skillID = 197, -- Tailoring
     recipeID = 203428 -- Pattern: Morqut Kite
 }) -- Tuskarr Kite Post
@@ -932,13 +959,6 @@ map.nodes[61533375] = LibraryBook({
 --     rewards = {Achievement({id = 17530, criteria = 58661})}
 -- }) -- Opera of the Aspects
 
-map.nodes[28185303] = LibraryBook({
-    label = L['old_gods_label'],
-    location = L['in_zskera_vaults'],
-    note = format(L['library_note'], L['old_gods_label'], 204185),
-    rewards = {Achievement({id = 17530, criteria = 58507})}
-}) -- The Old Gods and the Ordering of Azeroth (Annotated)
-
 -------------------------------------------------------------------------------
 --------------------------- WHILE WE WERE SLEEPING ----------------------------
 -------------------------------------------------------------------------------
@@ -952,13 +972,6 @@ function ScalecommanderItem.getters:label()
     return ns.faction == 'Alliance' and self.allianceLabel or self.hordeLabel
 end
 
-map.nodes[26185303] = ScalecommanderItem({
-    allianceLabel = '{quest:73114}',
-    hordeLabel = '{quest:74883}',
-    location = L['in_zskera_vaults'], ----------------- TODO: Remove or find a better way to display
-    rewards = {Achievement({id = 17315, criteria = 1})}
-}) -- Journal Entry: The Creches
-
 map.nodes[59646492] = ScalecommanderItem({
     allianceLabel = '{quest:74866}',
     hordeLabel = '{quest:73110}',
@@ -971,13 +984,6 @@ map.nodes[50884345] = ScalecommanderItem({
     hordeLabel = '{quest:74880}',
     rewards = {Achievement({id = 17315, criteria = 3})}
 }) -- Journal Entry: Relics
-
-map.nodes[27185303] = ScalecommanderItem({
-    allianceLabel = '{quest:73115}',
-    hordeLabel = '{quest:74896}',
-    location = L['in_zskera_vaults'], ----------------- TODO: Remove or find a better way to display
-    rewards = {Achievement({id = 17315, criteria = 4})}
-}) -- Journal Entry: Silence
 
 map.nodes[58957238] = ScalecommanderItem({
     allianceLabel = '{quest:73109}',
@@ -1061,7 +1067,7 @@ map.nodes[55393586] = ScalecommanderItem({
 --     )
 -- }) -- Spirit of Blessing
 
--- local WondrousFish = Class('', ScrollHunter, {
+-- local WondrousFish = Class('WondrousFish', ScrollHunter, {
 --     id = '{npc:200958}',
 --     note = format(L['scroll_hunter_note'],
 --         202669, -- Sealed Fish Scroll
@@ -1110,8 +1116,18 @@ map.nodes[29265268] = Collectible({
         Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
         Toy({item = 204262}), -- Holoviewer: The timeless One
         Toy({item = 203852}), -- Spore-Bound Essence
-        Spacer(), Achievement({id = 17530, criteria = 58507}), -- Librarian of the Reach
-        Achievement({id = 17315, criteria = {1, 4}}) -- While We Were Sleeping
+        Toy({item = 204687}). -- Obsidian Battle Horn
+        Spacer(), Achievement({
+            id = 17530,
+            criteria = 58507 -- The Old Gods and the Ordering of Azeroth (Annotated)
+        }), -- Librarian of the Reach
+        Achievement({
+            id = 17315,
+            criteria = {
+                1, -- Journal Entry: The Creches
+                4 -- Journal Entry: Silence
+            }
+        }) -- While We Were Sleeping
     }
 }) -- Zskera Vaults
 

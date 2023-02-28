@@ -254,6 +254,7 @@ L['volatile_brazier'] = nil
 L['raw_argali_pelts'] = nil
 L['awakened_soil_label'] = nil
 L['empty_crab_trap'] = nil
+-- L['damaged_buzzspire'] = nil
 
 L['artisan_curio_note'] = 'Spieler mit %s (50) können {item:%s} von {npc:202445} beim {location:Morqutdorf} für 10 {item:190456} kaufen.'
 L['options_icons_artisan_curio'] = nil
@@ -264,15 +265,14 @@ L['confiscated_journal_label'] = nil
 L['farscale_manifesto_label'] = nil
 L['lost_expeditions_notes_label'] = nil
 L['vrykul_tome_label'] = nil
-L['old_gods_label'] = nil
 
 L['library_note'] = 'Öffne {object:%s} und erhalte {item:%s}.'
 
 L['options_icons_librarian_of_the_reach'] = nil
-L['options_icons_librarian_of_the_reach_desc'] = 'Zeige die Positionen der Bücher für den Erfolg {achievement:17530}.'
+L['options_icons_librarian_of_the_reach_desc'] = 'Zeige die Positionen der Bücher für den Erfolg {achievement:17530}.' -- review
 
 L['options_icons_scalecommander_item'] = nil
-L['options_icons_scalecommander_item_desc'] = 'Zeige die Positionen der Items für den Erfolg {achievement:17315}.'
+L['options_icons_scalecommander_item_desc'] = 'Zeige die Positionen der Items für den Erfolg {achievement:17315}.' -- review
 
 L['zskera_vaults_label'] = nil
 L['zskera_vaults_note'] = 'Sammle {item:202196} von Seltenen Gegnern und Schätzen um Türen in {location:Zskera Vaults} zu öffnen.'

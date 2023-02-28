@@ -260,6 +260,7 @@ L['volatile_brazier'] = 'Volatile Brazier'
 L['raw_argali_pelts'] = 'Raw Argali Pelts'
 L['awakened_soil_label'] = 'Awakened Soil'
 L['empty_crab_trap'] = 'Empty Crab Trap'
+-- L['damaged_buzzspire'] = 'Damaged Buzzspire 505' -- Datamined from Wowhead. Not discovered in-game yet.
 
 L['artisan_curio_note'] = 'Players with %s (50) can purchase {item:%s} from {npc:202445} at {location:Morqut Village} for 10 {item:190456}.'
 L['options_icons_artisan_curio'] = 'Artisan Curio'
@@ -270,15 +271,14 @@ L['confiscated_journal_label'] = 'Confiscated Journal'
 L['farscale_manifesto_label'] = 'Farscale Manifesto'
 L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
 L['vrykul_tome_label'] = 'Vrykul Tome'
-L['old_gods_label'] = 'The Old Gods and the Ordering of Azeroth'
 
 L['library_note'] = 'Open the {object:%s} and loot the {item:%s}.'
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
-L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}.'
+L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}. {note:Some books are in {location:Zskera Vaults}}.'
 
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
-L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achievement:17315}.'
+L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achievement:17315}. {note:Some item are in {location:Zskera Vaults}}.'
 
 L['zskera_vaults_label'] = 'Zskera Vaults'
 L['zskera_vaults_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vaults}.'
