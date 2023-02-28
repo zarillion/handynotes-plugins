@@ -232,10 +232,6 @@ warCreche.nodes[42958468] = Rare({
         Achievement({id = 17525, criteria = 58470}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
-    },
-    pois = {
-        POI({47044747, 49915427}), -- Spellsworn Gateways
-        Path({47044747, 49915427}) -- Spellsworn Gateways
     }
 }) -- Warden Entrix
 
@@ -373,16 +369,8 @@ local SMALLTREASURE = Collectible({
         Achievement({
             id = 17526,
             criteria = {
-                58488, -- Avian Trove
-                58489, -- Obsidian Coffer
-                58491, -- Bone Pile
-                58492, -- Farscale Cache
-                58493, -- Irontide Stash
-                58494, -- Storm-Eater Cairn
-                58495, -- Stonescaled Cairn
-                58496, -- Blazing Cairn
-                58497, -- Frozenheart Cairn
-                58498 -- Morqut Provisions
+                58488, 58489, 58491, 58492, 58493, 58494, 58495, 58496, 58497,
+                58498
             }
         }), -- Treasures of the Forbidden Reach
         Achievement({
@@ -472,30 +460,22 @@ map.nodes[48947352] = ns.node.ElementalChest({
 
 map.nodes[13095369] = PetBattle({
     id = 200689,
-    rewards = {
-        Achievement({id = 17541, criteria = 58574}) -- Global Swarming
-    }
+    rewards = {Achievement({id = 17541, criteria = 58574})} -- Global Swarming
 }) -- Wildfire
 
 map.nodes[18371315] = PetBattle({
     id = 200769,
-    rewards = {
-        Achievement({id = 17541, criteria = 58572}) -- Global Swarming
-    }
+    rewards = {Achievement({id = 17541, criteria = 58572})} -- Global Swarming
 }) -- Vortex
 
 map.nodes[67251238] = PetBattle({
     id = 200770,
-    rewards = {
-        Achievement({id = 17541, criteria = 58573}) -- Global Swarming
-    }
+    rewards = {Achievement({id = 17541, criteria = 58573})} -- Global Swarming
 }) -- Temblor
 
 map.nodes[89366022] = PetBattle({
     id = 200772,
-    rewards = {
-        Achievement({id = 17541, criteria = 58575}) -- Global Swarming
-    }
+    rewards = {Achievement({id = 17541, criteria = 58575})} -- Global Swarming
 }) -- Flow
 
 -------------------------------------------------------------------------------
@@ -830,15 +810,7 @@ map.nodes[49426006] = Dragonrace({
 
 local FSV_PS = {
     ['all'] = {
-        Achievement({
-            id = 17540,
-            criteria = {
-                58567, -- Air
-                58568, -- Earth
-                58569, -- Fire
-                58570 -- Water
-            }
-        }), -- Under the Weather
+        Achievement({id = 17540, criteria = {58567, 58568, 58569, 58570}}), -- Under the Weather
         Item({item = 199749, quest = 70753}), -- Primal Air Core
         Item({item = 199691, quest = 70723}), -- Primal Earth Core
         Item({item = 199750, quest = 70754}), -- Primal Fire Core
@@ -933,7 +905,8 @@ map.nodes[71036732] = LibraryBook({
 }) -- A Song of the Depths
 
 -- map.nodes[] = LibraryBook({
---     id = 204328,
+--     label = L[''],
+--     note = format({'library_note'}, L[''], 204328),
 --     rewards = {Achievement({id = 17530, criteria = 58504})}
 -- }) -- Return of the Nightsquall
 
@@ -950,12 +923,14 @@ map.nodes[61533375] = LibraryBook({
 }) -- Words of the Wyrmslayer
 
 -- map.nodes[] = LibraryBook({
---     id = nil,
+--     label = L[''],
+--     note = format({'library_note'}, L[''], 204691),
 --     rewards = {Achievement({id = 17530, criteria = 58660})}
 -- }) -- Living Book
 
 -- map.nodes[] = LibraryBook({
---     id = nil,
+--     label = L[''],
+--     note = format({'library_note'}, L[''], 204181),
 --     rewards = {Achievement({id = 17530, criteria = 58661})}
 -- }) -- Opera of the Aspects
 
@@ -1173,48 +1148,6 @@ map.nodes[30185303] = RecipeRat()
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
-
------------------------------------ EDICTS ------------------------------------
-
--- TODO: I've ran into several different Edicts while exploring. No quest flips
--- and nothing in the Achievement frame about them. Might be quest related?
--- There was ah achievement in Panderia related to edicts. Starting to save
--- them now just in case.
-
-map.nodes[55616889] = Node({
-    label = 'Edict: The Adamant Vigil', -- TODO: Non-localized name for now
-    icon = 'peg_yw',
-    scale = 1.8,
-    location = L['in_the_high_creche']
-}) -- Edict: The Adamant Vigil
-
-warCreche.nodes[32346769] = Node({
-    label = 'Edict: Dark Talons', -- TODO: Non-localized name for now
-    icon = 'peg_yw',
-    scale = 1.8,
-    location = L['in_the_war_creche']
-}) -- Edict: Dark Talons
-
-warCreche.nodes[39347578] = Node({
-    label = 'Edict: The Earth-Warder', -- TODO: Non-localized name for now
-    icon = 'peg_yw',
-    scale = 1.8,
-    location = L['in_the_war_creche']
-}) -- Edict: The Earth-Warder
-
-warCreche.nodes[31118323] = Node({
-    label = 'Edict: Obsidian Warders', -- TODO: Non-localized name for now
-    icon = 'peg_yw',
-    scale = 1.8,
-    location = L['in_the_war_creche']
-}) -- Edict: Obsidian Warders
-
-siegeCreche.nodes[65095921] = Node({
-    label = 'Edict: Ebon Scales', -- TODO: Non-localized name for now
-    icon = 'peg_yw',
-    scale = 1.8,
-    location = L['in_the_siege_creche']
-}) -- Edict: Ebon Scales
 
 ----------------------------- SPELLSWORN GATEWAYS -----------------------------
 
