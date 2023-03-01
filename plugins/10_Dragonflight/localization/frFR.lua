@@ -254,13 +254,13 @@ L['tuskarr_kite_post_label'] = 'Poteau à cerfs-volants roharts'
 L['farescale_shrine_label'] = 'Sanctuaire Longuécaille'
 L['resonating_crystal_label'] = 'Cristal résonnant'
 L['spellsworn_ward_label'] = 'Protection sorcelige'
-L['rumbling_deposit_label'] = nil -- not yet localized
+L['rumbling_deposit_label'] = 'Draconium grondant'
 L['spiceless_stew_label'] = 'Ragoût sans épices'
 L['tuskarr_tanning_rack'] = 'Chevalet de tannage rohart'
 L['volatile_brazier'] = 'Brasero volatil'
 L['raw_argali_pelts'] = 'Toisons d\'argali brutes'
 L['awakened_soil_label'] = 'Sol éveillé'
-L['empty_crab_trap'] = nil
+L['empty_crab_trap'] = 'Casier à crabes vide'
 -- L['damaged_buzzspire'] = nil
 
 L['artisan_curio_note'] = 'Les joueurs ayant le métier %s (à 50) peuvent acheter {item:%s} à la {npc:202445} au {location:Village de Morqut} pour 10 {item:190456}.'
