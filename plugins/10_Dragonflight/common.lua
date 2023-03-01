@@ -747,6 +747,9 @@ local MagicBoundChest = Class('MagicBoundChest', Node, {
         Item({item = 191784}), -- Dragon Shard of Knowledge
         Item({item = 190454}), -- Primal Chaos
         Item({item = 199062, quest = 70528}), -- Ruby Gem Cluster Map
+        Item({item = 198843, quest = 70392}), -- Emerald Gardens Explorer's Notes
+        Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
+        Item({item = 199067, quest = 70536}), -- Precious Plans
         Item({item = 192055}), -- Dragon Isles Artifact
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
@@ -782,6 +785,51 @@ local TuskarrTacklebox = Class('TuskarrTacklebox', Node, {
 })
 
 ns.node.TuskarrTacklebox = TuskarrTacklebox
+
+------- CHESTS - temporary note -------
+-- DONE - Expedition Scout's Pack
+-- DONE - Tuskarr Tacklebox
+-- DONE - Tuskarr Chest
+-- DONE - Djaradin Cache
+-- DONE - Clan Chest
+-- DONE - Magic-Bound Chest
+
+-- DONE - Decay Covered Chest     376583 -- cosmetics, maps,recipe
+-- DONE - Reed Chest              376579 -- only maps
+
+-- Dracthyr Supply Chest   376584 -- cosmetics, maps,
+-- Ice Bound Chest         377540 -- cosmetics, maps,
+-- Simmering Chest         381042 -- cosmetics, maps,recipe
+-- Icemaw Storage Cache    376585 -- maps
+-- Lightning Bound Chest   381043 -- cosmetics, maps,
+-- Titan Chest             376578 -- cosmetics, maps,
+-- Frostbound Chest        381041 -- cosmetics, maps,
+
+-- Nomad Cache     376036 -- random greens
+
+-- Molten Chest        377587 -- Glimmering Clusters
+
+-------------------------------------------------------------------------------
+---------------------------------- REED CHEST ---------------------------------
+-------------------------------------------------------------------------------
+
+-- local ReedChest = Class('ReedChest', Node, {
+--     label = L['reed_chest'],
+--     icon = 'chest_yw', -- TODO change color
+--     group = ns.groups.REED_CHEST,
+--     rewards = {
+--         Item({item = 191784}), -- Dragon Shard of Knowledge
+--         Item({item = 190454}), -- Primal Chaos
+--         Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
+--         Item({item = 199068, quest = 70537}), -- Time-Lost Memo
+--         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
+--         Item({item = 192055}), -- Dragon Isles Artifact
+--         Item({item = 200071}), -- Sacred Tuskarr Totem
+--         Currency({id = 2003}) -- Dragon Isles Supplies
+--     }
+-- })
+
+-- ns.node.ReedChest = ReedChest
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
