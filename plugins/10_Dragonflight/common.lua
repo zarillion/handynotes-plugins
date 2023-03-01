@@ -991,9 +991,10 @@ ns.node.ElementalChest = ElementalChest
 ------------------------------- INTERVAL RARES --------------------------------
 -------------------------------------------------------------------------------
 
-local function nextSpawn(self)
+local function nextSpawn(self, timeYellow, timeGreen)
     local region = GetCurrentRegion() -- https://wowpedia.fandom.com/wiki/API_GetCurrentRegion
     local initial = self.initialSpawn
+    local current = GetServerTime()
 
     local start = initial.us + self.rotationID * self.spawnOffset
 
@@ -1005,9 +1006,20 @@ local function nextSpawn(self)
         start = initial.tw + self.rotationID * self.spawnOffset
     end
 
-    local elapsedTime = GetServerTime() - start
-    return start + math.ceil(elapsedTime / self.spawnInterval) *
-               self.spawnInterval
+    local elapsedTime = current - start
+    local next_time = start + math.ceil(elapsedTime / self.spawnInterval) *
+                          self.spawnInterval
+
+    local text = date(L['time_format'], next_time)
+
+    if timeYellow and timeGreen then
+        local color = ns.color.Orange
+        if next_time - current < timeYellow then color = ns.color.Yellow end
+        if next_time - current < timeGreen then color = ns.color.Green end
+        text = color(text)
+    end
+
+    return text
 end
 
 ---------------------------------- 14 HOURS -----------------------------------
@@ -1019,7 +1031,7 @@ local Rare14h = Class('Rare14h', Rare, {
 })
 
 function Rare14h.getters:note()
-    local note = format(L['rare_14h'], date(L['time_format'], nextSpawn(self)))
+    local note = format(L['rare_14h'], nextSpawn(self, 14400, 1800))
     if self.cave then note = note .. '\n\n' .. L['in_cave'] end
     return note
 end
@@ -1031,7 +1043,7 @@ local RareElite14h = Class('RareElite14h', RareElite, {
 })
 
 function RareElite14h.getters:note()
-    local note = format(L['rare_14h'], date(L['time_format'], nextSpawn(self)))
+    local note = format(L['rare_14h'], nextSpawn(self, 14400, 1800))
     if self.cave then note = note .. '\n\n' .. L['in_cave'] end
     return note
 end
@@ -1049,8 +1061,7 @@ local Brackenhide = Class('Brackenhide', Rare, {
 })
 
 function Brackenhide.getters:note()
-    return format(L['brackenhide_rare_note'],
-        date(L['time_format'], nextSpawn(self)))
+    return format(L['brackenhide_rare_note'], nextSpawn(self, 1200, 600))
 end
 
 ------------------------------------ FEAST ------------------------------------
@@ -1063,7 +1074,7 @@ local Feast = Class('Feast', Rare, {
 })
 
 function Feast.getters:note()
-    return format(L['bisquis_note'], date(L['time_format'], nextSpawn(self)))
+    return format(L['bisquis_note'], nextSpawn(self, 3600, 600))
 end
 
 ----------------------------- THE OHN'AHRAN TRAIL -----------------------------
@@ -1071,13 +1082,11 @@ end
 local AylaagCamp = Class('AylaagCamp', Collectible, {
     initialSpawn = {us = 1677456000, eu = 1677502800, tw = 1677571200},
     spawnOffset = 270000,
-    spawnInterval = 810000,
-    rotationID = 0
+    spawnInterval = 810000
 })
 
 function AylaagCamp.getters:note()
-    return
-        format(L['aylaag_camp_note'], date(L['time_format'], nextSpawn(self)))
+    return format(L['aylaag_camp_note'], nextSpawn(self, 7200, 1800))
 end
 
 ns.node.Rare14h = Rare14h
