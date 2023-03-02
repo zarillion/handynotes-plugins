@@ -921,7 +921,7 @@ map.nodes[71036732] = LibraryBook({
 
 map.nodes[34910896] = LibraryBook({
     label = L['pirate_proclamation_label'],
-    note = format({'library_note'}, L['pirate_proclamation_label'], 204328),
+    note = format(L['library_note'], L['pirate_proclamation_label'], 204328),
     rewards = {Achievement({id = 17530, criteria = 58504})}
 }) -- Return of the Nightsquall
 
