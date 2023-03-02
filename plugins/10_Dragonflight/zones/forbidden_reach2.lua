@@ -241,7 +241,7 @@ map.nodes[36731223] = Rare({
     quest = 73366,
     rewards = {
         Achievement({id = 17525, criteria = 58471}), -- Champion of the Forbidden Reach
-        Mount({item = 192772, id = nil}), -- Ancient Salamanther
+        -- Mount({item = 192772, id = nil}), -- Ancient Salamanther
         Item({item = 202196}), -- Zskera Vault Key
         Item({item = 197636, quest = 69847}), -- Windborne Velocidrake: Shrieker Pattern NOT IN ns.DRAGON_CUSTOMIZATIONS
         Currency({id = 2118}) -- Elemental Overflow
