@@ -20,6 +20,7 @@ local SignalTransmitter = ns.node.SignalTransmitter
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
@@ -240,7 +241,9 @@ map.nodes[36731223] = Rare({
     quest = 73366,
     rewards = {
         Achievement({id = 17525, criteria = 58471}), -- Champion of the Forbidden Reach
+        Mount({item = 192772, id = nil}), -- Ancient Salamanther
         Item({item = 202196}), -- Zskera Vault Key
+        Item({item = 197636, quest = 69847}), -- Windborne Velocidrake: Shrieker Pattern NOT IN ns.DRAGON_CUSTOMIZATIONS
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- "Captain" Ookbeard
@@ -290,6 +293,7 @@ local LootSpecialist = Class('LootSpecialist', BonusBoss, {
 }) -- Loot Specialist
 
 map.nodes[14971438] = LootSpecialist()
+map.nodes[41021436] = LootSpecialist()
 map.nodes[47394256] = LootSpecialist()
 map.nodes[53464716] = LootSpecialist()
 
@@ -387,7 +391,6 @@ local SMALLTREASURE = Collectible({
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Small Treasure
-
 
 map.nodes[17935425] = SMALLTREASURE
 map.nodes[29704826] = SMALLTREASURE
@@ -1016,7 +1019,7 @@ map.nodes[55393586] = ScalecommanderItem({
 -------------------------------------------------------------------------------
 
 -- L['scroll_hunter_suffix'] = 'treasures found from Sealed Scrolls'
--- L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal a {npc:%s} on the map who will offer a {item:%s} which provides reputation for {faction:%s}.'
+-- L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal an X on the map which will offer a {item:%s} which provides reputation for {faction:%s}.'
 
 -- L['options_icons_scroll_hunter'] = '{achievement:17532}'
 -- L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532}.'
@@ -1041,8 +1044,7 @@ map.nodes[55393586] = ScalecommanderItem({
 --     id = '{npc:196127}',
 --     note = format(L['scroll_hunter_note'],
 --         202667, -- Sealed Artifact Scroll
---         196127, -- Draconic Artifact (NPC)
---         202871, -- Draconic Artifact (Item)
+--         202871, -- Draconic Artifact
 --         2507 -- Dragonscale Expedition
 --     )
 -- }) -- Draconic Artifact
@@ -1051,33 +1053,32 @@ map.nodes[55393586] = ScalecommanderItem({
 --     id = '{npc:201006}',
 --     note = format(L['scroll_hunter_note'],
 --         202668, -- Sealed Spirit Scroll
---         201006, -- Spirit of Blessing (NPC)
---         202872, -- Token of Blessing (Item)
+--         202872, -- Token of Blessing
 --         2503 -- Maruuk Centaur
 --     )
 -- }) -- Spirit of Blessing
+
+-- map.nodes[60515053] = SpiritOfBlessing()
 
 -- local WondrousFish = Class('WondrousFish', ScrollHunter, {
 --     id = '{npc:200958}',
 --     note = format(L['scroll_hunter_note'],
 --         202669, -- Sealed Fish Scroll
---         200958, -- Wondrous Fish (NPC)
---         202854, -- Wondrous Fish (Item)
+--         202854, -- Wondrous Fish
 --         2511 -- Iskaara Tuskarr
 --     )
 -- }) -- Wondrous Fish
 
--- local nil = Class('nil', ScrollHunter, {
---     id = '{npc:nil}',
+-- local MysteriousWritings = Class('MysteriousWritings', ScrollHunter, {
+--     id = '{item:202870}',
 --     note = format(L['scroll_hunter_note'],
 --         202670, -- Sealed Knowledge Scroll
---         nil, --
---         202870, -- Mysterious Writings (Item)
+--         202870, -- Mysterious Writings
 --         2510 -- Valdrakken Accord
 --     )
--- }) -- nil
+-- }) -- Mysterious Writings
 
--- map.nodes[60515053] = SpiritOfBlessing()
+-- map.nodes[58147167] = MysteriousWritings()
 
 -------------------------------------------------------------------------------
 -------------------------------- ZSKERA VAULTS --------------------------------
