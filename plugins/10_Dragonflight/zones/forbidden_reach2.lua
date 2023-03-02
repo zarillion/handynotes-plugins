@@ -329,6 +329,7 @@ local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
 
 map.nodes[28414200] = ForbiddenHoard()
 map.nodes[39192452] = ForbiddenHoard()
+map.nodes[40911121] = ForbiddenHoard()
 map.nodes[41154445] = ForbiddenHoard({
     location = L['in_small_cave'],
     pois = {
