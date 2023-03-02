@@ -289,7 +289,9 @@ local LootSpecialist = Class('LootSpecialist', BonusBoss, {
     }
 }) -- Loot Specialist
 
+map.nodes[14971438] = LootSpecialist()
 map.nodes[47394256] = LootSpecialist()
+map.nodes[53464716] = LootSpecialist()
 
 dragonskullIsland.nodes[28984051] = LootSpecialist({
     location = L['in_dragonskull_island'],
@@ -386,11 +388,13 @@ local SMALLTREASURE = Collectible({
     }
 }) -- Small Treasure
 
+
 map.nodes[17935425] = SMALLTREASURE
 map.nodes[29704826] = SMALLTREASURE
 map.nodes[33124319] = SMALLTREASURE
 map.nodes[35731741] = SMALLTREASURE
 map.nodes[36867659] = SMALLTREASURE
+map.nodes[36904654] = SMALLTREASURE
 map.nodes[39056332] = SMALLTREASURE
 map.nodes[40314192] = SMALLTREASURE
 map.nodes[42045105] = SMALLTREASURE
@@ -437,7 +441,9 @@ warCreche.nodes[68651319] = SMALLTREASURE
 siegeCreche.nodes[44804622] = SMALLTREASURE
 siegeCreche.nodes[53712134] = SMALLTREASURE
 
+froststoneVault.nodes[48535847] = SMALLTREASURE
 froststoneVault.nodes[56505366] = SMALLTREASURE
+froststoneVault.nodes[66112156] = SMALLTREASURE
 
 dragonskullIsland.nodes[42454551] = SMALLTREASURE
 dragonskullIsland.nodes[69933512] = SMALLTREASURE
@@ -580,6 +586,7 @@ local SpicelessStew = Class('SpicelessStew', ArtisanCurio, {
 }) -- Spiceless Stew
 
 map.nodes[40295336] = SpicelessStew()
+map.nodes[54494599] = SpicelessStew()
 map.nodes[55695154] = SpicelessStew()
 
 warCreche.nodes[31308084] = ArtisanCurio({
@@ -623,7 +630,7 @@ local AwakenedSoil = Class('AwakenedSoil', ArtisanCurio, {
 map.nodes[35354003] = AwakenedSoil()
 map.nodes[56435911] = AwakenedSoil()
 
-map.nodes[61256442] = ArtisanCurio({
+local SpellswornWard = Class('SpellswornWard', ArtisanCurio, {
     label = L['spellsworn_ward_label'],
     icon = 4638727,
     requires = {
@@ -633,6 +640,9 @@ map.nodes[61256442] = ArtisanCurio({
     skillID = 773, -- Inscription
     recipeID = 203425 -- Technique: Dispellng Rune
 }) -- Spellsworn Ward
+
+map.nodes[49264172] = SpellswornWard()
+map.nodes[61256442] = SpellswornWard()
 
 map.nodes[28905707] = ArtisanCurio({
     label = L['resonating_crystal_label'],
@@ -649,7 +659,7 @@ map.nodes[28905707] = ArtisanCurio({
     }
 }) -- Resonating Crystal
 
-map.nodes[48734944] = ArtisanCurio({
+local TuskarrTanningRack = Class('TuskarrTanningRack', ArtisanCurio, {
     label = L['tuskarr_tanning_rack'],
     icon = 4635266,
     requires = {
@@ -659,6 +669,9 @@ map.nodes[48734944] = ArtisanCurio({
     skillID = 165, -- Leatherworking
     recipeID = 203427 -- Pattern: Reinforced Pristine Leather
 }) -- Tuskarr Tanning Rack
+
+map.nodes[37124708] = TuskarrTanningRack()
+map.nodes[48734944] = TuskarrTanningRack()
 
 dragonskullIsland.nodes[56947247] = ArtisanCurio({
     label = L['rumbling_deposit_label'],
@@ -676,8 +689,9 @@ local RawArgaliPelts = Class('RawArgaliPelts', ArtisanCurio, {
     skillID = 393 -- Skinning
 }) -- Raw Argali Pelts
 
-map.nodes[70664614] = RawArgaliPelts()
+map.nodes[40488600] = RawArgaliPelts()
 map.nodes[44993658] = RawArgaliPelts()
+map.nodes[70664614] = RawArgaliPelts()
 
 local TuskarrKitePost = Class('TuskarrKitePost', ArtisanCurio, {
     label = L['tuskarr_kite_post_label'],
@@ -905,11 +919,11 @@ map.nodes[71036732] = LibraryBook({
     rewards = {Achievement({id = 17530, criteria = 58503})}
 }) -- A Song of the Depths
 
--- map.nodes[] = LibraryBook({
---     label = L[''],
---     note = format({'library_note'}, L[''], 204328),
---     rewards = {Achievement({id = 17530, criteria = 58504})}
--- }) -- Return of the Nightsquall
+map.nodes[34910896] = LibraryBook({
+    label = L['pirate_proclamation_label'],
+    note = format({'library_note'}, L['pirate_proclamation_label'], 204328),
+    rewards = {Achievement({id = 17530, criteria = 58504})}
+}) -- Return of the Nightsquall
 
 map.nodes[57446349] = LibraryBook({
     label = L['lost_expeditions_notes_label'],
