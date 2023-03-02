@@ -587,7 +587,7 @@ warCreche.nodes[31308084] = ArtisanCurio({
     icon = 1033184,
     parent = map.id,
     requires = {
-        ns.requirement.item(203401), -- Dull Crystal
+        ns.requirement.Item(203401), -- Dull Crystal
         ns.requirement.Item(203410) -- Glowing Crystal Bookmark
     },
     skillID = 333, -- Enchanting
@@ -1091,7 +1091,7 @@ map.nodes[29265268] = Collectible({
         Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
         Toy({item = 204262}), -- Holoviewer: The timeless One
         Toy({item = 203852}), -- Spore-Bound Essence
-        Toy({item = 204687}). -- Obsidian Battle Horn
+        Toy({item = 204687}), -- Obsidian Battle Horn
         Spacer(), Achievement({
             id = 17530,
             criteria = 58507 -- The Old Gods and the Ordering of Azeroth (Annotated)
