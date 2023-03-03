@@ -302,6 +302,8 @@ L['scroll_hunter_note'] = nil
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
 L['options_icons_scroll_hunter_desc'] = nil
 
+L['morqut_village_vendor_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------

@@ -23,6 +23,7 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local Arrow = ns.poi.Arrow
 local Circle = ns.poi.Circle
@@ -1211,11 +1212,69 @@ warCreche.nodes[65376249] = GemstoneOfReturn({
 
 warCreche.nodes[67030720] = GemstoneOfReturn() -- Entrance
 
--- map.nodes[10001000] = Collectible({ -- placeholder Node
---     id = 200564,
---     rewards = {
---         Mount({item = 192770, id = nil, note = '10000 {currency:2118}'}) -- item id from wowhead beta, wowhead.com/beta/spell=349935/noble-elderhorn#taught-by-item
---     }
--- }) -- Noble Bruffalon
+--------------------------- MORQUT VILLAGE VENDORS ----------------------------
+
+local MorqutVillageVendor = Class('MorqutVillageVendor', Collectible, {
+    icon = 'peg_bl',
+    scale = 1.3,
+    note = L['morqut_village_vendor_note']
+}) -- Morqut Village Vendor
+
+map.nodes[35615948] = MorqutVillageVendor({
+    id = 200559,
+    rewards = {
+        Transmog({item = 204562, slot = L['2h_mace']}), -- Maruuk Maul 2hand mace
+        Transmog({item = 204563, slot = L['1h_mace']}), -- Morqut Club 1hand mace
+        Transmog({item = 204564, slot = L['gun']}), -- Dragonscale Expeditioner's Rifle gun
+        Transmog({item = 204566, slot = L['offhand']}), -- Journal of the Forbidden Reach offhand
+        Transmog({item = 204569, slot = L['fist']}), -- Valdrakken Talons 1hand first weapon
+        Transmog({item = 204570, slot = L['dagger']}), -- Valdrakken Pocketknife 1hand dagger
+        Spacer(), Mount({item = 201719, id = 1686}), -- Obsidian Vorquin
+        Mount({item = 201704, id = 1684}), -- Sapphire Vorquin
+        Mount({item = 201702, id = 1683}), -- Crimson Vorquin
+        Mount({item = 201720, id = 1685}), -- Bronze Vorquin
+        Mount({item = 198808, id = 1664}), -- Guardian Vorquin
+        Mount({item = 198809, id = 1667}), -- Armored Vorquin Leystrider
+        Mount({item = 198811, id = 1668}), -- Majestic Armored Vorquin
+        Mount({item = 198810, id = 1665}) -- Swift Armored Vorquin
+    }
+}) -- Treysh <Quartermaster>
+
+map.nodes[34216002] = MorqutVillageVendor({
+    id = 200562,
+    rewards = {
+        Pet({item = 193850, id = 3330, note = '25,000'}) -- Buckie
+    }
+}) -- Turik <Renown Envoy>
+
+map.nodes[34075997] = MorqutVillageVendor({
+    id = 200564,
+    rewards = {
+        Mount({item = 204382, id = 1467, note = '100000'}) -- Noble Bruffalon
+    }
+}) -- Storykeeper Ashekh <Renown Envoy>
+
+map.nodes[34015980] = MorqutVillageVendor({
+    id = 200563,
+    rewards = {
+        Item({item = 197626, quest = 69831, note = '2500'}), -- Windbone Velocidrake: Exposed Finned Neck
+        Item({item = 197136, quest = 69337, note = '2500'}) -- Highland Drake: Tapered Nose
+    }
+}) -- Kraxxus <Renown Envoy>
+
+map.nodes[35905744] = MorqutVillageVendor({
+    id = 202445,
+    rewards = {
+        Item({item = 203420}), -- Recipe: Draconic Suppression Powder
+        Item({item = 203421}), -- Plans: Ancient Ceremonial Trident
+        Item({item = 203422}), -- Recipe: Sparkling Spice Pouch
+        Item({item = 203423}), -- Formula: Glowing Crystal Bookmark
+        Item({item = 203424}), -- Schematic: Gnomish Voicebox
+        Item({item = 203425}), -- Technique: Arcane Dispelling Rune
+        Item({item = 203426}), -- Design: Crystal Tuning Fork
+        Item({item = 203427}), -- Pattern: Reinforced Pristine Leather
+        Item({item = 203428}) -- Pattern: Traditional Morqut Kite
+    }
+}) -- Trader Hag'arth <Artisan's Consortium Quartermaster>
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

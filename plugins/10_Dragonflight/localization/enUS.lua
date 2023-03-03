@@ -308,6 +308,8 @@ L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasur
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
 L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532}.'
 
+L['morqut_village_vendor_note'] = 'Exchange {currency:2118} or gold for mounts, pets, transmog, drake customization, recipes and other useful items.'
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
