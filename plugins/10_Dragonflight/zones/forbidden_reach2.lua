@@ -857,6 +857,8 @@ map.nodes[29265268] = Collectible({
         Pet({item = 193851, id = 3332}), -- Patos
         Pet({item = 193908, id = 3338}), -- Kobaldt
         Pet({item = 204079, id = 3476}), -- Gilded Mechafrog
+        Pet({item = 193835, id = 3323}), -- Brightfeather
+        Pet({item = 193854, id = 3333}), -- Berylmane
         Spacer(), Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
         Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
         Toy({item = 204262}), -- Holoviewer: The timeless One
