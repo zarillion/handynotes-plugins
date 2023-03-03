@@ -309,7 +309,7 @@ L['scroll_hunter_note'] = 'Récupérez des parchemins scellés sur divers rares 
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
 L['options_icons_scroll_hunter_desc'] = 'Afficher les emplacements des récompenses des parchemins pour le haut-fait {achievement:17532}.'
 
-L['morqut_village_vendor_note'] = nil
+L['morqut_village_vendor_note'] = 'Échangez de l\'or ou des {currency:2118} contre des montures, mascottes, objets de transmogrification, personnalisations de drake, recettes et d\'autres objets utiles.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
