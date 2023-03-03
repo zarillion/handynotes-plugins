@@ -259,8 +259,8 @@ L['tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack'
 L['volatile_brazier'] = 'Volatile Brazier'
 L['raw_argali_pelts'] = 'Raw Argali Pelts'
 L['awakened_soil_label'] = 'Awakened Soil'
-L['empty_crab_trap'] = nil
-L['damaged_buzzspire'] = nil
+L['empty_crab_trap'] = 'Empty Crab Trap'
+L['damaged_buzzspire'] = 'Damaged Buzzspire 505' -- Datamined from Wowhead. Not discovered in-game yet.
 
 L['artisan_curio_note'] = '拥有 %s (50) 的玩家可以在 {location:Morqut Village} 的 {npc:202445} 以10个 {item:190456} 的价格购买 {item:%s}。'
 L['options_icons_artisan_curio'] = 'Artisan Curio'
@@ -271,7 +271,7 @@ L['confiscated_journal_label'] = 'Confiscated Journal'
 L['farscale_manifesto_label'] = 'Farscale Manifesto'
 L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
 L['vrykul_tome_label'] = 'Vrykul Tome'
-L['pirate_proclamation_label'] = nil
+L['pirate_proclamation_label'] = 'Pirate Proclamation'
 
 L['library_note'] = '打开 {object:%s} 并拾取 {item:%s}。'
 
@@ -300,13 +300,13 @@ L['options_icons_froststone_vault_storm_desc'] = '显示 {object:Froststone Vaul
 L['spellsworn_gateway'] = 'Spellsworn Gateway'
 L['gemstone_of_return'] = 'Gemstone of Return'
 
-L['mm_start_note'] = nil
-L['mm_status_note'] = nil
+L['mm_start_note'] = 'Collect and combine various items found within {location:Zskera Vaults}.'
+L['mm_status_note'] = 'Combine the following items:\n{item:%s}\n{item:%s}'
 
-L['scroll_hunter_suffix'] = nil
-L['scroll_hunter_note'] = nil
+L['scroll_hunter_suffix'] = 'treasures found from Sealed Scrolls'
+L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal an X on the map which will offer a {item:%s} which provides reputation for {faction:%s}.'
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
-L['options_icons_scroll_hunter_desc'] = nil
+L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
