@@ -266,6 +266,7 @@ L['damaged_buzzspire'] = 'Damaged Buzzspire 505' -- Datamined from Wowhead. Not 
 L['artisan_curio_note'] = 'Players with %s (50) can purchase {item:%s} from {npc:202445} at {location:Morqut Village} for 10 {item:190456}.'
 L['options_icons_artisan_curio'] = 'Artisan Curio'
 L['options_icons_artisan_curio_desc'] = 'Display locations and rewards for Artisan Curios.'
+
 L['spellsworn_missive_label'] = 'Spellsworn Missive'
 L['confiscated_journal_label'] = 'Confiscated Journal'
 L['farscale_manifesto_label'] = 'Farscale Manifesto'
@@ -284,6 +285,7 @@ L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achie
 L['zskera_vaults_label'] = 'Zskera Vaults'
 L['zskera_vaults_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vaults}.'
 L['door_buster_suffix'] = 'Doors unlocked using Zskera Vault keys'
+
 L['recipe_rat_note_1'] = 'Speak to the {npc:202982} within {location:Zskera Vault} and {item:202252} will enter your bags.'
 L['recipe_rat_note_2'] = 'Interact with {item:202252} to receive {item:204340}. {note:(5 minute cooldown)}'
 L['recipe_rat_note_3'] = 'Once you have 30x {item:204340} combine the scraps to receive the recipe.'
