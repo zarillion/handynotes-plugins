@@ -503,7 +503,7 @@ ns.node.Safari = {
         id = 171123,
         rewards = {
             Achievement({id = 14867, criteria = 50906, oneline = true}),
-            Pet({id = 2596})
+            Pet({id = 2895})
         }
     }),
     MireCreeper = Class('MireCreeper', Safari, {
