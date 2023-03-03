@@ -8,7 +8,6 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
-local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 
@@ -26,8 +25,11 @@ local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 
 local Arrow = ns.poi.Arrow
+local Circle = ns.poi.Circle
 local Path = ns.poi.Path
 local POI = ns.poi.POI
+
+local DC = ns.DRAGON_CUSTOMIZATIONS
 
 -------------------------------------------------------------------------------
 
@@ -38,34 +40,6 @@ local froststoneVault = Map({id = 2154, settings = false}) -- Froststone Vault
 local siegeCreche = Map({id = 2100, settings = false}) -- The Siege Crech
 local supportCreche = Map({id = 2101, settings = false}) -- The Support Creche
 local warCreche = Map({id = 2102, settings = false}) -- The War Creche
-
--------------------------------------------------------------------------------
------------------------------- HELPER FUNCTIONS -------------------------------
--------------------------------------------------------------------------------
-
--- Get Vignette information from mouseover ------------------------------------ ENABLED DURING DEVELOPMENT
-hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
-    if self and self.vignetteID then
-        local mapID = self:GetMap().mapID
-        local guid = self.vignetteGUID
-        local x = C_VignetteInfo.GetVignettePosition(guid, mapID).x
-        local y = C_VignetteInfo.GetVignettePosition(guid, mapID).y
-        print(C_VignetteInfo.GetVignetteInfo(guid).name)
-        print(mapID .. ': ' .. HandyNotes:getCoord(x, y))
-    end
-end)
-
--- Get Area POI information from mouseover ------------------------------------ ENABLED DURING DEVELOPMENT
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
-    if self and self.areaPoiID then
-        local mapID = self:GetMap().mapID
-        local AreaPoiInfo = C_AreaPoiInfo.GetAreaPOIInfo(mapID, self.areaPoiID)
-        local x = AreaPoiInfo.position.x
-        local y = AreaPoiInfo.position.y
-        print(AreaPoiInfo.name .. ' (' .. self.areaPoiID .. ')')
-        print(mapID .. ': ' .. HandyNotes:getCoord(x, y))
-    end
-end)
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -81,9 +55,7 @@ map.nodes[58174826] = Rare({
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
-    pois = {
-        POI({58934944}) -- Entrance
-    }
+    pois = {POI({58934944})}
 }) -- Vakren the Hunter
 
 map.nodes[28303794] = Rare({
@@ -95,9 +67,7 @@ map.nodes[28303794] = Rare({
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
-    pois = {
-        POI({27184089}) -- Entrance
-    }
+    pois = {POI({27184089})}
 }) -- Gahz'raxes
 
 map.nodes[41021436] = Rare({
@@ -119,9 +89,7 @@ map.nodes[47722071] = Rare({
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
-    pois = {
-        POI({46961955}) -- Entrance
-    }
+    pois = {POI({46961955})}
 }) -- Reisa the Drowned
 
 supportCreche.nodes[35254374] = Rare({
@@ -179,9 +147,7 @@ map.nodes[59695883] = Rare({
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
-    pois = {
-        POI({60845827}) -- Entrance
-    }
+    pois = {POI({60845827})}
 }) -- Lady Shaz'ra
 
 map.nodes[72986738] = Rare({
@@ -193,9 +159,7 @@ map.nodes[72986738] = Rare({
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
-    pois = {
-        POI({70776649, 72086535, 71006875, 71906968}) -- Entrances
-    }
+    pois = {POI({70776649, 72086535, 71006875, 71906968})}
 }) -- Veltrax
 
 map.nodes[67924531] = Rare({
@@ -208,9 +172,7 @@ map.nodes[67924531] = Rare({
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
-    pois = {
-        POI({69024597}) -- Entrance
-    }
+    pois = {POI({69024597})}
 }) -- Mad-Eye Carrey
 
 map.nodes[61723400] = Rare({
@@ -241,10 +203,9 @@ map.nodes[36731223] = Rare({
     quest = 73366,
     rewards = {
         Achievement({id = 17525, criteria = 58471}), -- Champion of the Forbidden Reach
-        -- Mount({item = 192772, id = nil}), -- Ancient Salamanther
+        Mount({item = 192772, id = 197}), -- Ancient Salamanther -- TODO: REPLACE WILL REAL MOUNTID
         Item({item = 202196}), -- Zskera Vault Key
-        Item({item = 197636, quest = 69847}), -- Windborne Velocidrake: Shrieker Pattern NOT IN ns.DRAGON_CUSTOMIZATIONS
-        Currency({id = 2118}) -- Elemental Overflow
+        DC.WindborneVelocidrake.ShriekerPattern, Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- "Captain" Ookbeard
 
@@ -272,20 +233,12 @@ siegeCreche.nodes[58993931] = Rare({
     }
 }) -- Volcanakk
 
--------------------------------------------------------------------------------
----------------------------- BONUS OBJECTIVE BOSSES ---------------------------
--------------------------------------------------------------------------------
-
-local BonusBoss = Class('BonusBoss', NPC, {
-    icon = 'peg_rd',
-    scale = 1.8,
-    group = ns.groups.BONUS_BOSS
-})
-
-local LootSpecialist = Class('LootSpecialist', BonusBoss, {
+local LootSpecialist = Class('LootSpecialist', Rare, {
     id = 203353,
+    quest = nil,
     note = L['loot_specialist_note'],
     rewards = {
+        Achievement({id = 17525, criteria = 58830}), -- Champion of the Forbidden Reach
         Item({item = 204276}), -- Untapped Forbidden Knowledge
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
@@ -303,162 +256,14 @@ dragonskullIsland.nodes[28984051] = LootSpecialist({
 })
 
 -------------------------------------------------------------------------------
-------------------------------- FORBIDDEN HOARD -------------------------------
+---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
-
-local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
-    label = L['forbidden_hoard_label'],
-    icon = 'chest_pp',
-    scale = 1.3,
-    group = ns.groups.FORBIDDEN_HOARD,
-    rewards = {
-        Achievement({id = 17526, criteria = 58487}), -- Treasures of the Forbidden Reach
-        Achievement({
-            id = 17528,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['hoarder_of_the_forbidden_reach_suffix']
-            }
-        }), -- Hoarder of the Forbidden Reach
-        Achievement({
-            id = 17529,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['forbidden_spoils_suffix']
-            }
-        }), -- Forbidden Spoils
-        Item({item = 202196}) -- Zskera Vault Key
-    }
-}) -- Forbidden Hoard
-
-map.nodes[28414200] = ForbiddenHoard()
-map.nodes[39192452] = ForbiddenHoard()
-map.nodes[40911121] = ForbiddenHoard()
-map.nodes[41154445] = ForbiddenHoard({
-    location = L['in_small_cave'],
-    pois = {
-        POI({41184350}) -- Entrance
-    }
-})
-map.nodes[58003875] = ForbiddenHoard()
-map.nodes[50733679] = ForbiddenHoard({
-    location = L['in_small_cave'],
-    pois = {
-        POI({49463696}) -- Entrance
-    }
-})
-map.nodes[53157801] = ForbiddenHoard()
-map.nodes[54843439] = ForbiddenHoard()
-map.nodes[56765534] = ForbiddenHoard()
-map.nodes[57142267] = ForbiddenHoard({
-    location = L['in_small_cave'],
-    pois = {
-        POI({57272170}) -- Entrance
-    }
-})
-map.nodes[58006276] = ForbiddenHoard()
-map.nodes[62584946] = ForbiddenHoard()
-map.nodes[62954380] = ForbiddenHoard()
-map.nodes[67756834] = ForbiddenHoard()
-
--------------------------------------------------------------------------------
-------------------------------- SMALL TREASURES -------------------------------
--------------------------------------------------------------------------------
-
-local SMALLTREASURE = Collectible({
-    label = L['small_treasures_label'],
-    icon = 'chest_rd',
-    group = ns.groups.SMALL_TREASURES,
-    note = L['small_treasures_note'],
-    rewards = {
-        Achievement({
-            id = 17526,
-            criteria = {
-                58488, 58489, 58491, 58492, 58493, 58494, 58495, 58496, 58497,
-                58498
-            }
-        }), -- Treasures of the Forbidden Reach
-        Achievement({
-            id = 17528,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['hoarder_of_the_forbidden_reach_suffix']
-            }
-        }), -- Hoarder of the Forbidden Reach
-        Currency({id = 2118}) -- Elemental Overflow
-    }
-}) -- Small Treasure
-
-map.nodes[17935425] = SMALLTREASURE
-map.nodes[29704826] = SMALLTREASURE
-map.nodes[33124319] = SMALLTREASURE
-map.nodes[35731741] = SMALLTREASURE
-map.nodes[36867659] = SMALLTREASURE
-map.nodes[36904654] = SMALLTREASURE
-map.nodes[39056332] = SMALLTREASURE
-map.nodes[40314192] = SMALLTREASURE
-map.nodes[42045105] = SMALLTREASURE
-map.nodes[44055921] = SMALLTREASURE
-map.nodes[44745794] = SMALLTREASURE
-map.nodes[44815577] = SMALLTREASURE
-map.nodes[45705660] = SMALLTREASURE
-map.nodes[47071542] = SMALLTREASURE
-map.nodes[48764706] = SMALLTREASURE
-map.nodes[49464251] = SMALLTREASURE
-map.nodes[50374387] = SMALLTREASURE
-map.nodes[50534337] = SMALLTREASURE
-map.nodes[51365854] = SMALLTREASURE
-map.nodes[51405334] = SMALLTREASURE
-map.nodes[54195433] = SMALLTREASURE
-map.nodes[54285826] = SMALLTREASURE
-map.nodes[54575658] = SMALLTREASURE
-map.nodes[54904277] = SMALLTREASURE
-map.nodes[57545601] = SMALLTREASURE
-map.nodes[57816240] = SMALLTREASURE
-map.nodes[58556090] = SMALLTREASURE
-map.nodes[59375286] = SMALLTREASURE
-map.nodes[59425809] = SMALLTREASURE
-map.nodes[66915815] = SMALLTREASURE
-map.nodes[67284345] = SMALLTREASURE
-map.nodes[68604706] = SMALLTREASURE
-map.nodes[70806917] = SMALLTREASURE
-map.nodes[70826916] = SMALLTREASURE
-map.nodes[70844360] = SMALLTREASURE
-map.nodes[71385357] = SMALLTREASURE
-map.nodes[72305308] = SMALLTREASURE
-map.nodes[72396117] = SMALLTREASURE
-map.nodes[74863764] = SMALLTREASURE
-map.nodes[79216521] = SMALLTREASURE
-
-warCreche.nodes[38095249] = SMALLTREASURE
-warCreche.nodes[45005760] = SMALLTREASURE
-warCreche.nodes[49098242] = SMALLTREASURE
-warCreche.nodes[60734407] = SMALLTREASURE
-warCreche.nodes[62232610] = SMALLTREASURE
-warCreche.nodes[64044226] = SMALLTREASURE
-warCreche.nodes[68651319] = SMALLTREASURE
-
-siegeCreche.nodes[44804622] = SMALLTREASURE
-siegeCreche.nodes[53712134] = SMALLTREASURE
-
-froststoneVault.nodes[48535847] = SMALLTREASURE
-froststoneVault.nodes[56505366] = SMALLTREASURE
-froststoneVault.nodes[66112156] = SMALLTREASURE
-
-dragonskullIsland.nodes[42454551] = SMALLTREASURE
-dragonskullIsland.nodes[69933512] = SMALLTREASURE
-
--------------------------------- MISCELLANEOUS --------------------------------
 
 map.nodes[48947352] = ns.node.ElementalChest({
     label = L['storm_bound_chest_label'],
     quest = 74567,
     areaPOI = 7415,
     rewards = {
-        Item({item = 203639}), -- Primalist Mail Boots -- Catch-Up Gear
         Item({item = 202196}), -- Zskera Vault Key
         Item({item = 204577}) -- Condensed Nature Magic
     }
@@ -487,58 +292,6 @@ map.nodes[89366022] = PetBattle({
     id = 200772,
     rewards = {Achievement({id = 17541, criteria = 58575})} -- Global Swarming
 }) -- Flow
-
--------------------------------------------------------------------------------
--------------------------------- DRAGON GLYPHS --------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[18431305] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 1})}
-}) -- Forbidden Reach Glyph Hunter: Warlord's Perch
-
-map.nodes[20529141] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 2})}
-}) -- Forbidden Reach Glyph Hunter: Talon's Watch
-
-map.nodes[62533242] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 3})}
-}) -- Forbidden Reach Glyph Hunter: Froststone Peak
-
-map.nodes[79433260] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 4})}
-}) -- Forbidden Reach Glyph Hunter: Dragonskull Island
-
-map.nodes[77315509] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 5})}
-}) -- Forbidden Reach Glyph Hunter: Stormsunder Mountain
-
-map.nodes[48526895] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 6})}
-}) -- Forbidden Reach Glyph Hunter: The Frosted Spine
-
-map.nodes[59066506] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 7})}
-}) -- Forbidden Reach Glyph Hunter: Talonlord's Perch
-
-map.nodes[37743063] = Dragonglyph({
-    rewards = {Achievement({id = 17411, criteria = 8})}
-}) -- Forbidden Reach Glyph Hunter: Caldera of the Menders
-
--------------------------------------------------------------------------------
------------------- DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
--------------------------------------------------------------------------------
-
-map.nodes[27945985] = Flag({quest = 73696})
-map.nodes[54573460] = Flag({quest = 73699})
-map.nodes[36903792] = Flag({quest = 73700})
-map.nodes[76285343] = Flag({quest = 73702})
-
--------------------------------------------------------------------------------
------------------- WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
--------------------------------------------------------------------------------
-
-map.nodes[39988182] = SignalTransmitter({quest = 73145}) -- Sharpscale Coast
-map.nodes[78035110] = SignalTransmitter({quest = 73144}) -- Stormsunder Mountain
 
 -------------------------------------------------------------------------------
 ------------------------------- ARTISAN CURIOS --------------------------------
@@ -711,6 +464,42 @@ map.nodes[31195341] = TuskarrKitePost()
 map.nodes[57634843] = TuskarrKitePost()
 
 -------------------------------------------------------------------------------
+-------------------------------- DRAGON GLYPHS --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[18431305] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 1})}
+}) -- Forbidden Reach Glyph Hunter: Warlord's Perch
+
+map.nodes[20529141] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 2})}
+}) -- Forbidden Reach Glyph Hunter: Talon's Watch
+
+map.nodes[62533242] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 3})}
+}) -- Forbidden Reach Glyph Hunter: Froststone Peak
+
+map.nodes[79433260] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 4})}
+}) -- Forbidden Reach Glyph Hunter: Dragonskull Island
+
+map.nodes[77315509] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 5})}
+}) -- Forbidden Reach Glyph Hunter: Stormsunder Mountain
+
+map.nodes[48526895] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 6})}
+}) -- Forbidden Reach Glyph Hunter: The Frosted Spine
+
+map.nodes[59066506] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 7})}
+}) -- Forbidden Reach Glyph Hunter: Talonlord's Perch
+
+map.nodes[37743063] = Dragonglyph({
+    rewards = {Achievement({id = 17411, criteria = 8})}
+}) -- Forbidden Reach Glyph Hunter: Caldera of the Menders
+
+-------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -823,6 +612,65 @@ map.nodes[49426006] = Dragonrace({
 }) -- Forbidden Reach Rush
 
 -------------------------------------------------------------------------------
+------------------------------- FORBIDDEN HOARD -------------------------------
+-------------------------------------------------------------------------------
+
+local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
+    label = L['forbidden_hoard_label'],
+    icon = 'chest_pp',
+    scale = 1.3,
+    group = ns.groups.FORBIDDEN_HOARD,
+    rewards = {
+        Achievement({id = 17526, criteria = 58487}), -- Treasures of the Forbidden Reach
+        Achievement({
+            id = 17528,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['hoarder_of_the_forbidden_reach_suffix']
+            }
+        }), -- Hoarder of the Forbidden Reach
+        Achievement({
+            id = 17529,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['forbidden_spoils_suffix']
+            }
+        }), -- Forbidden Spoils
+        Item({item = 202667}), -- Sealed Artifact Scroll
+        Item({item = 202668}), -- Sealed Spirit Scroll
+        Item({item = 202669}), -- Sealed Fish Scroll
+        Item({item = 202670}), -- Sealed Knowledge Scroll
+        Item({item = 202196}) -- Zskera Vault Key
+    }
+}) -- Forbidden Hoard
+
+map.nodes[28414200] = ForbiddenHoard()
+map.nodes[39192452] = ForbiddenHoard()
+map.nodes[40911121] = ForbiddenHoard()
+map.nodes[41154445] = ForbiddenHoard({
+    location = L['in_small_cave'],
+    pois = {POI({41184350})}
+})
+map.nodes[58003875] = ForbiddenHoard()
+map.nodes[50733679] = ForbiddenHoard({
+    location = L['in_small_cave'],
+    pois = {POI({49463696})}
+})
+map.nodes[53157801] = ForbiddenHoard()
+map.nodes[54843439] = ForbiddenHoard()
+map.nodes[56765534] = ForbiddenHoard()
+map.nodes[57142267] = ForbiddenHoard({
+    location = L['in_small_cave'],
+    pois = {POI({57272170})}
+})
+map.nodes[58006276] = ForbiddenHoard()
+map.nodes[62584946] = ForbiddenHoard()
+map.nodes[62954380] = ForbiddenHoard()
+map.nodes[67756834] = ForbiddenHoard()
+
+-------------------------------------------------------------------------------
 ------------------------ FROSTSTONE VAULT PRIMAL STORM ------------------------
 -------------------------------------------------------------------------------
 
@@ -894,6 +742,262 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
 end)
 
 -------------------------------------------------------------------------------
+------------------------------- SMALL TREASURES -------------------------------
+-------------------------------------------------------------------------------
+
+local SMALLTREASURE = Collectible({
+    label = L['small_treasures_label'],
+    icon = 'chest_rd',
+    group = ns.groups.SMALL_TREASURES,
+    note = L['small_treasures_note'],
+    rewards = {
+        Achievement({
+            id = 17526,
+            criteria = {
+                58488, 58489, 58491, 58492, 58493, 58494, 58495, 58496, 58497,
+                58498
+            }
+        }), -- Treasures of the Forbidden Reach
+        Achievement({
+            id = 17528,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['hoarder_of_the_forbidden_reach_suffix']
+            }
+        }), -- Hoarder of the Forbidden Reach
+        Currency({id = 2118}) -- Elemental Overflow
+    }
+}) -- Small Treasure
+
+map.nodes[17935425] = SMALLTREASURE
+map.nodes[29704826] = SMALLTREASURE
+map.nodes[33124319] = SMALLTREASURE
+map.nodes[35731741] = SMALLTREASURE
+map.nodes[36867659] = SMALLTREASURE
+map.nodes[36904654] = SMALLTREASURE
+map.nodes[39056332] = SMALLTREASURE
+map.nodes[40314192] = SMALLTREASURE
+map.nodes[42045105] = SMALLTREASURE
+map.nodes[44055921] = SMALLTREASURE
+map.nodes[44745794] = SMALLTREASURE
+map.nodes[44815577] = SMALLTREASURE
+map.nodes[45705660] = SMALLTREASURE
+map.nodes[47071542] = SMALLTREASURE
+map.nodes[48764706] = SMALLTREASURE
+map.nodes[49464251] = SMALLTREASURE
+map.nodes[50374387] = SMALLTREASURE
+map.nodes[50534337] = SMALLTREASURE
+map.nodes[51365854] = SMALLTREASURE
+map.nodes[51405334] = SMALLTREASURE
+map.nodes[54195433] = SMALLTREASURE
+map.nodes[54285826] = SMALLTREASURE
+map.nodes[54575658] = SMALLTREASURE
+map.nodes[54904277] = SMALLTREASURE
+map.nodes[57545601] = SMALLTREASURE
+map.nodes[57816240] = SMALLTREASURE
+map.nodes[58556090] = SMALLTREASURE
+map.nodes[59375286] = SMALLTREASURE
+map.nodes[59425809] = SMALLTREASURE
+map.nodes[66915815] = SMALLTREASURE
+map.nodes[67284345] = SMALLTREASURE
+map.nodes[68604706] = SMALLTREASURE
+map.nodes[70806917] = SMALLTREASURE
+map.nodes[70826916] = SMALLTREASURE
+map.nodes[70844360] = SMALLTREASURE
+map.nodes[71385357] = SMALLTREASURE
+map.nodes[72305308] = SMALLTREASURE
+map.nodes[72396117] = SMALLTREASURE
+map.nodes[74863764] = SMALLTREASURE
+map.nodes[79216521] = SMALLTREASURE
+
+warCreche.nodes[38095249] = SMALLTREASURE
+warCreche.nodes[45005760] = SMALLTREASURE
+warCreche.nodes[49098242] = SMALLTREASURE
+warCreche.nodes[60734407] = SMALLTREASURE
+warCreche.nodes[62232610] = SMALLTREASURE
+warCreche.nodes[64044226] = SMALLTREASURE
+warCreche.nodes[68651319] = SMALLTREASURE
+
+siegeCreche.nodes[44804622] = SMALLTREASURE
+siegeCreche.nodes[53712134] = SMALLTREASURE
+
+froststoneVault.nodes[48535847] = SMALLTREASURE
+froststoneVault.nodes[56505366] = SMALLTREASURE
+froststoneVault.nodes[66112156] = SMALLTREASURE
+
+dragonskullIsland.nodes[42454551] = SMALLTREASURE
+dragonskullIsland.nodes[69933512] = SMALLTREASURE
+
+-------------------------------------------------------------------------------
+------------------ WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
+-------------------------------------------------------------------------------
+
+map.nodes[39988182] = SignalTransmitter({quest = 73145}) -- Sharpscale Coast
+map.nodes[78035110] = SignalTransmitter({quest = 73144}) -- Stormsunder Mountain
+
+-------------------------------------------------------------------------------
+-------------------------------- ZSKERA VAULTS --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[29265268] = Collectible({
+    label = L['zskera_vaults_label'],
+    icon = 4909720,
+    note = L['zskera_vaults_note'],
+    fgroup = 'zskera_vaults',
+    group = ns.groups.ZSKERA_VAULTS,
+    requires = ns.requirement.Quest(73159), -- Exploring Our Past
+    areaPOI = 7414,
+    rewards = {
+        Achievement({id = 17509}), -- Every Door, Everywhere, All At Once
+        Achievement({
+            id = 17413,
+            criteria = {id = 1, qty = true, suffix = L['door_buster_suffix']}
+        }), -- Door Buster
+        Pet({item = 193851, id = 3332}), -- Patos
+        Pet({item = 193908, id = 3338}), -- Kobaldt
+        Pet({item = 204079, id = 3476}), -- Gilded Mechafrog
+        Spacer(), Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
+        Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
+        Toy({item = 204262}), -- Holoviewer: The timeless One
+        Toy({item = 203852}), -- Spore-Bound Essence
+        Toy({item = 204687}), -- Obsidian Battle Horn
+        Spacer(), Item({item = 204073}), -- Ratcipe: Deviously Deviled Eggs
+        Spacer(), Mount({item = 192790, id = 197}), -- Mossy Mammoth -- TODO: REPLACE WILL REAL MOUNTID
+        Spacer(), Achievement({
+            id = 17530,
+            criteria = 58507 -- The Old Gods and the Ordering of Azeroth (Annotated)
+        }), -- Librarian of the Reach
+        Achievement({
+            id = 17315,
+            criteria = {
+                1, -- Journal Entry: The Creches
+                4 -- Journal Entry: Silence
+            }
+        }) -- While We Were Sleeping
+    },
+    pois = {
+        Path({29265268, 29267350}),
+        Path({Circle({origin = 29267800, radius = 3})})
+    }
+}) -- Zskera Vaults
+
+---------------------- RATCIPE: DEVIOUSLY DEVILVED EGGS -----------------------
+
+local RecipeRat = Class('RecipeRat', Node, {
+    label = '{npc:202982}',
+    location = L['in_zskera_vaults'],
+    icon = 4509424,
+    fgroup = 'zskera_vaults',
+    group = ns.groups.ZSKERA_VAULTS,
+    requires = ns.requirement.Quest(73159), -- Exploring Our Past
+    rewards = {
+        Item({item = 204073}) -- Ratcipe: Deviously Deviled Eggs
+    }
+}) -- Recipe Rat
+
+function RecipeRat.getters:note()
+    local function status(id, itemsNeed, itemsNeedString)
+        local itemsHave = GetItemCount(id, true);
+        if ns.PlayerHasItem(id, itemsNeed) then
+            return ns.status.Green(itemsHave .. '/' .. itemsNeedString)
+        else
+            return ns.status.Red(itemsHave .. '/' .. itemsNeedString)
+        end
+    end
+
+    local function getString(id)
+        local s = '??????'
+        return s:sub(1, #tostring(GetItemCount(id))) -- 1/? or 26/?? or 159/???
+    end
+
+    local note = L['recipe_rat_note_1'] .. '\n\n'
+    note = note .. status(202252, 1, '1') .. ' ' .. L['recipe_rat_note_2'] ..
+               '\n\n'
+    note = note .. status(204340, 30, '30') .. ' ' .. L['recipe_rat_note_3'] ..
+               '\n\n'
+    note = note .. status(3927, 1, getString(3927)) .. ' ' ..
+               L['recipe_rat_note_4']
+    return note
+end
+
+map.nodes[28267800] = RecipeRat()
+
+---------------------------- MOUNT: MOSSY MAMMOTH -----------------------------
+
+local MossyMammoth = Class('MossyMammoth', Collectible, {
+    label = '{item:192790}',
+    location = L['in_zskera_vaults'],
+    icon = 4034841,
+    fgroup = 'zskera_vaults',
+    group = ns.groups.ZSKERA_VAULTS,
+    requires = ns.requirement.Quest(73159), -- Exploring Our Past
+    rewards = {
+        Mount({item = 192790, id = 197}) -- Mossy Mammoth -- TODO: REPLACE WILL REAL MOUNTID
+    }
+}) -- Mossy Mammoth
+
+function MossyMammoth.getters:note()
+    local function HasItem(id) return GetItemCount(id, true) > 0 end
+
+    local function HasMount(id)
+        return select(11, C_MountJournal.GetMountInfoByID(id))
+    end
+
+    local steps = {
+        [1] = {complete = false, item = 204363}, -- Particularly Ordinary Egg
+        [2] = {complete = false, item = 204364}, -- Magically Altered Egg
+        [3] = {complete = false, item = 204366}, -- Egg of Unknown Contents
+        [4] = {complete = false, item = 204367}, -- Sleeping Ancient Mammoth
+        [5] = {complete = false, item = 192790}, -- Mossy Mammoth
+        [6] = {complete = false}
+    }
+
+    local mountID = self.rewards[1].id
+    if HasItem(192790) or HasMount(mountID) then steps[6].complete = true end
+
+    for i = 5, 1, -1 do
+        if steps[i + 1].complete == true then
+            steps[i].complete = true
+        else
+            steps[i].complete = HasItem(steps[i].item)
+        end
+    end
+
+    local function status(idx)
+        if steps[idx].complete == true then
+            return ns.status.Green(idx)
+        else
+            return ns.status.Red(idx)
+        end
+    end
+
+    local note = L['mm_start_note']
+    note = note .. '\n\n' .. status(1) .. ' ' ..
+               format(L['mm_status_note'], 204369, 204360, 204363)
+    note = note .. '\n\n' .. status(2) .. ' ' ..
+               format(L['mm_status_note'], 204363, 204371, 204364)
+    note = note .. '\n\n' .. status(3) .. ' ' ..
+               format(L['mm_status_note'], 204364, 204375, 204366)
+    note = note .. '\n\n' .. status(4) .. ' ' ..
+               format(L['mm_status_note'], 204366, 204372, 204367)
+    note = note .. '\n\n' .. status(5) .. ' ' ..
+               format(L['mm_status_note'], 204367, 204374, 192790)
+    return note
+end
+
+map.nodes[30267800] = MossyMammoth()
+
+-------------------------------------------------------------------------------
+------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
+-------------------------------------------------------------------------------
+
+map.nodes[27945985] = Flag({quest = 73696})
+map.nodes[54573460] = Flag({quest = 73699})
+map.nodes[36903792] = Flag({quest = 73700})
+map.nodes[76285343] = Flag({quest = 73702})
+
+-------------------------------------------------------------------------------
 --------------------------- LIBRARIAN OF THE REACH ----------------------------
 -------------------------------------------------------------------------------
 
@@ -951,6 +1055,59 @@ map.nodes[61533375] = LibraryBook({
 --     note = format({'library_note'}, L[''], 204181),
 --     rewards = {Achievement({id = 17530, criteria = 58661})}
 -- }) -- Opera of the Aspects
+
+-------------------------------------------------------------------------------
+-------------------------------- SCROLL HUNTER --------------------------------
+-------------------------------------------------------------------------------
+
+local ScrollHunter = Class('ScrollHunter', Collectible, {
+    icon = 4549192,
+    group = ns.groups.SCROLL_HUNTER,
+    rewards = {
+        Achievement({
+            id = 17532,
+            criteria = {id = 1, qty = true, suffix = L['scroll_hunter_suffix']}
+        }) -- Scroll Hunter
+    }
+}) -- Scroll Hunter
+
+-- local DraconicArtifact = Class('DraconicArtifact', ScrollHunter, {
+--     id = '{npc:196127}',
+--     note = format(L['scroll_hunter_note'],
+--         202667, -- Sealed Artifact Scroll
+--         202871, -- Draconic Artifact
+--         2507 -- Dragonscale Expedition
+--     )
+-- }) -- Draconic Artifact
+
+local SpiritOfBlessing = Class('SpiritOfBlessing', ScrollHunter, {
+    id = '{npc:201006}',
+    note = format(L['scroll_hunter_note'], 202668, -- Sealed Spirit Scroll
+    202872, -- Token of Blessing
+    2503 -- Maruuk Centaur
+    )
+}) -- Spirit of Blessing
+
+map.nodes[60515053] = SpiritOfBlessing()
+
+-- local WondrousFish = Class('WondrousFish', ScrollHunter, {
+--     id = '{npc:200958}',
+--     note = format(L['scroll_hunter_note'],
+--         202669, -- Sealed Fish Scroll
+--         202854, -- Wondrous Fish
+--         2511 -- Iskaara Tuskarr
+--     )
+-- }) -- Wondrous Fish
+
+local MysteriousWritings = Class('MysteriousWritings', ScrollHunter, {
+    id = '{item:202870}',
+    note = format(L['scroll_hunter_note'], 202670, -- Sealed Knowledge Scroll
+    202870, -- Mysterious Writings
+    2510 -- Valdrakken Accord
+    )
+}) -- Mysterious Writings
+
+map.nodes[58147167] = MysteriousWritings()
 
 -------------------------------------------------------------------------------
 --------------------------- WHILE WE WERE SLEEPING ----------------------------
@@ -1013,153 +1170,6 @@ map.nodes[55393586] = ScalecommanderItem({
 --     hordeLabel = '{quest:74903}',
 --     rewards = {Achievement({id = 17315, criteria = 8})}
 -- }) -- Sending Stone: The Prisoner
-
--------------------------------------------------------------------------------
--------------------------------- SCROLL HUNTER --------------------------------
--------------------------------------------------------------------------------
-
--- L['scroll_hunter_suffix'] = 'treasures found from Sealed Scrolls'
--- L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal an X on the map which will offer a {item:%s} which provides reputation for {faction:%s}.'
-
--- L['options_icons_scroll_hunter'] = '{achievement:17532}'
--- L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532}.'
-
--- ns.groups.SCROLL_HUNTER = Group('scroll_hunter', 4549192, {
---     defaults = ns.GROUP_HIDDEN,
---     type = ns.group_types.EXPANSION
--- })
-
--- local ScrollHunter = Class('ScrollHunter', Collectible, {
---     icon = 4549192,
---     group = ns.groups.SCROLL_HUNTER,
---     rewards = {
---         Achievement({
---             id = 17532,
---             criteria = {id = 1, qty = true, suffix = L['scroll_hunter_suffix']}
---         }) -- Scroll Hunter
---     }
--- }) -- Scroll Hunter
-
--- local DraconicArtifact = Class('DraconicArtifact', ScrollHunter, {
---     id = '{npc:196127}',
---     note = format(L['scroll_hunter_note'],
---         202667, -- Sealed Artifact Scroll
---         202871, -- Draconic Artifact
---         2507 -- Dragonscale Expedition
---     )
--- }) -- Draconic Artifact
-
--- local SpiritOfBlessing = Class('SpiritOfBlessing', ScrollHunter, {
---     id = '{npc:201006}',
---     note = format(L['scroll_hunter_note'],
---         202668, -- Sealed Spirit Scroll
---         202872, -- Token of Blessing
---         2503 -- Maruuk Centaur
---     )
--- }) -- Spirit of Blessing
-
--- map.nodes[60515053] = SpiritOfBlessing()
-
--- local WondrousFish = Class('WondrousFish', ScrollHunter, {
---     id = '{npc:200958}',
---     note = format(L['scroll_hunter_note'],
---         202669, -- Sealed Fish Scroll
---         202854, -- Wondrous Fish
---         2511 -- Iskaara Tuskarr
---     )
--- }) -- Wondrous Fish
-
--- local MysteriousWritings = Class('MysteriousWritings', ScrollHunter, {
---     id = '{item:202870}',
---     note = format(L['scroll_hunter_note'],
---         202670, -- Sealed Knowledge Scroll
---         202870, -- Mysterious Writings
---         2510 -- Valdrakken Accord
---     )
--- }) -- Mysterious Writings
-
--- map.nodes[58147167] = MysteriousWritings()
-
--------------------------------------------------------------------------------
--------------------------------- ZSKERA VAULTS --------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[29265268] = Collectible({
-    label = L['zskera_vaults_label'],
-    icon = 4909720,
-    note = L['zskera_vaults_note'],
-    group = ns.groups.ZSKERA_VAULTS,
-    requires = {
-        ns.requirement.Quest(73160), -- Helping Hand and Claw
-        ns.requirement.Quest(73159) -- Exploring Our Past
-    },
-    areaPOI = 7414,
-    rewards = {
-        Achievement({id = 17509}), -- Every Door, Everywhere, All At Once
-        Achievement({
-            id = 17413,
-            criteria = {id = 1, qty = true, suffix = L['door_buster_suffix']}
-        }), -- Door Buster
-        Pet({item = 193851, id = 3332}), -- Patos
-        Pet({item = 193908, id = 3338}), -- Kobaldt
-        Pet({item = 204079, id = 3476}), -- Gilded Mechafrog
-        Spacer(), Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
-        Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
-        Toy({item = 204262}), -- Holoviewer: The timeless One
-        Toy({item = 203852}), -- Spore-Bound Essence
-        Toy({item = 204687}), -- Obsidian Battle Horn
-        Spacer(), Achievement({
-            id = 17530,
-            criteria = 58507 -- The Old Gods and the Ordering of Azeroth (Annotated)
-        }), -- Librarian of the Reach
-        Achievement({
-            id = 17315,
-            criteria = {
-                1, -- Journal Entry: The Creches
-                4 -- Journal Entry: Silence
-            }
-        }) -- While We Were Sleeping
-    }
-}) -- Zskera Vaults
-
----------------------- RATCIPE: DEVIOUSLY DEVILVED EGGS -----------------------
-
-local RecipeRat = Class('RecipeRat', Node, {
-    label = '{npc:202982}',
-    location = L['in_zskera_vaults'],
-    icon = 4509424,
-    group = ns.groups.ZSKERA_VAULTS,
-    rewards = {
-        Item({item = 204073}) -- Ratcipe: Deviously Deviled Eggs
-    }
-}) -- Recipe Rat
-
-function RecipeRat.getters:note()
-    local function status(id, itemsNeed, itemsNeedString)
-        local itemsHave = GetItemCount(id, true);
-        if ns.PlayerHasItem(id, itemsNeed) then
-            return ns.status.Green(itemsHave .. '/' .. itemsNeedString)
-        else
-            return ns.status.Red(itemsHave .. '/' .. itemsNeedString)
-        end
-    end
-
-    local function getString(id)
-        local s = '??????'
-        return s:sub(1, #tostring(GetItemCount(id))) -- 1/? or 26/?? or 159/???
-    end
-
-    local note = L['recipe_rat_note_1'] .. '\n\n'
-    note = note .. status(202252, 1, '1') .. ' ' .. L['recipe_rat_note_2'] ..
-               '\n\n'
-    note = note .. status(204340, 30, '30') .. ' ' .. L['recipe_rat_note_3'] ..
-               '\n\n'
-    note = note .. status(3927, 1, getString(3927)) .. ' ' ..
-               L['recipe_rat_note_4']
-    return note
-end
-
-map.nodes[30185303] = RecipeRat()
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

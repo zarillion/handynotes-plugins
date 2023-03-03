@@ -261,7 +261,7 @@ L['volatile_brazier'] = 'Brasero volatil'
 L['raw_argali_pelts'] = 'Toisons d\'argali brutes'
 L['awakened_soil_label'] = 'Sol éveillé'
 L['empty_crab_trap'] = 'Casier à crabes vide'
--- L['damaged_buzzspire'] = nil
+L['damaged_buzzspire'] = nil
 
 L['artisan_curio_note'] = 'Les joueurs ayant le métier %s (à 50) peuvent acheter {item:%s} à la {npc:202445} au {location:Village de Morqut} pour 10 {item:190456}.'
 L['options_icons_artisan_curio'] = 'Bibelots d\'Artisanat'
@@ -272,6 +272,7 @@ L['confiscated_journal_label'] = 'Journal confisqué'
 L['farscale_manifesto_label'] = 'Manifeste longuécaille'
 L['lost_expeditions_notes_label'] = 'Notes d\'expédition'
 L['vrykul_tome_label'] = 'Tome vrykule'
+L['pirate_proclamation_label'] = nil
 
 L['library_note'] = 'Ouvrez l\'objet {object:%s} et récupérez le livre {item:%s}.'
 
@@ -299,6 +300,14 @@ L['options_icons_froststone_vault_storm_desc'] = 'Afficher les emplacements et l
 
 L['spellsworn_gateway'] = 'Porte sorcelige'
 L['gemstone_of_return'] = 'Gemme de retour'
+
+L['mm_start_note'] = nil
+L['mm_status_note'] = nil
+
+L['scroll_hunter_suffix'] = nil
+L['scroll_hunter_note'] = nil
+L['options_icons_scroll_hunter'] = '{achievement:17532}'
+L['options_icons_scroll_hunter_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

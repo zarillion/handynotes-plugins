@@ -260,7 +260,7 @@ L['volatile_brazier'] = 'Volatile Brazier'
 L['raw_argali_pelts'] = 'Raw Argali Pelts'
 L['awakened_soil_label'] = 'Awakened Soil'
 L['empty_crab_trap'] = 'Empty Crab Trap'
--- L['damaged_buzzspire'] = 'Damaged Buzzspire 505' -- Datamined from Wowhead. Not discovered in-game yet.
+L['damaged_buzzspire'] = 'Damaged Buzzspire 505' -- Datamined from Wowhead. Not discovered in-game yet.
 
 L['artisan_curio_note'] = 'Players with %s (50) can purchase {item:%s} from {npc:202445} at {location:Morqut Village} for 10 {item:190456}.'
 L['options_icons_artisan_curio'] = 'Artisan Curio'
@@ -271,6 +271,7 @@ L['confiscated_journal_label'] = 'Confiscated Journal'
 L['farscale_manifesto_label'] = 'Farscale Manifesto'
 L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
 L['vrykul_tome_label'] = 'Vrykul Tome'
+L['pirate_proclamation_label'] = 'Pirate Proclamation'
 
 L['library_note'] = 'Open the {object:%s} and loot the {item:%s}.'
 
@@ -298,6 +299,14 @@ L['options_icons_froststone_vault_storm_desc'] = 'Display location and rewards f
 
 L['spellsworn_gateway'] = 'Spellsworn Gateway'
 L['gemstone_of_return'] = 'Gemstone of Return'
+
+L['mm_start_note'] = 'Collect and combine various items found within {location:Zskera Vaults}.'
+L['mm_status_note'] = 'Combine the following items:\n{item:%s}\n{item:%s}'
+
+L['scroll_hunter_suffix'] = 'treasures found from Sealed Scrolls'
+L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal an X on the map which will offer a {item:%s} which provides reputation for {faction:%s}.'
+L['options_icons_scroll_hunter'] = '{achievement:17532}'
+L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

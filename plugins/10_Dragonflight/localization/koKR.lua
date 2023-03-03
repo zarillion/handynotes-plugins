@@ -249,7 +249,7 @@ L['volatile_brazier'] = nil
 L['raw_argali_pelts'] = nil
 L['awakened_soil_label'] = nil
 L['empty_crab_trap'] = nil
--- L['damaged_buzzspire'] = nil
+L['damaged_buzzspire'] = nil
 
 L['artisan_curio_note'] = nil
 L['options_icons_artisan_curio'] = nil
@@ -260,6 +260,7 @@ L['confiscated_journal_label'] = nil
 L['farscale_manifesto_label'] = nil
 L['lost_expeditions_notes_label'] = nil
 L['vrykul_tome_label'] = nil
+L['pirate_proclamation_label'] = nil
 
 L['library_note'] = nil
 
@@ -287,6 +288,14 @@ L['options_icons_froststone_vault_storm_desc'] = nil
 
 L['spellsworn_gateway'] = nil
 L['gemstone_of_return'] = nil
+
+L['mm_start_note'] = nil
+L['mm_status_note'] = nil
+
+L['scroll_hunter_suffix'] = nil
+L['scroll_hunter_note'] = nil
+L['options_icons_scroll_hunter'] = '{achievement:17532}'
+L['options_icons_scroll_hunter_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
