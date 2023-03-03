@@ -248,6 +248,7 @@ L['options_icons_small_treasures'] = 'Small Treasures' -- 'Tesoros Pequeños'
 L['options_icons_small_treasures_desc'] = 'Display possible locations for small treasures.' -- 'Muestra dónde pueden haber tesoros pequeños.'
 
 L['storm_bound_chest_label'] = 'Storm-Bound Chest'
+
 L['book_of_arcane_entities_label'] = 'Book of Arcane Entities'
 L['tuskarr_kite_post_label'] = 'Tuskarr Kite Post'
 L['farescale_shrine_label'] = 'Farscale Shrine'
