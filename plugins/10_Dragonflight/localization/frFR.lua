@@ -272,7 +272,7 @@ L['confiscated_journal_label'] = 'Journal confisqué'
 L['farscale_manifesto_label'] = 'Manifeste longuécaille'
 L['lost_expeditions_notes_label'] = 'Notes d\'expédition'
 L['vrykul_tome_label'] = 'Tome vrykule'
-L['pirate_proclamation_label'] = nil
+L['pirate_proclamation_label'] = 'Proclamation pirate'
 
 L['library_note'] = 'Ouvrez l\'objet {object:%s} et récupérez le livre {item:%s}.'
 
@@ -301,13 +301,13 @@ L['options_icons_froststone_vault_storm_desc'] = 'Afficher les emplacements et l
 L['spellsworn_gateway'] = 'Porte sorcelige'
 L['gemstone_of_return'] = 'Gemme de retour'
 
-L['mm_start_note'] = nil
-L['mm_status_note'] = nil
+L['mm_start_note'] = 'Récupérez et combinez divers objets trouvés dans les {location:Caveaux de Zskera}.'
+L['mm_status_note'] = 'Combinez les objets suivants :\n{item:%s}\n{item:%s}'
 
-L['scroll_hunter_suffix'] = nil
-L['scroll_hunter_note'] = nil
+L['scroll_hunter_suffix'] = 'trésors trouvés à partir des Parchemins Scellés'
+L['scroll_hunter_note'] = 'Récupérez des parchemins scellés sur divers rares et trésors aux {location:Confins Interdits}.\n\nLe fait d\'ouvrir un {item:%s} fera apparaître un X sur la carte qui donnera l\'objet {item:%s} conférant de la réputation avec la faction {faction:%s}.'
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
-L['options_icons_scroll_hunter_desc'] = nil
+L['options_icons_scroll_hunter_desc'] = 'Afficher les emplacements des récompenses des parchemins pour le haut-fait {achievement:17532}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
