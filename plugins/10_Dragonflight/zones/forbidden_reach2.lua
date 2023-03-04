@@ -865,6 +865,7 @@ map.nodes[17935425] = SMALLTREASURE
 map.nodes[29704826] = SMALLTREASURE
 map.nodes[33124319] = SMALLTREASURE
 map.nodes[35731741] = SMALLTREASURE
+map.nodes[37922169] = SMALLTREASURE
 map.nodes[36867659] = SMALLTREASURE
 map.nodes[36904654] = SMALLTREASURE
 map.nodes[39056332] = SMALLTREASURE
@@ -918,6 +919,7 @@ froststoneVault.nodes[56505366] = SMALLTREASURE
 froststoneVault.nodes[66112156] = SMALLTREASURE
 
 dragonskullIsland.nodes[42454551] = SMALLTREASURE
+dragonskullIsland.nodes[51466065] = SMALLTREASURE
 dragonskullIsland.nodes[69933512] = SMALLTREASURE
 
 -------------------------------------------------------------------------------
