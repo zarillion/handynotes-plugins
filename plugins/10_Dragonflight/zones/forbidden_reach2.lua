@@ -328,18 +328,18 @@ dragonskullIsland.nodes[56947247] = ProfessionRare({
     }
 }) -- Tectonus
 
--- map.nodes[] = ProfessionRare({
---     id = 200620,
---     quest = nil,
---     profession = ENGINEERING,
---     summoningItem = 203411, -- Gnomish Voicebox
---     summoningObject = L['pr_damaged_buzzspire'], -- Damaged Buzzspire 505
---     summoningReagent = 203402, -- Broken Gnomish Voicebox
---     summoningRecipe = 203424, -- Schematic: Gnomish Voicebox
---     rewards = {
---         Achievement({id = 17525, criteria = 58475}), -- Champion of the Forbidden Reach
---     }
--- }) -- Sir Pinchalot
+map.nodes[44307464] = ProfessionRare({
+    id = 200620,
+    quest = nil,
+    profession = ENGINEERING,
+    summoningItem = 203411, -- Gnomish Voicebox
+    summoningObject = L['pr_damaged_buzzspire'], -- Damaged Buzzspire 505
+    summoningReagent = 203402, -- Broken Gnomish Voicebox
+    summoningRecipe = 203424, -- Schematic: Gnomish Voicebox
+    rewards = {
+        Achievement({id = 17525, criteria = 58475}), -- Champion of the Forbidden Reach
+    }
+}) -- Sir Pinchalot
 
 local Manathema = Class('Manathema', ProfessionRare, {
     id = 200621,
