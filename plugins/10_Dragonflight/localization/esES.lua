@@ -237,10 +237,10 @@ L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}.' --
 L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {spell:132653} and will run away when attacked.\n\n{note:Kill him quickly before he finishes casting {spell:406141}.}' -- 'El {npc:203353} aparece con {spell:406143} y en {spell:132653}. Huirá en cuanto sea atacado.\n\n{note:Mátalo rápidamente antes de que acabe de lanzar {spell:406141}.}'
 
 -- Profession Rares
-L['profession_required'] = nil
-L['pr_crafting_note'] = nil
-L['pr_gathering_note'] = nil
-L['pr_recipe_note'] = nil
+L['profession_required'] = '{note:Requires a player with the %s profession.}' -- '{note:Requiere un jugador con la profesi
+L['pr_crafting_note'] = 'Craft {item:%s} with {item:%s} and interact with {object:%s} to summon the rare.'
+L['pr_gathering_note'] = 'Use {item:%s} to interact with {object:%s} to summon the rare.'
+L['pr_recipe_note'] = 'The recipe {item:%s} can be purchased from {npc:202445} for 10 {item:190456}.'
 
 L['pr_awakened_soil'] = 'Awakened Soil'
 L['pr_book_of_arcane_entities'] = 'Book of Arcane Entities'
@@ -281,7 +281,6 @@ L['options_icons_small_treasures'] = 'Small Treasures' -- 'Tesoros Pequeños'
 L['options_icons_small_treasures_desc'] = 'Display possible locations for small treasures.' -- 'Muestra dónde pueden haber tesoros pequeños.'
 
 -- Zskera Vaults
-
 L['zskera_vaults_label'] = 'Zskera Vaults'
 L['zskera_vaults_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vaults}.'
 L['door_buster_suffix'] = 'Doors unlocked using Zskera Vault keys'
