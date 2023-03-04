@@ -288,7 +288,7 @@ ns.professions = {
 local ProfessionRare = Class('ProfessionRare', Rare) -- Profession Rare
 
 function ProfessionRare.getters:sublabel()
-    local profession = ns.professions[self.profession]
+    local profession = self.profession
     local name = C_TradeSkillUI.GetTradeSkillDisplayName(profession.skillID)
     return format(L['profession_required'], name)
 end
@@ -300,7 +300,7 @@ end
 function ProfessionRare.getters:note()
     local item = self.summoningItem
     local object = self.summoningObject
-    if self.summoningRecipe then
+    if self.summoningReagent and self.summoningRecipe then
         local reagent = self.summoningReagent
         local recipe = self.summoningRecipe
         local note = format(L['pr_crafting_note'], item, reagent, object)
@@ -311,7 +311,7 @@ function ProfessionRare.getters:note()
 end
 
 function ProfessionRare.getters:rlabel()
-    local profession = ns.professions[self.profession]
+    local profession = self.profession
     return ns.GetIconLink(profession.icon, 13)
 end
 
@@ -381,7 +381,7 @@ local TuskarrKitePost = Class('TuskarrKitePost', ProfessionRare, {
     profession = ns.professions.TAILORING,
     summoningItem = 203415, -- Morqut Kite
     summoningObject = L['pr_tuskarr_kite_post'], -- Tuskarr Kite Post
-    summooningReagent = 203415, -- Morqut Kite
+    summoningReagent = 203406, -- Torn Morqut Kite
     summoningRecipe = 203428, -- Pattern: Morqut Kite
     fgroup = 'fgroup_gareed',
     rewards = {
