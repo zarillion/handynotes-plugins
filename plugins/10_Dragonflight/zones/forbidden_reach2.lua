@@ -1075,7 +1075,7 @@ local ScrollHunter = Class('ScrollHunter', Collectible, {
 }) -- Scroll Hunter
 
 -- local DraconicArtifact = Class('DraconicArtifact', ScrollHunter, {
---     id = '{npc:196127}',
+--     label = '{npc:196127}',
 --     note = format(L['scroll_hunter_note'],
 --         202667, -- Sealed Artifact Scroll
 --         202871, -- Draconic Artifact
@@ -1084,7 +1084,7 @@ local ScrollHunter = Class('ScrollHunter', Collectible, {
 -- }) -- Draconic Artifact
 
 local SpiritOfBlessing = Class('SpiritOfBlessing', ScrollHunter, {
-    id = '{npc:201006}',
+    label = '{npc:201006}',
     note = format(L['scroll_hunter_note'], 202668, -- Sealed Spirit Scroll
     202872, -- Token of Blessing
     2503 -- Maruuk Centaur
@@ -1094,7 +1094,7 @@ local SpiritOfBlessing = Class('SpiritOfBlessing', ScrollHunter, {
 map.nodes[60515053] = SpiritOfBlessing()
 
 -- local WondrousFish = Class('WondrousFish', ScrollHunter, {
---     id = '{npc:200958}',
+--     label = '{npc:200958}',
 --     note = format(L['scroll_hunter_note'],
 --         202669, -- Sealed Fish Scroll
 --         202854, -- Wondrous Fish
@@ -1103,7 +1103,7 @@ map.nodes[60515053] = SpiritOfBlessing()
 -- }) -- Wondrous Fish
 
 local MysteriousWritings = Class('MysteriousWritings', ScrollHunter, {
-    id = '{item:202870}',
+    label = '{item:202870}',
     note = format(L['scroll_hunter_note'], 202670, -- Sealed Knowledge Scroll
     202870, -- Mysterious Writings
     2510 -- Valdrakken Accord
