@@ -244,7 +244,7 @@ L['pr_recipe_note'] = 'La recette {item:%s} peut être achetée à la {npc:20244
 
 L['pr_awakened_soil'] = 'Sol éveillé'
 L['pr_book_of_arcane_entities'] = 'Livre des entités arcaniques'
-L['pr_damaged_buzzspire'] = nil
+L['pr_damaged_buzzspire'] = 'Bigodule 505 endommagé'
 L['pr_empty_crab_trap'] = 'Casier à crabes vide'
 L['pr_farescale_shrine'] = 'Sanctuaire Longuécaille'
 L['pr_raw_argali_pelts'] = 'Toisons d\'argali brutes'
