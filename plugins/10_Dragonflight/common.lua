@@ -215,7 +215,7 @@ ns.groups.SCALECOMMANDER_ITEM = Group('scalecommander_item', 134422, {
 
 ns.groups.SCROLL_HUNTER = Group('scroll_hunter', 4549192, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION,
+    type = ns.group_types.ACHIEVEMENT,
     achievement = 17532
 })
 
