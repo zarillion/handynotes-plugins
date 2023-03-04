@@ -213,6 +213,7 @@ L['mysterious_wand_note'] = 'Hebe den {object:Kristallschlüssel} auf und platzi
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
+-- Locations
 L['in_dragonskull_island'] = nil
 L['in_froststone_vault'] = nil
 L['in_the_high_creche'] = 'Im {location:Hohen Hort}'
@@ -222,59 +223,56 @@ L['in_the_support_creche'] = nil
 L['in_the_war_creche'] = 'Tief im {location:Kriegshort}'
 L['in_zskera_vaults'] = nil
 
+-- Rares
 L['duzalgor_note'] = 'Sammel eine Flasche {spell:400751}({dot:Green}) um dich von den giftigen Gasen in der Höhle zu heilen.'
 L['mad_eye_carrey_note'] = '{npc:201181} ist in einer Gruppe mit {npc:201184} und {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} ist mit {npc:201310} verbunden.'
-
 L['loot_specialist_note'] = nil
 
+-- Profession Rares
+L['profession_required'] = nil
+L['pr_crafting_note'] = nil
+L['pr_gathering_note'] = nil
+L['pr_recipe_note'] = nil
+
+L['pr_awakened_soil'] = nil
+L['pr_book_of_arcane_entities'] = nil
+L['pr_damaged_buzzspire'] = nil
+L['pr_empty_crab_trap'] = nil
+L['pr_farescale_shrine'] = nil
+L['pr_raw_argali_pelts'] = nil
+L['pr_resonating_crystal'] = nil
+L['pr_rumbling_deposit'] = nil
+L['pr_spellsworn_ward'] = nil
+L['pr_spiceless_stew'] = nil
+L['pr_tuskarr_kite_post'] = nil
+L['pr_tuskarr_tanning_rack'] = nil
+L['pr_volatile_brazier'] = nil
+
+-- Treasures
+L['storm_bound_chest_label'] = nil
+
+-- Forbidden Hard
 L['hoarder_of_the_forbidden_reach_suffix'] = 'kleine Schätze geöffnet.'
 L['forbidden_spoils_suffix'] = nil
-
 L['forbidden_hoard_label'] = 'Verbotener Schatz'
+
 L['options_icons_forbidden_hoard'] = 'Verbotene Schätze'
 L['options_icons_forbidden_hoard_desc'] = 'Zeige mögliche Positionen von {object:Forbidden Verbotener Schatz}.'
 
+-- Froststone Primal Vault Storm
+L['froststone_vault_storm_label'] = 'Ursturm am Froststeingewölbe'
+
+L['options_icons_froststone_vault_storm'] = 'Ursturm am Froststeingewölbe'
+L['options_icons_froststone_vault_storm_desc'] = 'Zeige die Positionen der Belohnungen für {object:Ursturm am Froststeingewölbe}.'
+
+-- Small Treasures
 L['small_treasures_label'] = 'Kleiner Schatz'
 L['small_treasures_note'] = 'An jeder Position können verscheiene Schätze erscheinen.\n\nKaufe {item:204558} von {npc:200566} beim {location:Morqutdorf} um den buff {spell:405637} zu erhalten, dieser erlaubt es dir für 60 Minuten kleine Schätze auf der Minimap zu sehen.'
 L['options_icons_small_treasures'] = 'Kleine Schätze'
 L['options_icons_small_treasures_desc'] = 'Zeige mögliche Positionen von kleinen Schätzen an.'
 
-L['storm_bound_chest_label'] = nil
-
-L['book_of_arcane_entities_label'] = nil
-L['tuskarr_kite_post_label'] = nil
-L['farescale_shrine_label'] = nil
-L['resonating_crystal_label'] = nil
-L['spellsworn_ward_label'] = nil
-L['rumbling_deposit_label'] = nil
-L['spiceless_stew_label'] = nil
-L['tuskarr_tanning_rack'] = nil
-L['volatile_brazier'] = nil
-L['raw_argali_pelts'] = nil
-L['awakened_soil_label'] = nil
-L['empty_crab_trap'] = nil
-L['damaged_buzzspire'] = nil
-
-L['artisan_curio_note'] = 'Spieler mit %s (50) können {item:%s} von {npc:202445} beim {location:Morqutdorf} für 10 {item:190456} kaufen.'
-L['options_icons_artisan_curio'] = nil
-L['options_icons_artisan_curio_desc'] = 'Zeige Orte und Belohnungen für Artisan Curios' -- review
-
-L['spellsworn_missive_label'] = nil
-L['confiscated_journal_label'] = nil
-L['farscale_manifesto_label'] = nil
-L['lost_expeditions_notes_label'] = nil
-L['vrykul_tome_label'] = nil
-L['pirate_proclamation_label'] = nil
-
-L['library_note'] = 'Öffne {object:%s} und erhalte {item:%s}.'
-
-L['options_icons_librarian_of_the_reach'] = nil
-L['options_icons_librarian_of_the_reach_desc'] = 'Zeige die Positionen der Bücher für den Erfolg {achievement:17530}.' -- review
-
-L['options_icons_scalecommander_item'] = nil
-L['options_icons_scalecommander_item_desc'] = 'Zeige die Positionen der Items für den Erfolg {achievement:17315}.' -- review
-
+-- Zskera Vaults
 L['zskera_vaults_label'] = nil
 L['zskera_vaults_note'] = 'Sammle {item:202196} von Seltenen Gegnern und Schätzen um Türen in {location:Zskera Vaults} zu öffnen.'
 L['door_buster_suffix'] = 'Türen können mit {item:202196} aufgesperrt werden'
@@ -284,23 +282,39 @@ L['recipe_rat_note_2'] = nil
 L['recipe_rat_note_3'] = nil
 L['recipe_rat_note_4'] = nil
 
-L['options_icons_zskera_vaults'] = nil
-L['options_icons_zskera_vaults_desc'] = nil
-
-L['froststone_vault_storm_label'] = 'Ursturm am Froststeingewölbe'
-L['options_icons_froststone_vault_storm'] = 'Ursturm am Froststeingewölbe'
-L['options_icons_froststone_vault_storm_desc'] = 'Zeige die Positionen der Belohnungen für {object:Ursturm am Froststeingewölbe}.'
-
-L['spellsworn_gateway'] = 'Tor der Zauberverschworenen'
-L['gemstone_of_return'] = nil
-
 L['mm_start_note'] = nil
 L['mm_status_note'] = nil
 
+L['options_icons_zskera_vaults'] = nil
+L['options_icons_zskera_vaults_desc'] = nil
+
+-- Librarian of the Reach
+L['confiscated_journal_label'] = nil
+L['farscale_manifesto_label'] = nil
+L['lost_expeditions_notes_label'] = nil
+L['pirate_proclamation_label'] = nil
+L['spellsworn_missive_label'] = nil
+L['vrykul_tome_label'] = nil
+
+L['library_note'] = 'Öffne {object:%s} und erhalte {item:%s}.'
+
+L['options_icons_librarian_of_the_reach'] = nil
+L['options_icons_librarian_of_the_reach_desc'] = 'Zeige die Positionen der Bücher für den Erfolg {achievement:17530}.' -- review
+
+-- Scroll Hunter
 L['scroll_hunter_suffix'] = nil
 L['scroll_hunter_note'] = nil
+
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
 L['options_icons_scroll_hunter_desc'] = nil
+
+-- While We Were Sleeping
+L['options_icons_scalecommander_item'] = nil
+L['options_icons_scalecommander_item_desc'] = 'Zeige die Positionen der Items für den Erfolg {achievement:17315}.' -- review
+
+-- Misc
+L['spellsworn_gateway'] = 'Tor der Zauberverschworenen'
+L['gemstone_of_return'] = nil
 
 L['morqut_village_vendor_note'] = nil
 

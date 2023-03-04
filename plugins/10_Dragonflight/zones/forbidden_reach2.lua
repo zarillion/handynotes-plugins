@@ -234,6 +234,8 @@ siegeCreche.nodes[58993931] = Rare({
     }
 }) -- Volcanakk
 
+-------------------------------------------------------------------------------
+
 local LootSpecialist = Class('LootSpecialist', Rare, {
     id = 203353,
     quest = nil,
@@ -256,6 +258,263 @@ dragonskullIsland.nodes[28984051] = LootSpecialist({
     location = L['in_dragonskull_island'],
     parent = map.id
 })
+
+------------------------------ PROFESSION RARES  ------------------------------
+
+-- TODO: The only confirmed profession rare is amphyst. All of the others are
+-- just guesses and assumptions but I needed somewhere to store the data.
+--
+-- Eventually we should move/merge ns.professions into common.lua below the
+-- PROFESSION TREASURES header
+
+-- LuaFormatter off
+ns.professions = {
+    ALCHEMY = {name = 'Alchemy', icon = 4620669, skillID = 171, variantID = 2823},
+    BLACKSMITHING = {name = 'Blacksmithing', icon = 4620670, skillID = 164, variantID = 2822},
+    COOKING = {name = 'Cooking', icon = 4620671, skillID = 185, variantID = 2824},
+    ENCHANTING = {name = 'Enchanting', icon = 4620672, skillID = 333, variantID = 2825},
+    ENGINEERING = {name = 'Engineering', icon = 4620673, skillID = 202, variantID = 2827},
+    FISHING = {name = 'Fishing', icon = 4620674, skillID = 356, variantID = 2823},
+    HERBALISM = {name = 'Herbalism', icon = 4620675, skillID = 182, variantID = 2832},
+    INSCRIPTION = {name = 'Inscription', icon = 4620676, skillID = 773, variantID = 2828},
+    JEWELCRAFTING = {name = 'Jewelcrafting', icon = 4620677, skillID = 755, variantID = 2829},
+    LEATHERWORKING = {name = 'Leatherworking', icon = 4620678, skillID = 165, variantID = 2830},
+    MINING = {name = 'Mining', icon = 4620679, skillID = 186, variantID = 2833},
+    SKINNING = {name = 'Skinning', icon = 4620680, skillID = 393, variantID = 2834},
+    TAILORING = {name = 'Tailoring', icon = 4620681, skillID = 197, variantID = 2831}
+}
+-- LuaFormatter on
+
+local ProfessionRare = Class('ProfessionRare', Rare) -- Profession Rare
+
+function ProfessionRare.getters:sublabel()
+    local profession = ns.professions[self.profession]
+    local name = C_TradeSkillUI.GetTradeSkillDisplayName(profession.skillID)
+    return format(L['profession_required'], name)
+end
+
+function ProfessionRare.getters:requires()
+    return ns.requirement.Item(self.summoningItem)
+end
+
+function ProfessionRare.getters:note()
+    local item = self.summoningItem
+    local object = self.summoningObject
+    if self.summoningRecipe then
+        local reagent = self.summoningReagent
+        local recipe = self.summoningRecipe
+        local note = format(L['pr_crafting_note'], item, reagent, object)
+        return note .. '\n\n' .. format(L['pr_recipe_note'], recipe)
+    else
+        return format(L['pr_gathering_note'], item, object)
+    end
+end
+
+function ProfessionRare.getters:rlabel()
+    local profession = ns.professions[self.profession]
+    return ns.GetIconLink(profession.icon, 13)
+end
+
+dragonskullIsland.nodes[56947247] = ProfessionRare({
+    id = 200619,
+    quest = nil,
+    profession = ns.professions.MINING,
+    summoningItem = 203418, -- Amplified Quaking Stone
+    summoningObject = L['pr_rumbling_deposit'], -- Rumbling Deposit
+    location = L['in_dragonskull_island'],
+    parent = map.id,
+    rewards = {
+        Achievement({id = 17525, criteria = 58474}) -- Champion of the Forbidden Reach
+    }
+}) -- Tectonus
+
+-- map.nodes[] = ProfessionRare({
+--     id = 200620,
+--     quest = nil,
+--     profession = ENGINEERING,
+--     summoningItem = 203411, -- Gnomish Voicebox
+--     summoningObject = L['pr_damaged_buzzspire'], -- Damaged Buzzspire 505
+--     summoningReagent = 203402, -- Broken Gnomish Voicebox
+--     summoningRecipe = 203424, -- Schematic: Gnomish Voicebox
+--     rewards = {
+--         Achievement({id = 17525, criteria = 58475}), -- Champion of the Forbidden Reach
+--     }
+-- }) -- Sir Pinchalot
+
+local Manathema = Class('Manathema', ProfessionRare, {
+    id = 200621,
+    quest = nil,
+    profession = ns.professions.INSCRIPTION,
+    summoningItem = 203412, -- Dispelling Rune
+    summoningObject = L['pr_spellsworn_ward'], -- Spellsword Ward
+    summoningReagent = 203403, -- Hastily Scrawled Rune
+    summoningRecipe = 203425, -- Technique: Dispellng Rune
+    fgroup = 'fgroup_manathema',
+    rewards = {
+        Achievement({id = 17525, criteria = 58476}) -- Champion of the Forbidden Reach
+    }
+}) -- Manathema
+
+map.nodes[49264172] = Manathema()
+map.nodes[61256442] = Manathema()
+
+local Snarfang = Class('Snarfang', ProfessionRare, {
+    id = 200622,
+    quest = nil,
+    profession = ns.professions.LEATHERWORKING,
+    summoningItem = 203414, -- Reinforced Pristine Leather
+    summoningObject = L['pr_tuskarr_tanning_rack'], -- Tuskarr Tanning Rack
+    summoningReagent = 203405, -- Pristine Pelt
+    summoningRecipe = 203427, -- Pattern: Reinforced Pristine Leather
+    fgroup = 'fgroup_snarfang',
+    rewards = {
+        Achievement({id = 17525, criteria = 58477}) -- Champion of the Forbidden Reach
+    }
+}) -- Snarfang
+
+map.nodes[37124708] = Snarfang()
+map.nodes[48734944] = Snarfang()
+
+local TuskarrKitePost = Class('TuskarrKitePost', ProfessionRare, {
+    id = 200722,
+    quest = nil,
+    profession = ns.professions.TAILORING,
+    summoningItem = 203415, -- Morqut Kite
+    summoningObject = L['pr_tuskarr_kite_post'], -- Tuskarr Kite Post
+    summooningReagent = 203415, -- Morqut Kite
+    summoningRecipe = 203428, -- Pattern: Morqut Kite
+    fgroup = 'fgroup_gareed',
+    rewards = {
+        Achievement({id = 17525, criteria = 58478}) -- Champion of the Forbidden Reach
+    }
+}) -- Gareed
+
+map.nodes[31195341] = TuskarrKitePost()
+map.nodes[57634843] = TuskarrKitePost()
+map.nodes[60309155] = TuskarrKitePost()
+
+local Faunos = Class('Faunos', ProfessionRare, {
+    id = 200725,
+    quest = nil,
+    profession = ns.professions.SKINNING,
+    summoningItem = 203417, -- Razor-Sharp Animal Bone
+    summoningObject = L['pr_raw_argali_pelts'], -- Raw Argali Pelts
+    fgroup = 'fgroup_faunos',
+    rewards = {
+        Achievement({id = 17525, criteria = 58479}) -- Champion of the Forbidden Reach
+    }
+}) -- Faunos
+
+map.nodes[40488600] = Faunos()
+map.nodes[44993658] = Faunos()
+map.nodes[50498602] = Faunos()
+map.nodes[70664614] = Faunos()
+
+map.nodes[67237599] = ProfessionRare({
+    id = 200730,
+    quest = nil,
+    profession = ns.professions.BLACKSMITHING,
+    summoningItem = 203408, -- Ceremonial Trident
+    summoningObject = L['pr_farescale_shrine'], -- Farscale Shrine
+    summoningReagent = 203399, -- Damaged Trident
+    summoningRecipe = 203421, -- Plans: Ceremonial Trident
+    rewards = {
+        Achievement({id = 17525, criteria = 58480}) -- Champion of the Forbidden Reach
+    }
+}) -- Tidesmith Zarviss
+
+warCreche.nodes[31308084] = ProfessionRare({
+    id = 200737,
+    quest = nil,
+    profession = ns.professions.ENCHANTING,
+    summoningItem = 203410, -- Glowing Crystal Bookmark
+    summoningObject = L['pr_book_of_arcane_entities'], -- Book of Arcane Entities
+    summoningReagent = 203401, -- Dull Crystal
+    summoningRecipe = 203423, -- Formula: Glowing Crystal Bookmark
+    location = L['in_the_war_creche'],
+    parent = map.id,
+    rewards = {
+        Achievement({id = 17525, criteria = 58481}) -- Champion of the Forbidden Reach
+    }
+}) -- Arcantrix
+
+local Kangalo = Class('Kangalo', ProfessionRare, {
+    id = 200738,
+    quest = nil,
+    profession = ns.professions.HERBALISM,
+    summoningItem = 203416, -- Dormant Lifebloom Seeds
+    summoningObject = L['pr_awakened_soil'], -- Awakened Soil
+    fgroup = 'fgroup_kanalo',
+    rewards = {
+        Achievement({id = 17525, criteria = 58482}) -- Champion of the Forbidden Reach
+    }
+}) -- Kangalo
+
+map.nodes[35354003] = Kangalo()
+map.nodes[56435911] = Kangalo()
+
+local Fimbul = Class('Fimbul', ProfessionRare, {
+    id = 200739,
+    quest = nil,
+    profession = ns.professions.ALCHEMY,
+    summoningItem = 203407, -- Draconic Suppression Powder
+    summoningObject = L['pr_volatile_brazier'], -- Volatile Brazier
+    summoningReagent = 203398, -- Essence of Dampening
+    summoningRecipe = 203420, -- Recipe: Draconic Suppression Powder
+    fgroup = 'fgroup_fimbul',
+    rewards = {
+        Achievement({id = 17525, criteria = 58483}) -- Champion of the Forbidden Reach
+    }
+}) -- Fimbul
+
+map.nodes[67256157] = Fimbul()
+map.nodes[69755462] = Fimbul()
+
+local AgniBlazehoof = Class('AgniBlazehoof', ProfessionRare, {
+    id = 200740,
+    quest = nil,
+    profession = ns.professions.COOKING,
+    summoningItem = 203409, -- Sparkling Spice Pouch
+    summoningObject = L['pr_spiceless_stew'], -- Spiceless Stew
+    summoningReagent = 203400, -- Lackluster Spices
+    summoningRecipe = 203422, -- Recipe: Sparkling Spice Pouch
+    fgroup = 'fgroup_agniblazehoof',
+    rewards = {
+        Achievement({id = 17525, criteria = 58484}) -- Champion of the Forbidden Reach
+    }
+}) -- Agni Blazehoof
+
+map.nodes[40295336] = AgniBlazehoof()
+map.nodes[54494599] = AgniBlazehoof()
+map.nodes[55695154] = AgniBlazehoof()
+
+map.nodes[23066700] = ProfessionRare({
+    id = 200742,
+    quest = nil,
+    profession = ns.professions.FISHING,
+    summoningItem = 203419, -- Elusive Croaking Crab
+    summoningObject = L['pr_empty_crab_trap'], -- Empty Crab Trap
+    rewards = {
+        Achievement({id = 17525, criteria = 58485}) -- Champion of the Forbidden Reach
+    }
+}) -- Luttrok
+
+map.nodes[28905707] = ProfessionRare({
+    id = 200743,
+    quest = nil,
+    profession = ns.professions.JEWELCRAFTING,
+    summoningItem = 203413, -- Tuning Fork
+    summoningObject = L['pr_resonating_crystal'], -- Resonating Crystal
+    summoningReagent = 203404, -- Crystal Fork
+    summoningRecipe = 203426, -- Design: Tuning Fork
+    location = L['in_small_cave'],
+    rewards = {
+        Achievement({id = 17525, criteria = 58486}) -- Champion of the Forbidden Reach
+    },
+    pois = {
+        POI({30496101}) -- Entrance
+    }
+}) -- Amephyst
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -294,188 +553,6 @@ map.nodes[89366022] = PetBattle({
     id = 200772,
     rewards = {Achievement({id = 17541, criteria = 58575})} -- Global Swarming
 }) -- Flow
-
--------------------------------------------------------------------------------
-------------------------------- ARTISAN CURIOS --------------------------------
--------------------------------------------------------------------------------
-
-local ArtisanCurio = Class('ArtisanCurio', Collectible,
-    {group = ns.groups.ARTISAN_CURIO}) -- Artisan Curio
-
-function ArtisanCurio.getters:note()
-    if self.skillID and self.recipeID then
-        local profession = C_TradeSkillUI.GetTradeSkillDisplayName(self.skillID)
-        local recipeID = self.recipeID
-        return format(L['artisan_curio_note'], profession, recipeID)
-    end
-end
-
-local VolatileBrazier = Class('VolatileBrazier', ArtisanCurio, {
-    label = L['volatile_brazier'],
-    icon = 650638,
-    fgroup = 'volatile_brazier',
-    requires = {
-        ns.requirement.Item(203398), -- Essance of Dampening
-        ns.requirement.Item(203407) -- Draconic Suppression Powder
-    },
-    skillID = 171, -- Alchemy
-    recipeID = 203420 -- Recipe: Draconic Suppression Powder
-}) -- Volatile Brazier
-
-map.nodes[67256157] = VolatileBrazier()
-map.nodes[69755462] = VolatileBrazier()
-
-map.nodes[67237599] = ArtisanCurio({
-    label = L['farescale_shrine_label'],
-    icon = 2735993,
-    requires = {
-        ns.requirement.Item(203399), -- Damaged Trident
-        ns.requirement.Item(203408) -- Ceremonial Trident
-    },
-    skillID = 164, -- Blacksmithing
-    recipeID = 203421 -- Plans: Ceremonial Trident
-}) -- Farscale Shrine
-
-local SpicelessStew = Class('SpicelessStew', ArtisanCurio, {
-    label = L['spiceless_stew_label'],
-    icon = 133210,
-    fgroup = 'spiceless_stew',
-    requires = {
-        ns.requirement.Item(203400), -- Lackluster Spices
-        ns.requirement.Item(203409) -- Sparkling Spice Pouch
-    },
-    skillID = 185, -- Cooking
-    recipeID = 203422 -- Recipe: Sparkling Spice Pouch
-}) -- Spiceless Stew
-
-map.nodes[40295336] = SpicelessStew()
-map.nodes[54494599] = SpicelessStew()
-map.nodes[55695154] = SpicelessStew()
-
-warCreche.nodes[31308084] = ArtisanCurio({
-    label = L['book_of_arcane_entities_label'],
-    location = L['in_the_war_creche'],
-    icon = 1033184,
-    parent = map.id,
-    requires = {
-        ns.requirement.Item(203401), -- Dull Crystal
-        ns.requirement.Item(203410) -- Glowing Crystal Bookmark
-    },
-    skillID = 333, -- Enchanting
-    recipeID = 203423 -- Formula: Glowing Crystal Bookmark
-}) -- Book of Arcane Entities
-
--- map.nodes[] = ArtisanCurio({
---     label = L['damaged_buzzspire'],
---     icon = 2902385,
---     requires = {
---         ns.requirement.Item(203402), -- Broken Gnomish Voicebox
---         ns.requirement.Item(203411) -- Gnomish Voicebox
---     },
---     skillID = 202, -- Engineering
---     recipeID = 203424 -- Schematic: Gnomish Voicebox
--- }) -- Damaged Buzzspire 505
-
-map.nodes[23066700] = ArtisanCurio({
-    label = L['empty_crab_trap'],
-    icon = 2027925,
-    requires = ns.requirement.Item(203419), -- Elusive Croaking Crab
-    skillID = 356 -- Fishing
-}) -- Empty Crab Trap
-
-local AwakenedSoil = Class('AwakenedSoil', ArtisanCurio, {
-    label = L['awakened_soil_label'],
-    icon = 656681,
-    fgroup = 'awakened_soil',
-    requires = ns.requirement.Item(203416), -- Dormant Lifebloom Seeds
-    skillID = 182 -- Herbalism
-}) -- Awakened Soil
-
-map.nodes[35354003] = AwakenedSoil()
-map.nodes[56435911] = AwakenedSoil()
-
-local SpellswornWard = Class('SpellswornWard', ArtisanCurio, {
-    label = L['spellsworn_ward_label'],
-    icon = 4638727,
-    fgroup = 'spellsworn_ward',
-    requires = {
-        ns.requirement.Item(203403), -- Hastily Scrawled Rune
-        ns.requirement.Item(203412) -- Dispelling Rune
-    },
-    skillID = 773, -- Inscription
-    recipeID = 203425 -- Technique: Dispellng Rune
-}) -- Spellsworn Ward
-
-map.nodes[49264172] = SpellswornWard()
-map.nodes[61256442] = SpellswornWard()
-
-map.nodes[28905707] = ArtisanCurio({
-    label = L['resonating_crystal_label'],
-    location = L['in_small_cave'],
-    icon = 2264901,
-    requires = {
-        ns.requirement.Item(203404), -- Crystal Fork
-        ns.requirement.Item(203413) -- Tuning Fork
-    },
-    skillID = 755, -- Jewelcrafting
-    recipeID = 203426, -- Design: Tuning Fork
-    pois = {
-        POI({30496101}) -- Entrance
-    }
-}) -- Resonating Crystal
-
-local TuskarrTanningRack = Class('TuskarrTanningRack', ArtisanCurio, {
-    label = L['tuskarr_tanning_rack'],
-    icon = 4635266,
-    fgroup = 'tuskarr_tanning_rack',
-    requires = {
-        ns.requirement.Item(203405), -- Pristine Pelt
-        ns.requirement.Item(203414) -- Reinforced Pristine Leather
-    },
-    skillID = 165, -- Leatherworking
-    recipeID = 203427 -- Pattern: Reinforced Pristine Leather
-}) -- Tuskarr Tanning Rack
-
-map.nodes[37124708] = TuskarrTanningRack()
-map.nodes[48734944] = TuskarrTanningRack()
-
-dragonskullIsland.nodes[56947247] = ArtisanCurio({
-    label = L['rumbling_deposit_label'],
-    location = L['in_dragonskull_island'],
-    icon = 134463,
-    parent = map.id,
-    requires = ns.requirement.Item(203418), -- Amplified Quaking Stone
-    skillID = 186 -- Mining
-}) -- Rumbling Deposit
-
-local RawArgaliPelts = Class('RawArgaliPelts', ArtisanCurio, {
-    label = L['raw_argali_pelts'],
-    icon = 1029749,
-    fgroup = 'raw_argali_pelts',
-    requires = ns.requirement.Item(203417), -- Razor-Sharp Animal Bone
-    skillID = 393 -- Skinning
-}) -- Raw Argali Pelts
-
-map.nodes[40488600] = RawArgaliPelts()
-map.nodes[44993658] = RawArgaliPelts()
-map.nodes[50498602] = RawArgaliPelts()
-map.nodes[70664614] = RawArgaliPelts()
-
-local TuskarrKitePost = Class('TuskarrKitePost', ArtisanCurio, {
-    label = L['tuskarr_kite_post_label'],
-    icon = 318523,
-    fgroup = 'tuskarr_kite_post',
-    requires = {
-        ns.requirement.Item(203406), -- Torn Morqut Kite
-        ns.requirement.Item(203415) -- Morqut Kite
-    },
-    skillID = 197, -- Tailoring
-    recipeID = 203428 -- Pattern: Morqut Kite
-}) -- Tuskarr Kite Post
-
-map.nodes[31195341] = TuskarrKitePost()
-map.nodes[57634843] = TuskarrKitePost()
-map.nodes[60309155] = TuskarrKitePost()
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

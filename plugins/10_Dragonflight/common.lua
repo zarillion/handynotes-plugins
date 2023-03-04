@@ -27,11 +27,6 @@ ns.expansion = 10
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
-ns.groups.ARTISAN_CURIO = ns.Group('artisan_curio', 134327, {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION
-})
-
 ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 1060570, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION

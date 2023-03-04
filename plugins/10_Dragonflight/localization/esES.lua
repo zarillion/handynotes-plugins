@@ -220,6 +220,7 @@ L['mysterious_wand_note'] = 'Coge la {object:Llave de Cristal} y ponla dentro de
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
+-- Locations
 L['in_dragonskull_island'] = 'Within {location:Dragonskull Island}.'
 L['in_froststone_vault'] = 'Within {location:Froststone Vault}.' -- 'Dentro de {location:La Cámara Petraescarcha}.'
 L['in_the_high_creche'] = 'Within {location:The High Creche}.' -- 'Dentro de {location:El Nido Alto}.'
@@ -229,58 +230,57 @@ L['in_the_support_creche'] = 'Within {location:The Support Creche}.'
 L['in_the_war_creche'] = 'Deep within {location:The War Creche}.' -- 'En las profundidades de {location:El Nido Bélico}.'
 L['in_zskera_vaults'] = 'Within {location:Zskera Vaults}.'
 
+-- Rares
 L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal from the poisonous gas within {location:The Support Creche}.' -- 'Coge un frasco de {spell:400751} ({dot:Green}) para sanarte del gas venenoso de la cueva.'
 L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}.' -- '{npc:201181} está en grupo con la {npc:201184} y la {npc:201182}.'
 L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}.' -- '{npc:201013} está acompañado por {npc:201310}.'
-
 L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {spell:132653} and will run away when attacked.\n\n{note:Kill him quickly before he finishes casting {spell:406141}.}' -- 'El {npc:203353} aparece con {spell:406143} y en {spell:132653}. Huirá en cuanto sea atacado.\n\n{note:Mátalo rápidamente antes de que acabe de lanzar {spell:406141}.}'
 
+-- Profession Rares
+L['profession_required'] = nil
+L['pr_crafting_note'] = nil
+L['pr_gathering_note'] = nil
+L['pr_recipe_note'] = nil
+
+L['pr_awakened_soil'] = 'Awakened Soil'
+L['pr_book_of_arcane_entities'] = 'Book of Arcane Entities'
+L['pr_damaged_buzzspire'] = 'Damaged Buzzspire 505'
+L['pr_empty_crab_trap'] = 'Empty Crab Trap'
+L['pr_farescale_shrine'] = 'Farscale Shrine'
+L['pr_raw_argali_pelts'] = 'Raw Argali Pelts'
+L['pr_resonating_crystal'] = 'Resonating Crystal'
+L['pr_rumbling_deposit'] = 'Rumbling Deposit'
+L['pr_spellsworn_ward'] = 'Spellsworn Ward'
+L['pr_spiceless_stew'] = 'Spiceless Stew'
+L['pr_tuskarr_kite_post'] = 'Tuskarr Kite Post'
+L['pr_tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack'
+L['pr_volatile_brazier'] = 'Volatile Brazier'
+
+-- Treasures
+L['storm_bound_chest_label'] = 'Storm-Bound Chest'
+
+-- Forbidden Hoard
 L['hoarder_of_the_forbidden_reach_suffix'] = 'small treasures opened' -- 'tesoros pequeños abiertos'
 L['forbidden_spoils_suffix'] = 'Forbidden Hoards opened'
-
 L['forbidden_hoard_label'] = 'Forbidden Hoard'
+
 L['options_icons_forbidden_hoard'] = 'Forbidden Hoard'
 L['options_icons_forbidden_hoard_desc'] = 'Display possible locations of {object:Forbidden Hoard} chests.'
 
+-- Froststone Primal Vault Storm
+L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm' -- 'Tormenta Primigenia de La Cámara Petraescarcha'
+
+L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm' -- 'Tormenta Primigenia de La Cámara Petraescarcha'
+L['options_icons_froststone_vault_storm_desc'] = 'Display location and rewards for {object:Froststone Vault Primal Storm}.' -- 'Muestra dónde están y las recompensas de las {object:Tormentas Primigenias de La Cámara Petraescarcha}.'
+
+-- Small Treasures
 L['small_treasures_label'] = 'Small Treasure' -- 'Tesoro Pequeño'
 L['small_treasures_note'] = 'Small treasures are shared between spawn points.\n\nPurchase {item:204558} from {npc:200566} at {location:Morqut Village} to receive the {spell:405637} buff which allows you to see small treasures on the minimap for 60 minutes.' -- 'Los tesoros pequeños comparten los puntos de aparición.\n\nCompra un {item:204558} a la {npc:200566} en la {location:Aldea Morqut} para recibir el buff {spell:405637} que te permite ver los tesoros pequeños en el minimapa durante 60 minutos.'    Revisar que Morqut Village es Aldea Morqut (comprobable buscando Morqut Hearth Totem) y los artículos de item y npc
+
 L['options_icons_small_treasures'] = 'Small Treasures' -- 'Tesoros Pequeños'
 L['options_icons_small_treasures_desc'] = 'Display possible locations for small treasures.' -- 'Muestra dónde pueden haber tesoros pequeños.'
 
-L['storm_bound_chest_label'] = 'Storm-Bound Chest'
-
-L['book_of_arcane_entities_label'] = 'Book of Arcane Entities'
-L['tuskarr_kite_post_label'] = 'Tuskarr Kite Post'
-L['farescale_shrine_label'] = 'Farscale Shrine'
-L['resonating_crystal_label'] = 'Resonating Crystal'
-L['spellsworn_ward_label'] = 'Spellsworn Ward'
-L['rumbling_deposit_label'] = 'Rumbling Deposit'
-L['spiceless_stew_label'] = 'Spiceless Stew'
-L['tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack'
-L['volatile_brazier'] = 'Volatile Brazier'
-L['raw_argali_pelts'] = 'Raw Argali Pelts'
-L['awakened_soil_label'] = 'Awakened Soil'
-L['empty_crab_trap'] = 'Empty Crab Trap'
-L['damaged_buzzspire'] = 'Damaged Buzzspire 505' -- Datamined from Wowhead. Not discovered in-game yet.
-
-L['artisan_curio_note'] = 'Players with %s (50) can purchase {item:%s} from {npc:202445} at {location:Morqut Village} for 10 {item:190456}.'
-L['options_icons_artisan_curio'] = 'Artisan Curio'
-L['options_icons_artisan_curio_desc'] = 'Display locations and rewards for Artisan Curios.'
-
-L['spellsworn_missive_label'] = 'Spellsworn Missive'
-L['confiscated_journal_label'] = 'Confiscated Journal'
-L['farscale_manifesto_label'] = 'Farscale Manifesto'
-L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
-L['vrykul_tome_label'] = 'Vrykul Tome'
-L['pirate_proclamation_label'] = 'Pirate Proclamation'
-
-L['library_note'] = 'Open the {object:%s} and loot the {item:%s}.'
-
-L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
-L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}. {note:Some books are in {location:Zskera Vaults}}.' -- 'Muestra dónde están los libros para el logro {achievement:17530}. {note:Algunos libros están en {location:Zskera Vaults}}.'
-
-L['options_icons_scalecommander_item'] = '{achievement:17315}'
-L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achievement:17315}. {note:Some item are in {location:Zskera Vaults}}.' -- 'Muestra dónde están los objetos para el logro {achievement:17315}. {note:Algunos objetos están en {location:Zskera Vaults}}.'
+-- Zskera Vaults
 
 L['zskera_vaults_label'] = 'Zskera Vaults'
 L['zskera_vaults_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vaults}.'
@@ -291,23 +291,39 @@ L['recipe_rat_note_2'] = 'Interact with {item:202252} to receive {item:204340}. 
 L['recipe_rat_note_3'] = 'Once you have 30x {item:204340} combine the scraps to receive the recipe.'
 L['recipe_rat_note_4'] = '{note:This rat loves cheese and will consume one {item:3927} roughly every three minutes. Plan accordingly!}' -- '{note:A esta rata le encanta el queso y consumirá un {item:3927} aproximadamente cada tres minutos. ¡Planifica en consecuencia!}'
 
-L['options_icons_zskera_vaults'] = 'Zskera Vaults'
-L['options_icons_zskera_vaults_desc'] = 'Display rewards for {location:Zskera Vaults}.' -- 'Muestra las recompensas de {location:Zskera Vaults}.'
-
-L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm' -- 'Tormenta Primigenia de La Cámara Petraescarcha'
-L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm' -- 'Tormenta Primigenia de La Cámara Petraescarcha'
-L['options_icons_froststone_vault_storm_desc'] = 'Display location and rewards for {object:Froststone Vault Primal Storm}.' -- 'Muestra dónde están y las recompensas de las {object:Tormentas Primigenias de La Cámara Petraescarcha}.'
-
-L['spellsworn_gateway'] = 'Spellsworn Gateway'
-L['gemstone_of_return'] = 'Gemstone of Return'
-
 L['mm_start_note'] = 'Collect and combine various items found within {location:Zskera Vaults}.' -- 'Recoge y combina varios objetos que se encuentran dentro de {location:Zskera Vaults}.'
 L['mm_status_note'] = 'Combine the following items:\n{item:%s}\n{item:%s}' -- 'Combina los siguientes objetos:\n{item:%s}\n{item:%s}'
 
+L['options_icons_zskera_vaults'] = 'Zskera Vaults'
+L['options_icons_zskera_vaults_desc'] = 'Display rewards for {location:Zskera Vaults}.' -- 'Muestra las recompensas de {location:Zskera Vaults}.'
+
+-- Librarian of the Reach
+L['confiscated_journal_label'] = 'Confiscated Journal'
+L['farscale_manifesto_label'] = 'Farscale Manifesto'
+L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
+L['pirate_proclamation_label'] = 'Pirate Proclamation'
+L['spellsworn_missive_label'] = 'Spellsworn Missive'
+L['vrykul_tome_label'] = 'Vrykul Tome'
+
+L['library_note'] = 'Open the {object:%s} and loot the {item:%s}.'
+
+L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
+L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}. {note:Some books are in {location:Zskera Vaults}}.' -- 'Muestra dónde están los libros para el logro {achievement:17530}. {note:Algunos libros están en {location:Zskera Vaults}}.'
+
+-- Scroll Hunter
 L['scroll_hunter_suffix'] = 'treasures found from Sealed Scrolls'
 L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal an X on the map which will offer a {item:%s} which provides reputation for {faction:%s}.'
+
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
 L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532}.'
+
+-- While We Were Sleeping
+L['options_icons_scalecommander_item'] = '{achievement:17315}'
+L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achievement:17315}. {note:Some item are in {location:Zskera Vaults}}.' -- 'Muestra dónde están los objetos para el logro {achievement:17315}. {note:Algunos objetos están en {location:Zskera Vaults}}.'
+
+-- Misc
+L['spellsworn_gateway'] = 'Spellsworn Gateway'
+L['gemstone_of_return'] = 'Gemstone of Return'
 
 L['morqut_village_vendor_note'] = 'Intercambia {currency:2118} u oro por monturas, mascotas, transfiguraciones, personalizaciones del draco, recetas y otros objetos útiles.'
 
