@@ -238,7 +238,7 @@ L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {s
 -- Profession Rares
 L['profession_required'] = '{note:Requires a player with the %s profession.}'
 L['pr_crafting_note'] = 'Craft {item:%s} with {item:%s} and interact with {object:%s} to summon the rare.'
-L['pr_gathering_note'] = 'Use {item:%s} to interact with {object:} to summon the rare.'
+L['pr_gathering_note'] = 'Use {item:%s} to interact with {object:%s} to summon the rare.'
 L['pr_recipe_note'] = 'The recipe {item:%s} can be purchased from {npc:202445} for 10 {item:190456}.'
 
 L['pr_awakened_soil'] = 'Awakened Soil'
