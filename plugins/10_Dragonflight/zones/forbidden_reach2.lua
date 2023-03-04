@@ -238,6 +238,7 @@ local LootSpecialist = Class('LootSpecialist', Rare, {
     id = 203353,
     quest = nil,
     note = L['loot_specialist_note'],
+    fgroup = 'loot_specialist',
     rewards = {
         Achievement({id = 17525, criteria = 58830}), -- Champion of the Forbidden Reach
         Item({item = 204276}), -- Untapped Forbidden Knowledge
@@ -309,9 +310,10 @@ function ArtisanCurio.getters:note()
     end
 end
 
-map.nodes[67256157] = ArtisanCurio({
+local VolatileBrazier = Class('VolatileBrazier', ArtisanCurio, {
     label = L['volatile_brazier'],
     icon = 650638,
+    fgroup = 'volatile_brazier',
     requires = {
         ns.requirement.Item(203398), -- Essance of Dampening
         ns.requirement.Item(203407) -- Draconic Suppression Powder
@@ -319,6 +321,9 @@ map.nodes[67256157] = ArtisanCurio({
     skillID = 171, -- Alchemy
     recipeID = 203420 -- Recipe: Draconic Suppression Powder
 }) -- Volatile Brazier
+
+map.nodes[67256157] = VolatileBrazier()
+map.nodes[69755462] = VolatileBrazier()
 
 map.nodes[67237599] = ArtisanCurio({
     label = L['farescale_shrine_label'],
@@ -334,6 +339,7 @@ map.nodes[67237599] = ArtisanCurio({
 local SpicelessStew = Class('SpicelessStew', ArtisanCurio, {
     label = L['spiceless_stew_label'],
     icon = 133210,
+    fgroup = 'spiceless_stew',
     requires = {
         ns.requirement.Item(203400), -- Lackluster Spices
         ns.requirement.Item(203409) -- Sparkling Spice Pouch
@@ -380,6 +386,7 @@ map.nodes[23066700] = ArtisanCurio({
 local AwakenedSoil = Class('AwakenedSoil', ArtisanCurio, {
     label = L['awakened_soil_label'],
     icon = 656681,
+    fgroup = 'awakened_soil',
     requires = ns.requirement.Item(203416), -- Dormant Lifebloom Seeds
     skillID = 182 -- Herbalism
 }) -- Awakened Soil
@@ -390,6 +397,7 @@ map.nodes[56435911] = AwakenedSoil()
 local SpellswornWard = Class('SpellswornWard', ArtisanCurio, {
     label = L['spellsworn_ward_label'],
     icon = 4638727,
+    fgroup = 'spellsworn_ward',
     requires = {
         ns.requirement.Item(203403), -- Hastily Scrawled Rune
         ns.requirement.Item(203412) -- Dispelling Rune
@@ -419,6 +427,7 @@ map.nodes[28905707] = ArtisanCurio({
 local TuskarrTanningRack = Class('TuskarrTanningRack', ArtisanCurio, {
     label = L['tuskarr_tanning_rack'],
     icon = 4635266,
+    fgroup = 'tuskarr_tanning_rack',
     requires = {
         ns.requirement.Item(203405), -- Pristine Pelt
         ns.requirement.Item(203414) -- Reinforced Pristine Leather
@@ -442,17 +451,20 @@ dragonskullIsland.nodes[56947247] = ArtisanCurio({
 local RawArgaliPelts = Class('RawArgaliPelts', ArtisanCurio, {
     label = L['raw_argali_pelts'],
     icon = 1029749,
+    fgroup = 'raw_argali_pelts',
     requires = ns.requirement.Item(203417), -- Razor-Sharp Animal Bone
     skillID = 393 -- Skinning
 }) -- Raw Argali Pelts
 
 map.nodes[40488600] = RawArgaliPelts()
 map.nodes[44993658] = RawArgaliPelts()
+map.nodes[50498602] = RawArgaliPelts()
 map.nodes[70664614] = RawArgaliPelts()
 
 local TuskarrKitePost = Class('TuskarrKitePost', ArtisanCurio, {
     label = L['tuskarr_kite_post_label'],
     icon = 318523,
+    fgroup = 'tuskarr_kite_post',
     requires = {
         ns.requirement.Item(203406), -- Torn Morqut Kite
         ns.requirement.Item(203415) -- Morqut Kite
@@ -463,6 +475,7 @@ local TuskarrKitePost = Class('TuskarrKitePost', ArtisanCurio, {
 
 map.nodes[31195341] = TuskarrKitePost()
 map.nodes[57634843] = TuskarrKitePost()
+map.nodes[60309155] = TuskarrKitePost()
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
