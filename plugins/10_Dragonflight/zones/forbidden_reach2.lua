@@ -328,7 +328,7 @@ dragonskullIsland.nodes[56947247] = ProfessionRare({
     }
 }) -- Tectonus
 
-map.nodes[44307464] = ProfessionRare({
+local SirPinchalot = Class('SirPinchalot', ProfessionRare, {
     id = 200620,
     quest = nil,
     profession = ns.professions.ENGINEERING,
@@ -340,6 +340,9 @@ map.nodes[44307464] = ProfessionRare({
         Achievement({id = 17525, criteria = 58475}), -- Champion of the Forbidden Reach
     }
 }) -- Sir Pinchalot
+
+map.nodes[44307464] = SirPinchalot()
+map.nodes[54707281] = SirPinchalot()
 
 local Manathema = Class('Manathema', ProfessionRare, {
     id = 200621,
