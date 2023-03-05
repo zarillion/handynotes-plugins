@@ -361,9 +361,10 @@ local Manathema = Class('Manathema', ProfessionRare, {
 map.nodes[49264172] = Manathema()
 map.nodes[61256442] = Manathema()
 
+-- NOTE: CONFIRMED PROFESSION RARE
 local Snarfang = Class('Snarfang', ProfessionRare, {
     id = 200622,
-    quest = nil,
+    quest = nil, -- 73138 or 74928 not 74307
     profession = ns.professions.LEATHERWORKING,
     summoningItem = 203414, -- Reinforced Pristine Leather
     summoningObject = L['pr_tuskarr_tanning_rack'], -- Tuskarr Tanning Rack
@@ -371,12 +372,16 @@ local Snarfang = Class('Snarfang', ProfessionRare, {
     summoningRecipe = 203427, -- Pattern: Reinforced Pristine Leather
     fgroup = 'fgroup_snarfang',
     rewards = {
-        Achievement({id = 17525, criteria = 58477}) -- Champion of the Forbidden Reach
+        Achievement({id = 17525, criteria = 58477}), -- Champion of the Forbidden Reach
+        Item({item = 203648}), -- Primalist Necklace
+        Item({item = 190456}), -- Artisan's Mettle
+        Currency({id = 2118}), -- Elemental Overflow
     }
 }) -- Snarfang
 
 map.nodes[37124708] = Snarfang()
 map.nodes[48734944] = Snarfang()
+map.nodes[64967269] = Snarfang()
 
 local TuskarrKitePost = Class('TuskarrKitePost', ProfessionRare, {
     id = 200722,
@@ -502,6 +507,7 @@ map.nodes[23066700] = ProfessionRare({
     }
 }) -- Luttrok
 
+-- NOTE: CONFIRMED PROFESSION RARE
 map.nodes[28905707] = ProfessionRare({
     id = 200743,
     quest = nil,
