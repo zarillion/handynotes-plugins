@@ -236,10 +236,10 @@ L['wymslayer_angvardi_note'] = '{npc:201013} 和 {npc:201310} 为伴。'
 L['loot_specialist_note'] = '{npc:203353} 出现时有 {spell:406143} 和 {spell:132653} 并且会在受到攻击时逃跑。\n\n{note:在他施放 {spell:406141} 完之前快速击杀他。}'
 
 -- Profession Rares
-L['profession_required'] = nil
-L['pr_crafting_note'] = nil
-L['pr_gathering_note'] = nil
-L['pr_recipe_note'] = nil
+L['profession_required'] = '{note:需要 %s 专业。}'
+L['pr_crafting_note'] = '用 {item:%2$s} 制作 {item:%1$s} 并与 {object:%s} 互动召唤稀有。'
+L['pr_gathering_note'] = '使用 {item:%s} 与 {object:%s} 互动召唤稀有。'
+L['pr_recipe_note'] = '配方 {item:%s} 可以用10个 {item:190456} 从 {npc:202445} 购买。'
 
 L['pr_awakened_soil'] = 'Awakened Soil'
 L['pr_book_of_arcane_entities'] = 'Book of Arcane Entities'
@@ -285,12 +285,12 @@ L['zskera_vaults_note'] = '从各种稀有物品和宝箱中收集 {item:202196}
 L['door_buster_suffix'] = '使用 Zskera Vault 钥匙解锁的门'
 
 L['recipe_rat_note_1'] = '与 {location:Zskera Vault} 中的 {npc:202982} 交谈，{item:202252} 会进入包内。'
-L['recipe_rat_note_2'] = '与 {item:202252} 互动以收到 {item:204340}。{note:（5 分钟冷却时间）}'
+L['recipe_rat_note_2'] = '与 {item:202252} 互动以收到 {item:204340}。{note:（5分钟冷却时间）}'
 L['recipe_rat_note_3'] = '一旦有30个 {item:204340} 组合废料来收到配方。'
 L['recipe_rat_note_4'] = '{note:这只老鼠喜欢奶酪并且大约每三分钟就会吃掉一个 {item:3927}。做好计划！}'
 
-L['mm_start_note'] = 'Collect and combine various items found within {location:Zskera Vaults}.'
-L['mm_status_note'] = 'Combine the following items:\n{item:%s}\n{item:%s}'
+L['mm_start_note'] = '收集并组合从 {location:Zskera Vaults} 中找到的各种物品。'
+L['mm_status_note'] = '组合以下物品：\n{item:%s}\n{item:%s}'
 
 L['options_icons_zskera_vaults'] = 'Zskera Vaults'
 L['options_icons_zskera_vaults_desc'] = '显示 {location:Zskera Vaults} 的奖励。'
@@ -306,24 +306,24 @@ L['vrykul_tome_label'] = 'Vrykul Tome'
 L['library_note'] = '打开 {object:%s} 并拾取 {item:%s}。'
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
-L['options_icons_librarian_of_the_reach_desc'] = '显示 {achievement:17530} 成就中书籍的位置。' -- review
+L['options_icons_librarian_of_the_reach_desc'] = '显示 {achievement:17530} 成就中书籍的位置。{note:有些书籍在 {location:Zskera Vaults}}。'
 
 -- Scroll Hunter
-L['scroll_hunter_suffix'] = 'treasures found from Sealed Scrolls'
-L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal an X on the map which will offer a {item:%s} which provides reputation for {faction:%s}.'
+L['scroll_hunter_suffix'] = '来自 Sealed Scrolls 的宝藏'
+L['scroll_hunter_note'] = '在 {location:禁忌离岛} 附近收集各种稀有和珍藏的密封卷轴。\n\n打开一个 {item:%s} 会在地图上显示一个 X，会提供一个 {item:%s}，为 {faction:%s} 提供声望。'
 
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
-L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532}.'
+L['options_icons_scroll_hunter_desc'] = '显示 {achievement:17532} 的卷轴奖励的位置。'
 
 -- While We Were Sleeping
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
-L['options_icons_scalecommander_item_desc'] = '显示 {achievement:17315} 成就物品的位置。' -- review
+L['options_icons_scalecommander_item_desc'] = '显示 {achievement:17315} 成就中物品的位置。{note:有些物品在 {location:Zskera Vaults}}。'
 
 -- Misc
 L['spellsworn_gateway'] = 'Spellsworn Gateway'
 L['gemstone_of_return'] = 'Gemstone of Return'
 
-L['morqut_village_vendor_note'] = nil
+L['morqut_village_vendor_note'] = '用 {currency:2118} 或金币换取坐骑、宠物、幻化、幼龙定制、配方和其他有用的物品。'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
