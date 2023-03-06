@@ -261,11 +261,26 @@ dragonskullIsland.nodes[28984051] = LootSpecialist({
 
 ------------------------------ PROFESSION RARES  ------------------------------
 
--- TODO: The only confirmed profession rare is amphyst. All of the others are
--- just guesses and assumptions but I needed somewhere to store the data.
---
--- Eventually we should move/merge ns.professions into common.lua below the
--- PROFESSION TREASURES header
+-- TODO: There are only a few confirmed profession rares. The rest are guesses
+-- and are currently just a place to store details such as IDs and locales.
+
+-- CONFIRMED:
+-- Amphyst
+-- Snarfang
+
+-- LIKELY CORRECT:
+-- GAREED
+-- FAUNOS
+-- KANGALO
+-- TIDESMITH ZARVISS
+
+-- PROBABLY INCORRECT:
+-- SIR PINCHALOT (based on location)
+-- FIMBUL (based on location)
+
+-- Eventually we should move and merge ns.professions into common.lua below
+-- the PROFESSION TREASURES header. Maybe this should become a core codeblock
+-- rather than just a plugin codeblock.
 
 -- LuaFormatter off
 ns.professions = {
@@ -361,7 +376,6 @@ local Manathema = Class('Manathema', ProfessionRare, {
 map.nodes[49264172] = Manathema()
 map.nodes[61256442] = Manathema()
 
--- NOTE: CONFIRMED PROFESSION RARE
 local Snarfang = Class('Snarfang', ProfessionRare, {
     id = 200622,
     quest = nil, -- 73138 or 74928 not 74307
@@ -507,7 +521,6 @@ map.nodes[23066700] = ProfessionRare({
     }
 }) -- Luttrok
 
--- NOTE: CONFIRMED PROFESSION RARE
 map.nodes[28905707] = ProfessionRare({
     id = 200743,
     quest = nil,
@@ -901,6 +914,7 @@ map.nodes[57816240] = SMALLTREASURE
 map.nodes[58556090] = SMALLTREASURE
 map.nodes[59375286] = SMALLTREASURE
 map.nodes[59425809] = SMALLTREASURE
+map.nodes[63995005] = SMALLTREASURE
 map.nodes[66915815] = SMALLTREASURE
 map.nodes[67284345] = SMALLTREASURE
 map.nodes[68604706] = SMALLTREASURE
@@ -924,6 +938,7 @@ warCreche.nodes[68651319] = SMALLTREASURE
 siegeCreche.nodes[44804622] = SMALLTREASURE
 siegeCreche.nodes[53712134] = SMALLTREASURE
 
+froststoneVault.nodes[33466479] = SMALLTREASURE
 froststoneVault.nodes[48535847] = SMALLTREASURE
 froststoneVault.nodes[56505366] = SMALLTREASURE
 froststoneVault.nodes[66112156] = SMALLTREASURE
