@@ -44,7 +44,7 @@ L['trinket'] = 'Abalorio'
 L['activation_unknown'] = '¡Activación desconocida!'
 L['requirement_not_found'] = '¡Requerimiento de localización desconocido!'
 L['multiple_spawns'] = 'Puede aparecer en varios sitios.'
-L['shared_drops'] = 'Bot Compartido'
+L['shared_drops'] = 'Botín Compartido'
 
 L['Requires'] = 'Requiere'
 L['ranked_research'] = '%s (Rango %d/%d)'
