@@ -227,7 +227,7 @@ L['in_the_lost_atheneum'] = '位于 {location:失落图书馆}。'
 L['in_the_siege_creche'] = '位于 {location:攻城育幼所}。'
 L['in_the_support_creche'] = '位于 {location:支援育幼所}。'
 L['in_the_war_creche'] = '位于 {location:至高育幼所} 深处。'
-L['in_zskera_vaults'] = '位于 {location:Zskera Vaults}。'
+L['in_zskera_vaults'] = '位于 {location:兹斯克拉宝库}。'
 
 -- Rares
 L['duzalgor_note'] = '收集一瓶 {spell:400751}（{dot:Green}）来治疗 {location:支援育幼所} 内的有毒气体。'
@@ -280,20 +280,20 @@ L['options_icons_small_treasures'] = '小宝藏'
 L['options_icons_small_treasures_desc'] = '显示小宝藏可能的位置。'
 
 -- Zskera Vaults
-L['zskera_vaults_label'] = 'Zskera Vaults'
-L['zskera_vaults_note'] = '从各种稀有物品和宝箱中收集 {item:202196}，打开 {location:Zskera Vaults} 内的大门。'
-L['door_buster_suffix'] = '使用 Zskera Vault 钥匙解锁的门'
+L['zskera_vaults_label'] = '兹斯克拉宝库'
+L['zskera_vaults_note'] = '从各种稀有物品和宝箱中收集 {item:202196}，打开 {location:兹斯克拉宝库} 内的大门。'
+L['door_buster_suffix'] = '使用兹斯克拉宝库钥匙解锁的门'
 
 L['recipe_rat_note_1'] = '与 {location:Zskera Vault} 中的 {npc:202982} 交谈，{item:202252} 会进入包内。'
 L['recipe_rat_note_2'] = '与 {item:202252} 互动以收到 {item:204340}。{note:（5分钟冷却时间）}'
 L['recipe_rat_note_3'] = '一旦有30个 {item:204340} 组合废料来收到配方。'
 L['recipe_rat_note_4'] = '{note:这只老鼠喜欢奶酪并且大约每三分钟就会吃掉一个 {item:3927}。做好计划！}'
 
-L['mm_start_note'] = '收集并组合从 {location:Zskera Vaults} 中找到的各种物品。'
+L['mm_start_note'] = '收集并组合从 {location:兹斯克拉宝库} 中找到的各种物品。'
 L['mm_status_note'] = '组合以下物品：\n{item:%s}\n{item:%s}'
 
-L['options_icons_zskera_vaults'] = 'Zskera Vaults'
-L['options_icons_zskera_vaults_desc'] = '显示 {location:Zskera Vaults} 的奖励。'
+L['options_icons_zskera_vaults'] = '兹斯克拉宝库'
+L['options_icons_zskera_vaults_desc'] = '显示 {location:兹斯克拉宝库} 的奖励。'
 
 -- Librarian of the Reach
 L['confiscated_journal_label'] = 'Confiscated Journal'
@@ -306,7 +306,7 @@ L['vrykul_tome_label'] = 'Vrykul Tome'
 L['library_note'] = '打开 {object:%s} 并拾取 {item:%s}。'
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
-L['options_icons_librarian_of_the_reach_desc'] = '显示 {achievement:17530} 成就中书籍的位置。{note:有些书籍在 {location:Zskera Vaults}}。'
+L['options_icons_librarian_of_the_reach_desc'] = '显示 {achievement:17530} 成就中书籍的位置。{note:有些书籍在 {location:兹斯克拉宝库}}。'
 
 -- Scroll Hunter
 L['scroll_hunter_suffix'] = '来自 Sealed Scrolls 的宝藏'
@@ -317,7 +317,7 @@ L['options_icons_scroll_hunter_desc'] = '显示 {achievement:17532} 的卷轴奖
 
 -- While We Were Sleeping
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
-L['options_icons_scalecommander_item_desc'] = '显示 {achievement:17315} 成就中物品的位置。{note:有些物品在 {location:Zskera Vaults}}。'
+L['options_icons_scalecommander_item_desc'] = '显示 {achievement:17315} 成就中物品的位置。{note:有些物品在 {location:兹斯克拉宝库}}。'
 
 -- Misc
 L['spellsworn_gateway'] = 'Spellsworn Gateway'
