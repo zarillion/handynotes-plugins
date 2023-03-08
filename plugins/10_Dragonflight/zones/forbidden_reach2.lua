@@ -261,23 +261,6 @@ dragonskullIsland.nodes[28984051] = LootSpecialist({
 
 ------------------------------ PROFESSION RARES  ------------------------------
 
--- TODO: There are only a few confirmed profession rares. The rest are guesses
--- and are currently just a place to store details such as IDs and locales.
-
--- CONFIRMED:
--- Amphyst
--- Snarfang
-
--- LIKELY CORRECT:
--- GAREED
--- FAUNOS
--- KANGALO
--- TIDESMITH ZARVISS
-
--- PROBABLY INCORRECT:
--- SIR PINCHALOT (based on location)
--- FIMBUL (based on location)
-
 -- Eventually we should move and merge ns.professions into common.lua below
 -- the PROFESSION TREASURES header. Maybe this should become a core codeblock
 -- rather than just a plugin codeblock.
@@ -346,13 +329,12 @@ dragonskullIsland.nodes[56947247] = ProfessionRare({
 local SirPinchalot = Class('SirPinchalot', ProfessionRare, {
     id = 200620,
     quest = nil,
-    profession = ns.professions.ENGINEERING,
-    summoningItem = 203411, -- Gnomish Voicebox
-    summoningObject = L['pr_damaged_buzzspire'], -- Damaged Buzzspire 505
-    summoningReagent = 203402, -- Broken Gnomish Voicebox
-    summoningRecipe = 203424, -- Schematic: Gnomish Voicebox
+    profession = ns.professions.FISHING,
+    summoningItem = 203419, -- Elusive Croaking Crab
+    summoningObject = L['pr_empty_crab_trap'], -- Empty Crab Trap
+    fgroup = 'fgroup_sir_pinchalot',
     rewards = {
-        Achievement({id = 17525, criteria = 58475}), -- Champion of the Forbidden Reach
+        Achievement({id = 17525, criteria = 58475}) -- Champion of the Forbidden Reach
     }
 }) -- Sir Pinchalot
 
@@ -362,11 +344,11 @@ map.nodes[54707281] = SirPinchalot()
 local Manathema = Class('Manathema', ProfessionRare, {
     id = 200621,
     quest = nil,
-    profession = ns.professions.INSCRIPTION,
-    summoningItem = 203412, -- Dispelling Rune
-    summoningObject = L['pr_spellsworn_ward'], -- Spellsword Ward
-    summoningReagent = 203403, -- Hastily Scrawled Rune
-    summoningRecipe = 203425, -- Technique: Dispellng Rune
+    profession = ns.professions.ENCHANTING,
+    summoningItem = 203410, -- Glowing Crystal Bookmark
+    summoningObject = L['pr_book_of_arcane_entities'], -- Book of Arcane Entities
+    summoningReagent = 203401, -- Dull Crystal
+    summoningRecipe = 203423, -- Formula: Glowing Crystal Bookmark
     fgroup = 'fgroup_manathema',
     rewards = {
         Achievement({id = 17525, criteria = 58476}) -- Champion of the Forbidden Reach
@@ -378,7 +360,7 @@ map.nodes[61256442] = Manathema()
 
 local Snarfang = Class('Snarfang', ProfessionRare, {
     id = 200622,
-    quest = nil, -- 73138 or 74928 not 74307
+    quest = nil,
     profession = ns.professions.LEATHERWORKING,
     summoningItem = 203414, -- Reinforced Pristine Leather
     summoningObject = L['pr_tuskarr_tanning_rack'], -- Tuskarr Tanning Rack
@@ -389,7 +371,7 @@ local Snarfang = Class('Snarfang', ProfessionRare, {
         Achievement({id = 17525, criteria = 58477}), -- Champion of the Forbidden Reach
         Item({item = 203648}), -- Primalist Necklace
         Item({item = 190456}), -- Artisan's Mettle
-        Currency({id = 2118}), -- Elemental Overflow
+        Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Snarfang
 
@@ -448,11 +430,11 @@ map.nodes[67237599] = ProfessionRare({
 warCreche.nodes[31308084] = ProfessionRare({
     id = 200737,
     quest = nil,
-    profession = ns.professions.ENCHANTING,
-    summoningItem = 203410, -- Glowing Crystal Bookmark
-    summoningObject = L['pr_book_of_arcane_entities'], -- Book of Arcane Entities
-    summoningReagent = 203401, -- Dull Crystal
-    summoningRecipe = 203423, -- Formula: Glowing Crystal Bookmark
+    profession = ns.professions.INSCRIPTION,
+    summoningItem = 203412, -- Dispelling Rune
+    summoningObject = L['pr_spellsworn_ward'], -- Spellsword Ward
+    summoningReagent = 203403, -- Hastily Scrawled Rune
+    summoningRecipe = 203425, -- Technique: Dispellng Rune
     location = L['in_the_war_creche'],
     parent = map.id,
     rewards = {
@@ -478,11 +460,11 @@ map.nodes[56435911] = Kangalo()
 local Fimbul = Class('Fimbul', ProfessionRare, {
     id = 200739,
     quest = nil,
-    profession = ns.professions.ALCHEMY,
-    summoningItem = 203407, -- Draconic Suppression Powder
-    summoningObject = L['pr_volatile_brazier'], -- Volatile Brazier
-    summoningReagent = 203398, -- Essence of Dampening
-    summoningRecipe = 203420, -- Recipe: Draconic Suppression Powder
+    profession = ns.professions.ENGINEERING,
+    summoningItem = 203411, -- Gnomish Voicebox
+    summoningObject = L['pr_damaged_buzzspire'], -- Damaged Buzzspire 505
+    summoningReagent = 203402, -- Broken Gnomish Voicebox
+    summoningRecipe = 203424, -- Schematic: Gnomish Voicebox
     fgroup = 'fgroup_fimbul',
     rewards = {
         Achievement({id = 17525, criteria = 58483}) -- Champion of the Forbidden Reach
@@ -495,11 +477,11 @@ map.nodes[69755462] = Fimbul()
 local AgniBlazehoof = Class('AgniBlazehoof', ProfessionRare, {
     id = 200740,
     quest = nil,
-    profession = ns.professions.COOKING,
-    summoningItem = 203409, -- Sparkling Spice Pouch
-    summoningObject = L['pr_spiceless_stew'], -- Spiceless Stew
-    summoningReagent = 203400, -- Lackluster Spices
-    summoningRecipe = 203422, -- Recipe: Sparkling Spice Pouch
+    profession = ns.professions.ALCHEMY,
+    summoningItem = 203407, -- Draconic Suppression Powder
+    summoningObject = L['pr_volatile_brazier'], -- Volatile Brazier
+    summoningReagent = 203398, -- Essence of Dampening
+    summoningRecipe = 203420, -- Recipe: Draconic Suppression Powder
     fgroup = 'fgroup_agniblazehoof',
     rewards = {
         Achievement({id = 17525, criteria = 58484}) -- Champion of the Forbidden Reach
@@ -513,9 +495,11 @@ map.nodes[55695154] = AgniBlazehoof()
 map.nodes[23066700] = ProfessionRare({
     id = 200742,
     quest = nil,
-    profession = ns.professions.FISHING,
-    summoningItem = 203419, -- Elusive Croaking Crab
-    summoningObject = L['pr_empty_crab_trap'], -- Empty Crab Trap
+    profession = ns.professions.COOKING,
+    summoningItem = 203409, -- Sparkling Spice Pouch
+    summoningObject = L['pr_spiceless_stew'], -- Spiceless Stew
+    summoningReagent = 203400, -- Lackluster Spices
+    summoningRecipe = 203422, -- Recipe: Sparkling Spice Pouch
     rewards = {
         Achievement({id = 17525, criteria = 58485}) -- Champion of the Forbidden Reach
     }
