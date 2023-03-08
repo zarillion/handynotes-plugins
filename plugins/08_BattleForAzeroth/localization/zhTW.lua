@@ -86,6 +86,10 @@ L['options_icons_locked_chest_desc'] = '在西湧列島中顯示上鎖箱子的�
 L['options_icons_recrig'] = '廢料回收機'
 L['options_icons_recrig_desc'] = '顯示廢料回收機的位置以及事件獎賞。'
 
+L['mechagon_snooter_note'] = nil
+L['battlepet_secondary_only_note'] = nil
+L['mechagon_explode_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
 -------------------------------------------------------------------------------
@@ -678,3 +682,10 @@ L['options_icons_secret_supplies_desc'] = nil
 L['squirrels_note'] = '你必須對小動物而不是戰寵使用表情 /love'
 L['options_icons_squirrels'] = '{achievement:14730}'
 L['options_icons_squirrels_desc'] = '顯示 {achievement:14730} 成就中小動物的位置'
+
+L['options_icons_battle_safari'] = '{achievement:12930}'
+L['options_icons_battle_safari_desc'] = nil
+L['options_icons_mecha_safari'] = '{achievement:13693}'
+L['options_icons_mecha_safari_desc'] = nil
+L['options_icons_nazja_safari'] = '{achievement:13694}'
+L['options_icons_nazja_safari_desc'] = nil

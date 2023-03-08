@@ -116,13 +116,7 @@ map.nodes[69603360] = Rare({
     }
 }) -- Wandering Vindicator
 
-map.nodes[49009200] = Rare({
-    id = 77784,
-    quest = 34208,
-    rewards = {
-        Item({item = 116070, note = L['neck']}) -- Tezzakel's Terrible Talisman
-    }
-}) -- Lo'marg Jawcrusher
+map.nodes[49009200] = Rare({id = 77784, quest = 34208}) -- Lo'marg Jawcrusher
 
 map.nodes[34005720] = Rare({
     id = 77828,
@@ -142,13 +136,7 @@ map.nodes[66808560] = Rare({
     pois = {POI({61308410})}
 }) -- Klikixx
 
-map.nodes[86002960] = Rare({
-    id = 79334,
-    quest = 34859,
-    rewards = {
-        Item({item = 116077, note = L['trinket']}) -- Pulsating Brain of No'losh
-    }
-}) -- No'losh
+map.nodes[86002960] = Rare({id = 79334, quest = 34859}) -- No'losh
 
 map.nodes[37603760] = Rare({
     id = 82988,
@@ -190,21 +178,9 @@ map.nodes[50208620] = Rare({
     }
 }) -- Felbark
 
-map.nodes[67408060] = Rare({
-    id = 80471,
-    quest = 34929,
-    rewards = {
-        Item({item = 116075, note = L['trinket']}) -- Scales of Gennadian
-    }
-}) -- Gennadian
+map.nodes[67408060] = Rare({id = 80471, quest = 34929}) -- Gennadian
 
-map.nodes[63602080] = Rare({
-    id = 80524,
-    quest = 34945,
-    rewards = {
-        Item({item = 112475, note = L['ring']}) -- Prize's Horn-Ring
-    }
-}) -- Underseer Bloodmane
+map.nodes[63602080] = Rare({id = 80524, quest = 34945}) -- Underseer Bloodmane
 
 map.nodes[37601460] = Rare({
     id = 82922,
@@ -218,10 +194,7 @@ map.nodes[37601460] = Rare({
 map.nodes[47603280] = Rare({
     id = 82992,
     quest = 37341,
-    rewards = {
-        Achievement({id = 9633, criteria = 26468}),
-        Item({item = 119386, note = L['ring']}) -- Consort's Promise Ring
-    }
+    rewards = {Achievement({id = 9633, criteria = 26468})}
 }) -- Felfire Consort
 
 map.nodes[38804960] = Rare({
@@ -297,7 +270,6 @@ map.nodes[31404760] = Rare({
     note = L['orumo_the_observer_note'],
     rewards = {
         Achievement({id = 9638, criteria = 26476}),
-        Item({item = 119375, note = L['neck']}), -- Chained Orb of Omniscience
         Pet({item = 119170, id = 1576}) -- Eye of Observation
 
     }
@@ -315,10 +287,7 @@ map.nodes[41004200] = Rare({
 map.nodes[31002680] = Rare({
     id = 82920,
     quest = 37345,
-    rewards = {
-        Achievement({id = 9638, criteria = 26477}),
-        Item({item = 119388, note = L['ring']}) -- Doomlord's Seal of Command
-    }
+    rewards = {Achievement({id = 9638, criteria = 26477})}
 }) -- Lord Korinak
 
 map.nodes[37604320] = Rare({

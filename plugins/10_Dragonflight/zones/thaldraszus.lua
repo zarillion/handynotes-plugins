@@ -16,13 +16,16 @@ local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
+local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
 local Fragment = ns.node.Fragment
+local GrandHunt = ns.node.GrandHunt
 local LegendaryCharacter = ns.node.LegendaryCharacter
 local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
+local Rare14h = ns.node.Rare14h
 local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
@@ -77,17 +80,37 @@ map.nodes[31097121] = Rare({
     id = 193128,
     quest = 74096,
     note = L['blightpaw_note'],
-    rewards = {Achievement({id = 16679, criteria = 56136})}
+    rewards = {
+        Achievement({id = 16679, criteria = 56136}),
+        Transmog({item = 200127, slot = L['1h_sword']}), -- Gold-Alloy Blade
+        Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
+        Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
+        Transmog({item = 200432, slot = L['cloth']}), -- Rotguard Cowl
+        Toy({item = 200178}), -- Infected Ichor
+        DC.CliffsideWylderdrake.BlackHair,
+        DC.CliffsideWylderdrake.DualHornedChin, DC.CliffsideWylderdrake.Ears,
+        DC.HighlandDrake.SpikedClubTail
+    }
 }) -- Blightpaw the Depraved
 
-map.nodes[59847057] = Rare({ -- required 67030
+map.nodes[59847057] = Rare14h({
     id = 193220,
     quest = 73987,
-    note = L['spawns_periodically'],
+    rotationID = 25,
     rewards = {
         Achievement({id = 16679, criteria = 56149}),
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
-        Transmog({item = 200147, slot = L['cloth']}) -- Web-Woven Robe
+        Transmog({item = 200147, slot = L['cloth']}), -- Web-Woven Robe
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
+        DC.WindborneVelocidrake.SpikedBack, DC.HighlandDrake.StripedPattern,
+        DC.HighlandDrake.ManedHead
     }
 }) -- Broodweaver Araznae
 
@@ -97,8 +120,13 @@ map.nodes[44886910] = Rare({
     note = L['in_cave'] .. ' ' .. L['corrupted_proto_dragon_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56156}),
-        -- Transmog({item = 199020, slot = L['gun']}), -- Drake Race Starting Rifle of the Fireflash
-        Transmog({item = 200166, slot = L['offhand']}) -- Drake Race Starting Rifle of the Fireflash
+        Transmog({item = 200166, slot = L['offhand']}), -- Corrupted Drake Horn
+        Transmog({item = 200233, slot = L['1h_sword']}), -- Paradox Saber
+        Transmog({item = 200293, slot = L['warglaive']}), -- Primal Scion's Twinblade
+        Transmog({item = 200313, slot = L['cloak']}), -- Earthen Protoscale Drape
+        Toy({item = 200198}), -- Primalist Prison
+        DC.CliffsideWylderdrake.ManedJaw, DC.HighlandDrake.CoiledHorns,
+        DC.RenewedProtoDrake.HeavyHorns, DC.WindborneVelocidrake.ClusterHorns
     },
     pois = {POI({44616780})} -- Entrance
 }) -- Corrupted Proto-Dragon
@@ -108,19 +136,32 @@ local CRAGGRAVATEDELEMENTAL = Rare({
     quest = 74061,
     fgroup = 'craggravated',
     focusable = true,
-    rewards = {Achievement({id = 16679, criteria = 56154})}
+    rewards = {
+        Achievement({id = 16679, criteria = 56154}),
+        Transmog({item = 200298, slot = L['plate']}), -- Stoneshaped Greatbelt
+        Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
+        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
+        Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
+        DC.CliffsideWylderdrake.BlackHorns, DC.WindborneVelocidrake.ClubTail
+    }
 }) -- Craggravated Elemental
 
 map.nodes[45458518] = CRAGGRAVATEDELEMENTAL
 map.nodes[52746732] = CRAGGRAVATEDELEMENTAL
 
-map.nodes[47675115] = Rare({ -- required 67030
+map.nodes[47675115] = Rare14h({
     id = 193234,
     quest = 73990,
-    note = L['spawns_periodically'],
+    rotationID = 6,
     rewards = {
         Achievement({id = 16446, criteria = 55398, note = L['pretty_neat_note']}),
-        Achievement({id = 16679, criteria = 56147})
+        Achievement({id = 16679, criteria = 56147}),
+        Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
+        Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
+        DC.HighlandDrake.ToothyMouth, DC.CliffsideWylderdrake.HeadMane,
+        DC.HighlandDrake.ManedHead
     }
 }) -- Eldoren the Reborn
 
@@ -129,17 +170,28 @@ map.nodes[53374092] = Rare({
     quest = 73878,
     rewards = {
         Achievement({id = 16679, criteria = 56138}),
-        Transmog({item = 200436, slot = L['mail']}) -- Gorestained Hauberk
+        Transmog({item = 200436, slot = L['mail']}), -- Gorestained Hauberk
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Toy({item = 200249}) -- Mage's Chewed Wand
     }
 }) -- Goremaul the Gluttonous
 
-map.nodes[59128380] = Rare({ -- review
+map.nodes[59128380] = Rare({
     id = 193126,
     quest = 73881,
     rewards = {
         Achievement({id = 16679, criteria = 56135}),
-        Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
         Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
+        Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
+        Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
+        Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Toy({item = 200148}), -- A Collection Of Me
         DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
     },
@@ -160,38 +212,56 @@ map.nodes[62298177] = Rare({
     note = L['lord_epochbrgl_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56157}),
-        Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
+        Transmog({item = 200185, slot = L['leather']}), -- Grips of the Everflowing Ocean
         Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200151, slot = L['1h_sword']}), -- Seamist Blade
+        Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
+        Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
         Toy({item = 200148}), -- A Collection Of Me
-        DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
+        DC.CliffsideWylderdrake.NarrowStripesPattern,
+        DC.HighlandDrake.StagHorns, DC.CliffsideWylderdrake.FinnedNeck
     },
     pois = {POI({61708120})} -- Entrance
 }) -- Lord Epochbrgl
 
-map.nodes[52895903] = Rare({
+map.nodes[52895903] = Rare14h({
     id = 193246,
     quest = 74013,
-    note = L['spawns_periodically'],
+    rotationID = 12,
     rewards = {
         Achievement({id = 16679, criteria = 56141}),
-        Transmog({item = 200257, slot = L['2h_mace']}) -- Decay Infused Branch
+        Transmog({item = 200257, slot = L['2h_mace']}), -- Decay Infused Branch
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Matriarch Remalla
 
-map.nodes[59806100] = Rare({ -- reqired 67030
+map.nodes[59806100] = Rare({
     id = 193688,
     quest = 74020,
-    note = L['spawns_periodically'],
+    -- rotationID = 7, -- wait for blizz fix.
     rewards = {
         Achievement({id = 16679, criteria = 56140}),
-        Transmog({item = 200146, slot = L['1h_mace']}) -- Phenran's Discordant Smasher
+        Transmog({item = 200146, slot = L['1h_mace']}), -- Phenran's Discordant Smasher
+        Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
+        Transmog({item = 200299, slot = L['1h_sword']}), -- Strange Clockwork Gladius
+        Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
+        Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
+        Pet({item = 200263, id = 3310}), -- Echo of the Heights
+        DC.HighlandDrake.CrestedBrow, DC.HighlandDrake.StripedPattern,
+        DC.WindborneVelocidrake.SpikedBack
     }
 }) -- Phenran
 
-map.nodes[57218420] = Rare({ -- reqired 67030 review
+map.nodes[57218420] = Rare14h({
     id = 193210,
     quest = 74021,
-    note = L['spawns_periodically'],
+    rotationID = 0,
     rewards = {
         Achievement({id = 16679, criteria = 56142}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
@@ -205,7 +275,16 @@ map.nodes[37967903] = Rare({
     id = 193130,
     quest = 73889,
     rewards = {
-        Achievement({id = 16679, criteria = 56137}) --
+        Achievement({id = 16679, criteria = 56137}), --
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     }
 }) -- Pleasant Alpha
 
@@ -213,7 +292,18 @@ map.nodes[50404840] = Rare({
     id = 193143,
     quest = 73892,
     rewards = {
-        Achievement({id = 16679, criteria = 56133}) --
+        Achievement({id = 16679, criteria = 56133}), --
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200165, slot = L['shield']}), -- Aegis of Scales
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Transmog({item = 200682, slot = L['plate']}), -- Hardened Scale Shoulderguards
+        DC.CliffsideWylderdrake.HeavyHorns, DC.RenewedProtoDrake.ClubTail,
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     },
     pois = {
         Path({
@@ -222,39 +312,71 @@ map.nodes[50404840] = Rare({
     }
 }) -- Razk'vex the Untamed
 
-map.nodes[40087014] = Rare({ -- reqiured 67030
+map.nodes[40087014] = Rare14h({
     id = 193240,
     quest = 74024,
-    note = L['spawns_periodically'],
-    rewards = {Achievement({id = 16679, criteria = 56148})}
+    rotationID = 4,
+    rewards = {
+        Achievement({id = 16679, criteria = 56148}),
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200137, slot = L['dagger']}), -- Chitin Dreadbringer
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200212, slot = L['mail']}), -- Sand-Encrusted Greaves
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
+    }
 }) -- Riverwalker Tamopo
 
-map.nodes[50005180] = Rare({ -- reqiured 67030 review
+map.nodes[50005180] = Rare14h({
     id = 193666,
     quest = 74025,
-    note = L['spawns_periodically'],
-    rewards = {Achievement({id = 16679, criteria = 56151})}
+    rotationID = 10,
+    rewards = {
+        Achievement({id = 16679, criteria = 56151}),
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200137, slot = L['dagger']}), -- Chitin Dreadbringer
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
+    }
 }) -- Rokmur
 
-map.nodes[37607780] = Rare({ -- reqiured 67030
+map.nodes[37607780] = Rare14h({
     id = 193176,
     quest = 74029,
-    note = L['spawns_periodically'] .. '\n\n' .. L['in_cave'],
+    rotationID = 18,
+    cave = true,
     rewards = {
         Achievement({id = 16679, criteria = 56150}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
         Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
+        Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Toy({item = 200148}), -- A Collection Of Me
-        DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
+        DC.CliffsideWylderdrake.NarrowStripesPattern,
+        DC.HighlandDrake.StagHorns, DC.RenewedProtoDrake.PurpleHair,
+        DC.WindborneVelocidrake.SweptHorns
     },
     pois = {POI({38507640})} -- Cave entrance
 }) -- Sandana the Tempest
 
-map.nodes[47207895] = Rare({ -- review -- reqiured 67030
+map.nodes[47207895] = Rare14h({
     id = 193258,
     quest = 74035,
-    note = L['spawns_periodically'],
-    rewards = {Achievement({id = 16679, criteria = 56144})},
+    rotationID = 21,
+    rewards = {
+        Achievement({id = 16679, criteria = 56144}),
+        Transmog({item = 200139, slot = L['bow']}) -- Tempest Arc
+    },
     pois = {
         Path({
             48897782, 48557735, 48407739, 47977782, 47177827, 47307994,
@@ -270,7 +392,16 @@ map.nodes[38466826] = Rare({
     rewards = {
         Achievement({id = 16679, criteria = 56155}), --
         Achievement({id = 16622}), -- Three Minutes or It's Free
-        Toy({item = 200999}) -- The Super Shellkhan Gang
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Toy({item = 200999}), -- The Super Shellkhan Gang
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- The Great Shellkhan
 
@@ -280,15 +411,22 @@ map.nodes[46267317] = Rare({
     note = L['in_cave'] .. ' ' .. L['weeping_vilomah_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56153}),
-        Transmog({item = 200214, slot = L['mail']}) -- Grasp of the Weeping Widow
+        Transmog({item = 200214, slot = L['mail']}), -- Grasp of the Weeping Widow
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     },
     pois = {POI({47547180})} -- Cave entrance
 }) -- The Weeping Vilomah
 
-map.nodes[35027001] = Rare({ -- reqiured 67030 review
+map.nodes[35027001] = Rare14h({
     id = 193146,
     quest = 74036,
-    note = L['spawns_periodically'] .. '\n\n' .. L['in_small_cave'],
+    rotationID = 15,
+    cave = true,
     rewards = {
         Achievement({id = 16679, criteria = 56146}),
         Transmog({item = 200291, slot = L['leather']}), -- Waterlogged Racing Grips
@@ -303,9 +441,14 @@ map.nodes[47884976] = Rare({
     note = L['woofang_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56152}),
-        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
-        Item({item = 200445, note = L['neck']}) -- Lucky Hunting Charm
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Woolfang
 
@@ -314,7 +457,13 @@ map.nodes[57366540] = Rare({
     quest = 74057,
     label = L['large_lunker_sighting'],
     note = L['large_lunker_sighting_note'],
-    rewards = {Achievement({id = 16678, criteria = 56130})}
+    rewards = {
+        Achievement({id = 16678, criteria = 56130}),
+        Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
+        Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
+        DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek,
+        Item({item = 200086}) -- Khaz'gorite-infused Resin
+    }
 }) -- Astray Splasher
 
 -------------------------------------------------------------------------------
@@ -323,9 +472,18 @@ map.nodes[57366540] = Rare({
 
 map.nodes[55647727] = Rare({
     id = 193229,
-    quest = 72814, -- 69873
+    quest = 72814,
     rewards = {
-        Item({item = 200880, note = L['trinket']}) -- Wind-Sealed Mana Capsule
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane,
+        Item({item = 198048}) -- Titan Training Matrix I
     }
 }) -- Henlare
 
@@ -335,7 +493,14 @@ map.nodes[36757287] = Rare({
     rewards = {
         Achievement({id = 16446, criteria = 55399, note = L['pretty_neat_note']}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
-        Transmog({item = 200193, slot = L['cloth']}) -- Manafrond Sandals
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        Item({item = 198048}) -- Titan Training Matrix I
     }
 }) -- Liskron the Dazzling
 
@@ -344,6 +509,10 @@ map.nodes[36798556] = Rare({
     quest = 72813,
     rewards = {
         Transmog({item = 200182, slot = L['cloak']}), -- Riveted Drape
+        Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
+        Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
+        Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
+        Toy({item = 200198}), -- Primalist Prison
         DC.WindborneVelocidrake.ClusterHorns, DC.RenewedProtoDrake.ImpalerHorns,
         DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.HeavyHorns,
         Item({item = 198048}) -- Titan Training Matrix I
@@ -354,13 +523,48 @@ map.nodes[36798556] = Rare({
 
 -- Rares in The Primalist Future (10.0.5)
 
-tpf.nodes[48421722] = Rare({id = 201562, quest = 74556}) -- Shardwing
+tpf.nodes[48421722] = Rare({
+    id = 201562,
+    quest = 74556,
+    rewards = {
+        Transmog({item = 203669, slot = L['leather']}), -- Chillwing Leggings
+        Transmog({item = 200242, slot = L['polearm']}), -- Watcher's Lightning Rod
+        Transmog({item = 200241, slot = L['1h_axe']}), -- Stormcaller's Ritual Hatchet
+        DC.WindborneVelocidrake.FeatheryHead
+    }
+}) -- Shardwing
 
-tpf.nodes[62073370] = Rare({id = 201542, quest = 74558}) -- Tikarr Frostclaw
+tpf.nodes[61813142] = Rare({
+    id = 201542,
+    quest = 74558,
+    rewards = {
+        Transmog({item = 203667, slot = L['cloth']}), -- Frostclaw's Spellfingers
+        DC.CliffsideWylderdrake.SweptHorns, DC.HighlandDrake.Ears
+    }
+}) -- Tikarr Frostclaw
 
-tpf.nodes[53536521] = Rare({id = 201543, quest = 74554}) -- Avalantus
+tpf.nodes[53536521] = Rare({
+    id = 201543,
+    quest = 74554,
+    rewards = {
+        Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
+        Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
+        Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
+        Transmog({item = 201447, slot = L['cosmetic']}) -- Primal Revenant's Breezeblade
+    }
+}) -- Avalantus
 
-tpf.nodes[46884248] = Rare({id = 201545, quest = 74553}) -- Shapemaster Za'lani
+tpf.nodes[46884248] = Rare({
+    id = 201545,
+    quest = 74553,
+    rewards = {
+        Transmog({item = 203668, slot = L['mail']}), -- Earhshaping Grips
+        Transmog({item = 200199, slot = L['mail']}), -- Elements' Burden
+        Transmog({item = 200292, slot = L['plate']}), -- Cragforge Pauldrons
+        DC.RenewedProtoDrake.HeavyHorns, DC.WindborneVelocidrake.ClusterHorns,
+        DC.CliffsideWylderdrake.BlackHorns, DC.WindborneVelocidrake.ClubTail
+    }
+}) -- Shapemaster Za'lani
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -462,8 +666,6 @@ tpf.nodes[28002590] = ns.node.ElementalChest({
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 199906}), -- Centaur Hunting Trophy
         Item({item = 190454}), -- Primal Chaos
-        Item({item = 198451, note = L['trinket']}), -- Lifeflame Ampoule
-        Item({item = 198407, note = L['trinket']}), -- Azure Arcanic Amplifier
         Transmog({item = 201443, slot = L['shield']}), -- Primal Revenant's Icewall
         Transmog({item = 201444, slot = L['1h_sword']}) -- Primal Revenant's Earthblade
     },
@@ -521,10 +723,10 @@ map.nodes[52208050] = PT.Blacksmithing({
 }) -- Draconic Flux
 
 map.nodes[55203050] = PT.Alchemy({
-    id = 201003,
+    id = 203471,
     quest = 70278,
-    note = L['pt_alch_furry_gloop_note']
-}) -- Furry Gloop
+    note = L['pt_alch_tasty_candy_note']
+}) -- Tasty Candy
 
 map.nodes[56104090] = PT.Inscription({
     id = 201015,
@@ -801,7 +1003,7 @@ map.nodes[58548017] = TuskarrTacklebox()
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[57767501] = Dragonrace({
+map.nodes[57777501] = Dragonrace({
     label = '{quest:67095}',
     normal = {2080, 52, 49},
     advanced = {2081, 45, 40},
@@ -819,7 +1021,7 @@ map.nodes[57767501] = Dragonrace({
     }
 }) -- Flowing Forest Flight
 
-map.nodes[57256690] = Dragonrace({
+map.nodes[57236690] = Dragonrace({
     label = '{quest:69957}',
     normal = {2092, 84, 81},
     advanced = {2093, 80, 75},
@@ -837,7 +1039,7 @@ map.nodes[57256690] = Dragonrace({
     }
 }) -- Tyrhold Trial
 
-map.nodes[37654894] = Dragonrace({
+map.nodes[37654893] = Dragonrace({
     label = '{quest:70051}',
     normal = {2096, 72, 69},
     advanced = {2097, 71, 66},
@@ -855,7 +1057,7 @@ map.nodes[37654894] = Dragonrace({
     }
 }) -- Cliffside Circuit
 
-map.nodes[60264179] = Dragonrace({
+map.nodes[60294159] = Dragonrace({
     label = '{quest:70059}',
     normal = {2098, 57, 54},
     advanced = {2099, 57, 52},
@@ -873,7 +1075,7 @@ map.nodes[60264179] = Dragonrace({
     }
 }) -- Academy Ascent
 
-map.nodes[39487621] = Dragonrace({
+map.nodes[39517619] = Dragonrace({
     label = '{quest:70157}',
     normal = {2101, 64, 61},
     advanced = {2102, 59, 54},
@@ -891,7 +1093,7 @@ map.nodes[39487621] = Dragonrace({
     }
 }) -- Garden Gallivant
 
-map.nodes[58043367] = Dragonrace({
+map.nodes[58053361] = Dragonrace({
     label = '{quest:70161}',
     normal = {2103, 53, 50},
     advanced = {2104, 50, 45},
@@ -1240,6 +1442,44 @@ function Mythressa.getters:note()
 end
 
 val.nodes[38113773] = Mythressa()
+
+-------------------------------------------------------------------------------
+------------------------------ ELUSIVE CREATURES ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[56007100] = ElusiveCreature({
+    label = '{npc:195518}',
+    rewards = {
+        Item({item = 193224}), -- Lustrous Scaled Hide
+        Item({item = 193215}), -- Adamant Scales
+        Item({item = 193255}) -- Pristine Vorquin Horn
+    }
+}) -- Elusive Cliffdweller Vorquin
+
+map.nodes[48005100] = ElusiveCreature({
+    label = '{npc:195472}',
+    rewards = {
+        Item({item = 193218}), -- Dense Hide
+        Item({item = 193211}), -- Resilient Leather
+        Item({item = 193254}) -- Rockfang Leather
+    }
+}) -- Elusive Ferocious Titanfang
+
+-------------------------------------------------------------------------------
+--------------------------------- GRAND HUNTS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[34576668] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7097,
+    criteria = 55686
+}) -- Southern Thaldraszus Hunt
+
+map.nodes[50594665] = GrandHunt({
+    mapID = map.id,
+    areaPOI = 7099,
+    criteria = 55687
+}) -- Northern Thaldraszus Hunt
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

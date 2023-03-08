@@ -67,7 +67,6 @@ map.nodes[51164167] = Rare({
     rlabel = ns.status.LightBlue(L['plus_research']),
     rewards = {
         Achievement({id = 15107, criteria = 52285}),
-        Item({item = 187402, note = L['ring']}), -- All-Consuming Loop
         Transmog({item = 187245, slot = L['cosmetic']}), -- Death-Enveloped Spires
         Transmog({item = 187246, slot = L['cosmetic']}), -- Death-Enveloped Pauldrons
         Transmog({item = 187247, slot = L['cosmetic']}) -- Death-Enveloped Shoulder Spikes
@@ -304,7 +303,6 @@ map.nodes[14507900] = Rare({
     rewards = {
         Achievement({id = 15107, criteria = 52319}),
         Item({item = 187264, quest = 64513}), -- Ve'rayn's Head
-        Item({item = 187404, note = L['neck']}), -- Cartel Ve Amulet
         Transmog({item = 187369, slot = L['cloth']}) -- Ve'rayn's Formal Robes
     },
     pois = {POI({32804320, 42405980, 43386754, 49002900, 61405780})}
@@ -321,7 +319,6 @@ map.nodes[59335221] = Rare({
     rift = 2,
     rewards = {
         Achievement({id = 15107, criteria = 52275}),
-        Item({item = 187401, note = L['ring']}), -- Band of the Shaded Rift
         Transmog({item = 187396, slot = L['plate']}) -- Girdle of the Deadsoul
     }
 }) -- Deadsoul Hatcher
@@ -335,7 +332,6 @@ map.nodes[50307590] = Rare({
     rift = 2,
     rewards = {
         Achievement({id = 15107, criteria = 52294}),
-        Item({item = 187405, note = L['neck']}), -- Choker of the Hidden Observer
         Transmog({item = 187365, slot = L['1h_axe']}), -- Rift Splitter
         Toy({item = 187420}) -- Maw-Ocular Viewfinder
     }

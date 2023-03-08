@@ -18,6 +18,9 @@ L['squirrels_note'] = 'Has de teclear {emote:/amor} seleccionando alimañas que 
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:14731}.'
 
+L['options_icons_safari'] = '{achievement:14867}'
+L['options_icons_safari_desc'] = 'Muestra dónde están  las mascotas de combate para el logro {achievement:14867}.'
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------
@@ -25,9 +28,9 @@ L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el
 L['deifir_note'] = 'Monta en {npc:164238} que va dando vueltas en círculos y usa {spell:319566} y {spell:319575} para frenarlo o aturdirlo respectivamente.'
 L['faeflayer_note'] = 'En una cueva pequeña oculta tras una cascada.'
 L['gormbore_note'] = 'Mata a los {npc:165420} sobre el suelo tembloroso para hacer aparecer {npc:163370}.'
-L['gormtamer_tizo_note'] = 'Mata Spriggans Conobarba en la {location:Espesura Velo de Niebla} hasta que aparezca {npc:164110} el cual tendrás que matar.'
+L['gormtamer_tizo_note'] = 'Mata {npc:Spriggan Conobarba} en la {location:Espesura Velo de Niebla} hasta que aparezca {npc:164110} el cual tendrás que matar.'
 L['humongozz_note'] = 'Planta un {item:175247} en la {object:Marga Húmeda} para hacer aparecer un {npc:164122}. El champiñón cae de muchos enemigos de la zona.'
-L['lehgo_note'] = 'Destruye los {object:Huevos de Gorm Temblorosos} y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las Madrigueras Polvorientas).'
+L['lehgo_note'] = 'Destruye los {object:Huevos de Gorm Temblorosos} y mata {npc:171827} hasta que aparezca el {npc:167851}. En una cueva (entrada al sureste de las {location:Madrigueras Polvorientas}).'
 L['macabre_note'] = [[
 Aparece en varios sitios. Para invocar a {npc:164093}, espera en el {object:Anillo de Champiñón Misterioso} con otros 2 jugadores y bailad juntos.
 
@@ -46,8 +49,8 @@ Siempre aparecerá al norte de {location:Tirna Vaal}, así que pon tu {item:6948
 L['rootwrithe_note'] = 'Haz click en las {npc:167928} hasta que aparezca el {npc:167726}.'
 L['rotbriar_note'] = 'Habla con {npc:171684} y comenzará a cantar. Tras algo de diálogo, aparecerá {npc:167724} cerca.'
 L['slumbering_note'] = 'Correr hacia la niebla te dormirá en pocos segundos y te alejará. Usa una bengala o una mascota con daño en área para sacar al {npc:167721} fuera de la niebla.'
-L['skuld_vit_note'] = 'En una cueva bloqueada por una barrera. Con el hechizo {spell:310143} de la curia de las Sílfides Nocturnas se podrá atravesar la barrera y entrar en la cueva. Una vez haya sido pulleado {npc:164415}, la barrera desaparecerá.'
-L['valfir_note'] = 'Haz click en la Semilla de Ánima Brillante a mitad de camino y usa la {spell:338045} para quitar el buff {spell:338038} de {npc:168647}.'
+L['skuld_vit_note'] = 'En una cueva bloqueada por una barrera. Con el hechizo {spell:310143} de la curia de las {faction:2422} se podrá atravesar la barrera y entrar en la cueva. Una vez haya sido pulleado {npc:164415}, la barrera desaparecerá.'
+L['valfir_note'] = 'Haz click en la {object:Semilla de Ánima Brillante} a mitad de camino y usa la {spell:338045} para quitar el buff {spell:338038} de {npc:168647}.'
 L['wrigglemortis_note'] = 'Tira del {npc:164179} para sacarlo de la tierra y hacer aparecer al {npc:164147}.'
 
 L['night_mare_note'] = [[
@@ -55,7 +58,7 @@ Viaja a {location:Tirna Scithe} y sigue el camino por la raíz, en el acantilado
 
 Lleva ese objeto a la {npc:165704} a la {location:Cuenca Brillocascada}. Te dará una {item:181242} a cambio de 10 {item:173204}. {note:Si ella no está aquí, tienes que completar las cadenas de misiones |cFFFFFD00Problemas en el Corral de Gormitos|r y |cFFFFFD00Spriggans marrulleros|r.}
 
-Después, habla con {npc:160262} en el {location:Corazón del Bosque} para cambiarle la {item:181242} por un {item:178675}. Habla con los guardias para hacerla salir si no perteneces a las Sílfides Nocturnas. Usa el {item:178675} para conseguir el buff {spell:327083}, que te permite ver a la {npc:168135}.
+Después, habla con {npc:160262} en el {location:Corazón del Bosque} para cambiarle la {item:181242} por un {item:178675}. Habla con los guardias para hacerla salir si no perteneces a las {faction:2422}. Usa el {item:178675} para conseguir el buff {spell:327083}, que te permite ver a la {npc:168135}.
 ]]
 
 L['star_lake'] = 'Anfiteatro del Lago Estrellado'
@@ -76,7 +79,7 @@ L['faerie_trove'] = 'Está debajo de la plataforma.'
 L['harmonic_chest'] = 'Requiere dos personas. Uno toca el arpa y el otro toca el tambor para desbloquear el cofre.'
 L['hearty_dragon_plume'] = 'Haz click en la {spell:333554} en la cima de las cascadas cercanas y úsala para flotar abajo hasta la rama.'
 L['old_ardeite_note'] = 'Mata al {npc:160747} y al {npc:160748} en {location:Ramacentella} hacia el sureste para conseguir el {item:174042}. Usa este objeto para volar cerca del {npc:164391} y targetearlo.'
-L['swollen_anima_seed'] = 'Una gran semilla que reposa dentro del tronco de un árbol.'
+L['swollen_anima_seed'] = 'Una gran semilla que está dentro del tronco de un árbol.'
 
 L['playful_vulpin_note'] = [[
 Encuentra y teclea la emoción correcta seleccionando a {npc:171206} cinco veces para conseguir la mascota.
@@ -90,9 +93,9 @@ Encuentra y teclea la emoción correcta seleccionando a {npc:171206} cinco veces
 
 L['tame_gladerunner'] = 'Asaltaclaros domesticado'
 L['tame_gladerunner_note'] = [[
-Lee la {object:Historia del enredo} y sigue las lámparas azules a través del camino hasta que alcances a {npc:171767}. Mátalo y despoja el {npc:171699}.
+Lee la {object:Historia del Enredo} y sigue las lámparas azules a través del camino hasta que alcances a {npc:171767}. Mátalo y despoja el {npc:171699}.
 
-Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al final vuelve al comienzo y lee de nuevo la {object:Historia del enredo} antes de volver a intentarlo. Si {npc:171767} no está, tendrás que esperar a que aparezca.
+Si tomas el camino equivocado y desaparece el {npc:171699}, cuando llegues al final vuelve al comienzo y lee de nuevo la {object:Historia del Enredo} antes de volver a intentarlo. Si {npc:171767} no está, tendrás que esperar a que aparezca.
 ]]
 
 L['faryl_note'] = 'Deja que la defensa de Ardenweald la dirijan las criaturas de los cielos.'
@@ -143,7 +146,7 @@ La opción Corgi estará disponible en cuanto hables con {npc:181582}.
 L['soulshape_well_fed_cat_note'] = [[
 1. Recoge {item:187811} en {location:Refugioscuro}.
 2. Selecciona a {npc:182093} y teclea {emote:/maullar}.
-3. |cFFFF8C00Ma'oh te maulla hambriento|r.
+3. {emote:Ma'oh te maulla hambriento}.
 4. Selecciona a {npc:182093} y usa el {item:187811}.
 
 La opción Alma de Gato (Bien Alimentado) estará disponible en cuanto hables con {npc:181582}.
@@ -154,16 +157,16 @@ La opción Alma de Gato (Bien Alimentado) estará disponible en cuanto hables co
 -------------------------------------------------------------------------------
 
 L['aegeon_note'] = 'Mata enemigos alrededor de la zona hasta que aparezca el {npc:171009}.'
-L['ascended_council_note'] = 'Con otros cuatro jugadores, hay que hacer click en los cinco templos de campanas de vísperas al mismo tiempo para invocar a {npc:170899} en el {location:Crisol del Aspirante}.'
+L['ascended_council_note'] = 'Con otros cuatro jugadores, hay que hacer click en los cinco templos de {object:Campanas de vísperas} al mismo tiempo para invocar a {npc:170899} en el {location:Crisol del Aspirante}.'
 L['aspirant_eolis_note'] = 'Despoja un {item:180613} en las cercanías y leelo con el {npc:171211} como objetivo para activarlo.'
-L['baedos_note'] = 'Lleva {object:Barriles de Fruta Puriana Fermentada} del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}.'
+L['baedos_note'] = 'Lleva {object:Barril de Fruta Puriana Fermentada} del alrededor del área actual al {npc:161536} hasta que se active {npc:160629}.'
 L['basilofos_note'] = 'Muévete alrededor de la roca hasta que una marca de fijado lila aparezca sobre tu cabeza. Quédate quieto y espera a que aparezcan cuatro textos de emoción. Tras ello, aparecerá {npc:170659}.'
 L['beasts_of_bastion'] = 'Bestias de Bastión'
 L['beasts_of_bastion_note'] = 'Habla con la {npc:161441} para invocar una de las cuatro bestias.'
 L['bookkeeper_mnemis_note'] = 'Tiene la posibilidad de aparecer en lugar de las {npc:166867} del sitio.'
 L['cloudfeather_patriarch_note'] = 'Mata {npc:158110} en el aŕea hasta que el {npc:170932} te ataque.'
 L['collector_astor_note'] = 'Lee los seis capítulos de {object:El Legado de Mercia} dispersos por la habitación y habla con el {npc:157979} para recibir {spell:333779}. Con ello podrás encontrar {item:180569} alrededor del área. Al devolvérselo, aparecerá el {npc:171014}.'
-L['corrupted_clawguard_note'] = 'Despoja un {item:180651} en la habitación o en {location:Avanzada Forjafuego} subiendo la colina y úsalo para reparar el {npc:171300}.'
+L['corrupted_clawguard_note'] = 'Despoja un {item:180651} en la habitación o en la {location:Avanzada Forjafuego} subiendo la colina y úsalo para reparar el {npc:171300}.'
 L['dark_watcher_note'] = 'Sólo puede verse estando muerto. Habla con la {npc:170623} y te lanzará {spell:332830} antes de que seas atacado.'
 L['demi_hoarder_note'] = 'Comienza con 99 acumulaciones de {spell:333874}, reduciendo el daño recibido. Las acumulaciones bajan lentamente con el daño. {npc:171011} seguirá una ruta. Desaparecerá si alcanza el final.'
 L['dionae_note'] = 'Cuando {npc:163460} se hace immune, haz click en las cuatro {npc:163747} para romperle el escudo.'
@@ -172,7 +175,7 @@ Recoge {item:172451} y úsalas para darle a {npc:158659} acumulaciones de {spell
 
 Las motas se pueden recoger de los {object:Botes de Ánima Agotados} cercanos que hay en la habitación o justo fuera.
 
-|cFFFF8C00No puede ser derrotado durante la misión del mundo {wq:Asalto al Vestíbulo}.|r
+{note:No puede ser derrotado durante la misión del mundo {wq:Asalto al Vestíbulo}.}
 ]]
 L['reekmonger_note'] = 'Mata enemigos en el {location:Templo del Coraje} hasta que hable {npc:171327} y aterrice.'
 L['repair_note'] = 'Con otros dos jugadores, haz click en el {object:Incienso Antiguo} para invocar a {npc:160895}.'
@@ -185,10 +188,10 @@ L['wingflayer_note'] = 'Para invocar a {npc:167078}, haz click en el {object:Cue
 L['broken_flute'] = 'Mata a las {npc:170009} cercanas hasta que una suelte la {item:180536}. Usa las herramientas para repararla.'
 L['cloudwalkers_coffer'] = 'Arca de Caminanubes'
 L['cloudwalkers_coffer_note'] = 'Usa las grandes flores lilas para saltar a la plataforma.'
-L['experimental_construct_part'] = 'Despoja un {item:180534} cercano y úsalo para reparar la Pieza de Ensamblaje Experimental. El ánima tiene varios sitios de aparición.'
+L['experimental_construct_part'] = 'Despoja un {item:180534} cercano y úsalo para reparar la {object:Pieza de Ensamblaje Experimental}. El ánima tiene varios sitios de aparición.'
 L['larion_harness'] = 'Está dentro de la {location:Sala de las Bestias}.'
 L['memorial_offering'] = 'Encuentra a {npc:171526} en uno de estos lugares de {location:Bastión} y cómprale una botella de {item:180788}. Colócala en la bandeja de bebidas que hay cerca del cofre para conseguir la {item:180797}.'
-L['scroll_of_aeons'] = 'Coge de un cuenco 2 {item:173973} en el centro del área y colócalas en los cuencos de tributo cercanos para revelar el tesoro {item:173984}.'
+L['scroll_of_aeons'] = 'Coge de un cuenco 2 {item:173973} en el centro del área y colócalas en los cuencos de {object:Tributo} cercanos para revelar el tesoro {item:173984}.'
 L['vesper_of_silver_wind'] = 'Campana de Vísperas del Viento de Plata'
 L['vesper_of_silver_wind_note'] = 'Completa el logro {achievement:14339} y habla con el {npc:171732} cerca de la entrada a las {location:Agujas de Ascensión} para forjar la {item:180858}.'
 
@@ -226,7 +229,7 @@ L['vespers_ascended_note'] = 'Haz click en la campana de vísperas al mismo tiem
 L['options_icons_vespers'] = '{achievement:14734}'
 L['options_icons_vespers_desc'] = 'Muestra dónde están las campanas para el logro {achievement:14734}.'
 
-L['anima_shard'] = 'Fragmento de Ánima Perdido'
+L['anima_shard'] = 'Fragmento de Cristal de Ánima'
 L['anima_shard_61225'] = 'En un piso por debajo del puente.'
 L['anima_shard_61235'] = 'En una repisa a medio salto de la cascada.'
 L['anima_shard_61236'] = 'Sobre un arco enmedio de la estructura principal.'
@@ -271,19 +274,19 @@ L['anima_shard_61291'] = 'En el fondo del estanque junto a los pies de una estat
 L['anima_shard_61292'] = 'Sobre un arco de piedra.'
 L['anima_shard_61293'] = 'Sobre una fina columna de piedra en el nivel inferior.'
 L['anima_shard_61294'] = 'Oculta detrás de una pila de barriles.'
-L['anima_shard_61295'] = 'Detrás de la {npc:156889} en una estantería.'
-L['anima_shard_61296'] = 'Junto a una campana caida grande.\n\n' .. ns.color.Red('Dentro de la mazmorra Estela Necrótica.')
-L['anima_shard_61297'] = 'Detrás de un pilar de piedra.\n\n' .. ns.color.Red('Dentro de la mazmorra Estela Necrótica.')
+L['anima_shard_61295'] = 'Detrás de la {npc:156889}, en una estantería.'
+L['anima_shard_61296'] = 'Junto a una campana caida grande.\n\n{note:Dentro de la mazmorra {location:Estela Necrótica}.}'
+L['anima_shard_61297'] = 'Detrás de un pilar de piedra.\n\n{note:Dentro de la mazmorra {location:Estela Necrótica}.}'
 L['anima_shard_61298'] = 'Detrás de un sillón.'
 L['anima_shard_61299'] = 'Oculta detrás de una gran antorcha junto al ángel.'
 L['anima_shard_61300'] = 'En una repisa sobre la fuente central justo detrás de los ángeles.'
 L['anima_shard_spires'] = 'Tres fragmentos están dentro de la mazmorra {location:Agujas de Ascensión}.'
 L['options_icons_anima_shard'] = '{achievement:14339}'
-L['options_icons_anima_shard_desc'] = 'Muestra dónde están los 50 fragmentos de cristal de ánima perdidos para el logro {achievement:14339}.'
+L['options_icons_anima_shard_desc'] = 'Muestra dónde están los 50x {object:Fragmento de Cristal de Ánima} para el logro {achievement:14339}.'
 
-L['hymn_note'] = 'Localiza los himnos en cada uno de los templos y consigue sus buffs para conseguir el logro.'
+L['hymn_note'] = 'Localiza los {object:Himno} en cada uno de los templos y consigue sus buffs para conseguir el logro.'
 L['options_icons_hymns'] = '{achievement:14768}'
-L['options_icons_hymns_desc'] = 'Muestra dónde están los himnos para el logro {achievement:14768}.'
+L['options_icons_hymns_desc'] = 'Muestra dónde están los {object:Himno} para el logro {achievement:14768}.'
 
 L['stratios_note'] = 'Incluso las pequeñas batallas se deben librar con honor y cuidado. Presenta a tu equipo cuando lo tengas todo listo.'
 L['thenia_note'] = 'Qué llanuras más maravillosas. Un lugar glorioso para combatir. ¿Listo?'
@@ -302,26 +305,26 @@ Este raro no soltará botín hasta que haya consumido a {npc:179758} x40 para tr
 
 Este raro soltará objetos de investigación extra después de consumir otros {npc:179758} x40 para transformarse en su forma verde sombreada (Raro Élite).
 
-|cFFFF0000El raro no hará aparecer {npc:179758} para consumir si está en combate.|r
+{note:El raro no hará aparecer {npc:179758} para consumir si está en combate.}
 ]]
-L['darkmaul_note'] = 'Recoge {item:187153} de los {object:Champifauces Invasivos} y alimenta a la {npc:180063} con ellos. Se ha de completar el evento 10 veces para conseguir la montura.'
+L['darkmaul_note'] = 'Recoge {item:187153} de los {object:Champifauce Invasivo} y alimenta a la {npc:180063} con ellos. Se ha de completar el evento 10 veces para conseguir la montura.'
 L['dislodged_nest_note'] = 'Haz click en una {object:Polilla Nociva} cercana para conseguir {spell:355181}. Usa el botón de acción extra de {spell:355131} en el {npc:178547} para controlarlo y montarlo en el árbol que tiene el nido.'
 L['escaped_wilderling_note'] = 'Haz click en el {npc:180014} para empezar el evento de doma.'
 L['flayedwing_transporter_note'] = 'Haz click en el {npc:178633} para volar a/o desde la {location:Cámara de los Secretos}.'
 L['fleshwing_note'] = 'Habla con {npc:180079} para empezar el evento de recolección.'
 L['forgotten_feather_note'] = 'Flotando en una isla pequeña que se accede saltando hacia abajo desde el {location:Respiro del Guardían}.'
 L['konthrogz_note'] = 'Aparece de un portal del evento de los devoradores. El evento puede aparecer en varios sitios a lo largo de {location:Korthia}.'
-L['sl_limited_rare'] = '|cFFFF8C00Este raro no está disponible algunos días.|r'
+L['sl_limited_rare'] = '{note:Este raro no está disponible algunos días.}'
 L['krelva_note'] = 'Se mueve a otra plataforma al 80%, entonces se mueve al suelo al 60%. {note:¡Has de darle al boss después del 60% para que te cuente!}'
 L['kroke_note'] = 'Mata a los {npc:179029} de la zona hasta que aparezca. No puede aparecer los días que no estén los {npc:179029}.'
 L['maelie_wanderer'] = '{npc:179912} aparecerá en varios sitios durante el día. Una vez se haya usado {spell:355862} en ella 6 días distintos hay que volver con {npc:179930} para aprender la montura.'
-L['malbog_note'] = 'Habla con el {npc:179729} para conseguir {spell:355078} y seguir las huellas de pisadas hasta encontrar los restos carnosos.'
+L['malbog_note'] = 'Habla con el {npc:179729} para conseguir {spell:355078} y seguir las huellas de pisadas hasta encontrar los {object:Restos Carnosos}.'
 L['offering_box_note'] = 'Requiere una {item:187033} que se puede encontrar en la parte superior de la pared del lado oeste de las ruinas cercanas.'
 L['pop_quiz_note'] = 'El evento del Cuestionario aparecerá aleatoriamente en el mapa. Haz click en el {object:Bastón del Velo Abandonado} y responde a las preguntas de {npc:180162}.'
-L['razorwing_note'] = 'Devuelve 10 {item:187054} soltados por los devoradores de la zona.'
+L['razorwing_note'] = 'Devuelve 10x {item:187054} soltados por los devoradores de la zona.'
 L['reliwik_note'] = 'Haz click en el {object:Huevo de Alafilada Prístino} para hacerlo bajar.'
-L['spectral_bound_chest'] = 'Haz click en las 3 {item:179369} cercanas para debloquear el cofre.'
-L['spectral_bound_note'] = '{object:Cofre reforzado espectral}'
+L['spectral_bound_chest'] = 'Cofre reforzado espectral'
+L['spectral_bound_note'] = 'Haz click en las 3 {item:179369} cercanas para debloquear el cofre.'
 L['stonecrusher_note'] = 'Habla con {npc:179974} para empezar el evento.'
 L['towering_exterminator_note'] = 'Aparece del portal del evento jurafauce. El evento puede aparecer en varios sitios a lo largo de {location:Korthia}.'
 L['worldcracker_note'] = 'Habla con {npc:180028} para empezar el evento de escolta.'
@@ -356,7 +359,7 @@ L['options_icons_rift_portal_desc'] = 'Muestra dónde están los {npc:179595} us
 L['riftbound_cache'] = 'Alijo Vinculafalla'
 L['riftbound_cache_note'] = 'Sólo pueden aparecer 4 alijos diferentes en un conjunto de sitios dentro de {location:La Falla.}'
 L['options_icons_riftbound_cache'] = 'Alijos Vinculafalla'
-L['options_icons_riftbound_cache_desc'] = 'Muestra dónde están los alijos dentro de {location:La Falla}.'
+L['options_icons_riftbound_cache_desc'] = 'Muestra dónde están los {object:Alijo Vinculafalla} dentro de {location:La Falla}.'
 
 L['invasive_mawshroom'] = 'Champifauces Invasivos'
 L['invasive_mawshroom_note'] = 'Sólo pueden aparecer 5 champifauces diferentes en un conjunto de sitios.'
@@ -371,12 +374,12 @@ L['unusual_nest_note'] = 'Todos los sitios con nidos se pueden despojar sólo 5 
 
 L['options_icons_invasive_mawshroom_desc'] = 'Muestra dónde están los {object:Champifauces Invasivos}.'
 L['options_icons_invasive_mawshroom'] = 'Champifauces Invasivos'
-L['options_icons_korthia_dailies_desc'] = 'Muestra dónde están los {object:Alijos de Reliquias sin marcar}.'
+L['options_icons_korthia_dailies_desc'] = 'Muestra dónde están los {object:Alijo de Reliquias sin Marcar}.'
 L['options_icons_korthia_dailies'] = 'Alijos de Reliquias'
-L['options_icons_mawsworn_cache_desc'] = 'Muestra dónde están los {object:Alijos jurafauces}.'
+L['options_icons_mawsworn_cache_desc'] = 'Muestra dónde están los {object:Alijo jurafauces}.'
 L['options_icons_mawsworn_cache'] = 'Alijos jurafauces'
-L['options_icons_nest_materials_desc'] = 'Muestra dónde están los {object:Nidos de Materiales Inusuales}.'
-L['options_icons_nest_materials'] = 'Nidos de Materiales Inusuales'
+L['options_icons_nest_materials_desc'] = 'Muestra dónde están los {object:Nido de Materiales Inusuales}.'
+L['options_icons_nest_materials'] = 'Nido de Materiales Inusuales'
 
 -------------------------------------------------------------------------------
 --------------------------------- MALDRAXXUS ----------------------------------
@@ -454,8 +457,8 @@ Para tirar sólo del brazo, sólo hacen falta las {spell:327367}.
 ]]
 
 L['pet_cat'] = '¡Acaricia al maldito gato!'
-L['hairball'] = ns.color.Red('¡Sólo aparece en el Sagrario Purulento dentro de la mazmorra Bajapeste!')
-L['lime'] = 'Reposa sobre el gran arco óseo.'
+L['hairball'] = '{note:¡Sólo aparece en el {location:Sagrario Purulento} dentro de la mazmorra {location:Bajapeste}!}'
+L['lime'] = 'Está sobre el gran arco óseo.'
 L['moldstopheles'] = 'Corre alrededor del tallo y salta hacia la pared para saltar en la plataforma con forma de champiñón. Salta otra y para la última, usa una montura y salta en la raíz que rodea el tallo del champiñón gigante.'
 L['pus_in_boots'] = 'Está debajo del puente.'
 
@@ -497,7 +500,7 @@ L['soulshape_saurid_note'] = 'En una cueva pequeña. Selecciona el {npc:182105} 
 -------------------------------------------------------------------------------
 
 L['amalgamation_of_filth_note'] = 'Cuando esté disponible la misión del mundo {wq:Trabajo sucio: equipo de demolición} haz click en una {object:Caja de Basura} y usa {spell:324115} en el agua.'
-L['amalgamation_of_light_note'] = 'Mueve las tres trampas de espejos para liberar a la {npc:164388}.'
+L['amalgamation_of_light_note'] = 'Mueve los tres {object:Espejo Trampa} para liberar a la {npc:164388}.'
 L['amalgamation_of_sin_note'] = 'Durante la misión del mundo {wq:Invocar tus pecados} coge el {object:Catalizador de Poder} para tener la probabilidad de conseguir la {item:180376}. Usa el objeto para invocar a la {npc:170434}.'
 L['bog_beast_note'] = 'Tiene probabilidad de aparecer durante la misión de mundo {wq:Mugre a mansalva} después de usar la {item:177880} en el {npc:166206}.'
 L['endlurker_note'] = 'Haz click en el {object:Poste de Ánima} cerca del cuerpo del {npc:165229} y usa el {spell:321826} en la parte superior de la {location:Falla Fulgurante}.'
@@ -512,12 +515,12 @@ L['lord_mortegore_note'] = 'Mata a los enemigos de alrededor para conseguir el {
 L['madalav_note'] = 'Haz click en el {object:Martillo de Madalav} en el yunque cercano para invocar al {npc:159496}.'
 L['manifestation_of_wrath_note'] = 'Tiene probabilidad de aparecer cuando es recuperada una {npc:169916} durante la misión del mundo {wq:Almas enjambradoras}.'
 L['scrivener_lenua_note'] = 'Devuelve los {npc:160753} a la {location:Biblioteca Prohibida}.'
-L['sinstone_hoarder_note'] = 'Intenta despojar el {npc:162503} y el {npc:162481}, se revelará él solo.'
+L['sinstone_hoarder_note'] = 'Intenta despojar el {npc:162503} y el {npc:162481}. Se revelará él solo.'
 L['sire_ladinas_note'] = 'Coge un {object:Remanente de la Luz} cercano y usa {spell:313065} en los {npc:157733} hasta que aparezca {npc:160857}.'
 L['soulstalker_doina_note'] = 'Sigue a la {npc:160392} cuando se escape escaleras abajo y dentro del espejo esquivando trampas.'
 L['tomb_burster_note'] = 'Puede aparecer si {npc:155777} queda atrapado en una telaraña. Mata los {npc:155769} cercanos y a las oleadas de {npc:155795} que comenzarán a salir hasta que aparezca la {npc:155779}.'
 L['worldedge_gorger_note'] = [[
-Consigue una {item:173939} de los Saqueadores del Mundo, Engullidores y Ácaros en el {location:Bosque de la Desgracia} y en el {location:Cenagal del Fin}. Úsala para encender los {object:Blandones del Fin del Mundo} e invocar al {npc:160821}.
+Consigue una {item:173939} de los Saqueadores del Mundo, Engullidores y Ácaros en el {location:Bosque de la Desgracia} y en el {location:Cenagal del Fin}. Úsala para encender los {object:Blandón del Fin del Mundo} e invocar al {npc:160821}.
 
 Tiene probabilidades de soltar un {item:180583}, el cual empieza una cadena de misiones de 7 días para conseguir la montura {spell:333027}.
 ]]
@@ -526,9 +529,9 @@ L['dredglaive_note'] = 'Debajo del puente en el cuerpo de un {npc:173671}.'
 L['forbidden_chamber_note'] = 'Despoja un {object:Bote de Ánima Agotado} enfrente de la puerta cerrada y aprende {spell:340701}. Úsalo para drenar a cinco {npc:173838} en las cercanías. Después usa {spell:340866} enfrente del {npc:173786}.'
 L['gilded_plum_chest_note'] = 'Mata al {npc:166680} que deambula por el camino arriba y abajo.'
 L['lost_quill_note'] = 'Despoja la {item:182475} de la botella que hay sobre la mesa en la {location:Biblioteca Prohibida} y dásela a la {npc:173449} encima del arco de fuera.'
-L['rapier_fearless_note'] = 'Haz click en el estoque del suelo, y entonces derrota a {npc:173603}.'
+L['rapier_fearless_note'] = 'Haz click en el {npc:173603} del suelo, y entonces derrota a {npc:173603}.'
 L['remlates_cache_note'] = 'En la pared exterior de {location:Refugioscuro} detrás de la cripta.'
-L['smuggled_cache_note'] = ns.color.Red('ANTES DE QUE DESPOJES: ') .. 'Asegúrate de haber completado {quest:60480} o te perderás 40 {currency:1820} del tesoro y de la misión juntos.'
+L['smuggled_cache_note'] = '{note:ANTES DE QUE DESPOJES : Asegúrate de haber completado {quest:60480} o te perderás 40 {currency:1820} del tesoro y de la misión juntos}.'
 L['taskmaster_trove_note'] = 'Lee {object:Ritos de Acceso y Salida}. Después sigue el camino al cofre con cuidado.'
 L['the_count_note'] = 'Farmea 99 {currency:1820} en el {location:Cenagal del Fin} y llévaselos a {npc:173488}.'
 
@@ -537,12 +540,12 @@ L['forgotten_anglers_rod'] = 'Caña de Pescador Olvidada'
 L['loyal_gorger_note'] = 'Visita el {location:Cenagal del Fin} y completa una misión diaria ofrecida por el {npc:173498} 7 veces para conseguirlo como montura.'
 
 L['sinrunner_note'] = 'Lleva comida y suministros a {npc:173468} durante seis días para conseguir sus riendas. Sólo aparece durante unos pocos minutos hasta que vuelva a aparecer.'
-L['sinrunner_note_day1'] = 'Ofrece a Blanchy 8 {item:182581} que se pueden recoger en las granjas de {location:Páramos de Poniente}.'
-L['sinrunner_note_day2'] = 'Consigue un {item:182585} de {npc:173570} en {location:Refugioscuro} y úsalo para limpiar a Blanchy.'
-L['sinrunner_note_day3'] = 'Equipa a Blanchy con 4 {item:182595} que se pueden encontrar por los caminos que rodean {location:Refugioscuro}.'
-L['sinrunner_note_day4'] = 'Coge el {item:182620} cerca de {npc:173570} y llénalo con agua en {location:Bastión} o {location:Ardenweald}. Llévale a Blanchy el {item:182599}.'
-L['sinrunner_note_day5'] = 'Equipa a Blanchy con una {item:182597}, vendida por {npc:171808} cerca del {location:Mercado Nocturno} a cambio de varias carnes.'
-L['sinrunner_note_day6'] = 'Alimenta a Blanchy con 3 {item:179271}, vendidas por {npc:167815} que está en {location:Agujero en la Pared}.'
+L['sinrunner_note_day1'] = 'Ofrece a {npc:173468} 8x {item:182581} que se pueden recoger en las granjas de {location:Páramos de Poniente}.'
+L['sinrunner_note_day2'] = 'Consigue un {item:182585} de {npc:173570} en {location:Refugioscuro} y úsalo para limpiar a {npc:173468}.'
+L['sinrunner_note_day3'] = 'Equipa a {npc:173468} con 4x {item:182595} que se pueden encontrar por los caminos que rodean {location:Refugioscuro}.'
+L['sinrunner_note_day4'] = 'Coge el {item:182620} cerca de {npc:173570} y llénalo con agua en {location:Bastión} o {location:Ardenweald}. Llévale a {npc:173468} el {item:182599}.'
+L['sinrunner_note_day5'] = 'Equipa a {npc:173468} con una {item:182597}, vendida por {npc:171808} cerca del {location:Mercado Nocturno} a cambio de varias carnes.'
+L['sinrunner_note_day6'] = 'Alimenta a {npc:173468} con 3x {item:179271}, vendidas por {npc:167815} que está en {location:Agujero en la Pared}.'
 
 L['options_icons_carriages'] = 'Carruajes'
 L['options_icons_carriages_desc'] = 'Muestra dónde están los caminos y los posibles carruajes que se pueden llevar.'
@@ -559,25 +562,46 @@ L['avowed_ritualist_note'] = 'Trae aquí las {npc:160149} cercanas para absolver
 L['fugitive_soul_note'] = 'Trae las {npc:160149} a una {npc:166150} cercana para comenzar el ritual de absolución.'
 L['souls_absolved'] = 'almas absueltas'
 L['options_icons_fugitives'] = '{achievement:14274}'
-L['options_icons_fugitives_desc'] = 'Muestra dónde están las almas fugitivas para el logro {achievement:14274}.'
+L['options_icons_fugitives_desc'] = 'Muestra dónde están las {npc:160149} para el logro {achievement:14274}.'
 
-L['grand_inquisitor_note'] = 'Entrega 10 {item:180451} al {npc:160248} para tener una oportunidad en esta piedra del pecado.'
-L['high_inquisitor_note'] = 'Entrega 250 {currency:1816} al {npc:160248} para tener una oportunidad en esta piedra del pecado.'
-L['inquisitor_note'] = 'Entrega 100 {currency:1816} al {npc:160248} para tener una oportunidad en esta piedra del pecado.'
+L['grand_inquisitor_note'] = 'Entrega 10x {item:180451} al {npc:160248} para tener una oportunidad en esta piedra del pecado.'
+L['high_inquisitor_note'] = 'Entrega 250x {currency:1816} al {npc:160248} para tener una oportunidad en esta piedra del pecado.'
+L['inquisitor_note'] = 'Entrega 100x {currency:1816} al {npc:160248} para tener una oportunidad en esta piedra del pecado.'
 L['options_icons_inquisitors'] = 'Inquisidores'
 L['options_icons_inquisitors_desc'] = 'Muestra dónde están los inquisidores para el logro {achievement:14276}.'
 
 L['bell_of_shame_note'] = 'Cada 30 minutos aparecerá un fantasma aleatorio junto a la {npc:176006}.\n\nRepara la {npc:176056} por 30 {currency:1820} y entonces toca la campana para recibir un buff del fantasma activo.\n\nUno de los fantasmas, {npc:176043}, te da {spell:346708} que incrementa las probabilidades de encontrar {item:172957} en los alrededores de las {location:Salas de la Expiación}.'
 L['atonement_crypt_label'] = 'Cripta de Expiación'
-L['atonement_crypt_note'] = 'Abre una {location:Cripta de Expiación} usando una {item:172957}.'
+L['atonement_crypt_note'] = 'Abre una {object:Puerta de Cripta} usando una {item:172957}.'
 L['atonement_crypts_opened'] = 'Criptas de Expiación abiertas'
 L['atonement_crypt_key_label'] = '{item:172957}'
-L['atonement_crypt_key_note'] = '{item:172957} puede caer como botín de los enemigos en el área de las {location:Criptas de Expiación} area.\n\n{npc:158902}\n{npc:176109}\n{npc:158894}\n{npc:156911}\n{npc:158910}\n{npc:176121}\n{npc:176114}\n{npc:156909}\n{npc:156256}\n{npc:176124}\n{npc:156260}\n{npc:159027}\n{npc:158897}\n{npc:176116}\n{npc:158908}\n{npc:176122}\n\nLas mayores probabilidades las tiene {npc:158892}.'
+L['atonement_crypt_key_note'] = [[
+{item:172957} puede caer como botín de los enemigos en el área de las {location:Criptas de Expiación} area.
+
+{npc:158902}
+{npc:176109}
+{npc:158894}
+{npc:156911}
+{npc:158910}
+{npc:176121}
+{npc:176114}
+{npc:156909}
+{npc:156256}
+{npc:176124}
+{npc:156260}
+{npc:159027}
+{npc:158897}
+{npc:176116}
+{npc:158908}
+{npc:176122}
+
+Las mayores probabilidades las tiene {npc:158892}.
+]]
 L['options_icons_crypt_kicker'] = '{achievement:14273}'
 L['options_icons_crypt_kicker_desc'] = 'Muestra dónde están las criptas para el logro {achievement:14273}.'
 
 L['broken_mirror'] = 'Espejo Roto'
-L['broken_mirror_note'] = 'Cada día estará activo un grupo de tres espejos rotos. Usa un {item:181363} para reparar cada espejo y abrir el {object:Cofre Olvidado} de dentro.'
+L['broken_mirror_note'] = 'Cada día estará activo un grupo de tres {object:Espejo Roto}. Usa un {item:181363} para reparar cada espejo y abrir el {object:Cofre Olvidado} de dentro.'
 L['broken_mirror_crypt'] = 'Dentro de una cripta.'
 L['broken_mirror_elite'] = 'En una habitación pequeña con enemigos élite.'
 L['broken_mirror_group'] = 'Grupo'
@@ -586,12 +610,12 @@ L['broken_mirror_61818'] = 'En una habitación pequeña con {npc:173699}.'
 L['broken_mirror_61819'] = 'En una habitación pequeña en el piso inferior.'
 L['broken_mirror_61827'] = 'En una habitación pequeña.'
 L['options_icons_broken_mirror'] = 'Espejos Rotos'
-L['options_icons_broken_mirror_desc'] = 'Muestra dónde están los espejos rotos.'
+L['options_icons_broken_mirror_desc'] = 'Muestra dónde están los {object:Espejo Roto}.'
 
 L['soulshape_chicken_note'] = [[
 1. Recoge {item:187811} de {location:Refugioscuro}.
 2. Selecciona al {npc:181660} y teclea {emote:/gallina}.
-3. |cFFFF8C00Alma Perdida te cacarea hambrienta|r.
+3. {emote:Alma Perdida te cacarea hambrienta}.
 4. Selecciona al {npc:181660} y usa el {item:187811}.
 ]]
 L['spectral_feed_label'] = '{item:187811}'
@@ -607,7 +631,7 @@ L['spectral_feed_note'] = [[
 ----------------------------------- THE MAW -----------------------------------
 -------------------------------------------------------------------------------
 
-L['return_to_the_maw'] = 'Regreso a Las Fauces'
+L['return_to_the_maw'] = 'Regreso a {location:Las Fauces}'
 L['maw_intro_note'] = 'Comienza la cadena de misiones introductoria de {npc:162804} para desbloquear los raros y los eventos en {location:Las Fauces}.'
 
 L['apholeias_note'] = 'Con otros 3 jugadores, situaos en las esquinas de la plataforma y lanzad la {spell:331783} para hacer aparecer a {npc:170301}.'
@@ -649,7 +673,7 @@ L['chaotic_riftstone_note'] = 'Activa el {spell:344157} para cruzar rápidamente
 L['venari_note'] = [[
 Usa {currency:1767} para comprar mejoras en {location:Las Fauces} y {location:Torghast}.
 
-{note:¡Las mejoras Compartidas en la {location:Cuenta de Torghast} se mostrarán como incompletas en los alters!}
+{note:¡Las mejoras compartidas a cuenta de {location:Torghast} se mostrarán como incompletas en los alters!}
 ]]
 L['venari_upgrade'] = 'Mejora de {npc:162804}'
 L['torghast'] = 'Torghast'
@@ -713,7 +737,7 @@ L['nexus_npc_willbreaker'] = 'En la esquina, detrás del {npc:168233}'
 -- Locations given relative to the main path/road nearby
 L['nexus_road_below'] = 'En el suelo, debajo del camino principal'
 L['nexus_road_cave'] = 'En una cueva pequeña, debajo del camino'
-L['nexus_road_mawrats'] = 'En un pack de ratas de las Fauces a un lado del camino'
+L['nexus_road_mawrats'] = 'En un pack de {npc:165342} a un lado del camino'
 L['nexus_road_next'] = 'Junto al camino principal'
 L['nexus_room_ramparts'] = 'En una habitación pequeña debajo de las murallas'
 -- Random locations described as best as possible
@@ -728,42 +752,42 @@ L['nexus_misc_three_chains'] = 'En el suelo, cerca de tres cadenas'
 L['stolen_anima_vessel'] = 'Receptáculo de Ánima Robado'
 L['hidden_anima_cache'] = 'Alijo de Ánima Oculto'
 L['options_icons_anima_vessel'] = 'Receptáculos de Ánima Robados'
-L['options_icons_anima_vessel_desc'] = 'Muestra dónde están los receptáculos de ánima durante los asaltos y dentro de {location:La Falla}.'
+L['options_icons_anima_vessel_desc'] = 'Muestra dónde están los {object:Receptáculos de Ánima Robado} durante los asaltos y dentro de {location:La Falla}.'
 
 L['rift_hidden_cache'] = 'Alijo Oculto de Falla'
 L['options_icons_rift_hidden_cache'] = 'Alijos Ocultos de Falla'
-L['options_icons_rift_hidden_cache_desc'] = 'Muestra donde están los alijos dentro de {location:La Falla}.'
+L['options_icons_rift_hidden_cache_desc'] = 'Muestra donde están los {object:Alijo Oculto de Falla} dentro de {location:La Falla}.'
 
 L['options_icons_bonus_boss'] = 'Élites de Bonificación'
 L['options_icons_bonus_boss_desc'] = 'Muestra dónde están los élites de bonificación.'
 L['options_icons_riftstone'] = '{npc:174962}'
-L['options_icons_riftstone_desc'] = 'Muestra dónde están los teletransportadores de piedras de falla caóticas.'
+L['options_icons_riftstone_desc'] = 'Muestra dónde están los teletransportadores de {object:Piedra de Falla Caótica}.'
 L['options_icons_grapples'] = '{npc:176308}'
-L['options_icons_grapples_desc'] = 'Muestra dónde están los agarres de la mejora {item:184653}.'
+L['options_icons_grapples_desc'] = 'Muestra dónde están los {npc:176308} de la mejora {item:184653}.'
 L['options_icons_stygia_nexus'] = 'Nexos de Stigia'
-L['options_icons_stygia_nexus_desc'] = 'Muestra dónde están los Nexos necesarios para la montura {item:184168}.'
+L['options_icons_stygia_nexus_desc'] = 'Muestra dónde están los {object:Nexo de Stigia} necesarios para la montura {item:184168}.'
 L['options_icons_stygian_caches'] = 'Alijos de Estigia'
-L['options_icons_stygian_caches_desc'] = 'Muestra dónde están los alijos con Estigia extra.'
+L['options_icons_stygian_caches_desc'] = 'Muestra dónde están los {object:Alijo de Estigia} con cantidad extra.'
 
 L['cov_assault_only'] = 'Disponible sólo durante el asalto de %s.'
 
 L['helgarde_supply'] = 'Alijo de Suministros de Helgarde'
 L['helgarde_supply_note'] = 'Aparece a lo largo de la zona de {location:Desmotaeron}. Tu {npc:180598} puede ayudarte a encontrarlos.'
 L['options_icons_helgarde_cache'] = 'Alijos de Suministros de Helgarde'
-L['options_icons_helgarde_cache_desc'] = 'Muestra dónde están los {object:Alijos de Suministros de Helgarde} en la zona de {location:Desmotaeron}.'
+L['options_icons_helgarde_cache_desc'] = 'Muestra dónde están los {object:Alijo de Suministros de Helgarde} en la zona de {location:Desmotaeron}.'
 
 L['mawsworn_cache_ramparts_note'] = 'Este alijo está sobre las murallas. Usa los puntos de agarre o un {npc:177093} para llegar a ellos.'
 L['mawsworn_cache_tower_note'] = 'Este alijo está sobre una torre y requiere un {npc:177093} para llegar. Usa la habilidad {spell:349853} para saltar arriba.'
-L['mawsworn_cache_quest_note'] = 'The {item:186573} will only drop after you have completed the {quest:63545} quest!'
+L['mawsworn_cache_quest_note'] = 'El {item:186573} sólo caerá después de haber completado la misión {quest:63545}'
 
 L['nilg_silver_ring_note'] = 'Recoge 4 {item:186727} en {location:Desmotaeron} para abrir el {object:Cofre Sellado de Dominación}.'
 L['nilg_silver_ring_note1'] = 'Mata a {npc:177444} y abre la {item:186970}.'
 L['nilg_silver_ring_note2'] = 'Despoja el {object:Llavero de La Lacerante}, que está en una habitación subterránea de la pared al lado de {npc:178311}.'
-L['nilg_silver_ring_note3'] = 'Abre {object:Alijos de Suministros de Helgarde} en la zona de {location:Desmotaeron}. Tu {npc:180598} puede ayudarte a encontrarlos.'
+L['nilg_silver_ring_note3'] = 'Abre {object:Alijo de Suministros de Helgarde} en la zona de {location:Desmotaeron}. Tu {npc:180598} puede ayudarte a encontrarlos.'
 L['nilg_silver_ring_note4'] = 'Mata {npc:177134} en la zona de {location:Desmotaeron} (drop bajo).'
 L['nilg_stone_ring_note'] = 'Recoge 4 {item:186600} durante el asalto del {faction:2410} y combínalos en cualquier {npc:171492} en la {location:Caldera de Zovaal}.'
-L['nilg_stone_ring_note1'] = 'Está en algunos {object:Alijos Jurafauces} (icono amarillo) sobre las murallas del {location:Bastión de la Perdición}.'
-L['nilg_stone_ring_note2'] = 'Completa la misión {quest:63545}, y entonces despoja los {object:Alijos Jurafauces} hasta encontrar el item de misión {item:186573}. ¡Esta misión se puede compartir!'
+L['nilg_stone_ring_note1'] = 'Está en algunos {object:Alijo Jurafauces} (icono amarillo) sobre las murallas del {location:Bastión de la Perdición}.'
+L['nilg_stone_ring_note2'] = 'Completa la misión {quest:63545}, y entonces despoja los {object:Alijo Jurafauces} hasta encontrar el item de misión {item:186573}. ¡Esta misión se puede compartir!'
 L['nilg_stone_ring_note3'] = 'Se despoja de un {npc:179601} que entra por el puerte de la entrada oeste del {location:Bastión de la Perdición} (28,57).'
 L['nilg_stone_ring_note4'] = 'Está por el suelo del {location:Bastión de la Perdición} cerca del {npc:170634}. Tu {npc:180598} puede ayudarte a encontrarlo.'
 L['nilg_gold_band_note'] = 'Usa el punto de agarre y sigue el camino a la cima de la montaña.'
@@ -779,7 +803,7 @@ L['tormentors'] = 'Torturadores de Torghast'
 L['tormentors_note'] = [[
 Los eventos de torturadores aparecen cada 2 horas impares en punto. Aparecerán siempre en el orden listado abajo.
 
-El {item:185972} se puede despojar una vez a la semana y contiene 50 {currency:1906}.
+El {item:185972} se puede despojar una vez a la semana y contiene 50x {currency:1906}.
 ]]
 
 L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
@@ -798,13 +822,13 @@ L['assault_sublabel_AS'] = 'Los asaltos cambian los Jueves a las 8 AM KST y los 
 
 L['necrolord_assault'] = '{quest:63543}'
 L['necrolord_assault_note'] = 'El {item:185992} sólo se puede conseguir una vez por asalto.'
-L['necrolord_assault_quantity_note'] = 'Alijos Jurafauces abiertos.'
+L['necrolord_assault_quantity_note'] = '{object:Alijo Jurafauces} abiertos.'
 L['venthyr_assault'] = '{quest:63822}'
 L['venthyr_assault_note'] = 'El {item:185990} sólo se puede conseguir una vez por asalto.'
 L['venthyr_assault_quantity_note'] = 'Objetos usados.'
 L['night_fae_assault'] = '{quest:63823}'
 L['night_fae_assault_note'] = 'El {item:185991} sólo se puede conseguir una vez por asalto.'
-L['night_fae_assault_quantity_note'] = 'Alijos Ocultos de Falla abiertos.'
+L['night_fae_assault_quantity_note'] = '{object:Alijo Oculto de Falla} abiertos.'
 L['kyrian_assault'] = '{quest:63824}'
 L['kyrian_assault_note'] = 'El {item:185993} sólo se puede conseguir una vez por asalto.'
 L['kyrian_assault_quantity_note1'] = '{npc:179096} encontrado.'
@@ -817,7 +841,7 @@ L['kyrian_assault_quantity_note2'] = 'Teclea {emote:/dance} cerca de las forjas.
 L['torghast_the_tower_of_the_damned'] = 'Torghast, la Torre de los Condenados'
 L['torghast_reward_sublabel'] = '|cFFFF8C00Recompensas compartidas entre muchas alas|r'
 L['torghast_boss_note'] = 'Soltado por varios bosses a lo largo de {location:Torghast, la Torre de los Condenados}.'
-L['torghast_vendor_note'] = 'Vendido por {npc:152594} y {npc:170257} por 300 {currency:1728} o 1.000 {currency:1728}.'
+L['torghast_vendor_note'] = 'Vendido por {npc:152594} y {npc:170257} por 300x {currency:1728} o 1.000x {currency:1728}.'
 L['torghast_reward_note'] = 'Ganado a lo largo de {location:Torghast, la Torre de los Condenados}.'
 L['torghast_soulshape_note'] = 'Capa 12+'
 L['colossal_umbrahide_mawrat_note'] = 'Capa 13+'
@@ -862,9 +886,9 @@ Para acceder a la {location:Alcoba %s} tienes que:
 
 1. Completar el capítulo 6 de la campaña de {location:Zereth Mortis}.
 2. Encontrar la {location:Disposición de la Casa %s} %s.
-3. En las {location:Cumbres Resonantes}, matar enemigos que estén {spell:362651} o quedarse de pie en el círculo blanco hasta llegar a 60 de {npc:183569}.
-4. Usar el {npc:184329} que hay en el {location:Reposo Grávido} para acceder al {location:Enclave Interior}. (Requiere 30 de {npc:183569})
-5. Usar un {npc:184485} diferente para acceder a la {location:Alcoba %s}. (Requiere 30 de {npc:183569})
+3. En las {location:Cumbres Resonantes}, matar enemigos que estén {spell:362651} o quedarse de pie en el círculo blanco hasta llegar a 60 acumulaciones de {npc:183569}.
+4. Usar el {npc:184329} que hay en el {location:Reposo Grávido} para acceder al {location:Enclave Interior}. (Requiere 30x {npc:183569})
+5. Usar un {npc:184485} diferente para acceder a la {location:Alcoba %s}. (Requiere 30x {npc:183569})
 ]]
 
 L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Combada', 'Combada', 'detrás del edificio en el {location:Enclave Ultimus}', 'Combada')
@@ -882,7 +906,7 @@ L['gluttonous_overgrowth_note'] = 'Rompe todas las {npc:184048} cercanas para ac
 L['helmix_note'] = [[
 Mata {npc:179005} de la zona hasta que aparezca el siguiente mensaje.
 
-|cFFFF8C00El suelo vibra... ¡Hay algo bajo la superfície!|r
+{emote:El suelo vibra... ¡Hay algo bajo la superfície!}
 ]]
 L['hirukon_note'] = [[
 Para atraer a {npc:180978} a la superfície, tiene que crearse un {item:187923}.
@@ -893,20 +917,20 @@ Para atraer a {npc:180978} a la superfície, tiene que crearse un {item:187923}.
 
 3. Pesca un {item:187922} del {object:Banco de Pez aletón} cerca del punto de vuelo {location:Tumba de Kelya} en {location:Nazjatar}.
 
-4. Despoja una (está muy escondida) {item:187916} de un balcón en el segundo nivel del {location:Bancal de Nar'shola} en la {location:Extensión Bruñida} (34.7, 75.0).
+4. Despoja una {item:187916} (está muy escondida) de un balcón en el segundo nivel del {location:Bancal de Nar'shola} en la {location:Extensión Bruñida} (34.7, 75.0).
 
 5. Localiza a la {npc:182194} en el estanque al sur del {location:Trono del Prelado en Maldraxxus}. Dile que te construya el {item:187923} acabado.
 
-6. Usa el {item:187923} que te permitirá ver los {object:Banco de Aurélido} junto a {npc:180978} durante 15min. Pesca dentro para traer a {npc:180978} a la superfície.
+6. Usa el {item:187923} que te permitirá ver los {object:Banco de Aurélido} junto a {npc:180978} durante 15 minutos. Pesca dentro para sacar a {npc:180978} a la superfície.
 ]]
 L['orixal_note'] = 'Comparte punto de aparición con el {npc:185487} que patrulla la zona.'
 L['protector_first_ones_note'] = 'Requiere dos personas. Lleva las runas correspondientes a cada consola (están en los alrededores) para abrir la barrera.'
 L['the_engulfer_note'] = 'Defiende a {npc:183505} hasta que {npc:183516} salte de la grieta.'
-L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 acumulaciones de {spell:362976} hasta que estés {spell:362983}. Tienes que estar dentro del anillo de cuerpos de los {npc:183774} cuando seas paralizado para que {npc:183764} se fije en ti.'
+L['zatojin_note'] = 'Atrae a los {npc:183721} cercanos y deja que te pongan 20 acumulaciones de {spell:362976} hasta que estés {spell:362983}. Tienes que estar dentro del anillo de cuerpos de los {npc:183774} cuando estés paralizado para que {npc:183764} se fije en ti.'
 
-L['architects_reserve_note'] = 'Completa la cadena de misiones {quest:64829} que da {npc:180630} en Gracia del Peregrino para desbloquear el tesoro.'
+L['architects_reserve_note'] = 'Completa la cadena de misiones {quest:64829} que da {npc:180630} en {location:Gracia del Peregrino} para desbloquear el tesoro.'
 L['bushel_of_produce_note'] = 'Mata al {npc:182368} al norte mientras tenga el buff {spell:360945} para ganártelo tú. Mata más {npc:182368} (no necesitan tener el buff) hasta que tengas 5 acumulaciones. Ya puedes romper la puerta que da al tesoro.'
-L['crushed_crate_note'] = 'Despoja la {item:189767} que reposa encima del pilar caido por encima del tesoro. Dásela a {npc:185151} a cambio del {item:189768} el cual puede romper las rocas caidas.'
+L['crushed_crate_note'] = 'Despoja la {item:189767} que está encima del pilar caido por encima del tesoro. Dásela a {npc:185151} a cambio del {item:189768} el cual puede romper las rocas caidas.'
 L['domination_cache_note'] = 'La {item:189704} tiene pocas probabilidades de caer de los {npc:181403} y de los {npc:182426} de la zona.'
 L['drowned_broker_supplies_note'] = 'Dile a {npc:181059} que coja el control de un {npc:185282} cercano.'
 L['forgotten_protovault_note'] = 'Sólo está disponible durante la misión del mundo {wq:A salto de rana}.'
@@ -923,9 +947,9 @@ L['undulating_foliage_note'] = [[
 Pulsa los cuatro {npc:185390} para activar el teleportador del centro de la sala de los {location:Distritos Catalizadores}.
 
 • Fuera y detrás del {object:Bloqueo de los Distritos Catalizadores}
-• En la habitación suroeste de los distritos
+• En la habitación suroeste de los {location:Distritos Catalizadores}
 • En la habitación sur con el {npc:181652}
-• En la habitación sureste de los distritos
+• En la habitación sureste de los {location:Distritos Catalizadores}
 ]]
 
 L['provis_cache'] = 'Alijo de Provis cerrado'
@@ -976,7 +1000,7 @@ L['cache_shrouded_cypher'] = 'Alijo de Claves Camuflado'
 L['cache_shrouded_cypher_note'] = [[
 Estos alijos sólo se pueden ver teniendo el buff {spell:361917} y llevando el objeto apropiado de Equipo de Claves:
 
-|cFF00FF00Mejora la percepción de Pocopoc y le permite descubrir más alijos ocultos.|r
+{note:Mejora la percepción de {npc:181059} y le permite descubrir más alijos ocultos.}
 ]]
 
 L['cache_cantaric'] = 'Alijo Cantárico'
@@ -985,9 +1009,9 @@ L['cache_glissandian'] = 'Alijo Glissadiano'
 L['cache_mezzonic'] = 'Alijo Mezzónico'
 L['cache_toccatian'] = 'Alijo Tocata'
 
-L['schematic_treasure_note'] = '{note:Este tesoro no tendrá el esquema de la protoforma si no has desbloqueado todavía la forja de síntesis. Si ya has despojado el tesoro, encontrarás el esquema cerca en el suelo.}'
-L['schematic_treasure_mount_note'] = '{note:Este esquema está en un tesoro cercano la primera vez. Si el tesoro se abrió antes de desbloquear la forja de síntesis de monturas, el esquema estará aquí.}'
-L['schematic_treasure_pet_note'] = '{note:Este esquema está en un tesoro cercano la primera vez. Si el tesoro se abrió antes de desbloquear la forja de síntesis de mascotas, el esquema estará aquí.}'
+L['schematic_treasure_note'] = '{note:Este tesoro no tendrá el esquema de la protoforma si no has desbloqueado todavía la {npc:184172}. Si ya has despojado el tesoro, encontrarás el esquema cerca en el suelo.}'
+L['schematic_treasure_mount_note'] = '{note:Este esquema está en un tesoro cercano la primera vez. Si el tesoro se abrió antes de desbloquear la {npc:184172} de monturas, el esquema estará aquí.}'
+L['schematic_treasure_pet_note'] = '{note:Este esquema está en un tesoro cercano la primera vez. Si el tesoro se abrió antes de desbloquear la {npc:184172} de mascotas, el esquema estará aquí.}'
 L['schematic_bronze_helicid_note'] = 'Probabilidad de que esté en el {item:190610} de la misión semanal {quest:65324}.'
 L['schematic_ambystan_darter_note'] = 'Escondido bajo el agua junto al {npc:185312}.'
 L['schematic_bronzewing_vespoid_note'] = 'Dentro del {location:Reposo Grávido}.'
@@ -1035,7 +1059,7 @@ L['misaligned_enforcer_note'] = 'Aparece aquí. Patrulla la zona y entonces desa
 L['overcharged_vespoid_note'] = 'Puede aparecer como parte de una multitud de la zona.'
 L['runethief_xylora_note'] = 'Aparece en sigilo en la zona de {location:Gracia del Peregrino}.'
 
-local proto_area = 'Probabilidad de ser encontrado en las forjas alrededor de {location:%s}.'
+local proto_area = 'Probabilidad de ser encontrado en las forjas alrededor de {object:%s}.'
 L['proto_material_zone_chance'] = 'Probabilidad de ser encontrado en forjas seleccionadas por toda la zona.'
 L['anima_charged_yolk_note'] = 'Recoge {item:187728} de cualquier forja y combínalas para un {item:187787}, el cual tiene probabilidad de contener {item:187890}.'
 L['energized_firmament_note'] = string.format(proto_area, 'Cúspides Resonantes')
@@ -1067,7 +1091,7 @@ L['olea_manu'] = 'Vende transfiguraciones y recetas a cambio de {currency:1979}.
 L['venaris_fate_sublabel'] = 'Está en el {location:Catalizador de Creación}.'
 L['venaris_fate_note'] = [[
 1. Habla con la {npc:162804} incorpórea en el {location:Refugio de Ve'nari} de {location:Las Fauces}.
-2. Si no es incorpórea, hay que progresar en la historia adicional del parche 9.2.5.
+2. Si no es incorpórea, hay que progresar más en la historia del parche 9.2.
 3. Interactúa con el cuerpo de {npc:162804} en el {location:Catalizador de Creación} de {location:Zereth Mortis}.
 4. 5 días después recibirás una carta en el buzón de {npc:162804} junto con el juguete {item:192485}.
 ]]
@@ -1075,9 +1099,9 @@ L['venaris_fate_note'] = [[
 L['options_icons_code_creature'] = '{achievement:15211}'
 L['options_icons_code_creature_desc'] = 'Muestra dónde están las criaturas para el logro {achievement:15211}.'
 L['options_icons_concordances'] = 'Concordancias de Conocimiento'
-L['options_icons_concordances_desc'] = 'Muestra dónde están las consolas de las concordancias de conocimiento.'
+L['options_icons_concordances_desc'] = 'Muestra dónde están las consolas de {object:Concordancias de Conocimiento}.'
 L['options_icons_echoed_jiros'] = 'Jiro en Eco'
-L['options_icons_echoed_jiros_desc'] = 'Muestra dónde están los {object:Jiro en Eco} que dan bufos.'
+L['options_icons_echoed_jiros_desc'] = 'Muestra dónde están los {npc:Jiro en Eco} que dan bufos.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Muestra dónde están los libros para el logro {achievement:15509}.'
 L['options_icons_proto_materials'] = '{achievement:15229}'
@@ -1085,12 +1109,12 @@ L['options_icons_proto_materials_desc'] = 'Muestra dónde están los materiales 
 L['options_icons_protoform_schematics'] = 'Esquemas de Protoforma'
 L['options_icons_protoform_schematics_desc'] = 'Muestra dónde están los esquemas de monturas y mascotas.'
 L['options_icons_puzzle_caches'] = 'Alijos Puzzles'
-L['options_icons_puzzle_caches_desc'] = 'Muestra dónde están los sitios posibles para los alijos puzzle.'
+L['options_icons_puzzle_caches_desc'] = 'Muestra dónde están los sitios posibles para los {object:Alijo Puzzle}.'
 L['options_icons_zereth_caches'] = 'Cofres con Clave'
-L['options_icons_zereth_caches_desc'] = 'Muestra dónde están los sitios posibles para los cofres con clave.'
+L['options_icons_zereth_caches_desc'] = 'Muestra dónde están los sitios posibles para los {object:Cofre con Clave}.'
 L['options_icons_shrouded_cyphers'] = 'Alijos de claves camuflado'
-L['options_icons_shrouded_cyphers_desc'] = 'Muestra dónde están los sitios posibles para los alijos de claves camuflado.'
+L['options_icons_shrouded_cyphers_desc'] = 'Muestra dónde están los sitios posibles para los {object:Alijo de Claves Camuflado}.'
 L['options_icons_mawsworn_supply_cache'] = 'Cofres de Suministros Jurafauces'
-L['options_icons_mawsworn_supply_cache_desc'] = 'Muestra dónde están los sitios posibles para los cofres de suministros Jurafauces.'
+L['options_icons_mawsworn_supply_cache_desc'] = 'Muestra dónde están los sitios posibles para los {object:Cofre de Suministros Jurafauces}.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Muestra dónde están los Automas salvajes que controlar para el logro {achievement:15542}.'

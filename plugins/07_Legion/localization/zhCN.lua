@@ -3,7 +3,6 @@ local L = ns.NewLocale('zhCN')
 if not L then return end
 
 local Gold = ns.color.Gold
-local Red = ns.color.Red
 
 -------------------------------------------------------------------------------
 ------------------------------- ANTORAN WASTES --------------------------------
@@ -22,10 +21,10 @@ L['the_many_faced_devourer_checklist'] = Gold('物品检查表（背包或银行
 L['orix_the_all_seer_note'] = '出售收藏品换取 {item:153021}。'
 
 L['legion_war_supplies'] = '军团战争物资'
-L['legion_war_supplies_note'] = '有9个独特的军团战争物资可以出现位置组中。'
+L['legion_war_supplies_note'] = '有9个独特的 {object:军团战争物资} 可以出现位置组中。'
 
 L['options_icons_legion_war_supplies'] = '军团战争物资'
-L['options_icons_legion_war_supplies_desc'] = '显示军团战争物资的可能位置（每日宝箱）。'
+L['options_icons_legion_war_supplies_desc'] = '显示 {object:军团战争物资} 的可能位置（每日宝箱）。'
 
 -------------------------------------------------------------------------------
 ------------------------------------ ARGUS ------------------------------------
@@ -37,7 +36,7 @@ L['fel_spotted_egg_contains'] = '{item:153190} 可包含'
 L['goblin_glider_treasure_note'] = '使用 {item:109076} 滑翔到宝藏。'
 L['lightforged_warframe_treasure_note'] = '登上 {npc:126426} 在 {npc:121365} 激活 {item:152098}。\n\n使用 {item:152098} 和 {spell:250434} 融化岩石并找到宝藏。'
 L['lights_judgement_treasure_note'] = '登上 {npc:126426} 在 {npc:121365} 激活 {item:151830}。\n\n使用 {item:151830} 炸开岩石并找到宝藏。'
-L['shroud_of_arcane_echoes_treasures_note'] = '登上 {npc:126426} 在 {npc:121365} 激活 {item:151912}。\n\n使用 {item:151912} 解锁宝藏。\n\n' .. Red('"只对拥有与奥古雷相呼应的力量的人开放。"')
+L['shroud_of_arcane_echoes_treasures_note'] = '登上 {npc:126426} 在 {npc:121365} 激活 {item:151912}。\n\n使用 {item:151912} 解锁宝藏。\n\n{note:“只对拥有与奥古雷相呼应的力量的人开放。”}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- AZSUNA ------------------------------------
@@ -52,14 +51,14 @@ L['doomlord_kazrok_note'] = '和 {npc:91580} 交谈。'
 L['felwing_note'] = '和 {npc:105913} 交谈并击杀 {npc:105919} 直到稀有出现。'
 L['golza_note'] = '吹响 {object:海妖号角} 并击杀 {npc:90774} 和 {npc:90778} 直到稀有出现。'
 L['infernal_lord_note'] = '点击 {object:地狱火宝箱} 并击杀 {npc:90797} 直到稀有出现。'
-L['inquisitor_tivos_note'] = '使用{object:军团传送门}。他在下层。'
+L['inquisitor_tivos_note'] = '使用 {object:军团传送门}。他在下层。'
 L['shaliman_note'] = '在池塘边。'
 
 L['disputed_treasure'] = '有争议的宝藏'
 L['in_academy'] = '{location:纳萨拉斯学院} 内。'
 L['in_oceanus_cove'] = '{location:欧逊努斯海窟} 内。'
 L['seemingly_unguarded_treasure'] = '看似无人看守的宝藏'
-L['seemingly_unguarded_treasure_note'] = '尝试拾取宝藏并击杀随后出现的数波 {npc:94167}。'
+L['seemingly_unguarded_treasure_note'] = '尝试拾取 {object:看似无人看守的宝藏} 并击杀随后出现的数波 {npc:94167}。'
 L['treasure_37958'] = '位于建筑物下层。'
 L['treasure_37980'] = '使用断桥上的 {object:魔网传送门}。'
 L['treasure_40711'] = '使用塔内的 {object:魔网传送门}。'
@@ -80,7 +79,7 @@ L['book_7'] = '第七章（周六）'
 
 L['higher_dimensional_learning_location'] = '位于塔顶。'
 L['higher_dimensional_learning_note'] = '从 {location:倾颓王宫} 的 {npc:107376} 购买 {item:129276}。每天使用 {item:129276} 将传送到不同书的位置。\n\n第一章（周日）\n第二章（周一）\n第三章（周二）\n第四章（周三）\n第五章（周四）\n第六章（周五）\n第七章（周六）'
-L['higher_dimensional_learning_disclaimer'] = '{note:传送到书本位置并不能保证这本书会刷新。可能需要等待或稍后再回来查看。}'
+L['higher_dimensional_learning_disclaimer'] = '{note:传送到书本位置并不能保证这本书会出现。可能需要等待或稍后再回来查看。}'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
 L['options_icons_higher_dimensional_learning_desc'] = '显示 {achievement:11175} 成就中书的位置。'
@@ -123,7 +122,7 @@ L['turek_the_lucid_note'] = '在 {location:奥罗纳尔陷坑} 内'
 L['ancient_eredar_cache'] = '上古艾瑞达宝箱'
 L['ancient_eredar_cache_note'] = '有6个独特的上古艾瑞达宝箱可以出现位置组中。'
 L['void_seeped_cache'] = '浸透虚空的宝箱'
-L['void_seeped_cache_note'] = '有2个独特的浸透虚空的宝箱可以出现位置组中。|c00ff0000这些不包含幻化。|r'
+L['void_seeped_cache_note'] = '有2个独特的浸透虚空的宝箱可以出现位置组中。{note:这些不包含幻化。}'
 
 L['options_icons_ancient_eredar_cache'] = '上古艾瑞达宝箱'
 L['options_icons_ancient_eredar_cache_desc'] = '显示上古艾瑞达宝箱的可能位置（每日宝箱）。'

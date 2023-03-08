@@ -38,9 +38,6 @@ map.nodes[28473653] = Rare({
     id = 191713,
     note = L['in_small_cave'],
     quest = 66967,
-    rewards = {
-        Item({item = 196435, note = L['neck']}) -- Scytherin's Barbed Necklace
-    },
     pois = {POI({33653370})} -- Entrance
 }) -- Scytherin
 

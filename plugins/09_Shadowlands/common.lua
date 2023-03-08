@@ -10,6 +10,7 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 
+local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Reward = ns.reward.Reward
@@ -321,6 +322,8 @@ ns.groups.CORELESS_AUTOMA = Group('coreless_automa', 4327618, {
     end
 })
 
+ns.groups.SAFARI = Group('safari', 3046536, {defaults = ns.GROUP_HIDDEN})
+
 -------------------------------------------------------------------------------
 --------------------------------- SOULSHAPES ----------------------------------
 -------------------------------------------------------------------------------
@@ -403,3 +406,188 @@ end
 function Venari:IsMet() return C_QuestLog.IsQuestFlaggedCompleted(self.quest) end
 
 ns.requirement.Venari = Venari
+
+-------------------------------------------------------------------------------
+------------------------------------ SAFARI -----------------------------------
+-------------------------------------------------------------------------------
+
+local Safari = Class('Safari', Collectible,
+    {icon = 'paw_g', group = ns.groups.SAFARI})
+
+ns.node.Safari = {
+    AnimatedCruor = Class('AnimatedCruor', Safari, {
+        id = 175023,
+        rewards = {
+            Achievement({id = 14867, criteria = 50923, oneline = true}),
+            Pet({id = 3051})
+        }
+    }),
+    BleakSkitterer = Class('BleakSkitterer', Safari, {
+        id = 175022,
+        rewards = {
+            Achievement({id = 14867, criteria = 50926, oneline = true}),
+            Pet({id = 3050})
+        }
+    }),
+    Clutch = Class('Clutch', Safari, {
+        id = 172130,
+        rewards = {
+            Achievement({id = 14867, criteria = 50922, oneline = true}),
+            Pet({id = 2950})
+        }
+    }),
+    CopperfurKit = Class('CopperfurKit', Safari, {
+        id = 171702,
+        rewards = {
+            Achievement({id = 14867, criteria = 50916, oneline = true}),
+            Pet({id = 2936})
+        }
+    }),
+    Crawbat = Class('Crawbat', Safari, {
+        id = 176024,
+        rewards = {
+            Achievement({id = 14867, criteria = 51096, oneline = true}),
+            Pet({id = 3083})
+        }
+    }),
+    DecayGrub = Class('DecayGrub', Safari, {
+        id = 176020,
+        rewards = {
+            Achievement({id = 14867, criteria = 51094, oneline = true}),
+            Pet({id = 3081})
+        }
+    }),
+    DeepwoodLeaper = Class('DeepwoodLeaper', Safari, {
+        id = 173590,
+        rewards = {
+            Achievement({id = 14867, criteria = 50921, oneline = true}),
+            Pet({id = 3021})
+        }
+    }),
+    DuskyDredwingPup = Class('DuskyDredwingPup', Safari, {
+        id = 171149,
+        rewards = {
+            Achievement({id = 14867, criteria = 50907, oneline = true}),
+            Pet({id = 2902})
+        }
+    }),
+    FledglingTeroclaw = Class('FledglingTeroclaw', Safari, {
+        id = 171567,
+        rewards = {
+            Achievement({id = 14867, criteria = 50911, oneline = true}),
+            Pet({id = 2926})
+        }
+    }),
+    FlutteringGlimmerfly = Class('FlutteringGlimmerfly', Safari, {
+        id = 171664,
+        rewards = {
+            Achievement({id = 14867, criteria = 50913, oneline = true}),
+            Pet({id = 2927})
+        }
+    }),
+    GlimmerpoolHatchling = Class('GlimmerpoolHatchling', Safari, {
+        id = 171670,
+        rewards = {
+            Achievement({id = 14867, criteria = 50917, oneline = true}),
+            Pet({id = 2930})
+        }
+    }),
+    GormRootstinger = Class('GormRootstinger', Safari, {
+        id = 171229,
+        rewards = {
+            Achievement({id = 14867, criteria = 50919, oneline = true}),
+            Pet({id = 2919})
+        }
+    }),
+    LostSoul = Class('LostSoul', Safari, {
+        id = 171123,
+        rewards = {
+            Achievement({id = 14867, criteria = 50906, oneline = true}),
+            Pet({id = 2895})
+        }
+    }),
+    MireCreeper = Class('MireCreeper', Safari, {
+        id = 173555,
+        rewards = {
+            Achievement({id = 14867, criteria = 50909, oneline = true}),
+            Pet({id = 3014})
+        }
+    }),
+    NecroraySpawnling = Class('NecroraySpawnling', Safari, {
+        id = 175024,
+        rewards = {
+            Achievement({id = 14867, criteria = 50924, oneline = true}),
+            Pet({id = 3052})
+        }
+    }),
+    PulsatingMaggot = Class('PulsatingMaggot', Safari, {
+        id = 175021,
+        rewards = {
+            Achievement({id = 14867, criteria = 50925, oneline = true}),
+            Pet({id = 3049})
+        }
+    }),
+    RosetippedSpiderling = Class('RosetippedSpiderling', Safari, {
+        id = 173506,
+        rewards = {
+            Achievement({id = 14867, criteria = 50910, oneline = true}),
+            Pet({id = 3007})
+        }
+    }),
+    RustfurKit = Class('RustfurKit', Safari, {
+        id = 171703,
+        rewards = {
+            Achievement({id = 14867, criteria = 50915, oneline = true}),
+            Pet({id = 2937})
+        }
+    }),
+    Starmoth = Class('Starmoth', Safari, {
+        id = 176021,
+        rewards = {
+            Achievement({id = 14867, criteria = 51095, oneline = true}),
+            Pet({id = 3082})
+        }
+    }),
+    TranquilWader = Class('TranquilWader', Safari, {
+        id = 171228,
+        rewards = {
+            Achievement({id = 14867, criteria = 50920, oneline = true}),
+            Pet({id = 2924})
+        }
+    }),
+    VerdantKit = Class('VerdantKit', Safari, {
+        id = 176019,
+        rewards = {
+            Achievement({id = 14867, criteria = 51093, oneline = true}),
+            Pet({id = 3080})
+        }
+    }),
+    VibrantGlimmerfly = Class('VibrantGlimmerfly', Safari, {
+        id = 171668,
+        rewards = {
+            Achievement({id = 14867, criteria = 50912, oneline = true}),
+            Pet({id = 2929})
+        }
+    }),
+    WaderChick = Class('WaderChick', Safari, {
+        id = 171712,
+        rewards = {
+            Achievement({id = 14867, criteria = 50914, oneline = true}),
+            Pet({id = 2939})
+        }
+    }),
+    WildEtherwyrm = Class('WildEtherwyrm', Safari, {
+        id = 171666,
+        rewards = {
+            Achievement({id = 14867, criteria = 50918, oneline = true}),
+            Pet({id = 2943})
+        }
+    }),
+    WitheringCreeper = Class('WitheringCreeper', Safari, {
+        id = 173556,
+        rewards = {
+            Achievement({id = 14867, criteria = 50908, oneline = true}),
+            Pet({id = 3015})
+        }
+    })
+}

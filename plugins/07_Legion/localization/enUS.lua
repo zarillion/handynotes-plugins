@@ -21,10 +21,10 @@ L['the_many_faced_devourer_checklist'] = Gold('Item Checklist (in bags or bank):
 L['orix_the_all_seer_note'] = 'Sells collectibles in exchange for {item:153021}.'
 
 L['legion_war_supplies'] = 'Legion War Supplies'
-L['legion_war_supplies_note'] = 'There are 9 unique legion war supplies that can each appear at set locations.'
+L['legion_war_supplies_note'] = 'There are 9 unique {object:Legion War Supplies} that can each appear at set locations.'
 
 L['options_icons_legion_war_supplies'] = 'Legion War Supplies'
-L['options_icons_legion_war_supplies_desc'] = 'Display possible locations for legion war supplies (daily chests).'
+L['options_icons_legion_war_supplies_desc'] = 'Display possible locations for {object:Legion War Supplies} (daily chests).'
 
 -------------------------------------------------------------------------------
 ------------------------------------ ARGUS ------------------------------------
@@ -46,22 +46,22 @@ L['arcavellus_note'] = 'Kill {npc:90242s} and {npc:90243s} until the rare appear
 L['beacher_note'] = 'Not available when the {wq:Helarjar Landing: Grey Shoals} world quest is active.'
 L['brogozog_note'] = 'Speak with {npc:91097}.'
 L['chief_bitterbrine_note'] = 'In the ship on the lower deck.'
-L['devious_sunrunner_note'] = 'Use the Ley Portal in a small cave. Don\'t forget to loot the chest.'
+L['devious_sunrunner_note'] = 'Use the {object:Ley Portal} in a small cave. Don\'t forget to loot the chest.'
 L['doomlord_kazrok_note'] = 'Speak with {npc:91580}.'
 L['felwing_note'] = 'Speak with {npc:105913} and then kill {npc:105919s} until the rare appears.'
-L['golza_note'] = 'Blow the Horn of the Siren, then kill {npc:90774s} and {npc:90778s} until the rare appears.'
-L['infernal_lord_note'] = 'Click the Cache of Infernals and kill {npc:90797s} until the rare appears.'
-L['inquisitor_tivos_note'] = 'Use the Legion Portal. He is on a lower floor.'
+L['golza_note'] = 'Blow the {object:Horn of the Siren}, then kill {npc:90774s} and {npc:90778s} until the rare appears.'
+L['infernal_lord_note'] = 'Click the {object:Cache of Infernals} and kill {npc:90797s} until the rare appears.'
+L['inquisitor_tivos_note'] = 'Use the {object:Legion Portal}. He is on a lower floor.'
 L['shaliman_note'] = 'Walks around the pool.'
 
 L['disputed_treasure'] = 'Disputed Treasure'
-L['in_academy'] = 'Inside Nar\'thalas Academy.'
-L['in_oceanus_cove'] = 'Inside the Oceanus Cove.'
+L['in_academy'] = 'Inside {location:Nar\'thalas Academy}.'
+L['in_oceanus_cove'] = 'Inside the {location:Oceanus Cove}.'
 L['seemingly_unguarded_treasure'] = 'Seemingly Unguarded Treasure'
-L['seemingly_unguarded_treasure_note'] = 'Try to loot the treasure and then kill a few waves of {npc:94167s}.'
+L['seemingly_unguarded_treasure_note'] = 'Try to loot the {object:Seemingly Unguarded Treasure} and then kill a few waves of {npc:94167s}.'
 L['treasure_37958'] = 'On a lower level of the building.'
-L['treasure_37980'] = 'Use the Ley Portal on the broken bridge.'
-L['treasure_40711'] = 'Use the Ley Portal inside the tower.'
+L['treasure_37980'] = 'Use the {object:Ley Portal} on the broken bridge.'
+L['treasure_40711'] = 'Use the {object:Ley Portal} inside the tower.'
 L['treasure_42282'] = 'On the balcony in a corner.'
 L['treasure_42283'] = 'On the second floor.'
 L['treasure_42287'] = 'Under water.'
@@ -78,7 +78,7 @@ L['book_6'] = 'Book 6 (Friday)'
 L['book_7'] = 'Book 7 (Saturday)'
 
 L['higher_dimensional_learning_location'] = 'Located at the top of the tower.'
-L['higher_dimensional_learning_note'] = 'Purchase {item:129276} from {npc:107376} at |cFFFFFD00Crumbled Palace|r. Use {item:129276} each day to be teleported to a different book location.\n\nBook 1: Sunday\nBook 2: Monday\nBook 3: Tuesday\nBook 4: Wednesday\nBook 5: Thursday\nBook 6: Friday\nBook 7: Saturday'
+L['higher_dimensional_learning_note'] = 'Purchase {item:129276} from {npc:107376} at {location:Crumbled Palace}. Use {item:129276} each day to be teleported to a different book location.\n\nBook 1: Sunday\nBook 2: Monday\nBook 3: Tuesday\nBook 4: Wednesday\nBook 5: Thursday\nBook 6: Friday\nBook 7: Saturday'
 L['higher_dimensional_learning_disclaimer'] = '{note:Teleporting to a book location does not guarentee the book will spawn. You may need to wait or check back later.}'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
@@ -114,12 +114,12 @@ L['bohdi_sunwayver_note'] = 'Sun\'s out! Pets out!'
 -------------------------------------------------------------------------------
 
 L['kaara_the_pale_note'] = '{npc:126860} no longer drops {item:153190}'
-L['turek_the_lucid_note'] = 'In the |cFFFFFD00Oronaar Collapse|r'
+L['turek_the_lucid_note'] = 'In the {location:Oronaar Collapse}'
 
 L['ancient_eredar_cache'] = 'Ancient Eredar Cache'
 L['ancient_eredar_cache_note'] = 'There are 6 unique ancient eredar caches that can each appear at set locations.'
 L['void_seeped_cache'] = 'Void-Seeped Cache'
-L['void_seeped_cache_note'] = 'There are 2 unique void-seeped caches that can each appear at set locations. |c00ff0000These do not contain transmogs.|r'
+L['void_seeped_cache_note'] = 'There are 2 unique void-seeped caches that can each appear at set locations. {note:These do not contain transmogs.}'
 
 L['options_icons_ancient_eredar_cache'] = 'Ancient Eredar Cache'
 L['options_icons_ancient_eredar_cache_desc'] = 'Display possible locations for ancient eredar caches (daily chests).'
@@ -174,7 +174,7 @@ L['skulvrax_note'] = 'Resuscitate {npc:92334} and follow her.'
 L['theryssia_note'] = 'Read {npc:94194}\'s nameplate on the gravestone.'
 L['unguarded_thistleleaf_treasure'] = 'Unguarded Thistleleaf Treasure'
 
-L['in_darkpens'] = 'Inside the Darkpens.'
+L['in_darkpens'] = 'Inside the {location:Darkpens}.'
 L['treasure_38366'] = 'Under the tree roots.'
 L['treasure_38386'] = 'On the balcony on the second floor.'
 L['treasure_38387'] = 'In an small cave under the inn. The entrance is behind the building.'
@@ -204,4 +204,4 @@ L['small_treasure_chest'] = 'Small Treasure Chest'
 L['treasure_chest'] = 'Treasure Chest'
 L['treasures_discovered'] = 'treasures discovered'
 
-L['general_pet_tamer_note'] = ns.color.Orange('Only appears when the corresponding world quest is active.')
+L['general_pet_tamer_note'] = '{note:Only appears when the corresponding world quest is active.}'

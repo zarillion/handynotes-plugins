@@ -17,6 +17,9 @@ L['squirrels_note'] = '你必須對小動物而不是戰寵使用表情 /love'
 L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = '顯示 {achievement:14731} 成就中小動物的位置'
 
+L['options_icons_safari'] = '{achievement:14867}'
+L['options_icons_safari_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- ARDENWEALD ----------------------------------
 -------------------------------------------------------------------------------

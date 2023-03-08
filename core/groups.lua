@@ -42,10 +42,8 @@ end
 
 function Group:HasEnabledNodes(map)
     for coord, node in pairs(map.nodes) do
-        for i, group in pairs(node.group) do
-            if group == self and map:CanDisplay(node, coord) then
-                return true
-            end
+        if node.group[1] == self and map:CanDisplay(node, coord) then
+            return true
         end
     end
     return false

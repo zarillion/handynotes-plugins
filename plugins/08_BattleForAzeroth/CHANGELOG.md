@@ -1,3 +1,9 @@
+# v14
+
+* Added a full frFR translation (thanks Lightuky!)
+* Added safari achievement nodes for all major BfA patches.
+* Fixed Nazjatar nodes not displaying correctly for alliance characters.
+
 # v13
 
 * Added improvements from the Dragonflight plugin.

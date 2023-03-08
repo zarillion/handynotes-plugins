@@ -103,6 +103,10 @@ L['options_icons_locked_chest_desc'] = 'Отображение местопол�
 L['options_icons_recrig'] = 'Очистительная установка'
 L['options_icons_recrig_desc'] = 'Показать местоположение Очистительной установки и ее награды.'
 
+L['mechagon_snooter_note'] = nil
+L['battlepet_secondary_only_note'] = nil
+L['mechagon_explode_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
 -------------------------------------------------------------------------------
@@ -661,7 +665,7 @@ L['options_icons_brutosaurs'] = '{achievement:13029}'
 L['options_icons_brutosaurs_desc'] = 'Отображение местоположения брутозавров для достижения {achievement:13029}.'
 
 local hekd_note = '\n\nЧтобы получить доступ к {npc:126334}, вам необходимо выполнить %s.'
-if ns.faction == 'Horde' then
+if UnitFactionGroup('player') == 'Horde' then
     hekd_note = hekd_note:format('{quest:47441} от {npc:127665} в Дазар\'алоре, за которым следует {quest:47442} от {npc:126334}')
 else
     hekd_note = hekd_note:format('{quest:51142} от {npc:136562} в Вол\'дуне, за которым следует {quest:51145} от {npc:136559}')
@@ -704,7 +708,7 @@ L['options_icons_sausage_sampler'] = '{achievement:13087}'
 L['options_icons_sausage_sampler_desc'] = 'Отображение местоположения продавцов для достижения {achievement:13087}.'
 
 -- For Horde, include a note about drinks that must be purchased on the AH
-local horde_sheets = (ns.faction == 'Horde') and [[ Следующие напитки недоступны для Орды и должны быть куплены на аукционе:
+local horde_sheets = (UnitFactionGroup('player') == 'Horde') and [[ Следующие напитки недоступны для Орды и должны быть куплены на аукционе:
 
 • {item:163639}
 • {item:163638}
@@ -734,3 +738,10 @@ L['options_icons_secret_supplies_desc'] = 'Отобразить {object:Секр
 L['squirrels_note'] = 'Вы должны использовать эмоцию {emote:/любовь} на зверьках, а не на боевых питомцах.'
 L['options_icons_squirrels'] = '{achievement:14730}'
 L['options_icons_squirrels_desc'] = 'Места появления зверьков для {achievement:14730}'
+
+L['options_icons_battle_safari'] = '{achievement:12930}'
+L['options_icons_battle_safari_desc'] = nil
+L['options_icons_mecha_safari'] = '{achievement:13693}'
+L['options_icons_mecha_safari_desc'] = nil
+L['options_icons_nazja_safari'] = '{achievement:13694}'
+L['options_icons_nazja_safari_desc'] = nil

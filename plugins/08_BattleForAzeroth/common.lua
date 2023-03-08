@@ -11,7 +11,9 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
 local Quest = ns.node.Quest
+
 local Achievement = ns.reward.Achievement
+local Pet = ns.reward.Pet
 
 -------------------------------------------------------------------------------
 
@@ -88,6 +90,12 @@ ns.groups.VISIONS_CRYSTALS = Group('visions_crystals', 'crystal_o')
 ns.groups.VISIONS_MAIL = Group('visions_mail', 'envelope')
 ns.groups.VISIONS_MISC = Group('visions_misc', 2823166)
 ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
+ns.groups.BATTLE_SAFARI = Group('battle_safari', 651137,
+    {defaults = ns.GROUP_HIDDEN})
+ns.groups.MECHA_SAFARI = Group('mecha_safari', 1694136,
+    {defaults = ns.GROUP_HIDDEN})
+ns.groups.NAZJA_SAFARI = Group('nazja_safari', 2267049,
+    {defaults = ns.GROUP_HIDDEN})
 
 -------------------------------------------------------------------------------
 ---------------------------------- CALLBACKS ----------------------------------
@@ -231,3 +239,373 @@ local Squirrel = Class('Squirrel', Collectible, {
 })
 
 ns.node.Squirrel = Squirrel
+
+-------------------------------------------------------------------------------
+------------------------------------ SAFARI -----------------------------------
+-------------------------------------------------------------------------------
+
+local Battle_Safari = Class('Battle_Safari', Collectible,
+    {icon = 'paw_g', group = ns.groups.BATTLE_SAFARI})
+local Nazja_Safari = Class('Nazja_Safari', Collectible,
+    {icon = 'paw_g', group = ns.groups.NAZJA_SAFARI})
+local Mecha_Safari = Class('Mecha_Safari', Collectible,
+    {icon = 'paw_g', group = ns.groups.MECHA_SAFARI})
+
+ns.node.Safari = {
+    BarrierHermit = Class('BarrierHermit', Battle_Safari, {
+        id = 143044,
+        rewards = {
+            Achievement({id = 12930, criteria = 41286, oneline = false}),
+            Pet({id = 2385})
+        }
+    }),
+    BloodfeverTarantula = Class('BloodfeverTarantula', Battle_Safari, {
+        id = 143047,
+        rewards = {
+            Achievement({id = 12930, criteria = 41288, oneline = false}),
+            Pet({id = 2388})
+        }
+    }),
+    Boghopper = Class('Boghopper', Battle_Safari, {
+        id = 143055,
+        rewards = {
+            Achievement({id = 12930, criteria = 41297, oneline = false}),
+            Pet({id = 2398})
+        }
+    }),
+    CoastalBounder = Class('CoastalBounder', Battle_Safari, {
+        id = 143057,
+        rewards = {
+            Achievement({id = 12930, criteria = 41299, oneline = false}),
+            Pet({id = 2400})
+        }
+    }),
+    CoastalScuttler = Class('CoastalScuttler', Battle_Safari, {
+        id = 143045,
+        rewards = {
+            Achievement({id = 12930, criteria = 41287, oneline = false}),
+            Pet({id = 2386})
+        }
+    }),
+    ElusiveSkimmer = Class('ElusiveSkimmer', Battle_Safari, {
+        id = 143048,
+        rewards = {
+            Achievement({id = 12930, criteria = 41290, oneline = false}),
+            Pet({id = 2389})
+        }
+    }),
+    FreshwaterCrawler = Class('FreshwaterCrawler', Battle_Safari, {
+        id = 143033,
+        rewards = {
+            Achievement({id = 12930, criteria = 41275, oneline = false}),
+            Pet({id = 2374})
+        }
+    }),
+    GiantWoodworm = Class('GiantWoodworm', Battle_Safari, {
+        id = 143042,
+        rewards = {
+            Achievement({id = 12930, criteria = 41284, oneline = false}),
+            Pet({id = 2383})
+        }
+    }),
+    GluttedBleeder = Class('GluttedBleeder', Battle_Safari, {
+        id = 143053,
+        rewards = {
+            Achievement({id = 12930, criteria = 41295, oneline = false}),
+            Pet({id = 2395})
+        }
+    }),
+    GoldenBeetle = Class('GoldenBeetle', Battle_Safari, {
+        id = 143046,
+        rewards = {
+            Achievement({id = 12930, criteria = 41289, oneline = false}),
+            Pet({id = 2387})
+        }
+    }),
+    HermitCrab = Class('HermitCrab', Battle_Safari, {
+        id = 143056,
+        rewards = {
+            Achievement({id = 12930, criteria = 41298, oneline = false}),
+            Pet({id = 2399})
+        }
+    }),
+    HoneyBee = Class('HoneyBee', Battle_Safari, {
+        id = 143038,
+        rewards = {
+            Achievement({id = 12930, criteria = 41280, oneline = false}),
+            Pet({id = 2379})
+        }
+    }),
+    InlandCroaker = Class('InlandCroaker', Battle_Safari, {
+        id = 143041,
+        rewards = {
+            Achievement({id = 12930, criteria = 41283, oneline = false}),
+            Pet({id = 2382})
+        }
+    }),
+    LeafyFlutterwing = Class('LeafyFlutterwing', Battle_Safari, {
+        id = 143049,
+        rewards = {
+            Achievement({id = 12930, criteria = 41291, oneline = false}),
+            Pet({id = 2390})
+        }
+    }),
+    ParasiticBoarfly = Class('ParasiticBoarfly', Battle_Safari, {
+        id = 143039,
+        rewards = {
+            Achievement({id = 12930, criteria = 41281, oneline = false}),
+            Pet({id = 2380})
+        }
+    }),
+    ReturnedHatchling = Class('ReturnedHatchling', Battle_Safari, {
+        id = 143052,
+        rewards = {
+            Achievement({id = 12930, criteria = 41294, oneline = false}),
+            Pet({id = 2394})
+        }
+    }),
+    RiverFrog = Class('RiverFrog', Battle_Safari, {
+        id = 143032,
+        rewards = {
+            Achievement({id = 12930, criteria = 41274, oneline = false}),
+            Pet({id = 2373})
+        }
+    }),
+    RiverOtter = Class('RiverOtter', Battle_Safari, {
+        id = 143037,
+        rewards = {
+            Achievement({id = 12930, criteria = 41279, oneline = false}),
+            Pet({id = 2378})
+        }
+    }),
+    SandybackCrawler = Class('SandybackCrawler', Battle_Safari, {
+        id = 143036,
+        rewards = {
+            Achievement({id = 12930, criteria = 41278, oneline = false}),
+            Pet({id = 2377})
+        }
+    }),
+    ShackCrab = Class('ShackCrab', Battle_Safari, {
+        id = 143040,
+        rewards = {
+            Achievement({id = 12930, criteria = 41282, oneline = false}),
+            Pet({id = 2381})
+        }
+    }),
+    ShadowbackCrawler = Class('ShadowbackCrawler', Battle_Safari, {
+        id = 143031,
+        rewards = {
+            Achievement({id = 12930, criteria = 41273, oneline = false}),
+            Pet({id = 2372})
+        }
+    }),
+    ShoreButterfly = Class('ShoreButterfly', Battle_Safari, {
+        id = 143043,
+        rewards = {
+            Achievement({id = 12930, criteria = 41285, oneline = false}),
+            Pet({id = 2384})
+        }
+    }),
+    SpectralRaven = Class('SpectralRaven', Battle_Safari, {
+        id = 143054,
+        rewards = {
+            Achievement({id = 12930, criteria = 41296, oneline = false}),
+            Pet({id = 2397})
+        }
+    }),
+    StickyOozeling = Class('StickyOozeling', Battle_Safari, {
+        id = 143051,
+        rewards = {
+            Achievement({id = 12930, criteria = 41293, oneline = false}),
+            Pet({id = 2393})
+        }
+    }),
+    ValeMarmot = Class('ValeMarmot', Battle_Safari, {
+        id = 143034,
+        rewards = {
+            Achievement({id = 12930, criteria = 41276, oneline = false}),
+            Pet({id = 2375})
+        }
+    }),
+    ValleyChicken = Class('ValleyChicken', Battle_Safari, {
+        id = 143035,
+        rewards = {
+            Achievement({id = 12930, criteria = 41277, oneline = false}),
+            Pet({id = 2376})
+        }
+    }),
+    YoungSandSifter = Class('YoungSandSifter', Battle_Safari, {
+        id = 143050,
+        rewards = {
+            Achievement({id = 12930, criteria = 41292, oneline = false}),
+            Pet({id = 2392})
+        }
+    }),
+    AbyssalSlitherling = Class('AbyssalSlitherling', Nazja_Safari, {
+        id = 154814,
+        rewards = {
+            Achievement({id = 13694, criteria = 45594, oneline = false}),
+            Pet({id = 2678})
+        }
+    }),
+    Bloodseeker = Class('Bloodseeker', Nazja_Safari, {
+        id = 154714,
+        rewards = {
+            Achievement({id = 13694, criteria = 45601, oneline = false}),
+            Pet({id = 2652})
+        }
+    }),
+    ChitterspineSkitterling = Class('ChitterspineSkitterling', Nazja_Safari, {
+        id = 154706,
+        rewards = {
+            Achievement({id = 13694, criteria = 45595, oneline = false}),
+            Pet({id = 2648})
+        }
+    }),
+    DeeptideFingerling = Class('DeeptideFingerling', Nazja_Safari, {
+        id = 154712,
+        rewards = {
+            Achievement({id = 13694, criteria = 45596, oneline = false}),
+            Pet({id = 2651})
+        }
+    }),
+    GlimmershellScuttler = Class('GlimmershellScuttler', Nazja_Safari, {
+        id = 154704,
+        rewards = {
+            Achievement({id = 13694, criteria = 45598, oneline = false}),
+            Pet({id = 2647})
+        }
+    }),
+    GreatSeaAlbatross = Class('GreatSeaAlbatross', Nazja_Safari, {
+        id = 154710,
+        rewards = {
+            Achievement({id = 13694, criteria = 45600, oneline = false}),
+            Pet({id = 2650})
+        }
+    }),
+    HissingChitterspine = Class('HissingChitterspine', Nazja_Safari, {
+        id = 154708,
+        rewards = {
+            Achievement({id = 13694, criteria = 45599, oneline = false}),
+            Pet({id = 2649})
+        }
+    }),
+    MuckSlug = Class('MuckSlug', Nazja_Safari, {
+        id = 154724,
+        rewards = {
+            Achievement({id = 13694, criteria = 45592, oneline = false}),
+            Pet({id = 2660})
+        }
+    }),
+    SandclawPincher = Class('SandclawPincher', Nazja_Safari, {
+        id = 154697,
+        rewards = {
+            Achievement({id = 13694, criteria = 45597, oneline = false}),
+            Pet({id = 2645})
+        }
+    }),
+    SandclawSunshell = Class('SandclawSunshell', Nazja_Safari, {
+        id = 154702,
+        rewards = {
+            Achievement({id = 13694, criteria = 45593, oneline = false}),
+            Pet({id = 2646})
+        }
+    }),
+    SpireshellSnail = Class('SpireshellSnail', Nazja_Safari, {
+        id = 154716,
+        rewards = {
+            Achievement({id = 13694, criteria = 45591, oneline = false}),
+            Pet({id = 2653})
+        }
+    }),
+    DuskytoothSnooter = Class('DuskytoothSnooter', Mecha_Safari, {
+        id = 154769,
+        note = L['mechagon_snooter_note'],
+        rewards = {
+            Achievement({id = 13693, criteria = 45584, oneline = false}),
+            Pet({id = 2662})
+        }
+    }),
+    ExperimentalRoach = Class('ExperimentalRoach', Mecha_Safari, {
+        id = 154773,
+        rewards = {
+            Achievement({id = 13693, criteria = 45588, oneline = false}),
+            Pet({id = 2664})
+        }
+    }),
+    FleetingFrog = Class('FleetingFrog', Mecha_Safari, {
+        id = 154775,
+        rewards = {
+            Achievement({id = 13693, criteria = 45580, oneline = false}),
+            Pet({id = 2665})
+        }
+    }),
+    JunkheapRoach = Class('JunkheapRoach', Mecha_Safari, {
+        id = 154771,
+        rewards = {
+            Achievement({id = 13693, criteria = 45579, oneline = false}),
+            Pet({id = 2663})
+        }
+    }),
+    MalfunctioningMicrobot = Class('MalfunctioningMicrobot', Mecha_Safari, {
+        id = 154798,
+        note = L['mechagon_explode_note'],
+        rewards = {
+            Achievement({id = 13693, criteria = 45590, oneline = false}),
+            Pet({id = 2676})
+        }
+    }),
+    MechagonMarmot = Class('MechagonMarmot', Mecha_Safari, {
+        id = 154785,
+        rewards = {
+            Achievement({id = 13693, criteria = 45581, oneline = false}),
+            Pet({id = 2670})
+        }
+    }),
+    MotorizedCroaker = Class('MotorizedCroaker', Mecha_Safari, {
+        id = 154779,
+        note = L['mechagon_explode_note'],
+        rewards = {
+            Achievement({id = 13693, criteria = 45582, oneline = false}),
+            Pet({id = 2667})
+        }
+    }),
+    RustboltClucker = Class('RustboltClucker', Mecha_Safari, {
+        id = 154783,
+        rewards = {
+            Achievement({id = 13693, criteria = 45585, oneline = false}),
+            Pet({id = 2669})
+        }
+    }),
+    RustyrootSnooter = Class('RustyrootSnooter', Mecha_Safari, {
+        id = 154767,
+        note = L['mechagon_snooter_note'],
+        rewards = {
+            Achievement({id = 13693, criteria = 45586, oneline = false}),
+            Pet({id = 2661})
+        }
+    }),
+    ScrapyardTunneler = Class('ScrapyardTunneler', Mecha_Safari, {
+        id = 154791,
+        note = L['battlepet_secondary_only_note'] .. '\n\n' ..
+            L['mechagon_explode_note'],
+        rewards = {
+            Achievement({id = 13693, criteria = 45583, oneline = false}),
+            Pet({id = 2673})
+        }
+    }),
+    Specimen97 = Class('Specimen97', Mecha_Safari, {
+        id = 154787,
+        rewards = {
+            Achievement({id = 13693, criteria = 45589, oneline = false}),
+            Pet({id = 2671})
+        }
+    }),
+    YellowJunkhopper = Class('YellowJunkhopper', Mecha_Safari, {
+        id = 154777,
+        rewards = {
+            Achievement({id = 13693, criteria = 45587, oneline = false}),
+            Pet({id = 2666})
+        }
+    })
+}

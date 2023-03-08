@@ -99,7 +99,7 @@ L['gronnstalker_rokash_follower_note'] = 'Complétez {quest:32981} pour le recru
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
 L['options_icons_writing_in_the_snow_desc'] = 'Afficher les emplacements de la {object:Page de journal en lambeaux} pour {achievement:9531}'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = 'Affichez les emplacements des {npc:82680} et {object:Cage de prisonnier} pour {achievement:9533}'
+L['options_icons_breaker_of_chains_desc'] = 'Afficher les emplacements des {npc:82680} et {object:Cage de prisonnier} pour {achievement:9533}'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
 L['options_icons_delectable_ogre_delicacies_desc'] = 'Afficher les emplacements des spécialités pour {achievement:9534}'
 
@@ -304,7 +304,7 @@ L['hanging_satchel_treasure'] = 'Sacoche suspendue'
 L['iron_horde_cargo_shipment_treasure'] = 'Cargaison de la Horde de Fer'
 L['iron_horde_tribute_treasure'] = 'Offrande de la Horde de Fer'
 L['kaliri_egg_treasure'] = 'Œuf de kaliri'
-L['lunarfall_egg_note'] = 'S\'installe dans votre fief une fois construit.'
+L['lunarfall_egg_note'] = 'S\'installe dans votre {location:Fief} une fois construit.'
 L['lunarfall_egg_treasure'] = 'Œuf de Chutelune'
 L['mikkals_chest_treasure'] = 'Coffre de Mikkal'
 L['mushroom_covered_chest_treasure'] = 'Coffre couvert de champignons'
@@ -358,7 +358,7 @@ L['ogron_plunder_treasure'] = 'Butin ogron'
 L['orcish_signaling_horn_treasure'] = 'Cor d’alarme orc'
 L['outcasts_belongings_treasure'] = 'Effets personnels de paria'
 L['outcasts_pouch_treasure'] = 'Bourse de paria'
-L['rooby_roos_ruby_collar_note'] = 'Achetez 3 {item:114835} à {npc:82432} dans le sous-sol du {location:Bigorneau saumâtre}. Suivez et nourrissez {npc:84332} jusqu\'à ce qu\'il laisse un "trésor" au sol.'
+L['rooby_roos_ruby_collar_note'] = 'Achetez 3x {item:114835} à {npc:82432} dans le sous-sol du {location:Bigorneau saumâtre}. Suivez et nourrissez {npc:84332} jusqu\'à ce qu\'il laisse un "trésor" au sol.'
 L['rooby_roos_ruby_rollar_treasure'] = 'Roubie Rou'
 L['rukhmars_image_treasure'] = 'Image de Rukhmar'
 L['sailor_zazzuks_180_proof_rum_note'] = 'Dans la salle de contrôle'
@@ -484,7 +484,7 @@ L['wingmen_note'] = 'Tuez les vagues sans fin de {npc:78433}, {npc:76883}, et {n
 L['fel_portal'] = 'Gangreportail'
 
 L['aeda_brightdawn_follower_note'] = 'Complétez {quest:34776} pour la recruter comme sujet'
-L['ahm_follower_note'] = 'Terminez {quest:33973} puis rencontrez-le à votre fief pour le recruter comme sujet'
+L['ahm_follower_note'] = 'Terminez {quest:33973} puis rencontrez-le à votre {location:Fief} pour le recruter comme sujet'
 L['defender_illona_follower_note'] = 'Complétez {quest:34777} pour la recruter comme sujet'
 L['pleasure_bot_8000_follower_note'] = 'Complétez {quest:34761} pour le recruter comme sujet'
 L['image_of_archmage_vargoth_follower_note'] = [[
@@ -494,6 +494,7 @@ Trouvez 4 objets mystérieux en {location:Draenor}.
 {quest:34464} se trouve à la {location:Crête de Givrefeu}
 {quest:34465} se trouve en {location:Talador}
 {quest:34466} se trouve à {location:Nagrand}
+
 Terminez chaque quête à {npc:86949} à la {location:Tour de Khadgar} en {location:Talador} qui aura alors {quest:34472}. Terminez la quête et parlez ensuite à l'{npc:77853} pour le recruter comme sujet.
 ]]
 
@@ -513,8 +514,8 @@ L['vengeance_note'] = '{yell:Velhari la Despote crie: On écrase bien les insect
 L['iron_armada_note'] = 'Ce jouet est aussi achetable à l\'HV et est requis pour {achievement:10353}.'
 L['commander_kraggoth_note'] = 'Au sommet de la tour nord-est.'
 L['grannok_note'] = 'Au sommet de la tour sud-est.'
-L['szirek_the_twisted_note'] = 'Capturez le Point fort à l\'Est pour invoquer ce rare.'
-L['the_iron_houndmaster_note'] = 'Capturez le Point fort à l\'Ouest pour invoquer ce rare.'
+L['szirek_the_twisted_note'] = 'Capturez le {location:Point fort à l\'Est} pour invoquer ce rare.'
+L['the_iron_houndmaster_note'] = 'Capturez le {location:Point fort à l\'Ouest} pour invoquer ce rare.'
 L['belgork_thromma_note'] = 'Cette grotte a deux entrées.'
 L['driss_vile_note'] = 'Au sommet de la tour.'
 L['overlord_magruth_note'] = 'Tuez des orcs autour du camp pour le faire apparaître.'

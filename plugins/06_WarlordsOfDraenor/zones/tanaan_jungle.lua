@@ -35,7 +35,7 @@ local requiredQuests = {
     ['cipher of damnation'] = 38463
 }
 
-if ns.faction == 'Alliance' then
+if UnitFactionGroup('player') == 'Alliance' then
     requiredQuests = {
         -- Garrison Campaign: The Bane of the Bleeding Hollow (Alliance)
         ['bleeding hollow'] = 38560,

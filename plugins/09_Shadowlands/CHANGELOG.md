@@ -1,3 +1,7 @@
+# v53
+
+* Added Shadowlands Safari nodes.
+
 # v52
 
 * Added improvements from the Dragonflight plugin.

@@ -12,7 +12,6 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
-local Item = ns.reward.Item
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -101,19 +100,13 @@ map.nodes[65805345] = Rare({
     quest = 40126,
     id = 95123,
     note = L['in_small_cave'],
-    rewards = {
-        Achievement({id = 11262, criteria = 33284}),
-        Item({item = 130122, note = L['neck']}) -- Grelda's Ageless Pendant
-    }
+    rewards = {Achievement({id = 11262, criteria = 33284})}
 }) -- Grelda the Hag
 
 map.nodes[58823403] = Rare({
     id = 93030,
     quest = 40080,
-    rewards = {
-        Achievement({id = 11262, criteria = 33277}),
-        Item({item = 130126, note = L['trinket']}) -- Iron Branch
-    }
+    rewards = {Achievement({id = 11262, criteria = 33277})}
 }) -- Ironbranch
 
 map.nodes[52808750] = Rare({

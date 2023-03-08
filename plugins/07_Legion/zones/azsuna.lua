@@ -162,8 +162,7 @@ map.nodes[43152815] = Rare({
     note = L['doomlord_kazrok_note'],
     rewards = {
         Achievement({id = 11261, criteria = 32402}),
-        Achievement({id = 11186, criteria = 1}),
-        Item({item = 129056, note = L['trinket']}) -- Dreadlord's Hamstring
+        Achievement({id = 11186, criteria = 1})
     }
 }) -- Doomlord Kazrok
 
@@ -191,10 +190,7 @@ map.nodes[65164000] = Rare({
     id = 89816,
     quest = 37820,
     note = L['golza_note'],
-    rewards = {
-        Achievement({id = 11261, criteria = 33249}),
-        Item({item = 129091, note = L['trinket']}) -- Golza's Iron Fin
-    }
+    rewards = {Achievement({id = 11261, criteria = 33249})}
 }) -- Golza the Iron Fin
 
 map.nodes[30784800] = Rare({
@@ -231,10 +227,7 @@ map.nodes[28435219] = Rare({
 map.nodes[50043466] = Rare({
     id = 89865,
     quest = 37823,
-    rewards = {
-        Achievement({id = 11261, criteria = 33257}),
-        Item({item = 129072, note = L['neck']}) -- The Violaceous Pearl
-    }
+    rewards = {Achievement({id = 11261, criteria = 33257})}
 }) -- Mrrgrl the Tide Reaver
 
 map.nodes[49500880] = Rare({
