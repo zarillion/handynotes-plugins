@@ -96,9 +96,15 @@ ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {
     type = ns.group_types.EXPANSION,
 
     -- Only display group for engineering players
+    -- IsEnabled = function(self)
+    --     if not ns.PlayerHasProfession(202) then return false end
+    --     return Group.IsEnabled(self)
+    -- end
     IsEnabled = function(self)
-        if not ns.PlayerHasProfession(202) then return false end
-        return Group.IsEnabled(self)
+        if not ns.professions.ENGINEERING.PlayerHasProfession() then
+            return false
+        end
+        return ns.Group.IsEnabled(self)
     end
 })
 
