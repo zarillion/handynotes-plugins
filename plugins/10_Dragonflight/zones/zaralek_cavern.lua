@@ -17,6 +17,8 @@ local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Transmog = ns.reward.Transmog
 
+local POI = ns.poi.POI
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2133, settings = true})
@@ -25,25 +27,29 @@ local map = Map({id = 2133, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[31805061] = Rare({
---     id = nil
--- }) -- Emberdusk
+map.nodes[28515115] = Rare({id = 203646}) -- Jrumm
 
--- map.nodes[36324481] = Rare({
---     id = nil
--- }) -- Flowfy
+map.nodes[31805061] = Rare({id = 203664}) -- Emberdusk
 
--- map.nodes[38424650] = Rare({
---     id = nil
--- }) -- Subterrax
+map.nodes[36324481] = Rare({
+    id = 203660,
+    note = L['in_small_cave'],
+    pois = {
+        POI({35924400}) -- Entrance
+    }
+}) -- Flowfy
 
--- map.nodes[40753817] = Rare({
---     id = nil
--- }) -- Magmanesha
+map.nodes[38424650] = Rare({id = 203662}) -- Subterrax
 
--- map.nodes[41518613] = Rare({
---     id = nil
--- }) -- Brulsef the Stronk
+map.nodes[38867151] = Rare({id = 201029}) -- Veridian King
+
+map.nodes[40753817] = Rare({id = 200111}) -- Magmanesha
+
+map.nodes[41518613] = Rare({
+    id = 203621,
+    quest = 75326, -- or 75556
+    note = 'Loot your rewards from the {object:Chest of Massive Gains}'
+}) -- Brulsef the Stronk
 
 -- map.nodes[41921857] = Rare({
 --     id = nil
@@ -74,14 +80,29 @@ map.nodes[48372384] = Rare({
     }
 }) -- Colassian
 
--- map.nodes[55841899] = Rare({
+map.nodes[53106421] = Rare({
+    id = 203480,
+    pois = {
+        POI({54556605}) -- Entrance
+    }
+}) -- Spinmarrow entrance
+
+-- map.nodes[54074162] = Rare({
 --     id = nil
--- }) -- Professor Gastrinax
+-- }) -- Klakatak
+
+map.nodes[55841899] = Rare({
+    id = 203521,
+    note = L['in_cave'],
+    pois = {
+        POI({52921886}) -- Entrance
+    }
+}) -- Professor Gastrinax
 
 map.nodes[56247389] = Rare({
     id = 203515,
     rewards = {
-        Transmog({item = nil, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
+        -- Transmog({item = nil, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
         Item({item = 200071}) -- Sacred Tuskarr Totem
     }
 }) -- Alcanon
@@ -103,17 +124,30 @@ map.nodes[61646714] = Rare({
 --     id = nil
 -- }) -- Kob'rok
 
--- map.nodes[65875082] = Rare({
---     id = nil
--- }) -- Skornace
+map.nodes[65875082] = Rare({id = 203643}) -- Skornace
 
--- map.nodes[68734593] = Rare({
---     id = nil
--- }) -- Goopal
+map.nodes[68734593] = Rare({id = 203477}) -- Goopal
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
+
+map.nodes[28544791] = Treasure({
+    label = 'Blazing Shadowflame Chest',
+    note = '{bug:The shadowflame is too strong to bear.}'
+}) -- Blazing Shadowflame Chest
+
+map.nodes[2975054] = Treasure({
+    label = 'Well-Chewed Chest',
+    note = 'The {item:202869}({dot:Green}) is hidden below the {npc:199962} within the cave.',
+    requires = ns.requirement.Item(202869), -- Scorching Key
+    pois = {
+        POI({30314121}), -- Entrance
+        POI({color = 'Green', points = 30134076}) -- Scorching Key
+    }
+}) -- Well-Chewed Chest
+
+map.nodes[30044193] = Treasure({label = 'Charred Egg', quest = 73706}) -- Charred Egg
 
 map.nodes[56564931] = Treasure({
     label = 'Moth-Pilfered Pouch',
@@ -138,13 +172,15 @@ map.nodes[43058256] = Treasure({
 -------------------------------------------------------------------------------
 
 map.nodes[48101659] = PT.Engineering({
-    label = 'Molten Scoutbot',
+    id = 204855,
+    -- label = 'Molten Scoutbot',
     quest = 75433,
     note = '{item:204855}' -- Overclocked Determination Core
 }) -- Molten Scoutbot
 
 map.nodes[49437901] = PT.Engineering({
-    label = 'Discarded Dracothyst Drill',
+    id = 204853,
+    -- label = 'Discarded Dracothyst Drill',
     quest = 75431,
     note = '{item:204853}' -- Discarded Dracothyst Drill
 }) -- Discarded Dracothyst Drill
@@ -153,6 +189,7 @@ map.nodes[49437901] = PT.Engineering({
 -------------------------------- DRAGON GLYPHS --------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[30414530] = Dragonglyph() -- Zaqali Caldera
 map.nodes[41638037] = Dragonglyph() -- Glimmerogg
 map.nodes[46733741] = Dragonglyph() -- Zaralek Cavern
 map.nodes[54735470] = Dragonglyph() -- Loamm
@@ -163,8 +200,8 @@ map.nodes[72114844] = Dragonglyph() -- Throughway
 -------------------------------------------------------------------------------
 
 map.nodes[39054999] = Dragonrace({
-    label = nil,
-    normal = {2247, nil, 75}
+    label = nil
+    -- normal = {2247, nil, 75}
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     -- rewards = {
@@ -181,8 +218,8 @@ map.nodes[39054999] = Dragonrace({
 }) -- Igira's Watch
 
 map.nodes[54502371] = Dragonrace({
-    label = nil,
-    normal = {2248, 72, 69}
+    label = nil
+    -- normal = {2248, 72, 69}
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     -- rewards = {
@@ -217,8 +254,8 @@ map.nodes[58155759] = Dragonrace({
 }) -- Zaralek Zigzag
 
 map.nodes[58724503] = Dragonrace({
-    label = nil,
-    normal = {2246, 80, 75}
+    label = nil
+    -- normal = {2246, 80, 75}
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     -- rewards = {
@@ -240,7 +277,7 @@ map.nodes[58724503] = Dragonrace({
 
 map.nodes[44257993] = Collectible({
     id = 201752,
-    icon =5003561,
+    icon = 5003561,
     requires = {
         ns.requirement.Quest(74787), -- Come Snail Away
         ns.requirement.Quest(74514) -- The Slowest Fan Club
