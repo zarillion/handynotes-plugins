@@ -60,8 +60,10 @@ ns.groups.ELEMENTAL_STORM = Group('elemental_storm', 538566, {
 ns.groups.ELUSIVE_CREATURE = ns.Group('elusive_creature', 644271, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION,
-    IsEnabled = function(self) -- Only display group for skinning players
-        if not ns.PlayerHasProfession(393) then return false end
+    IsEnabled = function(self)
+        if not ns.professions.SKINNING:PlayerHasProfession() then
+            return false
+        end
         return ns.Group.IsEnabled(self)
     end
 })
@@ -94,14 +96,8 @@ ns.groups.DRAGONBANE_SIEGE = ns.Group('dragonbane_siege', 3753264, {
 ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION,
-
-    -- Only display group for engineering players
-    -- IsEnabled = function(self)
-    --     if not ns.PlayerHasProfession(202) then return false end
-    --     return Group.IsEnabled(self)
-    -- end
     IsEnabled = function(self)
-        if not ns.professions.ENGINEERING.PlayerHasProfession() then
+        if not ns.professions.ENGINEERING:PlayerHasProfession() then
             return false
         end
         return ns.Group.IsEnabled(self)
