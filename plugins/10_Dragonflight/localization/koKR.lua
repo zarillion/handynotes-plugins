@@ -507,3 +507,23 @@ L['options_icons_djaradin_cache_desc'] = nil
 L['dragonbane_siege_label'] = nil
 L['options_icons_dragonbane_siege'] = nil
 L['options_icons_dragonbane_siege_desc'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- Zaralek Cavern --------------------------------
+-------------------------------------------------------------------------------
+
+L['brulsef_the_stronk_note'] = nil
+
+L['blazing_shadowflame_chest_label'] = nil
+L['blazing_shadowflame_chest_note'] = nil
+L['well_chewed_chest_label'] = nil
+L['well_chewed_chest_note'] = nil
+L['charred_egg_label'] = nil
+L['crystal_encased_chest_label'] = nil
+L['crystal_encased_chest_note'] = nil
+L['moth_pilfered_pouch_label'] = nil
+L['moth_pilfered_pouch_note'] = nil
+L['stolen_stash_label'] = nil
+L['molten_hoard_label'] = nil
+L['ancient_zaqali_chest_label'] = nil
+L['old_trunk_label'] = nil

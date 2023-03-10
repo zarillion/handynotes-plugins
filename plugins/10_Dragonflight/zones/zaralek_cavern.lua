@@ -13,9 +13,10 @@ local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local PT = ns.node.ProfessionTreasures
 
+local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
-local Transmog = ns.reward.Transmog
+-- local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -47,26 +48,19 @@ map.nodes[40753817] = Rare({id = 200111}) -- Magmanesha
 
 map.nodes[41518613] = Rare({
     id = 203621,
-    quest = 75326, -- or 75556
-    note = 'Loot your rewards from the {object:Chest of Massive Gains}'
+    quest = 75556,
+    note = L['brulsef_the_stronk_note']
 }) -- Brulsef the Stronk
 
--- map.nodes[41921857] = Rare({
---     id = nil
--- }) -- General Zskorro
+map.nodes[41921857] = Rare({id = 203592}) -- General Zskorro
 
--- map.nodes[42226524] = Rare({
---     id = nil
--- }) -- Kairoktra
+map.nodes[42226524] = Rare({id = 203625}) -- Kairoktra
 
-map.nodes[45673327] = Rare({
-    id = 203627,
-    quest = 75336 -- or 75558
-}) -- Invohq
+map.nodes[45673327] = Rare({id = 203627, quest = 75558}) -- Invohq
 
 map.nodes[48367509] = Rare({
     id = 203468,
-    quest = 75271, -- or 75547
+    quest = 75547,
     rewards = {
         Item({item = 192055}) -- Dragon Isle Artifact
     }
@@ -87,9 +81,7 @@ map.nodes[53106421] = Rare({
     }
 }) -- Spinmarrow entrance
 
--- map.nodes[54074162] = Rare({
---     id = nil
--- }) -- Klakatak
+map.nodes[54074162] = Rare({id = 203618}) -- Klakatak
 
 map.nodes[55841899] = Rare({
     id = 203521,
@@ -115,14 +107,9 @@ map.nodes[59593949] = Rare({
     }
 }) -- Kaprachu
 
-map.nodes[61646714] = Rare({
-    id = 203593,
-    quest = 75298 -- or 75553
-}) -- Underlight Queen
+map.nodes[61646714] = Rare({id = 203593, quest = 75553}) -- Underlight Queen
 
--- map.nodes[65435587] = Rare({
---     id = nil
--- }) -- Kob'rok
+map.nodes[65435587] = Rare({id = 203462}) -- Kob'rok
 
 map.nodes[65875082] = Rare({id = 203643}) -- Skornace
 
@@ -133,13 +120,13 @@ map.nodes[68734593] = Rare({id = 203477}) -- Goopal
 -------------------------------------------------------------------------------
 
 map.nodes[28544791] = Treasure({
-    label = 'Blazing Shadowflame Chest',
-    note = '{bug:The shadowflame is too strong to bear.}'
+    label = L['blazing_shadowflame_chest_label'],
+    note = L['blazing_shadowflame_chest_note']
 }) -- Blazing Shadowflame Chest
 
-map.nodes[2975054] = Treasure({
-    label = 'Well-Chewed Chest',
-    note = 'The {item:202869}({dot:Green}) is hidden below the {npc:199962} within the cave.',
+map.nodes[29774050] = Treasure({
+    label = L['well_chewed_chest_label'],
+    note = L['well_chewed_chest_note'],
     requires = ns.requirement.Item(202869), -- Scorching Key
     pois = {
         POI({30314121}), -- Entrance
@@ -147,43 +134,48 @@ map.nodes[2975054] = Treasure({
     }
 }) -- Well-Chewed Chest
 
-map.nodes[30044193] = Treasure({label = 'Charred Egg', quest = 73706}) -- Charred Egg
+map.nodes[30044193] = Treasure({label = L['charred_egg_label'], quest = 73706}) -- Charred Egg
+
+map.nodes[36397425] = Treasure({
+    label = L['crystal_encased_chest_label'],
+    note = L['crystal_encased_chest_note']
+}) -- Crystal-Encased Chest
 
 map.nodes[56564931] = Treasure({
-    label = 'Moth-Pilfered Pouch',
-    note = '{npc:203225}' -- Stuggling Moth
+    label = L['moth_pilfered_pouch_label'],
+    note = L['moth_pilfered_pouch_note']
 }) -- Moth-Pilfered Pouch
 
-map.nodes[60664622] = Treasure({label = 'Stolen Stash', quest = 75302}) -- Stolen Stash
+map.nodes[60664622] = Treasure({label = L['stolen_stash_label'], quest = 75302}) -- Stolen Stash
 
-map.nodes[63603861] = Treasure({label = 'Stolen Stash', quest = 75303}) -- Stolen Stash
+map.nodes[63603861] = Treasure({label = L['stolen_stash_label'], quest = 75303}) -- Stolen Stash
 
-map.nodes[48421633] = Treasure({label = 'Molten Hoard', quest = 75515}) -- Molten Hoard
+map.nodes[48421633] = Treasure({label = L['molten_hoard_label'], quest = 75515}) -- Molten Hoard
 
-map.nodes[36694879] = Treasure({label = 'Ancient Zaqali Chest'}) -- Ancient Zaqali Chest
+map.nodes[36694879] = Treasure({label = L['ancient_zaqali_chest_label']}) -- Ancient Zaqali Chest
 
 map.nodes[43058256] = Treasure({
-    label = 'Old Trunk'
-    -- requires = ns.requirement.Item(nil) -- Old Trunk Key
+    label = L['old_trunk_label'],
+    requires = ns.requirement.Item(204323) -- Old Trunk Key
 }) -- Old Trunk
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[48101659] = PT.Engineering({
-    id = 204855,
-    -- label = 'Molten Scoutbot',
-    quest = 75433,
-    note = '{item:204855}' -- Overclocked Determination Core
-}) -- Molten Scoutbot
+map.nodes[37825884] = PT.Engineering({id = 204475, quest = 75186}) -- Busted Wyrmhole Generator
 
-map.nodes[49437901] = PT.Engineering({
-    id = 204853,
-    -- label = 'Discarded Dracothyst Drill',
-    quest = 75431,
-    note = '{item:204853}' -- Discarded Dracothyst Drill
-}) -- Discarded Dracothyst Drill
+map.nodes[48101659] = PT.Engineering({
+    id = 204855, -- Object is actually called "Molten Scoutbot"
+    quest = 75433
+}) -- Molten Scoutbot (current ID is reward "Overclocked Determination Core")
+
+map.nodes[49437901] = PT.Engineering({id = 204853, quest = 75431}) -- Discarded Dracothyst Drill
+
+map.nodes[57657393] = PT.Engineering({
+    id = 204850, -- Object is actually called "Bolts and Brass"
+    quest = 75430
+}) -- Bolts and Brass (current ID is reward "Handful of Khaz'gorite Bolts")
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
@@ -193,87 +185,126 @@ map.nodes[30414530] = Dragonglyph() -- Zaqali Caldera
 map.nodes[41638037] = Dragonglyph() -- Glimmerogg
 map.nodes[46733741] = Dragonglyph() -- Zaralek Cavern
 map.nodes[54735470] = Dragonglyph() -- Loamm
+map.nodes[55342771] = Dragonglyph() -- Slitherdrake Roost
 map.nodes[72114844] = Dragonglyph() -- Throughway
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[38756061] = Dragonrace({
+    label = '{quest:74839}',
+    -- normal = {2246, nil, nil},
+    -- advanced = {2252, nil, nil},
+    -- reverse = {2258, nil, nil},
+    rewards = {
+        Achievement({id = 17483, criteria = 1, oneline = true}), -- normal bronze
+        Achievement({id = 17484, criteria = 1, oneline = true}), -- normal silver
+        Achievement({id = 17485, criteria = 1, oneline = true}), -- normal gold
+        Achievement({id = 17486, criteria = 1, oneline = true}), -- advanced bronze
+        Achievement({id = 17487, criteria = 1, oneline = true}), -- advanced silver
+        Achievement({id = 17488, criteria = 1, oneline = true}), -- advanced gold
+        Achievement({id = 17489, criteria = 1, oneline = true}), -- reverse bronze
+        Achievement({id = 17490, criteria = 1, oneline = true}), -- reverse silver
+        Achievement({id = 17491, criteria = 1, oneline = true}) -- reverse gold
+    }
+}) -- Crystal Circuit
+
 map.nodes[39054999] = Dragonrace({
-    label = nil
-    -- normal = {2247, nil, 75}
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
-    -- rewards = {
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- normal bronze
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- normal silver
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- normal gold
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- advanced bronze
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- advanced silver
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- advanced gold
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- reverse bronze
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- reverse silver
-    --     Achievement({id = nil, criteria = nil, oneline = true}) -- reverse gold
-    -- }
-}) -- Igira's Watch
+    label = '{quest:74889}',
+    -- normal = {2247, nil, nil},
+    -- advanced = {2253, nil, nil},
+    -- reverse = {2259, nil, nil},
+    rewards = {
+        Achievement({id = 17483, criteria = 2, oneline = true}), -- normal bronze
+        Achievement({id = 17484, criteria = 2, oneline = true}), -- normal silver
+        Achievement({id = 17485, criteria = 2, oneline = true}), -- normal gold
+        Achievement({id = 17486, criteria = 2, oneline = true}), -- advanced bronze
+        Achievement({id = 17487, criteria = 2, oneline = true}), -- advanced silver
+        Achievement({id = 17488, criteria = 2, oneline = true}), -- advanced gold
+        Achievement({id = 17489, criteria = 2, oneline = true}), -- reverse bronze
+        Achievement({id = 17490, criteria = 2, oneline = true}), -- reverse silver
+        Achievement({id = 17491, criteria = 2, oneline = true}) -- reverse gold
+    }
+}) -- Caldera Cruise
 
 map.nodes[54502371] = Dragonrace({
-    label = nil
-    -- normal = {2248, 72, 69}
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
-    -- rewards = {
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- normal bronze
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- normal silver
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- normal gold
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- advanced bronze
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- advanced silver
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- advanced gold
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- reverse bronze
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- reverse silver
-    --     Achievement({id = nil, criteria = nil, oneline = true}) -- reverse gold
-    -- }
+    label = '{quest:74939}',
+    normal = {2248, 72, 69},
+    -- advanced = {2254, nil, nil},
+    -- reverse = {2260, nil, nil},
+    rewards = {
+        Achievement({id = 17483, criteria = 3, oneline = true}), -- normal bronze
+        Achievement({id = 17484, criteria = 3, oneline = true}), -- normal silver
+        Achievement({id = 17485, criteria = 3, oneline = true}), -- normal gold
+        Achievement({id = 17486, criteria = 3, oneline = true}), -- advanced bronze
+        Achievement({id = 17487, criteria = 3, oneline = true}), -- advanced silver
+        Achievement({id = 17488, criteria = 3, oneline = true}), -- advanced gold
+        Achievement({id = 17489, criteria = 3, oneline = true}), -- reverse bronze
+        Achievement({id = 17490, criteria = 3, oneline = true}), -- reverse silver
+        Achievement({id = 17491, criteria = 3, oneline = true}) -- reverse gold
+    }
 }) -- Brimstone Scramble
 
+map.nodes[58724503] = Dragonrace({
+    label = '{quest:74951}',
+    normal = {2249, 80, 75},
+    -- advanced = {2255, nil, nil},
+    -- reverse = {2261, nil, nil},
+    rewards = {
+        Achievement({id = 17483, criteria = 4, oneline = true}), -- normal bronze
+        Achievement({id = 17484, criteria = 4, oneline = true}), -- normal silver
+        Achievement({id = 17485, criteria = 4, oneline = true}), -- normal gold
+        Achievement({id = 17486, criteria = 4, oneline = true}), -- advanced bronze
+        Achievement({id = 17487, criteria = 4, oneline = true}), -- advanced silver
+        Achievement({id = 17488, criteria = 4, oneline = true}), -- advanced gold
+        Achievement({id = 17489, criteria = 4, oneline = true}), -- reverse bronze
+        Achievement({id = 17490, criteria = 4, oneline = true}), -- reverse silver
+        Achievement({id = 17491, criteria = 4, oneline = true}) -- reverse gold
+    }
+}) -- Shimmering Slalom
+
 map.nodes[58155759] = Dragonrace({
-    label = nil
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
-    -- rewards = {
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- normal bronze
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- normal silver
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- normal gold
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- advanced bronze
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- advanced silver
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- advanced gold
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- reverse bronze
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- reverse silver
-    --     Achievement({id = nil, criteria = nil, oneline = true}) -- reverse gold
-    -- }
+    label = '{quest:74972}',
+    -- normal = {2250, nil, nil},
+    -- advanced = {2256, nil, nil},
+    -- reverse = {2262, nil, nil},
+    rewards = {
+        Achievement({id = 17483, criteria = 5, oneline = true}), -- normal bronze
+        Achievement({id = 17484, criteria = 5, oneline = true}), -- normal silver
+        Achievement({id = 17485, criteria = 5, oneline = true}), -- normal gold
+        Achievement({id = 17486, criteria = 5, oneline = true}), -- advanced bronze
+        Achievement({id = 17487, criteria = 5, oneline = true}), -- advanced silver
+        Achievement({id = 17488, criteria = 5, oneline = true}), -- advanced gold
+        Achievement({id = 17489, criteria = 5, oneline = true}), -- reverse bronze
+        Achievement({id = 17490, criteria = 5, oneline = true}), -- reverse silver
+        Achievement({id = 17491, criteria = 5, oneline = true}) -- reverse gold
+    }
 }) -- Zaralek Zigzag
 
-map.nodes[58724503] = Dragonrace({
-    label = nil
-    -- normal = {2246, 80, 75}
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
-    -- rewards = {
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- normal bronze
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- normal silver
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- normal gold
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- advanced bronze
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- advanced silver
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- advanced gold
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- reverse bronze
-    --     Achievement({id = nil, criteria = nil, oneline = true}), -- reverse silver
-    --     Achievement({id = nil, criteria = nil, oneline = true}) -- reverse gold
-    -- }
-}) -- Shimmering Slalom
+-- map.nodes[] = Dragonrace({
+--     label = '{quest:75035}',
+--     normal = {2251, nil, nil},
+--     advanced = {2257, nil, nil},
+--     reverse = {2263, nil, nil},
+--     rewards = {
+--         Achievement({id = 17483, criteria = 6, oneline = true}), -- normal bronze
+--         Achievement({id = 17484, criteria = 6, oneline = true}), -- normal silver
+--         Achievement({id = 17485, criteria = 6, oneline = true}), -- normal gold
+--         Achievement({id = 17486, criteria = 6, oneline = true}), -- advanced bronze
+--         Achievement({id = 17487, criteria = 6, oneline = true}), -- advanced silver
+--         Achievement({id = 17488, criteria = 6, oneline = true}), -- advanced gold
+--         Achievement({id = 17489, criteria = 6, oneline = true}), -- reverse bronze
+--         Achievement({id = 17490, criteria = 6, oneline = true}), -- reverse silver
+--         Achievement({id = 17491, criteria = 6, oneline = true}) -- reverse gold
+--     }
+-- }) -- Sulfur Sprint
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
+
+------------------------ Mount: Big Slick in the City -------------------------
 
 map.nodes[44257993] = Collectible({
     id = 201752,
@@ -285,4 +316,4 @@ map.nodes[44257993] = Collectible({
     rewards = {
         Mount({item = 205155, id = 1729}) -- Big Slick in the City
     }
-}) -- Briggul
+}) -- Briggul <Snail Trainer>

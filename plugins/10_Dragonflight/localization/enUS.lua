@@ -536,3 +536,23 @@ L['options_icons_djaradin_cache_desc'] = 'Display possible locations of {object:
 L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = 'Display locations and rewards for the {spell:388945}.'
+
+-------------------------------------------------------------------------------
+------------------------------- Zaralek Cavern --------------------------------
+-------------------------------------------------------------------------------
+
+L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.'
+
+L['blazing_shadowflame_chest_label'] = 'Blazing Shadowflame Chest'
+L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
+L['well_chewed_chest_label'] = 'Well-Chewed Chest'
+L['well_chewed_chest_note'] = 'The {item:202869}({dot:Green}) is hidden underneath the {npc:199962} within the cave.'
+L['charred_egg_label'] = 'Charred Egg'
+L['crystal_encased_chest_label'] = 'Crystal-Encased Chest'
+L['crystal_encased_chest_note'] = 'This has something to do with the {npc:204319} protecting the chest.' -- DEV NOTE - Do not translate
+L['moth_pilfered_pouch_label'] = 'Moth-Pilfered Pouch'
+L['moth_pilfered_pouch_note'] = 'This has something to do with the {npc:203225} fluttering about in the area.' -- DEV NOTE - Do not translate
+L['stolen_stash_label'] = 'Stolen Stash'
+L['molten_hoard_label'] = 'Molten Hoard'
+L['ancient_zaqali_chest_label'] = 'Ancient Zaqali Chest'
+L['old_trunk_label'] = 'Old Trunk'
