@@ -183,7 +183,8 @@ map.nodes[57657393] = PT.Engineering({
 
 map.nodes[30414530] = Dragonglyph() -- Zaqali Caldera
 map.nodes[41638037] = Dragonglyph() -- Glimmerogg
-map.nodes[46733741] = Dragonglyph() -- Zaralek Cavern
+map.nodes[45250200] = Dragonglyph() -- TODO: Abberus Approach - Unreachable, Invisivle Wall/Ceiling
+map.nodes[47443702] = Dragonglyph() -- Zaralek Cavern
 map.nodes[54735470] = Dragonglyph() -- Loamm
 map.nodes[55342771] = Dragonglyph() -- Slitherdrake Roost
 map.nodes[72114844] = Dragonglyph() -- Throughway
@@ -194,8 +195,8 @@ map.nodes[72114844] = Dragonglyph() -- Throughway
 
 map.nodes[38756061] = Dragonrace({
     label = '{quest:74839}',
-    -- normal = {2246, nil, nil},
-    -- advanced = {2252, nil, nil},
+    normal = {2246, 999, 63}, -- TODO: was to fast on my first run and didnt show the silver time
+    advanced = {2252, 60, 55},
     -- reverse = {2258, nil, nil},
     rewards = {
         Achievement({id = 17483, criteria = 1, oneline = true}), -- normal bronze
@@ -212,8 +213,8 @@ map.nodes[38756061] = Dragonrace({
 
 map.nodes[39054999] = Dragonrace({
     label = '{quest:74889}',
-    -- normal = {2247, nil, nil},
-    -- advanced = {2253, nil, nil},
+    normal = {2247, 80, 75},
+    advanced = {2253, 73, 68},
     -- reverse = {2259, nil, nil},
     rewards = {
         Achievement({id = 17483, criteria = 2, oneline = true}), -- normal bronze
@@ -231,7 +232,7 @@ map.nodes[39054999] = Dragonrace({
 map.nodes[54502371] = Dragonrace({
     label = '{quest:74939}',
     normal = {2248, 72, 69},
-    -- advanced = {2254, nil, nil},
+    advanced = {2254, 69, 64},
     -- reverse = {2260, nil, nil},
     rewards = {
         Achievement({id = 17483, criteria = 3, oneline = true}), -- normal bronze
@@ -249,7 +250,7 @@ map.nodes[54502371] = Dragonrace({
 map.nodes[58724503] = Dragonrace({
     label = '{quest:74951}',
     normal = {2249, 80, 75},
-    -- advanced = {2255, nil, nil},
+    advanced = {2255, 75, 70},
     -- reverse = {2261, nil, nil},
     rewards = {
         Achievement({id = 17483, criteria = 4, oneline = true}), -- normal bronze
@@ -266,8 +267,8 @@ map.nodes[58724503] = Dragonrace({
 
 map.nodes[58155759] = Dragonrace({
     label = '{quest:74972}',
-    -- normal = {2250, nil, nil},
-    -- advanced = {2256, nil, nil},
+    normal = {2250, 60, 55},
+    advanced = {2256, 55, 50},
     -- reverse = {2262, nil, nil},
     rewards = {
         Achievement({id = 17483, criteria = 5, oneline = true}), -- normal bronze
@@ -282,23 +283,23 @@ map.nodes[58155759] = Dragonrace({
     }
 }) -- Zaralek Zigzag
 
--- map.nodes[] = Dragonrace({
---     label = '{quest:75035}',
---     normal = {2251, nil, nil},
---     advanced = {2257, nil, nil},
---     reverse = {2263, nil, nil},
---     rewards = {
---         Achievement({id = 17483, criteria = 6, oneline = true}), -- normal bronze
---         Achievement({id = 17484, criteria = 6, oneline = true}), -- normal silver
---         Achievement({id = 17485, criteria = 6, oneline = true}), -- normal gold
---         Achievement({id = 17486, criteria = 6, oneline = true}), -- advanced bronze
---         Achievement({id = 17487, criteria = 6, oneline = true}), -- advanced silver
---         Achievement({id = 17488, criteria = 6, oneline = true}), -- advanced gold
---         Achievement({id = 17489, criteria = 6, oneline = true}), -- reverse bronze
---         Achievement({id = 17490, criteria = 6, oneline = true}), -- reverse silver
---         Achievement({id = 17491, criteria = 6, oneline = true}) -- reverse gold
---     }
--- }) -- Sulfur Sprint
+map.nodes[51204665] = Dragonrace({
+    label = '{quest:75035}',
+    normal = {2251, 67, 64},
+    advanced = {2257, 62, 57},
+    -- reverse = {2263, nil, nil},
+    rewards = {
+        Achievement({id = 17483, criteria = 6, oneline = true}), -- normal bronze
+        Achievement({id = 17484, criteria = 6, oneline = true}), -- normal silver
+        Achievement({id = 17485, criteria = 6, oneline = true}), -- normal gold
+        Achievement({id = 17486, criteria = 6, oneline = true}), -- advanced bronze
+        Achievement({id = 17487, criteria = 6, oneline = true}), -- advanced silver
+        Achievement({id = 17488, criteria = 6, oneline = true}), -- advanced gold
+        Achievement({id = 17489, criteria = 6, oneline = true}), -- reverse bronze
+        Achievement({id = 17490, criteria = 6, oneline = true}), -- reverse silver
+        Achievement({id = 17491, criteria = 6, oneline = true}) -- reverse gold
+    }
+}) -- Sulfur Sprint
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
