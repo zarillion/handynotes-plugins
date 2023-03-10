@@ -2,13 +2,24 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
+local Rare = ns.node.Rare
+local Treasure = ns.node.Treasure
+
+local Dragonglyph = ns.node.Dragonglyph
+local Dragonrace = ns.node.Dragonrace
+local PT = ns.node.ProfessionTreasures
+
+local Item = ns.reward.Item
+local Mount = ns.reward.Mount
+local Transmog = ns.reward.Transmog
+
 -------------------------------------------------------------------------------
 
-local map = map({id = 2133, settings = true})
+local map = Map({id = 2133, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -43,9 +54,9 @@ local map = map({id = 2133, settings = true})
 -- }) -- Kairoktra
 
 map.nodes[45673327] = Rare({
-    id = 203627
+    id = 203627,
     quest = 75336 -- or 75558
-}) -- Invohq  
+}) -- Invohq
 
 map.nodes[48367509] = Rare({
     id = 203468,
@@ -53,25 +64,25 @@ map.nodes[48367509] = Rare({
     rewards = {
         Item({item = 192055}) -- Dragon Isle Artifact
     }
-}) -- Aquifon   
+}) -- Aquifon
 
 map.nodes[48372384] = Rare({
     id = 204093,
     quest = 75572,
     rewards = {
-        Item({item = 200071}), -- Sacred Tuskarr Totem
+        Item({item = 200071}) -- Sacred Tuskarr Totem
     }
 }) -- Colassian
 
-map.nodes[55841899] = Rare({
-    id = nil
-}) -- Professor Gastrinax
+-- map.nodes[55841899] = Rare({
+--     id = nil
+-- }) -- Professor Gastrinax
 
 map.nodes[56247389] = Rare({
     id = 203515,
     rewards = {
         Transmog({item = nil, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
-        Item({item = 200071}), -- Sacred Tuskarr Totem
+        Item({item = 200071}) -- Sacred Tuskarr Totem
     }
 }) -- Alcanon
 
@@ -86,7 +97,7 @@ map.nodes[59593949] = Rare({
 map.nodes[61646714] = Rare({
     id = 203593,
     quest = 75298 -- or 75553
-}) -- Underlight Queen   
+}) -- Underlight Queen
 
 -- map.nodes[65435587] = Rare({
 --     id = nil
@@ -109,27 +120,16 @@ map.nodes[56564931] = Treasure({
     note = '{npc:203225}' -- Stuggling Moth
 }) -- Moth-Pilfered Pouch
 
-map.nodes[60664622] = Treasure({
-    label = 'Stolen Stash',
-    quest = 75302
-}) -- Stolen Stash 
+map.nodes[60664622] = Treasure({label = 'Stolen Stash', quest = 75302}) -- Stolen Stash
 
-map.nodes[63603861] = Treasure({
-    label = 'Stolen Stash',
-    quest = 75303
-}) -- Stolen Stash 
+map.nodes[63603861] = Treasure({label = 'Stolen Stash', quest = 75303}) -- Stolen Stash
 
-map.nodes[48421633] = Treasure({
-    label = 'Molten Hoard',
-    quest = 75515
-}) -- Molten Hoard
+map.nodes[48421633] = Treasure({label = 'Molten Hoard', quest = 75515}) -- Molten Hoard
 
-map.nodes[36694879] = Treasure({
-    label = 'Ancient Zaqali Chest'
-}) -- Ancient Zaqali Chest
+map.nodes[36694879] = Treasure({label = 'Ancient Zaqali Chest'}) -- Ancient Zaqali Chest
 
 map.nodes[43058256] = Treasure({
-    label = 'Old Trunk',
+    label = 'Old Trunk'
     -- requires = ns.requirement.Item(nil) -- Old Trunk Key
 }) -- Old Trunk
 
@@ -140,7 +140,7 @@ map.nodes[43058256] = Treasure({
 map.nodes[48101659] = PT.Engineering({
     label = 'Molten Scoutbot',
     quest = 75433,
-    note = '{item:204855}' -- Overclocked Determination Core 
+    note = '{item:204855}' -- Overclocked Determination Core
 }) -- Molten Scoutbot
 
 map.nodes[49437901] = PT.Engineering({
@@ -164,7 +164,7 @@ map.nodes[72114844] = Dragonglyph() -- Throughway
 
 map.nodes[39054999] = Dragonrace({
     label = nil,
-    normal = {2247, nil, 75},
+    normal = {2247, nil, 75}
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     -- rewards = {
@@ -182,7 +182,7 @@ map.nodes[39054999] = Dragonrace({
 
 map.nodes[54502371] = Dragonrace({
     label = nil,
-    normal = {2248, 72, 69},
+    normal = {2248, 72, 69}
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     -- rewards = {
@@ -199,7 +199,7 @@ map.nodes[54502371] = Dragonrace({
 }) -- Brimstone Scramble
 
 map.nodes[58155759] = Dragonrace({
-    label = nil,
+    label = nil
     -- normal = {nil, nil, nil},
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
@@ -218,7 +218,7 @@ map.nodes[58155759] = Dragonrace({
 
 map.nodes[58724503] = Dragonrace({
     label = nil,
-    normal = {2246, 80, 75},
+    normal = {2246, 80, 75}
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     -- rewards = {
@@ -240,8 +240,12 @@ map.nodes[58724503] = Dragonrace({
 
 map.nodes[44257993] = Collectible({
     id = 201752,
+    icon =5003561,
     requires = {
         ns.requirement.Quest(74787), -- Come Snail Away
         ns.requirement.Quest(74514) -- The Slowest Fan Club
+    },
+    rewards = {
+        Mount({item = 205155, id = 1729}) -- Big Slick in the City
     }
 }) -- Briggul
