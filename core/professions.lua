@@ -108,6 +108,6 @@ local function PlayerHasProfession(self)
 end
 
 for name, profession in pairs(ns.professions) do
-    profession.GetProfessionName = GetProfessionName()
-    profession.PlayerHasProfession = PlayerHasProfession()
+    profession.GetProfessionName = GetProfessionName
+    profession.PlayerHasProfession = PlayerHasProfession
 end
