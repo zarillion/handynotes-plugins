@@ -51,6 +51,7 @@ L['options_icons_scout_pack_desc'] = 'Zeigt die möglichen Positionen für {obje
 L['magicbound_chest'] = 'Magiegebundene Truhe'
 L['options_icons_magicbound_chest'] = 'Magiegebundene Truhen'
 L['options_icons_magicbound_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Magiegebundene Truhe} an.'
+L['ice_bound_chest'] = 'Eisgebundene Truhe'
 
 L['tuskarr_tacklebox'] = 'Angelzubehör der Tuskarr'
 L['options_icons_tuskarr_tacklebox'] = 'Angelzubehör der Tuskarr'
@@ -131,6 +132,22 @@ L['the_best_at_what_i_do_suffix'] = 'Bosse getötet'
 
 L['options_icons_grand_hunts'] = 'Große Jagden'
 L['options_icons_grand_hunts_desc'] = 'Zeigt die möglichen Positionen und Belohnungen der {location:Großen Jagd} an.'
+
+L['reed_chest'] = 'Schilfkiste'
+L['options_icons_reed_chest'] = 'Schilfkiste'
+L['options_icons_reed_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Schilfkisten} an.'
+
+L['dracthyr_supply_chest'] = 'Vorratstruhe der Dracthyr'
+L['options_icons_dracthyr_supply_chest'] = 'Vorratstruhe der Dracthyr'
+L['options_icons_dracthyr_supply_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Vorratstruhen der Dracthyr} an.'
+
+L['simmering_chest'] = 'Brodelnde Kiste'
+L['options_icons_simmering_chest'] = 'Brodelnde Kiste'
+L['options_icons_simmering_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Brodelnde Kisten} an.'
+
+L['frostbound_chest'] = 'Frostgebundene Kiste'
+L['options_icons_frostbound_chest'] = 'Frostgebundene Kiste'
+L['options_icons_frostbound_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Frostgebundene Kisten} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -222,6 +239,14 @@ L['options_icons_tuskarr_chest_desc'] = 'Zeigt die möglichen Positionen für {o
 L['community_feast_label'] = '{spell:386441}'
 L['options_icons_community_feast'] = '{spell:386441}'
 L['options_icons_community_feast_desc'] = 'Zeigt die Position und Belohnungen des {spell:386441s}'
+
+L['decay_covered_chest'] = 'Mit Moder bedeckte Kiste'
+L['options_icons_decay_covered_chest'] = 'Mit Moder bedeckte Kiste'
+L['options_icons_decay_covered_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Mit Moder bedeckte Kisten} an.'
+
+L['icemaw_storage_cache'] = 'Vorratsdepot des Eisschlunds'
+L['options_icons_icemaw_storage_cache'] = 'Vorratsdepot des Eisschlunds'
+L['options_icons_icemaw_storage_cache_desc'] = 'Zeigt die möglichen Positionen für {object:Vorratsdepots des Eisschlunds} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -332,6 +357,10 @@ L['clan_chest'] = 'Klankiste'
 L['options_icons_clan_chest'] = 'Klankisten'
 L['options_icons_clan_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Klankisten} an.'
 
+L['lightning_bound_chest'] = 'Blitzgebundene Kiste'
+L['options_icons_lightning_bound_chest'] = 'Blitzgebundene Kiste'
+L['options_icons_lightning_bound_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Blitzgebundene Kisten} an.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -393,6 +422,10 @@ L['hoard_of_draconic_delicacies_note_end'] = 'Nachdem alle Quests abgeschlossen 
 L['brendormi_note_start'] = 'Tausche {item:202039} und {currency:2118} gegen Ausrüstung, ein Haustier, ein Spielzeug oder ein Reittier ein.'
 L['brendormi_note_item'] = 'Zurzeit hast du %s {item:202039}.'
 L['brendormi_note_currency'] = 'Zurzeit hast du %s {currency:2118}.'
+
+L['titan_chest'] = 'Titanentruhe'
+L['options_icons_titan_chest'] = 'Titanentruhe'
+L['options_icons_titan_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Titanentruhen} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

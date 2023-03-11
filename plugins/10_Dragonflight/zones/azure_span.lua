@@ -1069,7 +1069,12 @@ map.nodes[78903087] = Disturbeddirt()
 map.nodes[14143645] = Scoutpack()
 map.nodes[14943299] = Scoutpack()
 map.nodes[15183187] = Scoutpack()
-map.nodes[33864679] = Scoutpack()
+map.nodes[12944165] = Scoutpack()
+map.nodes[13054278] = Scoutpack()
+map.nodes[10974204] = Scoutpack()
+map.nodes[12253541] = Scoutpack()
+map.nodes[14303978] = Scoutpack()
+map.nodes[57632101] = Scoutpack()
 map.nodes[33864679] = Scoutpack()
 map.nodes[34334607] = Scoutpack()
 map.nodes[43005294] = Scoutpack()
@@ -1162,72 +1167,153 @@ map.nodes[60505900] = TuskarrChest()
 ----------------------------- DECAY COVERED CHEST -----------------------------
 -------------------------------------------------------------------------------
 
--- local DecayCoveredChest = Class('DecayCoveredChest', ns.node.Node, {
---     label = L['decay_covered_chest'],
---     icon = 'chest_pk',
---     group = ns.groups.DECAY_COVERED_CHEST,
---     rewards = {
---         Item({item = 191784}), -- Dragon Shard of Knowledge
---         Item({item = 190454}), -- Primal Chaos
---         Transmog({item = 201365, slot = L['cosmetic']}), -- Brackenhide Gnoll Guard
---         Transmog({item = 201370, slot = L['cosmetic']}), -- Brackenhide Skullcracker
---         Transmog({item = 201369, slot = L['cosmetic']}), -- Hollow Greatwood Pestilence
---         Transmog({item = 201368, slot = L['cosmetic']}), -- Brackenhide Hollow Barbslinger
---         Transmog({item = 201363, slot = L['cosmetic']}), -- Brackenhide Hollow Maul
---         Transmog({item = 201367, slot = L['cosmetic']}), -- Hollow Hunter's Sticker
---         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
---         Item({item = 199066, quest = 70535}), -- Letter of Caution
---         Item({item = 199066, profession = 165}), -- Pattern: Gnoll Tent - Recipe
---         Item({item = 192055}), -- Dragon Isles Artifact
---         Item({item = 200071}), -- Sacred Tuskarr Totem
---         Currency({id = 2003}) -- Dragon Isles Supplies
---     }
--- }) -- Decay Covered Chest
+local DecayCoveredChest = Class('DecayCoveredChest', ns.node.Node, {
+    label = L['decay_covered_chest'],
+    icon = 'chest_pk',
+    group = ns.groups.DECAY_COVERED_CHEST,
+    rewards = {
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Item({item = 190454}), -- Primal Chaos
+        Transmog({item = 201365, slot = L['cosmetic']}), -- Brackenhide Gnoll Guard
+        Transmog({item = 201370, slot = L['cosmetic']}), -- Brackenhide Skullcracker
+        Transmog({item = 201369, slot = L['cosmetic']}), -- Hollow Greatwood Pestilence
+        Transmog({item = 201368, slot = L['cosmetic']}), -- Brackenhide Hollow Barbslinger
+        Transmog({item = 201363, slot = L['cosmetic']}), -- Brackenhide Hollow Maul
+        Transmog({item = 201367, slot = L['cosmetic']}), -- Hollow Hunter's Sticker
+        Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
+        Item({item = 199066, quest = 70535}), -- Letter of Caution
+        Item({item = 199066, profession = 165}), -- Pattern: Gnoll Tent - Recipe
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Item({item = 200071}), -- Sacred Tuskarr Totem
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+}) -- Decay Covered Chest
 
--- map.nodes[09702910] = DecayCoveredChest()
--- map.nodes[09903250] = DecayCoveredChest()
--- map.nodes[10503120] = DecayCoveredChest()
--- map.nodes[11603420] = DecayCoveredChest()
--- map.nodes[12003670] = DecayCoveredChest()
--- map.nodes[12203520] = DecayCoveredChest()
--- map.nodes[12402200] = DecayCoveredChest()
--- map.nodes[12803410] = DecayCoveredChest()
--- map.nodes[13803820] = DecayCoveredChest()
--- map.nodes[13803940] = DecayCoveredChest()
--- map.nodes[14402180] = DecayCoveredChest()
--- map.nodes[14502050] = DecayCoveredChest()
--- map.nodes[14903100] = DecayCoveredChest()
--- map.nodes[16103520] = DecayCoveredChest()
--- map.nodes[16203890] = DecayCoveredChest()
--- map.nodes[16503430] = DecayCoveredChest()
--- map.nodes[17103830] = DecayCoveredChest()
--- map.nodes[17903600] = DecayCoveredChest()
--- map.nodes[18103480] = DecayCoveredChest()
--- map.nodes[18403670] = DecayCoveredChest()
--- map.nodes[18403840] = DecayCoveredChest()
--- map.nodes[18503670] = DecayCoveredChest()
--- map.nodes[21404040] = DecayCoveredChest()
--- map.nodes[21404240] = DecayCoveredChest()
--- map.nodes[21504230] = DecayCoveredChest()
--- map.nodes[23204370] = DecayCoveredChest()
--- map.nodes[24504020] = DecayCoveredChest()
--- map.nodes[24904230] = DecayCoveredChest()
--- map.nodes[34203400] = DecayCoveredChest()
--- map.nodes[34604540] = DecayCoveredChest()
--- map.nodes[34903190] = DecayCoveredChest()
--- map.nodes[35404800] = DecayCoveredChest()
--- map.nodes[35603410] = DecayCoveredChest()
--- map.nodes[35904660] = DecayCoveredChest()
--- map.nodes[58204140] = DecayCoveredChest()
--- map.nodes[58504270] = DecayCoveredChest()
+map.nodes[09702910] = DecayCoveredChest()
+map.nodes[09903250] = DecayCoveredChest()
+map.nodes[10503120] = DecayCoveredChest()
+map.nodes[11603420] = DecayCoveredChest()
+map.nodes[12003670] = DecayCoveredChest()
+map.nodes[12203520] = DecayCoveredChest()
+map.nodes[12402200] = DecayCoveredChest()
+map.nodes[12803410] = DecayCoveredChest()
+map.nodes[13803820] = DecayCoveredChest()
+map.nodes[13803940] = DecayCoveredChest()
+map.nodes[14402180] = DecayCoveredChest()
+map.nodes[14502050] = DecayCoveredChest()
+map.nodes[14903100] = DecayCoveredChest()
+map.nodes[16103520] = DecayCoveredChest()
+map.nodes[16203890] = DecayCoveredChest()
+map.nodes[16503430] = DecayCoveredChest()
+map.nodes[17103830] = DecayCoveredChest()
+map.nodes[17903600] = DecayCoveredChest()
+map.nodes[18103480] = DecayCoveredChest()
+map.nodes[18403670] = DecayCoveredChest()
+map.nodes[18403840] = DecayCoveredChest()
+map.nodes[18503670] = DecayCoveredChest()
+map.nodes[21404040] = DecayCoveredChest()
+map.nodes[21404240] = DecayCoveredChest()
+map.nodes[21504230] = DecayCoveredChest()
+map.nodes[23204370] = DecayCoveredChest()
+map.nodes[24504020] = DecayCoveredChest()
+map.nodes[24904230] = DecayCoveredChest()
+map.nodes[34203400] = DecayCoveredChest()
+map.nodes[34604540] = DecayCoveredChest()
+map.nodes[34903190] = DecayCoveredChest()
+map.nodes[35404800] = DecayCoveredChest()
+map.nodes[35603410] = DecayCoveredChest()
+map.nodes[35904660] = DecayCoveredChest()
+map.nodes[58204140] = DecayCoveredChest()
+map.nodes[58504270] = DecayCoveredChest()
 
 -------------------------------------------------------------------------------
 ---------------------------------- REED CHEST ---------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[09604080] = ns.node.ReedChest()
--- map.nodes[10304370] = ns.node.ReedChest()
--- map.nodes[10904220] = ns.node.ReedChest()
+map.nodes[09604080] = ns.node.ReedChest()
+map.nodes[10304370] = ns.node.ReedChest()
+map.nodes[10904220] = ns.node.ReedChest()
+
+-------------------------------------------------------------------------------
+---------------------------- DRACTHYR SUPPLY CHEST ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[12504240] = ns.node.DracthyrSupplyChest()
+map.nodes[13104310] = ns.node.DracthyrSupplyChest()
+map.nodes[28402810] = ns.node.DracthyrSupplyChest()
+map.nodes[29403030] = ns.node.DracthyrSupplyChest()
+map.nodes[30102870] = ns.node.DracthyrSupplyChest()
+map.nodes[38406090] = ns.node.DracthyrSupplyChest()
+map.nodes[39305920] = ns.node.DracthyrSupplyChest()
+map.nodes[41906210] = ns.node.DracthyrSupplyChest()
+map.nodes[45902600] = ns.node.DracthyrSupplyChest()
+map.nodes[46302370] = ns.node.DracthyrSupplyChest()
+map.nodes[47002190] = ns.node.DracthyrSupplyChest()
+map.nodes[47102440] = ns.node.DracthyrSupplyChest()
+map.nodes[47602590] = ns.node.DracthyrSupplyChest()
+map.nodes[47902270] = ns.node.DracthyrSupplyChest()
+map.nodes[47902990] = ns.node.DracthyrSupplyChest()
+map.nodes[48002750] = ns.node.DracthyrSupplyChest()
+map.nodes[49002540] = ns.node.DracthyrSupplyChest()
+map.nodes[53204970] = ns.node.DracthyrSupplyChest()
+map.nodes[54405180] = ns.node.DracthyrSupplyChest()
+map.nodes[54605050] = ns.node.DracthyrSupplyChest()
+map.nodes[63303040] = ns.node.DracthyrSupplyChest()
+map.nodes[64702810] = ns.node.DracthyrSupplyChest()
+map.nodes[65106130] = ns.node.DracthyrSupplyChest()
+map.nodes[65206000] = ns.node.DracthyrSupplyChest()
+map.nodes[66505960] = ns.node.DracthyrSupplyChest()
+map.nodes[68404560] = ns.node.DracthyrSupplyChest()
+map.nodes[68804660] = ns.node.DracthyrSupplyChest()
+map.nodes[70204610] = ns.node.DracthyrSupplyChest()
+map.nodes[70304340] = ns.node.DracthyrSupplyChest()
+map.nodes[70604380] = ns.node.DracthyrSupplyChest()
+
+-------------------------------------------------------------------------------
+------------------------------- SIMMERING CHEST -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[73203790] = ns.node.SimmeringChest()
+map.nodes[75103740] = ns.node.SimmeringChest()
+map.nodes[76503760] = ns.node.SimmeringChest()
+map.nodes[77304120] = ns.node.SimmeringChest()
+map.nodes[78303690] = ns.node.SimmeringChest()
+map.nodes[79603820] = ns.node.SimmeringChest()
+
+-------------------------------------------------------------------------------
+---------------------------- ICEMAW STORAGE CACHE -----------------------------
+-------------------------------------------------------------------------------
+
+local IcemawStorageCache = Class('IcemawStorageCache', ns.node.Node, {
+    label = L['icemaw_storage_cache'],
+    icon = 'chest_nv',
+    group = ns.groups.ICEMAW_STORAGE_CACHE,
+    rewards = {
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Item({item = 190454}), -- Primal Chaos
+        Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
+        Item({item = 199068, quest = 70537}), -- Time-Lost Memo
+        Item({item = 199065, quest = 70534}), -- Sorrowful Letter
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Item({item = 200071}), -- Sacred Tuskarr Totem
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+}) -- Icemaw Storage Cache
+
+map.nodes[60804950] = IcemawStorageCache()
+map.nodes[61005110] = IcemawStorageCache()
+map.nodes[62005160] = IcemawStorageCache()
+map.nodes[65601340] = IcemawStorageCache()
+map.nodes[67001180] = IcemawStorageCache()
+map.nodes[67101270] = IcemawStorageCache()
+
+-------------------------------------------------------------------------------
+------------------------------ FROSTBOUND CHEST -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[48406380] = ns.node.FrostboundChest()
+map.nodes[49706390] = ns.node.FrostboundChest()
+map.nodes[51306080] = ns.node.FrostboundChest()
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------

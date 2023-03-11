@@ -51,6 +51,7 @@ L['options_icons_scout_pack_desc'] = 'Display possible locations of {object:Expe
 L['magicbound_chest'] = 'Magic-Bound Chest'
 L['options_icons_magicbound_chest'] = 'Magic-Bound Chests'
 L['options_icons_magicbound_chest_desc'] = 'Display possible locations of {object:Magic-Bound Chests}.'
+L['ice_bound_chest'] = 'Ice Bound Chest'
 
 L['tuskarr_tacklebox'] = 'Tuskarr Tacklebox'
 L['options_icons_tuskarr_tacklebox'] = 'Tuskarr Tackleboxes'
@@ -131,6 +132,22 @@ L['the_best_at_what_i_do_suffix'] = 'bosses killed'
 
 L['options_icons_grand_hunts'] = 'Grand Hunts'
 L['options_icons_grand_hunts_desc'] = 'Display locations and rewards for {object:Grand Hunts}.'
+
+L['reed_chest'] = 'Reed Chest'
+L['options_icons_reed_chest'] = 'Reed Chest'
+L['options_icons_reed_chest_desc'] = 'Display possible locations of {object:Reed Chests}.'
+
+L['dracthyr_supply_chest'] = 'Dracthyr Supply Chest'
+L['options_icons_dracthyr_supply_chest'] = 'Dracthyr Supply Chest'
+L['options_icons_dracthyr_supply_chest_desc'] = 'Display possible locations of {object:Dracthyr Supply Chests}.'
+
+L['simmering_chest'] = 'Simmering Chest'
+L['options_icons_simmering_chest'] = 'Simmering Chest'
+L['options_icons_simmering_chest_desc'] = 'Display possible locations of {object:Simmering Chests}.'
+
+L['frostbound_chest'] = 'Frostbound Chest'
+L['options_icons_frostbound_chest'] = 'Frostbound Chest'
+L['options_icons_frostbound_chest_desc'] = 'Display possible locations of {object:Frostbound Chests}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -228,6 +245,14 @@ L['options_icons_tuskarr_chest_desc'] = 'Display possible locations of {object:T
 L['community_feast_label'] = 'Community Feast'
 L['options_icons_community_feast'] = 'Community Feast'
 L['options_icons_community_feast_desc'] = 'Display location and rewards for the Community Feast.'
+
+L['decay_covered_chest'] = 'Decay Covered Chest'
+L['options_icons_decay_covered_chest'] = 'Decay Covered Chest'
+L['options_icons_decay_covered_chest_desc'] = 'Display possible locations of {object:Decay Covered Chests}.'
+
+L['icemaw_storage_cache'] = 'Icemaw Storage Cache'
+L['options_icons_icemaw_storage_cache'] = 'Icemaw Storage Cache'
+L['options_icons_icemaw_storage_cache_desc'] = 'Display possible locations of {object:Icemaw Storage Caches}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -338,6 +363,10 @@ L['clan_chest'] = 'Clan Chest'
 L['options_icons_clan_chest'] = 'Clan Chests'
 L['options_icons_clan_chest_desc'] = 'Display possible locations of {object:Clan Chests}.'
 
+L['lightning_bound_chest'] = 'Lightning Bound Chest'
+L['options_icons_lightning_bound_chest'] = 'Lightning Bound Chest'
+L['options_icons_lightning_bound_chest_desc'] = 'Display possible locations of {object:Lightning Bound Chests}.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -399,6 +428,10 @@ L['hoard_of_draconic_delicacies_note_end'] = 'After all quests have been complet
 L['brendormi_note_start'] = 'Exchange {item:202039} and {currency:2118} for gear, a pet, a toy, and a mount.'
 L['brendormi_note_item'] = 'You currently have %s {item:202039}.'
 L['brendormi_note_currency'] = 'You currently have %s {currency:2118}.'
+
+L['titan_chest'] = 'Titan Chest'
+L['options_icons_titan_chest'] = 'Titan Chest'
+L['options_icons_titan_chest_desc'] = 'Display possible locations of {object:TuskarrTackleboxes}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

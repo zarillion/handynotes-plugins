@@ -52,6 +52,7 @@ L['options_icons_scout_pack_desc'] = 'Afficher les emplacements possibles des {o
 L['magicbound_chest'] = 'Coffre lié par magie'
 L['options_icons_magicbound_chest'] = 'Coffres lié par magie'
 L['options_icons_magicbound_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres liés par magie}.'
+L['ice_bound_chest'] = 'Coffre cerclé de glace'
 
 L['tuskarr_tacklebox'] = 'Boîte d\'appâts de pêche roharts'
 L['options_icons_tuskarr_tacklebox'] = 'Boîtes d\'appâts de pêche roharts'
@@ -132,6 +133,22 @@ L['the_best_at_what_i_do_suffix'] = 'boss tués'
 
 L['options_icons_grand_hunts'] = 'Grandes Chasses'
 L['options_icons_grand_hunts_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Grandes Chasses}.'
+
+L['reed_chest'] = 'Coffre en roseau'
+L['options_icons_reed_chest'] = 'Coffre en roseau'
+L['options_icons_reed_chest_desc'] = nil
+
+L['dracthyr_supply_chest'] = 'Coffre de fournitures dracthyr'
+L['options_icons_dracthyr_supply_chest'] = 'Coffre de fournitures dracthyr'
+L['options_icons_dracthyr_supply_chest_desc'] = nil
+
+L['simmering_chest'] = 'Coffre ardent'
+L['options_icons_simmering_chest'] = 'Coffre ardent'
+L['options_icons_simmering_chest_desc'] = nil
+
+L['frostbound_chest'] = 'Coffre lié par le givre'
+L['options_icons_frostbound_chest'] = 'Coffre lié par le givre'
+L['options_icons_frostbound_chest_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -229,6 +246,14 @@ L['options_icons_tuskarr_chest_desc'] = 'Afficher les emplacements possibles des
 L['community_feast_label'] = '{spell:388961}'
 L['options_icons_community_feast'] = '{spell:388961}'
 L['options_icons_community_feast_desc'] = 'Afficher les emplacements et les récompenses pour le {spell:388961}.'
+
+L['decay_covered_chest'] = 'Coffre couvert de putréfaction'
+L['options_icons_decay_covered_chest'] = 'Coffre couvert de putréfaction'
+L['options_icons_decay_covered_chest_desc'] = nil
+
+L['icemaw_storage_cache'] = 'Cache glacegueule'
+L['options_icons_icemaw_storage_cache'] = 'Cache glacegueule'
+L['options_icons_icemaw_storage_cache_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -339,6 +364,10 @@ L['clan_chest'] = 'Coffre clanique'
 L['options_icons_clan_chest'] = 'Coffres claniques'
 L['options_icons_clan_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres claniques}.'
 
+L['lightning_bound_chest'] = 'Coffre lié par la foudre'
+L['options_icons_lightning_bound_chest'] = 'Coffre lié par la foudre'
+L['options_icons_lightning_bound_chest_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -400,6 +429,10 @@ L['hoard_of_draconic_delicacies_note_end'] = 'Une fois toutes les quêtes termin
 L['brendormi_note_start'] = 'Échangez vos {item:202039} et {currency:2118} contre de l\'équipement, une mascotte, un jouet et une monture.'
 L['brendormi_note_item'] = 'Vous avez actuellement %s {item:202039}.'
 L['brendormi_note_currency'] = 'Vous avez actuellement %s {currency:2118}.'
+
+L['titan_chest'] = 'Coffre des Titans'
+L['options_icons_titan_chest'] = 'Coffre des Titans'
+L['options_icons_titan_chest_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

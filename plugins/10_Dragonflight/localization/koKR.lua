@@ -51,6 +51,7 @@ L['options_icons_scout_pack_desc'] = '{object:원정대 정찰병의 짐} 위치
 L['magicbound_chest'] = '마법결속 보관함'
 L['options_icons_magicbound_chest'] = '마법결속 보관함'
 L['options_icons_magicbound_chest_desc'] = '마법결속 보관함의 위치를 표시합니다.'
+L['ice_bound_chest'] = '[Ice Bound Chest]'
 
 L['tuskarr_tacklebox'] = nil
 L['options_icons_tuskarr_tacklebox'] = nil
@@ -132,6 +133,22 @@ L['the_best_at_what_i_do_suffix'] = nil
 L['options_icons_grand_hunts'] = nil
 L['options_icons_grand_hunts_desc'] = nil
 
+L['reed_chest'] = '갈대 보관함'
+L['options_icons_reed_chest'] = '갈대 보관함'
+L['options_icons_reed_chest_desc'] = nil
+
+L['dracthyr_supply_chest'] = '드랙티르 보급품 보관함'
+L['options_icons_dracthyr_supply_chest'] = '드랙티르 보급품 보관함'
+L['options_icons_dracthyr_supply_chest_desc'] = nil
+
+L['simmering_chest'] = '일렁이는 보관함'
+L['options_icons_simmering_chest'] = '일렁이는 보관함'
+L['options_icons_simmering_chest_desc'] = nil
+
+L['frostbound_chest'] = '서리결속 보관함'
+L['options_icons_frostbound_chest'] = '서리결속 보관함'
+L['options_icons_frostbound_chest_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -209,6 +226,14 @@ L['options_icons_tuskarr_chest_desc'] = nil
 L['community_feast_label'] = nil
 L['options_icons_community_feast'] = nil
 L['options_icons_community_feast_desc'] = nil
+
+L['decay_covered_chest'] = '부패로 뒤덮인 보관함'
+L['options_icons_decay_covered_chest'] = '부패로 뒤덮인 보관함'
+L['options_icons_decay_covered_chest_desc'] = nil
+
+L['icemaw_storage_cache'] = '얼음아귀 저장품 상자'
+L['options_icons_icemaw_storage_cache'] = '얼음아귀 저장품 상자'
+L['options_icons_icemaw_storage_cache_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -319,6 +344,10 @@ L['clan_chest'] = '부족 보관함'
 L['options_icons_clan_chest'] = nil
 L['options_icons_clan_chest_desc'] = nil
 
+L['lightning_bound_chest'] = '번개의 결속 상자'
+L['options_icons_lightning_bound_chest'] = '번개의 결속 상자'
+L['options_icons_lightning_bound_chest_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -380,6 +409,10 @@ L['hoard_of_draconic_delicacies_note_end'] = nil
 L['brendormi_note_start'] = nil
 L['brendormi_note_item'] = nil
 L['brendormi_note_currency'] = nil
+
+L['titan_chest'] = '티탄 궤짝'
+L['options_icons_titan_chest'] = '티탄 궤짝'
+L['options_icons_titan_chest_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

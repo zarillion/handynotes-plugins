@@ -51,6 +51,7 @@ L['options_icons_scout_pack_desc'] = '顯示 {object:遠征隊斥侯包} 可能�
 L['magicbound_chest'] = '縛法寶箱'
 L['options_icons_magicbound_chest'] = '縛法寶箱'
 L['options_icons_magicbound_chest_desc'] = '顯示 {object:縛法寶箱} 可能的位置.'
+L['ice_bound_chest'] = nil
 
 L['tuskarr_tacklebox'] = '巨牙海民釣具箱'
 L['options_icons_tuskarr_tacklebox'] = '巨牙海民釣具箱'
@@ -131,6 +132,22 @@ L['the_best_at_what_i_do_suffix'] = '首領已擊殺'
 
 L['options_icons_grand_hunts'] = '大狩獵'
 L['options_icons_grand_hunts_desc'] = '顯示 {object:大狩獵} 的位置和獎勵.'
+
+L['reed_chest'] = nil
+L['options_icons_reed_chest'] = nil
+L['options_icons_reed_chest_desc'] = nil
+
+L['dracthyr_supply_chest'] = nil
+L['options_icons_dracthyr_supply_chest'] = nil
+L['options_icons_dracthyr_supply_chest_desc'] = nil
+
+L['simmering_chest'] = nil
+L['options_icons_simmering_chest'] = nil
+L['options_icons_simmering_chest_desc'] = nil
+
+L['frostbound_chest'] = nil
+L['options_icons_frostbound_chest'] = nil
+L['options_icons_frostbound_chest_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -338,6 +355,10 @@ L['clan_chest'] = '氏族箱子'
 L['options_icons_clan_chest'] = '氏族箱子'
 L['options_icons_clan_chest_desc'] = '顯示 {object:氏族箱子} 可能的位置.'
 
+L['lightning_bound_chest'] = nil
+L['options_icons_lightning_bound_chest'] = nil
+L['options_icons_lightning_bound_chest_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -399,6 +420,10 @@ L['hoard_of_draconic_delicacies_note_end'] = '當所有任務都完成後, {npc:
 L['brendormi_note_start'] = '用 {item:202039} 和 {currency:2118} 交換裝備, 1個寵物, 1個玩具和1個坐騎.'
 L['brendormi_note_item'] = '你現在有 %s {item:202039}.'
 L['brendormi_note_currency'] = '你現在有 %s {currency:2118}.'
+
+L['titan_chest'] = nil
+L['options_icons_titan_chest'] = nil
+L['options_icons_titan_chest_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
