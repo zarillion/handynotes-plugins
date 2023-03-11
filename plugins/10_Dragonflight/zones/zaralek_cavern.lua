@@ -197,7 +197,7 @@ map.nodes[72114844] = Dragonglyph() -- Throughway
 
 map.nodes[38756061] = Dragonrace({
     label = '{quest:74839}',
-    normal = {2246, 999, 63}, -- TODO: was to fast on my first run and didnt show the silver time
+    normal = {2246, 68, 63},
     advanced = {2252, 60, 55},
     -- reverse = {2258, nil, nil},
     rewards = {
