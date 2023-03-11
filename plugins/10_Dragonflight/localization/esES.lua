@@ -52,7 +52,7 @@ L['options_icons_scout_pack_desc'] = 'Muestra dónde pueden haber {object:Mochil
 L['magicbound_chest'] = 'Cofre Reforzado con Magia'
 L['options_icons_magicbound_chest'] = 'Cofres Reforzados con Magia'
 L['options_icons_magicbound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre reforzado con magia}.'
-L['ice_bound_chest'] = 'Cofre reforzado con hielo'
+L['ice_bound_chest'] = 'Cofre Reforzado con Hielo'
 
 L['tuskarr_tacklebox'] = 'Cajas de Pesca Colmillar'
 L['options_icons_tuskarr_tacklebox'] = 'Cajas de Pesca Colmillar'
@@ -134,21 +134,21 @@ L['the_best_at_what_i_do_suffix'] = 'bosses matados'
 L['options_icons_grand_hunts'] = 'Grandes Cacerías'
 L['options_icons_grand_hunts_desc'] = 'Muestra las cacerías y las recompensas de las Grandes Cacerías.'
 
-L['reed_chest'] = 'Cofre de juncos'
-L['options_icons_reed_chest'] = 'Cofre de juncos'
-L['options_icons_reed_chest_desc'] = nil
+L['reed_chest'] = 'Cofre de Juncos'
+L['options_icons_reed_chest'] = 'Cofre de Juncos'
+L['options_icons_reed_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre de Juncos}.'
 
-L['dracthyr_supply_chest'] = 'Cofre de suministros dracthyr'
-L['options_icons_dracthyr_supply_chest'] = 'Cofre de suministros dracthyr'
-L['options_icons_dracthyr_supply_chest_desc'] = nil
+L['dracthyr_supply_chest'] = 'Cofre de Suministros Dracthyr'
+L['options_icons_dracthyr_supply_chest'] = 'Cofre de Suministros Dracthyr'
+L['options_icons_dracthyr_supply_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre de Suministros Dracthyr}.'
 
-L['simmering_chest'] = 'Cofre hirviente'
-L['options_icons_simmering_chest'] = 'Cofre hirviente'
-L['options_icons_simmering_chest_desc'] = nil
+L['simmering_chest'] = 'Cofre Hirviente'
+L['options_icons_simmering_chest'] = 'Cofre Hirviente'
+L['options_icons_simmering_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Hirviente}.'
 
-L['frostbound_chest'] = 'Cofre ligado a la Escarcha'
-L['options_icons_frostbound_chest'] = 'Cofre ligado a la Escarcha'
-L['options_icons_frostbound_chest_desc'] = nil
+L['frostbound_chest'] = 'Cofre Ligado a la Escarcha'
+L['options_icons_frostbound_chest'] = 'Cofre Ligado a la Escarcha'
+L['options_icons_frostbound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Ligado a la Escarcha}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -247,13 +247,13 @@ L['community_feast_label'] = 'Festín Comunitario'
 L['options_icons_community_feast'] = 'Festín Comunitario'
 L['options_icons_community_feast_desc'] = 'Muestra dónde hay y las recompensas para los Festines Comunitarios.'
 
-L['decay_covered_chest'] = 'Cofre cubierto de descomposición'
-L['options_icons_decay_covered_chest'] = 'Cofre cubierto de descomposición'
-L['options_icons_decay_covered_chest_desc'] = nil
+L['decay_covered_chest'] = 'Cofre Cubierto de Descomposición'
+L['options_icons_decay_covered_chest'] = 'Cofre Cubierto de Descomposición'
+L['options_icons_decay_covered_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Cubierto de Descomposición}.'
 
-L['icemaw_storage_cache'] = 'Cofre de almacenamiento Faucehielo'
-L['options_icons_icemaw_storage_cache'] = 'Cofre de almacenamiento Faucehielo'
-L['options_icons_icemaw_storage_cache_desc'] = nil
+L['icemaw_storage_cache'] = 'Cofre de Almacenamiento Faucehielo'
+L['options_icons_icemaw_storage_cache'] = 'Cofre de Almacenamiento Faucehielo'
+L['options_icons_icemaw_storage_cache_desc'] = 'Muestra dónde pueden haber {object:Cofre de Almacenamiento Faucehielo}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -364,9 +364,9 @@ L['clan_chest'] = 'Cofre de Clan'
 L['options_icons_clan_chest'] = 'Cofres de Clan'
 L['options_icons_clan_chest_desc'] = 'Muestra dónde pueden estár los {object:Cofre de Clan}.'
 
-L['lightning_bound_chest'] = 'Cofre reforzado con relámpagos'
-L['options_icons_lightning_bound_chest'] = 'Cofre reforzado con relámpagos'
-L['options_icons_lightning_bound_chest_desc'] = nil
+L['lightning_bound_chest'] = 'Cofre Reforzado con Relámpagos'
+L['options_icons_lightning_bound_chest'] = 'Cofre Reforzado con Relámpagos'
+L['options_icons_lightning_bound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Reforzado con Relámpagos}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -430,9 +430,9 @@ L['brendormi_note_start'] = 'Intercambia {item:202039} y {currency:2118} a cambi
 L['brendormi_note_item'] = 'Actualmente tienes %s {item:202039}.'
 L['brendormi_note_currency'] = 'Actualmente tienes %s {currency:2118}.'
 
-L['titan_chest'] = 'Cofre titánico'
-L['options_icons_titan_chest'] = 'Cofre titánico'
-L['options_icons_titan_chest_desc'] = nil
+L['titan_chest'] = 'Cofre Titánico'
+L['options_icons_titan_chest'] = 'Cofre Titánico'
+L['options_icons_titan_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Titánico}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
