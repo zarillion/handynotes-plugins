@@ -136,19 +136,19 @@ L['options_icons_grand_hunts_desc'] = 'Afficher les emplacements et les récompe
 
 L['reed_chest'] = 'Coffre en roseau'
 L['options_icons_reed_chest'] = 'Coffre en roseau'
-L['options_icons_reed_chest_desc'] = nil
+L['options_icons_reed_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres en roseau}.'
 
 L['dracthyr_supply_chest'] = 'Coffre de fournitures dracthyr'
 L['options_icons_dracthyr_supply_chest'] = 'Coffre de fournitures dracthyr'
-L['options_icons_dracthyr_supply_chest_desc'] = nil
+L['options_icons_dracthyr_supply_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres de fournitures dracthyr}.'
 
 L['simmering_chest'] = 'Coffre ardent'
 L['options_icons_simmering_chest'] = 'Coffre ardent'
-L['options_icons_simmering_chest_desc'] = nil
+L['options_icons_simmering_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres ardents}.'
 
 L['frostbound_chest'] = 'Coffre lié par le givre'
 L['options_icons_frostbound_chest'] = 'Coffre lié par le givre'
-L['options_icons_frostbound_chest_desc'] = nil
+L['options_icons_frostbound_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres liés par le givre}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -249,11 +249,11 @@ L['options_icons_community_feast_desc'] = 'Afficher les emplacements et les réc
 
 L['decay_covered_chest'] = 'Coffre couvert de putréfaction'
 L['options_icons_decay_covered_chest'] = 'Coffre couvert de putréfaction'
-L['options_icons_decay_covered_chest_desc'] = nil
+L['options_icons_decay_covered_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres couverts de putréfaction}.'
 
 L['icemaw_storage_cache'] = 'Cache glacegueule'
 L['options_icons_icemaw_storage_cache'] = 'Cache glacegueule'
-L['options_icons_icemaw_storage_cache_desc'] = nil
+L['options_icons_icemaw_storage_cache_desc'] = 'Afficher les emplacements possibles des {object:Caches glacegueules}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -366,7 +366,7 @@ L['options_icons_clan_chest_desc'] = 'Afficher les emplacements possibles des {o
 
 L['lightning_bound_chest'] = 'Coffre lié par la foudre'
 L['options_icons_lightning_bound_chest'] = 'Coffre lié par la foudre'
-L['options_icons_lightning_bound_chest_desc'] = nil
+L['options_icons_lightning_bound_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres liés par la foudre}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -432,7 +432,7 @@ L['brendormi_note_currency'] = 'Vous avez actuellement %s {currency:2118}.'
 
 L['titan_chest'] = 'Coffre des Titans'
 L['options_icons_titan_chest'] = 'Coffre des Titans'
-L['options_icons_titan_chest_desc'] = nil
+L['options_icons_titan_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres des Titans}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
