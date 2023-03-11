@@ -557,3 +557,4 @@ L['stolen_stash_label'] = 'Stolen Stash'
 L['molten_hoard_label'] = 'Molten Hoard'
 L['ancient_zaqali_chest_label'] = 'Ancient Zaqali Chest'
 L['old_trunk_label'] = 'Old Trunk'
+L['fealtys_reward_label'] = nil

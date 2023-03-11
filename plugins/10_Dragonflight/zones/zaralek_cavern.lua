@@ -150,7 +150,7 @@ map.nodes[60664622] = Treasure({label = L['stolen_stash_label'], quest = 75302})
 
 map.nodes[63603861] = Treasure({label = L['stolen_stash_label'], quest = 75303}) -- Stolen Stash
 
-map.nodes[48421633] = Treasure({label = L['molten_hoard_label'], quest = 75515}) -- Molten Hoard
+map.nodes[48411636] = Treasure({label = L['molten_hoard_label'], quest = 75515}) -- Molten Hoard
 
 map.nodes[36694879] = Treasure({label = L['ancient_zaqali_chest_label']}) -- Ancient Zaqali Chest
 
@@ -158,6 +158,8 @@ map.nodes[43058256] = Treasure({
     label = L['old_trunk_label'],
     requires = ns.requirement.Item(204323) -- Old Trunk Key
 }) -- Old Trunk
+
+map.nodes[48451083] = Treasure({label = L['fealtys_reward_label']}) -- Fealty's Reward (currently seems not clickable)
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------

@@ -548,3 +548,4 @@ L['stolen_stash_label'] = nil
 L['molten_hoard_label'] = nil
 L['ancient_zaqali_chest_label'] = nil
 L['old_trunk_label'] = nil
+L['fealtys_reward_label'] = nil
