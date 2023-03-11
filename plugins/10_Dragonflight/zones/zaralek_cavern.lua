@@ -235,7 +235,7 @@ map.nodes[54502371] = Dragonrace({
     label = '{quest:74939}',
     normal = {2248, 72, 69},
     advanced = {2254, 69, 64},
-    -- reverse = {2260, nil, nil},
+    reverse = {2260, 69, 64},
     rewards = {
         Achievement({id = 17483, criteria = 3, oneline = true}), -- normal bronze
         Achievement({id = 17484, criteria = 3, oneline = true}), -- normal silver
