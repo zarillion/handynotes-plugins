@@ -246,6 +246,14 @@ L['community_feast_label'] = '{spell:388961}'
 L['options_icons_community_feast'] = '{spell:388961}'
 L['options_icons_community_feast_desc'] = '顯示 {spell:388961} 的位置和獎勵.'
 
+L['decay_covered_chest'] = nil
+L['options_icons_decay_covered_chest'] = nil
+L['options_icons_decay_covered_chest_desc'] = nil
+
+L['icemaw_storage_cache'] = nil
+L['options_icons_icemaw_storage_cache'] = nil
+L['options_icons_icemaw_storage_cache_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
 -------------------------------------------------------------------------------
