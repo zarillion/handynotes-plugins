@@ -65,8 +65,9 @@ ns.groups.ELEMENTAL_STORM = Group('elemental_storm', 538566, {
 ns.groups.ELUSIVE_CREATURE = ns.Group('elusive_creature', 644271, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION,
-    IsEnabled = function(self) -- Only display group for skinning players
-        if not ns.PlayerHasProfession(393) then return false end
+    IsEnabled = function(self)
+        -- Only display group for skinning players
+        if not ns.professions.SKINNING:HasProfession() then return false end
         return ns.Group.IsEnabled(self)
     end
 })
@@ -104,8 +105,11 @@ ns.groups.SCOUT_PACK = Group('scout_pack', 4562583, {
 ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION,
-    IsEnabled = function(self) -- Only display group for engineering players
-        if not ns.PlayerHasProfession(202) then return false end
+    IsEnabled = function(self)
+        -- Only display group for engineering players
+        if not ns.professions.ENGINEERING:HasProfession() then
+            return false
+        end
         return Group.IsEnabled(self)
     end
 })
@@ -290,23 +294,6 @@ ns.node.RareElite = RareElite
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
--- LuaFormatter off
-local PROFESSIONS = {
-    -- name, icon, skillID, variantID
-    {'Alchemy', 4620669, 171, 2823},
-    {'Blacksmithing', 4620670, 164, 2822},
-    {'Enchanting', 4620672, 333, 2825},
-    {'Engineering', 4620673, 202, 2827},
-    {'Herbalism', 4620675, 182, 2832},
-    {'Inscription', 4620676, 773, 2828},
-    {'Jewelcrafting', 4620677, 755, 2829},
-    {'Leatherworking', 4620678, 165, 2830},
-    {'Mining', 4620679, 186, 2833},
-    {'Skinning', 4620680, 393, 2834},
-    {'Tailoring', 4620681, 197, 2831}
-}
--- LuaFormatter on
-
 local ProfessionMaster = Class('ProfessionMaster', ns.node.NPC, {
     scale = 0.9,
     group = ns.groups.PROFESSION_TREASURES
@@ -333,8 +320,11 @@ ns.node.ProfessionTreasures = {}
 local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
 
-for i, ids in ipairs(PROFESSIONS) do
-    local name, icon, skillID, variantID = unpack(ids)
+for _, profession in ipairs(ns.professions) do
+    local name = profession.name
+    local icon = profession.icon
+    local skillID = profession.skillID
+    local variantID = profession.variantID[10]
 
     PM[name] = Class(name .. 'Master', ProfessionMaster, {
         icon = icon,

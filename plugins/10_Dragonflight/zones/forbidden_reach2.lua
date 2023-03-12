@@ -261,34 +261,10 @@ dragonskullIsland.nodes[28984051] = LootSpecialist({
 
 ------------------------------ PROFESSION RARES  ------------------------------
 
--- Eventually we should move and merge ns.professions into common.lua below
--- the PROFESSION TREASURES header. Maybe this should become a core codeblock
--- rather than just a plugin codeblock.
-
--- LuaFormatter off
-ns.professions = {
-    ALCHEMY = {name = 'Alchemy', icon = 4620669, skillID = 171, variantID = 2823},
-    BLACKSMITHING = {name = 'Blacksmithing', icon = 4620670, skillID = 164, variantID = 2822},
-    COOKING = {name = 'Cooking', icon = 4620671, skillID = 185, variantID = 2824},
-    ENCHANTING = {name = 'Enchanting', icon = 4620672, skillID = 333, variantID = 2825},
-    ENGINEERING = {name = 'Engineering', icon = 4620673, skillID = 202, variantID = 2827},
-    FISHING = {name = 'Fishing', icon = 4620674, skillID = 356, variantID = 2823},
-    HERBALISM = {name = 'Herbalism', icon = 4620675, skillID = 182, variantID = 2832},
-    INSCRIPTION = {name = 'Inscription', icon = 4620676, skillID = 773, variantID = 2828},
-    JEWELCRAFTING = {name = 'Jewelcrafting', icon = 4620677, skillID = 755, variantID = 2829},
-    LEATHERWORKING = {name = 'Leatherworking', icon = 4620678, skillID = 165, variantID = 2830},
-    MINING = {name = 'Mining', icon = 4620679, skillID = 186, variantID = 2833},
-    SKINNING = {name = 'Skinning', icon = 4620680, skillID = 393, variantID = 2834},
-    TAILORING = {name = 'Tailoring', icon = 4620681, skillID = 197, variantID = 2831}
-}
--- LuaFormatter on
-
 local ProfessionRare = Class('ProfessionRare', Rare) -- Profession Rare
 
 function ProfessionRare.getters:sublabel()
-    local profession = self.profession
-    local name = C_TradeSkillUI.GetTradeSkillDisplayName(profession.skillID)
-    return format(L['profession_required'], name)
+    return format(L['profession_required'], self.profession:GetName())
 end
 
 function ProfessionRare.getters:requires()
@@ -309,8 +285,7 @@ function ProfessionRare.getters:note()
 end
 
 function ProfessionRare.getters:rlabel()
-    local profession = self.profession
-    return ns.GetIconLink(profession.icon, 13)
+    return ns.GetIconLink(self.profession.icon, 13)
 end
 
 dragonskullIsland.nodes[56947247] = ProfessionRare({
