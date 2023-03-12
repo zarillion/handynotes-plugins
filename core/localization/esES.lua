@@ -93,6 +93,7 @@ L['rep_exalted'] = 'Exaltado'
 L['context_menu_set_waypoint'] = 'Añadir al mapa punto de ruta'
 L['context_menu_add_tomtom'] = 'Añadir en TomTom'
 L['context_menu_add_group_tomtom'] = 'Añadir grupo en TomTom'
+L['context_menu_add_focus_group_tomtom'] = 'Añadir nodos relacionados en TomTom'
 L['context_menu_hide_node'] = 'Ocultar este nodo'
 L['context_menu_restore_hidden_nodes'] = 'Restaurar todos los nodos ocultos'
 

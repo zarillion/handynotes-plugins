@@ -92,6 +92,7 @@ L['rep_exalted'] = 'Erfürchtig'
 L['context_menu_set_waypoint'] = 'Kartenmarkierung setzen'
 L['context_menu_add_tomtom'] = 'Zu TomTom hinzufügen'
 L['context_menu_add_group_tomtom'] = 'Gruppe zu TomTom hinzufügen'
+L['context_menu_add_focus_group_tomtom'] = nil
 L['context_menu_hide_node'] = 'Verstecke diesen Punkt'
 L['context_menu_restore_hidden_nodes'] = 'Versteckte Punkte wiederherstellen'
 
