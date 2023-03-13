@@ -56,7 +56,7 @@ map.nodes[58174826] = Rare({
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
-    pois = {POI({58934944})}
+    pois = {POI({58934944})} -- Entrance
 }) -- Vakren the Hunter
 
 map.nodes[28303794] = Rare({
@@ -68,7 +68,7 @@ map.nodes[28303794] = Rare({
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
-    pois = {POI({27184089})}
+    pois = {POI({27184089})} -- Entrance
 }) -- Gahz'raxes
 
 map.nodes[41021436] = Rare({
@@ -90,7 +90,7 @@ map.nodes[47722071] = Rare({
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
-    pois = {POI({46961955})}
+    pois = {POI({46961955})} -- Entrance
 }) -- Reisa the Drowned
 
 supportCreche.nodes[35254374] = Rare({
@@ -148,7 +148,7 @@ map.nodes[59695883] = Rare({
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
-    pois = {POI({60845827})}
+    pois = {POI({60845827})} -- Entrance
 }) -- Lady Shaz'ra
 
 map.nodes[72986738] = Rare({
@@ -160,7 +160,7 @@ map.nodes[72986738] = Rare({
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
-    pois = {POI({70776649, 72086535, 71006875, 71906968})}
+    pois = {POI({70776649, 72086535, 71006875, 71906968})} -- Entrances
 }) -- Veltrax
 
 map.nodes[67924531] = Rare({
@@ -173,7 +173,7 @@ map.nodes[67924531] = Rare({
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
-    pois = {POI({69024597})}
+    pois = {POI({69024597})} -- Entrance
 }) -- Mad-Eye Carrey
 
 map.nodes[61723400] = Rare({
@@ -917,6 +917,42 @@ map.nodes[78035110] = SignalTransmitter({quest = 73144}) -- Stormsunder Mountain
 -------------------------------- ZSKERA VAULTS --------------------------------
 -------------------------------------------------------------------------------
 
+local ZSKERA_VAULTS_REWARDS = {
+    Achievement({id = 17509}), -- Every Door, Everywhere, All At Once
+    Achievement({
+        id = 17413,
+        criteria = {id = 1, qty = true, suffix = L['door_buster_suffix']}
+    }), -- Door Buster
+    Pet({item = 193851, id = 3332}), -- Patos
+    Pet({item = 193908, id = 3338}), -- Kobaldt
+    Pet({item = 204079, id = 3476}), -- Gilded Mechafrog
+    Pet({item = 193835, id = 3323}), -- Brightfeather
+    Pet({item = 193854, id = 3333}), -- Berylmane
+    Spacer(), Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
+    Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
+    Toy({item = 204262}), -- Holoviewer: The timeless One
+    Toy({item = 203852}), -- Spore-Bound Essence
+    Toy({item = 204687}), -- Obsidian Battle Horn
+    Spacer(), Item({item = 204073}), -- Ratcipe: Deviously Deviled Eggs
+    Spacer(), Mount({item = 192790, id = 197}), -- Mossy Mammoth -- TODO: REPLACE WILL REAL MOUNTID
+    Spacer(), Achievement({
+        id = 17530,
+        criteria = {
+            58660, -- Living Book
+            58661, -- Opera of the Aspects
+            58507 -- The Old Gods and the Ordering of Azeroth (Annotated)
+        }
+    }), -- Librarian of the Reach
+    Achievement({
+        id = 17315,
+        criteria = {
+            1, -- Journal Entry: The Creches
+            4, -- Journal Entry: Silence
+            8 -- Sending Stone: The Prisoner
+        }
+    }) -- While We Were Sleeping
+}
+
 map.nodes[29265268] = Collectible({
     label = L['zskera_vaults_label'],
     icon = 4909720,
@@ -925,46 +961,29 @@ map.nodes[29265268] = Collectible({
     group = ns.groups.ZSKERA_VAULTS,
     requires = ns.requirement.Quest(73159), -- Exploring Our Past
     areaPOI = 7414,
-    rewards = {
-        Achievement({id = 17509}), -- Every Door, Everywhere, All At Once
-        Achievement({
-            id = 17413,
-            criteria = {id = 1, qty = true, suffix = L['door_buster_suffix']}
-        }), -- Door Buster
-        Pet({item = 193851, id = 3332}), -- Patos
-        Pet({item = 193908, id = 3338}), -- Kobaldt
-        Pet({item = 204079, id = 3476}), -- Gilded Mechafrog
-        Pet({item = 193835, id = 3323}), -- Brightfeather
-        Pet({item = 193854, id = 3333}), -- Berylmane
-        Spacer(), Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
-        Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
-        Toy({item = 204262}), -- Holoviewer: The timeless One
-        Toy({item = 203852}), -- Spore-Bound Essence
-        Toy({item = 204687}), -- Obsidian Battle Horn
-        Spacer(), Item({item = 204073}), -- Ratcipe: Deviously Deviled Eggs
-        Spacer(), Mount({item = 192790, id = 197}), -- Mossy Mammoth -- TODO: REPLACE WILL REAL MOUNTID
-        Spacer(), Achievement({
-            id = 17530,
-            criteria = {
-                58660, -- Living Book
-                58661, -- Opera of the Aspects
-                58507 -- The Old Gods and the Ordering of Azeroth (Annotated)
-            }
-        }), -- Librarian of the Reach
-        Achievement({
-            id = 17315,
-            criteria = {
-                1, -- Journal Entry: The Creches
-                4, -- Journal Entry: Silence
-                8 -- Sending Stone: The Prisoner
-            }
-        }) -- While We Were Sleeping
-    },
+    rewards = ZSKERA_VAULTS_REWARDS,
     pois = {
         Path({29265268, 29267350}),
         Path({Circle({origin = 29267800, radius = 3})})
     }
 }) -- Zskera Vaults
+
+hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+    if self and self.areaPoiID then
+        local mapID = self:GetMap().mapID
+        local group = ns.groups.ZSKERA_VAULTS
+        if self.areaPoiID == 7414 and group:GetDisplay(mapID) then
+            local rewards = ZSKERA_VAULTS_REWARDS
+            GameTooltip:AddLine(' ')
+            for i, reward in ipairs(rewards) do
+                if reward:IsEnabled() then
+                    reward:Render(GameTooltip)
+                end
+            end
+            GameTooltip:Show()
+        end
+    end
+end)
 
 ---------------------- RATCIPE: DEVIOUSLY DEVILVED EGGS -----------------------
 
