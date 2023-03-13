@@ -7,6 +7,7 @@ local Map = ns.Map
 
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
@@ -60,7 +61,7 @@ map.nodes[42195635] = Rare({
     rewards = {
         Achievement({id = 11265, criteria = 33368}) -- Adventurer of Suramar
     }
-}) -- Degren
+}) -- Apothecary Faldren
 
 map.nodes[42195635] = Rare({
     id = 111197,
@@ -103,6 +104,299 @@ map.nodes[56607520] = Rare({
 map.nodes[23605660] = Rare({id = 104521, quest = 45504, rewards = {}}) -- Alteria
 
 map.nodes[34156099] = Rare({id = 110024, quest = 43351, rewards = {}}) -- Mal'Dreth the Corruptor
+
+--------------------------------- TODO ---------------------------------
+-- rough coordinates and quest ids from wowhead
+
+map.nodes[65605900] = Rare({
+    id = 110656,
+    quest = 43481,
+    note = 'TODO',
+    rewards = {}
+}) -- Arcanist Lylandre
+
+map.nodes[33801500] = Rare({
+    id = 106351,
+    quest = 43717,
+    note = 'TODO',
+    rewards = {}
+}) -- Artificer Lothaire
+
+map.nodes[81606160] = Rare({
+    id = 112759,
+    quest = 45471,
+    note = 'TODO',
+    rewards = {}
+}) -- Az'jatar
+
+local Baconlisk = Rare({
+    id = 103787,
+    quest = nil,
+    fgroup = 'baconlisk',
+    note = 'TODO',
+    rewards = {}
+}) -- Baconlisk
+
+map.nodes[24804980] = Baconlisk
+map.nodes[39002940] = Baconlisk
+map.nodes[75805020] = Baconlisk
+
+map.nodes[25004400] = Rare({
+    id = 105632,
+    quest = nil,
+    note = 'TODO',
+    rewards = {}
+}) -- Broodmother Shu'malis
+
+map.nodes[62604760] = Rare({
+    id = 110726,
+    quest = nil,
+    note = 'TODO',
+    rewards = {}
+}) -- Cadraeus
+
+map.nodes[23205860] = Rare({
+    id = 104519,
+    quest = 45503,
+    note = 'TODO',
+    rewards = {}
+}) -- Colerian
+
+map.nodes[68205860] = Rare({
+    id = 100864,
+    quest = nil,
+    note = 'TODO',
+    rewards = {}
+}) -- Cora'kar
+
+map.nodes[22165179] = Rare({
+    id = 99792,
+    quest = 41319,
+    note = 'TODO',
+    rewards = {}
+}) -- Elfbane
+
+map.nodes[53003020] = Rare({
+    id = 99610,
+    quest = 40897,
+    note = 'TODO',
+    rewards = {}
+}) -- Garvrulg
+
+map.nodes[27606560] = Rare({
+    id = 110832,
+    quest = 43992,
+    note = 'TODO',
+    rewards = {}
+}) -- Gorgroth
+
+map.nodes[58605140] = Rare({
+    id = 110944,
+    quest = 43597,
+    note = 'TODO',
+    rewards = {}
+}) -- Guardian Thor'el
+
+map.nodes[67807080] = Rare({
+    id = 103214,
+    quest = nil,
+    note = 'TODO',
+    rewards = {}
+}) -- Har'kess the Insatiable
+
+map.nodes[61603960] = Rare({
+    id = 103223,
+    quest = 43993,
+    note = 'TODO',
+    rewards = {}
+}) -- Hertha Grimdottir
+
+map.nodes[38007040] = Rare({
+    id = 106532,
+    quest = 44569,
+    note = 'TODO',
+    rewards = {}
+}) -- Inquisitor Volitix
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- King Morgalash
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Lady Rivantas
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Lieutenant Strathmar
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Maia the White
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Mar'tura
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Matron Hagatha
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Miasu
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Myonix
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Oglok the Furious
+
+-- map.nodes[24564739] = Rare({
+--     id = 110577,
+--     quest = 43449,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Oreth the Vile
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Pashya
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Pinchshank
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Rauren
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Reef Lord Raj'his
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Rok'nash
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Sanaar
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Scythemaster Cil'raman
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Selenyi
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Shadowquill
+
+map.nodes[26244119] = Rare({
+    id = 109054,
+    quest = 42831,
+    note = 'TODO',
+    rewards = {}
+}) -- Shal'an
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Siegemaster Aedrin
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Tideclaw
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Vicious Whale Shark
+
+-- map.nodes[0000] = Rare({
+--     id = nil,
+--     quest = nil,
+-- note = 'TODO',
+--     rewards = {},
+-- }) -- Volshax, Breaker of Will
+
+-------------------------------------------------------------------------------
+---------------------------------- TREASURES ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[26364133] = Treasure({
+    quest = 42827,
+    label = L['ancient_mana_chunk'],
+    rewards = {
+        Achievement({id = 11260, criteria = {id = 1, qty = true}}) -- NAME
+    }
+}) -- Ancient Mana Chunk
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
