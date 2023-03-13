@@ -6,14 +6,103 @@ local L = ns.locale
 local Map = ns.Map
 
 local PetBattle = ns.node.PetBattle
+local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
+local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
 local map = Map({id = 680, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[42078013] = Rare({
+    id = 109954,
+    quest = 43348, -- needs to be checked
+    rewards = {
+        Achievement({id = 11265, criteria = 33353}) -- Adventurer of Suramar
+    }
+}) -- Magister Phaedris
+
+map.nodes[49677898] = Rare({
+    id = 111007,
+    quest = 43602, -- 43603 -- needs to be ckecked
+    rewards = {
+        Achievement({id = 11265, criteria = 33364}) -- Adventurer of Suramar
+    }
+}) -- Randril
+
+map.nodes[54866415] = Rare({
+    id = 111649,
+    quest = 43794,
+    rewards = {
+        Achievement({id = 11265, criteria = 33367}) -- Adventurer of Suramar
+    }
+}) -- Ambassador D'vwinn
+
+map.nodes[54425612] = Rare({
+    id = 111651,
+    quest = 43792,
+    rewards = {
+        Achievement({id = 11265, criteria = 33368}) -- Adventurer of Suramar
+    }
+}) -- Degren
+
+map.nodes[42195635] = Rare({
+    id = 110870,
+    quest = 43580,
+    rewards = {
+        Achievement({id = 11265, criteria = 33368}) -- Adventurer of Suramar
+    }
+}) -- Degren
+
+map.nodes[42195635] = Rare({
+    id = 111197,
+    quest = 43954,
+    rewards = {
+        Achievement({id = 11265, criteria = 33365}) -- Adventurer of Suramar
+    }
+}) -- Anax
+
+------------------- Not part of the Adventurer Achievement --------------------
+
+map.nodes[29208880] = Rare({
+    id = 112756,
+    quest = nil,
+    rewards = {
+        Transmog({item = 132455, slot = L['cloth'], class = 'MAGE'}), -- Norgannon's Foresight
+        Transmog({item = 132455, slot = L['cloth'], class = 'PRIEST'}), -- Norgannon's Foresight
+        Transmog({item = 132455, slot = L['cloth'], class = 'WARLOCK'}), -- Norgannon's Foresight
+        Transmog({item = 137080, slot = L['mail'], class = 'HUNTER'}) -- Roar of the Seven Lions
+    },
+    pois = {
+        POI({28948490}), Path({
+            29208880, 28478925, 27668929, 27108846, 27158712, 27768510,
+            28698530, 28948490
+        })
+    }
+}) -- Sorallus
+
+map.nodes[57606700] = Rare({id = 112758, quest = 45475, rewards = {}}) -- Auditor Esiel
+
+map.nodes[49607960] = Rare({id = 112757, quest = 45476, rewards = {}}) -- Magistrix Vilessa
+
+map.nodes[56607520] = Rare({
+    id = 112705,
+    quest = 45478,
+    rewards = {},
+    pois = {Path({57207600, 56607520, 56007420})}
+}) -- Achronos
+
+map.nodes[23605660] = Rare({id = 104521, quest = 45504, rewards = {}}) -- Alteria
+
+map.nodes[34156099] = Rare({id = 110024, quest = 43351, rewards = {}}) -- Mal'Dreth the Corruptor
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
