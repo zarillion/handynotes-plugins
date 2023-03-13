@@ -159,7 +159,7 @@ L['robert_craig_note'] = '¡Azúzalas!'
 L['varenne_note'] = '¡Tengo que seguir cocinando!'
 L['master_tamer_flummox_note'] = '¡Flummox no necesita mascotas! ¡Flummox se las come AHORA!'
 L['aulier_note'] = 'Aprende esta lección con humlidad.'
-L['myonix_note'] = nil
+L['myonix_note'] = '{bug:Actualmente bugeado. Necesita volver a hacer login para mostrar el progreso para el logro {achievement:11265}}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------
