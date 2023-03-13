@@ -4,7 +4,6 @@
 local ADDON_NAME, ns = ...
 local Group = ns.Group
 local Class = ns.Class
-local L = ns.locale
 
 local Collectible = ns.node.Collectible
 
