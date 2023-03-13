@@ -158,6 +158,7 @@ L['robert_craig_note'] = 'Sic \'em!'
 L['varenne_note'] = 'I must get back to my cooking!'
 L['master_tamer_flummox_note'] = 'Flummox no need pets! Flummox eats them NOW!'
 L['aulier_note'] = 'Let\'s begin your lesson in humility.'
+L['myonix_note'] = '{bug:Currently bugged, needs a relog to show the credit towards {achievement:11265}}'
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------

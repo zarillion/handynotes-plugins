@@ -159,6 +159,7 @@ L['robert_craig_note'] = 'Attrapez-les !'
 L['varenne_note'] = 'Je dois retourner à ma cuisine !'
 L['master_tamer_flummox_note'] = 'Flummox pas besoin familliers ! Flummox les mange MAINTENANT !'
 L['aulier_note'] = 'Commençons votre leçon d\'humilité.'
+L['myonix_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------
