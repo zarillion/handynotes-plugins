@@ -16,7 +16,7 @@ local PT = ns.node.ProfessionTreasures
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
--- local Transmog = ns.reward.Transmog
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -76,6 +76,12 @@ map.nodes[48372384] = Rare({
 
 map.nodes[53106421] = Rare({
     id = 203480,
+    quest = 75549,
+    note = L['in_small_cave'],
+    rewards = {
+        Transmog({item = 205067, slot = L['leather']}), -- Zaralek Surveyor's Helm
+        Item({item = 192055}) -- Dragon Isle Artifact
+    },
     pois = {
         POI({54556605}) -- Entrance
     }
@@ -94,7 +100,7 @@ map.nodes[55841899] = Rare({
 map.nodes[56247389] = Rare({
     id = 203515,
     rewards = {
-        -- Transmog({item = nil, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
+        Transmog({item = 205097, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
         Item({item = 200071}) -- Sacred Tuskarr Totem
     }
 }) -- Alcanon
