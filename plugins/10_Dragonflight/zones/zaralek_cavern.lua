@@ -115,7 +115,14 @@ map.nodes[59593949] = Rare({
 
 map.nodes[61646714] = Rare({id = 203593, quest = 75553}) -- Underlight Queen
 
-map.nodes[65435587] = Rare({id = 203462}) -- Kob'rok
+map.nodes[65435587] = Rare({
+    id = 203462,
+    quest = 75545,
+    note = L['in_small_cave'],
+    pois = {
+        POI({64785550}) -- Entrance
+    }
+}) -- Kob'rok
 
 map.nodes[65875082] = Rare({id = 203643}) -- Skornace
 
