@@ -135,19 +135,19 @@ L['options_icons_grand_hunts_desc'] = '显示 {object:洪荒狩猎} 的位置和
 
 L['reed_chest'] = '苇草宝箱'
 L['options_icons_reed_chest'] = '苇草宝箱'
-L['options_icons_reed_chest_desc'] = nil
+L['options_icons_reed_chest_desc'] = '显示 {object:苇草宝箱} 可能的位置。'
 
 L['dracthyr_supply_chest'] = '龙希尔补给箱'
 L['options_icons_dracthyr_supply_chest'] = '龙希尔补给箱'
-L['options_icons_dracthyr_supply_chest_desc'] = nil
+L['options_icons_dracthyr_supply_chest_desc'] = '显示 {object:龙希尔补给箱} 可能的位置。'
 
 L['simmering_chest'] = '沸腾宝箱'
 L['options_icons_simmering_chest'] = '沸腾宝箱'
-L['options_icons_simmering_chest_desc'] = nil
+L['options_icons_simmering_chest_desc'] = '显示 {object:沸腾宝箱} 可能的位置。'
 
 L['frostbound_chest'] = '霜缚宝箱'
 L['options_icons_frostbound_chest'] = '霜缚宝箱'
-L['options_icons_frostbound_chest_desc'] = nil
+L['options_icons_frostbound_chest_desc'] = '显示 {object:霜缚宝箱} 可能的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -248,11 +248,11 @@ L['options_icons_community_feast_desc'] = '显示社区盛宴的位置和奖励�
 
 L['decay_covered_chest'] = '腐朽覆盖的宝箱'
 L['options_icons_decay_covered_chest'] = '腐朽覆盖的宝箱'
-L['options_icons_decay_covered_chest_desc'] = nil
+L['options_icons_decay_covered_chest_desc'] = '显示 {object:腐朽覆盖的宝箱} 可能的位置。'
 
 L['icemaw_storage_cache'] = '冰喉储存箱'
 L['options_icons_icemaw_storage_cache'] = '冰喉储存箱'
-L['options_icons_icemaw_storage_cache_desc'] = nil
+L['options_icons_icemaw_storage_cache_desc'] = '显示 {object:冰喉储存箱} 可能的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -365,7 +365,7 @@ L['options_icons_clan_chest_desc'] = '显示 {object:氏族宝箱} 可能的位�
 
 L['lightning_bound_chest'] = '雷缚宝箱'
 L['options_icons_lightning_bound_chest'] = '雷缚宝箱'
-L['options_icons_lightning_bound_chest_desc'] = nil
+L['options_icons_lightning_bound_chest_desc'] = '显示 {object:雷缚宝箱} 可能的位置。'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
