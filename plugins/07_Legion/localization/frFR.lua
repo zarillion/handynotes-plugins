@@ -159,7 +159,7 @@ L['robert_craig_note'] = 'Attrapez-les !'
 L['varenne_note'] = 'Je dois retourner à ma cuisine !'
 L['master_tamer_flummox_note'] = 'Flummox pas besoin familliers ! Flummox les mange MAINTENANT !'
 L['aulier_note'] = 'Commençons votre leçon d\'humilité.'
-L['myonix_note'] = nil
+L['myonix_note'] = '{bug:Actuellement buggé, nécessite une reconnexion pour afficher la progression du haut-fait {achievement:11265}}'
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------
