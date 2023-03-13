@@ -320,23 +320,25 @@ ns.node.ProfessionTreasures = {}
 local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
 
-for _, profession in ipairs(ns.professions) do
-    local name = profession.name
-    local icon = profession.icon
-    local skillID = profession.skillID
-    local variantID = profession.variantID[10]
+for _, profession in pairs(ns.professions) do
+    if profession.variantID ~= nil then
+        local name = profession.name
+        local icon = profession.icon
+        local skillID = profession.skillID
+        local variantID = profession.variantID[10]
 
-    PM[name] = Class(name .. 'Master', ProfessionMaster, {
-        icon = icon,
-        skillID = skillID,
-        requires = ns.requirement.Profession(skillID, variantID, 25)
-    })
+        PM[name] = Class(name .. 'Master', ProfessionMaster, {
+            icon = icon,
+            skillID = skillID,
+            requires = ns.requirement.Profession(skillID, variantID, 25)
+        })
 
-    PT[name] = Class(name .. 'Treasure', ProfessionTreasure, {
-        icon = icon,
-        skillID = skillID,
-        requires = ns.requirement.Profession(skillID, variantID, 25)
-    })
+        PT[name] = Class(name .. 'Treasure', ProfessionTreasure, {
+            icon = icon,
+            skillID = skillID,
+            requires = ns.requirement.Profession(skillID, variantID, 25)
+        })
+    end
 end
 
 -------------------------------------------------------------------------------
