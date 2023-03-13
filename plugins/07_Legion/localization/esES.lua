@@ -206,3 +206,6 @@ L['treasure_chest'] = 'Arqueta'
 L['treasures_discovered'] = 'tesoros descubiertos'
 
 L['general_pet_tamer_note'] = '{note:Sólo aparece cuando la misión del mundo para él está disponible.}'
+
+L['options_icons_safari'] = '{achievement:11233}'
+L['options_icons_safari_desc'] = 'Muestra dónde están  las mascotas de combate para el logro {achievement:11233}.'

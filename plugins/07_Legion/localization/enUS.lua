@@ -205,3 +205,6 @@ L['treasure_chest'] = 'Treasure Chest'
 L['treasures_discovered'] = 'treasures discovered'
 
 L['general_pet_tamer_note'] = '{note:Only appears when the corresponding world quest is active.}'
+
+L['options_icons_safari'] = '{achievement:11233}'
+L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:11233} achievement.'

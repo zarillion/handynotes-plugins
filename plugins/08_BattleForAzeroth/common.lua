@@ -607,5 +607,13 @@ ns.node.Safari = {
             Achievement({id = 13693, criteria = 45587, oneline = false}),
             Pet({id = 2666})
         }
-    })
+    }),
+    SlitheringBrownscale = Class('SlitheringBrownscale',
+        Collectible({icon = 'paw_g'}), {
+            id = 97542,
+            rewards = {
+                Achievement({id = 11233, criteria = 33119, oneline = false}),
+                Pet({id = 1736})
+            }
+        })
 }
