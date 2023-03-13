@@ -557,3 +557,8 @@ L['molten_hoard_label'] = 'Molten Hoard'
 L['ancient_zaqali_chest_label'] = 'Ancient Zaqali Chest'
 L['old_trunk_label'] = 'Old Trunk'
 L['fealtys_reward_label'] = 'Fealty\'s Reward'
+L['waterlogged_bundle_label'] = 'Waterlogged Bundle'
+L['long_lost_cache_label'] = 'Long-Lost Cache'
+
+L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.'
+L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'

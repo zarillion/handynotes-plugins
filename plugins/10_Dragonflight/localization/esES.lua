@@ -558,3 +558,8 @@ L['molten_hoard_label'] = 'Molten Hoard'
 L['ancient_zaqali_chest_label'] = 'Ancient Zaqali Chest'
 L['old_trunk_label'] = 'Old Trunk'
 L['fealtys_reward_label'] = 'Fealty\'s Reward'
+L['waterlogged_bundle_label'] = nil
+L['long_lost_cache_label'] = nil
+
+L['molten_scoutbot_note'] = nil
+L['bolts_and_brass_note'] = nil

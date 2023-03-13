@@ -126,10 +126,7 @@ map.nodes[65435587] = Rare({
 
 map.nodes[65875082] = Rare({id = 203643}) -- Skornace
 
-map.nodes[68734593] = Rare({
-    id = 203477,
-    quest = 75548
-}) -- Goopal
+map.nodes[68734593] = Rare({id = 203477, quest = 75548}) -- Goopal
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -157,17 +154,6 @@ map.nodes[36397425] = Treasure({
     note = L['crystal_encased_chest_note']
 }) -- Crystal-Encased Chest
 
-map.nodes[56564931] = Treasure({
-    label = L['moth_pilfered_pouch_label'],
-    note = L['moth_pilfered_pouch_note']
-}) -- Moth-Pilfered Pouch
-
-map.nodes[60664622] = Treasure({label = L['stolen_stash_label'], quest = 75302}) -- Stolen Stash
-
-map.nodes[63603861] = Treasure({label = L['stolen_stash_label'], quest = 75303}) -- Stolen Stash
-
-map.nodes[48411636] = Treasure({label = L['molten_hoard_label'], quest = 75515}) -- Molten Hoard
-
 map.nodes[36694879] = Treasure({label = L['ancient_zaqali_chest_label']}) -- Ancient Zaqali Chest
 
 map.nodes[43058256] = Treasure({
@@ -175,7 +161,22 @@ map.nodes[43058256] = Treasure({
     requires = ns.requirement.Item(204323) -- Old Trunk Key
 }) -- Old Trunk
 
+map.nodes[48411636] = Treasure({label = L['molten_hoard_label'], quest = 75515}) -- Molten Hoard
+
 map.nodes[48451083] = Treasure({label = L['fealtys_reward_label']}) -- Fealty's Reward (currently seems not clickable)
+
+map.nodes[56564931] = Treasure({
+    label = L['moth_pilfered_pouch_label'],
+    note = L['moth_pilfered_pouch_note']
+}) -- Moth-Pilfered Pouch
+
+map.nodes[60664622] = Treasure({label = L['stolen_stash_label'], quest = 75302}) -- Stolen Stash
+
+map.nodes[61735511] = Treasure({label = L['waterlogged_bundle_label']}) -- Waterlogged Bundle (currently bugged/phased)
+
+map.nodes[62635372] = Treasure({label = L['long_lost_cache_label']}) -- Long-Lost Cache (currently bugged/phased)
+
+map.nodes[63603861] = Treasure({label = L['stolen_stash_label'], quest = 75303}) -- Stolen Stash
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
@@ -184,16 +185,22 @@ map.nodes[48451083] = Treasure({label = L['fealtys_reward_label']}) -- Fealty's 
 map.nodes[37825884] = PT.Engineering({id = 204475, quest = 75186}) -- Busted Wyrmhole Generator
 
 map.nodes[48101659] = PT.Engineering({
-    id = 204855, -- Object is actually called "Molten Scoutbot"
+    id = 204855,
+    note = L['molten_scoutbot_note'],
     quest = 75433
-}) -- Molten Scoutbot (current ID is reward "Overclocked Determination Core")
+}) -- Molten Scoutbot (Overclocked Determination Core)
+
+map.nodes[48162790] = PT.Engineering({id = 204470, quest = 75183}) -- Haphazardly Discarded Bombs
+
+map.nodes[48484868] = PT.Engineering({id = 204469, quest = 75180}) -- Misplace Aberrus Outflow Blueprints
 
 map.nodes[49437901] = PT.Engineering({id = 204853, quest = 75431}) -- Discarded Dracothyst Drill
 
 map.nodes[57657393] = PT.Engineering({
-    id = 204850, -- Object is actually called "Bolts and Brass"
+    id = 204850,
+    note = L['bolts_and_brass_note'],
     quest = 75430
-}) -- Bolts and Brass (current ID is reward "Handful of Khaz'gorite Bolts")
+}) -- Bolts and Brass (Handful of Khaz'gorite Bolts)
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
