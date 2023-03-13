@@ -865,6 +865,42 @@ map.nodes[86485063] = ClanChest()
 map.nodes[86505330] = ClanChest()
 
 -------------------------------------------------------------------------------
+---------------------------- DRACTHYR SUPPLY CHEST ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[62701630] = ns.node.DracthyrSupplyChest()
+map.nodes[62901870] = ns.node.DracthyrSupplyChest()
+map.nodes[64101480] = ns.node.DracthyrSupplyChest()
+
+-------------------------------------------------------------------------------
+---------------------------- LIGHTNING BOUND CHEST -----------------------------
+-------------------------------------------------------------------------------
+
+local LightningBoundChest = Class('LightningBoundChest', ns.node.Node, {
+    label = L['lightning_bound_chest'],
+    icon = 'chest_pk',
+    group = ns.groups.LIGHTNING_BOUND_CHEST,
+    rewards = {
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Item({item = 190454}), -- Primal Chaos
+        Transmog({item = 201447, slot = L['cosmetic']}), -- Primal Revenant's Breezeblade
+        Transmog({item = 201448, slot = L['cosmetic']}), -- Primal Revenant's Windwall
+        Item({item = 199065, quest = 70534}), -- Sorrowful Letter
+        Item({item = 199066, quest = 70535}), -- Letter of Caution
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Item({item = 199906}), -- Titan Relic
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+}) -- Lightning Bound Chest
+
+map.nodes[60804950] = LightningBoundChest()
+map.nodes[61005110] = LightningBoundChest()
+map.nodes[62005160] = LightningBoundChest()
+map.nodes[65601340] = LightningBoundChest()
+map.nodes[67001180] = LightningBoundChest()
+map.nodes[67101270] = LightningBoundChest()
+
+-------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -1237,6 +1273,10 @@ map.nodes[61301817] = Scoutpack()
 map.nodes[61781881] = Scoutpack()
 map.nodes[63423235] = Scoutpack()
 map.nodes[64028081] = Scoutpack()
+map.nodes[36428558] = Scoutpack()
+map.nodes[36168691] = Scoutpack()
+map.nodes[60952000] = Scoutpack()
+map.nodes[59492006] = Scoutpack()
 map.nodes[65021064] = Scoutpack()
 map.nodes[66798258] = Scoutpack()
 map.nodes[73618656] = Scoutpack()

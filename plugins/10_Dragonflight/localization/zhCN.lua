@@ -51,6 +51,7 @@ L['options_icons_scout_pack_desc'] = '显示 {object:探险队斥候的背包} �
 L['magicbound_chest'] = '魔缚宝箱'
 L['options_icons_magicbound_chest'] = '魔缚宝箱'
 L['options_icons_magicbound_chest_desc'] = '显示 {object:魔缚宝箱} 可能的位置。'
+L['ice_bound_chest'] = '冰缚储物箱'
 
 L['tuskarr_tacklebox'] = '海象人工具盒'
 L['options_icons_tuskarr_tacklebox'] = '海象人工具盒'
@@ -131,6 +132,22 @@ L['the_best_at_what_i_do_suffix'] = '首领已击杀'
 
 L['options_icons_grand_hunts'] = '洪荒狩猎'
 L['options_icons_grand_hunts_desc'] = '显示 {object:洪荒狩猎} 的位置和奖励。'
+
+L['reed_chest'] = '苇草宝箱'
+L['options_icons_reed_chest'] = '苇草宝箱'
+L['options_icons_reed_chest_desc'] = '显示 {object:苇草宝箱} 可能的位置。'
+
+L['dracthyr_supply_chest'] = '龙希尔补给箱'
+L['options_icons_dracthyr_supply_chest'] = '龙希尔补给箱'
+L['options_icons_dracthyr_supply_chest_desc'] = '显示 {object:龙希尔补给箱} 可能的位置。'
+
+L['simmering_chest'] = '沸腾宝箱'
+L['options_icons_simmering_chest'] = '沸腾宝箱'
+L['options_icons_simmering_chest_desc'] = '显示 {object:沸腾宝箱} 可能的位置。'
+
+L['frostbound_chest'] = '霜缚宝箱'
+L['options_icons_frostbound_chest'] = '霜缚宝箱'
+L['options_icons_frostbound_chest_desc'] = '显示 {object:霜缚宝箱} 可能的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -228,6 +245,14 @@ L['options_icons_tuskarr_chest_desc'] = '显示 {object:海象人宝箱} 可能�
 L['community_feast_label'] = '社区盛宴'
 L['options_icons_community_feast'] = '社区盛宴'
 L['options_icons_community_feast_desc'] = '显示社区盛宴的位置和奖励。'
+
+L['decay_covered_chest'] = '腐朽覆盖的宝箱'
+L['options_icons_decay_covered_chest'] = '腐朽覆盖的宝箱'
+L['options_icons_decay_covered_chest_desc'] = '显示 {object:腐朽覆盖的宝箱} 可能的位置。'
+
+L['icemaw_storage_cache'] = '冰喉储存箱'
+L['options_icons_icemaw_storage_cache'] = '冰喉储存箱'
+L['options_icons_icemaw_storage_cache_desc'] = '显示 {object:冰喉储存箱} 可能的位置。'
 
 L['kazzi_note_start'] = '用 {item:202017} 和 {item:202018} 换取幻化、幼龙定制、宠物等。'
 L['kazzi_note_item'] = '当前有 %s {item:%s}。'
@@ -452,6 +477,10 @@ L['clan_chest'] = '氏族宝箱'
 L['options_icons_clan_chest'] = '氏族宝箱'
 L['options_icons_clan_chest_desc'] = '显示 {object:氏族宝箱} 可能的位置。'
 
+L['lightning_bound_chest'] = '雷缚宝箱'
+L['options_icons_lightning_bound_chest'] = '雷缚宝箱'
+L['options_icons_lightning_bound_chest_desc'] = '显示 {object:雷缚宝箱} 可能的位置。'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -513,6 +542,10 @@ L['hoard_of_draconic_delicacies_note_end'] = '完成所有任务后，{npc:18947
 L['brendormi_note_start'] = '用 {item:202039} 和 {currency:2118} 换取装备，宠物和坐骑。'
 L['brendormi_note_item'] = '当前有 %s {item:202039}。'
 L['brendormi_note_currency'] = '当前有 %s {currency:2118}。'
+
+L['titan_chest'] = '泰坦箱子'
+L['options_icons_titan_chest'] = '泰坦箱子'
+L['options_icons_titan_chest_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

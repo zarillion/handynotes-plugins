@@ -52,6 +52,7 @@ L['options_icons_scout_pack_desc'] = 'Отображение местополо�
 L['magicbound_chest'] = 'Сундук с магическим замком'
 L['options_icons_magicbound_chest'] = 'Сундук с магическим замком'
 L['options_icons_magicbound_chest_desc'] = 'Отображение местоположения {object:Сундуков с магическим замком}.'
+L['ice_bound_chest'] = 'Сундук с ледяным замком'
 
 L['tuskarr_tacklebox'] = 'Клыкаррские рыболовные снасти'
 L['options_icons_tuskarr_tacklebox'] = 'Клыкаррские рыболовные снасти'
@@ -132,6 +133,22 @@ L['the_best_at_what_i_do_suffix'] = 'боссы убиты'
 
 L['options_icons_grand_hunts'] = 'Великая охота'
 L['options_icons_grand_hunts_desc'] = 'Отображение локаций и наград за {object:Великую охоту}.'
+
+L['reed_chest'] = 'Тростниковый сундук'
+L['options_icons_reed_chest'] = 'Тростниковый сундук'
+L['options_icons_reed_chest_desc'] = nil
+
+L['dracthyr_supply_chest'] = 'Сундук драктиров'
+L['options_icons_dracthyr_supply_chest'] = 'Сундук драктиров'
+L['options_icons_dracthyr_supply_chest_desc'] = nil
+
+L['simmering_chest'] = 'Искрящийся сундук'
+L['options_icons_simmering_chest'] = 'Искрящийся сундук'
+L['options_icons_simmering_chest_desc'] = nil
+
+L['frostbound_chest'] = 'Скованный льдом сундук'
+L['options_icons_frostbound_chest'] = 'Скованный льдом сундук'
+L['options_icons_frostbound_chest_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -223,6 +240,14 @@ L['options_icons_tuskarr_chest_desc'] = 'Показать возможные м�
 L['community_feast_label'] = 'Большое пиршество'
 L['options_icons_community_feast'] = 'Большое пиршество'
 L['options_icons_community_feast_desc'] = 'Отображение локации и наград за Большое пиршество.'
+
+L['decay_covered_chest'] = 'Покрытый гнилью сундук'
+L['options_icons_decay_covered_chest'] = 'Покрытый гнилью сундук'
+L['options_icons_decay_covered_chest_desc'] = nil
+
+L['icemaw_storage_cache'] = 'Тайное хранилище ледочревов'
+L['options_icons_icemaw_storage_cache'] = 'Тайное хранилище ледочревов'
+L['options_icons_icemaw_storage_cache_desc'] = nil
 
 L['kazzi_note_start'] = nil
 L['kazzi_note_item'] = nil
@@ -447,6 +472,10 @@ L['clan_chest'] = 'Сундук клана'
 L['options_icons_clan_chest'] = 'Сундук клана'
 L['options_icons_clan_chest_desc'] = 'Показать возможные места {object:Сундуков клана}.'
 
+L['lightning_bound_chest'] = 'Скованный молнией сундук'
+L['options_icons_lightning_bound_chest'] = 'Скованный молнией сундук'
+L['options_icons_lightning_bound_chest_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -508,6 +537,10 @@ L['hoard_of_draconic_delicacies_note_end'] = 'После выполнения в
 L['brendormi_note_start'] = 'Обменяйте {item:202039} и {currency:2118} на экипировку, питомца, игрушку и средство передвижения.'
 L['brendormi_note_item'] = 'В настоящее время у вас есть %s {item:202039}.'
 L['brendormi_note_currency'] = 'В настоящее время у вас есть %s {currency:2118}.'
+
+L['titan_chest'] = 'Сундук титанов'
+L['options_icons_titan_chest'] = 'Сундук титанов'
+L['options_icons_titan_chest_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
