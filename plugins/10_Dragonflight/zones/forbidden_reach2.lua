@@ -945,13 +945,18 @@ map.nodes[29265268] = Collectible({
         Spacer(), Mount({item = 192790, id = 197}), -- Mossy Mammoth -- TODO: REPLACE WILL REAL MOUNTID
         Spacer(), Achievement({
             id = 17530,
-            criteria = 58507 -- The Old Gods and the Ordering of Azeroth (Annotated)
+            criteria = {
+                58660, -- Living Book
+                58661, -- Opera of the Aspects
+                58507 -- The Old Gods and the Ordering of Azeroth (Annotated)
+            }
         }), -- Librarian of the Reach
         Achievement({
             id = 17315,
             criteria = {
                 1, -- Journal Entry: The Creches
-                4 -- Journal Entry: Silence
+                4, -- Journal Entry: Silence
+                8 -- Sending Stone: The Prisoner
             }
         }) -- While We Were Sleeping
     },
@@ -1123,18 +1128,6 @@ map.nodes[61533375] = LibraryBook({
     rewards = {Achievement({id = 17530, criteria = 58506})}
 }) -- Words of the Wyrmslayer
 
--- map.nodes[] = LibraryBook({
---     label = L[''],
---     note = format({'library_note'}, L[''], 204691),
---     rewards = {Achievement({id = 17530, criteria = 58660})}
--- }) -- Living Book
-
--- map.nodes[] = LibraryBook({
---     label = L[''],
---     note = format({'library_note'}, L[''], 204181),
---     rewards = {Achievement({id = 17530, criteria = 58661})}
--- }) -- Opera of the Aspects
-
 -------------------------------------------------------------------------------
 -------------------------------- SCROLL HUNTER --------------------------------
 -------------------------------------------------------------------------------
@@ -1243,12 +1236,6 @@ map.nodes[55393586] = ScalecommanderItem({
         POI({55103837}) -- Entrance
     }
 }) -- Sending Stone: Initial Report
-
--- map.nodes[] = ScalecommanderItem({
---     allianceLabel = '{quest:73108}',
---     hordeLabel = '{quest:74903}',
---     rewards = {Achievement({id = 17315, criteria = 8})}
--- }) -- Sending Stone: The Prisoner
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
