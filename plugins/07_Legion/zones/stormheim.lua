@@ -328,6 +328,437 @@ local map = Map({id = 634, settings = true})
 -- }) -- "Whitewater Typhoon
 
 -------------------------------------------------------------------------------
+---------------------------------- TREASURES ----------------------------------
+-------------------------------------------------------------------------------
+
+local TreasuresOfStormheim = Achievement({
+    id = 11259,
+    criteria = {id = 1, qty = true}
+})
+
+-- wowhead.com/achievement=11259/treasures-of-stormheim#comments:id=2472646
+
+map.nodes[42403410] = Treasure({
+    label = L['glimmering_treasure_chest'],
+    quest = nil,
+    note = '1',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[68402960] = Treasure({
+    label = L['glimmering_treasure_chest'],
+    quest = nil,
+    note = '2',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[49106000] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '3',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[82405450] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '4',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[75606060] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '5',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[39601930] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '6',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[72105490] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '7',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[73905220] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '8',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[65605740] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '9',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[64303950] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '10',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[65404310] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '11',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[70006720] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '12',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[69104480] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '13',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[71904420] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '14',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[73304150] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '15',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[74404180] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '16',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[44107000] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '17',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[40606850] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '18',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[46606490] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '19',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[73104570] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '20',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[35206900] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '21',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[45003820] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '22',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[67905770] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '23',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[57906330] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '24',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[62607360] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '25',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[42306110] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '26',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[37203860] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '27',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[48107420] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '28',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[61903220] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '29',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[50504120] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '30',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[50304100] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '31',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[43708010] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '32',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[49707800] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '33',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[52008060] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '34',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[58004750] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '35',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[60804270] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '36',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[61404440] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '37',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[41704600] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '38',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[43104050] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '39',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[31105600] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '40',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[35904790] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '41',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[33103610] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '42',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[35003660] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '43',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[75104950] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '44',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[78407140] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '45',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[81806750] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '46',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[69004180] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '47',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[55004710] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '48',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[39506520] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '49',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[42606580] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '50',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[47403410] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '51',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[59305840] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '52',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[61806290] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '53',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[32702790] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '54',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[48006240] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '55',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[50001810] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '56',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[27305750] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '57',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[46708040] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '58',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[35705410] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '59',
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[32004720] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '60',
+    rewards = {TreasuresOfStormheim}
+})
+
+-------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 

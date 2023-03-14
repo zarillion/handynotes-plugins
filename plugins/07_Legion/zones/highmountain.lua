@@ -274,6 +274,304 @@ local map = Map({id = 650, settings = true})
 -- }) -- Zenobia
 
 -------------------------------------------------------------------------------
+---------------------------------- TREASURES ----------------------------------
+-------------------------------------------------------------------------------
+
+local TreasuresOfHighmountain = Achievement({
+    id = 11257,
+    criteria = {id = 1, qty = true}
+})
+
+-- wowhead.com/achievement=11257/treasures-of-highmountain#comments:id=2470109
+
+map.nodes[63405930] = Treasure({
+    label = L['steamy_jewelry_box'],
+    quest = nil,
+    note = '1',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[52405150] = Treasure({
+    label = L['actually_safe_treasure_chest'],
+    quest = nil,
+    note = '2',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[41604990] = Treasure({
+    label = L['floating_treasure'],
+    quest = nil,
+    note = '3',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[46702810] = Treasure({
+    label = L['glimmering_treasure_chest'],
+    quest = nil,
+    note = '4',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[54204160] = Treasure({
+    label = L['glimmering_treasure_chest'],
+    quest = nil,
+    note = '5',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[37205770] = Treasure({
+    label = L['glimmering_treasure_chest'],
+    quest = nil,
+    note = '6',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[45503460] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '7',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[45202740] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '8',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[53504350] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '9',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[37503380] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '10',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[53005220] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '11',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[53103950] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '12',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[49207320] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '13',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[43707270] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '14',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[50203860] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '15',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[53404870] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '16',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[55104960] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '17',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[46804010] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '18',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[50803500] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '19',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[42503500] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '20',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[13705540] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '21',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[32304170] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '22',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[50607540] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '23',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[46207340] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '24',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[47604400] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '25',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[51003880] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '26',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[36606210] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '27',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[41903990] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '28',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[40205000] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '29',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[39307620] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '30',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[51003640] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '31',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[53605100] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '32',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[43702460] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '33',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[49603770] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '34',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[52003240] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '35',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[42202730] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '36',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[47305230] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '37',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[31903830] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '38',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[39406230] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '39',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[39505740] = Treasure({
+    label = L['treasure_chest'],
+    quest = nil,
+    note = '40',
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[46302160] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = nil,
+    note = '41',
+    rewards = {TreasuresOfHighmountain}
+})
+
+-------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
