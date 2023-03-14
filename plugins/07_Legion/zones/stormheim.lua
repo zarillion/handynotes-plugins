@@ -6,6 +6,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local PetBattle = ns.node.PetBattle
+local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 
