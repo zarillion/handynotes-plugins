@@ -136,19 +136,19 @@ L['options_icons_grand_hunts_desc'] = 'Отображение локаций и 
 
 L['reed_chest'] = 'Тростниковый сундук'
 L['options_icons_reed_chest'] = 'Тростниковый сундук'
-L['options_icons_reed_chest_desc'] = nil
+L['options_icons_reed_chest_desc'] = 'Показать возможные места {object:Тростниковых сундуков}.'
 
 L['dracthyr_supply_chest'] = 'Сундук драктиров'
 L['options_icons_dracthyr_supply_chest'] = 'Сундук драктиров'
-L['options_icons_dracthyr_supply_chest_desc'] = nil
+L['options_icons_dracthyr_supply_chest_desc'] = 'Показать возможные места {object:Сундуков драктиров}.'
 
 L['simmering_chest'] = 'Искрящийся сундук'
 L['options_icons_simmering_chest'] = 'Искрящийся сундук'
-L['options_icons_simmering_chest_desc'] = nil
+L['options_icons_simmering_chest_desc'] = 'Показать возможные места {object:Искрящихся сундуков}.'
 
 L['frostbound_chest'] = 'Скованный льдом сундук'
 L['options_icons_frostbound_chest'] = 'Скованный льдом сундук'
-L['options_icons_frostbound_chest_desc'] = nil
+L['options_icons_frostbound_chest_desc'] = 'Показать возможные места {object:Скованный льдом сундуков}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -243,11 +243,11 @@ L['options_icons_community_feast_desc'] = 'Отображение локации
 
 L['decay_covered_chest'] = 'Покрытый гнилью сундук'
 L['options_icons_decay_covered_chest'] = 'Покрытый гнилью сундук'
-L['options_icons_decay_covered_chest_desc'] = nil
+L['options_icons_decay_covered_chest_desc'] = 'Показать возможные места {object:Покрытых гнилью сундуков}.'
 
 L['icemaw_storage_cache'] = 'Тайное хранилище ледочревов'
 L['options_icons_icemaw_storage_cache'] = 'Тайное хранилище ледочревов'
-L['options_icons_icemaw_storage_cache_desc'] = nil
+L['options_icons_icemaw_storage_cache_desc'] = 'Показать возможные места {object:Тайные хранилища ледочревов}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
@@ -360,7 +360,7 @@ L['options_icons_clan_chest_desc'] = 'Показать возможные мес
 
 L['lightning_bound_chest'] = 'Скованный молнией сундук'
 L['options_icons_lightning_bound_chest'] = 'Скованный молнией сундук'
-L['options_icons_lightning_bound_chest_desc'] = nil
+L['options_icons_lightning_bound_chest_desc'] = 'Показать возможные места {object:Скованных молнией сундуков}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -426,7 +426,7 @@ L['brendormi_note_currency'] = 'В настоящее время у вас ес�
 
 L['titan_chest'] = 'Сундук титанов'
 L['options_icons_titan_chest'] = 'Сундук титанов'
-L['options_icons_titan_chest_desc'] = nil
+L['options_icons_titan_chest_desc'] = 'Показать возможные места {object:Сундуков титанов}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
