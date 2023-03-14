@@ -16,6 +16,318 @@ local POI = ns.poi.POI
 local map = Map({id = 634, settings = true})
 
 -------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+-- https://wowwiki-archive.fandom.com/wiki/Stormheim/Rare_mobs
+
+-- map.nodes[52602400] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Aegir Wavecrusher
+
+-- map.nodes[44202280] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Ambusher Daggerfang
+
+-- map.nodes[44202280] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Apothecary Perez
+
+-- map.nodes[44202280] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Assassin Howe
+
+-- map.nodes[45807740] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Bladesquall
+
+-- map.nodes[38003900] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Bloodstalker Alpha
+
+-- map.nodes[31603360] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Boulderfall, the Eroded
+
+-- map.nodes[73008300] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Bulvinkel
+
+-- map.nodes[57804500] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Captain Brvet
+
+-- map.nodes[44202280] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Champion Elodie
+
+-- map.nodes[58207660] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Daniel "Boomer" Vorick
+
+-- map.nodes[44202280] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Dark Ranger Jess
+
+-- map.nodes[44202280] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Deathguard Adams
+
+-- map.nodes[38607060] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Den Mother Ylva
+
+-- map.nodes[74006400] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Dread-Rider Cortis
+
+-- map.nodes[41603380] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Egyl the Enduring
+
+-- map.nodes[46608380] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Fathnyr
+
+-- map.nodes[67005200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Fjorlag, the Grave's Chill
+
+-- map.nodes[41606660] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Glimar Ironfist
+
+-- map.nodes[78806120] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Grrvrgull the Conqueror
+
+-- map.nodes[39606580] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Halfdan
+
+-- map.nodes[51607460] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Hannval the Butcher
+
+-- map.nodes[42005780] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Hook
+
+-- map.nodes[47205700] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Houndmaster Ely
+
+-- map.nodes[39606580] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Huntress Estrid
+
+-- map.nodes[63803260] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Hydrannon
+
+-- map.nodes[63607460] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Inquisitor Ernstenbok
+
+-- map.nodes[62006060] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Isel the Hammer
+
+-- map.nodes[61006800] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Ivory Sentinel
+
+-- map.nodes[73404760] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Kottr Vondyr
+
+-- map.nodes[62007320] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Lagertha
+
+-- map.nodes[72605020] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Mordvigbjorn
+
+-- map.nodes[35601860] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Mother Clacker
+
+-- map.nodes[46603000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Nithogg
+
+-- map.nodes[44202280] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Priestess Liza
+
+-- map.nodes[58203400] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Roteye
+
+-- map.nodes[80801260] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Rulf Bonesnapper
+
+-- map.nodes[78200840] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Runeseer Sigvid
+
+-- map.nodes[37604040] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Simone the Seductress
+
+-- map.nodes[42005760] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Sinker
+
+-- map.nodes[81600460] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Soulbinder Halldora
+
+-- map.nodes[54802960] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Starbuck
+
+-- map.nodes[61002400] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Stormtalon
+
+-- map.nodes[49607200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Stormwing Matriarch
+
+-- map.nodes[61604340] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Tarben
+
+-- map.nodes[408072.2] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Thane Irglov the Merciless
+
+-- map.nodes[67203980] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "The Nameless King
+
+-- map.nodes[46805000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Tiptog the Lost
+
+-- map.nodes[44202280] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Tracker Jack
+
+-- map.nodes[64805180] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Urgev the Flayer
+
+-- map.nodes[36605160] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Whitewater Typhoon
+
+-------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 

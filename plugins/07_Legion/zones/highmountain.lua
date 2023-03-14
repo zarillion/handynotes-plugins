@@ -16,6 +16,264 @@ local POI = ns.poi.POI
 local map = Map({id = 650, settings = true})
 
 -------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+-- https://wowwiki-archive.fandom.com/wiki/Highmountain/Rare_mobs
+
+-- map.nodes[43404750] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- "Sure-Shot" Arnie
+
+-- map.nodes[28205280] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Ala'washte
+
+-- map.nodes[48805000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Arru
+
+-- map.nodes[36801620] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Bodash the Hoarder
+
+-- map.nodes[38004560] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Bristlemaw
+
+-- map.nodes[56407260] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Brogrul the Mighty
+
+-- map.nodes[44001200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Crab Rider Grmlrml
+
+-- map.nodes[48604060] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Crawshuk the Hungry
+
+-- map.nodes[43404740] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Dargok Thunderuin
+
+-- map.nodes[52405840] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Darkful
+
+-- map.nodes[57004840] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Defilia
+
+-- map.nodes[54604160] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Devouring Darkness
+
+-- map.nodes[36404870] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Drugon the Frostblood
+
+-- map.nodes[43807560] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Durguth
+
+-- map.nodes[41205800] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Flamescale
+
+-- map.nodes[50005000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Flotsam
+
+-- map.nodes[54407460] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Frostshard
+
+-- map.nodes[56805960] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Gurbog da Basher
+
+-- map.nodes[51004820] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Hartli the Snatcher
+
+-- map.nodes[52405840] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Jak
+
+-- map.nodes[50803460] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Luggut the Eggeater
+
+-- map.nodes[49002800] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Majestic Elderhorn
+
+-- map.nodes[58604860] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Mawat'aki
+
+-- map.nodes[48802740] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Mellok, Son of Tork
+
+-- map.nodes[46600760] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Mrrklr
+
+-- map.nodes[54604060] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Mynta Talonscreech
+
+-- map.nodes[33802160] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Olokk the Shipbreaker
+
+-- map.nodes[52605840] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Ormagrogg
+
+-- map.nodes[47607380] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Oubdob da Smasher
+
+-- map.nodes[52405830] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Puck
+
+-- map.nodes[47003300] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Raging Earth
+
+-- map.nodes[55306180] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Raging Earth
+
+-- map.nodes[52405140] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Ram'Pag
+
+-- map.nodes[43404740] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Ryael Dawndrifter
+
+-- map.nodes[45605560] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Sekhan
+
+-- map.nodes[51002580] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Shara Felbreath
+
+-- map.nodes[51403180] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Skullhat
+
+-- map.nodes[41603200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Slumber
+
+-- map.nodes[53805120] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Taurson
+
+-- map.nodes[42004160] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Tenpak Flametotem
+
+-- map.nodes[52405840] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Xaander
+
+-- map.nodes[52405850] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {}
+-- }) -- Zenobia
+
+-------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
