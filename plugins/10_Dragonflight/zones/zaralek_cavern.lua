@@ -37,17 +37,30 @@ map.nodes[31805061] = Rare({id = 203664}) -- Emberdusk
 
 map.nodes[36324481] = Rare({
     id = 203660,
+    quest = 75565,
     note = L['in_small_cave'],
     pois = {
         POI({35924400}) -- Entrance
     }
 }) -- Flowfy
 
-map.nodes[38424650] = Rare({id = 203662}) -- Subterrax
+map.nodes[38424650] = Rare({
+    id = 203662,
+    quest = 75566,
+    rewards = {
+        Item({item = 199906}) -- Titan Relic
+    }
+}) -- Subterrax
 
 map.nodes[38867151] = Rare({id = 201029}) -- Veridian King
 
-map.nodes[40753817] = Rare({id = 200111}) -- Magmanesha
+map.nodes[40753817] = Rare({
+    id = 200111,
+    quest = 75561,
+    rewards = {
+        Transmog({item = 205070, slot = L['leather']} -- Zaralek Surveyor's Bindings
+    }
+}) -- Magmanesha
 
 map.nodes[41518613] = Rare({
     id = 203621,
@@ -97,13 +110,17 @@ map.nodes[53106421] = Rare({
     pois = {
         POI({54556605}) -- Entrance
     }
-}) -- Spinmarrow entrance
+}) -- Spinmarrow
 
 map.nodes[54074162] = Rare({id = 203618}) -- Klakatak
 
 map.nodes[55841899] = Rare({
     id = 203521,
+    quest = 75551,
     note = L['in_cave'],
+    rewards = {
+        Item({item = 192055}) -- Dragon Isle Artifact
+    },
     pois = {
         POI({52921886}) -- Entrance
     }
