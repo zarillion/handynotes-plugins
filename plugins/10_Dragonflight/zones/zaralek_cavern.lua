@@ -55,7 +55,16 @@ map.nodes[41518613] = Rare({
     note = L['brulsef_the_stronk_note']
 }) -- Brulsef the Stronk
 
-map.nodes[41921857] = Rare({id = 203592}) -- General Zskorro
+map.nodes[41921857] = Rare({
+    id = 203592,
+    quest = 75552,
+    rewards = {
+        Item({item = 192055}) -- Dragon Isle Artifact
+    },
+    pois = {
+        POI({42491885}) -- Entrance
+    }
+}) -- General Zskorro
 
 map.nodes[42226524] = Rare({id = 203625}) -- Kairoktra
 
