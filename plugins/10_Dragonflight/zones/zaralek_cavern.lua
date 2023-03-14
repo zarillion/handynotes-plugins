@@ -335,6 +335,7 @@ map.nodes[51204665] = Dragonrace({
 map.nodes[44257993] = Collectible({
     id = 201752,
     icon = 5003561,
+    note = L['briggul_note'],
     requires = {
         ns.requirement.Quest(74787), -- Come Snail Away
         ns.requirement.Quest(74514) -- The Slowest Fan Club
