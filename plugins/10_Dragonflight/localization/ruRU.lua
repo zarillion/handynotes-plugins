@@ -556,3 +556,5 @@ L['long_lost_cache_label'] = nil
 
 L['molten_scoutbot_note'] = nil
 L['bolts_and_brass_note'] = nil
+
+L['big_slick_note_1'] = nil

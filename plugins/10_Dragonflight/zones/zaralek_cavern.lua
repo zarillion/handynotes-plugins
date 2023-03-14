@@ -16,8 +16,11 @@ local PT = ns.node.ProfessionTreasures
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
+local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 
+local Circle = ns.poi.Circle
+local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -335,12 +338,28 @@ map.nodes[51204665] = Dragonrace({
 map.nodes[44257993] = Collectible({
     id = 201752,
     icon = 5003561,
-    note = L['briggul_note'],
+    note = L['big_slick_note_1'],
     requires = {
         ns.requirement.Quest(74787), -- Come Snail Away
-        ns.requirement.Quest(74514) -- The Slowest Fan Club
+        ns.requirement.Quest(74514), -- The Slowest Fan Club
+        ns.requirement.Quest(74786), -- Snailspiration: Shimmershell Snail
     },
     rewards = {
         Mount({item = 205155, id = 1729}) -- Big Slick in the City
     }
 }) -- Briggul <Snail Trainer>
+
+local darkshore = Map({id = 62, settings = false})
+
+darkshore.nodes[47161853] = Collectible({
+    id = 48182,
+    icon = 442735,
+    note = L['big_slick_note_1'],
+    rewards = {
+        Pet({id = 493}) -- Shimmershell Snail
+    },
+    pois = {
+        POI({57941511, 57561701, 54761786, 53492013}), -- Shimmershell Snail
+        Path({Circle({origin = 48652445, radius = 1.5})}) -- Zidormi
+    }
+}) -- Shimmershell Snail

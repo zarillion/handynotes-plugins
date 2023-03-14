@@ -563,3 +563,5 @@ L['long_lost_cache_label'] = 'Long-Lost Cache'
 
 L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.'
 L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'
+
+L['big_slick_note_1'] = nil
