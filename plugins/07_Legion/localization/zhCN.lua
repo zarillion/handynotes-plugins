@@ -162,6 +162,13 @@ L['varenne_note'] = '我必须回去做菜了！'
 L['master_tamer_flummox_note'] = '弗鲁莫斯不需要宠物！弗鲁莫斯要吃了它们！'
 L['aulier_note'] = '我就先教教你什么叫谦虚吧。'
 L['myonix_note'] = '{bug:目前有问题，需要重新登录以显示 {achievement:11265} 中的条件。}'
+L['arcanist_lylandre_note'] = nil
+L['gorgroth_note'] = nil
+L['inside_temple_of_faladora'] = nil
+L['inside_falanaar_tunnels'] = nil
+L['ancient_mana_chunk'] = nil
+L['dusty_coffer'] = nil
+L['protected_treasure_chest'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------

@@ -159,6 +159,13 @@ L['varenne_note'] = 'I must get back to my cooking!'
 L['master_tamer_flummox_note'] = 'Flummox no need pets! Flummox eats them NOW!'
 L['aulier_note'] = 'Let\'s begin your lesson in humility.'
 L['myonix_note'] = '{bug:Currently bugged, needs a relog to show the credit towards {achievement:11265}}'
+L['arcanist_lylandre_note'] = 'To attack her you must remove the barriers by clicking on the crystals.'
+L['gorgroth_note'] = 'Use the {object:Portal Key} to summon {npc:110832}.'
+L['inside_temple_of_faladora'] = 'Inside the {location:Temple of Fal\'adora}.'
+L['inside_falanaar_tunnels'] = 'Inside the {location:Falanaar Tunnels}.'
+L['ancient_mana_chunk'] = 'Ancient Mana Chunk'
+L['dusty_coffer'] = 'Dusty Coffer'
+L['protected_treasure_chest'] = 'Protected Treasure Chest'
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------

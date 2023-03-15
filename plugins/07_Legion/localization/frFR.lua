@@ -160,6 +160,13 @@ L['varenne_note'] = 'Je dois retourner à ma cuisine !'
 L['master_tamer_flummox_note'] = 'Flummox pas besoin familliers ! Flummox les mange MAINTENANT !'
 L['aulier_note'] = 'Commençons votre leçon d\'humilité.'
 L['myonix_note'] = '{bug:Actuellement buggé, nécessite une reconnexion pour afficher la progression du haut-fait {achievement:11265}}'
+L['arcanist_lylandre_note'] = nil
+L['gorgroth_note'] = nil
+L['inside_temple_of_faladora'] = nil
+L['inside_falanaar_tunnels'] = nil
+L['ancient_mana_chunk'] = nil
+L['dusty_coffer'] = nil
+L['protected_treasure_chest'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------
