@@ -237,7 +237,7 @@ map.nodes[57657393] = PT.Engineering({
 
 map.nodes[30414530] = Dragonglyph() -- Zaqali Caldera
 map.nodes[41638037] = Dragonglyph() -- Glimmerogg
-map.nodes[45250200] = Dragonglyph() -- TODO: Abberus Approach - Unreachable, Invisivle Wall/Ceiling
+map.nodes[48010441] = Dragonglyph() -- Abberus Approach
 map.nodes[47443702] = Dragonglyph() -- Zaralek Cavern
 map.nodes[54735470] = Dragonglyph() -- Loamm
 map.nodes[55342771] = Dragonglyph() -- Slitherdrake Roost
