@@ -6,9 +6,11 @@ local L = ns.locale
 local Map = ns.Map
 
 local PetBattle = ns.node.PetBattle
+local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
