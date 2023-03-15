@@ -160,13 +160,13 @@ L['varenne_note'] = '¡Tengo que seguir cocinando!'
 L['master_tamer_flummox_note'] = '¡Flummox no necesita mascotas! ¡Flummox se las come AHORA!'
 L['aulier_note'] = 'Aprende esta lección con humlidad.'
 L['myonix_note'] = '{bug:Actualmente bugeado. Necesita volver a hacer login para mostrar el progreso para el logro {achievement:11265}}.'
-L['arcanist_lylandre_note'] = nil
-L['gorgroth_note'] = nil
-L['inside_temple_of_faladora'] = nil
-L['inside_falanaar_tunnels'] = nil
-L['ancient_mana_chunk'] = nil
-L['dusty_coffer'] = nil
-L['protected_treasure_chest'] = nil
+L['arcanist_lylandre_note'] = 'Para atacarla necesitas quitar las barreras haciendo click en los cristales.'
+L['gorgroth_note'] = 'Usa la {object:Llave de Portal} para invocar a {npc:110832}.'
+L['inside_temple_of_faladora'] = 'Dentro del {location:Templo de Fal\'adora}.'
+L['inside_falanaar_tunnels'] = 'Dentro de los {location:Túneles de Falanaar}.'
+L['ancient_mana_chunk'] = 'Trozo de Maná Antiguo'
+L['dusty_coffer'] = 'Arca Polvorienta'
+L['protected_treasure_chest'] = 'Cofre del Tesoro Protegido'
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------
