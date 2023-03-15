@@ -22,257 +22,330 @@ local map = Map({id = 650, settings = true})
 
 -- https://wowwiki-archive.fandom.com/wiki/Highmountain/Rare_mobs
 
--- map.nodes[43404750] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- "Sure-Shot" Arnie
+map.nodes[43404750] = Rare({
+    id = 100230,
+    quest = nil, -- 40413,
+    rewards = {
+        Achievement({id = 11264, criteria = 33336}), -- Adventurer of Highmountain
+        Transmog({item = 131781, slot = L['plate']}) -- Plate Hiking Boots
+    }
+}) -- "Sure-Shot" Arnie
 
--- map.nodes[28205280] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Ala'washte
+map.nodes[36801620] = Rare({
+    id = nil,
+    quest = nil,
+    rewards = {
+        Achievement({id = 11264, criteria = 33375}) -- Adventurer of Highmountain
+    }
+}) -- Bodash the Hoarder
 
--- map.nodes[48805000] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Arru
+map.nodes[38004560] = Rare({
+    id = 97449,
+    quest = nil, -- 40405
+    rewards = {
+        Achievement({id = 11264, criteria = 33328}), -- Adventurer of Highmountain
+        Transmog({item = 131761, slot = L['leather']}) -- Thick Bristly Hood
+    }
+}) -- Bristlemaul
 
--- map.nodes[36801620] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Bodash the Hoarder
+map.nodes[56407260] = Rare({
+    id = 94877,
+    quest = nil,
+    rewards = {
+        Transmog({item = 138396, slot = L['mail']}) -- Mighty Chain Footpads
+    }
+}) -- Brogrul the Mighty
 
--- map.nodes[38004560] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Bristlemaw
+map.nodes[44001200] = Rare({
+    id = 97933,
+    quest = nil, -- 39994
+    rewards = {
+        Achievement({id = 11264, criteria = 33331}), -- Adventurer of Highmountain
+        Transmog({item = 131798, slot = L['leather']}) -- Faded Swashbuckler's Jerkin
+    }
+}) -- Crab Rider Grmlrml
 
--- map.nodes[56407260] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Brogrul the Mighty
+map.nodes[48604060] = Rare({
+    id = 97345,
+    quest = nil,
+    rewards = {
+        Achievement({id = 11264, criteria = 33326}) -- Adventurer of Highmountain
+    }
+}) -- Crawshuk the Hungry
 
--- map.nodes[44001200] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Crab Rider Grmlrml
+map.nodes[52405840] = Rare({
+    id = 109501,
+    quest = nil,
+    rewards = {
+        Transmog({item = 131767, slot = L['plate']}), -- Xander's Gauntlets
+        Transmog({item = 140681, slot = L['leather']}), -- Jak's Gloves
+        Transmog({item = 140683, slot = L['cloth']}), -- Darkful's Mitts
+        Transmog({item = 140682, slot = L['cloth']}) -- Zenobia's Handwraps
+    }
+}) -- Darkful
 
--- map.nodes[48604060] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Crawshuk the Hungry
+map.nodes[54604160] = Rare({
+    id = 100495,
+    quest = nil, -- 40414
+    rewards = {
+        Achievement({id = 11264, criteria = 33337}), -- Adventurer of Highmountain
+        Transmog({item = 131780, slot = L['cloth']}) -- Void Slippers
+    }
+}) -- Devouring Darkness
 
--- map.nodes[43404740] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Dargok Thunderuin
+map.nodes[36404870] = Rare({
+    id = 110378,
+    quest = nil, -- 44503
+    rewards = {
+        Achievement({id = 11160, criteria = 32094}), -- Unleashed Monstrosities
+        Transmog({item = 141538, slot = L['cloak']}), -- Giant's Handkerchief
+        Transmog({item = 141429, slot = L['leather']}), -- Wax-Sealed Leather Bracers
+        Transmog({item = 141433, slot = L['mail']}), -- Assorted Dragonscale Bracers
+        Transmog({item = 141439, slot = L['plate']}), -- Ettinbone Bracers
+        Transmog({item = 141428, slot = L['cloth']}) -- Snowdrift Bracers
+    }
+}) -- Drugon the Frostblood
 
--- map.nodes[52405840] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Darkful
+map.nodes[43807560] = Rare({
+    id = 96072,
+    quest = nil, -- 45508
+    rewards = {
+        Transmog({item = 131796, slot = L['leather']}) -- Roggumsoggum's Boppers
+    }
+}) -- Durguth
 
--- map.nodes[57004840] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Defilia
+map.nodes[41205800] = Rare({
+    id = 97793,
+    quest = nil, -- 39963
+    rewards = {
+        Transmog({item = 131773, slot = L['mail']}) -- Flamescale Mail
+    }
+}) -- Flamescale
 
--- map.nodes[54604160] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Devouring Darkness
+map.nodes[50005000] = Rare({
+    id = 99929,
+    quest = nil,
+    rewards = {
+        Achievement({id = 11160, criteria = 32095}), -- Unleashed Monstrosities
+        Transmog({item = 141539, slot = L['cloak']}), -- Ragged Azsharan Sail Fragment
+        Transmog({item = 141476, slot = L['plate']}), -- Kezan Pirate's Mitts
+        Transmog({item = 141475, slot = L['leather']}), -- Salt-Stained Tuskarr Gloves
+        Transmog({item = 141466, slot = L['mail']}), -- Blackwater Raider Handguards
+        Transmog({item = 141470, slot = L['cloth']}) -- Faded Bloodsail Handwraps
 
--- map.nodes[36404870] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Drugon the Frostblood
+    }
+}) -- Flotsam
 
--- map.nodes[43807560] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Durguth
+map.nodes[56805960] = Rare({
+    id = 96590,
+    quest = nil, -- 40347
+    rewards = {
+        Achievement({id = 11264, criteria = 33320}), -- Adventurer of Highmountain
+        Transmog({item = 131775, slot = L['plate']}) -- Da Basher's Toy Armor
+    }
+}) -- Gurbog da Basher
 
--- map.nodes[41205800] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Flamescale
+map.nodes[51004820] = Rare({
+    id = 97326,
+    quest = nil, -- 39802
+    rewards = {
+        Achievement({id = 11264, criteria = 33325}) -- Adventurer of Highmountain
+    }
+}) -- Hartli the Snatcher
 
--- map.nodes[50005000] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Flotsam
+map.nodes[52405840] = Rare({
+    id = 109500,
+    quest = nil,
+    rewards = {
+        Transmog({item = 131767, slot = L['plate']}), -- Xander's Gauntlets
+        Transmog({item = 140680, slot = L['mail']}), -- Lysander's Lovindle Bracers
+        Transmog({item = 140681, slot = L['leather']}), -- Jak's Gloves
+        Transmog({item = 140682, slot = L['cloth']}), -- Zenobia's Handwraps
+        Transmog({item = 140683, slot = L['cloth']}) -- Darkful's Mitts
+    }
+}) -- Jak
 
--- map.nodes[54407460] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Frostshard
-
--- map.nodes[56805960] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Gurbog da Basher
-
--- map.nodes[51004820] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Hartli the Snatcher
-
--- map.nodes[52405840] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Jak
-
--- map.nodes[50803460] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {}
--- }) -- Luggut the Eggeater
+map.nodes[50803460] = Rare({
+    id = 98024,
+    quest = nil, -- 40406
+    rewards = {
+        Achievement({id = 11264, criteria = 33332}) -- Adventurer of Highmountain
+    }
+}) -- Luggut the Eggeater
 
 -- map.nodes[49002800] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Majestic Elderhorn
 
 -- map.nodes[58604860] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Mawat'aki
 
 -- map.nodes[48802740] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Mellok, Son of Tork
 
 -- map.nodes[46600760] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Mrrklr
 
 -- map.nodes[54604060] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Mynta Talonscreech
 
 -- map.nodes[33802160] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Olokk the Shipbreaker
 
 -- map.nodes[52605840] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Ormagrogg
 
 -- map.nodes[47607380] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Oubdob da Smasher
 
 -- map.nodes[52405830] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Puck
 
 -- map.nodes[47003300] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Raging Earth
 
 -- map.nodes[55306180] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Raging Earth
 
 -- map.nodes[52405140] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Ram'Pag
 
 -- map.nodes[43404740] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Ryael Dawndrifter
 
 -- map.nodes[45605560] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Sekhan
 
 -- map.nodes[51002580] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Shara Felbreath
 
 -- map.nodes[51403180] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Skullhat
 
 -- map.nodes[41603200] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Slumber
 
 -- map.nodes[53805120] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Taurson
 
 -- map.nodes[42004160] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Tenpak Flametotem
 
 -- map.nodes[52405840] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Xaander
 
 -- map.nodes[52405850] = Rare({
 --     id = nil,
 --     quest = nil,
---     rewards = {}
+--     rewards = {
+--         Achievement({id = 11264, criteria = nil}) -- Adventurer of Highmountain
+--     }
 -- }) -- Zenobia
+
+-- map.nodes[28205280] = Rare({id = 104481, quest = 45514}) -- Ala'washte
+-- map.nodes[48805000] = Rare({id = 97220}) -- Arru
+-- map.nodes[43404740] = Rare({id = 100231, quest = 40413}) -- Dargok Thunderuin
+-- map.nodes[57004840] = Rare({id = 104513, quest = 45513}) -- Defilia
+-- map.nodes[54407460] = Rare({id = 101649}) -- Frostshard
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
