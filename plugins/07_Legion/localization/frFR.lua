@@ -160,13 +160,13 @@ L['varenne_note'] = 'Je dois retourner à ma cuisine !'
 L['master_tamer_flummox_note'] = 'Flummox pas besoin familliers ! Flummox les mange MAINTENANT !'
 L['aulier_note'] = 'Commençons votre leçon d\'humilité.'
 L['myonix_note'] = '{bug:Actuellement buggé, nécessite une reconnexion pour afficher la progression du haut-fait {achievement:11265}}'
-L['arcanist_lylandre_note'] = nil
-L['gorgroth_note'] = nil
-L['inside_temple_of_faladora'] = nil
-L['inside_falanaar_tunnels'] = nil
-L['ancient_mana_chunk'] = nil
-L['dusty_coffer'] = nil
-L['protected_treasure_chest'] = nil
+L['arcanist_lylandre_note'] = 'Pour l\'attaquer, vous devez retirer les barrières en cliquant sur les cristaux.'
+L['gorgroth_note'] = 'Utilisez la {object:Clé de portail} pour invoquer {npc:110832}.'
+L['inside_temple_of_faladora'] = 'A l\'intérieur du {location:Temple de Fal\'adora}.'
+L['inside_falanaar_tunnels'] = 'A l\'intérieur des {location:Tunnels de Falanaar}.'
+L['ancient_mana_chunk'] = 'Morceau de mana ancestral'
+L['dusty_coffer'] = 'Coffre poussiéreux'
+L['protected_treasure_chest'] = 'Coffre au trésor protégé'
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------
