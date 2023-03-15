@@ -164,7 +164,7 @@ map.nodes[65435587] = Rare({
 }) -- Kob'rok
 
 map.nodes[65875082] = Rare({
-    id = 203643
+    id = 203643,
     quest = 75563,
     rewards = {
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
