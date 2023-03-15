@@ -62,7 +62,7 @@ map.nodes[40753817] = Rare({
         Transmog({item = 205070, slot = L['leather']}), -- Zaralek Surveyor's Bindings
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Item({item = 192055}), -- Dragon Isle Artifact
-        Currency({id = 2445}) -- Flightstones
+        Currency({id = 2245}) -- Flightstones
     }
 }) -- Magmanesha
 
@@ -88,7 +88,7 @@ map.nodes[42226524] = Rare({
     quest = 75557,
     rewards = {
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
-        Currency({id = 2445}) -- Flightstones
+        Currency({id = 2245}) -- Flightstones
     }
 }) -- Kairoktra
 
@@ -169,7 +169,7 @@ map.nodes[65875082] = Rare({
     quest = 75563,
     rewards = {
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
-        Currency({id = 2445}) -- Flightstones
+        Currency({id = 2245}) -- Flightstones
     }
 }) -- Skornace
 
