@@ -14,6 +14,7 @@ local Dragonrace = ns.node.Dragonrace
 local PT = ns.node.ProfessionTreasures
 
 local Achievement = ns.reward.Achievement
+local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
