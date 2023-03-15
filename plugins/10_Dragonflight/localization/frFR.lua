@@ -544,24 +544,24 @@ L['options_icons_dragonbane_siege_desc'] = 'Afficher les emplacements et les ré
 
 L['brulsef_the_stronk_note'] = nil
 
-L['blazing_shadowflame_chest_label'] = nil
-L['blazing_shadowflame_chest_note'] = nil
-L['well_chewed_chest_label'] = nil
-L['well_chewed_chest_note'] = nil
-L['charred_egg_label'] = nil
-L['crystal_encased_chest_label'] = nil
-L['crystal_encased_chest_note'] = nil
-L['moth_pilfered_pouch_label'] = nil
-L['moth_pilfered_pouch_note'] = nil
-L['stolen_stash_label'] = nil
-L['molten_hoard_label'] = nil
-L['ancient_zaqali_chest_label'] = nil
-L['old_trunk_label'] = nil
-L['fealtys_reward_label'] = nil
-L['waterlogged_bundle_label'] = nil
-L['long_lost_cache_label'] = nil
+L['blazing_shadowflame_chest_label'] = 'Coffre d\'ombreflamme flamboyant'
+L['blazing_shadowflame_chest_note'] = nil -- DEV NOTE - Do not translate
+L['well_chewed_chest_label'] = 'Coffre bien mâché'
+L['well_chewed_chest_note'] = 'La {item:202869}({dot:Green}) est cachée sous la {npc:199962} dans la grotte.'
+L['charred_egg_label'] = 'Œuf calciné'
+L['crystal_encased_chest_label'] = nil -- NYL
+L['crystal_encased_chest_note'] = nil -- DEV NOTE - Do not translate
+L['moth_pilfered_pouch_label'] = 'Bourse volée par les phalènes'
+L['moth_pilfered_pouch_note'] = nil -- DEV NOTE - Do not translate
+L['stolen_stash_label'] = 'Butin volé'
+L['molten_hoard_label'] = nil -- NYL
+L['ancient_zaqali_chest_label'] = 'Coffre zaqali ancien'
+L['old_trunk_label'] = 'Vieille malle'
+L['fealtys_reward_label'] = nil -- NYL
+L['waterlogged_bundle_label'] = 'Paquet détrempé'
+L['long_lost_cache_label'] = 'Cache perdue depuis longtemmps'
 
 L['molten_scoutbot_note'] = nil
 L['bolts_and_brass_note'] = nil
 
-L['big_slick_note_1'] = nil
+L['big_slick_note_1'] = 'l\'{npc:48182} peut être trouvé dans l\'ancienne version de la zone {location:Sombrivage}. Parlez à {npc:141489} pour remonter le temps avant la {location:Guerre des épines}.'
