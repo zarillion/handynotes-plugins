@@ -59,6 +59,9 @@ map.nodes[40753817] = Rare({
     quest = 75561,
     rewards = {
         Transmog({item = 205070, slot = L['leather']}) -- Zaralek Surveyor's Bindings
+        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        Item({item = 192055}), -- Dragon Isle Artifact
+        Currency({id = 2445}) -- Flightstones
     }
 }) -- Magmanesha
 
@@ -79,7 +82,14 @@ map.nodes[41921857] = Rare({
     }
 }) -- General Zskorro
 
-map.nodes[42226524] = Rare({id = 203625}) -- Kairoktra
+map.nodes[42226524] = Rare({
+    id = 203625,
+    quest = 75557,
+    rewards = {
+        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        Currency({id = 2445}) -- Flightstones
+    }
+}) -- Kairoktra
 
 map.nodes[45673327] = Rare({id = 203627, quest = 75558}) -- Invohq
 
@@ -153,7 +163,14 @@ map.nodes[65435587] = Rare({
     }
 }) -- Kob'rok
 
-map.nodes[65875082] = Rare({id = 203643}) -- Skornace
+map.nodes[65875082] = Rare({
+    id = 203643
+    quest = 75563,
+    rewards = {
+        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        Currency({id = 2445}) -- Flightstones
+    }
+}) -- Skornace
 
 map.nodes[68734593] = Rare({id = 203477, quest = 75548}) -- Goopal
 
@@ -168,6 +185,7 @@ map.nodes[28544791] = Treasure({
 
 map.nodes[29774050] = Treasure({
     label = L['well_chewed_chest_label'],
+    quest = 73395,
     note = L['well_chewed_chest_note'],
     requires = ns.requirement.Item(202869), -- Scorching Key
     pois = {
