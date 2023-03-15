@@ -3,7 +3,6 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 local L = ns.locale
-local Class = ns.Class
 local Map = ns.Map
 
 local PetBattle = ns.node.PetBattle
