@@ -58,7 +58,7 @@ map.nodes[40753817] = Rare({
     id = 200111,
     quest = 75561,
     rewards = {
-        Transmog({item = 205070, slot = L['leather']}) -- Zaralek Surveyor's Bindings
+        Transmog({item = 205070, slot = L['leather']}), -- Zaralek Surveyor's Bindings
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Item({item = 192055}), -- Dragon Isle Artifact
         Currency({id = 2445}) -- Flightstones
