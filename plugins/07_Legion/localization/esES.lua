@@ -157,7 +157,7 @@ L['options_icons_eredar_war_supplies_desc'] = 'Muestra dónde pueden estar los {
 
 L['trapper_jarrun_note'] = 'Reúne tus defensas, mortal.'
 L['robert_craig_note'] = '¡Azúzalas!'
-L['stormtalon_note'] = nil
+L['stormtalon_note'] = 'Intenta no matarlo de un disparo o no podrás montarte en él.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- SURAMAR ------------------------------------
