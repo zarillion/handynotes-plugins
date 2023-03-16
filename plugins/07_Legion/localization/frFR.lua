@@ -134,6 +134,12 @@ L['options_icons_void_seeped_cache_desc'] = 'Afficher les emplacements possibles
 L['odrogg_note'] = 'Vous pensez que vous pouvez battre mes escargots ?'
 L['grixis_tinypop_note'] = 'Ce sera facile !'
 L['bredda_tenderhide_note'] = 'Que le plus courageux soit victorieux !'
+L['unethical_adventurers'] = 'Aventuriers peu scrupuleux'
+L['unethical_adventurers_note'] = nil
+L['taurson_note'] = nil
+L['arru_note'] = nil
+L['tt_hoc'] = nil
+L['steamy_jewelry_box'] = 'Boîte à bijoux torride'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------

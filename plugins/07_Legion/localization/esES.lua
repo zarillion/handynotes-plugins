@@ -134,6 +134,12 @@ L['options_icons_void_seeped_cache_desc'] = 'Muestra dónde pueden estar los {ob
 L['odrogg_note'] = '¿Crees que puedes superar a mis caracoles?'
 L['grixis_tinypop_note'] = '¡Esto va a ser fácil!'
 L['bredda_tenderhide_note'] = '¡Que los más valientes resulten victoriosos!'
+L['unethical_adventurers'] = 'Aventurero sin escrúpulos'
+L['unethical_adventurers_note'] = nil
+L['taurson_note'] = nil
+L['arru_note'] = nil
+L['tt_hoc'] = nil
+L['steamy_jewelry_box'] = 'El joyero tórrido'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------

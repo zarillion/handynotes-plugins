@@ -133,6 +133,12 @@ L['options_icons_void_seeped_cache_desc'] = 'Display possible locations for void
 L['odrogg_note'] = 'You think you can best my snails?'
 L['grixis_tinypop_note'] = 'This\'ll be easy!'
 L['bredda_tenderhide_note'] = 'Let the bravest prove victorious!'
+L['unethical_adventurers'] = 'Unethical Adventurers'
+L['unethical_adventurers_note'] = 'Click on the {object:Seemingly Unguarded Treasure} to summon the {npc:Unethical Adventurers}.'
+L['taurson_note'] = 'Talk to {npc:97653} and challange him to fight.\nWhen you defeat him, {object:Taurson\'s Prize} will spawn.'
+L['arru_note'] = 'Talk to {npc:97215} to start the encounter with {npc:97220}.\n\nWhen {npc:97215} has tamed the bear, {object:Thunder Totem Stolen Goods} will spawn in the back of the small cave.'
+L['tt_hoc'] = 'Down in the {location:Hall of Chieftains}.'
+L['steamy_jewelry_box'] = 'A Steamy Jewelry Box'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------

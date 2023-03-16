@@ -136,6 +136,12 @@ L['options_icons_void_seeped_cache_desc'] = nil
 L['odrogg_note'] = 'Ihr glaubt, Ihr könnt meinen Schnecken bezwingen?'
 L['grixis_tinypop_note'] = 'Das wird leicht!'
 L['bredda_tenderhide_note'] = 'Mögen die Tapfersten siegreich sein!'
+L['unethical_adventurers'] = 'Ethisch fragwürdige Abenteurer'
+L['unethical_adventurers_note'] = 'Kliche auf den {object:Scheinbar unbehüteter Schatz} um die {npc:Ethisch fragwürdigen Abenteurer} zu rufen.'
+L['taurson_note'] = nil
+L['arru_note'] = nil
+L['tt_hoc'] = nil
+L['steamy_jewelry_box'] = 'Ein dampfendes Schmuckkästchen'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------

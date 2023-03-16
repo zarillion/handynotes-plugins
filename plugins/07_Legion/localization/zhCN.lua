@@ -136,6 +136,12 @@ L['options_icons_void_seeped_cache_desc'] = '显示浸透虚空的宝箱的可�
 L['odrogg_note'] = '你以为你能击败我的蜗牛？'
 L['grixis_tinypop_note'] = '这完全是小菜一碟！'
 L['bredda_tenderhide_note'] = '狭路相逢勇者胜！'
+L['unethical_adventurers'] = '卑鄙的冒险者'
+L['unethical_adventurers_note'] = nil
+L['taurson_note'] = nil
+L['arru_note'] = nil
+L['tt_hoc'] = nil
+L['steamy_jewelry_box'] = '潮湿的珠宝盒'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------
