@@ -226,6 +226,13 @@ map.nodes[62635372] = Treasure({label = L['long_lost_cache_label']}) -- Long-Los
 
 map.nodes[63603861] = Treasure({label = L['stolen_stash_label'], quest = 75303}) -- Stolen Stash
 
+local RitualOffering = Class('RitualOffering', Treasure, {
+    label = 'Ritual Offering'
+}) -- Ritual Offering
+
+map.nodes[35145223] = RitualOffering()
+map.nodes[26874611] = RitualOffering()
+
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
@@ -388,6 +395,7 @@ map.nodes[44257993] = Collectible({
         ns.requirement.Quest(74787), -- Come Snail Away
         ns.requirement.Quest(74514), -- The Slowest Fan Club
         ns.requirement.Quest(74786), -- Snailspiration: Shimmershell Snail
+        ns.requirement.Quest(74517) -- All Terrain Snail
     },
     rewards = {
         Mount({item = 205155, id = 1729}) -- Big Slick in the City
