@@ -135,10 +135,10 @@ L['odrogg_note'] = 'Vous pensez que vous pouvez battre mes escargots ?'
 L['grixis_tinypop_note'] = 'Ce sera facile !'
 L['bredda_tenderhide_note'] = 'Que le plus courageux soit victorieux !'
 L['unethical_adventurers'] = 'Aventuriers peu scrupuleux'
-L['unethical_adventurers_note'] = nil
-L['taurson_note'] = nil
-L['arru_note'] = nil
-L['tt_hoc'] = nil
+L['unethical_adventurers_note'] = 'Cliquez sur le {object:Trésor apparemment pas gardé} pour faire apparaître les {npc:Aventuriers peu scrupuleux}.'
+L['taurson_note'] = 'Parlez à {npc:97653} et défiez-le au combat.\nLorsque vous l\'aurez vaincu, le {object:Prix de Taurson} apparaîtra.'
+L['arru_note'] = 'Parlez au {npc:97215} pour commencer l\'affrontement avec {npc:97220}.\n\nLorsque le {npc:97215} aura dompté l\'ours, les {object:Marchandises de Totem-du-Tonnerre volées} apparaîtront au fond de la petite caverne.'
+L['tt_hoc'] = 'En bas, dans le {location:Hall des Chefs}.'
 L['steamy_jewelry_box'] = 'Boîte à bijoux torride'
 
 -------------------------------------------------------------------------------
