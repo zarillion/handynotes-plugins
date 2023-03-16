@@ -157,7 +157,7 @@ L['options_icons_eredar_war_supplies_desc'] = 'Afficher les emplacements possibl
 
 L['trapper_jarrun_note'] = 'Rassemblez vos défenses, mortel.'
 L['robert_craig_note'] = 'Attrapez-les !'
-L['stormtalon_note'] = nil
+L['stormtalon_note'] = 'Évitez de le tuer en un seul coup, sinon vous ne pourrez pas le chevaucher.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- SURAMAR ------------------------------------
