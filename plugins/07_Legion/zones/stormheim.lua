@@ -237,7 +237,7 @@ map.nodes[61002400] = Rare({
     id = 109994,
     note = L['stormtalon_note'],
     rewards = {
-        Achievement({id = 11178, criteria = 32332}), -- Wake the Dragon
+        Achievement({id = 11178, criteria = 32332}) -- Wake the Dragon
     }
 }) -- Stormtalon
 
@@ -255,7 +255,7 @@ map.nodes[61604340] = Rare({
     id = 98268,
     quest = nil, -- 40081
     rewards = {
-        Achievement({id = 11263, criteria = 33312}), -- Adventurer of Stormheim
+        Achievement({id = 11263, criteria = 33312}) -- Adventurer of Stormheim
     }
 }) -- Tarben
 
