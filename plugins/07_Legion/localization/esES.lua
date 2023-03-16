@@ -134,12 +134,12 @@ L['options_icons_void_seeped_cache_desc'] = 'Muestra dónde pueden estar los {ob
 L['odrogg_note'] = '¿Crees que puedes superar a mis caracoles?'
 L['grixis_tinypop_note'] = '¡Esto va a ser fácil!'
 L['bredda_tenderhide_note'] = '¡Que los más valientes resulten victoriosos!'
-L['unethical_adventurers'] = 'Aventurero sin escrúpulos'
-L['unethical_adventurers_note'] = nil
-L['taurson_note'] = nil
-L['arru_note'] = nil
-L['tt_hoc'] = nil
-L['steamy_jewelry_box'] = 'El joyero tórrido'
+L['unethical_adventurers'] = 'Aventurero sin Escrúpulos'
+L['unethical_adventurers_note'] = 'Haz click en el {object:Tesoro Aparentemente sin Vigilancia} para invocar a {npc:Aventurero sin Escrúpulos}.'
+L['taurson_note'] = 'Habla con {npc:97653} y rétalo a un combate.\nCuando le derrotes aparecerá el {object:Premio de Taurson}.'
+L['arru_note'] = 'Habla con el {npc:97215} para empezar el combate contra {npc:97220}.\n\nCuando el {npc:97215} haya domesticado el oso, aparecerán los {object:Bienes Robados de los Tótem del Trueno} en la parte trasera de la cueva.'
+L['tt_hoc'] = 'Abajo en la {location:Sala de los Jefes}.'
+L['steamy_jewelry_box'] = 'El Joyero Tórrido'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------
