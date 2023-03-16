@@ -137,10 +137,10 @@ L['odrogg_note'] = '你以为你能击败我的蜗牛？'
 L['grixis_tinypop_note'] = '这完全是小菜一碟！'
 L['bredda_tenderhide_note'] = '狭路相逢勇者胜！'
 L['unethical_adventurers'] = '卑鄙的冒险者'
-L['unethical_adventurers_note'] = nil
-L['taurson_note'] = nil
-L['arru_note'] = nil
-L['tt_hoc'] = nil
+L['unethical_adventurers_note'] = '点击 {object:看似无人看守的宝藏} 召唤 {npc:卑鄙的冒险者}。'
+L['taurson_note'] = '与 {npc:97653} 交谈并向他发起挑战。\n当击败他时，{object:陶森的奖品} 会出现。'
+L['arru_note'] = '与 {npc:97215} 交谈以开始与 {npc:97220} 的战斗。\n\n当 {npc:97215} 驯服了熊时，{object:雷霆图腾失窃货物} 将在小洞穴的后面出现。'
+L['tt_hoc'] = '{location:酋长大厅} 下面。'
 L['steamy_jewelry_box'] = '潮湿的珠宝盒'
 
 -------------------------------------------------------------------------------
@@ -168,13 +168,13 @@ L['varenne_note'] = '我必须回去做菜了！'
 L['master_tamer_flummox_note'] = '弗鲁莫斯不需要宠物！弗鲁莫斯要吃了它们！'
 L['aulier_note'] = '我就先教教你什么叫谦虚吧。'
 L['myonix_note'] = '{bug:目前有问题，需要重新登录以显示 {achievement:11265} 中的条件。}'
-L['arcanist_lylandre_note'] = nil
-L['gorgroth_note'] = nil
-L['inside_temple_of_faladora'] = nil
-L['inside_falanaar_tunnels'] = nil
-L['ancient_mana_chunk'] = nil
-L['dusty_coffer'] = nil
-L['protected_treasure_chest'] = nil
+L['arcanist_lylandre_note'] = '要攻击她必须通过点击水晶来移除障碍。'
+L['gorgroth_note'] = '使用 {object:传送门钥匙} 召唤 {npc:110832}。'
+L['inside_temple_of_faladora'] = '{location:法尔多拉神殿} 内。'
+L['inside_falanaar_tunnels'] = '{location:法兰纳尔隧道} 内。'
+L['ancient_mana_chunk'] = '远古魔力碎块'
+L['dusty_coffer'] = '尘封的保险箱'
+L['protected_treasure_chest'] = '受保护的宝箱'
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------
