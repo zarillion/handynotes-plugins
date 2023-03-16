@@ -156,6 +156,7 @@ L['options_icons_eredar_war_supplies_desc'] = 'Display possible locations for er
 
 L['trapper_jarrun_note'] = 'Muster your defenses mortal.'
 L['robert_craig_note'] = 'Sic \'em!'
+L['stormtalon_note'] = 'Try not to One-Shot him or you won\'t be able to mount him.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- SURAMAR ------------------------------------

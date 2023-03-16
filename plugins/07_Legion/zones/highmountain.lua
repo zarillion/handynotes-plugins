@@ -317,13 +317,13 @@ map.nodes[52755819] = Rare({
     }
 }) -- Unethical Adventurers
 
--- map.nodes[28205280] = Rare({id = 104481, quest = 45514}) -- Ala'washte
--- map.nodes[57004840] = Rare({id = 104513, quest = 45513}) -- Defilia
+-- map.nodes[28205280] = Rare({id = 104481}) -- Ala'washte
+-- map.nodes[57004840] = Rare({id = 104513}) -- Defilia
 -- map.nodes[54407460] = Rare({id = 101649}) -- Frostshard
--- map.nodes[58604860] = Rare({id = 104517, quest = 45512}) -- Mawat'aki
--- map.nodes[33802160] = Rare({id = 104484, quest = 45511}) -- Olokk the Shipbreaker
--- map.nodes[52605840] = Rare({id = 104524, quest = 45510}) -- Ormagrogg
--- map.nodes[47003300] = Rare({id = 99846}) -- Raging Earth
+-- map.nodes[58604860] = Rare({id = 104517}) -- Mawat'aki
+-- map.nodes[33802160] = Rare({id = 104484}) -- Olokk the Shipbreaker
+-- map.nodes[52605840] = Rare({id = 104524}) -- Ormagrogg
+-- map.nodes[47003300] = Rare({id = 99846, class = 'SHAMAN'}) -- Raging Earth
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

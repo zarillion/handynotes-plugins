@@ -159,6 +159,7 @@ L['options_icons_eredar_war_supplies_desc'] = nil
 
 L['trapper_jarrun_note'] = 'Verteidigt Euch, sterbliches Wesen.'
 L['robert_craig_note'] = 'Fass!'
+L['stormtalon_note'] = 'Versuche ihn nicht mit einem Schlag zu töten, sonst kannst du ihn nicht mehr reiten.s'
 
 -------------------------------------------------------------------------------
 ---------------------------------- SURAMAR ------------------------------------

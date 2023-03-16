@@ -122,7 +122,7 @@ ns.groups.DECAY_COVERED_CHEST = Group('decay_covered_chest', 'chest_pk', {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.REED_CHEST = Group('reed_chest', 'chest_yw', { --
+ns.groups.REED_CHEST = Group('reed_chest', 'chest_yw', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
