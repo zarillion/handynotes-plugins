@@ -177,6 +177,8 @@ L['options_toggle_show_loot'] = 'Показать Лут'
 L['options_toggle_show_loot_desc'] = 'Добавить информацию о добыче в подсказку'
 L['options_toggle_show_notes'] = 'Показать заметки'
 L['options_toggle_show_notes_desc'] = 'Добавьте полезные заметки в подсказку, где это возможно'
+L['options_toggle_use_standard_time'] = nil
+L['options_toggle_use_standard_time_desc'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

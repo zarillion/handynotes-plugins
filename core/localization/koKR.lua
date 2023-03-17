@@ -177,6 +177,8 @@ L['options_toggle_show_loot'] = '드랍템 표시'
 L['options_toggle_show_loot_desc'] = '드랍템 정보를 툴팁에 표시합니다'
 L['options_toggle_show_notes'] = '가이드 표시'
 L['options_toggle_show_notes_desc'] = '가이드가 있으면 툴팁에 표시합니다'
+L['options_toggle_use_standard_time'] = nil
+L['options_toggle_use_standard_time_desc'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

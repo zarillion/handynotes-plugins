@@ -177,6 +177,8 @@ L['options_toggle_show_loot'] = '顯示戰利品'
 L['options_toggle_show_loot_desc'] = '在工具提示中加入戰利品資訊'
 L['options_toggle_show_notes'] = '顯示註記'
 L['options_toggle_show_notes_desc'] = '在可用的工具提示中加入有用的註記'
+L['options_toggle_use_standard_time'] = nil
+L['options_toggle_use_standard_time_desc'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

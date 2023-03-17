@@ -292,6 +292,13 @@ ns.options = {
                     name = L['options_toggle_show_notes'],
                     desc = L['options_toggle_show_notes_desc'],
                     order = 42
+                },
+                use_standard_time = {
+                    type = 'toggle',
+                    arg = 'use_standard_time',
+                    name = L['options_toggle_use_standard_time'],
+                    desc = L['options_toggle_use_standard_time_desc'],
+                    order = 43
                 }
             }
         },

@@ -177,6 +177,8 @@ L['options_toggle_show_loot'] = 'Montrer le Butin'
 L['options_toggle_show_loot_desc'] = 'Ajouter l\'information de butin à l\'infobulle'
 L['options_toggle_show_notes'] = 'Montrer les Notes'
 L['options_toggle_show_notes_desc'] = 'Ajouter les notes utiles à l\'infobulle le cas échéant'
+L['options_toggle_use_standard_time'] = nil
+L['options_toggle_use_standard_time_desc'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

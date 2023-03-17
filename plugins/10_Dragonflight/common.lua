@@ -1092,7 +1092,11 @@ local function nextSpawn(self, timeYellow, timeGreen)
     local next_time = start + math.ceil(elapsedTime / self.spawnInterval) *
                           self.spawnInterval
 
-    local text = date(L['time_format'], next_time)
+    local text = date(L['time_format_24hrs'], next_time)
+
+    if ns:GetOpt('use_standard_time') then
+        text = date(L['time_format_12hrs'], next_time)
+    end
 
     if timeYellow and timeGreen then
         local color = ns.color.Orange

@@ -177,6 +177,8 @@ L['options_toggle_show_loot'] = 'Mostrar el botín'
 L['options_toggle_show_loot_desc'] = 'Agregar la información de botín al toolip'
 L['options_toggle_show_notes'] = 'Mostrar las Notas'
 L['options_toggle_show_notes_desc'] = 'Agregar las notas útiles al tooltip cuando esté disponible'
+L['options_toggle_use_standard_time'] = nil
+L['options_toggle_use_standard_time_desc'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

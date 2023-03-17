@@ -177,6 +177,8 @@ L['options_toggle_show_loot'] = 'Zeige Beute'
 L['options_toggle_show_loot_desc'] = 'Zeigt Beuteinformationen im Tooltip an.'
 L['options_toggle_show_notes'] = 'Zeige Notizen'
 L['options_toggle_show_notes_desc'] = 'Zeigt hilfreiche Notizen an sofern diese verfügbar sind.'
+L['options_toggle_use_standard_time'] = nil
+L['options_toggle_use_standard_time_desc'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 
