@@ -140,10 +140,10 @@ L['taurson_note'] = 'Parlez à {npc:97653} et défiez-le au combat.\nLorsque vou
 L['arru_note'] = 'Parlez au {npc:97215} pour commencer l\'affrontement avec {npc:97220}.\n\nLorsque le {npc:97215} aura dompté l\'ours, les {object:Marchandises de Totem-du-Tonnerre volées} apparaîtront au fond de la petite caverne.'
 L['tt_hoc'] = 'En bas, dans le {location:Hall des Chefs}.'
 L['steamy_jewelry_box'] = 'Boîte à bijoux torride'
-L['flamescale_note'] = nil
-L['amateur_hunters_note'] = nil
-L['treasure_40482'] = nil
-L['mrrklr_note'] = nil
+L['flamescale_note'] = 'Utilisez la {object:Canne à pêche abandonnée} pour invoquer {npc:97793}.'
+L['amateur_hunters_note'] = 'Après avoir vaincu les trois {npc:Chasseurs amateurs}, le {object:Coffre endommagé} apparaît au fond de la petite grotte.'
+L['treasure_40482'] = 'Sur le nez de la grande statue.'
+L['mrrklr_note'] = 'Libérez {npc:98754} pour faire aparaître {npc:98311}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------
