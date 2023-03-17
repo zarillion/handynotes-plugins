@@ -140,6 +140,10 @@ L['taurson_note'] = 'Habla con {npc:97653} y rétalo a un combate.\nCuando le de
 L['arru_note'] = 'Habla con el {npc:97215} para empezar el combate contra {npc:97220}.\n\nCuando el {npc:97215} haya domesticado el oso, aparecerán los {object:Bienes Robados de los Tótem del Trueno} en la parte trasera de la cueva.'
 L['tt_hoc'] = 'Abajo en la {location:Sala de los Jefes}.'
 L['steamy_jewelry_box'] = 'El Joyero Tórrido'
+L['flamescale_note'] = nil
+L['amateur_hunters_note'] = nil
+L['treasure_40482'] = nil
+L['mrrklr_note'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------

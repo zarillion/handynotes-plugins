@@ -142,6 +142,10 @@ L['taurson_note'] = nil
 L['arru_note'] = nil
 L['tt_hoc'] = nil
 L['steamy_jewelry_box'] = 'Ein dampfendes Schmuckkästchen'
+L['flamescale_note'] = 'Nutze die {object:Liegen gelassene Angelrute} um {npc:97793} erscheinen zu lassen.'
+L['amateur_hunters_note'] = 'Nachdem du die drei {npc:Freizeitjäger} besiegt hast erscheint eine {object:ramponierte Truhe} in der kleinen höhle.'
+L['treasure_40482'] = 'Auf der Nase der riesigen Statue.'
+L['mrrklr_note'] = 'Befreie {npc:98754} damit {npc:98311} erscheint.'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------

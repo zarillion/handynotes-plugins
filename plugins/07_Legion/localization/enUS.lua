@@ -139,6 +139,10 @@ L['taurson_note'] = 'Talk to {npc:97653} and challange him to fight.\nWhen you d
 L['arru_note'] = 'Talk to {npc:97215} to start the encounter with {npc:97220}.\n\nWhen {npc:97215} has tamed the bear, {object:Thunder Totem Stolen Goods} will spawn in the back of the small cave.'
 L['tt_hoc'] = 'Down in the {location:Hall of Chieftains}.'
 L['steamy_jewelry_box'] = 'A Steamy Jewelry Box'
+L['flamescale_note'] = 'Use the {object:Abandoned Fishing Pole} to summon {npc:97793}.'
+L['amateur_hunters_note'] = 'After defeating the three {npc:Amateur Hunters} the {object:Battered Chest} will spawn in the back of the small cave.'
+L['treasure_40482'] = 'On the nose of the huge statue.'
+L['mrrklr_note'] = 'Free {npc:98754} to spawn {npc:98311}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------

@@ -20,9 +20,10 @@ local Path = ns.poi.Path
 -------------------------------------------------------------------------------
 
 local map = Map({id = 650, settings = true})
-local neltharions_vault = Map({id = 657})
-local tt = Map({id = 750, settings = true}) -- Thunder Totem
 local tt_hoc = Map({id = 652, settings = true}) -- Thunder Totem - Hall of Chieftains
+local neltharions_vault = Map({id = 657})
+local grotto = Map({id = 659}) -- Stonedark Grotto
+local tt = Map({id = 750, settings = true}) -- Thunder Totem
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -32,12 +33,13 @@ local tt_hoc = Map({id = 652, settings = true}) -- Thunder Totem - Hall of Chief
 
 map.nodes[43404750] = Rare({
     id = 100230,
-    quest = nil, -- 40413,
+    quest = 40413,
+    note = L['amateur_hunters_note'],
     rewards = {
         Achievement({id = 11264, criteria = 33336}), -- Adventurer of Highmountain
         Transmog({item = 131781, slot = L['plate']}) -- Plate Hiking Boots
     }
-}) -- "Sure-Shot" Arnie
+}) -- Amateur Hunters ("Sure-Shot" Arnie, Ryael Dawndrifter, Dargok Thunderuin)
 
 map.nodes[48675008] = Rare({
     id = 97220,
@@ -48,17 +50,18 @@ map.nodes[48675008] = Rare({
     }
 }) -- Arru
 
-map.nodes[36801620] = Rare({
+map.nodes[36661635] = Rare({
     id = 98299,
-    quest = nil, -- 40084
+    quest = 40084,
     rewards = {
         Achievement({id = 11264, criteria = 33375}) -- Adventurer of Highmountain
     }
 }) -- Bodash the Hoarder
 
-map.nodes[38004560] = Rare({
+map.nodes[38044566] = Rare({
     id = 97449,
-    quest = nil, -- 40405
+    quest = 40405,
+    note = L['in_small_cave'],
     rewards = {
         Achievement({id = 11264, criteria = 33328}), -- Adventurer of Highmountain
         Transmog({item = 131761, slot = L['leather']}) -- Thick Bristly Hood
@@ -73,12 +76,18 @@ map.nodes[56417256] = Rare({
     }
 }) -- Brogrul the Mighty
 
-map.nodes[44001200] = Rare({
+map.nodes[43971131] = Rare({
     id = 97933,
-    quest = nil, -- 39994
+    quest = 39994,
     rewards = {
         Achievement({id = 11264, criteria = 33331}), -- Adventurer of Highmountain
         Transmog({item = 131798, slot = L['leather']}) -- Faded Swashbuckler's Jerkin
+    },
+    pois = {
+        Path({
+            43151079, 43671091, 43971131, 44021184, 44211232, 44571268,
+            45081277, 45521249, 46001229
+        })
     }
 }) -- Crab Rider Grmlrml
 
@@ -89,14 +98,6 @@ map.nodes[48604060] = Rare({
         Achievement({id = 11264, criteria = 33326}) -- Adventurer of Highmountain
     }
 }) -- Crawshuk the Hungry
-
-map.nodes[43404740] = Rare({
-    id = 100231,
-    quest = nil, -- 40413
-    rewards = {
-        Achievement({id = 11264, criteria = 33336}) -- Adventurer of Highmountain
-    }
-}) -- Dargok Thunderuin
 
 map.nodes[54604160] = Rare({
     id = 100495,
@@ -128,9 +129,10 @@ map.nodes[43807560] = Rare({
     }
 }) -- Durguth
 
-map.nodes[41205800] = Rare({
+map.nodes[40975773] = Rare({
     id = 97793,
-    quest = nil, -- 39963
+    quest = 39963,
+    note = L['flamescale_note'],
     rewards = {
         Transmog({item = 131773, slot = L['mail']}) -- Flamescale Mail
     }
@@ -181,19 +183,30 @@ map.nodes[50803460] = Rare({
     }
 }) -- Luggut the Eggeater
 
-map.nodes[49002800] = Rare({
+map.nodes[45923033] = Rare({
     id = 96410,
-    quest = nil, -- 39646
+    quest = 39646,
     rewards = {
         Achievement({id = 11264, criteria = 33319}), -- Adventurer of Highmountain
         Transmog({item = 131791, slot = L['cloth']}), -- Felbreath Bloodsinger Robe
         Toy({item = 131900}) -- Majestic Elderhorn Hoof
+    },
+    pois = {
+        Path({
+            45923033, 46263070, 46623117, 46613171, 46523223, 46703279,
+            46793330, 47343336, 47623289, 47783170, 47803112, 47833061,
+            47873011, 48032959, 48602917, 49112892, 49452849, 49762806,
+            50102760, 50132709, 50132655, 50062601, 49742559, 49202569,
+            48662556, 48152552, 47672592, 47282624, 46842587, 46392546,
+            45852549, 45392567, 45062613, 44732656, 44512704, 44262754,
+            44322806, 44592853, 44912901, 45122951, 45363003, 45923033
+        })
     }
 }) -- Majestic Elderhorn
 
-map.nodes[48802740] = Rare({
+map.nodes[49182711] = Rare({
     id = 96621,
-    quest = nil, -- 40242
+    quest = 40242,
     rewards = {
         Achievement({id = 11264, criteria = 33321}) -- Adventurer of Highmountain
     }
@@ -202,6 +215,7 @@ map.nodes[48802740] = Rare({
 map.nodes[46600760] = Rare({
     id = 98311,
     quest = nil, -- 40096
+    note = L['mrrklr_note'],
     rewards = {
         Achievement({id = 11264, criteria = 33333}) -- Adventurer of Highmountain
 
@@ -232,14 +246,6 @@ map.nodes[52405140] = Rare({
         Achievement({id = 11264, criteria = 33334}) -- Adventurer of Highmountain
     }
 }) -- Ram'Pag - Actually Safe Treasure Chest
-
-map.nodes[43404741] = Rare({
-    id = 100232,
-    quest = nil, -- 40413
-    rewards = {
-        Achievement({id = 11264, criteria = 33336}) -- Adventurer of Highmountain
-    }
-}) -- Ryael Dawndrifter
 
 map.nodes[44695492] = Rare({
     id = 101077,
@@ -274,9 +280,9 @@ map.nodes[51403180] = Rare({
     }
 }) -- Skullhat
 
-map.nodes[41603200] = Rare({
+map.nodes[41483178] = Rare({
     id = 98890,
-    quest = nil, -- 40175
+    quest = 40175,
     rewards = {
         Achievement({id = 11264, criteria = 33335}) -- Adventurer of Highmountain
     }
@@ -293,9 +299,9 @@ map.nodes[53805120] = Rare({
     pois = {POI({54065085})}
 }) -- Taurson - The Beastly Boxer
 
-map.nodes[42004160] = Rare({
+map.nodes[41964161] = Rare({
     id = 97203,
-    quest = nil, -- 39782
+    quest = 39782,
     rewards = {
         Achievement({id = 11264, criteria = 33323}), -- Adventurer of Highmountain
         Pet({item = 129175, id = 1752}) -- Crispin
@@ -357,10 +363,10 @@ map.nodes[41604990] = Treasure({
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[46702810] = Treasure({
+map.nodes[46662813] = Treasure({
     label = L['glimmering_treasure_chest'],
-    quest = nil,
-    note = '4',
+    quest = 40482,
+    note = L['treasure_40482'],
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -371,25 +377,25 @@ map.nodes[54204160] = Treasure({
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[37205770] = Treasure({
+Map({id = 655}).nodes[52892396] = Treasure({
     label = L['glimmering_treasure_chest'],
-    quest = nil,
-    note = '6',
+    quest = 40476,
+    parent = {id = map.id, note = L['in_cave'], pois = {POI({38326116})}},
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[45503460] = Treasure({
+map.nodes[45553459] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '7',
+    quest = 40481,
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[45202740] = Treasure({
+map.nodes[45182745] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '8',
-    rewards = {TreasuresOfHighmountain}
+    quest = 44279,
+    note = L['in_water_cave'],
+    rewards = {TreasuresOfHighmountain},
+    pois = {POI({45772738})}
 })
 
 map.nodes[53504350] = Treasure({
@@ -399,10 +405,9 @@ map.nodes[53504350] = Treasure({
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[37503380] = Treasure({
+map.nodes[37353380] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '10',
+    quest = 40477,
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -466,10 +471,9 @@ map.nodes[50803500] = Treasure({
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[42503500] = Treasure({
+map.nodes[42503504] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '20',
+    quest = 40480,
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -516,18 +520,18 @@ map.nodes[51003880] = Treasure({
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[36606210] = Treasure({
+map.nodes[36616213] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '27',
+    quest = 40488,
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[41903990] = Treasure({
+Map({id = 654}).nodes[60622506] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '28',
+    quest = 40494,
+    parent = {id = map.id, note = L['in_cave'], pois = {POI({38544276})}},
     rewards = {TreasuresOfHighmountain}
+
 })
 
 neltharions_vault.nodes[40235008] = Treasure({
@@ -557,10 +561,10 @@ map.nodes[53625103] = Treasure({
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[43702460] = Treasure({
+grotto.nodes[36067252] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '33',
+    quest = 40478,
+    parent = {id = map.id, note = L['in_cave'], pois = {POI({})}},
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -578,10 +582,9 @@ map.nodes[52003240] = Treasure({
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[42202730] = Treasure({
+map.nodes[42202731] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '36',
+    quest = 40479,
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -603,24 +606,23 @@ tt.nodes[31963835] = Treasure({
     pois = {POI({32144497})}
 })
 
-map.nodes[39406230] = Treasure({
+map.nodes[39386228] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '39',
+    quest = 40474,
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[39505740] = Treasure({
+map.nodes[39535744] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '40',
-    rewards = {TreasuresOfHighmountain}
+    quest = 39812,
+    note = L['in_small_cave'],
+    rewards = {TreasuresOfHighmountain},
+    pois = {POI({39945781})}
 })
 
-map.nodes[46302160] = Treasure({
+map.nodes[46362163] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '41',
+    quest = 44280,
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -676,11 +678,11 @@ map.nodes[43200760] = PetBattle({
     rewards = {Achievement({id = 10876, criteria = 31534})}
 }) -- Lil'idan
 
-Map({id = 659}).nodes[47744458] = PetBattle({
+grotto.nodes[47744458] = PetBattle({
     id = 104553,
     note = format('%s\n\n%s\n%s', L['general_pet_tamer_note'], L['in_cave'],
         L['odrogg_note']),
-    parent = {id = map.id, pois = {POI({42572533})}},
+    parent = {id = map.id, note = L['in_cave'], pois = {POI({42572533})}},
     rewards = {
         Achievement({id = 10876, criteria = 31535}), ns.reward.Spacer(),
         Achievement({id = 9686, criteria = 8, oneline = true}), -- Aquatic
