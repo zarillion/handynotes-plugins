@@ -84,6 +84,7 @@ read_globals = {
     'IsTitleKnown',
     'PlayerHasToy',
     'PlaySound',
+    'SecondsToTime',
     'Spell',
     'UiMapPoint',
     'UnitAura',

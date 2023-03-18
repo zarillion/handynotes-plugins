@@ -94,6 +94,7 @@ L['options_icons_signal_transmitter_desc'] = '{item:198156}를 이용하기 위�
 L['rare_14h'] = nil
 L['time_format_12hrs'] = nil
 L['time_format_24hrs'] = nil
+L['now'] = nil
 L['spawns_at_night'] = '저녁에만 출몰합니다. (서버 시각 기준 18:30)'
 
 L['elemental_storm'] = nil

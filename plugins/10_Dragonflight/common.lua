@@ -1076,36 +1076,37 @@ ns.node.ElementalChest = ElementalChest
 local function nextSpawn(self, timeYellow, timeGreen)
     local region = GetCurrentRegion() -- https://wowpedia.fandom.com/wiki/API_GetCurrentRegion
     local initial = self.initialSpawn
-    local current = GetServerTime()
+    local CurrentTime = GetServerTime()
 
-    local start = initial.us + self.rotationID * self.spawnOffset
-
-    if region == 3 and initial.eu then
-        start = initial.eu + self.rotationID * self.spawnOffset
+    local SpawnTime = self.rotationID * self.spawnOffset
+    if region == 2 and initial.kr then
+        SpawnTime = SpawnTime + initial.kr
+    elseif region == 3 and initial.eu then
+        SpawnTime = SpawnTime + initial.eu
+        -- elseif region == 4 and initial.tw then
+        --     SpawnTime = SpawnTime + initial.tw
+    else
+        SpawnTime = SpawnTime + initial.us
     end
 
-    if region == 4 and initial.tw then
-        start = initial.tw + self.rotationID * self.spawnOffset
-    end
-
-    local elapsedTime = current - start
-    local next_time = start + math.ceil(elapsedTime / self.spawnInterval) *
-                          self.spawnInterval
-
-    local text = date(L['time_format_24hrs'], next_time)
-
-    if ns:GetOpt('use_standard_time') then
-        text = date(L['time_format_12hrs'], next_time)
-    end
+    local NextSpawn = SpawnTime +
+                          math.ceil(
+            (CurrentTime - SpawnTime) / self.spawnInterval) * self.spawnInterval
+    local TimeLeft = NextSpawn - CurrentTime
+    local SpawnsIn = TimeLeft <= 60 and L['now'] or
+                         SecondsToTime(TimeLeft, true, true)
 
     if timeYellow and timeGreen then
         local color = ns.color.Orange
-        if next_time - current < timeYellow then color = ns.color.Yellow end
-        if next_time - current < timeGreen then color = ns.color.Green end
-        text = color(text)
+        if TimeLeft < timeYellow then color = ns.color.Yellow end
+        if TimeLeft < timeGreen then color = ns.color.Green end
+        SpawnsIn = color(SpawnsIn)
     end
 
-    return text
+    local TimeFormat =
+        ns:GetOpt('use_standard_time') and L['time_format_12hrs'] or
+            L['time_format_24hrs']
+    return format('%s (%s)', SpawnsIn, date(TimeFormat, NextSpawn))
 end
 
 ---------------------------------- 14 HOURS -----------------------------------
@@ -1137,11 +1138,7 @@ end
 --------------------------------- BRACKENHIDE ---------------------------------
 
 local Brackenhide = Class('Brackenhide', Rare, {
-    initialSpawn = {
-        us = 1672531800, -- review
-        eu = 1672531200,
-        tw = 1677162000
-    },
+    initialSpawn = {us = 1672531800, eu = 1672531200, tw = 1677162000},
     spawnOffset = 600,
     spawnInterval = 2400
 })
