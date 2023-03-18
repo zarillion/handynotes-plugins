@@ -370,7 +370,7 @@ L['lightning_bound_chest'] = 'Coffre lié par la foudre'
 L['options_icons_lightning_bound_chest'] = 'Coffre lié par la foudre'
 L['options_icons_lightning_bound_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres liés par la foudre}.'
 
-L['bloodgullet_note'] = 'Obtenez le buff {spell:369277} (1 heure) dans une tente à l\’{location:Avant-poste de Pas-de-bois} à partir de l\'{object:Essence de l’éveil} pour voir cet Esprit de bête.\n\n{note:N\'apparaît que pour les Chasseurs Maîtrise des bêtes.}'
+L['bloodgullet_note'] = 'Obtenez le buff {spell:369277} (1 heure) dans une tente à l\'{location:Avant-poste de Pas-de-bois} à partir de l\'{object:Essence de l’éveil} pour voir cet Esprit de bête.\n\n{note:N\'apparaît que pour les Chasseurs Maîtrise des bêtes.}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
