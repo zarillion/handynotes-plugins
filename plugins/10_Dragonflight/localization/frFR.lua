@@ -95,7 +95,7 @@ L['options_icons_signal_transmitter_desc'] = 'Afficher les emplacements des {obj
 L['rare_14h'] = 'Ce rare fait partie d\'une rotation de 14 heures avec les autres rares, avec un rare apparaissant toutes les 30 minutes.\n\nProchaine apparition: %s'
 L['time_format_12hrs'] = '%I:%M %p - %d/%m (heure locale)'
 L['time_format_24hrs'] = '%H:%M - %d/%m (heure locale)'
-L['now'] = nil
+L['now'] = 'Maintenant'
 L['spawns_at_night'] = '{note:Apparaît uniquement la nuit. (Après 18:30, heure du serveur)}'
 
 L['elemental_storm'] = 'Tempête élémentaire'
