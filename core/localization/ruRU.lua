@@ -177,8 +177,8 @@ L['options_toggle_show_loot'] = 'Показать Лут'
 L['options_toggle_show_loot_desc'] = 'Добавить информацию о добыче в подсказку'
 L['options_toggle_show_notes'] = 'Показать заметки'
 L['options_toggle_show_notes_desc'] = 'Добавьте полезные заметки в подсказку, где это возможно'
-L['options_toggle_use_standard_time'] = nil
-L['options_toggle_use_standard_time_desc'] = nil
+L['options_toggle_use_standard_time'] = 'Использовать 12-часовой формат'
+L['options_toggle_use_standard_time_desc'] = 'Используйте 12-часовой формат времени (например, 08:00 вечера) вместо 24-часового формата (например, 20:00) во всплывающих подсказках.'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 
