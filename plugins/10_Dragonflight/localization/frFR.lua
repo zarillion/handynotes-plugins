@@ -370,6 +370,8 @@ L['lightning_bound_chest'] = 'Coffre lié par la foudre'
 L['options_icons_lightning_bound_chest'] = 'Coffre lié par la foudre'
 L['options_icons_lightning_bound_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres liés par la foudre}.'
 
+L['bloodgullet_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

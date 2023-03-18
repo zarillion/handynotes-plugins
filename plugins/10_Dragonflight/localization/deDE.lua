@@ -363,6 +363,8 @@ L['lightning_bound_chest'] = 'Blitzgebundene Kiste'
 L['options_icons_lightning_bound_chest'] = 'Blitzgebundene Kiste'
 L['options_icons_lightning_bound_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Blitzgebundene Kisten} an.'
 
+L['bloodgullet_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

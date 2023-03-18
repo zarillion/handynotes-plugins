@@ -370,6 +370,8 @@ L['lightning_bound_chest'] = 'Cofre Reforzado con Relámpagos'
 L['options_icons_lightning_bound_chest'] = 'Cofre Reforzado con Relámpagos'
 L['options_icons_lightning_bound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Reforzado con Relámpagos}.'
 
+L['bloodgullet_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

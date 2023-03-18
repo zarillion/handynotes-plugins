@@ -369,6 +369,8 @@ L['lightning_bound_chest'] = nil
 L['options_icons_lightning_bound_chest'] = nil
 L['options_icons_lightning_bound_chest_desc'] = nil
 
+L['bloodgullet_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

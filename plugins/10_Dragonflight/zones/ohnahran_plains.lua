@@ -1960,6 +1960,16 @@ map.nodes[34603468] = Collectible({
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
+-------------------------- SPIRIT BEAST: BLOODGULLET --------------------------
+
+map.nodes[66564391] = Collectible({
+    id = 193254,
+    icon = 236165,
+    class = 'HUNTER',
+    note = L['bloodgullet_note'],
+    pois = {POI({85702073})} -- Essence of Awakening
+}) -- Bloodgulllet
+
 -------------------------- MOUNT: LIZI, THUNDERSPINE --------------------------
 
 local Lizi = Class('Lizi', Collectible, {
