@@ -155,9 +155,9 @@ L['options_icons_frostbound_chest_desc'] = 'Display possible locations of {objec
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['bisquis_note'] = 'Cook Legendary soup at the Community Feast in {location:Iskaara}, then defeat {npc:197557}.\n\nNext Feast: {note:%s} (local time)'
+L['bisquis_note'] = 'Cook Legendary soup at the Community Feast in {location:Iskaara}, then defeat {npc:197557}.\n\nNext Feast: {note:%s}'
 L['blightfur_note'] = 'Talk to {npc:193633} to summon the rare.'
-L['brackenhide_rare_note'] = 'These rares spawn in a set rotation of {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} on a 10 minute timer.\n\nNext possible spawn: {note:%s} (local time)'
+L['brackenhide_rare_note'] = 'These rares spawn in a set rotation of {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} on a 10 minute timer.\n\nNext possible spawn: {note:%s}'
 L['fisherman_tinnak_note'] = 'Collect {object:Broken Fishing Pole}, {object:Torn Fishing Net} and {object:Old Harpoon} to spawn the rare.'
 L['frostpaw_note'] = 'After taking the {object:Wooden Hammer}, you have 20 seconds to hit the {object:Whack a Gnoll} on the {object:Tree Stump}, and spawn the rare.'
 L['sharpfang_note'] = 'Help {npc:192747} defeat {npc:192748s} to spawn the rare.'
@@ -359,7 +359,7 @@ L['options_icons_nokhud_do_it_desc'] = 'Display helpful information for completi
 
 L['chest_of_the_flood'] = 'Chest of the Flood'
 
-L['aylaag_camp_note'] = '{faction:Clan Aylaag} moves on to another camp every 3 days and 3 hours (75), follow them and defend them on their way.\n\nNext move: {note:%s} (local time)'
+L['aylaag_camp_note'] = '{faction:Clan Aylaag} moves on to another camp every 3 days and 3 hours (75 hours), follow them and defend them on their way.\n\nNext move: {note:%s}'
 
 L['clan_chest'] = 'Clan Chest'
 L['options_icons_clan_chest'] = 'Clan Chests'

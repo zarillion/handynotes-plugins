@@ -155,9 +155,9 @@ L['options_icons_frostbound_chest_desc'] = 'Zeigt die möglichen Positionen der 
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['bisquis_note'] = 'Kocht beim gemeinschaftlichen Festmahl in {location:Iskaara} eine legendäre Suppe und besiegt dann {npc:197557}.\n\nNächstes Festmahl: {note:%s} (Serverzeit)'
+L['bisquis_note'] = 'Kocht beim gemeinschaftlichen Festmahl in {location:Iskaara} eine legendäre Suppe und besiegt dann {npc:197557}.\n\nNächstes Festmahl: {note:%s}'
 L['blightfur_note'] = 'Sprich mit {npc:193633}, um den seltenen Gegner erscheinen zu lassen.'
-L['brackenhide_rare_note'] = 'Dieser seltene Gegner erscheint nach einer festen Rotation von {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} im Abstand von 10 Minuten.\n\nNächstes mögliches erscheinen: {note:%s} (Server Zeit)'
+L['brackenhide_rare_note'] = 'Dieser seltene Gegner erscheint nach einer festen Rotation von {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} im Abstand von 10 Minuten.\n\nNächstes mögliches erscheinen: {note:%s}'
 L['fisherman_tinnak_note'] = 'Sammel {object:Zerbrochene Angelrute}, {object:Zerrissenes Fischernetz} und {object:Alte Harpune}, um ihn zu beschwören.'
 L['frostpaw_note'] = 'Hebe den {object:Holzhammer} in der Nähe auf und schlage die drei {object:Hau den Gnoll} innerhalb von 20 Sekunden auf dem {object:Baumstumpf} damit, um den seltenen Gegner erscheinen zu lassen.'
 L['sharpfang_note'] = 'Hilf {npc:192747} dabei, drei {npc:192748s} zu besiegen, um den seltenen Gegner erscheinen zu lassen.'
