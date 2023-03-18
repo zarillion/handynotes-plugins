@@ -39,6 +39,7 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -754,7 +755,7 @@ map.nodes[58024201] = Treasure({
     quest = 70237,
     label = L['snow_covered_scroll'],
     rewards = {
-        Item({item = 198103}) -- Recipe: Snow in a Cone
+        Recipe({item = 198103, profession = 185}) -- Recipe: Snow in a Cone
     }
 }) -- Snow Covered Scroll
 
@@ -1733,9 +1734,9 @@ local COMMUNITY_FEAST_AREA_POIS = {
 
 local COMMUNITY_FEAST_REWARDS = {
     Achievement({id = 16444}), -- Leftovers Revenge
-    Item({item = 198131}), -- Recipe: Gral's Devotion
-    Item({item = 198129}), -- Recipe: Gral's Reverence
-    Item({item = 198130}), -- Recipe: Gral's Veneration
+    Recipe({item = 198131, profession = 185}), -- Recipe: Gral's Devotion
+    Recipe({item = 198129, profession = 185}), -- Recipe: Gral's Reverence
+    Recipe({item = 198130, profession = 185}), -- Recipe: Gral's Veneration
     Transmog({item = 200882, slot = L['cosmetic']}), -- Big Kinook's Spare Ladle
     ns.reward.Spacer(), Item({item = 200652}), -- Alchemical Flavor Pocket
     Item({item = 190454}), -- Primal Chaos
