@@ -370,7 +370,7 @@ L['lightning_bound_chest'] = 'Cofre Reforzado con Relámpagos'
 L['options_icons_lightning_bound_chest'] = 'Cofre Reforzado con Relámpagos'
 L['options_icons_lightning_bound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Reforzado con Relámpagos}.'
 
-L['bloodgullet_note'] = nil
+L['bloodgullet_note'] = 'Consigue el buff {spell:369277} (dura 1 hora) en una tienda de la {location:Avanzada Pasoleño} con el objeto {object:Esencia del Despertar} para poder ver las Bestias Espíritu.\n\n{note:Sólo aparece en las Grandes Cacerías de Bestias.}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
