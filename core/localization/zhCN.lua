@@ -177,8 +177,8 @@ L['options_toggle_show_loot'] = '显示拾取'
 L['options_toggle_show_loot_desc'] = '在提示中加入拾取信息'
 L['options_toggle_show_notes'] = '显示注释'
 L['options_toggle_show_notes_desc'] = '在提示中添加注释'
-L['options_toggle_use_standard_time'] = nil
-L['options_toggle_use_standard_time_desc'] = nil
+L['options_toggle_use_standard_time'] = '使用12小时时钟'
+L['options_toggle_use_standard_time_desc'] = '在提示中使用12小时时钟（如：8:00 PM）而不是24小时时钟（如：20:00）。'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 
