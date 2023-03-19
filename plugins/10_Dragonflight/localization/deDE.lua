@@ -353,7 +353,7 @@ L['options_icons_nokhud_do_it_desc'] = 'Zeigt die Position für den Erfolg {achi
 
 L['chest_of_the_flood'] = 'Truhe der Flut'
 
-L['aylaag_camp_note'] = 'Der {faction:Aylaag Klan} zieht alle 3 Tage und 3 Stunden (75 Stunden) weiter in ein anderes Lager, folge ihnen und verteidige sie auf ihren Weg.'
+L['aylaag_camp_note'] = 'Der {faction:Aylaag Klan} zieht alle 3 Tage und 3 Stunden (75 Stunden) weiter in ein anderes Lager, folge ihnen und verteidige sie auf ihren Weg.\n\nNächster Umzug: {note:%s}'
 
 L['clan_chest'] = 'Klankiste'
 L['options_icons_clan_chest'] = 'Klankisten'
@@ -363,7 +363,7 @@ L['lightning_bound_chest'] = 'Blitzgebundene Kiste'
 L['options_icons_lightning_bound_chest'] = 'Blitzgebundene Kiste'
 L['options_icons_lightning_bound_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Blitzgebundene Kisten} an.'
 
-L['bloodgullet_note'] = nil
+L['bloodgullet_note'] = 'Hol dir in einem Zelt am {location:Baumschrittaußenposten} von der {object:Essenz des Erwachens} den Stärkungszauber {spell:369277} (1 Stunde), um die Geisterbestie sehen zu können.\n\n{note:Erscheint nur für Tierherrschafts-Jäger.}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
