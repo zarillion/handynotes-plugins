@@ -233,6 +233,7 @@ local RitualOffering = Class('RitualOffering', Treasure, {
 
 map.nodes[35145223] = RitualOffering()
 map.nodes[26874611] = RitualOffering()
+map.nodes[36034452] = RitualOffering()
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
