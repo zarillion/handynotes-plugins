@@ -132,6 +132,10 @@ L['the_best_at_what_i_do_suffix'] = 'bosses killed'
 L['options_icons_grand_hunts'] = 'Grand Hunts'
 L['options_icons_grand_hunts_desc'] = 'Display locations and rewards for {object:Grand Hunts}.'
 
+L['ancient_stone_label'] = 'Ancient Stone'
+L['options_icons_ancient_stones'] = '{achievement:17560}'
+L['options_icons_ancient_stones_desc'] = 'Display {object:Ancient Stone} locations for {achievement:17560}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

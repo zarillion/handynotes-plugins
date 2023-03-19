@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
+local AncientStone = ns.node.AncientStone
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
 local PT = ns.node.ProfessionTreasures
@@ -227,9 +228,8 @@ map.nodes[62635372] = Treasure({label = L['long_lost_cache_label']}) -- Long-Los
 
 map.nodes[63603861] = Treasure({label = L['stolen_stash_label'], quest = 75303}) -- Stolen Stash
 
-local RitualOffering = Class('RitualOffering', Treasure, {
-    label = 'Ritual Offering'
-}) -- Ritual Offering
+local RitualOffering = Class('RitualOffering', Treasure,
+    {label = 'Ritual Offering'}) -- Ritual Offering
 
 map.nodes[35145223] = RitualOffering()
 map.nodes[26874611] = RitualOffering()
@@ -388,6 +388,22 @@ map.nodes[51204665] = Dragonrace({
 }) -- Sulfur Sprint
 
 -------------------------------------------------------------------------------
+---------------------- ANCIENT STONES OF ZARALEK CAVERN -----------------------
+-------------------------------------------------------------------------------
+
+map.nodes[43282372] = AncientStone({
+    rewards = {Achievement({id = 17567, criteria = 58826})}
+}) -- PH 01
+
+map.nodes[61257181] = AncientStone({
+    rewards = {Achievement({id = 17567, criteria = 58827})}
+}) -- PH 02
+
+map.nodes[47384855] = AncientStone({
+    rewards = {Achievement({id = 17567, criteria = 58828})}
+}) -- PH 03
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
@@ -438,7 +454,7 @@ map.nodes[44458040] = Collectible({
                 59148, -- Bashful wins
                 59149, -- Tricky wins
                 59150, -- Brulee wins
-                59151, -- Roggy wins
+                59151 -- Roggy wins
             }
         }), -- Slow And Steady Wins The Race
         Pet({item = 205231, id = 3557}), -- Roggy

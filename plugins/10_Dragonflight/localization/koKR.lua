@@ -132,6 +132,10 @@ L['the_best_at_what_i_do_suffix'] = nil
 L['options_icons_grand_hunts'] = nil
 L['options_icons_grand_hunts_desc'] = nil
 
+L['ancient_stone_label'] = nil
+L['options_icons_ancient_stones'] = '{achievement:17560}'
+L['options_icons_ancient_stones_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

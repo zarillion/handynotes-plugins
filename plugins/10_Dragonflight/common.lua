@@ -125,6 +125,12 @@ ns.groups.ANCESTOR = Group('ancestor', 135946, {
     achievement = 16423
 })
 
+ns.groups.ANCIENT_STONES = Group('ancient_stones', 134461, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 17561
+})
+
 ns.groups.BAKAR = Group('bakar', 930453, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -960,6 +966,18 @@ local LegendaryCharacter = Class('LegendaryCharacter', Collectible, {
 }) -- A Legendary Album
 
 ns.node.LegendaryCharacter = LegendaryCharacter
+
+-------------------------------------------------------------------------------
+--------------------- ANCIENT STONES OF THE DRAGON ISLES ----------------------
+-------------------------------------------------------------------------------
+
+local AncientStone = Class('AncientStone', Collectible, {
+    label = L['ancient_stone_label'],
+    icon = 134461,
+    group = ns.groups.ANCIENT_STONES
+}) -- Ancient Stone
+
+ns.node.AncientStone = AncientStone
 
 -------------------------------------------------------------------------------
 ----------------------------- DRAGON ISLES SAFARI -----------------------------

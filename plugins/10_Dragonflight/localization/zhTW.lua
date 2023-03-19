@@ -132,6 +132,10 @@ L['the_best_at_what_i_do_suffix'] = '首領已擊殺'
 L['options_icons_grand_hunts'] = '大狩獵'
 L['options_icons_grand_hunts_desc'] = '顯示 {object:大狩獵} 的位置和獎勵.'
 
+L['ancient_stone_label'] = nil
+L['options_icons_ancient_stones'] = '{achievement:17560}'
+L['options_icons_ancient_stones_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

@@ -12,6 +12,7 @@ local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
+local AncientStone = ns.node.AncientStone
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
@@ -1480,6 +1481,39 @@ map.nodes[50594665] = GrandHunt({
     areaPOI = 7099,
     criteria = 55687
 }) -- Northern Thaldraszus Hunt
+
+-------------------------------------------------------------------------------
+------------------------ ANCIENT STONES OF THALDRASZUS ------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[42767041] = AncientStone({
+    rewards = {Achievement({id = 17564, criteria = 58819})}
+}) -- PH 16
+
+map.nodes[60058499] = AncientStone({
+    rewards = {Achievement({id = 17564, criteria = 58820})}
+}) -- PH 17
+
+map.nodes[58155805] = AncientStone({
+    rewards = {Achievement({id = 17564, criteria = 58821})}
+}) -- PH 18
+
+map.nodes[52353873] = AncientStone({
+    rewards = {Achievement({id = 17564, criteria = 58822})}
+}) -- PH 19
+
+map.nodes[58396777] = AncientStone({
+    rewards = {Achievement({id = 17564, criteria = 58823})}
+}) -- PH 20
+
+map.nodes[62401592] = AncientStone({
+    rewards = {Achievement({id = 17564, criteria = 58824})}
+}) -- PH 21
+
+val.nodes[57048156] = AncientStone({
+    parent = map.id,
+    rewards = {Achievement({id = 17564, criteria = 58825})}
+}) -- PH 22
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

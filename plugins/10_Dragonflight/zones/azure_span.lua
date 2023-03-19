@@ -13,6 +13,7 @@ local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
+local AncientStone = ns.node.AncientStone
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
@@ -1698,6 +1699,31 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         end
     end
 end)
+
+-------------------------------------------------------------------------------
+---------------------- ANCIENT STONES OF THE AZURE SPAN -----------------------
+-------------------------------------------------------------------------------
+
+map.nodes[56737039] = AncientStone({
+    rewards = {Achievement({id = 17563, criteria = 58814})}
+}) -- PH 11
+
+map.nodes[08014565] = AncientStone({
+    rewards = {Achievement({id = 17563, criteria = 58815})}
+}) -- PH 12
+
+map.nodes[66416102] = AncientStone({
+    rewards = {Achievement({id = 17563, criteria = 58816})}
+}) -- PH 13
+
+map.nodes[60324973] = AncientStone({
+    rewards = {Achievement({id = 17563, criteria = 58817})},
+    pois = {POI({60895007})} -- Entrance
+}) -- PH 14
+
+map.nodes[77403113] = AncientStone({
+    rewards = {Achievement({id = 17563, criteria = 58818})}
+}) -- PH 15
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
