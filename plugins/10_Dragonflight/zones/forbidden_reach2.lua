@@ -21,6 +21,7 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -928,14 +929,18 @@ local ZSKERA_VAULTS_REWARDS = {
     Pet({item = 204079, id = 3476}), -- Gilded Mechafrog
     Pet({item = 193835, id = 3323}), -- Brightfeather
     Pet({item = 193854, id = 3333}), -- Berylmane
-    Spacer(), Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
+    Spacer(), -- Toys
+    Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
     Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
     Toy({item = 204262}), -- Holoviewer: The timeless One
     Toy({item = 203852}), -- Spore-Bound Essence
     Toy({item = 204687}), -- Obsidian Battle Horn
-    Spacer(), Item({item = 204073}), -- Ratcipe: Deviously Deviled Eggs
-    Spacer(), Mount({item = 192790, id = 197}), -- Mossy Mammoth -- TODO: REPLACE WILL REAL MOUNTID
-    Spacer(), Achievement({
+    Spacer(), -- Recipe
+    Recipe({item = 204073, profession = 185}), -- Ratcipe: Deviously Deviled Eggs
+    Spacer(), -- Mount
+    Mount({item = 192790, id = 197}), -- Mossy Mammoth -- TODO: REPLACE WILL REAL MOUNTID
+    Spacer(), -- Other Achievements
+    Achievement({
         id = 17530,
         criteria = {
             58660, -- Living Book
@@ -995,7 +1000,7 @@ local RecipeRat = Class('RecipeRat', Node, {
     group = ns.groups.ZSKERA_VAULTS,
     requires = ns.requirement.Quest(73159), -- Exploring Our Past
     rewards = {
-        Item({item = 204073}) -- Ratcipe: Deviously Deviled Eggs
+        Recipe({item = 204073, profession = 185}) -- Ratcipe: Deviously Deviled Eggs
     }
 }) -- Recipe Rat
 
@@ -1231,9 +1236,7 @@ map.nodes[58957238] = ScalecommanderItem({
     hordeLabel = '{quest:74900}',
     location = L['in_the_high_creche'],
     rewards = {Achievement({id = 17315, criteria = 5})},
-    pois = {
-        POI({58666933}) -- Entrance
-    }
+    pois = {POI({58666933})} -- Entrance
 }) -- Receiving Stone: Final Warning
 
 map.nodes[58407053] = ScalecommanderItem({
@@ -1241,9 +1244,7 @@ map.nodes[58407053] = ScalecommanderItem({
     hordeLabel = '{quest:74901}',
     location = L['in_the_high_creche'],
     rewards = {Achievement({id = 17315, criteria = 6})},
-    pois = {
-        POI({58666933}) -- Entrance
-    }
+    pois = {POI({58666933})} -- Entrance
 }) -- Sending Stone: Protest
 
 map.nodes[55393586] = ScalecommanderItem({
@@ -1251,9 +1252,7 @@ map.nodes[55393586] = ScalecommanderItem({
     hordeLabel = '{quest:74902}',
     location = L['in_the_lost_atheneum'],
     rewards = {Achievement({id = 17315, criteria = 7})},
-    pois = {
-        POI({55103837}) -- Entrance
-    }
+    pois = {POI({55103837})} -- Entrance
 }) -- Sending Stone: Initial Report
 
 -------------------------------------------------------------------------------
@@ -1305,13 +1304,14 @@ local MorqutVillageVendor = Class('MorqutVillageVendor', Collectible, {
 map.nodes[35615948] = MorqutVillageVendor({
     id = 200559,
     rewards = {
-        Transmog({item = 204562, slot = L['2h_mace']}), -- Maruuk Maul 2hand mace
-        Transmog({item = 204563, slot = L['1h_mace']}), -- Morqut Club 1hand mace
-        Transmog({item = 204564, slot = L['gun']}), -- Dragonscale Expeditioner's Rifle gun
-        Transmog({item = 204566, slot = L['offhand']}), -- Journal of the Forbidden Reach offhand
-        Transmog({item = 204569, slot = L['fist']}), -- Valdrakken Talons 1hand first weapon
-        Transmog({item = 204570, slot = L['dagger']}), -- Valdrakken Pocketknife 1hand dagger
-        Spacer(), Mount({item = 201719, id = 1686}), -- Obsidian Vorquin
+        Transmog({item = 204562, slot = L['2h_mace']}), -- Maruuk Maul
+        Transmog({item = 204563, slot = L['1h_mace']}), -- Morqut Club
+        Transmog({item = 204564, slot = L['gun']}), -- Dragonscale Expeditioner's Rifle
+        Transmog({item = 204566, slot = L['offhand']}), -- Journal of the Forbidden Reach
+        Transmog({item = 204569, slot = L['fist']}), -- Valdrakken Talons
+        Transmog({item = 204570, slot = L['dagger']}), -- Valdrakken Pocketknife
+        Spacer(), -- Mounts
+        Mount({item = 201719, id = 1686}), -- Obsidian Vorquin
         Mount({item = 201704, id = 1684}), -- Sapphire Vorquin
         Mount({item = 201702, id = 1683}), -- Crimson Vorquin
         Mount({item = 201720, id = 1685}), -- Bronze Vorquin
@@ -1332,30 +1332,30 @@ map.nodes[34216002] = MorqutVillageVendor({
 map.nodes[34075997] = MorqutVillageVendor({
     id = 200564,
     rewards = {
-        Mount({item = 204382, id = 1467, note = '100000'}) -- Noble Bruffalon
+        Mount({item = 204382, id = 1467, note = '100,000'}) -- Noble Bruffalon
     }
 }) -- Storykeeper Ashekh <Renown Envoy>
 
 map.nodes[34015980] = MorqutVillageVendor({
     id = 200563,
     rewards = {
-        Item({item = 197626, quest = 69831, note = '2500'}), -- Windbone Velocidrake: Exposed Finned Neck
-        Item({item = 197136, quest = 69337, note = '2500'}) -- Highland Drake: Tapered Nose
+        Item({item = 197626, quest = 69831, note = '2,500'}), -- Windbone Velocidrake: Exposed Finned Neck
+        Item({item = 197136, quest = 69337, note = '2,500'}) -- Highland Drake: Tapered Nose
     }
 }) -- Kraxxus <Renown Envoy>
 
 map.nodes[35905744] = MorqutVillageVendor({
     id = 202445,
     rewards = {
-        Item({item = 203420}), -- Recipe: Draconic Suppression Powder
-        Item({item = 203421}), -- Plans: Ancient Ceremonial Trident
-        Item({item = 203422}), -- Recipe: Sparkling Spice Pouch
-        Item({item = 203423}), -- Formula: Glowing Crystal Bookmark
-        Item({item = 203424}), -- Schematic: Gnomish Voicebox
-        Item({item = 203425}), -- Technique: Arcane Dispelling Rune
-        Item({item = 203426}), -- Design: Crystal Tuning Fork
-        Item({item = 203427}), -- Pattern: Reinforced Pristine Leather
-        Item({item = 203428}) -- Pattern: Traditional Morqut Kite
+        Recipe({item = 203420, profession = 171}), -- Recipe: Draconic Suppression Powder
+        Recipe({item = 203421, profession = 164}), -- Plans: Ancient Ceremonial Trident
+        Recipe({item = 203422, profession = 185}), -- Recipe: Sparkling Spice Pouch
+        Recipe({item = 203423, profession = 333}), -- Formula: Glowing Crystal Bookmark
+        Recipe({item = 203424, profession = 202}), -- Schematic: Gnomish Voicebox
+        Recipe({item = 203425, profession = 773}), -- Technique: Arcane Dispelling Rune
+        Recipe({item = 203426, profession = 755}), -- Design: Crystal Tuning Fork
+        Recipe({item = 203427, profession = 165}), -- Pattern: Reinforced Pristine Leather
+        Recipe({item = 203428, profession = 197}) -- Pattern: Traditional Morqut Kite
     }
 }) -- Trader Hag'arth <Artisan's Consortium Quartermaster>
 
