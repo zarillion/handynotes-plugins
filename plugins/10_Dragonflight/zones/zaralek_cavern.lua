@@ -391,7 +391,7 @@ map.nodes[51204665] = Dragonrace({
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
------------------------- Mount: Big Slick in the City -------------------------
+------------------------ MOUNT: BIG SLICK IN THE CITY -------------------------
 
 map.nodes[44257993] = Collectible({
     id = 201752,
@@ -422,3 +422,28 @@ darkshore.nodes[47161853] = Collectible({
         Path({Circle({origin = 48652445, radius = 1.5})}) -- Zidormi
     }
 }) -- Shimmershell Snail
+
+----------------- ACHIEVEMENT: SLOW AND STEADY WINS THE RACE ------------------
+
+map.nodes[44458040] = Collectible({
+    label = '{npc:201099}',
+    icon = 5003559,
+    requires = {
+        ns.requirement.Quest(75662) -- A Race to the Finish
+    },
+    rewards = {
+        Achievement({
+            id = 17741,
+            criteria = {
+                59148, -- Bashful wins
+                59149, -- Tricky wins
+                59150, -- Brulee wins
+                59151, -- Roggy wins
+            }
+        }), -- Slow And Steady Wins The Race
+        Pet({item = 205231, id = 3557}), -- Roggy
+        Pet({item = 205119, id = 3536}), -- Bashful
+        Pet({item = 205121, id = 3538}), -- Tricky
+        Pet({item = 205123, id = 3540}) -- Brulee
+    }
+}) -- Grogul <Race Coordinator>
