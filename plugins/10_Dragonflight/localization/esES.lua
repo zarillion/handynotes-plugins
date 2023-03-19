@@ -18,7 +18,7 @@ L['options_icons_profession_treasures_desc'] = 'Muestra dónde están los tesoro
 
 L['dragon_glyph'] = 'Glifos Dracónicos'
 L['options_icons_dragon_glyph'] = 'Glifos Dracónicos'
-L['options_icons_dragon_glyph_desc'] = 'Muestra dónde están los 64x glifos dracónicos.'
+L['options_icons_dragon_glyph_desc'] = 'Muestra dónde están los 64 glifos dracónicos.'
 
 L['dragonscale_expedition_flag'] = 'Expedición Dragontina'
 L['flags_placed'] = 'banderas puestas'
@@ -133,9 +133,9 @@ L['the_best_at_what_i_do_suffix'] = 'bosses matados'
 L['options_icons_grand_hunts'] = 'Grandes Cacerías'
 L['options_icons_grand_hunts_desc'] = 'Muestra las cacerías y las recompensas de las Grandes Cacerías.'
 
-L['ancient_stone_label'] = nil
+L['ancient_stone_label'] = 'Ancient Stone'
 L['options_icons_ancient_stones'] = '{achievement:17560}'
-L['options_icons_ancient_stones_desc'] = nil
+L['options_icons_ancient_stones_desc'] = 'Display {object:Ancient Stone} locations for {achievement:17560}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
