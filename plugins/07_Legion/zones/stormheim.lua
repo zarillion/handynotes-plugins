@@ -29,7 +29,7 @@ local helheim = Map({id = 649, settings = true})
 
 map.nodes[45807740] = Rare({
     id = 91874,
-    quest = nil, -- 38431
+    quest = 38431,
     rewards = {
         Achievement({id = 11263, criteria = 33296}), -- Adventurer of Stormheim
         Transmog({item = 129048, slot = L['cloth']}) -- Squallfury Robes
@@ -38,7 +38,7 @@ map.nodes[45807740] = Rare({
 
 map.nodes[38003900] = Rare({
     id = 92599,
-    quest = nil, -- 38626
+    quest = 38626,
     rewards = {
         Achievement({id = 11263, criteria = 33300}) -- Adventurer of Stormheim
     }
@@ -61,7 +61,7 @@ map.nodes[58207660] = Rare({
 
 map.nodes[74006400] = Rare({
     id = 94347,
-    quest = nil, -- 43343
+    quest = 43343,
     rewards = {
         Transmog({item = 130134, slot = L['mail']}) -- Padded-Link Sniper Leggings
     }
@@ -69,7 +69,7 @@ map.nodes[74006400] = Rare({
 
 map.nodes[41603380] = Rare({
     id = 98188,
-    quest = nil, -- 40068
+    quest = 40068,
     rewards = {
         Achievement({id = 11263, criteria = 33311}), -- Adventurer of Stormheim
         Transmog({item = 132898, slot = L['plate']}) -- Sabatons of the Endless Vigil
@@ -78,7 +78,7 @@ map.nodes[41603380] = Rare({
 
 map.nodes[46608380] = Rare({
     id = 91803,
-    quest = nil, -- 38425
+    quest = 38425,
     rewards = {
         Achievement({id = 11263, criteria = 33295}) -- Adventurer of Stormheim
     }
@@ -86,7 +86,7 @@ map.nodes[46608380] = Rare({
 
 helheim.nodes[85005020] = Rare({
     id = 92040,
-    quest = nil, -- 38461
+    quest = 38461,
     rewards = {
         Achievement({id = 11263, criteria = 33298}) -- Adventurer of Stormheim
     }
@@ -94,7 +94,7 @@ helheim.nodes[85005020] = Rare({
 
 map.nodes[41606660] = Rare({
     id = 91529,
-    quest = nil, -- 38333
+    quest = 38333,
     rewards = {
         Achievement({id = 11263, criteria = 33293}), -- Adventurer of Stormheim
         Transmog({item = 129291, slot = L['plate']}) -- Stormslayer Champion Belt
@@ -103,7 +103,7 @@ map.nodes[41606660] = Rare({
 
 map.nodes[78806120] = Rare({
     id = 98503,
-    quest = nil, -- 40113
+    quest = 40113,
     rewards = {
         Achievement({id = 11263, criteria = 33314}), -- Adventurer of Stormheim
         Transmog({item = 138421, slot = L['mail']}) -- The Conqueror's Chain
@@ -112,7 +112,7 @@ map.nodes[78806120] = Rare({
 
 map.nodes[51607460] = Rare({
     id = 107926,
-    quest = nil, -- 42591
+    quest = 42591,
     rewards = {
         Achievement({id = 11263, criteria = 33315}), -- Adventurer of Stormheim
         Transmog({item = 138417, slot = L['leather']}) -- The Butcher's Apron
@@ -121,7 +121,8 @@ map.nodes[51607460] = Rare({
 
 map.nodes[42005780] = Rare({
     id = 92590,
-    quest = nil, -- 38625
+    quest = 38625,
+    faction = 'Alliance',
     rewards = {
         Transmog({item = 129109, slot = L['cloth']}) -- Sinker's Line
     }
@@ -129,7 +130,7 @@ map.nodes[42005780] = Rare({
 
 map.nodes[47205700] = Rare({
     id = 92951,
-    quest = nil, -- 38712
+    quest = 38712,
     faction = 'Horde',
     rewards = {
         Transmog({item = 129037, slot = L['cloth']}) -- The Houndmaster's Fancy Pants
@@ -138,7 +139,7 @@ map.nodes[47205700] = Rare({
 
 map.nodes[63607460] = Rare({
     id = 90139,
-    quest = nil, -- 37908
+    quest = 37908,
     rewards = {
         Achievement({id = 11186, criteria = 32404}) -- Tehd & Marius' Excellent Adventure
     }
@@ -146,7 +147,7 @@ map.nodes[63607460] = Rare({
 
 map.nodes[62006060] = Rare({
     id = 94413,
-    quest = nil, -- 39120
+    quest = 39120,
     rewards = {
         Achievement({id = 11263, criteria = 33309}), -- Adventurer of Stormheim
         Transmog({item = 129133, slot = L['mail']}) -- The Hammer's Head
@@ -155,7 +156,7 @@ map.nodes[62006060] = Rare({
 
 map.nodes[61006800] = Rare({
     id = 92751,
-    quest = nil, -- 39031
+    quest = 39031,
     rewards = {
         Achievement({id = 11263, criteria = 33304}) -- Adventurer of Stormheim
     }
@@ -163,7 +164,7 @@ map.nodes[61006800] = Rare({
 
 map.nodes[73404760] = Rare({
     id = 98421,
-    quest = nil, -- 40109
+    quest = 40109,
     rewards = {
         Achievement({id = 11263, criteria = 33313}), -- Adventurer of Stormheim
         Transmog({item = 138419, slot = L['leather']}) -- The Binder's Bonds
@@ -172,7 +173,7 @@ map.nodes[73404760] = Rare({
 
 map.nodes[72605020] = Rare({
     id = 93371,
-    quest = nil, -- 38837
+    quest = 38837,
     rewards = {
         Achievement({id = 11263, criteria = 33307}), -- Adventurer of Stormheim
         Transmog({item = 129035, slot = L['cloak']}) -- Indomitable Bearskin Cloak
@@ -186,23 +187,23 @@ map.nodes[35601860] = Rare({
     }
 }) -- Mother Clacker
 
-map.nodes[46603000] = Rare({
-    id = 107544,
-    quest = nil,
-    rewards = {
-        Achievement({id = 11160, criteria = 32096}), -- Unleashed Monstrosities
-        Transmog({item = 141420, slot = L['mail']}), -- Coif of Unstable Discharge
-        Transmog({item = 141418, slot = L['leather']}), -- Helm of the Mountain Recluse
-        Transmog({item = 141414, slot = L['cloth']}), -- Hood of Scorned Brood
-        Transmog({item = 141424, slot = L['plate']}), -- Stormbattered Casque
-        Transmog({item = 141541, slot = L['cloak']}) -- Windwhipped Greatcloak
+-- map.nodes[46603000] = Rare({
+--     id = 107544,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 11160, criteria = 32096}), -- Unleashed Monstrosities
+--         Transmog({item = 141420, slot = L['mail']}), -- Coif of Unstable Discharge
+--         Transmog({item = 141418, slot = L['leather']}), -- Helm of the Mountain Recluse
+--         Transmog({item = 141414, slot = L['cloth']}), -- Hood of Scorned Brood
+--         Transmog({item = 141424, slot = L['plate']}), -- Stormbattered Casque
+--         Transmog({item = 141541, slot = L['cloak']}) -- Windwhipped Greatcloak
 
-    }
-}) -- Nithogg
+--     }
+-- }) -- Nithogg (world boss)
 
 map.nodes[58203400] = Rare({
     id = 110363,
-    quest = nil, -- 43342
+    quest = 43342,
     rewards = {
         Achievement({id = 11263, criteria = 33316}), -- Adventurer of Stormheim
         Transmog({item = 139387, slot = L['mail']}) -- Drowned Champion's Greaves
@@ -211,7 +212,8 @@ map.nodes[58203400] = Rare({
 
 map.nodes[42005760] = Rare({
     id = 92591,
-    quest = nil, -- 38625
+    quest = 38625,
+    faction = 'Alliance',
     rewards = {
         Transmog({item = 129109, slot = L['cloth']}) -- Sinker's Line
     }
@@ -219,7 +221,7 @@ map.nodes[42005760] = Rare({
 
 helheim.nodes[29606260] = Rare({
     id = 97630,
-    quest = nil, -- 39870
+    quest = 39870,
     rewards = {
         Pet({item = 129188, id = 1753}) -- Bleakwater Jelly
     }
@@ -227,7 +229,7 @@ helheim.nodes[29606260] = Rare({
 
 map.nodes[54802960] = Rare({
     id = 107487,
-    quest = nil, -- 42437
+    quest = 42437,
     rewards = {
         Transmog({item = 130132, slot = L['leather']}) -- Bracers of Earthbound Flight
     }
@@ -243,7 +245,7 @@ map.nodes[61002400] = Rare({
 
 map.nodes[49607200] = Rare({
     id = 91795,
-    quest = nil, -- 40939
+    quest = 38423,
     rewards = {
         Achievement({id = 11263, criteria = 33294}), -- Adventurer of Stormheim
         Transmog({item = 129110, slot = L['leather']}), -- Matriarch-Hide Legguards
@@ -253,7 +255,7 @@ map.nodes[49607200] = Rare({
 
 map.nodes[61604340] = Rare({
     id = 98268,
-    quest = nil, -- 40081
+    quest = 40081,
     rewards = {
         Achievement({id = 11263, criteria = 33312}) -- Adventurer of Stormheim
     }
@@ -261,7 +263,7 @@ map.nodes[61604340] = Rare({
 
 map.nodes[408072.2] = Rare({
     id = 91892,
-    quest = nil, -- 38424
+    quest = 38424,
     rewards = {
         Achievement({id = 11263, criteria = 33297}), -- Adventurer of Stormheim
         Toy({item = 129113}) -- Faintly Glowing Flagon of Mead
@@ -270,7 +272,7 @@ map.nodes[408072.2] = Rare({
 
 map.nodes[67203980] = Rare({
     id = 92763,
-    quest = nil, -- 38685
+    quest = 38685,
     rewards = {
         Achievement({id = 11263, criteria = 33305}), -- Adventurer of Stormheim
         Transmog({item = 129041, slot = L['cloth']}) -- Aurora of the Nameless King
@@ -279,7 +281,7 @@ map.nodes[67203980] = Rare({
 
 map.nodes[46805000] = Rare({
     id = 93166,
-    quest = nil, -- 38774
+    quest = 38774,
     rewards = {
         Achievement({id = 11263, criteria = 33306}) -- Adventurer of Stormheim
     }
@@ -287,7 +289,7 @@ map.nodes[46805000] = Rare({
 
 map.nodes[64805180] = Rare({
     id = 93401,
-    quest = nil, -- 38847
+    quest = 38847,
     rewards = {
         Achievement({id = 11263, criteria = 33308}), -- Adventurer of Stormheim
         Transmog({item = 129219, slot = L['cloth']}) -- The Flayer's Runewraps
@@ -296,7 +298,7 @@ map.nodes[64805180] = Rare({
 
 map.nodes[36605160] = Rare({
     id = 92152,
-    quest = nil, -- 38472
+    quest = 38472,
     rewards = {
         Achievement({id = 11263, criteria = 33299}), -- Adventurer of Stormheim
         Transmog({item = 138418, slot = L['mail']}) -- Typhoon Grips
@@ -305,7 +307,7 @@ map.nodes[36605160] = Rare({
 
 map.nodes[44202280] = Rare({
     id = 92604,
-    quest = nil, -- 38627
+    quest = 38627,
     faction = 'Horde',
     rewards = {
         Achievement({id = 11263, criteria = 8}), -- Adventurer of Stormheim -- 33301
@@ -315,7 +317,7 @@ map.nodes[44202280] = Rare({
 
 map.nodes[44202281] = Rare({
     id = 92631,
-    quest = nil, -- 38630
+    quest = 38630,
     label = L['horde_kill_squad'],
     faction = 'Alliance',
     rewards = {
@@ -351,421 +353,382 @@ local TreasuresOfStormheim = Achievement({
 
 map.nodes[42403410] = Treasure({
     label = L['glimmering_treasure_chest'],
-    quest = nil,
-    note = '1',
+    quest = 43189,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[68402960] = Treasure({
     label = L['glimmering_treasure_chest'],
-    quest = nil,
-    note = '2',
+    quest = 40108,
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[49694731] = Treasure({
+    label = L['glimmering_treasure_chest'],
+    quest = 38763,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[49106000] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '3',
+    quest = 43207,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[82405450] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '4',
+    quest = 43191,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[75606060] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '5',
+    quest = 43304,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[39601930] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '6',
+    quest = 38498,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[72105490] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '7',
+    quest = 42628,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[73905220] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '8',
+    quest = 42632,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[65605740] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '9',
+    quest = 43187,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[64303950] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '10',
+    quest = 43302,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[65404310] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '11',
+    quest = 43205,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[70006720] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '12',
+    quest = 43188,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[69104480] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '13',
+    quest = 38637,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[71904420] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '14',
+    quest = 43305,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[73304150] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '15',
+    quest = 40085,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[74404180] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '16',
+    quest = 43306,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[44107000] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '17',
+    quest = 38489,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[40606850] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '18',
+    quest = 38475,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[46606490] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
+    quest = 38681,
     note = '19',
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[73104570] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
+    quest = 43194,
     note = '20',
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[35206900] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '21',
+    quest = 38478,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[45003820] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '22',
+    quest = 43240,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[67905770] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '23',
+    quest = 40083,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[57906330] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '24',
+    quest = 40090,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[62607360] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '25',
+    quest = 40091,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[42306110] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '26',
+    quest = 38477,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[37203860] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '27',
+    quest = 43208,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[48107420] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '28',
+    quest = 38476,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[61903220] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '29',
+    quest = 38744,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[50504120] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '30',
+    quest = 43246,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[50304100] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '31',
+    quest = 38483,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[43708010] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '32',
+    quest = 43239,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[49707800] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '33',
+    quest = 38485,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[52008060] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '34',
+    quest = 38480,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[58004750] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '35',
+    quest = 40082,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[60804270] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '36',
+    quest = 40094,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[61404440] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '37',
+    quest = 40093,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[41704600] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '38',
+    quest = 38488,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[43104050] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '39',
+    quest = 43238,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[31105600] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '40',
+    quest = 38676,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[35904790] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '41',
+    quest = 38680,
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[73975858] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = 43237,
+    rewards = {TreasuresOfStormheim}
+})
+
+map.nodes[53229314] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = 43190,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[33103610] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '42',
+    quest = 38495,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[35003660] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '43',
+    quest = 38487,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[75104950] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '44',
+    quest = 42629,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[78407140] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '45',
+    quest = 43307,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[81806750] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '46',
+    quest = 40099,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[69004180] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '47',
+    quest = 40086,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[55004710] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
+    quest = 40095,
     note = '48',
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[39506520] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '49',
+    quest = 38486,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[42606580] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '50',
+    quest = 38474,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[47403410] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '51',
+    quest = 43255,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[59305840] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '52',
+    quest = 40088,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[61806290] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '53',
+    quest = 40089,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[32702790] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '54',
+    quest = 38490,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[48006240] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '55',
+    quest = 38738,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[50001810] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '56',
+    quest = 43195,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[27305750] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '57',
+    quest = 38529,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[46708040] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '58',
+    quest = 38481,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[35705410] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '59',
+    quest = 38677,
     rewards = {TreasuresOfStormheim}
 })
 
 map.nodes[32004720] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '60',
+    quest = 43196,
     rewards = {TreasuresOfStormheim}
 })
 
