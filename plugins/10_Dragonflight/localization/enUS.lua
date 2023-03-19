@@ -17,7 +17,7 @@ L['options_icons_profession_treasures_desc'] = 'Display locations of treasures w
 
 L['dragon_glyph'] = 'Dragon Glyph'
 L['options_icons_dragon_glyph'] = 'Dragon Glyphs'
-L['options_icons_dragon_glyph_desc'] = 'Display the location of all 48 dragon glyphs.'
+L['options_icons_dragon_glyph_desc'] = 'Display the location of all 56 dragon glyphs.'
 
 L['dragonscale_expedition_flag'] = 'Dragonscale Expedition Flag'
 L['flags_placed'] = 'flags placed'

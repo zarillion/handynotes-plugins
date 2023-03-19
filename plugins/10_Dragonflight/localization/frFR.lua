@@ -18,7 +18,7 @@ L['options_icons_profession_treasures_desc'] = 'Afficher les emplacements des tr
 
 L['dragon_glyph'] = 'Dracoglyphe'
 L['options_icons_dragon_glyph'] = 'Dracoglyphes'
-L['options_icons_dragon_glyph_desc'] = 'Afficher les emplacements des 48 dracoglyphes.'
+L['options_icons_dragon_glyph_desc'] = 'Afficher les emplacements des 56 dracoglyphes.'
 
 L['dragonscale_expedition_flag'] = 'Drapeau de l\'Expédition du Dracaret'
 L['flags_placed'] = 'drapeaux placés'
