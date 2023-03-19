@@ -263,13 +263,17 @@ map.nodes[57657393] = PT.Engineering({
 -------------------------------- DRAGON GLYPHS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[30414530] = Dragonglyph() -- Zaqali Caldera
-map.nodes[41638037] = Dragonglyph() -- Glimmerogg
-map.nodes[48010441] = Dragonglyph() -- Abberus Approach
-map.nodes[47443702] = Dragonglyph() -- Zaralek Cavern
-map.nodes[54735470] = Dragonglyph() -- Loamm
-map.nodes[55342771] = Dragonglyph() -- Slitherdrake Roost
-map.nodes[72114844] = Dragonglyph() -- Throughway
+-- TODO: CRITERIA CONFIRMED
+map.nodes[30414530] = Dragonglyph({rewards = {Achievement({id = 17513})}}) -- Dragon Glyphs: Zaqali Caldera
+map.nodes[41638037] = Dragonglyph({rewards = {Achievement({id = 17510})}}) -- Dragon Glyphs: Glimmerogg
+map.nodes[54735470] = Dragonglyph({rewards = {Achievement({id = 17512})}}) -- Dragon Glyphs: Loamm
+map.nodes[72114844] = Dragonglyph({rewards = {Achievement({id = 17515})}}) -- Dragon Glyphs: The Throughway
+
+-- TODO: CRITERIA GUESSED
+map.nodes[48010441] = Dragonglyph({rewards = {Achievement({id = 17517})}}) -- Dragon Glyphs: Brimstone Garrison
+map.nodes[47443702] = Dragonglyph({rewards = {Achievement({id = 17516})}}) -- Dragon Glphys: Sulfur Ravine
+map.nodes[55342771] = Dragonglyph({rewards = {Achievement({id = 17514})}}) -- Dragon Glyphs: Dragon Nests
+map.nodes[62567332] = Dragonglyph({rewards = {Achievement({id = 17511})}}) -- Dragon Glyphs: Titan Vault
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
