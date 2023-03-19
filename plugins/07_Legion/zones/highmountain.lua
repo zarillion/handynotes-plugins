@@ -96,7 +96,7 @@ map.nodes[48604060] = Rare({
     quest = 39806,
     rewards = {
         Achievement({id = 11264, criteria = 33326}) -- Adventurer of Highmountain
-         -- Gleaming Roc Feather(Item:131809) for Rocfeather Skyhorn Kite(TOY:131811)
+        -- Gleaming Roc Feather(Item:131809) for Rocfeather Skyhorn Kite(TOY:131811)
     }
 }) -- Crawshuk the Hungry
 
