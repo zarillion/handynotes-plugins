@@ -1717,6 +1717,7 @@ map.nodes[66416102] = AncientStone({
 }) -- PH 13
 
 map.nodes[60324973] = AncientStone({
+    note = L['in_small_cave'],
     rewards = {Achievement({id = 17563, criteria = 58817})},
     pois = {POI({60895007})} -- Entrance
 }) -- PH 14

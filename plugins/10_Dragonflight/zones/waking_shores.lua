@@ -2275,6 +2275,7 @@ map.nodes[74165718] = AncientStone({
 }) -- PH 01
 
 map.nodes[24415338] = AncientStone({
+    note = L['obsidian_throne_rare_note'],
     rewards = {Achievement({id = 17561, criteria = 58805})},
     pois = {POI({27146085})} -- Entrance
 }) -- PH 02
