@@ -17,7 +17,7 @@ L['options_icons_profession_treasures_desc'] = '顯示會給予專業技能知�
 
 L['dragon_glyph'] = '龍之雕紋'
 L['options_icons_dragon_glyph'] = '龍之雕紋'
-L['options_icons_dragon_glyph_desc'] = '顯示全部48個龍之雕紋的位置.'
+L['options_icons_dragon_glyph_desc'] = '顯示全部64個龍之雕紋的位置.'
 
 L['dragonscale_expedition_flag'] = '龍鱗遠征隊'
 L['flags_placed'] = '旗幟已插上'

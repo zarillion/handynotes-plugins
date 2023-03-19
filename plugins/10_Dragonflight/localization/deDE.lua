@@ -17,7 +17,7 @@ L['options_icons_profession_treasures_desc'] = 'Zeigt die Positionen der Schätz
 
 L['dragon_glyph'] = 'Drachenglyphe'
 L['options_icons_dragon_glyph'] = 'Drachenglyphen'
-L['options_icons_dragon_glyph_desc'] = 'Zeigt die Positionen aller 48 Drachenglyphen an.'
+L['options_icons_dragon_glyph_desc'] = 'Zeigt die Positionen aller 64 Drachenglyphen an.'
 
 L['dragonscale_expedition_flag'] = 'Flagge der Drachenschuppenexpedition'
 L['flags_placed'] = 'Flaggen platziert'

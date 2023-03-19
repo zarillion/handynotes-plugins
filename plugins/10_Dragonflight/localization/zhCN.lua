@@ -17,7 +17,7 @@ L['options_icons_profession_treasures_desc'] = '显示给予专业知识的宝�
 
 L['dragon_glyph'] = '巨龙魔符'
 L['options_icons_dragon_glyph'] = '巨龙魔符'
-L['options_icons_dragon_glyph_desc'] = '显示全部48个巨龙魔符的位置。'
+L['options_icons_dragon_glyph_desc'] = '显示全部64个巨龙魔符的位置。'
 
 L['dragonscale_expedition_flag'] = '龙鳞探险队旗帜'
 L['flags_placed'] = '已插旗帜'

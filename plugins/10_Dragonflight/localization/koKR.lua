@@ -17,7 +17,7 @@ L['options_icons_profession_treasures_desc'] = '전문기술 관련 지식을 �
 
 L['dragon_glyph'] = '용 문양'
 L['options_icons_dragon_glyph'] = '용 문양'
-L['options_icons_dragon_glyph_desc'] = '48개의 전체 용 문양 위치를 표시합니다.'
+L['options_icons_dragon_glyph_desc'] = '64개의 전체 용 문양 위치를 표시합니다.'
 
 L['dragonscale_expedition_flag'] = '용비늘 원정대 깃발'
 L['flags_placed'] = '깃발 꽂기 완료'
