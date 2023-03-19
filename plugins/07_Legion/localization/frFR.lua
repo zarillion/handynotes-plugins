@@ -163,6 +163,10 @@ L['trapper_jarrun_note'] = 'Rassemblez vos défenses, mortel.'
 L['robert_craig_note'] = 'Attrapez-les !'
 L['stormtalon_note'] = 'Évitez de le tuer en un seul coup, sinon vous ne pourrez pas le chevaucher.'
 
+L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
+L['forsaken_deathsquad'] = 'Escadron de la mort réprouvé'
+L['worgen_stalkers'] = 'Traqueurs worgens'
+
 -------------------------------------------------------------------------------
 ---------------------------------- SURAMAR ------------------------------------
 -------------------------------------------------------------------------------

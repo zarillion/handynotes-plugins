@@ -165,6 +165,10 @@ L['trapper_jarrun_note'] = 'Verteidigt Euch, sterbliches Wesen.'
 L['robert_craig_note'] = 'Fass!'
 L['stormtalon_note'] = 'Versuche ihn nicht mit einem Schlag zu töten, sonst kannst du ihn nicht mehr reiten.s'
 
+L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
+L['forsaken_deathsquad'] = 'Todesschwadron der Verlassenen'
+L['worgen_stalkers'] = 'Worgenpirscher'
+
 -------------------------------------------------------------------------------
 ---------------------------------- SURAMAR ------------------------------------
 -------------------------------------------------------------------------------

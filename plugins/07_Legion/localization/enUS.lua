@@ -162,6 +162,10 @@ L['trapper_jarrun_note'] = 'Muster your defenses mortal.'
 L['robert_craig_note'] = 'Sic \'em!'
 L['stormtalon_note'] = 'Try not to One-Shot him or you won\'t be able to mount him.'
 
+L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
+L['forsaken_deathsquad'] = 'Forsaken Deathsquad'
+L['worgen_stalkers'] = 'Worgen Stalkers'
+
 -------------------------------------------------------------------------------
 ---------------------------------- SURAMAR ------------------------------------
 -------------------------------------------------------------------------------

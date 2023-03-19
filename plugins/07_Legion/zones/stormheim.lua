@@ -46,6 +46,7 @@ map.nodes[38003900] = Rare({
 
 map.nodes[57804500] = Rare({
     id = 92685,
+    quest = 38642,
     rewards = {
         Achievement({id = 11263, criteria = 33303}) -- Adventurer of Stormheim
     }
@@ -62,6 +63,7 @@ map.nodes[58207660] = Rare({
 map.nodes[74006400] = Rare({
     id = 94347,
     quest = 43343,
+    faction = 'Alliance',
     rewards = {
         Transmog({item = 130134, slot = L['mail']}) -- Padded-Link Sniper Leggings
     }
@@ -122,11 +124,12 @@ map.nodes[51607460] = Rare({
 map.nodes[42005780] = Rare({
     id = 92590,
     quest = 38625,
+    label = L['hook_and_sinker'],
     faction = 'Alliance',
     rewards = {
         Transmog({item = 129109, slot = L['cloth']}) -- Sinker's Line
     }
-}) -- Hook
+}) -- Hook & Sinker
 
 map.nodes[47205700] = Rare({
     id = 92951,
@@ -182,6 +185,7 @@ map.nodes[72605020] = Rare({
 
 map.nodes[35601860] = Rare({
     id = 91780,
+    quest = 38422,
     rewards = {
         Transmog({item = 129040, slot = L['plate']}) -- Clacker's Clanking Clam Diggers
     }
@@ -209,15 +213,6 @@ map.nodes[58203400] = Rare({
         Transmog({item = 139387, slot = L['mail']}) -- Drowned Champion's Greaves
     }
 }) -- Roteye
-
-map.nodes[42005760] = Rare({
-    id = 92591,
-    quest = 38625,
-    faction = 'Alliance',
-    rewards = {
-        Transmog({item = 129109, slot = L['cloth']}) -- Sinker's Line
-    }
-}) -- Sinker
 
 helheim.nodes[29606260] = Rare({
     id = 97630,
@@ -308,9 +303,10 @@ map.nodes[36605160] = Rare({
 map.nodes[44202280] = Rare({
     id = 92604,
     quest = 38627,
+    label = L['worgen_stalkers'],
     faction = 'Horde',
     rewards = {
-        Achievement({id = 11263, criteria = 8}), -- Adventurer of Stormheim -- 33301
+        Achievement({id = 11263, criteria = 33301}), -- Adventurer of Stormheim
         Transmog({item = 129264, slot = L['plate']}) -- Patrol Captain's Gauntlets
     }
 }) -- Worgen Stalkers (Champion Elodie, Priestess Liza, Tracker Jack, Ambusher Daggerfang)
@@ -318,10 +314,10 @@ map.nodes[44202280] = Rare({
 map.nodes[44202281] = Rare({
     id = 92631,
     quest = 38630,
-    label = L['horde_kill_squad'],
+    label = L['forsaken_deathsquad'],
     faction = 'Alliance',
     rewards = {
-        Achievement({id = 11263, criteria = 8}), -- Adventurer of Stormheim -- 33302
+        Achievement({id = 11263, criteria = 33302}), -- Adventurer of Stormheim
         Transmog({item = 129266, slot = L['plate']}) -- Raider Captain's Gauntlets
     }
 }) -- Horde Kill Squad (Dark Ranger Jess, Apothecary Perez, Deathguard Adams, Assassin Huwe)
