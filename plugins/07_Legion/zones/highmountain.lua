@@ -93,15 +93,16 @@ map.nodes[43971131] = Rare({
 
 map.nodes[48604060] = Rare({
     id = 97345,
-    quest = nil, -- 39806
+    quest = 39806,
     rewards = {
         Achievement({id = 11264, criteria = 33326}) -- Adventurer of Highmountain
+         -- Gleaming Roc Feather(Item:131809) for Rocfeather Skyhorn Kite(TOY:131811)
     }
 }) -- Crawshuk the Hungry
 
 map.nodes[54604160] = Rare({
     id = 100495,
-    quest = nil, -- 40414
+    quest = 40414,
     rewards = {
         Achievement({id = 11264, criteria = 33337}), -- Adventurer of Highmountain
         Transmog({item = 131780, slot = L['cloth']}) -- Void Slippers
@@ -110,7 +111,7 @@ map.nodes[54604160] = Rare({
 
 map.nodes[36404870] = Rare({
     id = 110378,
-    quest = nil, -- 44503
+    quest = 44503,
     rewards = {
         Achievement({id = 11160, criteria = 32094}), -- Unleashed Monstrosities
         Transmog({item = 141538, slot = L['cloak']}), -- Giant's Handkerchief
@@ -123,7 +124,7 @@ map.nodes[36404870] = Rare({
 
 map.nodes[43807560] = Rare({
     id = 96072,
-    quest = nil, -- 45508
+    quest = 45508,
     rewards = {
         Transmog({item = 131796, slot = L['leather']}) -- Roggumsoggum's Boppers
     }
@@ -138,19 +139,19 @@ map.nodes[40975773] = Rare({
     }
 }) -- Flamescale
 
-map.nodes[50005000] = Rare({
-    id = 99929,
-    quest = nil,
-    rewards = {
-        Achievement({id = 11160, criteria = 32095}), -- Unleashed Monstrosities
-        Transmog({item = 141539, slot = L['cloak']}), -- Ragged Azsharan Sail Fragment
-        Transmog({item = 141476, slot = L['plate']}), -- Kezan Pirate's Mitts
-        Transmog({item = 141475, slot = L['leather']}), -- Salt-Stained Tuskarr Gloves
-        Transmog({item = 141466, slot = L['mail']}), -- Blackwater Raider Handguards
-        Transmog({item = 141470, slot = L['cloth']}) -- Faded Bloodsail Handwraps
+-- map.nodes[50005000] = Rare({
+--     id = 99929,
+--     quest = nil,
+--     rewards = {
+--         Achievement({id = 11160, criteria = 32095}), -- Unleashed Monstrosities
+--         Transmog({item = 141539, slot = L['cloak']}), -- Ragged Azsharan Sail Fragment
+--         Transmog({item = 141476, slot = L['plate']}), -- Kezan Pirate's Mitts
+--         Transmog({item = 141475, slot = L['leather']}), -- Salt-Stained Tuskarr Gloves
+--         Transmog({item = 141466, slot = L['mail']}), -- Blackwater Raider Handguards
+--         Transmog({item = 141470, slot = L['cloth']}) -- Faded Bloodsail Handwraps
 
-    }
-}) -- Flotsam
+--     }
+-- }) -- Flotsam (world boss)
 
 map.nodes[55806129] = Rare({
     id = 96590,
@@ -177,7 +178,7 @@ map.nodes[51084825] = Rare({
 
 map.nodes[50803460] = Rare({
     id = 98024,
-    quest = nil, -- 40406
+    quest = 40406,
     rewards = {
         Achievement({id = 11264, criteria = 33332}) -- Adventurer of Highmountain
     }
@@ -214,7 +215,7 @@ map.nodes[49182711] = Rare({
 
 map.nodes[46600760] = Rare({
     id = 98311,
-    quest = nil, -- 40096
+    quest = 40096,
     note = L['mrrklr_note'],
     rewards = {
         Achievement({id = 11264, criteria = 33333}) -- Adventurer of Highmountain
@@ -224,7 +225,7 @@ map.nodes[46600760] = Rare({
 
 map.nodes[54604060] = Rare({
     id = 97593,
-    quest = nil, -- 39866
+    quest = 39866,
     rewards = {
         Achievement({id = 11264, criteria = 33329}), -- Adventurer of Highmountain
         Transmog({item = 131792, slot = L['cloak']}) -- Harefoot Pinnacle Wrap
@@ -233,7 +234,7 @@ map.nodes[54604060] = Rare({
 
 map.nodes[47607380] = Rare({
     id = 95204,
-    quest = nil, -- 39435
+    quest = 39435,
     rewards = {
         Transmog({item = 131793, slot = L['cloth']}) -- Oubdob's Smashin' Sweatband
     }
@@ -241,7 +242,7 @@ map.nodes[47607380] = Rare({
 
 map.nodes[52405140] = Rare({
     id = 97102,
-    quest = nil, -- 41820
+    quest = 41820,
     rewards = {
         Achievement({id = 11264, criteria = 33334}) -- Adventurer of Highmountain
     }
@@ -264,7 +265,7 @@ map.nodes[44695492] = Rare({
 
 map.nodes[51002580] = Rare({
     id = 97093,
-    quest = nil,
+    quest = 39762,
     rewards = {
         Achievement({id = 11264, criteria = 33322}), -- Adventurer of Highmountain
         Transmog({item = 131791, slot = L['cloth']}) -- Felbreath Bloodsinger Robe
@@ -273,7 +274,7 @@ map.nodes[51002580] = Rare({
 
 map.nodes[51403180] = Rare({
     id = 95872,
-    quest = nil, -- 39465
+    quest = 39465,
     rewards = {
         Achievement({id = 11264, criteria = 33318}), -- Adventurer of Highmountain
         Transmog({item = 131769, slot = L['cloth']}) -- The Taskmaster's Wristwraps
@@ -344,22 +345,20 @@ local TreasuresOfHighmountain = Achievement({
 
 tt.nodes[63525933] = Treasure({
     label = L['steamy_jewelry_box'],
-    quest = 39561,
+    quest = 39531,
     parent = map.id,
     rewards = {TreasuresOfHighmountain}
 })
 
 map.nodes[52405150] = Treasure({
     label = L['totally_safe_treasure_chest'],
-    quest = {40610, 39766},
-    note = '2',
+    quest = 39766,
     rewards = {TreasuresOfHighmountain}
 })
 
 map.nodes[41604990] = Treasure({
     label = L['floating_treasure'],
-    quest = nil,
-    note = '3',
+    quest = 39494,
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -372,8 +371,7 @@ map.nodes[46662813] = Treasure({
 
 map.nodes[54204160] = Treasure({
     label = L['glimmering_treasure_chest'],
-    quest = nil,
-    note = '5',
+    quest = 40483,
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -400,8 +398,7 @@ map.nodes[45182745] = Treasure({
 
 map.nodes[53504350] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '9',
+    quest = 40484,
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -413,15 +410,13 @@ map.nodes[37353380] = Treasure({
 
 map.nodes[53005220] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '11',
+    quest = 40493,
     rewards = {TreasuresOfHighmountain}
 })
 
 map.nodes[53103950] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '12',
+    quest = 40499,
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -440,8 +435,7 @@ map.nodes[43747275] = Treasure({
 
 map.nodes[50203860] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '15',
+    quest = 40497,
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -459,15 +453,13 @@ map.nodes[55154966] = Treasure({
 
 map.nodes[46804010] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '18',
+    quest = 40507,
     rewards = {TreasuresOfHighmountain}
 })
 
 map.nodes[50803500] = Treasure({
     label = L['small_treasure_chest'],
-    quest = nil,
-    note = '19',
+    quest = 40506,
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -508,15 +500,13 @@ map.nodes[46237341] = Treasure({
 
 map.nodes[47604400] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '25',
+    quest = 39503,
     rewards = {TreasuresOfHighmountain}
-})
+}) -- Delicate Roc Feather(Item:131926) for Rocfeather Skyhorn Kite(TOY:131811)
 
 map.nodes[51003880] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '26',
+    quest = 40498,
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -543,15 +533,13 @@ neltharions_vault.nodes[40235008] = Treasure({
 
 map.nodes[39307620] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '30',
+    quest = 40473,
     rewards = {TreasuresOfHighmountain}
 })
 
 map.nodes[51003640] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '31',
+    quest = 40496,
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -559,7 +547,7 @@ map.nodes[53625103] = Treasure({
     label = L['treasure_chest'],
     quest = 39824,
     rewards = {TreasuresOfHighmountain}
-})
+}) -- Derelict Skyhorn Kite(Item:131810) for Rocfeather Skyhorn Kite(TOY:131811)
 
 grotto.nodes[36067252] = Treasure({
     label = L['treasure_chest'],
@@ -570,15 +558,13 @@ grotto.nodes[36067252] = Treasure({
 
 map.nodes[49603770] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '34',
+    quest = 39466,
     rewards = {TreasuresOfHighmountain}
-})
+}) -- Shimmering Roc Feather(Item:131927) for Rocfeather Skyhorn Kite(TOY:131811)
 
 map.nodes[52003240] = Treasure({
     label = L['treasure_chest'],
-    quest = nil,
-    note = '35',
+    quest = 40505,
     rewards = {TreasuresOfHighmountain}
 })
 
@@ -623,6 +609,12 @@ map.nodes[39535744] = Treasure({
 map.nodes[46362163] = Treasure({
     label = L['small_treasure_chest'],
     quest = 44280,
+    rewards = {TreasuresOfHighmountain}
+})
+
+map.nodes[49647128] = Treasure({
+    label = L['small_treasure_chest'],
+    quest = 39606,
     rewards = {TreasuresOfHighmountain}
 })
 
