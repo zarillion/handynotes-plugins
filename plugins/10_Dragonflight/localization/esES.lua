@@ -18,7 +18,7 @@ L['options_icons_profession_treasures_desc'] = 'Muestra dónde están los tesoro
 
 L['dragon_glyph'] = 'Glifos Dracónicos'
 L['options_icons_dragon_glyph'] = 'Glifos Dracónicos'
-L['options_icons_dragon_glyph_desc'] = 'Muestra dónde están los 56x glifos dracónicos.'
+L['options_icons_dragon_glyph_desc'] = 'Muestra dónde están los 56 glifos dracónicos.'
 
 L['dragonscale_expedition_flag'] = 'Expedición Dragontina'
 L['flags_placed'] = 'banderas puestas'
