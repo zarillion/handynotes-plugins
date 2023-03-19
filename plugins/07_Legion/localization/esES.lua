@@ -164,8 +164,8 @@ L['robert_craig_note'] = '¡Azúzalas!'
 L['stormtalon_note'] = 'Intenta no matarlo de un disparo o no podrás montarte en él.'
 
 L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
-L['forsaken_deathsquad'] = 'Escuadrón de la muerte renegado'
-L['worgen_stalkers'] = 'Acechadores huargen'
+L['forsaken_deathsquad'] = 'Escuadrón de la Muerte Renegado'
+L['worgen_stalkers'] = 'Acechadores Huargen'
 
 -------------------------------------------------------------------------------
 ---------------------------------- SURAMAR ------------------------------------
