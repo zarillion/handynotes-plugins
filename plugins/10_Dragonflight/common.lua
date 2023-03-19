@@ -16,6 +16,7 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Spacer = ns.reward.Spacer
 local Transmog = ns.reward.Transmog
 
@@ -139,7 +140,7 @@ ns.groups.DECAY_COVERED_CHEST = Group('decay_covered_chest', 'chest_pk', {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.REED_CHEST = Group('reed_chest', 'chest_yw', { --
+ns.groups.REED_CHEST = Group('reed_chest', 'chest_yw', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -1107,32 +1108,37 @@ ns.node.ElementalChest = ElementalChest
 local function nextSpawn(self, timeYellow, timeGreen)
     local region = GetCurrentRegion() -- https://wowpedia.fandom.com/wiki/API_GetCurrentRegion
     local initial = self.initialSpawn
-    local current = GetServerTime()
+    local CurrentTime = GetServerTime()
 
-    local start = initial.us + self.rotationID * self.spawnOffset
-
-    if region == 3 and initial.eu then
-        start = initial.eu + self.rotationID * self.spawnOffset
+    local SpawnTime = self.rotationID * self.spawnOffset
+    if region == 2 and initial.kr then
+        SpawnTime = SpawnTime + initial.kr
+    elseif region == 3 and initial.eu then
+        SpawnTime = SpawnTime + initial.eu
+    elseif region == 4 and initial.tw then
+        SpawnTime = SpawnTime + initial.tw
+    else
+        SpawnTime = SpawnTime + initial.us
     end
 
-    if region == 4 and initial.tw then
-        start = initial.tw + self.rotationID * self.spawnOffset
-    end
-
-    local elapsedTime = current - start
-    local next_time = start + math.ceil(elapsedTime / self.spawnInterval) *
-                          self.spawnInterval
-
-    local text = date(L['time_format'], next_time)
+    local NextSpawn = SpawnTime +
+                          math.ceil(
+            (CurrentTime - SpawnTime) / self.spawnInterval) * self.spawnInterval
+    local TimeLeft = NextSpawn - CurrentTime
+    local SpawnsIn = TimeLeft <= 60 and L['now'] or
+                         SecondsToTime(TimeLeft, true, true)
 
     if timeYellow and timeGreen then
         local color = ns.color.Orange
-        if next_time - current < timeYellow then color = ns.color.Yellow end
-        if next_time - current < timeGreen then color = ns.color.Green end
-        text = color(text)
+        if TimeLeft < timeYellow then color = ns.color.Yellow end
+        if TimeLeft < timeGreen then color = ns.color.Green end
+        SpawnsIn = color(SpawnsIn)
     end
 
-    return text
+    local TimeFormat =
+        ns:GetOpt('use_standard_time') and L['time_format_12hrs'] or
+            L['time_format_24hrs']
+    return format('%s (%s)', SpawnsIn, date(TimeFormat, NextSpawn))
 end
 
 ---------------------------------- 14 HOURS -----------------------------------
@@ -1164,11 +1170,7 @@ end
 --------------------------------- BRACKENHIDE ---------------------------------
 
 local Brackenhide = Class('Brackenhide', Rare, {
-    initialSpawn = {
-        us = 1672531800, -- review
-        eu = 1672531200,
-        tw = 1677162000
-    },
+    initialSpawn = {us = 1672531800, eu = 1672531200, tw = 1677162000},
     spawnOffset = 600,
     spawnInterval = 2400
 })
@@ -1366,14 +1368,27 @@ local ELEMENTAL_STORM_PET_REWARDS = {
 }
 
 local ELEMENTAL_STORM_FORMULA_REWARDS = {
-    ['all'] = Item({item = 194641}), -- Design: Elemental Lariat
-    ['thunderstorm'] = Item({
+    ['all'] = Recipe({item = 194641, profession = 755}), -- Design: Elemental Lariat
+    ['thunderstorm'] = Recipe({
         item = 200911,
+        profession = 333,
         note = L['elemental_storm_thunderstorm']
     }), -- Formula: Illusion: Primal Air
-    ['sandstorm'] = Item({item = 200912, note = L['elemental_storm_sandstorm']}), -- Formula: Illusion: Primal Earth
-    ['firestorm'] = Item({item = 200913, note = L['elemental_storm_firestorm']}), -- Formula: Illusion: Primal Fire
-    ['snowstorm'] = Item({item = 200914, note = L['elemental_storm_snowstorm']}) -- Formula: Illusion: Primal Frost
+    ['sandstorm'] = Recipe({
+        item = 200912,
+        profession = 333,
+        note = L['elemental_storm_sandstorm']
+    }), -- Formula: Illusion: Primal Earth
+    ['firestorm'] = Recipe({
+        item = 200913,
+        profession = 333,
+        note = L['elemental_storm_firestorm']
+    }), -- Formula: Illusion: Primal Fire
+    ['snowstorm'] = Recipe({
+        item = 200914,
+        profession = 333,
+        note = L['elemental_storm_snowstorm']
+    }) -- Formula: Illusion: Primal Frost
 }
 
 local ElementalStorm = Class('ElementalStorm', Collectible, {

@@ -63,6 +63,7 @@ L['hard'] = '어려움'
 L['heirloom'] = '유산'
 L['mount'] = '탈것'
 L['pet'] = '애완동물'
+L['recipe'] = nil
 L['spell'] = '주문'
 L['title'] = '칭호'
 L['toy'] = '장난감'
@@ -149,6 +150,8 @@ L['options_mount_rewards'] = '탈것 보상 표시'
 L['options_mount_rewards_desc'] = '탈것 보상을 툴팁에 표시하고 수집 진행상황을 추적합니다'
 L['options_pet_rewards'] = '애완동물 보상 표시'
 L['options_pet_rewards_desc'] = '애완동물 보상을 툴팁에 표시하고 수집 진행상황을 추적합니다'
+L['options_recipe_rewards'] = nil
+L['options_recipe_rewards_desc'] = nil
 L['options_toy_rewards'] = '장난감 보상 표시'
 L['options_toy_rewards_desc'] = '장난감 보상을 툴팁에 표시하고 수집 진행상황을 추적합니다'
 L['options_transmog_rewards'] = '형상변환 보상 표시'
@@ -182,6 +185,8 @@ L['options_toggle_show_loot'] = '드랍템 표시'
 L['options_toggle_show_loot_desc'] = '드랍템 정보를 툴팁에 표시합니다'
 L['options_toggle_show_notes'] = '가이드 표시'
 L['options_toggle_show_notes_desc'] = '가이드가 있으면 툴팁에 표시합니다'
+L['options_toggle_use_standard_time'] = nil
+L['options_toggle_use_standard_time_desc'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

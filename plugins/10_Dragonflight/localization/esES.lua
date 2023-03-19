@@ -92,8 +92,10 @@ L['signal_transmitter_note'] = '{note:Requiere 10 puntos en Mente Mecánica\nReq
 L['options_icons_signal_transmitter'] = 'Transmisores de Generadores de Agujeros de Vermis'
 L['options_icons_signal_transmitter_desc'] = 'Muestra dónde están los {object:Transmisor Desactivado} para los {item:198156}.'
 
-L['rare_14h'] = 'El raro está en una rotación de 14 horas junto con otros raros. Puede aparecer un raro cada 30 minutos.\n\nPróxima aparición posible: {note:%s} (hora local).'
-L['time_format'] = '%H:%M - %d/%m'
+L['rare_14h'] = 'Este raro está en una rotación de 14 horas junto con otros raros. Hay una aparición rara cada 30 minutos.\n\nPróxima aparición: {note:%s}'
+L['time_format_12hrs'] = '%I:%M %p - %d/%m Hora local'
+L['time_format_24hrs'] = '%H:%M - %d/%m Hora local'
+L['now'] = 'Ahora'
 L['spawns_at_night'] = '{note:Sólo aparece por la noche. (Después de las 18:30 hora del servidor)}'
 
 L['elemental_storm'] = 'Tormenta Elemental'
@@ -154,9 +156,9 @@ L['options_icons_frostbound_chest_desc'] = 'Muestra dónde pueden haber {object:
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['bisquis_note'] = 'Cocina una sopa legendaria en el festín comunitario de {location:Iskaara} y luego derrota a {npc:197557}.\n\nSiguiente Festín: {note:%s} (hora local).'
+L['bisquis_note'] = 'Cocina una sopa legendaria en el festín comunitario de {location:Iskaara} y luego derrota a {npc:197557}.\n\nSiguiente Festín: {note:%s}'
 L['blightfur_note'] = 'Habla con {npc:193633} para hacer aparecer al raro.'
-L['brackenhide_rare_note'] = 'Estos raros aparecen en un rotación fija en el siguiente orden: {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} con una diferencia de 10 minutos.\n\nSiguiente aparición posible: {note:%s} (hora local).'
+L['brackenhide_rare_note'] = 'Estos raros aparecen en un rotación fija en el siguiente orden: {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} con una diferencia de 10 minutos.\n\nSiguiente aparición posible: {note:%s}'
 L['fisherman_tinnak_note'] = 'Recoge la {object:Caña de Pescar Rota}, la {object:Red de Pescar Rota} y el {object:Arpón Viejo} para hacer aparecer al raro.'
 L['frostpaw_note'] = 'Después de coger el {object:Martillo de Madera}, tienes 20 segundos para golpear el {object:Machacagnolls} en el {object:Tocón}, y hacer aparecer al raro.'
 L['sharpfang_note'] = 'Ayuda a {npc:192747} a derrotar a los {npc:192748} para hacer aparecer al raro.'
@@ -481,6 +483,8 @@ L['options_icons_clan_chest_desc'] = 'Muestra dónde pueden estár los {object:C
 L['lightning_bound_chest'] = 'Cofre Reforzado con Relámpagos'
 L['options_icons_lightning_bound_chest'] = 'Cofre Reforzado con Relámpagos'
 L['options_icons_lightning_bound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Reforzado con Relámpagos}.'
+
+L['bloodgullet_note'] = 'Consigue el buff {spell:369277} (dura 1 hora) en una tienda de la {location:Avanzada Pasoleño} con el objeto {object:Esencia del Despertar} para poder ver las Bestias Espíritu.\n\n{note:Sólo aparece en las Grandes Cacerías de Bestias.}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

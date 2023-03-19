@@ -91,8 +91,10 @@ L['signal_transmitter_note'] = '{note:需要點機械心靈 10點\n需要點新�
 L['options_icons_signal_transmitter'] = '龍洞產生器信號發送器'
 L['options_icons_signal_transmitter_desc'] = '顯示 {item:198156} 所需的 {object:關閉的信號發送器} 位置.'
 
-L['rare_14h'] = '此稀有和其他稀有們共用一個14小時的循環, 每30分鐘會重生一隻稀有.\n\n下個可能的重生時間是: {note:%s} (伺服器時間)'
-L['time_format'] = '%Y/%m/%d - %H:%M'
+L['rare_14h'] = '此稀有和其他稀有們共用一個14小時的循環, 每30分鐘會重生一隻稀有.\n\n下個可能的重生時間是: {note:%s}'
+L['time_format_12hrs'] = '%m/%d - %I:%M %p 本地時間'
+L['time_format_24hrs'] = '%m/%d - %H:%M 本地時間'
+L['now'] = nil
 L['spawns_at_night'] = '{note:僅在晚上重生 (伺服器時間 18:30 之後)}'
 
 L['elemental_storm'] = '元素風暴'
@@ -471,7 +473,7 @@ L['options_icons_nokhud_do_it_desc'] = '顯示成就 {achievement:16583} 有用�
 
 L['chest_of_the_flood'] = '洪流寶箱'
 
-L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天又3小時 (75) 移動到另外一個營地, 跟著他們並在路上保護他們.'
+L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天又3小時 (75小時) 移動到另外一個營地, 跟著他們並在路上保護他們.'
 
 L['clan_chest'] = '氏族箱子'
 L['options_icons_clan_chest'] = '氏族箱子'
@@ -480,6 +482,8 @@ L['options_icons_clan_chest_desc'] = '顯示 {object:氏族箱子} 可能的位�
 L['lightning_bound_chest'] = nil
 L['options_icons_lightning_bound_chest'] = nil
 L['options_icons_lightning_bound_chest_desc'] = nil
+
+L['bloodgullet_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -592,7 +596,7 @@ L['pt_ench_enchanted_debris_note'] = '使用並跟著 {npc:194872} 走到最後�
 L['pt_ench_flashfrozen_scroll_note'] = '在 {location:閃霜營地} 的洞穴系統內.'
 L['pt_ench_lava_infused_seed_note'] = '在 {location:碎鱗者要塞} 的一朵花內.'
 L['pt_engi_boomthyr_rocket_note'] = '收集列在 {object:轟希爾火箭筆記} 內的物品:\n\n{item:198815}\n{item:198817}\n{item:198816}\n{item:198814}\n\n當你收集完後, 帶著它們回來到火箭旁以取得寶藏.'
-L['pt_engi_intact_coil_capacitor_note'] = '和三個 {object:裸露電線} 互動來修好並拾取 {object:超載的特斯拉線圈}.'
+L['pt_engi_intact_coil_capacitor_note'] = '和三個 {object:外露的線} 互動來修好並拾取 {object:超載的特斯拉線圈}.'
 L['pt_jewel_closely_guarded_shiny_note'] = '巢邊樹下的藍色寶石.'
 L['pt_jewel_igneous_gem_note'] = '快速點選在岩漿內的小島上的三個水晶.'
 L['pt_leath_poachers_pack_note'] = '在河岸旁一個死掉的狐狸人旁邊.'

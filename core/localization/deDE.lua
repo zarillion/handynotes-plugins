@@ -63,6 +63,7 @@ L['hard'] = 'Schwer'
 L['heirloom'] = 'Erbstück'
 L['mount'] = 'Reittier'
 L['pet'] = 'Haustier'
+L['recipe'] = 'Rezept'
 L['spell'] = 'Fähigkeit'
 L['title'] = 'Titel'
 L['toy'] = 'Spielzeug'
@@ -149,6 +150,8 @@ L['options_mount_rewards'] = 'Zeige Reittierbelohnungen'
 L['options_mount_rewards_desc'] = 'Zeige Reittierbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_pet_rewards'] = 'Zeige Haustierbelohnungen'
 L['options_pet_rewards_desc'] = 'Zeige Haustierbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
+L['options_recipe_rewards'] = 'Zeige Rezeptbelohnungen'
+L['options_recipe_rewards_desc'] = 'Zeige Rezeptbelohnungen für bekannte Berufe in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_toy_rewards'] = 'Zeige Spielzeugbelohnungen'
 L['options_toy_rewards_desc'] = 'Zeige Spielzeugbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_transmog_rewards'] = 'Zeige Vorlagenbelohnungen'
@@ -182,6 +185,8 @@ L['options_toggle_show_loot'] = 'Zeige Beute'
 L['options_toggle_show_loot_desc'] = 'Zeigt Beuteinformationen im Tooltip an.'
 L['options_toggle_show_notes'] = 'Zeige Notizen'
 L['options_toggle_show_notes_desc'] = 'Zeigt hilfreiche Notizen an sofern diese verfügbar sind.'
+L['options_toggle_use_standard_time'] = nil
+L['options_toggle_use_standard_time_desc'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

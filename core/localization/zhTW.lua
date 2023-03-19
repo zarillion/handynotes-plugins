@@ -63,6 +63,7 @@ L['hard'] = '困難'
 L['heirloom'] = '傳家寶'
 L['mount'] = '坐騎'
 L['pet'] = '戰寵'
+L['recipe'] = nil
 L['spell'] = '法術'
 L['title'] = '稱號'
 L['toy'] = '玩具'
@@ -149,6 +150,8 @@ L['options_mount_rewards'] = '顯示坐騎獎勵'
 L['options_mount_rewards_desc'] = '在提示顯示坐騎獎勵並追蹤收集狀態'
 L['options_pet_rewards'] = '顯示戰寵獎勵'
 L['options_pet_rewards_desc'] = '在提示顯示戰寵獎勵並追蹤收集狀態'
+L['options_recipe_rewards'] = nil
+L['options_recipe_rewards_desc'] = nil
 L['options_toy_rewards'] = '顯示玩具獎勵'
 L['options_toy_rewards_desc'] = '在提示顯示玩具獎勵並追蹤收集狀態'
 L['options_transmog_rewards'] = '顯示塑形獎勵'
@@ -182,6 +185,8 @@ L['options_toggle_show_loot'] = '顯示戰利品'
 L['options_toggle_show_loot_desc'] = '在工具提示中加入戰利品資訊'
 L['options_toggle_show_notes'] = '顯示註記'
 L['options_toggle_show_notes_desc'] = '在可用的工具提示中加入有用的註記'
+L['options_toggle_use_standard_time'] = nil
+L['options_toggle_use_standard_time_desc'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

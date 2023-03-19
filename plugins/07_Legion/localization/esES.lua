@@ -134,6 +134,16 @@ L['options_icons_void_seeped_cache_desc'] = 'Muestra dónde pueden estar los {ob
 L['odrogg_note'] = '¿Crees que puedes superar a mis caracoles?'
 L['grixis_tinypop_note'] = '¡Esto va a ser fácil!'
 L['bredda_tenderhide_note'] = '¡Que los más valientes resulten victoriosos!'
+L['unethical_adventurers'] = 'Aventurero sin Escrúpulos'
+L['unethical_adventurers_note'] = 'Haz click en el {object:Tesoro Aparentemente sin Vigilancia} para invocar a {npc:Aventurero sin Escrúpulos}.'
+L['taurson_note'] = 'Habla con {npc:97653} y rétalo a un combate.\nCuando le derrotes aparecerá el {object:Premio de Taurson}.'
+L['arru_note'] = 'Habla con el {npc:97215} para empezar el combate contra {npc:97220}.\n\nCuando el {npc:97215} haya domesticado el oso, aparecerán los {object:Bienes Robados de los Tótem del Trueno} en la parte trasera de la cueva.'
+L['tt_hoc'] = 'Abajo en la {location:Sala de los Jefes}.'
+L['steamy_jewelry_box'] = 'El Joyero Tórrido'
+L['flamescale_note'] = 'Usa la {object:Caña de Pescar Abandonada} para invocar a {npc:97793}.'
+L['amateur_hunters_note'] = 'Tras derrotar a los tres {npc:Aventurero sin Escrúpulos} aparecerá el {object:Cofre Maltrecho} en la parte trasera de la cueva.'
+L['treasure_40482'] = 'En la nariz de la estatua enorme.'
+L['mrrklr_note'] = 'Libera a {npc:98754} para que aparezca {npc:98311}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------
@@ -151,6 +161,7 @@ L['options_icons_eredar_war_supplies_desc'] = 'Muestra dónde pueden estar los {
 
 L['trapper_jarrun_note'] = 'Reúne tus defensas, mortal.'
 L['robert_craig_note'] = '¡Azúzalas!'
+L['stormtalon_note'] = 'Intenta no matarlo de un disparo o no podrás montarte en él.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- SURAMAR ------------------------------------
@@ -159,6 +170,14 @@ L['robert_craig_note'] = '¡Azúzalas!'
 L['varenne_note'] = '¡Tengo que seguir cocinando!'
 L['master_tamer_flummox_note'] = '¡Flummox no necesita mascotas! ¡Flummox se las come AHORA!'
 L['aulier_note'] = 'Aprende esta lección con humlidad.'
+L['myonix_note'] = '{bug:Actualmente bugeado. Necesita volver a hacer login para mostrar el progreso para el logro {achievement:11265}}.'
+L['arcanist_lylandre_note'] = 'Para atacarla necesitas quitar las barreras haciendo click en los cristales.'
+L['gorgroth_note'] = 'Usa la {object:Llave de Portal} para invocar a {npc:110832}.'
+L['inside_temple_of_faladora'] = 'Dentro del {location:Templo de Fal\'adora}.'
+L['inside_falanaar_tunnels'] = 'Dentro de los {location:Túneles de Falanaar}.'
+L['ancient_mana_chunk'] = 'Trozo de Maná Antiguo'
+L['dusty_coffer'] = 'Arca Polvorienta'
+L['protected_treasure_chest'] = 'Cofre del Tesoro Protegido'
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------

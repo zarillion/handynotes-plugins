@@ -92,7 +92,9 @@ L['options_icons_signal_transmitter'] = '지룡 구멍 생성기 신호 송신�
 L['options_icons_signal_transmitter_desc'] = '{item:198156}를 이용하기 위한 {object:비활성화된 신호 송신기} 위치를 표시합니다.'
 
 L['rare_14h'] = nil
-L['time_format'] = nil
+L['time_format_12hrs'] = nil
+L['time_format_24hrs'] = nil
+L['now'] = nil
 L['spawns_at_night'] = '저녁에만 출몰합니다. (서버 시각 기준 18:30)'
 
 L['elemental_storm'] = nil
@@ -461,6 +463,8 @@ L['options_icons_clan_chest_desc'] = nil
 L['lightning_bound_chest'] = '번개의 결속 상자'
 L['options_icons_lightning_bound_chest'] = '번개의 결속 상자'
 L['options_icons_lightning_bound_chest_desc'] = nil
+
+L['bloodgullet_note'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------

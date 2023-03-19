@@ -63,6 +63,7 @@ L['hard'] = 'Difícil'
 L['heirloom'] = nil
 L['mount'] = 'Montura'
 L['pet'] = 'Mascota'
+L['recipe'] = nil
 L['spell'] = nil
 L['title'] = nil
 L['toy'] = 'Juguete'
@@ -149,6 +150,8 @@ L['options_mount_rewards'] = nil
 L['options_mount_rewards_desc'] = nil
 L['options_pet_rewards'] = nil
 L['options_pet_rewards_desc'] = nil
+L['options_recipe_rewards'] = nil
+L['options_recipe_rewards_desc'] = nil
 L['options_toy_rewards'] = nil
 L['options_toy_rewards_desc'] = nil
 L['options_transmog_rewards'] = nil
@@ -182,6 +185,8 @@ L['options_toggle_show_loot'] = 'Mostrar el botín'
 L['options_toggle_show_loot_desc'] = 'Agregar la información de botín al toolip'
 L['options_toggle_show_notes'] = 'Mostrar las Notas'
 L['options_toggle_show_notes_desc'] = 'Agregar las notas útiles al tooltip cuando esté disponible'
+L['options_toggle_use_standard_time'] = nil
+L['options_toggle_use_standard_time_desc'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

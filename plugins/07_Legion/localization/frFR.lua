@@ -134,6 +134,16 @@ L['options_icons_void_seeped_cache_desc'] = 'Afficher les emplacements possibles
 L['odrogg_note'] = 'Vous pensez que vous pouvez battre mes escargots ?'
 L['grixis_tinypop_note'] = 'Ce sera facile !'
 L['bredda_tenderhide_note'] = 'Que le plus courageux soit victorieux !'
+L['unethical_adventurers'] = 'Aventuriers peu scrupuleux'
+L['unethical_adventurers_note'] = 'Cliquez sur le {object:Trésor apparemment pas gardé} pour faire apparaître les {npc:Aventuriers peu scrupuleux}.'
+L['taurson_note'] = 'Parlez à {npc:97653} et défiez-le au combat.\nLorsque vous l\'aurez vaincu, le {object:Prix de Taurson} apparaîtra.'
+L['arru_note'] = 'Parlez au {npc:97215} pour commencer l\'affrontement avec {npc:97220}.\n\nLorsque le {npc:97215} aura dompté l\'ours, les {object:Marchandises de Totem-du-Tonnerre volées} apparaîtront au fond de la petite caverne.'
+L['tt_hoc'] = 'En bas, dans le {location:Hall des Chefs}.'
+L['steamy_jewelry_box'] = 'Boîte à bijoux torride'
+L['flamescale_note'] = 'Utilisez la {object:Canne à pêche abandonnée} pour invoquer {npc:97793}.'
+L['amateur_hunters_note'] = 'Après avoir vaincu les trois {npc:Chasseurs amateurs}, le {object:Coffre endommagé} apparaît au fond de la petite grotte.'
+L['treasure_40482'] = 'Sur le nez de la grande statue.'
+L['mrrklr_note'] = 'Libérez {npc:98754} pour faire aparaître {npc:98311}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------
@@ -151,6 +161,7 @@ L['options_icons_eredar_war_supplies_desc'] = 'Afficher les emplacements possibl
 
 L['trapper_jarrun_note'] = 'Rassemblez vos défenses, mortel.'
 L['robert_craig_note'] = 'Attrapez-les !'
+L['stormtalon_note'] = 'Évitez de le tuer en un seul coup, sinon vous ne pourrez pas le chevaucher.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- SURAMAR ------------------------------------
@@ -159,6 +170,14 @@ L['robert_craig_note'] = 'Attrapez-les !'
 L['varenne_note'] = 'Je dois retourner à ma cuisine !'
 L['master_tamer_flummox_note'] = 'Flummox pas besoin familliers ! Flummox les mange MAINTENANT !'
 L['aulier_note'] = 'Commençons votre leçon d\'humilité.'
+L['myonix_note'] = '{bug:Actuellement buggé, nécessite une reconnexion pour afficher la progression du haut-fait {achievement:11265}}'
+L['arcanist_lylandre_note'] = 'Pour l\'attaquer, vous devez retirer les barrières en cliquant sur les cristaux.'
+L['gorgroth_note'] = 'Utilisez la {object:Clé de portail} pour invoquer {npc:110832}.'
+L['inside_temple_of_faladora'] = 'A l\'intérieur du {location:Temple de Fal\'adora}.'
+L['inside_falanaar_tunnels'] = 'A l\'intérieur des {location:Tunnels de Falanaar}.'
+L['ancient_mana_chunk'] = 'Morceau de mana ancestral'
+L['dusty_coffer'] = 'Coffre poussiéreux'
+L['protected_treasure_chest'] = 'Coffre au trésor protégé'
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------

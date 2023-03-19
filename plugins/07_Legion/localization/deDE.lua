@@ -136,6 +136,16 @@ L['options_icons_void_seeped_cache_desc'] = nil
 L['odrogg_note'] = 'Ihr glaubt, Ihr könnt meinen Schnecken bezwingen?'
 L['grixis_tinypop_note'] = 'Das wird leicht!'
 L['bredda_tenderhide_note'] = 'Mögen die Tapfersten siegreich sein!'
+L['unethical_adventurers'] = 'Ethisch fragwürdige Abenteurer'
+L['unethical_adventurers_note'] = 'Kliche auf den {object:Scheinbar unbehüteter Schatz} um die {npc:Ethisch fragwürdigen Abenteurer} zu rufen.'
+L['taurson_note'] = nil
+L['arru_note'] = nil
+L['tt_hoc'] = nil
+L['steamy_jewelry_box'] = 'Ein dampfendes Schmuckkästchen'
+L['flamescale_note'] = 'Nutze die {object:Liegen gelassene Angelrute} um {npc:97793} erscheinen zu lassen.'
+L['amateur_hunters_note'] = 'Nachdem du die drei {npc:Freizeitjäger} besiegt hast erscheint eine {object:ramponierte Truhe} in der kleinen höhle.'
+L['treasure_40482'] = 'Auf der Nase der riesigen Statue.'
+L['mrrklr_note'] = 'Befreie {npc:98754} damit {npc:98311} erscheint.'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------
@@ -153,6 +163,7 @@ L['options_icons_eredar_war_supplies_desc'] = nil
 
 L['trapper_jarrun_note'] = 'Verteidigt Euch, sterbliches Wesen.'
 L['robert_craig_note'] = 'Fass!'
+L['stormtalon_note'] = 'Versuche ihn nicht mit einem Schlag zu töten, sonst kannst du ihn nicht mehr reiten.s'
 
 -------------------------------------------------------------------------------
 ---------------------------------- SURAMAR ------------------------------------
@@ -161,6 +172,14 @@ L['robert_craig_note'] = 'Fass!'
 L['varenne_note'] = 'Ich muss mich wieder meiner Kochkunst widmen!'
 L['master_tamer_flummox_note'] = 'Flummox braucht keine Haustiere! Flummox frisst sie JETZT!'
 L['aulier_note'] = 'Jetzt beginnt Eure Lektion in Sachen Demut!'
+L['myonix_note'] = '{bug:Momentan verbuggt, du musst dich neu einloggen um den fortschritt für den Erfolg {achievement:11265}} zu sehen.'
+L['arcanist_lylandre_note'] = 'Um Sie anzugreifen musst du die Barrieren entfernen indem du die Kristalle anklickst.'
+L['gorgroth_note'] = 'Nutze den {object:Portalschlüssel} um {npc:110832} zu beschwören.'
+L['inside_temple_of_faladora'] = 'Im {location:Tempel von Fal\'adora}.'
+L['inside_falanaar_tunnels'] = 'In den {location:Falanaar Tunneln}.'
+L['ancient_mana_chunk'] = 'Uralter Manabrocken'
+L['dusty_coffer'] = 'Staubige Truhe'
+L['protected_treasure_chest'] = 'Geschützte Schatztruhe'
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------

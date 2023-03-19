@@ -1,3 +1,24 @@
+# v33
+
+* Added colors to the timers for tracked spawns.
+* Added the location of Bloodgullet for hunters.
+* Added more locations for dirt and tackleboxes.
+* Added numerous new chest types:
+  * Decay Covered Chest
+  * Dracthyr Supply Chest
+  * Frostbound Chest
+  * Icemaw Storage Cache
+  * Lightning Bound Chest
+  * Reed Chest
+  * Simmering Chest
+  * Titan Chest
+* Added option for 12-hour timer format instead of 24-hour.
+* Added recipe tracking support! (feast and primal storms initially)
+* Added timer for when the Aylaah Camp moves.
+* Fixed rare spawn-time tracking for some regions.
+* Updated item turn-ins for the Tasty Candy alchemy knowledge points.
+* Use a new method for getting NPC names from tooltips (thanks Voopie!)
+
 # v32
 
 * Added Clan Chests in the Ohnahran Plains.
