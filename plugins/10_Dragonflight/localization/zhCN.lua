@@ -369,7 +369,7 @@ L['lightning_bound_chest'] = '雷缚宝箱'
 L['options_icons_lightning_bound_chest'] = '雷缚宝箱'
 L['options_icons_lightning_bound_chest_desc'] = '显示 {object:雷缚宝箱} 可能的位置。'
 
-L['bloodgullet_note'] = nil
+L['bloodgullet_note'] = '在 {location:森步岗哨} 的帐篷中从 {object:觉醒精华} 获得 {spell:369277} 增益（1小时）可以看到这只灵魂兽。\n\n{note:只对野兽控制猎人可见。}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
