@@ -319,6 +319,7 @@ L['options_icons_forbidden_hoard_desc'] = 'Zeigt mögliche Positionen von {objec
 
 -- Froststone Primal Vault Storm
 L['froststone_vault_storm_label'] = 'Ursturm am Froststeingewölbe'
+L['gooey_snailemental_note'] = nil
 
 L['options_icons_froststone_vault_storm'] = 'Ursturm am Froststeingewölbe'
 L['options_icons_froststone_vault_storm_desc'] = 'Zeigt die Positionen und Belohnungen für {object:Ursturm am Froststeingewölbe} an.'

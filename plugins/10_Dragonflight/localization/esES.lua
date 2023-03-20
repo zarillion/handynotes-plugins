@@ -326,6 +326,7 @@ L['options_icons_forbidden_hoard_desc'] = 'Display possible locations of {object
 
 -- Froststone Primal Vault Storm
 L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm' -- 'Tormenta Primigenia de La Cámara Petraescarcha'
+L['gooey_snailemental_note'] = nil
 
 L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm' -- 'Tormenta Primigenia de La Cámara Petraescarcha'
 L['options_icons_froststone_vault_storm_desc'] = 'Display location and rewards for {object:Froststone Vault Primal Storm}.' -- 'Muestra dónde están y las recompensas de las {object:Tormentas Primigenias de La Cámara Petraescarcha}.'

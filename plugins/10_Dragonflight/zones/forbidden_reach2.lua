@@ -53,6 +53,7 @@ map.nodes[58174826] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58458}), -- Champion of the Forbidden Reach
+        Pet({item = 193364, id = 3291}), -- Scruffles
         Item({item = 204276}), -- Untapped Forbidden Knowledge
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
@@ -112,6 +113,7 @@ map.nodes[43736121] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58463}), -- Champion of the Forbidden Reach
+        Pet({item = 193374, id = 3293}), -- Ashenwing
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
@@ -195,6 +197,7 @@ warCreche.nodes[42958468] = Rare({
     parent = map.id,
     rewards = {
         Achievement({id = 17525, criteria = 58470}), -- Champion of the Forbidden Reach
+        Pet({item = 191930, id = 3261}), -- Wakyn
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
@@ -753,23 +756,28 @@ local FSV_PS = {
         Item({item = 199749, quest = 70753}), -- Primal Air Core
         Item({item = 199691, quest = 70723}), -- Primal Earth Core
         Item({item = 199750, quest = 70754}), -- Primal Fire Core
-        Item({item = 199748, quest = 70752}) -- Primal Water Core
+        Item({item = 199748, quest = 70752}), -- Primal Water Core
+        Mount({item = 192785, id = 197}) -- Gooey Snailemental -- TODO: REPLACE WILL REAL MOUNTID
     },
     [7408] = {
         Achievement({id = 17540, criteria = 58567}), -- Under the Weather
-        Spacer(), Item({item = 199749, quest = 70753}) -- Primal Air Core
+        Spacer(), Item({item = 199749, quest = 70753}), -- Primal Air Core
+        Mount({item = 192785, id = 197}) -- Gooey Snailemental -- TODO: REPLACE WILL REAL MOUNTID
     }, -- Air
     [7409] = {
         Achievement({id = 17540, criteria = 58568}), -- Under the Weather
-        Spacer(), Item({item = 199691, quest = 70723}) -- Primal Earth Core
+        Spacer(), Item({item = 199691, quest = 70723}), -- Primal Earth Core
+        Mount({item = 192785, id = 197}) -- Gooey Snailemental -- TODO: REPLACE WILL REAL MOUNTID
     }, -- Earth
     [7410] = {
         Achievement({id = 17540, criteria = 58569}), -- Under the Weather
-        Spacer(), Item({item = 199750, quest = 70754}) -- Primal Fire Core
+        Spacer(), Item({item = 199750, quest = 70754}), -- Primal Fire Core
+        Mount({item = 192785, id = 197}) -- Gooey Snailemental -- TODO: REPLACE WILL REAL MOUNTID
     }, -- Fire
     [7411] = {
         Achievement({id = 17540, criteria = 58570}), -- Under the Weather
-        Spacer(), Item({item = 199748, quest = 70752}) -- Primal Water Core
+        Spacer(), Item({item = 199748, quest = 70752}), -- Primal Water Core
+        Mount({item = 192785, id = 197}) -- Gooey Snailemental -- TODO: REPLACE WILL REAL MOUNTID
     } -- Water
 }
 
@@ -781,6 +789,7 @@ local FroststoneVaultPrimalStorm = Class('FroststoneVaultPrimalStorm',
         mapID = map.id,
         group = ns.groups.FROSTSTONE_VAULT_STORM,
         rewards = FSV_PS['all'],
+        note = L['gooey_snailemental_note'],
         IsEnabled = function(self)
             local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
             local possiblePOIs = self.areaPOIs
@@ -803,6 +812,10 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         local group = ns.groups.FROSTSTONE_VAULT_STORM
         if FSV_PS[self.areaPoiID] and group:GetDisplay(mapID) then
             local rewards = FSV_PS[self.areaPoiID]
+            if ns:GetOpt('show_notes') then
+                GameTooltip:AddLine(' ')
+                GameTooltip:AddLine(L['gooey_snailemental_note'])
+            end
             GameTooltip:AddLine(' ')
             for i, reward in ipairs(rewards) do
                 if reward:IsEnabled() then
@@ -925,6 +938,7 @@ local ZSKERA_VAULTS_REWARDS = {
         criteria = {id = 1, qty = true, suffix = L['door_buster_suffix']}
     }), -- Door Buster
     Pet({item = 193851, id = 3332}), -- Patos
+    Pet({item = 193853, id = 3331}), -- Emmah
     Pet({item = 193908, id = 3338}), -- Kobaldt
     Pet({item = 204079, id = 3476}), -- Gilded Mechafrog
     Pet({item = 193835, id = 3323}), -- Brightfeather
@@ -1325,22 +1339,22 @@ map.nodes[35615948] = MorqutVillageVendor({
 map.nodes[34216002] = MorqutVillageVendor({
     id = 200562,
     rewards = {
-        Pet({item = 193850, id = 3330, note = '25,000'}) -- Buckie
+        Pet({item = 193850, id = 3330, note = 'x25000'}) -- Buckie
     }
 }) -- Turik <Renown Envoy>
 
 map.nodes[34075997] = MorqutVillageVendor({
     id = 200564,
     rewards = {
-        Mount({item = 204382, id = 1467, note = '100,000'}) -- Noble Bruffalon
+        Mount({item = 204382, id = 1467, note = 'x100000'}) -- Noble Bruffalon
     }
 }) -- Storykeeper Ashekh <Renown Envoy>
 
 map.nodes[34015980] = MorqutVillageVendor({
     id = 200563,
     rewards = {
-        Item({item = 197626, quest = 69831, note = '2,500'}), -- Windbone Velocidrake: Exposed Finned Neck
-        Item({item = 197136, quest = 69337, note = '2,500'}) -- Highland Drake: Tapered Nose
+        Item({item = 197626, quest = 69831, note = 'x2500'}), -- Windbone Velocidrake: Exposed Finned Neck
+        Item({item = 197136, quest = 69337, note = 'x2500'}) -- Highland Drake: Tapered Nose
     }
 }) -- Kraxxus <Renown Envoy>
 

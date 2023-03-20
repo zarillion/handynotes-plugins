@@ -325,6 +325,7 @@ L['options_icons_forbidden_hoard_desc'] = 'Display possible locations of {object
 
 -- Froststone Primal Vault Storm
 L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm'
+L['gooey_snailemental_note'] = 'Combine x50 {item:204352} collected {object:Froststone Vault Primal Storm} bosses from to create {item:192785}.'
 
 L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm'
 L['options_icons_froststone_vault_storm_desc'] = 'Display location and rewards for {object:Froststone Vault Primal Storm}'

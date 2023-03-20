@@ -320,6 +320,7 @@ L['options_icons_forbidden_hoard_desc'] = nil
 
 -- Froststone Primal Vault Storm
 L['froststone_vault_storm_label'] = nil
+L['gooey_snailemental_note'] = nil
 
 L['options_icons_froststone_vault_storm'] = nil
 L['options_icons_froststone_vault_storm_desc'] = nil

@@ -326,6 +326,7 @@ L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles d
 
 -- Froststone Vault Primal Storm
 L['froststone_vault_storm_label'] = 'Tempête primordiale du caveau Givre-Pierre'
+L['gooey_snailemental_note'] = nil
 
 L['options_icons_froststone_vault_storm'] = 'Tempêtes primordiales du caveau Givre-Pierre'
 L['options_icons_froststone_vault_storm_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Tempêtes primordiales du caveau Givre-Pierre}'

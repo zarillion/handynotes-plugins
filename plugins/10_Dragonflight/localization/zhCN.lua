@@ -325,6 +325,7 @@ L['options_icons_forbidden_hoard_desc'] = '显示 {object:Forbidden Hoard} 宝�
 
 -- Froststone Primal Vault Storm
 L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm'
+L['gooey_snailemental_note'] = nil
 
 L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm'
 L['options_icons_froststone_vault_storm_desc'] = '显示 {object:Froststone Vault Primal Storm} 的位置和奖励。'
