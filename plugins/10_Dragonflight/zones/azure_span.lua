@@ -1183,7 +1183,7 @@ local DecayCoveredChest = Class('DecayCoveredChest', ns.node.Node, {
         Transmog({item = 201367, slot = L['cosmetic']}), -- Hollow Hunter's Sticker
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199066, quest = 70535}), -- Letter of Caution
-        Item({item = 199066, profession = 165}), -- Pattern: Gnoll Tent - Recipe
+        Recipe({item = 194312, profession = 165}), -- Pattern: Gnoll Tent
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 200071}), -- Sacred Tuskarr Totem
         Currency({id = 2003}) -- Dragon Isles Supplies
