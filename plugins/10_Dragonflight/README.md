@@ -38,7 +38,8 @@ In addition to the plugin settings menu found under *Interface > Addons > HandyN
 
 This plugin adds information to the map for the following zones:
 
-* Patch 10.0 - Azure Span, Ohn'ahran Plains, Thaldraszus, Waking Shores
+* Patch 10.0.0 - Azure Span, Ohn'ahran Plains, Thaldraszus, Waking Shores
+* Patch 10.0.7 - The Forbidden Reach
 
 In addition to rares, treasures and pet battles, this plugin also adds the following expansion or zone-specific items.
 
@@ -52,6 +53,10 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Bird locations for the [That's Pretty Neat!](https://www.wowhead.com/achievement=16446/thats-pretty-neat) achievement.
 * Legendary character locations for the [A Legendary Album](https://www.wowhead.com/achievement=16570/a-legendary-album) achievement.
 * Profession-specific treasure locations which grant knowledge for your crafting specializations.
+
+* Elusive Creatures for Skinners.
+* Wyrmhole Generator Signal Transmitters for Engineers.
+* Spirit Beasts for Beast Mastery Hunters.
 
 ### Waking Shores
 
@@ -73,7 +78,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 * Dragon Glyphs for the [Azure Span Glyph Hunter](https://www.wowhead.com/beta/achievement=16577/azure-span-glyph-hunter) achievement.
 * Flight path for the [Seeing Blue](https://www.wowhead.com/achievement=16581/seeing-blue) achievement.
-* Lay lines for the [Ley Line in the Span](https://www.wowhead.com/achievement=16638/ley-line-in-the-span) achievement.
+* Ley lines for the [Ley Line in the Span](https://www.wowhead.com/achievement=16638/ley-line-in-the-span) achievement.
 * Location for the [River Rapids Wrangler](https://www.wowhead.com/achievement=15889/river-rapids-wrangler) achievement.
 * Snowballs for the [Do You Wanna Build a Snowman?](https://www.wowhead.com/achievement=16474/do-you-wanna-build-a-snowman) achievement.
 
@@ -81,6 +86,14 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 * Dragon Glyphs for the [Thaldraszus Glyph Hunter](https://www.wowhead.com/beta/achievement=16578/thaldraszus-glyph-hunter) achievement.
 * Food and drinks for the [One of Everything, Please](https://www.wowhead.com/achievement=16621/one-of-everything-please) achievement.
+
+### The Forbidden Reach
+
+* Dragon Glyphs for the [Forbidden Reach Glyph Hunter](https://www.wowhead.com/achievement=17411/forbidden-reach-glyph-hunter) achievement.
+* Forbidden Hoards for the [Hoarder of the Forbidden Reach](https://www.wowhead.com/achievement=17528/hoarder-of-the-forbidden-reach) achievement.
+* Small Treasures for the [Treasures of the Forbidden Reach](https://www.wowhead.com/achievement=17526/treasures-of-the-forbidden-reach) achievement.
+* Books for the [Librarian of the Reach](https://www.wowhead.com/achievement=17530/librarian-of-the-reach) achievement.
+* Items for the [While We Were Sleeping](https://www.wowhead.com/achievement=17315/while-we-were-sleeping) achievement.
 
 ## Localization
 
