@@ -326,7 +326,7 @@ L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles d
 
 -- Froststone Vault Primal Storm
 L['froststone_vault_storm_label'] = 'Tempête primordiale du caveau Givre-Pierre'
-L['gooey_snailemental_note'] = nil
+L['gooey_snailemental_note'] = 'Combinez x50 {item:204352} récupérés sur les boss des {object:Tempêtes primordiales du caveau Givre-Pierre} pour créer la monture {item:192785}.'
 
 L['options_icons_froststone_vault_storm'] = 'Tempêtes primordiales du caveau Givre-Pierre'
 L['options_icons_froststone_vault_storm_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Tempêtes primordiales du caveau Givre-Pierre}'
