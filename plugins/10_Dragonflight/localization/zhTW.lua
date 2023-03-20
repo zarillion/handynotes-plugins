@@ -135,21 +135,21 @@ L['the_best_at_what_i_do_suffix'] = '首領已擊殺'
 L['options_icons_grand_hunts'] = '大狩獵'
 L['options_icons_grand_hunts_desc'] = '顯示 {object:大狩獵} 的位置和獎勵.'
 
-L['reed_chest'] = nil
-L['options_icons_reed_chest'] = nil
-L['options_icons_reed_chest_desc'] = nil
+L['reed_chest'] = '蘆葦箱子'
+L['options_icons_reed_chest'] = '蘆葦箱子'
+L['options_icons_reed_chest_desc'] = '顯示 {object:蘆葦箱子} 可能的位置.'
 
-L['dracthyr_supply_chest'] = nil
-L['options_icons_dracthyr_supply_chest'] = nil
-L['options_icons_dracthyr_supply_chest_desc'] = nil
+L['dracthyr_supply_chest'] = '半龍人補給箱'
+L['options_icons_dracthyr_supply_chest'] = '半龍人補給箱'
+L['options_icons_dracthyr_supply_chest_desc'] = '顯示 {object:半龍人補給箱} 可能的位置.'
 
-L['simmering_chest'] = nil
-L['options_icons_simmering_chest'] = nil
-L['options_icons_simmering_chest_desc'] = nil
+L['simmering_chest'] = '滾燙箱子'
+L['options_icons_simmering_chest'] = '滾燙箱子'
+L['options_icons_simmering_chest_desc'] = '顯示 {object:滾燙箱子} 可能的位置.'
 
-L['frostbound_chest'] = nil
-L['options_icons_frostbound_chest'] = nil
-L['options_icons_frostbound_chest_desc'] = nil
+L['frostbound_chest'] = '霜縛寶箱'
+L['options_icons_frostbound_chest'] = '霜縛寶箱'
+L['options_icons_frostbound_chest_desc'] = '顯示 {object:霜縛寶箱} 可能的位置.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -248,13 +248,13 @@ L['community_feast_label'] = '{spell:388961}'
 L['options_icons_community_feast'] = '{spell:388961}'
 L['options_icons_community_feast_desc'] = '顯示 {spell:388961} 的位置和獎勵.'
 
-L['decay_covered_chest'] = nil
-L['options_icons_decay_covered_chest'] = nil
-L['options_icons_decay_covered_chest_desc'] = nil
+L['decay_covered_chest'] = '覆滿腐敗的箱子'
+L['options_icons_decay_covered_chest'] = '覆滿腐敗的箱子'
+L['options_icons_decay_covered_chest_desc'] = '顯示 {object:覆滿腐敗的箱子} 可能的位置.'
 
-L['icemaw_storage_cache'] = nil
-L['options_icons_icemaw_storage_cache'] = nil
-L['options_icons_icemaw_storage_cache_desc'] = nil
+L['icemaw_storage_cache'] = '冰喉儲藏所'
+L['options_icons_icemaw_storage_cache'] = '冰喉儲藏所'
+L['options_icons_icemaw_storage_cache_desc'] = '顯示 {object:冰喉儲藏所} 可能的位置.'
 
 -------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN REACH -------------------------------
