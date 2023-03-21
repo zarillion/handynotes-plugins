@@ -1,3 +1,8 @@
+# v55
+
+* Added improvements from the Dragonflight plugin.
+* Updated TOC for 10.0.7
+
 # v54
 
 * Added recipe tracking support!
