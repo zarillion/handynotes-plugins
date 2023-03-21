@@ -208,7 +208,7 @@ map.nodes[36731223] = Rare({
     quest = 73366,
     rewards = {
         Achievement({id = 17525, criteria = 58471}), -- Champion of the Forbidden Reach
-        Mount({item = 192772, id = 197}), -- Ancient Salamanther -- TODO: REPLACE WILL REAL MOUNTID
+        Mount({item = 192772, id = 1619}), -- Ancient Salamanther
         Item({item = 202196}), -- Zskera Vault Key
         DC.WindborneVelocidrake.ShriekerPattern, Currency({id = 2118}) -- Elemental Overflow
     }
@@ -1116,7 +1116,7 @@ map.nodes[30267800] = MossyMammoth()
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
 -------------------------------------------------------------------------------
 
-map.nodes[27945985] = Flag({quest = 73696})
+-- map.nodes[27945985] = Flag({quest = 73696}) -- Removed on retail
 map.nodes[54573460] = Flag({quest = 73699})
 map.nodes[36903792] = Flag({quest = 73700})
 map.nodes[76285343] = Flag({quest = 73702})
