@@ -82,6 +82,10 @@ L['follower_type_follower'] = '追随者'
 L['follower_type_champion'] = '勇士'
 L['follower_type_companion'] = '伙伴'
 
+L['rep_honored'] = '尊敬'
+L['rep_revered'] = '崇敬'
+L['rep_exalted'] = '崇拜'
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
@@ -89,6 +93,7 @@ L['follower_type_companion'] = '伙伴'
 L['context_menu_set_waypoint'] = '设置地图路径点'
 L['context_menu_add_tomtom'] = '添加到 TomTom'
 L['context_menu_add_group_tomtom'] = '添加组到 TomTom'
+L['context_menu_add_focus_group_tomtom'] = '添加相关项到 TomTom'
 L['context_menu_hide_node'] = '隐藏此项'
 L['context_menu_restore_hidden_nodes'] = '恢复所有隐藏项'
 

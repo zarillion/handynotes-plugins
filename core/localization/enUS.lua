@@ -82,6 +82,10 @@ L['follower_type_follower'] = 'Follower'
 L['follower_type_champion'] = 'Champion'
 L['follower_type_companion'] = 'Companion'
 
+L['rep_honored'] = 'Honored'
+L['rep_revered'] = 'Revered'
+L['rep_exalted'] = 'Exalted'
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
@@ -89,6 +93,7 @@ L['follower_type_companion'] = 'Companion'
 L['context_menu_set_waypoint'] = 'Set map waypoint'
 L['context_menu_add_tomtom'] = 'Add to TomTom'
 L['context_menu_add_group_tomtom'] = 'Add group to TomTom'
+L['context_menu_add_focus_group_tomtom'] = 'Add related nodes to TomTom'
 L['context_menu_hide_node'] = 'Hide this node'
 L['context_menu_restore_hidden_nodes'] = 'Restore all hidden nodes'
 

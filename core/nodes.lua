@@ -215,6 +215,7 @@ function Node:Prepare()
 
     ns.PrepareLinks(self.label)
     ns.PrepareLinks(self.sublabel)
+    ns.PrepareLinks(self.location)
     ns.PrepareLinks(self.note)
 
     if self.requires then
@@ -300,10 +301,19 @@ function Node:Render(tooltip, focusable)
         end
     end
 
+    -- additional text for the node to describe where the object or
+    -- rare can be found
+    if self.location and ns:GetOpt('show_notes') then
+        if self.requires or self.sublabel then
+            GameTooltip_AddBlankLineToTooltip(tooltip)
+        end
+        tooltip:AddLine(ns.RenderLinks(self.location), 1, 1, 1, true)
+    end
+
     -- additional text for the node to describe how to interact with the
     -- object or summon the rare
     if self.note and ns:GetOpt('show_notes') then
-        if self.requires or self.sublabel then
+        if self.requires or self.sublabel or self.location then
             GameTooltip_AddBlankLineToTooltip(tooltip)
         end
         tooltip:AddLine(ns.RenderLinks(self.note), 1, 1, 1, true)

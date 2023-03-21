@@ -82,6 +82,10 @@ L['follower_type_follower'] = '추종자'
 L['follower_type_champion'] = '영웅'
 L['follower_type_companion'] = '동료'
 
+L['rep_honored'] = nil
+L['rep_revered'] = nil
+L['rep_exalted'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
@@ -89,6 +93,7 @@ L['follower_type_companion'] = '동료'
 L['context_menu_set_waypoint'] = '지도 비행경로 설정'
 L['context_menu_add_tomtom'] = 'TomTom에 추가'
 L['context_menu_add_group_tomtom'] = nil
+L['context_menu_add_focus_group_tomtom'] = nil
 L['context_menu_hide_node'] = '이 지점 숨김'
 L['context_menu_restore_hidden_nodes'] = '모든 숨긴 지점 복구'
 

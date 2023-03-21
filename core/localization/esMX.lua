@@ -82,6 +82,10 @@ L['follower_type_follower'] = nil
 L['follower_type_champion'] = nil
 L['follower_type_companion'] = nil
 
+L['rep_honored'] = nil
+L['rep_revered'] = nil
+L['rep_exalted'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
@@ -89,6 +93,7 @@ L['follower_type_companion'] = nil
 L['context_menu_set_waypoint'] = nil
 L['context_menu_add_tomtom'] = 'Agregar a TomTom'
 L['context_menu_add_group_tomtom'] = nil
+L['context_menu_add_focus_group_tomtom'] = nil
 L['context_menu_hide_node'] = 'Ocultar este nodo'
 L['context_menu_restore_hidden_nodes'] = 'Restaurar todos los nodos ocultos'
 

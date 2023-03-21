@@ -18,7 +18,7 @@ L['options_icons_profession_treasures_desc'] = 'Afficher les emplacements des tr
 
 L['dragon_glyph'] = 'Dracoglyphe'
 L['options_icons_dragon_glyph'] = 'Dracoglyphes'
-L['options_icons_dragon_glyph_desc'] = 'Afficher les emplacements des 48 dracoglyphes.'
+L['options_icons_dragon_glyph_desc'] = 'Afficher les emplacements des 56 dracoglyphes.'
 
 L['dragonscale_expedition_flag'] = 'Drapeau de l\'Expédition du Dracaret'
 L['flags_placed'] = 'drapeaux placés'
@@ -257,8 +257,12 @@ L['icemaw_storage_cache'] = 'Cache glacegueule'
 L['options_icons_icemaw_storage_cache'] = 'Cache glacegueule'
 L['options_icons_icemaw_storage_cache_desc'] = 'Afficher les emplacements possibles des {object:Caches glacegueules}.'
 
+L['kazzi_note_start'] = 'Échangez vos {item:202017} et {item:202018} contre des objets de transmogrification, des personnalisations de drake, une mascotte et plus encore.'
+L['kazzi_note_item'] = 'Vous possédez actuellement %s {item:%s}.'
+L['kazzi_achievement_suffix'] = 'rang dans le dialecte des Crins-d’hiver'
+
 -------------------------------------------------------------------------------
-------------------------------- FORBIDDEN REACH -------------------------------
+------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
 
 L['bag_of_enchanted_wind'] = 'Sac de vents enchantés'
@@ -268,6 +272,117 @@ L['lost_draconic_hourglass'] = 'Sablier draconique perdu'
 L['suspicious_bottle_treasure'] = 'Bouteille suspecte'
 L['mysterious_wand'] = 'Baguette mystérieuse'
 L['mysterious_wand_note'] = 'Ramassez la {object:Clé en cristal} et placez-la dans le {object:Focalisateur en cristal}.'
+
+-------------------------------------------------------------------------------
+------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
+-------------------------------------------------------------------------------
+
+-- Locations
+L['in_dragonskull_island'] = 'Sur l\'{location:Île du Crâne-de-Dragon}.'
+L['in_froststone_vault'] = 'À l\'intérieur du {location:Caveau Givre-Pierre}'
+L['in_the_high_creche'] = 'À l\'intérieur du {location:Haut Couvoir}'
+L['in_the_lost_atheneum'] = 'À l\'intérieur de l\'{location:Athénée perdu}'
+L['in_the_siege_creche'] = 'À l\'intérieur du {location:Couvoir du Siège}'
+L['in_the_support_creche'] = 'À l\'intérieur du {location:Couvoir Auxiliaire}'
+L['in_the_war_creche'] = 'Au fond du {location:Couvoir Martial}'
+L['in_zskera_vaults'] = 'À l\'intérieur des {location:Caveaux de Zskera}'
+
+-- Rares
+L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751}({dot:Green}) pour vous soigner du gaz toxique dans le {location:Couvoir Auxiliaire}.'
+L['mad_eye_carrey_note'] = '{npc:201181} se trouve dans un groupe avec la {npc:201184} et la {npc:201182}'
+L['wymslayer_angvardi_note'] = '{npc:201013} fait équipe avec {npc:201310}'
+L['loot_specialist_note'] = '{npc:203353} apparaît avec les sorts {spell:406143} et {spell:132653} et s\'enfuira s\'il est attaqué.\n\n{note:Tuez-le rapidement avant qu\'il ne finisse de lancer {spell:406141}.}'
+
+-- Profession Rares
+L['profession_required'] = '{note:Nécessite un joueur avec le métier %s.}'
+L['pr_crafting_note'] = 'Fabriquez l\'objet {item:%s} grâce au composant {item:%s} et interagissez avec l\'objet {object:%s} pour invoquer le rare.'
+L['pr_gathering_note'] = 'Utilisez le composant {item:%s} pour interagir avec l\'objet {object:%s} et invoquer le rare.'
+L['pr_recipe_note'] = 'La recette {item:%s} peut être achetée à la {npc:202445} pour 10x {item:190456}.'
+
+L['pr_awakened_soil'] = 'Sol éveillé'
+L['pr_book_of_arcane_entities'] = 'Livre des entités arcaniques'
+L['pr_damaged_buzzspire'] = 'Bigodule 505 endommagé'
+L['pr_empty_crab_trap'] = 'Casier à crabes vide'
+L['pr_farescale_shrine'] = 'Sanctuaire Longuécaille'
+L['pr_raw_argali_pelts'] = 'Toisons d\'argali brutes'
+L['pr_resonating_crystal'] = 'Cristal résonnant'
+L['pr_rumbling_deposit'] = 'Draconium grondant'
+L['pr_spellsworn_ward'] = 'Protection sorcelige'
+L['pr_spiceless_stew'] = 'Ragoût sans épices'
+L['pr_tuskarr_kite_post'] = 'Poteau à cerfs-volants roharts'
+L['pr_tuskarr_tanning_rack'] = 'Chevalet de tannage rohart'
+L['pr_volatile_brazier'] = 'Brasero volatil'
+
+-- Treasures
+L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
+
+-- Forbidden Hoard
+L['hoarder_of_the_forbidden_reach_suffix'] = 'Petits trésors ouverts'
+L['forbidden_spoils_suffix'] = 'Provisions interdites ouvertes'
+L['forbidden_hoard_label'] = 'Provisions interdites'
+
+L['options_icons_forbidden_hoard'] = 'Provisions interdites'
+L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles des coffres de {object:Provisions interdites}.'
+
+-- Froststone Vault Primal Storm
+L['froststone_vault_storm_label'] = 'Tempête primordiale du caveau Givre-Pierre'
+L['gooey_snailemental_note'] = 'Combinez x50 {item:204352} récupérés sur les boss des {object:Tempêtes primordiales du caveau Givre-Pierre} pour créer la monture {item:192785}.'
+
+L['options_icons_froststone_vault_storm'] = 'Tempêtes primordiales du caveau Givre-Pierre'
+L['options_icons_froststone_vault_storm_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Tempêtes primordiales du caveau Givre-Pierre}'
+
+-- Small Treasures
+L['small_treasures_label'] = 'Petit Trésor'
+L['small_treasures_note'] = 'Les petits trésors sont répartis entre les points d\'apparition.\n\nAchetez un {item:204558} à l\'{npc:200566} au {location:Village de Morqut} pour recevoir le buff {spell:405637} qui vous permet de voir les petits trésors sur la mini-carte pendant 60 minutes.'
+
+L['options_icons_small_treasures'] = 'Petits Trésors'
+L['options_icons_small_treasures_desc'] = 'Afficher les emplacements possibles des petits trésors.'
+
+-- Zskera Vaults
+L['zskera_vaults_label'] = 'Caveaux de Zskera'
+L['zskera_vaults_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans les {location:Caveaux de Zskera}.'
+L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des Clés des Caveaux de Zskera.'
+
+L['recipe_rat_note_1'] = 'Parlez au {npc:202982} dans les {location:Caveaux de Zskera} et vous recevrez dans vos sacs le {item:202252}.'
+L['recipe_rat_note_2'] = 'Interagissez avec le {item:202252} pour recevoir des {item:204340}. {note:(5 minutes de recharge)}'
+L['recipe_rat_note_3'] = 'Une fois que vous avez 30x {item:204340}, combinez les fragments pour obtenir la recette.'
+L['recipe_rat_note_4'] = '{note:Ce rat adore le fromage et consommera un {item:3927} toutes les trois minutes environ. Planifiez en conséquence !}'
+
+L['mm_start_note'] = 'Récupérez et combinez divers objets trouvés dans les {location:Caveaux de Zskera}.'
+L['mm_status_note'] = 'Combinez les objets suivants :\n{item:%s}\n{item:%s}'
+
+L['options_icons_zskera_vaults'] = 'Caveaux de Zskera'
+L['options_icons_zskera_vaults_desc'] = 'Afficher les récompenses pour les {location:Caveaux de Zskera}.'
+
+-- Librarian of the Reach
+L['confiscated_journal_label'] = 'Journal confisqué'
+L['farscale_manifesto_label'] = 'Manifeste longuécaille'
+L['lost_expeditions_notes_label'] = 'Notes d\'expédition'
+L['pirate_proclamation_label'] = 'Proclamation pirate'
+L['spellsworn_missive_label'] = 'Missive Sorcelige'
+L['vrykul_tome_label'] = 'Tome vrykule'
+
+L['library_note'] = 'Ouvrez l\'objet {object:%s} et récupérez le livre {item:%s}.'
+
+L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
+L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}. {note:Certains livres sont dans les {location:Caveaux de Zskera}}.'
+
+-- Scroll Hunter
+L['scroll_hunter_suffix'] = 'trésors trouvés à partir des Parchemins Scellés'
+L['scroll_hunter_note'] = 'Récupérez des parchemins scellés sur divers rares et trésors aux {location:Confins Interdits}.\n\nLe fait d\'ouvrir un {item:%s} fera apparaître un X sur la carte qui donnera l\'objet {item:%s} conférant de la réputation avec la faction {faction:%s}.'
+
+L['options_icons_scroll_hunter'] = '{achievement:17532}'
+L['options_icons_scroll_hunter_desc'] = 'Afficher les emplacements des récompenses des parchemins pour le haut-fait {achievement:17532}.'
+
+-- While We Were Sleeping
+L['options_icons_scalecommander_item'] = '{achievement:17315}'
+L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des objets pour le haut-fait {achievement:17315}. {note:Certains objets sont dans les {location:Caveaux de Zskera}}.'
+
+-- Misc
+L['spellsworn_gateway'] = 'Porte sorcelige'
+L['gemstone_of_return'] = 'Gemme de retour'
+
+L['morqut_village_vendor_note'] = 'Échangez de l\'or ou des {currency:2118} contre des montures, mascottes, objets de transmogrification, personnalisations de drake, recettes et d\'autres objets utiles.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

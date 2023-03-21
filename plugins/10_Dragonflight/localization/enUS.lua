@@ -17,7 +17,7 @@ L['options_icons_profession_treasures_desc'] = 'Display locations of treasures w
 
 L['dragon_glyph'] = 'Dragon Glyph'
 L['options_icons_dragon_glyph'] = 'Dragon Glyphs'
-L['options_icons_dragon_glyph_desc'] = 'Display the location of all 48 dragon glyphs.'
+L['options_icons_dragon_glyph_desc'] = 'Display the location of all 56 dragon glyphs.'
 
 L['dragonscale_expedition_flag'] = 'Dragonscale Expedition Flag'
 L['flags_placed'] = 'flags placed'
@@ -256,8 +256,12 @@ L['icemaw_storage_cache'] = 'Icemaw Storage Cache'
 L['options_icons_icemaw_storage_cache'] = 'Icemaw Storage Cache'
 L['options_icons_icemaw_storage_cache_desc'] = 'Display possible locations of {object:Icemaw Storage Caches}.'
 
+L['kazzi_note_start'] = 'Exchange {item:202017} and {item:202018} for transmog, drake customization, a pet, and more.'
+L['kazzi_note_item'] = 'You currently have %s {item:%s}.'
+L['kazzi_achievement_suffix'] = 'rank in the Winterpelt language'
+
 -------------------------------------------------------------------------------
-------------------------------- FORBIDDEN REACH -------------------------------
+------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
 
 L['bag_of_enchanted_wind'] = 'Bag of Enchanted Wind'
@@ -267,6 +271,117 @@ L['lost_draconic_hourglass'] = 'Lost Draconic Hourglass'
 L['suspicious_bottle_treasure'] = 'Suspicious Bottle'
 L['mysterious_wand'] = 'Mysterious Wand'
 L['mysterious_wand_note'] = 'Pick up the {object:Crystal Key} and place it into the {object:Crystal Focus}.'
+
+-------------------------------------------------------------------------------
+------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
+-------------------------------------------------------------------------------
+
+-- Locations
+L['in_dragonskull_island'] = 'Within {location:Dragonskull Island}.'
+L['in_froststone_vault'] = 'Within {location:Froststone Vault}.'
+L['in_the_high_creche'] = 'Within {location:The High Creche}'
+L['in_the_lost_atheneum'] = 'Within {location:The Lost Atheneum}.'
+L['in_the_siege_creche'] = 'Within {location:The Siege Creche}.'
+L['in_the_support_creche'] = 'Within {location:The Support Creche}.'
+L['in_the_war_creche'] = 'Deep within {location:The War Creche}'
+L['in_zskera_vaults'] = 'Within {location:Zskera Vaults}.'
+
+-- Rares
+L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal from the poisonous gas within {location:The Support Creche}.'
+L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}'
+L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}'
+L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {spell:132653} and will run away when attacked.\n\n{note:Kill him quickly before he finishes casting {spell:406141}.}'
+
+-- Profession Rares
+L['profession_required'] = '{note:Requires a player with the %s profession.}'
+L['pr_crafting_note'] = 'Craft {item:%s} with {item:%s} and interact with {object:%s} to summon the rare.'
+L['pr_gathering_note'] = 'Use {item:%s} to interact with {object:%s} to summon the rare.'
+L['pr_recipe_note'] = 'The recipe {item:%s} can be purchased from {npc:202445} for 10 {item:190456}.'
+
+L['pr_awakened_soil'] = 'Awakened Soil'
+L['pr_book_of_arcane_entities'] = 'Book of Arcane Entities'
+L['pr_damaged_buzzspire'] = 'Damaged Buzzspire 505'
+L['pr_empty_crab_trap'] = 'Empty Crab Trap'
+L['pr_farescale_shrine'] = 'Farscale Shrine'
+L['pr_raw_argali_pelts'] = 'Raw Argali Pelts'
+L['pr_resonating_crystal'] = 'Resonating Crystal'
+L['pr_rumbling_deposit'] = 'Rumbling Deposit'
+L['pr_spellsworn_ward'] = 'Spellsworn Ward'
+L['pr_spiceless_stew'] = 'Spiceless Stew'
+L['pr_tuskarr_kite_post'] = 'Tuskarr Kite Post'
+L['pr_tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack'
+L['pr_volatile_brazier'] = 'Volatile Brazier'
+
+-- Treasures
+L['storm_bound_chest_label'] = 'Storm-Bound Chest'
+
+-- Forbidden Hoard
+L['hoarder_of_the_forbidden_reach_suffix'] = 'small treasures opened'
+L['forbidden_spoils_suffix'] = 'Forbidden Hoards opened'
+L['forbidden_hoard_label'] = 'Forbidden Hoard'
+
+L['options_icons_forbidden_hoard'] = 'Forbidden Hoard'
+L['options_icons_forbidden_hoard_desc'] = 'Display possible locations of {object:Forbidden Hoard} chests.'
+
+-- Froststone Primal Vault Storm
+L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm'
+L['gooey_snailemental_note'] = 'Combine x50 {item:204352} collected from {object:Froststone Vault Primal Storm} bosses to create {item:192785}.'
+
+L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm'
+L['options_icons_froststone_vault_storm_desc'] = 'Display location and rewards for {object:Froststone Vault Primal Storm}'
+
+-- Small Treasures
+L['small_treasures_label'] = 'Small Treasure'
+L['small_treasures_note'] = 'Small treasures are shared between spawn points.\n\nPurchase {item:204558} from {npc:200566} at {location:Morqut Village} to receive the {spell:405637} buff which allows you to see small treasures on the minimap for 60 minutes.'
+
+L['options_icons_small_treasures'] = 'Small Treasures'
+L['options_icons_small_treasures_desc'] = 'Display possible locations for small treasures.'
+
+-- Zskera Vaults
+L['zskera_vaults_label'] = 'Zskera Vaults'
+L['zskera_vaults_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vaults}.'
+L['door_buster_suffix'] = 'Doors unlocked using Zskera Vault keys'
+
+L['recipe_rat_note_1'] = 'Speak to the {npc:202982} within {location:Zskera Vault} and {item:202252} will enter your bags.'
+L['recipe_rat_note_2'] = 'Interact with {item:202252} to receive {item:204340}. {note:(5 minute cooldown)}'
+L['recipe_rat_note_3'] = 'Once you have 30x {item:204340} combine the scraps to receive the recipe.'
+L['recipe_rat_note_4'] = '{note:This rat loves cheese and will consume one {item:3927} roughly every three minutes. Plan accordingly!}'
+
+L['mm_start_note'] = 'Collect and combine various items found within {location:Zskera Vaults}.'
+L['mm_status_note'] = 'Combine the following items:\n{item:%s}\n{item:%s}'
+
+L['options_icons_zskera_vaults'] = 'Zskera Vaults'
+L['options_icons_zskera_vaults_desc'] = 'Display rewards for {location:Zskera Vaults}.'
+
+-- Librarian of the Reach
+L['confiscated_journal_label'] = 'Confiscated Journal'
+L['farscale_manifesto_label'] = 'Farscale Manifesto'
+L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
+L['pirate_proclamation_label'] = 'Pirate Proclamation'
+L['spellsworn_missive_label'] = 'Spellsworn Missive'
+L['vrykul_tome_label'] = 'Vrykul Tome'
+
+L['library_note'] = 'Open the {object:%s} and loot the {item:%s}.'
+
+L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
+L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}. {note:Some books are in {location:Zskera Vaults}}.'
+
+-- Scroll Hunter
+L['scroll_hunter_suffix'] = 'treasures found from Sealed Scrolls'
+L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal an X on the map which will offer a {item:%s} which provides reputation for {faction:%s}.'
+
+L['options_icons_scroll_hunter'] = '{achievement:17532}'
+L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532}.'
+
+-- While We Were Sleeping
+L['options_icons_scalecommander_item'] = '{achievement:17315}'
+L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achievement:17315}. {note:Some item are in {location:Zskera Vaults}}.'
+
+-- Misc
+L['spellsworn_gateway'] = 'Spellsworn Gateway'
+L['gemstone_of_return'] = 'Gemstone of Return'
+
+L['morqut_village_vendor_note'] = 'Exchange {currency:2118} or gold for mounts, pets, transmog, drake customization, recipes and other useful items.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

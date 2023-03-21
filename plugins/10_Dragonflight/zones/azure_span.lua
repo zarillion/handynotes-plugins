@@ -39,6 +39,8 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -1975,5 +1977,56 @@ map.nodes[12404920] = NPC({
         POI({12814934}) -- Entrance
     }
 }) -- Elder Poa (Iskaara Tuskarr Reputation)
+
+local Kazzi = Class('Kazzi', Collectible, {
+    id = 201105,
+    icon = 1535070,
+    requires = {ns.requirement.Quest(72547)}, -- Academic Acquisitions
+    rewards = {
+        Toy({item = 202283, note = L['rep_revered']}), -- Reading Glasses
+        Toy({item = 202253, note = L['rep_exalted']}), -- Primal Stave of Claw and Fur
+        Achievement({
+            id = 17427,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['kazzi_achievement_suffix']
+            }
+        }), -- Winterpelt Conversationalist
+        Spacer(), Section(L['rep_honored']),
+        -- Transmog({item = 2039995, slot = L['cosmetic'], note = '75'}), -- Winter Pelt Cloak
+        Transmog({item = 204354, slot = L['cosmetic'], note = '500'}), -- Hollowed Furbolg Food Pack
+        -- NOT IN DC
+        Item({item = 202273, quest = nil, note = '50'}), -- Renewed Proto-Drake: Stubby Snout
+        Item({item = 197626, quest = 69831, note = '50'}), -- Windborne Velocidrake: Exposed Finned Back
+        Item({item = 197129, quest = 69330, note = '50'}), -- Highland Drake: Sleek Horns
+        Item({item = 197006, quest = 69206, note = '50'}), -- Cliffside Wylderdrake: Plated Nose
+        Spacer(), Section(L['rep_revered']),
+        Item({item = 202287, note = '100'}), -- Paw-Made Winterpelt Reagent Bag
+        Transmog({item = 204355, slot = L['cosmetic'], note = '500'}), -- Hollowed Winterpelt Food Pack
+        Toy({item = 203734, note = '200'}), -- Snow Blanket
+        -- NOT IN DC
+        Item({item = 202279, quest = nil, note = '100'}), -- Renewed Proto-Drake: Malevolent Horns
+        Item({item = 197629, quest = 69835, note = '100'}), -- Windborne Velocidrake: Spiked Neck
+        Item({item = 197102, quest = 69303, note = '100'}), -- Highland Drake: Horned Chin
+        Item({item = 196995, quest = 69195, note = '100'}), -- Cliffside Wylderdrake: Spiked Horns
+        Spacer(), Section(L['rep_exalted']),
+        Pet({item = 202255, id = 3427, note = '150'}) -- Driftling
+    },
+    pois = {
+        POI({66921271}) -- Sonova Snowden
+    }
+}) -- Kazzi <Winterpelt Furbolg Quartermaster>
+
+function Kazzi.getters:note()
+    local itemOne = GetItemCount(202017, true) -- Liberated Furbolg Artifact
+    local itemTwo = GetItemCount(202018, true) -- Intact Scribe Stick
+    local note = L['kazzi_note_start'] .. '\n\n'
+    note = note .. format(L['kazzi_note_item'], itemOne, '202017') .. '\n'
+    note = note .. format(L['kazzi_note_item'], itemTwo, '202018')
+    return note
+end
+
+map.nodes[65801269] = Kazzi()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

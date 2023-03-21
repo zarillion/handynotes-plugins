@@ -17,7 +17,7 @@ L['options_icons_profession_treasures_desc'] = '显示给予专业知识的宝�
 
 L['dragon_glyph'] = '巨龙魔符'
 L['options_icons_dragon_glyph'] = '巨龙魔符'
-L['options_icons_dragon_glyph_desc'] = '显示全部48个巨龙魔符的位置。'
+L['options_icons_dragon_glyph_desc'] = '显示全部56个巨龙魔符的位置。'
 
 L['dragonscale_expedition_flag'] = '龙鳞探险队旗帜'
 L['flags_placed'] = '已插旗帜'
@@ -119,7 +119,7 @@ L['elemental_overflow_obtained_suffix'] = '元素涌流已获得'
 L['empowered_mobs_killed_suffix'] = '强化怪物已击杀'
 
 L['elemental_storm_mythressa_note_start'] = '用 {currency:2118} 换取装备、宠物和坐骑。'
-L['elemental_storm_mythressa_note_end'] = '目前有 %s {currency:2118}。'
+L['elemental_storm_mythressa_note_end'] = '当前有 %s {currency:2118}。'
 
 L['options_icons_elemental_storm'] = '元素风暴'
 L['options_icons_elemental_storm_desc'] = '显示元素风暴奖励。'
@@ -256,8 +256,12 @@ L['icemaw_storage_cache'] = '冰喉储存箱'
 L['options_icons_icemaw_storage_cache'] = '冰喉储存箱'
 L['options_icons_icemaw_storage_cache_desc'] = '显示 {object:冰喉储存箱} 可能的位置。'
 
+L['kazzi_note_start'] = '用 {item:202017} 和 {item:202018} 换取幻化、幼龙定制、宠物等。'
+L['kazzi_note_item'] = '当前有 %s {item:%s}。'
+L['kazzi_achievement_suffix'] = '冬裘语言等级'
+
 -------------------------------------------------------------------------------
-------------------------------- FORBIDDEN REACH -------------------------------
+------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
 
 L['bag_of_enchanted_wind'] = '魔风之袋'
@@ -267,6 +271,117 @@ L['lost_draconic_hourglass'] = '失落的巨龙沙漏'
 L['suspicious_bottle_treasure'] = '可疑的瓶子'
 L['mysterious_wand'] = '神秘的魔杖'
 L['mysterious_wand_note'] = '拾取 {object:水晶钥匙} 并将其放入 {object:水晶法器}。'
+
+-------------------------------------------------------------------------------
+------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
+-------------------------------------------------------------------------------
+
+-- Locations
+L['in_dragonskull_island'] = '位于 {location:龙颅岛}。'
+L['in_froststone_vault'] = '位于 {location:霜石宝库}。'
+L['in_the_high_creche'] = '位于 {location:至高育幼所}。'
+L['in_the_lost_atheneum'] = '位于 {location:失落图书馆}。'
+L['in_the_siege_creche'] = '位于 {location:攻城育幼所}。'
+L['in_the_support_creche'] = '位于 {location:支援育幼所}。'
+L['in_the_war_creche'] = '位于 {location:至高育幼所} 深处。'
+L['in_zskera_vaults'] = '位于 {location:兹斯克拉宝库}。'
+
+-- Rares
+L['duzalgor_note'] = '收集一瓶 {spell:400751}（{dot:Green}）来治疗 {location:支援育幼所} 内的有毒气体。'
+L['mad_eye_carrey_note'] = '{npc:201181} 与 {npc:201184} 和 {npc:201182} 在一组。'
+L['wymslayer_angvardi_note'] = '{npc:201013} 和 {npc:201310} 为伴。'
+L['loot_specialist_note'] = '{npc:203353} 出现时有 {spell:406143} 和 {spell:132653} 并且会在受到攻击时逃跑。\n\n{note:在他施放 {spell:406141} 完之前快速击杀他。}'
+
+-- Profession Rares
+L['profession_required'] = '{note:需要 %s 专业。}'
+L['pr_crafting_note'] = '用 {item:%2$s} 制作 {item:%1$s} 并与 {object:%s} 互动召唤稀有。'
+L['pr_gathering_note'] = '使用 {item:%s} 与 {object:%s} 互动召唤稀有。'
+L['pr_recipe_note'] = '配方 {item:%s} 可以用10个 {item:190456} 从 {npc:202445} 购买。'
+
+L['pr_awakened_soil'] = 'Awakened Soil'
+L['pr_book_of_arcane_entities'] = 'Book of Arcane Entities'
+L['pr_damaged_buzzspire'] = 'Damaged Buzzspire 505'
+L['pr_empty_crab_trap'] = 'Empty Crab Trap'
+L['pr_farescale_shrine'] = 'Farscale Shrine'
+L['pr_raw_argali_pelts'] = 'Raw Argali Pelts'
+L['pr_resonating_crystal'] = 'Resonating Crystal'
+L['pr_rumbling_deposit'] = 'Rumbling Deposit'
+L['pr_spellsworn_ward'] = 'Spellsworn Ward'
+L['pr_spiceless_stew'] = 'Spiceless Stew'
+L['pr_tuskarr_kite_post'] = 'Tuskarr Kite Post'
+L['pr_tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack'
+L['pr_volatile_brazier'] = 'Volatile Brazier'
+
+-- Treasures
+L['storm_bound_chest_label'] = 'Storm-Bound Chest'
+
+-- Forbidden Hoard
+L['hoarder_of_the_forbidden_reach_suffix'] = '已打开小宝藏'
+L['forbidden_spoils_suffix'] = '已打开 Forbidden Hoards'
+L['forbidden_hoard_label'] = 'Forbidden Hoard'
+
+L['options_icons_forbidden_hoard'] = 'Forbidden Hoard'
+L['options_icons_forbidden_hoard_desc'] = '显示 {object:Forbidden Hoard} 宝箱可能的位置。'
+
+-- Froststone Primal Vault Storm
+L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm'
+L['gooey_snailemental_note'] = nil
+
+L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm'
+L['options_icons_froststone_vault_storm_desc'] = '显示 {object:Froststone Vault Primal Storm} 的位置和奖励。'
+
+-- Small Treasures
+L['small_treasures_label'] = '小宝藏'
+L['small_treasures_note'] = '刷新点之间共享小宝藏。\n\n从 {location:Morqut Village} 的 {npc:200566} 购买 {item:204558} 以获得{spell:405637} 增益，可以在小地图上看到小宝藏60分钟。'
+
+L['options_icons_small_treasures'] = '小宝藏'
+L['options_icons_small_treasures_desc'] = '显示小宝藏可能的位置。'
+
+-- Zskera Vaults
+L['zskera_vaults_label'] = '兹斯克拉宝库'
+L['zskera_vaults_note'] = '从各种稀有物品和宝箱中收集 {item:202196}，打开 {location:兹斯克拉宝库} 内的大门。'
+L['door_buster_suffix'] = '使用兹斯克拉宝库钥匙解锁的门'
+
+L['recipe_rat_note_1'] = '与 {location:Zskera Vault} 中的 {npc:202982} 交谈，{item:202252} 会进入包内。'
+L['recipe_rat_note_2'] = '与 {item:202252} 互动以收到 {item:204340}。{note:（5分钟冷却时间）}'
+L['recipe_rat_note_3'] = '一旦有30个 {item:204340} 组合废料来收到配方。'
+L['recipe_rat_note_4'] = '{note:这只老鼠喜欢奶酪并且大约每三分钟就会吃掉一个 {item:3927}。做好计划！}'
+
+L['mm_start_note'] = '收集并组合从 {location:兹斯克拉宝库} 中找到的各种物品。'
+L['mm_status_note'] = '组合以下物品：\n{item:%s}\n{item:%s}'
+
+L['options_icons_zskera_vaults'] = '兹斯克拉宝库'
+L['options_icons_zskera_vaults_desc'] = '显示 {location:兹斯克拉宝库} 的奖励。'
+
+-- Librarian of the Reach
+L['confiscated_journal_label'] = 'Confiscated Journal'
+L['farscale_manifesto_label'] = 'Farscale Manifesto'
+L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
+L['pirate_proclamation_label'] = 'Pirate Proclamation'
+L['spellsworn_missive_label'] = 'Spellsworn Missive'
+L['vrykul_tome_label'] = 'Vrykul Tome'
+
+L['library_note'] = '打开 {object:%s} 并拾取 {item:%s}。'
+
+L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
+L['options_icons_librarian_of_the_reach_desc'] = '显示 {achievement:17530} 成就中书籍的位置。{note:有些书籍在 {location:兹斯克拉宝库}}。'
+
+-- Scroll Hunter
+L['scroll_hunter_suffix'] = '来自 Sealed Scrolls 的宝藏'
+L['scroll_hunter_note'] = '在 {location:禁忌离岛} 附近收集各种稀有和珍藏的密封卷轴。\n\n打开一个 {item:%s} 会在地图上显示一个 X，会提供一个 {item:%s}，为 {faction:%s} 提供声望。'
+
+L['options_icons_scroll_hunter'] = '{achievement:17532}'
+L['options_icons_scroll_hunter_desc'] = '显示 {achievement:17532} 的卷轴奖励的位置。'
+
+-- While We Were Sleeping
+L['options_icons_scalecommander_item'] = '{achievement:17315}'
+L['options_icons_scalecommander_item_desc'] = '显示 {achievement:17315} 成就中物品的位置。{note:有些物品在 {location:兹斯克拉宝库}}。'
+
+-- Misc
+L['spellsworn_gateway'] = 'Spellsworn Gateway'
+L['gemstone_of_return'] = 'Gemstone of Return'
+
+L['morqut_village_vendor_note'] = '用 {currency:2118} 或金币换取坐骑、宠物、幻化、幼龙定制、配方和其他有用的物品。'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

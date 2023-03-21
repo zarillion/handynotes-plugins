@@ -17,7 +17,7 @@ L['options_icons_profession_treasures_desc'] = '顯示會給予專業技能知�
 
 L['dragon_glyph'] = '龍之雕紋'
 L['options_icons_dragon_glyph'] = '龍之雕紋'
-L['options_icons_dragon_glyph_desc'] = '顯示全部48個龍之雕紋的位置.'
+L['options_icons_dragon_glyph_desc'] = '顯示全部56個龍之雕紋的位置.'
 
 L['dragonscale_expedition_flag'] = '龍鱗遠征隊'
 L['flags_placed'] = '旗幟已插上'
@@ -256,8 +256,12 @@ L['icemaw_storage_cache'] = '冰喉儲藏所'
 L['options_icons_icemaw_storage_cache'] = '冰喉儲藏所'
 L['options_icons_icemaw_storage_cache_desc'] = '顯示 {object:冰喉儲藏所} 可能的位置.'
 
+L['kazzi_note_start'] = nil
+L['kazzi_note_item'] = nil
+L['kazzi_achievement_suffix'] = nil
+
 -------------------------------------------------------------------------------
-------------------------------- FORBIDDEN REACH -------------------------------
+------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
 
 L['bag_of_enchanted_wind'] = '一袋祕法之風'
@@ -267,6 +271,117 @@ L['lost_draconic_hourglass'] = '失落的龍沙漏'
 L['suspicious_bottle_treasure'] = '可疑的瓶子'
 L['mysterious_wand'] = '神秘魔杖'
 L['mysterious_wand_note'] = '撿起 {object:水晶鑰匙} 並把它放進 {object:水晶法器} 內.'
+
+-------------------------------------------------------------------------------
+------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
+-------------------------------------------------------------------------------
+
+-- Locations
+L['in_dragonskull_island'] = nil
+L['in_froststone_vault'] = nil
+L['in_the_high_creche'] = nil
+L['in_the_lost_atheneum'] = nil
+L['in_the_siege_creche'] = nil
+L['in_the_support_creche'] = nil
+L['in_the_war_creche'] = nil
+L['in_zskera_vaults'] = nil
+
+-- Rares
+L['duzalgor_note'] = nil
+L['mad_eye_carrey_note'] = nil
+L['wymslayer_angvardi_note'] = nil
+L['loot_specialist_note'] = nil
+
+-- Profession Rares
+L['profession_required'] = nil
+L['pr_crafting_note'] = nil
+L['pr_gathering_note'] = nil
+L['pr_recipe_note'] = nil
+
+L['pr_awakened_soil'] = nil
+L['pr_book_of_arcane_entities'] = nil
+L['pr_damaged_buzzspire'] = nil
+L['pr_empty_crab_trap'] = nil
+L['pr_farescale_shrine'] = nil
+L['pr_raw_argali_pelts'] = nil
+L['pr_resonating_crystal'] = nil
+L['pr_rumbling_deposit'] = nil
+L['pr_spellsworn_ward'] = nil
+L['pr_spiceless_stew'] = nil
+L['pr_tuskarr_kite_post'] = nil
+L['pr_tuskarr_tanning_rack'] = nil
+L['pr_volatile_brazier'] = nil
+
+-- Treasures
+L['storm_bound_chest_label'] = nil
+
+-- Forbidden Hoard
+L['hoarder_of_the_forbidden_reach_suffix'] = nil
+L['forbidden_spoils_suffix'] = nil
+L['forbidden_hoard_label'] = nil
+
+L['options_icons_forbidden_hoard'] = nil
+L['options_icons_forbidden_hoard_desc'] = nil
+
+-- Froststone Primal Vault Storm
+L['froststone_vault_storm_label'] = nil
+L['gooey_snailemental_note'] = nil
+
+L['options_icons_froststone_vault_storm'] = nil
+L['options_icons_froststone_vault_storm_desc'] = nil
+
+-- Small Treasures
+L['small_treasures_label'] = nil
+L['small_treasures_note'] = nil
+
+L['options_icons_small_treasures'] = nil
+L['options_icons_small_treasures_desc'] = nil
+
+-- Zskera Vaults
+L['zskera_vaults_label'] = nil
+L['zskera_vaults_note'] = nil
+L['door_buster_suffix'] = nil
+
+L['recipe_rat_note_1'] = nil
+L['recipe_rat_note_2'] = nil
+L['recipe_rat_note_3'] = nil
+L['recipe_rat_note_4'] = nil
+
+L['mm_start_note'] = nil
+L['mm_status_note'] = nil
+
+L['options_icons_zskera_vaults'] = nil
+L['options_icons_zskera_vaults_desc'] = nil
+
+-- Librarian of the Reach
+L['confiscated_journal_label'] = nil
+L['farscale_manifesto_label'] = nil
+L['lost_expeditions_notes_label'] = nil
+L['pirate_proclamation_label'] = nil
+L['spellsworn_missive_label'] = nil
+L['vrykul_tome_label'] = nil
+
+L['library_note'] = nil
+
+L['options_icons_librarian_of_the_reach'] = nil
+L['options_icons_librarian_of_the_reach_desc'] = nil
+
+-- Scroll Hunter
+L['scroll_hunter_suffix'] = nil
+L['scroll_hunter_note'] = nil
+
+L['options_icons_scroll_hunter'] = nil
+L['options_icons_scroll_hunter_desc'] = nil
+
+-- While We Were Sleeping
+L['options_icons_scalecommander_item'] = nil
+L['options_icons_scalecommander_item_desc'] = nil
+
+-- Misc
+L['spellsworn_gateway'] = nil
+L['gemstone_of_return'] = nil
+
+L['morqut_village_vendor_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

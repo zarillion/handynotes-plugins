@@ -48,6 +48,11 @@ ns.groups.DRAGON_GLYPH = Group('dragon_glyph', 4728198, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.DRAGONBANE_SIEGE = ns.Group('dragonbane_siege', 3753264, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -61,10 +66,21 @@ ns.groups.ELEMENTAL_STORM = Group('elemental_storm', 538566, {
 ns.groups.ELUSIVE_CREATURE = ns.Group('elusive_creature', 644271, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION,
-    IsEnabled = function(self) -- Only display group for skinning players
-        if not ns.PlayerHasProfession(393) then return false end
+    IsEnabled = function(self)
+        -- Only display group for skinning players
+        if not ns.professions.SKINNING:HasProfession() then return false end
         return ns.Group.IsEnabled(self)
     end
+})
+
+ns.groups.FORBIDDEN_HOARD = Group('forbidden_hoard', 'chest_pp', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.FROSTSTONE_VAULT_STORM = Group('froststone_vault_storm', 463562, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
 })
 
 ns.groups.GRAND_HUNTS = Group('grand_hunts', 237377, {
@@ -87,20 +103,21 @@ ns.groups.SCOUT_PACK = Group('scout_pack', 4562583, {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.DRAGONBANE_SIEGE = ns.Group('dragonbane_siege', 3753264, {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION
-})
-
 ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION,
-
-    -- Only display group for engineering players
     IsEnabled = function(self)
-        if not ns.PlayerHasProfession(202) then return false end
+        -- Only display group for engineering players
+        if not ns.professions.ENGINEERING:HasProfession() then
+            return false
+        end
         return Group.IsEnabled(self)
     end
+})
+
+ns.groups.SMALL_TREASURES = Group('small_treasures', 'chest_rd', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
 })
 
 ns.groups.TUSKARR_TACKLEBOX = Group('tuskarr_tacklebox', 'chest_yw', {
@@ -154,6 +171,11 @@ ns.groups.FROSTBOUND_CHEST = Group('frostbound_chest', 'chest_rd', {
 })
 
 ns.groups.LIGHTNING_BOUND_CHEST = Group('lightning_bound_chest', 'chest_pp', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.ZSKERA_VAULTS = Group('zskera_vaults', 4909720, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -238,6 +260,12 @@ ns.groups.LEYLINE = Group('leyline', 1033908, {
     achievement = 16638
 })
 
+ns.groups.LIBRARY = Group('librarian_of_the_reach', 4549135, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 17530
+})
+
 ns.groups.NEW_PERSPECTIVE = Group('new_perspective', 1109100, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -254,6 +282,18 @@ ns.groups.SAFARI = Group('safari', 4048818, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
     achievement = 16519
+})
+
+ns.groups.SCALECOMMANDER_ITEM = Group('scalecommander_item', 134422, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 17315
+})
+
+ns.groups.SCROLL_HUNTER = Group('scroll_hunter', 4549192, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 17532
 })
 
 ns.groups.SNACK_ATTACK = Group('snack_attack', 134062, {
@@ -295,23 +335,6 @@ ns.node.RareElite = RareElite
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
--- LuaFormatter off
-local PROFESSIONS = {
-    -- name, icon, skillID, variantID
-    {'Alchemy', 4620669, 171, 2823},
-    {'Blacksmithing', 4620670, 164, 2822},
-    {'Enchanting', 4620672, 333, 2825},
-    {'Engineering', 4620673, 202, 2827},
-    {'Herbalism', 4620675, 182, 2832},
-    {'Inscription', 4620676, 773, 2828},
-    {'Jewelcrafting', 4620677, 755, 2829},
-    {'Leatherworking', 4620678, 165, 2830},
-    {'Mining', 4620679, 186, 2833},
-    {'Skinning', 4620680, 393, 2834},
-    {'Tailoring', 4620681, 197, 2831}
-}
--- LuaFormatter on
-
 local ProfessionMaster = Class('ProfessionMaster', ns.node.NPC, {
     scale = 0.9,
     group = ns.groups.PROFESSION_TREASURES
@@ -338,20 +361,25 @@ ns.node.ProfessionTreasures = {}
 local PM = ns.node.ProfessionMasters
 local PT = ns.node.ProfessionTreasures
 
-for i, ids in ipairs(PROFESSIONS) do
-    local name, icon, skillID, variantID = unpack(ids)
+for _, profession in pairs(ns.professions) do
+    if profession.variantID ~= nil then
+        local name = profession.name
+        local icon = profession.icon
+        local skillID = profession.skillID
+        local variantID = profession.variantID[10]
 
-    PM[name] = Class(name .. 'Master', ProfessionMaster, {
-        icon = icon,
-        skillID = skillID,
-        requires = ns.requirement.Profession(skillID, variantID, 25)
-    })
+        PM[name] = Class(name .. 'Master', ProfessionMaster, {
+            icon = icon,
+            skillID = skillID,
+            requires = ns.requirement.Profession(skillID, variantID, 25)
+        })
 
-    PT[name] = Class(name .. 'Treasure', ProfessionTreasure, {
-        icon = icon,
-        skillID = skillID,
-        requires = ns.requirement.Profession(skillID, variantID, 25)
-    })
+        PT[name] = Class(name .. 'Treasure', ProfessionTreasure, {
+            icon = icon,
+            skillID = skillID,
+            requires = ns.requirement.Profession(skillID, variantID, 25)
+        })
+    end
 end
 
 -------------------------------------------------------------------------------
@@ -1058,12 +1086,15 @@ ns.node.Safari = Safari
 -------------------------------------------------------------------------------
 
 local ElementalChest = Class('ElementalChest', ns.node.Treasure, {
-    icon = 'chest_rd', -- temporary, maybe change it to different icon?
+    icon = 'chest_rd',
     getters = {
         rlabel = function(self)
-            local completed = C_QuestLog.IsQuestFlaggedCompleted(self.quest[1])
-            local color = completed and ns.status.Green or ns.status.Gray
-            return color(L['weekly'])
+            if self.quest then
+                local completed = C_QuestLog.IsQuestFlaggedCompleted(
+                    self.quest[1])
+                local color = completed and ns.status.Green or ns.status.Gray
+                return color(L['weekly'])
+            end
         end
     }
 })
