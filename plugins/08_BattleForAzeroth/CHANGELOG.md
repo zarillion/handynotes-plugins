@@ -1,3 +1,10 @@
+# v15
+
+* Added improvements from the Dragonflight plugin.
+* Added missing Slithering Brownscale safari pet.
+* Updated some tooltips to match style in DF plugin.
+* Updated TOC for 10.0.7
+
 # v14
 
 * Added a full frFR translation (thanks Lightuky!)
