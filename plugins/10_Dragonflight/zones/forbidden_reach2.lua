@@ -854,6 +854,7 @@ local SMALLTREASURE = Collectible({
                 suffix = L['hoarder_of_the_forbidden_reach_suffix']
             }
         }), -- Hoarder of the Forbidden Reach
+        Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Small Treasure
