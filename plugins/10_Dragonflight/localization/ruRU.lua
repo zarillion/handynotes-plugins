@@ -251,9 +251,9 @@ L['icemaw_storage_cache'] = 'Тайное хранилище ледочрево�
 L['options_icons_icemaw_storage_cache'] = 'Тайное хранилище ледочревов'
 L['options_icons_icemaw_storage_cache_desc'] = 'Показать возможные места {object:Тайные хранилища ледочревов}.'
 
-L['kazzi_note_start'] = nil
-L['kazzi_note_item'] = nil
-L['kazzi_achievement_suffix'] = nil
+L['kazzi_note_start'] = 'Обменяйте {item:202017} и {item:202018} на трансмогрификацию, манускрипты для дракона, питомца и многое другое.'
+L['kazzi_note_item'] = 'В настоящее время у вас есть %s {item:%s}.'
+L['kazzi_achievement_suffix'] = 'ранг изучения языка'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -283,15 +283,15 @@ L['in_zskera_vaults'] = nil
 
 -- Rares
 L['duzalgor_note'] = nil
-L['mad_eye_carrey_note'] = nil
-L['wymslayer_angvardi_note'] = nil
-L['loot_specialist_note'] = nil
+L['mad_eye_carrey_note'] = '{npc:201181} находится в группе с {npc:201184} и {npc:201182}'
+L['wymslayer_angvardi_note'] = '{npc:201013} является партнером {npc:201310}'
+L['loot_specialist_note'] = '{npc:203353} появляется с двумя {spell:406143} и {spell:132653} и убегает при нападении.\n\n{note:Убейте его быстро, прежде чем он закончит применение {spell:406141}.}'
 
 -- Profession Rares
-L['profession_required'] = nil
-L['pr_crafting_note'] = nil
-L['pr_gathering_note'] = nil
-L['pr_recipe_note'] = nil
+L['profession_required'] = '{note:Требуется игрок с профессией %s.}'
+L['pr_crafting_note'] = 'Создайте {item:%s} из {item:%s} и взаимодействуйте с {object:%s}, чтобы призвать редкого монстра.'
+L['pr_gathering_note'] = 'Используйте {item:%s}, чтобы взаимодействовать с {object:%s}, чтобы вызвать редкого монстра.'
+L['pr_recipe_note'] = 'Рецепт {item:%s} можно приобрести у {npc:202445} за 10 {item:190456}.'
 
 L['pr_awakened_soil'] = nil
 L['pr_book_of_arcane_entities'] = nil
@@ -333,7 +333,7 @@ L['options_icons_small_treasures'] = nil
 L['options_icons_small_treasures_desc'] = nil
 
 -- Zskera Vaults
-L['zskera_vaults_label'] = nil
+L['zskera_vaults_label'] = 'Зкерское Хранилище'
 L['zskera_vaults_note'] = nil
 L['door_buster_suffix'] = nil
 
@@ -345,8 +345,8 @@ L['recipe_rat_note_4'] = nil
 L['mm_start_note'] = nil
 L['mm_status_note'] = nil
 
-L['options_icons_zskera_vaults'] = nil
-L['options_icons_zskera_vaults_desc'] = nil
+L['options_icons_zskera_vaults'] = 'Зкерское Хранилище'
+L['options_icons_zskera_vaults_desc'] = 'Показать награды из {location:Зкерского Хранилища}.'
 
 -- Librarian of the Reach
 L['confiscated_journal_label'] = nil
