@@ -812,9 +812,11 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         local group = ns.groups.FROSTSTONE_VAULT_STORM
         if FSV_PS[self.areaPoiID] and group:GetDisplay(mapID) then
             local rewards = FSV_PS[self.areaPoiID]
+            ns.PrepareLinks(L['gooey_snailemental_note'])
             if ns:GetOpt('show_notes') then
+                local note = ns.RenderLinks(L['gooey_snailemental_note'])
                 GameTooltip:AddLine(' ')
-                GameTooltip:AddLine(L['gooey_snailemental_note'])
+                GameTooltip:AddLine(note)
             end
             GameTooltip:AddLine(' ')
             for i, reward in ipairs(rewards) do
