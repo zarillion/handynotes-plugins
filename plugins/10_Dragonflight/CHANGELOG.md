@@ -1,3 +1,19 @@
+# v34
+
+* Added new Forbidden Reach content!
+  * Rare, treasure and battle pet locations with rewards.
+  * Books for the Librarian of the Reach achievement.
+  * Dragon Glyphs for the Forbidden Reach Glyph Hunter achievement.
+  * Dragonriding race locations for the Forbidden Reach Racing achievements.
+  * Forbidden Hoards for the Hoarder of the Forbidden Reach achievement.
+  * Items for the While We Were Sleeping achievement.
+  * Small Treasures for the Treasures of the Forbidden Reach achievement.
+* Added Kazzi location + rewards (Winterpelt Furbolg Quartermaster).
+* Added a right-click option to add an entire focus group to TomTom.
+* Added recipe id for Pattern: Gnoll Tent.
+* Fixed recipe id for Yusa's Hearty Stew.
+* Updated TOC for 10.0.7
+
 # v33
 
 * Added colors to the timers for tracked spawns.
