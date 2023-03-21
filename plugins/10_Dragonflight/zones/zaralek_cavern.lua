@@ -203,8 +203,12 @@ map.nodes[36397425] = Treasure({
     label = L['crystal_encased_chest_label'],
     note = L['crystal_encased_chest_note']
 }) -- Crystal-Encased Chest
+-- 'Attunement Crystal' @ 37756886 triggers quest 74987 and flys towards the chest
+-- 'Attunement Crystal' @ 39417328 triggers quest 75559
+-- when approaching the chest after you clicked both crystal quest 75601 triggers and the chest will be clickable
+-- after opening the chest quest 73697 and 74986 get triggered
 
-map.nodes[36694879] = Treasure({label = L['ancient_zaqali_chest_label']}) -- Ancient Zaqali Chest
+map.nodes[36694883] = Treasure({label = L['ancient_zaqali_chest_label']}) -- Ancient Zaqali Chest -- (currently not openable)
 
 map.nodes[43058256] = Treasure({
     label = L['old_trunk_label'],
@@ -215,23 +219,30 @@ map.nodes[48411636] = Treasure({label = L['molten_hoard_label'], quest = 75515})
 
 map.nodes[48451083] = Treasure({label = L['fealtys_reward_label']}) -- Fealty's Reward (currently seems not clickable)
 
-map.nodes[56564931] = Treasure({
+map.nodes[56734868] = Treasure({
     label = L['moth_pilfered_pouch_label'],
-    note = L['moth_pilfered_pouch_note']
+    note = L['moth_pilfered_pouch_note'],
+    quest = 75320
 }) -- Moth-Pilfered Pouch
 
 map.nodes[60664622] = Treasure({label = L['stolen_stash_label'], quest = 75302}) -- Stolen Stash
 
-map.nodes[61735511] = Treasure({label = L['waterlogged_bundle_label']}) -- Waterlogged Bundle (currently bugged/phased)
+map.nodes[61735511] = Treasure({
+    label = L['waterlogged_bundle_label'],
+    quest = 75015
+}) -- Waterlogged Bundle (currently no loot)
 
-map.nodes[62635372] = Treasure({label = L['long_lost_cache_label']}) -- Long-Lost Cache (currently bugged/phased)
+map.nodes[62715376] = Treasure({
+    label = L['long_lost_cache_label'],
+    quest = 75019
+}) -- Long-Lost Cache
 
 map.nodes[63603861] = Treasure({label = L['stolen_stash_label'], quest = 75303}) -- Stolen Stash
 
 local RitualOffering = Class('RitualOffering', Treasure,
     {label = 'Ritual Offering'}) -- Ritual Offering
 
-map.nodes[35145223] = RitualOffering()
+map.nodes[35145225] = RitualOffering({quest = 73552}) --  maybe all offerings have the same quest id
 map.nodes[26874611] = RitualOffering()
 map.nodes[36034452] = RitualOffering()
 
@@ -270,7 +281,7 @@ map.nodes[54735470] = Dragonglyph({rewards = {Achievement({id = 17512})}}) -- Dr
 map.nodes[72114844] = Dragonglyph({rewards = {Achievement({id = 17515})}}) -- Dragon Glyphs: The Throughway
 
 -- TODO: CRITERIA GUESSED
-map.nodes[48010441] = Dragonglyph({rewards = {Achievement({id = 17517})}}) -- Dragon Glyphs: Brimstone Garrison
+map.nodes[48060438] = Dragonglyph({rewards = {Achievement({id = 17517})}}) -- Dragon Glyphs: Brimstone Garrison
 map.nodes[47443702] = Dragonglyph({rewards = {Achievement({id = 17516})}}) -- Dragon Glphys: Sulfur Ravine
 map.nodes[55342771] = Dragonglyph({rewards = {Achievement({id = 17514})}}) -- Dragon Glyphs: Dragon Nests
 map.nodes[62567332] = Dragonglyph({rewards = {Achievement({id = 17511})}}) -- Dragon Glyphs: Titan Vault
