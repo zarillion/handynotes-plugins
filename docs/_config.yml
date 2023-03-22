@@ -3,3 +3,9 @@ description: Documentation for the core framework used in Zarillion's HandyNotes
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+docs:
+  - title: Nodes
+    url: core/nodes.html
+  - title: Rewards
+    url: core/rewards.html
