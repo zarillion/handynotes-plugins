@@ -298,30 +298,30 @@ L['pr_crafting_note'] = '用 {item:%2$s} 制作 {item:%1$s} 并与 {object:%3$s}
 L['pr_gathering_note'] = '使用 {item:%s} 与 {object:%s} 互动召唤稀有。'
 L['pr_recipe_note'] = '配方 {item:%s} 可以用10个 {item:190456} 从 {npc:202445} 购买。'
 
-L['pr_awakened_soil'] = 'Awakened Soil'
-L['pr_book_of_arcane_entities'] = 'Book of Arcane Entities'
-L['pr_damaged_buzzspire'] = 'Damaged Buzzspire 505'
-L['pr_empty_crab_trap'] = 'Empty Crab Trap'
-L['pr_farescale_shrine'] = 'Farscale Shrine'
-L['pr_raw_argali_pelts'] = 'Raw Argali Pelts'
-L['pr_resonating_crystal'] = 'Resonating Crystal'
-L['pr_rumbling_deposit'] = 'Rumbling Deposit'
-L['pr_spellsworn_ward'] = 'Spellsworn Ward'
-L['pr_spiceless_stew'] = 'Spiceless Stew'
-L['pr_tuskarr_kite_post'] = 'Tuskarr Kite Post'
-L['pr_tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack'
-L['pr_volatile_brazier'] = 'Volatile Brazier'
+L['pr_awakened_soil'] = '觉醒之油'
+L['pr_book_of_arcane_entities'] = '奥术实体之书'
+L['pr_damaged_buzzspire'] = '受损的鸣塔505型'
+L['pr_empty_crab_trap'] = '空荡荡的捕蟹笼'
+L['pr_farescale_shrine'] = '远鳞神龛'
+L['pr_raw_argali_pelts'] = '未处理的绒羊毛皮'
+L['pr_resonant_crystal'] = '共鸣水晶'
+L['pr_rumbling_deposit'] = '轰鸣的矿脉'
+L['pr_spellsworn_ward'] = '法誓结界'
+L['pr_spiceless_stew'] = '无香料的炖煮'
+L['pr_tuskarr_kite_post'] = '海象人风筝柱'
+L['pr_tuskarr_tanning_rack'] = '海象人的制皮架'
+L['pr_volatile_brazier'] = '不稳定的火盆'
 
 -- Treasures
-L['storm_bound_chest_label'] = 'Storm-Bound Chest'
+L['storm_bound_chest_label'] = '雷缚储物箱'
 
 -- Forbidden Hoard
 L['hoarder_of_the_forbidden_reach_suffix'] = '已打开小宝箱'
-L['forbidden_spoils_suffix'] = '已打开 Forbidden Hoards'
-L['forbidden_hoard_label'] = 'Forbidden Hoard'
+L['forbidden_spoils_suffix'] = '已打开禁忌宝藏'
+L['forbidden_hoard_label'] = '禁忌宝藏'
 
-L['options_icons_forbidden_hoard'] = 'Forbidden Hoard'
-L['options_icons_forbidden_hoard_desc'] = '显示 {object:Forbidden Hoard} 宝箱可能的位置。'
+L['options_icons_forbidden_hoard'] = '禁忌宝藏'
+L['options_icons_forbidden_hoard_desc'] = '显示 {object:禁忌宝藏} 宝箱可能的位置。'
 
 -- Froststone Primal Vault Storm
 L['froststone_vault_storm_label'] = '霜石宝库原始风暴'
@@ -332,7 +332,7 @@ L['options_icons_froststone_vault_storm_desc'] = '显示 {object:霜石宝库原
 
 -- Small Treasures
 L['small_treasures_label'] = '小宝箱'
-L['small_treasures_note'] = '刷新点之间共享小宝箱。\n\n从 {location:Morqut Village} 的 {npc:200566} 购买 {item:204558} 以获得{spell:405637} 增益，可以在小地图上看到小宝箱60分钟。'
+L['small_treasures_note'] = '刷新点之间共享小宝箱。\n\n从 {location:莫库特村} 的 {npc:200566} 购买 {item:204558} 以获得{spell:405637} 增益，可以在小地图上看到小宝箱60分钟。'
 
 L['options_icons_small_treasures'] = '小宝箱'
 L['options_icons_small_treasures_desc'] = '显示小宝箱可能的位置。'
@@ -378,8 +378,8 @@ L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = '显示 {achievement:17315} 成就中物品的位置。{note:有些物品在 {location:兹斯克拉宝库}}。'
 
 -- Misc
-L['spellsworn_gateway'] = 'Spellsworn Gateway'
-L['gemstone_of_return'] = 'Gemstone of Return'
+L['spellsworn_gateway'] = '法誓传送门'
+L['gemstone_of_return'] = '返回宝石'
 
 L['morqut_village_vendor_note'] = '用 {currency:2118} 或金币换取坐骑、宠物、幻化、幼龙定制、配方和其他有用的物品。'
 
