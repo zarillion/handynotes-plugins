@@ -271,8 +271,8 @@ L['mysterious_wand_note'] = 'Hebe den {object:Kristallschlüssel} auf und platzi
 -------------------------------------------------------------------------------
 
 -- Locations
-L['in_dragonskull_island'] = nil
-L['in_froststone_vault'] = nil
+L['in_dragonskull_island'] = 'Auf der {location:Drachenschädelinsel}.'
+L['in_froststone_vault'] = 'Im {location:Froststeingewölbe}.'
 L['in_the_high_creche'] = 'Im {location:Hohen Hort}.'
 L['in_the_lost_atheneum'] = nil
 L['in_the_siege_creche'] = nil
@@ -309,7 +309,7 @@ L['pr_volatile_brazier'] = nil
 -- Treasures
 L['storm_bound_chest_label'] = 'Sturmgebundene Truhe'
 
--- Forbidden Hard
+-- Forbidden Hoard
 L['hoarder_of_the_forbidden_reach_suffix'] = 'kleine Schätze geöffnet'
 L['forbidden_spoils_suffix'] = 'verbotene Schätze geöffnet'
 L['forbidden_hoard_label'] = 'Verbotener Schatz'
@@ -319,7 +319,7 @@ L['options_icons_forbidden_hoard_desc'] = 'Zeigt mögliche Positionen von {objec
 
 -- Froststone Primal Vault Storm
 L['froststone_vault_storm_label'] = 'Ursturm am Froststeingewölbe'
-L['gooey_snailemental_note'] = nil
+L['gooey_snailemental_note'] = 'Kombiniere 50x {item:204352} von Bossen beim {object:Ursturm am Froststeingewölbe} um {item:192785} zu erschaffen.'
 
 L['options_icons_froststone_vault_storm'] = 'Ursturm am Froststeingewölbe'
 L['options_icons_froststone_vault_storm_desc'] = 'Zeigt die Positionen und Belohnungen für {object:Ursturm am Froststeingewölbe} an.'
