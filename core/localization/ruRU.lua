@@ -82,9 +82,9 @@ L['follower_type_follower'] = 'Последователь'
 L['follower_type_champion'] = 'Чемпион'
 L['follower_type_companion'] = 'Компаньон'
 
-L['rep_honored'] = nil
-L['rep_revered'] = nil
-L['rep_exalted'] = nil
+L['rep_honored'] = 'Уважение'
+L['rep_revered'] = 'Почтение'
+L['rep_exalted'] = 'Превознесение'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -93,7 +93,7 @@ L['rep_exalted'] = nil
 L['context_menu_set_waypoint'] = 'Установить путевую точку на карте'
 L['context_menu_add_tomtom'] = 'Добавить в TomTom'
 L['context_menu_add_group_tomtom'] = 'Добавить данные группы в TomTom'
-L['context_menu_add_focus_group_tomtom'] = nil
+L['context_menu_add_focus_group_tomtom'] = 'Добавьте связанные точки в TomTom'
 L['context_menu_hide_node'] = 'Скрыть эту точку'
 L['context_menu_restore_hidden_nodes'] = 'Восстановить все скрытые точки'
 
