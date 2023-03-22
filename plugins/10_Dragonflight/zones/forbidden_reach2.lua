@@ -109,7 +109,7 @@ supportCreche.nodes[35254374] = Rare({
 
 map.nodes[43736121] = Rare({
     id = 200681,
-    quest = nil,
+    quest = 73150,
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58463}), -- Champion of the Forbidden Reach
