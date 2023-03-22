@@ -280,10 +280,10 @@ L['mysterious_wand_note'] = 'Coge la {object:Llave de Cristal} y ponla dentro de
 -- Locations
 L['in_dragonskull_island'] = 'Dentro de la {location:Isla Calavera de Dragón}.'
 L['in_froststone_vault'] = 'Dentro de la {location:Cámara Petraescarcha}.'
-L['in_the_high_creche'] = 'Within {location:The High Creche}.' -- no locale for location
-L['in_the_lost_atheneum'] = 'Within {location:The Lost Atheneum}.' -- no locale for location
-L['in_the_siege_creche'] = 'Within {location:The Siege Creche}.' -- no locale for location
-L['in_the_support_creche'] = 'Within {location:The Support Creche}.' -- no locale for location
+L['in_the_high_creche'] = 'Dentro del {location:Nido Elevado}.'
+L['in_the_lost_atheneum'] = 'Dentro del {location:Ateneo Perdido}.'
+L['in_the_siege_creche'] = 'Dentro del {location:Nido de Asedio}.'
+L['in_the_support_creche'] = 'Dentro del {location:Nido de Apoyo}.'
 L['in_the_war_creche'] = 'En las profundidades de {location:El Nido Bélico}.'
 L['in_zskera_vaults'] = 'Dentro de las {location:Cámaras de Zskera}.'
 
@@ -305,16 +305,16 @@ L['pr_damaged_buzzspire'] = 'Damaged Buzzspire 505' -- no locale
 L['pr_empty_crab_trap'] = 'Empty Crab Trap' -- no locale
 L['pr_farescale_shrine'] = 'Farscale Shrine' -- no locale
 L['pr_raw_argali_pelts'] = 'Raw Argali Pelts' -- no locale
-L['pr_resonant_crystal'] = 'Resonant Crystal' -- no locale
+L['pr_resonant_crystal'] = 'Cristal Resonante'
 L['pr_rumbling_deposit'] = 'Rumbling Deposit' -- no locale
 L['pr_spellsworn_ward'] = 'Spellsworn Ward' -- no locale
-L['pr_spiceless_stew'] = 'Spiceless Stew' -- no locale
-L['pr_tuskarr_kite_post'] = 'Tuskarr Kite Post' -- no locale
+L['pr_spiceless_stew'] = 'Estofado sin Especiar'
+L['pr_tuskarr_kite_post'] = 'Poste de Cometa Colmillarr'
 L['pr_tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack' -- no locale
 L['pr_volatile_brazier'] = 'Volatile Brazier' -- no locale
 
 -- Treasures
-L['storm_bound_chest_label'] = 'Storm-Bound Chest' -- no locale
+L['storm_bound_chest_label'] = 'Cofre Vinculado a la Tormenta'
 
 -- Forbidden Hoard
 L['hoarder_of_the_forbidden_reach_suffix'] = 'Tesoros Pequeños abiertos'
@@ -379,8 +379,8 @@ L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos para el logro {achievement:17315}. {note:Algunos objetos están en las {location:Cámaras de Zskera}}.'
 
 -- Misc
-L['spellsworn_gateway'] = 'Spellsworn Gateway' -- no locale
-L['gemstone_of_return'] = 'Gemstone of Return' -- no locale
+L['spellsworn_gateway'] = 'Portal Jurahechizos'
+L['gemstone_of_return'] = 'Gema de Retorno'
 
 L['morqut_village_vendor_note'] = 'Intercambia {currency:2118} u oro por monturas, mascotas, transfiguraciones, personalizaciones del draco, recetas y otros objetos útiles.'
 
