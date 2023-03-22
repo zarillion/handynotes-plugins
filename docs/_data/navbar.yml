@@ -2,6 +2,6 @@
 
 pages:
   - title: Nodes
-    url: core/nodes.html
+    url: /core/nodes.html
   - title: Rewards
-    url: core/rewards.html
+    url: /core/rewards.html

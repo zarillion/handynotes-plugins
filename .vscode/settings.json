@@ -1,5 +1,4 @@
 {
-    "editor.formatOnSave": true,
     "files.eol": "\n",
     "files.exclude": {
         "release/": true
@@ -9,10 +8,12 @@
         "release/**": true
     },
     "[lua]": {
-        "editor.defaultFormatter": "Koihik.vscode-lua-format"
+        "editor.defaultFormatter": "Koihik.vscode-lua-format",
+        "editor.formatOnSave": true,
     },
     "[xml]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
     },
     "lua.preferLuaCheckErrors": true,
     "lua.targetVersion": "5.3",
