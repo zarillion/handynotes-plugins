@@ -278,40 +278,40 @@ L['mysterious_wand_note'] = 'Coge la {object:Llave de Cristal} y ponla dentro de
 -------------------------------------------------------------------------------
 
 -- Locations
-L['in_dragonskull_island'] = 'Within {location:Dragonskull Island}.'
-L['in_froststone_vault'] = 'Within {location:Froststone Vault}.' -- 'Dentro de {location:La Cámara Petraescarcha}.'
-L['in_the_high_creche'] = 'Within {location:The High Creche}.' -- 'Dentro de {location:El Nido Alto}.'
-L['in_the_lost_atheneum'] = 'Within {location:The Lost Atheneum}.'
-L['in_the_siege_creche'] = 'Within {location:The Siege Creche}.'
-L['in_the_support_creche'] = 'Within {location:The Support Creche}.'
-L['in_the_war_creche'] = 'Deep within {location:The War Creche}.' -- 'En las profundidades de {location:El Nido Bélico}.'
-L['in_zskera_vaults'] = 'Within {location:Zskera Vaults}.'
+L['in_dragonskull_island'] = 'Dentro de la {location:Isla Calavera de Dragón}.'
+L['in_froststone_vault'] = 'Dentro de la {location:Cámara Petraescarcha}.'
+L['in_the_high_creche'] = 'Within {location:The High Creche}.' -- no locale for location
+L['in_the_lost_atheneum'] = 'Within {location:The Lost Atheneum}.' -- no locale for location
+L['in_the_siege_creche'] = 'Within {location:The Siege Creche}.' -- no locale for location
+L['in_the_support_creche'] = 'Within {location:The Support Creche}.' -- no locale for location
+L['in_the_war_creche'] = 'En las profundidades de {location:El Nido Bélico}.'
+L['in_zskera_vaults'] = 'Dentro de las {location:Cámaras de Zskera}.'
 
 -- Rares
-L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal from the poisonous gas within {location:The Support Creche}.' -- 'Coge un frasco de {spell:400751} ({dot:Green}) para sanarte del gas venenoso de la cueva.'
-L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}.' -- '{npc:201181} está en grupo con la {npc:201184} y la {npc:201182}.'
-L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}.' -- '{npc:201013} está acompañado por {npc:201310}.'
-L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {spell:132653} and will run away when attacked.\n\n{note:Kill him quickly before he finishes casting {spell:406141}.}' -- 'El {npc:203353} aparece con {spell:406143} y en {spell:132653}. Huirá en cuanto sea atacado.\n\n{note:Mátalo rápidamente antes de que acabe de lanzar {spell:406141}.}'
+L['duzalgor_note'] = 'Coge un frasco de {spell:400751} ({dot:Green}) para sanarte del gas venenoso dentro de {location:The Support Creche}.'
+L['mad_eye_carrey_note'] = '{npc:201181} está en grupo con la {npc:201184} y la {npc:201182}.'
+L['wymslayer_angvardi_note'] = '{npc:201013} está acompañado por su montura {npc:201310}.'
+L['loot_specialist_note'] = '{npc:203353} aparece con {spell:406143} y {spell:132653} de principio. Huirá en cuanto sea atacado.\n\n{note:Mátalo rápidamente antes de que acabe de abrir un {spell:406141}.}'
 
 -- Profession Rares
-L['profession_required'] = '{note:Requires a player with the %s profession.}' -- '{note:Requiere un jugador con la profesi
-L['pr_crafting_note'] = 'Craft {item:%s} with {item:%s} and interact with {object:%s} to summon the rare.'
-L['pr_gathering_note'] = 'Use {item:%s} to interact with {object:%s} to summon the rare.'
-L['pr_recipe_note'] = 'The recipe {item:%s} can be purchased from {npc:202445} for 10 {item:190456}.'
+L['profession_required'] = '{note:Requiere un jugador con la profesión %s.}'
+L['pr_crafting_note'] = 'Cronstruye {item:%s} con {item:%s} e interactuando con {object:%s} para invocar al raro.'
+L['pr_gathering_note'] = 'Usa {item:%s} para interactuar con {object:%s} para invocar al raro.'
+L['pr_recipe_note'] = 'La receta {item:%s} se le puede comprar al {npc:202445} por 10 {item:190456}.'
 
-L['pr_awakened_soil'] = 'Awakened Soil'
-L['pr_book_of_arcane_entities'] = 'Book of Arcane Entities'
-L['pr_damaged_buzzspire'] = 'Damaged Buzzspire 505'
-L['pr_empty_crab_trap'] = 'Empty Crab Trap'
-L['pr_farescale_shrine'] = 'Farscale Shrine'
-L['pr_raw_argali_pelts'] = 'Raw Argali Pelts'
-L['pr_resonant_crystal'] = 'Resonant Crystal'
-L['pr_rumbling_deposit'] = 'Rumbling Deposit'
-L['pr_spellsworn_ward'] = 'Spellsworn Ward'
-L['pr_spiceless_stew'] = 'Spiceless Stew'
-L['pr_tuskarr_kite_post'] = 'Tuskarr Kite Post'
-L['pr_tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack'
-L['pr_volatile_brazier'] = 'Volatile Brazier'
+L['pr_awakened_soil'] = 'Awakened Soil' -- no locale
+L['pr_book_of_arcane_entities'] = 'Book of Arcane Entities' -- no locale
+L['pr_damaged_buzzspire'] = 'Damaged Buzzspire 505' -- no locale
+L['pr_empty_crab_trap'] = 'Empty Crab Trap' -- no locale
+L['pr_farescale_shrine'] = 'Farscale Shrine' -- no locale
+L['pr_raw_argali_pelts'] = 'Raw Argali Pelts' -- no locale
+L['pr_resonant_crystal'] = 'Resonant Crystal' -- no locale
+L['pr_rumbling_deposit'] = 'Rumbling Deposit' -- no locale
+L['pr_spellsworn_ward'] = 'Spellsworn Ward' -- no locale
+L['pr_spiceless_stew'] = 'Spiceless Stew' -- no locale
+L['pr_tuskarr_kite_post'] = 'Tuskarr Kite Post' -- no locale
+L['pr_tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack' -- no locale
+L['pr_volatile_brazier'] = 'Volatile Brazier' -- no locale
 
 -- Treasures
 L['storm_bound_chest_label'] = 'Storm-Bound Chest' -- no locale
@@ -325,11 +325,11 @@ L['options_icons_forbidden_hoard'] = 'Tesoro Olvidado'
 L['options_icons_forbidden_hoard_desc'] = 'Muestra dónde pueden haber {object:Tesoro Olvidado}.'
 
 -- Froststone Primal Vault Storm
-L['froststone_vault_storm_label'] = 'Tormenta Primigenia de La Cámara Petraescarcha'
-L['gooey_snailemental_note'] = 'Combina 50x {item:204352} recogidas de los bosses de las {object:Tormenta Primigenia de La Cámara Petraescarcha} para crear el {item:192785}.'
+L['froststone_vault_storm_label'] = 'Tormenta Primigenia de la Cámara Petraescarcha'
+L['gooey_snailemental_note'] = 'Combina 50x {item:204352} recogidas de los bosses de las {object:Tormenta Primigenia de la Cámara Petraescarcha} para crear el {item:192785}.'
 
-L['options_icons_froststone_vault_storm'] = 'Tormenta Primigenia de La Cámara Petraescarcha'
-L['options_icons_froststone_vault_storm_desc'] = 'Muestra dónde están y las recompensas de las {object:Tormentas Primigenias de La Cámara Petraescarcha}.'
+L['options_icons_froststone_vault_storm'] = 'Tormenta Primigenia de la Cámara Petraescarcha'
+L['options_icons_froststone_vault_storm_desc'] = 'Muestra dónde están y las recompensas de las {object:Tormentas Primigenias de la Cámara Petraescarcha}.'
 
 -- Small Treasures
 L['small_treasures_label'] = 'Tesoro Pequeño'
@@ -355,12 +355,12 @@ L['options_icons_zskera_vaults'] = 'Cámaras de Zskera'
 L['options_icons_zskera_vaults_desc'] = 'Muestra las recompensas de las {location:Cámaras de Zskera}.'
 
 -- Librarian of the Reach
-L['confiscated_journal_label'] = 'Confiscated Journal' -- no locale
-L['farscale_manifesto_label'] = 'Farscale Manifesto' -- no locale
+L['confiscated_journal_label'] = 'Confiscated Journal' -- no locale, maybe 'Diario Confiscado'
+L['farscale_manifesto_label'] = 'Farscale Manifesto' -- no locale, maybe 'Manifiesto Lejoscama'
 L['lost_expeditions_notes_label'] = 'Notas de la Expedición Perdida'
-L['pirate_proclamation_label'] = 'Pirate Proclamation' -- no locale
+L['pirate_proclamation_label'] = 'Pirate Proclamation' -- no locale, maybe 'Proclama Pirata'
 L['spellsworn_missive_label'] = 'Spellsworn Missive' -- no locale
-L['vrykul_tome_label'] = 'Vrykul Tome' -- no locale
+L['vrykul_tome_label'] = 'Vrykul Tome' -- no locale, maybe 'Tomo Vrykul'
 
 L['library_note'] = 'Abre {object:%s} y despoja {item:%s}.'
 
@@ -369,18 +369,18 @@ L['options_icons_librarian_of_the_reach_desc'] = 'Muestra dónde están los libr
 
 -- Scroll Hunter
 L['scroll_hunter_suffix'] = 'tesoros encontrados en los Pergaminos Sellados'
-L['scroll_hunter_note'] = 'Recoge {object:Pergaminos Sellados} de varios raros y tesoros alrededor del {location:Confín Olvidado}.\n\nAbre un {item:%s} y te revelará una X en el mapa which will offer a {item:%s} which provides reputation for {faction:%s}.'
+L['scroll_hunter_note'] = 'Recoge {object:Pergaminos Sellados} de varios raros y tesoros alrededor del {location:Confín Olvidado}.\n\nAbre {item:%s} y te revelará una X en el mapa que ofrecerá {item:%s} para ganar reputación con {faction:%s}.'
 
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
-L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532}.'
+L['options_icons_scroll_hunter_desc'] = 'Muestra dónde están los pergaminos para el logro {achievement:17532}.'
 
 -- While We Were Sleeping
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
-L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achievement:17315}. {note:Some item are in {location:Zskera Vaults}}.' -- 'Muestra dónde están los objetos para el logro {achievement:17315}. {note:Algunos objetos están en {location:Zskera Vaults}}.'
+L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos para el logro {achievement:17315}. {note:Algunos objetos están en las {location:Cámaras de Zskera}}.'
 
 -- Misc
-L['spellsworn_gateway'] = 'Spellsworn Gateway'
-L['gemstone_of_return'] = 'Gemstone of Return'
+L['spellsworn_gateway'] = 'Spellsworn Gateway' -- no locale
+L['gemstone_of_return'] = 'Gemstone of Return' -- no locale
 
 L['morqut_village_vendor_note'] = 'Intercambia {currency:2118} u oro por monturas, mascotas, transfiguraciones, personalizaciones del draco, recetas y otros objetos útiles.'
 
