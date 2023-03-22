@@ -759,27 +759,27 @@ local FSV_PS = {
         Item({item = 199691, quest = 70723}), -- Primal Earth Core
         Item({item = 199750, quest = 70754}), -- Primal Fire Core
         Item({item = 199748, quest = 70752}), -- Primal Water Core
-        Mount({item = 192785, id = 197}) -- Gooey Snailemental -- TODO: REPLACE WILL REAL MOUNTID
+        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
     },
     [7408] = {
         Achievement({id = 17540, criteria = 58567}), -- Under the Weather
         Spacer(), Item({item = 199749, quest = 70753}), -- Primal Air Core
-        Mount({item = 192785, id = 197}) -- Gooey Snailemental -- TODO: REPLACE WILL REAL MOUNTID
+        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
     }, -- Air
     [7409] = {
         Achievement({id = 17540, criteria = 58568}), -- Under the Weather
         Spacer(), Item({item = 199691, quest = 70723}), -- Primal Earth Core
-        Mount({item = 192785, id = 197}) -- Gooey Snailemental -- TODO: REPLACE WILL REAL MOUNTID
+        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
     }, -- Earth
     [7410] = {
         Achievement({id = 17540, criteria = 58569}), -- Under the Weather
         Spacer(), Item({item = 199750, quest = 70754}), -- Primal Fire Core
-        Mount({item = 192785, id = 197}) -- Gooey Snailemental -- TODO: REPLACE WILL REAL MOUNTID
+        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
     }, -- Fire
     [7411] = {
         Achievement({id = 17540, criteria = 58570}), -- Under the Weather
         Spacer(), Item({item = 199748, quest = 70752}), -- Primal Water Core
-        Mount({item = 192785, id = 197}) -- Gooey Snailemental -- TODO: REPLACE WILL REAL MOUNTID
+        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
     } -- Water
 }
 
