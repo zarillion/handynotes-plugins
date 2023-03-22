@@ -316,7 +316,7 @@ L['pr_volatile_brazier'] = 'Volatile Brazier'
 L['storm_bound_chest_label'] = 'Storm-Bound Chest'
 
 -- Forbidden Hoard
-L['hoarder_of_the_forbidden_reach_suffix'] = '已打开小宝藏'
+L['hoarder_of_the_forbidden_reach_suffix'] = '已打开小宝箱'
 L['forbidden_spoils_suffix'] = '已打开 Forbidden Hoards'
 L['forbidden_hoard_label'] = 'Forbidden Hoard'
 
@@ -324,25 +324,25 @@ L['options_icons_forbidden_hoard'] = 'Forbidden Hoard'
 L['options_icons_forbidden_hoard_desc'] = '显示 {object:Forbidden Hoard} 宝箱可能的位置。'
 
 -- Froststone Primal Vault Storm
-L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm'
-L['gooey_snailemental_note'] = nil
+L['froststone_vault_storm_label'] = '霜石宝库原始风暴'
+L['gooey_snailemental_note'] = '从 {object:霜石宝库原始风暴} 首领收集50个 {item:204352} 组合制作 {item:192785}。'
 
-L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm'
-L['options_icons_froststone_vault_storm_desc'] = '显示 {object:Froststone Vault Primal Storm} 的位置和奖励。'
+L['options_icons_froststone_vault_storm'] = '霜石宝库原始风暴'
+L['options_icons_froststone_vault_storm_desc'] = '显示 {object:霜石宝库原始风暴} 的位置和奖励。'
 
 -- Small Treasures
-L['small_treasures_label'] = '小宝藏'
-L['small_treasures_note'] = '刷新点之间共享小宝藏。\n\n从 {location:Morqut Village} 的 {npc:200566} 购买 {item:204558} 以获得{spell:405637} 增益，可以在小地图上看到小宝藏60分钟。'
+L['small_treasures_label'] = '小宝箱'
+L['small_treasures_note'] = '刷新点之间共享小宝箱。\n\n从 {location:Morqut Village} 的 {npc:200566} 购买 {item:204558} 以获得{spell:405637} 增益，可以在小地图上看到小宝箱60分钟。'
 
-L['options_icons_small_treasures'] = '小宝藏'
-L['options_icons_small_treasures_desc'] = '显示小宝藏可能的位置。'
+L['options_icons_small_treasures'] = '小宝箱'
+L['options_icons_small_treasures_desc'] = '显示小宝箱可能的位置。'
 
 -- Zskera Vaults
 L['zskera_vaults_label'] = '兹斯克拉宝库'
 L['zskera_vaults_note'] = '从各种稀有物品和宝箱中收集 {item:202196}，打开 {location:兹斯克拉宝库} 内的大门。'
 L['door_buster_suffix'] = '使用兹斯克拉宝库钥匙解锁的门'
 
-L['recipe_rat_note_1'] = '与 {location:Zskera Vault} 中的 {npc:202982} 交谈，{item:202252} 会进入包内。'
+L['recipe_rat_note_1'] = '与 {location:兹斯克拉宝库} 中的 {npc:202982} 交谈，{item:202252} 会进入包内。'
 L['recipe_rat_note_2'] = '与 {item:202252} 互动以收到 {item:204340}。{note:（5分钟冷却时间）}'
 L['recipe_rat_note_3'] = '一旦有30个 {item:204340} 组合废料来收到配方。'
 L['recipe_rat_note_4'] = '{note:这只老鼠喜欢奶酪并且大约每三分钟就会吃掉一个 {item:3927}。做好计划！}'
