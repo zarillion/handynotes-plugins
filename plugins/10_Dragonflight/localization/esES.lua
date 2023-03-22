@@ -349,7 +349,7 @@ L['recipe_rat_note_3'] = 'Una vez tengas 30x {item:204340} combínalos para cons
 L['recipe_rat_note_4'] = '{note:A esta rata le encanta el queso y consumirá un {item:3927} aproximadamente cada tres minutos. ¡Planifica en consecuencia!}'
 
 L['mm_start_note'] = 'Recoge y combina varios objetos que se encuentran dentro de las {location:Cámaras de Zskera}.'
-L['mm_status_note'] = 'Combina los siguientes objetos:\n{item:%s}\n{item:%s}' 
+L['mm_status_note'] = 'Combina los siguientes objetos:\n{item:%s}\n{item:%s}'
 
 L['options_icons_zskera_vaults'] = 'Cámaras de Zskera'
 L['options_icons_zskera_vaults_desc'] = 'Muestra las recompensas de las {location:Cámaras de Zskera}.'
