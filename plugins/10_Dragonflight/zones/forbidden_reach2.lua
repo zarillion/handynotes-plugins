@@ -469,9 +469,8 @@ local AgniBlazehoof = Class('AgniBlazehoof', ProfessionRare, {
 
 map.nodes[40295336] = AgniBlazehoof()
 map.nodes[54494599] = AgniBlazehoof()
-map.nodes[55695154] = AgniBlazehoof()
 
-map.nodes[23066700] = ProfessionRare({
+local Luttrok = Class('Luttrok', ProfessionRare, {
     id = 200742,
     quest = nil,
     profession = ns.professions.COOKING,
@@ -483,6 +482,9 @@ map.nodes[23066700] = ProfessionRare({
         Achievement({id = 17525, criteria = 58485}) -- Champion of the Forbidden Reach
     }
 }) -- Luttrok
+
+map.nodes[23066700] = Luttrok()
+map.nodes[55695154] = Luttrok()
 
 map.nodes[28905707] = ProfessionRare({
     id = 200743,
