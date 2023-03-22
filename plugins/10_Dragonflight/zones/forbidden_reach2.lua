@@ -1119,10 +1119,10 @@ map.nodes[30267800] = MossyMammoth()
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[27945985] = Flag({quest = 73696}) -- Removed on retail
+-- map.nodes[27945985] = Flag({quest = 73696}) -- Removed from retail
 map.nodes[54573460] = Flag({quest = 73699})
 map.nodes[36903792] = Flag({quest = 73700})
-map.nodes[76285343] = Flag({quest = 73702})
+-- map.nodes[76285343] = Flag({quest = 73702}) -- Removed from retail
 
 -------------------------------------------------------------------------------
 --------------------------- LIBRARIAN OF THE REACH ----------------------------
