@@ -1231,7 +1231,12 @@ map.nodes[58147167] = MysteriousWritings()
 
 local ScalecommanderItem = Class('scalecommander_item', Collectible, {
     icon = 134422,
-    group = ns.groups.SCALECOMMANDER_ITEM
+    group = ns.groups.SCALECOMMANDER_ITEM,
+    IsCollected = function(self)
+        local item = ns.faction == 'Horde' and self.item[1] or self.item[2]
+        if ns.PlayerHasItem(item) then return true end
+        return Collectible.IsCollected(self)
+    end
 })
 
 function ScalecommanderItem.getters:label()
@@ -1242,13 +1247,15 @@ map.nodes[59646492] = ScalecommanderItem({
     allianceLabel = '{quest:74866}',
     hordeLabel = '{quest:73110}',
     quest = 73110,
-    rewards = {Achievement({id = 17315, criteria = 2})}
+    rewards = {Achievement({id = 17315, criteria = 2})},
+    item = {202329, 204200}
 }) -- Journal Entry: Experiments
 
 map.nodes[50884345] = ScalecommanderItem({
     allianceLabel = '{quest:73113}',
     hordeLabel = '{quest:74880}',
-    rewards = {Achievement({id = 17315, criteria = 3})}
+    rewards = {Achievement({id = 17315, criteria = 3})},
+    item = {204221, 202335}
 }) -- Journal Entry: Relics
 
 map.nodes[58957238] = ScalecommanderItem({
@@ -1256,7 +1263,8 @@ map.nodes[58957238] = ScalecommanderItem({
     hordeLabel = '{quest:74900}',
     location = L['in_the_high_creche'],
     rewards = {Achievement({id = 17315, criteria = 5})},
-    pois = {POI({58666933})} -- Entrance
+    pois = {POI({58666933})}, -- Entrance
+    item = {204250, 202328}
 }) -- Receiving Stone: Final Warning
 
 map.nodes[58407053] = ScalecommanderItem({
@@ -1264,7 +1272,8 @@ map.nodes[58407053] = ScalecommanderItem({
     hordeLabel = '{quest:74901}',
     location = L['in_the_high_creche'],
     rewards = {Achievement({id = 17315, criteria = 6})},
-    pois = {POI({58666933})} -- Entrance
+    pois = {POI({58666933})}, -- Entrance
+    item = {204251, 202203}
 }) -- Sending Stone: Protest
 
 map.nodes[55393586] = ScalecommanderItem({
@@ -1272,7 +1281,8 @@ map.nodes[55393586] = ScalecommanderItem({
     hordeLabel = '{quest:74902}',
     location = L['in_the_lost_atheneum'],
     rewards = {Achievement({id = 17315, criteria = 7})},
-    pois = {POI({55103837})} -- Entrance
+    pois = {POI({55103837})}, -- Entrance
+    item = {204252, 202326}
 }) -- Sending Stone: Initial Report
 
 -------------------------------------------------------------------------------
