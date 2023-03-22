@@ -315,15 +315,15 @@ L['hoarder_of_the_forbidden_reach_suffix'] = nil
 L['forbidden_spoils_suffix'] = nil
 L['forbidden_hoard_label'] = nil
 
-L['options_icons_forbidden_hoard'] = nil
-L['options_icons_forbidden_hoard_desc'] = nil
+L['options_icons_forbidden_hoard'] = 'Запретный тайник'
+L['options_icons_forbidden_hoard_desc'] = 'Показать возможные местоположения {object:Запретных тайников}.'
 
 -- Froststone Primal Vault Storm
-L['froststone_vault_storm_label'] = nil
-L['gooey_snailemental_note'] = nil
+L['froststone_vault_storm_label'] = 'Изначальная буря в Ледокаменном хранилище'
+L['gooey_snailemental_note'] = 'Объедините x50 {item:204352}, собранных с боссов во время {object:Изначальной бури в Ледокаменном хранилище}, чтобы создать {item:192785}.'
 
-L['options_icons_froststone_vault_storm'] = nil
-L['options_icons_froststone_vault_storm_desc'] = nil
+L['options_icons_froststone_vault_storm'] = 'Изначальная буря в Ледокаменном хранилище'
+L['options_icons_froststone_vault_storm_desc'] = 'Показать местоположение и награды за {object:Изначальную бурю в Ледокаменном хранилище}'
 
 -- Small Treasures
 L['small_treasures_label'] = nil
@@ -334,8 +334,8 @@ L['options_icons_small_treasures_desc'] = nil
 
 -- Zskera Vaults
 L['zskera_vaults_label'] = 'Зкерское Хранилище'
-L['zskera_vaults_note'] = nil
-L['door_buster_suffix'] = nil
+L['zskera_vaults_note'] = 'Соберите {item:202196} из различных редких монстров и сундуков, чтобы открыть двери в {location:Зкерское Хранилище}.'
+L['door_buster_suffix'] = 'Двери открываются с помощью Ключей от Зкерского хранилища'
 
 L['recipe_rat_note_1'] = nil
 L['recipe_rat_note_2'] = nil
@@ -356,7 +356,7 @@ L['pirate_proclamation_label'] = nil
 L['spellsworn_missive_label'] = nil
 L['vrykul_tome_label'] = nil
 
-L['library_note'] = nil
+L['library_note'] = 'Откройте {object:%s} и соберите {item:%s}.'
 
 L['options_icons_librarian_of_the_reach'] = nil
 L['options_icons_librarian_of_the_reach_desc'] = nil
@@ -365,8 +365,8 @@ L['options_icons_librarian_of_the_reach_desc'] = nil
 L['scroll_hunter_suffix'] = nil
 L['scroll_hunter_note'] = nil
 
-L['options_icons_scroll_hunter'] = nil
-L['options_icons_scroll_hunter_desc'] = nil
+L['options_icons_scroll_hunter'] = '{achievement:17532}'
+L['options_icons_scroll_hunter_desc'] = 'Отображение мест вознаграждения за свитки для {achievement:17532}.'
 
 -- While We Were Sleeping
 L['options_icons_scalecommander_item'] = nil
