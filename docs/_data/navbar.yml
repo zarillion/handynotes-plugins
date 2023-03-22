@@ -1,0 +1,7 @@
+# https://jekyllrb.com/tutorials/navigation/
+
+pages:
+  - title: Nodes
+    url: core/nodes.html
+  - title: Rewards
+    url: core/rewards.html
