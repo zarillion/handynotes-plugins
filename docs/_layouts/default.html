@@ -25,7 +25,7 @@
 
         <ul>
           {% for item in site.data.navbar.pages %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            <li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
           {% endfor %}
         </ul>
 
