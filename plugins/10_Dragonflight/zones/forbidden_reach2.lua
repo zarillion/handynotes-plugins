@@ -100,7 +100,7 @@ supportCreche.nodes[35254374] = Rare({
     quest = 73881,
     location = L['in_the_support_creche'],
     note = L['duzalgor_note'],
-    parent = {id = map.id, pois = POI({36673239})),
+    parent = {id = map.id, pois = {POI({36673239})}},
     rewards = {
         Achievement({id = 17525, criteria = 58462}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
