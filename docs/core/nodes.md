@@ -17,13 +17,13 @@ All Node classes can have following Properties by default:
 
 * `label` (string) (*required*)
   * The Title that is shown in the Tooltip when hovering a node.
-* `icon` ([iconString](/icons.hmtl) | int) (*required*)
+* `icon` ([iconString](icons.hmtl) | int) (*required*)
   * The icon texture to display.
 * `sublabel` (string)
   * Oneline string to display under label.
 * `rlabel` (string)
   * Label in the top right corner of the tooltip.
-* `group` ([Group](/Groups.hmtl))
+* `group` ([Group](Groups.hmtl))
   * Options group for this node (display, scale, alpha).
 * `fgroup ` (string)
   * A category of nodes that should be focused together when hovered or clicked.
@@ -40,7 +40,7 @@ All Node classes can have following Properties by default:
       * Parent Map ID
     * `note` (string)
       * The Note thats displayed on the parent Node.
-    * `pois` ([POI](/pois.html))
+    * `pois` ([POI](pois.html))
       * POIs shown on the parent map.
 * `quest` (int | int[ ])
   * Quest IDs that cause this node to disappear.
@@ -50,7 +50,7 @@ All Node classes can have following Properties by default:
   * Display completed quest count as rlabel.
 * `questDeps` (int | int[ ])
   * Quest IDs that must be true to appear.
-* `requires` (str | [Requirement](/requirements.hmtl)[ ])
+* `requires` (str | [Requirement](requirements.hmtl)[ ])
   * Requirements to interact or unlock
-* `rewards` ([Reward](/rewards.hmtl)[ ])
+* `rewards` ([Reward](rewards.html)[ ])
   * Array of rewards for this node
