@@ -957,7 +957,7 @@ local ZSKERA_VAULTS_REWARDS = {
     Spacer(), -- Recipe
     Recipe({item = 204073, profession = 185}), -- Ratcipe: Deviously Deviled Eggs
     Spacer(), -- Mount
-    Mount({item = 192790, id = 197}), -- Mossy Mammoth -- TODO: REPLACE WILL REAL MOUNTID
+    Mount({item = 192790, id = 1634}), -- Mossy Mammoth -- TODO: REPLACE WILL REAL MOUNTID
     Spacer(), -- Other Achievements
     Achievement({
         id = 17530,
@@ -1060,7 +1060,7 @@ local MossyMammoth = Class('MossyMammoth', Collectible, {
     group = ns.groups.ZSKERA_VAULTS,
     requires = ns.requirement.Quest(73159), -- Exploring Our Past
     rewards = {
-        Mount({item = 192790, id = 197}) -- Mossy Mammoth -- TODO: REPLACE WILL REAL MOUNTID
+        Mount({item = 192790, id = 1634}) -- Mossy Mammoth -- TODO: REPLACE WILL REAL MOUNTID
     }
 }) -- Mossy Mammoth
 
