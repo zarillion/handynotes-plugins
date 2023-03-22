@@ -355,12 +355,12 @@ L['options_icons_zskera_vaults'] = 'Cámaras de Zskera'
 L['options_icons_zskera_vaults_desc'] = 'Muestra las recompensas de las {location:Cámaras de Zskera}.'
 
 -- Librarian of the Reach
-L['confiscated_journal_label'] = 'Confiscated Journal' -- no locale, maybe 'Diario Confiscado'
-L['farscale_manifesto_label'] = 'Farscale Manifesto' -- no locale, maybe 'Manifiesto Lejoscama'
+L['confiscated_journal_label'] = 'Diario Confiscado'
+L['farscale_manifesto_label'] = 'Manifiesto Lejoscama'
 L['lost_expeditions_notes_label'] = 'Notas de la Expedición Perdida'
-L['pirate_proclamation_label'] = 'Pirate Proclamation' -- no locale, maybe 'Proclama Pirata'
-L['spellsworn_missive_label'] = 'Spellsworn Missive' -- no locale
-L['vrykul_tome_label'] = 'Vrykul Tome' -- no locale, maybe 'Tomo Vrykul'
+L['pirate_proclamation_label'] = 'Proclama Pirata'
+L['spellsworn_missive_label'] = 'Misiva jurahechizos'
+L['vrykul_tome_label'] = 'Tomo Vrykul'
 
 L['library_note'] = 'Abre {object:%s} y despoja {item:%s}.'
 
