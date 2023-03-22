@@ -496,7 +496,8 @@ map.nodes[28905707] = ProfessionRare({
     summoningRecipe = 203426, -- Design: Tuning Fork
     location = L['in_small_cave'],
     rewards = {
-        Achievement({id = 17525, criteria = 58486}) -- Champion of the Forbidden Reach
+        Achievement({id = 17525, criteria = 58486}), -- Champion of the Forbidden Reach
+        Recipe({item = 204219, profession = 755}) -- Design: Unstable Elementium
     },
     pois = {
         POI({30496101}) -- Entrance
