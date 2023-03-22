@@ -274,7 +274,7 @@ L['mysterious_wand_note'] = 'Hebe den {object:Kristallschlüssel} auf und platzi
 L['in_dragonskull_island'] = 'Auf der {location:Drachenschädelinsel}.'
 L['in_froststone_vault'] = 'Im {location:Froststeingewölbe}.'
 L['in_the_high_creche'] = 'Im {location:Hohen Hort}.'
-L['in_the_lost_atheneum'] = nil
+L['in_the_lost_atheneum'] = 'Im {location:Verlorenen Athenäum}.'
 L['in_the_siege_creche'] = nil
 L['in_the_support_creche'] = nil
 L['in_the_war_creche'] = 'Tief im {location:Kriegshort}.'
@@ -319,7 +319,7 @@ L['options_icons_forbidden_hoard_desc'] = 'Zeigt mögliche Positionen von {objec
 
 -- Froststone Primal Vault Storm
 L['froststone_vault_storm_label'] = 'Ursturm am Froststeingewölbe'
-L['gooey_snailemental_note'] = 'Kombiniere 50x {item:204352} von Bossen beim {object:Ursturm am Froststeingewölbe} um {item:192785} zu erschaffen.'
+L['gooey_snailemental_note'] = 'Kombiniere 50x {item:204352} von Bossen beim {object:Ursturm am Froststeingewölbe}, um {item:192785} zu erschaffen.'
 
 L['options_icons_froststone_vault_storm'] = 'Ursturm am Froststeingewölbe'
 L['options_icons_froststone_vault_storm_desc'] = 'Zeigt die Positionen und Belohnungen für {object:Ursturm am Froststeingewölbe} an.'
@@ -347,12 +347,12 @@ L['options_icons_zskera_vaults'] = 'Gewölbe von Zskera'
 L['options_icons_zskera_vaults_desc'] = 'Zeigt die Position und Belohnungen für das {location:Gewölbe von Zskera} an.'
 
 -- Librarian of the Reach
-L['confiscated_journal_label'] = nil
-L['farscale_manifesto_label'] = nil
-L['lost_expeditions_notes_label'] = nil
-L['pirate_proclamation_label'] = nil
-L['spellsworn_missive_label'] = nil
-L['vrykul_tome_label'] = nil
+L['confiscated_journal_label'] = 'Konfisziertes Tagebuch'
+L['farscale_manifesto_label'] = 'Weitenschuppenmanifest'
+L['lost_expeditions_notes_label'] = 'Expeditionsnotitzen'
+L['pirate_proclamation_label'] = 'Proklamation der Piraten'
+L['spellsworn_missive_label'] = 'Schreiben der Zauberverschworenen'
+L['vrykul_tome_label'] = 'Vrykulfoliant'
 
 L['library_note'] = 'Öffne {object:%s} und erhalte das Buch {item:%s}.'
 
