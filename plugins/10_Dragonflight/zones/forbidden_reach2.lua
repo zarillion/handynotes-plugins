@@ -194,7 +194,7 @@ warCreche.nodes[42958468] = Rare({
     id = 200960,
     quest = 73367,
     location = L['in_the_war_creche'],
-    parent = map.id,
+    parent = {id = map.id, pois = {POI({51895982})}},
     rewards = {
         Achievement({id = 17525, criteria = 58470}), -- Champion of the Forbidden Reach
         Pet({item = 191930, id = 3261}), -- Wakyn
@@ -218,7 +218,7 @@ warCreche.nodes[67355579] = Rare({
     id = 200978,
     quest = 73385,
     location = L['in_the_war_creche'],
-    parent = map.id,
+    parent = {id = map.id, pois = {POI({51895982})}},
     rewards = {
         Achievement({id = 17525, criteria = 58472}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
@@ -415,7 +415,7 @@ warCreche.nodes[31308084] = ProfessionRare({
     summoningReagent = 203403, -- Hastily Scrawled Rune
     summoningRecipe = 203425, -- Technique: Dispellng Rune
     location = L['in_the_war_creche'],
-    parent = map.id,
+    parent = {id = map.id, pois = {POI({51895982})}},
     rewards = {
         Achievement({id = 17525, criteria = 58481}) -- Champion of the Forbidden Reach
     }
@@ -1136,7 +1136,7 @@ warCreche.nodes[52405962] = LibraryBook({
     label = L['spellsworn_missive_label'],
     location = L['in_the_war_creche'],
     note = format(L['library_note'], L['spellsworn_missive_label'], 204338),
-    parent = map.id,
+    parent = {id = map.id, pois = {POI({51895982})}},
     rewards = {Achievement({id = 17530, criteria = 58501})}
 }) -- The Burden of Lapisagos
 
@@ -1144,7 +1144,7 @@ froststoneVault.nodes[64775677] = LibraryBook({
     label = L['confiscated_journal_label'],
     location = L['in_froststone_vault'],
     note = format(L['library_note'], L['confiscated_journal_label'], 204316),
-    parent = map.id,
+    parent = {id = map.id, pois = {POI({60793775})}},
     rewards = {Achievement({id = 17530, criteria = 58502})}
 }) -- A Soldier's Journal
 
