@@ -354,12 +354,12 @@ L['options_icons_zskera_vaults'] = '兹斯克拉宝库'
 L['options_icons_zskera_vaults_desc'] = '显示 {location:兹斯克拉宝库} 的奖励。'
 
 -- Librarian of the Reach
-L['confiscated_journal_label'] = 'Confiscated Journal'
-L['farscale_manifesto_label'] = 'Farscale Manifesto'
-L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
-L['pirate_proclamation_label'] = 'Pirate Proclamation'
-L['spellsworn_missive_label'] = 'Spellsworn Missive'
-L['vrykul_tome_label'] = 'Vrykul Tome'
+L['confiscated_journal_label'] = '缴获的日志'
+L['farscale_manifesto_label'] = '远鳞宣言'
+L['lost_expeditions_notes_label'] = '探险笔记'
+L['pirate_proclamation_label'] = '海盗公告'
+L['spellsworn_missive_label'] = '法誓公函'
+L['vrykul_tome_label'] = '维库魔典'
 
 L['library_note'] = '打开 {object:%s} 并拾取 {item:%s}。'
 
