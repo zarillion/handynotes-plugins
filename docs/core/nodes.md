@@ -17,7 +17,7 @@ All Node classes can have following Properties by default:
 
 * `label` (string) (*required*)
   * The Title that is shown in the Tooltip when hovering a node.
-* `icon` ([iconString](icons.hmtl) | int) (*required*)
+* `icon` ([iconString](icons.hmtl) / int) (*required*)
   * The icon texture to display.
 * `sublabel` (string)
   * Oneline string to display under label.
@@ -33,7 +33,7 @@ All Node classes can have following Properties by default:
   * The default scale value for this type.
 * `minimap` (boolean)
   * Should the node be displayed on the minimap?
-* parent (int | int[ ] | { })
+* parent (int / int[ ] / { })
   * Parent map IDs to display the node on.
   * `{ }` Also supports some basic node properties:
     * `id` (int)(*required*)
@@ -42,15 +42,15 @@ All Node classes can have following Properties by default:
       * The Note thats displayed on the parent Node.
     * `pois` ([POI](pois.html))
       * POIs shown on the parent map.
-* `quest` (int | int[ ])
+* `quest` (int / int[ ])
   * Quest IDs that cause this node to disappear.
 * `questAny` (boolean)
   * Hide node if *any* quests are true (default *all*)
 * `questCount` (boolean)
   * Display completed quest count as rlabel.
-* `questDeps` (int | int[ ])
+* `questDeps` (int / int[ ])
   * Quest IDs that must be true to appear.
-* `requires` (str | [Requirement](requirements.hmtl)[ ])
+* `requires` (str / [Requirement](requirements.hmtl)[ ])
   * Requirements to interact or unlock
 * `rewards` ([Reward](rewards.html)[ ])
   * Array of rewards for this node
