@@ -146,7 +146,7 @@ L['mrrklr_note'] = 'Free {npc:98754} to spawn {npc:98311}.'
 L['mytna_talonscreech_note'] = 'Talk to {npc:97579} to start the fight against {npc:97593}.'
 L['devouring_darkness_note'] = 'Extinguish all {npc:97543s} to summon {npc:100495}.'
 L['totally_safe_treasure_chest'] = 'Totally Safe Treasure Chest'
-L['rocfeather_kite_note'] = 'Combine {item:131809}, {item:131926} and {item:131927} with {item:131810}, to get the {item:131811}.
+L['rocfeather_kite_note'] = 'Combine {item:131809}, {item:131926} and {item:131927} with {item:131810}, to get the {item:131811}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------
