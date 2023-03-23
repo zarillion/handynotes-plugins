@@ -5,3 +5,5 @@ pages:
     url: core/nodes.html
   - title: Rewards
     url: core/rewards.html
+  - title: Icons
+    url: core/icons.html

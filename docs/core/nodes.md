@@ -18,13 +18,13 @@ All Node classes can have following Properties by default:
 
 * `label` (string) (*required*)
   * The Title that is shown in the Tooltip when hovering a node.
-* `icon` ([iconString](icons.hmtl) / int) (*required*)
+* `icon` ([name](icons.hmtl) / int) (*required*)
   * The icon texture to display.
 * `sublabel` (string)
   * Oneline string to display under label.
 * `rlabel` (string)
   * Label in the top right corner of the tooltip.
-* `group` ([Group](Groups.hmtl))
+* `group` ([Group](groups.hmtl))
   * Options group for this node (display, scale, alpha).
 * `fgroup ` (string)
   * A category of nodes that should be focused together when hovered or clicked.
@@ -34,9 +34,9 @@ All Node classes can have following Properties by default:
   * The default scale value for this type.
 * `minimap` (boolean)
   * Should the node be displayed on the minimap?
-* parent (int / int[ ] / { })
-  * Parent map IDs to display the node on.
-  * `{ }` Also supports some basic node properties:
+* `parent` (int / int[ ] / Node[ ])
+  * Map IDs to display the node on.
+  * The `parent` property on nodes also supports some basic [Node](nodes.hmtl) properties:
     * `id` (int)(*required*)
       * Parent Map ID
     * `note` (string)
