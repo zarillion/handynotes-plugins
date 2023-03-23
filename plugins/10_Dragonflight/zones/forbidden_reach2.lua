@@ -932,6 +932,7 @@ dragonskullIsland.nodes[69933512] = SMALLTREASURE
 ------------------ WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
 -------------------------------------------------------------------------------
 
+map.nodes[31822621] = SignalTransmitter({quest = 73143}) -- Caldera of the Menders
 map.nodes[39988182] = SignalTransmitter({quest = 73145}) -- Sharpscale Coast
 map.nodes[78035110] = SignalTransmitter({quest = 73144}) -- Stormsunder Mountain
 
@@ -961,7 +962,7 @@ local ZSKERA_VAULTS_REWARDS = {
     Spacer(), -- Recipe
     Recipe({item = 204073, profession = 185}), -- Ratcipe: Deviously Deviled Eggs
     Spacer(), -- Mount
-    Mount({item = 192790, id = 1634}), -- Mossy Mammoth -- TODO: REPLACE WILL REAL MOUNTID
+    Mount({item = 192790, id = 1634}), -- Mossy Mammoth
     Spacer(), -- Other Achievements
     Achievement({
         id = 17530,
@@ -1064,7 +1065,7 @@ local MossyMammoth = Class('MossyMammoth', Collectible, {
     group = ns.groups.ZSKERA_VAULTS,
     requires = ns.requirement.Quest(73159), -- Exploring Our Past
     rewards = {
-        Mount({item = 192790, id = 1634}) -- Mossy Mammoth -- TODO: REPLACE WILL REAL MOUNTID
+        Mount({item = 192790, id = 1634}) -- Mossy Mammoth
     }
 }) -- Mossy Mammoth
 
@@ -1123,10 +1124,8 @@ map.nodes[30267800] = MossyMammoth()
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[27945985] = Flag({quest = 73696}) -- Removed from retail
 map.nodes[54573460] = Flag({quest = 73699})
 map.nodes[36903792] = Flag({quest = 73700})
--- map.nodes[76285343] = Flag({quest = 73702}) -- Removed from retail
 
 -------------------------------------------------------------------------------
 --------------------------- LIBRARIAN OF THE REACH ----------------------------
@@ -1323,8 +1322,6 @@ warCreche.nodes[47808130] = GemstoneOfReturn({
 warCreche.nodes[65376249] = GemstoneOfReturn({
     pois = {Arrow({65376249, 67030720})}
 }) -- Pyrachniss
-
--- warCreche.nodes[67030720] = GemstoneOfReturn() -- Entrance
 
 --------------------------- MORQUT VILLAGE VENDORS ----------------------------
 
