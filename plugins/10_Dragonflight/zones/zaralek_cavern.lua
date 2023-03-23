@@ -181,39 +181,72 @@ map.nodes[68734593] = Rare({id = 203477, quest = 75548}) -- Goopal
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[36694883] = Treasure({
+    label = L['ancient_zaqali_chest_label'],
+    rewards = {
+        Achievement({id = 17768, criteria = 59222}) -- Treasures of Zaralek Cavern
+    }
+}) -- Ancient Zaqali Chest
+
 map.nodes[28544791] = Treasure({
     label = L['blazing_shadowflame_chest_label'],
-    note = L['blazing_shadowflame_chest_note']
+    note = L['blazing_shadowflame_chest_note'],
+    rewards = {
+        Achievement({id = 17768, criteria = 59220}) -- Treasures of Zaralek Cavern
+    }
 }) -- Blazing Shadowflame Chest
 
-map.nodes[29774050] = Treasure({
-    label = L['well_chewed_chest_label'],
-    quest = 73395,
-    note = L['well_chewed_chest_note'],
-    requires = ns.requirement.Item(202869), -- Scorching Key
-    pois = {
-        POI({30314121}), -- Entrance
-        POI({color = 'Green', points = 30134076}) -- Scorching Key
+map.nodes[30044193] = Treasure({
+    label = L['charred_egg_label'],
+    quest = 73706,
+    rewards = {
+        Achievement({id = 17768, criteria = 59226}) -- Treasures of Zaralek Cavern
     }
-}) -- Well-Chewed Chest
-
-map.nodes[30044193] = Treasure({label = L['charred_egg_label'], quest = 73706}) -- Charred Egg
+}) -- Charred Egg
 
 map.nodes[36397425] = Treasure({
     label = L['crystal_encased_chest_label'],
-    note = L['crystal_encased_chest_note']
+    note = L['crystal_encased_chest_note'],
+    rewards = {
+        Achievement({id = 17768, criteria = 59228}) -- Treasures of Zaralek Cavern
+    }
 }) -- Crystal-Encased Chest
 -- 'Attunement Crystal' @ 37756886 triggers quest 74987 and flys towards the chest
 -- 'Attunement Crystal' @ 39417328 triggers quest 75559
 -- when approaching the chest after you clicked both crystal quest 75601 triggers and the chest will be clickable
 -- after opening the chest quest 73697 and 74986 get triggered
 
-map.nodes[36694883] = Treasure({label = L['ancient_zaqali_chest_label']}) -- Ancient Zaqali Chest -- (currently not openable)
+map.nodes[62715376] = Treasure({
+    label = L['long_lost_cache_label'],
+    quest = 75019,
+    rewards = {
+        Achievement({id = 17768, criteria = 59223}) -- Treasures of Zaralek Cavern
+    }
+}) -- Long-Lost Cache
 
 map.nodes[43058256] = Treasure({
     label = L['old_trunk_label'],
-    requires = ns.requirement.Item(204323) -- Old Trunk Key
+    requires = ns.requirement.Item(204323), -- Old Trunk Key
+    rewards = {
+        Achievement({id = 17768, criteria = 59227}) -- Treasures of Zaralek Cavern
+    }
 }) -- Old Trunk
+
+map.nodes[29774050] = Treasure({
+    label = L['well_chewed_chest_label'],
+    quest = 73395,
+    note = L['well_chewed_chest_note'],
+    requires = ns.requirement.Item(202869), -- Scorching Key
+    rewards = {
+        Achievement({id = 17768, criteria = 59219}) -- Treasures of Zaralek Cavern
+    },
+    pois = {
+        POI({30314121}), -- Entrance
+        POI({color = 'Green', points = 30134076}) -- Scorching Key
+    }
+}) -- Well-Chewed Chest
+
+-------------------------------------------------------------------------------
 
 map.nodes[48411636] = Treasure({label = L['molten_hoard_label'], quest = 75515}) -- Molten Hoard
 
@@ -225,19 +258,18 @@ map.nodes[56734868] = Treasure({
     quest = 75320
 }) -- Moth-Pilfered Pouch
 
-map.nodes[60664622] = Treasure({label = L['stolen_stash_label'], quest = 75302}) -- Stolen Stash
-
 map.nodes[61735511] = Treasure({
     label = L['waterlogged_bundle_label'],
     quest = 75015
 }) -- Waterlogged Bundle (currently no loot)
 
-map.nodes[62715376] = Treasure({
-    label = L['long_lost_cache_label'],
-    quest = 75019
-}) -- Long-Lost Cache
+-------------------------------------------------------------------------------
 
-map.nodes[63603861] = Treasure({label = L['stolen_stash_label'], quest = 75303}) -- Stolen Stash
+local StolenStash = Class('StolenStash', Treasure,
+    {label = L['stolen_stash_label']}) -- Stolen Stash
+
+map.nodes[60664622] = StolenStash({quest = 75302})
+map.nodes[63603861] = StolenStash({quest = 75303})
 
 local RitualOffering = Class('RitualOffering', Treasure,
     {label = 'Ritual Offering'}) -- Ritual Offering
@@ -274,17 +306,14 @@ map.nodes[57657393] = PT.Engineering({
 -------------------------------- DRAGON GLYPHS --------------------------------
 -------------------------------------------------------------------------------
 
--- TODO: CRITERIA CONFIRMED
 map.nodes[30414530] = Dragonglyph({rewards = {Achievement({id = 17513})}}) -- Dragon Glyphs: Zaqali Caldera
 map.nodes[41638037] = Dragonglyph({rewards = {Achievement({id = 17510})}}) -- Dragon Glyphs: Glimmerogg
-map.nodes[54735470] = Dragonglyph({rewards = {Achievement({id = 17512})}}) -- Dragon Glyphs: Loamm
-map.nodes[72114844] = Dragonglyph({rewards = {Achievement({id = 17515})}}) -- Dragon Glyphs: The Throughway
-
--- TODO: CRITERIA GUESSED
-map.nodes[48060438] = Dragonglyph({rewards = {Achievement({id = 17517})}}) -- Dragon Glyphs: Brimstone Garrison
 map.nodes[47443702] = Dragonglyph({rewards = {Achievement({id = 17516})}}) -- Dragon Glphys: Sulfur Ravine
-map.nodes[55342771] = Dragonglyph({rewards = {Achievement({id = 17514})}}) -- Dragon Glyphs: Dragon Nests
-map.nodes[62567332] = Dragonglyph({rewards = {Achievement({id = 17511})}}) -- Dragon Glyphs: Titan Vault
+map.nodes[48060438] = Dragonglyph({rewards = {Achievement({id = 17517})}}) -- Dragon Glyphs: Brimstone Garrison
+map.nodes[54735470] = Dragonglyph({rewards = {Achievement({id = 17512})}}) -- Dragon Glyphs: Loamm
+map.nodes[55342771] = Dragonglyph({rewards = {Achievement({id = 17514})}}) -- Dragon Glyphs: Slitherdrake Roost
+map.nodes[62567332] = Dragonglyph({rewards = {Achievement({id = 17511})}}) -- Dragon Glyphs: Nal Ks'kol
+map.nodes[72114844] = Dragonglyph({rewards = {Achievement({id = 17515})}}) -- Dragon Glyphs: The Throughway
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
