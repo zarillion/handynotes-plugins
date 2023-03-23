@@ -1,9 +1,7 @@
 # Node Classes
 
 ## Node
-
-This is the base class for all displayed nodes.
-Examples usually have the minimal required properties set.
+This is the base class for all nodes.
 
 **Example:**
 ``` lua
@@ -13,50 +11,86 @@ ns.node.Node({
     note = 'This is a Note on the Example Node.'
 })
 ```
-### Properties
-All Node classes can have following Properties by default:
 
-* `label` (string) (*required*)
-  * The Title that is shown in the Tooltip when hovering a node.
-* `icon` ([name](icons.hmtl) / int) (*required*)
-  * The icon texture to display.
-* `sublabel` (string)
-  * Oneline string to display under label.
-* `rlabel` (string)
-  * Label in the top right corner of the tooltip.
-* `group` ([Group](groups.hmtl))
-  * Options group for this node (display, scale, alpha).
-* `fgroup ` (string)
-  * A category of nodes that should be focused together when hovered or clicked.
+### Default Properites
+All Node classes have the following properties by default:
+
+* `label` (string) (*default: 'UNKNOWN'*)
+  * The title shown in the tooltip when hovering this node.
+* `minimap` (boolean) (*default: true*)
+  * Should the node be displayed on the minimap.
 * `alpha` (float) (*default: 1.0*)
-  * The default alpha value for this type.
+  * The alpha value for this node.
 * `scale` (float) (*default: 1.0*)
-  * The default scale value for this type.
-* `minimap` (boolean)
-  * Should the node be displayed on the minimap?
-* `parent` (int / int[ ] / Node[ ])
-  * Map IDs to display the node on.
-  * The `parent` property on nodes also supports some basic [Node](nodes.hmtl) properties:
-    * `id` (int)(*required*)
-      * Parent Map ID
-    * `note` (string)
-      * The Note thats displayed on the parent Node.
-    * `pois` ([POI](pois.html))
-      * POIs shown on the parent map.
-* `quest` (int / int[ ])
-  * Quest IDs that cause this node to disappear.
-* `questAny` (boolean)
-  * Hide node if *any* quests are true (default *all*)
+  * The scale value for this node.
+* `icon` ([string](icons.html) / int) (*default: 'default'*)
+  * The icon for this node.
+* `group` ([group](groups.html)) (*default: ns.groups.MISC*)
+  * The group that contains and controls this node.
+
+### Optional Tooltip Properties
+All Node classes support the following _optional_ properties that affect a node's tootlip:
+
+* `sublabel` (string)
+  * Additional text shown directly under the label.
+* `rlabel` (string)
+  * Additional label shown in the top right corner of the tooltip.
 * `questCount` (boolean)
-  * Display completed quest count as rlabel.
-* `questDeps` (int / int[ ])
-  * Quest IDs that must be true to appear.
-* `requires` (str / [Requirement](requirements.hmtl)[ ])
-  * Requirements to interact or unlock
+  * Display completed quest count as `rlabel`.
+* `location` (string)
+  * Additonal text that provides more detail about the location of a node.
+* `note` (string)
+  * Additional text that provides more detail about the node.
+* `requires` ([Requirement](requirements.hmtl) / [Requirement](requirements.hmtl)[ ])
+  * List of requirements that need to be met for the node.
 * `rewards` ([Reward](rewards.html)[ ])
-  * Array of rewards for this node
+  * List of rewards that are offered by the node.
+
+### Optional Display Properties
+All Node classes support the following _optional_ properties that hide or show the node:
+
+* `class` (string)
+  * Only display this node if the character is this class.
+    * `'DEATHKNIGHT'`
+    * `'DEMONHUNTER'`
+    * `'DRUID'`
+    * `'EVOKER'`
+    * `'HUNTER'`
+    * `'MAGE'`
+    * `'MONK'`
+    * `'PALADIN'`
+    * `'PRIEST'`
+    * `'ROGUE'`
+    * `'SHAMAN'`
+    * `'WARLOCK'`
+    * `'WARRIOR'`
 * `faction` (string)
-  * This can only be `'Alliance'` or `'Horde'`. Setting the faction will only display the node if the player character is from that faction.
+  * Only display this node if the character is this faction.
+    * `'Alliance'`
+    * `'Horde'`
+* `quest` (int / int[ ])
+  * Hide this node when *all* `questID` in `quest` have been completed.
+* `questAny` (boolean)(*default: all*)
+  * Hide this node when *any* `questID` in `quest` have been completed.
+* `questDeps` (int / int[ ])
+  * Show this node if all `questID` in `questDeps` have been completed.
+
+### Optional Miscellaneous Properties
+All Node class support the following _optional_ properties that affect how a node is interacted with:
+* `fgroup` (string)
+  * A category of nodes that should be focused together when hovered or clicked.
+* `parent` (int)
+    * Additional `mapID` to display this node on.
+* `parent` ([ ])
+    * The `parent` property also supports some basic [Node](node.html) properties.
+    * `id` (int)(*required*)
+      * Additional `mapID` to display this node on.
+    * `note` (string)
+      * Additional text shown under the [Requirement](requirements.html) text.
+    * `pois` ([POI](points.html)[ ])
+      * POIs that should be shown on the parent map when hovering over or clicking a node.
+* `pois` ([POI](points.html)[ ])
+  * POIs that should be shown on the map when hovering over or clicking a node.
 
 ---
 
