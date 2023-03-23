@@ -326,11 +326,11 @@ L['options_icons_froststone_vault_storm'] = 'Изначальная буря в 
 L['options_icons_froststone_vault_storm_desc'] = 'Показать местоположение и награды за {object:Изначальную бурю в Ледокаменном хранилище}'
 
 -- Small Treasures
-L['small_treasures_label'] = nil
-L['small_treasures_note'] = nil
+L['small_treasures_label'] = 'Маленькие сундуки'
+L['small_treasures_note'] = 'Маленькие сундуки распределяются между точками возрождения.\n\nКупите {item:204558} у {npc:200566} в {location:деревне моркутов} чтобы получить бафф {spell:405637}, позволяющий видеть маленькие сундуки на мини-карте в течение 60 минут.'
 
-L['options_icons_small_treasures'] = nil
-L['options_icons_small_treasures_desc'] = nil
+L['options_icons_small_treasures'] = 'Маленькие сундуки'
+L['options_icons_small_treasures_desc'] = 'Показать возможные места для маленьких сундуков.'
 
 -- Zskera Vaults
 L['zskera_vaults_label'] = 'Зкерское Хранилище'
