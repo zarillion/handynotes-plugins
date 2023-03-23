@@ -349,7 +349,7 @@ L['options_icons_zskera_vaults'] = 'Зкерское Хранилище'
 L['options_icons_zskera_vaults_desc'] = 'Показать награды из {location:Зкерского Хранилища}.'
 
 -- Librarian of the Reach
-L['confiscated_journal_label'] = nil
+L['confiscated_journal_label'] = 'Конфискованный дневник'
 L['farscale_manifesto_label'] = 'Манифест клана Далекой Чешуи'
 L['lost_expeditions_notes_label'] = 'Записки из экспедиции'
 L['pirate_proclamation_label'] = 'Заявление пиратов'
