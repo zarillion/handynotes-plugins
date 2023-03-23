@@ -53,13 +53,14 @@ map.nodes[58174826] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58458}), -- Champion of the Forbidden Reach
+        Mount({item = 192772, id = 1619}), -- Ancient Salamanther
         Pet({item = 193364, id = 3291}), -- Scruffles
         Item({item = 204276}), -- Untapped Forbidden Knowledge
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
     pois = {POI({58934944})} -- Entrance
-}) -- Vakren the Hunter
+}) -- Vraken the Hunter
 
 map.nodes[28303794] = Rare({
     id = 200537,
@@ -97,7 +98,7 @@ map.nodes[47722071] = Rare({
 
 supportCreche.nodes[35254374] = Rare({
     id = 200610,
-    quest = 73881,
+    quest = 73118,
     location = L['in_the_support_creche'],
     note = L['duzalgor_note'],
     parent = {id = map.id, pois = {POI({36673239})}},
@@ -157,7 +158,7 @@ map.nodes[59695883] = Rare({
 
 map.nodes[72986738] = Rare({
     id = 200904,
-    quest = 70517,
+    quest = 73229,
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58467}), -- Champion of the Forbidden Reach
@@ -231,7 +232,7 @@ siegeCreche.nodes[58993931] = Rare({
     id = 200911,
     quest = 73225,
     location = L['in_the_siege_creche'],
-    parent = map.id,
+    parent = {id = map.id, pois = {POI({74425466})}},
     rewards = {
         Achievement({id = 17525, criteria = 58473}), -- Champion of the Forbidden Reach
         Item({item = 202196}), -- Zskera Vault Key
@@ -255,13 +256,13 @@ local LootSpecialist = Class('LootSpecialist', Rare, {
 }) -- Loot Specialist
 
 map.nodes[14971438] = LootSpecialist()
-map.nodes[41021436] = LootSpecialist()
+-- map.nodes[41021436] = LootSpecialist() duplicate coords with Ishyra
 map.nodes[47394256] = LootSpecialist()
 map.nodes[53464716] = LootSpecialist()
 
 dragonskullIsland.nodes[28984051] = LootSpecialist({
     location = L['in_dragonskull_island'],
-    parent = map.id
+    parent = {id = map.id, pois = {POI({74353661})}}
 })
 
 ------------------------------ PROFESSION RARES  ------------------------------
@@ -300,7 +301,7 @@ dragonskullIsland.nodes[56947247] = ProfessionRare({
     summoningItem = 203418, -- Amplified Quaking Stone
     summoningObject = L['pr_rumbling_deposit'], -- Rumbling Deposit
     location = L['in_dragonskull_island'],
-    parent = map.id,
+    parent = {id = map.id, pois = {POI({74353661})}},
     rewards = {
         Achievement({id = 17525, criteria = 58474}) -- Champion of the Forbidden Reach
     }
@@ -950,6 +951,7 @@ local ZSKERA_VAULTS_REWARDS = {
     Pet({item = 204079, id = 3476}), -- Gilded Mechafrog
     Pet({item = 193835, id = 3323}), -- Brightfeather
     Pet({item = 193854, id = 3333}), -- Berylmane
+    Pet({item = 193363, id = 3290}), -- Bunbo
     Spacer(), -- Toys
     Toy({item = 204257}), -- Holoviewer: The Lady of Dreams
     Toy({item = 204256}), -- Holoviewer: The Scarlet Queen
@@ -1322,7 +1324,7 @@ warCreche.nodes[65376249] = GemstoneOfReturn({
     pois = {Arrow({65376249, 67030720})}
 }) -- Pyrachniss
 
-warCreche.nodes[67030720] = GemstoneOfReturn() -- Entrance
+-- warCreche.nodes[67030720] = GemstoneOfReturn() -- Entrance
 
 --------------------------- MORQUT VILLAGE VENDORS ----------------------------
 

@@ -275,13 +275,13 @@ L['in_dragonskull_island'] = 'Auf der {location:Drachenschädelinsel}.'
 L['in_froststone_vault'] = 'Im {location:Froststeingewölbe}.'
 L['in_the_high_creche'] = 'Im {location:Hohen Hort}.'
 L['in_the_lost_atheneum'] = 'Im {location:Verlorenen Athenäum}.'
-L['in_the_siege_creche'] = nil
-L['in_the_support_creche'] = nil
+L['in_the_siege_creche'] = 'Im {location:Belagerungshort}.'
+L['in_the_support_creche'] = 'Im {location:Unterstützungshort}.'
 L['in_the_war_creche'] = 'Tief im {location:Kriegshort}.'
 L['in_zskera_vaults'] = 'In den {location:Gewölben von Zskera}.'
 
 -- Rares
-L['duzalgor_note'] = 'Sammel eine Flasche {spell:400751}({dot:Green}) um dich von den giftigen Gasen in der Höhle zu heilen.'
+L['duzalgor_note'] = 'Sammel eine Flasche {spell:400751}({dot:Green}), um dich von den giftigen Gasen in der Höhle zu heilen.'
 L['mad_eye_carrey_note'] = '{npc:201181} ist in einer Gruppe mit {npc:201184} und {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} ist mit {npc:201310} verbunden.'
 L['loot_specialist_note'] = '{npc:203353} erscheint mit {spell:406143} und {spell:132653} und wird weg rennen, wenn er angeriffen wird.\n\n{note:Töte ihn bevor er {spell:406141} fertig zaubert.}'
@@ -372,7 +372,7 @@ L['options_icons_scalecommander_item_desc'] = 'Zeigt die Positionen der Gegenst�
 
 -- Misc
 L['spellsworn_gateway'] = 'Tor der Zauberverschworenen'
-L['gemstone_of_return'] = nil
+L['gemstone_of_return'] = 'Edelstein der Rückkehr'
 
 L['morqut_village_vendor_note'] = 'Tausche {currency:2118} oder Gold gegen Reittiere, Haustiere, Ausrüstungsvorlagen, Drachenanpassungen, Rezepte und andere nützliche Gegenstände ein.'
 
