@@ -301,17 +301,17 @@ L['pr_recipe_note'] = 'La receta {item:%s} se le puede comprar al {npc:202445} p
 
 L['pr_awakened_soil'] = 'Sustrato Despierto'
 L['pr_book_of_arcane_entities'] = 'Libro sobre Entidades Arcanas '
-L['pr_damaged_buzzspire'] = 'Damaged Buzzspire 505' -- no locale
+L['pr_damaged_buzzspire'] = 'Agujazumbido Dañada 505'
 L['pr_empty_crab_trap'] = 'Trampa para Cangrejos Vacía'
-L['pr_farescale_shrine'] = 'Farscale Shrine' -- no locale
+L['pr_farescale_shrine'] = 'Santuario Lejoscama'
 L['pr_raw_argali_pelts'] = 'Pieles de Argali sin Curtir'
 L['pr_resonant_crystal'] = 'Cristal Resonante'
-L['pr_rumbling_deposit'] = 'Rumbling Deposit' -- no locale
+L['pr_rumbling_deposit'] = 'Depósito Resonante'
 L['pr_spellsworn_ward'] = 'Resguardo Jurahechizos'
 L['pr_spiceless_stew'] = 'Estofado sin Especiar'
 L['pr_tuskarr_kite_post'] = 'Poste de Cometa Colmillarr'
 L['pr_tuskarr_tanning_rack'] = 'Bastidor para Pieles Colmillarr'
-L['pr_volatile_brazier'] = 'Volatile Brazier' -- no locale
+L['pr_volatile_brazier'] = 'Blandón Volátil'
 
 -- Treasures
 L['storm_bound_chest_label'] = 'Cofre Vinculado a la Tormenta'
