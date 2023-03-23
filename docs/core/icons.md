@@ -1,4 +1,5 @@
 # Functions
+
 * `ns.GetIconPath(name)`
   * todo
 * `ns.GetIconLink(name, size, offsetX, offsetY)`
@@ -7,9 +8,11 @@
   * todo
 
 # Icons
+
 A list of icons
 
 ## Chests
+
 |                   | Icon                                                       | name             |
 |-------------------|------------------------------------------------------------|------------------|
 | Chest Black       | ![chest_bk](../assets/png/icons/chest_black.png)           | `'chest_bk'`     |
@@ -30,6 +33,7 @@ A list of icons
 | Star Chest Yellow | ![star_chest_y](../assets/png/icons/star_chest_yellow.png) | `'star_chest_y'` |
 
 ## Crystals
+
 |                | Icon                                                 | name          |
 |----------------|------------------------------------------------------|---------------|
 | Crystal Blue   | ![crystal_b](../assets/png/icons/crystal_blue.png)   | `'crystal_b'` |
@@ -37,12 +41,14 @@ A list of icons
 | Crystal Purple | ![crystal_p](../assets/png/icons/crystal_purple.png) | `'crystal_p'` |
 
 ## Flight Points
+
 |                     | Icon                                                           | name               |
 |---------------------|----------------------------------------------------------------|--------------------|
 | Flight Point Gray   | ![flight_point_g](../assets/png/icons/flight_point_gray.png)   | `'flight_point_g'` |
 | Flight Point Yellow | ![flight_point_y](../assets/png/icons/flight_point_yellow.png) | `'flight_point_y'` |
 
 ## Horseshoes
+
 |                  | Icon                                                     | name            |
 |------------------|----------------------------------------------------------|-----------------|
 | Horseshoe Black  | ![horseshoe_b](../assets/png/icons/horseshoe_black.png)  | `'horseshoe_b'` |
@@ -50,12 +56,14 @@ A list of icons
 | Horseshoe Orange | ![horseshoe_o](../assets/png/icons/horseshoe_orange.png) | `'horseshoe_o'` |
 
 ## Pet Battle Paws
+
 |            | Icon                                         | name      |
 |------------|----------------------------------------------|-----------|
 | Paw Green  | ![paw_g](../assets/png/icons/paw_green.png)  | `'paw_g'` |
 | Paw Yellow | ![paw_y](../assets/png/icons/paw_yellow.png) | `'paw_y'` |
 
 ## Pegs
+
 |            | Icon                                          | name       |
 |------------|-----------------------------------------------|------------|
 | Peg Blue   | ![peg_bl](../assets/png/icons/peg_blue.png)   | `'peg_bl'` |
@@ -65,6 +73,7 @@ A list of icons
 | Peg Yellow | ![peg_yw](../assets/png/icons/peg_yellow.png) | `'peg_yw'` |
 
 ## Portals
+
 |               | Icon                                                | name          |
 |---------------|-----------------------------------------------------|---------------|
 | Portal Blue   | ![portal_bl](../assets/png/icons/portal_blue.png)   | `'portal_bl'` |
@@ -74,6 +83,7 @@ A list of icons
 | Portal Red    | ![portal_rd](../assets/png/icons/portal_red.png)    | `'portal_rd'` |
 
 ## Quests
+
 |                        | Icon                                                        | name            |
 |------------------------|-------------------------------------------------------------|-----------------|
 | Quest available Blue   | ![quest_ab](../assets/png/icons/quest_available_blue.png)   | `'quest_ab'`    |
@@ -83,6 +93,7 @@ A list of icons
 | world_quest            | ![world_quest](../assets/png/icons/world_quest.png)         | `'world_quest'` |
 
 ## Skulls
+
 |                  | Icon                                                      | name             |
 |------------------|-----------------------------------------------------------|------------------|
 | Skull Blue       | ![skull_b](../assets/png/icons/skull_blue.png)            | `'skull_b'`      |
@@ -91,6 +102,7 @@ A list of icons
 | Star Skull White | ![star_skull_w](../assets/png/icons/star_skull_white.png) | `'star_skull_w'` |
 
 ## Miscellaneous Icons
+
 |                   | Icon                                                        | name                |
 |-------------------|-------------------------------------------------------------|---------------------|
 | Alliance          | ![alliance](../assets/png/icons/alliance.png)               | `'alliance'`        |
