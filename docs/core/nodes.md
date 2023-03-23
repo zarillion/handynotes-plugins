@@ -55,6 +55,8 @@ All Node classes can have following Properties by default:
   * Requirements to interact or unlock
 * `rewards` ([Reward](rewards.html)[ ])
   * Array of rewards for this node
+* `faction` (string)
+  * This can only be `'Alliance'` or `'Horde'`. Setting the faction will only display the node if the player character is from that faction.
 
 ---
 
