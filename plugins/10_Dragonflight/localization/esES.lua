@@ -299,18 +299,18 @@ L['pr_crafting_note'] = 'Cronstruye {item:%s} con {item:%s} e interactuando con 
 L['pr_gathering_note'] = 'Usa {item:%s} para interactuar con {object:%s} para invocar al raro.'
 L['pr_recipe_note'] = 'La receta {item:%s} se le puede comprar al {npc:202445} por 10 {item:190456}.'
 
-L['pr_awakened_soil'] = 'Awakened Soil' -- no locale
-L['pr_book_of_arcane_entities'] = 'Book of Arcane Entities' -- no locale
+L['pr_awakened_soil'] = 'Sustrato Despierto'
+L['pr_book_of_arcane_entities'] = 'Libro sobre Entidades Arcanas '
 L['pr_damaged_buzzspire'] = 'Damaged Buzzspire 505' -- no locale
-L['pr_empty_crab_trap'] = 'Empty Crab Trap' -- no locale
+L['pr_empty_crab_trap'] = 'Trampa para Cangrejos Vacía'
 L['pr_farescale_shrine'] = 'Farscale Shrine' -- no locale
-L['pr_raw_argali_pelts'] = 'Raw Argali Pelts' -- no locale
+L['pr_raw_argali_pelts'] = 'Pieles de Argali sin Curtir'
 L['pr_resonant_crystal'] = 'Cristal Resonante'
 L['pr_rumbling_deposit'] = 'Rumbling Deposit' -- no locale
-L['pr_spellsworn_ward'] = 'Spellsworn Ward' -- no locale
+L['pr_spellsworn_ward'] = 'Resguardo Jurahechizos'
 L['pr_spiceless_stew'] = 'Estofado sin Especiar'
 L['pr_tuskarr_kite_post'] = 'Poste de Cometa Colmillarr'
-L['pr_tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack' -- no locale
+L['pr_tuskarr_tanning_rack'] = 'Bastidor para Pieles Colmillarr'
 L['pr_volatile_brazier'] = 'Volatile Brazier' -- no locale
 
 -- Treasures
