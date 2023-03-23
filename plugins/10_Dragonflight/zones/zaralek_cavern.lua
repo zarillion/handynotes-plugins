@@ -34,50 +34,66 @@ local map = Map({id = 2133, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[28515115] = Rare({id = 203646}) -- Jrumm
+map.nodes[56247389] = Rare({
+    id = 203515,
+    rewards = {
+        Achievement({id = 17783, criteria = 59188}), -- Adventurer of Zaralek Cavern
+        Transmog({item = 205097, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
+        Item({item = 200071}) -- Sacred Tuskarr Totem
+    }
+}) -- Alcanon
 
-map.nodes[31805061] = Rare({id = 203664}) -- Emberdusk
+map.nodes[48367509] = Rare({
+    id = 203468,
+    quest = 75547,
+    rewards = {
+        Achievement({id = 17783, criteria = 59185}), -- Adventurer of Zaralek Cavern
+        Item({item = 192055}) -- Dragon Isle Artifact
+    }
+}) -- Aquifon
+
+map.nodes[41518613] = Rare({
+    id = 203621,
+    quest = 75556,
+    note = L['brulsef_the_stronk_note'],
+    rewards = {
+        Achievement({id = 17783, criteria = 59202}) -- Adventurer of Zaralek Cavern
+    }
+}) -- Brulsef the Stronk
+
+map.nodes[48372384] = Rare({
+    id = 204093,
+    quest = 75572,
+    rewards = {
+        Achievement({id = 17783, criteria = 59212}), -- Adventurer of Zaralek Cavern
+        Item({item = 200071}) -- Sacred Tuskarr Totem
+    }
+}) -- Colassian
+
+map.nodes[31805061] = Rare({
+    id = 203664,
+    rewards = {
+       Achievement({id = 17783, criteria = 59209}) -- Adventurer of Zaralek Cavern
+    }
+}) -- Emberdusk
 
 map.nodes[36324481] = Rare({
     id = 203660,
     quest = 75565,
     note = L['in_small_cave'],
+    rewards = {
+        Achievement({id = 17783, criteria = 59207}) -- Adventurer of Zaralek Cavern
+    },
     pois = {
         POI({35924400}) -- Entrance
     }
 }) -- Flowfy
 
-map.nodes[38424650] = Rare({
-    id = 203662,
-    quest = 75566,
-    rewards = {
-        Item({item = 199906}) -- Titan Relic
-    }
-}) -- Subterrax
-
-map.nodes[38867151] = Rare({id = 201029}) -- Veridian King
-
-map.nodes[40753817] = Rare({
-    id = 200111,
-    quest = 75561,
-    rewards = {
-        Transmog({item = 205070, slot = L['leather']}), -- Zaralek Surveyor's Bindings
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
-        Item({item = 192055}), -- Dragon Isle Artifact
-        Currency({id = 2245}) -- Flightstones
-    }
-}) -- Magmanesha
-
-map.nodes[41518613] = Rare({
-    id = 203621,
-    quest = 75556,
-    note = L['brulsef_the_stronk_note']
-}) -- Brulsef the Stronk
-
 map.nodes[41921857] = Rare({
     id = 203592,
     quest = 75552,
     rewards = {
+        Achievement({id = 17783, criteria = 59190}), -- Adventurer of Zaralek Cavern
         Item({item = 192055}) -- Dragon Isle Artifact
     },
     pois = {
@@ -85,38 +101,108 @@ map.nodes[41921857] = Rare({
     }
 }) -- General Zskorro
 
+map.nodes[68734593] = Rare({
+    id = 203477,
+    quest = 75548,
+    rewards = {
+        Achievement({id = 17783, criteria = 59186}) -- Adventurer of Zaralek Cavern
+    }
+}) -- Goopal
+
+map.nodes[45673327] = Rare({
+    id = 203627,
+    quest = 75558,
+    rewards = {
+        Achievement({id = 17783, criteria = 59200}) -- Adventurer of Zaralek Cavern
+    }
+}) -- Invohq
+
+map.nodes[28515115] = Rare({
+    id = 203646,
+    rewards = {
+        Achievement({id = 17783, criteria = 59206}) -- Adventurer of Zaralek Cavern
+    }
+}) -- Jrumm
+
 map.nodes[42226524] = Rare({
     id = 203625,
     quest = 75557,
     rewards = {
+        Achievement({id = 17783, criteria = 59199}), -- Adventurer of Zaralek Cavern
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
 }) -- Kairoktra
 
-map.nodes[45673327] = Rare({id = 203627, quest = 75558}) -- Invohq
-
-map.nodes[48367509] = Rare({
-    id = 203468,
-    quest = 75547,
+map.nodes[59593949] = Rare({
+    id = 203466,
+    quest = 75546,
     rewards = {
+        Achievement({id = 17783, criteria = 59184}), -- Adventurer of Zaralek Cavern
         Item({item = 192055}) -- Dragon Isle Artifact
     }
-}) -- Aquifon
+}) -- Kaprachu
 
-map.nodes[48372384] = Rare({
-    id = 204093,
-    quest = 75572,
+map.nodes[54074162] = Rare({
+    id = 203618,
     rewards = {
-        Item({item = 200071}) -- Sacred Tuskarr Totem
+        Achievement({id = 17783, criteria = 59198}) -- Adventurer of Zaralek Cavern
     }
-}) -- Colassian
+}) -- Klakatak
+
+map.nodes[65435587] = Rare({
+    id = 203462,
+    quest = 75545,
+    note = L['in_small_cave'],
+    rewards = {
+        Achievement({id = 17783, criteria = 59183}), -- Adventurer of Zaralek Cavern
+    },
+    pois = {
+        POI({64785550}) -- Entrance
+    }
+}) -- Kob'rok
+
+map.nodes[40753817] = Rare({
+    id = 200111,
+    quest = 75561,
+    rewards = {
+        Achievement({id = 17783, criteria = 59203}), -- Adventurer of Zaralek Cavern
+        Transmog({item = 205070, slot = L['leather']}), -- Zaralek Surveyor's Bindings
+        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        Item({item = 192055}), -- Dragon Isle Artifact
+        Currency({id = 2245}) -- Flightstones
+    }
+}) -- Magmanesha
+
+map.nodes[55841899] = Rare({
+    id = 203521,
+    quest = 75551,
+    note = L['in_cave'],
+    rewards = {
+        Achievement({id = 17783, criteria = 59189}), -- Adventurer of Zaralek Cavern
+        Item({item = 192055}) -- Dragon Isle Artifact
+    },
+    pois = {
+        POI({52921886}) -- Entrance
+    }
+}) -- Professor Gastrinax
+
+map.nodes[65875082] = Rare({
+    id = 203643,
+    quest = 75563,
+    rewards = {
+        Achievement({id = 17783, criteria = 59205}), -- Adventurer of Zaralek Cavern
+        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        Currency({id = 2245}) -- Flightstones
+    }
+}) -- Skornace
 
 map.nodes[53106421] = Rare({
     id = 203480,
     quest = 75549,
     note = L['in_small_cave'],
     rewards = {
+        Achievement({id = 17783, criteria = 59187}), -- Adventurer of Zaralek Cavern
         Transmog({item = 205067, slot = L['leather']}), -- Zaralek Surveyor's Helm
         Item({item = 192055}) -- Dragon Isle Artifact
     },
@@ -125,57 +211,29 @@ map.nodes[53106421] = Rare({
     }
 }) -- Spinmarrow
 
-map.nodes[54074162] = Rare({id = 203618}) -- Klakatak
-
-map.nodes[55841899] = Rare({
-    id = 203521,
-    quest = 75551,
-    note = L['in_cave'],
+map.nodes[38424650] = Rare({
+    id = 203662,
+    quest = 75566,
     rewards = {
-        Item({item = 192055}) -- Dragon Isle Artifact
-    },
-    pois = {
-        POI({52921886}) -- Entrance
+        Achievement({id = 17783, criteria = 59208}), -- Adventurer of Zaralek Cavern
+        Item({item = 199906}) -- Titan Relic
     }
-}) -- Professor Gastrinax
+}) -- Subterrax
 
-map.nodes[56247389] = Rare({
-    id = 203515,
+map.nodes[57806923] = Rare({
+    id = 203593,
+    quest = 75553,
     rewards = {
-        Transmog({item = 205097, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
-        Item({item = 200071}) -- Sacred Tuskarr Totem
+        Achievement({id = 17783, criteria = 59191}) -- Adventurer of Zaralek Cavern
     }
-}) -- Alcanon
+}) -- Underlight Queen
 
-map.nodes[59593949] = Rare({
-    id = 203466,
-    quest = 75546,
+map.nodes[38867151] = Rare({
+    id = 201029,
     rewards = {
-        Item({item = 192055}) -- Dragon Isle Artifact
+        Achievement({id = 17783, criteria = 59210}) -- Adventurer of Zaralek Cavern
     }
-}) -- Kaprachu
-
-map.nodes[61646714] = Rare({id = 203593, quest = 75553}) -- Underlight Queen
-
-map.nodes[65435587] = Rare({
-    id = 203462,
-    quest = 75545,
-    note = L['in_small_cave'],
-    pois = {
-        POI({64785550}) -- Entrance
-    }
-}) -- Kob'rok
-
-map.nodes[65875082] = Rare({
-    id = 203643,
-    quest = 75563,
-    rewards = {
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
-        Currency({id = 2245}) -- Flightstones
-    }
-}) -- Skornace
-
-map.nodes[68734593] = Rare({id = 203477, quest = 75548}) -- Goopal
+}) -- Veridian King
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
