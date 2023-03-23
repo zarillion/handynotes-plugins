@@ -358,25 +358,25 @@ L['vrykul_tome_label'] = nil
 
 L['library_note'] = 'Откройте {object:%s} и соберите {item:%s}.'
 
-L['options_icons_librarian_of_the_reach'] = nil
-L['options_icons_librarian_of_the_reach_desc'] = nil
+L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
+L['options_icons_librarian_of_the_reach_desc'] = 'Показать расположение книг для {achievement:17530}. {note:Некоторые книги находятся в {location:Зкерском Хранилище}}.'
 
 -- Scroll Hunter
-L['scroll_hunter_suffix'] = nil
-L['scroll_hunter_note'] = nil
+L['scroll_hunter_suffix'] = 'сокровища найденные из запечатанных свитках'
+L['scroll_hunter_note'] = 'Собирайте запечатанные свитки из различных редких монстров и сундуков в {location:Запретном краю}.\n\nИспользование {item:%s} покажет красный крестик на карте, в котором вам будет ждать {item:%s}, для повышения репутации с {faction:%s}.'
 
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
 L['options_icons_scroll_hunter_desc'] = 'Отображение мест вознаграждения за свитки для {achievement:17532}.'
 
 -- While We Were Sleeping
-L['options_icons_scalecommander_item'] = nil
-L['options_icons_scalecommander_item_desc'] = nil
+L['options_icons_scalecommander_item'] = '{achievement:17315}'
+L['options_icons_scalecommander_item_desc'] = 'Показать расположение предметов для {achievement:17315}. {note:Некоторые предметы находятся в {location:Зкерском Хранилище}}.'
 
 -- Misc
 L['spellsworn_gateway'] = nil
 L['gemstone_of_return'] = nil
 
-L['morqut_village_vendor_note'] = nil
+L['morqut_village_vendor_note'] = 'Обменяйте {currency:2118} или золото на средства передвижения, питомцев, трансмогрификацию, манускрипты для дракона, рецепты и другие полезные предметы.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
