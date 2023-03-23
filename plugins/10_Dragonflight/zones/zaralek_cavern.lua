@@ -574,10 +574,13 @@ map.nodes[44458040] = Collectible({
 
 -------------------------------------------------------------------------------
 
-map.nodes[55895537] = Collectible({
-    id = 203615,
+local LoammVendor = Class('LoammVendor', Collectible, {
     icon = 'peg_bl',
-    scale = 1.3,
+    scale = 1.3
+}) -- Loamm Vendor
+
+map.nodes[55895537] = LoammVendor({
+    id = 203615,
     note = 'Exchange {item:204727} for a pet, mount, and more.',
     rewards = {
         Pet({item = 205118, id = 3535, note = 'x50'}), -- Diamondshell
@@ -585,3 +588,15 @@ map.nodes[55895537] = Collectible({
         Mount({item = 205205, id = 196, note = 'x400'}) -- Scoria-Clad Sporebat -- TODO: FIX ID
     }
 }) -- Saccratos <Coveted Bauble Exchange>
+
+map.nodes[58085381] = LoammVendor({
+    id = 204693,
+    note = 'Exchange {item:204985} for drake customizations, pet, mount, and more.',
+    rewards = {
+        DC.WindingSlitherdrake.HairyBrow,
+        DC.WindingSlitherdrake.ClusterChinHorn,
+        DC.WindingSlitherdrake.CurledNose,
+        Pet({item = 205120, id = 3537, note = 'x85'}), -- Thimblerig
+        Mount({item = 205209, id = 1736, note = 'x170'}) -- Boulder Hauler
+    }
+}) -- Ponzo <Barterer Extraordinaire>
