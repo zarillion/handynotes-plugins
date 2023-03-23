@@ -352,7 +352,7 @@ L['options_icons_zskera_vaults_desc'] = 'Показать награды из {l
 L['confiscated_journal_label'] = nil
 L['farscale_manifesto_label'] = nil
 L['lost_expeditions_notes_label'] = nil
-L['pirate_proclamation_label'] = nil
+L['pirate_proclamation_label'] = 'Заявление пиратов'
 L['spellsworn_missive_label'] = nil
 L['vrykul_tome_label'] = nil
 
