@@ -546,7 +546,7 @@ L['options_icons_dragonbane_siege_desc'] = 'Muestra dónde están y las recompen
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
 
-L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.'
+L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.' -- 'Despoja tus recompensas del <objeto en inglés>
 
 L['blazing_shadowflame_chest_label'] = 'Blazing Shadowflame Chest'
 L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
@@ -556,7 +556,7 @@ L['charred_egg_label'] = 'Charred Egg'
 L['crystal_encased_chest_label'] = 'Crystal-Encased Chest'
 L['crystal_encased_chest_note'] = 'This has something to do with the {npc:204319} protecting the chest.' -- DEV NOTE - Do not translate
 L['moth_pilfered_pouch_label'] = 'Moth-Pilfered Pouch'
-L['moth_pilfered_pouch_note'] = 'Help the {npc:203225} to fly by "juggling" it until it has five stacks of {spell:405358}.\n\nIt will then fly to the pouch and reveal it to you.'
+L['moth_pilfered_pouch_note'] = 'Ayuda a {npc:203225} para que vuelve haciendo "malabarismos" hasta que tenga cinco acumulaciones de {spell:405358}.\n\nEntonces volará a la faltriquera y te la revelará.'
 L['stolen_stash_label'] = 'Stolen Stash'
 L['molten_hoard_label'] = 'Molten Hoard'
 L['ancient_zaqali_chest_label'] = 'Ancient Zaqali Chest'
@@ -568,4 +568,4 @@ L['long_lost_cache_label'] = 'Long-Lost Cache'
 L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.'
 L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'
 
-L['big_slick_note_1'] = '{npc:48182} can be found in old-world {location:Darkshore}. Speak with {npc:141489} to travel back in time before the {location:War of Thorns}.'
+L['big_slick_note_1'] = '{npc:48182} está en el viejo mundo de {location:Costa Oscura}. Habla con {npc:141489} para volver atrás en el tiempo antes de la {location:Guerra de las Espinas}.'
