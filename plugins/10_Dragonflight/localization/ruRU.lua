@@ -350,8 +350,8 @@ L['options_icons_zskera_vaults_desc'] = 'Показать награды из {l
 
 -- Librarian of the Reach
 L['confiscated_journal_label'] = nil
-L['farscale_manifesto_label'] = nil
-L['lost_expeditions_notes_label'] = nil
+L['farscale_manifesto_label'] = 'Манифест клана Далекой Чешуи'
+L['lost_expeditions_notes_label'] = 'Записки из экспедиции'
 L['pirate_proclamation_label'] = 'Заявление пиратов'
 L['spellsworn_missive_label'] = nil
 L['vrykul_tome_label'] = nil
