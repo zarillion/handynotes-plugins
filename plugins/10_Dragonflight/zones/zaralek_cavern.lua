@@ -329,12 +329,19 @@ local StolenStash = Class('StolenStash', Treasure,
 map.nodes[60664622] = StolenStash({quest = 75302})
 map.nodes[63603861] = StolenStash({quest = 75303})
 
-local RitualOffering = Class('RitualOffering', Treasure,
-    {label = 'Ritual Offering'}) -- Ritual Offering
+local RitualOffering = Class('RitualOffering', Treasure, {
+    label = 'Ritual Offering',
+    rewards = {
+        Item({item = 199906}), -- Titan Relic
+        Item({item = 204985}), -- Barter Brick
+        Currency({id = 2245}) -- Flightstones
+    }
+}) -- Ritual Offering
 
-map.nodes[35145225] = RitualOffering({quest = 73552}) --  maybe all offerings have the same quest id
 map.nodes[26874611] = RitualOffering()
+map.nodes[35145225] = RitualOffering({quest = 73552})
 map.nodes[36034452] = RitualOffering()
+map.nodes[41694457] = RitualOffering({quest = 73548})
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
