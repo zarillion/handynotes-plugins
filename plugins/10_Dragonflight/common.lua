@@ -589,7 +589,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         SweptSpikedHead = Item({item = 197113, quest = 69314}),
         TanHorns = Item({item = 197121, quest = 69322}),
         TaperedChin = Item({item = 197104, quest = 69305}),
-        TapereredNose = Item({item = 197136, quest = 69337}),
+        TaperedNose = Item({item = 197136, quest = 69337}),
         ThornedJaw = Item({item = 197115, quest = 69324}),
         ThornHorns = Item({item = 197123, quest = 69316}),
         ToothyMouth = Item({item = 197135, quest = 69336}),
@@ -663,6 +663,10 @@ ns.DRAGON_CUSTOMIZATIONS = {
         WideStripesPattern = Item({item = 197007, quest = 69207})
     }
 }
+
+ns.DRAGON_CUSTOMIZATIONS.SetNote = function(dc, note)
+    return Item({item = dc.item, quest = dc.quest, note = note})
+end
 
 -------------------------------------------------------------------------------
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
