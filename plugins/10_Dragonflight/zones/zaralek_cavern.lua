@@ -580,7 +580,7 @@ map.nodes[55895537] = Collectible({
     scale = 1.3,
     note = 'Exchange {item:204727} for a pet, mount, and more.',
     rewards = {
-        Pet({item = , id = 3535, note = 'x50'}), -- Diamondshell
+        Pet({item = 205118, id = 3535, note = 'x50'}), -- Diamondshell
         -- Item({item = nil, note = 'x100'}), -- UNKNOWN
         Mount({item = 205205, id = 196, note = 'x400'}) -- Scoria-Clad Sporebat -- TODO: FIX ID
     }
