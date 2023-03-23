@@ -571,3 +571,17 @@ map.nodes[44458040] = Collectible({
         Pet({item = 205123, id = 3540}) -- Brulee
     }
 }) -- Grogul <Race Coordinator>
+
+-------------------------------------------------------------------------------
+
+map.nodes[55895537] = Collectible({
+    id = 203615,
+    icon = 'peg_bl',
+    scale = 1.3,
+    note = 'Exchange {item:204727} for a pet, mount, and more.',
+    rewards = {
+        Pet({item = , id = 3535, note = 'x50'}), -- Diamondshell
+        -- Item({item = nil, note = 'x100'}), -- UNKNOWN
+        Mount({item = 205205, id = 196, note = 'x400'}) -- Scoria-Clad Sporebat -- TODO: FIX ID
+    }
+}) -- Saccratos <Coveted Bauble Exchange>
