@@ -144,10 +144,10 @@ L['flamescale_note'] = 'Usa la {object:Caña de Pescar Abandonada} para invocar 
 L['amateur_hunters_note'] = 'Tras derrotar a los tres {npc:Aventurero sin Escrúpulos} aparecerá el {object:Cofre Maltrecho} en la parte trasera de la cueva.'
 L['treasure_40482'] = 'En la nariz de la estatua enorme.'
 L['mrrklr_note'] = 'Libera a {npc:98754} para que aparezca {npc:98311}.'
-L['mytna_talonscreech_note'] = nil
-L['devouring_darkness_note'] = nil
+L['mytna_talonscreech_note'] = 'Habla con el {npc:97579} para empezar el combate contra {npc:97593}.'
+L['devouring_darkness_note'] = 'Apaga todas las {npc:97543} para invocar a {npc:100495}.'
 L['totally_safe_treasure_chest'] = 'Arqueta totalmente segura'
-L['rocfeather_kite_note'] = nil
+L['rocfeather_kite_note'] = 'Combina {item:131809}, {item:131926} y {item:131927} con {item:131810}, para conseguir la {item:131811}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------
