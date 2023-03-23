@@ -337,13 +337,13 @@ L['zskera_vaults_label'] = 'Зкерское Хранилище'
 L['zskera_vaults_note'] = 'Соберите {item:202196} из различных редких монстров и сундуков, чтобы открыть двери в {location:Зкерское Хранилище}.'
 L['door_buster_suffix'] = 'Двери открываются с помощью Ключей от Зкерского хранилища'
 
-L['recipe_rat_note_1'] = nil
-L['recipe_rat_note_2'] = nil
-L['recipe_rat_note_3'] = nil
-L['recipe_rat_note_4'] = nil
+L['recipe_rat_note_1'] = 'Поговорите с {npc:202982} в {location:Зкерском Хранилище}, после этого {item:202252} упадет в вашу сумку.'
+L['recipe_rat_note_2'] = 'Взаимодействуйте с {item:202252}, чтобы получить {item:204340}. {note:(перезарядка 5 минут)}'
+L['recipe_rat_note_3'] = 'Как только вы соберете 30x {item:204340}, объедините обрывки, чтобы получить рецепт.'
+L['recipe_rat_note_4'] = '{note:Эта крыса любит сыр и съедает один {item:3927} примерно каждые три минуты. Планируйте соответственно!}'
 
-L['mm_start_note'] = nil
-L['mm_status_note'] = nil
+L['mm_start_note'] = 'Собирайте и комбинируйте различные предметы, найденные внутри {location:Зкерского Хранилища}.'
+L['mm_status_note'] = 'Объедините следующие предметы:\n{item:%s}\n{item:%s}'
 
 L['options_icons_zskera_vaults'] = 'Зкерское Хранилище'
 L['options_icons_zskera_vaults_desc'] = 'Показать награды из {location:Зкерского Хранилища}.'
