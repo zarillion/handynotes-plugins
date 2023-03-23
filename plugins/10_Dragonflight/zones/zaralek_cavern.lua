@@ -312,8 +312,11 @@ map.nodes[48451083] = Treasure({label = L['fealtys_reward_label']}) -- Fealty's 
 
 map.nodes[56734868] = Treasure({
     label = L['moth_pilfered_pouch_label'],
+    quest = 75320,
     note = L['moth_pilfered_pouch_note'],
-    quest = 75320
+    pois = {
+        POI({56664934}) -- Struggling Mothling
+    }
 }) -- Moth-Pilfered Pouch
 
 map.nodes[61735511] = Treasure({
