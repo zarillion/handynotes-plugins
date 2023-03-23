@@ -354,7 +354,7 @@ L['farscale_manifesto_label'] = 'Манифест клана Далекой Че
 L['lost_expeditions_notes_label'] = 'Записки из экспедиции'
 L['pirate_proclamation_label'] = 'Заявление пиратов'
 L['spellsworn_missive_label'] = nil
-L['vrykul_tome_label'] = nil
+L['vrykul_tome_label'] = 'Врайкульский том'
 
 L['library_note'] = 'Откройте {object:%s} и соберите {item:%s}.'
 
