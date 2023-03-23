@@ -1370,7 +1370,7 @@ map.nodes[34015980] = MorqutVillageVendor({
     id = 200563,
     rewards = {
         DC.SetNote(DC.WindborneVelocidrake.ExposedFinnedNeck, 'x2500'),
-        DC.SetNote(DC.HighlandDrake.TaperedNose, 'x2500'),
+        DC.SetNote(DC.HighlandDrake.TaperedNose, 'x2500')
     }
 }) -- Kraxxus <Renown Envoy>
 
