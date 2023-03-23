@@ -598,6 +598,11 @@ ns.DRAGON_CUSTOMIZATIONS = {
         WhiteHair = Item({item = 196989, quest = 69189}),
         WhiteScales = Item({item = 197014, quest = 69214}),
         WideStripesPattern = Item({item = 197007, quest = 69207})
+    },
+    WindingSlitherdrake = {
+        ClusterChinHorn = Item({item = 203312, quest = nil}),
+        CurledNose = Item({item = 203346, quest = nil}),
+        HairyBrow = Item({item = 203308, quest = nil})
     }
 }
 
