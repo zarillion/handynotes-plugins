@@ -316,9 +316,6 @@ map.nodes[56734868] = Treasure({
     note = L['moth_pilfered_pouch_note'],
     pois = {
         POI({56664934}) -- Struggling Mothling
-    },
-    rewards = {
-        Item({item = 5263}) -- Pocket Lint
     }
 }) -- Moth-Pilfered Pouch
 
