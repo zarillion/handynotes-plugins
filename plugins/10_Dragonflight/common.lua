@@ -604,7 +604,6 @@ ns.DRAGON_CUSTOMIZATIONS = {
         Armor = Item({item = 203305, quest = nil}),
         BlondeHair = Item({item = 203322, quest = nil}),
         BlueAndSilverArmor = Item({item = 203300, quest = nil}),
-        BlueAndSilverArmor = Item({item = 408218, quest = nil}),
         BlueScales = Item({item = 203350, quest = nil}),
         BronzeScales = Item({item = 203351, quest = nil}),
         BrownHair = Item({item = 203323, quest = nil}),
@@ -615,7 +614,6 @@ ns.DRAGON_CUSTOMIZATIONS = {
         CurledHorns = Item({item = 203334, quest = nil}),
         CurledNose = Item({item = 203346, quest = nil}),
         CurvedChinHorn = Item({item = 203314, quest = nil}),
-        CurvedChinHorn = Item({item = 408222, quest = nil}),
         CurvedHorns = Item({item = 203335, quest = nil}),
         CurvedNoseHorn = Item({item = 203349, quest = nil}),
         Ears = Item({item = 203320, quest = nil}),
@@ -655,7 +653,6 @@ ns.DRAGON_CUSTOMIZATIONS = {
         SmallFinnedCrest = Item({item = 203317, quest = nil}),
         SmallFinnedTail = Item({item = 203358, quest = nil}),
         SmallFinnedThroat = Item({item = 203364, quest = nil}),
-        SmallFinnedThroat = Item({item = 408223, quest = nil}),
         SmallSpikedCrest = Item({item = 203315, quest = nil}),
         SpikedChin = Item({item = 203313, quest = nil}),
         SpikedHorns = Item({item = 203332, quest = nil}),
@@ -672,12 +669,10 @@ ns.DRAGON_CUSTOMIZATIONS = {
         TripleJawHorns = Item({item = 203342, quest = nil}),
         WhiteAndGoldArmor = Item({item = 203298, quest = nil}),
         WhiteHair = Item({item = 203324, quest = nil}),
-        WhiteHair = Item({item = 408221, quest = nil}),
         WhiteHorns = Item({item = 203328, quest = nil}),
         WhiteScales = Item({item = 203354, quest = nil}),
         WindingSlitherdrake = Item({item = 204361, quest = nil}),
         YellowAndSilverArmor = Item({item = 203304, quest = nil}),
-        YellowAndSilverArmor = Item({item = 408220, quest = nil}),
         YellowScales = Item({item = 203355, quest = nil})
     }
 }
