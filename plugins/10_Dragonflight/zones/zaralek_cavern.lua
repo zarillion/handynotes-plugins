@@ -184,7 +184,7 @@ map.nodes[68734593] = Rare({id = 203477, quest = 75548}) -- Goopal
 map.nodes[36694883] = Treasure({
     label = L['ancient_zaqali_chest_label'],
     rewards = {
-        Achievement({id = 17768, criteria = 59222}) -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59222}) -- Treasures of Zaralek Cavern
     }
 }) -- Ancient Zaqali Chest
 
@@ -192,7 +192,7 @@ map.nodes[28544791] = Treasure({
     label = L['blazing_shadowflame_chest_label'],
     note = L['blazing_shadowflame_chest_note'],
     rewards = {
-        Achievement({id = 17768, criteria = 59220}) -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59220}) -- Treasures of Zaralek Cavern
     }
 }) -- Blazing Shadowflame Chest
 
@@ -200,7 +200,7 @@ map.nodes[30044193] = Treasure({
     label = L['charred_egg_label'],
     quest = 73706,
     rewards = {
-        Achievement({id = 17768, criteria = 59226}) -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59226}) -- Treasures of Zaralek Cavern
     }
 }) -- Charred Egg
 
@@ -208,7 +208,7 @@ map.nodes[36397425] = Treasure({
     label = L['crystal_encased_chest_label'],
     note = L['crystal_encased_chest_note'],
     rewards = {
-        Achievement({id = 17768, criteria = 59228}) -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59228}) -- Treasures of Zaralek Cavern
     }
 }) -- Crystal-Encased Chest
 -- 'Attunement Crystal' @ 37756886 triggers quest 74987 and flys towards the chest
@@ -220,7 +220,7 @@ map.nodes[62715376] = Treasure({
     label = L['long_lost_cache_label'],
     quest = 75019,
     rewards = {
-        Achievement({id = 17768, criteria = 59223}) -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59223}) -- Treasures of Zaralek Cavern
     }
 }) -- Long-Lost Cache
 
@@ -228,7 +228,7 @@ map.nodes[43058256] = Treasure({
     label = L['old_trunk_label'],
     requires = ns.requirement.Item(204323), -- Old Trunk Key
     rewards = {
-        Achievement({id = 17768, criteria = 59227}) -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59227}) -- Treasures of Zaralek Cavern
     }
 }) -- Old Trunk
 
@@ -238,7 +238,7 @@ map.nodes[29774050] = Treasure({
     note = L['well_chewed_chest_note'],
     requires = ns.requirement.Item(202869), -- Scorching Key
     rewards = {
-        Achievement({id = 17768, criteria = 59219}) -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59219}) -- Treasures of Zaralek Cavern
     },
     pois = {
         POI({30314121}), -- Entrance
