@@ -146,6 +146,10 @@ L['flamescale_note'] = '使用 {object:被遗弃的鱼竿} 召唤 {npc:97793}。
 L['amateur_hunters_note'] = '在击败三个 {npc:业余猎手} 后，{object:破损的箱子} 会在小洞穴的后面出现。'
 L['treasure_40482'] = '在巨大雕像的鼻子上。'
 L['mrrklr_note'] = '解救 {npc:98754} 后 {npc:98311} 出现。'
+L['mytna_talonscreech_note'] = nil
+L['devouring_darkness_note'] = nil
+L['totally_safe_treasure_chest'] = '完全安全的宝箱'
+L['rocfeather_kite_note'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------

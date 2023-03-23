@@ -117,7 +117,7 @@ L['kaara_the_pale_note'] = '{npc:126860} no longer drops {item:153190}'
 L['turek_the_lucid_note'] = 'In the {location:Oronaar Collapse}'
 
 L['ancient_eredar_cache'] = 'Ancient Eredar Cache'
-L['ancient_eredar_cache_note'] = 'There are 6 unique ancient eredar caches that can each appear at set locations.'
+L['ancient_eredar_cache_note'] = 'There are 6 unique {object:ancient eredar caches} that can each appear at set locations.'
 L['void_seeped_cache'] = 'Void-Seeped Cache'
 L['void_seeped_cache_note'] = 'There are 2 unique void-seeped caches that can each appear at set locations. {note:These do not contain transmogs.}'
 
@@ -143,6 +143,10 @@ L['flamescale_note'] = 'Use the {object:Abandoned Fishing Pole} to summon {npc:9
 L['amateur_hunters_note'] = 'After defeating the three {npc:Amateur Hunters} the {object:Battered Chest} will spawn in the back of the small cave.'
 L['treasure_40482'] = 'On the nose of the huge statue.'
 L['mrrklr_note'] = 'Free {npc:98754} to spawn {npc:98311}.'
+L['mytna_talonscreech_note'] = 'Talk to {npc:97579} to start the fight against {npc:97593}.'
+L['devouring_darkness_note'] = 'Extinguish all {npc:97543s} to summon {npc:100495}.'
+L['totally_safe_treasure_chest'] = 'Totally Safe Treasure Chest'
+L['rocfeather_kite_note'] = 'Combine {item:131809}, {item:131926} and {item:131927} with {item:131810}, to get the {item:131811}.
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------

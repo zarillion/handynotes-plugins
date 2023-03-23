@@ -10,6 +10,7 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -28,8 +29,6 @@ local tt = Map({id = 750, settings = true}) -- Thunder Totem
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
-
--- https://wowwiki-archive.fandom.com/wiki/Highmountain/Rare_mobs
 
 map.nodes[43404750] = Rare({
     id = 100230,
@@ -91,27 +90,31 @@ map.nodes[43971131] = Rare({
     }
 }) -- Crab Rider Grmlrml
 
-map.nodes[48604060] = Rare({
+map.nodes[48394017] = Rare({
     id = 97345,
     quest = 39806,
+    note = L['rocfeather_kite_note'],
+    fgroup = 'rocfeather_kite',
     rewards = {
-        Achievement({id = 11264, criteria = 33326}) -- Adventurer of Highmountain
-        -- Gleaming Roc Feather(Item:131809) for Rocfeather Skyhorn Kite(TOY:131811)
+        Achievement({id = 11264, criteria = 33326}), -- Adventurer of Highmountain
+        Item({item = 131809}) -- Gleaming Roc Feather for Rocfeather Skyhorn Kite
     }
 }) -- Crawshuk the Hungry
 
-map.nodes[54604160] = Rare({
+map.nodes[54414115] = Rare({
     id = 100495,
     quest = 40414,
+    note = L['devouring_darkness_note'] .. '\n\n' .. L['in_cave'],
     rewards = {
         Achievement({id = 11264, criteria = 33337}), -- Adventurer of Highmountain
         Transmog({item = 131780, slot = L['cloth']}) -- Void Slippers
-    }
+    },
+    pois = {POI({55134426})}
 }) -- Devouring Darkness
 
 map.nodes[36404870] = Rare({
     id = 110378,
-    quest = 44503,
+    quest = nil, -- 44503
     rewards = {
         Achievement({id = 11160, criteria = 32094}), -- Unleashed Monstrosities
         Transmog({item = 141538, slot = L['cloak']}), -- Giant's Handkerchief
@@ -124,7 +127,7 @@ map.nodes[36404870] = Rare({
 
 map.nodes[43807560] = Rare({
     id = 96072,
-    quest = 45508,
+    quest = nil, -- 45508
     rewards = {
         Transmog({item = 131796, slot = L['leather']}) -- Roggumsoggum's Boppers
     }
@@ -149,7 +152,6 @@ map.nodes[40975773] = Rare({
 --         Transmog({item = 141475, slot = L['leather']}), -- Salt-Stained Tuskarr Gloves
 --         Transmog({item = 141466, slot = L['mail']}), -- Blackwater Raider Handguards
 --         Transmog({item = 141470, slot = L['cloth']}) -- Faded Bloodsail Handwraps
-
 --     }
 -- }) -- Flotsam (world boss)
 
@@ -176,12 +178,13 @@ map.nodes[51084825] = Rare({
     }
 }) -- Hartli the Snatcher
 
-map.nodes[50803460] = Rare({
+map.nodes[50803456] = Rare({
     id = 98024,
     quest = 40406,
     rewards = {
         Achievement({id = 11264, criteria = 33332}) -- Adventurer of Highmountain
-    }
+    },
+    pois = {POI({51493734})}
 }) -- Luggut the Eggeater
 
 map.nodes[45923033] = Rare({
@@ -213,19 +216,19 @@ map.nodes[49182711] = Rare({
     }
 }) -- Mellok, Son of Torok
 
-map.nodes[46600760] = Rare({
+map.nodes[46680745] = Rare({
     id = 98311,
     quest = 40096,
     note = L['mrrklr_note'],
     rewards = {
         Achievement({id = 11264, criteria = 33333}) -- Adventurer of Highmountain
-
     }
 }) -- Mrrklr
 
-map.nodes[54604060] = Rare({
+map.nodes[54544063] = Rare({
     id = 97593,
     quest = 39866,
+    note = L['mytna_talonscreech_note'],
     rewards = {
         Achievement({id = 11264, criteria = 33329}), -- Adventurer of Highmountain
         Transmog({item = 131792, slot = L['cloak']}) -- Harefoot Pinnacle Wrap
@@ -234,19 +237,11 @@ map.nodes[54604060] = Rare({
 
 map.nodes[47607380] = Rare({
     id = 95204,
-    quest = 39435,
+    quest = nil, -- 39435
     rewards = {
         Transmog({item = 131793, slot = L['cloth']}) -- Oubdob's Smashin' Sweatband
     }
 }) -- Oubdob da Smasher
-
-map.nodes[52405140] = Rare({
-    id = 97102,
-    quest = 41820,
-    rewards = {
-        Achievement({id = 11264, criteria = 33334}) -- Adventurer of Highmountain
-    }
-}) -- Ram'Pag - Actually Safe Treasure Chest
 
 map.nodes[44695492] = Rare({
     id = 101077,
@@ -263,7 +258,7 @@ map.nodes[44695492] = Rare({
     }
 }) -- Sekhan
 
-map.nodes[51002580] = Rare({
+map.nodes[51032570] = Rare({
     id = 97093,
     quest = 39762,
     rewards = {
@@ -275,10 +270,12 @@ map.nodes[51002580] = Rare({
 map.nodes[51403180] = Rare({
     id = 95872,
     quest = 39465,
+    note = L['in_small_cave'],
     rewards = {
         Achievement({id = 11264, criteria = 33318}), -- Adventurer of Highmountain
         Transmog({item = 131769, slot = L['cloth']}) -- The Taskmaster's Wristwraps
-    }
+    },
+    pois = {POI({50993200})}
 }) -- Skullhat
 
 map.nodes[41483178] = Rare({
@@ -292,7 +289,7 @@ map.nodes[41483178] = Rare({
 map.nodes[53805120] = Rare({
     id = 97653,
     quest = 39872,
-    note = L['taurson_note'] .. '\n\n' .. L['in_small_cave'],
+    note = L['taurson_note'] .. '\n\n' .. L['in_waterfall_cave'],
     rewards = {
         Achievement({id = 11264, criteria = 33330}), -- Adventurer of Highmountain
         Transmog({item = 131800, slot = L['plate']}) -- The Beastly Boxer
@@ -341,25 +338,33 @@ local TreasuresOfHighmountain = Achievement({
     criteria = {id = 1, qty = true}
 })
 
--- wowhead.com/achievement=11257/treasures-of-highmountain#comments:id=2470109
-
 tt.nodes[63525933] = Treasure({
     label = L['steamy_jewelry_box'],
-    quest = 39531,
+    quest = 39561,
     parent = map.id,
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[52405150] = Treasure({
+map.nodes[52325139] = Treasure({
     label = L['totally_safe_treasure_chest'],
-    quest = 39766,
-    rewards = {TreasuresOfHighmountain}
+    quest = {40610, 39766},
+    rewards = {
+        Achievement({id = 11264, criteria = 33334}), -- Adventurer of Highmountain
+        TreasuresOfHighmountain
+    }
 })
 
-map.nodes[41604990] = Treasure({
-    label = L['floating_treasure'],
+map.nodes[41004932] = Treasure({
+    label = '{npc:95958}',
     quest = 39494,
-    rewards = {TreasuresOfHighmountain}
+    rewards = {TreasuresOfHighmountain},
+    pois = {
+        Path({
+            37384655, 37654716, 38344758, 38764761, 39334785, 39934854,
+            40084890, 40434918, 41004932, 41774959, 42045048, 42115143,
+            42005206, 42075271
+        }), POI({37384655, 42075271})
+    }
 })
 
 map.nodes[46662813] = Treasure({
@@ -369,7 +374,7 @@ map.nodes[46662813] = Treasure({
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[54204160] = Treasure({
+map.nodes[54184160] = Treasure({
     label = L['glimmering_treasure_chest'],
     quest = 40483,
     rewards = {TreasuresOfHighmountain}
@@ -399,7 +404,9 @@ map.nodes[45182745] = Treasure({
 map.nodes[53504350] = Treasure({
     label = L['small_treasure_chest'],
     quest = 40484,
-    rewards = {TreasuresOfHighmountain}
+    note = L['in_cave'],
+    rewards = {TreasuresOfHighmountain},
+    pois = {POI({55134426})}
 })
 
 map.nodes[37353380] = Treasure({
@@ -408,13 +415,15 @@ map.nodes[37353380] = Treasure({
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[53005220] = Treasure({
+map.nodes[53045223] = Treasure({
     label = L['small_treasure_chest'],
     quest = 40493,
-    rewards = {TreasuresOfHighmountain}
+    note = L['in_cave'],
+    rewards = {TreasuresOfHighmountain},
+    pois = {POI({50115364})}
 })
 
-map.nodes[53103950] = Treasure({
+map.nodes[53063947] = Treasure({
     label = L['small_treasure_chest'],
     quest = 40499,
     rewards = {TreasuresOfHighmountain}
@@ -433,10 +442,12 @@ map.nodes[43747275] = Treasure({
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[50203860] = Treasure({
+map.nodes[50253862] = Treasure({
     label = L['small_treasure_chest'],
     quest = 40497,
-    rewards = {TreasuresOfHighmountain}
+    note = L['in_cave'],
+    rewards = {TreasuresOfHighmountain},
+    pois = {POI({51493734})}
 })
 
 map.nodes[53404868] = Treasure({
@@ -451,13 +462,13 @@ map.nodes[55154966] = Treasure({
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[46804010] = Treasure({
+map.nodes[46814014] = Treasure({
     label = L['small_treasure_chest'],
     quest = 40507,
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[50803500] = Treasure({
+map.nodes[50813505] = Treasure({
     label = L['small_treasure_chest'],
     quest = 40506,
     rewards = {TreasuresOfHighmountain}
@@ -498,13 +509,17 @@ map.nodes[46237341] = Treasure({
     pois = {POI({41447253})}
 })
 
-map.nodes[47604400] = Treasure({
+map.nodes[47634406] = Treasure({
     label = L['treasure_chest'],
     quest = 39503,
-    rewards = {TreasuresOfHighmountain}
-}) -- Delicate Roc Feather(Item:131926) for Rocfeather Skyhorn Kite(TOY:131811)
+    note = L['rocfeather_kite_note'],
+    fgroup = 'rocfeather_kite',
+    rewards = {
+        TreasuresOfHighmountain, Item({item = 131926}) -- Delicate Roc Feather for Rocfeather Skyhorn Kite
+    }
+})
 
-map.nodes[51003880] = Treasure({
+map.nodes[50983880] = Treasure({
     label = L['treasure_chest'],
     quest = 40498,
     rewards = {TreasuresOfHighmountain}
@@ -535,19 +550,31 @@ map.nodes[39307620] = Treasure({
     label = L['treasure_chest'],
     quest = 40473,
     rewards = {TreasuresOfHighmountain}
-})
+}) -- probably phased
 
-map.nodes[51003640] = Treasure({
+map.nodes[40983446] = Treasure({
     label = L['treasure_chest'],
     quest = 40496,
-    rewards = {TreasuresOfHighmountain}
+    note = L['in_cave'],
+    rewards = {TreasuresOfHighmountain},
+    pois = {POI({51493734})}
 })
 
 map.nodes[53625103] = Treasure({
-    label = L['treasure_chest'],
+    label = '{item:131811}',
+    icon = 604252,
     quest = 39824,
-    rewards = {TreasuresOfHighmountain}
-}) -- Derelict Skyhorn Kite(Item:131810) for Rocfeather Skyhorn Kite(TOY:131811)
+    note = L['rocfeather_kite_note'],
+    fgroup = 'rocfeather_kite',
+    rewards = {
+        TreasuresOfHighmountain, Item({item = 131810}), Toy({item = 131811})
+    }
+    -- ,pois = {
+    --     Path({53625103,48394017}), -- Gleaming Roc Feather
+    --     Path({53625103,47634406}), -- Delicate Roc Feather
+    --     Path({53625103,49643775}) -- Shimmering Roc Feather
+    -- }
+})
 
 grotto.nodes[36067252] = Treasure({
     label = L['treasure_chest'],
@@ -556,13 +583,17 @@ grotto.nodes[36067252] = Treasure({
     rewards = {TreasuresOfHighmountain}
 })
 
-map.nodes[49603770] = Treasure({
+map.nodes[49643775] = Treasure({
     label = L['treasure_chest'],
     quest = 39466,
-    rewards = {TreasuresOfHighmountain}
-}) -- Shimmering Roc Feather(Item:131927) for Rocfeather Skyhorn Kite(TOY:131811)
+    note = L['rocfeather_kite_note'],
+    fgroup = 'rocfeather_kite',
+    rewards = {
+        TreasuresOfHighmountain, Item({item = 131927}) -- Shimmering Roc Feather for Rocfeather Skyhorn Kite
+    }
+})
 
-map.nodes[52003240] = Treasure({
+map.nodes[52033241] = Treasure({
     label = L['treasure_chest'],
     quest = 40505,
     rewards = {TreasuresOfHighmountain}

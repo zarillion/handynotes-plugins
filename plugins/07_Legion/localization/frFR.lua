@@ -144,6 +144,10 @@ L['flamescale_note'] = 'Utilisez la {object:Canne à pêche abandonnée} pour in
 L['amateur_hunters_note'] = 'Après avoir vaincu les trois {npc:Chasseurs amateurs}, le {object:Coffre endommagé} apparaît au fond de la petite grotte.'
 L['treasure_40482'] = 'Sur le nez de la grande statue.'
 L['mrrklr_note'] = 'Libérez {npc:98754} pour faire aparaître {npc:98311}.'
+L['mytna_talonscreech_note'] = nil
+L['devouring_darkness_note'] = nil
+L['totally_safe_treasure_chest'] = 'Coffre au trésor dénué de tout danger'
+L['rocfeather_kite_note'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------
