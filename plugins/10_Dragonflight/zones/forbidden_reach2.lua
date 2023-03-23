@@ -1369,8 +1369,8 @@ map.nodes[34075997] = MorqutVillageVendor({
 map.nodes[34015980] = MorqutVillageVendor({
     id = 200563,
     rewards = {
-        Item({item = 197626, quest = 69831, note = 'x2500'}), -- Windbone Velocidrake: Exposed Finned Neck
-        Item({item = 197136, quest = 69337, note = 'x2500'}) -- Highland Drake: Tapered Nose
+        DC.SetNote(DC.WindborneVelocidrake.ExposedFinnedNeck, 'x2500'),
+        DC.SetNote(DC.HighlandDrake.TaperedNose, 'x2500'),
     }
 }) -- Kraxxus <Renown Envoy>
 
