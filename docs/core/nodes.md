@@ -3,6 +3,7 @@
 ## Node
 
 This is the base class for all displayed nodes.
+Examples usually have the minimal required properties set.
 
 **Example:**
 ``` lua
@@ -12,7 +13,7 @@ ns.node.Node({
     note = 'This is a Note on the Example Node.'
 })
 ```
-
+### Properties
 All Node classes can have following Properties by default:
 
 * `label` (string) (*required*)
@@ -54,3 +55,105 @@ All Node classes can have following Properties by default:
   * Requirements to interact or unlock
 * `rewards` ([Reward](rewards.html)[ ])
   * Array of rewards for this node
+
+---
+
+## Collectible
+**Example:**
+``` lua
+ns.node.Collectible({
+    label = 'Collectible',
+    note = 'This is a Note on Collectible Node.'
+})
+```
+* todo
+
+---
+
+## Intro
+**Example:**
+``` lua
+ns.node.Intro({
+    label = 'Example Node',
+    icon = 'peg_yw',
+    note = 'This is a Note on the Intro Node.'
+})
+```
+* todo
+
+---
+
+## Item
+**Example:**
+``` lua
+ns.node.Item({
+    item = item_id,
+    note = 'This is a Note on the Item Node.'
+})
+```
+* todo
+
+---
+
+## NPC
+**Example:**
+``` lua
+ns.node.NPC({
+    id = npc_id,
+    icon = 'peg_yw',
+    note = 'This is a Note on the NPC Node.'
+})
+```
+* todo
+
+---
+
+## PetBattle
+**Example:**
+``` lua
+ns.node.PetBattle({
+    label = 'Example Node',
+    icon = 'peg_yw',
+    note = 'This is a Note on the PetBattle Node.'
+})
+```
+* todo
+
+---
+
+## Quest
+**Example:**
+``` lua
+ns.node.Quest({
+    label = 'Example Node',
+    icon = 'peg_yw',
+    note = 'This is a Note on the Quest Node.'
+})
+```
+* todo
+
+---
+
+## Rare
+**Example:**
+``` lua
+ns.node.Rare({
+    id = npc_id,
+    quest = quest_id, -- optional but reccomended
+    note = 'This is a Note on the Rare Node.'
+})
+```
+* todo
+
+---
+
+## Treasure
+**Example:**
+``` lua
+ns.node.Treasure({
+    label = 'Treasure Node',
+    quest = quest_id, -- optional but reccomended
+    note = 'This is a Note on the Treasure Node.'
+})
+```
+* todo
