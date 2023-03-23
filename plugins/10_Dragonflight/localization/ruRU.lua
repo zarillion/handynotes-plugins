@@ -311,7 +311,7 @@ L['pr_volatile_brazier'] = nil
 L['storm_bound_chest_label'] = nil
 
 -- Forbidden Hoard
-L['hoarder_of_the_forbidden_reach_suffix'] = nil
+L['hoarder_of_the_forbidden_reach_suffix'] = 'маленьких сокровищ открыто'
 L['forbidden_spoils_suffix'] = nil
 L['forbidden_hoard_label'] = nil
 
