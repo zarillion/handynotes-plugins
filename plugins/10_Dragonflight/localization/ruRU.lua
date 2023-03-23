@@ -279,7 +279,7 @@ L['in_the_lost_atheneum'] = nil
 L['in_the_siege_creche'] = nil
 L['in_the_support_creche'] = nil
 L['in_the_war_creche'] = nil
-L['in_zskera_vaults'] = nil
+L['in_zskera_vaults'] = 'В пределах {location:Зкерского Хранилища}.'
 
 -- Rares
 L['duzalgor_note'] = nil
