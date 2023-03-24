@@ -63,7 +63,7 @@ L['hard'] = '困難'
 L['heirloom'] = '傳家寶'
 L['mount'] = '坐騎'
 L['pet'] = '戰寵'
-L['recipe'] = nil
+L['recipe'] = '配方'
 L['spell'] = '法術'
 L['title'] = '稱號'
 L['toy'] = '玩具'
@@ -82,9 +82,9 @@ L['follower_type_follower'] = '追隨者'
 L['follower_type_champion'] = '勇士'
 L['follower_type_companion'] = '夥伴'
 
-L['rep_honored'] = nil
-L['rep_revered'] = nil
-L['rep_exalted'] = nil
+L['rep_honored'] = '尊敬'
+L['rep_revered'] = '崇敬'
+L['rep_exalted'] = '崇拜'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -93,7 +93,7 @@ L['rep_exalted'] = nil
 L['context_menu_set_waypoint'] = '設定地圖路徑點'
 L['context_menu_add_tomtom'] = '加入到TomTom'
 L['context_menu_add_group_tomtom'] = '加入群組到TomTom'
-L['context_menu_add_focus_group_tomtom'] = nil
+L['context_menu_add_focus_group_tomtom'] = '加入相關點到TomTom'
 L['context_menu_hide_node'] = '隱藏此節點'
 L['context_menu_restore_hidden_nodes'] = '恢復所有隱藏節點'
 
@@ -150,8 +150,8 @@ L['options_mount_rewards'] = '顯示坐騎獎勵'
 L['options_mount_rewards_desc'] = '在提示顯示坐騎獎勵並追蹤收集狀態'
 L['options_pet_rewards'] = '顯示戰寵獎勵'
 L['options_pet_rewards_desc'] = '在提示顯示戰寵獎勵並追蹤收集狀態'
-L['options_recipe_rewards'] = nil
-L['options_recipe_rewards_desc'] = nil
+L['options_recipe_rewards'] = '顯示配方獎勵'
+L['options_recipe_rewards_desc'] = '在提示顯示配方獎勵並追蹤收集狀態'
 L['options_toy_rewards'] = '顯示玩具獎勵'
 L['options_toy_rewards_desc'] = '在提示顯示玩具獎勵並追蹤收集狀態'
 L['options_transmog_rewards'] = '顯示塑形獎勵'
@@ -185,8 +185,8 @@ L['options_toggle_show_loot'] = '顯示戰利品'
 L['options_toggle_show_loot_desc'] = '在工具提示中加入戰利品資訊'
 L['options_toggle_show_notes'] = '顯示註記'
 L['options_toggle_show_notes_desc'] = '在可用的工具提示中加入有用的註記'
-L['options_toggle_use_standard_time'] = nil
-L['options_toggle_use_standard_time_desc'] = nil
+L['options_toggle_use_standard_time'] = '使用12小時制'
+L['options_toggle_use_standard_time_desc'] = '在提示使用12小時制 (例. 8:00 PM) 而不是24小時制 (例. 20:00).'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 
