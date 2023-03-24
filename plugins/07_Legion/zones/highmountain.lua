@@ -42,7 +42,7 @@ map.nodes[43404750] = Rare({
 
 map.nodes[48675008] = Rare({
     id = 97220,
-    quest = 40601, -- 39784
+    quest = 39784,
     note = L['arru_note'],
     rewards = {
         Achievement({id = 11264, criteria = 33324}) -- Adventurer of Highmountain
@@ -112,22 +112,22 @@ map.nodes[54414115] = Rare({
     pois = {POI({55134426})}
 }) -- Devouring Darkness
 
-map.nodes[36404870] = Rare({
-    id = 110378,
-    quest = nil, -- 44503
-    rewards = {
-        Achievement({id = 11160, criteria = 32094}), -- Unleashed Monstrosities
-        Transmog({item = 141538, slot = L['cloak']}), -- Giant's Handkerchief
-        Transmog({item = 141429, slot = L['leather']}), -- Wax-Sealed Leather Bracers
-        Transmog({item = 141433, slot = L['mail']}), -- Assorted Dragonscale Bracers
-        Transmog({item = 141439, slot = L['plate']}), -- Ettinbone Bracers
-        Transmog({item = 141428, slot = L['cloth']}) -- Snowdrift Bracers
-    }
-}) -- Drugon the Frostblood
+-- map.nodes[36404870] = Rare({
+--     id = 110378,
+--     quest = 44503, -- 44898 bonus roll
+--     rewards = {
+--         Achievement({id = 11160, criteria = 32094}), -- Unleashed Monstrosities
+--         Transmog({item = 141538, slot = L['cloak']}), -- Giant's Handkerchief
+--         Transmog({item = 141429, slot = L['leather']}), -- Wax-Sealed Leather Bracers
+--         Transmog({item = 141433, slot = L['mail']}), -- Assorted Dragonscale Bracers
+--         Transmog({item = 141439, slot = L['plate']}), -- Ettinbone Bracers
+--         Transmog({item = 141428, slot = L['cloth']}) -- Snowdrift Bracers
+--     }
+-- }) -- Drugon the Frostblood (world boss)
 
 map.nodes[43807560] = Rare({
     id = 96072,
-    quest = nil, -- 45508
+    quest = 45508,
     rewards = {
         Transmog({item = 131796, slot = L['leather']}) -- Roggumsoggum's Boppers
     }
@@ -144,7 +144,7 @@ map.nodes[40975773] = Rare({
 
 -- map.nodes[50005000] = Rare({
 --     id = 99929,
---     quest = nil,
+--     quest = 44504, -- 44899 bonus roll
 --     rewards = {
 --         Achievement({id = 11160, criteria = 32095}), -- Unleashed Monstrosities
 --         Transmog({item = 141539, slot = L['cloak']}), -- Ragged Azsharan Sail Fragment
@@ -237,7 +237,7 @@ map.nodes[54544063] = Rare({
 
 map.nodes[47607380] = Rare({
     id = 95204,
-    quest = nil, -- 39435
+    quest = 39435,
     rewards = {
         Transmog({item = 131793, slot = L['cloth']}) -- Oubdob's Smashin' Sweatband
     }
@@ -340,14 +340,14 @@ local TreasuresOfHighmountain = Achievement({
 
 tt.nodes[63525933] = Treasure({
     label = L['steamy_jewelry_box'],
-    quest = 39561,
+    quest = 39531,
     parent = map.id,
     rewards = {TreasuresOfHighmountain}
 })
 
 map.nodes[52325139] = Treasure({
     label = L['totally_safe_treasure_chest'],
-    quest = {40610, 39766},
+    quest = 39766,
     rewards = {
         Achievement({id = 11264, criteria = 33334}), -- Adventurer of Highmountain
         TreasuresOfHighmountain
