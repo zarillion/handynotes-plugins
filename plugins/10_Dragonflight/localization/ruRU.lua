@@ -303,7 +303,7 @@ L['pr_resonant_crystal'] = nil
 L['pr_rumbling_deposit'] = nil
 L['pr_spellsworn_ward'] = nil
 L['pr_spiceless_stew'] = 'Несоленый суп'
-L['pr_tuskarr_kite_post'] = nil
+L['pr_tuskarr_kite_post'] = 'Столбик для клыкаррских воздушных змеев'
 L['pr_tuskarr_tanning_rack'] = 'Клыкаррская дубильная стойка'
 L['pr_volatile_brazier'] = nil
 
