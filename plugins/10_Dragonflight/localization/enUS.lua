@@ -51,6 +51,7 @@ L['options_icons_scout_pack_desc'] = 'Display possible locations of {object:Expe
 L['magicbound_chest'] = 'Magic-Bound Chest'
 L['options_icons_magicbound_chest'] = 'Magic-Bound Chests'
 L['options_icons_magicbound_chest_desc'] = 'Display possible locations of {object:Magic-Bound Chests}.'
+L['ice_bound_chest'] = 'Ice Bound Chest'
 
 L['tuskarr_tacklebox'] = 'Tuskarr Tacklebox'
 L['options_icons_tuskarr_tacklebox'] = 'Tuskarr Tackleboxes'
@@ -90,8 +91,10 @@ L['signal_transmitter_note'] = '{note:Requires 10 points in Mechanical Mind\nReq
 L['options_icons_signal_transmitter'] = 'Wyrmhole Generator Signal Transmitters'
 L['options_icons_signal_transmitter_desc'] = 'Display {object:Deactivated Signal Transmitters} locations for the {item:198156}.'
 
-L['rare_14h'] = 'The rare is on a 14 hour rotation with other rares, one rare can spawning every 30 minutes.\n\nNext possible spawn: {note:%s} (local time)'
-L['time_format'] = '%H:%M - %m/%d'
+L['rare_14h'] = 'This rare is on a 14 hour rotation with other rares with one rare spawning every 30 minutes.\n\nNext spawn in: {note:%s}'
+L['time_format_12hrs'] = '%B %d - %I:%M %p local time'
+L['time_format_24hrs'] = '%B %d - %H:%M local time'
+L['now'] = 'Now'
 L['spawns_at_night'] = '{note:Spawns only at night. (After 18:30 server time)}'
 
 L['elemental_storm'] = 'Elemental Storm'
@@ -136,13 +139,29 @@ L['ancient_stone_label'] = 'Ancient Stone'
 L['options_icons_ancient_stones'] = '{achievement:17560}'
 L['options_icons_ancient_stones_desc'] = 'Display {object:Ancient Stone} locations for {achievement:17560}.'
 
+L['reed_chest'] = 'Reed Chest'
+L['options_icons_reed_chest'] = 'Reed Chest'
+L['options_icons_reed_chest_desc'] = 'Display possible locations of {object:Reed Chests}.'
+
+L['dracthyr_supply_chest'] = 'Dracthyr Supply Chest'
+L['options_icons_dracthyr_supply_chest'] = 'Dracthyr Supply Chest'
+L['options_icons_dracthyr_supply_chest_desc'] = 'Display possible locations of {object:Dracthyr Supply Chests}.'
+
+L['simmering_chest'] = 'Simmering Chest'
+L['options_icons_simmering_chest'] = 'Simmering Chest'
+L['options_icons_simmering_chest_desc'] = 'Display possible locations of {object:Simmering Chests}.'
+
+L['frostbound_chest'] = 'Frostbound Chest'
+L['options_icons_frostbound_chest'] = 'Frostbound Chest'
+L['options_icons_frostbound_chest_desc'] = 'Display possible locations of {object:Frostbound Chests}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['bisquis_note'] = 'Cook Legendary soup at the Community Feast in {location:Iskaara}, then defeat {npc:197557}.\n\nNext Feast: {note:%s} (local time)'
+L['bisquis_note'] = 'Cook Legendary soup at the Community Feast in {location:Iskaara}, then defeat {npc:197557}.\n\nNext Feast: {note:%s}'
 L['blightfur_note'] = 'Talk to {npc:193633} to summon the rare.'
-L['brackenhide_rare_note'] = 'These rares spawn in a set rotation of {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} on a 10 minute timer.\n\nNext possible spawn: {note:%s} (local time)'
+L['brackenhide_rare_note'] = 'These rares spawn in a set rotation of {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} on a 10 minute timer.\n\nNext possible spawn: {note:%s}'
 L['fisherman_tinnak_note'] = 'Collect {object:Broken Fishing Pole}, {object:Torn Fishing Net} and {object:Old Harpoon} to spawn the rare.'
 L['frostpaw_note'] = 'After taking the {object:Wooden Hammer}, you have 20 seconds to hit the {object:Whack a Gnoll} on the {object:Tree Stump}, and spawn the rare.'
 L['sharpfang_note'] = 'Help {npc:192747} defeat {npc:192748s} to spawn the rare.'
@@ -233,8 +252,20 @@ L['community_feast_label'] = 'Community Feast'
 L['options_icons_community_feast'] = 'Community Feast'
 L['options_icons_community_feast_desc'] = 'Display location and rewards for the Community Feast.'
 
+L['decay_covered_chest'] = 'Decay Covered Chest'
+L['options_icons_decay_covered_chest'] = 'Decay Covered Chest'
+L['options_icons_decay_covered_chest_desc'] = 'Display possible locations of {object:Decay Covered Chests}.'
+
+L['icemaw_storage_cache'] = 'Icemaw Storage Cache'
+L['options_icons_icemaw_storage_cache'] = 'Icemaw Storage Cache'
+L['options_icons_icemaw_storage_cache_desc'] = 'Display possible locations of {object:Icemaw Storage Caches}.'
+
+L['kazzi_note_start'] = 'Exchange {item:202017} and {item:202018} for transmog, drake customization, a pet, and more.'
+L['kazzi_note_item'] = 'You currently have %s {item:%s}.'
+L['kazzi_achievement_suffix'] = 'rank in the Winterpelt language'
+
 -------------------------------------------------------------------------------
-------------------------------- FORBIDDEN REACH -------------------------------
+------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
 
 L['bag_of_enchanted_wind'] = 'Bag of Enchanted Wind'
@@ -244,6 +275,117 @@ L['lost_draconic_hourglass'] = 'Lost Draconic Hourglass'
 L['suspicious_bottle_treasure'] = 'Suspicious Bottle'
 L['mysterious_wand'] = 'Mysterious Wand'
 L['mysterious_wand_note'] = 'Pick up the {object:Crystal Key} and place it into the {object:Crystal Focus}.'
+
+-------------------------------------------------------------------------------
+------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
+-------------------------------------------------------------------------------
+
+-- Locations
+L['in_dragonskull_island'] = 'Within {location:Dragonskull Island}.'
+L['in_froststone_vault'] = 'Within {location:Froststone Vault}.'
+L['in_the_high_creche'] = 'Within {location:The High Creche}'
+L['in_the_lost_atheneum'] = 'Within {location:The Lost Atheneum}.'
+L['in_the_siege_creche'] = 'Within {location:The Siege Creche}.'
+L['in_the_support_creche'] = 'Within {location:The Support Creche}.'
+L['in_the_war_creche'] = 'Deep within {location:The War Creche}'
+L['in_zskera_vaults'] = 'Within {location:Zskera Vaults}.'
+
+-- Rares
+L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal from the poisonous gas within {location:The Support Creche}.'
+L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}'
+L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}'
+L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {spell:132653} and will run away when attacked.\n\n{note:Kill him quickly before he finishes casting {spell:406141}.}'
+
+-- Profession Rares
+L['profession_required'] = '{note:Requires a player with the %s profession.}'
+L['pr_crafting_note'] = 'Craft {item:%s} with {item:%s} and interact with {object:%s} to summon the rare.'
+L['pr_gathering_note'] = 'Use {item:%s} to interact with {object:%s} to summon the rare.'
+L['pr_recipe_note'] = 'The recipe {item:%s} can be purchased from {npc:202445} for 10 {item:190456}.'
+
+L['pr_awakened_soil'] = 'Awakened Soil'
+L['pr_book_of_arcane_entities'] = 'Book of Arcane Entities'
+L['pr_damaged_buzzspire'] = 'Damaged Buzzspire 505'
+L['pr_empty_crab_trap'] = 'Empty Crab Trap'
+L['pr_farescale_shrine'] = 'Farscale Shrine'
+L['pr_raw_argali_pelts'] = 'Raw Argali Pelts'
+L['pr_resonant_crystal'] = 'Resonant Crystal'
+L['pr_rumbling_deposit'] = 'Rumbling Deposit'
+L['pr_spellsworn_ward'] = 'Spellsworn Ward'
+L['pr_spiceless_stew'] = 'Spiceless Stew'
+L['pr_tuskarr_kite_post'] = 'Tuskarr Kite Post'
+L['pr_tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack'
+L['pr_volatile_brazier'] = 'Volatile Brazier'
+
+-- Treasures
+L['storm_bound_chest_label'] = 'Storm-Bound Chest'
+
+-- Forbidden Hoard
+L['hoarder_of_the_forbidden_reach_suffix'] = 'small treasures opened'
+L['forbidden_spoils_suffix'] = 'Forbidden Hoards opened'
+L['forbidden_hoard_label'] = 'Forbidden Hoard'
+
+L['options_icons_forbidden_hoard'] = 'Forbidden Hoard'
+L['options_icons_forbidden_hoard_desc'] = 'Display possible locations of {object:Forbidden Hoard} chests.'
+
+-- Froststone Primal Vault Storm
+L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm'
+L['gooey_snailemental_note'] = 'Combine x50 {item:204352} collected from {object:Froststone Vault Primal Storm} bosses to create {item:192785}.'
+
+L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm'
+L['options_icons_froststone_vault_storm_desc'] = 'Display location and rewards for {object:Froststone Vault Primal Storm}'
+
+-- Small Treasures
+L['small_treasures_label'] = 'Small Treasure'
+L['small_treasures_note'] = 'Small treasures are shared between spawn points.\n\nPurchase {item:204558} from {npc:200566} at {location:Morqut Village} to receive the {spell:405637} buff which allows you to see small treasures on the minimap for 60 minutes.'
+
+L['options_icons_small_treasures'] = 'Small Treasures'
+L['options_icons_small_treasures_desc'] = 'Display possible locations for small treasures.'
+
+-- Zskera Vaults
+L['zskera_vaults_label'] = 'Zskera Vaults'
+L['zskera_vaults_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vaults}.'
+L['door_buster_suffix'] = 'Doors unlocked using Zskera Vault keys'
+
+L['recipe_rat_note_1'] = 'Speak to the {npc:202982} within {location:Zskera Vault} and {item:202252} will enter your bags.'
+L['recipe_rat_note_2'] = 'Interact with {item:202252} to receive {item:204340}. {note:(5 minute cooldown)}'
+L['recipe_rat_note_3'] = 'Once you have 30x {item:204340} combine the scraps to receive the recipe.'
+L['recipe_rat_note_4'] = '{note:This rat loves cheese and will consume one {item:3927} roughly every three minutes. Plan accordingly!}'
+
+L['mm_start_note'] = 'Collect and combine various items found within {location:Zskera Vaults}.'
+L['mm_status_note'] = 'Combine the following items:\n{item:%s}\n{item:%s}'
+
+L['options_icons_zskera_vaults'] = 'Zskera Vaults'
+L['options_icons_zskera_vaults_desc'] = 'Display rewards for {location:Zskera Vaults}.'
+
+-- Librarian of the Reach
+L['confiscated_journal_label'] = 'Confiscated Journal'
+L['farscale_manifesto_label'] = 'Farscale Manifesto'
+L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
+L['pirate_proclamation_label'] = 'Pirate Proclamation'
+L['spellsworn_missive_label'] = 'Spellsworn Missive'
+L['vrykul_tome_label'] = 'Vrykul Tome'
+
+L['library_note'] = 'Open the {object:%s} and loot the {item:%s}.'
+
+L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
+L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}. {note:Some books are in {location:Zskera Vaults}}.'
+
+-- Scroll Hunter
+L['scroll_hunter_suffix'] = 'treasures found from Sealed Scrolls'
+L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal an X on the map which will offer a {item:%s} which provides reputation for {faction:%s}.'
+
+L['options_icons_scroll_hunter'] = '{achievement:17532}'
+L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532}.'
+
+-- While We Were Sleeping
+L['options_icons_scalecommander_item'] = '{achievement:17315}'
+L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achievement:17315}. {note:Some item are in {location:Zskera Vaults}}.'
+
+-- Misc
+L['spellsworn_gateway'] = 'Spellsworn Gateway'
+L['gemstone_of_return'] = 'Gemstone of Return'
+
+L['morqut_village_vendor_note'] = 'Exchange {currency:2118} or gold for mounts, pets, transmog, drake customization, recipes and other useful items.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -336,11 +478,17 @@ L['options_icons_nokhud_do_it_desc'] = 'Display helpful information for completi
 
 L['chest_of_the_flood'] = 'Chest of the Flood'
 
-L['aylaag_camp_note'] = '{faction:Clan Aylaag} moves on to another camp every 3 days and 3 hours (75), follow them and defend them on their way.\n\nNext move: {note:%s} (local time)'
+L['aylaag_camp_note'] = '{faction:Clan Aylaag} moves on to another camp every 3 days and 3 hours (75 hours), follow them and defend them on their way.\n\nNext move: {note:%s}'
 
 L['clan_chest'] = 'Clan Chest'
 L['options_icons_clan_chest'] = 'Clan Chests'
 L['options_icons_clan_chest_desc'] = 'Display possible locations of {object:Clan Chests}.'
+
+L['lightning_bound_chest'] = 'Lightning Bound Chest'
+L['options_icons_lightning_bound_chest'] = 'Lightning Bound Chest'
+L['options_icons_lightning_bound_chest_desc'] = 'Display possible locations of {object:Lightning Bound Chests}.'
+
+L['bloodgullet_note'] = 'Get the {spell:369277} buff (1 hour) in a tent at the {location:Timberstep Outpost} from {object:Essence of Awakening} to see this Spirit Beast.\n\n{note:Only appears to Beast Mastery Hunters.}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -403,6 +551,10 @@ L['hoard_of_draconic_delicacies_note_end'] = 'After all quests have been complet
 L['brendormi_note_start'] = 'Exchange {item:202039} and {currency:2118} for gear, a pet, a toy, and a mount.'
 L['brendormi_note_item'] = 'You currently have %s {item:202039}.'
 L['brendormi_note_currency'] = 'You currently have %s {currency:2118}.'
+
+L['titan_chest'] = 'Titan Chest'
+L['options_icons_titan_chest'] = 'Titan Chest'
+L['options_icons_titan_chest_desc'] = 'Display possible locations of {object:TuskarrTackleboxes}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

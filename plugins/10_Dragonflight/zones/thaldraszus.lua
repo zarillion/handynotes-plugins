@@ -39,6 +39,7 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -652,7 +653,7 @@ val.nodes[09535629] = Treasure({
     note = L['tasty_hatchling_treat_note'],
     parent = map.id,
     rewards = {
-        Item({item = 198106}) -- Recipe: Tasty Hatchling's Treat
+        Recipe({item = 198106, profession = 185}) -- Recipe: Tasty Hatchling's Treat
     }
 }) -- Tasty Hatchling's Treat
 
@@ -672,6 +673,117 @@ tpf.nodes[28002590] = ns.node.ElementalChest({
     },
     pois = {POI({29282604})} -- Entrance
 }) -- Chest of the Elements
+
+-------------------------------------------------------------------------------
+---------------------------- DRACTHYR SUPPLY CHEST ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[42708120] = ns.node.DracthyrSupplyChest()
+map.nodes[42808040] = ns.node.DracthyrSupplyChest()
+map.nodes[43405150] = ns.node.DracthyrSupplyChest()
+map.nodes[43807770] = ns.node.DracthyrSupplyChest()
+map.nodes[44408150] = ns.node.DracthyrSupplyChest()
+map.nodes[44607730] = ns.node.DracthyrSupplyChest()
+map.nodes[44805170] = ns.node.DracthyrSupplyChest()
+map.nodes[45007870] = ns.node.DracthyrSupplyChest()
+map.nodes[45305520] = ns.node.DracthyrSupplyChest()
+map.nodes[45705750] = ns.node.DracthyrSupplyChest()
+map.nodes[46205190] = ns.node.DracthyrSupplyChest()
+map.nodes[47408040] = ns.node.DracthyrSupplyChest()
+map.nodes[48407650] = ns.node.DracthyrSupplyChest()
+map.nodes[50108070] = ns.node.DracthyrSupplyChest()
+map.nodes[55206730] = ns.node.DracthyrSupplyChest()
+map.nodes[55606930] = ns.node.DracthyrSupplyChest()
+map.nodes[56007140] = ns.node.DracthyrSupplyChest()
+map.nodes[57406630] = ns.node.DracthyrSupplyChest()
+map.nodes[57506640] = ns.node.DracthyrSupplyChest()
+map.nodes[58206750] = ns.node.DracthyrSupplyChest()
+map.nodes[61201730] = ns.node.DracthyrSupplyChest()
+map.nodes[61901250] = ns.node.DracthyrSupplyChest()
+map.nodes[65101310] = ns.node.DracthyrSupplyChest()
+
+-------------------------------------------------------------------------------
+------------------------------- SIMMERING CHEST -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[35608530] = ns.node.SimmeringChest()
+map.nodes[38908510] = ns.node.SimmeringChest()
+map.nodes[39908480] = ns.node.SimmeringChest()
+map.nodes[46906030] = ns.node.SimmeringChest()
+map.nodes[48905840] = ns.node.SimmeringChest()
+map.nodes[48905850] = ns.node.SimmeringChest()
+map.nodes[51406090] = ns.node.SimmeringChest()
+
+-------------------------------------------------------------------------------
+--------------------------------- TITAN CHEST ---------------------------------
+-------------------------------------------------------------------------------
+
+local TitanChest = Class('TitanChest', ns.node.Node, {
+    label = L['titan_chest'],
+    icon = 'chest_pk',
+    group = ns.groups.TITAN_CHEST,
+    rewards = {
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Item({item = 190454}), -- Primal Chaos
+        Transmog({item = 201048, slot = L['cosmetic']}), -- Tyrhold Epaulets
+        Transmog({item = 201049, slot = L['cosmetic']}), -- Tyrhold Robe
+        Transmog({item = 201050, slot = L['cosmetic']}), -- Tyrhold Leggings
+        Transmog({item = 201051, slot = L['cosmetic']}), -- Tyrhold Slippers
+        Transmog({item = 201052, slot = L['cosmetic']}), -- Tyrhold Visage
+        Transmog({item = 201053, slot = L['cosmetic']}), -- Tyrhold Gloves
+        Transmog({item = 201054, slot = L['cosmetic']}), -- Tyrhold Drape
+        Transmog({item = 201056, slot = L['cosmetic']}), -- Tyrhold Sash
+        Transmog({item = 201455, slot = L['cosmetic']}), -- Tyrhold Broadsword
+        Transmog({item = 201456, slot = L['cosmetic']}), -- Tyrhold Carbine
+        Transmog({item = 201457, slot = L['cosmetic']}), -- Tyrhold Relic
+        Transmog({item = 201458, slot = L['cosmetic']}), -- Aegis of Tyrhold
+        Transmog({item = 201459, slot = L['cosmetic']}), -- Tyrhold Shortsword
+        Transmog({item = 201460, slot = L['cosmetic']}), -- Gavel of Tyrhold
+        Transmog({item = 201461, slot = L['cosmetic']}), -- Tyrhold Pinnacle
+        Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
+        Item({item = 199066, quest = 70535}), -- Letter of Caution
+        Item({item = 199068, quest = 70537}), -- Time-Lost Memo
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Item({item = 199906}), -- Titan Relic
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+}) -- Titan Chest
+
+map.nodes[34107310] = TitanChest()
+map.nodes[34306600] = TitanChest()
+map.nodes[34706700] = TitanChest()
+map.nodes[35807540] = TitanChest()
+map.nodes[35906730] = TitanChest()
+map.nodes[37705110] = TitanChest()
+map.nodes[37706980] = TitanChest()
+map.nodes[38105300] = TitanChest()
+map.nodes[38705340] = TitanChest()
+map.nodes[38804480] = TitanChest()
+map.nodes[38904610] = TitanChest()
+map.nodes[41204520] = TitanChest()
+map.nodes[46007210] = TitanChest()
+map.nodes[48306900] = TitanChest()
+map.nodes[48807530] = TitanChest()
+map.nodes[48907100] = TitanChest()
+map.nodes[49707590] = TitanChest()
+map.nodes[51107470] = TitanChest()
+map.nodes[57108080] = TitanChest()
+map.nodes[57108240] = TitanChest()
+map.nodes[57606450] = TitanChest()
+map.nodes[57708050] = TitanChest()
+map.nodes[59305670] = TitanChest()
+map.nodes[59905590] = TitanChest()
+map.nodes[60005470] = TitanChest()
+map.nodes[60606220] = TitanChest()
+map.nodes[61906180] = TitanChest()
+
+-------------------------------------------------------------------------------
+------------------------------ FROSTBOUND CHEST -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[54006140] = ns.node.FrostboundChest()
+map.nodes[55206290] = ns.node.FrostboundChest()
+map.nodes[56206450] = ns.node.FrostboundChest()
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
@@ -908,20 +1020,33 @@ map.nodes[62296972] = Disturbeddirt()
 -------------------------------------------------------------------------------
 
 map.nodes[35517551] = Scoutpack()
+map.nodes[35628576] = Scoutpack()
+map.nodes[36798245] = Scoutpack()
 map.nodes[37637740] = Scoutpack()
 map.nodes[38796831] = Scoutpack()
 map.nodes[38806831] = Scoutpack()
+map.nodes[40148559] = Scoutpack()
+map.nodes[40498368] = Scoutpack()
 map.nodes[41234798] = Scoutpack()
+map.nodes[47428021] = Scoutpack()
+map.nodes[49047926] = Scoutpack()
+map.nodes[50098074] = Scoutpack()
 map.nodes[50844623] = Scoutpack()
 map.nodes[52758333] = Scoutpack()
+map.nodes[54837958] = Scoutpack()
 map.nodes[55413167] = Scoutpack()
 map.nodes[55456797] = Scoutpack()
 map.nodes[55873598] = Scoutpack()
 map.nodes[55875138] = Scoutpack()
 map.nodes[56063178] = Scoutpack()
+map.nodes[57128078] = Scoutpack()
+map.nodes[57468106] = Scoutpack()
 map.nodes[58046702] = Scoutpack()
 map.nodes[59198794] = Scoutpack()
 map.nodes[59496912] = Scoutpack()
+map.nodes[59547955] = Scoutpack()
+map.nodes[61697948] = Scoutpack()
+map.nodes[65548193] = Scoutpack()
 
 -------------------------------------------------------------------------------
 ------------------------------ Magic-Bound Chest ------------------------------
@@ -1557,7 +1682,7 @@ local Rumiastrasza = Class('Rumiastrasza', Collectible, {
     quest = 67071, -- What a Long Sweet Trip It's Been
     parent = map.id,
     rewards = {
-        Item({item = 198132}) -- Recipe: Hoard of Draconic Delicacies
+        Recipe({item = 198132, profession = 185}) -- Recipe: Hoard of Draconic Delicacies
     }
 }) -- Rumiastrasza
 

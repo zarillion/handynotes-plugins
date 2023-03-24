@@ -40,6 +40,9 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
+local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -755,7 +758,7 @@ map.nodes[58024201] = Treasure({
     quest = 70237,
     label = L['snow_covered_scroll'],
     rewards = {
-        Item({item = 198103}) -- Recipe: Snow in a Cone
+        Recipe({item = 198103, profession = 185}) -- Recipe: Snow in a Cone
     }
 }) -- Snow Covered Scroll
 
@@ -1070,7 +1073,12 @@ map.nodes[78903087] = Disturbeddirt()
 map.nodes[14143645] = Scoutpack()
 map.nodes[14943299] = Scoutpack()
 map.nodes[15183187] = Scoutpack()
-map.nodes[33864679] = Scoutpack()
+map.nodes[12944165] = Scoutpack()
+map.nodes[13054278] = Scoutpack()
+map.nodes[10974204] = Scoutpack()
+map.nodes[12253541] = Scoutpack()
+map.nodes[14303978] = Scoutpack()
+map.nodes[57632101] = Scoutpack()
 map.nodes[33864679] = Scoutpack()
 map.nodes[34334607] = Scoutpack()
 map.nodes[43005294] = Scoutpack()
@@ -1163,72 +1171,153 @@ map.nodes[60505900] = TuskarrChest()
 ----------------------------- DECAY COVERED CHEST -----------------------------
 -------------------------------------------------------------------------------
 
--- local DecayCoveredChest = Class('DecayCoveredChest', ns.node.Node, {
---     label = L['decay_covered_chest'],
---     icon = 'chest_pk',
---     group = ns.groups.DECAY_COVERED_CHEST,
---     rewards = {
---         Item({item = 191784}), -- Dragon Shard of Knowledge
---         Item({item = 190454}), -- Primal Chaos
---         Transmog({item = 201365, slot = L['cosmetic']}), -- Brackenhide Gnoll Guard
---         Transmog({item = 201370, slot = L['cosmetic']}), -- Brackenhide Skullcracker
---         Transmog({item = 201369, slot = L['cosmetic']}), -- Hollow Greatwood Pestilence
---         Transmog({item = 201368, slot = L['cosmetic']}), -- Brackenhide Hollow Barbslinger
---         Transmog({item = 201363, slot = L['cosmetic']}), -- Brackenhide Hollow Maul
---         Transmog({item = 201367, slot = L['cosmetic']}), -- Hollow Hunter's Sticker
---         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
---         Item({item = 199066, quest = 70535}), -- Letter of Caution
---         Item({item = 199066, profession = 165}), -- Pattern: Gnoll Tent - Recipe
---         Item({item = 192055}), -- Dragon Isles Artifact
---         Item({item = 200071}), -- Sacred Tuskarr Totem
---         Currency({id = 2003}) -- Dragon Isles Supplies
---     }
--- }) -- Decay Covered Chest
+local DecayCoveredChest = Class('DecayCoveredChest', ns.node.Node, {
+    label = L['decay_covered_chest'],
+    icon = 'chest_pk',
+    group = ns.groups.DECAY_COVERED_CHEST,
+    rewards = {
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Item({item = 190454}), -- Primal Chaos
+        Transmog({item = 201365, slot = L['cosmetic']}), -- Brackenhide Gnoll Guard
+        Transmog({item = 201370, slot = L['cosmetic']}), -- Brackenhide Skullcracker
+        Transmog({item = 201369, slot = L['cosmetic']}), -- Hollow Greatwood Pestilence
+        Transmog({item = 201368, slot = L['cosmetic']}), -- Brackenhide Hollow Barbslinger
+        Transmog({item = 201363, slot = L['cosmetic']}), -- Brackenhide Hollow Maul
+        Transmog({item = 201367, slot = L['cosmetic']}), -- Hollow Hunter's Sticker
+        Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
+        Item({item = 199066, quest = 70535}), -- Letter of Caution
+        Recipe({item = 194312, profession = 165}), -- Pattern: Gnoll Tent
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Item({item = 200071}), -- Sacred Tuskarr Totem
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+}) -- Decay Covered Chest
 
--- map.nodes[09702910] = DecayCoveredChest()
--- map.nodes[09903250] = DecayCoveredChest()
--- map.nodes[10503120] = DecayCoveredChest()
--- map.nodes[11603420] = DecayCoveredChest()
--- map.nodes[12003670] = DecayCoveredChest()
--- map.nodes[12203520] = DecayCoveredChest()
--- map.nodes[12402200] = DecayCoveredChest()
--- map.nodes[12803410] = DecayCoveredChest()
--- map.nodes[13803820] = DecayCoveredChest()
--- map.nodes[13803940] = DecayCoveredChest()
--- map.nodes[14402180] = DecayCoveredChest()
--- map.nodes[14502050] = DecayCoveredChest()
--- map.nodes[14903100] = DecayCoveredChest()
--- map.nodes[16103520] = DecayCoveredChest()
--- map.nodes[16203890] = DecayCoveredChest()
--- map.nodes[16503430] = DecayCoveredChest()
--- map.nodes[17103830] = DecayCoveredChest()
--- map.nodes[17903600] = DecayCoveredChest()
--- map.nodes[18103480] = DecayCoveredChest()
--- map.nodes[18403670] = DecayCoveredChest()
--- map.nodes[18403840] = DecayCoveredChest()
--- map.nodes[18503670] = DecayCoveredChest()
--- map.nodes[21404040] = DecayCoveredChest()
--- map.nodes[21404240] = DecayCoveredChest()
--- map.nodes[21504230] = DecayCoveredChest()
--- map.nodes[23204370] = DecayCoveredChest()
--- map.nodes[24504020] = DecayCoveredChest()
--- map.nodes[24904230] = DecayCoveredChest()
--- map.nodes[34203400] = DecayCoveredChest()
--- map.nodes[34604540] = DecayCoveredChest()
--- map.nodes[34903190] = DecayCoveredChest()
--- map.nodes[35404800] = DecayCoveredChest()
--- map.nodes[35603410] = DecayCoveredChest()
--- map.nodes[35904660] = DecayCoveredChest()
--- map.nodes[58204140] = DecayCoveredChest()
--- map.nodes[58504270] = DecayCoveredChest()
+map.nodes[09702910] = DecayCoveredChest()
+map.nodes[09903250] = DecayCoveredChest()
+map.nodes[10503120] = DecayCoveredChest()
+map.nodes[11603420] = DecayCoveredChest()
+map.nodes[12003670] = DecayCoveredChest()
+map.nodes[12203520] = DecayCoveredChest()
+map.nodes[12402200] = DecayCoveredChest()
+map.nodes[12803410] = DecayCoveredChest()
+map.nodes[13803820] = DecayCoveredChest()
+map.nodes[13803940] = DecayCoveredChest()
+map.nodes[14402180] = DecayCoveredChest()
+map.nodes[14502050] = DecayCoveredChest()
+map.nodes[14903100] = DecayCoveredChest()
+map.nodes[16103520] = DecayCoveredChest()
+map.nodes[16203890] = DecayCoveredChest()
+map.nodes[16503430] = DecayCoveredChest()
+map.nodes[17103830] = DecayCoveredChest()
+map.nodes[17903600] = DecayCoveredChest()
+map.nodes[18103480] = DecayCoveredChest()
+map.nodes[18403670] = DecayCoveredChest()
+map.nodes[18403840] = DecayCoveredChest()
+map.nodes[18503670] = DecayCoveredChest()
+map.nodes[21404040] = DecayCoveredChest()
+map.nodes[21404240] = DecayCoveredChest()
+map.nodes[21504230] = DecayCoveredChest()
+map.nodes[23204370] = DecayCoveredChest()
+map.nodes[24504020] = DecayCoveredChest()
+map.nodes[24904230] = DecayCoveredChest()
+map.nodes[34203400] = DecayCoveredChest()
+map.nodes[34604540] = DecayCoveredChest()
+map.nodes[34903190] = DecayCoveredChest()
+map.nodes[35404800] = DecayCoveredChest()
+map.nodes[35603410] = DecayCoveredChest()
+map.nodes[35904660] = DecayCoveredChest()
+map.nodes[58204140] = DecayCoveredChest()
+map.nodes[58504270] = DecayCoveredChest()
 
 -------------------------------------------------------------------------------
 ---------------------------------- REED CHEST ---------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[09604080] = ns.node.ReedChest()
--- map.nodes[10304370] = ns.node.ReedChest()
--- map.nodes[10904220] = ns.node.ReedChest()
+map.nodes[09604080] = ns.node.ReedChest()
+map.nodes[10304370] = ns.node.ReedChest()
+map.nodes[10904220] = ns.node.ReedChest()
+
+-------------------------------------------------------------------------------
+---------------------------- DRACTHYR SUPPLY CHEST ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[12504240] = ns.node.DracthyrSupplyChest()
+map.nodes[13104310] = ns.node.DracthyrSupplyChest()
+map.nodes[28402810] = ns.node.DracthyrSupplyChest()
+map.nodes[29403030] = ns.node.DracthyrSupplyChest()
+map.nodes[30102870] = ns.node.DracthyrSupplyChest()
+map.nodes[38406090] = ns.node.DracthyrSupplyChest()
+map.nodes[39305920] = ns.node.DracthyrSupplyChest()
+map.nodes[41906210] = ns.node.DracthyrSupplyChest()
+map.nodes[45902600] = ns.node.DracthyrSupplyChest()
+map.nodes[46302370] = ns.node.DracthyrSupplyChest()
+map.nodes[47002190] = ns.node.DracthyrSupplyChest()
+map.nodes[47102440] = ns.node.DracthyrSupplyChest()
+map.nodes[47602590] = ns.node.DracthyrSupplyChest()
+map.nodes[47902270] = ns.node.DracthyrSupplyChest()
+map.nodes[47902990] = ns.node.DracthyrSupplyChest()
+map.nodes[48002750] = ns.node.DracthyrSupplyChest()
+map.nodes[49002540] = ns.node.DracthyrSupplyChest()
+map.nodes[53204970] = ns.node.DracthyrSupplyChest()
+map.nodes[54405180] = ns.node.DracthyrSupplyChest()
+map.nodes[54605050] = ns.node.DracthyrSupplyChest()
+map.nodes[63303040] = ns.node.DracthyrSupplyChest()
+map.nodes[64702810] = ns.node.DracthyrSupplyChest()
+map.nodes[65106130] = ns.node.DracthyrSupplyChest()
+map.nodes[65206000] = ns.node.DracthyrSupplyChest()
+map.nodes[66505960] = ns.node.DracthyrSupplyChest()
+map.nodes[68404560] = ns.node.DracthyrSupplyChest()
+map.nodes[68804660] = ns.node.DracthyrSupplyChest()
+map.nodes[70204610] = ns.node.DracthyrSupplyChest()
+map.nodes[70304340] = ns.node.DracthyrSupplyChest()
+map.nodes[70604380] = ns.node.DracthyrSupplyChest()
+
+-------------------------------------------------------------------------------
+------------------------------- SIMMERING CHEST -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[73203790] = ns.node.SimmeringChest()
+map.nodes[75103740] = ns.node.SimmeringChest()
+map.nodes[76503760] = ns.node.SimmeringChest()
+map.nodes[77304120] = ns.node.SimmeringChest()
+map.nodes[78303690] = ns.node.SimmeringChest()
+map.nodes[79603820] = ns.node.SimmeringChest()
+
+-------------------------------------------------------------------------------
+---------------------------- ICEMAW STORAGE CACHE -----------------------------
+-------------------------------------------------------------------------------
+
+local IcemawStorageCache = Class('IcemawStorageCache', ns.node.Node, {
+    label = L['icemaw_storage_cache'],
+    icon = 'chest_nv',
+    group = ns.groups.ICEMAW_STORAGE_CACHE,
+    rewards = {
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Item({item = 190454}), -- Primal Chaos
+        Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
+        Item({item = 199068, quest = 70537}), -- Time-Lost Memo
+        Item({item = 199065, quest = 70534}), -- Sorrowful Letter
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Item({item = 200071}), -- Sacred Tuskarr Totem
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+}) -- Icemaw Storage Cache
+
+map.nodes[60804950] = IcemawStorageCache()
+map.nodes[61005110] = IcemawStorageCache()
+map.nodes[62005160] = IcemawStorageCache()
+map.nodes[65601340] = IcemawStorageCache()
+map.nodes[67001180] = IcemawStorageCache()
+map.nodes[67101270] = IcemawStorageCache()
+
+-------------------------------------------------------------------------------
+------------------------------ FROSTBOUND CHEST -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[48406380] = ns.node.FrostboundChest()
+map.nodes[49706390] = ns.node.FrostboundChest()
+map.nodes[51306080] = ns.node.FrostboundChest()
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -1648,9 +1737,9 @@ local COMMUNITY_FEAST_AREA_POIS = {
 
 local COMMUNITY_FEAST_REWARDS = {
     Achievement({id = 16444}), -- Leftovers Revenge
-    Item({item = 198131}), -- Recipe: Gral's Devotion
-    Item({item = 198129}), -- Recipe: Gral's Reverence
-    Item({item = 198130}), -- Recipe: Gral's Veneration
+    Recipe({item = 198131, profession = 185}), -- Recipe: Gral's Devotion
+    Recipe({item = 198129, profession = 185}), -- Recipe: Gral's Reverence
+    Recipe({item = 198130, profession = 185}), -- Recipe: Gral's Veneration
     Transmog({item = 200882, slot = L['cosmetic']}), -- Big Kinook's Spare Ladle
     ns.reward.Spacer(), Item({item = 200652}), -- Alchemical Flavor Pocket
     Item({item = 190454}), -- Primal Chaos
@@ -1915,5 +2004,56 @@ map.nodes[12404920] = NPC({
         POI({12814934}) -- Entrance
     }
 }) -- Elder Poa (Iskaara Tuskarr Reputation)
+
+local Kazzi = Class('Kazzi', Collectible, {
+    id = 201105,
+    icon = 1535070,
+    requires = {ns.requirement.Quest(72547)}, -- Academic Acquisitions
+    rewards = {
+        Toy({item = 202283, note = L['rep_revered']}), -- Reading Glasses
+        Toy({item = 202253, note = L['rep_exalted']}), -- Primal Stave of Claw and Fur
+        Achievement({
+            id = 17427,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['kazzi_achievement_suffix']
+            }
+        }), -- Winterpelt Conversationalist
+        Spacer(), Section(L['rep_honored']),
+        -- Transmog({item = 2039995, slot = L['cosmetic'], note = '75'}), -- Winter Pelt Cloak
+        Transmog({item = 204354, slot = L['cosmetic'], note = '500'}), -- Hollowed Furbolg Food Pack
+        -- NOT IN DC
+        Item({item = 202273, quest = nil, note = '50'}), -- Renewed Proto-Drake: Stubby Snout
+        Item({item = 197626, quest = 69831, note = '50'}), -- Windborne Velocidrake: Exposed Finned Back
+        Item({item = 197129, quest = 69330, note = '50'}), -- Highland Drake: Sleek Horns
+        Item({item = 197006, quest = 69206, note = '50'}), -- Cliffside Wylderdrake: Plated Nose
+        Spacer(), Section(L['rep_revered']),
+        Item({item = 202287, note = '100'}), -- Paw-Made Winterpelt Reagent Bag
+        Transmog({item = 204355, slot = L['cosmetic'], note = '500'}), -- Hollowed Winterpelt Food Pack
+        Toy({item = 203734, note = '200'}), -- Snow Blanket
+        -- NOT IN DC
+        Item({item = 202279, quest = nil, note = '100'}), -- Renewed Proto-Drake: Malevolent Horns
+        Item({item = 197629, quest = 69835, note = '100'}), -- Windborne Velocidrake: Spiked Neck
+        Item({item = 197102, quest = 69303, note = '100'}), -- Highland Drake: Horned Chin
+        Item({item = 196995, quest = 69195, note = '100'}), -- Cliffside Wylderdrake: Spiked Horns
+        Spacer(), Section(L['rep_exalted']),
+        Pet({item = 202255, id = 3427, note = '150'}) -- Driftling
+    },
+    pois = {
+        POI({66921271}) -- Sonova Snowden
+    }
+}) -- Kazzi <Winterpelt Furbolg Quartermaster>
+
+function Kazzi.getters:note()
+    local itemOne = GetItemCount(202017, true) -- Liberated Furbolg Artifact
+    local itemTwo = GetItemCount(202018, true) -- Intact Scribe Stick
+    local note = L['kazzi_note_start'] .. '\n\n'
+    note = note .. format(L['kazzi_note_item'], itemOne, '202017') .. '\n'
+    note = note .. format(L['kazzi_note_item'], itemTwo, '202018')
+    return note
+end
+
+map.nodes[65801269] = Kazzi()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

@@ -63,6 +63,7 @@ L['hard'] = 'Schwer'
 L['heirloom'] = 'Erbstück'
 L['mount'] = 'Reittier'
 L['pet'] = 'Haustier'
+L['recipe'] = 'Rezept'
 L['spell'] = 'Fähigkeit'
 L['title'] = 'Titel'
 L['toy'] = 'Spielzeug'
@@ -81,6 +82,10 @@ L['follower_type_follower'] = 'Anhänger'
 L['follower_type_champion'] = 'Champion'
 L['follower_type_companion'] = 'Abenteurer'
 
+L['rep_honored'] = 'Wohlwollend'
+L['rep_revered'] = 'Respektvoll'
+L['rep_exalted'] = 'Erfürchtig'
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
@@ -88,6 +93,7 @@ L['follower_type_companion'] = 'Abenteurer'
 L['context_menu_set_waypoint'] = 'Kartenmarkierung setzen'
 L['context_menu_add_tomtom'] = 'Zu TomTom hinzufügen'
 L['context_menu_add_group_tomtom'] = 'Gruppe zu TomTom hinzufügen'
+L['context_menu_add_focus_group_tomtom'] = 'Verwandte Punkte zu TomTom hinzufügen'
 L['context_menu_hide_node'] = 'Verstecke diesen Punkt'
 L['context_menu_restore_hidden_nodes'] = 'Versteckte Punkte wiederherstellen'
 
@@ -144,6 +150,8 @@ L['options_mount_rewards'] = 'Zeige Reittierbelohnungen'
 L['options_mount_rewards_desc'] = 'Zeige Reittierbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_pet_rewards'] = 'Zeige Haustierbelohnungen'
 L['options_pet_rewards_desc'] = 'Zeige Haustierbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
+L['options_recipe_rewards'] = 'Zeige Rezeptbelohnungen'
+L['options_recipe_rewards_desc'] = 'Zeige Rezeptbelohnungen für bekannte Berufe in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_toy_rewards'] = 'Zeige Spielzeugbelohnungen'
 L['options_toy_rewards_desc'] = 'Zeige Spielzeugbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_transmog_rewards'] = 'Zeige Vorlagenbelohnungen'
@@ -177,6 +185,8 @@ L['options_toggle_show_loot'] = 'Zeige Beute'
 L['options_toggle_show_loot_desc'] = 'Zeigt Beuteinformationen im Tooltip an.'
 L['options_toggle_show_notes'] = 'Zeige Notizen'
 L['options_toggle_show_notes_desc'] = 'Zeigt hilfreiche Notizen an sofern diese verfügbar sind.'
+L['options_toggle_use_standard_time'] = 'Verwende das 12-Stunden-Format'
+L['options_toggle_use_standard_time_desc'] = 'Zeigt die Uhrzeit im 12-Stunden-Format (z.B.: 8:00 PM) anstelle des 24-Stunden-Formates (z.B.: 20:00) in Tooltips an.'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

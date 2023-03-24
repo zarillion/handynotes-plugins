@@ -63,6 +63,7 @@ L['hard'] = 'Hard'
 L['heirloom'] = 'Heirloom'
 L['mount'] = 'Mount'
 L['pet'] = 'Pet'
+L['recipe'] = 'Recipe'
 L['spell'] = 'Spell'
 L['title'] = 'Title'
 L['toy'] = 'Toy'
@@ -81,6 +82,10 @@ L['follower_type_follower'] = 'Follower'
 L['follower_type_champion'] = 'Champion'
 L['follower_type_companion'] = 'Companion'
 
+L['rep_honored'] = 'Honored'
+L['rep_revered'] = 'Revered'
+L['rep_exalted'] = 'Exalted'
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
@@ -88,6 +93,7 @@ L['follower_type_companion'] = 'Companion'
 L['context_menu_set_waypoint'] = 'Set map waypoint'
 L['context_menu_add_tomtom'] = 'Add to TomTom'
 L['context_menu_add_group_tomtom'] = 'Add group to TomTom'
+L['context_menu_add_focus_group_tomtom'] = 'Add related nodes to TomTom'
 L['context_menu_hide_node'] = 'Hide this node'
 L['context_menu_restore_hidden_nodes'] = 'Restore all hidden nodes'
 
@@ -144,6 +150,8 @@ L['options_mount_rewards'] = 'Show mount rewards'
 L['options_mount_rewards_desc'] = 'Display mount rewards in tooltips and track their collected status.'
 L['options_pet_rewards'] = 'Show pet rewards'
 L['options_pet_rewards_desc'] = 'Display pet rewards in tooltips and track their collected status.'
+L['options_recipe_rewards'] = 'Show recipe rewards'
+L['options_recipe_rewards_desc'] = 'Display recipe rewards in tooltips and track their collected status.'
 L['options_toy_rewards'] = 'Show toy rewards'
 L['options_toy_rewards_desc'] = 'Display toy rewards in tooltips and track their collected status.'
 L['options_transmog_rewards'] = 'Show transmog rewards'
@@ -177,6 +185,8 @@ L['options_toggle_show_loot'] = 'Show Loot'
 L['options_toggle_show_loot_desc'] = 'Add loot information to the tooltip'
 L['options_toggle_show_notes'] = 'Show Notes'
 L['options_toggle_show_notes_desc'] = 'Add helpful notes to the tooltip where available'
+L['options_toggle_use_standard_time'] = 'Use 12-Hour Clock'
+L['options_toggle_use_standard_time_desc'] = 'Use 12-hour clock (ex: 8:00 PM) instead of 24-hour clock (ex: 20:00) in tooltips.'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

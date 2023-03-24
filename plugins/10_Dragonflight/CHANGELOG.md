@@ -1,3 +1,40 @@
+# v34
+
+* Added new Forbidden Reach content!
+  * Rare, treasure and battle pet locations with rewards.
+  * Books for the Librarian of the Reach achievement.
+  * Dragon Glyphs for the Forbidden Reach Glyph Hunter achievement.
+  * Dragonriding race locations for the Forbidden Reach Racing achievements.
+  * Forbidden Hoards for the Hoarder of the Forbidden Reach achievement.
+  * Items for the While We Were Sleeping achievement.
+  * Small Treasures for the Treasures of the Forbidden Reach achievement.
+* Added Kazzi location + rewards (Winterpelt Furbolg Quartermaster).
+* Added a right-click option to add an entire focus group to TomTom.
+* Added recipe id for Pattern: Gnoll Tent.
+* Fixed recipe id for Yusa's Hearty Stew.
+* Updated TOC for 10.0.7
+
+# v33
+
+* Added colors to the timers for tracked spawns.
+* Added the location of Bloodgullet for hunters.
+* Added more locations for dirt and tackleboxes.
+* Added numerous new chest types:
+  * Decay Covered Chest
+  * Dracthyr Supply Chest
+  * Frostbound Chest
+  * Icemaw Storage Cache
+  * Lightning Bound Chest
+  * Reed Chest
+  * Simmering Chest
+  * Titan Chest
+* Added option for 12-hour timer format instead of 24-hour.
+* Added recipe tracking support! (feast and primal storms initially)
+* Added timer for when the Aylaah Camp moves.
+* Fixed rare spawn-time tracking for some regions.
+* Updated item turn-ins for the Tasty Candy alchemy knowledge points.
+* Use a new method for getting NPC names from tooltips (thanks Voopie!)
+
 # v32
 
 * Added Clan Chests in the Ohnahran Plains.

@@ -26,6 +26,8 @@ local Circle = ns.poi.Circle
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local DC = ns.DRAGON_CUSTOMIZATIONS
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2133, settings = true})
@@ -73,7 +75,7 @@ map.nodes[48372384] = Rare({
 map.nodes[31805061] = Rare({
     id = 203664,
     rewards = {
-       Achievement({id = 17783, criteria = 59209}) -- Adventurer of Zaralek Cavern
+        Achievement({id = 17783, criteria = 59209}) -- Adventurer of Zaralek Cavern
     }
 }) -- Emberdusk
 
@@ -155,7 +157,7 @@ map.nodes[65435587] = Rare({
     quest = 75545,
     note = L['in_small_cave'],
     rewards = {
-        Achievement({id = 17783, criteria = 59183}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 17783, criteria = 59183}) -- Adventurer of Zaralek Cavern
     },
     pois = {
         POI({64785550}) -- Entrance
@@ -574,10 +576,8 @@ map.nodes[44458040] = Collectible({
 
 -------------------------------------------------------------------------------
 
-local LoammVendor = Class('LoammVendor', Collectible, {
-    icon = 'peg_bl',
-    scale = 1.3
-}) -- Loamm Vendor
+local LoammVendor = Class('LoammVendor', Collectible,
+    {icon = 'peg_bl', scale = 1.3}) -- Loamm Vendor
 
 map.nodes[55895537] = LoammVendor({
     id = 203615,

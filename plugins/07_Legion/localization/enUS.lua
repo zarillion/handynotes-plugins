@@ -117,14 +117,14 @@ L['kaara_the_pale_note'] = '{npc:126860} no longer drops {item:153190}'
 L['turek_the_lucid_note'] = 'In the {location:Oronaar Collapse}'
 
 L['ancient_eredar_cache'] = 'Ancient Eredar Cache'
-L['ancient_eredar_cache_note'] = 'There are 6 unique ancient eredar caches that can each appear at set locations.'
+L['ancient_eredar_cache_note'] = 'There are 6 unique {object:Ancient Eredar Caches} that can each appear at set locations.'
 L['void_seeped_cache'] = 'Void-Seeped Cache'
-L['void_seeped_cache_note'] = 'There are 2 unique void-seeped caches that can each appear at set locations. {note:These do not contain transmogs.}'
+L['void_seeped_cache_note'] = 'There are 2 unique {object:Void-Seeped Caches} that can each appear at set locations. {note:These do not contain transmogs.}'
 
 L['options_icons_ancient_eredar_cache'] = 'Ancient Eredar Cache'
-L['options_icons_ancient_eredar_cache_desc'] = 'Display possible locations for ancient eredar caches (daily chests).'
+L['options_icons_ancient_eredar_cache_desc'] = 'Display possible locations for {object:Ancient Eredar Caches} (daily chests).'
 L['options_icons_void_seeped_cache'] = 'Void-Seeped Cache'
-L['options_icons_void_seeped_cache_desc'] = 'Display possible locations for void-seeped caches (daily chests).'
+L['options_icons_void_seeped_cache_desc'] = 'Display possible locations for {object:Void-Seeped Caches} (daily chests).'
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
@@ -133,16 +133,30 @@ L['options_icons_void_seeped_cache_desc'] = 'Display possible locations for void
 L['odrogg_note'] = 'You think you can best my snails?'
 L['grixis_tinypop_note'] = 'This\'ll be easy!'
 L['bredda_tenderhide_note'] = 'Let the bravest prove victorious!'
+L['unethical_adventurers'] = 'Unethical Adventurers'
+L['unethical_adventurers_note'] = 'Click on the {object:Seemingly Unguarded Treasure} to summon the {npc:Unethical Adventurers}.'
+L['taurson_note'] = 'Talk to {npc:97653} and challange him to fight.\nWhen you defeat him, {object:Taurson\'s Prize} will spawn.'
+L['arru_note'] = 'Talk to {npc:97215} to start the encounter with {npc:97220}.\n\nWhen {npc:97215} has tamed the bear, {object:Thunder Totem Stolen Goods} will spawn in the back of the small cave.'
+L['tt_hoc'] = 'Down in the {location:Hall of Chieftains}.'
+L['steamy_jewelry_box'] = 'A Steamy Jewelry Box'
+L['flamescale_note'] = 'Use the {object:Abandoned Fishing Pole} to summon {npc:97793}.'
+L['amateur_hunters_note'] = 'After defeating the three {npc:Amateur Hunters} the {object:Battered Chest} will spawn in the back of the small cave.'
+L['treasure_40482'] = 'On the nose of the huge statue.'
+L['mrrklr_note'] = 'Free {npc:98754} to spawn {npc:98311}.'
+L['mytna_talonscreech_note'] = 'Talk to {npc:97579} to start the fight against {npc:97593}.'
+L['devouring_darkness_note'] = 'Extinguish all {npc:97543s} to summon {npc:100495}.'
+L['totally_safe_treasure_chest'] = 'Totally Safe Treasure Chest'
+L['rocfeather_kite_note'] = 'Combine {item:131809}, {item:131926} and {item:131927} with {item:131810}, to get the {item:131811}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------
 -------------------------------------------------------------------------------
 
 L['eredar_war_supplies'] = 'Eredar War Supplies'
-L['eredar_war_supplies_note'] = 'There are 7 unique eredar war supplies that can each appear at set locations.'
+L['eredar_war_supplies_note'] = 'There are 7 unique {object:Eredar War Supplies} that can each appear at set locations.'
 
 L['options_icons_eredar_war_supplies'] = 'Eredar War Supplies'
-L['options_icons_eredar_war_supplies_desc'] = 'Display possible locations for eredar war supplies (daily chests).'
+L['options_icons_eredar_war_supplies_desc'] = 'Display possible locations for {object:Eredar War Supplies} (daily chests).'
 
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
@@ -150,6 +164,11 @@ L['options_icons_eredar_war_supplies_desc'] = 'Display possible locations for er
 
 L['trapper_jarrun_note'] = 'Muster your defenses mortal.'
 L['robert_craig_note'] = 'Sic \'em!'
+L['stormtalon_note'] = 'Try not to One-Shot him or you won\'t be able to mount him.'
+
+L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
+L['forsaken_deathsquad'] = 'Forsaken Deathsquad'
+L['worgen_stalkers'] = 'Worgen Stalkers'
 
 -------------------------------------------------------------------------------
 ---------------------------------- SURAMAR ------------------------------------
@@ -158,6 +177,14 @@ L['robert_craig_note'] = 'Sic \'em!'
 L['varenne_note'] = 'I must get back to my cooking!'
 L['master_tamer_flummox_note'] = 'Flummox no need pets! Flummox eats them NOW!'
 L['aulier_note'] = 'Let\'s begin your lesson in humility.'
+L['myonix_note'] = '{bug:Currently bugged, needs a relog to show the credit towards {achievement:11265}}'
+L['arcanist_lylandre_note'] = 'To attack her you must remove the barriers by clicking on the crystals.'
+L['gorgroth_note'] = 'Use the {object:Portal Key} to summon {npc:110832}.'
+L['inside_temple_of_faladora'] = 'Inside the {location:Temple of Fal\'adora}.'
+L['inside_falanaar_tunnels'] = 'Inside the {location:Falanaar Tunnels}.'
+L['ancient_mana_chunk'] = 'Ancient Mana Chunk'
+L['dusty_coffer'] = 'Dusty Coffer'
+L['protected_treasure_chest'] = 'Protected Treasure Chest'
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------
@@ -168,7 +195,7 @@ L['elandris_note'] = 'Not available when the legion invasion world quest {wq:The
 L['gathenak_note'] = 'Speak with {npc:112472}.'
 L['gorebeak_note'] = 'Speak with {npc:92111}.'
 L['jinikki_note'] = 'Speak with {npc:93677} and kill {npc:93684s} until the rare appears.'
-L['kiranys_note'] = 'Click the Vibrating Arcane Trap.'
+L['kiranys_note'] = 'Click the {object:Vibrating Arcane Trap}.'
 L['mad_henryk_note'] = 'Step into the {npc:109602}.'
 L['skulvrax_note'] = 'Resuscitate {npc:92334} and follow her.'
 L['theryssia_note'] = 'Read {npc:94194}\'s nameplate on the gravestone.'
@@ -205,3 +232,6 @@ L['treasure_chest'] = 'Treasure Chest'
 L['treasures_discovered'] = 'treasures discovered'
 
 L['general_pet_tamer_note'] = '{note:Only appears when the corresponding world quest is active.}'
+
+L['options_icons_safari'] = '{achievement:11233}'
+L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:11233} achievement.'

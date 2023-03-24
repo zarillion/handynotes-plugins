@@ -27,6 +27,7 @@ ns.optionDefaults = {
         -- rewards
         show_mount_rewards = true,
         show_pet_rewards = true,
+        show_recipe_rewards = true,
         show_toy_rewards = true,
         show_transmog_rewards = true,
         show_all_transmog_rewards = false,
@@ -143,6 +144,14 @@ ns.options = {
                     arg = 'show_pet_rewards',
                     name = L['options_pet_rewards'],
                     desc = L['options_pet_rewards_desc'],
+                    order = 11,
+                    width = 'full'
+                },
+                show_recipe_rewards = {
+                    type = 'toggle',
+                    arg = 'show_recipe_rewards',
+                    name = L['options_recipe_rewards'],
+                    desc = L['options_recipe_rewards_desc'],
                     order = 11,
                     width = 'full'
                 },
@@ -292,6 +301,13 @@ ns.options = {
                     name = L['options_toggle_show_notes'],
                     desc = L['options_toggle_show_notes_desc'],
                     order = 42
+                },
+                use_standard_time = {
+                    type = 'toggle',
+                    arg = 'use_standard_time',
+                    name = L['options_toggle_use_standard_time'],
+                    desc = L['options_toggle_use_standard_time_desc'],
+                    order = 43
                 }
             }
         },

@@ -63,6 +63,7 @@ L['hard'] = 'Сложный'
 L['heirloom'] = 'Наследуемый'
 L['mount'] = 'Маунт'
 L['pet'] = 'Питомец'
+L['recipe'] = 'Рецепт'
 L['spell'] = 'Заклинание'
 L['title'] = 'Звание'
 L['toy'] = 'Игрушка'
@@ -81,6 +82,10 @@ L['follower_type_follower'] = 'Последователь'
 L['follower_type_champion'] = 'Чемпион'
 L['follower_type_companion'] = 'Компаньон'
 
+L['rep_honored'] = 'Уважение'
+L['rep_revered'] = 'Почтение'
+L['rep_exalted'] = 'Превознесение'
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
@@ -88,6 +93,7 @@ L['follower_type_companion'] = 'Компаньон'
 L['context_menu_set_waypoint'] = 'Установить путевую точку на карте'
 L['context_menu_add_tomtom'] = 'Добавить в TomTom'
 L['context_menu_add_group_tomtom'] = 'Добавить данные группы в TomTom'
+L['context_menu_add_focus_group_tomtom'] = 'Добавьте связанные точки в TomTom'
 L['context_menu_hide_node'] = 'Скрыть эту точку'
 L['context_menu_restore_hidden_nodes'] = 'Восстановить все скрытые точки'
 
@@ -144,6 +150,8 @@ L['options_mount_rewards'] = 'Показать маунтов'
 L['options_mount_rewards_desc'] = 'Отображать маунтов во всплывающих подсказках и отслеживать их собранный статус.'
 L['options_pet_rewards'] = 'Показать питомцев'
 L['options_pet_rewards_desc'] = 'Отображать питомцев во всплывающих подсказках и отслеживать их статус.'
+L['options_recipe_rewards'] = 'Показать награды с рецептами'
+L['options_recipe_rewards_desc'] = 'Отображение наград с рецептами во всплывающих подсказках и отслеживание их собранного статуса.'
 L['options_toy_rewards'] = 'Показать игрушки'
 L['options_toy_rewards_desc'] = 'Отображать игрушки во всплывающих подсказках и отслеживание их статуса.'
 L['options_transmog_rewards'] = 'Показать трансмогрификацию'
@@ -177,6 +185,8 @@ L['options_toggle_show_loot'] = 'Показать Лут'
 L['options_toggle_show_loot_desc'] = 'Добавить информацию о добыче в подсказку'
 L['options_toggle_show_notes'] = 'Показать заметки'
 L['options_toggle_show_notes_desc'] = 'Добавьте полезные заметки в подсказку, где это возможно'
+L['options_toggle_use_standard_time'] = 'Использовать 12-часовой формат'
+L['options_toggle_use_standard_time_desc'] = 'Используйте 12-часовой формат времени (например, 08:00 вечера) вместо 24-часового формата (например, 20:00) во всплывающих подсказках.'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

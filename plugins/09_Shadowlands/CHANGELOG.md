@@ -1,3 +1,15 @@
+# v55
+
+* Added improvements from the Dragonflight plugin.
+* Updated TOC for 10.0.7
+
+# v54
+
+* Added recipe tracking support!
+* Fixed the ID of the Lost Soul pet.
+* Updated some tooltips to match style in DF plugin.
+* Use a new method for getting NPC names from tooltips (thanks Voopie!)
+
 # v53
 
 * Added Shadowlands Safari nodes.

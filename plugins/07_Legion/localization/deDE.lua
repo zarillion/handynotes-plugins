@@ -116,18 +116,18 @@ L['bohdi_sunwayver_note'] = 'Die Sonne kommt raus! Alle Haustiere nach draußen!
 ----------------------------------- EREDATH -----------------------------------
 -------------------------------------------------------------------------------
 
-L['kaara_the_pale_note'] = nil
-L['turek_the_lucid_note'] = nil
+L['kaara_the_pale_note'] = '{npc:126860} lässt {item:153190} nicht mehr fallen.'
+L['turek_the_lucid_note'] = 'Im {location:Oronaareinsturz}' -- review
 
-L['ancient_eredar_cache'] = nil
-L['ancient_eredar_cache_note'] = nil
-L['void_seeped_cache'] = nil
-L['void_seeped_cache_note'] = nil
+L['ancient_eredar_cache'] = 'Uralte Truhe der Eredar'
+L['ancient_eredar_cache_note'] = 'Es gibt 6 einzigartige {object:Uralte Truhen der Eredar}, die jeweils an bestimmten Orten erscheinen können.'
+L['void_seeped_cache'] = 'Leerendurchtränkte Truhe'
+L['void_seeped_cache_note'] = 'Es gibt 2 einzigartige {object:Leerendurchtränkte Truhen}, die jeweils an bestimmten Orten erscheinen können. {note:Sie enthalten keine Transmog Items.}'
 
-L['options_icons_ancient_eredar_cache'] = nil
-L['options_icons_ancient_eredar_cache_desc'] = nil
-L['options_icons_void_seeped_cache'] = nil
-L['options_icons_void_seeped_cache_desc'] = nil
+L['options_icons_ancient_eredar_cache'] = 'Uralte Truhe der Eredar'
+L['options_icons_ancient_eredar_cache_desc'] = 'Zeigt mögliche Orte für {object:Uralte Truhen der Eredar} an. (tägliche Truhen) an.'
+L['options_icons_void_seeped_cache'] = 'Leerendurchtränkte Truhe'
+L['options_icons_void_seeped_cache_desc'] = 'Zeigt mögliche Orte für {object:Leerendurchtränkte Truhen} an. (tägliche Truhen) an.'
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
@@ -136,6 +136,20 @@ L['options_icons_void_seeped_cache_desc'] = nil
 L['odrogg_note'] = 'Ihr glaubt, Ihr könnt meinen Schnecken bezwingen?'
 L['grixis_tinypop_note'] = 'Das wird leicht!'
 L['bredda_tenderhide_note'] = 'Mögen die Tapfersten siegreich sein!'
+L['unethical_adventurers'] = 'Ethisch fragwürdige Abenteurer'
+L['unethical_adventurers_note'] = 'Kliche auf den {object:Scheinbar unbehüteter Schatz} um die {npc:Ethisch fragwürdigen Abenteurer} zu rufen.'
+L['taurson_note'] = 'Sprich mit {npc:97653} und fordere ihn zum heraus.\nWenn du ihn besiegst wird {object:Taursons Preis} erscheinen.'
+L['arru_note'] = 'Sprich mit {npc:97215} um den Kampf mit {npc:97220} zu starten.\n\nWenn {npc:97215} den Bären gezähmt hat wirden {object:Gestohlene Güter aus Donnertotem} hinten in der kleinen Höhle erscheinen.'
+L['tt_hoc'] = 'Unten in der {location:Halle der Häuptlinge}.'
+L['steamy_jewelry_box'] = 'Ein dampfendes Schmuckkästchen'
+L['flamescale_note'] = 'Nutze die {object:Liegen gelassene Angelrute} um {npc:97793} erscheinen zu lassen.'
+L['amateur_hunters_note'] = 'Nachdem du die drei {npc:Freizeitjäger} besiegt hast erscheint eine {object:ramponierte Truhe} in der kleinen höhle.'
+L['treasure_40482'] = 'Auf der Nase der riesigen Statue.'
+L['mrrklr_note'] = 'Befreie {npc:98754} damit {npc:98311} erscheint.'
+L['mytna_talonscreech_note'] = 'Sprich mit {npc:97579} um den Kampf gegen {npc:97593} zu starten.'
+L['devouring_darkness_note'] = 'Lösche alle {npc:97543n} um {npc:100495} zu rufen.'
+L['totally_safe_treasure_chest'] = 'Vollkommen sichere Schatztruhe'
+L['rocfeather_kite_note'] = 'Kombiniere {item:131809}, {item:131926} und {item:131927} mit dem {item:131810}, um einen {item:131811} zu erhalten.'
 
 -------------------------------------------------------------------------------
 -------------------------------- KROKUUN --------------------------------------
@@ -153,6 +167,11 @@ L['options_icons_eredar_war_supplies_desc'] = nil
 
 L['trapper_jarrun_note'] = 'Verteidigt Euch, sterbliches Wesen.'
 L['robert_craig_note'] = 'Fass!'
+L['stormtalon_note'] = 'Versuche ihn nicht mit einem Schlag zu töten, sonst kannst du ihn nicht mehr reiten.s'
+
+L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
+L['forsaken_deathsquad'] = 'Todesschwadron der Verlassenen'
+L['worgen_stalkers'] = 'Worgenpirscher'
 
 -------------------------------------------------------------------------------
 ---------------------------------- SURAMAR ------------------------------------
@@ -161,6 +180,14 @@ L['robert_craig_note'] = 'Fass!'
 L['varenne_note'] = 'Ich muss mich wieder meiner Kochkunst widmen!'
 L['master_tamer_flummox_note'] = 'Flummox braucht keine Haustiere! Flummox frisst sie JETZT!'
 L['aulier_note'] = 'Jetzt beginnt Eure Lektion in Sachen Demut!'
+L['myonix_note'] = '{bug:Momentan verbuggt, du musst dich neu einloggen um den fortschritt für den Erfolg {achievement:11265}} zu sehen.'
+L['arcanist_lylandre_note'] = 'Um Sie anzugreifen musst du die Barrieren entfernen indem du die Kristalle anklickst.'
+L['gorgroth_note'] = 'Nutze den {object:Portalschlüssel} um {npc:110832} zu beschwören.'
+L['inside_temple_of_faladora'] = 'Im {location:Tempel von Fal\'adora}.'
+L['inside_falanaar_tunnels'] = 'In den {location:Falanaar Tunneln}.'
+L['ancient_mana_chunk'] = 'Uralter Manabrocken'
+L['dusty_coffer'] = 'Staubige Truhe'
+L['protected_treasure_chest'] = 'Geschützte Schatztruhe'
 
 -------------------------------------------------------------------------------
 --------------------------------- VAL'SHARA -----------------------------------
@@ -208,3 +235,6 @@ L['treasure_chest'] = 'Schatztruhe'
 L['treasures_discovered'] = 'Schätze entdeckt'
 
 L['general_pet_tamer_note'] = '{note:Erscheint nur, wenn die entsprechende Weltquest aktiv ist.}'
+
+L['options_icons_safari'] = '{achievement:11233}'
+L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:11233} an.'

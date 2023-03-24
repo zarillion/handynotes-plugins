@@ -39,6 +39,7 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -903,6 +904,16 @@ map.nodes[43156737] = Treasure({
 }) -- Fullsails Supply Chest
 
 -------------------------------------------------------------------------------
+---------------------------- DRACTHYR SUPPLY CHEST ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[55804520] = ns.node.DracthyrSupplyChest()
+map.nodes[57604350] = ns.node.DracthyrSupplyChest()
+map.nodes[66405660] = ns.node.DracthyrSupplyChest()
+map.nodes[67905800] = ns.node.DracthyrSupplyChest()
+map.nodes[68005890] = ns.node.DracthyrSupplyChest()
+
+-------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -1439,10 +1450,29 @@ map.nodes[73744652] = TuskarrTacklebox()
 ---------------------------------- REED CHEST ---------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[78504160] = ns.node.ReedChest()
--- map.nodes[79504040] = ns.node.ReedChest()
--- map.nodes[80704410] = ns.node.ReedChest()
--- map.nodes[82904390] = ns.node.ReedChest()
+map.nodes[78504160] = ns.node.ReedChest()
+map.nodes[79504040] = ns.node.ReedChest()
+map.nodes[80704410] = ns.node.ReedChest()
+map.nodes[82904390] = ns.node.ReedChest()
+
+-------------------------------------------------------------------------------
+------------------------------- SIMMERING CHEST -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[68006510] = ns.node.SimmeringChest()
+map.nodes[68406240] = ns.node.SimmeringChest()
+map.nodes[68406250] = ns.node.SimmeringChest()
+map.nodes[69006370] = ns.node.SimmeringChest()
+map.nodes[69606540] = ns.node.SimmeringChest()
+map.nodes[69606550] = ns.node.SimmeringChest()
+
+-------------------------------------------------------------------------------
+------------------------------ FROSTBOUND CHEST -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[54808020] = ns.node.FrostboundChest()
+map.nodes[55208110] = ns.node.FrostboundChest()
+map.nodes[55608340] = ns.node.FrostboundChest()
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -2453,7 +2483,7 @@ map.nodes[37104453] = TameMagmammoth() -- Smoldering Perch
 
 nel.nodes[57407880] = PT.Engineering({
     id = 199229,
-    rewards = {Item({item = 199229})}
+    rewards = {Recipe({item = 199229, profession = 202})}
 }) -- Schematic: Tinker: Breath of Neltharion
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------

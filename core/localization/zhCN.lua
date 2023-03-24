@@ -63,6 +63,7 @@ L['hard'] = '困难'
 L['heirloom'] = '传家宝'
 L['mount'] = '坐骑'
 L['pet'] = '宠物'
+L['recipe'] = '配方'
 L['spell'] = '法术'
 L['title'] = '头衔'
 L['toy'] = '玩具'
@@ -81,6 +82,10 @@ L['follower_type_follower'] = '追随者'
 L['follower_type_champion'] = '勇士'
 L['follower_type_companion'] = '伙伴'
 
+L['rep_honored'] = '尊敬'
+L['rep_revered'] = '崇敬'
+L['rep_exalted'] = '崇拜'
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
@@ -88,6 +93,7 @@ L['follower_type_companion'] = '伙伴'
 L['context_menu_set_waypoint'] = '设置地图路径点'
 L['context_menu_add_tomtom'] = '添加到 TomTom'
 L['context_menu_add_group_tomtom'] = '添加组到 TomTom'
+L['context_menu_add_focus_group_tomtom'] = '添加相关项到 TomTom'
 L['context_menu_hide_node'] = '隐藏此项'
 L['context_menu_restore_hidden_nodes'] = '恢复所有隐藏项'
 
@@ -141,13 +147,15 @@ L['options_restore_hidden_nodes_desc'] = '使用右击菜单恢复全部隐藏�
 L['options_rewards_settings'] = '奖励'
 L['options_reward_types'] = '显示奖励类型'
 L['options_mount_rewards'] = '显示坐骑奖励'
-L['options_mount_rewards_desc'] = '在提示和追踪其收集状态显示坐骑奖励。'
+L['options_mount_rewards_desc'] = '在提示中显示坐骑奖励并跟踪其收集状态。'
 L['options_pet_rewards'] = '显示宠物奖励'
-L['options_pet_rewards_desc'] = '在提示和追踪其收集状态显示宠物奖励。'
+L['options_pet_rewards_desc'] = '在提示中显示宠物奖励并跟踪其收集状态。'
+L['options_recipe_rewards'] = '显示配方奖励'
+L['options_recipe_rewards_desc'] = '在提示中显示配方奖励并跟踪其收集状态。'
 L['options_toy_rewards'] = '显示玩具奖励'
-L['options_toy_rewards_desc'] = '在提示和追踪其收集状态显示玩具奖励。'
+L['options_toy_rewards_desc'] = '在提示中显示玩具奖励并跟踪其收集状态。'
 L['options_transmog_rewards'] = '显示幻化奖励'
-L['options_transmog_rewards_desc'] = '在提示和追踪其收集状态显示幻化奖励。'
+L['options_transmog_rewards_desc'] = '在提示中显示幻化奖励并跟踪其收集状态。'
 L['options_all_transmog_rewards'] = '显示无法获取的幻化奖励'
 L['options_all_transmog_rewards_desc'] = '显示其它职业可以获取的幻化奖励。'
 
@@ -177,6 +185,8 @@ L['options_toggle_show_loot'] = '显示拾取'
 L['options_toggle_show_loot_desc'] = '在提示中加入拾取信息'
 L['options_toggle_show_notes'] = '显示注释'
 L['options_toggle_show_notes_desc'] = '在提示中添加注释'
+L['options_toggle_use_standard_time'] = '使用12小时时钟'
+L['options_toggle_use_standard_time_desc'] = '在提示中使用12小时时钟（如：8:00 PM）而不是24小时时钟（如：20:00）。'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

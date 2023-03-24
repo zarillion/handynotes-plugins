@@ -64,6 +64,7 @@ L['hard'] = 'Difícil'
 L['heirloom'] = 'Reliquia'
 L['mount'] = 'Montura'
 L['pet'] = 'Mascota'
+L['recipe'] = 'Receta'
 L['spell'] = 'Hechizo'
 L['title'] = 'Título'
 L['toy'] = 'Juguete'
@@ -82,6 +83,10 @@ L['follower_type_follower'] = 'Seguidor'
 L['follower_type_champion'] = 'Campeón'
 L['follower_type_companion'] = 'Compañero'
 
+L['rep_honored'] = 'Honorable'
+L['rep_revered'] = 'Reverenciado'
+L['rep_exalted'] = 'Exaltado'
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
@@ -89,6 +94,7 @@ L['follower_type_companion'] = 'Compañero'
 L['context_menu_set_waypoint'] = 'Añadir al mapa punto de ruta'
 L['context_menu_add_tomtom'] = 'Añadir en TomTom'
 L['context_menu_add_group_tomtom'] = 'Añadir grupo en TomTom'
+L['context_menu_add_focus_group_tomtom'] = 'Añadir nodos relacionados en TomTom'
 L['context_menu_hide_node'] = 'Ocultar este nodo'
 L['context_menu_restore_hidden_nodes'] = 'Restaurar todos los nodos ocultos'
 
@@ -145,6 +151,8 @@ L['options_mount_rewards'] = 'Mostrar recompensas de monturas'
 L['options_mount_rewards_desc'] = 'Muestra las recompensas de monturas en las notas y rastrea el estado de si ha sido aprendida.'
 L['options_pet_rewards'] = 'Mostrar recompensas de mascotas'
 L['options_pet_rewards_desc'] = 'Muestra las recompensas de mascotas en las notas y rastrea el estado de si ha sido aprendida.'
+L['options_recipe_rewards'] = 'Mostrar recompensas de recetas'
+L['options_recipe_rewards_desc'] = 'Muestra las recompensas de recetas en las notas y rastrea el estado de si ha sido aprendida.'
 L['options_toy_rewards'] = 'Mostrar recompensas de juguetes'
 L['options_toy_rewards_desc'] = 'Muestra las recompensas de juguetes en las notas y rastrea el estado de si ha sido aprendida.'
 L['options_transmog_rewards'] = 'Mostrar recompensas de transfiguraciones'
@@ -178,6 +186,8 @@ L['options_toggle_show_loot'] = 'Mostrar el botín'
 L['options_toggle_show_loot_desc'] = 'Muestra la información de botín al tooltip'
 L['options_toggle_show_notes'] = 'Mostrar las Notas'
 L['options_toggle_show_notes_desc'] = 'Agrega las notas útiles al tooltip cuando esté disponible'
+L['options_toggle_use_standard_time'] = 'Usar Reloj de 12-Horas'
+L['options_toggle_use_standard_time_desc'] = 'Usa el reloj de 12-horas (ej: 8:00 PM) en lugar del reloj de 24-horas (ej: 20:00) en las descripciones.'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

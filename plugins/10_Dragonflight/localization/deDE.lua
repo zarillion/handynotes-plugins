@@ -22,7 +22,7 @@ L['options_icons_dragon_glyph_desc'] = 'Zeigt die Positionen aller 64 Drachengly
 L['dragonscale_expedition_flag'] = 'Flagge der Drachenschuppenexpedition'
 L['flags_placed'] = 'Flaggen platziert'
 L['options_icons_flag'] = '{achievement:15890}'
-L['options_icons_flag_desc'] = 'Zeigt die Positionen aller 20 Flaggen für den Erfolg {achievement:15890} an.'
+L['options_icons_flag_desc'] = 'Zeigt die Positionen aller Flaggen für den Erfolg {achievement:15890} an.'
 
 L['broken_banding_note'] = 'Am Knöchel des rechten Fußes der Statue.'
 L['chunk_of_sculpture_note'] = 'Auf dem Boden, von der Drachenstatue aus auf der linken Seite.'
@@ -51,6 +51,7 @@ L['options_icons_scout_pack_desc'] = 'Zeigt die möglichen Positionen für {obje
 L['magicbound_chest'] = 'Magiegebundene Truhe'
 L['options_icons_magicbound_chest'] = 'Magiegebundene Truhen'
 L['options_icons_magicbound_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Magiegebundene Truhe} an.'
+L['ice_bound_chest'] = 'Eisgebundene Truhe'
 
 L['tuskarr_tacklebox'] = 'Angelzubehör der Tuskarr'
 L['options_icons_tuskarr_tacklebox'] = 'Angelzubehör der Tuskarr'
@@ -90,8 +91,10 @@ L['signal_transmitter_note'] = ns.color.Orange('Benötigt 10 Punkte in Mechanisc
 L['options_icons_signal_transmitter'] = 'Wyrmlochgenerator Signaltransmitters'
 L['options_icons_signal_transmitter_desc'] = 'Zeigt die Positionen der {object:Deaktivierten Signaltransmitter} für {item:198156} an.'
 
-L['rare_14h'] = 'Dieser Gegner befindet sich in einem 14 Stunden Interval mit anderen Gegnern, wobei alle 30 Minuten einer dieser Gegner erscheinen kann.\n\nNächstes mögliches erscheinen: {note:%s} (Server Zeit)'
-L['time_format'] = '%H:%M - %d.%m.%Y'
+L['rare_14h'] = 'Dieser Gegner befindet sich in einem 14 Stunden Interval mit anderen Gegnern, wobei alle 30 Minuten einer dieser Gegner erscheinen kann.\n\nNächstes mögliches erscheinen: {note:%s}'
+L['time_format_12hrs'] = '%d.%m - %I:%M %p'
+L['time_format_24hrs'] = '%d.%m - %H:%M'
+L['now'] = 'Jetzt'
 L['spawns_at_night'] = '{note:Erscheint nur nachts. (Ab 18:30 Server Zeit)}'
 
 L['elemental_storm'] = 'Elementarsturm'
@@ -136,13 +139,29 @@ L['ancient_stone_label'] = nil
 L['options_icons_ancient_stones'] = '{achievement:17560}'
 L['options_icons_ancient_stones_desc'] = nil
 
+L['reed_chest'] = 'Schilfkiste'
+L['options_icons_reed_chest'] = 'Schilfkiste'
+L['options_icons_reed_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Schilfkisten} an.'
+
+L['dracthyr_supply_chest'] = 'Vorratstruhe der Dracthyr'
+L['options_icons_dracthyr_supply_chest'] = 'Vorratstruhe der Dracthyr'
+L['options_icons_dracthyr_supply_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Vorratstruhen der Dracthyr} an.'
+
+L['simmering_chest'] = 'Brodelnde Kiste'
+L['options_icons_simmering_chest'] = 'Brodelnde Kiste'
+L['options_icons_simmering_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Brodelnde Kisten} an.'
+
+L['frostbound_chest'] = 'Frostgebundene Kiste'
+L['options_icons_frostbound_chest'] = 'Frostgebundene Kiste'
+L['options_icons_frostbound_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Frostgebundene Kisten} an.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
 
-L['bisquis_note'] = 'Kocht beim gemeinschaftlichen Festmahl in {location:Iskaara} eine legendäre Suppe und besiegt dann {npc:197557}.\n\nNächstes Festmahl: {note:%s} (Serverzeit)'
+L['bisquis_note'] = 'Kocht beim gemeinschaftlichen Festmahl in {location:Iskaara} eine legendäre Suppe und besiegt dann {npc:197557}.\n\nNächstes Festmahl: {note:%s}'
 L['blightfur_note'] = 'Sprich mit {npc:193633}, um den seltenen Gegner erscheinen zu lassen.'
-L['brackenhide_rare_note'] = 'Dieser seltene Gegner erscheint nach einer festen Rotation von {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} im Abstand von 10 Minuten.\n\nNächstes mögliches erscheinen: {note:%s} (Server Zeit)'
+L['brackenhide_rare_note'] = 'Dieser seltene Gegner erscheint nach einer festen Rotation von {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} im Abstand von 10 Minuten.\n\nNächstes mögliches erscheinen: {note:%s}'
 L['fisherman_tinnak_note'] = 'Sammel {object:Zerbrochene Angelrute}, {object:Zerrissenes Fischernetz} und {object:Alte Harpune}, um ihn zu beschwören.'
 L['frostpaw_note'] = 'Hebe den {object:Holzhammer} in der Nähe auf und schlage die drei {object:Hau den Gnoll} innerhalb von 20 Sekunden auf dem {object:Baumstumpf} damit, um den seltenen Gegner erscheinen zu lassen.'
 L['sharpfang_note'] = 'Hilf {npc:192747} dabei, drei {npc:192748s} zu besiegen, um den seltenen Gegner erscheinen zu lassen.'
@@ -184,7 +203,7 @@ L['seeing_blue_note'] = 'Fliegt ohne Zwischenlandung von der Spitze der Azurarch
 L['snowman_note'] = 'Es liegen 3 Schneebälle in der Nähe (möglicherweise wurden sie von anderen Spielern weggerollt), rolle sie zu den Kindern {npc:197838} und {npc:197839}.\nDu erhältst den Erfolg sobald die Schneebälle die richtigen Größen erreicht haben.'
 
 L['snowclaw_cub_note_start'] = 'Du musst zunächst die Questreihe {quest:67094} von {npc:192522} in {location:Valdrakken} abschließen, um den Titel {title:Ehrendryade} zu erhalten.\n\nBesorge die folgenden Gegenstände:'
-L['snowclaw_cub_note_item1'] = 'Sammle 3x {item:197744} von verschiedene {npc:182559n} in {location:Die Küste des Erwachens}.'
+L['snowclaw_cub_note_item1'] = 'Sammle 3x {item:197744} von verschiedenen {npc:182559n} in {location:Die Küste des Erwachens}.'
 L['snowclaw_cub_note_item2'] = 'Kaufe 1x {item:198356} von {npc:193310} in {location:Die Küste des Erwachens}.'
 L['snowclaw_cub_note_end'] = ns.color.Orange('Alle Gegenstände können im Auktionshaus ersteigert werden. Das ist besonders hilfreich, da du bei {npc:193310} den {item:198356} nur mit einer {item:199215} kaufen kannst.') .. '\n\nSobald du den Titel {title:Ehrendryade} angelegt hast, biete {npc:196768} die Gegenstände an, um dein Haustier zu erhalten.\n\n{bug:BUG: Der Titel könnte verschwinden.}'
 
@@ -227,8 +246,20 @@ L['community_feast_label'] = '{spell:386441}'
 L['options_icons_community_feast'] = '{spell:386441}'
 L['options_icons_community_feast_desc'] = 'Zeigt die Position und Belohnungen des {spell:386441s}'
 
+L['decay_covered_chest'] = 'Mit Moder bedeckte Kiste'
+L['options_icons_decay_covered_chest'] = 'Mit Moder bedeckte Kiste'
+L['options_icons_decay_covered_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Mit Moder bedeckte Kisten} an.'
+
+L['icemaw_storage_cache'] = 'Vorratsdepot des Eisschlunds'
+L['options_icons_icemaw_storage_cache'] = 'Vorratsdepot des Eisschlunds'
+L['options_icons_icemaw_storage_cache_desc'] = 'Zeigt die möglichen Positionen für {object:Vorratsdepots des Eisschlunds} an.'
+
+L['kazzi_note_start'] = 'Tausche {item:202017} und {item:202018} für Ausrüstungsvorlagen, Drachenanpassungen, ein Haustier und mehr ein.'
+L['kazzi_note_item'] = 'Zurzeit hast du %s {item:%s}.'
+L['kazzi_achievement_suffix'] = 'Rang in der Sprache der Winterpelze'
+
 -------------------------------------------------------------------------------
-------------------------------- FORBIDDEN REACH -------------------------------
+------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
 
 L['bag_of_enchanted_wind'] = 'Tasche mit verzaubertem Wind'
@@ -238,6 +269,116 @@ L['lost_draconic_hourglass'] = 'Verlorenes drakonisches Stundenglas'
 L['suspicious_bottle_treasure'] = 'Verdächtige Flasche'
 L['mysterious_wand'] = 'Geheimnisvoller Zauberstab'
 L['mysterious_wand_note'] = 'Hebe den {object:Kristallschlüssel} auf und platziere ihn im {object:Kristallfokus}.'
+
+-------------------------------------------------------------------------------
+------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
+-------------------------------------------------------------------------------
+
+-- Locations
+L['in_dragonskull_island'] = 'Auf der {location:Drachenschädelinsel}.'
+L['in_froststone_vault'] = 'Im {location:Froststeingewölbe}.'
+L['in_the_high_creche'] = 'Im {location:Hohen Hort}.'
+L['in_the_lost_atheneum'] = 'Im {location:Verlorenen Athenäum}.'
+L['in_the_siege_creche'] = 'Im {location:Belagerungshort}.'
+L['in_the_support_creche'] = 'Im {location:Unterstützungshort}.'
+L['in_the_war_creche'] = 'Tief im {location:Kriegshort}.'
+L['in_zskera_vaults'] = 'In den {location:Gewölben von Zskera}.'
+
+-- Rares
+L['duzalgor_note'] = 'Sammel eine Flasche {spell:400751}({dot:Green}), um dich von den giftigen Gasen in der Höhle zu heilen.'
+L['mad_eye_carrey_note'] = '{npc:201181} ist in einer Gruppe mit {npc:201184} und {npc:201182}'
+L['wymslayer_angvardi_note'] = '{npc:201013} ist mit {npc:201310} verbunden.'
+L['loot_specialist_note'] = '{npc:203353} erscheint mit {spell:406143} und {spell:132653} und wird weg rennen, wenn er angeriffen wird.\n\n{note:Töte ihn bevor er {spell:406141} fertig zaubert.}'
+
+-- Profession Rares
+L['profession_required'] = '{note:Benötigt einen Spieler mit dem Beruf \'%s\'.}'
+L['pr_crafting_note'] = 'Stellt {item:%s} mit {item:%s} her und interagiere mit {object:%s}, um den seltenen Gegner erscheinen zu lassen.'
+L['pr_gathering_note'] = 'Benutze {item:%s}, um mit {object:%s} zu interagieren, um den seltenen Gegner erscheinen zu lassen.'
+L['pr_recipe_note'] = 'Das Rezept {item:%s} kann von {npc:202445} für 10 {item:190456} gekauft werden.'
+
+L['pr_awakened_soil'] = nil
+L['pr_book_of_arcane_entities'] = nil
+L['pr_damaged_buzzspire'] = nil
+L['pr_empty_crab_trap'] = nil
+L['pr_farescale_shrine'] = nil
+L['pr_raw_argali_pelts'] = nil
+L['pr_resonant_crystal'] = nil
+L['pr_rumbling_deposit'] = nil
+L['pr_spellsworn_ward'] = nil
+L['pr_spiceless_stew'] = nil
+L['pr_tuskarr_kite_post'] = nil
+L['pr_tuskarr_tanning_rack'] = nil
+L['pr_volatile_brazier'] = nil
+
+-- Treasures
+L['storm_bound_chest_label'] = 'Sturmgebundene Truhe'
+
+-- Forbidden Hoard
+L['hoarder_of_the_forbidden_reach_suffix'] = 'kleine Schätze geöffnet'
+L['forbidden_spoils_suffix'] = 'verbotene Schätze geöffnet'
+L['forbidden_hoard_label'] = 'Verbotener Schatz'
+
+L['options_icons_forbidden_hoard'] = 'Verbotene Schätze'
+L['options_icons_forbidden_hoard_desc'] = 'Zeigt mögliche Positionen von {object:Verbotener Schatz} an.'
+
+-- Froststone Primal Vault Storm
+L['froststone_vault_storm_label'] = 'Ursturm am Froststeingewölbe'
+L['gooey_snailemental_note'] = 'Kombiniere 50x {item:204352} von Bossen beim {object:Ursturm am Froststeingewölbe}, um {item:192785} zu erschaffen.'
+
+L['options_icons_froststone_vault_storm'] = 'Ursturm am Froststeingewölbe'
+L['options_icons_froststone_vault_storm_desc'] = 'Zeigt die Positionen und Belohnungen für {object:Ursturm am Froststeingewölbe} an.'
+
+-- Small Treasures
+L['small_treasures_label'] = 'Kleiner Schatz'
+L['small_treasures_note'] = 'An jeder Position können verschiedene Schätze erscheinen.\n\nKaufe {item:204558} von {npc:200566} beim {location:Morqutdorf}, um den Stärkungszauber {spell:405637} zu erhalten. Dieser erlaubt es dir für 60 Minuten kleine Schätze auf der Minimap zu sehen.'
+L['options_icons_small_treasures'] = 'Kleine Schätze'
+L['options_icons_small_treasures_desc'] = 'Zeigt mögliche Positionen von kleinen Schätzen an.'
+
+-- Zskera Vaults
+L['zskera_vaults_label'] = 'Gewölbe von Zskera'
+L['zskera_vaults_note'] = 'Sammle {item:202196} von seltenen Gegnern und Schätzen, um Türen in den {location:Gewölben von Zskera} zu öffnen.'
+L['door_buster_suffix'] = 'Türen mit {item:202196} geöffnet'
+
+L['recipe_rat_note_1'] = 'Sprich mit {npc:202982} in den {location:Gewölben von Zskera} und du erhältst {item:202252}.'
+L['recipe_rat_note_2'] = 'Interagiere mit {item:202252}, um {item:204340} zu erhalten. {note:(5 Minute Abklingzeit)}'
+L['recipe_rat_note_3'] = 'Wenn du 30x {item:204340} hast, kombiniere diese, um das Rattzept zu erhalten.'
+L['recipe_rat_note_4'] = '{note:Diese Ratte liebt Käse und wird etwa alle 3 Minuten einen {item:3927} verzehren. Plane entsprechend!}'
+
+L['mm_start_note'] = 'Sammle und kombiniere verschiedene Gegenstände aus den {location:Gewölben von Zskera}.'
+L['mm_status_note'] = 'Kombiniere die folgenden Gegenstände:\n{item:%s}\n{item:%s}'
+
+L['options_icons_zskera_vaults'] = 'Gewölbe von Zskera'
+L['options_icons_zskera_vaults_desc'] = 'Zeigt die Position und Belohnungen für das {location:Gewölbe von Zskera} an.'
+
+-- Librarian of the Reach
+L['confiscated_journal_label'] = 'Konfisziertes Tagebuch'
+L['farscale_manifesto_label'] = 'Weitenschuppenmanifest'
+L['lost_expeditions_notes_label'] = 'Expeditionsnotitzen'
+L['pirate_proclamation_label'] = 'Proklamation der Piraten'
+L['spellsworn_missive_label'] = 'Schreiben der Zauberverschworenen'
+L['vrykul_tome_label'] = 'Vrykulfoliant'
+
+L['library_note'] = 'Öffne {object:%s} und erhalte das Buch {item:%s}.'
+
+L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
+L['options_icons_librarian_of_the_reach_desc'] = 'Zeigt die Positionen der Bücher für den Erfolg {achievement:17530} an. {note:Einige Bücher befinden sich in den {location:Gewölben von Zskera}}.'
+
+-- Scroll Hunter
+L['scroll_hunter_suffix'] = 'Schätze mithilfe von versiegelten Schriftrollen gefunden'
+L['scroll_hunter_note'] = 'Sammle versiegelten Schriftrollen von verschiedenen seltenen Gegnern oder Schätzen auf {location:Die Verbotene Insel}.\n\nDas öffnen einer {item:%s} lässt auf der Weltkarte ein X erscheinen, bei dem du {item:%s} erhältst, dass Ruf bei der Fraktion {faction:%s} gewährt.'
+
+L['options_icons_scroll_hunter'] = '{achievement:17532}'
+L['options_icons_scroll_hunter_desc'] = 'Zeigt die Positionen von Schriftrollenbelohnungen für den Erfolg {achievement:17532} an.'
+
+-- While We Were Sleeping
+L['options_icons_scalecommander_item'] = '{achievement:17315}'
+L['options_icons_scalecommander_item_desc'] = 'Zeigt die Positionen der Gegenstände für den Erfolg {achievement:17315} an.'
+
+-- Misc
+L['spellsworn_gateway'] = 'Tor der Zauberverschworenen'
+L['gemstone_of_return'] = 'Edelstein der Rückkehr'
+
+L['morqut_village_vendor_note'] = 'Tausche {currency:2118} oder Gold gegen Reittiere, Haustiere, Ausrüstungsvorlagen, Drachenanpassungen, Rezepte und andere nützliche Gegenstände ein.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -330,11 +471,17 @@ L['options_icons_nokhud_do_it_desc'] = 'Zeigt die Position für den Erfolg {achi
 
 L['chest_of_the_flood'] = 'Truhe der Flut'
 
-L['aylaag_camp_note'] = 'Der {faction:Aylaag Klan} zieht alle 3 Tage und 3 Stunden (75 Stunden) weiter in ein anderes Lager, folge ihnen und verteidige sie auf ihren Weg.'
+L['aylaag_camp_note'] = 'Der {faction:Aylaag Klan} zieht alle 3 Tage und 3 Stunden (75 Stunden) weiter in ein anderes Lager, folge ihnen und verteidige sie auf ihren Weg.\n\nNächster Umzug: {note:%s}'
 
 L['clan_chest'] = 'Klankiste'
 L['options_icons_clan_chest'] = 'Klankisten'
 L['options_icons_clan_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Klankisten} an.'
+
+L['lightning_bound_chest'] = 'Blitzgebundene Kiste'
+L['options_icons_lightning_bound_chest'] = 'Blitzgebundene Kiste'
+L['options_icons_lightning_bound_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Blitzgebundene Kisten} an.'
+
+L['bloodgullet_note'] = 'Hol dir in einem Zelt am {location:Baumschrittaußenposten} von der {object:Essenz des Erwachens} den Stärkungszauber {spell:369277} (1 Stunde), um die Geisterbestie sehen zu können.\n\n{note:Erscheint nur für Tierherrschafts-Jäger.}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -397,6 +544,10 @@ L['hoard_of_draconic_delicacies_note_end'] = 'Nachdem alle Quests abgeschlossen 
 L['brendormi_note_start'] = 'Tausche {item:202039} und {currency:2118} gegen Ausrüstung, ein Haustier, ein Spielzeug oder ein Reittier ein.'
 L['brendormi_note_item'] = 'Zurzeit hast du %s {item:202039}.'
 L['brendormi_note_currency'] = 'Zurzeit hast du %s {currency:2118}.'
+
+L['titan_chest'] = 'Titanentruhe'
+L['options_icons_titan_chest'] = 'Titanentruhe'
+L['options_icons_titan_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Titanentruhen} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -531,7 +682,7 @@ L['options_icons_djaradin_cache_desc'] = 'Zeigt die möglichen Positionen für {
 
 L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
-L['options_icons_dragonbane_siege_desc'] = 'Zeigt die Position und Belohnungen der {spell:388945}'
+L['options_icons_dragonbane_siege_desc'] = 'Zeigt die Position und Belohnungen der {spell:388945} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

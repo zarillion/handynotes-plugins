@@ -2,6 +2,7 @@
   <Script file="common.lua"/>
   <Script file="zones\azure_span.lua"/>
   <Script file="zones\forbidden_reach.lua"/>
+  <Script file="zones\forbidden_reach2.lua"/>
   <Script file="zones\ohnahran_plains.lua"/>
   <Script file="zones\thaldraszus.lua"/>
   <Script file="zones\waking_shores.lua"/>

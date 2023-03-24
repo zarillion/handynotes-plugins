@@ -63,6 +63,7 @@ L['hard'] = 'Difícil'
 L['heirloom'] = nil
 L['mount'] = 'Montura'
 L['pet'] = 'Mascota'
+L['recipe'] = nil
 L['spell'] = nil
 L['title'] = nil
 L['toy'] = 'Juguete'
@@ -81,6 +82,10 @@ L['follower_type_follower'] = nil
 L['follower_type_champion'] = nil
 L['follower_type_companion'] = nil
 
+L['rep_honored'] = nil
+L['rep_revered'] = nil
+L['rep_exalted'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
@@ -88,6 +93,7 @@ L['follower_type_companion'] = nil
 L['context_menu_set_waypoint'] = nil
 L['context_menu_add_tomtom'] = 'Agregar a TomTom'
 L['context_menu_add_group_tomtom'] = nil
+L['context_menu_add_focus_group_tomtom'] = nil
 L['context_menu_hide_node'] = 'Ocultar este nodo'
 L['context_menu_restore_hidden_nodes'] = 'Restaurar todos los nodos ocultos'
 
@@ -144,6 +150,8 @@ L['options_mount_rewards'] = nil
 L['options_mount_rewards_desc'] = nil
 L['options_pet_rewards'] = nil
 L['options_pet_rewards_desc'] = nil
+L['options_recipe_rewards'] = nil
+L['options_recipe_rewards_desc'] = nil
 L['options_toy_rewards'] = nil
 L['options_toy_rewards_desc'] = nil
 L['options_transmog_rewards'] = nil
@@ -177,6 +185,8 @@ L['options_toggle_show_loot'] = 'Mostrar el botín'
 L['options_toggle_show_loot_desc'] = 'Agregar la información de botín al toolip'
 L['options_toggle_show_notes'] = 'Mostrar las Notas'
 L['options_toggle_show_notes_desc'] = 'Agregar las notas útiles al tooltip cuando esté disponible'
+L['options_toggle_use_standard_time'] = nil
+L['options_toggle_use_standard_time_desc'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

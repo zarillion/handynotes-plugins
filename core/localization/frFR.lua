@@ -63,6 +63,7 @@ L['hard'] = 'Difficile'
 L['heirloom'] = 'Héritage'
 L['mount'] = 'Monture'
 L['pet'] = 'Animal de Compagnie'
+L['recipe'] = 'Recette'
 L['spell'] = 'Sort'
 L['title'] = 'Titre'
 L['toy'] = 'Jouet'
@@ -81,6 +82,10 @@ L['follower_type_follower'] = 'Sujet'
 L['follower_type_champion'] = 'Champion'
 L['follower_type_companion'] = 'Compagnon'
 
+L['rep_honored'] = 'Honoré'
+L['rep_revered'] = 'Révéré'
+L['rep_exalted'] = 'Exalté'
+
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
@@ -88,6 +93,7 @@ L['follower_type_companion'] = 'Compagnon'
 L['context_menu_set_waypoint'] = 'Définir les points de passage' -- Need review
 L['context_menu_add_tomtom'] = 'Ajouter à TomTom'
 L['context_menu_add_group_tomtom'] = 'Ajouter le groupe à TomTom'
+L['context_menu_add_focus_group_tomtom'] = 'Ajouter les nœuds associés à TomTom'
 L['context_menu_hide_node'] = 'Cacher ce nœud'
 L['context_menu_restore_hidden_nodes'] = 'Restaurer tous les nœuds cachés'
 
@@ -144,6 +150,8 @@ L['options_mount_rewards'] = 'Afficher les montures en récompense'
 L['options_mount_rewards_desc'] = 'Afficher les montures en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_pet_rewards'] = 'Afficher les familiers en récompense'
 L['options_pet_rewards_desc'] = 'Afficher les familiers en récompenses dans les infobulles et suivre leur état de possession.'
+L['options_recipe_rewards'] = 'Afficher les recettes en récompense'
+L['options_recipe_rewards_desc'] = 'Afficher les recettes en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_toy_rewards'] = 'Afficher les jouets en récompense'
 L['options_toy_rewards_desc'] = 'Afficher les jouets en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_transmog_rewards'] = 'Afficher les transmos en récompense'
@@ -177,6 +185,8 @@ L['options_toggle_show_loot'] = 'Montrer le Butin'
 L['options_toggle_show_loot_desc'] = 'Ajouter l\'information de butin à l\'infobulle'
 L['options_toggle_show_notes'] = 'Montrer les Notes'
 L['options_toggle_show_notes_desc'] = 'Ajouter les notes utiles à l\'infobulle le cas échéant'
+L['options_toggle_use_standard_time'] = 'Utiliser l\'horloge de 12 heures'
+L['options_toggle_use_standard_time_desc'] = 'Utiliser l\'horloge de 12 heures (ex : 8:00 PM) à la place de l\'horloge de 24 heures (ex : 20:00) dans les infobulles.'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 
