@@ -367,7 +367,7 @@ L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = '显示 {achievement:17530} 成就中书籍的位置。{note:有些书籍在 {location:兹斯克拉宝库}}。'
 
 -- Scroll Hunter
-L['scroll_hunter_suffix'] = '来自 Sealed Scrolls 的宝藏'
+L['scroll_hunter_suffix'] = '来自密封卷轴的宝藏'
 L['scroll_hunter_note'] = '在 {location:禁忌离岛} 附近收集各种稀有和珍藏的密封卷轴。\n\n打开一个 {item:%s} 会在地图上显示一个 X，会提供一个 {item:%s}，为 {faction:%s} 提供声望。'
 
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
