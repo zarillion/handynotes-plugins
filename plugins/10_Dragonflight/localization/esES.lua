@@ -690,7 +690,7 @@ L['options_icons_dragonbane_siege_desc'] = 'Muestra dónde están y las recompen
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
 
-L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.' -- 'Despoja tus recompensas del <objeto en inglés>
+L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.' -- 'Despoja tus recompensas del {object:Chest of Massive Gains}.'
 
 L['ancient_zaqali_chest_label'] = 'Ancient Zaqali Chest'
 L['blazing_shadowflame_chest_label'] = 'Blazing Shadowflame Chest'
@@ -710,8 +710,8 @@ L['waterlogged_bundle_label'] = 'Waterlogged Bundle'
 L['well_chewed_chest_label'] = 'Well-Chewed Chest'
 L['well_chewed_chest_note'] = 'La {item:202869}({dot:Green}) está escondida debajo de {npc:199962} dentro de la cueva.'
 
-L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.'
-L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'
+L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.' -- 'Abre {object:Molten Scoutbot} y despoja el {item:204850}.'
+L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.' -- 'Abre {object:Bolts and Brass} y despoja los {item:204850}.'
 
 L['big_slick_note_1'] = '{npc:48182} está en el viejo mundo de la {location:Costa Oscura}. Habla con {npc:141489} para volver atrás en el tiempo antes de la {location:Guerra de las Espinas}.'
 
