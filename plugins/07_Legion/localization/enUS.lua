@@ -117,14 +117,14 @@ L['kaara_the_pale_note'] = '{npc:126860} no longer drops {item:153190}'
 L['turek_the_lucid_note'] = 'In the {location:Oronaar Collapse}'
 
 L['ancient_eredar_cache'] = 'Ancient Eredar Cache'
-L['ancient_eredar_cache_note'] = 'There are 6 unique {object:ancient eredar caches} that can each appear at set locations.'
+L['ancient_eredar_cache_note'] = 'There are 6 unique {object:Ancient Eredar Caches} that can each appear at set locations.'
 L['void_seeped_cache'] = 'Void-Seeped Cache'
-L['void_seeped_cache_note'] = 'There are 2 unique void-seeped caches that can each appear at set locations. {note:These do not contain transmogs.}'
+L['void_seeped_cache_note'] = 'There are 2 unique {object:Void-Seeped Caches} that can each appear at set locations. {note:These do not contain transmogs.}'
 
 L['options_icons_ancient_eredar_cache'] = 'Ancient Eredar Cache'
-L['options_icons_ancient_eredar_cache_desc'] = 'Display possible locations for ancient eredar caches (daily chests).'
+L['options_icons_ancient_eredar_cache_desc'] = 'Display possible locations for {object:Ancient Eredar Caches} (daily chests).'
 L['options_icons_void_seeped_cache'] = 'Void-Seeped Cache'
-L['options_icons_void_seeped_cache_desc'] = 'Display possible locations for void-seeped caches (daily chests).'
+L['options_icons_void_seeped_cache_desc'] = 'Display possible locations for {object:Void-Seeped Caches} (daily chests).'
 
 -------------------------------------------------------------------------------
 -------------------------------- HIGHMOUNTAIN ---------------------------------
@@ -153,10 +153,10 @@ L['rocfeather_kite_note'] = 'Combine {item:131809}, {item:131926} and {item:1319
 -------------------------------------------------------------------------------
 
 L['eredar_war_supplies'] = 'Eredar War Supplies'
-L['eredar_war_supplies_note'] = 'There are 7 unique eredar war supplies that can each appear at set locations.'
+L['eredar_war_supplies_note'] = 'There are 7 unique {object:Eredar War Supplies} that can each appear at set locations.'
 
 L['options_icons_eredar_war_supplies'] = 'Eredar War Supplies'
-L['options_icons_eredar_war_supplies_desc'] = 'Display possible locations for eredar war supplies (daily chests).'
+L['options_icons_eredar_war_supplies_desc'] = 'Display possible locations for {object:Eredar War Supplies} (daily chests).'
 
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
@@ -195,7 +195,7 @@ L['elandris_note'] = 'Not available when the legion invasion world quest {wq:The
 L['gathenak_note'] = 'Speak with {npc:112472}.'
 L['gorebeak_note'] = 'Speak with {npc:92111}.'
 L['jinikki_note'] = 'Speak with {npc:93677} and kill {npc:93684s} until the rare appears.'
-L['kiranys_note'] = 'Click the Vibrating Arcane Trap.'
+L['kiranys_note'] = 'Click the {object:Vibrating Arcane Trap}.'
 L['mad_henryk_note'] = 'Step into the {npc:109602}.'
 L['skulvrax_note'] = 'Resuscitate {npc:92334} and follow her.'
 L['theryssia_note'] = 'Read {npc:94194}\'s nameplate on the gravestone.'
