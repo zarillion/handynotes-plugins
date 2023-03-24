@@ -708,12 +708,12 @@ L['ritual_offering_label'] = 'Ritual Offering'
 L['stolen_stash_label'] = 'Stolen Stash'
 L['waterlogged_bundle_label'] = 'Waterlogged Bundle'
 L['well_chewed_chest_label'] = 'Well-Chewed Chest'
-L['well_chewed_chest_note'] = 'The {item:202869}({dot:Green}) is hidden underneath the {npc:199962} within the cave.'
+L['well_chewed_chest_note'] = 'La {item:202869}({dot:Green}) está escondida debajo de {npc:199962} dentro de la cueva.'
 
 L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.'
 L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'
 
 L['big_slick_note_1'] = '{npc:48182} está en el viejo mundo de la {location:Costa Oscura}. Habla con {npc:141489} para volver atrás en el tiempo antes de la {location:Guerra de las Espinas}.'
 
-L['saccratos_note'] = nil
-L['ponzo_note'] = nil
+L['saccratos_note'] = 'Cambia {item:204727} por una mascota, montura, y más.'
+L['ponzo_note'] = 'Cambia {item:204985} por personalizaciones para el draco, mascota, montura, y más.'
