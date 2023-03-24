@@ -1119,7 +1119,7 @@ local function nextSpawn(self, timeYellow, timeGreen)
         SpawnTime = SpawnTime + initial.kr
     elseif region == 3 and initial.eu then
         SpawnTime = SpawnTime + initial.eu
-    elseif region == 4 and initial.tw then
+    elseif region == 2 and initial.tw then
         SpawnTime = SpawnTime + initial.tw
     else
         SpawnTime = SpawnTime + initial.us
