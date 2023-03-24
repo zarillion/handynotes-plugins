@@ -46,8 +46,8 @@ All Node classes support the following _optional_ properties that affect a node'
 * `rewards` ([Reward](rewards.html)[ ])
   * List of rewards that are offered by the node.
 
-### Optional Display Properties
-All Node classes support the following _optional_ properties that hide or show the node:
+### Optional Visibility Properties
+All Node classes support the following _optional_ properties that affect a node's visibility:
 
 * `class` (string)
   * Only display this node if the character is this class.
@@ -75,8 +75,8 @@ All Node classes support the following _optional_ properties that hide or show t
 * `questDeps` (int / int[ ])
   * Show this node if all `questID` in `questDeps` have been completed.
 
-### Optional Miscellaneous Properties
-All Node class support the following _optional_ properties that affect how a node is interacted with:
+### Optional Interaction Properties
+All Node class support the following _optional_ properties that affect a node's interaction:
 * `fgroup` (string)
   * A category of nodes that should be focused together when hovered or clicked.
 * `parent` (int)
