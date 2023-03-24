@@ -310,8 +310,8 @@ L['pr_tuskarr_kite_post'] = 'Poste de Cometa Colmillarr'
 L['pr_tuskarr_tanning_rack'] = 'Bastidor para Pieles Colmillarr'
 L['pr_volatile_brazier'] = 'Blandón Volátil'
 
-L['options_icons_profession_rares'] = nil
-L['options_icons_profession_rares_desc'] = nil
+L['options_icons_profession_rares'] = 'Raros de Profesión'
+L['options_icons_profession_rares_desc'] = 'Muestra dónde están los Raros de Profesión.'
 
 L['storm_bound_chest_label'] = 'Cofre Vinculado a la Tormenta'
 
