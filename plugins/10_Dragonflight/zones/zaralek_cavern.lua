@@ -82,13 +82,11 @@ map.nodes[31805061] = Rare({
 map.nodes[36324481] = Rare({
     id = 203660,
     quest = 75565,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59207}) -- Adventurer of Zaralek Cavern
     },
-    pois = {
-        POI({35924400}) -- Entrance
-    }
+    pois = {POI({35924400})} -- Entrance
 }) -- Flowfy
 
 map.nodes[41921857] = Rare({
@@ -98,9 +96,7 @@ map.nodes[41921857] = Rare({
         Achievement({id = 17783, criteria = 59190}), -- Adventurer of Zaralek Cavern
         Item({item = 192055}) -- Dragon Isle Artifact
     },
-    pois = {
-        POI({42491885}) -- Entrance
-    }
+    pois = {POI({42491885})} -- Entrance
 }) -- General Zskorro
 
 map.nodes[68734593] = Rare({
@@ -155,13 +151,11 @@ map.nodes[54074162] = Rare({
 map.nodes[65435587] = Rare({
     id = 203462,
     quest = 75545,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59183}) -- Adventurer of Zaralek Cavern
     },
-    pois = {
-        POI({64785550}) -- Entrance
-    }
+    pois = {POI({64785550})} -- Entrance
 }) -- Kob'rok
 
 map.nodes[40753817] = Rare({
@@ -179,14 +173,12 @@ map.nodes[40753817] = Rare({
 map.nodes[55841899] = Rare({
     id = 203521,
     quest = 75551,
-    note = L['in_cave'],
+    location = L['in_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59189}), -- Adventurer of Zaralek Cavern
         Item({item = 192055}) -- Dragon Isle Artifact
     },
-    pois = {
-        POI({52921886}) -- Entrance
-    }
+    pois = {POI({52921886})} -- Entrance
 }) -- Professor Gastrinax
 
 map.nodes[65875082] = Rare({
@@ -202,15 +194,13 @@ map.nodes[65875082] = Rare({
 map.nodes[53106421] = Rare({
     id = 203480,
     quest = 75549,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59187}), -- Adventurer of Zaralek Cavern
         Transmog({item = 205067, slot = L['leather']}), -- Zaralek Surveyor's Helm
         Item({item = 192055}) -- Dragon Isle Artifact
     },
-    pois = {
-        POI({54556605}) -- Entrance
-    }
+    pois = {POI({54556605})} -- Entrance
 }) -- Spinmarrow
 
 map.nodes[38424650] = Rare({
@@ -308,23 +298,25 @@ map.nodes[29774050] = Treasure({
 
 -------------------------------------------------------------------------------
 
-map.nodes[48411636] = Treasure({label = L['molten_hoard_label'], quest = 75515}) -- Molten Hoard
+map.nodes[48411636] = Treasure({
+    label = L['molten_hoard_label'],
+    quest = 75515,
+    location = L['in_small_cave']
+}) -- Molten Hoard
 
-map.nodes[48451083] = Treasure({label = L['fealtys_reward_label']}) -- Fealty's Reward (currently seems not clickable)
+map.nodes[48451083] = Treasure({label = L['fealtys_reward_label']}) -- Fealty's Reward
 
 map.nodes[56734868] = Treasure({
     label = L['moth_pilfered_pouch_label'],
     quest = 75320,
     note = L['moth_pilfered_pouch_note'],
-    pois = {
-        POI({56664934}) -- Struggling Mothling
-    }
+    pois = {POI({56664934})} -- Struggling Mothling
 }) -- Moth-Pilfered Pouch
 
 map.nodes[61735511] = Treasure({
     label = L['waterlogged_bundle_label'],
     quest = 75015
-}) -- Waterlogged Bundle (currently no loot)
+}) -- Waterlogged Bundle
 
 -------------------------------------------------------------------------------
 
@@ -335,7 +327,7 @@ map.nodes[60664622] = StolenStash({quest = 75302})
 map.nodes[63603861] = StolenStash({quest = 75303})
 
 local RitualOffering = Class('RitualOffering', Treasure, {
-    label = 'Ritual Offering',
+    label = L['ritual_offering_label'],
     rewards = {
         Item({item = 199906}), -- Titan Relic
         Item({item = 204985}), -- Barter Brick
@@ -356,6 +348,7 @@ map.nodes[37825884] = PT.Engineering({id = 204475, quest = 75186}) -- Busted Wyr
 
 map.nodes[48101659] = PT.Engineering({
     id = 204855,
+    location = L['in_small_cave'],
     note = L['molten_scoutbot_note'],
     quest = 75433
 }) -- Molten Scoutbot (Overclocked Determination Core)
@@ -581,7 +574,7 @@ local LoammVendor = Class('LoammVendor', Collectible,
 
 map.nodes[55895537] = LoammVendor({
     id = 203615,
-    note = 'Exchange {item:204727} for a pet, mount, and more.',
+    note = L['saccratos_note'],
     rewards = {
         Pet({item = 205118, id = 3535, note = 'x50'}), -- Diamondshell
         -- Item({item = nil, note = 'x100'}), -- UNKNOWN
@@ -591,11 +584,11 @@ map.nodes[55895537] = LoammVendor({
 
 map.nodes[58085381] = LoammVendor({
     id = 204693,
-    note = 'Exchange {item:204985} for drake customizations, pet, mount, and more.',
+    note = L['ponzo_note'],
     rewards = {
-        DC.WindingSlitherdrake.HairyBrow,
-        DC.WindingSlitherdrake.ClusterChinHorn,
-        DC.WindingSlitherdrake.CurledNose,
+        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, 'x50'),
+        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, 'x50'),
+        DC.SetNote(DC.WindingSlitherdrake.CurledNose, 'x50'),
         Pet({item = 205120, id = 3537, note = 'x85'}), -- Thimblerig
         Mount({item = 205209, id = 1736, note = 'x170'}) -- Boulder Hauler
     }

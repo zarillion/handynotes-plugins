@@ -692,24 +692,28 @@ L['options_icons_dragonbane_siege_desc'] = 'Muestra dónde están y las recompen
 
 L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.' -- 'Despoja tus recompensas del <objeto en inglés>
 
+L['ancient_zaqali_chest_label'] = 'Ancient Zaqali Chest'
 L['blazing_shadowflame_chest_label'] = 'Blazing Shadowflame Chest'
 L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
-L['well_chewed_chest_label'] = 'Well-Chewed Chest'
-L['well_chewed_chest_note'] = 'The {item:202869}({dot:Green}) is hidden underneath the {npc:199962} within the cave.'
 L['charred_egg_label'] = 'Charred Egg'
 L['crystal_encased_chest_label'] = 'Crystal-Encased Chest'
 L['crystal_encased_chest_note'] = 'This has something to do with the {npc:204319} protecting the chest.' -- DEV NOTE - Do not translate
+L['fealtys_reward_label'] = 'Fealty\'s Reward'
+L['long_lost_cache_label'] = 'Long-Lost Cache'
+L['molten_hoard_label'] = 'Molten Hoard'
 L['moth_pilfered_pouch_label'] = 'Moth-Pilfered Pouch'
 L['moth_pilfered_pouch_note'] = 'Ayuda a {npc:203225} para que vuele haciendo "malabarismos" hasta que tenga cinco acumulaciones de {spell:405358}.\n\nEntonces volará a la faltriquera y te la revelará.'
-L['stolen_stash_label'] = 'Stolen Stash'
-L['molten_hoard_label'] = 'Molten Hoard'
-L['ancient_zaqali_chest_label'] = 'Ancient Zaqali Chest'
 L['old_trunk_label'] = 'Old Trunk'
-L['fealtys_reward_label'] = 'Fealty\'s Reward'
+L['ritual_offering_label'] = 'Ritual Offering'
+L['stolen_stash_label'] = 'Stolen Stash'
 L['waterlogged_bundle_label'] = 'Waterlogged Bundle'
-L['long_lost_cache_label'] = 'Long-Lost Cache'
+L['well_chewed_chest_label'] = 'Well-Chewed Chest'
+L['well_chewed_chest_note'] = 'The {item:202869}({dot:Green}) is hidden underneath the {npc:199962} within the cave.'
 
 L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.'
 L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'
 
 L['big_slick_note_1'] = '{npc:48182} está en el viejo mundo de la {location:Costa Oscura}. Habla con {npc:141489} para volver atrás en el tiempo antes de la {location:Guerra de las Espinas}.'
+
+L['saccratos_note'] = nil
+L['ponzo_note'] = nil
