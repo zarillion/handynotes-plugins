@@ -360,7 +360,7 @@ L['library_note'] = '開啟 {object:%s} 並拾取 {item:%s}.'
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = '顯示成就 {achievement:17530} 所需的書本位置. {note:有些書在 {location:澤斯克拉密庫} 內}.'
 
-L['dracythyr_runestone_label'] = nil
+L['dracythyr_runestone_label'] = '半龍人符文石'
 L['scroll_hunter_suffix'] = '從封印的卷軸找到的寶藏'
 L['scroll_hunter_note'] = '從 {location:禁忌之境} 的稀有和寶藏收集封印的卷軸.\n\n打開 {item:%s} 會在地圖上標記一個 X. 可以找到 {item:%s} 可以提升 {faction:%s} 的聲望.'
 
