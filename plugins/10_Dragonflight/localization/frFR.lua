@@ -281,7 +281,6 @@ L['mysterious_wand_note'] = 'Ramassez la {object:Clé en cristal} et placez-la d
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
--- Locations
 L['in_dragonskull_island'] = 'Sur l\'{location:Île du Crâne-de-Dragon}.'
 L['in_froststone_vault'] = 'À l\'intérieur du {location:Caveau Givre-Pierre}'
 L['in_the_high_creche'] = 'À l\'intérieur du {location:Haut Couvoir}'
@@ -291,13 +290,11 @@ L['in_the_support_creche'] = 'À l\'intérieur du {location:Couvoir Auxiliaire}'
 L['in_the_war_creche'] = 'Au fond du {location:Couvoir Martial}'
 L['in_zskera_vaults'] = 'À l\'intérieur des {location:Caveaux de Zskera}'
 
--- Rares
 L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751}({dot:Green}) pour vous soigner du gaz toxique dans le {location:Couvoir Auxiliaire}.'
 L['mad_eye_carrey_note'] = '{npc:201181} se trouve dans un groupe avec la {npc:201184} et la {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} fait équipe avec {npc:201310}'
 L['loot_specialist_note'] = '{npc:203353} apparaît avec les sorts {spell:406143} et {spell:132653} et s\'enfuira s\'il est attaqué.\n\n{note:Tuez-le rapidement avant qu\'il ne finisse de lancer {spell:406141}.}'
 
--- Profession Rares
 L['profession_required'] = '{note:Nécessite un joueur avec le métier %s.}'
 L['pr_crafting_note'] = 'Fabriquez l\'objet {item:%s} grâce au composant {item:%s} et interagissez avec l\'objet {object:%s} pour invoquer le rare.'
 L['pr_gathering_note'] = 'Utilisez le composant {item:%s} pour interagir avec l\'objet {object:%s} et invoquer le rare.'
@@ -317,10 +314,11 @@ L['pr_tuskarr_kite_post'] = 'Poteau à cerfs-volants roharts'
 L['pr_tuskarr_tanning_rack'] = 'Chevalet de tannage rohart'
 L['pr_volatile_brazier'] = 'Brasero volatil'
 
--- Treasures
+L['options_icons_profession_rares'] = 'Rares liés aux Métiers'
+L['options_icons_profession_rares_desc'] = 'Afficher les emplacements des Rares liés aux Métiers.'
+
 L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
 
--- Forbidden Hoard
 L['hoarder_of_the_forbidden_reach_suffix'] = 'Petits trésors ouverts'
 L['forbidden_spoils_suffix'] = 'Provisions interdites ouvertes'
 L['forbidden_hoard_label'] = 'Provisions interdites'
@@ -328,21 +326,18 @@ L['forbidden_hoard_label'] = 'Provisions interdites'
 L['options_icons_forbidden_hoard'] = 'Provisions interdites'
 L['options_icons_forbidden_hoard_desc'] = 'Afficher les emplacements possibles des coffres de {object:Provisions interdites}.'
 
--- Froststone Vault Primal Storm
 L['froststone_vault_storm_label'] = 'Tempête primordiale du caveau Givre-Pierre'
 L['gooey_snailemental_note'] = 'Combinez x50 {item:204352} récupérés sur les boss des {object:Tempêtes primordiales du caveau Givre-Pierre} pour créer la monture {item:192785}.'
 
 L['options_icons_froststone_vault_storm'] = 'Tempêtes primordiales du caveau Givre-Pierre'
 L['options_icons_froststone_vault_storm_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Tempêtes primordiales du caveau Givre-Pierre}'
 
--- Small Treasures
 L['small_treasures_label'] = 'Petit Trésor'
 L['small_treasures_note'] = 'Les petits trésors sont répartis entre les points d\'apparition.\n\nAchetez un {item:204558} à l\'{npc:200566} au {location:Village de Morqut} pour recevoir le buff {spell:405637} qui vous permet de voir les petits trésors sur la mini-carte pendant 60 minutes.'
 
 L['options_icons_small_treasures'] = 'Petits Trésors'
 L['options_icons_small_treasures_desc'] = 'Afficher les emplacements possibles des petits trésors.'
 
--- Zskera Vaults
 L['zskera_vaults_label'] = 'Caveaux de Zskera'
 L['zskera_vaults_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans les {location:Caveaux de Zskera}.'
 L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des Clés des Caveaux de Zskera.'
@@ -358,7 +353,6 @@ L['mm_status_note'] = 'Combinez les objets suivants :\n{item:%s}\n{item:%s}'
 L['options_icons_zskera_vaults'] = 'Caveaux de Zskera'
 L['options_icons_zskera_vaults_desc'] = 'Afficher les récompenses pour les {location:Caveaux de Zskera}.'
 
--- Librarian of the Reach
 L['confiscated_journal_label'] = 'Journal confisqué'
 L['farscale_manifesto_label'] = 'Manifeste longuécaille'
 L['lost_expeditions_notes_label'] = 'Notes d\'expédition'
@@ -371,18 +365,16 @@ L['library_note'] = 'Ouvrez l\'objet {object:%s} et récupérez le livre {item:%
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}. {note:Certains livres sont dans les {location:Caveaux de Zskera}}.'
 
--- Scroll Hunter
+L['dracythyr_runestone_label'] = 'Pierre runique dracthyr'
 L['scroll_hunter_suffix'] = 'trésors trouvés à partir des Parchemins Scellés'
 L['scroll_hunter_note'] = 'Récupérez des parchemins scellés sur divers rares et trésors aux {location:Confins Interdits}.\n\nLe fait d\'ouvrir un {item:%s} fera apparaître un X sur la carte qui donnera l\'objet {item:%s} conférant de la réputation avec la faction {faction:%s}.'
 
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
 L['options_icons_scroll_hunter_desc'] = 'Afficher les emplacements des récompenses des parchemins pour le haut-fait {achievement:17532}.'
 
--- While We Were Sleeping
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des objets pour le haut-fait {achievement:17315}. {note:Certains objets sont dans les {location:Caveaux de Zskera}}.'
 
--- Misc
 L['spellsworn_gateway'] = 'Porte sorcelige'
 L['gemstone_of_return'] = 'Gemme de retour'
 

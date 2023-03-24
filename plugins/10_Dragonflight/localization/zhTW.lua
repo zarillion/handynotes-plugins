@@ -280,7 +280,6 @@ L['mysterious_wand_note'] = '撿起 {object:水晶鑰匙} 並把它放進 {objec
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
--- Locations
 L['in_dragonskull_island'] = '在 {location:龍顱島}'
 L['in_froststone_vault'] = '在 {location:霜石密庫}'
 L['in_the_high_creche'] = '在 {location:至高育所}'
@@ -290,13 +289,11 @@ L['in_the_support_creche'] = '在 {location:支援育所}'
 L['in_the_war_creche'] = '在 {location:戰爭育所}'
 L['in_zskera_vaults'] = '在 {location:澤斯克拉密庫}'
 
--- Rares
 L['duzalgor_note'] = '收集一瓶 {spell:400751}({dot:Green}) 以用來治療 {location:支援育所} 內的毒氣.'
 L['mad_eye_carrey_note'] = '{npc:201181} 會和 {npc:201184} 以及 {npc:201182} 一起出現.'
 L['wymslayer_angvardi_note'] = '{npc:201013} 會和 {npc:201310} 一起出現.'
 L['loot_specialist_note'] = '{npc:203353} 刷新時有 {spell:406143} 和 {spell:132653} 並且當被攻擊時會逃跑.\n\n{note:在他完成施法 {spell:406141} 前快點殺掉他.}'
 
--- Profession Rares
 L['profession_required'] = '{note:需要有 %s 專業技能的玩家}'
 L['pr_crafting_note'] = '使用 {item:%2$s} 製造 {item:%1$s} 並和 {object:%3$s} 互動來召喚稀有.'
 L['pr_gathering_note'] = '使用 {item:%s} 並和 {object:%s} 互動來召喚稀有.'
@@ -316,10 +313,11 @@ L['pr_tuskarr_kite_post'] = '巨牙海民風箏木樁'
 L['pr_tuskarr_tanning_rack'] = '巨牙海民製皮架'
 L['pr_volatile_brazier'] = '熾烈火盆'
 
--- Treasures
+L['options_icons_profession_rares'] = nil
+L['options_icons_profession_rares_desc'] = nil
+
 L['storm_bound_chest_label'] = '颶縛寶箱'
 
--- Forbidden Hoard
 L['hoarder_of_the_forbidden_reach_suffix'] = '小寶藏已開啟'
 L['forbidden_spoils_suffix'] = '禁忌之境寶箱已開啟'
 L['forbidden_hoard_label'] = '禁忌之境寶箱'
@@ -327,21 +325,18 @@ L['forbidden_hoard_label'] = '禁忌之境寶箱'
 L['options_icons_forbidden_hoard'] = '禁忌之境寶箱'
 L['options_icons_forbidden_hoard_desc'] = '顯示 {object:禁忌之境寶箱} 可能的位置.'
 
--- Froststone Primal Vault Storm
 L['froststone_vault_storm_label'] = nil
 L['gooey_snailemental_note'] = nil
 
 L['options_icons_froststone_vault_storm'] = nil
 L['options_icons_froststone_vault_storm_desc'] = nil
 
--- Small Treasures
 L['small_treasures_label'] = '小寶藏'
 L['small_treasures_note'] = '小寶藏共享刷新點.\n\n在 {location:莫克特村} 處從 {npc:200566} 購買 {item:204558} 並使用來取得 {spell:405637} 增益讓你可以在小地圖上看到小寶藏60分鐘.'
 
 L['options_icons_small_treasures'] = '小寶藏'
 L['options_icons_small_treasures_desc'] = '顯示小寶藏可能的位置.'
 
--- Zskera Vaults
 L['zskera_vaults_label'] = '澤斯克拉密庫'
 L['zskera_vaults_note'] = '從稀有和箱子收集 {item:202196} 來打開在 {location:澤斯克拉密庫} 裡的門.'
 L['door_buster_suffix'] = '扇門已使用澤斯克拉密庫鑰匙解鎖'
@@ -357,7 +352,6 @@ L['mm_status_note'] = '組合下列物品:\n{item:%s}\n{item:%s}'
 L['options_icons_zskera_vaults'] = '澤斯克拉密庫'
 L['options_icons_zskera_vaults_desc'] = '顯示 {location:澤斯克拉密庫} 的獎勵.'
 
--- Librarian of the Reach
 L['confiscated_journal_label'] = nil
 L['farscale_manifesto_label'] = nil
 L['lost_expeditions_notes_label'] = nil
@@ -370,18 +364,16 @@ L['library_note'] = '開啟 {object:%s} 並拾取 {item:%s}.'
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = '顯示成就 {achievement:17530} 所需的書本位置. {note:有些書在 {location:澤斯克拉密庫} 內}.'
 
--- Scroll Hunter
+L['dracythyr_runestone_label'] = nil
 L['scroll_hunter_suffix'] = nil
 L['scroll_hunter_note'] = nil
 
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
 L['options_icons_scroll_hunter_desc'] = '顯示成就 {achievement:17532} 所需的卷軸獎勵位置.'
 
--- While We Were Sleeping
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = '顯示成就 {achievement:17315} 所需的物品位置. {note:有些物品在 {location:澤斯克拉密庫} 內}.'
 
--- Misc
 L['spellsworn_gateway'] = nil
 L['gemstone_of_return'] = nil
 

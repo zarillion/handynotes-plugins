@@ -280,7 +280,6 @@ L['mysterious_wand_note'] = 'Pick up the {object:Crystal Key} and place it into 
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
--- Locations
 L['in_dragonskull_island'] = 'Within {location:Dragonskull Island}.'
 L['in_froststone_vault'] = 'Within {location:Froststone Vault}.'
 L['in_the_high_creche'] = 'Within {location:The High Creche}'
@@ -290,13 +289,11 @@ L['in_the_support_creche'] = 'Within {location:The Support Creche}.'
 L['in_the_war_creche'] = 'Deep within {location:The War Creche}'
 L['in_zskera_vaults'] = 'Within {location:Zskera Vaults}.'
 
--- Rares
 L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal from the poisonous gas within {location:The Support Creche}.'
 L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}'
 L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {spell:132653} and will run away when attacked.\n\n{note:Kill him quickly before he finishes casting {spell:406141}.}'
 
--- Profession Rares
 L['profession_required'] = '{note:Requires a player with the %s profession.}'
 L['pr_crafting_note'] = 'Craft {item:%s} with {item:%s} and interact with {object:%s} to summon the rare.'
 L['pr_gathering_note'] = 'Use {item:%s} to interact with {object:%s} to summon the rare.'
@@ -316,10 +313,11 @@ L['pr_tuskarr_kite_post'] = 'Tuskarr Kite Post'
 L['pr_tuskarr_tanning_rack'] = 'Tuskarr Tanning Rack'
 L['pr_volatile_brazier'] = 'Volatile Brazier'
 
--- Treasures
+L['options_icons_profession_rares'] = 'Profession Rares'
+L['options_icons_profession_rares_desc'] = 'Display locations of Profession Rares.'
+
 L['storm_bound_chest_label'] = 'Storm-Bound Chest'
 
--- Forbidden Hoard
 L['hoarder_of_the_forbidden_reach_suffix'] = 'small treasures opened'
 L['forbidden_spoils_suffix'] = 'Forbidden Hoards opened'
 L['forbidden_hoard_label'] = 'Forbidden Hoard'
@@ -327,21 +325,18 @@ L['forbidden_hoard_label'] = 'Forbidden Hoard'
 L['options_icons_forbidden_hoard'] = 'Forbidden Hoard'
 L['options_icons_forbidden_hoard_desc'] = 'Display possible locations of {object:Forbidden Hoard} chests.'
 
--- Froststone Primal Vault Storm
 L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm'
 L['gooey_snailemental_note'] = 'Combine x50 {item:204352} collected from {object:Froststone Vault Primal Storm} bosses to create {item:192785}.'
 
 L['options_icons_froststone_vault_storm'] = 'Froststone Vault Primal Storm'
 L['options_icons_froststone_vault_storm_desc'] = 'Display location and rewards for {object:Froststone Vault Primal Storm}'
 
--- Small Treasures
 L['small_treasures_label'] = 'Small Treasure'
 L['small_treasures_note'] = 'Small treasures are shared between spawn points.\n\nPurchase {item:204558} from {npc:200566} at {location:Morqut Village} to receive the {spell:405637} buff which allows you to see small treasures on the minimap for 60 minutes.'
 
 L['options_icons_small_treasures'] = 'Small Treasures'
 L['options_icons_small_treasures_desc'] = 'Display possible locations for small treasures.'
 
--- Zskera Vaults
 L['zskera_vaults_label'] = 'Zskera Vaults'
 L['zskera_vaults_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vaults}.'
 L['door_buster_suffix'] = 'Doors unlocked using Zskera Vault keys'
@@ -357,7 +352,6 @@ L['mm_status_note'] = 'Combine the following items:\n{item:%s}\n{item:%s}'
 L['options_icons_zskera_vaults'] = 'Zskera Vaults'
 L['options_icons_zskera_vaults_desc'] = 'Display rewards for {location:Zskera Vaults}.'
 
--- Librarian of the Reach
 L['confiscated_journal_label'] = 'Confiscated Journal'
 L['farscale_manifesto_label'] = 'Farscale Manifesto'
 L['lost_expeditions_notes_label'] = 'Lost Expedition Notes'
@@ -370,18 +364,16 @@ L['library_note'] = 'Open the {object:%s} and loot the {item:%s}.'
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}. {note:Some books are in {location:Zskera Vaults}}.'
 
--- Scroll Hunter
+L['dracythyr_runestone_label'] = 'Draythyr Runestone'
 L['scroll_hunter_suffix'] = 'treasures found from Sealed Scrolls'
 L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal an X on the map which will offer a {item:%s} which provides reputation for {faction:%s}.'
 
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
 L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532}.'
 
--- While We Were Sleeping
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achievement:17315}. {note:Some item are in {location:Zskera Vaults}}.'
 
--- Misc
 L['spellsworn_gateway'] = 'Spellsworn Gateway'
 L['gemstone_of_return'] = 'Gemstone of Return'
 

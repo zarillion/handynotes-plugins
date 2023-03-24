@@ -281,7 +281,6 @@ L['mysterious_wand_note'] = 'Coge la {object:Llave de Cristal} y ponla dentro de
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
--- Locations
 L['in_dragonskull_island'] = 'Dentro de la {location:Isla Calavera de Dragón}.'
 L['in_froststone_vault'] = 'Dentro de la {location:Cámara Petraescarcha}.'
 L['in_the_high_creche'] = 'Dentro del {location:Nido Elevado}.'
@@ -291,13 +290,11 @@ L['in_the_support_creche'] = 'Dentro del {location:Nido de Apoyo}.'
 L['in_the_war_creche'] = 'En las profundidades de {location:El Nido Bélico}.'
 L['in_zskera_vaults'] = 'Dentro de las {location:Cámaras de Zskera}.'
 
--- Rares
 L['duzalgor_note'] = 'Coge un frasco de {spell:400751} ({dot:Green}) para sanarte del gas venenoso dentro de {location:The Support Creche}.'
 L['mad_eye_carrey_note'] = '{npc:201181} está en grupo con la {npc:201184} y la {npc:201182}.'
 L['wymslayer_angvardi_note'] = '{npc:201013} está acompañado por su montura {npc:201310}.'
 L['loot_specialist_note'] = '{npc:203353} aparece con {spell:406143} y {spell:132653} de principio. Huirá en cuanto sea atacado.\n\n{note:Mátalo rápidamente antes de que acabe de abrir un {spell:406141}.}'
 
--- Profession Rares
 L['profession_required'] = '{note:Requiere un jugador con la profesión %s.}'
 L['pr_crafting_note'] = 'Cronstruye {item:%s} con {item:%s} e interactuando con {object:%s} para invocar al raro.'
 L['pr_gathering_note'] = 'Usa {item:%s} para interactuar con {object:%s} para invocar al raro.'
@@ -317,10 +314,11 @@ L['pr_tuskarr_kite_post'] = 'Poste de Cometa Colmillarr'
 L['pr_tuskarr_tanning_rack'] = 'Bastidor para Pieles Colmillarr'
 L['pr_volatile_brazier'] = 'Blandón Volátil'
 
--- Treasures
+L['options_icons_profession_rares'] = 'Raros de Profesión'
+L['options_icons_profession_rares_desc'] = 'Muestra dónde están los Raros de Profesión.'
+
 L['storm_bound_chest_label'] = 'Cofre Vinculado a la Tormenta'
 
--- Forbidden Hoard
 L['hoarder_of_the_forbidden_reach_suffix'] = 'Tesoros Pequeños abiertos'
 L['forbidden_spoils_suffix'] = 'Tesoros Olvidados abiertos'
 L['forbidden_hoard_label'] = 'Tesoro Olvidado'
@@ -328,21 +326,18 @@ L['forbidden_hoard_label'] = 'Tesoro Olvidado'
 L['options_icons_forbidden_hoard'] = 'Tesoro Olvidado'
 L['options_icons_forbidden_hoard_desc'] = 'Muestra dónde pueden haber {object:Tesoro Olvidado}.'
 
--- Froststone Primal Vault Storm
 L['froststone_vault_storm_label'] = 'Tormenta Primigenia de la Cámara Petraescarcha'
 L['gooey_snailemental_note'] = 'Combina 50x {item:204352} recogidas de los bosses de las {object:Tormenta Primigenia de la Cámara Petraescarcha} para crear el {item:192785}.'
 
 L['options_icons_froststone_vault_storm'] = 'Tormenta Primigenia de la Cámara Petraescarcha'
 L['options_icons_froststone_vault_storm_desc'] = 'Muestra dónde están y las recompensas de las {object:Tormentas Primigenias de la Cámara Petraescarcha}.'
 
--- Small Treasures
 L['small_treasures_label'] = 'Tesoro Pequeño'
 L['small_treasures_note'] = 'Los tesoros pequeños comparten los puntos de aparición.\n\nCompra un {item:204558} a la {npc:200566} en {location:Morqut} para recibir el buff {spell:405637} que te permite ver los tesoros pequeños en el minimapa durante 60 minutos.'
 
 L['options_icons_small_treasures'] = 'Tesoros Pequeños'
 L['options_icons_small_treasures_desc'] = 'Muestra dónde pueden haber Tesoros Pequeños.'
 
--- Zskera Vaults
 L['zskera_vaults_label'] = 'Cámaras de Zskera'
 L['zskera_vaults_note'] = 'Recoge {item:202196} de varios raros y alijos para abrir las puertas de las {location:Cámaras de Zskera}.'
 L['door_buster_suffix'] = 'Puertas abiertas usando Llaves de la Cámara de Zskera'
@@ -358,7 +353,6 @@ L['mm_status_note'] = 'Combina los siguientes objetos:\n{item:%s}\n{item:%s}'
 L['options_icons_zskera_vaults'] = 'Cámaras de Zskera'
 L['options_icons_zskera_vaults_desc'] = 'Muestra las recompensas de las {location:Cámaras de Zskera}.'
 
--- Librarian of the Reach
 L['confiscated_journal_label'] = 'Diario Confiscado'
 L['farscale_manifesto_label'] = 'Manifiesto Lejoscama'
 L['lost_expeditions_notes_label'] = 'Notas de la Expedición Perdida'
@@ -371,18 +365,16 @@ L['library_note'] = 'Abre {object:%s} y despoja {item:%s}.'
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Muestra dónde están los libros para el logro {achievement:17530}. {note:Algunos libros están en las {location:Cámaras de Zskera}}.'
 
--- Scroll Hunter
+L['dracythyr_runestone_label'] = 'Piedra rúnica dracthyr'
 L['scroll_hunter_suffix'] = 'tesoros encontrados en los Pergaminos Sellados'
 L['scroll_hunter_note'] = 'Recoge {object:Pergaminos Sellados} de varios raros y tesoros alrededor del {location:Confín Olvidado}.\n\nAbre {item:%s} y te revelará una X en el mapa que ofrecerá {item:%s} para ganar reputación con {faction:%s}.'
 
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
 L['options_icons_scroll_hunter_desc'] = 'Muestra dónde están los pergaminos para el logro {achievement:17532}.'
 
--- While We Were Sleeping
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos para el logro {achievement:17315}. {note:Algunos objetos están en las {location:Cámaras de Zskera}}.'
 
--- Misc
 L['spellsworn_gateway'] = 'Portal Jurahechizos'
 L['gemstone_of_return'] = 'Gema de Retorno'
 
