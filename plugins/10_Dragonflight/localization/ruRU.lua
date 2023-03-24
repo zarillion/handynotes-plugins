@@ -302,10 +302,10 @@ L['pr_raw_argali_pelts'] = 'Сырые шкуры аргали'
 L['pr_resonant_crystal'] = nil
 L['pr_rumbling_deposit'] = nil
 L['pr_spellsworn_ward'] = nil
-L['pr_spiceless_stew'] = nil
+L['pr_spiceless_stew'] = 'Несоленый суп'
 L['pr_tuskarr_kite_post'] = nil
 L['pr_tuskarr_tanning_rack'] = 'Клыкаррская дубильная стойка'
-L['pr_volatile_brazier'] = 'Несоленый суп'
+L['pr_volatile_brazier'] = nil
 
 -- Treasures
 L['storm_bound_chest_label'] = nil
