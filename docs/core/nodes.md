@@ -187,7 +187,7 @@ ns.node.Quest({
 ``` lua
 ns.node.Rare({
     id = npc_id,
-    quest = quest_id, -- optional but reccomended
+    quest = quest_id, -- optional but recommended
     note = 'This is a Note on the Rare Node.'
 })
 ```
@@ -200,7 +200,7 @@ ns.node.Rare({
 ``` lua
 ns.node.Treasure({
     label = 'Treasure Node',
-    quest = quest_id, -- optional but reccomended
+    quest = quest_id, -- optional but recommended
     note = 'This is a Note on the Treasure Node.'
 })
 ```
