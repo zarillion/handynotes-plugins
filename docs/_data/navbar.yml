@@ -5,5 +5,15 @@ pages:
     url: core/nodes.html
   - title: Rewards
     url: core/rewards.html
+  - title: Requirements
+    url: core/requirements.html
   - title: Icons
     url: core/icons.html
+  - title: Colors
+    url: core/colors.html
+  - title: Groups
+    url: core/groups.html
+  - title: POIs
+    url: core/pois.html
+  - title: Groups
+    url: core/groups.html

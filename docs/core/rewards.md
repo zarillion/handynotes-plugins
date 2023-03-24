@@ -2,11 +2,15 @@
 
 All rewards are accessible via `ns.reward`
 
+---
+
 ## Section
 
 ```lua
 Section("Title of the Section")
 ```
+
+---
 
 ## Spacer
 
@@ -18,7 +22,9 @@ The Spacer Reward just adds a blank line.
 Spacer()
 ```
 
- ## Achievement
+---
+
+## Achievement
 
 ### Example:
 
@@ -48,6 +54,8 @@ Achievement({
  * `note` (string)
    * This can be used to add a short note underneath the reward line.
 
+---
+
 ## Currency
 
 Is Used to display a Currency in the Node rewards
@@ -67,6 +75,8 @@ Currency({
 * `note` (string)
    * a short note behind the reward text
 
+---
+
 ## Follower
 
 ### Example:
@@ -85,6 +95,8 @@ Follower({
   * This sets the icon to be shown before the reward text.
 * `note` (string)
    * a short note behind the reward text
+
+---
 
 ## Item
 
@@ -116,6 +128,8 @@ Item({
 *  `weekly` (int)
    *  If a weekly quest id is added the `GetStatus()` function checks if the player has completed the quest and sets `status` to `Green(L['weekly'])` or `Red(L['weekly'])`
 
+---
+
 ## Heirloom
 
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
@@ -134,6 +148,8 @@ Heirloom({
   * The ID of the Heirloom Item
 * `type` (string)
   * `L['heirloom']` by default.
+
+---
 
 ## Mount
 
@@ -155,6 +171,8 @@ Achievement({
 * `id` (int) (*required*)
   * The [MountID](https://wowpedia.fandom.com/wiki/MountID).
 
+---
+
 ## Pet
 
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
@@ -175,6 +193,8 @@ Pet({
 * `id` (int) (*required*)
   * The [BattlePetSpeciesID](https://wowpedia.fandom.com/wiki/BattlePetSpeciesID) of the Pet.
 
+---
+
 ## Quest
 
 ### Example:
@@ -189,6 +209,8 @@ Quest({
 
 * `id` (int) (*required*)
   * The ID of the rewarded quest.
+
+---
 
 ## Recipe
 
@@ -210,6 +232,8 @@ Recipe({
 * `profession` ([Profession](profession.html)) (*required*)
   * The Profession Object/Constant.
 
+---
+
 ## Spell
 
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
@@ -229,6 +253,8 @@ Spell({
   * The Item ID.
 * `spell` (int) (*required*)
   * The Spell ID that is learned when Using the Item.
+
+---
 
 ## Title
 
@@ -254,6 +280,8 @@ Title({
 * `note` (string)
   * Optional note after the title text
 
+---
+
 ## Toy
 
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
@@ -270,6 +298,8 @@ Toy({
 
 * `item` (int) (*required*)
   * The ID of the Toy.
+
+---
 
 ## Transmog
 
