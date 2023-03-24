@@ -294,18 +294,18 @@ L['pr_gathering_note'] = 'Используйте {item:%s}, чтобы взаи�
 L['pr_recipe_note'] = 'Рецепт {item:%s} можно приобрести у {npc:202445} за 10 {item:190456}.'
 
 L['pr_awakened_soil'] = nil
-L['pr_book_of_arcane_entities'] = nil
+L['pr_book_of_arcane_entities'] = 'Зачарованный оберег'
 L['pr_damaged_buzzspire'] = nil
 L['pr_empty_crab_trap'] = nil
 L['pr_farescale_shrine'] = nil
-L['pr_raw_argali_pelts'] = nil
+L['pr_raw_argali_pelts'] = 'Сырые шкуры аргали'
 L['pr_resonant_crystal'] = nil
 L['pr_rumbling_deposit'] = nil
 L['pr_spellsworn_ward'] = nil
 L['pr_spiceless_stew'] = nil
 L['pr_tuskarr_kite_post'] = nil
-L['pr_tuskarr_tanning_rack'] = nil
-L['pr_volatile_brazier'] = nil
+L['pr_tuskarr_tanning_rack'] = 'Клыкаррская дубильная стойка'
+L['pr_volatile_brazier'] = 'Несоленый суп'
 
 -- Treasures
 L['storm_bound_chest_label'] = nil
