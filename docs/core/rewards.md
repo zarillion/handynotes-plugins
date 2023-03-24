@@ -1,5 +1,22 @@
 # Reward Classes
 
+* [Section](#Section)
+* [Spacer](#Spacer)
+* [Achievement](#Achievement)
+* [Currency](#Currency)
+* [Follower](#Follower)
+* [Item](#Item)
+* [Heirloom](#Heirloom)
+* [Mount](#Mount)
+* [Pet](#Pet)
+* [Quest](#Quest)
+* [Recipe](#Recipe)
+* [Spell](#Spell)
+* [Title](#Title)
+* [Toy](#Toy)
+* [Transmog](#Transmog)
+
+
 All rewards are accessible via `ns.reward`
 
 ---
