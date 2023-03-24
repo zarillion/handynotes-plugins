@@ -310,8 +310,8 @@ L['pr_tuskarr_kite_post'] = 'Poteau à cerfs-volants roharts'
 L['pr_tuskarr_tanning_rack'] = 'Chevalet de tannage rohart'
 L['pr_volatile_brazier'] = 'Brasero volatil'
 
-L['options_icons_profession_rares'] = nil
-L['options_icons_profession_rares_desc'] = nil
+L['options_icons_profession_rares'] = 'Rares liés aux Métiers'
+L['options_icons_profession_rares_desc'] = 'Afficher les emplacements des Rares liés aux Métiers.'
 
 L['storm_bound_chest_label'] = 'Coffre cerclé de tempête'
 
