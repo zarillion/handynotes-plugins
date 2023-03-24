@@ -8,6 +8,7 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
+local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 
@@ -256,7 +257,6 @@ local LootSpecialist = Class('LootSpecialist', Rare, {
 }) -- Loot Specialist
 
 map.nodes[14971438] = LootSpecialist()
--- map.nodes[41021436] = LootSpecialist() duplicate coords with Ishyra
 map.nodes[47394256] = LootSpecialist()
 map.nodes[53464716] = LootSpecialist()
 
@@ -265,9 +265,15 @@ dragonskullIsland.nodes[28984051] = LootSpecialist({
     parent = {id = map.id, pois = {POI({74353661})}}
 })
 
+-------------------------------------------------------------------------------
 ------------------------------ PROFESSION RARES  ------------------------------
+-------------------------------------------------------------------------------
 
-local ProfessionRare = Class('ProfessionRare', Rare) -- Profession Rare
+local ProfessionRare = Class('ProfessionRare', NPC, {
+    icon = 'peg_rd',
+    scale = 1.5,
+    group = ns.groups.PROFESSION_RARES
+}) -- Profession Rare
 
 function ProfessionRare.getters:sublabel()
     return format(L['profession_required'], self.profession:GetName())
@@ -296,7 +302,6 @@ end
 
 dragonskullIsland.nodes[56947247] = ProfessionRare({
     id = 200619,
-    quest = nil,
     profession = ns.professions.MINING,
     summoningItem = 203418, -- Amplified Quaking Stone
     summoningObject = L['pr_rumbling_deposit'], -- Rumbling Deposit
@@ -309,7 +314,6 @@ dragonskullIsland.nodes[56947247] = ProfessionRare({
 
 local SirPinchalot = Class('SirPinchalot', ProfessionRare, {
     id = 200620,
-    quest = nil,
     profession = ns.professions.FISHING,
     summoningItem = 203419, -- Elusive Croaking Crab
     summoningObject = L['pr_empty_crab_trap'], -- Empty Crab Trap
@@ -324,7 +328,6 @@ map.nodes[54707281] = SirPinchalot()
 
 local Manathema = Class('Manathema', ProfessionRare, {
     id = 200621,
-    quest = nil,
     profession = ns.professions.ENCHANTING,
     summoningItem = 203410, -- Glowing Crystal Bookmark
     summoningObject = L['pr_book_of_arcane_entities'], -- Book of Arcane Entities
@@ -341,7 +344,6 @@ map.nodes[61256442] = Manathema()
 
 local Snarfang = Class('Snarfang', ProfessionRare, {
     id = 200622,
-    quest = nil,
     profession = ns.professions.LEATHERWORKING,
     summoningItem = 203414, -- Reinforced Pristine Leather
     summoningObject = L['pr_tuskarr_tanning_rack'], -- Tuskarr Tanning Rack
@@ -362,7 +364,6 @@ map.nodes[64967269] = Snarfang()
 
 local TuskarrKitePost = Class('TuskarrKitePost', ProfessionRare, {
     id = 200722,
-    quest = nil,
     profession = ns.professions.TAILORING,
     summoningItem = 203415, -- Morqut Kite
     summoningObject = L['pr_tuskarr_kite_post'], -- Tuskarr Kite Post
@@ -380,7 +381,6 @@ map.nodes[60309155] = TuskarrKitePost()
 
 local Faunos = Class('Faunos', ProfessionRare, {
     id = 200725,
-    quest = nil,
     profession = ns.professions.SKINNING,
     summoningItem = 203417, -- Razor-Sharp Animal Bone
     summoningObject = L['pr_raw_argali_pelts'], -- Raw Argali Pelts
@@ -397,7 +397,6 @@ map.nodes[70664614] = Faunos()
 
 map.nodes[67237599] = ProfessionRare({
     id = 200730,
-    quest = nil,
     profession = ns.professions.BLACKSMITHING,
     summoningItem = 203408, -- Ceremonial Trident
     summoningObject = L['pr_farescale_shrine'], -- Farscale Shrine
@@ -410,7 +409,6 @@ map.nodes[67237599] = ProfessionRare({
 
 warCreche.nodes[31308084] = ProfessionRare({
     id = 200737,
-    quest = nil,
     profession = ns.professions.INSCRIPTION,
     summoningItem = 203412, -- Dispelling Rune
     summoningObject = L['pr_spellsworn_ward'], -- Spellsword Ward
@@ -425,7 +423,6 @@ warCreche.nodes[31308084] = ProfessionRare({
 
 local Kangalo = Class('Kangalo', ProfessionRare, {
     id = 200738,
-    quest = nil,
     profession = ns.professions.HERBALISM,
     summoningItem = 203416, -- Dormant Lifebloom Seeds
     summoningObject = L['pr_awakened_soil'], -- Awakened Soil
@@ -440,7 +437,6 @@ map.nodes[56435911] = Kangalo()
 
 local Fimbul = Class('Fimbul', ProfessionRare, {
     id = 200739,
-    quest = nil,
     profession = ns.professions.ENGINEERING,
     summoningItem = 203411, -- Gnomish Voicebox
     summoningObject = L['pr_damaged_buzzspire'], -- Damaged Buzzspire 505
@@ -457,7 +453,6 @@ map.nodes[69755462] = Fimbul()
 
 local AgniBlazehoof = Class('AgniBlazehoof', ProfessionRare, {
     id = 200740,
-    quest = nil,
     profession = ns.professions.ALCHEMY,
     summoningItem = 203407, -- Draconic Suppression Powder
     summoningObject = L['pr_volatile_brazier'], -- Volatile Brazier
@@ -474,7 +469,6 @@ map.nodes[54494599] = AgniBlazehoof()
 
 local Luttrok = Class('Luttrok', ProfessionRare, {
     id = 200742,
-    quest = nil,
     profession = ns.professions.COOKING,
     summoningItem = 203409, -- Sparkling Spice Pouch
     summoningObject = L['pr_spiceless_stew'], -- Spiceless Stew
@@ -490,7 +484,6 @@ map.nodes[55695154] = Luttrok()
 
 map.nodes[28905707] = ProfessionRare({
     id = 200743,
-    quest = nil,
     profession = ns.professions.JEWELCRAFTING,
     summoningItem = 203413, -- Tuning Fork
     summoningObject = L['pr_resonant_crystal'], -- Resonant Crystal
@@ -1189,14 +1182,15 @@ local ScrollHunter = Class('ScrollHunter', Collectible, {
     }
 }) -- Scroll Hunter
 
--- local DraconicArtifact = Class('DraconicArtifact', ScrollHunter, {
---     label = '{npc:196127}',
---     note = format(L['scroll_hunter_note'],
---         202667, -- Sealed Artifact Scroll
---         202871, -- Draconic Artifact
---         2507 -- Dragonscale Expedition
---     )
--- }) -- Draconic Artifact
+local DracthyrRunestone = Class('DracthyrRunestone', ScrollHunter, {
+    label = L['dracythyr_runestone_label'],
+    note = format(L['scroll_hunter_note'], 202667, -- Sealed Artifact Scroll
+    202871, -- Draconic Artifact
+    2507 -- Dragonscale Expedition
+    )
+}) -- Dracthyr Runestone
+
+map.nodes[39593108] = DracthyrRunestone()
 
 local SpiritOfBlessing = Class('SpiritOfBlessing', ScrollHunter, {
     label = '{npc:201006}',
@@ -1226,6 +1220,11 @@ local MysteriousWritings = Class('MysteriousWritings', ScrollHunter, {
 }) -- Mysterious Writings
 
 map.nodes[58147167] = MysteriousWritings()
+
+dragonskullIsland.nodes[56317256] = MysteriousWritings({
+    location = L['in_dragonskull_island'],
+    parent = {id = map.id, pois = {POI({74353661})}}
+})
 
 -------------------------------------------------------------------------------
 --------------------------- WHILE WE WERE SLEEPING ----------------------------

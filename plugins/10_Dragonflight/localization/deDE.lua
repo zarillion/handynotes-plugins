@@ -270,7 +270,6 @@ L['mysterious_wand_note'] = 'Hebe den {object:Kristallschlüssel} auf und platzi
 ------------------------- FORBIDDEN REACH (MAIN ZONE) -------------------------
 -------------------------------------------------------------------------------
 
--- Locations
 L['in_dragonskull_island'] = 'Auf der {location:Drachenschädelinsel}.'
 L['in_froststone_vault'] = 'Im {location:Froststeingewölbe}.'
 L['in_the_high_creche'] = 'Im {location:Hohen Hort}.'
@@ -280,13 +279,11 @@ L['in_the_support_creche'] = 'Im {location:Unterstützungshort}.'
 L['in_the_war_creche'] = 'Tief im {location:Kriegshort}.'
 L['in_zskera_vaults'] = 'In den {location:Gewölben von Zskera}.'
 
--- Rares
 L['duzalgor_note'] = 'Sammel eine Flasche {spell:400751}({dot:Green}), um dich von den giftigen Gasen in der Höhle zu heilen.'
 L['mad_eye_carrey_note'] = '{npc:201181} ist in einer Gruppe mit {npc:201184} und {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} ist mit {npc:201310} verbunden.'
 L['loot_specialist_note'] = '{npc:203353} erscheint mit {spell:406143} und {spell:132653} und wird weg rennen, wenn er angeriffen wird.\n\n{note:Töte ihn bevor er {spell:406141} fertig zaubert.}'
 
--- Profession Rares
 L['profession_required'] = '{note:Benötigt einen Spieler mit dem Beruf \'%s\'.}'
 L['pr_crafting_note'] = 'Stellt {item:%s} mit {item:%s} her und interagiere mit {object:%s}, um den seltenen Gegner erscheinen zu lassen.'
 L['pr_gathering_note'] = 'Benutze {item:%s}, um mit {object:%s} zu interagieren, um den seltenen Gegner erscheinen zu lassen.'
@@ -306,10 +303,11 @@ L['pr_tuskarr_kite_post'] = nil
 L['pr_tuskarr_tanning_rack'] = nil
 L['pr_volatile_brazier'] = nil
 
--- Treasures
+L['options_icons_profession_rares'] = nil
+L['options_icons_profession_rares_desc'] = nil
+
 L['storm_bound_chest_label'] = 'Sturmgebundene Truhe'
 
--- Forbidden Hoard
 L['hoarder_of_the_forbidden_reach_suffix'] = 'kleine Schätze geöffnet'
 L['forbidden_spoils_suffix'] = 'verbotene Schätze geöffnet'
 L['forbidden_hoard_label'] = 'Verbotener Schatz'
@@ -317,20 +315,17 @@ L['forbidden_hoard_label'] = 'Verbotener Schatz'
 L['options_icons_forbidden_hoard'] = 'Verbotene Schätze'
 L['options_icons_forbidden_hoard_desc'] = 'Zeigt mögliche Positionen von {object:Verbotener Schatz} an.'
 
--- Froststone Primal Vault Storm
 L['froststone_vault_storm_label'] = 'Ursturm am Froststeingewölbe'
 L['gooey_snailemental_note'] = 'Kombiniere 50x {item:204352} von Bossen beim {object:Ursturm am Froststeingewölbe}, um {item:192785} zu erschaffen.'
 
 L['options_icons_froststone_vault_storm'] = 'Ursturm am Froststeingewölbe'
 L['options_icons_froststone_vault_storm_desc'] = 'Zeigt die Positionen und Belohnungen für {object:Ursturm am Froststeingewölbe} an.'
 
--- Small Treasures
 L['small_treasures_label'] = 'Kleiner Schatz'
 L['small_treasures_note'] = 'An jeder Position können verschiedene Schätze erscheinen.\n\nKaufe {item:204558} von {npc:200566} beim {location:Morqutdorf}, um den Stärkungszauber {spell:405637} zu erhalten. Dieser erlaubt es dir für 60 Minuten kleine Schätze auf der Minimap zu sehen.'
 L['options_icons_small_treasures'] = 'Kleine Schätze'
 L['options_icons_small_treasures_desc'] = 'Zeigt mögliche Positionen von kleinen Schätzen an.'
 
--- Zskera Vaults
 L['zskera_vaults_label'] = 'Gewölbe von Zskera'
 L['zskera_vaults_note'] = 'Sammle {item:202196} von seltenen Gegnern und Schätzen, um Türen in den {location:Gewölben von Zskera} zu öffnen.'
 L['door_buster_suffix'] = 'Türen mit {item:202196} geöffnet'
@@ -346,7 +341,6 @@ L['mm_status_note'] = 'Kombiniere die folgenden Gegenstände:\n{item:%s}\n{item:
 L['options_icons_zskera_vaults'] = 'Gewölbe von Zskera'
 L['options_icons_zskera_vaults_desc'] = 'Zeigt die Position und Belohnungen für das {location:Gewölbe von Zskera} an.'
 
--- Librarian of the Reach
 L['confiscated_journal_label'] = 'Konfisziertes Tagebuch'
 L['farscale_manifesto_label'] = 'Weitenschuppenmanifest'
 L['lost_expeditions_notes_label'] = 'Expeditionsnotitzen'
@@ -359,18 +353,16 @@ L['library_note'] = 'Öffne {object:%s} und erhalte das Buch {item:%s}.'
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Zeigt die Positionen der Bücher für den Erfolg {achievement:17530} an. {note:Einige Bücher befinden sich in den {location:Gewölben von Zskera}}.'
 
--- Scroll Hunter
+L['dracythyr_runestone_label'] = 'Runenstein der Dracthyr'
 L['scroll_hunter_suffix'] = 'Schätze mithilfe von versiegelten Schriftrollen gefunden'
 L['scroll_hunter_note'] = 'Sammle versiegelten Schriftrollen von verschiedenen seltenen Gegnern oder Schätzen auf {location:Die Verbotene Insel}.\n\nDas öffnen einer {item:%s} lässt auf der Weltkarte ein X erscheinen, bei dem du {item:%s} erhältst, dass Ruf bei der Fraktion {faction:%s} gewährt.'
 
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
 L['options_icons_scroll_hunter_desc'] = 'Zeigt die Positionen von Schriftrollenbelohnungen für den Erfolg {achievement:17532} an.'
 
--- While We Were Sleeping
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = 'Zeigt die Positionen der Gegenstände für den Erfolg {achievement:17315} an.'
 
--- Misc
 L['spellsworn_gateway'] = 'Tor der Zauberverschworenen'
 L['gemstone_of_return'] = 'Edelstein der Rückkehr'
 
