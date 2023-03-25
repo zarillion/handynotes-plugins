@@ -1,14 +1,14 @@
 # Node Classes
 
-* [Node](#Node)
-* [Collectible](#Collectible)
-* [Intro](#Intro)
-* [Item](#Item)
-* [NPC](#NPC)
-* [PetBattle](#PetBattle)
-* [Quest](#Quest)
-* [Rare](#Rare)
-* [Treasure](#Treasure)
+- [Node](#node)
+- [Collectible](#collectible)
+- [Intro](#intro)
+- [Item](#item)
+- [NPC](#npc)
+- [PetBattle](#petbattle)
+- [Quest](#quest)
+- [Rare](#rare)
+- [Treasure](#treasure)
 
 ---
 
@@ -94,7 +94,7 @@ All Node class support the following _optional_ properties that affect a node's 
 * `parent` (int)
     * Additional `mapID` to display this node on.
 * `parent` ([ ])
-    * The `parent` property also supports some basic [Node](node.html) properties.
+    * The `parent` property also supports some basic [Node](#node) properties.
     * `id` (int)(*required*)
       * Additional `mapID` to display this node on.
     * `note` (string)
