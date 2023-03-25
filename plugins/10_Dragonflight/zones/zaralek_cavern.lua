@@ -345,7 +345,7 @@ map.nodes[48101659] = PT.Engineering({
     id = 204855,
     quest = 75433,
     location = L['in_small_cave'],
-    note = L['molten_scoutbot_note'],
+    note = L['molten_scoutbot_note']
 }) -- Molten Scoutbot (Overclocked Determination Core)
 
 map.nodes[48162790] = PT.Engineering({id = 204470, quest = 75183}) -- Haphazardly Discarded Bombs
@@ -357,7 +357,7 @@ map.nodes[49437901] = PT.Engineering({id = 204853, quest = 75431}) -- Discarded 
 map.nodes[57657393] = PT.Engineering({
     id = 204850,
     quest = 75430,
-    note = L['bolts_and_brass_note'],
+    note = L['bolts_and_brass_note']
 }) -- Bolts and Brass (Handful of Khaz'gorite Bolts)
 
 -------------------------------------------------------------------------------
