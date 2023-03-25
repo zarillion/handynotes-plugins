@@ -290,28 +290,28 @@ L['pr_crafting_note'] = 'Создайте {item:%s} из {item:%s} и взаим
 L['pr_gathering_note'] = 'Используйте {item:%s}, чтобы взаимодействовать с {object:%s}, чтобы вызвать редкого монстра.'
 L['pr_recipe_note'] = 'Рецепт {item:%s} можно приобрести у {npc:202445} за 10 {item:190456}.'
 
-L['pr_awakened_soil'] = nil
-L['pr_book_of_arcane_entities'] = 'Зачарованный оберег'
-L['pr_damaged_buzzspire'] = nil
-L['pr_empty_crab_trap'] = nil
-L['pr_farescale_shrine'] = nil
+L['pr_awakened_soil'] = 'Awakened Soil'
+L['pr_book_of_arcane_entities'] = 'Book of Arcane Entities'
+L['pr_damaged_buzzspire'] = 'Damaged Buzzspire 505'
+L['pr_empty_crab_trap'] = 'Empty Crab Trap'
+L['pr_farescale_shrine'] = 'Farscale Shrine'
 L['pr_raw_argali_pelts'] = 'Сырые шкуры аргали'
-L['pr_resonant_crystal'] = nil
-L['pr_rumbling_deposit'] = nil
-L['pr_spellsworn_ward'] = nil
+L['pr_resonant_crystal'] = 'Резонирующий кристалл'
+L['pr_rumbling_deposit'] = 'Рокочущие залежи'
+L['pr_spellsworn_ward'] = 'Зачарованный оберег'
 L['pr_spiceless_stew'] = 'Несоленый суп'
 L['pr_tuskarr_kite_post'] = 'Столбик для клыкаррских воздушных змеев'
 L['pr_tuskarr_tanning_rack'] = 'Клыкаррская дубильная стойка'
-L['pr_volatile_brazier'] = nil
+L['pr_volatile_brazier'] = 'Раскаленный очаг'
 
-L['options_icons_profession_rares'] = nil
-L['options_icons_profession_rares_desc'] = nil
+L['options_icons_profession_rares'] = 'Редкие монстры профессии'
+L['options_icons_profession_rares_desc'] = 'Показать местонахождение редких монстров профессий.'
 
-L['storm_bound_chest_label'] = nil
+L['storm_bound_chest_label'] = 'Запечатанный бурей сундук'
 
 L['hoarder_of_the_forbidden_reach_suffix'] = 'маленьких сокровищ открыто'
-L['forbidden_spoils_suffix'] = nil
-L['forbidden_hoard_label'] = nil
+L['forbidden_spoils_suffix'] = 'Запретных тайников открыто'
+L['forbidden_hoard_label'] = 'Запретный тайник'
 
 L['options_icons_forbidden_hoard'] = 'Запретный тайник'
 L['options_icons_forbidden_hoard_desc'] = 'Показать возможные местоположения {object:Запретных тайников}.'
@@ -347,7 +347,7 @@ L['confiscated_journal_label'] = 'Конфискованный дневник'
 L['farscale_manifesto_label'] = 'Манифест клана Далекой Чешуи'
 L['lost_expeditions_notes_label'] = 'Записки из экспедиции'
 L['pirate_proclamation_label'] = 'Заявление пиратов'
-L['spellsworn_missive_label'] = nil
+L['spellsworn_missive_label'] = 'Послание Зачарованных'
 L['vrykul_tome_label'] = 'Врайкульский том'
 
 L['library_note'] = 'Откройте {object:%s} и соберите {item:%s}.'
@@ -365,8 +365,8 @@ L['options_icons_scroll_hunter_desc'] = 'Отображение мест воз�
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = 'Показать расположение предметов для {achievement:17315}. {note:Некоторые предметы находятся в {location:Зкерском Хранилище}}.'
 
-L['spellsworn_gateway'] = nil
-L['gemstone_of_return'] = nil
+L['spellsworn_gateway'] = 'Врата Зачарованных'
+L['gemstone_of_return'] = 'Самоцвет возвращения'
 
 L['morqut_village_vendor_note'] = 'Обменяйте {currency:2118} или золото на средства передвижения, питомцев, трансмогрификацию, манускрипты для дракона, рецепты и другие полезные предметы.'
 
