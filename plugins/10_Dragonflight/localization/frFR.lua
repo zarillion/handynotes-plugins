@@ -295,6 +295,7 @@ L['profession_required'] = '{note:Nécessite un joueur avec le métier %s.}'
 L['pr_crafting_note'] = 'Fabriquez l\'objet {item:%s} grâce au composant {item:%s} et interagissez avec l\'objet {object:%s} pour invoquer le rare.'
 L['pr_gathering_note'] = 'Utilisez le composant {item:%s} pour interagir avec l\'objet {object:%s} et invoquer le rare.'
 L['pr_recipe_note'] = 'La recette {item:%s} peut être achetée à la {npc:202445} pour 10x {item:190456}.'
+L['pr_summoning_note'] = nil
 
 L['pr_awakened_soil'] = 'Sol éveillé'
 L['pr_book_of_arcane_entities'] = 'Livre des entités arcaniques'

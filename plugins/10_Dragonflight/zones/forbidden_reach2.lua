@@ -290,9 +290,11 @@ function ProfessionRare.getters:note()
         local reagent = self.summoningReagent
         local recipe = self.summoningRecipe
         local note = format(L['pr_crafting_note'], item, reagent, object)
-        return note .. '\n\n' .. format(L['pr_recipe_note'], recipe)
+        note = note .. '\n\n' .. format(L['pr_recipe_note'], recipe)
+        return note .. '\n\n' .. L['pr_summoning_note']
     else
-        return format(L['pr_gathering_note'], item, object)
+        local note = format(L['pr_gathering_note'], item, object)
+        return note .. '\n\n' .. L['pr_summoning_note']
     end
 end
 
@@ -300,31 +302,45 @@ function ProfessionRare.getters:rlabel()
     return ns.GetIconLink(self.profession.icon, 13)
 end
 
-dragonskullIsland.nodes[56947247] = ProfessionRare({
+local Tectonus = Class('Tectonus', ProfessionRare, {
     id = 200619,
     profession = ns.professions.MINING,
     summoningItem = 203418, -- Amplified Quaking Stone
     summoningObject = L['pr_rumbling_deposit'], -- Rumbling Deposit
-    location = L['in_dragonskull_island'],
-    parent = {id = map.id, pois = {POI({74353661})}},
     rewards = {
         Achievement({id = 17525, criteria = 58474}) -- Champion of the Forbidden Reach
     }
 }) -- Tectonus
+
+map.nodes[62098142] = Tectonus()
+
+map.nodes[43264887] = Tectonus({
+    location = L['in_small_cave'],
+    pois = {POI({45284287})} -- Entrance
+})
+
+map.nodes[78743554] = Tectonus({
+    location = L['in_dragonskull_island'],
+    pois = {POI({74353661})} -- Entrance
+})
+
+dragonskullIsland.nodes[57157211] = Tectonus({
+    location = L['in_dragonskull_island']
+})
 
 local SirPinchalot = Class('SirPinchalot', ProfessionRare, {
     id = 200620,
     profession = ns.professions.FISHING,
     summoningItem = 203419, -- Elusive Croaking Crab
     summoningObject = L['pr_empty_crab_trap'], -- Empty Crab Trap
-    fgroup = 'fgroup_sir_pinchalot',
     rewards = {
         Achievement({id = 17525, criteria = 58475}) -- Champion of the Forbidden Reach
     }
 }) -- Sir Pinchalot
 
-map.nodes[44307464] = SirPinchalot()
-map.nodes[54707281] = SirPinchalot()
+map.nodes[70524149] = SirPinchalot()
+map.nodes[23076701] = SirPinchalot()
+map.nodes[47789090] = SirPinchalot()
 
 local Manathema = Class('Manathema', ProfessionRare, {
     id = 200621,
@@ -333,14 +349,21 @@ local Manathema = Class('Manathema', ProfessionRare, {
     summoningObject = L['pr_book_of_arcane_entities'], -- Book of Arcane Entities
     summoningReagent = 203401, -- Dull Crystal
     summoningRecipe = 203423, -- Formula: Glowing Crystal Bookmark
-    fgroup = 'fgroup_manathema',
     rewards = {
         Achievement({id = 17525, criteria = 58476}) -- Champion of the Forbidden Reach
     }
 }) -- Manathema
 
-map.nodes[49264172] = Manathema()
-map.nodes[61256442] = Manathema()
+map.nodes[55633611] = Manathema({location = L['in_the_lost_atheneum']})
+
+map.nodes[47106485] = Manathema()
+
+map.nodes[46207802] = Manathema({
+    location = L['in_the_war_creche'],
+    pois = {POI({51935970})} -- Entrance
+})
+
+warCreche.nodes[43017871] = Manathema({location = L['in_the_war_creche']})
 
 local Snarfang = Class('Snarfang', ProfessionRare, {
     id = 200622,
@@ -349,7 +372,6 @@ local Snarfang = Class('Snarfang', ProfessionRare, {
     summoningObject = L['pr_tuskarr_tanning_rack'], -- Tuskarr Tanning Rack
     summoningReagent = 203405, -- Pristine Pelt
     summoningRecipe = 203427, -- Pattern: Reinforced Pristine Leather
-    fgroup = 'fgroup_snarfang',
     rewards = {
         Achievement({id = 17525, criteria = 58477}), -- Champion of the Forbidden Reach
         Item({item = 203648}), -- Primalist Necklace
@@ -358,44 +380,41 @@ local Snarfang = Class('Snarfang', ProfessionRare, {
     }
 }) -- Snarfang
 
-map.nodes[37124708] = Snarfang()
-map.nodes[48734944] = Snarfang()
+map.nodes[37134711] = Snarfang()
+map.nodes[48724945] = Snarfang()
 map.nodes[64967269] = Snarfang()
 
-local TuskarrKitePost = Class('TuskarrKitePost', ProfessionRare, {
+local Gareed = Class('Gareed', ProfessionRare, {
     id = 200722,
     profession = ns.professions.TAILORING,
     summoningItem = 203415, -- Morqut Kite
     summoningObject = L['pr_tuskarr_kite_post'], -- Tuskarr Kite Post
     summoningReagent = 203406, -- Torn Morqut Kite
     summoningRecipe = 203428, -- Pattern: Morqut Kite
-    fgroup = 'fgroup_gareed',
     rewards = {
         Achievement({id = 17525, criteria = 58478}) -- Champion of the Forbidden Reach
     }
 }) -- Gareed
 
-map.nodes[31195341] = TuskarrKitePost()
-map.nodes[57634843] = TuskarrKitePost()
-map.nodes[60309155] = TuskarrKitePost()
+map.nodes[57654840] = Gareed()
+map.nodes[31185342] = Gareed()
+map.nodes[60299154] = Gareed()
 
 local Faunos = Class('Faunos', ProfessionRare, {
     id = 200725,
     profession = ns.professions.SKINNING,
     summoningItem = 203417, -- Razor-Sharp Animal Bone
     summoningObject = L['pr_raw_argali_pelts'], -- Raw Argali Pelts
-    fgroup = 'fgroup_faunos',
     rewards = {
         Achievement({id = 17525, criteria = 58479}) -- Champion of the Forbidden Reach
     }
 }) -- Faunos
 
-map.nodes[40488600] = Faunos()
-map.nodes[44993658] = Faunos()
-map.nodes[50498602] = Faunos()
-map.nodes[70664614] = Faunos()
+map.nodes[45013659] = Faunos()
+map.nodes[50488602] = Faunos()
+map.nodes[70664613] = Faunos()
 
-map.nodes[67237599] = ProfessionRare({
+local TidesmithZarviss = Class('TidesmithZarviss', ProfessionRare, {
     id = 200730,
     profession = ns.professions.BLACKSMITHING,
     summoningItem = 203408, -- Ceremonial Trident
@@ -407,33 +426,46 @@ map.nodes[67237599] = ProfessionRare({
     }
 }) -- Tidesmith Zarviss
 
-warCreche.nodes[31308084] = ProfessionRare({
+map.nodes[67257598] = TidesmithZarviss()
+map.nodes[63096158] = TidesmithZarviss()
+map.nodes[80035881] = TidesmithZarviss()
+
+local Arcantrix = Class('Arcantrix', ProfessionRare, {
     id = 200737,
     profession = ns.professions.INSCRIPTION,
     summoningItem = 203412, -- Dispelling Rune
     summoningObject = L['pr_spellsworn_ward'], -- Spellsword Ward
     summoningReagent = 203403, -- Hastily Scrawled Rune
     summoningRecipe = 203425, -- Technique: Dispellng Rune
-    location = L['in_the_war_creche'],
-    parent = {id = map.id, pois = {POI({51895982})}},
     rewards = {
         Achievement({id = 17525, criteria = 58481}) -- Champion of the Forbidden Reach
     }
 }) -- Arcantrix
+
+map.nodes[61256441] = Arcantrix()
+map.nodes[49264174] = Arcantrix()
+
+map.nodes[48347324] = Arcantrix({
+    location = L['in_the_war_creche'],
+    pois = {POI({51935970})} -- Entrance
+})
+
+warCreche.nodes[53105781] = Arcantrix({location = L['in_the_war_creche']})
 
 local Kangalo = Class('Kangalo', ProfessionRare, {
     id = 200738,
     profession = ns.professions.HERBALISM,
     summoningItem = 203416, -- Dormant Lifebloom Seeds
     summoningObject = L['pr_awakened_soil'], -- Awakened Soil
-    fgroup = 'fgroup_kanalo',
     rewards = {
         Achievement({id = 17525, criteria = 58482}) -- Champion of the Forbidden Reach
     }
 }) -- Kangalo
 
-map.nodes[35354003] = Kangalo()
-map.nodes[56435911] = Kangalo()
+map.nodes[35354005] = Kangalo()
+map.nodes[40265336] = Kangalo()
+map.nodes[56435914] = Kangalo()
+map.nodes[75143190] = Kangalo()
 
 local Fimbul = Class('Fimbul', ProfessionRare, {
     id = 200739,
@@ -442,14 +474,14 @@ local Fimbul = Class('Fimbul', ProfessionRare, {
     summoningObject = L['pr_damaged_buzzspire'], -- Damaged Buzzspire 505
     summoningReagent = 203402, -- Broken Gnomish Voicebox
     summoningRecipe = 203424, -- Schematic: Gnomish Voicebox
-    fgroup = 'fgroup_fimbul',
     rewards = {
         Achievement({id = 17525, criteria = 58483}) -- Champion of the Forbidden Reach
     }
 }) -- Fimbul
 
-map.nodes[67256157] = Fimbul()
-map.nodes[69755462] = Fimbul()
+map.nodes[44307465] = Fimbul()
+map.nodes[54707279] = Fimbul()
+map.nodes[61172683] = Fimbul()
 
 local AgniBlazehoof = Class('AgniBlazehoof', ProfessionRare, {
     id = 200740,
@@ -458,14 +490,14 @@ local AgniBlazehoof = Class('AgniBlazehoof', ProfessionRare, {
     summoningObject = L['pr_volatile_brazier'], -- Volatile Brazier
     summoningReagent = 203398, -- Essence of Dampening
     summoningRecipe = 203420, -- Recipe: Draconic Suppression Powder
-    fgroup = 'fgroup_agniblazehoof',
     rewards = {
         Achievement({id = 17525, criteria = 58484}) -- Champion of the Forbidden Reach
     }
 }) -- Agni Blazehoof
 
-map.nodes[40295336] = AgniBlazehoof()
-map.nodes[54494599] = AgniBlazehoof()
+map.nodes[56393902] = AgniBlazehoof()
+map.nodes[67256157] = AgniBlazehoof()
+map.nodes[69745464] = AgniBlazehoof()
 
 local Luttrok = Class('Luttrok', ProfessionRare, {
     id = 200742,
@@ -479,25 +511,41 @@ local Luttrok = Class('Luttrok', ProfessionRare, {
     }
 }) -- Luttrok
 
-map.nodes[23066700] = Luttrok()
-map.nodes[55695154] = Luttrok()
+map.nodes[40265337] = Luttrok()
+map.nodes[54484598] = Luttrok()
+map.nodes[55695153] = Luttrok()
 
-map.nodes[28905707] = ProfessionRare({
+local Amephyst = Class('Amephyst', ProfessionRare, {
     id = 200743,
     profession = ns.professions.JEWELCRAFTING,
     summoningItem = 203413, -- Tuning Fork
     summoningObject = L['pr_resonant_crystal'], -- Resonant Crystal
     summoningReagent = 203404, -- Crystal Fork
     summoningRecipe = 203426, -- Design: Tuning Fork
-    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58486}), -- Champion of the Forbidden Reach
         Recipe({item = 204219, profession = 755}) -- Design: Unstable Elementium
-    },
-    pois = {
-        POI({30496101}) -- Entrance
     }
 }) -- Amephyst
+
+map.nodes[28925706] = Amephyst({
+    location = L['in_cave'],
+    pois = {POI({31006084})} -- Entrance
+})
+
+map.nodes[42694483] = Amephyst({
+    location = L['in_small_cave'],
+    pois = {POI({45284287})} -- Entrance
+})
+
+map.nodes[81193376] = Amephyst({
+    location = L['in_dragonskull_island'],
+    pois = {POI({74723614})} -- Entrance
+})
+
+dragonskullIsland.nodes[84045351] = Amephyst({
+    location = L['in_dragonskull_island']
+})
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

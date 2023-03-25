@@ -275,6 +275,7 @@ L['profession_required'] = nil
 L['pr_crafting_note'] = nil
 L['pr_gathering_note'] = nil
 L['pr_recipe_note'] = nil
+L['pr_summoning_note'] = nil
 
 L['pr_awakened_soil'] = nil
 L['pr_book_of_arcane_entities'] = nil

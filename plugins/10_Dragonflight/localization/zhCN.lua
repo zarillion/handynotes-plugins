@@ -294,6 +294,7 @@ L['profession_required'] = '{note:需要 %s 专业。}'
 L['pr_crafting_note'] = '用 {item:%2$s} 制作 {item:%1$s} 并与 {object:%3$s} 互动召唤稀有。'
 L['pr_gathering_note'] = '使用 {item:%s} 与 {object:%s} 互动召唤稀有。'
 L['pr_recipe_note'] = '配方 {item:%s} 可以用10个 {item:190456} 从 {npc:202445} 购买。'
+L['pr_summoning_note'] = nil
 
 L['pr_awakened_soil'] = '觉醒之油'
 L['pr_book_of_arcane_entities'] = '奥术实体之书'

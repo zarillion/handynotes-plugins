@@ -288,6 +288,7 @@ L['profession_required'] = '{note:Benötigt einen Spieler mit dem Beruf \'%s\'.}
 L['pr_crafting_note'] = 'Stellt {item:%s} mit {item:%s} her und interagiere mit {object:%s}, um den seltenen Gegner erscheinen zu lassen.'
 L['pr_gathering_note'] = 'Benutze {item:%s}, um mit {object:%s} zu interagieren, um den seltenen Gegner erscheinen zu lassen.'
 L['pr_recipe_note'] = 'Das Rezept {item:%s} kann von {npc:202445} für 10 {item:190456} gekauft werden.'
+L['pr_summoning_note'] = nil
 
 L['pr_awakened_soil'] = nil
 L['pr_book_of_arcane_entities'] = nil

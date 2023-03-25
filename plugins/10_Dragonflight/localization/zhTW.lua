@@ -294,6 +294,7 @@ L['profession_required'] = '{note:需要有 %s 專業技能的玩家}'
 L['pr_crafting_note'] = '使用 {item:%2$s} 製造 {item:%1$s} 並和 {object:%3$s} 互動來召喚稀有.'
 L['pr_gathering_note'] = '使用 {item:%s} 並和 {object:%s} 互動來召喚稀有.'
 L['pr_recipe_note'] = '配方 {item:%s} 可以從 {npc:202445} 處使用 10{item:190456} 購買.'
+L['pr_summoning_note'] = nil
 
 L['pr_awakened_soil'] = '覺醒土壤'
 L['pr_book_of_arcane_entities'] = '秘法生物之書'
