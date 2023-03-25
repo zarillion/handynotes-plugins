@@ -692,23 +692,18 @@ L['options_icons_dragonbane_siege_desc'] = 'Afficher les emplacements et les ré
 
 L['brulsef_the_stronk_note'] = 'Récupérez vos récompenses à partir du {object:Coffre de gains massifs}.'
 
-L['ancient_zaqali_chest_label'] = 'Coffre zaqali ancien'
-L['blazing_shadowflame_chest_label'] = 'Coffre d\'ombreflamme flamboyant'
 L['blazing_shadowflame_chest_note'] = nil -- DEV NOTE - Do not translate
-L['charred_egg_label'] = 'Œuf calciné'
-L['crystal_encased_chest_label'] = 'Coffre enveloppé de cristal'
-L['crystal_encased_chest_note'] = nil -- DEV NOTE - Do not translate
-L['fealtys_reward_label'] = 'Récompense de loyauté'
-L['long_lost_cache_label'] = 'Cache perdue depuis longtemmps'
+L['crystal_encased_chest_note'] = nil
+L['well_chewed_chest_note'] = 'La {item:202869}({dot:Green}) est cachée sous la {npc:199962} dans la grotte.'
+
 L['molten_hoard_label'] = 'Butin en fusion'
+L['fealtys_reward_label'] = 'Récompense de loyauté'
 L['moth_pilfered_pouch_label'] = 'Bourse volée par les phalènes'
 L['moth_pilfered_pouch_note'] = 'Aidez le {npc:203225} à voler en le faisant "jongler" jusqu\'à ce qu\'il ait cinq charges de {spell:405358}.\n\nIl volera alors jusqu\'à la bourse et vous la révèlera.'
-L['old_trunk_label'] = 'Vieille malle'
-L['ritual_offering_label'] = nil
-L['stolen_stash_label'] = 'Butin volé'
 L['waterlogged_bundle_label'] = 'Paquet détrempé'
-L['well_chewed_chest_label'] = 'Coffre bien mâché'
-L['well_chewed_chest_note'] = 'La {item:202869}({dot:Green}) est cachée sous la {npc:199962} dans la grotte.'
+
+L['stolen_stash_label'] = 'Butin volé'
+L['ritual_offering_label'] = nil
 
 L['molten_scoutbot_note'] = 'Examinez l\'{object:Explorobot fondu} et récupérez le {item:204855}.'
 L['bolts_and_brass_note'] = 'Examinez les {object:Boulons et cuivre} et récupérez la {item:204850}.'

@@ -232,14 +232,12 @@ map.nodes[38867151] = Rare({
 -------------------------------------------------------------------------------
 
 map.nodes[36694883] = Treasure({
-    label = L['ancient_zaqali_chest_label'],
     rewards = {
         Achievement({id = 17786, criteria = 59222}) -- Treasures of Zaralek Cavern
     }
 }) -- Ancient Zaqali Chest
 
 map.nodes[28544791] = Treasure({
-    label = L['blazing_shadowflame_chest_label'],
     note = L['blazing_shadowflame_chest_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59220}) -- Treasures of Zaralek Cavern
@@ -247,7 +245,6 @@ map.nodes[28544791] = Treasure({
 }) -- Blazing Shadowflame Chest
 
 map.nodes[30044193] = Treasure({
-    label = L['charred_egg_label'],
     quest = 73706,
     rewards = {
         Achievement({id = 17786, criteria = 59226}) -- Treasures of Zaralek Cavern
@@ -255,19 +252,19 @@ map.nodes[30044193] = Treasure({
 }) -- Charred Egg
 
 map.nodes[36397425] = Treasure({
-    label = L['crystal_encased_chest_label'],
     note = L['crystal_encased_chest_note'],
+    quest = {74987, 75559, 75601, 73697, 74986},
     rewards = {
-        Achievement({id = 17786, criteria = 59228}) -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59228}), -- Treasures of Zaralek Cavern
+        Item({item = 204985}) -- Barter Brick
+    },
+    pois = {
+        POI({color = 'Blue', points = {37756886}}), -- Attunement Crystal
+        POI({color = 'Red', points = {39417328}}) -- Attunement Crystal
     }
 }) -- Crystal-Encased Chest
--- 'Attunement Crystal' @ 37756886 triggers quest 74987 and flys towards the chest
--- 'Attunement Crystal' @ 39417328 triggers quest 75559
--- when approaching the chest after you clicked both crystal quest 75601 triggers and the chest will be clickable
--- after opening the chest quest 73697 and 74986 get triggered
 
 map.nodes[62715376] = Treasure({
-    label = L['long_lost_cache_label'],
     quest = 75019,
     rewards = {
         Achievement({id = 17786, criteria = 59223}) -- Treasures of Zaralek Cavern
@@ -275,7 +272,6 @@ map.nodes[62715376] = Treasure({
 }) -- Long-Lost Cache
 
 map.nodes[43058256] = Treasure({
-    label = L['old_trunk_label'],
     requires = ns.requirement.Item(204323), -- Old Trunk Key
     rewards = {
         Achievement({id = 17786, criteria = 59227}) -- Treasures of Zaralek Cavern
@@ -283,7 +279,6 @@ map.nodes[43058256] = Treasure({
 }) -- Old Trunk
 
 map.nodes[29774050] = Treasure({
-    label = L['well_chewed_chest_label'],
     quest = 73395,
     note = L['well_chewed_chest_note'],
     requires = ns.requirement.Item(202869), -- Scorching Key
@@ -292,7 +287,7 @@ map.nodes[29774050] = Treasure({
     },
     pois = {
         POI({30314121}), -- Entrance
-        POI({color = 'Green', points = 30134076}) -- Scorching Key
+        POI({color = 'Green', points = {30134076}}) -- Scorching Key
     }
 }) -- Well-Chewed Chest
 
@@ -348,9 +343,9 @@ map.nodes[37825884] = PT.Engineering({id = 204475, quest = 75186}) -- Busted Wyr
 
 map.nodes[48101659] = PT.Engineering({
     id = 204855,
+    quest = 75433,
     location = L['in_small_cave'],
     note = L['molten_scoutbot_note'],
-    quest = 75433
 }) -- Molten Scoutbot (Overclocked Determination Core)
 
 map.nodes[48162790] = PT.Engineering({id = 204470, quest = 75183}) -- Haphazardly Discarded Bombs
@@ -361,8 +356,8 @@ map.nodes[49437901] = PT.Engineering({id = 204853, quest = 75431}) -- Discarded 
 
 map.nodes[57657393] = PT.Engineering({
     id = 204850,
+    quest = 75430,
     note = L['bolts_and_brass_note'],
-    quest = 75430
 }) -- Bolts and Brass (Handful of Khaz'gorite Bolts)
 
 -------------------------------------------------------------------------------
@@ -516,12 +511,6 @@ map.nodes[44257993] = Collectible({
     id = 201752,
     icon = 5003561,
     note = L['big_slick_note_1'],
-    requires = {
-        ns.requirement.Quest(74787), -- Come Snail Away
-        ns.requirement.Quest(74514), -- The Slowest Fan Club
-        ns.requirement.Quest(74786), -- Snailspiration: Shimmershell Snail
-        ns.requirement.Quest(74517) -- All Terrain Snail
-    },
     rewards = {
         Mount({item = 205155, id = 1729}) -- Big Slick in the City
     }
@@ -586,9 +575,9 @@ map.nodes[58085381] = LoammVendor({
     id = 204693,
     note = L['ponzo_note'],
     rewards = {
-        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, 'x50'),
-        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, 'x50'),
-        DC.SetNote(DC.WindingSlitherdrake.CurledNose, 'x50'),
+        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, 'x55'),
+        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, 'x55'),
+        DC.SetNote(DC.WindingSlitherdrake.CurledNose, 'x55'),
         Pet({item = 205120, id = 3537, note = 'x85'}), -- Thimblerig
         Mount({item = 205209, id = 1736, note = 'x170'}) -- Boulder Hauler
     }
