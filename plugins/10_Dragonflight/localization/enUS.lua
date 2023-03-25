@@ -360,7 +360,7 @@ L['library_note'] = 'Open the {object:%s} and loot the {item:%s}.'
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}. {note:Some books are in {location:Zskera Vaults}}.'
 
-L['dracythyr_runestone_label'] = 'Draythyr Runestone'
+L['dracthyr_runestone_label'] = 'Dracthyr Runestone'
 L['scroll_hunter_suffix'] = 'treasures found from Sealed Scrolls'
 L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal an X on the map which will offer a {item:%s} which provides reputation for {faction:%s}.'
 

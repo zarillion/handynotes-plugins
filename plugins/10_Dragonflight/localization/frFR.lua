@@ -361,7 +361,7 @@ L['library_note'] = 'Ouvrez l\'objet {object:%s} et récupérez le livre {item:%
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}. {note:Certains livres sont dans les {location:Caveaux de Zskera}}.'
 
-L['dracythyr_runestone_label'] = 'Pierre runique dracthyr'
+L['dracthyr_runestone_label'] = 'Pierre runique dracthyr'
 L['scroll_hunter_suffix'] = 'trésors trouvés à partir des Parchemins Scellés'
 L['scroll_hunter_note'] = 'Récupérez des parchemins scellés sur divers rares et trésors aux {location:Confins Interdits}.\n\nLe fait d\'ouvrir un {item:%s} fera apparaître un X sur la carte qui donnera l\'objet {item:%s} conférant de la réputation avec la faction {faction:%s}.'
 

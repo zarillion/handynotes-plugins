@@ -361,7 +361,7 @@ L['library_note'] = 'Abre {object:%s} y despoja {item:%s}.'
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Muestra dónde están los libros para el logro {achievement:17530}. {note:Algunos libros están en las {location:Cámaras de Zskera}}.'
 
-L['dracythyr_runestone_label'] = 'Piedra rúnica dracthyr'
+L['dracthyr_runestone_label'] = 'Piedra rúnica dracthyr'
 L['scroll_hunter_suffix'] = 'tesoros encontrados en los Pergaminos Sellados'
 L['scroll_hunter_note'] = 'Recoge {object:Pergaminos Sellados} de varios raros y tesoros alrededor del {location:Confín Olvidado}.\n\nAbre {item:%s} y te revelará una X en el mapa que ofrecerá {item:%s} para ganar reputación con {faction:%s}.'
 

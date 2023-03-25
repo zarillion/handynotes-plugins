@@ -309,8 +309,8 @@ L['pr_tuskarr_kite_post'] = '海象人风筝柱'
 L['pr_tuskarr_tanning_rack'] = '海象人的制皮架'
 L['pr_volatile_brazier'] = '不稳定的火盆'
 
-L['options_icons_profession_rares'] = nil
-L['options_icons_profession_rares_desc'] = nil
+L['options_icons_profession_rares'] = '专业稀有'
+L['options_icons_profession_rares_desc'] = '显示专业稀有的位置。'
 
 L['storm_bound_chest_label'] = '雷缚储物箱'
 
@@ -360,7 +360,7 @@ L['library_note'] = '打开 {object:%s} 并拾取 {item:%s}。'
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = '显示 {achievement:17530} 成就中书籍的位置。{note:有些书籍在 {location:兹斯克拉宝库}}。'
 
-L['dracythyr_runestone_label'] = nil
+L['dracthyr_runestone_label'] = '龙希尔符文石'
 L['scroll_hunter_suffix'] = '来自密封卷轴的宝藏'
 L['scroll_hunter_note'] = '在 {location:禁忌离岛} 附近收集各种稀有和珍藏的密封卷轴。\n\n打开一个 {item:%s} 会在地图上显示一个 X，会提供一个 {item:%s}，为 {faction:%s} 提供声望。'
 

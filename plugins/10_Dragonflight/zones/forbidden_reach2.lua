@@ -1183,7 +1183,7 @@ local ScrollHunter = Class('ScrollHunter', Collectible, {
 }) -- Scroll Hunter
 
 local DracthyrRunestone = Class('DracthyrRunestone', ScrollHunter, {
-    label = L['dracythyr_runestone_label'],
+    label = L['dracthyr_runestone_label'],
     note = format(L['scroll_hunter_note'], 202667, -- Sealed Artifact Scroll
     202871, -- Draconic Artifact
     2507 -- Dragonscale Expedition

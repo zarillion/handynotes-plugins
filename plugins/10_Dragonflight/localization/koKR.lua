@@ -341,7 +341,7 @@ L['library_note'] = nil
 L['options_icons_librarian_of_the_reach'] = nil
 L['options_icons_librarian_of_the_reach_desc'] = nil
 
-L['dracythyr_runestone_label'] = '드랙티르 룬석'
+L['dracthyr_runestone_label'] = '드랙티르 룬석'
 L['scroll_hunter_suffix'] = nil
 L['scroll_hunter_note'] = nil
 

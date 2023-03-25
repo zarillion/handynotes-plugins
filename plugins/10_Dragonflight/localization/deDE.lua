@@ -353,7 +353,7 @@ L['library_note'] = 'Öffne {object:%s} und erhalte das Buch {item:%s}.'
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Zeigt die Positionen der Bücher für den Erfolg {achievement:17530} an. {note:Einige Bücher befinden sich in den {location:Gewölben von Zskera}}.'
 
-L['dracythyr_runestone_label'] = 'Runenstein der Dracthyr'
+L['dracthyr_runestone_label'] = 'Runenstein der Dracthyr'
 L['scroll_hunter_suffix'] = 'Schätze mithilfe von versiegelten Schriftrollen gefunden'
 L['scroll_hunter_note'] = 'Sammle versiegelten Schriftrollen von verschiedenen seltenen Gegnern oder Schätzen auf {location:Die Verbotene Insel}.\n\nDas öffnen einer {item:%s} lässt auf der Weltkarte ein X erscheinen, bei dem du {item:%s} erhältst, dass Ruf bei der Fraktion {faction:%s} gewährt.'
 

@@ -355,7 +355,7 @@ L['library_note'] = 'Откройте {object:%s} и соберите {item:%s}.
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Показать расположение книг для {achievement:17530}. {note:Некоторые книги находятся в {location:Зкерском Хранилище}}.'
 
-L['dracythyr_runestone_label'] = 'Рунический камень драктиров'
+L['dracthyr_runestone_label'] = 'Рунический камень драктиров'
 L['scroll_hunter_suffix'] = 'сокровища найденные из запечатанных свитках'
 L['scroll_hunter_note'] = 'Собирайте запечатанные свитки из различных редких монстров и сундуков в {location:Запретном краю}.\n\nИспользование {item:%s} покажет красный крестик на карте, в котором вам будет ждать {item:%s}, для повышения репутации с {faction:%s}.'
 
