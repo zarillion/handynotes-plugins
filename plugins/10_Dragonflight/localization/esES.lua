@@ -295,7 +295,7 @@ L['profession_required'] = '{note:Requiere un jugador con la profesión %s.}'
 L['pr_crafting_note'] = 'Cronstruye {item:%s} con {item:%s} e interactuando con {object:%s} para invocar al raro.'
 L['pr_gathering_note'] = 'Usa {item:%s} para interactuar con {object:%s} para invocar al raro.'
 L['pr_recipe_note'] = 'La receta {item:%s} se le puede comprar al {npc:202445} por 10 {item:190456}.'
-L['pr_summoning_note'] = nil
+L['pr_summoning_note'] = 'El jugador que invoque al raro obtendrá {spell:405161} que otorgará un bono al botín.'
 
 L['pr_awakened_soil'] = 'Sustrato Despierto'
 L['pr_book_of_arcane_entities'] = 'Libro sobre Entidades Arcanas '
