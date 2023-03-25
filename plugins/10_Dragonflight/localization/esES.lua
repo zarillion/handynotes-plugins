@@ -693,7 +693,7 @@ L['options_icons_dragonbane_siege_desc'] = 'Muestra dónde están y las recompen
 L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.' -- 'Despoja tus recompensas del {object:Chest of Massive Gains}.'
 
 L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
-L['crystal_encased_chest_note'] = nil
+L['crystal_encased_chest_note'] = 'Interact with both the blue {object:Attunement Crystal} ({dot:Blue}) and red {object:Attunement Crystal} ({dot:Red}) to open the chest.' -- 'Interactúa con el {object:Attunement Crystal} azul ({dot:Blue}) y con el {object:Attunement Crystal} rojo ({dot:Red}) para abrir el cofre/alijo.'
 L['well_chewed_chest_note'] = 'La {item:202869}({dot:Green}) está escondida debajo de {npc:199962} dentro de la cueva.'
 
 L['molten_hoard_label'] = 'Molten Hoard'
