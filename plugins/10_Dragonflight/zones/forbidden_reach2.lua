@@ -439,6 +439,7 @@ map.nodes[80035881] = TidesmithZarviss()
 
 local Arcantrix = Class('Arcantrix', ProfessionRare, {
     id = 200737,
+    quest = 73163,
     profession = ns.professions.INSCRIPTION,
     summoningItem = 203412, -- Dispelling Rune
     summoningObject = L['pr_spellsworn_ward'], -- Spellsword Ward
