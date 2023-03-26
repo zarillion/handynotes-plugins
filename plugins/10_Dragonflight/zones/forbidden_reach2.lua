@@ -1063,7 +1063,7 @@ end)
 
 ---------------------- RATCIPE: DEVIOUSLY DEVILVED EGGS -----------------------
 
-local RecipeRat = Class('RecipeRat', Node, {
+local RecipeRat = Class('RecipeRat', Collectible, {
     label = '{npc:202982}',
     location = L['in_zskera_vaults'],
     icon = 4509424,
