@@ -307,6 +307,7 @@ local Tectonus = Class('Tectonus', ProfessionRare, {
     profession = ns.professions.MINING,
     summoningItem = 203418, -- Amplified Quaking Stone
     summoningObject = L['pr_rumbling_deposit'], -- Rumbling Deposit
+    fgroup = 'fgroup_tectonus',
     rewards = {
         Achievement({id = 17525, criteria = 58474}) -- Champion of the Forbidden Reach
     }
@@ -333,6 +334,7 @@ local SirPinchalot = Class('SirPinchalot', ProfessionRare, {
     profession = ns.professions.FISHING,
     summoningItem = 203419, -- Elusive Croaking Crab
     summoningObject = L['pr_empty_crab_trap'], -- Empty Crab Trap
+    fgroup = 'fgroup_sirpinchalot',
     rewards = {
         Achievement({id = 17525, criteria = 58475}) -- Champion of the Forbidden Reach
     }
@@ -349,6 +351,7 @@ local Manathema = Class('Manathema', ProfessionRare, {
     summoningObject = L['pr_book_of_arcane_entities'], -- Book of Arcane Entities
     summoningReagent = 203401, -- Dull Crystal
     summoningRecipe = 203423, -- Formula: Glowing Crystal Bookmark
+    fgroup = 'fgroup_manathema',
     rewards = {
         Achievement({id = 17525, criteria = 58476}) -- Champion of the Forbidden Reach
     }
@@ -372,6 +375,7 @@ local Snarfang = Class('Snarfang', ProfessionRare, {
     summoningObject = L['pr_tuskarr_tanning_rack'], -- Tuskarr Tanning Rack
     summoningReagent = 203405, -- Pristine Pelt
     summoningRecipe = 203427, -- Pattern: Reinforced Pristine Leather
+    fgroup = 'fgroup_snarfang',
     rewards = {
         Achievement({id = 17525, criteria = 58477}), -- Champion of the Forbidden Reach
         Item({item = 203648}), -- Primalist Necklace
@@ -391,6 +395,7 @@ local Gareed = Class('Gareed', ProfessionRare, {
     summoningObject = L['pr_tuskarr_kite_post'], -- Tuskarr Kite Post
     summoningReagent = 203406, -- Torn Morqut Kite
     summoningRecipe = 203428, -- Pattern: Morqut Kite
+    fgroup = 'fgroup_gareed',
     rewards = {
         Achievement({id = 17525, criteria = 58478}) -- Champion of the Forbidden Reach
     }
@@ -405,6 +410,7 @@ local Faunos = Class('Faunos', ProfessionRare, {
     profession = ns.professions.SKINNING,
     summoningItem = 203417, -- Razor-Sharp Animal Bone
     summoningObject = L['pr_raw_argali_pelts'], -- Raw Argali Pelts
+    fgroup = 'fgroup_faunos',
     rewards = {
         Achievement({id = 17525, criteria = 58479}) -- Champion of the Forbidden Reach
     }
@@ -421,6 +427,7 @@ local TidesmithZarviss = Class('TidesmithZarviss', ProfessionRare, {
     summoningObject = L['pr_farescale_shrine'], -- Farscale Shrine
     summoningReagent = 203399, -- Damaged Trident
     summoningRecipe = 203421, -- Plans: Ceremonial Trident
+    fgroup = 'fgroup_tidesmithzarviss',
     rewards = {
         Achievement({id = 17525, criteria = 58480}) -- Champion of the Forbidden Reach
     }
@@ -437,6 +444,7 @@ local Arcantrix = Class('Arcantrix', ProfessionRare, {
     summoningObject = L['pr_spellsworn_ward'], -- Spellsword Ward
     summoningReagent = 203403, -- Hastily Scrawled Rune
     summoningRecipe = 203425, -- Technique: Dispellng Rune
+    fgroup = 'fgroup_arcantrix',
     rewards = {
         Achievement({id = 17525, criteria = 58481}) -- Champion of the Forbidden Reach
     }
@@ -457,6 +465,7 @@ local Kangalo = Class('Kangalo', ProfessionRare, {
     profession = ns.professions.HERBALISM,
     summoningItem = 203416, -- Dormant Lifebloom Seeds
     summoningObject = L['pr_awakened_soil'], -- Awakened Soil
+    fgroup = 'fgroup_kangalo',
     rewards = {
         Achievement({id = 17525, criteria = 58482}) -- Champion of the Forbidden Reach
     }
@@ -474,6 +483,7 @@ local Fimbul = Class('Fimbul', ProfessionRare, {
     summoningObject = L['pr_damaged_buzzspire'], -- Damaged Buzzspire 505
     summoningReagent = 203402, -- Broken Gnomish Voicebox
     summoningRecipe = 203424, -- Schematic: Gnomish Voicebox
+    fgroup = 'fgroup_fimbul',
     rewards = {
         Achievement({id = 17525, criteria = 58483}) -- Champion of the Forbidden Reach
     }
@@ -490,6 +500,7 @@ local AgniBlazehoof = Class('AgniBlazehoof', ProfessionRare, {
     summoningObject = L['pr_volatile_brazier'], -- Volatile Brazier
     summoningReagent = 203398, -- Essence of Dampening
     summoningRecipe = 203420, -- Recipe: Draconic Suppression Powder
+    fgroup = 'fgroup_agniblazehoof',
     rewards = {
         Achievement({id = 17525, criteria = 58484}) -- Champion of the Forbidden Reach
     }
@@ -506,6 +517,7 @@ local Luttrok = Class('Luttrok', ProfessionRare, {
     summoningObject = L['pr_spiceless_stew'], -- Spiceless Stew
     summoningReagent = 203400, -- Lackluster Spices
     summoningRecipe = 203422, -- Recipe: Sparkling Spice Pouch
+    fgroup = 'fgroup_luttrok',
     rewards = {
         Achievement({id = 17525, criteria = 58485}) -- Champion of the Forbidden Reach
     }
@@ -522,6 +534,7 @@ local Amephyst = Class('Amephyst', ProfessionRare, {
     summoningObject = L['pr_resonant_crystal'], -- Resonant Crystal
     summoningReagent = 203404, -- Crystal Fork
     summoningRecipe = 203426, -- Design: Tuning Fork
+    fgroup = 'fgroup_amephyst',
     rewards = {
         Achievement({id = 17525, criteria = 58486}), -- Champion of the Forbidden Reach
         Recipe({item = 204219, profession = 755}) -- Design: Unstable Elementium
