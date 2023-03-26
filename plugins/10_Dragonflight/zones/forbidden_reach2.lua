@@ -759,14 +759,6 @@ local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
     rewards = {
         Achievement({id = 17526, criteria = 58487}), -- Treasures of the Forbidden Reach
         Achievement({
-            id = 17528,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['hoarder_of_the_forbidden_reach_suffix']
-            }
-        }), -- Hoarder of the Forbidden Reach
-        Achievement({
             id = 17529,
             criteria = {
                 id = 1,
