@@ -236,8 +236,7 @@ siegeCreche.nodes[58993931] = Rare({
     parent = {id = map.id, pois = {POI({74425466})}},
     rewards = {
         Achievement({id = 17525, criteria = 58473}), -- Champion of the Forbidden Reach
-        DC.WindborneVelocidrake.HeavyScales,
-        Item({item = 202196}), -- Zskera Vault Key
+        DC.WindborneVelocidrake.HeavyScales, Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Volcanakk
@@ -251,8 +250,7 @@ local LootSpecialist = Class('LootSpecialist', Rare, {
     fgroup = 'loot_specialist',
     rewards = {
         Achievement({id = 17525, criteria = 58830}), -- Champion of the Forbidden Reach
-        DC.CliffsideWylderdrake.CoiledHorns,
-        Item({item = 204276}), -- Untapped Forbidden Knowledge
+        DC.CliffsideWylderdrake.CoiledHorns, Item({item = 204276}), -- Untapped Forbidden Knowledge
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
@@ -769,8 +767,7 @@ local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
                 suffix = L['forbidden_spoils_suffix']
             }
         }), -- Forbidden Spoils
-        DC.CliffsideWylderdrake.CoiledHorns,
-        Item({item = 202667}), -- Sealed Artifact Scroll
+        DC.CliffsideWylderdrake.CoiledHorns, Item({item = 202667}), -- Sealed Artifact Scroll
         Item({item = 202668}), -- Sealed Spirit Scroll
         Item({item = 202669}), -- Sealed Fish Scroll
         Item({item = 202670}), -- Sealed Knowledge Scroll
