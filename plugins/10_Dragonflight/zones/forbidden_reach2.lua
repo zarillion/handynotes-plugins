@@ -236,6 +236,7 @@ siegeCreche.nodes[58993931] = Rare({
     parent = {id = map.id, pois = {POI({74425466})}},
     rewards = {
         Achievement({id = 17525, criteria = 58473}), -- Champion of the Forbidden Reach
+        DC.WindborneVelocidrake.HeavyScales,
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
@@ -250,6 +251,7 @@ local LootSpecialist = Class('LootSpecialist', Rare, {
     fgroup = 'loot_specialist',
     rewards = {
         Achievement({id = 17525, criteria = 58830}), -- Champion of the Forbidden Reach
+        DC.CliffsideWylderdrake.CoiledHorns,
         Item({item = 204276}), -- Untapped Forbidden Knowledge
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
@@ -520,7 +522,8 @@ local Luttrok = Class('Luttrok', ProfessionRare, {
     summoningRecipe = 203422, -- Recipe: Sparkling Spice Pouch
     fgroup = 'fgroup_luttrok',
     rewards = {
-        Achievement({id = 17525, criteria = 58485}) -- Champion of the Forbidden Reach
+        Achievement({id = 17525, criteria = 58485}), -- Champion of the Forbidden Reach
+        Pet({item = 193235, id = 3285}) -- Luvvy
     }
 }) -- Luttrok
 
@@ -766,6 +769,7 @@ local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
                 suffix = L['forbidden_spoils_suffix']
             }
         }), -- Forbidden Spoils
+        DC.CliffsideWylderdrake.CoiledHorns,
         Item({item = 202667}), -- Sealed Artifact Scroll
         Item({item = 202668}), -- Sealed Spirit Scroll
         Item({item = 202669}), -- Sealed Fish Scroll
