@@ -13,9 +13,8 @@
 ---
 
 ## Node
-This is the base class for all nodes.
+The base class for all nodes.
 
-**Example:**
 ``` lua
 ns.node.Node({
     label = 'Example Node',
@@ -25,7 +24,7 @@ ns.node.Node({
 ```
 
 ### Default Properites
-All Node classes have the following properties by default:
+`ns.node.Node` has the following properties by default:
 
 * `label` (string) (*default: 'UNKNOWN'*)
   * The title shown in the tooltip when hovering this node.
@@ -41,7 +40,7 @@ All Node classes have the following properties by default:
   * The group that contains and controls this node.
 
 ### Optional Tooltip Properties
-All Node classes support the following _optional_ properties that affect a node's tootlip:
+`ns.node.Node` supports the following _optional_ properties that affect a node's tootlip:
 
 * `sublabel` (string)
   * Additional text shown directly under the label.
@@ -59,7 +58,7 @@ All Node classes support the following _optional_ properties that affect a node'
   * List of rewards that are offered by the node.
 
 ### Optional Visibility Properties
-All Node classes support the following _optional_ properties that affect a node's visibility:
+`ns.node.Node` supports the following _optional_ properties that affect a node's visibility:
 
 * `class` (string)
   * Only display this node if the character is this class.
@@ -88,7 +87,7 @@ All Node classes support the following _optional_ properties that affect a node'
   * Show this node if all `questID` in `questDeps` have been completed.
 
 ### Optional Interaction Properties
-All Node class support the following _optional_ properties that affect a node's interaction:
+`ns.node.Node` supports the following _optional_ properties that affect a node's interaction:
 * `fgroup` (string)
   * A category of nodes that should be focused together when hovered or clicked.
 * `parent` (int)
@@ -107,19 +106,35 @@ All Node class support the following _optional_ properties that affect a node's 
 ---
 
 ## Collectible
-**Example:**
 ``` lua
-ns.node.Collectible({
-    label = 'Collectible',
-    note = 'This is a Note on Collectible Node.'
-})
+map.nodes[58085381] = ns.node.Collectible({
+    id = 204693,
+    icon = 'peg_bl',
+    scale = 1.3
+    note = L['ponzo_note'],
+    rewards = {
+        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, 'x55'),
+        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, 'x55'),
+        DC.SetNote(DC.WindingSlitherdrake.CurledNose, 'x55'),
+        Pet({item = 205120, id = 3537, note = 'x85'}), -- Thimblerig
+        Mount({item = 205209, id = 1736, note = 'x170'}) -- Boulder Hauler
+    }
+}) -- Ponzo <Barterer Extraordinaire>
 ```
-* todo
+
+### Optional Properties
+`ns.node.Collectible` supports the following properties:
+
+* `id` (int)
+  * The `npcID` for the NPC who offers the collectible. This will be used for the `label` property.
+* `item` (int)
+  * The `itemID` for the colectible. This will be used for the `label` property.
+
+Please note that the label for `ns.node.Collectible` can also come from the critiera for the first listed [achievement](rewards.html#achievement) in `rewards`.
 
 ---
 
 ## Intro
-**Example:**
 ``` lua
 ns.node.Intro({
     label = 'Example Node',
@@ -132,45 +147,83 @@ ns.node.Intro({
 ---
 
 ## Item
-**Example:**
 ``` lua
-ns.node.Item({
-    item = item_id,
-    note = 'This is a Note on the Item Node.'
-})
+map.nodes[78175317] = ns.node.Item({
+    id = 189418,
+    quest = 65327,
+    sublabel = '{spell:366368}',
+    icon = 132599,
+    group = ns.groups.PROTOFORM_SCHEMATICS
+    note = L['schematic_ambystan_darter_note']
+}) -- Ambystan Darter
 ```
-* todo
+
+### Required Properties
+`ns.node.Item` requires the following properties:
+
+* `item` (int)
+  * The `itemID` for the item. This will be used for the `label` property.
 
 ---
 
 ## NPC
-**Example:**
 ``` lua
-ns.node.NPC({
-    id = npc_id,
-    icon = 'peg_yw',
-    note = 'This is a Note on the NPC Node.'
-})
+map.nodes[37164467] = ns.node.NPC({
+    id = 183962,
+    icon = 4254892,
+    requires = {
+        ns.requirement.GarrisonTalent(1902),
+        ns.requirement.Quest(65219)
+    },
+    note = L['olea_manu'],
+    rewards = {
+        Item({item = 187804, note = '25'}), -- Recipe: Empty Kettle of Stone Soup
+        Item({item = 187824, note = '25'}), -- Formula: Magically Regulated Automa Core
+        Item({item = 188793, quest = 65282, note = '150'}), -- Improved Cypher Analysis Tool
+        Item({item = 189986, quest = 65514, covenant = NIGHTFAE, note = '500'}), -- Armadillo Soul
+        Item({item = 189980, quest = 65510, covenant = NIGHTFAE, note = '1000'}), -- Brutosaur Soul
+        Toy({item = 190333, note = '100'}), -- Jiro Circle of Song
+        Pet({item = 191039, id = 3247, note = '500'}), -- Pocopoc Traveler
+        Item({item = 187781, note = '700'}) -- Olea Cache
+    }
+}) -- Olea Manu
 ```
-* todo
+
+### Required Properties
+`ns.node.NPC` requires the following properties:
+
+* `id` (int)
+  * The `npcID` for the NPC. This will be used for the `label` property.
 
 ---
 
 ## PetBattle
-**Example:**
 ``` lua
-ns.node.PetBattle({
-    label = 'Example Node',
-    icon = 'peg_yw',
-    note = 'This is a Note on the PetBattle Node.'
-})
+map.nodes[13095369] = ns.node.PetBattle({
+    id = 200689,
+    rewards = {Achievement({id = 17541, criteria = 58574})} -- Global Swarming
+}) -- Wildfire
 ```
-* todo
+
+### Default Properites
+`ns.node.PetBattle` has the following properties set by default:
+
+* `scale` (float) (*default: 1.2*)
+  * The default scale value for this node.
+* `icon` ([string](icons.html) / int) (*default: 'paw_y'*)
+  * The default icon for this node.
+* `group` ([group](groups.html)) (*default: ns.groups.PETBATTLE*)
+  * The default group for this node.
+
+### Required Properties
+`ns.node.PetBattle` requires the following properties:
+
+* `id` (int)
+  * The `npcID` for the NPC who offers the pet battle. This will be used for the `label` property.
 
 ---
 
 ## Quest
-**Example:**
 ``` lua
 ns.node.Quest({
     label = 'Example Node',
@@ -183,25 +236,78 @@ ns.node.Quest({
 ---
 
 ## Rare
-**Example:**
 ``` lua
-ns.node.Rare({
-    id = npc_id,
-    quest = quest_id, -- optional but recommended
-    note = 'This is a Note on the Rare Node.'
-})
+map.nodes[43947530] = ns.node.Rare({
+    id = 183516,
+    quest = 65580,
+    vignette = 4933,
+    note = L['the_engulfer_note'],
+    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
+    rewards = {
+        Achievement({id = 15391, criteria = 53050}), -- Adventurer of Zereth Mortis
+        Transmog({item = 189913, slot = L['cloth']}), -- Engulfer's Tightening Cinch
+        Transmog({item = 189921, slot = L['leather']}), -- Devourer's Insatiable Grips
+        Transmog({item = 190006, slot = L['1h_sword']}) -- Anima-Siphoning Sword
+    }
+}) -- The Engulfer
 ```
-* todo
+
+### Default Properites
+`ns.node.Rare` has the following properties set by default:
+
+* `scale` (float) (*default: 1.2*)
+  * The default scale value for this node.
+* `icon` ([string](icons.html) / int) (*default: 'skull_b'*)
+  * The default icon for this node.
+  * The icon will automatically update to `'skull_w'` when all rewards have been collected.
+* `group` ([group](groups.html)) (*default: ns.groups.RARE*)
+  * The default group for this node.
+
+### Required Properties
+`ns.node.Rare` requires the following properties:
+
+* `id` (int)
+  * The `npcID` for the rare. This will be used for the `label` property.
+
+### Recommended Properties
+It is highly recommended that you add the `quest` property to rares and use the hidden `questID` used by Blizzard to track if a rare has been killed for the day.
+
+* `quest` (int)
+  * The `questID` used to track the daily kill.
 
 ---
 
 ## Treasure
-**Example:**
 ``` lua
-ns.node.Treasure({
-    label = 'Treasure Node',
-    quest = quest_id, -- optional but recommended
-    note = 'This is a Note on the Treasure Node.'
-})
+map.nodes[65804182] = ns.node.Treasure({
+    quest = 70600,
+    note = L['golden_dragon_goblet_note'],
+    requires = {
+        ns.requirement.Quest(72709), -- Funding a Treasure Hunt
+        ns.requirement.Quest(70409, '{item:198854}') -- Archeologist Artifact Notes
+    },
+    rewards = {
+        Achievement({id = 16297, criteria = 54698}), -- Treasures of The Waking Shores
+        Toy({item = 202019}) -- Golden Dragon Goblet
+    },
+    pois = {POI({77992943})}
+}) -- Golden Dragon Goblet
 ```
-* todo
+
+### Default Properites
+`ns.node.Treasure` has the following properties set by default:
+
+* `scale` (float) (*default: 1.3*)
+  * The default scale value for this node.
+* `icon` ([string](icons.html) / int) (*default: 'chest_gy'*)
+  * The default icon for this node.
+* `group` ([group](groups.html)) (*default: ns.groups.TREASURE*)
+  * The default group for this node.
+
+### Recommended Properties
+It is highly recommended that you add the `quest` property to rares and use the hidden `questID` used by Blizzard to track if a treasure has been collected.
+
+* `quest` (int)
+  * The `questID` used to track a the collected treasure.
+
+Please note that by default the label for `ns.node.Treasure` comes from the critiera for the first listed [achievement](rewards.html#achievement) in `rewards`.
