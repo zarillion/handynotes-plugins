@@ -305,6 +305,7 @@ end
 
 local Tectonus = Class('Tectonus', ProfessionRare, {
     id = 200619,
+    quest = 74300,
     profession = ns.professions.MINING,
     summoningItem = 203418, -- Amplified Quaking Stone
     summoningObject = L['pr_rumbling_deposit'], -- Rumbling Deposit
@@ -332,6 +333,7 @@ dragonskullIsland.nodes[57157211] = Tectonus({
 
 local SirPinchalot = Class('SirPinchalot', ProfessionRare, {
     id = 200620,
+    quest = 74305,
     profession = ns.professions.FISHING,
     summoningItem = 203419, -- Elusive Croaking Crab
     summoningObject = L['pr_empty_crab_trap'], -- Empty Crab Trap
@@ -347,6 +349,7 @@ map.nodes[47789090] = SirPinchalot()
 
 local Manathema = Class('Manathema', ProfessionRare, {
     id = 200621,
+    quest = 74306,
     profession = ns.professions.ENCHANTING,
     summoningItem = 203410, -- Glowing Crystal Bookmark
     summoningObject = L['pr_book_of_arcane_entities'], -- Book of Arcane Entities
@@ -371,6 +374,7 @@ warCreche.nodes[43017871] = Manathema({location = L['in_the_war_creche']})
 
 local Snarfang = Class('Snarfang', ProfessionRare, {
     id = 200622,
+    quest = 74307,
     profession = ns.professions.LEATHERWORKING,
     summoningItem = 203414, -- Reinforced Pristine Leather
     summoningObject = L['pr_tuskarr_tanning_rack'], -- Tuskarr Tanning Rack
@@ -391,6 +395,7 @@ map.nodes[64967269] = Snarfang()
 
 local Gareed = Class('Gareed', ProfessionRare, {
     id = 200722,
+    quest = 74321,
     profession = ns.professions.TAILORING,
     summoningItem = 203415, -- Morqut Kite
     summoningObject = L['pr_tuskarr_kite_post'], -- Tuskarr Kite Post
@@ -408,6 +413,7 @@ map.nodes[60299154] = Gareed()
 
 local Faunos = Class('Faunos', ProfessionRare, {
     id = 200725,
+    quest = 74322,
     profession = ns.professions.SKINNING,
     summoningItem = 203417, -- Razor-Sharp Animal Bone
     summoningObject = L['pr_raw_argali_pelts'], -- Raw Argali Pelts
@@ -423,6 +429,7 @@ map.nodes[70664613] = Faunos()
 
 local TidesmithZarviss = Class('TidesmithZarviss', ProfessionRare, {
     id = 200730,
+    quest = 74325,
     profession = ns.professions.BLACKSMITHING,
     summoningItem = 203408, -- Ceremonial Trident
     summoningObject = L['pr_farescale_shrine'], -- Farscale Shrine
@@ -436,11 +443,15 @@ local TidesmithZarviss = Class('TidesmithZarviss', ProfessionRare, {
 
 map.nodes[67257598] = TidesmithZarviss()
 map.nodes[63096158] = TidesmithZarviss()
-map.nodes[80035881] = TidesmithZarviss()
+
+map.nodes[80035881] = TidesmithZarviss({
+    location = L['in_small_cave'],
+    pois = {POI({80546045})}
+})
 
 local Arcantrix = Class('Arcantrix', ProfessionRare, {
     id = 200737,
-    quest = 73163,
+    quest = 74328,
     profession = ns.professions.INSCRIPTION,
     summoningItem = 203412, -- Dispelling Rune
     summoningObject = L['pr_spellsworn_ward'], -- Spellsword Ward
@@ -464,6 +475,7 @@ warCreche.nodes[53105781] = Arcantrix({location = L['in_the_war_creche']})
 
 local Kangalo = Class('Kangalo', ProfessionRare, {
     id = 200738,
+    quest = 74329,
     profession = ns.professions.HERBALISM,
     summoningItem = 203416, -- Dormant Lifebloom Seeds
     summoningObject = L['pr_awakened_soil'], -- Awakened Soil
@@ -480,6 +492,7 @@ map.nodes[75143190] = Kangalo()
 
 local Fimbul = Class('Fimbul', ProfessionRare, {
     id = 200739,
+    quest = 74330,
     profession = ns.professions.ENGINEERING,
     summoningItem = 203411, -- Gnomish Voicebox
     summoningObject = L['pr_damaged_buzzspire'], -- Damaged Buzzspire 505
@@ -497,6 +510,7 @@ map.nodes[61172683] = Fimbul()
 
 local AgniBlazehoof = Class('AgniBlazehoof', ProfessionRare, {
     id = 200740,
+    quest = 74331,
     profession = ns.professions.ALCHEMY,
     summoningItem = 203407, -- Draconic Suppression Powder
     summoningObject = L['pr_volatile_brazier'], -- Volatile Brazier
@@ -514,6 +528,7 @@ map.nodes[69745464] = AgniBlazehoof()
 
 local Luttrok = Class('Luttrok', ProfessionRare, {
     id = 200742,
+    quest = 74332,
     profession = ns.professions.COOKING,
     summoningItem = 203409, -- Sparkling Spice Pouch
     summoningObject = L['pr_spiceless_stew'], -- Spiceless Stew
@@ -532,6 +547,7 @@ map.nodes[55695153] = Luttrok()
 
 local Amephyst = Class('Amephyst', ProfessionRare, {
     id = 200743,
+    quest = 74333,
     profession = ns.professions.JEWELCRAFTING,
     summoningItem = 203413, -- Tuning Fork
     summoningObject = L['pr_resonant_crystal'], -- Resonant Crystal
