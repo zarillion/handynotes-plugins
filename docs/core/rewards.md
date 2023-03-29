@@ -22,9 +22,13 @@ All rewards are accessible via `ns.reward`
 
 ## Section
 
+Adds a seperator between the Rewards.
+
 ```lua
 Section("Title of the Section")
 ```
+
+![Section Reward](../assets/png/reward_section_example.png)
 
 ---
 
@@ -174,9 +178,9 @@ Uses [Item](#item) as its base class, all properties from Item can be used here 
 ### Example:
 
 ```lua
-Achievement({
+Mount({
     item = item_id
-    id = achievement_id,
+    id = mount_id,
 })
 ```
 

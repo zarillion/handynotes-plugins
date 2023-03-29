@@ -20,9 +20,9 @@
 
 Base Class for all Requirements
 
-~~~lua
+```lua
 Requirement({text = 'Requirement Text'})
-~~~
+```
 
 ### Default Properites
 
