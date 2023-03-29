@@ -25,4 +25,3 @@
   * Example: `ns.color.Green("This text is Green.")` returns `|cFF00FF00This text is Green.|r`.
 * `ns.status.Color(string)`
   * Example: `ns.status.Green("This text is Green.")` returns `(|cFF00FF00This text is Green.|r)`.
-

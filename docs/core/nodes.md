@@ -136,13 +136,43 @@ Please note that the label for `ns.node.Collectible` can also come from the crit
 
 ## Intro
 ``` lua
-ns.node.Intro({
-    label = 'Example Node',
-    icon = 'peg_yw',
-    note = 'This is a Note on the Intro Node.'
+local MawIntro = Class('MawIntro', ns.node.Intro, {
+    quest = 62907, -- Eye of the Jailor activation
+    label = L['return_to_the_maw'],
+    note = L['maw_intro_note']
 })
+
+map.intro = MawIntro({
+    rewards = {
+        Quest({
+            id = {
+                62882, -- Setting the Ground Rules
+                60287 -- Rule 1: Have an Escape Plan
+            }
+        })
+    }
+})
+
+map.nodes[80306280] = map.intro
 ```
-* todo
+
+### Default Properites
+`ns.node.Intro` has the following properties set by default:
+
+* `scale` (float) (*default: 3*)
+  * The default scale value for this node.
+* `icon` ([string](icons.html) / int) (*default: 'quest_ay'*)
+  * The default icon for this node.
+* `group` ([group](groups.html)) (*default: ns.groups.QUEST*)
+  * The default group for this node.
+* `minimap` (boolean) (*default: false*)
+  * The Intro node will not be displayed on the minimap by default.
+
+### Optional Properties
+`ns.node.Intro` supports the following properties:
+
+* `quest` (int)
+  * The `questID` of the Intro Quest. This will be used for the `label` property.
 
 ---
 
@@ -161,7 +191,7 @@ map.nodes[78175317] = ns.node.Item({
 ### Required Properties
 `ns.node.Item` requires the following properties:
 
-* `item` (int)
+* `id` (int)
   * The `itemID` for the item. This will be used for the `label` property.
 
 ---
@@ -225,13 +255,33 @@ map.nodes[13095369] = ns.node.PetBattle({
 
 ## Quest
 ``` lua
-ns.node.Quest({
-    label = 'Example Node',
-    icon = 'peg_yw',
-    note = 'This is a Note on the Quest Node.'
+map.nodes[53486145] = Quest({
+    quest = 55743,
+    questDeps = 56117,
+    daily = true,
+    minimap = false,
+    scale = 1.8,
+    rewards = {
+        Achievement({id = 13708, criteria = {45772, 45775, 45776, 45777, 45778}}), -- Most Minis Wins
+        Item({item = 169848, weekly = 57134}) -- Azeroth Mini Pack: Bondo's Yard
+    }
 })
 ```
-* todo
+
+### Default Properites
+`ns.node.Quest` has the following properties set by default:
+
+* `icon` ([string](icons.html) / int) (*default: 'quest_ay'*)
+  * The default icon for this node.
+
+### Optional Properties
+`ns.node.Quest` supports the following properties:
+
+* `id` (int)
+  * The `questID` of the Quest. This will be used for the `label` property.
+* `daily` (boolean)
+  * This is used for the `icon` property, when it is `true` the icon will set it to `'quest_ab'`.
+
 
 ---
 

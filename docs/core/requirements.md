@@ -17,7 +17,6 @@
 
 
 ## Requirement
-
 Base Class for all Requirements
 
 ```lua
@@ -25,12 +24,10 @@ Requirement({text = 'Requirement Text'})
 ```
 
 ### Default Properites
-
 * `text`  (string) (*default: 'UNKNOWN'*)
   * The text that is shown in the tooltip for the Requirement.
 
 ## Achievement
-
 ```lua
 Achievement(id)
 ```
@@ -38,7 +35,6 @@ Achievement(id)
 ---
 
 ## Currency
-
 ```lua
 Currency()
 ```
@@ -46,7 +42,6 @@ Currency()
 ---
 
 ## GarrisonTalent
-
 ```lua
 GarrisonTalent()
 ```
@@ -54,7 +49,6 @@ GarrisonTalent()
 ---
 
 ## GarrisonTalentRank
-
 ```lua
 GarrisonTalentRank()
 ```
@@ -62,7 +56,6 @@ GarrisonTalentRank()
 ---
 
 ## Item
-
 ```lua
 Item()
 ```
@@ -70,7 +63,6 @@ Item()
 ---
 
 ## Profession
-
 ```lua
 Profession()
 ```
@@ -78,7 +70,6 @@ Profession()
 ---
 
 ## Quest
-
 ```lua
 Quest()
 ```
@@ -86,7 +77,6 @@ Quest()
 ---
 
 ## Reputation
-
 ```lua
 Reputation()
 ```
@@ -94,7 +84,6 @@ Reputation()
 ---
 
 ## Spell
-
 ```lua
 Spell()
 ```
@@ -102,7 +91,6 @@ Spell()
 ---
 
 ## Toy
-
 ```lua
 Toy()
 ```
@@ -110,8 +98,6 @@ Toy()
 ---
 
 ## WarMode
-
 ```lua
 WarMode()
 ```
-

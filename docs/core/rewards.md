@@ -21,23 +21,20 @@ All rewards are accessible via `ns.reward`
 ---
 
 ## Section
-
 Adds a seperator between the Rewards.
 
 ```lua
 Section("Title of the Section")
 ```
 
-![Section Reward](../assets/png/reward_section_example.png)
+<!-- ![Section Reward](../assets/png/reward_section_example.png) -->
 
 ---
 
 ## Spacer
-
 The Spacer Reward just adds a blank line.
 
 ### Example:
-
 ```lua
 Spacer()
 ```
@@ -47,7 +44,6 @@ Spacer()
 ## Achievement
 
 ### Example:
-
 ```lua
 Achievement({
     id = achievement_id,
@@ -56,12 +52,10 @@ Achievement({
 ```
 
 ### Properties
-
  * `id` (int) (*required*)
    * The ID of the achievement
  * `criteria` (int)
    * The *criteria id* (preferred) or *criteria index* of the achievement.
-
    * Supports follwing properties:
      * `id` (id)
        * *criteria id* (preferred) or *criteria index*
@@ -77,11 +71,9 @@ Achievement({
 ---
 
 ## Currency
-
 Is Used to display a Currency in the Node rewards
 
 ### Example:
-
 ```lua
 Currency({
     id = currency_id,
@@ -89,7 +81,6 @@ Currency({
 ```
 
 ### Properties
-
 * `id` (int) (*required*)
    * The ID of the currency
 * `note` (string)
@@ -100,7 +91,6 @@ Currency({
 ## Follower
 
 ### Example:
-
 ```lua
 Follower({
     id = follower_id
@@ -108,7 +98,6 @@ Follower({
 ```
 
 ### Properties
-
 * `id` (int) (*required*)
   * The follower ID.
 * `icon` ([name](icons.hmtl) / int)
@@ -119,11 +108,9 @@ Follower({
 ---
 
 ## Item
-
 The Item reward is used as the base class for other item related rewards
 
 ### Example:
-
 ```lua
 Item({
     item = item_id
@@ -131,7 +118,6 @@ Item({
 ```
 
 ### Properties
-
 * `item` (int) (*required*)
   * The Item ID.
 * `type` (string)
@@ -151,11 +137,9 @@ Item({
 ---
 
 ## Heirloom
-
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
 ### Example:
-
 ```lua
 Heirloom({
     item = item_id
@@ -163,7 +147,6 @@ Heirloom({
 ```
 
 ### Properties
-
 * `item` (int) (*required*)
   * The ID of the Heirloom Item
 * `type` (string)
@@ -172,11 +155,9 @@ Heirloom({
 ---
 
 ## Mount
-
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
 ### Example:
-
 ```lua
 Mount({
     item = item_id
@@ -185,7 +166,6 @@ Mount({
 ```
 
 ### Properties
-
 * `item` (int) (*required*)
   * The Item ID from which you learn the mount.
 * `id` (int) (*required*)
@@ -194,11 +174,9 @@ Mount({
 ---
 
 ## Pet
-
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
 ### Example:
-
 ```lua
 Pet({
     item = item_id,
@@ -207,7 +185,6 @@ Pet({
 ```
 
 ### Properties
-
 * `item` (int) (*required*)
   * The Item ID from which you learn the pet.
 * `id` (int) (*required*)
@@ -218,7 +195,6 @@ Pet({
 ## Quest
 
 ### Example:
-
 ```lua
 Quest({
     id = quest_id
@@ -226,18 +202,15 @@ Quest({
 ```
 
 ### Properties
-
 * `id` (int) (*required*)
   * The ID of the rewarded quest.
 
 ---
 
 ## Recipe
-
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
 ### Example:
-
 ```lua
 Recipe({
     item = recipe_item_id,
@@ -246,7 +219,6 @@ Recipe({
 ```
 
 ### Properties
-
 * `item` (int) (*required*)
   * Them Item ID of the Recipe, not the Product.
 * `profession` ([Profession](profession.html)) (*required*)
@@ -255,11 +227,9 @@ Recipe({
 ---
 
 ## Spell
-
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
 ### Example:
-
 ```lua
 Spell({
     item = item_id,
@@ -268,7 +238,6 @@ Spell({
 ```
 
 ### Properties
-
 * `item` (int) (*required*)
   * The Item ID.
 * `spell` (int) (*required*)
@@ -279,7 +248,6 @@ Spell({
 ## Title
 
 ### Example:
-
 ```lua
 Title({
     id = title_id,
@@ -288,7 +256,6 @@ Title({
 ```
 
 ### Properties
-
 * `id` (int) (*required*)
   * The [TitleID](https://wowpedia.fandom.com/wiki/TitleId).
 * `pattern` (string) (*required*)
@@ -303,11 +270,9 @@ Title({
 ---
 
 ## Toy
-
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
 ### Example:
-
 ```lua
 Toy({
     item = item_id
@@ -315,18 +280,15 @@ Toy({
 ```
 
 ### Properties
-
 * `item` (int) (*required*)
   * The ID of the Toy.
 
 ---
 
 ## Transmog
-
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
 ### Example:
-
 ```lua
 Transmog({
     item = item_id
@@ -335,7 +297,6 @@ Transmog({
 ```
 
 ### Properties
-
 * `item` (int) (*required*)
   * The ID of the Transmog Item
 * `slot` (string) ([*Locale*](localizations.html))

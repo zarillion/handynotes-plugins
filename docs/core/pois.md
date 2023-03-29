@@ -10,9 +10,7 @@
 
 
 ## POI
-
-Base class for other POI Classes
-
+Base class for other POI Classes.
 POIs are only displayed when hovering a node.
 
 ```lua
@@ -25,14 +23,12 @@ A POI can have just a table of coordinates, those will be marked by a dot. The c
 POIs can also have folloing properties:
 
 ### Required Properties
-
 `ns.poi.POI` requires the following properties:
 
 * `points` ([int]) (*required*)
   * POI coordintes in a table.
 
 ### Optional Properties
-
 `ns.poi.POI` supports the following properties:
 
 * `color` ([color](colors.html))
@@ -46,22 +42,20 @@ POIs can also have folloing properties:
 * `questDeps` (int / [int])
   * Hides the POI if the required Quests are not completed
 
-<!-- 
+<!--
 ---
 
 ## Glow
-
 Only used internally for hover and focus effects.
 
 ```lua
 Glow()
-``` --> 
+``` -->
 
 ---
 
 ## Path
-
-A Path is used to draw lines between  multiple coordinates.
+A Path is used to draw lines between multiple coordinates.
 
 ```lua
 Path({41176055, 41526214, 41995819, 43565838})
@@ -71,7 +65,6 @@ Path({color = 'Red', points = {41176055, 41526214, 41995819, 43565838}})
 ---
 
 ## Line
-
 This adds a Segmented Line between two far apart coordinates.
 
 ```lua
@@ -82,7 +75,6 @@ Line({color = 'Red', points = {41176055, 41526214}})
 ---
 
 ## Arrow
-
 Uses [Line](#line) as its base class but adds an arrow to the last segment.
 
 ```lua
@@ -92,12 +84,14 @@ Arrow({41176055, 41526214})
 ---
 
 ## Circle
-
 This is a function which returns coordinates of a circle.
 
 ```lua
 Path({Circle({origin = 50005000, radius = 5.5})})
 ```
+
+### Required Properties
+`ns.poi.Cirlce` requires the following properties:
 
 * `origin` (int)
   * Coordinate from the center of the cirle.
@@ -107,12 +101,14 @@ Path({Circle({origin = 50005000, radius = 5.5})})
 ---
 
 ## Square
-
 This is a function which returns coordinates of a square.
 
 ```lua
 Path({Square({origin = 50005000, radius = 5.5})})
 ```
+
+### Required Properties
+`ns.poi.Square` requires the following properties:
 
 * `origin` (int)
   * Coordinate from the center of the square.
