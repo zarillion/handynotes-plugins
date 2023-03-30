@@ -308,7 +308,7 @@ map.nodes[56734868] = Treasure({
     pois = {POI({56664934})} -- Struggling Mothling
 }) -- Moth-Pilfered Pouch
 
-map.nodes[61735511] = Treasure({
+map.nodes[62065530] = Treasure({
     label = L['waterlogged_bundle_label'],
     quest = 75015
 }) -- Waterlogged Bundle
