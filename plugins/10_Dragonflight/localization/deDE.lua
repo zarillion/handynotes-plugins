@@ -683,13 +683,13 @@ L['options_icons_dragonbane_siege_desc'] = 'Zeigt die Position und Belohnungen d
 L['brulsef_the_stronk_note'] = 'Du erhältst deine Belohnung aus der {object:Chest of Massive Gains}.' -- todo: translate chest name
 
 L['blazing_shadowflame_chest_note'] = nil
-L['crystal_encased_chest_note'] = 'Interagiere mit dem Blauen {object:Attunement Crystal} ({dot:Blue}) und dem Roten {object:Attunement Crystal} ({dot:Red}) um den Schatz zu öffnen.'
+L['crystal_encased_chest_note'] = 'Interagiere mit dem Blauen {object:Attunement Crystal} ({dot:Blue}) und dem Roten {object:Attunement Crystal} ({dot:Red}), um den Schatz zu öffnen.'
 L['well_chewed_chest_note'] = 'Der {item:202869}({dot:Green}) ist unter {npc:199962} in einer Höhle versteckt.'
 
 L['molten_hoard_label'] = nil
 L['fealtys_reward_label'] = nil
 L['moth_pilfered_pouch_label'] = nil
-L['moth_pilfered_pouch_note'] = 'Hilf der {npc:203225} zu fliegen indem du sie wiederholt "jonglierst" bis Sie 5 Stabel {spell:405358} erhlangt.\n\nSie wird dich dann zum Ort bringen wo der Schatz erscheint.'
+L['moth_pilfered_pouch_note'] = 'Hilf {npc:203225} zu fliegen indem du sie wiederholt "jonglierst", bis sie 5 Stapel {spell:405358} erlangt.\n\nSie fliegt dann zum Schatz und enthüllt ihn.'
 L['waterlogged_bundle_label'] = nil
 
 L['stolen_stash_label'] = nil
@@ -700,5 +700,5 @@ L['bolts_and_brass_note'] = 'Öffne {object:Bolts and Brass} und plündere {item
 
 L['big_slick_note_1'] = nil
 
-L['saccratos_note'] = nil
-L['ponzo_note'] = nil
+L['saccratos_note'] = 'Tausche {item:204727} gegen ein Reittier, ein Haustier und mehr ein.'
+L['ponzo_note'] = 'Tausche {item:204985} gegen Drachenanpassungen, ein Reittier, ein Haustier und mehr ein.'
