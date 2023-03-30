@@ -246,7 +246,7 @@ siegeCreche.nodes[58993931] = Rare({
 
 local LootSpecialist = Class('LootSpecialist', Rare, {
     id = 203353,
-    quest = nil,
+    quest = 74936,
     note = L['loot_specialist_note'],
     fgroup = 'loot_specialist',
     rewards = {
