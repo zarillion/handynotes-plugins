@@ -307,8 +307,8 @@ L['pr_tuskarr_kite_post'] = nil
 L['pr_tuskarr_tanning_rack'] = nil
 L['pr_volatile_brazier'] = nil
 
-L['options_icons_profession_rares'] = nil
-L['options_icons_profession_rares_desc'] = nil
+L['options_icons_profession_rares'] = 'Seltene Gegner für Berufe'
+L['options_icons_profession_rares_desc'] = 'Zeigt die Positionen von seltenen Gegnern für Berufe an.'
 
 L['storm_bound_chest_label'] = 'Sturmgebundene Truhe'
 
@@ -680,23 +680,23 @@ L['options_icons_dragonbane_siege_desc'] = 'Zeigt die Position und Belohnungen d
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
 
-L['brulsef_the_stronk_note'] = nil
+L['brulsef_the_stronk_note'] = 'Du erhältst deine Belohnung aus der {object:Chest of Massive Gains}.' -- todo: translate chest name
 
 L['blazing_shadowflame_chest_note'] = nil
-L['crystal_encased_chest_note'] = nil
-L['well_chewed_chest_note'] = nil
+L['crystal_encased_chest_note'] = 'Interagiere mit dem Blauen {object:Attunement Crystal} ({dot:Blue}) und dem Roten {object:Attunement Crystal} ({dot:Red}) um den Schatz zu öffnen.'
+L['well_chewed_chest_note'] = 'Der {item:202869}({dot:Green}) ist unter {npc:199962} in einer Höhle versteckt.'
 
 L['molten_hoard_label'] = nil
 L['fealtys_reward_label'] = nil
 L['moth_pilfered_pouch_label'] = nil
-L['moth_pilfered_pouch_note'] = nil
+L['moth_pilfered_pouch_note'] = 'Hilf der {npc:203225} zu fliegen indem du sie wiederholt "jonglierst" bis Sie 5 Stabel {spell:405358} erhlangt.\n\nSie wird dich dann zum Ort bringen wo der Schatz erscheint.'
 L['waterlogged_bundle_label'] = nil
 
 L['stolen_stash_label'] = nil
 L['ritual_offering_label'] = nil
 
-L['molten_scoutbot_note'] = nil
-L['bolts_and_brass_note'] = nil
+L['molten_scoutbot_note'] = 'Öffne das {object:Molten Scoutbot} und plündere {item:204855}.'
+L['bolts_and_brass_note'] = 'Öffne {object:Bolts and Brass} und plündere {item:204850}.'
 
 L['big_slick_note_1'] = nil
 
