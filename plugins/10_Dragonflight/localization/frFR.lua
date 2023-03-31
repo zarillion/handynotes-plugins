@@ -299,6 +299,7 @@ L['profession_required'] = '{note:Nécessite un joueur avec le métier %s.}'
 L['pr_crafting_note'] = 'Fabriquez l\'objet {item:%s} grâce au composant {item:%s} et interagissez avec l\'objet {object:%s} pour invoquer le rare.'
 L['pr_gathering_note'] = 'Utilisez le composant {item:%s} pour interagir avec l\'objet {object:%s} et invoquer le rare.'
 L['pr_recipe_note'] = 'La recette {item:%s} peut être achetée à la {npc:202445} pour 10x {item:190456}.'
+L['pr_summoning_note'] = 'Le joueur invoquant le rare obtiendra {spell:405161} et du butin supplémentaire.'
 
 L['pr_awakened_soil'] = 'Sol éveillé'
 L['pr_book_of_arcane_entities'] = 'Livre des entités arcaniques'
@@ -365,7 +366,7 @@ L['library_note'] = 'Ouvrez l\'objet {object:%s} et récupérez le livre {item:%
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:17530}. {note:Certains livres sont dans les {location:Caveaux de Zskera}}.'
 
-L['dracythyr_runestone_label'] = 'Pierre runique dracthyr'
+L['dracthyr_runestone_label'] = 'Pierre runique dracthyr'
 L['scroll_hunter_suffix'] = 'trésors trouvés à partir des Parchemins Scellés'
 L['scroll_hunter_note'] = 'Récupérez des parchemins scellés sur divers rares et trésors aux {location:Confins Interdits}.\n\nLe fait d\'ouvrir un {item:%s} fera apparaître un X sur la carte qui donnera l\'objet {item:%s} conférant de la réputation avec la faction {faction:%s}.'
 

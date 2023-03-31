@@ -298,6 +298,7 @@ L['profession_required'] = '{note:需要有 %s 專業技能的玩家}'
 L['pr_crafting_note'] = '使用 {item:%2$s} 製造 {item:%1$s} 並和 {object:%3$s} 互動來召喚稀有.'
 L['pr_gathering_note'] = '使用 {item:%s} 並和 {object:%s} 互動來召喚稀有.'
 L['pr_recipe_note'] = '配方 {item:%s} 可以從 {npc:202445} 處使用 10{item:190456} 購買.'
+L['pr_summoning_note'] = nil
 
 L['pr_awakened_soil'] = '覺醒土壤'
 L['pr_book_of_arcane_entities'] = '秘法生物之書'
@@ -313,8 +314,8 @@ L['pr_tuskarr_kite_post'] = '巨牙海民風箏木樁'
 L['pr_tuskarr_tanning_rack'] = '巨牙海民製皮架'
 L['pr_volatile_brazier'] = '熾烈火盆'
 
-L['options_icons_profession_rares'] = nil
-L['options_icons_profession_rares_desc'] = nil
+L['options_icons_profession_rares'] = '專業稀有'
+L['options_icons_profession_rares_desc'] = '顯示專業稀有的位置.'
 
 L['storm_bound_chest_label'] = '颶縛寶箱'
 
@@ -325,11 +326,11 @@ L['forbidden_hoard_label'] = '禁忌之境寶箱'
 L['options_icons_forbidden_hoard'] = '禁忌之境寶箱'
 L['options_icons_forbidden_hoard_desc'] = '顯示 {object:禁忌之境寶箱} 可能的位置.'
 
-L['froststone_vault_storm_label'] = nil
-L['gooey_snailemental_note'] = nil
+L['froststone_vault_storm_label'] = '霜石密庫洪荒風暴'
+L['gooey_snailemental_note'] = '從 {object:霜石密庫洪荒風暴} 首領收集50個 {item:204352} 來合成 {item:192785}.'
 
-L['options_icons_froststone_vault_storm'] = nil
-L['options_icons_froststone_vault_storm_desc'] = nil
+L['options_icons_froststone_vault_storm'] = '霜石密庫洪荒風暴'
+L['options_icons_froststone_vault_storm_desc'] = '顯示 {object:霜石密庫洪荒風暴} 的位置和獎勵.'
 
 L['small_treasures_label'] = '小寶藏'
 L['small_treasures_note'] = '小寶藏共享刷新點.\n\n在 {location:莫克特村} 處從 {npc:200566} 購買 {item:204558} 並使用來取得 {spell:405637} 增益讓你可以在小地圖上看到小寶藏60分鐘.'
@@ -352,21 +353,21 @@ L['mm_status_note'] = '組合下列物品:\n{item:%s}\n{item:%s}'
 L['options_icons_zskera_vaults'] = '澤斯克拉密庫'
 L['options_icons_zskera_vaults_desc'] = '顯示 {location:澤斯克拉密庫} 的獎勵.'
 
-L['confiscated_journal_label'] = nil
-L['farscale_manifesto_label'] = nil
-L['lost_expeditions_notes_label'] = nil
-L['pirate_proclamation_label'] = nil
-L['spellsworn_missive_label'] = nil
-L['vrykul_tome_label'] = nil
+L['confiscated_journal_label'] = '被沒收的日誌'
+L['farscale_manifesto_label'] = '遠鱗宣言'
+L['lost_expeditions_notes_label'] = '遠征隊筆記'
+L['pirate_proclamation_label'] = '海盜宣言'
+L['spellsworn_missive_label'] = '誓法者文件'
+L['vrykul_tome_label'] = '維酷秘典'
 
 L['library_note'] = '開啟 {object:%s} 並拾取 {item:%s}.'
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = '顯示成就 {achievement:17530} 所需的書本位置. {note:有些書在 {location:澤斯克拉密庫} 內}.'
 
-L['dracythyr_runestone_label'] = nil
-L['scroll_hunter_suffix'] = nil
-L['scroll_hunter_note'] = nil
+L['dracthyr_runestone_label'] = '半龍人符文石'
+L['scroll_hunter_suffix'] = '從封印的卷軸找到的寶藏'
+L['scroll_hunter_note'] = '從 {location:禁忌之境} 的稀有和寶藏收集封印的卷軸.\n\n打開 {item:%s} 會在地圖上標記一個 X. 可以找到 {item:%s} 可以提升 {faction:%s} 的聲望.'
 
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
 L['options_icons_scroll_hunter_desc'] = '顯示成就 {achievement:17532} 所需的卷軸獎勵位置.'
@@ -374,8 +375,8 @@ L['options_icons_scroll_hunter_desc'] = '顯示成就 {achievement:17532} 所需
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
 L['options_icons_scalecommander_item_desc'] = '顯示成就 {achievement:17315} 所需的物品位置. {note:有些物品在 {location:澤斯克拉密庫} 內}.'
 
-L['spellsworn_gateway'] = nil
-L['gemstone_of_return'] = nil
+L['spellsworn_gateway'] = '誓法者傳送門'
+L['gemstone_of_return'] = '回歸寶石'
 
 L['morqut_village_vendor_note'] = '使用 {currency:2118} 或金幣交換坐騎, 寵物, 塑型, 飛龍自訂, 配方'
 

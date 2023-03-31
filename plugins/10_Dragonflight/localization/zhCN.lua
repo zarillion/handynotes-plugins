@@ -294,10 +294,11 @@ L['mad_eye_carrey_note'] = '{npc:201181} 与 {npc:201184} 和 {npc:201182} 在�
 L['wymslayer_angvardi_note'] = '{npc:201013} 和 {npc:201310} 为伴。'
 L['loot_specialist_note'] = '{npc:203353} 出现时有 {spell:406143} 和 {spell:132653} 并且会在受到攻击时逃跑。\n\n{note:在他施放 {spell:406141} 完之前快速击杀他。}'
 
-L['profession_required'] = '{note:需要 %s 专业。}'
+L['profession_required'] = '{note:需要玩家为 %s 专业。}'
 L['pr_crafting_note'] = '用 {item:%2$s} 制作 {item:%1$s} 并与 {object:%3$s} 互动召唤稀有。'
 L['pr_gathering_note'] = '使用 {item:%s} 与 {object:%s} 互动召唤稀有。'
 L['pr_recipe_note'] = '配方 {item:%s} 可以用10个 {item:190456} 从 {npc:202445} 购买。'
+L['pr_summoning_note'] = '召唤稀有的玩家将获得 {spell:405161} 和额外拾取。'
 
 L['pr_awakened_soil'] = '觉醒之油'
 L['pr_book_of_arcane_entities'] = '奥术实体之书'
@@ -313,8 +314,8 @@ L['pr_tuskarr_kite_post'] = '海象人风筝柱'
 L['pr_tuskarr_tanning_rack'] = '海象人的制皮架'
 L['pr_volatile_brazier'] = '不稳定的火盆'
 
-L['options_icons_profession_rares'] = nil
-L['options_icons_profession_rares_desc'] = nil
+L['options_icons_profession_rares'] = '专业稀有'
+L['options_icons_profession_rares_desc'] = '显示专业稀有的位置。'
 
 L['storm_bound_chest_label'] = '雷缚储物箱'
 
@@ -364,7 +365,7 @@ L['library_note'] = '打开 {object:%s} 并拾取 {item:%s}。'
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = '显示 {achievement:17530} 成就中书籍的位置。{note:有些书籍在 {location:兹斯克拉宝库}}。'
 
-L['dracythyr_runestone_label'] = nil
+L['dracthyr_runestone_label'] = '龙希尔符文石'
 L['scroll_hunter_suffix'] = '来自密封卷轴的宝藏'
 L['scroll_hunter_note'] = '在 {location:禁忌离岛} 附近收集各种稀有和珍藏的密封卷轴。\n\n打开一个 {item:%s} 会在地图上显示一个 X，会提供一个 {item:%s}，为 {faction:%s} 提供声望。'
 

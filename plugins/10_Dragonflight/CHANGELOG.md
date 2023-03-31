@@ -1,3 +1,11 @@
+# v35
+
+* Added a separate group for profession rares.
+* Added missing rewards and IDs for multiple rares.
+* Added missing signal transmitter for Engineering.
+* Fixed region ID for TW respawn times.
+* Removed PTR-only expedition flag locations.
+
 # v34
 
 * Added new Forbidden Reach content!

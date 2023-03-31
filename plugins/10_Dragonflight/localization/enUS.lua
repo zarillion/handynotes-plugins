@@ -298,6 +298,7 @@ L['profession_required'] = '{note:Requires a player with the %s profession.}'
 L['pr_crafting_note'] = 'Craft {item:%s} with {item:%s} and interact with {object:%s} to summon the rare.'
 L['pr_gathering_note'] = 'Use {item:%s} to interact with {object:%s} to summon the rare.'
 L['pr_recipe_note'] = 'The recipe {item:%s} can be purchased from {npc:202445} for 10 {item:190456}.'
+L['pr_summoning_note'] = 'The player who summons the rare will get {spell:405161} and bonus loot.'
 
 L['pr_awakened_soil'] = 'Awakened Soil'
 L['pr_book_of_arcane_entities'] = 'Book of Arcane Entities'
@@ -364,7 +365,7 @@ L['library_note'] = 'Open the {object:%s} and loot the {item:%s}.'
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
 L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}. {note:Some books are in {location:Zskera Vaults}}.'
 
-L['dracythyr_runestone_label'] = 'Draythyr Runestone'
+L['dracthyr_runestone_label'] = 'Dracthyr Runestone'
 L['scroll_hunter_suffix'] = 'treasures found from Sealed Scrolls'
 L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal an X on the map which will offer a {item:%s} which provides reputation for {faction:%s}.'
 
