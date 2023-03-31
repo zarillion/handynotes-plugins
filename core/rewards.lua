@@ -431,12 +431,11 @@ end
 
 -- Tooltip Documentation:
 -- https://wowpedia.fandom.com/wiki/Patch_10.0.2/API_changes
+-- https://wowpedia.fandom.com/wiki/Patch_10.1.0/API_changes
 function Recipe:IsObtained()
     local info = C_TooltipInfo.GetItemByID(self.item)
     if info then
-        TooltipUtil.SurfaceArgs(info)
         for _, line in ipairs(info.lines) do
-            TooltipUtil.SurfaceArgs(line)
             if line.leftText and line.leftText == _G.ITEM_SPELL_KNOWN then
                 return true
             end
