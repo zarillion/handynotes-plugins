@@ -536,9 +536,6 @@ darkshore.nodes[47161853] = Collectible({
 map.nodes[44458040] = Collectible({
     label = '{npc:201099}',
     icon = 5003559,
-    requires = {
-        ns.requirement.Quest(75662) -- A Race to the Finish
-    },
     rewards = {
         Achievement({
             id = 17741,
@@ -566,7 +563,6 @@ map.nodes[55895537] = LoammVendor({
     note = L['saccratos_note'],
     rewards = {
         Pet({item = 205118, id = 3535, note = 'x50'}), -- Diamondshell
-        -- Item({item = nil, note = 'x100'}), -- UNKNOWN
         Mount({item = 205205, id = 196, note = 'x400'}) -- Scoria-Clad Sporebat -- TODO: FIX ID
     }
 }) -- Saccratos <Coveted Bauble Exchange>
