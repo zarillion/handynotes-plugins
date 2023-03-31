@@ -135,9 +135,9 @@ L['the_best_at_what_i_do_suffix'] = 'Bosse getötet'
 L['options_icons_grand_hunts'] = 'Große Jagden'
 L['options_icons_grand_hunts_desc'] = 'Zeigt die möglichen Positionen und Belohnungen der {location:Großen Jagd} an.'
 
-L['ancient_stone_label'] = 'Urgewalt'
+L['ancient_stone_label'] = 'Uralter Stein'
 L['options_icons_ancient_stones'] = '{achievement:17560}'
-L['options_icons_ancient_stones_desc'] = nil
+L['options_icons_ancient_stones_desc'] = 'Zeigt die Positionen der {object:Uralten Steine} für den Erfolg {achievement:17560} an.'
 
 L['reed_chest'] = 'Schilfkiste'
 L['options_icons_reed_chest'] = 'Schilfkiste'
@@ -700,7 +700,7 @@ L['ritual_offering_label'] = 'Ritualopfergaben'
 L['molten_scoutbot_note'] = 'Öffne das {object:Molten Scoutbot} und plündere {item:204855}.' -- todo: translate chest name
 L['bolts_and_brass_note'] = 'Öffne {object:Bolts and Brass} und plündere {item:204850}.' -- todo: translate chest name
 
-L['big_slick_note_1'] = nil
+L['big_slick_note_1'] = '{npc:48182} kann in der alten Welt an der {location:Dunkelküste} gefunden werden. Sprich mit {npc:141489} um in die Zeit vor dem {location:Krieg der Dornen} zurückzureisen.'
 
 L['saccratos_note'] = 'Tausche {item:204727} gegen ein Reittier, ein Haustier und mehr ein.'
 L['ponzo_note'] = 'Tausche {item:204985} gegen Drachenanpassungen, ein Reittier, ein Haustier und mehr ein.'
