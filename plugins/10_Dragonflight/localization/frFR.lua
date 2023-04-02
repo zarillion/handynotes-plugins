@@ -207,7 +207,7 @@ L['snowclaw_cub_note_end'] = [[
 
 Une fois le titre {title:Dryade honoraire} équipé, offrez les 4 objets à l'{npc:196768} pour recevoir votre mascotte.
 
-{bug:(BUG : Le titre est susceptible de disparaître, en attente d'un correctif)}
+{note:Si vous perdez le titre prématurément, vous pouvez recommencer la quête pour l'obtenir à nouveau. Réessayez demain ou au prochain redémarrage hebdomadaire.}
 ]]
 
 L['tome_of_polymoph_duck'] = 'Utilisez {spell:1953} pour entrer dans la grotte et interagir avec le livre {object:La tempête de mana pour les novices} pour terminer la quête.'
