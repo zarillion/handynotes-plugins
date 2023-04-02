@@ -206,7 +206,7 @@ L['snowclaw_cub_note_end'] = [[
 
 Once you have the {title:Honorary Dryad} title equipped offer all 4 items to {npc:196768} to receive your pet.
 
-{bug:(BUG: Title may disappear pending fix)}
+{bug:(NOTE: If you lose the title prematurely you can repeat the quest to acquire it again. Try again tomorrow or after the next weekly reset.)}
 ]]
 
 L['tome_of_polymoph_duck'] = 'Use {spell:1953} to enter the cave and interact with the {object:Manastorming For Beginners} book to complete the quest.'
