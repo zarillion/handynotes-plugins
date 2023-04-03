@@ -32,7 +32,7 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 
 local map = Map({id = 2133, settings = true})
 
-local deepflayerNest = Map({id = 2184, settings = false})
+local deepflayerNest = Map({id = 2184, settings = false}) -- Deepflayer Nest
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -531,6 +531,10 @@ map.nodes[47384855] = AncientStone({
     rewards = {Achievement({id = 17567, criteria = 58828})}
 }) -- PH 03
 
+-------------------------------------------------------------------------------
+-------------------------------- SNIFFEN SAGE ---------------------------------
+-------------------------------------------------------------------------------
+
 map.nodes[55625745] = Collectible({
     id = 203773,
     icon = 5140835,
@@ -551,6 +555,30 @@ map.nodes[55625745] = Collectible({
         }) -- Sniffen Sage
     }
 }) -- Myrrit <Sniffenseeker>
+
+-------------------------------------------------------------------------------
+------------------------ SLOW AND STEADY WINS THE RACE ------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[44458040] = Collectible({
+    label = '{npc:201099}',
+    icon = 5003559,
+    rewards = {
+        Achievement({
+            id = 17741,
+            criteria = {
+                59148, -- Bashful wins
+                59149, -- Tricky wins
+                59150, -- Brulee wins
+                59151 -- Roggy wins
+            }
+        }), -- Slow And Steady Wins The Race
+        Pet({item = 205231, id = 3557}), -- Roggy
+        Pet({item = 205119, id = 3536}), -- Bashful
+        Pet({item = 205121, id = 3538}), -- Tricky
+        Pet({item = 205123, id = 3540}) -- Brulee
+    }
+}) -- Grogul <Race Coordinator>
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
@@ -582,28 +610,6 @@ darkshore.nodes[47161853] = Collectible({
     }
 }) -- Shimmershell Snail
 
------------------ ACHIEVEMENT: SLOW AND STEADY WINS THE RACE ------------------
-
-map.nodes[44458040] = Collectible({
-    label = '{npc:201099}',
-    icon = 5003559,
-    rewards = {
-        Achievement({
-            id = 17741,
-            criteria = {
-                59148, -- Bashful wins
-                59149, -- Tricky wins
-                59150, -- Brulee wins
-                59151 -- Roggy wins
-            }
-        }), -- Slow And Steady Wins The Race
-        Pet({item = 205231, id = 3557}), -- Roggy
-        Pet({item = 205119, id = 3536}), -- Bashful
-        Pet({item = 205121, id = 3538}), -- Tricky
-        Pet({item = 205123, id = 3540}) -- Brulee
-    }
-}) -- Grogul <Race Coordinator>
-
 -------------------------------------------------------------------------------
 
 local LoammVendor = Class('LoammVendor', Collectible,
@@ -614,9 +620,9 @@ map.nodes[55895537] = LoammVendor({
     note = L['saccratos_note'],
     rewards = {
         Pet({item = 205118, id = 3535, note = 'x50'}), -- Diamondshell
-        Mount({item = 205205, id = 196, note = 'x400'}) -- Scoria-Clad Sporebat -- TODO: FIX ID
+        Mount({item = 205205, id = 196, note = 'x400'}) -- Scoria-Clad Sporebat
     }
-}) -- Saccratos <Coveted Bauble Exchange>
+}) -- Saccratos <Coveted Bauble Exchange> ------------------------------------- TODO: UPDATE MOUNT ID
 
 map.nodes[58085381] = LoammVendor({
     id = 204693,
@@ -628,4 +634,4 @@ map.nodes[58085381] = LoammVendor({
         Pet({item = 205120, id = 3537, note = 'x85'}), -- Thimblerig
         Mount({item = 205209, id = 1736, note = 'x170'}) -- Boulder Hauler
     }
-}) -- Ponzo <Barterer Extraordinaire>
+}) -- Ponzo <Barterer Extraordinaire> ----------------------------------------- TODO: UPDATE ALL PRICES
