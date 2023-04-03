@@ -691,21 +691,21 @@ L['options_icons_dragonbane_siege_desc'] = 'Muestra dónde están y las recompen
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
 
-L['in_deepflayer_nest'] = nil
+L['in_deepflayer_nest'] = 'Within {location:Deepflayer Nest}' -- 'Dentro de {location:Deepflayer Nest}'
 
 L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.' -- 'Despoja tus recompensas del {object:Chest of Massive Gains}.'
 
-L['ancient_zaqali_chest_note'] = nil
+L['ancient_zaqali_chest_note'] = 'Use a nearby {object:Bottled Magma} to open the chest.' -- 'Usa un {object:Bottled Magma} cercano para abrir el cofre.'
 L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
 L['crystal_encased_chest_note'] = 'Interact with both the blue {object:Attunement Crystal} ({dot:Blue}) and red {object:Attunement Crystal} ({dot:Red}) to open the chest.' -- 'Interactúa con el {object:Attunement Crystal} azul ({dot:Blue}) y con el {object:Attunement Crystal} rojo ({dot:Red}) para abrir el cofre/alijo.'
-L['old_trunk_note'] = nil
+L['old_trunk_note'] = 'Recoge y combina 5x {item:204325} para crear {item:204323}.'
 L['well_chewed_chest_note'] = 'La {item:202869} ({dot:Green}) está escondida debajo de {npc:199962} dentro de la cueva.'
 
 L['molten_hoard_label'] = 'Molten Hoard'
 L['fealtys_reward_label'] = 'Fealty\'s Reward'
-L['fealtys_reward_note'] = nil
-L['dreamers_bounty_label'] = nil
-L['dreamers_bounty_note'] = nil
+L['fealtys_reward_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['dreamers_bounty_label'] = 'Dreamer\'s Bounty'
+L['dreamers_bounty_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
 L['moth_pilfered_pouch_label'] = 'Moth-Pilfered Pouch'
 L['moth_pilfered_pouch_note'] = 'Ayuda a {npc:203225} para que vuele haciendo "malabarismos" hasta que tenga cinco acumulaciones de {spell:405358}.\n\nEntonces volará a la faltriquera y te la revelará.'
 L['waterlogged_bundle_label'] = 'Waterlogged Bundle'
@@ -716,7 +716,7 @@ L['ritual_offering_label'] = 'Ritual Offering'
 L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.' -- 'Abre {object:Molten Scoutbot} y despoja el {item:204850}.'
 L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.' -- 'Abre {object:Bolts and Brass} y despoja los {item:204850}.'
 
-L['sniffen_sage_suffix'] = nil
+L['sniffen_sage_suffix'] = 'special items found' -- 'objetos especiales encontrados'
 
 L['big_slick_note_1'] = '{npc:48182} está en el viejo mundo de la {location:Costa Oscura}. Habla con {npc:141489} para volver atrás en el tiempo antes de la {location:Guerra de las Espinas}.'
 
