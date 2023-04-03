@@ -32,6 +32,8 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 
 local map = Map({id = 2133, settings = true})
 
+local deepflayerNest = Map({id = 2184, settings = false})
+
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
@@ -232,6 +234,7 @@ map.nodes[38867151] = Rare({
 -------------------------------------------------------------------------------
 
 map.nodes[36694883] = Treasure({
+    note = L['ancient_zaqali_chest_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59222}) -- Treasures of Zaralek Cavern
     }
@@ -266,13 +269,19 @@ map.nodes[36397425] = Treasure({
 
 map.nodes[62715376] = Treasure({
     quest = 75019,
+    location = L['in_water'],
     rewards = {
         Achievement({id = 17786, criteria = 59223}) -- Treasures of Zaralek Cavern
+    },
+    pois = {
+        POI({62935317}), -- Water Entrance
+        Path({62935317, 62605319, 62745362, 62715376}) -- Treasure Path
     }
 }) -- Long-Lost Cache
 
 map.nodes[43058256] = Treasure({
     requires = ns.requirement.Item(204323), -- Old Trunk Key
+    note = L['old_trunk_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59227}) -- Treasures of Zaralek Cavern
     }
@@ -291,7 +300,7 @@ map.nodes[29774050] = Treasure({
     }
 }) -- Well-Chewed Chest
 
--------------------------------------------------------------------------------
+-------------------------- NON-ACHIEVEMENT TREASURES --------------------------
 
 map.nodes[48411636] = Treasure({
     label = L['molten_hoard_label'],
@@ -299,7 +308,15 @@ map.nodes[48411636] = Treasure({
     location = L['in_small_cave']
 }) -- Molten Hoard
 
-map.nodes[48451083] = Treasure({label = L['fealtys_reward_label']}) -- Fealty's Reward
+map.nodes[48451083] = Treasure({
+    label = L['fealtys_reward_label'],
+    note = L['fealtys_reward_note']
+}) -- Fealty's Reward
+
+map.nodes[57646631] = Treasure({
+    label = L['dreamers_bounty_label'],
+    note = L['dreamers_bounty_note']
+}) -- Dreamer's Bounty
 
 map.nodes[56734868] = Treasure({
     label = L['moth_pilfered_pouch_label'],
@@ -310,16 +327,29 @@ map.nodes[56734868] = Treasure({
 
 map.nodes[62065530] = Treasure({
     label = L['waterlogged_bundle_label'],
-    quest = 75015
+    quest = 75015,
+    location = L['in_water'],
+    rewards = {
+        Item({item = 199906}), -- Titan Relic
+        Item({item = 204985}), -- Barter Brick
+        Currency({id = 2245}) -- Flightstones
+    },
+    pois = {
+        POI({62485528}), -- Water Entrance
+        Path({62485528, 62065530}) -- Treasure Path
+    }
 }) -- Waterlogged Bundle
 
--------------------------------------------------------------------------------
+------------------------------ RANDOM TREASURES -------------------------------
 
-local StolenStash = Class('StolenStash', Treasure,
-    {label = L['stolen_stash_label']}) -- Stolen Stash
+map.nodes[60664622] = Treasure({label = L['stolen_stash_label'], quest = 75302})
 
-map.nodes[60664622] = StolenStash({quest = 75302})
-map.nodes[63603861] = StolenStash({quest = 75303})
+deepflayerNest.nodes[63698291] = Treasure({
+    abel = L['stolen_stash_label'],
+    quest = 75303,
+    location = L['in_deepflayer_nest'],
+    parent = map.id
+})
 
 local RitualOffering = Class('RitualOffering', Treasure, {
     label = L['ritual_offering_label'],
@@ -500,6 +530,27 @@ map.nodes[61257181] = AncientStone({
 map.nodes[47384855] = AncientStone({
     rewards = {Achievement({id = 17567, criteria = 58828})}
 }) -- PH 03
+
+map.nodes[55625745] = Collectible({
+    id = 203773,
+    icon = 5140835,
+    requires = {
+        ns.requirement.Quest(74876), -- The Buddy System
+        -- TODO: These quests are stored just in case and we probably won't
+        -- use then. I pulled them from the the PTR Wowhead page while I could.
+        ns.requirement.Quest(75765), ns.requirement.Quest(75766),
+        ns.requirement.Quest(75767), ns.requirement.Quest(75768),
+        ns.requirement.Quest(75769), ns.requirement.Quest(75770),
+        ns.requirement.Quest(75771), ns.requirement.Quest(75772),
+        ns.requirement.Quest(75774)
+    },
+    rewards = {
+        Achievement({
+            id = 17833,
+            criteria = {id = 1, qty = true, suffix = L['sniffen_sage_suffix']}
+        }) -- Sniffen Sage
+    }
+}) -- Myrrit <Sniffenseeker>
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

@@ -682,14 +682,21 @@ L['options_icons_dragonbane_siege_desc'] = 'Zeigt die Position und Belohnungen d
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
 
+L['in_deepflayer_nest'] = nil
+
 L['brulsef_the_stronk_note'] = 'Du erhältst deine Belohnung aus der {object:Chest of Massive Gains}.' -- todo: translate chest name
 
+L['ancient_zaqali_chest_note'] = nil
 L['blazing_shadowflame_chest_note'] = nil
 L['crystal_encased_chest_note'] = 'Interagiere mit dem Blauen {object:Abstimmungskristall} ({dot:Blue}) und dem Roten {object:Abstimmungskristall} ({dot:Red}), um den Schatz zu öffnen.'
+L['old_trunk_note'] = nil
 L['well_chewed_chest_note'] = 'Der {item:202869}({dot:Green}) ist unter {npc:199962} in einer Höhle versteckt.'
 
 L['molten_hoard_label'] = 'Geschmolzener Schatz'
 L['fealtys_reward_label'] = 'Belohnung der Treue'
+L['fealtys_reward_note'] = nil
+L['dreamers_bounty_label'] = nil
+L['dreamers_bounty_note'] = nil
 L['moth_pilfered_pouch_label'] = 'Von Motten geplünderte Tasche'
 L['moth_pilfered_pouch_note'] = 'Hilf {npc:203225} zu fliegen indem du sie wiederholt "jonglierst", bis sie 5 Stapel {spell:405358} erlangt.\n\nSie fliegt dann zum Schatz und enthüllt ihn.'
 L['waterlogged_bundle_label'] = 'Durchnässtes Bündel'
@@ -699,6 +706,8 @@ L['ritual_offering_label'] = 'Ritualopfergaben'
 
 L['molten_scoutbot_note'] = 'Öffne das {object:Molten Scoutbot} und plündere {item:204855}.' -- todo: translate chest name
 L['bolts_and_brass_note'] = 'Öffne {object:Bolts and Brass} und plündere {item:204850}.' -- todo: translate chest name
+
+L['sniffen_sage_suffix'] = nil
 
 L['big_slick_note_1'] = '{npc:48182} kann in der alten Welt an der {location:Dunkelküste} gefunden werden. Sprich mit {npc:141489} um in die Zeit vor dem {location:Krieg der Dornen} zurückzureisen.'
 

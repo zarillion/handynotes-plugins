@@ -690,14 +690,21 @@ L['options_icons_dragonbane_siege_desc'] = '显示 {spell:388945} 的位置和�
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
 
+L['in_deepflayer_nest'] = nil
+
 L['brulsef_the_stronk_note'] = nil
 
+L['ancient_zaqali_chest_note'] = nil
 L['blazing_shadowflame_chest_note'] = nil
 L['crystal_encased_chest_note'] = nil
+L['old_trunk_note'] = nil
 L['well_chewed_chest_note'] = nil
 
 L['molten_hoard_label'] = nil
 L['fealtys_reward_label'] = nil
+L['fealtys_reward_note'] = nil
+L['dreamers_bounty_label'] = nil
+L['dreamers_bounty_note'] = nil
 L['moth_pilfered_pouch_label'] = nil
 L['moth_pilfered_pouch_note'] = nil
 L['waterlogged_bundle_label'] = nil
@@ -707,6 +714,8 @@ L['ritual_offering_label'] = nil
 
 L['molten_scoutbot_note'] = nil
 L['bolts_and_brass_note'] = nil
+
+L['sniffen_sage_suffix'] = nil
 
 L['big_slick_note_1'] = nil
 

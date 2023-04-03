@@ -690,14 +690,21 @@ L['options_icons_dragonbane_siege_desc'] = 'Display locations and rewards for th
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
 
+L['in_deepflayer_nest'] = 'Within {location:Deepflayer Nest}'
+
 L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.'
 
+L['ancient_zaqali_chest_note'] = 'Use a nearby {object:Bottled Magma} to open the chest.'
 L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
 L['crystal_encased_chest_note'] = 'Interact with both the blue {object:Attunement Crystal} ({dot:Blue}) and red {object:Attunement Crystal} ({dot:Red}) to open the chest.'
+L['old_trunk_note'] = 'Collect and combine x5 {item:204325} to create {item:204323}.'
 L['well_chewed_chest_note'] = 'The {item:202869}({dot:Green}) is hidden underneath the {npc:199962} within the cave.'
 
 L['molten_hoard_label'] = 'Molten Hoard'
 L['fealtys_reward_label'] = 'Fealty\'s Reward'
+L['fealtys_reward_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['dreamers_bounty_label'] = 'Dreamer\'s Bounty'
+L['dreamers_bounty_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
 L['moth_pilfered_pouch_label'] = 'Moth-Pilfered Pouch'
 L['moth_pilfered_pouch_note'] = 'Help the {npc:203225} to fly by "juggling" it until it has five stacks of {spell:405358}.\n\nIt will then fly to the pouch and reveal it to you.'
 L['waterlogged_bundle_label'] = 'Waterlogged Bundle'
@@ -707,6 +714,8 @@ L['ritual_offering_label'] = 'Ritual Offering'
 
 L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.'
 L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'
+
+L['sniffen_sage_suffix'] = 'special items found'
 
 L['big_slick_note_1'] = '{npc:48182} can be found in old-world {location:Darkshore}. Speak with {npc:141489} to travel back in time before the {location:War of Thorns}.'
 

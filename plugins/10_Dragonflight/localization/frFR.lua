@@ -691,14 +691,21 @@ L['options_icons_dragonbane_siege_desc'] = 'Afficher les emplacements et les ré
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
 
+L['in_deepflayer_nest'] = nil
+
 L['brulsef_the_stronk_note'] = 'Récupérez vos récompenses à partir du {object:Coffre de gains massifs}.'
 
+L['ancient_zaqali_chest_note'] = nil
 L['blazing_shadowflame_chest_note'] = nil -- DEV NOTE - Do not translate
 L['crystal_encased_chest_note'] = nil
+L['old_trunk_note'] = nil
 L['well_chewed_chest_note'] = 'La {item:202869}({dot:Green}) est cachée sous la {npc:199962} dans la grotte.'
 
 L['molten_hoard_label'] = 'Butin en fusion'
 L['fealtys_reward_label'] = 'Récompense de loyauté'
+L['fealtys_reward_note'] = nil
+L['dreamers_bounty_label'] = nil
+L['dreamers_bounty_note'] = nil
 L['moth_pilfered_pouch_label'] = 'Bourse volée par les phalènes'
 L['moth_pilfered_pouch_note'] = 'Aidez le {npc:203225} à voler en le faisant "jongler" jusqu\'à ce qu\'il ait cinq charges de {spell:405358}.\n\nIl volera alors jusqu\'à la bourse et vous la révèlera.'
 L['waterlogged_bundle_label'] = 'Paquet détrempé'
@@ -708,6 +715,8 @@ L['ritual_offering_label'] = nil
 
 L['molten_scoutbot_note'] = 'Examinez l\'{object:Explorobot fondu} et récupérez le {item:204855}.'
 L['bolts_and_brass_note'] = 'Examinez les {object:Boulons et cuivre} et récupérez la {item:204850}.'
+
+L['sniffen_sage_suffix'] = nil
 
 L['big_slick_note_1'] = 'l\'{npc:48182} peut être trouvé dans l\'ancienne version de la zone {location:Sombrivage}. Parlez à {npc:141489} pour remonter le temps avant la {location:Guerre des épines}.'
 
