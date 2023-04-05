@@ -691,30 +691,30 @@ L['options_icons_dragonbane_siege_desc'] = 'Muestra dónde están y las recompen
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
 
-L['in_deepflayer_nest'] = 'Within {location:Deepflayer Nest}' -- 'Dentro de {location:Deepflayer Nest}'
+L['in_deepflayer_nest'] = 'Dentro del {location:Nido de los Despellejadores}.'
 
-L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.' -- 'Despoja tus recompensas del {object:Chest of Massive Gains}.'
+L['brulsef_the_stronk_note'] = 'Despoja tus recompensas del {object:Cofre de Enormes Beneficios}.'
 
-L['ancient_zaqali_chest_note'] = 'Use a nearby {object:Bottled Magma} to open the chest.' -- 'Usa un {object:Bottled Magma} cercano para abrir el cofre.'
+L['ancient_zaqali_chest_note'] = 'Usa el {object:Magma Embotellado} cercano para abrir el cofre.'
 L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
 L['crystal_encased_chest_note'] = 'Interactúa con el {object:Cristal de Armonización} azul ({dot:Blue}) y con el {object:Cristal de Armonización} rojo ({dot:Red}) para abrir el cofre.'
 L['old_trunk_note'] = 'Recoge y combina 5x {item:204325} para crear {item:204323}.'
 L['well_chewed_chest_note'] = 'La {item:202869} ({dot:Green}) está escondida debajo de {npc:199962} dentro de la cueva.'
 
-L['molten_hoard_label'] = 'Molten Hoard' -- object
-L['fealtys_reward_label'] = 'Fealty\'s Reward' -- object
+L['molten_hoard_label'] = 'Tesoro de Magma'
+L['fealtys_reward_label'] = 'Recompensa de Lealtad'
 L['fealtys_reward_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
-L['dreamers_bounty_label'] = 'Dreamer\'s Bounty' -- object
+L['dreamers_bounty_label'] = 'Botín de soñador'
 L['dreamers_bounty_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
-L['moth_pilfered_pouch_label'] = 'Moth-Pilfered Pouch' -- object
+L['moth_pilfered_pouch_label'] = 'Bolsa Birlada por unas Polillas'
 L['moth_pilfered_pouch_note'] = 'Ayuda a {npc:203225} para que vuele haciendo "malabarismos" hasta que tenga cinco acumulaciones de {spell:405358}.\n\nEntonces volará a la faltriquera y te la revelará.'
-L['waterlogged_bundle_label'] = 'Waterlogged Bundle' -- object
+L['waterlogged_bundle_label'] = 'Fardo Empapado'
 
-L['stolen_stash_label'] = 'Stolen Stash' -- object
-L['ritual_offering_label'] = 'Ritual Offering' -- object
+L['stolen_stash_label'] = 'Alijo Robado'
+L['ritual_offering_label'] = 'Ofrendas Rituales'
 
-L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.' -- 'Abre {object:Molten Scoutbot} y despoja el {item:204850}.'
-L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.' -- 'Abre {object:Bolts and Brass} y despoja los {item:204850}.'
+L['molten_scoutbot_note'] = 'Abre el {object:Explorabot de magma} y despoja el {item:204850}.'
+L['bolts_and_brass_note'] = 'Abre los {object:Tornillos y Latón} y despoja los {item:204850}.'
 
 L['sniffen_sage_suffix'] = 'objetos especiales encontrados'
 
