@@ -340,13 +340,13 @@ L['zskera_vaults_note'] = 'Récupérez des {item:202196} sur divers rares et cof
 L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des Clés des Caveaux de Zskera.'
 
 L['broken_waygate_label'] = 'Portail d’accès endommagé'
-L['neltharions_toolkit_note'] = [[1. Collect {item:204278} which spawns randomly inside {location:Zskera Vaults}.
+L['neltharions_toolkit_note'] = [[1. Récupérez les {item:204278} qui apparaissent aléatoirement dans les {location:Caveaux de Zskera}.
 
-2. Travel to {location:Smoldering Perch} in {location:The Waking Shores}.
+2. Voyagez jusqu'au {location:Perchoir Fulminant} aux {location:Rivages de l’Éveil}.
 
-3. Find the {object:Broken Waygate} inside the cave next to {npc:193310}.
+3. FTrouvez le {object:Portail d’accès endommagé} dans la grotte à côté de la {npc:193310}.
 
-4. Repair the {object:Broken Waygate}. {note:This may require a few clicks.}
+4. Réparez le {object:Portail d’accès endommagé}. {note:Cela peut nécessiter quelques clics.}
 
 5. Téléportez-vous dans la salle cachée dans les {location:Caveaux de Zskera}. Tuez les {npc:200375} et {npc:203639} puis ouvrez la {object:Grande cache d’obsidienne} pour récupérer votre butin !]]
 
