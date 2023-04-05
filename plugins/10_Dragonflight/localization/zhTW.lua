@@ -338,6 +338,9 @@ L['zskera_vaults_label'] = '澤斯克拉密庫'
 L['zskera_vaults_note'] = '從稀有和箱子收集 {item:202196} 來打開在 {location:澤斯克拉密庫} 裡的門.'
 L['door_buster_suffix'] = '扇門已使用澤斯克拉密庫鑰匙解鎖'
 
+L['broken_waygate_label'] = nil
+L['neltharions_toolkit_note'] = nil
+
 L['recipe_rat_note_1'] = '在 {location:澤斯克拉密庫} 裡和  {npc:202982} 對話後, {item:202252} 會進入你的背包.'
 L['recipe_rat_note_2'] = '和 {item:202252} 互動取得 {item:204340}. {note:(5分鐘冷卻)}'
 L['recipe_rat_note_3'] = '當你有30個 {item:204340} 時,組合碎片取得食譜.'

@@ -339,6 +339,9 @@ L['zskera_vaults_label'] = 'Cámaras de Zskera'
 L['zskera_vaults_note'] = 'Recoge {item:202196} de varios raros y alijos para abrir las puertas de las {location:Cámaras de Zskera}.'
 L['door_buster_suffix'] = 'Puertas abiertas usando Llaves de la Cámara de Zskera'
 
+L['broken_waygate_label'] = nil
+L['neltharions_toolkit_note'] = nil
+
 L['recipe_rat_note_1'] = 'Habla con {npc:202982} dentro de las {location:Cámaras de Zskera} y una {item:202252} entrará en tus bolsas.'
 L['recipe_rat_note_2'] = 'Interactúa con la {item:202252} para conseguir un {item:204340}. {note:(Tiene 5 minutos de reutilización)}'
 L['recipe_rat_note_3'] = 'Una vez tengas 30x {item:204340} combínalos para conseguir la receta.'

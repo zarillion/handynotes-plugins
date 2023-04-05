@@ -2296,6 +2296,26 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
 end)
 
 -------------------------------------------------------------------------------
+-------------------------------- ZSKERA VAULTS --------------------------------
+-------------------------------------------------------------------------------
+
+------------------------ RENEWED PROTO-DRAKE: ANTLERS -------------------------
+
+map.nodes[34624668] = Collectible({
+    label = L['broken_waygate_label'],
+    icon = 1529267,
+    quest = 75047,
+    location = L['in_cave'],
+    note = L['neltharions_toolkit_note'],
+    group = ns.groups.ZSKERA_VAULTS,
+    requires = ns.requirement.Quest(73159), -- Exploring Our Past
+    rewards = {
+        DC.RenewedProtoDrake.Antlers -- Renewed Proto-Drake: Antlers
+    },
+    pois = {POI({35514794})} -- Entrance
+}) -- Broken Waygate
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 

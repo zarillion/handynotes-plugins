@@ -410,6 +410,7 @@ ns.node.Dragonglyph = Dragonglyph
 
 ns.DRAGON_CUSTOMIZATIONS = {
     RenewedProtoDrake = {
+        Antlers = Item({item = 202278, quest = 73058}),
         Armor = Item({item = 197357, quest = 69558}),
         BeakedSnout = Item({item = 197401, quest = 69602}),
         BlackAndRedArmor = Item({item = 197348, quest = 69549}),

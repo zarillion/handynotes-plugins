@@ -331,6 +331,9 @@ L['zskera_vaults_label'] = 'Gewölbe von Zskera'
 L['zskera_vaults_note'] = 'Sammle {item:202196} von seltenen Gegnern und Schätzen, um Türen in den {location:Gewölben von Zskera} zu öffnen.'
 L['door_buster_suffix'] = 'Türen geöffnet'
 
+L['broken_waygate_label'] = nil
+L['neltharions_toolkit_note'] = nil
+
 L['recipe_rat_note_1'] = 'Sprich mit {npc:202982} in den {location:Gewölben von Zskera} und du erhältst {item:202252}.'
 L['recipe_rat_note_2'] = 'Interagiere mit {item:202252}, um {item:204340} zu erhalten. {note:(5 Minute Abklingzeit)}'
 L['recipe_rat_note_3'] = 'Wenn du 30x {item:204340} hast, kombiniere diese, um das Rattzept zu erhalten.'

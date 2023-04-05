@@ -338,6 +338,9 @@ L['zskera_vaults_label'] = '兹斯克拉宝库'
 L['zskera_vaults_note'] = '从各种稀有物品和宝箱中收集 {item:202196}，打开 {location:兹斯克拉宝库} 内的大门。'
 L['door_buster_suffix'] = '使用兹斯克拉宝库钥匙解锁的门'
 
+L['broken_waygate_label'] = nil
+L['neltharions_toolkit_note'] = nil
+
 L['recipe_rat_note_1'] = '与 {location:兹斯克拉宝库} 中的 {npc:202982} 交谈，{item:202252} 会进入包内。'
 L['recipe_rat_note_2'] = '与 {item:202252} 互动以收到 {item:204340}。{note:（5分钟冷却时间）}'
 L['recipe_rat_note_3'] = '一旦有30个 {item:204340} 组合废料来收到配方。'

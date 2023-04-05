@@ -1011,6 +1011,9 @@ local ZSKERA_VAULTS_REWARDS = {
         id = 17413,
         criteria = {id = 1, qty = true, suffix = L['door_buster_suffix']}
     }), -- Door Buster
+    Spacer(), -- Drakewatcher Manuscript
+    DC.RenewedProtoDrake.Antlers, -- Renewed Proto-Drake: Antlers
+    Spacer(), -- Pets
     Pet({item = 193851, id = 3332}), -- Patos
     Pet({item = 193853, id = 3331}), -- Emmah
     Pet({item = 193908, id = 3338}), -- Kobaldt
@@ -1078,6 +1081,22 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         end
     end
 end)
+
+------------------------ RENEWED PROTO-DRAKE: ANTLERS -------------------------
+
+map.nodes[28268000] = Collectible({
+    label = '{item:204278}',
+    icon = 1529267,
+    quest = 75047,
+    location = L['in_zskera_vaults'],
+    note = L['neltharions_toolkit_note'],
+    group = ns.groups.ZSKERA_VAULTS,
+    fgroup = 'zskera_vaults',
+    requires = ns.requirement.Quest(73159), -- Exploring Our Past
+    rewards = {
+        DC.RenewedProtoDrake.Antlers -- Renewed Proto-Drake: Antlers
+    }
+}) -- Neltharion's Toolkit
 
 ---------------------- RATCIPE: DEVIOUSLY DEVILVED EGGS -----------------------
 

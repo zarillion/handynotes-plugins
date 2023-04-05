@@ -319,6 +319,9 @@ L['zskera_vaults_label'] = nil
 L['zskera_vaults_note'] = nil
 L['door_buster_suffix'] = nil
 
+L['broken_waygate_label'] = nil
+L['neltharions_toolkit_note'] = nil
+
 L['recipe_rat_note_1'] = nil
 L['recipe_rat_note_2'] = nil
 L['recipe_rat_note_3'] = nil

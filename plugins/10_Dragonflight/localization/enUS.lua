@@ -338,6 +338,17 @@ L['zskera_vaults_label'] = 'Zskera Vaults'
 L['zskera_vaults_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vaults}.'
 L['door_buster_suffix'] = 'Doors unlocked using Zskera Vault keys'
 
+L['broken_waygate_label'] = 'Broken Waygate'
+L['neltharions_toolkit_note'] = [[1. Collect {item:204278} which spawns randomly inside {location:Zskera Vaults}.
+
+2. Travel to {location:Smoldering Perch} in {location:The Waking Shores}.
+
+3. Find the {object:Broken Waygate} inside the cave next to {npc:193310}.
+
+4. Repair the {object:Broken Waygate}. {note:This may require a few clicks.}
+
+5. Teleport to the hidden room within {location:Zskera Vaults}. Kill the {npc:200375} and {npc:203639} then open the {object:Obsidian Grand Cache} to claim your loot!]]
+
 L['recipe_rat_note_1'] = 'Speak to the {npc:202982} within {location:Zskera Vault} and {item:202252} will enter your bags.'
 L['recipe_rat_note_2'] = 'Interact with {item:202252} to receive {item:204340}. {note:(5 minute cooldown)}'
 L['recipe_rat_note_3'] = 'Once you have 30x {item:204340} combine the scraps to receive the recipe.'
