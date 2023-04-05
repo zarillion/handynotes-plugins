@@ -339,8 +339,16 @@ L['zskera_vaults_label'] = 'Caveaux de Zskera'
 L['zskera_vaults_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans les {location:Caveaux de Zskera}.'
 L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des Clés des Caveaux de Zskera.'
 
-L['broken_waygate_label'] = nil
-L['neltharions_toolkit_note'] = nil
+L['broken_waygate_label'] = 'Portail d’accès endommagé'
+L['neltharions_toolkit_note'] = [[1. Collect {item:204278} which spawns randomly inside {location:Zskera Vaults}.
+
+2. Travel to {location:Smoldering Perch} in {location:The Waking Shores}.
+
+3. Find the {object:Broken Waygate} inside the cave next to {npc:193310}.
+
+4. Repair the {object:Broken Waygate}. {note:This may require a few clicks.}
+
+5. Teleport to the hidden room within {location:Zskera Vaults}. Kill the {npc:200375} and {npc:203639} then open the {object:Obsidian Grand Cache} to claim your loot!]]
 
 L['recipe_rat_note_1'] = 'Parlez au {npc:202982} dans les {location:Caveaux de Zskera} et vous recevrez dans vos sacs le {item:202252}.'
 L['recipe_rat_note_2'] = 'Interagissez avec le {item:202252} pour recevoir des {item:204340}. {note:(5 minutes de recharge)}'

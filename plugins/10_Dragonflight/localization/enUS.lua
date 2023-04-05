@@ -694,7 +694,7 @@ L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = 'Display locations and rewards for the {spell:388945}.'
 
 L['phoenix_wishwing_note'] = 'After obtaining the {item:199203}, {npc:196214} will offer a turn-in quest which rewards {item:193373}. To finish the quest, you will need following items (you can get these in any order):\n\n'
-L['phoenix_wishwing_note_talisman'] =[[
+L['phoenix_wishwing_note_talisman'] = [[
 {item:199203} x1
 This is sold by {npc:88045} in {location:Spires of Arak}. If {npc:88045} is not present, complete the quest {quest:35010} to be able to see him.
 You need following Items to buy it:
