@@ -691,32 +691,32 @@ L['options_icons_dragonbane_siege_desc'] = 'Afficher les emplacements et les ré
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
 
-L['in_deepflayer_nest'] = nil
+L['in_deepflayer_nest'] = 'A l\'intérieur du {location:Nid de flagellants des profondeurs}'
 
 L['brulsef_the_stronk_note'] = 'Récupérez vos récompenses à partir du {object:Coffre de gains massifs}.'
 
-L['ancient_zaqali_chest_note'] = nil
+L['ancient_zaqali_chest_note'] = 'Utilisez un {object:Magma en bouteille} à proximité pour ouvrir le coffre.'
 L['blazing_shadowflame_chest_note'] = nil -- DEV NOTE - Do not translate
-L['crystal_encased_chest_note'] = nil
-L['old_trunk_note'] = nil
+L['crystal_encased_chest_note'] = 'Interagissez avec le {object:Cristal d\'harmonisation} ({dot:Blue}) et le {object:Cristal d\'harmonisation} ({dot:Red}) pour ouvrir le coffre.'
+L['old_trunk_note'] = 'Rassemblez et combinez x5 {item:204325} pour créer une {item:204323}.'
 L['well_chewed_chest_note'] = 'La {item:202869}({dot:Green}) est cachée sous la {npc:199962} dans la grotte.'
 
 L['molten_hoard_label'] = 'Butin en fusion'
 L['fealtys_reward_label'] = 'Récompense de loyauté'
-L['fealtys_reward_note'] = nil
-L['dreamers_bounty_label'] = nil
-L['dreamers_bounty_note'] = nil
+L['fealtys_reward_note'] = nil -- DEV NOTE - Do not translate
+L['dreamers_bounty_label'] = 'Butin de la Rêveuse'
+L['dreamers_bounty_note'] = nil -- DEV NOTE - Do not translate
 L['moth_pilfered_pouch_label'] = 'Bourse volée par les phalènes'
 L['moth_pilfered_pouch_note'] = 'Aidez le {npc:203225} à voler en le faisant "jongler" jusqu\'à ce qu\'il ait cinq charges de {spell:405358}.\n\nIl volera alors jusqu\'à la bourse et vous la révèlera.'
 L['waterlogged_bundle_label'] = 'Paquet détrempé'
 
 L['stolen_stash_label'] = 'Butin volé'
-L['ritual_offering_label'] = nil
+L['ritual_offering_label'] = 'Offrandes rituelles'
 
 L['molten_scoutbot_note'] = 'Examinez l\'{object:Explorobot fondu} et récupérez le {item:204855}.'
 L['bolts_and_brass_note'] = 'Examinez les {object:Boulons et cuivre} et récupérez la {item:204850}.'
 
-L['sniffen_sage_suffix'] = nil
+L['sniffen_sage_suffix'] = 'objets spéciaux trouvés'
 
 L['big_slick_note_1'] = 'l\'{npc:48182} peut être trouvé dans l\'ancienne version de la zone {location:Sombrivage}. Parlez à {npc:141489} pour remonter le temps avant la {location:Guerre des épines}.'
 
