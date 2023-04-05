@@ -344,7 +344,7 @@ L['neltharions_toolkit_note'] = [[1. Récupérez les {item:204278} qui apparaiss
 
 2. Voyagez jusqu'au {location:Perchoir Fulminant} aux {location:Rivages de l’Éveil}.
 
-3. FTrouvez le {object:Portail d’accès endommagé} dans la grotte à côté de la {npc:193310}.
+3. Trouvez le {object:Portail d’accès endommagé} dans la grotte à côté de la {npc:193310}.
 
 4. Réparez le {object:Portail d’accès endommagé}. {note:Cela peut nécessiter quelques clics.}
 
