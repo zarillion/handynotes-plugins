@@ -684,3 +684,8 @@ L['options_icons_djaradin_cache_desc'] = '顯示 {object:加拉登貯物所} 可
 L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = '顯示 {spell:388945} 的位置和獎勵.'
+
+L['phoenix_wishwing_note'] = nil -- Not finished, don't translate yet
+L['phoenix_wishwing_note_talisman'] = nil -- Not finished, don't translate yet
+L['phoenix_wishwing_note_smoldering_ash'] = nil -- Not finished, don't translate yet
+L['phoenix_wishwing_note_ash_feather'] = nil -- Not finished, don't translate yet

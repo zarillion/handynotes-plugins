@@ -685,3 +685,8 @@ L['options_icons_djaradin_cache_desc'] = 'Afficher les emplacements possibles de
 L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = 'Afficher les emplacements et les récompenses pour le {spell:388945}.'
+
+L['phoenix_wishwing_note'] = nil -- Not finished, don't translate yet
+L['phoenix_wishwing_note_talisman'] = nil -- Not finished, don't translate yet
+L['phoenix_wishwing_note_smoldering_ash'] = nil -- Not finished, don't translate yet
+L['phoenix_wishwing_note_ash_feather'] = nil -- Not finished, don't translate yet

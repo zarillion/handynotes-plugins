@@ -2472,6 +2472,38 @@ map.nodes[23667144] = TameMagmammoth() -- Dragonbane Keep
 map.nodes[66342446] = TameMagmammoth() -- Scalecracker Keep
 map.nodes[37104453] = TameMagmammoth() -- Smoldering Perch
 
+------------------------------- PHOENIX WISHWING ------------------------------
+
+map.nodes[16176260] = Collectible({
+    label = '{item:193373}',
+    icon = 4007139,
+    requires = {
+        ns.requirement.Item(199203, 1), -- Phoenix Ash Talisman
+        ns.requirement.Item(199080, 15), -- Smoldering Phoenix Ash
+        ns.requirement.Item(202062, 20) -- Ash Feather
+    },
+    rewards = {
+        Pet({item = 193373, id = 3292}) -- Phoenix Wishwing
+    },
+    getters = {
+        note = function(self)
+            -- local function IC(item, count)
+            --     local ItemCount = ns.PlayerHasItem(item, count) and
+            --                           ns.Color.Green(count .. 'x') or
+            --                           ns.Color.Red(count .. 'x')
+            --     return '(' .. ItemCount .. ')'
+            -- end
+
+            local note = L['phoenix_wishwing_note']
+            note = note .. L['phoenix_wishwing_note_talisman']
+            note = note .. L['phoenix_wishwing_note_smoldering_ash']
+            note = note .. L['phoenix_wishwing_note_ash_feather']
+
+            return note
+        end
+    }
+})
+
 ---------------- ITEM: SCHEMATIC: TINKER: BREATH OF NELTHARION ----------------
 
 nel.nodes[57407880] = PT.Engineering({

@@ -692,3 +692,25 @@ L['options_icons_djaradin_cache_desc'] = 'Display possible locations of {object:
 L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = 'Display locations and rewards for the {spell:388945}.'
+
+L['phoenix_wishwing_note'] = 'After obtaining the {item:199203}, {npc:196214} will offer a turn-in quest which rewards {item:193373}. To finish the quest, you will need following items (you can get these in any order):\n\n'
+L['phoenix_wishwing_note_talisman'] =[[
+{item:199203} x1
+This is sold by {npc:88045} in {location:Spires of Arak}. If {npc:88045} is not present, complete the quest {quest:35010} to be able to see him.
+You need following Items to buy it:
+{item:199099} x1 - Drops from {noc:52530} in {location:Firelands Timewalking}
+{item:199097} x10 - Can be found within {object:Cookpots}, located around {location:Spires of Arak}.
+{item:199092} x20 - Drops rarely from {npc:6520} at the center of {location:Un'Goro Crater}. These share spawn points with (but do not drop from) {npc:6521} so make sure you kill both.
+
+]]
+L['phoenix_wishwing_note_smoldering_ash'] = [[
+{item:199080} x15
+Farm the various Phoenixes such as {npc:181764} or {npc:195448} found on the {location:Dragon Isles}.
+These can mostly be found around the {location:Obsidian Citadel} in {location:The Waking Shores}.
+
+]]
+L['phoenix_wishwing_note_ash_feather'] = [[
+Ash Feather x20
+To see the Feathers you need to purchase the Ash Feather Amulet from Griftah in The Waking Shores at the Obsidian Throne.
+Use this necklace and pick up Ash Feather found within the Burning Ascent and Slagmire, which are areas surrounding the Obsidian Citadel.
+]]

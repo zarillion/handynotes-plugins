@@ -685,3 +685,8 @@ L['options_icons_djaradin_cache_desc'] = 'Muestra dónde pueden haber {object:Al
 L['dragonbane_siege_label'] = 'Asedio en la Fortaleza de Ruinadragón'
 L['options_icons_dragonbane_siege'] = 'Asedio en la Fortaleza de Ruinadragón'
 L['options_icons_dragonbane_siege_desc'] = 'Muestra dónde están y las recompensas de los Asedios en la Fortaleza de Ruinadragón.'
+
+L['phoenix_wishwing_note'] = nil -- Not finished, don't translate yet
+L['phoenix_wishwing_note_talisman'] = nil -- Not finished, don't translate yet
+L['phoenix_wishwing_note_smoldering_ash'] = nil -- Not finished, don't translate yet
+L['phoenix_wishwing_note_ash_feather'] = nil -- Not finished, don't translate yet
