@@ -348,7 +348,7 @@ L['neltharions_toolkit_note'] = [[1. Collect {item:204278} which spawns randomly
 
 4. Repair the {object:Broken Waygate}. {note:This may require a few clicks.}
 
-5. Teleport to the hidden room within {location:Zskera Vaults}. Kill the {npc:200375} and {npc:203639} then open the {object:Obsidian Grand Cache} to claim your loot!]]
+5. Téléportez-vous dans la salle cachée dans les {location:Caveaux de Zskera}. Tuez les {npc:200375} et {npc:203639} puis ouvrez la {object:Grande cache d’obsidienne} pour récupérer votre butin !]]
 
 L['recipe_rat_note_1'] = 'Parlez au {npc:202982} dans les {location:Caveaux de Zskera} et vous recevrez dans vos sacs le {item:202252}.'
 L['recipe_rat_note_2'] = 'Interagissez avec le {item:202252} pour recevoir des {item:204340}. {note:(5 minutes de recharge)}'
