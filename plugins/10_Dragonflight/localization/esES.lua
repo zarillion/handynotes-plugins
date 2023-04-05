@@ -339,8 +339,16 @@ L['zskera_vaults_label'] = 'Cámaras de Zskera'
 L['zskera_vaults_note'] = 'Recoge {item:202196} de varios raros y alijos para abrir las puertas de las {location:Cámaras de Zskera}.'
 L['door_buster_suffix'] = 'Puertas abiertas usando Llaves de la Cámara de Zskera'
 
-L['broken_waygate_label'] = nil
-L['neltharions_toolkit_note'] = nil
+L['broken_waygate_label'] = 'Puerta Rota'
+L['neltharions_toolkit_note'] = [[1. Recoge un {item:204278} que aparece aleatoriamente dentro de las {location:Cámaras de Zskera}.
+
+2. Viaja a {location:Nido Humeante} en las {location:Orillas del Despertar}.
+
+3. Encuentra el {object:Puerta Rota} dentro de la cueva junto al {npc:193310}.
+
+4. Repara el {object:Puerta Rota}. {note:Puede requerir hacer algunos clicks.}
+
+5. Telepórtate a la habitación escondida en las {location:Cámaras de Zskera}. Mata al {npc:200375} y al {npc:203639}. Ahora abre el {object:Alijo Majestuoso de Obsidiana} para reclamar tu botín.]]
 
 L['recipe_rat_note_1'] = 'Habla con {npc:202982} dentro de las {location:Cámaras de Zskera} y una {item:202252} entrará en tus bolsas.'
 L['recipe_rat_note_2'] = 'Interactúa con la {item:202252} para conseguir un {item:204340}. {note:(Tiene 5 minutos de reutilización)}'
@@ -686,7 +694,24 @@ L['dragonbane_siege_label'] = 'Asedio en la Fortaleza de Ruinadragón'
 L['options_icons_dragonbane_siege'] = 'Asedio en la Fortaleza de Ruinadragón'
 L['options_icons_dragonbane_siege_desc'] = 'Muestra dónde están y las recompensas de los Asedios en la Fortaleza de Ruinadragón.'
 
-L['phoenix_wishwing_note'] = nil -- Not finished, don't translate yet
-L['phoenix_wishwing_note_talisman'] = nil -- Not finished, don't translate yet
-L['phoenix_wishwing_note_smoldering_ash'] = nil -- Not finished, don't translate yet
-L['phoenix_wishwing_note_ash_feather'] = nil -- Not finished, don't translate yet
+L['phoenix_wishwing_note'] = nil -- 'After obtaining the {item:199203}, {npc:196214} will offer a turn-in quest which rewards {item:193373}. To finish the quest, you will need following items (you can get these in any order):\n\n'
+L['phoenix_wishwing_note_talisman'] = nil -- [[
+-- {item:199203} x1
+-- This is sold by {npc:88045} in {location:Spires of Arak}. If {npc:88045} is not present, complete the quest {quest:35010} to be able to see him.
+-- You need following Items to buy it:
+-- {item:199099} x1 - Drops from {noc:52530} in {location:Firelands Timewalking}
+-- {item:199097} x10 - Can be found within {object:Cookpots}, located around {location:Spires of Arak}.
+-- {item:199092} x20 - Drops rarely from {npc:6520} at the center of {location:Un'Goro Crater}. These share spawn points with (but do not drop from) {npc:6521} so make sure you kill both.
+--
+-- ]]
+L['phoenix_wishwing_note_smoldering_ash'] = nil -- [[
+-- {item:199080} x15
+-- Farm the various Phoenixes such as {npc:181764} or {npc:195448} found on the {location:Dragon Isles}.
+-- These can mostly be found around the {location:Obsidian Citadel} in {location:The Waking Shores}.
+--
+-- ]]
+L['phoenix_wishwing_note_ash_feather'] = nil -- [[
+-- Ash Feather x20
+-- To see the Feathers you need to purchase the Ash Feather Amulet from Griftah in The Waking Shores at the Obsidian Throne.
+-- Use this necklace and pick up Ash Feather found within the Burning Ascent and Slagmire, which are areas surrounding the Obsidian Citadel.
+-- ]]
