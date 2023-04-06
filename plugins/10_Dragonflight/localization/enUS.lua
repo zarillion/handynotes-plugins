@@ -704,7 +704,7 @@ This is sold by {npc:88045} {dot:Gold} in {location:Spires of Arak}. If {npc:880
 You need following Items to buy it:]]
 L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nDrops from {npc:52530} in {location:Firelands Timewalking}'
 L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nCan be found within {object:Cookpots}, located around {location:Spires of Arak}.'
-L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nDrops rarely from {npc:6520} at the center of {location:Un\'Goro Crater}{dot:Gray}. These share spawn points with (but do not drop from) {npc:6521} so make sure you kill both.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nDrops rarely from {npc:6520} at the center of {location:Un\'Goro Crater} {dot:Gray}. These share spawn points with (but do not drop from) {npc:6521} so make sure you kill both.'
 L['phoenix_wishwing_smoldering_ash'] = [[
 %s {item:199080}
 
