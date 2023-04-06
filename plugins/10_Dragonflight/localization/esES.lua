@@ -694,28 +694,28 @@ L['dragonbane_siege_label'] = 'Asedio en la Fortaleza de Ruinadragón'
 L['options_icons_dragonbane_siege'] = 'Asedio en la Fortaleza de Ruinadragón'
 L['options_icons_dragonbane_siege_desc'] = 'Muestra dónde están y las recompensas de los Asedios en la Fortaleza de Ruinadragón.'
 
-L['phoenix_wishwing_note'] = nil -- 'After obtaining the {item:199203}, {npc:196214} will offer a turn-in quest which rewards {item:193373}. To finish the quest, you will need following items (you can get these in any order):\n\n'
-L['phoenix_wishwing_talisman'] = nil -- [[
--- {item:199203} x1
--- This is sold by {npc:88045} in {location:Spires of Arak}. If {npc:88045} is not present, complete the quest {quest:35010} to be able to see him.
--- You need following Items to buy it:
--- {item:199099} x1 - Drops from {noc:52530} in {location:Firelands Timewalking}
--- {item:199097} x10 - Can be found within {object:Cookpots}, located around {location:Spires of Arak}.
--- {item:199092} x20 - Drops rarely from {npc:6520} at the center of {location:Un'Goro Crater}. These share spawn points with (but do not drop from) {npc:6521} so make sure you kill both.
---
--- ]]
-L['phoenix_wishwing_phoenix_ember'] = nil
-L['phoenix_wishwing_sacred_ash'] = nil
-L['phoenix_wishwing_inert_ash'] = nil
-L['phoenix_wishwing_smoldering_ash'] = nil -- [[
--- {item:199080} x15
--- Farm the various Phoenixes such as {npc:181764} or {npc:195448} found on the {location:Dragon Isles}.
--- These can mostly be found around the {location:Obsidian Citadel} in {location:The Waking Shores}.
---
--- ]]
-L['phoenix_wishwing_ash_feather'] = nil -- [[
--- Ash Feather x20
--- To see the Feathers you need to purchase the Ash Feather Amulet from Griftah in The Waking Shores at the Obsidian Throne.
--- Use this necklace and pick up Ash Feather found within the Burning Ascent and Slagmire, which are areas surrounding the Obsidian Citadel.
--- ]]
-L['phoenix_wishwing_info'] = nil
+L['phoenix_wishwing_note'] = [[
+Después de conseguir el {item:199203}, {npc:196214} te ofrecerá una misión en la que te dará la {item:193373}.
+Para acabar la misión, necesitarás los siguientes objetos (los puedes obtener en cualquier orden):
+]]
+L['phoenix_wishwing_talisman'] = [[
+%sx {item:199203}
+
+Lo vende {npc:88045} {dot:Gold} en las {location:Cumbres de Arak}. Si {npc:88045} no está, completa la misión {quest:35010} para poder velo.
+Necesitarás los siguientes objetos para comprarlo:]]
+L['phoenix_wishwing_phoenix_ember'] = '%sx {item:199099}\nEs botín de {npc:52530} en el {location:Paseo en el tiempo: Tierras de Fuego}.'
+L['phoenix_wishwing_sacred_ash'] = '%sx {item:199097}\nSe pueden encontrar dentro de {object:Ollas}, alrededor de las {location:Cumbres de Arak}.'
+L['phoenix_wishwing_inert_ash'] = '%sx {item:199092}\nEs un botín raro de los {npc:6520} que hay en el centro del {location:Cráter de Un\'Goro} {dot:Gray}. Estos comparten punto de aparición (pero no su botín) con las {npc:6521}. Asegúrate de matar a todo.'
+L['phoenix_wishwing_smoldering_ash'] = [[
+%sx {item:199080}
+
+Farmea varios tipos de {npc:Fénix} {dot:Yellow} como el {npc:181764} o el {npc:195448} que hay en las {location:Islas Dragón}.
+Estos se encuentran generalmente alrededor de la {location:Ciudadela Obsidiana} en las {location:Orillas del Despertar}.
+]]
+L['phoenix_wishwing_ash_feather'] = [[
+%sx {item:202062}
+
+Para ver estas {object:Plumas} tendrás que comprar el {item:199177} a {npc:189207} {dot:Green} en las {location:Orillas del Despertar} junto al {location:Trono Obsidiana}.
+Usa el amuleto y coge las {item:202062} {dot:Red} que hay dentro del {location:Ascenso Ardiente} y de {location:Cienoescoria}, que son las zonas que rodean a la {location:Ciudadela Obsidiana}.
+]]
+L['phoenix_wishwing_info'] = 'Esto es parte de la mascota de combate {item:193373} localizada en las {location:Orillas del Despertar} de las {location:Islas Dragón}.'
