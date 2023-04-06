@@ -708,13 +708,13 @@ L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nDrops rarely from {npc:6520
 L['phoenix_wishwing_smoldering_ash'] = [[
 %s {item:199080}
 
-Farm the various Phoenixes {dot:Yellow} such as {npc:181764} or {npc:195448} found on the {location:Dragon Isles}.
+Farm the various {npc:Phoenixes} {dot:Yellow} such as {npc:181764} or {npc:195448} found on the {location:Dragon Isles}.
 These can mostly be found around the {location:Obsidian Citadel} in {location:The Waking Shores}.
 ]]
 L['phoenix_wishwing_ash_feather'] = [[
 %s {item:202062}
 
-To see the Feathers you need to purchase the {item:199177} from {npc:189207} {dot:Green} in {location:The Waking Shores} at the {location:Obsidian Throne}.
+To see the {object:Feathers} you need to purchase the {item:199177} from {npc:189207} {dot:Green} in {location:The Waking Shores} at the {location:Obsidian Throne}.
 Use this necklace and pick up {item:202062} {dot:Red} found within the {location:Burning Ascent} and {location:The Slagmire}, which are areas surrounding the {location:Obsidian Citadel}.
 ]]
 L['phoenix_wishwing_info'] = 'This is part of the {item:193373} Collectible located in {location:The Waking Shore} on the {location:Dragon Isles}.'
