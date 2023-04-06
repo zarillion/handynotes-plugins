@@ -708,12 +708,12 @@ L['phoenix_wishwing_smoldering_ash'] = [[
 %s {item:199080}
 
 Töte die verschiedenen Phönixe wie {npc:181764} oder {npc:195448} auf den {location:Dracheninseln}.
-Diese findet man meist in der Nähe der {Ort:Obsidianzitadelle} in {location:Küste des Erwachens}.
+Diese findet man meist in der Nähe der {location:Obsidianzitadelle} in {location:Küste des Erwachens}.
 ]]
 L['phoenix_wishwing_ash_feather'] = [[
 %s {item:202062}
 
-Um die {object:Federn} zu sehen, musst du das {item:199177} von {npc:189207} am {Ort: Obsidianthron} kaufen {dot:Green}.
-Benutze die Halskette und sammle {item:202062} {dot:Red} die sich in der Umgebung der {Ort:Obsidianzitadelle} befinden.
+Um die {object:Federn} zu sehen, musst du das {item:199177} von {npc:189207} am {location:Obsidianthron} kaufen {dot:Green}.
+Benutze die Halskette und sammle {item:202062} {dot:Red} die sich in der Umgebung der {location:Obsidianzitadelle} befinden.
 ]]
 L['phoenix_wishwing_info'] = 'Dies ist teil des {item:193373} in {location:Küste des Erwachens} auf den {location:Dracheninseln}.'
