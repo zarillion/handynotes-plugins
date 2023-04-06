@@ -1400,44 +1400,28 @@ local ELEMENTAL_STORM_FORMULA_REWARDS = {
     }) -- Formula: Illusion: Primal Frost
 }
 
--- local ELEMENTAL_STORM_TRANSMOG_REWARDS = {
---     ['thunderstorm'] = {
---         ns.reward.Section('{npc:193653}'), -- Gaelzion
---         Transmog({item = 200180, slot = L['staff']}), -- Crystallized Lightning Staff
---         ns.reward.Section('{npc:193647}'), -- Karantun
---         Transmog({item = 200170, slot = L['bow']}), -- Stormbringer Bow
---         -- ns.reward.Section('{npc:193684}'), -- Pipspark Thundersnap, only drops a trinket
---         ns.reward.Section('{npc:193674}'), -- Voraazka
---         Transmog({item = 200136, slot = L['plate']}) -- Monsoonic Armguards
---     },
---     ['sandstorm'] = {
---         ns.reward.Section('{npc:193644}'), -- Bouldron
---         Transmog({item = 200231, slot = L['offhand']}), -- Flaming Stonescale Bulwark
---         -- ns.reward.Section('{npc:193654}'), -- Gravlion
---         ns.reward.Section('{npc:193652}'), -- Grizzlerock
---         Transmog({item = 200145, slot = L['2h_sword']}), -- Hilted Monolith
---         -- ns.reward.Section('{npc:193680}') -- Zurgaz Corebreaker
---     },
---     ['firestorm'] = {
---         ns.reward.Section('{npc:193650}'), -- Emblazion
---         Transmog({item = 200307, slot = L['1h_axe']}), -- Viciously Hooked Cleaver
---         ns.reward.Section('{npc:193648}'), -- Infernum
---         Transmog({item = 200150, slot = L['1h_mace']}), -- Infernum's Furnace
---         ns.reward.Section('{npc:193675}'), -- Kain Firebrand
---         Transmog({item = 200155, slot = L['shield']}), -- Haphazardly Welded Protector
---         ns.reward.Section('{npc:193686}'), -- Neela Firebane
---         Transmog({item = 200181, slot = L['1h_sword']}), -- Blade of Blazing Torment
---     },
---     ['snowstorm'] = {
---         ns.reward.Section('{npc:193645}'), -- Crystalus
---         Transmog({item = 200301, slot = L['polearm']}), -- Reclaimed Tuskarr Harpoon
---         ns.reward.Section('{npc:193655}'), -- Frozion
---         Transmog({item = 200311, slot = L['1h_mace']}), -- Bonespike Mallet
---         -- ns.reward.Section('{npc:193682}'), -- Rouen Icewind
---         ns.reward.Section('{npc:193677}'), -- Maeleera - The Iceblades (Maeleera, Fieraan, Leerain)
---         Transmog({item = 200250, slot = L['warglaive']}), -- Frost Tipped Glaive
---     },
--- }
+local ELEMENTAL_STORM_TRANSMOG_REWARDS = {
+    ['thunderstorm'] = {
+        Transmog({item = 200180, slot = L['staff'], note = '{npc:193653}'}), -- Crystallized Lightning Staff
+        Transmog({item = 200170, slot = L['bow'], note = '{npc:193647}'}), -- Stormbringer Bow
+        Transmog({item = 200136, slot = L['plate'], note = '{npc:193674}'}) -- Monsoonic Armguards
+    },
+    ['sandstorm'] = {
+        Transmog({item = 200231, slot = L['offhand'], note = '{npc:193644}'}), -- Flaming Stonescale Bulwark
+        Transmog({item = 200145, slot = L['2h_sword'], note = '{npc:193652}'}) -- Hilted Monolith
+    },
+    ['firestorm'] = {
+        Transmog({item = 200307, slot = L['1h_axe'], note = '{npc:193650}'}), -- Viciously Hooked Cleaver
+        Transmog({item = 200150, slot = L['1h_mace'], note = '{npc:193648}'}), -- Infernum's Furnace
+        Transmog({item = 200155, slot = L['shield'], note = '{npc:193675}'}), -- Haphazardly Welded Protector
+        Transmog({item = 200181, slot = L['1h_sword'], note = '{npc:193686}'}) -- Blade of Blazing Torment
+    },
+    ['snowstorm'] = {
+        Transmog({item = 200301, slot = L['polearm'], note = '{npc:193645}'}), -- Reclaimed Tuskarr Harpoon
+        Transmog({item = 200311, slot = L['1h_mace'], note = '{npc:193655}'}), -- Bonespike Mallet
+        Transmog({item = 200250, slot = L['warglaive'], note = '{npc:193677}'}) -- Frost Tipped Glaive
+    }
+}
 
 local ElementalStorm = Class('ElementalStorm', Collectible, {
     icon = 538566,
@@ -1506,10 +1490,10 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
                             suffix = L['empowered_mobs_killed_suffix']
                         }
                     }), ELEMENTAL_STORM_BOSS_ACHIEVEMENTS[stormType], Spacer(),
-                    -- unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType]),
                     ELEMENTAL_STORM_PET_REWARDS[stormType],
                     ELEMENTAL_STORM_FORMULA_REWARDS['all'],
-                    ELEMENTAL_STORM_FORMULA_REWARDS[stormType]
+                    ELEMENTAL_STORM_FORMULA_REWARDS[stormType], Spacer(),
+                    unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType])
                 }
                 GameTooltip:AddLine(' ')
                 for i, reward in ipairs(rewards) do
