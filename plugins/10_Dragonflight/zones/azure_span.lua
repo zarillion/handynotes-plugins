@@ -1795,25 +1795,25 @@ end)
 
 map.nodes[56737039] = AncientStone({
     rewards = {Achievement({id = 17563, criteria = 58814})}
-}) -- PH 11
+}) -- In'bunata's Blessing
 
 map.nodes[08014565] = AncientStone({
     rewards = {Achievement({id = 17563, criteria = 58815})}
-}) -- PH 12
+}) -- A Solid Foundation
 
 map.nodes[66416102] = AncientStone({
     rewards = {Achievement({id = 17563, criteria = 58816})}
-}) -- PH 13
+}) -- Attention: Immediate Evactuation
 
 map.nodes[60324973] = AncientStone({
     note = L['in_small_cave'],
     rewards = {Achievement({id = 17563, criteria = 58817})},
     pois = {POI({60895007})} -- Entrance
-}) -- PH 14
+}) -- The Vow
 
 map.nodes[77403113] = AncientStone({
     rewards = {Achievement({id = 17563, criteria = 58818})}
-}) -- PH 15
+}) -- Valkros Maintenance
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
