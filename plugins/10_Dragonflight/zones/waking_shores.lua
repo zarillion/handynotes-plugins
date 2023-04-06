@@ -2302,25 +2302,25 @@ end)
 
 map.nodes[74165718] = AncientStone({
     rewards = {Achievement({id = 17561, criteria = 58804})}
-}) -- PH 01
+}) -- So Close. So Far
 
 map.nodes[24415338] = AncientStone({
     note = L['obsidian_throne_rare_note'],
     rewards = {Achievement({id = 17561, criteria = 58805})},
     pois = {POI({27146085})} -- Entrance
-}) -- PH 02
+}) -- One Small Part
 
 map.nodes[26185633] = AncientStone({
     rewards = {Achievement({id = 17561, criteria = 58806})}
-}) -- PH 03
+}) -- Neltharus Stands
 
 map.nodes[60716697] = AncientStone({
     rewards = {Achievement({id = 17561, criteria = 58807})}
-}) -- PH 04
+}) -- Welcoming the First
 
 map.nodes[51602005] = AncientStone({
     rewards = {Achievement({id = 17561, criteria = 58808})}
-}) -- PH 05
+}) -- Learn and Grow
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
