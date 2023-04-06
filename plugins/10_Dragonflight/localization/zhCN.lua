@@ -338,8 +338,16 @@ L['zskera_vaults_label'] = '兹斯克拉宝库'
 L['zskera_vaults_note'] = '从各种稀有物品和宝箱中收集 {item:202196}，打开 {location:兹斯克拉宝库} 内的大门。'
 L['door_buster_suffix'] = '使用兹斯克拉宝库钥匙解锁的门'
 
-L['broken_waygate_label'] = nil
-L['neltharions_toolkit_note'] = nil
+L['broken_waygate_label'] = '损坏的界门'
+L['neltharions_toolkit_note'] = [[1. 从 {location:兹斯克拉宝库} 中收集随机出现的 {item:204278}。
+
+2. 前往{location:觉醒海岸} 的 {location:焖燃栖地}。
+
+3. 在 {npc:193310} 旁边的洞穴中找到 {object:损坏的界门}。
+
+4. 修复 {object:损坏的界门}。{note:这可能需要点击几下。}
+
+5. 传送到 {location:兹斯克拉宝库} 内的隐藏房间。击杀 {npc:200375} 和 {npc:203639} 然后打开 {object:黑曜石大宝箱} 领取战利品！]]
 
 L['recipe_rat_note_1'] = '与 {location:兹斯克拉宝库} 中的 {npc:202982} 交谈，{item:202252} 会进入包内。'
 L['recipe_rat_note_2'] = '与 {item:202252} 互动以收到 {item:204340}。{note:（5分钟冷却时间）}'
@@ -685,11 +693,28 @@ L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = '显示 {spell:388945} 的位置和奖励。'
 
-L['phoenix_wishwing_note'] = nil
-L['phoenix_wishwing_talisman'] = nil
-L['phoenix_wishwing_phoenix_ember'] = nil
-L['phoenix_wishwing_sacred_ash'] = nil
-L['phoenix_wishwing_inert_ash'] = nil
-L['phoenix_wishwing_smoldering_ash'] = nil
-L['phoenix_wishwing_ash_feather'] = nil
-L['phoenix_wishwing_info'] = nil
+L['phoenix_wishwing_note'] = [[
+在获得 {item:199203} 后，{npc:196214} 将提供一个上缴任务，奖励 {item:193373}。
+要完成任务，将需要以下物品（可以按任何顺序获得这些物品）：
+]]
+L['phoenix_wishwing_talisman'] = [[
+%s {item:199203}
+
+这是位于 {location:阿兰卡峰林} 的 {npc:88045} {dot:Gold} 出售。如果 {npc:88045} 不在，完成任务 {quest:35010} 就能见到他。
+需要以下物品才能购买：]]
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\n从 {location:火焰之地时光漫游} 的 {npc:52530} 掉落'
+L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\可以在 {object:烹锅} 中找到，位于 {location:阿兰卡峰林} 附近。'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\n位于 {location:安戈洛环形山} {dot:Gray} 中心的 {npc:6520} 少量掉落。这些与 {npc:6521} 共享重生点（但不会掉落），因此请确保将两者都击杀。'
+L['phoenix_wishwing_smoldering_ash'] = [[
+%s {item:199080}
+
+在 {location:巨龙群岛} 刷各种凤凰 {dot:Yellow}，例如 {npc:181764} 或 {npc:195448}。
+这些大多位 于{location:觉醒海岸} 的 {location:黑曜堡垒} 周围。
+]]
+L['phoenix_wishwing_ash_feather'] = [[
+%s {item:202062}
+
+要查看羽毛，需要从 {location:觉醒海岸} 的 {location:黑曜王座} 的 {npc:189207} {dot:Green} 处购买 {item:199177}。
+使用这条项链并捡起位于 {location:燃烧高地} 和 {location:熔渣沼泽} 中的 {item:202062} {dot:Red}，它们在 {location:黑曜王座} 周围的区域。
+]]
+L['phoenix_wishwing_info'] = '这是位于 {location:巨龙群岛} 的 {location:觉醒海岸} 的 {item:193373} 收藏品的一部分。'

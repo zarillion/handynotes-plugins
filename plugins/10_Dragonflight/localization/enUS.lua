@@ -715,6 +715,6 @@ L['phoenix_wishwing_ash_feather'] = [[
 %s {item:202062}
 
 To see the Feathers you need to purchase the {item:199177} from {npc:189207} {dot:Green} in {location:The Waking Shores} at the {location:Obsidian Throne}.
-Use this necklace and pick up {item:202062} {dot:Red} found within the {location:Burning Ascent} and {location:Slagmire}, which are areas surrounding the {location:Obsidian Citadel}.
+Use this necklace and pick up {item:202062} {dot:Red} found within the {location:Burning Ascent} and {location:The Slagmire}, which are areas surrounding the {location:Obsidian Citadel}.
 ]]
 L['phoenix_wishwing_info'] = 'This is part of the {item:193373} Collectible located in {location:The Waking Shore} on the {location:Dragon Isles}.'
