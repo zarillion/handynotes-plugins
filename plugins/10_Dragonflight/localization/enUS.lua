@@ -231,10 +231,10 @@ Kill {npc:197183} inside and you will recieve {item:200528}.
 ]]
 
 L['gethdazr_note'] = [[
-Spawns as part of an event in {location:Imbu} that starts by blowing the {object:Great Horn of Imbu}({dot:Blue}).
+Spawns as part of an event in {location:Imbu} that starts by blowing the {object:Great Horn of Imbu} {dot:Blue}.
 The horn will only become clickable after killing the {npc:196155} which has about 30-60 minutes of respawn time.
 
-{npc:191143}({dot:Green}) and other NPCs will then fight their way from the north east entrance of {location:Imbu} up to the cliff where {npc:196165} will then spawn.
+{npc:191143} {dot:Green} and other NPCs will then fight their way from the north east entrance of {location:Imbu} up to the cliff where {npc:196165} will then spawn.
 The NPCs can die without help, which then will fail the event.
 
 This can be done solo but 2-3 players are recommended.
@@ -285,7 +285,7 @@ L['in_the_support_creche'] = 'Within {location:The Support Creche}.'
 L['in_the_war_creche'] = 'Deep within {location:The War Creche}'
 L['in_zskera_vaults'] = 'Within {location:Zskera Vaults}.'
 
-L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal from the poisonous gas within {location:The Support Creche}.'
+L['duzalgor_note'] = 'Collect a bottle of {spell:400751} {dot:Green} to heal from the poisonous gas within {location:The Support Creche}.'
 L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}'
 L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {spell:132653} and will run away when attacked.\n\n{note:Kill him quickly before he finishes casting {spell:406141}.}'
@@ -414,9 +414,9 @@ L['yennus_boat'] = 'Tuskarr Toy Boat'
 L['yennus_boat_note'] = 'Loot the {object:Tuskarr Toy Boat} to get {item:200876}. This starts the quest {quest:72063} which can be turned in at {npc:195252}.'
 
 L['forgotten_dragon_treasure_label'] = 'Forgotten Dragon Treasure'
-L['forgotten_dragon_treasure_step1'] = '1. Collect 5x {item:195884} from {object:Crystalline Flower}({dot:Green}) in western {location:Ohn\'ahran Plains}.'
-L['forgotten_dragon_treasure_step2'] = '2. Combine petals to create {item:195542} and visit the {object:Ancient Stone}({dot:Yellow}).'
-L['forgotten_dragon_treasure_step3'] = '3. Use the {item:195542} near the {object:Ancient Stone} to gain {spell:378935} which is a 20 second buff that allows you to follow the flower path to a cave ({dot:Blue}). Running over flowers increases the buff time to get to the {object:Emerald Chest}({dot:Blue}) and loot the {item:195041}.'
+L['forgotten_dragon_treasure_step1'] = '1. Collect 5x {item:195884} from {object:Crystalline Flower} {dot:Green} in western {location:Ohn\'ahran Plains}.'
+L['forgotten_dragon_treasure_step2'] = '2. Combine petals to create {item:195542} and visit the {object:Ancient Stone} {dot:Yellow}.'
+L['forgotten_dragon_treasure_step3'] = '3. Use the {item:195542} near the {object:Ancient Stone} to gain {spell:378935} which is a 20 second buff that allows you to follow the flower path to a cave {dot:Blue}. Running over flowers increases the buff time to get to the {object:Emerald Chest} {dot:Blue} and loot the {item:195041}.'
 L['forgotten_dragon_treasure_step4'] = 'Once you have the key, head to the {object:Forgotten Dragon Treasure} to open it and receive your Drakewatcher Manuscript.'
 L['fdt_crystalline_flower'] = 'Crystalline Flower'
 L['fdt_ancient_stone'] = 'Ancient Stone'
@@ -469,7 +469,7 @@ L['hunt_instructor_basku_note'] = 'Exchange {item:200093} for {faction:2503} rep
 L['elder_yusa_note'] = 'Target {npc:192818} and {emote:/hungry} to obtain the cooking recipe.'
 L['initiate_kittileg_note'] = 'Complete {quest:66226} to obtain the toy!'
 
-L['quackers_duck_trap_kit'] = 'To summon {npc:192557} you first need the {item:194740} which you can find in a nearby Clan Aylaag camp.{dot:Blue}\n\nTo make a {item:194712} you need the following materials:'
+L['quackers_duck_trap_kit'] = 'To summon {npc:192557} you first need the {item:194740} which you can find in a nearby Clan Aylaag camp {dot:Blue}.\n\nTo make a {item:194712} you need the following materials:'
 L['quackers_spawn'] = 'Next you need to catch a duck near the nest with the {item:194712}. Use the {item:194739} at the {npc:192581} to summon {npc:192557}.'
 
 L['knew_you_nokhud_do_it_note'] = '{note:All 3 items are unique and have a 30 minute timer.}\n\nCollect {item:200184}, {item:200194}, and {item:200196} from various {npc:185357s}, {npc:185353s}, and {npc:185168s} around {location:Nokhudon Hold}.\n\nCombine them to create {item:200201} and use it to speak with {npc:197884} to begin the training course.\n\nUse your |cFFFFFD00Extra Action Button|r to complete it and earn your achievement.\n\n{note:Completing the achievement while in a raid during an Elemental Storm makes farming the items much easier.}'
@@ -587,9 +587,9 @@ L['fullsails_supply_chest'] = 'Fullsails Supply Chest'
 L['hidden_hornswog_hoard_note'] = [[
 Collect three different items and combine them at the {object:"Observant Riddles: A Field Guide"} near the {npc:192362} to get {item:200063} and feed it. He will then move out of the way so you can loot his treasure.
 
-{item:200064}{dot:Yellow}
-{item:200065}{dot:Blue}
-{item:200066}{dot:White}
+{item:200064} {dot:Yellow}
+{item:200065} {dot:Blue}
+{item:200066} {dot:White}
 ]]
 
 L['pm_alch_grigori_vialtry'] = 'On a ledge overlooking {location:Flashfrost Assault}.'
