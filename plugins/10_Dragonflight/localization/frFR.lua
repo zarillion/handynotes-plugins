@@ -232,10 +232,10 @@ Tuez l'{npc:197183} à l'intérieur et vous recevrez le {item:200528}.
 ]]
 
 L['gethdazr_note'] = [[
-Apparaît lors d'un événement à {location:Imbou} qui commence en soufflant dans la {object:Grande corne d’Imbou}({dot:Blue}).
+Apparaît lors d'un événement à {location:Imbou} qui commence en soufflant dans la {object:Grande corne d’Imbou} {dot:Blue}.
 La corne ne devient cliquable qu'après avoir tué l'{npc:196155} qui a un temps de réapparition d'environ 30 à 60 minutes.
 
-{npc:191143}({dot:Green}) et d'autres PNJ se frayeront un chemin depuis l'entrée nord-est d'{location:Imbou} jusqu'à la falaise où {npc:196165} apparaîtra.
+{npc:191143} {dot:Green} et d'autres PNJ se frayeront un chemin depuis l'entrée nord-est d'{location:Imbou} jusqu'à la falaise où {npc:196165} apparaîtra.
 Les PNJ peuvent mourir sans aide, ce qui fera échouer l'événement.
 
 Cela peut être accompli en solo mais 2 ou 3 joueurs sont recommandés.
@@ -286,7 +286,7 @@ L['in_the_support_creche'] = 'À l\'intérieur du {location:Couvoir Auxiliaire}'
 L['in_the_war_creche'] = 'Au fond du {location:Couvoir Martial}'
 L['in_zskera_vaults'] = 'À l\'intérieur des {location:Caveaux de Zskera}'
 
-L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751}({dot:Green}) pour vous soigner du gaz toxique dans le {location:Couvoir Auxiliaire}.'
+L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751} {dot:Green} pour vous soigner du gaz toxique dans le {location:Couvoir Auxiliaire}.'
 L['mad_eye_carrey_note'] = '{npc:201181} se trouve dans un groupe avec la {npc:201184} et la {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} fait équipe avec {npc:201310}'
 L['loot_specialist_note'] = '{npc:203353} apparaît avec les sorts {spell:406143} et {spell:132653} et s\'enfuira s\'il est attaqué.\n\n{note:Tuez-le rapidement avant qu\'il ne finisse de lancer {spell:406141}.}'
@@ -415,9 +415,9 @@ L['yennus_boat'] = 'Bateau jouet rohart'
 L['yennus_boat_note'] = 'Récupérez le {object:Bateau jouet rohart} pour obtenir {item:200876}. Cela lance la quête {quest:72063} qui peut être rendue à {npc:195252}.'
 
 L['forgotten_dragon_treasure_label'] = 'Trésor draconique oublié'
-L['forgotten_dragon_treasure_step1'] = '1. Collectez 5x {item:195884} à partir des {object:Fleur cristalline}({dot:Green}) à l\'ouest des {location:Plaines d’Ohn’ahra}.'
-L['forgotten_dragon_treasure_step2'] = '2. Combinez les pétales pour créer un {item:195542} et rendez visite à la {object:Pierre ancienne}({dot:Yellow}).'
-L['forgotten_dragon_treasure_step3'] = '3. Utilisez l\'{item:195542} près de la {object:Pierre ancienne} pour obtenir {spell:378935} qui est un buff de 20 secondes qui vous permet de suivre le chemin des fleurs vers une grotte ({dot:Blue}). Marcher sur les fleurs augmente la durée du buff jusqu\'à arriver au {object:Coffre d\'émeraude}({dot:Blue}) et récupérez la {item:195041}.'
+L['forgotten_dragon_treasure_step1'] = '1. Collectez 5x {item:195884} à partir des {object:Fleur cristalline} {dot:Green} à l\'ouest des {location:Plaines d’Ohn’ahra}.'
+L['forgotten_dragon_treasure_step2'] = '2. Combinez les pétales pour créer un {item:195542} et rendez visite à la {object:Pierre ancienne} {dot:Yellow}.'
+L['forgotten_dragon_treasure_step3'] = '3. Utilisez l\'{item:195542} près de la {object:Pierre ancienne} pour obtenir {spell:378935} qui est un buff de 20 secondes qui vous permet de suivre le chemin des fleurs vers une grotte {dot:Blue}. Marcher sur les fleurs augmente la durée du buff jusqu\'à arriver au {object:Coffre d\'émeraude} {dot:Blue} et récupérez la {item:195041}.'
 L['forgotten_dragon_treasure_step4'] = 'Une fois que vous avez la clé, rendez-vous au {object:Trésor draconique oublié} pour l\'ouvrir et recevoir votre Manuscrit guette-drake.'
 L['fdt_crystalline_flower'] = 'Fleur cristalline'
 L['fdt_ancient_stone'] = 'Pierre ancienne'
@@ -470,7 +470,7 @@ L['hunt_instructor_basku_note'] = 'Échangez vos {item:200093} pour obtenir de l
 L['elder_yusa_note'] = 'Ciblez l\'{npc:192818} et utilisez l\'emote {emote:/faim} pour obtenir la recette de cuisine.'
 L['initiate_kittileg_note'] = 'Complétez {quest:66226} pour obtenir le jouet !'
 
-L['quackers_duck_trap_kit'] = 'Pour invoquer {npc:192557}, vous avez d\'abord besoin du {item:194740} que vous pouvez trouver dans un campement du {faction:Clan des Aylaags} voisin.{dot:Blue}\n\nPour faire un {item:194712}, vous avez besoin des matériaux suivants :'
+L['quackers_duck_trap_kit'] = 'Pour invoquer {npc:192557}, vous avez d\'abord besoin du {item:194740} que vous pouvez trouver dans un campement du Clan des Aylaags voisin {dot:Blue}.\n\nPour faire un {item:194712}, vous avez besoin des matériaux suivants :'
 L['quackers_spawn'] = 'Ensuite, vous devez attraper un canard près du nid avec le {item:194712}. Utilisez le {item:194739} au {npc:192581} pour invoquer {npc:192557}.'
 
 L['knew_you_nokhud_do_it_note'] = '{note:Les 3 objets sont uniques (vous ne pouvez en avoir qu\'un seul dans votre inventaire) et ont une durée de vie de 30 minutes.}\n\nRécupérez {item:200184}, {item:200194}, et {item:200196} sur les {npc:185357}, {npc:185353}, et {npc:185168} situés au {location:Bastion Nokhudon}.\n\nCombinez les 3 objets pour créer une {item:200201}, utilise-la et parlez à la {npc:197884} pour commencer le programme de formation.\n\nUtilisez votre {object:Bouton d\'action supplémentaire} pour terminer le cours et obtenir votre haut-fait.\n\n{note:Compléter ce haut-fait en étant dans un groupe de raid pendant une Tempête élémentaire rend l\'obtention des objets beaucoup plus facile.}'
@@ -588,9 +588,9 @@ L['fullsails_supply_chest'] = 'Clé de coffre de fournitures des Gréements'
 L['hidden_hornswog_hoard_note'] = [[
 Récupérez trois items différents et combinez-les à {object:"l\'Énigmes sagaces : un guide de poche"} près du {npc:192362} pour obtenir une {item:200063} et le nourrir. Elle s'écartera alors du chemin pour que vous puissiez récupérer son trésor.
 
-{item:200064}{dot:Yellow}
-{item:200065}{dot:Blue}
-{item:200066}{dot:White}
+{item:200064} {dot:Yellow}
+{item:200065} {dot:Blue}
+{item:200066} {dot:White}
 ]]
 
 L['pm_alch_grigori_vialtry'] = 'Sur une corniche surplombant l\'{location:Assaut de Givréclair}.'
