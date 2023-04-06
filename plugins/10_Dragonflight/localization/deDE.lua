@@ -691,11 +691,29 @@ L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = 'Zeigt die Position und Belohnungen der {spell:388945} an.'
 
-L['phoenix_wishwing_note'] = nil
-L['phoenix_wishwing_talisman'] = nil
-L['phoenix_wishwing_phoenix_ember'] = nil
-L['phoenix_wishwing_sacred_ash'] = nil
-L['phoenix_wishwing_inert_ash'] = nil
-L['phoenix_wishwing_smoldering_ash'] = nil
-L['phoenix_wishwing_ash_feather'] = nil
-L['phoenix_wishwing_info'] = nil
+L['phoenix_wishwing_note'] = [[
+Nachdem du den {item:199203} besorgt hast, bietet dir {npc:196214} eine Quest an, durch die du {item:193373} erhältst.
+Um die Quest abzuschließen, benötigst du die folgenden Gegenstände (du kannst sie in beliebiger Reihenfolge sammeln):
+]]
+L['phoenix_wishwing_talisman'] = [[
+%s {item:199203}
+
+Dieser wird von {npc:88045} {dot:Gold} in den {location:Spitzen von Arak} verkauft. Wenn {npc:88045} nicht anwesend ist, schließe die Quest {quest:35010} ab, um ihn zu sehen.
+Du brauchst folgende Gegenstände, um den Talisman zu kaufen:
+]]
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nDropt von {npc:52530} in den {location:Feuerlanden} während des Zeitwanderungsevents.'
+L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nKann in {object:Kochtöpfen}, in den {location:Spitzen von Arak}, gefunden werden.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nDropt selten von {npc:6520} in der mitte des {location:Un\'Goro Kraters} {dot:Gray}. Sie teilen sich den Spawnpunkt mit {npc:6521}, welche aber keine {item:199092} fallen lassen, also töte unbedingt beide.'
+L['phoenix_wishwing_smoldering_ash'] = [[
+%s {item:199080}
+
+Töte die verschiedenen Phönixe wie {npc:181764} oder {npc:195448} auf den {location:Dracheninseln}.
+Diese findet man meist in der Nähe der {Ort:Obsidianzitadelle} in {location:Küste des Erwachens}.
+]]
+L['phoenix_wishwing_ash_feather'] = [[
+%s {item:202062}
+
+Um die {object:Federn} zu sehen, musst du das {item:199177} von {npc:189207} am {Ort: Obsidianthron} kaufen {dot:Green}.
+Benutze die Halskette und sammle {item:202062} {dot:Red} die sich in der Umgebung der {Ort:Obsidianzitadelle} befinden.
+]]
+L['phoenix_wishwing_info'] = 'Dies ist teil des {item:193373} in {location:Küste des Erwachens} auf den {location:Dracheninseln}.'
