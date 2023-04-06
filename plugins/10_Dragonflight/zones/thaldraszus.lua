@@ -1613,32 +1613,32 @@ map.nodes[50594665] = GrandHunt({
 
 map.nodes[42767041] = AncientStone({
     rewards = {Achievement({id = 17564, criteria = 58819})}
-}) -- PH 16
+}) -- Mighty Ducks
 
 map.nodes[60058499] = AncientStone({
     rewards = {Achievement({id = 17564, criteria = 58820})}
-}) -- PH 17
+}) -- A Timely Message
 
 map.nodes[58155805] = AncientStone({
     rewards = {Achievement({id = 17564, criteria = 58821})}
-}) -- PH 18
+}) -- Keeper's Blessing
 
 map.nodes[52353873] = AncientStone({
     rewards = {Achievement({id = 17564, criteria = 58822})}
-}) -- PH 19
+}) -- Guardian Wings
 
 map.nodes[58396777] = AncientStone({
     rewards = {Achievement({id = 17564, criteria = 58823})}
-}) -- PH 20
+}) -- Together Bound
 
 map.nodes[62401592] = AncientStone({
     rewards = {Achievement({id = 17564, criteria = 58824})}
-}) -- PH 21
+}) -- Caretaker's Notes
 
 val.nodes[57048156] = AncientStone({
     parent = map.id,
     rewards = {Achievement({id = 17564, criteria = 58825})}
-}) -- PH 22
+}) -- Valdrakken
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
