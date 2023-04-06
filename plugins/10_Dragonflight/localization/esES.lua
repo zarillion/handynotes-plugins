@@ -232,10 +232,10 @@ Mata el {npc:197183} de dentro y recibirás la {item:200528}.
 ]]
 
 L['gethdazr_note'] = [[
-Aparece como parte de un evento en {location:Imbu} que empieza soplando el {object:Gran Cuerno de Imbu} ({dot:Blue}).
+Aparece como parte de un evento en {location:Imbu} que empieza soplando el {object:Gran Cuerno de Imbu} {dot:Blue}.
 Sólo se podrá hacer click en el cuerno después de matar al {npc:196155}, el cual tiene una reaparición de 30-60 minutos.
 
-Luego, {npc:191143} ({dot:Green}) y otros NPC se abrirán camino desde la entrada noreste de {location:Imbu} hasta donde aparece {npc:196165}.
+Luego, {npc:191143} {dot:Green} y otros NPC se abrirán camino desde la entrada noreste de {location:Imbu} hasta donde aparece {npc:196165}.
 Los NPC pueden morir si no reciben ayuda y hacer fallar el evento.
 
 Se puede hacer en solitario pero se recomiendan 2-3 jugadores.
@@ -286,7 +286,7 @@ L['in_the_support_creche'] = 'Dentro del {location:Nido de Apoyo}.'
 L['in_the_war_creche'] = 'En las profundidades de {location:El Nido Bélico}.'
 L['in_zskera_vaults'] = 'Dentro de las {location:Cámaras de Zskera}.'
 
-L['duzalgor_note'] = 'Coge un frasco de {spell:400751} ({dot:Green}) para sanarte del gas venenoso dentro de {location:The Support Creche}.'
+L['duzalgor_note'] = 'Coge un frasco de {spell:400751} {dot:Green} para sanarte del gas venenoso dentro de {location:The Support Creche}.'
 L['mad_eye_carrey_note'] = '{npc:201181} está en grupo con la {npc:201184} y la {npc:201182}.'
 L['wymslayer_angvardi_note'] = '{npc:201013} está acompañado por su montura {npc:201310}.'
 L['loot_specialist_note'] = '{npc:203353} aparece con {spell:406143} y {spell:132653} de principio. Huirá en cuanto sea atacado.\n\n{note:Mátalo rápidamente antes de que acabe de abrir un {spell:406141}.}'
@@ -415,9 +415,9 @@ L['yennus_boat'] = 'Barco de Juguete Colmillarr'
 L['yennus_boat_note'] = 'Despoja el {object:Barco de Juguete Colmillarr} para conseguir el {item:200876} con el cual comienza la misión {quest:72063} para devolvérselo a {npc:195252}.'
 
 L['forgotten_dragon_treasure_label'] = 'Tesoro de Dragón Olvidado'
-L['forgotten_dragon_treasure_step1'] = '1. Recoge 5x {item:195884} de las {object:Flor Cristalina} ({dot:Green}) al oeste de las {location:Llanuras de Ohn\'ahra}.'
-L['forgotten_dragon_treasure_step2'] = '2. Combina los pétalos para crear un {item:195542} y visita la {object:Piedra Antigua} ({dot:Yellow}).'
-L['forgotten_dragon_treasure_step3'] = '3. Usa el {item:195542} cerca de la {object:Piedra Antigua} para conseguir el buff de 20 segundos {spell:378935}. Éste permite seguir el camino de flores (corriendo sobre ellas para incrementar la duración del buff) que lleva a la cueva con el {object:Cofre Esmeralda} ({dot:Blue}) y despojar la {item:195041}.'
+L['forgotten_dragon_treasure_step1'] = '1. Recoge 5x {item:195884} de las {object:Flor Cristalina} {dot:Green} al oeste de las {location:Llanuras de Ohn\'ahra}.'
+L['forgotten_dragon_treasure_step2'] = '2. Combina los pétalos para crear un {item:195542} y visita la {object:Piedra Antigua} {dot:Yellow}.'
+L['forgotten_dragon_treasure_step3'] = '3. Usa el {item:195542} cerca de la {object:Piedra Antigua} para conseguir el buff de 20 segundos {spell:378935}. Éste permite seguir el camino de flores (corriendo sobre ellas para incrementar la duración del buff) que lleva a la cueva con el {object:Cofre Esmeralda} {dot:Blue} y despojar la {item:195041}.'
 L['forgotten_dragon_treasure_step4'] = 'Con la llave ves al {object:Tesoro de dragón olvidado} para abrirlo y conseguir tu personalización de draco.'
 L['fdt_crystalline_flower'] = 'Flor Cristalina'
 L['fdt_ancient_stone'] = 'Piedra Antigua'
@@ -470,7 +470,7 @@ L['hunt_instructor_basku_note'] = 'Entrega {item:200093} para conseguir reputaci
 L['elder_yusa_note'] = 'Selecciona a la {npc:192818} y teclea {emote:/hambre} para conseguir la receta de cocina.'
 L['initiate_kittileg_note'] = 'Completa la misión {quest:66226} para conseguir el juguete.'
 
-L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en el campamento cercano del {faction:Clan Aylaag}. {dot:Blue}\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
+L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en el campamento cercano del Clan Aylaag {dot:Blue}.\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
 L['quackers_spawn'] = 'Ahora necesitas pillar un pato cerca del nido con la {item:194712}. Después usa el {item:194739} en el {npc:192581} para invocar a {npc:192557}.'
 
 L['knew_you_nokhud_do_it_note'] = '{note:Los 3 objetos son únicos y dejan de existir tras 30 minutos.}\n\nConsigue {item:200184}, {item:200194}, y {item:200196} de varios {npc:185357}, {npc:185353}, o {npc:185168} alrededor de {location:Bastión Nokhudon}.\n\nCombínalos para crear el {item:200201} y úsalo para hablar con {npc:197884} para comenzar el circuito de entrenamiento.\n\nUsa tu {object:Botón de Acción Extra} para completarlo y conseguir el logro.\n\n{note:Completar el logro mientras estás en banda durante una Tormenta Elemental hace más fácil conseguir los objetos.}'
