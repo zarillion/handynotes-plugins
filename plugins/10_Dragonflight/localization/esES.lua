@@ -718,5 +718,4 @@ L['phoenix_wishwing_ash_feather'] = nil -- [[
 -- To see the Feathers you need to purchase the Ash Feather Amulet from Griftah in The Waking Shores at the Obsidian Throne.
 -- Use this necklace and pick up Ash Feather found within the Burning Ascent and Slagmire, which are areas surrounding the Obsidian Citadel.
 -- ]]
-L['phoenix_wishwing_ash_feather'] = nil
 L['phoenix_wishwing_info'] = nil
