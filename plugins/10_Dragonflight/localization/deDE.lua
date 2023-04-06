@@ -284,7 +284,7 @@ L['in_the_lost_atheneum'] = 'Im {location:Verlorenen Athenäum}.'
 L['in_the_siege_creche'] = 'Im {location:Belagerungshort}.'
 L['in_the_support_creche'] = 'Im {location:Unterstützungshort}.'
 L['in_the_war_creche'] = 'Tief im {location:Kriegshort}.'
-L['in_zskera_vaults'] = 'In den {location:Gewölben von Zskera}.'
+L['in_zskera_vaults'] = 'Im {location:Gewölbe von Zskera}.'
 
 L['duzalgor_note'] = 'Sammel eine Flasche {spell:400751}({dot:Green}), um dich von den giftigen Gasen in der Höhle zu heilen.'
 L['mad_eye_carrey_note'] = '{npc:201181} ist in einer Gruppe mit {npc:201184} und {npc:201182}'
@@ -335,18 +335,26 @@ L['options_icons_small_treasures'] = 'Kleine Schätze'
 L['options_icons_small_treasures_desc'] = 'Zeigt mögliche Positionen von kleinen Schätzen an.'
 
 L['zskera_vaults_label'] = 'Gewölbe von Zskera'
-L['zskera_vaults_note'] = 'Sammle {item:202196} von seltenen Gegnern und Schätzen, um Türen in den {location:Gewölben von Zskera} zu öffnen.'
+L['zskera_vaults_note'] = 'Sammle {item:202196} von seltenen Gegnern und Schätzen, um Türen im {location:Gewölbe von Zskera} zu öffnen.'
 L['door_buster_suffix'] = 'Türen geöffnet'
 
-L['broken_waygate_label'] = nil
-L['neltharions_toolkit_note'] = nil
+L['broken_waygate_label'] = 'Defektes Portal'
+L['neltharions_toolkit_note'] = [[
+1. Sammel {item:204278}, welches zufällig im {location:Gewölbe von Zskera} erscheint.
 
-L['recipe_rat_note_1'] = 'Sprich mit {npc:202982} in den {location:Gewölben von Zskera} und du erhältst {item:202252}.'
+2. Reise zum {location:Schwelender Horst} in {location:Die Küste des Erwachens}.
+
+3. Repariere {object:Defektes Portal} in der Höhle neben {npc:193310}.
+
+4. Teleportiere dich damit in einen geheimen Raum im {location:Gewölbe von Zskera}. Töte dort {npc:200375} und {npc:203639}, um die {object:Obsidian Grand Cache} für deine Beute öffnen zu können.
+]] -- TODO Obsidian Grand Cache
+
+L['recipe_rat_note_1'] = 'Sprich mit {npc:202982} im {location:Gewölbe von Zskera} und du erhältst {item:202252}.'
 L['recipe_rat_note_2'] = 'Interagiere mit {item:202252}, um {item:204340} zu erhalten. {note:(5 Minute Abklingzeit)}'
 L['recipe_rat_note_3'] = 'Wenn du 30x {item:204340} hast, kombiniere diese, um das Rattzept zu erhalten.'
 L['recipe_rat_note_4'] = '{note:Diese Ratte liebt Käse und wird etwa alle 3 Minuten einen {item:3927} verzehren. Plane entsprechend!}'
 
-L['mm_start_note'] = 'Sammle und kombiniere verschiedene Gegenstände aus den {location:Gewölben von Zskera}.'
+L['mm_start_note'] = 'Sammle und kombiniere verschiedene Gegenstände aus dem {location:Gewölbe von Zskera}.'
 L['mm_status_note'] = 'Kombiniere die folgenden Gegenstände:\n{item:%s}\n{item:%s}'
 
 L['options_icons_zskera_vaults'] = 'Gewölbe von Zskera'
@@ -362,7 +370,7 @@ L['vrykul_tome_label'] = 'Vrykulfoliant'
 L['library_note'] = 'Öffne {object:%s} und erhalte das Buch {item:%s}.'
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
-L['options_icons_librarian_of_the_reach_desc'] = 'Zeigt die Positionen der Bücher für den Erfolg {achievement:17530} an. {note:Einige Bücher befinden sich in den {location:Gewölben von Zskera}}.'
+L['options_icons_librarian_of_the_reach_desc'] = 'Zeigt die Positionen der Bücher für den Erfolg {achievement:17530} an. {note:Einige Bücher befinden sich im {location:Gewölbe von Zskera}}.'
 
 L['dracthyr_runestone_label'] = 'Runenstein der Dracthyr'
 L['scroll_hunter_suffix'] = 'Schätze mithilfe von versiegelten Schriftrollen gefunden'
