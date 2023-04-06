@@ -694,11 +694,28 @@ L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = 'Afficher les emplacements et les récompenses pour le {spell:388945}.'
 
-L['phoenix_wishwing_note'] = nil
-L['phoenix_wishwing_talisman'] = nil
-L['phoenix_wishwing_phoenix_ember'] = nil
-L['phoenix_wishwing_sacred_ash'] = nil
-L['phoenix_wishwing_inert_ash'] = nil
-L['phoenix_wishwing_smoldering_ash'] = nil
-L['phoenix_wishwing_ash_feather'] = nil
-L['phoenix_wishwing_info'] = nil
+L['phoenix_wishwing_note'] = [[
+Après avoir obtenu le {item:199203}, {npc:196214} proposera une quête de collecte qui donnera en récompense le {item:193373}.
+Pour terminer la quête, vous aurez besoin des objets suivants (vous pouvez les obtenir dans n'importe quel ordre) :
+]]
+L['phoenix_wishwing_talisman'] = [[
+%s {item:199203}
+
+Il est vendu par {npc:88045} {dot:Gold} aux {location:Flèches d’Arak}. Si {npc:88045} n'est pas présent, complétez la quête {quest:35010} pour pouvoir le voir.
+Vous avez besoin des objets suivants pour l'acheter :]]
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nRécupérée sur {npc:52530} aux {location:Terres de Feu} en mode {location:Marcheurs du temps}'
+L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nPeuvent être trouvées dans des {object:Marmites}, situées dans la zone des {location:Flèches d’Arak}.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nLâchées rarement sur les {npc:6520} au centre du {location:Cratère d’Un’Goro}{dot:Gray}. Ils partagent leurs points d\'apparition avec les {npc:6521} (qui ne donnent pas l\'objet), assurez-vous donc de tuer chaque sorte.'
+L['phoenix_wishwing_smoldering_ash'] = [[
+%s {item:199080}
+
+Tuez les différents Phénix {dot:Yellow} tels que les {npc:181764} ou les {npc:195448} présents sur les {location:Îles aux Dragons}.
+Vous les trouverez principalement aux alentours de la {location:Citadelle d’Obsidienne} aux {location:Rivages de l’Éveil}.
+]]
+L['phoenix_wishwing_ash_feather'] = [[
+%s {item:202062}
+
+Pour voir les Plumes, vous devez acheter l'{item:199177} à {npc:189207} {dot:Green} au {location:Trône d’Obsidienne} dans la zone des {location:Rivages de l’Éveil}.
+Utilisez cette amulette et ramassez des {item:202062} {dot:Red} trouvées à l'{localisation:Éminence Ardente} et au {localisation:Bourbier aux Scories}, qui sont des zones entourant la {location:Citadelle d’Obsidienne}.
+]]
+L['phoenix_wishwing_info'] = 'Ceci fait partie de de la méthode d\'obtention du {item:193373} situé aux {location:Rivages de l’Éveil} sur les {location:Îles aux Dragons}.'
