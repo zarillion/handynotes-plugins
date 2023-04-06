@@ -1011,7 +1011,6 @@ local ZSKERA_VAULTS_REWARDS = {
         id = 17413,
         criteria = {id = 1, qty = true, suffix = L['door_buster_suffix']}
     }), -- Door Buster
-    Spacer(), -- Drakewatcher Manuscript
     DC.RenewedProtoDrake.Antlers, -- Renewed Proto-Drake: Antlers
     Spacer(), -- Pets
     Pet({item = 193851, id = 3332}), -- Patos
