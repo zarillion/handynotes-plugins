@@ -207,7 +207,7 @@ L['snowclaw_cub_note_end'] = [[
 
 Una vez tengas equipado el título {title:Dríade Honoraria} ofrece los 4 objetos al {npc:196768} para recibir su mascota.
 
-{bug:(BUG: El título puede desaparecer y está pendiente de un fix.)}
+{note:Si pierdes el título antes de tiempo, puedes repetir la misión y adquirirlo de nuevo. Prueba de nuevo mañana o tras el siguiente mantenimiento semanal.}
 ]]
 
 L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interactuar con el libro {object:Tormentas de Maná para Principiantes} para completar la misión.'

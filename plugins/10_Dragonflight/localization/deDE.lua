@@ -201,7 +201,14 @@ L['snowman_note'] = 'Es liegen 3 Schneebälle in der Nähe (möglicherweise wurd
 L['snowclaw_cub_note_start'] = 'Du musst zunächst die Questreihe {quest:67094} von {npc:192522} in {location:Valdrakken} abschließen, um den Titel {title:Ehrendryade} zu erhalten.\n\nBesorge die folgenden Gegenstände:'
 L['snowclaw_cub_note_item1'] = 'Sammle 3x {item:197744} von verschiedenen {npc:182559n} in {location:Die Küste des Erwachens}.'
 L['snowclaw_cub_note_item2'] = 'Kaufe 1x {item:198356} von {npc:193310} in {location:Die Küste des Erwachens}.'
-L['snowclaw_cub_note_end'] = ns.color.Orange('Alle Gegenstände können im Auktionshaus ersteigert werden. Das ist besonders hilfreich, da du bei {npc:193310} den {item:198356} nur mit einer {item:199215} kaufen kannst.') .. '\n\nSobald du den Titel {title:Ehrendryade} angelegt hast, biete {npc:196768} die Gegenstände an, um dein Haustier zu erhalten.\n\n{bug:BUG: Der Titel könnte verschwinden.}'
+L['snowclaw_cub_note_end'] = [[
+{note:Alle Gegenstände können im Auktionshaus ersteigert werden. Das ist besonders hilfreich, da du bei {npc:193310} den {item:198356} nur mit einer {item:199215} kaufen kannst.}
+
+Sobald du den Titel {title:Ehrendryade} angelegt hast, biete {npc:196768} die Gegenstände an, um dein Haustier zu erhalten.
+
+{note:Sollte der Titel verschwinden, kannst du die Quest wiederholen, um ihn erneut zu erhalten.
+Versuche es morgen oder nach dem nächsten wöchentlichen Reset erneut.}
+]]
 
 L['tome_of_polymoph_duck'] = 'Benutze {spell:1953}, um in die Höhle zu gelangen und interagiere dann mit dem {object:Manastürmen für Anfänger} Buch, um die Quest abzuschließen.'
 
