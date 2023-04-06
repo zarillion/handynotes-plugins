@@ -1964,23 +1964,23 @@ map.nodes[34603468] = Collectible({
 
 map.nodes[43535649] = AncientStone({
     rewards = {Achievement({id = 17562, criteria = 58809})}
-}) -- PH 06
+}) -- The Gnoll Wars
 
 map.nodes[24756595] = AncientStone({
     rewards = {Achievement({id = 17562, criteria = 58810})}
-}) -- PH 07
+}) -- Your Dreamer
 
 map.nodes[32255134] = AncientStone({
     rewards = {Achievement({id = 17562, criteria = 58811})}
-}) -- PH 08
+}) -- Dreams in Emerald
 
 map.nodes[66994367] = AncientStone({
     rewards = {Achievement({id = 17562, criteria = 58812})}
-}) -- PH 09
+}) -- The First Kurnal
 
 map.nodes[38636670] = AncientStone({
     rewards = {Achievement({id = 17562, criteria = 58813})}
-}) -- PH 10
+}) -- Wind, Wood, Water
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
