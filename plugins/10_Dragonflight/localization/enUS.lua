@@ -554,7 +554,7 @@ L['brendormi_note_currency'] = 'You currently have %s {currency:2118}.'
 
 L['titan_chest'] = 'Titan Chest'
 L['options_icons_titan_chest'] = 'Titan Chest'
-L['options_icons_titan_chest_desc'] = 'Display possible locations of {object:TuskarrTackleboxes}.'
+L['options_icons_titan_chest_desc'] = 'Display possible locations of {object:Titan Chest}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

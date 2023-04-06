@@ -554,7 +554,7 @@ L['brendormi_note_currency'] = '当前有 %s {currency:2118}。'
 
 L['titan_chest'] = '泰坦箱子'
 L['options_icons_titan_chest'] = '泰坦箱子'
-L['options_icons_titan_chest_desc'] = nil
+L['options_icons_titan_chest_desc'] = '显示 {object:泰坦箱子} 可能的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
