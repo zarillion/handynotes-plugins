@@ -699,21 +699,21 @@ Después de conseguir el {item:199203}, {npc:196214} te ofrecerá una misión en
 Para acabar la misión, necesitarás los siguientes objetos (los puedes obtener en cualquier orden):
 ]]
 L['phoenix_wishwing_talisman'] = [[
-%sx {item:199203}
+%s {item:199203}
 
 Lo vende {npc:88045} {dot:Gold} en las {location:Cumbres de Arak}. Si {npc:88045} no está, completa la misión {quest:35010} para poder velo.
 Necesitarás los siguientes objetos para comprarlo:]]
-L['phoenix_wishwing_phoenix_ember'] = '%sx {item:199099}\nEs botín de {npc:52530} en el {location:Paseo en el tiempo: Tierras de Fuego}.'
-L['phoenix_wishwing_sacred_ash'] = '%sx {item:199097}\nSe pueden encontrar dentro de {object:Ollas}, alrededor de las {location:Cumbres de Arak}.'
-L['phoenix_wishwing_inert_ash'] = '%sx {item:199092}\nEs un botín raro de los {npc:6520} que hay en el centro del {location:Cráter de Un\'Goro} {dot:Gray}. Estos comparten punto de aparición (pero no su botín) con las {npc:6521}. Asegúrate de matar a todo.'
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nEs botín de {npc:52530} en el {location:Paseo en el tiempo: Tierras de Fuego}.'
+L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nSe pueden encontrar dentro de {object:Ollas}, alrededor de las {location:Cumbres de Arak}.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nEs un botín raro de los {npc:6520} que hay en el centro del {location:Cráter de Un\'Goro} {dot:Gray}. Estos comparten punto de aparición (pero no su botín) con las {npc:6521}. Asegúrate de matar a todo.'
 L['phoenix_wishwing_smoldering_ash'] = [[
-%sx {item:199080}
+%s {item:199080}
 
 Farmea varios tipos de {npc:Fénix} {dot:Yellow} como el {npc:181764} o el {npc:195448} que hay en las {location:Islas Dragón}.
 Estos se encuentran generalmente alrededor de la {location:Ciudadela Obsidiana} en las {location:Orillas del Despertar}.
 ]]
 L['phoenix_wishwing_ash_feather'] = [[
-%sx {item:202062}
+%s {item:202062}
 
 Para ver estas {object:Plumas} tendrás que comprar el {item:199177} a {npc:189207} {dot:Green} en las {location:Orillas del Despertar} junto al {location:Trono Obsidiana}.
 Usa el amuleto y coge las {item:202062} {dot:Red} que hay dentro del {location:Ascenso Ardiente} y de {location:Cienoescoria}, que son las zonas que rodean a la {location:Ciudadela Obsidiana}.
