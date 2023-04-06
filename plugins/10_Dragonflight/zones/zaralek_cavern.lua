@@ -521,15 +521,15 @@ map.nodes[51204665] = Dragonrace({
 
 map.nodes[43282372] = AncientStone({
     rewards = {Achievement({id = 17567, criteria = 58826})}
-}) -- PH 01
+}) -- Demanding Perfection
 
 map.nodes[61257181] = AncientStone({
     rewards = {Achievement({id = 17567, criteria = 58827})}
-}) -- PH 02
+}) -- Binding Oaths
 
 map.nodes[47384855] = AncientStone({
     rewards = {Achievement({id = 17567, criteria = 58828})}
-}) -- PH 03
+}) -- Primal Power
 
 -------------------------------------------------------------------------------
 -------------------------------- SNIFFEN SAGE ---------------------------------
