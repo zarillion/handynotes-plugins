@@ -17,6 +17,7 @@ local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
 local Transmog = ns.reward.Transmog
 
@@ -1460,31 +1461,27 @@ function ElementalStorm.getters:rewards()
     return {
         ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'],
         -- ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['all'],
-        ELEMENTAL_STORM_FORMULA_REWARDS['all'],
-        Spacer(), -- Thunderstorm Rewards
-        ns.reward.Section(L['elemental_storm_thunderstorm']),
+        ELEMENTAL_STORM_FORMULA_REWARDS['all'], Spacer(),
+        Section(L['elemental_storm_thunderstorm']), -- Thunderstorm Rewards
         getStormAchievement(self.mapID, 'thunderstorm'),
         ELEMENTAL_STORM_PET_REWARDS['thunderstorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['thunderstorm'],
-        ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm'],
-        Spacer(), -- Sandstorm Rewards
-        ns.reward.Section(L['elemental_storm_sandstorm']),
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm'], Spacer(),
+        Section(L['elemental_storm_sandstorm']), -- Sandstorm Rewards
         getStormAchievement(self.mapID, 'sandstorm'),
         ELEMENTAL_STORM_PET_REWARDS['sandstorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['sandstorm'],
-        ELEMENTAL_STORM_TRANSMOG_REWARDS['sandstorm'],
-        Spacer(), -- Firestorm Rewards
-        ns.reward.Section(L['elemental_storm_firestorm']),
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['sandstorm'], Spacer(),
+        Section(L['elemental_storm_firestorm']), -- Firestorm Rewards
         getStormAchievement(self.mapID, 'firestorm'),
         ELEMENTAL_STORM_PET_REWARDS['firestorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['firestorm'],
-        ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'],
-        Spacer(), -- Snowstorm Rewards
-        ns.reward.Section(L['elemental_storm_snowstorm']),
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'], Spacer(),
+        Section(L['elemental_storm_snowstorm']), -- Snowstorm Rewards
         getStormAchievement(self.mapID, 'snowstorm'),
         ELEMENTAL_STORM_PET_REWARDS['snowstorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['snowstorm'],
-        ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm'],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm']
     }
 end
 
