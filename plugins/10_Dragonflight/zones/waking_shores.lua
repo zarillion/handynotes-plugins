@@ -2465,9 +2465,9 @@ local TameMagmammoth = Class('TameMagmammoth', Collectible, {
     rewards = LOYAL_MAGMAMMOTH_REWARDS
 }) -- Tame Magmammoth
 
-map.nodes[33427207] = TameMagmammoth() -- Burning Ascent
+map.nodes[33427208] = TameMagmammoth() -- Burning Ascent
 map.nodes[23667144] = TameMagmammoth() -- Dragonbane Keep
-map.nodes[66342446] = TameMagmammoth() -- Scalecracker Keep
+map.nodes[66342447] = TameMagmammoth() -- Scalecracker Keep
 map.nodes[37104453] = TameMagmammoth() -- Smoldering Perch
 
 ------------------------------- PHOENIX WISHWING ------------------------------
