@@ -1400,26 +1400,31 @@ local ELEMENTAL_STORM_FORMULA_REWARDS = {
     }) -- Formula: Illusion: Primal Frost
 }
 
+local function prepTransmog(item, slot, note)
+    ns.PrepareLinks(note)
+    return Transmog({item = item, slot = slot, note = note})
+end
+
 local ELEMENTAL_STORM_TRANSMOG_REWARDS = {
     ['thunderstorm'] = {
-        Transmog({item = 200180, slot = L['staff'], note = '{npc:193653}'}), -- Crystallized Lightning Staff
-        Transmog({item = 200170, slot = L['bow'], note = '{npc:193647}'}), -- Stormbringer Bow
-        Transmog({item = 200136, slot = L['plate'], note = '{npc:193674}'}) -- Monsoonic Armguards
+        prepTransmog(200180, L['staff'], '{npc:193653}'), -- Crystallized Lightning Staff
+        prepTransmog(200170, L['bow'], '{npc:193647}'), -- Stormbringer Bow
+        prepTransmog(200136, L['plate'], '{npc:193674}') -- Monsoonic Armguards
     },
     ['sandstorm'] = {
-        Transmog({item = 200231, slot = L['offhand'], note = '{npc:193644}'}), -- Flaming Stonescale Bulwark
-        Transmog({item = 200145, slot = L['2h_sword'], note = '{npc:193652}'}) -- Hilted Monolith
+        prepTransmog(200231, L['offhand'], '{npc:193644}'), -- Flaming Stonescale Bulwark
+        prepTransmog(200145, L['2h_sword'], '{npc:193652}') -- Hilted Monolith
     },
     ['firestorm'] = {
-        Transmog({item = 200307, slot = L['1h_axe'], note = '{npc:193650}'}), -- Viciously Hooked Cleaver
-        Transmog({item = 200150, slot = L['1h_mace'], note = '{npc:193648}'}), -- Infernum's Furnace
-        Transmog({item = 200155, slot = L['shield'], note = '{npc:193675}'}), -- Haphazardly Welded Protector
-        Transmog({item = 200181, slot = L['1h_sword'], note = '{npc:193686}'}) -- Blade of Blazing Torment
+        prepTransmog(200307, L['1h_axe'], '{npc:193650}'), -- Viciously Hooked Cleaver
+        prepTransmog(200150, L['1h_mace'], '{npc:193648}'), -- Infernum's Furnace
+        prepTransmog(200155, L['shield'], '{npc:193675}'), -- Haphazardly Welded Protector
+        prepTransmog(200181, L['1h_sword'], '{npc:193686}') -- Blade of Blazing Torment
     },
     ['snowstorm'] = {
-        Transmog({item = 200301, slot = L['polearm'], note = '{npc:193645}'}), -- Reclaimed Tuskarr Harpoon
-        Transmog({item = 200311, slot = L['1h_mace'], note = '{npc:193655}'}), -- Bonespike Mallet
-        Transmog({item = 200250, slot = L['warglaive'], note = '{npc:193677}'}) -- Frost Tipped Glaive
+        prepTransmog(200301, L['polearm'], '{npc:193645}'), -- Reclaimed Tuskarr Harpoon
+        prepTransmog(200311, L['1h_mace'], '{npc:193655}'), -- Bonespike Mallet
+        prepTransmog(200250, L['warglaive'], '{npc:193677}') -- Frost Tipped Glaive
     }
 }
 
