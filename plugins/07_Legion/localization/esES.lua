@@ -166,6 +166,11 @@ L['options_icons_eredar_war_supplies_desc'] = 'Muestra dónde pueden estar los {
 L['trapper_jarrun_note'] = 'Reúne tus defensas, mortal.'
 L['robert_craig_note'] = '¡Azúzalas!'
 L['stormtalon_note'] = 'Intenta no matarlo de un disparo o no podrás montarte en él.'
+L['going_up_note'] = nil
+L['nameless_king_note'] = nil
+L['captain_brvet_note'] = nil
+L['mother_clacker_note'] = nil
+L['thane_irglov_note'] = nil
 
 L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
 L['forsaken_deathsquad'] = 'Escuadrón de la Muerte Renegado'

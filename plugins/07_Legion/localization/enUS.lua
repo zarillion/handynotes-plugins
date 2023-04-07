@@ -165,6 +165,11 @@ L['options_icons_eredar_war_supplies_desc'] = 'Display possible locations for {o
 L['trapper_jarrun_note'] = 'Muster your defenses mortal.'
 L['robert_craig_note'] = 'Sic \'em!'
 L['stormtalon_note'] = 'Try not to One-Shot him or you won\'t be able to mount him.'
+L['going_up_note'] = 'Ascend to the top of {location:Nashal\'s Watch} in {location:Stormheim}.' -- wowhead.com/achievement=10627
+L['nameless_king_note'] = 'Use the {object:Offering Shrine} to summon {npc:92763}.'
+L['captain_brvet_note'] = 'Use the {object:Horn of the Helmouth} to summon {npc:92685}.'
+L['mother_clacker_note'] = 'Speak to {npc:92343} and kill the {npc:92349s} to summon {npc:91780}.'
+L['thane_irglov_note'] = 'Defeat the champions to make him attackable.'
 
 L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
 L['forsaken_deathsquad'] = 'Forsaken Deathsquad'

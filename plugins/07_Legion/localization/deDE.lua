@@ -167,7 +167,12 @@ L['options_icons_eredar_war_supplies_desc'] = nil
 
 L['trapper_jarrun_note'] = 'Verteidigt Euch, sterbliches Wesen.'
 L['robert_craig_note'] = 'Fass!'
-L['stormtalon_note'] = 'Versuche ihn nicht mit einem Schlag zu töten, sonst kannst du ihn nicht mehr reiten.s'
+L['stormtalon_note'] = 'Versuche ihn nicht mit einem Schlag zu töten, sonst kannst du ihn nicht mehr reiten.'
+L['going_up_note'] =  'Erreicht die Spitze von {location:Nashals Wacht} in {location:Sturmheim}.'
+L['nameless_king_note'] = 'Benutze auf den {object:Opferschrein} damit {npc:92763} erscheint.'
+L['captain_brvet_note'] = 'Benutze das {object:Horn des Höllenschlunds} damit {npc:92685} erscheint.'
+L['mother_clacker_note'] = 'Sprich mit {npc:92343} und töte die {npc:92349n} damit {npc:91780} erscheint.'
+L['thane_irglov_note'] = 'Besiege die Champions um ihn angreifbar zu machen.'
 
 L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
 L['forsaken_deathsquad'] = 'Todesschwadron der Verlassenen'

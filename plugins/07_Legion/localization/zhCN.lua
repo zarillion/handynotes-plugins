@@ -168,6 +168,11 @@ L['options_icons_eredar_war_supplies_desc'] = '显示 {object:艾瑞达战争物
 L['trapper_jarrun_note'] = '保护好你自己吧，凡人。'
 L['robert_craig_note'] = '消灭他们！'
 L['stormtalon_note'] = '尽量不要一击必杀，否则将无法骑上他。'
+L['going_up_note'] = nil
+L['nameless_king_note'] = nil
+L['captain_brvet_note'] = nil
+L['mother_clacker_note'] = nil
+L['thane_irglov_note'] = nil
 
 L['hook_and_sinker'] = '{npc:92590} 与 {npc:92591}'
 L['forsaken_deathsquad'] = '被遗忘者敢死队'
