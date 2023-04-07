@@ -386,6 +386,7 @@ L['spellsworn_gateway'] = 'Spellsworn Gateway'
 L['gemstone_of_return'] = 'Gemstone of Return'
 
 L['morqut_village_vendor_note'] = 'Exchange {currency:2118} or gold for mounts, pets, transmog, drake customization, recipes and other useful items.'
+L['cataloger_daela_note'] = 'Purchase {item:204383} for 2000x {currency:2118} for a chance at {item:191915}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
