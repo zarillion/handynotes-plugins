@@ -1313,29 +1313,6 @@ local ELEMENTAL_STORM_MOB_ACHIVEMENTS = {
 }
 
 local ELEMENTAL_STORM_BOSS_ACHIEVEMENTS = {
-    -- ['all'] = Achievement({
-    --     id = 16461,
-    --     criteria = {
-    --         55461, -- Infernum
-    --         55462, -- Crystalus
-    --         55463, -- Bouldron
-    --         55464, -- Karantun
-    --         55465, -- Neela Firebane
-    --         55466, -- Rouen Icewind
-    --         55467, -- Zurgaz Corebreaker
-    --         55468, -- Pipspark Thundersnap
-    --         55469, -- Grizzlerock
-    --         55470, -- Voraazka
-    --         55471, -- Kain Firebrand
-    --         55472, -- Maeleera
-    --         55473, -- Fieraan
-    --         55474, -- Leerain
-    --         55475, -- Gaelzion
-    --         55476, -- Gravlion
-    --         55477, -- Emblazion
-    --         55478 -- Frozion
-    --     } -- Stormed Off
-    -- }),
     ['thunderstorm'] = Achievement({
         id = 16461,
         criteria = {55464, 55468, 55470, 55475}
@@ -1460,28 +1437,32 @@ function ElementalStorm.getters:rewards()
 
     return {
         ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'],
-        -- ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['all'],
-        ELEMENTAL_STORM_FORMULA_REWARDS['all'], Spacer(),
         Section(L['elemental_storm_thunderstorm']), -- Thunderstorm Rewards
         getStormAchievement(self.mapID, 'thunderstorm'),
+        ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['thunderstorm'],
         ELEMENTAL_STORM_PET_REWARDS['thunderstorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['thunderstorm'],
-        ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm'], Spacer(),
+        unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm']), Spacer(),
         Section(L['elemental_storm_sandstorm']), -- Sandstorm Rewards
         getStormAchievement(self.mapID, 'sandstorm'),
+        ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['sandstorm'],
         ELEMENTAL_STORM_PET_REWARDS['sandstorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['sandstorm'],
-        ELEMENTAL_STORM_TRANSMOG_REWARDS['sandstorm'], Spacer(),
+        unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS['sandstorm']), Spacer(),
         Section(L['elemental_storm_firestorm']), -- Firestorm Rewards
         getStormAchievement(self.mapID, 'firestorm'),
+        ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['firestorm'],
         ELEMENTAL_STORM_PET_REWARDS['firestorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['firestorm'],
-        ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'], Spacer(),
+        unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm']), Spacer(),
         Section(L['elemental_storm_snowstorm']), -- Snowstorm Rewards
         getStormAchievement(self.mapID, 'snowstorm'),
+        ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['snowstorm'],
         ELEMENTAL_STORM_PET_REWARDS['snowstorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['snowstorm'],
-        ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm']
+        unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm']),
+        Spacer(),
+        ELEMENTAL_STORM_FORMULA_REWARDS['all']
     }
 end
 
@@ -1496,18 +1477,19 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         if ELEMENTAL_STORM_MOB_ACHIVEMENTS[mapID] then -- check if current map has rewards
             if stormType and group:GetDisplay(mapID) then
                 local rewards = {
-                    ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], Achievement({
+                    ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], Spacer(),
+                    Achievement({
                         id = ELEMENTAL_STORM_MOB_ACHIVEMENTS[mapID][stormType],
                         criteria = {
                             id = 1,
                             qty = true,
                             suffix = L['empowered_mobs_killed_suffix']
                         }
-                    }), --
-                    ELEMENTAL_STORM_BOSS_ACHIEVEMENTS[stormType], Spacer(),
+                    }),
+                    ELEMENTAL_STORM_BOSS_ACHIEVEMENTS[stormType],
                     ELEMENTAL_STORM_PET_REWARDS[stormType],
                     ELEMENTAL_STORM_FORMULA_REWARDS['all'],
-                    ELEMENTAL_STORM_FORMULA_REWARDS[stormType], Spacer(),
+                    ELEMENTAL_STORM_FORMULA_REWARDS[stormType],
                     unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType])
                 }
                 GameTooltip:AddLine(' ')
