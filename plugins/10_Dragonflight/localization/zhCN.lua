@@ -385,7 +385,10 @@ L['options_icons_scalecommander_item_desc'] = '显示 {achievement:17315} 成就
 L['spellsworn_gateway'] = '法誓传送门'
 L['gemstone_of_return'] = '返回宝石'
 
-L['morqut_village_vendor_note'] = '用 {currency:2118} 或金币换取坐骑、宠物、幻化、幼龙定制、配方和其他有用的物品。'
+L['treysh_note'] = nil
+L['renown_envoy_label'] = nil
+L['renown_envoy_note'] = '用 {currency:2118} 或金币换取坐骑、宠物、幻化、幼龙定制、配方和其他有用的物品。' -- review new line
+L['trader_hagarth_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

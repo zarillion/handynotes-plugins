@@ -358,7 +358,10 @@ L['options_icons_scalecommander_item_desc'] = nil
 L['spellsworn_gateway'] = nil
 L['gemstone_of_return'] = nil
 
-L['morqut_village_vendor_note'] = nil
+L['treysh_note'] = nil
+L['renown_envoy_label'] = nil
+L['renown_envoy_note'] = nil
+L['trader_hagarth_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

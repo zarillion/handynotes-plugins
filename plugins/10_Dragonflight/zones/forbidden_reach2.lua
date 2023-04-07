@@ -23,6 +23,7 @@ local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -1414,14 +1415,11 @@ warCreche.nodes[65376249] = GemstoneOfReturn({
 
 --------------------------- MORQUT VILLAGE VENDORS ----------------------------
 
-local MorqutVillageVendor = Class('MorqutVillageVendor', Collectible, {
+map.nodes[35615948] = Collectible({
+    id = 200559,
     icon = 'peg_bl',
     scale = 1.3,
-    note = L['morqut_village_vendor_note']
-}) -- Morqut Village Vendor
-
-map.nodes[35615948] = MorqutVillageVendor({
-    id = 200559,
+    note = L['treysh_note'],
     rewards = {
         Transmog({item = 204562, slot = L['2h_mace']}), -- Maruuk Maul
         Transmog({item = 204563, slot = L['1h_mace']}), -- Morqut Club
@@ -1441,38 +1439,28 @@ map.nodes[35615948] = MorqutVillageVendor({
     }
 }) -- Treysh <Quartermaster>
 
-map.nodes[34325997] = MorqutVillageVendor({
-    id = 200566,
-    note = L['cataloger_daela_note'],
+map.nodes[34325997] = Collectible({
+    label = L['renown_envoy_label'],
+    icon = 'peg_bl',
+    scale = 1.3,
+    note = L['renown_envoy_note'],
     rewards = {
-        Pet({item = 191915, id = 3259}) -- Shaggy        
-    }
-}) -- Cataloger Daela <Renown Envoy>
-
-map.nodes[34216002] = MorqutVillageVendor({
-    id = 200562,
-    rewards = {
-        Pet({item = 193850, id = 3330, note = 'x25000'}) -- Buckie
-    }
-}) -- Turik <Renown Envoy>
-
-map.nodes[34075997] = MorqutVillageVendor({
-    id = 200564,
-    rewards = {
-        Mount({item = 204382, id = 1467, note = 'x100000'}) -- Noble Bruffalon
-    }
-}) -- Storykeeper Ashekh <Renown Envoy>
-
-map.nodes[34015980] = MorqutVillageVendor({
-    id = 200563,
-    rewards = {
+        Section('{id:200566}'), Pet({item = 191915, id = 3259}), -- Shaggy
+        Spacer(), Section('{id:200562}'),
+        Pet({item = 193850, id = 3330, note = 'x25000'}), -- Buckie
+        Spacer(), Section('{id:200564}'),
+        Mount({item = 204382, id = 1467, note = 'x100000'}), -- Noble Bruffalon
+        Spacer(), Section('{id:200563}'),
         DC.SetNote(DC.WindborneVelocidrake.ExposedFinnedNeck, 'x2500'),
         DC.SetNote(DC.HighlandDrake.TaperedNose, 'x2500')
     }
-}) -- Kraxxus <Renown Envoy>
+}) -- Cataloger Daela, Turik, Storykeeper Ashekh, and Kraxxus <Renown Envoys>
 
-map.nodes[35905744] = MorqutVillageVendor({
+map.nodes[35905744] = Collectible({
     id = 202445,
+    icon = 'peg_bl',
+    scale = 1.3,
+    note = L['trader_hagarth_note'],
     rewards = {
         Recipe({item = 203420, profession = 171}), -- Recipe: Draconic Suppression Powder
         Recipe({item = 203421, profession = 164}), -- Plans: Ancient Ceremonial Trident
@@ -1485,5 +1473,3 @@ map.nodes[35905744] = MorqutVillageVendor({
         Recipe({item = 203428, profession = 197}) -- Pattern: Traditional Morqut Kite
     }
 }) -- Trader Hag'arth <Artisan's Consortium Quartermaster>
-
--- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

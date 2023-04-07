@@ -386,7 +386,10 @@ L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos
 L['spellsworn_gateway'] = 'Portal Jurahechizos'
 L['gemstone_of_return'] = 'Gema de Retorno'
 
-L['morqut_village_vendor_note'] = 'Intercambia {currency:2118} u oro por monturas, mascotas, transfiguraciones, personalizaciones del draco, recetas y otros objetos útiles.'
+L['treysh_note'] = nil
+L['renown_envoy_label'] = nil
+L['renown_envoy_note'] = 'Intercambia {currency:2118} u oro por monturas, mascotas, transfiguraciones, personalizaciones del draco, recetas y otros objetos útiles.' -- review new line
+L['trader_hagarth_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
