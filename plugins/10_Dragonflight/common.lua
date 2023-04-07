@@ -1460,8 +1460,7 @@ function ElementalStorm.getters:rewards()
         ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['snowstorm'],
         ELEMENTAL_STORM_PET_REWARDS['snowstorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['snowstorm'],
-        unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm']),
-        Spacer(),
+        unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm']), Spacer(),
         ELEMENTAL_STORM_FORMULA_REWARDS['all']
     }
 end
@@ -1485,8 +1484,7 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
                             qty = true,
                             suffix = L['empowered_mobs_killed_suffix']
                         }
-                    }),
-                    ELEMENTAL_STORM_BOSS_ACHIEVEMENTS[stormType],
+                    }), ELEMENTAL_STORM_BOSS_ACHIEVEMENTS[stormType],
                     ELEMENTAL_STORM_PET_REWARDS[stormType],
                     ELEMENTAL_STORM_FORMULA_REWARDS['all'],
                     ELEMENTAL_STORM_FORMULA_REWARDS[stormType],
