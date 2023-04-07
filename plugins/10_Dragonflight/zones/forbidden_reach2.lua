@@ -1445,7 +1445,7 @@ map.nodes[34325997] = MorqutVillageVendor({
     id = 200566,
     note = L['cataloger_daela_note'],
     rewards = {
-        Pet({item = 191915, id = 3259)} -- Shaggy        
+        Pet({item = 191915, id = 3259}) -- Shaggy        
     }
 }) -- Cataloger Daela <Renown Envoy>
 
