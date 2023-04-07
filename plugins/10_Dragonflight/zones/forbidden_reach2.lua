@@ -1445,12 +1445,12 @@ map.nodes[34325997] = Collectible({
     scale = 1.3,
     note = L['renown_envoy_note'],
     rewards = {
-        Section('{id:200566}'), Pet({item = 191915, id = 3259}), -- Shaggy
-        Spacer(), Section('{id:200562}'),
+        Section('{npc:200566}'), Pet({item = 191915, id = 3259}), -- Shaggy
+        Spacer(), Section('{npc:200562}'),
         Pet({item = 193850, id = 3330, note = 'x25000'}), -- Buckie
-        Spacer(), Section('{id:200564}'),
+        Spacer(), Section('{npc:200564}'),
         Mount({item = 204382, id = 1467, note = 'x100000'}), -- Noble Bruffalon
-        Spacer(), Section('{id:200563}'),
+        Spacer(), Section('{npc:200563}'),
         DC.SetNote(DC.WindborneVelocidrake.ExposedFinnedNeck, 'x2500'),
         DC.SetNote(DC.HighlandDrake.TaperedNose, 'x2500')
     }
