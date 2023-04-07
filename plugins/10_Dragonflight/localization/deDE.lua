@@ -701,9 +701,9 @@ L['phoenix_wishwing_talisman'] = [[
 Dieser wird von {npc:88045} {dot:Gold} in den {location:Spitzen von Arak} verkauft. Wenn {npc:88045} nicht anwesend ist, schließe die Quest {quest:35010} ab, um ihn zu sehen.
 Du brauchst folgende Gegenstände, um den Talisman zu kaufen:
 ]]
-L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nDropt von {npc:52530} in den {location:Feuerlanden} während des Zeitwanderungsevents.'
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nWird von {npc:52530} in den {location:Feuerlanden} während des Zeitwanderungsevents fallen gelassen.'
 L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nKann in {object:Kochtöpfen}, in den {location:Spitzen von Arak}, gefunden werden.'
-L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nDropt selten von {npc:6520} in der mitte des {location:Un\'Goro Kraters} {dot:Gray}. Sie teilen sich den Spawnpunkt mit {npc:6521}, welche aber keine {item:199092} fallen lassen, also töte unbedingt beide.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nWird selten von {npc:6520} in der mitte des {location:Un\'Goro Kraters} {dot:Gray} falle gelassen. Sie teilen sich den Spawnpunkt mit {npc:6521}, welche aber keine {item:199092} fallen lassen, also töte unbedingt beide.'
 L['phoenix_wishwing_smoldering_ash'] = [[
 %s {item:199080}
 
