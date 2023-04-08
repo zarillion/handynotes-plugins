@@ -386,10 +386,10 @@ L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des obj
 L['spellsworn_gateway'] = 'Porte sorcelige'
 L['gemstone_of_return'] = 'Gemme de retour'
 
-L['treysh_note'] = nil
-L['renown_envoy_label'] = nil
-L['renown_envoy_note'] = 'Échangez de l\'or ou des {currency:2118} contre des montures, mascottes, objets de transmogrification, personnalisations de drake, recettes et d\'autres objets utiles.' -- review new line
-L['trader_hagarth_note'] = nil
+L['treysh_note'] = 'Échangez de l\'or ou des {currency:2118} contre des objets de transmogrification, de l\'équipement et des montures.'
+L['renown_envoy_label'] = 'Émissaires de renom'
+L['renown_envoy_note'] = 'Échangez de l\'or ou des {currency:2118} contre des montures, mascottes, objets de transmogrification, personnalisations de drake, recettes et d\'autres objets utiles.\n\nAchetez des {item:204383} à l\'{npc:200566} pour 2000x {currency:2118} avec une chance d\'obtenir {item:191915}.'
+L['trader_hagarth_note'] = 'Échangez vos {item:190456} contre des recettes de Bibelots d\'Artisanat.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
