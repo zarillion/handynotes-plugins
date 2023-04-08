@@ -166,11 +166,11 @@ L['options_icons_eredar_war_supplies_desc'] = 'Muestra dónde pueden estar los {
 L['trapper_jarrun_note'] = 'Reúne tus defensas, mortal.'
 L['robert_craig_note'] = '¡Azúzalas!'
 L['stormtalon_note'] = 'Intenta no matarlo de un disparo o no podrás montarte en él.'
-L['going_up_note'] = nil
-L['nameless_king_note'] = nil
-L['captain_brvet_note'] = nil
-L['mother_clacker_note'] = nil
-L['thane_irglov_note'] = nil
+L['going_up_note'] = 'Sube a lo alto de la {location:Atalaya de Nashal} en {location:Tormenheim}.'
+L['nameless_king_note'] = 'Usa el {object:Cuenco para Ofrendas} para invocar a {npc:92763}.'
+L['captain_brvet_note'] = 'Use el {object:Cuerno Boca Infernal} para invocar al {npc:92685}.'
+L['mother_clacker_note'] = 'Habla con el {npc:92343} y mata a los {npc:92349} para invocar a la {npc:91780}.'
+L['thane_irglov_note'] = 'Derrota a los campeones para poder atacar al {npc:91892}.'
 
 L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
 L['forsaken_deathsquad'] = 'Escuadrón de la Muerte Renegado'
