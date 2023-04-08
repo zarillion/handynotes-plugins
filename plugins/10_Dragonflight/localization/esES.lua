@@ -386,10 +386,10 @@ L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos
 L['spellsworn_gateway'] = 'Portal Jurahechizos'
 L['gemstone_of_return'] = 'Gema de Retorno'
 
-L['treysh_note'] = nil
-L['renown_envoy_label'] = nil
-L['renown_envoy_note'] = 'Intercambia {currency:2118} u oro por monturas, mascotas, transfiguraciones, personalizaciones del draco, recetas y otros objetos útiles.' -- review new line
-L['trader_hagarth_note'] = nil
+L['treysh_note'] = 'Intercambia {currency:2118} u oro por transfiguraciones, equipo y monturas.'
+L['renown_envoy_label'] = 'Enviado de Renombre'
+L['renown_envoy_note'] = 'Intercambia {currency:2118} u oro por monturas, mascotas, transfiguraciones, personalizaciones del draco, recetas y otros objetos útiles.\n\nCompra el {item:204383} a la {npc:200566} por 2000x {currency:2118} para un intento de conseguir a {item:191915}.'
+L['trader_hagarth_note'] = 'Intercambia {item:190456} for recetas de Bibelot del Artesano.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
