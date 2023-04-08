@@ -385,10 +385,10 @@ L['options_icons_scalecommander_item_desc'] = '显示 {achievement:17315} 成就
 L['spellsworn_gateway'] = '法誓传送门'
 L['gemstone_of_return'] = '返回宝石'
 
-L['treysh_note'] = nil
-L['renown_envoy_label'] = nil
-L['renown_envoy_note'] = '用 {currency:2118} 或金币换取坐骑、宠物、幻化、幼龙定制、配方和其他有用的物品。' -- review new line
-L['trader_hagarth_note'] = nil
+L['treysh_note'] = '用 {currency:2118} 或金币兑换幻化装备和坐骑。'
+L['renown_envoy_label'] = '名望特使'
+L['renown_envoy_note'] = '用 {currency:2118} 或金币换取坐骑、宠物、幻化、幼龙定制、配方和其他有用的物品。\n\n从 {npc:200566} 以2000 {currency:2118} 的价格购买 {item:204383} 就有机会获得 {item:191915}。'
+L['trader_hagarth_note'] = '将 {item:190456} 换成匠人珍玩配方。'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
