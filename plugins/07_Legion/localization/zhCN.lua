@@ -168,11 +168,11 @@ L['options_icons_eredar_war_supplies_desc'] = '显示 {object:艾瑞达战争物
 L['trapper_jarrun_note'] = '保护好你自己吧，凡人。'
 L['robert_craig_note'] = '消灭他们！'
 L['stormtalon_note'] = '尽量不要一击必杀，否则将无法骑上他。'
-L['going_up_note'] = nil
-L['nameless_king_note'] = nil
-L['captain_brvet_note'] = nil
-L['mother_clacker_note'] = nil
-L['thane_irglov_note'] = nil
+L['going_up_note'] = '登上位于 {location:风暴峡湾} 的 {location:纳沙尔岗哨} 的顶端。' -- wowhead.com/achievement=10627
+L['nameless_king_note'] = '使用 {object:祭坛} 召唤 {npc:92763}。'
+L['captain_brvet_note'] = '使用 {object:冥口号角} 召唤 {npc:92685}。'
+L['mother_clacker_note'] = '与 {npc:92343} 交谈并击杀 {npc:92349} 召唤 {npc:91780}。'
+L['thane_irglov_note'] = '击败勇士使他可被攻击。'
 
 L['hook_and_sinker'] = '{npc:92590} 与 {npc:92591}'
 L['forsaken_deathsquad'] = '被遗忘者敢死队'
