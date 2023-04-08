@@ -164,6 +164,8 @@ L['options_icons_eredar_war_supplies_desc'] = nil
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
 -------------------------------------------------------------------------------
+L['to_stormheim'] = 'Portal nach Sturmheim'
+L['to_helheim'] = 'Portal nach Helheim'
 
 L['trapper_jarrun_note'] = 'Verteidigt Euch, sterbliches Wesen.'
 L['robert_craig_note'] = 'Fass!'
