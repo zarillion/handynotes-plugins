@@ -385,7 +385,7 @@ L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achie
 L['spellsworn_gateway'] = 'Spellsworn Gateway'
 L['gemstone_of_return'] = 'Gemstone of Return'
 
-L['treysh_note'] = 'Exchange {currency:2118} or gold for transmog gear and mounts.'
+L['treysh_note'] = 'Exchange {currency:2118} or gold for transmog, gear and mounts.'
 L['renown_envoy_label'] = 'Renown Envoys'
 L['renown_envoy_note'] = 'Exchange {currency:2118} or gold for mounts, pets, transmog, drake customization, recipes and other useful items.\n\nPurchase {item:204383} from {npc:200566} for 2000x {currency:2118} for a chance at {item:191915}.'
 L['trader_hagarth_note'] = 'Exchange {item:190456} for Artisan Curio recipes.'
