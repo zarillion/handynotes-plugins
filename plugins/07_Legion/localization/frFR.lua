@@ -166,11 +166,11 @@ L['options_icons_eredar_war_supplies_desc'] = 'Afficher les emplacements possibl
 L['trapper_jarrun_note'] = 'Rassemblez vos défenses, mortel.'
 L['robert_craig_note'] = 'Attrapez-les !'
 L['stormtalon_note'] = 'Évitez de le tuer en un seul coup, sinon vous ne pourrez pas le chevaucher.'
-L['going_up_note'] = nil
-L['nameless_king_note'] = nil
-L['captain_brvet_note'] = nil
-L['mother_clacker_note'] = nil
-L['thane_irglov_note'] = nil
+L['going_up_note'] = 'Atteindre le sommet du {location:Guet de Nashal} en {location:Tornheim}.'
+L['nameless_king_note'] = 'Utilisez le {object:Sanctuaire à offrandes} pour invoquer {npc:92763}.'
+L['captain_brvet_note'] = 'Utilisez la {object:Cor de l’embouchure de Hel} pour invoquer le {npc:92685}.'
+L['mother_clacker_note'] = 'Parlez au {npc:92343} et tuez les {npc:92349} pour invoquer la {npc:91780}.'
+L['thane_irglov_note'] = 'Battez les champions pour qu\'il devienne attaquable.'
 
 L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
 L['forsaken_deathsquad'] = 'Escadron de la mort réprouvé'
