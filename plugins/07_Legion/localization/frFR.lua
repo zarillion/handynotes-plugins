@@ -94,6 +94,9 @@ L['bringing_home_the_beacon_note'] = 'Tant que vous serez sous le {npc:127264}, 
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
 L['options_icons_bringing_home_the_beacon_desc'] = 'Afficher les emplacements du {npc:127264} pour le haut-fait {achievement:11802}'
 
+L['hidden_wyrmtongue_cache_label'] = nil
+L['in_horde_ship'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
 -------------------------------------------------------------------------------
@@ -244,3 +247,5 @@ L['general_pet_tamer_note'] = '{note:Apparaît uniquement lorsque l\'expédition
 
 L['options_icons_safari'] = '{achievement:11233}'
 L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:11233}.'
+
+L['change_map'] = 'Changer la carte'

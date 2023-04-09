@@ -94,6 +94,9 @@ L['bringing_home_the_beacon_note'] = 'Mientras estés bajo el {npc:127264}, tend
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
 L['options_icons_bringing_home_the_beacon_desc'] = 'Muestra dónde aparece el {npc:127264} para el logro {achievement:11802}.'
 
+L['hidden_wyrmtongue_cache_label'] = nil
+L['in_horde_ship'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
 -------------------------------------------------------------------------------
@@ -244,3 +247,5 @@ L['general_pet_tamer_note'] = '{note:Sólo aparece cuando la misión del mundo p
 
 L['options_icons_safari'] = '{achievement:11233}'
 L['options_icons_safari_desc'] = 'Muestra dónde están  las mascotas de combate para el logro {achievement:11233}.'
+
+L['change_map'] = 'Cambiar mapa'

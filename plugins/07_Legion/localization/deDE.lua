@@ -92,10 +92,17 @@ L['options_icons_higher_dimensional_learning_desc'] = 'Zeigt die Position der Ka
 -------------------------------- BROKEN SHORE ---------------------------------
 -------------------------------------------------------------------------------
 
-L['bringing_home_the_beacon_note'] = nil
+L['bringing_home_the_beacon_note'] = [[
+Während du unter {npc:127264} stehst, erhältst du den Zauber {spell:240640}.
+
+Töte Dämonen, um verschiedene |cFFFFFD00Sentinaxsignale|r zu plündern.
+]]
 
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
 L['options_icons_bringing_home_the_beacon_desc'] = nil
+
+L['hidden_wyrmtongue_cache_label'] = 'Verborgene Wyrmzungentruhe'
+L['in_horde_ship'] = 'Im abgestürzten Horde Luftschiff.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
@@ -246,3 +253,5 @@ L['general_pet_tamer_note'] = '{note:Erscheint nur, wenn die entsprechende Weltq
 
 L['options_icons_safari'] = '{achievement:11233}'
 L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:11233} an.'
+
+L['change_map'] = 'Karte wechseln'

@@ -93,6 +93,9 @@ L['bringing_home_the_beacon_note'] = '{npc:127264} 下面，你将有 {spell:240
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
 L['options_icons_bringing_home_the_beacon_desc'] = '显示 {achievement:11802} 成就中 {npc:127264} 的位置。'
 
+L['hidden_wyrmtongue_cache_label'] = nil
+L['in_horde_ship'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
 -------------------------------------------------------------------------------
@@ -246,3 +249,5 @@ L['general_pet_tamer_note'] = '{note:相对应的世界任务激活时才会出�
 
 L['options_icons_safari'] = '{achievement:11233}'
 L['options_icons_safari_desc'] = '显示 {achievement:11233} 成就中战斗宠物的位置。'
+
+L['change_map'] = '更改地图'
