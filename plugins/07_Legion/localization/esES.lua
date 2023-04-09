@@ -94,8 +94,8 @@ L['bringing_home_the_beacon_note'] = 'Mientras estés bajo el {npc:127264}, tend
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
 L['options_icons_bringing_home_the_beacon_desc'] = 'Muestra dónde aparece el {npc:127264} para el logro {achievement:11802}.'
 
-L['hidden_wyrmtongue_cache_label'] = nil
-L['in_horde_ship'] = nil
+L['hidden_wyrmtongue_cache_label'] = 'Alijo Oculto de Lenguavermis'
+L['in_horde_ship'] = 'En la nave Horda estrellada.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
