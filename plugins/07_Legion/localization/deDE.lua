@@ -99,7 +99,7 @@ Töte Dämonen, um verschiedene |cFFFFFD00Sentinaxsignale|r zu plündern.
 ]]
 
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
-L['options_icons_bringing_home_the_beacon_desc'] = nil
+L['options_icons_bringing_home_the_beacon_desc'] = 'Zeigt {npc:127264} orte für den Erfolg {achievement:11802}.'
 
 L['hidden_wyrmtongue_cache_label'] = 'Verborgene Wyrmzungentruhe'
 L['in_horde_ship'] = 'Im abgestürzten Horde Luftschiff.'

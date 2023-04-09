@@ -8,7 +8,6 @@ local L = ns.locale
 
 local Collectible = ns.node.Collectible
 local Rare = ns.node.Rare
-local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 

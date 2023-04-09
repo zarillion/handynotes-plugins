@@ -91,7 +91,7 @@ L['options_icons_higher_dimensional_learning_desc'] = 'Display book locations fo
 L['bringing_home_the_beacon_note'] = 'While under {npc:127264}, you will be buffed with {spell:240640}.\n\nKill demons to loot various |cFFFFFD00Sentinax Beacons|r.'
 
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
-L['options_icons_bringing_home_the_beacon_desc'] = 'Zeigt {npc:127264} orte für den Erfolg {achievement:11802}.'
+L['options_icons_bringing_home_the_beacon_desc'] = 'Display {npc:127264} locations for {achievement:11802}'
 
 L['hidden_wyrmtongue_cache_label'] = 'Hidden Wyrmtongue Cache'
 L['in_horde_ship'] = 'In the crashed Horde airship.'

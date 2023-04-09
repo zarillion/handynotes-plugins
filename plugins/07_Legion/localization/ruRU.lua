@@ -3,7 +3,7 @@ local ADDON_NAME, ns = ...
 local L = ns.NewLocale('ruRU')
 if not L then return end
 
-local Gold = ns.color.Gold
+-- local Gold = ns.color.Gold
 
 -------------------------------------------------------------------------------
 ------------------------------- ANTORAN WASTES --------------------------------
@@ -102,7 +102,7 @@ L['in_horde_ship'] = nil
 -------------------------------------------------------------------------------
 
 -- Midnight tz per region: US=>PST, KR=>KST, EU=>CET, TW=>CST, CN=>CST
-local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()]
+-- local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()]
 
 L['sheddles_chest'] = nil
 L['shoe_shine_kit_note'] = nil
