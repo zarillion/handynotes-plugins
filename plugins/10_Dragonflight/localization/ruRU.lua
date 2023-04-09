@@ -697,11 +697,28 @@ L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = 'Отображение локации и наград за {spell:388945}.'
 
-L['phoenix_wishwing_note'] = nil
-L['phoenix_wishwing_talisman'] = nil
-L['phoenix_wishwing_phoenix_ember'] = nil
-L['phoenix_wishwing_sacred_ash'] = nil
-L['phoenix_wishwing_inert_ash'] = nil
-L['phoenix_wishwing_smoldering_ash'] = nil
-L['phoenix_wishwing_ash_feather'] = nil
-L['phoenix_wishwing_info'] = nil
+L['phoenix_wishwing_note'] = [[
+После получения {item:199203}, {npc:196214} предложит выполнить задание, за которое вы получите {item:193373}.
+Чтобы завершить задание, вам понадобятся следующие предметы (вы можете получить их в любом порядке):
+]]
+L['phoenix_wishwing_talisman'] = [[
+%s {item:199203}
+
+Продается у {npc:88045} {dot:Gold} в {location:Пиках Арака}. Если {npc:88045} отсутствует, выполните задание {quest:35010}, чтобы увидеть его.
+Вам нужны следующие предметы, чтобы купить:]]
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nВыпадает из {npc:52530} в {location:Огненных Просторах в режиме Путешествия во времени}'
+L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nМожно найти в {object:Кучках пепла}, в {location:Пиках Арака}.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nРедко падает с {npc:6520} в центре {location:Кратера Ун\'Горо} {dot:Gray}. Они имеют общие точки возрождения с {npc:6521} (но не выпадают из них), поэтому убедитесь, что вы убили обоих.'
+L['phoenix_wishwing_smoldering_ash'] = [[
+%s {item:199080}
+
+Убивайте различных {npc:фениксов} {dot:Yellow}, таких как {npc:181764} или {npc:195448}, найденных на {location:Драконьих Островах}.
+В основном их можно найти вокруг {location:Обсидиановой Цитадели} на {location:Берегах Пробуждения}.
+]]
+L['phoenix_wishwing_ash_feather'] = [[
+%s {item:202062}
+
+Чтобы увидеть {object:Пепельные перья}, вам нужно купить {item:199177} у {npc:189207} {dot:Green} на {location:Берегах Пробуждения} в местности {location:Обсидиановый трон}.
+Используйте это ожерелье и собирайте {item:202062} {dot:Red}, их можно найти на {location:Подъеме Пламени} и {location:Шлаковой топи}, которые являются областями, окружающими {location:Обсидиановую Цитадель}.
+]]
+L['phoenix_wishwing_info'] = 'This is part of the {item:193373} Collectible located in {location:The Waking Shore} on the {location:Dragon Isles}.'
