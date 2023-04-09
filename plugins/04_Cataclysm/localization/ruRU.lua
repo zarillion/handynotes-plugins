@@ -30,6 +30,7 @@ L['hyjal_phase4_note'] = nil
 L['hyjal_phase5_note'] = nil
 
 L['portal_molten_front'] = nil
+L['portal_mount_hyjal'] = nil
 
 L['spider_hill_note'] = nil
 

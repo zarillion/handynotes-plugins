@@ -37,6 +37,7 @@ L['hyjal_phase4_note'] = [[
 L['hyjal_phase5_note'] = '要进入阶段5，需要完成 {quest:29215} 和 {quest:29182}。' -- review
 
 L['portal_molten_front'] = '熔火前线传送门'
+L['portal_mount_hyjal'] = '海加尔山传送门'
 
 L['spider_hill_note'] = [[
 到达 {location:寡妇之巢} 的最高点。

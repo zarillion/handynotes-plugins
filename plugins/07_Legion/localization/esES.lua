@@ -230,6 +230,7 @@ L['durian_strongfruit_note'] = 'Si es necesario.'
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
+L['change_map'] = 'Cambiar mapa'
 
 L['in_house'] = 'Dentro de la casa.'
 L['in_small_cottage'] = 'En una casita pequeña.'
