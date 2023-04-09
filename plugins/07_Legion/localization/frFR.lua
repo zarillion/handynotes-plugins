@@ -94,8 +94,8 @@ L['bringing_home_the_beacon_note'] = 'Tant que vous serez sous le {npc:127264}, 
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
 L['options_icons_bringing_home_the_beacon_desc'] = 'Afficher les emplacements du {npc:127264} pour le haut-fait {achievement:11802}'
 
-L['hidden_wyrmtongue_cache_label'] = nil
-L['in_horde_ship'] = nil
+L['hidden_wyrmtongue_cache_label'] = 'Cache de langue-de-wyrm dissimulée'
+L['in_horde_ship'] = 'Dans le dirigeable de la Horde accidenté.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
