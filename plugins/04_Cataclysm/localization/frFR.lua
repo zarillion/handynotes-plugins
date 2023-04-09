@@ -37,8 +37,8 @@ Vous gagnez des {currency:416} grâce aux quêtes journalières.
 ]]
 L['hyjal_phase5_note'] = 'Pour passer à la phase 5, vous devez terminer {quest:29215} et {quest:29182}.'
 
-L['portal_molten_front'] = 'Portail vers le Front du Magma'
-L['portal_mount_hyjal'] = nil
+L['portal_molten_front'] = 'Portail vers le {location:Front du Magma}'
+L['portal_mount_hyjal'] = 'Portail vers le {location:Mont Hyjal}'
 
 L['spider_hill_note'] = [[
 Atteignez le point le plus haut du {location:Nid de la veuve}.
