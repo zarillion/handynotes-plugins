@@ -162,8 +162,8 @@ L['options_icons_eredar_war_supplies_desc'] = 'Muestra dónde pueden estar los {
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
 -------------------------------------------------------------------------------
-L['to_stormheim'] = 'Portal a {location:Tormenheim}'
-L['to_helheim'] = 'Portal a {location:Helheim}'
+L['to_stormheim'] = 'Portal a Tormenheim'
+L['to_helheim'] = 'Portal a Helheim'
 
 L['trapper_jarrun_note'] = 'Reúne tus defensas, mortal.'
 L['robert_craig_note'] = '¡Azúzalas!'
