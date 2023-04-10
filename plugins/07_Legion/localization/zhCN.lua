@@ -93,8 +93,8 @@ L['bringing_home_the_beacon_note'] = '{npc:127264} 下面，你将有 {spell:240
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
 L['options_icons_bringing_home_the_beacon_desc'] = '显示 {achievement:11802} 成就中 {npc:127264} 的位置。'
 
-L['hidden_wyrmtongue_cache_label'] = nil
-L['in_horde_ship'] = nil
+L['hidden_wyrmtongue_cache_label'] = '隐藏的虫语者箱子'
+L['in_horde_ship'] = '在坠毁的部落飞艇中。'
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
