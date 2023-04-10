@@ -20,6 +20,7 @@ local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Transmog = ns.reward.Transmog
 
 local Circle = ns.poi.Circle
@@ -61,7 +62,8 @@ map.nodes[41518613] = Rare({
     quest = 75556,
     note = L['brulsef_the_stronk_note'],
     rewards = {
-        Achievement({id = 17783, criteria = 59202}) -- Adventurer of Zaralek Cavern
+        Achievement({id = 17783, criteria = 59202}), -- Adventurer of Zaralek Cavern
+        Recipe({item = 204847, profession = 185}) -- Recipe: Rocks on the Rocks
     }
 }) -- Brulsef the Stronk
 
@@ -620,18 +622,18 @@ map.nodes[55895537] = LoammVendor({
     note = L['saccratos_note'],
     rewards = {
         Pet({item = 205118, id = 3535, note = 'x50'}), -- Diamondshell
-        Mount({item = 205205, id = 196, note = 'x400'}) -- Scoria-Clad Sporebat
+        Mount({item = 205205, id = 1730, note = 'x400'}) -- Igneous Shalewing
     }
-}) -- Saccratos <Coveted Bauble Exchange> ------------------------------------- TODO: UPDATE MOUNT ID
+}) -- Saccratos <Coveted Bauble Exchange>
 
 map.nodes[58085381] = LoammVendor({
     id = 204693,
     note = L['ponzo_note'],
     rewards = {
-        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, 'x55'),
-        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, 'x55'),
-        DC.SetNote(DC.WindingSlitherdrake.CurledNose, 'x55'),
-        Pet({item = 205120, id = 3537, note = 'x85'}), -- Thimblerig
-        Mount({item = 205209, id = 1736, note = 'x170'}) -- Boulder Hauler
+        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, 'x54 x99'),
+        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, 'x54 x99'),
+        DC.SetNote(DC.WindingSlitherdrake.CurledNose, 'x54 x99'),
+        Pet({item = 205120, id = 3537, note = 'x84 x99'}), -- Thimblerig
+        Mount({item = 205209, id = 1736, note = 'x169 x99'}) -- Boulder Hauler
     }
-}) -- Ponzo <Barterer Extraordinaire> ----------------------------------------- TODO: UPDATE ALL PRICES
+}) -- Ponzo <Barterer Extraordinaire>

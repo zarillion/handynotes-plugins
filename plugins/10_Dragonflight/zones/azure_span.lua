@@ -1187,6 +1187,7 @@ local DecayCoveredChest = Class('DecayCoveredChest', ns.node.Node, {
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Recipe({item = 194312, profession = 165}), -- Pattern: Gnoll Tent
+        Recipe({item = 204695, profession = 171}), -- Recipe: Cauldron of Extracted Putrescence
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 200071}), -- Sacred Tuskarr Totem
         Currency({id = 2003}) -- Dragon Isles Supplies

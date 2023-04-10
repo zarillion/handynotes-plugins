@@ -720,4 +720,4 @@ L['sniffen_sage_suffix'] = 'special items found'
 L['big_slick_note_1'] = '{npc:48182} can be found in old-world {location:Darkshore}. Speak with {npc:141489} to travel back in time before the {location:War of Thorns}.'
 
 L['saccratos_note'] = 'Exchange {item:204727} for a pet, mount, and more.'
-L['ponzo_note'] = 'Exchange {item:204985} for drake customizations, pet, mount, and more.'
+L['ponzo_note'] = 'Exchange {item:204985} and {item:205903} for drake customizations, pet, mount, and more.'
