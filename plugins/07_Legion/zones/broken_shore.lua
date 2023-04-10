@@ -189,10 +189,12 @@ map.nodes[19505700] = Rare({
 
 map.nodes[60006200] = Rare({
     id = 121124,
-    quest = nil,
-    rewards = {},
+    quest = 47084,
+    rewards = {
+        Achievement({id = 11786, criteria = 36553}) -- Terrors of the Shore
+    },
     ArePoiID = nil
-}) -- Apocron
+}) -- Apocron -- World Boss
 
 map.nodes[53977893] = Rare({
     id = 121016,
@@ -203,24 +205,26 @@ map.nodes[53977893] = Rare({
 
 map.nodes[39602890] = Rare({
     id = 121029,
-    quest = nil,
+    quest = 46965,
     rewards = {},
-    ArePoiID = nil
+    ArePoiID = 5302
 }) -- Brood Mother Nix
 
 map.nodes[78003900] = Rare({
     id = 121046,
-    quest = nil,
+    quest = 47001,
     rewards = {},
-    ArePoiID = nil
+    ArePoiID = 5308
 }) -- Brother Badatin
 
 map.nodes[59002800] = Rare({
     id = 117239,
-    quest = nil,
-    rewards = {},
+    quest = 47085,
+    rewards = {
+        Achievement({id = 11786, criteria = 36550}) -- Terrors of the Shore
+    },
     ArePoiID = nil
-}) -- Brutallus
+}) -- Brutallus -- World Boss
 
 map.nodes[60975338] = Rare({
     id = 116953,
@@ -265,7 +269,7 @@ map.nodes[37237993] = Rare({
 
 map.nodes[78162785] = Rare({
     id = 121134,
-    quest = nil,
+    quest = 47036,
     rewards = {},
     ArePoiID = 5306
 }) -- Duke Sithizi
@@ -325,30 +329,30 @@ map.nodes[40415969] = Rare({
 
 map.nodes[77782364] = Rare({
     id = 121037,
-    quest = nil,
+    quest = 46995,
     rewards = {},
     ArePoiID = 5303
 }) -- Grossir
 
 map.nodes[61004400] = Rare({
     id = 119718,
-    quest = nil,
+    quest = 46313,
     rewards = {},
-    ArePoiID = nil
+    ArePoiID = 5299
 }) -- Imp Mother Bruva
 
 map.nodes[62163821] = Rare({
     id = 117089,
-    quest = 46096, -- 47133
+    quest = 46096,
     rewards = {},
-    ArePoiID = nil
+    ArePoiID = 5290
 }) -- Inquisitor Chillbane
 
 map.nodes[41001600] = Rare({
     id = 121107,
-    quest = nil,
+    quest = 47026,
     rewards = {},
-    ArePoiID = nil
+    ArePoiID = 5304
 }) -- Lady Eldrathe
 
 map.nodes[44645318] = Rare({
@@ -360,23 +364,25 @@ map.nodes[44645318] = Rare({
 
 map.nodes[56002730] = Rare({
     id = 117141,
-    quest = nil,
+    quest = 46090,
     rewards = {},
-    ArePoiID = nil
+    ArePoiID = 5284
 }) -- Malgrazoth
 
 map.nodes[60002700] = Rare({
     id = 117303,
-    quest = nil,
-    rewards = {},
+    quest = 47086,
+    rewards = {
+        Achievement({id = 11786, criteria = 36553}) -- Terrors of the Shore
+    },
     ArePoiID = nil
-}) -- Malificus
+}) -- Malificus -- World Boss
 
 map.nodes[42324284] = Rare({
     id = 117094,
-    quest = 46092, -- 47133
+    quest = 46092,
     rewards = {},
-    ArePoiID = nil
+    ArePoiID = 5286
 }) -- Malorus the Soulkeeper
 
 map.nodes[56985648] = Rare({
@@ -401,16 +407,18 @@ map.nodes[67482957] = Rare({
 
 map.nodes[89603360] = Rare({
     id = 117470,
-    quest = nil,
-    rewards = {},
+    quest = 47090,
+    rewards = {
+        Achievement({id = 11786, criteria = 36552}) -- Terrors of the Shore
+    },
     ArePoiID = nil
-}) -- Si'vash
+}) -- Si'vash -- World Boss
 
 map.nodes[32006000] = Rare({
     id = 121112,
-    quest = nil,
+    quest = 47028,
     rewards = {},
-    ArePoiID = nil
+    ArePoiID = 5305
 }) -- Somber Dawn
 
 map.nodes[49134792] = Rare({
