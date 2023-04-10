@@ -233,7 +233,7 @@ map.nodes[60975338] = Rare({
     ArePoiID = 5295
 }) -- Corrupted Bonebreaker
 
-map.nodes[4978835] = Rare({
+map.nodes[49783835] = Rare({
     id = 117136,
     quest = 46097,
     rewards = {},
