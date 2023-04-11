@@ -735,7 +735,7 @@ L['zg_unlock_note_06'] = '6. Once {quest:74576} is complete {npc:143138} will be
 
 L['zg_zandalari_bijous_note_01'] = 'Bijous have a chance to drop from all mobs {location:Zul\'Gurub} with 1 guaranteed from each boss.'
 L['zg_zandalari_bijous_note_02'] = 'Bosses can also drop {item:203774} which contains 4 bijous.'
-L['zg_zandalari_bijous_note_03'] = 'Bijous are used to purchase patterns, ensembles, and to interact with various {object:Bone Piles}.'
+L['zg_zandalari_bijous_note_03'] = 'Bijous are used to purchase patterns, ensembles, and to interact with various bone piles.'
 
 L['zg_fishing_note_01'] = 'Once per day you can fish up either a {item:203742} or {item:203743}. The correct area is filled with {npc:52435} and will apply {spell:401577}.'
 L['zg_fishing_note_02'] = 'Caches can contain various Bijous, profession materials, and a chance at unobtainable items.'
@@ -744,7 +744,7 @@ L['zg_fishing_note_03'] = '{note:The {item:203743} will require some form of {sp
 L['zg_brazier_of_madness_note'] = 'Located near the altar below the {object:Tablet of Madness} in {location:The Cache of Madness}.'
 L['zg_gurubashi_mojo_madness_note'] = 'Alchemists with 300 points in {object:Classic Alchemy} can interact with the {object:Tablet of Madness} in {location:The Cache of Madness} to learn the recipe for {item:19931}.'
 
-L['zg_offering_note'] = 'Use {item:19931} next to {item:203757} to receive {spell:401721} which allows you to interact with {object:Bone Piles} around {location:Zul\'Gurub}.\n\nThis pile accepts:'
+L['zg_offering_note'] = 'Use {item:19931} next to {item:203757} to receive {spell:401721} which allows you to interact with bone piles around {location:Zul\'Gurub}.\n\nThis pile accepts:'
 
 L['offering_of_fangs_label'] = 'Offering of Fangs'
 L['offering_of_fangs_location'] = 'On the altar in {location:The Coil}.'
