@@ -96,8 +96,14 @@ L['options_icons_bringing_home_the_beacon_desc'] = 'Muestra dónde aparece el {n
 
 L['hidden_wyrmtongue_cache_label'] = 'Alijo Oculto de Lenguavermis'
 L['in_horde_ship'] = 'En la nave Horda estrellada.'
-L['broken_shore_worldboss_note'] = nil
-L['broken_shore_sentinax_rare_note'] = nil
+L['broken_shore_worldboss_note'] = 'Sólo aparecerá cuando el {location:Disruptor Abisal} esté construido. Sólo aparece un Boss del Mundo por ciclo.'
+L['broken_shore_sentinax_rare_note'] = [[
+Para hacer aparecer al raro necesitas usar su {object:Piedra portal} que podrán soltar los Bosses Élite del {object:Portal Abisal Inestable}
+
+Los Portales sólo aparecen mientras el {location:Disruptor Abisal} esté construido.
+Para invocar a los Bosses Élite necesitas un {item:147775}. 50 veces al día como máximo.
+Sólo lo vende la {npc:120898} mientras el {location:Disruptor Abisal} esté construido.
+]]
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
