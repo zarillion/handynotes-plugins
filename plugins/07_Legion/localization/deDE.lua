@@ -103,6 +103,14 @@ L['options_icons_bringing_home_the_beacon_desc'] = 'Zeigt {npc:127264} orte für
 
 L['hidden_wyrmtongue_cache_label'] = 'Verborgene Wyrmzungentruhe'
 L['in_horde_ship'] = 'Im abgestürzten Horde Luftschiff.'
+L['broken_shore_worldboss_note'] = 'Wird nur erscheinen wenn das {location:Netherdisruptor} aktiv ist. Nur ein Weltboss kann pro Zyklus erscheinen.'
+L['broken_shore_sentinax_rare_note'] = [[
+Damit der seltene Gegner erscheint musst du seinen Portalstein benutzen welcher von Elite Gegnern aus {object:Instabilen Netherportalen} fallen gelassen wird.
+Diese Portale erscheinen nur während das {location:Netherdisruptor} aktiv ist.
+
+Damit der Elite Gegner erschein musst du einen {item:147775} benutzen, maximal 50 mal am Tag.
+Dieser wird nur von {npc:120898} verkauft, während das {location:Netherdisruptor} aktiv ist.
+]]
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------

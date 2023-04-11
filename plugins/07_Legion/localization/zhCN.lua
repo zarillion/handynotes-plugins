@@ -95,6 +95,8 @@ L['options_icons_bringing_home_the_beacon_desc'] = '显示 {achievement:11802} �
 
 L['hidden_wyrmtongue_cache_label'] = '隐藏的虫语者箱子'
 L['in_horde_ship'] = '在坠毁的部落飞艇中。'
+L['broken_shore_worldboss_note'] = nil
+L['broken_shore_sentinax_rare_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------

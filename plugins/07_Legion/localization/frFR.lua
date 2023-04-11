@@ -96,6 +96,8 @@ L['options_icons_bringing_home_the_beacon_desc'] = 'Afficher les emplacements du
 
 L['hidden_wyrmtongue_cache_label'] = 'Cache de langue-de-wyrm dissimulée'
 L['in_horde_ship'] = 'Dans le dirigeable de la Horde accidenté.'
+L['broken_shore_worldboss_note'] = nil
+L['broken_shore_sentinax_rare_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------

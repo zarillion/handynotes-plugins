@@ -95,6 +95,14 @@ L['options_icons_bringing_home_the_beacon_desc'] = 'Display {npc:127264} locatio
 
 L['hidden_wyrmtongue_cache_label'] = 'Hidden Wyrmtongue Cache'
 L['in_horde_ship'] = 'In the crashed Horde airship.'
+L['broken_shore_worldboss_note'] = 'Will only spawn when the {location:Nether Disruptor} is up. Only one Worldboss will spawn per cycle.'
+L['broken_shore_sentinax_rare_note'] = [[
+To spawn the rare you need to use it's Portal-Stone which drops from Elite Bosses from {object:Unstable Nether Portals}
+The Portals only spawn while the {location:Nether Disruptor} is up.
+
+To summon the Elite Boss you need a {item:147775}, maximum 50 times per day.
+This gets only sold from {npc:120898} while the {location:Nether Disruptor} is up.
+]]
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------

@@ -96,6 +96,8 @@ L['options_icons_bringing_home_the_beacon_desc'] = 'Muestra dónde aparece el {n
 
 L['hidden_wyrmtongue_cache_label'] = 'Alijo Oculto de Lenguavermis'
 L['in_horde_ship'] = 'En la nave Horda estrellada.'
+L['broken_shore_worldboss_note'] = nil
+L['broken_shore_sentinax_rare_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------

@@ -24,227 +24,195 @@ local map = Map({id = 646, settings = true})
 
 ----------------------------- PORTAL STONE RARES ------------------------------
 
+local SentinaxArea = {
+    Path({ns.poi.Circle({origin = 43434092, radius = 1.5, segments = 12})}),
+    Path({ns.poi.Circle({origin = 50584415, radius = 1.5, segments = 12})}),
+    Path({ns.poi.Circle({origin = 44384828, radius = 1.5, segments = 12})}),
+    Path({ns.poi.Circle({origin = 53186450, radius = 1.5, segments = 12})}),
+    Path({ns.poi.Circle({origin = 57414520, radius = 1.5, segments = 12})}),
+    Path({ns.poi.Circle({origin = 82514655, radius = 1.5, segments = 12})}),
+    Path({ns.poi.Circle({origin = 80352715, radius = 1.5, segments = 12})}),
+    Path({ns.poi.Circle({origin = 53091437, radius = 1.5, segments = 12})}),
+    Path({ns.poi.Circle({origin = 37382506, radius = 1.5, segments = 12})})
+}
+
 map.nodes[05505400] = Rare({
     id = 120675,
     quest = nil,
+    note = L['broken_shore_sentinax_rare_note'],
     requires = {
         ns.requirement.Item(146919) -- Portal-Stone: An'thyna
     },
     rewards = {
         Achievement({id = 11841, criteria = 36672}) -- Naxt Victim
     },
-    pois = {
-        POI({
-            32603240, 33203420, 34203420, 34403340, 38203120, 38403180,
-            38603160, 38802760, 39202560, 41604640, 42804240, 43404120,
-            44204120, 44204200, 44403640, 44404040, 44604080, 44604740,
-            44604780, 44803940, 44804000, 45204900, 45205040, 45205200,
-            45403580, 45403840, 45805320, 48804420, 48804480, 49204340,
-            50201080, 50601060, 51404600, 51604480, 51604580, 51806680,
-            52404120, 53201540, 53404140, 53604120, 54001520, 54406740,
-            54601340, 54801240, 54806800, 55201380, 55406700, 56206600,
-            58404860, 58604580, 58604940, 58804400, 58804480, 58804960,
-            59404240, 59404320, 59604220, 61404720, 61804800, 76202480,
-            76202640, 76402420, 81005080, 81205040, 81402800, 81802700,
-            81802840, 82002900, 82202620, 82602500, 82605060, 82802620,
-            82802660, 83404980, 83604920
-        })
-    },
-    ArePoiID = nil
+    pois = SentinaxArea
 }) -- An'thyna
 
 map.nodes[07505400] = Rare({
     id = 120681,
     quest = nil,
+    note = L['broken_shore_sentinax_rare_note'],
     requires = {
         ns.requirement.Item(146920) -- Portal-Stone: Fel Obliterator
     },
     rewards = {
         Achievement({id = 11841, criteria = 36673}) -- Naxt Victim
     },
-    ArePoiID = nil
+    pois = SentinaxArea
 }) -- Fel Obliterator
 
 map.nodes[09505400] = Rare({
     id = 120665,
     quest = nil,
+    note = L['broken_shore_sentinax_rare_note'],
     requires = {
         ns.requirement.Item(146918) -- Portal-Stone: Force-Commander Xillious
     },
     rewards = {
         Achievement({id = 11841, criteria = 36671}) -- Naxt Victim
     },
-    ArePoiID = nil
+    pois = SentinaxArea
 }) -- Force-Commander Xillious
 
 map.nodes[11505400] = Rare({
     id = 120686,
     quest = nil,
+    note = L['broken_shore_sentinax_rare_note'],
     requires = {
         ns.requirement.Item(146921) -- Portal-Stone: Illisthyndria
     },
     rewards = {
         Achievement({id = 11841, criteria = 36674}) -- Naxt Victim
     },
-    ArePoiID = nil
+    pois = SentinaxArea
 }) -- Illisthyndria
 
 map.nodes[13505400] = Rare({
     id = 120641,
     quest = nil,
+    note = L['broken_shore_sentinax_rare_note'],
     requires = {
         ns.requirement.Item(146917) -- Portal-Stone: Skulguloth
     },
     rewards = {
         Achievement({id = 11841, criteria = 36670}) -- Naxt Victim
     },
-    ArePoiID = nil
+    pois = SentinaxArea
 }) -- Skulguloth
 
 map.nodes[15505400] = Rare({
     id = 120583,
     quest = nil,
+    note = L['broken_shore_sentinax_rare_note'],
     requires = {
         ns.requirement.Item(146916) -- Portal-Stone: Than'otalion
     },
     rewards = {
         Achievement({id = 11841, criteria = 36669}) -- Naxt Victim
     },
-    ArePoiID = nil
+    pois = SentinaxArea
 }) -- Than'otalion
 
-------------------------------- ZONE WIDE RARES -------------------------------
+------------------------ UNSTABLE NETHER PORTAL RARES -------------------------
 
-map.nodes[17505400] = Rare({
-    id = 121077,
-    quest = nil,
-    rewards = {},
-    ArePoiID = nil
-}) -- Lambent Felhunter
+-- map.nodes[17505400] = Rare({id = 121077}) -- Lambent Felhunter
+-- map.nodes[19505400] = Rare({id = 121092}) -- Anomalous Observer
+-- map.nodes[05505700] = Rare({id = 121049}) -- Baleful Knight-Captain
+-- map.nodes[07505700] = Rare({id = 121090}) -- Demented Shivarra
+-- map.nodes[09505700] = Rare({id = 121073}) -- Deranged Succubus
+-- map.nodes[11505700] = Rare({id = 121056}) -- Malformed Terrorguard
+-- map.nodes[13505700] = Rare({id = 121108}) -- Ruinous Overfiend
+-- map.nodes[15505700] = Rare({id = 121051}) -- Unstable Abyssal
+-- map.nodes[17505700] = Rare({id = 121068}) -- Volatile Imp
+-- map.nodes[19505700] = Rare({id = 121088}) -- Warped Voidlord
 
-map.nodes[19505400] = Rare({
-    id = 121092,
-    quest = nil,
-    rewards = {},
-    ArePoiID = nil
-}) -- Anomalous Observer
-
-map.nodes[05505700] = Rare({
-    id = 121049,
-    quest = nil,
-    rewards = {},
-    ArePoiID = nil
-}) -- Baleful Knight-Captain
-
-map.nodes[07505700] = Rare({
-    id = 121090,
-    quest = nil,
-    rewards = {},
-    ArePoiID = nil
-}) -- Demented Shivarra
-
-map.nodes[09505700] = Rare({
-    id = 121073,
-    quest = nil,
-    rewards = {},
-    ArePoiID = nil
-}) -- Deranged Succubus
-
-map.nodes[11505700] = Rare({
-    id = 121056,
-    quest = nil,
-    rewards = {},
-    ArePoiID = nil
-}) -- Malformed Terrorguard
-
-map.nodes[13505700] = Rare({
-    id = 121108,
-    quest = nil,
-    rewards = {},
-    ArePoiID = nil
-}) -- Ruinous Overfiend
-
-map.nodes[15505700] = Rare({
-    id = 121051,
-    quest = nil,
-    rewards = {},
-    ArePoiID = nil
-}) -- Unstable Abyssal
-
-map.nodes[17505700] = Rare({
-    id = 121068,
-    quest = nil,
-    rewards = {},
-    ArePoiID = nil
-}) -- Volatile Imp
-
-map.nodes[19505700] = Rare({
-    id = 121088,
-    quest = nil,
-    rewards = {},
-    ArePoiID = nil
-}) -- Warped Voidlord
-
--------------------------------------------------------------------------------
+-------------------------------- WORLD BOSSES ---------------------------------
 
 map.nodes[60006200] = Rare({
     id = 121124,
     quest = 47084,
+    note = L['broken_shore_worldboss_note'],
     rewards = {
         Achievement({id = 11786, criteria = 36553}) -- Terrors of the Shore
     },
-    ArePoiID = nil
+    areaPOI = nil
 }) -- Apocron -- World Boss
+
+map.nodes[59002800] = Rare({
+    id = 117239,
+    quest = 47085,
+    note = L['broken_shore_worldboss_note'],
+    rewards = {
+        Achievement({id = 11786, criteria = 36550}) -- Terrors of the Shore
+    },
+    areaPOI = nil
+}) -- Brutallus -- World Boss
+
+map.nodes[60002700] = Rare({
+    id = 117303,
+    quest = 47086,
+    note = L['broken_shore_worldboss_note'],
+    rewards = {
+        Achievement({id = 11786, criteria = 36553}) -- Terrors of the Shore
+    },
+    areaPOI = nil
+}) -- Malificus -- World Boss
+
+map.nodes[89603360] = Rare({
+    id = 117470,
+    quest = 47090,
+    note = L['broken_shore_worldboss_note'],
+    rewards = {
+        Achievement({id = 11786, criteria = 36552}) -- Terrors of the Shore
+    },
+    areaPOI = nil
+}) -- Si'vash -- World Boss
+
+-------------------------------------------------------------------------------
 
 map.nodes[53977893] = Rare({
     id = 121016,
     quest = 46953,
     rewards = {},
-    ArePoiID = 5301
+    areaPOI = 5301
 }) -- Aqueux
 
-map.nodes[39602890] = Rare({
+map.nodes[39343390] = Rare({
     id = 121029,
     quest = 46965,
+    note = L['in_small_cave'],
     rewards = {},
-    ArePoiID = 5302
+    pois = {POI({39672974})},
+    areaPOI = 5302
 }) -- Brood Mother Nix
 
-map.nodes[78003900] = Rare({
+map.nodes[78613939] = Rare({
     id = 121046,
     quest = 47001,
     rewards = {},
-    ArePoiID = 5308
+    areaPOI = 5308
 }) -- Brother Badatin
-
-map.nodes[59002800] = Rare({
-    id = 117239,
-    quest = 47085,
-    rewards = {
-        Achievement({id = 11786, criteria = 36550}) -- Terrors of the Shore
-    },
-    ArePoiID = nil
-}) -- Brutallus -- World Boss
 
 map.nodes[60975338] = Rare({
     id = 116953,
     quest = 46101,
     rewards = {},
-    ArePoiID = 5295
+    areaPOI = 5295
 }) -- Corrupted Bonebreaker
 
 map.nodes[49783835] = Rare({
     id = 117136,
     quest = 46097,
     rewards = {},
-    ArePoiID = 5291
+    areaPOI = 5291
 }) -- Doombringer Zar'thoz
 
 map.nodes[58033184] = Rare({
     id = 117095,
     quest = 46098,
     rewards = {},
-    AreaPoiID = 5292,
+    areaPOI = 5292,
     pois = {Path({58563253, 58033184, 57583103, 57283032})}
 }) -- Dreadblade Annihilator
 
@@ -252,7 +220,7 @@ map.nodes[37237993] = Rare({
     id = 118993,
     quest = 46202,
     rewards = {},
-    ArePoiID = 5297,
+    areaPOI = 5297,
     pois = {
         Path({
             42687793, 42077747, 41517762, 41237804, 40927854, 40467879,
@@ -271,14 +239,14 @@ map.nodes[78162785] = Rare({
     id = 121134,
     quest = 47036,
     rewards = {},
-    ArePoiID = 5306
+    areaPOI = 5306
 }) -- Duke Sithizi
 
-map.nodes[52404350] = Rare({
+map.nodes[52064391] = Rare({
     id = 117086,
     quest = 46093,
     rewards = {},
-    ArePoiID = 5287
+    areaPOI = 5287
 }) -- Emberfire
 
 map.nodes[64513030] = Rare({
@@ -286,7 +254,7 @@ map.nodes[64513030] = Rare({
     quest = 47068,
     note = L['in_small_cave'],
     rewards = {},
-    ArePoiID = 5307,
+    areaPOI = 5307,
     pois = {POI({66733459})}
 }) -- Eye of Gurgh
 
@@ -294,7 +262,7 @@ map.nodes[58934572] = Rare({
     id = 117093,
     quest = 46099,
     rewards = {},
-    ArePoiID = 5293,
+    areaPOI = 5293,
     pois = {
         Path({
             56575013, 56884971, 57254916, 57574871, 57854824, 58054777,
@@ -308,14 +276,14 @@ map.nodes[89553085] = Rare({
     id = 117103,
     quest = 46102,
     rewards = {},
-    ArePoiID = 5296
+    areaPOI = 5296
 }) -- Felcaller Zelthae
 
 map.nodes[39194209] = Rare({
     id = 117091,
     quest = 46095,
     rewards = {},
-    ArePoiID = 5289
+    areaPOI = 5289
 }) -- Felmaw Emberfiend
 
 map.nodes[40415969] = Rare({
@@ -323,7 +291,7 @@ map.nodes[40415969] = Rare({
     quest = 46951,
     note = L['in_small_cave'],
     rewards = {},
-    ArePoiID = 5300,
+    areaPOI = 5300,
     pois = {POI({39206019})}
 }) -- Flllurlokkr
 
@@ -331,72 +299,66 @@ map.nodes[77782364] = Rare({
     id = 121037,
     quest = 46995,
     rewards = {},
-    ArePoiID = 5303
+    areaPOI = 5303
 }) -- Grossir
 
 map.nodes[61004400] = Rare({
     id = 119718,
     quest = 46313,
     rewards = {},
-    ArePoiID = 5299
+    areaPOI = 5299
 }) -- Imp Mother Bruva
 
 map.nodes[62163821] = Rare({
     id = 117089,
     quest = 46096,
     rewards = {},
-    ArePoiID = 5290
+    areaPOI = 5290
 }) -- Inquisitor Chillbane
 
-map.nodes[41001600] = Rare({
+map.nodes[41801667] = Rare({
     id = 121107,
     quest = 47026,
     rewards = {},
-    ArePoiID = 5304
+    pois = {Path({41261661, 41801667, 42311669, 42801690})},
+    areaPOI = 5304
 }) -- Lady Eldrathe
 
 map.nodes[44645318] = Rare({
     id = 119629,
     quest = 46304,
     rewards = {ns.reward.Mount({item = 142233, id = 931})},
-    ArePoiID = 5298
+    areaPOI = 5298
 }) -- Lord Hel'Nurath
 
-map.nodes[56002730] = Rare({
+map.nodes[59752731] = Rare({
     id = 117141,
     quest = 46090,
+    note = L['in_small_cave'],
     rewards = {},
-    ArePoiID = 5284
+    pois = {POI({56462723})},
+    areaPOI = 5284
 }) -- Malgrazoth
-
-map.nodes[60002700] = Rare({
-    id = 117303,
-    quest = 47086,
-    rewards = {
-        Achievement({id = 11786, criteria = 36553}) -- Terrors of the Shore
-    },
-    ArePoiID = nil
-}) -- Malificus -- World Boss
 
 map.nodes[42324284] = Rare({
     id = 117094,
     quest = 46092,
     rewards = {},
-    ArePoiID = 5286
+    areaPOI = 5286
 }) -- Malorus the Soulkeeper
 
 map.nodes[56985648] = Rare({
     id = 117096,
     quest = 46094,
     rewards = {},
-    ArePoiID = 5288
+    areaPOI = 5288
 }) -- Potionmaster Gloop
 
 map.nodes[67482957] = Rare({
     id = 117140,
     quest = 46091,
     rewards = {},
-    ArePoiID = 5285,
+    areaPOI = 5285,
     pois = {
         Path({
             69932924, 69262927, 68542941, 68012948, 67482957, 66952962,
@@ -405,27 +367,28 @@ map.nodes[67482957] = Rare({
     }
 }) -- Salethan the Broodwalker
 
-map.nodes[89603360] = Rare({
-    id = 117470,
-    quest = 47090,
-    rewards = {
-        Achievement({id = 11786, criteria = 36552}) -- Terrors of the Shore
-    },
-    ArePoiID = nil
-}) -- Si'vash -- World Boss
-
 map.nodes[32006000] = Rare({
     id = 121112,
     quest = 47028,
     rewards = {},
-    ArePoiID = 5305
+    pois = {
+        Path({
+            28736141, 29116108, 29146031, 29135971, 29225917, 29375865,
+            29875835, 30375847, 30775896, 31025946, 31585985, 32055964,
+            32325921, 32545872, 32905823, 32955758, 32815703, 32505661,
+            31945635, 31325624, 30785632, 30135631, 29555605, 29035628,
+            28555661, 28145716, 27915780, 27875859, 27795928, 27505995,
+            27276041, 27066105, 27236157, 27716174, 28286154, 28736141
+        })
+    },
+    areaPOI = 5305
 }) -- Somber Dawn
 
 map.nodes[49134792] = Rare({
     id = 117090,
     quest = 46100,
     rewards = {},
-    ArePoiID = 5294
+    areaPOI = 5294
 }) -- Xorogun the Flamecarver
 
 -------------------------------------------------------------------------------
@@ -444,19 +407,19 @@ local HiddenWyrmtongueCache = Class('HiddenWyrmtongueCache', ns.node.Node, {
     }
 })
 
-map.nodes[28306040] = HiddenWyrmtongueCache({devnote = '1'})
+map.nodes[28416046] = HiddenWyrmtongueCache()
 map.nodes[29406010] = HiddenWyrmtongueCache({devnote = '2'})
 map.nodes[30106690] = HiddenWyrmtongueCache({devnote = '3'})
-map.nodes[30705780] = HiddenWyrmtongueCache({devnote = '4'})
+map.nodes[30655771] = HiddenWyrmtongueCache()
 map.nodes[30903320] = HiddenWyrmtongueCache({devnote = '5'})
-map.nodes[31004960] = HiddenWyrmtongueCache({devnote = '6'})
+map.nodes[30894947] = HiddenWyrmtongueCache({note = L['in_water']})
 map.nodes[31103210] = HiddenWyrmtongueCache({devnote = '7'})
-map.nodes[32903220] = HiddenWyrmtongueCache({devnote = '8'})
+map.nodes[32903226] = HiddenWyrmtongueCache()
 map.nodes[33805400] = HiddenWyrmtongueCache({devnote = '9'})
-map.nodes[36602430] = HiddenWyrmtongueCache({devnote = '10'})
+map.nodes[36542434] = HiddenWyrmtongueCache()
 map.nodes[36797162] = HiddenWyrmtongueCache()
 map.nodes[37806130] = HiddenWyrmtongueCache({devnote = '12'})
-map.nodes[37904290] = HiddenWyrmtongueCache({devnote = '13'})
+map.nodes[37944291] = HiddenWyrmtongueCache()
 map.nodes[38613456] = HiddenWyrmtongueCache({
     note = L['in_small_cave'],
     pois = {POI({39672974})}
@@ -464,40 +427,55 @@ map.nodes[38613456] = HiddenWyrmtongueCache({
 map.nodes[39045826] = HiddenWyrmtongueCache()
 map.nodes[40106110] = HiddenWyrmtongueCache({devnote = '16'})
 map.nodes[40607290] = HiddenWyrmtongueCache({devnote = '17'})
-map.nodes[41205120] = HiddenWyrmtongueCache({devnote = '18'})
+map.nodes[41115122] = HiddenWyrmtongueCache()
 map.nodes[41303650] = HiddenWyrmtongueCache({devnote = '19'})
 map.nodes[41603460] = HiddenWyrmtongueCache({devnote = '22'})
 map.nodes[42001580] = HiddenWyrmtongueCache({devnote = '23'})
-map.nodes[42006710] = HiddenWyrmtongueCache({devnote = '24'})
+map.nodes[42006718] = HiddenWyrmtongueCache({
+    note = L['in_cave'],
+    pois = {POI({45576703})}
+})
 map.nodes[42104280] = HiddenWyrmtongueCache({devnote = '25'})
-map.nodes[42906200] = HiddenWyrmtongueCache({devnote = '26'})
+map.nodes[42796199] = HiddenWyrmtongueCache({
+    note = L['in_cave'],
+    pois = {POI({45576703})}
+})
 map.nodes[43402660] = HiddenWyrmtongueCache({devnote = '28'})
 map.nodes[43404690] = HiddenWyrmtongueCache({devnote = '29'})
 map.nodes[43505220] = HiddenWyrmtongueCache({devnote = '30'})
 map.nodes[44623358] = HiddenWyrmtongueCache()
-map.nodes[45704680] = HiddenWyrmtongueCache({devnote = '33'})
-map.nodes[45906380] = HiddenWyrmtongueCache({devnote = '34'})
+map.nodes[45794678] = HiddenWyrmtongueCache()
+map.nodes[45876372] = HiddenWyrmtongueCache()
 map.nodes[46044344] = HiddenWyrmtongueCache()
-map.nodes[46205060] = HiddenWyrmtongueCache({devnote = '37'})
+map.nodes[46175068] = HiddenWyrmtongueCache()
 map.nodes[47416695] = HiddenWyrmtongueCache()
 map.nodes[47494686] = HiddenWyrmtongueCache()
 map.nodes[47603470] = HiddenWyrmtongueCache({devnote = '41'})
 map.nodes[48113412] = HiddenWyrmtongueCache()
 map.nodes[48263705] = HiddenWyrmtongueCache()
 map.nodes[49001870] = HiddenWyrmtongueCache({devnote = '44'})
-map.nodes[49804650] = HiddenWyrmtongueCache({devnote = '46'})
+map.nodes[49844639] = HiddenWyrmtongueCache()
 map.nodes[50324990] = HiddenWyrmtongueCache()
 map.nodes[50805970] = HiddenWyrmtongueCache({devnote = '48'})
 map.nodes[51707050] = HiddenWyrmtongueCache({devnote = '49'})
-map.nodes[51907700] = HiddenWyrmtongueCache({devnote = '50'})
-map.nodes[52104140] = HiddenWyrmtongueCache({devnote = '52'})
-map.nodes[52302990] = HiddenWyrmtongueCache({devnote = '53'})
+map.nodes[51907700] = HiddenWyrmtongueCache({
+    note = L['in_water'],
+    devnote = '50'
+})
+map.nodes[52014149] = HiddenWyrmtongueCache()
+map.nodes[52252989] = HiddenWyrmtongueCache()
 map.nodes[52405940] = HiddenWyrmtongueCache({devnote = '54'})
-map.nodes[53008180] = HiddenWyrmtongueCache({devnote = '58'})
+map.nodes[53008180] = HiddenWyrmtongueCache({
+    note = L['in_water'],
+    devnote = '58'
+})
 map.nodes[53401940] = HiddenWyrmtongueCache({devnote = '59'})
-map.nodes[53602790] = HiddenWyrmtongueCache({devnote = '60'})
+map.nodes[53542790] = HiddenWyrmtongueCache()
 map.nodes[53604560] = HiddenWyrmtongueCache({devnote = '61'})
-map.nodes[54607400] = HiddenWyrmtongueCache({devnote = '62'})
+map.nodes[54607400] = HiddenWyrmtongueCache({
+    note = L['in_water'],
+    devnote = '62'
+})
 map.nodes[56306510] = HiddenWyrmtongueCache({devnote = '63'})
 map.nodes[57041407] = HiddenWyrmtongueCache()
 map.nodes[56975688] = HiddenWyrmtongueCache({note = L['in_horde_ship']})
@@ -505,13 +483,19 @@ map.nodes[55225973] = HiddenWyrmtongueCache()
 map.nodes[57255290] = HiddenWyrmtongueCache()
 map.nodes[57434353] = HiddenWyrmtongueCache()
 map.nodes[58033095] = HiddenWyrmtongueCache()
-map.nodes[58005600] = HiddenWyrmtongueCache({devnote = '69'})
+map.nodes[58015611] = HiddenWyrmtongueCache({
+    note = L['in_small_cave'],
+    pois = {POI({58525411})}
+})
 map.nodes[58155875] = HiddenWyrmtongueCache({
     note = L['in_cave'],
     pois = {POI({55136318})}
 })
-map.nodes[60702830] = HiddenWyrmtongueCache({devnote = '71'})
-map.nodes[60901170] = HiddenWyrmtongueCache({devnote = '72'})
+map.nodes[60702845] = HiddenWyrmtongueCache({
+    note = L['in_small_cave'],
+    pois = {POI({56462723})}
+})
+map.nodes[60811167] = HiddenWyrmtongueCache()
 map.nodes[60985844] = HiddenWyrmtongueCache()
 map.nodes[61414996] = HiddenWyrmtongueCache()
 map.nodes[61424308] = HiddenWyrmtongueCache()
@@ -521,18 +505,18 @@ map.nodes[62445501] = HiddenWyrmtongueCache({note = L['in_horde_ship']})
 map.nodes[62855388] = HiddenWyrmtongueCache({note = L['in_horde_ship']})
 map.nodes[62905260] = HiddenWyrmtongueCache({devnote = '82'})
 map.nodes[63002480] = HiddenWyrmtongueCache({devnote = '83'})
-map.nodes[63305170] = HiddenWyrmtongueCache({devnote = '84'})
+map.nodes[63215175] = HiddenWyrmtongueCache({note = L['in_water']})
 map.nodes[63903090] = HiddenWyrmtongueCache({
     note = L['in_small_cave'],
     pois = {POI({66733459})}
 })
 map.nodes[64201800] = HiddenWyrmtongueCache({devnote = '86'})
-map.nodes[64704540] = HiddenWyrmtongueCache({devnote = '87'})
+map.nodes[64694543] = HiddenWyrmtongueCache()
 map.nodes[67904210] = HiddenWyrmtongueCache({devnote = '89'})
-map.nodes[68401980] = HiddenWyrmtongueCache({devnote = '90'})
-map.nodes[69503800] = HiddenWyrmtongueCache({devnote = '92'})
-map.nodes[70101900] = HiddenWyrmtongueCache({devnote = '93'})
-map.nodes[70703190] = HiddenWyrmtongueCache({devnote = '94'})
+map.nodes[68371966] = HiddenWyrmtongueCache()
+map.nodes[70003756] = HiddenWyrmtongueCache()
+map.nodes[70021911] = HiddenWyrmtongueCache()
+map.nodes[70723177] = HiddenWyrmtongueCache()
 map.nodes[71624155] = HiddenWyrmtongueCache({
     note = L['in_cave'],
     pois = {POI({76203977})}
@@ -550,12 +534,17 @@ map.nodes[73803650] = HiddenWyrmtongueCache({
     pois = {POI({76203977})}
 })
 map.nodes[74642968] = HiddenWyrmtongueCache()
-map.nodes[75903600] = HiddenWyrmtongueCache({devnote = '101'})
-map.nodes[79003730] = HiddenWyrmtongueCache({devnote = '102'})
+map.nodes[75993590] = HiddenWyrmtongueCache()
+map.nodes[78933723] = HiddenWyrmtongueCache()
 map.nodes[82203130] = HiddenWyrmtongueCache({devnote = '103'})
 map.nodes[82534592] = HiddenWyrmtongueCache()
 map.nodes[85505410] = HiddenWyrmtongueCache({devnote = '107'})
 map.nodes[85802990] = HiddenWyrmtongueCache({devnote = '108'})
+map.nodes[69423802] = HiddenWyrmtongueCache()
+map.nodes[49067398] = HiddenWyrmtongueCache({
+    note = L['in_water'],
+    pois = {POI({49887333})}
+})
 
 -------------------------------------------------------------------------------
 -------------------------- BRINGING HOME THE BEACON ---------------------------
