@@ -722,3 +722,47 @@ Para ver estas {object:Plumas} tendrás que comprar el {item:199177} a {npc:1892
 Usa el amuleto y coge las {item:202062} {dot:Red} que hay dentro del {location:Ascenso Ardiente} y de {location:Cienoescoria}, que son las zonas que rodean a la {location:Ciudadela Obsidiana}.
 ]]
 L['phoenix_wishwing_info'] = 'Esto es parte de la mascota de combate {item:193373} localizada en las {location:Orillas del Despertar} de las {location:Islas Dragón}.'
+
+-------------------------------------------------------------------------------
+----------------------------- ZUL'GURUB (10.0.5) ------------------------------
+-------------------------------------------------------------------------------
+
+L['zg_unlock_note_01'] = nil
+L['zg_unlock_note_02'] = nil
+L['zg_unlock_note_03'] = nil
+L['zg_unlock_note_04'] = nil
+L['zg_unlock_note_05'] = nil
+L['zg_unlock_note_06'] = nil
+
+L['zg_zandalari_bijous_note_01'] = nil
+L['zg_zandalari_bijous_note_02'] = nil
+L['zg_zandalari_bijous_note_03'] = nil
+
+L['zg_fishing_note_01'] = nil
+L['zg_fishing_note_02'] = nil
+L['zg_fishing_note_03'] = nil
+
+L['zg_brazier_of_madness_note'] = nil
+L['zg_gurubashi_mojo_madness_note'] = nil
+
+L['zg_offering_note'] = nil
+
+L['offering_of_fangs_label'] = nil
+L['offering_of_fangs_location'] = nil
+L['offering_of_blood_label'] = nil
+L['offering_of_blood_location'] = nil
+L['offering_of_claws_label'] = nil
+L['offering_of_claws_location'] = nil
+L['offering_of_mojo_label'] = nil
+L['offering_of_mojo_location'] = nil
+
+L['zg_vendor_note_01'] = nil
+L['zg_vendor_note_02'] = nil
+L['zg_vendor_note_03'] = nil
+
+L['zg_class_ensembles'] = nil
+L['zg_armor_ensembles'] = nil
+
+L['options_icons_secrets_of_zulgurub'] = nil
+L['options_icons_secrets_of_zulgurub_desc'] = nil
+

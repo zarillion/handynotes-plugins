@@ -719,3 +719,47 @@ Pour voir les {object:Plumes}, vous devez acheter l'{item:199177} à {npc:189207
 Utilisez cette amulette et ramassez des {item:202062} {dot:Red} trouvées à l'{location:Éminence Ardente} et au {location:Bourbier aux Scories}, qui sont des zones entourant la {location:Citadelle d’Obsidienne}.
 ]]
 L['phoenix_wishwing_info'] = 'Ceci fait partie de de la méthode d\'obtention du {item:193373} situé aux {location:Rivages de l’Éveil} sur les {location:Îles aux Dragons}.'
+
+-------------------------------------------------------------------------------
+----------------------------- ZUL'GURUB (10.0.5) ------------------------------
+-------------------------------------------------------------------------------
+
+L['zg_unlock_note_01'] = nil
+L['zg_unlock_note_02'] = nil
+L['zg_unlock_note_03'] = nil
+L['zg_unlock_note_04'] = nil
+L['zg_unlock_note_05'] = nil
+L['zg_unlock_note_06'] = nil
+
+L['zg_zandalari_bijous_note_01'] = nil
+L['zg_zandalari_bijous_note_02'] = nil
+L['zg_zandalari_bijous_note_03'] = nil
+
+L['zg_fishing_note_01'] = nil
+L['zg_fishing_note_02'] = nil
+L['zg_fishing_note_03'] = nil
+
+L['zg_brazier_of_madness_note'] = nil
+L['zg_gurubashi_mojo_madness_note'] = nil
+
+L['zg_offering_note'] = nil
+
+L['offering_of_fangs_label'] = nil
+L['offering_of_fangs_location'] = nil
+L['offering_of_blood_label'] = nil
+L['offering_of_blood_location'] = nil
+L['offering_of_claws_label'] = nil
+L['offering_of_claws_location'] = nil
+L['offering_of_mojo_label'] = nil
+L['offering_of_mojo_location'] = nil
+
+L['zg_vendor_note_01'] = nil
+L['zg_vendor_note_02'] = nil
+L['zg_vendor_note_03'] = nil
+
+L['zg_class_ensembles'] = nil
+L['zg_armor_ensembles'] = nil
+
+L['options_icons_secrets_of_zulgurub'] = nil
+L['options_icons_secrets_of_zulgurub_desc'] = nil
+

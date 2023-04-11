@@ -721,3 +721,47 @@ L['phoenix_wishwing_ash_feather'] = [[
 使用这条项链并捡起位于 {location:燃烧高地} 和 {location:熔渣沼泽} 中的 {item:202062} {dot:Red}，它们在 {location:黑曜王座} 周围的区域。
 ]]
 L['phoenix_wishwing_info'] = '这是位于 {location:巨龙群岛} 的 {location:觉醒海岸} 的 {item:193373} 收藏品的一部分。'
+
+-------------------------------------------------------------------------------
+----------------------------- ZUL'GURUB (10.0.5) ------------------------------
+-------------------------------------------------------------------------------
+
+L['zg_unlock_note_01'] = nil
+L['zg_unlock_note_02'] = nil
+L['zg_unlock_note_03'] = nil
+L['zg_unlock_note_04'] = nil
+L['zg_unlock_note_05'] = nil
+L['zg_unlock_note_06'] = nil
+
+L['zg_zandalari_bijous_note_01'] = nil
+L['zg_zandalari_bijous_note_02'] = nil
+L['zg_zandalari_bijous_note_03'] = nil
+
+L['zg_fishing_note_01'] = nil
+L['zg_fishing_note_02'] = nil
+L['zg_fishing_note_03'] = nil
+
+L['zg_brazier_of_madness_note'] = nil
+L['zg_gurubashi_mojo_madness_note'] = nil
+
+L['zg_offering_note'] = nil
+
+L['offering_of_fangs_label'] = nil
+L['offering_of_fangs_location'] = nil
+L['offering_of_blood_label'] = nil
+L['offering_of_blood_location'] = nil
+L['offering_of_claws_label'] = nil
+L['offering_of_claws_location'] = nil
+L['offering_of_mojo_label'] = nil
+L['offering_of_mojo_location'] = nil
+
+L['zg_vendor_note_01'] = nil
+L['zg_vendor_note_02'] = nil
+L['zg_vendor_note_03'] = nil
+
+L['zg_class_ensembles'] = nil
+L['zg_armor_ensembles'] = nil
+
+L['options_icons_secrets_of_zulgurub'] = nil
+L['options_icons_secrets_of_zulgurub_desc'] = nil
+
