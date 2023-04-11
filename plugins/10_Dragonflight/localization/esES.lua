@@ -736,7 +736,7 @@ L['zg_unlock_note_06'] = '6. Una vez se ha completado {quest:74576}, {npc:143138
 
 L['zg_zandalari_bijous_note_01'] = 'Las joyas las pueden soltar cualquier enemigo de {location:Zul\'Gurub} con 1 garantizada por cada Boss.'
 L['zg_zandalari_bijous_note_02'] = 'Los Bosses pueden soltar una {item:203774} que contienen 4 joyas.'
-L['zg_zandalari_bijous_note_03'] = 'Las joyas se usan para comprar patrones, indumentarias, y para interactuar con varios {object:Montón de Huesos}.'
+L['zg_zandalari_bijous_note_03'] = 'Las joyas se usan para comprar patrones, indumentarias, y para interactuar con varios montones de calaveras}.'
 
 L['zg_fishing_note_01'] = 'Una vez al día puedes pescar un {item:203742} o un {item:203743}. La zona correcta está llena de {npc:52435} que te pondrán el buff {spell:401577}.'
 L['zg_fishing_note_02'] = 'Los {object:Alijo} pueden contener varias joyas, materiales de profesión, y una probabilidad de obtener objetos no obtenibles.'
@@ -745,7 +745,7 @@ L['zg_fishing_note_03'] = '{note:El {item:203743} necesitará alguna forma de {s
 L['zg_brazier_of_madness_note'] = 'Está cerca del altar bajo la {object:Tablilla de Locura} en {location:El Extremo de la Locura}.'
 L['zg_gurubashi_mojo_madness_note'] = 'Los Alquimistas con 300 puntos en {object:Alquimia Clásica} pueden interacturar con la {object:Tablilla de Locura} en {location:El Extremo de la Locura} para aprender la receta de la {item:19931}.'
 
-L['zg_offering_note'] = 'Usa {item:19931} junto al {item:203757} para recibir {spell:401721}. Ahora podrás interactuar con los {object:Montón de Calaveras} alrededor de {location:Zul\'Gurub}.\n\nEl montón acepta:'
+L['zg_offering_note'] = 'Usa {item:19931} junto al {item:203757} para recibir {spell:401721}. Ahora podrás interactuar con los montones de calaveras alrededor de {location:Zul\'Gurub}.\n\nEl montón acepta:'
 
 L['offering_of_fangs_label'] = 'Ofrenda de Colmillos'
 L['offering_of_fangs_location'] = 'Encima del altar de {location:El Serpenteo}.'
