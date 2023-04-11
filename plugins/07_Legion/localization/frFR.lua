@@ -96,8 +96,14 @@ L['options_icons_bringing_home_the_beacon_desc'] = 'Afficher les emplacements du
 
 L['hidden_wyrmtongue_cache_label'] = 'Cache de langue-de-wyrm dissimulée'
 L['in_horde_ship'] = 'Dans le dirigeable de la Horde accidenté.'
-L['broken_shore_worldboss_note'] = nil
-L['broken_shore_sentinax_rare_note'] = nil
+L['broken_shore_worldboss_note'] = 'N\'apparaîtra que lorsque le {location:Disrupteur de Néant} est construit. Un seul Worldboss peut pour apparaître par cycle.'
+L['broken_shore_sentinax_rare_note'] = [[
+Pour faire aparaître le rare, vous devez utiliser sa Pierre de portail qui est récupérée sur les Boss Élites provenant des {object:Portails de Néant instables}.
+Les Portails n'apparaissent que lorsque le {location:Disrupteur de Néant} est construit.
+
+Pour invoquer le Boss Élite, vous aurez besoin d'un {item:147775}, avec un maximum de 50 fois par jour.
+Cet objet n'est vendu que par le {npc:120898} pendant que le {location:Disrupteur de Néant} est construit.
+]]
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
