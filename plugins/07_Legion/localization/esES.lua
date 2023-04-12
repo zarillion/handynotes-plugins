@@ -98,11 +98,14 @@ L['hidden_wyrmtongue_cache_label'] = 'Alijo Oculto de Lenguavermis'
 L['in_horde_ship'] = 'En la nave Horda estrellada.'
 L['broken_shore_worldboss_note'] = 'Sólo aparecerá cuando el {location:Disruptor Abisal} esté construido. Sólo aparece un Boss del Mundo por ciclo.'
 L['broken_shore_sentinax_rare_note'] = [[
-Para hacer aparecer al raro necesitas usar su {object:Piedra portal} que podrán soltar los Bosses Élite del {object:Portal Abisal Inestable}
+Para hacer aparecer a los Bosses necesitas matar enemigos y usar las balizas para abrir portales bajo el {npc:127264} teniendo el buff {spell:240640}.
 
-Los Portales sólo aparecen mientras el {location:Disruptor Abisal} esté construido.
-Para invocar a los Bosses Élite necesitas un {item:147775}. 50 veces al día como máximo.
-Sólo lo vende la {npc:120898} mientras el {location:Disruptor Abisal} esté construido.
+• {npc:120686} requiere {item:146909} -> {item:146915} -> {item:146921}
+• {npc:120681} requiere {item:146908} -> {item:146914} -> {item:146920}
+• {npc:120675} requiere {item:146907} -> {item:146913} -> {item:146919}
+• {npc:120665} requiere {item:146906} -> {item:146912} -> {item:146918}
+• {npc:120641} requiere {item:146905} -> {item:146911} -> {item:146917}
+• {npc:120583} requiere {item:146903} -> {item:146910} -> {item:146916}
 ]]
 
 -------------------------------------------------------------------------------
