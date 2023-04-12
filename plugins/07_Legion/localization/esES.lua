@@ -97,7 +97,7 @@ L['options_icons_bringing_home_the_beacon_desc'] = 'Muestra dónde aparece el {n
 L['hidden_wyrmtongue_cache_label'] = 'Alijo Oculto de Lenguavermis'
 L['in_horde_ship'] = 'En la nave Horda estrellada.'
 L['broken_shore_worldboss_note'] = 'Sólo aparecerá cuando el {location:Disruptor Abisal} esté construido. Sólo aparece un Boss del Mundo por ciclo.'
-L['sentinax_rare_note'] = nil --[[
+L['sentinax_rare_note'] = [[
 Para hacer aparecer a los Bosses necesitas matar enemigos y usar las balizas para abrir portales bajo el {npc:127264} teniendo el buff {spell:240640}.
 
 {npc:%d} requiere
@@ -107,8 +107,8 @@ Para hacer aparecer a los Bosses necesitas matar enemigos y usar las balizas par
 ->
 {item:%d}
 
-When the {location:The Nether Disruptor} is up, {npc:120898} will sell {item:147775} that can be used on {npc:120751s} up to 50 time per day.
-The Portals will then spawn Elite Mobs that have a higher chance of dropping {item:%d}.
+Cuando el {location:Disruptor Abisal} está construido, la {npc:120898} venderá {item:147775} que puede ser usado en los {npc:120751} hasta 50 veces al día.
+Los Portales harán aparecer Enemigos Élite que tienen una probabilidad más alta de soltar {item:%d}.
 ]]
 
 -------------------------------------------------------------------------------
