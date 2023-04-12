@@ -98,11 +98,14 @@ L['hidden_wyrmtongue_cache_label'] = 'Cache de langue-de-wyrm dissimulée'
 L['in_horde_ship'] = 'Dans le dirigeable de la Horde accidenté.'
 L['broken_shore_worldboss_note'] = 'N\'apparaîtra que lorsque le {location:Disrupteur de Néant} est construit. Un seul Worldboss peut pour apparaître par cycle.'
 L['broken_shore_sentinax_rare_note'] = [[
-Pour faire aparaître le rare, vous devez utiliser sa Pierre de portail qui est récupérée sur les Boss Élites provenant des {object:Portails de Néant instables}.
-Les Portails n'apparaissent que lorsque le {location:Disrupteur de Néant} est construit.
+Pour faire apparaître les Boss, vous devrez farmer les monstres situés sous le {npc:127264} et ayant le buff {spell:240640}. Utilisez les différentes Balises pour ouvrir les Portails d'invoquations.
 
-Pour invoquer le Boss Élite, vous aurez besoin d'un {item:147775}, avec un maximum de 50 fois par jour.
-Cet objet n'est vendu que par le {npc:120898} pendant que le {location:Disrupteur de Néant} est construit.
+• {npc:120686} requiert {item:146909} -> {item:146915} -> {item:146921}
+• {npc:120681} requiert {item:146908} -> {item:146914} -> {item:146920}
+• {npc:120675} requiert {item:146907} -> {item:146913} -> {item:146919}
+• {npc:120665} requiert {item:146906} -> {item:146912} -> {item:146918}
+• {npc:120641} requiert {item:146905} -> {item:146911} -> {item:146917}
+• {npc:120583} requiert {item:146903} -> {item:146910} -> {item:146916}
 ]]
 
 -------------------------------------------------------------------------------
