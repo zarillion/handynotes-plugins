@@ -96,15 +96,18 @@ L['options_icons_bringing_home_the_beacon_desc'] = 'Display {npc:127264} locatio
 L['hidden_wyrmtongue_cache_label'] = 'Hidden Wyrmtongue Cache'
 L['in_horde_ship'] = 'In the crashed Horde airship.'
 L['broken_shore_worldboss_note'] = 'Will only spawn when the {location:The Nether Disruptor} is up. Only one Worldboss will spawn per cycle.'
-L['broken_shore_sentinax_rare_note'] = [[
-To spawn the bosses you need to farming the mobs and using beacon to open portals under {npc:127264} with {spell:240640} buff.
+L['sentinax_rare_note'] = [[
+To spawn the bosses you need to farm the mobs and use beacons to open portals under {npc:127264} while you have the {spell:240640} buff.
 
-• {npc:120686} requires {item:146909} -> {item:146915} -> {item:146921}
-• {npc:120681} requires {item:146908} -> {item:146914} -> {item:146920}
-• {npc:120675} requires {item:146907} -> {item:146913} -> {item:146919}
-• {npc:120665} requires {item:146906} -> {item:146912} -> {item:146918}
-• {npc:120641} requires {item:146905} -> {item:146911} -> {item:146917}
-• {npc:120583} requires {item:146903} -> {item:146910} -> {item:146916}
+{npc:%d} requires
+{item:%d}
+->
+{item:%d}
+->
+{item:%d}
+
+When the {location:The Nether Disruptor} is up, {npc:120898} will sell {item:147775} that can be used on {npc:120751s} up to 50 time per day.
+The Portals will then spawn Elite Mobs that have a higher chance of dropping {item:%d}.
 ]]
 
 -------------------------------------------------------------------------------

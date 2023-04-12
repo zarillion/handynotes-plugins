@@ -97,15 +97,18 @@ L['options_icons_bringing_home_the_beacon_desc'] = 'Afficher les emplacements du
 L['hidden_wyrmtongue_cache_label'] = 'Cache de langue-de-wyrm dissimulée'
 L['in_horde_ship'] = 'Dans le dirigeable de la Horde accidenté.'
 L['broken_shore_worldboss_note'] = 'N\'apparaîtra que lorsque le {location:Disrupteur de Néant} est construit. Un seul Worldboss peut pour apparaître par cycle.'
-L['broken_shore_sentinax_rare_note'] = [[
+L['sentinax_rare_note'] = nil --[[
 Pour faire apparaître les Boss, vous devrez farmer les monstres situés sous le {npc:127264} et ayant le buff {spell:240640}. Utilisez les différentes Balises pour ouvrir les Portails d'invoquations.
 
-• {npc:120686} requiert {item:146909} -> {item:146915} -> {item:146921}
-• {npc:120681} requiert {item:146908} -> {item:146914} -> {item:146920}
-• {npc:120675} requiert {item:146907} -> {item:146913} -> {item:146919}
-• {npc:120665} requiert {item:146906} -> {item:146912} -> {item:146918}
-• {npc:120641} requiert {item:146905} -> {item:146911} -> {item:146917}
-• {npc:120583} requiert {item:146903} -> {item:146910} -> {item:146916}
+{npc:%d} requiert
+{item:%d}
+->
+{item:%d}
+->
+{item:%d}
+
+When the {location:The Nether Disruptor} is up, {npc:120898} will sell {item:147775} that can be used on {npc:120751s} up to 50 time per day.
+The Portals will then spawn Elite Mobs that have a higher chance of dropping {item:%d}.
 ]]
 
 -------------------------------------------------------------------------------

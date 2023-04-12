@@ -39,7 +39,8 @@ local SentinaxArea = {
 map.nodes[05505400] = Rare({
     id = 120675,
     quest = nil,
-    note = L['broken_shore_sentinax_rare_note'],
+    note = format(L['sentinax_rare_note'], 120675, 146907, 146913, 146919,
+        146913),
     requires = {
         ns.requirement.Item(146919) -- Portal-Stone: An'thyna
     },
@@ -52,7 +53,8 @@ map.nodes[05505400] = Rare({
 map.nodes[07505400] = Rare({
     id = 120681,
     quest = nil,
-    note = L['broken_shore_sentinax_rare_note'],
+    note = format(L['sentinax_rare_note'], 120681, 146908, 146914, 146920,
+        146914),
     requires = {
         ns.requirement.Item(146920) -- Portal-Stone: Fel Obliterator
     },
@@ -65,7 +67,8 @@ map.nodes[07505400] = Rare({
 map.nodes[09505400] = Rare({
     id = 120665,
     quest = nil,
-    note = L['broken_shore_sentinax_rare_note'],
+    note = format(L['sentinax_rare_note'], 120665, 146906, 146912, 146918,
+        146912),
     requires = {
         ns.requirement.Item(146918) -- Portal-Stone: Force-Commander Xillious
     },
@@ -78,7 +81,8 @@ map.nodes[09505400] = Rare({
 map.nodes[11505400] = Rare({
     id = 120686,
     quest = nil,
-    note = L['broken_shore_sentinax_rare_note'],
+    note = format(L['sentinax_rare_note'], 120686, 146909, 146915, 146921,
+        146915),
     requires = {
         ns.requirement.Item(146921) -- Portal-Stone: Illisthyndria
     },
@@ -91,7 +95,8 @@ map.nodes[11505400] = Rare({
 map.nodes[13505400] = Rare({
     id = 120641,
     quest = nil,
-    note = L['broken_shore_sentinax_rare_note'],
+    note = format(L['sentinax_rare_note'], 120641, 146905, 146911, 146917,
+        146911),
     requires = {
         ns.requirement.Item(146917) -- Portal-Stone: Skulguloth
     },
@@ -104,7 +109,8 @@ map.nodes[13505400] = Rare({
 map.nodes[15505400] = Rare({
     id = 120583,
     quest = nil,
-    note = L['broken_shore_sentinax_rare_note'],
+    note = format(L['sentinax_rare_note'], 120583, 146903, 146910, 146916,
+        146910),
     requires = {
         ns.requirement.Item(146916) -- Portal-Stone: Than'otalion
     },

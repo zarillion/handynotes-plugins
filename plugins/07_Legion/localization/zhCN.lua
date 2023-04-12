@@ -96,15 +96,18 @@ L['options_icons_bringing_home_the_beacon_desc'] = '显示 {achievement:11802} �
 L['hidden_wyrmtongue_cache_label'] = '隐藏的虫语者箱子'
 L['in_horde_ship'] = '在坠毁的部落飞艇中。'
 L['broken_shore_worldboss_note'] = '只在 {location:虚空干扰器} 完成时出现。每个周期只会产生一个世界首领。'
-L['broken_shore_sentinax_rare_note'] = [[
+L['sentinax_rare_note'] = nil --[[
 要首领出现，需要在 {npc:127264} 下有 {spell:240640} 增益时刷怪并开启传送门。
 
-· {npc:120686} 需要 {item:146909} -> {item:146915} -> {item:146921}
-· {npc:120681} 需要 {item:146908} -> {item:146914} -> {item:146920}
-· {npc:120675} 需要 {item:146907} -> {item:146913} -> {item:146919}
-· {npc:120665} 需要 {item:146906} -> {item:146912} -> {item:146918}
-· {npc:120641} 需要 {item:146905} -> {item:146911} -> {item:146917}
-· {npc:120583} 需要 {item:146903} -> {item:146910} -> {item:146916}
+{npc:%d} 需要
+{item:%d}
+->
+{item:%d}
+->
+{item:%d}
+
+When the {location:The Nether Disruptor} is up, {npc:120898} will sell {item:147775} that can be used on {npc:120751s} up to 50 time per day.
+The Portals will then spawn Elite Mobs that have a higher chance of dropping {item:%d}.
 ]]
 
 -------------------------------------------------------------------------------

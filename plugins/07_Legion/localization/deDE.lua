@@ -104,12 +104,18 @@ L['options_icons_bringing_home_the_beacon_desc'] = 'Zeigt {npc:127264} orte für
 L['hidden_wyrmtongue_cache_label'] = 'Verborgene Wyrmzungentruhe'
 L['in_horde_ship'] = 'Im abgestürzten Horde Luftschiff.'
 L['broken_shore_worldboss_note'] = 'Wird nur erscheinen wenn das {location:Netherdisruptor} aktiv ist. Nur ein Weltboss kann pro Zyklus erscheinen.'
-L['broken_shore_sentinax_rare_note'] = [[
-Damit der seltene Gegner erscheint musst du seinen Portalstein benutzen welcher von Elite Gegnern aus {object:Instabilen Netherportalen} fallen gelassen wird.
-Diese Portale erscheinen nur während das {location:Netherdisruptor} aktiv ist.
+L['sentinax_rare_note'] = [[
+Damit der seltene Gegner erscheint musst du Gegner töten und {object:Sentinaxsignale} benutzen um Portale unter der {npc:127264} zu öffnen während der Buff {spell:240640} auf dir ist.
 
-Damit der Elite Gegner erschein musst du einen {item:147775} benutzen, maximal 50 mal am Tag.
-Dieser wird nur von {npc:120898} verkauft, während das {location:Netherdisruptor} aktiv ist.
+{npc:%d} benötigt
+{item:%d}
+->
+{item:%d}
+->
+{item:%d}
+
+Wenn der {location:Netherdisruptor} aktiv ist, wird {npc:120898} den {item:147775} verkaufen. Diese können bis zu 50 mal pro Tag bei {npc:120751} benutzt werden.
+Bei den Portalen erscheinen dann Elite Gegner, diese haben eine höhere chance {item:%d} fallen zu lassen.
 ]]
 
 -------------------------------------------------------------------------------
