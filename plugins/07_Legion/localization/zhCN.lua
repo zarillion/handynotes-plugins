@@ -95,8 +95,14 @@ L['options_icons_bringing_home_the_beacon_desc'] = '显示 {achievement:11802} �
 
 L['hidden_wyrmtongue_cache_label'] = '隐藏的虫语者箱子'
 L['in_horde_ship'] = '在坠毁的部落飞艇中。'
-L['broken_shore_worldboss_note'] = nil
-L['broken_shore_sentinax_rare_note'] = nil
+L['broken_shore_worldboss_note'] = '只在 {location:虚空干扰器} 完成时出现。每个周期只会产生一个世界首领。'
+L['broken_shore_sentinax_rare_note'] = [[
+要出现稀有，需要使用它的传送石，这从 {npc:120751} 的精英首领掉落
+传送门只会在 {location:虚空干扰器} 完成时出现。
+
+要召唤精英首领，需要一个 {item:147775}，每天最多50次。
+这只在 {location:虚空干扰器} 完成时从 {npc:120898} 出售。
+]]
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
