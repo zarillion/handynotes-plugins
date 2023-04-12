@@ -756,7 +756,7 @@ L['offering_of_mojo_label'] = 'Offering of Mojo'
 L['offering_of_mojo_location'] = 'Next to the green cauldron in {location:The Devil\'s Terrace}.'
 
 L['zg_vendor_note_01'] = 'Exchange various Bijou and {item:203914} for recipes and transmog.'
-L['zg_vendor_note_02'] = '{note:Class ensembles are only available to classes that were in the game during the time of the original {location:Zul\'Gurub.} Armor ensembles can be worn by everyone.}'
+L['zg_vendor_note_02'] = '{note:Class ensembles are only available to classes that were in the game during the time of the original {location:Zul\'Gurub} Armor ensembles can be worn by everyone.}'
 L['zg_vendor_note_03'] = '{item:203914} can be obtained from collecting varios coins from mobs in {location:Zul\'Gurub}.'
 
 L['zg_class_ensembles'] = 'Zul\'Gurub Class Ensembles'
