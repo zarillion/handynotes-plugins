@@ -302,7 +302,7 @@ map.nodes[77782364] = Rare({
     areaPOI = 5303
 }) -- Grossir
 
-map.nodes[61004400] = Rare({
+map.nodes[60434503] = Rare({
     id = 119718,
     quest = 46313,
     rewards = {},
@@ -409,9 +409,9 @@ local HiddenWyrmtongueCache = Class('HiddenWyrmtongueCache', ns.node.Node, {
 
 map.nodes[28416046] = HiddenWyrmtongueCache()
 map.nodes[29406010] = HiddenWyrmtongueCache({devnote = '2'})
-map.nodes[30106690] = HiddenWyrmtongueCache({devnote = '3'})
+map.nodes[29996697] = HiddenWyrmtongueCache()
 map.nodes[30655771] = HiddenWyrmtongueCache()
-map.nodes[30903320] = HiddenWyrmtongueCache({devnote = '5'})
+map.nodes[30923319] = HiddenWyrmtongueCache()
 map.nodes[30894947] = HiddenWyrmtongueCache({note = L['in_water']})
 map.nodes[31103210] = HiddenWyrmtongueCache({devnote = '7'})
 map.nodes[32903226] = HiddenWyrmtongueCache()
@@ -426,22 +426,22 @@ map.nodes[38613456] = HiddenWyrmtongueCache({
 })
 map.nodes[39045826] = HiddenWyrmtongueCache()
 map.nodes[40106110] = HiddenWyrmtongueCache({devnote = '16'})
-map.nodes[40607290] = HiddenWyrmtongueCache({devnote = '17'})
+map.nodes[40637287] = HiddenWyrmtongueCache()
 map.nodes[41115122] = HiddenWyrmtongueCache()
-map.nodes[41303650] = HiddenWyrmtongueCache({devnote = '19'})
+map.nodes[41373653] = HiddenWyrmtongueCache()
 map.nodes[41603460] = HiddenWyrmtongueCache({devnote = '22'})
 map.nodes[42001580] = HiddenWyrmtongueCache({devnote = '23'})
 map.nodes[42006718] = HiddenWyrmtongueCache({
     note = L['in_cave'],
     pois = {POI({45576703})}
 })
-map.nodes[42104280] = HiddenWyrmtongueCache({devnote = '25'})
+map.nodes[41994277] = HiddenWyrmtongueCache()
 map.nodes[42796199] = HiddenWyrmtongueCache({
     note = L['in_cave'],
     pois = {POI({45576703})}
 })
 map.nodes[43402660] = HiddenWyrmtongueCache({devnote = '28'})
-map.nodes[43404690] = HiddenWyrmtongueCache({devnote = '29'})
+map.nodes[43354694] = HiddenWyrmtongueCache()
 map.nodes[43505220] = HiddenWyrmtongueCache({devnote = '30'})
 map.nodes[44623358] = HiddenWyrmtongueCache()
 map.nodes[45794678] = HiddenWyrmtongueCache()
@@ -453,7 +453,7 @@ map.nodes[47494686] = HiddenWyrmtongueCache()
 map.nodes[47603470] = HiddenWyrmtongueCache({devnote = '41'})
 map.nodes[48113412] = HiddenWyrmtongueCache()
 map.nodes[48263705] = HiddenWyrmtongueCache()
-map.nodes[49001870] = HiddenWyrmtongueCache({devnote = '44'})
+map.nodes[48881860] = HiddenWyrmtongueCache()
 map.nodes[49844639] = HiddenWyrmtongueCache()
 map.nodes[50324990] = HiddenWyrmtongueCache()
 map.nodes[50805970] = HiddenWyrmtongueCache({devnote = '48'})
@@ -469,7 +469,7 @@ map.nodes[53008180] = HiddenWyrmtongueCache({
     note = L['in_water'],
     devnote = '58'
 })
-map.nodes[53401940] = HiddenWyrmtongueCache({devnote = '59'})
+map.nodes[53321944] = HiddenWyrmtongueCache()
 map.nodes[53542790] = HiddenWyrmtongueCache()
 map.nodes[53604560] = HiddenWyrmtongueCache({devnote = '61'})
 map.nodes[54607400] = HiddenWyrmtongueCache({
@@ -510,7 +510,7 @@ map.nodes[63903090] = HiddenWyrmtongueCache({
     note = L['in_small_cave'],
     pois = {POI({66733459})}
 })
-map.nodes[64201800] = HiddenWyrmtongueCache({devnote = '86'})
+map.nodes[64331808] = HiddenWyrmtongueCache()
 map.nodes[64694543] = HiddenWyrmtongueCache()
 map.nodes[67904210] = HiddenWyrmtongueCache({devnote = '89'})
 map.nodes[68371966] = HiddenWyrmtongueCache()
@@ -536,15 +536,17 @@ map.nodes[73803650] = HiddenWyrmtongueCache({
 map.nodes[74642968] = HiddenWyrmtongueCache()
 map.nodes[75993590] = HiddenWyrmtongueCache()
 map.nodes[78933723] = HiddenWyrmtongueCache()
-map.nodes[82203130] = HiddenWyrmtongueCache({devnote = '103'})
+map.nodes[82343119] = HiddenWyrmtongueCache()
 map.nodes[82534592] = HiddenWyrmtongueCache()
-map.nodes[85505410] = HiddenWyrmtongueCache({devnote = '107'})
+map.nodes[85415397] = HiddenWyrmtongueCache()
 map.nodes[85802990] = HiddenWyrmtongueCache({devnote = '108'})
 map.nodes[69423802] = HiddenWyrmtongueCache()
 map.nodes[49067398] = HiddenWyrmtongueCache({
     note = L['in_water'],
     pois = {POI({49887333})}
 })
+map.nodes[58927298] = HiddenWyrmtongueCache({note = L['in_water']})
+map.nodes[61923303] = HiddenWyrmtongueCache()
 
 -------------------------------------------------------------------------------
 -------------------------- BRINGING HOME THE BEACON ---------------------------
