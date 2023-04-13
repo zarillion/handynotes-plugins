@@ -95,8 +95,8 @@ L['options_icons_bringing_home_the_beacon_desc'] = '显示 {achievement:11802} �
 
 L['hidden_wyrmtongue_cache_label'] = '隐藏的虫语者箱子'
 L['in_horde_ship'] = '在坠毁的部落飞艇中。'
-L['broken_shore_worldboss_note'] = '只在 {location:虚空干扰器} 完成时出现。每个周期只会产生一个世界首领。'
-L['sentinax_rare_note'] = nil --[[
+L['broken_shore_worldboss_note'] = '只在 {location:虚空干扰器} 建成时出现。每个周期只会产生一个世界首领。'
+L['sentinax_rare_note'] = [[
 要首领出现，需要在 {npc:127264} 下有 {spell:240640} 增益时刷怪并开启传送门。
 
 {npc:%d} 需要
@@ -106,8 +106,8 @@ L['sentinax_rare_note'] = nil --[[
 ->
 {item:%d}
 
-When the {location:The Nether Disruptor} is up, {npc:120898} will sell {item:147775} that can be used on {npc:120751s} up to 50 time per day.
-The Portals will then spawn Elite Mobs that have a higher chance of dropping {item:%d}.
+当 {location:虚空干扰器} 建成时，{npc:120898} 将出售 {item:147775}，每天最多可以在 {npc:120751} 上使用50次。
+传送门随后会出现精英怪物有更高几率掉落 {item:%d}。
 ]]
 
 -------------------------------------------------------------------------------
