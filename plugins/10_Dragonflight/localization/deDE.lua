@@ -686,10 +686,10 @@ L['in_deepflayer_nest'] = nil
 
 L['brulsef_the_stronk_note'] = 'Du erhältst deine Belohnung aus der {object:Chest of Massive Gains}.' -- todo: translate chest name
 
-L['ancient_zaqali_chest_note'] = nil
+L['ancient_zaqali_chest_note'] = 'Benutze die {object:Bottled Magma} in der nähe, um die Kiste zu öffnen' -- todo: translate object name
 L['blazing_shadowflame_chest_note'] = nil
 L['crystal_encased_chest_note'] = 'Interagiere mit dem Blauen {object:Abstimmungskristall} ({dot:Blue}) und dem Roten {object:Abstimmungskristall} ({dot:Red}), um den Schatz zu öffnen.'
-L['old_trunk_note'] = nil
+L['old_trunk_note'] = 'Sammle und kombiniere 5 {item:204325} um einen {item:204323} herzustellen.'
 L['well_chewed_chest_note'] = 'Der {item:202869}({dot:Green}) ist unter {npc:199962} in einer Höhle versteckt.'
 
 L['molten_hoard_label'] = 'Geschmolzener Schatz'
