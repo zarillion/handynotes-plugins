@@ -722,7 +722,7 @@ Benutze die Halskette und sammle {item:202062} {dot:Red} die sich in der Umgebun
 L['phoenix_wishwing_info'] = 'Dies ist teil des {item:193373} in {location:Küste des Erwachens} auf den {location:Dracheninseln}.'
 
 -------------------------------------------------------------------------------
------------------------------ ZUL'GURUB (10.0.5) ------------------------------
+----------------------------- ZUL'GURUB (10.0.7) ------------------------------
 -------------------------------------------------------------------------------
 
 L['zg_unlock_note_01'] = nil

@@ -724,7 +724,7 @@ L['phoenix_wishwing_ash_feather'] = [[
 L['phoenix_wishwing_info'] = 'This is part of the {item:193373} Collectible located in {location:The Waking Shore} on the {location:Dragon Isles}.'
 
 -------------------------------------------------------------------------------
------------------------------ ZUL'GURUB (10.0.5) ------------------------------
+----------------------------- ZUL'GURUB (10.0.7) ------------------------------
 -------------------------------------------------------------------------------
 
 L['zg_unlock_note_01'] = nil

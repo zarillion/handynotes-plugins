@@ -721,7 +721,7 @@ Utilisez cette amulette et ramassez des {item:202062} {dot:Red} trouvées à l'{
 L['phoenix_wishwing_info'] = 'Ceci fait partie de de la méthode d\'obtention du {item:193373} situé aux {location:Rivages de l’Éveil} sur les {location:Îles aux Dragons}.'
 
 -------------------------------------------------------------------------------
------------------------------ ZUL'GURUB (10.0.5) ------------------------------
+----------------------------- ZUL'GURUB (10.0.7) ------------------------------
 -------------------------------------------------------------------------------
 
 L['zg_unlock_note_01'] = '1. {dot:Blue} Récupérez le {item:203735} dans la salle remplie de fantômes sous {npc:52148} à l\'{location:Autel de sang}.'

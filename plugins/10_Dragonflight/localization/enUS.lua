@@ -723,7 +723,7 @@ Use this necklace and pick up {item:202062} {dot:Red} found within the {location
 L['phoenix_wishwing_info'] = 'This is part of the {item:193373} Collectible located in {location:The Waking Shore} on the {location:Dragon Isles}.'
 
 -------------------------------------------------------------------------------
------------------------------ ZUL'GURUB (10.0.5) ------------------------------
+----------------------------- ZUL'GURUB (10.0.7) ------------------------------
 -------------------------------------------------------------------------------
 
 L['zg_unlock_note_01'] = '1. {dot:Blue} Collect the {item:203735} from the ghost-filled room below {npc:52148} in the {location:Altar of Blood}.'

@@ -724,7 +724,7 @@ Usa el amuleto y coge las {item:202062} {dot:Red} que hay dentro del {location:A
 L['phoenix_wishwing_info'] = 'Esto es parte de la mascota de combate {item:193373} localizada en las {location:Orillas del Despertar} de las {location:Islas Dragón}.'
 
 -------------------------------------------------------------------------------
------------------------------ ZUL'GURUB (10.0.5) ------------------------------
+----------------------------- ZUL'GURUB (10.0.7) ------------------------------
 -------------------------------------------------------------------------------
 
 L['zg_unlock_note_01'] = '1. {dot:Blue} Coge la {item:203735} de la habitación llena de fantasmas debajo de {npc:52148} en el {location:Altar del Dios de la Sangre}.'
