@@ -711,6 +711,9 @@ L['waterlogged_bundle_label'] = 'Waterlogged Bundle'
 
 L['stolen_stash_label'] = 'Stolen Stash'
 L['ritual_offering_label'] = 'Ritual Offering'
+L['smelly_trash_pile_label'] = 'Smelly Trash Pile'
+L['nal_kskol_reliquary_label'] = 'Nal ks\'kol Reliquary'
+L['nal_kskol_reliquary_note'] = 'Use the {object:Reliquary Access Console} and solve the puzzle to open the {object:Nal ks\'kol Reliquary}.'
 
 L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.'
 L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'

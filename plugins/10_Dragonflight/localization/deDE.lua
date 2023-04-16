@@ -703,6 +703,9 @@ L['waterlogged_bundle_label'] = 'Durchnässtes Bündel'
 
 L['stolen_stash_label'] = 'Gestohlenes Lager'
 L['ritual_offering_label'] = 'Ritualopfergaben'
+L['smelly_trash_pile_label'] = 'Stinkender Müllhaufen'
+L['nal_kskol_reliquary_label'] = 'Reliquiar von Nal ks\'kol'
+L['nal_kskol_reliquary_note'] = 'Benutze die {object:Reliquary Access Console} und löse das Rätsel um das {object:Reliquiar von Nal ks\'kol} zu öffnen.' -- todo: translate object name
 
 L['molten_scoutbot_note'] = 'Öffne das {object:Molten Scoutbot} und plündere {item:204855}.' -- todo: translate chest name
 L['bolts_and_brass_note'] = 'Öffne {object:Bolts and Brass} und plündere {item:204850}.' -- todo: translate chest name

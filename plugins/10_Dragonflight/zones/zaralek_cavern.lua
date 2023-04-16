@@ -250,12 +250,30 @@ map.nodes[28544791] = Treasure({
     }
 }) -- Blazing Shadowflame Chest
 
+map.nodes[42976040] = Treasure({
+    quest = 75232,
+    requires = {
+        ns.requirement.Quest(75145) -- In the Wake of the Ashes
+    },
+    rewards = {
+        Achievement({id = 17786, criteria = 59225}) -- Treasures of Zaralek Cavern
+    }
+}) -- Bloody Body
+-- coords and required quest from wowhead comments.
+-- i completed the questline until "In the Wake of the Ashes" but the body is not there
+
 map.nodes[30044193] = Treasure({
     quest = 73706,
     rewards = {
         Achievement({id = 17786, criteria = 59226}) -- Treasures of Zaralek Cavern
     }
 }) -- Charred Egg
+
+map.nodes[70002000] = Treasure({
+    rewards = {
+        Achievement({id = 17786, criteria = 59224}) -- Treasures of Zaralek Cavern
+    }
+}) -- Chest of the Flights
 
 map.nodes[36397425] = Treasure({
     note = L['crystal_encased_chest_note'],
@@ -289,6 +307,12 @@ map.nodes[43058256] = Treasure({
         Achievement({id = 17786, criteria = 59227}) -- Treasures of Zaralek Cavern
     }
 }) -- Old Trunk
+
+map.nodes[73002000] = Treasure({
+    rewards = {
+        Achievement({id = 17786, criteria = 59221}) -- Treasures of Zaralek Cavern
+    }
+}) -- Seething Cache
 
 map.nodes[29774050] = Treasure({
     quest = 73395,
@@ -343,6 +367,14 @@ map.nodes[62065530] = Treasure({
     }
 }) -- Waterlogged Bundle
 
+map.nodes[64197495] = Treasure({
+    label = L['nal_kskol_reliquary_label'],
+    requires = {ns.requirement.Quest(72962)},
+    quest = 75745,
+    note = L['nal_kskol_reliquary_note'],
+    pois = {POI({62577334})}
+}) -- Nal ks'kol Reliquary
+
 ------------------------------ RANDOM TREASURES -------------------------------
 
 map.nodes[60664622] = Treasure({label = L['stolen_stash_label'], quest = 75302})
@@ -364,11 +396,28 @@ local RitualOffering = Class('RitualOffering', Treasure, {
 }) -- Ritual Offering
 
 map.nodes[26874611] = RitualOffering()
+map.nodes[32395034] = RitualOffering({quest = 73542}) -- 66381
 map.nodes[35145225] = RitualOffering({quest = 73552})
 map.nodes[36034452] = RitualOffering()
-map.nodes[36395236] = RitualOffering({quest = 73552}) --  75814
+map.nodes[36395236] = RitualOffering({quest = 73552}) -- 75814
 map.nodes[40015127] = RitualOffering({quest = 73548})
 map.nodes[41694457] = RitualOffering({quest = 73548})
+
+local SmellyTrashPile = Class('SmellyTrashPile', Treasure, {
+    label = L['smelly_trash_pile_label'],
+    rewards = {
+        Currency({id = 2245}), -- Flightstones
+        Item({item = 192055}), -- Dragon Isles Artifact
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+}) -- Smelly Trash Pile
+-- may require niffen renown level 2 or some quest to be completed.
+
+map.nodes[31175207] = SmellyTrashPile()
+map.nodes[37403969] = SmellyTrashPile()
+map.nodes[50326091] = SmellyTrashPile()
+map.nodes[51055710] = SmellyTrashPile()
+map.nodes[57476456] = SmellyTrashPile()
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------

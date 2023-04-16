@@ -712,6 +712,9 @@ L['waterlogged_bundle_label'] = 'Fardo Empapado'
 
 L['stolen_stash_label'] = 'Alijo Robado'
 L['ritual_offering_label'] = 'Ofrendas Rituales'
+L['smelly_trash_pile_label'] = nil
+L['nal_kskol_reliquary_label'] = nil
+L['nal_kskol_reliquary_note'] = nil
 
 L['molten_scoutbot_note'] = 'Abre el {object:Explorabot de magma} y despoja el {item:204850}.'
 L['bolts_and_brass_note'] = 'Abre los {object:Tornillos y Latón} y despoja los {item:204850}.'

@@ -682,6 +682,9 @@ L['waterlogged_bundle_label'] = nil
 
 L['stolen_stash_label'] = nil
 L['ritual_offering_label'] = nil
+L['smelly_trash_pile_label'] = nil
+L['nal_kskol_reliquary_label'] = nil
+L['nal_kskol_reliquary_note'] = nil
 
 L['molten_scoutbot_note'] = nil
 L['bolts_and_brass_note'] = nil

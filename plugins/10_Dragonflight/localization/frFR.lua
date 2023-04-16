@@ -712,6 +712,9 @@ L['waterlogged_bundle_label'] = 'Paquet détrempé'
 
 L['stolen_stash_label'] = 'Butin volé'
 L['ritual_offering_label'] = 'Offrandes rituelles'
+L['smelly_trash_pile_label'] = nil
+L['nal_kskol_reliquary_label'] = nil
+L['nal_kskol_reliquary_note'] = nil
 
 L['molten_scoutbot_note'] = 'Examinez l\'{object:Explorobot fondu} et récupérez le {item:204855}.'
 L['bolts_and_brass_note'] = 'Examinez les {object:Boulons et cuivre} et récupérez la {item:204850}.'
