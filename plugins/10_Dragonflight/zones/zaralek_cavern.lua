@@ -239,7 +239,8 @@ map.nodes[36694883] = Treasure({
     note = L['ancient_zaqali_chest_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59222}) -- Treasures of Zaralek Cavern
-    }
+    },
+    pois = {POI({36444822})}
 }) -- Ancient Zaqali Chest
 
 map.nodes[28544791] = Treasure({
@@ -315,7 +316,7 @@ map.nodes[48451083] = Treasure({
     note = L['fealtys_reward_note']
 }) -- Fealty's Reward
 
-map.nodes[57646631] = Treasure({
+map.nodes[57956632] = Treasure({
     label = L['dreamers_bounty_label'],
     note = L['dreamers_bounty_note']
 }) -- Dreamer's Bounty
@@ -365,6 +366,8 @@ local RitualOffering = Class('RitualOffering', Treasure, {
 map.nodes[26874611] = RitualOffering()
 map.nodes[35145225] = RitualOffering({quest = 73552})
 map.nodes[36034452] = RitualOffering()
+map.nodes[36395236] = RitualOffering({quest = 73552}) --  75814
+map.nodes[40015127] = RitualOffering({quest = 73548})
 map.nodes[41694457] = RitualOffering({quest = 73548})
 
 -------------------------------------------------------------------------------
