@@ -348,10 +348,10 @@ map.nodes[62065530] = Treasure({
 map.nodes[60664622] = Treasure({label = L['stolen_stash_label'], quest = 75302})
 
 deepflayerNest.nodes[63698291] = Treasure({
-    abel = L['stolen_stash_label'],
+    label = L['stolen_stash_label'],
     quest = 75303,
     location = L['in_deepflayer_nest'],
-    parent = map.id
+    parent = {id = map.id, pois = {POI({61463864})}}
 })
 
 local RitualOffering = Class('RitualOffering', Treasure, {

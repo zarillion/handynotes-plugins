@@ -682,7 +682,7 @@ L['options_icons_dragonbane_siege_desc'] = 'Zeigt die Position und Belohnungen d
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
 
-L['in_deepflayer_nest'] = nil
+L['in_deepflayer_nest'] = 'Im {location:Tiefenschindernest}.'
 
 L['brulsef_the_stronk_note'] = 'Du erhältst deine Belohnung aus der {object:Chest of Massive Gains}.' -- todo: translate chest name
 
