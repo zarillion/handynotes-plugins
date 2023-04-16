@@ -712,9 +712,9 @@ L['waterlogged_bundle_label'] = 'Paquet détrempé'
 
 L['stolen_stash_label'] = 'Butin volé'
 L['ritual_offering_label'] = 'Offrandes rituelles'
-L['smelly_trash_pile_label'] = nil
-L['nal_kskol_reliquary_label'] = nil
-L['nal_kskol_reliquary_note'] = nil
+L['smelly_trash_pile_label'] = 'Tas de déchets kifouette'
+L['nal_kskol_reliquary_label'] = 'Reliquaire de Nak Ks\'sol'
+L['nal_kskol_reliquary_note'] = 'Utilisez la {object:Console d\'accès au reliquaire} et résolvez l\'énigme pour ouvrir le {object:Reliquaire de Nak Ks\'sol}.'
 
 L['molten_scoutbot_note'] = 'Examinez l\'{object:Explorobot fondu} et récupérez le {item:204855}.'
 L['bolts_and_brass_note'] = 'Examinez les {object:Boulons et cuivre} et récupérez la {item:204850}.'
