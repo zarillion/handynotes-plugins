@@ -682,7 +682,6 @@ L['waterlogged_bundle_label'] = nil
 
 L['stolen_stash_label'] = nil
 L['ritual_offering_label'] = nil
-L['smelly_trash_pile_label'] = nil
 L['nal_kskol_reliquary_label'] = nil
 L['nal_kskol_reliquary_note'] = nil
 
@@ -695,3 +694,7 @@ L['big_slick_note_1'] = nil
 
 L['saccratos_note'] = nil
 L['ponzo_note'] = nil
+
+L['smelly_trash_pile_label'] = nil
+L['options_icons_smelly_trash_pile'] = nil
+L['options_icons_smelly_trash_pile_desc'] = nil

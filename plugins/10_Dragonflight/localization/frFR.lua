@@ -712,7 +712,6 @@ L['waterlogged_bundle_label'] = 'Paquet détrempé'
 
 L['stolen_stash_label'] = 'Butin volé'
 L['ritual_offering_label'] = 'Offrandes rituelles'
-L['smelly_trash_pile_label'] = 'Tas de déchets kifouette'
 L['nal_kskol_reliquary_label'] = 'Reliquaire de Nak Ks\'sol'
 L['nal_kskol_reliquary_note'] = 'Utilisez la {object:Console d\'accès au reliquaire} et résolvez l\'énigme pour ouvrir le {object:Reliquaire de Nak Ks\'sol}.'
 
@@ -725,3 +724,7 @@ L['big_slick_note_1'] = 'l\'{npc:48182} peut être trouvé dans l\'ancienne vers
 
 L['saccratos_note'] = 'Échangez vos {item:204727} contre une mascotte, une monture et plus encore.'
 L['ponzo_note'] = 'Échangez vos {item:204985} et vos {item:205903} contre des personnalisations de drake, une mascotte, une monture et plus encore.'
+
+L['smelly_trash_pile_label'] = 'Tas de déchets kifouette'
+L['options_icons_smelly_trash_pile'] = nil
+L['options_icons_smelly_trash_pile_desc'] = nil

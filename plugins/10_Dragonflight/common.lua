@@ -165,6 +165,11 @@ ns.groups.SMALL_TREASURES = Group('small_treasures', 'chest_rd', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.SMELLY_TRASH_PILE = Group('smelly_trash_pile', 'chest_gn', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.TITAN_CHEST = Group('titan_chest', 'chest_rd', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION

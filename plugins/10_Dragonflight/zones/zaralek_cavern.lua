@@ -121,8 +121,10 @@ map.nodes[45673327] = Rare({
 
 map.nodes[28515115] = Rare({
     id = 203646,
+    quest = 75352, -- 75353
     rewards = {
-        Achievement({id = 17783, criteria = 59206}) -- Adventurer of Zaralek Cavern
+        Achievement({id = 17783, criteria = 59206}), -- Adventurer of Zaralek Cavern
+        Currency({id = 2245}) -- Flightstones
     }
 }) -- Jrumm
 
@@ -399,12 +401,16 @@ map.nodes[26874611] = RitualOffering()
 map.nodes[32395034] = RitualOffering({quest = 73542}) -- 66381
 map.nodes[35145225] = RitualOffering({quest = 73552})
 map.nodes[36034452] = RitualOffering()
+map.nodes[28195157] = RitualOffering({quest = 73553})
 map.nodes[36395236] = RitualOffering({quest = 73552}) -- 75814
 map.nodes[40015127] = RitualOffering({quest = 73548})
+map.nodes[40825032] = RitualOffering({quest = 73548})
 map.nodes[41694457] = RitualOffering({quest = 73548})
 
-local SmellyTrashPile = Class('SmellyTrashPile', Treasure, {
+local SmellyTrashPile = Class('SmellyTrashPile', ns.node.Node, {
     label = L['smelly_trash_pile_label'],
+    icon = 'chest_gn',
+    group = ns.groups.SMELLY_TRASH_PILE,
     rewards = {
         Currency({id = 2245}), -- Flightstones
         Item({item = 192055}), -- Dragon Isles Artifact
@@ -415,8 +421,17 @@ local SmellyTrashPile = Class('SmellyTrashPile', Treasure, {
 
 map.nodes[31175207] = SmellyTrashPile()
 map.nodes[37403969] = SmellyTrashPile()
+map.nodes[37458125] = SmellyTrashPile()
+map.nodes[39377663] = SmellyTrashPile()
+map.nodes[40155751] = SmellyTrashPile()
+map.nodes[43163817] = SmellyTrashPile()
+map.nodes[44686196] = SmellyTrashPile()
+map.nodes[47054134] = SmellyTrashPile()
+map.nodes[47104296] = SmellyTrashPile()
+map.nodes[49154325] = SmellyTrashPile()
 map.nodes[50326091] = SmellyTrashPile()
 map.nodes[51055710] = SmellyTrashPile()
+map.nodes[52562740] = SmellyTrashPile()
 map.nodes[57476456] = SmellyTrashPile()
 
 -------------------------------------------------------------------------------
@@ -443,6 +458,8 @@ map.nodes[57657393] = PT.Engineering({
     quest = 75430,
     note = L['bolts_and_brass_note']
 }) -- Bolts and Brass (Handful of Khaz'gorite Bolts)
+
+map.nodes[48312201] = PT.Blacksmithing({id = 205987, quest = 76079}) -- Brimstone Rescue Ring
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

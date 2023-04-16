@@ -711,7 +711,6 @@ L['waterlogged_bundle_label'] = 'Waterlogged Bundle'
 
 L['stolen_stash_label'] = 'Stolen Stash'
 L['ritual_offering_label'] = 'Ritual Offering'
-L['smelly_trash_pile_label'] = 'Smelly Trash Pile'
 L['nal_kskol_reliquary_label'] = 'Nal ks\'kol Reliquary'
 L['nal_kskol_reliquary_note'] = 'Use the {object:Reliquary Access Console} and solve the puzzle to open the {object:Nal ks\'kol Reliquary}.'
 
@@ -724,3 +723,7 @@ L['big_slick_note_1'] = '{npc:48182} can be found in old-world {location:Darksho
 
 L['saccratos_note'] = 'Exchange {item:204727} for a pet, mount, and more.'
 L['ponzo_note'] = 'Exchange {item:204985} and {item:205903} for drake customizations, pet, mount, and more.'
+
+L['smelly_trash_pile_label'] = 'Smelly Trash Pile'
+L['options_icons_smelly_trash_pile'] = 'Smelly Trash Pile'
+L['options_icons_smelly_trash_pile_desc'] = 'Display possible locations of {object:Smelly Trash Pile}.'
