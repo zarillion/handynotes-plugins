@@ -726,5 +726,5 @@ L['saccratos_note'] = 'Cambia {item:204727} por una mascota, montura, y más.'
 L['ponzo_note'] = 'Cambia {item:204985} y {item:205903} por personalizaciones para el draco, mascota, montura, y más.'
 
 L['smelly_trash_pile_label'] = 'Montón de Basura Maloliente'
-L['options_icons_smelly_trash_pile'] = nil
-L['options_icons_smelly_trash_pile_desc'] = nil
+L['options_icons_smelly_trash_pile'] = 'Montón de Basura Maloliente'
+L['options_icons_smelly_trash_pile_desc'] = 'Muestra dónde puede haber {object:Montón de Basura Maloliente}.'
