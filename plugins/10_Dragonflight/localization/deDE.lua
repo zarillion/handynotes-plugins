@@ -703,7 +703,6 @@ L['waterlogged_bundle_label'] = 'Durchnässtes Bündel'
 
 L['stolen_stash_label'] = 'Gestohlenes Lager'
 L['ritual_offering_label'] = 'Ritualopfergaben'
-L['smelly_trash_pile_label'] = 'Stinkender Müllhaufen'
 L['nal_kskol_reliquary_label'] = 'Reliquiar von Nal ks\'kol'
 L['nal_kskol_reliquary_note'] = 'Benutze die {object:Reliquary Access Console} und löse das Rätsel um das {object:Reliquiar von Nal ks\'kol} zu öffnen.' -- todo: translate object name
 
@@ -716,3 +715,7 @@ L['big_slick_note_1'] = '{npc:48182} kann in der alten Welt an der {location:Dun
 
 L['saccratos_note'] = 'Tausche {item:204727} gegen ein Reittier, ein Haustier und mehr ein.'
 L['ponzo_note'] = 'Tausche {item:204985} gegen Drachenanpassungen, ein Reittier, ein Haustier und mehr ein.'
+
+L['smelly_trash_pile_label'] = 'Stinkender Müllhaufen'
+L['options_icons_reed_chest'] = 'Stinkender Müllhaufen'
+L['options_icons_reed_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Stinkenden Müllhaufen} an.'
