@@ -1443,25 +1443,33 @@ function ElementalStorm.getters:rewards()
         ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['thunderstorm'],
         ELEMENTAL_STORM_PET_REWARDS['thunderstorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['thunderstorm'],
-        unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm']), Spacer(),
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm'][1],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm'][2],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm'][3], Spacer(),
         Section(L['elemental_storm_sandstorm']), -- Sandstorm Rewards
         getStormAchievement(self.mapID, 'sandstorm'),
         ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['sandstorm'],
         ELEMENTAL_STORM_PET_REWARDS['sandstorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['sandstorm'],
-        unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS['sandstorm']), Spacer(),
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['sandstorm'][1],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['sandstorm'][2], Spacer(),
         Section(L['elemental_storm_firestorm']), -- Firestorm Rewards
         getStormAchievement(self.mapID, 'firestorm'),
         ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['firestorm'],
         ELEMENTAL_STORM_PET_REWARDS['firestorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['firestorm'],
-        unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm']), Spacer(),
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'][1],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'][2],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'][3],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'][4], Spacer(),
         Section(L['elemental_storm_snowstorm']), -- Snowstorm Rewards
         getStormAchievement(self.mapID, 'snowstorm'),
         ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['snowstorm'],
         ELEMENTAL_STORM_PET_REWARDS['snowstorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['snowstorm'],
-        unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm']), Spacer(),
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm'][1],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm'][2],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm'][3], Spacer(),
         ELEMENTAL_STORM_FORMULA_REWARDS['all']
     }
 end
