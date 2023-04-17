@@ -712,8 +712,8 @@ L['waterlogged_bundle_label'] = 'Fardo Empapado'
 
 L['stolen_stash_label'] = 'Alijo Robado'
 L['ritual_offering_label'] = 'Ofrendas Rituales'
-L['nal_kskol_reliquary_label'] = 'Nal ks\'kol Reliquary' -- object
-L['nal_kskol_reliquary_note'] = 'Use the {object:Reliquary Access Console} and solve the puzzle to open the {object:Nal ks\'kol Reliquary}.' -- 'Usa la {object:Reliquary Access Console} y resuelve el puzzle para abrir el {object:Nal ks\'kol Reliquary}.'
+L['nal_kskol_reliquary_label'] = 'Relicario de Nal ks\'kol'
+L['nal_kskol_reliquary_note'] = 'Usa la {object:Consola de Acceso al Relicario} y resuelve el puzzle para abrir el {object:Relicario de Nal ks\'kol}.'
 
 L['molten_scoutbot_note'] = 'Abre el {object:Explorabot de magma} y despoja el {item:204850}.'
 L['bolts_and_brass_note'] = 'Abre los {object:Tornillos y Latón} y despoja los {item:204850}.'
