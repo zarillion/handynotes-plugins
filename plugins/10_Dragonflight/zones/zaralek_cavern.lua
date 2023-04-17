@@ -397,7 +397,7 @@ local RitualOffering = Class('RitualOffering', Treasure, {
     }
 }) -- Ritual Offering
 
-map.nodes[26874611] = RitualOffering()
+map.nodes[26874611] = RitualOffering({quest = 73553})
 map.nodes[28195157] = RitualOffering({quest = 73553})
 map.nodes[32395034] = RitualOffering({quest = 73542}) -- 66381
 map.nodes[32614416] = RitualOffering({quest = 73551})
@@ -407,6 +407,7 @@ map.nodes[36395236] = RitualOffering({quest = 73552}) -- 75814
 map.nodes[40015127] = RitualOffering({quest = 73548})
 map.nodes[40825032] = RitualOffering({quest = 73548})
 map.nodes[41694457] = RitualOffering({quest = 73548})
+map.nodes[41054876] = RitualOffering({quest = 73548})
 
 local SmellyTrashPile = Class('SmellyTrashPile', ns.node.Node, {
     label = L['smelly_trash_pile_label'],
@@ -421,14 +422,20 @@ local SmellyTrashPile = Class('SmellyTrashPile', ns.node.Node, {
 -- may require niffen renown level 2 or some quest to be completed.
 
 map.nodes[31175207] = SmellyTrashPile()
+map.nodes[35754907] = SmellyTrashPile()
+map.nodes[37056988] = SmellyTrashPile()
 map.nodes[37403969] = SmellyTrashPile()
 map.nodes[37458125] = SmellyTrashPile()
 map.nodes[39377663] = SmellyTrashPile()
 map.nodes[40155751] = SmellyTrashPile()
+map.nodes[40415197] = SmellyTrashPile()
+map.nodes[40613568] = SmellyTrashPile()
 map.nodes[43163817] = SmellyTrashPile()
 map.nodes[43552886] = SmellyTrashPile()
 map.nodes[44686196] = SmellyTrashPile()
+map.nodes[45384348] = SmellyTrashPile()
 map.nodes[45443717] = SmellyTrashPile()
+map.nodes[46366109] = SmellyTrashPile()
 map.nodes[46726819] = SmellyTrashPile()
 map.nodes[47054134] = SmellyTrashPile()
 map.nodes[47104296] = SmellyTrashPile()
@@ -465,7 +472,11 @@ map.nodes[57657393] = PT.Engineering({
     note = L['bolts_and_brass_note']
 }) -- Bolts and Brass (Handful of Khaz'gorite Bolts)
 
+map.nodes[57155464] = PT.Blacksmithing({id = 205986, quest = 76078}) -- Well-Worn Kiln
+
 map.nodes[48312201] = PT.Blacksmithing({id = 205987, quest = 76079}) -- Brimstone Rescue Ring
+
+map.nodes[27514286] = PT.Blacksmithing({id = 205988, quest = 76080}) -- Zaqali Elder Spear
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
