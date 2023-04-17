@@ -218,7 +218,7 @@ map.nodes[38424650] = Rare({
     }
 }) -- Subterrax
 
-map.nodes[57806923] = Rare({
+map.nodes[57766910] = Rare({
     id = 203593,
     quest = 75553,
     rewards = {
@@ -354,7 +354,7 @@ map.nodes[56734868] = Treasure({
     pois = {POI({56664934})} -- Struggling Mothling
 }) -- Moth-Pilfered Pouch
 
-map.nodes[62065530] = Treasure({
+map.nodes[62055534] = Treasure({
     label = L['waterlogged_bundle_label'],
     quest = 75015,
     location = L['in_water'],
@@ -398,10 +398,11 @@ local RitualOffering = Class('RitualOffering', Treasure, {
 }) -- Ritual Offering
 
 map.nodes[26874611] = RitualOffering()
+map.nodes[28195157] = RitualOffering({quest = 73553})
 map.nodes[32395034] = RitualOffering({quest = 73542}) -- 66381
+map.nodes[32614416] = RitualOffering({quest = 73551})
 map.nodes[35145225] = RitualOffering({quest = 73552})
 map.nodes[36034452] = RitualOffering()
-map.nodes[28195157] = RitualOffering({quest = 73553})
 map.nodes[36395236] = RitualOffering({quest = 73552}) -- 75814
 map.nodes[40015127] = RitualOffering({quest = 73548})
 map.nodes[40825032] = RitualOffering({quest = 73548})
@@ -425,14 +426,19 @@ map.nodes[37458125] = SmellyTrashPile()
 map.nodes[39377663] = SmellyTrashPile()
 map.nodes[40155751] = SmellyTrashPile()
 map.nodes[43163817] = SmellyTrashPile()
+map.nodes[43552886] = SmellyTrashPile()
 map.nodes[44686196] = SmellyTrashPile()
+map.nodes[45443717] = SmellyTrashPile()
+map.nodes[46726819] = SmellyTrashPile()
 map.nodes[47054134] = SmellyTrashPile()
 map.nodes[47104296] = SmellyTrashPile()
 map.nodes[49154325] = SmellyTrashPile()
 map.nodes[50326091] = SmellyTrashPile()
 map.nodes[51055710] = SmellyTrashPile()
+map.nodes[51931544] = SmellyTrashPile()
 map.nodes[52562740] = SmellyTrashPile()
 map.nodes[57476456] = SmellyTrashPile()
+map.nodes[62325600] = SmellyTrashPile()
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
