@@ -77,8 +77,9 @@ map.nodes[51317128] = Rare({
     }
 }) -- Progenitus
 
-map.nodes[53855330] = Rare({
+map.nodes[35815321] = Rare({
     id = 69998,
+    quest = 32610, -- 32626
     rewards = {
         Achievement({id = 8103, criteria = 22824}), -- Champions of Lei Shen
         ritualstone
@@ -215,8 +216,9 @@ map.nodes[49942065] = Rare({
     }
 }) -- Incomplete Drakkari Colossus
 
-map.nodes[57993733] = Rare({
+map.nodes[60103763] = Rare({
     id = 69099,
+    quest = 32518, -- 33109
     rewards = {
         Achievement({id = 8028}), -- Praise the Sun!
         Mount({item = 95057, id = 542})

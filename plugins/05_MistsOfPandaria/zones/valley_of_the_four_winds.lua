@@ -30,6 +30,7 @@ local map = Map({id = 376, settings = true})
 
 map.nodes[69376366] = Rare({
     id = 62346,
+    quest = 32098, -- 32924 bonus roll
     rewards = {
         Mount({item = 89783, id = 515}),
         Transmog({item = 90419, slot = L['leather']}), -- Fireproofed Chestguard

@@ -27,7 +27,7 @@ local map = Map({id = 379, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[75006760] = Rare({
+map.nodes[75116750] = Rare({
     id = 69842,
     note = L['zandalari_warbringer_note'],
     rewards = {
@@ -44,8 +44,10 @@ map.nodes[75006760] = Rare({
 
 map.nodes[57006460] = Rare({
     id = 60491,
+    quest = 32099, -- 32924 bonus roll
     rewards = {
-        Mount({item = 87771, id = 473}), Achievement({id = 6480}), -- Settle Down, Bro
+        Mount({item = 87771, id = 473}), -- Heavenly Onyx Cloud Serpent
+        Achievement({id = 6480}), -- Settle Down, Bro
         Achievement({id = 6926, criteria = 19136}) -- Tranquil Master
 
     },
