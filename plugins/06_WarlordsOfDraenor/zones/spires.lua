@@ -53,23 +53,23 @@ map.nodes[33552187] = Rare({
     }
 }) -- Stonespite
 
-map.nodes[37183845] = Rare({
-    id = 83746,
-    quest = 37464,
-    rewards = {
-        Achievement({id = 9425}), -- So Grossly Incandescent
-        Achievement({id = 9838, criteria = 27650}), -- What A Strange, Interdimensional Trip It's Been
-        Mount({id = 634, item = 116771}), -- Solar Spirehawk
-        Transmog({item = 120113, slot = L['mail']}), -- Talongrip Spurs
-        Transmog({item = 115435, slot = L['mail']}), -- Leggings of Flowing Feathers
-        Transmog({item = 120114, slot = L['plate']}), -- Wing-Forged Greatboots
-        Transmog({item = 115433, slot = L['cloth']}), -- Solarflame Legwraps
-        Transmog({item = 120111, slot = L['cloth']}), -- Featherflame Sandals
-        Transmog({item = 120112, slot = L['leather']}), -- Phoenix-Rider Boots
-        Transmog({item = 115434, slot = L['leather']}), -- Down-Lined Leggings
-        Transmog({item = 115436, slot = L['plate']}) -- Phoenixfire Legplates
-    }
-}) -- Rukhmar
+-- map.nodes[37183845] = Rare({
+--     id = 83746,
+--     quest = 37464,
+--     rewards = {
+--         Achievement({id = 9425}), -- So Grossly Incandescent
+--         Achievement({id = 9838, criteria = 27650}), -- What A Strange, Interdimensional Trip It's Been
+--         Mount({id = 634, item = 116771}), -- Solar Spirehawk
+--         Transmog({item = 120113, slot = L['mail']}), -- Talongrip Spurs
+--         Transmog({item = 115435, slot = L['mail']}), -- Leggings of Flowing Feathers
+--         Transmog({item = 120114, slot = L['plate']}), -- Wing-Forged Greatboots
+--         Transmog({item = 115433, slot = L['cloth']}), -- Solarflame Legwraps
+--         Transmog({item = 120111, slot = L['cloth']}), -- Featherflame Sandals
+--         Transmog({item = 120112, slot = L['leather']}), -- Phoenix-Rider Boots
+--         Transmog({item = 115434, slot = L['leather']}), -- Down-Lined Leggings
+--         Transmog({item = 115436, slot = L['plate']}) -- Phoenixfire Legplates
+--     }
+-- }) -- Rukhmar
 
 map.nodes[36295256] = Rare({
     id = 82247,

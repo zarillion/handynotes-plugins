@@ -8,6 +8,10 @@ local Class = ns.Class
 
 local Collectible = ns.node.Collectible
 
+local Achievement = ns.reward.Achievement
+local Mount = ns.reward.Mount
+local Transmog = ns.reward.Transmog
+
 -------------------------------------------------------------------------------
 
 ns.expansion = 6
@@ -258,3 +262,58 @@ ns.node.Squirrel = Class('Squirrel', Collectible, {
 --         }
 --     })
 -- }
+
+-------------------------------------------------------------------------------
+----------------------------- WORLD BOSS REWARDS ------------------------------
+-------------------------------------------------------------------------------
+-- Adds Rewards to World Boss tooltips.
+
+local WORLD_BOSS_REWARDS = {
+    [1291] = {
+        Achievement({id = 9423, criteria = 24768}), -- Goliaths of Gorgrond
+        Achievement({id = 9838, criteria = 27652}) -- What A Strange, Interdimensional Trip It's Been
+    }, -- Drov the Ruiner
+    [1211] = {
+        Achievement({id = 9423, criteria = 24767}), -- Goliaths of Gorgrond
+        Achievement({id = 9838, criteria = 27651}) -- What A Strange, Interdimensional Trip It's Been
+    }, -- Tarlna the Ageless
+    [1452] = {}, -- Supreme Lord Kazzak
+    [1262] = {
+        Achievement({id = 9425}), -- So Grossly Incandescent
+        Achievement({id = 9838, criteria = 27650}), -- What A Strange, Interdimensional Trip It's Been
+        ns.reward.Spacer(), --
+        Mount({id = 634, item = 116771}), -- Solar Spirehawk
+        ns.reward.Spacer(), --
+        Transmog({item = 120113, slot = L['mail']}), -- Talongrip Spurs
+        Transmog({item = 115435, slot = L['mail']}), -- Leggings of Flowing Feathers
+        Transmog({item = 120114, slot = L['plate']}), -- Wing-Forged Greatboots
+        Transmog({item = 115433, slot = L['cloth']}), -- Solarflame Legwraps
+        Transmog({item = 120111, slot = L['cloth']}), -- Featherflame Sandals
+        Transmog({item = 120112, slot = L['leather']}), -- Phoenix-Rider Boots
+        Transmog({item = 115434, slot = L['leather']}), -- Down-Lined Leggings
+        Transmog({item = 115436, slot = L['plate']}) -- Phoenixfire Legplates
+    } -- Rukhmar
+}
+
+hooksecurefunc(EncounterJournalPinMixin, 'OnMouseEnter', function(self)
+    if self and self.encounterID then
+        if WORLD_BOSS_REWARDS[self.encounterID] then
+            GameTooltip:AddLine(' ')
+            for i, reward in ipairs(WORLD_BOSS_REWARDS[self.encounterID]) do
+                if reward:IsEnabled() then
+                    reward:Render(GameTooltip)
+                end
+            end
+        end
+        if self.encounterID == 1262 then -- Render POI dot at Rukhmar spawn location
+            ns.poi.POI({37183845}):Render(self:GetMap(),
+                ADDON_NAME .. 'WorldMapPinTemplate')
+        end
+        -- GameTooltip:AddLine(self.encounterID) -- Debug to show the encounterID
+    end
+    GameTooltip:Show()
+end)
+
+-- this is only needed to hide the poi after hovering the boss icon
+hooksecurefunc(EncounterJournalPinMixin, 'OnMouseLeave',
+    function(self) ns.WorldMapDataProvider:RefreshAllData() end)

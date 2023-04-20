@@ -42,18 +42,6 @@ map.nodes[75116750] = Rare({
     }
 }) -- Zandalari Warbringer
 
-map.nodes[57006460] = Rare({
-    id = 60491,
-    quest = 32099, -- 32924 bonus roll
-    rewards = {
-        Mount({item = 87771, id = 473}), -- Heavenly Onyx Cloud Serpent
-        Achievement({id = 6480}), -- Settle Down, Bro
-        Achievement({id = 6926, criteria = 19136}) -- Tranquil Master
-
-    },
-    pois = {POI({53916474})}
-}) -- Sha of Anger
-
 map.nodes[40804240] = Rare({
     id = 50817,
     rewards = {
