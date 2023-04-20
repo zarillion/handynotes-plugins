@@ -12,7 +12,6 @@ local Treasure = ns.node.Treasure
 local Squirrel = ns.node.Squirrel
 
 local Achievement = ns.reward.Achievement
-local Mount = ns.reward.Mount
 local Toy = ns.reward.Toy
 local Item = ns.reward.Item
 local Transmog = ns.reward.Transmog

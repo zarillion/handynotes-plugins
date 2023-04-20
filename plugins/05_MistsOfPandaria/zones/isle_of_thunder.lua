@@ -12,7 +12,6 @@ local Collectible = ns.node.Collectible
 local Lorewalker = ns.node.Lorewalker
 
 local Achievement = ns.reward.Achievement
-local Mount = ns.reward.Mount
 local Transmog = ns.reward.Transmog
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
