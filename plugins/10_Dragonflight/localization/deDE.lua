@@ -385,10 +385,10 @@ L['options_icons_scalecommander_item_desc'] = 'Zeigt die Positionen der Gegenst�
 L['spellsworn_gateway'] = 'Tor der Zauberverschworenen'
 L['gemstone_of_return'] = 'Edelstein der R체ckkehr'
 
-L['treysh_note'] = nil
-L['renown_envoy_label'] = nil
-L['renown_envoy_note'] = 'Tausche {currency:2118} oder Gold gegen Reittiere, Haustiere, Ausr체stungsvorlagen, Drachenanpassungen, Rezepte und andere n체tzliche Gegenst채nde ein.' -- review new line
-L['trader_hagarth_note'] = nil
+L['treysh_note'] = 'Tausche {currency:2118} oder Gold gegen Ausr체stungsvorlagen und Reittiere ein.'
+L['renown_envoy_label'] = 'Rufabgesandte'
+L['renown_envoy_note'] = 'Tausche {currency:2118} oder Gold gegen Reittiere, Haustiere, Ausr체stungsvorlagen, Drachenanpassungen, Rezepte und andere n체tzliche Gegenst채nde ein.'
+L['trader_hagarth_note'] = 'Tausche {item:190456} gegen Rezepte ein.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
