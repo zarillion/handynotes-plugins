@@ -686,7 +686,7 @@ L['in_deepflayer_nest'] = 'Im {location:Tiefenschindernest}.'
 
 L['brulsef_the_stronk_note'] = 'Du erhältst deine Belohnung aus der {object:Chest of Massive Gains}.' -- todo: translate chest name
 
-L['ancient_zaqali_chest_note'] = 'Benutze das {object:Abgefüllte Magma} in der nähe, um die Kiste zu öffnen'
+L['ancient_zaqali_chest_note'] = 'Benutze das {object:Abgefüllte Magma} in der Nähe, um die Kiste zu öffnen.'
 L['blazing_shadowflame_chest_note'] = nil
 L['crystal_encased_chest_note'] = 'Interagiere mit dem Blauen {object:Abstimmungskristall} ({dot:Blue}) und dem Roten {object:Abstimmungskristall} ({dot:Red}), um den Schatz zu öffnen.'
 L['old_trunk_note'] = 'Sammle und kombiniere 5 {item:204325} um einen {item:204323} herzustellen.'
@@ -709,7 +709,7 @@ L['nal_kskol_reliquary_note'] = 'Benutze die {object:Reliquary Access Console} u
 L['molten_scoutbot_note'] = 'Öffne das {object:Molten Scoutbot} und plündere {item:204855}.' -- todo: translate chest name
 L['bolts_and_brass_note'] = 'Öffne {object:Bolts and Brass} und plündere {item:204850}.' -- todo: translate chest name
 
-L['sniffen_sage_suffix'] = nil
+L['sniffen_sage_suffix'] = 'Spezialgegenstände erschnüffelt'
 
 L['big_slick_note_1'] = '{npc:48182} kann in der alten Welt an der {location:Dunkelküste} gefunden werden. Sprich mit {npc:141489} um in die Zeit vor dem {location:Krieg der Dornen} zurückzureisen.'
 
