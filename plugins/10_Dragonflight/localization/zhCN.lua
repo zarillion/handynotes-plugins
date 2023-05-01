@@ -135,9 +135,9 @@ L['the_best_at_what_i_do_suffix'] = '首领已击杀'
 L['options_icons_grand_hunts'] = '洪荒狩猎'
 L['options_icons_grand_hunts_desc'] = '显示 {object:洪荒狩猎} 的位置和奖励。'
 
-L['ancient_stone_label'] = nil
+L['ancient_stone_label'] = '远古之石'
 L['options_icons_ancient_stones'] = '{achievement:17560}'
-L['options_icons_ancient_stones_desc'] = nil
+L['options_icons_ancient_stones_desc'] = '显示 {achievement:17560} 成就中 {object:远古之石} 的位置。'
 
 L['reed_chest'] = '苇草宝箱'
 L['options_icons_reed_chest'] = '苇草宝箱'
@@ -235,10 +235,10 @@ L['stranded_soul_note'] = [[
 ]]
 
 L['gethdazr_note'] = [[
-作为 {location:伊姆布} 事件的一部分出现，该事件以吹响 {object:伊姆布巨角}（{dot:Blue}）开始。
+作为 {location:伊姆布} 事件的一部分出现，该事件以吹响 {object:伊姆布巨角} {dot:Blue} 开始。
 只有在击杀大约30-60分钟刷新时间的 {npc:196155} 后，巨角才会变得可点击。
 
-{npc:191143}（{dot:Green}）和其他 NPC 将从 {location:伊姆布} 的东北入口杀出一条血路，直到 {npc:196165} 在悬崖出现。
+{npc:191143} {dot:Green} 和其他 NPC 将从 {location:伊姆布} 的东北入口杀出一条血路，直到 {npc:196165} 在悬崖出现。
 NPC 可以在没有帮助的情况下死亡，这将使事件失败。
 
 这可以单独完成，但建议2-3名玩家。
@@ -289,7 +289,7 @@ L['in_the_support_creche'] = '位于 {location:支援育幼所}。'
 L['in_the_war_creche'] = '位于 {location:至高育幼所} 深处。'
 L['in_zskera_vaults'] = '位于 {location:兹斯克拉宝库}。'
 
-L['duzalgor_note'] = '收集一瓶 {spell:400751}（{dot:Green}）来治疗 {location:支援育幼所} 内的有毒气体。'
+L['duzalgor_note'] = '收集一瓶 {spell:400751} {dot:Green} 来治疗 {location:支援育幼所} 内的有毒气体。'
 L['mad_eye_carrey_note'] = '{npc:201181} 与 {npc:201184} 和 {npc:201182} 在一组。'
 L['wymslayer_angvardi_note'] = '{npc:201013} 和 {npc:201310} 为伴。'
 L['loot_specialist_note'] = '{npc:203353} 出现时有 {spell:406143} 和 {spell:132653} 并且会在受到攻击时逃跑。\n\n{note:在他施放 {spell:406141} 完之前快速击杀他。}'
@@ -407,9 +407,9 @@ L['yennus_boat'] = '海象人玩具船'
 L['yennus_boat_note'] = '拾取 {object:海象人玩具船} 后获得 {item:200876}，开始任务 {quest:72063} 将其交还给 {npc:195252}。'
 
 L['forgotten_dragon_treasure_label'] = '被遗忘的巨龙宝藏'
-L['forgotten_dragon_treasure_step1'] = '1. 从 {location:欧恩哈拉平原} 西部的 {object:水晶花}（{dot:Green}） 收集5个 {item:195884}。'
-L['forgotten_dragon_treasure_step2'] = '2. 组合花瓣来做成 {item:195542} 并到 {object:远古之石}（{dot:Yellow}）。'
-L['forgotten_dragon_treasure_step3'] = '3. 在 {object:远古之石} 附近使用 {item:195542} 获得一个20秒的增益 {spell:378935}，允许沿着花路充能到达洞穴（{dot:Blue}）。从鲜花上奔跑会增加到达 {object:翡翠宝箱}（{dot:Blue}）和拾取 {item:195041} 的增益时间。'
+L['forgotten_dragon_treasure_step1'] = '1. 从 {location:欧恩哈拉平原} 西部的 {object:水晶花} {dot:Green} 收集5个 {item:195884}。'
+L['forgotten_dragon_treasure_step2'] = '2. 组合花瓣来做成 {item:195542} 并到 {object:远古之石} {dot:Yellow}。'
+L['forgotten_dragon_treasure_step3'] = '3. 在 {object:远古之石} 附近使用 {item:195542} 获得一个20秒的增益 {spell:378935}，允许沿着花路充能到达洞穴 {dot:Blue}。从鲜花上奔跑会增加到达 {object:翡翠宝箱} {dot:Blue} 和拾取 {item:195041} 的增益时间。'
 L['forgotten_dragon_treasure_step4'] = '拿到钥匙后，前往 {object:被遗忘的巨龙宝藏} 打开获得观龙者手稿。'
 L['fdt_crystalline_flower'] = '水晶花'
 L['fdt_ancient_stone'] = '远古之石'
@@ -580,9 +580,9 @@ L['fullsails_supply_chest'] = '满帆补给箱'
 L['hidden_hornswog_hoard_note'] = [[
 收集3种不同的物品并在 {npc:192362} 附近的 {object:“观察谜题：实地指南”} 处组合它们以获得 {item:200063} 然后喂它。然后它会离开就可以拾取它的宝藏。
 
-{item:200064}{dot:Yellow}
-{item:200065}{dot:Blue}
-{item:200066}{dot:White}
+{item:200064} {dot:Yellow}
+{item:200065} {dot:Blue}
+{item:200066} {dot:White}
 ]]
 
 L['pm_alch_grigori_vialtry'] = '在俯瞰 {location:闪霜战地} 的平台上。'
@@ -690,40 +690,40 @@ L['options_icons_dragonbane_siege_desc'] = '显示 {spell:388945} 的位置和�
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
 
-L['in_deepflayer_nest'] = nil
+L['in_deepflayer_nest'] = '位于 {location:深岩剥石者之巢}'
 
-L['brulsef_the_stronk_note'] = nil
+L['brulsef_the_stronk_note'] = '从 {object:丰盛收获宝箱} 拾取奖励。'
 
-L['ancient_zaqali_chest_note'] = nil
-L['blazing_shadowflame_chest_note'] = nil
-L['crystal_encased_chest_note'] = nil
-L['old_trunk_note'] = nil
-L['well_chewed_chest_note'] = nil
+L['ancient_zaqali_chest_note'] = '使用附近的 {object:瓶装岩浆} 打开宝箱。'
+L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
+L['crystal_encased_chest_note'] = '与蓝色 {object:调和水晶} {dot:Blue} 和红色 {object:调和水晶} {dot:Red} 一起互动打开宝箱。'
+L['old_trunk_note'] = '收集并组合5个 {item:204325} 创造 {item:204323}。'
+L['well_chewed_chest_note'] = '{item:202869} {dot:Green} 在洞穴内隐藏在 {npc:199962} 下面。'
 
-L['molten_hoard_label'] = nil
-L['fealtys_reward_label'] = nil
-L['fealtys_reward_note'] = nil
-L['dreamers_bounty_label'] = nil
-L['dreamers_bounty_note'] = nil
-L['moth_pilfered_pouch_label'] = nil
-L['moth_pilfered_pouch_note'] = nil
-L['waterlogged_bundle_label'] = nil
+L['molten_hoard_label'] = '熔火宝藏'
+L['fealtys_reward_label'] = '忠诚的奖赏'
+L['fealtys_reward_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['dreamers_bounty_label'] = '沉睡者的奖赏'
+L['dreamers_bounty_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['moth_pilfered_pouch_label'] = '蛾子窃取的袋子'
+L['moth_pilfered_pouch_note'] = '帮助 {npc:203225} 通过“杂耍”飞行，直到它有5层 {spell:405358}。\n\n然后它会飞到袋子上展示。'
+L['waterlogged_bundle_label'] = '浸水的包裹'
 
-L['stolen_stash_label'] = nil
-L['ritual_offering_label'] = nil
-L['nal_kskol_reliquary_label'] = nil
-L['nal_kskol_reliquary_note'] = nil
+L['stolen_stash_label'] = '失窃的货物'
+L['ritual_offering_label'] = '仪式供品'
+L['nal_kskol_reliquary_label'] = '纳·克斯寇圣物匣'
+L['nal_kskol_reliquary_note'] = '使用 {object:圣物匣开启控制台} 并解开拼图以打开 {object:纳·克斯寇圣物匣}。'
 
-L['molten_scoutbot_note'] = nil
-L['bolts_and_brass_note'] = nil
+L['molten_scoutbot_note'] = '打开 {object:熔火斥候机器人} 并拾取 {item:204855}.'
+L['bolts_and_brass_note'] = '打开 {object:螺栓和黄铜} 并拾取 {item:204850}.'
 
-L['sniffen_sage_suffix'] = nil
+L['sniffen_sage_suffix'] = '找到特殊物品'
 
-L['big_slick_note_1'] = nil
+L['big_slick_note_1'] = '{npc:48182} 可以在旧世界 {location:黑海岸} 找到。和 {npc:141489} 对话返回 {location:荆棘战争} 之前时间。'
 
-L['saccratos_note'] = nil
-L['ponzo_note'] = nil
+L['saccratos_note'] = '用 {item:204727} 换取宠物，坐骑和其他。'
+L['ponzo_note'] = '用 {item:204985} 和 {item:205903} 换取幼龙定制，宠物，坐骑和其他。'
 
-L['smelly_trash_pile_label'] = nil
-L['options_icons_smelly_trash_pile'] = nil
-L['options_icons_smelly_trash_pile_desc'] = nil
+L['smelly_trash_pile_label'] = '臭垃圾堆'
+L['options_icons_smelly_trash_pile'] = '臭垃圾堆'
+L['options_icons_smelly_trash_pile_desc'] = '显示 {object:臭垃圾堆} 可能的位置。'
