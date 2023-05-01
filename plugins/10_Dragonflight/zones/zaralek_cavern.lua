@@ -478,9 +478,9 @@ map.nodes[48312201] = PT.Blacksmithing({id = 205987, quest = 76079}) -- Brimston
 
 map.nodes[27514286] = PT.Blacksmithing({id = 205988, quest = 76080}) -- Zaqali Elder Spear
 
-map.nodes[70003000] = PT.Leatherworking({id = 204986, quest = nil}) -- Flame-Infused Scale Oil -- TODO
+map.nodes[70003000] = PT.Leatherworking({id = 204986, quest = 75495}) -- Flame-Infused Scale Oil
 
-map.nodes[73003000] = PT.Leatherworking({id = 204987, quest = nil}) -- Lava-Forged Leatherworker's "Knife" -- TODO
+map.nodes[73003000] = PT.Leatherworking({id = 204987, quest = 75496}) -- Lava-Forged Leatherworker's "Knife"
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
