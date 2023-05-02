@@ -178,9 +178,18 @@ function Addon:OnInitialize()
     ns.faction = UnitFactionGroup('player')
     self.db = LibStub('AceDB-3.0'):New(ADDON_NAME .. 'DB', ns.optionDefaults,
         'Default')
+
     self:RegisterEvent('PLAYER_ENTERING_WORLD', function()
         self:UnregisterEvent('PLAYER_ENTERING_WORLD')
         self:ScheduleTimer('RegisterWithHandyNotes', 1)
+
+        -- Query localized expansion title
+        if not ns.expansion then
+            error('Expansion not set: ' .. ADDON_NAME)
+        end
+        local expansion_name = EJ_GetTierInfo(ns.expansion)
+        ns.plugin_name = 'HandyNotes: ' .. expansion_name
+        ns.options.name = ('%02d - '):format(ns.expansion) .. expansion_name
     end)
 
     -- Add global groups to settings panel
@@ -190,12 +199,6 @@ function Addon:OnInitialize()
     local template = ADDON_NAME .. 'WorldMapOptionsButtonTemplate'
     ns.world_map_button = LibStub('Krowi_WorldMapButtons-1.4'):Add(template,
         'DROPDOWNTOGGLEBUTTON')
-
-    -- Query localized expansion title
-    if not ns.expansion then error('Expansion not set: ' .. ADDON_NAME) end
-    local expansion_name = EJ_GetTierInfo(ns.expansion)
-    ns.plugin_name = 'HandyNotes: ' .. expansion_name
-    ns.options.name = ('%02d - '):format(ns.expansion) .. expansion_name
 end
 
 -------------------------------------------------------------------------------
