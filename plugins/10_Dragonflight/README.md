@@ -40,6 +40,7 @@ This plugin adds information to the map for the following zones:
 
 * Patch 10.0.0 - Azure Span, Ohn'ahran Plains, Thaldraszus, Waking Shores
 * Patch 10.0.7 - The Forbidden Reach
+* Patch 10.1.0 - Zaralek Cavern
 
 In addition to rares, treasures and pet battles, this plugin also adds the following expansion or zone-specific items.
 
@@ -94,6 +95,10 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Small Treasures for the [Treasures of the Forbidden Reach](https://www.wowhead.com/achievement=17526/treasures-of-the-forbidden-reach) achievement.
 * Books for the [Librarian of the Reach](https://www.wowhead.com/achievement=17530/librarian-of-the-reach) achievement.
 * Items for the [While We Were Sleeping](https://www.wowhead.com/achievement=17315/while-we-were-sleeping) achievement.
+
+### Zaralek Cavern
+
+* TODO
 
 ## Localization
 

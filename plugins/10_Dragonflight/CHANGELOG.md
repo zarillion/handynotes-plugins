@@ -1,3 +1,7 @@
+# v36
+
+* Updated TOC for 10.1.0
+
 # v35
 
 * Added a separate group for profession rares.
