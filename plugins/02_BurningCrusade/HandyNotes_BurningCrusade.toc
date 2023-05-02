@@ -1,4 +1,4 @@
-## Interface: 100007
+## Interface: 100100
 ## Title: HandyNotes: The Burning Crusade
 ## Version: 1
 ## Notes: Burning Crusade Notes
@@ -6,6 +6,7 @@
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3
 ## SavedVariables: HandyNotes_BurningCrusadeDB
+## IconTexture: 630783
 
 embeds.xml
 core\core.xml
