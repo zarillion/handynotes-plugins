@@ -4,7 +4,6 @@
 Join our Discord server to discuss features and translations: https://discord.gg/EXCcmYW
 
 ![](https://github.com/zarillion/handynotes-plugins/workflows/Automated%20Build/badge.svg)
-[![](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dzarillion%26type%3Dpatrons&style=plastic)](https://www.patreon.com/bePatron?u=44499780)
 
 * [HandyNotes: Battle for Azeroth](https://www.curseforge.com/wow/addons/handynotes-battle-for-azeroth)
 * [HandyNotes: Shadowlands](https://www.curseforge.com/wow/addons/handynotes-shadowlands)
@@ -39,14 +38,14 @@ The `-c/--clean` argument will delete the corresponding HandyNotes plugin direct
 
 ## Development Options
 
-Once installed, development-only options can be enabled in each *individual* plugin by running an in-game script command. For example, to enable the development features and options for **HandyNotes: Shadowlands**:
+Once installed, development-only options can be enabled in each *individual* plugin by running an in-game script command. For example, to enable the development features and options for **HandyNotes: Dragonflight**:
 
 ```
-/script HandyNotes_ShadowlandsDB.profiles.Default.development = true
+/script HandyNotes_DragonflightDB.profiles.Default.development = true
 /reload
 ```
 
-You should then see additional development options at the bottom of the Shadowlands plugin settings panel. The following development options are available:
+You should then see additional development options at the bottom of the Dragonflight plugin settings panel. The following development options are available:
 
 Option | Description
 ------ | -----------
@@ -77,7 +76,7 @@ Sometimes you `/reload` before remembering to grab a quest ID out of the chat wi
 When "Debug Quest IDs" is enabled, all quest ID state changes are recorded between sessions. This can be accessed after a reload with:
 
 ```
-/run HandyNotes_ShadowlandsQuestHistory()
+/run HandyNotes_DragonflightQuestHistory()
 20:59:37 :: 61588 :: true => false
 20:59:37 :: 60774 :: true => false
 20:57:15 :: 58327 :: false => true
@@ -93,7 +92,7 @@ When "Debug Quest IDs" is enabled, all quest ID state changes are recorded betwe
 By default the 10 most recent quest changes are displayed. The number of quests printed can be changed by passing the `count` parameter, up to the maximum of 100 stored quest changes.
 
 ```
-/run HandyNotes_ShadowlandsQuestHistory(5)
+/run HandyNotes_DragonflightQuestHistory(5)
 20:59:37 :: 61588 :: true => false
 20:59:37 :: 60774 :: true => false
 20:57:15 :: 58327 :: false => true
