@@ -41,6 +41,7 @@ local deepflayerNest = Map({id = 2184, settings = false}) -- Deepflayer Nest
 
 map.nodes[56247389] = Rare({
     id = 203515,
+    quest = 75284,
     rewards = {
         Achievement({id = 17783, criteria = 59188}), -- Adventurer of Zaralek Cavern
         Transmog({item = 205097, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
@@ -50,7 +51,7 @@ map.nodes[56247389] = Rare({
 
 map.nodes[48367509] = Rare({
     id = 203468,
-    quest = 75547,
+    quest = 75270,
     rewards = {
         Achievement({id = 17783, criteria = 59185}), -- Adventurer of Zaralek Cavern
         Item({item = 192055}) -- Dragon Isle Artifact
@@ -59,25 +60,26 @@ map.nodes[48367509] = Rare({
 
 map.nodes[41518613] = Rare({
     id = 203621,
-    quest = 75556,
+    quest = 75325,
     note = L['brulsef_the_stronk_note'],
     rewards = {
         Achievement({id = 17783, criteria = 59202}), -- Adventurer of Zaralek Cavern
         Recipe({item = 204847, profession = 185}) -- Recipe: Rocks on the Rocks
     }
-}) -- Brulsef the Stronk
+}) -- Brulsef the Stronk or Brullo the Strong (wait retail release)
 
 map.nodes[48372384] = Rare({
     id = 204093,
-    quest = 75572,
+    quest = 75475,
     rewards = {
         Achievement({id = 17783, criteria = 59212}), -- Adventurer of Zaralek Cavern
         Item({item = 200071}) -- Sacred Tuskarr Totem
     }
-}) -- Colassian
+}) -- Colossian
 
 map.nodes[31805061] = Rare({
     id = 203664,
+    quest = 75361,
     rewards = {
         Achievement({id = 17783, criteria = 59209}) -- Adventurer of Zaralek Cavern
     }
@@ -85,7 +87,7 @@ map.nodes[31805061] = Rare({
 
 map.nodes[36324481] = Rare({
     id = 203660,
-    quest = 75565,
+    quest = 75357,
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59207}) -- Adventurer of Zaralek Cavern
@@ -95,7 +97,7 @@ map.nodes[36324481] = Rare({
 
 map.nodes[41921857] = Rare({
     id = 203592,
-    quest = 75552,
+    quest = 75295,
     rewards = {
         Achievement({id = 17783, criteria = 59190}), -- Adventurer of Zaralek Cavern
         Item({item = 192055}) -- Dragon Isle Artifact
@@ -105,7 +107,7 @@ map.nodes[41921857] = Rare({
 
 map.nodes[68734593] = Rare({
     id = 203477,
-    quest = 75548,
+    quest = 75273,
     rewards = {
         Achievement({id = 17783, criteria = 59186}) -- Adventurer of Zaralek Cavern
     }
@@ -113,7 +115,7 @@ map.nodes[68734593] = Rare({
 
 map.nodes[45673327] = Rare({
     id = 203627,
-    quest = 75558,
+    quest = 75335,
     rewards = {
         Achievement({id = 17783, criteria = 59200}) -- Adventurer of Zaralek Cavern
     }
@@ -121,34 +123,35 @@ map.nodes[45673327] = Rare({
 
 map.nodes[28515115] = Rare({
     id = 203646,
-    quest = 75352, -- 75353
+    quest = 75352,
     rewards = {
         Achievement({id = 17783, criteria = 59206}), -- Adventurer of Zaralek Cavern
         Currency({id = 2245}) -- Flightstones
     }
-}) -- Jrumm
+}) -- Jrumm or Dinn <War Drummer> (wait retail release)
 
 map.nodes[42226524] = Rare({
     id = 203625,
-    quest = 75557,
+    quest = 75333,
     rewards = {
         Achievement({id = 17783, criteria = 59199}), -- Adventurer of Zaralek Cavern
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
-}) -- Kairoktra
+}) -- Kairoktra or Karokta (wait retail release)
 
 map.nodes[59593949] = Rare({
     id = 203466,
-    quest = 75546,
+    quest = 75268,
     rewards = {
         Achievement({id = 17783, criteria = 59184}), -- Adventurer of Zaralek Cavern
         Item({item = 192055}) -- Dragon Isle Artifact
     }
-}) -- Kaprachu
+}) -- Kaprachu or Kapraku (wait retail release)
 
 map.nodes[54074162] = Rare({
     id = 203618,
+    quest = 75321,
     rewards = {
         Achievement({id = 17783, criteria = 59198}) -- Adventurer of Zaralek Cavern
     }
@@ -156,7 +159,7 @@ map.nodes[54074162] = Rare({
 
 map.nodes[65435587] = Rare({
     id = 203462,
-    quest = 75545,
+    quest = 75266,
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59183}) -- Adventurer of Zaralek Cavern
@@ -166,7 +169,7 @@ map.nodes[65435587] = Rare({
 
 map.nodes[40753817] = Rare({
     id = 200111,
-    quest = 75561,
+    quest = 75339,
     rewards = {
         Achievement({id = 17783, criteria = 59203}), -- Adventurer of Zaralek Cavern
         Transmog({item = 205070, slot = L['leather']}), -- Zaralek Surveyor's Bindings
@@ -178,7 +181,7 @@ map.nodes[40753817] = Rare({
 
 map.nodes[55841899] = Rare({
     id = 203521,
-    quest = 75551,
+    quest = 75291,
     location = L['in_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59189}), -- Adventurer of Zaralek Cavern
@@ -189,17 +192,17 @@ map.nodes[55841899] = Rare({
 
 map.nodes[65875082] = Rare({
     id = 203643,
-    quest = 75563,
+    quest = 75348,
     rewards = {
         Achievement({id = 17783, criteria = 59205}), -- Adventurer of Zaralek Cavern
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
-}) -- Skornace
+}) -- Skornak
 
 map.nodes[53106421] = Rare({
     id = 203480,
-    quest = 75549,
+    quest = 75275,
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59187}), -- Adventurer of Zaralek Cavern
@@ -211,7 +214,7 @@ map.nodes[53106421] = Rare({
 
 map.nodes[38424650] = Rare({
     id = 203662,
-    quest = 75566,
+    quest = 75359,
     rewards = {
         Achievement({id = 17783, criteria = 59208}), -- Adventurer of Zaralek Cavern
         Item({item = 199906}) -- Titan Relic
@@ -220,7 +223,7 @@ map.nodes[38424650] = Rare({
 
 map.nodes[57766910] = Rare({
     id = 203593,
-    quest = 75553,
+    quest = 75297,
     rewards = {
         Achievement({id = 17783, criteria = 59191}) -- Adventurer of Zaralek Cavern
     }
@@ -228,16 +231,18 @@ map.nodes[57766910] = Rare({
 
 map.nodes[38867151] = Rare({
     id = 201029,
+    quest = 75365,
     rewards = {
         Achievement({id = 17783, criteria = 59210}) -- Adventurer of Zaralek Cavern
     }
-}) -- Veridian King
+}) -- Viridian King
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[36694883] = Treasure({
+    quest = 73697,
     note = L['ancient_zaqali_chest_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59222}) -- Treasures of Zaralek Cavern
@@ -246,6 +251,7 @@ map.nodes[36694883] = Treasure({
 }) -- Ancient Zaqali Chest
 
 map.nodes[28544791] = Treasure({
+    quest = 72986,
     note = L['blazing_shadowflame_chest_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59220}) -- Treasures of Zaralek Cavern
@@ -253,7 +259,7 @@ map.nodes[28544791] = Treasure({
 }) -- Blazing Shadowflame Chest
 
 map.nodes[42976040] = Treasure({
-    quest = 75232,
+    quest = 75231, -- 75232
     requires = {
         ns.requirement.Quest(75145) -- In the Wake of the Ashes
     },
@@ -272,6 +278,7 @@ map.nodes[30044193] = Treasure({
 }) -- Charred Egg
 
 map.nodes[70002000] = Treasure({
+    quest = 75187,
     rewards = {
         Achievement({id = 17786, criteria = 59224}) -- Treasures of Zaralek Cavern
     }
@@ -304,6 +311,7 @@ map.nodes[62715376] = Treasure({
 
 map.nodes[43058256] = Treasure({
     requires = ns.requirement.Item(204323), -- Old Trunk Key
+    quest = 74995,
     note = L['old_trunk_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59227}) -- Treasures of Zaralek Cavern
@@ -311,6 +319,7 @@ map.nodes[43058256] = Treasure({
 }) -- Old Trunk
 
 map.nodes[73002000] = Treasure({
+    quest = 73410,
     rewards = {
         Achievement({id = 17786, criteria = 59221}) -- Treasures of Zaralek Cavern
     }
@@ -339,11 +348,13 @@ map.nodes[48411636] = Treasure({
 
 map.nodes[48451083] = Treasure({
     label = L['fealtys_reward_label'],
+    quest = 75514,
     note = L['fealtys_reward_note']
 }) -- Fealty's Reward
 
 map.nodes[57956632] = Treasure({
     label = L['dreamers_bounty_label'],
+    quest = 75762,
     note = L['dreamers_bounty_note']
 }) -- Dreamer's Bounty
 
@@ -399,13 +410,18 @@ local RitualOffering = Class('RitualOffering', Treasure, {
 
 map.nodes[26874611] = RitualOffering({quest = 73553})
 map.nodes[28195157] = RitualOffering({quest = 73553})
-map.nodes[32395034] = RitualOffering({quest = 73542}) -- 66381
-map.nodes[32614416] = RitualOffering({quest = 73551})
+map.nodes[28754415] = RitualOffering({quest = 73553})
+map.nodes[30055140] = RitualOffering({quest = 73552})
 map.nodes[35145225] = RitualOffering({quest = 73552})
-map.nodes[36034452] = RitualOffering()
-map.nodes[36395236] = RitualOffering({quest = 73552}) -- 75814
+map.nodes[32355045] = RitualOffering({quest = 73552})
+map.nodes[36395236] = RitualOffering({quest = 73552})
+map.nodes[31955275] = RitualOffering({quest = 73552})
+map.nodes[30454365] = RitualOffering({quest = 73551})
+map.nodes[35954450] = RitualOffering({quest = 73551})
+map.nodes[32614416] = RitualOffering({quest = 73551})
+map.nodes[33103990] = RitualOffering({quest = 73551})
+map.nodes[38174991] = RitualOffering({quest = 73548})
 map.nodes[40015127] = RitualOffering({quest = 73548})
-map.nodes[40825032] = RitualOffering({quest = 73548})
 map.nodes[41694457] = RitualOffering({quest = 73548})
 map.nodes[41054876] = RitualOffering({quest = 73548})
 
