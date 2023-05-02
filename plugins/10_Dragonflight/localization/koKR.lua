@@ -17,7 +17,7 @@ L['options_icons_profession_treasures_desc'] = '전문기술 관련 지식을 �
 
 L['dragon_glyph'] = '용 문양'
 L['options_icons_dragon_glyph'] = '용 문양'
-L['options_icons_dragon_glyph_desc'] = '56개의 전체 용 문양 위치를 표시합니다.'
+L['options_icons_dragon_glyph_desc'] = '64개의 전체 용 문양 위치를 표시합니다.'
 
 L['dragonscale_expedition_flag'] = '용비늘 원정대 깃발'
 L['flags_placed'] = '깃발 꽂기 완료'
@@ -134,6 +134,10 @@ L['the_best_at_what_i_do_suffix'] = nil
 
 L['options_icons_grand_hunts'] = nil
 L['options_icons_grand_hunts_desc'] = nil
+
+L['ancient_stone_label'] = nil
+L['options_icons_ancient_stones'] = '{achievement:17560}'
+L['options_icons_ancient_stones_desc'] = nil
 
 L['reed_chest'] = '갈대 보관함'
 L['options_icons_reed_chest'] = '갈대 보관함'
@@ -667,3 +671,45 @@ L['phoenix_wishwing_inert_ash'] = nil
 L['phoenix_wishwing_smoldering_ash'] = nil
 L['phoenix_wishwing_ash_feather'] = nil
 L['phoenix_wishwing_info'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- Zaralek Cavern --------------------------------
+-------------------------------------------------------------------------------
+
+L['in_deepflayer_nest'] = nil
+
+L['brulsef_the_stronk_note'] = nil
+
+L['ancient_zaqali_chest_note'] = nil
+L['blazing_shadowflame_chest_note'] = nil
+L['crystal_encased_chest_note'] = nil
+L['old_trunk_note'] = nil
+L['well_chewed_chest_note'] = nil
+
+L['molten_hoard_label'] = nil
+L['fealtys_reward_label'] = nil
+L['fealtys_reward_note'] = nil
+L['dreamers_bounty_label'] = nil
+L['dreamers_bounty_note'] = nil
+L['moth_pilfered_pouch_label'] = nil
+L['moth_pilfered_pouch_note'] = nil
+L['waterlogged_bundle_label'] = nil
+
+L['stolen_stash_label'] = nil
+L['ritual_offering_label'] = nil
+L['nal_kskol_reliquary_label'] = nil
+L['nal_kskol_reliquary_note'] = nil
+
+L['molten_scoutbot_note'] = nil
+L['bolts_and_brass_note'] = nil
+
+L['sniffen_sage_suffix'] = nil
+
+L['big_slick_note_1'] = nil
+
+L['saccratos_note'] = nil
+L['ponzo_note'] = nil
+
+L['smelly_trash_pile_label'] = nil
+L['options_icons_smelly_trash_pile'] = nil
+L['options_icons_smelly_trash_pile_desc'] = nil

@@ -11,6 +11,7 @@ local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
+local AncientStone = ns.node.AncientStone
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
@@ -2294,6 +2295,32 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         end
     end
 end)
+
+-------------------------------------------------------------------------------
+--------------------- ANCIENT STONES OF THE WAKING SHORE ----------------------
+-------------------------------------------------------------------------------
+
+map.nodes[74165718] = AncientStone({
+    rewards = {Achievement({id = 17561, criteria = 58804})}
+}) -- So Close. So Far
+
+map.nodes[24415338] = AncientStone({
+    note = L['obsidian_throne_rare_note'],
+    rewards = {Achievement({id = 17561, criteria = 58805})},
+    pois = {POI({27146085})} -- Entrance
+}) -- One Small Part
+
+map.nodes[26185633] = AncientStone({
+    rewards = {Achievement({id = 17561, criteria = 58806})}
+}) -- Neltharus Stands
+
+map.nodes[60716697] = AncientStone({
+    rewards = {Achievement({id = 17561, criteria = 58807})}
+}) -- Welcoming the First
+
+map.nodes[51602005] = AncientStone({
+    rewards = {Achievement({id = 17561, criteria = 58808})}
+}) -- Learn and Grow
 
 -------------------------------------------------------------------------------
 -------------------------------- ZSKERA VAULTS --------------------------------

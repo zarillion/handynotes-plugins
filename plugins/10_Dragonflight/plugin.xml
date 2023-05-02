@@ -6,4 +6,5 @@
   <Script file="zones\ohnahran_plains.lua"/>
   <Script file="zones\thaldraszus.lua"/>
   <Script file="zones\waking_shores.lua"/>
+  <Script file="zones\zaralek_cavern.lua"/>
 </Ui>

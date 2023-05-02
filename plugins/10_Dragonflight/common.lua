@@ -166,6 +166,11 @@ ns.groups.SMALL_TREASURES = Group('small_treasures', 'chest_rd', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.SMELLY_TRASH_PILE = Group('smelly_trash_pile', 'chest_gn', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.TITAN_CHEST = Group('titan_chest', 'chest_rd', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -192,6 +197,12 @@ ns.groups.ANCESTOR = Group('ancestor', 135946, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
     achievement = 16423
+})
+
+ns.groups.ANCIENT_STONES = Group('ancient_stones', 134461, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 17561
 })
 
 ns.groups.BAKAR = Group('bakar', 930453, {
@@ -438,7 +449,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         GradientHorns = Item({item = 197381, quest = 69582}),
         GrayHair = Item({item = 197367, quest = 69568}),
         GreenHair = Item({item = 197371, quest = 69572}),
-        GreenScales = Item({item = 192523, quest = nil}), -- current not in game
+        GreenScales = Item({item = 192523, quest = 66720}),
         HairyBack = Item({item = 197356, quest = 69557}),
         HairyBrow = Item({item = 197359, quest = 69560}),
         HarrierPattern = Item({item = 197395, quest = 69596}),
@@ -668,6 +679,76 @@ ns.DRAGON_CUSTOMIZATIONS = {
         WhiteHair = Item({item = 196989, quest = 69189}),
         WhiteScales = Item({item = 197014, quest = 69214}),
         WideStripesPattern = Item({item = 197007, quest = 69207})
+    },
+    WindingSlitherdrake = {
+        AntlerHorns = Item({item = 203338, quest = 73829}),
+        Armor = Item({item = 203305, quest = 73793}),
+        BlondeHair = Item({item = 203322, quest = 73810}),
+        BlueAndSilverArmor = Item({item = 203300, quest = 73788}),
+        BlueScales = Item({item = 203350, quest = 73841}),
+        BronzeScales = Item({item = 203351, quest = 842}),
+        BrownHair = Item({item = 203323, quest = 73811}),
+        ClusterChinHorn = Item({item = 203312, quest = 73800}),
+        ClusterHorns = Item({item = 203331, quest = 73820}),
+        ClusterJawHorns = Item({item = 203340, quest = 73831}),
+        CurledCheekHorn = Item({item = 203321, quest = 73809}),
+        CurledHorns = Item({item = 203334, quest = 73824}),
+        CurledNose = Item({item = 203346, quest = 73837}),
+        CurvedChinHorn = Item({item = 203314, quest = 73802}),
+        CurvedHorns = Item({item = 203335, quest = 73825}),
+        CurvedNoseHorn = Item({item = 203349, quest = 73840}),
+        Ears = Item({item = 203320, quest = 73808}),
+        FinnedCheek = Item({item = 203319, quest = 73807}),
+        FinnedTipTail = Item({item = 203361, quest = 73853}),
+        GrandChinThorn = Item({item = 203310, quest = 73798}),
+        GreenAndBronzeArmor = Item({item = 203299, quest = 73787}),
+        GreenScales = Item({item = 203352, quest = 73843}),
+        HairyBrow = Item({item = 203308, quest = 73796}),
+        HairyChin = Item({item = 203311, quest = 73799}),
+        HairyCrest = Item({item = 203318, quest = 73806}),
+        HairyJaw = Item({item = 203343, quest = 73834}),
+        HairyTail = Item({item = 203362, quest = 73854}),
+        HairyThroat = Item({item = 203365, quest = 73857}),
+        HeavyHorns = Item({item = 203329, quest = 73817}),
+        HeavyScales = Item({item = 205341, quest = 75743}),
+        Helm = Item({item = 203326, quest = 73814}),
+        HornedBrow = Item({item = 203306, quest = 73794}),
+        ImpalerHorns = Item({item = 203339, quest = 73830}),
+        LargeFinnedCrest = Item({item = 203316, quest = 73804}),
+        LargeFinnedTail = Item({item = 203360, quest = 73852}),
+        LargeFinnedThroat = Item({item = 203363, quest = 73855}),
+        LargeSpikedNose = Item({item = 203347, quest = 73838}),
+        LightBlueAndCopperArmor = Item({item = 203301, quest = 73789}),
+        LongChinHorn = Item({item = 203309, quest = 73797}),
+        LongJawHorns = Item({item = 203341, quest = 73832}),
+        PairedHorns = Item({item = 203336, quest = 73826}),
+        PlatedBrow = Item({item = 203307, quest = 73795}),
+        PointedNose = Item({item = 203348, quest = 73839}),
+        PurpleAndSilverArmor = Item({item = 203302, quest = 73790}),
+        RedAndGoldArmor = Item({item = 203303, quest = 73791}),
+        RedHair = Item({item = 203325, quest = 73813}),
+        RedScales = Item({item = 203353, quest = 73844}),
+        SharkFinnedTail = Item({item = 203359, quest = 73851}),
+        ShortHorns = Item({item = 203333, quest = 73822}),
+        SingleJawHorn = Item({item = 203344, quest = 73835}),
+        SmallFinnedCrest = Item({item = 203317, quest = 73805}),
+        SmallFinnedTail = Item({item = 203358, quest = 73850}),
+        SmallFinnedThroat = Item({item = 203364, quest = 73856}),
+        SmallSpikedCrest = Item({item = 203315, quest = 73803}),
+        SpikedChin = Item({item = 203313, quest = 73801}),
+        SpikedHorns = Item({item = 203332, quest = 73821}),
+        SpikedTail = Item({item = 203357, quest = 73849}),
+        SplitJawHorns = Item({item = 203345, quest = 73836}),
+        SweptHorns = Item({item = 203330, quest = 73818}),
+        TanHorns = Item({item = 203327, quest = 73815}),
+        ThornHorns = Item({item = 203337, quest = 73827}),
+        TripleJawHorns = Item({item = 203342, quest = 73833}),
+        WhiteAndGoldArmor = Item({item = 203298, quest = 73786}),
+        WhiteHair = Item({item = 203324, quest = 73812}),
+        WhiteHorns = Item({item = 203328, quest = 73816}),
+        WhiteScales = Item({item = 203354, quest = 73845}),
+        YellowAndSilverArmor = Item({item = 203304, quest = 73792}),
+        YellowScales = Item({item = 203355, quest = 73846})
     }
 }
 
@@ -1082,6 +1163,18 @@ local LegendaryCharacter = Class('LegendaryCharacter', Collectible, {
 }) -- A Legendary Album
 
 ns.node.LegendaryCharacter = LegendaryCharacter
+
+-------------------------------------------------------------------------------
+--------------------- ANCIENT STONES OF THE DRAGON ISLES ----------------------
+-------------------------------------------------------------------------------
+
+local AncientStone = Class('AncientStone', Collectible, {
+    label = L['ancient_stone_label'],
+    icon = 134461,
+    group = ns.groups.ANCIENT_STONES
+}) -- Ancient Stone
+
+ns.node.AncientStone = AncientStone
 
 -------------------------------------------------------------------------------
 ----------------------------- DRAGON ISLES SAFARI -----------------------------

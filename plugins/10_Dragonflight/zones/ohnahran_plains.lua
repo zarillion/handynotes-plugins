@@ -12,6 +12,7 @@ local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
+local AncientStone = ns.node.AncientStone
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
@@ -1972,6 +1973,30 @@ map.nodes[34603468] = Collectible({
         }) -- Training Course Path
     }
 }) -- Training Master Turasa
+
+-------------------------------------------------------------------------------
+------------------- ANCIENT STONES OF THE OHN'AHRAN PLAINS --------------------
+-------------------------------------------------------------------------------
+
+map.nodes[43535649] = AncientStone({
+    rewards = {Achievement({id = 17562, criteria = 58809})}
+}) -- The Gnoll Wars
+
+map.nodes[24756595] = AncientStone({
+    rewards = {Achievement({id = 17562, criteria = 58810})}
+}) -- Your Dreamer
+
+map.nodes[32255134] = AncientStone({
+    rewards = {Achievement({id = 17562, criteria = 58811})}
+}) -- Dreams in Emerald
+
+map.nodes[66994367] = AncientStone({
+    rewards = {Achievement({id = 17562, criteria = 58812})}
+}) -- The First Kurnal
+
+map.nodes[38636670] = AncientStone({
+    rewards = {Achievement({id = 17562, criteria = 58813})}
+}) -- Wind, Wood, Water
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

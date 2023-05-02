@@ -17,7 +17,7 @@ L['options_icons_profession_treasures_desc'] = 'Display locations of treasures w
 
 L['dragon_glyph'] = 'Dragon Glyph'
 L['options_icons_dragon_glyph'] = 'Dragon Glyphs'
-L['options_icons_dragon_glyph_desc'] = 'Display the location of all 56 dragon glyphs.'
+L['options_icons_dragon_glyph_desc'] = 'Display the location of all 64 dragon glyphs.'
 
 L['dragonscale_expedition_flag'] = 'Dragonscale Expedition Flag'
 L['flags_placed'] = 'flags placed'
@@ -134,6 +134,10 @@ L['the_best_at_what_i_do_suffix'] = 'bosses killed'
 
 L['options_icons_grand_hunts'] = 'Grand Hunts'
 L['options_icons_grand_hunts_desc'] = 'Display locations and rewards for {object:Grand Hunts}.'
+
+L['ancient_stone_label'] = 'Ancient Stone'
+L['options_icons_ancient_stones'] = '{achievement:17560}'
+L['options_icons_ancient_stones_desc'] = 'Display {object:Ancient Stone} locations for {achievement:17560}.'
 
 L['reed_chest'] = 'Reed Chest'
 L['options_icons_reed_chest'] = 'Reed Chest'
@@ -721,3 +725,45 @@ To see the {object:Feathers} you need to purchase the {item:199177} from {npc:18
 Use this necklace and pick up {item:202062} {dot:Red} found within the {location:Burning Ascent} and {location:The Slagmire}, which are areas surrounding the {location:Obsidian Citadel}.
 ]]
 L['phoenix_wishwing_info'] = 'This is part of the {item:193373} Collectible located in {location:The Waking Shore} on the {location:Dragon Isles}.'
+
+-------------------------------------------------------------------------------
+------------------------------- Zaralek Cavern --------------------------------
+-------------------------------------------------------------------------------
+
+L['in_deepflayer_nest'] = 'Within {location:Deepflayer Nest}'
+
+L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.'
+
+L['ancient_zaqali_chest_note'] = 'Use a nearby {object:Bottled Magma} to open the chest.'
+L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
+L['crystal_encased_chest_note'] = 'Interact with both the blue {object:Attunement Crystal} ({dot:Blue}) and red {object:Attunement Crystal} ({dot:Red}) to open the chest.'
+L['old_trunk_note'] = 'Collect and combine x5 {item:204325} to create {item:204323}.'
+L['well_chewed_chest_note'] = 'The {item:202869}({dot:Green}) is hidden underneath the {npc:199962} within the cave.'
+
+L['molten_hoard_label'] = 'Molten Hoard'
+L['fealtys_reward_label'] = 'Fealty\'s Reward'
+L['fealtys_reward_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['dreamers_bounty_label'] = 'Dreamer\'s Bounty'
+L['dreamers_bounty_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['moth_pilfered_pouch_label'] = 'Moth-Pilfered Pouch'
+L['moth_pilfered_pouch_note'] = 'Help the {npc:203225} to fly by "juggling" it until it has five stacks of {spell:405358}.\n\nIt will then fly to the pouch and reveal it to you.'
+L['waterlogged_bundle_label'] = 'Waterlogged Bundle'
+
+L['stolen_stash_label'] = 'Stolen Stash'
+L['ritual_offering_label'] = 'Ritual Offering'
+L['nal_kskol_reliquary_label'] = 'Nal ks\'kol Reliquary'
+L['nal_kskol_reliquary_note'] = 'Use the {object:Reliquary Access Console} and solve the puzzle to open the {object:Nal ks\'kol Reliquary}.'
+
+L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.'
+L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'
+
+L['sniffen_sage_suffix'] = 'special items found'
+
+L['big_slick_note_1'] = '{npc:48182} can be found in old-world {location:Darkshore}. Speak with {npc:141489} to travel back in time before the {location:War of Thorns}.'
+
+L['saccratos_note'] = 'Exchange {item:204727} for a pet, mount, and more.'
+L['ponzo_note'] = 'Exchange {item:204985} and {item:205903} for drake customizations, pet, mount, and more.'
+
+L['smelly_trash_pile_label'] = 'Smelly Trash Pile'
+L['options_icons_smelly_trash_pile'] = 'Smelly Trash Pile'
+L['options_icons_smelly_trash_pile_desc'] = 'Display possible locations of {object:Smelly Trash Pile}.'

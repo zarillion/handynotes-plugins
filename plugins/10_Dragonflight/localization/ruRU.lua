@@ -18,7 +18,7 @@ L['options_icons_profession_treasures_desc'] = 'Отображение мест�
 
 L['dragon_glyph'] = 'Драконий символ'
 L['options_icons_dragon_glyph'] = 'Драконий символ'
-L['options_icons_dragon_glyph_desc'] = 'Показать расположение всех 56 драконьих символов.'
+L['options_icons_dragon_glyph_desc'] = 'Показать расположение всех 64 драконьих символов.'
 
 L['dragonscale_expedition_flag'] = 'Флаг Драконьей экспедиции'
 L['flags_placed'] = 'высокий пик'
@@ -135,6 +135,10 @@ L['the_best_at_what_i_do_suffix'] = 'боссы убиты'
 
 L['options_icons_grand_hunts'] = 'Великая охота'
 L['options_icons_grand_hunts_desc'] = 'Отображение локаций и наград за {object:Великую охоту}.'
+
+L['ancient_stone_label'] = nil
+L['options_icons_ancient_stones'] = '{achievement:17560}'
+L['options_icons_ancient_stones_desc'] = nil
 
 L['reed_chest'] = 'Тростниковый сундук'
 L['options_icons_reed_chest'] = 'Тростниковый сундук'
@@ -722,3 +726,45 @@ L['phoenix_wishwing_ash_feather'] = [[
 Используйте это ожерелье и собирайте {item:202062} {dot:Red}, их можно найти на {location:Подъеме Пламени} и {location:Шлаковой топи}, которые являются областями, окружающими {location:Обсидиановую Цитадель}.
 ]]
 L['phoenix_wishwing_info'] = 'This is part of the {item:193373} Collectible located in {location:The Waking Shore} on the {location:Dragon Isles}.'
+
+-------------------------------------------------------------------------------
+------------------------------- Zaralek Cavern --------------------------------
+-------------------------------------------------------------------------------
+
+L['in_deepflayer_nest'] = nil
+
+L['brulsef_the_stronk_note'] = nil
+
+L['ancient_zaqali_chest_note'] = nil
+L['blazing_shadowflame_chest_note'] = nil
+L['crystal_encased_chest_note'] = nil
+L['old_trunk_note'] = nil
+L['well_chewed_chest_note'] = nil
+
+L['molten_hoard_label'] = nil
+L['fealtys_reward_label'] = nil
+L['fealtys_reward_note'] = nil
+L['dreamers_bounty_label'] = nil
+L['dreamers_bounty_note'] = nil
+L['moth_pilfered_pouch_label'] = nil
+L['moth_pilfered_pouch_note'] = nil
+L['waterlogged_bundle_label'] = nil
+
+L['stolen_stash_label'] = nil
+L['ritual_offering_label'] = nil
+L['nal_kskol_reliquary_label'] = nil
+L['nal_kskol_reliquary_note'] = nil
+
+L['molten_scoutbot_note'] = nil
+L['bolts_and_brass_note'] = nil
+
+L['sniffen_sage_suffix'] = nil
+
+L['big_slick_note_1'] = nil
+
+L['saccratos_note'] = nil
+L['ponzo_note'] = nil
+
+L['smelly_trash_pile_label'] = nil
+L['options_icons_smelly_trash_pile'] = nil
+L['options_icons_smelly_trash_pile_desc'] = nil

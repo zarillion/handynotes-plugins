@@ -13,6 +13,7 @@ local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
+local AncientStone = ns.node.AncientStone
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local Dragonrace = ns.node.Dragonrace
@@ -1186,6 +1187,7 @@ local DecayCoveredChest = Class('DecayCoveredChest', ns.node.Node, {
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Recipe({item = 194312, profession = 165}), -- Pattern: Gnoll Tent
+        Recipe({item = 204695, profession = 171}), -- Recipe: Cauldron of Extracted Putrescence
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 200071}), -- Sacred Tuskarr Totem
         Currency({id = 2003}) -- Dragon Isles Supplies
@@ -1787,6 +1789,32 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         end
     end
 end)
+
+-------------------------------------------------------------------------------
+---------------------- ANCIENT STONES OF THE AZURE SPAN -----------------------
+-------------------------------------------------------------------------------
+
+map.nodes[56737039] = AncientStone({
+    rewards = {Achievement({id = 17563, criteria = 58814})}
+}) -- In'bunata's Blessing
+
+map.nodes[08014565] = AncientStone({
+    rewards = {Achievement({id = 17563, criteria = 58815})}
+}) -- A Solid Foundation
+
+map.nodes[66416102] = AncientStone({
+    rewards = {Achievement({id = 17563, criteria = 58816})}
+}) -- Attention: Immediate Evactuation
+
+map.nodes[60324973] = AncientStone({
+    note = L['in_small_cave'],
+    rewards = {Achievement({id = 17563, criteria = 58817})},
+    pois = {POI({60895007})} -- Entrance
+}) -- The Vow
+
+map.nodes[77403113] = AncientStone({
+    rewards = {Achievement({id = 17563, criteria = 58818})}
+}) -- Valkros Maintenance
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

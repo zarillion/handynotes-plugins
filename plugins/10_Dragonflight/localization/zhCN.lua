@@ -17,7 +17,7 @@ L['options_icons_profession_treasures_desc'] = '显示给予专业知识的宝�
 
 L['dragon_glyph'] = '巨龙魔符'
 L['options_icons_dragon_glyph'] = '巨龙魔符'
-L['options_icons_dragon_glyph_desc'] = '显示全部56个巨龙魔符的位置。'
+L['options_icons_dragon_glyph_desc'] = '显示全部64个巨龙魔符的位置。'
 
 L['dragonscale_expedition_flag'] = '龙鳞探险队旗帜'
 L['flags_placed'] = '已插旗帜'
@@ -134,6 +134,10 @@ L['the_best_at_what_i_do_suffix'] = '首领已击杀'
 
 L['options_icons_grand_hunts'] = '洪荒狩猎'
 L['options_icons_grand_hunts_desc'] = '显示 {object:洪荒狩猎} 的位置和奖励。'
+
+L['ancient_stone_label'] = '远古之石'
+L['options_icons_ancient_stones'] = '{achievement:17560}'
+L['options_icons_ancient_stones_desc'] = '显示 {achievement:17560} 成就中 {object:远古之石} 的位置。'
 
 L['reed_chest'] = '苇草宝箱'
 L['options_icons_reed_chest'] = '苇草宝箱'
@@ -721,3 +725,45 @@ L['phoenix_wishwing_ash_feather'] = [[
 使用这条项链并捡起位于 {location:燃烧高地} 和 {location:熔渣沼泽} 中的 {item:202062} {dot:Red}，它们在 {location:黑曜王座} 周围的区域。
 ]]
 L['phoenix_wishwing_info'] = '这是位于 {location:巨龙群岛} 的 {location:觉醒海岸} 的 {item:193373} 收藏品的一部分。'
+
+-------------------------------------------------------------------------------
+------------------------------- Zaralek Cavern --------------------------------
+-------------------------------------------------------------------------------
+
+L['in_deepflayer_nest'] = '位于 {location:深岩剥石者之巢}'
+
+L['brulsef_the_stronk_note'] = '从 {object:丰盛收获宝箱} 拾取奖励。'
+
+L['ancient_zaqali_chest_note'] = '使用附近的 {object:瓶装岩浆} 打开宝箱。'
+L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
+L['crystal_encased_chest_note'] = '与蓝色 {object:调和水晶} {dot:Blue} 和红色 {object:调和水晶} {dot:Red} 一起互动打开宝箱。'
+L['old_trunk_note'] = '收集并组合5个 {item:204325} 创造 {item:204323}。'
+L['well_chewed_chest_note'] = '{item:202869} {dot:Green} 在洞穴内隐藏在 {npc:199962} 下面。'
+
+L['molten_hoard_label'] = '熔火宝藏'
+L['fealtys_reward_label'] = '忠诚的奖赏'
+L['fealtys_reward_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['dreamers_bounty_label'] = '沉睡者的奖赏'
+L['dreamers_bounty_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['moth_pilfered_pouch_label'] = '蛾子窃取的袋子'
+L['moth_pilfered_pouch_note'] = '帮助 {npc:203225} 通过“杂耍”飞行，直到它有5层 {spell:405358}。\n\n然后它会飞到袋子上展示。'
+L['waterlogged_bundle_label'] = '浸水的包裹'
+
+L['stolen_stash_label'] = '失窃的货物'
+L['ritual_offering_label'] = '仪式供品'
+L['nal_kskol_reliquary_label'] = '纳·克斯寇圣物匣'
+L['nal_kskol_reliquary_note'] = '使用 {object:圣物匣开启控制台} 并解开拼图以打开 {object:纳·克斯寇圣物匣}。'
+
+L['molten_scoutbot_note'] = '打开 {object:熔火斥候机器人} 并拾取 {item:204855}.'
+L['bolts_and_brass_note'] = '打开 {object:螺栓和黄铜} 并拾取 {item:204850}.'
+
+L['sniffen_sage_suffix'] = '找到特殊物品'
+
+L['big_slick_note_1'] = '{npc:48182} 可以在旧世界 {location:黑海岸} 找到。和 {npc:141489} 对话返回 {location:荆棘战争} 之前时间。'
+
+L['saccratos_note'] = '用 {item:204727} 换取宠物，坐骑和其他。'
+L['ponzo_note'] = '用 {item:204985} 和 {item:205903} 换取幼龙定制，宠物，坐骑和其他。'
+
+L['smelly_trash_pile_label'] = '臭垃圾堆'
+L['options_icons_smelly_trash_pile'] = '臭垃圾堆'
+L['options_icons_smelly_trash_pile_desc'] = '显示 {object:臭垃圾堆} 可能的位置。'

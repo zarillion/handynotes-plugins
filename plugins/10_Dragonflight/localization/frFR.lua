@@ -18,7 +18,7 @@ L['options_icons_profession_treasures_desc'] = 'Afficher les emplacements des tr
 
 L['dragon_glyph'] = 'Dracoglyphe'
 L['options_icons_dragon_glyph'] = 'Dracoglyphes'
-L['options_icons_dragon_glyph_desc'] = 'Afficher les emplacements des 56 dracoglyphes.'
+L['options_icons_dragon_glyph_desc'] = 'Afficher les emplacements des 64 dracoglyphes.'
 
 L['dragonscale_expedition_flag'] = 'Drapeau de l\'Expédition du Dracaret'
 L['flags_placed'] = 'drapeaux placés'
@@ -135,6 +135,10 @@ L['the_best_at_what_i_do_suffix'] = 'boss tués'
 
 L['options_icons_grand_hunts'] = 'Grandes Chasses'
 L['options_icons_grand_hunts_desc'] = 'Afficher les emplacements et les récompenses pour les {object:Grandes Chasses}.'
+
+L['ancient_stone_label'] = 'Pierre ancienne'
+L['options_icons_ancient_stones'] = '{achievement:17560}'
+L['options_icons_ancient_stones_desc'] = 'Afficher les emplacements des {object:Pierres anciennes} pour le haut-fait {achievement:17560}.'
 
 L['reed_chest'] = 'Coffre en roseau'
 L['options_icons_reed_chest'] = 'Coffre en roseau'
@@ -719,3 +723,45 @@ Pour voir les {object:Plumes}, vous devez acheter l'{item:199177} à {npc:189207
 Utilisez cette amulette et ramassez des {item:202062} {dot:Red} trouvées à l'{location:Éminence Ardente} et au {location:Bourbier aux Scories}, qui sont des zones entourant la {location:Citadelle d’Obsidienne}.
 ]]
 L['phoenix_wishwing_info'] = 'Ceci fait partie de de la méthode d\'obtention du {item:193373} situé aux {location:Rivages de l’Éveil} sur les {location:Îles aux Dragons}.'
+
+-------------------------------------------------------------------------------
+------------------------------- Zaralek Cavern --------------------------------
+-------------------------------------------------------------------------------
+
+L['in_deepflayer_nest'] = 'A l\'intérieur du {location:Nid de flagellants des profondeurs}'
+
+L['brulsef_the_stronk_note'] = 'Récupérez vos récompenses à partir du {object:Coffre de gains massifs}.'
+
+L['ancient_zaqali_chest_note'] = 'Utilisez un {object:Magma en bouteille} à proximité pour ouvrir le coffre.'
+L['blazing_shadowflame_chest_note'] = nil -- DEV NOTE - Do not translate
+L['crystal_encased_chest_note'] = 'Interagissez avec le {object:Cristal d\'harmonisation} ({dot:Blue}) et le {object:Cristal d\'harmonisation} ({dot:Red}) pour ouvrir le coffre.'
+L['old_trunk_note'] = 'Rassemblez et combinez x5 {item:204325} pour créer une {item:204323}.'
+L['well_chewed_chest_note'] = 'La {item:202869}({dot:Green}) est cachée sous la {npc:199962} dans la grotte.'
+
+L['molten_hoard_label'] = 'Butin en fusion'
+L['fealtys_reward_label'] = 'Récompense de loyauté'
+L['fealtys_reward_note'] = nil -- DEV NOTE - Do not translate
+L['dreamers_bounty_label'] = 'Butin de la Rêveuse'
+L['dreamers_bounty_note'] = nil -- DEV NOTE - Do not translate
+L['moth_pilfered_pouch_label'] = 'Bourse volée par les phalènes'
+L['moth_pilfered_pouch_note'] = 'Aidez le {npc:203225} à voler en le faisant "jongler" jusqu\'à ce qu\'il ait cinq charges de {spell:405358}.\n\nIl volera alors jusqu\'à la bourse et vous la révèlera.'
+L['waterlogged_bundle_label'] = 'Paquet détrempé'
+
+L['stolen_stash_label'] = 'Butin volé'
+L['ritual_offering_label'] = 'Offrandes rituelles'
+L['nal_kskol_reliquary_label'] = 'Reliquaire de Nak Ks\'sol'
+L['nal_kskol_reliquary_note'] = 'Utilisez la {object:Console d\'accès au reliquaire} et résolvez l\'énigme pour ouvrir le {object:Reliquaire de Nak Ks\'sol}.'
+
+L['molten_scoutbot_note'] = 'Examinez l\'{object:Explorobot fondu} et récupérez le {item:204855}.'
+L['bolts_and_brass_note'] = 'Examinez les {object:Boulons et cuivre} et récupérez la {item:204850}.'
+
+L['sniffen_sage_suffix'] = 'objets spéciaux trouvés'
+
+L['big_slick_note_1'] = 'l\'{npc:48182} peut être trouvé dans l\'ancienne version de la zone {location:Sombrivage}. Parlez à {npc:141489} pour remonter le temps avant la {location:Guerre des épines}.'
+
+L['saccratos_note'] = 'Échangez vos {item:204727} contre une mascotte, une monture et plus encore.'
+L['ponzo_note'] = 'Échangez vos {item:204985} et vos {item:205903} contre des personnalisations de drake, une mascotte, une monture et plus encore.'
+
+L['smelly_trash_pile_label'] = 'Tas de déchets kifouette'
+L['options_icons_smelly_trash_pile'] = 'Tas de déchets kifouette'
+L['options_icons_smelly_trash_pile_desc'] = 'Afficher les emplacements possibles des {object:Tas de déchets kifouette}.'

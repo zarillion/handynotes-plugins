@@ -17,7 +17,7 @@ L['options_icons_profession_treasures_desc'] = 'Zeigt die Positionen der Schätz
 
 L['dragon_glyph'] = 'Drachenglyphe'
 L['options_icons_dragon_glyph'] = 'Drachenglyphen'
-L['options_icons_dragon_glyph_desc'] = 'Zeigt die Positionen aller 56 Drachenglyphen an.'
+L['options_icons_dragon_glyph_desc'] = 'Zeigt die Positionen aller 64 Drachenglyphen an.'
 
 L['dragonscale_expedition_flag'] = 'Flagge der Drachenschuppenexpedition'
 L['flags_placed'] = 'Flaggen platziert'
@@ -134,6 +134,10 @@ L['the_best_at_what_i_do_suffix'] = 'Bosse getötet'
 
 L['options_icons_grand_hunts'] = 'Große Jagden'
 L['options_icons_grand_hunts_desc'] = 'Zeigt die möglichen Positionen und Belohnungen der {location:Großen Jagd} an.'
+
+L['ancient_stone_label'] = 'Uralter Stein'
+L['options_icons_ancient_stones'] = '{achievement:17560}'
+L['options_icons_ancient_stones_desc'] = 'Zeigt die Positionen der {object:Uralten Steine} für den Erfolg {achievement:17560} an.'
 
 L['reed_chest'] = 'Schilfkiste'
 L['options_icons_reed_chest'] = 'Schilfkiste'
@@ -295,6 +299,7 @@ L['profession_required'] = '{note:Benötigt einen Spieler mit dem Beruf \'%s\'.}
 L['pr_crafting_note'] = 'Stellt {item:%s} mit {item:%s} her und interagiere mit {object:%s}, um den seltenen Gegner erscheinen zu lassen.'
 L['pr_gathering_note'] = 'Benutze {item:%s}, um mit {object:%s} zu interagieren, um den seltenen Gegner erscheinen zu lassen.'
 L['pr_recipe_note'] = 'Das Rezept {item:%s} kann von {npc:202445} für 10 {item:190456} gekauft werden.'
+
 L['pr_summoning_note'] = 'Der Spieler, der den seltenen Gegner beschwört, erhält den Stärkungszauber {spell:405161} und Bonusbeute.'
 
 L['pr_awakened_soil'] = 'Erweckter Boden'
@@ -720,3 +725,45 @@ Um die {object:Federn} zu sehen, musst du das {item:199177} von {npc:189207} am 
 Benutze die Halskette und sammle {item:202062} {dot:Red} die sich in der Umgebung der {location:Obsidianzitadelle} befinden.
 ]]
 L['phoenix_wishwing_info'] = 'Dies ist teil des {item:193373} in {location:Küste des Erwachens} auf den {location:Dracheninseln}.'
+
+-------------------------------------------------------------------------------
+------------------------------- Zaralek Cavern --------------------------------
+-------------------------------------------------------------------------------
+
+L['in_deepflayer_nest'] = 'Im {location:Tiefenschindernest}.'
+
+L['brulsef_the_stronk_note'] = 'Du erhältst deine Belohnung aus der {object:Chest of Massive Gains}.' -- todo: translate chest name
+
+L['ancient_zaqali_chest_note'] = 'Benutze das {object:Abgefüllte Magma} in der Nähe, um die Kiste zu öffnen.'
+L['blazing_shadowflame_chest_note'] = nil
+L['crystal_encased_chest_note'] = 'Interagiere mit dem Blauen {object:Abstimmungskristall} ({dot:Blue}) und dem Roten {object:Abstimmungskristall} ({dot:Red}), um den Schatz zu öffnen.'
+L['old_trunk_note'] = 'Sammle und kombiniere 5 {item:204325} um einen {item:204323} herzustellen.'
+L['well_chewed_chest_note'] = 'Der {item:202869}({dot:Green}) ist unter {npc:199962} in einer Höhle versteckt.'
+
+L['molten_hoard_label'] = 'Geschmolzener Schatz'
+L['fealtys_reward_label'] = 'Belohnung der Treue'
+L['fealtys_reward_note'] = nil
+L['dreamers_bounty_label'] = 'Belohnung des Träumers'
+L['dreamers_bounty_note'] = nil
+L['moth_pilfered_pouch_label'] = 'Von Motten geplünderte Tasche'
+L['moth_pilfered_pouch_note'] = 'Hilf {npc:203225} zu fliegen indem du sie wiederholt "jonglierst", bis sie 5 Stapel {spell:405358} erlangt.\n\nSie fliegt dann zum Schatz und enthüllt ihn.'
+L['waterlogged_bundle_label'] = 'Durchnässtes Bündel'
+
+L['stolen_stash_label'] = 'Gestohlenes Lager'
+L['ritual_offering_label'] = 'Ritualopfergaben'
+L['nal_kskol_reliquary_label'] = 'Reliquiar von Nal ks\'kol'
+L['nal_kskol_reliquary_note'] = 'Benutze die {object:Reliquary Access Console} und löse das Rätsel um das {object:Reliquiar von Nal ks\'kol} zu öffnen.' -- todo: translate object name
+
+L['molten_scoutbot_note'] = 'Öffne das {object:Molten Scoutbot} und plündere {item:204855}.' -- todo: translate chest name
+L['bolts_and_brass_note'] = 'Öffne {object:Bolts and Brass} und plündere {item:204850}.' -- todo: translate chest name
+
+L['sniffen_sage_suffix'] = 'Spezialgegenstände erschnüffelt'
+
+L['big_slick_note_1'] = '{npc:48182} kann in der alten Welt an der {location:Dunkelküste} gefunden werden. Sprich mit {npc:141489} um in die Zeit vor dem {location:Krieg der Dornen} zurückzureisen.'
+
+L['saccratos_note'] = 'Tausche {item:204727} gegen ein Reittier, ein Haustier und mehr ein.'
+L['ponzo_note'] = 'Tausche {item:204985} gegen Drachenanpassungen, ein Reittier, ein Haustier und mehr ein.'
+
+L['smelly_trash_pile_label'] = 'Stinkender Müllhaufen'
+L['options_icons_smelly_trash_pile'] = 'Stinkender Müllhaufen'
+L['options_icons_smelly_trash_pile_desc'] = 'Zeigt die möglichen Positionen der {object:Stinkenden Müllhaufen} an.'
