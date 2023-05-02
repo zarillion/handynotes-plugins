@@ -517,6 +517,14 @@ map.nodes[27495634] = ns.node.Node({
     clabel = L['change_map']
 }) -- Portal to the Molten Front
 
+mf.nodes[54308550] = ns.node.Node({
+    label = L['portal_mount_hyjal'],
+    scale = 2,
+    icon = 'portal_rd',
+    OnClick = function() WorldMapFrame:SetMapID(map.id) end,
+    clabel = L['change_map']
+})
+
 map.nodes[37225618] = Collectible({
     id = 40578,
     quest = 29177,

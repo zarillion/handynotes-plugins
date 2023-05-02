@@ -97,7 +97,7 @@ map.nodes[62384384] = Rare({
     }
 }) -- Champion of the Black Flame
 
-map.nodes[52954988] = Rare({
+map.nodes[54165289] = Rare({
     id = 73175,
     quest = {33286, 33310},
     rewards = {
@@ -311,7 +311,7 @@ map.nodes[34088384] = Rare({
     }
 }) -- Karkanos
 
-map.nodes[67614423] = Rare({
+map.nodes[67254421] = Rare({
     id = 73277,
     quest = {33273, 33298},
     rewards = {
@@ -439,7 +439,7 @@ map.nodes[57617660] = Rare({
     }
 }) -- Watcher Osu
 
-map.nodes[47008700] = Rare({
+map.nodes[47248803] = Rare({
     id = 72245,
     quest = {32997, 33316},
     rewards = {

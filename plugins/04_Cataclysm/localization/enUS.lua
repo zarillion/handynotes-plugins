@@ -37,6 +37,7 @@ You earn {currency:416} from daily quests.
 L['hyjal_phase5_note'] = 'To advance into Phase 5 you need to complete {quest:29215} and {quest:29182}.' -- review
 
 L['portal_molten_front'] = 'Portal to the Molten Front'
+L['portal_mount_hyjal'] = 'Portal to Mount Hyjal'
 
 L['spider_hill_note'] = [[
 Reach the highest point in the {location:Widow's Clutch}.

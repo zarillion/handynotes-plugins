@@ -323,6 +323,9 @@ L['zskera_vaults_label'] = nil
 L['zskera_vaults_note'] = nil
 L['door_buster_suffix'] = nil
 
+L['broken_waygate_label'] = nil
+L['neltharions_toolkit_note'] = nil
+
 L['recipe_rat_note_1'] = nil
 L['recipe_rat_note_2'] = nil
 L['recipe_rat_note_3'] = nil
@@ -359,7 +362,10 @@ L['options_icons_scalecommander_item_desc'] = nil
 L['spellsworn_gateway'] = nil
 L['gemstone_of_return'] = nil
 
-L['morqut_village_vendor_note'] = nil
+L['treysh_note'] = nil
+L['renown_envoy_label'] = nil
+L['renown_envoy_note'] = nil
+L['trader_hagarth_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -656,6 +662,15 @@ L['options_icons_djaradin_cache_desc'] = nil
 L['dragonbane_siege_label'] = nil
 L['options_icons_dragonbane_siege'] = nil
 L['options_icons_dragonbane_siege_desc'] = nil
+
+L['phoenix_wishwing_note'] = nil
+L['phoenix_wishwing_talisman'] = nil
+L['phoenix_wishwing_phoenix_ember'] = nil
+L['phoenix_wishwing_sacred_ash'] = nil
+L['phoenix_wishwing_inert_ash'] = nil
+L['phoenix_wishwing_smoldering_ash'] = nil
+L['phoenix_wishwing_ash_feather'] = nil
+L['phoenix_wishwing_info'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

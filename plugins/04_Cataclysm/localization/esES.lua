@@ -37,7 +37,8 @@ Conseguirás {currency:416} en las misiones diarias.
 ]]
 L['hyjal_phase5_note'] = 'Para avanzar en la Fase 5 necesitarás completar las misiones {quest:29215} y {quest:29182}.' -- review
 
-L['portal_molten_front'] = 'Portal al {location:Frente de Magma}'
+L['portal_molten_front'] = 'Portal al Frente de Magma'
+L['portal_mount_hyjal'] = 'Portal al Monte Hyjal'
 
 L['spider_hill_note'] = [[
 Alcanza el punto más alto en la {location:Guarida de la Viuda}.

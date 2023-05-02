@@ -210,7 +210,7 @@ L['snowclaw_cub_note_end'] = [[
 
 获得 {title:荣誉树妖} 后带上头衔，将所有4件物品提供给 {npc:196768} 以获得的宠物。
 
-{bug:错误：头衔可能会消失，等待修复。}
+{note:如果过早地失去了头衔，可以重复任务以再次获得。明天或在下一次每周重置后重试。}
 ]]
 
 L['tome_of_polymoph_duck'] = '使用 {spell:1953} 进入洞穴并与 {object:法力风暴初学指南} 书互动以完成任务。'
@@ -342,6 +342,17 @@ L['zskera_vaults_label'] = '兹斯克拉宝库'
 L['zskera_vaults_note'] = '从各种稀有物品和宝箱中收集 {item:202196}，打开 {location:兹斯克拉宝库} 内的大门。'
 L['door_buster_suffix'] = '使用兹斯克拉宝库钥匙解锁的门'
 
+L['broken_waygate_label'] = '损坏的界门'
+L['neltharions_toolkit_note'] = [[1. 从 {location:兹斯克拉宝库} 中收集随机出现的 {item:204278}。
+
+2. 前往{location:觉醒海岸} 的 {location:焖燃栖地}。
+
+3. 在 {npc:193310} 旁边的洞穴中找到 {object:损坏的界门}。
+
+4. 修复 {object:损坏的界门}。{note:这可能需要点击几下。}
+
+5. 传送到 {location:兹斯克拉宝库} 内的隐藏房间。击杀 {npc:200375} 和 {npc:203639} 然后打开 {object:黑曜石大宝箱} 领取战利品！]]
+
 L['recipe_rat_note_1'] = '与 {location:兹斯克拉宝库} 中的 {npc:202982} 交谈，{item:202252} 会进入包内。'
 L['recipe_rat_note_2'] = '与 {item:202252} 互动以收到 {item:204340}。{note:（5分钟冷却时间）}'
 L['recipe_rat_note_3'] = '一旦有30个 {item:204340} 组合废料来收到配方。'
@@ -378,7 +389,10 @@ L['options_icons_scalecommander_item_desc'] = '显示 {achievement:17315} 成就
 L['spellsworn_gateway'] = '法誓传送门'
 L['gemstone_of_return'] = '返回宝石'
 
-L['morqut_village_vendor_note'] = '用 {currency:2118} 或金币换取坐骑、宠物、幻化、幼龙定制、配方和其他有用的物品。'
+L['treysh_note'] = '用 {currency:2118} 或金币兑换幻化装备和坐骑。'
+L['renown_envoy_label'] = '名望特使'
+L['renown_envoy_note'] = '用 {currency:2118} 或金币换取坐骑、宠物、幻化、幼龙定制、配方和其他有用的物品。\n\n从 {npc:200566} 以2000 {currency:2118} 的价格购买 {item:204383} 就有机会获得 {item:191915}。'
+L['trader_hagarth_note'] = '将 {item:190456} 换成匠人珍玩配方。'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -547,7 +561,7 @@ L['brendormi_note_currency'] = '当前有 %s {currency:2118}。'
 
 L['titan_chest'] = '泰坦箱子'
 L['options_icons_titan_chest'] = '泰坦箱子'
-L['options_icons_titan_chest_desc'] = nil
+L['options_icons_titan_chest_desc'] = '显示 {object:泰坦箱子} 可能的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -685,6 +699,32 @@ L['options_icons_djaradin_cache_desc'] = '显示 {object:贾拉丁宝箱} 可能
 L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = '显示 {spell:388945} 的位置和奖励。'
+
+L['phoenix_wishwing_note'] = [[
+在获得 {item:199203} 后，{npc:196214} 将提供一个上缴任务，奖励 {item:193373}。
+要完成任务，将需要以下物品（可以按任何顺序获得这些物品）：
+]]
+L['phoenix_wishwing_talisman'] = [[
+%s {item:199203}
+
+这是位于 {location:阿兰卡峰林} 的 {npc:88045} {dot:Gold} 出售。如果 {npc:88045} 不在，完成任务 {quest:35010} 就能见到他。
+需要以下物品才能购买：]]
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\n从 {location:火焰之地时光漫游} 的 {npc:52530} 掉落'
+L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\n可以在 {object:烹锅} 中找到，位于 {location:阿兰卡峰林} 附近。'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\n位于 {location:安戈洛环形山} {dot:Gray} 中心的 {npc:6520} 少量掉落。这些与 {npc:6521} 共享重生点（但不会掉落），因此请确保将两者都击杀。'
+L['phoenix_wishwing_smoldering_ash'] = [[
+%s {item:199080}
+
+在 {location:巨龙群岛} 刷各种 {npc:凤凰} {dot:Yellow}，例如 {npc:181764} 或 {npc:195448}。
+这些大多位 于{location:觉醒海岸} 的 {location:黑曜堡垒} 周围。
+]]
+L['phoenix_wishwing_ash_feather'] = [[
+%s {item:202062}
+
+要查看 {object:羽毛}，需要从 {location:觉醒海岸} 的 {location:黑曜王座} 的 {npc:189207} {dot:Green} 处购买 {item:199177}。
+使用这条项链并捡起位于 {location:燃烧高地} 和 {location:熔渣沼泽} 中的 {item:202062} {dot:Red}，它们在 {location:黑曜王座} 周围的区域。
+]]
+L['phoenix_wishwing_info'] = '这是位于 {location:巨龙群岛} 的 {location:觉醒海岸} 的 {item:193373} 收藏品的一部分。'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

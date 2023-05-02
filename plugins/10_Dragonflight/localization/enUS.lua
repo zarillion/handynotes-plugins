@@ -210,7 +210,7 @@ L['snowclaw_cub_note_end'] = [[
 
 Once you have the {title:Honorary Dryad} title equipped offer all 4 items to {npc:196768} to receive your pet.
 
-{bug:(BUG: Title may disappear pending fix)}
+{note:If you lose the title prematurely you can repeat the quest to acquire it again. Try again tomorrow or after the next weekly reset.}
 ]]
 
 L['tome_of_polymoph_duck'] = 'Use {spell:1953} to enter the cave and interact with the {object:Manastorming For Beginners} book to complete the quest.'
@@ -235,10 +235,10 @@ Kill {npc:197183} inside and you will recieve {item:200528}.
 ]]
 
 L['gethdazr_note'] = [[
-Spawns as part of an event in {location:Imbu} that starts by blowing the {object:Great Horn of Imbu}({dot:Blue}).
+Spawns as part of an event in {location:Imbu} that starts by blowing the {object:Great Horn of Imbu} {dot:Blue}.
 The horn will only become clickable after killing the {npc:196155} which has about 30-60 minutes of respawn time.
 
-{npc:191143}({dot:Green}) and other NPCs will then fight their way from the north east entrance of {location:Imbu} up to the cliff where {npc:196165} will then spawn.
+{npc:191143} {dot:Green} and other NPCs will then fight their way from the north east entrance of {location:Imbu} up to the cliff where {npc:196165} will then spawn.
 The NPCs can die without help, which then will fail the event.
 
 This can be done solo but 2-3 players are recommended.
@@ -289,7 +289,7 @@ L['in_the_support_creche'] = 'Within {location:The Support Creche}.'
 L['in_the_war_creche'] = 'Deep within {location:The War Creche}'
 L['in_zskera_vaults'] = 'Within {location:Zskera Vaults}.'
 
-L['duzalgor_note'] = 'Collect a bottle of {spell:400751}({dot:Green}) to heal from the poisonous gas within {location:The Support Creche}.'
+L['duzalgor_note'] = 'Collect a bottle of {spell:400751} {dot:Green} to heal from the poisonous gas within {location:The Support Creche}.'
 L['mad_eye_carrey_note'] = '{npc:201181} is in a group with {npc:201184} and {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} is partnered with {npc:201310}'
 L['loot_specialist_note'] = '{npc:203353} spawns with both {spell:406143} and {spell:132653} and will run away when attacked.\n\n{note:Kill him quickly before he finishes casting {spell:406141}.}'
@@ -342,6 +342,17 @@ L['zskera_vaults_label'] = 'Zskera Vaults'
 L['zskera_vaults_note'] = 'Collect {item:202196} from various rares and chests to open doors within the {location:Zskera Vaults}.'
 L['door_buster_suffix'] = 'Doors unlocked using Zskera Vault keys'
 
+L['broken_waygate_label'] = 'Broken Waygate'
+L['neltharions_toolkit_note'] = [[1. Collect {item:204278} which spawns randomly inside {location:Zskera Vaults}.
+
+2. Travel to {location:Smoldering Perch} in {location:The Waking Shores}.
+
+3. Find the {object:Broken Waygate} inside the cave next to {npc:193310}.
+
+4. Repair the {object:Broken Waygate}. {note:This may require a few clicks.}
+
+5. Teleport to the hidden room within {location:Zskera Vaults}. Kill the {npc:200375} and {npc:203639} then open the {object:Obsidian Grand Cache} to claim your loot!]]
+
 L['recipe_rat_note_1'] = 'Speak to the {npc:202982} within {location:Zskera Vault} and {item:202252} will enter your bags.'
 L['recipe_rat_note_2'] = 'Interact with {item:202252} to receive {item:204340}. {note:(5 minute cooldown)}'
 L['recipe_rat_note_3'] = 'Once you have 30x {item:204340} combine the scraps to receive the recipe.'
@@ -378,7 +389,10 @@ L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achie
 L['spellsworn_gateway'] = 'Spellsworn Gateway'
 L['gemstone_of_return'] = 'Gemstone of Return'
 
-L['morqut_village_vendor_note'] = 'Exchange {currency:2118} or gold for mounts, pets, transmog, drake customization, recipes and other useful items.'
+L['treysh_note'] = 'Exchange {currency:2118} or gold for transmog, gear and mounts.'
+L['renown_envoy_label'] = 'Renown Envoys'
+L['renown_envoy_note'] = 'Exchange {currency:2118} or gold for mounts, pets, transmog, drake customization, recipes and other useful items.\n\nPurchase {item:204383} from {npc:200566} for 2000x {currency:2118} for a chance at {item:191915}.'
+L['trader_hagarth_note'] = 'Exchange {item:190456} for Artisan Curio recipes.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -407,9 +421,9 @@ L['yennus_boat'] = 'Tuskarr Toy Boat'
 L['yennus_boat_note'] = 'Loot the {object:Tuskarr Toy Boat} to get {item:200876}. This starts the quest {quest:72063} which can be turned in at {npc:195252}.'
 
 L['forgotten_dragon_treasure_label'] = 'Forgotten Dragon Treasure'
-L['forgotten_dragon_treasure_step1'] = '1. Collect 5x {item:195884} from {object:Crystalline Flower}({dot:Green}) in western {location:Ohn\'ahran Plains}.'
-L['forgotten_dragon_treasure_step2'] = '2. Combine petals to create {item:195542} and visit the {object:Ancient Stone}({dot:Yellow}).'
-L['forgotten_dragon_treasure_step3'] = '3. Use the {item:195542} near the {object:Ancient Stone} to gain {spell:378935} which is a 20 second buff that allows you to follow the flower path to a cave ({dot:Blue}). Running over flowers increases the buff time to get to the {object:Emerald Chest}({dot:Blue}) and loot the {item:195041}.'
+L['forgotten_dragon_treasure_step1'] = '1. Collect 5x {item:195884} from {object:Crystalline Flower} {dot:Green} in western {location:Ohn\'ahran Plains}.'
+L['forgotten_dragon_treasure_step2'] = '2. Combine petals to create {item:195542} and visit the {object:Ancient Stone} {dot:Yellow}.'
+L['forgotten_dragon_treasure_step3'] = '3. Use the {item:195542} near the {object:Ancient Stone} to gain {spell:378935} which is a 20 second buff that allows you to follow the flower path to a cave {dot:Blue}. Running over flowers increases the buff time to get to the {object:Emerald Chest} {dot:Blue} and loot the {item:195041}.'
 L['forgotten_dragon_treasure_step4'] = 'Once you have the key, head to the {object:Forgotten Dragon Treasure} to open it and receive your Drakewatcher Manuscript.'
 L['fdt_crystalline_flower'] = 'Crystalline Flower'
 L['fdt_ancient_stone'] = 'Ancient Stone'
@@ -462,7 +476,7 @@ L['hunt_instructor_basku_note'] = 'Exchange {item:200093} for {faction:2503} rep
 L['elder_yusa_note'] = 'Target {npc:192818} and {emote:/hungry} to obtain the cooking recipe.'
 L['initiate_kittileg_note'] = 'Complete {quest:66226} to obtain the toy!'
 
-L['quackers_duck_trap_kit'] = 'To summon {npc:192557} you first need the {item:194740} which you can find in a nearby Clan Aylaag camp.{dot:Blue}\n\nTo make a {item:194712} you need the following materials:'
+L['quackers_duck_trap_kit'] = 'To summon {npc:192557} you first need the {item:194740} which you can find in a nearby Clan Aylaag camp {dot:Blue}.\n\nTo make a {item:194712} you need the following materials:'
 L['quackers_spawn'] = 'Next you need to catch a duck near the nest with the {item:194712}. Use the {item:194739} at the {npc:192581} to summon {npc:192557}.'
 
 L['knew_you_nokhud_do_it_note'] = '{note:All 3 items are unique and have a 30 minute timer.}\n\nCollect {item:200184}, {item:200194}, and {item:200196} from various {npc:185357s}, {npc:185353s}, and {npc:185168s} around {location:Nokhudon Hold}.\n\nCombine them to create {item:200201} and use it to speak with {npc:197884} to begin the training course.\n\nUse your |cFFFFFD00Extra Action Button|r to complete it and earn your achievement.\n\n{note:Completing the achievement while in a raid during an Elemental Storm makes farming the items much easier.}'
@@ -547,7 +561,7 @@ L['brendormi_note_currency'] = 'You currently have %s {currency:2118}.'
 
 L['titan_chest'] = 'Titan Chest'
 L['options_icons_titan_chest'] = 'Titan Chest'
-L['options_icons_titan_chest_desc'] = 'Display possible locations of {object:TuskarrTackleboxes}.'
+L['options_icons_titan_chest_desc'] = 'Display possible locations of {object:Titan Chest}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -580,9 +594,9 @@ L['fullsails_supply_chest'] = 'Fullsails Supply Chest'
 L['hidden_hornswog_hoard_note'] = [[
 Collect three different items and combine them at the {object:"Observant Riddles: A Field Guide"} near the {npc:192362} to get {item:200063} and feed it. He will then move out of the way so you can loot his treasure.
 
-{item:200064}{dot:Yellow}
-{item:200065}{dot:Blue}
-{item:200066}{dot:White}
+{item:200064} {dot:Yellow}
+{item:200065} {dot:Blue}
+{item:200066} {dot:White}
 ]]
 
 L['pm_alch_grigori_vialtry'] = 'On a ledge overlooking {location:Flashfrost Assault}.'
@@ -685,6 +699,32 @@ L['options_icons_djaradin_cache_desc'] = 'Display possible locations of {object:
 L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = 'Display locations and rewards for the {spell:388945}.'
+
+L['phoenix_wishwing_note'] = [[
+After obtaining the {item:199203}, {npc:196214} will offer a turn-in quest which rewards {item:193373}.
+To finish the quest, you will need following items (you can get these in any order):
+]]
+L['phoenix_wishwing_talisman'] = [[
+%s {item:199203}
+
+This is sold by {npc:88045} {dot:Gold} in {location:Spires of Arak}. If {npc:88045} is not present, complete the quest {quest:35010} to be able to see him.
+You need following Items to buy it:]]
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nDrops from {npc:52530} in {location:Firelands Timewalking}'
+L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nCan be found within {object:Cookpots}, located around {location:Spires of Arak}.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nDrops rarely from {npc:6520} at the center of {location:Un\'Goro Crater} {dot:Gray}. These share spawn points with (but do not drop from) {npc:6521} so make sure you kill both.'
+L['phoenix_wishwing_smoldering_ash'] = [[
+%s {item:199080}
+
+Farm the various {npc:Phoenixes} {dot:Yellow} such as {npc:181764} or {npc:195448} found on the {location:Dragon Isles}.
+These can mostly be found around the {location:Obsidian Citadel} in {location:The Waking Shores}.
+]]
+L['phoenix_wishwing_ash_feather'] = [[
+%s {item:202062}
+
+To see the {object:Feathers} you need to purchase the {item:199177} from {npc:189207} {dot:Green} in {location:The Waking Shores} at the {location:Obsidian Throne}.
+Use this necklace and pick up {item:202062} {dot:Red} found within the {location:Burning Ascent} and {location:The Slagmire}, which are areas surrounding the {location:Obsidian Citadel}.
+]]
+L['phoenix_wishwing_info'] = 'This is part of the {item:193373} Collectible located in {location:The Waking Shore} on the {location:Dragon Isles}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

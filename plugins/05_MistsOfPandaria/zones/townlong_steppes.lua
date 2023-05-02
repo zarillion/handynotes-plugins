@@ -88,7 +88,7 @@ map.nodes[54006340] = Rare({
     }
 }) -- Norlaxx
 
-map.nodes[59208560] = Rare({
+map.nodes[59348536] = Rare({
     id = 50791,
     rewards = {
         Achievement({id = 7439, criteria = 21094}) -- Glorious!

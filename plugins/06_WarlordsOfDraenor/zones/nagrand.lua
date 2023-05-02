@@ -566,7 +566,7 @@ map.nodes[64706582] = Treasure({
         Achievement({
             id = 9728,
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Transmog({item = 1234, slot = L['dagger']})
+        })
     }
 }) -- Telaar Defender Shield
 

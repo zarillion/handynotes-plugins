@@ -27,7 +27,7 @@ local map = Map({id = 379, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[75006760] = Rare({
+map.nodes[75116750] = Rare({
     id = 69842,
     note = L['zandalari_warbringer_note'],
     rewards = {
@@ -41,16 +41,6 @@ map.nodes[75006760] = Rare({
         Mount({item = 94231, id = 536}) -- Reins of the Jade Primordial Direhorn
     }
 }) -- Zandalari Warbringer
-
-map.nodes[57006460] = Rare({
-    id = 60491,
-    rewards = {
-        Mount({item = 87771, id = 473}), Achievement({id = 6480}), -- Settle Down, Bro
-        Achievement({id = 6926, criteria = 19136}) -- Tranquil Master
-
-    },
-    pois = {POI({53916474})}
-}) -- Sha of Anger
 
 map.nodes[40804240] = Rare({
     id = 50817,

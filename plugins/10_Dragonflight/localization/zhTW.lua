@@ -210,7 +210,7 @@ L['snowclaw_cub_note_end'] = [[
 
 當你裝備上稱號{title:『榮譽林精』}後, 提供所需的4個物品給 {npc:196768} 來取得寵物.
 
-{bug:(BUG: 稱號可能會消失需等待修正.)}'
+{note:如果你在之前失去了稱號你可以重複再做任務來取得. 明天或是下禮拜重置後再試一次.}'
 ]]
 
 L['tome_of_polymoph_duck'] = '使用 {spell:1953} 來進入洞窟並和 {object:初學者的法力風暴} 書互動來完成任務.'
@@ -298,7 +298,7 @@ L['profession_required'] = '{note:需要有 %s 專業技能的玩家}'
 L['pr_crafting_note'] = '使用 {item:%2$s} 製造 {item:%1$s} 並和 {object:%3$s} 互動來召喚稀有.'
 L['pr_gathering_note'] = '使用 {item:%s} 並和 {object:%s} 互動來召喚稀有.'
 L['pr_recipe_note'] = '配方 {item:%s} 可以從 {npc:202445} 處使用 10{item:190456} 購買.'
-L['pr_summoning_note'] = nil
+L['pr_summoning_note'] = '召喚稀有的玩家會有 {spell:405161} 和額外獎勵掉落.'
 
 L['pr_awakened_soil'] = '覺醒土壤'
 L['pr_book_of_arcane_entities'] = '秘法生物之書'
@@ -342,6 +342,17 @@ L['zskera_vaults_label'] = '澤斯克拉密庫'
 L['zskera_vaults_note'] = '從稀有和箱子收集 {item:202196} 來打開在 {location:澤斯克拉密庫} 裡的門.'
 L['door_buster_suffix'] = '扇門已使用澤斯克拉密庫鑰匙解鎖'
 
+L['broken_waygate_label'] = '壞掉的傳送門'
+L['neltharions_toolkit_note'] = [[1. 收集在 {location:澤斯克拉密庫} 內隨機刷新的 {item:204278}.
+
+2. 到 {location:甦醒海岸} 的 {location:灼燃棲所}.
+
+3. 在洞穴內 {npc:193310} 的旁邊找到 {object:壞掉的傳送門}.
+
+4. 修復 {object:壞掉的傳送門}. {note:這可能需要點好幾次.}
+
+5. 傳送到 {location:澤斯克拉密庫} 內的隱藏房間. 殺掉 {npc:200375} 和 {npc:203639} 後開啟 {object:黑曜華麗貯藏箱} 來取得你的拾取!]]
+
 L['recipe_rat_note_1'] = '在 {location:澤斯克拉密庫} 裡和  {npc:202982} 對話後, {item:202252} 會進入你的背包.'
 L['recipe_rat_note_2'] = '和 {item:202252} 互動取得 {item:204340}. {note:(5分鐘冷卻)}'
 L['recipe_rat_note_3'] = '當你有30個 {item:204340} 時,組合碎片取得食譜.'
@@ -378,7 +389,10 @@ L['options_icons_scalecommander_item_desc'] = '顯示成就 {achievement:17315} 
 L['spellsworn_gateway'] = '誓法者傳送門'
 L['gemstone_of_return'] = '回歸寶石'
 
-L['morqut_village_vendor_note'] = '使用 {currency:2118} 或金幣交換坐騎, 寵物, 塑型, 飛龍自訂, 配方'
+L['treysh_note'] = '使用 {currency:2118} 或金幣交換塑型, 裝備和坐騎.'
+L['renown_envoy_label'] = '名望特使'
+L['renown_envoy_note'] = '使用 {currency:2118} 或金幣交換坐騎, 寵物, 塑型, 飛龍自訂, 配方和其他有用物品.\n\n從 {npc:200566} 處用 2000個 {currency:2118} 購買 {item:204383} 有機率開到 {item:191915}.'
+L['trader_hagarth_note'] = '使用 {item:190456} 交換工匠珍品設計圖.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -685,6 +699,15 @@ L['options_icons_djaradin_cache_desc'] = '顯示 {object:加拉登貯物所} 可
 L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = '顯示 {spell:388945} 的位置和獎勵.'
+
+L['phoenix_wishwing_note'] = nil
+L['phoenix_wishwing_talisman'] = nil
+L['phoenix_wishwing_phoenix_ember'] = nil
+L['phoenix_wishwing_sacred_ash'] = nil
+L['phoenix_wishwing_inert_ash'] = nil
+L['phoenix_wishwing_smoldering_ash'] = nil
+L['phoenix_wishwing_ash_feather'] = nil
+L['phoenix_wishwing_info'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

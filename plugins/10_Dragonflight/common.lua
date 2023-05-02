@@ -17,6 +17,7 @@ local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
 local Transmog = ns.reward.Transmog
 
@@ -421,6 +422,7 @@ ns.node.Dragonglyph = Dragonglyph
 
 ns.DRAGON_CUSTOMIZATIONS = {
     RenewedProtoDrake = {
+        Antlers = Item({item = 202278, quest = 73058}),
         Armor = Item({item = 197357, quest = 69558}),
         BeakedSnout = Item({item = 197401, quest = 69602}),
         BlackAndRedArmor = Item({item = 197348, quest = 69549}),
@@ -1405,29 +1407,6 @@ local ELEMENTAL_STORM_MOB_ACHIVEMENTS = {
 }
 
 local ELEMENTAL_STORM_BOSS_ACHIEVEMENTS = {
-    ['all'] = Achievement({
-        id = 16461,
-        criteria = {
-            55461, -- Infernum
-            55462, -- Crystalus
-            55463, -- Bouldron
-            55464, -- Karantun
-            55465, -- Neela Firebane
-            55466, -- Rouen Icewind
-            55467, -- Zurgaz Corebreaker
-            55468, -- Pipspark Thundersnap
-            55469, -- Grizzlerock
-            55470, -- Voraazka
-            55471, -- Kain Firebrand
-            55472, -- Maeleera
-            55473, -- Fieraan
-            55474, -- Leerain
-            55475, -- Gaelzion
-            55476, -- Gravlion
-            55477, -- Emblazion
-            55478 -- Frozion
-        } -- Stormed Off
-    }),
     ['thunderstorm'] = Achievement({
         id = 16461,
         criteria = {55464, 55468, 55470, 55475}
@@ -1493,6 +1472,34 @@ local ELEMENTAL_STORM_FORMULA_REWARDS = {
     }) -- Formula: Illusion: Primal Frost
 }
 
+local function prepTransmog(item, slot, note)
+    ns.PrepareLinks(note)
+    return Transmog({item = item, slot = slot, note = note})
+end
+
+local ELEMENTAL_STORM_TRANSMOG_REWARDS = {
+    ['thunderstorm'] = {
+        prepTransmog(200180, L['staff'], '{npc:193653}'), -- Crystallized Lightning Staff
+        prepTransmog(200170, L['bow'], '{npc:193647}'), -- Stormbringer Bow
+        prepTransmog(200136, L['plate'], '{npc:193674}') -- Monsoonic Armguards
+    },
+    ['sandstorm'] = {
+        prepTransmog(200231, L['offhand'], '{npc:193644}'), -- Flaming Stonescale Bulwark
+        prepTransmog(200145, L['2h_sword'], '{npc:193652}') -- Hilted Monolith
+    },
+    ['firestorm'] = {
+        prepTransmog(200307, L['1h_axe'], '{npc:193650}'), -- Viciously Hooked Cleaver
+        prepTransmog(200150, L['1h_mace'], '{npc:193648}'), -- Infernum's Furnace
+        prepTransmog(200155, L['shield'], '{npc:193675}'), -- Haphazardly Welded Protector
+        prepTransmog(200181, L['1h_sword'], '{npc:193686}') -- Blade of Blazing Torment
+    },
+    ['snowstorm'] = {
+        prepTransmog(200301, L['polearm'], '{npc:193645}'), -- Reclaimed Tuskarr Harpoon
+        prepTransmog(200311, L['1h_mace'], '{npc:193655}'), -- Bonespike Mallet
+        prepTransmog(200250, L['warglaive'], '{npc:193677}') -- Frost Tipped Glaive
+    }
+}
+
 local ElementalStorm = Class('ElementalStorm', Collectible, {
     icon = 538566,
     group = ns.groups.ELEMENTAL_STORM,
@@ -1523,21 +1530,40 @@ function ElementalStorm.getters:rewards()
     end
 
     return {
-        ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], Spacer(),
+        ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'],
+        Section(L['elemental_storm_thunderstorm']), -- Thunderstorm Rewards
         getStormAchievement(self.mapID, 'thunderstorm'),
-        getStormAchievement(self.mapID, 'sandstorm'),
-        getStormAchievement(self.mapID, 'firestorm'),
-        getStormAchievement(self.mapID, 'snowstorm'), Spacer(),
-        ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['all'],
+        ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['thunderstorm'],
         ELEMENTAL_STORM_PET_REWARDS['thunderstorm'],
-        ELEMENTAL_STORM_PET_REWARDS['sandstorm'],
-        ELEMENTAL_STORM_PET_REWARDS['firestorm'],
-        ELEMENTAL_STORM_PET_REWARDS['snowstorm'], Spacer(),
-        ELEMENTAL_STORM_FORMULA_REWARDS['all'],
         ELEMENTAL_STORM_FORMULA_REWARDS['thunderstorm'],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm'][1],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm'][2],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm'][3], Spacer(),
+        Section(L['elemental_storm_sandstorm']), -- Sandstorm Rewards
+        getStormAchievement(self.mapID, 'sandstorm'),
+        ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['sandstorm'],
+        ELEMENTAL_STORM_PET_REWARDS['sandstorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['sandstorm'],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['sandstorm'][1],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['sandstorm'][2], Spacer(),
+        Section(L['elemental_storm_firestorm']), -- Firestorm Rewards
+        getStormAchievement(self.mapID, 'firestorm'),
+        ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['firestorm'],
+        ELEMENTAL_STORM_PET_REWARDS['firestorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['firestorm'],
-        ELEMENTAL_STORM_FORMULA_REWARDS['snowstorm']
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'][1],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'][2],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'][3],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'][4], Spacer(),
+        Section(L['elemental_storm_snowstorm']), -- Snowstorm Rewards
+        getStormAchievement(self.mapID, 'snowstorm'),
+        ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['snowstorm'],
+        ELEMENTAL_STORM_PET_REWARDS['snowstorm'],
+        ELEMENTAL_STORM_FORMULA_REWARDS['snowstorm'],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm'][1],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm'][2],
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm'][3], Spacer(),
+        ELEMENTAL_STORM_FORMULA_REWARDS['all']
     }
 end
 
@@ -1552,17 +1578,19 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
         if ELEMENTAL_STORM_MOB_ACHIVEMENTS[mapID] then -- check if current map has rewards
             if stormType and group:GetDisplay(mapID) then
                 local rewards = {
-                    ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], Achievement({
+                    ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'], Spacer(),
+                    Achievement({
                         id = ELEMENTAL_STORM_MOB_ACHIVEMENTS[mapID][stormType],
                         criteria = {
                             id = 1,
                             qty = true,
                             suffix = L['empowered_mobs_killed_suffix']
                         }
-                    }), ELEMENTAL_STORM_BOSS_ACHIEVEMENTS[stormType], Spacer(),
+                    }), ELEMENTAL_STORM_BOSS_ACHIEVEMENTS[stormType],
                     ELEMENTAL_STORM_PET_REWARDS[stormType],
                     ELEMENTAL_STORM_FORMULA_REWARDS['all'],
-                    ELEMENTAL_STORM_FORMULA_REWARDS[stormType]
+                    ELEMENTAL_STORM_FORMULA_REWARDS[stormType],
+                    unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType])
                 }
                 GameTooltip:AddLine(' ')
                 for i, reward in ipairs(rewards) do

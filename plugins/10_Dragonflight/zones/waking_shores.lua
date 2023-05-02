@@ -1968,7 +1968,7 @@ map.nodes[57856680] = Collectible({
 ------------------------------ A LEGENDARY ALBUM ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[68755523] = LegendaryCharacter({
+map.nodes[68535429] = LegendaryCharacter({
     id = 82746,
     rewards = {Achievement({id = 16570, criteria = 55758})}
 }) -- Abu'Gar
@@ -2239,7 +2239,7 @@ map.nodes[42788061] = GrandHunt({
 }) -- Northern Waking Shores Hunt
 
 -------------------------------------------------------------------------------
--------------------------- SEIGE ON DRAGONBANE KEEP ---------------------------
+-------------------------- SIEGE ON DRAGONBANE KEEP ---------------------------
 -------------------------------------------------------------------------------
 
 local SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS = {
@@ -2249,7 +2249,7 @@ local SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS = {
 }
 
 local SIEGE_ON_DRAGONBANE_KEEP_REWARDS = {
-    Achievement({id = 16411}), -- Seige on Dragonbane Keep: Home Sweet Home
+    Achievement({id = 16411}), -- Siege on Dragonbane Keep: Home Sweet Home
     Toy({item = 200116}), -- Everlasting Horn of Lavaswimming
     ns.reward.Spacer(), Item({item = 192055}) -- Dragon Isles Artifact
 }
@@ -2323,8 +2323,35 @@ map.nodes[51602005] = AncientStone({
 }) -- Learn and Grow
 
 -------------------------------------------------------------------------------
+-------------------------------- ZSKERA VAULTS --------------------------------
+-------------------------------------------------------------------------------
+
+------------------------ RENEWED PROTO-DRAKE: ANTLERS -------------------------
+
+map.nodes[34624668] = Collectible({
+    label = L['broken_waygate_label'],
+    icon = 1529267,
+    quest = 75047,
+    location = L['in_cave'],
+    note = L['neltharions_toolkit_note'],
+    group = ns.groups.ZSKERA_VAULTS,
+    requires = ns.requirement.Quest(73159), -- Exploring Our Past
+    rewards = {
+        DC.RenewedProtoDrake.Antlers -- Renewed Proto-Drake: Antlers
+    },
+    pois = {POI({35514794})} -- Entrance
+}) -- Broken Waygate
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
+
+local function status(id, itemsNeed)
+    local itemsHave = GetItemCount(id, true);
+    return ns.PlayerHasItem(id, itemsNeed) and
+               ns.status.Green(itemsHave .. '/' .. itemsNeed) or
+               ns.status.Red(itemsHave .. '/' .. itemsNeed)
+end
 
 -------------------------- MOUNT: SCRAPPY WORLDSNAIL --------------------------
 
@@ -2378,15 +2405,6 @@ local Otto = Class('Otto', Collectible, {
 }) -- Otto
 
 function Otto.getters:note()
-    local function status(id, itemsNeed)
-        local itemsHave = GetItemCount(id, true);
-        if ns.PlayerHasItem(id, itemsNeed) then
-            return ns.status.Green(itemsHave .. '/' .. itemsNeed)
-        else
-            return ns.status.Red(itemsHave .. '/' .. itemsNeed)
-        end
-    end
-
     local note = status(199338, 75) .. ' ' .. L['otto_note_start1']
     note = note .. '\n\n' .. L['otto_note_start2']
     note = note .. '\n\n' .. status(202072, 100) .. ' ' .. L['otto_note_item1'] -- Frigid Floe Fish
@@ -2474,10 +2492,110 @@ local TameMagmammoth = Class('TameMagmammoth', Collectible, {
     rewards = LOYAL_MAGMAMMOTH_REWARDS
 }) -- Tame Magmammoth
 
-map.nodes[33427207] = TameMagmammoth() -- Burning Ascent
+map.nodes[33427208] = TameMagmammoth() -- Burning Ascent
 map.nodes[23667144] = TameMagmammoth() -- Dragonbane Keep
-map.nodes[66342446] = TameMagmammoth() -- Scalecracker Keep
+map.nodes[66342447] = TameMagmammoth() -- Scalecracker Keep
 map.nodes[37104453] = TameMagmammoth() -- Smoldering Perch
+
+------------------------------- PHOENIX WISHWING ------------------------------
+
+local wishwing = Class('wishwing', Collectible, {
+    label = '{item:193373}',
+    icon = 4007139,
+    rewards = {
+        Pet({item = 193373, id = 3292}) -- Phoenix Wishwing
+    },
+    pois = {
+        POI({25585433, color = 'Green'}), -- Griftah
+        Path({
+            color = 'Red',
+            points = {
+                ns.poi.Circle({origin = 42305600, radius = 1.5, segments = 16})
+            }
+        }), -- Ash Feather
+        Path({
+            color = 'Yellow',
+            points = {ns.poi.Circle({origin = 65302940, radius = 3})}
+        }), -- Phoenixes
+        Path({
+            color = 'Yellow',
+            points = {ns.poi.Circle({origin = 36706200, radius = 5})}
+        }), -- Phoenixes
+        Path({
+            color = 'Yellow',
+            points = {ns.poi.Circle({origin = 32305450, radius = 2})}
+        }) -- Phoenixes
+    }
+})
+
+function wishwing.getters:note()
+    local note = L['phoenix_wishwing_note'] .. '\n\n'
+    -- LuaFormatter off
+    note = note .. format(L['phoenix_wishwing_talisman'], status(199203, 1)) .. '\n\n'
+    note = note .. format(L['phoenix_wishwing_phoenix_ember'], status(199099, 1)) .. '\n\n'
+    note = note .. format(L['phoenix_wishwing_sacred_ash'], status(199097, 10)) .. '\n\n'
+    note = note .. format(L['phoenix_wishwing_inert_ash'], status(199092, 20)) .. '\n\n\n'
+    note = note .. format(L['phoenix_wishwing_smoldering_ash'], status(199080, 15)) .. '\n\n'
+    note = note .. format(L['phoenix_wishwing_ash_feather'], status(202062, 20))
+    -- LuaFormatter on
+    return note
+end
+
+local wishwing_inert_ash = Class('wishwing_intert_ash', Collectible, {
+    label = '{item:199092}',
+    icon = 133849,
+    rewards = {
+        Pet({item = 193373, id = 3292}) -- Phoenix Wishwing
+    },
+    pois = {
+        Path({
+            color = 'Gray',
+            points = {ns.poi.Circle({origin = 50005000, radius = 5})}
+        }) -- Inert Phoenix Ash
+    }
+})
+
+function wishwing_inert_ash.getters:note()
+    local note = L['phoenix_wishwing_info'] .. '\n\n'
+    return note .. format(L['phoenix_wishwing_inert_ash'], status(199092, 20))
+end
+
+local wishwing_sacred_ash = Class('wishwing_sacred_ash', Collectible, {
+    label = '{item:199097}',
+    icon = 1003597,
+    fgroup = 'wishwing_sacred_ash',
+    rewards = {
+        Pet({item = 193373, id = 3292}) -- Phoenix Wishwing
+    },
+    pois = {POI({52005040, color = 'Gold'})}
+})
+
+function wishwing_sacred_ash.getters:note()
+    local note = L['phoenix_wishwing_info'] .. '\n\n'
+    -- LuaFormatter off
+    note = note .. format(L['phoenix_wishwing_talisman'], status(199203, 1)) .. '\n\n'
+    note = note .. format(L['phoenix_wishwing_phoenix_ember'], status(199099, 1)) .. '\n\n'
+    note = note .. format(L['phoenix_wishwing_sacred_ash'], status(199097, 10)) .. '\n\n'
+    note = note .. format(L['phoenix_wishwing_inert_ash'], status(199092, 20))
+    -- LuaFormatter on
+    return note
+end
+
+map.nodes[16176260] = wishwing()
+local ungoro = Map({id = 78})
+ungoro.nodes[50005000] = wishwing_inert_ash()
+local spires = Map({id = 542})
+spires.nodes[37901792] = wishwing_sacred_ash()
+spires.nodes[42081586] = wishwing_sacred_ash()
+spires.nodes[44001372] = wishwing_sacred_ash()
+spires.nodes[44552334] = wishwing_sacred_ash()
+spires.nodes[45101500] = wishwing_sacred_ash()
+spires.nodes[52063135] = wishwing_sacred_ash()
+spires.nodes[52174997] = wishwing_sacred_ash()
+spires.nodes[52204982] = wishwing_sacred_ash()
+spires.nodes[61904230] = wishwing_sacred_ash()
+spires.nodes[68724449] = wishwing_sacred_ash()
+spires.nodes[68764450] = wishwing_sacred_ash()
 
 ---------------- ITEM: SCHEMATIC: TINKER: BREATH OF NELTHARION ----------------
 

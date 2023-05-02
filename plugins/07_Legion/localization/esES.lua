@@ -94,6 +94,23 @@ L['bringing_home_the_beacon_note'] = 'Mientras estés bajo el {npc:127264}, tend
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
 L['options_icons_bringing_home_the_beacon_desc'] = 'Muestra dónde aparece el {npc:127264} para el logro {achievement:11802}.'
 
+L['hidden_wyrmtongue_cache_label'] = 'Alijo Oculto de Lenguavermis'
+L['in_horde_ship'] = 'En la nave Horda estrellada.'
+L['broken_shore_worldboss_note'] = 'Sólo aparecerá cuando el {location:Disruptor Abisal} esté construido. Sólo aparece un Boss del Mundo por ciclo.'
+L['sentinax_rare_note'] = [[
+Para hacer aparecer a los Bosses necesitas matar enemigos y usar las balizas para abrir portales bajo el {npc:127264} teniendo el buff {spell:240640}.
+
+{npc:%d} requiere
+{item:%d}
+->
+{item:%d}
+->
+{item:%d}
+
+Cuando el {location:Disruptor Abisal} está construido, la {npc:120898} venderá {item:147775} que puede ser usado en los {npc:120751} hasta 50 veces al día.
+Los Portales harán aparecer Enemigos Élite que tienen una probabilidad más alta de soltar {item:%d}.
+]]
+
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
 -------------------------------------------------------------------------------
@@ -162,10 +179,17 @@ L['options_icons_eredar_war_supplies_desc'] = 'Muestra dónde pueden estar los {
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
 -------------------------------------------------------------------------------
+L['to_stormheim'] = 'Portal a Tormenheim'
+L['to_helheim'] = 'Portal a Helheim'
 
 L['trapper_jarrun_note'] = 'Reúne tus defensas, mortal.'
 L['robert_craig_note'] = '¡Azúzalas!'
 L['stormtalon_note'] = 'Intenta no matarlo de un disparo o no podrás montarte en él.'
+L['going_up_note'] = 'Sube a lo alto de la {location:Atalaya de Nashal} en {location:Tormenheim}.'
+L['nameless_king_note'] = 'Usa el {object:Cuenco para Ofrendas} para invocar a {npc:92763}.'
+L['captain_brvet_note'] = 'Use el {object:Cuerno Boca Infernal} para invocar al {npc:92685}.'
+L['mother_clacker_note'] = 'Habla con el {npc:92343} y mata a los {npc:92349} para invocar a la {npc:91780}.'
+L['thane_irglov_note'] = 'Derrota a los campeones para poder atacar al {npc:91892}.'
 
 L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
 L['forsaken_deathsquad'] = 'Escuadrón de la Muerte Renegado'
@@ -236,3 +260,5 @@ L['general_pet_tamer_note'] = '{note:Sólo aparece cuando la misión del mundo p
 
 L['options_icons_safari'] = '{achievement:11233}'
 L['options_icons_safari_desc'] = 'Muestra dónde están  las mascotas de combate para el logro {achievement:11233}.'
+
+L['change_map'] = 'Cambiar mapa'

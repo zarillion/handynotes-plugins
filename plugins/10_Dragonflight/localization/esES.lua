@@ -211,7 +211,7 @@ L['snowclaw_cub_note_end'] = [[
 
 Una vez tengas equipado el título {title:Dríade Honoraria} ofrece los 4 objetos al {npc:196768} para recibir su mascota.
 
-{bug:(BUG: El título puede desaparecer y está pendiente de un fix.)}
+{note:Si pierdes el título antes de tiempo, puedes repetir la misión y adquirirlo de nuevo. Prueba de nuevo mañana o tras el siguiente mantenimiento semanal.}
 ]]
 
 L['tome_of_polymoph_duck'] = 'Usa {spell:1953} para entrar en la cueva e interactuar con el libro {object:Tormentas de Maná para Principiantes} para completar la misión.'
@@ -343,6 +343,17 @@ L['zskera_vaults_label'] = 'Cámaras de Zskera'
 L['zskera_vaults_note'] = 'Recoge {item:202196} de varios raros y alijos para abrir las puertas de las {location:Cámaras de Zskera}.'
 L['door_buster_suffix'] = 'Puertas abiertas usando Llaves de la Cámara de Zskera'
 
+L['broken_waygate_label'] = 'Puerta Rota'
+L['neltharions_toolkit_note'] = [[1. Recoge un {item:204278} que aparece aleatoriamente dentro de las {location:Cámaras de Zskera}.
+
+2. Viaja a {location:Nido Humeante} en las {location:Orillas del Despertar}.
+
+3. Encuentra el {object:Puerta Rota} dentro de la cueva junto al {npc:193310}.
+
+4. Repara el {object:Puerta Rota}. {note:Puede requerir hacer algunos clicks.}
+
+5. Telepórtate a la habitación escondida en las {location:Cámaras de Zskera}. Mata al {npc:200375} y al {npc:203639}. Ahora abre el {object:Alijo Majestuoso de Obsidiana} para reclamar tu botín.]]
+
 L['recipe_rat_note_1'] = 'Habla con {npc:202982} dentro de las {location:Cámaras de Zskera} y una {item:202252} entrará en tus bolsas.'
 L['recipe_rat_note_2'] = 'Interactúa con la {item:202252} para conseguir un {item:204340}. {note:(Tiene 5 minutos de reutilización)}'
 L['recipe_rat_note_3'] = 'Una vez tengas 30x {item:204340} combínalos para conseguir la receta.'
@@ -379,7 +390,10 @@ L['options_icons_scalecommander_item_desc'] = 'Muestra dónde están los objetos
 L['spellsworn_gateway'] = 'Portal Jurahechizos'
 L['gemstone_of_return'] = 'Gema de Retorno'
 
-L['morqut_village_vendor_note'] = 'Intercambia {currency:2118} u oro por monturas, mascotas, transfiguraciones, personalizaciones del draco, recetas y otros objetos útiles.'
+L['treysh_note'] = 'Intercambia {currency:2118} u oro por transfiguraciones, equipo y monturas.'
+L['renown_envoy_label'] = 'Enviado de Renombre'
+L['renown_envoy_note'] = 'Intercambia {currency:2118} u oro por monturas, mascotas, transfiguraciones, personalizaciones del draco, recetas y otros objetos útiles.\n\nCompra el {item:204383} a la {npc:200566} por 2000x {currency:2118} para un intento de conseguir a {item:191915}.'
+L['trader_hagarth_note'] = 'Intercambia {item:190456} for recetas de Bibelot del Artesano.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -463,7 +477,7 @@ L['hunt_instructor_basku_note'] = 'Entrega {item:200093} para conseguir reputaci
 L['elder_yusa_note'] = 'Selecciona a la {npc:192818} y teclea {emote:/hambre} para conseguir la receta de cocina.'
 L['initiate_kittileg_note'] = 'Completa la misión {quest:66226} para conseguir el juguete.'
 
-L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en el campamento cercano del {faction:Clan Aylaag}. {dot:Blue}\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
+L['quackers_duck_trap_kit'] = 'Para invocar a {npc:192557} primero te hace falta el {item:194740} el cual se puede encontrar en el campamento cercano del Clan Aylaag {dot:Blue}.\n\nPara convertirlo en una {item:194712} necesitarás los siguientes objetos:'
 L['quackers_spawn'] = 'Ahora necesitas pillar un pato cerca del nido con la {item:194712}. Después usa el {item:194739} en el {npc:192581} para invocar a {npc:192557}.'
 
 L['knew_you_nokhud_do_it_note'] = '{note:Los 3 objetos son únicos y dejan de existir tras 30 minutos.}\n\nConsigue {item:200184}, {item:200194}, y {item:200196} de varios {npc:185357}, {npc:185353}, o {npc:185168} alrededor de {location:Bastión Nokhudon}.\n\nCombínalos para crear el {item:200201} y úsalo para hablar con {npc:197884} para comenzar el circuito de entrenamiento.\n\nUsa tu {object:Botón de Acción Extra} para completarlo y conseguir el logro.\n\n{note:Completar el logro mientras estás en banda durante una Tormenta Elemental hace más fácil conseguir los objetos.}'
@@ -686,6 +700,32 @@ L['options_icons_djaradin_cache_desc'] = 'Muestra dónde pueden haber {object:Al
 L['dragonbane_siege_label'] = 'Asedio en la Fortaleza de Ruinadragón'
 L['options_icons_dragonbane_siege'] = 'Asedio en la Fortaleza de Ruinadragón'
 L['options_icons_dragonbane_siege_desc'] = 'Muestra dónde están y las recompensas de los Asedios en la Fortaleza de Ruinadragón.'
+
+L['phoenix_wishwing_note'] = [[
+Después de conseguir el {item:199203}, {npc:196214} te ofrecerá una misión en la que te dará la {item:193373}.
+Para acabar la misión, necesitarás los siguientes objetos (los puedes obtener en cualquier orden):
+]]
+L['phoenix_wishwing_talisman'] = [[
+%s {item:199203}
+
+Lo vende {npc:88045} {dot:Gold} en las {location:Cumbres de Arak}. Si {npc:88045} no está, completa la misión {quest:35010} para poder velo.
+Necesitarás los siguientes objetos para comprarlo:]]
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nEs botín de {npc:52530} en el {location:Paseo en el tiempo: Tierras de Fuego}.'
+L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nSe pueden encontrar dentro de {object:Ollas}, alrededor de las {location:Cumbres de Arak}.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nEs un botín raro de los {npc:6520} que hay en el centro del {location:Cráter de Un\'Goro} {dot:Gray}. Estos comparten punto de aparición (pero no su botín) con las {npc:6521}. Asegúrate de matar a todo.'
+L['phoenix_wishwing_smoldering_ash'] = [[
+%s {item:199080}
+
+Farmea varios tipos de {npc:Fénix} {dot:Yellow} como el {npc:181764} o el {npc:195448} que hay en las {location:Islas Dragón}.
+Estos se encuentran generalmente alrededor de la {location:Ciudadela Obsidiana} en las {location:Orillas del Despertar}.
+]]
+L['phoenix_wishwing_ash_feather'] = [[
+%s {item:202062}
+
+Para ver estas {object:Plumas} tendrás que comprar el {item:199177} a {npc:189207} {dot:Green} en las {location:Orillas del Despertar} junto al {location:Trono Obsidiana}.
+Usa el amuleto y coge las {item:202062} {dot:Red} que hay dentro del {location:Ascenso Ardiente} y de {location:Cienoescoria}, que son las zonas que rodean a la {location:Ciudadela Obsidiana}.
+]]
+L['phoenix_wishwing_info'] = 'Esto es parte de la mascota de combate {item:193373} localizada en las {location:Orillas del Despertar} de las {location:Islas Dragón}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

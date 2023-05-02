@@ -94,6 +94,23 @@ L['bringing_home_the_beacon_note'] = 'Tant que vous serez sous le {npc:127264}, 
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
 L['options_icons_bringing_home_the_beacon_desc'] = 'Afficher les emplacements du {npc:127264} pour le haut-fait {achievement:11802}'
 
+L['hidden_wyrmtongue_cache_label'] = 'Cache de langue-de-wyrm dissimulée'
+L['in_horde_ship'] = 'Dans le dirigeable de la Horde accidenté.'
+L['broken_shore_worldboss_note'] = 'N\'apparaîtra que lorsque le {location:Disrupteur de Néant} est construit. Un seul Worldboss peut pour apparaître par cycle.'
+L['sentinax_rare_note'] = [[
+Pour faire apparaître les Boss, vous devrez farmer les monstres situés sous le {npc:127264} et ayant le buff {spell:240640}.
+
+{npc:%d} requiert
+{item:%d}
+->
+{item:%d}
+->
+{item:%d}
+
+Quand le {location:Disrupteur de Néant} est actif, le {npc:120898} vendra des {item:147775} qui peuvent être utilisés sur les {npc:120751} jusqu'à 50 fois par jour.
+Les Portails feront apparaître des Monstres Élites qui auront plus de chances de donner des {item:%d}.
+]]
+
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
 -------------------------------------------------------------------------------
@@ -162,10 +179,17 @@ L['options_icons_eredar_war_supplies_desc'] = 'Afficher les emplacements possibl
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
 -------------------------------------------------------------------------------
+L['to_stormheim'] = 'Portail vers Tornheim'
+L['to_helheim'] = 'Portail vers Helheim'
 
 L['trapper_jarrun_note'] = 'Rassemblez vos défenses, mortel.'
 L['robert_craig_note'] = 'Attrapez-les !'
 L['stormtalon_note'] = 'Évitez de le tuer en un seul coup, sinon vous ne pourrez pas le chevaucher.'
+L['going_up_note'] = 'Atteindre le sommet du {location:Guet de Nashal} en {location:Tornheim}.'
+L['nameless_king_note'] = 'Utilisez le {object:Sanctuaire à offrandes} pour invoquer {npc:92763}.'
+L['captain_brvet_note'] = 'Utilisez la {object:Cor de l’embouchure de Hel} pour invoquer le {npc:92685}.'
+L['mother_clacker_note'] = 'Parlez au {npc:92343} et tuez les {npc:92349} pour invoquer la {npc:91780}.'
+L['thane_irglov_note'] = 'Battez les champions pour qu\'il devienne attaquable.'
 
 L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
 L['forsaken_deathsquad'] = 'Escadron de la mort réprouvé'
@@ -236,3 +260,5 @@ L['general_pet_tamer_note'] = '{note:Apparaît uniquement lorsque l\'expédition
 
 L['options_icons_safari'] = '{achievement:11233}'
 L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:11233}.'
+
+L['change_map'] = 'Changer la carte'

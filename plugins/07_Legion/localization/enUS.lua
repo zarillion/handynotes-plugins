@@ -93,6 +93,23 @@ L['bringing_home_the_beacon_note'] = 'While under {npc:127264}, you will be buff
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
 L['options_icons_bringing_home_the_beacon_desc'] = 'Display {npc:127264} locations for {achievement:11802}'
 
+L['hidden_wyrmtongue_cache_label'] = 'Hidden Wyrmtongue Cache'
+L['in_horde_ship'] = 'In the crashed Horde airship.'
+L['broken_shore_worldboss_note'] = 'Will only spawn when the {location:The Nether Disruptor} is up. Only one Worldboss will spawn per cycle.'
+L['sentinax_rare_note'] = [[
+To spawn the bosses you need to farm the mobs and use beacons to open portals under {npc:127264} while you have the {spell:240640} buff.
+
+{npc:%d} requires
+{item:%d}
+->
+{item:%d}
+->
+{item:%d}
+
+When the {location:The Nether Disruptor} is up, {npc:120898} will sell {item:147775} that can be used on {npc:120751s} up to 50 time per day.
+The Portals will then spawn Elite Mobs that have a higher chance of dropping {item:%d}.
+]]
+
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
 -------------------------------------------------------------------------------
@@ -161,10 +178,17 @@ L['options_icons_eredar_war_supplies_desc'] = 'Display possible locations for {o
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
 -------------------------------------------------------------------------------
+L['to_stormheim'] = 'Portal to Stormheim'
+L['to_helheim'] = 'Portal to Helheim'
 
 L['trapper_jarrun_note'] = 'Muster your defenses mortal.'
 L['robert_craig_note'] = 'Sic \'em!'
 L['stormtalon_note'] = 'Try not to One-Shot him or you won\'t be able to mount him.'
+L['going_up_note'] = 'Ascend to the top of {location:Nashal\'s Watch} in {location:Stormheim}.' -- wowhead.com/achievement=10627
+L['nameless_king_note'] = 'Use the {object:Offering Shrine} to summon {npc:92763}.'
+L['captain_brvet_note'] = 'Use the {object:Horn of the Helmouth} to summon {npc:92685}.'
+L['mother_clacker_note'] = 'Speak to {npc:92343} and kill the {npc:92349s} to summon {npc:91780}.'
+L['thane_irglov_note'] = 'Defeat the champions to make him attackable.'
 
 L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
 L['forsaken_deathsquad'] = 'Forsaken Deathsquad'
@@ -235,3 +259,5 @@ L['general_pet_tamer_note'] = '{note:Only appears when the corresponding world q
 
 L['options_icons_safari'] = '{achievement:11233}'
 L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:11233} achievement.'
+
+L['change_map'] = 'Change map'

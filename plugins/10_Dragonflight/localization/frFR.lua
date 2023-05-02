@@ -211,7 +211,7 @@ L['snowclaw_cub_note_end'] = [[
 
 Une fois le titre {title:Dryade honoraire} équipé, offrez les 4 objets à l'{npc:196768} pour recevoir votre mascotte.
 
-{bug:(BUG : Le titre est susceptible de disparaître, en attente d'un correctif)}
+{note:Si vous perdez le titre prématurément, vous pouvez recommencer la quête pour l'obtenir à nouveau. Réessayez demain ou au prochain redémarrage hebdomadaire.}
 ]]
 
 L['tome_of_polymoph_duck'] = 'Utilisez {spell:1953} pour entrer dans la grotte et interagir avec le livre {object:La tempête de mana pour les novices} pour terminer la quête.'
@@ -236,10 +236,10 @@ Tuez l'{npc:197183} à l'intérieur et vous recevrez le {item:200528}.
 ]]
 
 L['gethdazr_note'] = [[
-Apparaît lors d'un événement à {location:Imbou} qui commence en soufflant dans la {object:Grande corne d’Imbou}({dot:Blue}).
+Apparaît lors d'un événement à {location:Imbou} qui commence en soufflant dans la {object:Grande corne d’Imbou} {dot:Blue}.
 La corne ne devient cliquable qu'après avoir tué l'{npc:196155} qui a un temps de réapparition d'environ 30 à 60 minutes.
 
-{npc:191143}({dot:Green}) et d'autres PNJ se frayeront un chemin depuis l'entrée nord-est d'{location:Imbou} jusqu'à la falaise où {npc:196165} apparaîtra.
+{npc:191143} {dot:Green} et d'autres PNJ se frayeront un chemin depuis l'entrée nord-est d'{location:Imbou} jusqu'à la falaise où {npc:196165} apparaîtra.
 Les PNJ peuvent mourir sans aide, ce qui fera échouer l'événement.
 
 Cela peut être accompli en solo mais 2 ou 3 joueurs sont recommandés.
@@ -290,7 +290,7 @@ L['in_the_support_creche'] = 'À l\'intérieur du {location:Couvoir Auxiliaire}'
 L['in_the_war_creche'] = 'Au fond du {location:Couvoir Martial}'
 L['in_zskera_vaults'] = 'À l\'intérieur des {location:Caveaux de Zskera}'
 
-L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751}({dot:Green}) pour vous soigner du gaz toxique dans le {location:Couvoir Auxiliaire}.'
+L['duzalgor_note'] = 'Ramassez une bouteille d\'{spell:400751} {dot:Green} pour vous soigner du gaz toxique dans le {location:Couvoir Auxiliaire}.'
 L['mad_eye_carrey_note'] = '{npc:201181} se trouve dans un groupe avec la {npc:201184} et la {npc:201182}'
 L['wymslayer_angvardi_note'] = '{npc:201013} fait équipe avec {npc:201310}'
 L['loot_specialist_note'] = '{npc:203353} apparaît avec les sorts {spell:406143} et {spell:132653} et s\'enfuira s\'il est attaqué.\n\n{note:Tuez-le rapidement avant qu\'il ne finisse de lancer {spell:406141}.}'
@@ -343,6 +343,17 @@ L['zskera_vaults_label'] = 'Caveaux de Zskera'
 L['zskera_vaults_note'] = 'Récupérez des {item:202196} sur divers rares et coffres pour ouvrir des portes dans les {location:Caveaux de Zskera}.'
 L['door_buster_suffix'] = 'Portes déverrouillées à l\'aide des Clés des Caveaux de Zskera.'
 
+L['broken_waygate_label'] = 'Portail d’accès endommagé'
+L['neltharions_toolkit_note'] = [[1. Récupérez les {item:204278} qui apparaissent aléatoirement dans les {location:Caveaux de Zskera}.
+
+2. Voyagez jusqu'au {location:Perchoir Fulminant} aux {location:Rivages de l’Éveil}.
+
+3. Trouvez le {object:Portail d’accès endommagé} dans la grotte à côté de la {npc:193310}.
+
+4. Réparez le {object:Portail d’accès endommagé}. {note:Cela peut nécessiter quelques clics.}
+
+5. Téléportez-vous dans la salle cachée dans les {location:Caveaux de Zskera}. Tuez les {npc:200375} et {npc:203639} puis ouvrez la {object:Grande cache d’obsidienne} pour récupérer votre butin !]]
+
 L['recipe_rat_note_1'] = 'Parlez au {npc:202982} dans les {location:Caveaux de Zskera} et vous recevrez dans vos sacs le {item:202252}.'
 L['recipe_rat_note_2'] = 'Interagissez avec le {item:202252} pour recevoir des {item:204340}. {note:(5 minutes de recharge)}'
 L['recipe_rat_note_3'] = 'Une fois que vous avez 30x {item:204340}, combinez les fragments pour obtenir la recette.'
@@ -379,7 +390,10 @@ L['options_icons_scalecommander_item_desc'] = 'Afficher les emplacements des obj
 L['spellsworn_gateway'] = 'Porte sorcelige'
 L['gemstone_of_return'] = 'Gemme de retour'
 
-L['morqut_village_vendor_note'] = 'Échangez de l\'or ou des {currency:2118} contre des montures, mascottes, objets de transmogrification, personnalisations de drake, recettes et d\'autres objets utiles.'
+L['treysh_note'] = 'Échangez de l\'or ou des {currency:2118} contre des objets de transmogrification, de l\'équipement et des montures.'
+L['renown_envoy_label'] = 'Émissaires de renom'
+L['renown_envoy_note'] = 'Échangez de l\'or ou des {currency:2118} contre des montures, mascottes, objets de transmogrification, personnalisations de drake, recettes et d\'autres objets utiles.\n\nAchetez des {item:204383} à l\'{npc:200566} pour 2000x {currency:2118} avec une chance d\'obtenir {item:191915}.'
+L['trader_hagarth_note'] = 'Échangez vos {item:190456} contre des recettes de Bibelots d\'Artisanat.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -408,9 +422,9 @@ L['yennus_boat'] = 'Bateau jouet rohart'
 L['yennus_boat_note'] = 'Récupérez le {object:Bateau jouet rohart} pour obtenir {item:200876}. Cela lance la quête {quest:72063} qui peut être rendue à {npc:195252}.'
 
 L['forgotten_dragon_treasure_label'] = 'Trésor draconique oublié'
-L['forgotten_dragon_treasure_step1'] = '1. Collectez 5x {item:195884} à partir des {object:Fleur cristalline}({dot:Green}) à l\'ouest des {location:Plaines d’Ohn’ahra}.'
-L['forgotten_dragon_treasure_step2'] = '2. Combinez les pétales pour créer un {item:195542} et rendez visite à la {object:Pierre ancienne}({dot:Yellow}).'
-L['forgotten_dragon_treasure_step3'] = '3. Utilisez l\'{item:195542} près de la {object:Pierre ancienne} pour obtenir {spell:378935} qui est un buff de 20 secondes qui vous permet de suivre le chemin des fleurs vers une grotte ({dot:Blue}). Marcher sur les fleurs augmente la durée du buff jusqu\'à arriver au {object:Coffre d\'émeraude}({dot:Blue}) et récupérez la {item:195041}.'
+L['forgotten_dragon_treasure_step1'] = '1. Collectez 5x {item:195884} à partir des {object:Fleur cristalline} {dot:Green} à l\'ouest des {location:Plaines d’Ohn’ahra}.'
+L['forgotten_dragon_treasure_step2'] = '2. Combinez les pétales pour créer un {item:195542} et rendez visite à la {object:Pierre ancienne} {dot:Yellow}.'
+L['forgotten_dragon_treasure_step3'] = '3. Utilisez l\'{item:195542} près de la {object:Pierre ancienne} pour obtenir {spell:378935} qui est un buff de 20 secondes qui vous permet de suivre le chemin des fleurs vers une grotte {dot:Blue}. Marcher sur les fleurs augmente la durée du buff jusqu\'à arriver au {object:Coffre d\'émeraude} {dot:Blue} et récupérez la {item:195041}.'
 L['forgotten_dragon_treasure_step4'] = 'Une fois que vous avez la clé, rendez-vous au {object:Trésor draconique oublié} pour l\'ouvrir et recevoir votre Manuscrit guette-drake.'
 L['fdt_crystalline_flower'] = 'Fleur cristalline'
 L['fdt_ancient_stone'] = 'Pierre ancienne'
@@ -463,7 +477,7 @@ L['hunt_instructor_basku_note'] = 'Échangez vos {item:200093} pour obtenir de l
 L['elder_yusa_note'] = 'Ciblez l\'{npc:192818} et utilisez l\'emote {emote:/faim} pour obtenir la recette de cuisine.'
 L['initiate_kittileg_note'] = 'Complétez {quest:66226} pour obtenir le jouet !'
 
-L['quackers_duck_trap_kit'] = 'Pour invoquer {npc:192557}, vous avez d\'abord besoin du {item:194740} que vous pouvez trouver dans un campement du {faction:Clan des Aylaags} voisin.{dot:Blue}\n\nPour faire un {item:194712}, vous avez besoin des matériaux suivants :'
+L['quackers_duck_trap_kit'] = 'Pour invoquer {npc:192557}, vous avez d\'abord besoin du {item:194740} que vous pouvez trouver dans un campement du Clan des Aylaags voisin {dot:Blue}.\n\nPour faire un {item:194712}, vous avez besoin des matériaux suivants :'
 L['quackers_spawn'] = 'Ensuite, vous devez attraper un canard près du nid avec le {item:194712}. Utilisez le {item:194739} au {npc:192581} pour invoquer {npc:192557}.'
 
 L['knew_you_nokhud_do_it_note'] = '{note:Les 3 objets sont uniques (vous ne pouvez en avoir qu\'un seul dans votre inventaire) et ont une durée de vie de 30 minutes.}\n\nRécupérez {item:200184}, {item:200194}, et {item:200196} sur les {npc:185357}, {npc:185353}, et {npc:185168} situés au {location:Bastion Nokhudon}.\n\nCombinez les 3 objets pour créer une {item:200201}, utilise-la et parlez à la {npc:197884} pour commencer le programme de formation.\n\nUtilisez votre {object:Bouton d\'action supplémentaire} pour terminer le cours et obtenir votre haut-fait.\n\n{note:Compléter ce haut-fait en étant dans un groupe de raid pendant une Tempête élémentaire rend l\'obtention des objets beaucoup plus facile.}'
@@ -581,9 +595,9 @@ L['fullsails_supply_chest'] = 'Clé de coffre de fournitures des Gréements'
 L['hidden_hornswog_hoard_note'] = [[
 Récupérez trois items différents et combinez-les à {object:"l\'Énigmes sagaces : un guide de poche"} près du {npc:192362} pour obtenir une {item:200063} et le nourrir. Elle s'écartera alors du chemin pour que vous puissiez récupérer son trésor.
 
-{item:200064}{dot:Yellow}
-{item:200065}{dot:Blue}
-{item:200066}{dot:White}
+{item:200064} {dot:Yellow}
+{item:200065} {dot:Blue}
+{item:200066} {dot:White}
 ]]
 
 L['pm_alch_grigori_vialtry'] = 'Sur une corniche surplombant l\'{location:Assaut de Givréclair}.'
@@ -686,6 +700,29 @@ L['options_icons_djaradin_cache_desc'] = 'Afficher les emplacements possibles de
 L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = 'Afficher les emplacements et les récompenses pour le {spell:388945}.'
+
+L['phoenix_wishwing_note'] = [[
+Après avoir obtenu le {item:199203}, {npc:196214} proposera une quête de collecte qui donnera en récompense le {item:193373}.
+Pour terminer la quête, vous aurez besoin des objets suivants (vous pouvez les obtenir dans n'importe quel ordre) :
+]]
+L['phoenix_wishwing_talisman'] = [[
+%s {item:199203}
+Il est vendu par {npc:88045} {dot:Gold} aux {location:Flèches d’Arak}. Si {npc:88045} n'est pas présent, complétez la quête {quest:35010} pour pouvoir le voir.
+Vous avez besoin des objets suivants pour l'acheter :]]
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nRécupérée sur {npc:52530} aux {location:Terres de Feu} en mode {location:Marcheurs du temps}'
+L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nPeuvent être trouvées dans des {object:Marmites}, situées dans la zone des {location:Flèches d’Arak}.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nLâchées rarement sur les {npc:6520} au centre du {location:Cratère d’Un’Goro} {dot:Gray}. Ils partagent leurs points d\'apparition avec les {npc:6521} (qui ne donnent pas l\'objet), assurez-vous donc de tuer chaque sorte.'
+L['phoenix_wishwing_smoldering_ash'] = [[
+%s {item:199080}
+Tuez des {npc:Phénix} {dot:Yellow} tels que les {npc:181764} ou les {npc:195448} présents sur les {location:Îles aux Dragons}.
+Vous les trouverez principalement aux alentours de la {location:Citadelle d’Obsidienne} aux {location:Rivages de l’Éveil}.
+]]
+L['phoenix_wishwing_ash_feather'] = [[
+%s {item:202062}
+Pour voir les {object:Plumes}, vous devez acheter l'{item:199177} à {npc:189207} {dot:Green} au {location:Trône d’Obsidienne} dans la zone des {location:Rivages de l’Éveil}.
+Utilisez cette amulette et ramassez des {item:202062} {dot:Red} trouvées à l'{location:Éminence Ardente} et au {location:Bourbier aux Scories}, qui sont des zones entourant la {location:Citadelle d’Obsidienne}.
+]]
+L['phoenix_wishwing_info'] = 'Ceci fait partie de de la méthode d\'obtention du {item:193373} situé aux {location:Rivages de l’Éveil} sur les {location:Îles aux Dragons}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

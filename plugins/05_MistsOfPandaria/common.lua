@@ -2,12 +2,15 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
+local Group = ns.Group
 local L = ns.locale
 
-local Group = ns.Group
-
-local Class = ns.Class
 local Collectible = ns.node.Collectible
+
+local Achievement = ns.reward.Achievement
+local Mount = ns.reward.Mount
+local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
 
@@ -429,3 +432,83 @@ ns.node.Lorewalker = Class('Lorewalker', Collectible,
 --         }
 --     }) -- TODO
 -- }
+
+-------------------------------------------------------------------------------
+----------------------------- WORLD BOSS REWARDS ------------------------------
+-------------------------------------------------------------------------------
+-- Adds Rewards to World Boss tooltips.
+
+local WORLD_BOSS_REWARDS = {
+    [691] = { -- Sha of Anger
+        Achievement({id = 6480}), -- Settle Down, Bro
+        Achievement({id = 6926, criteria = 19136}), -- Tranquil Master
+        ns.reward.Spacer(), --
+        Mount({item = 87771, id = 473}) -- Heavenly Onyx Cloud Serpent
+    },
+    [725] = { -- Galleon
+        Mount({item = 89783, id = 515}), -- Son of Galleon
+        ns.reward.Spacer(), --
+        Transmog({item = 90419, slot = L['leather']}), -- Fireproofed Chestguard
+        Transmog({item = 90451, slot = L['leather']}), -- Cannoneer's Gunpowder Carrier
+        Transmog({item = 90442, slot = L['leather']}), -- Flamefoot Tabi
+        Transmog({item = 90449, slot = L['cloth']}), -- Belt of Detonation
+        Transmog({item = 90450, slot = L['leather']}), -- Carrot-Holder Belt
+        Transmog({item = 90421, slot = L['mail']}), -- Chain of Unseized Skies
+        Transmog({item = 90411, slot = L['leather']}), -- Facemask of Unrepentant Banditry
+        Transmog({item = 90454, slot = L['plate']}), -- Girdle of the Galloping Giant
+        Transmog({item = 90412, slot = L['mail']}), -- Helm of Restoring Wind
+        Transmog({item = 90418, slot = L['cloth']}), -- Robes of the Lightning Rider
+        Transmog({item = 90441, slot = L['leather']}), -- Stompdodger Boots
+        Transmog({item = 90443, slot = L['mail']}), -- Burnmender Boots
+        Transmog({item = 90448, slot = L['cloth']}), -- Cannonfire Cord
+        Transmog({item = 90410, slot = L['leather']}), -- Cap of Wandering Pride
+        Transmog({item = 90413, slot = L['mail']}), -- Crest of the Grand Warband
+        Transmog({item = 90445, slot = L['plate']}), -- Firerider Treads
+        Transmog({item = 90420, slot = L['leather']}), -- Flameshot Wrap
+        Transmog({item = 90439, slot = L['cloth']}), -- Open Steppe Sandals
+        Transmog({item = 90409, slot = L['cloth']}), -- Sky-Sear Cowl
+        Transmog({item = 90452, slot = L['mail']}), -- Sparkmaker Girdle
+        Transmog({item = 90447, slot = L['plate']}), -- Stompers of Vigorous Stomping
+        Transmog({item = 90444, slot = L['mail']}), -- Treads of Gentle Nudges
+        Transmog({item = 90422, slot = L['mail']}), -- Armor of the Single Cloud
+        Transmog({item = 90425, slot = L['plate']}), -- Carapace of Crushed Conviction
+        Transmog({item = 90456, slot = L['plate']}), -- Cord of Crazed Strength
+        Transmog({item = 90416, slot = L['plate']}), -- Crown of Ranging Invasion
+        Transmog({item = 90408, slot = L['cloth']}), -- Free Spirit Hood
+        Transmog({item = 90415, slot = L['plate']}), -- Giantfoot Headguard
+        Transmog({item = 90453, slot = L['mail']}), -- Girdle of the Raging Rider
+        Transmog({item = 90455, slot = L['plate']}), -- Greatbelt of Livid Fury
+        Transmog({item = 90424, slot = L['plate']}), -- Ravaging Warrior's Chestplate
+        Transmog({item = 90446, slot = L['plate']}), -- Silverspur Warboots
+        Transmog({item = 90440, slot = L['cloak']}), -- Slippers of Fiery Retribution
+        Transmog({item = 90423, slot = L['plate']}), -- Chestguard of the Unbowed Back
+        Transmog({item = 90414, slot = L['plate']}), -- Greathelm of the Monstrous Mushan
+        Transmog({item = 90417, slot = L['cloth']}) -- Robes of Blue Skies
+    },
+    [814] = { -- Nalak <The Storm Lord>
+        Achievement({id = 8028}), -- Praise the Sun!
+        ns.reward.Spacer(), --
+        Mount({item = 95057, id = 542}) -- Thundering Cobalt Cloud Serpent
+    },
+    [826] = {}, -- Oondasta
+    [857] = {Achievement({id = 8535, criteria = 23743})}, -- Chi-Ji, The Red Crane
+    [858] = {Achievement({id = 8535, criteria = 23744})}, -- Yu'lon, The Jade Serpent
+    [859] = {Achievement({id = 8535, criteria = 23745})}, -- Niuzao, The Black Ox
+    [860] = {Achievement({id = 8535, criteria = 23746})}, -- Xuen, The White Tiger
+    [861] = {Achievement({id = 8533})} -- Ordos, Fire-God of the Yaungol
+}
+
+hooksecurefunc(EncounterJournalPinMixin, 'OnMouseEnter', function(self)
+    if self and self.encounterID then
+        if WORLD_BOSS_REWARDS[self.encounterID] then
+            GameTooltip:AddLine(' ')
+            for i, reward in ipairs(WORLD_BOSS_REWARDS[self.encounterID]) do
+                if reward:IsEnabled() then
+                    reward:Render(GameTooltip)
+                end
+            end
+        end
+        -- GameTooltip:AddLine(self.encounterID) -- Debug to show the encounterID
+    end
+    GameTooltip:Show()
+end)

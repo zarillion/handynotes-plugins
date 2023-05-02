@@ -34,6 +34,7 @@ Du erhältst {currency:416} von täglichen Quests.]]
 L['hyjal_phase5_note'] = 'Um die fünfte Phase zu starten musst du beide Quests {quest:29215} und {quest:29182} abgeschlossen haben.' -- review
 
 L['portal_molten_front'] = 'Portal zur Geschmolzenen Front'
+L['portal_mount_hyjal'] = nil
 
 L['spider_hill_note'] = [[Erreiche den höchsten Punkt des {location:Geleges der Witwe}.
 Um die Spitze zu erreichen, musst du {npc:52981} angreifen, ohne sie zu töten. Sie werden {Zauber:97959} wirken und dich nach oben ziehen.

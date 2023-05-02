@@ -92,10 +92,31 @@ L['options_icons_higher_dimensional_learning_desc'] = 'Zeigt die Position der Ka
 -------------------------------- BROKEN SHORE ---------------------------------
 -------------------------------------------------------------------------------
 
-L['bringing_home_the_beacon_note'] = nil
+L['bringing_home_the_beacon_note'] = [[
+Während du unter {npc:127264} stehst, erhältst du den Zauber {spell:240640}.
+
+Töte Dämonen, um verschiedene |cFFFFFD00Sentinaxsignale|r zu plündern.
+]]
 
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
-L['options_icons_bringing_home_the_beacon_desc'] = nil
+L['options_icons_bringing_home_the_beacon_desc'] = 'Zeigt {npc:127264} orte für den Erfolg {achievement:11802}.'
+
+L['hidden_wyrmtongue_cache_label'] = 'Verborgene Wyrmzungentruhe'
+L['in_horde_ship'] = 'Im abgestürzten Horde Luftschiff.'
+L['broken_shore_worldboss_note'] = 'Wird nur erscheinen wenn das {location:Netherdisruptor} aktiv ist. Nur ein Weltboss kann pro Zyklus erscheinen.'
+L['sentinax_rare_note'] = [[
+Damit der seltene Gegner erscheint musst du Gegner töten und {object:Sentinaxsignale} benutzen um Portale unter der {npc:127264} zu öffnen während der Buff {spell:240640} auf dir ist.
+
+{npc:%d} benötigt
+{item:%d}
+->
+{item:%d}
+->
+{item:%d}
+
+Wenn der {location:Netherdisruptor} aktiv ist, wird {npc:120898} den {item:147775} verkaufen. Diese können bis zu 50 mal pro Tag bei {npc:120751} benutzt werden.
+Bei den Portalen erscheinen dann Elite Gegner, diese haben eine höhere chance {item:%d} fallen zu lassen.
+]]
 
 -------------------------------------------------------------------------------
 ---------------------------------- DALARAN ------------------------------------
@@ -164,10 +185,17 @@ L['options_icons_eredar_war_supplies_desc'] = nil
 -------------------------------------------------------------------------------
 --------------------------------- STORMHEIM -----------------------------------
 -------------------------------------------------------------------------------
+L['to_stormheim'] = 'Portal nach Sturmheim'
+L['to_helheim'] = 'Portal nach Helheim'
 
 L['trapper_jarrun_note'] = 'Verteidigt Euch, sterbliches Wesen.'
 L['robert_craig_note'] = 'Fass!'
-L['stormtalon_note'] = 'Versuche ihn nicht mit einem Schlag zu töten, sonst kannst du ihn nicht mehr reiten.s'
+L['stormtalon_note'] = 'Versuche ihn nicht mit einem Schlag zu töten, sonst kannst du ihn nicht mehr reiten.'
+L['going_up_note'] = 'Erreicht die Spitze von {location:Nashals Wacht} in {location:Sturmheim}.'
+L['nameless_king_note'] = 'Benutze auf den {object:Opferschrein} damit {npc:92763} erscheint.'
+L['captain_brvet_note'] = 'Benutze das {object:Horn des Höllenschlunds} damit {npc:92685} erscheint.'
+L['mother_clacker_note'] = 'Sprich mit {npc:92343} und töte die {npc:92349n} damit {npc:91780} erscheint.'
+L['thane_irglov_note'] = 'Besiege die Champions um ihn angreifbar zu machen.'
 
 L['hook_and_sinker'] = '{npc:92590} & {npc:92591}'
 L['forsaken_deathsquad'] = 'Todesschwadron der Verlassenen'
@@ -238,3 +266,5 @@ L['general_pet_tamer_note'] = '{note:Erscheint nur, wenn die entsprechende Weltq
 
 L['options_icons_safari'] = '{achievement:11233}'
 L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:11233} an.'
+
+L['change_map'] = 'Karte wechseln'

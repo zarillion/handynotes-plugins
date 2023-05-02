@@ -492,8 +492,10 @@ map.nodes[90434005] = Rare({
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
         Transmog({item = 200432, slot = L['cloth']}), -- Rotguard Cowl
         Toy({item = 200178}), -- Infected Ichor
-        DC.CliffsideWylderdrakeBlackHair, DC.CliffsideWylderdrakeDualHornedChin,
-        DC.CliffsideWylderdrakeEars, DC.HighlandDrakeSpikedClubTail
+        DC.CliffsideWylderdrake.BlackHair, -- Cliffside Wylderdrake: Black Hair
+        DC.CliffsideWylderdrake.DualHornedChin, -- Cliffside Wylderdrake: Dual Horned Chin
+        DC.CliffsideWylderdrake.Ears, -- Cliffside Wylderdrake: Ears
+        DC.HighlandDrake.SpikedClubTail -- Highland Drake: Spiked Club Tail
     }
 }) -- Blightpaw the Depraved
 
@@ -643,13 +645,16 @@ map.nodes[43105078] = Rare({
     pois = {POI({43724823})}
 }) -- Web-Queen Ashkaz
 
-map.nodes[35803600] = Rare(
+map.nodes[34823454] = Rare(
     { -- is all over the place on wowhead, took a random one,
         id = 201540,
         quest = 74546,
         rewards = {
             Transmog({item = 203674, slot = L['plate']}), -- Brutal Tramplers
             DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair
+        },
+        pois = {
+            Path({33793438, 34303449, 34823454, 35333464, 35833478, 36323500})
         }
     }) -- Lurgan
 
@@ -1260,6 +1265,8 @@ map.nodes[32043887] = Scoutpack()
 map.nodes[32135114] = Scoutpack()
 map.nodes[33764307] = Scoutpack()
 map.nodes[35925854] = Scoutpack()
+map.nodes[36168691] = Scoutpack()
+map.nodes[36428558] = Scoutpack()
 map.nodes[42883769] = Scoutpack()
 map.nodes[43335647] = Scoutpack()
 map.nodes[43486213] = Scoutpack()
@@ -1270,21 +1277,30 @@ map.nodes[51647211] = Scoutpack()
 map.nodes[51797550] = Scoutpack()
 map.nodes[52403042] = Scoutpack()
 map.nodes[56942485] = Scoutpack()
+map.nodes[59492006] = Scoutpack()
 map.nodes[60567702] = Scoutpack()
+map.nodes[60952000] = Scoutpack()
 map.nodes[61301817] = Scoutpack()
 map.nodes[61781881] = Scoutpack()
+map.nodes[62922121] = Scoutpack()
 map.nodes[63423235] = Scoutpack()
 map.nodes[64028081] = Scoutpack()
-map.nodes[36428558] = Scoutpack()
-map.nodes[36168691] = Scoutpack()
-map.nodes[60952000] = Scoutpack()
-map.nodes[59492006] = Scoutpack()
 map.nodes[65021064] = Scoutpack()
 map.nodes[66798258] = Scoutpack()
+map.nodes[71356836] = Scoutpack()
+map.nodes[73353879] = Scoutpack()
 map.nodes[73618656] = Scoutpack()
 map.nodes[78736935] = Scoutpack()
+map.nodes[79432374] = Scoutpack()
+map.nodes[79923683] = Scoutpack({note = L['in_small_cave']})
+map.nodes[83663235] = Scoutpack({note = L['in_small_cave']})
+map.nodes[83812914] = Scoutpack()
+map.nodes[84194551] = Scoutpack()
 map.nodes[84685647] = Scoutpack()
 map.nodes[86084606] = Scoutpack()
+map.nodes[86323937] = Scoutpack()
+map.nodes[86483680] = Scoutpack()
+map.nodes[87256074] = Scoutpack()
 map.nodes[91393390] = Scoutpack()
 
 -------------------------------------------------------------------------------
