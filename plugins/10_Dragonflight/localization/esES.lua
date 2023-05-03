@@ -738,14 +738,14 @@ L['brulsef_the_stronk_note'] = 'Despoja tus recompensas del {object:Cofre de Eno
 L['ancient_zaqali_chest_note'] = 'Usa el {object:Magma Embotellado} cercano para abrir el cofre.'
 L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
 L['crystal_encased_chest_note'] = 'Interactúa con el {object:Cristal de Armonización} azul {dot:Blue} y con el {object:Cristal de Armonización} rojo {dot:Red} para abrir el cofre.'
-L['old_trunk_note'] = 'Recoge y combina 5x {item:204325} para crear {item:204323}.'
+L['old_trunk_note'] = 'To get {item:204323} and open {object:Old Trunk} you need to find {npc:204277} 5 times.' -- 'Para conseguir la {item:204323} y abrir el {object:Old Trunk} necesitas encontrar 5 veces {npc:204277}.'
 L['well_chewed_chest_note'] = 'La {item:202869} {dot:Green} está escondida debajo de {npc:199962} dentro de la cueva.'
 
 L['molten_hoard_label'] = 'Tesoro de Magma'
 L['fealtys_reward_label'] = 'Recompensa de Lealtad'
 L['fealtys_reward_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
 L['dreamers_bounty_label'] = 'Botín de Soñador'
-L['dreamers_bounty_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['dreamers_bounty_note'] = 'El {object:Botín de Soñador} sólo se puede despojar mientras tengas en ti el debuff {spell:400066} que consigues del {npc:201068} cercano.'
 L['moth_pilfered_pouch_label'] = 'Bolsa Birlada por unas Polillas'
 L['moth_pilfered_pouch_note'] = 'Ayuda a {npc:203225} para que vuele haciendo "malabarismos" hasta que tenga cinco acumulaciones de {spell:405358}.\n\nEntonces volará a la faltriquera y te la revelará.'
 L['waterlogged_bundle_label'] = 'Fardo Empapado'
@@ -769,5 +769,5 @@ L['smelly_trash_pile_label'] = 'Montón de Basura Maloliente'
 L['options_icons_smelly_trash_pile'] = 'Montón de Basura Maloliente'
 L['options_icons_smelly_trash_pile_desc'] = 'Muestra dónde puede haber {object:Montón de Basura Maloliente}.'
 
-L['seething_cache_treasure_note'] = nil
-L['chest_of_the_flights_treasure_note'] = nil
+L['seething_cache_treasure_note'] = 'Para poder ver el {object:Alijo Hirviente} y despojar la {item:192779} necesitarás coger 3 acumulaciones del debuff {spell:399342} de los {object:Orbe Hirviente} que hay en la zona de la {location:Caldera Zaqali} en la {location:Caverna Zaralek}.'
+L['chest_of_the_flights_treasure_note '] = 'Para abrir el cofre necesitarás hacer click en las {object:Gema Potenciada} en el orden {note:Rojo > Negro > Azul > Amarillo > Verde}.'
