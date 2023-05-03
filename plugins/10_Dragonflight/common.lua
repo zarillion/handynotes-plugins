@@ -1716,12 +1716,14 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
 end)
 
 hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
-    local map = ns.maps[self:GetMap():GetMapID()]
+    local map = ns.maps[WorldMapFrame:GetMapID()] or nil
+
     if not map then return end
 
     for _, node in pairs(map.nodes) do
-        if node.vignetteID and node.vignetteID == self:GetVignetteID() then
-            node:Render(GameTooltip, false)
+        if node.vignetteID and node.vignetteID == self:GetVignetteID() and
+            node.rewards and ns:GetOpt('show_loot') then
+            node:RenderRewards(GameTooltip)
         end
     end
 end)

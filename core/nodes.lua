@@ -165,7 +165,7 @@ Iterate over rewards that are enabled for this character.
 --]]
 
 function Node:IterateRewards()
-    local index, reward = 0
+    local index, reward = 0, nil
     return function()
         if not (self.rewards and #self.rewards) then return end
         repeat
@@ -322,22 +322,7 @@ function Node:Render(tooltip, focusable)
     -- all rewards (achievements, pets, mounts, toys, quests) that can be
     -- collected or completed from this node
     if self.rewards and ns:GetOpt('show_loot') then
-        local firstAchieve, firstOther = true, true
-        for reward in self:IterateRewards() do
-
-            -- Add a blank line between achievements and other rewards
-            local isAchieve = IsInstance(reward, ns.reward.Achievement)
-            local isSpacer = IsInstance(reward, ns.reward.Spacer)
-            if isAchieve and firstAchieve then
-                GameTooltip_AddBlankLineToTooltip(tooltip)
-                firstAchieve = false
-            elseif not (isAchieve or isSpacer) and firstOther then
-                GameTooltip_AddBlankLineToTooltip(tooltip)
-                firstOther = false
-            end
-
-            reward:Render(tooltip)
-        end
+        self:RenderRewards(tooltip)
     end
 
     if self.spellID then
@@ -349,6 +334,24 @@ function Node:Render(tooltip, focusable)
                     self.spellID, spell:GetSpellTexture())
                 self.cancelSpellDataCallback = nil
             end);
+    end
+end
+
+function Node:RenderRewards(tooltip)
+    local firstAchieve, firstOther = true, true
+    for reward in self:IterateRewards() do
+        -- Add a blank line between achievements and other rewards
+        local isAchieve = ns.IsInstance(reward, ns.reward.Achievement)
+        local isSpacer = ns.IsInstance(reward, ns.reward.Spacer)
+        if isAchieve and firstAchieve then
+            tooltip:AddLine(' ')
+            firstAchieve = false
+        elseif not (isAchieve or isSpacer) and firstOther then
+            tooltip:AddLine(' ')
+            firstOther = false
+        end
+
+        reward:Render(tooltip)
     end
 end
 
