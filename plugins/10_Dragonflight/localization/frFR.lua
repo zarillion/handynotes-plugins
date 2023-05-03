@@ -767,4 +767,4 @@ L['options_icons_smelly_trash_pile'] = 'Tas de déchets kifouette'
 L['options_icons_smelly_trash_pile_desc'] = 'Afficher les emplacements possibles des {object:Tas de déchets kifouette}.'
 
 L['seething_cache_treasure_note'] = nil
-L['chest_of_the_flights_treasure_note '] = nil
+L['chest_of_the_flights_treasure_note'] = nil
