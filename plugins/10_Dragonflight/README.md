@@ -98,7 +98,8 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 ### Zaralek Cavern
 
-* TODO
+* Dragon Glyphs for the [Zaralek Cavern Glyph Hunter](https://www.wowhead.com/achievement=18150) achievement.
+* Ancient Stones for the [Ancient Stones of Zaralek](https://www.wowhead.com/achievement=17567) achievement.
 
 ## Localization
 

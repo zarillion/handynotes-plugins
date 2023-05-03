@@ -1,5 +1,14 @@
 # v36
 
+* Added rares, treasures, achievements and misc NPCs and mounts for Zaralek Cavern!
+* Added missing dragon customizations to the Forbidden Reach.
+* Added the Phoenix Wishwing battle pet.
+* Added transmog rewards to the Elemental Storms tooltips.
+* Fixed an error where EJ_GetTierInfo was called too early in the load process.
+* Fixed an incorrect use of the unpack() function (thanks Dairyman!).
+* Fixed mismatched rewards for Blightpaw the Depraved between zones.
+* Fixed missing icons for the Petty Theft Mammoth achievement.
+* Updated Forbidden Reach rares with missing rewards.
 * Updated TOC for 10.1.0
 
 # v35
