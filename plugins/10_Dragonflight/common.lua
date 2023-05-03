@@ -186,11 +186,6 @@ ns.groups.ZSKERA_VAULTS = Group('zskera_vaults', 4909720, {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.SECRETS_OF_ZULGURUB = ns.Group('secrets_of_zulgurub', 132528, {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION
-})
-
 -------------------------------------------------------------------------------
 
 ns.groups.ANCESTOR = Group('ancestor', 135946, {

@@ -24,6 +24,7 @@
   <Script file="zones\eastern_kingdoms\western_plaguelands.lua"/>
   <Script file="zones\eastern_kingdoms\westfall.lua"/>
   <Script file="zones\eastern_kingdoms\wetlands.lua"/>
+  <Script file="zones\eastern_kingdoms\zul_gurub.lua"/>
 
   <Script file="zones\kalimdor\ashenvale.lua"/>
   <Script file="zones\kalimdor\azshara.lua"/>
