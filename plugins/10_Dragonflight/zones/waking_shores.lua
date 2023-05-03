@@ -643,7 +643,7 @@ map.nodes[65617410] = Rare({
     rewards = {
         Achievement({
             id = 16678,
-    vignette = nil,
+            vignette = nil,
             criteria = {
                 {id = 56119, quest = 74068}, -- Moth'go Deeploom
                 {id = 56118, quest = 74074}, -- Seereel, the Spring
