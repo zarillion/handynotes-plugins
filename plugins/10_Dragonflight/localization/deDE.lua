@@ -765,8 +765,8 @@ L['saccratos_note'] = 'Tausche {item:204727} gegen ein Reittier, ein Haustier un
 L['ponzo_note'] = 'Tausche {item:204985} gegen Drachenanpassungen, ein Reittier, ein Haustier und mehr ein.'
 
 L['smelly_trash_pile_label'] = 'Stinkender Müllhaufen'
-L['options_icons_reed_chest'] = 'Stinkender Müllhaufen'
-L['options_icons_reed_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Stinkenden Müllhaufen} an.'
+L['options_icons_smelly_trash_pile'] = 'Stinkender Müllhaufen'
+L['options_icons_smelly_trash_pile_desc'] = 'Zeigt die möglichen Positionen der {object:Stinkenden Müllhaufen} an.'
 
 L['seething_cache_treasure_note'] = nil
-L['chest_of_the_flights_treasure_note '] = nil
+L['chest_of_the_flights_treasure_note'] = nil
