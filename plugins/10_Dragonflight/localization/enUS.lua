@@ -735,14 +735,14 @@ L['in_deepflayer_nest'] = 'Within {location:Deepflayer Nest}'
 L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.'
 
 L['ancient_zaqali_chest_note'] = 'Use a nearby {object:Bottled Magma} to open the chest.'
-L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
+L['blazing_shadowflame_chest_note'] = 'Equip the {item:15138}, which can be bought from the auction house or crafted by a leatherworker, to loot the chest.'
 L['crystal_encased_chest_note'] = 'Interact with both the blue {object:Attunement Crystal} ({dot:Blue}) and red {object:Attunement Crystal} ({dot:Red}) to open the chest.'
-L['old_trunk_note'] = 'To get {item:204323} and open {object:Old Trunk} you need to find {npc:204277} 5 times.'
+L['old_trunk_note'] = 'Find and collect the {npc:204277} 5 times, to get the {item:204323}. {note:The first mouse is next to the chest.}'
 L['well_chewed_chest_note'] = 'The {item:202869}({dot:Green}) is hidden underneath the {npc:199962} within the cave.'
 
 L['molten_hoard_label'] = 'Molten Hoard'
 L['fealtys_reward_label'] = 'Fealty\'s Reward'
-L['fealtys_reward_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['fealtys_reward_note'] = 'Kneel (/kneel) in front of the dragon statue in the southwest until it breathes fire to be able to open the chest.'
 L['dreamers_bounty_label'] = 'Dreamer\'s Bounty'
 L['dreamers_bounty_note'] = 'The {object:Dreamers\'s Bounty} can only be looted while you have the {spell:400066} debuff on you which you get from {npc:201068} nearby.'
 L['moth_pilfered_pouch_label'] = 'Moth-Pilfered Pouch'

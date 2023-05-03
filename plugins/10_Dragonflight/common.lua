@@ -461,6 +461,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         ImpalerHorns = Item({item = 197379, quest = 69580}),
         ManedCrest = Item({item = 197363, quest = 69564}),
         ManedTail = Item({item = 197405, quest = 69606}),
+        PlatedJaw = Item({item = 202275, quest = 73059}),
         PredatorPattern = Item({item = 197394, quest = 69595}),
         PurpleHair = Item({item = 197372, quest = 69573}),
         RazorSnout = Item({item = 197399, quest = 69600}),

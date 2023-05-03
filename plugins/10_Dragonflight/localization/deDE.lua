@@ -735,16 +735,16 @@ L['in_deepflayer_nest'] = 'Im {location:Tiefenschindernest}.'
 L['brulsef_the_stronk_note'] = 'Du erhältst deine Belohnung aus der {object:Chest of Massive Gains}.' -- todo: translate chest name
 
 L['ancient_zaqali_chest_note'] = 'Benutze das {object:Abgefüllte Magma} in der Nähe, um die Kiste zu öffnen.'
-L['blazing_shadowflame_chest_note'] = nil
-L['crystal_encased_chest_note'] = 'Interagiere mit dem Blauen {object:Abstimmungskristall} ({dot:Blue}) und dem Roten {object:Abstimmungskristall} ({dot:Red}), um den Schatz zu öffnen.'
-L['old_trunk_note'] = 'Sammle und kombiniere 5 {item:204325} um einen {item:204323} herzustellen.'
-L['well_chewed_chest_note'] = 'Der {item:202869}({dot:Green}) ist unter {npc:199962} in einer Höhle versteckt.'
+L['blazing_shadowflame_chest_note'] = 'Lege den {item:15138} an, der im Auktionshaus gekauft oder von einem Lederverarbeiter hergestellt werden kann, um die Truhe öffnen zu können.'
+L['crystal_encased_chest_note'] = 'Interagiere mit dem Blauen {object:Abstimmungskristall} ({dot:Blue}) und dem Roten {object:Abstimmungskristall} ({dot:Red}), um die Truhe öffnen zu können.'
+L['old_trunk_note'] = 'Finde und sammle die {npc:204277} 5 mal ein, um den {item:204323} zu erhalten. {note:Die erste Maus ist direkt neben der Truhe.}'
+L['well_chewed_chest_note'] = 'Der {item:202869}({dot:Green}) ist unter {npc:199962} in der Höhle versteckt.'
 
 L['molten_hoard_label'] = 'Geschmolzener Schatz'
 L['fealtys_reward_label'] = 'Belohnung der Treue'
-L['fealtys_reward_note'] = nil
+L['fealtys_reward_note'] = 'Knie (/knien) vor der Drachenstatue im Südwesten, bis diese Feuer spuckt, um die Truhe öffnen zu können.'
 L['dreamers_bounty_label'] = 'Belohnung des Träumers'
-L['dreamers_bounty_note'] = nil
+L['dreamers_bounty_note'] = 'Greife eine {npc:201068} an und warte bis diese den Schwächungszauber {spell:400066} auf dich wirkt, um die Truhe öffnen zu können.'
 L['moth_pilfered_pouch_label'] = 'Von Motten geplünderte Tasche'
 L['moth_pilfered_pouch_note'] = 'Hilf {npc:203225} zu fliegen indem du sie wiederholt "jonglierst", bis sie 5 Stapel {spell:405358} erlangt.\n\nSie fliegt dann zum Schatz und enthüllt ihn.'
 L['waterlogged_bundle_label'] = 'Durchnässtes Bündel'
@@ -752,21 +752,21 @@ L['waterlogged_bundle_label'] = 'Durchnässtes Bündel'
 L['stolen_stash_label'] = 'Gestohlenes Lager'
 L['ritual_offering_label'] = 'Ritualopfergaben'
 L['nal_kskol_reliquary_label'] = 'Reliquiar von Nal ks\'kol'
-L['nal_kskol_reliquary_note'] = 'Benutze die {object:Reliquary Access Console} und löse das Rätsel um das {object:Reliquiar von Nal ks\'kol} zu öffnen.' -- todo: translate object name
+L['nal_kskol_reliquary_note'] = 'Benutze die {object:Reliquary Access Console} und löse das Rätsel, um das {object:Reliquiar von Nal ks\'kol} zu öffnen.' -- todo: translate object name
 
 L['molten_scoutbot_note'] = 'Öffne das {object:Molten Scoutbot} und plündere {item:204855}.' -- todo: translate chest name
 L['bolts_and_brass_note'] = 'Öffne {object:Bolts and Brass} und plündere {item:204850}.' -- todo: translate chest name
 
 L['sniffen_sage_suffix'] = 'Spezialgegenstände erschnüffelt'
 
-L['big_slick_note_1'] = '{npc:48182} kann in der alten Welt an der {location:Dunkelküste} gefunden werden. Sprich mit {npc:141489} um in die Zeit vor dem {location:Krieg der Dornen} zurückzureisen.'
+L['big_slick_note_1'] = '{npc:48182} kann in der alten Welt an der {location:Dunkelküste} gefunden werden. Sprich mit {npc:141489}, um in die Zeit vor dem {location:Krieg der Dornen} zurückzureisen.'
 
-L['saccratos_note'] = 'Tausche {item:204727} gegen ein Reittier, ein Haustier und mehr ein.'
+L['saccratos_note'] = 'Tausche {item:204727} gegen zwei Reittiere, ein Haustier und mehr ein.'
 L['ponzo_note'] = 'Tausche {item:204985} gegen Drachenanpassungen, ein Reittier, ein Haustier und mehr ein.'
 
 L['smelly_trash_pile_label'] = 'Stinkender Müllhaufen'
 L['options_icons_smelly_trash_pile'] = 'Stinkender Müllhaufen'
 L['options_icons_smelly_trash_pile_desc'] = 'Zeigt die möglichen Positionen der {object:Stinkenden Müllhaufen} an.'
 
-L['seething_cache_treasure_note'] = nil
-L['chest_of_the_flights_treasure_note'] = nil
+L['seething_cache_treasure_note'] = 'Sammle von {object:Seething Orbs} 3x Stapel des {spell:399342} Schwächungszaubers, um die Truhe sehen und öffnen zu können.'
+L['chest_of_the_flights_treasure_note'] = 'Aktiviere {object:Ermächtigter Edelsteine} in der Reihenfolge {note:Rot > Schwarz > Blau > Gelb > Grün}, um die Truhe öffnen zu können.'

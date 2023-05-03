@@ -21,6 +21,7 @@ local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
 local Circle = ns.poi.Circle
@@ -53,6 +54,7 @@ map.nodes[56247389] = Rare({
 map.nodes[48367509] = Rare({
     id = 203468,
     quest = 75270,
+    vignette = 5640,
     rewards = {
         Achievement({id = 17783, criteria = 59185}), -- Adventurer of Zaralek Cavern
         Item({item = 192055}) -- Dragon Isle Artifact
@@ -263,14 +265,16 @@ map.nodes[36694883] = Treasure({
     rewards = {
         Achievement({id = 17786, criteria = 59222}) -- Treasures of Zaralek Cavern
     },
-    pois = {POI({36444822})}
+    pois = {POI({36444822, 2883540})}
 }) -- Ancient Zaqali Chest
 
 map.nodes[28544791] = Treasure({
     quest = 72986,
+    requires = ns.requirement.Item(15138),
     note = L['blazing_shadowflame_chest_note'],
     rewards = {
-        Achievement({id = 17786, criteria = 59220}) -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59220}), -- Treasures of Zaralek Cavern
+        Toy({item = 205418}) -- Blazing Shadowflame Cinder
     }
 }) -- Blazing Shadowflame Chest
 
@@ -376,13 +380,17 @@ map.nodes[29774050] = Treasure({
 map.nodes[48411636] = Treasure({
     label = L['molten_hoard_label'],
     quest = 75515,
-    location = L['in_small_cave']
+    location = L['in_small_cave'],
+    rewards = {
+        Transmog({item = 205981, slot = L['sword']}) -- Molten Primal Fang
+    }
 }) -- Molten Hoard
 
 map.nodes[48451083] = Treasure({
     label = L['fealtys_reward_label'],
     quest = 75514,
-    note = L['fealtys_reward_note']
+    note = L['fealtys_reward_note'],
+    pois = {POI({43642300})} -- Dragon statue
 }) -- Fealty's Reward
 
 map.nodes[57956632] = Treasure({
@@ -434,10 +442,12 @@ deepflayerNest.nodes[63698291] = Treasure({
 
 local RitualOffering = Class('RitualOffering', Treasure, {
     label = L['ritual_offering_label'],
+    icon = 'chest_bn',
     rewards = {
         Item({item = 199906}), -- Titan Relic
         Item({item = 204985}), -- Barter Brick
-        Currency({id = 2245}) -- Flightstones
+        Currency({id = 2245}), -- Flightstones
+        DC.RenewedProtoDrake.PlatedJaw
     }
 }) -- Ritual Offering
 
@@ -507,8 +517,8 @@ map.nodes[62325600] = SmellyTrashPile()
 -------------------------------------------------------------------------------
 
 map.nodes[40485918] = PT.Alchemy({id = 205213, quest = 75651}) -- Suspicious Mold
-map.nodes[52591832] = PT.Alchemy({id = 205211, quest = 75646}) -- Nutrient Diluted Protofluid
-map.nodes[62154115] = PT.Alchemy({id = 205212, quest = nil}) -- Marrow-Ripened Slime
+map.nodes[52631830] = PT.Alchemy({id = 205211, quest = 75646}) -- Nutrient Diluted Protofluid
+map.nodes[62154115] = PT.Alchemy({id = 205212, quest = 75649}) -- Marrow-Ripened Slime
 
 map.nodes[36674615] = PT.Inscription({id = 206031, quest = nil}) -- Intricate Zaqali Runes
 map.nodes[53007440] = PT.Inscription({id = 206034, quest = nil}) -- Hissing Rune Draft
@@ -523,7 +533,7 @@ map.nodes[47214855] = PT.Tailoring({id = 206019, quest = 76102}) -- Abandoned Re
 map.nodes[59117314] = PT.Tailoring({id = 206025, quest = 76110}) -- Used Medical Wrap Kit
 
 map.nodes[36666933] = PT.Enchanting({id = 205001, quest = 75510}) -- Resonating Arcane Crystal
-map.nodes[48001700] = PT.Enchanting({id = 204990, quest = 75508}) -- Lava-Drenched Shadow Crystal
+map.nodes[48251702] = PT.Enchanting({id = 204990, quest = 75508}) -- Lava-Drenched Shadow Crystal
 map.nodes[62395380] = PT.Enchanting({id = 204999, quest = 75509}) -- Shimmering Aqueous Orb
 
 map.nodes[37825884] = PT.Engineering({id = 204471, quest = nil}) -- Defective Survival Pack
@@ -782,7 +792,8 @@ map.nodes[55895537] = LoammVendor({
     note = L['saccratos_note'],
     rewards = {
         Pet({item = 205118, id = 3535, note = 'x50'}), -- Diamondshell
-        Mount({item = 205205, id = 1730, note = 'x400'}) -- Igneous Shalewing
+        Mount({item = 191838, id = 1603, note = 'x100'}), -- Subterranean Magmammoth
+        Mount({item = 205197, id = 1730, note = 'x400'}) -- Igneous Shalewing
     }
 }) -- Saccratos <Coveted Bauble Exchange>
 
@@ -790,10 +801,10 @@ map.nodes[58085381] = LoammVendor({
     id = 204693,
     note = L['ponzo_note'],
     rewards = {
-        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, 'x54 x99'),
-        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, 'x54 x99'),
-        DC.SetNote(DC.WindingSlitherdrake.CurledNose, 'x54 x99'),
-        Pet({item = 205120, id = 3537, note = 'x84 x99'}), -- Thimblerig
-        Mount({item = 205209, id = 1736, note = 'x169 x99'}) -- Boulder Hauler
+        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, 'x55'),
+        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, 'x55'),
+        DC.SetNote(DC.WindingSlitherdrake.CurledNose, 'x55'),
+        Pet({item = 205120, id = 3537, note = 'x85'}), -- Thimblerig
+        Mount({item = 205209, id = 1736, note = 'x170'}) -- Boulder Hauler
     }
 }) -- Ponzo <Barterer Extraordinaire>
