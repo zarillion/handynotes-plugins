@@ -59,6 +59,7 @@ local nel = Map({id = 2080, settings = true})
 
 map.nodes[63695509] = Rare14h({
     id = 193132,
+    vignette = nil,
     quest = 73981,
     rotationID = 5,
     cave = true,
@@ -73,6 +74,7 @@ map.nodes[63695509] = Rare14h({
 
 map.nodes[58634021] = Rare({
     id = 187945,
+    vignette = nil,
     quest = 73865,
     rewards = {
         Achievement({id = 16676, criteria = 56035}),
@@ -83,6 +85,7 @@ map.nodes[58634021] = Rare({
 
 map.nodes[54517174] = Rare14h({
     id = 193135,
+    vignette = nil,
     quest = 73984,
     rotationID = 26,
     rewards = {
@@ -96,6 +99,7 @@ map.nodes[54517174] = Rare14h({
 
 map.nodes[28635882] = RareElite({
     id = 190986,
+    vignette = nil,
     quest = 74040,
     rewards = {
         Achievement({id = 16676, criteria = 56059}),
@@ -114,6 +118,7 @@ map.nodes[28635882] = RareElite({
 
 map.nodes[52916529] = Rare({
     id = 192738,
+    vignette = nil,
     quest = 73890,
     note = L['brundin_the_dragonbane_note'],
     rewards = {
@@ -133,6 +138,7 @@ map.nodes[52916529] = Rare({
 
 map.nodes[26847642] = RareElite({
     id = 193198,
+    vignette = nil,
     quest = 73075,
     note = L['captain_lancer_note'],
     rewards = {
@@ -147,6 +153,7 @@ map.nodes[26847642] = RareElite({
 
 map.nodes[30575625] = RareElite({
     id = 186783,
+    vignette = nil,
     quest = 74042,
     rewards = {
         Achievement({id = 16676, criteria = 56056}),
@@ -165,6 +172,7 @@ map.nodes[30575625] = RareElite({
 
 map.nodes[29935074] = RareElite({
     id = 190991,
+    vignette = nil,
     quest = 74043,
     note = L['in_cave'],
     rewards = {
@@ -187,6 +195,7 @@ map.nodes[29935074] = RareElite({
 
 map.nodes[31785474] = RareElite({
     id = 190985,
+    vignette = nil,
     quest = 73074,
     note = format(L['obsidian_citadel_rare_note'], 20, '{npc:187447}'),
     rewards = {
@@ -210,6 +219,7 @@ map.nodes[31785474] = RareElite({
 
 map.nodes[60204535] = Rare({
     id = 193217,
+    vignette = nil,
     quest = 73874,
     rewards = {
         Achievement({id = 16676, criteria = 56039}),
@@ -243,6 +253,7 @@ map.nodes[60204535] = Rare({
 
 map.nodes[21626478] = RareElite({
     id = 193134,
+    vignette = nil,
     quest = 73072,
     note = L['enkine_note'],
     requires = ns.requirement.Item(201092), -- Lava Spices
@@ -257,6 +268,7 @@ map.nodes[21626478] = RareElite({
 
 map.nodes[33127632] = RareElite({
     id = 193154,
+    vignette = nil,
     quest = 73073,
     note = L['spawns_at_night'],
     rewards = {
@@ -274,6 +286,7 @@ map.nodes[33127632] = RareElite({
 
 map.nodes[52345829] = Rare({
     id = 196056,
+    vignette = nil,
     quest = 73879,
     rewards = {
         Achievement({id = 16676, criteria = 56033}),
@@ -285,12 +298,14 @@ map.nodes[52345829] = Rare({
 
 map.nodes[43007465] = Rare({
     id = 193263,
+    vignette = nil,
     quest = 73880,
     rewards = {Achievement({id = 16676, criteria = 56037})}
 }) -- Helmet Missingway
 
 map.nodes[34618275] = Rare({
     id = 193266,
+    vignette = nil,
     quest = 74065,
     note = L['lepidoralia_note'],
     rewards = {
@@ -309,6 +324,7 @@ map.nodes[34618275] = Rare({
 
 map.nodes[39596353] = Rare14h({
     id = 186827,
+    vignette = nil,
     quest = 74010,
     rotationID = 1,
     rewards = {
@@ -325,6 +341,7 @@ map.nodes[39596353] = Rare14h({
 
 map.nodes[22207649] = ns.node.RareElite14h({
     id = 193152,
+    vignette = nil,
     quest = 74012,
     rotationID = 22,
     rewards = {
@@ -342,6 +359,7 @@ map.nodes[22207649] = ns.node.RareElite14h({
 
 map.nodes[32805248] = RareElite({
     id = 187306,
+    vignette = nil,
     quest = 74067,
     note = format(L['obsidian_citadel_rare_note'], 10, '{npc:187275}'),
     rewards = {
@@ -357,6 +375,7 @@ map.nodes[32805248] = RareElite({
 
 map.nodes[56004592] = Rare({
     id = 193256,
+    vignette = nil,
     quest = 73888,
     rewards = {
         Achievement({id = 16676, criteria = 56034}),
@@ -370,6 +389,7 @@ map.nodes[56004592] = Rare({
 
 map.nodes[81485082] = Rare14h({
     id = 193118,
+    vignette = nil,
     quest = 74017,
     rotationID = 13,
     rewards = {
@@ -392,6 +412,7 @@ map.nodes[81485082] = Rare14h({
 
 map.nodes[64676939] = Rare({
     id = 192362,
+    vignette = nil,
     quest = 70864,
     note = L['hidden_hornswog_hoard_note'],
     rewards = {
@@ -406,6 +427,7 @@ map.nodes[64676939] = Rare({
 
 map.nodes[24005896] = RareElite({
     id = 193232,
+    vignette = nil,
     quest = 74051,
     note = L['obsidian_throne_rare_note'],
     rewards = {
@@ -420,6 +442,7 @@ map.nodes[24005896] = RareElite({
 
 map.nodes[30736110] = RareElite({
     id = 187598,
+    vignette = nil,
     quest = 74052,
     rewards = {
         Achievement({id = 16676, criteria = 56057}),
@@ -433,6 +456,7 @@ map.nodes[30736110] = RareElite({
 
 map.nodes[46997332] = Rare({
     id = 193271,
+    vignette = nil,
     quest = 74076,
     note = L['in_small_cave'] .. ' ' .. L['shadeslash_note'],
     rewards = {
@@ -446,6 +470,7 @@ map.nodes[46997332] = Rare({
 
 map.nodes[23755724] = RareElite({
     id = 189822,
+    vignette = nil,
     quest = 74077,
     note = L['obsidian_throne_rare_note'] .. ' ' ..
         format(L['obsidian_citadel_rare_note'], 20, '{npc:187284}'),
@@ -470,6 +495,7 @@ map.nodes[23755724] = RareElite({
 
 map.nodes[42892832] = Rare({
     id = 193181,
+    vignette = nil,
     quest = 73895,
     rewards = {
         Achievement({id = 16676, criteria = 56036}),
@@ -496,6 +522,7 @@ map.nodes[42892832] = Rare({
 
 map.nodes[34578950] = Rare({
     id = 193175,
+    vignette = nil,
     quest = 74079,
     note = L['slurpo_snail_note'],
     rewards = {
@@ -509,6 +536,7 @@ map.nodes[34578950] = Rare({
 
 map.nodes[69486653] = Rare14h({
     id = 193120,
+    vignette = nil,
     quest = 74031,
     rotationID = 11,
     rewards = {
@@ -524,6 +552,7 @@ map.nodes[69486653] = Rare14h({
 
 map.nodes[78514999] = Rare14h({
     id = 193228,
+    vignette = nil,
     quest = 73997,
     rotationID = 19,
     rewards = {
@@ -538,6 +567,7 @@ map.nodes[78514999] = Rare14h({
 
 map.nodes[45453540] = Rare({
     id = 193148,
+    vignette = nil,
     quest = 73899,
     rewards = {
         Achievement({id = 16676, criteria = 56040}), --
@@ -555,6 +585,7 @@ map.nodes[45453540] = Rare({
 
 map.nodes[33525576] = RareElite({
     id = 187886,
+    vignette = nil,
     quest = 74054,
     note = L['in_small_cave'],
     rewards = {
@@ -568,6 +599,7 @@ map.nodes[33525576] = RareElite({
 
 map.nodes[30025534] = RareElite({
     id = 186859,
+    vignette = nil,
     quest = 74090,
     note = L['worldcarver_atir_note'],
     rewards = {
@@ -587,6 +619,7 @@ map.nodes[30025534] = RareElite({
 
 map.nodes[33886446] = Rare({
     id = 193708,
+    vignette = nil,
     quest = 74078,
     label = L['large_lunker_sighting'],
     note = L['large_lunker_sighting_note'],
@@ -602,6 +635,7 @@ map.nodes[33886446] = Rare({
 
 map.nodes[65617410] = Rare({
     id = 193735,
+    vignette = nil,
     label = L['large_lunker_sighting'],
     note = L['large_lunker_sighting_note'],
     quest = {74068, 74074, 74084},
@@ -609,6 +643,7 @@ map.nodes[65617410] = Rare({
     rewards = {
         Achievement({
             id = 16678,
+    vignette = nil,
             criteria = {
                 {id = 56119, quest = 74068}, -- Moth'go Deeploom
                 {id = 56118, quest = 74074}, -- Seereel, the Spring
@@ -638,6 +673,7 @@ map.nodes[65617410] = Rare({
 
 map.nodes[77302198] = Rare({
     id = 187111,
+    vignette = nil,
     quest = 72835,
     note = L['in_small_cave'],
     rewards = {
@@ -661,6 +697,7 @@ map.nodes[77302198] = Rare({
 
 map.nodes[64173289] = Rare({
     id = 191611,
+    vignette = nil,
     quest = 72838,
     rewards = {
         Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
@@ -672,6 +709,7 @@ map.nodes[64173289] = Rare({
 
 map.nodes[54582137] = Rare({
     id = 195915,
+    vignette = nil,
     quest = 70648,
     rewards = {
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
@@ -683,6 +721,7 @@ map.nodes[54582137] = Rare({
 
 map.nodes[54728225] = Rare({
     id = 187209,
+    vignette = nil,
     quest = 72841,
     rewards = {
         Transmog({item = 200199, slot = L['mail']}), -- Elements' Burden
@@ -705,6 +744,7 @@ map.nodes[54728225] = Rare({
 
 map.nodes[24135392] = Rare({
     id = 189289,
+    vignette = nil,
     quest = 74019,
     note = L['obsidian_throne_rare_note'],
     rewards = {
@@ -718,6 +758,7 @@ map.nodes[24135392] = Rare({
 
 map.nodes[81133794] = Rare({
     id = 184853,
+    vignette = nil,
     quest = 72843,
     note = L['in_small_cave'],
     rewards = {
@@ -739,6 +780,7 @@ map.nodes[81133794] = Rare({
 
 map.nodes[60598285] = Rare({
     id = 193171,
+    vignette = nil,
     quest = 72850,
     rewards = {
         Transmog({item = 200208, slot = L['cloth']}), -- Cloud Coalescing Handwraps
@@ -754,6 +796,7 @@ map.nodes[60598285] = Rare({
 
 map.nodes[42203960] = Rare14h({
     id = 186200,
+    vignette = nil,
     quest = 74000,
     rotationID = 16,
     rewards = {

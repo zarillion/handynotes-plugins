@@ -51,6 +51,7 @@ local warCreche = Map({id = 2102, settings = false}) -- The War Creche
 
 map.nodes[58174826] = Rare({
     id = 200584,
+    vignette = nil,
     quest = 73111,
     location = L['in_small_cave'],
     rewards = {
@@ -66,6 +67,7 @@ map.nodes[58174826] = Rare({
 
 map.nodes[28303794] = Rare({
     id = 200537,
+    vignette = nil,
     quest = 73095,
     location = L['in_water_cave'],
     rewards = {
@@ -78,6 +80,7 @@ map.nodes[28303794] = Rare({
 
 map.nodes[41021436] = Rare({
     id = 200579,
+    vignette = nil,
     quest = 73100,
     rewards = {
         Achievement({id = 17525, criteria = 58460}), -- Champion of the Forbidden Reach
@@ -88,6 +91,7 @@ map.nodes[41021436] = Rare({
 
 map.nodes[47722071] = Rare({
     id = 200600,
+    vignette = nil,
     quest = 73117,
     location = L['in_small_cave'],
     rewards = {
@@ -100,6 +104,7 @@ map.nodes[47722071] = Rare({
 
 supportCreche.nodes[35254374] = Rare({
     id = 200610,
+    vignette = nil,
     quest = 73118,
     location = L['in_the_support_creche'],
     note = L['duzalgor_note'],
@@ -113,6 +118,7 @@ supportCreche.nodes[35254374] = Rare({
 
 map.nodes[43736121] = Rare({
     id = 200681,
+    vignette = nil,
     quest = 73150,
     location = L['in_small_cave'],
     rewards = {
@@ -128,6 +134,7 @@ map.nodes[43736121] = Rare({
 
 map.nodes[44727943] = Rare({
     id = 200717,
+    vignette = nil,
     quest = 73152,
     rewards = {
         Achievement({id = 17525, criteria = 58464}), -- Champion of the Forbidden Reach
@@ -138,6 +145,7 @@ map.nodes[44727943] = Rare({
 
 map.nodes[43949052] = Rare({
     id = 200721,
+    vignette = nil,
     quest = 73154,
     rewards = {
         Achievement({id = 17525, criteria = 58465}), -- Champion of the Forbidden Reach
@@ -148,6 +156,7 @@ map.nodes[43949052] = Rare({
 
 map.nodes[59695883] = Rare({
     id = 200885,
+    vignette = nil,
     quest = 73222,
     location = L['in_small_cave'],
     rewards = {
@@ -161,6 +170,7 @@ map.nodes[59695883] = Rare({
 
 map.nodes[72986738] = Rare({
     id = 200904,
+    vignette = nil,
     quest = 73229,
     location = L['in_small_cave'],
     rewards = {
@@ -173,6 +183,7 @@ map.nodes[72986738] = Rare({
 
 map.nodes[67924531] = Rare({
     id = 201181,
+    vignette = nil,
     quest = 74283,
     location = L['in_small_cave'],
     note = L['mad_eye_carrey_note'],
@@ -186,6 +197,7 @@ map.nodes[67924531] = Rare({
 
 map.nodes[61723400] = Rare({
     id = 201013,
+    vignette = nil,
     quest = 73409,
     note = L['wymslayer_angvardi_note'],
     rewards = {
@@ -197,6 +209,7 @@ map.nodes[61723400] = Rare({
 
 warCreche.nodes[42958468] = Rare({
     id = 200960,
+    vignette = nil,
     quest = 73367,
     location = L['in_the_war_creche'],
     parent = {id = map.id, pois = {POI({51895982})}},
@@ -210,6 +223,7 @@ warCreche.nodes[42958468] = Rare({
 
 map.nodes[36731223] = Rare({
     id = 200956,
+    vignette = nil,
     quest = 73366,
     rewards = {
         Achievement({id = 17525, criteria = 58471}), -- Champion of the Forbidden Reach
@@ -221,6 +235,7 @@ map.nodes[36731223] = Rare({
 
 warCreche.nodes[67355579] = Rare({
     id = 200978,
+    vignette = nil,
     quest = 73385,
     location = L['in_the_war_creche'],
     parent = {id = map.id, pois = {POI({51895982})}},
@@ -233,6 +248,7 @@ warCreche.nodes[67355579] = Rare({
 
 siegeCreche.nodes[58993931] = Rare({
     id = 200911,
+    vignette = nil,
     quest = 73225,
     location = L['in_the_siege_creche'],
     parent = {id = map.id, pois = {POI({74425466})}},
@@ -247,6 +263,7 @@ siegeCreche.nodes[58993931] = Rare({
 
 local LootSpecialist = Class('LootSpecialist', Rare, {
     id = 203353,
+    vignette = nil,
     quest = 74936,
     note = L['loot_specialist_note'],
     fgroup = 'loot_specialist',
@@ -306,6 +323,7 @@ end
 
 local Tectonus = Class('Tectonus', ProfessionRare, {
     id = 200619,
+    vignette = nil,
     quest = 74300,
     profession = ns.professions.MINING,
     summoningItem = 203418, -- Amplified Quaking Stone
@@ -334,6 +352,7 @@ dragonskullIsland.nodes[57157211] = Tectonus({
 
 local SirPinchalot = Class('SirPinchalot', ProfessionRare, {
     id = 200620,
+    vignette = nil,
     quest = 74305,
     profession = ns.professions.FISHING,
     summoningItem = 203419, -- Elusive Croaking Crab
@@ -350,6 +369,7 @@ map.nodes[47789090] = SirPinchalot()
 
 local Manathema = Class('Manathema', ProfessionRare, {
     id = 200621,
+    vignette = nil,
     quest = 74306,
     profession = ns.professions.ENCHANTING,
     summoningItem = 203410, -- Glowing Crystal Bookmark
@@ -375,6 +395,7 @@ warCreche.nodes[43017871] = Manathema({location = L['in_the_war_creche']})
 
 local Snarfang = Class('Snarfang', ProfessionRare, {
     id = 200622,
+    vignette = nil,
     quest = 74307,
     profession = ns.professions.LEATHERWORKING,
     summoningItem = 203414, -- Reinforced Pristine Leather
@@ -396,6 +417,7 @@ map.nodes[64967269] = Snarfang()
 
 local Gareed = Class('Gareed', ProfessionRare, {
     id = 200722,
+    vignette = nil,
     quest = 74321,
     profession = ns.professions.TAILORING,
     summoningItem = 203415, -- Morqut Kite
@@ -414,6 +436,7 @@ map.nodes[60299154] = Gareed()
 
 local Faunos = Class('Faunos', ProfessionRare, {
     id = 200725,
+    vignette = nil,
     quest = 74322,
     profession = ns.professions.SKINNING,
     summoningItem = 203417, -- Razor-Sharp Animal Bone
@@ -430,6 +453,7 @@ map.nodes[70664613] = Faunos()
 
 local TidesmithZarviss = Class('TidesmithZarviss', ProfessionRare, {
     id = 200730,
+    vignette = nil,
     quest = 74325,
     profession = ns.professions.BLACKSMITHING,
     summoningItem = 203408, -- Ceremonial Trident
@@ -452,6 +476,7 @@ map.nodes[80035881] = TidesmithZarviss({
 
 local Arcantrix = Class('Arcantrix', ProfessionRare, {
     id = 200737,
+    vignette = nil,
     quest = 74328,
     profession = ns.professions.INSCRIPTION,
     summoningItem = 203412, -- Dispelling Rune
@@ -476,6 +501,7 @@ warCreche.nodes[53105781] = Arcantrix({location = L['in_the_war_creche']})
 
 local Kangalo = Class('Kangalo', ProfessionRare, {
     id = 200738,
+    vignette = nil,
     quest = 74329,
     profession = ns.professions.HERBALISM,
     summoningItem = 203416, -- Dormant Lifebloom Seeds
@@ -493,6 +519,7 @@ map.nodes[75143190] = Kangalo()
 
 local Fimbul = Class('Fimbul', ProfessionRare, {
     id = 200739,
+    vignette = nil,
     quest = 74330,
     profession = ns.professions.ENGINEERING,
     summoningItem = 203411, -- Gnomish Voicebox
@@ -511,6 +538,7 @@ map.nodes[61172683] = Fimbul()
 
 local AgniBlazehoof = Class('AgniBlazehoof', ProfessionRare, {
     id = 200740,
+    vignette = nil,
     quest = 74331,
     profession = ns.professions.ALCHEMY,
     summoningItem = 203407, -- Draconic Suppression Powder
@@ -529,6 +557,7 @@ map.nodes[69745464] = AgniBlazehoof()
 
 local Luttrok = Class('Luttrok', ProfessionRare, {
     id = 200742,
+    vignette = nil,
     quest = 74332,
     profession = ns.professions.COOKING,
     summoningItem = 203409, -- Sparkling Spice Pouch
@@ -548,6 +577,7 @@ map.nodes[55695153] = Luttrok()
 
 local Amephyst = Class('Amephyst', ProfessionRare, {
     id = 200743,
+    vignette = nil,
     quest = 74333,
     profession = ns.professions.JEWELCRAFTING,
     summoningItem = 203413, -- Tuning Fork

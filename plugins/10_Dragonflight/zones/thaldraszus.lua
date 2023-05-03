@@ -64,6 +64,7 @@ local tpf = Map({id = 2085, settings = false}) -- The Primalist Future
 
 map.nodes[59075874] = RareElite({
     id = 193664,
+    vignette = 5236,
     quest = 74055,
     note = L['ancient_protector_note'],
     rewards = {
@@ -80,6 +81,7 @@ map.nodes[59075874] = RareElite({
 
 map.nodes[59847057] = Rare14h({
     id = 193220,
+    vignette = 5193,
     quest = 73987,
     rotationID = 25,
     rewards = {
@@ -101,6 +103,7 @@ map.nodes[59847057] = Rare14h({
 
 map.nodes[44886910] = Rare({
     id = 193658,
+    vignette = 5235,
     quest = 74060,
     note = L['in_cave'] .. ' ' .. L['corrupted_proto_dragon_note'],
     rewards = {
@@ -118,6 +121,7 @@ map.nodes[44886910] = Rare({
 
 local CRAGGRAVATEDELEMENTAL = Rare({
     id = 193663,
+    vignette = 5237,
     quest = 74061,
     fgroup = 'craggravated',
     focusable = true,
@@ -136,6 +140,7 @@ map.nodes[52746732] = CRAGGRAVATEDELEMENTAL
 
 map.nodes[47675115] = Rare14h({
     id = 193234,
+    vignette = 5198,
     quest = 73990,
     rotationID = 6,
     rewards = {
@@ -152,6 +157,7 @@ map.nodes[47675115] = Rare14h({
 
 map.nodes[53374092] = Rare({
     id = 193125,
+    vignette = nil,
     quest = 73878,
     rewards = {
         Achievement({id = 16679, criteria = 56138}),
@@ -169,6 +175,7 @@ map.nodes[53374092] = Rare({
 
 map.nodes[59128380] = Rare({
     id = 193126,
+    vignette = nil,
     quest = 73881,
     rewards = {
         Achievement({id = 16679, criteria = 56135}),
@@ -193,6 +200,7 @@ map.nodes[59128380] = Rare({
 
 map.nodes[62298177] = Rare({
     id = 193241,
+    vignette = 5203,
     quest = 74066,
     note = L['lord_epochbrgl_note'],
     rewards = {
@@ -211,6 +219,7 @@ map.nodes[62298177] = Rare({
 
 map.nodes[52895903] = Rare14h({
     id = 193246,
+    vignette = 5204,
     quest = 74013,
     rotationID = 12,
     rewards = {
@@ -228,6 +237,7 @@ map.nodes[52895903] = Rare14h({
 
 map.nodes[59806100] = Rare({
     id = 193688,
+    vignette = 5248,
     quest = 74020,
     -- rotationID = 7, -- wait for blizz fix.
     rewards = {
@@ -245,6 +255,7 @@ map.nodes[59806100] = Rare({
 
 map.nodes[57218420] = Rare14h({
     id = 193210,
+    vignette = 5192,
     quest = 74021,
     rotationID = 0,
     rewards = {
@@ -258,6 +269,7 @@ map.nodes[57218420] = Rare14h({
 
 map.nodes[37967903] = Rare({
     id = 193130,
+    vignette = 5479,
     quest = 73889,
     rewards = {
         Achievement({id = 16679, criteria = 56137}), --
@@ -275,6 +287,7 @@ map.nodes[37967903] = Rare({
 
 map.nodes[50404840] = Rare({
     id = 193143,
+    vignette = 5180,
     quest = 73892,
     rewards = {
         Achievement({id = 16679, criteria = 56133}), --
@@ -299,6 +312,7 @@ map.nodes[50404840] = Rare({
 
 map.nodes[40087014] = Rare14h({
     id = 193240,
+    vignette = nil,
     quest = 74024,
     rotationID = 4,
     rewards = {
@@ -319,6 +333,7 @@ map.nodes[40087014] = Rare14h({
 
 map.nodes[50005180] = Rare14h({
     id = 193666,
+    vignette = nil,
     quest = 74025,
     rotationID = 10,
     rewards = {
@@ -337,6 +352,7 @@ map.nodes[50005180] = Rare14h({
 
 map.nodes[37607780] = Rare14h({
     id = 193176,
+    vignette = nil,
     quest = 74029,
     rotationID = 18,
     cave = true,
@@ -356,6 +372,7 @@ map.nodes[37607780] = Rare14h({
 
 map.nodes[47207895] = Rare14h({
     id = 193258,
+    vignette = nil,
     quest = 74035,
     rotationID = 21,
     rewards = {
@@ -372,6 +389,7 @@ map.nodes[47207895] = Rare14h({
 
 map.nodes[38466826] = Rare({
     id = 191305,
+    vignette = nil,
     quest = 74085,
     note = L['the_great_shellkhan_note'],
     rewards = {
@@ -392,6 +410,7 @@ map.nodes[38466826] = Rare({
 
 map.nodes[46267317] = Rare({
     id = 183984,
+    vignette = nil,
     quest = 74086,
     note = L['in_cave'] .. ' ' .. L['weeping_vilomah_note'],
     rewards = {
@@ -409,6 +428,7 @@ map.nodes[46267317] = Rare({
 
 map.nodes[35027001] = Rare14h({
     id = 193146,
+    vignette = nil,
     quest = 74036,
     rotationID = 15,
     cave = true,
@@ -422,6 +442,7 @@ map.nodes[35027001] = Rare14h({
 
 map.nodes[47884976] = Rare({
     id = 193161,
+    vignette = nil,
     quest = 74089,
     note = L['woofang_note'],
     rewards = {
@@ -439,6 +460,7 @@ map.nodes[47884976] = Rare({
 
 map.nodes[57366540] = Rare({
     id = 197411,
+    vignette = nil,
     quest = 74057,
     label = L['large_lunker_sighting'],
     note = L['large_lunker_sighting_note'],
@@ -457,6 +479,7 @@ map.nodes[57366540] = Rare({
 
 map.nodes[55647727] = Rare({
     id = 193229,
+    vignette = nil,
     quest = 72814,
     rewards = {
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -474,6 +497,7 @@ map.nodes[55647727] = Rare({
 
 map.nodes[36757287] = Rare({
     id = 193273,
+    vignette = nil,
     quest = 72842,
     rewards = {
         Achievement({id = 16446, criteria = 55399, note = L['pretty_neat_note']}),
@@ -491,6 +515,7 @@ map.nodes[36757287] = Rare({
 
 map.nodes[36798556] = Rare({
     id = 193668,
+    vignette = nil,
     quest = 72813,
     rewards = {
         Transmog({item = 200182, slot = L['cloak']}), -- Riveted Drape
@@ -510,6 +535,7 @@ map.nodes[36798556] = Rare({
 
 tpf.nodes[48421722] = Rare({
     id = 201562,
+    vignette = nil,
     quest = 74556,
     rewards = {
         Transmog({item = 203669, slot = L['leather']}), -- Chillwing Leggings
@@ -521,6 +547,7 @@ tpf.nodes[48421722] = Rare({
 
 tpf.nodes[61813142] = Rare({
     id = 201542,
+    vignette = nil,
     quest = 74558,
     rewards = {
         Transmog({item = 203667, slot = L['cloth']}), -- Frostclaw's Spellfingers
@@ -530,6 +557,7 @@ tpf.nodes[61813142] = Rare({
 
 tpf.nodes[53536521] = Rare({
     id = 201543,
+    vignette = nil,
     quest = 74554,
     rewards = {
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
@@ -541,6 +569,7 @@ tpf.nodes[53536521] = Rare({
 
 tpf.nodes[46884248] = Rare({
     id = 201545,
+    vignette = nil,
     quest = 74553,
     rewards = {
         Transmog({item = 203668, slot = L['mail']}), -- Earhshaping Grips

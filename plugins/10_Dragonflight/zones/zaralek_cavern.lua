@@ -53,6 +53,7 @@ map.nodes[56247389] = Rare({
 
 map.nodes[48367509] = Rare({
     id = 203468,
+    vignette = 5640,
     quest = 75270,
     vignette = 5640,
     rewards = {
@@ -63,6 +64,7 @@ map.nodes[48367509] = Rare({
 
 map.nodes[41518613] = Rare({
     id = 203621,
+    vignette = 5652,
     quest = 75325,
     note = L['brulsef_the_stronk_note'],
     rewards = {
@@ -142,6 +144,7 @@ map.nodes[28515115] = Rare({
 
 map.nodes[42226524] = Rare({
     id = 203625,
+    vignette = nil,
     quest = 75333,
     rewards = {
         Achievement({id = 17783, criteria = 59199}), -- Adventurer of Zaralek Cavern
@@ -152,6 +155,7 @@ map.nodes[42226524] = Rare({
 
 map.nodes[59593949] = Rare({
     id = 203466,
+    vignette = nil,
     quest = 75268,
     rewards = {
         Achievement({id = 17783, criteria = 59184}), -- Adventurer of Zaralek Cavern
@@ -249,6 +253,7 @@ map.nodes[57766910] = Rare({
 
 map.nodes[38867151] = Rare({
     id = 201029,
+    vignette = 5664,
     quest = 75365,
     rewards = {
         Achievement({id = 17783, criteria = 59210}) -- Adventurer of Zaralek Cavern

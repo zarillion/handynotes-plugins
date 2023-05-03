@@ -57,6 +57,7 @@ local map = Map({id = 2023, settings = true})
 
 map.nodes[31567644] = Rare({
     id = 195186,
+    vignette = nil,
     quest = 73950,
     note = L['eaglewatch_outpost_note'],
     rewards = {Achievement({id = 16677, criteria = 56092})}
@@ -64,6 +65,7 @@ map.nodes[31567644] = Rare({
 
 map.nodes[30546628] = Rare({
     id = 189652,
+    vignette = nil,
     quest = 73872,
     rewards = {
         Achievement({id = 16677, criteria = 56068}),
@@ -82,6 +84,7 @@ map.nodes[30546628] = Rare({
 
 map.nodes[49866673] = Rare({
     id = 192020,
+    vignette = nil,
     quest = 74063,
     note = L['eaglemaster_niraak_note'],
     rewards = {
@@ -94,6 +97,7 @@ map.nodes[49866673] = Rare({
 
 map.nodes[56718128] = Rare({
     id = 193142,
+    vignette = nil,
     quest = 73875,
     note = L['in_small_cave'],
     rewards = {
@@ -108,6 +112,7 @@ map.nodes[56718128] = Rare({
 
 map.nodes[75184651] = Rare14h({
     id = 193170,
+    vignette = nil,
     quest = 73994,
     rotationID = 17,
     rewards = {
@@ -124,6 +129,7 @@ map.nodes[75184651] = Rare14h({
 
 map.nodes[85221544] = Rare({
     id = 187781,
+    vignette = nil,
     quest = 73951,
     note = L['aylaag_outpost_note'],
     rewards = {Achievement({id = 16677, criteria = 56082})}
@@ -131,6 +137,7 @@ map.nodes[85221544] = Rare({
 
 map.nodes[80544222] = Rare({
     id = 188095,
+    vignette = nil,
     quest = 73966,
     note = L['aylaag_outpost_note'] .. '\n\n' .. L['hunter_of_the_deep_note'],
     rewards = {Achievement({id = 16677, criteria = 56083})}
@@ -138,6 +145,7 @@ map.nodes[80544222] = Rare({
 
 map.nodes[80513869] = Rare({
     id = 188124,
+    vignette = nil,
     quest = 73967,
     note = L['aylaag_outpost_note'] .. '\n\n' .. L['in_cave'],
     rewards = {Achievement({id = 16677, criteria = 56084})},
@@ -146,6 +154,7 @@ map.nodes[80513869] = Rare({
 
 map.nodes[87556151] = Rare({
     id = 197009,
+    vignette = nil,
     quest = 73882,
     rewards = {
         Achievement({id = 16677, criteria = 56067}), --
@@ -165,6 +174,7 @@ map.nodes[87556151] = Rare({
 
 map.nodes[32823817] = Rare({
     id = 195409,
+    vignette = nil,
     quest = 73968,
     note = L['eaglewatch_outpost_note'],
     rewards = {Achievement({id = 16677, criteria = 56094})}
@@ -172,6 +182,7 @@ map.nodes[32823817] = Rare({
 
 map.nodes[71694585] = Rare14h({
     id = 193212,
+    vignette = nil,
     quest = 74011,
     rotationID = 27,
     rewards = {
@@ -191,6 +202,7 @@ map.nodes[71694585] = Rare14h({
 
 map.nodes[63017996] = Rare14h({
     id = 193173,
+    vignette = nil,
     quest = 74015,
     rotationID = 9,
     rewards = {
@@ -205,11 +217,13 @@ map.nodes[63017996] = Rare14h({
 
 map.nodes[58604940] = Rare({
     id = 187219,
+    vignette = nil,
     label = L['defend_clan_aylaag'],
     note = L['defend_clan_aylaag_note'],
     rewards = {
         Achievement({
             id = 16677,
+            vignette = nil,
             criteria = {
                 {id = 56081}, -- Nokhud Warmaster
                 {id = 56096}, -- Old Stormhide
@@ -221,6 +235,7 @@ map.nodes[58604940] = Rare({
 
 map.nodes[61212950] = Rare14h({
     id = 193235,
+    vignette = nil,
     quest = 74018,
     rotationID = 24,
     rewards = {
@@ -233,6 +248,7 @@ map.nodes[61212950] = Rare14h({
 
 map.nodes[59686802] = Rare({
     id = 191950,
+    vignette = nil,
     quest = 73971,
     note = L['river_camp_note'] .. '\n\n' .. L['in_small_cave'] .. '\n\n' ..
         L['porta_the_overgrown_note'],
@@ -251,6 +267,7 @@ map.nodes[59686802] = Rare({
 
 local Quackers = Class('Quackers', Rare, {
     id = 192557,
+    vignette = nil,
     quest = 73972,
     rewards = {
         Achievement({id = 16677, criteria = 56091}),
@@ -278,6 +295,7 @@ map.nodes[68207920] = Quackers() -- Quackers the Terrible
 
 map.nodes[37005380] = Rare14h({
     id = 196010,
+    vignette = nil,
     quest = 74023,
     rotationID = 14,
     rewards = {
@@ -292,6 +310,7 @@ map.nodes[37005380] = Rare14h({
 
 map.nodes[43405560] = Rare14h({
     id = 193227,
+    vignette = nil,
     quest = 74026,
     rotationID = 3,
     rewards = {
@@ -304,6 +323,7 @@ map.nodes[43405560] = Rare14h({
 
 map.nodes[42804428] = Rare({
     id = 195223,
+    vignette = nil,
     quest = 73973,
     note = L['eaglewatch_outpost_note'],
     rewards = {Achievement({id = 16677, criteria = 56093})}
@@ -311,6 +331,7 @@ map.nodes[42804428] = Rare({
 
 map.nodes[20444344] = Rare({
     id = 193215,
+    vignette = nil,
     quest = 74073,
     note = L['scaleseeker_mezeri_note'],
     rewards = {
@@ -328,6 +349,7 @@ map.nodes[20444344] = Rare({
 
 map.nodes[50117517] = Rare({
     id = 193136,
+    vignette = nil,
     quest = 73893,
     rewards = {
         Achievement({id = 16677, criteria = 56063}),
@@ -340,6 +362,7 @@ map.nodes[50117517] = Rare({
 
 map.nodes[61801283] = Rare({
     id = 193188,
+    vignette = nil,
     quest = 73894,
     rewards = {
         Achievement({id = 16677, criteria = 56065}),
@@ -353,6 +376,7 @@ map.nodes[61801283] = Rare({
 
 map.nodes[29964103] = Rare({
     id = 187559,
+    vignette = nil,
     quest = 74075,
     note = L['shade_of_grief_note'],
     rewards = {
@@ -368,6 +392,7 @@ map.nodes[29964103] = Rare({
 
 map.nodes[21603960] = Rare({
     id = 193165,
+    vignette = nil,
     quest = 73896,
     rewards = {
         Achievement({id = 16677, criteria = 56062}),
@@ -382,6 +407,7 @@ map.nodes[21603960] = Rare({
 
 map.nodes[53627281] = Rare14h({
     id = 193123,
+    vignette = nil,
     quest = 74034,
     rotationID = 20,
     rewards = {
@@ -398,6 +424,7 @@ map.nodes[53627281] = Rare14h({
 
 map.nodes[78298276] = Rare({
     id = 191842,
+    vignette = nil,
     quest = 73974,
     note = L['river_camp_note'],
     rewards = {Achievement({id = 16677, criteria = 56086})}
@@ -405,6 +432,7 @@ map.nodes[78298276] = Rare({
 
 map.nodes[27605560] = Rare({
     id = 195204,
+    vignette = nil,
     quest = 73976,
     note = L['eaglewatch_outpost_note'],
     rewards = {Achievement({id = 16677, criteria = 56088})}
@@ -412,6 +440,7 @@ map.nodes[27605560] = Rare({
 
 map.nodes[83786215] = Rare({
     id = 192453,
+    vignette = nil,
     quest = 73978,
     note = L['river_camp_note'],
     rewards = {Achievement({id = 16677, criteria = 56090})}
@@ -419,6 +448,7 @@ map.nodes[83786215] = Rare({
 
 map.nodes[84214784] = Rare({
     id = 192364,
+    vignette = nil,
     quest = 73979,
     note = L['river_camp_note'] .. '\n\n' .. L['windscale_the_stormborn_note'],
     rewards = {Achievement({id = 16677, criteria = 56089})}
@@ -426,6 +456,7 @@ map.nodes[84214784] = Rare({
 
 map.nodes[58596822] = Rare({
     id = 192045,
+    vignette = nil,
     quest = 74088,
     note = L['windseeker_avash_note'],
     rewards = {
@@ -438,6 +469,7 @@ map.nodes[58596822] = Rare({
 
 map.nodes[30206260] = Rare({
     id = 193140,
+    vignette = nil,
     quest = 74091,
     note = L['zarizz_note'],
     rewards = {
@@ -454,6 +486,7 @@ map.nodes[30206260] = Rare({
 
 map.nodes[31456387] = Rare({
     id = 193209,
+    vignette = nil,
     quest = 73901,
     rewards = {
         Achievement({id = 16677, criteria = 56066}),
@@ -476,6 +509,7 @@ map.nodes[31456387] = Rare({
 
 map.nodes[72232306] = Rare({
     id = 188451,
+    vignette = nil,
     quest = 73980,
     note = L['aylaag_outpost_note'],
     rewards = {Achievement({id = 16677, criteria = 56085})}
@@ -483,6 +517,7 @@ map.nodes[72232306] = Rare({
 
 map.nodes[90434005] = Rare({
     id = 193128,
+    vignette = nil,
     quest = 74096,
     note = L['blightpaw_note'],
     rewards = {
@@ -501,6 +536,7 @@ map.nodes[90434005] = Rare({
 
 map.nodes[80817770] = Rare({
     id = 197411,
+    vignette = nil,
     quest = 74057,
     label = L['large_lunker_sighting'],
     note = L['large_lunker_sighting_note'],
@@ -519,6 +555,7 @@ map.nodes[80817770] = Rare({
 
 map.nodes[59926696] = Rare({
     id = 193669,
+    vignette = nil,
     quest = 72815,
     rewards = {
         Item({item = 198048}), -- Titan Training Matrix I
@@ -538,6 +575,7 @@ map.nodes[59926696] = Rare({
 
 map.nodes[26366533] = Rare({
     id = 193153,
+    vignette = nil,
     quest = 72845,
     note = L['in_small_cave'],
     rewards = {
@@ -556,6 +594,7 @@ map.nodes[26366533] = Rare({
 
 map.nodes[44894924] = Rare({
     id = 192949,
+    vignette = nil,
     quest = 72847,
     note = L['in_small_cave'],
     rewards = {
@@ -575,6 +614,7 @@ map.nodes[44894924] = Rare({
 
 map.nodes[63034854] = Rare({
     id = 193133,
+    vignette = nil,
     quest = 72849,
     note = L['in_waterfall_cave'],
     rewards = {
@@ -594,6 +634,7 @@ map.nodes[63034854] = Rare({
 
 map.nodes[22956670] = Rare({
     id = 193163,
+    vignette = nil,
     quest = 72851,
     rewards = {
         Item({item = 198048}), -- Titan Training Matrix I
@@ -612,6 +653,7 @@ map.nodes[22956670] = Rare({
 
 map.nodes[26073412] = Rare({
     id = 191354,
+    vignette = nil,
     quest = 72852,
     note = L['in_cave'],
     rewards = {
@@ -629,6 +671,7 @@ map.nodes[26073412] = Rare({
 
 map.nodes[43105078] = Rare({
     id = 192983,
+    vignette = nil,
     quest = 74095,
     note = L['in_cave'],
     rewards = {
@@ -648,6 +691,7 @@ map.nodes[43105078] = Rare({
 map.nodes[34823454] = Rare(
     { -- is all over the place on wowhead, took a random one,
         id = 201540,
+        vignette = nil,
         quest = 74546,
         rewards = {
             Transmog({item = 203674, slot = L['plate']}), -- Brutal Tramplers
@@ -660,6 +704,7 @@ map.nodes[34823454] = Rare(
 
 map.nodes[36803800] = Rare({
     id = 201535,
+    vignette = nil,
     quest = 74552,
     rewards = {
         Transmog({item = 203673, slot = L['dagger']}), -- Bloodbeak's Ravenor
@@ -671,6 +716,7 @@ map.nodes[36803800] = Rare({
 
 map.nodes[35804040] = Rare({
     id = 201537,
+    vignette = nil,
     quest = 74463,
     rewards = {
         Transmog({item = 203671, slot = L['cloak']}), -- Bloodbeak's Ravenor
@@ -680,6 +726,7 @@ map.nodes[35804040] = Rare({
 
 map.nodes[32614184] = Rare({
     id = 201539,
+    vignette = nil,
     quest = 74547,
     rewards = {
         Transmog({item = 203676, slot = L['cloth']}), -- Stormcaller's Grounding Shoes
@@ -691,6 +738,7 @@ map.nodes[32614184] = Rare({
 
 map.nodes[33843872] = Rare({
     id = 201538,
+    vignette = nil,
     quest = 74548,
     rewards = {
         Transmog({item = 203672, slot = L['mail']}), -- Master Huntmaster's Wristguards

@@ -61,6 +61,7 @@ local map = Map({id = 2024, settings = true})
 
 map.nodes[53013563] = Rare({
     id = 194270,
+    vignette = 5267,
     quest = 73866,
     rewards = {
         Achievement({id = 16678, criteria = 56099}) -- Adventurer of The Azure Span
@@ -69,6 +70,7 @@ map.nodes[53013563] = Rare({
 
 map.nodes[55823132] = Rare({
     id = 194210,
+    vignette = nil,
     quest = 73867,
     rewards = {
         Achievement({id = 16678, criteria = 56105}) -- Adventurer of The Azure Span
@@ -84,6 +86,7 @@ map.nodes[55823132] = Rare({
 
 map.nodes[73032680] = Rare({
     id = 193116,
+    vignette = 5189,
     quest = 73868,
     rewards = {
         Achievement({id = 16678, criteria = 56106}), -- Adventurer of The Azure Span
@@ -94,6 +97,7 @@ map.nodes[73032680] = Rare({
 
 map.nodes[13584855] = ns.node.Feast({
     id = 197557,
+    vignette = nil,
     quest = 74097,
     rewards = {
         Achievement({id = 16678, criteria = 55381}), -- Adventurer of The Azure Span
@@ -107,6 +111,7 @@ map.nodes[13584855] = ns.node.Feast({
 
 map.nodes[13432270] = Rare({
     id = 193178,
+    vignette = 5184,
     quest = 74058,
     note = L['in_small_cave'] .. ' ' .. L['blightfur_note'],
     rewards = {
@@ -127,6 +132,7 @@ map.nodes[13432270] = Rare({
 
 map.nodes[14053096] = ns.node.Brackenhide({
     id = 197353,
+    vignette = 5414,
     quest = 73985,
     fgroup = 'brackenhide',
     rotationID = 1,
@@ -146,6 +152,7 @@ map.nodes[14053096] = ns.node.Brackenhide({
 
 map.nodes[16622798] = Rare({
     id = 193259,
+    vignette = nil,
     quest = 73870,
     rewards = {
         Achievement({id = 16678, criteria = 56108}), -- Adventurer of The Azure Span
@@ -167,6 +174,7 @@ map.nodes[16622798] = Rare({
 
 map.nodes[08944852] = Rare({
     id = 194392,
+    vignette = 5269,
     quest = 73871,
     note = L['in_small_cave'],
     rewards = {
@@ -189,6 +197,7 @@ map.nodes[08944852] = Rare({
 
 map.nodes[27214490] = Rare({
     id = 193157,
+    vignette = nil,
     quest = 73873,
     rewards = {
         Achievement({id = 16678, criteria = 56098}), -- Adventurer of The Azure Span
@@ -209,6 +218,7 @@ map.nodes[27214490] = Rare({
 
 map.nodes[50043631] = Rare({
     id = 193691,
+    vignette = 5475,
     quest = 72254,
     note = L['fisherman_tinnak_note'],
     requires = {
@@ -229,6 +239,7 @@ map.nodes[50043631] = Rare({
 
 map.nodes[64992995] = Rare({
     id = 193698,
+    vignette = 5252,
     quest = 73876,
     note = L['in_small_cave'],
     rewards = {
@@ -238,6 +249,7 @@ map.nodes[64992995] = Rare({
 
 map.nodes[58264391] = Rare({
     id = 191356,
+    vignette = 5153,
     quest = 73877,
     note = L['frostpaw_note'],
     rewards = {
@@ -248,6 +260,7 @@ map.nodes[58264391] = Rare({
 
 map.nodes[14083747] = ns.node.Brackenhide({
     id = 197354,
+    vignette = 5415,
     quest = 73996,
     fgroup = 'brackenhide',
     rotationID = 2,
@@ -261,6 +274,7 @@ map.nodes[14083747] = ns.node.Brackenhide({
 
 map.nodes[32682911] = ns.node.RareElite14h({
     id = 193251,
+    vignette = 5206,
     quest = 74001,
     rotationID = 2,
     rewards = {
@@ -279,6 +293,7 @@ map.nodes[32682911] = ns.node.RareElite14h({
 
 map.nodes[19234362] = Rare14h({
     id = 193269,
+    vignette = 5210,
     quest = 74002,
     rotationID = 23,
     rewards = {
@@ -297,6 +312,7 @@ map.nodes[19234362] = Rare14h({
 
 map.nodes[16213364] = ns.node.Brackenhide({
     id = 197356,
+    vignette = 5416,
     quest = 74004,
     fgroup = 'brackenhide',
     rotationID = 3,
@@ -314,6 +330,7 @@ map.nodes[16213364] = ns.node.Brackenhide({
 
 map.nodes[36243573] = Rare({
     id = 190244,
+    vignette = nil,
     quest = 73883,
     rewards = {
         Achievement({id = 16678, criteria = 56109}), -- Adventurer of The Azure Span
@@ -327,6 +344,7 @@ map.nodes[36243573] = Rare({
 
 map.nodes[40514797] = Rare({
     id = 198004,
+    vignette = nil,
     quest = 73884,
     rewards = {
         Achievement({id = 16678, criteria = 56100}), -- Adventurer of The Azure Span
@@ -338,6 +356,7 @@ map.nodes[40514797] = Rare({
 
 map.nodes[58095471] = Rare({
     id = 193201,
+    vignette = nil,
     quest = 73885,
     rewards = {
         Achievement({id = 16678, criteria = 56102}), -- Adventurer of The Azure Span
@@ -356,6 +375,7 @@ map.nodes[58095471] = Rare({
 
 map.nodes[20584943] = Rare({
     id = 193225,
+    vignette = nil,
     quest = 73887,
     note = L['in_small_cave'],
     rewards = {
@@ -370,12 +390,14 @@ map.nodes[20584943] = Rare({
 
 map.nodes[58813260] = Rare({
     id = 197371,
+    vignette = nil,
     quest = {73891, 74080},
     label = L['large_lunker_sighting'],
     note = L['large_lunker_sighting_note'],
     rewards = {
         Achievement({
             id = 16678,
+            vignette = nil,
             criteria = {
                 {id = 56129, quest = 73891}, -- Ravenous Tundra Bear
                 {id = 56116, quest = 74080} -- Snufflegust
@@ -398,6 +420,7 @@ map.nodes[58813260] = Rare({
 
 -- map.nodes[] = Rare({
 --     id = 193693,
+--     vignette = nil,
 --     quest = nil,
 --     rewards = {
 --         Achievement({id = 16678, criteria = 56113}), -- Adventurer of The Azure Span
@@ -407,6 +430,7 @@ map.nodes[58813260] = Rare({
 
 map.nodes[26494939] = Rare14h({
     id = 193149,
+    vignette = 5440,
     quest = 74030,
     rotationID = 8,
     rewards = {
@@ -424,6 +448,7 @@ map.nodes[26494939] = Rare14h({
 
 map.nodes[10863229] = ns.node.Brackenhide({
     id = 197344,
+    vignette = 5413,
     quest = 74032,
     fgroup = 'brackenhide',
     rotationID = 0,
@@ -437,6 +462,7 @@ map.nodes[10863229] = ns.node.Brackenhide({
 
 map.nodes[55033405] = RareElite({
     id = 193238,
+    vignette = 5200,
     quest = 74082,
     note = L['spellwrought_snowman_note'],
     rewards = {
@@ -456,6 +482,7 @@ map.nodes[55033405] = RareElite({
 
 -- map.nodes[] = Rare({
 --     id = 193167,
+--     vignette = nil,
 --     quest = nil,
 --     rewards = {
 --         Achievement({id = 16678, criteria = 56121}), -- Adventurer of The Azure Span
@@ -465,6 +492,7 @@ map.nodes[55033405] = RareElite({
 
 map.nodes[70222532] = Rare({
     id = 193196,
+    vignette = 5186,
     quest = 74087,
     note = L['trilvarus_loreweaver_note'],
     rewards = {
@@ -477,6 +505,7 @@ map.nodes[70222532] = Rare({
 
 map.nodes[59405520] = Rare({
     id = 193632,
+    vignette = 5224,
     quest = 73900,
     rewards = {
         Achievement({id = 16678, criteria = 56097}), -- Adventurer of The Azure Span
@@ -499,6 +528,7 @@ map.nodes[59405520] = Rare({
 
 map.nodes[28564743] = Rare({
     id = 195353,
+    vignette = nil,
     quest = nil,
     note = L['breezebiter_note'],
     rewards = {
@@ -515,6 +545,7 @@ map.nodes[28564743] = Rare({
 
 map.nodes[23503317] = Rare({
     id = 186962,
+    vignette = 5050,
     quest = 72836,
     rewards = {
         Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
@@ -526,6 +557,7 @@ map.nodes[23503317] = Rare({
 
 map.nodes[38155901] = Rare({
     id = 193214,
+    vignette = 5191,
     quest = 72840,
     note = L['in_cave'],
     rewards = {
@@ -538,6 +570,7 @@ map.nodes[38155901] = Rare({
 
 map.nodes[70143327] = Rare({
     id = 193288,
+    vignette = 5213,
     quest = 72848,
     rewards = {
         Item({item = 198048}), -- Titan Training Matrix I
@@ -550,6 +583,7 @@ map.nodes[70143327] = Rare({
 
 map.nodes[17254144] = Rare({
     id = 193223,
+    vignette = 5194,
     quest = 72853,
     rewards = {
         Item({item = 201728}), -- Vakril's Strongbox
@@ -561,6 +595,7 @@ map.nodes[17254144] = Rare({
 
 map.nodes[36723247] = Rare({
     id = 192749,
+    vignette = 5484,
     quest = 72846,
     note = L['sharpfang_note'],
     rewards = {
@@ -573,6 +608,7 @@ map.nodes[36723247] = Rare({
 
 map.nodes[76602460] = Rare({
     id = 197183,
+    vignette = nil,
     quest = 71139,
     note = L['stranded_soul_note'],
     rewards = {
@@ -587,6 +623,7 @@ map.nodes[76602460] = Rare({
 
 map.nodes[56407080] = Rare({
     id = 196165,
+    vignette = nil,
     quest = 74446,
     note = L['gethdazr_note'],
     rewards = {
@@ -611,6 +648,7 @@ map.nodes[56407080] = Rare({
 
 map.nodes[60196818] = Rare({
     id = 201559,
+    vignette = 5557,
     quest = 74533,
     rewards = {
         Transmog({item = 203661, slot = L['cloth']}) -- Watercaller's Mantle
@@ -619,6 +657,7 @@ map.nodes[60196818] = Rare({
 
 map.nodes[57916842] = Rare({
     id = 201557,
+    vignette = 5554,
     quest = 74532,
     rewards = {
         Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
@@ -633,6 +672,7 @@ map.nodes[57916842] = Rare({
 
 map.nodes[56016760] = Rare({
     id = 201558,
+    vignette = 5556,
     quest = 74531,
     rewards = {
         Transmog({item = 200292, slot = L['plate']}), -- Cragforge Pauldrons
@@ -643,6 +683,7 @@ map.nodes[56016760] = Rare({
 
 map.nodes[57256464] = Rare({
     id = 201556,
+    vignette = 5555,
     quest = 74535,
     rewards = {
         Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
@@ -654,16 +695,18 @@ map.nodes[57256464] = Rare({
 
 map.nodes[43903096] = Rare({
     id = 201561,
+    vignette = 5559,
     quest = 74544,
     rewards = {
         Transmog({item = 203675, slot = L['plate']}), -- Legplates of the Brutal Motivator
         Transmog({item = 200434, slot = L['cloth']}), -- Anund's Mana-Singed Amice
         DC.RenewedProtoDrake.SharkSnout, DC.HighlandDrake.FinnedHead
     }
-}) -- Movtivator Krathos
+}) -- Motivator Krathos
 
 map.nodes[47102582] = Rare({
     id = 201554,
+    vignette = 5558,
     quest = 74536,
     rewards = {
         Transmog({item = 203662, slot = L['dagger']}), -- Arcanogolem Crystalblade
@@ -675,6 +718,7 @@ map.nodes[47102582] = Rare({
 
 map.nodes[47912378] = Rare({ -- TODO, coordinates may be wrong
     id = 201553,
+    vignette = 5560,
     quest = 74545,
     rewards = {
         Transmog({item = 203664, slot = L['cloth']}), -- Wild Magic Insulating Bands

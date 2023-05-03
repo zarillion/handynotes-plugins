@@ -26,6 +26,7 @@ local creche = Map({id = 2109, settings = false})
 
 map.nodes[32914104] = Rare({
     id = 191729,
+    vignette = nil,
     note = L['in_small_cave'],
     quest = 66966,
     rewards = {
@@ -36,6 +37,7 @@ map.nodes[32914104] = Rare({
 
 map.nodes[28473653] = Rare({
     id = 191713,
+    vignette = nil,
     note = L['in_small_cave'],
     quest = 66967,
     pois = {POI({33653370})} -- Entrance
@@ -45,6 +47,7 @@ map.nodes[54964307] = Rare({id = 181427, quest = 64859}) -- Stormspine
 
 map.nodes[56496548] = Rare({
     id = 191746,
+    vignette = nil,
     quest = 66975,
     rewards = {
         Item({item = 194741}) -- Earthbound Tome
@@ -53,6 +56,7 @@ map.nodes[56496548] = Rare({
 
 map.nodes[79497439] = Rare({
     id = 182280,
+    vignette = nil,
     note = L['in_small_cave'],
     quest = 66973,
     rewards = {
