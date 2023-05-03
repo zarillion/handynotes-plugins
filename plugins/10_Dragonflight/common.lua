@@ -1721,7 +1721,7 @@ hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
     if not map then return end
 
     for _, node in pairs(map.nodes) do
-        if node.vignetteID and node.vignetteID == self:GetVignetteID() and
+        if node.vignette and node.vignette == self:GetVignetteID() and
             node.rewards and ns:GetOpt('show_loot') then
             node:RenderRewards(GameTooltip)
         end

@@ -41,7 +41,7 @@ local deepflayerNest = Map({id = 2184, settings = false}) -- Deepflayer Nest
 
 map.nodes[56247389] = Rare({
     id = 203515,
-    vignetteID = 5643,
+    vignette = 5643,
     quest = 75284,
     rewards = {
         Achievement({id = 17783, criteria = 59188}), -- Adventurer of Zaralek Cavern
@@ -71,7 +71,7 @@ map.nodes[41518613] = Rare({
 
 map.nodes[48372384] = Rare({
     id = 204093,
-    vignetteID = 5646,
+    vignette = 5646,
     quest = 75475,
     rewards = {
         Achievement({id = 17783, criteria = 59212}), -- Adventurer of Zaralek Cavern
@@ -81,7 +81,7 @@ map.nodes[48372384] = Rare({
 
 map.nodes[31805061] = Rare({
     id = 203664,
-    vignetteID = 5663,
+    vignette = 5663,
     quest = 75361,
     rewards = {
         Achievement({id = 17783, criteria = 59209}) -- Adventurer of Zaralek Cavern
@@ -90,7 +90,7 @@ map.nodes[31805061] = Rare({
 
 map.nodes[36324481] = Rare({
     id = 203660,
-    vignetteID = 5661,
+    vignette = 5661,
     quest = 75357,
     location = L['in_small_cave'],
     rewards = {
@@ -101,7 +101,7 @@ map.nodes[36324481] = Rare({
 
 map.nodes[41921857] = Rare({
     id = 203592,
-    vignetteID = 5645,
+    vignette = 5645,
     quest = 75295,
     rewards = {
         Achievement({id = 17783, criteria = 59190}), -- Adventurer of Zaralek Cavern
@@ -112,7 +112,7 @@ map.nodes[41921857] = Rare({
 
 map.nodes[68734593] = Rare({
     id = 203477,
-    vignetteID = 5641,
+    vignette = 5641,
     quest = 75273,
     rewards = {
         Achievement({id = 17783, criteria = 59186}) -- Adventurer of Zaralek Cavern
@@ -121,7 +121,7 @@ map.nodes[68734593] = Rare({
 
 map.nodes[45673327] = Rare({
     id = 203627,
-    vignetteID = 5654,
+    vignette = 5654,
     quest = 75335,
     rewards = {
         Achievement({id = 17783, criteria = 59200}) -- Adventurer of Zaralek Cavern
@@ -130,7 +130,7 @@ map.nodes[45673327] = Rare({
 
 map.nodes[28515115] = Rare({
     id = 203646,
-    vignetteID = 5660,
+    vignette = 5660,
     quest = 75352,
     rewards = {
         Achievement({id = 17783, criteria = 59206}), -- Adventurer of Zaralek Cavern
@@ -159,7 +159,7 @@ map.nodes[59593949] = Rare({
 
 map.nodes[54074162] = Rare({
     id = 203618,
-    vignetteID = 5651,
+    vignette = 5651,
     quest = 75321,
     rewards = {
         Achievement({id = 17783, criteria = 59198}) -- Adventurer of Zaralek Cavern
@@ -168,7 +168,7 @@ map.nodes[54074162] = Rare({
 
 map.nodes[65435587] = Rare({
     id = 203462,
-    vignetteID = 5638,
+    vignette = 5638,
     quest = 75266,
     location = L['in_small_cave'],
     rewards = {
@@ -179,6 +179,7 @@ map.nodes[65435587] = Rare({
 
 map.nodes[40753817] = Rare({
     id = 200111,
+    vignette = 5656,
     quest = 75339,
     rewards = {
         Achievement({id = 17783, criteria = 59203}), -- Adventurer of Zaralek Cavern
@@ -191,7 +192,7 @@ map.nodes[40753817] = Rare({
 
 map.nodes[55841899] = Rare({
     id = 203521,
-    vignetteID = 5644,
+    vignette = 5644,
     quest = 75291,
     location = L['in_cave'],
     rewards = {
@@ -203,7 +204,7 @@ map.nodes[55841899] = Rare({
 
 map.nodes[65875082] = Rare({
     id = 203643,
-    vignetteID = 5659,
+    vignette = 5659,
     quest = 75348,
     rewards = {
         Achievement({id = 17783, criteria = 59205}), -- Adventurer of Zaralek Cavern
@@ -214,7 +215,7 @@ map.nodes[65875082] = Rare({
 
 map.nodes[53106421] = Rare({
     id = 203480,
-    vignetteID = 5642,
+    vignette = 5642,
     quest = 75275,
     location = L['in_small_cave'],
     rewards = {
@@ -227,7 +228,7 @@ map.nodes[53106421] = Rare({
 
 map.nodes[38424650] = Rare({
     id = 203662,
-    vignetteID = 5662,
+    vignette = 5662,
     quest = 75359,
     rewards = {
         Achievement({id = 17783, criteria = 59208}), -- Adventurer of Zaralek Cavern
@@ -237,7 +238,7 @@ map.nodes[38424650] = Rare({
 
 map.nodes[57766910] = Rare({
     id = 203593,
-    vignetteID = 5646,
+    vignette = 5646,
     quest = 75297,
     rewards = {
         Achievement({id = 17783, criteria = 59191}) -- Adventurer of Zaralek Cavern
