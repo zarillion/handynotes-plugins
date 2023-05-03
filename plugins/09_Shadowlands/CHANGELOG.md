@@ -1,3 +1,8 @@
+# v56
+
+* Fixed an error where EJ_GetTierInfo was called too early in the load process.
+* Updated TOC for 10.1.0
+
 # v55
 
 * Added improvements from the Dragonflight plugin.
