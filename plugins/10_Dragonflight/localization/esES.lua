@@ -768,3 +768,6 @@ L['ponzo_note'] = 'Cambia {item:204985} y {item:205903} por personalizaciones pa
 L['smelly_trash_pile_label'] = 'Montón de Basura Maloliente'
 L['options_icons_smelly_trash_pile'] = 'Montón de Basura Maloliente'
 L['options_icons_smelly_trash_pile_desc'] = 'Muestra dónde puede haber {object:Montón de Basura Maloliente}.'
+
+L['seething_cache_treasure_note'] = nil
+L['chest_of_the_flights_treasure_note '] = nil

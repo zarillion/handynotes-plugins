@@ -767,3 +767,6 @@ L['ponzo_note'] = '用 {item:204985} 和 {item:205903} 换取幼龙定制，宠�
 L['smelly_trash_pile_label'] = '臭垃圾堆'
 L['options_icons_smelly_trash_pile'] = '臭垃圾堆'
 L['options_icons_smelly_trash_pile_desc'] = '显示 {object:臭垃圾堆} 可能的位置。'
+
+L['seething_cache_treasure_note'] = nil
+L['chest_of_the_flights_treasure_note '] = nil

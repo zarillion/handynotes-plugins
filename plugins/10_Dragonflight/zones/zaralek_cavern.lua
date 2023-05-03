@@ -277,8 +277,10 @@ map.nodes[30044193] = Treasure({
     }
 }) -- Charred Egg
 
-map.nodes[70002000] = Treasure({
+map.nodes[56040305] = Treasure({ -- location unknown
     quest = 75187,
+    note = L['chest_of_the_flights_treasure_note '] .. '\n\n' ..
+        L['in_small_cave'],
     rewards = {
         Achievement({id = 17786, criteria = 59224}) -- Treasures of Zaralek Cavern
     }
@@ -318,11 +320,19 @@ map.nodes[43058256] = Treasure({
     }
 }) -- Old Trunk
 
-map.nodes[73002000] = Treasure({
+map.nodes[32333935] = Treasure({
     quest = 73410,
+    note = L['seething_cache_treasure_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59221}) -- Treasures of Zaralek Cavern
+    },
+    pois = {
+        POI({
+            25244480, 26704700, 27704900, 27955121, 28755530, 29954797,
+            30204000, 31185195, 34414571, 35634877, 36204401
+        })
     }
+
 }) -- Seething Cache
 
 map.nodes[29774050] = Treasure({
@@ -415,6 +425,7 @@ map.nodes[30055140] = RitualOffering({quest = 73552})
 map.nodes[35145225] = RitualOffering({quest = 73552})
 map.nodes[32355045] = RitualOffering({quest = 73552})
 map.nodes[36395236] = RitualOffering({quest = 73552})
+map.nodes[27344217] = RitualOffering({quest = 73553})
 map.nodes[31955275] = RitualOffering({quest = 73552})
 map.nodes[30454365] = RitualOffering({quest = 73551})
 map.nodes[35954450] = RitualOffering({quest = 73551})
@@ -451,6 +462,7 @@ map.nodes[43552886] = SmellyTrashPile()
 map.nodes[44686196] = SmellyTrashPile()
 map.nodes[45384348] = SmellyTrashPile()
 map.nodes[45443717] = SmellyTrashPile()
+map.nodes[35244459] = SmellyTrashPile()
 map.nodes[46366109] = SmellyTrashPile()
 map.nodes[46726819] = SmellyTrashPile()
 map.nodes[47054134] = SmellyTrashPile()
@@ -467,36 +479,51 @@ map.nodes[62325600] = SmellyTrashPile()
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[37825884] = PT.Engineering({id = 204475, quest = 75186}) -- Busted Wyrmhole Generator
+map.nodes[40485918] = PT.Alchemy({id = 205213, quest = 75651}) -- Suspicious Mold
+map.nodes[52591832] = PT.Alchemy({id = 205211, quest = 75646}) -- Nutrient Diluted Protofluid
+map.nodes[62154115] = PT.Alchemy({id = 205212, quest = nil}) -- Marrow-Ripened Slime
 
+map.nodes[36674615] = PT.Inscription({id = 206031, quest = nil}) -- Intricate Zaqali Runes
+map.nodes[53007440] = PT.Inscription({id = 206034, quest = nil}) -- Hissing Rune Draft
+map.nodes[54005500] = PT.Inscription({id = 206035, quest = nil}) -- Ancient Research
+
+map.nodes[34504542] = PT.Jewelcrafting({id = 205216, quest = 75653}) -- Gently Jostled Jewels
+map.nodes[40378070] = PT.Jewelcrafting({id = 205214, quest = nil}) -- Snubbed Snail Shells
+map.nodes[54413247] = PT.Jewelcrafting({id = 205219, quest = 75654}) -- Broken Barter Boulder
+
+map.nodes[44521565] = PT.Tailoring({id = 206030, quest = 76116}) -- Exquisitely Embroidered Banner
+map.nodes[47214855] = PT.Tailoring({id = 206019, quest = 76102}) -- Abandoned Reserve Chute
+map.nodes[59117314] = PT.Tailoring({id = 206025, quest = 76110}) -- Used Medical Wrap Kit
+
+map.nodes[36666933] = PT.Enchanting({id = 205001, quest = 75510}) -- Resonating Arcane Crystal
+map.nodes[48001700] = PT.Enchanting({id = 204990, quest = 75508}) -- Lava-Drenched Shadow Crystal
+map.nodes[62395380] = PT.Enchanting({id = 204999, quest = 75509}) -- Shimmering Aqueous Orb
+
+map.nodes[37825884] = PT.Engineering({id = 204471, quest = nil}) -- Defective Survival Pack
+map.nodes[37825884] = PT.Engineering({id = 204475, quest = 75186}) -- Busted Wyrmhole Generator
 map.nodes[48101659] = PT.Engineering({
     id = 204855,
     quest = 75433,
     location = L['in_small_cave'],
     note = L['molten_scoutbot_note']
 }) -- Molten Scoutbot (Overclocked Determination Core)
-
 map.nodes[48162790] = PT.Engineering({id = 204470, quest = 75183}) -- Haphazardly Discarded Bombs
-
 map.nodes[48484868] = PT.Engineering({id = 204469, quest = 75180}) -- Misplace Aberrus Outflow Blueprints
-
 map.nodes[49437901] = PT.Engineering({id = 204853, quest = 75431}) -- Discarded Dracothyst Drill
-
+map.nodes[49875919] = PT.Engineering({id = 204471, quest = nil}) -- Inconspicuous Data Miner
 map.nodes[57657393] = PT.Engineering({
     id = 204850,
     quest = 75430,
     note = L['bolts_and_brass_note']
 }) -- Bolts and Brass (Handful of Khaz'gorite Bolts)
 
+map.nodes[27514286] = PT.Blacksmithing({id = 205988, quest = 76080}) -- Zaqali Elder Spear
+map.nodes[48312201] = PT.Blacksmithing({id = 205987, quest = 76079}) -- Brimstone Rescue Ring
 map.nodes[57155464] = PT.Blacksmithing({id = 205986, quest = 76078}) -- Well-Worn Kiln
 
-map.nodes[48312201] = PT.Blacksmithing({id = 205987, quest = 76079}) -- Brimstone Rescue Ring
-
-map.nodes[27514286] = PT.Blacksmithing({id = 205988, quest = 76080}) -- Zaqali Elder Spear
-
-map.nodes[70003000] = PT.Leatherworking({id = 204986, quest = 75495}) -- Flame-Infused Scale Oil
-
-map.nodes[73003000] = PT.Leatherworking({id = 204987, quest = 75496}) -- Lava-Forged Leatherworker's "Knife"
+map.nodes[41164881] = PT.Leatherworking({id = 204986, quest = 75495}) -- Flame-Infused Scale Oil
+map.nodes[45252112] = PT.Leatherworking({id = 204987, quest = 75496}) -- Lava-Forged Leatherworker's "Knife"
+map.nodes[49565480] = PT.Leatherworking({id = 204988, quest = 75502}) -- Sulfur-Soaked Skins
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

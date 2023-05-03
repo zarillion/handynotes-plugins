@@ -744,7 +744,7 @@ L['molten_hoard_label'] = 'Molten Hoard'
 L['fealtys_reward_label'] = 'Fealty\'s Reward'
 L['fealtys_reward_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
 L['dreamers_bounty_label'] = 'Dreamer\'s Bounty'
-L['dreamers_bounty_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['dreamers_bounty_note'] = 'The {object:Dreamers\'s Bounty} can only be looted while you have the {spell:400066} debuff on you which you get from {npc:201068} nearby.'
 L['moth_pilfered_pouch_label'] = 'Moth-Pilfered Pouch'
 L['moth_pilfered_pouch_note'] = 'Help the {npc:203225} to fly by "juggling" it until it has five stacks of {spell:405358}.\n\nIt will then fly to the pouch and reveal it to you.'
 L['waterlogged_bundle_label'] = 'Waterlogged Bundle'
@@ -767,3 +767,6 @@ L['ponzo_note'] = 'Exchange {item:204985} and {item:205903} for drake customizat
 L['smelly_trash_pile_label'] = 'Smelly Trash Pile'
 L['options_icons_smelly_trash_pile'] = 'Smelly Trash Pile'
 L['options_icons_smelly_trash_pile_desc'] = 'Display possible locations of {object:Smelly Trash Pile}.'
+
+L['seething_cache_treasure_note'] = 'To be able to see the {object:Seething Cache} and loot the {item = 192779} you\'ll need to pick up 3x stacks of a {spell:399342} debuff from {object:Seething Orbs} located in the {location:Zaqali Caldera} area in {location:Zaralek Cavern}.'
+L['chest_of_the_flights_treasure_note '] = 'To open the treasure chest you need to click on the {object:Empowered Gems} in the order {note:Red > Black > Blue > Yellow > Green}.'
