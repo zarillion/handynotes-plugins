@@ -335,13 +335,11 @@ map.nodes[43058256] = Treasure({
         Achievement({id = 17786, criteria = 59227}) -- Treasures of Zaralek Cavern
     },
     pois = {
-        POI({
-            42988259, -- Mouse 1 Quest 75526
-            42148016, -- Mouse 2 Quest 75527
-            41708145, -- Mouse 3 Quest 75534
-            42788221, -- Mouse 4 Quest 75535
-            43728385 -- Mouse 5
-        })
+        POI({42988259, quest = 75526}), -- Mouse 1
+        POI({42148016, quest = 75527, questDeps = 75526}), -- Mouse 2
+        POI({41708145, quest = 75534, questDeps = 75527}), -- Mouse 3
+        POI({42788221, quest = 75535, questDeps = 75534}), -- Mouse 4
+        POI({43728385, questDeps = 75535}) -- Mouse 5
     }
 }) -- Old Trunk
 
@@ -488,6 +486,7 @@ map.nodes[43163817] = SmellyTrashPile()
 map.nodes[43552886] = SmellyTrashPile()
 map.nodes[44686196] = SmellyTrashPile()
 map.nodes[45384348] = SmellyTrashPile()
+map.nodes[59225178] = SmellyTrashPile()
 map.nodes[45443717] = SmellyTrashPile()
 map.nodes[46366109] = SmellyTrashPile()
 map.nodes[46726819] = SmellyTrashPile()
@@ -563,7 +562,7 @@ map.nodes[47443702] = Dragonglyph({rewards = {Achievement({id = 17516})}}) -- Dr
 map.nodes[48060438] = Dragonglyph({rewards = {Achievement({id = 17517})}}) -- Dragon Glyphs: Brimstone Garrison
 map.nodes[54735470] = Dragonglyph({rewards = {Achievement({id = 17512})}}) -- Dragon Glyphs: Loamm
 map.nodes[55342771] = Dragonglyph({rewards = {Achievement({id = 17514})}}) -- Dragon Glyphs: Slitherdrake Roost
-map.nodes[62567332] = Dragonglyph({rewards = {Achievement({id = 17511})}}) -- Dragon Glyphs: Nal Ks'kol
+map.nodes[62717036] = Dragonglyph({rewards = {Achievement({id = 17511})}}) -- Dragon Glyphs: Nal Ks'kol
 map.nodes[72114844] = Dragonglyph({rewards = {Achievement({id = 17515})}}) -- Dragon Glyphs: The Throughway
 
 -------------------------------------------------------------------------------
