@@ -736,14 +736,14 @@ L['in_deepflayer_nest'] = 'Dentro del {location:Nido de los Despellejadores}.'
 L['brulsef_the_stronk_note'] = 'Despoja tus recompensas del {object:Cofre de Enormes Beneficios}.'
 
 L['ancient_zaqali_chest_note'] = 'Usa el {object:Magma Embotellado} cercano para abrir el cofre.'
-L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
+L['blazing_shadowflame_chest_note'] = 'Equipa la {item:15138}, que se puede comprar en la Casa de Subastas o crease por un peletero, para despojar el cofre.'
 L['crystal_encased_chest_note'] = 'Interactúa con el {object:Cristal de Armonización} azul {dot:Blue} y con el {object:Cristal de Armonización} rojo {dot:Red} para abrir el cofre.'
-L['old_trunk_note'] = 'To get {item:204323} and open {object:Old Trunk} you need to find {npc:204277} 5 times.' -- Para conseguir la {item:204323} y abrir el {object:Old Trunk} necesitas encontrar 5 veces {npc:204277}.
+L['old_trunk_note'] = 'Busca y recoge 5 veces el {npc:204277} para conseguir la {item:204323}. {note:El primer ratón está junto al cofre.}'
 L['well_chewed_chest_note'] = 'La {item:202869} {dot:Green} está escondida debajo de {npc:199962} dentro de la cueva.'
 
 L['molten_hoard_label'] = 'Tesoro de Magma'
 L['fealtys_reward_label'] = 'Recompensa de Lealtad'
-L['fealtys_reward_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['fealtys_reward_note'] = 'Teclea la emoción {emote:/arrodillarse} enfrente de la estatua del dragón al suroeste hasta que escupa fuego para poder abrir el cofre.'
 L['dreamers_bounty_label'] = 'Botín de Soñador'
 L['dreamers_bounty_note'] = 'El {object:Botín de Soñador} sólo se puede despojar mientras tengas en ti el debuff {spell:400066} que consigues del {npc:201068} cercano.'
 L['moth_pilfered_pouch_label'] = 'Bolsa Birlada por unas Polillas'
