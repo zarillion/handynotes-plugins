@@ -733,14 +733,14 @@ L['in_deepflayer_nest'] = 'A l\'intérieur du {location:Nid de flagellants des p
 L['brulsef_the_stronk_note'] = 'Récupérez vos récompenses à partir du {object:Coffre de gains massifs}.'
 
 L['ancient_zaqali_chest_note'] = 'Utilisez un {object:Magma en bouteille} à proximité pour ouvrir le coffre.'
-L['blazing_shadowflame_chest_note'] = nil -- DEV NOTE - Do not translate
+L['blazing_shadowflame_chest_note'] = 'Équipez la {item:15138}, qui peut être achetée à l\'hôtel des ventes ou fabriquée par un travailleur du cuir, pour pouvoir ouvrir le coffre.'
 L['crystal_encased_chest_note'] = 'Interagissez avec le {object:Cristal d\'harmonisation} ({dot:Blue}) et le {object:Cristal d\'harmonisation} ({dot:Red}) pour ouvrir le coffre.'
-L['old_trunk_note'] = 'Pour obtenir la {item:204323} et ouvrir la {object:Vieille malle}, vous devez trouver la {npc:204277} 5 fois.'
+L['old_trunk_note'] = 'Trouvez et ramassez la {npc:204277} 5 fois, pour obtenir la {item:204323}. {note:La première souris se trouve à côté du coffre.}'
 L['well_chewed_chest_note'] = 'La {item:202869}({dot:Green}) est cachée sous la {npc:199962} dans la grotte.'
 
 L['molten_hoard_label'] = 'Butin en fusion'
 L['fealtys_reward_label'] = 'Récompense de loyauté'
-L['fealtys_reward_note'] = nil -- DEV NOTE - Do not translate
+L['fealtys_reward_note'] = 'Agenouillez-vous (/genou) devant la statue de dragon au sud-ouest jusqu\'à ce qu\'elle crache du feu, pour pouvoir ouvrir le coffre.'
 L['dreamers_bounty_label'] = 'Butin de la Rêveuse'
 L['dreamers_bounty_note'] = 'Le {object:Butin de la Rêveuse} ne peut être récupéré que si vous avez le debuff {spell:400066} sur vous, obtenu à partir des {npc:201068} à proximité.'
 L['moth_pilfered_pouch_label'] = 'Bourse volée par les phalènes'
