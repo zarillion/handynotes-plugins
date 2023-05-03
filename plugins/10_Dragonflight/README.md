@@ -54,7 +54,6 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Bird locations for the [That's Pretty Neat!](https://www.wowhead.com/achievement=16446/thats-pretty-neat) achievement.
 * Legendary character locations for the [A Legendary Album](https://www.wowhead.com/achievement=16570/a-legendary-album) achievement.
 * Profession-specific treasure locations which grant knowledge for your crafting specializations.
-
 * Elusive Creatures for Skinners.
 * Wyrmhole Generator Signal Transmitters for Engineers.
 * Spirit Beasts for Beast Mastery Hunters.
