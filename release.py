@@ -1,10 +1,7 @@
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from collections import namedtuple
-from html2bbcode.parser import HTML2BBCode
-from markdown import markdown
 from os import path
 from subprocess import run
-from textwrap import dedent
 from zipfile import ZipFile, ZIP_DEFLATED
 import json
 import os
@@ -62,7 +59,7 @@ def get_plugin(tag):
         sys.exit(1)
     return Plugin(f'HandyNotes_{name[3:]}', version, tag, dir)
 
-def get_changelog(plugin, bbcode=False, full=False):
+def get_changelog(plugin, full=False):
     with open(path.join(plugin.dir, 'CHANGELOG.md')) as f:
         if full:
             changelog = f.read()
@@ -70,10 +67,6 @@ def get_changelog(plugin, bbcode=False, full=False):
             changelog = match.group(1).strip() + '\n'
         else:
             changelog = 'No changelog entries for this release.\n'
-
-    if bbcode:
-        changelog = markdown(changelog) # to html
-        changelog = HTML2BBCode('bbcode.ini').feed(changelog) # to bbcode
 
     return changelog
 
@@ -168,7 +161,7 @@ def upload_to_wowinterface(plugin, zip, token):
     POST(f'{WOWI_API}/update', headers={ 'x-api-token': token }, files={
         'id': (None, WOWI_PROJECTS[plugin.name]),
         'version': (None, plugin.version),
-        'changelog': (None, get_changelog(plugin, bbcode=True, full=True)),
+        'changelog': (None, get_changelog(plugin, full=True)),
         'compatible': (None, get_wow_version(plugin)),
         'updatefile': open(zip, 'rb')
     })
