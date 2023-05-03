@@ -55,7 +55,6 @@ map.nodes[48367509] = Rare({
     id = 203468,
     vignette = 5640,
     quest = 75270,
-    vignette = 5640,
     rewards = {
         Achievement({id = 17783, criteria = 59185}), -- Adventurer of Zaralek Cavern
         Item({item = 192055}) -- Dragon Isle Artifact
