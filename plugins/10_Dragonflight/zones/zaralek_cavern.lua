@@ -324,7 +324,8 @@ map.nodes[32333935] = Treasure({
     quest = 73410,
     note = L['seething_cache_treasure_note'],
     rewards = {
-        Achievement({id = 17786, criteria = 59221}) -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59221}), -- Treasures of Zaralek Cavern
+        Mount({item = 192779, id = 1623}) -- Seething Slug
     },
     pois = {
         POI({
@@ -332,7 +333,6 @@ map.nodes[32333935] = Treasure({
             30204000, 31185195, 34414571, 35634877, 36204401
         })
     }
-
 }) -- Seething Cache
 
 map.nodes[29774050] = Treasure({
@@ -419,22 +419,22 @@ local RitualOffering = Class('RitualOffering', Treasure, {
 }) -- Ritual Offering
 
 map.nodes[26874611] = RitualOffering({quest = 73553})
+map.nodes[27344217] = RitualOffering({quest = 73553})
 map.nodes[28195157] = RitualOffering({quest = 73553})
 map.nodes[28754415] = RitualOffering({quest = 73553})
 map.nodes[30055140] = RitualOffering({quest = 73552})
-map.nodes[35145225] = RitualOffering({quest = 73552})
-map.nodes[32355045] = RitualOffering({quest = 73552})
-map.nodes[36395236] = RitualOffering({quest = 73552})
-map.nodes[27344217] = RitualOffering({quest = 73553})
-map.nodes[31955275] = RitualOffering({quest = 73552})
 map.nodes[30454365] = RitualOffering({quest = 73551})
-map.nodes[35954450] = RitualOffering({quest = 73551})
+map.nodes[31955275] = RitualOffering({quest = 73552})
+map.nodes[32355045] = RitualOffering({quest = 73552})
 map.nodes[32614416] = RitualOffering({quest = 73551})
 map.nodes[33103990] = RitualOffering({quest = 73551})
+map.nodes[35145225] = RitualOffering({quest = 73552})
+map.nodes[35954450] = RitualOffering({quest = 73551})
+map.nodes[36395236] = RitualOffering({quest = 73552})
 map.nodes[38174991] = RitualOffering({quest = 73548})
 map.nodes[40015127] = RitualOffering({quest = 73548})
-map.nodes[41694457] = RitualOffering({quest = 73548})
 map.nodes[41054876] = RitualOffering({quest = 73548})
+map.nodes[41694457] = RitualOffering({quest = 73548})
 
 local SmellyTrashPile = Class('SmellyTrashPile', ns.node.Node, {
     label = L['smelly_trash_pile_label'],
@@ -449,6 +449,7 @@ local SmellyTrashPile = Class('SmellyTrashPile', ns.node.Node, {
 -- may require niffen renown level 2 or some quest to be completed.
 
 map.nodes[31175207] = SmellyTrashPile()
+map.nodes[35244459] = SmellyTrashPile()
 map.nodes[35754907] = SmellyTrashPile()
 map.nodes[37056988] = SmellyTrashPile()
 map.nodes[37403969] = SmellyTrashPile()
@@ -462,7 +463,6 @@ map.nodes[43552886] = SmellyTrashPile()
 map.nodes[44686196] = SmellyTrashPile()
 map.nodes[45384348] = SmellyTrashPile()
 map.nodes[45443717] = SmellyTrashPile()
-map.nodes[35244459] = SmellyTrashPile()
 map.nodes[46366109] = SmellyTrashPile()
 map.nodes[46726819] = SmellyTrashPile()
 map.nodes[47054134] = SmellyTrashPile()
@@ -473,6 +473,7 @@ map.nodes[51055710] = SmellyTrashPile()
 map.nodes[51931544] = SmellyTrashPile()
 map.nodes[52562740] = SmellyTrashPile()
 map.nodes[57476456] = SmellyTrashPile()
+map.nodes[60195755] = SmellyTrashPile()
 map.nodes[62325600] = SmellyTrashPile()
 
 -------------------------------------------------------------------------------

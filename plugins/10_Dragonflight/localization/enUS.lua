@@ -768,5 +768,5 @@ L['smelly_trash_pile_label'] = 'Smelly Trash Pile'
 L['options_icons_smelly_trash_pile'] = 'Smelly Trash Pile'
 L['options_icons_smelly_trash_pile_desc'] = 'Display possible locations of {object:Smelly Trash Pile}.'
 
-L['seething_cache_treasure_note'] = 'To be able to see the {object:Seething Cache} and loot the {item = 192779} you\'ll need to pick up 3x stacks of a {spell:399342} debuff from {object:Seething Orbs} located in the {location:Zaqali Caldera} area in {location:Zaralek Cavern}.'
+L['seething_cache_treasure_note'] = 'To be able to see the {object:Seething Cache} and loot the {item:192779} you\'ll need to pick up 3x stacks of a {spell:399342} debuff from {object:Seething Orbs} located in the {location:Zaqali Caldera} area in {location:Zaralek Cavern}.'
 L['chest_of_the_flights_treasure_note'] = 'To open the treasure chest you need to click on the {object:Empowered Gems} in the order {note:Red > Black > Blue > Yellow > Green}.'
