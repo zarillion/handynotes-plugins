@@ -735,14 +735,14 @@ L['brulsef_the_stronk_note'] = 'Récupérez vos récompenses à partir du {objec
 L['ancient_zaqali_chest_note'] = 'Utilisez un {object:Magma en bouteille} à proximité pour ouvrir le coffre.'
 L['blazing_shadowflame_chest_note'] = nil -- DEV NOTE - Do not translate
 L['crystal_encased_chest_note'] = 'Interagissez avec le {object:Cristal d\'harmonisation} ({dot:Blue}) et le {object:Cristal d\'harmonisation} ({dot:Red}) pour ouvrir le coffre.'
-L['old_trunk_note'] = 'Rassemblez et combinez x5 {item:204325} pour créer une {item:204323}.'
+L['old_trunk_note'] = 'Pour obtenir la {item:204323} et ouvrir la {object:Vieille malle}, vous devez trouver la {npc:204277} 5 fois.'
 L['well_chewed_chest_note'] = 'La {item:202869}({dot:Green}) est cachée sous la {npc:199962} dans la grotte.'
 
 L['molten_hoard_label'] = 'Butin en fusion'
 L['fealtys_reward_label'] = 'Récompense de loyauté'
 L['fealtys_reward_note'] = nil -- DEV NOTE - Do not translate
 L['dreamers_bounty_label'] = 'Butin de la Rêveuse'
-L['dreamers_bounty_note'] = nil -- DEV NOTE - Do not translate
+L['dreamers_bounty_note'] = 'Le {object:Butin de la Rêveuse} ne peut être récupéré que si vous avez le debuff {spell:400066} sur vous, obtenu à partir des {npc:201068} à proximité.'
 L['moth_pilfered_pouch_label'] = 'Bourse volée par les phalènes'
 L['moth_pilfered_pouch_note'] = 'Aidez le {npc:203225} à voler en le faisant "jongler" jusqu\'à ce qu\'il ait cinq charges de {spell:405358}.\n\nIl volera alors jusqu\'à la bourse et vous la révèlera.'
 L['waterlogged_bundle_label'] = 'Paquet détrempé'
@@ -766,5 +766,5 @@ L['smelly_trash_pile_label'] = 'Tas de déchets kifouette'
 L['options_icons_smelly_trash_pile'] = 'Tas de déchets kifouette'
 L['options_icons_smelly_trash_pile_desc'] = 'Afficher les emplacements possibles des {object:Tas de déchets kifouette}.'
 
-L['seething_cache_treasure_note'] = nil
-L['chest_of_the_flights_treasure_note'] = nil
+L['seething_cache_treasure_note'] = 'Pour pouvoir voir la {object:Cache bouillonnante} et récupérer le {item:192779}, vous devrez obtenir 3x charges du debuff {spell:399342}, récupéré sur les {object:Orbes bouillonnants} situés à la {location:Caldeira Zaqali} dans la {location:Grotte de Zaralek}.'
+L['chest_of_the_flights_treasure_note'] = 'Pour ouvrir le coffre au trésor, vous devez cliquer sur les {object:Gemmes renforcées} dans l\'ordre {note:Rouge > Noire > Bleue > Jaune > Verte}.'
