@@ -333,6 +333,15 @@ map.nodes[43058256] = Treasure({
     note = L['old_trunk_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59227}) -- Treasures of Zaralek Cavern
+    },
+    pois = {
+        POI({
+            42988259, -- Mouse 1 Quest 75526
+            42148016, -- Mouse 2 Quest 75527
+            41708145, -- Mouse 3 Quest 75534
+            42788221, -- Mouse 4 Quest 75535
+            43728385 -- Mouse 5
+        })
     }
 }) -- Old Trunk
 
@@ -467,6 +476,7 @@ local SmellyTrashPile = Class('SmellyTrashPile', ns.node.Node, {
 map.nodes[31175207] = SmellyTrashPile()
 map.nodes[35244459] = SmellyTrashPile()
 map.nodes[35754907] = SmellyTrashPile()
+map.nodes[42014541] = SmellyTrashPile()
 map.nodes[37056988] = SmellyTrashPile()
 map.nodes[37403969] = SmellyTrashPile()
 map.nodes[37458125] = SmellyTrashPile()
@@ -486,6 +496,7 @@ map.nodes[47104296] = SmellyTrashPile()
 map.nodes[49154325] = SmellyTrashPile()
 map.nodes[50326091] = SmellyTrashPile()
 map.nodes[51055710] = SmellyTrashPile()
+map.nodes[51224089] = SmellyTrashPile()
 map.nodes[51931544] = SmellyTrashPile()
 map.nodes[52562740] = SmellyTrashPile()
 map.nodes[57476456] = SmellyTrashPile()

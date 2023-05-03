@@ -737,7 +737,7 @@ L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Mass
 L['ancient_zaqali_chest_note'] = 'Use a nearby {object:Bottled Magma} to open the chest.'
 L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
 L['crystal_encased_chest_note'] = 'Interact with both the blue {object:Attunement Crystal} ({dot:Blue}) and red {object:Attunement Crystal} ({dot:Red}) to open the chest.'
-L['old_trunk_note'] = 'Collect and combine x5 {item:204325} to create {item:204323}.'
+L['old_trunk_note'] = 'To get {item:204323} and open {object:Old Trunk} you need to find {npc:204277} 5 times.'
 L['well_chewed_chest_note'] = 'The {item:202869}({dot:Green}) is hidden underneath the {npc:199962} within the cave.'
 
 L['molten_hoard_label'] = 'Molten Hoard'
