@@ -770,3 +770,8 @@ L['options_icons_smelly_trash_pile_desc'] = 'Zeigt die möglichen Positionen der
 
 L['seething_cache_treasure_note'] = nil
 L['chest_of_the_flights_treasure_note'] = nil
+
+L['options_icons_seething_orb'] = '{item:192779}'
+L['options_icons_seething_orb_desc'] = nil
+L['seething_orb_label'] = nil
+L['seething_orb_note'] = nil

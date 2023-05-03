@@ -798,3 +798,33 @@ map.nodes[58085381] = LoammVendor({
         Mount({item = 205209, id = 1736, note = 'x169 x99'}) -- Boulder Hauler
     }
 }) -- Ponzo <Barterer Extraordinaire>
+
+-------------------------------------------------------------------------------
+-------------------------------- SEETHING ORB ---------------------------------
+-------------------------------------------------------------------------------
+
+local SeethingOrb = Class('SeethingOrb', ns.node.Node, {
+    label = L['seething_orb_label'],
+    icon = 236300,
+    group = ns.groups.SEETHING_ORB,
+    note = L['seething_orb_note'],
+    rewards = {
+        Item({item = 192779}) -- Seeting Slug
+    }
+})
+
+map.nodes[30174002] = SeethingOrb()
+map.nodes[27654904] = SeethingOrb()
+map.nodes[25244480] = SeethingOrb()
+map.nodes[27955121] = SeethingOrb()
+map.nodes[28755530] = SeethingOrb()
+map.nodes[29954797] = SeethingOrb()
+map.nodes[30204000] = SeethingOrb()
+map.nodes[32735223] = SeethingOrb()
+map.nodes[34414571] = SeethingOrb()
+map.nodes[35634877] = SeethingOrb()
+map.nodes[36204401] = SeethingOrb()
+map.nodes[37594672] = SeethingOrb()
+map.nodes[35794139] = SeethingOrb()
+
+
