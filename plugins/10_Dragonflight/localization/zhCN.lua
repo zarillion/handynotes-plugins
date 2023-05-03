@@ -737,14 +737,14 @@ L['brulsef_the_stronk_note'] = '从 {object:丰盛收获宝箱} 拾取奖励。'
 L['ancient_zaqali_chest_note'] = '使用附近的 {object:瓶装岩浆} 打开宝箱。'
 L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
 L['crystal_encased_chest_note'] = '与蓝色 {object:调和水晶} {dot:Blue} 和红色 {object:调和水晶} {dot:Red} 一起互动打开宝箱。'
-L['old_trunk_note'] = '收集并组合5个 {item:204325} 创造 {item:204323}。'
+L['old_trunk_note'] = '拿到 {item:204323} 并打开 {object:古旧的宝箱} 需要找到 {npc:204277} 5次。'
 L['well_chewed_chest_note'] = '{item:202869} {dot:Green} 在洞穴内隐藏在 {npc:199962} 下面。'
 
 L['molten_hoard_label'] = '熔火宝藏'
 L['fealtys_reward_label'] = '忠诚的奖赏'
 L['fealtys_reward_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
 L['dreamers_bounty_label'] = '沉睡者的奖赏'
-L['dreamers_bounty_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['dreamers_bounty_note'] = '{object:沉睡者的奖赏} 只能在身上有来自附近 {npc:201068} 的 {spell:400066} 负面效果时被拾取。'
 L['moth_pilfered_pouch_label'] = '蛾子窃取的袋子'
 L['moth_pilfered_pouch_note'] = '帮助 {npc:203225} 通过“杂耍”飞行，直到它有5层 {spell:405358}。\n\n然后它会飞到袋子上展示。'
 L['waterlogged_bundle_label'] = '浸水的包裹'
@@ -755,7 +755,7 @@ L['nal_kskol_reliquary_label'] = '纳·克斯寇圣物匣'
 L['nal_kskol_reliquary_note'] = '使用 {object:圣物匣开启控制台} 并解开拼图以打开 {object:纳·克斯寇圣物匣}。'
 
 L['molten_scoutbot_note'] = '打开 {object:熔火斥候机器人} 并拾取 {item:204855}.'
-L['bolts_and_brass_note'] = '打开 {object:螺栓和黄铜} 并拾取 {item:204850}.'
+L['bolts_and_brass_note'] = '打开 {object:螺栓和黄铜} 并拾取 {item:204850}。'
 
 L['sniffen_sage_suffix'] = '找到特殊物品'
 
