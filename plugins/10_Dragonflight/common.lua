@@ -1726,4 +1726,5 @@ hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
             node:RenderRewards(GameTooltip)
         end
     end
+    GameTooltip:Show()
 end)
