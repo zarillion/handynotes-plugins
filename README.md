@@ -36,6 +36,10 @@ optional arguments:
 
 The `-c/--clean` argument will delete the corresponding HandyNotes plugin directories before installing the symlinks (useful if our file/folder structure changes). The `-u/--uninstall` argument will remove the plugin directories and then exit.
 
+## Development Documentation
+
+Documentation for the core modules can be found on the [HandyNotes Plugins Documentation](https://zarillion.github.io/handynotes-plugins/) site. These pages can help you understand how nodes are added to the maps and what capabilities each type of node and reward has.
+
 ## Development Options
 
 Once installed, development-only options can be enabled in each *individual* plugin by running an in-game script command. For example, to enable the development features and options for **HandyNotes: Dragonflight**:
