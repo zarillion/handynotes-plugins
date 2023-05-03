@@ -279,7 +279,7 @@ map.nodes[30044193] = Treasure({
 
 map.nodes[56040305] = Treasure({ -- location unknown
     quest = 75187,
-    note = L['chest_of_the_flights_treasure_note '] .. '\n\n' ..
+    note = L['chest_of_the_flights_treasure_note'] .. '\n\n' ..
         L['in_small_cave'],
     rewards = {
         Achievement({id = 17786, criteria = 59224}) -- Treasures of Zaralek Cavern
