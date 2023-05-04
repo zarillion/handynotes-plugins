@@ -742,7 +742,7 @@ L['well_chewed_chest_note'] = 'The {item:202869}({dot:Green}) is hidden undernea
 
 L['molten_hoard_label'] = 'Molten Hoard'
 L['fealtys_reward_label'] = 'Fealty\'s Reward'
-L['fealtys_reward_note'] = 'Kneel (/kneel) in front of the dragon statue in the southwest until it breathes fire to be able to open the chest.'
+L['fealtys_reward_note'] = 'Kneel {emote:/kneel} in front of the dragon statue in the southwest until it breathes fire to be able to open the chest.'
 L['dreamers_bounty_label'] = 'Dreamer\'s Bounty'
 L['dreamers_bounty_note'] = 'The {object:Dreamers\'s Bounty} can only be looted while you have the {spell:400066} debuff on you which you get from {npc:201068} nearby.'
 L['moth_pilfered_pouch_label'] = 'Moth-Pilfered Pouch'

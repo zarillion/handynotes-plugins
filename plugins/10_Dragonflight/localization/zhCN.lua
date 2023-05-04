@@ -735,14 +735,14 @@ L['in_deepflayer_nest'] = '位于 {location:深岩剥石者之巢}'
 L['brulsef_the_stronk_note'] = '从 {object:丰盛收获宝箱} 拾取奖励。'
 
 L['ancient_zaqali_chest_note'] = '使用附近的 {object:瓶装岩浆} 打开宝箱。'
-L['blazing_shadowflame_chest_note'] = '{bug:The shadowflame is too strong to bear.}' -- DEV NOTE - Do not translate
+L['blazing_shadowflame_chest_note'] = '装备 {item:15138}，可以从拍卖行购买或由制皮制作，以拾取宝箱。'
 L['crystal_encased_chest_note'] = '与蓝色 {object:调和水晶} {dot:Blue} 和红色 {object:调和水晶} {dot:Red} 一起互动打开宝箱。'
-L['old_trunk_note'] = '拿到 {item:204323} 并打开 {object:古旧的宝箱} 需要找到 {npc:204277} 5次。'
+L['old_trunk_note'] = '寻找并收集 {npc:204277} 5次，获得 {item:204323}。{note:第一只老鼠在箱子旁边。}'
 L['well_chewed_chest_note'] = '{item:202869} {dot:Green} 在洞穴内隐藏在 {npc:199962} 下面。'
 
 L['molten_hoard_label'] = '熔火宝藏'
 L['fealtys_reward_label'] = '忠诚的奖赏'
-L['fealtys_reward_note'] = '{bug:Currently bugged.}' -- DEV NOTE - Do not translate
+L['fealtys_reward_note'] = '跪 {emote:/下跪}，{emote:/kneel} 在西南的龙雕像前，直到它喷火才能打开宝箱。'
 L['dreamers_bounty_label'] = '沉睡者的奖赏'
 L['dreamers_bounty_note'] = '{object:沉睡者的奖赏} 只能在身上有来自附近 {npc:201068} 的 {spell:400066} 负面效果时被拾取。'
 L['moth_pilfered_pouch_label'] = '蛾子窃取的袋子'
