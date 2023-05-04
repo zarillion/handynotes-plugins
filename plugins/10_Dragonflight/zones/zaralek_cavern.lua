@@ -526,7 +526,12 @@ map.nodes[62154115] = PT.Alchemy({id = 205212, quest = 75649}) -- Marrow-Ripened
 
 map.nodes[36674615] = PT.Inscription({id = 206031, quest = nil}) -- Intricate Zaqali Runes
 map.nodes[53007440] = PT.Inscription({id = 206034, quest = nil}) -- Hissing Rune Draft
-map.nodes[54005500] = PT.Inscription({id = 206035, quest = nil}) -- Ancient Research
+map.nodes[54472026] = PT.Inscription({
+    id = 206035,
+    quest = nil,
+    note = L['in_cave'],
+    pois = {POI({52781885})}
+}) -- Ancient Research
 
 map.nodes[34504542] = PT.Jewelcrafting({id = 205216, quest = 75653}) -- Gently Jostled Jewels
 map.nodes[40378070] = PT.Jewelcrafting({id = 205214, quest = nil}) -- Snubbed Snail Shells
