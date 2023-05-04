@@ -44,6 +44,7 @@ map.nodes[56247389] = Rare({
     id = 203515,
     vignette = 5643,
     quest = 75284,
+    note = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59188}), -- Adventurer of Zaralek Cavern
         Transmog({item = 205097, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
@@ -143,7 +144,7 @@ map.nodes[28515115] = Rare({
 
 map.nodes[42226524] = Rare({
     id = 203625,
-    vignette = nil,
+    vignette = 5653,
     quest = 75333,
     rewards = {
         Achievement({id = 17783, criteria = 59199}), -- Adventurer of Zaralek Cavern
@@ -301,7 +302,7 @@ map.nodes[30044193] = Treasure({
     }
 }) -- Charred Egg
 
-map.nodes[56040305] = Treasure({ -- location unknown
+map.nodes[56040305] = Treasure({
     quest = 75187,
     note = L['chest_of_the_flights_treasure_note'] .. '\n\n' ..
         L['in_small_cave'],
@@ -386,7 +387,7 @@ map.nodes[48411636] = Treasure({
     quest = 75515,
     location = L['in_small_cave'],
     rewards = {
-        Transmog({item = 205981, slot = L['sword']}) -- Molten Primal Fang
+        Transmog({item = 205981, slot = L['cosmetic']}) -- Molten Primal Fang
     }
 }) -- Molten Hoard
 

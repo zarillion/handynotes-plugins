@@ -742,7 +742,7 @@ L['well_chewed_chest_note'] = 'Der {item:202869}({dot:Green}) ist unter {npc:199
 
 L['molten_hoard_label'] = 'Geschmolzener Schatz'
 L['fealtys_reward_label'] = 'Belohnung der Treue'
-L['fealtys_reward_note'] = 'Knie (/knien) vor der Drachenstatue im Südwesten, bis diese Feuer spuckt, um die Truhe öffnen zu können.'
+L['fealtys_reward_note'] = 'Knie {emote:(/knien)} vor der Drachenstatue im Südwesten, bis diese Feuer spuckt, um die Truhe öffnen zu können.'
 L['dreamers_bounty_label'] = 'Belohnung des Träumers'
 L['dreamers_bounty_note'] = 'Greife eine {npc:201068} an und warte bis diese den Schwächungszauber {spell:400066} auf dich wirkt, um die Truhe öffnen zu können.'
 L['moth_pilfered_pouch_label'] = 'Von Motten geplünderte Tasche'
@@ -752,7 +752,7 @@ L['waterlogged_bundle_label'] = 'Durchnässtes Bündel'
 L['stolen_stash_label'] = 'Gestohlenes Lager'
 L['ritual_offering_label'] = 'Ritualopfergaben'
 L['nal_kskol_reliquary_label'] = 'Reliquiar von Nal ks\'kol'
-L['nal_kskol_reliquary_note'] = 'Benutze die {object:Reliquary Access Console} und löse das Rätsel, um das {object:Reliquiar von Nal ks\'kol} zu öffnen.' -- todo: translate object name
+L['nal_kskol_reliquary_note'] = 'Benutze die {object:Reliquiarzugriffskonsole} und löse das Rätsel, um das {object:Reliquiar von Nal ks\'kol} öffnen zu können.'
 
 L['molten_scoutbot_note'] = 'Öffne das {object:Molten Scoutbot} und plündere {item:204855}.' -- todo: translate chest name
 L['bolts_and_brass_note'] = 'Öffne {object:Bolts and Brass} und plündere {item:204850}.' -- todo: translate chest name
@@ -768,5 +768,5 @@ L['smelly_trash_pile_label'] = 'Stinkender Müllhaufen'
 L['options_icons_smelly_trash_pile'] = 'Stinkender Müllhaufen'
 L['options_icons_smelly_trash_pile_desc'] = 'Zeigt die möglichen Positionen der {object:Stinkenden Müllhaufen} an.'
 
-L['seething_cache_treasure_note'] = 'Sammle von {object:Seething Orbs} 3x Stapel des {spell:399342} Schwächungszaubers, um die Truhe sehen und öffnen zu können.'
+L['seething_cache_treasure_note'] = 'Sammle von {object:Brodelnde Kugel} 3x Stapel des Schwächungszaubers {spell:399342} (1 Stunde), um die Truhe sehen und öffnen zu können.'
 L['chest_of_the_flights_treasure_note'] = 'Aktiviere {object:Ermächtigter Edelsteine} in der Reihenfolge {note:Rot > Schwarz > Blau > Gelb > Grün}, um die Truhe öffnen zu können.'
