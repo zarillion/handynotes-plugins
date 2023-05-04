@@ -307,7 +307,10 @@ map.nodes[56040305] = Treasure({
     note = L['chest_of_the_flights_treasure_note'] .. '\n\n' ..
         L['in_small_cave'],
     rewards = {
-        Achievement({id = 17786, criteria = 59224}) -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59224}), -- Treasures of Zaralek Cavern
+        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
     }
 }) -- Chest of the Flights
 
@@ -316,7 +319,10 @@ map.nodes[36397425] = Treasure({
     quest = {74987, 75559, 75601, 73697, 74986},
     rewards = {
         Achievement({id = 17786, criteria = 59228}), -- Treasures of Zaralek Cavern
-        Item({item = 204985}) -- Barter Brick
+        Item({item = 204985}), -- Barter Brick
+        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
     },
     pois = {
         POI({color = 'Blue', points = {37756886}}), -- Attunement Crystal
@@ -388,13 +394,19 @@ map.nodes[48411636] = Treasure({
     location = L['in_small_cave'],
     rewards = {
         Transmog({item = 205981, slot = L['cosmetic']}) -- Molten Primal Fang
-    }
+    },
+    pois = {POI({48411819})}
 }) -- Molten Hoard
 
 map.nodes[48451083] = Treasure({
     label = L['fealtys_reward_label'],
     quest = 75514,
     note = L['fealtys_reward_note'],
+    rewards = {
+        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    },
     pois = {POI({43642300})} -- Dragon statue
 }) -- Fealty's Reward
 
@@ -408,6 +420,11 @@ map.nodes[56734868] = Treasure({
     label = L['moth_pilfered_pouch_label'],
     quest = 75320,
     note = L['moth_pilfered_pouch_note'],
+    rewards = {
+        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    },
     pois = {POI({56664934})} -- Struggling Mothling
 }) -- Moth-Pilfered Pouch
 
@@ -436,14 +453,27 @@ map.nodes[64197495] = Treasure({
 
 ------------------------------ RANDOM TREASURES -------------------------------
 
-map.nodes[60664622] = Treasure({label = L['stolen_stash_label'], quest = 75302})
+map.nodes[60664622] = Treasure({
+    label = L['stolen_stash_label'],
+    quest = 75302,
+    rewards = {
+        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+}) -- Stolen Stash
 
 deepflayerNest.nodes[63698291] = Treasure({
     label = L['stolen_stash_label'],
     quest = 75303,
     location = L['in_deepflayer_nest'],
+    rewards = {
+        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    },
     parent = {id = map.id, pois = {POI({61463864})}}
-})
+}) -- Stolen Stash
 
 local RitualOffering = Class('RitualOffering', Treasure, {
     label = L['ritual_offering_label'],
@@ -473,12 +503,14 @@ map.nodes[38174991] = RitualOffering({quest = 73548})
 map.nodes[40015127] = RitualOffering({quest = 73548})
 map.nodes[41054876] = RitualOffering({quest = 73548})
 map.nodes[41694457] = RitualOffering({quest = 73548})
+map.nodes[41924712] = RitualOffering({quest = 73548}) -- 75814
 
 local SmellyTrashPile = Class('SmellyTrashPile', ns.node.Node, {
     label = L['smelly_trash_pile_label'],
     icon = 'chest_gn',
     group = ns.groups.SMELLY_TRASH_PILE,
     rewards = {
+        DC.WindingSlitherdrake.SpikedChin, --
         Currency({id = 2245}), -- Flightstones
         Item({item = 192055}), -- Dragon Isles Artifact
         Currency({id = 2003}) -- Dragon Isles Supplies

@@ -1349,6 +1349,7 @@ map.nodes[86084606] = Scoutpack()
 map.nodes[86323937] = Scoutpack()
 map.nodes[86483680] = Scoutpack()
 map.nodes[87256074] = Scoutpack()
+map.nodes[87573657] = Scoutpack()
 map.nodes[91393390] = Scoutpack()
 
 -------------------------------------------------------------------------------
