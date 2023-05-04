@@ -740,7 +740,7 @@ L['well_chewed_chest_note'] = 'La {item:202869}({dot:Green}) est cachée sous la
 
 L['molten_hoard_label'] = 'Butin en fusion'
 L['fealtys_reward_label'] = 'Récompense de loyauté'
-L['fealtys_reward_note'] = 'Agenouillez-vous (/genou) devant la statue de dragon au sud-ouest jusqu\'à ce qu\'elle crache du feu, pour pouvoir ouvrir le coffre.'
+L['fealtys_reward_note'] = 'Agenouillez-vous {emote:/genou} devant la statue de dragon au sud-ouest jusqu\'à ce qu\'elle crache du feu, pour pouvoir ouvrir le coffre.'
 L['dreamers_bounty_label'] = 'Butin de la Rêveuse'
 L['dreamers_bounty_note'] = 'Le {object:Butin de la Rêveuse} ne peut être récupéré que si vous avez le debuff {spell:400066} sur vous, obtenu à partir des {npc:201068} à proximité.'
 L['moth_pilfered_pouch_label'] = 'Bourse volée par les phalènes'
