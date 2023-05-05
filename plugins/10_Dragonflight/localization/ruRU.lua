@@ -770,4 +770,4 @@ L['options_icons_smelly_trash_pile'] = 'Пахучая куча мусора'
 L['options_icons_smelly_trash_pile_desc'] = 'Показать возможные местоположения {object:Пахучих куч мусора}.'
 
 L['seething_cache_treasure_note'] = 'Чтобы иметь возможность увидеть {object:Дымящийся тайник} и получить {item:192779}, вам нужно собрать 3 стака {spell:399342} дебаффа от {object:Дымящихся сфер}, расположенных в области {location:Кальдера Закали} в {location:пещере Заралек}.'
-L['chest_of_the_flights_treasure_note'] = 'To open the treasure chest you need to click on the {object:Empowered Gems} in the order {note:Red > Black > Blue > Yellow > Green}.'
+L['chest_of_the_flights_treasure_note'] = 'Чтобы открыть сундук с сокровищами, вам нужно нажать на {object:Усиленные самоцветы} в следующем порядке {note:Красный > Черный > Синий > Желтый > Зеленый}.'
