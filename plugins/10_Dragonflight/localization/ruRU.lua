@@ -746,8 +746,8 @@ L['fealtys_reward_label'] = 'Награда за верность'
 L['fealtys_reward_note'] = 'Встаньте на колени {emote:/колени} перед статуей дракона на юго-западе, пока она не выдохнет огонь, чтобы открыть сундук.'
 L['dreamers_bounty_label'] = 'Дар Дремлющей'
 L['dreamers_bounty_note'] = '{object:Дар Дремлющей} можно получить, только пока на вас действует дебафф {spell:400066}, который вы получаете от {npc:201068} поблизости.'
-L['moth_pilfered_pouch_label'] = nil
-L['moth_pilfered_pouch_note'] = nil
+L['moth_pilfered_pouch_label'] = 'Чародейски барьер Кадгара'
+L['moth_pilfered_pouch_note'] = 'Помогите {npc:203225} взлететь, "жонглируя" им, пока у него не накопится пять стаков {spell:405358}.\n\nЗатем он полетит к сумке и откроет ее вам.'
 L['waterlogged_bundle_label'] = 'Промокшая котомка'
 
 L['stolen_stash_label'] = 'Похищенные припасы'
