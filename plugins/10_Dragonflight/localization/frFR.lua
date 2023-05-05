@@ -750,7 +750,7 @@ L['waterlogged_bundle_label'] = 'Paquet détrempé'
 L['stolen_stash_label'] = 'Butin volé'
 L['ritual_offering_label'] = 'Offrandes rituelles'
 L['options_icons_ritual_offering'] = 'Offrandes rituelles'
-L['options_icons_ritual_offering_desc'] = nil
+L['options_icons_ritual_offering_desc'] = 'Afficher les emplacements possibles des {object:Offrandes rituelles}.'
 L['nal_kskol_reliquary_label'] = 'Reliquaire de Nak Ks\'sol'
 L['nal_kskol_reliquary_note'] = 'Utilisez la {object:Console d\'accès au reliquaire} et résolvez l\'énigme pour ouvrir le {object:Reliquaire de Nak Ks\'sol}.'
 
