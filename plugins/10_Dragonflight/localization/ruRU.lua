@@ -741,11 +741,11 @@ L['crystal_encased_chest_note'] = nil
 L['old_trunk_note'] = 'Найдите и соберите {npc:204277} 5 раз, чтобы получить {item:204323}. {note:Первая мышь рядом с сундуком.}'
 L['well_chewed_chest_note'] = '{item:202869}({dot:Green}) спрятан под {npc:199962} в пещере.'
 
-L['molten_hoard_label'] = nil
-L['fealtys_reward_label'] = nil
-L['fealtys_reward_note'] = nil
-L['dreamers_bounty_label'] = nil
-L['dreamers_bounty_note'] = nil
+L['molten_hoard_label'] = 'Раскаленные сокровища'
+L['fealtys_reward_label'] = 'Награда за верность'
+L['fealtys_reward_note'] = 'Встаньте на колени {emote:/колени} перед статуей дракона на юго-западе, пока она не выдохнет огонь, чтобы открыть сундук.'
+L['dreamers_bounty_label'] = 'Дар Дремлющей'
+L['dreamers_bounty_note'] = '{object:Дар Дремлющей} можно получить, только пока на вас действует дебафф {spell:400066}, который вы получаете от {npc:201068} поблизости.'
 L['moth_pilfered_pouch_label'] = nil
 L['moth_pilfered_pouch_note'] = nil
 L['waterlogged_bundle_label'] = nil
