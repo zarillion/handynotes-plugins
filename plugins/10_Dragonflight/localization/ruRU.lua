@@ -748,12 +748,12 @@ L['dreamers_bounty_label'] = 'Дар Дремлющей'
 L['dreamers_bounty_note'] = '{object:Дар Дремлющей} можно получить, только пока на вас действует дебафф {spell:400066}, который вы получаете от {npc:201068} поблизости.'
 L['moth_pilfered_pouch_label'] = nil
 L['moth_pilfered_pouch_note'] = nil
-L['waterlogged_bundle_label'] = nil
+L['waterlogged_bundle_label'] = 'Промокшая котомка'
 
-L['stolen_stash_label'] = nil
-L['ritual_offering_label'] = nil
-L['nal_kskol_reliquary_label'] = nil
-L['nal_kskol_reliquary_note'] = nil
+L['stolen_stash_label'] = 'Похищенные припасы'
+L['ritual_offering_label'] = 'Ритуальное подношение'
+L['nal_kskol_reliquary_label'] = 'Реликварий Нал-кс\'кола'
+L['nal_kskol_reliquary_note'] = 'Воспользуйтесь {object:Консолью доступа к реликварию} и решите головоломку, чтобы открыть {object:Реликварий Нал-кс\'кола}.'
 
 L['molten_scoutbot_note'] = nil
 L['bolts_and_brass_note'] = nil
