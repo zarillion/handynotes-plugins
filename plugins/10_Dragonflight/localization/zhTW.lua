@@ -772,3 +772,4 @@ L['options_icons_smelly_trash_pile_desc'] = '顯示 {object:臭臭垃圾堆} 可
 
 L['seething_cache_treasure_note'] = '要能夠看到 {object:沸騰貯藏箱} 並拾取 {item:192779}. 你需要在 {location:扎拉萊克洞窟} 的 {location:薩克利火山口} 內, 從 {object:沸騰寶珠} 上取得3層 {spell:399342} 減益.'
 L['chest_of_the_flights_treasure_note'] = '要開啟寶箱你必須按照順序點選 {object:Empowered Gems} {note:紅> 黑 > 藍 > 黃 > 綠}.'
+L['curious_top_hat_note'] = nil

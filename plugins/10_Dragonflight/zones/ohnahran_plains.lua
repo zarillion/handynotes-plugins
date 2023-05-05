@@ -223,7 +223,6 @@ map.nodes[58604940] = Rare({
     rewards = {
         Achievement({
             id = 16677,
-            vignette = nil,
             criteria = {
                 {id = 56081}, -- Nokhud Warmaster
                 {id = 56096}, -- Old Stormhide

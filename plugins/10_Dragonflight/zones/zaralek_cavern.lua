@@ -885,6 +885,22 @@ map.nodes[44257993] = Briggul()
 --     }
 -- }) -- Shimmershell Snail
 
+----------------------------- PET: LORD STANTLEY ------------------------------
+
+local CuriousTopHat = Class('CuriousTopHat', Collectible, {
+    id = 205010,
+    icon = 5008076,
+    note = L['curious_top_hat_note'],
+    fgroup = 'CuriousTopHat',
+    rewards = {
+        Pet({item = 205021, id = 3521}) -- Lord Stantley
+    }
+})
+
+map.nodes[38866432] = CuriousTopHat()
+map.nodes[43967748] = CuriousTopHat()
+map.nodes[51586689] = CuriousTopHat()
+
 -------------------------------------------------------------------------------
 
 local LoammVendor = Class('LoammVendor', Collectible,

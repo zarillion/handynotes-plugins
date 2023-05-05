@@ -351,8 +351,8 @@ L['neltharions_toolkit_note'] = [[
 
 3. Repariere {object:Defektes Portal} in der Höhle neben {npc:193310}.
 
-4. Teleportiere dich damit in einen geheimen Raum im {location:Gewölbe von Zskera}. Töte dort {npc:200375} und {npc:203639}, um die {object:Obsidian Grand Cache} für deine Beute öffnen zu können.
-]] -- TODO Obsidian Grand Cache
+4. Teleportiere dich damit in einen geheimen Raum im {location:Gewölbe von Zskera}. Töte dort {npc:200375} und {npc:203639}, um die {object:Große Obsidiantruhe} für deine Beute öffnen zu können.
+]]
 
 L['recipe_rat_note_1'] = 'Sprich mit {npc:202982} im {location:Gewölbe von Zskera} und du erhältst {item:202252}.'
 L['recipe_rat_note_2'] = 'Interagiere mit {item:202252}, um {item:204340} zu erhalten. {note:(5 Minute Abklingzeit)}'
@@ -732,7 +732,7 @@ L['phoenix_wishwing_info'] = 'Dies ist teil des {item:193373} in {location:Küst
 
 L['in_deepflayer_nest'] = 'Im {location:Tiefenschindernest}.'
 
-L['brulsef_the_stronk_note'] = 'Du erhältst deine Belohnung aus der {object:Chest of Massive Gains}.' -- todo: translate chest name
+L['brulsef_the_stronk_note'] = 'Du erhältst deine Belohnung aus der {object:Truhe der massiven Muckis}.'
 
 L['ancient_zaqali_chest_note'] = 'Benutze das {object:Abgefüllte Magma} in der Nähe, um die Kiste zu öffnen.'
 L['blazing_shadowflame_chest_note'] = 'Lege den {item:15138} an, der im Auktionshaus gekauft oder von einem Lederverarbeiter hergestellt werden kann, um die Truhe öffnen zu können.'
@@ -756,8 +756,8 @@ L['options_icons_ritual_offering_desc'] = 'Zeigt die möglichen Positionen von {
 L['nal_kskol_reliquary_label'] = 'Reliquiar von Nal ks\'kol'
 L['nal_kskol_reliquary_note'] = 'Benutze die {object:Reliquiarzugriffskonsole} und löse das Rätsel, um das {object:Reliquiar von Nal ks\'kol} öffnen zu können.'
 
-L['molten_scoutbot_note'] = 'Öffne das {object:Molten Scoutbot} und plündere {item:204855}.' -- todo: translate chest name
-L['bolts_and_brass_note'] = 'Öffne {object:Bolts and Brass} und plündere {item:204850}.' -- todo: translate chest name
+L['molten_scoutbot_note'] = 'Öffne den {object:Geschmolzenen Späherbot} und plündere {item:204855}.'
+L['bolts_and_brass_note'] = 'Öffne {object:Bolzen und Bronze} und plündere {item:204850}.'
 
 L['sniffen_sage_suffix'] = 'Spezialgegenstände erschnüffelt'
 
@@ -772,3 +772,4 @@ L['options_icons_smelly_trash_pile_desc'] = 'Zeigt die möglichen Positionen der
 
 L['seething_cache_treasure_note'] = 'Sammle von {object:Brodelnde Kugel} 3x Stapel des Schwächungszaubers {spell:399342} (1 Stunde), um die Truhe sehen und öffnen zu können.'
 L['chest_of_the_flights_treasure_note'] = 'Aktiviere {object:Ermächtigter Edelsteine} in der Reihenfolge {note:Rot > Schwarz > Blau > Gelb > Grün}, um die Truhe öffnen zu können.'
+L['curious_top_hat_note'] = 'Interagiere mit {npc:205010} während du den {spell:410288} Stärkungszauber auf dir hast um {item:205021} zu erhalten. Wenn du den Stärkungszauber nicht hast wird er weglaufen.'

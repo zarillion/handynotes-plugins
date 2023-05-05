@@ -397,7 +397,6 @@ map.nodes[58813260] = Rare({
     rewards = {
         Achievement({
             id = 16678,
-            vignette = nil,
             criteria = {
                 {id = 56129, quest = 73891}, -- Ravenous Tundra Bear
                 {id = 56116, quest = 74080} -- Snufflegust
