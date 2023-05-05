@@ -578,7 +578,7 @@ map.nodes[36666933] = PT.Enchanting({id = 205001, quest = 75510}) -- Resonating 
 map.nodes[48251702] = PT.Enchanting({id = 204990, quest = 75508}) -- Lava-Drenched Shadow Crystal
 map.nodes[62395380] = PT.Enchanting({id = 204999, quest = 75509}) -- Shimmering Aqueous Orb
 
-map.nodes[37825884] = PT.Engineering({id = 204471, quest = nil}) -- Defective Survival Pack
+map.nodes[50504790] = PT.Engineering({id = 204471, quest = nil}) -- Defective Survival Pack
 map.nodes[37825884] = PT.Engineering({id = 204475, quest = 75186}) -- Busted Wyrmhole Generator
 map.nodes[48101659] = PT.Engineering({
     id = 204855,
