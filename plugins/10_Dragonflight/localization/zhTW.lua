@@ -700,56 +700,73 @@ L['dragonbane_siege_label'] = '{spell:388945}'
 L['options_icons_dragonbane_siege'] = '{spell:388945}'
 L['options_icons_dragonbane_siege_desc'] = '顯示 {spell:388945} 的位置和獎勵.'
 
-L['phoenix_wishwing_note'] = nil
-L['phoenix_wishwing_talisman'] = nil
-L['phoenix_wishwing_phoenix_ember'] = nil
-L['phoenix_wishwing_sacred_ash'] = nil
-L['phoenix_wishwing_inert_ash'] = nil
-L['phoenix_wishwing_smoldering_ash'] = nil
-L['phoenix_wishwing_ash_feather'] = nil
-L['phoenix_wishwing_info'] = nil
+L['phoenix_wishwing_note'] = [[
+在取得 {item:199203} 後, {npc:196214} 會提供一個獎勵 {item:193373} 的可回報任務.
+要完成這個任務, 你需要下列的東西 (你可以以任意順序取得):
+]]
+L['phoenix_wishwing_talisman'] = [[
+%s {item:199203}
+
+此物品由 {location:阿拉卡山} 的 {npc:88045} {dot:Gold} 出售. 如果找不到 {npc:88045}, 請完成 {quest:35010} 後就能看到他.
+你需要下列物品來購買它:]]
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\n在 {location:時光漫遊火源之界} 的 {npc:52530} 掉落.'
+L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\n可以在 {location:阿拉卡山} 附近的 {object:烹飪鍋} 找到.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\n由 {location:安戈洛環形山} {dot:Gray} 中間的 {npc:6520} 稀有掉落. 和 {npc:6521} 共享重生點(但是不會掉落物品), 所以請殺掉兩者.'
+L['phoenix_wishwing_smoldering_ash'] = [[
+%s {item:199080}
+
+在 {location:巨龍群島} 上農各種 {npc:鳳凰} {dot:Yellow}. 例如 {npc:181764} 和 {npc:195448}.
+通常可以在 {location:甦醒海岸} 的 {location:黑曜龍堡} 附近找到.
+]]
+L['phoenix_wishwing_ash_feather'] = [[
+%s {item:202062}
+
+要看到 {object:羽毛} 你需要從 {location:甦醒海岸} 的 {location:黑曜王座} 裡的 {npc:189207} {dot:Green} 購買 {item:199177}.
+使用項鍊並撿起在 {location:黑曜龍堡} 附近的 {location:熾烈高地} 和 {location:熔渣泥沼} 可以找到的 {item:202062} {dot:Red}.
+]]
+L['phoenix_wishwing_info'] = '這是位於 {location:巨龍群島} 上 {location:甦醒海岸} 的收藏品 {item:193373} 的一部分.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
 
-L['in_deepflayer_nest'] = nil
+L['in_deepflayer_nest'] = '在 {location:深岩剝石怪巢穴} 內'
 
-L['brulsef_the_stronk_note'] = nil
+L['brulsef_the_stronk_note'] = '從 {object:巨型收穫寶箱} 拾取你的獎勵.'
 
-L['ancient_zaqali_chest_note'] = nil
-L['blazing_shadowflame_chest_note'] = nil
-L['crystal_encased_chest_note'] = nil
-L['old_trunk_note'] = nil
-L['well_chewed_chest_note'] = nil
+L['ancient_zaqali_chest_note'] = '使用附近的 {object:瓶裝熔岩} 來打開箱子.'
+L['blazing_shadowflame_chest_note'] = '裝備 {item:15138} 來拾取箱子, 可以從拍賣場購買或是由製皮製造.'
+L['crystal_encased_chest_note'] = '和藍色 {object:調諧水晶} ({dot:Blue}) 與紅色 {object:調諧水晶} ({dot:Red}) 互動來開啟箱子.'
+L['old_trunk_note'] = '找到並點選 {npc:204277} 5次, 來取得 {item:204323}. {note:第一隻老鼠在箱子附近}'
+L['well_chewed_chest_note'] = '{item:202869}({dot:Green}) 藏在山洞裡的 {npc:199962} 下面.'
 
-L['molten_hoard_label'] = nil
-L['fealtys_reward_label'] = nil
-L['fealtys_reward_note'] = nil
-L['dreamers_bounty_label'] = nil
-L['dreamers_bounty_note'] = nil
-L['moth_pilfered_pouch_label'] = nil
-L['moth_pilfered_pouch_note'] = nil
-L['waterlogged_bundle_label'] = nil
+L['molten_hoard_label'] = '熔火貯藏'
+L['fealtys_reward_label'] = '效忠獎勵'
+L['fealtys_reward_note'] = '跪 {emote:/kneel} 在西南方的龍雕像前面直到他噴火後才能打開箱子'
+L['dreamers_bounty_label'] = '夢旅者的獎賞'
+L['dreamers_bounty_note'] = '{object:夢旅者的獎賞} 只有在你從附近的 {npc:201068} 獲得 {spell:400066} 減益時才能被拾取.'
+L['moth_pilfered_pouch_label'] = '飛蛾偷竊的小包'
+L['moth_pilfered_pouch_note'] = '接住 {npc:203225} 讓他有5層的 {spell:405358} 來幫助它飛行.\n\n之後它會飛到袋子附近並揭露給你.'
+L['waterlogged_bundle_label'] = '浸濕的包裹'
 
-L['stolen_stash_label'] = nil
-L['ritual_offering_label'] = nil
-L['nal_kskol_reliquary_label'] = nil
-L['nal_kskol_reliquary_note'] = nil
+L['stolen_stash_label'] = '偷取的儲物箱'
+L['ritual_offering_label'] = '儀式祭品'
+L['nal_kskol_reliquary_label'] = '納克斯科聖匣'
+L['nal_kskol_reliquary_note'] = '使用 {object:聖匣存取控制臺} 並解開謎題來開啟 {object:納克斯科聖匣}.'
 
-L['molten_scoutbot_note'] = nil
-L['bolts_and_brass_note'] = nil
+L['molten_scoutbot_note'] = '開啟 {object:熔火偵查機器人} 並拾取 {item:204855}.'
+L['bolts_and_brass_note'] = '開啟 {object:螺栓與黃銅} 並拾取 {item:204850}.'
 
-L['sniffen_sage_suffix'] = nil
+L['sniffen_sage_suffix'] = '特殊物品已發現'
 
-L['big_slick_note_1'] = nil
+L['big_slick_note_1'] = '可以在舊世界的 {location:黑海岸} 找到 {npc:48182}. 和 {npc:141489} 交談以回到 {location:荊棘之戰} 之前的時間.'
 
-L['saccratos_note'] = nil
-L['ponzo_note'] = nil
+L['saccratos_note'] = '用 {item:204727} 交換寵物, 坐騎和更多東西.'
+L['ponzo_note'] = '用 {item:204985} 和 {item:205903} 交換飛龍自訂, 寵物, 坐騎和更多東西.'
 
-L['smelly_trash_pile_label'] = nil
-L['options_icons_smelly_trash_pile'] = nil
-L['options_icons_smelly_trash_pile_desc'] = nil
+L['smelly_trash_pile_label'] = '臭臭垃圾堆'
+L['options_icons_smelly_trash_pile'] = '臭臭垃圾堆'
+L['options_icons_smelly_trash_pile_desc'] = '顯示 {object:臭臭垃圾堆} 可能的位置.'
 
-L['seething_cache_treasure_note'] = nil
-L['chest_of_the_flights_treasure_note'] = nil
+L['seething_cache_treasure_note'] = '要能夠看到 {object:沸騰貯藏箱} 並拾取 {item:192779}. 你需要在 {location:扎拉萊克洞窟} 的 {location:薩克利火山口} 內, 從 {object:沸騰寶珠} 上取得3層 {spell:399342} 減益.'
+L['chest_of_the_flights_treasure_note'] = '要開啟寶箱你必須按照順序點選 {object:Empowered Gems} {note:紅> 黑 > 藍 > 黃 > 綠}.'
