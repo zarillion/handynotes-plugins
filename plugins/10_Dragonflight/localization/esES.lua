@@ -753,7 +753,7 @@ L['waterlogged_bundle_label'] = 'Fardo Empapado'
 L['stolen_stash_label'] = 'Alijo Robado'
 L['ritual_offering_label'] = 'Ofrendas Rituales'
 L['options_icons_ritual_offering'] = 'Ofrendas Rituales'
-L['options_icons_ritual_offering_desc'] = nil
+L['options_icons_ritual_offering_desc'] = 'Muestra dónde pueden haber {object:Ofrendas Rituales}.'
 L['nal_kskol_reliquary_label'] = 'Relicario de Nal ks\'kol'
 L['nal_kskol_reliquary_note'] = 'Usa la {object:Consola de Acceso al Relicario} y resuelve el puzzle para abrir el {object:Relicario de Nal ks\'kol}.'
 
