@@ -236,13 +236,13 @@ Töte dann {npc:197183} in der Höhle, um {item:200528} zu erhalten.
 ]]
 
 L['gethdazr_note'] = [[
-Erscheint als Teil eines Events in {location:Imbu} welches durch das blasen des {object:Großen Horns von Imbu} gestartet wird.({dot:Blue})
-Das Horn kann erst angeklicht werden nachdem der {npc:Wütende Luftelementar} besiegt wurde. Dieser hat eine Respawn Zeit von ca. 30-60 Minuten.
+Erscheint als Teil eines Events in {location:Imbu}, welches durch das blasen des {object:Großen Horns von Imbu} gestartet wird.({dot:Blue})
+Das Horn kann erst angeklickt werden, nachdem der {npc:Wütende Luftelementar} besiegt wurde. Dieser hat eine Wiedererscheinungszeit von ca. 30-60 Minuten.
 
-{npc:191143}({dot:Green}) und andere NPCs kämpfen sich dann vom nordöstlichen Eingang von {location:Imbu} bis zur Klippe vor, wo {npc:196165} dann spawnen wird.
-Die NPCs können sterben wenn du ihnen nicht hilfst, dadurch wird das Event fehlschlagen.
+{npc:191143}({dot:Green}) und andere NPCs kämpfen sich dann vom nordöstlichen Eingang von {location:Imbu} bis zur Klippe vor, an dieser {npc:196165} erscheinen wird.
+Die NPCs können sterben, wenn du ihnen nicht hilfst, dadurch wird das Event fehlschlagen.
 
-Das Event kann alleine geschafft werden, 2-3 Spieler sind aber empfohlen.
+Das Event kann alleine abgeschlossen werden, allerdings sind 2-3 Spieler empfehlenswert.
 ]]
 
 L['tuskarr_chest'] = 'Kiste der Tuskarr'
@@ -772,4 +772,4 @@ L['options_icons_smelly_trash_pile_desc'] = 'Zeigt die möglichen Positionen der
 
 L['seething_cache_treasure_note'] = 'Sammle von {object:Brodelnde Kugel} 3x Stapel des Schwächungszaubers {spell:399342} (1 Stunde), um die Truhe sehen und öffnen zu können.'
 L['chest_of_the_flights_treasure_note'] = 'Aktiviere {object:Ermächtigter Edelsteine} in der Reihenfolge {note:Rot > Schwarz > Blau > Gelb > Grün}, um die Truhe öffnen zu können.'
-L['curious_top_hat_note'] = 'Interagiere mit {npc:205010} während du den {spell:410288} Stärkungszauber auf dir hast um {item:205021} zu erhalten. Wenn du den Stärkungszauber nicht hast wird er weglaufen.'
+L['curious_top_hat_note'] = 'Interagiere mit {npc:205010} während du den {spell:410288} Stärkungszauber auf dir hast, um {item:205021} zu erhalten. Wenn du den Stärkungszauber nicht hast wird er weglaufen.'
