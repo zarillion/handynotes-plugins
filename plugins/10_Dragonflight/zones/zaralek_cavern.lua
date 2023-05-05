@@ -47,6 +47,7 @@ map.nodes[56247389] = Rare({
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59188}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59491}), -- Cavern Clawbbering
         Transmog({item = 205097, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
         Item({item = 200071}) -- Sacred Tuskarr Totem
     }
@@ -58,6 +59,7 @@ map.nodes[48367509] = Rare({
     quest = 75270,
     rewards = {
         Achievement({id = 17783, criteria = 59185}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59492}), -- Cavern Clawbbering
         Item({item = 192055}) -- Dragon Isle Artifact
     }
 }) -- Aquifon
@@ -69,9 +71,10 @@ map.nodes[41518613] = Rare({
     note = L['brulsef_the_stronk_note'],
     rewards = {
         Achievement({id = 17783, criteria = 59202}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59493}), -- Cavern Clawbbering
         Recipe({item = 204847, profession = 185}) -- Recipe: Rocks on the Rocks
     }
-}) -- Brulsef the Stronk or Brullo the Strong (wait retail release)
+}) -- Brulsef the Stronk
 
 map.nodes[48372384] = Rare({
     id = 204093,
@@ -79,6 +82,7 @@ map.nodes[48372384] = Rare({
     quest = 75475,
     rewards = {
         Achievement({id = 17783, criteria = 59212}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59494}), -- Cavern Clawbbering
         Item({item = 200071}) -- Sacred Tuskarr Totem
     }
 }) -- Colossian
@@ -88,7 +92,8 @@ map.nodes[31805061] = Rare({
     vignette = 5663,
     quest = 75361,
     rewards = {
-        Achievement({id = 17783, criteria = 59209}) -- Adventurer of Zaralek Cavern
+        Achievement({id = 17783, criteria = 59209}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59495}) -- Cavern Clawbbering
     }
 }) -- Emberdusk
 
@@ -98,7 +103,8 @@ map.nodes[36324481] = Rare({
     quest = 75357,
     location = L['in_small_cave'],
     rewards = {
-        Achievement({id = 17783, criteria = 59207}) -- Adventurer of Zaralek Cavern
+        Achievement({id = 17783, criteria = 59207}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59496}) -- Cavern Clawbbering
     },
     pois = {POI({35924400})} -- Entrance
 }) -- Flowfy
@@ -109,6 +115,7 @@ map.nodes[41921857] = Rare({
     quest = 75295,
     rewards = {
         Achievement({id = 17783, criteria = 59190}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59497}), -- Cavern Clawbbering
         Item({item = 192055}) -- Dragon Isle Artifact
     },
     pois = {POI({42491885})} -- Entrance
@@ -119,7 +126,8 @@ map.nodes[68734593] = Rare({
     vignette = 5641,
     quest = 75273,
     rewards = {
-        Achievement({id = 17783, criteria = 59186}) -- Adventurer of Zaralek Cavern
+        Achievement({id = 17783, criteria = 59186}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59498}) -- Cavern Clawbbering
     }
 }) -- Goopal
 
@@ -128,7 +136,8 @@ map.nodes[45673327] = Rare({
     vignette = 5654,
     quest = 75335,
     rewards = {
-        Achievement({id = 17783, criteria = 59200}) -- Adventurer of Zaralek Cavern
+        Achievement({id = 17783, criteria = 59200}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59499}) -- Cavern Clawbbering
     }
 }) -- Invohq
 
@@ -138,9 +147,10 @@ map.nodes[28515115] = Rare({
     quest = 75352,
     rewards = {
         Achievement({id = 17783, criteria = 59206}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59500}), -- Cavern Clawbbering
         Currency({id = 2245}) -- Flightstones
     }
-}) -- Jrumm or Dinn <War Drummer> (wait retail release)
+}) -- Jrumm
 
 map.nodes[42226524] = Rare({
     id = 203625,
@@ -148,10 +158,11 @@ map.nodes[42226524] = Rare({
     quest = 75333,
     rewards = {
         Achievement({id = 17783, criteria = 59199}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59501}), -- Cavern Clawbbering
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
-}) -- Kairoktra or Karokta (wait retail release)
+}) -- Kairoktra
 
 map.nodes[59593949] = Rare({
     id = 203466,
@@ -159,16 +170,19 @@ map.nodes[59593949] = Rare({
     quest = 75268,
     rewards = {
         Achievement({id = 17783, criteria = 59184}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59502}), -- Cavern Clawbbering
         Item({item = 192055}) -- Dragon Isle Artifact
     }
-}) -- Kaprachu or Kapraku (wait retail release)
+}) -- Kaprachu
 
 map.nodes[54074162] = Rare({
     id = 203618,
     vignette = 5651,
     quest = 75321,
     rewards = {
-        Achievement({id = 17783, criteria = 59198}) -- Adventurer of Zaralek Cavern
+        Achievement({id = 17783, criteria = 59198}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59503}), -- Cavern Clawbbering
+        Item({item = 205686}) -- Clacking Claw
     }
 }) -- Klakatak
 
@@ -178,7 +192,8 @@ map.nodes[65435587] = Rare({
     quest = 75266,
     location = L['in_small_cave'],
     rewards = {
-        Achievement({id = 17783, criteria = 59183}) -- Adventurer of Zaralek Cavern
+        Achievement({id = 17783, criteria = 59183}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59504}) -- Cavern Clawbbering
     },
     pois = {POI({64785550})} -- Entrance
 }) -- Kob'rok
@@ -189,6 +204,7 @@ map.nodes[40753817] = Rare({
     quest = 75339,
     rewards = {
         Achievement({id = 17783, criteria = 59203}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59505}), -- Cavern Clawbbering
         Transmog({item = 205070, slot = L['leather']}), -- Zaralek Surveyor's Bindings
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Item({item = 192055}), -- Dragon Isle Artifact
@@ -203,6 +219,7 @@ map.nodes[55841899] = Rare({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59189}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59506}), -- Cavern Clawbbering
         Item({item = 192055}) -- Dragon Isle Artifact
     },
     pois = {POI({52921886})} -- Entrance
@@ -214,6 +231,7 @@ map.nodes[65875082] = Rare({
     quest = 75348,
     rewards = {
         Achievement({id = 17783, criteria = 59205}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59507}), -- Cavern Clawbbering
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
@@ -226,6 +244,7 @@ map.nodes[53106421] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59187}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59508}), -- Cavern Clawbbering
         Transmog({item = 205067, slot = L['leather']}), -- Zaralek Surveyor's Helm
         Item({item = 192055}) -- Dragon Isle Artifact
     },
@@ -238,6 +257,7 @@ map.nodes[38424650] = Rare({
     quest = 75359,
     rewards = {
         Achievement({id = 17783, criteria = 59208}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59509}), -- Cavern Clawbbering
         Item({item = 199906}) -- Titan Relic
     }
 }) -- Subterrax
@@ -247,7 +267,8 @@ map.nodes[57766910] = Rare({
     vignette = 5646,
     quest = 75297,
     rewards = {
-        Achievement({id = 17783, criteria = 59191}) -- Adventurer of Zaralek Cavern
+        Achievement({id = 17783, criteria = 59191}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59510}) -- Cavern Clawbbering
     }
 }) -- Underlight Queen
 
@@ -256,7 +277,8 @@ map.nodes[38867151] = Rare({
     vignette = 5664,
     quest = 75365,
     rewards = {
-        Achievement({id = 17783, criteria = 59210}) -- Adventurer of Zaralek Cavern
+        Achievement({id = 17783, criteria = 59210}), -- Adventurer of Zaralek Cavern
+        Achievement({id = 18100, criteria = 59511}) -- Cavern Clawbbering
     }
 }) -- Viridian King
 
@@ -448,6 +470,12 @@ map.nodes[64197495] = Treasure({
     requires = {ns.requirement.Quest(72962)},
     quest = 75745,
     note = L['nal_kskol_reliquary_note'],
+    rewards = {
+        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    },
     pois = {POI({62577334})}
 }) -- Nal ks'kol Reliquary
 
@@ -487,31 +515,32 @@ local RitualOffering = Class('RitualOffering', Treasure, {
     }
 }) -- Ritual Offering
 
-map.nodes[26874611] = RitualOffering({quest = 73553})
-map.nodes[27344217] = RitualOffering({quest = 73553})
-map.nodes[28195157] = RitualOffering({quest = 73553})
-map.nodes[28754415] = RitualOffering({quest = 73553})
-map.nodes[28945491] = RitualOffering({quest = 73552})
-map.nodes[30055140] = RitualOffering({quest = 73552})
-map.nodes[30454365] = RitualOffering({quest = 73551})
-map.nodes[31883961] = RitualOffering({quest = 73551})
-map.nodes[31955275] = RitualOffering({quest = 73552})
-map.nodes[32355045] = RitualOffering({quest = 73552})
-map.nodes[32614416] = RitualOffering({quest = 73551})
-map.nodes[33103990] = RitualOffering({quest = 73551})
-map.nodes[35145225] = RitualOffering({quest = 73552})
-map.nodes[35954450] = RitualOffering({quest = 73551})
-map.nodes[36395236] = RitualOffering({quest = 73552})
-map.nodes[38174991] = RitualOffering({quest = 73548})
-map.nodes[40015127] = RitualOffering({quest = 73548})
-map.nodes[41054876] = RitualOffering({quest = 73548})
-map.nodes[41694457] = RitualOffering({quest = 73548})
-map.nodes[41924712] = RitualOffering({quest = 73548}) -- 75814
+map.nodes[26874611] = RitualOffering({fgroup = 'ritual53', quest = 73553})
+map.nodes[27344217] = RitualOffering({fgroup = 'ritual53', quest = 73553})
+map.nodes[28195157] = RitualOffering({fgroup = 'ritual53', quest = 73553})
+map.nodes[28754415] = RitualOffering({fgroup = 'ritual53', quest = 73553})
+map.nodes[28945491] = RitualOffering({fgroup = 'ritual52', quest = 73552})
+map.nodes[30055140] = RitualOffering({fgroup = 'ritual52', quest = 73552})
+map.nodes[30454365] = RitualOffering({fgroup = 'ritual51', quest = 73551})
+map.nodes[31883961] = RitualOffering({fgroup = 'ritual51', quest = 73551})
+map.nodes[31955275] = RitualOffering({fgroup = 'ritual52', quest = 73552})
+map.nodes[32355045] = RitualOffering({fgroup = 'ritual52', quest = 73552})
+map.nodes[32614416] = RitualOffering({fgroup = 'ritual51', quest = 73551})
+map.nodes[33103990] = RitualOffering({fgroup = 'ritual51', quest = 73551})
+map.nodes[35145225] = RitualOffering({fgroup = 'ritual52', quest = 73552})
+map.nodes[35954450] = RitualOffering({fgroup = 'ritual51', quest = 73551})
+map.nodes[36395236] = RitualOffering({fgroup = 'ritual52', quest = 73552})
+map.nodes[38174991] = RitualOffering({fgroup = 'ritual48', quest = 73548})
+map.nodes[40015127] = RitualOffering({fgroup = 'ritual48', quest = 73548})
+map.nodes[41054876] = RitualOffering({fgroup = 'ritual48', quest = 73548})
+map.nodes[41694457] = RitualOffering({fgroup = 'ritual48', quest = 73548})
+map.nodes[41924712] = RitualOffering({fgroup = 'ritual48', quest = 73548}) -- 75814
 
 local SmellyTrashPile = Class('SmellyTrashPile', ns.node.Node, {
     label = L['smelly_trash_pile_label'],
     icon = 'chest_gn',
     group = ns.groups.SMELLY_TRASH_PILE,
+    requires = ns.requirement.Reputation(2564, 2, true), -- Loamm Niffen (maybe also quest 72974)
     rewards = {
         DC.WindingSlitherdrake.SpikedChin, --
         Currency({id = 2245}), -- Flightstones
@@ -519,7 +548,6 @@ local SmellyTrashPile = Class('SmellyTrashPile', ns.node.Node, {
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
 }) -- Smelly Trash Pile
--- may require niffen renown level 2 or some quest to be completed.
 
 map.nodes[31175207] = SmellyTrashPile()
 map.nodes[35244459] = SmellyTrashPile()
