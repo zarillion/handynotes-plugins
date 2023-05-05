@@ -136,9 +136,9 @@ L['the_best_at_what_i_do_suffix'] = 'боссы убиты'
 L['options_icons_grand_hunts'] = 'Великая охота'
 L['options_icons_grand_hunts_desc'] = 'Отображение локаций и наград за {object:Великую охоту}.'
 
-L['ancient_stone_label'] = nil
+L['ancient_stone_label'] = 'Древний камень'
 L['options_icons_ancient_stones'] = '{achievement:17560}'
-L['options_icons_ancient_stones_desc'] = nil
+L['options_icons_ancient_stones_desc'] = 'Показать местоположения {object:Древних камней} для {achievement:17560}.'
 
 L['reed_chest'] = 'Тростниковый сундук'
 L['options_icons_reed_chest'] = 'Тростниковый сундук'
