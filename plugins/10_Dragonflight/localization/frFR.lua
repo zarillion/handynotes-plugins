@@ -759,7 +759,7 @@ L['bolts_and_brass_note'] = 'Examinez les {object:Boulons et cuivre} et récupé
 
 L['sniffen_sage_suffix'] = 'objets spéciaux trouvés'
 
-L['big_slick_note_1'] = 'l\'{npc:48182} peut être trouvé dans l\'ancienne version de la zone {location:Sombrivage}. Parlez à {npc:141489} pour remonter le temps avant la {location:Guerre des épines}.'
+L['big_slick_note'] = nil -- 'l\'{npc:48182} peut être trouvé dans l\'ancienne version de la zone {location:Sombrivage}. Parlez à {npc:141489} pour remonter le temps avant la {location:Guerre des épines}.'
 
 L['saccratos_note'] = 'Échangez vos {item:204727} contre une mascotte, une monture et plus encore.'
 L['ponzo_note'] = 'Échangez vos {item:204985} et vos {item:205903} contre des personnalisations de drake, une mascotte, une monture et plus encore.'

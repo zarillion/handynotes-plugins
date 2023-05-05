@@ -761,7 +761,7 @@ L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {ite
 
 L['sniffen_sage_suffix'] = 'special items found'
 
-L['big_slick_note_1'] = '{npc:48182} can be found in old-world {location:Darkshore}. Speak with {npc:141489} to travel back in time before the {location:War of Thorns}.'
+L['big_slick_note'] = 'Complete daily quests from {npc:201752} to reach the reputation level "Professional" (total 2800 reputation) at the faction {faction:2568} to get your mount.\n\nOr show him the following snails (pets) at level 25 to get 100 reputation for each:'
 
 L['saccratos_note'] = 'Exchange {item:204727} for a pet, mount, and more.'
 L['ponzo_note'] = 'Exchange {item:204985} and {item:205903} for drake customizations, pet, mount, and more.'

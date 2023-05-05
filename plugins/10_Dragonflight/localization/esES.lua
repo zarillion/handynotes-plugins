@@ -762,7 +762,7 @@ L['bolts_and_brass_note'] = 'Abre los {object:Tornillos y Latón} y despoja los 
 
 L['sniffen_sage_suffix'] = 'objetos especiales encontrados'
 
-L['big_slick_note_1'] = '{npc:48182} está en el viejo mundo de la {location:Costa Oscura}. Habla con {npc:141489} para volver atrás en el tiempo antes de la {location:Guerra de las Espinas}.'
+L['big_slick_note'] = nil -- '{npc:48182} está en el viejo mundo de la {location:Costa Oscura}. Habla con {npc:141489} para volver atrás en el tiempo antes de la {location:Guerra de las Espinas}.'
 
 L['saccratos_note'] = 'Cambia {item:204727} por una mascota, montura, y más.'
 L['ponzo_note'] = 'Cambia {item:204985} y {item:205903} por personalizaciones para el draco, mascota, montura, y más.'

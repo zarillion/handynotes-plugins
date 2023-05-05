@@ -761,7 +761,7 @@ L['bolts_and_brass_note'] = '開啟 {object:螺栓與黃銅} 並拾取 {item:204
 
 L['sniffen_sage_suffix'] = '特殊物品已發現'
 
-L['big_slick_note_1'] = '可以在舊世界的 {location:黑海岸} 找到 {npc:48182}. 和 {npc:141489} 交談以回到 {location:荊棘之戰} 之前的時間.'
+L['big_slick_note'] = nil -- '可以在舊世界的 {location:黑海岸} 找到 {npc:48182}. 和 {npc:141489} 交談以回到 {location:荊棘之戰} 之前的時間.'
 
 L['saccratos_note'] = '用 {item:204727} 交換寵物, 坐騎和更多東西.'
 L['ponzo_note'] = '用 {item:204985} 和 {item:205903} 交換飛龍自訂, 寵物, 坐騎和更多東西.'

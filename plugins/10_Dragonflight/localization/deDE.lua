@@ -761,7 +761,7 @@ L['bolts_and_brass_note'] = 'Öffne {object:Bolts and Brass} und plündere {item
 
 L['sniffen_sage_suffix'] = 'Spezialgegenstände erschnüffelt'
 
-L['big_slick_note_1'] = '{npc:48182} kann in der alten Welt an der {location:Dunkelküste} gefunden werden. Sprich mit {npc:141489}, um in die Zeit vor dem {location:Krieg der Dornen} zurückzureisen.'
+L['big_slick_note'] = 'Schließe bei {npc:201752} tägliche Quests ab, um bei der Fraktion {faction:2568} die Rufstufe "Professionell" (insgesamt 2800 Ruf) zu erreichen, um dein Reittier zu erhalten.\n\nOder zeige ihm die folgenden Schnecken (Haustiere) auf Stufe 25, um jeweils 100 Ruf zu erhalten:'
 
 L['saccratos_note'] = 'Tausche {item:204727} gegen zwei Reittiere, ein Haustier und mehr ein.'
 L['ponzo_note'] = 'Tausche {item:204985} gegen Drachenanpassungen, ein Reittier, ein Haustier und mehr ein.'

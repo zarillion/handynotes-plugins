@@ -801,29 +801,58 @@ map.nodes[44458040] = Collectible({
 
 ------------------------ MOUNT: BIG SLICK IN THE CITY -------------------------
 
-map.nodes[44257993] = Collectible({
+local Briggul = Class('Briggul', Collectible, {
     id = 201752,
     icon = 5003561,
-    note = L['big_slick_note_1'],
+    requires = {
+        ns.requirement.Quest(73708), -- Pay to Play
+        ns.requirement.Quest(73709), -- Favor on the Side
+        ns.requirement.Reputation(2564, 7, true) -- Loamm Niffen
+    },
     rewards = {
         Mount({item = 205155, id = 1729}) -- Big Slick in the City
     }
 }) -- Briggul <Snail Trainer>
 
-local darkshore = Map({id = 62, settings = false})
+function Briggul.getters:note()
+    local function status(questID)
+        if C_QuestLog.IsQuestFlaggedCompleted(questID) then
+            return ns.status.Green(L['completed'])
+        else
+            return ns.status.Red(L['incomplete'])
+        end
+    end
 
-darkshore.nodes[47161853] = Collectible({
-    id = 48182,
-    icon = 442735,
-    note = L['big_slick_note_1'],
-    rewards = {
-        Pet({id = 493}) -- Shimmershell Snail
-    },
-    pois = {
-        POI({57941511, 57561701, 54761786, 53492013}), -- Shimmershell Snail
-        Path({Circle({origin = 48652445, radius = 1.5})}) -- Zidormi
+    local note = L['big_slick_note'] .. '\n\n'
+    local pets = { -- {quest, npc}
+        {74948, 154836}, {74949, 184187}, {74950, 154718}, {74952, 184195},
+        {74959, 98445}, {74960, 183292}, {74961, 154837}, {74962, 64352},
+        {74963, 62313}, {74964, 51635}, {74965, 139450}, {74786, 62246},
+        {74966, 63001}, {74967, 154716}, {74968, 107125}
     }
-}) -- Shimmershell Snail
+    for i in ipairs(pets) do
+        note = note .. status(pets[i][1]) .. ' {npc:' .. pets[i][2] .. '}\n'
+    end
+
+    return note
+end
+
+map.nodes[44257993] = Briggul()
+
+-- local darkshore = Map({id = 62, settings = false})
+
+-- darkshore.nodes[47161853] = Collectible({
+--     id = 48182,
+--     icon = 442735,
+--     note = L['big_slick_note'],
+--     rewards = {
+--         Pet({id = 493}) -- Shimmershell Snail
+--     },
+--     pois = {
+--         POI({57941511, 57561701, 54761786, 53492013}), -- Shimmershell Snail
+--         Path({Circle({origin = 48652445, radius = 1.5})}) -- Zidormi
+--     }
+-- }) -- Shimmershell Snail
 
 -------------------------------------------------------------------------------
 
