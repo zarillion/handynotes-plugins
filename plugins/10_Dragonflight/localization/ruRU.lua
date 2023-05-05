@@ -735,11 +735,11 @@ L['in_deepflayer_nest'] = nil
 
 L['brulsef_the_stronk_note'] = nil
 
-L['ancient_zaqali_chest_note'] = nil
-L['blazing_shadowflame_chest_note'] = nil
+L['ancient_zaqali_chest_note'] = 'Используйте ближайшую {object:Бутылку с магмой}, чтобы открыть сундук.'
+L['blazing_shadowflame_chest_note'] = 'Наденьте {item:15138}, который можно купить на аукционе или изготовить у кожевника, чтобы открыть сундук.'
 L['crystal_encased_chest_note'] = nil
-L['old_trunk_note'] = nil
-L['well_chewed_chest_note'] = nil
+L['old_trunk_note'] = 'Найдите и соберите {npc:204277} 5 раз, чтобы получить {item:204323}. {note:Первая мышь рядом с сундуком.}'
+L['well_chewed_chest_note'] = '{item:202869}({dot:Green}) спрятан под {npc:199962} в пещере.'
 
 L['molten_hoard_label'] = nil
 L['fealtys_reward_label'] = nil
