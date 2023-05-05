@@ -725,7 +725,7 @@ L['phoenix_wishwing_ash_feather'] = [[
 Чтобы увидеть {object:Пепельные перья}, вам нужно купить {item:199177} у {npc:189207} {dot:Green} на {location:Берегах Пробуждения} в местности {location:Обсидиановый трон}.
 Используйте это ожерелье и собирайте {item:202062} {dot:Red}, их можно найти на {location:Подъеме Пламени} и {location:Шлаковой топи}, которые являются областями, окружающими {location:Обсидиановую Цитадель}.
 ]]
-L['phoenix_wishwing_info'] = 'This is part of the {item:193373} Collectible located in {location:The Waking Shore} on the {location:Dragon Isles}.'
+L['phoenix_wishwing_info'] = 'Это часть коллекционного предмета {item:193373}, расположенного на {location:Берегах Пробуждения} на {location:Дракоьих Островах}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
