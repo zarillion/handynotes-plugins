@@ -752,6 +752,8 @@ L['waterlogged_bundle_label'] = 'Промокшая котомка'
 
 L['stolen_stash_label'] = 'Похищенные припасы'
 L['ritual_offering_label'] = 'Ритуальное подношение'
+L['options_icons_ritual_offering'] = 'Ритуальное подношение'
+L['options_icons_ritual_offering_desc'] = nil
 L['nal_kskol_reliquary_label'] = 'Реликварий Нал-кс\'кола'
 L['nal_kskol_reliquary_note'] = 'Воспользуйтесь {object:Консолью доступа к реликварию} и решите головоломку, чтобы открыть {object:Реликварий Нал-кс\'кола}.'
 

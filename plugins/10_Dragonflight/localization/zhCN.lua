@@ -751,6 +751,8 @@ L['waterlogged_bundle_label'] = '浸水的包裹'
 
 L['stolen_stash_label'] = '失窃的货物'
 L['ritual_offering_label'] = '仪式供品'
+L['options_icons_ritual_offering'] = '仪式供品'
+L['options_icons_ritual_offering_desc'] = nil
 L['nal_kskol_reliquary_label'] = '纳·克斯寇圣物匣'
 L['nal_kskol_reliquary_note'] = '使用 {object:圣物匣开启控制台} 并解开拼图以打开 {object:纳·克斯寇圣物匣}。'
 

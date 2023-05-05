@@ -751,6 +751,8 @@ L['waterlogged_bundle_label'] = 'Durchnässtes Bündel'
 
 L['stolen_stash_label'] = 'Gestohlenes Lager'
 L['ritual_offering_label'] = 'Ritualopfergaben'
+L['options_icons_ritual_offering'] = 'Ritualopfergaben'
+L['options_icons_ritual_offering_desc'] = 'Zeigt die möglichen Positionen von {object:Ritualopfergaben}.'
 L['nal_kskol_reliquary_label'] = 'Reliquiar von Nal ks\'kol'
 L['nal_kskol_reliquary_note'] = 'Benutze die {object:Reliquiarzugriffskonsole} und löse das Rätsel, um das {object:Reliquiar von Nal ks\'kol} öffnen zu können.'
 

@@ -697,6 +697,8 @@ L['waterlogged_bundle_label'] = nil
 
 L['stolen_stash_label'] = nil
 L['ritual_offering_label'] = nil
+L['options_icons_ritual_offering'] = nil
+L['options_icons_ritual_offering_desc'] = nil
 L['nal_kskol_reliquary_label'] = nil
 L['nal_kskol_reliquary_note'] = nil
 

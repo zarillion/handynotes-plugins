@@ -139,6 +139,11 @@ ns.groups.REED_CHEST = Group('reed_chest', 'chest_yw', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.RITUAL_OFFERING = Group('ritual_offering', 'chest_bn', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.SCOUT_PACK = Group('scout_pack', 4562583, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION

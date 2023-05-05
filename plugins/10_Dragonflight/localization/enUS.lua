@@ -751,6 +751,8 @@ L['waterlogged_bundle_label'] = 'Waterlogged Bundle'
 
 L['stolen_stash_label'] = 'Stolen Stash'
 L['ritual_offering_label'] = 'Ritual Offering'
+L['options_icons_ritual_offering'] = 'Ritual Offering'
+L['options_icons_ritual_offering_desc'] = 'Display possible locations of {object:Ritual Offerings}.'
 L['nal_kskol_reliquary_label'] = 'Nal ks\'kol Reliquary'
 L['nal_kskol_reliquary_note'] = 'Use the {object:Reliquary Access Console} and solve the puzzle to open the {object:Nal ks\'kol Reliquary}.'
 

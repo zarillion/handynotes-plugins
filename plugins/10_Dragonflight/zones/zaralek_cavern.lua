@@ -477,6 +477,7 @@ deepflayerNest.nodes[63698291] = Treasure({
 
 local RitualOffering = Class('RitualOffering', Treasure, {
     label = L['ritual_offering_label'],
+    group = ns.groups.RITUAL_OFFERING,
     icon = 'chest_bn',
     rewards = {
         Item({item = 199906}), -- Titan Relic
