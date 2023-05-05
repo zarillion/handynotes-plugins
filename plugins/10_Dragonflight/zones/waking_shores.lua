@@ -1330,6 +1330,7 @@ map.nodes[83564475] = Disturbeddirt()
 -------------------------------------------------------------------------------
 
 map.nodes[23017547] = Scoutpack()
+map.nodes[24997818] = Scoutpack()
 map.nodes[26628764] = Scoutpack()
 map.nodes[28868321] = Scoutpack()
 map.nodes[29715467] = Scoutpack()
