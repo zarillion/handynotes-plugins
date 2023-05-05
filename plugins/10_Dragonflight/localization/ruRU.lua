@@ -755,10 +755,10 @@ L['ritual_offering_label'] = 'Ритуальное подношение'
 L['nal_kskol_reliquary_label'] = 'Реликварий Нал-кс\'кола'
 L['nal_kskol_reliquary_note'] = 'Воспользуйтесь {object:Консолью доступа к реликварию} и решите головоломку, чтобы открыть {object:Реликварий Нал-кс\'кола}.'
 
-L['molten_scoutbot_note'] = nil
-L['bolts_and_brass_note'] = nil
+L['molten_scoutbot_note'] = 'Откройте {object:Огненный разведобот} и соберите {item:204855}.'
+L['bolts_and_brass_note'] = 'Откройте {object:Болты и латунь} и соберите {item:204850}.'
 
-L['sniffen_sage_suffix'] = nil
+L['sniffen_sage_suffix'] = 'найдены особые предметы'
 
 L['big_slick_note_1'] = nil
 
