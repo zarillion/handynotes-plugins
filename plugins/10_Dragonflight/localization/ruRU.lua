@@ -762,12 +762,12 @@ L['sniffen_sage_suffix'] = 'найдены особые предметы'
 
 L['big_slick_note_1'] = nil
 
-L['saccratos_note'] = nil
-L['ponzo_note'] = nil
+L['saccratos_note'] = 'Обменяйте {item:204727} на питомца, средства передвижения и т. д.'
+L['ponzo_note'] = 'Обменяйте {item:204985} и {item:205903} на манускрипты для дракона, питомца, средство передвижения и многое другое.'
 
-L['smelly_trash_pile_label'] = nil
-L['options_icons_smelly_trash_pile'] = nil
-L['options_icons_smelly_trash_pile_desc'] = nil
+L['smelly_trash_pile_label'] = 'Пахучая куча мусора'
+L['options_icons_smelly_trash_pile'] = 'Пахучая куча мусора'
+L['options_icons_smelly_trash_pile_desc'] = 'Показать возможные местоположения {object:Пахучих куч мусора}.'
 
-L['seething_cache_treasure_note'] = nil
-L['chest_of_the_flights_treasure_note'] = nil
+L['seething_cache_treasure_note'] = 'Чтобы иметь возможность увидеть {object:Дымящийся тайник} и получить {item:192779}, вам нужно собрать 3 стака {spell:399342} дебаффа от {object:Дымящихся сфер}, расположенных в области {location:Кальдера Закали} в {location:пещере Заралек}.'
+L['chest_of_the_flights_treasure_note'] = 'To open the treasure chest you need to click on the {object:Empowered Gems} in the order {note:Red > Black > Blue > Yellow > Green}.'
