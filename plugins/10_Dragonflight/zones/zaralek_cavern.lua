@@ -24,7 +24,7 @@ local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
-local Circle = ns.poi.Circle
+-- local Circle = ns.poi.Circle
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
