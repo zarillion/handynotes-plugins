@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -580,6 +581,84 @@ map.nodes[52562740] = SmellyTrashPile()
 map.nodes[57476456] = SmellyTrashPile()
 map.nodes[60195755] = SmellyTrashPile()
 map.nodes[62325600] = SmellyTrashPile()
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[52416604] = PetBattle({
+    id = 201004,
+    rewards = {
+        Achievement({id = 17880, criteria = 59352}), -- Battle in Zaralek Cavern
+        ns.reward.Spacer(),
+        Achievement({id = 17881, criteria = 1, oneline = true}), -- Aquatic
+        Achievement({id = 17882, criteria = 1, oneline = true}), -- Beast
+        Achievement({id = 17883, criteria = 1, oneline = true}), -- Critter
+        Achievement({id = 17890, criteria = 1, oneline = true}), -- Dragon
+        Achievement({id = 17904, criteria = 1, oneline = true}), -- Elemental
+        Achievement({id = 17905, criteria = 1, oneline = true}), -- Flying
+        Achievement({id = 17915, criteria = 1, oneline = true}), -- Humanoid
+        Achievement({id = 17916, criteria = 1, oneline = true}), -- Magic
+        Achievement({id = 17917, criteria = 1, oneline = true}), -- Mechanical
+        Achievement({id = 17918, criteria = 1, oneline = true}) -- Undead
+    }
+}) -- Explorer Bezzert
+
+map.nodes[38254965] = PetBattle({
+    id = 204792,
+    note = L['in_small_cave'],
+    rewards = {
+        Achievement({id = 17880, criteria = 59351}), -- Battle in Zaralek Cavern
+        ns.reward.Spacer(),
+        Achievement({id = 17881, criteria = 2, oneline = true}), -- Aquatic
+        Achievement({id = 17882, criteria = 2, oneline = true}), -- Beast
+        Achievement({id = 17883, criteria = 2, oneline = true}), -- Critter
+        Achievement({id = 17890, criteria = 2, oneline = true}), -- Dragon
+        Achievement({id = 17904, criteria = 2, oneline = true}), -- Elemental
+        Achievement({id = 17905, criteria = 2, oneline = true}), -- Flying
+        Achievement({id = 17915, criteria = 2, oneline = true}), -- Humanoid
+        Achievement({id = 17916, criteria = 2, oneline = true}), -- Magic
+        Achievement({id = 17917, criteria = 2, oneline = true}), -- Mechanical
+        Achievement({id = 17918, criteria = 2, oneline = true}) -- Undead
+    },
+    pois = {POI({38665044})} -- Entrance
+}) -- Shinmura
+
+map.nodes[65374960] = PetBattle({
+    id = 204926,
+    rewards = {
+        Achievement({id = 17880, criteria = 59354}), -- Battle in Zaralek Cavern
+        ns.reward.Spacer(),
+        Achievement({id = 17881, criteria = 3, oneline = true}), -- Aquatic
+        Achievement({id = 17882, criteria = 3, oneline = true}), -- Beast
+        Achievement({id = 17883, criteria = 3, oneline = true}), -- Critter
+        Achievement({id = 17890, criteria = 3, oneline = true}), -- Dragon
+        Achievement({id = 17904, criteria = 3, oneline = true}), -- Elemental
+        Achievement({id = 17905, criteria = 3, oneline = true}), -- Flying
+        Achievement({id = 17915, criteria = 3, oneline = true}), -- Humanoid
+        Achievement({id = 17916, criteria = 3, oneline = true}), -- Magic
+        Achievement({id = 17917, criteria = 3, oneline = true}), -- Mechanical
+        Achievement({id = 17918, criteria = 3, oneline = true}) -- Undead
+    }
+}) -- Delver Mardei
+
+map.nodes[45698150] = PetBattle({
+    id = 204934,
+    rewards = {
+        Achievement({id = 17880, criteria = 59353}), -- Battle in Zaralek Cavern
+        ns.reward.Spacer(),
+        Achievement({id = 17881, criteria = 4, oneline = true}), -- Aquatic
+        Achievement({id = 17882, criteria = 4, oneline = true}), -- Beast
+        Achievement({id = 17883, criteria = 4, oneline = true}), -- Critter
+        Achievement({id = 17890, criteria = 4, oneline = true}), -- Dragon
+        Achievement({id = 17904, criteria = 4, oneline = true}), -- Elemental
+        Achievement({id = 17905, criteria = 4, oneline = true}), -- Flying
+        Achievement({id = 17915, criteria = 4, oneline = true}), -- Humanoid
+        Achievement({id = 17916, criteria = 4, oneline = true}), -- Magic
+        Achievement({id = 17917, criteria = 4, oneline = true}), -- Mechanical
+        Achievement({id = 17918, criteria = 4, oneline = true}) -- Undead
+    }
+}) -- Trainer Orlogg
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
