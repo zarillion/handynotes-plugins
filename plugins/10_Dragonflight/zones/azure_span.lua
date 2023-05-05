@@ -2069,7 +2069,7 @@ local Kazzi = Class('Kazzi', Collectible, {
         -- Transmog({item = 2039995, slot = L['cosmetic'], note = '75'}), -- Winter Pelt Cloak
         Transmog({item = 204354, slot = L['cosmetic'], note = '500'}), -- Hollowed Furbolg Food Pack
         -- NOT IN DC
-        Item({item = 202273, quest = nil, note = '50'}), -- Renewed Proto-Drake: Stubby Snout
+        Item({item = 202273, quest = 73054, note = '50'}), -- Renewed Proto-Drake: Stubby Snout
         Item({item = 197626, quest = 69831, note = '50'}), -- Windborne Velocidrake: Exposed Finned Back
         Item({item = 197129, quest = 69330, note = '50'}), -- Highland Drake: Sleek Horns
         Item({item = 197006, quest = 69206, note = '50'}), -- Cliffside Wylderdrake: Plated Nose
@@ -2078,7 +2078,7 @@ local Kazzi = Class('Kazzi', Collectible, {
         Transmog({item = 204355, slot = L['cosmetic'], note = '500'}), -- Hollowed Winterpelt Food Pack
         Toy({item = 203734, note = '200'}), -- Snow Blanket
         -- NOT IN DC
-        Item({item = 202279, quest = nil, note = '100'}), -- Renewed Proto-Drake: Malevolent Horns
+        Item({item = 202279, quest = 73056, note = '100'}), -- Renewed Proto-Drake: Malevolent Horns
         Item({item = 197629, quest = 69835, note = '100'}), -- Windborne Velocidrake: Spiked Neck
         Item({item = 197102, quest = 69303, note = '100'}), -- Highland Drake: Horned Chin
         Item({item = 196995, quest = 69195, note = '100'}), -- Cliffside Wylderdrake: Spiked Horns

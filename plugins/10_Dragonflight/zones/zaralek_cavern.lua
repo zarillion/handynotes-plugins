@@ -155,7 +155,7 @@ map.nodes[42226524] = Rare({
 
 map.nodes[59593949] = Rare({
     id = 203466,
-    vignette = nil,
+    vignette = 5639,
     quest = 75268,
     rewards = {
         Achievement({id = 17783, criteria = 59184}), -- Adventurer of Zaralek Cavern
@@ -558,17 +558,17 @@ map.nodes[40485918] = PT.Alchemy({id = 205213, quest = 75651}) -- Suspicious Mol
 map.nodes[52631830] = PT.Alchemy({id = 205211, quest = 75646}) -- Nutrient Diluted Protofluid
 map.nodes[62154115] = PT.Alchemy({id = 205212, quest = 75649}) -- Marrow-Ripened Slime
 
-map.nodes[36674615] = PT.Inscription({id = 206031, quest = nil}) -- Intricate Zaqali Runes
-map.nodes[53007440] = PT.Inscription({id = 206034, quest = nil}) -- Hissing Rune Draft
+map.nodes[36674615] = PT.Inscription({id = 206031, quest = 76117}) -- Intricate Zaqali Runes
+map.nodes[53007440] = PT.Inscription({id = 206034, quest = 76120}) -- Hissing Rune Draft
 map.nodes[54472026] = PT.Inscription({
     id = 206035,
-    quest = nil,
+    quest = 76121,
     note = L['in_cave'],
     pois = {POI({52781885})}
 }) -- Ancient Research
 
 map.nodes[34504542] = PT.Jewelcrafting({id = 205216, quest = 75653}) -- Gently Jostled Jewels
-map.nodes[40378070] = PT.Jewelcrafting({id = 205214, quest = nil}) -- Snubbed Snail Shells
+map.nodes[40378070] = PT.Jewelcrafting({id = 205214, quest = 75652}) -- Snubbed Snail Shells
 map.nodes[54413247] = PT.Jewelcrafting({id = 205219, quest = 75654}) -- Broken Barter Boulder
 
 map.nodes[44521565] = PT.Tailoring({id = 206030, quest = 76116}) -- Exquisitely Embroidered Banner
@@ -579,7 +579,7 @@ map.nodes[36666933] = PT.Enchanting({id = 205001, quest = 75510}) -- Resonating 
 map.nodes[48251702] = PT.Enchanting({id = 204990, quest = 75508}) -- Lava-Drenched Shadow Crystal
 map.nodes[62395380] = PT.Enchanting({id = 204999, quest = 75509}) -- Shimmering Aqueous Orb
 
-map.nodes[50504790] = PT.Engineering({id = 204471, quest = nil}) -- Defective Survival Pack
+map.nodes[50504790] = PT.Engineering({id = 204471, quest = 75184}) -- Defective Survival Pack
 map.nodes[37825884] = PT.Engineering({id = 204475, quest = 75186}) -- Busted Wyrmhole Generator
 map.nodes[48101659] = PT.Engineering({
     id = 204855,
@@ -590,7 +590,7 @@ map.nodes[48101659] = PT.Engineering({
 map.nodes[48162790] = PT.Engineering({id = 204470, quest = 75183}) -- Haphazardly Discarded Bombs
 map.nodes[48484868] = PT.Engineering({id = 204469, quest = 75180}) -- Misplace Aberrus Outflow Blueprints
 map.nodes[49437901] = PT.Engineering({id = 204853, quest = 75431}) -- Discarded Dracothyst Drill
-map.nodes[49875919] = PT.Engineering({id = 204471, quest = nil}) -- Inconspicuous Data Miner
+map.nodes[49875919] = PT.Engineering({id = 204471, quest = 75188}) -- Inconspicuous Data Miner
 map.nodes[57657393] = PT.Engineering({
     id = 204850,
     quest = 75430,
