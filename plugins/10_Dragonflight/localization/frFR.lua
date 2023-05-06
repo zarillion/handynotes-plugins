@@ -564,6 +564,8 @@ L['titan_chest'] = 'Coffre des Titans'
 L['options_icons_titan_chest'] = 'Coffre des Titans'
 L['options_icons_titan_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres des Titans}.'
 
+L['living_mud_mask_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -723,6 +725,8 @@ Pour voir les {object:Plumes}, vous devez acheter l'{item:199177} à {npc:189207
 Utilisez cette amulette et ramassez des {item:202062} {dot:Red} trouvées à l'{location:Éminence Ardente} et au {location:Bourbier aux Scories}, qui sont des zones entourant la {location:Citadelle d’Obsidienne}.
 ]]
 L['phoenix_wishwing_info'] = 'Ceci fait partie de de la méthode d\'obtention du {item:193373} situé aux {location:Rivages de l’Éveil} sur les {location:Îles aux Dragons}.'
+
+L['bugbiter_tortoise_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

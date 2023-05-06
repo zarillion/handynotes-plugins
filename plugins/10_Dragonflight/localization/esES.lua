@@ -564,6 +564,8 @@ L['titan_chest'] = 'Cofre Titánico'
 L['options_icons_titan_chest'] = 'Cofre Titánico'
 L['options_icons_titan_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Titánico}.'
 
+L['living_mud_mask_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -726,6 +728,8 @@ Para ver estas {object:Plumas} tendrás que comprar el {item:199177} a {npc:1892
 Usa el amuleto y coge las {item:202062} {dot:Red} que hay dentro del {location:Ascenso Ardiente} y de {location:Cienoescoria}, que son las zonas que rodean a la {location:Ciudadela Obsidiana}.
 ]]
 L['phoenix_wishwing_info'] = 'Esto es parte de la mascota de combate {item:193373} localizada en las {location:Orillas del Despertar} de las {location:Islas Dragón}.'
+
+L['bugbiter_tortoise_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

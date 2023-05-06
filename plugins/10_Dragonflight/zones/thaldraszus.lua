@@ -1045,6 +1045,7 @@ map.nodes[38806831] = Scoutpack()
 map.nodes[40148559] = Scoutpack()
 map.nodes[40498368] = Scoutpack()
 map.nodes[41234798] = Scoutpack()
+map.nodes[41234798] = Scoutpack()
 map.nodes[47428021] = Scoutpack()
 map.nodes[49047926] = Scoutpack()
 map.nodes[50098074] = Scoutpack()
@@ -1692,6 +1693,14 @@ val.nodes[43757494] = Collectible({
     },
     rewards = {Pet({item = 193571, id = 3303})}
 }) -- Mallard Ducklin
+
+map.nodes[40474531] = Collectible({
+    id = 197346,
+    -- quest = 72060,
+    icon = 1500916,
+    note = L['living_mud_mask_note'],
+    rewards = {Pet({item = 200872, id = 3405})}
+}) -- Pet: Living Mud Mask
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 

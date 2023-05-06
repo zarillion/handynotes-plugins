@@ -536,6 +536,8 @@ L['titan_chest'] = '티탄 궤짝'
 L['options_icons_titan_chest'] = '티탄 궤짝'
 L['options_icons_titan_chest_desc'] = nil
 
+L['living_mud_mask_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -671,6 +673,8 @@ L['phoenix_wishwing_inert_ash'] = nil
 L['phoenix_wishwing_smoldering_ash'] = nil
 L['phoenix_wishwing_ash_feather'] = nil
 L['phoenix_wishwing_info'] = nil
+
+L['bugbiter_tortoise_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

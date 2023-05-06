@@ -564,6 +564,18 @@ L['titan_chest'] = 'Titanentruhe'
 L['options_icons_titan_chest'] = 'Titanentruhe'
 L['options_icons_titan_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Titanentruhen} an.'
 
+L['living_mud_mask_note'] = [[
+Plündere {item:200586} von Schlammgatu um die Quest {quest:70377} zu starten welche du bei {npc:198062} abschließen musst.
+
+Nachdem du die Quest beentet hast sprich nochmal mit {npc:198062} und frag ihn nach einer besseren Belohnung. Er wird einen gleiter zum VIP Bereich nehmen damit du 'als Belognung seine Gesellschaft weiter genießen kannst'.
+
+Wenn du bei der fliegenden Insel anokmmst wird {npc:198062} am Boden liegen. Sprich mit ihm und sag ihm dass er Tot aussieht.
+
+{npc:198590} wird erscheinen und auf einen ast hinter {npc:197232} laufen. Wenn du nahe genug am Schleim stehst wird er dir die Quest {quest:72060} anbieten.
+
+Geh zurück zu {npc:198062}, er wartet auf einer Bank, und schließe die Quest ab um {item:200872} zu erhalten.
+]] -- @Dathwada: please review, i had my client set to english and dont know the exact wording when talking to zeldis in german
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -725,6 +737,8 @@ Um die {object:Federn} zu sehen, musst du das {item:199177} von {npc:189207} am 
 Benutze die Halskette und sammle {item:202062} {dot:Red} die sich in der Umgebung der {location:Obsidianzitadelle} befinden.
 ]]
 L['phoenix_wishwing_info'] = 'Dies ist teil des {item:193373} in {location:Küste des Erwachens} auf den {location:Dracheninseln}.'
+
+L['bugbiter_tortoise_note'] = 'Sammle {item:202082}({dot:Red}) und {item:202084}({dot:Green}) und tausche sie bei {npc:187077} gegen {item:202085} ein.\n\nDamit {npc:187077} erscheint muss die Weltquest {quest:66070} aktiv sein.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

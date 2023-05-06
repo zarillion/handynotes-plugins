@@ -563,6 +563,18 @@ L['titan_chest'] = 'Titan Chest'
 L['options_icons_titan_chest'] = 'Titan Chest'
 L['options_icons_titan_chest_desc'] = 'Display possible locations of {object:Titan Chest}.'
 
+L['living_mud_mask_note'] = [[
+Mudgatu will drop the {item:200586} which give you the {quest:70377} quest. This will take you over to {npc:198062} to turn them in.
+
+After that you have to speak with {npc:198062} again and ask him for a better reward. He will take a glider over to the VIP area so you can 'enjoy his company further as a reward'.
+
+When you arrive at the floating island {npc:198062} will be on the floor. Speak with him again, saying that he looks dead.
+
+A small slime called {npc:198590} will spawn and run away to a branch behind {npc:197232}. Once you get close enough the slime will offer you the quest {quest:72060}.
+
+Go back to {npc:198062}, sitting on a bench, and turn in the quest for your {item:200872}.
+]]
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -725,6 +737,8 @@ To see the {object:Feathers} you need to purchase the {item:199177} from {npc:18
 Use this necklace and pick up {item:202062} {dot:Red} found within the {location:Burning Ascent} and {location:The Slagmire}, which are areas surrounding the {location:Obsidian Citadel}.
 ]]
 L['phoenix_wishwing_info'] = 'This is part of the {item:193373} Collectible located in {location:The Waking Shore} on the {location:Dragon Isles}.'
+
+L['bugbiter_tortoise_note'] = 'Collect {item:202082}({dot:Red}) and {item:202084}({dot:Green}) and exchange it at {npc:187077} for your {item:202085}.\n\n{npc:187077} requires the world quest {quest:66070} to be active.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

@@ -1275,6 +1275,7 @@ map.nodes[57011998] = Kite({
 -------------------------------------------------------------------------------
 local cave = L['in_small_cave']
 local r_mining = ns.requirement.Profession(186)
+local r_anomaly_detect = ns.requirement.Spell(382499)
 
 map.nodes[35508037] = Disturbeddirt()
 map.nodes[36537986] = Disturbeddirt()
@@ -1368,6 +1369,7 @@ map.nodes[72155969] = Scoutpack({note = cave, requires = r_mining})
 map.nodes[72595687] = Scoutpack()
 map.nodes[80903776] = Scoutpack({note = cave})
 map.nodes[82055012] = Scoutpack()
+map.nodes[23569648] = Scoutpack({note = cave, requires = r_anomaly_detect})
 
 -------------------------------------------------------------------------------
 -------------------------------- DJARADIN CACHE -------------------------------
@@ -2647,6 +2649,27 @@ nel.nodes[57407880] = PT.Engineering({
     id = 199229,
     rewards = {Recipe({item = 199229, profession = 202})}
 }) -- Schematic: Tinker: Breath of Neltharion
+
+--------------------------- PET: BUGBITER TORTOISE ----------------------------
+
+map.nodes[22809500] = Collectible({
+    id = 187077,
+    icon = 1738683,
+    note = L['bugbiter_tortoise_note'],
+    rewards = {Pet({item = 202085, id = 3360})},
+    pois = {
+        -- LuaFormatter off
+
+        -- Petrified Dragon Egg
+        POI({color = 'Red', points = {33417715, 34008900, 33318719, 21709731, 25469577, 36009000, 40959341, 23259091, 25649590, 36069197}}),
+        Path({color = 'Red', points = {33377709, 33217658, 33037610, 32857559, 32707504, 32737448, 32747391}}),
+        Path({color = 'Red', points = {33328713, 33598665, 33898617, 34228576, 34768579, 35178549, 35448507, 35758467, 36188441}}),
+        -- Eroded Fossil
+        POI({color = 'Green', points = {21569214, 26079456, 24709110, 21779447, 23349420}})
+
+        -- LuaFormatter on
+    }
+}) -- Pet: Bugbiter Tortoise
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
