@@ -564,7 +564,17 @@ L['titan_chest'] = 'Cofre Titánico'
 L['options_icons_titan_chest'] = 'Cofre Titánico'
 L['options_icons_titan_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Titánico}.'
 
-L['living_mud_mask_note'] = nil
+L['living_mud_mask_note'] = [[
+{npc:197346} soltará las {item:200586} que iniciarán la misión {quest:70377}. Tendrás que devolvérselas a {npc:198062}.
+
+Tras ello, habla de nuevo con {npc:198062} y pregúntale por una recompensa mejor. Él cogerá un planeador a la zona VIP para que puedas 'disfrutar más de su compañía como recompensa'.
+
+Cuando llegues a la isla flotante, {npc:198062} estará en el suelo. Habla de nuevo con él para decirle que parece muerto.
+
+Aparecerá una babosa llamada {npc:198590} y huirá a una rama detrás de {npc:197232}. Una vez estés suficientemente cerca, la babosa te ofrecerá la misión {quest:72060}.
+
+Vuelve con {npc:198062}, que está sentado en un banco, y entrega la misión para conseguir tu {item:200872}.
+]]
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
