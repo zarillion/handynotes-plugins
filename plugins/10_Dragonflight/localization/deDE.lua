@@ -762,6 +762,7 @@ L['bolts_and_brass_note'] = 'Öffne {object:Bolzen und Bronze} und plündere {it
 L['sniffen_sage_suffix'] = 'Spezialgegenstände erschnüffelt'
 
 L['big_slick_note'] = 'Schließe bei {npc:201752} tägliche Quests ab, um bei der Fraktion {faction:2568} die Rufstufe "Professionell" (insgesamt 2800 Ruf) zu erreichen, um dein Reittier zu erhalten.\n\nOder zeige ihm die folgenden Schnecken (Haustiere) auf Stufe 25, um jeweils 100 Ruf zu erhalten:'
+L['grogul_note'] = 'Sprich mit {npc:204672} und wähle ein Leckerli aus, das du benutzen kannst, die Schnecke zu ermutigen sich schneller fortzubewegen.\n{note:Der Erfolg kann vor Ruhmstufe 7 erlangt werden.}'
 
 L['saccratos_note'] = 'Tausche {item:204727} gegen zwei Reittiere, ein Haustier und mehr ein.'
 L['ponzo_note'] = 'Tausche {item:204985} gegen Drachenanpassungen, ein Reittier, ein Haustier und mehr ein.'

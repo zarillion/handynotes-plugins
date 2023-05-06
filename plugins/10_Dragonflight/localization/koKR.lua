@@ -708,6 +708,7 @@ L['bolts_and_brass_note'] = nil
 L['sniffen_sage_suffix'] = nil
 
 L['big_slick_note'] = nil
+L['grogul_note'] = nil
 
 L['saccratos_note'] = nil
 L['ponzo_note'] = nil

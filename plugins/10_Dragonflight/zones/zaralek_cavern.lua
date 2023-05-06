@@ -51,7 +51,8 @@ map.nodes[56247389] = Rare({
         Achievement({id = 18100, criteria = 59491}), -- Cavern Clawbbering
         Transmog({item = 205097, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
         Item({item = 200071}) -- Sacred Tuskarr Totem
-    }
+    },
+    pois = {POI({56937305})} -- Entrance
 }) -- Alcanon
 
 map.nodes[48367509] = Rare({
@@ -73,13 +74,14 @@ map.nodes[41518613] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59202}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59493}), -- Cavern Clawbbering
+        Transmog({item = 205313, slot = L['mail']}), -- Brullo's Wristbraces
         Recipe({item = 204847, profession = 185}) -- Recipe: Rocks on the Rocks
     }
 }) -- Brulsef the Stronk
 
 map.nodes[48372384] = Rare({
     id = 204093,
-    vignette = 5646,
+    vignette = 5674,
     quest = 75475,
     rewards = {
         Achievement({id = 17783, criteria = 59212}), -- Adventurer of Zaralek Cavern
@@ -160,6 +162,7 @@ map.nodes[42226524] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59199}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59501}), -- Cavern Clawbbering
+        Mount({item = 205203, id = 1732}), -- Cobalt Shalewing
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
@@ -391,7 +394,7 @@ map.nodes[32333935] = Treasure({
     pois = {
         POI({
             25244480, 26704700, 27704900, 27955121, 28755530, 29954797,
-            30204000, 31185195, 34414571, 35634877, 36204401
+            30204000, 31185195, 34414571, 35634877, 36204401, 37624663, 32735262
         })
     }
 }) -- Seething Cache
@@ -529,7 +532,7 @@ map.nodes[32355045] = RitualOffering({fgroup = 'ritual52', quest = 73552})
 map.nodes[32614416] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[33103990] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[35145225] = RitualOffering({fgroup = 'ritual52', quest = 73552})
-map.nodes[35954450] = RitualOffering({fgroup = 'ritual51', quest = 73551})
+map.nodes[36034454] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[36395236] = RitualOffering({fgroup = 'ritual52', quest = 73552})
 map.nodes[38174991] = RitualOffering({fgroup = 'ritual48', quest = 73548})
 map.nodes[40015127] = RitualOffering({fgroup = 'ritual48', quest = 73548})
@@ -578,6 +581,7 @@ map.nodes[51055710] = SmellyTrashPile()
 map.nodes[51224089] = SmellyTrashPile()
 map.nodes[51931544] = SmellyTrashPile()
 map.nodes[52562740] = SmellyTrashPile()
+map.nodes[57047087] = SmellyTrashPile()
 map.nodes[57476456] = SmellyTrashPile()
 map.nodes[60195755] = SmellyTrashPile()
 map.nodes[62325600] = SmellyTrashPile()
@@ -888,6 +892,8 @@ map.nodes[55625745] = Collectible({
 map.nodes[44458040] = Collectible({
     label = '{npc:201099}',
     icon = 5003559,
+    requires = ns.requirement.Reputation(2564, 7, true), -- Loamm Niffen
+    note = L['grogul_note'],
     rewards = {
         Achievement({
             id = 17741,

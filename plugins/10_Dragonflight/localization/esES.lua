@@ -763,6 +763,7 @@ L['bolts_and_brass_note'] = 'Abre los {object:Tornillos y Latón} y despoja los 
 L['sniffen_sage_suffix'] = 'objetos especiales encontrados'
 
 L['big_slick_note'] = 'Completa misiones diarias de {npc:201752} para alcanzar el nivel de reputación "Profesional" (2800 de reputación en total) con la facción {faction:2568} para conseguir tu montura.\n\nO enséñale los siguientes caracoles (mascotas de combate) a nivel 25 para conseguir 100 de reputación por cada uno:'
+L['grogul_note'] = nil
 
 L['saccratos_note'] = 'Cambia {item:204727} por una mascota, montura, y más.'
 L['ponzo_note'] = 'Cambia {item:204985} y {item:205903} por personalizaciones para el draco, mascota, montura, y más.'
