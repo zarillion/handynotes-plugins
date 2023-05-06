@@ -762,7 +762,7 @@ L['bolts_and_brass_note'] = '打开 {object:螺栓和黄铜} 并拾取 {item:204
 L['sniffen_sage_suffix'] = '找到特殊物品'
 
 L['big_slick_note'] = '从 {npc:201752} 完成的每日任务达到 {faction:2568} 阵营的声望等级“专业”（总计2800声望），以获得坐骑。\n\n或者向他展示以下25级的蜗牛（宠物）以获得100声望：'
-L['grogul_note'] = nil
+L['grogul_note'] = '与 {npc:204672} 交谈并选择一种可以用来鼓励这只蜗牛移动得更快的食物。\n{note:该成就可以在名望7之前获得。}'
 
 L['saccratos_note'] = '用 {item:204727} 换取宠物，坐骑和其他。'
 L['ponzo_note'] = '用 {item:204985} 和 {item:205903} 换取幼龙定制，宠物，坐骑和其他。'
