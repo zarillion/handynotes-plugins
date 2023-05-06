@@ -564,7 +564,7 @@ L['options_icons_titan_chest'] = 'Titan Chest'
 L['options_icons_titan_chest_desc'] = 'Display possible locations of {object:Titan Chest}.'
 
 L['living_mud_mask_note'] = [[
-Mudgatu will drop the {item:200586} which give you the {quest:70377} quest. This will take you over to {npc:198062} to turn them in.
+{npc:197346} will drop the {item:200586} which give you the {quest:70377} quest. This will take you over to {npc:198062} to turn them in.
 
 After that you have to speak with {npc:198062} again and ask him for a better reward. He will take a glider over to the VIP area so you can 'enjoy his company further as a reward'.
 

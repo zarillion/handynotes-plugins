@@ -28,7 +28,7 @@ L['broken_banding_note'] = 'Am Knöchel des rechten Fußes der Statue.'
 L['chunk_of_sculpture_note'] = 'Auf dem Boden, von der Drachenstatue aus auf der linken Seite.'
 L['dislodged_dragoneye_note'] = 'Auf einem Felsen unter der Brust der Drachenstatue.'
 L['finely_carved_wing_note'] = 'Unter dem rechten Knie der Drachenstatue.'
-L['fragment_requirement_note'] = ns.color.Orange('Bevor du die losen Teile einsammeln kannst, musst du {npc:193915} in der {location:Botschaft von Schwingenrast} bei der Drachenstatue fragen, was sie hier macht.}')
+L['fragment_requirement_note'] = ns.color.Orange('Bevor du die losen Teile einsammeln kannst, musst du {npc:193915} in der {location:Botschaft von Schwingenrast} bei der Drachenstatue fragen, was sie hier macht.')
 L['golden_claw_note'] = 'An der hinteren rechten Klaue der Drachenstatue.'
 L['precious_stone_fragment_note'] = 'Unter dem rechten Fuß der Statue.'
 L['stone_dragontooth_note'] = 'Auf dem Boden neben dem Sockel der Drachenstatue.'
@@ -565,16 +565,18 @@ L['options_icons_titan_chest'] = 'Titanentruhe'
 L['options_icons_titan_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Titanentruhen} an.'
 
 L['living_mud_mask_note'] = [[
-Plündere {item:200586} von Schlammgatu um die Quest {quest:70377} zu starten welche du bei {npc:198062} abschließen musst.
+Plündere {item:200586} von {npc:197346}, um die Quest {quest:70377} zu starten, welche du bei {npc:198062} abschließen musst.
 
-Nachdem du die Quest beentet hast sprich nochmal mit {npc:198062} und frag ihn nach einer besseren Belohnung. Er wird einen gleiter zum VIP Bereich nehmen damit du 'als Belognung seine Gesellschaft weiter genießen kannst'.
+Nachdem du die Quest beendet hast, sprich nochmal mit {npc:198062} und frage ihn nach einer anderen Belohnung.
 
-Wenn du bei der fliegenden Insel anokmmst wird {npc:198062} am Boden liegen. Sprich mit ihm und sag ihm dass er Tot aussieht.
+Er wird mit {npc:197467} sprechen, um in den VIP-Bereich zu gelangen und wird von diesem auf die fliegende Insel geworfen.
 
-{npc:198590} wird erscheinen und auf einen ast hinter {npc:197232} laufen. Wenn du nahe genug am Schleim stehst wird er dir die Quest {quest:72060} anbieten.
+Wenn du bei der fliegenden Insel ankommst, wird {npc:198062} am Boden liegen. Sprich mit ihm und sag ihm, dass er Tot aussieht.
 
-Geh zurück zu {npc:198062}, er wartet auf einer Bank, und schließe die Quest ab um {item:200872} zu erhalten.
-]] -- @Dathwada: please review, i had my client set to english and dont know the exact wording when talking to zeldis in german
+Verfolge die erscheinende {npc:198590} bis auf einen Ast hinter {npc:197232}. Wenn du nah genug am Schlamm stehst, wird er dir die Quest {quest:72060} anbieten.
+
+Geh zu {npc:198062} und schließe die Quest ab, um {item:200872} zu erhalten.
+]]
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -672,7 +674,7 @@ L['slumbering_worldsnail_note1'] = [[
 4. Kaufe mit den gesammelten {item:202173} das Reittier.
 ]]
 
-L['slumbering_worldsnail_note2'] = ns.color.Orange('ACHTUNG: Wenn du stirbst, verlierst du den Schwächungszauber {spell:386848}. Kaufe entweder für 20x {item:202173} eine neue Mitgliedschaft bei {npc:193310} bevor du stirbst oder du musst weitere Schlüssel abgeben, um eine neue Mitgliedschaft aus der Truhe zu erhalten.}')
+L['slumbering_worldsnail_note2'] = ns.color.Orange('ACHTUNG: Wenn du stirbst, verlierst du den Schwächungszauber {spell:386848}. Kaufe entweder für 20x {item:202173} eine neue Mitgliedschaft bei {npc:193310} bevor du stirbst oder du musst weitere Schlüssel abgeben, um eine neue Mitgliedschaft aus der Truhe zu erhalten.')
 
 L['magmashell_note'] = 'Erbeute von {npc:193138n} einen {item:201883} in der Nähe der {location:Obsidianzitadelle} und bringe es zu {npc:199010}.\n\n' .. ns.color.Orange('Es wird 20 Sekunden {spell:395626} kanalisiert, während du in der Lava bist, um das Reittier zu erhalten. Es ist empfehlenswert einen Heiler mitzubringen oder etwas wie das Spielzeug {item:200116}.')
 

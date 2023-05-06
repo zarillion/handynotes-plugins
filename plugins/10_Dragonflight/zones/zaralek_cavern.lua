@@ -62,6 +62,7 @@ map.nodes[48367509] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59185}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59492}), -- Cavern Clawbbering
+        Pet({item = 205154, id = 3548}), -- Aquapo
         Item({item = 192055}) -- Dragon Isle Artifact
     }
 }) -- Aquifon
@@ -96,7 +97,8 @@ map.nodes[31805061] = Rare({
     quest = 75361,
     rewards = {
         Achievement({id = 17783, criteria = 59209}), -- Adventurer of Zaralek Cavern
-        Achievement({id = 18100, criteria = 59495}) -- Cavern Clawbbering
+        Achievement({id = 18100, criteria = 59495}), -- Cavern Clawbbering
+        DC.WindingSlitherdrake.LargeFinnedThroat
     }
 }) -- Emberdusk
 
@@ -151,6 +153,8 @@ map.nodes[28515115] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59206}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59500}), -- Cavern Clawbbering
+        Toy({item = 205419}), -- Jrumm's Drum
+        DC.WindingSlitherdrake.Ears, --
         Currency({id = 2245}) -- Flightstones
     }
 }) -- Jrumm
@@ -394,7 +398,8 @@ map.nodes[32333935] = Treasure({
     pois = {
         POI({
             25244480, 26704700, 27704900, 27955121, 28755530, 29954797,
-            30204000, 31185195, 34414571, 35634877, 36204401, 37624663, 32735262
+            30204000, 31185195, 34414571, 35634877, 36204401, 37624663,
+            32735262, 29144250
         })
     }
 }) -- Seething Cache
@@ -554,9 +559,9 @@ local SmellyTrashPile = Class('SmellyTrashPile', ns.node.Node, {
 }) -- Smelly Trash Pile
 
 map.nodes[31175207] = SmellyTrashPile()
+map.nodes[35044233] = SmellyTrashPile()
 map.nodes[35244459] = SmellyTrashPile()
 map.nodes[35754907] = SmellyTrashPile()
-map.nodes[42014541] = SmellyTrashPile()
 map.nodes[37056988] = SmellyTrashPile()
 map.nodes[37403969] = SmellyTrashPile()
 map.nodes[37458125] = SmellyTrashPile()
@@ -564,12 +569,12 @@ map.nodes[39377663] = SmellyTrashPile()
 map.nodes[40155751] = SmellyTrashPile()
 map.nodes[40415197] = SmellyTrashPile()
 map.nodes[40613568] = SmellyTrashPile()
+map.nodes[42014541] = SmellyTrashPile()
 map.nodes[43163817] = SmellyTrashPile()
 map.nodes[43552886] = SmellyTrashPile()
 map.nodes[44686196] = SmellyTrashPile()
-map.nodes[45384348] = SmellyTrashPile()
-map.nodes[59225178] = SmellyTrashPile()
 map.nodes[45177786] = SmellyTrashPile()
+map.nodes[45384348] = SmellyTrashPile()
 map.nodes[45443717] = SmellyTrashPile()
 map.nodes[46366109] = SmellyTrashPile()
 map.nodes[46726819] = SmellyTrashPile()
@@ -583,6 +588,7 @@ map.nodes[51931544] = SmellyTrashPile()
 map.nodes[52562740] = SmellyTrashPile()
 map.nodes[57047087] = SmellyTrashPile()
 map.nodes[57476456] = SmellyTrashPile()
+map.nodes[59225178] = SmellyTrashPile()
 map.nodes[60195755] = SmellyTrashPile()
 map.nodes[62325600] = SmellyTrashPile()
 
@@ -826,7 +832,7 @@ map.nodes[58155759] = Dragonrace({
     }
 }) -- Zaralek Zigzag
 
-map.nodes[51204665] = Dragonrace({
+map.nodes[51264667] = Dragonrace({
     label = '{quest:75035}',
     normal = {2251, 67, 64},
     advanced = {2257, 62, 57},
