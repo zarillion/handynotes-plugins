@@ -752,7 +752,7 @@ L['waterlogged_bundle_label'] = '浸濕的包裹'
 L['stolen_stash_label'] = '偷取的儲物箱'
 L['ritual_offering_label'] = '儀式祭品'
 L['options_icons_ritual_offering'] = '儀式祭品'
-L['options_icons_ritual_offering_desc'] = nil
+L['options_icons_ritual_offering_desc'] = '顯示 {object:儀式祭品} 可能的位置.'
 L['nal_kskol_reliquary_label'] = '納克斯科聖匣'
 L['nal_kskol_reliquary_note'] = '使用 {object:聖匣存取控制臺} 並解開謎題來開啟 {object:納克斯科聖匣}.'
 
@@ -761,8 +761,8 @@ L['bolts_and_brass_note'] = '開啟 {object:螺栓與黃銅} 並拾取 {item:204
 
 L['sniffen_sage_suffix'] = '特殊物品已發現'
 
-L['big_slick_note'] = nil -- '可以在舊世界的 {location:黑海岸} 找到 {npc:48182}. 和 {npc:141489} 交談以回到 {location:荊棘之戰} 之前的時間.'
-L['grogul_note'] = nil
+L['big_slick_note'] = '從 {npc:201752} 完成他的每日任務並達到 {faction:2568} 聲望 "專業" 可以取得坐騎.\n\n 展示以下達到25級的蝸牛 (戰寵) 每隻也可獲得100聲望:'
+L['grogul_note'] = '和 {npc:204672} 交談並選擇一種零食可以鼓勵那種蝸牛跑得更快.\n{note:此成就可以在名望7之前獲得.}'
 
 L['saccratos_note'] = '用 {item:204727} 交換寵物, 坐騎和更多東西.'
 L['ponzo_note'] = '用 {item:204985} 和 {item:205903} 交換飛龍自訂, 寵物, 坐騎和更多東西.'
@@ -773,4 +773,4 @@ L['options_icons_smelly_trash_pile_desc'] = '顯示 {object:臭臭垃圾堆} 可
 
 L['seething_cache_treasure_note'] = '要能夠看到 {object:沸騰貯藏箱} 並拾取 {item:192779}. 你需要在 {location:扎拉萊克洞窟} 的 {location:薩克利火山口} 內, 從 {object:沸騰寶珠} 上取得3層 {spell:399342} 減益.'
 L['chest_of_the_flights_treasure_note'] = '要開啟寶箱你必須按照順序點選 {object:Empowered Gems} {note:紅> 黑 > 藍 > 黃 > 綠}.'
-L['curious_top_hat_note'] = nil
+L['curious_top_hat_note'] = '當你有 {spell:410288} 增益時和 {npc:205010} 互動來拿到 {item:205021}. 如果你沒有增益的時候靠近他他會跑掉.'
