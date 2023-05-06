@@ -700,7 +700,7 @@ map.nodes[48101659] = PT.Engineering({
 map.nodes[48162790] = PT.Engineering({id = 204470, quest = 75183}) -- Haphazardly Discarded Bombs
 map.nodes[48484868] = PT.Engineering({id = 204469, quest = 75180}) -- Misplace Aberrus Outflow Blueprints
 map.nodes[49437901] = PT.Engineering({id = 204853, quest = 75431}) -- Discarded Dracothyst Drill
-map.nodes[49875919] = PT.Engineering({id = 204471, quest = 75188}) -- Inconspicuous Data Miner
+map.nodes[49875919] = PT.Engineering({id = 204480, quest = 75188}) -- Inconspicuous Data Miner
 map.nodes[57657393] = PT.Engineering({
     id = 204850,
     quest = 75430,
