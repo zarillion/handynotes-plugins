@@ -1696,7 +1696,7 @@ val.nodes[43757494] = Collectible({
 
 map.nodes[40474531] = Collectible({
     id = 197346,
-    -- quest = 72060,
+    quest = 72060,
     icon = 1500916,
     note = L['living_mud_mask_note'],
     rewards = {Pet({item = 200872, id = 3405})}
