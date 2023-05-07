@@ -1331,6 +1331,7 @@ map.nodes[83564475] = Disturbeddirt()
 -------------------------------------------------------------------------------
 
 map.nodes[23017547] = Scoutpack()
+map.nodes[23569648] = Scoutpack({note = cave, requires = r_anomaly_detect})
 map.nodes[24997818] = Scoutpack()
 map.nodes[26628764] = Scoutpack()
 map.nodes[28868321] = Scoutpack()
@@ -1351,8 +1352,10 @@ map.nodes[47164139] = Scoutpack()
 map.nodes[47355739] = Scoutpack()
 map.nodes[47383898] = Scoutpack()
 map.nodes[48134457] = Scoutpack()
+map.nodes[51078421] = Scoutpack()
 map.nodes[51668253] = Scoutpack()
 map.nodes[51824744] = Scoutpack()
+map.nodes[52138491] = Scoutpack()
 map.nodes[52745025] = Scoutpack()
 map.nodes[55774334] = Scoutpack()
 map.nodes[55887676] = Scoutpack()
@@ -1369,7 +1372,6 @@ map.nodes[72155969] = Scoutpack({note = cave, requires = r_mining})
 map.nodes[72595687] = Scoutpack()
 map.nodes[80903776] = Scoutpack({note = cave})
 map.nodes[82055012] = Scoutpack()
-map.nodes[23569648] = Scoutpack({note = cave, requires = r_anomaly_detect})
 
 -------------------------------------------------------------------------------
 -------------------------------- DJARADIN CACHE -------------------------------
