@@ -747,7 +747,7 @@ L['bugbiter_tortoise_note'] = 'Consigue un {item:202082} {dot:Red} y un {item:20
 
 L['in_deepflayer_nest'] = 'Dentro del {location:Nido de los Despellejadores}.'
 
-L['brulsef_the_stronk_note'] = 'Despoja tus recompensas del {object:Cofre de Enormes Beneficios}.'
+L['brulsef_the_stronk_note'] = 'Despoja tus recompensas del {object:Cofre de Enormes Beneficios}.\n\n{bug:No le dejes ir muy lejos de la posición inicial o no habrá ningún cofre tras derrotarlo.}'
 
 L['ancient_zaqali_chest_note'] = 'Usa el {object:Magma Embotellado} cercano para abrir el cofre.'
 L['blazing_shadowflame_chest_note'] = 'Equipa la {item:15138}, que se puede comprar en la Casa de Subastas o crease por un peletero, para despojar el cofre.'
