@@ -746,7 +746,7 @@ L['bugbiter_tortoise_note'] = '收集 {item:202082} {dot:Red} 和 {item:202084} 
 
 L['in_deepflayer_nest'] = '位于 {location:深岩剥石者之巢}'
 
-L['brulsef_the_stronk_note'] = '从 {object:丰盛收获宝箱} 拾取奖励。\n{bug:不要让他离初始位置太远，否则打败他没有宝箱。}'
+L['brulsef_the_stronk_note'] = '从 {object:丰盛收获宝箱} 拾取奖励。\n\n{bug:不要让他离初始位置太远，否则打败他没有宝箱。}'
 
 L['ancient_zaqali_chest_note'] = '使用附近的 {object:瓶装岩浆} 打开宝箱。'
 L['blazing_shadowflame_chest_note'] = '装备 {item:15138}，可以从拍卖行购买或由制皮制作，以拾取宝箱。'
