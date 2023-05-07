@@ -564,7 +564,17 @@ L['titan_chest'] = 'Coffre des Titans'
 L['options_icons_titan_chest'] = 'Coffre des Titans'
 L['options_icons_titan_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres des Titans}.'
 
-L['living_mud_mask_note'] = nil
+L['living_mud_mask_note'] = [[
+{npc:197346} laissera tomber les {item:200586} qui vous donneront la quête {quest:70377}. Cela vous conduira jusqu'à {npc:198062} pour les rendre.
+
+Ensuite, vous devrez parler de nouveau à {npc:198062} et lui demander une meilleure récompense. Il prendra alors un planeur pour se rendre à la zone VIP, afin que vous puissiez "profiter davantage de sa compagnie en guise de récompense".
+
+Lorsque vous arriverez sur l'île flottante, {npc:198062} se trouvera sur le sol. Parlez-lui à nouveau, en lui disant qu'il a l'air mort.
+
+Un petit slime nommé {npc:198590} apparaîtra et s'enfuira vers une branche située derrière {npc:197232}. Une fois que vous vous serez approché suffisamment, le slime vous donnera la quête {quest:72060}.
+
+Revenez voir {npc:198062}, assis sur un banc, et rendez la quête pour obtenir votre {item:200872}.
+]]
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -726,7 +736,7 @@ Utilisez cette amulette et ramassez des {item:202062} {dot:Red} trouvées à l'{
 ]]
 L['phoenix_wishwing_info'] = 'Ceci fait partie de de la méthode d\'obtention du {item:193373} situé aux {location:Rivages de l’Éveil} sur les {location:Îles aux Dragons}.'
 
-L['bugbiter_tortoise_note'] = nil
+L['bugbiter_tortoise_note'] = 'Récupérez l\'{item:202082}({dot:Red}) et le {item:202084}({dot:Green}) et échangez-les à {npc:187077} contre votre {item:202085}.\n\n{npc:187077} n\'est présente que lorsque l\'expédition {quest:66070} est active.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
@@ -734,7 +744,7 @@ L['bugbiter_tortoise_note'] = nil
 
 L['in_deepflayer_nest'] = 'A l\'intérieur du {location:Nid de flagellants des profondeurs}'
 
-L['brulsef_the_stronk_note'] = 'Récupérez vos récompenses à partir du {object:Coffre de gains massifs}.'
+L['brulsef_the_stronk_note'] = 'Récupérez vos récompenses à partir du {object:Coffre de gains massifs}.\n\n{bug:Ne le laissez pas trop s\'éloigner de sa position initiale, sinon le coffre ne sera pas disponible après l\'avoir vaincu.}'
 
 L['ancient_zaqali_chest_note'] = 'Utilisez un {object:Magma en bouteille} à proximité pour ouvrir le coffre.'
 L['blazing_shadowflame_chest_note'] = 'Équipez la {item:15138}, qui peut être achetée à l\'hôtel des ventes ou fabriquée par un travailleur du cuir, pour pouvoir ouvrir le coffre.'
