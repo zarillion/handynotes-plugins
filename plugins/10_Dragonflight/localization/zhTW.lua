@@ -750,7 +750,7 @@ L['brulsef_the_stronk_note'] = '從 {object:巨型收穫寶箱} 拾取你的獎�
 
 L['ancient_zaqali_chest_note'] = '使用附近的 {object:瓶裝熔岩} 來打開箱子.'
 L['blazing_shadowflame_chest_note'] = '裝備 {item:15138} 來拾取箱子, 可以從拍賣場購買或是由製皮製造.'
-L['crystal_encased_chest_note'] = '和藍色 {object:調諧水晶} ({dot:Blue}) 與紅色 {object:調諧水晶} ({dot:Red}) 互動來開啟箱子.'
+L['crystal_encased_chest_note'] = '和藍色 {object:調和水晶} ({dot:Blue}) 與紅色 {object:調和水晶} ({dot:Red}) 互動來開啟箱子.'
 L['old_trunk_note'] = '找到並點選 {npc:204277} 5次, 來取得 {item:204323}. {note:第一隻老鼠在箱子附近}'
 L['well_chewed_chest_note'] = '{item:202869}({dot:Green}) 藏在山洞裡的 {npc:199962} 下面.'
 
