@@ -592,7 +592,7 @@ L['obsidian_throne_rare_note'] = 'Innerhalb des {location:Obsidianthron}.'
 L['slurpo_snail_note'] = 'Plündere in einer Höhle im {location:Azurblauen Gebirge} (11.0, 41.4) aus einem {object:Salzkristall} ein {item:201033} und benutze ihn in einer Höhle in {location:Die Küste des Erwachens} (36.0, 89.8), um den seltenen Gegner erscheinen zu lassen.'
 L['worldcarver_atir_note'] = 'Sammle 3x {item:191211} von {npc:187366} in der Nähe und platziere diese beim {npc:197395}, um den seltenen Gegner erscheinen zu lassen.'
 
-L['bubble_drifter_note'] = '{item:199061} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
+L['bubble_drifter_note'] = '{item:199061} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.\n\nUm mit dem Fisch zu interagieren benötigst du den {spell:388331} von einer {object:Duftenden Pflanze} in der nähe.'
 L['dead_mans_chestplate_note'] = 'Im Inneren des Turms auf der mittleren Etage.'
 L['fullsails_supply_chest_note'] = 'Der Schlüssel kann südlich der {location:Botschaft von Schwingenrast} von {npc:187971} und {npc:187320} fallen gelassen werden.'
 L['golden_dragon_goblet_note'] = 'Plündere {item:202081} von {npc:190056} an der {location:Wilde Küste} und schließe die kleine Questreihe ab.'

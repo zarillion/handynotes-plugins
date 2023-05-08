@@ -823,7 +823,8 @@ map.nodes[40454136] = Treasure({ -- required 65537, 70599, 70527
     rewards = {
         Achievement({id = 16297, criteria = 54699}),
         Pet({item = 193852, id = 3269}) -- Azure Frillfish
-    }
+    },
+    pois = {POI({40944146})}
 }) -- Bubble Drifter
 
 map.nodes[69314658] = Treasure({

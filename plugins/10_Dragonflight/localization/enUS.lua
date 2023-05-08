@@ -589,7 +589,7 @@ L['obsidian_throne_rare_note'] = 'Inside the {location:Obsidian Throne}.'
 L['slurpo_snail_note'] = 'Loot a {item:201033} from {object:Salt Crystal} in {location:The Azure Span} cave (11, 41) and use it in {location:The Waking Shores} cave to summon him.'
 L['worldcarver_atir_note'] = 'Collect 3x {item:191211} from {npc:187366} nearby and place them at {npc:197395} to spawn the rare.'
 
-L['bubble_drifter_note'] = '{item:199061} can be found in {object:Expedition Scout\'s Packs} and {object:Disturbed Dirts}.'
+L['bubble_drifter_note'] = '{item:199061} can be found in {object:Expedition Scout\'s Packs} and {object:Disturbed Dirts}.\n\nTo interact with the fish you need to get {spell:388331} from the {object:Fragrant Plant} nearby.'
 L['dead_mans_chestplate_note'] = 'Inside the tower on the middle floor.'
 L['fullsails_supply_chest_note'] = 'The key drops from {npc:187971s} and {npc:187320s} south of {location:Wingrest Embassy}.'
 L['golden_dragon_goblet_note'] = 'Loot {item:202081} from {npc:190056} on the {location:Wild Coast} and complete the small quest line.'
