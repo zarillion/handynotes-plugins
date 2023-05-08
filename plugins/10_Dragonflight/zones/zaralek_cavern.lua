@@ -167,6 +167,7 @@ map.nodes[42226524] = Rare({
         Achievement({id = 17783, criteria = 59199}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59501}), -- Cavern Clawbbering
         Mount({item = 205203, id = 1732}), -- Cobalt Shalewing
+        DC.WindingSlitherdrake.SmallFinnedTail, --
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
@@ -580,6 +581,7 @@ map.nodes[46366109] = SmellyTrashPile()
 map.nodes[46726819] = SmellyTrashPile()
 map.nodes[47054134] = SmellyTrashPile()
 map.nodes[47104296] = SmellyTrashPile()
+map.nodes[48115839] = SmellyTrashPile()
 map.nodes[49154325] = SmellyTrashPile()
 map.nodes[50326091] = SmellyTrashPile()
 map.nodes[51055710] = SmellyTrashPile()
@@ -929,6 +931,7 @@ local Briggul = Class('Briggul', Collectible, {
     requires = {
         ns.requirement.Quest(73708), -- Pay to Play
         ns.requirement.Quest(73709), -- Favor on the Side
+        ns.requirement.Quest(75725), -- Off to the Track
         ns.requirement.Reputation(2564, 7, true) -- Loamm Niffen
     },
     rewards = {
@@ -949,8 +952,8 @@ function Briggul.getters:note()
     local pets = { -- {quest, npc}
         {74948, 154836}, {74949, 184187}, {74950, 154718}, {74952, 184195},
         {74959, 98445}, {74960, 183292}, {74961, 154837}, {74962, 64352},
-        {74963, 62313}, {74964, 51635}, {74965, 139450}, {74786, 62246},
-        {74966, 63001}, {74967, 154716}, {74968, 107125}
+        {74963, 62313}, {74964, 51635}, {74965, 184196}, {74786, 62246},
+        {74966, 63001}, {74967, 154716}, {74968, 107206}
     }
     for i in ipairs(pets) do
         note = note .. status(pets[i][1]) .. ' {npc:' .. pets[i][2] .. '}\n'
