@@ -590,7 +590,7 @@ L['obsidian_throne_rare_note'] = 'À l\'intérieur du {location:Trône d\'obsidi
 L['slurpo_snail_note'] = 'Récupérez un {item:201033} sur un {object:Cristal de sel} dans une grotte de {location:La Travée d\'Azur} (11, 41) et utilisez-le dans la grotte aux {location:Rivages de l’Éveil} pour l\'invoquer.'
 L['worldcarver_atir_note'] = 'Récupérez 3x {item:191211} sur les {npc:187366} à proximité et placez-les sur les {npc:197395} pour faire apparaître le rare.'
 
-L['bubble_drifter_note'] = '{item:199061} peut être trouvé dans les {object:Paquetages d\'éclaireurs de l\'expédition} et les {object:Terres retournées}.'
+L['bubble_drifter_note'] = '{item:199061} peut être trouvé dans les {object:Paquetages d\'éclaireurs de l\'expédition} et les {object:Terres retournées}.\n\nPour interagir avec le poisson, vous devez obtenir {spell:388331} grâce à la {object:Plante parfumée} située à proximité.'
 L['dead_mans_chestplate_note'] = 'A l\'intérieur de la tour, au niveau intermédiaire.'
 L['fullsails_supply_chest_note'] = 'La clé est récupérable sur les {npc:187971s} et {npc:187320s} au sud de l\'{location:Ambassade de Trêve-Ailée}.'
 L['golden_dragon_goblet_note'] = 'Récupérez un {item:202081} sur les {npc:190056} sur la {location:Côte Sauvage} et terminez la petite suite de quêtes.'
