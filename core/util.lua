@@ -1,5 +1,8 @@
 local ADDON_NAME, ns = ...
 
+local L = ns.locale
+local Class = ns.Class
+
 -------------------------------------------------------------------------------
 ------------------------------ DATAMINE TOOLTIP -------------------------------
 -------------------------------------------------------------------------------
@@ -270,13 +273,16 @@ local function HEXtoRGBA(color)
         tonumber(a, 16) / 255
 end
 
+-------------------------------------------------------------------------------
+------------------------------- Interval Class --------------------------------
+-------------------------------------------------------------------------------
 
 local Interval = Class('Interval')
 
 function Interval:Initialize(attrs)
     if attrs then for k, v in pairs(attrs) do self[k] = v end end
 
-    local region_initial= {
+    local region_initial = {
         [1] = self.initial.us,
         [2] = self.initial.kr,
         [3] = self.initial.eu,
@@ -285,7 +291,9 @@ function Interval:Initialize(attrs)
     }
 
     if self.id then
-        self.SpawnTime =  self.id * self.offset + region_initial[GetCurrentRegion()]
+        self.SpawnTime = self.id * self.offset +
+                             region_initial[GetCurrentRegion()] or
+                             self.initial.us
     end
 end
 
@@ -295,28 +303,34 @@ function Interval:Next()
     local CurrentTime = GetServerTime()
     local SpawnTime = self.SpawnTime
 
-    local NextSpawn = SpawnTime + math.ceil((CurrentTime - SpawnTime) / self.interval) * self.interval
+    local NextSpawn = SpawnTime +
+                          math.ceil((CurrentTime - SpawnTime) / self.interval) *
+                          self.interval
     local TimeLeft = NextSpawn - CurrentTime
 
     return NextSpawn, TimeLeft
 end
 
-function Interval:Render(timeYellow, timeGreen)
-    local TimeFormat = ns:GetOpt('use_standard_time') and L['time_format_12hrs'] or L['time_format_24hrs']
+function Interval:GetText()
+    local TimeFormat = ns:GetOpt('use_standard_time') and self.format_12hrs or
+                           self.format_24hrs
+
+    local NextSpawn, TimeLeft = self:Next()
 
     local SpawnsIn = TimeLeft <= 60 and L['now'] or
-        SecondsToTime(TimeLeft, true, true)
+                         SecondsToTime(TimeLeft, true, true)
 
-    if timeYellow and timeGreen then
+    if self.yellow and self.green then
         local color = ns.color.Orange
-        if TimeLeft < timeYellow then color = ns.color.Yellow end
-        if TimeLeft < timeGreen then color = ns.color.Green end
+        if TimeLeft < self.yellow then color = ns.color.Yellow end
+        if TimeLeft < self.green then color = ns.color.Green end
         SpawnsIn = color(SpawnsIn)
     end
 
-    local  =
-
-    return format('%s (%s)', SpawnsIn, date(format, NextSpawn))
+    local text = format('%s (%s)', SpawnsIn, date(TimeFormat, NextSpawn))
+    if self.text then text = format(self.text, text) end
+    ns.PrepareLinks(text)
+    return text
 end
 
 -------------------------------------------------------------------------------
@@ -331,3 +345,4 @@ ns.PlayerHasItem = PlayerHasItem
 ns.PlayerHasProfession = PlayerHasProfession
 ns.PrepareLinks = PrepareLinks
 ns.RenderLinks = RenderLinks
+ns.Interval = Interval

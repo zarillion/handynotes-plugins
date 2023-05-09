@@ -1213,113 +1213,55 @@ local ElementalChest = Class('ElementalChest', ns.node.Treasure, {
 ns.node.ElementalChest = ElementalChest
 
 -------------------------------------------------------------------------------
-------------------------------- INTERVAL RARES --------------------------------
+---------------------------------- INTERVALS ----------------------------------
 -------------------------------------------------------------------------------
+ns.Intervals = {}
 
-local function nextSpawn(self, timeYellow, timeGreen)
-    local region = GetCurrentRegion() -- https://wowpedia.fandom.com/wiki/API_GetCurrentRegion
-    local initial = self.initialSpawn
-    local CurrentTime = GetServerTime()
-
-    local SpawnTime = self.rotationID * self.spawnOffset
-    if region == 2 and initial.kr then
-        SpawnTime = SpawnTime + initial.kr
-    elseif region == 3 and initial.eu then
-        SpawnTime = SpawnTime + initial.eu
-    elseif region == 2 and initial.tw then
-        SpawnTime = SpawnTime + initial.tw
-    else
-        SpawnTime = SpawnTime + initial.us
-    end
-
-    local NextSpawn = SpawnTime +
-                          math.ceil(
-            (CurrentTime - SpawnTime) / self.spawnInterval) * self.spawnInterval
-    local TimeLeft = NextSpawn - CurrentTime
-    local SpawnsIn = TimeLeft <= 60 and L['now'] or
-                         SecondsToTime(TimeLeft, true, true)
-
-    if timeYellow and timeGreen then
-        local color = ns.color.Orange
-        if TimeLeft < timeYellow then color = ns.color.Yellow end
-        if TimeLeft < timeGreen then color = ns.color.Green end
-        SpawnsIn = color(SpawnsIn)
-    end
-
-    local TimeFormat =
-        ns:GetOpt('use_standard_time') and L['time_format_12hrs'] or
-            L['time_format_24hrs']
-    return format('%s (%s)', SpawnsIn, date(TimeFormat, NextSpawn))
-end
-
----------------------------------- 14 HOURS -----------------------------------
-
-local Rare14h = Class('Rare14h', Rare, {
-    initialSpawn = {eu = 1676237400, us = 1677335400, tw = 1675701000}, -- initial spawn time of the first rare to calculate other rares
-    spawnOffset = 1800, -- time between rares
-    spawnInterval = 50400 -- inverval of a single rare
+ns.Intervals.Interval14h = Class('Interval14h', ns.Interval, {
+    initial = {eu = 1676237400, us = 1677335400, tw = 1675701000}, -- initial spawn time of the first rare to calculate other rares
+    offset = 1800, -- time between rares
+    interval = 50400, -- inverval of a single rare
+    yellow = 14400,
+    green = 1800,
+    text = L['rare_14h'],
+    format_12hrs = L['time_format_12hrs'],
+    format_24hrs = L['time_format_24hrs']
 })
 
-function Rare14h.getters:note()
-    local note = format(L['rare_14h'], nextSpawn(self, 14400, 1800))
-    if self.cave then note = note .. '\n\n' .. L['in_cave'] end
-    return note
-end
-
-local RareElite14h = Class('RareElite14h', RareElite, {
-    initialSpawn = {eu = 1676237400, us = 1677335400, tw = 1675701000},
-    spawnOffset = 1800,
-    spawnInterval = 50400
+ns.Intervals.BrackenhideInterval = Class('BrackenhideInterval', ns.Interval, {
+    initial = {us = 1672531800, eu = 1672531200, tw = 1677162000},
+    offset = 600,
+    interval = 2400,
+    yellow = 1200,
+    green = 600,
+    text = L['brackenhide_rare_note'],
+    format_12hrs = L['time_format_12hrs'],
+    format_24hrs = L['time_format_24hrs']
 })
 
-function RareElite14h.getters:note()
-    local note = format(L['rare_14h'], nextSpawn(self, 14400, 1800))
-    if self.cave then note = note .. '\n\n' .. L['in_cave'] end
-    return note
-end
-
---------------------------------- BRACKENHIDE ---------------------------------
-
-local Brackenhide = Class('Brackenhide', Rare, {
-    initialSpawn = {us = 1672531800, eu = 1672531200, tw = 1677162000},
-    spawnOffset = 600,
-    spawnInterval = 2400
+ns.Intervals.FeastInterval = Class('FeastInterval', ns.Interval, {
+    initial = {us = 1677164400, eu = 1677168000, tw = 1677166200},
+    offset = 5400,
+    interval = 5400,
+    id = 0,
+    yellow = 3600,
+    green = 600,
+    text = L['bisquis_note'],
+    format_12hrs = L['time_format_12hrs'],
+    format_24hrs = L['time_format_24hrs']
 })
 
-function Brackenhide.getters:note()
-    return format(L['brackenhide_rare_note'], nextSpawn(self, 1200, 600))
-end
-
------------------------------------- FEAST ------------------------------------
-
-local Feast = Class('Feast', Rare, {
-    initialSpawn = {us = 1677164400, eu = 1677168000, tw = 1677166200},
-    spawnOffset = 5400, -- review
-    spawnInterval = 5400, -- review
-    rotationID = 0
+ns.Intervals.AylaagCampInterval = Class('AylaagCampInterval', ns.Interval, {
+    initial = {us = 1677456000, eu = 1677502800, tw = 1677571200},
+    offset = 270000,
+    interval = 810000,
+    id = 0,
+    yellow = 7200,
+    green = 1800,
+    text = L['aylaag_camp_note'],
+    format_12hrs = L['time_format_12hrs'],
+    format_24hrs = L['time_format_24hrs']
 })
-
-function Feast.getters:note()
-    return format(L['bisquis_note'], nextSpawn(self, 3600, 600))
-end
-
------------------------------ THE OHN'AHRAN TRAIL -----------------------------
-
-local AylaagCamp = Class('AylaagCamp', Collectible, {
-    initialSpawn = {us = 1677456000, eu = 1677502800, tw = 1677571200},
-    spawnOffset = 270000,
-    spawnInterval = 810000
-})
-
-function AylaagCamp.getters:note()
-    return format(L['aylaag_camp_note'], nextSpawn(self, 7200, 1800))
-end
-
-ns.node.Rare14h = Rare14h
-ns.node.RareElite14h = RareElite14h
-ns.node.Brackenhide = Brackenhide
-ns.node.Feast = Feast
-ns.node.AylaagCamp = AylaagCamp
 
 -------------------------------------------------------------------------------
 ------------------------------ ELEMENTAL STORMS -------------------------------
