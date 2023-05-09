@@ -206,7 +206,7 @@ map.nodes[65435587] = Rare({
         Achievement({id = 17783, criteria = 59183}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59504}), -- Cavern Clawbbering
         Pet({item = 205152, id = 3546}), -- Skaarn
-        Item({id = 206021, note = '{item:205151}'}) -- Kob'rok's Luminescent Scale (for Salverun Pet)
+        Item({item = 206021, note = '{item:205151}'}) -- Kob'rok's Luminescent Scale (for Salverun Pet)
     },
     pois = {POI({64785550})} -- Entrance
 }) -- Kob'rok
