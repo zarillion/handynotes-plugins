@@ -589,7 +589,7 @@ L['obsidian_throne_rare_note'] = '{location:黑曜王座} 内。'
 L['slurpo_snail_note'] = '从 {location:碧蓝林海}（11, 41）的一个洞穴中从 {object:盐晶} 拾取1个 {item:201033} 并在 {location:觉醒海岸} 的洞穴中使用来召唤他。'
 L['worldcarver_atir_note'] = '从附近的 {npc:187366} 收集3个 {item:191211} 并将它们放置在 {npc:197395} 后稀有出现。'
 
-L['bubble_drifter_note'] = '{item:199061} 可以从 {object:探险队斥候的背包} 和 {object:翻动过的泥土} 中找到。'
+L['bubble_drifter_note'] = '{item:199061} 可以从 {object:探险队斥候的背包} 和 {object:翻动过的泥土} 中找到。\n\n要与鱼互动，需要从附近的 {object:芳香的植物} 获得 {spell:388331}。'
 L['dead_mans_chestplate_note'] = '塔内中层。'
 L['fullsails_supply_chest_note'] = '钥匙从 {location:翼眠大使馆} 以南的 {npc:187971} 和 {npc:187320} 掉落。'
 L['golden_dragon_goblet_note'] = '在完成 {location:狂野海滩} 小任务线上从 {npc:190056} 拾取 {item:202081}。'
