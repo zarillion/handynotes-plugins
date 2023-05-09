@@ -93,8 +93,6 @@ L['options_icons_signal_transmitter'] = 'Transmisores de Generadores de Agujeros
 L['options_icons_signal_transmitter_desc'] = 'Muestra dónde están los {object:Transmisor Desactivado} para los {item:198156}.'
 
 L['rare_14h'] = 'Este raro está en una rotación de 14 horas junto con otros raros. Hay una aparición rara cada 30 minutos.\n\nPróxima aparición: {note:%s}'
-L['time_format_12hrs'] = '%I:%M %p - %d/%m Hora local'
-L['time_format_24hrs'] = '%H:%M - %d/%m Hora local'
 L['now'] = 'Ahora'
 L['spawns_at_night'] = '{note:Sólo aparece por la noche. (Después de las 18:30 hora del servidor)}'
 
