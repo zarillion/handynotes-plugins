@@ -270,6 +270,55 @@ local function HEXtoRGBA(color)
         tonumber(a, 16) / 255
 end
 
+
+local Interval = Class('Interval')
+
+function Interval:Initialize(attrs)
+    if attrs then for k, v in pairs(attrs) do self[k] = v end end
+
+    local region_initial= {
+        [1] = self.initial.us,
+        [2] = self.initial.kr,
+        [3] = self.initial.eu,
+        [4] = self.initial.tw,
+        [5] = self.initial.cn
+    }
+
+    if self.id then
+        self.SpawnTime =  self.id * self.offset + region_initial[GetCurrentRegion()]
+    end
+end
+
+function Interval:Next()
+    if not (self.id and self.initial and self.interval) then return false end
+    local region = GetCurrentRegion() -- https://wowpedia.fandom.com/wiki/API_GetCurrentRegion
+    local CurrentTime = GetServerTime()
+    local SpawnTime = self.SpawnTime
+
+    local NextSpawn = SpawnTime + math.ceil((CurrentTime - SpawnTime) / self.interval) * self.interval
+    local TimeLeft = NextSpawn - CurrentTime
+
+    return NextSpawn, TimeLeft
+end
+
+function Interval:Render(timeYellow, timeGreen)
+    local TimeFormat = ns:GetOpt('use_standard_time') and L['time_format_12hrs'] or L['time_format_24hrs']
+
+    local SpawnsIn = TimeLeft <= 60 and L['now'] or
+        SecondsToTime(TimeLeft, true, true)
+
+    if timeYellow and timeGreen then
+        local color = ns.color.Orange
+        if TimeLeft < timeYellow then color = ns.color.Yellow end
+        if TimeLeft < timeGreen then color = ns.color.Green end
+        SpawnsIn = color(SpawnsIn)
+    end
+
+    local  =
+
+    return format('%s (%s)', SpawnsIn, date(format, NextSpawn))
+end
+
 -------------------------------------------------------------------------------
 
 ns.AsIDTable = AsIDTable
