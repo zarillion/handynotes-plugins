@@ -76,6 +76,7 @@ map.nodes[41518613] = Rare({
         Achievement({id = 17783, criteria = 59202}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59493}), -- Cavern Clawbbering
         Transmog({item = 205313, slot = L['mail']}), -- Brullo's Wristbraces
+        Pet({item = 205114, id = nil}), -- Brul -- TODO: Pet ID
         Recipe({item = 204847, profession = 185}) -- Recipe: Rocks on the Rocks
     }
 }) -- Brulsef the Stronk
@@ -167,11 +168,12 @@ map.nodes[42226524] = Rare({
         Achievement({id = 17783, criteria = 59199}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59501}), -- Cavern Clawbbering
         Mount({item = 205203, id = 1732}), -- Cobalt Shalewing
+        Pet({item = 205147, id = nil}), -- Ridged Shalewing -- TODO: Pet ID
         DC.WindingSlitherdrake.SmallFinnedTail, --
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
-}) -- Kairoktra
+}) -- Karokta
 
 map.nodes[59593949] = Rare({
     id = 203466,
@@ -202,7 +204,9 @@ map.nodes[65435587] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59183}), -- Adventurer of Zaralek Cavern
-        Achievement({id = 18100, criteria = 59504}) -- Cavern Clawbbering
+        Achievement({id = 18100, criteria = 59504}), -- Cavern Clawbbering
+        Pet({item = 205152, id = nil}), -- Skaarn -- TODO: Pet ID
+        Item({id = 206021, note = '{item:205151}'}) -- Kob'rok's Luminescent Scale (for Salverun Pet)
     },
     pois = {POI({64785550})} -- Entrance
 }) -- Kob'rok
@@ -277,7 +281,8 @@ map.nodes[57766910] = Rare({
     quest = 75297,
     rewards = {
         Achievement({id = 17783, criteria = 59191}), -- Adventurer of Zaralek Cavern
-        Achievement({id = 18100, criteria = 59510}) -- Cavern Clawbbering
+        Achievement({id = 18100, criteria = 59510}), -- Cavern Clawbbering
+        Pet({item = 205159, id = nil}) -- Teardrop Moth -- TODO: Pet ID
     }
 }) -- Underlight Queen
 
