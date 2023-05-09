@@ -1217,50 +1217,47 @@ ns.node.ElementalChest = ElementalChest
 -------------------------------------------------------------------------------
 ns.Intervals = {}
 
-ns.Intervals.Interval14h = Class('Interval14h', ns.Interval, {
+local Interval = Class('Interval', ns.Interval, {
+    format_12hrs = L['time_format_12hrs'],
+    format_24hrs = L['time_format_24hrs']
+})
+
+ns.Intervals.Interval14h = Class('Interval14h', Interval, {
     initial = {eu = 1676237400, us = 1677335400, tw = 1675701000}, -- initial spawn time of the first rare to calculate other rares
     offset = 1800, -- time between rares
     interval = 50400, -- inverval of a single rare
     yellow = 14400,
     green = 1800,
-    text = L['rare_14h'],
-    format_12hrs = L['time_format_12hrs'],
-    format_24hrs = L['time_format_24hrs']
+    text = L['rare_14h']
 })
 
-ns.Intervals.BrackenhideInterval = Class('BrackenhideInterval', ns.Interval, {
+ns.Intervals.BrackenhideInterval = Class('BrackenhideInterval', Interval, {
     initial = {us = 1672531800, eu = 1672531200, tw = 1677162000},
     offset = 600,
     interval = 2400,
     yellow = 1200,
     green = 600,
-    text = L['brackenhide_rare_note'],
-    format_12hrs = L['time_format_12hrs'],
-    format_24hrs = L['time_format_24hrs']
+    text = L['brackenhide_rare_note']
 })
 
-ns.Intervals.FeastInterval = Class('FeastInterval', ns.Interval, {
+ns.Intervals.FeastInterval = Class('FeastInterval', Interval, {
     initial = {us = 1677164400, eu = 1677168000, tw = 1677166200},
     offset = 5400,
     interval = 5400,
     id = 0,
     yellow = 3600,
     green = 600,
-    text = L['bisquis_note'],
-    format_12hrs = L['time_format_12hrs'],
-    format_24hrs = L['time_format_24hrs']
+    text = L['bisquis_note']
 })
 
-ns.Intervals.AylaagCampInterval = Class('AylaagCampInterval', ns.Interval, {
+ns.Intervals.AylaagCampInterval = Class('AylaagCampInterval', Interval, {
     initial = {us = 1677456000, eu = 1677502800, tw = 1677571200},
     offset = 270000,
     interval = 810000,
     id = 0,
     yellow = 7200,
     green = 1800,
-    text = L['aylaag_camp_note'],
-    format_12hrs = L['time_format_12hrs'],
-    format_24hrs = L['time_format_24hrs']
+    text = L['aylaag_camp_note']
 })
 
 -------------------------------------------------------------------------------
