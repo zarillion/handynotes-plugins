@@ -310,10 +310,18 @@ function Node:Render(tooltip, focusable)
         tooltip:AddLine(ns.RenderLinks(self.location), 1, 1, 1, true)
     end
 
+    -- adds text if the node spawns in a specific rotation
+    if self.interval then
+        if self.requires or self.sublabel or self.location then
+            GameTooltip_AddBlankLineToTooltip(tooltip)
+        end
+        tooltip:AddLine(ns.RenderLinks(self.interval:GetText()), 1, 1, 1, true)
+    end
+
     -- additional text for the node to describe how to interact with the
     -- object or summon the rare
     if self.note and ns:GetOpt('show_notes') then
-        if self.requires or self.sublabel or self.location then
+        if self.requires or self.sublabel or self.location or self.interval then
             GameTooltip_AddBlankLineToTooltip(tooltip)
         end
         tooltip:AddLine(ns.RenderLinks(self.note), 1, 1, 1, true)

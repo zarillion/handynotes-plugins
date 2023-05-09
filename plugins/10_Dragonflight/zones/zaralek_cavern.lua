@@ -45,7 +45,7 @@ map.nodes[56247389] = Rare({
     id = 203515,
     vignette = 5643,
     quest = 75284,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59188}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59491}), -- Cavern Clawbbering
@@ -340,8 +340,8 @@ map.nodes[30044193] = Treasure({
 
 map.nodes[56040305] = Treasure({
     quest = 75187,
-    note = L['chest_of_the_flights_treasure_note'] .. '\n\n' ..
-        L['in_small_cave'],
+    location = L['in_small_cave'],
+    note = L['chest_of_the_flights_treasure_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59224}), -- Treasures of Zaralek Cavern
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
@@ -623,7 +623,7 @@ map.nodes[52416604] = PetBattle({
 
 map.nodes[38254965] = PetBattle({
     id = 204792,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17880, criteria = 59351}), -- Battle in Zaralek Cavern
         ns.reward.Spacer(),
@@ -690,7 +690,7 @@ map.nodes[53007440] = PT.Inscription({id = 206034, quest = 76120}) -- Hissing Ru
 map.nodes[54472026] = PT.Inscription({
     id = 206035,
     quest = 76121,
-    note = L['in_cave'],
+    location = L['in_cave'],
     pois = {POI({52781885})}
 }) -- Ancient Research
 

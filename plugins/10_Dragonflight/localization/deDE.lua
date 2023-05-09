@@ -92,8 +92,6 @@ L['options_icons_signal_transmitter'] = 'Wyrmlochgenerator Signaltransmitters'
 L['options_icons_signal_transmitter_desc'] = 'Zeigt die Positionen der {object:Deaktivierten Signaltransmitter} für {item:198156} an.'
 
 L['rare_14h'] = 'Dieser Gegner befindet sich in einem 14 Stunden Interval mit anderen Gegnern, wobei alle 30 Minuten einer dieser Gegner erscheinen kann.\n\nNächstes mögliches erscheinen: {note:%s}'
-L['time_format_12hrs'] = '%d.%m - %I:%M %p'
-L['time_format_24hrs'] = '%d.%m - %H:%M'
 L['now'] = 'Jetzt'
 L['spawns_at_night'] = '{note:Erscheint nur nachts. (Ab 18:30 Server Zeit)}'
 

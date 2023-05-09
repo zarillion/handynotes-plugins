@@ -27,7 +27,6 @@ local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
-local Rare14h = ns.node.Rare14h
 local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
@@ -95,10 +94,11 @@ map.nodes[73032680] = Rare({
     }
 }) -- Beogoka
 
-map.nodes[13584855] = ns.node.Feast({
+map.nodes[13584855] = Rare({
     id = 197557,
     vignette = nil,
     quest = 74097,
+    interval = ns.Intervals.FeastInterval({id = 0}),
     rewards = {
         Achievement({id = 16678, criteria = 55381}), -- Adventurer of The Azure Span
         Achievement({id = 16444}), -- Leftovers' Revenge
@@ -113,7 +113,8 @@ map.nodes[13432270] = Rare({
     id = 193178,
     vignette = 5184,
     quest = 74058,
-    note = L['in_small_cave'] .. ' ' .. L['blightfur_note'],
+    location = L['in_small_cave'],
+    note = L['blightfur_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56122}), -- Adventurer of The Azure Span
         Transmog({item = 200127, slot = L['1h_sword']}), -- Gold-Alloy Blade
@@ -130,12 +131,12 @@ map.nodes[13432270] = Rare({
     }
 }) -- Blightfur
 
-map.nodes[14053096] = ns.node.Brackenhide({
+map.nodes[14053096] = Rare({
     id = 197353,
     vignette = 5414,
     quest = 73985,
     fgroup = 'brackenhide',
-    rotationID = 1,
+    interval = ns.Intervals.BrackenhideInterval({id = 1}),
     rewards = {
         Achievement({id = 16678, criteria = 56126}), -- Adventurer of The Azure Span
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -176,7 +177,7 @@ map.nodes[08944852] = Rare({
     id = 194392,
     vignette = 5269,
     quest = 73871,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 16678, criteria = 56103}), -- Adventurer of The Azure Span
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -241,7 +242,7 @@ map.nodes[64992995] = Rare({
     id = 193698,
     vignette = 5252,
     quest = 73876,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 16678, criteria = 56104}) -- Adventurer of The Azure Span
     }
@@ -258,12 +259,12 @@ map.nodes[58264391] = Rare({
     pois = {POI({58664339})}
 }) -- Frostpaw
 
-map.nodes[14083747] = ns.node.Brackenhide({
+map.nodes[14083747] = Rare({
     id = 197354,
     vignette = 5415,
     quest = 73996,
     fgroup = 'brackenhide',
-    rotationID = 2,
+    interval = ns.Intervals.BrackenhideInterval({id = 2}),
     rewards = {
         Achievement({id = 16678, criteria = 56127}), -- Adventurer of The Azure Span
         Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
@@ -272,11 +273,11 @@ map.nodes[14083747] = ns.node.Brackenhide({
     }
 }) -- Gnarls
 
-map.nodes[32682911] = ns.node.RareElite14h({
+map.nodes[32682911] = Rare({
     id = 193251,
     vignette = 5206,
     quest = 74001,
-    rotationID = 2,
+    interval = ns.Intervals.Interval14h({id = 2}),
     rewards = {
         Achievement({id = 16678, criteria = 56111}), -- Adventurer of The Azure Span
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -291,11 +292,11 @@ map.nodes[32682911] = ns.node.RareElite14h({
     }
 }) -- Gruffy
 
-map.nodes[19234362] = Rare14h({
+map.nodes[19234362] = Rare({
     id = 193269,
     vignette = 5210,
     quest = 74002,
-    rotationID = 23,
+    interval = ns.Intervals.Interval14h({id = 23}),
     rewards = {
         Achievement({id = 16678, criteria = 56112}), -- Adventurer of The Azure Span
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -310,12 +311,12 @@ map.nodes[19234362] = Rare14h({
     }
 }) -- Grumbletrunk
 
-map.nodes[16213364] = ns.node.Brackenhide({
+map.nodes[16213364] = Rare({
     id = 197356,
     vignette = 5416,
     quest = 74004,
     fgroup = 'brackenhide',
-    rotationID = 3,
+    interval = ns.Intervals.BrackenhideInterval({id = 3}),
     rewards = {
         Achievement({id = 16678, criteria = 56128}), -- Adventurer of The Azure Span
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
@@ -377,7 +378,7 @@ map.nodes[20584943] = Rare({
     id = 193225,
     vignette = nil,
     quest = 73887,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 16678, criteria = 56107}), -- Adventurer of The Azure Span
         Toy({item = 200160}), -- Notfar's Favorite Food
@@ -427,11 +428,11 @@ map.nodes[58813260] = Rare({
 --     }
 -- }) -- Rusthide
 
-map.nodes[26494939] = Rare14h({
+map.nodes[26494939] = Rare({
     id = 193149,
     vignette = 5440,
     quest = 74030,
-    rotationID = 8,
+    interval = ns.Intervals.Interval14h({id = 8}),
     rewards = {
         Achievement({id = 16678, criteria = 56110}), -- Adventurer of The Azure Span
         Transmog({item = 200203, slot = L['mail']}), -- Repurposed Giant's Thimble
@@ -445,12 +446,12 @@ map.nodes[26494939] = Rare14h({
     }
 }) -- Skag the Thrower
 
-map.nodes[10863229] = ns.node.Brackenhide({
+map.nodes[10863229] = Rare({
     id = 197344,
     vignette = 5413,
     quest = 74032,
     fgroup = 'brackenhide',
-    rotationID = 0,
+    interval = ns.Intervals.BrackenhideInterval({id = 0}),
     rewards = {
         Achievement({id = 16678, criteria = 56125}), -- Adventurer of The Azure Span
         Transmog({item = 200266, slot = L['crossbow']}), -- Gnollish Chewtoy Launcher
@@ -558,7 +559,7 @@ map.nodes[38155901] = Rare({
     id = 193214,
     vignette = 5191,
     quest = 72840,
-    note = L['in_cave'],
+    location = L['in_cave'],
     rewards = {
         Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
         Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
@@ -745,7 +746,8 @@ map.nodes[45125940] = Treasure({
 
 map.nodes[53934372] = Treasure({
     quest = 70604,
-    note = L['in_small_cave'] .. ' ' .. L['gnoll_fiend_flail_note'],
+    location = L['in_small_cave'],
+    note = L['gnoll_fiend_flail_note'],
     requires = {
         ns.requirement.Quest(72709), -- Funding a Treasure Hunt
         ns.requirement.Quest(70535, '{item:199066}') -- Letter of Caution
@@ -1055,7 +1057,8 @@ map.nodes[47342459] = Fragment({
 local LeyLine = Class('LeyLine', Collectible, {
     id = 198260,
     icon = 1033908,
-    note = L['in_small_cave'] .. '\n' .. L['leyline_note'],
+    location = L['in_small_cave'],
+    note = L['leyline_note'],
     rlabel = ns.status.LightBlue('+20 ' .. select(1, GetFactionInfoByID(2510))), -- Valdrakken Accord
     group = ns.groups.LEYLINE
 })
@@ -1090,7 +1093,7 @@ map.nodes[65732814] = LeyLine({
 ------------------------------- DISTURBED DIRT --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[13503833] = Disturbeddirt({note = L['in_small_cave']})
+map.nodes[13503833] = Disturbeddirt({location = L['in_small_cave']})
 map.nodes[19214047] = Disturbeddirt()
 map.nodes[19225097] = Disturbeddirt()
 map.nodes[23716772] = Disturbeddirt()
@@ -1101,10 +1104,10 @@ map.nodes[50284428] = Disturbeddirt()
 map.nodes[57775352] = Disturbeddirt()
 map.nodes[65193151] = Disturbeddirt()
 map.nodes[65516163] = Disturbeddirt()
-map.nodes[66733144] = Disturbeddirt({note = L['in_cave']})
+map.nodes[66733144] = Disturbeddirt({location = L['in_cave']})
 map.nodes[68291742] = Disturbeddirt()
 map.nodes[70724381] = Disturbeddirt()
-map.nodes[72404272] = Disturbeddirt({note = L['in_small_cave']})
+map.nodes[72404272] = Disturbeddirt({location = L['in_small_cave']})
 map.nodes[73374059] = Disturbeddirt()
 map.nodes[78753394] = Disturbeddirt()
 map.nodes[78903087] = Disturbeddirt()
@@ -1127,12 +1130,12 @@ map.nodes[34334607] = Scoutpack()
 map.nodes[43005294] = Scoutpack()
 map.nodes[58115454] = Scoutpack()
 map.nodes[58145373] = Scoutpack()
-map.nodes[65702841] = Scoutpack({note = L['in_small_cave']})
-map.nodes[66733050] = Scoutpack({note = L['in_cave']})
-map.nodes[66783133] = Scoutpack({note = L['in_cave']})
+map.nodes[65702841] = Scoutpack({location = L['in_small_cave']})
+map.nodes[66733050] = Scoutpack({location = L['in_cave']})
+map.nodes[66783133] = Scoutpack({location = L['in_cave']})
 map.nodes[66784934] = Scoutpack()
-map.nodes[72154242] = Scoutpack({note = L['in_cave']})
-map.nodes[72604263] = Scoutpack({note = L['in_cave']})
+map.nodes[72154242] = Scoutpack({location = L['in_cave']})
+map.nodes[72604263] = Scoutpack({location = L['in_cave']})
 map.nodes[78953094] = Scoutpack()
 map.nodes[79823175] = Scoutpack()
 map.nodes[46892208] = Scoutpack()
@@ -1143,24 +1146,24 @@ map.nodes[49052541] = Scoutpack()
 -------------------------------------------------------------------------------
 
 map.nodes[09104840] = MagicBoundChest({
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     pois = {POI({08584883})}
 })
-map.nodes[14002990] = MagicBoundChest({note = L['in_small_cave']})
-map.nodes[29904570] = MagicBoundChest({note = L['in_small_cave']})
-map.nodes[43306260] = MagicBoundChest({note = L['in_small_cave']})
-map.nodes[49204090] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[14002990] = MagicBoundChest({location = L['in_small_cave']})
+map.nodes[29904570] = MagicBoundChest({location = L['in_small_cave']})
+map.nodes[43306260] = MagicBoundChest({location = L['in_small_cave']})
+map.nodes[49204090] = MagicBoundChest({location = L['in_small_cave']})
 map.nodes[53006610] = MagicBoundChest({
     requires = {
         ns.requirement.Reputation(2507, 16, true),
         ns.requirement.Profession(186)
     },
-    note = L['in_small_cave']
+    location = L['in_small_cave']
 })
-map.nodes[65702780] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[65702780] = MagicBoundChest({location = L['in_small_cave']})
 map.nodes[65905560] = MagicBoundChest()
 map.nodes[72304210] = MagicBoundChest({
-    note = L['in_cave'],
+    location = L['in_cave'],
     pois = {POI({71674371})}
 })
 
@@ -1851,7 +1854,7 @@ map.nodes[66416102] = AncientStone({
 }) -- Attention: Immediate Evactuation
 
 map.nodes[60324973] = AncientStone({
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {Achievement({id = 17563, criteria = 58817})},
     pois = {POI({60895007})} -- Entrance
 }) -- The Vow
@@ -1984,7 +1987,8 @@ map.nodes[45635482] = Node({
 
 map.nodes[11604106] = Node({
     label = '{item:201033}',
-    note = L['in_small_cave'] .. ' ' .. L['slurpo_snail_note'],
+    location = L['in_small_cave'],
+    note = L['slurpo_snail_note'],
     icon = 132780,
     quest = 74079,
     rewards = {
