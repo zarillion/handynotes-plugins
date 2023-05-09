@@ -288,7 +288,7 @@ function Interval:Initialize(attrs)
         [3] = self.initial.eu,
         [4] = self.initial.tw,
         [5] = self.initial.cn
-    }
+    } -- https://wowpedia.fandom.com/wiki/API_GetCurrentRegion
 
     if self.id then
         self.SpawnTime = self.id * self.offset +
@@ -299,7 +299,6 @@ end
 
 function Interval:Next()
     if not (self.id and self.initial and self.interval) then return false end
-    local region = GetCurrentRegion() -- https://wowpedia.fandom.com/wiki/API_GetCurrentRegion
     local CurrentTime = GetServerTime()
     local SpawnTime = self.SpawnTime
 
