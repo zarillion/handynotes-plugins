@@ -27,7 +27,7 @@ local creche = Map({id = 2109, settings = false})
 map.nodes[32914104] = Rare({
     id = 191729,
     vignette = 5129,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     quest = 66966,
     rewards = {
         Item({item = 197725, note = L['ring']}) -- Deathrip's Curied Claw
@@ -38,7 +38,7 @@ map.nodes[32914104] = Rare({
 map.nodes[28473653] = Rare({
     id = 191713,
     vignette = 5130,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     quest = 66967,
     pois = {POI({33653370})} -- Entrance
 }) -- Scytherin
@@ -57,7 +57,7 @@ map.nodes[56496548] = Rare({
 map.nodes[79497439] = Rare({
     id = 182280,
     vignette = 5132,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     quest = 66973,
     rewards = {
         Item({item = 194883}) -- Runic Wing
@@ -88,7 +88,7 @@ map.nodes[42043442] = Treasure({
 
 map.nodes[41772301] = Treasure({
     label = '{npc:191992}',
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     quest = 67013,
     rewards = {
         Item({item = 194511}) -- Living Ration
@@ -97,7 +97,7 @@ map.nodes[41772301] = Treasure({
 
 map.nodes[35576977] = Treasure({
     label = L['hessethiash_treasure'],
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     quest = 66876,
     rewards = {
         Transmog({item = 195885, slot = L['cloak']}) -- Black Dragon's Scale Cloak
@@ -111,7 +111,7 @@ map.nodes[30536442] = Treasure({
 
 map.nodes[62204310] = Treasure({
     label = L['suspicious_bottle_treasure'],
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     quest = 65908,
     rewards = {
         Item({item = 195580}) -- Suspicious Bottle
@@ -123,7 +123,7 @@ map.nodes[62204310] = Treasure({
 
 creche.nodes[38297451] = Treasure({
     label = L['mysterious_wand'],
-    note = L['mysterious_wand_note'],
+    location = L['mysterious_wand_note'],
     quest = 66010,
     rewards = {
         Item({item = 193861}) -- Blue Magic Wand

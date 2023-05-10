@@ -93,8 +93,6 @@ L['options_icons_signal_transmitter'] = 'Transmisores de Generadores de Agujeros
 L['options_icons_signal_transmitter_desc'] = 'Muestra dónde están los {object:Transmisor Desactivado} para los {item:198156}.'
 
 L['rare_14h'] = 'Este raro está en una rotación de 14 horas junto con otros raros. Hay una aparición rara cada 30 minutos.\n\nPróxima aparición: {note:%s}'
-L['time_format_12hrs'] = '%I:%M %p - %d/%m Hora local'
-L['time_format_24hrs'] = '%H:%M - %d/%m Hora local'
 L['now'] = 'Ahora'
 L['spawns_at_night'] = '{note:Sólo aparece por la noche. (Después de las 18:30 hora del servidor)}'
 
@@ -590,7 +588,7 @@ L['obsidian_throne_rare_note'] = 'Dentro del {location:Trono Obsidiana}.'
 L['slurpo_snail_note'] = 'Despoja un {item:201033} de un {object:Cristal de Sal} en una cueva de {location:Las Tierras Azures}. Úsalo en una cueva de las {location:Orillas del Despertar} para invocar al raro.'
 L['worldcarver_atir_note'] = 'Recoge 3x {item:191211} del {npc:187366} cercano y ponlos en los {npc:197395} para hacer aparecer al raro.'
 
-L['bubble_drifter_note'] = 'La {item:199061} se puede encontrar en las {object:Mochila de Explorador de Expedición} y en las {object:Tierra Revuelta}.\n\nPara interactuar con el pez necesitas tener {spell:388331} de la {object:Planta de Fragrancia} cercana.'
+L['bubble_drifter_note'] = 'La {item:199061} se puede encontrar en las {object:Mochila de Explorador de Expedición} y en las {object:Tierra Revuelta}.\n\nPara interactuar con el pez necesitas tener {spell:388331} de una {object:Planta Aromática} cercana.'
 L['dead_mans_chestplate_note'] = 'Dentro de la torre. En el piso central.'
 L['fullsails_supply_chest_note'] = 'La llave la sueltan los {npc:187971} y los {npc:187320} al sur de la {location:Embajada Reposo Alado}.'
 L['golden_dragon_goblet_note'] = 'Despoja la {item:202081} del {npc:190056} en la {location:Costa Indómita} y completa la pequeña cadena de misiones.'

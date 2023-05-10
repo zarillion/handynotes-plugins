@@ -49,7 +49,7 @@ map.nodes[56247389] = Rare({
     id = 203515,
     vignette = 5643,
     quest = 75284,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59188}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59491}), -- Cavern Clawbbering
@@ -84,6 +84,7 @@ map.nodes[41518613] = Rare({
         Achievement({id = 17783, criteria = 59202}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59493}), -- Cavern Clawbbering
         Transmog({item = 205313, slot = L['mail']}), -- Brullo's Wristbraces
+        Pet({item = 205114, id = 3533}), -- Brul
         Recipe({item = 204847, profession = 185}) -- Recipe: Rocks on the Rocks
     }
 }) -- Brulsef the Stronk
@@ -199,7 +200,7 @@ map.nodes[42226524] = Rare({
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
-}) -- Kairoktra
+}) -- Karokta
 
 map.nodes[59593949] = Rare({
     id = 203466,
@@ -239,6 +240,7 @@ map.nodes[65435587] = Rare({
         Transmog({item = 205323, slot = L['leather']}), -- Rock-Lined Pauldrons
         Pet({item = 205152, id = 3546}), -- Skaarn
         DC.CliffsideWylderdrake.SpikedClubTail
+        Item({item = 206021, note = '{item:205151}'}) -- Kob'rok's Luminescent Scale (for Salverun Pet)
     },
     pois = {POI({64785550})} -- Entrance
 }) -- Kob'rok
@@ -331,7 +333,7 @@ map.nodes[57766910] = Rare({
         Transmog({item = 205325, slot = L['shield']}), -- Crystal Wing Shield
         Transmog({item = 205302, slot = L['leather']}), -- Underlight Headwrap
         Transmog({item = 205324, slot = L['cloth']}), -- Moth Queen Mantle
-        Pet({item = 205159, id = 3551}) -- Skaarn
+        Pet({item = 205159, id = 3551}) -- Teardrop Moth
     }
 }) -- Underlight Queen
 
@@ -392,8 +394,8 @@ map.nodes[30044193] = Treasure({
 
 map.nodes[56040305] = Treasure({
     quest = 75187,
-    note = L['chest_of_the_flights_treasure_note'] .. '\n\n' ..
-        L['in_small_cave'],
+    location = L['in_small_cave'],
+    note = L['chest_of_the_flights_treasure_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59224}), -- Treasures of Zaralek Cavern
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
@@ -675,7 +677,7 @@ map.nodes[52416604] = PetBattle({
 
 map.nodes[38254965] = PetBattle({
     id = 204792,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17880, criteria = 59351}), -- Battle in Zaralek Cavern
         ns.reward.Spacer(),
@@ -742,7 +744,7 @@ map.nodes[53007440] = PT.Inscription({id = 206034, quest = 76120}) -- Hissing Ru
 map.nodes[54472026] = PT.Inscription({
     id = 206035,
     quest = 76121,
-    note = L['in_cave'],
+    location = L['in_cave'],
     pois = {POI({52781885})}
 }) -- Ancient Research
 

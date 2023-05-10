@@ -92,8 +92,6 @@ L['options_icons_signal_transmitter'] = 'Wyrmlochgenerator Signaltransmitters'
 L['options_icons_signal_transmitter_desc'] = 'Zeigt die Positionen der {object:Deaktivierten Signaltransmitter} für {item:198156} an.'
 
 L['rare_14h'] = 'Dieser Gegner befindet sich in einem 14 Stunden Interval mit anderen Gegnern, wobei alle 30 Minuten einer dieser Gegner erscheinen kann.\n\nNächstes mögliches erscheinen: {note:%s}'
-L['time_format_12hrs'] = '%d.%m - %I:%M %p'
-L['time_format_24hrs'] = '%d.%m - %H:%M'
 L['now'] = 'Jetzt'
 L['spawns_at_night'] = '{note:Erscheint nur nachts. (Ab 18:30 Server Zeit)}'
 
@@ -592,7 +590,7 @@ L['obsidian_throne_rare_note'] = 'Innerhalb des {location:Obsidianthron}.'
 L['slurpo_snail_note'] = 'Plündere in einer Höhle im {location:Azurblauen Gebirge} (11.0, 41.4) aus einem {object:Salzkristall} ein {item:201033} und benutze ihn in einer Höhle in {location:Die Küste des Erwachens} (36.0, 89.8), um den seltenen Gegner erscheinen zu lassen.'
 L['worldcarver_atir_note'] = 'Sammle 3x {item:191211} von {npc:187366} in der Nähe und platziere diese beim {npc:197395}, um den seltenen Gegner erscheinen zu lassen.'
 
-L['bubble_drifter_note'] = '{item:199061} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.\n\nUm mit dem Fisch zu interagieren benötigst du den {spell:388331} von einer {object:Duftenden Pflanze} in der nähe.'
+L['bubble_drifter_note'] = '{item:199061} kann in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.\n\nUm mit dem Fisch zu interagieren, benötigst du den {spell:388331} von einer {object:Duftenden Pflanze} in der Nähe.'
 L['dead_mans_chestplate_note'] = 'Im Inneren des Turms auf der mittleren Etage.'
 L['fullsails_supply_chest_note'] = 'Der Schlüssel kann südlich der {location:Botschaft von Schwingenrast} von {npc:187971} und {npc:187320} fallen gelassen werden.'
 L['golden_dragon_goblet_note'] = 'Plündere {item:202081} von {npc:190056} an der {location:Wilde Küste} und schließe die kleine Questreihe ab.'
