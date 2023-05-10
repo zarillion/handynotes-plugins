@@ -151,7 +151,7 @@ map.nodes[68734593] = Rare({
     quest = 75273,
     rewards = {
         Achievement({id = 17783, criteria = 59186}), -- Adventurer of Zaralek Cavern
-        Achievement({id = 18100, criteria = 59498}) -- Cavern Clawbbering
+        Achievement({id = 18100, criteria = 59498}), -- Cavern Clawbbering
         Transmog({item = 205317, slot = L['plate']}), -- Crystalpod Gauntlets
         Transmog({item = 205296, slot = L['cloth']}), -- Goopal's Visage
         DC.WindingSlitherdrake.LongChinHorn
@@ -164,7 +164,7 @@ map.nodes[45673327] = Rare({
     quest = 75335,
     rewards = {
         Achievement({id = 17783, criteria = 59200}), -- Adventurer of Zaralek Cavern
-        Achievement({id = 18100, criteria = 59499}) -- Cavern Clawbbering
+        Achievement({id = 18100, criteria = 59499}), -- Cavern Clawbbering
         Transmog({item = 205297, slot = L['cloth']}), -- Flamewielder's Trousers
         DC.WindingSlitherdrake.WhiteHorns
     }
@@ -180,7 +180,7 @@ map.nodes[28515115] = Rare({
         Toy({item = 205419}), -- Jrumm's Drum
         Transmog({item = 205304, slot = L['leather']}), -- Snareguard Sash
         Transmog({item = 205299, slot = L['cloth']}), -- Rudiment Cuffs
-        DC.WindingSlitherdrake.Ears, --
+        DC.WindingSlitherdrake.Ears,
         Currency({id = 2245}) -- Flightstones
     }
 }) -- Jrumm
@@ -235,11 +235,11 @@ map.nodes[65435587] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59183}), -- Adventurer of Zaralek Cavern
-        Achievement({id = 18100, criteria = 59504}) -- Cavern Clawbbering
+        Achievement({id = 18100, criteria = 59504}), -- Cavern Clawbbering
         Transmog({item = 205307, slot = L['mail']}), -- Kob'rok's Scale Sabatons
         Transmog({item = 205323, slot = L['leather']}), -- Rock-Lined Pauldrons
         Pet({item = 205152, id = 3546}), -- Skaarn
-        DC.CliffsideWylderdrake.SpikedClubTail
+        DC.CliffsideWylderdrake.SpikedClubTail,
         Item({item = 206021, note = '{item:205151}'}) -- Kob'rok's Luminescent Scale (for Salverun Pet)
     },
     pois = {POI({64785550})} -- Entrance
@@ -329,7 +329,7 @@ map.nodes[57766910] = Rare({
     quest = 75297,
     rewards = {
         Achievement({id = 17783, criteria = 59191}), -- Adventurer of Zaralek Cavern
-        Achievement({id = 18100, criteria = 59510}) -- Cavern Clawbbering
+        Achievement({id = 18100, criteria = 59510}), -- Cavern Clawbbering
         Transmog({item = 205325, slot = L['shield']}), -- Crystal Wing Shield
         Transmog({item = 205302, slot = L['leather']}), -- Underlight Headwrap
         Transmog({item = 205324, slot = L['cloth']}), -- Moth Queen Mantle
@@ -343,7 +343,7 @@ map.nodes[38867151] = Rare({
     quest = 75365,
     rewards = {
         Achievement({id = 17783, criteria = 59210}), -- Adventurer of Zaralek Cavern
-        Achievement({id = 18100, criteria = 59511}) -- Cavern Clawbbering
+        Achievement({id = 18100, criteria = 59511}), -- Cavern Clawbbering
         Transmog({item = 205327, slot = L['dagger']}), -- Shard of the Veridian King
         Transmog({item = 205316, slot = L['plate']}), -- Crystal Stompers
         DC.WindingSlitherdrake.SplitJawHorns
