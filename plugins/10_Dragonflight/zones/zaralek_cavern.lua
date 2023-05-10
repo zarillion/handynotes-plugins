@@ -41,10 +41,6 @@ local deepflayerNest = Map({id = 2184, settings = false}) -- Deepflayer Nest
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- Removed all 'Zaralek Surveyor's ...' Transmogs
--- Removed all 'Neltharic ...' Transmogs
--- Removed all 'Skyless ...' Transmogs
-
 map.nodes[56247389] = Rare({
     id = 203515,
     vignette = 5643,
@@ -55,7 +51,7 @@ map.nodes[56247389] = Rare({
         Achievement({id = 18100, criteria = 59491}), -- Cavern Clawbbering
         Transmog({item = 205318, slot = L['plate']}), -- Guardian Golems Legplates
         Transmog({item = 205309, slot = L['mail']}), -- Loyal Attendant's Gaze
-        DC.WindingSlitherdrake.PlatedBrow,
+        DC.WindingSlitherdrake.PlatedBrow, --
         Item({item = 200071}) -- Sacred Tuskarr Totem
     },
     pois = {POI({56937305})} -- Entrance
@@ -139,7 +135,7 @@ map.nodes[41921857] = Rare({
         Transmog({item = 205331, slot = L['1h_axe']}), -- Zskorran Cleaver
         Transmog({item = 205321, slot = L['plate']}), -- Brimstone Bracers
         Transmog({item = 205291, slot = L['cloak']}), -- Garrison General's Cape
-        DC.WindingSlitherdrake.CurledHorns,
+        DC.WindingSlitherdrake.CurledHorns, --
         Item({item = 192055}) -- Dragon Isle Artifact
     },
     pois = {POI({42491885})} -- Entrance
@@ -180,7 +176,7 @@ map.nodes[28515115] = Rare({
         Toy({item = 205419}), -- Jrumm's Drum
         Transmog({item = 205304, slot = L['leather']}), -- Snareguard Sash
         Transmog({item = 205299, slot = L['cloth']}), -- Rudiment Cuffs
-        DC.WindingSlitherdrake.Ears,
+        DC.WindingSlitherdrake.Ears, --
         Currency({id = 2245}) -- Flightstones
     }
 }) -- Jrumm
@@ -211,7 +207,7 @@ map.nodes[59593949] = Rare({
         Achievement({id = 18100, criteria = 59502}), -- Cavern Clawbbering
         Transmog({item = 205319, slot = L['plate']}), -- Deepflayer Shoulderguards
         Transmog({item = 205310, slot = L['mail']}), -- Legguards of Kaprachu
-        DC.WindingSlitherdrake.HeavyScales,
+        DC.WindingSlitherdrake.HeavyScales, --
         Item({item = 192055}) -- Dragon Isle Artifact
     }
 }) -- Kaprachu
@@ -239,7 +235,7 @@ map.nodes[65435587] = Rare({
         Transmog({item = 205307, slot = L['mail']}), -- Kob'rok's Scale Sabatons
         Transmog({item = 205323, slot = L['leather']}), -- Rock-Lined Pauldrons
         Pet({item = 205152, id = 3546}), -- Skaarn
-        DC.CliffsideWylderdrake.SpikedClubTail,
+        DC.CliffsideWylderdrake.SpikedClubTail, --
         Item({item = 206021, note = '{item:205151}'}) -- Kob'rok's Luminescent Scale (for Salverun Pet)
     },
     pois = {POI({64785550})} -- Entrance
@@ -254,7 +250,7 @@ map.nodes[40753817] = Rare({
         Achievement({id = 18100, criteria = 59505}), -- Cavern Clawbbering
         Transmog({item = 205311, slot = L['mail']}), -- Magmascale Pauldrons
         Transmog({item = 205300, slot = L['leather']}), -- Magma Waders
-        DC.WindingSlitherdrake.ImpalerHorns,
+        DC.WindingSlitherdrake.ImpalerHorns, --
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Item({item = 192055}), -- Dragon Isle Artifact
         Currency({id = 2245}) -- Flightstones
@@ -270,7 +266,7 @@ map.nodes[55841899] = Rare({
         Achievement({id = 17783, criteria = 59189}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59506}), -- Cavern Clawbbering
         Transmog({item = 205322, slot = L['leather']}), -- Algeth'ar Exile's Frock
-        DC.WindingSlitherdrake.ClusterHorns,
+        DC.WindingSlitherdrake.ClusterHorns, --
         Item({item = 192055}) -- Dragon Isle Artifact
     },
     pois = {POI({52921886})} -- Entrance
@@ -285,7 +281,7 @@ map.nodes[65875082] = Rare({
         Achievement({id = 18100, criteria = 59507}), -- Cavern Clawbbering
         Transmog({item = 205294, slot = L['cloth']}), -- Sandals of Molten Scorn
         Transmog({item = 205301, slot = L['cloth']}), -- Hardened Lava Handwraps
-        DC.WindingSlitherdrake.CurledCheekHorn,
+        DC.WindingSlitherdrake.CurledCheekHorn, --
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
@@ -302,7 +298,7 @@ map.nodes[53106421] = Rare({
         Transmog({item = 205326, slot = L['dagger']}), -- Crystalweb Chelicera
         Transmog({item = 205305, slot = L['leather']}), -- Zaralek Arachnid Armbands
         Transmog({item = 205290, slot = L['cloak']}), -- Greatcloak of Spun Marrow
-        DC.WindingSlitherdrake.HairyCrest,
+        DC.WindingSlitherdrake.HairyCrest, --
         Item({item = 192055}) -- Dragon Isle Artifact
     },
     pois = {POI({54556605})} -- Entrance
@@ -318,7 +314,7 @@ map.nodes[38424650] = Rare({
         Transmog({item = 205328, slot = L['2h_sword']}), -- Earthen Emissasry's Edge
         Transmog({item = 205314, slot = L['plate']}), -- Greathelm of the Emissary
         Transmog({item = 205312, slot = L['mail']}), -- Subterrax's Stout Waistguard
-        DC.WindingSlitherdrake.AntlerHorns,
+        DC.WindingSlitherdrake.AntlerHorns, --
         Item({item = 199906}) -- Titan Relic
     }
 }) -- Subterrax
