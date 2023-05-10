@@ -122,7 +122,7 @@ map.nodes[36324481] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17783, criteria = 59207}), -- Adventurer of Zaralek Cavern
-        Achievement({id = 18100, criteria = 59496}) -- Cavern Clawbbering
+        Achievement({id = 18100, criteria = 59496}), -- Cavern Clawbbering
         Transmog({item = 205303, slot = L['leather']}), -- Leggings of Flowing Flame
         DC.HighlandDrake.SpikedHead
     },
