@@ -41,6 +41,10 @@ local deepflayerNest = Map({id = 2184, settings = false}) -- Deepflayer Nest
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
+-- Removed all 'Zaralek Surveyor's ...' Transmogs
+-- Removed all 'Neltharic ...' Transmogs
+-- Removed all 'Skyless ...' Transmogs
+
 map.nodes[56247389] = Rare({
     id = 203515,
     vignette = 5643,
@@ -51,9 +55,6 @@ map.nodes[56247389] = Rare({
         Achievement({id = 18100, criteria = 59491}), -- Cavern Clawbbering
         Transmog({item = 205318, slot = L['plate']}), -- Guardian Golems Legplates
         Transmog({item = 205309, slot = L['mail']}), -- Loyal Attendant's Gaze
-        Transmog({item = 205068, slot = L['leather']}), -- Zaralek Surveyor's Breeches
-        Transmog({item = 205088, slot = L['leather']}), -- Zaralek Surveyor's Epaulets
-        Transmog({item = 205061, slot = L['cloth']}), -- Zaralek Surveyor's Cowl
         DC.WindingSlitherdrake.PlatedBrow,
         Item({item = 200071}) -- Sacred Tuskarr Totem
     },
@@ -68,18 +69,8 @@ map.nodes[48367509] = Rare({
         Achievement({id = 17783, criteria = 59185}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59492}), -- Cavern Clawbbering
         Pet({item = 205154, id = 3548}), -- Aquapo
-        Transmog({item = 205097, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
-        Transmog({item = 204960, slot = L['polearm']}), -- Neltharic Spear
-        Transmog({item = 205090, slot = L['shield']}), -- Zaralek Surveyor's Barrier
-        Transmog({item = 205080, slot = L['plate']}), -- Zaralek Surveyor's Breastplate
-        Transmog({item = 204947, slot = L['plate']}), -- Starless Gauntlets
-        Transmog({item = 205077, slot = L['mail']}), -- Zaralek Surveyor's Cinch
         Transmog({item = 205306, slot = L['mail']}), -- Aquiferous Raiment
-        Transmog({item = 205067, slot = L['leather']}), -- Zaralek Surveyor's Helm
-        Transmog({item = 205082, slot = L['leather']}), -- Zaralek Surveyor's Gauntlets
-        Transmog({item = 205069, slot = L['leather']}), -- Zaralek Surveyor's Sash
         Transmog({item = 205295, slot = L['cloth']}), -- Sediment Sifters
-        Transmog({item = 204915, slot = L['cloak']}), -- Deeprock Cape
         Item({item = 192055}) -- Dragon Isle Artifact
     }
 }) -- Aquifon
@@ -104,23 +95,9 @@ map.nodes[48372384] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59212}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59494}), -- Cavern Clawbbering
-        Transmog({item = 205095, slot = L['1h_sword']}), -- Zaralek Surveyor's Spellblade
-        Transmog({item = 205104, slot = L['1h_axe']}), -- Zaralek Surveyor's Cleaver
         Transmog({item = 205332, slot = L['1h_mace']}), -- Fist of the Demolisher
-        Transmog({item = 205096, slot = L['dagger']}), -- Zaralek Surveyor's Shank
-        Transmog({item = 204947, slot = L['plate']}), -- Starless Gauntlets
         Transmog({item = 205315, slot = L['plate']}), -- Colossian Cuirass
-        Transmog({item = 205079, slot = L['plate']}), -- Zaralek Surveyor's Helm
-        Transmog({item = 205085, slot = L['plate']}), -- Zaralek Surveyor's Girdle
-        Transmog({item = 205073, slot = L['mail']}), -- Zaralek Surveyor's Grips
-        Transmog({item = 205078, slot = L['mail']}), -- Zaralek Surveyor's Bracers
-        Transmog({item = 205075, slot = L['mail']}), -- Zaralek Surveyor's Greaves
-        Transmog({item = 204938, slot = L['mail']}), -- Skyless Grips
-        Transmog({item = 205071, slot = L['mail']}), -- Zaralek Surveyor's Chainmail
-        Transmog({item = 205059, slot = L['cloth']}), -- Zaralek Surveyor's Sandals
-        Transmog({item = 205064, slot = L['cloth']}), -- Zaralek Surveyor's Cuffs
-        Transmog({item = 204921, slot = L['cloth']}), -- Moonless Slippers
-        --DC.WindingSlitherdrake.ShortSpikedCrest, --need to add data to common.lua
+        DC.WindingSlitherdrake.ShortSpikedCrest, --
         Item({item = 200071}) -- Sacred Tuskarr Totem
     }
 }) -- Colossian
@@ -132,25 +109,7 @@ map.nodes[31805061] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59209}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59495}), -- Cavern Clawbbering
-        Transmog({item = 205092, slot = L['wand']}), -- Zaralek Surveyor's Wand
-        Transmog({item = 205105, slot = L['1h_mace']}), -- Zaralek Surveyor's Censer
-        Transmog({item = 205099, slot = L['1h_sword']}), -- Zaralek Surveyor's Blade
-        Transmog({item = 204958, slot = L['1h_sword']}), -- Neltharic Blade
-        Transmog({item = 205108, slot = L['polearm']}), -- Zaralek Surveyor's Halberd
-        Transmog({item = 205079, slot = L['plate']}), -- Zaralek Surveyor's Helm
-        Transmog({item = 205073, slot = L['mail']}), -- Zaralek Surveyor's Grips
-        Transmog({item = 205075, slot = L['mail']}), -- Zaralek Surveyor's Greaves
-        Transmog({item = 204944, slot = L['mail']}), -- Skyless Cuffs
-        Transmog({item = 204936, slot = L['mail']}), -- Skyless Blouse
-        Transmog({item = 205082, slot = L['leather']}), -- Zaralek Surveyor's Gauntlets
-        Transmog({item = 205087, slot = L['leather']}), -- Zaralek Surveyor's Vest
-        Transmog({item = 204935, slot = L['leather']}), -- Sunless bracers
-        Transmog({item = 205063, slot = L['cloth']}), -- Zaralek Surveyor's Cord
         Transmog({item = 205293, slot = L['cloth']}), -- Emberdusk's Embrace
-        Transmog({item = 205056, slot = L['cloak']}), -- Zaralek Surveyor's Cloak
-        Transmog({item = 205057, slot = L['cloak']}), -- Zaralek Surveyor's Greatcloak
-        Transmog({item = 205055, slot = L['cloak']}), -- Zaralek Surveyor's Drape
-        Transmog({item = 204914, slot = L['cloak']}), -- Deeprock Cloak
         DC.WindingSlitherdrake.LargeFinnedThroat
     }
 }) -- Emberdusk
@@ -163,27 +122,8 @@ map.nodes[36324481] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59207}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59496}) -- Cavern Clawbbering
-        Transmog({item = 205109, slot = L['staff']}), -- Zaralek Surveyor's Staff
-        Transmog({item = 205108, slot = L['polearm']}), -- Zaralek Surveyor's Halberd
-        Transmog({item = 205093, slot = L['polearm']}), -- Zaralek Surveyor's Polearm
-        Transmog({item = 205105, slot = L['1h_mace']}), -- Zaralek Surveyor's Censer
-        Transmog({item = 205097, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
-        Transmog({item = 205091, slot = L['offhand']}), -- Zaralek Surveyor's Scepter
-        Transmog({item = 205080, slot = L['plate']}), -- Zaralek Surveyor's Breastplate
-        Transmog({item = 205086, slot = L['plate']}), -- Zaralek Surveyor's Armplates
-        Transmog({item = 205071, slot = L['mail']}), -- Zaralek Surveyor's Chainmail
-        Transmog({item = 205076, slot = L['mail']}), -- Zaralek Surveyor's Shoulderguards
-        Transmog({item = 204930, slot = L['leather']}), -- Sunless Grips
-        Transmog({item = 204929, slot = L['leather']}), -- Sunless Boots
         Transmog({item = 205303, slot = L['leather']}), -- Leggings of Flowing Flame
-        Transmog({item = 205088, slot = L['leather']}), -- Zaralek Surveyor's Epaulets
-        Transmog({item = 205066, slot = L['leather']}), -- Zaralek Surveyor's Grips
-        Transmog({item = 205087, slot = L['leather']}), -- Zaralek Surveyor's Vest
-        Transmog({item = 205060, slot = L['cloth']}), -- Zaralek Surveyor's Handwraps
-        Transmog({item = 204927, slot = L['cloth']}), -- Moonless Wristband
-        Transmog({item = 205056, slot = L['cloak']}), -- Zaralek Surveyor's Cloak
-        Transmog({item = 205112, slot = L['cloak']}) -- Zaralek Surveyor's Shawl
-        --DC.WindingSlitherdrake.SpikedHead
+        DC.HighlandDrake.SpikedHead
     },
     pois = {POI({35924400})} -- Entrance
 }) -- Flowfy
@@ -195,18 +135,8 @@ map.nodes[41921857] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59190}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59497}), -- Cavern Clawbbering
-        Transmog({item = 205094, slot = L['gun']}), -- Zaralek Surveyor's Rifle
         Transmog({item = 205331, slot = L['1h_axe']}), -- Zskorran Cleaver
-        Transmog({item = 205083, slot = L['plate']}), -- Zaralek Surveyor's Legguards
         Transmog({item = 205321, slot = L['plate']}), -- Brimstone Bracers
-        Transmog({item = 205073, slot = L['mail']}), -- Zaralek Surveyor's Grips
-        Transmog({item = 205075, slot = L['mail']}), -- Zaralek Surveyor's Greaves
-        Transmog({item = 205071, slot = L['mail']}), -- Zaralek Surveyor's Chainmail
-        Transmog({item = 205076, slot = L['mail']}), -- Zaralek Surveyor's Shoulderguards
-        Transmog({item = 205074, slot = L['mail']}), -- Zaralek Surveyor's Coif
-        Transmog({item = 205061, slot = L['cloth']}), -- Zaralek Surveyor's Cowl
-        Transmog({item = 205059, slot = L['cloth']}), -- Zaralek Surveyor's Sandals
-        Transmog({item = 205055, slot = L['cloak']}), -- Zaralek Surveyor's Drape
         Transmog({item = 205291, slot = L['cloak']}), -- Garrison General's Cape
         DC.WindingSlitherdrake.CurledHorns,
         Item({item = 192055}) -- Dragon Isle Artifact
@@ -221,27 +151,8 @@ map.nodes[68734593] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59186}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59498}) -- Cavern Clawbbering
-        Transmog({item = 205093, slot = L['polearm']}), -- Zaralek Surveyor's Polearm
-        Transmog({item = 204963, slot = L['staff']}), -- Neltharic Staff
-        Transmog({item = 205092, slot = L['wand']}), -- Zaralek Surveyor's Wand
-        Transmog({item = 205091, slot = L['offhand']}), -- Zaralek Surveyor's Scepter
-        Transmog({item = 205081, slot = L['plate']}), -- Zaralek Surveyor's Sabatons
-        Transmog({item = 205084, slot = L['plate']}), -- Zaralek Surveyor's Mantle
-        Transmog({item = 204950, slot = L['plate']}), -- Starless Mantle
         Transmog({item = 205317, slot = L['plate']}), -- Crystalpod Gauntlets
-        Transmog({item = 205078, slot = L['mail']}), -- Zaralek Surveyor's Bracers
-        Transmog({item = 205071, slot = L['mail']}), -- Zaralek Surveyor's Chainmail
-        Transmog({item = 205077, slot = L['mail']}), -- Zaralek Surveyor's Cinch
-        Transmog({item = 204940, slot = L['mail']}), -- Skyless Coif
-        Transmog({item = 205065, slot = L['leather']}), -- Zaralek Surveyor's Waders
-        Transmog({item = 204935, slot = L['leather']}), -- Sunless bracers
-        Transmog({item = 205089, slot = L['leather']}), -- Zaralek Surveyor's Shoulderpads
-        Transmog({item = 205064, slot = L['cloth']}), -- Zaralek Surveyor's Cuffs
         Transmog({item = 205296, slot = L['cloth']}), -- Goopal's Visage
-        Transmog({item = 205112, slot = L['cloak']}), -- Zaralek Surveyor's Shawl
-        Transmog({item = 205057, slot = L['cloak']}), -- Zaralek Surveyor's Greatcloak
-        Transmog({item = 204914, slot = L['cloak']}), -- Deeprock Cloak
-        Transmog({item = 205055, slot = L['cloak']}), -- Zaralek Surveyor's Drape
         DC.WindingSlitherdrake.LongChinHorn
     }
 }) -- Goopal
@@ -253,21 +164,7 @@ map.nodes[45673327] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59200}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59499}) -- Cavern Clawbbering
-        Transmog({item = 204981, slot = L['wand']}), -- Neltharic Wand
-        Transmog({item = 205107, slot = L['1h_mace']}), -- Zaralek Surveyor's Cudgel
-        Transmog({item = 205091, slot = L['offhand']}), -- Zaralek Surveyor's Scepter
-        Transmog({item = 205081, slot = L['plate']}), -- Zaralek Surveyor's Sabatons
-        Transmog({item = 205075, slot = L['mail']}), -- Zaralek Surveyor's Greaves
-        Transmog({item = 205071, slot = L['mail']}), -- Zaralek Surveyor's Chainmail
-        Transmog({item = 205073, slot = L['mail']}), -- Zaralek Surveyor's Grips
-        Transmog({item = 205077, slot = L['mail']}), -- Zaralek Surveyor's Cinch
-        Transmog({item = 205069, slot = L['leather']}), -- Zaralek Surveyor's Sash
-        Transmog({item = 205087, slot = L['leather']}), -- Zaralek Surveyor's Vest
-        Transmog({item = 205061, slot = L['cloth']}), -- Zaralek Surveyor's Cowl
-        Transmog({item = 205064, slot = L['cloth']}), -- Zaralek Surveyor's Cuffs
-        Transmog({item = 204925, slot = L['cloth']}), -- Moonless Shoulderpads
         Transmog({item = 205297, slot = L['cloth']}), -- Flamewielder's Trousers
-        Transmog({item = 205112, slot = L['cloak']}), -- Zaralek Surveyor's Shawl
         DC.WindingSlitherdrake.WhiteHorns
     }
 }) -- Invohq
@@ -280,23 +177,8 @@ map.nodes[28515115] = Rare({
         Achievement({id = 17783, criteria = 59206}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59500}), -- Cavern Clawbbering
         Toy({item = 205419}), -- Jrumm's Drum
-        Transmog({item = 205093, slot = L['polearm']}), -- Zaralek Surveyor's Polearm
-        Transmog({item = 205081, slot = L['plate']}), -- Zaralek Surveyor's Sabatons
-        Transmog({item = 204951, slot = L['plate']}), -- Starless Girdle
-        Transmog({item = 205078, slot = L['mail']}), -- Zaralek Surveyor's Bracers
-        Transmog({item = 205072, slot = L['mail']}), -- Zaralek Surveyor's Striders
-        Transmog({item = 205076, slot = L['mail']}), -- Zaralek Surveyor's Shoulderguards
-        Transmog({item = 205074, slot = L['mail']}), -- Zaralek Surveyor's Coif
-        Transmog({item = 204940, slot = L['mail']}), -- Skyless Coif
-        Transmog({item = 204942, slot = L['mail']}), -- Skyless Epaulets
-        Transmog({item = 205067, slot = L['leather']}), -- Zaralek Surveyor's Helm
-        Transmog({item = 205088, slot = L['leather']}), -- Zaralek Surveyor's Epaulets
-        Transmog({item = 205087, slot = L['leather']}), -- Zaralek Surveyor's Vest
-        Transmog({item = 205065, slot = L['leather']}), -- Zaralek Surveyor's Waders
         Transmog({item = 205304, slot = L['leather']}), -- Snareguard Sash
         Transmog({item = 205299, slot = L['cloth']}), -- Rudiment Cuffs
-        Transmog({item = 204915, slot = L['cloak']}), -- Deeprock Cape
-        Transmog({item = 205056, slot = L['cloak']}), -- Zaralek Surveyor's Cloak
         DC.WindingSlitherdrake.Ears, --
         Currency({id = 2245}) -- Flightstones
     }
@@ -310,26 +192,7 @@ map.nodes[42226524] = Rare({
         Achievement({id = 17783, criteria = 59199}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59501}), -- Cavern Clawbbering
         Mount({item = 205203, id = 1732}), -- Cobalt Shalewing
-        Transmog({item = 205094, slot = L['gun']}), -- Zaralek Surveyor's Rifle
-        Transmog({item = 205109, slot = L['staff']}), -- Zaralek Surveyor's Staff
-        Transmog({item = 205093, slot = L['polearm']}), -- Zaralek Surveyor's Polearm
-        Transmog({item = 205105, slot = L['1h_mace']}), -- Zaralek Surveyor's Censer
-        Transmog({item = 205106, slot = L['1h_mace']}), -- Zaralek Surveyor's Mallet
-        Transmog({item = 204979, slot = L['1h_axe']}), -- Neltharic Wingaxe
-        Transmog({item = 205086, slot = L['plate']}), -- Zaralek Surveyor's Armplates
-        Transmog({item = 204949, slot = L['plate']}), -- Starless Legguards
-        Transmog({item = 204950, slot = L['plate']}), -- Starless Mantle
-        Transmog({item = 205077, slot = L['mail']}), -- Zaralek Surveyor's Cinch
-        Transmog({item = 205088, slot = L['leather']}), -- Zaralek Surveyor's Epaulets
-        Transmog({item = 205089, slot = L['leather']}), -- Zaralek Surveyor's Shoulderpads
-        Transmog({item = 205070, slot = L['leather']}), -- Zaralek Surveyor's Bindings
-        Transmog({item = 204931, slot = L['leather']}), -- Sunless Cowl
-        Transmog({item = 205060, slot = L['cloth']}), -- Zaralek Surveyor's Handwraps
-        Transmog({item = 205064, slot = L['cloth']}), -- Zaralek Surveyor's Cuffs
-        Transmog({item = 205063, slot = L['cloth']}), -- Zaralek Surveyor's Cord
         Transmog({item = 205298, slot = L['cloth']}), -- Belt of Floating Stone
-        Transmog({item = 204915, slot = L['cloak']}), -- Deeprock Cape
-        Transmog({item = 205056, slot = L['cloak']}), -- Zaralek Surveyor's Cloak
         Transmog({item = 205292, slot = L['cloak']}), -- Kairoktra's Mane
         DC.WindingSlitherdrake.SmallFinnedTail, --
         Pet({item = 205147, id = 3541}), -- Ridged Shalewing
@@ -345,19 +208,8 @@ map.nodes[59593949] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59184}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59502}), -- Cavern Clawbbering
-        Transmog({item = 205093, slot = L['polearm']}), -- Zaralek Surveyor's Polearm
-        Transmog({item = 205106, slot = L['1h_mace']}), -- Zaralek Surveyor's Mallet
-        Transmog({item = 205103, slot = L['1h_axe']}), -- Zaralek Surveyor's Hacker
-        Transmog({item = 205097, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
-        Transmog({item = 205081, slot = L['plate']}), -- Zaralek Surveyor's Sabatons
-        Transmog({item = 205086, slot = L['plate']}), -- Zaralek Surveyor's Armplates
-        Transmog({item = 205083, slot = L['plate']}), -- Zaralek Surveyor's Legguards
         Transmog({item = 205319, slot = L['plate']}), -- Deepflayer Shoulderguards
-        Transmog({item = 205075, slot = L['mail']}), -- Zaralek Surveyor's Greaves
-        Transmog({item = 205074, slot = L['mail']}), -- Zaralek Surveyor's Coif
         Transmog({item = 205310, slot = L['mail']}), -- Legguards of Kaprachu
-        Transmog({item = 205089, slot = L['leather']}), -- Zaralek Surveyor's Shoulderpads
-        Transmog({item = 205063, slot = L['cloth']}), -- Zaralek Surveyor's Cord
         DC.WindingSlitherdrake.HeavyScales,
         Item({item = 192055}) -- Dragon Isle Artifact
     }
@@ -370,26 +222,7 @@ map.nodes[54074162] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59198}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59503}), -- Cavern Clawbbering
-        Transmog({item = 205109, slot = L['staff']}), -- Zaralek Surveyor's Staff
-        Transmog({item = 204962, slot = L['staff']}), -- Neltharic Warstaff
-        Transmog({item = 205097, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
-        Transmog({item = 205091, slot = L['offhand']}), -- Zaralek Surveyor's Scepter
-        Transmog({item = 205073, slot = L['mail']}), -- Zaralek Surveyor's Grips
-        Transmog({item = 205076, slot = L['mail']}), -- Zaralek Surveyor's Shoulderguards
-        Transmog({item = 205074, slot = L['mail']}), -- Zaralek Surveyor's Coif
-        Transmog({item = 205071, slot = L['mail']}), -- Zaralek Surveyor's Chainmail
-        Transmog({item = 205072, slot = L['mail']}), -- Zaralek Surveyor's Striders
         Transmog({item = 205308, slot = L['mail']}), -- Clacking Clawguards
-        Transmog({item = 205089, slot = L['leather']}), -- Zaralek Surveyor's Shoulderpads
-        Transmog({item = 205082, slot = L['leather']}), -- Zaralek Surveyor's Gauntlets
-        Transmog({item = 205070, slot = L['leather']}), -- Zaralek Surveyor's Bindings
-        Transmog({item = 204928, slot = L['leather']}), -- Sunless Tunic
-        Transmog({item = 204935, slot = L['leather']}), -- Sunless bracers
-        Transmog({item = 204929, slot = L['leather']}), -- Sunless Boots
-        Transmog({item = 204922, slot = L['cloth']}), -- Moonless Gloves
-        Transmog({item = 205055, slot = L['cloak']}), -- Zaralek Surveyor's Drape
-        Transmog({item = 205112, slot = L['cloak']}), -- Zaralek Surveyor's Shawl
-        Transmog({item = 205057, slot = L['cloak']}), -- Zaralek Surveyor's Greatcloak
         Item({item = 205686}) -- Clacking Claw
     }
 }) -- Klakatak
@@ -402,24 +235,10 @@ map.nodes[65435587] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59183}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59504}) -- Cavern Clawbbering
-        Transmog({item = 205100, slot = L['2h_sword']}), -- Zaralek Surveyor's Greatsword
-        Transmog({item = 205099, slot = L['1h_sword']}), -- Zaralek Surveyor's Blade
-        Transmog({item = 205109, slot = L['staff']}), -- Zaralek Surveyor's Staff
-        Transmog({item = 205080, slot = L['plate']}), -- Zaralek Surveyor's Breastplate
-        Transmog({item = 205084, slot = L['plate']}), -- Zaralek Surveyor's Mantle
         Transmog({item = 205307, slot = L['mail']}), -- Kob'rok's Scale Sabatons
-        Transmog({item = 205082, slot = L['leather']}), -- Zaralek Surveyor's Gauntlets
-        Transmog({item = 205069, slot = L['leather']}), -- Zaralek Surveyor's Sash
-        Transmog({item = 205070, slot = L['leather']}), -- Zaralek Surveyor's Bindings
         Transmog({item = 205323, slot = L['leather']}), -- Rock-Lined Pauldrons
-        Transmog({item = 205060, slot = L['cloth']}), -- Zaralek Surveyor's Handwraps
-        Transmog({item = 205062, slot = L['cloth']}), -- Zaralek Surveyor's Leggings
-        Transmog({item = 205061, slot = L['cloth']}), -- Zaralek Surveyor's Cowl
-        Transmog({item = 204925, slot = L['cloth']}), -- Moonless Shoulderpads
-        Transmog({item = 204926, slot = L['cloth']}), -- Moonless Belt
-        Transmog({item = 204914, slot = L['cloak']}), -- Deeprock Cloak
         Pet({item = 205152, id = 3546}), -- Skaarn
-        --DC.WindingSlitherdrake.SpikedClubTail
+        DC.CliffsideWylderdrake.SpikedClubTail
     },
     pois = {POI({64785550})} -- Entrance
 }) -- Kob'rok
@@ -431,22 +250,8 @@ map.nodes[40753817] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59203}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59505}), -- Cavern Clawbbering
-        Transmog({item = 205086, slot = L['plate']}), -- Zaralek Surveyor's Armplates
-        Transmog({item = 205081, slot = L['plate']}), -- Zaralek Surveyor's Sabatons
-        Transmog({item = 205072, slot = L['mail']}), -- Zaralek Surveyor's Striders
-        Transmog({item = 205077, slot = L['mail']}), -- Zaralek Surveyor's Cinch
-        Transmog({item = 205078, slot = L['mail']}), -- Zaralek Surveyor's Bracers
-        Transmog({item = 205071, slot = L['mail']}), -- Zaralek Surveyor's Chainmail
-        Transmog({item = 204940, slot = L['mail']}), -- Skyless Coif
         Transmog({item = 205311, slot = L['mail']}), -- Magmascale Pauldrons
-        Transmog({item = 205082, slot = L['leather']}), -- Zaralek Surveyor's Gauntlets
-        Transmog({item = 205087, slot = L['leather']}), -- Zaralek Surveyor's Vest
-        Transmog({item = 205070, slot = L['leather']}), -- Zaralek Surveyor's Bindings
-        Transmog({item = 205068, slot = L['leather']}), -- Zaralek Surveyor's Breeches
         Transmog({item = 205300, slot = L['leather']}), -- Magma Waders
-        Transmog({item = 205062, slot = L['cloth']}), -- Zaralek Surveyor's Leggings
-        Transmog({item = 205056, slot = L['cloak']}), -- Zaralek Surveyor's Cloak
-        Transmog({item = 205112, slot = L['cloak']}), -- Zaralek Surveyor's Shawl
         DC.WindingSlitherdrake.ImpalerHorns,
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Item({item = 192055}), -- Dragon Isle Artifact
@@ -462,20 +267,7 @@ map.nodes[55841899] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59189}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59506}), -- Cavern Clawbbering
-        Transmog({item = 205100, slot = L['2h_sword']}), -- Zaralek Surveyor's Greatsword
-        Transmog({item = 204979, slot = L['1h_axe']}), -- Neltharic Wingaxe
-        Transmog({item = 205091, slot = L['offhand']}), -- Zaralek Surveyor's Scepter
-        Transmog({item = 205081, slot = L['plate']}), -- Zaralek Surveyor's Sabatons
-        Transmog({item = 204952, slot = L['plate']}), -- Starless Armplates
-        Transmog({item = 204938, slot = L['mail']}), -- Skyless Grips
-        Transmog({item = 205076, slot = L['mail']}), -- Zaralek Surveyor's Shoulderguards
-        Transmog({item = 205082, slot = L['leather']}), -- Zaralek Surveyor's Gauntlets
-        Transmog({item = 205065, slot = L['leather']}), -- Zaralek Surveyor's Waders
-        Transmog({item = 205070, slot = L['leather']}), -- Zaralek Surveyor's Bindings
         Transmog({item = 205322, slot = L['leather']}), -- Algeth'ar Exile's Frock
-        Transmog({item = 205060, slot = L['cloth']}), -- Zaralek Surveyor's Handwraps
-        Transmog({item = 205062, slot = L['cloth']}), -- Zaralek Surveyor's Leggings
-        Transmog({item = 205055, slot = L['cloak']}), -- Zaralek Surveyor's Drape
         DC.WindingSlitherdrake.ClusterHorns,
         Item({item = 192055}) -- Dragon Isle Artifact
     },
@@ -489,27 +281,8 @@ map.nodes[65875082] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59205}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59507}), -- Cavern Clawbbering
-        Transmog({item = 204958, slot = L['1h_sword']}), -- Neltharic Blade
-        Transmog({item = 205106, slot = L['1h_mace']}), -- Zaralek Surveyor's Mallet
-        Transmog({item = 204956, slot = L['1h_mace']}), -- Neltharic Smasher
-        Transmog({item = 205079, slot = L['plate']}), -- Zaralek Surveyor's Helm
-        Transmog({item = 205085, slot = L['plate']}), -- Zaralek Surveyor's Girdle
-        Transmog({item = 205083, slot = L['plate']}), -- Zaralek Surveyor's Legguards
-        Transmog({item = 205081, slot = L['plate']}), -- Zaralek Surveyor's Sabatons
-        Transmog({item = 205077, slot = L['mail']}), -- Zaralek Surveyor's Cinch
-        Transmog({item = 205078, slot = L['mail']}), -- Zaralek Surveyor's Bracers
-        Transmog({item = 205074, slot = L['mail']}), -- Zaralek Surveyor's Coif
-        Transmog({item = 205071, slot = L['mail']}), -- Zaralek Surveyor's Chainmail
-        Transmog({item = 205088, slot = L['leather']}), -- Zaralek Surveyor's Epaulets
-        Transmog({item = 205066, slot = L['leather']}), -- Zaralek Surveyor's Grips
-        Transmog({item = 205061, slot = L['cloth']}), -- Zaralek Surveyor's Cowl
-        Transmog({item = 205062, slot = L['cloth']}), -- Zaralek Surveyor's Leggings
         Transmog({item = 205294, slot = L['cloth']}), -- Sandals of Molten Scorn
         Transmog({item = 205301, slot = L['cloth']}), -- Hardened Lava Handwraps
-        Transmog({item = 204915, slot = L['cloak']}), -- Deeprock Cape
-        Transmog({item = 205057, slot = L['cloak']}), -- Zaralek Surveyor's Greatcloak
-        Transmog({item = 205056, slot = L['cloak']}), -- Zaralek Surveyor's Cloak
-        Transmog({item = 205112, slot = L['cloak']}), -- Zaralek Surveyor's Shawl
         DC.WindingSlitherdrake.CurledCheekHorn,
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
@@ -524,16 +297,8 @@ map.nodes[53106421] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59187}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59508}), -- Cavern Clawbbering
-        Transmog({item = 205108, slot = L['polearm']}), -- Zaralek Surveyor's Halberd
-        Transmog({item = 205109, slot = L['staff']}), -- Zaralek Surveyor's Staff
         Transmog({item = 205326, slot = L['dagger']}), -- Crystalweb Chelicera
-        Transmog({item = 205091, slot = L['offhand']}), -- Zaralek Surveyor's Scepter
-        Transmog({item = 205076, slot = L['mail']}), -- Zaralek Surveyor's Shoulderguards
-        Transmog({item = 205072, slot = L['mail']}), -- Zaralek Surveyor's Striders
         Transmog({item = 205305, slot = L['leather']}), -- Zaralek Arachnid Armbands
-        Transmog({item = 204935, slot = L['leather']}), -- Sunless bracers
-        Transmog({item = 205064, slot = L['cloth']}), -- Zaralek Surveyor's Cuffs
-        Transmog({item = 205057, slot = L['cloak']}), -- Zaralek Surveyor's Greatcloak
         Transmog({item = 205290, slot = L['cloak']}), -- Greatcloak of Spun Marrow
         DC.WindingSlitherdrake.HairyCrest,
         Item({item = 192055}) -- Dragon Isle Artifact
@@ -549,19 +314,8 @@ map.nodes[38424650] = Rare({
         Achievement({id = 17783, criteria = 59208}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59509}), -- Cavern Clawbbering
         Transmog({item = 205328, slot = L['2h_sword']}), -- Earthen Emissasry's Edge
-        Transmog({item = 205105, slot = L['1h_mace']}), -- Zaralek Surveyor's Censer
-        Transmog({item = 205079, slot = L['plate']}), -- Zaralek Surveyor's Helm
-        Transmog({item = 205081, slot = L['plate']}), -- Zaralek Surveyor's Sabatons
         Transmog({item = 205314, slot = L['plate']}), -- Greathelm of the Emissary
-        Transmog({item = 205073, slot = L['mail']}), -- Zaralek Surveyor's Grips
-        Transmog({item = 205078, slot = L['mail']}), -- Zaralek Surveyor's Bracers
         Transmog({item = 205312, slot = L['mail']}), -- Subterrax's Stout Waistguard
-        Transmog({item = 205082, slot = L['leather']}), -- Zaralek Surveyor's Gauntlets
-        Transmog({item = 205066, slot = L['leather']}), -- Zaralek Surveyor's Grips
-        Transmog({item = 205064, slot = L['cloth']}), -- Zaralek Surveyor's Cuffs
-        Transmog({item = 205056, slot = L['cloak']}), -- Zaralek Surveyor's Cloak
-        Transmog({item = 204914, slot = L['cloak']}), -- Deeprock Cloak
-        Transmog({item = 205112, slot = L['cloak']}), -- Zaralek Surveyor's Shawl
         DC.WindingSlitherdrake.AntlerHorns,
         Item({item = 199906}) -- Titan Relic
     }
@@ -574,30 +328,9 @@ map.nodes[57766910] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59191}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59510}) -- Cavern Clawbbering
-        Transmog({item = 205109, slot = L['staff']}), -- Zaralek Surveyor's Staff
-        Transmog({item = 205100, slot = L['2h_sword']}), -- Zaralek Surveyor's Greatsword
-        Transmog({item = 205095, slot = L['1h_sword']}), -- Zaralek Surveyor's Spellblade
-        Transmog({item = 205097, slot = L['dagger']}), -- Zaralek Surveyor's Kriss
-        Transmog({item = 204981, slot = L['wand']}), -- Neltharic Wand
         Transmog({item = 205325, slot = L['shield']}), -- Crystal Wing Shield
-        Transmog({item = 204964, slot = L['offhand']}), -- Neltharic Torch
-        Transmog({item = 205083, slot = L['plate']}), -- Zaralek Surveyor's Legguards
-        Transmog({item = 205081, slot = L['plate']}), -- Zaralek Surveyor's Sabatons
-        Transmog({item = 204952, slot = L['plate']}), -- Starless Armplates
-        Transmog({item = 205075, slot = L['mail']}), -- Zaralek Surveyor's Greaves
-        Transmog({item = 205078, slot = L['mail']}), -- Zaralek Surveyor's Bracers
-        Transmog({item = 205071, slot = L['mail']}), -- Zaralek Surveyor's Chainmail
-        Transmog({item = 205089, slot = L['leather']}), -- Zaralek Surveyor's Shoulderpads
-        Transmog({item = 205067, slot = L['leather']}), -- Zaralek Surveyor's Helm
-        Transmog({item = 205082, slot = L['leather']}), -- Zaralek Surveyor's Gauntlets
-        Transmog({item = 205070, slot = L['leather']}), -- Zaralek Surveyor's Bindings
         Transmog({item = 205302, slot = L['leather']}), -- Underlight Headwrap
-        Transmog({item = 205064, slot = L['cloth']}), -- Zaralek Surveyor's Cuffs
-        Transmog({item = 204922, slot = L['cloth']}), -- Moonless Gloves
         Transmog({item = 205324, slot = L['cloth']}), -- Moth Queen Mantle
-        Transmog({item = 205057, slot = L['cloak']}), -- Zaralek Surveyor's Greatcloak
-        Transmog({item = 205055, slot = L['cloak']}), -- Zaralek Surveyor's Drape
-        Transmog({item = 205056, slot = L['cloak']}), -- Zaralek Surveyor's Cloak
         Pet({item = 205159, id = 3551}) -- Skaarn
     }
 }) -- Underlight Queen
@@ -610,16 +343,7 @@ map.nodes[38867151] = Rare({
         Achievement({id = 17783, criteria = 59210}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59511}) -- Cavern Clawbbering
         Transmog({item = 205327, slot = L['dagger']}), -- Shard of the Veridian King
-        Transmog({item = 205083, slot = L['plate']}), -- Zaralek Surveyor's Legguards
-        Transmog({item = 205081, slot = L['plate']}), -- Zaralek Surveyor's Sabatons
-        Transmog({item = 205084, slot = L['plate']}), -- Zaralek Surveyor's Mantle
         Transmog({item = 205316, slot = L['plate']}), -- Crystal Stompers
-        Transmog({item = 205067, slot = L['leather']}), -- Zaralek Surveyor's Helm
-        Transmog({item = 205088, slot = L['leather']}), -- Zaralek Surveyor's Epaulets
-        Transmog({item = 205063, slot = L['cloth']}), -- Zaralek Surveyor's Cord
-        Transmog({item = 205056, slot = L['cloak']}), -- Zaralek Surveyor's Cloak
-        Transmog({item = 205073, slot = L['mail']}), -- Zaralek Surveyor's Grips
-        Transmog({item = 205077, slot = L['mail']}), -- Zaralek Surveyor's Cinch
         DC.WindingSlitherdrake.SplitJawHorns
     }
 }) -- Viridian King
