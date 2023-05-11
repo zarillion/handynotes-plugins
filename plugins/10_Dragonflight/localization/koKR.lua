@@ -722,3 +722,6 @@ L['options_icons_smelly_trash_pile_desc'] = nil
 L['seething_cache_treasure_note'] = nil
 L['chest_of_the_flights_treasure_note'] = nil
 L['curious_top_hat_note'] = nil
+
+L['zaralek_rotation_active'] = nil
+L['zaralek_rotation_inactive'] = nil

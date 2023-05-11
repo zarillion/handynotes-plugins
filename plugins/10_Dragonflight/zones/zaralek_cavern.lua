@@ -41,11 +41,32 @@ local deepflayerNest = Map({id = 2184, settings = false}) -- Deepflayer Nest
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
+-- Interval ID 0 -> Caldera Zone (always active)
+-- Interval ID 1 -> Glimmerogg Zone
+-- Interval ID 2 -> Nal Ks'Kol Zone
+-- Interval ID 3 -> Loamm Zone
+-- Interval ID 4 -> Aberrus Zone
+
+local ZaralekRotation = Class('ZaralekRotation', ns.Interval, {
+    initial = {eu = 1683259200, us = 1683298800},
+    offset = 86400,
+    interval = 86400
+})
+
+function ZaralekRotation:GetText()
+    local isInactive = math.floor(self:Next() / self.interval) % 4 + 1
+    local text = L['zaralek_rotation_active']
+    if self.id == isInactive then text = L['zaralek_rotation_inactive'] end
+    ns.PrepareLinks(text)
+    return text
+end
+
 map.nodes[56247389] = Rare({
     id = 203515,
     vignette = 5643,
     quest = 75284,
     location = L['in_small_cave'],
+    interval = ZaralekRotation({id = 2}),
     rewards = {
         Achievement({id = 17783, criteria = 59188}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59491}), -- Cavern Clawbbering
@@ -59,6 +80,7 @@ map.nodes[48367509] = Rare({
     id = 203468,
     vignette = 5640,
     quest = 75270,
+    interval = ZaralekRotation({id = 1}),
     rewards = {
         Achievement({id = 17783, criteria = 59185}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59492}), -- Cavern Clawbbering
@@ -72,6 +94,7 @@ map.nodes[41518613] = Rare({
     vignette = 5652,
     quest = 75325,
     note = L['brulsef_the_stronk_note'],
+    interval = ZaralekRotation({id = 1}),
     rewards = {
         Achievement({id = 17783, criteria = 59202}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59493}), -- Cavern Clawbbering
@@ -85,6 +108,7 @@ map.nodes[48372384] = Rare({
     id = 204093,
     vignette = 5674,
     quest = 75475,
+    interval = ZaralekRotation({id = 4}),
     rewards = {
         Achievement({id = 17783, criteria = 59212}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59494}), -- Cavern Clawbbering
@@ -96,6 +120,7 @@ map.nodes[31805061] = Rare({
     id = 203664,
     vignette = 5663,
     quest = 75361,
+    interval = ZaralekRotation({id = 0}),
     rewards = {
         Achievement({id = 17783, criteria = 59209}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59495}), -- Cavern Clawbbering
@@ -108,6 +133,7 @@ map.nodes[36324481] = Rare({
     vignette = 5661,
     quest = 75357,
     location = L['in_small_cave'],
+    interval = ZaralekRotation({id = 0}),
     rewards = {
         Achievement({id = 17783, criteria = 59207}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59496}) -- Cavern Clawbbering
@@ -119,6 +145,7 @@ map.nodes[41921857] = Rare({
     id = 203592,
     vignette = 5645,
     quest = 75295,
+    interval = ZaralekRotation({id = 4}),
     rewards = {
         Achievement({id = 17783, criteria = 59190}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59497}), -- Cavern Clawbbering
@@ -131,6 +158,7 @@ map.nodes[68734593] = Rare({
     id = 203477,
     vignette = 5641,
     quest = 75273,
+    interval = ZaralekRotation({id = 3}),
     rewards = {
         Achievement({id = 17783, criteria = 59186}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59498}) -- Cavern Clawbbering
@@ -141,6 +169,7 @@ map.nodes[45673327] = Rare({
     id = 203627,
     vignette = 5654,
     quest = 75335,
+    interval = ZaralekRotation({id = 4}),
     rewards = {
         Achievement({id = 17783, criteria = 59200}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59499}) -- Cavern Clawbbering
@@ -151,6 +180,7 @@ map.nodes[28515115] = Rare({
     id = 203646,
     vignette = 5660,
     quest = 75352,
+    interval = ZaralekRotation({id = 0}),
     rewards = {
         Achievement({id = 17783, criteria = 59206}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59500}), -- Cavern Clawbbering
@@ -164,6 +194,7 @@ map.nodes[42226524] = Rare({
     id = 203625,
     vignette = 5653,
     quest = 75333,
+    interval = ZaralekRotation({id = 1}),
     rewards = {
         Achievement({id = 17783, criteria = 59199}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59501}), -- Cavern Clawbbering
@@ -179,6 +210,7 @@ map.nodes[59593949] = Rare({
     id = 203466,
     vignette = 5639,
     quest = 75268,
+    interval = ZaralekRotation({id = 3}),
     rewards = {
         Achievement({id = 17783, criteria = 59184}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59502}), -- Cavern Clawbbering
@@ -190,6 +222,7 @@ map.nodes[54074162] = Rare({
     id = 203618,
     vignette = 5651,
     quest = 75321,
+    interval = ZaralekRotation({id = 3}),
     rewards = {
         Achievement({id = 17783, criteria = 59198}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59503}), -- Cavern Clawbbering
@@ -202,6 +235,7 @@ map.nodes[65435587] = Rare({
     vignette = 5638,
     quest = 75266,
     location = L['in_small_cave'],
+    interval = ZaralekRotation({id = 3}),
     rewards = {
         Achievement({id = 17783, criteria = 59183}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59504}), -- Cavern Clawbbering
@@ -215,6 +249,7 @@ map.nodes[40753817] = Rare({
     id = 200111,
     vignette = 5656,
     quest = 75339,
+    interval = ZaralekRotation({id = 4}),
     rewards = {
         Achievement({id = 17783, criteria = 59203}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59505}), -- Cavern Clawbbering
@@ -230,6 +265,7 @@ map.nodes[55841899] = Rare({
     vignette = 5644,
     quest = 75291,
     location = L['in_cave'],
+    interval = ZaralekRotation({id = 4}),
     rewards = {
         Achievement({id = 17783, criteria = 59189}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59506}), -- Cavern Clawbbering
@@ -242,6 +278,7 @@ map.nodes[65875082] = Rare({
     id = 203643,
     vignette = 5659,
     quest = 75348,
+    interval = ZaralekRotation({id = 0}),
     rewards = {
         Achievement({id = 17783, criteria = 59205}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59507}), -- Cavern Clawbbering
@@ -255,6 +292,7 @@ map.nodes[53106421] = Rare({
     vignette = 5642,
     quest = 75275,
     location = L['in_small_cave'],
+    interval = ZaralekRotation({id = 2}),
     rewards = {
         Achievement({id = 17783, criteria = 59187}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59508}), -- Cavern Clawbbering
@@ -268,6 +306,7 @@ map.nodes[38424650] = Rare({
     id = 203662,
     vignette = 5662,
     quest = 75359,
+    interval = ZaralekRotation({id = 0}),
     rewards = {
         Achievement({id = 17783, criteria = 59208}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59509}), -- Cavern Clawbbering
@@ -279,6 +318,7 @@ map.nodes[57766910] = Rare({
     id = 203593,
     vignette = 5646,
     quest = 75297,
+    interval = ZaralekRotation({id = 3}),
     rewards = {
         Achievement({id = 17783, criteria = 59191}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59510}), -- Cavern Clawbbering
@@ -290,6 +330,7 @@ map.nodes[38867151] = Rare({
     id = 201029,
     vignette = 5664,
     quest = 75365,
+    interval = ZaralekRotation({id = 1}),
     rewards = {
         Achievement({id = 17783, criteria = 59210}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59511}) -- Cavern Clawbbering
@@ -410,7 +451,7 @@ map.nodes[32333935] = Treasure({
     }
 }) -- Seething Cache
 
-map.nodes[29774050] = Treasure({
+map.nodes[29764054] = Treasure({
     quest = 73395,
     note = L['well_chewed_chest_note'],
     requires = ns.requirement.Item(202869), -- Scorching Key
@@ -498,7 +539,7 @@ map.nodes[64197495] = Treasure({
 
 map.nodes[60664622] = Treasure({
     label = L['stolen_stash_label'],
-    quest = 75302,
+    quest = {75302, 66382},
     rewards = {
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones

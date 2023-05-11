@@ -784,3 +784,6 @@ L['options_icons_smelly_trash_pile_desc'] = 'Afficher les emplacements possibles
 L['seething_cache_treasure_note'] = 'Pour pouvoir voir la {object:Cache bouillonnante} et récupérer le {item:192779}, vous devrez obtenir 3x charges du debuff {spell:399342}, récupéré sur les {object:Orbes bouillonnants} situés à la {location:Caldeira Zaqali} dans la {location:Grotte de Zaralek}.'
 L['chest_of_the_flights_treasure_note'] = 'Pour ouvrir le coffre au trésor, vous devez cliquer sur les {object:Gemmes renforcées} dans l\'ordre {note:Rouge > Noire > Bleue > Jaune > Verte}.'
 L['curious_top_hat_note'] = 'Interagissez avec le {npc:205010} pendant que vous avez le buff {spell:410288} pour obtenir {item:205021}. Si vous n\'avez pas le buff et que vous vous approchez de lui, il s\'enfuira.'
+
+L['zaralek_rotation_active'] = nil
+L['zaralek_rotation_inactive'] = nil
