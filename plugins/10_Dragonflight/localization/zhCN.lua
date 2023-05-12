@@ -787,5 +787,5 @@ L['seething_cache_treasure_note'] = '为了能够看到 {object:沸燃之箱} �
 L['chest_of_the_flights_treasure_note'] = '要打开宝箱，需要按 {note:红 > 黑 > 蓝 > 黄 > 绿} 的顺序点击 {object:强化宝石}。'
 L['curious_top_hat_note'] = '在拥有 {spell:410288} 增益时与 {npc:205010} 互动并得到 {item:205021}。如果没有增益并靠近他，他就会逃跑。'
 
-L['zaralek_rotation_active'] = nil
-L['zaralek_rotation_inactive'] = nil
+L['zaralek_rotation_active'] = ns.color.Blue('此稀有今日可能出现。')
+L['zaralek_rotation_inactive'] = ns.color.Orange('此稀有今日不出现，明日再来。')
