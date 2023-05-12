@@ -1,3 +1,16 @@
+# v37
+
+* Added battle pet trainer locations.
+* Added missing quest ids for profession treasures.
+* Added more Ritual Offering and Smelly Trash Pile locations.
+* Added POIs for the Old Trunk treasure.
+* Added reward info to the rare vignettes when they are active.
+* Added the Living Mud Mask, Bugbiter Tortoise and Lord Stantley pets.
+* Fixed a bug that preventing the Siege on Dragonbane Keep icon from appearing.
+* Moved Ritual Offerings to their own display group.
+* Removed bugged indicator from Fealty's Reward.
+* Updated rewards, notes and locations for multiple rares and treasures.
+
 # v36
 
 * Added rares, treasures, achievements and misc NPCs and mounts for Zaralek Cavern!
