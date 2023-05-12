@@ -280,7 +280,7 @@ function Interval:Initialize(attrs)
 
     local region_initial = {
         [1] = self.initial.us,
-        [2] = self.initial.kr and self.initial.tw,
+        [2] = self.initial.kr or self.initial.tw,
         [3] = self.initial.eu,
         [5] = self.initial.cn
     } -- https://wowpedia.fandom.com/wiki/API_GetCurrentRegion
