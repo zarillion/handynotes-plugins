@@ -188,7 +188,7 @@ map.nodes[56624826] = Collectible({
     group = ns.groups.SECRETS_OF_ZULGURUB,
     requires = ns.requirement.Profession(171),
     rewards = {
-        Spell({item = 19931, spell = 24266}) -- Gurubashi Mojo Madness
+        Spell({item = 19931, spell = 24266}) -- Gurubashi Mojo Madness -- TODO known, but is still shown.
     },
     pois = {
         Path({56624826, 56625126, 57415146, 58075110, 58234813, 61374631}), -- Path
