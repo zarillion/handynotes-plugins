@@ -48,7 +48,7 @@ local deepflayerNest = Map({id = 2184, settings = false}) -- Deepflayer Nest
 -- Interval ID 4 -> Aberrus Zone
 
 local ZaralekRotation = Class('ZaralekRotation', ns.Interval, {
-    initial = {eu = 1683259200, us = 1683298800, tw = 1683331200},
+    initial = {eu = 1683259200, us = 1683298800, tw = 1683327600},
     offset = 86400,
     interval = 86400
 })
