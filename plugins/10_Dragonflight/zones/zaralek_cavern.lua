@@ -308,7 +308,7 @@ map.nodes[55841899] = Rare({
     pois = {POI({52921886})} -- Entrance
 }) -- Professor Gastrinax
 
-map.nodes[65875082] = Rare({
+map.nodes[36205300] = Rare({
     id = 203643,
     vignette = 5659,
     quest = 75348,
@@ -317,7 +317,7 @@ map.nodes[65875082] = Rare({
         Achievement({id = 17783, criteria = 59205}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59507}), -- Cavern Clawbbering
         Transmog({item = 205294, slot = L['cloth']}), -- Sandals of Molten Scorn
-        Transmog({item = 205301, slot = L['cloth']}), -- Hardened Lava Handwraps
+        Transmog({item = 205301, slot = L['leather']}), -- Hardened Lava Handwraps
         DC.WindingSlitherdrake.CurledCheekHorn, --
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
