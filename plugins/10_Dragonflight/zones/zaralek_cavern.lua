@@ -413,14 +413,13 @@ map.nodes[28544791] = Treasure({
 map.nodes[42976040] = Treasure({
     quest = 75231, -- 75232
     requires = {
-        ns.requirement.Quest(75145) -- In the Wake of the Ashes
+        ns.requirement.Quest(73047) -- Terrestrial Tunneling
     },
     rewards = {
         Achievement({id = 17786, criteria = 59225}) -- Treasures of Zaralek Cavern
-    }
+    },
+    pois = {POI({40136835})}
 }) -- Bloody Body
--- coords and required quest from wowhead comments.
--- i completed the questline until "In the Wake of the Ashes" but the body is not there
 
 map.nodes[30044193] = Treasure({
     quest = 73706,
