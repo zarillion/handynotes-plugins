@@ -1,3 +1,9 @@
+# v38
+
+* Added Zaralek zone event locations.
+* Fixed a Lua error in the KR and TW regions.
+* Fixed Skornak location and rewards.
+
 # v37
 
 * Added battle pet trainer locations.
