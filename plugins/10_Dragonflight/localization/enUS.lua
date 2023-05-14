@@ -789,3 +789,6 @@ L['curious_top_hat_note'] = 'Interact with {npc:205010} while you have the {spel
 
 L['zaralek_rotation_active'] = ns.color.Blue('This Rare can spawn today.')
 L['zaralek_rotation_inactive'] = ns.color.Orange('This Rare will not spawn today, come back tomorrow.')
+
+L['options_icons_zone_event'] = 'Zone Event'
+L['options_icons_zone_event_desc'] = 'Display locations for zone events.'

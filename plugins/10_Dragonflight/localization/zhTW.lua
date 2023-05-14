@@ -789,3 +789,6 @@ L['curious_top_hat_note'] = '當你有 {spell:410288} 增益時和 {npc:205010} 
 
 L['zaralek_rotation_active'] = nil
 L['zaralek_rotation_inactive'] = nil
+
+L['options_icons_zone_event'] = nil
+L['options_icons_zone_event_desc'] = nil

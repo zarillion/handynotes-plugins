@@ -725,3 +725,6 @@ L['curious_top_hat_note'] = nil
 
 L['zaralek_rotation_active'] = nil
 L['zaralek_rotation_inactive'] = nil
+
+L['options_icons_zone_event'] = nil
+L['options_icons_zone_event_desc'] = nil

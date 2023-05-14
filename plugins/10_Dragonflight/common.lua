@@ -191,6 +191,11 @@ ns.groups.TUSKARR_TACKLEBOX = Group('tuskarr_tacklebox', 'chest_yw', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.ZONE_EVENT = Group('zone_event', 'peg_rd', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.ZSKERA_VAULTS = Group('zskera_vaults', 4909720, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION

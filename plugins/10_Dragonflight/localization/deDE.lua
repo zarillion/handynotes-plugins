@@ -791,3 +791,6 @@ L['curious_top_hat_note'] = 'Interagiere mit {npc:205010} während du den {spell
 
 L['zaralek_rotation_active'] = ns.color.Blue('Dieser seltene Gegner kann heute erscheinen.')
 L['zaralek_rotation_inactive'] = ns.color.Orange('Dieser seltene Gegner wird heute nicht erscheinen, komm morgen wieder.')
+
+L['options_icons_zone_event'] = nil
+L['options_icons_zone_event_desc'] = nil

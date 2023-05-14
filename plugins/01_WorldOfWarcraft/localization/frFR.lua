@@ -59,4 +59,3 @@ L['zg_armor_ensembles'] = 'Ensembles d\'armures de Zul\'Gurub'
 
 L['options_icons_secrets_of_zulgurub'] = 'Secrets anciens de Zul\'Gurub'
 L['options_icons_secrets_of_zulgurub_desc'] = 'Afficher les emplacements importants liés aux {location:Secrets anciens de Zul\'Gurub}.'
-

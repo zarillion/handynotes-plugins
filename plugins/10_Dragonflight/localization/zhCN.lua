@@ -789,3 +789,6 @@ L['curious_top_hat_note'] = '在拥有 {spell:410288} 增益时与 {npc:205010} 
 
 L['zaralek_rotation_active'] = ns.color.Blue('此稀有今日可能出现。')
 L['zaralek_rotation_inactive'] = ns.color.Orange('此稀有今日不出现，明日再来。')
+
+L['options_icons_zone_event'] = nil
+L['options_icons_zone_event_desc'] = nil
