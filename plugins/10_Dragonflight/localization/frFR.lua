@@ -788,5 +788,5 @@ L['curious_top_hat_note'] = 'Interagissez avec le {npc:205010} pendant que vous 
 L['zaralek_rotation_active'] = ns.color.Blue('Ce Rare peut apparaître aujourd\'hui.')
 L['zaralek_rotation_inactive'] = ns.color.Orange('Ce Rare n\'apparaîtra pas aujourd\'hui, revenez demain.')
 
-L['options_icons_zone_event'] = nil
-L['options_icons_zone_event_desc'] = nil
+L['options_icons_zone_event'] = 'Événements bonus'
+L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements bonus.'
