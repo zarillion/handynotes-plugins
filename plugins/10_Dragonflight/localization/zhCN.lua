@@ -787,10 +787,10 @@ L['seething_cache_treasure_note'] = '为了能够看到 {object:沸燃之箱} �
 L['chest_of_the_flights_treasure_note'] = '要打开宝箱，需要按 {note:红 > 黑 > 蓝 > 黄 > 绿} 的顺序点击 {object:强化宝石}。'
 L['curious_top_hat_note'] = '在拥有 {spell:410288} 增益时与 {npc:205010} 互动并得到 {item:205021}。如果没有增益并靠近他，他就会逃跑。'
 
-L['zaralek_rotation_active'] = ns.color.Blue('此稀有今日可能出现。')
-L['zaralek_rotation_inactive'] = ns.color.Orange('此稀有今日不出现，明日再来。')
-L['options_icons_zone_event'] = nil
-L['options_icons_zone_event_desc'] = nil
+L['zaralek_rare_active'] = ns.color.Blue('此稀有今日出现。')
+L['zaralek_rare_inactive'] = ns.color.Orange('此稀有今日不出现，明日再来。')
+L['zaralek_event_active'] = ns.color.Blue('此区域事件今日开始。')
+L['zaralek_event_inactive'] = ns.color.Orange('此区域事件今日不开始，明日再来。')
 
-L['options_icons_zone_event'] = nil
-L['options_icons_zone_event_desc'] = nil
+L['options_icons_zone_event'] = '区域事件'
+L['options_icons_zone_event_desc'] = '显示区域事件的位置。'
