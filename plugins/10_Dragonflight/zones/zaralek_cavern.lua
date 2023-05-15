@@ -973,6 +973,12 @@ function ZoneEvent.getters:label()
     return C_QuestLog.GetTitleForQuestID(self.quest[1]) or UNKNOWN
 end
 
+function ZoneEvent.getters:rlabel()
+    local completed = C_QuestLog.IsQuestFlaggedCompleted(self.quest[1])
+    local color = completed and ns.status.Green or ns.status.Gray
+    return color(L['weekly'])
+end
+
 map.nodes[44507490] = ZoneEvent({
     quest = 75612,
     interval = EventRotation({id = 1})
