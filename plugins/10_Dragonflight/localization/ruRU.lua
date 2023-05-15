@@ -790,8 +790,8 @@ L['curious_top_hat_note'] = 'Взаимодействуйте с {npc:205010}, �
 
 L['zaralek_rare_active'] = ns.color.Blue('Этот редкий монстр может появиться сегодня.')
 L['zaralek_rare_inactive'] = ns.color.Orange('Этот редкий монстр не появится сегодня, приходите завтра.')
-L['zaralek_event_active'] = nil
-L['zaralek_event_inactive'] = nil
+L['zaralek_event_active'] = ns.color.Blue('Это событие может начаться сегодня.')
+L['zaralek_event_inactive'] = ns.color.Orange('Это событие не начнется сегодня, приходите завтра.')
 
-L['options_icons_zone_event'] = nil
-L['options_icons_zone_event_desc'] = nil
+L['options_icons_zone_event'] = 'События'
+L['options_icons_zone_event_desc'] = 'Отображение мест для событий.'
