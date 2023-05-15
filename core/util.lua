@@ -287,8 +287,8 @@ function Interval:Initialize(attrs)
 
     if self.id then
         self.SpawnTime = self.id * self.offset +
-                             region_initial[GetCurrentRegion()] or
-                             self.initial.us
+                             (region_initial[GetCurrentRegion()] or
+                                 self.initial.us)
     end
 end
 
