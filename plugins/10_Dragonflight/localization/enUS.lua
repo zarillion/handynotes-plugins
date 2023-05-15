@@ -787,8 +787,10 @@ L['seething_cache_treasure_note'] = 'To be able to see the {object:Seething Cach
 L['chest_of_the_flights_treasure_note'] = 'To open the treasure chest you need to click on the {object:Empowered Gems} in the order {note:Red > Black > Blue > Yellow > Green}.'
 L['curious_top_hat_note'] = 'Interact with {npc:205010} while you have the {spell:410288} Buff to recieve {item:205021}. If you dont have the Buff and go near him he will run away.'
 
-L['zaralek_rotation_active'] = ns.color.Blue('This Rare can spawn today.')
-L['zaralek_rotation_inactive'] = ns.color.Orange('This Rare will not spawn today, come back tomorrow.')
+L['zaralek_rare_active'] = ns.color.Blue('This Rare can spawn today.')
+L['zaralek_rare_inactive'] = ns.color.Orange('This Rare will not spawn today, come back tomorrow.')
+L['zaralek_event_active'] = ns.color.Blue('This Zone Event can start today.')
+L['zaralek_event_inactive'] = ns.color.Orange('This Zone Event will not start today, come back tomorrow.')
 
 L['options_icons_zone_event'] = 'Zone Event'
 L['options_icons_zone_event_desc'] = 'Display locations for zone events.'

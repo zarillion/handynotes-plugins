@@ -55,8 +55,12 @@ local ZaralekRotation = Class('ZaralekRotation', ns.Interval, {
 
 function ZaralekRotation:GetText()
     local isInactive = math.floor(self:Next() / self.interval) % 4 + 1
-    local text = L['zaralek_rotation_active']
-    if self.id == isInactive then text = L['zaralek_rotation_inactive'] end
+    local text = self.event and L['zaralek_event_active'] or
+                     L['zaralek_rare_active']
+    if self.id == isInactive then
+        text = self.event and L['zaralek_event_inactive'] or
+                   L['zaralek_rare_inactive']
+    end
     ns.PrepareLinks(text)
     return text
 end
@@ -953,34 +957,94 @@ map.nodes[51264667] = Dragonrace({
 --------------------------------- ZONE EVENTS ---------------------------------
 -------------------------------------------------------------------------------
 
+local EventRotation = Class('EventRotation', ZaralekRotation, {event = true})
+
 local ZoneEvent = Class('ZoneEvent', ns.node.Node, {
     group = ns.groups.ZONE_EVENT,
     icon = 'peg_rd',
-    scale = 1.3
+    scale = 1.3,
+    rewards = {
+        Item({item = 205248}), -- Clanging Dirt-Covered Pouch
+        Item({item = 205247}) -- Clinking Dirt-Covered Pouch
+    }
 })
 
 function ZoneEvent.getters:label()
     return C_QuestLog.GetTitleForQuestID(self.quest[1]) or UNKNOWN
 end
 
-map.nodes[44507490] = ZoneEvent({quest = 75612}) -- Cascades Calling
-map.nodes[63004720] = ZoneEvent({quest = 75471}) -- Crystalline Survey
-map.nodes[32104360] = ZoneEvent({quest = 75455}) -- Conspiracy of Flame
-map.nodes[56606540] = ZoneEvent({quest = 75664}) -- Discordant Crystals
-map.nodes[45008450] = ZoneEvent({quest = 75611}) -- Glimmerfish Before It's Gone
-map.nodes[48102020] = ZoneEvent({quest = 75478}) -- Hungry Hungry Hydra
-map.nodes[35405230] = ZoneEvent({quest = 75451}) -- Imperfect Balance
-map.nodes[46602570] = ZoneEvent({quest = 75461}) -- Magmaclaw Matriarch
-map.nodes[61707210] = ZoneEvent({quest = 75705}) -- Monument Maintenance
-map.nodes[40204350] = ZoneEvent({quest = 75454}) -- Mortar Warfare
-map.nodes[34304770] = ZoneEvent({quest = 75450}) -- Seismic Ceremony
-map.nodes[57504890] = ZoneEvent({quest = 75222}) -- Shellfire
-map.nodes[60605310] = ZoneEvent({quest = 75370}) -- Smellincense
-map.nodes[44902080] = ZoneEvent({quest = 75494}) -- Strike the Colors
-map.nodes[57705690] = ZoneEvent({quest = 75441}) -- Smelly Scramble
-map.nodes[63905070] = ZoneEvent({quest = 75156}) -- Stress Express
-map.nodes[45308320] = ZoneEvent({quest = 75624}) -- The Champion's Challenge
-map.nodes[58206740] = ZoneEvent({quest = 74352}) -- Whirling Zephyr
+map.nodes[44507490] = ZoneEvent({
+    quest = 75612,
+    interval = EventRotation({id = 1})
+}) -- Cascades Calling
+map.nodes[63004720] = ZoneEvent({
+    quest = 75471,
+    interval = EventRotation({id = 3})
+}) -- Crystalline Survey
+map.nodes[32104360] = ZoneEvent({
+    quest = 75455,
+    interval = EventRotation({id = 0})
+}) -- Conspiracy of Flame
+map.nodes[56606540] = ZoneEvent({
+    quest = 75664,
+    interval = EventRotation({id = 2})
+}) -- Discordant Crystals
+map.nodes[45008450] = ZoneEvent({
+    quest = 75611,
+    interval = EventRotation({id = 1})
+}) -- Glimmerfish Before It's Gone
+map.nodes[48102020] = ZoneEvent({
+    quest = 75478,
+    interval = EventRotation({id = 4})
+}) -- Hungry Hungry Hydra
+map.nodes[35405230] = ZoneEvent({
+    quest = 75451,
+    interval = EventRotation({id = 0})
+}) -- Imperfect Balance
+map.nodes[46602570] = ZoneEvent({
+    quest = 75461,
+    interval = EventRotation({id = 4})
+}) -- Magmaclaw Matriarch
+map.nodes[61707210] = ZoneEvent({
+    quest = 75705,
+    interval = EventRotation({id = 2})
+}) -- Monument Maintenance
+map.nodes[40204350] = ZoneEvent({
+    quest = 75454,
+    interval = EventRotation({id = 0})
+}) -- Mortar Warfare
+map.nodes[34304770] = ZoneEvent({
+    quest = 75450,
+    interval = EventRotation({id = 0})
+}) -- Seismic Ceremony
+map.nodes[57504890] = ZoneEvent({
+    quest = 75222,
+    interval = EventRotation({id = 3})
+}) -- Shellfire
+map.nodes[60605310] = ZoneEvent({
+    quest = 75370,
+    interval = EventRotation({id = 3})
+}) -- Smellincense
+map.nodes[44902080] = ZoneEvent({
+    quest = 75494,
+    interval = EventRotation({id = 4})
+}) -- Strike the Colors
+map.nodes[57705690] = ZoneEvent({
+    quest = 75441,
+    interval = EventRotation({id = 3})
+}) -- Smelly Scramble
+map.nodes[63905070] = ZoneEvent({
+    quest = 75156,
+    interval = EventRotation({id = 3})
+}) -- Stress Express
+map.nodes[45308320] = ZoneEvent({
+    quest = 75624,
+    interval = EventRotation({id = 1})
+}) -- The Champion's Challenge
+map.nodes[58206740] = ZoneEvent({
+    quest = 74352,
+    interval = EventRotation({id = 2})
+}) -- Whirling Zephyr
 
 -------------------------------------------------------------------------------
 ---------------------- ANCIENT STONES OF ZARALEK CAVERN -----------------------
