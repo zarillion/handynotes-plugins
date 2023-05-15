@@ -723,10 +723,10 @@ L['seething_cache_treasure_note'] = nil
 L['chest_of_the_flights_treasure_note'] = nil
 L['curious_top_hat_note'] = nil
 
-L['zaralek_rotation_active'] = nil
-L['zaralek_rotation_inactive'] = nil
-L['options_icons_zone_event'] = nil
-L['options_icons_zone_event_desc'] = nil
+L['zaralek_rare_active'] = nil
+L['zaralek_rare_inactive'] = nil
+L['zaralek_event_active'] = nil
+L['zaralek_event_inactive'] = nil
 
 L['options_icons_zone_event'] = nil
 L['options_icons_zone_event_desc'] = nil
