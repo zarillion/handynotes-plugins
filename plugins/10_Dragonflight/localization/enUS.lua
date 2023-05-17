@@ -265,7 +265,7 @@ L['kazzi_achievement_suffix'] = 'rank in the Winterpelt language'
 L['naszuro_vakthros'] = 'In the top of the tower.'
 L['naszuro_imbu'] = 'On the tree stump.'
 L['naszuro_azure_archives'] = 'On the side of the mountain, on a small rock.'
-L['naszuro_hudsons_rock'] = 'Ontop of the small rocky hill.'
+L['naszuro_hudsons_rock'] = 'On top of the small rocky hill.'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
