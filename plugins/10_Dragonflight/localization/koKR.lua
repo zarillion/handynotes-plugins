@@ -243,6 +243,11 @@ L['kazzi_note_start'] = nil
 L['kazzi_note_item'] = nil
 L['kazzi_achievement_suffix'] = nil
 
+L['naszuro_vakthros'] = nil
+L['naszuro_imbu'] = nil
+L['naszuro_azure_archives'] = nil
+L['naszuro_hudsons_rock'] = nil
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
@@ -365,6 +370,8 @@ L['renown_envoy_label'] = nil
 L['renown_envoy_note'] = nil
 L['trader_hagarth_note'] = nil
 
+L['naszuro_caldera_of_the_menders'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -468,6 +475,9 @@ L['options_icons_lightning_bound_chest_desc'] = nil
 
 L['bloodgullet_note'] = nil
 
+L['naszuro_windsong_rise'] = nil
+L['naszuro_emerald_gardens'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -535,6 +545,12 @@ L['options_icons_titan_chest'] = '티탄 궤짝'
 L['options_icons_titan_chest_desc'] = nil
 
 L['living_mud_mask_note'] = nil
+
+L['naszuro_veiled_ossuary'] = nil
+L['naszuro_algethar_academy'] = nil
+L['naszuro_vault_of_the_incarnates'] = nil
+L['naszuro_thaldraszus_peak'] = nil
+L['naszuro_temporal_conflux'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -673,6 +689,11 @@ L['phoenix_wishwing_ash_feather'] = nil
 L['phoenix_wishwing_info'] = nil
 
 L['bugbiter_tortoise_note'] = nil
+
+L['naszuro_apex_canopy'] = nil
+L['naszuro_obsidian_throne'] = nil
+L['naszuro_ruby_lifeshrine'] = nil
+L['naszuro_dragonheart_outpost'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

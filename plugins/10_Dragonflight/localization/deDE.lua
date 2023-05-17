@@ -263,6 +263,11 @@ L['kazzi_note_start'] = 'Tausche {item:202017} und {item:202018} für Ausrüstun
 L['kazzi_note_item'] = 'Zurzeit hast du %s {item:%s}.'
 L['kazzi_achievement_suffix'] = 'Rang in der Sprache der Winterpelze'
 
+L['naszuro_vakthros'] = 'In der Spitze des Turms.'
+L['naszuro_imbu'] = 'Auf dem Baumstumpf.'
+L['naszuro_azure_archives'] = 'An der Seite des Berges, auf einem kleinen Felsen.'
+L['naszuro_hudsons_rock'] = 'Oben auf dem kleinen felsigen Hügel.'
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
@@ -393,6 +398,8 @@ L['renown_envoy_label'] = 'Rufabgesandte'
 L['renown_envoy_note'] = 'Tausche {currency:2118} oder Gold gegen Reittiere, Haustiere, Ausrüstungsvorlagen, Drachenanpassungen, Rezepte und andere nützliche Gegenstände ein.'
 L['trader_hagarth_note'] = 'Tausche {item:190456} gegen Rezepte ein.'
 
+L['naszuro_caldera_of_the_menders'] = 'Oben im Turm.'
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -496,6 +503,9 @@ L['options_icons_lightning_bound_chest_desc'] = 'Zeigt die möglichen Positionen
 
 L['bloodgullet_note'] = 'Hol dir in einem Zelt am {location:Baumschrittaußenposten} von der {object:Essenz des Erwachens} den Stärkungszauber {spell:369277} (1 Stunde), um die Geisterbestie sehen zu können.\n\n{note:Erscheint nur für Tierherrschafts-Jäger.}'
 
+L['naszuro_windsong_rise'] = 'Oben auf der Steinsäule.'
+L['naszuro_emerald_gardens'] = 'Im Gras neben dem Wasserfall.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -575,6 +585,12 @@ Verfolge die erscheinende {npc:198590} bis auf einen Ast hinter {npc:197232}. We
 
 Geh zu {npc:198062} und schließe die Quest ab, um {item:200872} zu erhalten.
 ]]
+
+L['naszuro_veiled_ossuary'] = 'Neben dem kleinen Schrein.'
+L['naszuro_algethar_academy'] = 'Auf dem Vorsprung der Turmspitze.'
+L['naszuro_vault_of_the_incarnates'] = 'Neben dem Fuß der Statue.'
+L['naszuro_thaldraszus_peak'] = 'Auf einem Nebengipfel des Berges.'
+L['naszuro_temporal_conflux'] = 'Auf dem Kopf der Drachenstatue.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -739,6 +755,11 @@ Benutze die Halskette und sammle {item:202062} {dot:Red} die sich in der Umgebun
 L['phoenix_wishwing_info'] = 'Dies ist teil des {item:193373} in {location:Küste des Erwachens} auf den {location:Dracheninseln}.'
 
 L['bugbiter_tortoise_note'] = 'Sammle {item:202082}({dot:Red}) und {item:202084}({dot:Green}) und tausche sie bei {npc:187077} gegen {item:202085} ein.\n\nDamit {npc:187077} erscheint muss die Weltquest {quest:66070} aktiv sein.'
+
+L['naszuro_apex_canopy'] = 'Auf einem kleinen Pfeiler der Treppe.'
+L['naszuro_obsidian_throne'] = 'Auf der linken Seite des Throns, wo sich {npc:185894} und {npc:187495} befinden.'
+L['naszuro_ruby_lifeshrine'] = 'Unter der Klaue der Drachenstatue.'
+L['naszuro_dragonheart_outpost'] = 'In den Ästen des Baumes.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

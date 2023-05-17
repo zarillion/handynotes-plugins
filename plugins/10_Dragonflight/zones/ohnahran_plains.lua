@@ -2168,6 +2168,17 @@ map.nodes[55375224] = Collectible({
     pois = {POI({71473180})}
 }) -- Eaglewatch Outpost to Aylaag Outpost
 
+---------------------------- PET: MOTE OF NASZ'URO ----------------------------
+
+map.nodes[61236436] = ns.node.MoteOfNaszuro({
+    quest = 76182,
+    note = L['naszuro_windsong_rise']
+}) -- Windsong Rise
+map.nodes[34335874] = ns.node.MoteOfNaszuro({
+    quest = 76183,
+    note = L['naszuro_emerald_gardens']
+}) -- Emerald Gardens
+
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
 map.nodes[82327320] = NPC({

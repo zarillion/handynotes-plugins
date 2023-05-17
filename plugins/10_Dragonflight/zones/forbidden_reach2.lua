@@ -1411,6 +1411,13 @@ map.nodes[55393586] = ScalecommanderItem({
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
+---------------------------- PET: MOTE OF NASZ'URO ----------------------------
+
+map.nodes[36043426] = ns.node.MoteOfNaszuro({
+    quest = 76188,
+    note = L['naszuro_caldera_of_the_menders']
+}) -- Caldera of the Menders
+
 ----------------------------- SPELLSWORN GATEWAYS -----------------------------
 
 local SpellswornGateway = Class('SpellswornGateway', Node, {

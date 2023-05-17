@@ -263,6 +263,11 @@ L['kazzi_note_start'] = 'Intercambia {item:202017} y {item:202018} por transfigu
 L['kazzi_note_item'] = 'Tienes %s {item:%s}.'
 L['kazzi_achievement_suffix'] = 'rango del idioma Pelaje Invernal'
 
+L['naszuro_vakthros'] = nil
+L['naszuro_imbu'] = nil
+L['naszuro_azure_archives'] = nil
+L['naszuro_hudsons_rock'] = nil
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
@@ -393,6 +398,8 @@ L['renown_envoy_label'] = 'Enviado de Renombre'
 L['renown_envoy_note'] = 'Intercambia {currency:2118} u oro por monturas, mascotas, transfiguraciones, personalizaciones del draco, recetas y otros objetos útiles.\n\nCompra el {item:204383} a la {npc:200566} por 2000x {currency:2118} para un intento de conseguir a {item:191915}.'
 L['trader_hagarth_note'] = 'Intercambia {item:190456} for recetas de Bibelot del Artesano.'
 
+L['naszuro_caldera_of_the_menders'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -496,6 +503,9 @@ L['options_icons_lightning_bound_chest_desc'] = 'Muestra dónde pueden haber {ob
 
 L['bloodgullet_note'] = 'Consigue el buff {spell:369277} (dura 1 hora) en una tienda de la {location:Avanzada Pasoleño} con el objeto {object:Esencia del Despertar} para poder ver las Bestias Espíritu.\n\n{note:Sólo aparece en las Grandes Cacerías de Bestias.}'
 
+L['naszuro_windsong_rise'] = nil
+L['naszuro_emerald_gardens'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -573,6 +583,12 @@ Aparecerá una babosa llamada {npc:198590} y huirá a una rama detrás de {npc:1
 
 Vuelve con {npc:198062}, que está sentado en un banco, y entrega la misión para conseguir tu {item:200872}.
 ]]
+
+L['naszuro_veiled_ossuary'] = nil
+L['naszuro_algethar_academy'] = nil
+L['naszuro_vault_of_the_incarnates'] = nil
+L['naszuro_thaldraszus_peak'] = nil
+L['naszuro_temporal_conflux'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -738,6 +754,11 @@ Usa el amuleto y coge las {item:202062} {dot:Red} que hay dentro del {location:A
 L['phoenix_wishwing_info'] = 'Esto es parte de la mascota de combate {item:193373} localizada en las {location:Orillas del Despertar} de las {location:Islas Dragón}.'
 
 L['bugbiter_tortoise_note'] = 'Consigue un {item:202082} {dot:Red} y un {item:202084} {dot:Green} para intercambiarlos con {npc:187077} para conseguir tu {item:202085}.\n\n{npc:187077} requiere que esté activa la misión del mundo {quest:66070}.'
+
+L['naszuro_apex_canopy'] = nil
+L['naszuro_obsidian_throne'] = nil
+L['naszuro_ruby_lifeshrine'] = nil
+L['naszuro_dragonheart_outpost'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

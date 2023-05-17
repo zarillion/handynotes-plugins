@@ -2043,6 +2043,25 @@ map.nodes[46202580] = Collectible({
     }
 })
 
+---------------------------- PET: MOTE OF NASZ'URO ----------------------------
+
+map.nodes[78843413] = ns.node.MoteOfNaszuro({
+    quest = 76178,
+    note = L['naszuro_vakthros']
+}) -- Vakthros
+map.nodes[61577143] = ns.node.MoteOfNaszuro({
+    quest = 76179,
+    note = L['naszuro_imbu']
+}) -- Imbu
+map.nodes[36405646] = ns.node.MoteOfNaszuro({
+    quest = 76180,
+    note = L['naszuro_azure_archives']
+}) -- Azure Archives
+map.nodes[08235308] = ns.node.MoteOfNaszuro({
+    quest = 76181,
+    note = L['naszuro_hudsons_rock']
+}) -- Hudson's Rock
+
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
 map.nodes[12404920] = NPC({

@@ -1704,6 +1704,29 @@ map.nodes[40474531] = Collectible({
     rewards = {Pet({item = 200872, id = 3405})}
 }) -- Pet: Living Mud Mask
 
+---------------------------- PET: MOTE OF NASZ'URO ----------------------------
+
+map.nodes[62711323] = ns.node.MoteOfNaszuro({
+    quest = 76189,
+    note = L['naszuro_veiled_ossuary']
+}) -- Veiled Ossuary
+map.nodes[61234074] = ns.node.MoteOfNaszuro({
+    quest = 76190,
+    note = L['naszuro_algethar_academy']
+}) -- Algeth'ar Academy
+map.nodes[72885505] = ns.node.MoteOfNaszuro({
+    quest = 76191,
+    note = L['naszuro_vault_of_the_incarnates']
+}) -- Vault of the Incarnates
+map.nodes[70876985] = ns.node.MoteOfNaszuro({
+    quest = 76192,
+    note = L['naszuro_thaldraszus_peak']
+}) -- Thaldraszus Peak
+map.nodes[62618507] = ns.node.MoteOfNaszuro({
+    quest = 76193,
+    note = L['naszuro_temporal_conflux']
+}) -- Temporal Conflux
+
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
 local Rumiastrasza = Class('Rumiastrasza', Collectible, {

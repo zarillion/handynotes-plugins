@@ -262,6 +262,11 @@ L['kazzi_note_start'] = '使用 {item:202017} 和 {item:202018} 交換塑形, �
 L['kazzi_note_item'] = '你現在有 %s 個 {item:%s}.'
 L['kazzi_achievement_suffix'] = '東毛語等級'
 
+L['naszuro_vakthros'] = nil
+L['naszuro_imbu'] = nil
+L['naszuro_azure_archives'] = nil
+L['naszuro_hudsons_rock'] = nil
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
@@ -392,6 +397,8 @@ L['renown_envoy_label'] = '名望特使'
 L['renown_envoy_note'] = '使用 {currency:2118} 或金幣交換坐騎, 寵物, 塑型, 飛龍自訂, 配方和其他有用物品.\n\n從 {npc:200566} 處用 2000個 {currency:2118} 購買 {item:204383} 有機率開到 {item:191915}.'
 L['trader_hagarth_note'] = '使用 {item:190456} 交換工匠珍品設計圖.'
 
+L['naszuro_caldera_of_the_menders'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -495,6 +502,9 @@ L['options_icons_lightning_bound_chest_desc'] = '顯示 {object:Lightning Bound 
 
 L['bloodgullet_note'] = '在 {location:木階哨站} 的一個帳篷裡的 {object:甦醒精華} 取得 {spell:369277} 增益(1小時) 來看到靈獸.\n\n{note:只有獸王獵看的到.}'
 
+L['naszuro_windsong_rise'] = nil
+L['naszuro_emerald_gardens'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -572,6 +582,12 @@ L['living_mud_mask_note'] = [[
 
 回到坐在長凳上的 {npc:197232} 處, 並回報任務來取得 {item:200872}.
 ]]
+
+L['naszuro_veiled_ossuary'] = nil
+L['naszuro_algethar_academy'] = nil
+L['naszuro_vault_of_the_incarnates'] = nil
+L['naszuro_thaldraszus_peak'] = nil
+L['naszuro_temporal_conflux'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -737,6 +753,11 @@ L['phoenix_wishwing_ash_feather'] = [[
 L['phoenix_wishwing_info'] = '這是位於 {location:巨龍群島} 上 {location:甦醒海岸} 的收藏品 {item:193373} 的一部分.'
 
 L['bugbiter_tortoise_note'] = '收集 {item:202082}({dot:Red}) 和 {item:202084}({dot:Green}) 來和 {npc:187077} 交換你的 {item:202085}.\n\n{npc:187077} 需要在有世界任務 {quest:66070} 時.'
+
+L['naszuro_apex_canopy'] = nil
+L['naszuro_obsidian_throne'] = nil
+L['naszuro_ruby_lifeshrine'] = nil
+L['naszuro_dragonheart_outpost'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------

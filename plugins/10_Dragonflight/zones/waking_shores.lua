@@ -2676,6 +2676,25 @@ map.nodes[22809500] = Collectible({
     }
 }) -- Pet: Bugbiter Tortoise
 
+---------------------------- PET: MOTE OF NASZ'URO ----------------------------
+
+map.nodes[22848841] = ns.node.MoteOfNaszuro({
+    quest = 76184,
+    note = L['naszuro_apex_canopy']
+}) -- Apex Canopy
+map.nodes[24155556] = ns.node.MoteOfNaszuro({
+    quest = 76185,
+    note = L['naszuro_obsidian_throne']
+}) -- Obsidian Throne
+map.nodes[58506765] = ns.node.MoteOfNaszuro({
+    quest = 78186,
+    note = L['naszuro_ruby_lifeshrine']
+}) -- Ruby Lifeshrine
+map.nodes[63894481] = ns.node.MoteOfNaszuro({
+    quest = 76187,
+    note = L['naszuro_dragonheart_outpost']
+}) -- Dragonheart Outpost
+
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
 map.nodes[47128259] = NPC({
