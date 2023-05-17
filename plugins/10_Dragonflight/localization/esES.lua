@@ -263,10 +263,10 @@ L['kazzi_note_start'] = 'Intercambia {item:202017} y {item:202018} por transfigu
 L['kazzi_note_item'] = 'Tienes %s {item:%s}.'
 L['kazzi_achievement_suffix'] = 'rango del idioma Pelaje Invernal'
 
-L['naszuro_vakthros'] = nil
-L['naszuro_imbu'] = nil
-L['naszuro_azure_archives'] = nil
-L['naszuro_hudsons_rock'] = nil
+L['naszuro_vakthros'] = 'En lo alto de la torre.'
+L['naszuro_imbu'] = 'Encima del tocón de árbol.'
+L['naszuro_azure_archives'] = 'En la ladera de la montaña, sobre una roca pequeña.'
+L['naszuro_hudsons_rock'] = 'En la cima de la pequeña colina rocosa.'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
