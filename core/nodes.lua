@@ -573,8 +573,6 @@ function Dragonrace.getters:note()
     end
 end
 
-ns.node.Dragonrace = Dragonrace
-
 hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
     if self and self.vignetteID then
         local mapID = self:GetMap().mapID
@@ -612,10 +610,11 @@ end)
 -------------------------------------------------------------------------------
 
 ns.node = {
-    Node = Node,
     Collectible = Collectible,
+    Dragonrace = Dragonrace,
     Intro = Intro,
     Item = Item,
+    Node = Node,
     NPC = NPC,
     PetBattle = PetBattle,
     Quest = Quest,

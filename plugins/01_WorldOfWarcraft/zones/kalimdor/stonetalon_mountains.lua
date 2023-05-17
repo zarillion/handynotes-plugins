@@ -115,10 +115,10 @@ map.nodes[10001000] = ns.node.Dragonrace({
     rewards = {
         Achievement({id = 17712, criteria = 8, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 8, oneline = true}), -- normal silver
-        Achievement({id = 17614, criteria = 8, oneline = true}), -- normal gold
-        Achievement({id = 17615, criteria = 8, oneline = true}), -- advanced bronze
-        Achievement({id = 17616, criteria = 8, oneline = true}), -- advanced silver
-        Achievement({id = 17617, criteria = 8, oneline = true}), -- advanced gold
+        Achievement({id = 17714, criteria = 8, oneline = true}), -- normal gold
+        Achievement({id = 17715, criteria = 8, oneline = true}), -- advanced bronze
+        Achievement({id = 17716, criteria = 8, oneline = true}), -- advanced silver
+        Achievement({id = 17717, criteria = 8, oneline = true}), -- advanced gold
         Achievement({id = 17718, criteria = 8, oneline = true}), -- reverse bronze
         Achievement({id = 17719, criteria = 8, oneline = true}), -- reverse silver
         Achievement({id = 17720, criteria = 8, oneline = true}) -- reverse gold
