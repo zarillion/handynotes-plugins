@@ -5,6 +5,8 @@ local ADDON_NAME, ns = ...
 
 local Safari = ns.node.Safari
 
+local Achievement = ns.reward.Achievement
+
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -140,3 +142,25 @@ map.nodes[41604740] = Safari.Toad({
         })
     }
 }) -- Toad
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = 'Fel Flyover', -- '{quest:nil}', -- TODO: add quest id
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        Achievement({id = 17568, criteria = 1, oneline = true}), -- normal bronze
+        Achievement({id = 17569, criteria = 1, oneline = true}), -- normal silver
+        Achievement({id = 17570, criteria = 1, oneline = true}), -- normal gold
+        Achievement({id = 17571, criteria = 1, oneline = true}), -- advanced bronze
+        Achievement({id = 17572, criteria = 1, oneline = true}), -- advanced silver
+        Achievement({id = 17573, criteria = 1, oneline = true}), -- advanced gold
+        Achievement({id = 17574, criteria = 1, oneline = true}), -- reverse bronze
+        Achievement({id = 17575, criteria = 1, oneline = true}), -- reverse silver
+        Achievement({id = 17576, criteria = 1, oneline = true}) -- reverse gold
+    }
+}) -- Fel Flyover

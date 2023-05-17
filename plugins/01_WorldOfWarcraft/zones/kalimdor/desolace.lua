@@ -6,6 +6,8 @@ local L = ns.locale
 
 local Safari = ns.node.Safari
 
+local Achievement = ns.reward.Achievement
+
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -242,3 +244,25 @@ wickedgrotto.nodes[28005140] = Safari.TopazShaleHatchling({
         })
     }
 }) -- Topaz Shale Hatchling
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = '{quest:75409}',
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        Achievement({id = 17640, criteria = 9, oneline = true}), -- normal bronze
+        Achievement({id = 17641, criteria = 9, oneline = true}), -- normal silver
+        Achievement({id = 17642, criteria = 9, oneline = true}), -- normal gold
+        Achievement({id = 17643, criteria = 9, oneline = true}), -- advanced bronze
+        Achievement({id = 17644, criteria = 9, oneline = true}), -- advanced silver
+        Achievement({id = 17645, criteria = 9, oneline = true}), -- advanced gold
+        Achievement({id = 17646, criteria = 9, oneline = true}), -- reverse bronze
+        Achievement({id = 17647, criteria = 9, oneline = true}), -- reverse silver
+        Achievement({id = 17648, criteria = 9, oneline = true}) -- reverse gold
+    }
+}) -- Desolace Drift

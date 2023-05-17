@@ -5,6 +5,8 @@ local ADDON_NAME, ns = ...
 
 local Safari = ns.node.Safari
 
+local Achievement = ns.reward.Achievement
+
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -262,3 +264,24 @@ orgrimmar.nodes[37407600] = Safari.WaterSnake({
     }
 }) -- Water Snake
 
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = '{quest:75385}',
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        Achievement({id = 17622, criteria = 7, oneline = true}), -- normal bronze
+        Achievement({id = 17623, criteria = 7, oneline = true}), -- normal silver
+        Achievement({id = 17624, criteria = 7, oneline = true}), -- normal gold
+        Achievement({id = 17625, criteria = 7, oneline = true}), -- advanced bronze
+        Achievement({id = 17626, criteria = 7, oneline = true}), -- advanced silver
+        Achievement({id = 17627, criteria = 7, oneline = true}), -- advanced gold
+        Achievement({id = 17628, criteria = 7, oneline = true}), -- reverse bronze
+        Achievement({id = 17629, criteria = 7, oneline = true}), -- reverse silver
+        Achievement({id = 17630, criteria = 7, oneline = true}) -- reverse gold
+    }
+}) -- Durotar Tour

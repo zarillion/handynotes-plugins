@@ -528,6 +528,88 @@ function Treasure.getters:label()
 end
 
 -------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+local Dragonrace = Class('DragonRace', Collectible,
+    {icon = 1100022, group = ns.groups.DRAGONRACE})
+
+function Dragonrace.getters:sublabel()
+    if self.normal then
+        local ntime = C_CurrencyInfo.GetCurrencyInfo(self.normal[1]).quantity
+        if self.advanced and self.reverse then
+            local atime = C_CurrencyInfo.GetCurrencyInfo(self.advanced[1])
+                              .quantity
+            local rtime = C_CurrencyInfo.GetCurrencyInfo(self.reverse[1])
+                              .quantity
+            return L['dr_best']:format(ntime / 1000, atime / 1000, rtime / 1000)
+        end
+        return L['dr_best_dash']:format(ntime / 1000)
+    end
+end
+
+function Dragonrace.getters:note()
+    if self.normal then
+        local silver = ns.color.Silver
+        local gold = ns.color.Gold
+
+        -- LuaFormatter off
+        if self.advanced and self.reverse then
+            return L['dr_note']:format(
+                silver(self.normal[2]),
+                gold(self.normal[3]),
+                silver(self.advanced[2]),
+                gold(self.advanced[3]),
+                silver(self.reverse[2]),
+                gold(self.reverse[3])
+            ) .. L['dr_bronze']
+        end
+
+        return L['dr_note_dash']:format(
+            silver(self.normal[2]),
+            gold(self.normal[3])
+        ) .. L['dr_bronze']
+        -- LuaFormatter on
+    end
+end
+
+ns.node.Dragonrace = Dragonrace
+
+hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
+    if self and self.vignetteID then
+        local mapID = self:GetMap().mapID
+        local group = ns.groups.DRAGONRACE
+        if ns.maps[mapID] then
+            if self.vignetteID == 5104 and group:GetDisplay(mapID) then -- Bronze Timekeeper Vignette 5104
+                local guid = self.vignetteGUID
+                local x = C_VignetteInfo.GetVignettePosition(guid, mapID).x
+                local y = C_VignetteInfo.GetVignettePosition(guid, mapID).y
+                local node = ns.maps[mapID].nodes[HandyNotes:getCoord(x, y)]
+                if node then
+                    GameTooltip:SetText(ns.RenderLinks(node.label, true))
+                    GameTooltip:AddLine(ns.RenderLinks(node.sublabel, true), 1,
+                        1, 1)
+                    if ns:GetOpt('show_notes') then
+                        GameTooltip_AddBlankLineToTooltip(GameTooltip)
+                        GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1,
+                            true)
+                    end
+                    if ns:GetOpt('show_loot') then
+                        GameTooltip:AddLine(' ')
+                        for i, reward in ipairs(node.rewards) do
+                            if reward:IsEnabled() then
+                                reward:Render(GameTooltip)
+                            end
+                        end
+                    end
+                    GameTooltip:Show()
+                end
+            end
+        end
+    end
+end)
+
+-------------------------------------------------------------------------------
 
 ns.node = {
     Node = Node,

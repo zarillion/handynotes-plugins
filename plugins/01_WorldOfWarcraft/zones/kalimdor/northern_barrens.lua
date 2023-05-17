@@ -5,6 +5,8 @@ local ADDON_NAME, ns = ...
 
 local Safari = ns.node.Safari
 
+local Achievement = ns.reward.Achievement
+
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -116,3 +118,25 @@ map.nodes[40207260] = Safari.SmallFrog({
         })
     }
 }) -- Small Frog
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = '{quest:75412}',
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        Achievement({id = 17649, criteria = 10, oneline = true}), -- normal bronze
+        Achievement({id = 17650, criteria = 10, oneline = true}), -- normal silver
+        Achievement({id = 17651, criteria = 10, oneline = true}), -- normal gold
+        Achievement({id = 17652, criteria = 10, oneline = true}), -- advanced bronze
+        Achievement({id = 17653, criteria = 10, oneline = true}), -- advanced silver
+        Achievement({id = 17654, criteria = 10, oneline = true}), -- advanced gold
+        Achievement({id = 17655, criteria = 10, oneline = true}), -- reverse bronze
+        Achievement({id = 17656, criteria = 10, oneline = true}), -- reverse silver
+        Achievement({id = 17657, criteria = 10, oneline = true}) -- reverse gold
+    }
+}) -- 	Barrens Divide Dive

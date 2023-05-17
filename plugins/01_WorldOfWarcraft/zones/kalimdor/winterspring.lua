@@ -5,6 +5,8 @@ local ADDON_NAME, ns = ...
 
 local Safari = ns.node.Safari
 
+local Achievement = ns.reward.Achievement
+
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -173,3 +175,25 @@ map.nodes[59925159] = ns.node.CrazyForCats({
         ns.reward.Pet({item = 69239, id = 306})
     }
 }) -- Michelle De Rum - Winterspring Cub
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = '{quest:75310}',
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        Achievement({id = 17577, criteria = 2, oneline = true}), -- normal bronze
+        Achievement({id = 17578, criteria = 2, oneline = true}), -- normal silver
+        Achievement({id = 17579, criteria = 2, oneline = true}), -- normal gold
+        Achievement({id = 17580, criteria = 2, oneline = true}), -- advanced bronze
+        Achievement({id = 17581, criteria = 2, oneline = true}), -- advanced silver
+        Achievement({id = 17582, criteria = 2, oneline = true}), -- advanced gold
+        Achievement({id = 17583, criteria = 2, oneline = true}), -- reverse bronze
+        Achievement({id = 17584, criteria = 2, oneline = true}), -- reverse silver
+        Achievement({id = 17585, criteria = 2, oneline = true}) -- reverse gold
+    }
+}) -- Winter Wander
