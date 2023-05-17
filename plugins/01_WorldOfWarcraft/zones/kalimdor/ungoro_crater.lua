@@ -5,6 +5,8 @@ local ADDON_NAME, ns = ...
 
 local Safari = ns.node.Safari
 
+local Achievement = ns.reward.Achievement
+
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -176,3 +178,25 @@ map.nodes[58605320] = Safari.TreePython({
         })
     }
 }) -- Tree Python
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = '{quest:75485}',
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        Achievement({id = 17703, criteria = 16, oneline = true}), -- normal bronze
+        Achievement({id = 17704, criteria = 16, oneline = true}), -- normal silver
+        Achievement({id = 17705, criteria = 16, oneline = true}), -- normal gold
+        Achievement({id = 17706, criteria = 16, oneline = true}), -- advanced bronze
+        Achievement({id = 17707, criteria = 16, oneline = true}), -- advanced silver
+        Achievement({id = 17708, criteria = 16, oneline = true}), -- advanced gold
+        Achievement({id = 17709, criteria = 16, oneline = true}), -- reverse bronze
+        Achievement({id = 17710, criteria = 16, oneline = true}), -- reverse silver
+        Achievement({id = 17711, criteria = 16, oneline = true}) -- reverse gold
+    }
+}) -- Un'Goro Crater Circuit

@@ -7,6 +7,7 @@ local Map = ns.Map
 
 local Safari = ns.node.Safari
 
+local Achievement = ns.reward.Achievement
 local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
 local Transmog = ns.reward.Transmog
@@ -96,3 +97,25 @@ map.nodes[54005360] = Safari.Squirrel({
         })
     }
 }) -- Squirrel
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = '{quest:75470}',
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        Achievement({id = 17676, criteria = 12, oneline = true}), -- normal bronze
+        Achievement({id = 17677, criteria = 12, oneline = true}), -- normal silver
+        Achievement({id = 17678, criteria = 12, oneline = true}), -- normal gold
+        Achievement({id = 17679, criteria = 12, oneline = true}), -- advanced bronze
+        Achievement({id = 17680, criteria = 12, oneline = true}), -- advanced silver
+        Achievement({id = 17681, criteria = 12, oneline = true}), -- advanced gold
+        Achievement({id = 17682, criteria = 12, oneline = true}), -- reverse bronze
+        Achievement({id = 17683, criteria = 12, oneline = true}), -- reverse silver
+        Achievement({id = 17684, criteria = 12, oneline = true}) -- reverse gold
+    }
+}) -- Feralas Ruins Ramble

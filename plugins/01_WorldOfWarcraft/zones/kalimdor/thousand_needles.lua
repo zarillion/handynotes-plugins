@@ -5,6 +5,8 @@ local ADDON_NAME, ns = ...
 
 local Safari = ns.node.Safari
 
+local Achievement = ns.reward.Achievement
+
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -57,3 +59,25 @@ map.nodes[55806160] = Safari.TwilightIguana({
         })
     }
 }) -- Twilight Iguana
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = '{quest:75463}',
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        Achievement({id = 17667, criteria = 12, oneline = true}), -- normal bronze
+        Achievement({id = 17668, criteria = 12, oneline = true}), -- normal silver
+        Achievement({id = 17669, criteria = 12, oneline = true}), -- normal gold
+        Achievement({id = 17670, criteria = 12, oneline = true}), -- advanced bronze
+        Achievement({id = 17671, criteria = 12, oneline = true}), -- advanced silver
+        Achievement({id = 17672, criteria = 12, oneline = true}), -- advanced gold
+        Achievement({id = 17673, criteria = 12, oneline = true}), -- reverse bronze
+        Achievement({id = 17674, criteria = 12, oneline = true}), -- reverse silver
+        Achievement({id = 17675, criteria = 12, oneline = true}) -- reverse gold
+    }
+}) -- Thousand Needles Thread
