@@ -274,14 +274,14 @@ map.nodes[10001000] = ns.node.Dragonrace({
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     rewards = {
-        Achievement({id = 17622, criteria = 7, oneline = true}), -- normal bronze
-        Achievement({id = 17623, criteria = 7, oneline = true}), -- normal silver
-        Achievement({id = 17624, criteria = 7, oneline = true}), -- normal gold
-        Achievement({id = 17625, criteria = 7, oneline = true}), -- advanced bronze
-        Achievement({id = 17626, criteria = 7, oneline = true}), -- advanced silver
-        Achievement({id = 17627, criteria = 7, oneline = true}), -- advanced gold
-        Achievement({id = 17628, criteria = 7, oneline = true}), -- reverse bronze
-        Achievement({id = 17629, criteria = 7, oneline = true}), -- reverse silver
-        Achievement({id = 17630, criteria = 7, oneline = true}) -- reverse gold
+        Achievement({id = 17712, criteria = 7, oneline = true}), -- normal bronze
+        Achievement({id = 17713, criteria = 7, oneline = true}), -- normal silver
+        Achievement({id = 17614, criteria = 7, oneline = true}), -- normal gold
+        Achievement({id = 17615, criteria = 7, oneline = true}), -- advanced bronze
+        Achievement({id = 17616, criteria = 7, oneline = true}), -- advanced silver
+        Achievement({id = 17617, criteria = 7, oneline = true}), -- advanced gold
+        Achievement({id = 17718, criteria = 7, oneline = true}), -- reverse bronze
+        Achievement({id = 17719, criteria = 7, oneline = true}), -- reverse silver
+        Achievement({id = 17720, criteria = 7, oneline = true}) -- reverse gold
     }
 }) -- Durotar Tour

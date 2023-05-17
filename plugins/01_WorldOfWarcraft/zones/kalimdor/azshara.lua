@@ -178,14 +178,14 @@ map.nodes[10001000] = ns.node.Dragonrace({
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     rewards = {
-        Achievement({id = 17604, criteria = 5, oneline = true}), -- normal bronze
-        Achievement({id = 17605, criteria = 5, oneline = true}), -- normal silver
-        Achievement({id = 17606, criteria = 5, oneline = true}), -- normal gold
-        Achievement({id = 17607, criteria = 5, oneline = true}), -- advanced bronze
-        Achievement({id = 17608, criteria = 5, oneline = true}), -- advanced silver
-        Achievement({id = 17609, criteria = 5, oneline = true}), -- advanced gold
-        Achievement({id = 17610, criteria = 5, oneline = true}), -- reverse bronze
-        Achievement({id = 17611, criteria = 5, oneline = true}), -- reverse silver
-        Achievement({id = 17610, criteria = 5, oneline = true}) -- reverse gold
+        Achievement({id = 17712, criteria = 5, oneline = true}), -- normal bronze
+        Achievement({id = 17713, criteria = 5, oneline = true}), -- normal silver
+        Achievement({id = 17614, criteria = 5, oneline = true}), -- normal gold
+        Achievement({id = 17615, criteria = 5, oneline = true}), -- advanced bronze
+        Achievement({id = 17616, criteria = 5, oneline = true}), -- advanced silver
+        Achievement({id = 17617, criteria = 5, oneline = true}), -- advanced gold
+        Achievement({id = 17718, criteria = 5, oneline = true}), -- reverse bronze
+        Achievement({id = 17719, criteria = 5, oneline = true}), -- reverse silver
+        Achievement({id = 17720, criteria = 5, oneline = true}) -- reverse gold
     }
 }) -- Rocketway Ride

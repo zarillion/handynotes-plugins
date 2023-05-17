@@ -7,6 +7,7 @@ local Map = ns.Map
 
 local Safari = ns.node.Safari
 
+-- local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
@@ -94,3 +95,25 @@ map.nodes[59806040] = Safari.Scorpling({
 map.nodes[45407960] = Safari.Spider({
     pois = {POI({39407460, 45407960, 61606540})}
 }) -- Spider
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = '{quest:76469}',
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal bronze
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal silver
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal gold
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced bronze
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced silver
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced gold
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- reverse bronze
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- reverse silver
+        -- Achievement({id = nil, criteria = nil, oneline = true}) -- reverse gold
+    }
+}) -- Blasted Lands Bolt

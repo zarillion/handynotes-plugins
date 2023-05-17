@@ -365,14 +365,14 @@ map.nodes[10001000] = ns.node.Dragonrace({
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     rewards = {
-        Achievement({id = 17694, criteria = 15, oneline = true}), -- normal bronze
-        Achievement({id = 17695, criteria = 15, oneline = true}), -- normal silver
-        Achievement({id = 17696, criteria = 15, oneline = true}), -- normal gold
-        Achievement({id = 17697, criteria = 15, oneline = true}), -- advanced bronze
-        Achievement({id = 17698, criteria = 15, oneline = true}), -- advanced silver
-        Achievement({id = 17699, criteria = 15, oneline = true}), -- advanced gold
-        Achievement({id = 17700, criteria = 15, oneline = true}), -- reverse bronze
-        Achievement({id = 17701, criteria = 15, oneline = true}), -- reverse silver
-        Achievement({id = 17702, criteria = 15, oneline = true}) -- reverse gold
+        Achievement({id = 17712, criteria = 15, oneline = true}), -- normal bronze
+        Achievement({id = 17713, criteria = 15, oneline = true}), -- normal silver
+        Achievement({id = 17614, criteria = 15, oneline = true}), -- normal gold
+        Achievement({id = 17615, criteria = 15, oneline = true}), -- advanced bronze
+        Achievement({id = 17616, criteria = 15, oneline = true}), -- advanced silver
+        Achievement({id = 17617, criteria = 15, oneline = true}), -- advanced gold
+        Achievement({id = 17718, criteria = 15, oneline = true}), -- reverse bronze
+        Achievement({id = 17719, criteria = 15, oneline = true}), -- reverse silver
+        Achievement({id = 17720, criteria = 15, oneline = true}) -- reverse gold
     }
 }) -- Uldum Tour

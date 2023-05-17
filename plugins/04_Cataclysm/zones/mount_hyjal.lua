@@ -797,15 +797,15 @@ map.nodes[10001000] = ns.node.Dragonrace({
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     rewards = {
-        Achievement({id = 17586, criteria = 3, oneline = true}), -- normal bronze
-        Achievement({id = 17587, criteria = 3, oneline = true}), -- normal silver
-        Achievement({id = 17588, criteria = 3, oneline = true}), -- normal gold
-        Achievement({id = 17589, criteria = 3, oneline = true}), -- advanced bronze
-        Achievement({id = 17590, criteria = 3, oneline = true}), -- advanced silver
-        Achievement({id = 17591, criteria = 3, oneline = true}), -- advanced gold
-        Achievement({id = 17592, criteria = 3, oneline = true}), -- reverse bronze
-        Achievement({id = 17593, criteria = 3, oneline = true}), -- reverse silver
-        Achievement({id = 17594, criteria = 3, oneline = true}) -- reverse gold
+        Achievement({id = 17712, criteria = 3, oneline = true}), -- normal bronze
+        Achievement({id = 17713, criteria = 3, oneline = true}), -- normal silver
+        Achievement({id = 17614, criteria = 3, oneline = true}), -- normal gold
+        Achievement({id = 17615, criteria = 3, oneline = true}), -- advanced bronze
+        Achievement({id = 17616, criteria = 3, oneline = true}), -- advanced silver
+        Achievement({id = 17617, criteria = 3, oneline = true}), -- advanced gold
+        Achievement({id = 17718, criteria = 3, oneline = true}), -- reverse bronze
+        Achievement({id = 17719, criteria = 3, oneline = true}), -- reverse silver
+        Achievement({id = 17720, criteria = 3, oneline = true}) -- reverse gold
     }
 }) -- Nordrassil Spiral
 
@@ -815,14 +815,14 @@ map.nodes[10001500] = ns.node.Dragonrace({
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     rewards = {
-        Achievement({id = 17595, criteria = 4, oneline = true}), -- normal bronze
-        Achievement({id = 17596, criteria = 4, oneline = true}), -- normal silver
-        Achievement({id = 17597, criteria = 4, oneline = true}), -- normal gold
-        Achievement({id = 17598, criteria = 4, oneline = true}), -- advanced bronze
-        Achievement({id = 17599, criteria = 4, oneline = true}), -- advanced silver
-        Achievement({id = 17600, criteria = 4, oneline = true}), -- advanced gold
-        Achievement({id = 17601, criteria = 4, oneline = true}), -- reverse bronze
-        Achievement({id = 17602, criteria = 4, oneline = true}), -- reverse silver
-        Achievement({id = 17603, criteria = 4, oneline = true}) -- reverse gold
+        Achievement({id = 17712, criteria = 4, oneline = true}), -- normal bronze
+        Achievement({id = 17713, criteria = 4, oneline = true}), -- normal silver
+        Achievement({id = 17614, criteria = 4, oneline = true}), -- normal gold
+        Achievement({id = 17615, criteria = 4, oneline = true}), -- advanced bronze
+        Achievement({id = 17616, criteria = 4, oneline = true}), -- advanced silver
+        Achievement({id = 17617, criteria = 4, oneline = true}), -- advanced gold
+        Achievement({id = 17718, criteria = 4, oneline = true}), -- reverse bronze
+        Achievement({id = 17719, criteria = 4, oneline = true}), -- reverse silver
+        Achievement({id = 17720, criteria = 4, oneline = true}) -- reverse gold
     }
 }) -- Hyjal Hotfoot

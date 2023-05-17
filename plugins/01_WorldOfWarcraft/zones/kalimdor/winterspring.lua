@@ -186,14 +186,14 @@ map.nodes[10001000] = ns.node.Dragonrace({
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     rewards = {
-        Achievement({id = 17577, criteria = 2, oneline = true}), -- normal bronze
-        Achievement({id = 17578, criteria = 2, oneline = true}), -- normal silver
-        Achievement({id = 17579, criteria = 2, oneline = true}), -- normal gold
-        Achievement({id = 17580, criteria = 2, oneline = true}), -- advanced bronze
-        Achievement({id = 17581, criteria = 2, oneline = true}), -- advanced silver
-        Achievement({id = 17582, criteria = 2, oneline = true}), -- advanced gold
-        Achievement({id = 17583, criteria = 2, oneline = true}), -- reverse bronze
-        Achievement({id = 17584, criteria = 2, oneline = true}), -- reverse silver
-        Achievement({id = 17585, criteria = 2, oneline = true}) -- reverse gold
+        Achievement({id = 17712, criteria = 2, oneline = true}), -- normal bronze
+        Achievement({id = 17713, criteria = 2, oneline = true}), -- normal silver
+        Achievement({id = 17614, criteria = 2, oneline = true}), -- normal gold
+        Achievement({id = 17615, criteria = 2, oneline = true}), -- advanced bronze
+        Achievement({id = 17616, criteria = 2, oneline = true}), -- advanced silver
+        Achievement({id = 17617, criteria = 2, oneline = true}), -- advanced gold
+        Achievement({id = 17718, criteria = 2, oneline = true}), -- reverse bronze
+        Achievement({id = 17719, criteria = 2, oneline = true}), -- reverse silver
+        Achievement({id = 17720, criteria = 2, oneline = true}) -- reverse gold
     }
 }) -- Winter Wander

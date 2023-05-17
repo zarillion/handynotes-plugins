@@ -70,14 +70,14 @@ map.nodes[10001000] = ns.node.Dragonrace({
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     rewards = {
-        Achievement({id = 17667, criteria = 12, oneline = true}), -- normal bronze
-        Achievement({id = 17668, criteria = 12, oneline = true}), -- normal silver
-        Achievement({id = 17669, criteria = 12, oneline = true}), -- normal gold
-        Achievement({id = 17670, criteria = 12, oneline = true}), -- advanced bronze
-        Achievement({id = 17671, criteria = 12, oneline = true}), -- advanced silver
-        Achievement({id = 17672, criteria = 12, oneline = true}), -- advanced gold
-        Achievement({id = 17673, criteria = 12, oneline = true}), -- reverse bronze
-        Achievement({id = 17674, criteria = 12, oneline = true}), -- reverse silver
-        Achievement({id = 17675, criteria = 12, oneline = true}) -- reverse gold
+        Achievement({id = 17712, criteria = 12, oneline = true}), -- normal bronze
+        Achievement({id = 17713, criteria = 12, oneline = true}), -- normal silver
+        Achievement({id = 17614, criteria = 12, oneline = true}), -- normal gold
+        Achievement({id = 17615, criteria = 12, oneline = true}), -- advanced bronze
+        Achievement({id = 17616, criteria = 12, oneline = true}), -- advanced silver
+        Achievement({id = 17617, criteria = 12, oneline = true}), -- advanced gold
+        Achievement({id = 17718, criteria = 12, oneline = true}), -- reverse bronze
+        Achievement({id = 17719, criteria = 12, oneline = true}), -- reverse silver
+        Achievement({id = 17720, criteria = 12, oneline = true}) -- reverse gold
     }
 }) -- Thousand Needles Thread

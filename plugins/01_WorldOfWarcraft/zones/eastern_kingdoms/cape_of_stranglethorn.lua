@@ -5,6 +5,8 @@ local ADDON_NAME, ns = ...
 
 local Safari = ns.node.Safari
 
+-- local Achievement = ns.reward.Achievement
+
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -189,3 +191,25 @@ map.nodes[42607260] = Safari.WharfRat({
         })
     }
 }) -- Wharf Rat
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = '{quest:76515}',
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal bronze
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal silver
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal gold
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced bronze
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced silver
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced gold
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- reverse bronze
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- reverse silver
+        -- Achievement({id = nil, criteria = nil, oneline = true}) -- reverse gold
+    }
+}) -- Booty Bay Blast

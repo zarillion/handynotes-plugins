@@ -189,14 +189,14 @@ map.nodes[10001000] = ns.node.Dragonrace({
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     rewards = {
-        Achievement({id = 17703, criteria = 16, oneline = true}), -- normal bronze
-        Achievement({id = 17704, criteria = 16, oneline = true}), -- normal silver
-        Achievement({id = 17705, criteria = 16, oneline = true}), -- normal gold
-        Achievement({id = 17706, criteria = 16, oneline = true}), -- advanced bronze
-        Achievement({id = 17707, criteria = 16, oneline = true}), -- advanced silver
-        Achievement({id = 17708, criteria = 16, oneline = true}), -- advanced gold
-        Achievement({id = 17709, criteria = 16, oneline = true}), -- reverse bronze
-        Achievement({id = 17710, criteria = 16, oneline = true}), -- reverse silver
-        Achievement({id = 17711, criteria = 16, oneline = true}) -- reverse gold
+        Achievement({id = 17712, criteria = 16, oneline = true}), -- normal bronze
+        Achievement({id = 17713, criteria = 16, oneline = true}), -- normal silver
+        Achievement({id = 17614, criteria = 16, oneline = true}), -- normal gold
+        Achievement({id = 17615, criteria = 16, oneline = true}), -- advanced bronze
+        Achievement({id = 17616, criteria = 16, oneline = true}), -- advanced silver
+        Achievement({id = 17617, criteria = 16, oneline = true}), -- advanced gold
+        Achievement({id = 17718, criteria = 16, oneline = true}), -- reverse bronze
+        Achievement({id = 17719, criteria = 16, oneline = true}), -- reverse silver
+        Achievement({id = 17720, criteria = 16, oneline = true}) -- reverse gold
     }
 }) -- Un'Goro Crater Circuit

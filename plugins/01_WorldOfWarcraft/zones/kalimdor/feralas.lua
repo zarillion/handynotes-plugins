@@ -108,14 +108,14 @@ map.nodes[10001000] = ns.node.Dragonrace({
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     rewards = {
-        Achievement({id = 17676, criteria = 12, oneline = true}), -- normal bronze
-        Achievement({id = 17677, criteria = 12, oneline = true}), -- normal silver
-        Achievement({id = 17678, criteria = 12, oneline = true}), -- normal gold
-        Achievement({id = 17679, criteria = 12, oneline = true}), -- advanced bronze
-        Achievement({id = 17680, criteria = 12, oneline = true}), -- advanced silver
-        Achievement({id = 17681, criteria = 12, oneline = true}), -- advanced gold
-        Achievement({id = 17682, criteria = 12, oneline = true}), -- reverse bronze
-        Achievement({id = 17683, criteria = 12, oneline = true}), -- reverse silver
-        Achievement({id = 17684, criteria = 12, oneline = true}) -- reverse gold
+        Achievement({id = 17712, criteria = 12, oneline = true}), -- normal bronze
+        Achievement({id = 17713, criteria = 12, oneline = true}), -- normal silver
+        Achievement({id = 17614, criteria = 12, oneline = true}), -- normal gold
+        Achievement({id = 17615, criteria = 12, oneline = true}), -- advanced bronze
+        Achievement({id = 17616, criteria = 12, oneline = true}), -- advanced silver
+        Achievement({id = 17617, criteria = 12, oneline = true}), -- advanced gold
+        Achievement({id = 17718, criteria = 12, oneline = true}), -- reverse bronze
+        Achievement({id = 17719, criteria = 12, oneline = true}), -- reverse silver
+        Achievement({id = 17720, criteria = 12, oneline = true}) -- reverse gold
     }
 }) -- Feralas Ruins Ramble

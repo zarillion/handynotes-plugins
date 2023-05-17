@@ -130,14 +130,14 @@ map.nodes[10001000] = ns.node.Dragonrace({
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     rewards = {
-        Achievement({id = 17658, criteria = 11, oneline = true}), -- normal bronze
-        Achievement({id = 17659, criteria = 11, oneline = true}), -- normal silver
-        Achievement({id = 17660, criteria = 11, oneline = true}), -- normal gold
-        Achievement({id = 17661, criteria = 11, oneline = true}), -- advanced bronze
-        Achievement({id = 17662, criteria = 11, oneline = true}), -- advanced silver
-        Achievement({id = 17663, criteria = 11, oneline = true}), -- advanced gold
-        Achievement({id = 17664, criteria = 11, oneline = true}), -- reverse bronze
-        Achievement({id = 17665, criteria = 11, oneline = true}), -- reverse silver
-        Achievement({id = 17666, criteria = 11, oneline = true}) -- reverse gold
+        Achievement({id = 17712, criteria = 11, oneline = true}), -- normal bronze
+        Achievement({id = 17713, criteria = 11, oneline = true}), -- normal silver
+        Achievement({id = 17614, criteria = 11, oneline = true}), -- normal gold
+        Achievement({id = 17615, criteria = 11, oneline = true}), -- advanced bronze
+        Achievement({id = 17616, criteria = 11, oneline = true}), -- advanced silver
+        Achievement({id = 17617, criteria = 11, oneline = true}), -- advanced gold
+        Achievement({id = 17718, criteria = 11, oneline = true}), -- reverse bronze
+        Achievement({id = 17719, criteria = 11, oneline = true}), -- reverse silver
+        Achievement({id = 17720, criteria = 11, oneline = true}) -- reverse gold
     }
 }) -- Razorfen Roundabout
