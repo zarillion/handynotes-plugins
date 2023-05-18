@@ -262,10 +262,10 @@ L['kazzi_note_start'] = '用 {item:202017} 和 {item:202018} 换取幻化、幼�
 L['kazzi_note_item'] = '当前有 %s {item:%s}。'
 L['kazzi_achievement_suffix'] = '冬裘语言等级'
 
-L['naszuro_vakthros'] = nil
-L['naszuro_imbu'] = nil
-L['naszuro_azure_archives'] = nil
-L['naszuro_hudsons_rock'] = nil
+L['naszuro_vakthros'] = '在塔顶。'
+L['naszuro_imbu'] = '在树桩上。'
+L['naszuro_azure_archives'] = '山的一侧，一块小石头上。'
+L['naszuro_hudsons_rock'] = '小石山顶上。'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -397,7 +397,7 @@ L['renown_envoy_label'] = '名望特使'
 L['renown_envoy_note'] = '用 {currency:2118} 或金币换取坐骑、宠物、幻化、幼龙定制、配方和其他有用的物品。\n\n从 {npc:200566} 以2000 {currency:2118} 的价格购买 {item:204383} 就有机会获得 {item:191915}。'
 L['trader_hagarth_note'] = '将 {item:190456} 换成匠人珍玩配方。'
 
-L['naszuro_caldera_of_the_menders'] = nil
+L['naszuro_caldera_of_the_menders'] = '在塔顶。'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -502,8 +502,8 @@ L['options_icons_lightning_bound_chest_desc'] = '显示 {object:雷缚宝箱} �
 
 L['bloodgullet_note'] = '在 {location:森步岗哨} 的帐篷中从 {object:觉醒精华} 获得 {spell:369277} 增益（1小时）可以看到这只灵魂兽。\n\n{note:只对野兽控制猎人可见。}'
 
-L['naszuro_windsong_rise'] = nil
-L['naszuro_emerald_gardens'] = nil
+L['naszuro_windsong_rise'] = '石柱上。'
+L['naszuro_emerald_gardens'] = '瀑布旁的草地上。'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -583,11 +583,11 @@ L['living_mud_mask_note'] = [[
 回到 {npc:198062}，坐在长椅上，交付 {item:200872} 的任务。
 ]]
 
-L['naszuro_veiled_ossuary'] = nil
-L['naszuro_algethar_academy'] = nil
-L['naszuro_vault_of_the_incarnates'] = nil
-L['naszuro_thaldraszus_peak'] = nil
-L['naszuro_temporal_conflux'] = nil
+L['naszuro_veiled_ossuary'] = '神龛边上。'
+L['naszuro_algethar_academy'] = '在塔顶的壁架上。'
+L['naszuro_vault_of_the_incarnates'] = '雕像脚下。'
+L['naszuro_thaldraszus_peak'] = '第二高的山峰上。'
+L['naszuro_temporal_conflux'] = '在龙雕像的头上。'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -754,10 +754,10 @@ L['phoenix_wishwing_info'] = '这是位于 {location:巨龙群岛} 的 {location
 
 L['bugbiter_tortoise_note'] = '收集 {item:202082} {dot:Red} 和 {item:202084} {dot:Green} 并在 {npc:187077} 兑换 {item:202085}。\n\n{npc: 187077} 需要激活世界任务 {quest:66070}。'
 
-L['naszuro_apex_canopy'] = nil
-L['naszuro_obsidian_throne'] = nil
-L['naszuro_ruby_lifeshrine'] = nil
-L['naszuro_dragonheart_outpost'] = nil
+L['naszuro_apex_canopy'] = '在楼梯的一根小柱子上。'
+L['naszuro_obsidian_throne'] = '在宝座的左侧，{npc:185894} 和 {npc:187495} 所在的位置。'
+L['naszuro_ruby_lifeshrine'] = '龙雕像爪子的下面。'
+L['naszuro_dragonheart_outpost'] = '在树的树枝上。'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
