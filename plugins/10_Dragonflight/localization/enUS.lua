@@ -798,7 +798,7 @@ L['big_slick_note'] = 'Complete daily quests from {npc:201752} to reach the repu
 L['grogul_note'] = 'Talk to {npc:204672} and choose a treat that you can use to encourage this snail to move faster.\n{note:The achievement can be obtained before Renown 7.}'
 
 L['saccratos_note'] = 'Exchange {item:204727} for a pet, mount, and more.'
-L['ponzo_note'] = 'Exchange {item:204985} and {item:205903} for drake customizations, pet, mount, and more.'
+L['ponzo_note'] = 'Exchange {item:204985} for drake customizations, pet, mount, and more.'
 
 L['smelly_trash_pile_label'] = 'Smelly Trash Pile'
 L['options_icons_smelly_trash_pile'] = 'Smelly Trash Pile'
