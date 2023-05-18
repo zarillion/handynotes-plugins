@@ -796,7 +796,7 @@ L['big_slick_note'] = 'Terminez des quêtes journalières données par {npc:2017
 L['grogul_note'] = 'Parlez à {npc:204672} et choisissez une friandise que vous pourrez utiliser pour encourager cet escargot à aller plus vite.\n{note:Le haut-fait peut être obtenu avant le niveau de Renom 7.}'
 
 L['saccratos_note'] = 'Échangez vos {item:204727} contre une mascotte, une monture et plus encore.'
-L['ponzo_note'] = 'Échangez vos {item:204985} et vos {item:205903} contre des personnalisations de drake, une mascotte, une monture et plus encore.'
+L['ponzo_note'] = 'Échangez vos {item:204985} et vos {item:205188} contre des personnalisations de drake, une mascotte, une monture et plus encore.'
 
 L['smelly_trash_pile_label'] = 'Tas de déchets kifouette'
 L['options_icons_smelly_trash_pile'] = 'Tas de déchets kifouette'
