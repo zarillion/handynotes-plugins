@@ -1,14 +1,22 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
-  <Frame name="{addon}WorldMapPinTemplate" hidden="true" mixin="{addon}WorldMapPinMixin" virtual="true">
+  <Frame name="{addon}WorldMapPinTemplate" hidden="true" enableMouse="true" mixin="{addon}WorldMapPinMixin" virtual="true">
     <Size x="30" y="30"/>
     <Layers>
-      <Layer>
+      <Layer level="OVERLAY">
         <Texture parentKey="texture" setAllPoints="true">
         </Texture>
       </Layer>
     </Layers>
   </Frame>
-
+  <Frame name="{addon}WorldMapGlowTemplate" hidden="true" mixin="{addon}WorldMapPinMixin" virtual="true">
+    <Size x="30" y="30"/>
+    <Layers>
+      <Layer level="OVERLAY">
+        <Texture parentKey="texture" setAllPoints="true">
+        </Texture>
+      </Layer>
+    </Layers>
+  </Frame>
   <Button name="{addon}MinimapPinTemplate" hidden="true" mixin="{addon}MinimapPinMixin" virtual="true">
     <Size x="12" y="12"/>
     <Layers>
@@ -18,7 +26,6 @@
       </Layer>
     </Layers>
   </Button>
-
   <DropDownToggleButton name="{addon}WorldMapOptionsButtonTemplate" frameStrata="HIGH" mixin="{addon}WorldMapOptionsButtonMixin" virtual="true">
     <Size x="32" y="32"/>
     <Layers>
@@ -66,7 +73,6 @@
       <OnLeave function="GameTooltip_Hide"/>
     </Scripts>
   </DropDownToggleButton>
-
   <Frame name="{addon}TextMenuOptionTemplate" inherits="UIDropDownCustomMenuEntryTemplate" virtual="true">
     <Size x="240" y="20"/>
     <Layers>
@@ -82,18 +88,21 @@
       </Layer>
     </Layers>
   </Frame>
-
   <Frame name="{addon}SliderMenuOptionTemplate" inherits="UIDropDownCustomMenuEntryTemplate" virtual="true">
     <Size x="240" y="20"/>
     <Layers>
       <Layer>
         <FontString parentKey="Label" inherits="GameFontHighlightSmallLeft">
           <Size x="65" y="20"/>
-          <Anchors><Anchor point="LEFT"/></Anchors>
+          <Anchors>
+            <Anchor point="LEFT"/>
+          </Anchors>
         </FontString>
         <FontString parentKey="Value" inherits="GameFontNormalSmall">
           <Size x="40" y="20"/>
-          <Anchors><Anchor point="RIGHT"/></Anchors>
+          <Anchors>
+            <Anchor point="RIGHT"/>
+          </Anchors>
         </FontString>
       </Layer>
     </Layers>

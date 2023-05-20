@@ -2,3 +2,5 @@ release/
 
 # Ignore IDE.
 .idea
+
+.lua-format

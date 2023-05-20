@@ -329,6 +329,8 @@ end)
 
 local WorldMapDataProvider = CreateFromMixins(MapCanvasDataProviderMixin)
 local WorldMapPinTemplate = ADDON_NAME .. 'WorldMapPinTemplate'
+local WorldMapGlowTemplate = ADDON_NAME .. 'WorldMapGlowTemplate'
+
 local WorldMapPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 _G[ADDON_NAME .. 'WorldMapPinMixin'] = WorldMapPinMixin
@@ -336,6 +338,7 @@ _G[ADDON_NAME .. 'WorldMapPinMixin'] = WorldMapPinMixin
 function WorldMapDataProvider:RemoveAllData()
     if self:GetMap() then
         self:GetMap():RemoveAllPinsByTemplate(WorldMapPinTemplate)
+        self:GetMap():RemoveAllPinsByTemplate(WorldMapGlowTemplate)
     end
 end
 
@@ -355,8 +358,8 @@ function WorldMapDataProvider:RefreshAllData(fromOnShow)
                 -- If this icon has a glow enabled, render it
                 local glow = node:GetGlow(map.id, false, focused)
                 if glow then
-                    glow[1] = coord -- update POI coord for this placement
-                    glow:Render(self:GetMap(), WorldMapPinTemplate)
+                    glow.points[1] = coord -- update POI coord for this placement
+                    glow:Render(self:GetMap(), WorldMapGlowTemplate)
                 end
 
                 -- Render any POIs this icon has registered
@@ -390,10 +393,37 @@ function WorldMapPinMixin:OnLoad()
     self:UseFrameLevelType('PIN_FRAME_LEVEL_MAP_HIGHLIGHT')
 end
 
+function WorldMapPinMixin:OnMouseEnter()
+    if self.label then
+        local x, y = self:GetCenter()
+        local parentX, parentY = self:GetParent():GetCenter()
+        if (x > parentX) then
+            GameTooltip:SetOwner(self, 'ANCHOR_LEFT')
+        else
+            GameTooltip:SetOwner(self, 'ANCHOR_RIGHT')
+        end
+
+        -- label
+        GameTooltip:SetText(ns.RenderLinks(self.label, true))
+        -- note
+        if self.note and ns:GetOpt('show_notes') then
+            GameTooltip:AddLine(ns.RenderLinks(self.note), 1, 1, 1, true)
+        end
+
+        GameTooltip:Show()
+    end
+end
+
+function WorldMapPinMixin:OnMouseLeave() GameTooltip:Hide() end
+
 function WorldMapPinMixin:OnAcquired(poi, ...)
     local _, _, w, h = self:GetParent():GetRect()
     self.parentWidth = w
     self.parentHeight = h
+
+    if poi.label then self.label = poi.label end
+    if poi.note then self.label = poi.note end
+
     if (w and h) then
         local x, y = poi:Draw(self, ...)
         self:ApplyCurrentScale()

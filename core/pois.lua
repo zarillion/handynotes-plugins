@@ -31,17 +31,19 @@ end
 local POI = Class('POI')
 
 function POI:Initialize(attrs)
-    for k, v in pairs(attrs) do self[k] = v end
+    self.points = {}
+
+    for k, v in pairs(attrs) do
+        if type(k) == 'number' then -- if attribute is a number (coord) insert into points
+            table.insert(self.points, v)
+        else
+            self[k] = v
+        end
+    end
 
     -- normalize table values
     self.quest = ns.AsTable(self.quest)
     self.questDeps = ns.AsTable(self.questDeps)
-
-    -- normalize points = {} back into the POI itself for legacy reasons
-    if self.points then
-        self.points = ns.AsTable(self.points)
-        for k, v in ipairs(self.points) do self[k] = v end
-    end
 
     if self.color then self.r, self.g, self.b = ns.HEXtoRGBA(self.color) end
 end
@@ -81,7 +83,9 @@ end
 
 function POI:Render(map, template)
     -- draw POI at every coord
-    for i = 1, #self, 1 do map:AcquirePin(template, self, self[i]) end
+    for _, point in pairs(self.points) do
+        map:AcquirePin(template, self, point)
+    end
 end
 
 function POI:Draw(pin, xy)
@@ -101,40 +105,15 @@ function POI:Draw(pin, xy)
     t:SetVertexColor(r, g, b, a)
     pin:SetSize(size, size)
 
-    -- if self.label or self.note then
-    --     pin:SetScript('OnEnter', function()
-    --         if pin:GetCenter() > UIParent:GetCenter() then
-    --             GameTooltip:SetOwner(pin, 'ANCHOR_LEFT')
-    --         else
-    --             GameTooltip:SetOwner(pin, 'ANCHOR_RIGHT')
-    --         end
-    --         self:Prepare()
-    --         C_Timer.After(0, function()
-    --             self:RenderAdvancedPOI(GameTooltip)
-    --             GameTooltip:Show()
-    --         end)
-    --     end)
-    --     pin:SetScript('OnLeave', function() GameTooltip:Hide() end)
-    -- end
+    if self.label or self.note then self:Prepare() end
 
     return HandyNotes:getXY(xy)
 end
 
--- function POI:Prepare()
---     ns.PrepareLinks(self.label)
---     ns.PrepareLinks(self.note)
--- end
-
--- function POI:RenderAdvancedPOI(tooltip)
---     -- label
---     tooltip:SetText(ns.RenderLinks(self.label, true))
---
---     -- note
---     if self.note and ns:GetOpt('show_notes') then
---         if self.sublabel then GameTooltip_AddBlankLineToTooltip(tooltip) end
---         tooltip:AddLine(ns.RenderLinks(self.note), 1, 1, 1, true)
---     end
--- end
+function POI:Prepare()
+    ns.PrepareLinks(self.label)
+    ns.PrepareLinks(self.note)
+end
 
 -------------------------------------------------------------------------------
 ------------------------------------ GLOW -------------------------------------
@@ -177,10 +156,11 @@ local Path = Class('Path', POI)
 
 function Path:Render(map, template)
     -- draw a circle at every coord and a line between them
-    for i = 1, #self, 1 do
-        map:AcquirePin(template, self, CIRCLE, self[i])
-        if i < #self then
-            map:AcquirePin(template, self, LINE, self[i], self[i + 1])
+    for i, point in ipairs(self.points) do
+        map:AcquirePin(template, self, CIRCLE, self.points[i])
+        if i < #self.points then
+            map:AcquirePin(template, self, LINE, self.points[i],
+                self.points[i + 1])
         end
     end
 end
@@ -277,11 +257,11 @@ end
 local Line = Class('Line', Path)
 
 function Line:Initialize(attrs)
-    Path.Initialize(self, attrs)
+    Path:Initialize(attrs)
 
     -- draw a segmented line between two far-away points
-    local x1, y1 = HandyNotes:getXY(self[1])
-    local x2, y2 = HandyNotes:getXY(self[2])
+    local x1, y1 = HandyNotes:getXY(self.points[1])
+    local x2, y2 = HandyNotes:getXY(self.points[2])
 
     -- find an appropriate number of segments
     self.distance = sqrt(((x2 - x1) * 1.85) ^ 2 + (y2 - y1) ^ 2)
@@ -291,7 +271,7 @@ function Line:Initialize(attrs)
     for i = 0, self.segments, 1 do
         local segX = x1 + ((x2 - x1) / self.segments) * i
         local segY = y1 + ((y2 - y1) / self.segments) * i
-        self.path[#self.path + 1] = HandyNotes:getCoord(segX, segY)
+        table.insert(self.path, HandyNotes:getCoord(segX, segY))
     end
 end
 
@@ -305,9 +285,9 @@ function Line:Render(map, template)
             end
         end
     else
-        map:AcquirePin(template, self, CIRCLE, self[1])
-        map:AcquirePin(template, self, CIRCLE, self[2])
-        map:AcquirePin(template, self, LINE, self[1], self[2])
+        map:AcquirePin(template, self, CIRCLE, self.points[1])
+        map:AcquirePin(template, self, CIRCLE, self.points[2])
+        map:AcquirePin(template, self, LINE, self.points[1], self.points[2])
     end
 end
 
@@ -319,12 +299,12 @@ local Arrow = Class('Arrow', Line)
 
 function Arrow:Render(map, template)
     -- draw a segmented line and the head of the arrow
-    Line.Render(self, map, template)
-    map:AcquirePin(template, self, ARROW, self[1], self[2])
+    Line:Render(map, template)
+    map:AcquirePin(template, self, ARROW, self.points[1], self.points[2])
 end
 
 function Arrow:Draw(pin, type, xy1, xy2)
-    local x, y = Line.Draw(self, pin, type, xy1, xy2)
+    local x, y = Line:Draw(pin, type, xy1, xy2)
     if x and y then return x, y end -- circle or line
 
     -- constant size for minimaps, variable size for world maps
