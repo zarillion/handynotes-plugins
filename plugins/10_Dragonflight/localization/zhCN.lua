@@ -798,7 +798,7 @@ L['big_slick_note'] = '从 {npc:201752} 完成的每日任务达到 {faction:256
 L['grogul_note'] = '与 {npc:204672} 交谈并选择一种可以用来鼓励这只蜗牛移动得更快的食物。\n{note:该成就可以在名望7之前获得。}'
 
 L['saccratos_note'] = '用 {item:204727} 换取宠物，坐骑和其他。'
-L['ponzo_note'] = '用 {item:204985} 和 {item:205903} 换取幼龙定制，宠物，坐骑和其他。'
+L['ponzo_note'] = '用 {item:204985} 换取幼龙定制，宠物，坐骑和其他。'
 
 L['smelly_trash_pile_label'] = '臭垃圾堆'
 L['options_icons_smelly_trash_pile'] = '臭垃圾堆'
