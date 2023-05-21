@@ -133,9 +133,9 @@ L['the_best_at_what_i_do_suffix'] = '首領已擊殺'
 L['options_icons_grand_hunts'] = '大狩獵'
 L['options_icons_grand_hunts_desc'] = '顯示 {object:大狩獵} 的位置和獎勵.'
 
-L['ancient_stone_label'] = nil
+L['ancient_stone_label'] = '遠古石頭'
 L['options_icons_ancient_stones'] = '{achievement:17560}'
-L['options_icons_ancient_stones_desc'] = nil
+L['options_icons_ancient_stones_desc'] = '顯示 {achievement:17560} 所需的 {object:遠古石頭} 位置.'
 
 L['reed_chest'] = '蘆葦箱子'
 L['options_icons_reed_chest'] = '蘆葦箱子'
@@ -262,10 +262,10 @@ L['kazzi_note_start'] = '使用 {item:202017} 和 {item:202018} 交換塑形, �
 L['kazzi_note_item'] = '你現在有 %s 個 {item:%s}.'
 L['kazzi_achievement_suffix'] = '東毛語等級'
 
-L['naszuro_vakthros'] = nil
-L['naszuro_imbu'] = nil
-L['naszuro_azure_archives'] = nil
-L['naszuro_hudsons_rock'] = nil
+L['naszuro_vakthros'] = '在塔的頂端.'
+L['naszuro_imbu'] = '在樹樁上.'
+L['naszuro_azure_archives'] = '在山的側邊一個小石頭上.'
+L['naszuro_hudsons_rock'] = '在小石丘的頂端.'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -397,7 +397,7 @@ L['renown_envoy_label'] = '名望特使'
 L['renown_envoy_note'] = '使用 {currency:2118} 或金幣交換坐騎, 寵物, 塑型, 飛龍自訂, 配方和其他有用物品.\n\n從 {npc:200566} 處用 2000個 {currency:2118} 購買 {item:204383} 有機率開到 {item:191915}.'
 L['trader_hagarth_note'] = '使用 {item:190456} 交換工匠珍品設計圖.'
 
-L['naszuro_caldera_of_the_menders'] = nil
+L['naszuro_caldera_of_the_menders'] = '在塔的頂端.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -502,8 +502,8 @@ L['options_icons_lightning_bound_chest_desc'] = '顯示 {object:Lightning Bound 
 
 L['bloodgullet_note'] = '在 {location:木階哨站} 的一個帳篷裡的 {object:甦醒精華} 取得 {spell:369277} 增益(1小時) 來看到靈獸.\n\n{note:只有獸王獵看的到.}'
 
-L['naszuro_windsong_rise'] = nil
-L['naszuro_emerald_gardens'] = nil
+L['naszuro_windsong_rise'] = '在岩石柱子頂端.'
+L['naszuro_emerald_gardens'] = '在瀑布旁邊的草地.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -583,11 +583,11 @@ L['living_mud_mask_note'] = [[
 回到坐在長凳上的 {npc:197232} 處, 並回報任務來取得 {item:200872}.
 ]]
 
-L['naszuro_veiled_ossuary'] = nil
-L['naszuro_algethar_academy'] = nil
-L['naszuro_vault_of_the_incarnates'] = nil
-L['naszuro_thaldraszus_peak'] = nil
-L['naszuro_temporal_conflux'] = nil
+L['naszuro_veiled_ossuary'] = '在小祭壇旁邊.'
+L['naszuro_algethar_academy'] = '在塔頂的邊柱旁.'
+L['naszuro_vault_of_the_incarnates'] = '在雕像的腳邊.'
+L['naszuro_thaldraszus_peak'] = '在山的第二高峰上.'
+L['naszuro_temporal_conflux'] = '在龍雕像的頭上.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -754,10 +754,10 @@ L['phoenix_wishwing_info'] = '這是位於 {location:巨龍群島} 上 {location
 
 L['bugbiter_tortoise_note'] = '收集 {item:202082}({dot:Red}) 和 {item:202084}({dot:Green}) 來和 {npc:187077} 交換你的 {item:202085}.\n\n{npc:187077} 需要在有世界任務 {quest:66070} 時.'
 
-L['naszuro_apex_canopy'] = nil
-L['naszuro_obsidian_throne'] = nil
-L['naszuro_ruby_lifeshrine'] = nil
-L['naszuro_dragonheart_outpost'] = nil
+L['naszuro_apex_canopy'] = '在樓梯的小柱子上.'
+L['naszuro_obsidian_throne'] = '在 {npc:185894} 和 {npc:187495} 所在的王座左邊.'
+L['naszuro_ruby_lifeshrine'] = '在龍雕像爪子之下.'
+L['naszuro_dragonheart_outpost'] = '在樹的枝幹間.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
