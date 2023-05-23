@@ -195,9 +195,10 @@ map.nodes[45673327] = Rare({
         Achievement({id = 17783, criteria = 59200}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59499}), -- Cavern Clawbbering
         Transmog({item = 205297, slot = L['cloth']}), -- Flamewielder's Trousers
+        Toy({item = 205796}), -- Molten Lava Pack
         DC.WindingSlitherdrake.WhiteHorns
     }
-}) -- Invohq
+}) -- Invoq
 
 map.nodes[28515115] = Rare({
     id = 203646,

@@ -123,7 +123,8 @@ map.nodes[52916529] = Rare({
     rewards = {
         Achievement({id = 16676, criteria = 56038}),
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
-        DC.RenewedProtoDrake.ImpalerHorns
+        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     },
     pois = {
         Path({
@@ -529,7 +530,8 @@ map.nodes[34578950] = Rare({
         Achievement({id = 16676, criteria = 57003}),
         Transmog({item = 200189, slot = L['plate']}), -- Hydroforged Shell Helm
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
-        Transmog({item = 200187, slot = L['staff']}) -- Rod of Glacial Force
+        Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
+        DC.HighlandDrake.FinnedBack
     },
     pois = {POI({36028984})} -- Entrance
 }) -- Slurpo, the Incredible Snail
