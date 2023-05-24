@@ -756,10 +756,10 @@ L['phoenix_wishwing_info'] = 'Esto es parte de la mascota de combate {item:19337
 
 L['bugbiter_tortoise_note'] = 'Consigue un {item:202082} {dot:Red} y un {item:202084} {dot:Green} para intercambiarlos con {npc:187077} para conseguir tu {item:202085}.\n\n{npc:187077} requiere que esté activa la misión del mundo {quest:66070}.'
 
-L['naszuro_apex_canopy'] = nil
-L['naszuro_obsidian_throne'] = nil
-L['naszuro_ruby_lifeshrine'] = nil
-L['naszuro_dragonheart_outpost'] = nil
+L['naszuro_apex_canopy'] = 'Encima de un pilar pequeño de la escalera.'
+L['naszuro_obsidian_throne'] = 'En el lado izquierdo del trono donde están {npc:185894} y {npc:187495}.'
+L['naszuro_ruby_lifeshrine'] = 'Bajo la garra de la estatua de dragón.'
+L['naszuro_dragonheart_outpost'] = 'En la rama del árbol.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
@@ -795,7 +795,7 @@ L['molten_scoutbot_note'] = 'Abre el {object:Explorabot de magma} y despoja el {
 L['bolts_and_brass_note'] = 'Abre los {object:Tornillos y Latón} y despoja los {item:204850}.'
 
 L['sniffen_sage_suffix'] = 'objetos especiales encontrados'
-L['sniffen_digs_suffix'] = nil
+L['sniffen_digs_suffix'] = 'excavaciones de Olfatobúsqueda completadas'
 
 L['big_slick_note'] = 'Completa misiones diarias de {npc:201752} para alcanzar el nivel de reputación "Profesional" (2800 de reputación en total) con la facción {faction:2568} para conseguir tu montura.\n\nO enséñale los siguientes caracoles (mascotas de combate) a nivel 25 para conseguir 100 de reputación por cada uno:'
 L['grogul_note'] = 'Habla con {npc:204672} y elige una golosina que puedas usar para animar al caracol correspondiente a ir más rápido.\n{note:El logro se puede conseguir con menos de Renombre 7.}'
