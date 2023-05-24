@@ -248,7 +248,7 @@ L['options_icons_tuskarr_chest'] = 'Cofres Colmillarr'
 L['options_icons_tuskarr_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Colmillarr}.'
 
 L['community_feast_label'] = 'Festín Comunitario'
-L['tasks_completed_suffix'] = nil
+L['tasks_completed_suffix'] = 'tareas de cocina completadas'
 L['options_icons_community_feast'] = 'Festín Comunitario'
 L['options_icons_community_feast_desc'] = 'Muestra dónde hay y las recompensas para los Festines Comunitarios.'
 
