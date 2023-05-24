@@ -247,6 +247,7 @@ L['options_icons_tuskarr_chest'] = 'Tuskarr Chests'
 L['options_icons_tuskarr_chest_desc'] = 'Display possible locations of {object:Tuskarr Chests}.'
 
 L['community_feast_label'] = 'Community Feast'
+L['tasks_completed_suffix'] = 'cooking tasks completed'
 L['options_icons_community_feast'] = 'Community Feast'
 L['options_icons_community_feast_desc'] = 'Display location and rewards for the Community Feast.'
 

@@ -248,6 +248,7 @@ L['options_icons_tuskarr_chest'] = 'Kisten der Tuskarr'
 L['options_icons_tuskarr_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Kiste der Tuskarr} an.'
 
 L['community_feast_label'] = '{spell:386441}'
+L['tasks_completed_suffix'] = 'Kochaufgaben abgeschlossen'
 L['options_icons_community_feast'] = '{spell:386441}'
 L['options_icons_community_feast_desc'] = 'Zeigt die Position und Belohnungen des {spell:386441s}'
 
@@ -816,4 +817,4 @@ L['zaralek_event_active'] = ns.color.Blue('Dieses Ereignis kann heute starten.')
 L['zaralek_event_inactive'] = ns.color.Orange('Dieses Ereignis wird heute nicht starten, komm morgen wieder.')
 
 L['options_icons_zone_event'] = 'Zonen-Ereignisse'
-L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse'
+L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse an.'

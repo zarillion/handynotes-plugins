@@ -249,6 +249,7 @@ L['options_icons_tuskarr_chest'] = 'Клыкаррский сундук'
 L['options_icons_tuskarr_chest_desc'] = 'Показать возможные места {object:Клыкаррских сундуков}.'
 
 L['community_feast_label'] = 'Большое пиршество'
+L['tasks_completed_suffix'] = nil
 L['options_icons_community_feast'] = 'Большое пиршество'
 L['options_icons_community_feast_desc'] = 'Отображение локации и наград за Большое пиршество.'
 

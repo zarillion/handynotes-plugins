@@ -1785,6 +1785,10 @@ local COMMUNITY_FEAST_AREA_POIS = {
 
 local COMMUNITY_FEAST_REWARDS = {
     Achievement({id = 16444}), -- Leftovers Revenge
+    Achievement({
+        id = 16443,
+        criteria = {id = 1, qty = true, suffix = L['tasks_completed_suffix']}
+    }), -- Soupervisor
     Recipe({item = 198131, profession = 185}), -- Recipe: Gral's Devotion
     Recipe({item = 198129, profession = 185}), -- Recipe: Gral's Reverence
     Recipe({item = 198130, profession = 185}), -- Recipe: Gral's Veneration

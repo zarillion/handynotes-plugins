@@ -228,6 +228,7 @@ L['options_icons_tuskarr_chest'] = nil
 L['options_icons_tuskarr_chest_desc'] = nil
 
 L['community_feast_label'] = nil
+L['tasks_completed_suffix'] = nil
 L['options_icons_community_feast'] = nil
 L['options_icons_community_feast_desc'] = nil
 

@@ -247,6 +247,7 @@ L['options_icons_tuskarr_chest'] = '海象人宝箱'
 L['options_icons_tuskarr_chest_desc'] = '显示 {object:海象人宝箱} 可能的位置。'
 
 L['community_feast_label'] = '社区盛宴'
+L['tasks_completed_suffix'] = nil
 L['options_icons_community_feast'] = '社区盛宴'
 L['options_icons_community_feast_desc'] = '显示社区盛宴的位置和奖励。'
 
