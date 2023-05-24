@@ -794,6 +794,7 @@ L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {ite
 L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'
 
 L['sniffen_sage_suffix'] = 'special items found'
+L['sniffen_digs_suffix'] = 'Sniffenseek digs completed'
 
 L['big_slick_note'] = 'Complete daily quests from {npc:201752} to reach the reputation level "Professional" (total 2800 reputation) at the faction {faction:2568} to get your mount.\n\nOr show him the following snails (pets) at level 25 to get 100 reputation for each:'
 L['grogul_note'] = 'Talk to {npc:204672} and choose a treat that you can use to encourage this snail to move faster.\n{note:The achievement can be obtained before Renown 7.}'

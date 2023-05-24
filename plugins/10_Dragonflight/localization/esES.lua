@@ -795,6 +795,7 @@ L['molten_scoutbot_note'] = 'Abre el {object:Explorabot de magma} y despoja el {
 L['bolts_and_brass_note'] = 'Abre los {object:Tornillos y Latón} y despoja los {item:204850}.'
 
 L['sniffen_sage_suffix'] = 'objetos especiales encontrados'
+L['sniffen_digs_suffix'] = nil
 
 L['big_slick_note'] = 'Completa misiones diarias de {npc:201752} para alcanzar el nivel de reputación "Profesional" (2800 de reputación en total) con la facción {faction:2568} para conseguir tu montura.\n\nO enséñale los siguientes caracoles (mascotas de combate) a nivel 25 para conseguir 100 de reputación por cada uno:'
 L['grogul_note'] = 'Habla con {npc:204672} y elige una golosina que puedas usar para animar al caracol correspondiente a ir más rápido.\n{note:El logro se puede conseguir con menos de Renombre 7.}'

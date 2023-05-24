@@ -794,6 +794,7 @@ L['molten_scoutbot_note'] = '開啟 {object:熔火偵查機器人} 並拾取 {it
 L['bolts_and_brass_note'] = '開啟 {object:螺栓與黃銅} 並拾取 {item:204850}.'
 
 L['sniffen_sage_suffix'] = '特殊物品已發現'
+L['sniffen_digs_suffix'] = nil
 
 L['big_slick_note'] = '從 {npc:201752} 完成他的每日任務並達到 {faction:2568} 聲望 "專業" 可以取得坐騎.\n\n 展示以下達到25級的蝸牛 (戰寵) 每隻也可獲得100聲望:'
 L['grogul_note'] = '和 {npc:204672} 交談並選擇一種零食可以鼓勵那種蝸牛跑得更快.\n{note:此成就可以在名望7之前獲得.}'
