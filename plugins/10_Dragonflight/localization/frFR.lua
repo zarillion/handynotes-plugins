@@ -248,7 +248,7 @@ L['options_icons_tuskarr_chest'] = 'Coffres roharts'
 L['options_icons_tuskarr_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres roharts}.'
 
 L['community_feast_label'] = '{spell:388961}'
-L['tasks_completed_suffix'] = nil
+L['tasks_completed_suffix'] = 'tâches de cuisine accomplies'
 L['options_icons_community_feast'] = '{spell:388961}'
 L['options_icons_community_feast_desc'] = 'Afficher les emplacements et les récompenses pour le {spell:388961}.'
 
