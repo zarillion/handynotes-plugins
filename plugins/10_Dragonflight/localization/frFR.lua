@@ -792,7 +792,7 @@ L['molten_scoutbot_note'] = 'Examinez l\'{object:Explorobot fondu} et récupére
 L['bolts_and_brass_note'] = 'Examinez les {object:Boulons et cuivre} et récupérez la {item:204850}.'
 
 L['sniffen_sage_suffix'] = 'objets spéciaux trouvés'
-L['sniffen_digs_suffix'] = nil
+L['sniffen_digs_suffix'] = 'Enquêtes olfactives terminées'
 
 L['big_slick_note'] = 'Terminez des quêtes journalières données par {npc:201752} pour atteindre le niveau de réputation "Professionnalisme" (soit un total de 2800 points de réputation) avec la faction {faction:2568} pour obtenir votre monture.\n\nVous pouvez également lui montrer les escargots suivants (mascottes) au niveau 25 pour obtenir 100 points de réputation pour chacun d\'entre eux :'
 L['grogul_note'] = 'Parlez à {npc:204672} et choisissez une friandise que vous pourrez utiliser pour encourager cet escargot à aller plus vite.\n{note:Le haut-fait peut être obtenu avant le niveau de Renom 7.}'
