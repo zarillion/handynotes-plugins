@@ -283,6 +283,16 @@ function Node:Render(tooltip, focusable)
         rtext:Show()
     end
 
+    -- optional text directly under sublabel/label for development notes
+    if self.devnote then
+        tooltip:AddLine(ns.RenderLinks(self.devnote), 1, 0, 1)
+    end
+    -- optional text directly under sublabel/label for development notes
+    if self.areaPOI then
+        tooltip:AddLine(ns.RenderLinks('Poi ID: ' .. self.areaPOI), 0.58, 0.43,
+            0.84)
+    end
+
     -- optional text directly under label
     if self.sublabel then
         tooltip:AddLine(ns.RenderLinks(self.sublabel, true), 1, 1, 1)
@@ -528,6 +538,64 @@ function Treasure.getters:label()
 end
 
 -------------------------------------------------------------------------------
+------------------------------- Interval Class --------------------------------
+-------------------------------------------------------------------------------
+
+local Interval = Class('Interval')
+
+function Interval:Initialize(attrs)
+    if attrs then for k, v in pairs(attrs) do self[k] = v end end
+
+    local region_initial = {
+        [1] = self.initial.us,
+        [2] = self.initial.kr or self.initial.tw,
+        [3] = self.initial.eu,
+        [5] = self.initial.cn
+    } -- https://wowpedia.fandom.com/wiki/API_GetCurrentRegion
+
+    if self.id then
+        self.SpawnTime = self.id * self.offset +
+                             (region_initial[GetCurrentRegion()] or
+                                 self.initial.us)
+    end
+end
+
+function Interval:Next()
+    if not (self.id and self.initial and self.interval) then return false end
+    local CurrentTime = GetServerTime()
+    local SpawnTime = self.SpawnTime
+
+    local NextSpawn = SpawnTime +
+                          math.ceil((CurrentTime - SpawnTime) / self.interval) *
+                          self.interval
+    local TimeLeft = NextSpawn - CurrentTime
+
+    return NextSpawn, TimeLeft
+end
+
+function Interval:GetText()
+    local TimeFormat = ns:GetOpt('use_standard_time') and self.format_12hrs or
+                           self.format_24hrs
+
+    local NextSpawn, TimeLeft = self:Next()
+
+    local SpawnsIn = TimeLeft <= 60 and L['now'] or
+                         SecondsToTime(TimeLeft, true, true)
+
+    if self.yellow and self.green then
+        local color = ns.color.Orange
+        if TimeLeft < self.yellow then color = ns.color.Yellow end
+        if TimeLeft < self.green then color = ns.color.Green end
+        SpawnsIn = color(SpawnsIn)
+    end
+
+    local text = format('%s (%s)', SpawnsIn, date(TimeFormat, NextSpawn))
+    if self.text then text = format(self.text, text) end
+    ns.PrepareLinks(text)
+    return text
+end
+
+-------------------------------------------------------------------------------
 
 ns.node = {
     Node = Node,
@@ -540,3 +608,5 @@ ns.node = {
     Rare = Rare,
     Treasure = Treasure
 }
+
+ns.Interval = Interval
