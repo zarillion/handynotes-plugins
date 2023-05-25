@@ -247,7 +247,7 @@ L['options_icons_tuskarr_chest'] = '海象人宝箱'
 L['options_icons_tuskarr_chest_desc'] = '显示 {object:海象人宝箱} 可能的位置。'
 
 L['community_feast_label'] = '社区盛宴'
-L['tasks_completed_suffix'] = nil
+L['tasks_completed_suffix'] = '烹饪任务已完成'
 L['options_icons_community_feast'] = '社区盛宴'
 L['options_icons_community_feast_desc'] = '显示社区盛宴的位置和奖励。'
 
@@ -794,7 +794,7 @@ L['molten_scoutbot_note'] = '打开 {object:熔火斥候机器人} 并拾取 {it
 L['bolts_and_brass_note'] = '打开 {object:螺栓和黄铜} 并拾取 {item:204850}。'
 
 L['sniffen_sage_suffix'] = '找到特殊物品'
-L['sniffen_digs_suffix'] = nil
+L['sniffen_digs_suffix'] = '嗅味探寻已完成'
 
 L['big_slick_note'] = '从 {npc:201752} 完成的每日任务达到 {faction:2568} 阵营的声望等级“专业”（总计2800声望），以获得坐骑。\n\n或者向他展示以下25级的蜗牛（宠物）以获得100声望：'
 L['grogul_note'] = '与 {npc:204672} 交谈并选择一种可以用来鼓励这只蜗牛移动得更快的食物。\n{note:该成就可以在名望7之前获得。}'
