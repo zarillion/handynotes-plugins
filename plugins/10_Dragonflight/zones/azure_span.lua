@@ -2066,6 +2066,15 @@ map.nodes[08235308] = ns.node.MoteOfNaszuro({
     note = L['naszuro_hudsons_rock']
 }) -- Hudson's Rock
 
+------------------------------- BOAT TO ISKAARA -------------------------------
+
+map.nodes[73677052] = Node({
+    icon = 'ferry',
+    scale = 1.5,
+    label = L['ferry_to_iskaara'],
+    pois = {ns.poi.Arrow({73677052, 13845047})}
+}) -- Boat to Iskaara
+
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
 map.nodes[12404920] = NPC({

@@ -268,6 +268,8 @@ L['naszuro_imbu'] = 'On the tree stump.'
 L['naszuro_azure_archives'] = 'On the side of the mountain, on a small rock.'
 L['naszuro_hudsons_rock'] = 'On top of the small rocky hill.'
 
+L['ferry_to_iskaara'] = 'Boat to Iskaara'
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------

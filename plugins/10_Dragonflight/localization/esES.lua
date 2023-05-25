@@ -269,6 +269,8 @@ L['naszuro_imbu'] = 'Encima del tocón de árbol.'
 L['naszuro_azure_archives'] = 'En la ladera de la montaña, sobre una roca pequeña.'
 L['naszuro_hudsons_rock'] = 'En la cima de la pequeña colina rocosa.'
 
+L['ferry_to_iskaara'] = 'Barco a Iskaara'
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------

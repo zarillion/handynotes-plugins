@@ -249,6 +249,8 @@ L['naszuro_imbu'] = nil
 L['naszuro_azure_archives'] = nil
 L['naszuro_hudsons_rock'] = nil
 
+L['ferry_to_iskaara'] = nil
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------
