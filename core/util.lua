@@ -1,6 +1,5 @@
 local ADDON_NAME, ns = ...
 
-local L = ns.locale
 local Class = ns.Class
 
 -------------------------------------------------------------------------------
@@ -311,7 +310,7 @@ function Interval:GetText()
 
     local NextSpawn, TimeLeft = self:Next()
 
-    local SpawnsIn = TimeLeft <= 60 and L['now'] or
+    local SpawnsIn = TimeLeft <= 60 and ns.locale['now'] or
                          SecondsToTime(TimeLeft, true, true)
 
     if self.yellow and self.green then
