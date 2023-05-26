@@ -756,7 +756,7 @@ Usa el amuleto y coge las {item:202062} {dot:Red} que hay dentro del {location:A
 ]]
 L['phoenix_wishwing_info'] = 'Esto es parte de la mascota de combate {item:193373} localizada en las {location:Orillas del Despertar} de las {location:Islas Dragón}.'
 
-L['bugbiter_tortoise_note'] = 'Consigue un {item:202082} {dot:Red} y un {item:202084} {dot:Green} para intercambiarlos con {npc:187077} para conseguir tu {item:202085}.\n\n{npc:187077} requiere que esté activa la misión del mundo {quest:66070}.'
+L['bugbiter_tortoise_note'] = 'Consigue un {item:202082} {dot:Red} y un {item:202084} {dot:Green} para intercambiarlos con {npc:187077} para conseguir tu {item:202085}.\n\n{npc:187077} requiere que esté activa la misión del mundo {wq:Los huesos de Hoja Brillante}.'
 
 L['naszuro_apex_canopy'] = 'Encima de un pilar pequeño de la escalera.'
 L['naszuro_obsidian_throne'] = 'En el lado izquierdo del trono donde están {npc:185894} y {npc:187495}.'
