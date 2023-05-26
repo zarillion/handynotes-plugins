@@ -755,7 +755,7 @@ Use this necklace and pick up {item:202062} {dot:Red} found within the {location
 ]]
 L['phoenix_wishwing_info'] = 'This is part of the {item:193373} Collectible located in {location:The Waking Shore} on the {location:Dragon Isles}.'
 
-L['bugbiter_tortoise_note'] = 'Collect {item:202082}({dot:Red}) and {item:202084}({dot:Green}) and exchange it at {npc:187077} for your {item:202085}.\n\n{npc:187077} requires the world quest {quest:66070} to be active.'
+L['bugbiter_tortoise_note'] = 'Collect {item:202082}({dot:Red}) and {item:202084}({dot:Green}) and exchange it at {npc:187077} for your {item:202085}.\n\n{npc:187077} requires the world quest {wq:Brightblade\'s Bones} to be active.'
 
 L['naszuro_apex_canopy'] = 'On a small pillar of the stair.'
 L['naszuro_obsidian_throne'] = 'On the left side of the throne where {npc:185894} and {npc:187495} are.'

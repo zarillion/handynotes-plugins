@@ -757,7 +757,7 @@ Benutze die Halskette und sammle {item:202062} {dot:Red} die sich in der Umgebun
 ]]
 L['phoenix_wishwing_info'] = 'Dies ist teil des {item:193373} in {location:Küste des Erwachens} auf den {location:Dracheninseln}.'
 
-L['bugbiter_tortoise_note'] = 'Sammle {item:202082}({dot:Red}) und {item:202084}({dot:Green}) und tausche sie bei {npc:187077} gegen {item:202085} ein.\n\nDamit {npc:187077} erscheint muss die Weltquest {quest:66070} aktiv sein.'
+L['bugbiter_tortoise_note'] = 'Sammle {item:202082}({dot:Red}) und {item:202084}({dot:Green}) und tausche sie bei {npc:187077} gegen {item:202085} ein.\n\nDamit {npc:187077} erscheint muss die Weltquest {wq:Leuchtklinges Knochen} aktiv sein.'
 
 L['naszuro_apex_canopy'] = 'Auf einem kleinen Pfeiler der Treppe.'
 L['naszuro_obsidian_throne'] = 'Auf der linken Seite des Throns, wo sich {npc:185894} und {npc:187495} befinden.'
