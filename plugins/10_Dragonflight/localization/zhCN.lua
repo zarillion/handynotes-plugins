@@ -268,7 +268,7 @@ L['naszuro_imbu'] = '在树桩上。'
 L['naszuro_azure_archives'] = '山的一侧，一块小石头上。'
 L['naszuro_hudsons_rock'] = '小石山顶上。'
 
-L['ferry_to_iskaara'] = nil
+L['ferry_to_iskaara'] = '乘船前往伊斯卡拉'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
