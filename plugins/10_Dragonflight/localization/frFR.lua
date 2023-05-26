@@ -753,7 +753,7 @@ Utilisez cette amulette et ramassez des {item:202062} {dot:Red} trouvées à l'{
 ]]
 L['phoenix_wishwing_info'] = 'Ceci fait partie de de la méthode d\'obtention du {item:193373} situé aux {location:Rivages de l’Éveil} sur les {location:Îles aux Dragons}.'
 
-L['bugbiter_tortoise_note'] = 'Récupérez l\'{item:202082}({dot:Red}) et le {item:202084}({dot:Green}) et échangez-les à {npc:187077} contre votre {item:202085}.\n\n{npc:187077} n\'est présente que lorsque l\'expédition {quest:66070} est active.'
+L['bugbiter_tortoise_note'] = 'Récupérez l\'{item:202082}({dot:Red}) et le {item:202084}({dot:Green}) et échangez-les à {npc:187077} contre votre {item:202085}.\n\n{npc:187077} n\'est présente que lorsque l\'expédition {wq:Ossements de Brillelame} est active.'
 
 L['naszuro_apex_canopy'] = 'Sur un petit pilier de l\'escalier.'
 L['naszuro_obsidian_throne'] = 'Sur le côté gauche du trône où se trouvent {npc:185894} et {npc:187495}.'
