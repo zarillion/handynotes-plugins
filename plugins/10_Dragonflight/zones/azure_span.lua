@@ -1094,8 +1094,11 @@ map.nodes[65732814] = LeyLine({
 -------------------------------------------------------------------------------
 
 map.nodes[13503833] = Disturbeddirt({location = L['in_small_cave']})
+map.nodes[14182155] = Disturbeddirt()
+map.nodes[15432158] = Disturbeddirt()
 map.nodes[19214047] = Disturbeddirt()
 map.nodes[19225097] = Disturbeddirt()
+map.nodes[20052526] = Disturbeddirt()
 map.nodes[23716772] = Disturbeddirt()
 map.nodes[29872621] = Disturbeddirt()
 map.nodes[33704685] = Disturbeddirt()
