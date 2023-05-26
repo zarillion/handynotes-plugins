@@ -2689,7 +2689,7 @@ map.nodes[24155556] = ns.node.MoteOfNaszuro({
     note = L['naszuro_obsidian_throne']
 }) -- Obsidian Throne
 map.nodes[58506765] = ns.node.MoteOfNaszuro({
-    quest = 78186,
+    quest = 76186,
     note = L['naszuro_ruby_lifeshrine']
 }) -- Ruby Lifeshrine
 map.nodes[63894481] = ns.node.MoteOfNaszuro({
