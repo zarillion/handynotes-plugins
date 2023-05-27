@@ -755,7 +755,7 @@ L['phoenix_wishwing_ash_feather'] = [[
 ]]
 L['phoenix_wishwing_info'] = '这是位于 {location:巨龙群岛} 的 {location:觉醒海岸} 的 {item:193373} 收藏品的一部分。'
 
-L['bugbiter_tortoise_note'] = '收集 {item:202082} {dot:Red} 和 {item:202084} {dot:Green} 并在 {npc:187077} 兑换 {item:202085}。\n\n{npc: 187077} 需要激活世界任务 {quest:66070}。'
+L['bugbiter_tortoise_note'] = '收集 {item:202082} {dot:Red} 和 {item:202084} {dot:Green} 并在 {npc:187077} 兑换 {item:202085}。\n\n{npc: 187077} 需要世界任务 {wq:辉刃之骨} 激活。'
 
 L['naszuro_apex_canopy'] = '在楼梯的一根小柱子上。'
 L['naszuro_obsidian_throne'] = '在宝座的左侧，{npc:185894} 和 {npc:187495} 所在的位置。'
