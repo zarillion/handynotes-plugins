@@ -756,7 +756,7 @@ L['phoenix_wishwing_ash_feather'] = [[
 ]]
 L['phoenix_wishwing_info'] = 'Это часть коллекционного предмета {item:193373}, расположенного на {location:Берегах Пробуждения} на {location:Дракоьих Островах}.'
 
-L['bugbiter_tortoise_note'] = 'Соберите {item:202082}({dot:Red}) и {item:202084}({dot:Green}) и обменяйте их у {npc:187077} на {item:202085}.\n\n{npc: 187077} требует, чтобы локальное задание {quest:66070} было активным.'
+L['bugbiter_tortoise_note'] = 'Соберите {item:202082}({dot:Red}) и {item:202084}({dot:Green}) и обменяйте их у {npc:187077} на {item:202085}.\n\n{npc: 187077} требует, чтобы локальное задание {wq:Кости Сияющего Клинка} было активным.'
 
 L['naszuro_apex_canopy'] = 'На маленьком столбе лестницы.'
 L['naszuro_obsidian_throne'] = 'С левой стороны трона, где {npc:185894} и {npc:187495}.'
