@@ -17,7 +17,7 @@ To enable all development settings and functionality:
         WTF/Account/<account>/SavedVariables/HandyNotes_<this_addon>.lua
     3. Add a new line under profiles => Default.
         ["development"] = true,
-    4. Save and start the game. You should now see development settings
+    4. Save and star the game. You should now see development settings
        at the bottom of the addon settings window.
 
 --]]
@@ -66,16 +66,57 @@ local function BootstrapDevelopmentEnvironment()
     }
 
     -- Print debug messages for each quest ID that is flipped
-    ns.QuestDB = ns.GetDatabaseTable('quest_history')
-    ns.QuestTracker()
+    local QTFrame = CreateFrame('Frame', ADDON_NAME .. 'QT')
+    local history = ns.GetDatabaseTable('quest_id_history')
+    local lastCheck = GetTime()
+    local quests = {}
+    local changed = {}
+    local max_quest_id = 100000
+
+    local CurrencyFrame = CreateFrame('Frame', ADDON_NAME .. 'C')
+    local c_lastCheck = GetTime()
+    local c_history = ns.GetDatabaseTable('currency_id_history')
+    local currency = {}
+    local c_changed = {}
+
+    if ns:GetOpt('show_debug_quest') then
+        C_Timer.After(2, function()
+            -- Give some time for quest info to load in before we start
+            for id = 65000, max_quest_id do
+                quests[id] = C_QuestLog.IsQuestFlaggedCompleted(id)
+            end
+            QTFrame:SetScript('OnUpdate', function()
+                if GetTime() - lastCheck > 5 and ns:GetOpt('show_debug_quest') then
+                    for id = 65000, max_quest_id do
+                        local s = C_QuestLog.IsQuestFlaggedCompleted(id)
+                        if s ~= quests[id] then
+                            changed[#changed + 1] = {time(), id, quests[id], s}
+                            quests[id] = s
+                        end
+                    end
+                    if #changed <= 10 then
+                        -- changing zones will sometimes cause thousands of quest
+                        -- ids to flip state, we do not want to report on those
+                        for i, args in ipairs(changed) do
+                            table.insert(history, 1, args)
+                            print('Quest', args[2], 'changed:', args[3], '=>',
+                                args[4])
+                        end
+                    end
+                    if #history > 100 then
+                        for i = #history, 101, -1 do
+                            history[i] = nil
+                        end
+                    end
+                    lastCheck = GetTime()
+                    wipe(changed)
+                end
+            end)
+            print('Quest IDs are now being tracked')
+        end)
+    end
 
     if ns:GetOpt('show_debug_currency') then
-        local CurrencyFrame = CreateFrame('Frame', ADDON_NAME .. 'C')
-        local c_lastCheck = GetTime()
-        local c_history = ns.GetDatabaseTable('currency_id_history')
-        local currency = {}
-        local c_changed = {}
-
         C_Timer.After(2, function()
             -- Give some time for currency info to load in before we start
             for id = 1, 2400 do
@@ -231,21 +272,19 @@ end
 
 -------------------------------------------------------------------------------
 
-function ns.Print(...) print(ns.color.LightBlue('ZAR Plugins:'), ...) end
-
 function ns.Debug(...)
     if not ns.addon.db then return end
-    if ns:GetOpt('development') then ns.Print(ns.color.Blue('DEBUG:'), ...) end
+    if ns:GetOpt('development') then print(ns.color.Blue('DEBUG:'), ...) end
 end
 
 function ns.Warn(...)
     if not ns.addon.db then return end
-    if ns:GetOpt('development') then ns.Print(ns.color.Orange('WARN:'), ...) end
+    if ns:GetOpt('development') then print(ns.color.Orange('WARN:'), ...) end
 end
 
 function ns.Error(...)
     if not ns.addon.db then return end
-    if ns:GetOpt('development') then ns.Print(ns.color.Red('ERROR:'), ...) end
+    if ns:GetOpt('development') then print(ns.color.Red('ERROR:'), ...) end
 end
 
 -------------------------------------------------------------------------------

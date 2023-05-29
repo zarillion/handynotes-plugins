@@ -17,7 +17,6 @@
   <Script file="templates.lua"/>
   <Script file="tomtom.lua"/>
   <Script file="pois.lua"/>
-  <Script file="quest_tracker.lua"/>
   <!-- Must be outside of core/ for dev purposes -->
   <Include file="..\templates.xml"/>
 </Ui>
