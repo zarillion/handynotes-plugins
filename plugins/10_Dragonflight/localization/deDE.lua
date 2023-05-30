@@ -568,6 +568,8 @@ Verfolge die erscheinende {npc:198590} bis auf einen Ast hinter {npc:197232}. We
 Geh zu {npc:198062} und schließe die Quest ab, um {item:200872} zu erhalten.
 ]]
 
+L['little_scales_daycare_note'] = 'Du musst eine Questlinie über mehrere tage abschließen, startend mit {quest:72664} von {npc:197478}, um diesen Erfolg und das Haustier zu erhalten.'
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

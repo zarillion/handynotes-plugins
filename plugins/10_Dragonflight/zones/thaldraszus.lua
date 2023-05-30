@@ -1704,7 +1704,7 @@ map.nodes[40474531] = Collectible({
     rewards = {Pet({item = 200872, id = 3405})}
 }) -- Pet: Living Mud Mask
 
-map.nodes[13005740] = Collectible({ -- TODO
+val.nodes[13005740] = Collectible({ -- TODO
     label = '{achievement:18384}',
     icon = 4719556,
     note = L['little_scales_daycare_note'],
@@ -1715,8 +1715,14 @@ map.nodes[13005740] = Collectible({ -- TODO
         ns.requirement.Quest(72666) -- Daycare Director Agapanthus
     },
     rewards = {
-        Achievement({id = 18384, criteria = nil}), -- Whelp, There It Is
-        Pet({item = 205165, id = nil}) -- Axel
+        Achievement({
+            id = 18384,
+            criteria = {
+                60132, 60133, 60134, 60135, 60136, 60137, 60138, 60139, 60140,
+                60141, 60142, 60143, 60144, 60145, 60146, 60147
+            }
+        }), -- Whelp, There It Is
+        Pet({item = 205165, id = 3555}) -- Axel
     }
 }) -- Pet: "Axel" from Achievement "Whelp, There It Is"
 
