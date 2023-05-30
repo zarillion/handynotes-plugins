@@ -106,3 +106,25 @@ map.nodes[34406140] = Safari.StripeTailedScorpid({
         })
     }
 }) -- Stripe-Tailed Scorpid
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = 'Fuselight Night Flight', -- '{quest:nil}',
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal bronze
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal silver
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal gold
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced bronze
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced silver
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced gold
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- reverse bronze
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- reverse silver
+        -- Achievement({id = nil, criteria = nil, oneline = true}) -- reverse gold
+    }
+}) -- Fuselight Night Flight

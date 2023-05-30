@@ -90,3 +90,25 @@ map.nodes[30206220] = Safari.RedridgeRat({
 map.nodes[47403620] = Safari.Roach({
     pois = {POI({15805540, 26802720, 47403620, 47603860, 60403620, 68004340})}
 }) -- Roach
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = '{quest:76536}',
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal bronze
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal silver
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal gold
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced bronze
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced silver
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced gold
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- reverse bronze
+        -- Achievement({id = nil, criteria = nil, oneline = true}), -- reverse silver
+        -- Achievement({id = nil, criteria = nil, oneline = true}) -- reverse gold
+    }
+}) -- Redridge Rally
