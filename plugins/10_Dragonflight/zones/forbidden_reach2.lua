@@ -1234,6 +1234,21 @@ end
 
 map.nodes[30267800] = MossyMammoth()
 
+------------------------- TOY: TINY BOX OF TINY ROCKS -------------------------
+
+map.nodes[30268000] = Collectible({
+    label = '{achievement:18559}',
+    location = L['in_zskera_vaults'],
+    icon = 132762,
+    note = L['tiny_box_of_tiny_rocks_note'], -- TODO: can also be less often found in the waking shores
+    fgroup = 'zskera_vaults',
+    group = ns.groups.ZSKERA_VAULTS,
+    rewards = {
+        Achievement({id = 18559, criteria = {id = 1, qty = true}}), -- Many Boxes, Many Rockses
+        Toy({item = 207099}) -- Mossy Mammoth
+    }
+}) -- TOY: Tiny Box of Tiny Rocks
+
 -------------------------------------------------------------------------------
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
 -------------------------------------------------------------------------------
