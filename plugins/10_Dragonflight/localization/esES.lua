@@ -566,7 +566,7 @@ Aparecerá una babosa llamada {npc:198590} y huirá a una rama detrás de {npc:1
 Vuelve con {npc:198062}, que está sentado en un banco, y entrega la misión para conseguir tu {item:200872}.
 ]]
 
-L['little_scales_daycare_note'] = nil
+L['little_scales_daycare_note'] = 'Necesitas hacer una serie de misiones durante varios días, comenzando con {quest:72664} que te da el {npc:197478}, para conseguir el logro y la mascota.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
