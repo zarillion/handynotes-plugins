@@ -566,7 +566,7 @@ Un petit slime nommé {npc:198590} apparaîtra et s'enfuira vers une branche sit
 Revenez voir {npc:198062}, assis sur un banc, et rendez la quête pour obtenir votre {item:200872}.
 ]]
 
-L['little_scales_daycare_note'] = nil
+L['little_scales_daycare_note'] = 'Vous devez réaliser une suite de quêtes sur plusieurs jours, en commençant par {quest:72664} donnée par le {npc:197478}, pour obtenir ce haut-fait et cette mascotte.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
