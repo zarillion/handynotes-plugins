@@ -5,6 +5,8 @@ local ADDON_NAME, ns = ...
 
 local Safari = ns.node.Safari
 
+local Achievement = ns.reward.Achievement
+
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -153,22 +155,20 @@ new_tinkertown.nodes[45605280] = ns.node.CrazyForCats({
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
--- local Achievement = ns.reward.Achievement
-
 map.nodes[10001000] = ns.node.Dragonrace({
     label = '{quest:76445}',
     -- normal = {nil, nil, nil},
     -- advanced = {nil, nil, nil},
     -- reverse = {nil, nil, nil},
     rewards = {
-        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal bronze
-        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal silver
-        -- Achievement({id = nil, criteria = nil, oneline = true}), -- normal gold
-        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced bronze
-        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced silver
-        -- Achievement({id = nil, criteria = nil, oneline = true}), -- advanced gold
-        -- Achievement({id = nil, criteria = nil, oneline = true}), -- reverse bronze
-        -- Achievement({id = nil, criteria = nil, oneline = true}), -- reverse silver
-        -- Achievement({id = nil, criteria = nil, oneline = true}) -- reverse gold
+        Achievement({id = 18566, criteria = 8, oneline = true}), -- normal bronze
+        Achievement({id = 18567, criteria = 8, oneline = true}), -- normal silver
+        Achievement({id = 18568, criteria = 8, oneline = true}), -- normal gold
+        Achievement({id = 18569, criteria = 8, oneline = true}), -- advanced bronze
+        Achievement({id = 18570, criteria = 8, oneline = true}), -- advanced silver
+        Achievement({id = 18571, criteria = 8, oneline = true}), -- advanced gold
+        Achievement({id = 18572, criteria = 8, oneline = true}), -- reverse bronze
+        Achievement({id = 18573, criteria = 8, oneline = true}), -- reverse silver
+        Achievement({id = 18574, criteria = 8, oneline = true}) -- reverse gold
     }
 }) -- Ironforge Interceptor
