@@ -251,9 +251,9 @@ wickedgrotto.nodes[28005140] = Safari.TopazShaleHatchling({
 
 map.nodes[10001000] = ns.node.Dragonrace({
     label = '{quest:75409}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2320, 1000, 999},
+    advanced = {2350, 1000, 999},
+    reverse = {2380, 1000, 999},
     rewards = {
         Achievement({id = 17712, criteria = 9, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 9, oneline = true}), -- normal silver

@@ -361,9 +361,9 @@ map.nodes[64703030] = Camel
 
 map.nodes[10001000] = ns.node.Dragonrace({
     label = '{quest:75481}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2326, 1000, 999},
+    advanced = {2356, 1000, 999},
+    reverse = {2386, 1000, 999},
     rewards = {
         Achievement({id = 17712, criteria = 15, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 15, oneline = true}), -- normal silver

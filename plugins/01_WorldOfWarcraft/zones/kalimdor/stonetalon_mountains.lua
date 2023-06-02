@@ -109,9 +109,9 @@ map.nodes[56607460] = Safari.VenomspitterHatchling({
 
 map.nodes[10001000] = ns.node.Dragonrace({
     label = '{quest:75394}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2319, 1000, 999},
+    advanced = {2349, 1000, 999},
+    reverse = {2379, 1000, 999},
     rewards = {
         Achievement({id = 17712, criteria = 8, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 8, oneline = true}), -- normal silver

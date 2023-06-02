@@ -1,6 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
   <Script file="common.lua"/>
-
+  <!-- Eastern Kingdoms -->
   <Script file="zones\eastern_kingdoms\arathi_highlands.lua"/>
   <Script file="zones\eastern_kingdoms\badlands.lua"/>
   <Script file="zones\eastern_kingdoms\blasted_lands.lua"/>
@@ -25,7 +25,7 @@
   <Script file="zones\eastern_kingdoms\westfall.lua"/>
   <Script file="zones\eastern_kingdoms\wetlands.lua"/>
   <Script file="zones\eastern_kingdoms\zul_gurub.lua"/>
-
+  <!-- Kalimdor -->
   <Script file="zones\kalimdor\ashenvale.lua"/>
   <Script file="zones\kalimdor\azshara.lua"/>
   <Script file="zones\kalimdor\azuremyst_isle_exodar.lua"/>
@@ -35,7 +35,9 @@
   <Script file="zones\kalimdor\desolace.lua"/>
   <Script file="zones\kalimdor\durotar_orgrimmar.lua"/>
   <Script file="zones\kalimdor\dustwallow_marsh.lua"/>
+  <Script file="zones\kalimdor\felwood.lua"/>
   <Script file="zones\kalimdor\feralas.lua"/>
+  <Script file="zones\kalimdor\Moonglade.lua"/>
   <Script file="zones\kalimdor\mulgore_thunderbluff.lua"/>
   <Script file="zones\kalimdor\northern_barrens.lua"/>
   <Script file="zones\kalimdor\silithus.lua"/>

@@ -22,6 +22,10 @@ ns.expansion = 1
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
+ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
 ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
 ns.groups.CRAZYFORCATS = Group('crazyforcats', 656579,
     {defaults = ns.GROUP_HIDDEN})
@@ -1107,3 +1111,140 @@ ns.groups.SECRETS_OF_ZULGURUB = ns.Group('secrets_of_zulgurub', 132528, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+local Dragonrace = Class('DragonRace', Collectible,
+    {icon = 1100022, group = ns.groups.DRAGONRACE})
+
+function Dragonrace.getters:sublabel()
+    if self.normal then
+        local ntime = C_CurrencyInfo.GetCurrencyInfo(self.normal[1]).quantity
+        if self.advanced and self.reverse then
+            local atime = C_CurrencyInfo.GetCurrencyInfo(self.advanced[1])
+                              .quantity
+            local rtime = C_CurrencyInfo.GetCurrencyInfo(self.reverse[1])
+                              .quantity
+            return L['dr_best']:format(ntime / 1000, atime / 1000, rtime / 1000)
+        end
+        return L['dr_best_dash']:format(ntime / 1000)
+    end
+end
+
+function Dragonrace.getters:note()
+    if self.normal then
+        local silver = ns.color.Silver
+        local gold = ns.color.Gold
+
+        -- LuaFormatter off
+        if self.advanced and self.reverse then
+            return L['dr_note']:format(
+                silver(self.normal[2]),
+                gold(self.normal[3]),
+                silver(self.advanced[2]),
+                gold(self.advanced[3]),
+                silver(self.reverse[2]),
+                gold(self.reverse[3])
+            ) .. L['dr_bronze']
+        end
+
+        return L['dr_note_dash']:format(
+            silver(self.normal[2]),
+            gold(self.normal[3])
+        ) .. L['dr_bronze']
+        -- LuaFormatter on
+    end
+end
+
+ns.node.Dragonrace = Dragonrace
+
+local DRAGONRACE_POI = {
+    -- Kalimdor
+    [7494] = 58181079, -- Fel Flyby
+    [7495] = 68836804, -- Winter Wander
+    [7498] = 67202617, -- Rocketway Ride
+    [7499] = true, -- Ashenvale Ambit -- TODO
+    [7500] = true, -- Durotar Tour
+    [7501] = true, -- Webwinder Weave -- TODO
+    [7502] = true, -- Desolace Drift -- TODO
+    [7503] = true, -- Barrens Divide Dive -- TODO
+    [7504] = true, -- Razorfen Roundabout -- TODO
+    [7505] = true, -- Thousand Needles Thread -- TODO
+    [7506] = true, -- Feralas Ruins Ramble -- TODO
+    [7507] = true, -- Ahn'Qiraj Circuit -- TODO
+    [7509] = true -- Un'Goro Crater Circuit -- TODO
+    -- Eastern Kingdoms
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true --
+    -- [] = true --
+}
+
+hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+    if not DRAGONRACE_POI[self.areaPoiID] then return end
+    local mapID = self:GetMap().mapID
+    local group = ns.groups.DRAGONRACE
+
+    if not ns.maps[mapID] or not group:GetDisplay(mapID) then return end
+
+    local node = ns.maps[mapID].nodes[DRAGONRACE_POI[self.areaPoiID]]
+    if not node then return end
+
+    GameTooltip:AddLine(' ')
+    GameTooltip:AddLine(ns.RenderLinks(node.sublabel, true), 1, 1, 1)
+    if ns:GetOpt('show_notes') then
+        GameTooltip:AddLine(' ')
+        GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1, true)
+    end
+    if ns:GetOpt('show_loot') then
+        GameTooltip:AddLine(' ')
+        for i, reward in ipairs(node.rewards) do
+            if reward:IsEnabled() then reward:Render(GameTooltip) end
+        end
+    end
+
+    GameTooltip:Show()
+end)
+
+hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
+    if self.vignetteID ~= 5104 then return end
+
+    local mapID = self:GetMap().mapID
+    local group = ns.groups.DRAGONRACE
+    if not ns.maps[mapID] or not group:GetDisplay(mapID) then return end
+
+    local x = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).x
+    local y = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).y
+
+    GameTooltip:AddLine('XY ' .. HandyNotes:getCoord(x, y), 1, 1, 1, true) -- DEBUG
+
+    local node = ns.maps[mapID].nodes[HandyNotes:getCoord(x, y)]
+    if not node then return end
+
+    GameTooltip:SetText(ns.RenderLinks(node.label, true))
+    GameTooltip:AddLine(ns.RenderLinks(node.sublabel, true), 1, 1, 1)
+    if ns:GetOpt('show_notes') then
+        GameTooltip:AddLine(' ')
+        GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1, true)
+    end
+    if ns:GetOpt('show_loot') then
+        GameTooltip:AddLine(' ')
+        for i, reward in ipairs(node.rewards) do
+            if reward:IsEnabled() then reward:Render(GameTooltip) end
+        end
+    end
+
+    GameTooltip:Show()
+end)

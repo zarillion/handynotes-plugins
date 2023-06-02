@@ -147,11 +147,11 @@ map.nodes[41604740] = Safari.Toad({
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = ns.node.Dragonrace({
-    label = 'Fel Flyover', -- '{quest:nil}', -- TODO: add quest id
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+map.nodes[58181079] = ns.node.Dragonrace({
+    label = '{quest:75277}',
+    normal = {2312, 75, 70},
+    advanced = {2342, 66, 63},
+    reverse = {2372, 65, 62},
     rewards = {
         Achievement({id = 17712, criteria = 1, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 1, oneline = true}), -- normal silver

@@ -270,9 +270,9 @@ orgrimmar.nodes[37407600] = Safari.WaterSnake({
 
 map.nodes[10001000] = ns.node.Dragonrace({
     label = '{quest:75385}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2318, 85, 80},
+    advanced = {2348, 78, 73},
+    reverse = {2378, 78, 73},
     rewards = {
         Achievement({id = 17712, criteria = 7, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 7, oneline = true}), -- normal silver

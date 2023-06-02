@@ -180,11 +180,11 @@ map.nodes[59925159] = ns.node.CrazyForCats({
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = ns.node.Dragonrace({
+map.nodes[68836804] = ns.node.Dragonrace({
     label = '{quest:75310}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2313, 81, 76},
+    advanced = {2343, 86, 73},
+    reverse = {2373, 73, 70},
     rewards = {
         Achievement({id = 17712, criteria = 2, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 2, oneline = true}), -- normal silver

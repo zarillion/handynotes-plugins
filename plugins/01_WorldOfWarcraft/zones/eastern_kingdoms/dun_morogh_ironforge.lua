@@ -157,9 +157,9 @@ new_tinkertown.nodes[45605280] = ns.node.CrazyForCats({
 
 map.nodes[10001000] = ns.node.Dragonrace({
     label = '{quest:76445}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2316, 1000, 999},
+    advanced = {2346, 1000, 999},
+    reverse = {2376, 1000, 999},
     rewards = {
         Achievement({id = 18566, criteria = 8, oneline = true}), -- normal bronze
         Achievement({id = 18567, criteria = 8, oneline = true}), -- normal silver

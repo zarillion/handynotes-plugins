@@ -172,11 +172,11 @@ map.nodes[66001440] = Safari.TwilightSpider({
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = ns.node.Dragonrace({
+map.nodes[67202617] = ns.node.Dragonrace({
     label = '{quest:75347}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2316, 105, 100},
+    advanced = {2346, 100, 94},
+    reverse = {2376, 100, 94},
     rewards = {
         Achievement({id = 17712, criteria = 5, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 5, oneline = true}), -- normal silver

@@ -791,11 +791,11 @@ map.nodes[56808480] = Safari.TwilightBeetle({
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = ns.node.Dragonrace({
+map.nodes[56712795] = ns.node.Dragonrace({
     label = '{quest:75317}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2314, 50, 45},
+    advanced = {2344, 46, 41},
+    reverse = {2374, 46, 41},
     rewards = {
         Achievement({id = 17712, criteria = 3, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 3, oneline = true}), -- normal silver
@@ -809,11 +809,11 @@ map.nodes[10001000] = ns.node.Dragonrace({
     }
 }) -- Nordrassil Spiral
 
-map.nodes[10001500] = ns.node.Dragonrace({
+map.nodes[21965429] = ns.node.Dragonrace({
     label = '{quest:75330}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
+    normal = {2315, 75, 70},
+    advanced = {2345, 72, 69},
+    reverse = {2375, 72, 67},
     rewards = {
         Achievement({id = 17712, criteria = 4, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 4, oneline = true}), -- normal silver
