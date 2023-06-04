@@ -22,7 +22,13 @@ ns.expansion = 2
 
 ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function(self)
+        if select(2, IsAddOnLoaded('HandyNotes_Dragonflight')) then
+            return false
+        end
+        return Group.IsEnabled(self)
+    end
 })
 ns.groups.NETHERWING_EGGS = Group('netherwing_eggs', 134430,
     {defaults = ns.GROUP_HIDDEN})

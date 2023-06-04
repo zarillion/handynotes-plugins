@@ -24,7 +24,13 @@ ns.expansion = 1
 
 ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function(self)
+        if select(2, IsAddOnLoaded('HandyNotes_Dragonflight')) then
+            return false
+        end
+        return Group.IsEnabled(self)
+    end
 })
 ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
 ns.groups.CRAZYFORCATS = Group('crazyforcats', 656579,
