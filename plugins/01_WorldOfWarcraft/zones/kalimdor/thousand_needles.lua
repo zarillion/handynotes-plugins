@@ -64,9 +64,9 @@ map.nodes[55806160] = Safari.TwilightIguana({
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = ns.node.Dragonrace({
+map.nodes[09731735] = ns.node.Dragonrace({
     label = '{quest:75463}',
-    normal = {2323, 1000, 999},
+    normal = {2323, 88, 83},
     advanced = {2353, 1000, 999},
     reverse = {2383, 1000, 999},
     rewards = {

@@ -124,11 +124,11 @@ map.nodes[45403540] = Safari.SmallFrog({
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = ns.node.Dragonrace({
+map.nodes[41431300] = ns.node.Dragonrace({
     label = '{quest:75412}',
-    normal = {2321, 1000, 999},
-    advanced = {2351, 1000, 999},
-    reverse = {2381, 1000, 999},
+    normal = {2321, 53, 48},
+    advanced = {2351, 48, 43},
+    reverse = {2381, 49, 44},
     rewards = {
         Achievement({id = 17712, criteria = 10, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 10, oneline = true}), -- normal silver
@@ -142,11 +142,11 @@ map.nodes[10001000] = ns.node.Dragonrace({
     }
 }) -- Barrens Divide Dive
 
-map.nodes[10001000] = ns.node.Dragonrace({
+map.nodes[42809308] = ns.node.Dragonrace({
     label = '{quest:75437}',
-    normal = {2322, 1000, 999},
-    advanced = {2352, 1000, 999},
-    reverse = {2382, 1000, 999},
+    normal = {2322, 58, 53},
+    advanced = {2352, 52, 47},
+    reverse = {2382, 52, 47},
     rewards = {
         Achievement({id = 17712, criteria = 11, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 11, oneline = true}), -- normal silver

@@ -147,11 +147,11 @@ map.nodes[45403680] = Safari.SpikyLizard({
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = ns.node.Dragonrace({
+map.nodes[39548419] = ns.node.Dragonrace({
     label = '{quest:75472}',
-    normal = {2325, 1000, 999},
-    advanced = {2355, 1000, 999},
-    reverse = {2385, 1000, 999},
+    normal = {2325, 80, 75},
+    advanced = {2355, 71, 66},
+    reverse = {2385, 74, 69},
     rewards = {
         Achievement({id = 17712, criteria = 14, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 14, oneline = true}), -- normal silver

@@ -314,7 +314,7 @@ ns.node.Dragonrace = Dragonrace
 local DRAGONRACE_POI = {
     [7496] = 56712795, -- Nordassil Spiral
     [7497] = 21965429, -- Hyjal Hotfoot
-    [7508] = true -- Uldum Tour
+    [7508] = 55774218 -- Uldum Tour
     -- [] = true, -- Twilight Terror
     -- [] = true -- Krazzworks Klash
 }

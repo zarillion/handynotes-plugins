@@ -183,11 +183,11 @@ map.nodes[58605320] = Safari.TreePython({
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = ns.node.Dragonrace({
+map.nodes[53379308] = ns.node.Dragonrace({
     label = '{quest:75485}',
-    normal = {2327, 1000, 999},
-    advanced = {2357, 1000, 999},
-    reverse = {2387, 1000, 999},
+    normal = {2327, 105, 100},
+    advanced = {2357, 92, 87},
+    reverse = {2387, 96, 91},
     rewards = {
         Achievement({id = 17712, criteria = 16, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 16, oneline = true}), -- normal silver

@@ -198,8 +198,8 @@ map.nodes[73805200] = Safari.Toad({
 map.nodes[37043058] = ns.node.Dragonrace({
     label = '{quest:75378}',
     normal = {2317, 69, 64},
-    advanced = {2347, 1000, 999},
-    reverse = {2377, 1000, 999},
+    advanced = {2347, 64, 59},
+    reverse = {2377, 64, 59},
     rewards = {
         Achievement({id = 17712, criteria = 6, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 6, oneline = true}), -- normal silver

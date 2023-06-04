@@ -270,6 +270,17 @@ end
 
 ns.node.Dragonrace = Dragonrace
 
+local DRAGONRACE_POI = {
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+    -- [] = true, --
+}
+
 hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
     if not DRAGONRACE_POI[self.areaPoiID] then return end
     local mapID = self:GetMap().mapID

@@ -1245,7 +1245,7 @@ map.nodes[30268000] = Collectible({
     group = ns.groups.ZSKERA_VAULTS,
     rewards = {
         Achievement({id = 18559, criteria = {id = 1, qty = true}}), -- Many Boxes, Many Rockses
-        Toy({item = 207099}) -- Mossy Mammoth
+        Toy({item = 207099}) -- Tiny Box of Tiny Rocks
     }
 }) -- TOY: Tiny Box of Tiny Rocks
 

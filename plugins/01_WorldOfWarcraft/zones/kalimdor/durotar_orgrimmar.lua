@@ -268,7 +268,7 @@ orgrimmar.nodes[37407600] = Safari.WaterSnake({
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = ns.node.Dragonrace({
+map.nodes[56906286] = ns.node.Dragonrace({
     label = '{quest:75385}',
     normal = {2318, 85, 80},
     advanced = {2348, 78, 73},

@@ -102,11 +102,11 @@ map.nodes[54005360] = Safari.Squirrel({
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = ns.node.Dragonrace({
+map.nodes[64125436] = ns.node.Dragonrace({
     label = '{quest:75470}',
-    normal = {2323, 1000, 999},
-    advanced = {2353, 1000, 999},
-    reverse = {2383, 1000, 999},
+    normal = {2323, 94, 89},
+    advanced = {2353, 88, 83},
+    reverse = {2383, 88, 83},
     rewards = {
         Achievement({id = 17712, criteria = 12, oneline = true}), -- normal bronze
         Achievement({id = 17713, criteria = 12, oneline = true}), -- normal silver
