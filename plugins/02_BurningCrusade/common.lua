@@ -288,7 +288,8 @@ local DRAGONRACE_POI = {
 }
 
 hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
-    if not DRAGONRACE_POI[self.areaPoiID] then return end
+    if not ns.groups.DRAGONRACE:IsEnabled() or
+        not DRAGONRACE_POI[self.areaPoiID] then return end
     local mapID = self:GetMap().mapID
     local group = ns.groups.DRAGONRACE
 
@@ -314,7 +315,9 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
 end)
 
 hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
-    if self.vignetteID ~= 5104 then return end
+    if not ns.groups.DRAGONRACE:IsEnabled() or self.vignetteID ~= 5104 then
+        return
+    end
 
     local mapID = self:GetMap().mapID
     local group = ns.groups.DRAGONRACE
