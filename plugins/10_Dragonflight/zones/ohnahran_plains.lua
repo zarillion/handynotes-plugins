@@ -821,7 +821,6 @@ map.nodes[56007878] = ns.node.ElementalChest({
     rewards = {
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 200093}), -- Centaur Hunting Trophy
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201443, slot = L['shield']}), -- Primal Revenant's Icewall
         Transmog({item = 201442, slot = L['1h_sword']}) -- Primal Revenant's Frostblade
     }
@@ -873,7 +872,6 @@ local ClanChest = Class('ClanChest', ns.node.Node, {
     group = ns.groups.CLAN_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201024, slot = L['cosmetic']}), -- Nokhudon Mantle
         Transmog({item = 201025, slot = L['cosmetic']}), -- Nokhudon Harness
         Transmog({item = 201027, slot = L['cosmetic']}), -- Nokhudon Breeches
@@ -936,7 +934,6 @@ local LightningBoundChest = Class('LightningBoundChest', ns.node.Node, {
     group = ns.groups.LIGHTNING_BOUND_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201447, slot = L['cosmetic']}), -- Primal Revenant's Breezeblade
         Transmog({item = 201448, slot = L['cosmetic']}), -- Primal Revenant's Windwall
         Item({item = 199065, quest = 70534}), -- Sorrowful Letter

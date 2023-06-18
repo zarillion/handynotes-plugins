@@ -853,7 +853,6 @@ local Disturbeddirt = Class('Disturbed_dirt', Node, {
     },
     rewards = {
         Item({item = 190453}), -- Spark of Ingenuity
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201386, slot = L['cosmetic']}), -- Drakonid Defender's Pike
         Transmog({item = 201388, slot = L['cosmetic']}), -- Dragonspawn Wingtipped Staff
         Transmog({item = 201390, slot = L['cosmetic']}), -- Devastating Drakonid Waraxe
@@ -884,7 +883,6 @@ local Scoutpack = Class('Scoutpack', Node, {
     requires = ns.requirement.Quest(70822), -- Lost Expedition Scouts
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Mount({item = 192764, id = 1617}), -- Verdant Skitterfly
         Transmog({item = 201387, slot = L['cosmetic']}), -- Dragon Knight's Halberd
         Transmog({item = 201388, slot = L['cosmetic']}), -- Dragonspawn Wingtipped Staff
@@ -920,7 +918,6 @@ local MagicBoundChest = Class('MagicBoundChest', Node, {
     requires = ns.requirement.Reputation(2507, 16, true), -- Dragonscale Expedition
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Item({item = 199062, quest = 70528}), -- Ruby Gem Cluster Map
         Item({item = 198843, quest = 70392}), -- Emerald Gardens Explorer's Notes
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
@@ -971,7 +968,6 @@ ns.node.ReedChest = Class('ReedChest', Node, {
     group = ns.groups.REED_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
         Item({item = 199068, quest = 70537}), -- Time-Lost Memo
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
@@ -991,7 +987,6 @@ ns.node.DracthyrSupplyChest = Class('DracthyrSupplyChest', Node, {
     group = ns.groups.DRACTHYR_SUPPLY_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
@@ -1012,7 +1007,6 @@ ns.node.SimmeringChest = Class('SimmeringChest', Node, {
     group = ns.groups.SIMMERING_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201446, slot = L['cosmetic']}), -- Primal Revenant's Firewall
         Transmog({item = 201445, slot = L['cosmetic']}), -- Primal Revenant's Emberblade
         Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
@@ -1035,7 +1029,6 @@ ns.node.FrostboundChest = Class('FrostboundChest', Node, {
     group = ns.groups.FROSTBOUND_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201443, slot = L['cosmetic']}), -- Primal Revenant's Icewall
         Transmog({item = 201442, slot = L['cosmetic']}), -- Primal Revenant's Frostblade
         Item({item = 199065, quest = 70534}), -- Sorrowful Letter

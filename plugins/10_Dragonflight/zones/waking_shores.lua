@@ -1393,7 +1393,6 @@ local DjaradinCache = Class('DjaradinCache', ns.node.Node, {
     group = ns.groups.DJARADIN_CACHE,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201035, slot = L['cosmetic']}), -- Citadel Crushers Pauldrons
         Transmog({item = 201036, slot = L['cosmetic']}), -- Citadel Crushers Chestplate
         Transmog({item = 201037, slot = L['cosmetic']}), -- Citadel Crushers Legguards

@@ -1187,7 +1187,6 @@ local TuskarrChest = Class('TuskarrChest', ns.node.Node, {
     group = ns.groups.TUSKARR_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201372, slot = L['cosmetic']}), -- Imbu Tuskarr Axe
         Transmog({item = 201373, slot = L['cosmetic']}), -- Imbu Net Cutter
         Transmog({item = 201374, slot = L['cosmetic']}), -- Tuskarr Fishing Pike
@@ -1227,7 +1226,6 @@ local DecayCoveredChest = Class('DecayCoveredChest', ns.node.Node, {
     group = ns.groups.DECAY_COVERED_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201365, slot = L['cosmetic']}), -- Brackenhide Gnoll Guard
         Transmog({item = 201370, slot = L['cosmetic']}), -- Brackenhide Skullcracker
         Transmog({item = 201369, slot = L['cosmetic']}), -- Hollow Greatwood Pestilence
@@ -1345,7 +1343,6 @@ local IcemawStorageCache = Class('IcemawStorageCache', ns.node.Node, {
     group = ns.groups.ICEMAW_STORAGE_CACHE,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199068, quest = 70537}), -- Time-Lost Memo
         Item({item = 199065, quest = 70534}), -- Sorrowful Letter
@@ -1797,7 +1794,6 @@ local COMMUNITY_FEAST_REWARDS = {
     Recipe({item = 198130, profession = 185}), -- Recipe: Gral's Veneration
     Transmog({item = 200882, slot = L['cosmetic']}), -- Big Kinook's Spare Ladle
     ns.reward.Spacer(), Item({item = 200652}), -- Alchemical Flavor Pocket
-    Item({item = 190454}), -- Primal Chaos
     Item({item = 192055}), -- Dragon Isles Artifact
     Item({item = 200071}) -- Sacred Tuskarr Totem
 }

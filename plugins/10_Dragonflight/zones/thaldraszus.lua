@@ -680,7 +680,6 @@ tpf.nodes[28002590] = ns.node.ElementalChest({
     rewards = {
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 199906}), -- Centaur Hunting Trophy
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201443, slot = L['shield']}), -- Primal Revenant's Icewall
         Transmog({item = 201444, slot = L['1h_sword']}) -- Primal Revenant's Earthblade
     },
@@ -737,7 +736,6 @@ local TitanChest = Class('TitanChest', ns.node.Node, {
     group = ns.groups.TITAN_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201048, slot = L['cosmetic']}), -- Tyrhold Epaulets
         Transmog({item = 201049, slot = L['cosmetic']}), -- Tyrhold Robe
         Transmog({item = 201050, slot = L['cosmetic']}), -- Tyrhold Leggings

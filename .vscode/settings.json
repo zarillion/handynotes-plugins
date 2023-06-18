@@ -14,5 +14,5 @@
     "files.watcherExclude": { "release/**": true },
     "lua.preferLuaCheckErrors": true,
     "lua.targetVersion": "5.3",
-    "vscode-lua-format.binaryPath": ".vscode/lua-format-wrapper"
+    // "vscode-lua-format.binaryPath": ".vscode/lua-format-wrapper"
 }
