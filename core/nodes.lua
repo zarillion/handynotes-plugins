@@ -599,7 +599,6 @@ end
 
 ns.node = {
     Collectible = Collectible,
-    Dragonrace = Dragonrace,
     Intro = Intro,
     Item = Item,
     Node = Node,
