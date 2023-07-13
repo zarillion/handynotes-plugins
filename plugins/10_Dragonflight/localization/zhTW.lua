@@ -127,7 +127,7 @@ L['options_icons_grand_hunts_desc'] = '顯示 {object:大狩獵} 的位置和獎
 
 L['ancient_stone_label'] = '遠古石頭'
 L['options_icons_ancient_stones'] = '{achievement:17560}'
-L['options_icons_ancient_stones_desc'] = '顯示 {achievement:17560} 所需的 {object:遠古石頭} 位置.'
+L['options_icons_ancient_stones_desc'] = '顯示 {achievement:17560} 成就所需的 {object:遠古石頭} 位置.'
 
 L['reed_chest'] = '蘆葦箱子'
 L['options_icons_reed_chest'] = '蘆葦箱子'
@@ -239,7 +239,7 @@ L['options_icons_tuskarr_chest'] = '巨牙海民寶箱'
 L['options_icons_tuskarr_chest_desc'] = '顯示 {object:巨牙海民寶箱} 可能的位置.'
 
 L['community_feast_label'] = '{spell:388961}'
-L['tasks_completed_suffix'] = nil
+L['tasks_completed_suffix'] = '烹飪任務已完成'
 L['options_icons_community_feast'] = '{spell:388961}'
 L['options_icons_community_feast_desc'] = '顯示 {spell:388961} 的位置和獎勵.'
 
@@ -260,7 +260,7 @@ L['naszuro_imbu'] = '在樹樁上.'
 L['naszuro_azure_archives'] = '在山的側邊一個小石頭上.'
 L['naszuro_hudsons_rock'] = '在小石丘的頂端.'
 
-L['ferry_to_iskaara'] = nil
+L['ferry_to_iskaara'] = '乘船到伊斯凱拉'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -578,7 +578,7 @@ L['living_mud_mask_note'] = [[
 回到坐在長凳上的 {npc:197232} 處, 並回報任務來取得 {item:200872}.
 ]]
 
-L['little_scales_daycare_note'] = nil
+L['little_scales_daycare_note'] = '你必須要完成橫跨多天的任務線來獲得成就和寵物, 此任務線從 {npc:197478} 所取得的任務 {quest:72664} 所開始.'
 L['naszuro_veiled_ossuary'] = '在小祭壇旁邊.'
 L['naszuro_algethar_academy'] = '在塔頂的邊柱旁.'
 L['naszuro_vault_of_the_incarnates'] = '在雕像的腳邊.'
