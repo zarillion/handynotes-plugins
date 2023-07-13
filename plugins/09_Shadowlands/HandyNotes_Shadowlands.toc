@@ -1,4 +1,4 @@
-## Interface: 100100
+## Interface: 100105
 ## Title: HandyNotes: Shadowlands
 ## Version: 56
 ## Notes: Shadowlands Notes

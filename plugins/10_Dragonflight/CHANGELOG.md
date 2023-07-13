@@ -1,3 +1,11 @@
+# v40
+
+* Added "Many Boxes, Many Rockses" achievement.
+* Added "Whelp, There It Is" achievement.
+* Added Kalimdor dragon races.
+* Added more dirt and scout pack locations.
+* Update TOC for 10.1.5
+
 # v39
 
 * Added a status label for Zaralek zone events.
