@@ -58,14 +58,6 @@ L['tuskarr_tacklebox'] = 'Cajas de Pesca Colmillar'
 L['options_icons_tuskarr_tacklebox'] = 'Cajas de Pesca Colmillar'
 L['options_icons_tuskarr_tacklebox_desc'] = 'Muestra dónde pueden haber {object:Caja de Pesca Colmillar}.'
 
-L['dr_best'] = 'Tu mejor tiempo:\n - Normal: %.3fs\n - Avanzado: %.3fs\n - Inverso: %.3fs'
-L['dr_best_dash'] = 'Tu mejor tiempo:\n - %.3fs'
-L['dr_note'] = 'Objetivo de tiempo:\n - Normal: %ss / %ss\n - Avanzado: %ss / %ss\n - Inverso: %ss / %ss'
-L['dr_note_dash'] = 'Objetivo de tiempo:\n - %ss / %ss'
-L['dr_bronze'] = '\n\nAcaba la carrera para conseguir el ' .. ns.color.Bronze('Bronce') .. '..'
-L['options_icons_dragonrace'] = 'Carreras de Dragones'
-L['options_icons_dragonrace_desc'] = 'Muestra dónde están todas las Carreras de Dragones de la zona.'
-
 L['squirrels_note'] = 'Has de teclear {emote:/amor} mientras seleccionas alimañas que no sean mascotas de combate.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:16729}.'
@@ -587,6 +579,7 @@ Aparecerá una babosa llamada {npc:198590} y huirá a una rama detrás de {npc:1
 Vuelve con {npc:198062}, que está sentado en un banco, y entrega la misión para conseguir tu {item:200872}.
 ]]
 
+L['little_scales_daycare_note'] = 'Necesitas hacer una serie de misiones durante varios días, comenzando con {quest:72664} que te da el {npc:197478}, para conseguir el logro y la mascota.'
 L['naszuro_veiled_ossuary'] = nil
 L['naszuro_algethar_academy'] = nil
 L['naszuro_vault_of_the_incarnates'] = nil

@@ -15,7 +15,6 @@ local Treasure = ns.node.Treasure
 local AncientStone = ns.node.AncientStone
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
-local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
 local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
@@ -1033,11 +1032,15 @@ map.nodes[59547954] = Disturbeddirt()
 map.nodes[62226638] = Disturbeddirt()
 map.nodes[62296972] = Disturbeddirt()
 map.nodes[62697948] = Disturbeddirt()
+map.nodes[53495975] = Disturbeddirt()
+map.nodes[56808092] = Disturbeddirt()
+map.nodes[61057953] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[23716080] = Scoutpack()
 map.nodes[35517551] = Scoutpack()
 map.nodes[35628576] = Scoutpack()
 map.nodes[36798245] = Scoutpack()
@@ -1149,118 +1152,6 @@ map.nodes[57208248] = TuskarrTacklebox()
 map.nodes[57948485] = TuskarrTacklebox()
 map.nodes[57998401] = TuskarrTacklebox()
 map.nodes[58548017] = TuskarrTacklebox()
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[57777501] = Dragonrace({
-    label = '{quest:67095}',
-    normal = {2080, 52, 49},
-    advanced = {2081, 45, 40},
-    reverse = {2194, 46, 41},
-    rewards = {
-        Achievement({id = 15924, criteria = 1, oneline = true}), -- normal bronze
-        Achievement({id = 15925, criteria = 1, oneline = true}), -- normal silver
-        Achievement({id = 15926, criteria = 1, oneline = true}), -- normal gold
-        Achievement({id = 15936, criteria = 1, oneline = true}), -- advanced bronze
-        Achievement({id = 15937, criteria = 1, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 1, oneline = true}), -- advanced gold
-        Achievement({id = 17204, criteria = 1, oneline = true}), -- reverse bronze
-        Achievement({id = 17205, criteria = 1, oneline = true}), -- reverse silver
-        Achievement({id = 17206, criteria = 1, oneline = true}) -- reverse gold
-    }
-}) -- Flowing Forest Flight
-
-map.nodes[57236690] = Dragonrace({
-    label = '{quest:69957}',
-    normal = {2092, 84, 81},
-    advanced = {2093, 80, 75},
-    reverse = {2195, 64, 59},
-    rewards = {
-        Achievement({id = 15924, criteria = 2, oneline = true}), -- normal bronze
-        Achievement({id = 15925, criteria = 2, oneline = true}), -- normal silver
-        Achievement({id = 15926, criteria = 2, oneline = true}), -- normal gold
-        Achievement({id = 15936, criteria = 2, oneline = true}), -- advanced bronze
-        Achievement({id = 15937, criteria = 2, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 2, oneline = true}), -- advanced gold
-        Achievement({id = 17204, criteria = 2, oneline = true}), -- reverse bronze
-        Achievement({id = 17205, criteria = 2, oneline = true}), -- reverse silver
-        Achievement({id = 17206, criteria = 2, oneline = true}) -- reverse gold
-    }
-}) -- Tyrhold Trial
-
-map.nodes[37654893] = Dragonrace({
-    label = '{quest:70051}',
-    normal = {2096, 72, 69},
-    advanced = {2097, 71, 66},
-    reverse = {2196, 74, 69},
-    rewards = {
-        Achievement({id = 15924, criteria = 3, oneline = true}), -- normal bronze
-        Achievement({id = 15925, criteria = 3, oneline = true}), -- normal silver
-        Achievement({id = 15926, criteria = 3, oneline = true}), -- normal gold
-        Achievement({id = 15936, criteria = 3, oneline = true}), -- advanced bronze
-        Achievement({id = 15937, criteria = 3, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 3, oneline = true}), -- advanced gold
-        Achievement({id = 17204, criteria = 3, oneline = true}), -- reverse bronze
-        Achievement({id = 17205, criteria = 3, oneline = true}), -- reverse silver
-        Achievement({id = 17206, criteria = 3, oneline = true}) -- reverse gold
-    }
-}) -- Cliffside Circuit
-
-map.nodes[60294159] = Dragonrace({
-    label = '{quest:70059}',
-    normal = {2098, 57, 54},
-    advanced = {2099, 57, 52},
-    reverse = {2197, 58, 53},
-    rewards = {
-        Achievement({id = 15924, criteria = 4, oneline = true}), -- normal bronze
-        Achievement({id = 15925, criteria = 4, oneline = true}), -- normal silver
-        Achievement({id = 15926, criteria = 4, oneline = true}), -- normal gold
-        Achievement({id = 15936, criteria = 4, oneline = true}), -- advanced bronze
-        Achievement({id = 15937, criteria = 4, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 4, oneline = true}), -- advanced gold
-        Achievement({id = 17204, criteria = 4, oneline = true}), -- reverse bronze
-        Achievement({id = 17205, criteria = 4, oneline = true}), -- reverse silver
-        Achievement({id = 17206, criteria = 4, oneline = true}) -- reverse gold
-    }
-}) -- Academy Ascent
-
-map.nodes[39517619] = Dragonrace({
-    label = '{quest:70157}',
-    normal = {2101, 64, 61},
-    advanced = {2102, 59, 54},
-    reverse = {2198, 62, 57},
-    rewards = {
-        Achievement({id = 15924, criteria = 5, oneline = true}), -- normal bronze
-        Achievement({id = 15925, criteria = 5, oneline = true}), -- normal silver
-        Achievement({id = 15926, criteria = 5, oneline = true}), -- normal gold
-        Achievement({id = 15936, criteria = 5, oneline = true}), -- advanced bronze
-        Achievement({id = 15937, criteria = 5, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 5, oneline = true}), -- advanced gold
-        Achievement({id = 17204, criteria = 5, oneline = true}), -- reverse bronze
-        Achievement({id = 17205, criteria = 5, oneline = true}), -- reverse silver
-        Achievement({id = 17206, criteria = 5, oneline = true}) -- reverse gold
-    }
-}) -- Garden Gallivant
-
-map.nodes[58053361] = Dragonrace({
-    label = '{quest:70161}',
-    normal = {2103, 53, 50},
-    advanced = {2104, 50, 45},
-    reverse = {2199, 52, 47},
-    rewards = {
-        Achievement({id = 15924, criteria = 6, oneline = true}), -- normal bronze
-        Achievement({id = 15925, criteria = 6, oneline = true}), -- normal silver
-        Achievement({id = 15926, criteria = 6, oneline = true}), -- normal gold
-        Achievement({id = 15936, criteria = 6, oneline = true}), -- advanced bronze
-        Achievement({id = 15937, criteria = 6, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 6, oneline = true}), -- advanced gold
-        Achievement({id = 17204, criteria = 6, oneline = true}), -- reverse bronze
-        Achievement({id = 17205, criteria = 6, oneline = true}), -- reverse silver
-        Achievement({id = 17206, criteria = 6, oneline = true}) -- reverse gold
-    }
-}) -- Caverns Criss-Cross
 
 -------------------------------------------------------------------------------
 --------------------- TO ALL THE SQUIRRELS HIDDEN TIL NOW ---------------------
@@ -1706,6 +1597,28 @@ map.nodes[40474531] = Collectible({
     note = L['living_mud_mask_note'],
     rewards = {Pet({item = 200872, id = 3405})}
 }) -- Pet: Living Mud Mask
+
+val.nodes[13005740] = Collectible({ -- TODO
+    label = '{achievement:18384}',
+    icon = 4719556,
+    note = L['little_scales_daycare_note'],
+    -- https://www.wowhead.com/ptr-2/achievement=18384/whelp-there-it-is#comments:id=5611653
+    requires = {
+        ns.requirement.Quest(72664), -- Eggs in Abundance
+        ns.requirement.Quest(72665), -- Whelptender's Wisdom
+        ns.requirement.Quest(72666) -- Daycare Director Agapanthus
+    },
+    rewards = {
+        Achievement({
+            id = 18384,
+            criteria = {
+                60132, 60133, 60134, 60135, 60136, 60137, 60138, 60139, 60140,
+                60141, 60142, 60143, 60144, 60145, 60146, 60147
+            }
+        }), -- Whelp, There It Is
+        Pet({item = 205165, id = 3555}) -- Axel
+    }
+}) -- Pet: "Axel" from Achievement "Whelp, There It Is"
 
 ---------------------------- PET: MOTE OF NASZ'URO ----------------------------
 

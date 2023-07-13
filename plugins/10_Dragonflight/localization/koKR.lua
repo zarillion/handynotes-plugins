@@ -57,14 +57,6 @@ L['tuskarr_tacklebox'] = nil
 L['options_icons_tuskarr_tacklebox'] = nil
 L['options_icons_tuskarr_tacklebox_desc'] = nil
 
-L['dr_best'] = '개인 최고 기록:\n - 일반: %.3f초\n - 고급: %.3f초'
-L['dr_best_dash'] = '개인 최고 기록:\n - %.3f초'
-L['dr_note'] = '목표 시간:\n - 일반: %s초 / %s초\n - 고급: %s초 / %s초'
-L['dr_note_dash'] = '목표 시간:\n - %s초 / %s초'
-L['dr_bronze'] = '\n\n경주를 완주하고 ' .. ns.color.Bronze('동메달') .. '을 획득하세요.'
-L['options_icons_dragonrace'] = '용 조련술 경주'
-L['options_icons_dragonrace_desc'] = '용 조련술 경주 위치를 표시합니다.'
-
 L['squirrels_note'] = '전투 애완동물이 아닌 동물에게 {emote:/사랑} 을 해야 합니다'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = '{achievement:16729} 업적을 위한 동물 위치를 표시합니다.'
@@ -549,6 +541,7 @@ L['options_icons_titan_chest_desc'] = nil
 
 L['living_mud_mask_note'] = nil
 
+L['little_scales_daycare_note'] = nil
 L['naszuro_veiled_ossuary'] = nil
 L['naszuro_algethar_academy'] = nil
 L['naszuro_vault_of_the_incarnates'] = nil

@@ -57,14 +57,6 @@ L['tuskarr_tacklebox'] = 'Tuskarr Tacklebox'
 L['options_icons_tuskarr_tacklebox'] = 'Tuskarr Tackleboxes'
 L['options_icons_tuskarr_tacklebox_desc'] = 'Display possible locations of {object:Tuskarr Tackleboxes}.'
 
-L['dr_best'] = 'Your best time:\n - Normal: %.3fs\n - Advanced: %.3fs\n - Reverse: %.3fs'
-L['dr_best_dash'] = 'Your best time:\n - %.3fs'
-L['dr_note'] = 'Target time:\n - Normal: %ss / %ss\n - Advanced: %ss / %ss\n - Reverse: %ss / %ss'
-L['dr_note_dash'] = 'Target time:\n - %ss / %ss'
-L['dr_bronze'] = '\n\nFinish the race to get ' .. ns.color.Bronze('Bronze') .. '.'
-L['options_icons_dragonrace'] = 'Dragonriding Races'
-L['options_icons_dragonrace_desc'] = 'Display all race locations for the zone.'
-
 L['squirrels_note'] = 'You must use the emote {emote:/love} on critters, not battle pets.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Display critter locations for {achievement:16729} achievement.'
@@ -586,6 +578,7 @@ A small slime called {npc:198590} will spawn and run away to a branch behind {np
 Go back to {npc:198062}, sitting on a bench, and turn in the quest for your {item:200872}.
 ]]
 
+L['little_scales_daycare_note'] = 'You have to do a questline over multiple days, starting with {quest:72664} from {npc:197478}, to earn this achievement and the pet.'
 L['naszuro_veiled_ossuary'] = 'Besides the small shrine.'
 L['naszuro_algethar_academy'] = 'On the ledge of the tower top.'
 L['naszuro_vault_of_the_incarnates'] = 'At the foot of the statue.'

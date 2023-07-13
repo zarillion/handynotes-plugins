@@ -598,10 +598,10 @@ end
 -------------------------------------------------------------------------------
 
 ns.node = {
-    Node = Node,
     Collectible = Collectible,
     Intro = Intro,
     Item = Item,
+    Node = Node,
     NPC = NPC,
     PetBattle = PetBattle,
     Quest = Quest,

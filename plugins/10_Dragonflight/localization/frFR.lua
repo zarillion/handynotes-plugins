@@ -58,14 +58,6 @@ L['tuskarr_tacklebox'] = 'Boîte d\'appâts de pêche roharts'
 L['options_icons_tuskarr_tacklebox'] = 'Boîtes d\'appâts de pêche roharts'
 L['options_icons_tuskarr_tacklebox_desc'] = 'Afficher les emplacements possibles des {object:Boîtes d\'appâts de pêche roharts}.'
 
-L['dr_best'] = 'Votre meilleur temps :\n - Normal : %.3fs\n - Avancé : %.3fs\n - Inversé : %.3fs'
-L['dr_best_dash'] = 'Votre meilleur temps :\n - %.3fs'
-L['dr_note'] = 'Temps imparti :\n - Normal : %ss / %ss\n - Avancé : %ss / %ss\n - Inversé : %ss / %ss'
-L['dr_note_dash'] = 'Temps imparti :\n - %ss / %ss'
-L['dr_bronze'] = '\n\nTerminez la course pour obtenir ' .. ns.color.Bronze('Bronze') .. '.'
-L['options_icons_dragonrace'] = 'Courses du Vol à dos de dragon'
-L['options_icons_dragonrace_desc'] = 'Afficher les emplacements de toutes les courses dans la zone.'
-
 L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:16729}.'
@@ -587,6 +579,7 @@ Un petit slime nommé {npc:198590} apparaîtra et s'enfuira vers une branche sit
 Revenez voir {npc:198062}, assis sur un banc, et rendez la quête pour obtenir votre {item:200872}.
 ]]
 
+L['little_scales_daycare_note'] = 'Vous devez réaliser une suite de quêtes sur plusieurs jours, en commençant par {quest:72664} donnée par le {npc:197478}, pour obtenir ce haut-fait et cette mascotte.'
 L['naszuro_veiled_ossuary'] = 'A côté du petit sanctuaire.'
 L['naszuro_algethar_academy'] = 'Sur le rebord au sommet de la tour.'
 L['naszuro_vault_of_the_incarnates'] = 'Au pied de la statue.'

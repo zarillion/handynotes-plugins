@@ -57,14 +57,6 @@ L['tuskarr_tacklebox'] = 'Angelzubehör der Tuskarr'
 L['options_icons_tuskarr_tacklebox'] = 'Angelzubehör der Tuskarr'
 L['options_icons_tuskarr_tacklebox_desc'] = 'Zeigt die möglichen Positionen für {object:Angelzubehör der Tuskarr} an.'
 
-L['dr_best'] = 'Deine beste Zeit:\n - Normal: %.3fs\n - Fortgeschritten: %.3fs\n - Rückwärts: %.3fs'
-L['dr_best_dash'] = 'Deine beste Zeit:\n - %.3fs'
-L['dr_note'] = 'Vorgabezeit:\n - Normal: %ss / %ss\n - Fortgeschritten: %ss / %ss\n - Rückwärts: %ss / %ss'
-L['dr_note_dash'] = 'Vorgabezeit:\n - %ss / %ss'
-L['dr_bronze'] = '\n\nBeende das Rennen um ' .. ns.color.Bronze('Bronze') .. ' zu erhalten.'
-L['options_icons_dragonrace'] = 'Drachenrennen'
-L['options_icons_dragonrace_desc'] = 'Zeigt die Positionen der Drachenrennen an.'
-
 L['squirrels_note'] = 'Du musst das Emote {emote:/liebe} auf Kleintiere anwenden (KEINE Kampfhaustiere).'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:16729} an.'
@@ -589,6 +581,7 @@ Verfolge die erscheinende {npc:198590} bis auf einen Ast hinter {npc:197232}. We
 Geh zu {npc:198062} und schließe die Quest ab, um {item:200872} zu erhalten.
 ]]
 
+L['little_scales_daycare_note'] = 'Du musst eine Questlinie über mehrere tage abschließen, startend mit {quest:72664} von {npc:197478}, um diesen Erfolg und das Haustier zu erhalten.'
 L['naszuro_veiled_ossuary'] = 'Neben dem kleinen Schrein.'
 L['naszuro_algethar_academy'] = 'Auf dem Vorsprung der Turmspitze.'
 L['naszuro_vault_of_the_incarnates'] = 'Neben dem Fuß der Statue.'

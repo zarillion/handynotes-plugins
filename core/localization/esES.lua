@@ -91,6 +91,18 @@ L['time_format_12hrs'] = '%I:%M %p - %d/%m Hora local'
 L['time_format_24hrs'] = '%H:%M - %d/%m Hora local'
 
 -------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+L['dr_best'] = 'Tu mejor tiempo:\n - Normal: %.3fs\n - Avanzado: %.3fs\n - Inverso: %.3fs'
+L['dr_best_dash'] = 'Tu mejor tiempo:\n - %.3fs'
+L['dr_note'] = 'Objetivo de tiempo:\n - Normal: %ss / %ss\n - Avanzado: %ss / %ss\n - Inverso: %ss / %ss'
+L['dr_note_dash'] = 'Objetivo de tiempo:\n - %ss / %ss'
+L['dr_bronze'] = '\n\nAcaba la carrera para conseguir el ' .. ns.color.Bronze('Bronce') .. '.'
+L['options_icons_dragonrace'] = 'Carreras de Dragones'
+L['options_icons_dragonrace_desc'] = 'Muestra dónde están todas las Carreras de Dragones de la zona.'
+
+-------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
 -------------------------------------------------------------------------------
 

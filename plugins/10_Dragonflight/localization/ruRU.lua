@@ -58,14 +58,6 @@ L['tuskarr_tacklebox'] = 'Клыкаррские рыболовные снаст
 L['options_icons_tuskarr_tacklebox'] = 'Клыкаррские рыболовные снасти'
 L['options_icons_tuskarr_tacklebox_desc'] = 'Показать возможные места {object:Клыкаррских рыболовных снастей}.'
 
-L['dr_best'] = 'Ваше лучшее время:\n - Обычный: %.3fс\n - Сложный: %.3fс\n - Обратный маршрут: %.3fс'
-L['dr_best_dash'] = 'Ваше лучшее время:\n - %.3fс'
-L['dr_note'] = 'Отведенное время:\n - Обычный: %sс / %sс\n - Сложный: %sс / %sс\n - Обратный маршрут: %sс / %sс'
-L['dr_note_dash'] = 'Отведенное время:\n - %sс / %sс'
-L['dr_bronze'] = '\n\nЗавершите гонку, чтобы получить ' .. ns.color.Bronze('Бронзу') .. '.'
-L['options_icons_dragonrace'] = 'Гонка на драконах'
-L['options_icons_dragonrace_desc'] = 'Отображение местоположения гонок на драконах.'
-
 L['squirrels_note'] = 'Вы должны использовать эмоцию {emote:/любовь} на зверьках, а не на боевых питомцах.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Места появления зверьков для {achievement:16729}'
@@ -588,6 +580,7 @@ L['living_mud_mask_note'] = [[
 Вернитесь к {npc:198062}, сидящему на скамейке, и сдайте задание получив {item:200872}.
 ]]
 
+L['little_scales_daycare_note'] = nil
 L['naszuro_veiled_ossuary'] = 'Кроме маленькой святыни.'
 L['naszuro_algethar_academy'] = 'На выступе вершины башни.'
 L['naszuro_vault_of_the_incarnates'] = 'У подножия статуи.'

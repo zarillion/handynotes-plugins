@@ -13,7 +13,6 @@ local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 
 local Dragonglyph = ns.node.Dragonglyph
-local Dragonrace = ns.node.Dragonrace
 local Flag = ns.node.Flag
 local SignalTransmitter = ns.node.SignalTransmitter
 
@@ -685,118 +684,6 @@ map.nodes[37743063] = Dragonglyph({
 }) -- Forbidden Reach Glyph Hunter: Caldera of the Menders
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[76136563] = Dragonrace({
-    label = '{quest:73017}',
-    normal = {2201, 46, 43},
-    advanced = {2207, 47, 42},
-    reverse = {2213, 47, 42},
-    rewards = {
-        Achievement({id = 17279, criteria = 1, oneline = true}), -- normal bronze
-        Achievement({id = 17280, criteria = 1, oneline = true}), -- normal silver
-        Achievement({id = 17281, criteria = 1, oneline = true}), -- normal gold
-        Achievement({id = 17284, criteria = 1, oneline = true}), -- advanced bronze
-        Achievement({id = 17286, criteria = 1, oneline = true}), -- advanced silver
-        Achievement({id = 17287, criteria = 1, oneline = true}), -- advanced gold
-        Achievement({id = 17288, criteria = 1, oneline = true}), -- reverse bronze
-        Achievement({id = 17289, criteria = 1, oneline = true}), -- reverse silver
-        Achievement({id = 17290, criteria = 1, oneline = true}) -- reverse gold
-    }
-}) -- Stormsunder Crater Circuit
-
-map.nodes[31326573] = Dragonrace({
-    label = '{quest:73020}',
-    normal = {2202, 55, 52},
-    advanced = {2208, 54, 49},
-    reverse = {2214, 58, 53},
-    rewards = {
-        Achievement({id = 17279, criteria = 2, oneline = true}), -- normal bronze
-        Achievement({id = 17280, criteria = 2, oneline = true}), -- normal silver
-        Achievement({id = 17281, criteria = 2, oneline = true}), -- normal gold
-        Achievement({id = 17284, criteria = 2, oneline = true}), -- advanced bronze
-        Achievement({id = 17286, criteria = 2, oneline = true}), -- advanced silver
-        Achievement({id = 17287, criteria = 2, oneline = true}), -- advanced gold
-        Achievement({id = 17288, criteria = 2, oneline = true}), -- reverse bronze
-        Achievement({id = 17289, criteria = 2, oneline = true}), -- reverse silver
-        Achievement({id = 17290, criteria = 2, oneline = true}) -- reverse gold
-    }
-}) -- Morqut Ascent
-
-map.nodes[63095195] = Dragonrace({
-    label = '{quest:73025}',
-    normal = {2203, 56, 53},
-    advanced = {2209, 55, 50},
-    reverse = {2215, 55, 50},
-    rewards = {
-        Achievement({id = 17279, criteria = 3, oneline = true}), -- normal bronze
-        Achievement({id = 17280, criteria = 3, oneline = true}), -- normal silver
-        Achievement({id = 17281, criteria = 3, oneline = true}), -- normal gold
-        Achievement({id = 17284, criteria = 3, oneline = true}), -- advanced bronze
-        Achievement({id = 17286, criteria = 3, oneline = true}), -- advanced silver
-        Achievement({id = 17287, criteria = 3, oneline = true}), -- advanced gold
-        Achievement({id = 17288, criteria = 3, oneline = true}), -- reverse bronze
-        Achievement({id = 17289, criteria = 3, oneline = true}), -- reverse silver
-        Achievement({id = 17290, criteria = 3, oneline = true}) -- reverse gold
-    }
-}) -- Aerie Chasm Cruise
-
-map.nodes[63658406] = Dragonrace({
-    label = '{quest:73029}',
-    normal = {2204, 73, 70},
-    advanced = {2210, 73, 68},
-    reverse = {2216, 68, 63},
-    rewards = {
-        Achievement({id = 17279, criteria = 4, oneline = true}), -- normal bronze
-        Achievement({id = 17280, criteria = 4, oneline = true}), -- normal silver
-        Achievement({id = 17281, criteria = 4, oneline = true}), -- normal gold
-        Achievement({id = 17284, criteria = 4, oneline = true}), -- advanced bronze
-        Achievement({id = 17286, criteria = 4, oneline = true}), -- advanced silver
-        Achievement({id = 17287, criteria = 4, oneline = true}), -- advanced gold
-        Achievement({id = 17288, criteria = 4, oneline = true}), -- reverse bronze
-        Achievement({id = 17289, criteria = 4, oneline = true}), -- reverse silver
-        Achievement({id = 17290, criteria = 4, oneline = true}) -- reverse gold
-    }
-}) -- Southern Reach Route
-
-map.nodes[41361455] = Dragonrace({
-    label = '{quest:73033}',
-    normal = {2205, 61, 58},
-    advanced = {2211, 61, 58},
-    reverse = {2217, 55, 50},
-    rewards = {
-        Achievement({id = 17279, criteria = 5, oneline = true}), -- normal bronze
-        Achievement({id = 17280, criteria = 5, oneline = true}), -- normal silver
-        Achievement({id = 17281, criteria = 5, oneline = true}), -- normal gold
-        Achievement({id = 17284, criteria = 5, oneline = true}), -- advanced bronze
-        Achievement({id = 17286, criteria = 5, oneline = true}), -- advanced silver
-        Achievement({id = 17287, criteria = 5, oneline = true}), -- advanced gold
-        Achievement({id = 17288, criteria = 5, oneline = true}), -- reverse bronze
-        Achievement({id = 17289, criteria = 5, oneline = true}), -- reverse silver
-        Achievement({id = 17290, criteria = 5, oneline = true}) -- reverse gold
-    }
-}) -- Caldera Coaster
-
-map.nodes[49426006] = Dragonrace({
-    label = '{quest:73061}',
-    normal = {2206, 62, 59},
-    advanced = {2212, 61, 58},
-    reverse = {2218, 61, 58},
-    rewards = {
-        Achievement({id = 17279, criteria = 6, oneline = true}), -- normal bronze
-        Achievement({id = 17280, criteria = 6, oneline = true}), -- normal silver
-        Achievement({id = 17281, criteria = 6, oneline = true}), -- normal gold
-        Achievement({id = 17284, criteria = 6, oneline = true}), -- advanced bronze
-        Achievement({id = 17286, criteria = 6, oneline = true}), -- advanced silver
-        Achievement({id = 17287, criteria = 6, oneline = true}), -- advanced gold
-        Achievement({id = 17288, criteria = 6, oneline = true}), -- reverse bronze
-        Achievement({id = 17289, criteria = 6, oneline = true}), -- reverse silver
-        Achievement({id = 17290, criteria = 6, oneline = true}) -- reverse gold
-    }
-}) -- Forbidden Reach Rush
-
--------------------------------------------------------------------------------
 ------------------------------- FORBIDDEN HOARD -------------------------------
 -------------------------------------------------------------------------------
 
@@ -1233,6 +1120,21 @@ function MossyMammoth.getters:note()
 end
 
 map.nodes[30267800] = MossyMammoth()
+
+------------------------- TOY: TINY BOX OF TINY ROCKS -------------------------
+
+map.nodes[30268000] = Collectible({
+    label = '{achievement:18559}',
+    location = L['in_zskera_vaults'],
+    icon = 132762,
+    note = L['tiny_box_of_tiny_rocks_note'], -- TODO: can also be less often found in the waking shores
+    fgroup = 'zskera_vaults',
+    group = ns.groups.ZSKERA_VAULTS,
+    rewards = {
+        Achievement({id = 18559, criteria = {id = 1, qty = true}}), -- Many Boxes, Many Rockses
+        Toy({item = 207099}) -- Tiny Box of Tiny Rocks
+    }
+}) -- TOY: Tiny Box of Tiny Rocks
 
 -------------------------------------------------------------------------------
 ------------------ DRAGONSCALE EXPEDITION: THE HIGHEST PEAKS ------------------
