@@ -194,9 +194,10 @@ map.nodes[45673327] = Rare({
         Achievement({id = 17783, criteria = 59200}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59499}), -- Cavern Clawbbering
         Transmog({item = 205297, slot = L['cloth']}), -- Flamewielder's Trousers
+        Toy({item = 205796}), -- Molten Lava Pack
         DC.WindingSlitherdrake.WhiteHorns
     }
-}) -- Invohq
+}) -- Invoq
 
 map.nodes[28515115] = Rare({
     id = 203646,
@@ -665,6 +666,7 @@ map.nodes[37056988] = SmellyTrashPile()
 map.nodes[37403969] = SmellyTrashPile()
 map.nodes[37458125] = SmellyTrashPile()
 map.nodes[39377663] = SmellyTrashPile()
+map.nodes[39438318] = SmellyTrashPile()
 map.nodes[40155751] = SmellyTrashPile()
 map.nodes[40415197] = SmellyTrashPile()
 map.nodes[40613568] = SmellyTrashPile()
@@ -672,7 +674,6 @@ map.nodes[42014541] = SmellyTrashPile()
 map.nodes[43163817] = SmellyTrashPile()
 map.nodes[43552886] = SmellyTrashPile()
 map.nodes[43618578] = SmellyTrashPile()
-map.nodes[39438318] = SmellyTrashPile()
 map.nodes[44686196] = SmellyTrashPile()
 map.nodes[45177786] = SmellyTrashPile()
 map.nodes[45384348] = SmellyTrashPile()
@@ -692,6 +693,7 @@ map.nodes[57047087] = SmellyTrashPile()
 map.nodes[57476456] = SmellyTrashPile()
 map.nodes[59225178] = SmellyTrashPile()
 map.nodes[60195755] = SmellyTrashPile()
+map.nodes[61146860] = SmellyTrashPile()
 map.nodes[62325600] = SmellyTrashPile()
 
 -------------------------------------------------------------------------------
@@ -963,20 +965,34 @@ map.nodes[55625745] = Collectible({
     id = 203773,
     icon = 5140835,
     requires = {
-        ns.requirement.Quest(74876), -- The Buddy System
-        -- TODO: These quests are stored just in case and we probably won't
-        -- use then. I pulled them from the the PTR Wowhead page while I could.
-        ns.requirement.Quest(75765), ns.requirement.Quest(75766),
-        ns.requirement.Quest(75767), ns.requirement.Quest(75768),
-        ns.requirement.Quest(75769), ns.requirement.Quest(75770),
-        ns.requirement.Quest(75771), ns.requirement.Quest(75772),
-        ns.requirement.Quest(75774)
+        ns.requirement.Quest(74876) -- The Buddy System
+        -- Are part of the Sniffen Sage Achievement:
+        -- ns.requirement.Quest(75765), -- Liquid Art
+        -- ns.requirement.Quest(75766), -- Ruby in the Rough
+        -- ns.requirement.Quest(75767), -- Good Time Boy
+        -- ns.requirement.Quest(75768), -- Lucky Ducky
+        -- ns.requirement.Quest(75769), -- Drawing a Blank
+        -- ns.requirement.Quest(75770), -- A Glass of Bubbly
+        -- ns.requirement.Quest(75771), -- Incense Replay
+        -- ns.requirement.Quest(75772), -- Flask Manager
+        -- ns.requirement.Quest(75774) --- doesnt exist or is a hidden tracking quest
     },
     rewards = {
         Achievement({
+            id = 18257,
+            criteria = {id = 1, qty = true, suffix = L['sniffen_digs_suffix']}
+        }), -- Can You Dig It?
+        Achievement({
             id = 17833,
             criteria = {id = 1, qty = true, suffix = L['sniffen_sage_suffix']}
-        }) -- Sniffen Sage
+        }), -- Sniffen Sage
+        Achievement({
+            id = 18255,
+            criteria = {
+                59744, 59745, 59746, 59747, 59749, 59750, 59751, 59752, 59753,
+                59754, 59755, 59756, 59757, 59758, 59759, 59760
+            }
+        }) -- Proof of Myrrit
     }
 }) -- Myrrit <Sniffenseeker>
 

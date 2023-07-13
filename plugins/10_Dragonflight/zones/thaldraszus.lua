@@ -679,7 +679,6 @@ tpf.nodes[28002590] = ns.node.ElementalChest({
     rewards = {
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 199906}), -- Centaur Hunting Trophy
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201443, slot = L['shield']}), -- Primal Revenant's Icewall
         Transmog({item = 201444, slot = L['1h_sword']}) -- Primal Revenant's Earthblade
     },
@@ -736,7 +735,6 @@ local TitanChest = Class('TitanChest', ns.node.Node, {
     group = ns.groups.TITAN_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201048, slot = L['cosmetic']}), -- Tyrhold Epaulets
         Transmog({item = 201049, slot = L['cosmetic']}), -- Tyrhold Robe
         Transmog({item = 201050, slot = L['cosmetic']}), -- Tyrhold Leggings
@@ -1015,18 +1013,21 @@ map.nodes[39768205] = Disturbeddirt()
 map.nodes[46767747] = Disturbeddirt()
 map.nodes[49514830] = Disturbeddirt()
 map.nodes[49894474] = Disturbeddirt()
+map.nodes[53335123] = Disturbeddirt()
 map.nodes[53398748] = Disturbeddirt()
 map.nodes[53997921] = Disturbeddirt()
 map.nodes[54067537] = Disturbeddirt()
 map.nodes[54273978] = Disturbeddirt()
 map.nodes[54433376] = Disturbeddirt()
+map.nodes[55227461] = Disturbeddirt()
 map.nodes[55588459] = Disturbeddirt()
 map.nodes[55756743] = Disturbeddirt()
 map.nodes[55918384] = Disturbeddirt()
+map.nodes[56005307] = Disturbeddirt()
 map.nodes[56957403] = Disturbeddirt()
-map.nodes[59532835] = Disturbeddirt()
 map.nodes[57118079] = Disturbeddirt()
 map.nodes[57458105] = Disturbeddirt()
+map.nodes[59532835] = Disturbeddirt()
 map.nodes[59547954] = Disturbeddirt()
 map.nodes[62226638] = Disturbeddirt()
 map.nodes[62296972] = Disturbeddirt()
@@ -1055,7 +1056,9 @@ map.nodes[48185655] = Scoutpack()
 map.nodes[49047926] = Scoutpack()
 map.nodes[50098074] = Scoutpack()
 map.nodes[50844623] = Scoutpack()
+map.nodes[52587680] = Scoutpack({location = L['in_small_cave']})
 map.nodes[52758333] = Scoutpack()
+map.nodes[54205535] = Scoutpack()
 map.nodes[54837958] = Scoutpack()
 map.nodes[55413167] = Scoutpack()
 map.nodes[55456797] = Scoutpack()
@@ -1616,6 +1619,29 @@ val.nodes[13005740] = Collectible({ -- TODO
         Pet({item = 205165, id = 3555}) -- Axel
     }
 }) -- Pet: "Axel" from Achievement "Whelp, There It Is"
+
+---------------------------- PET: MOTE OF NASZ'URO ----------------------------
+
+map.nodes[62711323] = ns.node.MoteOfNaszuro({
+    quest = 76189,
+    note = L['naszuro_veiled_ossuary']
+}) -- Veiled Ossuary
+map.nodes[61234074] = ns.node.MoteOfNaszuro({
+    quest = 76190,
+    note = L['naszuro_algethar_academy']
+}) -- Algeth'ar Academy
+map.nodes[72885505] = ns.node.MoteOfNaszuro({
+    quest = 76191,
+    note = L['naszuro_vault_of_the_incarnates']
+}) -- Vault of the Incarnates
+map.nodes[70876985] = ns.node.MoteOfNaszuro({
+    quest = 76192,
+    note = L['naszuro_thaldraszus_peak']
+}) -- Thaldraszus Peak
+map.nodes[62618507] = ns.node.MoteOfNaszuro({
+    quest = 76193,
+    note = L['naszuro_temporal_conflux']
+}) -- Temporal Conflux
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 

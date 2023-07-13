@@ -240,6 +240,7 @@ L['options_icons_tuskarr_chest'] = 'Kisten der Tuskarr'
 L['options_icons_tuskarr_chest_desc'] = 'Zeigt die möglichen Positionen für {object:Kiste der Tuskarr} an.'
 
 L['community_feast_label'] = '{spell:386441}'
+L['tasks_completed_suffix'] = 'Kochaufgaben abgeschlossen'
 L['options_icons_community_feast'] = '{spell:386441}'
 L['options_icons_community_feast_desc'] = 'Zeigt die Position und Belohnungen des {spell:386441s}'
 
@@ -254,6 +255,13 @@ L['options_icons_icemaw_storage_cache_desc'] = 'Zeigt die möglichen Positionen 
 L['kazzi_note_start'] = 'Tausche {item:202017} und {item:202018} für Ausrüstungsvorlagen, Drachenanpassungen, ein Haustier und mehr ein.'
 L['kazzi_note_item'] = 'Zurzeit hast du %s {item:%s}.'
 L['kazzi_achievement_suffix'] = 'Rang in der Sprache der Winterpelze'
+
+L['naszuro_vakthros'] = 'In der Spitze des Turms.'
+L['naszuro_imbu'] = 'Auf dem Baumstumpf.'
+L['naszuro_azure_archives'] = 'An der Seite des Berges, auf einem kleinen Felsen.'
+L['naszuro_hudsons_rock'] = 'Oben auf dem kleinen felsigen Hügel.'
+
+L['ferry_to_iskaara'] = 'Boot nach Iskaara'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -385,6 +393,8 @@ L['renown_envoy_label'] = 'Rufabgesandte'
 L['renown_envoy_note'] = 'Tausche {currency:2118} oder Gold gegen Reittiere, Haustiere, Ausrüstungsvorlagen, Drachenanpassungen, Rezepte und andere nützliche Gegenstände ein.'
 L['trader_hagarth_note'] = 'Tausche {item:190456} gegen Rezepte ein.'
 
+L['naszuro_caldera_of_the_menders'] = 'Oben im Turm.'
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -488,6 +498,9 @@ L['options_icons_lightning_bound_chest_desc'] = 'Zeigt die möglichen Positionen
 
 L['bloodgullet_note'] = 'Hol dir in einem Zelt am {location:Baumschrittaußenposten} von der {object:Essenz des Erwachens} den Stärkungszauber {spell:369277} (1 Stunde), um die Geisterbestie sehen zu können.\n\n{note:Erscheint nur für Tierherrschafts-Jäger.}'
 
+L['naszuro_windsong_rise'] = 'Oben auf der Steinsäule.'
+L['naszuro_emerald_gardens'] = 'Im Gras neben dem Wasserfall.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -569,6 +582,11 @@ Geh zu {npc:198062} und schließe die Quest ab, um {item:200872} zu erhalten.
 ]]
 
 L['little_scales_daycare_note'] = 'Du musst eine Questlinie über mehrere tage abschließen, startend mit {quest:72664} von {npc:197478}, um diesen Erfolg und das Haustier zu erhalten.'
+L['naszuro_veiled_ossuary'] = 'Neben dem kleinen Schrein.'
+L['naszuro_algethar_academy'] = 'Auf dem Vorsprung der Turmspitze.'
+L['naszuro_vault_of_the_incarnates'] = 'Neben dem Fuß der Statue.'
+L['naszuro_thaldraszus_peak'] = 'Auf einem Nebengipfel des Berges.'
+L['naszuro_temporal_conflux'] = 'Auf dem Kopf der Drachenstatue.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -732,7 +750,12 @@ Benutze die Halskette und sammle {item:202062} {dot:Red} die sich in der Umgebun
 ]]
 L['phoenix_wishwing_info'] = 'Dies ist teil des {item:193373} in {location:Küste des Erwachens} auf den {location:Dracheninseln}.'
 
-L['bugbiter_tortoise_note'] = 'Sammle {item:202082}({dot:Red}) und {item:202084}({dot:Green}) und tausche sie bei {npc:187077} gegen {item:202085} ein.\n\nDamit {npc:187077} erscheint muss die Weltquest {quest:66070} aktiv sein.'
+L['bugbiter_tortoise_note'] = 'Sammle {item:202082}({dot:Red}) und {item:202084}({dot:Green}) und tausche sie bei {npc:187077} gegen {item:202085} ein.\n\nDamit {npc:187077} erscheint muss die Weltquest {wq:Leuchtklinges Knochen} aktiv sein.'
+
+L['naszuro_apex_canopy'] = 'Auf einem kleinen Pfeiler der Treppe.'
+L['naszuro_obsidian_throne'] = 'Auf der linken Seite des Throns, wo sich {npc:185894} und {npc:187495} befinden.'
+L['naszuro_ruby_lifeshrine'] = 'Unter der Klaue der Drachenstatue.'
+L['naszuro_dragonheart_outpost'] = 'In den Ästen des Baumes.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
@@ -768,6 +791,7 @@ L['molten_scoutbot_note'] = 'Öffne den {object:Geschmolzenen Späherbot} und pl
 L['bolts_and_brass_note'] = 'Öffne {object:Bolzen und Bronze} und plündere {item:204850}.'
 
 L['sniffen_sage_suffix'] = 'Spezialgegenstände erschnüffelt'
+L['sniffen_digs_suffix'] = 'Schnüffelsucher-Grabungen abgeschlossen'
 
 L['big_slick_note'] = 'Schließe bei {npc:201752} tägliche Quests ab, um bei der Fraktion {faction:2568} die Rufstufe "Professionell" (insgesamt 2800 Ruf) zu erreichen, um dein Reittier zu erhalten.\n\nOder zeige ihm die folgenden Schnecken (Haustiere) auf Stufe 25, um jeweils 100 Ruf zu erhalten:'
 L['grogul_note'] = 'Sprich mit {npc:204672} und wähle ein Leckerli aus, das du benutzen kannst, die Schnecke zu ermutigen sich schneller fortzubewegen.\n{note:Der Erfolg kann vor Ruhmstufe 7 erlangt werden.}'
@@ -789,4 +813,4 @@ L['zaralek_event_active'] = ns.color.Blue('Dieses Ereignis kann heute starten.')
 L['zaralek_event_inactive'] = ns.color.Orange('Dieses Ereignis wird heute nicht starten, komm morgen wieder.')
 
 L['options_icons_zone_event'] = 'Zonen-Ereignisse'
-L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse'
+L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse an.'

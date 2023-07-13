@@ -1093,8 +1093,11 @@ map.nodes[65732814] = LeyLine({
 -------------------------------------------------------------------------------
 
 map.nodes[13503833] = Disturbeddirt({location = L['in_small_cave']})
+map.nodes[14182155] = Disturbeddirt()
+map.nodes[15432158] = Disturbeddirt()
 map.nodes[19214047] = Disturbeddirt()
 map.nodes[19225097] = Disturbeddirt()
+map.nodes[20052526] = Disturbeddirt()
 map.nodes[23716772] = Disturbeddirt()
 map.nodes[29872621] = Disturbeddirt()
 map.nodes[33704685] = Disturbeddirt()
@@ -1184,7 +1187,6 @@ local TuskarrChest = Class('TuskarrChest', ns.node.Node, {
     group = ns.groups.TUSKARR_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201372, slot = L['cosmetic']}), -- Imbu Tuskarr Axe
         Transmog({item = 201373, slot = L['cosmetic']}), -- Imbu Net Cutter
         Transmog({item = 201374, slot = L['cosmetic']}), -- Tuskarr Fishing Pike
@@ -1224,7 +1226,6 @@ local DecayCoveredChest = Class('DecayCoveredChest', ns.node.Node, {
     group = ns.groups.DECAY_COVERED_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201365, slot = L['cosmetic']}), -- Brackenhide Gnoll Guard
         Transmog({item = 201370, slot = L['cosmetic']}), -- Brackenhide Skullcracker
         Transmog({item = 201369, slot = L['cosmetic']}), -- Hollow Greatwood Pestilence
@@ -1342,7 +1343,6 @@ local IcemawStorageCache = Class('IcemawStorageCache', ns.node.Node, {
     group = ns.groups.ICEMAW_STORAGE_CACHE,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199068, quest = 70537}), -- Time-Lost Memo
         Item({item = 199065, quest = 70534}), -- Sorrowful Letter
@@ -1673,12 +1673,15 @@ local COMMUNITY_FEAST_AREA_POIS = {
 
 local COMMUNITY_FEAST_REWARDS = {
     Achievement({id = 16444}), -- Leftovers Revenge
+    Achievement({
+        id = 16443,
+        criteria = {id = 1, qty = true, suffix = L['tasks_completed_suffix']}
+    }), -- Soupervisor
     Recipe({item = 198131, profession = 185}), -- Recipe: Gral's Devotion
     Recipe({item = 198129, profession = 185}), -- Recipe: Gral's Reverence
     Recipe({item = 198130, profession = 185}), -- Recipe: Gral's Veneration
     Transmog({item = 200882, slot = L['cosmetic']}), -- Big Kinook's Spare Ladle
     ns.reward.Spacer(), Item({item = 200652}), -- Alchemical Flavor Pocket
-    Item({item = 190454}), -- Primal Chaos
     Item({item = 192055}), -- Dragon Isles Artifact
     Item({item = 200071}) -- Sacred Tuskarr Totem
 }
@@ -1930,6 +1933,34 @@ map.nodes[46202580] = Collectible({
         Toy({item = 200628}) -- Somewhat-Stabilized Arcana
     }
 })
+
+---------------------------- PET: MOTE OF NASZ'URO ----------------------------
+
+map.nodes[78843413] = ns.node.MoteOfNaszuro({
+    quest = 76178,
+    note = L['naszuro_vakthros']
+}) -- Vakthros
+map.nodes[61577143] = ns.node.MoteOfNaszuro({
+    quest = 76179,
+    note = L['naszuro_imbu']
+}) -- Imbu
+map.nodes[36405646] = ns.node.MoteOfNaszuro({
+    quest = 76180,
+    note = L['naszuro_azure_archives']
+}) -- Azure Archives
+map.nodes[08235308] = ns.node.MoteOfNaszuro({
+    quest = 76181,
+    note = L['naszuro_hudsons_rock']
+}) -- Hudson's Rock
+
+------------------------------- BOAT TO ISKAARA -------------------------------
+
+map.nodes[73677052] = Node({
+    icon = 'ferry',
+    scale = 1.5,
+    label = L['ferry_to_iskaara'],
+    pois = {ns.poi.Arrow({73677052, 13845047})}
+}) -- Boat to Iskaara
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 

@@ -239,6 +239,7 @@ L['options_icons_tuskarr_chest'] = 'Tuskarr Chests'
 L['options_icons_tuskarr_chest_desc'] = 'Display possible locations of {object:Tuskarr Chests}.'
 
 L['community_feast_label'] = 'Community Feast'
+L['tasks_completed_suffix'] = 'cooking tasks completed'
 L['options_icons_community_feast'] = 'Community Feast'
 L['options_icons_community_feast_desc'] = 'Display location and rewards for the Community Feast.'
 
@@ -253,6 +254,13 @@ L['options_icons_icemaw_storage_cache_desc'] = 'Display possible locations of {o
 L['kazzi_note_start'] = 'Exchange {item:202017} and {item:202018} for transmog, drake customization, a pet, and more.'
 L['kazzi_note_item'] = 'You currently have %s {item:%s}.'
 L['kazzi_achievement_suffix'] = 'rank in the Winterpelt language'
+
+L['naszuro_vakthros'] = 'In the top of the tower.'
+L['naszuro_imbu'] = 'On the tree stump.'
+L['naszuro_azure_archives'] = 'On the side of the mountain, on a small rock.'
+L['naszuro_hudsons_rock'] = 'On top of the small rocky hill.'
+
+L['ferry_to_iskaara'] = 'Boat to Iskaara'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -384,6 +392,8 @@ L['renown_envoy_label'] = 'Renown Envoys'
 L['renown_envoy_note'] = 'Exchange {currency:2118} or gold for mounts, pets, transmog, drake customization, recipes and other useful items.\n\nPurchase {item:204383} from {npc:200566} for 2000x {currency:2118} for a chance at {item:191915}.'
 L['trader_hagarth_note'] = 'Exchange {item:190456} for Artisan Curio recipes.'
 
+L['naszuro_caldera_of_the_menders'] = 'On top of the tower.'
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -487,6 +497,9 @@ L['options_icons_lightning_bound_chest_desc'] = 'Display possible locations of {
 
 L['bloodgullet_note'] = 'Get the {spell:369277} buff (1 hour) in a tent at the {location:Timberstep Outpost} from {object:Essence of Awakening} to see this Spirit Beast.\n\n{note:Only appears to Beast Mastery Hunters.}'
 
+L['naszuro_windsong_rise'] = 'On top of the rock pillar.'
+L['naszuro_emerald_gardens'] = 'On the grass besides the waterfall.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -566,6 +579,11 @@ Go back to {npc:198062}, sitting on a bench, and turn in the quest for your {ite
 ]]
 
 L['little_scales_daycare_note'] = 'You have to do a questline over multiple days, starting with {quest:72664} from {npc:197478}, to earn this achievement and the pet.'
+L['naszuro_veiled_ossuary'] = 'Besides the small shrine.'
+L['naszuro_algethar_academy'] = 'On the ledge of the tower top.'
+L['naszuro_vault_of_the_incarnates'] = 'At the foot of the statue.'
+L['naszuro_thaldraszus_peak'] = 'On a secondary peak of the mountain.'
+L['naszuro_temporal_conflux'] = 'On the head of the dragon statue.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -730,7 +748,12 @@ Use this necklace and pick up {item:202062} {dot:Red} found within the {location
 ]]
 L['phoenix_wishwing_info'] = 'This is part of the {item:193373} Collectible located in {location:The Waking Shore} on the {location:Dragon Isles}.'
 
-L['bugbiter_tortoise_note'] = 'Collect {item:202082}({dot:Red}) and {item:202084}({dot:Green}) and exchange it at {npc:187077} for your {item:202085}.\n\n{npc:187077} requires the world quest {quest:66070} to be active.'
+L['bugbiter_tortoise_note'] = 'Collect {item:202082}({dot:Red}) and {item:202084}({dot:Green}) and exchange it at {npc:187077} for your {item:202085}.\n\n{npc:187077} requires the world quest {wq:Brightblade\'s Bones} to be active.'
+
+L['naszuro_apex_canopy'] = 'On a small pillar of the stair.'
+L['naszuro_obsidian_throne'] = 'On the left side of the throne where {npc:185894} and {npc:187495} are.'
+L['naszuro_ruby_lifeshrine'] = 'Under the claw of the dragon statue.'
+L['naszuro_dragonheart_outpost'] = 'In the branches of the tree.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
@@ -766,12 +789,13 @@ L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {ite
 L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'
 
 L['sniffen_sage_suffix'] = 'special items found'
+L['sniffen_digs_suffix'] = 'Sniffenseek digs completed'
 
 L['big_slick_note'] = 'Complete daily quests from {npc:201752} to reach the reputation level "Professional" (total 2800 reputation) at the faction {faction:2568} to get your mount.\n\nOr show him the following snails (pets) at level 25 to get 100 reputation for each:'
 L['grogul_note'] = 'Talk to {npc:204672} and choose a treat that you can use to encourage this snail to move faster.\n{note:The achievement can be obtained before Renown 7.}'
 
 L['saccratos_note'] = 'Exchange {item:204727} for a pet, mount, and more.'
-L['ponzo_note'] = 'Exchange {item:204985} and {item:205903} for drake customizations, pet, mount, and more.'
+L['ponzo_note'] = 'Exchange {item:204985} for drake customizations, pet, mount, and more.'
 
 L['smelly_trash_pile_label'] = 'Smelly Trash Pile'
 L['options_icons_smelly_trash_pile'] = 'Smelly Trash Pile'

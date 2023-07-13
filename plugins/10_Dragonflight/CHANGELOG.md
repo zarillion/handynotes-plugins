@@ -1,3 +1,14 @@
+# v39
+
+* Added a status label for Zaralek zone events.
+* Added ferry information.
+* Added more Disturbed Dirt and Scout Pack locations.
+* Added Soupervisor achievement info.
+* Added the Mote of Nasz'uro pet.
+* Fixed a spawn-interval related error.
+* Removed Primal Chaos from reward listings.
+* Updates for multiple rares.
+
 # v38
 
 * Added Zaralek zone event locations.

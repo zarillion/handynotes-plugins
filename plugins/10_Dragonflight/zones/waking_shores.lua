@@ -122,7 +122,8 @@ map.nodes[52916529] = Rare({
     rewards = {
         Achievement({id = 16676, criteria = 56038}),
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
-        DC.RenewedProtoDrake.ImpalerHorns
+        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     },
     pois = {
         Path({
@@ -528,7 +529,8 @@ map.nodes[34578950] = Rare({
         Achievement({id = 16676, criteria = 57003}),
         Transmog({item = 200189, slot = L['plate']}), -- Hydroforged Shell Helm
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
-        Transmog({item = 200187, slot = L['staff']}) -- Rod of Glacial Force
+        Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
+        DC.HighlandDrake.FinnedBack
     },
     pois = {POI({36028984})} -- Entrance
 }) -- Slurpo, the Incredible Snail
@@ -1339,7 +1341,10 @@ map.nodes[26628764] = Scoutpack()
 map.nodes[28868321] = Scoutpack()
 map.nodes[29715467] = Scoutpack()
 map.nodes[30468098] = Scoutpack()
+map.nodes[32455283] = Scoutpack()
 map.nodes[32465665] = Scoutpack()
+map.nodes[34955089] = Scoutpack({location = cave})
+map.nodes[35015079] = Scoutpack({location = cave})
 map.nodes[37859241] = Scoutpack()
 map.nodes[38139017] = Scoutpack()
 map.nodes[41256689] = Scoutpack()
@@ -1347,7 +1352,9 @@ map.nodes[43345237] = Scoutpack()
 map.nodes[43506130] = Scoutpack({location = cave})
 map.nodes[44448825] = Scoutpack()
 map.nodes[44495926] = Scoutpack()
+map.nodes[32425431] = Scoutpack()
 map.nodes[45663986] = Scoutpack()
+map.nodes[45813518] = Scoutpack({location = cave})
 map.nodes[45985884] = Scoutpack()
 map.nodes[46244006] = Scoutpack()
 map.nodes[47164139] = Scoutpack()
@@ -1385,7 +1392,6 @@ local DjaradinCache = Class('DjaradinCache', ns.node.Node, {
     group = ns.groups.DJARADIN_CACHE,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201035, slot = L['cosmetic']}), -- Citadel Crushers Pauldrons
         Transmog({item = 201036, slot = L['cosmetic']}), -- Citadel Crushers Chestplate
         Transmog({item = 201037, slot = L['cosmetic']}), -- Citadel Crushers Legguards
@@ -2526,6 +2532,25 @@ map.nodes[22809500] = Collectible({
         -- LuaFormatter on
     }
 }) -- Pet: Bugbiter Tortoise
+
+---------------------------- PET: MOTE OF NASZ'URO ----------------------------
+
+map.nodes[22848841] = ns.node.MoteOfNaszuro({
+    quest = 76184,
+    note = L['naszuro_apex_canopy']
+}) -- Apex Canopy
+map.nodes[24155556] = ns.node.MoteOfNaszuro({
+    quest = 76185,
+    note = L['naszuro_obsidian_throne']
+}) -- Obsidian Throne
+map.nodes[58506765] = ns.node.MoteOfNaszuro({
+    quest = 76186,
+    note = L['naszuro_ruby_lifeshrine']
+}) -- Ruby Lifeshrine
+map.nodes[63894481] = ns.node.MoteOfNaszuro({
+    quest = 76187,
+    note = L['naszuro_dragonheart_outpost']
+}) -- Dragonheart Outpost
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 

@@ -240,6 +240,7 @@ L['options_icons_tuskarr_chest'] = 'Cofres Colmillarr'
 L['options_icons_tuskarr_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Colmillarr}.'
 
 L['community_feast_label'] = 'Festín Comunitario'
+L['tasks_completed_suffix'] = 'tareas de cocina completadas'
 L['options_icons_community_feast'] = 'Festín Comunitario'
 L['options_icons_community_feast_desc'] = 'Muestra dónde hay y las recompensas para los Festines Comunitarios.'
 
@@ -254,6 +255,13 @@ L['options_icons_icemaw_storage_cache_desc'] = 'Muestra dónde pueden haber {obj
 L['kazzi_note_start'] = 'Intercambia {item:202017} y {item:202018} por transfiguraciones, personalizaciones del draco, una mascosta, y más.'
 L['kazzi_note_item'] = 'Tienes %s {item:%s}.'
 L['kazzi_achievement_suffix'] = 'rango del idioma Pelaje Invernal'
+
+L['naszuro_vakthros'] = 'En lo alto de la torre.'
+L['naszuro_imbu'] = 'Encima del tocón de árbol.'
+L['naszuro_azure_archives'] = 'En la ladera de la montaña, sobre una roca pequeña.'
+L['naszuro_hudsons_rock'] = 'En la cima de la pequeña colina rocosa.'
+
+L['ferry_to_iskaara'] = 'Barco a Iskaara'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -385,6 +393,8 @@ L['renown_envoy_label'] = 'Enviado de Renombre'
 L['renown_envoy_note'] = 'Intercambia {currency:2118} u oro por monturas, mascotas, transfiguraciones, personalizaciones del draco, recetas y otros objetos útiles.\n\nCompra el {item:204383} a la {npc:200566} por 2000x {currency:2118} para un intento de conseguir a {item:191915}.'
 L['trader_hagarth_note'] = 'Intercambia {item:190456} for recetas de Bibelot del Artesano.'
 
+L['naszuro_caldera_of_the_menders'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -488,6 +498,9 @@ L['options_icons_lightning_bound_chest_desc'] = 'Muestra dónde pueden haber {ob
 
 L['bloodgullet_note'] = 'Consigue el buff {spell:369277} (dura 1 hora) en una tienda de la {location:Avanzada Pasoleño} con el objeto {object:Esencia del Despertar} para poder ver las Bestias Espíritu.\n\n{note:Sólo aparece en las Grandes Cacerías de Bestias.}'
 
+L['naszuro_windsong_rise'] = nil
+L['naszuro_emerald_gardens'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -567,6 +580,11 @@ Vuelve con {npc:198062}, que está sentado en un banco, y entrega la misión par
 ]]
 
 L['little_scales_daycare_note'] = 'Necesitas hacer una serie de misiones durante varios días, comenzando con {quest:72664} que te da el {npc:197478}, para conseguir el logro y la mascota.'
+L['naszuro_veiled_ossuary'] = nil
+L['naszuro_algethar_academy'] = nil
+L['naszuro_vault_of_the_incarnates'] = nil
+L['naszuro_thaldraszus_peak'] = nil
+L['naszuro_temporal_conflux'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -731,7 +749,12 @@ Usa el amuleto y coge las {item:202062} {dot:Red} que hay dentro del {location:A
 ]]
 L['phoenix_wishwing_info'] = 'Esto es parte de la mascota de combate {item:193373} localizada en las {location:Orillas del Despertar} de las {location:Islas Dragón}.'
 
-L['bugbiter_tortoise_note'] = 'Consigue un {item:202082} {dot:Red} y un {item:202084} {dot:Green} para intercambiarlos con {npc:187077} para conseguir tu {item:202085}.\n\n{npc:187077} requiere que esté activa la misión del mundo {quest:66070}.'
+L['bugbiter_tortoise_note'] = 'Consigue un {item:202082} {dot:Red} y un {item:202084} {dot:Green} para intercambiarlos con {npc:187077} para conseguir tu {item:202085}.\n\n{npc:187077} requiere que esté activa la misión del mundo {wq:Los huesos de Hoja Brillante}.'
+
+L['naszuro_apex_canopy'] = 'Encima de un pilar pequeño de la escalera.'
+L['naszuro_obsidian_throne'] = 'En el lado izquierdo del trono donde están {npc:185894} y {npc:187495}.'
+L['naszuro_ruby_lifeshrine'] = 'Bajo la garra de la estatua de dragón.'
+L['naszuro_dragonheart_outpost'] = 'En la rama del árbol.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
@@ -767,12 +790,13 @@ L['molten_scoutbot_note'] = 'Abre el {object:Explorabot de magma} y despoja el {
 L['bolts_and_brass_note'] = 'Abre los {object:Tornillos y Latón} y despoja los {item:204850}.'
 
 L['sniffen_sage_suffix'] = 'objetos especiales encontrados'
+L['sniffen_digs_suffix'] = 'excavaciones de Olfatobúsqueda completadas'
 
 L['big_slick_note'] = 'Completa misiones diarias de {npc:201752} para alcanzar el nivel de reputación "Profesional" (2800 de reputación en total) con la facción {faction:2568} para conseguir tu montura.\n\nO enséñale los siguientes caracoles (mascotas de combate) a nivel 25 para conseguir 100 de reputación por cada uno:'
 L['grogul_note'] = 'Habla con {npc:204672} y elige una golosina que puedas usar para animar al caracol correspondiente a ir más rápido.\n{note:El logro se puede conseguir con menos de Renombre 7.}'
 
 L['saccratos_note'] = 'Cambia {item:204727} por una mascota, montura, y más.'
-L['ponzo_note'] = 'Cambia {item:204985} y {item:205903} por personalizaciones para el draco, mascota, montura, y más.'
+L['ponzo_note'] = 'Cambia {item:204985} por personalizaciones para el draco, mascota, montura, y más.'
 
 L['smelly_trash_pile_label'] = 'Montón de Basura Maloliente'
 L['options_icons_smelly_trash_pile'] = 'Montón de Basura Maloliente'

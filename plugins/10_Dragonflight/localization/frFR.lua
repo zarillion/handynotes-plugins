@@ -240,6 +240,7 @@ L['options_icons_tuskarr_chest'] = 'Coffres roharts'
 L['options_icons_tuskarr_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres roharts}.'
 
 L['community_feast_label'] = '{spell:388961}'
+L['tasks_completed_suffix'] = 'tâches de cuisine accomplies'
 L['options_icons_community_feast'] = '{spell:388961}'
 L['options_icons_community_feast_desc'] = 'Afficher les emplacements et les récompenses pour le {spell:388961}.'
 
@@ -254,6 +255,13 @@ L['options_icons_icemaw_storage_cache_desc'] = 'Afficher les emplacements possib
 L['kazzi_note_start'] = 'Échangez vos {item:202017} et {item:202018} contre des objets de transmogrification, des personnalisations de drake, une mascotte et plus encore.'
 L['kazzi_note_item'] = 'Vous possédez actuellement %s {item:%s}.'
 L['kazzi_achievement_suffix'] = 'rang dans le dialecte des Crins-d’hiver'
+
+L['naszuro_vakthros'] = 'Au sommet de la tour.'
+L['naszuro_imbu'] = 'Sur la souche d\'arbre.'
+L['naszuro_azure_archives'] = 'Sur le flanc de la montagne, sur un petit rocher.'
+L['naszuro_hudsons_rock'] = 'Au sommet de la petite colline rocheuse.'
+
+L['ferry_to_iskaara'] = 'Bateau pour Iskaara'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -385,6 +393,8 @@ L['renown_envoy_label'] = 'Émissaires de renom'
 L['renown_envoy_note'] = 'Échangez de l\'or ou des {currency:2118} contre des montures, mascottes, objets de transmogrification, personnalisations de drake, recettes et d\'autres objets utiles.\n\nAchetez des {item:204383} à l\'{npc:200566} pour 2000x {currency:2118} avec une chance d\'obtenir {item:191915}.'
 L['trader_hagarth_note'] = 'Échangez vos {item:190456} contre des recettes de Bibelots d\'Artisanat.'
 
+L['naszuro_caldera_of_the_menders'] = 'Au sommet de la tour.'
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -488,6 +498,9 @@ L['options_icons_lightning_bound_chest_desc'] = 'Afficher les emplacements possi
 
 L['bloodgullet_note'] = 'Obtenez le buff {spell:369277} (1 heure) dans une tente à l\'{location:Avant-poste de Pas-de-bois} à partir de l\'{object:Essence de l’éveil} pour voir cet Esprit de bête.\n\n{note:N\'apparaît que pour les Chasseurs Maîtrise des bêtes.}'
 
+L['naszuro_windsong_rise'] = 'Au sommet du pilier de pierre.'
+L['naszuro_emerald_gardens'] = 'Sur l\'herbe à côté de la cascade.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -567,6 +580,11 @@ Revenez voir {npc:198062}, assis sur un banc, et rendez la quête pour obtenir v
 ]]
 
 L['little_scales_daycare_note'] = 'Vous devez réaliser une suite de quêtes sur plusieurs jours, en commençant par {quest:72664} donnée par le {npc:197478}, pour obtenir ce haut-fait et cette mascotte.'
+L['naszuro_veiled_ossuary'] = 'A côté du petit sanctuaire.'
+L['naszuro_algethar_academy'] = 'Sur le rebord au sommet de la tour.'
+L['naszuro_vault_of_the_incarnates'] = 'Au pied de la statue.'
+L['naszuro_thaldraszus_peak'] = 'Sur un pic intermédiaire de la montagne.'
+L['naszuro_temporal_conflux'] = 'Sur la tête de la statue du dragon.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -728,7 +746,12 @@ Utilisez cette amulette et ramassez des {item:202062} {dot:Red} trouvées à l'{
 ]]
 L['phoenix_wishwing_info'] = 'Ceci fait partie de de la méthode d\'obtention du {item:193373} situé aux {location:Rivages de l’Éveil} sur les {location:Îles aux Dragons}.'
 
-L['bugbiter_tortoise_note'] = 'Récupérez l\'{item:202082}({dot:Red}) et le {item:202084}({dot:Green}) et échangez-les à {npc:187077} contre votre {item:202085}.\n\n{npc:187077} n\'est présente que lorsque l\'expédition {quest:66070} est active.'
+L['bugbiter_tortoise_note'] = 'Récupérez l\'{item:202082}({dot:Red}) et le {item:202084}({dot:Green}) et échangez-les à {npc:187077} contre votre {item:202085}.\n\n{npc:187077} n\'est présente que lorsque l\'expédition {wq:Ossements de Brillelame} est active.'
+
+L['naszuro_apex_canopy'] = 'Sur un petit pilier de l\'escalier.'
+L['naszuro_obsidian_throne'] = 'Sur le côté gauche du trône où se trouvent {npc:185894} et {npc:187495}.'
+L['naszuro_ruby_lifeshrine'] = 'Sous la griffe de la statue du dragon.'
+L['naszuro_dragonheart_outpost'] = 'Sur les branches de l\'arbre.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
@@ -764,12 +787,13 @@ L['molten_scoutbot_note'] = 'Examinez l\'{object:Explorobot fondu} et récupére
 L['bolts_and_brass_note'] = 'Examinez les {object:Boulons et cuivre} et récupérez la {item:204850}.'
 
 L['sniffen_sage_suffix'] = 'objets spéciaux trouvés'
+L['sniffen_digs_suffix'] = 'Enquêtes olfactives terminées'
 
 L['big_slick_note'] = 'Terminez des quêtes journalières données par {npc:201752} pour atteindre le niveau de réputation "Professionnalisme" (soit un total de 2800 points de réputation) avec la faction {faction:2568} pour obtenir votre monture.\n\nVous pouvez également lui montrer les escargots suivants (mascottes) au niveau 25 pour obtenir 100 points de réputation pour chacun d\'entre eux :'
 L['grogul_note'] = 'Parlez à {npc:204672} et choisissez une friandise que vous pourrez utiliser pour encourager cet escargot à aller plus vite.\n{note:Le haut-fait peut être obtenu avant le niveau de Renom 7.}'
 
 L['saccratos_note'] = 'Échangez vos {item:204727} contre une mascotte, une monture et plus encore.'
-L['ponzo_note'] = 'Échangez vos {item:204985} et vos {item:205903} contre des personnalisations de drake, une mascotte, une monture et plus encore.'
+L['ponzo_note'] = 'Échangez vos {item:204985} et vos {item:205188} contre des personnalisations de drake, une mascotte, une monture et plus encore.'
 
 L['smelly_trash_pile_label'] = 'Tas de déchets kifouette'
 L['options_icons_smelly_trash_pile'] = 'Tas de déchets kifouette'

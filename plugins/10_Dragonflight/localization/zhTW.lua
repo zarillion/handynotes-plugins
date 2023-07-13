@@ -125,9 +125,9 @@ L['the_best_at_what_i_do_suffix'] = '首領已擊殺'
 L['options_icons_grand_hunts'] = '大狩獵'
 L['options_icons_grand_hunts_desc'] = '顯示 {object:大狩獵} 的位置和獎勵.'
 
-L['ancient_stone_label'] = nil
+L['ancient_stone_label'] = '遠古石頭'
 L['options_icons_ancient_stones'] = '{achievement:17560}'
-L['options_icons_ancient_stones_desc'] = nil
+L['options_icons_ancient_stones_desc'] = '顯示 {achievement:17560} 所需的 {object:遠古石頭} 位置.'
 
 L['reed_chest'] = '蘆葦箱子'
 L['options_icons_reed_chest'] = '蘆葦箱子'
@@ -239,6 +239,7 @@ L['options_icons_tuskarr_chest'] = '巨牙海民寶箱'
 L['options_icons_tuskarr_chest_desc'] = '顯示 {object:巨牙海民寶箱} 可能的位置.'
 
 L['community_feast_label'] = '{spell:388961}'
+L['tasks_completed_suffix'] = nil
 L['options_icons_community_feast'] = '{spell:388961}'
 L['options_icons_community_feast_desc'] = '顯示 {spell:388961} 的位置和獎勵.'
 
@@ -253,6 +254,13 @@ L['options_icons_icemaw_storage_cache_desc'] = '顯示 {object:冰喉儲藏所} 
 L['kazzi_note_start'] = '使用 {item:202017} 和 {item:202018} 交換塑形, 飛龍自訂, 一隻寵物, 和更多.'
 L['kazzi_note_item'] = '你現在有 %s 個 {item:%s}.'
 L['kazzi_achievement_suffix'] = '東毛語等級'
+
+L['naszuro_vakthros'] = '在塔的頂端.'
+L['naszuro_imbu'] = '在樹樁上.'
+L['naszuro_azure_archives'] = '在山的側邊一個小石頭上.'
+L['naszuro_hudsons_rock'] = '在小石丘的頂端.'
+
+L['ferry_to_iskaara'] = nil
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -384,6 +392,8 @@ L['renown_envoy_label'] = '名望特使'
 L['renown_envoy_note'] = '使用 {currency:2118} 或金幣交換坐騎, 寵物, 塑型, 飛龍自訂, 配方和其他有用物品.\n\n從 {npc:200566} 處用 2000個 {currency:2118} 購買 {item:204383} 有機率開到 {item:191915}.'
 L['trader_hagarth_note'] = '使用 {item:190456} 交換工匠珍品設計圖.'
 
+L['naszuro_caldera_of_the_menders'] = '在塔的頂端.'
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -487,6 +497,9 @@ L['options_icons_lightning_bound_chest_desc'] = '顯示 {object:Lightning Bound 
 
 L['bloodgullet_note'] = '在 {location:木階哨站} 的一個帳篷裡的 {object:甦醒精華} 取得 {spell:369277} 增益(1小時) 來看到靈獸.\n\n{note:只有獸王獵看的到.}'
 
+L['naszuro_windsong_rise'] = '在岩石柱子頂端.'
+L['naszuro_emerald_gardens'] = '在瀑布旁邊的草地.'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -566,6 +579,11 @@ L['living_mud_mask_note'] = [[
 ]]
 
 L['little_scales_daycare_note'] = nil
+L['naszuro_veiled_ossuary'] = '在小祭壇旁邊.'
+L['naszuro_algethar_academy'] = '在塔頂的邊柱旁.'
+L['naszuro_vault_of_the_incarnates'] = '在雕像的腳邊.'
+L['naszuro_thaldraszus_peak'] = '在山的第二高峰上.'
+L['naszuro_temporal_conflux'] = '在龍雕像的頭上.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -732,6 +750,11 @@ L['phoenix_wishwing_info'] = '這是位於 {location:巨龍群島} 上 {location
 
 L['bugbiter_tortoise_note'] = '收集 {item:202082}({dot:Red}) 和 {item:202084}({dot:Green}) 來和 {npc:187077} 交換你的 {item:202085}.\n\n{npc:187077} 需要在有世界任務 {quest:66070} 時.'
 
+L['naszuro_apex_canopy'] = '在樓梯的小柱子上.'
+L['naszuro_obsidian_throne'] = '在 {npc:185894} 和 {npc:187495} 所在的王座左邊.'
+L['naszuro_ruby_lifeshrine'] = '在龍雕像爪子之下.'
+L['naszuro_dragonheart_outpost'] = '在樹的枝幹間.'
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
@@ -766,6 +789,7 @@ L['molten_scoutbot_note'] = '開啟 {object:熔火偵查機器人} 並拾取 {it
 L['bolts_and_brass_note'] = '開啟 {object:螺栓與黃銅} 並拾取 {item:204850}.'
 
 L['sniffen_sage_suffix'] = '特殊物品已發現'
+L['sniffen_digs_suffix'] = nil
 
 L['big_slick_note'] = '從 {npc:201752} 完成他的每日任務並達到 {faction:2568} 聲望 "專業" 可以取得坐騎.\n\n 展示以下達到25級的蝸牛 (戰寵) 每隻也可獲得100聲望:'
 L['grogul_note'] = '和 {npc:204672} 交談並選擇一種零食可以鼓勵那種蝸牛跑得更快.\n{note:此成就可以在名望7之前獲得.}'
