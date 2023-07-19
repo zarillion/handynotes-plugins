@@ -580,7 +580,7 @@ L['living_mud_mask_note'] = [[
 Вернитесь к {npc:198062}, сидящему на скамейке, и сдайте задание получив {item:200872}.
 ]]
 
-L['little_scales_daycare_note'] = nil
+L['little_scales_daycare_note'] = 'Вы должны сделать линейку заданий в течение нескольких дней, начиная с {quest:72664} у {npc:197478}, чтобы заработать это достижение и питомца.'
 L['naszuro_veiled_ossuary'] = 'Кроме маленькой святыни.'
 L['naszuro_algethar_academy'] = 'На выступе вершины башни.'
 L['naszuro_vault_of_the_incarnates'] = 'У подножия статуи.'
