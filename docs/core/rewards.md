@@ -21,7 +21,7 @@ All rewards are accessible via `ns.reward`
 ---
 
 ## Section
-Adds a seperator between the Rewards.
+Adds a separator between the Rewards.
 
 ```lua
 Section("Title of the Section")
@@ -56,7 +56,7 @@ Achievement({
    * The ID of the achievement
  * `criteria` (int)
    * The *criteria id* (preferred) or *criteria index* of the achievement.
-   * Supports follwing properties:
+   * Supports following properties:
      * `id` (id)
        * *criteria id* (preferred) or *criteria index*
      * `qty` (bool)
@@ -64,7 +64,7 @@ Achievement({
      * `suffix` (string)
        * Can be used with `qty` to add a custom suffix.
  * `oneline` (boolean)
-   * When true, the criteria text wont be rendered.
+   * When true, the criteria text won't be rendered.
  * `note` (string)
    * This can be used to add a short note underneath the reward line.
 
@@ -123,7 +123,7 @@ Item({
 * `type` (string)
   * The type string is added behind the reward text
 * `note` (string)
-  * A short note behind the reward for additional informations. Is placed behind the `type` string.
+  * A short note behind the reward for additional information. Is placed behind the `type` string.
 * `status` (string)
   * Is used to set a custom status string on the end of the line.
   *
@@ -263,7 +263,7 @@ Title({
     * `'{title} {player}'`
     * `'{player}, {title}'`
 * `type` (string)
-  * Optioanl type after the title text.
+  * Optional type after the title text.
 * `note` (string)
   * Optional note after the title text
 

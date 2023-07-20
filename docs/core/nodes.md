@@ -23,7 +23,7 @@ ns.node.Node({
 })
 ```
 
-### Default Properites
+### Default Properties
 `ns.node.Node` has the following properties by default:
 
 * `label` (string) (*default: 'UNKNOWN'*)
@@ -49,7 +49,7 @@ ns.node.Node({
 * `questCount` (boolean)
   * Display completed quest count as `rlabel`.
 * `location` (string)
-  * Additonal text that provides more detail about the location of a node.
+  * Additional text that provides more detail about the location of a node.
 * `note` (string)
   * Additional text that provides more detail about the node.
 * `requires` ([Requirement](requirements.hmtl) / [Requirement](requirements.hmtl)[ ])
@@ -130,7 +130,7 @@ map.nodes[58085381] = ns.node.Collectible({
 * `item` (int)
   * The `itemID` for the colectible. This will be used for the `label` property.
 
-Please note that the label for `ns.node.Collectible` can also come from the critiera for the first listed [achievement](rewards.html#achievement) in `rewards`.
+Please note that the label for `ns.node.Collectible` can also come from the criteria for the first listed [achievement](rewards.html#achievement) in `rewards`.
 
 ---
 
@@ -156,7 +156,7 @@ map.intro = MawIntro({
 map.nodes[80306280] = map.intro
 ```
 
-### Default Properites
+### Default Properties
 `ns.node.Intro` has the following properties set by default:
 
 * `scale` (float) (*default: 3*)
@@ -235,7 +235,7 @@ map.nodes[13095369] = ns.node.PetBattle({
 }) -- Wildfire
 ```
 
-### Default Properites
+### Default Properties
 `ns.node.PetBattle` has the following properties set by default:
 
 * `scale` (float) (*default: 1.2*)
@@ -268,7 +268,7 @@ map.nodes[53486145] = Quest({
 })
 ```
 
-### Default Properites
+### Default Properties
 `ns.node.Quest` has the following properties set by default:
 
 * `icon` ([string](icons.html) / int) (*default: 'quest_ay'*)
@@ -302,7 +302,7 @@ map.nodes[43947530] = ns.node.Rare({
 }) -- The Engulfer
 ```
 
-### Default Properites
+### Default Properties
 `ns.node.Rare` has the following properties set by default:
 
 * `scale` (float) (*default: 1.2*)
@@ -344,7 +344,7 @@ map.nodes[65804182] = ns.node.Treasure({
 }) -- Golden Dragon Goblet
 ```
 
-### Default Properites
+### Default Properties
 `ns.node.Treasure` has the following properties set by default:
 
 * `scale` (float) (*default: 1.3*)
@@ -360,4 +360,4 @@ It is highly recommended that you add the `quest` property to rares and use the 
 * `quest` (int)
   * The `questID` used to track a the collected treasure.
 
-Please note that by default the label for `ns.node.Treasure` comes from the critiera for the first listed [achievement](rewards.html#achievement) in `rewards`.
+Please note that by default the label for `ns.node.Treasure` comes from the criteria for the first listed [achievement](rewards.html#achievement) in `rewards`.
