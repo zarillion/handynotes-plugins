@@ -23,7 +23,7 @@ Base Class for all Requirements
 Requirement({text = 'Requirement Text'})
 ```
 
-### Default Properites
+### Default Properties
 * `text`  (string) (*default: 'UNKNOWN'*)
   * The text that is shown in the tooltip for the Requirement.
 
