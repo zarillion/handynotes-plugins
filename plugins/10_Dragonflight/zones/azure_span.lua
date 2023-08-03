@@ -1993,7 +1993,7 @@ local Kazzi = Class('Kazzi', Collectible, {
         Transmog({item = 204354, slot = L['cosmetic'], note = '500'}), -- Hollowed Furbolg Food Pack
         -- NOT IN DC
         Item({item = 202273, quest = 73054, note = '50'}), -- Renewed Proto-Drake: Stubby Snout
-        Item({item = 197626, quest = 69831, note = '50'}), -- Windborne Velocidrake: Exposed Finned Back
+        Item({item = 197583, quest = 69787, note = '50'}), -- Windborne Velocidrake: Exposed Finned Back
         Item({item = 197129, quest = 69330, note = '50'}), -- Highland Drake: Sleek Horns
         Item({item = 197006, quest = 69206, note = '50'}), -- Cliffside Wylderdrake: Plated Nose
         Spacer(), Section(L['rep_revered']),
