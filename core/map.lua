@@ -331,6 +331,8 @@ local WorldMapDataProvider = CreateFromMixins(MapCanvasDataProviderMixin)
 local WorldMapPinTemplate = ADDON_NAME .. 'WorldMapPinTemplate'
 local WorldMapPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
+function WorldMapPinMixin:SetPassThroughButtons() end
+
 _G[ADDON_NAME .. 'WorldMapPinMixin'] = WorldMapPinMixin
 
 function WorldMapDataProvider:RemoveAllData()
