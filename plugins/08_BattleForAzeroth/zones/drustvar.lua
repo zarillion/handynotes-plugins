@@ -845,3 +845,68 @@ map.nodes[21602880] = Safari.ShackCrab({
         })
     }
 }) -- ShackCrab
+
+
+-------------------------------------------------------------------------------
+--------------------------- CURSED GAME HUNTER --------------------------------
+-------------------------------------------------------------------------------
+
+local Cursed = Class('Cursed', Collectible, {
+    icon = 1027879,
+    group = ns.groups.CURSED_HUNTER,
+    sublabel = L['cursed_hunter_note']
+})
+
+function Cursed.getters:label() return "Cursed animals" end
+
+map.nodes[53872072] = Cursed({
+    rewards = {Achievement({id = 13094, criteria = 1})}--69109})}
+}) -- Cursed Game Hunter: Goats
+
+map.nodes[56804148] = Cursed({
+    rewards = {Achievement({id = 13094, criteria = 2})}--69111})}
+}) -- Cursed Game Hunter: Deer
+
+map.nodes[58623461] = Cursed({
+    rewards = {Achievement({id = 13094, criteria = 3})}--69112})}
+}) -- Cursed Game Hunter: Pigs
+
+map.nodes[32216170] = Cursed({
+    rewards = {Achievement({id = 13094, criteria = 4})}--69115})}
+}) -- Cursed Game Hunter: Thornclaws
+
+map.nodes[58952992] = Cursed({
+    rewards = {Achievement({id = 13094, criteria = 5})}--69116})}
+}) -- Cursed Game Hunter: Wolves
+
+map.nodes[53173602] = Cursed({
+    rewards = {Achievement({id = 13094, criteria = 6})}--69120})}
+}) -- Cursed Game Hunter: Ravens
+
+map.nodes[53334270] = Cursed({
+    rewards = {Achievement({id = 13094, criteria = 7})}--69121})}
+}) -- Cursed Game Hunter: Rabbits
+
+map.nodes[31292511] = Cursed({
+    rewards = {Achievement({id = 13094, criteria = 8})}--69125})}
+}) -- Cursed Game Hunter: Falcons
+
+map.nodes[24004902] = Cursed({
+    rewards = {Achievement({id = 13094, criteria = 9})}--69130})}
+}) -- Cursed Game Hunter: Bramblebacks
+
+map.nodes[21902260] = Cursed({
+    rewards = {Achievement({id = 13094, criteria = 10})}--69131})}
+}) -- Cursed Game Hunter: Sea Lions
+
+map.nodes[30282528] = Cursed({
+    rewards = {Achievement({id = 13094, criteria = 11})}--69132})}
+}) -- Cursed Game Hunter: Horses
+
+map.nodes[22366947] = Cursed({
+    rewards = {Achievement({id = 13094, criteria = 12})}--69133})}
+}) -- Cursed Game Hunter: Sharks
+
+map.nodes[74346589] = Cursed({
+    rewards = {Achievement({id = 13094, criteria = 13})}--69134})}
+}) -- Cursed Game Hunter: Crabs
