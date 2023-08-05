@@ -2,6 +2,3 @@ release/
 
 # Ignore IDE.
 .idea
-
-# Ignore VSCode
-/.vscode/
