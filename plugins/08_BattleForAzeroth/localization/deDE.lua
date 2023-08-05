@@ -35,6 +35,11 @@ L['dilbert_mcclint_note'] = 'Tag auch, {npc:140461}, Befallsbekämpfung. Immer s
 L['fizzie_spark_note'] = 'Denkt Ihr, dass Eure Haustiere gegen mein azeritdurchströmtes Team eine Chance haben? Das hättet Ihr wohl gerne!'
 L['michael_skarn_note'] = 'Bevor wir loslegen... Vergesst nicht, dass Ihr das so wolltet!'
 
+L['cursed_hunter_label'] = nil
+L['cursed_hunter_note'] = nil
+L['options_icons_cursed_hunter_desc'] = nil
+L['options_icons_cursed_hunter'] = nil
+
 L['drust_facts_note'] = 'Lies alle Druststelen, um den Erfolg zu erringen.'
 L['stele_forest_note'] = 'In Ulfars Höhle.'
 L['options_icons_drust_facts_desc'] = 'Zeigt die Druststelen für den Erfolg {achievement:13064} an.'

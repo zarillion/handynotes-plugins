@@ -854,10 +854,9 @@ map.nodes[21602880] = Safari.ShackCrab({
 local Cursed = Class('Cursed', Collectible, {
     icon = 1027879,
     group = ns.groups.CURSED_HUNTER,
+    label = L['cursed_hunter_label'],
     sublabel = L['cursed_hunter_note']
 })
-
-function Cursed.getters:label() return "Cursed animals" end
 
 map.nodes[53872072] = Cursed({
     rewards = {Achievement({id = 13094, criteria = 1})}--69109})}

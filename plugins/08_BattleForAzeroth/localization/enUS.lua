@@ -38,6 +38,7 @@ L['dilbert_mcclint_note'] = 'Hey there, name\'s {npc:140461}, Infestation Manage
 L['fizzie_spark_note'] = 'You think your pets have a chance against my Azerite infused team? You wish!'
 L['michael_skarn_note'] = 'Just remember as we start this battle, you asked for this.'
 
+L['cursed_hunter_label'] = 'Cursed Animals'
 L['cursed_hunter_note'] = 'Kill one of every type of cursed animal to earn the achievement.'
 L['options_icons_cursed_hunter_desc'] = 'Display animal locations for the {achievement:13094} achievement.'
 L['options_icons_cursed_hunter'] = '{achievement:13094}'
