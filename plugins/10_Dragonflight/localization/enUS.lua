@@ -761,7 +761,7 @@ L['naszuro_dragonheart_outpost'] = 'In the branches of the tree.'
 
 L['in_deepflayer_nest'] = 'Within {location:Deepflayer Nest}'
 
-L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.\n\n{bug:Don\'t let him leave the initial position far away, otherwise there will be no chest after defeating him.}'
+L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.\n\n{bug:Don\'t defeat him while he\'s channeling Legs Of Steel or casting Arm-Ageddon, otherwise there will be no chest after defeating him.}'
 
 L['ancient_zaqali_chest_note'] = 'Use a nearby {object:Bottled Magma} to open the chest.'
 L['blazing_shadowflame_chest_note'] = 'Equip the {item:15138}, which can be bought from the auction house or crafted by a leatherworker, to loot the chest.'
