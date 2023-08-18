@@ -696,6 +696,63 @@ map.nodes[60195755] = SmellyTrashPile()
 map.nodes[61146860] = SmellyTrashPile()
 map.nodes[62325600] = SmellyTrashPile()
 
+local SmellyTreasureChest = Class('SmellyTreasureChest', ns.node.Node, {
+    label = L['smelly_treasure_chest_label'],
+    icon = 'chest_rd',
+    group = ns.groups.SMELLY_TREASURE_CHEST,
+    requires = {
+        ns.requirement.Reputation(2564, 11, true), -- Loamm Niffen
+        ns.requirement.Item(191294) -- Small Expedition Shovel
+    },
+    rewards = {
+        DC.RenewedProtoDrake.PlatedJaw, -- Renewed Proto-Drake: Plated Jaw
+        Item({item = 199906}), -- Titan Relic
+        Item({item = 204985}), -- Barter Brick
+        Item({item = 205188}) -- Barter Boulder
+    }
+}) -- Smell Treasure Chest
+
+map.nodes[25704360] = SmellyTreasureChest()
+map.nodes[28205370] = SmellyTreasureChest()
+map.nodes[30204010] = SmellyTreasureChest()
+map.nodes[32505300] = SmellyTreasureChest()
+map.nodes[35904520] = SmellyTreasureChest()
+map.nodes[38808490] = SmellyTreasureChest()
+map.nodes[39106200] = SmellyTreasureChest()
+map.nodes[41103500] = SmellyTreasureChest()
+map.nodes[41305590] = SmellyTreasureChest()
+map.nodes[42807810] = SmellyTreasureChest()
+map.nodes[44104150] = SmellyTreasureChest()
+map.nodes[44403510] = SmellyTreasureChest()
+map.nodes[45001570] = SmellyTreasureChest()
+map.nodes[45307020] = SmellyTreasureChest()
+map.nodes[45705260] = SmellyTreasureChest()
+map.nodes[45902240] = SmellyTreasureChest()
+map.nodes[45902250] = SmellyTreasureChest()
+map.nodes[45908730] = SmellyTreasureChest()
+map.nodes[46608050] = SmellyTreasureChest()
+map.nodes[47002670] = SmellyTreasureChest()
+map.nodes[47306200] = SmellyTreasureChest()
+map.nodes[47904880] = SmellyTreasureChest()
+map.nodes[49104090] = SmellyTreasureChest()
+map.nodes[51302430] = SmellyTreasureChest()
+map.nodes[52706540] = SmellyTreasureChest()
+map.nodes[52803230] = SmellyTreasureChest()
+map.nodes[52902340] = SmellyTreasureChest()
+map.nodes[52902350] = SmellyTreasureChest()
+map.nodes[53104760] = SmellyTreasureChest()
+map.nodes[54107760] = SmellyTreasureChest()
+map.nodes[54402290] = SmellyTreasureChest()
+map.nodes[54502290] = SmellyTreasureChest()
+map.nodes[56903100] = SmellyTreasureChest()
+map.nodes[57507040] = SmellyTreasureChest()
+map.nodes[57507050] = SmellyTreasureChest()
+map.nodes[58704370] = SmellyTreasureChest()
+map.nodes[60006300] = SmellyTreasureChest()
+map.nodes[62504200] = SmellyTreasureChest()
+map.nodes[62906990] = SmellyTreasureChest()
+map.nodes[65205530] = SmellyTreasureChest()
+
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
