@@ -759,7 +759,7 @@ L['naszuro_dragonheart_outpost'] = 'Sur les branches de l\'arbre.'
 
 L['in_deepflayer_nest'] = 'A l\'intérieur du {location:Nid de flagellants des profondeurs}'
 
-L['brulsef_the_stronk_note'] = 'Récupérez vos récompenses à partir du {object:Coffre de gains massifs}.\n\n{bug:Ne le vainquez pas pendant qu'il canalise {spell:412495} ou lance {spell:412492}, sinon le coffre ne sera pas disponible après l\'avoir vaincu.}'
+L['brulsef_the_stronk_note'] = 'Récupérez vos récompenses à partir du {object:Coffre de gains massifs}.\n\n{bug:Ne le vainquez pas pendant qu\'il canalise {spell:412495} ou lance {spell:412492}, sinon le coffre ne sera pas disponible après l\'avoir vaincu.}'
 
 L['ancient_zaqali_chest_note'] = 'Utilisez un {object:Magma en bouteille} à proximité pour ouvrir le coffre.'
 L['blazing_shadowflame_chest_note'] = 'Équipez la {item:15138}, qui peut être achetée à l\'hôtel des ventes ou fabriquée par un travailleur du cuir, pour pouvoir ouvrir le coffre.'
