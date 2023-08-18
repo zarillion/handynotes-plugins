@@ -549,6 +549,32 @@ Felwood.nodes[58181079] = Dragonrace({
     rewards = Kalimdor_Rewards(1)
 }) -- Fel Flyover
 
+local Feralas = ns.maps[69] or Map({id = 69, settings = true})
+Feralas.nodes[64105540] = Dragonrace({
+    label = '{quest:75468}',
+    normal = nil,
+    advanced = nil,
+    reverse = nil,
+    rewards = Kalimdor_Rewards(13)
+}) -- Feralas Ruins Ramble
+
+local Hyjal = ns.maps[198] or Map({id = 198, settings = true})
+Hyjal.nodes[56702790] = Dragonrace({
+    label = '{quest:75317}',
+    normal = nil,
+    advanced = nil,
+    reverse = nil,
+    rewards = Kalimdor_Rewards(3)
+}) -- Nordrassil Spiral
+
+Hyjal.nodes[21905420] = Dragonrace({
+    label = '{quest:75330}',
+    normal = nil,
+    advanced = nil,
+    reverse = nil,
+    rewards = Kalimdor_Rewards(4)
+}) -- Hyjal Hotfoot
+
 local Silithus = ns.maps[81] or Map({id = 81, settings = true})
 Silithus.nodes[39548419] = Dragonrace({
     label = '{quest:75472}',
@@ -566,6 +592,7 @@ SouthernBarrens.nodes[41431300] = Dragonrace({
     reverse = {2381, 49, 44},
     rewards = Kalimdor_Rewards(10)
 }) -- Barrens Divide Dive
+
 SouthernBarrens.nodes[42809308] = Dragonrace({
     label = '{quest:75437}',
     normal = {2322, 58, 53},
@@ -591,6 +618,15 @@ ThousandNeedles.nodes[09731735] = Dragonrace({
     reverse = {2383, 1000, 999},
     rewards = Kalimdor_Rewards(12)
 }) -- Thousand Needles Thread
+
+local Uldum = ns.maps[249] or Map({id = 249, settings = true})
+Uldum.nodes[55804420] = Dragonrace({
+    label = '{quest:75481}',
+    normal = nil,
+    advanced = nil,
+    reverse = nil,
+    rewards = Kalimdor_Rewards(15)
+}) -- Uldum Tour
 
 local UngoroCrater = ns.maps[78] or Map({id = 78, settings = true})
 UngoroCrater.nodes[53379308] = Dragonrace({
@@ -650,6 +686,8 @@ local DRAGONRACE_POI = {
     -- Kalimdor
     [7494] = 58181079, -- Fel Flyby
     [7495] = 68836804, -- Winter Wander
+    -- [7496] = 56702790, -- Nordrassil Spiral
+    -- [7497] = 21905420, -- Hyjal Hotfoot
     [7498] = 67202617, -- Rocketway Ride
     [7499] = 37043058, -- Ashenvale Ambit
     [7500] = 56906286, -- Durotar Tour
@@ -658,8 +696,9 @@ local DRAGONRACE_POI = {
     [7503] = 41431300, -- Barrens Divide Dive
     [7504] = 42809308, -- Razorfen Roundabout
     [7505] = 09731735, -- Thousand Needles Thread
-    [7506] = 64125436, -- Feralas Ruins Ramble
+    -- [7506] = 64105540, -- Feralas Ruins Ramble
     [7507] = 39548419, -- Ahn'Qiraj Circuit
+    -- [7508] = 55804420, -- Uldum Tour
     [7509] = 53379308 -- Un'Goro Crater Circuit
     -- Eastern Kingdoms
     -- [] = true, --

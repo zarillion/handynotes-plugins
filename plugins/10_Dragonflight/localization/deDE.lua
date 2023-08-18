@@ -735,7 +735,7 @@ Du brauchst folgende Gegenstände, um den Talisman zu kaufen:
 ]]
 L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nWird von {npc:52530} in den {location:Feuerlanden} während des Zeitwanderungsevents fallen gelassen.'
 L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nKann in {object:Kochtöpfen}, in den {location:Spitzen von Arak}, gefunden werden.'
-L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nWird selten von {npc:6520} in der mitte des {location:Un\'Goro Kraters} {dot:Gray} falle gelassen. Sie teilen sich den Spawnpunkt mit {npc:6521}, welche aber keine {item:199092} fallen lassen, also töte unbedingt beide.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nWird selten von {npc:6520} in der mitte des {location:Un\'Goro Kraters} {dot:Gray} falle gelassen. Sie teilen sich den Spawnpunkt mit {npc:6521}, welche aber keine {item:199092} fallen lassen, also töte unbedingt beide.' -- update
 L['phoenix_wishwing_smoldering_ash'] = [[
 %s {item:199080}
 
@@ -802,6 +802,10 @@ L['ponzo_note'] = 'Tausche {item:204985} gegen Drachenanpassungen, ein Reittier,
 L['smelly_trash_pile_label'] = 'Stinkender Müllhaufen'
 L['options_icons_smelly_trash_pile'] = 'Stinkender Müllhaufen'
 L['options_icons_smelly_trash_pile_desc'] = 'Zeigt die möglichen Positionen der {object:Stinkenden Müllhaufen} an.'
+
+L['smelly_treasure_chest_label'] = nil
+L['options_icons_smelly_treasure_chest'] = nil
+L['options_icons_smelly_treasure_chest_desc'] = nil
 
 L['seething_cache_treasure_note'] = 'Sammle von {object:Brodelnde Kugel} 3x Stapel des Schwächungszaubers {spell:399342}, um die Truhe sehen und öffnen zu können.'
 L['chest_of_the_flights_treasure_note'] = 'Aktiviere {object:Ermächtigter Edelsteine} in der Reihenfolge {note:Rot > Schwarz > Blau > Gelb > Grün}, um die Truhe öffnen zu können.'
