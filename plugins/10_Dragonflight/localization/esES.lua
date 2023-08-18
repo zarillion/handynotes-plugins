@@ -762,7 +762,7 @@ L['naszuro_dragonheart_outpost'] = 'En la rama del árbol.'
 
 L['in_deepflayer_nest'] = 'Dentro del {location:Nido de los Despellejadores}.'
 
-L['brulsef_the_stronk_note'] = 'Despoja tus recompensas del {object:Cofre de Enormes Beneficios}.\n\n{bug:No le dejes ir muy lejos de la posición inicial o no habrá ningún cofre tras derrotarlo.}'
+L['brulsef_the_stronk_note'] = 'Despoja tus recompensas del {object:Cofre de Enormes Beneficios}.\n\n{bug:No le derrotes mientras esté canalizando {spell:412495} o lanzando {spell:412492}, o no habrá ningún cofre tras derrotarlo.}'
 
 L['ancient_zaqali_chest_note'] = 'Usa el {object:Magma Embotellado} cercano para abrir el cofre.'
 L['blazing_shadowflame_chest_note'] = 'Equipa la {item:15138}, que se puede comprar en la Casa de Subastas o crease por un peletero, para despojar el cofre.'
