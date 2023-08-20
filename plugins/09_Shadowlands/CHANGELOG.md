@@ -1,3 +1,7 @@
+# v57
+
+* Added a change to prevent WorldMapPinMixin taint.
+
 # v56
 
 * Fixed an error where EJ_GetTierInfo was called too early in the load process.
