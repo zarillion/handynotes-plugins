@@ -1,3 +1,12 @@
+# v41
+
+* Fixed an incorrect ID for Windborne Velocidrake: Exposed Finned Back.
+* Added a change to prevent WorldMapPinMixin taint.
+* Added Tripletath the Lost rare in the Forbidden Reach.
+* Added Zal'kir the Chosen rare in Thaldraszus.
+* Added Smelly Treasure Chest locations in Thaldraszus.
+* Dragonriding race updates.
+
 # v40
 
 * Added "Many Boxes, Many Rockses" achievement.
