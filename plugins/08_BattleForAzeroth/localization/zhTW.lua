@@ -27,6 +27,11 @@ L['dilbert_mcclint_note'] = nil
 L['fizzie_spark_note'] = nil
 L['michael_skarn_note'] = nil
 
+L['cursed_hunter_label'] = nil
+L['cursed_hunter_note'] = nil
+L['options_icons_cursed_hunter_desc'] = nil
+L['options_icons_cursed_hunter'] = nil
+
 L['drust_facts_note'] = nil
 L['stele_forest_note'] = nil
 L['options_icons_drust_facts_desc'] = nil

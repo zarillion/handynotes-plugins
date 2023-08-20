@@ -35,6 +35,8 @@ ns.groups.FABIOUS = Group('fabious', 2741477, {defaults = ns.GROUP_HIDDEN})
 ns.groups.COFFERS = Group('coffers', 'star_chest_g')
 ns.groups.DAILY_CHESTS = Group('daily_chests', 'chest_bl',
     {defaults = ns.GROUP_ALPHA75})
+ns.groups.CURSED_HUNTER = Group('cursed_hunter', 1027879,
+    {defaults = ns.GROUP_HIDDEN})
 ns.groups.DRUST_FACTS = Group('drust_facts', 2101971,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.DUNE_RIDER = Group('dune_rider', 134962, {defaults = ns.GROUP_HIDDEN})

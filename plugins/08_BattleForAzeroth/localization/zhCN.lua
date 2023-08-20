@@ -35,6 +35,11 @@ L['dilbert_mcclint_note'] = '嗨，害虫防治专家呆伯特·麦克林特向�
 L['fizzie_spark_note'] = '你觉得你的宠物有机会打败我注入了艾泽里特的队伍？想得美！'
 L['michael_skarn_note'] = '一旦我们开始战斗，你得记住这是你自找的。'
 
+L['cursed_hunter_label'] = '被诅咒的动物'
+L['cursed_hunter_note'] = '击杀每种类型的被诅咒动物一次即可获得成就。'
+L['options_icons_cursed_hunter_desc'] = '显示 {achievement:13094} 成就中被诅咒的动物的位置。'
+L['options_icons_cursed_hunter'] = '{achievement:13094}'
+
 L['drust_facts_note'] = '阅读全部石碑获得成就。'
 L['stele_forest_note'] = '{location:奥尔法的兽穴} 内。'
 L['options_icons_drust_facts_desc'] = '显示 {achievement:13064} 成就中石碑的位置。'

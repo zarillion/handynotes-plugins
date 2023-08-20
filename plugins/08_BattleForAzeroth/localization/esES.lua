@@ -36,6 +36,11 @@ L['dilbert_mcclint_note'] = 'Hola, me llamo {npc:140461}, y trabajo en el sector
 L['fizzie_spark_note'] = '¿Crees que tus mascotas tienen alguna posibilidad frente a mi equipo imbuido de azerita? ¡Qué más quisieras!'
 L['michael_skarn_note'] = 'Recuerda que fuistes tú quien pidió esto.'
 
+L['cursed_hunter_label'] = 'Animales Malditos'
+L['cursed_hunter_note'] = 'Mata a un ejemplar de cada tipo de los animales malditos en Drustvar para conseguir el logro.'
+L['options_icons_cursed_hunter_desc'] = 'Muestra dónde están los animales para el logro {achievement:13094}.'
+L['options_icons_cursed_hunter'] = '{achievement:13094}'
+
 L['drust_facts_note'] = 'Lee todas las estelas Drust para conseguir el logro.'
 L['stele_forest_note'] = 'Dentro de la {location:Guarida de Ulfar}.'
 L['options_icons_drust_facts_desc'] = 'Muestra dónde están las estelas Drust para el logro {achievement:13064}.'

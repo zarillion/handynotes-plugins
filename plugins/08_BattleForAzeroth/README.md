@@ -60,6 +60,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Sea shanty locations for the [Shanty Raid](https://www.wowhead.com/achievement=13057/shanty-raid) achievement
 * Vendor locations for the [Sausage Sampler](https://www.wowhead.com/achievement=13087/sausage-sampler) achievement.
 * Vendor locations for the [Three Sheets to the Wind](https://www.wowhead.com/achievement=13061/three-sheets-to-the-wind) achievement.
+* Animals for the [Cursed Game Hunter](https://www.wowhead.com/achievement=13094/cursed-game-hunter) achievement.
 
 ### Zandalar
 
