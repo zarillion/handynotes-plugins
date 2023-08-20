@@ -1,3 +1,8 @@
+# v17
+
+* Added a change to prevent WorldMapPinMixin taint.
+* Added the Cursed Game Hunter achievement (thanks dgodfrey!)
+
 # v16
 
 * Fixed an error where EJ_GetTierInfo was called too early in the load process.
