@@ -737,6 +737,10 @@ L['smelly_trash_pile_label'] = nil
 L['options_icons_smelly_trash_pile'] = nil
 L['options_icons_smelly_trash_pile_desc'] = nil
 
+L['smelly_treasure_chest_label'] = nil
+L['options_icons_smelly_treasure_chest'] = nil
+L['options_icons_smelly_treasure_chest_desc'] = nil
+
 L['seething_cache_treasure_note'] = nil
 L['chest_of_the_flights_treasure_note'] = nil
 L['curious_top_hat_note'] = nil

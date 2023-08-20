@@ -734,7 +734,7 @@ Lo vende {npc:88045} {dot:Gold} en las {location:Cumbres de Arak}. Si {npc:88045
 Necesitarás los siguientes objetos para comprarlo:]]
 L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nEs botín de {npc:52530} en el {location:Paseo en el tiempo: Tierras de Fuego}.'
 L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nSe pueden encontrar dentro de {object:Ollas}, alrededor de las {location:Cumbres de Arak}.'
-L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nEs un botín raro de los {npc:6520} que hay en el centro del {location:Cráter de Un\'Goro} {dot:Gray}. Estos comparten punto de aparición (pero no su botín) con las {npc:6521}. Asegúrate de matar a todo.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nEs un botín raro de los {npc:6520} y de las {npc:6521} que hay en el centro del {location:Cráter de Un\'Goro}. {dot:Gray}'
 L['phoenix_wishwing_smoldering_ash'] = [[
 %s {item:199080}
 
@@ -762,7 +762,7 @@ L['naszuro_dragonheart_outpost'] = 'En la rama del árbol.'
 
 L['in_deepflayer_nest'] = 'Dentro del {location:Nido de los Despellejadores}.'
 
-L['brulsef_the_stronk_note'] = 'Despoja tus recompensas del {object:Cofre de Enormes Beneficios}.\n\n{bug:No le dejes ir muy lejos de la posición inicial o no habrá ningún cofre tras derrotarlo.}'
+L['brulsef_the_stronk_note'] = 'Despoja tus recompensas del {object:Cofre de Enormes Beneficios}.\n\n{bug:No le derrotes mientras esté canalizando {spell:412495} o lanzando {spell:412492}, o no habrá ningún cofre tras derrotarlo.}'
 
 L['ancient_zaqali_chest_note'] = 'Usa el {object:Magma Embotellado} cercano para abrir el cofre.'
 L['blazing_shadowflame_chest_note'] = 'Equipa la {item:15138}, que se puede comprar en la Casa de Subastas o crease por un peletero, para despojar el cofre.'
@@ -801,6 +801,10 @@ L['ponzo_note'] = 'Cambia {item:204985} por personalizaciones para el draco, mas
 L['smelly_trash_pile_label'] = 'Montón de Basura Maloliente'
 L['options_icons_smelly_trash_pile'] = 'Montón de Basura Maloliente'
 L['options_icons_smelly_trash_pile_desc'] = 'Muestra dónde puede haber {object:Montón de Basura Maloliente}.'
+
+L['smelly_treasure_chest_label'] = 'Arqueta Olorosa'
+L['options_icons_smelly_treasure_chest'] = 'Arqueta Olorosa'
+L['options_icons_smelly_treasure_chest_desc'] = 'Muestra dónde puede haber {object:Arqueta Olorosa}.'
 
 L['seething_cache_treasure_note'] = 'Para poder ver el {object:Alijo Hirviente} y despojar la {item:192779} necesitarás coger 3 acumulaciones del debuff {spell:399342} de los {object:Orbe Hirviente} que hay en la zona de la {location:Caldera Zaqali} en la {location:Caverna Zaralek}.'
 L['chest_of_the_flights_treasure_note'] = 'Para abrir el cofre necesitarás hacer click en las {object:Gema Potenciada} en el orden {note:Rojo > Negro > Azul > Amarillo > Verde}.'

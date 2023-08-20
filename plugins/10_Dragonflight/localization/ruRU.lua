@@ -734,7 +734,7 @@ L['phoenix_wishwing_talisman'] = [[
 Вам нужны следующие предметы, чтобы купить:]]
 L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nВыпадает из {npc:52530} в {location:Огненных Просторах в режиме Путешествия во времени}'
 L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nМожно найти в {object:Кучках пепла}, в {location:Пиках Арака}.'
-L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nРедко падает с {npc:6520} в центре {location:Кратера Ун\'Горо} {dot:Gray}. Они имеют общие точки возрождения с {npc:6521} (но не выпадают из них), поэтому убедитесь, что вы убили обоих.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nРедко падает с {npc:6520} в центре {location:Кратера Ун\'Горо} {dot:Gray}. Они имеют общие точки возрождения с {npc:6521} (но не выпадают из них), поэтому убедитесь, что вы убили обоих.' -- edit
 L['phoenix_wishwing_smoldering_ash'] = [[
 %s {item:199080}
 
@@ -801,6 +801,10 @@ L['ponzo_note'] = 'Обменяйте {item:204985} на манускрипты 
 L['smelly_trash_pile_label'] = 'Пахучая куча мусора'
 L['options_icons_smelly_trash_pile'] = 'Пахучая куча мусора'
 L['options_icons_smelly_trash_pile_desc'] = 'Показать возможные местоположения {object:Пахучих куч мусора}.'
+
+L['smelly_treasure_chest_label'] = nil
+L['options_icons_smelly_treasure_chest'] = nil
+L['options_icons_smelly_treasure_chest_desc'] = nil
 
 L['seething_cache_treasure_note'] = 'Чтобы иметь возможность увидеть {object:Дымящийся тайник} и получить {item:192779}, вам нужно собрать 3 стака {spell:399342} дебаффа от {object:Дымящихся сфер}, расположенных в области {location:Кальдера Закали} в {location:пещере Заралек}.'
 L['chest_of_the_flights_treasure_note'] = 'Чтобы открыть сундук с сокровищами, вам нужно нажать на {object:Усиленные самоцветы} в следующем порядке {note:Красный > Черный > Синий > Желтый > Зеленый}.'

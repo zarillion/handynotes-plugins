@@ -733,7 +733,7 @@ L['phoenix_wishwing_talisman'] = [[
 你需要下列物品來購買它:]]
 L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\n在 {location:時光漫遊火源之界} 的 {npc:52530} 掉落.'
 L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\n可以在 {location:阿拉卡山} 附近的 {object:烹飪鍋} 找到.'
-L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\n由 {location:安戈洛環形山} {dot:Gray} 中間的 {npc:6520} 稀有掉落. 和 {npc:6521} 共享重生點(但是不會掉落物品), 所以請殺掉兩者.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\n由 {location:安戈洛環形山} {dot:Gray} 中間的 {npc:6520} 稀有掉落. 和 {npc:6521} 共享重生點(但是不會掉落物品), 所以請殺掉兩者.' -- edit
 L['phoenix_wishwing_smoldering_ash'] = [[
 %s {item:199080}
 
@@ -800,6 +800,10 @@ L['ponzo_note'] = '用 {item:204985} 和 {item:205903} 交換飛龍自訂, 寵�
 L['smelly_trash_pile_label'] = '臭臭垃圾堆'
 L['options_icons_smelly_trash_pile'] = '臭臭垃圾堆'
 L['options_icons_smelly_trash_pile_desc'] = '顯示 {object:臭臭垃圾堆} 可能的位置.'
+
+L['smelly_treasure_chest_label'] = nil
+L['options_icons_smelly_treasure_chest'] = nil
+L['options_icons_smelly_treasure_chest_desc'] = nil
 
 L['seething_cache_treasure_note'] = '要能夠看到 {object:沸騰貯藏箱} 並拾取 {item:192779}. 你需要在 {location:扎拉萊克洞窟} 的 {location:薩克利火山口} 內, 從 {object:沸騰寶珠} 上取得3層 {spell:399342} 減益.'
 L['chest_of_the_flights_treasure_note'] = '要開啟寶箱你必須按照順序點選 {object:Empowered Gems} {note:紅> 黑 > 藍 > 黃 > 綠}.'

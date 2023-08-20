@@ -581,7 +581,7 @@ Verfolge die erscheinende {npc:198590} bis auf einen Ast hinter {npc:197232}. We
 Geh zu {npc:198062} und schließe die Quest ab, um {item:200872} zu erhalten.
 ]]
 
-L['little_scales_daycare_note'] = 'Du musst eine Questlinie über mehrere tage abschließen, startend mit {quest:72664} von {npc:197478}, um diesen Erfolg und das Haustier zu erhalten.'
+L['little_scales_daycare_note'] = 'Du musst eine mehrtägige Questreihe abschließen, die mit der Quest {quest:72664} von {npc:197478} startet, um diesen Erfolg und das Haustier zu erhalten.'
 L['naszuro_veiled_ossuary'] = 'Neben dem kleinen Schrein.'
 L['naszuro_algethar_academy'] = 'Auf dem Vorsprung der Turmspitze.'
 L['naszuro_vault_of_the_incarnates'] = 'Neben dem Fuß der Statue.'
@@ -735,7 +735,7 @@ Du brauchst folgende Gegenstände, um den Talisman zu kaufen:
 ]]
 L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nWird von {npc:52530} in den {location:Feuerlanden} während des Zeitwanderungsevents fallen gelassen.'
 L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nKann in {object:Kochtöpfen}, in den {location:Spitzen von Arak}, gefunden werden.'
-L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nWird selten von {npc:6520} in der mitte des {location:Un\'Goro Kraters} {dot:Gray} falle gelassen. Sie teilen sich den Spawnpunkt mit {npc:6521}, welche aber keine {item:199092} fallen lassen, also töte unbedingt beide.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nWird selten von {npc:6520} und {npc:6521} in der mitte des {location:Un\'Goro Kraters} {dot:Gray} falle gelassen.'
 L['phoenix_wishwing_smoldering_ash'] = [[
 %s {item:199080}
 
@@ -763,7 +763,7 @@ L['naszuro_dragonheart_outpost'] = 'In den Ästen des Baumes.'
 
 L['in_deepflayer_nest'] = 'Im {location:Tiefenschindernest}.'
 
-L['brulsef_the_stronk_note'] = 'Du erhältst deine Belohnung aus der {object:Truhe der massiven Muckis}.\n\n{bug:Bewege ihn nicht zu weit von der Ausgangsposition weg, ansonst kann es sein, dass nach dem Sieg über ihn keine Truhe erscheint.}'
+L['brulsef_the_stronk_note'] = 'Du erhältst deine Belohnung aus der {object:Truhe der massiven Muckis}.\n\n{bug:Besiege ihn nicht, solange er {spell:412495} kanalisiert oder {spell:412492} zaubert, ansonst kann es sein, dass nach dem Sieg über ihn keine Truhe erscheint.}'
 
 L['ancient_zaqali_chest_note'] = 'Benutze das {object:Abgefüllte Magma} in der Nähe, um die Kiste zu öffnen.'
 L['blazing_shadowflame_chest_note'] = 'Lege den {item:15138} an, der im Auktionshaus gekauft oder von einem Lederverarbeiter hergestellt werden kann, um die Truhe öffnen zu können.'
@@ -802,6 +802,10 @@ L['ponzo_note'] = 'Tausche {item:204985} gegen Drachenanpassungen, ein Reittier,
 L['smelly_trash_pile_label'] = 'Stinkender Müllhaufen'
 L['options_icons_smelly_trash_pile'] = 'Stinkender Müllhaufen'
 L['options_icons_smelly_trash_pile_desc'] = 'Zeigt die möglichen Positionen der {object:Stinkenden Müllhaufen} an.'
+
+L['smelly_treasure_chest_label'] = 'Stinkende Schatztruhe'
+L['options_icons_smelly_treasure_chest'] = 'Stinkende Schatztruhe'
+L['options_icons_smelly_treasure_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Stinkende Schatztruhe} an.'
 
 L['seething_cache_treasure_note'] = 'Sammle von {object:Brodelnde Kugel} 3x Stapel des Schwächungszaubers {spell:399342}, um die Truhe sehen und öffnen zu können.'
 L['chest_of_the_flights_treasure_note'] = 'Aktiviere {object:Ermächtigter Edelsteine} in der Reihenfolge {note:Rot > Schwarz > Blau > Gelb > Grün}, um die Truhe öffnen zu können.'

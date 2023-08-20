@@ -733,7 +733,7 @@ This is sold by {npc:88045} {dot:Gold} in {location:Spires of Arak}. If {npc:880
 You need following Items to buy it:]]
 L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nDrops from {npc:52530} in {location:Firelands Timewalking}'
 L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nCan be found within {object:Cookpots}, located around {location:Spires of Arak}.'
-L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nDrops rarely from {npc:6520} at the center of {location:Un\'Goro Crater} {dot:Gray}. These share spawn points with (but do not drop from) {npc:6521} so make sure you kill both.'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nDrops rarely from {npc:6520} and {npc:6521} at the center of {location:Un\'Goro Crater} {dot:Gray}'
 L['phoenix_wishwing_smoldering_ash'] = [[
 %s {item:199080}
 
@@ -761,7 +761,7 @@ L['naszuro_dragonheart_outpost'] = 'In the branches of the tree.'
 
 L['in_deepflayer_nest'] = 'Within {location:Deepflayer Nest}'
 
-L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.\n\n{bug:Don\'t let him leave the initial position far away, otherwise there will be no chest after defeating him.}'
+L['brulsef_the_stronk_note'] = 'Loot your rewards from the {object:Chest of Massive Gains}.\n\n{bug:Don\'t defeat him while he\'s channeling {spell:412495} or casting {spell:412492}, otherwise there will be no chest after defeating him.}'
 
 L['ancient_zaqali_chest_note'] = 'Use a nearby {object:Bottled Magma} to open the chest.'
 L['blazing_shadowflame_chest_note'] = 'Equip the {item:15138}, which can be bought from the auction house or crafted by a leatherworker, to loot the chest.'
@@ -800,6 +800,10 @@ L['ponzo_note'] = 'Exchange {item:204985} for drake customizations, pet, mount, 
 L['smelly_trash_pile_label'] = 'Smelly Trash Pile'
 L['options_icons_smelly_trash_pile'] = 'Smelly Trash Pile'
 L['options_icons_smelly_trash_pile_desc'] = 'Display possible locations of {object:Smelly Trash Pile}.'
+
+L['smelly_treasure_chest_label'] = 'Smelly Treasure Chest'
+L['options_icons_smelly_treasure_chest'] = 'Smelly Treasure Chest'
+L['options_icons_smelly_treasure_chest_desc'] = 'Display possible locations of {object:Smelly Treasure Chest}.'
 
 L['seething_cache_treasure_note'] = 'To be able to see the {object:Seething Cache} and loot the {item:192779} you\'ll need to pick up 3x stacks of a {spell:399342} debuff from {object:Seething Orbs} located in the {location:Zaqali Caldera} area in {location:Zaralek Cavern}.'
 L['chest_of_the_flights_treasure_note'] = 'To open the treasure chest you need to click on the {object:Empowered Gems} in the order {note:Red > Black > Blue > Yellow > Green}.'
