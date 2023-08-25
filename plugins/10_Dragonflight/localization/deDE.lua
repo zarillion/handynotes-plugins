@@ -757,10 +757,10 @@ L['naszuro_obsidian_throne'] = 'Auf der linken Seite des Throns, wo sich {npc:18
 L['naszuro_ruby_lifeshrine'] = 'Unter der Klaue der Drachenstatue.'
 L['naszuro_dragonheart_outpost'] = 'In den Ästen des Baumes.'
 
-L['box_of_rocks_label'] = nil
-L['box_of_rocks_note'] = nil
+L['box_of_rocks_label'] = 'Kasten mit Steinen'
+L['box_of_rocks_note'] = '{object:Kasten mit Steinen} kann in {location:Die Küste des Erwachens} und im {location:Gewölbe von Zskera} gefunden werden oder im Auktionshaus gekauft werden.'
 L['options_icons_many_boxes'] = '{achievement:18559}'
-L['options_icons_many_boxes_desc'] = nil
+L['options_icons_many_boxes_desc'] = 'Zeigt die möglichen Positionen von {object:Kasten mit Steinen} für den Erfolg {achievement:18559} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
