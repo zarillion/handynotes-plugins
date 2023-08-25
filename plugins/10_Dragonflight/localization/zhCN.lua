@@ -755,6 +755,11 @@ L['naszuro_obsidian_throne'] = '在宝座的左侧，{npc:185894} 和 {npc:18749
 L['naszuro_ruby_lifeshrine'] = '龙雕像爪子的下面。'
 L['naszuro_dragonheart_outpost'] = '在树的树枝上。'
 
+L['box_of_rocks_label'] = nil
+L['box_of_rocks_note'] = nil
+L['options_icons_many_boxes'] = '{achievement:18559}'
+L['options_icons_many_boxes_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------

@@ -292,6 +292,12 @@ ns.groups.LIBRARY = Group('librarian_of_the_reach', 4549135, {
     achievement = 17530
 })
 
+ns.groups.MANY_BOXES = Group('many_boxes', 132762, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 18559
+})
+
 ns.groups.NEW_PERSPECTIVE = Group('new_perspective', 1109100, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

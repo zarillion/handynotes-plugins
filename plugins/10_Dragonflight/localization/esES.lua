@@ -756,6 +756,11 @@ L['naszuro_obsidian_throne'] = 'En el lado izquierdo del trono donde están {npc
 L['naszuro_ruby_lifeshrine'] = 'Bajo la garra de la estatua de dragón.'
 L['naszuro_dragonheart_outpost'] = 'En la rama del árbol.'
 
+L['box_of_rocks_label'] = nil
+L['box_of_rocks_note'] = nil
+L['options_icons_many_boxes'] = '{achievement:18559}'
+L['options_icons_many_boxes_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------

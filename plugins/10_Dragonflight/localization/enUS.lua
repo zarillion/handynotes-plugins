@@ -755,6 +755,11 @@ L['naszuro_obsidian_throne'] = 'On the left side of the throne where {npc:185894
 L['naszuro_ruby_lifeshrine'] = 'Under the claw of the dragon statue.'
 L['naszuro_dragonheart_outpost'] = 'In the branches of the tree.'
 
+L['box_of_rocks_label'] = 'Box of Rocks'
+L['box_of_rocks_note'] = '{object:Box of Rocks} can be found around {location:The Waking Shore}, within {location:Zskera Vaults}, or purchased from the auction house.'
+L['options_icons_many_boxes'] = '{achievement:18559}'
+L['options_icons_many_boxes_desc'] = 'Show possible {object:Box of Rocks} locations for {achievement:18559}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------

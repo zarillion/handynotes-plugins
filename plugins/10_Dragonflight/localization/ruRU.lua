@@ -756,6 +756,11 @@ L['naszuro_obsidian_throne'] = 'С левой стороны трона, где 
 L['naszuro_ruby_lifeshrine'] = 'Под когтем статуи дракона.'
 L['naszuro_dragonheart_outpost'] = 'В ветвях дерева.'
 
+L['box_of_rocks_label'] = nil
+L['box_of_rocks_note'] = nil
+L['options_icons_many_boxes'] = '{achievement:18559}'
+L['options_icons_many_boxes_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------

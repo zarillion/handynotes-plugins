@@ -691,6 +691,11 @@ L['naszuro_obsidian_throne'] = nil
 L['naszuro_ruby_lifeshrine'] = nil
 L['naszuro_dragonheart_outpost'] = nil
 
+L['box_of_rocks_label'] = nil
+L['box_of_rocks_note'] = nil
+L['options_icons_many_boxes'] = '{achievement:18559}'
+L['options_icons_many_boxes_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
