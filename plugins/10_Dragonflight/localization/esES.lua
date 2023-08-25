@@ -756,10 +756,10 @@ L['naszuro_obsidian_throne'] = 'En el lado izquierdo del trono donde están {npc
 L['naszuro_ruby_lifeshrine'] = 'Bajo la garra de la estatua de dragón.'
 L['naszuro_dragonheart_outpost'] = 'En la rama del árbol.'
 
-L['box_of_rocks_label'] = nil
-L['box_of_rocks_note'] = nil
+L['box_of_rocks_label'] = 'Caja de Piedras'
+L['box_of_rocks_note'] = 'Las {object:Caja de Piedras} pueden encontrarse a lo largo de {location:Orillas del Despertar} y dentro de las {location:Cámaras de Zskera}, o compradas en la Casa de Subastas.'
 L['options_icons_many_boxes'] = '{achievement:18559}'
-L['options_icons_many_boxes_desc'] = nil
+L['options_icons_many_boxes_desc'] = 'Muestra dónde pueden estar las {object:Caja de Piedras} para el logro {achievement:18559}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
