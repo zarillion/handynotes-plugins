@@ -753,10 +753,10 @@ L['naszuro_obsidian_throne'] = 'Sur le côté gauche du trône où se trouvent {
 L['naszuro_ruby_lifeshrine'] = 'Sous la griffe de la statue du dragon.'
 L['naszuro_dragonheart_outpost'] = 'Sur les branches de l\'arbre.'
 
-L['box_of_rocks_label'] = nil
-L['box_of_rocks_note'] = nil
+L['box_of_rocks_label'] = 'Boîte de pierres'
+L['box_of_rocks_note'] = 'Les {object:Boîtes de pierres} peuvent être trouvées aux {location:Rivages de l’Éveil}, à l\'intérieur des {location:Caveaux de Zskera}, ou achetées à l\'hôtel des ventes.'
 L['options_icons_many_boxes'] = '{achievement:18559}'
-L['options_icons_many_boxes_desc'] = nil
+L['options_icons_many_boxes_desc'] = 'Afficher les emplacements possibles des {object:Boîtes de pierres} pour le haut-fait {achievement:18559}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
