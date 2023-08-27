@@ -585,6 +585,9 @@ L['naszuro_vault_of_the_incarnates'] = '雕像脚下。'
 L['naszuro_thaldraszus_peak'] = '第二高的山峰上。'
 L['naszuro_temporal_conflux'] = '在龙雕像的头上。'
 
+L['revival_catalyst_label'] = nil
+L['revival_catalyst_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

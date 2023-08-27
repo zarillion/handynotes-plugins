@@ -585,6 +585,9 @@ L['naszuro_vault_of_the_incarnates'] = 'At the foot of the statue.'
 L['naszuro_thaldraszus_peak'] = 'On a secondary peak of the mountain.'
 L['naszuro_temporal_conflux'] = 'On the head of the dragon statue.'
 
+L['revival_catalyst_label'] = 'Revival Catalyst'
+L['revival_catalyst_note'] = 'Convert non-tier gear into an equivalent item level and gear slot Tier piece.'
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

@@ -548,6 +548,9 @@ L['naszuro_vault_of_the_incarnates'] = nil
 L['naszuro_thaldraszus_peak'] = nil
 L['naszuro_temporal_conflux'] = nil
 
+L['revival_catalyst_label'] = nil
+L['revival_catalyst_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

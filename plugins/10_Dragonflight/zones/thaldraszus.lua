@@ -1652,6 +1652,14 @@ map.nodes[62618507] = ns.node.MoteOfNaszuro({
     note = L['naszuro_temporal_conflux']
 }) -- Temporal Conflux
 
+-------------------------------------------------------------------------------
+
+map.nodes[59735374] = ns.node.Node({
+    label = L['revival_catalyst_label'],
+    icon = 4914678,
+    note = L['revival_catalyst_note']
+}) -- Revival Catalyst
+
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
 local Rumiastrasza = Class('Rumiastrasza', Collectible, {

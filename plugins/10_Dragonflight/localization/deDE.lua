@@ -588,6 +588,9 @@ L['naszuro_vault_of_the_incarnates'] = 'Neben dem Fuß der Statue.'
 L['naszuro_thaldraszus_peak'] = 'Auf einem Nebengipfel des Berges.'
 L['naszuro_temporal_conflux'] = 'Auf dem Kopf der Drachenstatue.'
 
+L['revival_catalyst_label'] = nil
+L['revival_catalyst_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
