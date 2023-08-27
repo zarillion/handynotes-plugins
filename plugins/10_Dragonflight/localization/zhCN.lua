@@ -755,10 +755,10 @@ L['naszuro_obsidian_throne'] = '在宝座的左侧，{npc:185894} 和 {npc:18749
 L['naszuro_ruby_lifeshrine'] = '龙雕像爪子的下面。'
 L['naszuro_dragonheart_outpost'] = '在树的树枝上。'
 
-L['box_of_rocks_label'] = nil
-L['box_of_rocks_note'] = nil
+L['box_of_rocks_label'] = '一箱岩石'
+L['box_of_rocks_note'] = '{object:一箱岩石} 可以在 {location:觉醒海岸} 周围的 {location:兹斯克拉宝库} 内找到，或者从拍卖行购买。'
 L['options_icons_many_boxes'] = '{achievement:18559}'
-L['options_icons_many_boxes_desc'] = nil
+L['options_icons_many_boxes_desc'] = '显示 {achievement:18559} 成就中 {object:一箱岩石} 可能的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
