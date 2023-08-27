@@ -47,30 +47,30 @@ local deepflayerNest = Map({id = 2184, settings = false}) -- Deepflayer Nest
 -- Interval ID 3 -> Loamm Zone
 -- Interval ID 4 -> Aberrus Zone
 
-local ZaralekRotation = Class('ZaralekRotation', ns.Interval, {
-    initial = {eu = 1683259200, us = 1683298800, tw = 1683414000},
-    offset = 86400,
-    interval = 86400
-})
+-- local ZaralekRotation = Class('ZaralekRotation', ns.Interval, {
+--     initial = {eu = 1683259200, us = 1683298800, tw = 1683414000},
+--     offset = 86400,
+--     interval = 86400
+-- })
 
-function ZaralekRotation:GetText()
-    local isInactive = math.floor(self:Next() / self.interval) % 4 + 1
-    local text = self.event and L['zaralek_event_active'] or
-                     L['zaralek_rare_active']
-    if self.id == isInactive then
-        text = self.event and L['zaralek_event_inactive'] or
-                   L['zaralek_rare_inactive']
-    end
-    ns.PrepareLinks(text)
-    return text
-end
+-- function ZaralekRotation:GetText()
+--     local isInactive = math.floor(self:Next() / self.interval) % 4 + 1
+--     local text = self.event and L['zaralek_event_active'] or
+--                      L['zaralek_rare_active']
+--     if self.id == isInactive then
+--         text = self.event and L['zaralek_event_inactive'] or
+--                    L['zaralek_rare_inactive']
+--     end
+--     ns.PrepareLinks(text)
+--     return text
+-- end
 
 map.nodes[56247389] = Rare({
     id = 203515,
     vignette = 5643,
     quest = 75284,
     location = L['in_small_cave'],
-    interval = ZaralekRotation({id = 2}),
+    -- interval = ZaralekRotation({id = 2}),
     rewards = {
         Achievement({id = 17783, criteria = 59188}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59491}), -- Cavern Clawbbering
@@ -86,7 +86,7 @@ map.nodes[48367509] = Rare({
     id = 203468,
     vignette = 5640,
     quest = 75270,
-    interval = ZaralekRotation({id = 1}),
+    -- interval = ZaralekRotation({id = 1}),
     rewards = {
         Achievement({id = 17783, criteria = 59185}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59492}), -- Cavern Clawbbering
@@ -102,7 +102,7 @@ map.nodes[41518613] = Rare({
     vignette = 5652,
     quest = 75325,
     note = L['brulsef_the_stronk_note'],
-    interval = ZaralekRotation({id = 1}),
+    -- interval = ZaralekRotation({id = 1}),
     rewards = {
         Achievement({id = 17783, criteria = 59202}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59493}), -- Cavern Clawbbering
@@ -116,7 +116,7 @@ map.nodes[48372384] = Rare({
     id = 204093,
     vignette = 5674,
     quest = 75475,
-    interval = ZaralekRotation({id = 4}),
+    -- interval = ZaralekRotation({id = 4}),
     rewards = {
         Achievement({id = 17783, criteria = 59212}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59494}), -- Cavern Clawbbering
@@ -131,7 +131,7 @@ map.nodes[31805061] = Rare({
     id = 203664,
     vignette = 5663,
     quest = 75361,
-    interval = ZaralekRotation({id = 0}),
+    -- interval = ZaralekRotation({id = 0}),
     rewards = {
         Achievement({id = 17783, criteria = 59209}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59495}), -- Cavern Clawbbering
@@ -145,7 +145,7 @@ map.nodes[36324481] = Rare({
     vignette = 5661,
     quest = 75357,
     location = L['in_small_cave'],
-    interval = ZaralekRotation({id = 0}),
+    -- interval = ZaralekRotation({id = 0}),
     rewards = {
         Achievement({id = 17783, criteria = 59207}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59496}), -- Cavern Clawbbering
@@ -159,7 +159,7 @@ map.nodes[41921857] = Rare({
     id = 203592,
     vignette = 5645,
     quest = 75295,
-    interval = ZaralekRotation({id = 4}),
+    -- interval = ZaralekRotation({id = 4}),
     rewards = {
         Achievement({id = 17783, criteria = 59190}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59497}), -- Cavern Clawbbering
@@ -176,7 +176,7 @@ map.nodes[68734593] = Rare({
     id = 203477,
     vignette = 5641,
     quest = 75273,
-    interval = ZaralekRotation({id = 3}),
+    -- interval = ZaralekRotation({id = 3}),
     rewards = {
         Achievement({id = 17783, criteria = 59186}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59498}), -- Cavern Clawbbering
@@ -190,7 +190,7 @@ map.nodes[45673327] = Rare({
     id = 203627,
     vignette = 5654,
     quest = 75335,
-    interval = ZaralekRotation({id = 4}),
+    -- interval = ZaralekRotation({id = 4}),
     rewards = {
         Achievement({id = 17783, criteria = 59200}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59499}), -- Cavern Clawbbering
@@ -204,7 +204,7 @@ map.nodes[28515115] = Rare({
     id = 203646,
     vignette = 5660,
     quest = 75352,
-    interval = ZaralekRotation({id = 0}),
+    -- interval = ZaralekRotation({id = 0}),
     rewards = {
         Achievement({id = 17783, criteria = 59206}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59500}), -- Cavern Clawbbering
@@ -220,7 +220,7 @@ map.nodes[42226524] = Rare({
     id = 203625,
     vignette = 5653,
     quest = 75333,
-    interval = ZaralekRotation({id = 1}),
+    -- interval = ZaralekRotation({id = 1}),
     rewards = {
         Achievement({id = 17783, criteria = 59199}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59501}), -- Cavern Clawbbering
@@ -238,7 +238,7 @@ map.nodes[59593949] = Rare({
     id = 203466,
     vignette = 5639,
     quest = 75268,
-    interval = ZaralekRotation({id = 3}),
+    -- interval = ZaralekRotation({id = 3}),
     rewards = {
         Achievement({id = 17783, criteria = 59184}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59502}), -- Cavern Clawbbering
@@ -253,7 +253,7 @@ map.nodes[54074162] = Rare({
     id = 203618,
     vignette = 5651,
     quest = 75321,
-    interval = ZaralekRotation({id = 3}),
+    -- interval = ZaralekRotation({id = 3}),
     rewards = {
         Achievement({id = 17783, criteria = 59198}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59503}), -- Cavern Clawbbering
@@ -267,7 +267,7 @@ map.nodes[65435587] = Rare({
     vignette = 5638,
     quest = 75266,
     location = L['in_small_cave'],
-    interval = ZaralekRotation({id = 3}),
+    -- interval = ZaralekRotation({id = 3}),
     rewards = {
         Achievement({id = 17783, criteria = 59183}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59504}), -- Cavern Clawbbering
@@ -284,7 +284,7 @@ map.nodes[40753817] = Rare({
     id = 200111,
     vignette = 5656,
     quest = 75339,
-    interval = ZaralekRotation({id = 4}),
+    -- interval = ZaralekRotation({id = 4}),
     rewards = {
         Achievement({id = 17783, criteria = 59203}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59505}), -- Cavern Clawbbering
@@ -302,7 +302,7 @@ map.nodes[55841899] = Rare({
     vignette = 5644,
     quest = 75291,
     location = L['in_cave'],
-    interval = ZaralekRotation({id = 4}),
+    -- interval = ZaralekRotation({id = 4}),
     rewards = {
         Achievement({id = 17783, criteria = 59189}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59506}), -- Cavern Clawbbering
@@ -317,7 +317,7 @@ map.nodes[36205300] = Rare({
     id = 203643,
     vignette = 5659,
     quest = 75348,
-    interval = ZaralekRotation({id = 0}),
+    -- interval = ZaralekRotation({id = 0}),
     rewards = {
         Achievement({id = 17783, criteria = 59205}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59507}), -- Cavern Clawbbering
@@ -334,7 +334,7 @@ map.nodes[53106421] = Rare({
     vignette = 5642,
     quest = 75275,
     location = L['in_small_cave'],
-    interval = ZaralekRotation({id = 2}),
+    -- interval = ZaralekRotation({id = 2}),
     rewards = {
         Achievement({id = 17783, criteria = 59187}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59508}), -- Cavern Clawbbering
@@ -351,7 +351,7 @@ map.nodes[38424650] = Rare({
     id = 203662,
     vignette = 5662,
     quest = 75359,
-    interval = ZaralekRotation({id = 0}),
+    -- interval = ZaralekRotation({id = 0}),
     rewards = {
         Achievement({id = 17783, criteria = 59208}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59509}), -- Cavern Clawbbering
@@ -367,7 +367,7 @@ map.nodes[57766910] = Rare({
     id = 203593,
     vignette = 5646,
     quest = 75297,
-    interval = ZaralekRotation({id = 3}),
+    -- interval = ZaralekRotation({id = 3}),
     rewards = {
         Achievement({id = 17783, criteria = 59191}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59510}), -- Cavern Clawbbering
@@ -382,7 +382,7 @@ map.nodes[38867151] = Rare({
     id = 201029,
     vignette = 5664,
     quest = 75365,
-    interval = ZaralekRotation({id = 1}),
+    -- interval = ZaralekRotation({id = 1}),
     rewards = {
         Achievement({id = 17783, criteria = 59210}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59511}), -- Cavern Clawbbering
@@ -920,7 +920,7 @@ map.nodes[60233957] = ElusiveCrystalscaleStonecleaver
 --------------------------------- ZONE EVENTS ---------------------------------
 -------------------------------------------------------------------------------
 
-local EventRotation = Class('EventRotation', ZaralekRotation, {event = true})
+-- local EventRotation = Class('EventRotation', ZaralekRotation, {event = true})
 
 local ZoneEvent = Class('ZoneEvent', ns.node.Node, {
     group = ns.groups.ZONE_EVENT,
@@ -943,76 +943,93 @@ function ZoneEvent.getters:rlabel()
 end
 
 map.nodes[44507490] = ZoneEvent({
-    quest = 75612,
-    interval = EventRotation({id = 1})
+    quest = 75612
+    -- interval = EventRotation({id = 1})
 }) -- Cascades Calling
+
 map.nodes[63004720] = ZoneEvent({
-    quest = 75471,
-    interval = EventRotation({id = 3})
+    quest = 75471
+    -- interval = EventRotation({id = 3})
 }) -- Crystalline Survey
+
 map.nodes[32104360] = ZoneEvent({
-    quest = 75455,
-    interval = EventRotation({id = 0})
+    quest = 75455
+    -- interval = EventRotation({id = 0})
 }) -- Conspiracy of Flame
+
 map.nodes[56606540] = ZoneEvent({
-    quest = 75664,
-    interval = EventRotation({id = 2})
+    quest = 75664
+    -- interval = EventRotation({id = 2})
 }) -- Discordant Crystals
+
 map.nodes[45008450] = ZoneEvent({
-    quest = 75611,
-    interval = EventRotation({id = 1})
+    quest = 75611
+    -- interval = EventRotation({id = 1})
 }) -- Glimmerfish Before It's Gone
+
 map.nodes[48102020] = ZoneEvent({
-    quest = 75478,
-    interval = EventRotation({id = 4})
+    quest = 75478
+    -- interval = EventRotation({id = 4})
 }) -- Hungry Hungry Hydra
+
 map.nodes[35405230] = ZoneEvent({
-    quest = 75451,
-    interval = EventRotation({id = 0})
+    quest = 75451
+    -- interval = EventRotation({id = 0})
 }) -- Imperfect Balance
+
 map.nodes[46602570] = ZoneEvent({
-    quest = 75461,
-    interval = EventRotation({id = 4})
+    quest = 75461
+    -- interval = EventRotation({id = 4})
 }) -- Magmaclaw Matriarch
+
 map.nodes[61707210] = ZoneEvent({
-    quest = 75705,
-    interval = EventRotation({id = 2})
+    quest = 75705
+    -- interval = EventRotation({id = 2})
 }) -- Monument Maintenance
+
 map.nodes[40204350] = ZoneEvent({
-    quest = 75454,
-    interval = EventRotation({id = 0})
+    quest = 75454
+    -- interval = EventRotation({id = 0})
 }) -- Mortar Warfare
+
 map.nodes[34304770] = ZoneEvent({
-    quest = 75450,
-    interval = EventRotation({id = 0})
+    quest = 75450
+    -- interval = EventRotation({id = 0})
 }) -- Seismic Ceremony
+
 map.nodes[57504890] = ZoneEvent({
-    quest = 75222,
-    interval = EventRotation({id = 3})
+    quest = 75222
+    -- interval = EventRotation({id = 3})
 }) -- Shellfire
+
 map.nodes[60605310] = ZoneEvent({
-    quest = 75370,
-    interval = EventRotation({id = 3})
+    quest = 75370
+    -- interval = EventRotation({id = 3})
 }) -- Smellincense
+
 map.nodes[44902080] = ZoneEvent({
-    quest = 75494,
-    interval = EventRotation({id = 4})
+    quest = 75494
+    -- interval = EventRotation({id = 4})
 }) -- Strike the Colors
+
 map.nodes[57705690] = ZoneEvent({
-    quest = 75441,
-    interval = EventRotation({id = 3})
+    quest = 75441
+    -- interval = EventRotation({id = 3})
 }) -- Smelly Scramble
+
 map.nodes[63905070] = ZoneEvent({
-    quest = 75156,
-    interval = EventRotation({id = 3})
+    quest = 75156
+    -- interval = EventRotation({id = 3})
 }) -- Stress Express
+
 map.nodes[45308320] = ZoneEvent({
-    quest = 75624,
-    interval = EventRotation({id = 1})
+    quest = 75624
+    -- interval = EventRotation({id = 1})
 }) -- The Champion's Challenge
+
 map.nodes[58206740] = ZoneEvent({
-    quest = 74352,
-    interval = EventRotation({id = 2})
+    quest = 74352
+    -- interval = EventRotation({id = 2})
 }) -- Whirling Zephyr
 
 -------------------------------------------------------------------------------
