@@ -13,6 +13,7 @@ local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 
 local Dragonglyph = ns.node.Dragonglyph
+local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
 local SignalTransmitter = ns.node.SignalTransmitter
 
@@ -918,6 +919,21 @@ dragonskullIsland.nodes[69933512] = SMALLTREASURE
 map.nodes[31822621] = SignalTransmitter({quest = 73143}) -- Caldera of the Menders
 map.nodes[39988182] = SignalTransmitter({quest = 73145}) -- Sharpscale Coast
 map.nodes[78035110] = SignalTransmitter({quest = 73144}) -- Stormsunder Mountain
+
+-------------------------------------------------------------------------------
+------------------------------ ELUSIVE CREATURES ------------------------------
+-------------------------------------------------------------------------------
+
+local ElusiveFrenziedAmberfir = ElusiveCreature({
+    label = '{npc:202436}',
+    rewards = {
+        Item({item = 193218}), -- Dense Hide
+        Item({item = 193211}) -- Resilient Leather
+    }
+}) -- Elusive Frienzied Amberfir
+
+map.nodes[44265790] = ElusiveFrenziedAmberfir
+map.nodes[42705144] = ElusiveFrenziedAmberfir
 
 -------------------------------------------------------------------------------
 -------------------------------- ZSKERA VAULTS --------------------------------

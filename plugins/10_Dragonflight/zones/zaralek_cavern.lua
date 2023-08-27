@@ -14,6 +14,7 @@ local Treasure = ns.node.Treasure
 local AncientStone = ns.node.AncientStone
 local Dragonglyph = ns.node.Dragonglyph
 local PT = ns.node.ProfessionTreasures
+local ElusiveCreature = ns.node.ElusiveCreature
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -898,6 +899,22 @@ map.nodes[54735470] = Dragonglyph({rewards = {Achievement({id = 17512})}}) -- Dr
 map.nodes[55342771] = Dragonglyph({rewards = {Achievement({id = 17514})}}) -- Dragon Glyphs: Slitherdrake Roost
 map.nodes[62717036] = Dragonglyph({rewards = {Achievement({id = 17511})}}) -- Dragon Glyphs: Nal Ks'kol
 map.nodes[72114844] = Dragonglyph({rewards = {Achievement({id = 17515})}}) -- Dragon Glyphs: The Throughway
+
+-------------------------------------------------------------------------------
+------------------------------ ELUSIVE CREATURES ------------------------------
+-------------------------------------------------------------------------------
+
+local ElusiveCrystalscaleStonecleaver = ElusiveCreature({
+    label = '{npc:204821}',
+    rewards = {
+        Item({item = 193215}), -- Adamant Scales
+        Item({item = 193224}), -- Lustrous Scaled Hide
+        Item({item = 205451}) -- Flawless Crystal Scale
+    }
+}) -- Elusive Crystalscale Stonecleaver
+
+map.nodes[57663814] = ElusiveCrystalscaleStonecleaver
+map.nodes[60233957] = ElusiveCrystalscaleStonecleaver
 
 -------------------------------------------------------------------------------
 --------------------------------- ZONE EVENTS ---------------------------------
