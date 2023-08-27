@@ -1602,12 +1602,11 @@ end)
 hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
     if select(2, IsAddOnLoaded('RareScanner')) then
         local status, result = pcall(function()
-            return RareScannerDB.profiles.Default.map.tooltipsOnIngameIcons
+            return _G['RareScannerDB'].profiles.Default.map
+                       .tooltipsOnIngameIcons
         end)
         if status == true then -- Config found - we should respect it
-            if result == true then
-                return
-            end
+            if result == true then return end
         else -- Config not found - we should assume its "true"
             return
         end
