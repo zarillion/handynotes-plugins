@@ -550,28 +550,28 @@ Felwood.nodes[58181079] = Dragonrace({
 }) -- Fel Flyover
 
 local Feralas = ns.maps[69] or Map({id = 69, settings = true})
-Feralas.nodes[64105540] = Dragonrace({
+Feralas.nodes[64125435] = Dragonrace({
     label = '{quest:75468}',
-    normal = nil,
-    advanced = nil,
-    reverse = nil,
+    normal = {2324, 94, 89},
+    advanced = {2354, 89, 84},
+    reverse = {2384, 89, 84},
     rewards = Kalimdor_Rewards(13)
 }) -- Feralas Ruins Ramble
 
 local Hyjal = ns.maps[198] or Map({id = 198, settings = true})
 Hyjal.nodes[56702790] = Dragonrace({
     label = '{quest:75317}',
-    normal = nil,
-    advanced = nil,
-    reverse = nil,
+    normal = {2314, 50, 45},
+    advanced = {2344, 46, 41},
+    reverse = {2374, 46, 41},
     rewards = Kalimdor_Rewards(3)
 }) -- Nordrassil Spiral
 
 Hyjal.nodes[21905420] = Dragonrace({
     label = '{quest:75330}',
-    normal = nil,
-    advanced = nil,
-    reverse = nil,
+    normal = {2315, 75, 70},
+    advanced = {2345, 72, 69},
+    reverse = {2375, 72, 67},
     rewards = Kalimdor_Rewards(4)
 }) -- Hyjal Hotfoot
 
@@ -613,18 +613,18 @@ StonetalonMontains.nodes[66778681] = Dragonrace({
 local ThousandNeedles = ns.maps[64] or Map({id = 64, settings = true})
 ThousandNeedles.nodes[09731735] = Dragonrace({
     label = '{quest:75463}',
-    normal = {2323, 88, 83},
-    advanced = {2353, 1000, 999},
-    reverse = {2383, 1000, 999},
+    normal = {2323, 92, 87},
+    advanced = {2353, 82, 77},
+    reverse = {2383, 82, 77},
     rewards = Kalimdor_Rewards(12)
 }) -- Thousand Needles Thread
 
 local Uldum = ns.maps[249] or Map({id = 249, settings = true})
-Uldum.nodes[55804420] = Dragonrace({
+Uldum.nodes[55764218] = Dragonrace({
     label = '{quest:75481}',
-    normal = nil,
-    advanced = nil,
-    reverse = nil,
+    normal = {2326, 89, 84},
+    advanced = {2356, 81, 76},
+    reverse = {2386, 81, 76},
     rewards = Kalimdor_Rewards(15)
 }) -- Uldum Tour
 
@@ -686,8 +686,8 @@ local DRAGONRACE_POI = {
     -- Kalimdor
     [7494] = 58181079, -- Fel Flyby
     [7495] = 68836804, -- Winter Wander
-    -- [7496] = 56702790, -- Nordrassil Spiral
-    -- [7497] = 21905420, -- Hyjal Hotfoot
+    [7496] = 56702790, -- Nordrassil Spiral
+    [7497] = 21905420, -- Hyjal Hotfoot
     [7498] = 67202617, -- Rocketway Ride
     [7499] = 37043058, -- Ashenvale Ambit
     [7500] = 56906286, -- Durotar Tour
@@ -696,9 +696,9 @@ local DRAGONRACE_POI = {
     [7503] = 41431300, -- Barrens Divide Dive
     [7504] = 42809308, -- Razorfen Roundabout
     [7505] = 09731735, -- Thousand Needles Thread
-    -- [7506] = 64105540, -- Feralas Ruins Ramble
+    [7506] = 64125435, -- Feralas Ruins Ramble
     [7507] = 39548419, -- Ahn'Qiraj Circuit
-    -- [7508] = 55804420, -- Uldum Tour
+    [7508] = 55764218, -- Uldum Tour
     [7509] = 53379308 -- Un'Goro Crater Circuit
     -- Eastern Kingdoms
     -- [] = true, --
