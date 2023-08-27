@@ -393,7 +393,7 @@ L['renown_envoy_label'] = 'Enviado de Renombre'
 L['renown_envoy_note'] = 'Intercambia {currency:2118} u oro por monturas, mascotas, transfiguraciones, personalizaciones del draco, recetas y otros objetos útiles.\n\nCompra el {item:204383} a la {npc:200566} por 2000x {currency:2118} para un intento de conseguir a {item:191915}.'
 L['trader_hagarth_note'] = 'Intercambia {item:190456} for recetas de Bibelot del Artesano.'
 
-L['naszuro_caldera_of_the_menders'] = nil
+L['naszuro_caldera_of_the_menders'] = 'Encima de la torre.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -498,8 +498,8 @@ L['options_icons_lightning_bound_chest_desc'] = 'Muestra dónde pueden haber {ob
 
 L['bloodgullet_note'] = 'Consigue el buff {spell:369277} (dura 1 hora) en una tienda de la {location:Avanzada Pasoleño} con el objeto {object:Esencia del Despertar} para poder ver las Bestias Espíritu.\n\n{note:Sólo aparece en las Grandes Cacerías de Bestias.}'
 
-L['naszuro_windsong_rise'] = nil
-L['naszuro_emerald_gardens'] = nil
+L['naszuro_windsong_rise'] = 'Encima del pilar de rocas.'
+L['naszuro_emerald_gardens'] = 'En la hierba pasada la cascada.'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -580,14 +580,14 @@ Vuelve con {npc:198062}, que está sentado en un banco, y entrega la misión par
 ]]
 
 L['little_scales_daycare_note'] = 'Necesitas hacer una serie de misiones durante varios días, comenzando con {quest:72664} que te da el {npc:197478}, para conseguir el logro y la mascota.'
-L['naszuro_veiled_ossuary'] = nil
-L['naszuro_algethar_academy'] = nil
-L['naszuro_vault_of_the_incarnates'] = nil
-L['naszuro_thaldraszus_peak'] = nil
-L['naszuro_temporal_conflux'] = nil
+L['naszuro_veiled_ossuary'] = 'Por el santuario pequeño.'
+L['naszuro_algethar_academy'] = 'En el borde de la cima de la torre.'
+L['naszuro_vault_of_the_incarnates'] = 'A los pies de la estatua.'
+L['naszuro_thaldraszus_peak'] = 'En un pico secundario de la montaña.'
+L['naszuro_temporal_conflux'] = 'En la cabeza de la estatua del dragón.'
 
-L['revival_catalyst_label'] = nil
-L['revival_catalyst_note'] = nil
+L['revival_catalyst_label'] = 'Catalizador de Reanimación'
+L['revival_catalyst_note'] = 'Convierte equipo del tier anterior en un objeto del nivel tier actual y de la ranura de equipo equivalente (incluyendo bonus de set para las ranuras que lo lleven).'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
