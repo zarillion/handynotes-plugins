@@ -586,8 +586,8 @@ L['naszuro_vault_of_the_incarnates'] = 'Au pied de la statue.'
 L['naszuro_thaldraszus_peak'] = 'Sur un pic intermédiaire de la montagne.'
 L['naszuro_temporal_conflux'] = 'Sur la tête de la statue du dragon.'
 
-L['revival_catalyst_label'] = nil
-L['revival_catalyst_note'] = nil
+L['revival_catalyst_label'] = 'Catalyseur de Renouveau'
+L['revival_catalyst_note'] = 'Transforme des pièces d\'armures ne faisant pas partie d\'un ensemble en une nouvelle pièce d’ensemble du même niveau.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
