@@ -585,8 +585,8 @@ L['naszuro_vault_of_the_incarnates'] = '雕像脚下。'
 L['naszuro_thaldraszus_peak'] = '第二高的山峰上。'
 L['naszuro_temporal_conflux'] = '在龙雕像的头上。'
 
-L['revival_catalyst_label'] = nil
-L['revival_catalyst_note'] = nil
+L['revival_catalyst_label'] = '复苏化生'
+L['revival_catalyst_note'] = '将非套装装备转换为同等物品等级和装备槽套装装备。'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
