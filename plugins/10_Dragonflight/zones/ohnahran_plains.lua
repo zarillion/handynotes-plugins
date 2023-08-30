@@ -2099,4 +2099,20 @@ map.nodes[47037119] = Collectible({
     }
 }) -- Initiate Kittileg
 
+-------------------------------------------------------------------------------
+------------------------------- FYRAKK ASSAULT --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[76156952] = Collectible({
+    label = L['fyrakk_assault_label'],
+    icon = 4914672,
+    rewards = {
+        Achievement({id = 17506}), -- Still Standing in the Fire
+        Achievement({id = 17735, criteria = {id = 1, qty = true}}), -- We Didn't Start the Fire
+        Pet({item = 205002, id = 3511}), -- Blaise
+        Pet({item = 205003, id = 3512}), -- Ambre
+        Toy({item = 206043}) -- Fyrakk's Frenzy
+    }
+}) -- Fyrakk Assault
+
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

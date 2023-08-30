@@ -146,6 +146,8 @@ L['frostbound_chest'] = 'Coffre lié par le givre'
 L['options_icons_frostbound_chest'] = 'Coffre lié par le givre'
 L['options_icons_frostbound_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres liés par le givre}.'
 
+L['fyrakk_assault_label'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

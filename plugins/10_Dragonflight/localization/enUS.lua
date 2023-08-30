@@ -145,6 +145,8 @@ L['frostbound_chest'] = 'Frostbound Chest'
 L['options_icons_frostbound_chest'] = 'Frostbound Chest'
 L['options_icons_frostbound_chest_desc'] = 'Display possible locations of {object:Frostbound Chests}.'
 
+L['fyrakk_assault_label'] = 'Fryakk Assault'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
