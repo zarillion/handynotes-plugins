@@ -145,7 +145,7 @@ L['frostbound_chest'] = '霜缚宝箱'
 L['options_icons_frostbound_chest'] = '霜缚宝箱'
 L['options_icons_frostbound_chest_desc'] = '显示 {object:霜缚宝箱} 可能的位置。'
 
-L['fyrakk_assault_label'] = nil
+L['fyrakk_assault_label'] = '菲莱克突袭'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
