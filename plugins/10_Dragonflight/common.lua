@@ -149,6 +149,15 @@ ns.groups.SCOUT_PACK = Group('scout_pack', 4562583, {
     type = ns.group_types.EXPANSION
 })
 
+L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
+L['options_icons_secrets_of_azeroth_desc'] =
+    'Display clue locations for {location:Secrets of Azeroth}.'
+
+ns.groups.SECRETS_OF_AZEROTH = Group('secrets_of_azeroth', 'peg_gn', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION,
