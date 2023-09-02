@@ -832,49 +832,49 @@ L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['soa_day01_rlabel'] = nil
+L['soa_day01_rlabel'] = 'Día 1'
 
-L['soa_day01_kathos_note_a'] = nil
-L['soa_day01_kathos_note_b'] = nil
-L['soa_day01_kathos_note_c'] = nil
+L['soa_day01_kathos_note_a'] = 'Habla con la {npc:206864} para conseguir una {item:208054} que contiene {item:208055} y un {item:208056}.'
+L['soa_day01_kathos_note_b'] = 'Coloca el {item:208056} en el {location:Tesoro de Valdrakken} de {location:Valdrakken}.'
+L['soa_day01_kathos_note_c'] = 'Si vuelves a la {npc:206864} conseguirás la {item:207105}.\n\nLlévala al {npc:186448} de {location:Iskaara} en las {location:Tierras Azures}.'
 
-L['soa_day01_shomko_note_a'] = nil
-L['soa_day01_shomko_note_b'] = nil
-L['soa_day01_shomko_note_c'] = nil
+L['soa_day01_shomko_note_a'] = 'Habla con el {npc:186448} para conseguir la {item:207580}.'
+L['soa_day01_shomko_note_b'] = 'Colócala en la {object:Lanza Ceremonial} de las {location:Ruinas Tralladón} en la {location:Tundra Boreal} de {location:Rasganorte}.'
+L['soa_day01_shomko_note_c'] = '{note:Aségurate de quedarte y matar al {npc:Saqueador Enloquecido} para conseguir el {item:207594}.}'
 
-L['soa_day02_rlabel'] = nil
+L['soa_day02_rlabel'] = 'Día 2'
 
-L['soa_day02_bobby_note_a'] = nil
-L['soa_day02_bobby_note_b'] = nil
-L['soa_day02_bobby_note_c'] = nil
-L['soa_day02_bobby_note_d'] = nil
-L['soa_day02_bobby_note_e'] = nil
+L['soa_day02_bobby_note_a'] = 'Habla con {npc:207696} para conseguir {item:207802}. Necesitarás crear {item:207827} consiguiendo varios objectos:'
+L['soa_day02_bobby_note_b'] = 'Comercia 5x {item:207956} con {npc:185548} para conseguir {item:207814} en {location:Valdrakken}.'
+L['soa_day02_bobby_note_c'] = 'Comercia 1x {item:207812} con {npc:197781} para conseguir {item:207813} en {location:Valdrakken}.'
+L['soa_day02_bobby_note_d'] = 'Consigue 1x {item:207816} de {npc:198586} tras pagar su cuenta del bar en {location:Valdrakken}.'
+L['soa_day02_bobby_note_e'] = 'Combina los objetos para conseguir {item:207827} y comenzar la misión {quest:77237} de {npc:207697} en {location:Valdrakken}.'
 
-L['soa_day02_fangli_note_a'] = nil
+L['soa_day02_fangli_note_a'] = 'Habla con {npc:207697} para completar la misión {quest:77237} y conseguir {item:206696}.'
 
-L['soa_day02_fangl_clue_label'] = nil
+L['soa_day02_fangl_clue_label'] = 'Pista de Fangli'
 
-L['soa_day02_fangli_clue_a'] = nil
-L['soa_day02_fangli_clue_b'] = nil
-L['soa_day02_fangli_clue_c'] = nil
-L['soa_day02_fangli_clue_d'] = nil
-L['soa_day02_fangli_clue_e'] = nil
-L['soa_day02_fangli_clue_f'] = nil
-L['soa_day02_fangli_clue_g'] = nil
-L['soa_day02_fangli_clue_h'] = nil
-L['soa_day02_fangli_clue_i'] = nil
+L['soa_day02_fangli_clue_a'] = 'En la pared encima de la cabeza de {npc:207697}.'
+L['soa_day02_fangli_clue_b'] = 'En la parte inferior de la estantería en la {location:Guardería Escamitas}.'
+L['soa_day02_fangli_clue_c'] = 'En el suelo junto a {npc:196960} en el {location:Mercado de los Artesanos}.'
+L['soa_day02_fangli_clue_d'] = 'Encima de un barril cerca del puesto de joyería.'
+L['soa_day02_fangli_clue_e'] = 'En el suelo cerca de {npc:185545} en el {location:Mercado de los Artesanos}.'
+L['soa_day02_fangli_clue_f'] = 'Sobre el arco de entrada de la {location:Casa de Subastas}.'
+L['soa_day02_fangli_clue_g'] = 'En el suelo junto al {npc:189489}.'
+L['soa_day02_fangli_clue_h'] = 'En la entrada de la planta baja al {location:Trono de los Aspectos} junto a una fogata.'
+L['soa_day02_fangli_clue_i'] = 'Cerca de una cascada en el {location:Enclave Emeralda}.'
 
-L['soa_day02_erugosa_note_a'] = nil
-L['soa_day02_erugosa_note_b'] = nil
-L['soa_day02_erugosa_note_c'] = nil
-L['soa_day02_erugosa_note_d'] = nil
+L['soa_day02_erugosa_note_a'] = 'Habla con {npc:185556} para conseguir la {item:208416}. Necesitarás conseguir los siguientes objetos para ella:'
+L['soa_day02_erugosa_note_b'] = 'Compra 5x {item:198441} a {npc:194152} de {location:Avanzada Pasoleño} en las {location:Llanuras de Ohn\'nahra}.'
+L['soa_day02_erugosa_note_c'] = 'Compra 5x {item:201419} a {npc:196729} de {location:Valdrakken} en {location:Thaldraszus}.'
+L['soa_day02_erugosa_note_d'] = 'Compra 5x {item:205693} a {npc:204371} de {location:Loamm} en la {location:Caverna Zaralek}.'
 
-L['soa_day02_clinkyclick_note_a'] = nil
-L['soa_day02_clinkyclick_note_b'] = nil
+L['soa_day02_clinkyclick_note_a'] = 'Habla con {npc:185548} para conseguir {item:207814}. Necesitarás:'
+L['soa_day02_clinkyclick_note_b'] = 'Recibir 10x {item:207956} de {npc:185556} en {location:El Carnero Asado} en {location:Valdrakken}.'
 
-L['soa_day02_gryffin_note_a'] = nil
-L['soa_day02_gryffin_note_b'] = nil
+L['soa_day02_gryffin_note_a'] = 'Habla con {npc:197781} para conseguir {item:207813}. Necesitarás:'
+L['soa_day02_gryffin_note_b'] = 'Despoja 1x {item:207812} matando {npc:191451} de {location:Las Cascadas} en {location:Thaldraszus}.'
 
-L['soa_day02_shakey_note_a'] = nil
-L['soa_day02_shakey_note_b'] = nil
-L['soa_day02_shakey_note_c'] = nil
+L['soa_day02_shakey_note_a'] = 'Habla con {npc:198586} para conseguir {item:207816}.'
+L['soa_day02_shakey_note_b'] = 'Paga la cuenta del bar de {npc:198586} ' .. GetCoinTextureString(3464358) .. ' del {location:Tesoro del Dragón} en {location:Valdrakken}.'
+L['soa_day02_shakey_note_c'] = 'Entra en el {location:Tesoro del Dragón} a través de la entrada secreta tecleando en el chat {emote:/bow} en la {object:Estatua Extraña} en la parte trasera de {location:El Carnero Asado}.'
