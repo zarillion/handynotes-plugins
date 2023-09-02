@@ -829,49 +829,49 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['soa_day01_rlabel'] = nil
+L['soa_day01_rlabel'] = 'Jour 1'
 
-L['soa_day01_kathos_note_a'] = nil
-L['soa_day01_kathos_note_b'] = nil
-L['soa_day01_kathos_note_c'] = nil
+L['soa_day01_kathos_note_a'] = 'Parlez à la {npc:206864} pour recevoir une {item:208054} contenant {item:208055} et un {item:208056}.'
+L['soa_day01_kathos_note_b'] = 'Placez le {item:208056} sur un tas d\'or à l\'intérieur de la Banque de {location:Valdrakken}.'
+L['soa_day01_kathos_note_c'] = 'Retournez voir la {npc:206864}, vous recevrez une {item:207105}.\n\nApportez la {item:207105} à l\'{npc:186448} située à {location:Iskaara} à la {location:Travée d’Azur}.'
 
-L['soa_day01_shomko_note_a'] = nil
-L['soa_day01_shomko_note_b'] = nil
-L['soa_day01_shomko_note_c'] = nil
+L['soa_day01_shomko_note_a'] = 'Parlez à l\'{npc:186448} pour recevoir la {item:207580}.'
+L['soa_day01_shomko_note_b'] = 'Placez la {item:207580} sur la {object:Lance cérémonielle} à la {location:Grève des Courcinglants} dans la {location:Toundra Boréenne} en {location:Norfendre}.'
+L['soa_day01_shomko_note_c'] = '{note:Veillez à rester dans les parages afin de tuer un {npc:208182} pour recevoir la {item:207594}.}'
 
-L['soa_day02_rlabel'] = nil
+L['soa_day02_rlabel'] = 'Jour 2'
 
-L['soa_day02_bobby_note_a'] = nil
-L['soa_day02_bobby_note_b'] = nil
-L['soa_day02_bobby_note_c'] = nil
-L['soa_day02_bobby_note_d'] = nil
-L['soa_day02_bobby_note_e'] = nil
+L['soa_day02_bobby_note_a'] = 'Parlez à {npc:207696} pour obtenir les {item:207802}. Vous devrez construire une {item:207827} en collectant divers composants :'
+L['soa_day02_bobby_note_b'] = 'Échangez 5x {item:207956} avec {npc:185548} contre un {item:207814} à {location:Valdrakken}.'
+L['soa_day02_bobby_note_c'] = 'Échangez 1x {item:207812} à {npc:185548} contre un {item:207813} à {location:Valdrakken}.'
+L['soa_day02_bobby_note_d'] = 'Recevez 1x {item:207816} de {npc:198586} après avoir payé sa note de bar à {location:Valdrakken}.'
+L['soa_day02_bobby_note_e'] = 'Combinez les objets récupérés pour obtenir une {item:207827} et commencer {quest:77237} à rendre auprès de {npc:207697} à {location:Valdrakken}.'
 
-L['soa_day02_fangli_note_a'] = nil
+L['soa_day02_fangli_note_a'] = 'Parlez à {npc:207697} pour terminer {quest:77237} et recevoir la {item:206696}.'
 
-L['soa_day02_fangl_clue_label'] = nil
+L['soa_day02_fangl_clue_label'] = 'Indice de Canine'
 
-L['soa_day02_fangli_clue_a'] = nil
-L['soa_day02_fangli_clue_b'] = nil
-L['soa_day02_fangli_clue_c'] = nil
-L['soa_day02_fangli_clue_d'] = nil
-L['soa_day02_fangli_clue_e'] = nil
-L['soa_day02_fangli_clue_f'] = nil
-L['soa_day02_fangli_clue_g'] = nil
-L['soa_day02_fangli_clue_h'] = nil
-L['soa_day02_fangli_clue_i'] = nil
+L['soa_day02_fangli_clue_a'] = 'Sur le mur au-dessus de la tête de {npc:207697}.'
+L['soa_day02_fangli_clue_b'] = 'En bas sur l\'étagère à la {location:Nourricerie « Petites écailles »}.'
+L['soa_day02_fangli_clue_c'] = 'Sur le sol à côté de {npc:196960} au {location:Marché d\'artisanat}.'
+L['soa_day02_fangli_clue_d'] = 'Sur un tonneau, près de l\'{object:Établi de Joaillerie}.'
+L['soa_day02_fangli_clue_e'] = 'Sur le sol près de {npc:185545} au {location:Marché d\'artisanat}.'
+L['soa_day02_fangli_clue_f'] = 'Au-dessus de l\'arche d\'entrée à l\'{location:Hôtel des ventes}.'
+L['soa_day02_fangli_clue_g'] = 'Sur le sol à côté du {npc:189489}.'
+L['soa_day02_fangli_clue_h'] = 'À l\'entrée au rez-de-chaussée du {location:Siège des Aspects}, près d\'un brasero.'
+L['soa_day02_fangli_clue_i'] = 'Près d\'une cascade à l\'{location:Enclave d\'émeraude}.'
 
-L['soa_day02_erugosa_note_a'] = nil
-L['soa_day02_erugosa_note_b'] = nil
-L['soa_day02_erugosa_note_c'] = nil
-L['soa_day02_erugosa_note_d'] = nil
+L['soa_day02_erugosa_note_a'] = 'Parlez à {npc:185556} pour recevoir la {item:208416}. Vous devrez collecter les objets suivants pour elle :'
+L['soa_day02_erugosa_note_b'] = 'Achetez 5x {item:198441} auprès d\'{npc:194152} à l\'{location:Avant-poste Pas-de-bois} aux {location:Plaines d\'Ohn\'ahra}.'
+L['soa_day02_erugosa_note_c'] = 'Achetez 5x {item:201419} auprès de {npc:196729} au {location:Marché d\'artisanat} à {location:Valdrakken}.'
+L['soa_day02_erugosa_note_d'] = 'Achetez 5x {item:205693} auprès de {npc:204371} à l\'entrée de {location:Terreau} dans la {location:Grotte de Zaralek}.'
 
-L['soa_day02_clinkyclick_note_a'] = nil
-L['soa_day02_clinkyclick_note_b'] = nil
+L['soa_day02_clinkyclick_note_a'] = 'Parlez à {npc:185548} pour recevoir un {item:207814}. Vous aurez besoin de :'
+L['soa_day02_clinkyclick_note_b'] = 'Obtenez 10x {item:207956} auprès d\'{npc:185556} au {location:Bélier rôti} à {location:Valdrakken}.'
 
-L['soa_day02_gryffin_note_a'] = nil
-L['soa_day02_gryffin_note_b'] = nil
+L['soa_day02_gryffin_note_a'] = 'Parlez à {npc:197781} pour recevoir un {item:207813}. Vous aurez besoin de rassembler :'
+L['soa_day02_gryffin_note_b'] = 'Obtenez 1x {item:207812} en tuant des {npc:191451} situés dans {location:Les Cascades} à {location:Thaldraszus}.'
 
-L['soa_day02_shakey_note_a'] = nil
-L['soa_day02_shakey_note_b'] = nil
-L['soa_day02_shakey_note_c'] = nil
+L['soa_day02_shakey_note_a'] = 'Parlez à {npc:198586} pour recevoir les {item:207816}.'
+L['soa_day02_shakey_note_b'] = 'Payez la note du bar de {npc:198586} s\'élevant à  ' .. GetCoinTextureString(3464358) .. ' au {location:Trésor du Dragon} à {location:Valdrakken}.'
+L['soa_day02_shakey_note_c'] = 'Entrez au {location:Trésor du Dragon} par l\'entrée secrète en utilisant l\'emote {emote:/incliner} devant l\'{object:Étrange statue} située au fond du {location:Bélier rôti}.'
