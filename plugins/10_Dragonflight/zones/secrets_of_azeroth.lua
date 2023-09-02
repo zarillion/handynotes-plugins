@@ -294,7 +294,7 @@ val.nodes[39046182] = SecretsOfAzeroth({
     rlabel = ns.color.Gray(L['soa_day02_rlabel']),
     quest = 78202,
     note = L['soa_day02_shakey_note_a'] .. '\n\n' ..
-        L['soa_day02_shakey_note_b'],
+        format(L['soa_day02_shakey_note_b'], GetCoinTextureString(3464358)),
     rewards = {
         Item({item = 207816, note = '1x'}) -- Crystal Ocular Lenses
     }
@@ -304,8 +304,8 @@ val.nodes[47334110] = SecretsOfAzeroth({
     label = '{npc:192814}',
     rlabel = ns.color.Gray(L['soa_day02_rlabel']),
     quest = 78202,
-    note = L['soa_day02_shakey_note_b'] .. '\n\n' ..
-        L['soa_day02_shakey_note_c']
+    note = format(L['soa_day02_shakey_note_b'], GetCoinTextureString(3464358)) ..
+        '\n\n' .. L['soa_day02_shakey_note_c']
 }) -- Kritha
 
 -------------------------------------------------------------------------------

@@ -876,5 +876,5 @@ L['soa_day02_gryffin_note_a'] = 'Habla con {npc:197781} para conseguir {item:207
 L['soa_day02_gryffin_note_b'] = 'Despoja 1x {item:207812} matando {npc:191451} de {location:Las Cascadas} en {location:Thaldraszus}.'
 
 L['soa_day02_shakey_note_a'] = 'Habla con {npc:198586} para conseguir {item:207816}.'
-L['soa_day02_shakey_note_b'] = 'Paga la cuenta del bar de {npc:198586} ' .. GetCoinTextureString(3464358) .. ' del {location:Tesoro del Dragón} en {location:Valdrakken}.'
+L['soa_day02_shakey_note_b'] = 'Paga la cuenta del bar de {npc:198586} %s del {location:Tesoro del Dragón} en {location:Valdrakken}.'
 L['soa_day02_shakey_note_c'] = 'Entra en el {location:Tesoro del Dragón} a través de la entrada secreta tecleando en el chat {emote:/bow} en la {object:Estatua Extraña} en la parte trasera de {location:El Carnero Asado}.'

@@ -873,5 +873,5 @@ L['soa_day02_gryffin_note_a'] = 'Parlez à {npc:197781} pour recevoir un {item:2
 L['soa_day02_gryffin_note_b'] = 'Obtenez 1x {item:207812} en tuant des {npc:191451} situés dans {location:Les Cascades} à {location:Thaldraszus}.'
 
 L['soa_day02_shakey_note_a'] = 'Parlez à {npc:198586} pour recevoir les {item:207816}.'
-L['soa_day02_shakey_note_b'] = 'Payez la note du bar de {npc:198586} s\'élevant à  ' .. GetCoinTextureString(3464358) .. ' au {location:Trésor du Dragon} à {location:Valdrakken}.'
+L['soa_day02_shakey_note_b'] = 'Payez la note du bar de {npc:198586} s\'élevant à %s au {location:Trésor du Dragon} à {location:Valdrakken}.'
 L['soa_day02_shakey_note_c'] = 'Entrez au {location:Trésor du Dragon} par l\'entrée secrète en utilisant l\'emote {emote:/incliner} devant l\'{object:Étrange statue} située au fond du {location:Bélier rôti}.'
