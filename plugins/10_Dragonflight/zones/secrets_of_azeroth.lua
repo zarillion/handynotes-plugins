@@ -18,7 +18,7 @@ local Path = ns.poi.Path
 local bor = ns.maps[114] or Map({id = 114, settings = true}) -- Borean Tundra
 local ohn = ns.maps[2023] or Map({id = 2023, settings = true}) -- Ohn'ahran Plains
 local tas = ns.maps[2024] or Map({id = 2024, settings = true}) -- The Azure Span
-local tha = ns.maps[2025] or Map({id = 2025, settings = true}) -- Thaldraszus
+-- local tha = ns.maps[2025] or Map({id = 2025, settings = true}) -- Thaldraszus
 local val = ns.maps[2112] or Map({id = 2112, settings = true}) -- Valdrakken
 local zar = ns.maps[2133] or Map({id = 2133, settings = true}) -- Zaralek Cavern
 
