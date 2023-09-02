@@ -589,8 +589,8 @@ L['naszuro_vault_of_the_incarnates'] = 'У подножия статуи.'
 L['naszuro_thaldraszus_peak'] = 'На второстепенной вершине горы.'
 L['naszuro_temporal_conflux'] = 'На голове статуи дракона.'
 
-L['revival_catalyst_label'] = nil
-L['revival_catalyst_note'] = nil
+L['revival_catalyst_label'] = 'Катализатор возрождения'
+L['revival_catalyst_note'] = 'Преобразование не сетового снаряжения в предмет эквивалентного уровня но сетового качества.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
