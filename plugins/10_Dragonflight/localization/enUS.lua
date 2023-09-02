@@ -863,7 +863,7 @@ L['soa_day02_fangli_clue_g'] = 'On the ground next to the {npc:189489}.'
 L['soa_day02_fangli_clue_h'] = 'In the ground floor entrance to the {location:Seat of the Aspects} next to a bonfire.'
 L['soa_day02_fangli_clue_i'] = 'Near a waterfall by the {location:Emerald Enclave}.'
 
-L['soa_day02_erugosa_note_a'] = 'Speak with {npc:185556} to receieve {item:208416}. You\'ll need to collect the following items for her:'
+L['soa_day02_erugosa_note_a'] = 'Speak with {npc:185556} to receive {item:208416}. You\'ll need to collect the following items for her:'
 L['soa_day02_erugosa_note_b'] = 'Purchase 5x {item:198441} from {npc:194152} in {location:Timberstep Outpost} in {location:Ohn\'nahran Plains}.'
 L['soa_day02_erugosa_note_c'] = 'Purchase 5x {item:201419} from {npc:196729} in {location:Valdrakken} in {location:Thaldraszus}.'
 L['soa_day02_erugosa_note_d'] = 'Purchase 5x {item:205693} from {npc:204371} in {location:Loamm} in {location:Zaralek Cavern}.'
