@@ -60,18 +60,19 @@ val.nodes[58895410] = SecretsOfAzeroth({
     label = '{item:208056}',
     note = L['soa_day01_kathos_note_b'],
     quest = 77204,
-    rlabel = ns.color.Gray(L['soa_day01_rlabel']),
-    rewards = {
-        Item({item = 208056, note = '1x'}) -- Golden Chalice
-    }
+    requires = ns.requirement.Item(208056), -- Golden Chalice
+    rlabel = ns.color.Gray(L['soa_day01_rlabel'])
 }) -- Golden Chalice
 
 tas.nodes[12404933] = SecretsOfAzeroth({
     label = '{npc:186448}',
     note = L['soa_day01_shomko_note_a'] .. '\n\n' ..
         L['soa_day01_shomko_note_b'],
+    requires = ns.requirement.Item(207105), -- Tuskarr Ceremonial Spear
     quest = 76987,
+    questDeps = 77203,
     rlabel = ns.color.Gray(L['soa_day01_rlabel']),
+    playerHasItem = {207580},
     rewards = {
         Item({item = 207580, note = '1x'}) -- Shomko's Unyidling Spear
     }
@@ -81,7 +82,9 @@ bor.nodes[33605843] = SecretsOfAzeroth({
     label = '{item:207580}',
     note = L['soa_day01_shomko_note_b'] .. '\n\n' ..
         L['soa_day01_shomko_note_c'],
+    requires = ns.requirement.Item(207580), -- Shomko's Unyielding Spear
     quest = 76987,
+    questDeps = 77203,
     rlabel = ns.color.Gray(L['soa_day01_rlabel']),
     rewards = {
         Achievement({id = 18642}), -- The Inquisitive

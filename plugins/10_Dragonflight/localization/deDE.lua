@@ -878,7 +878,7 @@ L['soa_day02_gryffin_note_b'] = 'Plündere 1x {item:207812} von {npc:191451} bei
 
 L['soa_day02_shakey_note_a'] = 'Sprich mit {npc:198586}, um {item:207816} zu erhalten.'
 L['soa_day02_shakey_note_b'] = 'Begleiche {npc:198586}s Deckel von %s im {location:Der Drachenhort} in {location:Valdrakken}.'
-L['soa_day02_shakey_note_c'] = 'Zeige der {object:Seltsame Statue} im hinteren Teil des Gasthauses {location:Zum Gerösteten Gießbock} Respekt, indem du sie anvisierst und dich verbeugst {emote:/verbeugen}, um in {location:Der Drachenhort} zu gelanden.'
+L['soa_day02_shakey_note_c'] = 'Zeige der {object:Seltsame Statue} im hinteren Teil des Gasthauses {location:Zum Gerösteten Gießbock} Respekt, indem du sie anvisierst und dich verbeugst {emote:(/verbeugen)}, um in {location:Der Drachenhort} zu gelanden.'
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der Hinweise der {location:Geheimnisse von Azeroth} an.'
