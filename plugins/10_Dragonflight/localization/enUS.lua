@@ -839,7 +839,7 @@ L['soa_day01_kathos_note_c'] = 'Return to {npc:206864} you will receive {item:20
 
 L['soa_day01_shomko_note_a'] = 'Speak to {npc:186448} to receive {item:207580}.'
 L['soa_day01_shomko_note_b'] = 'Place {item:207580} at {object:Ceremonial Spear} in {location:Riplash Strand} in the {location:Borean Tundra} in {location:Northrend}.'
-L['soa_day01_shomko_note_c'] = '{note:Be sure to stick around and kill {npc:Crazed Looter} to receive {item:207594}.}'
+L['soa_day01_shomko_note_c'] = '{note:Be sure to stick around and kill {npc:208182} to receive {item:207594}.}'
 
 L['soa_day02_rlabel'] = 'Day 2'
 

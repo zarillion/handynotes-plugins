@@ -840,7 +840,7 @@ L['soa_day01_kathos_note_c'] = 'Si vuelves a la {npc:206864} conseguirás la {it
 
 L['soa_day01_shomko_note_a'] = 'Habla con el {npc:186448} para conseguir la {item:207580}.'
 L['soa_day01_shomko_note_b'] = 'Colócala en la {object:Lanza Ceremonial} de las {location:Ruinas Tralladón} en la {location:Tundra Boreal} de {location:Rasganorte}.'
-L['soa_day01_shomko_note_c'] = '{note:Aségurate de quedarte y matar al {npc:Saqueador Enloquecido} para conseguir el {item:207594}.}'
+L['soa_day01_shomko_note_c'] = '{note:Aségurate de quedarte y matar al {npc:208182} para conseguir el {item:207594}.}'
 
 L['soa_day02_rlabel'] = 'Día 2'
 
