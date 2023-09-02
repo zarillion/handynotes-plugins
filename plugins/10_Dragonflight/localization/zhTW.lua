@@ -877,3 +877,6 @@ L['soa_day02_gryffin_note_b'] = nil
 L['soa_day02_shakey_note_a'] = nil
 L['soa_day02_shakey_note_b'] = nil
 L['soa_day02_shakey_note_c'] = nil
+
+L['options_icons_secrets_of_azeroth'] = nil
+L['options_icons_secrets_of_azeroth_desc'] = nil

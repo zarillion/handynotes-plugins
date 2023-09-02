@@ -872,8 +872,11 @@ L['soa_day02_clinkyclick_note_a'] = 'Speak with {npc:185548} to receive {item:20
 L['soa_day02_clinkyclick_note_b'] = 'Receive 10x {item:207956} from {npc:185556} in {location:The Roasted Ram} in {location:Valdrakken}.'
 
 L['soa_day02_gryffin_note_a'] = 'Speak with {npc:197781} to receive {item:207813}. You\'ll need to collect:'
-L['soa_day02_gryffin_note_b'] = 'Loot 1x {item:207812} by killing {npc:191451} in {location:The Cascades} in {location:Thaldraszus}.'
+L['soa_day02_gryffin_note_b'] = 'Loot 1x {item:207812} by killing {npc:191451} in {location:Cascade\'s Edge} in {location:Valdrakken}.' -- cascades
 
 L['soa_day02_shakey_note_a'] = 'Speak with {npc:198586} to receive {item:207816}.'
 L['soa_day02_shakey_note_b'] = 'Pay {npc:198586}\'s bar tab of %s at {location:The Dragon\'s Hoard} in {location:Valdrakken}.'
 L['soa_day02_shakey_note_c'] = 'Enter {location:The Dragon\'s Hoard} through the secret entrance by {emote:/bow} at the {object:Odd Statue} at the back of {location:The Roasted Ram}.'
+
+L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
+L['options_icons_secrets_of_azeroth_desc'] = 'Display clue locations for {location:Secrets of Azeroth}.'

@@ -27,7 +27,15 @@ local zar = ns.maps[2133] or Map({id = 2133, settings = true}) -- Zaralek Cavern
 local SecretsOfAzeroth = Class('SecretsOfAzeroth', ns.node.Node, {
     icon = 'peg_gn',
     scale = 2.0,
-    group = ns.groups.SECRETS_OF_AZEROTH
+    group = ns.groups.SECRETS_OF_AZEROTH,
+    IsCompleted = function(self)
+        if self.playerHasItem then
+            for i, v in ipairs(self.playerHasItem) do
+                if ns.PlayerHasItem(v) then return true end
+            end
+        end
+        return ns.node.Node.IsCompleted(self)
+    end
 }) -- Secrets of Azeroth
 
 -------------------------------------------------------------------------------
@@ -88,7 +96,11 @@ bor.nodes[33605843] = SecretsOfAzeroth({
 local Bobby = Class('Bobby', SecretsOfAzeroth, {
     label = '{npc:207696}',
     rlabel = ns.color.Gray(L['soa_day02_rlabel']),
-    quest = 77237, -- Completed once Tricked-Out Thinking Cap is received
+    quest = {
+        77237, -- Completed once Tricked-Out Thinking Cap is received
+        78202 -- Accountwide completed
+    },
+    questAny = true,
     rewards = {
         Achievement({id = 18645, criteria = 1}), -- Tools of the Trade
         Toy({item = 206696}) -- Tricked-Out Thinking Cap
@@ -120,7 +132,11 @@ val.nodes[47974679] = Bobby()
 val.nodes[26675389] = SecretsOfAzeroth({
     label = '{npc:207697}',
     rlabel = ns.color.Gray(L['soa_day02_rlabel']),
-    quest = 77237, -- Completed once Tricked-Out Thinking Cap is received
+    quest = {
+        77237, -- Completed once Tricked-Out Thinking Cap is received
+        78202 -- Accountwide completed
+    },
+    questAny = true,
     note = L['soa_day02_fangli_note_a'],
     rewards = {
         Achievement({id = 18645, criteria = 1}), -- Tools of the Trade
@@ -131,7 +147,12 @@ val.nodes[26675389] = SecretsOfAzeroth({
 local FangliClue = Class('FangliClue', SecretsOfAzeroth, {
     label = L['soa_day02_fangl_clue_label'],
     rlabel = ns.color.Gray(L['soa_day02_rlabel']),
-    quest = {76504, 76505, 77513}, -- TODO: NOT SURE WHICH ONE IS CORRECT
+    quest = {
+        76504, -- The Tricked-Out Thinking Cap
+        77513 -- Accountwide completed
+    },
+    questAny = true,
+    questDeps = 77237, -- Unfinished Thinking Cap
     requires = ns.requirement.Toy(206696), -- Tricked-Out Thinking Cap
     fgroup = 'fgroup_fangli',
     rewards = {
@@ -164,6 +185,7 @@ local Erugosa = Class('Erugosa', SecretsOfAzeroth, {
     label = '{npc:185556}',
     rlabel = ns.color.Gray(L['soa_day02_rlabel']),
     quest = 78202,
+    playerHasItem = {207814, 207827},
     rewards = {
         Item({item = 207956, note = '10x'}) -- Thunderspine Nest
     }
@@ -225,6 +247,7 @@ local Clinkyclick = Class('Clinkyclick', SecretsOfAzeroth, {
     label = '{npc:185548}',
     rlabel = ns.color.Gray(L['soa_day02_rlabel']),
     quest = 78202,
+    playerHasItem = {207814, 207827},
     rewards = {
         Item({item = 207814, note = '1x'}) -- Thought Calculating Apparatus
     }
@@ -254,6 +277,7 @@ local Gryffin = Class('Gryffin', SecretsOfAzeroth, {
     label = '{npc:197781}',
     rlabel = ns.color.Gray(L['soa_day02_rlabel']),
     quest = 78202,
+    playerHasItem = {207813, 207827},
     rewards = {
         Item({item = 207813, note = '1x'}) -- Downy Helmet Liner
     }
@@ -277,10 +301,11 @@ end
 
 val.nodes[42474937] = Gryffin()
 
-tha.nodes[33556796] = SecretsOfAzeroth({
+val.nodes[46109447] = SecretsOfAzeroth({
     label = '{npc:191451}',
     rlabel = ns.color.Gray(L['soa_day02_rlabel']),
     quest = 78202,
+    playerHasItem = {207812, 207827},
     note = L['soa_day02_gryffin_note_b'],
     rewards = {
         Item({item = 207812, note = '1x'}) -- Fresh Tyranha
@@ -293,6 +318,8 @@ val.nodes[39046182] = SecretsOfAzeroth({
     label = '{npc:198586}',
     rlabel = ns.color.Gray(L['soa_day02_rlabel']),
     quest = 78202,
+    -- questDeps = 77230, -- payed bar tab
+    playerHasItem = {207816, 207827},
     note = L['soa_day02_shakey_note_a'] .. '\n\n' ..
         format(L['soa_day02_shakey_note_b'], GetCoinTextureString(3464358)),
     rewards = {
@@ -303,7 +330,9 @@ val.nodes[39046182] = SecretsOfAzeroth({
 val.nodes[47334110] = SecretsOfAzeroth({
     label = '{npc:192814}',
     rlabel = ns.color.Gray(L['soa_day02_rlabel']),
-    quest = 78202,
+    quest = {77230, 78202},
+    questAny = true,
+    playerHasItem = {207816, 207827},
     note = format(L['soa_day02_shakey_note_b'], GetCoinTextureString(3464358)) ..
         '\n\n' .. L['soa_day02_shakey_note_c']
 }) -- Kritha
