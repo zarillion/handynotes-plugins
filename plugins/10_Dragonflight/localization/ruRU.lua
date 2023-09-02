@@ -146,7 +146,7 @@ L['frostbound_chest'] = 'Скованный льдом сундук'
 L['options_icons_frostbound_chest'] = 'Скованный льдом сундук'
 L['options_icons_frostbound_chest_desc'] = 'Показать возможные места {object:Скованный льдом сундуков}.'
 
-L['fyrakk_assault_label'] = nil
+L['fyrakk_assault_label'] = 'Налеты Фиракка'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
