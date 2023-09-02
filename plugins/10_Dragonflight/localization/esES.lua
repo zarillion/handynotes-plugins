@@ -873,11 +873,11 @@ L['soa_day02_clinkyclick_note_a'] = 'Habla con {npc:185548} para conseguir {item
 L['soa_day02_clinkyclick_note_b'] = 'Recibir 10x {item:207956} de {npc:185556} en {location:El Carnero Asado} en {location:Valdrakken}.'
 
 L['soa_day02_gryffin_note_a'] = 'Habla con {npc:197781} para conseguir {item:207813}. Necesitarás:'
-L['soa_day02_gryffin_note_b'] = 'Despoja 1x {item:207812} matando {npc:191451} de {location:Las Cascadas} en {location:Thaldraszus}.'
+L['soa_day02_gryffin_note_b'] = 'Despoja 1x {item:207812} matando {npc:191451} del {location:Filo de la Cascada} en {location:Valdrakken}.'
 
 L['soa_day02_shakey_note_a'] = 'Habla con {npc:198586} para conseguir {item:207816}.'
 L['soa_day02_shakey_note_b'] = 'Paga la cuenta del bar de {npc:198586} %s del {location:Tesoro del Dragón} en {location:Valdrakken}.'
 L['soa_day02_shakey_note_c'] = 'Entra en el {location:Tesoro del Dragón} a través de la entrada secreta tecleando en el chat {emote:/bow} en la {object:Estatua Extraña} en la parte trasera de {location:El Carnero Asado}.'
 
-L['options_icons_secrets_of_azeroth'] = nil
-L['options_icons_secrets_of_azeroth_desc'] = nil
+L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
+L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'
