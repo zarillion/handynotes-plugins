@@ -16,9 +16,9 @@ local Path = ns.poi.Path
 -------------------------------------------------------------------------------
 
 local bor = ns.maps[114] or Map({id = 114, settings = true}) -- Borean Tundra
+local epl = ns.maps[23] or Map({id = 23, settings = true}) -- Eastern Plaguelands
 local ohn = ns.maps[2023] or Map({id = 2023, settings = true}) -- Ohn'ahran Plains
 local tas = ns.maps[2024] or Map({id = 2024, settings = true}) -- The Azure Span
--- local tha = ns.maps[2025] or Map({id = 2025, settings = true}) -- Thaldraszus
 local val = ns.maps[2112] or Map({id = 2112, settings = true}) -- Valdrakken
 local zar = ns.maps[2133] or Map({id = 2133, settings = true}) -- Zaralek Cavern
 
@@ -341,5 +341,16 @@ val.nodes[47334110] = SecretsOfAzeroth({
 }) -- Kritha
 
 -------------------------------------------------------------------------------
+---------------------------- COMMUNITY RUMOR MILL -----------------------------
 -------------------------------------------------------------------------------
--------------------------------------------------------------------------------
+
+epl.nodes[51596503] = SecretsOfAzeroth({
+    label = L['crm_plague_plaque_label'],
+    requires = ns.requirement.Toy(206696), -- Tricked-Out Thinking Cap
+    note = L['crm_plague_plaque_note'],
+    rewards = {
+        Item({item = 208142}), -- Buried Satchel
+        Achievement({id = 18644, criteria = {qty = true, id = 1}}) -- Community Rumor Mill
+    },
+    pois = {POI({55245943}), Path({51596503, 55245943})}
+}) -- Plague Plaque
