@@ -824,3 +824,54 @@ L['zaralek_event_inactive'] = ns.color.Orange('Cet Événement bonus n\'apparaî
 
 L['options_icons_zone_event'] = 'Événements bonus'
 L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements bonus.'
+
+-------------------------------------------------------------------------------
+----------------------------- SECRETS OF AZEROTH ------------------------------
+-------------------------------------------------------------------------------
+
+L['soa_day01_rlabel'] = nil
+
+L['soa_day01_kathos_note_a'] = nil
+L['soa_day01_kathos_note_b'] = nil
+L['soa_day01_kathos_note_c'] = nil
+
+L['soa_day01_shomko_note_a'] = nil
+L['soa_day01_shomko_note_b'] = nil
+L['soa_day01_shomko_note_c'] = nil
+
+L['soa_day02_rlabel'] = nil
+
+L['soa_day02_bobby_note_a'] = nil
+L['soa_day02_bobby_note_b'] = nil
+L['soa_day02_bobby_note_c'] = nil
+L['soa_day02_bobby_note_d'] = nil
+L['soa_day02_bobby_note_e'] = nil
+
+L['soa_day02_fangli_note_a'] = nil
+
+L['soa_day02_fangl_clue_label'] = nil
+
+L['soa_day02_fangli_clue_a'] = nil
+L['soa_day02_fangli_clue_b'] = nil
+L['soa_day02_fangli_clue_c'] = nil
+L['soa_day02_fangli_clue_d'] = nil
+L['soa_day02_fangli_clue_e'] = nil
+L['soa_day02_fangli_clue_f'] = nil
+L['soa_day02_fangli_clue_g'] = nil
+L['soa_day02_fangli_clue_h'] = nil
+L['soa_day02_fangli_clue_i'] = nil
+
+L['soa_day02_erugosa_note_a'] = nil
+L['soa_day02_erugosa_note_b'] = nil
+L['soa_day02_erugosa_note_c'] = nil
+L['soa_day02_erugosa_note_d'] = nil
+
+L['soa_day02_clinkyclick_note_a'] = nil
+L['soa_day02_clinkyclick_note_b'] = nil
+
+L['soa_day02_gryffin_note_a'] = nil
+L['soa_day02_gryffin_note_b'] = nil
+
+L['soa_day02_shakey_note_a'] = nil
+L['soa_day02_shakey_note_b'] = nil
+L['soa_day02_shakey_note_c'] = nil

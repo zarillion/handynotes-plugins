@@ -826,3 +826,54 @@ L['zaralek_event_inactive'] = ns.color.Orange('This Zone Event will not start to
 
 L['options_icons_zone_event'] = 'Zone Event'
 L['options_icons_zone_event_desc'] = 'Display locations for zone events.'
+
+-------------------------------------------------------------------------------
+----------------------------- SECRETS OF AZEROTH ------------------------------
+-------------------------------------------------------------------------------
+
+L['soa_day01_rlabel'] = 'Day 1'
+
+L['soa_day01_kathos_note_a'] = 'Speak with {npc:206864} to receive a {item:208054} containing {item:208055} and {item:208056}.'
+L['soa_day01_kathos_note_b'] = 'Place the {item:208056} in the {location:Valdrakken Treasury Hoard} in {location:Valdrakken}.'
+L['soa_day01_kathos_note_c'] = 'Return to {npc:206864} you will receive {item:207105}.\n\nTake the {item:207105} to {npc:186448} in {location:Iskaara} in {location:The Azure Span}.'
+
+L['soa_day01_shomko_note_a'] = 'Speak to {npc:186448} to receive {item:207580}.'
+L['soa_day01_shomko_note_b'] = 'Place {item:207580} at {object:Ceremonial Spear} in {location:Riplash Strand} in the {location:Borean Tundra} in {location:Northrend}.'
+L['soa_day01_shomko_note_c'] = '{note:Be sure to stick around and kill {npc:Crazed Looter} to receive {item:207594}.}'
+
+L['soa_day02_rlabel'] = 'Day 2'
+
+L['soa_day02_bobby_note_a'] = 'Speak with {npc:207696} to recieve {item:207802}. You\'ll need to build {item:207827} by collecting various pieces:'
+L['soa_day02_bobby_note_b'] = 'Trade 5x {item:207956} with {npc:185548} for {item:207814} in {location:Valdrakken}.'
+L['soa_day02_bobby_note_c'] = 'Trade 1x {item:207812} with {npc:197781} for {item:207813} in {location:Valdrakken}.'
+L['soa_day02_bobby_note_d'] = 'Receive 1x {item:207816} from {npc:198586} after paying his bar tab in {location:Valdrakken}.'
+L['soa_day02_bobby_note_e'] = 'Combine the pieces to recieve {item:207827} and begin {quest:77237} for {npc:207697} in {location:Valdrakken}.'
+
+L['soa_day02_fangli_note_a'] = 'Speak with {npc:207697} to complete {quest:77237} and recieve {item:206696}.'
+
+L['soa_day02_fangl_clue_label'] = 'Fangli Clue'
+
+L['soa_day02_fangli_clue_a'] = 'On the wall above {npc:207697} head.'
+L['soa_day02_fangli_clue_b'] = 'On the bottom on the bookshelf in {location:Little Scales Daycare}.'
+L['soa_day02_fangli_clue_c'] = 'On the floor next to {npc:196960} in the {location:Artisan\'s Market}.'
+L['soa_day02_fangli_clue_d'] = 'On top of a barrel near the jewelcrafting station.'
+L['soa_day02_fangli_clue_e'] = 'On the floor near {npc:185545} in the {location:Artisan\'s Market}.'
+L['soa_day02_fangli_clue_f'] = 'Above the entrance arch of the {location:Auction House}.'
+L['soa_day02_fangli_clue_g'] = 'On the ground next to the {npc:189489}.'
+L['soa_day02_fangli_clue_h'] = 'In the ground floor entrance to the {location:Seat of the Aspects} next to a bonfire.'
+L['soa_day02_fangli_clue_i'] = 'Near a waterfall by the {location:Emerald Enclave}.'
+
+L['soa_day02_erugosa_note_a'] = 'Speak with {npc:185556} to receieve {item:208416}. You\'ll need to collect the following items for her:'
+L['soa_day02_erugosa_note_b'] = 'Purchase 5x {item:198441} from {npc:194152} in {location:Timberstep Outpost} in {location:Ohn\'nahran Plains}.'
+L['soa_day02_erugosa_note_c'] = 'Purchase 5x {item:201419} from {npc:196729} in {location:Valdrakken} in {location:Thaldraszus}.'
+L['soa_day02_erugosa_note_d'] = 'Purchase 5x {item:205693} from {npc:204371} in {location:Loamm} in {location:Zaralek Cavern}.'
+
+L['soa_day02_clinkyclick_note_a'] = 'Speak with {npc:185548} to receive {item:207814}. You\'ll need:'
+L['soa_day02_clinkyclick_note_b'] = 'Receive 10x {item:207956} from {npc:185556} in {location:The Roasted Ram} in {location:Valdrakken}.'
+
+L['soa_day02_gryffin_note_a'] = 'Speak with {npc:197781} to receive {item:207813}. You\'ll need to collect:'
+L['soa_day02_gryffin_note_b'] = 'Loot 1x {item:207812} by killing {npc:191451} in {location:The Cascades} in {location:Thaldraszus}.'
+
+L['soa_day02_shakey_note_a'] = 'Speak with {npc:198586} to receive {item:207816}.'
+L['soa_day02_shakey_note_b'] = 'Pay {npc:198586}\'s bar tab of ' .. GetCoinTextureString(3464358) .. ' at {location:The Dragon\'s Hoard} in {location:Valdrakken}.'
+L['soa_day02_shakey_note_c'] = 'Enter {location:The Dragon\'s Hoard} through the secret entrance by {emote:/bow} at the {object:Odd Statue} at the back of {location:The Roasted Ram}.'
