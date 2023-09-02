@@ -870,7 +870,7 @@ L['soa_day02_clinkyclick_note_a'] = 'Parlez à {npc:185548} pour recevoir un {it
 L['soa_day02_clinkyclick_note_b'] = 'Obtenez 10x {item:207956} auprès d\'{npc:185556} au {location:Bélier rôti} à {location:Valdrakken}.'
 
 L['soa_day02_gryffin_note_a'] = 'Parlez à {npc:197781} pour recevoir un {item:207813}. Vous aurez besoin de rassembler :'
-L['soa_day02_gryffin_note_b'] = 'Obtenez 1x {item:207812} en tuant des {npc:191451} situés dans {location:Les Cascades} à {location:Thaldraszus}.'
+L['soa_day02_gryffin_note_b'] = 'Obtenez 1x {item:207812} en tuant des {npc:191451} à la {location:Rive de la Cascade} à {location:Valdrakken}.'
 
 L['soa_day02_shakey_note_a'] = 'Parlez à {npc:198586} pour recevoir les {item:207816}.'
 L['soa_day02_shakey_note_b'] = 'Payez la note du bar de {npc:198586} s\'élevant à %s au {location:Trésor du Dragon} à {location:Valdrakken}.'
