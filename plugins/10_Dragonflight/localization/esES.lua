@@ -865,7 +865,7 @@ L['soa_day02_fangli_clue_h'] = 'En la entrada de la planta baja al {location:Tro
 L['soa_day02_fangli_clue_i'] = 'Cerca de una cascada en el {location:Enclave Emeralda}.'
 
 L['soa_day02_erugosa_note_a'] = 'Habla con {npc:185556} para conseguir la {item:208416}. Necesitarás conseguir los siguientes objetos para ella:'
-L['soa_day02_erugosa_note_b'] = 'Compra 5x {item:198441} a {npc:194152} de {location:Avanzada Pasoleño} en las {location:Llanuras de Ohn\'nahra}.'
+L['soa_day02_erugosa_note_b'] = 'Compra 5x {item:198441} a {npc:194152} de {location:Avanzada Pasoleño} en las {location:Llanuras de Ohn\'ahran}.'
 L['soa_day02_erugosa_note_c'] = 'Compra 5x {item:201419} a {npc:196729} de {location:Valdrakken} en {location:Thaldraszus}.'
 L['soa_day02_erugosa_note_d'] = 'Compra 5x {item:205693} a {npc:204371} de {location:Loamm} en la {location:Caverna Zaralek}.'
 
@@ -881,15 +881,15 @@ L['soa_day02_shakey_note_c'] = 'Entra en el {location:Tesoro del Dragón} a trav
 
 L['soa_day03_rlabel'] = '(Día 3)'
 
-L['soa_day03_locker_label'] = nil
-L['soa_day03_sazsel_note_a'] = nil
-L['soa_day03_sazsel_note_b'] = nil
+L['soa_day03_locker_label'] = 'Armario de Ecologista'
+L['soa_day03_sazsel_note_a'] = 'Despoja el {item:208130} de dentro del {object:Armario de Ecologista} en el piso superior de {location:El Carnero Asado} y llévaselo a {npc:208620} en {location:Valdrakken}.'
+L['soa_day03_sazsel_note_b'] = 'Una vez tasado el estandarte, vuelve al armario y devuélvelo. Ahora ve a hablar con {npc:207697}.'
 
-L['buried_satchel_note'] = nil
+L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
 
-L['bs_epl_location'] = nil
-L['bs_fel_location'] = nil
-L['bs_tho_location'] = nil
+L['bs_epl_location'] = 'Detrás del edificio en {location:Cruce de Corin}.'
+L['bs_fel_location'] = 'Bajo el agua en el centro de {location:Cascadas del Veneno}.'
+L['bs_tho_location'] = 'En una cueva bajo el agua llamada {location:Campamento Pezuña Quebrada}.'
 
 L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'
