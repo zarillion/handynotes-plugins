@@ -878,15 +878,15 @@ L['soa_day02_shakey_note_c'] = 'Entrez au {location:Trésor du Dragon} par l\'en
 
 L['soa_day03_rlabel'] = '(Jour 3)'
 
-L['soa_day03_locker_label'] = nil
-L['soa_day03_sazsel_note_a'] = nil
-L['soa_day03_sazsel_note_b'] = nil
+L['soa_day03_locker_label'] = 'Coffre de la préservatrice'
+L['soa_day03_sazsel_note_a'] = 'Récupérez la {item:208130} dans le {object:Coffre de la préservatrice} au dernier étage du {location:Bélier rôti} et apportez-la à l\'{npc:208620} à {location:Valdrakken}.'
+L['soa_day03_sazsel_note_b'] = 'Une fois examinée, rapportez la bannière dans le coffre et retournez voir {npc:207697}.'
 
-L['buried_satchel_note'] = nil
+L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
 
-L['bs_epl_location'] = nil
-L['bs_fel_location'] = nil
-L['bs_tho_location'] = nil
+L['bs_epl_location'] = 'Derrière le bâtiment à la {location:Croisée de Corin}.'
+L['bs_fel_location'] = 'Sous l\'eau au centre des {location:Chutes de la Vénéneuse}.'
+L['bs_tho_location'] = 'Dans une grotte sous-marine nommée le {location:Bastion du Sabot fendu}.'
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'
