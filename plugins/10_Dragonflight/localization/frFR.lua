@@ -829,7 +829,7 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['soa_day01_rlabel'] = 'Jour 1'
+L['soa_day01_rlabel'] = '(Jour 1)'
 
 L['soa_day01_kathos_note_a'] = 'Parlez à la {npc:206864} pour recevoir une {item:208054} contenant {item:208055} et un {item:208056}.'
 L['soa_day01_kathos_note_b'] = 'Placez le {item:208056} sur un tas d\'or à l\'intérieur de la Banque de {location:Valdrakken}.'
@@ -839,7 +839,7 @@ L['soa_day01_shomko_note_a'] = 'Parlez à l\'{npc:186448} pour recevoir la {item
 L['soa_day01_shomko_note_b'] = 'Placez la {item:207580} sur la {object:Lance cérémonielle} à la {location:Grève des Courcinglants} dans la {location:Toundra Boréenne} en {location:Norfendre}.'
 L['soa_day01_shomko_note_c'] = '{note:Veillez à rester dans les parages afin de tuer un {npc:208182} pour recevoir la {item:207594}.}'
 
-L['soa_day02_rlabel'] = 'Jour 2'
+L['soa_day02_rlabel'] = '(Jour 2)'
 
 L['soa_day02_bobby_note_a'] = 'Parlez à {npc:207696} pour obtenir les {item:207802}. Vous devrez construire une {item:207827} en collectant divers composants :'
 L['soa_day02_bobby_note_b'] = 'Échangez 5x {item:207956} avec {npc:185548} contre un {item:207814} à {location:Valdrakken}.'
@@ -875,6 +875,12 @@ L['soa_day02_gryffin_note_b'] = 'Obtenez 1x {item:207812} en tuant des {npc:1914
 L['soa_day02_shakey_note_a'] = 'Parlez à {npc:198586} pour recevoir les {item:207816}.'
 L['soa_day02_shakey_note_b'] = 'Payez la note du bar de {npc:198586} s\'élevant à %s au {location:Trésor du Dragon} à {location:Valdrakken}.'
 L['soa_day02_shakey_note_c'] = 'Entrez au {location:Trésor du Dragon} par l\'entrée secrète en utilisant l\'emote {emote:/incliner} devant l\'{object:Étrange statue} située au fond du {location:Bélier rôti}.'
+
+L['soa_day03_rlabel'] = '(Jour 3)'
+
+L['soa_day03_locker_label'] = nil
+L['soa_day03_sazsel_note_a'] = nil
+L['soa_day03_sazsel_note_b'] = nil
 
 L['buried_satchel_note'] = nil
 

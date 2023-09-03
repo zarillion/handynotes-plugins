@@ -878,6 +878,12 @@ L['soa_day02_shakey_note_a'] = '与 {npc:198586} 交谈得到 {item:207816}。'
 L['soa_day02_shakey_note_b'] = '在 {location:瓦德拉肯} 的 {location:巨龙宝藏} 支付 {npc:198586} 的酒吧费用。'
 L['soa_day02_shakey_note_c'] = '通过 {location:脆烤山羊旅店} 后面的 {object:奇怪的雕像} 秘密入口处使用表情 {emote:/鞠躬}，{emote:/bow} 进入 {location:The 巨龙宝藏}。'
 
+L['soa_day03_rlabel'] = nil
+
+L['soa_day03_locker_label'] = nil
+L['soa_day03_sazsel_note_a'] = nil
+L['soa_day03_sazsel_note_b'] = nil
+
 L['buried_satchel_note'] = nil
 
 L['bs_epl_location'] = nil

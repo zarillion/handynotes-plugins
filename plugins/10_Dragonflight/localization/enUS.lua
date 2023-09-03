@@ -831,7 +831,7 @@ L['options_icons_zone_event_desc'] = 'Display locations for zone events.'
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['soa_day01_rlabel'] = 'Day 1'
+L['soa_day01_rlabel'] = '(Day 1)'
 
 L['soa_day01_kathos_note_a'] = 'Speak with {npc:206864} to receive a {item:208054} containing {item:208055} and {item:208056}.'
 L['soa_day01_kathos_note_b'] = 'Place the {item:208056} in the {location:Valdrakken Treasury Hoard} in {location:Valdrakken}.'
@@ -841,7 +841,7 @@ L['soa_day01_shomko_note_a'] = 'Speak to {npc:186448} to receive {item:207580}.'
 L['soa_day01_shomko_note_b'] = 'Place {item:207580} at {object:Ceremonial Spear} in {location:Riplash Strand} in the {location:Borean Tundra} in {location:Northrend}.'
 L['soa_day01_shomko_note_c'] = '{note:Be sure to stick around and kill {npc:208182} to receive {item:207594}.}'
 
-L['soa_day02_rlabel'] = 'Day 2'
+L['soa_day02_rlabel'] = '(Day 2)'
 
 L['soa_day02_bobby_note_a'] = 'Speak with {npc:207696} to recieve {item:207802}. You\'ll need to build {item:207827} by collecting various pieces:'
 L['soa_day02_bobby_note_b'] = 'Trade 5x {item:207956} with {npc:185548} for {item:207814} in {location:Valdrakken}.'
@@ -877,6 +877,11 @@ L['soa_day02_gryffin_note_b'] = 'Loot 1x {item:207812} by killing {npc:191451} i
 L['soa_day02_shakey_note_a'] = 'Speak with {npc:198586} to receive {item:207816}.'
 L['soa_day02_shakey_note_b'] = 'Pay {npc:198586}\'s bar tab of %s at {location:The Dragon\'s Hoard} in {location:Valdrakken}.'
 L['soa_day02_shakey_note_c'] = 'Enter {location:The Dragon\'s Hoard} through the secret entrance by {emote:/bow} at the {object:Odd Statue} at the back of {location:The Roasted Ram}.'
+
+L['soa_day03_rlabel'] = '(Day 3)'
+L['soa_day03_locker_label'] = 'Preservationist\'s Locker'
+L['soa_day03_sazsel_note_a'] = 'Loot the {item:208130} from within the {object:Preservationist\'s Locker} on the top floor of {location:The Roasted Ram} and bring to {npc:208620} in {location:Valdrakken}.'
+L['soa_day03_sazsel_note_b'] = 'Once appraised return the banner back to the chest and return to {npc:207697}.'
 
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
 

@@ -343,6 +343,35 @@ val.nodes[47334110] = SecretsOfAzeroth({
 }) -- Kritha
 
 -------------------------------------------------------------------------------
+------------------------ SECRETS OF AZEROTH: DAY THREE ------------------------
+-------------------------------------------------------------------------------
+
+val.nodes[48824783] = SecretsOfAzeroth({
+    label = L['soa_day03_locker_label'],
+    note = L['soa_day03_sazsel_note_a'],
+    playerHasItem = {208130},
+    quest = 77397,
+    requires = ns.requirement.Item(208129), -- Copied Artifact Storage Key
+    rlabel = ns.color.Gray(L['soa_day03_rlabel']),
+    rewards = {
+        Item({item = 208130, note = '1x'}) -- Maruuk Burial Banner
+    }
+}) -- Preservationist's Locker
+
+val.nodes[62847284] = SecretsOfAzeroth({
+    label = '{npc:208620}',
+    note = L['soa_day03_sazsel_note_a'] .. '\n\n' ..
+        L['soa_day03_sazsel_note_b'],
+    requires = ns.requirement.Item(208130), -- Maruuk Burial Banner
+    rlabel = ns.color.Gray(L['soa_day03_rlabel']),
+    quest = {77277, 77521},
+    rewards = {
+        Achievement({id = 18646, criteria = 4}), -- Whodunnit?
+        Item({item = 208130, note = '1x'}) -- Maruuk Burial Banner
+    }
+}) -- "Appraiser" Sazsel Stickyfingers
+
+-------------------------------------------------------------------------------
 ---------------------------- COMMUNITY RUMOR MILL -----------------------------
 -------------------------------------------------------------------------------
 

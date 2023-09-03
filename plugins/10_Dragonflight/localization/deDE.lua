@@ -833,7 +833,7 @@ L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse 
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['soa_day01_rlabel'] = 'Tag 1'
+L['soa_day01_rlabel'] = '(Tag 1)'
 
 L['soa_day01_kathos_note_a'] = 'Sprich mit {npc:206864}, um {item:208054} zu erhalten. In diesen sind {item:208055} und {item:208056} enthalten.'
 L['soa_day01_kathos_note_b'] = 'Platziere {item:208056} im {location:Schatzhort von Valdrakken}.'
@@ -843,7 +843,7 @@ L['soa_day01_shomko_note_a'] = 'Sprich mit {npc:186448}, um {item:207580} zu erh
 L['soa_day01_shomko_note_b'] = 'Platziere {item:207580} in der {location:Ebene von Nasam} in die {location:Boreanische Tundra} in {location:Nordend}.'
 L['soa_day01_shomko_note_c'] = '{note:Bleibe unbedingt in der Nähe und töten {npc:208182}, um den {item:207594} zu erhalten.}'
 
-L['soa_day02_rlabel'] = 'Tag 2'
+L['soa_day02_rlabel'] = '(Tag 2)'
 
 L['soa_day02_bobby_note_a'] = 'Sprich mit {npc:207696}, um die {item:207802} zu erhalten. Du musst die {item:207827} herstellen, indem du verschiedene Teile sammelst:'
 L['soa_day02_bobby_note_b'] = 'Tausche 5x {item:207956} mit {npc:185548} gegen {item:207814} in {location:Valdrakken} ein.'
@@ -879,6 +879,12 @@ L['soa_day02_gryffin_note_b'] = 'Plündere 1x {item:207812} von {npc:191451} bei
 L['soa_day02_shakey_note_a'] = 'Sprich mit {npc:198586}, um {item:207816} zu erhalten.'
 L['soa_day02_shakey_note_b'] = 'Begleiche {npc:198586}s Deckel von %s im {location:Der Drachenhort} in {location:Valdrakken}.'
 L['soa_day02_shakey_note_c'] = 'Zeige der {object:Seltsame Statue} im hinteren Teil des Gasthauses {location:Zum Gerösteten Gießbock} Respekt, indem du sie anvisierst und dich verbeugst {emote:(/verbeugen)}, um in {location:Der Drachenhort} zu gelanden.'
+
+L['soa_day03_rlabel'] = '(Tag 3)'
+
+L['soa_day03_locker_label'] = nil
+L['soa_day03_sazsel_note_a'] = nil
+L['soa_day03_sazsel_note_b'] = nil
 
 L['buried_satchel_note'] = nil
 

@@ -832,7 +832,7 @@ L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['soa_day01_rlabel'] = 'Día 1'
+L['soa_day01_rlabel'] = '(Día 1)'
 
 L['soa_day01_kathos_note_a'] = 'Habla con la {npc:206864} para conseguir una {item:208054} que contiene {item:208055} y un {item:208056}.'
 L['soa_day01_kathos_note_b'] = 'Coloca el {item:208056} en el {location:Tesoro de Valdrakken} de {location:Valdrakken}.'
@@ -842,7 +842,7 @@ L['soa_day01_shomko_note_a'] = 'Habla con el {npc:186448} para conseguir la {ite
 L['soa_day01_shomko_note_b'] = 'Colócala en la {object:Lanza Ceremonial} de las {location:Ruinas Tralladón} en la {location:Tundra Boreal} de {location:Rasganorte}.'
 L['soa_day01_shomko_note_c'] = '{note:Aségurate de quedarte y matar al {npc:208182} para conseguir el {item:207594}.}'
 
-L['soa_day02_rlabel'] = 'Día 2'
+L['soa_day02_rlabel'] = '(Día 2)'
 
 L['soa_day02_bobby_note_a'] = 'Habla con {npc:207696} para conseguir {item:207802}. Necesitarás crear {item:207827} consiguiendo varios objectos:'
 L['soa_day02_bobby_note_b'] = 'Comercia 5x {item:207956} con {npc:185548} para conseguir {item:207814} en {location:Valdrakken}.'
@@ -878,6 +878,12 @@ L['soa_day02_gryffin_note_b'] = 'Despoja 1x {item:207812} matando {npc:191451} d
 L['soa_day02_shakey_note_a'] = 'Habla con {npc:198586} para conseguir {item:207816}.'
 L['soa_day02_shakey_note_b'] = 'Paga la cuenta del bar de {npc:198586} %s del {location:Tesoro del Dragón} en {location:Valdrakken}.'
 L['soa_day02_shakey_note_c'] = 'Entra en el {location:Tesoro del Dragón} a través de la entrada secreta tecleando en el chat la emoción {emote:/arrodillarse} en la {object:Estatua Extraña} en la parte trasera de {location:El Carnero Asado}.'
+
+L['soa_day03_rlabel'] = '(Día 3)'
+
+L['soa_day03_locker_label'] = nil
+L['soa_day03_sazsel_note_a'] = nil
+L['soa_day03_sazsel_note_b'] = nil
 
 L['buried_satchel_note'] = nil
 

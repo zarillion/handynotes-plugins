@@ -879,6 +879,12 @@ L['soa_day02_shakey_note_a'] = nil
 L['soa_day02_shakey_note_b'] = nil
 L['soa_day02_shakey_note_c'] = nil
 
+L['soa_day03_rlabel'] = nil
+
+L['soa_day03_locker_label'] = nil
+L['soa_day03_sazsel_note_a'] = nil
+L['soa_day03_sazsel_note_b'] = nil
+
 L['buried_satchel_note'] = nil
 
 L['bs_epl_location'] = nil
