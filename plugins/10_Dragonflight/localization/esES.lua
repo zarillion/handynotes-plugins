@@ -820,11 +820,11 @@ L['seething_cache_treasure_note'] = 'Para poder ver el {object:Alijo Hirviente} 
 L['chest_of_the_flights_treasure_note'] = 'Para abrir el cofre necesitarás hacer click en las {object:Gema Potenciada} en el orden {note:Rojo > Negro > Azul > Amarillo > Verde}.'
 L['curious_top_hat_note'] = 'Interactúa con la {npc:205010} mientras tengas el buff {spell:410288} para recibir {item:205021}. Si no tienes el buff y te acercas, huirá.'
 
-L['the_gift_of_cheese_note_1'] = nil
-L['the_gift_of_cheese_note_2'] = nil
-L['the_gift_of_cheese_note_3'] = nil
-L['the_gift_of_cheese_note_4'] = nil
-L['the_gift_of_cheese_note_5'] = nil
+L['the_gift_of_cheese_note_1'] = 'Haz click en el {object:Queso Curado Chillón} en el {location:Reposo Obsidiana} y aparecerá en tus mochilas la {item:204871}.'
+L['the_gift_of_cheese_note_2'] = 'Interactúa con la {item:204871} para conseguir {item:204872}. {note:(tiene 5 minutos de reutilización)}'
+L['the_gift_of_cheese_note_3'] = 'Una vez tengas los 30x {item:204872} combínalos para conseguir la receta.'
+L['the_gift_of_cheese_note_4'] = '{note:Esta rata ama el queso y se comerá ansiosamente un {item:3927} cada tres minutos. ¡Planifícalo bien!}'
+L['the_gift_of_cheese_note_5'] = 'Cuando puedas crear {item:204848}, alimenta a 50 {npc:4075} a lo largo de Azeroth para completar el logro.'
 
 L['zaralek_rare_active'] = ns.color.Blue('Este Raro puede aparecer hoy.')
 L['zaralek_rare_inactive'] = ns.color.Orange('Este Raro no aparecerá hoy, vuelve mañana.')
