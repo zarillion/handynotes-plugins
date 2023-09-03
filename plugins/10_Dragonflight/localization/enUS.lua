@@ -851,7 +851,7 @@ L['soa_day02_bobby_note_e'] = 'Combine the pieces to recieve {item:207827} and b
 
 L['soa_day02_fangli_note_a'] = 'Speak with {npc:207697} to complete {quest:77237} and recieve {item:206696}.'
 
-L['soa_day02_fangl_clue_label'] = 'Fangli's Clue'
+L['soa_day02_fangl_clue_label'] = 'Fangli\'s Clue'
 
 L['soa_day02_fangli_clue_a'] = 'On the wall above {npc:207697} head.'
 L['soa_day02_fangli_clue_b'] = 'On the bottom on the bookshelf in {location:Little Scales Daycare}.'
