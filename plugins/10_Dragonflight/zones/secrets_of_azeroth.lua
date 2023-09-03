@@ -402,5 +402,6 @@ tho.nodes[42753063] = BuriedSatchel({
 }) -- Thousand Needles
 
 smv.nodes[35314895] = BuriedSatchel({
-    quest = 77292
+    quest = 77292,
+    location = L['bs_smv_location']
 }) -- Shadowmoon Valley (Draenor)
