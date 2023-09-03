@@ -879,8 +879,11 @@ L['soa_day02_shakey_note_a'] = 'Habla con {npc:198586} para conseguir {item:2078
 L['soa_day02_shakey_note_b'] = 'Paga la cuenta del bar de {npc:198586} %s del {location:Tesoro del Dragón} en {location:Valdrakken}.'
 L['soa_day02_shakey_note_c'] = 'Entra en el {location:Tesoro del Dragón} a través de la entrada secreta tecleando en el chat la emoción {emote:/arrodillarse} en la {object:Estatua Extraña} en la parte trasera de {location:El Carnero Asado}.'
 
-L['crm_plague_plaque_label'] = 'Placa de Plaga'
-L['crm_plague_plaque_note'] = 'Haciendo click en la {object:Placa de Plaga} te pondrá tu {item:206696} y lo calibrará para encontrar el tesoro en un {object:Montículo de Porquería Blanda}.'
+L['buried_satchel_note'] = nil
+
+L['bs_epl_location'] = nil
+L['bs_fel_location'] = nil
+L['bs_tho_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'

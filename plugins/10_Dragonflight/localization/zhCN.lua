@@ -878,8 +878,11 @@ L['soa_day02_shakey_note_a'] = '与 {npc:198586} 交谈得到 {item:207816}。'
 L['soa_day02_shakey_note_b'] = '在 {location:瓦德拉肯} 的 {location:巨龙宝藏} 支付 {npc:198586} 的酒吧费用。'
 L['soa_day02_shakey_note_c'] = '通过 {location:脆烤山羊旅店} 后面的 {object:奇怪的雕像} 秘密入口处使用表情 {emote:/鞠躬}，{emote:/bow} 进入 {location:The 巨龙宝藏}。'
 
-L['crm_plague_plaque_label'] = '瘟疫铭牌'
-L['crm_plague_plaque_note'] = '点击 {object:瘟疫铭牌} 将戴上 {item:206696} 并针对在 {object:一堆松散的泥土} 中找到的宝藏进行校准。'
+L['buried_satchel_note'] = nil
+
+L['bs_epl_location'] = nil
+L['bs_fel_location'] = nil
+L['bs_tho_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'

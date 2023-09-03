@@ -876,8 +876,11 @@ L['soa_day02_shakey_note_a'] = 'Parlez à {npc:198586} pour recevoir les {item:2
 L['soa_day02_shakey_note_b'] = 'Payez la note du bar de {npc:198586} s\'élevant à %s au {location:Trésor du Dragon} à {location:Valdrakken}.'
 L['soa_day02_shakey_note_c'] = 'Entrez au {location:Trésor du Dragon} par l\'entrée secrète en utilisant l\'emote {emote:/incliner} devant l\'{object:Étrange statue} située au fond du {location:Bélier rôti}.'
 
-L['crm_plague_plaque_label'] = nil
-L['crm_plague_plaque_note'] = nil
+L['buried_satchel_note'] = nil
+
+L['bs_epl_location'] = nil
+L['bs_fel_location'] = nil
+L['bs_tho_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'

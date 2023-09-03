@@ -17,8 +17,10 @@ local Path = ns.poi.Path
 
 local bor = ns.maps[114] or Map({id = 114, settings = true}) -- Borean Tundra
 local epl = ns.maps[23] or Map({id = 23, settings = true}) -- Eastern Plaguelands
+local fel = ns.maps[77] or Map({id = 77, settings = true}) -- Felwood
 local ohn = ns.maps[2023] or Map({id = 2023, settings = true}) -- Ohn'ahran Plains
 local tas = ns.maps[2024] or Map({id = 2024, settings = true}) -- The Azure Span
+local tho = ns.maps[64] or Map({id = 64, settings = true}) -- Thousand Needles
 local val = ns.maps[2112] or Map({id = 2112, settings = true}) -- Valdrakken
 local zar = ns.maps[2133] or Map({id = 2133, settings = true}) -- Zaralek Cavern
 
@@ -344,13 +346,28 @@ val.nodes[47334110] = SecretsOfAzeroth({
 ---------------------------- COMMUNITY RUMOR MILL -----------------------------
 -------------------------------------------------------------------------------
 
-epl.nodes[51596503] = SecretsOfAzeroth({
-    label = L['crm_plague_plaque_label'],
+local BuriedSatchel = Class('BuriedSatchel', SecretsOfAzeroth, {
+    label = '{item:208142}',
+    note = L['buried_satchel_note'],
     requires = ns.requirement.Toy(206696), -- Tricked-Out Thinking Cap
-    note = L['crm_plague_plaque_note'],
     rewards = {
-        Item({item = 208142}), -- Buried Satchel
         Achievement({id = 18644, criteria = {qty = true, id = 1}}) -- Community Rumor Mill
-    },
-    pois = {POI({55245943}), Path({51596503, 55245943})}
-}) -- Plague Plaque
+    }
+}) -- Buried Satchel
+
+epl.nodes[55245943] = BuriedSatchel({
+    quest = 77289,
+    location = L['bs_epl_location']
+}) -- Eastern Plaguelands
+
+fel.nodes[42214805] = BuriedSatchel({
+    quest = 77288,
+    location = L['bs_fel_location']
+}) -- Felwood
+
+tho.nodes[42753063] = BuriedSatchel({
+    quest = 77291,
+    location = L['bs_tho_location'],
+    pois = {POI({44003730})}
+}) -- Thousand Needles
+

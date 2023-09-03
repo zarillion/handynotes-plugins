@@ -880,8 +880,11 @@ L['soa_day02_shakey_note_a'] = 'Sprich mit {npc:198586}, um {item:207816} zu erh
 L['soa_day02_shakey_note_b'] = 'Begleiche {npc:198586}s Deckel von %s im {location:Der Drachenhort} in {location:Valdrakken}.'
 L['soa_day02_shakey_note_c'] = 'Zeige der {object:Seltsame Statue} im hinteren Teil des Gasthauses {location:Zum Gerösteten Gießbock} Respekt, indem du sie anvisierst und dich verbeugst {emote:(/verbeugen)}, um in {location:Der Drachenhort} zu gelanden.'
 
-L['crm_plague_plaque_label'] = nil
-L['crm_plague_plaque_note'] = nil
+L['buried_satchel_note'] = nil
+
+L['bs_epl_location'] = nil
+L['bs_fel_location'] = nil
+L['bs_tho_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der Hinweise der {location:Geheimnisse von Azeroth} an.'

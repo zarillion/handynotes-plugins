@@ -878,8 +878,11 @@ L['soa_day02_shakey_note_a'] = 'Speak with {npc:198586} to receive {item:207816}
 L['soa_day02_shakey_note_b'] = 'Pay {npc:198586}\'s bar tab of %s at {location:The Dragon\'s Hoard} in {location:Valdrakken}.'
 L['soa_day02_shakey_note_c'] = 'Enter {location:The Dragon\'s Hoard} through the secret entrance by {emote:/bow} at the {object:Odd Statue} at the back of {location:The Roasted Ram}.'
 
-L['crm_plague_plaque_label'] = 'Plague Plaque'
-L['crm_plague_plaque_note'] = 'Clicking the {object:Plague Plaque} will put on your {item:206696} and calibrate it for the treasure found in {object:Loose Dirt Mound}.'
+L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
+
+L['bs_epl_location'] = 'Behind the building in {location:Corin\'s Crossing}.'
+L['bs_fel_location'] = 'Underwater in the center of {location:Bloodvenom Falls}.'
+L['bs_tho_location'] = 'In an underwater cave called {location:Splithoof Hold}.'
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Display clue locations for {location:Secrets of Azeroth}.'

@@ -814,8 +814,11 @@ L['soa_day02_shakey_note_a'] = nil
 L['soa_day02_shakey_note_b'] = nil
 L['soa_day02_shakey_note_c'] = nil
 
-L['crm_plague_plaque_label'] = nil
-L['crm_plague_plaque_note'] = nil
+L['buried_satchel_note'] = nil
+
+L['bs_epl_location'] = nil
+L['bs_fel_location'] = nil
+L['bs_tho_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = nil
 L['options_icons_secrets_of_azeroth_desc'] = nil
