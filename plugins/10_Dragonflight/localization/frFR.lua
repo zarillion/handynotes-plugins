@@ -817,11 +817,11 @@ L['seething_cache_treasure_note'] = 'Pour pouvoir voir la {object:Cache bouillon
 L['chest_of_the_flights_treasure_note'] = 'Pour ouvrir le coffre au trésor, vous devez cliquer sur les {object:Gemmes renforcées} dans l\'ordre {note:Rouge > Noire > Bleue > Jaune > Verte}.'
 L['curious_top_hat_note'] = 'Interagissez avec le {npc:205010} pendant que vous avez le buff {spell:410288} pour obtenir {item:205021}. Si vous n\'avez pas le buff et que vous vous approchez de lui, il s\'enfuira.'
 
-L['the_gift_of_cheese_note_1'] = nil
-L['the_gift_of_cheese_note_2'] = nil
-L['the_gift_of_cheese_note_3'] = nil
-L['the_gift_of_cheese_note_4'] = nil
-L['the_gift_of_cheese_note_5'] = nil
+L['the_gift_of_cheese_note_1'] = 'Cliquez sur le {object:Gruyère grinçant} au {location:Repos d’Obsidienne} et le {item:204871} entrera dans vos sacs.'
+L['the_gift_of_cheese_note_2'] = 'Interagissez avec le {item:204871} pour recevoir des {item:204872}. {note:(5 minutes de recharge)}'
+L['the_gift_of_cheese_note_3'] = 'Une fois que vous avez 30x {item:204340}, combinez les fragments pour obtenir la recette.'
+L['the_gift_of_cheese_note_4'] = '{note:Ce rat adore le fromage et consommera un {item:3927} toutes les trois minutes environ. Planifiez en conséquence !}'
+L['the_gift_of_cheese_note_5'] = 'Une fois que vous pouvez fabriquer le {item:204848}, il vous suffit de nourrir 50 {npc:4075} trouvés en Azeroth pour obtenir le haut-fait.'
 
 L['zaralek_rare_active'] = ns.color.Blue('Ce Rare peut apparaître aujourd\'hui.')
 L['zaralek_rare_inactive'] = ns.color.Orange('Ce Rare n\'apparaîtra pas aujourd\'hui, revenez demain.')
