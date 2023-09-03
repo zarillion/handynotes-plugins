@@ -19,6 +19,7 @@ local bor = ns.maps[114] or Map({id = 114, settings = true}) -- Borean Tundra
 local epl = ns.maps[23] or Map({id = 23, settings = true}) -- Eastern Plaguelands
 local fel = ns.maps[77] or Map({id = 77, settings = true}) -- Felwood
 local ohn = ns.maps[2023] or Map({id = 2023, settings = true}) -- Ohn'ahran Plains
+local smv = ns.maps[539] or Map({id = 539, settings = true}) -- Shadowmoon Valley (Draenor)
 local tas = ns.maps[2024] or Map({id = 2024, settings = true}) -- The Azure Span
 local tho = ns.maps[64] or Map({id = 64, settings = true}) -- Thousand Needles
 local val = ns.maps[2112] or Map({id = 2112, settings = true}) -- Valdrakken
@@ -400,3 +401,6 @@ tho.nodes[42753063] = BuriedSatchel({
     pois = {POI({44003730})}
 }) -- Thousand Needles
 
+smv.nodes[35314895] = BuriedSatchel({
+    quest = 77292
+}) -- Shadowmoon Valley (Draenor)
