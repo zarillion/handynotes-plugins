@@ -889,6 +889,7 @@ L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt M
 L['bs_epl_location'] = 'Behind the building in {location:Corin\'s Crossing}.'
 L['bs_fel_location'] = 'Underwater in the center of {location:Bloodvenom Falls}.'
 L['bs_tho_location'] = 'In an underwater cave called {location:Splithoof Hold}.'
+L['bs_smv_location'] = 'Inside the hollow tree near {npc:79241} in {location:Moonwillow Peak}.'
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Display clue locations for {location:Secrets of Azeroth}.'
