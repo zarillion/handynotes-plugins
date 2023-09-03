@@ -882,15 +882,15 @@ L['soa_day02_shakey_note_c'] = 'Zeige der {object:Seltsame Statue} im hinteren T
 
 L['soa_day03_rlabel'] = '(Tag 3)'
 
-L['soa_day03_locker_label'] = nil
-L['soa_day03_sazsel_note_a'] = nil
-L['soa_day03_sazsel_note_b'] = nil
+L['soa_day03_locker_label'] = 'Kiste der Bewahrerin'
+L['soa_day03_sazsel_note_a'] = 'Plündere das {item:208130} aus der {object:Kiste der Bewahrerin}, die sich im oberen Stockwerk des Gasthauses {location:Zum Gerösteten Gießbock} befindet. Bring dieses zu {npc:208620} in {location:Valdrakken}.'
+L['soa_day03_sazsel_note_b'] = 'Lege das Banner nach der Schätzung wieder in die Truhe und kehre zu {npc:207697} zurück.'
 
-L['buried_satchel_note'] = nil
+L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
 
-L['bs_epl_location'] = nil
-L['bs_fel_location'] = nil
-L['bs_tho_location'] = nil
+L['bs_epl_location'] = 'Hinter dem Haus bei {location:Corins Kreuzung}.'
+L['bs_fel_location'] = 'Unter Wasser bei {location:Die Blutgiftfälle}.'
+L['bs_tho_location'] = 'In der Unterwasserhöhle {location:Spalthufhöhle}.'
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der Hinweise der {location:Geheimnisse von Azeroth} an.'
