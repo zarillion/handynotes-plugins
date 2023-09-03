@@ -851,7 +851,7 @@ L['soa_day02_bobby_note_e'] = 'Combine the pieces to recieve {item:207827} and b
 
 L['soa_day02_fangli_note_a'] = 'Speak with {npc:207697} to complete {quest:77237} and recieve {item:206696}.'
 
-L['soa_day02_fangl_clue_label'] = 'Fangli Clue'
+L['soa_day02_fangl_clue_label'] = 'Fangli's Clue'
 
 L['soa_day02_fangli_clue_a'] = 'On the wall above {npc:207697} head.'
 L['soa_day02_fangli_clue_b'] = 'On the bottom on the bookshelf in {location:Little Scales Daycare}.'
@@ -864,7 +864,7 @@ L['soa_day02_fangli_clue_h'] = 'In the ground floor entrance to the {location:Se
 L['soa_day02_fangli_clue_i'] = 'Near a waterfall by the {location:Emerald Enclave}.'
 
 L['soa_day02_erugosa_note_a'] = 'Speak with {npc:185556} to receive {item:208416}. You\'ll need to collect the following items for her:'
-L['soa_day02_erugosa_note_b'] = 'Purchase 5x {item:198441} from {npc:194152} in {location:Timberstep Outpost} in {location:Ohn\'nahran Plains}.'
+L['soa_day02_erugosa_note_b'] = 'Purchase 5x {item:198441} from {npc:194152} in {location:Timberstep Outpost} in {location:Ohn\'ahran Plains}.'
 L['soa_day02_erugosa_note_c'] = 'Purchase 5x {item:201419} from {npc:196729} in {location:Valdrakken} in {location:Thaldraszus}.'
 L['soa_day02_erugosa_note_d'] = 'Purchase 5x {item:205693} from {npc:204371} in {location:Loamm} in {location:Zaralek Cavern}.'
 
