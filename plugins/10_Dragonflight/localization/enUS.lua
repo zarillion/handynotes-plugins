@@ -879,6 +879,7 @@ L['soa_day02_shakey_note_b'] = 'Pay {npc:198586}\'s bar tab of %s at {location:T
 L['soa_day02_shakey_note_c'] = 'Enter {location:The Dragon\'s Hoard} through the secret entrance by {emote:/bow} at the {object:Odd Statue} at the back of {location:The Roasted Ram}.'
 
 L['soa_day03_rlabel'] = '(Day 3)'
+
 L['soa_day03_locker_label'] = 'Preservationist\'s Locker'
 L['soa_day03_sazsel_note_a'] = 'Loot the {item:208130} from within the {object:Preservationist\'s Locker} on the top floor of {location:The Roasted Ram} and bring to {npc:208620} in {location:Valdrakken}.'
 L['soa_day03_sazsel_note_b'] = 'Once appraised return the banner back to the chest and return to {npc:207697}.'
