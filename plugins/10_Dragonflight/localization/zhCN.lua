@@ -831,55 +831,55 @@ L['options_icons_zone_event_desc'] = '显示区域事件的位置。'
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['soa_day01_rlabel'] = nil
+L['soa_day01_rlabel'] = '第一天'
 
-L['soa_day01_kathos_note_a'] = nil
-L['soa_day01_kathos_note_b'] = nil
-L['soa_day01_kathos_note_c'] = nil
+L['soa_day01_kathos_note_a'] = '与 {npc:206864} 交谈后得到包含 {item:208055} 和 {item:208056} 的 {item:208054}。'
+L['soa_day01_kathos_note_b'] = '将 {item:208056} 放入 {location:瓦德拉肯} 的 {location:瓦德拉肯藏宝库} 中。'
+L['soa_day01_kathos_note_c'] = '返回 {npc:206864}，将得到 {item:207105}。\n\n将 {item:207105} 带到 {location:碧蓝林海} 的 {location:伊斯卡拉} 的 {npc:186448}。'
 
-L['soa_day01_shomko_note_a'] = nil
-L['soa_day01_shomko_note_b'] = nil
-L['soa_day01_shomko_note_c'] = nil
+L['soa_day01_shomko_note_a'] = '与 {npc:186448} 交谈得到 {item:207580}。'
+L['soa_day01_shomko_note_b'] = '将 {item:207580} 放置在 {location:诺森德} {location:北风苔原} 的 {location:裂鞭海岸} 的 {object:仪式长矛} 处。'
+L['soa_day01_shomko_note_c'] = '{note:一定要留下来并击杀 {npc:208182} 以获得 {item:207594}。}'
 
-L['soa_day02_rlabel'] = nil
+L['soa_day02_rlabel'] = '第二天'
 
-L['soa_day02_bobby_note_a'] = nil
-L['soa_day02_bobby_note_b'] = nil
-L['soa_day02_bobby_note_c'] = nil
-L['soa_day02_bobby_note_d'] = nil
-L['soa_day02_bobby_note_e'] = nil
+L['soa_day02_bobby_note_a'] = '与 {npc:207696} 交谈得到 {item:207802}。需要通过收集各种部件来合成 {item:207827}：'
+L['soa_day02_bobby_note_b'] = '在 {location:瓦德拉肯} 用5个 {item:207956} 与 {npc:185548} 换取 {item:207814}。'
+L['soa_day02_bobby_note_c'] = '在 {location:瓦德拉肯} 用1个 {item:207812} 与 {npc:197781} 换取 {item:207813}。'
+L['soa_day02_bobby_note_d'] = '支付 {location:瓦德拉肯} 酒吧费用后，从 {npc:198586} 得到1个 {item:207816}。'
+L['soa_day02_bobby_note_e'] = '将部件组合起来即可获得 {item:207827} 并开始 {location:瓦德拉肯} 的 {npc:207697} 的 {quest:77237}。'
 
-L['soa_day02_fangli_note_a'] = nil
+L['soa_day02_fangli_note_a'] = '与 {npc:207697} 交谈以完成 {quest:77237} 并得到 {item:206696}。'
 
-L['soa_day02_fangl_clue_label'] = nil
+L['soa_day02_fangl_clue_label'] = '方利的线索'
 
-L['soa_day02_fangli_clue_a'] = nil
-L['soa_day02_fangli_clue_b'] = nil
-L['soa_day02_fangli_clue_c'] = nil
-L['soa_day02_fangli_clue_d'] = nil
-L['soa_day02_fangli_clue_e'] = nil
-L['soa_day02_fangli_clue_f'] = nil
-L['soa_day02_fangli_clue_g'] = nil
-L['soa_day02_fangli_clue_h'] = nil
-L['soa_day02_fangli_clue_i'] = nil
+L['soa_day02_fangli_clue_a'] = '在 {npc:207697} 头上方的墙上。'
+L['soa_day02_fangli_clue_b'] = '在 {location:幼鳞日托所} 书架的底部。'
+L['soa_day02_fangli_clue_c'] = '在 {location:匠人集市} {npc:196960} 旁边的地板上。'
+L['soa_day02_fangli_clue_d'] = '在珠宝加工站附近的一个桶上面。'
+L['soa_day02_fangli_clue_e'] = '在 {location:匠人集市} {npc:185545} 附近的地板上。'
+L['soa_day02_fangli_clue_f'] = '{location:拍卖行} 入口拱门上方。'
+L['soa_day02_fangli_clue_g'] = '在 {npc:189489} 旁边的地面上。'
+L['soa_day02_fangli_clue_h'] = '在 {location:守护巨龙之座} 的一楼入口处，篝火旁。'
+L['soa_day02_fangli_clue_i'] = '靠近 {location:翡翠飞地} 的瀑布。'
 
-L['soa_day02_erugosa_note_a'] = nil
-L['soa_day02_erugosa_note_b'] = nil
-L['soa_day02_erugosa_note_c'] = nil
-L['soa_day02_erugosa_note_d'] = nil
+L['soa_day02_erugosa_note_a'] = '与 {npc:185556} 交谈得到 {item:208416}。需要为她收集以下物品：'
+L['soa_day02_erugosa_note_b'] = '从 {location:欧恩哈拉平原} 的 {location:森步岗哨} 的 {npc:194152} 购买5个 {item:198441}。'
+L['soa_day02_erugosa_note_c'] = '从 {location:索德拉苏斯} 的 {location:瓦德拉肯} 的 {npc:196729} 购买5个 {item:201419}。'
+L['soa_day02_erugosa_note_d'] = '从 {location:查拉雷克洞窟} 的 {location:峈姆} 的 {npc:204371} 购买5个 {item:205693}。'
 
-L['soa_day02_clinkyclick_note_a'] = nil
-L['soa_day02_clinkyclick_note_b'] = nil
+L['soa_day02_clinkyclick_note_a'] = '与 {npc:185548} 交谈得到 {item:207814}。需要：'
+L['soa_day02_clinkyclick_note_b'] = '从 {location:瓦德拉肯} 的 {location:脆烤山羊旅店} 中的 {npc:185556} 处获得10个 {item:207956}。'
 
-L['soa_day02_gryffin_note_a'] = nil
-L['soa_day02_gryffin_note_b'] = nil
+L['soa_day02_gryffin_note_a'] = '与 {npc:197781} 交谈得到 {item:207813}。需要收集：'
+L['soa_day02_gryffin_note_b'] = '通过击杀 {location:瓦德拉肯} 的 {location:飞瀑之缘} 中的 {npc:191451} 来拾取1个 {item:207812}。' -- cascades
 
-L['soa_day02_shakey_note_a'] = nil
-L['soa_day02_shakey_note_b'] = nil
-L['soa_day02_shakey_note_c'] = nil
+L['soa_day02_shakey_note_a'] = '与 {npc:198586} 交谈得到 {item:207816}。'
+L['soa_day02_shakey_note_b'] = '在 {location:瓦德拉肯} 的 {location:巨龙宝藏} 支付 {npc:198586} 的酒吧费用。'
+L['soa_day02_shakey_note_c'] = '通过 {location:脆烤山羊旅店} 后面的 {object:奇怪的雕像} 秘密入口处使用表情 {emote:/鞠躬}，{emote:/bow} 进入 {location:The 巨龙宝藏}。'
 
-L['crm_plague_plaque_label'] = nil
-L['crm_plague_plaque_note'] = nil
+L['crm_plague_plaque_label'] = '瘟疫铭牌'
+L['crm_plague_plaque_note'] = '点击 {object:瘟疫铭牌} 将戴上 {item:206696} 并针对在 {object:一堆松散的泥土} 中找到的宝藏进行校准。'
 
-L['options_icons_secrets_of_azeroth'] = nil
-L['options_icons_secrets_of_azeroth_desc'] = nil
+L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
+L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'
