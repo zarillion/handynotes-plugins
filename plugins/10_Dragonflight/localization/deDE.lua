@@ -821,6 +821,12 @@ L['seething_cache_treasure_note'] = 'Sammle von {object:Brodelnde Kugel} 3x Stap
 L['chest_of_the_flights_treasure_note'] = 'Aktiviere {object:Ermächtigter Edelsteine} in der Reihenfolge {note:Rot > Schwarz > Blau > Gelb > Grün}, um die Truhe öffnen zu können.'
 L['curious_top_hat_note'] = 'Interagiere mit {npc:205010} während du den {spell:410288} Stärkungszauber auf dir hast, um {item:205021} zu erhalten. Wenn du den Stärkungszauber nicht hast wird er weglaufen.'
 
+L['the_gift_of_cheese_note_1'] = nil
+L['the_gift_of_cheese_note_2'] = nil
+L['the_gift_of_cheese_note_3'] = nil
+L['the_gift_of_cheese_note_4'] = nil
+L['the_gift_of_cheese_note_5'] = nil
+
 L['zaralek_rare_active'] = ns.color.Blue('Dieser seltene Gegner kann heute erscheinen.')
 L['zaralek_rare_inactive'] = ns.color.Orange('Dieser seltene Gegner wird heute nicht erscheinen, komm morgen wieder.')
 L['zaralek_event_active'] = ns.color.Blue('Dieses Ereignis kann heute starten.')

@@ -819,6 +819,12 @@ L['seething_cache_treasure_note'] = '要能夠看到 {object:沸騰貯藏箱} �
 L['chest_of_the_flights_treasure_note'] = '要開啟寶箱你必須按照順序點選 {object:Empowered Gems} {note:紅> 黑 > 藍 > 黃 > 綠}.'
 L['curious_top_hat_note'] = '當你有 {spell:410288} 增益時和 {npc:205010} 互動來拿到 {item:205021}. 如果你沒有增益的時候靠近他他會跑掉.'
 
+L['the_gift_of_cheese_note_1'] = nil
+L['the_gift_of_cheese_note_2'] = nil
+L['the_gift_of_cheese_note_3'] = nil
+L['the_gift_of_cheese_note_4'] = nil
+L['the_gift_of_cheese_note_5'] = nil
+
 L['zaralek_rare_active'] = ns.color.Blue('此稀有今日會刷新.')
 L['zaralek_rare_inactive'] = ns.color.Orange('此稀有今日不會刷新, 明日再來.')
 L['zaralek_event_active'] = ns.color.Blue('此區域事件今日會開始.')

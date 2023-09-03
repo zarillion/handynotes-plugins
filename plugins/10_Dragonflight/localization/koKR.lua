@@ -755,6 +755,12 @@ L['seething_cache_treasure_note'] = nil
 L['chest_of_the_flights_treasure_note'] = nil
 L['curious_top_hat_note'] = nil
 
+L['the_gift_of_cheese_note_1'] = nil
+L['the_gift_of_cheese_note_2'] = nil
+L['the_gift_of_cheese_note_3'] = nil
+L['the_gift_of_cheese_note_4'] = nil
+L['the_gift_of_cheese_note_5'] = nil
+
 L['zaralek_rare_active'] = nil
 L['zaralek_rare_inactive'] = nil
 L['zaralek_event_active'] = nil

@@ -819,6 +819,12 @@ L['seething_cache_treasure_note'] = 'To be able to see the {object:Seething Cach
 L['chest_of_the_flights_treasure_note'] = 'To open the treasure chest you need to click on the {object:Empowered Gems} in the order {note:Red > Black > Blue > Yellow > Green}.'
 L['curious_top_hat_note'] = 'Interact with {npc:205010} while you have the {spell:410288} Buff to recieve {item:205021}. If you dont have the Buff and go near him he will run away.'
 
+L['the_gift_of_cheese_note_1'] = 'Click the {object:Squeaking Swiss} within {location:Obsidian Rest} and {item:204871} will enter your bags.'
+L['the_gift_of_cheese_note_2'] = 'Interact with {item:204871} to receive {item:204872}. {note:(5 minute cooldown)}'
+L['the_gift_of_cheese_note_3'] = 'Once you have 30x {item:204872} combine the scraps to receive the recipe.'
+L['the_gift_of_cheese_note_4'] = '{note:This rat loves cheese and will consume one {item:3927} roughly every three minutes. Plan accordingly!}'
+L['the_gift_of_cheese_note_5'] = 'Once you can can craft {item:204848} simply feed 50 {npc:4075} found around Azeroth to complete the achievement.'
+
 L['zaralek_rare_active'] = ns.color.Blue('This Rare can spawn today.')
 L['zaralek_rare_inactive'] = ns.color.Orange('This Rare will not spawn today, come back tomorrow.')
 L['zaralek_event_active'] = ns.color.Blue('This Zone Event can start today.')

@@ -817,6 +817,12 @@ L['seething_cache_treasure_note'] = 'Pour pouvoir voir la {object:Cache bouillon
 L['chest_of_the_flights_treasure_note'] = 'Pour ouvrir le coffre au trésor, vous devez cliquer sur les {object:Gemmes renforcées} dans l\'ordre {note:Rouge > Noire > Bleue > Jaune > Verte}.'
 L['curious_top_hat_note'] = 'Interagissez avec le {npc:205010} pendant que vous avez le buff {spell:410288} pour obtenir {item:205021}. Si vous n\'avez pas le buff et que vous vous approchez de lui, il s\'enfuira.'
 
+L['the_gift_of_cheese_note_1'] = nil
+L['the_gift_of_cheese_note_2'] = nil
+L['the_gift_of_cheese_note_3'] = nil
+L['the_gift_of_cheese_note_4'] = nil
+L['the_gift_of_cheese_note_5'] = nil
+
 L['zaralek_rare_active'] = ns.color.Blue('Ce Rare peut apparaître aujourd\'hui.')
 L['zaralek_rare_inactive'] = ns.color.Orange('Ce Rare n\'apparaîtra pas aujourd\'hui, revenez demain.')
 L['zaralek_event_active'] = ns.color.Blue('Cet Événement bonus peut apparaître aujourd\'hui.')
