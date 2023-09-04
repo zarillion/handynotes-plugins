@@ -25,6 +25,7 @@ local tho = ns.maps[64] or Map({id = 64, settings = true}) -- Thousand Needles
 local tws = ns.maps[2022] or Map({id = 2022, settings = true}) -- The Waking Shores
 local val = ns.maps[2112] or Map({id = 2112, settings = true}) -- Valdrakken
 local zar = ns.maps[2133] or Map({id = 2133, settings = true}) -- Zaralek Cavern
+local net = ns.maps[109] or Map({id = 109, settings = true}) -- Netherstorm
 
 -------------------------------------------------------------------------------
 
@@ -474,3 +475,9 @@ smv.nodes[35314895] = BuriedSatchel({
     quest = 77292,
     location = L['bs_smv_location']
 }) -- Shadowmoon Valley (Draenor)
+
+net.nodes[26246854] = BuriedSatchel({
+    requires = ns.requirement.Toy(208092), -- Torch of Pyrreth
+    quest = 77290,
+    location = L['bs_net_location']
+}) -- Netherstorm

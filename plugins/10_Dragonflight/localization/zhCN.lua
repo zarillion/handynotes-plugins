@@ -902,6 +902,7 @@ L['bs_epl_location'] = '在 {location:考林路口} 的建筑物后面。'
 L['bs_fel_location'] = '在 {location:血毒瀑布} 水下中央。'
 L['bs_tho_location'] = '在 {location:裂蹄堡} 的水下洞穴中。'
 L['bs_smv_location'] = '在 {location:月柳山} 的 {npc:79241} 附近的空心树内。'
+L['bs_net_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'
