@@ -887,15 +887,15 @@ L['soa_day03_sazsel_note_b'] = 'Una vez tasado el estandarte, vuelve al armario 
 
 L['soa_day04_rlabel'] = '(Día 4)'
 
-L['soa_day04_torch_of_pyrreth_note'] = nil
+L['soa_day04_torch_of_pyrreth_note'] = 'Activa las 3 {object:Palanca Antigua} que hay alrededor del {location:Invernadero de la Protectora} en las {location:Orillas del Despertar} para descubrir la {item:208135}.\n\nUna vez la tengas devuélvela a la {npc:206864} de {location:El Carnero Asado} en {location:Valdrakken}.'
 
-L['soa_day04_ancient_lever_label'] = nil
-L['soa_day04_ancient_lever_note_a'] = nil
-L['soa_day04_ancient_lever_note_b'] = nil
-L['soa_day04_ancient_lever_note_c'] = nil
+L['soa_day04_ancient_lever_label'] = 'Palanca Antigua'
+L['soa_day04_ancient_lever_note_a'] = 'En la parte trasera del edificio en ruinas detrás de {npc:195915}.'
+L['soa_day04_ancient_lever_note_b'] = 'Dentro de la torre en ruinas.'
+L['soa_day04_ancient_lever_note_c'] = 'Dentro del edificio cerca de {npc:186823} y {npc:186825}.'
 
-L['soa_day04_aenchanted_box_label'] = nil
-L['soa_day04_aenchanted_box_note'] = nil
+L['soa_day04_aenchanted_box_label'] = 'Caja Encantada'
+L['soa_day04_aenchanted_box_note'] = 'Usa tu {item:208092} para conseguir el buff {spell:419127}. Ahora puedes descubrir el {object:Lugar de Interés} dónde aparece una {object:Caja Encantada}.'
 
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
 
