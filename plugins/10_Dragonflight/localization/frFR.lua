@@ -900,6 +900,7 @@ L['bs_epl_location'] = 'Derrière le bâtiment à la {location:Croisée de Corin
 L['bs_fel_location'] = 'Sous l\'eau au centre des {location:Chutes de la Vénéneuse}.'
 L['bs_tho_location'] = 'Dans une grotte sous-marine nommée le {location:Bastion du Sabot fendu}.'
 L['bs_smv_location'] = 'Dans l\'arbre creux près du {npc:79241} au {location:Pic du Saule-Lunaire}.'
+L['bs_smv_location'] = 'Dans l\'arbre creux au {location:Pic du Saule-Lunaire}.'
 L['bs_net_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
