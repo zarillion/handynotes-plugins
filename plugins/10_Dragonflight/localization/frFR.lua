@@ -882,24 +882,24 @@ L['soa_day03_locker_label'] = 'Coffre de la préservatrice'
 L['soa_day03_sazsel_note_a'] = 'Récupérez la {item:208130} dans le {object:Coffre de la préservatrice} au dernier étage du {location:Bélier rôti} et apportez-la à l\'{npc:208620} à {location:Valdrakken}.'
 L['soa_day03_sazsel_note_b'] = 'Une fois examinée, rapportez la bannière dans le coffre et retournez voir {npc:207697}.'
 
-L['soa_day04_rlabel'] = '(Jour 3)'
+L['soa_day04_rlabel'] = '(Jour 4)'
 
-L['soa_day04_torch_of_pyrreth_note'] = nil
+L['soa_day04_torch_of_pyrreth_note'] = 'Activez les 3 {object:Levier ancien} trouvés au {location:Conservatoire de la Lieuse-de-vie} aux {location:Rivages de l\'Éveil} pour révéler la {item:208135}.\n\nUne fois récupérée, retournez voir la {npc:206864} au {location:Bélier rôti} à {location:Valdrakken}.'
 
-L['soa_day04_ancient_lever_label'] = nil
-L['soa_day04_ancient_lever_note_a'] = nil
-L['soa_day04_ancient_lever_note_b'] = nil
-L['soa_day04_ancient_lever_note_c'] = nil
+L['soa_day04_ancient_lever_label'] = 'Levier ancien'
+L['soa_day04_ancient_lever_note_a'] = 'A l\'arrière du bâtiment en ruine derrière {npc:195915}.'
+L['soa_day04_ancient_lever_note_b'] = 'A l\'intérieur de la tour en ruine.'
+L['soa_day04_ancient_lever_note_c'] = 'A l\'intérieur du bâtiment près des {npc:186823} et {npc:186825}.'
 
-L['soa_day04_aenchanted_box_label'] = nil
-L['soa_day04_aenchanted_box_note'] = nil
+L['soa_day04_aenchanted_box_label'] = 'Boîte enchantée'
+L['soa_day04_aenchanted_box_note'] = 'Utilisez votre {item:208092} pour recevoir le buff {spell:419127}. Vous pouvez maintenant révéler le {object:Lieu intéressant} qui fait apparaître une {object:Boîte enchantée}.'
 
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
 
 L['bs_epl_location'] = 'Derrière le bâtiment à la {location:Croisée de Corin}.'
 L['bs_fel_location'] = 'Sous l\'eau au centre des {location:Chutes de la Vénéneuse}.'
 L['bs_tho_location'] = 'Dans une grotte sous-marine nommée le {location:Bastion du Sabot fendu}.'
-L['bs_smv_location'] = nil
+L['bs_smv_location'] = 'Dans l\'arbre creux près du {npc:79241} au {location:Pic du Saule-Lunaire}.'
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'
