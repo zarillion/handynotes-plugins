@@ -902,8 +902,8 @@ L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Po
 L['bs_epl_location'] = 'Detrás del edificio en {location:Cruce de Corin}.'
 L['bs_fel_location'] = 'Bajo el agua en el centro de {location:Cascadas del Veneno}.'
 L['bs_tho_location'] = 'En una cueva bajo el agua llamada {location:Campamento Pezuña Quebrada}.'
-L['bs_smv_location'] = 'Dentro del árbol hueco cerca de {npc:79241} en {location:Pico Sauce Lunar}.'
-L['bs_net_location'] = nil
+L['bs_smv_location'] = 'Dentro del árbol hueco en {location:Pico Sauce Lunar}.'
+L['bs_net_location'] = 'En {location:Forja de Maná B\'naar} de {location:Tormenta Abisal} en {location:Terrallende}.\n\n{note:Necesitarás 3 jugadores para canalizar la {item:208092} en los cristales cercanos para hacer aparecer el {object:Montículo de Porquería Blanda}.}'
 
 L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'
