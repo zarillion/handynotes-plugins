@@ -891,6 +891,7 @@ L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erd
 L['bs_epl_location'] = 'Hinter dem Haus bei {location:Corins Kreuzung}.'
 L['bs_fel_location'] = 'Unter Wasser bei {location:Die Blutgiftfälle}.'
 L['bs_tho_location'] = 'In der Unterwasserhöhle {location:Spalthufhöhle}.'
+L['bs_smv_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der Hinweise der {location:Geheimnisse von Azeroth} an.'
