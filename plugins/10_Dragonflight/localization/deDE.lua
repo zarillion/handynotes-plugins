@@ -871,7 +871,7 @@ L['soa_day02_erugosa_note_c'] = 'Kaufe 5x {item:201419} von {npc:196729} in {loc
 L['soa_day02_erugosa_note_d'] = 'Kaufe 5x {item:205693} von {npc:204371} in {location:Loamm} in der {location:Zaralekhöhle}.'
 
 L['soa_day02_clinkyclick_note_a'] = 'Sprich mit {npc:185548}, um {item:207814} zu erhalten. Du brauchst:'
-L['soa_day02_clinkyclick_note_b'] = 'Erhalte 10x {item:207956} von {npc:185556} in {location:Zum Gerösteten Gießbock} in {location:Valdrakken}.'
+L['soa_day02_clinkyclick_note_b'] = 'Erhalte 10x {item:207956} von {npc:185556} im Gasthaus {location:Zum Gerösteten Gießbock} in {location:Valdrakken}.'
 
 L['soa_day02_gryffin_note_a'] = 'Sprich mit {npc:197781}, um {item:207813} zu erhalten. Du musst folgendes sammeln:'
 L['soa_day02_gryffin_note_b'] = 'Plündere 1x {item:207812} von {npc:191451} beim {location:Rand der Kaskade} in {location:Valdrakken}.'
@@ -888,22 +888,22 @@ L['soa_day03_sazsel_note_b'] = 'Lege das Banner nach der Schätzung wieder in di
 
 L['soa_day04_rlabel'] = '(Tag 4)'
 
-L['soa_day04_torch_of_pyrreth_note'] = nil
+L['soa_day04_torch_of_pyrreth_note'] = 'Im untersten Stockwerk des Gebäudes, links an der Wand der Feuerstelle.\n\nAktiviere die drei {object:Uralter Hebel}, die im {location:Konservatorium der Lebensbinderin} in {location:Die Küste des Erwachens} gefunden werden können, um die {item:208135} zu enthüllen.\n\nSammle diese ein und kehre dann zu {npc:206864} ins Gasthaus {location:Zum Gerösteten Gießbock} in {location:Valdrakken} zurück.'
 
-L['soa_day04_ancient_lever_label'] = nil
-L['soa_day04_ancient_lever_note_a'] = nil
-L['soa_day04_ancient_lever_note_b'] = nil
-L['soa_day04_ancient_lever_note_c'] = nil
+L['soa_day04_ancient_lever_label'] = 'Uralter Hebel'
+L['soa_day04_ancient_lever_note_a'] = 'Innerhalb der Gebäuderuine hinter {npc:195915}.'
+L['soa_day04_ancient_lever_note_b'] = 'Innerhalb der Turmruine.'
+L['soa_day04_ancient_lever_note_c'] = 'Innerhalb der Gebäuderuine neben den Bücherregalen.'
 
-L['soa_day04_aenchanted_box_label'] = nil
-L['soa_day04_aenchanted_box_note'] = nil
+L['soa_day04_aenchanted_box_label'] = 'Verzauberter Kasten'
+L['soa_day04_aenchanted_box_note'] = 'Benutze deine {item:208092}, um den Stärkungszauber {spell:419127} zu erhalten. Beim {object:Interessantes Fleckchen} wird ein {object:Verzauberter Kasten} erscheinen.'
 
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
 
 L['bs_epl_location'] = 'Hinter dem Haus bei {location:Corins Kreuzung}.'
 L['bs_fel_location'] = 'Unter Wasser bei {location:Die Blutgiftfälle}.'
 L['bs_tho_location'] = 'In der Unterwasserhöhle {location:Spalthufhöhle}.'
-L['bs_smv_location'] = nil
+L['bs_smv_location'] = 'Im Inneren des hohlen Baumes in {location:Mondweidengipfel}.'
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
-L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der Hinweise der {location:Geheimnisse von Azeroth} an.'
+L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der {location:Geheimnisse von Azeroth} für den Erfolg {achievement:18646} an.'
