@@ -819,11 +819,11 @@ L['seething_cache_treasure_note'] = '为了能够看到 {object:沸燃之箱} �
 L['chest_of_the_flights_treasure_note'] = '要打开宝箱，需要按 {note:红 > 黑 > 蓝 > 黄 > 绿} 的顺序点击 {object:强化宝石}。'
 L['curious_top_hat_note'] = '在拥有 {spell:410288} 增益时与 {npc:205010} 互动并得到 {item:205021}。如果没有增益并靠近他，他就会逃跑。'
 
-L['the_gift_of_cheese_note_1'] = nil
-L['the_gift_of_cheese_note_2'] = nil
-L['the_gift_of_cheese_note_3'] = nil
-L['the_gift_of_cheese_note_4'] = nil
-L['the_gift_of_cheese_note_5'] = nil
+L['the_gift_of_cheese_note_1'] = '点击 {location:黑曜之巢} 内的 {object:吱吱叫的奶酪}，{item:204871} 将进入你的背包。'
+L['the_gift_of_cheese_note_2'] = '与 {item:204871} 互动得到 {item:204872}。 {note:（5分钟冷却时间）}'
+L['the_gift_of_cheese_note_3'] = '当拥有30个 {item:204872} 后，将残页合并即可获得食谱。'
+L['the_gift_of_cheese_note_4'] = '{note:这只老鼠喜欢奶酪，大约每三分钟就会吃掉一个 {item:3927}。合理应对！}'
+L['the_gift_of_cheese_note_5'] = '一旦可以制作 {item:204848}，只需在全艾泽拉斯找到并喂食50个 {npc:4075} 即可完成成就。'
 
 L['zaralek_rare_active'] = ns.color.Blue('此稀有今日出现。')
 L['zaralek_rare_inactive'] = ns.color.Orange('此稀有今日不出现，明日再来。')
