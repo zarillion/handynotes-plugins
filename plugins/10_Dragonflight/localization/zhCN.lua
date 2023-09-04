@@ -831,7 +831,7 @@ L['options_icons_zone_event_desc'] = '显示区域事件的位置。'
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['soa_day01_rlabel'] = '第一天'
+L['soa_day01_rlabel'] = '（第一天）'
 
 L['soa_day01_kathos_note_a'] = '与 {npc:206864} 交谈后得到包含 {item:208055} 和 {item:208056} 的 {item:208054}。'
 L['soa_day01_kathos_note_b'] = '将 {item:208056} 放入 {location:瓦德拉肯} 的 {location:瓦德拉肯藏宝库} 中。'
@@ -841,7 +841,7 @@ L['soa_day01_shomko_note_a'] = '与 {npc:186448} 交谈得到 {item:207580}。'
 L['soa_day01_shomko_note_b'] = '将 {item:207580} 放置在 {location:诺森德} {location:北风苔原} 的 {location:裂鞭海岸} 的 {object:仪式长矛} 处。'
 L['soa_day01_shomko_note_c'] = '{note:一定要留下来并击杀 {npc:208182} 以获得 {item:207594}。}'
 
-L['soa_day02_rlabel'] = '第二天'
+L['soa_day02_rlabel'] = '（第二天）'
 
 L['soa_day02_bobby_note_a'] = '与 {npc:207696} 交谈得到 {item:207802}。需要通过收集各种部件来合成 {item:207827}：'
 L['soa_day02_bobby_note_b'] = '在 {location:瓦德拉肯} 用5个 {item:207956} 与 {npc:185548} 换取 {item:207814}。'
@@ -878,17 +878,18 @@ L['soa_day02_shakey_note_a'] = '与 {npc:198586} 交谈得到 {item:207816}。'
 L['soa_day02_shakey_note_b'] = '在 {location:瓦德拉肯} 的 {location:巨龙宝藏} 支付 {npc:198586} 的酒吧费用。'
 L['soa_day02_shakey_note_c'] = '通过 {location:脆烤山羊旅店} 后面的 {object:奇怪的雕像} 秘密入口处使用表情 {emote:/鞠躬}，{emote:/bow} 进入 {location:The 巨龙宝藏}。'
 
-L['soa_day03_rlabel'] = nil
+L['soa_day03_rlabel'] = '（第三天）'
 
-L['soa_day03_locker_label'] = nil
-L['soa_day03_sazsel_note_a'] = nil
-L['soa_day03_sazsel_note_b'] = nil
+L['soa_day03_locker_label'] = '捍卫者的柜子'
+L['soa_day03_sazsel_note_a'] = '从 {location:脆烤山羊旅店} 顶层的 {object:捍卫者的柜子} 中拾取 {item:208130} 并将其带给 {location:瓦德拉肯} 的 {npc:208620}。'
+L['soa_day03_sazsel_note_b'] = '鉴定完毕后，将旗子放回箱子并返回 {npc:207697}。'
 
-L['buried_satchel_note'] = nil
+L['buried_satchel_note'] = '从 {object:松动的土堆} 中拾取 {item:208142}。'
 
-L['bs_epl_location'] = nil
-L['bs_fel_location'] = nil
-L['bs_tho_location'] = nil
+L['bs_epl_location'] = '在 {location:考林路口} 的建筑物后面。'
+L['bs_fel_location'] = '在 {location:血毒瀑布} 水下中央。'
+L['bs_tho_location'] = '在 {location:裂蹄堡} 的水下洞穴中。'
+L['bs_smv_location'] = '在 {location:月柳山} 的 {npc:79241} 附近的空心树内。'
 
 L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'
