@@ -886,6 +886,18 @@ L['soa_day03_locker_label'] = 'Kiste der Bewahrerin'
 L['soa_day03_sazsel_note_a'] = 'Plündere das {item:208130} aus der {object:Kiste der Bewahrerin}, die sich im oberen Stockwerk des Gasthauses {location:Zum Gerösteten Gießbock} befindet. Bring dieses zu {npc:208620} in {location:Valdrakken}.'
 L['soa_day03_sazsel_note_b'] = 'Lege das Banner nach der Schätzung wieder in die Truhe und kehre zu {npc:207697} zurück.'
 
+L['soa_day04_rlabel'] = '(Tag 4)'
+
+L['soa_day04_torch_of_pyrreth_note'] = nil
+
+L['soa_day04_ancient_lever_label'] = nil
+L['soa_day04_ancient_lever_note_a'] = nil
+L['soa_day04_ancient_lever_note_b'] = nil
+L['soa_day04_ancient_lever_note_c'] = nil
+
+L['soa_day04_aenchanted_box_label'] = nil
+L['soa_day04_aenchanted_box_note'] = nil
+
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
 
 L['bs_epl_location'] = 'Hinter dem Haus bei {location:Corins Kreuzung}.'

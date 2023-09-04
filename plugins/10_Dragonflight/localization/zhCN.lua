@@ -884,6 +884,18 @@ L['soa_day03_locker_label'] = '捍卫者的柜子'
 L['soa_day03_sazsel_note_a'] = '从 {location:脆烤山羊旅店} 顶层的 {object:捍卫者的柜子} 中拾取 {item:208130} 并将其带给 {location:瓦德拉肯} 的 {npc:208620}。'
 L['soa_day03_sazsel_note_b'] = '鉴定完毕后，将旗子放回箱子并返回 {npc:207697}。'
 
+L['soa_day04_rlabel'] = nil
+
+L['soa_day04_torch_of_pyrreth_note'] = nil
+
+L['soa_day04_ancient_lever_label'] = nil
+L['soa_day04_ancient_lever_note_a'] = nil
+L['soa_day04_ancient_lever_note_b'] = nil
+L['soa_day04_ancient_lever_note_c'] = nil
+
+L['soa_day04_aenchanted_box_label'] = nil
+L['soa_day04_aenchanted_box_note'] = nil
+
 L['buried_satchel_note'] = '从 {object:松动的土堆} 中拾取 {item:208142}。'
 
 L['bs_epl_location'] = '在 {location:考林路口} 的建筑物后面。'

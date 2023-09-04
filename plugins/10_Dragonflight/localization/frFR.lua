@@ -882,6 +882,18 @@ L['soa_day03_locker_label'] = 'Coffre de la préservatrice'
 L['soa_day03_sazsel_note_a'] = 'Récupérez la {item:208130} dans le {object:Coffre de la préservatrice} au dernier étage du {location:Bélier rôti} et apportez-la à l\'{npc:208620} à {location:Valdrakken}.'
 L['soa_day03_sazsel_note_b'] = 'Une fois examinée, rapportez la bannière dans le coffre et retournez voir {npc:207697}.'
 
+L['soa_day04_rlabel'] = '(Jour 3)'
+
+L['soa_day04_torch_of_pyrreth_note'] = nil
+
+L['soa_day04_ancient_lever_label'] = nil
+L['soa_day04_ancient_lever_note_a'] = nil
+L['soa_day04_ancient_lever_note_b'] = nil
+L['soa_day04_ancient_lever_note_c'] = nil
+
+L['soa_day04_aenchanted_box_label'] = nil
+L['soa_day04_aenchanted_box_note'] = nil
+
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
 
 L['bs_epl_location'] = 'Derrière le bâtiment à la {location:Croisée de Corin}.'

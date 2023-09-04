@@ -885,6 +885,18 @@ L['soa_day03_locker_label'] = 'Armario de Ecologista'
 L['soa_day03_sazsel_note_a'] = 'Despoja el {item:208130} de dentro del {object:Armario de Ecologista} en el piso superior de {location:El Carnero Asado} y llévaselo a {npc:208620} en {location:Valdrakken}.'
 L['soa_day03_sazsel_note_b'] = 'Una vez tasado el estandarte, vuelve al armario y devuélvelo. Ahora ve a hablar con {npc:207697}.'
 
+L['soa_day04_rlabel'] = '(Día 4)'
+
+L['soa_day04_torch_of_pyrreth_note'] = nil
+
+L['soa_day04_ancient_lever_label'] = nil
+L['soa_day04_ancient_lever_note_a'] = nil
+L['soa_day04_ancient_lever_note_b'] = nil
+L['soa_day04_ancient_lever_note_c'] = nil
+
+L['soa_day04_aenchanted_box_label'] = nil
+L['soa_day04_aenchanted_box_note'] = nil
+
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
 
 L['bs_epl_location'] = 'Detrás del edificio en {location:Cruce de Corin}.'

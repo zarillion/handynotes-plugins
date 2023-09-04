@@ -884,6 +884,18 @@ L['soa_day03_locker_label'] = 'Preservationist\'s Locker'
 L['soa_day03_sazsel_note_a'] = 'Loot the {item:208130} from within the {object:Preservationist\'s Locker} on the top floor of {location:The Roasted Ram} and bring to {npc:208620} in {location:Valdrakken}.'
 L['soa_day03_sazsel_note_b'] = 'Once appraised return the banner back to the chest and return to {npc:207697}.'
 
+L['soa_day04_rlabel'] = '(Day 4)'
+
+L['soa_day04_torch_of_pyrreth_note'] = 'Activate the 3 {object:Ancient Lever} found around {location:Life-Binder Conservatory} in {location:The Waking Shores} to reveal the {item:208135}.\n\nOnce collected return to {npc:206864} at {location:The Roasted Ram} in {location:Valdrakken}.'
+
+L['soa_day04_ancient_lever_label'] = 'Ancient Lever'
+L['soa_day04_ancient_lever_note_a'] = 'At the back of the ruined building behind {npc:195915}.'
+L['soa_day04_ancient_lever_note_b'] = 'Inside the ruined tower.'
+L['soa_day04_ancient_lever_note_c'] = 'Inside the building near {npc:186823} and {npc:186825}.'
+
+L['soa_day04_aenchanted_box_label'] = 'Enchanted Box'
+L['soa_day04_aenchanted_box_note'] = 'Use your {item:208092} to recieve the {spell:419127} buff. You can now reveal the {object:Place of Interest} which spawns an {object:Enchanted Box}.'
+
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
 
 L['bs_epl_location'] = 'Behind the building in {location:Corin\'s Crossing}.'

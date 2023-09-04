@@ -884,6 +884,18 @@ L['soa_day03_locker_label'] = nil
 L['soa_day03_sazsel_note_a'] = nil
 L['soa_day03_sazsel_note_b'] = nil
 
+L['soa_day04_rlabel'] = nil
+
+L['soa_day04_torch_of_pyrreth_note'] = nil
+
+L['soa_day04_ancient_lever_label'] = nil
+L['soa_day04_ancient_lever_note_a'] = nil
+L['soa_day04_ancient_lever_note_b'] = nil
+L['soa_day04_ancient_lever_note_c'] = nil
+
+L['soa_day04_aenchanted_box_label'] = nil
+L['soa_day04_aenchanted_box_note'] = nil
+
 L['buried_satchel_note'] = nil
 
 L['bs_epl_location'] = nil

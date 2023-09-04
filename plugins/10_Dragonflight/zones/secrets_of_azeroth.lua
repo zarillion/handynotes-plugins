@@ -22,6 +22,7 @@ local ohn = ns.maps[2023] or Map({id = 2023, settings = true}) -- Ohn'ahran Plai
 local smv = ns.maps[539] or Map({id = 539, settings = true}) -- Shadowmoon Valley (Draenor)
 local tas = ns.maps[2024] or Map({id = 2024, settings = true}) -- The Azure Span
 local tho = ns.maps[64] or Map({id = 64, settings = true}) -- Thousand Needles
+local tws = ns.maps[2022] or Map({id = 2022, settings = true}) -- The Waking Shores
 local val = ns.maps[2112] or Map({id = 2112, settings = true}) -- Valdrakken
 local zar = ns.maps[2133] or Map({id = 2133, settings = true}) -- Zaralek Cavern
 
@@ -371,6 +372,75 @@ val.nodes[62847284] = SecretsOfAzeroth({
         Item({item = 208130, note = '1x'}) -- Maruuk Burial Banner
     }
 }) -- "Appraiser" Sazsel Stickyfingers
+
+-------------------------------------------------------------------------------
+------------------------ SECRETS OF AZEROTH: DAY FOUR -------------------------
+-------------------------------------------------------------------------------
+
+val.nodes[47444619] = SecretsOfAzeroth({
+    label = '{npc:185562}',
+    rlabel = ns.color.Gray(L['soa_day04_rlabel']),
+    note = L['soa_day04_torch_of_pyrreth_note'],
+    quest = {
+        77282, -- Artifact Secured
+        78201 -- Account-wide?
+    },
+    rewards = {
+        Item({item = 208131}), -- Preservationist's Dispatch
+        Toy({item = 208092}) -- Torch of Pyrreth
+    }
+}) -- Tithris <Innkeeper>
+
+local AncientLever = Class('AncientLever', SecretsOfAzeroth, {
+    label = L['soa_day04_ancient_lever_label'],
+    requires = ns.requirement.Toy(206696), -- Tricked-Out Thinking Cap
+    rlabel = ns.color.Gray(L['soa_day04_rlabel'])
+}) -- Ancient Lever
+
+tws.nodes[57072559] = AncientLever({
+    quest = 77403,
+    note = L['soa_day04_ancient_lever_note_a']
+}) -- Ancient Lever 1
+
+tws.nodes[57762382] = AncientLever({
+    quest = 77402,
+    note = L['soa_day04_ancient_lever_note_b']
+}) -- Ancient Lever 2
+
+tws.nodes[56602030] = AncientLever({
+    quest = 77401,
+    note = L['soa_day04_ancient_lever_note_c']
+}) -- Ancient Lever 3
+
+tws.nodes[54572038] = SecretsOfAzeroth({
+    label = '{item:208135}',
+    rlabel = ns.color.Gray(L['soa_day04_rlabel']),
+    note = L['soa_day04_torch_of_pyrreth_note'],
+    playerHasItem = {208135},
+    quest = {
+        77282, -- Artifact Secured
+        78201 -- Account-wide?
+    },
+    rewards = {
+        Item({item = 208135}) -- Torch of Pyrreth
+    }
+}) -- Torch of Pyrreth
+
+val.nodes[58522363] = SecretsOfAzeroth({
+    label = L['soa_day04_aenchanted_box_label'],
+    rlabel = ns.color.Gray(L['soa_day04_rlabel']),
+    note = L['soa_day04_aenchanted_box_note'],
+    quest = {
+        77263, -- The Torch of Pyrreth
+        77522 -- Account-wide?
+    },
+    requires = {
+        ns.requirement.Toy(208092) -- Torch of Pyrreth
+    },
+    rewards = {
+        Achievement({id = 18646, criteria = 5}) -- Whodunnit?
+    }
+}) -- Enchanted Box
 
 -------------------------------------------------------------------------------
 ---------------------------- COMMUNITY RUMOR MILL -----------------------------
