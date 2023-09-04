@@ -434,9 +434,8 @@ val.nodes[58522363] = SecretsOfAzeroth({
         77263, -- The Torch of Pyrreth
         77522 -- Account-wide?
     },
-    requires = {
-        ns.requirement.Toy(208092) -- Torch of Pyrreth
-    },
+    questDeps = 77282, -- Artifact Secured, 78201 Accountwide
+    requires = ns.requirement.Toy(208092), -- Torch of Pyrreth
     rewards = {
         Achievement({id = 18646, criteria = 5}) -- Whodunnit?
     }
