@@ -901,7 +901,7 @@ L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt M
 L['bs_epl_location'] = 'Behind the building in {location:Corin\'s Crossing}.'
 L['bs_fel_location'] = 'Underwater in the center of {location:Bloodvenom Falls}.'
 L['bs_tho_location'] = 'In an underwater cave called {location:Splithoof Hold}.'
-L['bs_smv_location'] = 'Inside the hollow tree near {npc:79241} in {location:Moonwillow Peak}.'
+L['bs_smv_location'] = 'Inside the hollow tree in {location:Moonwillow Peak}.'
 L['bs_net_location'] = 'In {location:Manaforge B\'naar} in {location:Netherstorm} in {location:Outland}.\n\n{note:You will need 3 players to channel {item:208092} on the nearby crystals to spawn the {object:Loose Dirt Mound}.}'
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
