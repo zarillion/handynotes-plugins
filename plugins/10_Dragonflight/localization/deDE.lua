@@ -841,7 +841,7 @@ L['soa_day01_kathos_note_c'] = 'Kehre zurück zu {npc:206864}. Von ihr erhältst
 
 L['soa_day01_shomko_note_a'] = 'Sprich mit {npc:186448}, um {item:207580} zu erhalten.'
 L['soa_day01_shomko_note_b'] = 'Platziere {item:207580} in der {location:Ebene von Nasam} in die {location:Boreanische Tundra} in {location:Nordend}.'
-L['soa_day01_shomko_note_c'] = '{note:Bleibe unbedingt in der Nähe und töten {npc:208182}, um den {item:207594} zu erhalten.}'
+L['soa_day01_shomko_note_c'] = '{note:Bleibe unbedingt in der Nähe und töte {npc:208182}, um den {item:207594} zu erhalten.}'
 
 L['soa_day02_rlabel'] = '(Tag 2)'
 
@@ -856,7 +856,7 @@ L['soa_day02_fangli_note_a'] = 'Sprich mit {npc:207697}, um die Quest {quest:772
 L['soa_day02_fangl_clue_label'] = 'Klaudias Hinweis'
 
 L['soa_day02_fangli_clue_a'] = 'An der Wand über {npc:207697}s Kopf.'
-L['soa_day02_fangli_clue_b'] = 'Unten am Bucherregal.'
+L['soa_day02_fangli_clue_b'] = 'Unten am Bücherregal.'
 L['soa_day02_fangli_clue_c'] = 'Auf dem Boden neben {npc:196960}.'
 L['soa_day02_fangli_clue_d'] = 'Auf einem Fass neben der Werkbank des Juweliers.'
 L['soa_day02_fangli_clue_e'] = 'Auf dem Boden vor dem Labortisch des Alchemisten.'
@@ -866,29 +866,29 @@ L['soa_day02_fangli_clue_h'] = 'Im Eingang zum {location:Der Sitz der Aspekte} a
 L['soa_day02_fangli_clue_i'] = 'In der Nähe des Wasserfalls.'
 
 L['soa_day02_erugosa_note_a'] = 'Sprich mit {npc:185556}, um die {item:208416} zu erhalten. Du musst die folgenden Gegenstände für sie sammeln:'
-L['soa_day02_erugosa_note_b'] = 'Kaufe 5x {item:198441} von {npc:194152} im {location:Baumschnritt Aussenposten} in den {location:Ebenen von Ohn\'ahra}.'
+L['soa_day02_erugosa_note_b'] = 'Kaufe 5x {item:198441} von {npc:194152} im {location:Baumschritt Aussenposten} in den {location:Ebenen von Ohn\'ahra}.'
 L['soa_day02_erugosa_note_c'] = 'Kaufe 5x {item:201419} von {npc:196729} in {location:Valdrakken}.'
 L['soa_day02_erugosa_note_d'] = 'Kaufe 5x {item:205693} von {npc:204371} in {location:Loamm} in der {location:Zaralekhöhle}.'
 
 L['soa_day02_clinkyclick_note_a'] = 'Sprich mit {npc:185548}, um {item:207814} zu erhalten. Du brauchst:'
-L['soa_day02_clinkyclick_note_b'] = 'Erhalte 10x {item:207956} von {npc:185556} im Gasthaus {location:Zum Gerösteten Gießbock} in {location:Valdrakken}.'
+L['soa_day02_clinkyclick_note_b'] = 'Erhalte 10x {item:207956} von {npc:185556} im Gasthaus {location:Zum Gerösteten Geißbock} in {location:Valdrakken}.'
 
 L['soa_day02_gryffin_note_a'] = 'Sprich mit {npc:197781}, um {item:207813} zu erhalten. Du musst folgendes sammeln:'
 L['soa_day02_gryffin_note_b'] = 'Plündere 1x {item:207812} von {npc:191451} beim {location:Rand der Kaskade} in {location:Valdrakken}.'
 
 L['soa_day02_shakey_note_a'] = 'Sprich mit {npc:198586}, um {item:207816} zu erhalten.'
 L['soa_day02_shakey_note_b'] = 'Begleiche {npc:198586}s Deckel von %s im {location:Der Drachenhort} in {location:Valdrakken}.'
-L['soa_day02_shakey_note_c'] = 'Zeige der {object:Seltsame Statue} im hinteren Teil des Gasthauses {location:Zum Gerösteten Gießbock} Respekt, indem du sie anvisierst und dich verbeugst {emote:(/verbeugen)}, um in {location:Der Drachenhort} zu gelanden.'
+L['soa_day02_shakey_note_c'] = 'Zeige der {object:Seltsame Statue} im hinteren Teil des Gasthauses {location:Zum Gerösteten Geißbock} Respekt, indem du sie anvisierst und dich verbeugst {emote:(/verbeugen)}, um in {location:Der Drachenhort} zu gelangen.'
 
 L['soa_day03_rlabel'] = '(Tag 3)'
 
 L['soa_day03_locker_label'] = 'Kiste der Bewahrerin'
-L['soa_day03_sazsel_note_a'] = 'Plündere das {item:208130} aus der {object:Kiste der Bewahrerin}, die sich im oberen Stockwerk des Gasthauses {location:Zum Gerösteten Gießbock} befindet. Bring dieses zu {npc:208620} in {location:Valdrakken}.'
+L['soa_day03_sazsel_note_a'] = 'Plündere das {item:208130} aus der {object:Kiste der Bewahrerin}, die sich im oberen Stockwerk des Gasthauses {location:Zum Gerösteten Geißbock} befindet. Bring dieses zu {npc:208620} in {location:Valdrakken}.'
 L['soa_day03_sazsel_note_b'] = 'Lege das Banner nach der Schätzung wieder in die Truhe und kehre zu {npc:207697} zurück.'
 
 L['soa_day04_rlabel'] = '(Tag 4)'
 
-L['soa_day04_torch_of_pyrreth_note'] = 'Im untersten Stockwerk des Gebäudes, links an der Wand der Feuerstelle.\n\nAktiviere die drei {object:Uralter Hebel}, die im {location:Konservatorium der Lebensbinderin} in {location:Die Küste des Erwachens} gefunden werden können, um die {item:208135} zu enthüllen.\n\nSammle diese ein und kehre dann zu {npc:206864} ins Gasthaus {location:Zum Gerösteten Gießbock} in {location:Valdrakken} zurück.'
+L['soa_day04_torch_of_pyrreth_note'] = 'Im untersten Stockwerk des Gebäudes, links an der Wand der Feuerstelle.\n\nAktiviere die drei {object:Uralter Hebel}, die im {location:Konservatorium der Lebensbinderin} in {location:Die Küste des Erwachens} gefunden werden können, um die {item:208135} zu enthüllen.\n\nSammle diese ein und kehre dann zu {npc:206864} ins Gasthaus {location:Zum Gerösteten Geißbock} in {location:Valdrakken} zurück.'
 
 L['soa_day04_ancient_lever_label'] = 'Uralter Hebel'
 L['soa_day04_ancient_lever_note_a'] = 'Innerhalb der Gebäuderuine hinter {npc:195915}.'
@@ -904,7 +904,7 @@ L['bs_epl_location'] = 'Hinter dem Haus bei {location:Corins Kreuzung}.'
 L['bs_fel_location'] = 'Unter Wasser bei {location:Die Blutgiftfälle}.'
 L['bs_tho_location'] = 'In der Unterwasserhöhle {location:Spalthufhöhle}.'
 L['bs_smv_location'] = 'Im Inneren des hohlen Baumes in {location:Mondweidengipfel}.'
-L['bs_net_location'] = nil
+L['bs_net_location'] = 'In der {location:Manaschmiede B\'naar} in {location:Nethersturm} in der {location:Scherbenwelt}.\n\n{note:Du benötigst 3 Spieler um den Zauber {item:208092} auf Kristalle in der nähe zu wirken damit der {object:Lockere Erdhaufen} erscheint.}'
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der {location:Geheimnisse von Azeroth} für den Erfolg {achievement:18646} an.'

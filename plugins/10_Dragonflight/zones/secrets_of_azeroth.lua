@@ -342,7 +342,8 @@ val.nodes[47334110] = SecretsOfAzeroth({
     questAny = true,
     playerHasItem = {207816, 207827},
     note = format(L['soa_day02_shakey_note_b'], GetCoinTextureString(3464358)) ..
-        '\n\n' .. L['soa_day02_shakey_note_c']
+        '\n\n' .. L['soa_day02_shakey_note_c'],
+    pois = {POI({46944489})}
 }) -- Kritha
 
 -------------------------------------------------------------------------------
