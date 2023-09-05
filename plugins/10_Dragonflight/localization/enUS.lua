@@ -883,8 +883,9 @@ L['soa_05_enchanted_box_label'] = 'Enchanted Box'
 -- Secrets of Azeroth: Clue 6
 L['soa_06_rlabel'] = '(Clue 6)'
 L['soa_06_unvieled_tablet_label'] = 'Unveiled Tablet'
-L['soa_06_unvieled_tablet_note_a'] = 'Use the {item:208092} at the base of the pylon in {location:Vakthros} in {location:The Azure Span} to reveal the {object:Unveiled Tablet}.'
-L['soa_06_unvieled_tablet_note_b'] = 'Loot the {item:208143} and return to {npc:207696} in {location:Valdrakken} to complete the secret.'
+L['soa_06_unvieled_tablet_note_a'] = 'Talk to {npc:207696} to complete the quest {quest:77284} and to obtain {item:208137}.\n\nThen travel to {location:Vakthros} in {location:The Azure Span}.'
+L['soa_06_unvieled_tablet_note_b'] = 'Use the {item:208092} at the base of the pylon in {location:Vakthros} in {location:The Azure Span} to reveal the {object:Unveiled Tablet}.'
+L['soa_06_unvieled_tablet_note_c'] = 'Loot the {item:208143} and return to {npc:207696} in {location:Valdrakken} to complete the secret.'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'

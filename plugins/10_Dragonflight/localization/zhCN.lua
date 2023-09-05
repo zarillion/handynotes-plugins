@@ -883,8 +883,9 @@ L['soa_05_enchanted_box_label'] = '魔法之箱'
 -- Secrets of Azeroth: Clue 6
 L['soa_06_rlabel'] = '（线索六）'
 L['soa_06_unvieled_tablet_label'] = '现世的石板'
-L['soa_06_unvieled_tablet_note_a'] = '在 {location:碧蓝林海} {location:瓦克索斯} 塔底部的使用 {item:208092} 来揭示 {object:现世的石板}。'
-L['soa_06_unvieled_tablet_note_b'] = '拾取 {item:208143} 并返回 {location:瓦德拉肯} 的 {npc:207696} 以完成秘密。'
+L['soa_06_unvieled_tablet_note_a'] = nil
+L['soa_06_unvieled_tablet_note_b'] = '在 {location:碧蓝林海} {location:瓦克索斯} 塔底部的使用 {item:208092} 来揭示 {object:现世的石板}。'
+L['soa_06_unvieled_tablet_note_c'] = '拾取 {item:208143} 并返回 {location:瓦德拉肯} 的 {npc:207696} 以完成秘密。'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'

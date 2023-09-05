@@ -885,8 +885,9 @@ L['soa_05_enchanted_box_label'] = 'Verzauberter Kasten'
 -- Secrets of Azeroth: Clue 6
 L['soa_06_rlabel'] = '(Hinweis 6)'
 L['soa_06_unvieled_tablet_label'] = 'Enthüllte Tafel'
-L['soa_06_unvieled_tablet_note_a'] = 'Benutze deine {item:208092} an der Säule in {location:Vakthros} in {location:Das Azurblaues Gebirge}, um die {object:Enthüllte Tafel} erscheinen zu lassen.'
-L['soa_06_unvieled_tablet_note_b'] = 'Interagiere mit {object:Enthüllte Tafel}, um das {item:208143} zu erhalten. Kehre nach {location:Valdrakken} zu {npc:207696} zurück, um das Geheimnis abzuschließen.'
+L['soa_06_unvieled_tablet_note_a'] = 'Sprich mit {npc:207696}, um die Quest {quest:77284} abzuschließen und die {item:208137} zu erhalten.\n\nReise dann in {location:Das Azurblaues Gebirge} nach {location:Vakthros}.'
+L['soa_06_unvieled_tablet_note_b'] = 'Benutze deine {item:208092} an der Säule in {location:Vakthros} in {location:Das Azurblaues Gebirge}, um die {object:Enthüllte Tafel} erscheinen zu lassen.'
+L['soa_06_unvieled_tablet_note_c'] = 'Interagiere mit {object:Enthüllte Tafel}, um das {item:208143} zu erhalten. Kehre nach {location:Valdrakken} zu {npc:207696} zurück, um das Geheimnis abzuschließen.'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'

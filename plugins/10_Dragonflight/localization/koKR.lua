@@ -821,6 +821,7 @@ L['soa_06_rlabel'] = nil
 L['soa_06_unvieled_tablet_label'] = nil
 L['soa_06_unvieled_tablet_note_a'] = nil
 L['soa_06_unvieled_tablet_note_b'] = nil
+L['soa_06_unvieled_tablet_note_c'] = nil
 
 -- Community Rumor Mill
 L['bs_count_01'] = nil

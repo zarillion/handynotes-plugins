@@ -172,6 +172,7 @@ val.nodes[64605370] = SecretsOfAzeroth({
 local Erugosa = Class('Erugosa', SecretsOfAzeroth, {
     label = '{npc:185556}',
     rlabel = Gray(L['soa_03_rlabel']),
+    quest = 78202, -- Thinking cap recieved
     questDeps = 76987, -- Clue 02 complete
     playerHasItem = {
         207814, -- Thought Calculating Apparatus
@@ -198,6 +199,7 @@ val.nodes[46514624] = Erugosa()
 ohn.nodes[85182347] = SecretsOfAzeroth({
     label = '{npc:194152}',
     rlabel = Gray(L['soa_03_rlabel']),
+    quest = 78202, -- Thinking cap recieved
     questDeps = 76987, -- Clue 02 complete
     note = L['soa_03_erugosa_note_b'],
     rewards = {
@@ -208,6 +210,7 @@ ohn.nodes[85182347] = SecretsOfAzeroth({
 val.nodes[28996516] = SecretsOfAzeroth({
     label = '{npc:196729}',
     rlabel = Gray(L['soa_03_rlabel']),
+    quest = 78202, -- Thinking cap recieved
     questDeps = 76987, -- Clue 02 complete
     note = L['soa_03_erugosa_note_c'],
     rewards = {
@@ -218,6 +221,7 @@ val.nodes[28996516] = SecretsOfAzeroth({
 zar.nodes[54085666] = SecretsOfAzeroth({
     label = '{npc:204371}',
     rlabel = Gray(L['soa_03_rlabel']),
+    quest = 78202, -- Thinking cap recieved
     questDeps = 76987, -- Clue 02 complete
     note = L['soa_03_erugosa_note_d'],
     rewards = {
@@ -228,6 +232,7 @@ zar.nodes[54085666] = SecretsOfAzeroth({
 local Clinkyclick = Class('Clinkyclick', SecretsOfAzeroth, {
     label = '{npc:185548}',
     rlabel = Gray(L['soa_03_rlabel']),
+    quest = 78202, -- Thinking cap recieved
     questDeps = 76987, -- Clue 02 complete
     playerHasItem = {
         207814, -- Thought Calculating Apparatus
@@ -252,6 +257,7 @@ val.nodes[42244866] = Clinkyclick()
 local Gryffin = Class('Gryffin', SecretsOfAzeroth, {
     label = '{npc:197781}',
     rlabel = Gray(L['soa_03_rlabel']),
+    quest = 78202, -- Thinking cap recieved
     questDeps = 76987, -- Clue 02 complete
     playerHasItem = {
         207813, -- Downy Helmet Liner
@@ -273,6 +279,7 @@ val.nodes[42474937] = Gryffin()
 val.nodes[46109447] = SecretsOfAzeroth({
     label = '{npc:191451}',
     rlabel = Gray(L['soa_03_rlabel']),
+    quest = 78202, -- Thinking cap recieved
     questDeps = 76987, -- Clue 02 complete
     playerHasItem = {
         207812, -- Fresh Tyranha
@@ -289,6 +296,7 @@ val.nodes[46109447] = SecretsOfAzeroth({
 val.nodes[39046182] = SecretsOfAzeroth({
     label = '{npc:198586}',
     rlabel = Gray(L['soa_03_rlabel']),
+    quest = 78202, -- Thinking cap recieved
     questDeps = 76987, -- Clue 02 complete
     playerHasItem = {
         207816, -- Crystal Ocular Lenses
@@ -304,7 +312,11 @@ val.nodes[39046182] = SecretsOfAzeroth({
 val.nodes[47334110] = SecretsOfAzeroth({
     label = '{npc:192814}',
     rlabel = Gray(L['soa_03_rlabel']),
-    quest = 77230,
+    quest = {
+        77230, -- payed bar tab
+        78202 -- Thinking cap recieved
+    },
+    questAny = true,
     playerHasItem = {
         207816, -- Crystal Ocular Lenses
         207827 -- Unfinished Thinking Cap
@@ -355,16 +367,22 @@ tws.nodes[54572038] = SecretsOfAzeroth({
     rlabel = Gray(L['soa_05_rlabel']),
     note = L['soa_05_torch_of_pyrreth_note_a'] .. '\n\n' ..
         L['soa_05_torch_of_pyrreth_note_b'],
-    playerHasItem = {208135}, -- Torch of Pyrreth
+    quest = {
+        77282, -- Artifact Secured
+        78201 -- Account-wide?
+    },
     questDeps = 77521, -- Clue 04 complete
+    playerHasItem = {208135}, -- Torch of Pyrreth
     rewards = {
         Toy({item = 208092}) -- Torch of Pyrreth
     },
     pois = {
-        POI({57072559, 57762382, 56602030}), -- Ancient Levers
-        Path({54572038, 57072559}), -- Ancient Lever 1
-        Path({54572038, 57762382}), -- Ancient Lever 2
-        Path({54572038, 56602030}) -- Ancient Lever 3
+        POI({57072559, quest = 77403}), -- Ancient Levers 1
+        POI({57762382, quest = 77402}), -- Ancient Levers 2
+        POI({56602030, quest = 77401}), -- Ancient Levers 3
+        Path({54572038, 57072559, quest = 77403}), -- Ancient Lever 1
+        Path({54572038, 57762382, quest = 77402}), -- Ancient Lever 2
+        Path({54572038, 56602030, quest = 77401}) -- Ancient Lever 3
     }
 }) -- Torch of Pyrreth
 
@@ -410,14 +428,29 @@ val.nodes[58522363] = SecretsOfAzeroth({
 -------------------------------------------------------------------------------
 ------------------------- SECRETS OF AZEROTH: CLUE 06 -------------------------
 -------------------------------------------------------------------------------
+val.nodes[47964684] = SecretsOfAzeroth({
+    label = '{npc:207696}',
+    rlabel = Gray(L['soa_06_rlabel']),
+    note = L['soa_06_unvieled_tablet_note_a'],
+    quest = {
+        77284, -- A Chilling Ascent (buggy never true)
+        77523 -- Clue 06 complete (TODO: remove if 77284 is fixed)
+    },
+    questAny = true, -- TODO: remove if 77284 is fixed
+    questDeps = 77522, -- Clue 05 complete
+    rewards = {
+        Achievement({id = 18646, criteria = 6}), -- Whodunnit?
+        Item({item = 208137}) -- The Clerk's Notes
+    }
+}) -- Bobby Carlisle
 
 tas.nodes[78883244] = SecretsOfAzeroth({
     label = L['soa_06_unvieled_tablet_label'],
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     rlabel = Gray(L['soa_06_rlabel']),
-    note = L['soa_06_unvieled_tablet_note_a'] .. '\n\n' ..
-        L['soa_06_unvieled_tablet_note_b'],
-    questDeps = 77522, -- Clue 05 complete
+    note = L['soa_06_unvieled_tablet_note_b'] .. '\n\n' ..
+        L['soa_06_unvieled_tablet_note_c'],
+    questDeps = 77284, -- A Chilling Ascent
     quest = {
         77286, -- ![A Knowledgeable Descent]
         77523 -- Clue 06 complete
