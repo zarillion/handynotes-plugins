@@ -833,66 +833,59 @@ L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
 -------------------------------------------------------------------------------
 
 -- Secrets of Azeroth: Clue 1
-L['soa_01_rlabel'] = nil
+L['soa_01_rlabel'] = '(Pista 1)'
 L['soa_01_golden_chalice_note'] = 'Coloca el {item:208056} en el {location:Tesoro de Valdrakken} de {location:Valdrakken}.'
 
 -- Secrets of Azeroth: Clue 2
-L['soa_02_rlabel'] = nil
-L['soa_02_kathos_note'] = nil
-
+L['soa_02_rlabel'] = '(Pista 2)'
+L['soa_02_kathos_note'] = 'Habla con {npc:206864} para conseguir la {item:207105}.\n\nDásela a {npc:186448} de {location:Iskaara} en {location:Tierras Azures}.'
 L['soa_02_shomko_note_a'] = 'Habla con el {npc:186448} para conseguir la {item:207580}.'
 L['soa_02_shomko_note_b'] = 'Colócala en la {object:Lanza Ceremonial} de las {location:Ruinas Tralladón} en la {location:Tundra Boreal} de {location:Rasganorte}.'
 L['soa_02_shomko_note_c'] = '{note:Aségurate de quedarte y matar al {npc:208182} para conseguir el {item:207594}.}'
 
 -- Secrets of Azeroth: Clue 3
-L['soa_03_rlabel'] = nil
-
+L['soa_03_rlabel'] = '(Pista 3)'
 L['soa_03_fangli_hoot_note_a'] = 'Habla con {npc:207696} para conseguir {item:207802}. Necesitarás crear {item:207827} consiguiendo varios objectos:'
 L['soa_03_fangli_hoot_note_b'] = 'Comercia 5x {item:207956} con {npc:185548} para conseguir {item:207814} en {location:Valdrakken}.'
 L['soa_03_fangli_hoot_note_c'] = 'Comercia 1x {item:207812} con {npc:197781} para conseguir {item:207813} en {location:Valdrakken}.'
 L['soa_03_fangli_hoot_note_d'] = 'Consigue 1x {item:207816} de {npc:198586} tras pagar su cuenta del bar en {location:Valdrakken}.'
 L['soa_03_fangli_hoot_note_e'] = 'Combina los objetos para conseguir {item:207827} y comenzar la misión {quest:77237} de {npc:207697} en {location:Valdrakken}.'
-
 L['soa_03_fangli_clue_label'] = 'Pista de Fangli'
 L['soa_03_fangli_clue'] = 'Cerca de una cascada en el {location:Enclave Emeralda}.'
-
 L['soa_03_erugosa_note_a'] = 'Habla con {npc:185556} para conseguir la {item:208416}. Necesitarás conseguir los siguientes objetos para ella:'
 L['soa_03_erugosa_note_b'] = 'Compra 5x {item:198441} a {npc:194152} de {location:Avanzada Pasoleño} en las {location:Llanuras de Ohn\'ahran}.'
 L['soa_03_erugosa_note_c'] = 'Compra 5x {item:201419} a {npc:196729} de {location:Valdrakken} en {location:Thaldraszus}.'
 L['soa_03_erugosa_note_d'] = 'Compra 5x {item:205693} a {npc:204371} de {location:Loamm} en la {location:Caverna Zaralek}.'
-
 L['soa_03_clinkyclick_note_a'] = 'Habla con {npc:185548} para conseguir {item:207814}. Necesitarás:'
 L['soa_03_clinkyclick_note_b'] = 'Recibir 10x {item:207956} de {npc:185556} en {location:El Carnero Asado} en {location:Valdrakken}.'
-
 L['soa_03_gryffin_note_a'] = 'Habla con {npc:197781} para conseguir {item:207813}. Necesitarás:'
 L['soa_03_gryffin_note_b'] = 'Despoja 1x {item:207812} matando {npc:191451} del {location:Filo de la Cascada} en {location:Valdrakken}.'
-
 L['soa_03_shakey_note_a'] = 'Habla con {npc:198586} para conseguir {item:207816}.'
 L['soa_03_shakey_note_b'] = 'Paga la cuenta del bar de {npc:198586} %s del {location:Tesoro del Dragón} en {location:Valdrakken}.'
 L['soa_03_shakey_note_c'] = 'Entra en el {location:Tesoro del Dragón} a través de la entrada secreta tecleando en el chat la emoción {emote:/arrodillarse} en la {object:Estatua Extraña} en la parte trasera de {location:El Carnero Asado}.'
 
 -- Secrets of Azeroth: Clue 4
-L['soa_04_rlabel'] = nil
+L['soa_04_rlabel'] = '(Pista 4)'
 L['soa_04_locker_label'] = 'Armario de Ecologista'
 L['soa_04_sazsel_note_a'] = 'Despoja el {item:208130} de dentro del {object:Armario de Ecologista} en el piso superior de {location:El Carnero Asado} y llévaselo a {npc:208620} en {location:Valdrakken}.'
 L['soa_04_sazsel_note_b'] = 'Una vez tasado el estandarte, vuelve al armario y devuélvelo. Ahora ve a hablar con {npc:207697}.'
 
 -- Secrets of Azeroth: Clue 5
-L['soa_05_rlabel'] = nil
+L['soa_05_rlabel'] = '(Pista 5)'
 L['soa_05_torch_of_pyrreth_note_a'] = 'Activa las 3 {object:Palanca Antigua} que hay alrededor del {location:Invernadero de la Protectora} en las {location:Orillas del Despertar} para descubrir la {item:208135}.'
 L['soa_05_torch_of_pyrreth_note_b'] = 'Una vez la tengas devuélvela a la {npc:206864} de {location:El Carnero Asado} en {location:Valdrakken}.'
-L['soa_05_torch_of_pyrreth_note_c'] = 'Usa tu {item:208092} para conseguir el buff {spell:419127}. Ahora puedes descubrir el {object:Lugar de Interés} dónde aparece una {object:Caja Encantada}.'
-L['soa_05_ancient_lever_label'] = 'Ancient Lever'
+L['soa_05_torch_of_pyrreth_note_c'] = 'Usa tu {item:208092} para conseguir el buff {spell:419127}. Ahora puedes descubrir el {npc:209011} dónde aparece una {object:Caja Encantada}.'
+L['soa_05_ancient_lever_label'] = 'Palanca Antigua'
 L['soa_05_ancient_lever_note_a'] = 'En la parte trasera del edificio en ruinas detrás de {npc:195915}.'
 L['soa_05_ancient_lever_note_b'] = 'Dentro de la torre en ruinas.'
 L['soa_05_ancient_lever_note_c'] = 'Dentro del edificio cerca de {npc:186823} y {npc:186825}.'
 L['soa_05_enchanted_box_label'] = 'Caja Encantada'
 
 -- Secrets of Azeroth: Clue 6
-L['soa_06_rlabel'] = nil
-L['soa_06_unvieled_tablet_label'] = nil
-L['soa_06_unvieled_tablet_note_a'] = nil
-L['soa_06_unvieled_tablet_note_b'] = nil
+L['soa_06_rlabel'] = '(Pista 6)'
+L['soa_06_unvieled_tablet_label'] = 'Tablilla Desvelada'
+L['soa_06_unvieled_tablet_note_a'] = 'Usa la {item:208092} en la base del pilón de {location:Vakthros} en {location:Tierras Azures} para revelar la {object:Tablilla Desvelada}.'
+L['soa_06_unvieled_tablet_note_b'] = 'Despoja el {object:Calco de Tablilla Desvelada} y devuélvelo a {npc:207696} en {location:Valdrakken} para completar el secreto.'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
