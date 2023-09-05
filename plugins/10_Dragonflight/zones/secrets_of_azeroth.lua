@@ -8,7 +8,9 @@ local Map = ns.Map
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local Gray = ns.color.Gray
 
@@ -20,7 +22,6 @@ local Path = ns.poi.Path
 -- Achievement: Whodunnit?
 local bor = ns.maps[114] or Map({id = 114, settings = true}) -- Borean Tundra
 local ohn = ns.maps[2023] or Map({id = 2023, settings = true}) -- Ohn'ahran Plains
-local tap = ns.maps[2024] or Map({id = 2024, settings = true}) -- The Azure Span
 local tas = ns.maps[2024] or Map({id = 2024, settings = true}) -- The Azure Span
 local tws = ns.maps[2022] or Map({id = 2022, settings = true}) -- The Waking Shores
 local val = ns.maps[2112] or Map({id = 2112, settings = true}) -- Valdrakken
@@ -410,7 +411,7 @@ val.nodes[58522363] = SecretsOfAzeroth({
 ------------------------- SECRETS OF AZEROTH: CLUE 06 -------------------------
 -------------------------------------------------------------------------------
 
-tap.nodes[78883244] = SecretsOfAzeroth({
+tas.nodes[78883244] = SecretsOfAzeroth({
     label = L['soa_06_unvieled_tablet_label'],
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     rlabel = Gray(L['soa_06_rlabel']),
@@ -434,6 +435,47 @@ tap.nodes[78883244] = SecretsOfAzeroth({
 -------------------------------------------------------------------------------
 ---------------------------- COMMUNITY RUMOR MILL -----------------------------
 -------------------------------------------------------------------------------
+
+local BURIED_SATCHELS = {
+    [1] = {quest = 77289, mapID = epl.id, parentMapID = 13}, -- Eastern Plaguelands, Kalimdor
+    [2] = {quest = 77288, mapID = fel.id, parentMapID = 12}, -- Felwood, Eastern Kingdoms
+    [3] = {quest = 77291, mapID = tho.id, parentMapID = 12}, -- Thousand Needles, Eastern Kingdoms
+    [4] = {quest = 77292, mapID = smv.id, parentMapID = 1922}, -- Shadowmoon Valley, Draenor
+    [5] = {quest = 77290, mapID = net.id, parentMapID = 101} -- Netherstorm, Outland
+}
+
+local BuriedSatchelSuperNode = Class('BuriedSatchelSuperNode', SecretsOfAzeroth,
+    {
+        label = '{item:208142}',
+        requires = REQUIREMENT_TRICKED_OUT_THINKING_CAP,
+        rewards = {
+            Achievement({id = 18644, criteria = {qty = true, id = 1}}), -- Community Rumor Mill
+            Transmog({item = 208150, slot = L['cosmetic']}), -- Blue Tweed Cap
+            Pet({npc = 208643, id = 4263}) -- Tobias
+        }
+    }) -- Buried Satchel Super Node
+
+function BuriedSatchelSuperNode.getters:note()
+    local function complete(num, questID)
+        if C_QuestLog.IsQuestFlaggedCompleted(questID) then
+            return ns.status.Green(num)
+        else
+            return ns.status.Red(num)
+        end
+    end
+
+    local note = L['buried_satchel_note'] .. '\n'
+    for num, satchel in ipairs(BURIED_SATCHELS) do
+        local mapName = C_Map.GetMapInfo(satchel.mapID).name
+        local parentMapName = C_Map.GetMapInfo(satchel.parentMapID).name
+        local completed = complete(num, satchel.quest)
+        note = note .. '\n' .. completed .. ' ' .. mapName .. ', ' ..
+                   parentMapName
+    end
+    return note
+end
+
+val.nodes[87002100] = BuriedSatchelSuperNode()
 
 local BuriedSatchel = Class('BuriedSatchel', SecretsOfAzeroth, {
     label = '{item:208142}',
