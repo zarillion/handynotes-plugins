@@ -881,8 +881,8 @@ L['soa_05_enchanted_box_label'] = 'Boîte enchantée'
 -- Secrets of Azeroth: Clue 6
 L['soa_06_rlabel'] = '(Indice n°6)'
 L['soa_06_unvieled_tablet_label'] = 'Tablette révélée'
-L['soa_06_unvieled_tablet_note_a'] = 'Utilisez la {item:208092} à la base du pylône à {location:Vakthros} à la {location:Travée d’Azur} pour révéler la {object:Tablette révélée}.'
-L['soa_06_unvieled_tablet_note_b'] = 'Pillez le {item:208143} et retournez voir {npc:207696} à {location:Valdrakken} pour compléter le secret.'
+L['soa_06_unvieled_tablet_note_a'] = 'Utilisez la {item:208092} à la base du pylône à {location:Vakthros} à la {location:Travée d’Azur} pour faire apparaître la {object:Tablette révélée}.'
+L['soa_06_unvieled_tablet_note_b'] = 'Récupérez le {item:208143} et retournez voir {npc:207696} à {location:Valdrakken} pour compléter le secret.'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
