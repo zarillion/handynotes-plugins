@@ -894,7 +894,7 @@ L['soa_day04_ancient_lever_note_b'] = 'Inside the ruined tower.'
 L['soa_day04_ancient_lever_note_c'] = 'Inside the building near {npc:186823} and {npc:186825}.'
 
 L['soa_day04_aenchanted_box_label'] = 'Enchanted Box'
-L['soa_day04_aenchanted_box_note'] = 'Use your {item:208092} to recieve the {spell:419127} buff. You can now reveal the {object:Place of Interest} which spawns an {object:Enchanted Box}.'
+L['soa_day04_aenchanted_box_note'] = 'Use your {item:208092} to recieve the {spell:419127} buff. You can now reveal the {npc:209011} which spawns an {object:Enchanted Box}.'
 
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
 
