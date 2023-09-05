@@ -829,70 +829,77 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['soa_day01_rlabel'] = '(Jour 1)'
+-- Secrets of Azeroth: Clue 1
+L['soa_01_rlabel'] = nil
+L['soa_01_golden_chalice_note'] = 'Placez le {item:208056} sur un tas d\'or à l\'intérieur de la Banque de {location:Valdrakken}.'
 
-L['soa_day01_kathos_note_a'] = 'Parlez à la {npc:206864} pour recevoir une {item:208054} contenant {item:208055} et un {item:208056}.'
-L['soa_day01_kathos_note_b'] = 'Placez le {item:208056} sur un tas d\'or à l\'intérieur de la Banque de {location:Valdrakken}.'
-L['soa_day01_kathos_note_c'] = 'Retournez voir la {npc:206864}, vous recevrez une {item:207105}.\n\nApportez la {item:207105} à l\'{npc:186448} située à {location:Iskaara} à la {location:Travée d’Azur}.'
+-- Secrets of Azeroth: Clue 2
+L['soa_02_rlabel'] = nil
+L['soa_02_kathos_note'] = nil
+L['soa_02_shomko_note_a'] = 'Parlez à l\'{npc:186448} pour recevoir la {item:207580}.'
+L['soa_02_shomko_note_b'] = 'Placez la {item:207580} sur la {object:Lance cérémonielle} à la {location:Grève des Courcinglants} dans la {location:Toundra Boréenne} en {location:Norfendre}.'
+L['soa_02_shomko_note_c'] = '{note:Veillez à rester dans les parages afin de tuer un {npc:208182} pour recevoir la {item:207594}.}'
 
-L['soa_day01_shomko_note_a'] = 'Parlez à l\'{npc:186448} pour recevoir la {item:207580}.'
-L['soa_day01_shomko_note_b'] = 'Placez la {item:207580} sur la {object:Lance cérémonielle} à la {location:Grève des Courcinglants} dans la {location:Toundra Boréenne} en {location:Norfendre}.'
-L['soa_day01_shomko_note_c'] = '{note:Veillez à rester dans les parages afin de tuer un {npc:208182} pour recevoir la {item:207594}.}'
+-- Secrets of Azeroth: Clue 3
+L['soa_03_rlabel'] = nil
+L['soa_03_fangli_hoot_note_a'] = 'Parlez à {npc:207696} pour obtenir les {item:207802}. Vous devrez construire une {item:207827} en collectant divers composants :'
+L['soa_03_fangli_hoot_note_b'] = 'Échangez 5x {item:207956} avec {npc:185548} contre un {item:207814} à {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_c'] = 'Échangez 1x {item:207812} à {npc:185548} contre un {item:207813} à {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_d'] = 'Recevez 1x {item:207816} de {npc:198586} après avoir payé sa note de bar à {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_e'] = 'Combinez les objets récupérés pour obtenir une {item:207827} et commencer {quest:77237} à rendre auprès de {npc:207697} à {location:Valdrakken}.'
+L['soa_03_fangli_clue_label'] = 'Indice de Canine'
+L['soa_03_fangli_clue'] = 'Près d\'une cascade à l\'{location:Enclave d\'émeraude}.'
+L['soa_03_erugosa_note_a'] = 'Parlez à {npc:185556} pour recevoir la {item:208416}. Vous devrez collecter les objets suivants pour elle :'
+L['soa_03_erugosa_note_b'] = 'Achetez 5x {item:198441} auprès d\'{npc:194152} à l\'{location:Avant-poste Pas-de-bois} aux {location:Plaines d\'Ohn\'ahra}.'
+L['soa_03_erugosa_note_c'] = 'Achetez 5x {item:201419} auprès de {npc:196729} au {location:Marché d\'artisanat} à {location:Valdrakken}.'
+L['soa_03_erugosa_note_d'] = 'Achetez 5x {item:205693} auprès de {npc:204371} à l\'entrée de {location:Terreau} dans la {location:Grotte de Zaralek}.'
+L['soa_03_clinkyclick_note_a'] = 'Parlez à {npc:185548} pour recevoir un {item:207814}. Vous aurez besoin de :'
+L['soa_03_clinkyclick_note_b'] = 'Obtenez 10x {item:207956} auprès d\'{npc:185556} au {location:Bélier rôti} à {location:Valdrakken}.'
+L['soa_03_gryffin_note_a'] = 'Parlez à {npc:197781} pour recevoir un {item:207813}. Vous aurez besoin de rassembler :'
+L['soa_03_gryffin_note_b'] = 'Obtenez 1x {item:207812} en tuant des {npc:191451} à la {location:Rive de la Cascade} à {location:Valdrakken}.'
+L['soa_03_shakey_note_a'] = 'Parlez à {npc:198586} pour recevoir les {item:207816}.'
+L['soa_03_shakey_note_b'] = 'Payez la note du bar de {npc:198586} s\'élevant à %s au {location:Trésor du Dragon} à {location:Valdrakken}.'
+L['soa_03_shakey_note_c'] = 'Entrez au {location:Trésor du Dragon} par l\'entrée secrète en utilisant l\'emote {emote:/incliner} devant l\'{object:Étrange statue} située au fond du {location:Bélier rôti}.'
 
-L['soa_day02_rlabel'] = '(Jour 2)'
+-- Secrets of Azeroth: Clue 4
+L['soa_04_rlabel'] = nil
+L['soa_04_locker_label'] = 'Coffre de la préservatrice'
+L['soa_04_sazsel_note_a'] = 'Récupérez la {item:208130} dans le {object:Coffre de la préservatrice} au dernier étage du {location:Bélier rôti} et apportez-la à l\'{npc:208620} à {location:Valdrakken}.'
+L['soa_04_sazsel_note_b'] = 'Une fois examinée, rapportez la bannière dans le coffre et retournez voir {npc:207697}.'
 
-L['soa_day02_bobby_note_a'] = 'Parlez à {npc:207696} pour obtenir les {item:207802}. Vous devrez construire une {item:207827} en collectant divers composants :'
-L['soa_day02_bobby_note_b'] = 'Échangez 5x {item:207956} avec {npc:185548} contre un {item:207814} à {location:Valdrakken}.'
-L['soa_day02_bobby_note_c'] = 'Échangez 1x {item:207812} à {npc:185548} contre un {item:207813} à {location:Valdrakken}.'
-L['soa_day02_bobby_note_d'] = 'Recevez 1x {item:207816} de {npc:198586} après avoir payé sa note de bar à {location:Valdrakken}.'
-L['soa_day02_bobby_note_e'] = 'Combinez les objets récupérés pour obtenir une {item:207827} et commencer {quest:77237} à rendre auprès de {npc:207697} à {location:Valdrakken}.'
+-- Secrets of Azeroth: Clue 5
+L['soa_05_rlabel'] = nil
+L['soa_05_torch_of_pyrreth_note_a'] = 'Activez les 3 {object:Levier ancien} trouvés au {location:Conservatoire de la Lieuse-de-vie} aux {location:Rivages de l\'Éveil} pour révéler la {item:208135}.'
+L['soa_05_torch_of_pyrreth_note_b'] = 'Une fois récupérée, retournez voir la {npc:206864} au {location:Bélier rôti} à {location:Valdrakken}.'
+L['soa_05_torch_of_pyrreth_note_c'] = 'Utilisez votre {item:208092} pour recevoir le buff {spell:419127}. Vous pouvez maintenant révéler le {object:Lieu intéressant} qui fait apparaître une {object:Boîte enchantée}.'
+L['soa_05_ancient_lever_label'] = 'Levier ancien'
+L['soa_05_ancient_lever_note_a'] = 'A l\'arrière du bâtiment en ruine derrière {npc:195915}.'
+L['soa_05_ancient_lever_note_b'] = 'A l\'intérieur de la tour en ruine.'
+L['soa_05_ancient_lever_note_c'] = 'A l\'intérieur du bâtiment près des {npc:186823} et {npc:186825}.'
+L['soa_05_enchanted_box_label'] = 'Boîte enchantée'
 
-L['soa_day02_fangli_note_a'] = 'Parlez à {npc:207697} pour terminer {quest:77237} et recevoir la {item:206696}.'
+-- Secrets of Azeroth: Clue 6
+L['soa_06_rlabel'] = nil
+L['soa_06_unvieled_tablet_label'] = nil
+L['soa_06_unvieled_tablet_note_a'] = nil
+L['soa_06_unvieled_tablet_note_b'] = nil
 
-L['soa_day02_fangl_clue_label'] = 'Indice de Canine'
-
-L['soa_day02_fangli_clue_a'] = 'Sur le mur au-dessus de la tête de {npc:207697}.'
-L['soa_day02_fangli_clue_b'] = 'En bas sur l\'étagère à la {location:Nourricerie « Petites écailles »}.'
-L['soa_day02_fangli_clue_c'] = 'Sur le sol à côté de {npc:196960} au {location:Marché d\'artisanat}.'
-L['soa_day02_fangli_clue_d'] = 'Sur un tonneau, près de l\'{object:Établi de Joaillerie}.'
-L['soa_day02_fangli_clue_e'] = 'Sur le sol près de {npc:185545} au {location:Marché d\'artisanat}.'
-L['soa_day02_fangli_clue_f'] = 'Au-dessus de l\'arche d\'entrée à l\'{location:Hôtel des ventes}.'
-L['soa_day02_fangli_clue_g'] = 'Sur le sol à côté du {npc:189489}.'
-L['soa_day02_fangli_clue_h'] = 'À l\'entrée au rez-de-chaussée du {location:Siège des Aspects}, près d\'un brasero.'
-L['soa_day02_fangli_clue_i'] = 'Près d\'une cascade à l\'{location:Enclave d\'émeraude}.'
-
-L['soa_day02_erugosa_note_a'] = 'Parlez à {npc:185556} pour recevoir la {item:208416}. Vous devrez collecter les objets suivants pour elle :'
-L['soa_day02_erugosa_note_b'] = 'Achetez 5x {item:198441} auprès d\'{npc:194152} à l\'{location:Avant-poste Pas-de-bois} aux {location:Plaines d\'Ohn\'ahra}.'
-L['soa_day02_erugosa_note_c'] = 'Achetez 5x {item:201419} auprès de {npc:196729} au {location:Marché d\'artisanat} à {location:Valdrakken}.'
-L['soa_day02_erugosa_note_d'] = 'Achetez 5x {item:205693} auprès de {npc:204371} à l\'entrée de {location:Terreau} dans la {location:Grotte de Zaralek}.'
-
-L['soa_day02_clinkyclick_note_a'] = 'Parlez à {npc:185548} pour recevoir un {item:207814}. Vous aurez besoin de :'
-L['soa_day02_clinkyclick_note_b'] = 'Obtenez 10x {item:207956} auprès d\'{npc:185556} au {location:Bélier rôti} à {location:Valdrakken}.'
-
-L['soa_day02_gryffin_note_a'] = 'Parlez à {npc:197781} pour recevoir un {item:207813}. Vous aurez besoin de rassembler :'
-L['soa_day02_gryffin_note_b'] = 'Obtenez 1x {item:207812} en tuant des {npc:191451} à la {location:Rive de la Cascade} à {location:Valdrakken}.'
-
-L['soa_day02_shakey_note_a'] = 'Parlez à {npc:198586} pour recevoir les {item:207816}.'
-L['soa_day02_shakey_note_b'] = 'Payez la note du bar de {npc:198586} s\'élevant à %s au {location:Trésor du Dragon} à {location:Valdrakken}.'
-L['soa_day02_shakey_note_c'] = 'Entrez au {location:Trésor du Dragon} par l\'entrée secrète en utilisant l\'emote {emote:/incliner} devant l\'{object:Étrange statue} située au fond du {location:Bélier rôti}.'
-
-L['soa_day03_rlabel'] = '(Jour 3)'
-
-L['soa_day03_locker_label'] = 'Coffre de la préservatrice'
-L['soa_day03_sazsel_note_a'] = 'Récupérez la {item:208130} dans le {object:Coffre de la préservatrice} au dernier étage du {location:Bélier rôti} et apportez-la à l\'{npc:208620} à {location:Valdrakken}.'
-L['soa_day03_sazsel_note_b'] = 'Une fois examinée, rapportez la bannière dans le coffre et retournez voir {npc:207697}.'
-
-L['soa_day04_rlabel'] = '(Jour 4)'
-
-L['soa_day04_torch_of_pyrreth_note'] = 'Activez les 3 {object:Levier ancien} trouvés au {location:Conservatoire de la Lieuse-de-vie} aux {location:Rivages de l\'Éveil} pour révéler la {item:208135}.\n\nUne fois récupérée, retournez voir la {npc:206864} au {location:Bélier rôti} à {location:Valdrakken}.'
-
-L['soa_day04_ancient_lever_label'] = 'Levier ancien'
-L['soa_day04_ancient_lever_note_a'] = 'A l\'arrière du bâtiment en ruine derrière {npc:195915}.'
-L['soa_day04_ancient_lever_note_b'] = 'A l\'intérieur de la tour en ruine.'
-L['soa_day04_ancient_lever_note_c'] = 'A l\'intérieur du bâtiment près des {npc:186823} et {npc:186825}.'
-
-L['soa_day04_aenchanted_box_label'] = 'Boîte enchantée'
-L['soa_day04_aenchanted_box_note'] = 'Utilisez votre {item:208092} pour recevoir le buff {spell:419127}. Vous pouvez maintenant révéler le {object:Lieu intéressant} qui fait apparaître une {object:Boîte enchantée}.'
+-- Community Rumor Mill
+L['bs_count_01'] = '(1/15)'
+L['bs_count_02'] = '(2/15)'
+L['bs_count_03'] = '(3/15)'
+L['bs_count_04'] = '(4/15)'
+L['bs_count_05'] = '(5/15)'
+-- L['bs_count_06'] = '(6/15)'
+-- L['bs_count_07'] = '(7/15)'
+-- L['bs_count_08'] = '(8/15)'
+-- L['bs_count_09'] = '(9/15)'
+-- L['bs_count_10'] = '(10/15)'
+-- L['bs_count_11'] = '(11/15)'
+-- L['bs_count_12'] = '(12/15)'
+-- L['bs_count_13'] = '(13/15)'
+-- L['bs_count_14'] = '(14/15)'
+-- L['bs_count_15'] = '(15/15)'
 
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
 

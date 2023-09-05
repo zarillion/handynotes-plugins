@@ -831,70 +831,77 @@ L['options_icons_zone_event_desc'] = '顯示區域事件的位置.'
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['soa_day01_rlabel'] = nil
+-- Secrets of Azeroth: Clue 1
+L['soa_01_rlabel'] = nil
+L['soa_01_golden_chalice_note'] = nil
 
-L['soa_day01_kathos_note_a'] = nil
-L['soa_day01_kathos_note_b'] = nil
-L['soa_day01_kathos_note_c'] = nil
+-- Secrets of Azeroth: Clue 2
+L['soa_02_rlabel'] = nil
+L['soa_02_kathos_note'] = nil
+L['soa_02_shomko_note_a'] = nil
+L['soa_02_shomko_note_b'] = nil
+L['soa_02_shomko_note_c'] = nil
 
-L['soa_day01_shomko_note_a'] = nil
-L['soa_day01_shomko_note_b'] = nil
-L['soa_day01_shomko_note_c'] = nil
+-- Secrets of Azeroth: Clue 3
+L['soa_03_rlabel'] = nil
+L['soa_03_fangli_hoot_note_a'] = nil
+L['soa_03_fangli_hoot_note_b'] = nil
+L['soa_03_fangli_hoot_note_c'] = nil
+L['soa_03_fangli_hoot_note_d'] = nil
+L['soa_03_fangli_hoot_note_e'] = nil
+L['soa_03_fangli_clue_label'] = nil
+L['soa_03_fangli_clue'] = nil
+L['soa_03_erugosa_note_a'] = nil
+L['soa_03_erugosa_note_b'] = nil
+L['soa_03_erugosa_note_c'] = nil
+L['soa_03_erugosa_note_d'] = nil
+L['soa_03_clinkyclick_note_a'] = nil
+L['soa_03_clinkyclick_note_b'] = nil
+L['soa_03_gryffin_note_a'] = nil
+L['soa_03_gryffin_note_b'] = nil
+L['soa_03_shakey_note_a'] = nil
+L['soa_03_shakey_note_b'] = nil
+L['soa_03_shakey_note_c'] = nil
 
-L['soa_day02_rlabel'] = nil
+-- Secrets of Azeroth: Clue 4
+L['soa_04_rlabel'] = nil
+L['soa_04_locker_label'] = nil
+L['soa_04_sazsel_note_a'] = nil
+L['soa_04_sazsel_note_b'] = nil
 
-L['soa_day02_bobby_note_a'] = nil
-L['soa_day02_bobby_note_b'] = nil
-L['soa_day02_bobby_note_c'] = nil
-L['soa_day02_bobby_note_d'] = nil
-L['soa_day02_bobby_note_e'] = nil
+-- Secrets of Azeroth: Clue 5
+L['soa_05_rlabel'] = nil
+L['soa_05_torch_of_pyrreth_note_a'] = nil
+L['soa_05_torch_of_pyrreth_note_b'] = nil
+L['soa_05_torch_of_pyrreth_note_c'] = nil
+L['soa_05_ancient_lever_label'] = nil
+L['soa_05_ancient_lever_note_a'] = nil
+L['soa_05_ancient_lever_note_b'] = nil
+L['soa_05_ancient_lever_note_c'] = nil
+L['soa_05_enchanted_box_label'] = nil
 
-L['soa_day02_fangli_note_a'] = nil
+-- Secrets of Azeroth: Clue 6
+L['soa_06_rlabel'] = nil
+L['soa_06_unvieled_tablet_label'] = nil
+L['soa_06_unvieled_tablet_note_a'] = nil
+L['soa_06_unvieled_tablet_note_b'] = nil
 
-L['soa_day02_fangl_clue_label'] = nil
-
-L['soa_day02_fangli_clue_a'] = nil
-L['soa_day02_fangli_clue_b'] = nil
-L['soa_day02_fangli_clue_c'] = nil
-L['soa_day02_fangli_clue_d'] = nil
-L['soa_day02_fangli_clue_e'] = nil
-L['soa_day02_fangli_clue_f'] = nil
-L['soa_day02_fangli_clue_g'] = nil
-L['soa_day02_fangli_clue_h'] = nil
-L['soa_day02_fangli_clue_i'] = nil
-
-L['soa_day02_erugosa_note_a'] = nil
-L['soa_day02_erugosa_note_b'] = nil
-L['soa_day02_erugosa_note_c'] = nil
-L['soa_day02_erugosa_note_d'] = nil
-
-L['soa_day02_clinkyclick_note_a'] = nil
-L['soa_day02_clinkyclick_note_b'] = nil
-
-L['soa_day02_gryffin_note_a'] = nil
-L['soa_day02_gryffin_note_b'] = nil
-
-L['soa_day02_shakey_note_a'] = nil
-L['soa_day02_shakey_note_b'] = nil
-L['soa_day02_shakey_note_c'] = nil
-
-L['soa_day03_rlabel'] = nil
-
-L['soa_day03_locker_label'] = nil
-L['soa_day03_sazsel_note_a'] = nil
-L['soa_day03_sazsel_note_b'] = nil
-
-L['soa_day04_rlabel'] = nil
-
-L['soa_day04_torch_of_pyrreth_note'] = nil
-
-L['soa_day04_ancient_lever_label'] = nil
-L['soa_day04_ancient_lever_note_a'] = nil
-L['soa_day04_ancient_lever_note_b'] = nil
-L['soa_day04_ancient_lever_note_c'] = nil
-
-L['soa_day04_aenchanted_box_label'] = nil
-L['soa_day04_aenchanted_box_note'] = nil
+-- Community Rumor Mill
+L['bs_count_01'] = nil
+L['bs_count_02'] = nil
+L['bs_count_03'] = nil
+L['bs_count_04'] = nil
+L['bs_count_05'] = nil
+-- L['bs_count_06'] = nil
+-- L['bs_count_07'] = nil
+-- L['bs_count_08'] = nil
+-- L['bs_count_09'] = nil
+-- L['bs_count_10'] = nil
+-- L['bs_count_11'] = nil
+-- L['bs_count_12'] = nil
+-- L['bs_count_13'] = nil
+-- L['bs_count_14'] = nil
+-- L['bs_count_15'] = nil
 
 L['buried_satchel_note'] = nil
 

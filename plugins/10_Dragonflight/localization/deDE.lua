@@ -833,70 +833,77 @@ L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse 
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['soa_day01_rlabel'] = '(Tag 1)'
+-- Secrets of Azeroth: Clue 1
+L['soa_01_rlabel'] = nil
+L['soa_01_golden_chalice_note'] = 'Platziere {item:208056} im {location:Schatzhort von Valdrakken}.'
 
-L['soa_day01_kathos_note_a'] = 'Sprich mit {npc:206864}, um {item:208054} zu erhalten. In diesen sind {item:208055} und {item:208056} enthalten.'
-L['soa_day01_kathos_note_b'] = 'Platziere {item:208056} im {location:Schatzhort von Valdrakken}.'
-L['soa_day01_kathos_note_c'] = 'Kehre zurück zu {npc:206864}. Von ihr erhältst du den {item:207105}.\n\nBringe diesen zu {npc:186448} in {location:Iskaara} in {location:Das Azurblaue Gebirge}.'
+-- Secrets of Azeroth: Clue 2
+L['soa_02_rlabel'] = nil
+L['soa_02_kathos_note'] = nil
+L['soa_02_shomko_note_a'] = 'Sprich mit {npc:186448}, um {item:207580} zu erhalten.'
+L['soa_02_shomko_note_b'] = 'Platziere {item:207580} in der {location:Ebene von Nasam} in die {location:Boreanische Tundra} in {location:Nordend}.'
+L['soa_02_shomko_note_c'] = '{note:Bleibe unbedingt in der Nähe und töte {npc:208182}, um den {item:207594} zu erhalten.}'
 
-L['soa_day01_shomko_note_a'] = 'Sprich mit {npc:186448}, um {item:207580} zu erhalten.'
-L['soa_day01_shomko_note_b'] = 'Platziere {item:207580} in der {location:Ebene von Nasam} in die {location:Boreanische Tundra} in {location:Nordend}.'
-L['soa_day01_shomko_note_c'] = '{note:Bleibe unbedingt in der Nähe und töte {npc:208182}, um den {item:207594} zu erhalten.}'
+-- Secrets of Azeroth: Clue 3
+L['soa_03_rlabel'] = nil
+L['soa_03_fangli_hoot_note_a'] = 'Sprich mit {npc:207696}, um die {item:207802} zu erhalten. Du musst die {item:207827} herstellen, indem du verschiedene Teile sammelst:'
+L['soa_03_fangli_hoot_note_b'] = 'Tausche 5x {item:207956} mit {npc:185548} gegen {item:207814} in {location:Valdrakken} ein.'
+L['soa_03_fangli_hoot_note_c'] = 'Tausche 1x {item:207812} mit {npc:197781} gegen {item:207813} in {location:Valdrakken} ein.'
+L['soa_03_fangli_hoot_note_d'] = 'Erhalte 1x {item:207816} von {npc:198586}, nachdem du seinen Deckel bei {npc:198586} im {location:Der Drachenhort} in {location:Valdrakken} beglichen hast.'
+L['soa_03_fangli_hoot_note_e'] = 'Kombiniere die Teile, um die {item:207827} herzustellen, um die Quest {quest:77237} für {npc:207697} in {location:Valdrakken} zu beginnen.'
+L['soa_03_fangli_clue_label'] = 'Klaudias Hinweis'
+L['soa_03_fangli_clue'] = 'In der Nähe des Wasserfalls.'
+L['soa_03_erugosa_note_a'] = 'Sprich mit {npc:185556}, um die {item:208416} zu erhalten. Du musst die folgenden Gegenstände für sie sammeln:'
+L['soa_03_erugosa_note_b'] = 'Kaufe 5x {item:198441} von {npc:194152} im {location:Baumschritt Aussenposten} in den {location:Ebenen von Ohn\'ahra}.'
+L['soa_03_erugosa_note_c'] = 'Kaufe 5x {item:201419} von {npc:196729} in {location:Valdrakken}.'
+L['soa_03_erugosa_note_d'] = 'Kaufe 5x {item:205693} von {npc:204371} in {location:Loamm} in der {location:Zaralekhöhle}.'
+L['soa_03_clinkyclick_note_a'] = 'Sprich mit {npc:185548}, um {item:207814} zu erhalten. Du brauchst:'
+L['soa_03_clinkyclick_note_b'] = 'Erhalte 10x {item:207956} von {npc:185556} im Gasthaus {location:Zum Gerösteten Geißbock} in {location:Valdrakken}.'
+L['soa_03_gryffin_note_a'] = 'Sprich mit {npc:197781}, um {item:207813} zu erhalten. Du musst folgendes sammeln:'
+L['soa_03_gryffin_note_b'] = 'Plündere 1x {item:207812} von {npc:191451} beim {location:Rand der Kaskade} in {location:Valdrakken}.'
+L['soa_03_shakey_note_a'] = 'Sprich mit {npc:198586}, um {item:207816} zu erhalten.'
+L['soa_03_shakey_note_b'] = 'Begleiche {npc:198586}s Deckel von %s im {location:Der Drachenhort} in {location:Valdrakken}.'
+L['soa_03_shakey_note_c'] = 'Zeige der {object:Seltsame Statue} im hinteren Teil des Gasthauses {location:Zum Gerösteten Geißbock} Respekt, indem du sie anvisierst und dich verbeugst {emote:(/verbeugen)}, um in {location:Der Drachenhort} zu gelangen.'
 
-L['soa_day02_rlabel'] = '(Tag 2)'
+-- Secrets of Azeroth: Clue 4
+L['soa_04_rlabel'] = nil
+L['soa_04_locker_label'] = 'Kiste der Bewahrerin'
+L['soa_04_sazsel_note_a'] = 'Plündere das {item:208130} aus der {object:Kiste der Bewahrerin}, die sich im oberen Stockwerk des Gasthauses {location:Zum Gerösteten Geißbock} befindet. Bring dieses zu {npc:208620} in {location:Valdrakken}.'
+L['soa_04_sazsel_note_b'] = 'Lege das Banner nach der Schätzung wieder in die Truhe und kehre zu {npc:207697} zurück.'
 
-L['soa_day02_bobby_note_a'] = 'Sprich mit {npc:207696}, um die {item:207802} zu erhalten. Du musst die {item:207827} herstellen, indem du verschiedene Teile sammelst:'
-L['soa_day02_bobby_note_b'] = 'Tausche 5x {item:207956} mit {npc:185548} gegen {item:207814} in {location:Valdrakken} ein.'
-L['soa_day02_bobby_note_c'] = 'Tausche 1x {item:207812} mit {npc:197781} gegen {item:207813} in {location:Valdrakken} ein.'
-L['soa_day02_bobby_note_d'] = 'Erhalte 1x {item:207816} von {npc:198586}, nachdem du seinen Deckel bei {npc:198586} im {location:Der Drachenhort} in {location:Valdrakken} beglichen hast.'
-L['soa_day02_bobby_note_e'] = 'Kombiniere die Teile, um die {item:207827} herzustellen, um die Quest {quest:77237} für {npc:207697} in {location:Valdrakken} zu beginnen.'
+-- Secrets of Azeroth: Clue 5
+L['soa_05_rlabel'] = nil
+L['soa_05_torch_of_pyrreth_note_a'] = 'Aktiviere die drei {object:Uralter Hebel}, die im {location:Konservatorium der Lebensbinderin} in {location:Die Küste des Erwachens} gefunden werden können, um die {item:208135} zu enthüllen.'
+L['soa_05_torch_of_pyrreth_note_b'] = 'Sammle diese ein und kehre dann zu {npc:206864} ins Gasthaus {location:Zum Gerösteten Geißbock} in {location:Valdrakken} zurück.'
+L['soa_05_torch_of_pyrreth_note_c'] = 'Benutze deine {item:208092}, um den Stärkungszauber {spell:419127} zu erhalten. Beim {object:Interessantes Fleckchen} wird ein {object:Verzauberter Kasten} erscheinen.'
+L['soa_05_ancient_lever_label'] = 'Uralter Hebel'
+L['soa_05_ancient_lever_note_a'] = 'Innerhalb der Gebäuderuine hinter {npc:195915}.'
+L['soa_05_ancient_lever_note_b'] = 'Innerhalb der Turmruine.'
+L['soa_05_ancient_lever_note_c'] = 'Innerhalb der Gebäuderuine neben den Bücherregalen.'
+L['soa_05_enchanted_box_label'] = 'Verzauberter Kasten'
 
-L['soa_day02_fangli_note_a'] = 'Sprich mit {npc:207697}, um die Quest {quest:77237} abzuschließen und die {item:206696} zu erhalten.'
+-- Secrets of Azeroth: Clue 6
+L['soa_06_rlabel'] = nil
+L['soa_06_unvieled_tablet_label'] = nil
+L['soa_06_unvieled_tablet_note_a'] = nil
+L['soa_06_unvieled_tablet_note_b'] = nil
 
-L['soa_day02_fangl_clue_label'] = 'Klaudias Hinweis'
-
-L['soa_day02_fangli_clue_a'] = 'An der Wand über {npc:207697}s Kopf.'
-L['soa_day02_fangli_clue_b'] = 'Unten am Bücherregal.'
-L['soa_day02_fangli_clue_c'] = 'Auf dem Boden neben {npc:196960}.'
-L['soa_day02_fangli_clue_d'] = 'Auf einem Fass neben der Werkbank des Juweliers.'
-L['soa_day02_fangli_clue_e'] = 'Auf dem Boden vor dem Labortisch des Alchemisten.'
-L['soa_day02_fangli_clue_f'] = 'Auf dem Torbogen des Eingangs zum {location:Auktionshaus}.'
-L['soa_day02_fangli_clue_g'] = 'Auf dem Boden neben dem {npc:189489}.'
-L['soa_day02_fangli_clue_h'] = 'Im Eingang zum {location:Der Sitz der Aspekte} auf dem Boden neben der Kohlenpfanne.'
-L['soa_day02_fangli_clue_i'] = 'In der Nähe des Wasserfalls.'
-
-L['soa_day02_erugosa_note_a'] = 'Sprich mit {npc:185556}, um die {item:208416} zu erhalten. Du musst die folgenden Gegenstände für sie sammeln:'
-L['soa_day02_erugosa_note_b'] = 'Kaufe 5x {item:198441} von {npc:194152} im {location:Baumschritt Aussenposten} in den {location:Ebenen von Ohn\'ahra}.'
-L['soa_day02_erugosa_note_c'] = 'Kaufe 5x {item:201419} von {npc:196729} in {location:Valdrakken}.'
-L['soa_day02_erugosa_note_d'] = 'Kaufe 5x {item:205693} von {npc:204371} in {location:Loamm} in der {location:Zaralekhöhle}.'
-
-L['soa_day02_clinkyclick_note_a'] = 'Sprich mit {npc:185548}, um {item:207814} zu erhalten. Du brauchst:'
-L['soa_day02_clinkyclick_note_b'] = 'Erhalte 10x {item:207956} von {npc:185556} im Gasthaus {location:Zum Gerösteten Geißbock} in {location:Valdrakken}.'
-
-L['soa_day02_gryffin_note_a'] = 'Sprich mit {npc:197781}, um {item:207813} zu erhalten. Du musst folgendes sammeln:'
-L['soa_day02_gryffin_note_b'] = 'Plündere 1x {item:207812} von {npc:191451} beim {location:Rand der Kaskade} in {location:Valdrakken}.'
-
-L['soa_day02_shakey_note_a'] = 'Sprich mit {npc:198586}, um {item:207816} zu erhalten.'
-L['soa_day02_shakey_note_b'] = 'Begleiche {npc:198586}s Deckel von %s im {location:Der Drachenhort} in {location:Valdrakken}.'
-L['soa_day02_shakey_note_c'] = 'Zeige der {object:Seltsame Statue} im hinteren Teil des Gasthauses {location:Zum Gerösteten Geißbock} Respekt, indem du sie anvisierst und dich verbeugst {emote:(/verbeugen)}, um in {location:Der Drachenhort} zu gelangen.'
-
-L['soa_day03_rlabel'] = '(Tag 3)'
-
-L['soa_day03_locker_label'] = 'Kiste der Bewahrerin'
-L['soa_day03_sazsel_note_a'] = 'Plündere das {item:208130} aus der {object:Kiste der Bewahrerin}, die sich im oberen Stockwerk des Gasthauses {location:Zum Gerösteten Geißbock} befindet. Bring dieses zu {npc:208620} in {location:Valdrakken}.'
-L['soa_day03_sazsel_note_b'] = 'Lege das Banner nach der Schätzung wieder in die Truhe und kehre zu {npc:207697} zurück.'
-
-L['soa_day04_rlabel'] = '(Tag 4)'
-
-L['soa_day04_torch_of_pyrreth_note'] = 'Im untersten Stockwerk des Gebäudes, links an der Wand der Feuerstelle.\n\nAktiviere die drei {object:Uralter Hebel}, die im {location:Konservatorium der Lebensbinderin} in {location:Die Küste des Erwachens} gefunden werden können, um die {item:208135} zu enthüllen.\n\nSammle diese ein und kehre dann zu {npc:206864} ins Gasthaus {location:Zum Gerösteten Geißbock} in {location:Valdrakken} zurück.'
-
-L['soa_day04_ancient_lever_label'] = 'Uralter Hebel'
-L['soa_day04_ancient_lever_note_a'] = 'Innerhalb der Gebäuderuine hinter {npc:195915}.'
-L['soa_day04_ancient_lever_note_b'] = 'Innerhalb der Turmruine.'
-L['soa_day04_ancient_lever_note_c'] = 'Innerhalb der Gebäuderuine neben den Bücherregalen.'
-
-L['soa_day04_aenchanted_box_label'] = 'Verzauberter Kasten'
-L['soa_day04_aenchanted_box_note'] = 'Benutze deine {item:208092}, um den Stärkungszauber {spell:419127} zu erhalten. Beim {object:Interessantes Fleckchen} wird ein {object:Verzauberter Kasten} erscheinen.'
+-- Community Rumor Mill
+L['bs_count_01'] = nil
+L['bs_count_02'] = nil
+L['bs_count_03'] = nil
+L['bs_count_04'] = nil
+L['bs_count_05'] = nil
+-- L['bs_count_06'] = nil
+-- L['bs_count_07'] = nil
+-- L['bs_count_08'] = nil
+-- L['bs_count_09'] = nil
+-- L['bs_count_10'] = nil
+-- L['bs_count_11'] = nil
+-- L['bs_count_12'] = nil
+-- L['bs_count_13'] = nil
+-- L['bs_count_14'] = nil
+-- L['bs_count_15'] = nil
 
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
 

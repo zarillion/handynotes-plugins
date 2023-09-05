@@ -831,70 +831,77 @@ L['options_icons_zone_event_desc'] = 'Display locations for zone events.'
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['soa_day01_rlabel'] = '(Day 1)'
+-- Secrets of Azeroth: Clue 1
+L['soa_01_rlabel'] = '(Clue 1)'
+L['soa_01_golden_chalice_note'] = 'Place the {item:208056} in the {location:Valdrakken Treasury Hoard} in {location:Valdrakken}.'
 
-L['soa_day01_kathos_note_a'] = 'Speak with {npc:206864} to receive a {item:208054} containing {item:208055} and {item:208056}.'
-L['soa_day01_kathos_note_b'] = 'Place the {item:208056} in the {location:Valdrakken Treasury Hoard} in {location:Valdrakken}.'
-L['soa_day01_kathos_note_c'] = 'Return to {npc:206864} you will receive {item:207105}.\n\nTake the {item:207105} to {npc:186448} in {location:Iskaara} in {location:The Azure Span}.'
+-- Secrets of Azeroth: Clue 2
+L['soa_02_rlabel'] = '(Clue 2)'
+L['soa_02_kathos_note'] = 'Speak to {npc:206864} to receive {item:207105}.\n\nTake the {item:207105} to {npc:186448} in {location:Iskaara} in {location:The Azure Span}.'
+L['soa_02_shomko_note_a'] = 'Speak to {npc:186448} to receive {item:207580}.'
+L['soa_02_shomko_note_b'] = 'Place {item:207580} at {object:Ceremonial Spear} in {location:Riplash Strand} in the {location:Borean Tundra} in {location:Northrend}.'
+L['soa_02_shomko_note_c'] = '{note:Be sure to stick around and kill {npc:208182} to receive {item:207594}.}'
 
-L['soa_day01_shomko_note_a'] = 'Speak to {npc:186448} to receive {item:207580}.'
-L['soa_day01_shomko_note_b'] = 'Place {item:207580} at {object:Ceremonial Spear} in {location:Riplash Strand} in the {location:Borean Tundra} in {location:Northrend}.'
-L['soa_day01_shomko_note_c'] = '{note:Be sure to stick around and kill {npc:208182} to receive {item:207594}.}'
+-- Secrets of Azeroth: Clue 3
+L['soa_03_rlabel'] = '(Clue 3)'
+L['soa_03_fangli_hoot_note_a'] = 'Speak with {npc:207696} to recieve {item:207802}. You\'ll need to build {item:207827} by collecting various pieces:'
+L['soa_03_fangli_hoot_note_b'] = 'Trade 5x {item:207956} with {npc:185548} for {item:207814} in {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_c'] = 'Trade 1x {item:207812} with {npc:197781} for {item:207813} in {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_d'] = 'Receive 1x {item:207816} from {npc:198586} after paying his bar tab in {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_e'] = 'Combine the pieces to recieve {item:207827} and begin {quest:77237} for {npc:207697} in {location:Valdrakken}.'
+L['soa_03_fangli_clue_label'] = 'Fangli\'s Clue'
+L['soa_03_fangli_clue'] = 'Near a waterfall by the {location:Emerald Enclave}.'
+L['soa_03_erugosa_note_a'] = 'Speak with {npc:185556} to receive {item:208416}. You\'ll need to collect the following items for her:'
+L['soa_03_erugosa_note_b'] = 'Purchase 5x {item:198441} from {npc:194152} in {location:Timberstep Outpost} in {location:Ohn\'ahran Plains}.'
+L['soa_03_erugosa_note_c'] = 'Purchase 5x {item:201419} from {npc:196729} in {location:Valdrakken} in {location:Thaldraszus}.'
+L['soa_03_erugosa_note_d'] = 'Purchase 5x {item:205693} from {npc:204371} in {location:Loamm} in {location:Zaralek Cavern}.'
+L['soa_03_clinkyclick_note_a'] = 'Speak with {npc:185548} to receive {item:207814}. You\'ll need:'
+L['soa_03_clinkyclick_note_b'] = 'Receive 10x {item:207956} from {npc:185556} in {location:The Roasted Ram} in {location:Valdrakken}.'
+L['soa_03_gryffin_note_a'] = 'Speak with {npc:197781} to receive {item:207813}. You\'ll need to collect:'
+L['soa_03_gryffin_note_b'] = 'Loot 1x {item:207812} by killing {npc:191451} in {location:Cascade\'s Edge} in {location:Valdrakken}.'
+L['soa_03_shakey_note_a'] = 'Speak with {npc:198586} to receive {item:207816}.'
+L['soa_03_shakey_note_b'] = 'Pay {npc:198586}\'s bar tab of %s at {location:The Dragon\'s Hoard} in {location:Valdrakken}.'
+L['soa_03_shakey_note_c'] = 'Enter {location:The Dragon\'s Hoard} through the secret entrance by {emote:/bow} at the {object:Odd Statue} at the back of {location:The Roasted Ram}.'
 
-L['soa_day02_rlabel'] = '(Day 2)'
+-- Secrets of Azeroth: Clue 4
+L['soa_04_rlabel'] = '(Clue 4)'
+L['soa_04_locker_label'] = 'Preservationist\'s Locker'
+L['soa_04_sazsel_note_a'] = 'Loot the {item:208130} from within the {object:Preservationist\'s Locker} on the top floor of {location:The Roasted Ram} and bring to {npc:208620} in {location:Valdrakken}.'
+L['soa_04_sazsel_note_b'] = 'Once appraised return the banner back to the chest and return to {npc:207697}.'
 
-L['soa_day02_bobby_note_a'] = 'Speak with {npc:207696} to recieve {item:207802}. You\'ll need to build {item:207827} by collecting various pieces:'
-L['soa_day02_bobby_note_b'] = 'Trade 5x {item:207956} with {npc:185548} for {item:207814} in {location:Valdrakken}.'
-L['soa_day02_bobby_note_c'] = 'Trade 1x {item:207812} with {npc:197781} for {item:207813} in {location:Valdrakken}.'
-L['soa_day02_bobby_note_d'] = 'Receive 1x {item:207816} from {npc:198586} after paying his bar tab in {location:Valdrakken}.'
-L['soa_day02_bobby_note_e'] = 'Combine the pieces to recieve {item:207827} and begin {quest:77237} for {npc:207697} in {location:Valdrakken}.'
+-- Secrets of Azeroth: Clue 5
+L['soa_05_rlabel'] = '(Clue 5)'
+L['soa_05_torch_of_pyrreth_note_a'] = 'Activate the 3 {object:Ancient Lever} found around {location:Life-Binder Conservatory} in {location:The Waking Shores} to reveal the {item:208135}.'
+L['soa_05_torch_of_pyrreth_note_b'] = 'Once collected return to {npc:206864} at {location:The Roasted Ram} in {location:Valdrakken}.'
+L['soa_05_torch_of_pyrreth_note_c'] = 'Use your {item:208092} to recieve the {spell:419127} buff. You can now reveal the {npc:209011} which spawns an {object:Enchanted Box}.'
+L['soa_05_ancient_lever_label'] = 'Ancient Lever'
+L['soa_05_ancient_lever_note_a'] = 'At the back of the ruined building behind {npc:195915}.'
+L['soa_05_ancient_lever_note_b'] = 'Inside the ruined tower.'
+L['soa_05_ancient_lever_note_c'] = 'Inside the building near {npc:186823} and {npc:186825}.'
+L['soa_05_enchanted_box_label'] = 'Enchanted Box'
 
-L['soa_day02_fangli_note_a'] = 'Speak with {npc:207697} to complete {quest:77237} and recieve {item:206696}.'
+-- Secrets of Azeroth: Clue 6
+L['soa_06_rlabel'] = '(Clue 6)'
+L['soa_06_unvieled_tablet_label'] = 'Unveiled Tablet'
+L['soa_06_unvieled_tablet_note_a'] = 'Use the {item:208092} at the base of the pylon in {location:Valkthros} in {location:The Azure Span} to reveal the {object:Unveiled Tablet}.'
+L['soa_06_unvieled_tablet_note_b'] = 'Loot the {item:208143} and return to {npc:207696} in {location:Valdrakken} to complete the secret.'
 
-L['soa_day02_fangl_clue_label'] = 'Fangli\'s Clue'
-
-L['soa_day02_fangli_clue_a'] = 'On the wall above {npc:207697} head.'
-L['soa_day02_fangli_clue_b'] = 'On the bottom on the bookshelf in {location:Little Scales Daycare}.'
-L['soa_day02_fangli_clue_c'] = 'On the floor next to {npc:196960} in the {location:Artisan\'s Market}.'
-L['soa_day02_fangli_clue_d'] = 'On top of a barrel near the jewelcrafting station.'
-L['soa_day02_fangli_clue_e'] = 'On the floor near {npc:185545} in the {location:Artisan\'s Market}.'
-L['soa_day02_fangli_clue_f'] = 'Above the entrance arch of the {location:Auction House}.'
-L['soa_day02_fangli_clue_g'] = 'On the ground next to the {npc:189489}.'
-L['soa_day02_fangli_clue_h'] = 'In the ground floor entrance to the {location:Seat of the Aspects} next to a bonfire.'
-L['soa_day02_fangli_clue_i'] = 'Near a waterfall by the {location:Emerald Enclave}.'
-
-L['soa_day02_erugosa_note_a'] = 'Speak with {npc:185556} to receive {item:208416}. You\'ll need to collect the following items for her:'
-L['soa_day02_erugosa_note_b'] = 'Purchase 5x {item:198441} from {npc:194152} in {location:Timberstep Outpost} in {location:Ohn\'ahran Plains}.'
-L['soa_day02_erugosa_note_c'] = 'Purchase 5x {item:201419} from {npc:196729} in {location:Valdrakken} in {location:Thaldraszus}.'
-L['soa_day02_erugosa_note_d'] = 'Purchase 5x {item:205693} from {npc:204371} in {location:Loamm} in {location:Zaralek Cavern}.'
-
-L['soa_day02_clinkyclick_note_a'] = 'Speak with {npc:185548} to receive {item:207814}. You\'ll need:'
-L['soa_day02_clinkyclick_note_b'] = 'Receive 10x {item:207956} from {npc:185556} in {location:The Roasted Ram} in {location:Valdrakken}.'
-
-L['soa_day02_gryffin_note_a'] = 'Speak with {npc:197781} to receive {item:207813}. You\'ll need to collect:'
-L['soa_day02_gryffin_note_b'] = 'Loot 1x {item:207812} by killing {npc:191451} in {location:Cascade\'s Edge} in {location:Valdrakken}.' -- cascades
-
-L['soa_day02_shakey_note_a'] = 'Speak with {npc:198586} to receive {item:207816}.'
-L['soa_day02_shakey_note_b'] = 'Pay {npc:198586}\'s bar tab of %s at {location:The Dragon\'s Hoard} in {location:Valdrakken}.'
-L['soa_day02_shakey_note_c'] = 'Enter {location:The Dragon\'s Hoard} through the secret entrance by {emote:/bow} at the {object:Odd Statue} at the back of {location:The Roasted Ram}.'
-
-L['soa_day03_rlabel'] = '(Day 3)'
-
-L['soa_day03_locker_label'] = 'Preservationist\'s Locker'
-L['soa_day03_sazsel_note_a'] = 'Loot the {item:208130} from within the {object:Preservationist\'s Locker} on the top floor of {location:The Roasted Ram} and bring to {npc:208620} in {location:Valdrakken}.'
-L['soa_day03_sazsel_note_b'] = 'Once appraised return the banner back to the chest and return to {npc:207697}.'
-
-L['soa_day04_rlabel'] = '(Day 4)'
-
-L['soa_day04_torch_of_pyrreth_note'] = 'Activate the 3 {object:Ancient Lever} found around {location:Life-Binder Conservatory} in {location:The Waking Shores} to reveal the {item:208135}.\n\nOnce collected return to {npc:206864} at {location:The Roasted Ram} in {location:Valdrakken}.'
-
-L['soa_day04_ancient_lever_label'] = 'Ancient Lever'
-L['soa_day04_ancient_lever_note_a'] = 'At the back of the ruined building behind {npc:195915}.'
-L['soa_day04_ancient_lever_note_b'] = 'Inside the ruined tower.'
-L['soa_day04_ancient_lever_note_c'] = 'Inside the building near {npc:186823} and {npc:186825}.'
-
-L['soa_day04_aenchanted_box_label'] = 'Enchanted Box'
-L['soa_day04_aenchanted_box_note'] = 'Use your {item:208092} to recieve the {spell:419127} buff. You can now reveal the {npc:209011} which spawns an {object:Enchanted Box}.'
+-- Community Rumor Mill
+L['bs_count_01'] = '(1/15)'
+L['bs_count_02'] = '(2/15)'
+L['bs_count_03'] = '(3/15)'
+L['bs_count_04'] = '(4/15)'
+L['bs_count_05'] = '(5/15)'
+-- L['bs_count_06'] = '(6/15)'
+-- L['bs_count_07'] = '(7/15)'
+-- L['bs_count_08'] = '(8/15)'
+-- L['bs_count_09'] = '(9/15)'
+-- L['bs_count_10'] = '(10/15)'
+-- L['bs_count_11'] = '(11/15)'
+-- L['bs_count_12'] = '(12/15)'
+-- L['bs_count_13'] = '(13/15)'
+-- L['bs_count_14'] = '(14/15)'
+-- L['bs_count_15'] = '(15/15)'
 
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
 
