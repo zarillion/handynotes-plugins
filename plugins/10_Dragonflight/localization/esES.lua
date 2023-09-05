@@ -838,7 +838,7 @@ L['soa_01_golden_chalice_note'] = 'Coloca el {item:208056} en el {location:Tesor
 
 -- Secrets of Azeroth: Clue 2
 L['soa_02_rlabel'] = '(Pista 2)'
-L['soa_02_kathos_note'] = 'Habla con {npc:206864} para conseguir la {item:207105}.\n\nDásela a {npc:186448} de {location:Iskaara} en {location:Tierras Azures}.'
+L['soa_02_kathos_note'] = 'Habla con {npc:206864} para conseguir la {item:207105}.\n\nDásela a {npc:186448} de {location:Iskaara} en {location:Las Tierras Azures}.'
 L['soa_02_shomko_note_a'] = 'Habla con el {npc:186448} para conseguir la {item:207580}.'
 L['soa_02_shomko_note_b'] = 'Colócala en la {object:Lanza Ceremonial} de las {location:Ruinas Tralladón} en la {location:Tundra Boreal} de {location:Rasganorte}.'
 L['soa_02_shomko_note_c'] = '{note:Aségurate de quedarte y matar al {npc:208182} para conseguir el {item:207594}.}'
@@ -884,8 +884,8 @@ L['soa_05_enchanted_box_label'] = 'Caja Encantada'
 -- Secrets of Azeroth: Clue 6
 L['soa_06_rlabel'] = '(Pista 6)'
 L['soa_06_unvieled_tablet_label'] = 'Tablilla Desvelada'
-L['soa_06_unvieled_tablet_note_a'] = nil
-L['soa_06_unvieled_tablet_note_b'] = 'Usa la {item:208092} en la base del pilón de {location:Vakthros} en {location:Tierras Azures} para revelar la {object:Tablilla Desvelada}.'
+L['soa_06_unvieled_tablet_note_a'] = 'Habla con {npc:207696} para completar la misión {quest:77284} y conseguir {item:208137}.\n\nEntonces viaja a {location:Vakthros} en {location:Las Tierras Azures}.'
+L['soa_06_unvieled_tablet_note_b'] = 'Usa la {item:208092} en la base del pilón de {location:Vakthros} en {location:Las Tierras Azures} para revelar la {object:Tablilla Desvelada}.'
 L['soa_06_unvieled_tablet_note_c'] = 'Despoja el {item:208143} y devuélvelo a {npc:207696} en {location:Valdrakken} para completar el secreto.'
 
 -- Community Rumor Mill
