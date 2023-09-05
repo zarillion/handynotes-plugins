@@ -884,26 +884,26 @@ L['soa_05_enchanted_box_label'] = 'Verzauberter Kasten'
 
 -- Secrets of Azeroth: Clue 6
 L['soa_06_rlabel'] = '(Hinweis 6)'
-L['soa_06_unvieled_tablet_label'] = nil
-L['soa_06_unvieled_tablet_note_a'] = nil
-L['soa_06_unvieled_tablet_note_b'] = nil
+L['soa_06_unvieled_tablet_label'] = 'Enthüllte Tafel'
+L['soa_06_unvieled_tablet_note_a'] = 'Benutze deine {item:208092} an der Säule in {location:Vakthros} in {location:Das Azurblaues Gebirge}, um die {object:Enthüllte Tafel} erscheinen zu lassen.'
+L['soa_06_unvieled_tablet_note_b'] = 'Interagiere mit {object:Enthüllte Tafel}, um das {item:208143} zu erhalten. Kehre nach {location:Valdrakken} zu {npc:207696} zurück, um das Geheimnis abzuschließen.'
 
 -- Community Rumor Mill
-L['bs_count_01'] = nil
-L['bs_count_02'] = nil
-L['bs_count_03'] = nil
-L['bs_count_04'] = nil
-L['bs_count_05'] = nil
--- L['bs_count_06'] = nil
--- L['bs_count_07'] = nil
--- L['bs_count_08'] = nil
--- L['bs_count_09'] = nil
--- L['bs_count_10'] = nil
--- L['bs_count_11'] = nil
--- L['bs_count_12'] = nil
--- L['bs_count_13'] = nil
--- L['bs_count_14'] = nil
--- L['bs_count_15'] = nil
+L['bs_count_01'] = '(1/15)'
+L['bs_count_02'] = '(2/15)'
+L['bs_count_03'] = '(3/15)'
+L['bs_count_04'] = '(4/15)'
+L['bs_count_05'] = '(5/15)'
+-- L['bs_count_06'] = '(6/15)'
+-- L['bs_count_07'] = '(7/15)'
+-- L['bs_count_08'] = '(8/15)'
+-- L['bs_count_09'] = '(9/15)'
+-- L['bs_count_10'] = '(10/15)'
+-- L['bs_count_11'] = '(11/15)'
+-- L['bs_count_12'] = '(12/15)'
+-- L['bs_count_13'] = '(13/15)'
+-- L['bs_count_14'] = '(14/15)'
+-- L['bs_count_15'] = '(15/15)'
 
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
 
@@ -911,7 +911,7 @@ L['bs_epl_location'] = 'Hinter dem Haus bei {location:Corins Kreuzung}.'
 L['bs_fel_location'] = 'Unter Wasser bei {location:Die Blutgiftfälle}.'
 L['bs_tho_location'] = 'In der Unterwasserhöhle {location:Spalthufhöhle}.'
 L['bs_smv_location'] = 'Im Inneren des hohlen Baumes in {location:Mondweidengipfel}.'
-L['bs_net_location'] = 'In der {location:Manaschmiede B\'naar} in {location:Nethersturm} in der {location:Scherbenwelt}.\n\n{note:Du benötigst 3 Spieler um den Zauber {item:208092} auf Kristalle in der nähe zu wirken damit der {object:Lockere Erdhaufen} erscheint.}'
+L['bs_net_location'] = 'In der {location:Manaschmiede B\'naar} in {location:Nethersturm} in der {location:Scherbenwelt}.\n\n{note:Es sind 3 Spieler erforderlich, die den Zauber {item:208092} auf die Kristalle in der Nähe wirken, damit ein {object:Lockerer Erdhaufen} erscheint.}'
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der {location:Geheimnisse von Azeroth} für den Erfolg {achievement:18646} an.'
