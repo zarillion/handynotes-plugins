@@ -830,18 +830,18 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 -------------------------------------------------------------------------------
 
 -- Secrets of Azeroth: Clue 1
-L['soa_01_rlabel'] = nil
+L['soa_01_rlabel'] = '(Indice n°1)'
 L['soa_01_golden_chalice_note'] = 'Placez le {item:208056} sur un tas d\'or à l\'intérieur de la Banque de {location:Valdrakken}.'
 
 -- Secrets of Azeroth: Clue 2
-L['soa_02_rlabel'] = nil
-L['soa_02_kathos_note'] = nil
+L['soa_02_rlabel'] = '(Indice n°2)'
+L['soa_02_kathos_note'] = 'Parlez à la {npc:206864} pour recevoir la {item:207105}.\n\nApportez la {item:207105} jusqu\'à l\'{npc:186448} à {location:Iskaara} à la {location:Travée d’Azur}.'
 L['soa_02_shomko_note_a'] = 'Parlez à l\'{npc:186448} pour recevoir la {item:207580}.'
 L['soa_02_shomko_note_b'] = 'Placez la {item:207580} sur la {object:Lance cérémonielle} à la {location:Grève des Courcinglants} dans la {location:Toundra Boréenne} en {location:Norfendre}.'
 L['soa_02_shomko_note_c'] = '{note:Veillez à rester dans les parages afin de tuer un {npc:208182} pour recevoir la {item:207594}.}'
 
 -- Secrets of Azeroth: Clue 3
-L['soa_03_rlabel'] = nil
+L['soa_03_rlabel'] = '(Indice n°3)'
 L['soa_03_fangli_hoot_note_a'] = 'Parlez à {npc:207696} pour obtenir les {item:207802}. Vous devrez construire une {item:207827} en collectant divers composants :'
 L['soa_03_fangli_hoot_note_b'] = 'Échangez 5x {item:207956} avec {npc:185548} contre un {item:207814} à {location:Valdrakken}.'
 L['soa_03_fangli_hoot_note_c'] = 'Échangez 1x {item:207812} à {npc:185548} contre un {item:207813} à {location:Valdrakken}.'
@@ -862,16 +862,16 @@ L['soa_03_shakey_note_b'] = 'Payez la note du bar de {npc:198586} s\'élevant à
 L['soa_03_shakey_note_c'] = 'Entrez au {location:Trésor du Dragon} par l\'entrée secrète en utilisant l\'emote {emote:/incliner} devant l\'{object:Étrange statue} située au fond du {location:Bélier rôti}.'
 
 -- Secrets of Azeroth: Clue 4
-L['soa_04_rlabel'] = nil
+L['soa_04_rlabel'] = '(Indice n°4)'
 L['soa_04_locker_label'] = 'Coffre de la préservatrice'
 L['soa_04_sazsel_note_a'] = 'Récupérez la {item:208130} dans le {object:Coffre de la préservatrice} au dernier étage du {location:Bélier rôti} et apportez-la à l\'{npc:208620} à {location:Valdrakken}.'
 L['soa_04_sazsel_note_b'] = 'Une fois examinée, rapportez la bannière dans le coffre et retournez voir {npc:207697}.'
 
 -- Secrets of Azeroth: Clue 5
-L['soa_05_rlabel'] = nil
+L['soa_05_rlabel'] = '(Indice n°5)'
 L['soa_05_torch_of_pyrreth_note_a'] = 'Activez les 3 {object:Levier ancien} trouvés au {location:Conservatoire de la Lieuse-de-vie} aux {location:Rivages de l\'Éveil} pour révéler la {item:208135}.'
 L['soa_05_torch_of_pyrreth_note_b'] = 'Une fois récupérée, retournez voir la {npc:206864} au {location:Bélier rôti} à {location:Valdrakken}.'
-L['soa_05_torch_of_pyrreth_note_c'] = 'Utilisez votre {item:208092} pour recevoir le buff {spell:419127}. Vous pouvez maintenant révéler le {object:Lieu intéressant} qui fait apparaître une {object:Boîte enchantée}.'
+L['soa_05_torch_of_pyrreth_note_c'] = 'Utilisez votre {item:208092} pour recevoir le buff {spell:419127}. Vous pouvez maintenant révéler le {npc:209011} qui fait apparaître une {object:Boîte enchantée}.'
 L['soa_05_ancient_lever_label'] = 'Levier ancien'
 L['soa_05_ancient_lever_note_a'] = 'A l\'arrière du bâtiment en ruine derrière {npc:195915}.'
 L['soa_05_ancient_lever_note_b'] = 'A l\'intérieur de la tour en ruine.'
@@ -879,10 +879,10 @@ L['soa_05_ancient_lever_note_c'] = 'A l\'intérieur du bâtiment près des {npc:
 L['soa_05_enchanted_box_label'] = 'Boîte enchantée'
 
 -- Secrets of Azeroth: Clue 6
-L['soa_06_rlabel'] = nil
-L['soa_06_unvieled_tablet_label'] = nil
-L['soa_06_unvieled_tablet_note_a'] = nil
-L['soa_06_unvieled_tablet_note_b'] = nil
+L['soa_06_rlabel'] = '(Indice n°6)'
+L['soa_06_unvieled_tablet_label'] = 'Tablette révélée'
+L['soa_06_unvieled_tablet_note_a'] = 'Utilisez la {item:208092} à la base du pylône à {location:Vakthros} à la {location:Travée d’Azur} pour révéler la {object:Tablette révélée}.'
+L['soa_06_unvieled_tablet_note_b'] = 'Pillez le {item:208143} et retournez voir {npc:207696} à {location:Valdrakken} pour compléter le secret.'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
