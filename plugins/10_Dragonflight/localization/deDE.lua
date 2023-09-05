@@ -834,18 +834,18 @@ L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse 
 -------------------------------------------------------------------------------
 
 -- Secrets of Azeroth: Clue 1
-L['soa_01_rlabel'] = nil
+L['soa_01_rlabel'] = '(Hinweis 1)'
 L['soa_01_golden_chalice_note'] = 'Platziere {item:208056} im {location:Schatzhort von Valdrakken}.'
 
 -- Secrets of Azeroth: Clue 2
-L['soa_02_rlabel'] = nil
+L['soa_02_rlabel'] = '(Hinweis 2)'
 L['soa_02_kathos_note'] = nil
 L['soa_02_shomko_note_a'] = 'Sprich mit {npc:186448}, um {item:207580} zu erhalten.'
 L['soa_02_shomko_note_b'] = 'Platziere {item:207580} in der {location:Ebene von Nasam} in die {location:Boreanische Tundra} in {location:Nordend}.'
 L['soa_02_shomko_note_c'] = '{note:Bleibe unbedingt in der Nähe und töte {npc:208182}, um den {item:207594} zu erhalten.}'
 
 -- Secrets of Azeroth: Clue 3
-L['soa_03_rlabel'] = nil
+L['soa_03_rlabel'] = '(Hinweis 3)'
 L['soa_03_fangli_hoot_note_a'] = 'Sprich mit {npc:207696}, um die {item:207802} zu erhalten. Du musst die {item:207827} herstellen, indem du verschiedene Teile sammelst:'
 L['soa_03_fangli_hoot_note_b'] = 'Tausche 5x {item:207956} mit {npc:185548} gegen {item:207814} in {location:Valdrakken} ein.'
 L['soa_03_fangli_hoot_note_c'] = 'Tausche 1x {item:207812} mit {npc:197781} gegen {item:207813} in {location:Valdrakken} ein.'
@@ -866,13 +866,13 @@ L['soa_03_shakey_note_b'] = 'Begleiche {npc:198586}s Deckel von %s im {location:
 L['soa_03_shakey_note_c'] = 'Zeige der {object:Seltsame Statue} im hinteren Teil des Gasthauses {location:Zum Gerösteten Geißbock} Respekt, indem du sie anvisierst und dich verbeugst {emote:(/verbeugen)}, um in {location:Der Drachenhort} zu gelangen.'
 
 -- Secrets of Azeroth: Clue 4
-L['soa_04_rlabel'] = nil
+L['soa_04_rlabel'] = '(Hinweis 4)'
 L['soa_04_locker_label'] = 'Kiste der Bewahrerin'
 L['soa_04_sazsel_note_a'] = 'Plündere das {item:208130} aus der {object:Kiste der Bewahrerin}, die sich im oberen Stockwerk des Gasthauses {location:Zum Gerösteten Geißbock} befindet. Bring dieses zu {npc:208620} in {location:Valdrakken}.'
 L['soa_04_sazsel_note_b'] = 'Lege das Banner nach der Schätzung wieder in die Truhe und kehre zu {npc:207697} zurück.'
 
 -- Secrets of Azeroth: Clue 5
-L['soa_05_rlabel'] = nil
+L['soa_05_rlabel'] = '(Hinweis 5)'
 L['soa_05_torch_of_pyrreth_note_a'] = 'Aktiviere die drei {object:Uralter Hebel}, die im {location:Konservatorium der Lebensbinderin} in {location:Die Küste des Erwachens} gefunden werden können, um die {item:208135} zu enthüllen.'
 L['soa_05_torch_of_pyrreth_note_b'] = 'Sammle diese ein und kehre dann zu {npc:206864} ins Gasthaus {location:Zum Gerösteten Geißbock} in {location:Valdrakken} zurück.'
 L['soa_05_torch_of_pyrreth_note_c'] = 'Benutze deine {item:208092}, um den Stärkungszauber {spell:419127} zu erhalten. Beim {object:Interessantes Fleckchen} wird ein {object:Verzauberter Kasten} erscheinen.'
@@ -883,7 +883,7 @@ L['soa_05_ancient_lever_note_c'] = 'Innerhalb der Gebäuderuine neben den Büche
 L['soa_05_enchanted_box_label'] = 'Verzauberter Kasten'
 
 -- Secrets of Azeroth: Clue 6
-L['soa_06_rlabel'] = nil
+L['soa_06_rlabel'] = '(Hinweis 6)'
 L['soa_06_unvieled_tablet_label'] = nil
 L['soa_06_unvieled_tablet_note_a'] = nil
 L['soa_06_unvieled_tablet_note_b'] = nil
