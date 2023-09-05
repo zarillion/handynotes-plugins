@@ -832,18 +832,18 @@ L['options_icons_zone_event_desc'] = '显示区域事件的位置。'
 -------------------------------------------------------------------------------
 
 -- Secrets of Azeroth: Clue 1
-L['soa_01_rlabel'] = nil
-L['soa_01_golden_chalice_note'] = 'Place the {item:208056} in the {location:Valdrakken Treasury Hoard} in {location:Valdrakken}.'
+L['soa_01_rlabel'] = '（线索一）'
+L['soa_01_golden_chalice_note'] = '将 {item:208056} 放入 {location:瓦德拉肯} 的 {location:瓦德拉肯藏宝库} 中。'
 
 -- Secrets of Azeroth: Clue 2
-L['soa_02_rlabel'] = nil
-L['soa_02_kathos_note'] = nil
+L['soa_02_rlabel'] = '（线索二）'
+L['soa_02_kathos_note'] = '与 {npc:206864} 交谈得到 {item:207105}。\n\n将 {item:207105} 带给 {location:碧蓝林海} {location:伊斯卡拉} 的 {npc:186448}。'
 L['soa_02_shomko_note_a'] = '与 {npc:186448} 交谈得到 {item:207580}。'
 L['soa_02_shomko_note_b'] = '将 {item:207580} 放置在 {location:诺森德} {location:北风苔原} 的 {location:裂鞭海岸} 的 {object:仪式长矛} 处。'
 L['soa_02_shomko_note_c'] = '{note:一定要留下来并击杀 {npc:208182} 以获得 {item:207594}。}'
 
 -- Secrets of Azeroth: Clue 3
-L['soa_03_rlabel'] = nil
+L['soa_03_rlabel'] = '（线索三）'
 L['soa_03_fangli_hoot_note_a'] = '与 {npc:207696} 交谈得到 {item:207802}。需要通过收集各种部件来合成 {item:207827}：'
 L['soa_03_fangli_hoot_note_b'] = '在 {location:瓦德拉肯} 用5个 {item:207956} 与 {npc:185548} 换取 {item:207814}。'
 L['soa_03_fangli_hoot_note_c'] = '在 {location:瓦德拉肯} 用1个 {item:207812} 与 {npc:197781} 换取 {item:207813}。'
@@ -864,13 +864,13 @@ L['soa_03_shakey_note_b'] = '在 {location:瓦德拉肯} 的 {location:巨龙宝
 L['soa_03_shakey_note_c'] = '通过 {location:脆烤山羊旅店} 后面的 {object:奇怪的雕像} 秘密入口处使用表情 {emote:/鞠躬}，{emote:/bow} 进入 {location:The 巨龙宝藏}。'
 
 -- Secrets of Azeroth: Clue 4
-L['soa_04_rlabel'] = nil
+L['soa_04_rlabel'] = '（线索四）'
 L['soa_04_locker_label'] = '捍卫者的柜子'
 L['soa_04_sazsel_note_a'] = '从 {location:脆烤山羊旅店} 顶层的 {object:捍卫者的柜子} 中拾取 {item:208130} 并将其带给 {location:瓦德拉肯} 的 {npc:208620}。'
 L['soa_04_sazsel_note_b'] = '鉴定完毕后，将旗子放回箱子并返回 {npc:207697}。'
 
 -- Secrets of Azeroth: Clue 5
-L['soa_05_rlabel'] = nil
+L['soa_05_rlabel'] = '（线索五）'
 L['soa_05_torch_of_pyrreth_note_a'] = '激活在 {location:觉醒海岸} {location:生命缚誓者花园} 附近发现的3个 {object:古老的拉杆} 来揭示 {item:208135}。'
 L['soa_05_torch_of_pyrreth_note_b'] = '收集完毕后返回 {location:瓦德拉肯} {location:脆烤山羊旅店} 的 {npc:206864}。'
 L['soa_05_torch_of_pyrreth_note_c'] = '使用 {item:208092} 获得 {spell:419127} 增益。现在可以显示 {npc:209011}，会出现一个 {object:魔法之箱}。'
@@ -881,17 +881,17 @@ L['soa_05_ancient_lever_note_c'] = '在 {npc:186823} 和 {npc:186825} 附近的�
 L['soa_05_enchanted_box_label'] = '魔法之箱'
 
 -- Secrets of Azeroth: Clue 6
-L['soa_06_rlabel'] = nil
-L['soa_06_unvieled_tablet_label'] = nil
-L['soa_06_unvieled_tablet_note_a'] = nil
-L['soa_06_unvieled_tablet_note_b'] = nil
+L['soa_06_rlabel'] = '（线索六）'
+L['soa_06_unvieled_tablet_label'] = '现世的石板'
+L['soa_06_unvieled_tablet_note_a'] = '在 {location:碧蓝林海} {location:瓦克索斯} 塔底部的使用 {item:208092} 来揭示 {object:现世的石板}。'
+L['soa_06_unvieled_tablet_note_b'] = '拾取 {item:208143} 并返回 {location:瓦德拉肯} 的 {npc:207696} 以完成秘密。'
 
 -- Community Rumor Mill
-L['bs_count_01'] = nil
-L['bs_count_02'] = nil
-L['bs_count_03'] = nil
-L['bs_count_04'] = nil
-L['bs_count_05'] = nil
+L['bs_count_01'] = '(1/15)'
+L['bs_count_02'] = '(2/15)'
+L['bs_count_03'] = '(3/15)'
+L['bs_count_04'] = '(4/15)'
+L['bs_count_05'] = '(5/15)'
 -- L['bs_count_06'] = nil
 -- L['bs_count_07'] = nil
 -- L['bs_count_08'] = nil
