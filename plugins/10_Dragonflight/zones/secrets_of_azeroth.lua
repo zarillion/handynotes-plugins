@@ -38,6 +38,8 @@ local tho = ns.maps[64] or Map({id = 64, settings = true}) -- Thousand Needles
 local REQUIREMENT_TRICKED_OUT_THINKING_CAP = ns.requirement.Toy(206696)
 local REQUIREMENT_TORCH_OF_PYRRETH = ns.requirement.Toy(208092)
 
+-------------------------------------------------------------------------------
+
 local SecretsOfAzeroth = Class('SecretsOfAzeroth', ns.node.Node, {
     icon = 'peg_gn',
     scale = 2.0,
