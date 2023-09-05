@@ -885,7 +885,7 @@ L['soa_05_enchanted_box_label'] = 'Caja Encantada'
 L['soa_06_rlabel'] = '(Pista 6)'
 L['soa_06_unvieled_tablet_label'] = 'Tablilla Desvelada'
 L['soa_06_unvieled_tablet_note_a'] = 'Usa la {item:208092} en la base del pilón de {location:Vakthros} en {location:Tierras Azures} para revelar la {object:Tablilla Desvelada}.'
-L['soa_06_unvieled_tablet_note_b'] = 'Despoja el {object:Calco de Tablilla Desvelada} y devuélvelo a {npc:207696} en {location:Valdrakken} para completar el secreto.'
+L['soa_06_unvieled_tablet_note_b'] = 'Despoja el {item:208143} y devuélvelo a {npc:207696} en {location:Valdrakken} para completar el secreto.'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
