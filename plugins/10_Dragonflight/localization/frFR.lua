@@ -881,15 +881,15 @@ L['soa_05_enchanted_box_label'] = 'Boîte enchantée'
 -- Secrets of Azeroth: Clue 6
 L['soa_06_rlabel'] = '(Indice n°6)'
 L['soa_06_unvieled_tablet_label'] = 'Tablette révélée'
-L['soa_06_unvieled_tablet_note_a'] = nil
+L['soa_06_unvieled_tablet_note_a'] = 'Parlez à {npc:207696} pour terminer la quête {quest:77284} et obtenir les {item:208137}.\n\nRendez-vous ensuite à {location:Vakthros} à la {location:Travée d’Azur}.'
 L['soa_06_unvieled_tablet_note_b'] = 'Utilisez la {item:208092} à la base du pylône à {location:Vakthros} à la {location:Travée d’Azur} pour faire apparaître la {object:Tablette révélée}.'
 L['soa_06_unvieled_tablet_note_c'] = 'Récupérez le {item:208143} et retournez voir {npc:207696} à {location:Valdrakken} pour compléter le secret.'
 
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '(Indice n°7)'
-L['soa_07_brazier_label'] = nil
-L['soa_07_brazier_note'] = nil
-L['soa_07_idol_note'] = nil
+L['soa_07_brazier_label'] = 'Brasero d\'encens ancien'
+L['soa_07_brazier_note'] = 'Utilisez la {item:208135} pour allumer le {object:Brasero d\'encens ancien} à l\'intérieur du tertre funéraire.'
+L['soa_07_idol_note'] = 'Récupérez l\'{item:207730} apparue à côté du {object:Brasero d\'encens ancien} et retournez à {location:Valdrakken}.'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
@@ -909,14 +909,14 @@ L['bs_count_06'] = '(6/15)'
 -- L['bs_count_15'] = '(15/15)'
 
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
-L['buried_satchel_sublabel'] = nil
+L['buried_satchel_sublabel'] = '{note:Ceci n\'est PAS un emplacement de {item:208142}.}'
 
 L['bs_epl_location'] = 'Derrière le bâtiment à la {location:Croisée de Corin}.'
 L['bs_fel_location'] = 'Sous l\'eau au centre des {location:Chutes de la Vénéneuse}.'
 L['bs_tho_location'] = 'Dans une grotte sous-marine nommée le {location:Bastion du Sabot fendu}.'
 L['bs_smv_location'] = 'Dans l\'arbre creux au {location:Pic du Saule-Lunaire}.'
 L['bs_net_location'] = 'À la {location:Manaforge B\'naar} à {location:Raz-de-Néant} en {location:Outreterre}.\n\n{note:Vous aurez besoin de 3 joueurs pour canaliser la {item:208092} sur les cristaux à proximité pour faire apparaître le {object:Monticule de terre meuble}.}'
-L['bs_vfw_location'] = nil
+L['bs_vfw_location'] = 'Au sommet de la cascade dorée, dans la bouche de la statue {npc:129151}.'
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'
