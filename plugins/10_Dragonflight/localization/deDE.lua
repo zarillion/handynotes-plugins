@@ -891,10 +891,10 @@ L['soa_06_unvieled_tablet_note_c'] = 'Interagiere mit {object:Enthüllte Tafel},
 
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '(Hinweis 7)'
-L['soa_07_brazier_label'] = nil
-L['soa_07_brazier_note_a'] = nil
-L['soa_07_brazier_note_b'] = nil
-L['soa_07_idol_note'] = nil
+L['soa_07_brazier_label'] = 'Uralter Weihrauchbrenner'
+L['soa_07_brazier_note_a'] = 'Sprich mit {npc:185562}, um die Quest {quest:77303} abzuschließen und den {item:208144} zu erhalten.\n\nReise dann in {location:Die Ebenen von Ohn\'ahra} nach {location:Ewige Kurgane}.'
+L['soa_07_brazier_note_b'] = 'Benutze deine {item:208135}, um {Objekt:Uralter Weihrauchbrenner} innerhalb des uralten Grabhügels zu entzünden.'
+L['soa_07_idol_note'] = 'Plündere den erschienenen {item:207730} neben dem {object:Uralter Weihrauchbrenner} und kehre nach {location:Valdrakken} zurück.'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
@@ -914,14 +914,14 @@ L['bs_count_06'] = '(6/15)'
 -- L['bs_count_15'] = '(15/15)'
 
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
-L['buried_satchel_sublabel'] = nil
+L['buried_satchel_sublabel'] = '{note:Das ist KEINE {item:208142} Position.}'
 
 L['bs_epl_location'] = 'Hinter dem Haus bei {location:Corins Kreuzung}.'
 L['bs_fel_location'] = 'Unter Wasser bei {location:Die Blutgiftfälle}.'
 L['bs_tho_location'] = 'In der Unterwasserhöhle {location:Spalthufhöhle}.'
 L['bs_smv_location'] = 'Im Inneren des hohlen Baumes in {location:Mondweidengipfel}.'
 L['bs_net_location'] = 'In der {location:Manaschmiede B\'naar} in {location:Nethersturm} in der {location:Scherbenwelt}.\n\n{note:Es sind 3 Spieler erforderlich, die den Zauber {item:208092} auf die Kristalle in der Nähe wirken, damit ein {object:Lockerer Erdhaufen} erscheint.}'
-L['bs_vfw_location'] = nil
+L['bs_vfw_location'] = 'Am Anfang des Wasserfalls im Mund der {npc:129151} Statue.'
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der {location:Geheimnisse von Azeroth} für den Erfolg {achievement:18646} an.'
