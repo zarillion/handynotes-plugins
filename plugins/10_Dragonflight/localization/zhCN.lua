@@ -893,7 +893,7 @@ L['bs_count_02'] = '(2/15)'
 L['bs_count_03'] = '(3/15)'
 L['bs_count_04'] = '(4/15)'
 L['bs_count_05'] = '(5/15)'
--- L['bs_count_06'] = nil
+L['bs_count_06'] = '(6/15)'
 -- L['bs_count_07'] = nil
 -- L['bs_count_08'] = nil
 -- L['bs_count_09'] = nil
@@ -905,12 +905,14 @@ L['bs_count_05'] = '(5/15)'
 -- L['bs_count_15'] = nil
 
 L['buried_satchel_note'] = '从 {object:松动的土堆} 中拾取 {item:208142}。'
+L['buried_satchel_sublabel'] = nil
 
 L['bs_epl_location'] = '在 {location:考林路口} 的建筑物后面。'
 L['bs_fel_location'] = '在 {location:血毒瀑布} 水下中央。'
 L['bs_tho_location'] = '在 {location:裂蹄堡} 的水下洞穴中。'
 L['bs_smv_location'] = '在 {location:月柳山} 附近的空心树内。'
 L['bs_net_location'] = '在 {location:外域} {location:虚空风暴} 的 {location:法力熔炉：布纳尔} 中。\n\n{note:需要3名玩家在附近的水晶上引导 {item:208092} 来生成 {object:松动的土堆}。}'
+L['bs_vfw_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'

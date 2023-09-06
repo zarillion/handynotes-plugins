@@ -33,6 +33,7 @@ local fel = ns.maps[77] or Map({id = 77, settings = true}) -- Felwood
 local net = ns.maps[109] or Map({id = 109, settings = true}) -- Netherstorm
 local smv = ns.maps[539] or Map({id = 539, settings = true}) -- Shadowmoon Valley (Draenor)
 local tho = ns.maps[64] or Map({id = 64, settings = true}) -- Thousand Needles
+local vfw = ns.maps[376] or Map({id = 376, settings = true}) -- Valley of the Four Winds
 
 -------------------------------------------------------------------------------
 
@@ -474,21 +475,23 @@ local BURIED_SATCHELS = {
     [2] = {quest = 77288, mapID = fel.id, parentMapID = 12}, -- Felwood, Eastern Kingdoms
     [3] = {quest = 77291, mapID = tho.id, parentMapID = 12}, -- Thousand Needles, Eastern Kingdoms
     [4] = {quest = 77292, mapID = smv.id, parentMapID = 1922}, -- Shadowmoon Valley, Draenor
-    [5] = {quest = 77290, mapID = net.id, parentMapID = 101} -- Netherstorm, Outland
+    [5] = {quest = 77290, mapID = net.id, parentMapID = 101}, -- Netherstorm, Outland
+    [6] = {quest = 77293, mapID = vfw.id, parentMapID = 424} -- Valley of the Four Winds, Pandaria
 }
 
-local BuriedSatchelSuperNode = Class('BuriedSatchelSuperNode', SecretsOfAzeroth,
-    {
-        label = '{item:208142}',
-        requires = REQUIREMENT_TRICKED_OUT_THINKING_CAP,
-        rewards = {
-            Achievement({id = 18644, criteria = {qty = true, id = 1}}), -- Community Rumor Mill
-            Transmog({item = 208150, slot = L['cosmetic']}), -- Blue Tweed Cap
-            Pet({npc = 208643, id = 4263}) -- Tobias
-        }
-    }) -- Buried Satchel Super Node
+local BuriedSatchelList = Class('BuriedSatchelList', SecretsOfAzeroth, {
+    label = '{item:208142}',
+    requires = REQUIREMENT_TORCH_OF_PYRRETH,
+    icon = 'peg_rd',
+    sublabel = L['buried_satchel_sublabel'],
+    rewards = {
+        Achievement({id = 18644, criteria = {qty = true, id = 1}}), -- Community Rumor Mill
+        Transmog({item = 208150, slot = L['cosmetic']}), -- Blue Tweed Cap
+        Pet({npc = 208643, id = 4263}) -- Tobias
+    }
+}) -- Buried Satchel List
 
-function BuriedSatchelSuperNode.getters:note()
+function BuriedSatchelList.getters:note()
     local function complete(num, questID)
         if C_QuestLog.IsQuestFlaggedCompleted(questID) then
             return ns.status.Green(num)
@@ -499,21 +502,19 @@ function BuriedSatchelSuperNode.getters:note()
 
     local note = L['buried_satchel_note'] .. '\n'
     for num, satchel in ipairs(BURIED_SATCHELS) do
-        local mapName = C_Map.GetMapInfo(satchel.mapID).name
-        local parentMapName = C_Map.GetMapInfo(satchel.parentMapID).name
-        local completed = complete(num, satchel.quest)
-        note = note .. '\n' .. completed .. ' ' .. mapName .. ', ' ..
-                   parentMapName
+        local mName = C_Map.GetMapInfo(satchel.mapID).name
+        local pName = C_Map.GetMapInfo(satchel.parentMapID).name
+        local qDone = complete(num, satchel.quest)
+        note = note .. format('\n%s %s (%s)', qDone, mName, pName)
     end
     return note
 end
 
-val.nodes[87002100] = BuriedSatchelSuperNode()
+val.nodes[87002100] = BuriedSatchelList()
 
 local BuriedSatchel = Class('BuriedSatchel', SecretsOfAzeroth, {
     label = '{item:208142}',
     note = L['buried_satchel_note'],
-    requires = REQUIREMENT_TRICKED_OUT_THINKING_CAP,
     rewards = {
         Achievement({id = 18644, criteria = {qty = true, id = 1}}) -- Community Rumor Mill
     }
@@ -550,3 +551,9 @@ net.nodes[26246854] = BuriedSatchel({
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     rlabel = Gray(L['bs_count_05'])
 }) -- Netherstorm
+
+vfw.nodes[56812143] = BuriedSatchel({
+    location = L['bs_vfw_location'],
+    quest = 77293,
+    rlabel = Gray(L['bs_count_06'])
+}) -- Valley of the Four Winds

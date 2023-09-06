@@ -894,7 +894,7 @@ L['bs_count_02'] = '(2/15)'
 L['bs_count_03'] = '(3/15)'
 L['bs_count_04'] = '(4/15)'
 L['bs_count_05'] = '(5/15)'
--- L['bs_count_06'] = '(6/15)'
+L['bs_count_06'] = '(6/15)'
 -- L['bs_count_07'] = '(7/15)'
 -- L['bs_count_08'] = '(8/15)'
 -- L['bs_count_09'] = '(9/15)'
@@ -906,12 +906,14 @@ L['bs_count_05'] = '(5/15)'
 -- L['bs_count_15'] = '(15/15)'
 
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
+L['buried_satchel_sublabel'] = nil
 
 L['bs_epl_location'] = 'Detrás del edificio en {location:Cruce de Corin}.'
 L['bs_fel_location'] = 'Bajo el agua en el centro de {location:Cascadas del Veneno}.'
 L['bs_tho_location'] = 'En una cueva bajo el agua llamada {location:Campamento Pezuña Quebrada}.'
 L['bs_smv_location'] = 'Dentro del árbol hueco en {location:Pico Sauce Lunar}.'
 L['bs_net_location'] = 'En {location:Forja de Maná B\'naar} de {location:Tormenta Abisal} en {location:Terrallende}.\n\n{note:Necesitarás 3 jugadores para canalizar la {item:208092} en los cristales cercanos para hacer aparecer el {object:Montículo de Porquería Blanda}.}'
+L['bs_vfw_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'

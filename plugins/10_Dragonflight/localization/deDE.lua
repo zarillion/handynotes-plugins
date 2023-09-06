@@ -895,7 +895,7 @@ L['bs_count_02'] = '(2/15)'
 L['bs_count_03'] = '(3/15)'
 L['bs_count_04'] = '(4/15)'
 L['bs_count_05'] = '(5/15)'
--- L['bs_count_06'] = '(6/15)'
+L['bs_count_06'] = '(6/15)'
 -- L['bs_count_07'] = '(7/15)'
 -- L['bs_count_08'] = '(8/15)'
 -- L['bs_count_09'] = '(9/15)'
@@ -907,12 +907,14 @@ L['bs_count_05'] = '(5/15)'
 -- L['bs_count_15'] = '(15/15)'
 
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
+L['buried_satchel_sublabel'] = nil
 
 L['bs_epl_location'] = 'Hinter dem Haus bei {location:Corins Kreuzung}.'
 L['bs_fel_location'] = 'Unter Wasser bei {location:Die Blutgiftfälle}.'
 L['bs_tho_location'] = 'In der Unterwasserhöhle {location:Spalthufhöhle}.'
 L['bs_smv_location'] = 'Im Inneren des hohlen Baumes in {location:Mondweidengipfel}.'
 L['bs_net_location'] = 'In der {location:Manaschmiede B\'naar} in {location:Nethersturm} in der {location:Scherbenwelt}.\n\n{note:Es sind 3 Spieler erforderlich, die den Zauber {item:208092} auf die Kristalle in der Nähe wirken, damit ein {object:Lockerer Erdhaufen} erscheint.}'
+L['bs_vfw_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der {location:Geheimnisse von Azeroth} für den Erfolg {achievement:18646} an.'
