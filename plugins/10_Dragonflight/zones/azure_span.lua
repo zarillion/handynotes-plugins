@@ -846,6 +846,20 @@ map.nodes[13884986] = PetBattle({
     }
 }) -- Patchu
 
+map.nodes[23415356] = PetBattle({
+    id = 202440,
+    rewards = {
+        Achievement({id = 17406, criteria = 58214}) -- Battle on the Dragon Isles II
+    }
+}) -- Enok the Stinky
+
+map.nodes[19522460] = PetBattle({
+    id = 201899,
+    rewards = {
+        Achievement({id = 17406, criteria = 58218}) -- Battle on the Dragon Isles II
+    }
+}) -- A New Vocation
+
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------

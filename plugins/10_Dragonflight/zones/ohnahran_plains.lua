@@ -990,6 +990,20 @@ map.nodes[61964159] = PetBattle({
     }
 }) -- Bakhushek
 
+map.nodes[73386799] = PetBattle({
+    id = 201858,
+    rewards = {
+        Achievement({id = 17406, criteria = 58213}) -- Battle on the Dragon Isles II
+    }
+}) -- Lyver
+
+map.nodes[36165256] = PetBattle({
+    id = 201878,
+    rewards = {
+        Achievement({id = 17406, criteria = 58217}) -- Battle on the Dragon Isles II
+    }
+}) -- Paws of Thunder
+
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------

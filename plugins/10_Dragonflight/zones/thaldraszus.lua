@@ -844,6 +844,20 @@ map.nodes[56274924] = PetBattle({
     }
 }) -- Setimothes
 
+map.nodes[60645974] = PetBattle({
+    id = 202452,
+    rewards = {
+        Achievement({id = 17406, criteria = 58215}) -- Battle on the Dragon Isles II
+    }
+}) -- Right Twice a Day
+
+map.nodes[55974053] = PetBattle({
+    id = 202458,
+    rewards = {
+        Achievement({id = 17406, criteria = 58219}) -- Battle on the Dragon Isles II
+    }
+}) -- They're Full of Stars
+
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------

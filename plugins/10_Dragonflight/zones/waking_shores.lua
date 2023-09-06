@@ -1000,6 +1000,20 @@ map.nodes[26239233] = PetBattle({
     }
 }) -- Swog
 
+map.nodes[51887233] = PetBattle({
+    id = 201849,
+    rewards = {
+        Achievement({id = 17406, criteria = 58212}) -- Battle on the Dragon Isles II
+    }
+}) -- Adinakon
+
+map.nodes[69014673] = PetBattle({
+    id = 201802,
+    rewards = {
+        Achievement({id = 17406, criteria = 58216}) -- Battle on the Dragon Isles II
+    }
+}) -- Sharp as Flint
+
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
