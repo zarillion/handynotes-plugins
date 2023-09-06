@@ -890,7 +890,8 @@ L['soa_06_unvieled_tablet_note_c'] = nil
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = nil
 L['soa_07_brazier_label'] = nil
-L['soa_07_brazier_note'] = nil
+L['soa_07_brazier_note_a'] = nil
+L['soa_07_brazier_note_b'] = nil
 L['soa_07_idol_note'] = nil
 
 -- Community Rumor Mill

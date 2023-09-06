@@ -890,7 +890,8 @@ L['soa_06_unvieled_tablet_note_c'] = 'Loot the {item:208143} and return to {npc:
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '(Clue 7)'
 L['soa_07_brazier_label'] = 'Ancient Incense Brazier'
-L['soa_07_brazier_note'] = 'Use the {item:208135} to ignite the {object:Ancient Incense Brazier} within the ancient burial mound.'
+L['soa_07_brazier_note_a'] = 'Talk to {npc:185562} to complete the quest {quest:77303} and to obtain {item:208144}.\n\nHead to the {location:Ohn\'ahran Plains} by {location:The Eternal Kurgans}.'
+L['soa_07_brazier_note_b'] = 'Use the {item:208135} to ignite the {object:Ancient Incense Brazier} within the ancient burial mound.'
 L['soa_07_idol_note'] = 'Loot the revealed {item:207730} next to the {object:Ancient Incense Brazier} and return to {location:Valdrakken}.'
 
 -- Community Rumor Mill

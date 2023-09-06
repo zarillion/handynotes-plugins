@@ -472,9 +472,20 @@ tas.nodes[78883244] = SecretsOfAzeroth({
 ------------------------- SECRETS OF AZEROTH: CLUE 07 -------------------------
 -------------------------------------------------------------------------------
 
+val.nodes[47464619] = SecretsOfAzeroth({
+    label = '{npc:185562}',
+    rlabel = Gray(L['soa_07_rlabel']),
+    note = L['soa_07_brazier_note_a'],
+    quest = 77689, -- ![Idol Searching]
+    questDeps = 77523, -- Clue 06 complete
+    rewards = {
+        Item({item = 208144}) -- Preservationist's Dispatch Two
+    }
+}) -- Tithris
+
 local Brazier = Class('Brazier', SecretsOfAzeroth, {
     label = L['soa_07_brazier_label'],
-    note = L['soa_07_brazier_note'],
+    note = L['soa_07_brazier_note_b'],
     rlabel = Gray(L['soa_07_rlabel']),
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     questDeps = 77689 -- ![Idol Searching]
@@ -499,8 +510,8 @@ ohn.nodes[39605890] = Brazier({
     questDeps = {
         77689, -- ![Idol Searching]
         77406, -- Brazier 1 (hidden)
-        77689, -- Brazier 2 (hidden)
-        77689 -- Brazier 3 (hidden)
+        77407, -- Brazier 2 (hidden)
+        77405 -- Brazier 3 (hidden)
     },
     quest = 77404, -- hidden
     pois = {POI({40355952})} -- Entrance
@@ -532,7 +543,7 @@ local HiddenGem = Class('HiddenGem', SecretsOfAzeroth, {
     requires = REQUIREMENT_IDOL_OF_OHNAHRA,
     questDeps = 77304, -- ![An Idol in Hand]
     quest = {
-        75456, -- ![Using the Idol]
+        76456, -- ![Using the Idol]
         77524 -- Clue 07 complete
     },
     questAny = true,

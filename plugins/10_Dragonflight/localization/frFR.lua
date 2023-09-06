@@ -888,7 +888,8 @@ L['soa_06_unvieled_tablet_note_c'] = 'Récupérez le {item:208143} et retournez 
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '(Indice n°7)'
 L['soa_07_brazier_label'] = 'Brasero d\'encens ancien'
-L['soa_07_brazier_note'] = 'Utilisez la {item:208135} pour allumer le {object:Brasero d\'encens ancien} à l\'intérieur du tertre funéraire.'
+L['soa_07_brazier_note_a'] = nil
+L['soa_07_brazier_note_b'] = 'Utilisez la {item:208135} pour allumer le {object:Brasero d\'encens ancien} à l\'intérieur du tertre funéraire.'
 L['soa_07_idol_note'] = 'Récupérez l\'{item:207730} apparue à côté du {object:Brasero d\'encens ancien} et retournez à {location:Valdrakken}.'
 
 -- Community Rumor Mill

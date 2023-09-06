@@ -891,7 +891,8 @@ L['soa_06_unvieled_tablet_note_c'] = 'Despoja el {item:208143} y devuélvelo a {
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '(Pista 7)'
 L['soa_07_brazier_label'] = 'Blandón de Incienso Antiguo'
-L['soa_07_brazier_note'] = 'Usa la {item:208135} para encender el {object:Blandón de Incienso Antiguo} dentro del túmulo funerario.'
+L['soa_07_brazier_note_a'] = nil
+L['soa_07_brazier_note_b'] = 'Usa la {item:208135} para encender el {object:Blandón de Incienso Antiguo} dentro del túmulo funerario.'
 L['soa_07_idol_note'] = 'Desjpoja el {item:207730} junto al {object:Blandón de Incienso Antiguo} y devuélvelo a {location:Valdrakken}.'
 
 -- Community Rumor Mill
