@@ -885,6 +885,12 @@ L['soa_06_unvieled_tablet_note_a'] = nil
 L['soa_06_unvieled_tablet_note_b'] = 'Utilisez la {item:208092} à la base du pylône à {location:Vakthros} à la {location:Travée d’Azur} pour faire apparaître la {object:Tablette révélée}.'
 L['soa_06_unvieled_tablet_note_c'] = 'Récupérez le {item:208143} et retournez voir {npc:207696} à {location:Valdrakken} pour compléter le secret.'
 
+-- Secrets of Azeroth: Clue 7
+L['soa_07_rlabel'] = '(Indice n°7)'
+L['soa_07_brazier_label'] = nil
+L['soa_07_brazier_note'] = nil
+L['soa_07_idol_note'] = nil
+
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
 L['bs_count_02'] = '(2/15)'

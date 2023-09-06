@@ -887,6 +887,12 @@ L['soa_06_unvieled_tablet_note_a'] = 'Talk to {npc:207696} to complete the quest
 L['soa_06_unvieled_tablet_note_b'] = 'Use the {item:208092} at the base of the pylon in {location:Vakthros} in {location:The Azure Span} to reveal the {object:Unveiled Tablet}.'
 L['soa_06_unvieled_tablet_note_c'] = 'Loot the {item:208143} and return to {npc:207696} in {location:Valdrakken} to complete the secret.'
 
+-- Secrets of Azeroth: Clue 7
+L['soa_07_rlabel'] = '(Clue 7)'
+L['soa_07_brazier_label'] = 'Ancient Incense Brazier'
+L['soa_07_brazier_note'] = 'Use the {item:208135} to ignite the {object:Ancient Incense Brazier} within the ancient burial mound.'
+L['soa_07_idol_note'] = 'Loot the revealed {item:207730} next to the {object:Ancient Incense Brazier} and return to {location:Valdrakken}.'
+
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
 L['bs_count_02'] = '(2/15)'

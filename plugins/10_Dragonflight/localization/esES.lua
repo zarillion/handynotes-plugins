@@ -888,6 +888,12 @@ L['soa_06_unvieled_tablet_note_a'] = 'Habla con {npc:207696} para completar la m
 L['soa_06_unvieled_tablet_note_b'] = 'Usa la {item:208092} en la base del pilón de {location:Vakthros} en {location:Las Tierras Azures} para revelar la {object:Tablilla Desvelada}.'
 L['soa_06_unvieled_tablet_note_c'] = 'Despoja el {item:208143} y devuélvelo a {npc:207696} en {location:Valdrakken} para completar el secreto.'
 
+-- Secrets of Azeroth: Clue 7
+L['soa_07_rlabel'] = '(Pista 7)'
+L['soa_07_brazier_label'] = nil
+L['soa_07_brazier_note'] = nil
+L['soa_07_idol_note'] = nil
+
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
 L['bs_count_02'] = '(2/15)'

@@ -39,6 +39,7 @@ local vfw = ns.maps[376] or Map({id = 376, settings = true}) -- Valley of the Fo
 
 local REQUIREMENT_TRICKED_OUT_THINKING_CAP = ns.requirement.Toy(206696)
 local REQUIREMENT_TORCH_OF_PYRRETH = ns.requirement.Toy(208092)
+local REQUIREMENT_IDOL_OF_OHNAHRA = ns.requirement.Toy(207730)
 
 -------------------------------------------------------------------------------
 
@@ -429,6 +430,7 @@ val.nodes[58522363] = SecretsOfAzeroth({
 -------------------------------------------------------------------------------
 ------------------------- SECRETS OF AZEROTH: CLUE 06 -------------------------
 -------------------------------------------------------------------------------
+
 val.nodes[47964684] = SecretsOfAzeroth({
     label = '{npc:207696}',
     rlabel = Gray(L['soa_06_rlabel']),
@@ -467,6 +469,83 @@ tas.nodes[78883244] = SecretsOfAzeroth({
 }) -- Unveiled Tablet
 
 -------------------------------------------------------------------------------
+------------------------- SECRETS OF AZEROTH: CLUE 07 -------------------------
+-------------------------------------------------------------------------------
+
+local Brazier = Class('Brazier', SecretsOfAzeroth, {
+    label = L['soa_07_brazier_label'],
+    note = L['soa_07_brazier_note'],
+    rlabel = Gray(L['soa_07_rlabel']),
+    requires = REQUIREMENT_TORCH_OF_PYRRETH,
+    questDeps = 77689 -- ![Idol Searching]
+}) -- Ancient Incense Brazier
+
+ohn.nodes[32306800] = Brazier({
+    quest = 77406, -- hidden
+    pois = {POI({32676832})} -- Entrance
+}) -- Brazier 1
+
+ohn.nodes[31007080] = Brazier({
+    quest = 77407, -- hidden
+    pois = {POI({31737033})} -- Entrance
+}) -- Brazier 2
+
+ohn.nodes[35206570] = Brazier({
+    quest = 77405, -- hidden
+    pois = {POI({35246628})} -- Entrance
+}) -- Brazier 3
+
+ohn.nodes[39605890] = Brazier({
+    questDeps = {
+        77689, -- ![Idol Searching]
+        77406, -- Brazier 1 (hidden)
+        77689, -- Brazier 2 (hidden)
+        77689 -- Brazier 3 (hidden)
+    },
+    quest = 77404, -- hidden
+    pois = {POI({40355952})} -- Entrance
+}) -- Brazier 4
+
+ohn.nodes[39555886] = SecretsOfAzeroth({
+    label = '{item:207730}',
+    note = L['soa_07_idol_note'],
+    rlabel = Gray(L['soa_07_rlabel']),
+    requires = REQUIREMENT_TORCH_OF_PYRRETH,
+    quest = {
+        77304, -- ![An Idol in Hand]
+        77306, -- Idol of Ohn'ahra toy received
+        78200 -- Account-wide completion
+    },
+    questAny = true,
+    questDeps = 77404, -- Brazier 4 (hidden)
+    playerHasItem = {208145}, -- Idol of Ohn'ahra
+    pois = {POI({40355952})}, -- Entrance
+    rewards = {
+        Achievement({id = 18645, criteria = 3}), -- Tools of the Trade
+        Transmog({item = 208150, slot = L['cosmetic']}), -- Blue Tweed Cap
+        Toy({item = 207730}) -- Idol of Ohn'ahra
+    }
+}) -- Idol of Ohn'ahra
+
+local HiddenGem = Class('HiddenGem', SecretsOfAzeroth, {
+    label = '{npc:208162}',
+    requires = REQUIREMENT_IDOL_OF_OHNAHRA,
+    questDeps = 77304, -- ![An Idol in Hand]
+    quest = {
+        75456, -- ![Using the Idol]
+        77524 -- Clue 07 complete
+    },
+    questAny = true,
+    rewards = {
+        Achievement({id = 18646, criteria = 7}) -- Whodunnit?
+    }
+}) -- Hidden Gem
+
+val.nodes[49105140] = HiddenGem()
+val.nodes[45705930] = HiddenGem()
+val.nodes[55206460] = HiddenGem()
+
+-------------------------------------------------------------------------------
 ---------------------------- COMMUNITY RUMOR MILL -----------------------------
 -------------------------------------------------------------------------------
 
@@ -486,7 +565,6 @@ local BuriedSatchelList = Class('BuriedSatchelList', SecretsOfAzeroth, {
     sublabel = L['buried_satchel_sublabel'],
     rewards = {
         Achievement({id = 18644, criteria = {qty = true, id = 1}}), -- Community Rumor Mill
-        Transmog({item = 208150, slot = L['cosmetic']}), -- Blue Tweed Cap
         Pet({npc = 208643, id = 4263}) -- Tobias
     }
 }) -- Buried Satchel List

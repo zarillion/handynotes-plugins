@@ -889,6 +889,12 @@ L['soa_06_unvieled_tablet_note_a'] = 'Sprich mit {npc:207696}, um die Quest {que
 L['soa_06_unvieled_tablet_note_b'] = 'Benutze deine {item:208092} an der Säule in {location:Vakthros} in {location:Das Azurblaues Gebirge}, um die {object:Enthüllte Tafel} erscheinen zu lassen.'
 L['soa_06_unvieled_tablet_note_c'] = 'Interagiere mit {object:Enthüllte Tafel}, um das {item:208143} zu erhalten. Kehre nach {location:Valdrakken} zu {npc:207696} zurück, um das Geheimnis abzuschließen.'
 
+-- Secrets of Azeroth: Clue 7
+L['soa_07_rlabel'] = '(Hinweis 7)'
+L['soa_07_brazier_label'] = nil
+L['soa_07_brazier_note'] = nil
+L['soa_07_idol_note'] = nil
+
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
 L['bs_count_02'] = '(2/15)'

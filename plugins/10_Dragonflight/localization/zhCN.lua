@@ -887,6 +887,12 @@ L['soa_06_unvieled_tablet_note_a'] = '与 {npc:207696} 交谈完成任务 {quest
 L['soa_06_unvieled_tablet_note_b'] = '在 {location:碧蓝林海} {location:瓦克索斯} 塔底部的使用 {item:208092} 来揭示 {object:现世的石板}。'
 L['soa_06_unvieled_tablet_note_c'] = '拾取 {item:208143} 并返回 {location:瓦德拉肯} 的 {npc:207696} 以完成秘密。'
 
+-- Secrets of Azeroth: Clue 7
+L['soa_07_rlabel'] = nil
+L['soa_07_brazier_label'] = nil
+L['soa_07_brazier_note'] = nil
+L['soa_07_idol_note'] = nil
+
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
 L['bs_count_02'] = '(2/15)'
