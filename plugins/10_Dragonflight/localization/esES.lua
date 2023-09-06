@@ -890,9 +890,9 @@ L['soa_06_unvieled_tablet_note_c'] = 'Despoja el {item:208143} y devuélvelo a {
 
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '(Pista 7)'
-L['soa_07_brazier_label'] = nil
-L['soa_07_brazier_note'] = nil
-L['soa_07_idol_note'] = nil
+L['soa_07_brazier_label'] = 'Blandón de Incienso Antiguo'
+L['soa_07_brazier_note'] = 'Usa la {item:208135} para encender el {object:Blandón de Incienso Antiguo} dentro del túmulo funerario.'
+L['soa_07_idol_note'] = 'Desjpoja el {item:207730} junto al {object:Blandón de Incienso Antiguo} y devuélvelo a {location:Valdrakken}.'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
@@ -912,14 +912,12 @@ L['bs_count_06'] = '(6/15)'
 -- L['bs_count_15'] = '(15/15)'
 
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
-L['buried_satchel_sublabel'] = nil
-
+L['buried_satchel_sublabel'] = '{note:Esto no es un localización de {item:208142}.}'
 L['bs_epl_location'] = 'Detrás del edificio en {location:Cruce de Corin}.'
 L['bs_fel_location'] = 'Bajo el agua en el centro de {location:Cascadas del Veneno}.'
 L['bs_tho_location'] = 'En una cueva bajo el agua llamada {location:Campamento Pezuña Quebrada}.'
 L['bs_smv_location'] = 'Dentro del árbol hueco en {location:Pico Sauce Lunar}.'
 L['bs_net_location'] = 'En {location:Forja de Maná B\'naar} de {location:Tormenta Abisal} en {location:Terrallende}.\n\n{note:Necesitarás 3 jugadores para canalizar la {item:208092} en los cristales cercanos para hacer aparecer el {object:Montículo de Porquería Blanda}.}'
-L['bs_vfw_location'] = nil
-
+L['bs_vfw_location'] = 'En la cima de la cascada dorada y dentro de la boca la estatua de un {npc:129151}.'
 L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'
