@@ -888,10 +888,10 @@ L['soa_06_unvieled_tablet_note_b'] = '在 {location:碧蓝林海} {location:瓦�
 L['soa_06_unvieled_tablet_note_c'] = '拾取 {item:208143} 并返回 {location:瓦德拉肯} 的 {npc:207696} 以完成秘密。'
 
 -- Secrets of Azeroth: Clue 7
-L['soa_07_rlabel'] = nil
-L['soa_07_brazier_label'] = nil
-L['soa_07_brazier_note'] = nil
-L['soa_07_idol_note'] = nil
+L['soa_07_rlabel'] = '（线索七）'
+L['soa_07_brazier_label'] = '上古熏香火盆'
+L['soa_07_brazier_note'] = '在上古坟墓内使用 {item:208135} 点燃 {object:上古熏香火盆}。'
+L['soa_07_idol_note'] = '拾取 {object:上古熏香火盆} 旁边被揭示的 {item:207730} 并返回 {location:瓦德拉肯}。'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
