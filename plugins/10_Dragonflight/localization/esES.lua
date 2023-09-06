@@ -891,9 +891,9 @@ L['soa_06_unvieled_tablet_note_c'] = 'Despoja el {item:208143} y devuélvelo a {
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '(Pista 7)'
 L['soa_07_brazier_label'] = 'Blandón de Incienso Antiguo'
-L['soa_07_brazier_note_a'] = nil
+L['soa_07_brazier_note_a'] = 'Habla con {npc:185562} para completar la misión {quest:77303} y conseguir {item:208144}.\n\nVes a las {location:Orillas del Despertar} a {location:Kurgans Eternos}.'
 L['soa_07_brazier_note_b'] = 'Usa la {item:208135} para encender el {object:Blandón de Incienso Antiguo} dentro del túmulo funerario.'
-L['soa_07_idol_note'] = 'Desjpoja el {item:207730} junto al {object:Blandón de Incienso Antiguo} y devuélvelo a {location:Valdrakken}.'
+L['soa_07_idol_note'] = 'Despoja el {item:207730} junto al {object:Blandón de Incienso Antiguo} y devuélvelo a {location:Valdrakken}.'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
