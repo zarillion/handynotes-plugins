@@ -894,7 +894,7 @@ L['soa_07_idol_note'] = 'Récupérez l\'{item:207730} apparue à côté du {obje
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '(Indice n°8)'
-L['soa_08_kathos_note'] = nil
+L['soa_08_kathos_note'] = 'Parlez à la {npc:206864} pour recevoir {item:206948}.\n\nVolez jusqu\'aux {location:Sables changeants} à {location:Thaldraszus} et utilisez l\'{item:207730} pour trouver 3x {item:208191}.'
 L['soa_08_time_lost_fragment_note'] = 'Utilisez l\'{item:207730} pour trouver 3x {item:208191} aux {location:Sables changeants} à {location:Thaldraszus}.\n\nCombinez les 3x pour créer une {item:208146} et retournez voir la {npc:206864} à {location:Valdrakken}.'
 L['soa_08_tl_fragment_location_a'] = 'Sous un petit arbre.'
 L['soa_08_tl_fragment_location_b'] = 'Entre deux gros rochers.'
@@ -911,7 +911,7 @@ L['bs_smv_location'] = 'Dans l\'arbre creux au {location:Pic du Saule-Lunaire}.'
 L['bs_net_location'] = 'À la {location:Manaforge B\'naar} à {location:Raz-de-Néant} en {location:Outreterre}.\n\n{note:Vous aurez besoin de 3 joueurs pour canaliser la {item:208092} sur les cristaux à proximité pour faire apparaître le {object:Monticule de terre meuble}.}'
 L['bs_vfw_location'] = 'Au sommet de la cascade dorée, dans la bouche de la statue {npc:129151}.'
 L['bs_tas_location'] = 'Utilisez la {item:208135} pour faire fondre le {npc:96438} et révéler le {object:Monticule de terre meuble}.'
-L['bs_dbt_location'] = nil
+L['bs_dbt_location'] = 'Sous la grande griffe de squelette au {location:Sanctuaire draconique Émeraude}.'
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'
