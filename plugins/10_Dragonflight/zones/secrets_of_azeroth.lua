@@ -599,6 +599,30 @@ tha.nodes[59307882] = TimeLostFragment({
 -- 76508 Clue 8 complete
 
 -------------------------------------------------------------------------------
+-------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------
+-------------------------------------------------------------------------------
+
+-- local nst = ns.maps[50] or Map({id = 50, settings = true}) -- Northern Stranglethorn
+
+-- val.nodes[31276190]
+-- L['soa_mjj_fbp_a'] = 'Found at the enchanting table near {npc:198587} in {location:The Artisan\'s Market}.\n\nThis clue leads to the {location:Bronze Enclave} in {location:Valdrakken}.'
+
+-- val.nodes[81624747]
+-- L['soa_mjj_fbp_b'] = 'Found at the bonfire in the {location:Bronze Enclave}.\n\nThis clue leads to {location:Kurzen\'s Compound} in {location:Northern Stranglethorn}.'
+
+-- nst.nodes[57562137]
+-- L['soa_mjj_fbp_c'] = 'Found inside the tent in {location:Kurzen\'s Compound}.\n\nThis clue leads to {location:Zul\'Gurub} in {location:Northern Stranglethorn}.'
+
+-- nst.nodes[72123291]
+-- L['soa_mjj_fbp_d'] = 'Found at the entrance to {location:Zul\'Gurub}.'
+
+local zgb = ns.maps[337] or Map({id = 337, settings = true}) -- Zul'Gurub
+
+-- zgb.nodes[44465099]
+-- L['soa_mjj_fbp_e'] = ''
+
+
+-------------------------------------------------------------------------------
 ---------------------------- COMMUNITY RUMOR MILL -----------------------------
 -------------------------------------------------------------------------------
 
