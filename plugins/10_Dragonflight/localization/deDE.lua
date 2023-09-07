@@ -904,22 +904,6 @@ L['soa_08_tl_fragment_location_b'] = nil
 L['soa_08_tl_fragment_location_c'] = nil
 
 -- Community Rumor Mill
-L['bs_count_01'] = '(1/15)'
-L['bs_count_02'] = '(2/15)'
-L['bs_count_03'] = '(3/15)'
-L['bs_count_04'] = '(4/15)'
-L['bs_count_05'] = '(5/15)'
-L['bs_count_06'] = '(6/15)'
-L['bs_count_07'] = '(7/15)'
--- L['bs_count_08'] = '(8/15)'
--- L['bs_count_09'] = '(9/15)'
--- L['bs_count_10'] = '(10/15)'
--- L['bs_count_11'] = '(11/15)'
--- L['bs_count_12'] = '(12/15)'
--- L['bs_count_13'] = '(13/15)'
--- L['bs_count_14'] = '(14/15)'
--- L['bs_count_15'] = '(15/15)'
-
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
 L['buried_satchel_sublabel'] = '{note:Das ist KEINE {item:208142} Position.}'
 

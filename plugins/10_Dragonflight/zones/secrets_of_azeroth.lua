@@ -645,44 +645,44 @@ local BuriedSatchel = Class('BuriedSatchel', SecretsOfAzeroth, {
 epl.nodes[55245943] = BuriedSatchel({
     location = L['bs_epl_location'],
     quest = 77289,
-    rlabel = Gray(L['bs_count_01'])
+    rlabel = Gray('(1/15)')
 }) -- Eastern Plaguelands
 
 fel.nodes[42214805] = BuriedSatchel({
     location = L['bs_fel_location'],
     quest = 77288,
-    rlabel = Gray(L['bs_count_02'])
+    rlabel = Gray('(2/15)')
 }) -- Felwood
 
 tho.nodes[42753063] = BuriedSatchel({
     location = L['bs_tho_location'],
     pois = {POI({44003730})},
     quest = 77291,
-    rlabel = Gray(L['bs_count_03'])
+    rlabel = Gray('(3/15)')
 }) -- Thousand Needles
 
 smv.nodes[35314895] = BuriedSatchel({
     location = L['bs_smv_location'],
     quest = 77292,
-    rlabel = Gray(L['bs_count_04'])
+    rlabel = Gray('(4/15)')
 }) -- Shadowmoon Valley (Draenor)
 
 net.nodes[26246854] = BuriedSatchel({
     location = L['bs_net_location'],
     quest = 77290,
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
-    rlabel = Gray(L['bs_count_05'])
+    rlabel = Gray('(5/15)')
 }) -- Netherstorm
 
 vfw.nodes[56812143] = BuriedSatchel({
     location = L['bs_vfw_location'],
     quest = 77293,
-    rlabel = Gray(L['bs_count_06'])
+    rlabel = Gray('(6/15)')
 }) -- Valley of the Four Winds
 
 tas.nodes[25207140] = BuriedSatchel({
     location = L['bs_tas_location'],
     quest = 77296,
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
-    rlabel = Gray(L['bs_count_07'])
+    rlabel = Gray('(7/15)')
 }) -- The Azure Span

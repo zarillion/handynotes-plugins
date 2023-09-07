@@ -902,22 +902,6 @@ L['soa_08_tl_fragment_location_b'] = '两块大石头之间。'
 L['soa_08_tl_fragment_location_c'] = '在小河的底部。'
 
 -- Community Rumor Mill
-L['bs_count_01'] = '(1/15)'
-L['bs_count_02'] = '(2/15)'
-L['bs_count_03'] = '(3/15)'
-L['bs_count_04'] = '(4/15)'
-L['bs_count_05'] = '(5/15)'
-L['bs_count_06'] = '(6/15)'
-L['bs_count_07'] = '(7/15)'
--- L['bs_count_08'] = nil
--- L['bs_count_09'] = nil
--- L['bs_count_10'] = nil
--- L['bs_count_11'] = nil
--- L['bs_count_12'] = nil
--- L['bs_count_13'] = nil
--- L['bs_count_14'] = nil
--- L['bs_count_15'] = nil
-
 L['buried_satchel_note'] = '从 {object:松软的泥土堆} 中拾取 {item:208142}。'
 L['buried_satchel_sublabel'] = '{note:这*不是* {item:208142} 的位置。}'
 

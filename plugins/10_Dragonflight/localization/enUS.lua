@@ -896,28 +896,12 @@ L['soa_07_idol_note'] = 'Loot the revealed {item:207730} next to the {object:Anc
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '(Clue 8)'
-L['soa_08_time_lost_fragment_note'] = 'Use the {item:208135} to find 3x {item:208191} in the {location:Shifting Sands} in {location:Thaldraszus}.\n\nCombine all 3x to create {item:208146} and return to {npc:206864} in {location:Valdrakken}.'
+L['soa_08_time_lost_fragment_note'] = 'Use the {item:207730} to find 3x {item:208191} in the {location:Shifting Sands} in {location:Thaldraszus}.\n\nCombine all 3x to create {item:208146} and return to {npc:206864} in {location:Valdrakken}.'
 L['soa_08_tl_fragment_location_a'] = 'Under a small tree.'
 L['soa_08_tl_fragment_location_b'] = 'Between two large boulders.'
 L['soa_08_tl_fragment_location_c'] = 'At the bottom of the small river.'
 
 -- Community Rumor Mill
-L['bs_count_01'] = '(1/15)'
-L['bs_count_02'] = '(2/15)'
-L['bs_count_03'] = '(3/15)'
-L['bs_count_04'] = '(4/15)'
-L['bs_count_05'] = '(5/15)'
-L['bs_count_06'] = '(6/15)'
-L['bs_count_07'] = '(7/15)'
--- L['bs_count_08'] = '(8/15)'
--- L['bs_count_09'] = '(9/15)'
--- L['bs_count_10'] = '(10/15)'
--- L['bs_count_11'] = '(11/15)'
--- L['bs_count_12'] = '(12/15)'
--- L['bs_count_13'] = '(13/15)'
--- L['bs_count_14'] = '(14/15)'
--- L['bs_count_15'] = '(15/15)'
-
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
 L['buried_satchel_sublabel'] = '{note:This is NOT a {item:208142} location.}'
 

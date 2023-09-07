@@ -903,22 +903,6 @@ L['soa_08_tl_fragment_location_b'] = nil
 L['soa_08_tl_fragment_location_c'] = nil
 
 -- Community Rumor Mill
-L['bs_count_01'] = nil
-L['bs_count_02'] = nil
-L['bs_count_03'] = nil
-L['bs_count_04'] = nil
-L['bs_count_05'] = nil
-L['bs_count_06'] = nil
-L['bs_count_07'] = nil
--- L['bs_count_08'] = nil
--- L['bs_count_09'] = nil
--- L['bs_count_10'] = nil
--- L['bs_count_11'] = nil
--- L['bs_count_12'] = nil
--- L['bs_count_13'] = nil
--- L['bs_count_14'] = nil
--- L['bs_count_15'] = nil
-
 L['buried_satchel_note'] = nil
 L['buried_satchel_sublabel'] = nil
 
