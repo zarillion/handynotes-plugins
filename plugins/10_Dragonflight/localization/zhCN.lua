@@ -890,16 +890,16 @@ L['soa_06_unvieled_tablet_note_c'] = '拾取 {item:208143} 并返回 {location:�
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '（线索七）'
 L['soa_07_brazier_label'] = '上古熏香火盆'
-L['soa_07_brazier_note_a'] = nil
+L['soa_07_brazier_note_a'] = '与 {npc:185562} 交谈完成任务 {quest:77303} 并获得 {item:208144}。\n\n前往 {location:欧恩哈拉平原} 附近的 {location:永恒库尔干}。'
 L['soa_07_brazier_note_b'] = '在上古坟墓内使用 {item:208135} 点燃 {object:上古熏香火盆}。'
 L['soa_07_idol_note'] = '拾取 {object:上古熏香火盆} 旁边被揭示的 {item:207730} 并返回 {location:瓦德拉肯}。'
 
 -- Secrets of Azeroth: Clue 8
-L['soa_08_rlabel'] = nil
-L['soa_08_time_lost_fragment_note'] = nil
-L['soa_08_tl_fragment_location_a'] = nil
-L['soa_08_tl_fragment_location_b'] = nil
-L['soa_08_tl_fragment_location_c'] = nil
+L['soa_08_rlabel'] = '（线索八）'
+L['soa_08_time_lost_fragment_note'] = '在 {location:索德拉苏斯} 的 {location:变换流沙} 使用 {item:208135} 找到3个 {item:208191}。\n\n将所有3个组合起来创建 {item:208146} 并返回 {location:瓦德拉肯} 的 {npc:206864}。'
+L['soa_08_tl_fragment_location_a'] = '小树下。'
+L['soa_08_tl_fragment_location_b'] = '两块大石头之间。'
+L['soa_08_tl_fragment_location_c'] = '在小河的底部。'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
@@ -908,7 +908,7 @@ L['bs_count_03'] = '(3/15)'
 L['bs_count_04'] = '(4/15)'
 L['bs_count_05'] = '(5/15)'
 L['bs_count_06'] = '(6/15)'
-L['bs_count_07'] = nil
+L['bs_count_07'] = '(7/15)'
 -- L['bs_count_08'] = nil
 -- L['bs_count_09'] = nil
 -- L['bs_count_10'] = nil
@@ -927,7 +927,7 @@ L['bs_tho_location'] = '在 {location:裂蹄堡} 的水下洞穴中。'
 L['bs_smv_location'] = '在 {location:月柳山} 附近的空心树内。'
 L['bs_net_location'] = '在 {location:外域} {location:虚空风暴} 的 {location:法力熔炉：布纳尔} 中。\n\n{note:需要3名玩家在附近的水晶上引导 {item:208092} 来生成 {object:松软的泥土堆}。}'
 L['bs_vfw_location'] = '在金色瀑布顶部的 {npc:129151} 雕像口内。'
-L['bs_tas_location'] = nil
+L['bs_tas_location'] = '使用 {item:208135} 融化 {npc:96438} 并露出 {object:松软的泥土堆}。'
 
 L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'
