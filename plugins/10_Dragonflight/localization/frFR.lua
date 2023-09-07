@@ -899,7 +899,7 @@ L['bs_count_03'] = '(3/15)'
 L['bs_count_04'] = '(4/15)'
 L['bs_count_05'] = '(5/15)'
 L['bs_count_06'] = '(6/15)'
--- L['bs_count_07'] = '(7/15)'
+L['bs_count_07'] = '(7/15)'
 -- L['bs_count_08'] = '(8/15)'
 -- L['bs_count_09'] = '(9/15)'
 -- L['bs_count_10'] = '(10/15)'
@@ -918,6 +918,7 @@ L['bs_tho_location'] = 'Dans une grotte sous-marine nommée le {location:Bastion
 L['bs_smv_location'] = 'Dans l\'arbre creux au {location:Pic du Saule-Lunaire}.'
 L['bs_net_location'] = 'À la {location:Manaforge B\'naar} à {location:Raz-de-Néant} en {location:Outreterre}.\n\n{note:Vous aurez besoin de 3 joueurs pour canaliser la {item:208092} sur les cristaux à proximité pour faire apparaître le {object:Monticule de terre meuble}.}'
 L['bs_vfw_location'] = 'Au sommet de la cascade dorée, dans la bouche de la statue {npc:129151}.'
+L['bs_tas_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'

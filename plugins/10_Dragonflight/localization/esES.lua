@@ -902,7 +902,7 @@ L['bs_count_03'] = '(3/15)'
 L['bs_count_04'] = '(4/15)'
 L['bs_count_05'] = '(5/15)'
 L['bs_count_06'] = '(6/15)'
--- L['bs_count_07'] = '(7/15)'
+L['bs_count_07'] = '(7/15)'
 -- L['bs_count_08'] = '(8/15)'
 -- L['bs_count_09'] = '(9/15)'
 -- L['bs_count_10'] = '(10/15)'
@@ -920,5 +920,7 @@ L['bs_tho_location'] = 'En una cueva bajo el agua llamada {location:Campamento P
 L['bs_smv_location'] = 'Dentro del árbol hueco en {location:Pico Sauce Lunar}.'
 L['bs_net_location'] = 'En {location:Forja de Maná B\'naar} de {location:Tormenta Abisal} en {location:Terrallende}.\n\n{note:Necesitarás 3 jugadores para canalizar la {item:208092} en los cristales cercanos para hacer aparecer el {object:Montículo de Porquería Blanda}.}'
 L['bs_vfw_location'] = 'En la cima de la cascada dorada y dentro de la boca la estatua de un {npc:129151}.'
+L['bs_tas_location'] = nil
+
 L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'

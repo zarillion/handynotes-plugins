@@ -837,7 +837,7 @@ L['bs_count_03'] = nil
 L['bs_count_04'] = nil
 L['bs_count_05'] = nil
 L['bs_count_06'] = nil
--- L['bs_count_07'] = nil
+L['bs_count_07'] = nil
 -- L['bs_count_08'] = nil
 -- L['bs_count_09'] = nil
 -- L['bs_count_10'] = nil
@@ -856,6 +856,7 @@ L['bs_tho_location'] = nil
 L['bs_smv_location'] = nil
 L['bs_net_location'] = nil
 L['bs_vfw_location'] = nil
+L['bs_tas_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = nil
 L['options_icons_secrets_of_azeroth_desc'] = nil

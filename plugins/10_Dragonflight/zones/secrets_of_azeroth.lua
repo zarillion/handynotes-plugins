@@ -561,12 +561,13 @@ val.nodes[55206460] = HiddenGem()
 -------------------------------------------------------------------------------
 
 local BURIED_SATCHELS = {
-    [1] = {quest = 77289, mapID = epl.id, parentMapID = 13}, -- Eastern Plaguelands, Kalimdor
-    [2] = {quest = 77288, mapID = fel.id, parentMapID = 12}, -- Felwood, Eastern Kingdoms
-    [3] = {quest = 77291, mapID = tho.id, parentMapID = 12}, -- Thousand Needles, Eastern Kingdoms
-    [4] = {quest = 77292, mapID = smv.id, parentMapID = 1922}, -- Shadowmoon Valley, Draenor
-    [5] = {quest = 77290, mapID = net.id, parentMapID = 101}, -- Netherstorm, Outland
-    [6] = {quest = 77293, mapID = vfw.id, parentMapID = 424} -- Valley of the Four Winds, Pandaria
+    [1] = {quest = 77289, mapID = epl.id, parentMapID = 13}, -- Eastern Plaguelands (Kalimdor)
+    [2] = {quest = 77288, mapID = fel.id, parentMapID = 12}, -- Felwood (Eastern Kingdoms)
+    [3] = {quest = 77291, mapID = tho.id, parentMapID = 12}, -- Thousand Needles (Eastern Kingdoms)
+    [4] = {quest = 77292, mapID = smv.id, parentMapID = 1922}, -- Shadowmoon Valley (Draenor)
+    [5] = {quest = 77290, mapID = net.id, parentMapID = 101}, -- Netherstorm (Outland)
+    [6] = {quest = 77293, mapID = vfw.id, parentMapID = 424}, -- Valley of the Four Winds (Pandaria)
+    [7] = {quest = 77296, mapID = tas.id, parentMapID = 1978} -- The Azure Span (Dragon Isles)
 }
 
 local BuriedSatchelList = Class('BuriedSatchelList', SecretsOfAzeroth, {
@@ -646,3 +647,10 @@ vfw.nodes[56812143] = BuriedSatchel({
     quest = 77293,
     rlabel = Gray(L['bs_count_06'])
 }) -- Valley of the Four Winds
+
+tas.nodes[25207140] = BuriedSatchel({
+    location = L['bs_tas_location'],
+    quest = 77296,
+    requires = REQUIREMENT_TORCH_OF_PYRRETH,
+    rlabel = Gray(L['bs_count_07'])
+}) -- The Azure Span
