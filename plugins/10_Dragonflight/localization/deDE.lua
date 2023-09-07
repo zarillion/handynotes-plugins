@@ -898,6 +898,7 @@ L['soa_07_idol_note'] = 'Plündere den erschienenen {item:207730} neben dem {obj
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '(Hinweis 8)'
+L['soa_08_kathos_note'] = 'Sprich mit {npc:206864} um {item:206948} zu erhalten.\n\nFliege nach {location:Wandernde Sande} in {location:Thaldraszus} und benutze deinen {item:207730} um 3x {item:208191} zu finden.'
 L['soa_08_time_lost_fragment_note'] = 'Benutze deinen {item:207730}, um die drei {item:208191} in {location:Wandernde Sande} in {location:Thaldraszus} zu finden.\n\nKombiniere die drei Fragmente, um eine {item:208146} herzustellen und kehre damit nach {location:Valdrakken} zu {npc:206864} zurück.'
 L['soa_08_tl_fragment_location_a'] = 'Unter einem kleinen Baum.'
 L['soa_08_tl_fragment_location_b'] = 'Zwischen zwei großen Felsen.'

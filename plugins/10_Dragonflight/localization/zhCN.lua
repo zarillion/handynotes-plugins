@@ -896,6 +896,7 @@ L['soa_07_idol_note'] = '拾取 {object:上古熏香火盆} 旁边被揭示的 {
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '（线索八）'
+L['soa_08_kathos_note'] = nil
 L['soa_08_time_lost_fragment_note'] = '在 {location:索德拉苏斯} 的 {location:变换流沙} 使用 {item:208135} 找到3个 {item:208191}。\n\n将所有3个组合起来创建 {item:208146} 并返回 {location:瓦德拉肯} 的 {npc:206864}。'
 L['soa_08_tl_fragment_location_a'] = '小树下。'
 L['soa_08_tl_fragment_location_b'] = '两块大石头之间。'

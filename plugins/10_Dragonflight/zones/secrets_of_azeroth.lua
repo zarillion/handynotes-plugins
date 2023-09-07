@@ -454,7 +454,7 @@ tas.nodes[78883244] = SecretsOfAzeroth({
     rlabel = Gray(L['soa_06_rlabel']),
     note = L['soa_06_unvieled_tablet_note_b'] .. '\n\n' ..
         L['soa_06_unvieled_tablet_note_c'],
-    questDeps = 77284, -- A Chilling Ascent
+    questDeps = 77522, -- Clue 05 complete (TODO: change to 77284 (A Chilling Ascent) when its fixed)
     quest = {
         77286, -- ![A Knowledgeable Descent]
         77523 -- Clue 06 complete
@@ -489,21 +489,19 @@ local Brazier = Class('Brazier', SecretsOfAzeroth, {
     note = L['soa_07_brazier_note_b'],
     rlabel = Gray(L['soa_07_rlabel']),
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
+    quest = {77405, 77406, 77407}, -- hidden
     questDeps = 77689 -- ![Idol Searching]
 }) -- Ancient Incense Brazier
 
 ohn.nodes[32306800] = Brazier({
-    quest = 77406, -- hidden
     pois = {POI({32676832})} -- Entrance
 }) -- Brazier 1
 
 ohn.nodes[31007080] = Brazier({
-    quest = 77407, -- hidden
     pois = {POI({31737033})} -- Entrance
 }) -- Brazier 2
 
 ohn.nodes[35206570] = Brazier({
-    quest = 77405, -- hidden
     pois = {POI({35246628})} -- Entrance
 }) -- Brazier 3
 
@@ -561,6 +559,17 @@ val.nodes[55206460] = HiddenGem()
 -------------------------------------------------------------------------------
 ------------------------- SECRETS OF AZEROTH: CLUE 08 -------------------------
 -------------------------------------------------------------------------------
+
+val.nodes[47314823] = SecretsOfAzeroth({
+    label = '{npc:206864}',
+    note = L['soa_08_kathos_note'],
+    questDeps = 77524, -- Clue 07 complete
+    quest = 76509, -- ![Preserving Rarities]
+    rlabel = Gray(L['soa_08_rlabel']),
+    rewards = {
+        Achievement({id = 18646, criteria = 8}) -- Whodunnit?
+    }
+}) -- Preservationist Kathos
 
 local TimeLostFragment = Class('TimeLostFragment', SecretsOfAzeroth, {
     label = '{item:208191}',

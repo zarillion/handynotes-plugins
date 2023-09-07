@@ -832,6 +832,7 @@ L['soa_07_idol_note'] = nil
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = nil
+L['soa_08_kathos_note'] = nil
 L['soa_08_time_lost_fragment_note'] = nil
 L['soa_08_tl_fragment_location_a'] = nil
 L['soa_08_tl_fragment_location_b'] = nil
