@@ -894,7 +894,7 @@ L['soa_07_idol_note'] = 'Récupérez l\'{item:207730} apparue à côté du {obje
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '(Indice n°8)'
-L['soa_08_time_lost_fragment_note'] = 'Utilisez la {item:208135} pour trouver 3x {item:208191} aux {location:Sables changeants} à {location:Thaldraszus}.\n\nCombinez les 3x pour créer une {item:208146} et retournez voir la {npc:206864} à {location:Valdrakken}.'
+L['soa_08_time_lost_fragment_note'] = 'Utilisez l\'{item:207730} pour trouver 3x {item:208191} aux {location:Sables changeants} à {location:Thaldraszus}.\n\nCombinez les 3x pour créer une {item:208146} et retournez voir la {npc:206864} à {location:Valdrakken}.'
 L['soa_08_tl_fragment_location_a'] = 'Sous un petit arbre.'
 L['soa_08_tl_fragment_location_b'] = 'Entre deux gros rochers.'
 L['soa_08_tl_fragment_location_c'] = 'Au fond de la petite rivière.'
