@@ -913,6 +913,7 @@ L['bs_smv_location'] = nil
 L['bs_net_location'] = nil
 L['bs_vfw_location'] = nil
 L['bs_tas_location'] = nil
+L['bs_dbt_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = nil
 L['options_icons_secrets_of_azeroth_desc'] = nil

@@ -35,6 +35,7 @@ local net = ns.maps[109] or Map({id = 109, settings = true}) -- Netherstorm
 local smv = ns.maps[539] or Map({id = 539, settings = true}) -- Shadowmoon Valley (Draenor)
 local tho = ns.maps[64] or Map({id = 64, settings = true}) -- Thousand Needles
 local vfw = ns.maps[376] or Map({id = 376, settings = true}) -- Valley of the Four Winds
+local dbt = ns.maps[115] or Map({id = 115, settings = true}) -- Dragonblight
 
 -------------------------------------------------------------------------------
 
@@ -653,6 +654,13 @@ local BURIED_SATCHELS = {
         parentMapID = 1978, -- Dragon Isles
         quest = 77296,
         requires = REQUIREMENT_TORCH_OF_PYRRETH
+    },
+    [8] = {
+        coordinates = 63907260,
+        location = L['bs_dbt_location'],
+        map = dbt, -- Dragonblight
+        parentMapID = 113, -- Northrend
+        quest = 77294,
     }
 }
 

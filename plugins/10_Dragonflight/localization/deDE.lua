@@ -915,6 +915,7 @@ L['bs_smv_location'] = 'Im Inneren des hohlen Baumes in {location:Mondweidengipf
 L['bs_net_location'] = 'In der {location:Manaschmiede B\'naar} in {location:Nethersturm} in der {location:Scherbenwelt}.\n\n{note:Es sind 3 Spieler erforderlich, die den Zauber {item:208092} auf die Kristalle in der Nähe wirken, damit ein {object:Lockerer Erdhaufen} erscheint.}'
 L['bs_vfw_location'] = 'Am Anfang des Wasserfalls im Mund der {npc:129151} Statue.'
 L['bs_tas_location'] = 'Benutze deine {item:208092}, um den {npc:96438} zu schmelzen und den {object:Lockerer Erdhaufen} freizulegen.'
+L['bs_dbt_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der {location:Geheimnisse von Azeroth} für den Erfolg {achievement:18646} an.'

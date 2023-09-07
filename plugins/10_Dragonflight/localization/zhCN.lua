@@ -913,6 +913,7 @@ L['bs_smv_location'] = '在 {location:月柳山} 附近的空心树内。'
 L['bs_net_location'] = '在 {location:外域} {location:虚空风暴} 的 {location:法力熔炉：布纳尔} 中。\n\n{note:需要3名玩家在附近的水晶上引导 {item:208092} 来生成 {object:松软的泥土堆}。}'
 L['bs_vfw_location'] = '在金色瀑布顶部的 {npc:129151} 雕像口内。'
 L['bs_tas_location'] = '使用 {item:208135} 融化 {npc:96438} 并露出 {object:松软的泥土堆}。'
+L['bs_dbt_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'
