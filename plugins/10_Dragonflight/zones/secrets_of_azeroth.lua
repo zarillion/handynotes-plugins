@@ -23,6 +23,7 @@ local Path = ns.poi.Path
 local bor = ns.maps[114] or Map({id = 114, settings = true}) -- Borean Tundra
 local ohn = ns.maps[2023] or Map({id = 2023, settings = true}) -- Ohn'ahran Plains
 local tas = ns.maps[2024] or Map({id = 2024, settings = true}) -- The Azure Span
+local tha = ns.maps[2025] or Map({id = 2025, settings = true}) -- Thaldraszus
 local tws = ns.maps[2022] or Map({id = 2022, settings = true}) -- The Waking Shores
 local val = ns.maps[2112] or Map({id = 2112, settings = true}) -- Valdrakken
 local zar = ns.maps[2133] or Map({id = 2133, settings = true}) -- Zaralek Cavern
@@ -541,6 +542,7 @@ ohn.nodes[39555886] = SecretsOfAzeroth({
 local HiddenGem = Class('HiddenGem', SecretsOfAzeroth, {
     label = '{npc:208162}',
     requires = REQUIREMENT_IDOL_OF_OHNAHRA,
+    rlabel = Gray(L['soa_07_rlabel']),
     questDeps = 77304, -- ![An Idol in Hand]
     quest = {
         76456, -- ![Using the Idol]
@@ -555,6 +557,36 @@ local HiddenGem = Class('HiddenGem', SecretsOfAzeroth, {
 val.nodes[49105140] = HiddenGem()
 val.nodes[45705930] = HiddenGem()
 val.nodes[55206460] = HiddenGem()
+
+-------------------------------------------------------------------------------
+------------------------- SECRETS OF AZEROTH: CLUE 08 -------------------------
+-------------------------------------------------------------------------------
+
+local TimeLostFragment = Class('TimeLostFragment', SecretsOfAzeroth, {
+    label = '{item:208191}',
+    rlabel = Gray(L['soa_08_rlabel']),
+    note = L['soa_08_time_lost_fragment_note'],
+    requires = REQUIREMENT_IDOL_OF_OHNAHRA,
+    quest = 77421, -- hidden
+    questDeps = 77854, -- ![Into the Sands]
+    rewards = {
+        Achievement({id = 18646, criteria = 8}), -- Whodunnit?
+        Item({item = 208146}) -- Incomplete Tablet
+    }
+}) -- Time-Lost Fragment
+
+tha.nodes[58517843] = TimeLostFragment({
+    location = L['soa_08_tl_fragment_location_a']
+})
+tha.nodes[58797824] = TimeLostFragment({
+    location = L['soa_08_tl_fragment_location_b']
+})
+tha.nodes[59307882] = TimeLostFragment({
+    location = L['soa_08_tl_fragment_location_c']
+})
+
+-- 76508 ![Out of the Sands]
+-- 77305 Clue 8 complete
 
 -------------------------------------------------------------------------------
 ---------------------------- COMMUNITY RUMOR MILL -----------------------------

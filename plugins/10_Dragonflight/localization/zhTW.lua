@@ -894,6 +894,13 @@ L['soa_07_brazier_note_a'] = nil
 L['soa_07_brazier_note_b'] = nil
 L['soa_07_idol_note'] = nil
 
+-- Secrets of Azeroth: Clue 8
+L['soa_08_rlabel'] = nil
+L['soa_08_time_lost_fragment_note'] = nil
+L['soa_08_tl_fragment_location_a'] = nil
+L['soa_08_tl_fragment_location_b'] = nil
+L['soa_08_tl_fragment_location_c'] = nil
+
 -- Community Rumor Mill
 L['bs_count_01'] = nil
 L['bs_count_02'] = nil

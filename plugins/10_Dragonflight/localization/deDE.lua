@@ -896,6 +896,13 @@ L['soa_07_brazier_note_a'] = 'Sprich mit {npc:185562}, um die Quest {quest:77303
 L['soa_07_brazier_note_b'] = 'Benutze deine {item:208135}, um {Objekt:Uralter Weihrauchbrenner} innerhalb des uralten Grabhügels zu entzünden.'
 L['soa_07_idol_note'] = 'Plündere den erschienenen {item:207730} neben dem {object:Uralter Weihrauchbrenner} und kehre nach {location:Valdrakken} zurück.'
 
+-- Secrets of Azeroth: Clue 8
+L['soa_08_rlabel'] = '(Hinweis 8)'
+L['soa_08_time_lost_fragment_note'] = nil
+L['soa_08_tl_fragment_location_a'] = nil
+L['soa_08_tl_fragment_location_b'] = nil
+L['soa_08_tl_fragment_location_c'] = nil
+
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
 L['bs_count_02'] = '(2/15)'

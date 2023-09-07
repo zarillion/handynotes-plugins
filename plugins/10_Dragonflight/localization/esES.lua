@@ -895,6 +895,13 @@ L['soa_07_brazier_note_a'] = 'Habla con {npc:185562} para completar la misión {
 L['soa_07_brazier_note_b'] = 'Usa la {item:208135} para encender el {object:Blandón de Incienso Antiguo} dentro del túmulo funerario.'
 L['soa_07_idol_note'] = 'Despoja el {item:207730} junto al {object:Blandón de Incienso Antiguo} y devuélvelo a {location:Valdrakken}.'
 
+-- Secrets of Azeroth: Clue 8
+L['soa_08_rlabel'] = '(Pista 8)'
+L['soa_08_time_lost_fragment_note'] = nil
+L['soa_08_tl_fragment_location_a'] = nil
+L['soa_08_tl_fragment_location_b'] = nil
+L['soa_08_tl_fragment_location_c'] = nil
+
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
 L['bs_count_02'] = '(2/15)'

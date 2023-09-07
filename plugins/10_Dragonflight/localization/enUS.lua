@@ -894,6 +894,13 @@ L['soa_07_brazier_note_a'] = 'Talk to {npc:185562} to complete the quest {quest:
 L['soa_07_brazier_note_b'] = 'Use the {item:208135} to ignite the {object:Ancient Incense Brazier} within the ancient burial mound.'
 L['soa_07_idol_note'] = 'Loot the revealed {item:207730} next to the {object:Ancient Incense Brazier} and return to {location:Valdrakken}.'
 
+-- Secrets of Azeroth: Clue 8
+L['soa_08_rlabel'] = '(Clue 8)'
+L['soa_08_time_lost_fragment_note'] = 'Use the {item:208135} to find 3x {item:208191} in the {location:Shifting Sands} in {location:Thaldraszus}.\n\nCombine all 3x to create {item:208146} and return to {npc:206864} in {location:Valdrakken}.'
+L['soa_08_tl_fragment_location_a'] = 'Under a small tree.'
+L['soa_08_tl_fragment_location_b'] = 'Between two large boulders.'
+L['soa_08_tl_fragment_location_c'] = 'At the bottom of the small river.'
+
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
 L['bs_count_02'] = '(2/15)'

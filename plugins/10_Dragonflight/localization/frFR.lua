@@ -892,6 +892,13 @@ L['soa_07_brazier_note_a'] = 'Parlez à {npc:185562} pour terminer la quête {qu
 L['soa_07_brazier_note_b'] = 'Utilisez la {item:208135} pour allumer le {object:Brasero d\'encens ancien} à l\'intérieur du tertre funéraire.'
 L['soa_07_idol_note'] = 'Récupérez l\'{item:207730} apparue à côté du {object:Brasero d\'encens ancien} et retournez à {location:Valdrakken}.'
 
+-- Secrets of Azeroth: Clue 8
+L['soa_08_rlabel'] = '(Indice n°8)'
+L['soa_08_time_lost_fragment_note'] = nil
+L['soa_08_tl_fragment_location_a'] = nil
+L['soa_08_tl_fragment_location_b'] = nil
+L['soa_08_tl_fragment_location_c'] = nil
+
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
 L['bs_count_02'] = '(2/15)'
