@@ -897,10 +897,10 @@ L['soa_07_idol_note'] = 'Despoja el {item:207730} junto al {object:Blandón de I
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '(Pista 8)'
-L['soa_08_time_lost_fragment_note'] = nil
-L['soa_08_tl_fragment_location_a'] = nil
-L['soa_08_tl_fragment_location_b'] = nil
-L['soa_08_tl_fragment_location_c'] = nil
+L['soa_08_time_lost_fragment_note'] = 'Usa la {item:208135} para encontrar 3x {item:208191} en el {location:Mar de Dunas} de {location:Thaldraszus}.\n\nCombínalos para crear la {item:208146} y devuélvela a {npc:206864} en {location:Valdrakken}.'
+L['soa_08_tl_fragment_location_a'] = 'Debajo de un árbol pequeño.'
+L['soa_08_tl_fragment_location_b'] = 'Entre dos rocas grandes.'
+L['soa_08_tl_fragment_location_c'] = 'En el fondo de un río pequeño.'
 
 -- Community Rumor Mill
 L['bs_count_01'] = '(1/15)'
@@ -927,7 +927,7 @@ L['bs_tho_location'] = 'En una cueva bajo el agua llamada {location:Campamento P
 L['bs_smv_location'] = 'Dentro del árbol hueco en {location:Pico Sauce Lunar}.'
 L['bs_net_location'] = 'En {location:Forja de Maná B\'naar} de {location:Tormenta Abisal} en {location:Terrallende}.\n\n{note:Necesitarás 3 jugadores para canalizar la {item:208092} en los cristales cercanos para hacer aparecer el {object:Montículo de Porquería Blanda}.}'
 L['bs_vfw_location'] = 'En la cima de la cascada dorada y dentro de la boca la estatua de un {npc:129151}.'
-L['bs_tas_location'] = nil
+L['bs_tas_location'] = 'Usa la {item:208135} para derretir el {npc:96438} y hacer aparecer el {object:Montículo de Porquería Blanda}.'
 
 L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'
