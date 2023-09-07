@@ -893,15 +893,15 @@ L['soa_06_unvieled_tablet_note_c'] = 'Interagiere mit {object:Enthüllte Tafel},
 L['soa_07_rlabel'] = '(Hinweis 7)'
 L['soa_07_brazier_label'] = 'Uralter Weihrauchbrenner'
 L['soa_07_brazier_note_a'] = 'Sprich mit {npc:185562}, um die Quest {quest:77303} abzuschließen und den {item:208144} zu erhalten.\n\nReise dann in {location:Die Ebenen von Ohn\'ahra} nach {location:Ewige Kurgane}.'
-L['soa_07_brazier_note_b'] = 'Benutze deine {item:208135}, um {Objekt:Uralter Weihrauchbrenner} innerhalb des uralten Grabhügels zu entzünden.'
+L['soa_07_brazier_note_b'] = 'Benutze deine {item:208092}, um {object:Uralter Weihrauchbrenner} innerhalb des uralten Grabhügels zu entzünden.'
 L['soa_07_idol_note'] = 'Plündere den erschienenen {item:207730} neben dem {object:Uralter Weihrauchbrenner} und kehre nach {location:Valdrakken} zurück.'
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '(Hinweis 8)'
-L['soa_08_time_lost_fragment_note'] = nil
-L['soa_08_tl_fragment_location_a'] = nil
-L['soa_08_tl_fragment_location_b'] = nil
-L['soa_08_tl_fragment_location_c'] = nil
+L['soa_08_time_lost_fragment_note'] = 'Benutze deinen {item:207730}, um die drei {item:208191} in {location:Wandernde Sande} in {location:Thaldraszus} zu finden.\n\nKombiniere die drei Fragmente, um eine {item:208146} herzustellen und kehre damit nach {location:Valdrakken} zu {npc:206864} zurück.'
+L['soa_08_tl_fragment_location_a'] = 'Unter einem kleinen Baum.'
+L['soa_08_tl_fragment_location_b'] = 'Zwischen zwei großen Felsen.'
+L['soa_08_tl_fragment_location_c'] = 'Am Grund des kleinen Flusses.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
@@ -913,7 +913,7 @@ L['bs_tho_location'] = 'In der Unterwasserhöhle {location:Spalthufhöhle}.'
 L['bs_smv_location'] = 'Im Inneren des hohlen Baumes in {location:Mondweidengipfel}.'
 L['bs_net_location'] = 'In der {location:Manaschmiede B\'naar} in {location:Nethersturm} in der {location:Scherbenwelt}.\n\n{note:Es sind 3 Spieler erforderlich, die den Zauber {item:208092} auf die Kristalle in der Nähe wirken, damit ein {object:Lockerer Erdhaufen} erscheint.}'
 L['bs_vfw_location'] = 'Am Anfang des Wasserfalls im Mund der {npc:129151} Statue.'
-L['bs_tas_location'] = nil
+L['bs_tas_location'] = 'Benutze deine {item:208092}, um den {npc:96438} zu schmelzen und den {object:Lockerer Erdhaufen} freizulegen.'
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der {location:Geheimnisse von Azeroth} für den Erfolg {achievement:18646} an.'

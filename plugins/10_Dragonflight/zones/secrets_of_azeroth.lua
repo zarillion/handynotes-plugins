@@ -585,8 +585,8 @@ tha.nodes[59307882] = TimeLostFragment({
     location = L['soa_08_tl_fragment_location_c']
 })
 
--- 76508 ![Out of the Sands]
--- 77305 Clue 8 complete
+-- 77305 ![Out of the Sands]
+-- 76508 Clue 8 complete
 
 -------------------------------------------------------------------------------
 ---------------------------- COMMUNITY RUMOR MILL -----------------------------
