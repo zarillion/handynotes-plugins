@@ -660,7 +660,7 @@ local BURIED_SATCHELS = {
         location = L['bs_dbt_location'],
         map = dbt, -- Dragonblight
         parentMapID = 113, -- Northrend
-        quest = 77294,
+        quest = 77294
     }
 }
 
