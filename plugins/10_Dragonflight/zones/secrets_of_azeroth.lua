@@ -593,14 +593,61 @@ tha.nodes[59307882] = TimeLostFragment({
 -------------------------------------------------------------------------------
 
 local BURIED_SATCHELS = {
-    [1] = {quest = 77289, mapID = epl.id, parentMapID = 13}, -- Eastern Plaguelands (Kalimdor)
-    [2] = {quest = 77288, mapID = fel.id, parentMapID = 12}, -- Felwood (Eastern Kingdoms)
-    [3] = {quest = 77291, mapID = tho.id, parentMapID = 12}, -- Thousand Needles (Eastern Kingdoms)
-    [4] = {quest = 77292, mapID = smv.id, parentMapID = 1922}, -- Shadowmoon Valley (Draenor)
-    [5] = {quest = 77290, mapID = net.id, parentMapID = 101}, -- Netherstorm (Outland)
-    [6] = {quest = 77293, mapID = vfw.id, parentMapID = 424}, -- Valley of the Four Winds (Pandaria)
-    [7] = {quest = 77296, mapID = tas.id, parentMapID = 1978} -- The Azure Span (Dragon Isles)
+    [1] = {
+        coordinates = 55245943,
+        location = L['bs_epl_location'],
+        map = epl, -- Eastern Plaguelands
+        parentMapID = 13, -- Kalimdor
+        quest = 77289
+    },
+    [2] = {
+        coordinates = 42214805,
+        location = L['bs_fel_location'],
+        map = fel, -- Felwood
+        parentMapID = 12, -- Eastern Kingdoms
+        quest = 77288
+    },
+    [3] = {
+        coordinates = 42753063,
+        location = L['bs_tho_location'],
+        map = tho, -- Thousand Needles
+        parentMapID = 12, -- Eastern Kigndoms
+        pois = {POI({44003730})},
+        quest = 77291
+    },
+    [4] = {
+        coordinates = 35314895,
+        location = L['bs_smv_location'],
+        map = smv, -- Shadowmoon Valley
+        parentMapID = 1922, -- Draenor
+        quest = 77292
+    },
+    [5] = {
+        coordinates = 26246854,
+        location = L['bs_net_location'],
+        map = net, -- Netherstorm
+        parentMapID = 101, -- Outland
+        quest = 77290,
+        requires = REQUIREMENT_TORCH_OF_PYRRETH
+    },
+    [6] = {
+        coordinates = 56812143,
+        location = L['bs_vfw_location'],
+        map = vfw, -- Vally of the Four Winds
+        parentMapID = 424, -- Pandaria
+        quest = 77293
+    },
+    [7] = {
+        coordinates = 25207140,
+        location = L['bs_tas_location'],
+        map = tas, -- The Azure Span
+        parentMapID = 1978, -- Dragon Isles
+        quest = 77296,
+        requires = REQUIREMENT_TORCH_OF_PYRRETH
+    }
 }
+
+-------------------------- BURIED SATCHEL LIST NODE ---------------------------
 
 local BuriedSatchelList = Class('BuriedSatchelList', SecretsOfAzeroth, {
     label = '{item:208142}',
@@ -624,7 +671,7 @@ function BuriedSatchelList.getters:note()
 
     local note = L['buried_satchel_note'] .. '\n'
     for num, satchel in ipairs(BURIED_SATCHELS) do
-        local mName = C_Map.GetMapInfo(satchel.mapID).name
+        local mName = C_Map.GetMapInfo(satchel.map.id).name
         local pName = C_Map.GetMapInfo(satchel.parentMapID).name
         local qDone = complete(num, satchel.quest)
         note = note .. format('\n%s %s (%s)', qDone, mName, pName)
@@ -634,6 +681,8 @@ end
 
 val.nodes[87002100] = BuriedSatchelList()
 
+---------------------------- BURIED SATCHEL NODES -----------------------------
+
 local BuriedSatchel = Class('BuriedSatchel', SecretsOfAzeroth, {
     label = '{item:208142}',
     note = L['buried_satchel_note'],
@@ -642,47 +691,12 @@ local BuriedSatchel = Class('BuriedSatchel', SecretsOfAzeroth, {
     }
 }) -- Buried Satchel
 
-epl.nodes[55245943] = BuriedSatchel({
-    location = L['bs_epl_location'],
-    quest = 77289,
-    rlabel = Gray('(1/15)')
-}) -- Eastern Plaguelands
-
-fel.nodes[42214805] = BuriedSatchel({
-    location = L['bs_fel_location'],
-    quest = 77288,
-    rlabel = Gray('(2/15)')
-}) -- Felwood
-
-tho.nodes[42753063] = BuriedSatchel({
-    location = L['bs_tho_location'],
-    pois = {POI({44003730})},
-    quest = 77291,
-    rlabel = Gray('(3/15)')
-}) -- Thousand Needles
-
-smv.nodes[35314895] = BuriedSatchel({
-    location = L['bs_smv_location'],
-    quest = 77292,
-    rlabel = Gray('(4/15)')
-}) -- Shadowmoon Valley (Draenor)
-
-net.nodes[26246854] = BuriedSatchel({
-    location = L['bs_net_location'],
-    quest = 77290,
-    requires = REQUIREMENT_TORCH_OF_PYRRETH,
-    rlabel = Gray('(5/15)')
-}) -- Netherstorm
-
-vfw.nodes[56812143] = BuriedSatchel({
-    location = L['bs_vfw_location'],
-    quest = 77293,
-    rlabel = Gray('(6/15)')
-}) -- Valley of the Four Winds
-
-tas.nodes[25207140] = BuriedSatchel({
-    location = L['bs_tas_location'],
-    quest = 77296,
-    requires = REQUIREMENT_TORCH_OF_PYRRETH,
-    rlabel = Gray('(7/15)')
-}) -- The Azure Span
+for num, satchel in ipairs(BURIED_SATCHELS) do
+    satchel.map.nodes[satchel.coordinates] = BuriedSatchel({
+        location = satchel.location,
+        quest = satchel.quest,
+        rlabel = Gray(format('(%s/15)', num)),
+        requires = satchel.requires or nil,
+        pois = satchel.pois or nil
+    })
+end
