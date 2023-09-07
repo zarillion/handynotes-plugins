@@ -906,7 +906,7 @@ L['soa_08_tl_fragment_location_c'] = 'Am Grund des kleinen Flusses.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
-L['buried_satchel_sublabel'] = '{note:Das ist KEINE {item:208142} Position.}'
+L['buried_satchel_sublabel'] = '{note:An dieser Position ist KEIN {item:208142}.}'
 
 L['bs_epl_location'] = 'Hinter dem Haus bei {location:Corins Kreuzung}.'
 L['bs_fel_location'] = 'Unter Wasser bei {location:Die Blutgiftfälle}.'
