@@ -897,7 +897,7 @@ L['soa_07_idol_note'] = 'Despoja el {item:207730} junto al {object:Blandón de I
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '(Pista 8)'
-L['soa_08_time_lost_fragment_note'] = 'Usa la {item:208135} para encontrar 3x {item:208191} en el {location:Mar de Dunas} de {location:Thaldraszus}.\n\nCombínalos para crear la {item:208146} y devuélvela a {npc:206864} en {location:Valdrakken}.'
+L['soa_08_time_lost_fragment_note'] = 'Usa la {item:207730} para encontrar 3x {item:208191} en el {location:Mar de Dunas} de {location:Thaldraszus}.\n\nCombínalos para crear la {item:208146} y devuélvela a {npc:206864} en {location:Valdrakken}.'
 L['soa_08_tl_fragment_location_a'] = 'Debajo de un árbol pequeño.'
 L['soa_08_tl_fragment_location_b'] = 'Entre dos rocas grandes.'
 L['soa_08_tl_fragment_location_c'] = 'En el fondo de un río pequeño.'
