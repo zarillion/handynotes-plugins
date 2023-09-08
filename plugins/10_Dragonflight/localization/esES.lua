@@ -853,7 +853,7 @@ L['soa_03_fangli_hoot_note_e'] = 'Combina los objetos para conseguir {item:20782
 L['soa_03_fangli_clue_label'] = 'Pista de Fangli'
 L['soa_03_fangli_clue'] = 'Cerca de una cascada en el {location:Enclave Emeralda}.'
 L['soa_03_erugosa_note_a'] = 'Habla con {npc:185556} para conseguir la {item:208416}. Necesitarás conseguir los siguientes objetos para ella:'
-L['soa_03_erugosa_note_b'] = 'Compra 5x {item:198441} a {npc:194152} de {location:Avanzada Pasoleño} en las {location:Llanuras de Ohn\'ahran}.'
+L['soa_03_erugosa_note_b'] = 'Compra 5x {item:198441} a {npc:194152} de {location:Avanzada Pasoleño} en las {location:Llanuras de Ohn\'ahra}.'
 L['soa_03_erugosa_note_c'] = 'Compra 5x {item:201419} a {npc:196729} de {location:Valdrakken} en {location:Thaldraszus}.'
 L['soa_03_erugosa_note_d'] = 'Compra 5x {item:205693} a {npc:204371} de {location:Loamm} en la {location:Caverna Zaralek}.'
 L['soa_03_clinkyclick_note_a'] = 'Habla con {npc:185548} para conseguir {item:207814}. Necesitarás:'
@@ -891,7 +891,7 @@ L['soa_06_unvieled_tablet_note_c'] = 'Despoja el {item:208143} y devuélvelo a {
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '(Pista 7)'
 L['soa_07_brazier_label'] = 'Blandón de Incienso Antiguo'
-L['soa_07_brazier_note_a'] = 'Habla con {npc:185562} para completar la misión {quest:77303} y conseguir {item:208144}.\n\nVes a las {location:Orillas del Despertar} a {location:Kurgans Eternos}.'
+L['soa_07_brazier_note_a'] = 'Habla con {npc:185562} para completar la misión {quest:77303} y conseguir {item:208144}.\n\nVes a las {location:Llanuras de Ohn\'ahra} a {location:Kurgans Eternos}.'
 L['soa_07_brazier_note_b'] = 'Usa la {item:208135} para encender el {object:Blandón de Incienso Antiguo} dentro del túmulo funerario.'
 L['soa_07_idol_note'] = 'Despoja el {item:207730} junto al {object:Blandón de Incienso Antiguo} y devuélvelo a {location:Valdrakken}.'
 
@@ -905,11 +905,11 @@ L['soa_08_tl_fragment_location_c'] = 'En el fondo de un río pequeño.'
 
 -- Secrets of Azeroth: Clue 9
 L['soa_09_rlabel'] = '(Pista 9)'
-L['soa_09_bobby_note'] = nil
-L['soa_09_hastily_scrawled_stone_label'] = nil
-L['soa_09_hastily_scrawled_stone_note'] = nil
-L['soa_09_ancient_key_mold_label'] = nil
-L['soa_09_ancient_key_mold_note'] = nil
+L['soa_09_bobby_note'] = 'Habla con {npc:207696} para empezar la misión {quest:77653}. Entrega la misión al {npc:195769} para conseguir {item:208486}.\n\nEntonces viaja al {location:Claro Nemoroso} en las {location:Llanuras Ohn\'ahra}'
+L['soa_09_hastily_scrawled_stone_label'] = 'Tablilla Inscrita con Prisas'
+L['soa_09_hastily_scrawled_stone_note'] = 'Usa la {item:208092} para descubrir la {object:Tablilla Inscrita con Prisas} e ir junto al {object:Molde de Llave Antiguo}.'
+L['soa_09_ancient_key_mold_label'] = 'Molde de Llave Antiguo'
+L['soa_09_ancient_key_mold_note'] = 'Despoja el {object:Molde de Llave Antiguo} para conseguir el {item:208827} que empezará la misión {quest:77822}.\n\nDevuélvelo al {npc:195769} en {location:Valdrakken}.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
