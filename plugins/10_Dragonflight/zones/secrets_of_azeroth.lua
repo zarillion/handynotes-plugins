@@ -597,7 +597,54 @@ tha.nodes[59307882] = TimeLostFragment({
 })
 
 -- 77305 ![Out of the Sands]
--- 76508 Clue 8 complete
+-- 76508 Clue 08 complete
+
+-------------------------------------------------------------------------------
+------------------------- SECRETS OF AZEROTH: CLUE 09 -------------------------
+-------------------------------------------------------------------------------
+
+val.nodes[47964685] = SecretsOfAzeroth({
+    label = '{npc:207696}',
+    rlabel = Gray(L['soa_09_rlabel']),
+    note = L['soa_09_bobby_note'],
+    quest = {
+        77653, -- A Key Story (buggy never true)
+        77576 -- Clue 09 complete (TODO: remove if 77653 is fixed)
+    },
+    questAny = true, -- TODO: remove if 77653 is fixed
+    questDeps = 76508, -- Clue 08 complete
+    rewards = {
+        Achievement({id = 18646, criteria = 9}) -- Whodunnit?
+    },
+    pois = {POI({36195194})} -- Weaponsmith Koref
+}) -- Bobby Carlisle
+
+ohn.nodes[63385694] = SecretsOfAzeroth({
+    label = L['soa_09_hastily_scrawled_stone_label'],
+    note = L['soa_09_hastily_scrawled_stone_note'],
+    rlabel = Gray(L['soa_09_rlabel']),
+    quest = {
+        77822, -- ![A Titanic Mold]
+        77576 -- Clue 09 complete
+    },
+    questAny = true
+    -- questDeps = 77653 -- A Key Story (TODO: uncomment if 77653 is fixed)
+}) -- Hastily Scrawled Stone
+
+ohn.nodes[63005737] = SecretsOfAzeroth({
+    label = L['soa_09_ancient_key_mold_label'],
+    note = L['soa_09_ancient_key_mold_note'],
+    rlabel = Gray(L['soa_09_rlabel']),
+    quest = {
+        77822, -- ![A Titanic Mold]
+        77576 -- Clue 09 complete
+    },
+    questAny = true
+    -- questDeps = 77653 -- A Key Story (TODO: uncomment if 77653 is fixed)
+}) -- Ancient Key Mold
+
+-- 77822 --![A Titanic Mold]
+-- 77576 -- Clue 09 complete
 
 -------------------------------------------------------------------------------
 -------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------

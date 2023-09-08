@@ -902,6 +902,14 @@ L['soa_08_tl_fragment_location_a'] = '小树下。'
 L['soa_08_tl_fragment_location_b'] = '两块大石头之间。'
 L['soa_08_tl_fragment_location_c'] = '在小河的底部。'
 
+-- Secrets of Azeroth: Clue 9
+L['soa_09_rlabel'] = nil
+L['soa_09_bobby_note'] = nil
+L['soa_09_hastily_scrawled_stone_label'] = nil
+L['soa_09_hastily_scrawled_stone_note'] = nil
+L['soa_09_ancient_key_mold_label'] = nil
+L['soa_09_ancient_key_mold_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = '从 {object:松软的泥土堆} 中拾取 {item:208142}。'
 L['buried_satchel_sublabel'] = '{note:这*不是* {item:208142} 的位置。}'

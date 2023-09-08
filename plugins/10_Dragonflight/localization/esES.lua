@@ -903,6 +903,14 @@ L['soa_08_tl_fragment_location_a'] = 'Debajo de un árbol pequeño.'
 L['soa_08_tl_fragment_location_b'] = 'Entre dos rocas grandes.'
 L['soa_08_tl_fragment_location_c'] = 'En el fondo de un río pequeño.'
 
+-- Secrets of Azeroth: Clue 9
+L['soa_09_rlabel'] = '(Pista 9)'
+L['soa_09_bobby_note'] = nil
+L['soa_09_hastily_scrawled_stone_label'] = nil
+L['soa_09_hastily_scrawled_stone_note'] = nil
+L['soa_09_ancient_key_mold_label'] = nil
+L['soa_09_ancient_key_mold_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
 L['buried_satchel_sublabel'] = '{note:Esto no es un localización de {item:208142}.}'

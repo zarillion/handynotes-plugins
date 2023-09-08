@@ -900,6 +900,14 @@ L['soa_08_tl_fragment_location_a'] = 'Sous un petit arbre.'
 L['soa_08_tl_fragment_location_b'] = 'Entre deux gros rochers.'
 L['soa_08_tl_fragment_location_c'] = 'Au fond de la petite rivière.'
 
+-- Secrets of Azeroth: Clue 9
+L['soa_09_rlabel'] = '(Indice n°9)'
+L['soa_09_bobby_note'] = nil
+L['soa_09_hastily_scrawled_stone_label'] = nil
+L['soa_09_hastily_scrawled_stone_note'] = nil
+L['soa_09_ancient_key_mold_label'] = nil
+L['soa_09_ancient_key_mold_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
 L['buried_satchel_sublabel'] = '{note:Ceci n\'est PAS un emplacement de {item:208142}.}'

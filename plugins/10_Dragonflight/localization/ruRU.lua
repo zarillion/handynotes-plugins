@@ -903,6 +903,14 @@ L['soa_08_tl_fragment_location_a'] = nil
 L['soa_08_tl_fragment_location_b'] = nil
 L['soa_08_tl_fragment_location_c'] = nil
 
+-- Secrets of Azeroth: Clue 9
+L['soa_09_rlabel'] = nil
+L['soa_09_bobby_note'] = nil
+L['soa_09_hastily_scrawled_stone_label'] = nil
+L['soa_09_hastily_scrawled_stone_note'] = nil
+L['soa_09_ancient_key_mold_label'] = nil
+L['soa_09_ancient_key_mold_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = nil
 L['buried_satchel_sublabel'] = nil

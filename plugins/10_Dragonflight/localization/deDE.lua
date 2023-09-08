@@ -904,6 +904,14 @@ L['soa_08_tl_fragment_location_a'] = 'Unter einem kleinen Baum.'
 L['soa_08_tl_fragment_location_b'] = 'Zwischen zwei großen Felsen.'
 L['soa_08_tl_fragment_location_c'] = 'Am Grund des kleinen Flusses.'
 
+-- Secrets of Azeroth: Clue 9
+L['soa_09_rlabel'] = '(Hinweis 9)'
+L['soa_09_bobby_note'] = 'Sprich mit {npc:207696}, um die Quest {quest:77653} zu starten. Gib diese bei {npc:195769} ab, um {item:208486} zu erhalten.\n\nReise dann in {location:Die Ebenen von Ohn\'ahra} zur {location:Sylvanlichtung}.'
+L['soa_09_hastily_scrawled_stone_label'] = 'Hastig beschriebener Stein'
+L['soa_09_hastily_scrawled_stone_note'] = 'Benutze deine {item:208092}, um den {object:Hastig beschriebener Stein} zu enthüllen.\nGehe nun in der Nähe zur {object:Uralte Schlüsselform}.'
+L['soa_09_ancient_key_mold_label'] = 'Uralte Schlüsselform'
+L['soa_09_ancient_key_mold_note'] = 'Plündere die {object:Uralte Schlüsselform}, um die {item:208827} zu erhalten und die Quest {quest:77822} zu starten.\n\nKehre damit zu {npc:195769} in {location:Valdrakken} zurück.'
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
 L['buried_satchel_sublabel'] = '{note:An dieser Position ist KEIN {item:208142}.}'

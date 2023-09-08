@@ -902,6 +902,14 @@ L['soa_08_tl_fragment_location_a'] = 'Under a small tree.'
 L['soa_08_tl_fragment_location_b'] = 'Between two large boulders.'
 L['soa_08_tl_fragment_location_c'] = 'At the bottom of the small river.'
 
+-- Secrets of Azeroth: Clue 9
+L['soa_09_rlabel'] = '(Clue 9)'
+L['soa_09_bobby_note'] = 'Speak to {npc:207696} to start the quest {quest:77653}. Turn in the quest at {npc:195769} to receive {item:208486}.\n\nThen travel to {location:Sylvan Glade} in {location:Ohn\'ahran Plains}'
+L['soa_09_hastily_scrawled_stone_label'] = 'Hastily Scrawled Stone'
+L['soa_09_hastily_scrawled_stone_note'] = 'Use the {item:208092} to reveal the {object:Hastily Scrawled Stone} then go to the near by {object:Ancient Key Mold}.'
+L['soa_09_ancient_key_mold_label'] = 'Ancient Key Mold'
+L['soa_09_ancient_key_mold_note'] = 'Loot the {object:Ancient Key Mold} to receive {item:208827} to start the quest {quest:77822}.\n\nReturn to {npc:195769} in {location:Valdrakken}.'
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
 L['buried_satchel_sublabel'] = '{note:This is NOT a {item:208142} location.}'
