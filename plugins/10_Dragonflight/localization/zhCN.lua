@@ -925,3 +925,7 @@ L['bs_dbt_location'] = '在 {location:翡翠巨龙圣地} 的大型骷髅爪下�
 
 L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'
+
+-- Mimiron's Jumpjets Mount
+L['soa_mjj_part1_label'] = nil
+L['soa_mjj_part1_note'] = nil

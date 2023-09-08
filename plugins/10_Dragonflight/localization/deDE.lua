@@ -927,3 +927,7 @@ L['bs_dbt_location'] = 'Unter der großen Skelettklaue im {location:Smaragddrach
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der {location:Geheimnisse von Azeroth} für den Erfolg {achievement:18646} an.'
+
+-- Mimiron's Jumpjets Mount
+L['soa_mjj_part1_label'] = '{item:210022} - Teil 1'
+L['soa_mjj_part1_note'] = 'Drei Spieler müssen {item:208092} auf die Kohlepfannen wirken um den {npc:210398} zu beschwören. Er lässt {item:208984} fallen.'

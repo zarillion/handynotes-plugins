@@ -925,3 +925,7 @@ L['bs_dbt_location'] = 'Under the large skeleton claw in the {location:Emerald D
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Display clue locations for {location:Secrets of Azeroth}.'
+
+-- Mimiron's Jumpjets Mount
+L['soa_mjj_part1_label'] = '{item:210022} - Part 1'
+L['soa_mjj_part1_note'] = 'Have 3 players channeling the braziers with their {item:208092} to summon the {npc:210398}. He will drop the {item:208984}.'

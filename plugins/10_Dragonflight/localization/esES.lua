@@ -926,3 +926,7 @@ L['bs_dbt_location'] = 'Debajo de la gran garra esquelética del {location:Santu
 
 L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'
+
+-- Mimiron's Jumpjets Mount
+L['soa_mjj_part1_label'] = nil
+L['soa_mjj_part1_note'] = nil

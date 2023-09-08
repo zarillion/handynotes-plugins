@@ -923,3 +923,7 @@ L['bs_dbt_location'] = 'Sous la grande griffe de squelette au {location:Sanctuai
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'
+
+-- Mimiron's Jumpjets Mount
+L['soa_mjj_part1_label'] = nil
+L['soa_mjj_part1_note'] = nil
