@@ -898,7 +898,7 @@ L['soa_07_idol_note'] = 'Plündere den erschienenen {item:207730} neben dem {obj
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '(Hinweis 8)'
-L['soa_08_kathos_note'] = 'Sprich mit {npc:206864} um {item:206948} zu erhalten.\n\nFliege nach {location:Wandernde Sande} in {location:Thaldraszus} und benutze deinen {item:207730} um 3x {item:208191} zu finden.'
+L['soa_08_kathos_note'] = 'Sprich mit {npc:206864}, um {item:206948} zu erhalten.\n\nFliege nach {location:Wandernde Sande} in {location:Thaldraszus} und benutze deinen {item:207730} um 3x {item:208191} zu finden.'
 L['soa_08_time_lost_fragment_note'] = 'Benutze deinen {item:207730}, um die drei {item:208191} in {location:Wandernde Sande} in {location:Thaldraszus} zu finden.\n\nKombiniere die drei Fragmente, um eine {item:208146} herzustellen und kehre damit nach {location:Valdrakken} zu {npc:206864} zurück.'
 L['soa_08_tl_fragment_location_a'] = 'Unter einem kleinen Baum.'
 L['soa_08_tl_fragment_location_b'] = 'Zwischen zwei großen Felsen.'
@@ -915,7 +915,7 @@ L['bs_smv_location'] = 'Im Inneren des hohlen Baumes in {location:Mondweidengipf
 L['bs_net_location'] = 'In der {location:Manaschmiede B\'naar} in {location:Nethersturm} in der {location:Scherbenwelt}.\n\n{note:Es sind 3 Spieler erforderlich, die den Zauber {item:208092} auf die Kristalle in der Nähe wirken, damit ein {object:Lockerer Erdhaufen} erscheint.}'
 L['bs_vfw_location'] = 'Am Anfang des Wasserfalls im Mund der {npc:129151} Statue.'
 L['bs_tas_location'] = 'Benutze deine {item:208092}, um den {npc:96438} zu schmelzen und den {object:Lockerer Erdhaufen} freizulegen.'
-L['bs_dbt_location'] = nil
+L['bs_dbt_location'] = 'Unter der großen Skelettklaue im {location:Smaragddrachenschrein}.'
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der {location:Geheimnisse von Azeroth} für den Erfolg {achievement:18646} an.'

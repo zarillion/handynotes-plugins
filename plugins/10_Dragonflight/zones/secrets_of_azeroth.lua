@@ -99,6 +99,7 @@ val.nodes[47314824] = SecretsOfAzeroth({
 tas.nodes[12404933] = SecretsOfAzeroth({
     label = '{npc:186448}',
     note = L['soa_02_shomko_note_a'] .. '\n\n' .. L['soa_02_shomko_note_b'],
+    quest = 76987,
     questDeps = 77203, -- ![Preserving Rarities]
     playerHasItem = {207580}, -- Shomko's Unyidling Spear
     requires = ns.requirement.Item(207105), -- Tuskarr Ceremonial Spear
@@ -565,7 +566,7 @@ val.nodes[47314823] = SecretsOfAzeroth({
     label = '{npc:206864}',
     note = L['soa_08_kathos_note'],
     questDeps = 77524, -- Clue 07 complete
-    quest = 76509, -- ![Preserving Rarities]
+    quest = 77854, -- ![Into the Sands]
     rlabel = Gray(L['soa_08_rlabel']),
     rewards = {
         Achievement({id = 18646, criteria = 8}) -- Whodunnit?

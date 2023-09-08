@@ -913,7 +913,7 @@ L['bs_smv_location'] = 'Inside the hollow tree in {location:Moonwillow Peak}.'
 L['bs_net_location'] = 'In {location:Manaforge B\'naar} in {location:Netherstorm} in {location:Outland}.\n\n{note:You will need 3 players to channel {item:208092} on the nearby crystals to spawn the {object:Loose Dirt Mound}.}'
 L['bs_vfw_location'] = 'At the top of the golden waterfall within the mouth of the {npc:129151} statue.'
 L['bs_tas_location'] = 'Use the {item:208135} to melt the {npc:96438} and reveal the {object:Loose Dirt Mound}.'
-L['bs_dbt_location'] = 'Under the large skelelon claw in the {location:Emerald Dragonshrine}.'
+L['bs_dbt_location'] = 'Under the large skeleton claw in the {location:Emerald Dragonshrine}.'
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Display clue locations for {location:Secrets of Azeroth}.'
