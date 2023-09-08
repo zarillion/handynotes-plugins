@@ -616,7 +616,7 @@ tha.nodes[59307882] = TimeLostFragment({
 -- nst.nodes[72123291]
 -- L['soa_mjj_fbp_d'] = 'Found at the entrance to {location:Zul\'Gurub}.'
 
-local zgb = ns.maps[337] or Map({id = 337, settings = true}) -- Zul'Gurub
+-- local zgb = ns.maps[337] or Map({id = 337, settings = true}) -- Zul'Gurub
 
 -- zgb.nodes[44465099]
 -- L['soa_mjj_fbp_e'] = ''

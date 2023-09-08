@@ -896,7 +896,7 @@ L['soa_07_idol_note'] = '拾取 {object:上古熏香火盆} 旁边被揭示的 {
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '（线索八）'
-L['soa_08_kathos_note'] = nil
+L['soa_08_kathos_note'] = '与 {npc:206864} 交谈得到 {item:206948}。\n\n飞到 {location:索德拉苏斯} 的 {location:变换流沙} 并使用 {item:207730} 找到3个 {item:208191}。'
 L['soa_08_time_lost_fragment_note'] = '在 {location:索德拉苏斯} 的 {location:变换流沙} 使用 {item:208135} 找到3个 {item:208191}。\n\n将所有3个组合起来创建 {item:208146} 并返回 {location:瓦德拉肯} 的 {npc:206864}。'
 L['soa_08_tl_fragment_location_a'] = '小树下。'
 L['soa_08_tl_fragment_location_b'] = '两块大石头之间。'
@@ -913,7 +913,7 @@ L['bs_smv_location'] = '在 {location:月柳山} 附近的空心树内。'
 L['bs_net_location'] = '在 {location:外域} {location:虚空风暴} 的 {location:法力熔炉：布纳尔} 中。\n\n{note:需要3名玩家在附近的水晶上引导 {item:208092} 来生成 {object:松软的泥土堆}。}'
 L['bs_vfw_location'] = '在金色瀑布顶部的 {npc:129151} 雕像口内。'
 L['bs_tas_location'] = '使用 {item:208135} 融化 {npc:96438} 并露出 {object:松软的泥土堆}。'
-L['bs_dbt_location'] = nil
+L['bs_dbt_location'] = '在 {location:翡翠巨龙圣地} 的大型骷髅爪下。'
 
 L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'
