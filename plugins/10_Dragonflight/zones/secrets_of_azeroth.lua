@@ -657,7 +657,7 @@ local MJJ_Parts = {
     [1] = {
         coordinates = 55245943,
         map = cst, -- Cape of Stranglethorn
-        parentMapID = 12, -- Eastern Kingdoms
+        parentMapID = 13, -- Eastern Kingdoms
         item = 208984 -- First Booster Part
     }
     -- [2] = {
