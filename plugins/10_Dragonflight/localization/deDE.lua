@@ -924,11 +924,12 @@ L['bs_net_location'] = 'In der {location:Manaschmiede B\'naar} in {location:Neth
 L['bs_vfw_location'] = 'Am Anfang des Wasserfalls im Mund der {npc:129151} Statue.'
 L['bs_tas_location'] = 'Benutze deine {item:208092}, um den {npc:96438} zu schmelzen und den {object:Lockerer Erdhaufen} freizulegen.'
 L['bs_dbt_location'] = 'Unter der großen Skelettklaue im {location:Smaragddrachenschrein}.'
+L['bs_bar_location'] = 'Auf dem Gipfel des Berges.'
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der {location:Geheimnisse von Azeroth} für den Erfolg {achievement:18646} an.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = 'Sammle alle Teile um {item:210022} zu erhalten.'
+L['soa_mjj_list_note'] = 'Sammle alle Teile, um {item:210022} zu erhalten.'
 L['soa_mjj_part1_label'] = '{item:210022} - Teil 1'
-L['soa_mjj_part1_note'] = 'Drei Spieler müssen {item:208092} auf die Kohlepfannen wirken um den {npc:210398} zu beschwören. Er lässt {item:208984} fallen.'
+L['soa_mjj_part1_note'] = 'Drei Spieler müssen ihre {item:208092} auf die Kohlepfannen wirken, um den {npc:210398} zu beschwören. Er lässt {item:208984} fallen.'

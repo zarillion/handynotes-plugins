@@ -36,6 +36,7 @@ local smv = ns.maps[539] or Map({id = 539, settings = true}) -- Shadowmoon Valle
 local tho = ns.maps[64] or Map({id = 64, settings = true}) -- Thousand Needles
 local vfw = ns.maps[376] or Map({id = 376, settings = true}) -- Valley of the Four Winds
 local dbt = ns.maps[115] or Map({id = 115, settings = true}) -- Dragonblight
+local bar = ns.maps[10] or Map({id = 10, settings = true}) -- Northern Barrens
 
 -------------------------------------------------------------------------------
 
@@ -726,21 +727,21 @@ local BURIED_SATCHELS = {
         coordinates = 55245943,
         location = L['bs_epl_location'],
         map = epl, -- Eastern Plaguelands
-        parentMapID = 13, -- Kalimdor
+        parentMapID = 13, -- Eastern Kingdoms
         quest = 77289
     },
     [2] = {
         coordinates = 42214805,
         location = L['bs_fel_location'],
         map = fel, -- Felwood
-        parentMapID = 12, -- Eastern Kingdoms
+        parentMapID = 12, -- Kalimdor
         quest = 77288
     },
     [3] = {
         coordinates = 42753063,
         location = L['bs_tho_location'],
         map = tho, -- Thousand Needles
-        parentMapID = 12, -- Eastern Kigndoms
+        parentMapID = 12, -- Kalimdor
         pois = {POI({44003730})},
         quest = 77291
     },
@@ -780,6 +781,13 @@ local BURIED_SATCHELS = {
         map = dbt, -- Dragonblight
         parentMapID = 113, -- Northrend
         quest = 77294
+    },
+    [9] = {
+        coordinates = 46055068,
+        location = L['bs_bar_location'],
+        map = bar, -- Northern Barrens
+        parentMapID = 12, -- Kalimdor
+        quest = 77297
     }
 }
 

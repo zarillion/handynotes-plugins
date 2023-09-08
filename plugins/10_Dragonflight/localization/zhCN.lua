@@ -922,6 +922,7 @@ L['bs_net_location'] = '在 {location:外域} {location:虚空风暴} 的 {locat
 L['bs_vfw_location'] = '在金色瀑布顶部的 {npc:129151} 雕像口内。'
 L['bs_tas_location'] = '使用 {item:208135} 融化 {npc:96438} 并露出 {object:松软的泥土堆}。'
 L['bs_dbt_location'] = '在 {location:翡翠巨龙圣地} 的大型骷髅爪下。'
+L['bs_bar_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'

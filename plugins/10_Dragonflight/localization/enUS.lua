@@ -922,6 +922,7 @@ L['bs_net_location'] = 'In {location:Manaforge B\'naar} in {location:Netherstorm
 L['bs_vfw_location'] = 'At the top of the golden waterfall within the mouth of the {npc:129151} statue.'
 L['bs_tas_location'] = 'Use the {item:208135} to melt the {npc:96438} and reveal the {object:Loose Dirt Mound}.'
 L['bs_dbt_location'] = 'Under the large skeleton claw in the {location:Emerald Dragonshrine}.'
+L['bs_bar_location'] = 'On top of the mountain.'
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Display clue locations for {location:Secrets of Azeroth}.'
