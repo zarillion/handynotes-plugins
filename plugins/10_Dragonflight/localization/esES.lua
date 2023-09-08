@@ -923,12 +923,12 @@ L['bs_net_location'] = 'En {location:Forja de Maná B\'naar} de {location:Tormen
 L['bs_vfw_location'] = 'En la cima de la cascada dorada y dentro de la boca la estatua de un {npc:129151}.'
 L['bs_tas_location'] = 'Usa la {item:208135} para derretir el {npc:96438} y hacer aparecer el {object:Montículo de Porquería Blanda}.'
 L['bs_dbt_location'] = 'Debajo de la gran garra esquelética del {location:Santuario de Dragones Esmeralda}.'
-L['bs_bar_location'] = nil
+L['bs_bar_location'] = 'En la cima de la montaña.'
 
 L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = nil
-L['soa_mjj_part1_label'] = nil
-L['soa_mjj_part1_note'] = nil
+L['soa_mjj_list_note'] = 'Recoge todas las Partes para conseguir {item:210022}.'
+L['soa_mjj_part1_label'] = '{item:210022} - Parte 1'
+L['soa_mjj_part1_note'] = 'Necesitas a 2 jugadores más para que canalicen junto a ti sus {item:208092} a los braseros {item:208092} para invocar a {npc:210398}. Al despojarlo soltará {item:208984}.'
