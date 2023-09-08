@@ -929,6 +929,6 @@ L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = 'Recoge todas las Partes para conseguir {item:210022}.'
+L['soa_mjj_list_note'] = 'Haz todas las Partes para conseguir {item:210022}.'
 L['soa_mjj_part1_label'] = '{item:210022} - Parte 1'
 L['soa_mjj_part1_note'] = 'Necesitas a 2 jugadores más para que canalicen junto a ti sus {item:208092} a los braseros {item:208092} para invocar a {npc:210398}. Al despojarlo soltará {item:208984}.'
