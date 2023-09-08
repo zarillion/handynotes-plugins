@@ -902,11 +902,11 @@ L['soa_08_tl_fragment_location_c'] = 'Au fond de la petite rivière.'
 
 -- Secrets of Azeroth: Clue 9
 L['soa_09_rlabel'] = '(Indice n°9)'
-L['soa_09_bobby_note'] = nil
-L['soa_09_hastily_scrawled_stone_label'] = nil
-L['soa_09_hastily_scrawled_stone_note'] = nil
-L['soa_09_ancient_key_mold_label'] = nil
-L['soa_09_ancient_key_mold_note'] = nil
+L['soa_09_bobby_note'] = 'Parlez à {npc:207696} pour commencer la quête {quest:77653}. Complétez la quête en allant voir le {npc:195769} et récupérez {item:208486}.\n\nEnsuite, rendez-vous à la {location:Clairière Sylvestre} aux {location:Plaines d\'Ohn\'ahra}.'
+L['soa_09_hastily_scrawled_stone_label'] = 'Pierre griffonnée à la hâte'
+L['soa_09_hastily_scrawled_stone_note'] = 'Utilisez la {item:208092} pour révéler la {object:Pierre griffonnée à la hâte} puis allez vers le {object:Moule de clé antique} à proximité.'
+L['soa_09_ancient_key_mold_label'] = 'Moule de clé antique'
+L['soa_09_ancient_key_mold_note'] = 'Récupérez le {object:Moule de clé antique} pour obtenir le {item:208827} qui lancera la quête {quest:77822}.\n\nRetournez voir le {npc:195769} à {location:Valdrakken}.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
@@ -925,5 +925,5 @@ L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_part1_label'] = nil
-L['soa_mjj_part1_note'] = nil
+L['soa_mjj_part1_label'] = '{item:210022} - Partie 1'
+L['soa_mjj_part1_note'] = 'Il faut que 3 joueurs canalisent les braseros avec leur {item:208092} pour invoquer le {npc:210398}. Il donnera la {item:208984}.'
