@@ -652,11 +652,69 @@ ohn.nodes[63005737] = SecretsOfAzeroth({
 
 local cst = ns.maps[210] or Map({id = 210, settings = true}) -- Cape of Stranglethorn
 
+local MJJ_Parts = {
+    [1] = {
+        coordinates = 55245943,
+        map = cst, -- Cape of Stranglethorn
+        parentMapID = 12, -- Eastern Kingdoms
+        item = 208984 -- First Booster Part
+    }
+    -- [2] = {
+    --     coordinates = nil,
+    --     map = nil
+    --     parentMapID = nil
+    --     item = nil
+    -- },
+    -- [3] = {
+    --     coordinates = nil,
+    --     map = nil
+    --     parentMapID = nil
+    --     item = nil
+    -- },
+    -- [4] = {
+    --     coordinates = nil,
+    --     map = nil
+    --     parentMapID = nil
+    --     item = nil
+    -- }
+}
+
+local MJJ_List = Class('MJJ_List', SecretsOfAzeroth, {
+    label = '{item:210022}',
+    icon = 'peg_bl',
+    rewards = {
+        ns.reward.Mount({id = 1813, item = 210022}) -- Mimiron's Jumpjets
+    }
+}) -- Mimiron's Jumpjets List
+
+function MJJ_List.getters:note()
+    local function complete(num, item)
+        if ns.PlayerHasItem(item) then return ns.status.Green(num) end
+        return ns.status.Red(num)
+    end
+
+    local note = L['soa_mjj_list_note'] .. '\n'
+    for num, part in ipairs(MJJ_Parts) do
+        local mName = C_Map.GetMapInfo(part.map.id).name
+        local pName = C_Map.GetMapInfo(part.parentMapID).name
+        local done = complete(num, part.item)
+        note = note ..
+                   format('\n%s {item:%d} - %s (%s)', done, part.item, mName,
+                pName)
+    end
+    return note
+end
+
+val.nodes[87002500] = MJJ_List()
+
 cst.nodes[59187842] = SecretsOfAzeroth({
     label = L['soa_mjj_part1_label'],
     note = L['soa_mjj_part1_note'],
+    requires = REQUIREMENT_TORCH_OF_PYRRETH,
     playerHasItem = {208984},
-    rewards = {Item({item = 208984})}
+    rewards = {
+        Item({item = 208984}) -- First Booster Part
+    }
 }) -- Mimiron's Jumpjets - Part 1
 
 -------------------------------------------------------------------------------

@@ -927,5 +927,6 @@ L['options_icons_secrets_of_azeroth'] = nil
 L['options_icons_secrets_of_azeroth_desc'] = nil
 
 -- Mimiron's Jumpjets Mount
+L['soa_mjj_list_note'] = nil
 L['soa_mjj_part1_label'] = nil
 L['soa_mjj_part1_note'] = nil
