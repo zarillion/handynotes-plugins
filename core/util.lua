@@ -127,7 +127,7 @@ local function RenderLinks(str, nameOnly)
     end)
     -- render commonly colored text
     local function renderNonNumeric(str)
-        local result = str:gsub('{(%l+):([^}]+)}', function(type, text)
+        local result = str:gsub('{(%l+):([^{}]+)}', function(type, text)
             if type == 'bug' then return ns.color.Red(text) end
             if type == 'emote' then return ns.color.Orange(text) end
             if type == 'location' then return ns.color.Yellow(text) end
