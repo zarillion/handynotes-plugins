@@ -9,6 +9,7 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local Dragonglyph = ns.node.Dragonglyph
+local PT = ns.node.ProfessionTreasures
 
 local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
@@ -293,6 +294,124 @@ map.nodes[80004600] = Treasure({ -- REVIEW
         Achievement({id = 19317, criteria = 62952}) -- Treasures of The Emerald Dream
     }
 }) -- Triflesnatch's Roving Trove
+
+-------------------------------------------------------------------------------
+----------------------------- PROFESSION TREASURES ----------------------------
+-------------------------------------------------------------------------------
+-- https://www.wowhead.com/ptr-2/items/quality:4?filter=168:99:82;2:11:2;0:0:100200
+
+map.nodes[54043264] = PT.Alchemy({id = 210184, quest = 78264}) -- Experimental Decay Sample
+
+map.nodes[36264653] = PT.Alchemy({id = 210185, quest = 78269}) -- Splash Potion of Narcolepsy
+
+map.nodes[80004800] = PT.Alchemy({ -- REVIEW
+    id = 210190,
+    quest = nil
+}) -- Blazeroot
+
+map.nodes[46152058] = PT.Enchanting({id = 210231, quest = 78309}) -- Everburning Core
+
+map.nodes[38373020] = PT.Enchanting({id = 210228, quest = 78308}) -- Pure Dream Water
+
+map.nodes[92004800] = PT.Enchanting({ -- REVIEW
+    id = 210234,
+    quest = nil
+}) -- Essence of Dreams
+
+map.nodes[84004800] = PT.Inscription({ -- REVIEW
+    id = 210458,
+    quest = nil
+}) -- Winnie's Notes on Flora and Fauna
+
+map.nodes[86004800] = PT.Inscription({ -- REVIEW
+    id = 210459,
+    quest = nil
+}) -- Grove Keeper's Pillar
+
+map.nodes[82004800] = PT.Inscription({ -- REVIEW
+    id = 210460,
+    quest = nil
+}) -- Primalist Shadowbinding Rune
+
+map.nodes[88004800] = PT.Blacksmithing({ -- REVIEW
+    id = 210466,
+    quest = nil
+}) -- Flamesworn Render
+
+map.nodes[90004800] = PT.Blacksmithing({ -- REVIEW
+    id = 210464,
+    quest = nil
+}) -- Amirdrassil Defender's Shield
+
+map.nodes[94004800] = PT.Blacksmithing({ -- REVIEW
+    id = 210465,
+    quest = nil
+}) -- Deathstalker Chasis
+
+map.nodes[80005000] = PT.Engineering({ -- REVIEW
+    id = 210193,
+    quest = nil
+}) -- Experimental Dreamcatcher
+
+map.nodes[82005000] = PT.Engineering({ -- REVIEW
+    id = 210194,
+    quest = nil
+}) -- Insomniotron
+
+map.nodes[84005000] = PT.Engineering({ -- REVIEW
+    id = 210197,
+    quest = nil
+}) -- Unhatched Battery
+
+map.nodes[86005000] = PT.Engineering({ -- REVIEW
+    id = 210198,
+    quest = nil
+}) -- Depleted Battery
+
+map.nodes[88005000] = PT.Tailoring({ -- REVIEW
+    id = 210461,
+    quest = nil
+}) -- Exceedingly Soft Wildercloth
+
+map.nodes[90005000] = PT.Tailoring({ -- REVIEW
+    id = 210462,
+    quest = nil
+}) -- Plush Pillow
+
+map.nodes[92005000] = PT.Tailoring({ -- REVIEW
+    id = 210463,
+    quest = nil
+}) -- Snuggle Buddy
+
+map.nodes[94005000] = PT.Jewelcrafting({ -- REVIEW
+    id = 210200,
+    quest = nil
+}) -- Petrified Hope
+
+map.nodes[80005200] = PT.Jewelcrafting({ -- REVIEW
+    id = 210201,
+    quest = nil
+}) -- Handful of Pebbles
+
+map.nodes[82005200] = PT.Jewelcrafting({ -- REVIEW
+    id = 210202,
+    quest = nil
+}) -- Coalesced Dreamstone
+
+map.nodes[84005200] = PT.Leatherworking({ -- REVIEW
+    id = 210208,
+    quest = nil
+}) -- Tuft of Dreamsaber Fur
+
+map.nodes[86005200] = PT.Leatherworking({ -- REVIEW
+    id = 210211,
+    quest = nil
+}) -- Molted Faerie Dragon Scales
+
+map.nodes[88005200] = PT.Leatherworking({ -- REVIEW
+    id = 210215,
+    quest = nil
+}) -- Dreamtalon Claw
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
