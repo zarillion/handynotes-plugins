@@ -936,7 +936,7 @@ L['soa_mjj_part2_note'] = [[
 {note:Vous aurez besoin d'au moins 4 personnes à vos côtés pour cette partie.}
 
 Aux {location:Bois d'Arbrefer}, vous trouverez un {npc:210417} ainsi qu'une {object:Pièce du propulseur de Mimiron} cliquable à côté.
-Vous pouvez soit utiliser le moteur pour monter sur l'élémentaire et utiliser sa capacité {spell:423412} pour aspirer les gens, soit courir près de l'élémentaire (mais pas assez près pour entrer dans sa zone, car il vous renvoie en arrière) pour que la personne qui le pilote puisse vous aspirer.
+Vous pouvez soit utiliser la {object:Pièce du propulseur de Mimiron} pour monter sur l'élémentaire et utiliser sa capacité {spell:423412} pour aspirer les gens, soit courir près de l'élémentaire (mais pas assez près pour entrer dans sa zone, car il vous renvoie en arrière) pour que la personne qui le pilote puisse vous aspirer.
 
 Une fois que l'élémentaire aura aspiré 4 personnes, il explosera et laissera tomber la {item:209781} ! Tous ceux qui se trouvent dans la zone peuvent le récupérer.
 ]]
