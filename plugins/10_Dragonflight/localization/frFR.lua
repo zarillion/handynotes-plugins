@@ -929,7 +929,16 @@ L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indi
 L['soa_mjj_list_note'] = 'Rassemblez toutes les pièces pour obtenir la monture {item:210022}.'
 L['soa_mjj_part1_label'] = '{item:210022} - Partie 1'
 L['soa_mjj_part1_note'] = 'Il faut que 3 joueurs canalisent les braseros avec leur {item:208092} pour invoquer le {npc:210398}. Il donnera la {item:208984}.'
-L['soa_mjj_part2_label'] = nil
-L['soa_mjj_part2_note'] = nil
-L['soa_mjj_part3_label'] = nil
-L['soa_mjj_part3_note'] = nil
+L['soa_mjj_part2_label'] = '{item:209781} - Partie 2'
+L['soa_mjj_part2_note'] = [[
+{bug:Actuellement, le Mode Guerre doit être actif pour faire apparaître l'élémentaire !}
+
+{note:Vous aurez besoin d'au moins 4 personnes à vos côtés pour cette partie.}
+
+Aux {location:Bois d'Arbrefer}, vous trouverez un {npc:Élémentaire d'eau} géant et un moteur à utiliser à côté.
+Vous pouvez soit utiliser le moteur pour monter sur l'élémentaire et utiliser sa capacité {spell:423412} pour aspirer les gens, soit courir près de l'élémentaire (mais pas assez près pour entrer dans sa zone, car il vous renvoie en arrière) pour que la personne qui le pilote puisse vous aspirer.
+
+Une fois que l'élémentaire aura aspiré 4 personnes, il explosera et laissera tomber la {item:209781} ! Tous ceux qui se trouvent dans la zone peuvent le récupérer.
+]]
+L['soa_mjj_part3_label'] = '{item:209055} - Partie 3'
+L['soa_mjj_part3_note'] = 'La {item:209055} vous attendra juste devant la {object:Porte des ténèbres} aux {location:Terres foudroyées} ! Faites attention aux artilleurs et aux PNJ dans la zone, car il faut 12 secondes d\'incantation pour récupérer la pièce.'
