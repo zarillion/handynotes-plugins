@@ -905,7 +905,7 @@ L['soa_08_tl_fragment_location_c'] = 'En el fondo de un río pequeño.'
 
 -- Secrets of Azeroth: Clue 9
 L['soa_09_rlabel'] = '(Pista 9)'
-L['soa_09_bobby_note'] = 'Habla con {npc:207696} para empezar la misión {quest:77653}. Entrega la misión al {npc:195769} para conseguir {item:208486}.\n\nEntonces viaja al {location:Claro Nemoroso} en las {location:Llanuras Ohn\'ahra}'
+L['soa_09_bobby_note'] = 'Habla con {npc:207696} para empezar la misión {quest:77653}. Entrega la misión al {npc:195769} para conseguir {item:208486}.\n\nEntonces viaja al {location:Claro Nemoroso} en las {location:Llanuras Ohn\'ahra}.'
 L['soa_09_hastily_scrawled_stone_label'] = 'Tablilla Inscrita con Prisas'
 L['soa_09_hastily_scrawled_stone_note'] = 'Usa la {item:208092} para descubrir la {object:Tablilla Inscrita con Prisas} e ir junto al {object:Molde de Llave Antiguo}.'
 L['soa_09_ancient_key_mold_label'] = 'Molde de Llave Antiguo'
