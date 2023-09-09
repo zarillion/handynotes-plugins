@@ -939,8 +939,8 @@ L['soa_mjj_part2_note'] = [[
 
 {note:Für dieses Teil brauchst du mindestens 4 weitere Mitspieler.}
 
-In {location:Der Eisenwald} findest du einen riesigen {npc:Wasserelementar} und eine {object:Maschine}, die du benutzen kannst. Ihr könnt entweder die {object:Maschine} benutzen, um auf das Elementar aufzusteigen und seine Fähigkeit {spell:423412} zu benutzen, um Leute einzusaugen, oder ihr könnt nahe an das Elementar heranlaufen (aber nicht nahe genug, um in seinen Wirkungsbereich zu gelangen, da es euch zurückstößt), damit die Person, die es steuert, euch einsaugen kann.
+In {location:Der Eisenwald} findest du einen riesigen {npc:210417} und eine {object:Maschine}, die du benutzen kannst. Ihr könnt entweder die {object:Maschine} benutzen, um auf den Elementar aufzusteigen und seine Fähigkeit {spell:423412} zu benutzen, um Leute einzusaugen, oder ihr könnt nahe an den Elementar heranlaufen (aber nicht nahe genug, um in seinen Wirkungsbereich zu gelangen, da es euch zurückstößt), damit die Person, die es steuert, euch einsaugen kann.
 
-Sobald der Elementar 4 Leute eingesaugt hat, explodiert er und lässt {item:209781} fallen! Jeder, der sich in der Nähe befindet, kann es plündern.]]
+Sobald der Elementar 4 Leute eingesaugt hat, explodiert er und lässt {item:209781} fallen! Jeder, der sich in der Nähe befindet, kann es plündern.]] -- TODO: change 'Machine' to correct object name
 L['soa_mjj_part3_label'] = '{item:209055} - Teil 3'
 L['soa_mjj_part3_note'] = 'Das {item:209055} wartet direkt vor dem {location:Dunklen Portal} in den {location:Verwüsteten Landen} auf dich! Nimm dich vor den herunterfallenden Fel-Meteoriten in Acht, denn es dauert 12 Sekunden, um das Teil zu plündern.'
