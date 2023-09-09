@@ -929,3 +929,7 @@ L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indi
 L['soa_mjj_list_note'] = 'Rassemblez toutes les pièces pour obtenir la monture {item:210022}.'
 L['soa_mjj_part1_label'] = '{item:210022} - Partie 1'
 L['soa_mjj_part1_note'] = 'Il faut que 3 joueurs canalisent les braseros avec leur {item:208092} pour invoquer le {npc:210398}. Il donnera la {item:208984}.'
+L['soa_mjj_part2_label'] = nil
+L['soa_mjj_part2_note'] = nil
+L['soa_mjj_part3_label'] = nil
+L['soa_mjj_part3_note'] = nil

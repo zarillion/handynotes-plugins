@@ -867,3 +867,7 @@ L['options_icons_secrets_of_azeroth_desc'] = nil
 L['soa_mjj_list_note'] = nil
 L['soa_mjj_part1_label'] = nil
 L['soa_mjj_part1_note'] = nil
+L['soa_mjj_part2_label'] = nil
+L['soa_mjj_part2_note'] = nil
+L['soa_mjj_part3_label'] = nil
+L['soa_mjj_part3_note'] = nil

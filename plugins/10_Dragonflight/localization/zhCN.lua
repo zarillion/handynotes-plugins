@@ -931,3 +931,7 @@ L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之�
 L['soa_mjj_list_note'] = '收集所有零件即可获得 {item:210022}。'
 L['soa_mjj_part1_label'] = '{item:210022} - 第一部分'
 L['soa_mjj_part1_note'] = '让3名玩家用 {item:208092} 引导火盆来召唤 {npc:210398}。他会掉落 {item:208984}。'
+L['soa_mjj_part2_label'] = nil
+L['soa_mjj_part2_note'] = nil
+L['soa_mjj_part3_label'] = nil
+L['soa_mjj_part3_note'] = nil

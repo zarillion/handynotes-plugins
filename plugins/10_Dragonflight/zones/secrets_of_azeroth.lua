@@ -21,22 +21,26 @@ local Path = ns.poi.Path
 
 -- Achievement: Whodunnit?
 local bor = ns.maps[114] or Map({id = 114, settings = true}) -- Borean Tundra
+local tws = ns.maps[2022] or Map({id = 2022, settings = true}) -- The Waking Shores
 local ohn = ns.maps[2023] or Map({id = 2023, settings = true}) -- Ohn'ahran Plains
 local tas = ns.maps[2024] or Map({id = 2024, settings = true}) -- The Azure Span
 local tha = ns.maps[2025] or Map({id = 2025, settings = true}) -- Thaldraszus
-local tws = ns.maps[2022] or Map({id = 2022, settings = true}) -- The Waking Shores
 local val = ns.maps[2112] or Map({id = 2112, settings = true}) -- Valdrakken
 local zar = ns.maps[2133] or Map({id = 2133, settings = true}) -- Zaralek Cavern
 
 -- Achievement: Community Rumor Mill
+local bar = ns.maps[10] or Map({id = 10, settings = true}) -- Northern Barrens
+local bla = ns.maps[17] or Map({id = 17, settings = true}) -- Blasted Lands
 local epl = ns.maps[23] or Map({id = 23, settings = true}) -- Eastern Plaguelands
+local tho = ns.maps[64] or Map({id = 64, settings = true}) -- Thousand Needles
 local fel = ns.maps[77] or Map({id = 77, settings = true}) -- Felwood
 local net = ns.maps[109] or Map({id = 109, settings = true}) -- Netherstorm
-local smv = ns.maps[539] or Map({id = 539, settings = true}) -- Shadowmoon Valley (Draenor)
-local tho = ns.maps[64] or Map({id = 64, settings = true}) -- Thousand Needles
-local vfw = ns.maps[376] or Map({id = 376, settings = true}) -- Valley of the Four Winds
 local dbt = ns.maps[115] or Map({id = 115, settings = true}) -- Dragonblight
-local bar = ns.maps[10] or Map({id = 10, settings = true}) -- Northern Barrens
+local vfw = ns.maps[376] or Map({id = 376, settings = true}) -- Valley of the Four Winds
+local smv = ns.maps[539] or Map({id = 539, settings = true}) -- Shadowmoon Valley (Draenor)
+
+-- Mount: Mimiron's Jumpjets
+local cst = ns.maps[210] or Map({id = 210, settings = true}) -- Cape of Stranglethorn
 
 -------------------------------------------------------------------------------
 
@@ -651,29 +655,23 @@ ohn.nodes[63005737] = SecretsOfAzeroth({
 -------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------
 -------------------------------------------------------------------------------
 
-local cst = ns.maps[210] or Map({id = 210, settings = true}) -- Cape of Stranglethorn
-
 local MJJ_Parts = {
     [1] = {
-        coordinates = 55245943,
         map = cst, -- Cape of Stranglethorn
         parentMapID = 13, -- Eastern Kingdoms
         item = 208984 -- First Booster Part
+    },
+    [2] = {
+        map = fel,
+        parentMapID = 12, -- Kalimdor
+        item = 209781
+    },
+    [3] = { -- Hidden Quest 78100?
+        map = bla, -- Blasted Lands
+        parentMapID = 13, -- Eastern Kingdoms
+        item = 209055
     }
-    -- [2] = {
-    --     coordinates = nil,
-    --     map = nil
-    --     parentMapID = nil
-    --     item = nil
-    -- },
-    -- [3] = {
-    --     coordinates = nil,
-    --     map = nil
-    --     parentMapID = nil
-    --     item = nil
-    -- },
     -- [4] = {
-    --     coordinates = nil,
     --     map = nil
     --     parentMapID = nil
     --     item = nil
@@ -717,6 +715,25 @@ cst.nodes[59187842] = SecretsOfAzeroth({
         Item({item = 208984}) -- First Booster Part
     }
 }) -- Mimiron's Jumpjets - Part 1
+
+fel.nodes[49982594] = SecretsOfAzeroth({
+    label = L['soa_mjj_part2_label'],
+    note = L['soa_mjj_part2_note'],
+    playerHasItem = {209781},
+    rewards = {
+        Item({item = 209781}) -- Second Booster Part
+    }
+}) -- Mimiron's Jumpjets - Part 2
+
+bla.nodes[54825217] = SecretsOfAzeroth({
+    label = L['soa_mjj_part3_label'],
+    note = L['soa_mjj_part3_note'],
+    requires = REQUIREMENT_TORCH_OF_PYRRETH,
+    playerHasItem = {209055},
+    rewards = {
+        Item({item = 209055}) -- Third Booster Part
+    }
+}) -- Mimiron's Jumpjets - Part 3
 
 -------------------------------------------------------------------------------
 ---------------------------- COMMUNITY RUMOR MILL -----------------------------
@@ -788,6 +805,13 @@ local BURIED_SATCHELS = {
         map = bar, -- Northern Barrens
         parentMapID = 12, -- Kalimdor
         quest = 77297
+    },
+    [10] = {
+        coordinates = 64675545,
+        location = L['bs_bar_location'],
+        map = bla, -- Blasted Lands
+        parentMapID = 13, -- Eastern Kingdoms
+        quest = 77298
     }
 }
 
