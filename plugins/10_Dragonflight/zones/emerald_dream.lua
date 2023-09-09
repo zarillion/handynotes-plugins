@@ -213,7 +213,7 @@ map.nodes[82004600] = Treasure({ -- REVIEW
     quest = nil,
     note = 'PH',
     rewards = {
-        Achievement({id = 19317, criteria = 62954}), -- Treasures of The Emerald Dream
+        Achievement({id = 19317, criteria = 62954}) -- Treasures of The Emerald Dream
     }
 }) -- Crystalline Glowblossom
 
@@ -221,7 +221,7 @@ map.nodes[47503490] = Treasure({ -- REVIEW
     quest = nil,
     note = 'PH',
     rewards = {
-        Achievement({id = 19317, criteria = 62953}), -- Treasures of The Emerald Dream
+        Achievement({id = 19317, criteria = 62953}) -- Treasures of The Emerald Dream
     }
 }) -- Hidden Podling Stash
 
@@ -229,7 +229,7 @@ map.nodes[61605960] = Treasure({ -- REVIEW
     quest = 78005,
     note = 'PH',
     rewards = {
-        Achievement({id = 19317, criteria = 62960}), -- Treasures of The Emerald Dream
+        Achievement({id = 19317, criteria = 62960}) -- Treasures of The Emerald Dream
     }
 }) -- Magical Bloom
 
@@ -237,7 +237,7 @@ map.nodes[61406320] = Treasure({ -- REVIEW
     quest = 78006,
     note = 'PH',
     rewards = {
-        Achievement({id = 19317, criteria = 62961}), -- Treasures of The Emerald Dream
+        Achievement({id = 19317, criteria = 62961}) -- Treasures of The Emerald Dream
     }
 }) -- Odd Burl
 
@@ -245,7 +245,7 @@ map.nodes[37303070] = Treasure({ -- REVIEW
     quest = 78120,
     note = 'PH',
     rewards = {
-        Achievement({id = 19317, criteria = 62956}), -- Treasures of The Emerald Dream
+        Achievement({id = 19317, criteria = 62956}) -- Treasures of The Emerald Dream
     }
 }) -- Pineshrew Cache
 
@@ -254,7 +254,7 @@ map.nodes[63487339] = Treasure({ -- REVIEW
     note = 'PH',
     rewards = {
         Achievement({id = 19317, criteria = 62958}), -- Treasures of The Emerald Dream
-        Transmog({item = 210631, slot = L['cosmetic']}), -- Branch of Ashamane
+        Transmog({item = 210631, slot = L['cosmetic']}) -- Branch of Ashamane
     }
 }) -- Reliquary of Ashamane
 
@@ -263,7 +263,7 @@ map.nodes[64101920] = Treasure({ -- REVIEW
     note = 'PH',
     rewards = {
         Achievement({id = 19317, criteria = 62957}), -- Treasures of The Emerald Dream
-        Transmog({item = 210659, slot = L['cosmetic']}), -- Branch of Aviana
+        Transmog({item = 210659, slot = L['cosmetic']}) -- Branch of Aviana
     }
 }) -- Reliquary of Aviana
 
@@ -272,7 +272,7 @@ map.nodes[32938325] = Treasure({ -- REVIEW
     note = 'PH',
     rewards = {
         Achievement({id = 19317, criteria = 62959}), -- Treasures of The Emerald Dream
-        Transmog({item = 210660, slot = L['cosmetic']}), -- Claw of Lo'Gosh
+        Transmog({item = 210660, slot = L['cosmetic']}) -- Claw of Lo'Gosh
     }
 }) -- Reliquary of Goldrinn
 
@@ -281,7 +281,7 @@ map.nodes[47105310] = Treasure({ -- REVIEW
     note = 'PH',
     rewards = {
         Achievement({id = 19317, criteria = 62955}), -- Treasures of The Emerald Dream
-        Transmog({item = 210434, slot = L['cosmetic']}), -- Visage of Ursoc
+        Transmog({item = 210434, slot = L['cosmetic']}) -- Visage of Ursoc
     }
     -- 33208198 Mark of Ursol
 }) -- Reliquary of Ursol
@@ -290,7 +290,7 @@ map.nodes[80004600] = Treasure({ -- REVIEW
     quest = nil,
     note = 'PH',
     rewards = {
-        Achievement({id = 19317, criteria = 62952}), -- Treasures of The Emerald Dream
+        Achievement({id = 19317, criteria = 62952}) -- Treasures of The Emerald Dream
     }
 }) -- Triflesnatch's Roving Trove
 
