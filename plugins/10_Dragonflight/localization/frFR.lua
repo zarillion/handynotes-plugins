@@ -908,6 +908,13 @@ L['soa_09_hastily_scrawled_stone_note'] = 'Utilisez la {item:208092} pour révé
 L['soa_09_ancient_key_mold_label'] = 'Moule de clé antique'
 L['soa_09_ancient_key_mold_note'] = 'Récupérez le {object:Moule de clé antique} pour obtenir le {item:208827} qui lancera la quête {quest:77822}.\n\nRetournez voir le {npc:195769} à {location:Valdrakken}.'
 
+-- Secrets of Azeroth: Clue 10
+L['soa_10_rlabel'] = nil
+L['soa_10_tyrs_titan_key_note'] = nil
+L['soa_10_rose_gold_dust_note'] = nil
+L['soa_10_igneous_flux_note'] = nil
+L['soa_10_weaponsmith_koref_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
 L['buried_satchel_sublabel'] = '{note:Ceci n\'est PAS un emplacement de {item:208142}.}'

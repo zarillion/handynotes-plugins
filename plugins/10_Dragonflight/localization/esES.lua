@@ -911,6 +911,13 @@ L['soa_09_hastily_scrawled_stone_note'] = 'Usa la {item:208092} para descubrir l
 L['soa_09_ancient_key_mold_label'] = 'Molde de Llave Antiguo'
 L['soa_09_ancient_key_mold_note'] = 'Despoja el {object:Molde de Llave Antiguo} para conseguir el {item:208827} que empezará la misión {quest:77822}.\n\nDevuélvelo al {npc:195769} en {location:Valdrakken}.'
 
+-- Secrets of Azeroth: Clue 10
+L['soa_10_rlabel'] = nil
+L['soa_10_tyrs_titan_key_note'] = nil
+L['soa_10_rose_gold_dust_note'] = nil
+L['soa_10_igneous_flux_note'] = nil
+L['soa_10_weaponsmith_koref_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
 L['buried_satchel_sublabel'] = '{note:Esto no es un localización de {item:208142}.}'

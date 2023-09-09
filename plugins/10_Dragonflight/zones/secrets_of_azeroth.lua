@@ -652,6 +652,71 @@ ohn.nodes[63005737] = SecretsOfAzeroth({
 -- 77576 -- Clue 09 complete
 
 -------------------------------------------------------------------------------
+------------------------- SECRETS OF AZEROTH: CLUE 10 -------------------------
+-------------------------------------------------------------------------------
+
+val.nodes[47954684] = SecretsOfAzeroth({
+    label = '{npc:207696}',
+    clue = 10,
+    note = L['soa_10_tyrs_titan_key_note'],
+    rlabel = Gray(L['soa_10_rlabel']),
+    quest = {
+        77829, -- Reforging a Legend -- never changes to true
+        77893, -- Hidden, triggerd after turning in 77829
+        77577 -- Clue 10 complete
+    },
+    questAny = true, -- TODO: remove if 77829 is fixed
+    questDeps = 77576, -- Clue 09 complete
+    rewards = {
+        Achievement({id = 18646, criteria = 10}), -- Whodunnit?
+        Item({item = 208829}) -- Titan Key Materials List
+    },
+    pois = {POI({36195194})} -- Weaponsmith Koref
+}) -- Bobby Carlisle
+
+tws.nodes[48144653] = SecretsOfAzeroth({
+    label = '{item:208835}',
+    clue = 10,
+    requires = REQUIREMENT_IDOL_OF_OHNAHRA,
+    note = L['soa_10_rose_gold_dust_note'],
+    rlabel = Gray(L['soa_10_rlabel']),
+    quest = {
+        70513, -- hidden, triggered after collecting 50 Rose Gold Dust
+        77831 -- A Key to Reforg(ing)
+    },
+    questDeps = 77893,
+    pois = {POI({36195194})} -- Weaponsmith Koref
+}) -- Rose Gold Dust
+
+tws.nodes[38834307] = SecretsOfAzeroth({
+    label = '{item:208836}',
+    clue = 10,
+    note = L['soa_10_igneous_flux_note'],
+    rlabel = Gray(L['soa_10_rlabel']),
+    quest = 77831, -- A Key to Reforg(ing)
+    questDeps = 77893, -- Clue 09 complete
+    pois = {POI({21107687, 22947842, 37714381})} -- Igneous Flux
+}) -- Igneous Flux
+
+tws.nodes[24516074] = SecretsOfAzeroth({
+    label = '{npc:210837}',
+    requires = REQUIREMENT_TORCH_OF_PYRRETH,
+    clue = 10,
+    note = L['soa_10_weaponsmith_koref_note'],
+    rlabel = Gray(L['soa_10_rlabel']),
+    questDeps = 77893,
+    quest = {
+        77831, -- A Key to Reforg(ing)
+        77577 -- Clue 10 complete
+    },
+    rewards = {
+        Item({item = 208831}) -- Reforged Titan Key
+    }
+}) -- Weaponsmith Koref
+
+-- 77577 -- Clue 10 complete
+
+-------------------------------------------------------------------------------
 -------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------
 -------------------------------------------------------------------------------
 

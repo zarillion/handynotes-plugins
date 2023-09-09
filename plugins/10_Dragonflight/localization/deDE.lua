@@ -912,6 +912,13 @@ L['soa_09_hastily_scrawled_stone_note'] = 'Benutze deine {item:208092}, um den {
 L['soa_09_ancient_key_mold_label'] = 'Uralte Schlüsselform'
 L['soa_09_ancient_key_mold_note'] = 'Plündere die {object:Uralte Schlüsselform}, um die {item:208827} zu erhalten und die Quest {quest:77822} zu starten.\n\nKehre damit zu {npc:195769} in {location:Valdrakken} zurück.'
 
+-- Secrets of Azeroth: Clue 10
+L['soa_10_rlabel'] = '(Hinweis 10)'
+L['soa_10_tyrs_titan_key_note'] = nil
+L['soa_10_rose_gold_dust_note'] = nil
+L['soa_10_igneous_flux_note'] = nil
+L['soa_10_weaponsmith_koref_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
 L['buried_satchel_sublabel'] = '{note:An dieser Position ist KEIN {item:208142}.}'

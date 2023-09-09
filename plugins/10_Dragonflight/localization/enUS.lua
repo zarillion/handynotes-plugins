@@ -910,6 +910,13 @@ L['soa_09_hastily_scrawled_stone_note'] = 'Use the {item:208092} to reveal the {
 L['soa_09_ancient_key_mold_label'] = 'Ancient Key Mold'
 L['soa_09_ancient_key_mold_note'] = 'Loot the {object:Ancient Key Mold} to receive {item:208827} to start the quest {quest:77822}.\n\nReturn to {npc:195769} in {location:Valdrakken}.'
 
+-- Secrets of Azeroth: Clue 10
+L['soa_10_rlabel'] = '(Clue 10)'
+L['soa_10_tyrs_titan_key_note'] = 'Pick up the quest {quest:77829} from {npc:207696}. Go to {npc:210837} to obtain {item:208829}.\n\n Collect {item:208835} and {item:208836} in the {location:Waking Shores} to reforge the key at the {location:Obsidian Citadel}.'
+L['soa_10_rose_gold_dust_note'] = 'Collect 50x {item:208835}, use your {item:207730} to find the small red pebbles on the floor.\n\nGo to {npc:210837} at the {location:Obsidian Citadel} after you found 50x {item:208835} and 8x {item:208836}.'
+L['soa_10_igneous_flux_note'] = 'Collect 8x {item:208836} at various locations in the {location:Waking Shores} where lava meets salt water.\n\nGo to {npc:210837} at the {location:Obsidian Citadel} after you found 50x {item:208835} and 8x {item:208836}.'
+L['soa_10_weaponsmith_koref_note'] = 'Speak to {npc:210837} and start the quest {quest:77831} to help him reforge {item:208831} with the ingredients and your {item:208092}.'
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
 L['buried_satchel_sublabel'] = '{note:This is NOT a {item:208142} location.}'

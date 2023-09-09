@@ -911,6 +911,13 @@ L['soa_09_hastily_scrawled_stone_note'] = nil
 L['soa_09_ancient_key_mold_label'] = nil
 L['soa_09_ancient_key_mold_note'] = nil
 
+-- Secrets of Azeroth: Clue 10
+L['soa_10_rlabel'] = nil
+L['soa_10_tyrs_titan_key_note'] = nil
+L['soa_10_rose_gold_dust_note'] = nil
+L['soa_10_igneous_flux_note'] = nil
+L['soa_10_weaponsmith_koref_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = nil
 L['buried_satchel_sublabel'] = nil
