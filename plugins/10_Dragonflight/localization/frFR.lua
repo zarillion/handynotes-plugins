@@ -830,3 +830,12 @@ L['zaralek_event_inactive'] = ns.color.Orange('Cet Événement bonus n\'apparaî
 
 L['options_icons_zone_event'] = 'Événements bonus'
 L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements bonus.'
+
+-------------------------------------------------------------------------------
+------------------------------- Emerald Dream ---------------------------------
+-------------------------------------------------------------------------------
+
+L['reliquary_of_ashamane_note'] = nil
+L['reliquary_of_aviana_note'] = nil
+L['reliquary_of_goldrinn_note'] = nil
+L['reliquary_of_ursol_note'] = nil

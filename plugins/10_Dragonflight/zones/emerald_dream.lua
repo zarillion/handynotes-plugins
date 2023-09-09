@@ -14,6 +14,8 @@ local PT = ns.node.ProfessionTreasures
 local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
+local POI = ns.poi.POI
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2200, settings = true})
@@ -38,27 +40,31 @@ map.nodes[84004000] = Rare({ -- REVIEW
     }
 }) -- Cargnosh
 
-map.nodes[80004200] = Rare({ -- REVIEW
+map.nodes[66036318] = Rare({
     id = 209909,
-    quest = nil,
+    quest = 77862,
     rewards = {
         Achievement({id = 19316, criteria = 62937}) -- Adventurer of the Emerald Dream
     }
 }) -- Crabtankerous
 
-map.nodes[88004000] = Rare({ -- REVIEW
+map.nodes[34716316] = Rare({ -- REVIEW
     id = 209929,
-    quest = nil,
+    quest = 77878,
+    vignette = 5816,
     rewards = {
         Achievement({id = 19316, criteria = 62933}) -- Adventurer of the Emerald Dream
     }
+    -- gather tribes https://wowhead.com/item=208881
 }) -- Envoy of Winter
 
-map.nodes[82004000] = Rare({ -- REVIEW
+map.nodes[29862077] = Rare({ -- REVIEW
     id = 209893,
-    quest = nil,
+    quest = 78015,
+    vignette = 5835,
     rewards = {
         Achievement({id = 19316, criteria = 62930}) -- Adventurer of the Emerald Dream
+        -- https://wowhead.com/item=210172
     }
 }) -- Firebrand Fystia
 
@@ -70,19 +76,22 @@ map.nodes[82004200] = Rare({ -- REVIEW
     }
 }) -- Fruitface
 
-map.nodes[86004000] = Rare({ -- REVIEW
+map.nodes[54034142] = Rare({ -- REVIEW
     id = 209936,
-    quest = nil,
+    quest = 77982,
+    vignette = 5817,
     rewards = {
         Achievement({id = 19316, criteria = 62932}) -- Adventurer of the Emerald Dream
     }
 }) -- Greedy Gessie
 
-map.nodes[90004400] = Rare({ -- REVIEW
+map.nodes[47062974] = Rare({
     id = 210075,
-    quest = nil,
+    quest = 77944,
+    note = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62950}) -- Adventurer of the Emerald Dream
+        -- item 201437
     }
 }) -- Henri Snufftail
 
@@ -94,9 +103,9 @@ map.nodes[94004000] = Rare({ -- REVIEW
     }
 }) -- Ignit the Firebranded
 
-map.nodes[22743226] = Rare({ -- REVIEW
-    id = 209919, -- 210559 Balboan
-    quest = 78039,
+map.nodes[37433171] = Rare({
+    id = 209919,
+    quest = 77989,
     rewards = {
         Achievement({id = 19316, criteria = 62940}) -- Adventurer of the Emerald Dream
     }
@@ -118,17 +127,17 @@ map.nodes[82004400] = Rare({ -- REVIEW
     }
 }) -- Matriarch Keevah
 
-map.nodes[84004400] = Rare({ -- REVIEW
+map.nodes[45781879] = Rare({
     id = 208658,
-    quest = nil,
+    quest = 77941,
     rewards = {
         Achievement({id = 19316, criteria = 62947}) -- Adventurer of the Emerald Dream
     }
 }) -- Moltenbinder's Disciple
 
-map.nodes[86004400] = Rare({ -- REVIEW
+map.nodes[63793624] = Rare({
     id = 210064,
-    quest = nil,
+    quest = 77943,
     rewards = {
         Achievement({id = 19316, criteria = 62948}) -- Adventurer of the Emerald Dream
     }
@@ -142,17 +151,19 @@ map.nodes[90004200] = Rare({ -- REVIEW
     }
 }) -- Moragh the Slothful
 
-map.nodes[88004400] = Rare({ -- REVIEW
+map.nodes[54953674] = Rare({
     id = 210070,
-    quest = nil,
+    quest = 77940,
+    note = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62949}) -- Adventurer of the Emerald Dream
     }
 }) -- Mosa Umbramane
 
-map.nodes[80004000] = Rare({ -- REVIEW
+map.nodes[61697214] = Rare({
     id = 209113,
-    quest = nil,
+    quest = 77570,
+    vignette = 5786,
     rewards = {
         Achievement({id = 19316, criteria = 62929}) -- Adventurer of the Emerald Dream
     }
@@ -190,21 +201,31 @@ map.nodes[88004200] = Rare({ -- REVIEW
     }
 }) -- Surging Lasher
 
-map.nodes[90004000] = Rare({ -- REVIEW
+map.nodes[35132264] = Rare({
     id = 209902,
-    quest = nil,
+    quest = 77994,
     rewards = {
         Achievement({id = 19316, criteria = 62934}) -- Adventurer of the Emerald Dream
     }
 }) -- Talthonei Ashwisper
 
-map.nodes[84004200] = Rare({ -- REVIEW
+map.nodes[26022656] = Rare({
     id = 209911,
     quest = 77990,
     rewards = {
         Achievement({id = 19316, criteria = 62939}) -- Adventurer of the Emerald Dream
     }
-}) -- The Apostle item=210098
+}) -- The Apostle
+
+-------------------------------------------------------------------------------
+
+map.nodes[22743226] = Rare({id = 210559, quest = 78039}) -- Balboan
+
+map.nodes[38436213] = Rare({
+    id = 210508,
+    quest = 78214,
+    note = L['in_small_cave']
+}) -- Voracious Mikanji
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -218,19 +239,22 @@ map.nodes[82004600] = Treasure({ -- REVIEW
     }
 }) -- Crystalline Glowblossom
 
-map.nodes[47503490] = Treasure({ -- REVIEW
+map.nodes[47493485] = Treasure({
     quest = nil,
     note = 'PH',
     rewards = {
         Achievement({id = 19317, criteria = 62953}) -- Treasures of The Emerald Dream
+        -- REVIEW
     }
 }) -- Hidden Podling Stash
 
-map.nodes[61605960] = Treasure({ -- REVIEW
+map.nodes[61625960] = Treasure({
     quest = 78005,
     note = 'PH',
+    -- Chase {npc:210544} 3 times.
     rewards = {
         Achievement({id = 19317, criteria = 62960}) -- Treasures of The Emerald Dream
+        -- REVIEW
     }
 }) -- Magical Bloom
 
@@ -242,49 +266,62 @@ map.nodes[61406320] = Treasure({ -- REVIEW
     }
 }) -- Odd Burl
 
-map.nodes[37303070] = Treasure({ -- REVIEW
+map.nodes[37263069] = Treasure({
     quest = 78120,
     note = 'PH',
     rewards = {
         Achievement({id = 19317, criteria = 62956}) -- Treasures of The Emerald Dream
+        -- REVIEW
     }
 }) -- Pineshrew Cache
 
-map.nodes[63487339] = Treasure({ -- REVIEW
+map.nodes[63437298] = Treasure({
     quest = 78359,
-    note = 'PH',
+    note = L['in_cave'] .. '\n\n' .. L['reliquary_of_ashamane_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62958}), -- Treasures of The Emerald Dream
         Transmog({item = 210631, slot = L['cosmetic']}) -- Branch of Ashamane
+    },
+    pois = {
+        POI({63457161}), -- Entrance
+        POI({62087464, color = 'Green'}) -- Mark of Ashamane
     }
 }) -- Reliquary of Ashamane
 
-map.nodes[64101920] = Treasure({ -- REVIEW
+map.nodes[64231928] = Treasure({
     quest = 78360,
-    note = 'PH',
+    note = L['reliquary_of_aviana_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62957}), -- Treasures of The Emerald Dream
         Transmog({item = 210659, slot = L['cosmetic']}) -- Branch of Aviana
+    },
+    pois = {
+        POI({64532091}) -- Mark of Aviana
     }
 }) -- Reliquary of Aviana
 
-map.nodes[32938325] = Treasure({ -- REVIEW
+map.nodes[32938325] = Treasure({
     quest = 78361,
-    note = 'PH',
+    note = L['in_small_cave'] .. '\n\n' .. L['reliquary_of_goldrinn_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62959}), -- Treasures of The Emerald Dream
         Transmog({item = 210660, slot = L['cosmetic']}) -- Claw of Lo'Gosh
+    },
+    pois = {
+        POI({30828069}) -- Mark of Goldrinn
     }
 }) -- Reliquary of Goldrinn
 
-map.nodes[47105310] = Treasure({ -- REVIEW
+map.nodes[47055309] = Treasure({
     quest = 78107,
-    note = 'PH',
+    note = L['reliquary_of_ursol_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62955}), -- Treasures of The Emerald Dream
         Transmog({item = 210434, slot = L['cosmetic']}) -- Visage of Ursoc
+    },
+    pois = {
+        POI({48015246}) -- Mark of Ursol
     }
-    -- 33208198 Mark of Ursol
 }) -- Reliquary of Ursol
 
 map.nodes[80004600] = Treasure({ -- REVIEW

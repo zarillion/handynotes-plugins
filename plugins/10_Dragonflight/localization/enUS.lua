@@ -832,3 +832,12 @@ L['zaralek_event_inactive'] = ns.color.Orange('This Zone Event will not start to
 
 L['options_icons_zone_event'] = 'Zone Event'
 L['options_icons_zone_event_desc'] = 'Display locations for zone events.'
+
+-------------------------------------------------------------------------------
+------------------------------- Emerald Dream ---------------------------------
+-------------------------------------------------------------------------------
+
+L['reliquary_of_ashamane_note'] = ns.color.Orange('If the world quest {wq:Dryad Fire Drill} is active you need to complete it before you can see the treasure.')..'\n\nFind a {object:Mark of Ashamane} {dot:Green} nearby to get the buff {spell:425426} and go to the {npc:212009}.'
+L['reliquary_of_aviana_note'] = 'Find a {object:Mark of Aviana} nearby to get the buff {spell:425432} and go to the {npc:212011}.'
+L['reliquary_of_goldrinn_note'] = 'Find a {object:Mark of Goldrinn} nearby to get the buff {spell:425408} and go to the {npc:212012}.'
+L['reliquary_of_ursol_note'] = 'Find a {object:Mark of Ursol} nearby to get the buff {spell:423306} and go to the {npc:210732}.'

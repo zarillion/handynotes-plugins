@@ -833,3 +833,12 @@ L['zaralek_event_inactive'] = ns.color.Orange('Это событие не нач
 
 L['options_icons_zone_event'] = 'События'
 L['options_icons_zone_event_desc'] = 'Отображение мест для событий.'
+
+-------------------------------------------------------------------------------
+------------------------------- Emerald Dream ---------------------------------
+-------------------------------------------------------------------------------
+
+L['reliquary_of_ashamane_note'] = nil
+L['reliquary_of_aviana_note'] = nil
+L['reliquary_of_goldrinn_note'] = nil
+L['reliquary_of_ursol_note'] = nil

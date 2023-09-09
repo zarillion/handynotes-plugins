@@ -299,7 +299,6 @@ L['profession_required'] = '{note:Benötigt einen Spieler mit dem Beruf \'%s\'.}
 L['pr_crafting_note'] = 'Stellt {item:%s} mit {item:%s} her und interagiere mit {object:%s}, um den seltenen Gegner erscheinen zu lassen.'
 L['pr_gathering_note'] = 'Benutze {item:%s}, um mit {object:%s} zu interagieren, um den seltenen Gegner erscheinen zu lassen.'
 L['pr_recipe_note'] = 'Das Rezept {item:%s} kann von {npc:202445} für 10 {item:190456} gekauft werden.'
-
 L['pr_summoning_note'] = 'Der Spieler, der den seltenen Gegner beschwört, erhält den Stärkungszauber {spell:405161} und Bonusbeute.'
 
 L['pr_awakened_soil'] = 'Erweckter Boden'
@@ -834,3 +833,12 @@ L['zaralek_event_inactive'] = ns.color.Orange('Dieses Ereignis wird heute nicht 
 
 L['options_icons_zone_event'] = 'Zonen-Ereignisse'
 L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse an.'
+
+-------------------------------------------------------------------------------
+------------------------------- Emerald Dream ---------------------------------
+-------------------------------------------------------------------------------
+
+L['reliquary_of_ashamane_note'] = ns.color.Orange('Wenn die Weltquest {wq:Dryad Fire Drill} aktive ist, muss diese zuerst abgeschlossen werden, bevor du die Statue sehen kannst.')..'\n\nFinde ein {object:Mal von Ashamane} {dot:Green} in der Nähe, um den Stärkungszauber {spell:425426} zu erhalten. Begib dich damit zu {npc:212009}.' -- review wq
+L['reliquary_of_aviana_note'] = 'Finde ein {object:Mal von Aviana} in der Nähe, um den Stärkungszauber {spell:425432} zu erhalten. Begib dich damit zu {npc:212011}.'
+L['reliquary_of_goldrinn_note'] = 'Finde ein {object:Mal von Goldrinn} in der Nähe, um den Stärkungszauber {spell:425408} zu erhalten. Begib dich damit zu {npc:212012}.'
+L['reliquary_of_ursol_note'] = 'Finde ein {object:Mal von Ursol} in der Nähe, um den Stärkungszauber {spell:423306} zu erhalten. Begib dich damit zu {npc:210732}.'

@@ -768,3 +768,12 @@ L['zaralek_event_inactive'] = nil
 
 L['options_icons_zone_event'] = nil
 L['options_icons_zone_event_desc'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- Emerald Dream ---------------------------------
+-------------------------------------------------------------------------------
+
+L['reliquary_of_ashamane_note'] = nil
+L['reliquary_of_aviana_note'] = nil
+L['reliquary_of_goldrinn_note'] = nil
+L['reliquary_of_ursol_note'] = nil

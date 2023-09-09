@@ -832,3 +832,12 @@ L['zaralek_event_inactive'] = ns.color.Orange('此區域事件今日不會開始
 
 L['options_icons_zone_event'] = '區域事件'
 L['options_icons_zone_event_desc'] = '顯示區域事件的位置.'
+
+-------------------------------------------------------------------------------
+------------------------------- Emerald Dream ---------------------------------
+-------------------------------------------------------------------------------
+
+L['reliquary_of_ashamane_note'] = nil
+L['reliquary_of_aviana_note'] = nil
+L['reliquary_of_goldrinn_note'] = nil
+L['reliquary_of_ursol_note'] = nil
