@@ -8,6 +8,8 @@ local Map = ns.Map
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
+local Dragonglyph = ns.node.Dragonglyph
+
 local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
@@ -291,3 +293,16 @@ map.nodes[80004600] = Treasure({ -- REVIEW
         Achievement({id = 19317, criteria = 62952}), -- Treasures of The Emerald Dream
     }
 }) -- Triflesnatch's Roving Trove
+
+-------------------------------------------------------------------------------
+-------------------------------- DRAGON GLYPHS --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[60363011] = Dragonglyph({rewards = {Achievement({id = 19296})}}) -- Dragon Glyphs: Eye of Ysera
+map.nodes[21212676] = Dragonglyph({rewards = {Achievement({id = 19297})}}) -- Dragon Glyphs: Smoldering Ascent
+map.nodes[33794564] = Dragonglyph({rewards = {Achievement({id = 19298})}}) -- Dragon Glyphs: Smoldering Copse
+map.nodes[29832121] = Dragonglyph({rewards = {Achievement({id = 19299})}}) -- Dragon Glyphs: Cinder Summit
+map.nodes[45514581] = Dragonglyph({rewards = {Achievement({id = 19300})}}) -- Dragon Glyphs: Dreamsurge Basin
+map.nodes[49996433] = Dragonglyph({rewards = {Achievement({id = 19301})}}) -- Dragon Glyphs: Amirdrassil
+map.nodes[31888059] = Dragonglyph({rewards = {Achievement({id = 19302})}}) -- Dragon Glyphs: Whorlwing basin
+map.nodes[61677548] = Dragonglyph({rewards = {Achievement({id = 19303})}}) -- Dragon Glyphs: Wakeful Vista
