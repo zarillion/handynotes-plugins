@@ -903,12 +903,12 @@ L['soa_08_tl_fragment_location_b'] = '两块大石头之间。'
 L['soa_08_tl_fragment_location_c'] = '在小河的底部。'
 
 -- Secrets of Azeroth: Clue 9
-L['soa_09_rlabel'] = nil
-L['soa_09_bobby_note'] = nil
-L['soa_09_hastily_scrawled_stone_label'] = nil
-L['soa_09_hastily_scrawled_stone_note'] = nil
-L['soa_09_ancient_key_mold_label'] = nil
-L['soa_09_ancient_key_mold_note'] = nil
+L['soa_09_rlabel'] = '（线索九）'
+L['soa_09_bobby_note'] = '与 {npc:207696} 交谈以开始任务 {quest:77653}。在 {npc:195769} 交任务得到 {item:208486}。\n\n然后前往 {location:欧恩哈拉平原} 的 {location:林荫之森}。'
+L['soa_09_hastily_scrawled_stone_label'] = '有潦草字迹的石头'
+L['soa_09_hastily_scrawled_stone_note'] = '使用 {item:208092} 来揭示{object:有潦草字迹的石头}，然后是附近的 {object:古老的钥匙模具}。'
+L['soa_09_ancient_key_mold_label'] = '古老的钥匙模具'
+L['soa_09_ancient_key_mold_note'] = '拾取 {object:古老的钥匙模具} 得到 {item:208827} 以开始任务 {quest:77822}。\n\n返回 {location:瓦德拉肯} 的 {npc:195769}。'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = '从 {object:松软的泥土堆} 中拾取 {item:208142}。'
@@ -922,12 +922,12 @@ L['bs_net_location'] = '在 {location:外域} {location:虚空风暴} 的 {locat
 L['bs_vfw_location'] = '在金色瀑布顶部的 {npc:129151} 雕像口内。'
 L['bs_tas_location'] = '使用 {item:208135} 融化 {npc:96438} 并露出 {object:松软的泥土堆}。'
 L['bs_dbt_location'] = '在 {location:翡翠巨龙圣地} 的大型骷髅爪下。'
-L['bs_bar_location'] = nil
+L['bs_bar_location'] = '山顶上。'
 
 L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = nil
-L['soa_mjj_part1_label'] = nil
-L['soa_mjj_part1_note'] = nil
+L['soa_mjj_list_note'] = '收集所有零件即可获得 {item:210022}。'
+L['soa_mjj_part1_label'] = '{item:210022} - 第一部分'
+L['soa_mjj_part1_note'] = '让3名玩家用 {item:208092} 引导火盆来召唤 {npc:210398}。他会掉落 {item:208984}。'
