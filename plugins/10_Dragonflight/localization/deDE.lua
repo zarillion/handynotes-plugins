@@ -838,7 +838,7 @@ L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse 
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
-L['reliquary_of_ashamane_note'] = ns.color.Orange('Wenn die Weltquest {wq:Dryad Fire Drill} aktive ist, muss diese zuerst abgeschlossen werden, bevor du die Statue sehen kannst.')..'\n\nFinde ein {object:Mal von Ashamane} {dot:Green} in der Nähe, um den Stärkungszauber {spell:425426} zu erhalten. Begib dich damit zu {npc:212009}.' -- review wq
+L['reliquary_of_ashamane_note'] = ns.color.Orange('Wenn die Weltquest {wq:Dryad Fire Drill} aktive ist, muss diese zuerst abgeschlossen werden, bevor du die Statue sehen kannst.') .. '\n\nFinde ein {object:Mal von Ashamane} {dot:Green} in der Nähe, um den Stärkungszauber {spell:425426} zu erhalten. Begib dich damit zu {npc:212009}.' -- review wq
 L['reliquary_of_aviana_note'] = 'Finde ein {object:Mal von Aviana} in der Nähe, um den Stärkungszauber {spell:425432} zu erhalten. Begib dich damit zu {npc:212011}.'
 L['reliquary_of_goldrinn_note'] = 'Finde ein {object:Mal von Goldrinn} in der Nähe, um den Stärkungszauber {spell:425408} zu erhalten. Begib dich damit zu {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Finde ein {object:Mal von Ursol} in der Nähe, um den Stärkungszauber {spell:423306} zu erhalten. Begib dich damit zu {npc:210732}.'
