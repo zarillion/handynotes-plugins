@@ -938,8 +938,8 @@ L['soa_mjj_part2_note'] = [[
 {note:You will need at least 4 people around you for this part.}
 
 In {location:Irontree woods}, you will find a giant {npc:Water Elemental} and an engine next to use.
-You can either use the engine to mount on the elemental and use its ability  Envelope to suck people in, or run close to the elemental (but not close enough to get on its aoe, as it knocks you back) so the person piloting it can suck you in.
+You can either use the engine to mount on the elemental and use its ability {spell:423412} to suck people in, or run close to the elemental (but not close enough to get on its aoe, as it knocks you back) so the person piloting it can suck you in.
 
 Once the elemental sucks 4 people in, it will explode and drop {item:209781}! Anyone in the area can loot it.]]
 L['soa_mjj_part3_label'] = '{item:209055} - Part 3'
-L['soa_mjj_part3_note'] = '{item:209055} will be waiting for you right in front of the {object:Dark Portal} in the {locationBlasted Lands}! Be careful of flak cannons and NPCs in the area, as it does take a 12-second cast to loot the part.'
+L['soa_mjj_part3_note'] = '{item:209055} will be waiting for you right in front of the {object:Dark Portal} in the {location:Blasted Lands}! Be careful of flak cannons and NPCs in the area, as it does take a 12-second cast to loot the part.'
