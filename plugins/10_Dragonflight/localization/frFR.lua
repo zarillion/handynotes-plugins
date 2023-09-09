@@ -920,12 +920,12 @@ L['bs_net_location'] = 'À la {location:Manaforge B\'naar} à {location:Raz-de-N
 L['bs_vfw_location'] = 'Au sommet de la cascade dorée, dans la bouche de la statue {npc:129151}.'
 L['bs_tas_location'] = 'Utilisez la {item:208135} pour faire fondre le {npc:96438} et révéler le {object:Monticule de terre meuble}.'
 L['bs_dbt_location'] = 'Sous la grande griffe de squelette au {location:Sanctuaire draconique Émeraude}.'
-L['bs_bar_location'] = nil
+L['bs_bar_location'] = 'Au sommet de la montagne.'
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = nil
+L['soa_mjj_list_note'] = 'Rassemblez toutes les pièces pour obtenir la monture {item:210022}.'
 L['soa_mjj_part1_label'] = '{item:210022} - Partie 1'
 L['soa_mjj_part1_note'] = 'Il faut que 3 joueurs canalisent les braseros avec leur {item:208092} pour invoquer le {npc:210398}. Il donnera la {item:208984}.'
