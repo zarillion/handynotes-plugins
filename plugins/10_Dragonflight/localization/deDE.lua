@@ -914,13 +914,13 @@ L['soa_09_ancient_key_mold_note'] = 'Plündere die {object:Uralte Schlüsselform
 
 -- Secrets of Azeroth: Clue 10
 L['soa_10_rlabel'] = '(Hinweis 10)'
-L['soa_10_tyrs_titan_key_note'] = nil
-L['soa_10_rose_gold_dust_note'] = nil
-L['soa_10_igneous_flux_note'] = nil
-L['soa_10_weaponsmith_koref_note'] = nil
+L['soa_10_tyrs_titan_key_note'] = 'Sprich mit {npc:207696}, um die Quest {quest:77829} zu starten und gehe zu {npc:210837}, um die {item:208829} zu erhalten.\n\nSammle 50x {item:208835} und 8x {item:208836} in {location:Die Küste des Erwachens}, um den Schlüssel bei der {location:Obsidianzitadelle} neu zu schmieden.'
+L['soa_10_rose_gold_dust_note'] = 'Sammle 50x {item:208835}, benutze deinen {item:207730}, um {object:kleine rote Kügelchen} auf dem Boden zu finden.\n\nTreffe dich mit {npc:210837} bei der {location:Obsidianzitadelle}, nachdem du 8x {item:208836} und 50x {item:208835} gesammelt hast.'
+L['soa_10_igneous_flux_note'] = 'Sammle 8x {item:208836} an verschiedenen Orten in {location:Die Küste des Erwachens}, an denen Lava auf Salzwasser trifft.\n\nTreffe dich mit {npc:210837} bei der {location:Obsidianzitadelle}, nachdem du 8x {item:208836} und 50x {item:208835} gesammelt hast.'
+L['soa_10_weaponsmith_koref_note'] = 'Sprich mit {npc:210837} und starte die Quest {quest:77831}, um ihm zu helfen {item:208831} mit den Materialien und deiner {item:208092} neu zu schmieden.'
 
 -- Secrets of Azeroth: Clue 11
-L['soa_11_rlabel'] = nil
+L['soa_11_rlabel'] = '(Hinweis 11)'
 L['soa_11_kathos_note'] = nil
 L['soa_11_sansok_khan_note'] = nil
 L['soa_11_jhara_note'] = nil

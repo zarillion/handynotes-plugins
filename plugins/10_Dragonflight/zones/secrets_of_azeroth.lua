@@ -684,6 +684,7 @@ tws.nodes[48144653] = SecretsOfAzeroth({
         70513, -- hidden, triggered after collecting 50 Rose Gold Dust
         77831 -- A Key to Reforg(ing)
     },
+    questAny = true,
     questDeps = 77893,
     pois = {POI({36195194})} -- Weaponsmith Koref
 }) -- Rose Gold Dust
@@ -700,7 +701,11 @@ tws.nodes[38834307] = SecretsOfAzeroth({
 
 tws.nodes[24516074] = SecretsOfAzeroth({
     label = '{npc:210837}',
-    requires = REQUIREMENT_TORCH_OF_PYRRETH,
+    requires = {
+        REQUIREMENT_TORCH_OF_PYRRETH, --
+        ns.requirement.Item(208836, 8), -- Igneous Flux
+        ns.requirement.Item(208835, 50) -- Rose Gold Dust
+    },
     clue = 10,
     note = L['soa_10_weaponsmith_koref_note'],
     rlabel = Gray(L['soa_10_rlabel']),
@@ -915,7 +920,8 @@ local BURIED_SATCHELS = {
         location = L['bs_bar_location'],
         map = bla, -- Blasted Lands
         parentMapID = 13, -- Eastern Kingdoms
-        quest = 77298
+        quest = 77298,
+        requires = REQUIREMENT_TORCH_OF_PYRRETH
     }
 }
 
