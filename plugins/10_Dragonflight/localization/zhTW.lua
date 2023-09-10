@@ -799,7 +799,7 @@ L['molten_scoutbot_note'] = '開啟 {object:熔火偵查機器人} 並拾取 {it
 L['bolts_and_brass_note'] = '開啟 {object:螺栓與黃銅} 並拾取 {item:204850}.'
 
 L['sniffen_sage_suffix'] = '特殊物品已發現'
-L['sniffen_digs_suffix'] = nil
+L['sniffen_digs_suffix'] = '嗅探尋寶已完成'
 
 L['big_slick_note'] = '從 {npc:201752} 完成他的每日任務並達到 {faction:2568} 聲望 "專業" 可以取得坐騎.\n\n 展示以下達到25級的蝸牛 (戰寵) 每隻也可獲得100聲望:'
 L['grogul_note'] = '和 {npc:204672} 交談並選擇一種零食可以鼓勵那種蝸牛跑得更快.\n{note:此成就可以在名望7之前獲得.}'
@@ -811,9 +811,9 @@ L['smelly_trash_pile_label'] = '臭臭垃圾堆'
 L['options_icons_smelly_trash_pile'] = '臭臭垃圾堆'
 L['options_icons_smelly_trash_pile_desc'] = '顯示 {object:臭臭垃圾堆} 可能的位置.'
 
-L['smelly_treasure_chest_label'] = nil
-L['options_icons_smelly_treasure_chest'] = nil
-L['options_icons_smelly_treasure_chest_desc'] = nil
+L['smelly_treasure_chest_label'] = '臭臭垃圾堆'
+L['options_icons_smelly_treasure_chest'] = '臭臭垃圾堆'
+L['options_icons_smelly_treasure_chest_desc'] = '顯示 {object:臭臭垃圾堆} 可能的位置.'
 
 L['seething_cache_treasure_note'] = '要能夠看到 {object:沸騰貯藏箱} 並拾取 {item:192779}. 你需要在 {location:扎拉萊克洞窟} 的 {location:薩克利火山口} 內, 從 {object:沸騰寶珠} 上取得3層 {spell:399342} 減益.'
 L['chest_of_the_flights_treasure_note'] = '要開啟寶箱你必須按照順序點選 {object:Empowered Gems} {note:紅> 黑 > 藍 > 黃 > 綠}.'
@@ -832,70 +832,70 @@ L['options_icons_zone_event_desc'] = '顯示區域事件的位置.'
 -------------------------------------------------------------------------------
 
 -- Secrets of Azeroth: Clue 1
-L['soa_01_rlabel'] = nil
-L['soa_01_golden_chalice_note'] = nil
+L['soa_01_rlabel'] = '(線索1)'
+L['soa_01_golden_chalice_note'] = '將 {item:208056} 放置在 {location:沃卓肯} 的 {location:沃卓肯寶庫}.'
 
 -- Secrets of Azeroth: Clue 2
-L['soa_02_rlabel'] = nil
-L['soa_02_kathos_note'] = nil
-L['soa_02_shomko_note_a'] = nil
-L['soa_02_shomko_note_b'] = nil
-L['soa_02_shomko_note_c'] = nil
+L['soa_02_rlabel'] = '(線索2)'
+L['soa_02_kathos_note'] = '和 {npc:206864} 交談取得 {item:207105}.\n\n帶著 {item:207105} 去找 {location:蒼藍高地} {location:伊斯凱拉} 的 {npc:186448}.'
+L['soa_02_shomko_note_a'] = '和 {npc:186448} 交談取得 {item:207580}.'
+L['soa_02_shomko_note_b'] = '將 {item:207580} 放置在 {location:北裂境} {location:北風凍原} 的 {location:回聲海岸} 的 {object:修寇的儀祭長矛} 處.'
+L['soa_02_shomko_note_c'] = '{note:記得停在附近並擊殺 {npc:208182} 來取得 {item:207594}.}'
 
 -- Secrets of Azeroth: Clue 3
-L['soa_03_rlabel'] = nil
-L['soa_03_fangli_hoot_note_a'] = nil
-L['soa_03_fangli_hoot_note_b'] = nil
-L['soa_03_fangli_hoot_note_c'] = nil
-L['soa_03_fangli_hoot_note_d'] = nil
-L['soa_03_fangli_hoot_note_e'] = nil
-L['soa_03_fangli_clue_label'] = nil
-L['soa_03_fangli_clue'] = nil
-L['soa_03_erugosa_note_a'] = nil
-L['soa_03_erugosa_note_b'] = nil
-L['soa_03_erugosa_note_c'] = nil
-L['soa_03_erugosa_note_d'] = nil
-L['soa_03_clinkyclick_note_a'] = nil
-L['soa_03_clinkyclick_note_b'] = nil
-L['soa_03_gryffin_note_a'] = nil
-L['soa_03_gryffin_note_b'] = nil
-L['soa_03_shakey_note_a'] = nil
-L['soa_03_shakey_note_b'] = nil
-L['soa_03_shakey_note_c'] = nil
+L['soa_03_rlabel'] = '(線索3)'
+L['soa_03_fangli_hoot_note_a'] = '和 {npc:207696} 交談來取得 {item:207802}. 你需要收集幾個部件來組合成 {item:207827}.'
+L['soa_03_fangli_hoot_note_b'] = '在 {location:沃卓肯} 用5個 {item:207956} 和 {npc:185548} 交換 {item:207814}'
+L['soa_03_fangli_hoot_note_c'] = '在 {location:沃卓肯} 用1個 {item:207812} 和 {npc:197781} 交換 {item:207813}'
+L['soa_03_fangli_hoot_note_d'] = '在 {location:沃卓肯} 幫 {npc:198586} 付清酒吧的賒帳來取得 {item:207816}'
+L['soa_03_fangli_hoot_note_e'] = '組合以上部件來取得 {item:207827} 並且和 {location:沃卓肯} 的 {npc:207697} 開始任務 {quest:77237}.'
+L['soa_03_fangli_clue_label'] = '方利的線索'
+L['soa_03_fangli_clue'] = '在 {location:翡翠區} 附近的瀑布'
+L['soa_03_erugosa_note_a'] = '和 {npc:185556} 交談來取得 {item:208416}. 你需要幫她收集以下的東西:'
+L['soa_03_erugosa_note_b'] = '從 {location:雍亞拉平原} {location:木階哨站} 的 {npc:194152} 購買5個 {item:198441}.'
+L['soa_03_erugosa_note_c'] = '從 {location:薩爪祖斯} {location:沃卓肯} 的 {npc:196729} 購買5個 {item:201419}.'
+L['soa_03_erugosa_note_d'] = '從 {location:扎拉萊克洞穴} {location:洛姆} 的 {npc:204371} 購買5個 {item:205693}.'
+L['soa_03_clinkyclick_note_a'] = '和 {npc:185548} 交談來取得 {item:207814}. 你會需要:'
+L['soa_03_clinkyclick_note_b'] = '從 {location:沃卓肯} {location:炙烤公羊旅店} 的 {npc:185556} 取得10個 {item:207956}.'
+L['soa_03_gryffin_note_a'] = '和 {npc:197781} 交談來取得 {item:207813}. 你會需要:'
+L['soa_03_gryffin_note_b'] = '從 {location:沃卓肯} 的 {location:流瀑} 擊殺 {npc:185556} 拾取1個 {item:207812}.'
+L['soa_03_shakey_note_a'] = '和 {npc:198586} 交談來取得 {item:207816}.'
+L['soa_03_shakey_note_b'] = '在 {location:沃卓肯} 的 {location:巨龍寶庫} 付清 {npc:198586} 的賒帳 %s.'
+L['soa_03_shakey_note_c'] = '在 {location:炙烤公羊旅店} 深處對 {npc:189827} {emote:/bow} 來透過秘密入口進入 {location:巨龍寶庫}.'
 
 -- Secrets of Azeroth: Clue 4
-L['soa_04_rlabel'] = nil
-L['soa_04_locker_label'] = nil
-L['soa_04_sazsel_note_a'] = nil
-L['soa_04_sazsel_note_b'] = nil
+L['soa_04_rlabel'] = '(線索4)'
+L['soa_04_locker_label'] = '保護學家的儲物箱'
+L['soa_04_sazsel_note_a'] = '在 {location:炙烤公羊旅店} 的頂樓從 {object:保護學家的儲物箱} 拾取 {item:208130}. 並帶給在 {location:沃卓肯} 的 {npc:208620}.'
+L['soa_04_sazsel_note_b'] = '鑑定後將旌旗放回到箱子內並和 {npc:207697} 回報.'
 
 -- Secrets of Azeroth: Clue 5
-L['soa_05_rlabel'] = nil
-L['soa_05_torch_of_pyrreth_note_a'] = nil
-L['soa_05_torch_of_pyrreth_note_b'] = nil
-L['soa_05_torch_of_pyrreth_note_c'] = nil
-L['soa_05_ancient_lever_label'] = nil
-L['soa_05_ancient_lever_note_a'] = nil
-L['soa_05_ancient_lever_note_b'] = nil
-L['soa_05_ancient_lever_note_c'] = nil
-L['soa_05_enchanted_box_label'] = nil
+L['soa_05_rlabel'] = '(線索5)'
+L['soa_05_torch_of_pyrreth_note_a'] = '在 {location:甦醒海岸} {location:生命守縛者存護所} 找到並啟動3個 {object:遠古拉桿} 來揭露 {item:208135}.'
+L['soa_05_torch_of_pyrreth_note_b'] = '當取得物品後回到 {location:沃卓肯} 的 {location:炙烤公羊旅店} 找 {npc:206864}.'
+L['soa_05_torch_of_pyrreth_note_c'] = '使用你的 {item:208092} 來取得 {spell:419127} 增益. 你現在可以看到會出現 {object:附魔盒子} 的 {npc:209011}.'
+L['soa_05_ancient_lever_label'] = '遠古拉桿'
+L['soa_05_ancient_lever_note_a'] = '在 {npc:195915} 後方的廢墟建築後方.'
+L['soa_05_ancient_lever_note_b'] = '在塔的廢墟內.'
+L['soa_05_ancient_lever_note_c'] = '在建築物內, 靠近 {npc:186823} 和 {npc:186825}.'
+L['soa_05_enchanted_box_label'] = '附魔盒子'
 
 -- Secrets of Azeroth: Clue 6
-L['soa_06_rlabel'] = nil
+L['soa_06_rlabel'] = '(線索6)'
 L['soa_06_unvieled_tablet_label'] = nil
 L['soa_06_unvieled_tablet_note_a'] = nil
 L['soa_06_unvieled_tablet_note_b'] = nil
 L['soa_06_unvieled_tablet_note_c'] = nil
 
 -- Secrets of Azeroth: Clue 7
-L['soa_07_rlabel'] = nil
+L['soa_07_rlabel'] = '(線索7)'
 L['soa_07_brazier_label'] = nil
 L['soa_07_brazier_note_a'] = nil
 L['soa_07_brazier_note_b'] = nil
 L['soa_07_idol_note'] = nil
 
 -- Secrets of Azeroth: Clue 8
-L['soa_08_rlabel'] = nil
+L['soa_08_rlabel'] = '(線索8)'
 L['soa_08_kathos_note'] = nil
 L['soa_08_time_lost_fragment_note'] = nil
 L['soa_08_tl_fragment_location_a'] = nil
@@ -903,7 +903,7 @@ L['soa_08_tl_fragment_location_b'] = nil
 L['soa_08_tl_fragment_location_c'] = nil
 
 -- Secrets of Azeroth: Clue 9
-L['soa_09_rlabel'] = nil
+L['soa_09_rlabel'] = '(線索9)'
 L['soa_09_bobby_note'] = nil
 L['soa_09_hastily_scrawled_stone_label'] = nil
 L['soa_09_hastily_scrawled_stone_note'] = nil
@@ -924,21 +924,21 @@ L['soa_11_sansok_khan_note'] = nil
 L['soa_11_jhara_note'] = nil
 
 -- Community Rumor Mill
-L['buried_satchel_note'] = nil
-L['buried_satchel_sublabel'] = nil
+L['buried_satchel_note'] = '從 {object:鬆軟的泥土堆} 拾取 {item:208142}.'
+L['buried_satchel_sublabel'] = '{note:這 不是 {item:208142} 的位置.}'
 
-L['bs_epl_location'] = nil
-L['bs_fel_location'] = nil
-L['bs_tho_location'] = nil
-L['bs_smv_location'] = nil
-L['bs_net_location'] = nil
-L['bs_vfw_location'] = nil
-L['bs_tas_location'] = nil
-L['bs_dbt_location'] = nil
-L['bs_bar_location'] = nil
+L['bs_epl_location'] = '在 {location:} 的建築物後面.'
+L['bs_fel_location'] = '在 {location:血毒瀑布} 中間的水下.'
+L['bs_tho_location'] = '在水下一個叫 {location:裂蹄堡} 的洞窟.'
+L['bs_smv_location'] = '在 {location:月柳峰} 的中空大樹內.'
+L['bs_net_location'] = '在 {location:外域} {location:虛空風暴} 的 {location:法力熔爐巴納爾}.\n\n{note:需要三個玩家在附近的水晶引導 {item:208092} 來召喚 {object:鬆軟的泥土堆}.}'
+L['bs_vfw_location'] = '在金色瀑布頂端的 {npc:129151} 雕像口中.'
+L['bs_tas_location'] = '使用 {item:208135} 來融化 {npc:96438} 並揭露 {object:鬆軟的泥土堆}.'
+L['bs_dbt_location'] = '在 {location:翡翠龍殿} 的大龍爪骨頭下.'
+L['bs_bar_location'] = '在山頂上'
 
-L['options_icons_secrets_of_azeroth'] = nil
-L['options_icons_secrets_of_azeroth_desc'] = nil
+L['options_icons_secrets_of_azeroth'] = '艾澤拉斯秘聞'
+L['options_icons_secrets_of_azeroth_desc'] = '顯示 {location:艾澤拉斯秘聞} 線索的位置.'
 
 -- Mimiron's Jumpjets Mount
 L['soa_mjj_list_note'] = nil
