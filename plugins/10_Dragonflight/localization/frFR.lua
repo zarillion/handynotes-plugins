@@ -909,17 +909,17 @@ L['soa_09_ancient_key_mold_label'] = 'Moule de clé antique'
 L['soa_09_ancient_key_mold_note'] = 'Récupérez le {object:Moule de clé antique} pour obtenir le {item:208827} qui lancera la quête {quest:77822}.\n\nRetournez voir le {npc:195769} à {location:Valdrakken}.'
 
 -- Secrets of Azeroth: Clue 10
-L['soa_10_rlabel'] = nil
-L['soa_10_tyrs_titan_key_note'] = nil
-L['soa_10_rose_gold_dust_note'] = nil
-L['soa_10_igneous_flux_note'] = nil
-L['soa_10_weaponsmith_koref_note'] = nil
+L['soa_10_rlabel'] = '(Indice n°10)'
+L['soa_10_tyrs_titan_key_note'] = 'Acceptez la quête {quest:77829} de {npc:207696} et allez voir le {npc:210837} pour obtenir la {item:208829}.\n\nRécupérez les {item:208835} et les {item:208836} aux {location:Rivages de l\'Eveil} pour reforger la clé à la {location:Citadelle d\'obsidienne}.'
+L['soa_10_rose_gold_dust_note'] = 'Récupérez 50x {item:208835}, utilisez votre {item:207730} pour trouver les petits cailloux rouges au sol.\n\nAllez voir le {npc:210837} à la {location:Citadelle d\'obsidienne} après avoir trouvé 50x {item:208835} et 8x {item:208836}.'
+L['soa_10_igneous_flux_note'] = 'Récupérez 8x {item:208836} à différents endroits aux {location:Rivages de l\'Eveil} où la lave rencontre l\'eau salée.\n\nAllez voir le {npc:210837} à la {location:Citadelle d\'obsidienne} après avoir trouvé 50x {item:208835} et 8x {item:208836}.'
+L['soa_10_weaponsmith_koref_note'] = 'Parlez au {npc:210837} et commencez la quête {quest:77831} pour l\'aider à reforger la {item:208831} avec les matériaux réscoltés et votre {item:208092}.'
 
 -- Secrets of Azeroth: Clue 11
-L['soa_11_rlabel'] = nil
-L['soa_11_kathos_note'] = nil
-L['soa_11_sansok_khan_note'] = nil
-L['soa_11_jhara_note'] = nil
+L['soa_11_rlabel'] = '(Indice n°11)'
+L['soa_11_kathos_note'] = 'Parlez à la {npc:206864}, vous recevrez la {item:208852}. Allez voir {npc:195543} aux {location:Plaines d\'Ohn\'ahra} pour lui poser des questions sur la bannière.'
+L['soa_11_sansok_khan_note'] = 'Demandez à {npc:195543} comment enterrer correctement Ishtaar Rethon, le chasseur à qui appartient la bannière.\nVous recevrez la {item:209061} et devrez trouver un PNJ nommé {npc:191391} au {location:Poste de la pinède}.'
+L['soa_11_jhara_note'] = 'Parlez à {npc:191391}, l\'aubergiste. Elle vous donnera le {item:208857}, l\'indice de ce secret.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
