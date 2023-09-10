@@ -841,3 +841,6 @@ L['reliquary_of_ashamane_note'] = '{note:If the world quest {wq:Dryad Fire Drill
 L['reliquary_of_aviana_note'] = 'Find a {object:Mark of Aviana} nearby to get the buff {spell:425432} and go to the {npc:212011}.'
 L['reliquary_of_goldrinn_note'] = 'Find a {object:Mark of Goldrinn} nearby to get the buff {spell:425408} and go to the {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Find a {object:Mark of Ursol} nearby to get the buff {spell:423306} and go to the {npc:210732}.'
+
+L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
+L['options_icons_moonkin_hatchling_desc'] = 'Display moonkin hatchling locations for {achievement:19293}.'

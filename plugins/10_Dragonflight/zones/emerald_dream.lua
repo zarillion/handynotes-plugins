@@ -462,3 +462,109 @@ map.nodes[45514581] = Dragonglyph({rewards = {Achievement({id = 19300})}}) -- Dr
 map.nodes[49996433] = Dragonglyph({rewards = {Achievement({id = 19301})}}) -- Dragon Glyphs: Amirdrassil
 map.nodes[31888059] = Dragonglyph({rewards = {Achievement({id = 19302})}}) -- Dragon Glyphs: Whorlwing basin
 map.nodes[61677548] = Dragonglyph({rewards = {Achievement({id = 19303})}}) -- Dragon Glyphs: Wakeful Vista
+
+-------------------------------------------------------------------------------
+----------------------------- FRIENDS IN FEATHERS -----------------------------
+-------------------------------------------------------------------------------
+
+local MoonkinHatchling = Class('Hatchling', Collectible, {
+    icon = 467894,
+    group = ns.groups.MOONKIN_HATCHLING,
+    getters = {
+        rewards = function(self)
+            return {Achievement({id = 19293, criteria = self.criteriaID})}
+        end
+    }
+})
+
+map.nodes[37136593] = MoonkinHatchling({criteriaID = 62785}) -- Beaks
+
+map.nodes[39096598] = MoonkinHatchling({criteriaID = 62776}) -- Bumbletweet
+
+map.nodes[36457124] = MoonkinHatchling({
+    criteriaID = 62788,
+    pois = {
+        POI({36147092}) -- Entrance
+    }
+}) -- Chickle
+
+map.nodes[36386277] = MoonkinHatchling({
+    criteriaID = 62790,
+    note = L['in_small_cave']
+}) -- Eugene
+
+map.nodes[90005200] = MoonkinHatchling({ -- Review
+    criteriaID = 62775
+}) -- Feets
+
+map.nodes[39347178] = MoonkinHatchling({
+    criteriaID = 62779,
+    note = L['in_cave'],
+    pois = {
+        POI({38817158}) -- Entrance
+    }
+}) -- Fruffles
+
+map.nodes[38696352] = MoonkinHatchling({criteriaID = 62789}) -- Fuzz
+
+map.nodes[92005200] = MoonkinHatchling({ -- Review
+    criteriaID = 62773
+}) -- Giblet
+
+map.nodes[37767327] = MoonkinHatchling({criteriaID = 62784}) -- Hops
+
+map.nodes[35566976] = MoonkinHatchling({
+    criteriaID = 62783,
+    note = L['in_small_cave']
+}) -- Meep
+
+map.nodes[36116968] = MoonkinHatchling({criteriaID = 62787}) -- Moonbeam
+
+map.nodes[37427231] = MoonkinHatchling({criteriaID = 62782}) -- Owlington
+
+map.nodes[38046901] = MoonkinHatchling({
+    criteriaID = 62777,
+    note = L['in_small_cave'],
+    pois = {
+        POI({37526855}) -- Entrance
+    }
+}) -- Peanut
+
+map.nodes[40407150] = MoonkinHatchling({
+    criteriaID = 62778,
+    note = L['in_cave'],
+    pois = {
+        POI({38817158}) -- Entrance
+    }
+}) -- Snoozle
+
+map.nodes[36357161] = MoonkinHatchling({
+    criteriaID = 62780,
+    pois = {
+        POI({36147092}) -- Entrance
+    }
+}) -- Squawkle
+
+map.nodes[38446930] = MoonkinHatchling({
+    criteriaID = 62786,
+    note = L['in_cave'],
+    pois = {
+        POI({37536964}) -- Entrance
+    }
+}) -- Squeaky
+
+map.nodes[38757048] = MoonkinHatchling({
+    criteriaID = 62791,
+    note = L['in_cave'],
+    pois = {
+        POI({37536964}) -- Entrance
+    }
+}) -- Tickles
+
+map.nodes[37757026] = MoonkinHatchling({
+    criteriaID = 62781,
+    note = L['in_cave'],
+    pois = {
+        POI({37536964}) -- Entrance
+    }
+}) -- Wingnut

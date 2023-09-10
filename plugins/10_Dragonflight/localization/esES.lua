@@ -842,3 +842,6 @@ L['reliquary_of_ashamane_note'] = nil
 L['reliquary_of_aviana_note'] = nil
 L['reliquary_of_goldrinn_note'] = nil
 L['reliquary_of_ursol_note'] = nil
+
+L['options_icons_moonkin_hatchling'] = nil
+L['options_icons_moonkin_hatchling_desc'] = nil

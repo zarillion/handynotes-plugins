@@ -842,3 +842,6 @@ L['reliquary_of_ashamane_note'] = '{note:Wenn die Weltquest {wq:Dryad Fire Drill
 L['reliquary_of_aviana_note'] = 'Finde ein {object:Mal von Aviana} in der Nähe, um den Stärkungszauber {spell:425432} zu erhalten. Begib dich damit zu {npc:212011}.'
 L['reliquary_of_goldrinn_note'] = 'Finde ein {object:Mal von Goldrinn} in der Nähe, um den Stärkungszauber {spell:425408} zu erhalten. Begib dich damit zu {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Finde ein {object:Mal von Ursol} in der Nähe, um den Stärkungszauber {spell:423306} zu erhalten. Begib dich damit zu {npc:210732}.'
+
+L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
+L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der moonkin hatchling für den Erfolg {achievement:19293} an.'

@@ -298,6 +298,12 @@ ns.groups.MANY_BOXES = Group('many_boxes', 132762, {
     achievement = 18559
 })
 
+ns.groups.MOONKIN_HATCHLING = Group('moonkin_hatchling', 467894, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 19293
+})
+
 ns.groups.NEW_PERSPECTIVE = Group('new_perspective', 1109100, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
