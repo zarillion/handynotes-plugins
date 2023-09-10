@@ -911,14 +911,14 @@ L['soa_09_ancient_key_mold_label'] = nil
 L['soa_09_ancient_key_mold_note'] = nil
 
 -- Secrets of Azeroth: Clue 10
-L['soa_11_rlabel'] = nil
+L['soa_10_rlabel'] = nil
 L['soa_10_tyrs_titan_key_note'] = nil
 L['soa_10_rose_gold_dust_note'] = nil
 L['soa_10_igneous_flux_note'] = nil
 L['soa_10_weaponsmith_koref_note'] = nil
 
 -- Secrets of Azeroth: Clue 11
-L['soa_10_rlabel'] = nil
+L['soa_11_rlabel'] = nil
 L['soa_11_kathos_note'] = nil
 L['soa_11_sansok_khan_note'] = nil
 L['soa_11_jhara_note'] = nil
