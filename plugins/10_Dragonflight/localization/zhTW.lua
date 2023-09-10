@@ -749,7 +749,7 @@ L['phoenix_wishwing_ash_feather'] = [[
 %s {item:202062}
 
 要看到 {object:羽毛} 你需要從 {location:甦醒海岸} 的 {location:黑曜王座} 裡的 {npc:189207} {dot:Green} 購買 {item:199177}.
-使用項鍊並撿起在 {location:黑曜龍堡} 附近的 {location:熾烈高地} 和 {location:熔渣泥沼} 可以找到的 {item:202062} {dot:Red}.
+使用項鍊並撿起在 {location:黑曜龍堡} 附近的 {location:熾烈高地} 和 {location:熔渣泥沼} 裡可以找到的 {item:202062} {dot:Red}.
 ]]
 L['phoenix_wishwing_info'] = '這是位於 {location:巨龍群島} 上 {location:甦醒海岸} 的收藏品 {item:193373} 的一部分.'
 
@@ -882,46 +882,46 @@ L['soa_05_enchanted_box_label'] = '附魔盒子'
 
 -- Secrets of Azeroth: Clue 6
 L['soa_06_rlabel'] = '(線索6)'
-L['soa_06_unvieled_tablet_label'] = nil
-L['soa_06_unvieled_tablet_note_a'] = nil
-L['soa_06_unvieled_tablet_note_b'] = nil
-L['soa_06_unvieled_tablet_note_c'] = nil
+L['soa_06_unvieled_tablet_label'] = '露出的石板'
+L['soa_06_unvieled_tablet_note_a'] = '和 {npc:207696} 交談來完成任務 {quest:77284} 並且取得 {item:208137}.\n\n然後到 {location:蒼藍高地} 的 {location:瓦瑟洛斯}.'
+L['soa_06_unvieled_tablet_note_b'] = '在 {location:蒼藍高地} {location:瓦瑟洛斯} 的塔底使用 {item:208092} 會找到 {object:露出的石板}.'
+L['soa_06_unvieled_tablet_note_c'] = '拾取 {item:208143} 並且回到 {location:沃卓肯} 交給 {npc:207696} 來完成祕聞.'
 
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '(線索7)'
-L['soa_07_brazier_label'] = nil
-L['soa_07_brazier_note_a'] = nil
-L['soa_07_brazier_note_b'] = nil
-L['soa_07_idol_note'] = nil
+L['soa_07_brazier_label'] = '遠古薰香火盆'
+L['soa_07_brazier_note_a'] = '和 {npc:185562} 交談來完成任務 {quest:77303} 並且取得 {item:208144}.\n\n然後到 {location:雍亞拉平原} 的 {location:永恆墓塚}.'
+L['soa_07_brazier_note_b'] = '在古代墓塚裡使用 {item:208135} 點燃 {object:遠古薰香火盆}.'
+L['soa_07_idol_note'] = '在 {object:遠古薰香火盆} 旁拾取找到的 {item:207730} 並回到 {location:沃卓肯}.'
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '(線索8)'
-L['soa_08_kathos_note'] = nil
-L['soa_08_time_lost_fragment_note'] = nil
-L['soa_08_tl_fragment_location_a'] = nil
-L['soa_08_tl_fragment_location_b'] = nil
-L['soa_08_tl_fragment_location_c'] = nil
+L['soa_08_kathos_note'] = '和 {npc:206864} 交談來完成任務 {quest:77854} 並且取得 {item:206948}.\n\n飛到 {location:薩爪祖斯} 的 {location:時光沙地} 並且使用 {item:207730} 來找到3個 {item:208191}.'
+L['soa_08_time_lost_fragment_note'] = '在 {location:薩爪祖斯} 的 {location:時光沙地} 使用 {item:207730} 來找到3個 {item:208191}.\n\n組合他們來製造 {item:208146} 後回到 {location:沃卓肯} 找 {npc:206864}.'
+L['soa_08_tl_fragment_location_a'] = '在小樹下方.'
+L['soa_08_tl_fragment_location_b'] = '在兩個巨石之間.'
+L['soa_08_tl_fragment_location_c'] = '在小河的水下.'
 
 -- Secrets of Azeroth: Clue 9
 L['soa_09_rlabel'] = '(線索9)'
-L['soa_09_bobby_note'] = nil
-L['soa_09_hastily_scrawled_stone_label'] = nil
-L['soa_09_hastily_scrawled_stone_note'] = nil
-L['soa_09_ancient_key_mold_label'] = nil
-L['soa_09_ancient_key_mold_note'] = nil
+L['soa_09_bobby_note'] = '和 {npc:207696} 交談來開始任務 {quest:77653} 和 {npc:195769} 回報任務並且取得 {item:208486}.\n\n然後到 {location:雍亞拉平原} 的 {location:蓿木谷}.'
+L['soa_09_hastily_scrawled_stone_label'] = '潦草塗鴉的石頭'
+L['soa_09_hastily_scrawled_stone_note'] = '使用 {item:208092} 來找到 {object:潦草塗鴉的石頭} 然後到旁邊的 {object:Ancient Key Mold}.'
+L['soa_09_ancient_key_mold_label'] = '遠古鑰匙模具'
+L['soa_09_ancient_key_mold_note'] = '拾取 {object:遠古鑰匙模具} 來取得 {item:208827} 並開始任務 {quest:77822}.\n\n回去 {location:沃卓肯} 找 {npc:195769}.'
 
 -- Secrets of Azeroth: Clue 10
-L['soa_10_rlabel'] = nil
-L['soa_10_tyrs_titan_key_note'] = nil
-L['soa_10_rose_gold_dust_note'] = nil
-L['soa_10_igneous_flux_note'] = nil
-L['soa_10_weaponsmith_koref_note'] = nil
+L['soa_10_rlabel'] = '(線索10)'
+L['soa_10_tyrs_titan_key_note'] = '從 {npc:207696} 取得任務 {quest:77829} 並且到 {npc:210837} 取得 {item:208829}.\n\n在 {location:甦醒海岸} 收集 {item:208835} 和 {item:208836} 以用來在 {location:黑曜龍堡} 重鑄鑰匙.'
+L['soa_10_rose_gold_dust_note'] = '收集50個 {item:208835}, 使用你的 {item:207730} 以在地上找到小小的紅色鵝卵石.\n\n當你找到50個 {item:208835} 和8個 {item:208836} 之後去 {location:黑曜龍堡} 找 {npc:210837}.'
+L['soa_10_igneous_flux_note'] = '在 {location:甦醒海岸} 的幾個不同的岩漿出海口收集8個 {item:208836}\n\n當你找到50個 {item:208835} 和8個 {item:208836} 之後去 {location:黑曜龍堡} 找 {npc:210837}.'
+L['soa_10_weaponsmith_koref_note'] = '和 {npc:210837} 說話開始任務 {quest:77831} 使用你找到的材料和 {item:208092} 來幫助他重鑄 {item:208831}.'
 
 -- Secrets of Azeroth: Clue 11
-L['soa_11_rlabel'] = nil
-L['soa_11_kathos_note'] = nil
-L['soa_11_sansok_khan_note'] = nil
-L['soa_11_jhara_note'] = nil
+L['soa_11_rlabel'] = '(線索11)'
+L['soa_11_kathos_note'] = '和 {npc:206864} 交投你會收到 {item:208852}. 到 {location:雍亞拉平原} 找 {npc:195543} 詢問他有關旌旗的事.'
+L['soa_11_sansok_khan_note'] = '詢問 {npc:195543} 如何完善的埋葬旌旗的擁有者獵人 Ishtar Rethon.\n你會收到 {item:209061} 並要求你找到在 {location:Pinewood Post} 的 {npc:191391}.'
+L['soa_11_jhara_note'] = '和旅店老闆 {npc:191391} 交談. 她會交給你這個祕聞的線索 {item:208857}.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = '從 {object:鬆軟的泥土堆} 拾取 {item:208142}.'
@@ -941,10 +941,14 @@ L['options_icons_secrets_of_azeroth'] = '艾澤拉斯秘聞'
 L['options_icons_secrets_of_azeroth_desc'] = '顯示 {location:艾澤拉斯秘聞} 線索的位置.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = nil
-L['soa_mjj_part1_label'] = nil
+L['soa_mjj_list_note'] = '收集所有的部件來取得 {item:210022}.'
+L['soa_mjj_part1_label'] = '{item:210022} - 部位 1'
 L['soa_mjj_part1_note'] = nil
-L['soa_mjj_part2_label'] = nil
-L['soa_mjj_part2_note'] = nil
-L['soa_mjj_part3_label'] = nil
+L['soa_mjj_part2_label'] = '{item:209781} - 部位 2'
+L['soa_mjj_part2_note'] = [[
+{bug:目前需要開啟戰爭模式才會刷新元素!}
+
+{note:你至少需要4個玩家在你附近來完成這個部分}
+]]
+L['soa_mjj_part3_label'] = '{item:209055} - 部位 3'
 L['soa_mjj_part3_note'] = nil
