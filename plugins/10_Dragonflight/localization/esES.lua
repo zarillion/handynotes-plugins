@@ -838,20 +838,20 @@ L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
-L['magical_bloom_note'] = nil
-L['odd_burl_note'] = nil
-L['pineshrew_cache_note'] = nil
-L['reliquary_of_ashamane_note'] = nil
-L['reliquary_of_aviana_note'] = nil
-L['reliquary_of_goldrinn_note'] = nil
-L['reliquary_of_ursol_note'] = nil
+L['magical_bloom_note'] = 'Ataca a {npc:210544} y persíguelo hasta que revele el tesoro.'
+L['odd_burl_note'] = 'En lo alto del árbol.'
+L['pineshrew_cache_note'] = 'Junto a algunas rocas.'
+L['reliquary_of_ashamane_note'] = '{note:Si la misión del mundo {wq:Dryad Fire Drill} está activa necesitarás completarla antes para poder ver el tesoro.}\n\nEncuentra una {object:Marca de Ashamane} {dot:Green} cercana para conseguir el buff {spell:425426} e ir a la {npc:212009}.' -- REVIEW {wq:Dryad Fire Drill}
+L['reliquary_of_aviana_note'] = 'Encuentra una {object:Marca de Aviana} cercana para conseguir el buff {spell:425432} e ir a la {npc:212011}.'
+L['reliquary_of_goldrinn_note'] = 'Encuentra una {object:Marca de Goldrinn} cercana para conseguir el buff {spell:425408} e ir a la {npc:212012}.'
+L['reliquary_of_ursol_note'] = 'Encuentra una {object:Marca de Ursol} cercana para conseguir el buff {spell:423306} e ir a la {npc:210732}.'
 
-L['unwaking_echo_label'] = nil
-L['unwaking_echo_note'] = nil
+L['unwaking_echo_label'] = 'Unwaking Echo' -- REVIEW Unwaking Echo
+L['unwaking_echo_note'] = '{note:Sólo puedes abrir este cofre en tus sueños.}\n\nTeclea la emoción {emote:/dormir} para dormir junto al cofre y que se abra.'
 
-L['experimental_dreamcatcher_note'] = nil
-L['handful_of_pebbles_note'] = nil
-L['petrified_hope_note'] = nil
+L['experimental_dreamcatcher_note'] = 'PH' -- Placeholder
+L['handful_of_pebbles_note'] = 'Encima del hombro derecho de la estatua.'
+L['petrified_hope_note'] = 'Encima del tocón del árbol.'
 
-L['options_icons_moonkin_hatchling'] = nil
-L['options_icons_moonkin_hatchling_desc'] = nil
+L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
+L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las moonkin hatchling para el logro {achievement:19293}.' -- REVIEW moonkin hatchling y revisar el artículo. Podría ser Prole de lechúcico lunar.
