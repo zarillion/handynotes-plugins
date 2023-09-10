@@ -912,17 +912,17 @@ L['soa_09_ancient_key_mold_label'] = 'Molde de Llave Antiguo'
 L['soa_09_ancient_key_mold_note'] = 'Despoja el {object:Molde de Llave Antiguo} para conseguir el {item:208827} que empezará la misión {quest:77822}.\n\nDevuélvelo al {npc:195769} en {location:Valdrakken}.'
 
 -- Secrets of Azeroth: Clue 10
-L['soa_10_rlabel'] = nil
-L['soa_10_tyrs_titan_key_note'] = nil
-L['soa_10_rose_gold_dust_note'] = nil
-L['soa_10_igneous_flux_note'] = nil
-L['soa_10_weaponsmith_koref_note'] = nil
+L['soa_10_rlabel'] = '(Pista 10)'
+L['soa_10_tyrs_titan_key_note'] = 'Coge la misión {quest:77829} de {npc:207696} y ves a {npc:210837} para conseguir {item:208829}.\n\nRecoge {item:208835} y {item:208836} en las {location:Orillas del Despertar} para reforjar la llave en la {location:Ciudadela Obsidiana}.'
+L['soa_10_rose_gold_dust_note'] = 'Recoge 50x {item:208835} usando tu {item:207730} para encontrar las bolitas rojas en el suelo.\n\nVes a {npc:210837} en la {location:Ciudadela Obsidiana} tras recoger 50x {item:208835} y 8x {item:208836}.'
+L['soa_10_igneous_flux_note'] = 'Recoge 8x {item:208836} en varios sitios de las {location:Orillas del Despertar} en las orillas de lava junto al agua.\n\nVes a {npc:210837} en la {location:Ciudadela Obsidiana} tras recoger 50x {item:208835} y 8x {item:208836}.'
+L['soa_10_weaponsmith_koref_note'] = 'Habla con {npc:210837} y comienza la misión {quest:77831} para ayudarle a reforjar la {item:208831} con los ingredientes y tu {item:208092}.'
 
 -- Secrets of Azeroth: Clue 11
-L['soa_11_rlabel'] = nil
-L['soa_11_kathos_note'] = nil
-L['soa_11_sansok_khan_note'] = nil
-L['soa_11_jhara_note'] = nil
+L['soa_11_rlabel'] = '(Pista 11)'
+L['soa_11_kathos_note'] = 'Habla con {npc:206864} y te dará {item:208852}. Ves a {npc:195543} en las {location:Llanuras de Ohn\'ahra} para preguntarle acerca del Estandarte.'
+L['soa_11_sansok_khan_note'] = 'Pregunta a {npc:195543} cómo enterrar adecuadamente a Ishtar Rethon, el cazador al que le pertenecía.\nRecibirás el {item:209061} y se te pedirá que busques a una NPC llamada {npc:191391} en {location:Puesto del Pinar}.'
+L['soa_11_jhara_note'] = 'Habla con {npc:191391}, la tabernera. Ella te dará {item:208857}, la pista para este secreto.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
