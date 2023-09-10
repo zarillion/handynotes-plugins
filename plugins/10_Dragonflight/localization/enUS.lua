@@ -917,6 +917,12 @@ L['soa_10_rose_gold_dust_note'] = 'Collect 50x {item:208835}, use your {item:207
 L['soa_10_igneous_flux_note'] = 'Collect 8x {item:208836} at various locations in the {location:Waking Shores} where lava meets salt water.\n\nGo to {npc:210837} at the {location:Obsidian Citadel} after you found 50x {item:208835} and 8x {item:208836}.'
 L['soa_10_weaponsmith_koref_note'] = 'Speak to {npc:210837} and start the quest {quest:77831} to help him reforge {item:208831} with the ingredients and your {item:208092}.'
 
+-- Secrets of Azeroth: Clue 11
+L['soa_11_rlabel'] = '(Clue 11)'
+L['soa_11_kathos_note'] = 'Talk to {npc:206864}, you will receiving {item:208852}. Head to {npc:195543} in {location:Ohn\'ahran Plains} to ask him about the Banner.'
+L['soa_11_sansok_khan_note'] = 'Ask {npc:195543} how to properly bury Ishtar Rethon, the hunter whom the banner belongs to.\nYou will receive {item:209061} and be requested to find an NPC named {npc:191391} in {location:Pinewood Post}.'
+L['soa_11_jhara_note'] = 'Talk to {npc:191391}, the innkeeper. She will give you {item:208857}, the clue for this secret.'
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
 L['buried_satchel_sublabel'] = '{note:This is NOT a {item:208142} location.}'

@@ -717,6 +717,45 @@ tws.nodes[24516074] = SecretsOfAzeroth({
 -- 77577 -- Clue 10 complete
 
 -------------------------------------------------------------------------------
+------------------------- SECRETS OF AZEROTH: CLUE 11 -------------------------
+-------------------------------------------------------------------------------
+
+val.nodes[47324823] = SecretsOfAzeroth({
+    label = '{npc:206864}',
+    note = L['soa_11_kathos_note'],
+    questDeps = 77577, -- Clue 10 complete
+    quest = 78008, -- A Proper Burial (77854)
+    rlabel = Gray(L['soa_11_rlabel']),
+    rewards = {
+        Achievement({id = 18646, criteria = 11}) -- Whodunnit?
+    }
+}) -- Preservationist Kathos
+
+ohn.nodes[63414138] = SecretsOfAzeroth({
+    label = '{npc:206864}',
+    note = L['soa_11_sansok_khan_note'],
+    questDeps = 78008, -- A Proper Burial (77854)
+    playerHasItem = {209061},
+    rlabel = Gray(L['soa_11_rlabel']),
+    rewards = {
+        Item({item = 209061}) -- Ishtar Rethon's Burial Banner
+    }
+}) -- Sansok Khan
+
+ohn.nodes[81335930] = SecretsOfAzeroth({
+    label = '{npc:206864}',
+    note = L['soa_11_jhara_note'],
+    questDeps = 78008, -- A Proper Burial (77854)
+    playerHasItem = {208857},
+    rlabel = Gray(L['soa_11_rlabel']),
+    rewards = {
+        Item({item = 208857}) -- The Path of Ishtar Drawing
+    }
+}) -- Jhara
+
+-- First Marker @83884849 - I Skipped talking to Jhara and was still able to use the marker and trigger the hidden quest 78025
+
+-------------------------------------------------------------------------------
 -------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------
 -------------------------------------------------------------------------------
 

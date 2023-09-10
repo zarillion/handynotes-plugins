@@ -917,6 +917,12 @@ L['soa_10_rose_gold_dust_note'] = nil
 L['soa_10_igneous_flux_note'] = nil
 L['soa_10_weaponsmith_koref_note'] = nil
 
+-- Secrets of Azeroth: Clue 11
+L['soa_10_rlabel'] = nil
+L['soa_11_kathos_note'] = nil
+L['soa_11_sansok_khan_note'] = nil
+L['soa_11_jhara_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = '从 {object:松软的泥土堆} 中拾取 {item:208142}。'
 L['buried_satchel_sublabel'] = '{note:这*不是* {item:208142} 的位置。}'
