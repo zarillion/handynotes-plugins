@@ -835,10 +835,20 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
+L['magical_bloom_note'] = nil
+L['odd_burl_note'] = nil
+L['pineshrew_cache_note'] = nil
 L['reliquary_of_ashamane_note'] = nil
 L['reliquary_of_aviana_note'] = nil
 L['reliquary_of_goldrinn_note'] = nil
 L['reliquary_of_ursol_note'] = nil
+
+L['unwaking_echo_label'] = nil
+L['unwaking_echo_note'] = nil
+
+L['experimental_dreamcatcher_note'] = nil
+L['handful_of_pebbles_note'] = nil
+L['petrified_hope_note'] = nil
 
 L['options_icons_moonkin_hatchling'] = nil
 L['options_icons_moonkin_hatchling_desc'] = nil

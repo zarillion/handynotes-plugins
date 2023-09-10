@@ -5,6 +5,9 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Class = ns.Class
+
+local Collectible = ns.node.Collectible
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -15,6 +18,7 @@ local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
+local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 
@@ -24,21 +28,22 @@ local map = Map({id = 2200, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[80004400] = Rare({ -- REVIEW
+map.nodes[51253128] = Rare({
     id = 210050,
-    quest = nil,
+    quest = 77942,
     rewards = {
         Achievement({id = 19316, criteria = 62945}) -- Adventurer of the Emerald Dream
+        -- https://wowhead.com/item=203311
     }
 }) -- Bloodstripe Great Ray
 
-map.nodes[84004000] = Rare({ -- REVIEW
+map.nodes[64178399] = Rare({
     id = 209898,
-    quest = nil,
+    quest = 77867,
     rewards = {
         Achievement({id = 19316, criteria = 62931}) -- Adventurer of the Emerald Dream
     }
-}) -- Cargnosh
+}) -- Reefbreaker Moruud (Cargnosh - renamed??)
 
 map.nodes[66036318] = Rare({
     id = 209909,
@@ -95,9 +100,9 @@ map.nodes[47062974] = Rare({
     }
 }) -- Henri Snufftail
 
-map.nodes[94004000] = Rare({ -- REVIEW
+map.nodes[58775119] = Rare({
     id = 209620,
-    quest = nil,
+    quest = 77864,
     rewards = {
         Achievement({id = 19316, criteria = 62936}) -- Adventurer of the Emerald Dream
     }
@@ -111,17 +116,20 @@ map.nodes[37433171] = Rare({
     }
 }) -- Isaqa (Balboan)
 
-map.nodes[92004200] = Rare({ -- REVIEW
+map.nodes[40294916] = Rare({ -- REVIEW
     id = 210046,
-    quest = nil,
+    quest = 78211,
     rewards = {
         Achievement({id = 19316, criteria = 62943}) -- Adventurer of the Emerald Dream
-    }
+        -- https://www.wowhead.com/ptr-2/item=210128
+    },
+    pois = {Path({40294916, 39214992, 39535168, 40865209, 40545087, 40294916})}
 }) -- Keen-eyed Cian
 
-map.nodes[82004400] = Rare({ -- REVIEW
+map.nodes[41107328] = Rare({
     id = 210051,
-    quest = nil,
+    quest = 78213,
+    note = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62946}) -- Adventurer of the Emerald Dream
     }
@@ -143,11 +151,15 @@ map.nodes[63793624] = Rare({
     }
 }) -- Molten Leadspike
 
-map.nodes[90004200] = Rare({ -- REVIEW
+map.nodes[40467258] = Rare({
     id = 210045,
-    quest = nil,
+    quest = 78210,
+    note = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62942}) -- Adventurer of the Emerald Dream
+    },
+    pois = {
+        POI({38817158}) -- Entrance
     }
 }) -- Moragh the Slothful
 
@@ -169,25 +181,29 @@ map.nodes[61697214] = Rare({
     }
 }) -- Nuoberon
 
-map.nodes[92004400] = Rare({ -- REVIEW
+map.nodes[44473929] = Rare({ -- REVIEW
     id = 210161,
-    quest = nil,
+    quest = 77890,
+    note = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62951}) -- Adventurer of the Emerald Dream
+    },
+    pois = {
+        POI({44923692, 44293595}) -- Entrance
     }
 }) -- Ristar, the Rabid
 
-map.nodes[94004200] = Rare({ -- REVIEW
+map.nodes[43484697] = Rare({
     id = 210047,
-    quest = nil,
+    quest = 78212,
     rewards = {
         Achievement({id = 19316, criteria = 62944}) -- Adventurer of the Emerald Dream
     }
 }) -- Somnambulant Ori
 
-map.nodes[92004000] = Rare({ -- REVIEW
+map.nodes[61755220] = Rare({
     id = 209365,
-    quest = nil,
+    quest = 77863,
     rewards = {
         Achievement({id = 19316, criteria = 62935}) -- Adventurer of the Emerald Dream
     }
@@ -219,7 +235,11 @@ map.nodes[26022656] = Rare({
 
 -------------------------------------------------------------------------------
 
-map.nodes[22743226] = Rare({id = 210559, quest = 78039}) -- Balboan
+map.nodes[22743226] = Rare({
+    id = 210559,
+    quest = 78039,
+    note = L['in_small_cave']
+}) -- Balboan
 
 map.nodes[38436213] = Rare({
     id = 210508,
@@ -250,25 +270,28 @@ map.nodes[47493485] = Treasure({
 
 map.nodes[61625960] = Treasure({
     quest = 78005,
-    note = 'PH',
-    -- Chase {npc:210544} 3 times.
+    note = L['magical_bloom_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62960}) -- Treasures of The Emerald Dream
         -- REVIEW
+    },
+    pois = {
+        POI({64346131}) -- Laughing Sprigling
     }
 }) -- Magical Bloom
 
-map.nodes[61406320] = Treasure({ -- REVIEW
+map.nodes[61406320] = Treasure({
     quest = 78006,
-    note = 'PH',
+    note = L['odd_burl_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62961}) -- Treasures of The Emerald Dream
+        -- REVIEW
     }
 }) -- Odd Burl
 
 map.nodes[37263069] = Treasure({
     quest = 78120,
-    note = 'PH',
+    note = L['pineshrew_cache_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62956}) -- Treasures of The Emerald Dream
         -- REVIEW
@@ -333,6 +356,25 @@ map.nodes[80004600] = Treasure({ -- REVIEW
 }) -- Triflesnatch's Roving Trove
 
 -------------------------------------------------------------------------------
+
+local UnwakingEcho = Class('Hatchling', Treasure, {
+    icon = 'chest_gn',
+    label = L['unwaking_echo_label'],
+    note = L['unwaking_echo_note']
+})
+
+map.nodes[46408615] = UnwakingEcho({quest = 78552})
+map.nodes[55672258] = UnwakingEcho({quest = 78547})
+map.nodes[55324538] = UnwakingEcho({
+    quest = 78551,
+    sublabel = L['in_small_cave']
+})
+map.nodes[69575284] = UnwakingEcho({
+    quest = 78550,
+    sublabel = L['inside_building']
+})
+
+-------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 -- https://www.wowhead.com/ptr-2/items/quality:4?filter=168:99:82;2:11:2;0:0:100200
@@ -355,50 +397,37 @@ map.nodes[92004800] = PT.Enchanting({ -- REVIEW
     quest = nil
 }) -- Essence of Dreams
 
-map.nodes[84004800] = PT.Inscription({ -- REVIEW
-    id = 210458,
-    quest = nil
-}) -- Winnie's Notes on Flora and Fauna
+map.nodes[55642751] = PT.Inscription({id = 210458, quest = 78411}) -- Winnie's Notes on Flora and Fauna
 
 map.nodes[86004800] = PT.Inscription({ -- REVIEW
     id = 210459,
     quest = nil
 }) -- Grove Keeper's Pillar
 
-map.nodes[82004800] = PT.Inscription({ -- REVIEW
-    id = 210460,
-    quest = nil
-}) -- Primalist Shadowbinding Rune
+map.nodes[36044664] = PT.Inscription({id = 210460, quest = 78413}) -- Primalist Shadowbinding Rune
 
-map.nodes[88004800] = PT.Blacksmithing({ -- REVIEW
-    id = 210466,
-    quest = nil
-}) -- Flamesworn Render
+map.nodes[37262292] = PT.Blacksmithing({id = 210466, quest = 78419}) -- Flamesworn Render
 
 map.nodes[90004800] = PT.Blacksmithing({ -- REVIEW
     id = 210464,
     quest = nil
 }) -- Amirdrassil Defender's Shield
 
-map.nodes[94004800] = PT.Blacksmithing({ -- REVIEW
-    id = 210465,
-    quest = nil
-}) -- Deathstalker Chasis
+map.nodes[36344680] = PT.Blacksmithing({id = 210465, quest = 78418}) -- Deathstalker Chasis
 
-map.nodes[80005000] = PT.Engineering({ -- REVIEW
+map.nodes[39575227] = PT.Engineering({
     id = 210193,
-    quest = nil
+    quest = 78278,
+    note = L['experimental_dreamcatcher_note']
 }) -- Experimental Dreamcatcher
 
-map.nodes[82005000] = PT.Engineering({ -- REVIEW
+map.nodes[40498937] = PT.Engineering({
     id = 210194,
-    quest = nil
+    quest = 78279,
+    note = L['in_small_cave']
 }) -- Insomniotron
 
-map.nodes[84005000] = PT.Engineering({ -- REVIEW
-    id = 210197,
-    quest = nil
-}) -- Unhatched Battery
+map.nodes[62683626] = PT.Engineering({id = 210197, quest = 78281}) -- Unhatched Battery
 
 map.nodes[86005000] = PT.Engineering({ -- REVIEW
     id = 210198,
@@ -420,20 +449,19 @@ map.nodes[92005000] = PT.Tailoring({ -- REVIEW
     quest = nil
 }) -- Snuggle Buddy
 
-map.nodes[94005000] = PT.Jewelcrafting({ -- REVIEW
+map.nodes[33204656] = PT.Jewelcrafting({
     id = 210200,
-    quest = nil
+    quest = 78252,
+    note = L['petrified_hope_note']
 }) -- Petrified Hope
 
-map.nodes[80005200] = PT.Jewelcrafting({ -- REVIEW
+map.nodes[43513336] = PT.Jewelcrafting({
     id = 210201,
-    quest = nil
+    quest = 78283,
+    note = L['handful_of_pebbles_note']
 }) -- Handful of Pebbles
 
-map.nodes[82005200] = PT.Jewelcrafting({ -- REVIEW
-    id = 210202,
-    quest = nil
-}) -- Coalesced Dreamstone
+map.nodes[58945389] = PT.Jewelcrafting({id = 210202, quest = 78285}) -- Coalesced Dreamstone
 
 map.nodes[84005200] = PT.Leatherworking({ -- REVIEW
     id = 210208,
