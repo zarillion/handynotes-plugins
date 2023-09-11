@@ -929,7 +929,7 @@ L['soa_11_marker_3_label'] = 'Third Marker'
 L['soa_11_marker_4_label'] = 'Fourth Marker'
 L['soa_11_marker_4_note'] = 'Inside the burial mound.'
 L['soa_11_marker_5_label'] = 'Fifth Marker'
-L['soa_11_burial_banner_note'] = 'Venture deep in the cave and get to the top floor once you encounter a ramp, at the end of the top floor you will find a place to deposit the burial banner.'
+L['soa_11_burial_banner_note'] = 'Venture deep in the cave and get to the top floor once you encounter a ramp, at the end of the top floor you will find a place to deposit the {item:208852}.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
