@@ -951,8 +951,8 @@ L['soa_mjj_part2_note'] = [[
 
 {note:Necesitaréis ser al menos 4 personas para esta pieza.}
 
-En {location:Bosque de Troncoferro}, tendrás que buscar un {npc:210417} gigante y una {object:Pieza del Propulsor Mimiron} para usar.
-Puedes usar la {object:Pieza del Propulsor Mimiron} para subirte en el elemental y usar su habilidad {spell:423412} para absorber a las personas dentro, o correr cerca del elemental (pero no lo suficientemente cerca como para que te alcance su área de acción, ya que te empuja hacia atrás) para que la persona que lo pilote pueda absorberte.
+En {location:Bosque de Troncoferro}, tendrás que buscar un {npc:210417} gigante y una {object:Pieza del Propulsor de Mimiron} para usar.
+Puedes usar la {object:Pieza del Propulsor de Mimiron} para subirte en el elemental y usar su habilidad {spell:423412} para absorber a las personas dentro, o correr cerca del elemental (pero no lo suficientemente cerca como para que te alcance su área de acción, ya que te empuja hacia atrás) para que la persona que lo pilote pueda absorberte.
 
 Una vez el elemental absorbe 4 personas dentro, explotará y soltará la {item:209781}. Cualquiera que esté cerca podrá despojarla.]]
 L['soa_mjj_part3_label'] = '{item:209055} - Pieza 3'
