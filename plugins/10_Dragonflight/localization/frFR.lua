@@ -954,5 +954,5 @@ Vous pouvez soit utiliser la {object:Pièce du propulseur de Mimiron} pour monte
 Une fois que l'élémentaire aura aspiré 4 personnes, il explosera et laissera tomber la {item:209781} ! Tous ceux qui se trouvent dans la zone peuvent le récupérer.
 ]]
 L['soa_mjj_part3_label'] = '{item:209055} - Partie 3'
-L['soa_mjj_part3_note'] = 'La {item:209055} vous attendra juste devant la {object:Porte des ténèbres} aux {location:Terres foudroyées} ! Faites attention aux artilleurs et aux PNJ dans la zone, car il faut 12 secondes d\'incantation pour récupérer la pièce.'
-L['mjj_part4_note'] = nil
+L['soa_mjj_part3_note'] = 'La {item:209055} vous attendra juste devant la {object:Porte des ténèbres} aux {location:Terres foudroyées} ! Faites attention aux {npc:23082} et aux PNJ dans la zone, car il faut 12 secondes d\'incantation pour récupérer la pièce.'
+L['mjj_part4_note'] = 'Après avoir rassemblé les trois pièces, assemblez-les à la {object:Forge arcanique} pour obtenir votre {item:210022}.'
