@@ -919,7 +919,7 @@ L['soa_10_weaponsmith_koref_note'] = 'Parlez au {npc:210837} et commencez la qu�
 L['soa_11_rlabel'] = '(Indice n°11)'
 L['soa_11_rlabel_optional'] = '(Indice n°11 - Optionnel)'
 L['soa_11_kathos_note'] = 'Parlez à la {npc:206864}, vous recevrez la {item:208852}. Allez voir {npc:195543} aux {location:Plaines d\'Ohn\'ahra} pour lui poser des questions sur la bannière.'
-L['soa_11_sansok_khan_note'] = 'Demandez à {npc:195543} comment enterrer correctement Ishtaar Rethon, le chasseur à qui appartient la bannière.\nVous recevrez la {item:209061} et devrez trouver un PNJ nommé {npc:191391} au {location:Poste de la pinède}.'
+L['soa_11_sansok_khan_note'] = 'Demandez à {npc:195543} comment enterrer correctement {npc:Ishtaar Rethon}, le chasseur à qui appartient la bannière.\n\nVous recevrez la {item:209061} et devrez trouver {npc:191391} au {location:Poste de la pinède}.'
 L['soa_11_jhara_note'] = 'Parlez à {npc:191391}, l\'aubergiste. Elle vous donnera le {item:208857}, l\'indice de ce secret.'
 L['soa_11_marker_1_label'] = 'Premier marqueur'
 L['soa_11_marker_2_label'] = 'Deuxième marqueur'
@@ -927,13 +927,13 @@ L['soa_11_marker_3_label'] = 'Troisième marqueur'
 L['soa_11_marker_4_label'] = 'Quatrième marqueur'
 L['soa_11_marker_4_note'] = 'A l\'intérieur du tertre funéraire.'
 L['soa_11_marker_5_label'] = 'Cinquième marqueur'
-L['soa_11_marker_5_note'] = nil
+L['soa_11_marker_5_note'] = 'Si l\'expédition {wq:Victimes entoilées} est active, elle doit être complétée avant d\'utiliser la {item:208092} pour brûler les toiles et révéler l\'indice.'
 L['soa_11_burial_banner_note'] = 'Enfoncez-vous dans la grotte et montez à l\'étage supérieur une fois que vous aurez atteint une rampe. Au fond de cet étage, vous trouverez un endroit où placer la {item:208852}.'
 
 -- Secrets of Azeroth: Clue 12
-L['soa_12_rlabel'] = nil
-L['soa_12_bobby_note'] = nil
-L['soa_12_ancient_tome_note'] = nil
+L['soa_12_rlabel'] = '(Indice n°12)'
+L['soa_12_bobby_note'] = 'Parlez avec {npc:207696} pour recevoir la {item:208888}.\n\nRendez-vous à {location:Karazhan} (ancienne version) et avancez jusqu\'à avoir dépassé {npc:15691}, pour pénétrer dans la {location:Bibliothèque du Gardien}. Vous devrez y trouver un livre, utilisez votre {item:207730} pour le localiser.'
+L['soa_12_ancient_tome_note'] = 'Cherchez des ouvrages avec votre {item:207730} jusqu\'à ce que vous trouviez {item:208889} et ramenez-le à {npc:207696} à {location:Valdrakken}.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
@@ -953,7 +953,7 @@ L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = nil
+L['soa_mjj_list_note'] = 'Récupérez les 3 pièces et assemblez-les à la {object:Forge des arcanes renforcée} pour obtenir la monture {item:210022} :'
 L['soa_mjj_part1_note'] = 'Il faut que 3 joueurs canalisent les braseros avec leur {item:208092} pour invoquer le {npc:210398}. Il donnera la {item:208984}.'
 L['soa_mjj_part2_note'] = [[{note:Vous aurez besoin d'au moins 4 personnes à vos côtés pour cette partie.}
 
