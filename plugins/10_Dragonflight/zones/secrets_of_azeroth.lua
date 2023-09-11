@@ -657,7 +657,6 @@ ohn.nodes[63005737] = SecretsOfAzeroth({
 
 val.nodes[47954684] = SecretsOfAzeroth({
     label = '{npc:207696}',
-    clue = 10,
     note = L['soa_10_tyrs_titan_key_note'],
     rlabel = Gray(L['soa_10_rlabel']),
     quest = {
@@ -676,7 +675,6 @@ val.nodes[47954684] = SecretsOfAzeroth({
 
 tws.nodes[48144653] = SecretsOfAzeroth({
     label = '{item:208835}',
-    clue = 10,
     requires = REQUIREMENT_IDOL_OF_OHNAHRA,
     note = L['soa_10_rose_gold_dust_note'],
     rlabel = Gray(L['soa_10_rlabel']),
@@ -691,7 +689,6 @@ tws.nodes[48144653] = SecretsOfAzeroth({
 
 tws.nodes[38834307] = SecretsOfAzeroth({
     label = '{item:208836}',
-    clue = 10,
     note = L['soa_10_igneous_flux_note'],
     rlabel = Gray(L['soa_10_rlabel']),
     quest = 77831, -- A Key to Reforg(ing)
@@ -706,7 +703,6 @@ tws.nodes[24516074] = SecretsOfAzeroth({
         ns.requirement.Item(208836, 8), -- Igneous Flux
         ns.requirement.Item(208835, 50) -- Rose Gold Dust
     },
-    clue = 10,
     note = L['soa_10_weaponsmith_koref_note'],
     rlabel = Gray(L['soa_10_rlabel']),
     questDeps = 77893,
@@ -757,7 +753,8 @@ ohn.nodes[81335930] = SecretsOfAzeroth({
     rlabel = Gray(L['soa_11_rlabel_optional']),
     rewards = {
         Item({item = 208857}) -- The Path of Ishtar Drawing
-    }
+    },
+    pois = {Path({81335930, 83884849, 78638334, 60726349, 31617167, 43404800})}
 }) -- Jhara - OPTIONAL
 
 local BurialMarker = Class('BurialMarker', SecretsOfAzeroth, {
@@ -793,7 +790,7 @@ ohn.nodes[31617167] = BurialMarker({
 
 ohn.nodes[43404800] = BurialMarker({
     label = L['soa_11_marker_5_label'],
-    reqires = REQUIREMENT_TORCH_OF_PYRRETH,
+    requires = REQUIREMENT_TORCH_OF_PYRRETH,
     questDeps = 78028, -- Fourth Marker
     quest = {
         78037, -- burned spider webs
@@ -812,6 +809,30 @@ ohn.nodes[42655099] = SecretsOfAzeroth({
     },
     pois = {POI({43614809})}
 }) -- Burial Banner
+
+-- 77578 -- Clue 11 Complete
+
+-------------------------------------------------------------------------------
+------------------------- SECRETS OF AZEROTH: CLUE 12 -------------------------
+-------------------------------------------------------------------------------
+
+val.nodes[47954685] = SecretsOfAzeroth({
+    label = '{npc:207696}',
+    note = L['soa_12_bobby_note'],
+    rlabel = Gray(L['soa_12_rlabel']),
+    quest = {
+        77897, -- A Special Book -- never changes to true
+        77895, -- Hidden, triggerd after turning in 77897
+        99999 -- Clue 12 complete
+    },
+    questAny = true, -- TODO: remove if 77897 is fixed
+    questDeps = 77578, -- Clue 11 complete
+    rewards = {
+        Achievement({id = 18646, criteria = 12}), -- Whodunnit?
+        Item({item = 208888}) -- Kirin Tor Contact's Note
+    }
+}) -- Bobby Carlisle
+-- 4 - 33265118 - Quest 77908 -- Item 208889
 
 -------------------------------------------------------------------------------
 -------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------
