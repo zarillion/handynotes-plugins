@@ -760,7 +760,8 @@ ohn.nodes[81335930] = SecretsOfAzeroth({
 
 local BurialMarker = Class('BurialMarker', SecretsOfAzeroth, {
     requires = ns.requirement.Item(208857), -- The Path of Ishtar Drawing
-    rlabel = Gray(L['soa_11_rlabel_optional'])
+    rlabel = Gray(L['soa_11_rlabel_optional']),
+    pois = {Path({81335930, 83884849, 78638334, 60726349, 31617167, 43404800})}
 })
 
 ohn.nodes[83884849] = BurialMarker({
@@ -792,6 +793,7 @@ ohn.nodes[31617167] = BurialMarker({
 ohn.nodes[43404800] = BurialMarker({
     label = L['soa_11_marker_5_label'],
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
+    note = L['soa_11_marker_5_note'],
     questDeps = 78028, -- Fourth Marker
     quest = {
         78037, -- burned spider webs

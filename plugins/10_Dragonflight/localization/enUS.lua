@@ -929,6 +929,7 @@ L['soa_11_marker_3_label'] = 'Third Marker'
 L['soa_11_marker_4_label'] = 'Fourth Marker'
 L['soa_11_marker_4_note'] = 'Inside the burial mound.'
 L['soa_11_marker_5_label'] = 'Fifth Marker'
+L['soa_11_marker_5_note'] = 'If {wq:Web Victims} is active it must be completed before using the {item:208092} to burn away the webs and reveal the clue.'
 L['soa_11_burial_banner_note'] = 'Venture deep in the cave and get to the top floor once you encounter a ramp, at the end of the top floor you will find a place to deposit the {item:208852}.'
 
 -- Secrets of Azeroth: Clue 12
