@@ -729,7 +729,7 @@ val.nodes[47324823] = SecretsOfAzeroth({
     label = '{npc:206864}',
     note = L['soa_11_kathos_note'],
     questDeps = 77577, -- Clue 10 complete
-    quest = 78008, -- A Proper Burial (77854)
+    quest = 78008, -- A Proper Burial (77865)
     rlabel = Gray(L['soa_11_rlabel']),
     rewards = {
         Achievement({id = 18646, criteria = 11}) -- Whodunnit?
@@ -739,7 +739,7 @@ val.nodes[47324823] = SecretsOfAzeroth({
 ohn.nodes[63414138] = SecretsOfAzeroth({
     label = '{npc:195543}',
     note = L['soa_11_sansok_khan_note'],
-    questDeps = 78008, -- A Proper Burial (77854)
+    questDeps = 78008, -- A Proper Burial (77865)
     quest = 77578,
     playerHasItem = {209061},
     rlabel = Gray(L['soa_11_rlabel']),
@@ -749,9 +749,9 @@ ohn.nodes[63414138] = SecretsOfAzeroth({
 }) -- Sansok Khan
 
 ohn.nodes[81335930] = SecretsOfAzeroth({
-    label = '{npc:206864}',
+    label = '{npc:191391}',
     note = L['soa_11_jhara_note'],
-    questDeps = 78008, -- A Proper Burial (77854)
+    questDeps = 78008, -- A Proper Burial (77865)
     quest = 77578,
     playerHasItem = {208857},
     rlabel = Gray(L['soa_11_rlabel_optional']),
@@ -761,13 +761,13 @@ ohn.nodes[81335930] = SecretsOfAzeroth({
 }) -- Jhara - OPTIONAL
 
 local BurialMarker = Class('BurialMarker', SecretsOfAzeroth, {
-    playerHasItem = {208857},
+    requires = ns.requirement.Item(208857), -- The Path of Ishtar Drawing
     rlabel = Gray(L['soa_11_rlabel_optional'])
 })
 
 ohn.nodes[83884849] = BurialMarker({
     label = L['soa_11_marker_1_label'],
-    questDeps = 78008, -- A Proper Burial (77854)
+    questDeps = 78008, -- A Proper Burial (77865)
     quest = 78025
 }) -- First Marker - OPTIONAL
 
@@ -791,24 +791,26 @@ ohn.nodes[31617167] = BurialMarker({
     quest = 78028
 }) -- Fourth Marker - OPTIONAL
 
-ohn.nodes[31617167] = BurialMarker({
+ohn.nodes[43404800] = BurialMarker({
     label = L['soa_11_marker_5_label'],
     reqires = REQUIREMENT_TORCH_OF_PYRRETH,
     questDeps = 78028, -- Fourth Marker
-    quest = 78037
+    quest = {
+        78037, -- burned spider webs
+        78029 -- Fifth Marker
+    }
 }) -- Fifth Marker - OPTIONAL
 
 ohn.nodes[42655099] = SecretsOfAzeroth({
     label = '{item:209061}',
     note = L['soa_11_burial_banner_note'],
-    questDeps = 78008, -- A Proper Burial (77854)
+    questDeps = 78008, -- A Proper Burial (77865)
     quest = 77578,
-    playerHasItem = {208857},
     rlabel = Gray(L['soa_11_rlabel']),
     rewards = {
         Achievement({id = 18646, criteria = 11}) -- Whodunnit?
     },
-    pois = POI({43614809})
+    pois = {POI({43614809})}
 }) -- Burial Banner
 
 -------------------------------------------------------------------------------
