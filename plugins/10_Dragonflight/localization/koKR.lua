@@ -867,6 +867,11 @@ L['soa_11_marker_4_note'] = nil
 L['soa_11_marker_5_label'] = nil
 L['soa_11_burial_banner_note'] = nil
 
+-- Secrets of Azeroth: Clue 12
+L['soa_12_rlabel'] = nil
+L['soa_12_bobby_note'] = nil
+L['soa_12_ancient_tome_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = nil
 L['buried_satchel_sublabel'] = nil

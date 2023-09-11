@@ -21,6 +21,7 @@ local Path = ns.poi.Path
 
 -- Achievement: Whodunnit?
 local bor = ns.maps[114] or Map({id = 114, settings = true}) -- Borean Tundra
+local kar = ns.maps[358] or Map({id = 358, settings = true}) -- Karazhan - The Menagerie
 local tws = ns.maps[2022] or Map({id = 2022, settings = true}) -- The Waking Shores
 local ohn = ns.maps[2023] or Map({id = 2023, settings = true}) -- Ohn'ahran Plains
 local tas = ns.maps[2024] or Map({id = 2024, settings = true}) -- The Azure Span
@@ -823,7 +824,7 @@ val.nodes[47954685] = SecretsOfAzeroth({
     quest = {
         77897, -- A Special Book -- never changes to true
         77895, -- Hidden, triggerd after turning in 77897
-        99999 -- Clue 12 complete
+        77579 -- Clue 12 complete
     },
     questAny = true, -- TODO: remove if 77897 is fixed
     questDeps = 77578, -- Clue 11 complete
@@ -832,7 +833,36 @@ val.nodes[47954685] = SecretsOfAzeroth({
         Item({item = 208888}) -- Kirin Tor Contact's Note
     }
 }) -- Bobby Carlisle
--- 4 - 33265118 - Quest 77908 -- Item 208889
+
+local AncientTome = Class('AncientTome', SecretsOfAzeroth, {
+    label = '{npc:115419}',
+    note = L['soa_12_ancient_tome_note']
+})
+
+kar.nodes[32294921] = AncientTome({
+    quest = 78050,
+    questDeps = 77895,
+})
+
+kar.nodes[36523717] = AncientTome({
+    quest = 78051,
+    questDeps = 78050,
+})
+
+kar.nodes[47336449] = AncientTome({
+    quest = 78052,
+    questDeps = 78051,
+})
+
+kar.nodes[33265118] = AncientTome({
+    quest = 77908,
+    questDeps = 78052,
+    rewards = {
+        Item({item = 208889}) -- Tyr's Legacy
+    }
+})
+
+-- 77579 -- Clue 12 complete
 
 -------------------------------------------------------------------------------
 -------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------

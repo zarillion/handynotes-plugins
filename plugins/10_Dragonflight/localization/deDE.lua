@@ -933,6 +933,11 @@ L['soa_11_marker_4_note'] = 'Im Inneren des Grabhügels'
 L['soa_11_marker_5_label'] = 'Fünfte Markierung'
 L['soa_11_burial_banner_note'] = 'Gehe tief in die Höhle hinein und gehe auf die obere Etage, sobald du auf eine Rampe stößt. Am Ende der oberen Etage findest du einen Platz, an dem du das Banner platzieren kannst.'
 
+-- Secrets of Azeroth: Clue 12
+L['soa_12_rlabel'] = '(Hinweis 12)'
+L['soa_12_bobby_note'] = 'Sprich mit {npc:207696}, um die {item:208888} zu erhalten.\n\nGehen ins {location:Alte Karazhan} und kämpfe dich bis nach {npc:15691} durch, um zur {location:Bibliothek des Wächters} zu gelangen. Du musst ein Buch dort finden, benutze deine {item:207730} um es aufzuspüren.'
+L['soa_12_ancient_tome_note'] = 'Suche nach Büchern mit deiner {item:207730} bis du {item:208889} findest, bringe es zu {npc:207696} in {location:Valdrakken} zurück.'
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
 L['buried_satchel_sublabel'] = '{note:An dieser Position ist KEIN {item:208142}.}'

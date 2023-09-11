@@ -929,6 +929,11 @@ L['soa_11_marker_4_note'] = 'A l\'intérieur du tertre funéraire.'
 L['soa_11_marker_5_label'] = 'Cinquième marqueur'
 L['soa_11_burial_banner_note'] = 'Enfoncez-vous dans la grotte et montez à l\'étage supérieur une fois que vous aurez atteint une rampe. Au fond de cet étage, vous trouverez un endroit où placer la {item:208852}.'
 
+-- Secrets of Azeroth: Clue 12
+L['soa_12_rlabel'] = nil
+L['soa_12_bobby_note'] = nil
+L['soa_12_ancient_tome_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
 L['buried_satchel_sublabel'] = '{note:Ceci n\'est PAS un emplacement de {item:208142}.}'

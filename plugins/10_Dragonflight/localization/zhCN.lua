@@ -931,6 +931,11 @@ L['soa_11_marker_4_note'] = nil
 L['soa_11_marker_5_label'] = nil
 L['soa_11_burial_banner_note'] = nil
 
+-- Secrets of Azeroth: Clue 12
+L['soa_12_rlabel'] = nil
+L['soa_12_bobby_note'] = nil
+L['soa_12_ancient_tome_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = '从 {object:松软的泥土堆} 中拾取 {item:208142}。'
 L['buried_satchel_sublabel'] = '{note:这*不是* {item:208142} 的位置。}'

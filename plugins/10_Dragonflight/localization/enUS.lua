@@ -931,6 +931,11 @@ L['soa_11_marker_4_note'] = 'Inside the burial mound.'
 L['soa_11_marker_5_label'] = 'Fifth Marker'
 L['soa_11_burial_banner_note'] = 'Venture deep in the cave and get to the top floor once you encounter a ramp, at the end of the top floor you will find a place to deposit the {item:208852}.'
 
+-- Secrets of Azeroth: Clue 12
+L['soa_12_rlabel'] = '(Clue 12)'
+L['soa_12_bobby_note'] = 'Talk with {npc:207696} to receive {item:208888}.\n\nGo to {location:Old Karazhan} and clear your way till after {npc:15691}, to make your way into the {location:Guardian\'s Library}. You will need to find a tome there, use your {item:207730} to track it down.'
+L['soa_12_ancient_tome_note'] = 'Search for tomes with your {item:207730} until you find {item:208889} and bring it back to {npc:207696} in {location:Valdrakken}.'
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
 L['buried_satchel_sublabel'] = '{note:This is NOT a {item:208142} location.}'
