@@ -930,6 +930,7 @@ L['soa_11_marker_3_label'] = 'Tercer Marcador'
 L['soa_11_marker_4_label'] = 'Cuarto Marcador'
 L['soa_11_marker_4_note'] = 'Dentro del túmulo funerario.'
 L['soa_11_marker_5_label'] = 'Quinto Marcador'
+L['soa_11_marker_5_note'] = nil
 L['soa_11_burial_banner_note'] = 'Aventúrate a las profundidades de la cueva y llega al piso superior una vez que encuentres una rampa. Al final del último piso encontrarás un lugar para depositar el {item:208852}.'
 
 -- Secrets of Azeroth: Clue 12
@@ -955,19 +956,12 @@ L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = 'Reune todas las Piezas para conseguir los {item:210022}.'
-L['soa_mjj_part1_label'] = '{item:210022} - Pieza 1'
+L['soa_mjj_list_note'] = nil
 L['soa_mjj_part1_note'] = 'Necesitas a 2 jugadores más para que canalicen junto a ti sus {item:208092} a los braseros para invocar a {npc:210398}. Al despojarlo soltará la {item:208984}.'
-L['soa_mjj_part2_label'] = '{item:209781} - Pieza 2'
-L['soa_mjj_part2_note'] = [[
-{bug:¡Actualmente requiere activar el Modo de Guerra para hacer aparecer el elemental!}
-
-{note:Necesitaréis ser al menos 4 personas para esta pieza.}
+L['soa_mjj_part2_note'] = [[{note:Necesitaréis ser al menos 4 personas para esta pieza.}
 
 En {location:Bosque de Troncoferro}, tendrás que buscar un {npc:210417} gigante y una {object:Pieza del Propulsor de Mimiron} para usar.
 Puedes usar la {object:Pieza del Propulsor de Mimiron} para subirte en el elemental y usar su habilidad {spell:423412} para absorber a las personas dentro, o correr cerca del elemental (pero no lo suficientemente cerca como para que te alcance su área de acción, ya que te empuja hacia atrás) para que la persona que lo pilote pueda absorberte.
 
 Una vez el elemental absorbe 4 personas dentro, explotará y soltará la {item:209781}. Cualquiera que esté cerca podrá despojarla.]]
-L['soa_mjj_part3_label'] = '{item:209055} - Pieza 3'
 L['soa_mjj_part3_note'] = 'La {item:209055} estará esperándote enfrente del {object:Portal Oscuro} en {location:Las Tierras Devastadas}. Ten cuidado con los {npc:23082} y los NPCs de la zona, ya que se necesita canalizar durante 12 segundos para despojar la pieza.'
-L['mjj_part4_note'] = 'Tras haber conseguido las 3 piezas, ensámblalas en la {object:Forja Arcana} para conseguir los {item:210022}.'

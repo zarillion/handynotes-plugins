@@ -931,6 +931,7 @@ L['soa_11_marker_3_label'] = 'Dritte Markierung'
 L['soa_11_marker_4_label'] = 'Vierte Markierung'
 L['soa_11_marker_4_note'] = 'Im Inneren des Grabhügels'
 L['soa_11_marker_5_label'] = 'Fünfte Markierung'
+L['soa_11_marker_5_note'] = nil
 L['soa_11_burial_banner_note'] = 'Gehe tief in die Höhle hinein und gehe auf die obere Etage, sobald du auf eine Rampe stößt. Am Ende der oberen Etage findest du einen Platz, an dem du das Banner platzieren kannst.'
 
 -- Secrets of Azeroth: Clue 12
@@ -956,18 +957,11 @@ L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der {location:Geheimnisse von Azeroth} für den Erfolg {achievement:18646} an.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = 'Sammle alle Teile, um {item:210022} zu erhalten.'
-L['soa_mjj_part1_label'] = '{item:210022} - Teil 1'
+L['soa_mjj_list_note'] = nil
 L['soa_mjj_part1_note'] = 'Drei Spieler müssen ihre {item:208092} auf die Kohlepfannen wirken, um den {npc:210398} zu beschwören. Er lässt {item:208984} fallen.'
-L['soa_mjj_part2_label'] = '{item:209781} - Teil 2'
-L['soa_mjj_part2_note'] = [[
-{bug:Funktioniert zurzeit nur im Kriegsmodus!}
-
-{note:Für dieses Teil brauchst du mindestens 4 weitere Mitspieler.}
+L['soa_mjj_part2_note'] = [[{note:Für dieses Teil brauchst du mindestens 4 weitere Mitspieler.}
 
 In {location:Der Eisenwald} findest du einen riesigen {npc:210417} und {object:Mimirons Boosterteil}, welches du benutzen kannst. Ihr könnt entweder {object:Mimirons Boosterteil} benutzen, um auf den Elementar aufzusteigen und seine Fähigkeit {spell:423412} zu benutzen, um Leute einzusaugen, oder ihr könnt nahe an den Elementar heranlaufen (aber nicht nahe genug, um in seinen Wirkungsbereich zu gelangen, da es euch zurückstößt), damit die Person, die es steuert, euch einsaugen kann.
 
 Sobald der Elementar 4 Leute eingesaugt hat, explodiert er und lässt {item:209781} fallen! Jeder, der sich in der Nähe befindet, kann es plündern.]]
-L['soa_mjj_part3_label'] = '{item:209055} - Teil 3'
 L['soa_mjj_part3_note'] = 'Das {item:209055} wartet direkt vor dem {location:Dunklen Portal} in den {location:Verwüsteten Landen} auf dich! Nimm dich vor den herunterfallenden Fel-Meteoriten in Acht, denn es dauert 12 Sekunden, um das Teil zu plündern.'
-L['mjj_part4_note'] = 'Wenn du alle Teile gesammelt hast, baue sie bei der {object:Arkanen Schmiede} zusammen, um {item:210022} zu erhalten.'

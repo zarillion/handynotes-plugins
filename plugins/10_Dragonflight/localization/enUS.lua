@@ -929,7 +929,7 @@ L['soa_11_marker_3_label'] = 'Third Marker'
 L['soa_11_marker_4_label'] = 'Fourth Marker'
 L['soa_11_marker_4_note'] = 'Inside the burial mound.'
 L['soa_11_marker_5_label'] = 'Fifth Marker'
-L['soa_11_marker_5_note'] = 'If {wq:Web Victims} is active it must be completed before using the {item:208092} to burn away the webs and reveal the clue.'
+L['soa_11_marker_5_note'] = 'If {wq:Web Victims} quest is active it must be completed before using the {item:208092} to burn away the webs and reveal the clue.'
 L['soa_11_burial_banner_note'] = 'Venture deep in the cave and get to the top floor once you encounter a ramp, at the end of the top floor you will find a place to deposit the {item:208852}.'
 
 -- Secrets of Azeroth: Clue 12
@@ -955,19 +955,11 @@ L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Display clue locations for {location:Secrets of Azeroth}.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = 'Collect all Parts to get {item:210022}.'
-L['soa_mjj_part1_label'] = '{item:210022} - Part 1'
+L['soa_mjj_list_note'] = 'Collect all 3 parts  and assemble them at the {object:Empowered Arcane Forge} to recieve {item:210022}:'
 L['soa_mjj_part1_note'] = 'Have 3 players channeling the braziers with their {item:208092} to summon the {npc:210398}. He will drop the {item:208984}.'
-L['soa_mjj_part2_label'] = '{item:209781} - Part 2'
-L['soa_mjj_part2_note'] = [[
-{bug:Currently requires Warmode to be active to spawn the Elemental!}
+L['soa_mjj_part2_note'] = [[{note:You will need at least 4 people around you for this part.}
 
-{note:You will need at least 4 people around you for this part.}
-
-In {location:Irontree woods}, you will find a giant {npc:210417} and a {object:Mimiron's Booster Part} next to use.
-You can either use the {object:Mimiron's Booster Part} to mount on the elemental and use its ability {spell:423412} to suck people in, or run close to the elemental (but not close enough to get on its aoe, as it knocks you back) so the person piloting it can suck you in.
+In {location:Irontree woods}, you will find a giant {npc:210417} and a {object:Mimiron's Booster Part} next to use. You can either use the {object:Mimiron's Booster Part} to mount on the elemental and use its ability {spell:423412} to suck people in, or run close to the elemental (but not close enough to get on its aoe, as it knocks you back) so the person piloting it can suck you in.
 
 Once the elemental sucks 4 people in, it will explode and drop {item:209781}! Anyone in the area can loot it.]]
-L['soa_mjj_part3_label'] = '{item:209055} - Part 3'
 L['soa_mjj_part3_note'] = '{item:209055} will be waiting for you right in front of the {object:Dark Portal} in the {location:Blasted Lands}! Be careful of {npc:23082} and NPCs in the area, as it does take a 12-second cast to loot the part.'
-L['mjj_part4_note'] = 'After you have gathered all three parts, assemble them at the {object:Arcane Forge} to get your {item:210022}.'

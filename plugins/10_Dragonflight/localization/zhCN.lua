@@ -929,6 +929,7 @@ L['soa_11_marker_3_label'] = nil
 L['soa_11_marker_4_label'] = nil
 L['soa_11_marker_4_note'] = nil
 L['soa_11_marker_5_label'] = nil
+L['soa_11_marker_5_note'] = nil
 L['soa_11_burial_banner_note'] = nil
 
 -- Secrets of Azeroth: Clue 12
@@ -954,11 +955,7 @@ L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = '收集所有零件即可获得 {item:210022}。'
-L['soa_mjj_part1_label'] = '{item:210022} - 第一部分'
+L['soa_mjj_list_note'] = nil
 L['soa_mjj_part1_note'] = '让3名玩家用 {item:208092} 引导火盆来召唤 {npc:210398}。他会掉落 {item:208984}。'
-L['soa_mjj_part2_label'] = nil
 L['soa_mjj_part2_note'] = nil
-L['soa_mjj_part3_label'] = nil
 L['soa_mjj_part3_note'] = nil
-L['mjj_part4_note'] = nil

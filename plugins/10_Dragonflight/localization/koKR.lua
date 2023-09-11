@@ -865,6 +865,7 @@ L['soa_11_marker_3_label'] = nil
 L['soa_11_marker_4_label'] = nil
 L['soa_11_marker_4_note'] = nil
 L['soa_11_marker_5_label'] = nil
+L['soa_11_marker_5_note'] = nil
 L['soa_11_burial_banner_note'] = nil
 
 -- Secrets of Azeroth: Clue 12
@@ -891,10 +892,6 @@ L['options_icons_secrets_of_azeroth_desc'] = nil
 
 -- Mimiron's Jumpjets Mount
 L['soa_mjj_list_note'] = nil
-L['soa_mjj_part1_label'] = nil
 L['soa_mjj_part1_note'] = nil
-L['soa_mjj_part2_label'] = nil
 L['soa_mjj_part2_note'] = nil
-L['soa_mjj_part3_label'] = nil
 L['soa_mjj_part3_note'] = nil
-L['mjj_part4_note'] = nil

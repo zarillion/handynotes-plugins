@@ -8,6 +8,7 @@ local Map = ns.Map
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -841,20 +842,11 @@ local AncientTome = Class('AncientTome', SecretsOfAzeroth, {
     note = L['soa_12_ancient_tome_note']
 })
 
-kar.nodes[32294921] = AncientTome({
-    quest = 78050,
-    questDeps = 77895,
-})
+kar.nodes[32294921] = AncientTome({quest = 78050, questDeps = 77895})
 
-kar.nodes[36523717] = AncientTome({
-    quest = 78051,
-    questDeps = 78050,
-})
+kar.nodes[36523717] = AncientTome({quest = 78051, questDeps = 78050})
 
-kar.nodes[47336449] = AncientTome({
-    quest = 78052,
-    questDeps = 78051,
-})
+kar.nodes[47336449] = AncientTome({quest = 78052, questDeps = 78051})
 
 kar.nodes[33265118] = AncientTome({
     quest = 77908,
@@ -870,34 +862,37 @@ kar.nodes[33265118] = AncientTome({
 -------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------
 -------------------------------------------------------------------------------
 
-local MJJ_Parts = {
+local MJJ_PARTS = {
     [1] = {
+        coordinates = 59187842,
+        item = 208984, -- First Booster Part
         map = cst, -- Cape of Stranglethorn
+        note = L['soa_mjj_part1_note'],
         parentMapID = 13, -- Eastern Kingdoms
-        item = 208984 -- First Booster Part
+        requires = REQUIREMENT_TORCH_OF_PYRRETH
     },
     [2] = {
+        coordinates = 49982594,
+        item = 209781, -- Second Booster Part
         map = fel,
-        parentMapID = 12, -- Kalimdor
-        item = 209781
+        note = L['soa_mjj_part2_note'],
+        parentMapID = 12 -- Kalimdor
     },
     [3] = { -- Hidden Quest 78100?
+        coordinates = 54825217,
+        item = 209055, -- Third Booser Part
         map = bla, -- Blasted Lands
+        note = L['soa_mjj_part3_note'],
         parentMapID = 13, -- Eastern Kingdoms
-        item = 209055
+        requires = REQUIREMENT_TORCH_OF_PYRRETH
     }
 }
 
-local MJJ_List = Class('MJJ_List', ns.node.Collectible, {
+local MJJ_List = Class('MJJ_List', SecretsOfAzeroth, {
     label = '{item:210022}',
     icon = 'peg_bl',
-    scale = 2.0,
-    rewards = {
-        ns.reward.Mount({id = 1813, item = 210022}) -- Mimiron's Jumpjets
-    },
-    pois = {
-        POI({36466204}) -- Arcane Forge
-    }
+    rewards = {Mount({id = 1813, item = 210022})}, -- Mimiron's Jumpjets
+    pois = {POI({36466204})} -- Arcane Forge
 }) -- Mimiron's Jumpjets List
 
 function MJJ_List.getters:note()
@@ -907,48 +902,29 @@ function MJJ_List.getters:note()
     end
 
     local note = L['soa_mjj_list_note'] .. '\n'
-    for num, part in ipairs(MJJ_Parts) do
+    for num, part in ipairs(MJJ_PARTS) do
         local mName = C_Map.GetMapInfo(part.map.id).name
         local pName = C_Map.GetMapInfo(part.parentMapID).name
         local done = complete(num, part.item)
         note = note ..
-                   format('\n%s {item:%d} - %s (%s)', done, part.item, mName,
+                   format('\n%s {item:%d} %s (%s)', done, part.item, mName,
                 pName)
     end
-    note = note .. '\n\n' .. L['mjj_part4_note']
     return note
 end
 
 val.nodes[87002500] = MJJ_List()
 
-cst.nodes[59187842] = SecretsOfAzeroth({
-    label = L['soa_mjj_part1_label'],
-    note = L['soa_mjj_part1_note'],
-    requires = REQUIREMENT_TORCH_OF_PYRRETH,
-    playerHasItem = {208984},
-    rewards = {
-        Item({item = 208984}) -- First Booster Part
-    }
-}) -- Mimiron's Jumpjets - Part 1
-
-fel.nodes[49982594] = SecretsOfAzeroth({
-    label = L['soa_mjj_part2_label'],
-    note = L['soa_mjj_part2_note'],
-    playerHasItem = {209781},
-    rewards = {
-        Item({item = 209781}) -- Second Booster Part
-    }
-}) -- Mimiron's Jumpjets - Part 2
-
-bla.nodes[54825217] = SecretsOfAzeroth({
-    label = L['soa_mjj_part3_label'],
-    note = L['soa_mjj_part3_note'],
-    requires = REQUIREMENT_TORCH_OF_PYRRETH,
-    playerHasItem = {209055},
-    rewards = {
-        Item({item = 209055}) -- Third Booster Part
-    }
-}) -- Mimiron's Jumpjets - Part 3
+for num, part in ipairs(MJJ_PARTS) do
+    part.map.nodes[part.coordinates] = SecretsOfAzeroth({
+        label = format('{item:%d}', part.item),
+        rlabel = Gray(format('(%d/3)', num)),
+        note = part.note,
+        rewards = {Item({item = part.item})},
+        playerHasItem = {part.item},
+        requires = {part.requires} or nil
+    })
+end
 
 -------------------------------------------------------------------------------
 ---------------------------- COMMUNITY RUMOR MILL -----------------------------

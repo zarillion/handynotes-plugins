@@ -929,6 +929,7 @@ L['soa_11_marker_3_label'] = nil
 L['soa_11_marker_4_label'] = nil
 L['soa_11_marker_4_note'] = nil
 L['soa_11_marker_5_label'] = nil
+L['soa_11_marker_5_note'] = nil
 L['soa_11_burial_banner_note'] = nil
 
 -- Secrets of Azeroth: Clue 12
@@ -954,19 +955,11 @@ L['options_icons_secrets_of_azeroth'] = '艾澤拉斯秘聞'
 L['options_icons_secrets_of_azeroth_desc'] = '顯示 {location:艾澤拉斯秘聞} 線索的位置.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = '收集所有的零件來取得 {item:210022}.'
-L['soa_mjj_part1_label'] = '{item:210022} - 部位 1'
+L['soa_mjj_list_note'] = nil
 L['soa_mjj_part1_note'] = '需要3個玩家使用 {item:208092} 來引導火盆以召喚 {npc:210398}. 他會掉落 {item:208984}.'
-L['soa_mjj_part2_label'] = '{item:209781} - 部位 2'
-L['soa_mjj_part2_note'] = [[
-{bug:目前需要開啟戰爭模式才會刷新元素!}
+L['soa_mjj_part2_note'] = [[{note:你至少需要4個玩家在你附近來完成這個部分}
 
-{note:你至少需要4個玩家在你附近來完成這個部分}
-
-在 {location:鐵木森林} 你會找到一個巨大的 {npc:210417} 和一個 {object:彌米倫的推進器零件}.
-你可以使用 {object:彌米倫的推進器零件} 來騎上元素並且使用他的技能 {spell:423412} 來把玩家吸進來, 或者是跑到足夠靠近元素 (但是不會太靠近而吃到它的範圍攻擊, 會擊退你) 讓控制元素的人可以把你吸進去.
+在 {location:鐵木森林} 你會找到一個巨大的 {npc:210417} 和一個 {object:彌米倫的推進器零件}. 你可以使用 {object:彌米倫的推進器零件} 來騎上元素並且使用他的技能 {spell:423412} 來把玩家吸進來, 或者是跑到足夠靠近元素 (但是不會太靠近而吃到它的範圍攻擊, 會擊退你) 讓控制元素的人可以把你吸進去.
 
 當元素吸進4個人後, 他會爆炸並掉落 {item:209781}! 任何在附近的人都可以拾取它.]]
-L['soa_mjj_part3_label'] = '{item:209055} - 部位 3'
 L['soa_mjj_part3_note'] = '{item:209055} 會在 {location:詛咒之地} 的 {location:黑暗之門} 的正前方等你! 小心附近的{npc:210886}和NPC, 你需要讀12秒的施法條來拾取零件.'
-L['mjj_part4_note'] = '在你收集全部三個零件以後, 在 {location:沃卓肯} 的 {object:強化秘法熔爐} 組合它們來拿到你的 {item:210022}.'
