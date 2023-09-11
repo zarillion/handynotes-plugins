@@ -921,9 +921,17 @@ L['soa_10_weaponsmith_koref_note'] = 'Sprich mit {npc:210837} und starte die Que
 
 -- Secrets of Azeroth: Clue 11
 L['soa_11_rlabel'] = '(Hinweis 11)'
-L['soa_11_kathos_note'] = nil
-L['soa_11_sansok_khan_note'] = nil
-L['soa_11_jhara_note'] = nil
+L['soa_11_rlabel_optional'] = '(Hinweis 11 - Optional)'
+L['soa_11_kathos_note'] = 'Sprich mit {npc:206864}, um {item:208852} zu erhalten. Begib dich zu {npc:195543} in den {location:Ebenen von Ohn\'ahra} und befrage ihn bezüglich des Banners.'
+L['soa_11_sansok_khan_note'] = 'Frage {npc:195543}, wie man Ishtar Rethon, den Jäger, dem das Banner gehört, richtig beerdigt.\n Du erhältst {item:209061} und wirst gebeten, einen NPC namens {npc:191391} im {location:Nadelholzposten} zu finden.'
+L['soa_11_jhara_note'] = 'Sprich mit {npc:191391}, der Gastwirtin. Sie wird dir {item:208857}, dem Hinweis zu diesem Geheimnis, geben.'
+L['soa_11_marker_1_label'] = 'Erste Markierung'
+L['soa_11_marker_2_label'] = 'Zweite Markierung'
+L['soa_11_marker_3_label'] = 'Dritte Markierung'
+L['soa_11_marker_4_label'] = 'Vierte eMarkierung'
+L['soa_11_marker_4_note'] = 'Im Inneren des Grabhügels'
+L['soa_11_marker_5_label'] = 'Fünfte Markierung'
+L['soa_11_burial_banner_note'] = 'Gehe tief in die Höhle hinein und gehe auf die obere Etage, sobald du auf eine Rampe stößt. Am Ende der oberen Etage findest du einen Platz, an dem du das Banner platzieren kannst.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
@@ -952,9 +960,9 @@ L['soa_mjj_part2_note'] = [[
 
 {note:Für dieses Teil brauchst du mindestens 4 weitere Mitspieler.}
 
-In {location:Der Eisenwald} findest du einen riesigen {npc:210417} und eine {object:Maschine}, die du benutzen kannst. Ihr könnt entweder die {object:Maschine} benutzen, um auf den Elementar aufzusteigen und seine Fähigkeit {spell:423412} zu benutzen, um Leute einzusaugen, oder ihr könnt nahe an den Elementar heranlaufen (aber nicht nahe genug, um in seinen Wirkungsbereich zu gelangen, da es euch zurückstößt), damit die Person, die es steuert, euch einsaugen kann.
+In {location:Der Eisenwald} findest du einen riesigen {npc:210417} und {object:Mimirons Boosterteil}, welches du benutzen kannst. Ihr könnt entweder {object:Mimirons Boosterteil} benutzen, um auf den Elementar aufzusteigen und seine Fähigkeit {spell:423412} zu benutzen, um Leute einzusaugen, oder ihr könnt nahe an den Elementar heranlaufen (aber nicht nahe genug, um in seinen Wirkungsbereich zu gelangen, da es euch zurückstößt), damit die Person, die es steuert, euch einsaugen kann.
 
-Sobald der Elementar 4 Leute eingesaugt hat, explodiert er und lässt {item:209781} fallen! Jeder, der sich in der Nähe befindet, kann es plündern.]] -- TODO: change 'Machine' to correct object name
+Sobald der Elementar 4 Leute eingesaugt hat, explodiert er und lässt {item:209781} fallen! Jeder, der sich in der Nähe befindet, kann es plündern.]]
 L['soa_mjj_part3_label'] = '{item:209055} - Teil 3'
 L['soa_mjj_part3_note'] = 'Das {item:209055} wartet direkt vor dem {location:Dunklen Portal} in den {location:Verwüsteten Landen} auf dich! Nimm dich vor den herunterfallenden Fel-Meteoriten in Acht, denn es dauert 12 Sekunden, um das Teil zu plündern.'
 L['mjj_part4_note'] = 'Wenn du alle Teile gesammelt hast, baue sie bei der {object:Arkanen Schmiede} zusammen, um {item:210022} zu erhalten.'

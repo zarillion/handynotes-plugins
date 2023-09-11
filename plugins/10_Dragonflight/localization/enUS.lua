@@ -919,9 +919,17 @@ L['soa_10_weaponsmith_koref_note'] = 'Speak to {npc:210837} and start the quest 
 
 -- Secrets of Azeroth: Clue 11
 L['soa_11_rlabel'] = '(Clue 11)'
+L['soa_11_rlabel_optional'] = '(Clue 11 - Optional)'
 L['soa_11_kathos_note'] = 'Talk to {npc:206864}, you will receiving {item:208852}. Head to {npc:195543} in {location:Ohn\'ahran Plains} to ask him about the Banner.'
-L['soa_11_sansok_khan_note'] = 'Ask {npc:195543} how to properly bury Ishtar Rethon, the hunter whom the banner belongs to.\nYou will receive {item:209061} and be requested to find an NPC named {npc:191391} in {location:Pinewood Post}.'
+L['soa_11_sansok_khan_note'] = 'Ask {npc:195543} how to properly bury Ishtar Rethon, the hunter whom the banner belongs to.\nYou will receive {item:209061} and be requested to find an NPC named {npc:191391} in  {location:Pinewood Post}.'
 L['soa_11_jhara_note'] = 'Talk to {npc:191391}, the innkeeper. She will give you {item:208857}, the clue for this secret.'
+L['soa_11_marker_1_label'] = 'First Marker'
+L['soa_11_marker_2_label'] = 'Second Marker'
+L['soa_11_marker_3_label'] = 'Third Marker'
+L['soa_11_marker_4_label'] = 'Fourth Marker'
+L['soa_11_marker_4_note'] = 'Inside the burial mound.'
+L['soa_11_marker_5_label'] = 'Fifth Marker'
+L['soa_11_burial_banner_note'] = 'Venture deep in the cave and get to the top floor once you encounter a ramp, at the end of the top floor you will find a place to deposit the burial banner.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'

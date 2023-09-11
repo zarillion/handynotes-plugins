@@ -919,9 +919,17 @@ L['soa_10_weaponsmith_koref_note'] = '和 {npc:210837} 說話開始任務 {quest
 
 -- Secrets of Azeroth: Clue 11
 L['soa_11_rlabel'] = '(線索11)'
+L['soa_11_rlabel_optional'] = nil
 L['soa_11_kathos_note'] = '和 {npc:206864} 交談完成任務 {quest:78008} 會取得 {item:208852}. 到 {location:雍亞拉平原} 找 {npc:195543} 詢問他有關旌旗的事.'
 L['soa_11_sansok_khan_note'] = '詢問 {npc:195543} 如何完善的埋葬旌旗的擁有者獵人伊席塔‧瑞森.\n你會收到 {item:209061} 並要求你找到在 {location:松木崗哨} 的 {npc:191391}.'
 L['soa_11_jhara_note'] = '和旅店老闆 {npc:191391} 交談. 她會交給你這個祕聞的線索 {item:208857}.'
+L['soa_11_marker_1_label'] = nil
+L['soa_11_marker_2_label'] = nil
+L['soa_11_marker_3_label'] = nil
+L['soa_11_marker_4_label'] = nil
+L['soa_11_marker_4_note'] = nil
+L['soa_11_marker_5_label'] = nil
+L['soa_11_burial_banner_note'] = nil
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = '從 {object:鬆軟的泥土堆} 拾取 {item:208142}.'

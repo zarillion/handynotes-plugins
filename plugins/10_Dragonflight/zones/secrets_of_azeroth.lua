@@ -737,9 +737,10 @@ val.nodes[47324823] = SecretsOfAzeroth({
 }) -- Preservationist Kathos
 
 ohn.nodes[63414138] = SecretsOfAzeroth({
-    label = '{npc:206864}',
+    label = '{npc:195543}',
     note = L['soa_11_sansok_khan_note'],
     questDeps = 78008, -- A Proper Burial (77854)
+    quest = 77578,
     playerHasItem = {209061},
     rlabel = Gray(L['soa_11_rlabel']),
     rewards = {
@@ -751,21 +752,64 @@ ohn.nodes[81335930] = SecretsOfAzeroth({
     label = '{npc:206864}',
     note = L['soa_11_jhara_note'],
     questDeps = 78008, -- A Proper Burial (77854)
+    quest = 77578,
     playerHasItem = {208857},
-    rlabel = Gray(L['soa_11_rlabel']),
+    rlabel = Gray(L['soa_11_rlabel_optional']),
     rewards = {
         Item({item = 208857}) -- The Path of Ishtar Drawing
     }
-}) -- Jhara
+}) -- Jhara - OPTIONAL
 
--- First Marker 83884849 - I Skipped talking to Jhara and was still able to use the marker and trigger the hidden quest 78025
--- Second Marker 78638334 - In a Small Cave - Quest 78026
--- Third Marker 60726349 - Quest 78027
--- Fourth Marker 31617167 - In the burial Mound - Quest Probably 78028
--- Last Marker 43314798 - Quest 78037
+local BurialMarker = Class('BurialMarker', SecretsOfAzeroth, {
+    playerHasItem = {208857},
+    rlabel = Gray(L['soa_11_rlabel_optional'])
+})
 
--- Entrance to Cave 43614809
--- Banner Location in Cave 42655099 - Quest 77578 - Rewards the Whodunnit criteria
+ohn.nodes[83884849] = BurialMarker({
+    label = L['soa_11_marker_1_label'],
+    questDeps = 78008, -- A Proper Burial (77854)
+    quest = 78025
+}) -- First Marker - OPTIONAL
+
+ohn.nodes[78638334] = BurialMarker({
+    label = L['soa_11_marker_2_label'],
+    note = L['in_small_cave'],
+    questDeps = 78025, -- First Marker
+    quest = 78026
+}) -- Second Marker - OPTIONAL
+
+ohn.nodes[60726349] = BurialMarker({
+    label = L['soa_11_marker_3_label'],
+    questDeps = 78026, -- Second Marker
+    quest = 78027
+}) -- Third Marker - OPTIONAL
+
+ohn.nodes[31617167] = BurialMarker({
+    label = L['soa_11_marker_4_label'],
+    note = L['soa_11_marker_4_note'],
+    questDeps = 78027, -- Third Marker
+    quest = 78028
+}) -- Fourth Marker - OPTIONAL
+
+ohn.nodes[31617167] = BurialMarker({
+    label = L['soa_11_marker_5_label'],
+    reqires = REQUIREMENT_TORCH_OF_PYRRETH,
+    questDeps = 78028, -- Fourth Marker
+    quest = 78037
+}) -- Fifth Marker - OPTIONAL
+
+ohn.nodes[42655099] = SecretsOfAzeroth({
+    label = '{item:209061}',
+    note = L['soa_11_burial_banner_note'],
+    questDeps = 78008, -- A Proper Burial (77854)
+    quest = 77578,
+    playerHasItem = {208857},
+    rlabel = Gray(L['soa_11_rlabel']),
+    rewards = {
+        Achievement({id = 18646, criteria = 11}) -- Whodunnit?
+    },
+    pois = POI({43614809})
+}) -- Burial Banner
 
 -------------------------------------------------------------------------------
 -------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------

@@ -920,9 +920,17 @@ L['soa_10_weaponsmith_koref_note'] = nil
 
 -- Secrets of Azeroth: Clue 11
 L['soa_11_rlabel'] = nil
+L['soa_11_rlabel_optional'] = nil
 L['soa_11_kathos_note'] = nil
 L['soa_11_sansok_khan_note'] = nil
 L['soa_11_jhara_note'] = nil
+L['soa_11_marker_1_label'] = nil
+L['soa_11_marker_2_label'] = nil
+L['soa_11_marker_3_label'] = nil
+L['soa_11_marker_4_label'] = nil
+L['soa_11_marker_4_note'] = nil
+L['soa_11_marker_5_label'] = nil
+L['soa_11_burial_banner_note'] = nil
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = nil
