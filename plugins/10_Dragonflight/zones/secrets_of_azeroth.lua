@@ -758,7 +758,14 @@ ohn.nodes[81335930] = SecretsOfAzeroth({
     }
 }) -- Jhara
 
--- First Marker @83884849 - I Skipped talking to Jhara and was still able to use the marker and trigger the hidden quest 78025
+-- First Marker 83884849 - I Skipped talking to Jhara and was still able to use the marker and trigger the hidden quest 78025
+-- Second Marker 78638334 - In a Small Cave - Quest 78026
+-- Third Marker 60726349 - Quest 78027
+-- Fourth Marker 31617167 - In the burial Mound - Quest Probably 78028
+-- Last Marker 43314798 - Quest 78037
+
+-- Entrance to Cave 43614809
+-- Banner Location in Cave 42655099 - Quest 77578 - Rewards the Whodunnit criteria
 
 -------------------------------------------------------------------------------
 -------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------
@@ -780,18 +787,17 @@ local MJJ_Parts = {
         parentMapID = 13, -- Eastern Kingdoms
         item = 209055
     }
-    -- [4] = {
-    --     map = nil
-    --     parentMapID = nil
-    --     item = nil
-    -- }
 }
 
-local MJJ_List = Class('MJJ_List', SecretsOfAzeroth, {
+local MJJ_List = Class('MJJ_List', ns.node.Collectible, {
     label = '{item:210022}',
     icon = 'peg_bl',
+    scale = 2.0,
     rewards = {
         ns.reward.Mount({id = 1813, item = 210022}) -- Mimiron's Jumpjets
+    },
+    pois = {
+        POI({36466204}) -- Arcane Forge
     }
 }) -- Mimiron's Jumpjets List
 
@@ -810,6 +816,7 @@ function MJJ_List.getters:note()
                    format('\n%s {item:%d} - %s (%s)', done, part.item, mName,
                 pName)
     end
+    note = note .. '\n\n' .. L['mjj_part4_note']
     return note
 end
 

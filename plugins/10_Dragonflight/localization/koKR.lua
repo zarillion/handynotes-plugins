@@ -884,3 +884,4 @@ L['soa_mjj_part2_label'] = nil
 L['soa_mjj_part2_note'] = nil
 L['soa_mjj_part3_label'] = nil
 L['soa_mjj_part3_note'] = nil
+L['mjj_part4_note'] = nil

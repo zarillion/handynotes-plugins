@@ -956,3 +956,4 @@ L['soa_mjj_part2_note'] = [[
 當元素吸進4個人後, 他會爆炸並掉落 {item:209781}! 任何在附近的人都可以拾取它.]]
 L['soa_mjj_part3_label'] = '{item:209055} - 部位 3'
 L['soa_mjj_part3_note'] = '{item:209055} 會在 {location:詛咒之地} 的 {location:黑暗之門} 的正前方等你! 小心附近的{npc:210886}和NPC, 你需要讀12秒的施法條來拾取零件.'
+L['mjj_part4_note'] = nil

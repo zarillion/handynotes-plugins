@@ -957,3 +957,4 @@ Puedes usar la {object:Parte de Refuerzo de Mimiron} para subirte en el elementa
 Una vez el elemental absorve 4 personas dentro, explotará y soltará {item:209781}. Cualquiera que esté cerca podrá despojarlo.]]
 L['soa_mjj_part3_label'] = '{item:209055} - Parte 3'
 L['soa_mjj_part3_note'] = '{item:209055} estará esperándote enfrente del {object:Portal Oscuro} en {location:Las Tierras Devastadas}. Ten cuidado con los cañones antiaéreos y los NPCs de la zona, ya que se necesita canalizar durante 12 segundos para despojar la parte.'
+L['mjj_part4_note'] = nil

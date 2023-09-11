@@ -957,3 +957,4 @@ In {location:Der Eisenwald} findest du einen riesigen {npc:210417} und eine {obj
 Sobald der Elementar 4 Leute eingesaugt hat, explodiert er und lässt {item:209781} fallen! Jeder, der sich in der Nähe befindet, kann es plündern.]] -- TODO: change 'Machine' to correct object name
 L['soa_mjj_part3_label'] = '{item:209055} - Teil 3'
 L['soa_mjj_part3_note'] = 'Das {item:209055} wartet direkt vor dem {location:Dunklen Portal} in den {location:Verwüsteten Landen} auf dich! Nimm dich vor den herunterfallenden Fel-Meteoriten in Acht, denn es dauert 12 Sekunden, um das Teil zu plündern.'
+L['mjj_part4_note'] = 'Wenn du alle Teile gesammelt hast, baue sie bei der {object:Arkanen Schmiede} zusammen, um {item:210022} zu erhalten.'

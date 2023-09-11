@@ -956,3 +956,4 @@ You can either use the {object:Mimiron's Booster Part} to mount on the elemental
 Once the elemental sucks 4 people in, it will explode and drop {item:209781}! Anyone in the area can loot it.]]
 L['soa_mjj_part3_label'] = '{item:209055} - Part 3'
 L['soa_mjj_part3_note'] = '{item:209055} will be waiting for you right in front of the {object:Dark Portal} in the {location:Blasted Lands}! Be careful of flak cannons and NPCs in the area, as it does take a 12-second cast to loot the part.'
+L['mjj_part4_note'] = 'After you have gathered all three parts, assemble them at the {object:Arcane Forge} to get your {item:210022}.'

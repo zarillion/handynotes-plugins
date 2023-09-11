@@ -955,3 +955,4 @@ Une fois que l'élémentaire aura aspiré 4 personnes, il explosera et laissera 
 ]]
 L['soa_mjj_part3_label'] = '{item:209055} - Partie 3'
 L['soa_mjj_part3_note'] = 'La {item:209055} vous attendra juste devant la {object:Porte des ténèbres} aux {location:Terres foudroyées} ! Faites attention aux artilleurs et aux PNJ dans la zone, car il faut 12 secondes d\'incantation pour récupérer la pièce.'
+L['mjj_part4_note'] = nil
