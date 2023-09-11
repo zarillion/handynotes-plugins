@@ -922,7 +922,7 @@ L['soa_10_weaponsmith_koref_note'] = 'Habla con {npc:210837} y comienza la misi�
 L['soa_11_rlabel'] = '(Pista 11)'
 L['soa_11_rlabel_optional'] = '(Pista 11 - Opcional)'
 L['soa_11_kathos_note'] = 'Habla con {npc:206864} y te dará {item:208852}. Ves a {npc:195543} en las {location:Llanuras de Ohn\'ahra} para preguntarle acerca del Estandarte.'
-L['soa_11_sansok_khan_note'] = 'Pregunta a {npc:195543} cómo enterrar adecuadamente a Ishtar Rethon, el cazador al que le pertenecía.\nRecibirás el {item:209061} y se te pedirá que busques a una NPC llamada {npc:191391} en {location:Puesto del Pinar}.'
+L['soa_11_sansok_khan_note'] = 'Pregunta a {npc:195543} cómo enterrar adecuadamente a {npc:Ishtar Rethon}, el cazador al que le pertenecía.\n\nRecibirás el {item:209061} y se te pedirá que busques a {npc:191391} en {location:Puesto del Pinar}.'
 L['soa_11_jhara_note'] = 'Habla con {npc:191391}, la tabernera. Ella te dará {item:208857}, la pista para este secreto.'
 L['soa_11_marker_1_label'] = 'Primer Marcador'
 L['soa_11_marker_2_label'] = 'Segundo Marcador'
@@ -930,13 +930,13 @@ L['soa_11_marker_3_label'] = 'Tercer Marcador'
 L['soa_11_marker_4_label'] = 'Cuarto Marcador'
 L['soa_11_marker_4_note'] = 'Dentro del túmulo funerario.'
 L['soa_11_marker_5_label'] = 'Quinto Marcador'
-L['soa_11_marker_5_note'] = nil
+L['soa_11_marker_5_note'] = 'Si está activa la misión {wq:Víctimas de Telarañas} debe ser completada antes usando la {item:208092} para quemar las telarañas y revelar la pista.'
 L['soa_11_burial_banner_note'] = 'Aventúrate a las profundidades de la cueva y llega al piso superior una vez que encuentres una rampa. Al final del último piso encontrarás un lugar para depositar el {item:208852}.'
 
 -- Secrets of Azeroth: Clue 12
-L['soa_12_rlabel'] = nil
-L['soa_12_bobby_note'] = nil
-L['soa_12_ancient_tome_note'] = nil
+L['soa_12_rlabel'] = '(Pista 12)'
+L['soa_12_bobby_note'] = 'Habla con {npc:207696} para conseguir la {item:208888}.\n\nVes a la {location:Antigua Karazhan} y limpia tu camino hasta después de {npc:15691} para abrirte camino por la {location:Biblioteca del Guardian}. Necesitarás encontrar un tomo allí usando tu {item:207730} para buscarlo.'
+L['soa_12_ancient_tome_note'] = 'Busca por los tomos con tu {item:207730} hasta que encuentres {item:208889}. Llévaselo a {npc:207696} en {location:Valdrakken}.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
