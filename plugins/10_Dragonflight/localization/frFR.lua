@@ -917,17 +917,17 @@ L['soa_10_weaponsmith_koref_note'] = 'Parlez au {npc:210837} et commencez la qu�
 
 -- Secrets of Azeroth: Clue 11
 L['soa_11_rlabel'] = '(Indice n°11)'
-L['soa_11_rlabel_optional'] = nil
+L['soa_11_rlabel_optional'] = '(Indice n°11 - Optionnel)'
 L['soa_11_kathos_note'] = 'Parlez à la {npc:206864}, vous recevrez la {item:208852}. Allez voir {npc:195543} aux {location:Plaines d\'Ohn\'ahra} pour lui poser des questions sur la bannière.'
 L['soa_11_sansok_khan_note'] = 'Demandez à {npc:195543} comment enterrer correctement Ishtaar Rethon, le chasseur à qui appartient la bannière.\nVous recevrez la {item:209061} et devrez trouver un PNJ nommé {npc:191391} au {location:Poste de la pinède}.'
 L['soa_11_jhara_note'] = 'Parlez à {npc:191391}, l\'aubergiste. Elle vous donnera le {item:208857}, l\'indice de ce secret.'
-L['soa_11_marker_1_label'] = nil
-L['soa_11_marker_2_label'] = nil
-L['soa_11_marker_3_label'] = nil
-L['soa_11_marker_4_label'] = nil
-L['soa_11_marker_4_note'] = nil
-L['soa_11_marker_5_label'] = nil
-L['soa_11_burial_banner_note'] = nil
+L['soa_11_marker_1_label'] = 'Premier marqueur'
+L['soa_11_marker_2_label'] = 'Deuxième marqueur'
+L['soa_11_marker_3_label'] = 'Troisième marqueur'
+L['soa_11_marker_4_label'] = 'Quatrième marqueur'
+L['soa_11_marker_4_note'] = 'A l\'intérieur du tertre funéraire.'
+L['soa_11_marker_5_label'] = 'Cinquième marqueur'
+L['soa_11_burial_banner_note'] = 'Enfoncez-vous dans la grotte et montez à l\'étage supérieur une fois que vous aurez atteint une rampe. Au fond de cet étage, vous trouverez un endroit où placer la {item:208852}.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
