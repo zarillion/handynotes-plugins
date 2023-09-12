@@ -1640,7 +1640,8 @@ map.nodes[65002900] = ElusiveCreature({
     label = '{npc:194491}',
     rewards = {
         Item({item = 193211}), -- Resilient Leather
-        Item({item = 193218}) -- Dense Hide
+        Item({item = 193218}), -- Dense Hide
+        Achievement({id = 18832, criteria = 61479}) -- Elusive Legend of the Dragon Isles
     }
 }) -- Elusive Elder Frigidpelt
 

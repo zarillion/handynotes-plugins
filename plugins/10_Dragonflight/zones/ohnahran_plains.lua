@@ -1862,7 +1862,8 @@ map.nodes[55005500] = ElusiveCreature({
     rewards = {
         Item({item = 193224}), -- Lustrous Scaled Hide
         Item({item = 193215}), -- Adamant Scales
-        Item({item = 193253}) -- Cacophonous Thunderscale
+        Item({item = 193253}), -- Cacophonous Thunderscale
+        Achievement({id = 18832, criteria = 61474}) -- Elusive Legend of the Dragon Isles
     }
 }) -- Elusive Tempest Lizard
 
@@ -1871,7 +1872,8 @@ map.nodes[24005600] = ElusiveCreature({
     rewards = {
         Item({item = 193218}), -- Dense Hide
         Item({item = 193211}), -- Resilient Leather
-        Item({item = 193251}) -- Crystalspine Fur
+        Item({item = 193251}), -- Crystalspine Fur
+        Achievement({id = 18832, criteria = 61482}) -- Elusive Legend of the Dragon Isles
     }
 }) -- Elusive Flourishing Quillbloom
 

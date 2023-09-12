@@ -1491,6 +1491,58 @@ local ElusiveCreature = ns.Class('ElusiveCreature', ns.node.Node, {
 
 ns.node.ElusiveCreature = ElusiveCreature
 
+-- Achievement({id = 18831, criteria = 61435}) -- Elusive Beasts of the Dragon Isles - Elusive Salamanther
+-- Achievement({id = 18831, criteria = 61438}) -- Elusive Beasts of the Dragon Isles - Elusive Proto Dragon
+-- Achievement({id = 18831, criteria = 61440}) -- Elusive Beasts of the Dragon Isles - Elusive Lava Phoenix
+-- Achievement({id = 18831, criteria = 61442}) -- Elusive Beasts of the Dragon Isles - Elusive Fiery Dreadsquall
+-- Achievement({id = 18831, criteria = 61444}) -- Elusive Beasts of the Dragon Isles - Elusive Rockfang
+-- Achievement({id = 18831, criteria = 61447}) -- Elusive Beasts of the Dragon Isles - Elusive Hornstrider
+-- Achievement({id = 18831, criteria = 61449}) -- Elusive Beasts of the Dragon Isles - Elusive Bull
+-- Achievement({id = 18831, criteria = 61451}) -- Elusive Beasts of the Dragon Isles - Elusive Ottuk
+-- Achievement({id = 18831, criteria = 61453}) -- Elusive Beasts of the Dragon Isles - Elusive Magmammoth Bull
+-- Achievement({id = 18831, criteria = 61455}) -- Elusive Beasts of the Dragon Isles - Elusive Prime Proto Dragon
+-- Achievement({id = 18831, criteria = 61457}) -- Elusive Beasts of the Dragon Isles - Elusive Elder Rockfang
+-- Achievement({id = 18831, criteria = 61459}) -- Elusive Beasts of the Dragon Isles - Elusive Rimeclaw Bear
+-- Achievement({id = 18831, criteria = 61461}) -- Elusive Beasts of the Dragon Isles - Elusive Argali
+-- Achievement({id = 18831, criteria = 61463}) -- Elusive Beasts of the Dragon Isles - Elusive Deepflayer
+-- Achievement({id = 18831, criteria = 61465}) -- Elusive Beasts of the Dragon Isles - Elusive Viper (Lava)
+-- Achievement({id = 18831, criteria = 61467}) -- Elusive Beasts of the Dragon Isles - Elusive Deepstrider
+-- Achievement({id = 18831, criteria = 61469}) -- Elusive Beasts of the Dragon Isles - Elusive Viper (Rock)
+-- Achievement({id = 18831, criteria = 61471}) -- Elusive Beasts of the Dragon Isles - Elusive Sulfurstrider
+-- Achievement({id = 18831, criteria = 61437}) -- Elusive Beasts of the Dragon Isles - Elusive Vorquin
+-- Achievement({id = 18831, criteria = 61439}) -- Elusive Beasts of the Dragon Isles - Elusive Thunder Lizard
+-- Achievement({id = 18831, criteria = 61441}) -- Elusive Beasts of the Dragon Isles - Elusive Magmammoth
+-- Achievement({id = 18831, criteria = 61443}) -- Elusive Beasts of the Dragon Isles - Elusive Snapdragon
+-- Achievement({id = 18831, criteria = 61445}) -- Elusive Beasts of the Dragon Isles - Elusive Feral Bakar
+-- Achievement({id = 18831, criteria = 61448}) -- Elusive Beasts of the Dragon Isles - Elusive Crystalspine
+-- Achievement({id = 18831, criteria = 61450}) -- Elusive Beasts of the Dragon Isles - Elusive Stonegazer
+-- Achievement({id = 18831, criteria = 61452}) -- Elusive Beasts of the Dragon Isles - Elusive Slyvern
+-- Achievement({id = 18831, criteria = 61454}) -- Elusive Beasts of the Dragon Isles - Elusive Prime Salamanther
+-- Achievement({id = 18831, criteria = 61456}) -- Elusive Beasts of the Dragon Isles - Elusive Storm Lizard
+-- Achievement({id = 18831, criteria = 61458}) -- Elusive Beasts of the Dragon Isles - Elusive Elder Slyvern
+-- Achievement({id = 18831, criteria = 61460}) -- Elusive Beasts of the Dragon Isles - Elusive Elder Armoredon
+-- Achievement({id = 18831, criteria = 61462}) -- Elusive Beasts of the Dragon Isles - Elusive Elder Argali
+-- Achievement({id = 18831, criteria = 61464}) -- Elusive Beasts of the Dragon Isles - Elusive Stoneclaw
+-- Achievement({id = 18831, criteria = 61466}) -- Elusive Beasts of the Dragon Isles - Elusive Lavafang
+-- Achievement({id = 18831, criteria = 61468}) -- Elusive Beasts of the Dragon Isles - Elusive Colossal Deepstrider
+-- Achievement({id = 18831, criteria = 61470}) -- Elusive Beasts of the Dragon Isles - Elusive Shalefang
+-- Achievement({id = 18831, criteria = 61472}) -- Elusive Beasts of the Dragon Isles - Elusive Colossal Sulfurstrider
+
+-- Achievement({id = 18832, criteria = 61473}) -- Elusive Legend of the Dragon Isles - Elusive Elder Drake
+--X Achievement({id = 18832, criteria = 61474}) -- Elusive Legend of the Dragon Isles - Elusive Tempest Lizard
+--X Achievement({id = 18832, criteria = 61475}) -- Elusive Legend of the Dragon Isles - Elusive Deepwater Salamanther
+--X Achievement({id = 18832, criteria = 61476}) -- Elusive Legend of the Dragon Isles - Elusive Cliffdweller Vorquin
+-- Achievement({id = 18832, criteria = 61477}) -- Elusive Legend of the Dragon Isles - Elusive Frenzied Amberfur
+--X Achievement({id = 18832, criteria = 61478}) -- Elusive Legend of the Dragon Isles - Elusive Crystalscale Stonecleaver
+--X Achievement({id = 18832, criteria = 61479}) -- Elusive Legend of the Dragon Isles - Elusive Elder Frigidpelt
+--X Achievement({id = 18832, criteria = 61480}) -- Elusive Legend of the Dragon Isles - Elusive Ferocious Titanfang
+-- Achievement({id = 18832, criteria = 61481}) -- Elusive Legend of the Dragon Isles - Elusive Proto Skyterror
+--X Achievement({id = 18832, criteria = 61482}) -- Elusive Legend of the Dragon Isles - Elusive Flourishing Quillbloom
+-- Achievement({id = 18832, criteria = 61483}) -- Elusive Legend of the Dragon Isles - Elusive Auric Argali
+-- Achievement({id = 18832, criteria = 61484}) -- Elusive Legend of the Dragon Isles - Elusive Magma Cobra
+
+-- The ones marked with a X have been added to existing Elusive Creature nodes.
+
 -------------------------------------------------------------------------------
 ---------------------------- PET: MOTE OF NASZ'URO ----------------------------
 -------------------------------------------------------------------------------
