@@ -949,7 +949,7 @@ L['soa_13_great_place_c_note'] = 'En un edificio pequeño con dos {npc:197035} d
 L['soa_13_great_place_d_label'] = 'Notas del Investigador'
 L['soa_13_great_place_d_note'] = 'Dentro de un edificio pequeño cerca de unos libros.'
 L['soa_13_great_place_e_label'] = 'Nota Garabateada Deprisa'
-L['soa_13_great_place_e_note'] = 'Detrás del puesto del vendedor en el {location:Mercadp de los Artesanos}.'
+L['soa_13_great_place_e_note'] = 'Detrás del puesto del vendedor en el {location:Mercado de los Artesanos}.'
 L['soa_13_great_place_f_label'] = 'Nota para Kirtha'
 L['soa_13_great_place_f_note'] = 'En una caja dentro del {location:Tesoro del Dragón}.\n\nNecesitas teclear la emoción {emote:/reverencia} a la {npc:189827} en el {location:Carnero Asado} para entrar en el bar secreto.'
 
