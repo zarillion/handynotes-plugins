@@ -970,6 +970,9 @@ L['bs_nag_location'] = nil
 L['bs_gri_location'] = nil
 L['bs_hmt_location'] = nil
 
+L['bs_emerald_dragonshrine'] = nil
+L['bs_bronze_dragonshrine'] = nil
+
 L['options_icons_secrets_of_azeroth'] = nil
 L['options_icons_secrets_of_azeroth_desc'] = nil
 

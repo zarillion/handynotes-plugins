@@ -965,9 +965,12 @@ L['bs_vfw_location'] = '在金色瀑布顶部的 {npc:129151} 雕像口内。'
 L['bs_tas_location'] = '使用 {item:208135} 融化 {npc:96438} 并露出 {object:松软的泥土堆}。'
 L['bs_dbt_location'] = '在 {location:翡翠巨龙圣地} 的大型骷髅爪下。'
 L['bs_bar_location'] = '山顶上。'
-L['bs_nag_location'] = '在 {location:天歌湖} 上方的一座浮岛上。'
+L['bs_nag_location'] = '在 {location:%s} 上方的一座浮岛上。'
 L['bs_gri_location'] = '与 {npc:%s} 交谈，乘坐圆木从 {location:蓝天伐木场} 前往 {location:风险湾}。开始骑行后，将获得 {spell:423942} 增益。\n\n{note:必须拥有 {spell:423942} 增益才能看到小包。}'
 L['bs_hmt_location'] = '在 {object:老化的羊皮纸} 附近的 {location:高岭之巅} 顶部。'
+
+L['bs_emerald_dragonshrine'] = '翡翠巨龙圣地'
+L['bs_bronze_dragonshrine'] = nil
 
 L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'

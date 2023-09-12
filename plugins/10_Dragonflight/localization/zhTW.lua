@@ -963,11 +963,14 @@ L['bs_smv_location'] = '在 {location:月柳峰} 的中空大樹內.'
 L['bs_net_location'] = '在 {location:外域} {location:虛空風暴} 的 {location:法力熔爐巴納爾}.\n\n{note:需要三個玩家在附近的水晶引導 {item:208092} 來召喚 {object:鬆軟的泥土堆}.}'
 L['bs_vfw_location'] = '在金色瀑布頂端的 {npc:129151} 雕像口中.'
 L['bs_tas_location'] = '使用 {item:208135} 來融化 {npc:96438} 並揭露 {object:鬆軟的泥土堆}.'
-L['bs_dbt_location'] = '在 {location:翡翠龍殿} 的大龍爪骨頭下.'
+L['bs_dbt_location'] = '在 {location:%s} 的大龍爪骨頭下.'
 L['bs_bar_location'] = '在山頂上'
 L['bs_nag_location'] = nil
 L['bs_gri_location'] = nil
 L['bs_hmt_location'] = nil
+
+L['bs_emerald_dragonshrine'] = '翡翠龍殿'
+L['bs_bronze_dragonshrine'] = nil
 
 L['options_icons_secrets_of_azeroth'] = '艾澤拉斯秘聞'
 L['options_icons_secrets_of_azeroth_desc'] = '顯示 {location:艾澤拉斯秘聞} 線索的位置.'

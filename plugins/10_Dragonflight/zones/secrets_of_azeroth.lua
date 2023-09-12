@@ -1046,7 +1046,7 @@ local BURIED_SATCHELS = {
     },
     [8] = {
         coordinates = 63907260,
-        location = L['bs_dbt_location'],
+        location = format(L['bs_dbt_location'], L['bs_emerald_dragonshrine']),
         map = dbt, -- Dragonblight
         parentMapID = 113, -- Northrend
         quest = 77294
@@ -1097,6 +1097,13 @@ local BURIED_SATCHELS = {
         map = hmt, -- Highmountain
         parentMapID = 619, -- Broken Isles
         quest = 78208
+    },
+    [14] = {
+        coordinates = 73203959,
+        location = format(L['bs_dbt_location'], L['bs_bronze_dragonshrine']),
+        map = dbt, -- Dragonblight
+        parentMapID = 113, -- Northrend
+        quest = 77302
     }
 }
 
@@ -1107,6 +1114,7 @@ local BuriedSatchelList = Class('BuriedSatchelList', SecretsOfAzeroth, {
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     icon = 'peg_rd',
     sublabel = L['buried_satchel_sublabel'],
+    rlabel = Gray('(15/15)'),
     rewards = {
         Achievement({id = 18644, criteria = {qty = true, id = 1}}), -- Community Rumor Mill
         Pet({npc = 208643, id = 4263}) -- Tobias
