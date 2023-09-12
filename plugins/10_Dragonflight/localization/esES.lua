@@ -940,7 +940,7 @@ L['soa_12_ancient_tome_note'] = 'Busca por los tomos con tu {item:207730} hasta 
 
 -- Secrets of Azeroth: Clue 13
 L['soa_13_rlabel'] = '(Pista 13)'
-L['soa_13_bobby_note'] = nil
+L['soa_13_bobby_note'] = 'Habla con {npc:207696} para comenzar la misión {quest:77928}.'
 L['soa_13_great_place_a_label'] = 'Factura de Venta de la Casa de Subastas'
 L['soa_13_great_place_a_note'] = 'En una pila de cajas dentro de la entrada de la {location:Casa de Subastas}.'
 L['soa_13_great_place_b_label'] = 'Recepción del Depósito del Vacío'
@@ -951,7 +951,7 @@ L['soa_13_great_place_d_label'] = 'Notas del Investigador'
 L['soa_13_great_place_d_note'] = 'Dentro de un edificio pequeño cerca de unos libros.'
 L['soa_13_great_place_e_label'] = 'Nota Garabateada Deprisa'
 L['soa_13_great_place_e_note'] = 'Detrás del puesto del vendedor en el {location:Mercado de los Artesanos}.'
-L['soa_13_great_place_f_label'] = 'Nota para Kirtha'
+L['soa_13_great_place_f_label'] = 'Nota para Kritha'
 L['soa_13_great_place_f_note'] = 'En una caja dentro del {location:Tesoro del Dragón}.\n\nNecesitas teclear la emoción {emote:/reverencia} a la {npc:189827} en el {location:Carnero Asado} para entrar en el bar secreto.'
 
 -- Community Rumor Mill
