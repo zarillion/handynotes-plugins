@@ -911,31 +911,31 @@ L['soa_09_ancient_key_mold_label'] = '古老的钥匙模具'
 L['soa_09_ancient_key_mold_note'] = '拾取 {object:古老的钥匙模具} 得到 {item:208827} 以开始任务 {quest:77822}。\n\n返回 {location:瓦德拉肯} 的 {npc:195769}。'
 
 -- Secrets of Azeroth: Clue 10
-L['soa_10_rlabel'] = nil
-L['soa_10_tyrs_titan_key_note'] = nil
-L['soa_10_rose_gold_dust_note'] = nil
-L['soa_10_igneous_flux_note'] = nil
-L['soa_10_weaponsmith_koref_note'] = nil
+L['soa_10_rlabel'] = '（线索十）'
+L['soa_10_tyrs_titan_key_note'] = '从 {npc:207696} 领取任务 {quest:77829} 并前往 {npc:210837} 得到 {item:208829}。\n\n在 {location:觉醒海岸} 收集 {item:208835} 和 {item:208836} 并在 {location:黑曜堡垒} 重铸钥匙。'
+L['soa_10_rose_gold_dust_note'] = '收集50个 {item:208835}，使用 {item:207730} 找到地板上的红色小石子。\n\n找到50个 {item:208835} 和8个 {item:208836} 后前往 {location:黑曜堡垒} 的 {npc:210837}。'
+L['soa_10_igneous_flux_note'] = '在熔岩与盐水相遇的 {location:觉醒海岸} 的各个位置收集8个 {item:208836}。\n\n找到50个 {item:208835} 和8个 {item:208836} 后前往 {location:黑曜堡垒} 的 {npc:210837}。'
+L['soa_10_weaponsmith_koref_note'] = '与 {npc:210837} 交谈并开始任务 {quest:77831}，帮助他用材料和 {item:208092} 重铸 {item:208831}。'
 
 -- Secrets of Azeroth: Clue 11
-L['soa_11_rlabel'] = nil
-L['soa_11_rlabel_optional'] = nil
-L['soa_11_kathos_note'] = nil
-L['soa_11_sansok_khan_note'] = nil
-L['soa_11_jhara_note'] = nil
-L['soa_11_marker_1_label'] = nil
-L['soa_11_marker_2_label'] = nil
-L['soa_11_marker_3_label'] = nil
-L['soa_11_marker_4_label'] = nil
-L['soa_11_marker_4_note'] = nil
-L['soa_11_marker_5_label'] = nil
-L['soa_11_marker_5_note'] = nil
-L['soa_11_burial_banner_note'] = nil
+L['soa_11_rlabel'] = '（线索十一）'
+L['soa_11_rlabel_optional'] = '（线索十一 - 可选）'
+L['soa_11_kathos_note'] = '与 {npc:206864} 交谈，将得到 {item:208852}。前往 {location:欧恩哈拉平原} 的 {npc:195543} 向他询问有关旗帜的事情。'
+L['soa_11_sansok_khan_note'] = '询问 {npc:195543} 如何正确埋葬旗帜所属的猎人 {npc:艾什塔尔·雷森}。\n\n将得到 {item:209061} 并被要求在 {location:松木哨站} 找到 {npc:191391}。'
+L['soa_11_jhara_note'] = '与旅店老板 {npc:191391} 交谈。她会给这个秘密的线索 {item:208857}。'
+L['soa_11_marker_1_label'] = '第一标记'
+L['soa_11_marker_2_label'] = '第二标记'
+L['soa_11_marker_3_label'] = '第三标记'
+L['soa_11_marker_4_label'] = '第四标记'
+L['soa_11_marker_4_note'] = '坟堆中。'
+L['soa_11_marker_5_label'] = '第五标记'
+L['soa_11_marker_5_note'] = '如果 {wq:网中受害者} 任务处于活动状态，则必须在使用 {item:208092} 烧毁蜘蛛网并揭示线索之前完成它。'
+L['soa_11_burial_banner_note'] = '深入洞穴，遇到坡道后到达顶层，在顶层的尽头，会找到一个存放 {item:208852} 的地方。'
 
 -- Secrets of Azeroth: Clue 12
-L['soa_12_rlabel'] = nil
-L['soa_12_bobby_note'] = nil
-L['soa_12_ancient_tome_note'] = nil
+L['soa_12_rlabel'] = '（线索十二）'
+L['soa_12_bobby_note'] = '与 {npc:207696} 交谈得到 {item:208888}。\n\n前往 {location:老卡拉赞} 并在 {npc:15691} 之后清理道路，然后进入 {location:守护者的图书馆}。需要在那里找到一本书，使用 {item:207730} 来追踪它。'
+L['soa_12_ancient_tome_note'] = '使用 {item:207730} 搜索书籍，直到找到 {item:208889} 并将其带回位于 {location:瓦德拉肯} 的 {npc:207696}。'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = '从 {object:松软的泥土堆} 中拾取 {item:208142}。'
@@ -955,7 +955,11 @@ L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = nil
+L['soa_mjj_list_note'] = '收集所有3个零件并在 {object:已强化的奥术熔炉} 组装它们得到 {item:210022}：'
 L['soa_mjj_part1_note'] = '让3名玩家用 {item:208092} 引导火盆来召唤 {npc:210398}。他会掉落 {item:208984}。'
-L['soa_mjj_part2_note'] = nil
-L['soa_mjj_part3_note'] = nil
+L['soa_mjj_part2_note'] = [[{note:完成此部分，周围至少需要4人。}
+
+在 {location:铁木森林} 中，会发现一个巨大的 {npc:210417} 和一个可以使用的 {object:米米尔隆的助推器零件}。可以使用 {object:米米尔隆的助推器零件} 来骑上元素并使用其能力 {spell:423412} 来吸人，或者跑到元素附近（但不足以接近它的范围攻击，因为它会把你击退），这样驾驶它的人就能把你吸进去。
+
+一旦元素吸入4个人，它就会爆炸并掉落 {item:209781}！该地区的任何人都可以拾取它。]]
+L['soa_mjj_part3_note'] = '{item:209055} 在 {location:诅咒之地} 的 {object:黑暗之门} 前面等你！小心该区域的 {npc:23082} 和 NPC，因为需要12秒的施法才能拾取该零件。'
