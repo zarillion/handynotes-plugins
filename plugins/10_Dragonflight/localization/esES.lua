@@ -350,7 +350,7 @@ L['neltharions_toolkit_note'] = [[1. Recoge un {item:204278} que aparece aleator
 
 3. Encuentra el {object:Puerta Rota} dentro de la cueva junto al {npc:193310}.
 
-4. Repara el {object:Puerta Rota}. {note:Puede requerir hacer algunos clicks.}
+4. Repara el {object:Puerta Rota}. {note:Puede requerir hacer varios clicks.}
 
 5. Telepórtate a la habitación escondida en las {location:Cámaras de Zskera}. Mata al {npc:200375} y al {npc:203639}. Ahora abre el {object:Alijo Majestuoso de Obsidiana} para reclamar tu botín.]]
 
@@ -939,19 +939,19 @@ L['soa_12_bobby_note'] = 'Habla con {npc:207696} para conseguir la {item:208888}
 L['soa_12_ancient_tome_note'] = 'Busca por los tomos con tu {item:207730} hasta que encuentres {item:208889}. Llévaselo a {npc:207696} en {location:Valdrakken}.'
 
 -- Secrets of Azeroth: Clue 13
-L['soa_13_rlabel'] = nil
-L['soa_13_great_place_a_label'] = nil
-L['soa_13_great_place_a_note'] = nil
-L['soa_13_great_place_b_label'] = nil
-L['soa_13_great_place_b_note'] = nil
-L['soa_13_great_place_c_label'] = nil
-L['soa_13_great_place_c_note'] = nil
-L['soa_13_great_place_d_label'] = nil
-L['soa_13_great_place_d_note'] = nil
-L['soa_13_great_place_e_label'] = nil
-L['soa_13_great_place_e_note'] = nil
-L['soa_13_great_place_f_label'] = nil
-L['soa_13_great_place_f_note'] = nil
+L['soa_13_rlabel'] = '(Clue 13)'
+L['soa_13_great_place_a_label'] = 'Factura de Venta de la Casa de Subastas'
+L['soa_13_great_place_a_note'] = 'En una pila de cajas dentro de la entrada de la {location:Casa de Subastas}.'
+L['soa_13_great_place_b_label'] = 'Recepción del Depósito del Vacío'
+L['soa_13_great_place_b_note'] = 'En una pila de cajas en el edificio del Transfigurador y el Depósito del Vacío.'
+L['soa_13_great_place_c_label'] = 'Recepción del Jardín de Suministros'
+L['soa_13_great_place_c_note'] = 'En un edificio pequeño con dos {npc:197035} discutiendo.'
+L['soa_13_great_place_d_label'] = 'Notas del Investigador'
+L['soa_13_great_place_d_note'] = 'Dentro de un edificio pequeño cerca de unos libros.'
+L['soa_13_great_place_e_label'] = 'Nota Garabateada Deprisa'
+L['soa_13_great_place_e_note'] = 'Detrás del puesto del vendedor en el {location:Mercadp de los Artesanos}.'
+L['soa_13_great_place_f_label'] = 'Nota para Kirtha'
+L['soa_13_great_place_f_note'] = 'En una caja dentro del {location:Tesoro del Dragón}.\n\nNecesitas teclear la emoción {emote:/reverencia} a la {npc:189827} en el {location:Carnero Asado} para entrar en el bar secreto.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
@@ -966,19 +966,19 @@ L['bs_vfw_location'] = 'En la cima de la cascada dorada y dentro de la boca la e
 L['bs_tas_location'] = 'Usa la {item:208135} para derretir el {npc:96438} y hacer aparecer el {object:Montículo de Porquería Blanda}.'
 L['bs_dbt_location'] = 'Debajo de la gran garra esquelética del {location:%s}.'
 L['bs_bar_location'] = 'En la cima de la montaña.'
-L['bs_nag_location'] = nil
-L['bs_gri_location'] = nil
-L['bs_hmt_location'] = nil
-L['bs_wpl_location'] = nil
+L['bs_nag_location'] = 'En una isla flotante muy por encima del {location:Lago Sol Celeste}.'
+L['bs_gri_location'] = 'Habla con {npc:%s} para dar un paseo en tronco desde el {location:Aserradero Cielo Azul} hasta {location:Bahía Ventura}. Cuando comiences el paseo recibirás el buff {spell:423942}.\n\n{note:Tienes que tener el buff {spell:423942} para poder ver la bolsa.}'
+L['bs_hmt_location'] = 'Encima del {location:Pico de Monte Alto} cerca del {object:Papiro Deteriorado}.'
+L['bs_wpl_location'] = 'Entre el carro y el torreón de {location:Castel Darrow}.'
 
 L['bs_emerald_dragonshrine'] = 'Santuario de Dragones Esmeralda'
-L['bs_bronze_dragonshrine'] = nil
+L['bs_bronze_dragonshrine'] = 'Santuario de Dragones Bronce'
 
 L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = nil
+L['soa_mjj_list_note'] = 'Recoge las 3 piezas y ensámblalas en la {object:Forja Arcana Potenciada} para conseguir los {item:210022}:'
 L['soa_mjj_part1_note'] = 'Necesitas a 2 jugadores más para que canalicen junto a ti sus {item:208092} a los braseros para invocar a {npc:210398}. Al despojarlo soltará la {item:208984}.'
 L['soa_mjj_part2_note'] = [[{note:Necesitaréis ser al menos 4 personas para esta pieza.}
 
