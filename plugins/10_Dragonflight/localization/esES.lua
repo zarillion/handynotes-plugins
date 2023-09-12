@@ -939,7 +939,7 @@ L['soa_12_bobby_note'] = 'Habla con {npc:207696} para conseguir la {item:208888}
 L['soa_12_ancient_tome_note'] = 'Busca por los tomos con tu {item:207730} hasta que encuentres {item:208889}. Llévaselo a {npc:207696} en {location:Valdrakken}.'
 
 -- Secrets of Azeroth: Clue 13
-L['soa_13_rlabel'] = '(Clue 13)'
+L['soa_13_rlabel'] = '(Pista 13)'
 L['soa_13_great_place_a_label'] = 'Factura de Venta de la Casa de Subastas'
 L['soa_13_great_place_a_note'] = 'En una pila de cajas dentro de la entrada de la {location:Casa de Subastas}.'
 L['soa_13_great_place_b_label'] = 'Recepción del Depósito del Vacío'
