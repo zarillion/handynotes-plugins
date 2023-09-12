@@ -935,6 +935,21 @@ L['soa_12_rlabel'] = '(Indice n°12)'
 L['soa_12_bobby_note'] = 'Parlez avec {npc:207696} pour recevoir la {item:208888}.\n\nRendez-vous à {location:Karazhan} (ancienne version) et avancez jusqu\'à avoir dépassé {npc:15691}, pour pénétrer dans la {location:Bibliothèque du Gardien}. Vous devrez y trouver un livre, utilisez votre {item:207730} pour le localiser.'
 L['soa_12_ancient_tome_note'] = 'Cherchez des ouvrages avec votre {item:207730} jusqu\'à ce que vous trouviez {item:208889} et ramenez-le à {npc:207696} à {location:Valdrakken}.'
 
+-- Secrets of Azeroth: Clue 13
+L['soa_13_rlabel'] = nil
+L['soa_13_great_place_a_label'] = nil
+L['soa_13_great_place_a_note'] = nil
+L['soa_13_great_place_b_label'] = nil
+L['soa_13_great_place_b_note'] = nil
+L['soa_13_great_place_c_label'] = nil
+L['soa_13_great_place_c_note'] = nil
+L['soa_13_great_place_d_label'] = nil
+L['soa_13_great_place_d_note'] = nil
+L['soa_13_great_place_e_label'] = nil
+L['soa_13_great_place_e_note'] = nil
+L['soa_13_great_place_f_label'] = nil
+L['soa_13_great_place_f_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
 L['buried_satchel_sublabel'] = '{note:Ceci n\'est PAS un emplacement de {item:208142}.}'

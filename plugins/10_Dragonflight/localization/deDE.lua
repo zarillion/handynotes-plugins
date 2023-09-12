@@ -939,6 +939,21 @@ L['soa_12_rlabel'] = '(Hinweis 12)'
 L['soa_12_bobby_note'] = 'Sprich mit {npc:207696}, um die {item:208888} zu erhalten.\n\nGehen ins {location:Alte Karazhan} und kämpfe dich bis nach {npc:15691} durch, um zur {location:Bibliothek des Wächters} zu gelangen. Du musst ein Buch dort finden, benutze deine {item:207730} um es aufzuspüren.'
 L['soa_12_ancient_tome_note'] = 'Suche nach Büchern mit deiner {item:207730} bis du {item:208889} findest, bringe es zu {npc:207696} in {location:Valdrakken} zurück.'
 
+-- Secrets of Azeroth: Clue 13
+L['soa_13_rlabel'] = nil
+L['soa_13_great_place_a_label'] = nil
+L['soa_13_great_place_a_note'] = nil
+L['soa_13_great_place_b_label'] = nil
+L['soa_13_great_place_b_note'] = nil
+L['soa_13_great_place_c_label'] = nil
+L['soa_13_great_place_c_note'] = nil
+L['soa_13_great_place_d_label'] = nil
+L['soa_13_great_place_d_note'] = nil
+L['soa_13_great_place_e_label'] = nil
+L['soa_13_great_place_e_note'] = nil
+L['soa_13_great_place_f_label'] = nil
+L['soa_13_great_place_f_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
 L['buried_satchel_sublabel'] = '{note:An dieser Position ist KEIN {item:208142}.}'

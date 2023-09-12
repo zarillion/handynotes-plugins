@@ -862,6 +862,64 @@ kar.nodes[33265118] = AncientTome({
 -- 77579 -- Clue 12 complete
 
 -------------------------------------------------------------------------------
+------------------------- SECRETS OF AZEROTH: CLUE 13 -------------------------
+-------------------------------------------------------------------------------
+
+-- 77916, -- ![They Are Always Listening]
+
+val.nodes[44186035] = SecretsOfAzeroth({
+    label = L['soa_13_great_place_a_label'],
+    note = L['soa_13_great_place_a_note'],
+    quest = 78053, -- hidden
+    questDeps = 77916, -- ![They Are Always Listening]
+    rlabel = Gray(L['soa_13_rlabel'])
+}) -- Auction House Bill of Sale
+
+val.nodes[73955753] = SecretsOfAzeroth({
+    label = L['soa_13_great_place_b_label'],
+    note = L['soa_13_great_place_b_note'],
+    quest = 78054, -- hidden
+    questDeps = 77916, -- ![They Are Always Listening]
+    rlabel = Gray(L['soa_13_rlabel'])
+}) -- Void Storage Receipt
+
+val.nodes[53042849] = SecretsOfAzeroth({
+    label = L['soa_13_great_place_c_label'],
+    note = L['soa_13_great_place_c_note'],
+    quest = 78055, -- hidden
+    questDeps = 77916, -- ![They Are Always Listening]
+    rlabel = Gray(L['soa_13_rlabel'])
+}) -- Garden Supply Receipt
+
+val.nodes[37643715] = SecretsOfAzeroth({
+    label = L['soa_13_great_place_d_label'],
+    note = L['soa_13_great_place_d_note'],
+    quest = 78056, -- hidden
+    questDeps = 77916, -- ![They Are Always Listening]
+    rlabel = Gray(L['soa_13_rlabel'])
+}) -- Researcher's Note
+
+val.nodes[31637023] = SecretsOfAzeroth({
+    label = L['soa_13_great_place_e_label'],
+    note = L['soa_13_great_place_e_note'],
+    quest = 78057, --- hidden
+    questDeps = 77916, -- ![They Are Always Listening]
+    rlabel = Gray(L['soa_13_rlabel'])
+}) -- Hastily Scrawled Note
+
+val.nodes[46004140] = SecretsOfAzeroth({
+    label = L['soa_13_great_place_f_label'],
+    note = L['soa_13_great_place_f_note'],
+    quest = 78058, --- hidden
+    questDeps = 77916, -- ![They Are Always Listening]
+    rlabel = Gray(L['soa_13_rlabel']),
+    pois = {POI({46944490})} -- Odd Statue
+}) -- Note to Kirtha
+
+-- 77580 Clue 13 complete
+-- 77934 ![A Complete Inventory]
+
+-------------------------------------------------------------------------------
 -------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------
 -------------------------------------------------------------------------------
 

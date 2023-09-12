@@ -937,6 +937,21 @@ L['soa_12_rlabel'] = '（线索十二）'
 L['soa_12_bobby_note'] = '与 {npc:207696} 交谈得到 {item:208888}。\n\n前往 {location:老卡拉赞} 并在 {npc:15691} 之后清理道路，然后进入 {location:守护者的图书馆}。需要在那里找到一本书，使用 {item:207730} 来追踪它。'
 L['soa_12_ancient_tome_note'] = '使用 {item:207730} 搜索书籍，直到找到 {item:208889} 并将其带回位于 {location:瓦德拉肯} 的 {npc:207696}。'
 
+-- Secrets of Azeroth: Clue 13
+L['soa_13_rlabel'] = nil
+L['soa_13_great_place_a_label'] = nil
+L['soa_13_great_place_a_note'] = nil
+L['soa_13_great_place_b_label'] = nil
+L['soa_13_great_place_b_note'] = nil
+L['soa_13_great_place_c_label'] = nil
+L['soa_13_great_place_c_note'] = nil
+L['soa_13_great_place_d_label'] = nil
+L['soa_13_great_place_d_note'] = nil
+L['soa_13_great_place_e_label'] = nil
+L['soa_13_great_place_e_note'] = nil
+L['soa_13_great_place_f_label'] = nil
+L['soa_13_great_place_f_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = '从 {object:松软的泥土堆} 中拾取 {item:208142}。'
 L['buried_satchel_sublabel'] = '{note:这*不是* {item:208142} 的位置。}'

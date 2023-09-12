@@ -938,6 +938,21 @@ L['soa_12_rlabel'] = '(Pista 12)'
 L['soa_12_bobby_note'] = 'Habla con {npc:207696} para conseguir la {item:208888}.\n\nVes a la {location:Antigua Karazhan} y limpia tu camino hasta después de {npc:15691} para abrirte camino por la {location:Biblioteca del Guardian}. Necesitarás encontrar un tomo allí usando tu {item:207730} para buscarlo.'
 L['soa_12_ancient_tome_note'] = 'Busca por los tomos con tu {item:207730} hasta que encuentres {item:208889}. Llévaselo a {npc:207696} en {location:Valdrakken}.'
 
+-- Secrets of Azeroth: Clue 13
+L['soa_13_rlabel'] = nil
+L['soa_13_great_place_a_label'] = nil
+L['soa_13_great_place_a_note'] = nil
+L['soa_13_great_place_b_label'] = nil
+L['soa_13_great_place_b_note'] = nil
+L['soa_13_great_place_c_label'] = nil
+L['soa_13_great_place_c_note'] = nil
+L['soa_13_great_place_d_label'] = nil
+L['soa_13_great_place_d_note'] = nil
+L['soa_13_great_place_e_label'] = nil
+L['soa_13_great_place_e_note'] = nil
+L['soa_13_great_place_f_label'] = nil
+L['soa_13_great_place_f_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
 L['buried_satchel_sublabel'] = '{note:Esto no es un localización de {item:208142}.}'
