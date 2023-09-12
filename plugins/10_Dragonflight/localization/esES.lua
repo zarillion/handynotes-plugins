@@ -969,6 +969,7 @@ L['bs_bar_location'] = 'En la cima de la montaña.'
 L['bs_nag_location'] = nil
 L['bs_gri_location'] = nil
 L['bs_hmt_location'] = nil
+L['bs_wpl_location'] = nil
 
 L['bs_emerald_dragonshrine'] = 'Santuario de Dragones Esmeralda'
 L['bs_bronze_dragonshrine'] = nil

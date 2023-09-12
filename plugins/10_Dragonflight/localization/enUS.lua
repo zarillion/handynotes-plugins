@@ -968,6 +968,7 @@ L['bs_bar_location'] = 'On top of the mountain.'
 L['bs_nag_location'] = 'On a floating island high above {location:Skysong Lake}.'
 L['bs_gri_location'] = 'Speak to {npc:%s} to take a log ride from {location:Blue Sky Logging Grounds} to {location:Venture Bay}. Once you start the ride you will recieve the {spell:423942} buff.\n\n{note:You must have the {spell:423942} buff in order to see the satchel.}'
 L['bs_hmt_location'] = 'Atop {location:Highmountain Peak} near the {object:Weathered Parchment}.'
+L['bs_wpl_location'] = 'Between the cart and the keep in {location:Caer Darrow}.'
 
 L['bs_emerald_dragonshrine'] = 'Emerald Dragonshrine'
 L['bs_bronze_dragonshrine'] = 'Bronze Dragonshine'

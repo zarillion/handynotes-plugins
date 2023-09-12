@@ -43,6 +43,7 @@ local net = ns.maps[109] or Map({id = 109, settings = true}) -- Netherstorm
 local smv = ns.maps[539] or Map({id = 539, settings = true}) -- Shadowmoon Valley (Draenor)
 local tho = ns.maps[64] or Map({id = 64, settings = true}) -- Thousand Needles
 local vfw = ns.maps[376] or Map({id = 376, settings = true}) -- Valley of the Four Winds
+local wpl = ns.maps[22] or Map({id = 22, settings = true}) -- Western Plaguelands
 
 -- Mount: Mimiron's Jumpjets
 local cst = ns.maps[210] or Map({id = 210, settings = true}) -- Cape of Stranglethorn
@@ -1104,6 +1105,13 @@ local BURIED_SATCHELS = {
         map = dbt, -- Dragonblight
         parentMapID = 113, -- Northrend
         quest = 77302
+    },
+    [15] = {
+        coordinates = 68797338,
+        location = L['bs_wpl_location'],
+        map = wpl, -- Western Plaguelands
+        parentMapID = 13, -- Eastern Kingdoms
+        quest = 78207
     }
 }
 
@@ -1140,6 +1148,14 @@ function BuriedSatchelList.getters:note()
     return note
 end
 
+function BuriedSatchelList.getters:quest()
+    local questIDs = {}
+    for i, satchel in ipairs(BURIED_SATCHELS) do
+        table.insert(questIDs, satchel.quest)
+    end
+    return questIDs
+end
+
 val.nodes[87002100] = BuriedSatchelList()
 
 ---------------------------- BURIED SATCHEL NODES -----------------------------
@@ -1158,7 +1174,7 @@ for num, satchel in ipairs(BURIED_SATCHELS) do
         satchel.map.nodes[satchel.coordinates] = BuriedSatchel({
             location = satchel.location,
             quest = satchel.quest,
-            rlabel = Gray(format('(%s/15)', num)),
+            rlabel = Gray(format('(%d/15)', num)),
             requires = satchel.requires or nil,
             pois = satchel.pois or nil
         })
