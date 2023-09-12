@@ -868,6 +868,21 @@ kar.nodes[33265118] = AncientTome({
 
 -- 77916, -- ![They Are Always Listening]
 
+val.nodes[47964686] = SecretsOfAzeroth({
+    label = '{npc:207696}',
+    note = L['soa_13_bobby_note'],
+    rlabel = Gray(L['soa_13_rlabel']),
+    quest = {
+        77928, -- ![They Are Always Listening]
+        77916 -- Hidden, triggerd after turning in 77928
+    },
+    questAny = true, -- TODO: remove if 77928 is fixed
+    questDeps = 77579, -- Clue 12 complete
+    rewards = {
+        Achievement({id = 18646, criteria = 13}) -- Whodunnit?
+    }
+}) -- Bobby Carlisle
+
 val.nodes[44186035] = SecretsOfAzeroth({
     label = L['soa_13_great_place_a_label'],
     note = L['soa_13_great_place_a_note'],
@@ -936,7 +951,7 @@ local MJJ_PARTS = {
     [2] = {
         coordinates = 49982594,
         item = 209781, -- Second Booster Part
-        map = fel,
+        map = fel, -- Felwood
         note = L['soa_mjj_part2_note'],
         parentMapID = 12 -- Kalimdor
     },

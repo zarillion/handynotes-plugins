@@ -863,7 +863,7 @@ L['soa_03_gryffin_note_a'] = 'Sprich mit {npc:197781}, um {item:207813} zu erhal
 L['soa_03_gryffin_note_b'] = 'Plündere 1x {item:207812} von {npc:191451} beim {location:Rand der Kaskade} in {location:Valdrakken}.'
 L['soa_03_shakey_note_a'] = 'Sprich mit {npc:198586}, um {item:207816} zu erhalten.'
 L['soa_03_shakey_note_b'] = 'Begleiche {npc:198586}s Deckel von %s im {location:Der Drachenhort} in {location:Valdrakken}.'
-L['soa_03_shakey_note_c'] = 'Zeige der {object:Seltsame Statue} im hinteren Teil des Gasthauses {location:Zum Gerösteten Geißbock} Respekt, indem du sie anvisierst und dich verbeugst {emote:(/verbeugen)}, um in {location:Der Drachenhort} zu gelangen.'
+L['soa_03_shakey_note_c'] = 'Zeige der {npc:189827} im hinteren Teil des Gasthauses {location:Zum Gerösteten Geißbock} Respekt, indem du sie anvisierst und dich verbeugst {emote:(/verbeugen)}, um in {location:Der Drachenhort} zu gelangen.'
 
 -- Secrets of Azeroth: Clue 4
 L['soa_04_rlabel'] = '(Hinweis 4)'
@@ -940,19 +940,20 @@ L['soa_12_bobby_note'] = 'Sprich mit {npc:207696}, um die {item:208888} zu erhal
 L['soa_12_ancient_tome_note'] = 'Suche nach Büchern mit deiner {item:207730} bis du {item:208889} findest, bringe es zu {npc:207696} in {location:Valdrakken} zurück.'
 
 -- Secrets of Azeroth: Clue 13
-L['soa_13_rlabel'] = nil
-L['soa_13_great_place_a_label'] = nil
-L['soa_13_great_place_a_note'] = nil
-L['soa_13_great_place_b_label'] = nil
-L['soa_13_great_place_b_note'] = nil
-L['soa_13_great_place_c_label'] = nil
-L['soa_13_great_place_c_note'] = nil
-L['soa_13_great_place_d_label'] = nil
-L['soa_13_great_place_d_note'] = nil
-L['soa_13_great_place_e_label'] = nil
-L['soa_13_great_place_e_note'] = nil
-L['soa_13_great_place_f_label'] = nil
-L['soa_13_great_place_f_note'] = nil
+L['soa_13_rlabel'] = '(Hinweis 13)'
+L['soa_13_bobby_note'] = 'Sprich mit {npc:207696}, um die Quest {quest:77928} zu starten.'
+L['soa_13_great_place_a_label'] = 'Verkaufszertifikat des Auktionshauses'
+L['soa_13_great_place_a_note'] = 'Auf einem Stapel von Kisten im {location:Auktionshaus}.'
+L['soa_13_great_place_b_label'] = 'Leerenlagerquittung'
+L['soa_13_great_place_b_note'] = 'In einem kleinen Gebäude auf einer Kiste.'
+L['soa_13_great_place_c_label'] = 'Gartenvorrätequittung'
+L['soa_13_great_place_c_note'] = 'In einem kleinen Gebäude mit {npc:197035}.'
+L['soa_13_great_place_d_label'] = 'Forschungsnotiz'
+L['soa_13_great_place_d_note'] = 'In einem kleinen Gebäude, direkt neben dem Eingang auf ein paar Büchern.'
+L['soa_13_great_place_e_label'] = 'Hastig geschriebene Notiz'
+L['soa_13_great_place_e_note'] = 'Hinter dem Händlerstand.'
+L['soa_13_great_place_f_label'] = 'Notiz an Kritha'
+L['soa_13_great_place_f_note'] = 'Auf einer Kiste in {location:Der Drachenhort}.\n\nDu musst dich vor {npc:189827} verbeugen {emote:(/verbeugen)}, um in {location:Der Drachenhort} zu gelangen.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
@@ -967,19 +968,19 @@ L['bs_vfw_location'] = 'Am Anfang des Wasserfalls im Mund der {npc:129151} Statu
 L['bs_tas_location'] = 'Benutze deine {item:208092}, um den {npc:96438} zu schmelzen und den {object:Lockerer Erdhaufen} freizulegen.'
 L['bs_dbt_location'] = 'Unter der großen Skelettklaue im {location:%s}.'
 L['bs_bar_location'] = 'Auf dem Gipfel des Berges.'
-L['bs_nag_location'] = nil
-L['bs_gri_location'] = nil
-L['bs_hmt_location'] = nil
-L['bs_wpl_location'] = nil
+L['bs_nag_location'] = 'Auf einer kleinen schwebenden Insel für dem {location:Himmelsweisensee}.'
+L['bs_gri_location'] = 'Sprich mit {npc:%s}, um eine Baumstammfahrt vom {location:Holzfällerposten Blauhimmel} zur {location:Venturebucht} zu starten. Sobald die Fahrt beginnt, erhältst du den Stärkungszauber {spell:423942}.\n\n{note:Du musst den Stärkungszauber {spell:423942} haben, um den Erdhaufen sehen zu können.}'
+L['bs_hmt_location'] = 'Ganz oben bei {location:Die Hochbergspitze} neben {object:Verwittertes Pergament}.'
+L['bs_wpl_location'] = 'Zwischen dem Wagen und der kleinen Hütte in {location:Darrowehr}.'
 
 L['bs_emerald_dragonshrine'] = 'Smaragddrachenschrein'
-L['bs_bronze_dragonshrine'] = nil
+L['bs_bronze_dragonshrine'] = 'Bronzedrachenschrein'
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Position der {location:Geheimnisse von Azeroth} für den Erfolg {achievement:18646} an.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = nil
+L['soa_mjj_list_note'] = 'Sammle alle der folgenden Teile und füge diese bei {object:Mächtige arkane Schmiede} zusammen, um das Reittier {item:210022} zu erhalten:'
 L['soa_mjj_part1_note'] = 'Drei Spieler müssen ihre {item:208092} auf die Kohlepfannen wirken, um den {npc:210398} zu beschwören. Er lässt {item:208984} fallen.'
 L['soa_mjj_part2_note'] = [[{note:Für dieses Teil brauchst du mindestens 4 weitere Mitspieler.}
 

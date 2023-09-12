@@ -937,6 +937,7 @@ L['soa_12_ancient_tome_note'] = 'Cherchez des ouvrages avec votre {item:207730} 
 
 -- Secrets of Azeroth: Clue 13
 L['soa_13_rlabel'] = nil
+L['soa_13_bobby_note'] = nil
 L['soa_13_great_place_a_label'] = nil
 L['soa_13_great_place_a_note'] = nil
 L['soa_13_great_place_b_label'] = nil

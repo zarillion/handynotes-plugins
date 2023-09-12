@@ -939,6 +939,7 @@ L['soa_12_ancient_tome_note'] = 'Search for tomes with your {item:207730} until 
 
 -- Secrets of Azeroth: Clue 13
 L['soa_13_rlabel'] = '(Clue 13)'
+L['soa_13_bobby_note'] = 'Talk to {npc:207696} to start the quest {quest:77928}.'
 L['soa_13_great_place_a_label'] = 'Auction House Bill of Sale'
 L['soa_13_great_place_a_note'] = 'On a stack of boxes inside the entrance to the {location:Auction House}.'
 L['soa_13_great_place_b_label'] = 'Void Storage Receipt'
@@ -949,7 +950,7 @@ L['soa_13_great_place_d_label'] = 'Researcher\'s Note'
 L['soa_13_great_place_d_note'] = 'Inside a small building near some books.'
 L['soa_13_great_place_e_label'] = 'Hastily Scrawled Note'
 L['soa_13_great_place_e_note'] = 'Behind the vendor stand in {location:The Artisan\'s Market}.'
-L['soa_13_great_place_f_label'] = 'Note to Kirtha'
+L['soa_13_great_place_f_label'] = 'Note to Kritha'
 L['soa_13_great_place_f_note'] = 'On a crate inside {location:The Dragon\'s Hoard}.\n\nYou need to {emote:/bow} to the {npc:189827} in {location:The Roasted Ram} to enter the secret bar.'
 
 -- Community Rumor Mill
