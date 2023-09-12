@@ -1122,19 +1122,19 @@ local BURIED_SATCHELS = {
         parentMapID = 113, -- Northrend
         quest = 77302
     },
-    [15] = { -- This satchel has not (yet) been officially announced by Blizzard.
-        coordinates = 68797338,
-        location = L['bs_wpl_location'],
-        map = wpl, -- Western Plaguelands
-        parentMapID = 13, -- Eastern Kingdoms
-        quest = 78207
-    },
-    [16] = {
+    [15] = {
         coordinates = 38715496,
         location = L['bs_tli_location'],
         map = tli, -- Timeless Isle
         parentMapID = 424, -- Pandaria
         quest = 77301
+    },
+    [16] = { -- This satchel has not (yet) been officially announced by Blizzard.
+        coordinates = 68797338,
+        location = L['bs_wpl_location'],
+        map = wpl, -- Western Plaguelands
+        parentMapID = 13, -- Eastern Kingdoms
+        quest = 78207
     }
 }
 
