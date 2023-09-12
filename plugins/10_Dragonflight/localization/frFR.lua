@@ -936,20 +936,20 @@ L['soa_12_bobby_note'] = 'Parlez avec {npc:207696} pour recevoir la {item:208888
 L['soa_12_ancient_tome_note'] = 'Cherchez des ouvrages avec votre {item:207730} jusqu\'à ce que vous trouviez {item:208889} et ramenez-le à {npc:207696} à {location:Valdrakken}.'
 
 -- Secrets of Azeroth: Clue 13
-L['soa_13_rlabel'] = nil
-L['soa_13_bobby_note'] = nil
-L['soa_13_great_place_a_label'] = nil
-L['soa_13_great_place_a_note'] = nil
-L['soa_13_great_place_b_label'] = nil
-L['soa_13_great_place_b_note'] = nil
-L['soa_13_great_place_c_label'] = nil
-L['soa_13_great_place_c_note'] = nil
-L['soa_13_great_place_d_label'] = nil
-L['soa_13_great_place_d_note'] = nil
-L['soa_13_great_place_e_label'] = nil
-L['soa_13_great_place_e_note'] = nil
-L['soa_13_great_place_f_label'] = nil
-L['soa_13_great_place_f_note'] = nil
+L['soa_13_rlabel'] = '(Indice n°13)'
+L['soa_13_bobby_note'] = 'Parlez à {npc:207696} pour commencer la quête {quest:77928}.'
+L['soa_13_great_place_a_label'] = 'Acte de vente de l\'hôtel des ventes'
+L['soa_13_great_place_a_note'] = 'Sur un tas de caisses situé dans l\'entrée de {location:Hôtel des ventes}.'
+L['soa_13_great_place_b_label'] = 'Récépissé de la chambre du Vide'
+L['soa_13_great_place_b_note'] = 'Sur une caisse dans le bâtiment du Transmogrifieur et de la Chambre du Vide.'
+L['soa_13_great_place_c_label'] = 'Récépissé de matériel de jardinage'
+L['soa_13_great_place_c_note'] = 'Dans un petit bâtiment où deux {npc:197035} se disputent.'
+L['soa_13_great_place_d_label'] = 'Note de chercheur'
+L['soa_13_great_place_d_note'] = 'A l\'intérieur d\'un petit bâtiment, posée sur des livres.'
+L['soa_13_great_place_e_label'] = 'Note griffonnée à la hâte'
+L['soa_13_great_place_e_note'] = 'Derrière le présentoir du vendeur au {location:Marché d\'artisanat}.'
+L['soa_13_great_place_f_label'] = 'Note à Kritha'
+L['soa_13_great_place_f_note'] = 'Sur une caisse à l\'intérieur du {location:Trésor du Dragon}.\n\nVous devez utiliser l\'emote {emote:/bow} devant l\'{npc:189827} au {location:Bélier rôti} pour entrer dans le bar secret.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
@@ -964,14 +964,14 @@ L['bs_vfw_location'] = 'Au sommet de la cascade dorée, dans la bouche de la sta
 L['bs_tas_location'] = 'Utilisez la {item:208135} pour faire fondre le {npc:96438} et révéler le {object:Monticule de terre meuble}.'
 L['bs_dbt_location'] = 'Sous la grande griffe de squelette au {location:%s}.'
 L['bs_bar_location'] = 'Au sommet de la montagne.'
-L['bs_nag_location'] = nil
-L['bs_gri_location'] = nil
-L['bs_hmt_location'] = nil
-L['bs_wpl_location'] = nil
-L['bs_tli_location'] = nil
+L['bs_nag_location'] = 'Sur une île flottante surplombant le {location:Lac Chanteciel}.'
+L['bs_gri_location'] = 'Parlez à {npc:%s} pour faire une course de rondins entre le {location:Chantier d\'abattage du Ciel bleu} jusqu\'à la {location:Baie de la KapitalRisk}. Une fois la course commencée, vous recevrez le buff {spell:423942}.\n\n{note:Vous devez avoir le buff {spell:423942} pour voir la sacoche.}'
+L['bs_hmt_location'] = 'Au sommet de la {location:Culmination de Haut-Roc}, près du {object:Parchemin abîmé}.'
+L['bs_wpl_location'] = 'Entre le chariot et le donjon à {location:Caer Darrow}.'
+L['bs_tli_location'] = 'Sur le sol, au centre de l\'arène.'
 
-L['bs_emerald_dragonshrine'] = 'Sanctuaire draconique Émeraud'
-L['bs_bronze_dragonshrine'] = nil
+L['bs_emerald_dragonshrine'] = 'Sanctuaire draconique Émeraude'
+L['bs_bronze_dragonshrine'] = 'Sanctuaire draconique Bronze'
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'
