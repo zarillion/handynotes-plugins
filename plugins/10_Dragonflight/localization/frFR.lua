@@ -968,6 +968,7 @@ L['bs_nag_location'] = nil
 L['bs_gri_location'] = nil
 L['bs_hmt_location'] = nil
 L['bs_wpl_location'] = nil
+L['bs_tli_location'] = nil
 
 L['bs_emerald_dragonshrine'] = 'Sanctuaire draconique Émeraud'
 L['bs_bronze_dragonshrine'] = nil

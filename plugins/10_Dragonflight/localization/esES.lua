@@ -971,6 +971,7 @@ L['bs_nag_location'] = 'En una isla flotante muy por encima del {location:Lago S
 L['bs_gri_location'] = 'Habla con {npc:%s} para dar un paseo en tronco desde el {location:Aserradero Cielo Azul} hasta {location:Bahía Ventura}. Cuando comiences el paseo recibirás el buff {spell:423942}.\n\n{note:Tienes que tener el buff {spell:423942} para poder ver la bolsa.}'
 L['bs_hmt_location'] = 'Encima del {location:Pico de Monte Alto} cerca del {object:Papiro Deteriorado}.'
 L['bs_wpl_location'] = 'Entre el carro y el torreón de {location:Castel Darrow}.'
+L['bs_tli_location'] = nil
 
 L['bs_emerald_dragonshrine'] = 'Santuario de Dragones Esmeralda'
 L['bs_bronze_dragonshrine'] = 'Santuario de Dragones Bronce'

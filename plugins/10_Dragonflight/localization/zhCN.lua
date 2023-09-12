@@ -970,6 +970,7 @@ L['bs_nag_location'] = '在 {location:%s} 上方的一座浮岛上。'
 L['bs_gri_location'] = '与 {npc:%s} 交谈，乘坐圆木从 {location:蓝天伐木场} 前往 {location:风险湾}。开始骑行后，将获得 {spell:423942} 增益。\n\n{note:必须拥有 {spell:423942} 增益才能看到小包。}'
 L['bs_hmt_location'] = '在 {object:老化的羊皮纸} 附近的 {location:高岭之巅} 顶部。'
 L['bs_wpl_location'] = nil
+L['bs_tli_location'] = nil
 
 L['bs_emerald_dragonshrine'] = '翡翠巨龙圣地'
 L['bs_bronze_dragonshrine'] = nil

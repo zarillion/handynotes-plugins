@@ -972,6 +972,7 @@ L['bs_nag_location'] = 'Auf einer kleinen schwebenden Insel für dem {location:H
 L['bs_gri_location'] = 'Sprich mit {npc:%s}, um eine Baumstammfahrt vom {location:Holzfällerposten Blauhimmel} zur {location:Venturebucht} zu starten. Sobald die Fahrt beginnt, erhältst du den Stärkungszauber {spell:423942}.\n\n{note:Du musst den Stärkungszauber {spell:423942} haben, um den Erdhaufen sehen zu können.}'
 L['bs_hmt_location'] = 'Ganz oben bei {location:Die Hochbergspitze} neben {object:Verwittertes Pergament}.'
 L['bs_wpl_location'] = 'Zwischen dem Wagen und der kleinen Hütte in {location:Darrowehr}.'
+L['bs_tli_location'] = 'Auf dem Boden, in der mitte der Arena.'
 
 L['bs_emerald_dragonshrine'] = 'Smaragddrachenschrein'
 L['bs_bronze_dragonshrine'] = 'Bronzedrachenschrein'

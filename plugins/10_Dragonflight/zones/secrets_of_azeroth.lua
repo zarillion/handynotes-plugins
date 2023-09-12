@@ -42,6 +42,7 @@ local nag = ns.maps[107] or Map({id = 107, settings = true}) -- Nagrand (Outland
 local net = ns.maps[109] or Map({id = 109, settings = true}) -- Netherstorm
 local smv = ns.maps[539] or Map({id = 539, settings = true}) -- Shadowmoon Valley (Draenor)
 local tho = ns.maps[64] or Map({id = 64, settings = true}) -- Thousand Needles
+local tli = ns.maps[554] or Map({id = 554, settings = true}) -- Timeless Isle
 local vfw = ns.maps[376] or Map({id = 376, settings = true}) -- Valley of the Four Winds
 local wpl = ns.maps[22] or Map({id = 22, settings = true}) -- Western Plaguelands
 
@@ -1121,12 +1122,19 @@ local BURIED_SATCHELS = {
         parentMapID = 113, -- Northrend
         quest = 77302
     },
-    [15] = {
+    [15] = { -- This satchel has not (yet) been officially announced by Blizzard.
         coordinates = 68797338,
         location = L['bs_wpl_location'],
         map = wpl, -- Western Plaguelands
         parentMapID = 13, -- Eastern Kingdoms
         quest = 78207
+    },
+    [16] = {
+        coordinates = 38715496,
+        location = L['bs_tli_location'],
+        map = tli, -- Timeless Isle
+        parentMapID = 424, -- Pandaria
+        quest = 77301
     }
 }
 
@@ -1137,7 +1145,7 @@ local BuriedSatchelList = Class('BuriedSatchelList', SecretsOfAzeroth, {
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     icon = 'peg_rd',
     sublabel = L['buried_satchel_sublabel'],
-    rlabel = Gray('(15/15)'),
+    rlabel = Gray('(16/16)'),
     rewards = {
         Achievement({id = 18644, criteria = {qty = true, id = 1}}), -- Community Rumor Mill
         Pet({npc = 208643, id = 4263}) -- Tobias
@@ -1189,7 +1197,7 @@ for num, satchel in ipairs(BURIED_SATCHELS) do
         satchel.map.nodes[satchel.coordinates] = BuriedSatchel({
             location = satchel.location,
             quest = satchel.quest,
-            rlabel = Gray(format('(%d/15)', num)),
+            rlabel = Gray(format('(%d/16)', num)),
             requires = satchel.requires or nil,
             pois = satchel.pois or nil
         })
@@ -1202,7 +1210,7 @@ gri.nodes[GH_A.coordinates] = BuriedSatchel({
     location = format(L['bs_gri_location'], GH_A.npc),
     pois = GH_A.pois,
     quest = BURIED_SATCHELS[12].quest,
-    rlabel = Gray('(12/15)')
+    rlabel = Gray('(12/16)')
 }) -- Grizzly Hills Satchel (Alliance)
 
 local GH_H = BURIED_SATCHELS[12].factionData.horde
@@ -1211,5 +1219,5 @@ gri.nodes[GH_H.coordinates] = BuriedSatchel({
     location = format(L['bs_gri_location'], GH_H.npc),
     pois = GH_H.pois,
     quest = BURIED_SATCHELS[12].quest,
-    rlabel = Gray('(12/15)')
+    rlabel = Gray('(12/16)')
 }) -- Grizzly Hills Satchel (Horde)
