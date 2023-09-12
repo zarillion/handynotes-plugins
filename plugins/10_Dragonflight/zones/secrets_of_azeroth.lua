@@ -1150,7 +1150,7 @@ end
 
 function BuriedSatchelList.getters:quest()
     local questIDs = {}
-    for i, satchel in ipairs(BURIED_SATCHELS) do
+    for _, satchel in ipairs(BURIED_SATCHELS) do
         table.insert(questIDs, satchel.quest)
     end
     return questIDs
