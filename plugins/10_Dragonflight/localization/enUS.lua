@@ -950,6 +950,9 @@ L['bs_vfw_location'] = 'At the top of the golden waterfall within the mouth of t
 L['bs_tas_location'] = 'Use the {item:208135} to melt the {npc:96438} and reveal the {object:Loose Dirt Mound}.'
 L['bs_dbt_location'] = 'Under the large skeleton claw in the {location:Emerald Dragonshrine}.'
 L['bs_bar_location'] = 'On top of the mountain.'
+L['bs_nag_location'] = 'On a floating island high above {location:Skysong Lake}.'
+L['bs_gri_location'] = 'Speak to {npc:%s} to take a log ride from {location:Blue Sky Logging Grounds} to {location:Venture Bay}. Once you start the ride you will recieve the {spell:423942} buff.\n\n{note:You must have the {spell:423942} buff in order to see the satchel.}'
+L['bs_hmt_location'] = 'Atop {location:Highmountain Peak} near the {object:Weathered Parchment}.'
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Display clue locations for {location:Secrets of Azeroth}.'

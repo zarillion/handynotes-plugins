@@ -951,6 +951,9 @@ L['bs_vfw_location'] = 'En la cima de la cascada dorada y dentro de la boca la e
 L['bs_tas_location'] = 'Usa la {item:208135} para derretir el {npc:96438} y hacer aparecer el {object:Montículo de Porquería Blanda}.'
 L['bs_dbt_location'] = 'Debajo de la gran garra esquelética del {location:Santuario de Dragones Esmeralda}.'
 L['bs_bar_location'] = 'En la cima de la montaña.'
+L['bs_nag_location'] = nil
+L['bs_gri_location'] = nil
+L['bs_hmt_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'

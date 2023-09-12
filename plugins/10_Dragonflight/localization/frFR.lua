@@ -948,6 +948,9 @@ L['bs_vfw_location'] = 'Au sommet de la cascade dorée, dans la bouche de la sta
 L['bs_tas_location'] = 'Utilisez la {item:208135} pour faire fondre le {npc:96438} et révéler le {object:Monticule de terre meuble}.'
 L['bs_dbt_location'] = 'Sous la grande griffe de squelette au {location:Sanctuaire draconique Émeraude}.'
 L['bs_bar_location'] = 'Au sommet de la montagne.'
+L['bs_nag_location'] = nil
+L['bs_gri_location'] = nil
+L['bs_hmt_location'] = nil
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'
