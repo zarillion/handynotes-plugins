@@ -1035,7 +1035,7 @@ local BURIED_SATCHELS = {
         coordinates = 35314895,
         location = L['bs_smv_location'],
         map = smv, -- Shadowmoon Valley
-        parentMapID = 1922, -- Draenor
+        parentMapID = 572, -- Draenor
         quest = 77292
     },
     [5] = {
@@ -1199,7 +1199,8 @@ for num, satchel in ipairs(BURIED_SATCHELS) do
             quest = satchel.quest,
             rlabel = Gray(format('(%d/16)', num)),
             requires = satchel.requires or nil,
-            pois = satchel.pois or nil
+            pois = satchel.pois or nil,
+            parent = {id = satchel.parentMapID}
         })
     end
 end
@@ -1210,7 +1211,8 @@ gri.nodes[GH_A.coordinates] = BuriedSatchel({
     location = format(L['bs_gri_location'], GH_A.npc),
     pois = GH_A.pois,
     quest = BURIED_SATCHELS[12].quest,
-    rlabel = Gray('(12/16)')
+    rlabel = Gray('(12/16)'),
+    parent = BURIED_SATCHELS[12].parentMapID
 }) -- Grizzly Hills Satchel (Alliance)
 
 local GH_H = BURIED_SATCHELS[12].factionData.horde
@@ -1219,5 +1221,6 @@ gri.nodes[GH_H.coordinates] = BuriedSatchel({
     location = format(L['bs_gri_location'], GH_H.npc),
     pois = GH_H.pois,
     quest = BURIED_SATCHELS[12].quest,
-    rlabel = Gray('(12/16)')
+    rlabel = Gray('(12/16)'),
+    parent = BURIED_SATCHELS[12].parentMapID
 }) -- Grizzly Hills Satchel (Horde)
