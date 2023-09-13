@@ -527,11 +527,11 @@ EmeraldDream.nodes[35165522] = Dragonrace({
     rewards = EmeraldDream_Rewards(3)
 }) -- Viridescent Venture
 
-EmeraldDream.nodes[69625262] = Dragonrace({ -- REVIEW
+EmeraldDream.nodes[69625262] = Dragonrace({
     label = '{quest:78016}',
-    normal = {2679, 0, 0}, -- NOT POSSIBLE
-    advanced = {2685, 0, 0}, -- NOT POSSIBLE
-    reverse = {2691, 0, 0}, -- NOT POSSIBLE
+    normal = {2679, 78, 73},
+    advanced = {2685, 72, 69},
+    reverse = {2691, 75, 72},
     rewards = EmeraldDream_Rewards(4)
 }) -- Shoreline Switchback
 

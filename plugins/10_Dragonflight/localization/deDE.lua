@@ -838,9 +838,9 @@ L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse 
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
-L['reefbreaker_moruud_note'] = nil
+L['reefbreaker_moruud_note'] = 'Befestige alle 6x {npc:210089e} an ihm, um ihn angreifen zu können.'
 
-L['in_a_tree'] = nil
+L['in_a_tree'] = 'Oben im Baum.'
 
 L['hidden_moonkin_stash_label'] = nil
 
@@ -849,19 +849,23 @@ L['odd_burl_note'] = 'Oben auf dem Baum.'
 L['pineshrew_cache_note'] = 'Neben ein paar Felsen.'
 L['reliquary_of_ashamane_note'] = '{note:Wenn die Weltquest {wq:Dryad Fire Drill} aktive ist, muss diese zuerst abgeschlossen werden, bevor du die Statue sehen kannst.}\n\nFinde ein {object:Mal von Ashamane} {dot:Green} in der Nähe, um den Stärkungszauber {spell:425426} zu erhalten. Begib dich damit zu {npc:212009}.' -- review wq
 L['reliquary_of_aviana_note'] = 'Finde ein {object:Mal von Aviana} in der Nähe, um den Stärkungszauber {spell:425432} zu erhalten. Begib dich damit zu {npc:212011}.'
-L['reliquary_of_goldrinn_note'] = 'Finde ein {object:Mal von Goldrinn} in der Nähe, um den Stärkungszauber {spell:425408} zu erhalten. Begib dich damit zu {npc:212012}.'
+L['reliquary_of_goldrinn_note'] = 'Finde ein {object:Mal von Goldrinn} {dot:Green} in der Nähe, um den Stärkungszauber {spell:425408} zu erhalten. Begib dich damit zu {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Finde ein {object:Mal von Ursol} in der Nähe, um den Stärkungszauber {spell:423306} zu erhalten. Begib dich damit zu {npc:210732}.'
 
 L['unwaking_echo_label'] = nil -- review not yet translated
 L['unwaking_echo_note'] = '{note:You can only open this chest in your dreams.}\n\nLeg dich neben der Kiste schlafen {emote:(/schlafen)}, um diese öffnen zu können.' -- review not yet translated
 
+L["amirdrassil_defenders_shield_note"] = 'Auf dem Tisch neben {npc:211328}.'
+L["dreamtalon_claw_note"] = 'Unten am Stamm des Baumes.'
 L['experimental_dreamcatcher_note'] = nil
+L["grove_keepers_pillar_note"] = 'Vor dem Eingang der Höhle.'
 L['handful_of_pebbles_note'] = 'An der rechten Schulter der Statue.'
+L['molted_faerie_dragon_scales_note'] = 'Auf dem Boden in einigen Blumen.'
 L['petrified_hope_note'] = 'Oben im Baumstumpf.'
 
-L['dreamseed_soil_label'] = nil
+L['dreamseed_soil_label'] = '{npc:210723}' -- Traumsaaterde
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
-L['options_icons_dream_of_seeds_desc'] = nil
+L['options_icons_dream_of_seeds_desc'] = 'Zeigt die Positionen der {npc:210723} für den Erfolg {achievement:19013} an.'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
-L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der moonkin hatchling für den Erfolg {achievement:19293} an.'
+L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinküken für den Erfolg {achievement:19293} an.'

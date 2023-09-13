@@ -227,13 +227,20 @@ map.nodes[88004200] = Rare({ -- REVIEW
     }
 }) -- Surging Lasher
 
-map.nodes[35132264] = Rare({
+local Talthonei = Class('Hatchling', Rare {
     id = 209902,
     quest = 77994,
+    fgroup = 'talthonei',
     rewards = {
-        Achievement({id = 19316, criteria = 62934}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62934}), -- Adventurer of the Emerald Dream
+        Transmog({item = 208374, slot = L['staff']}) -- Talthornei's Wrath
     }
 }) -- Talthonei Ashwisper
+
+map.nodes[35132264] = Talthonei()
+map.nodes[36922240] = Talthonei()
+map.nodes[63877009] = Talthonei()
+map.nodes[64446660] = Talthonei()
 
 map.nodes[26022656] = Rare({
     id = 209911,
@@ -302,7 +309,7 @@ map.nodes[61625960] = Treasure({
     }
 }) -- Magical Bloom
 
-map.nodes[61406320] = Treasure({
+map.nodes[55275726] = Treasure({ -- moved from 61406320 ?
     quest = 78006,
     note = L['odd_burl_note'],
     rewards = {
@@ -434,18 +441,20 @@ map.nodes[92004800] = PT.Enchanting({ -- REVIEW
 
 map.nodes[55642751] = PT.Inscription({id = 210458, quest = 78411}) -- Winnie's Notes on Flora and Fauna
 
-map.nodes[86004800] = PT.Inscription({ -- REVIEW
+map.nodes[63507151] = PT.Inscription({
     id = 210459,
-    quest = nil
+    quest = 78412,
+    note = L['grove_keepers_pillar_note']
 }) -- Grove Keeper's Pillar
 
 map.nodes[36044664] = PT.Inscription({id = 210460, quest = 78413}) -- Primalist Shadowbinding Rune
 
 map.nodes[37262292] = PT.Blacksmithing({id = 210466, quest = 78419}) -- Flamesworn Render
 
-map.nodes[90004800] = PT.Blacksmithing({ -- REVIEW
+map.nodes[49836299] = PT.Blacksmithing({
     id = 210464,
-    quest = nil
+    quest = 78417,
+    note = L['amirdrassil_defenders_shield_note']
 }) -- Amirdrassil Defender's Shield
 
 map.nodes[36344680] = PT.Blacksmithing({id = 210465, quest = 78418}) -- Deathstalker Chasis
@@ -469,9 +478,10 @@ map.nodes[86005000] = PT.Engineering({ -- REVIEW
     quest = nil
 }) -- Depleted Battery
 
-map.nodes[88005000] = PT.Tailoring({ -- REVIEW
+map.nodes[53272791] = PT.Tailoring({
     id = 210461,
-    quest = nil
+    quest = 78414
+    -- Inside the building behind a chair.
 }) -- Exceedingly Soft Wildercloth
 
 map.nodes[90005000] = PT.Tailoring({ -- REVIEW
@@ -479,9 +489,10 @@ map.nodes[90005000] = PT.Tailoring({ -- REVIEW
     quest = nil
 }) -- Plush Pillow
 
-map.nodes[92005000] = PT.Tailoring({ -- REVIEW
+map.nodes[40708615] = PT.Tailoring({
     id = 210463,
-    quest = nil
+    quest = 78416
+    -- inside a small boat.
 }) -- Snuggle Buddy
 
 map.nodes[33204656] = PT.Jewelcrafting({
@@ -498,19 +509,18 @@ map.nodes[43513336] = PT.Jewelcrafting({
 
 map.nodes[58945389] = PT.Jewelcrafting({id = 210202, quest = 78285}) -- Coalesced Dreamstone
 
-map.nodes[84005200] = PT.Leatherworking({ -- REVIEW
-    id = 210208,
-    quest = nil
-}) -- Tuft of Dreamsaber Fur
+map.nodes[41766650] = PT.Leatherworking({id = 210208, quest = 78298}) -- Tuft of Dreamsaber Fur
 
-map.nodes[86005200] = PT.Leatherworking({ -- REVIEW
+map.nodes[37467101] = PT.Leatherworking({
     id = 210211,
-    quest = nil
+    quest = 78299,
+    note = L['molted_faerie_dragon_scales_note']
 }) -- Molted Faerie Dragon Scales
 
-map.nodes[88005200] = PT.Leatherworking({ -- REVIEW
+map.nodes[33992968] = PT.Leatherworking({
     id = 210215,
-    quest = nil
+    quest = 78305,
+    note = L['dreamtalon_claw_note']
 }) -- Dreamtalon Claw
 
 -------------------------------------------------------------------------------
@@ -669,9 +679,20 @@ function EmeraldBounty.getters:rewards()
     return rewards
 end
 
+map.nodes[38455920] = EmeraldBounty()
+map.nodes[40025268] = EmeraldBounty()
+map.nodes[40744348] = EmeraldBounty()
+map.nodes[46384049] = EmeraldBounty()
+map.nodes[48738045] = EmeraldBounty()
+map.nodes[49174806] = EmeraldBounty()
+map.nodes[51145866] = EmeraldBounty()
+map.nodes[54596763] = EmeraldBounty()
+map.nodes[56513767] = EmeraldBounty()
+map.nodes[63504710] = EmeraldBounty()
+-- map.nodes[] = EmeraldBounty() -- missing
 map.nodes[56654487] = EmeraldBounty({criteriaID = 62039}) -- Lofty Lupin
 map.nodes[40672478] = EmeraldBounty({criteriaID = 62027}) -- Lavatouched Lilies
-map.nodes[42537419] = EmeraldBounty()
+map.nodes[42647405] = EmeraldBounty()
 map.nodes[49903543] = EmeraldBounty({criteriaID = 62041}) -- Belligerent Begonias
 map.nodes[59235875] = EmeraldBounty({criteriaID = 62028}) -- Ysera's Clover
 map.nodes[63025282] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling

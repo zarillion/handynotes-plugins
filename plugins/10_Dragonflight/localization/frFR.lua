@@ -852,8 +852,12 @@ L['reliquary_of_ursol_note'] = 'Trouvez une {object:Marque d\'Ursol} à proximit
 L['unwaking_echo_label'] = nil -- review NYT
 L['unwaking_echo_note'] = '{note:Vous ne pouvez ouvrir ce coffre que dans vos rêves.}\n\nEndormez-vous avec l\'emote {emote:/sleep} à côté du coffre pour l\'ouvrir.'
 
+L["amirdrassil_defenders_shield_note"] = nil
+L["dreamtalon_claw_note"] = nil
 L['experimental_dreamcatcher_note'] = nil
+L["grove_keepers_pillar_note"] = nil
 L['handful_of_pebbles_note'] = 'Sur l\'épaule droite de la statue.'
+L['molted_faerie_dragon_scales_note'] = nil
 L['petrified_hope_note'] = 'Dans la souche d\'arbre.'
 
 L['dreamseed_soil_label'] = 'Sol pour graine onirique'
