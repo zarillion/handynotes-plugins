@@ -952,10 +952,10 @@ L['soa_13_great_place_f_label'] = 'Note à Kritha'
 L['soa_13_great_place_f_note'] = 'Sur une caisse à l\'intérieur du {location:Trésor du Dragon}.\n\nVous devez utiliser l\'emote {emote:/bow} devant l\'{npc:189827} au {location:Bélier rôti} pour entrer dans le bar secret.'
 
 -- Secrets of Azeroth: Clue 14
-L['soa_14_rlabel'] = nil
-L['soa_14_buried_object_label'] = nil
-L['soa_14_tablet_label'] = nil
-L['soa_14_tablet_note'] = nil
+L['soa_14_rlabel'] = '(Indice n°14)'
+L['soa_14_buried_object_label'] = 'Objet enterré (%d)'
+L['soa_14_tablet_label'] = 'Tablette gravée par les titans (%d)'
+L['soa_14_tablet_note'] = 'Utilisez la {item:208092} pour révéler la {object:Tablette gravée par les titans}. Suivez les coordonnées de la {item:206696} jusqu\'à l\'{object:Objet enterré} et déterrez l\'{item:209795}.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
