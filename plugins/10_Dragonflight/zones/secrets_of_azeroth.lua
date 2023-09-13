@@ -941,7 +941,7 @@ val.nodes[46004140] = SecretsOfAzeroth({
 -------------------------------------------------------------------------------
 
 -- 185562 Tithris
--- 77951 ![A Sphere in Danger]
+-- 77951 ![A Sphere in Danger] (77953)
 -- 208942 Preservationsist's Dispatch Three
 
 tha.nodes[50208100] = SecretsOfAzeroth({
@@ -950,7 +950,7 @@ tha.nodes[50208100] = SecretsOfAzeroth({
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     location = L['in_small_cave'],
     quest = 78108, -- hidden
-    questDeps = 77915, -- ![A Sphere in Danger]
+    questDeps = 77951, -- ![A Sphere in Danger]
     note = L['soa_14_tablet_note'],
     pois = {
         POI({49507970}), -- Buried Object
@@ -983,7 +983,7 @@ tha.nodes[46607760] = SecretsOfAzeroth({
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     location = L['in_small_cave'],
     quest = 78109, -- hidden
-    questDeps = 77915, -- ![A Sphere in Danger]
+    questDeps = 77951, -- ![A Sphere in Danger]
     note = L['soa_14_tablet_note'],
     pois = {
         POI({45907970}), -- Buried Object
@@ -1016,7 +1016,7 @@ tha.nodes[48707640] = SecretsOfAzeroth({
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     location = L['in_small_cave'],
     quest = 78111, -- hidden
-    questDeps = 77915, -- ![A Sphere in Danger]
+    questDeps = 77951, -- ![A Sphere in Danger]
     note = L['soa_14_tablet_note'],
     pois = {
         POI({50207800}), -- Buried Object
