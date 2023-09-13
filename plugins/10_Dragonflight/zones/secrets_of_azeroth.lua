@@ -944,15 +944,13 @@ val.nodes[46004140] = SecretsOfAzeroth({
 -- 77951 ![A Sphere in Danger]
 -- 208942 Preservationsist's Dispatch Three
 
-L['soa_14_buried_object_label'] = 'Buried Object'
-L['soa_14_tablet_label'] = 'Titan-Inscribed Tablet (%d)'
-L['soa_14_tablet_note'] = 'Use the {item:208092} to reveal the {object:Titan-Inscribed Tablet}. Follow the {item:206696} coordinates to the {object:Buried Object} and dig up the {item:209795}.'
-
 tha.nodes[50208100] = SecretsOfAzeroth({
     label = format(L['soa_14_tablet_label'], 1),
+    rlabel = Gray(L['soa_14_rlabel']),
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     location = L['in_small_cave'],
     quest = 78108, -- hidden
+    questDeps = 77915, -- ![A Sphere in Danger]
     note = L['soa_14_tablet_note'],
     pois = {
         POI({49507970}), -- Buried Object
@@ -961,27 +959,64 @@ tha.nodes[50208100] = SecretsOfAzeroth({
 }) -- Titan-Inscribed Tablet (1)
 
 tha.nodes[49507970] = SecretsOfAzeroth({
-    label = L['soa_14_buried_object_label'],
+    label = format(L['soa_14_buried_object_label'], 1),
+    rlabel = Gray(L['soa_14_rlabel']),
     note = L['soa_14_tablet_note'],
-    questDeps = 78108, -- hidden
+    quest = {
+        77954, -- ![A Curious Orb]
+        77520 -- Clue 14 complete
+    },
+    questDeps = {78108}, -- hidden
     pois = {
         POI({50208100}), -- Buried Object
         Path({49507970, 50208100}) -- Path
     },
-    playerHasItem = {209795},
+    playerHasItem = {209795, 208944},
     rewards = {
         Item({item = 209795}) -- Piece of the Orb of Rathmus
     }
-}) -- Buried Object
+}) -- Buried Object (1)
 
--- tha.nodes[46607760] = SecretsOfAzeroth({label = 'Tablet 2'}) -- Tablet 2
--- tha.nodes[45907970] = SecretsOfAzeroth({label = 'Orb 2'}) -- Orb 2
+tha.nodes[46607760] = SecretsOfAzeroth({
+    label = format(L['soa_14_tablet_label'], 2),
+    rlabel = Gray(L['soa_14_rlabel']),
+    requires = REQUIREMENT_TORCH_OF_PYRRETH,
+    location = L['in_small_cave'],
+    quest = 78109, -- hidden
+    questDeps = 77915, -- ![A Sphere in Danger]
+    note = L['soa_14_tablet_note'],
+    pois = {
+        POI({45907970}), -- Buried Object
+        Path({46607760, 45907970}) -- Path
+    }
+}) -- Titan-Inscribed Tablet (2)
+
+tha.nodes[45907970] = SecretsOfAzeroth({
+    label = format(L['soa_14_buried_object_label'], 2),
+    rlabel = Gray(L['soa_14_rlabel']),
+    note = L['soa_14_tablet_note'],
+    quest = {
+        77954, -- ![A Curious Orb]
+        77520 -- Clue 14 complete
+    },
+    questDeps = {78109}, -- hidden
+    pois = {
+        POI({46607760}), -- Buried Object
+        Path({45907970, 46607760}) -- Path
+    },
+    playerHasItem = {209797, 208944},
+    rewards = {
+        Item({item = 209797}) -- Piece of the Orb of Rathmus
+    }
+}) -- Buried Object (2)
 
 tha.nodes[48707640] = SecretsOfAzeroth({
     label = format(L['soa_14_tablet_label'], 3),
+    rlabel = Gray(L['soa_14_rlabel']),
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     location = L['in_small_cave'],
     quest = 78111, -- hidden
+    questDeps = 77915, -- ![A Sphere in Danger]
     note = L['soa_14_tablet_note'],
     pois = {
         POI({50207800}), -- Buried Object
@@ -990,18 +1025,23 @@ tha.nodes[48707640] = SecretsOfAzeroth({
 }) -- Titan-Inscribed Tablet (3)
 
 tha.nodes[50207800] = SecretsOfAzeroth({
-    label = L['soa_14_buried_object_label'],
+    label = format(L['soa_14_buried_object_label'], 3),
+    rlabel = Gray(L['soa_14_rlabel']),
     note = L['soa_14_tablet_note'],
-    questDeps = 78111, -- hidden
+    quest = {
+        77954, -- ![A Curious Orb]
+        77520 -- Clue 14 complete
+    },
+    questDeps = {78111}, -- hidden
     pois = {
         POI({48707640}), -- Buried Object
         Path({50207800, 48707640}) -- Path
     },
-    playerHasItem = {209799},
+    playerHasItem = {209799, 208944},
     rewards = {
         Item({item = 209799}) -- Piece of the Orb of Rathmus
     }
-}) -- Buried Object
+}) -- Buried Object (3)
 
 -------------------------------------------------------------------------------
 -------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------
@@ -1033,7 +1073,7 @@ local MJJ_PARTS = {
     }
 }
 
-local MJJ_List = Class('MJJ_List', SecretsOfAzeroth, {
+local MJJ_List = Class('MJJ_List', ns.node.Collectible, {
     label = '{item:210022}',
     icon = 'peg_bl',
     rewards = {Mount({id = 1813, item = 210022})}, -- Mimiron's Jumpjets

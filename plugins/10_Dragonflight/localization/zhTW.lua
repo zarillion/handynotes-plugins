@@ -953,6 +953,12 @@ L['soa_13_great_place_e_note'] = nil
 L['soa_13_great_place_f_label'] = nil
 L['soa_13_great_place_f_note'] = nil
 
+-- Secrets of Azeroth: Clue 14
+L['soa_14_rlabel'] = nil
+L['soa_14_buried_object_label'] = nil
+L['soa_14_tablet_label'] = nil
+L['soa_14_tablet_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = '從 {object:鬆軟的泥土堆} 拾取 {item:208142}.'
 L['buried_satchel_sublabel'] = '{note:這 不是 {item:208142} 的位置.}'

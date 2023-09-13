@@ -955,6 +955,12 @@ L['soa_13_great_place_e_note'] = 'Hinter dem Händlerstand.'
 L['soa_13_great_place_f_label'] = 'Notiz an Kritha'
 L['soa_13_great_place_f_note'] = 'Auf einer Kiste in {location:Der Drachenhort}.\n\nDu musst dich vor {npc:189827} verbeugen {emote:(/verbeugen)}, um in {location:Der Drachenhort} zu gelangen.'
 
+-- Secrets of Azeroth: Clue 14
+L['soa_14_rlabel'] = nil
+L['soa_14_buried_object_label'] = nil
+L['soa_14_tablet_label'] = nil
+L['soa_14_tablet_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
 L['buried_satchel_sublabel'] = '{note:An dieser Position ist KEIN {item:208142}.}'

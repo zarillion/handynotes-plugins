@@ -951,6 +951,12 @@ L['soa_13_great_place_e_note'] = 'Derrière le présentoir du vendeur au {locati
 L['soa_13_great_place_f_label'] = 'Note à Kritha'
 L['soa_13_great_place_f_note'] = 'Sur une caisse à l\'intérieur du {location:Trésor du Dragon}.\n\nVous devez utiliser l\'emote {emote:/bow} devant l\'{npc:189827} au {location:Bélier rôti} pour entrer dans le bar secret.'
 
+-- Secrets of Azeroth: Clue 14
+L['soa_14_rlabel'] = nil
+L['soa_14_buried_object_label'] = nil
+L['soa_14_tablet_label'] = nil
+L['soa_14_tablet_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
 L['buried_satchel_sublabel'] = '{note:Ceci n\'est PAS un emplacement de {item:208142}.}'

@@ -953,6 +953,12 @@ L['soa_13_great_place_e_note'] = 'Behind the vendor stand in {location:The Artis
 L['soa_13_great_place_f_label'] = 'Note to Kritha'
 L['soa_13_great_place_f_note'] = 'On a crate inside {location:The Dragon\'s Hoard}.\n\nYou need to {emote:/bow} to the {npc:189827} in {location:The Roasted Ram} to enter the secret bar.'
 
+-- Secrets of Azeroth: Clue 14
+L['soa_14_rlabel'] = '(Clue 14)'
+L['soa_14_buried_object_label'] = 'Buried Object (%d)'
+L['soa_14_tablet_label'] = 'Titan-Inscribed Tablet (%d)'
+L['soa_14_tablet_note'] = 'Use the {item:208092} to reveal the {object:Titan-Inscribed Tablet}. Follow the {item:206696} coordinates to the {object:Buried Object} and dig up the {item:209795}.'
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
 L['buried_satchel_sublabel'] = '{note:This is NOT a {item:208142} location.}'
