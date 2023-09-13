@@ -978,7 +978,7 @@ L['bs_gri_location'] = 'Habla con {npc:%s} para dar un paseo en tronco desde el 
 L['bs_hmt_location'] = 'Encima del {location:Pico de Monte Alto} cerca del {object:Papiro Deteriorado}.'
 L['bs_wpl_location'] = 'Entre el carro y el torreón de {location:Castel Darrow}.'
 L['bs_tli_location'] = 'En el suelo, en el centro de la arena.'
-L['bs_tir_location'] = nil
+L['bs_tir_location'] = 'En lo alto de la montaña con vistas a {location:Fuerte Libre}.'
 
 L['bs_emerald_dragonshrine'] = 'Santuario de Dragones Esmeralda'
 L['bs_bronze_dragonshrine'] = 'Santuario de Dragones Bronce'
