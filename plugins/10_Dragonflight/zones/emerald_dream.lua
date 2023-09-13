@@ -34,13 +34,10 @@ map.nodes[51253128] = Rare({
     id = 210050,
     quest = 77942,
     rewards = {
-        Achievement({id = 19316, criteria = 62945}) -- Adventurer of the Emerald Dream
-        -- https://wowhead.com/item=203311
+        Achievement({id = 19316, criteria = 62945}), -- Adventurer of the Emerald Dream
+        DC.WindingSlitherdrake.HairyChin
     }
 }) -- Bloodstripe Great Ray
-
-L['reefbreaker_moruud_note'] =
-    'Connect all 6x of the nearby {npc:210089} to attack {npc:209898}.'
 
 map.nodes[64178399] = Rare({
     id = 209898,
@@ -75,8 +72,8 @@ map.nodes[29862077] = Rare({ -- REVIEW
     quest = 78015,
     vignette = 5835,
     rewards = {
-        Achievement({id = 19316, criteria = 62930}) -- Adventurer of the Emerald Dream
-        -- https://wowhead.com/item=210172
+        Achievement({id = 19316, criteria = 62930}), -- Adventurer of the Emerald Dream
+        Recipe({item = 210172, profession = 333}) -- Formula: Enchanted Wyrm's Dreaming Crest
     }
 }) -- Firebrand Fystia
 
@@ -129,8 +126,8 @@ map.nodes[40294916] = Rare({ -- REVIEW
     id = 210046,
     quest = 78211,
     rewards = {
-        Achievement({id = 19316, criteria = 62943}) -- Adventurer of the Emerald Dream
-        -- https://www.wowhead.com/ptr-2/item=210128
+        Achievement({id = 19316, criteria = 62943}), -- Adventurer of the Emerald Dream
+        Transmog({item = 210128}) -- Autumn Defender's Claymore
     },
     pois = {Path({40294916, 39214992, 39535168, 40865209, 40545087, 40294916})}
 }) -- Keen-eyed Cian

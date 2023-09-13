@@ -835,6 +835,8 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
+L['reefbreaker_moruud_note'] = nil
+
 L['in_a_tree'] = 'En haut d\'un arbre.'
 
 L['hidden_moonkin_stash_label'] = nil -- review NYT

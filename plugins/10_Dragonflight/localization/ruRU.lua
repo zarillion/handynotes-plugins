@@ -838,6 +838,8 @@ L['options_icons_zone_event_desc'] = 'Отображение мест для с�
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
+L['reefbreaker_moruud_note'] = nil
+
 L['in_a_tree'] = nil
 
 L['hidden_moonkin_stash_label'] = nil

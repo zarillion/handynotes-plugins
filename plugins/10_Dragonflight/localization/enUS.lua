@@ -837,6 +837,8 @@ L['options_icons_zone_event_desc'] = 'Display locations for zone events.'
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
+L['reefbreaker_moruud_note'] = 'Connect all 6x of the nearby {npc:210089} to attack {npc:209898}.'
+
 L['in_a_tree'] = 'Up in a tree.'
 
 L['hidden_moonkin_stash_label'] = 'Hidden Moonkin Stash'

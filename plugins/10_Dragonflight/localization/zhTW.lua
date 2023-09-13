@@ -837,6 +837,8 @@ L['options_icons_zone_event_desc'] = '顯示區域事件的位置.'
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
+L['reefbreaker_moruud_note'] = nil
+
 L['in_a_tree'] = nil
 
 L['hidden_moonkin_stash_label'] = nil
