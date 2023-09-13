@@ -979,7 +979,7 @@ L['bs_gri_location'] = 'Sprich mit {npc:%s}, um eine Baumstammfahrt vom {locatio
 L['bs_hmt_location'] = 'Ganz oben bei {location:Die Hochbergspitze} neben {object:Verwittertes Pergament}.'
 L['bs_wpl_location'] = 'Zwischen dem Wagen und der kleinen Hütte in {location:Darrowehr}.'
 L['bs_tli_location'] = 'Auf dem Boden, in der mitte der Arena.'
-L['bs_tgs_location'] = nil
+L['bs_tir_location'] = nil
 
 L['bs_emerald_dragonshrine'] = 'Smaragddrachenschrein'
 L['bs_bronze_dragonshrine'] = 'Bronzedrachenschrein'

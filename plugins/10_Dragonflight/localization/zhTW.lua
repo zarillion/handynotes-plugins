@@ -977,7 +977,7 @@ L['bs_gri_location'] = nil
 L['bs_hmt_location'] = nil
 L['bs_wpl_location'] = nil
 L['bs_tli_location'] = nil
-L['bs_tgs_location'] = nil
+L['bs_tir_location'] = nil
 
 L['bs_emerald_dragonshrine'] = '翡翠龍殿'
 L['bs_bronze_dragonshrine'] = nil

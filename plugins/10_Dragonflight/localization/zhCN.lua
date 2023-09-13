@@ -977,7 +977,7 @@ L['bs_gri_location'] = '与 {npc:%s} 交谈，乘坐圆木从 {location:蓝天�
 L['bs_hmt_location'] = '在 {object:老化的羊皮纸} 附近的 {location:高岭之巅} 顶部。'
 L['bs_wpl_location'] = nil
 L['bs_tli_location'] = nil
-L['bs_tgs_location'] = nil
+L['bs_tir_location'] = nil
 
 L['bs_emerald_dragonshrine'] = '翡翠巨龙圣地'
 L['bs_bronze_dragonshrine'] = nil

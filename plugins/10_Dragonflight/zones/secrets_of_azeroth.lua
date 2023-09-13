@@ -1252,7 +1252,7 @@ local BURIED_SATCHELS = {
     },
     [17] = {
         coordinates = 74568613,
-        location = L['bs_bar_location'],
+        location = L['bs_tir_location'],
         map = tir, -- Tiragarde Sound
         parentMapID = 876, -- Kul Tiras
         quest = 77295
@@ -1266,7 +1266,7 @@ local BuriedSatchelList = Class('BuriedSatchelList', SecretsOfAzeroth, {
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     icon = 'peg_rd',
     sublabel = L['buried_satchel_sublabel'],
-    rlabel = Gray('(17/17)'),
+    rlabel = Gray('(' .. #BURIED_SATCHELS .. ')'),
     rewards = {
         Achievement({id = 18644, criteria = {qty = true, id = 1}}), -- Community Rumor Mill
         Pet({npc = 208643, id = 4263}) -- Tobias
@@ -1318,7 +1318,7 @@ for num, satchel in ipairs(BURIED_SATCHELS) do
         satchel.map.nodes[satchel.coordinates] = BuriedSatchel({
             location = satchel.location,
             quest = satchel.quest,
-            rlabel = Gray(format('(%d/17)', num)),
+            rlabel = Gray(format('(%d/%d)', num, #BURIED_SATCHELS)),
             requires = satchel.requires or nil,
             pois = satchel.pois or nil,
             parent = {id = satchel.parentMapID}

@@ -977,7 +977,7 @@ L['bs_gri_location'] = 'Speak to {npc:%s} to take a log ride from {location:Blue
 L['bs_hmt_location'] = 'Atop {location:Highmountain Peak} near the {object:Weathered Parchment}.'
 L['bs_wpl_location'] = 'Between the cart and the keep in {location:Caer Darrow}.'
 L['bs_tli_location'] = 'On the floor, in the center of the arena.'
-L['bs_tgs_location'] = 'Atop the mountain overlooking {location:Freehold}.'
+L['bs_tir_location'] = 'Atop the mountain overlooking {location:Freehold}.'
 
 L['bs_emerald_dragonshrine'] = 'Emerald Dragonshrine'
 L['bs_bronze_dragonshrine'] = 'Bronze Dragonshine'
