@@ -1076,6 +1076,8 @@ local MJJ_PARTS = {
 local MJJ_List = Class('MJJ_List', ns.node.Collectible, {
     label = '{item:210022}',
     icon = 'peg_bl',
+    scale = 2.0,
+    group = ns.groups.SECRETS_OF_AZEROTH,
     rewards = {Mount({id = 1813, item = 210022})}, -- Mimiron's Jumpjets
     pois = {POI({36466204})} -- Arcane Forge
 }) -- Mimiron's Jumpjets List
