@@ -975,6 +975,7 @@ L['bs_gri_location'] = 'Parlez à {npc:%s} pour faire une course de rondins entr
 L['bs_hmt_location'] = 'Au sommet de la {location:Culmination de Haut-Roc}, près du {object:Parchemin abîmé}.'
 L['bs_wpl_location'] = 'Entre le chariot et le donjon à {location:Caer Darrow}.'
 L['bs_tli_location'] = 'Sur le sol, au centre de l\'arène.'
+L['bs_tgs_location'] = nil
 
 L['bs_emerald_dragonshrine'] = 'Sanctuaire draconique Émeraude'
 L['bs_bronze_dragonshrine'] = 'Sanctuaire draconique Bronze'
