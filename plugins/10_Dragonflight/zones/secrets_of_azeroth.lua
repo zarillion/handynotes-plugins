@@ -1000,7 +1000,14 @@ for num, part in ipairs(MJJ_PARTS) do
         note = part.note,
         rewards = {Item({item = part.item})},
         playerHasItem = {part.item},
-        requires = {part.requires} or nil
+        requires = {part.requires} or nil,
+        parent = {
+            id = part.parentMapID,
+            note = part.note
+        },
+        IsCollected = function()
+            return select(11, C_MountJournal.GetMountInfoByID(1813))
+        end
     })
 end
 
