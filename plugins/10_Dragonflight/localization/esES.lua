@@ -838,18 +838,17 @@ L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
-L['reefbreaker_moruud_note'] = nil
+L['reefbreaker_moruud_note'] = 'Conecta las 6 {npc:210089} cercanas para atacar a {npc:209898}.'
+L['in_a_tree'] = 'Encima del árbol.'
 
-L['in_a_tree'] = nil
-
-L['hidden_moonkin_stash_label'] = nil
+L['hidden_moonkin_stash_label'] = 'Hidden Moonkin Stash' -- REVIEW
 
 L['magical_bloom_note'] = 'Ataca a {npc:210544} y persíguelo hasta que revele el tesoro.'
 L['odd_burl_note'] = 'En lo alto del árbol.'
 L['pineshrew_cache_note'] = 'Junto a algunas rocas.'
 L['reliquary_of_ashamane_note'] = '{note:Si la misión del mundo {wq:Dryad Fire Drill} está activa necesitarás completarla antes para poder ver el tesoro.}\n\nEncuentra una {object:Marca de Ashamane} {dot:Green} cercana para conseguir el buff {spell:425426} e ir a la {npc:212009}.' -- REVIEW {wq:Dryad Fire Drill}
 L['reliquary_of_aviana_note'] = 'Encuentra una {object:Marca de Aviana} cercana para conseguir el buff {spell:425432} e ir a la {npc:212011}.'
-L['reliquary_of_goldrinn_note'] = 'Encuentra una {object:Marca de Goldrinn} cercana para conseguir el buff {spell:425408} e ir a la {npc:212012}.'
+L['reliquary_of_goldrinn_note'] = 'Encuentra una {object:Marca de Goldrinn} {dot:Green} cercana para conseguir el buff {spell:425408} e ir a la {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Encuentra una {object:Marca de Ursol} cercana para conseguir el buff {spell:423306} e ir a la {npc:210732}.'
 
 L['unwaking_echo_label'] = 'Unwaking Echo' -- REVIEW Unwaking Echo
@@ -859,9 +858,9 @@ L['experimental_dreamcatcher_note'] = 'PH' -- Placeholder
 L['handful_of_pebbles_note'] = 'Encima del hombro derecho de la estatua.'
 L['petrified_hope_note'] = 'Encima del tocón del árbol.'
 
-L['dreamseed_soil_label'] = nil
+L['dreamseed_soil_label'] = 'Dreamseed Soil' -- REVIEW
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
-L['options_icons_dream_of_seeds_desc'] = nil
+L['options_icons_dream_of_seeds_desc'] = 'Muestra dónde están los {object:Dreamseed Soil} para el logro {achievement:19013}.' -- REVIEW {object:Dreamseed Soil} y revisar el artículo.
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las moonkin hatchling para el logro {achievement:19293}.' -- REVIEW moonkin hatchling y revisar el artículo. Podría ser Prole de lechúcico lunar.
