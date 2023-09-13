@@ -955,10 +955,10 @@ L['soa_13_great_place_f_label'] = 'Nota para Kritha'
 L['soa_13_great_place_f_note'] = 'En una caja dentro del {location:Tesoro del Dragón}.\n\nNecesitas teclear la emoción {emote:/reverencia} a la {npc:189827} en el {location:Carnero Asado} para entrar en el bar secreto.'
 
 -- Secrets of Azeroth: Clue 14
-L['soa_14_rlabel'] = nil
-L['soa_14_buried_object_label'] = nil
-L['soa_14_tablet_label'] = nil
-L['soa_14_tablet_note'] = nil
+L['soa_14_rlabel'] = '(Pista 14)'
+L['soa_14_buried_object_label'] = 'Objeto Enterrado (%d)'
+L['soa_14_tablet_label'] = 'Tablilla con Inscripciones Titánicas (%d)'
+L['soa_14_tablet_note'] = 'Usa la {item:208092} para revelar las {object:Tablilla con Inscripciones Titánicas}. Sigue las coordenadas del {item:206696} para llegar al {object:Objeto Enterrado} y desenterrar la {item:209795}.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
