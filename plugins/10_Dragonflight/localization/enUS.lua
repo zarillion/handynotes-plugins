@@ -846,7 +846,7 @@ L['odd_burl_note'] = 'Up in the tree.'
 L['pineshrew_cache_note'] = 'Next to a few rocks.'
 L['reliquary_of_ashamane_note'] = '{note:If the world quest {wq:Dryad Fire Drill} is active you need to complete it before you can see the treasure.}\n\nFind a {object:Mark of Ashamane} {dot:Green} nearby to get the buff {spell:425426} and go to the {npc:212009}.'
 L['reliquary_of_aviana_note'] = 'Find a {object:Mark of Aviana} nearby to get the buff {spell:425432} and go to the {npc:212011}.'
-L['reliquary_of_goldrinn_note'] = 'Find a {object:Mark of Goldrinn} nearby to get the buff {spell:425408} and go to the {npc:212012}.'
+L['reliquary_of_goldrinn_note'] = 'Find a {object:Mark of Goldrinn} {dot:Green} nearby to get the buff {spell:425408} and go to the {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Find a {object:Mark of Ursol} nearby to get the buff {spell:423306} and go to the {npc:210732}.'
 
 L['unwaking_echo_label'] = 'Unwaking Echo'
@@ -855,6 +855,10 @@ L['unwaking_echo_note'] = '{note:You can only open this chest in your dreams.}\n
 L['experimental_dreamcatcher_note'] = 'PH' -- don't know how to describe this "thing"
 L['handful_of_pebbles_note'] = 'On the statue\'s right shoulder.'
 L['petrified_hope_note'] = 'Up in the tree stump.'
+
+L['dreamseed_soil_label'] = 'Dreamseed Soil'
+L['options_icons_dream_of_seeds'] = '{achievement:19013}'
+L['options_icons_dream_of_seeds_desc'] = 'Display {object:Dreamseed Soil} locations for {achievement:19013}.'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Display moonkin hatchling locations for {achievement:19293}.'

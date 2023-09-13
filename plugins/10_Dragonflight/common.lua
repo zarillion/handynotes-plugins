@@ -232,6 +232,12 @@ ns.groups.CHISELED_RECORD = Group('chiseled_record', 134455, {
     achievement = 16412
 })
 
+ns.groups.DREAM_OF_SEEDS = Group('dream_of_seeds', 464030, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 19013
+})
+
 ns.groups.DREAMGUARD = Group('dreamguard', 341763, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

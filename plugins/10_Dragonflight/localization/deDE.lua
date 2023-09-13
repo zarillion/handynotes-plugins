@@ -857,5 +857,9 @@ L['experimental_dreamcatcher_note'] = nil
 L['handful_of_pebbles_note'] = 'An der rechten Schulter der Statue.'
 L['petrified_hope_note'] = 'Oben im Baumstumpf.'
 
+L['dreamseed_soil_label'] = nil
+L['options_icons_dream_of_seeds'] = '{achievement:19013}'
+L['options_icons_dream_of_seeds_desc'] = nil
+
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der moonkin hatchling für den Erfolg {achievement:19293} an.'

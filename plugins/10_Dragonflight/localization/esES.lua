@@ -857,5 +857,9 @@ L['experimental_dreamcatcher_note'] = 'PH' -- Placeholder
 L['handful_of_pebbles_note'] = 'Encima del hombro derecho de la estatua.'
 L['petrified_hope_note'] = 'Encima del tocón del árbol.'
 
+L['dreamseed_soil_label'] = nil
+L['options_icons_dream_of_seeds'] = '{achievement:19013}'
+L['options_icons_dream_of_seeds_desc'] = nil
+
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las moonkin hatchling para el logro {achievement:19293}.' -- REVIEW moonkin hatchling y revisar el artículo. Podría ser Prole de lechúcico lunar.

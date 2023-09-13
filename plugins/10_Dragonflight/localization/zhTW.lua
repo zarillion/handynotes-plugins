@@ -856,5 +856,9 @@ L['experimental_dreamcatcher_note'] = nil
 L['handful_of_pebbles_note'] = nil
 L['petrified_hope_note'] = nil
 
+L['dreamseed_soil_label'] = nil
+L['options_icons_dream_of_seeds'] = '{achievement:19013}'
+L['options_icons_dream_of_seeds_desc'] = nil
+
 L['options_icons_moonkin_hatchling'] = nil
 L['options_icons_moonkin_hatchling_desc'] = nil

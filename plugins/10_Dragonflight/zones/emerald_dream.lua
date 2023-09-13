@@ -39,13 +39,18 @@ map.nodes[51253128] = Rare({
     }
 }) -- Bloodstripe Great Ray
 
+L['reefbreaker_moruud_note'] =
+    'Connect all 6x of the nearby {npc:210089} to attack {npc:209898}.'
+
 map.nodes[64178399] = Rare({
     id = 209898,
     quest = 77867,
+    note = L['reefbreaker_moruud_note'],
     rewards = {
-        Achievement({id = 19316, criteria = 62931}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62931}), -- Adventurer of the Emerald Dream
+        Transmog({item = 208327, slot = L['leather']}) -- Maruud's Piercing Hands
     }
-}) -- Reefbreaker Moruud (Cargnosh - renamed??)
+}) -- Reefbreaker Moruud (Cragnosh)
 
 map.nodes[66036318] = Rare({
     id = 209909,
@@ -135,7 +140,8 @@ map.nodes[41107328] = Rare({
     quest = 78213,
     note = L['in_small_cave'],
     rewards = {
-        Achievement({id = 19316, criteria = 62946}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62946}), -- Adventurer of the Emerald Dream
+        Item({item = 210683, quest = 78513, class = 'DRUID'}) -- Mark of the Dreamtalon Matriarch
     }
 }) -- Matriarch Keevah
 
@@ -340,14 +346,16 @@ map.nodes[64231928] = Treasure({
 }) -- Reliquary of Aviana
 
 map.nodes[32938325] = Treasure({
-    quest = 78361,
-    note = L['in_small_cave'] .. '\n\n' .. L['reliquary_of_goldrinn_note'],
+    quest = 78361, -- 78368 trigged for Wyldclaw?
+    location = L['in_small_cave'],
+    note = L['reliquary_of_goldrinn_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62959}), -- Treasures of The Emerald Dream
         Transmog({item = 210660, slot = L['cosmetic']}) -- Claw of Lo'Gosh
     },
     pois = {
-        POI({30828069}) -- Mark of Goldrinn
+        POI({33108240}), -- Entrance
+        POI({30828069, color = 'Green'}) -- Mark of Goldrinn
     }
 }) -- Reliquary of Goldrinn
 
@@ -371,6 +379,8 @@ map.nodes[80004600] = Treasure({ -- REVIEW
     }
 }) -- Triflesnatch's Roving Trove
 
+map.nodes[39715215] = Treasure({label = '{npc:210060}', quest = 77855}) -- Triflesnatcher
+
 -------------------------------------------------------------------------------
 
 local UnwakingEcho = Class('Hatchling', Treasure, {
@@ -379,7 +389,13 @@ local UnwakingEcho = Class('Hatchling', Treasure, {
     note = L['unwaking_echo_note']
 })
 
-map.nodes[46408615] = UnwakingEcho({quest = 78552})
+map.nodes[46408615] = UnwakingEcho({
+    quest = 78552,
+    rewards = {
+        Transmog({item = 210682, slot = L['cosmetic']}) -- Camper's Knife
+    }
+})
+
 map.nodes[55672258] = UnwakingEcho({quest = 78547})
 map.nodes[55324538] = UnwakingEcho({
     quest = 78551,
@@ -617,20 +633,46 @@ map.nodes[37757026] = MoonkinHatchling({
 }) -- Wingnut
 
 -------------------------------------------------------------------------------
------------------------------ THE EMERALD BOUNTY ------------------------------
+------------------------------- DREAMSEED SOIL --------------------------------
 -------------------------------------------------------------------------------
 
+-- Achievement({
+--     id = 19013,
+--     criteria = {
+--         62029, -- Chiming Foxglove
+--         62032, -- Fuzzy Licorice
+--         62035, -- Viridescent Sprout
+--         62038, -- Ringing Rose
+--         62036, -- Glade Goldenrod
+--         62037, -- Dreamer's Daisy
+--         62040, -- Lullaby Lavender
+--         62031, -- Singing Weedling
+--         62185, -- Comfy Chamomile
+--         62186, -- Moon Tulip
+--         62189, -- Flourishing Scurfpea
+--         62396, -- Ageless Blossom
+--         62397, -- Whisperbloom Sapling
+--     }
+-- }) -- I Dream of Seeds
+
 local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
-    label = 'Emerald Bounty',
-    icon = 'peg_gn',
-    scale = 2.0,
-    rewards = {
-        Achievement({id = 19194, criteria = {id = 1, qty = true}}) -- The Emerald Bounty
-    }
+    label = L['dreamseed_soil_label'],
+    icon = 464030,
+    group = ns.groups.DREAM_OF_SEEDS
 }) -- Emerald Bounty
 
-map.nodes[63956483] = EmeraldBounty()
-map.nodes[59235875] = EmeraldBounty()
-map.nodes[63025282] = EmeraldBounty()
-map.nodes[49903543] = EmeraldBounty()
-map.nodes[40512507] = EmeraldBounty()
+function EmeraldBounty.getters:rewards()
+    local rewards = {
+        Achievement({id = 19013, criteria = self.criteriaID}), -- I Dream of Seeds
+        Achievement({id = 19198, criteria = {id = 1, qty = true}}) -- The Seeds I Sow
+    }
+    return rewards
+end
+
+map.nodes[56654487] = EmeraldBounty({criteriaID = 62039}) -- Lofty Lupin
+map.nodes[40672478] = EmeraldBounty({criteriaID = 62027}) -- Lavatouched Lilies
+map.nodes[42537419] = EmeraldBounty()
+map.nodes[49903543] = EmeraldBounty({criteriaID = 62041}) -- Belligerent Begonias
+map.nodes[59235875] = EmeraldBounty({criteriaID = 62028}) -- Ysera's Clover
+map.nodes[63025282] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling
+map.nodes[63956483] = EmeraldBounty({criteriaID = 62030}) -- Dragon's Daffodil
