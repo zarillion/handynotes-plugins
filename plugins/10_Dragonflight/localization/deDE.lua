@@ -838,6 +838,10 @@ L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse 
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
+L['in_a_tree'] = nil
+
+L['hidden_moonkin_stash_label'] = nil
+
 L['magical_bloom_note'] = 'Greife den {npc:210544} an und jage ihn, bis er den Schatz enthüllt.'
 L['odd_burl_note'] = 'Oben auf dem Baum.'
 L['pineshrew_cache_note'] = 'Neben ein paar Felsen.'

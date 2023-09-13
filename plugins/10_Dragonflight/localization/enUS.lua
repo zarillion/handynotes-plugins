@@ -837,7 +837,11 @@ L['options_icons_zone_event_desc'] = 'Display locations for zone events.'
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
-L['magical_bloom_note'] = 'Attack the {npc:210544} and chase him until he reveals the treasure.'
+L['in_a_tree'] = 'Up in a tree.'
+
+L['hidden_moonkin_stash_label'] = 'Hidden Moonkin Stash'
+
+L['magical_bloom_note'] = 'Chase the {npc:210544} until he reveals the treasure.'
 L['odd_burl_note'] = 'Up in the tree.'
 L['pineshrew_cache_note'] = 'Next to a few rocks.'
 L['reliquary_of_ashamane_note'] = '{note:If the world quest {wq:Dryad Fire Drill} is active you need to complete it before you can see the treasure.}\n\nFind a {object:Mark of Ashamane} {dot:Green} nearby to get the buff {spell:425426} and go to the {npc:212009}.'

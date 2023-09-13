@@ -835,6 +835,10 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
+L['in_a_tree'] = nil
+
+L['hidden_moonkin_stash_label'] = nil
+
 L['magical_bloom_note'] = nil
 L['odd_burl_note'] = nil
 L['pineshrew_cache_note'] = nil

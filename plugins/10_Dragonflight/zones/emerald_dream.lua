@@ -15,6 +15,8 @@ local Dragonglyph = ns.node.Dragonglyph
 local PT = ns.node.ProfessionTreasures
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
+local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
@@ -95,8 +97,9 @@ map.nodes[47062974] = Rare({
     quest = 77944,
     note = L['in_small_cave'],
     rewards = {
-        Achievement({id = 19316, criteria = 62950}) -- Adventurer of the Emerald Dream
-        -- item 201437
+        Achievement({id = 19316, criteria = 62950}), -- Adventurer of the Emerald Dream
+        Transmog({item = 208357, slot = L['cloak']}), -- Henri's Warm Coat
+        Item({item = 201437}) -- Slumbering Dream Fragment
     }
 }) -- Henri Snufftail
 
@@ -111,10 +114,11 @@ map.nodes[58775119] = Rare({
 map.nodes[37433171] = Rare({
     id = 209919,
     quest = 77989,
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62940}) -- Adventurer of the Emerald Dream
     }
-}) -- Isaqa (Balboan)
+}) -- Isaqa
 
 map.nodes[40294916] = Rare({ -- REVIEW
     id = 210046,
@@ -238,7 +242,10 @@ map.nodes[26022656] = Rare({
 map.nodes[22743226] = Rare({
     id = 210559,
     quest = 78039,
-    note = L['in_small_cave']
+    note = L['in_small_cave'],
+    rewards = {
+        Transmog({item = 210105, slot = L['leather']}) -- Autumn Druid Belt
+    }
 }) -- Balboan
 
 map.nodes[38436213] = Rare({
@@ -259,14 +266,23 @@ map.nodes[82004600] = Treasure({ -- REVIEW
     }
 }) -- Crystalline Glowblossom
 
+-- map.nodes[47493485] = Treasure({
+--     quest = nil,
+--     note = 'PH',
+--     rewards = {
+--         Achievement({id = 19317, criteria = 62953}) -- Treasures of The Emerald Dream
+--         -- REVIEW
+--     }
+-- }) -- Hidden Podling Stash
+
 map.nodes[47493485] = Treasure({
-    quest = nil,
-    note = 'PH',
+    label = L['hidden_moonkin_stash_label'],
+    quest = 77858,
+    location = L['in_a_tree'],
     rewards = {
-        Achievement({id = 19317, criteria = 62953}) -- Treasures of The Emerald Dream
-        -- REVIEW
+        Toy({item = 210725}) -- Owl Post
     }
-}) -- Hidden Podling Stash
+}) -- Hidden Moonkin Stash
 
 map.nodes[61625960] = Treasure({
     quest = 78005,
@@ -371,7 +387,10 @@ map.nodes[55324538] = UnwakingEcho({
 })
 map.nodes[69575284] = UnwakingEcho({
     quest = 78550,
-    sublabel = L['inside_building']
+    sublabel = L['inside_building'],
+    rewards = {
+        Transmog({item = 210686, slot = L['shield']}) -- Grovekeeper's Barrier
+    }
 })
 
 -------------------------------------------------------------------------------
@@ -596,3 +615,22 @@ map.nodes[37757026] = MoonkinHatchling({
         POI({37536964}) -- Entrance
     }
 }) -- Wingnut
+
+-------------------------------------------------------------------------------
+----------------------------- THE EMERALD BOUNTY ------------------------------
+-------------------------------------------------------------------------------
+
+local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
+    label = 'Emerald Bounty',
+    icon = 'peg_gn',
+    scale = 2.0,
+    rewards = {
+        Achievement({id = 19194, criteria = {id = 1, qty = true}}) -- The Emerald Bounty
+    }
+}) -- Emerald Bounty
+
+map.nodes[63956483] = EmeraldBounty()
+map.nodes[59235875] = EmeraldBounty()
+map.nodes[63025282] = EmeraldBounty()
+map.nodes[49903543] = EmeraldBounty()
+map.nodes[40512507] = EmeraldBounty()
