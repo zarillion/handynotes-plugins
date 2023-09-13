@@ -835,28 +835,28 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
-L['in_a_tree'] = nil
+L['in_a_tree'] = 'En haut d\'un arbre.'
 
-L['hidden_moonkin_stash_label'] = nil
+L['hidden_moonkin_stash_label'] = nil -- review NYT
 
-L['magical_bloom_note'] = nil
-L['odd_burl_note'] = nil
-L['pineshrew_cache_note'] = nil
-L['reliquary_of_ashamane_note'] = nil
-L['reliquary_of_aviana_note'] = nil
-L['reliquary_of_goldrinn_note'] = nil
-L['reliquary_of_ursol_note'] = nil
+L['magical_bloom_note'] = 'Poursuivez le {npc:210544} jusqu\'à ce qu\'il révèle le trésor.'
+L['odd_burl_note'] = 'En haut de l\'arbre.'
+L['pineshrew_cache_note'] = 'A côté de quelques rochers.'
+L['reliquary_of_ashamane_note'] = '{note:Si l\'expédition {wq:Dryad Fire Drill} est active, vous devez la terminer avant de pouvoir voir le trésor.}\n\nTrouvez une {object:Marque d\'Ashamane} {dot:Green} à proximité pour obtenir le buff {spell:425426} et rendez-vous à la {npc:212009}.'
+L['reliquary_of_aviana_note'] = 'Trouvez une {object:Marque d\'Aviana} à proximité pour obtenir le buff {spell:425432} et rendez-vous à la {npc:212011}.'
+L['reliquary_of_goldrinn_note'] = 'Trouvez une {object:Marque de Goldrinn} {dot:Green} à proximité pour obtenir le buff {spell:425408} et rendez-vous à la {npc:212012}.'
+L['reliquary_of_ursol_note'] = 'Trouvez une {object:Marque d\'Ursol} à proximité pour obtenir le buff {spell:423306} et rendez-vous à la {npc:210732}.'
 
-L['unwaking_echo_label'] = nil
-L['unwaking_echo_note'] = nil
+L['unwaking_echo_label'] = nil -- review NYT
+L['unwaking_echo_note'] = '{note:Vous ne pouvez ouvrir ce coffre que dans vos rêves.}\n\nEndormez-vous avec l\'emote {emote:/sleep} à côté du coffre pour l\'ouvrir.'
 
 L['experimental_dreamcatcher_note'] = nil
-L['handful_of_pebbles_note'] = nil
-L['petrified_hope_note'] = nil
+L['handful_of_pebbles_note'] = 'Sur l\'épaule droite de la statue.'
+L['petrified_hope_note'] = 'Dans la souche d\'arbre.'
 
-L['dreamseed_soil_label'] = nil
+L['dreamseed_soil_label'] = 'Sol pour graine onirique'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
-L['options_icons_dream_of_seeds_desc'] = nil
+L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:Sol pour graine onirique} pour le haut-fait {achievement:19013}.'
 
-L['options_icons_moonkin_hatchling'] = nil
-L['options_icons_moonkin_hatchling_desc'] = nil
+L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
+L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des bébés séléniens pour le haut-fait {achievement:19293}.'
