@@ -835,7 +835,7 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
-L['reefbreaker_moruud_note'] = nil
+L['reefbreaker_moruud_note'] = 'Connectez les 6x {npc:210089} proches pour attaquer {npc:209898}.'
 
 L['in_a_tree'] = 'En haut d\'un arbre.'
 
@@ -852,12 +852,12 @@ L['reliquary_of_ursol_note'] = 'Trouvez une {object:Marque d\'Ursol} à proximit
 L['unwaking_echo_label'] = nil -- review NYT
 L['unwaking_echo_note'] = '{note:Vous ne pouvez ouvrir ce coffre que dans vos rêves.}\n\nEndormez-vous avec l\'emote {emote:/sleep} à côté du coffre pour l\'ouvrir.'
 
-L['amirdrassil_defenders_shield_note'] = nil
-L['dreamtalon_claw_note'] = nil
+L['amirdrassil_defenders_shield_note'] = 'Sur la table à côté de {npc:211328}.'
+L['dreamtalon_claw_note'] = 'A la base du tronc d\'arbre.'
 L['experimental_dreamcatcher_note'] = nil
-L['grove_keepers_pillar_note'] = nil
+L['grove_keepers_pillar_note'] = 'Devant l\'entrée de la grotte.'
 L['handful_of_pebbles_note'] = 'Sur l\'épaule droite de la statue.'
-L['molted_faerie_dragon_scales_note'] = nil
+L['molted_faerie_dragon_scales_note'] = 'Au sol parmi quelques fleurs.'
 L['petrified_hope_note'] = 'Dans la souche d\'arbre.'
 
 L['dreamseed_soil_label'] = 'Sol pour graine onirique'
