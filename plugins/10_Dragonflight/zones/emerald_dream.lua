@@ -127,7 +127,7 @@ map.nodes[40294916] = Rare({ -- REVIEW
     quest = 78211,
     rewards = {
         Achievement({id = 19316, criteria = 62943}), -- Adventurer of the Emerald Dream
-        Transmog({item = 210128}) -- Autumn Defender's Claymore
+        Transmog({item = 210128, slot = L['2h_sword']}) -- Autumn Defender's Claymore
     },
     pois = {Path({40294916, 39214992, 39535168, 40865209, 40545087, 40294916})}
 }) -- Keen-eyed Cian
