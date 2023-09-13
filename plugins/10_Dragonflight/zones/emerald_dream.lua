@@ -19,6 +19,8 @@ local Item = ns.reward.Item
 local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Pet = ns.reward.Pet
+local Mount = ns.reward.Mount
 
 local POI = ns.poi.POI
 local Path = ns.poi.Path
@@ -697,3 +699,41 @@ map.nodes[49903543] = EmeraldBounty({criteriaID = 62041}) -- Belligerent Begonia
 map.nodes[59235875] = EmeraldBounty({criteriaID = 62028}) -- Ysera's Clover
 map.nodes[63025282] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling
 map.nodes[63956483] = EmeraldBounty({criteriaID = 62030}) -- Dragon's Daffodil
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[60341694] = ns.node.NPC({
+    id = 212903,
+    icon = 'peg_bl',
+    scale = 2.0,
+    note = 'Exchange gold for Druid glyphs.',
+    rewards = {
+        Item({item = 210764, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamtalon
+        Item({item = 210767, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamstag
+        Item({item = 210755, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamsaber
+        Item({item = 210766, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Umbraclaw
+    }
+}) -- Thaelishar Groveheard <Fauna Specialist>
+
+map.nodes[59761689] = ns.node.NPC({
+    id = 211265,
+    icon = 'peg_bl',
+    scale = 2.0,
+    note = 'Exchange {currency:2651} for pets, mounts, and transmog.',
+    rewards = {
+        Pet({item = 210689, id = 4305, note = '800'}), -- Snoots
+        Pet({item = 210690, id = 4306, note = '800'}), -- Elmer
+        Pet({item = 210571, id = 4296, note = '800'}), -- Snoozles
+        Pet({item = 210570, id = 4295, note = '800'}), -- Napps
+        Pet({item = 210651, id = 4299, note = '800'}), -- Dustite
+        Pet({item = 210648, id = 4298, note = '800'}), -- Seedle
+        Mount({item = 209950, id = 1810, note = '2500'}), -- Reins of the Rekindled Dreamstag
+        Mount({item = 209947, id = 1808, note = '2500'}), -- Reins of the Blossoming Dreamstag
+        Mount({item = 210775, id = 1835, note = '2500'}), -- Reins of the Snowfluff Dreamtalon
+        Mount({item = 210769, id = 1833, note = '2500'}), -- Reins of the Springtide Dreamtalon
+        Mount({item = 210057, id = 1817, note = '2500'}), -- Reins of the Morning Flourish Dreamsaber
+        Mount({item = 210058, id = 1816, note = '2500'}), -- Reins of the Evening Sun Dreamsaber
+    }
+}) -- Sylvia Whisperbloom <Dreamseed Botanist>
