@@ -937,6 +937,73 @@ val.nodes[46004140] = SecretsOfAzeroth({
 -- 77934 ![A Complete Inventory]
 
 -------------------------------------------------------------------------------
+------------------------- SECRETS OF AZEROTH: CLUE 14 -------------------------
+-------------------------------------------------------------------------------
+
+-- 185562 Tithris
+-- 77951 ![A Sphere in Danger]
+-- 208942 Preservationsist's Dispatch Three
+
+L['soa_14_buried_object_label'] = 'Buried Object'
+L['soa_14_tablet_label'] = 'Titan-Inscribed Tablet (%d)'
+L['soa_14_tablet_note'] = 'Use the {item:208092} to reveal the {object:Titan-Inscribed Tablet}. Follow the {item:206696} coordinates to the {object:Buried Object} and dig up the {item:209795}.'
+
+tha.nodes[50208100] = SecretsOfAzeroth({
+    label = format(L['soa_14_tablet_label'], 1),
+    requires = REQUIREMENT_TORCH_OF_PYRRETH,
+    location = L['in_small_cave'],
+    quest = 78108, -- hidden
+    note = L['soa_14_tablet_note'],
+    pois = {
+        POI({49507970}), -- Buried Object
+        Path({50208100, 49507970}) -- Path
+    }
+}) -- Titan-Inscribed Tablet (1)
+
+tha.nodes[49507970] = SecretsOfAzeroth({
+    label = L['soa_14_buried_object_label'],
+    note = L['soa_14_tablet_note'],
+    questDeps = 78108, -- hidden
+    pois = {
+        POI({50208100}), -- Buried Object
+        Path({49507970, 50208100}) -- Path
+    },
+    playerHasItem = {209795},
+    rewards = {
+        Item({item = 209795}) -- Piece of the Orb of Rathmus
+    }
+}) -- Buried Object
+
+-- tha.nodes[46607760] = SecretsOfAzeroth({label = 'Tablet 2'}) -- Tablet 2
+-- tha.nodes[45907970] = SecretsOfAzeroth({label = 'Orb 2'}) -- Orb 2
+
+tha.nodes[48707640] = SecretsOfAzeroth({
+    label = format(L['soa_14_tablet_label'], 3),
+    requires = REQUIREMENT_TORCH_OF_PYRRETH,
+    location = L['in_small_cave'],
+    quest = 78111, -- hidden
+    note = L['soa_14_tablet_note'],
+    pois = {
+        POI({50207800}), -- Buried Object
+        Path({48707640, 50207800}) -- Path
+    }
+}) -- Titan-Inscribed Tablet (3)
+
+tha.nodes[50207800] = SecretsOfAzeroth({
+    label = L['soa_14_buried_object_label'],
+    note = L['soa_14_tablet_note'],
+    questDeps = 78111, -- hidden
+    pois = {
+        POI({48707640}), -- Buried Object
+        Path({50207800, 48707640}) -- Path
+    },
+    playerHasItem = {209799},
+    rewards = {
+        Item({item = 209799}) -- Piece of the Orb of Rathmus
+    }
+}) -- Buried Object
+
+-------------------------------------------------------------------------------
 -------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------
 -------------------------------------------------------------------------------
 
