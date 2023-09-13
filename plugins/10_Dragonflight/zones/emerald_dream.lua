@@ -16,11 +16,14 @@ local PT = ns.node.ProfessionTreasures
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 local Path = ns.poi.Path
+
+local DC = ns.DRAGON_CUSTOMIZATIONS
 
 -------------------------------------------------------------------------------
 
