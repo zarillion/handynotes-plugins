@@ -45,6 +45,7 @@ local tho = ns.maps[64] or Map({id = 64, settings = true}) -- Thousand Needles
 local tli = ns.maps[554] or Map({id = 554, settings = true}) -- Timeless Isle
 local vfw = ns.maps[376] or Map({id = 376, settings = true}) -- Valley of the Four Winds
 local wpl = ns.maps[22] or Map({id = 22, settings = true}) -- Western Plaguelands
+local tir = ns.maps[895] or Map({id = 895, settings = true}) -- Tiragarde Sound
 
 -- Mount: Mimiron's Jumpjets
 local cst = ns.maps[210] or Map({id = 210, settings = true}) -- Cape of Stranglethorn
@@ -1242,12 +1243,19 @@ local BURIED_SATCHELS = {
         parentMapID = 424, -- Pandaria
         quest = 77301
     },
-    [16] = { -- This satchel has not (yet) been officially announced by Blizzard.
+    [16] = {
         coordinates = 68797338,
         location = L['bs_wpl_location'],
         map = wpl, -- Western Plaguelands
         parentMapID = 13, -- Eastern Kingdoms
         quest = 78207
+    },
+    [17] = {
+        coordinates = 74568613,
+        location = L['bs_bar_location'],
+        map = tir, -- Tiragarde Sound
+        parentMapID = 876, -- Kul Tiras
+        quest = 77295
     }
 }
 
@@ -1258,7 +1266,7 @@ local BuriedSatchelList = Class('BuriedSatchelList', SecretsOfAzeroth, {
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     icon = 'peg_rd',
     sublabel = L['buried_satchel_sublabel'],
-    rlabel = Gray('(16/16)'),
+    rlabel = Gray('(17/17)'),
     rewards = {
         Achievement({id = 18644, criteria = {qty = true, id = 1}}), -- Community Rumor Mill
         Pet({npc = 208643, id = 4263}) -- Tobias
@@ -1310,7 +1318,7 @@ for num, satchel in ipairs(BURIED_SATCHELS) do
         satchel.map.nodes[satchel.coordinates] = BuriedSatchel({
             location = satchel.location,
             quest = satchel.quest,
-            rlabel = Gray(format('(%d/16)', num)),
+            rlabel = Gray(format('(%d/17)', num)),
             requires = satchel.requires or nil,
             pois = satchel.pois or nil,
             parent = {id = satchel.parentMapID}
