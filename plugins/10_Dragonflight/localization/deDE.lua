@@ -855,10 +855,10 @@ L['reliquary_of_ursol_note'] = 'Finde ein {object:Mal von Ursol} in der Nähe, u
 L['unwaking_echo_label'] = nil -- review not yet translated
 L['unwaking_echo_note'] = '{note:You can only open this chest in your dreams.}\n\nLeg dich neben der Kiste schlafen {emote:(/schlafen)}, um diese öffnen zu können.' -- review not yet translated
 
-L["amirdrassil_defenders_shield_note"] = 'Auf dem Tisch neben {npc:211328}.'
-L["dreamtalon_claw_note"] = 'Unten am Stamm des Baumes.'
+L['amirdrassil_defenders_shield_note'] = 'Auf dem Tisch neben {npc:211328}.'
+L['dreamtalon_claw_note'] = 'Unten am Stamm des Baumes.'
 L['experimental_dreamcatcher_note'] = nil
-L["grove_keepers_pillar_note"] = 'Vor dem Eingang der Höhle.'
+L['grove_keepers_pillar_note'] = 'Vor dem Eingang der Höhle.'
 L['handful_of_pebbles_note'] = 'An der rechten Schulter der Statue.'
 L['molted_faerie_dragon_scales_note'] = 'Auf dem Boden in einigen Blumen.'
 L['petrified_hope_note'] = 'Oben im Baumstumpf.'

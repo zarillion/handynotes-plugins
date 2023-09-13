@@ -790,10 +790,10 @@ L['reliquary_of_ursol_note'] = nil
 L['unwaking_echo_label'] = nil
 L['unwaking_echo_note'] = nil
 
-L["amirdrassil_defenders_shield_note"] = nil
-L["dreamtalon_claw_note"] = nil
+L['amirdrassil_defenders_shield_note'] = nil
+L['dreamtalon_claw_note'] = nil
 L['experimental_dreamcatcher_note'] = nil
-L["grove_keepers_pillar_note"] = nil
+L['grove_keepers_pillar_note'] = nil
 L['handful_of_pebbles_note'] = nil
 L['molted_faerie_dragon_scales_note'] = nil
 L['petrified_hope_note'] = nil

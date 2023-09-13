@@ -854,10 +854,10 @@ L['reliquary_of_ursol_note'] = 'Find a {object:Mark of Ursol} nearby to get the 
 L['unwaking_echo_label'] = 'Unwaking Echo'
 L['unwaking_echo_note'] = '{note:You can only open this chest in your dreams.}\n\nSleep {emote:/sleep} next to the chest to open it.'
 
-L["amirdrassil_defenders_shield_note"] = 'On the table next to {npc:211328}.'
-L["dreamtalon_claw_note"] = 'At the bottom of the tree trunk.'
+L['amirdrassil_defenders_shield_note'] = 'On the table next to {npc:211328}.'
+L['dreamtalon_claw_note'] = 'At the bottom of the tree trunk.'
 L['experimental_dreamcatcher_note'] = 'PH' -- don't know how to describe this "thing"
-L["grove_keepers_pillar_note"] = 'In front of the cave entrance.'
+L['grove_keepers_pillar_note'] = 'In front of the cave entrance.'
 L['handful_of_pebbles_note'] = 'On the statue\'s right shoulder.'
 L['molted_faerie_dragon_scales_note'] = 'On the ground in some flowers.'
 L['petrified_hope_note'] = 'Up in the tree stump.'
