@@ -13,6 +13,7 @@
 ---
 
 ## Node
+
 The base class for all nodes.
 
 ``` lua
@@ -24,88 +25,94 @@ ns.node.Node({
 ```
 
 ### Default Properites
+
 `ns.node.Node` has the following properties by default:
 
-* `label` (string) (*default: 'UNKNOWN'*)
-  * The title shown in the tooltip when hovering this node.
-* `minimap` (boolean) (*default: true*)
-  * Should the node be displayed on the minimap.
-* `alpha` (float) (*default: 1.0*)
-  * The alpha value for this node.
-* `scale` (float) (*default: 1.0*)
-  * The scale value for this node.
-* `icon` ([string](icons.html) / int) (*default: 'default'*)
-  * The icon for this node.
-* `group` ([group](groups.html)) (*default: ns.groups.MISC*)
-  * The group that contains and controls this node.
+- `label` (string) (*default: 'UNKNOWN'*)
+  - The title shown in the tooltip when hovering this node.
+- `minimap` (boolean) (*default: true*)
+  - Should the node be displayed on the minimap.
+- `alpha` (float) (*default: 1.0*)
+  - The alpha value for this node.
+- `scale` (float) (*default: 1.0*)
+  - The scale value for this node.
+- `icon` ([string](icons.html) / int) (*default: 'default'*)
+  - The icon for this node.
+- `group` ([group](groups.html)) (*default: ns.groups.MISC*)
+  - The group that contains and controls this node.
 
 ### Optional Tooltip Properties
-`ns.node.Node` supports the following _optional_ properties that affect a node's tootlip:
 
-* `sublabel` (string)
-  * Additional text shown directly under the label.
-* `rlabel` (string)
-  * Additional label shown in the top right corner of the tooltip.
-* `questCount` (boolean)
-  * Display completed quest count as `rlabel`.
-* `location` (string)
-  * Additonal text that provides more detail about the location of a node.
-* `note` (string)
-  * Additional text that provides more detail about the node.
-* `requires` ([Requirement](requirements.hmtl) / [Requirement](requirements.hmtl)[ ])
-  * List of requirements that need to be met for the node.
-* `rewards` ([Reward](rewards.html)[ ])
-  * List of rewards that are offered by the node.
+`ns.node.Node` supports the following *optional* properties that affect a node's tootlip:
+
+- `sublabel` (string)
+  - Additional text shown directly under the label.
+- `rlabel` (string)
+  - Additional label shown in the top right corner of the tooltip.
+- `questCount` (boolean)
+  - Display completed quest count as `rlabel`.
+- `location` (string)
+  - Additonal text that provides more detail about the location of a node.
+- `note` (string)
+  - Additional text that provides more detail about the node.
+- `requires` ([Requirement](requirements.html) / [Requirement](requirements.html))
+  - List of requirements that need to be met for the node.
+- `rewards` ([Reward](rewards.html))
+  - List of rewards that are offered by the node.
 
 ### Optional Visibility Properties
-`ns.node.Node` supports the following _optional_ properties that affect a node's visibility:
 
-* `class` (string)
-  * Only display this node if the character is this class.
-    * `'DEATHKNIGHT'`
-    * `'DEMONHUNTER'`
-    * `'DRUID'`
-    * `'EVOKER'`
-    * `'HUNTER'`
-    * `'MAGE'`
-    * `'MONK'`
-    * `'PALADIN'`
-    * `'PRIEST'`
-    * `'ROGUE'`
-    * `'SHAMAN'`
-    * `'WARLOCK'`
-    * `'WARRIOR'`
-* `faction` (string)
-  * Only display this node if the character is this faction.
-    * `'Alliance'`
-    * `'Horde'`
-* `quest` (int / int[ ])
-  * Hide this node when *all* `questID` in `quest` have been completed.
-* `questAny` (boolean)(*default: all*)
-  * Hide this node when *any* `questID` in `quest` have been completed.
-* `questDeps` (int / int[ ])
-  * Show this node if all `questID` in `questDeps` have been completed.
+`ns.node.Node` supports the following *optional* properties that affect a node's visibility:
+
+- `class` (string)
+  - Only display this node if the character is this class.
+    - `'DEATHKNIGHT'`
+    - `'DEMONHUNTER'`
+    - `'DRUID'`
+    - `'EVOKER'`
+    - `'HUNTER'`
+    - `'MAGE'`
+    - `'MONK'`
+    - `'PALADIN'`
+    - `'PRIEST'`
+    - `'ROGUE'`
+    - `'SHAMAN'`
+    - `'WARLOCK'`
+    - `'WARRIOR'`
+- `faction` (string)
+  - Only display this node if the character is this faction.
+    - `'Alliance'`
+    - `'Horde'`
+- `quest` (int / int[ ])
+  - Hide this node when *all* `questID` in `quest` have been completed.
+- `questAny` (boolean)(*default: all*)
+  - Hide this node when *any* `questID` in `quest` have been completed.
+- `questDeps` (int / int[ ])
+  - Show this node if all `questID` in `questDeps` have been completed.
 
 ### Optional Interaction Properties
-`ns.node.Node` supports the following _optional_ properties that affect a node's interaction:
-* `fgroup` (string)
-  * A category of nodes that should be focused together when hovered or clicked.
-* `parent` (int)
-    * Additional `mapID` to display this node on.
-* `parent` ([ ])
-    * The `parent` property also supports some basic [Node](#node) properties.
-    * `id` (int)(*required*)
-      * Additional `mapID` to display this node on.
-    * `note` (string)
-      * Additional text shown under the [Requirement](requirements.html) text.
-    * `pois` ([POI](points.html)[ ])
-      * POIs that should be shown on the parent map when hovering over or clicking a node.
-* `pois` ([POI](points.html)[ ])
-  * POIs that should be shown on the map when hovering over or clicking a node.
+
+`ns.node.Node` supports the following *optional* properties that affect a node's interaction:
+
+- `fgroup` (string)
+  - A category of nodes that should be focused together when hovered or clicked.
+- `parent` (int)
+  - Additional `mapID` to display this node on.
+- `parent` ([ ])
+  - The `parent` property also supports some basic [Node](#node) properties.
+  - `id` (int)(*required*)
+    - Additional `mapID` to display this node on.
+  - `note` (string)
+    - Additional text shown under the [Requirement](requirements.html) text.
+  - `pois` ([POI](points.html))
+    - POIs that should be shown on the parent map when hovering over or clicking a node.
+- `pois` ([POI](points.html))
+  - POIs that should be shown on the map when hovering over or clicking a node.
 
 ---
 
 ## Collectible
+
 ``` lua
 map.nodes[58085381] = ns.node.Collectible({
     id = 204693,
@@ -123,18 +130,20 @@ map.nodes[58085381] = ns.node.Collectible({
 ```
 
 ### Optional Properties
+
 `ns.node.Collectible` supports the following properties:
 
-* `id` (int)
-  * The `npcID` for the NPC who offers the collectible. This will be used for the `label` property.
-* `item` (int)
-  * The `itemID` for the colectible. This will be used for the `label` property.
+- `id` (int)
+  - The `npcID` for the NPC who offers the collectible. This will be used for the `label` property.
+- `item` (int)
+  - The `itemID` for the colectible. This will be used for the `label` property.
 
 Please note that the label for `ns.node.Collectible` can also come from the critiera for the first listed [achievement](rewards.html#achievement) in `rewards`.
 
 ---
 
 ## Intro
+
 ``` lua
 local MawIntro = Class('MawIntro', ns.node.Intro, {
     quest = 62907, -- Eye of the Jailor activation
@@ -157,26 +166,29 @@ map.nodes[80306280] = map.intro
 ```
 
 ### Default Properites
+
 `ns.node.Intro` has the following properties set by default:
 
-* `scale` (float) (*default: 3*)
-  * The default scale value for this node.
-* `icon` ([string](icons.html) / int) (*default: 'quest_ay'*)
-  * The default icon for this node.
-* `group` ([group](groups.html)) (*default: ns.groups.QUEST*)
-  * The default group for this node.
-* `minimap` (boolean) (*default: false*)
-  * The Intro node will not be displayed on the minimap by default.
+- `scale` (float) (*default: 3*)
+  - The default scale value for this node.
+- `icon` ([string](icons.html) / int) (*default: 'quest_ay'*)
+  - The default icon for this node.
+- `group` ([group](groups.html)) (*default: ns.groups.QUEST*)
+  - The default group for this node.
+- `minimap` (boolean) (*default: false*)
+  - The Intro node will not be displayed on the minimap by default.
 
 ### Optional Properties
+
 `ns.node.Intro` supports the following properties:
 
-* `quest` (int)
-  * The `questID` of the Intro Quest. This will be used for the `label` property.
+- `quest` (int)
+  - The `questID` of the Intro Quest. This will be used for the `label` property.
 
 ---
 
 ## Item
+
 ``` lua
 map.nodes[78175317] = ns.node.Item({
     id = 189418,
@@ -189,14 +201,16 @@ map.nodes[78175317] = ns.node.Item({
 ```
 
 ### Required Properties
+
 `ns.node.Item` requires the following properties:
 
-* `id` (int)
-  * The `itemID` for the item. This will be used for the `label` property.
+- `id` (int)
+  - The `itemID` for the item. This will be used for the `label` property.
 
 ---
 
 ## NPC
+
 ``` lua
 map.nodes[37164467] = ns.node.NPC({
     id = 183962,
@@ -220,14 +234,16 @@ map.nodes[37164467] = ns.node.NPC({
 ```
 
 ### Required Properties
+
 `ns.node.NPC` requires the following properties:
 
-* `id` (int)
-  * The `npcID` for the NPC. This will be used for the `label` property.
+- `id` (int)
+  - The `npcID` for the NPC. This will be used for the `label` property.
 
 ---
 
 ## PetBattle
+
 ``` lua
 map.nodes[13095369] = ns.node.PetBattle({
     id = 200689,
@@ -236,24 +252,27 @@ map.nodes[13095369] = ns.node.PetBattle({
 ```
 
 ### Default Properites
+
 `ns.node.PetBattle` has the following properties set by default:
 
-* `scale` (float) (*default: 1.2*)
-  * The default scale value for this node.
-* `icon` ([string](icons.html) / int) (*default: 'paw_y'*)
-  * The default icon for this node.
-* `group` ([group](groups.html)) (*default: ns.groups.PETBATTLE*)
-  * The default group for this node.
+- `scale` (float) (*default: 1.2*)
+  - The default scale value for this node.
+- `icon` ([string](icons.html) / int) (*default: 'paw_y'*)
+  - The default icon for this node.
+- `group` ([group](groups.html)) (*default: ns.groups.PETBATTLE*)
+  - The default group for this node.
 
 ### Required Properties
+
 `ns.node.PetBattle` requires the following properties:
 
-* `id` (int)
-  * The `npcID` for the NPC who offers the pet battle. This will be used for the `label` property.
+- `id` (int)
+  - The `npcID` for the NPC who offers the pet battle. This will be used for the `label` property.
 
 ---
 
 ## Quest
+
 ``` lua
 map.nodes[53486145] = Quest({
     quest = 55743,
@@ -269,23 +288,25 @@ map.nodes[53486145] = Quest({
 ```
 
 ### Default Properites
+
 `ns.node.Quest` has the following properties set by default:
 
-* `icon` ([string](icons.html) / int) (*default: 'quest_ay'*)
-  * The default icon for this node.
+- `icon` ([string](icons.html) / int) (*default: 'quest_ay'*)
+  - The default icon for this node.
 
 ### Optional Properties
+
 `ns.node.Quest` supports the following properties:
 
-* `id` (int)
-  * The `questID` of the Quest. This will be used for the `label` property.
-* `daily` (boolean)
-  * This is used for the `icon` property, when it is `true` the icon will set it to `'quest_ab'`.
-
+- `id` (int)
+  - The `questID` of the Quest. This will be used for the `label` property.
+- `daily` (boolean)
+  - This is used for the `icon` property, when it is `true` the icon will set it to `'quest_ab'`.
 
 ---
 
 ## Rare
+
 ``` lua
 map.nodes[43947530] = ns.node.Rare({
     id = 183516,
@@ -303,31 +324,35 @@ map.nodes[43947530] = ns.node.Rare({
 ```
 
 ### Default Properites
+
 `ns.node.Rare` has the following properties set by default:
 
-* `scale` (float) (*default: 1.2*)
-  * The default scale value for this node.
-* `icon` ([string](icons.html) / int) (*default: 'skull_b'*)
-  * The default icon for this node.
-  * The icon will automatically update to `'skull_w'` when all rewards have been collected.
-* `group` ([group](groups.html)) (*default: ns.groups.RARE*)
-  * The default group for this node.
+- `scale` (float) (*default: 1.2*)
+  - The default scale value for this node.
+- `icon` ([string](icons.html) / int) (*default: 'skull_b'*)
+  - The default icon for this node.
+  - The icon will automatically update to `'skull_w'` when all rewards have been collected.
+- `group` ([group](groups.html)) (*default: ns.groups.RARE*)
+  - The default group for this node.
 
 ### Required Properties
+
 `ns.node.Rare` requires the following properties:
 
-* `id` (int)
-  * The `npcID` for the rare. This will be used for the `label` property.
+- `id` (int)
+  - The `npcID` for the rare. This will be used for the `label` property.
 
 ### Recommended Properties
+
 It is highly recommended that you add the `quest` property to rares and use the hidden `questID` used by Blizzard to track if a rare has been killed for the day.
 
-* `quest` (int)
-  * The `questID` used to track the daily kill.
+- `quest` (int)
+  - The `questID` used to track the daily kill.
 
 ---
 
 ## Treasure
+
 ``` lua
 map.nodes[65804182] = ns.node.Treasure({
     quest = 70600,
@@ -345,19 +370,21 @@ map.nodes[65804182] = ns.node.Treasure({
 ```
 
 ### Default Properites
+
 `ns.node.Treasure` has the following properties set by default:
 
-* `scale` (float) (*default: 1.3*)
-  * The default scale value for this node.
-* `icon` ([string](icons.html) / int) (*default: 'chest_gy'*)
-  * The default icon for this node.
-* `group` ([group](groups.html)) (*default: ns.groups.TREASURE*)
-  * The default group for this node.
+- `scale` (float) (*default: 1.3*)
+  - The default scale value for this node.
+- `icon` ([string](icons.html) / int) (*default: 'chest_gy'*)
+  - The default icon for this node.
+- `group` ([group](groups.html)) (*default: ns.groups.TREASURE*)
+  - The default group for this node.
 
 ### Recommended Properties
+
 It is highly recommended that you add the `quest` property to rares and use the hidden `questID` used by Blizzard to track if a treasure has been collected.
 
-* `quest` (int)
-  * The `questID` used to track a the collected treasure.
+- `quest` (int)
+  - The `questID` used to track a the collected treasure.
 
 Please note that by default the label for `ns.node.Treasure` comes from the critiera for the first listed [achievement](rewards.html#achievement) in `rewards`.

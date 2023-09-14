@@ -1,6 +1,7 @@
 # POIs
 
 `ns.poi.`
+
 - [POI](#poi)
 - [Path](#path)
 - [Line](#line)
@@ -8,8 +9,8 @@
 - [Circle](#circle)
 - [Square](#square)
 
-
 ## POI
+
 Base class for other POI Classes.
 POIs are only displayed when hovering a node.
 
@@ -23,24 +24,26 @@ A POI can have just a table of coordinates, those will be marked by a dot. The c
 POIs can also have folloing properties:
 
 ### Required Properties
+
 `ns.poi.POI` requires the following properties:
 
-* `points` ([int]) (*required*)
-  * POI coordintes in a table.
+- `points` ([int]) (*required*)
+  - POI coordintes in a table.
 
 ### Optional Properties
+
 `ns.poi.POI` supports the following properties:
 
-* `color` ([color](colors.html))
-  * Can use all colors set in [colors.lua](colors.html).
-* `icon` ([string](icons.html))
-  * Changes the dot to an [icon](icons.html).
-* `quest` (int / [int])
-  * Hides the POI if all quests are completed.
-* `questAny` (int / [int])
-  * Hides the POI if any Quest is completed.
-* `questDeps` (int / [int])
-  * Hides the POI if the required Quests are not completed
+- `color` ([color](colors.html))
+  - Can use all colors set in [colors.lua](colors.html).
+- `icon` ([string](icons.html))
+  - Changes the dot to an [icon](icons.html).
+- `quest` (int / [int])
+  - Hides the POI if all quests are completed.
+- `questAny` (int / [int])
+  - Hides the POI if any Quest is completed.
+- `questDeps` (int / [int])
+  - Hides the POI if the required Quests are not completed
 
 <!--
 ---
@@ -55,6 +58,7 @@ Glow()
 ---
 
 ## Path
+
 A Path is used to draw lines between multiple coordinates.
 
 ```lua
@@ -65,6 +69,7 @@ Path({color = 'Red', points = {41176055, 41526214, 41995819, 43565838}})
 ---
 
 ## Line
+
 This adds a Segmented Line between two far apart coordinates.
 
 ```lua
@@ -75,6 +80,7 @@ Line({color = 'Red', points = {41176055, 41526214}})
 ---
 
 ## Arrow
+
 Uses [Line](#line) as its base class but adds an arrow to the last segment.
 
 ```lua
@@ -84,6 +90,7 @@ Arrow({41176055, 41526214})
 ---
 
 ## Circle
+
 This is a function which returns coordinates of a circle.
 
 ```lua
@@ -91,16 +98,18 @@ Path({Circle({origin = 50005000, radius = 5.5})})
 ```
 
 ### Required Properties
+
 `ns.poi.Cirlce` requires the following properties:
 
-* `origin` (int)
-  * Coordinate from the center of the cirle.
-* `radius` (float)
-  * Radius of the circle.
+- `origin` (int)
+  - Coordinate from the center of the cirle.
+- `radius` (float)
+  - Radius of the circle.
 
 ---
 
 ## Square
+
 This is a function which returns coordinates of a square.
 
 ```lua
@@ -108,9 +117,10 @@ Path({Square({origin = 50005000, radius = 5.5})})
 ```
 
 ### Required Properties
+
 `ns.poi.Square` requires the following properties:
 
-* `origin` (int)
-  * Coordinate from the center of the square.
-* `width` (float)
-  * Width of the Square.
+- `origin` (int)
+  - Coordinate from the center of the square.
+- `width` (float)
+  - Width of the Square.
