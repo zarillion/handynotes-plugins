@@ -853,7 +853,7 @@ L['unwaking_echo_note'] = '{note:Vous ne pouvez ouvrir ce coffre que dans vos r�
 
 L['amirdrassil_defenders_shield_note'] = 'Sur la table à côté de {npc:211328}.'
 L['dreamtalon_claw_note'] = 'A la base du tronc d\'arbre.'
-L['experimental_dreamcatcher_note'] = nil
+L['experimental_dreamcatcher_note'] = 'Dans l\'arbre flottant.'
 L['grove_keepers_pillar_note'] = 'Devant l\'entrée de la grotte.'
 L['handful_of_pebbles_note'] = 'Sur l\'épaule droite de la statue.'
 L['molted_faerie_dragon_scales_note'] = 'Au sol parmi quelques fleurs.'
@@ -866,5 +866,5 @@ L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des bébés séléniens pour le haut-fait {achievement:19293}.'
 
-L['thaelishar_vendor_note'] = nil
-L['sylvia_vendor_note'] = nil
+L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
+L['sylvia_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'
