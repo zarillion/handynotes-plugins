@@ -836,8 +836,8 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 -------------------------------------------------------------------------------
 
 L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaquer {npc:209898}.'
-L['greedy_gessie_note'] = nil
-L['envoy_of_winter_note'] = nil
+L['greedy_gessie_note'] = 'Vous devez récupérer les objets {object:Légumes sauvages}, {object:Melon écaille de rubis} et {object:Racine orange} aux alentours et les mettre dans les paniers près des {npc:210285} pour commencer le combat.'
+L['envoy_of_winter_note'] = 'Ramassez des {item:208881} et utilisez le {spell:421658} près du puits jusqu\'à ce que l\'{npc:209929} apparaisse.'
 
 L['in_a_tree'] = 'En haut d\'un arbre.'
 
@@ -846,10 +846,10 @@ L['hidden_moonkin_stash_label'] = nil -- review NYT
 L['magical_bloom_note'] = 'Poursuivez le {npc:210544} jusqu\'à ce qu\'il révèle le trésor.'
 L['pineshrew_cache_note'] = 'A côté de quelques rochers.'
 L['reliquary_of_ashamane_note'] = '{note:Si l\'expédition {wq:Dryad Fire Drill} est active, vous devez la terminer avant de pouvoir voir le trésor.}\n\nTrouvez une {object:Marque d\'Ashamane} {dot:Green} à proximité pour obtenir le buff {spell:425426} et rendez-vous à la {npc:212009}.'
-L['reliquary_of_aviana_note'] = 'Trouvez une {object:Marque d\'Aviana} à proximité pour obtenir le buff {spell:425432} et rendez-vous à la {npc:212011}.'
+L['reliquary_of_aviana_note'] = 'Trouvez une {object:Marque d\'Aviana} {dot:Green} à proximité pour obtenir le buff {spell:425432} et rendez-vous à la {npc:212011}.'
 L['reliquary_of_goldrinn_note'] = 'Trouvez une {object:Marque de Goldrinn} {dot:Green} à proximité pour obtenir le buff {spell:425408} et rendez-vous à la {npc:212012}.'
-L['reliquary_of_ursol_note'] = 'Trouvez une {object:Marque d\'Ursol} à proximité pour obtenir le buff {spell:423306} et rendez-vous à la {npc:210732}.'
-L['triflesnatchs_roving_trove_note'] = nil
+L['reliquary_of_ursol_note'] = 'Trouvez une {object:Marque d\'Ursol} {dot:Green} à proximité pour obtenir le buff {spell:423306} et rendez-vous à la {npc:210732}.'
+L['triflesnatchs_roving_trove_note'] = 'Suivez le {npc:210060} tandis qu\'il vole de branche en branche.'
 
 L['unwaking_echo_label'] = nil -- review NYT
 L['unwaking_echo_note'] = '{note:Vous ne pouvez ouvrir ce coffre que dans vos rêves.}\n\nEndormez-vous avec l\'emote {emote:/sleep} à côté du coffre pour l\'ouvrir.'
