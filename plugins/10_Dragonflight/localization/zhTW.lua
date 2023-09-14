@@ -838,6 +838,7 @@ L['options_icons_zone_event_desc'] = '顯示區域事件的位置.'
 -------------------------------------------------------------------------------
 
 L['reefbreaker_moruud_note'] = nil
+L['greedy_gessie_note'] = nil
 
 L['in_a_tree'] = nil
 

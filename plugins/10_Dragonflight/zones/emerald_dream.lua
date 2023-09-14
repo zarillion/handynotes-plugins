@@ -84,18 +84,20 @@ map.nodes[29862077] = Rare({ -- REVIEW
     }
 }) -- Firebrand Fystia
 
-map.nodes[82004200] = Rare({ -- REVIEW
+map.nodes[62807300] = Rare({ -- REVIEW
     id = 209913,
     quest = nil,
     rewards = {
         Achievement({id = 19316, criteria = 62938}) -- Adventurer of the Emerald Dream
     }
 }) -- Fruitface
+-- saw him on the minimap underground but was gone when i got there
 
 map.nodes[54034142] = Rare({ -- REVIEW
     id = 209936,
     quest = 77982,
     vignette = 5817,
+    note = L['greedy_gessie_note'],
     rewards = {
         Achievement({id = 19316, criteria = 62932}) -- Adventurer of the Emerald Dream
     }
@@ -245,6 +247,7 @@ local Talthonei = Class('Talthonei', Rare, {
 
 map.nodes[35132264] = Talthonei()
 map.nodes[36922240] = Talthonei()
+map.nodes[61426741] = Talthonei()
 map.nodes[63877009] = Talthonei()
 map.nodes[64446660] = Talthonei()
 
