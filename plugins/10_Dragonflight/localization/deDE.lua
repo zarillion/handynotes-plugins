@@ -840,6 +840,7 @@ L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse 
 
 L['reefbreaker_moruud_note'] = 'Befestige alle 6 {npc:210089e} an ihm, um ihn angreifen zu können.'
 L['greedy_gessie_note'] = nil
+L['envoy_of_winter_note'] = nil
 
 L['in_a_tree'] = 'Oben im Baum.'
 

@@ -837,6 +837,7 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 
 L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaquer {npc:209898}.'
 L['greedy_gessie_note'] = nil
+L['envoy_of_winter_note'] = nil
 
 L['in_a_tree'] = 'En haut d\'un arbre.'
 

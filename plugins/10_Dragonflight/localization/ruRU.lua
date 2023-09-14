@@ -840,6 +840,7 @@ L['options_icons_zone_event_desc'] = 'Отображение мест для с�
 
 L['reefbreaker_moruud_note'] = nil
 L['greedy_gessie_note'] = nil
+L['envoy_of_winter_note'] = nil
 
 L['in_a_tree'] = nil
 

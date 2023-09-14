@@ -68,6 +68,7 @@ map.nodes[34716316] = Rare({ -- REVIEW
     id = 209929,
     quest = 77878,
     vignette = 5816,
+    note = L['envoy_of_winter_note'],
     rewards = {
         Achievement({id = 19316, criteria = 62933}) -- Adventurer of the Emerald Dream
     }
@@ -99,7 +100,8 @@ map.nodes[54034142] = Rare({ -- REVIEW
     vignette = 5817,
     note = L['greedy_gessie_note'],
     rewards = {
-        Achievement({id = 19316, criteria = 62932}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62932}), -- Adventurer of the Emerald Dream
+        Item({item = 201437}) -- Slumbering Dream Fragment
     }
 }) -- Greedy Gessie
 
