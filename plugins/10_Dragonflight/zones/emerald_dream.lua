@@ -8,6 +8,7 @@ local Map = ns.Map
 local Class = ns.Class
 
 local Collectible = ns.node.Collectible
+local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -16,14 +17,14 @@ local PT = ns.node.ProfessionTreasures
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
+local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
-local Pet = ns.reward.Pet
-local Mount = ns.reward.Mount
 
-local POI = ns.poi.POI
 local Path = ns.poi.Path
+local POI = ns.poi.POI
 
 local DC = ns.DRAGON_CUSTOMIZATIONS
 
@@ -558,9 +559,7 @@ map.nodes[39096598] = MoonkinHatchling({criteriaID = 62776}) -- Bumbletweet
 
 map.nodes[36457124] = MoonkinHatchling({
     criteriaID = 62788,
-    pois = {
-        POI({36147092}) -- Entrance
-    }
+    pois = {POI({36147092})} -- Entrance
 }) -- Chickle
 
 map.nodes[36386277] = MoonkinHatchling({
@@ -568,23 +567,17 @@ map.nodes[36386277] = MoonkinHatchling({
     note = L['in_small_cave']
 }) -- Eugene
 
-map.nodes[90005200] = MoonkinHatchling({ -- Review
-    criteriaID = 62775
-}) -- Feets
+map.nodes[90005200] = MoonkinHatchling({criteriaID = 62775}) -- Feets -- Review
 
 map.nodes[39347178] = MoonkinHatchling({
     criteriaID = 62779,
     note = L['in_cave'],
-    pois = {
-        POI({38817158}) -- Entrance
-    }
+    pois = {POI({38817158})} -- Entrance
 }) -- Fruffles
 
 map.nodes[38696352] = MoonkinHatchling({criteriaID = 62789}) -- Fuzz
 
-map.nodes[92005200] = MoonkinHatchling({ -- Review
-    criteriaID = 62773
-}) -- Giblet
+map.nodes[92005200] = MoonkinHatchling({criteriaID = 62773}) -- Giblet -- Review
 
 map.nodes[37767327] = MoonkinHatchling({criteriaID = 62784}) -- Hops
 
@@ -600,48 +593,36 @@ map.nodes[37427231] = MoonkinHatchling({criteriaID = 62782}) -- Owlington
 map.nodes[38046901] = MoonkinHatchling({
     criteriaID = 62777,
     note = L['in_small_cave'],
-    pois = {
-        POI({37526855}) -- Entrance
-    }
+    pois = {POI({37526855})} -- Entrance
 }) -- Peanut
 
 map.nodes[40407150] = MoonkinHatchling({
     criteriaID = 62778,
     note = L['in_cave'],
-    pois = {
-        POI({38817158}) -- Entrance
-    }
+    pois = {POI({38817158})} -- Entrance
 }) -- Snoozle
 
 map.nodes[36357161] = MoonkinHatchling({
     criteriaID = 62780,
-    pois = {
-        POI({36147092}) -- Entrance
-    }
+    pois = {POI({36147092})} -- Entrance
 }) -- Squawkle
 
 map.nodes[38446930] = MoonkinHatchling({
     criteriaID = 62786,
     note = L['in_cave'],
-    pois = {
-        POI({37536964}) -- Entrance
-    }
+    pois = {POI({37536964})} -- Entrance
 }) -- Squeaky
 
 map.nodes[38757048] = MoonkinHatchling({
     criteriaID = 62791,
     note = L['in_cave'],
-    pois = {
-        POI({37536964}) -- Entrance
-    }
+    pois = {POI({37536964})} -- Entrance
 }) -- Tickles
 
 map.nodes[37757026] = MoonkinHatchling({
     criteriaID = 62781,
     note = L['in_cave'],
-    pois = {
-        POI({37536964}) -- Entrance
-    }
+    pois = {POI({37536964})} -- Entrance
 }) -- Wingnut
 
 -------------------------------------------------------------------------------
@@ -670,16 +651,16 @@ map.nodes[37757026] = MoonkinHatchling({
 local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
     label = L['dreamseed_soil_label'],
     icon = 464030,
-    group = ns.groups.DREAM_OF_SEEDS
-}) -- Emerald Bounty
-
-function EmeraldBounty.getters:rewards()
-    local rewards = {
-        Achievement({id = 19013, criteria = self.criteriaID}), -- I Dream of Seeds
-        Achievement({id = 19198, criteria = {id = 1, qty = true}}) -- The Seeds I Sow
+    group = ns.groups.DREAM_OF_SEEDS,
+    getters = {
+        rewards = function(self)
+            return {
+                Achievement({id = 19013, criteria = self.criteriaID}), -- I Dream of Seeds
+                Achievement({id = 19198, criteria = {id = 1, qty = true}}) -- The Seeds I Sow
+            }
+        end
     }
-    return rewards
-end
+}) -- Emerald Bounty
 
 map.nodes[38455920] = EmeraldBounty()
 map.nodes[40025268] = EmeraldBounty()
@@ -704,24 +685,24 @@ map.nodes[63956483] = EmeraldBounty({criteriaID = 62030}) -- Dragon's Daffodil
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[60341694] = ns.node.NPC({
+map.nodes[60341694] = NPC({
     id = 212903,
     icon = 'peg_bl',
     scale = 2.0,
-    note = 'Exchange gold for Druid glyphs.',
+    note = L['thaelishar_vendor_note'],
     rewards = {
         Item({item = 210764, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamtalon
         Item({item = 210767, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamstag
         Item({item = 210755, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamsaber
-        Item({item = 210766, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Umbraclaw
+        Item({item = 210766, note = '500', quest = nil, class = 'DRUID'}) -- Silent Mark of the Umbraclaw
     }
 }) -- Thaelishar Groveheard <Fauna Specialist>
 
-map.nodes[59761689] = ns.node.NPC({
+map.nodes[59761689] = NPC({
     id = 211265,
     icon = 'peg_bl',
     scale = 2.0,
-    note = 'Exchange {currency:2651} for pets, mounts, and transmog.',
+    note = L['sylvia_vendor_note'],
     rewards = {
         Pet({item = 210689, id = 4305, note = '800'}), -- Snoots
         Pet({item = 210690, id = 4306, note = '800'}), -- Elmer
@@ -734,6 +715,6 @@ map.nodes[59761689] = ns.node.NPC({
         Mount({item = 210775, id = 1835, note = '2500'}), -- Reins of the Snowfluff Dreamtalon
         Mount({item = 210769, id = 1833, note = '2500'}), -- Reins of the Springtide Dreamtalon
         Mount({item = 210057, id = 1817, note = '2500'}), -- Reins of the Morning Flourish Dreamsaber
-        Mount({item = 210058, id = 1816, note = '2500'}), -- Reins of the Evening Sun Dreamsaber
+        Mount({item = 210058, id = 1816, note = '2500'}) -- Reins of the Evening Sun Dreamsaber
     }
 }) -- Sylvia Whisperbloom <Dreamseed Botanist>

@@ -838,7 +838,7 @@ L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse 
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
-L['reefbreaker_moruud_note'] = 'Befestige alle 6x {npc:210089e} an ihm, um ihn angreifen zu können.'
+L['reefbreaker_moruud_note'] = 'Befestige alle 6 {npc:210089e} an ihm, um ihn angreifen zu können.'
 
 L['in_a_tree'] = 'Oben im Baum.'
 
@@ -869,3 +869,6 @@ L['options_icons_dream_of_seeds_desc'] = 'Zeigt die Positionen der {npc:210723} 
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinküken für den Erfolg {achievement:19293} an.'
+
+L['thaelishar_vendor_note'] = nil
+L['sylvia_vendor_note'] = nil

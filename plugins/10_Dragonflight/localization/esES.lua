@@ -868,3 +868,6 @@ L['options_icons_dream_of_seeds_desc'] = 'Muestra dónde están los {object:Drea
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las moonkin hatchling para el logro {achievement:19293}.' -- REVIEW moonkin hatchling y revisar el artículo. Podría ser Prole de lechúcico lunar.
+
+L['thaelishar_vendor_note'] = nil
+L['sylvia_vendor_note'] = nil

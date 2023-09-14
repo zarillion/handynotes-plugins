@@ -835,7 +835,7 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
-L['reefbreaker_moruud_note'] = 'Connectez les 6x {npc:210089} proches pour attaquer {npc:209898}.'
+L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaquer {npc:209898}.'
 
 L['in_a_tree'] = 'En haut d\'un arbre.'
 
@@ -866,3 +866,6 @@ L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des bébés séléniens pour le haut-fait {achievement:19293}.'
+
+L['thaelishar_vendor_note'] = nil
+L['sylvia_vendor_note'] = nil

@@ -837,7 +837,7 @@ L['options_icons_zone_event_desc'] = 'Display locations for zone events.'
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
-L['reefbreaker_moruud_note'] = 'Connect all 6x of the nearby {npc:210089} to attack {npc:209898}.'
+L['reefbreaker_moruud_note'] = 'Connect all 6 of the nearby {npc:210089} to attack {npc:209898}.'
 
 L['in_a_tree'] = 'Up in a tree.'
 
@@ -868,3 +868,6 @@ L['options_icons_dream_of_seeds_desc'] = 'Display {object:Dreamseed Soil} locati
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Display moonkin hatchling locations for {achievement:19293}.'
+
+L['thaelishar_vendor_note'] = 'Exchange gold for Druid glyphs.'
+L['sylvia_vendor_note'] = 'Exchange {currency:2651} for pets, mounts, and transmog.'
