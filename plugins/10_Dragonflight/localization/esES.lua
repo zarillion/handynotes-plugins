@@ -839,8 +839,8 @@ L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
 -------------------------------------------------------------------------------
 
 L['reefbreaker_moruud_note'] = 'Conecta las 6 {npc:210089} cercanas para atacar a {npc:209898}.'
-L['greedy_gessie_note'] = nil
-L['envoy_of_winter_note'] = nil
+L['greedy_gessie_note'] = 'Necesitas recoger {object:Wild Greens}, {object:Melon Escama Rubí} y {object:Orangeroot} alrededor de la zona y ponerlo todo en las cestas cerca de {npc:210285s} para comenzar el encuentro.' -- REVIEW ¿Rubyscale Melon es Melon Escama Rubí? ¿{object:Wild Greens}? ¿{object:Orangeroot}?
+L['envoy_of_winter_note'] = 'Reune {item:208881} y usa {spell:421658} cerca del pozo hasta que aparezca {npc:209929}.'
 
 L['in_a_tree'] = 'Encima del árbol.'
 
@@ -852,7 +852,7 @@ L['reliquary_of_ashamane_note'] = '{note:Si la misión del mundo {wq:Dryad Fire 
 L['reliquary_of_aviana_note'] = 'Encuentra una {object:Marca de Aviana} {dot:Green}cercana para conseguir el buff {spell:425432} e ir a la {npc:212011}.'
 L['reliquary_of_goldrinn_note'] = 'Encuentra una {object:Marca de Goldrinn} {dot:Green} cercana para conseguir el buff {spell:425408} e ir a la {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Encuentra una {object:Marca de Ursol} {dot:Green} cercana para conseguir el buff {spell:423306} e ir a la {npc:210732}.'
-L['triflesnatchs_roving_trove_note'] = nil
+L['triflesnatchs_roving_trove_note'] = 'Sigue a {npc:210060} mientras vuela de rama en rama.\n\n{bug:Actualmente bugeado tras la 3ª percha.}' -- REVIEW ¿Perch es percha?
 
 L['unwaking_echo_label'] = 'Unwaking Echo' -- REVIEW Unwaking Echo
 L['unwaking_echo_note'] = '{note:Sólo puedes abrir este cofre en tus sueños.}\n\nTeclea la emoción {emote:/dormir} para dormir junto al cofre y que se abra.'
