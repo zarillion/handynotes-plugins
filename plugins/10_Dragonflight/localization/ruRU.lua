@@ -960,6 +960,20 @@ L['soa_14_buried_object_label'] = nil
 L['soa_14_tablet_label'] = nil
 L['soa_14_tablet_note'] = nil
 
+-- Secrets of Azeroth: Clue 15
+L['soa_15_rlabel'] = nil
+L['soa_15_tyrhold_statue_label'] = nil
+L['soa_15_tyrhold_statue_note'] = nil
+L['soa_15_tyrhold_forge_label'] = nil
+L['soa_15_tyrhold_forge_note'] = nil
+L['soa_15_broken_urn_note'] = nil
+L['soa_15_broken_urn_location'] = nil
+L['soa_15_titan_power_relay_label'] = nil
+L['soa_15_tpr_note'] = nil
+L['soa_15_orb_label'] = nil
+L['soa_15_orb_location'] = nil
+L['soa_15_orb_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = nil
 L['buried_satchel_sublabel'] = nil

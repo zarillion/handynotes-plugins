@@ -959,6 +959,20 @@ L['soa_14_buried_object_label'] = 'Buried Object (%d)'
 L['soa_14_tablet_label'] = 'Titan-Inscribed Tablet (%d)'
 L['soa_14_tablet_note'] = 'Use the {item:208092} to reveal the {object:Titan-Inscribed Tablet}. Follow the {item:206696} coordinates to the {object:Buried Object} and dig up the {item:209795}.'
 
+-- Secrets of Azeroth: Clue 15
+L['soa_15_rlabel'] = '(Clue 15)'
+L['soa_15_tyrhold_statue_label'] = 'Tyrhold Statue'
+L['soa_15_tyrhold_statue_note'] = 'Approach the Tyrhold Statue with the {item:208092} and channel until the orb glows bright red.'
+L['soa_15_tyrhold_forge_label'] = 'Tyrhold Forge'
+L['soa_15_tyrhold_forge_note'] = 'Approach the forge in the center of {location:Tyrhold} to receive the {spell:423792} buff.'
+L['soa_15_broken_urn_note'] = 'Loot the {object:Broken Urn} to receive the {item:%d}.'
+L['soa_15_broken_urn_location'] = 'Located on level %d of {location:Tyrhold}.'
+L['soa_15_titan_power_relay_label'] = 'Titan Power Relay'
+L['soa_15_tpr_note'] = 'Insert the {item:%d} into the {object:Titan Power Relay}.'
+L['soa_15_orb_label'] = 'Orb Location'
+L['soa_15_orb_location'] = 'Atop {location:Tyrhold}.'
+L['soa_15_orb_note'] = 'Complete {quest:77977} by defeating {npc:210674} and {npc:210675} to receive the {item:209555}.\n\nPlace the {item:209555} in the console to reveal the {item:208980}.'
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
 L['buried_satchel_sublabel'] = '{note:This is NOT a {item:208142} location.}'

@@ -961,6 +961,20 @@ L['soa_14_buried_object_label'] = 'Vergrabenes Objekt (%d)'
 L['soa_14_tablet_label'] = 'Titanenbeschriebene Tafel (%d)'
 L['soa_14_tablet_note'] = 'Benutze deine {item:208092}, um die {object:Titanenbeschriebene Tafel} zu enthüllen. Folge den Koordinaten mit {item:206696} zu {object:Vergrabenes Objekt} und grabe dort ein {item:209795} aus.'
 
+-- Secrets of Azeroth: Clue 15
+L['soa_15_rlabel'] = nil
+L['soa_15_tyrhold_statue_label'] = nil
+L['soa_15_tyrhold_statue_note'] = nil
+L['soa_15_tyrhold_forge_label'] = nil
+L['soa_15_tyrhold_forge_note'] = nil
+L['soa_15_broken_urn_note'] = nil
+L['soa_15_broken_urn_location'] = nil
+L['soa_15_titan_power_relay_label'] = nil
+L['soa_15_tpr_note'] = nil
+L['soa_15_orb_label'] = nil
+L['soa_15_orb_location'] = nil
+L['soa_15_orb_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
 L['buried_satchel_sublabel'] = '{note:An dieser Position ist KEIN {item:208142}.}'

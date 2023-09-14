@@ -957,6 +957,20 @@ L['soa_14_buried_object_label'] = 'Objet enterré (%d)'
 L['soa_14_tablet_label'] = 'Tablette gravée par les titans (%d)'
 L['soa_14_tablet_note'] = 'Utilisez la {item:208092} pour révéler la {object:Tablette gravée par les titans}. Suivez les coordonnées de la {item:206696} jusqu\'à l\'{object:Objet enterré} et déterrez l\'{item:209795}.'
 
+-- Secrets of Azeroth: Clue 15
+L['soa_15_rlabel'] = nil
+L['soa_15_tyrhold_statue_label'] = nil
+L['soa_15_tyrhold_statue_note'] = nil
+L['soa_15_tyrhold_forge_label'] = nil
+L['soa_15_tyrhold_forge_note'] = nil
+L['soa_15_broken_urn_note'] = nil
+L['soa_15_broken_urn_location'] = nil
+L['soa_15_titan_power_relay_label'] = nil
+L['soa_15_tpr_note'] = nil
+L['soa_15_orb_label'] = nil
+L['soa_15_orb_location'] = nil
+L['soa_15_orb_note'] = nil
+
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
 L['buried_satchel_sublabel'] = '{note:Ceci n\'est PAS un emplacement de {item:208142}.}'

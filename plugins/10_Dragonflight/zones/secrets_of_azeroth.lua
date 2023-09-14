@@ -1045,6 +1045,185 @@ tha.nodes[50207800] = SecretsOfAzeroth({
 }) -- Buried Object (3)
 
 -------------------------------------------------------------------------------
+------------------------- SECRETS OF AZEROTH: CLUE 15 -------------------------
+-------------------------------------------------------------------------------
+
+-- 206864 Preservationist Kathos
+-- 77959 ![A Treacherous Race]
+-- 208958 Ancient Tyrhold Artifact Notes
+
+local TyrholdStatue = Class('TyrholdStatue', SecretsOfAzeroth, {
+    label = L['soa_15_tyrhold_statue_label'],
+    rlabel = Gray(L['soa_15_rlabel']),
+    note = L['soa_15_tyrhold_statue_note'],
+    requires = REQUIREMENT_TORCH_OF_PYRRETH,
+    questDeps = 77959 -- ![A Treacherous Race]
+}) -- Tyrhold Statue
+
+tha.nodes[59906100] = TyrholdStatue({quest = 77964})
+tha.nodes[57106440] = TyrholdStatue({quest = 77960})
+tha.nodes[57106290] = TyrholdStatue({quest = 77961})
+tha.nodes[57906180] = TyrholdStatue({quest = 77962})
+tha.nodes[57906050] = TyrholdStatue({quest = 77963})
+tha.nodes[58005690] = TyrholdStatue({quest = 77965}) -- 77974?
+tha.nodes[57905600] = TyrholdStatue({quest = 77966})
+tha.nodes[59805640] = TyrholdStatue({quest = 77967})
+
+tha.nodes[61205870] = SecretsOfAzeroth({
+    label = L['soa_15_tyrhold_forge_label'],
+    rlabel = Gray(L['soa_15_rlabel']),
+    note = L['soa_15_tyrhold_forge_note'],
+    questDeps = {77964, 77960, 77961, 77962, 77963, 77965, 77966, 77967}, -- or maybe 77974?
+    quest = 77975
+}) -- Tyrhold Forge
+
+tha.nodes[59836226] = SecretsOfAzeroth({
+    label = '{item:208970}',
+    location = format(L['soa_15_broken_urn_location'], 1),
+    note = format(L['soa_15_broken_urn_note'], 208970),
+    rlabel = Gray(L['soa_15_rlabel']),
+    questDeps = 77975, -- hidden
+    quest = 77970, -- hidden
+    playerHasItem = {
+        208970, -- Titan Energy Core
+        208969 -- Titan Energy Cube
+    },
+    rewards = {
+        Item({item = 208970}) -- Titan Energy Core
+    }
+}) -- Titan Energy Core
+
+tha.nodes[59945468] = SecretsOfAzeroth({
+    label = '{item:208971}',
+    location = format(L['soa_15_broken_urn_location'], 1),
+    note = format(L['soa_15_broken_urn_note'], 208971),
+    rlabel = Gray(L['soa_15_rlabel']),
+    questDeps = 77975, -- hidden
+    quest = 77970, -- hidden
+    playerHasItem = {
+        208971, -- Titan Cube Housing
+        208969 -- Titan Energy Cube
+    },
+    rewards = {
+        Item({item = 208971}) -- Titan Cube Housing
+    }
+}) -- Titan Cube Housing
+
+tha.nodes[59686263] = SecretsOfAzeroth({
+    label = '{item:208973}',
+    location = format(L['soa_15_broken_urn_location'], 3),
+    note = format(L['soa_15_broken_urn_note'], 208973),
+    rlabel = Gray(L['soa_15_rlabel']),
+    questDeps = 77975, -- hidden
+    quest = 77971, -- hidden
+    playerHasItem = {208973},
+    rewards = {
+        Item({item = 208973}) -- Large Titan Capacitor
+    }
+}) -- Large Titan Capacitor
+
+tha.nodes[59725486] = SecretsOfAzeroth({
+    label = '{item:208960}',
+    location = format(L['soa_15_broken_urn_location'], 3),
+    note = format(L['soa_15_broken_urn_note'], 208960),
+    rlabel = Gray(L['soa_15_rlabel']),
+    questDeps = 77975, -- hidden
+    quest = 77973, -- hidden
+    playerHasItem = {208960},
+    rewards = {
+        Item({item = 208960}) -- Titan Focusing Crystal
+    }
+}) -- Titan Focusing Crystal
+
+tha.nodes[61655508] = SecretsOfAzeroth({
+    label = '{item:208966}',
+    location = format(L['soa_15_broken_urn_location'], 5),
+    note = format(L['soa_15_broken_urn_note'], 208966),
+    rlabel = Gray(L['soa_15_rlabel']),
+    questDeps = 77975, -- hidden
+    quest = 77969, -- hidden
+    playerHasItem = {
+        208966, -- Titan Block Key Fragment
+        208965 -- Titan Block Key
+    },
+    rewards = {
+        Item({item = 208966}) -- Titan Block Key Fragment
+    }
+}) -- Titan Block Key Fragment
+
+tha.nodes[61966192] = SecretsOfAzeroth({
+    label = '{item:208967}',
+    location = format(L['soa_15_broken_urn_location'], 5),
+    note = format(L['soa_15_broken_urn_note'], 208967),
+    rlabel = Gray(L['soa_15_rlabel']),
+    questDeps = 77975, -- hidden
+    quest = 77969, -- hidden
+    playerHasItem = {
+        208967, -- Titan Block Key Fragment
+        208965 -- Titan Block Key
+    },
+    rewards = {
+        Item({item = 208967}) -- Titan Block Key Fragment
+    }
+}) -- Titan Block Key Fragment
+
+tha.nodes[59305680] = SecretsOfAzeroth({
+    label = L['soa_15_titan_power_relay_label'],
+    quest = {
+        77968, -- hidden
+        77973 -- hidden
+    },
+    note = format(L['soa_15_tpr_note'], 208960), -- Titan Focusing Crystal
+    rlabel = Gray(L['soa_15_rlabel'])
+}) -- Titan Power Relay
+
+tha.nodes[59506060] = SecretsOfAzeroth({
+    label = L['soa_15_titan_power_relay_label'],
+    quest = {
+        77970, -- hidden
+        77973 -- hidden
+    },
+    note = format(L['soa_15_tpr_note'], 208969), -- Titan Power Cube
+    rlabel = Gray(L['soa_15_rlabel'])
+}) -- Titan Power Relay
+
+tha.nodes[61006240] = SecretsOfAzeroth({
+    label = L['soa_15_titan_power_relay_label'],
+    quest = {
+        77971, -- hidden
+        77973 -- hidden
+    },
+    note = format(L['soa_15_tpr_note'], 208973), -- Titan Capacitor
+    rlabel = Gray(L['soa_15_rlabel'])
+}) -- Titan Power Relay
+
+tha.nodes[61005500] = SecretsOfAzeroth({
+    label = L['soa_15_titan_power_relay_label'],
+    quest = {
+        77969, -- hidden
+        77973 -- hidden
+    },
+    note = format(L['soa_15_tpr_note'], 208965), -- Titan Block Key
+    rlabel = Gray(L['soa_15_rlabel'])
+}) -- Titan Power Relay
+
+tha.nodes[60165874] = SecretsOfAzeroth({
+    label = L['soa_15_orb_label'],
+    location = L['soa_15_orb_location'],
+    rlabel = Gray(L['soa_15_rlabel']),
+    quest = {
+        77977, -- ![An Ominous Artifact]
+        77308 -- Clue 15 complete
+    },
+    questDeps = 77973, -- hidden
+    note = L['soa_15_orb_note'],
+    rewards = {
+        Achievement({id = 18646, criteria = 14}), -- Whodunnit?
+        Mount({item = 208152, id = 1794}) -- Pattie
+    }
+}) -- Orb Location
+
+-------------------------------------------------------------------------------
 -------------------------- MOUNT: MIMIRON'S JUMPJETS --------------------------
 -------------------------------------------------------------------------------
 
