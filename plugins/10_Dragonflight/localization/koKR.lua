@@ -780,7 +780,6 @@ L['in_a_tree'] = nil
 L['hidden_moonkin_stash_label'] = nil
 
 L['magical_bloom_note'] = nil
-L['odd_burl_note'] = nil
 L['pineshrew_cache_note'] = nil
 L['reliquary_of_ashamane_note'] = nil
 L['reliquary_of_aviana_note'] = nil

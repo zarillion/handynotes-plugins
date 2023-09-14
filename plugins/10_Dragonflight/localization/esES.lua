@@ -844,7 +844,6 @@ L['in_a_tree'] = 'Encima del árbol.'
 L['hidden_moonkin_stash_label'] = 'Hidden Moonkin Stash' -- REVIEW
 
 L['magical_bloom_note'] = 'Ataca a {npc:210544} y persíguelo hasta que revele el tesoro.'
-L['odd_burl_note'] = 'En lo alto del árbol.'
 L['pineshrew_cache_note'] = 'Junto a algunas rocas.'
 L['reliquary_of_ashamane_note'] = '{note:Si la misión del mundo {wq:Dryad Fire Drill} está activa necesitarás completarla antes para poder ver el tesoro.}\n\nEncuentra una {object:Marca de Ashamane} {dot:Green} cercana para conseguir el buff {spell:425426} e ir a la {npc:212009}.' -- REVIEW {wq:Dryad Fire Drill}
 L['reliquary_of_aviana_note'] = 'Encuentra una {object:Marca de Aviana} cercana para conseguir el buff {spell:425432} e ir a la {npc:212011}.'

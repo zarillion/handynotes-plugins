@@ -844,7 +844,6 @@ L['in_a_tree'] = 'Up in a tree.'
 L['hidden_moonkin_stash_label'] = 'Hidden Moonkin Stash'
 
 L['magical_bloom_note'] = 'Chase the {npc:210544} until he reveals the treasure.'
-L['odd_burl_note'] = 'Up in the tree.'
 L['pineshrew_cache_note'] = 'Next to a few rocks.'
 L['reliquary_of_ashamane_note'] = '{note:If the world quest {wq:Dryad Fire Drill} is active you need to complete it before you can see the treasure.}\n\nFind a {object:Mark of Ashamane} {dot:Green} nearby to get the buff {spell:425426} and go to the {npc:212009}.'
 L['reliquary_of_aviana_note'] = 'Find a {object:Mark of Aviana} nearby to get the buff {spell:425432} and go to the {npc:212011}.'
@@ -856,7 +855,7 @@ L['unwaking_echo_note'] = '{note:You can only open this chest in your dreams.}\n
 
 L['amirdrassil_defenders_shield_note'] = 'On the table next to {npc:211328}.'
 L['dreamtalon_claw_note'] = 'At the bottom of the tree trunk.'
-L['experimental_dreamcatcher_note'] = 'PH' -- don't know how to describe this "thing"
+L['experimental_dreamcatcher_note'] = 'In the floating tree.'
 L['grove_keepers_pillar_note'] = 'In front of the cave entrance.'
 L['handful_of_pebbles_note'] = 'On the statue\'s right shoulder.'
 L['molted_faerie_dragon_scales_note'] = 'On the ground in some flowers.'

@@ -41,6 +41,7 @@ map.nodes[51253128] = Rare({
     quest = 77942,
     rewards = {
         Achievement({id = 19316, criteria = 62945}), -- Adventurer of the Emerald Dream
+        Item({item = 201437}), -- Slumbering Dream Fragment
         DC.WindingSlitherdrake.HairyChin
     }
 }) -- Bloodstripe Great Ray
@@ -169,7 +170,8 @@ map.nodes[40467258] = Rare({
     quest = 78210,
     note = L['in_cave'],
     rewards = {
-        Achievement({id = 19316, criteria = 62942}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62942}), -- Adventurer of the Emerald Dream
+        Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {
         POI({38817158}) -- Entrance
@@ -194,12 +196,13 @@ map.nodes[61697214] = Rare({
     }
 }) -- Nuoberon
 
-map.nodes[44473929] = Rare({ -- REVIEW
+map.nodes[44473929] = Rare({
     id = 210161,
     quest = 77890,
     note = L['in_cave'],
     rewards = {
-        Achievement({id = 19316, criteria = 62951}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62951}), -- Adventurer of the Emerald Dream
+        Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {
         POI({44923692, 44293595}) -- Entrance
@@ -312,9 +315,9 @@ map.nodes[61625960] = Treasure({
     }
 }) -- Magical Bloom
 
-map.nodes[55275726] = Treasure({ -- moved from 61406320 ?
+map.nodes[55275726] = Treasure({
     quest = 78006,
-    note = L['odd_burl_note'],
+    note = L['in_a_tree'],
     rewards = {
         Achievement({id = 19317, criteria = 62961}) -- Treasures of The Emerald Dream
         -- REVIEW
@@ -632,17 +635,7 @@ map.nodes[37757026] = MoonkinHatchling({
 -- Achievement({
 --     id = 19013,
 --     criteria = {
---         62029, -- Chiming Foxglove
---         62032, -- Fuzzy Licorice
---         62035, -- Viridescent Sprout
---         62038, -- Ringing Rose
---         62036, -- Glade Goldenrod
---         62037, -- Dreamer's Daisy
---         62040, -- Lullaby Lavender
 --         62031, -- Singing Weedling
---         62185, -- Comfy Chamomile
---         62186, -- Moon Tulip
---         62189, -- Flourishing Scurfpea
 --         62396, -- Ageless Blossom
 --         62397, -- Whisperbloom Sapling
 --     }
@@ -662,23 +655,23 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
     }
 }) -- Emerald Bounty
 
-map.nodes[38455920] = EmeraldBounty()
-map.nodes[40025268] = EmeraldBounty()
-map.nodes[40744348] = EmeraldBounty()
-map.nodes[46384049] = EmeraldBounty()
-map.nodes[48738045] = EmeraldBounty()
-map.nodes[49174806] = EmeraldBounty()
-map.nodes[51145866] = EmeraldBounty()
-map.nodes[54596763] = EmeraldBounty()
-map.nodes[56513767] = EmeraldBounty()
-map.nodes[63504710] = EmeraldBounty()
 -- map.nodes[] = EmeraldBounty() -- missing
-map.nodes[56654487] = EmeraldBounty({criteriaID = 62039}) -- Lofty Lupin
+map.nodes[38455920] = EmeraldBounty({criteriaID = 62185}) -- Comfy Chamomile
+map.nodes[40025268] = EmeraldBounty({criteriaID = 62035}) -- Viridescent Sprout
 map.nodes[40672478] = EmeraldBounty({criteriaID = 62027}) -- Lavatouched Lilies
-map.nodes[42647405] = EmeraldBounty()
+map.nodes[40744348] = EmeraldBounty({criteriaID = 62036}) -- Glade Goldenrod
+map.nodes[42647405] = EmeraldBounty({criteriaID = 62186}) -- Moon Tulip
+map.nodes[46384049] = EmeraldBounty({criteriaID = 62037}) -- Dreamer's Daisy
+map.nodes[48738045] = EmeraldBounty({criteriaID = 62189}) -- Flourishing Scurfpea
+map.nodes[49174806] = EmeraldBounty({criteriaID = 62038}) -- Ringing Rose
 map.nodes[49903543] = EmeraldBounty({criteriaID = 62041}) -- Belligerent Begonias
+map.nodes[51145866] = EmeraldBounty()
+map.nodes[54596763] = EmeraldBounty({criteriaID = 62029}) -- Chiming Foxglove
+map.nodes[56513767] = EmeraldBounty({criteriaID = 62040}) -- Lullaby Lavender
+map.nodes[56654487] = EmeraldBounty({criteriaID = 62039}) -- Lofty Lupin
 map.nodes[59235875] = EmeraldBounty({criteriaID = 62028}) -- Ysera's Clover
 map.nodes[63025282] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling
+map.nodes[63504710] = EmeraldBounty({criteriaID = 62032}) -- Fuzzy Licorice
 map.nodes[63956483] = EmeraldBounty({criteriaID = 62030}) -- Dragon's Daffodil
 
 -------------------------------------------------------------------------------

@@ -842,7 +842,6 @@ L['in_a_tree'] = 'En haut d\'un arbre.'
 L['hidden_moonkin_stash_label'] = nil -- review NYT
 
 L['magical_bloom_note'] = 'Poursuivez le {npc:210544} jusqu\'à ce qu\'il révèle le trésor.'
-L['odd_burl_note'] = 'En haut de l\'arbre.'
 L['pineshrew_cache_note'] = 'A côté de quelques rochers.'
 L['reliquary_of_ashamane_note'] = '{note:Si l\'expédition {wq:Dryad Fire Drill} est active, vous devez la terminer avant de pouvoir voir le trésor.}\n\nTrouvez une {object:Marque d\'Ashamane} {dot:Green} à proximité pour obtenir le buff {spell:425426} et rendez-vous à la {npc:212009}.'
 L['reliquary_of_aviana_note'] = 'Trouvez une {object:Marque d\'Aviana} à proximité pour obtenir le buff {spell:425432} et rendez-vous à la {npc:212011}.'
