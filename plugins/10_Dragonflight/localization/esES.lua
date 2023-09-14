@@ -839,6 +839,7 @@ L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
 -------------------------------------------------------------------------------
 
 L['reefbreaker_moruud_note'] = 'Conecta las 6 {npc:210089} cercanas para atacar a {npc:209898}.'
+
 L['in_a_tree'] = 'Encima del árbol.'
 
 L['hidden_moonkin_stash_label'] = 'Hidden Moonkin Stash' -- REVIEW
@@ -855,7 +856,7 @@ L['unwaking_echo_note'] = '{note:Sólo puedes abrir este cofre en tus sueños.}\
 
 L['amirdrassil_defenders_shield_note'] = 'En la mesa junto a {npc:211328}.'
 L['dreamtalon_claw_note'] = 'En el fondo del tronco del árbol.'
-L['experimental_dreamcatcher_note'] = 'PH' -- Placeholder
+L['experimental_dreamcatcher_note'] = 'En el árbol flotante.'
 L['grove_keepers_pillar_note'] = 'Enfrente de la entrada a la cueva.'
 L['handful_of_pebbles_note'] = 'Encima del hombro derecho de la estatua.'
 L['molted_faerie_dragon_scales_note'] = 'En el suelo, en unas flores.'
@@ -868,5 +869,5 @@ L['options_icons_dream_of_seeds_desc'] = 'Muestra dónde están los {object:Drea
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las moonkin hatchling para el logro {achievement:19293}.' -- REVIEW moonkin hatchling y revisar el artículo. Podría ser Prole de lechúcico lunar.
 
-L['thaelishar_vendor_note'] = nil
-L['sylvia_vendor_note'] = nil
+L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
+L['sylvia_vendor_note'] = 'Cambia {currency:2651} por mascotas, monturas y transfiguraciones.'
