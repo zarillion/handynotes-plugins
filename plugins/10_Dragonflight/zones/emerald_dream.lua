@@ -409,7 +409,13 @@ map.nodes[46408615] = UnwakingEcho({
     }
 })
 
-map.nodes[55672258] = UnwakingEcho({quest = 78547})
+map.nodes[55672258] = UnwakingEcho({
+    quest = 78547,
+    rewards = {
+        Transmog({item = 210675, slot = L['staff']}) -- Gardener's Lightstaff
+    }
+})
+
 map.nodes[55324538] = UnwakingEcho({
     quest = 78551,
     sublabel = L['in_small_cave']
