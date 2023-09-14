@@ -1049,7 +1049,7 @@ tha.nodes[50207800] = SecretsOfAzeroth({
 -------------------------------------------------------------------------------
 
 -- 206864 Preservationist Kathos
--- 77959 ![A Treacherous Race]
+-- 77959 ![A Treacherous Race] (77957)
 -- 208958 Ancient Tyrhold Artifact Notes
 
 local TyrholdStatue = Class('TyrholdStatue', SecretsOfAzeroth, {
@@ -1065,9 +1065,10 @@ tha.nodes[57106440] = TyrholdStatue({quest = 77960})
 tha.nodes[57106290] = TyrholdStatue({quest = 77961})
 tha.nodes[57906180] = TyrholdStatue({quest = 77962})
 tha.nodes[57906050] = TyrholdStatue({quest = 77963})
-tha.nodes[58005690] = TyrholdStatue({quest = 77965}) -- 77974?
+tha.nodes[58005690] = TyrholdStatue({quest = 77965})
 tha.nodes[57905600] = TyrholdStatue({quest = 77966})
 tha.nodes[59805640] = TyrholdStatue({quest = 77967})
+-- all statues completed quest 77974
 
 tha.nodes[61205870] = SecretsOfAzeroth({
     label = L['soa_15_tyrhold_forge_label'],
@@ -1128,7 +1129,7 @@ tha.nodes[59725486] = SecretsOfAzeroth({
     note = format(L['soa_15_broken_urn_note'], 208960),
     rlabel = Gray(L['soa_15_rlabel']),
     questDeps = 77975, -- hidden
-    quest = 77973, -- hidden
+    quest = 77968, -- hidden
     playerHasItem = {208960},
     rewards = {
         Item({item = 208960}) -- Titan Focusing Crystal
@@ -1169,43 +1170,32 @@ tha.nodes[61966192] = SecretsOfAzeroth({
 
 tha.nodes[59305680] = SecretsOfAzeroth({
     label = L['soa_15_titan_power_relay_label'],
-    quest = {
-        77968, -- hidden
-        77973 -- hidden
-    },
+    quest = 77968, -- hidden
     note = format(L['soa_15_tpr_note'], 208960), -- Titan Focusing Crystal
     rlabel = Gray(L['soa_15_rlabel'])
 }) -- Titan Power Relay
 
 tha.nodes[59506060] = SecretsOfAzeroth({
     label = L['soa_15_titan_power_relay_label'],
-    quest = {
-        77970, -- hidden
-        77973 -- hidden
-    },
+    quest = 77970, -- hidden
     note = format(L['soa_15_tpr_note'], 208969), -- Titan Power Cube
     rlabel = Gray(L['soa_15_rlabel'])
 }) -- Titan Power Relay
 
 tha.nodes[61006240] = SecretsOfAzeroth({
     label = L['soa_15_titan_power_relay_label'],
-    quest = {
-        77971, -- hidden
-        77973 -- hidden
-    },
+    quest = 77971, -- hidden
     note = format(L['soa_15_tpr_note'], 208973), -- Titan Capacitor
     rlabel = Gray(L['soa_15_rlabel'])
 }) -- Titan Power Relay
 
 tha.nodes[61005500] = SecretsOfAzeroth({
     label = L['soa_15_titan_power_relay_label'],
-    quest = {
-        77969, -- hidden
-        77973 -- hidden
-    },
+    quest = 77969, -- hidden
     note = format(L['soa_15_tpr_note'], 208965), -- Titan Block Key
     rlabel = Gray(L['soa_15_rlabel'])
 }) -- Titan Power Relay
+-- all items inserted quest 77973
 
 tha.nodes[60165874] = SecretsOfAzeroth({
     label = L['soa_15_orb_label'],
@@ -1218,7 +1208,7 @@ tha.nodes[60165874] = SecretsOfAzeroth({
     questDeps = 77973, -- hidden
     note = L['soa_15_orb_note'],
     rewards = {
-        Achievement({id = 18646, criteria = 14}), -- Whodunnit?
+        Achievement({id = 18646, criteria = 15}), -- Whodunnit?
         Mount({item = 208152, id = 1794}) -- Pattie
     }
 }) -- Orb Location

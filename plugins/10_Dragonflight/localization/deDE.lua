@@ -962,18 +962,19 @@ L['soa_14_tablet_label'] = 'Titanenbeschriebene Tafel (%d)'
 L['soa_14_tablet_note'] = 'Benutze deine {item:208092}, um die {object:Titanenbeschriebene Tafel} zu enthüllen. Folge den Koordinaten mit {item:206696} zu {object:Vergrabenes Objekt} und grabe dort ein {item:209795} aus.'
 
 -- Secrets of Azeroth: Clue 15
-L['soa_15_rlabel'] = nil
-L['soa_15_tyrhold_statue_label'] = nil
-L['soa_15_tyrhold_statue_note'] = nil
-L['soa_15_tyrhold_forge_label'] = nil
-L['soa_15_tyrhold_forge_note'] = nil
-L['soa_15_broken_urn_note'] = nil
-L['soa_15_broken_urn_location'] = nil
-L['soa_15_titan_power_relay_label'] = nil
-L['soa_15_tpr_note'] = nil
-L['soa_15_orb_label'] = nil
-L['soa_15_orb_location'] = nil
-L['soa_15_orb_note'] = nil
+L['soa_15_rlabel'] = '(Hinweis 15)'
+L['soa_15_tyrhold_statue_label'] = 'Tyrhold Statue'
+L['soa_15_tyrhold_statue_note'] = 'Nähere dich der Tyrhold Statue mit deiner {item:208092} und kanalisieren diese, bis die Kugel hellrot leuchtet.'
+L['soa_15_tyrhold_forge_label'] = 'Tyrhold Schmiede'
+L['soa_15_tyrhold_forge_note'] = 'Nähere dich der Schmiede im Zentrum von {location:Tyrhold}, um den Stärkungszauber {spell:423792} zu erhalten.'
+L['soa_15_broken_urn_note'] = 'Plündere die {object:Zerbrochene Urne}, um {item:%d} zu erhalten.'
+L['soa_15_broken_urn_location'] = 'Auf Ebene %d von {location:Tyrhold} im inneren Ring.'
+L['soa_15_titan_power_relay_label'] = 'Titanenkraftrelais'
+L['soa_15_tpr_note'] = 'Setze {item:%d} in das {object:Titanenkraftrelais} ein.'
+L['soa_15_orb_label'] = 'Kugelposition'
+L['soa_15_orb_location'] = 'Auf dem Dach von {location:Tyrhold}.'
+L['soa_15_orb_note'] = 'Nimm die Quest {quest:77977} an und töte dann {npc:210674} und {npc:210675}, um die {item:209555} zu erhalten.\n\nPlatziere die {item:209555} in der Kugelposition der Konsole, um den {object:Behälter voller kosmischer Mysterien} zu enthüllen und plündere diesen für den {item:208980}.'
+
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
@@ -993,7 +994,7 @@ L['bs_gri_location'] = 'Sprich mit {npc:%s}, um eine Baumstammfahrt vom {locatio
 L['bs_hmt_location'] = 'Ganz oben bei {location:Die Hochbergspitze} neben {object:Verwittertes Pergament}.'
 L['bs_wpl_location'] = 'Zwischen dem Wagen und der kleinen Hütte in {location:Darrowehr}.'
 L['bs_tli_location'] = 'Auf dem Boden, in der mitte der Arena.'
-L['bs_tir_location'] = nil
+L['bs_tir_location'] = 'Auf dem Berg mit Blick auf {location:Freihafen}.'
 
 L['bs_emerald_dragonshrine'] = 'Smaragddrachenschrein'
 L['bs_bronze_dragonshrine'] = 'Bronzedrachenschrein'
