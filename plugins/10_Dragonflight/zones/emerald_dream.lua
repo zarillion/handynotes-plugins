@@ -233,7 +233,7 @@ map.nodes[88004200] = Rare({ -- REVIEW
     }
 }) -- Surging Lasher
 
-local Talthonei = Class('Hatchling', Rare {
+local Talthonei = Class('Talthonei', Rare, {
     id = 209902,
     quest = 77994,
     fgroup = 'talthonei',
@@ -583,7 +583,7 @@ map.nodes[36386277] = MoonkinHatchling({
     note = L['in_small_cave']
 }) -- Eugene
 
-map.nodes[90005200] = MoonkinHatchling({criteriaID = 62775}) -- Feets -- Review
+map.nodes[38436958] = MoonkinHatchling({criteriaID = 62775}) -- Feets
 
 map.nodes[39347178] = MoonkinHatchling({
     criteriaID = 62779,
@@ -593,7 +593,10 @@ map.nodes[39347178] = MoonkinHatchling({
 
 map.nodes[38696352] = MoonkinHatchling({criteriaID = 62789}) -- Fuzz
 
-map.nodes[92005200] = MoonkinHatchling({criteriaID = 62773}) -- Giblet -- Review
+map.nodes[35756700] = MoonkinHatchling({
+    criteriaID = 62773,
+    note = L['in_small_cave']
+}) -- Giblet
 
 map.nodes[37767327] = MoonkinHatchling({criteriaID = 62784}) -- Hops
 

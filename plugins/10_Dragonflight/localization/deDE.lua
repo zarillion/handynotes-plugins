@@ -842,7 +842,7 @@ L['reefbreaker_moruud_note'] = 'Befestige alle 6 {npc:210089e} an ihm, um ihn an
 
 L['in_a_tree'] = 'Oben im Baum.'
 
-L['hidden_moonkin_stash_label'] = nil
+L['hidden_moonkin_stash_label'] = nil -- review not yet translated
 
 L['magical_bloom_note'] = 'Greife den {npc:210544} an und jage ihn, bis er den Schatz enthüllt.'
 L['pineshrew_cache_note'] = 'Neben ein paar Felsen.'
@@ -857,7 +857,7 @@ L['unwaking_echo_note'] = '{note:You can only open this chest in your dreams.}\n
 
 L['amirdrassil_defenders_shield_note'] = 'Auf dem Tisch neben {npc:211328}.'
 L['dreamtalon_claw_note'] = 'Unten am Stamm des Baumes.'
-L['experimental_dreamcatcher_note'] = nil
+L['experimental_dreamcatcher_note'] = 'Im schwebenden Baum.'
 L['grove_keepers_pillar_note'] = 'Vor dem Eingang der Höhle.'
 L['handful_of_pebbles_note'] = 'An der rechten Schulter der Statue.'
 L['molted_faerie_dragon_scales_note'] = 'Auf dem Boden in einigen Blumen.'
@@ -870,5 +870,5 @@ L['options_icons_dream_of_seeds_desc'] = 'Zeigt die Positionen der {npc:210723} 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinküken für den Erfolg {achievement:19293} an.'
 
-L['thaelishar_vendor_note'] = nil
-L['sylvia_vendor_note'] = nil
+L['thaelishar_vendor_note'] = 'Tausche Gold gegen Druidenglyphen ein.'
+L['sylvia_vendor_note'] = 'Tausche {currency:2651} gegen Reittiere, Haustiere und Ausrüstungsvorlagen ein.'
