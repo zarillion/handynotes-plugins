@@ -272,7 +272,7 @@ map.nodes[38436213] = Rare({
     quest = 78214,
     note = L['in_small_cave'],
     rewards = {
-        Item({item = 201437}), -- Slumbering Dream Fragment
+        Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {POI({38176157})} -- Entrance
 }) -- Voracious Mikanji
