@@ -850,6 +850,7 @@ L['reliquary_of_ashamane_note'] = '{note:Wenn die Weltquest {wq:Dryad Fire Drill
 L['reliquary_of_aviana_note'] = 'Finde ein {object:Mal von Aviana} in der Nähe, um den Stärkungszauber {spell:425432} zu erhalten. Begib dich damit zu {npc:212011}.'
 L['reliquary_of_goldrinn_note'] = 'Finde ein {object:Mal von Goldrinn} {dot:Green} in der Nähe, um den Stärkungszauber {spell:425408} zu erhalten. Begib dich damit zu {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Finde ein {object:Mal von Ursol} in der Nähe, um den Stärkungszauber {spell:423306} zu erhalten. Begib dich damit zu {npc:210732}.'
+L['triflesnatchs_roving_trove_note'] = nil
 
 L['unwaking_echo_label'] = nil -- review not yet translated
 L['unwaking_echo_note'] = '{note:You can only open this chest in your dreams.}\n\nLeg dich neben der Kiste schlafen {emote:(/schlafen)}, um diese öffnen zu können.' -- review not yet translated

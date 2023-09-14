@@ -785,6 +785,7 @@ L['reliquary_of_ashamane_note'] = nil
 L['reliquary_of_aviana_note'] = nil
 L['reliquary_of_goldrinn_note'] = nil
 L['reliquary_of_ursol_note'] = nil
+L['triflesnatchs_roving_trove_note'] = nil
 
 L['unwaking_echo_label'] = nil
 L['unwaking_echo_note'] = nil

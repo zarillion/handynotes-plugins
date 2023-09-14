@@ -384,15 +384,22 @@ map.nodes[47055309] = Treasure({
     }
 }) -- Reliquary of Ursol
 
-map.nodes[80004600] = Treasure({ -- REVIEW
-    quest = nil,
-    note = 'PH',
+map.nodes[39715215] = Treasure({
+    label = '{npc:210060}',
+    note = L['triflesnatchs_roving_trove_note'],
+    quest = {
+        77855, -- Perch 1
+        77857, -- Perch 2
+        77860, -- Perch 3
+    },
     rewards = {
         Achievement({id = 19317, criteria = 62952}) -- Treasures of The Emerald Dream
+    },
+    pois = {
+        POI({39715215, 42225630, 41756256}), -- Perched locations
+        Path({39715215, 42225630, 41756256}) -- Flight path
     }
 }) -- Triflesnatch's Roving Trove
-
-map.nodes[39715215] = Treasure({label = '{npc:210060}', quest = 77855}) -- Triflesnatcher
 
 -------------------------------------------------------------------------------
 

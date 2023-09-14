@@ -850,6 +850,7 @@ L['reliquary_of_ashamane_note'] = '{note:Si la misión del mundo {wq:Dryad Fire 
 L['reliquary_of_aviana_note'] = 'Encuentra una {object:Marca de Aviana} {dot:Green}cercana para conseguir el buff {spell:425432} e ir a la {npc:212011}.'
 L['reliquary_of_goldrinn_note'] = 'Encuentra una {object:Marca de Goldrinn} {dot:Green} cercana para conseguir el buff {spell:425408} e ir a la {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Encuentra una {object:Marca de Ursol} {dot:Green} cercana para conseguir el buff {spell:423306} e ir a la {npc:210732}.'
+L['triflesnatchs_roving_trove_note'] = nil
 
 L['unwaking_echo_label'] = 'Unwaking Echo' -- REVIEW Unwaking Echo
 L['unwaking_echo_note'] = '{note:Sólo puedes abrir este cofre en tus sueños.}\n\nTeclea la emoción {emote:/dormir} para dormir junto al cofre y que se abra.'
