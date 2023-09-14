@@ -931,7 +931,7 @@ L['soa_11_marker_3_label'] = 'Dritte Markierung'
 L['soa_11_marker_4_label'] = 'Vierte Markierung'
 L['soa_11_marker_4_note'] = 'Im Inneren des Grabhügels'
 L['soa_11_marker_5_label'] = 'Fünfte Markierung'
-L['soa_11_marker_5_note'] = nil
+L['soa_11_marker_5_note'] = '{note:Falls die Weltquest {wq:Eingesponnen} aktiv ist, kann es sein das diese erst abgeschlossen werden muss, bevor du deine {item:208092} benutzen kannst, um die Spinnweben wegzubrennen und den Hinweis zu enthüllen.}'
 L['soa_11_burial_banner_note'] = 'Gehe tief in die Höhle hinein und gehe auf die obere Etage, sobald du auf eine Rampe stößt. Am Ende der oberen Etage findest du einen Platz, an dem du das Banner platzieren kannst.'
 
 -- Secrets of Azeroth: Clue 12
@@ -974,7 +974,6 @@ L['soa_15_tpr_note'] = 'Setze {item:%d} in das {object:Titanenkraftrelais} ein.'
 L['soa_15_orb_label'] = 'Kugelposition'
 L['soa_15_orb_location'] = 'Auf dem Dach von {location:Tyrhold}.'
 L['soa_15_orb_note'] = 'Nimm die Quest {quest:77977} an und töte dann {npc:210674} und {npc:210675}, um die {item:209555} zu erhalten.\n\nPlatziere die {item:209555} in der Kugelposition der Konsole, um den {object:Behälter voller kosmischer Mysterien} zu enthüllen und plündere diesen für den {item:208980}.'
-
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'
