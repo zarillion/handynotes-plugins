@@ -843,6 +843,7 @@ L['greedy_gessie_note'] = 'Necesitas recoger {object:Verduras Salvajes}, {object
 L['envoy_of_winter_note'] = 'Reune {item:208881} y usa {spell:421658} cerca del pozo hasta que aparezca {npc:209929}.'
 
 L['in_a_tree'] = 'Encima del árbol.'
+L['inside_building'] = nil
 
 L['hidden_moonkin_stash_label'] = 'Hidden Moonkin Stash' -- REVIEW NTY
 

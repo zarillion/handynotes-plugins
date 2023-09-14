@@ -840,6 +840,7 @@ L['greedy_gessie_note'] = 'Vous devez récupérer les objets {object:Légumes sa
 L['envoy_of_winter_note'] = 'Ramassez des {item:208881} et utilisez le {spell:421658} près du puits jusqu\'à ce que l\'{npc:209929} apparaisse.'
 
 L['in_a_tree'] = 'En haut d\'un arbre.'
+L['inside_building'] = nil
 
 L['hidden_moonkin_stash_label'] = nil -- review NYT
 

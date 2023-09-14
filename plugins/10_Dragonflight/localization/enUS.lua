@@ -842,6 +842,7 @@ L['greedy_gessie_note'] = 'You need to collect {object:Wild Greens}, {object:Rub
 L['envoy_of_winter_note'] = 'Gather {item:208881} and use {spell:421658} near the well until {npc:209929} spawns.'
 
 L['in_a_tree'] = 'Up in a tree.'
+L['inside_building'] = 'In the building.'
 
 L['hidden_moonkin_stash_label'] = 'Hidden Moonkin Stash'
 

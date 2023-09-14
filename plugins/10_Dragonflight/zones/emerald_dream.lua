@@ -748,6 +748,20 @@ map.nodes[59761689] = NPC({
     }
 }) -- Sylvia Whisperbloom <Dreamseed Botanist>
 
+-------------------------------------------------------------------------------
 
 -- Small Somnuts
+
+-- Drops:
+-- -- Small Dreamseed 208066
+-- -- Flightstones
+-- -- Dragon Isle Supplies
+-- -- Whelpling's Dreaming Crest
+
 -- 42284821 -- Quest 66382 (not sure)
+-- 60134204 -- on a Branch - Bugged inside the branch. only lootable with interact key.
+-- 65985217 -- on a branch
+-- 44633492
+-- 26213140
+-- 48292228 -- ontop of the burning tree
+-- 55324272
