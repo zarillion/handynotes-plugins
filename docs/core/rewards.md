@@ -21,7 +21,7 @@ All rewards are accessible via `ns.reward`
 ---
 
 ## Section
-Adds a seperator between the Rewards.
+Adds a separator between the Rewards.
 
 ```lua
 Section("Title of the Section")
@@ -45,10 +45,7 @@ Spacer()
 
 ### Example:
 ```lua
-Achievement({
-    id = achievement_id,
-    criteria = criteria_id or criteria_index
-})
+Achievement({id = 17736, criteria = {qty = true, id = 1}}) -- The Gift of Cheese
 ```
 
 ### Properties
@@ -56,7 +53,7 @@ Achievement({
    * The ID of the achievement
  * `criteria` (int)
    * The *criteria id* (preferred) or *criteria index* of the achievement.
-   * Supports follwing properties:
+   * Supports following properties:
      * `id` (id)
        * *criteria id* (preferred) or *criteria index*
      * `qty` (bool)
@@ -64,7 +61,7 @@ Achievement({
      * `suffix` (string)
        * Can be used with `qty` to add a custom suffix.
  * `oneline` (boolean)
-   * When true, the criteria text wont be rendered.
+   * When true, the criteria text won't be rendered.
  * `note` (string)
    * This can be used to add a short note underneath the reward line.
 
@@ -75,9 +72,7 @@ Is Used to display a Currency in the Node rewards
 
 ### Example:
 ```lua
-Currency({
-    id = currency_id,
-})
+Currency({id = 2245}) -- Flightstones
 ```
 
 ### Properties
@@ -92,9 +87,7 @@ Currency({
 
 ### Example:
 ```lua
-Follower({
-    id = follower_id
-})
+Follower({id = 467, icon = 608952}) -- Fen Tao
 ```
 
 ### Properties
@@ -112,9 +105,7 @@ The Item reward is used as the base class for other item related rewards
 
 ### Example:
 ```lua
-Item({
-    item = item_id
-})
+Item({item = 188793, quest = 65282, note = '150'}) -- Improved Cypher Analysis Tool
 ```
 
 ### Properties
@@ -123,7 +114,7 @@ Item({
 * `type` (string)
   * The type string is added behind the reward text
 * `note` (string)
-  * A short note behind the reward for additional informations. Is placed behind the `type` string.
+  * A short note behind the reward for additional information. Is placed behind the `type` string.
 * `status` (string)
   * Is used to set a custom status string on the end of the line.
   *
@@ -141,9 +132,7 @@ Uses [Item](#item) as its base class, all properties from Item can be used here 
 
 ### Example:
 ```lua
-Heirloom({
-    item = item_id
-})
+Heirloom({item = 122250}) -- Tattered Dreadmist Mask
 ```
 
 ### Properties
@@ -159,10 +148,7 @@ Uses [Item](#item) as its base class, all properties from Item can be used here 
 
 ### Example:
 ```lua
-Mount({
-    item = item_id
-    id = mount_id,
-})
+Mount({item = 44168, id = 265}) -- Time-Lost Proto-Drake
 ```
 
 ### Properties
@@ -178,10 +164,7 @@ Uses [Item](#item) as its base class, all properties from Item can be used here 
 
 ### Example:
 ```lua
-Pet({
-    item = item_id,
-    id = BattlePetSpeciesID
-})
+Pet({id = 635}) -- Adder
 ```
 
 ### Properties
@@ -196,9 +179,7 @@ Pet({
 
 ### Example:
 ```lua
-Quest({
-    id = quest_id
-})
+Quest({id = 60}) -- Kobold Candles
 ```
 
 ### Properties
@@ -212,17 +193,29 @@ Uses [Item](#item) as its base class, all properties from Item can be used here 
 
 ### Example:
 ```lua
-Recipe({
-    item = recipe_item_id,
-    profession = PROFESSION
-})
+Recipe({item = 198104, profession = 185}) -- Recipe: Blubbery Muffin
 ```
 
 ### Properties
 * `item` (int) (*required*)
   * Them Item ID of the Recipe, not the Product.
-* `profession` ([Profession](profession.html)) (*required*)
-  * The Profession Object/Constant.
+* `profession` (int) (*required*)
+  * The Profession '[Base SkillLineID](https://wowpedia.fandom.com/wiki/TradeSkillLineID)'
+    * 129 - First Aid
+    * 164 - Blacksmithing
+    * 165 - Leatherworking
+    * 171 - Alchemy
+    * 182 - Herbalism
+    * 185 - Cooking
+    * 186 - Mining
+    * 197 - Tailoring
+    * 202 - Engineering
+    * 333 - Enchanting
+    * 356 - Fishing
+    * 393 - Skinning
+    * 755 - Jewelcrafting
+    * 773 - Inscription
+    * 794 - Archeology
 
 ---
 
@@ -231,10 +224,7 @@ Uses [Item](#item) as its base class, all properties from Item can be used here 
 
 ### Example:
 ```lua
-Spell({
-    item = item_id,
-    spell = spell_id
-})
+Spell({item = item_id, spell = spell_id})
 ```
 
 ### Properties
@@ -249,10 +239,7 @@ Spell({
 
 ### Example:
 ```lua
-Title({
-    id = title_id,
-    pattern = 'pattern'
-})
+Title({id = title_id, pattern = '{title} {player}'})
 ```
 
 ### Properties
@@ -263,7 +250,7 @@ Title({
     * `'{title} {player}'`
     * `'{player}, {title}'`
 * `type` (string)
-  * Optioanl type after the title text.
+  * Optional type after the title text.
 * `note` (string)
   * Optional note after the title text
 
@@ -274,9 +261,7 @@ Uses [Item](#item) as its base class, all properties from Item can be used here 
 
 ### Example:
 ```lua
-Toy({
-    item = item_id
-})
+Toy({item = item_id})
 ```
 
 ### Properties
@@ -290,10 +275,7 @@ Uses [Item](#item) as its base class, all properties from Item can be used here 
 
 ### Example:
 ```lua
-Transmog({
-    item = item_id
-    slot = L[slot_locale]
-})
+Transmog({item = item_id, slot = L[slot_locale]})
 ```
 
 ### Properties
