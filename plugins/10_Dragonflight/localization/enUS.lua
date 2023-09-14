@@ -846,7 +846,7 @@ L['hidden_moonkin_stash_label'] = 'Hidden Moonkin Stash'
 L['magical_bloom_note'] = 'Chase the {npc:210544} until he reveals the treasure.'
 L['pineshrew_cache_note'] = 'Next to a few rocks.'
 L['reliquary_of_ashamane_note'] = '{note:If the world quest {wq:Dryad Fire Drill} is active you need to complete it before you can see the treasure.}\n\nFind a {object:Mark of Ashamane} {dot:Green} nearby to get the buff {spell:425426} and go to the {npc:212009}.'
-L['reliquary_of_aviana_note'] = 'Find a {object:Mark of Aviana} nearby to get the buff {spell:425432} and go to the {npc:212011}.'
+L['reliquary_of_aviana_note'] = 'Find a {object:Mark of Aviana} {dot:Green} nearby to get the buff {spell:425432} and go to the {npc:212011}.'
 L['reliquary_of_goldrinn_note'] = 'Find a {object:Mark of Goldrinn} {dot:Green} nearby to get the buff {spell:425408} and go to the {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Find a {object:Mark of Ursol} nearby to get the buff {spell:423306} and go to the {npc:210732}.'
 

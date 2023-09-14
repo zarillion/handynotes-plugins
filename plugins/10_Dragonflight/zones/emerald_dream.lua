@@ -354,7 +354,7 @@ map.nodes[64231928] = Treasure({
         Transmog({item = 210659, slot = L['cosmetic']}) -- Branch of Aviana
     },
     pois = {
-        POI({64532091}) -- Mark of Aviana
+        POI({64532091, color = 'Green'}) -- Mark of Aviana
     }
 }) -- Reliquary of Aviana
 
