@@ -938,40 +938,40 @@ L['soa_12_bobby_note'] = '与 {npc:207696} 交谈得到 {item:208888}。\n\n前�
 L['soa_12_ancient_tome_note'] = '使用 {item:207730} 搜索书籍，直到找到 {item:208889} 并将其带回位于 {location:瓦德拉肯} 的 {npc:207696}。'
 
 -- Secrets of Azeroth: Clue 13
-L['soa_13_rlabel'] = nil
-L['soa_13_bobby_note'] = nil
-L['soa_13_great_place_a_label'] = nil
-L['soa_13_great_place_a_note'] = nil
-L['soa_13_great_place_b_label'] = nil
-L['soa_13_great_place_b_note'] = nil
-L['soa_13_great_place_c_label'] = nil
-L['soa_13_great_place_c_note'] = nil
-L['soa_13_great_place_d_label'] = nil
-L['soa_13_great_place_d_note'] = nil
-L['soa_13_great_place_e_label'] = nil
-L['soa_13_great_place_e_note'] = nil
-L['soa_13_great_place_f_label'] = nil
-L['soa_13_great_place_f_note'] = nil
+L['soa_13_rlabel'] = '（线索十三）'
+L['soa_13_bobby_note'] = '与 {npc:207696} 交谈开始任务 {quest:77928}。'
+L['soa_13_great_place_a_label'] = '拍卖行卖据'
+L['soa_13_great_place_a_note'] = '{location:拍卖行} 入口处的一堆盒子上。'
+L['soa_13_great_place_b_label'] = '虚空仓库收据'
+L['soa_13_great_place_b_note'] = '幻化和虚空仓库建筑的一堆板条箱上。'
+L['soa_13_great_place_c_label'] = '花园补给收据'
+L['soa_13_great_place_c_note'] = '在一座小建筑里，两个 {npc:197035} 正在争论。'
+L['soa_13_great_place_d_label'] = '研究员的笔记'
+L['soa_13_great_place_d_note'] = '在一栋小建筑内，一些书旁边。'
+L['soa_13_great_place_e_label'] = '字迹潦草的字条'
+L['soa_13_great_place_e_note'] = '在 {ocation:匠人集市} 的供应商摊位后面。'
+L['soa_13_great_place_f_label'] = '给克里沙的便条'
+L['soa_13_great_place_f_note'] = '在 {location:巨龙宝藏} 内的一个箱子上。\n\n需要对 {location:脆烤山羊旅店} 中的 {npc:189827} 进行表情 {emote:/鞠躬}，{emote:/bow} 才能进入秘密酒吧。'
 
 -- Secrets of Azeroth: Clue 14
-L['soa_14_rlabel'] = nil
-L['soa_14_buried_object_label'] = nil
-L['soa_14_tablet_label'] = nil
-L['soa_14_tablet_note'] = nil
+L['soa_14_rlabel'] = '（线索十四）'
+L['soa_14_buried_object_label'] = '埋藏的物品（%d）'
+L['soa_14_tablet_label'] = '泰坦铭刻的石板（%d）'
+L['soa_14_tablet_note'] = '使用 {item:208092} 来揭示 {object:泰坦铭刻的石板}。沿着 {item:206696} 坐标到达 {object:埋藏的物品} 并挖掘 {item:209795}。'
 
 -- Secrets of Azeroth: Clue 15
-L['soa_15_rlabel'] = nil
-L['soa_15_tyrhold_statue_label'] = nil
-L['soa_15_tyrhold_statue_note'] = nil
-L['soa_15_tyrhold_forge_label'] = nil
-L['soa_15_tyrhold_forge_note'] = nil
-L['soa_15_broken_urn_note'] = nil
-L['soa_15_broken_urn_location'] = nil
-L['soa_15_titan_power_relay_label'] = nil
-L['soa_15_tpr_note'] = nil
-L['soa_15_orb_label'] = nil
-L['soa_15_orb_location'] = nil
-L['soa_15_orb_note'] = nil
+L['soa_15_rlabel'] = '（线索十五）'
+L['soa_15_tyrhold_statue_label'] = '提尔要塞雕像'
+L['soa_15_tyrhold_statue_note'] = '使用 {item:208092} 接近提尔要塞雕像并进行引导，直到球体发出亮红色的光。'
+L['soa_15_tyrhold_forge_label'] = '提尔要塞熔炉'
+L['soa_15_tyrhold_forge_note'] = '接近 {location:提尔要塞} 中心的熔炉获得 {spell:423792} 增益。'
+L['soa_15_broken_urn_note'] = '掠夺 {object:破损的瓮} 获得 {item:%d}。'
+L['soa_15_broken_urn_location'] = '位于 {location:提尔要塞} %d 层。'
+L['soa_15_titan_power_relay_label'] = '泰坦能量中继器'
+L['soa_15_tpr_note'] = '将 {item:%d} 插入 {object:泰坦能量中继器}。'
+L['soa_15_orb_label'] = '宝珠位置'
+L['soa_15_orb_location'] = '{location:提尔要塞} 顶部。'
+L['soa_15_orb_note'] = '击败 {npc:210674} 和 {npc:210675} 来完成 {quest:77977}，以获得 {item:209555}。\n\n将 {item:209555} 放入控制台即可揭示 {item:208980}。'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = '从 {object:松软的泥土堆} 中拾取 {item:208142}。'
@@ -989,12 +989,12 @@ L['bs_bar_location'] = '山顶上。'
 L['bs_nag_location'] = '在 {location:%s} 上方的一座浮岛上。'
 L['bs_gri_location'] = '与 {npc:%s} 交谈，乘坐圆木从 {location:蓝天伐木场} 前往 {location:风险湾}。开始骑行后，将获得 {spell:423942} 增益。\n\n{note:必须拥有 {spell:423942} 增益才能看到小包。}'
 L['bs_hmt_location'] = '在 {object:老化的羊皮纸} 附近的 {location:高岭之巅} 顶部。'
-L['bs_wpl_location'] = nil
-L['bs_tli_location'] = nil
-L['bs_tir_location'] = nil
+L['bs_wpl_location'] = '在 {location:凯尔达隆} 的马车和要塞之间。'
+L['bs_tli_location'] = '在竞技场的中央地板上。'
+L['bs_tir_location'] = '在山顶俯瞰 {location:自由镇}。'
 
 L['bs_emerald_dragonshrine'] = '翡翠巨龙圣地'
-L['bs_bronze_dragonshrine'] = nil
+L['bs_bronze_dragonshrine'] = '青铜巨龙圣地'
 
 L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
 L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'

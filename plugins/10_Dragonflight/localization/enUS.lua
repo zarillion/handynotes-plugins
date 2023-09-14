@@ -994,7 +994,7 @@ L['bs_tli_location'] = 'On the floor, in the center of the arena.'
 L['bs_tir_location'] = 'Atop the mountain overlooking {location:Freehold}.'
 
 L['bs_emerald_dragonshrine'] = 'Emerald Dragonshrine'
-L['bs_bronze_dragonshrine'] = 'Bronze Dragonshine'
+L['bs_bronze_dragonshrine'] = 'Bronze Dragonshrine'
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Display clue locations for {location:Secrets of Azeroth}.'
