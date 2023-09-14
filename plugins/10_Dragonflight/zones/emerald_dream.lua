@@ -16,6 +16,7 @@ local Dragonglyph = ns.node.Dragonglyph
 local PT = ns.node.ProfessionTreasures
 
 local Achievement = ns.reward.Achievement
+local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
@@ -674,13 +675,17 @@ map.nodes[37757026] = MoonkinHatchling({
 
 local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
     label = L['dreamseed_soil_label'],
+    requires = {
+        ns.requirement.Item(208066) -- Small Dreamseed
+    },
     icon = 464030,
     group = ns.groups.DREAM_OF_SEEDS,
     getters = {
         rewards = function(self)
             return {
                 Achievement({id = 19013, criteria = self.criteriaID}), -- I Dream of Seeds
-                Achievement({id = 19198, criteria = {id = 1, qty = true}}) -- The Seeds I Sow
+                Achievement({id = 19198, criteria = {id = 1, qty = true}}), -- The Seeds I Sow
+                Currency({id = 2651, count = 20}) -- Seedbloom -- Spawned after the timer of the plant ran out, triggered hidden quest 77396 when looting
             }
         end
     }
@@ -696,7 +701,7 @@ map.nodes[46384049] = EmeraldBounty({criteriaID = 62037}) -- Dreamer's Daisy
 map.nodes[48738045] = EmeraldBounty({criteriaID = 62189}) -- Flourishing Scurfpea
 map.nodes[49174806] = EmeraldBounty({criteriaID = 62038}) -- Ringing Rose
 map.nodes[49903543] = EmeraldBounty({criteriaID = 62041}) -- Belligerent Begonias
-map.nodes[51145866] = EmeraldBounty()
+map.nodes[51145866] = EmeraldBounty({criteriaID = 62397}) -- Whisperbloom Sapling
 map.nodes[54596763] = EmeraldBounty({criteriaID = 62029}) -- Chiming Foxglove
 map.nodes[56513767] = EmeraldBounty({criteriaID = 62040}) -- Lullaby Lavender
 map.nodes[56654487] = EmeraldBounty({criteriaID = 62039}) -- Lofty Lupin
@@ -742,3 +747,7 @@ map.nodes[59761689] = NPC({
         Mount({item = 210058, id = 1816, note = '2500'}) -- Reins of the Evening Sun Dreamsaber
     }
 }) -- Sylvia Whisperbloom <Dreamseed Botanist>
+
+
+-- Small Somnuts
+-- 42284821 -- Quest 66382 (not sure)
