@@ -844,7 +844,7 @@ L['envoy_of_winter_note'] = 'Reune {item:208881} y usa {spell:421658} cerca del 
 
 L['in_a_tree'] = 'Encima del árbol.'
 
-L['hidden_moonkin_stash_label'] = 'Hidden Moonkin Stash' -- REVIEW
+L['hidden_moonkin_stash_label'] = 'Hidden Moonkin Stash' -- REVIEW NTY
 
 L['magical_bloom_note'] = 'Ataca a {npc:210544} y persíguelo hasta que revele el tesoro.'
 L['pineshrew_cache_note'] = 'Junto a algunas rocas.'
@@ -854,7 +854,7 @@ L['reliquary_of_goldrinn_note'] = 'Encuentra una {object:Marca de Goldrinn} {dot
 L['reliquary_of_ursol_note'] = 'Encuentra una {object:Marca de Ursol} {dot:Green} cercana para conseguir el buff {spell:423306} e ir a la {npc:210732}.'
 L['triflesnatchs_roving_trove_note'] = 'Sigue a {npc:210060} mientras vuela de rama en rama.'
 
-L['unwaking_echo_label'] = 'Unwaking Echo' -- REVIEW Unwaking Echo
+L['unwaking_echo_label'] = 'Unwaking Echo' -- REVIEW Unwaking Echo NTY
 L['unwaking_echo_note'] = '{note:Sólo puedes abrir este cofre en tus sueños.}\n\nTeclea la emoción {emote:/dormir} para dormir junto al cofre y que se abra.'
 
 L['amirdrassil_defenders_shield_note'] = 'En la mesa junto a {npc:211328}.'
@@ -865,12 +865,12 @@ L['handful_of_pebbles_note'] = 'Encima del hombro derecho de la estatua.'
 L['molted_faerie_dragon_scales_note'] = 'En el suelo, en unas flores.'
 L['petrified_hope_note'] = 'Encima del tocón del árbol.'
 
-L['dreamseed_soil_label'] = 'Dreamseed Soil' -- REVIEW
+L['dreamseed_soil_label'] = 'Tierra con Semillas del Sueño'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
-L['options_icons_dream_of_seeds_desc'] = 'Muestra dónde están los {object:Dreamseed Soil} para el logro {achievement:19013}.' -- REVIEW {object:Dreamseed Soil} y revisar el artículo.
+L['options_icons_dream_of_seeds_desc'] = 'Muestra dónde están las {object:Tierra con Semillas del Sueño} para el logro {achievement:19013}.'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
-L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las moonkin hatchling para el logro {achievement:19293}.' -- REVIEW moonkin hatchling y revisar el artículo. Podría ser Prole de lechúcico lunar.
+L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las proles de lechúcico lunar para el logro {achievement:19293}.'
 
 L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
 L['sylvia_vendor_note'] = 'Cambia {currency:2651} por mascotas, monturas y transfiguraciones.'
