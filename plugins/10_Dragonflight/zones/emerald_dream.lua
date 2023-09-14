@@ -187,7 +187,7 @@ map.nodes[54953674] = Rare({
     }
 }) -- Mosa Umbramane
 
-map.nodes[61697214] = Rare({
+map.nodes[61747187] = Rare({
     id = 209113,
     quest = 77570,
     vignette = 5786,
@@ -270,7 +270,11 @@ map.nodes[22743226] = Rare({
 map.nodes[38436213] = Rare({
     id = 210508,
     quest = 78214,
-    note = L['in_small_cave']
+    note = L['in_small_cave'],
+    rewards = {
+        Item({item = 201437}), -- Slumbering Dream Fragment
+    },
+    pois = {POI({38176157})} -- Entrance
 }) -- Voracious Mikanji
 
 -------------------------------------------------------------------------------
@@ -387,11 +391,11 @@ map.nodes[47055309] = Treasure({
 map.nodes[39715215] = Treasure({
     label = '{npc:210060}',
     note = L['triflesnatchs_roving_trove_note'],
-    quest = {
-        77855, -- Perch 1
-        77857, -- Perch 2
-        77860 -- Perch 3
-    },
+    -- quest = {
+    --     77855, -- Perch 1
+    --     77857, -- Perch 2
+    --     77860 -- Perch 3
+    -- },
     rewards = {
         Achievement({id = 19317, criteria = 62952}) -- Treasures of The Emerald Dream
     },
@@ -403,11 +407,11 @@ map.nodes[39715215] = Treasure({
 
 -------------------------------------------------------------------------------
 
-local UnwakingEcho = Class('Hatchling', Treasure, {
+local UnwakingEcho = Class('UnwakingEcho', Treasure, {
     icon = 'chest_gn',
     label = L['unwaking_echo_label'],
     note = L['unwaking_echo_note']
-})
+}) -- Unwaking Echo
 
 map.nodes[46408615] = UnwakingEcho({
     quest = 78552,
@@ -425,8 +429,13 @@ map.nodes[55672258] = UnwakingEcho({
 
 map.nodes[55324538] = UnwakingEcho({
     quest = 78551,
-    sublabel = L['in_small_cave']
+    sublabel = L['in_small_cave'],
+    rewards = {
+        Transmog({item = 210678, slot = L['cosmetic']}) -- Verdant Glearner's Scythe
+    },
+    pois = {POI({54774452})} -- Entrance
 })
+
 map.nodes[69575284] = UnwakingEcho({
     quest = 78550,
     sublabel = L['inside_building'],
