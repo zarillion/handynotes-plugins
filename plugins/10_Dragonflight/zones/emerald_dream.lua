@@ -390,7 +390,7 @@ map.nodes[39715215] = Treasure({
     quest = {
         77855, -- Perch 1
         77857, -- Perch 2
-        77860, -- Perch 3
+        77860 -- Perch 3
     },
     rewards = {
         Achievement({id = 19317, criteria = 62952}) -- Treasures of The Emerald Dream
