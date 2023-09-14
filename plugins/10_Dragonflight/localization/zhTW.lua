@@ -919,59 +919,59 @@ L['soa_10_weaponsmith_koref_note'] = '和 {npc:210837} 說話開始任務 {quest
 
 -- Secrets of Azeroth: Clue 11
 L['soa_11_rlabel'] = '(線索11)'
-L['soa_11_rlabel_optional'] = nil
+L['soa_11_rlabel_optional'] = '(線索11 - 可選)'
 L['soa_11_kathos_note'] = '和 {npc:206864} 交談完成任務 {quest:78008} 會取得 {item:208852}. 到 {location:雍亞拉平原} 找 {npc:195543} 詢問他有關旌旗的事.'
 L['soa_11_sansok_khan_note'] = '詢問 {npc:195543} 如何完善的埋葬旌旗的擁有者獵人伊席塔‧瑞森.\n你會收到 {item:209061} 並要求你找到在 {location:松木崗哨} 的 {npc:191391}.'
 L['soa_11_jhara_note'] = '和旅店老闆 {npc:191391} 交談. 她會交給你這個祕聞的線索 {item:208857}.'
-L['soa_11_marker_1_label'] = nil
-L['soa_11_marker_2_label'] = nil
-L['soa_11_marker_3_label'] = nil
-L['soa_11_marker_4_label'] = nil
-L['soa_11_marker_4_note'] = nil
-L['soa_11_marker_5_label'] = nil
-L['soa_11_marker_5_note'] = nil
-L['soa_11_burial_banner_note'] = nil
+L['soa_11_marker_1_label'] = '第一個標記'
+L['soa_11_marker_2_label'] = '第二個標記'
+L['soa_11_marker_3_label'] = '第三個標記'
+L['soa_11_marker_4_label'] = '第四個標記'
+L['soa_11_marker_4_note'] = '在墓塚內.'
+L['soa_11_marker_5_label'] = '第五個標記'
+L['soa_11_marker_5_note'] = '如果 {wq:蛛網難民} 任務存在時, 必須要在使用 {item:208092} 前先完成該任務, 才能燒掉蜘蛛網來看到線索.'
+L['soa_11_burial_banner_note'] = '進到洞穴深處並且在看到坡道後往上, 在樓上的盡頭可以找到一個位置可以放置 {item:208852}.'
 
 -- Secrets of Azeroth: Clue 12
-L['soa_12_rlabel'] = nil
-L['soa_12_bobby_note'] = nil
-L['soa_12_ancient_tome_note'] = nil
+L['soa_12_rlabel'] = '(線索12)'
+L['soa_12_bobby_note'] = '和 {207696} 交談完成任務 {quest:77895} 以取得 {item:208888}.\n\n到 {location:舊卡拉讚} 並且一路清怪到 {npc:15691}, 來清出一條路到達 {location:守護者圖書館}. 使用 {item:207730} 來在那裡找到遠古典籍.'
+L['soa_12_ancient_tome_note'] = '持續使用 {item:207730} 來找到遠古典籍, 直到你找到 {item:208889} 並將其帶給 {location:沃卓肯} 的 {npc:207696}.'
 
 -- Secrets of Azeroth: Clue 13
-L['soa_13_rlabel'] = nil
-L['soa_13_bobby_note'] = nil
-L['soa_13_great_place_a_label'] = nil
-L['soa_13_great_place_a_note'] = nil
-L['soa_13_great_place_b_label'] = nil
-L['soa_13_great_place_b_note'] = nil
-L['soa_13_great_place_c_label'] = nil
-L['soa_13_great_place_c_note'] = nil
-L['soa_13_great_place_d_label'] = nil
-L['soa_13_great_place_d_note'] = nil
-L['soa_13_great_place_e_label'] = nil
-L['soa_13_great_place_e_note'] = nil
-L['soa_13_great_place_f_label'] = nil
-L['soa_13_great_place_f_note'] = nil
+L['soa_13_rlabel'] = '(線索13)'
+L['soa_13_bobby_note'] = '和 {npc:207696} 交談來開始任務 {quest:77928}'
+L['soa_13_great_place_a_label'] = '拍賣場銷售清單'
+L['soa_13_great_place_a_note'] = '在 {location:拍賣場} 入口內一疊箱子上.'
+L['soa_13_great_place_b_label'] = '虛空倉庫收據'
+L['soa_13_great_place_b_note'] = '在虛空倉庫和塑形師所在建築的一堆箱子上.'
+L['soa_13_great_place_c_label'] = '花園補給品收據'
+L['soa_13_great_place_c_note'] = '在一個有兩個 {npc:197035} 互相爭執的小房子.'
+L['soa_13_great_place_d_label'] = '研究員的筆記'
+L['soa_13_great_place_d_note'] = '在一棟小房子內的幾本書旁.'
+L['soa_13_great_place_e_label'] = '飛快潦草的筆記'
+L['soa_13_great_place_e_note'] = '在 {location:工匠市場} 貨架後方.'
+L['soa_13_great_place_f_label'] = '給克里薩的字條'
+L['soa_13_great_place_f_note'] = '在 {location:巨龍寶庫} 內的箱子上.\n\n你需要在 {location:炙烤公羊旅店} 深處對 {npc:189827} {emote:/bow} 來進入秘密酒吧.'
 
 -- Secrets of Azeroth: Clue 14
-L['soa_14_rlabel'] = nil
-L['soa_14_buried_object_label'] = nil
-L['soa_14_tablet_label'] = nil
-L['soa_14_tablet_note'] = nil
+L['soa_14_rlabel'] = '(線索14)'
+L['soa_14_buried_object_label'] = '埋藏的物品 (%d)'
+L['soa_14_tablet_label'] = '泰坦銘刻石板 (%d)'
+L['soa_14_tablet_note'] = '使用 {item:208092} 來找到 {object:泰坦銘刻石板}. 跟著 (item:206696) 的座標找到 (object:埋藏的物品) 並且挖出 {item:209795}.'
 
 -- Secrets of Azeroth: Clue 15
-L['soa_15_rlabel'] = nil
-L['soa_15_tyrhold_statue_label'] = nil
-L['soa_15_tyrhold_statue_note'] = nil
-L['soa_15_tyrhold_forge_label'] = nil
-L['soa_15_tyrhold_forge_note'] = nil
-L['soa_15_broken_urn_note'] = nil
-L['soa_15_broken_urn_location'] = nil
-L['soa_15_titan_power_relay_label'] = nil
-L['soa_15_tpr_note'] = nil
-L['soa_15_orb_label'] = nil
-L['soa_15_orb_location'] = nil
-L['soa_15_orb_note'] = nil
+L['soa_15_rlabel'] = '(線索15)'
+L['soa_15_tyrhold_statue_label'] = '提爾堡雕像'
+L['soa_15_tyrhold_statue_note'] = '使用 {item:208092} 後靠近提爾堡雕像並等待引導直到寶珠亮出紅光.'
+L['soa_15_tyrhold_forge_label'] = '提爾堡熔爐'
+L['soa_15_tyrhold_forge_note'] = '到 {location:提爾堡} 中間的熔爐來取得 {spell:423792} 增益.'
+L['soa_15_broken_urn_note'] = '拾取 {object:破損的甕} 來取得 {item:%d}.'
+L['soa_15_broken_urn_location'] = '在 {location:提爾堡} 的第 %d 層'
+L['soa_15_titan_power_relay_label'] = '泰坦能量繼電器'
+L['soa_15_tpr_note'] = '插入 {item:%d} 到 {object:泰坦能量繼電器}'
+L['soa_15_orb_label'] = '寶珠位置'
+L['soa_15_orb_location'] = '在 {location:提爾堡} 頂.'
+L['soa_15_orb_note'] = '擊敗 {npc:210674} 和 {npc:210675} 來完成 {quest:77977} 以取得 {item:209555}.\n\n放置 {item:209555}'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = '從 {object:鬆軟的泥土堆} 拾取 {item:208142}.'
@@ -985,22 +985,22 @@ L['bs_net_location'] = '在 {location:外域} {location:虛空風暴} 的 {locat
 L['bs_vfw_location'] = '在金色瀑布頂端的 {npc:129151} 雕像口中.'
 L['bs_tas_location'] = '使用 {item:208135} 來融化 {npc:96438} 並揭露 {object:鬆軟的泥土堆}.'
 L['bs_dbt_location'] = '在 {location:%s} 的大龍爪骨頭下.'
-L['bs_bar_location'] = '在山頂上'
-L['bs_nag_location'] = nil
-L['bs_gri_location'] = nil
-L['bs_hmt_location'] = nil
-L['bs_wpl_location'] = nil
-L['bs_tli_location'] = nil
-L['bs_tir_location'] = nil
+L['bs_bar_location'] = '在山頂上.'
+L['bs_nag_location'] = '在 {location:天歌湖} 上方高空的飄浮島嶼.'
+L['bs_gri_location'] = '和 {npc:%s} 說話來從 {location:藍天伐木地} 搭乘滑水道到 {location:風險海灣}. 當你開始騎乘時你會獲得 {spell:423942} 增益.\n\n{note:你必須要有 {spell:423942} 增益才能看到包包.}'
+L['bs_hmt_location'] = '在 {location:高嶺極峰} 之巔靠近 {object:風化的羊皮紙} 旁.'
+L['bs_wpl_location'] = '在 {location:凱爾達隆} 內的要塞跟推車之間.'
+L['bs_tli_location'] = '在競技場中間的地板上.'
+L['bs_tir_location'] = '在俯瞰 {location:自由港} 的一座山頂上.'
 
 L['bs_emerald_dragonshrine'] = '翡翠龍殿'
-L['bs_bronze_dragonshrine'] = nil
+L['bs_bronze_dragonshrine'] = '青銅龍殿'
 
 L['options_icons_secrets_of_azeroth'] = '艾澤拉斯秘聞'
 L['options_icons_secrets_of_azeroth_desc'] = '顯示 {location:艾澤拉斯秘聞} 線索的位置.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = nil
+L['soa_mjj_list_note'] = '收集所有三個零件後, 在 {object:充能祕法熔爐} 組合它們來取得 {item:210022}.'
 L['soa_mjj_part1_note'] = '需要3個玩家使用 {item:208092} 來引導火盆以召喚 {npc:210398}. 他會掉落 {item:208984}.'
 L['soa_mjj_part2_note'] = [[{note:你至少需要4個玩家在你附近來完成這個部分}
 
