@@ -961,18 +961,18 @@ L['soa_14_tablet_label'] = 'Tablilla con Inscripciones Titánicas (%d)'
 L['soa_14_tablet_note'] = 'Usa la {item:208092} para revelar las {object:Tablilla con Inscripciones Titánicas}. Sigue las coordenadas del {item:206696} para llegar al {object:Objeto Enterrado} y desenterrar la {item:209795}.'
 
 -- Secrets of Azeroth: Clue 15
-L['soa_15_rlabel'] = nil
-L['soa_15_tyrhold_statue_label'] = nil
-L['soa_15_tyrhold_statue_note'] = nil
-L['soa_15_tyrhold_forge_label'] = nil
-L['soa_15_tyrhold_forge_note'] = nil
-L['soa_15_broken_urn_note'] = nil
-L['soa_15_broken_urn_location'] = nil
-L['soa_15_titan_power_relay_label'] = nil
-L['soa_15_tpr_note'] = nil
-L['soa_15_orb_label'] = nil
-L['soa_15_orb_location'] = nil
-L['soa_15_orb_note'] = nil
+L['soa_15_rlabel'] = '(Pista 15)'
+L['soa_15_tyrhold_statue_label'] = 'Estatua de Tyrhold'
+L['soa_15_tyrhold_statue_note'] = 'Acércate a la Estatua de Tyrhold con la {item:208092} y canaliza hasta que el orbe reluzca de color rojo brillante.'
+L['soa_15_tyrhold_forge_label'] = 'Forja de Tyrhold'
+L['soa_15_tyrhold_forge_note'] = 'Acércate a la forja en el centro de {location:Tyrhold} para conseguir el buff {spell:423792}.'
+L['soa_15_broken_urn_note'] = 'Despoja la {object:Urna Rota} para conseguir {item:%d}.'
+L['soa_15_broken_urn_location'] = 'Está en el nivel %d de {location:Tyrhold}.'
+L['soa_15_titan_power_relay_label'] = 'Titan Power Relay'
+L['soa_15_tpr_note'] = 'Inserta {item:%d} dentro del {object:Repetidor de Poder Titánico}.'
+L['soa_15_orb_label'] = 'Ubicación de Orbe'
+L['soa_15_orb_location'] = 'Encima de {location:Tyrhold}.'
+L['soa_15_orb_note'] = 'Completa la misión {quest:77977} derrotando a {npc:210674} y a {npc:210675} para recibir el {item:209555}.\n\nColoca el {item:209555} en la consola para revelar el {item:208980}.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
