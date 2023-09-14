@@ -839,7 +839,7 @@ L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
 -------------------------------------------------------------------------------
 
 L['reefbreaker_moruud_note'] = 'Conecta las 6 {npc:210089} cercanas para atacar a {npc:209898}.'
-L['greedy_gessie_note'] = 'Necesitas recoger {object:Wild Greens}, {object:Melon Escama Rubí} y {object:Orangeroot} alrededor de la zona y ponerlo todo en las cestas cerca de {npc:210285s} para comenzar el encuentro.' -- REVIEW ¿Rubyscale Melon es Melon Escama Rubí? ¿{object:Wild Greens}? ¿{object:Orangeroot}?
+L['greedy_gessie_note'] = 'Necesitas recoger {object:Verduras Salvajes}, {object:Melón Escamarrubí} y {object:Naranjarraíz} alrededor de la zona y ponerlo todo en las cestas cerca de {npc:210285s} para comenzar el encuentro.'
 L['envoy_of_winter_note'] = 'Reune {item:208881} y usa {spell:421658} cerca del pozo hasta que aparezca {npc:209929}.'
 
 L['in_a_tree'] = 'Encima del árbol.'
