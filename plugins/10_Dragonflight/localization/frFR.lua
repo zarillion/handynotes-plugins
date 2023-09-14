@@ -958,18 +958,18 @@ L['soa_14_tablet_label'] = 'Tablette gravée par les titans (%d)'
 L['soa_14_tablet_note'] = 'Utilisez la {item:208092} pour révéler la {object:Tablette gravée par les titans}. Suivez les coordonnées de la {item:206696} jusqu\'à l\'{object:Objet enterré} et déterrez l\'{item:209795}.'
 
 -- Secrets of Azeroth: Clue 15
-L['soa_15_rlabel'] = nil
-L['soa_15_tyrhold_statue_label'] = nil
-L['soa_15_tyrhold_statue_note'] = nil
-L['soa_15_tyrhold_forge_label'] = nil
-L['soa_15_tyrhold_forge_note'] = nil
-L['soa_15_broken_urn_note'] = nil
-L['soa_15_broken_urn_location'] = nil
-L['soa_15_titan_power_relay_label'] = nil
-L['soa_15_tpr_note'] = nil
-L['soa_15_orb_label'] = nil
-L['soa_15_orb_location'] = nil
-L['soa_15_orb_note'] = nil
+L['soa_15_rlabel'] = '(Indice n°15)'
+L['soa_15_tyrhold_statue_label'] = 'Statue du Bastion de Tyr'
+L['soa_15_tyrhold_statue_note'] = 'Approchez la {object:Statue du Bastion de Tyr} avec la {item:208092} et canalisez jusqu\'à ce que l\'orbe devienne rouge vif.'
+L['soa_15_tyrhold_forge_label'] = 'Forge du Bastion de Tyr'
+L['soa_15_tyrhold_forge_note'] = 'Approchez la forge au centre du {location:Bastion de Tyr} pour recevoir le buff {spell:423792}.'
+L['soa_15_broken_urn_note'] = 'Récupérez l\'{object:Urne brisée} pour recevoir l\'objet {item:%d}.'
+L['soa_15_broken_urn_location'] = 'Située au niveau %d du {location:Bastion de Tyr}.'
+L['soa_15_titan_power_relay_label'] = 'Relais de puissance des titans'
+L['soa_15_tpr_note'] = 'Insérer l\'objet {item:%d} au sein du {object:Relais de puissance des titans}.'
+L['soa_15_orb_label'] = 'Emplacement de l\'orbe'
+L['soa_15_orb_location'] = 'Au sommet du {location:Bastion de Tyr}.'
+L['soa_15_orb_note'] = 'Terminez la quête {quest:77977} en battant {npc:210674} et {npc:210675} pour recevoir l\'{item:209555}.\n\nPlacez l\'{item:209555} sur la console pour faire apparaître la {item:208980}.'
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
