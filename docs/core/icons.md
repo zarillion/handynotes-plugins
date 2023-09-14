@@ -13,8 +13,8 @@ A list of icons
 
 ## Chests
 
-|                   | Icon                                                       | name             |
-|-------------------|------------------------------------------------------------|------------------|
+| Name              | Icon                                                       | name in code     |
+|-------------------|:----------------------------------------------------------:|------------------|
 | Chest Black       | ![chest_bk](../assets/png/icons/chest_black.png)           | `'chest_bk'`     |
 | Chest Blue        | ![chest_bl](../assets/png/icons/chest_blue.png)            | `'chest_bl'`     |
 | Chest Brown       | ![chest_bn](../assets/png/icons/chest_brown.png)           | `'chest_bn'`     |
