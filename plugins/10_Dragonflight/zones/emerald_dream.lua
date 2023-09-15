@@ -218,7 +218,8 @@ map.nodes[43484697] = Rare({
     id = 210047,
     quest = 78212,
     rewards = {
-        Achievement({id = 19316, criteria = 62944}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62944}), -- Adventurer of the Emerald Dream
+        Item({item = 201437}) -- Slumbering Dream Fragment
     }
 }) -- Somnambulant Ori
 
