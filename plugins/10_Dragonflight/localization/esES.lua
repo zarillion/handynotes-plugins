@@ -875,3 +875,4 @@ L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las proles de
 
 L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
 L['sylvia_vendor_note'] = 'Cambia {currency:2651} por mascotas, monturas y transfiguraciones.'
+L['elianna_vendor_note'] = nil

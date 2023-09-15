@@ -874,3 +874,4 @@ L['options_icons_moonkin_hatchling_desc'] = 'Display moonkin hatchling locations
 
 L['thaelishar_vendor_note'] = 'Exchange gold for Druid glyphs.'
 L['sylvia_vendor_note'] = 'Exchange {currency:2651} for pets, mounts, and transmog.'
+L['elianna_vendor_note'] = 'Exchange {currency:2777} for pets.'

@@ -874,3 +874,4 @@ L['options_icons_moonkin_hatchling_desc'] = nil
 
 L['thaelishar_vendor_note'] = nil
 L['sylvia_vendor_note'] = nil
+L['elianna_vendor_note'] = nil

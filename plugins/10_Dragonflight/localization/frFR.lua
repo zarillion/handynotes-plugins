@@ -872,3 +872,4 @@ L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des béb�
 
 L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
 L['sylvia_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'
+L['elianna_vendor_note'] = nil

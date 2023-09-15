@@ -875,3 +875,4 @@ L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinkü
 
 L['thaelishar_vendor_note'] = 'Tausche Gold gegen Druidenglyphen ein.'
 L['sylvia_vendor_note'] = 'Tausche {currency:2651} gegen Reittiere, Haustiere und Ausrüstungsvorlagen ein.'
+L['elianna_vendor_note'] = nil

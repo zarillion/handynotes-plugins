@@ -736,6 +736,22 @@ map.nodes[59761689] = NPC({
     }
 }) -- Sylvia Whisperbloom <Dreamseed Botanist>
 
+map.nodes[50226180] = NPC({
+    id = 211209,
+    icon = 'peg_bl',
+    scale = 2.0,
+    note = L['elianna_vendor_note'],
+    rewards = {
+        Pet({item = 210785, id = 4310, note = '1'}), -- Snorr
+        Pet({item = 210553, id = 4289, note = '1'}), -- Dreamborne Scarab
+        Pet({item = 210555, id = 4290, note = '1'}), -- Dreamhoof
+        Pet({item = 210567, id = 4292, note = '1'}), -- Memorie
+        Pet({item = 210652, id = 4300, note = '1'}), -- Somnolet
+        Pet({item = 210505, id = 4287, note = '1'}), -- Reverie
+        Pet({item = 210777, id = 4309, note = '1'}) -- Drowsey
+    }
+}) -- Elianna <Dream Infuser>
+
 -------------------------------------------------------------------------------
 
 -- Small Somnuts
