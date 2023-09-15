@@ -288,32 +288,6 @@ map.nodes[38436213] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[35075519] = Treasure({
-    label = '{npc:210060}',
-    note = L['triflesnatchs_roving_trove_note'],
-    quest = {
-        77855, -- Perch 1
-        77857, -- Perch 2
-        77860, -- Perch 3
-        77872 -- Exhausted Triflesnatcher
-    },
-    rewards = {
-        Achievement({id = 19317, criteria = 62952}) -- Treasures of The Emerald Dream
-    },
-    pois = {
-        POI({39715215, 42225630, 41756256}), -- Perched locations
-        Path({39715215, 42225630, 41756256, 35075519}) -- Flight path
-    }
-}) -- Triflesnatch's Roving Trove
-
-map.nodes[83004600] = Treasure({ -- REVIEW
-    quest = nil,
-    note = 'PH',
-    rewards = {
-        Achievement({id = 19317, criteria = 62953}) -- Treasures of The Emerald Dream
-    }
-}) -- Hidden Podling Stash
-
 map.nodes[85004600] = Treasure({ -- REVIEW
     quest = nil,
     note = 'PH',
@@ -322,14 +296,13 @@ map.nodes[85004600] = Treasure({ -- REVIEW
     }
 }) -- Crystalline Glowblossom
 
-map.nodes[37263069] = Treasure({
-    quest = 78120,
-    note = L['pineshrew_cache_note'],
+map.nodes[83004600] = Treasure({ -- REVIEW
+    quest = nil,
+    note = 'PH',
     rewards = {
-        Achievement({id = 19317, criteria = 62956}) -- Treasures of The Emerald Dream
-        -- REVIEW
+        Achievement({id = 19317, criteria = 62953}) -- Treasures of The Emerald Dream
     }
-}) -- Pineshrew Cache
+}) -- Hidden Podling Stash
 
 map.nodes[61625960] = Treasure({
     quest = 78005,
@@ -350,29 +323,14 @@ map.nodes[55275726] = Treasure({
     }
 }) -- Odd Burl
 
-map.nodes[47055309] = Treasure({
-    quest = 78107,
-    note = L['reliquary_of_ursol_note'],
+map.nodes[37263069] = Treasure({
+    quest = 78120,
+    note = L['pineshrew_cache_note'],
     rewards = {
-        Achievement({id = 19317, criteria = 62955}), -- Treasures of The Emerald Dream
-        Transmog({item = 210434, slot = L['cosmetic']}) -- Visage of Ursoc
-    },
-    pois = {
-        POI({48015246}) -- Mark of Ursol
+        Achievement({id = 19317, criteria = 62956}) -- Treasures of The Emerald Dream
+        -- REVIEW
     }
-}) -- Reliquary of Ursol
-
-map.nodes[64231928] = Treasure({
-    quest = 78360,
-    note = L['reliquary_of_aviana_note'],
-    rewards = {
-        Achievement({id = 19317, criteria = 62957}), -- Treasures of The Emerald Dream
-        Transmog({item = 210659, slot = L['cosmetic']}) -- Branch of Aviana
-    },
-    pois = {
-        POI({64532091, color = 'Green'}) -- Mark of Aviana
-    }
-}) -- Reliquary of Aviana
+}) -- Pineshrew Cache
 
 map.nodes[63437298] = Treasure({
     quest = 78359,
@@ -387,6 +345,18 @@ map.nodes[63437298] = Treasure({
     }
 }) -- Reliquary of Ashamane
 
+map.nodes[64231928] = Treasure({
+    quest = 78360,
+    note = L['reliquary_of_aviana_note'],
+    rewards = {
+        Achievement({id = 19317, criteria = 62957}), -- Treasures of The Emerald Dream
+        Transmog({item = 210659, slot = L['cosmetic']}) -- Branch of Aviana
+    },
+    pois = {
+        POI({64532091, color = 'Green'}) -- Mark of Aviana
+    }
+}) -- Reliquary of Aviana
+
 map.nodes[32938325] = Treasure({
     quest = 78361, -- 78368 trigged for Wyldclaw?
     location = L['in_small_cave'],
@@ -400,6 +370,36 @@ map.nodes[32938325] = Treasure({
         POI({30828069, color = 'Green'}) -- Mark of Goldrinn
     }
 }) -- Reliquary of Goldrinn
+
+map.nodes[47055309] = Treasure({
+    quest = 78107,
+    note = L['reliquary_of_ursol_note'],
+    rewards = {
+        Achievement({id = 19317, criteria = 62955}), -- Treasures of The Emerald Dream
+        Transmog({item = 210434, slot = L['cosmetic']}) -- Visage of Ursoc
+    },
+    pois = {
+        POI({48015246}) -- Mark of Ursol
+    }
+}) -- Reliquary of Ursol
+
+map.nodes[35075519] = Treasure({
+    label = '{npc:210060}',
+    note = L['triflesnatchs_roving_trove_note'],
+    quest = {
+        77855, -- Perch 1
+        77857, -- Perch 2
+        77860, -- Perch 3
+        77872 -- Exhausted Triflesnatcher
+    },
+    rewards = {
+        Achievement({id = 19317, criteria = 62952}) -- Treasures of The Emerald Dream
+    },
+    pois = {
+        POI({39715215, 42225630, 41756256}), -- Perched locations
+        Path({39715215, 42225630, 41756256, 35075519}) -- Flight path
+    }
+}) -- Triflesnatch's Roving Trove
 
 -------------------------------------------------------------------------------
 
