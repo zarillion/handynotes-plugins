@@ -929,7 +929,7 @@ L['soa_11_marker_3_label'] = '第三個標記'
 L['soa_11_marker_4_label'] = '第四個標記'
 L['soa_11_marker_4_note'] = '在墓塚內.'
 L['soa_11_marker_5_label'] = '第五個標記'
-L['soa_11_marker_5_note'] = '如果 {wq:蛛網難民} 任務存在時, 必須要在使用 {item:208092} 前先完成該任務, 才能燒掉蜘蛛網來看到線索.'
+L['soa_11_marker_5_note'] = '如果 {wq:蛛網受害者} 任務存在時, 必須要在使用 {item:208092} 前先完成該任務, 才能燒掉蜘蛛網來看到線索.'
 L['soa_11_burial_banner_note'] = '進到洞穴深處並且在看到坡道後往上, 在樓上的盡頭可以找到一個位置可以放置 {item:208852}.'
 
 -- Secrets of Azeroth: Clue 12
