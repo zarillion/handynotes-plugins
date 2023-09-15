@@ -840,7 +840,7 @@ L['greedy_gessie_note'] = 'Vous devez récupérer les objets {object:Légumes sa
 L['envoy_of_winter_note'] = 'Ramassez des {item:208881} et utilisez le {spell:421658} près du puits jusqu\'à ce que l\'{npc:209929} apparaisse.'
 
 L['in_a_tree'] = 'En haut d\'un arbre.'
-L['inside_building'] = nil
+L['inside_building'] = 'A l\'intérieur du bâtiment.'
 
 L['hidden_moonkin_stash_label'] = nil -- review NYT
 
@@ -872,4 +872,4 @@ L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des béb�
 
 L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
 L['sylvia_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'
-L['elianna_vendor_note'] = nil
+L['elianna_vendor_note'] = 'Échangez vos {currency:2777} contre des mascottes.'
