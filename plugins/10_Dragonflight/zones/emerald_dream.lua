@@ -73,7 +73,6 @@ map.nodes[34716316] = Rare({ -- REVIEW
     rewards = {
         Achievement({id = 19316, criteria = 62933}) -- Adventurer of the Emerald Dream
     }
-    -- gather tribes https://wowhead.com/item=208881
 }) -- Envoy of Winter
 
 map.nodes[29862077] = Rare({ -- REVIEW
@@ -86,14 +85,19 @@ map.nodes[29862077] = Rare({ -- REVIEW
     }
 }) -- Firebrand Fystia
 
-map.nodes[62807300] = Rare({ -- REVIEW
+map.nodes[62907302] = Rare({
     id = 209913,
-    quest = nil,
+    quest = 77846,
+    note = L['in_cave'] .. '\n\n' .. L['fruitface_note'],
     rewards = {
-        Achievement({id = 19316, criteria = 62938}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62938}), -- Adventurer of the Emerald Dream
+        Transmog({item = 208372, slot = L['leather']}), -- Trickster's Tip Toers
+        Recipe({item = 210171, profession = 333}) -- Formula: Enchanted Aspect's Dreaming Crest
+    },
+    pois = {
+        POI({63447159}) -- Entrance
     }
 }) -- Fruitface
--- saw him on the minimap underground but was gone when i got there
 
 map.nodes[54034142] = Rare({ -- REVIEW
     id = 209936,
@@ -134,12 +138,13 @@ map.nodes[37433171] = Rare({
     }
 }) -- Isaqa
 
-map.nodes[40294916] = Rare({ -- REVIEW
+map.nodes[40294916] = Rare({
     id = 210046,
     quest = 78211,
     rewards = {
         Achievement({id = 19316, criteria = 62943}), -- Adventurer of the Emerald Dream
-        Transmog({item = 210128, slot = L['2h_sword']}) -- Autumn Defender's Claymore
+        Transmog({item = 210128, slot = L['2h_sword']}), -- Autumn Defender's Claymore
+        Recipe({item = 210173, profession = 333}) -- Formula: Enchanted Whelpling's Dreaming Crest
     },
     pois = {Path({40294916, 39214992, 39535168, 40865209, 40545087, 40294916})}
 }) -- Keen-eyed Cian

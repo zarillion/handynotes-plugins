@@ -838,9 +838,10 @@ L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse 
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
+L['envoy_of_winter_note'] = 'Sammle {item:208881} und benutze {spell:421658} am Brunnen, bis der seltene Gegner erscheint.'
+L['fruitface_note'] = 'Sammle {item:208837} vom Boden auf, damit {npc:209980} erscheint. Greifen ihn an und folge ihm bis er ins Wasser springt und {npc:209966} und den seltenen Gegner erscheinen lässt.'
+L['greedy_gessie_note'] = 'Sammle frische Zutaten wie {object:Wildes Grünzeug}, {object:Rubinschuppenmelone} oder {object:Orangenwurzel} aus der Umgebung und legt diese in die Körbe, damit der seltene Gegner erscheint.'
 L['reefbreaker_moruud_note'] = 'Befestige alle 6 {npc:210089e} an ihm, um ihn angreifen zu können.'
-L['greedy_gessie_note'] = nil
-L['envoy_of_winter_note'] = nil
 
 L['in_a_tree'] = 'Oben im Baum.'
 L['inside_building'] = 'Im Gebäude.'
@@ -853,7 +854,7 @@ L['reliquary_of_ashamane_note'] = '{note:Wenn die Weltquest {wq:Dryad Fire Drill
 L['reliquary_of_aviana_note'] = 'Finde ein {object:Mal von Aviana} in der Nähe, um den Stärkungszauber {spell:425432} zu erhalten. Begib dich damit zu {npc:212011}.'
 L['reliquary_of_goldrinn_note'] = 'Finde ein {object:Mal von Goldrinn} {dot:Green} in der Nähe, um den Stärkungszauber {spell:425408} zu erhalten. Begib dich damit zu {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Finde ein {object:Mal von Ursol} in der Nähe, um den Stärkungszauber {spell:423306} zu erhalten. Begib dich damit zu {npc:210732}.'
-L['triflesnatchs_roving_trove_note'] = nil
+L['triflesnatchs_roving_trove_note'] = 'Folge dem {npc:210060}, während er von Ast zu Ast fliegt.'
 
 L['unwaking_echo_label'] = nil -- review not yet translated
 L['unwaking_echo_note'] = '{note:You can only open this chest in your dreams.}\n\nLeg dich neben der Kiste schlafen {emote:(/schlafen)}, um diese öffnen zu können.' -- review not yet translated
@@ -875,4 +876,4 @@ L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinkü
 
 L['thaelishar_vendor_note'] = 'Tausche Gold gegen Druidenglyphen ein.'
 L['sylvia_vendor_note'] = 'Tausche {currency:2651} gegen Reittiere, Haustiere und Ausrüstungsvorlagen ein.'
-L['elianna_vendor_note'] = nil
+L['elianna_vendor_note'] = 'Tausche {currency:2777} gegen Haustiere ein.'

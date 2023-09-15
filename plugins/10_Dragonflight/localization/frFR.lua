@@ -835,9 +835,10 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
-L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaquer {npc:209898}.'
-L['greedy_gessie_note'] = 'Vous devez récupérer les objets {object:Légumes sauvages}, {object:Melon écaille de rubis} et {object:Racine orange} aux alentours et les mettre dans les paniers près des {npc:210285} pour commencer le combat.'
 L['envoy_of_winter_note'] = 'Ramassez des {item:208881} et utilisez le {spell:421658} près du puits jusqu\'à ce que l\'{npc:209929} apparaisse.'
+L['fruitface_note'] = nil
+L['greedy_gessie_note'] = 'Vous devez récupérer les objets {object:Légumes sauvages}, {object:Melon écaille de rubis} et {object:Racine orange} aux alentours et les mettre dans les paniers près des {npc:210285} pour commencer le combat.'
+L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaquer {npc:209898}.'
 
 L['in_a_tree'] = 'En haut d\'un arbre.'
 L['inside_building'] = 'A l\'intérieur du bâtiment.'
