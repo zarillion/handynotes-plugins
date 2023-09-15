@@ -839,7 +839,7 @@ L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
 -------------------------------------------------------------------------------
 
 L['envoy_of_winter_note'] = 'Reune {item:208881} y usa {spell:421658} cerca del pozo hasta que aparezca {npc:209929}.'
-L['fruitface_note'] = nil
+L['fruitface_note'] = 'Coge una {item:208837} del suelo para dejar aparecer a {npc:209980}. Atácale y síguelo hasta que salta al agua e invoque al raro {npc:209966}.'
 L['greedy_gessie_note'] = 'Necesitas recoger {object:Verduras Salvajes}, {object:Melón Escamarrubí} y {object:Naranjarraíz} alrededor de la zona y ponerlo todo en las cestas cerca de {npc:210285s} para comenzar el encuentro.'
 L['reefbreaker_moruud_note'] = 'Conecta las 6 {npc:210089} cercanas para atacar a {npc:209898}.'
 
