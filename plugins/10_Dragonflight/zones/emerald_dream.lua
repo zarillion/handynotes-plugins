@@ -200,6 +200,7 @@ map.nodes[54953674] = Rare({
 map.nodes[61747187] = Rare({
     id = 209113,
     quest = 77570,
+    note = L['nuoberon_note'],
     vignette = 5786,
     rewards = {
         Achievement({id = 19316, criteria = 62929}) -- Adventurer of the Emerald Dream
@@ -712,6 +713,7 @@ map.nodes[60341694] = NPC({
     id = 212903,
     icon = 'peg_bl',
     scale = 2.0,
+    class = 'DRUID',
     note = L['thaelishar_vendor_note'],
     rewards = {
         Item({item = 210764, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamtalon
@@ -768,10 +770,11 @@ map.nodes[50226180] = NPC({
 -- -- Dragon Isle Supplies
 -- -- Whelpling's Dreaming Crest
 
--- 42284821 -- Quest 66382 (not sure)
+-- 26213140
+-- 42284821
+-- 44633492
+-- 48292228 -- ontop of the burning tree
+-- 54101937
+-- 55324272
 -- 60134204 -- on a Branch - Bugged inside the branch. only lootable with interact key.
 -- 65985217 -- on a branch
--- 44633492
--- 26213140
--- 48292228 -- ontop of the burning tree
--- 55324272

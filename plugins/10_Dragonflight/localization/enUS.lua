@@ -841,6 +841,7 @@ L['envoy_of_winter_note'] = 'Gather {item:208881} and use {spell:421658} near th
 L['fruitface_note'] = 'Pick up {item:208837} from the ground to let {npc:209980} appear. Attack and follow him until he jumps in the water and summons {npc:209966} and the rare.'
 L['greedy_gessie_note'] = 'You need to collect {object:Wild Greens}, {object:Rubyscale Melon} and {object:Orangeroot} from the surrounding area and put them in the baskets near the {npc:210285s} to start the encounter.'
 L['reefbreaker_moruud_note'] = 'Connect all 6 of the nearby {npc:210089} to attack {npc:209898}.'
+L['nuoberon_note'] = 'Chase turtles, throw food at monkeys, or fight dream monsters to help {npc:209101} have a fun Dream!'
 
 L['in_a_tree'] = 'Up in a tree.'
 L['inside_building'] = 'In the building.'

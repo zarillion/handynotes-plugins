@@ -157,6 +157,8 @@ function Node:IsEnabled()
         if self:IsCompleted() then return false end
     end
 
+    if self.class and self.class ~= ns.class then return false end
+
     return true
 end
 

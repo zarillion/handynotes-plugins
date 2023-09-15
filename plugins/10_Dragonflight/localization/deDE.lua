@@ -842,6 +842,7 @@ L['envoy_of_winter_note'] = 'Sammle {item:208881} und benutze {spell:421658} am 
 L['fruitface_note'] = 'Sammle {item:208837} vom Boden auf, damit {npc:209980} erscheint. Greifen ihn an und folge ihm bis er ins Wasser springt und {npc:209966} und den seltenen Gegner erscheinen lässt.'
 L['greedy_gessie_note'] = 'Sammle frische Zutaten wie {object:Wildes Grünzeug}, {object:Rubinschuppenmelone} oder {object:Orangenwurzel} aus der Umgebung und legt diese in die Körbe, damit der seltene Gegner erscheint.'
 L['reefbreaker_moruud_note'] = 'Befestige alle 6 {npc:210089e} an ihm, um ihn angreifen zu können.'
+L['nuoberon_note'] = nil
 
 L['in_a_tree'] = 'Oben im Baum.'
 L['inside_building'] = 'Im Gebäude.'
