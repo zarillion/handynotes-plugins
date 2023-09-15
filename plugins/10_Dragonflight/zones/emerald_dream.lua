@@ -287,113 +287,6 @@ map.nodes[38436213] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[82004600] = Treasure({ -- REVIEW
-    quest = nil,
-    note = 'PH',
-    rewards = {
-        Achievement({id = 19317, criteria = 62954}) -- Treasures of The Emerald Dream
-    }
-}) -- Crystalline Glowblossom
-
--- map.nodes[47493485] = Treasure({
---     quest = nil,
---     note = 'PH',
---     rewards = {
---         Achievement({id = 19317, criteria = 62953}) -- Treasures of The Emerald Dream
---         -- REVIEW
---     }
--- }) -- Hidden Podling Stash
-
-map.nodes[47493485] = Treasure({
-    label = L['hidden_moonkin_stash_label'],
-    quest = 77858,
-    location = L['in_a_tree'],
-    rewards = {
-        Toy({item = 210725}) -- Owl Post
-    }
-}) -- Hidden Moonkin Stash
-
-map.nodes[61625960] = Treasure({
-    quest = 78005,
-    note = L['magical_bloom_note'],
-    rewards = {
-        Achievement({id = 19317, criteria = 62960}) -- Treasures of The Emerald Dream
-        -- REVIEW
-    },
-    pois = {
-        POI({64346131}) -- Laughing Sprigling
-    }
-}) -- Magical Bloom
-
-map.nodes[55275726] = Treasure({
-    quest = 78006,
-    note = L['in_a_tree'],
-    rewards = {
-        Achievement({id = 19317, criteria = 62961}) -- Treasures of The Emerald Dream
-        -- REVIEW
-    }
-}) -- Odd Burl
-
-map.nodes[37263069] = Treasure({
-    quest = 78120,
-    note = L['pineshrew_cache_note'],
-    rewards = {
-        Achievement({id = 19317, criteria = 62956}) -- Treasures of The Emerald Dream
-        -- REVIEW
-    }
-}) -- Pineshrew Cache
-
-map.nodes[63437298] = Treasure({
-    quest = 78359,
-    note = L['in_cave'] .. '\n\n' .. L['reliquary_of_ashamane_note'],
-    rewards = {
-        Achievement({id = 19317, criteria = 62958}), -- Treasures of The Emerald Dream
-        Transmog({item = 210631, slot = L['cosmetic']}) -- Branch of Ashamane
-    },
-    pois = {
-        POI({63457161}), -- Entrance
-        POI({62087464, color = 'Green'}) -- Mark of Ashamane
-    }
-}) -- Reliquary of Ashamane
-
-map.nodes[64231928] = Treasure({
-    quest = 78360,
-    note = L['reliquary_of_aviana_note'],
-    rewards = {
-        Achievement({id = 19317, criteria = 62957}), -- Treasures of The Emerald Dream
-        Transmog({item = 210659, slot = L['cosmetic']}) -- Branch of Aviana
-    },
-    pois = {
-        POI({64532091, color = 'Green'}) -- Mark of Aviana
-    }
-}) -- Reliquary of Aviana
-
-map.nodes[32938325] = Treasure({
-    quest = 78361, -- 78368 trigged for Wyldclaw?
-    location = L['in_small_cave'],
-    note = L['reliquary_of_goldrinn_note'],
-    rewards = {
-        Achievement({id = 19317, criteria = 62959}), -- Treasures of The Emerald Dream
-        Transmog({item = 210660, slot = L['cosmetic']}) -- Claw of Lo'Gosh
-    },
-    pois = {
-        POI({33108240}), -- Entrance
-        POI({30828069, color = 'Green'}) -- Mark of Goldrinn
-    }
-}) -- Reliquary of Goldrinn
-
-map.nodes[47055309] = Treasure({
-    quest = 78107,
-    note = L['reliquary_of_ursol_note'],
-    rewards = {
-        Achievement({id = 19317, criteria = 62955}), -- Treasures of The Emerald Dream
-        Transmog({item = 210434, slot = L['cosmetic']}) -- Visage of Ursoc
-    },
-    pois = {
-        POI({48015246}) -- Mark of Ursol
-    }
-}) -- Reliquary of Ursol
-
 map.nodes[35075519] = Treasure({
     label = '{npc:210060}',
     note = L['triflesnatchs_roving_trove_note'],
@@ -412,7 +305,109 @@ map.nodes[35075519] = Treasure({
     }
 }) -- Triflesnatch's Roving Trove
 
+map.nodes[83004600] = Treasure({ -- REVIEW
+    quest = nil,
+    note = 'PH',
+    rewards = {
+        Achievement({id = 19317, criteria = 62953}) -- Treasures of The Emerald Dream
+    }
+}) -- Hidden Podling Stash
+
+map.nodes[85004600] = Treasure({ -- REVIEW
+    quest = nil,
+    note = 'PH',
+    rewards = {
+        Achievement({id = 19317, criteria = 62954}) -- Treasures of The Emerald Dream
+    }
+}) -- Crystalline Glowblossom
+
+map.nodes[37263069] = Treasure({
+    quest = 78120,
+    note = L['pineshrew_cache_note'],
+    rewards = {
+        Achievement({id = 19317, criteria = 62956}) -- Treasures of The Emerald Dream
+        -- REVIEW
+    }
+}) -- Pineshrew Cache
+
+map.nodes[61625960] = Treasure({
+    quest = 78005,
+    note = L['magical_bloom_note'],
+    rewards = {
+        Achievement({id = 19317, criteria = 62960}) -- Treasures of The Emerald Dream
+        -- REVIEW
+    },
+    pois = {POI({64346131})} -- Laughing Sprigling
+}) -- Magical Bloom
+
+map.nodes[55275726] = Treasure({
+    quest = 78006,
+    note = L['in_a_tree'],
+    rewards = {
+        Achievement({id = 19317, criteria = 62961}) -- Treasures of The Emerald Dream
+        -- REVIEW
+    }
+}) -- Odd Burl
+
+map.nodes[47055309] = Treasure({
+    quest = 78107,
+    note = L['reliquary_of_ursol_note'],
+    rewards = {
+        Achievement({id = 19317, criteria = 62955}), -- Treasures of The Emerald Dream
+        Transmog({item = 210434, slot = L['cosmetic']}) -- Visage of Ursoc
+    },
+    pois = {
+        POI({48015246}) -- Mark of Ursol
+    }
+}) -- Reliquary of Ursol
+
+map.nodes[64231928] = Treasure({
+    quest = 78360,
+    note = L['reliquary_of_aviana_note'],
+    rewards = {
+        Achievement({id = 19317, criteria = 62957}), -- Treasures of The Emerald Dream
+        Transmog({item = 210659, slot = L['cosmetic']}) -- Branch of Aviana
+    },
+    pois = {
+        POI({64532091, color = 'Green'}) -- Mark of Aviana
+    }
+}) -- Reliquary of Aviana
+
+map.nodes[63437298] = Treasure({
+    quest = 78359,
+    note = L['in_cave'] .. '\n\n' .. L['reliquary_of_ashamane_note'],
+    rewards = {
+        Achievement({id = 19317, criteria = 62958}), -- Treasures of The Emerald Dream
+        Transmog({item = 210631, slot = L['cosmetic']}) -- Branch of Ashamane
+    },
+    pois = {
+        POI({63457161}), -- Entrance
+        POI({62087464, color = 'Green'}) -- Mark of Ashamane
+    }
+}) -- Reliquary of Ashamane
+
+map.nodes[32938325] = Treasure({
+    quest = 78361, -- 78368 trigged for Wyldclaw?
+    location = L['in_small_cave'],
+    note = L['reliquary_of_goldrinn_note'],
+    rewards = {
+        Achievement({id = 19317, criteria = 62959}), -- Treasures of The Emerald Dream
+        Transmog({item = 210660, slot = L['cosmetic']}) -- Claw of Lo'Gosh
+    },
+    pois = {
+        POI({33108240}), -- Entrance
+        POI({30828069, color = 'Green'}) -- Mark of Goldrinn
+    }
+}) -- Reliquary of Goldrinn
+
 -------------------------------------------------------------------------------
+
+map.nodes[47493485] = Treasure({
+    label = L['hidden_moonkin_stash_label'],
+    quest = 77858,
+    location = L['in_a_tree'],
+    rewards = {Toy({item = 210725})} -- Owl Post
+}) -- Hidden Moonkin Stash
 
 local UnwakingEcho = Class('UnwakingEcho', Treasure, {
     icon = 'chest_gn',
@@ -664,15 +659,6 @@ map.nodes[37757026] = MoonkinHatchling({
 ------------------------------- DREAMSEED SOIL --------------------------------
 -------------------------------------------------------------------------------
 
--- Achievement({
---     id = 19013,
---     criteria = {
---         62031, -- Singing Weedling
---         62396, -- Ageless Blossom
---         62397, -- Whisperbloom Sapling
---     }
--- }) -- I Dream of Seeds
-
 local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
     label = L['dreamseed_soil_label'],
     requires = {
@@ -691,7 +677,9 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
     }
 }) -- Emerald Bounty
 
--- map.nodes[] = EmeraldBounty() -- missing
+-- map.nodes[] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling
+-- map.nodes[] = EmeraldBounty({criteriaID = 62396}) -- Ageless Blossom
+-- map.nodes[] = EmeraldBounty({criteriaID = 62397}) -- Whisperbloom Sapling
 map.nodes[38455920] = EmeraldBounty({criteriaID = 62185}) -- Comfy Chamomile
 map.nodes[40025268] = EmeraldBounty({criteriaID = 62035}) -- Viridescent Sprout
 map.nodes[40672478] = EmeraldBounty({criteriaID = 62027}) -- Lavatouched Lilies
