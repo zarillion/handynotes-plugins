@@ -972,6 +972,7 @@ L['soa_14_tablet_note'] = 'Use the {item:208092} to reveal the {object:Titan-Ins
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(Clue 15)'
+L['soa_15_kathos_note'] = 'Speak with {npc:206864} to complete the quest {quest:77959} to obtain {item:208958}. Then Fly to {location:Tyrhold} and complete a series of tasks.'
 L['soa_15_tyrhold_statue_label'] = 'Tyrhold Statue'
 L['soa_15_tyrhold_statue_note'] = 'Approach the Tyrhold Statue with the {item:208092} and channel until the orb glows bright red.'
 L['soa_15_tyrhold_forge_label'] = 'Tyrhold Forge'
@@ -982,7 +983,12 @@ L['soa_15_titan_power_relay_label'] = 'Titan Power Relay'
 L['soa_15_tpr_note'] = 'Insert the {item:%d} into the {object:Titan Power Relay}.'
 L['soa_15_orb_label'] = 'Orb Location'
 L['soa_15_orb_location'] = 'Atop {location:Tyrhold}.'
-L['soa_15_orb_note'] = 'Complete {quest:77977} by defeating {npc:210674} and {npc:210675} to receive the {item:209555}.\n\nPlace the {item:209555} in the console to reveal the {item:208980}.'
+L['soa_15_orb_note'] = [[
+Accept the Quest {quest:77977} and inspect the Orb to summon {npc:210674} and {npc:210675}, defeat them to receive the {item:209555}.
+
+Place the {item:209555} in the console to reveal the {item:208980}.
+Loot the Cache and return the {item:209555} to {npc:206864} who spawned nearby after you revealed the {item:208980}.
+]]
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'

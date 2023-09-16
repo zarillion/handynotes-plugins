@@ -973,6 +973,7 @@ L['soa_14_tablet_note'] = 'Usa la {item:208092} para revelar las {object:Tablill
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(Pista 15)'
+L['soa_15_kathos_note'] = nil
 L['soa_15_tyrhold_statue_label'] = 'Estatua de Tyrhold'
 L['soa_15_tyrhold_statue_note'] = 'Acércate a la Estatua de Tyrhold con la {item:208092} y canaliza hasta que el orbe reluzca de color rojo brillante.'
 L['soa_15_tyrhold_forge_label'] = 'Forja de Tyrhold'

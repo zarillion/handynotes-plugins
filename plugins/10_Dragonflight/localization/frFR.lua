@@ -970,6 +970,7 @@ L['soa_14_tablet_note'] = 'Utilisez la {item:208092} pour révéler la {object:T
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(Indice n°15)'
+L['soa_15_kathos_note'] = nil
 L['soa_15_tyrhold_statue_label'] = 'Statue du Bastion de Tyr'
 L['soa_15_tyrhold_statue_note'] = 'Approchez la {object:Statue du Bastion de Tyr} avec la {item:208092} et canalisez jusqu\'à ce que l\'orbe devienne rouge vif.'
 L['soa_15_tyrhold_forge_label'] = 'Forge du Bastion de Tyr'

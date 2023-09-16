@@ -908,6 +908,7 @@ L['soa_14_tablet_note'] = nil
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = nil
+L['soa_15_kathos_note'] = nil
 L['soa_15_tyrhold_statue_label'] = nil
 L['soa_15_tyrhold_statue_note'] = nil
 L['soa_15_tyrhold_forge_label'] = nil

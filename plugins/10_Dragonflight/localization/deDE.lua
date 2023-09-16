@@ -974,6 +974,7 @@ L['soa_14_tablet_note'] = 'Benutze deine {item:208092}, um die {object:Titanenbe
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(Hinweis 15)'
+L['soa_15_kathos_note'] = 'Sprich mit {npc:206864} um die Quest {quest:77959} abzuschließen und erhalte die {item:208958}. Fliege dann nach {location:Tyrhold} und erfüllen eine Reihe von Aufgaben.'
 L['soa_15_tyrhold_statue_label'] = 'Tyrhold Statue'
 L['soa_15_tyrhold_statue_note'] = 'Nähere dich der Tyrhold Statue mit deiner {item:208092} und kanalisieren diese, bis die Kugel hellrot leuchtet.'
 L['soa_15_tyrhold_forge_label'] = 'Tyrhold Schmiede'
@@ -984,7 +985,12 @@ L['soa_15_titan_power_relay_label'] = 'Titanenkraftrelais'
 L['soa_15_tpr_note'] = 'Setze {item:%d} in das {object:Titanenkraftrelais} ein.'
 L['soa_15_orb_label'] = 'Kugelposition'
 L['soa_15_orb_location'] = 'Auf dem Dach von {location:Tyrhold}.'
-L['soa_15_orb_note'] = 'Nimm die Quest {quest:77977} an und töte dann {npc:210674} und {npc:210675}, um die {item:209555} zu erhalten.\n\nPlatziere die {item:209555} in der Kugelposition der Konsole, um den {object:Behälter voller kosmischer Mysterien} zu enthüllen und plündere diesen für den {item:208980}.'
+L['soa_15_orb_note'] = [[
+Nimm die Quest {quest:77977} an und untersuche die {object:Kugelposition}. {npc:210674} und {npc:210675} werden erscheinen, töte sie um die {item:209555} zu erhalten.
+
+Platziere die {item:209555} in der Kugelposition der Konsole, um den {object:Behälter voller kosmischer Mysterien} zu enthüllen und plündere diesen für den {item:208980}.
+Plündere den Behälter und bringe die {item:209555} zu {npc:206864} zurück, welche in der nähe erschienen ist.
+]]
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Plündere ein {item:208142} aus {object:Lockerer Erdhaufen}.'

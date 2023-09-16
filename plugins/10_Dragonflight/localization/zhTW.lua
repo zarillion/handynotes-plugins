@@ -972,6 +972,7 @@ L['soa_14_tablet_note'] = '使用 {item:208092} 來找到 {object:泰坦銘刻�
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(線索15)'
+L['soa_15_kathos_note'] = nil
 L['soa_15_tyrhold_statue_label'] = '提爾堡雕像'
 L['soa_15_tyrhold_statue_note'] = '使用 {item:208092} 後靠近提爾堡雕像並等待引導直到寶珠亮出紅光.'
 L['soa_15_tyrhold_forge_label'] = '提爾堡熔爐'
