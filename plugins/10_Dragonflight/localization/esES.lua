@@ -393,7 +393,7 @@ L['gemstone_of_return'] = 'Gema de Retorno'
 L['treysh_note'] = 'Intercambia {currency:2118} u oro por transfiguraciones, equipo y monturas.'
 L['renown_envoy_label'] = 'Enviado de Renombre'
 L['renown_envoy_note'] = 'Intercambia {currency:2118} u oro por monturas, mascotas, transfiguraciones, personalizaciones del draco, recetas y otros objetos útiles.\n\nCompra el {item:204383} a la {npc:200566} por 2000x {currency:2118} para un intento de conseguir a {item:191915}.'
-L['trader_hagarth_note'] = 'Intercambia {item:190456} for recetas de Bibelot del Artesano.'
+L['trader_hagarth_note'] = 'Intercambia {item:190456} por recetas de Bibelot del Artesano.'
 
 L['naszuro_caldera_of_the_menders'] = 'Encima de la torre.'
 
@@ -561,7 +561,7 @@ L['chest_of_the_elements'] = 'Cofre de los elementos'
 L['hoard_of_draconic_delicacies_note_start'] = 'Completa las siguientes 7 misiones que da {npc:189479}:'
 L['hoard_of_draconic_delicacies_note_end'] = 'Una vez completadas todas las misiones, {npc:189479} te dará la misión {quest:67071} para recibir la receta.\n\n{note:Las misiones se basan en el chef huésped que esté activo en el {location:Enclave Rubí} y pueden no coincidir en el orden listado encima.}'
 
-L['brendormi_note_start'] = 'Intercambia {item:202039} y {currency:2118} a cambio de equipo, una mascota, un juguete, y una montura.'
+L['brendormi_note_start'] = 'Intercambia {item:202039} y {currency:2118} por equipo, una mascota, un juguete, y una montura.'
 L['brendormi_note_item'] = 'Actualmente tienes %s {item:202039}.'
 L['brendormi_note_currency'] = 'Actualmente tienes %s {currency:2118}.'
 
@@ -805,8 +805,8 @@ L['sniffen_digs_suffix'] = 'excavaciones de Olfatobúsqueda completadas'
 L['big_slick_note'] = 'Completa misiones diarias de {npc:201752} para alcanzar el nivel de reputación "Profesional" (2800 de reputación en total) con la facción {faction:2568} para conseguir tu montura.\n\nO enséñale los siguientes caracoles (mascotas de combate) a nivel 25 para conseguir 100 de reputación por cada uno:'
 L['grogul_note'] = 'Habla con {npc:204672} y elige una golosina que puedas usar para animar al caracol correspondiente a ir más rápido.\n{note:El logro se puede conseguir con menos de Renombre 7.}'
 
-L['saccratos_note'] = 'Cambia {item:204727} por una mascota, montura, y más.'
-L['ponzo_note'] = 'Cambia {item:204985} por personalizaciones para el draco, mascota, montura, y más.'
+L['saccratos_note'] = 'Intercambia {item:204727} por una mascota y dos monturas.'
+L['ponzo_note'] = 'Intercambia {item:204985} por personalizaciones para el draco, mascotas, monturas, y más.'
 
 L['smelly_trash_pile_label'] = 'Montón de Basura Maloliente'
 L['options_icons_smelly_trash_pile'] = 'Montón de Basura Maloliente'
