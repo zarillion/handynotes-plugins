@@ -849,7 +849,7 @@ L['soa_01_golden_chalice_note'] = 'Platziere {item:208056} im {location:Schatzho
 
 -- Secrets of Azeroth: Clue 2
 L['soa_02_rlabel'] = '(Hinweis 2)'
-L['soa_02_kathos_note'] = nil
+L['soa_02_kathos_note'] = 'Sprich mit {npc:206864}, um den {item:207105} zu erhalten.\n\nBringe diesen zu {npc:186448} nach {location:Iskaara} in {location:Das Azurblaues Gebirge}.'
 L['soa_02_shomko_note_a'] = 'Sprich mit {npc:186448}, um {item:207580} zu erhalten.'
 L['soa_02_shomko_note_b'] = 'Platziere {item:207580} in der {location:Ebene von Nasam} in die {location:Boreanische Tundra} in {location:Nordend}.'
 L['soa_02_shomko_note_c'] = '{note:Bleibe unbedingt in der Nähe und töte {npc:208182}, um den {item:207594} zu erhalten.}'
@@ -974,7 +974,7 @@ L['soa_14_tablet_note'] = 'Benutze deine {item:208092}, um die {object:Titanenbe
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(Hinweis 15)'
-L['soa_15_kathos_note'] = 'Sprich mit {npc:206864} um die Quest {quest:77959} abzuschließen und erhalte die {item:208958}. Fliege dann nach {location:Tyrhold} und erfüllen eine Reihe von Aufgaben.'
+L['soa_15_kathos_note'] = 'Sprich mit {npc:206864}, um die Quest {quest:77959} abzuschließen und erhalte die {item:208958}. Fliege dann nach {location:Tyrhold} und erfüllen eine Reihe von Aufgaben.'
 L['soa_15_tyrhold_statue_label'] = 'Tyrhold Statue'
 L['soa_15_tyrhold_statue_note'] = 'Nähere dich der Tyrhold Statue mit deiner {item:208092} und kanalisieren diese, bis die Kugel hellrot leuchtet.'
 L['soa_15_tyrhold_forge_label'] = 'Tyrhold Schmiede'
@@ -986,10 +986,10 @@ L['soa_15_tpr_note'] = 'Setze {item:%d} in das {object:Titanenkraftrelais} ein.'
 L['soa_15_orb_label'] = 'Kugelposition'
 L['soa_15_orb_location'] = 'Auf dem Dach von {location:Tyrhold}.'
 L['soa_15_orb_note'] = [[
-Nimm die Quest {quest:77977} an und untersuche die {object:Kugelposition}. {npc:210674} und {npc:210675} werden erscheinen, töte sie um die {item:209555} zu erhalten.
+Nimm die Quest {quest:77977} an und untersuche die {object:Kugelposition}. {npc:210674} und {npc:210675} werden erscheinen, töte sie, um die {item:209555} zu erhalten.
 
 Platziere die {item:209555} in der Kugelposition der Konsole, um den {object:Behälter voller kosmischer Mysterien} zu enthüllen und plündere diesen für den {item:208980}.
-Plündere den Behälter und bringe die {item:209555} zu {npc:206864} zurück, welche in der nähe erschienen ist.
+Bringe die {item:209555} zu {npc:206864}, welche in der nähe erschienen ist.
 ]]
 
 -- Community Rumor Mill
