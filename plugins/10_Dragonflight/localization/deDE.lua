@@ -147,9 +147,9 @@ L['options_icons_frostbound_chest_desc'] = 'Zeigt die möglichen Positionen der 
 
 L['fyrakk_assault_label'] = 'Angriff von Fyrakk'
 
-L['dreamsurge_sublabel'] = nil
-L['celestine_vendor_note'] = nil
-L['renewed_magmammoth_note'] = nil
+L['dreamsurge_sublabel'] = '{note:Nur verfügbar, wenn ein {location:Traumsprung} in dieser Zone aktiv ist.}'
+L['celestine_vendor_note'] = 'Tausche {item:207026} gegen ein Reittier, Haustiere, Spielzeuge und Ausrüstungsvorlagen ein.'
+L['renewed_magmammoth_note'] = 'Sammle 20x {item:209419} vom Endboss eines {location:Traumsprungs}, um das Reittier {item:192807} zu erhalten.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -825,11 +825,11 @@ L['seething_cache_treasure_note'] = 'Sammle von {object:Brodelnde Kugel} 3x Stap
 L['chest_of_the_flights_treasure_note'] = 'Aktiviere {object:Ermächtigter Edelsteine} in der Reihenfolge {note:Rot > Schwarz > Blau > Gelb > Grün}, um die Truhe öffnen zu können.'
 L['curious_top_hat_note'] = 'Interagiere mit {npc:205010} während du den {spell:410288} Stärkungszauber auf dir hast, um {item:205021} zu erhalten. Wenn du den Stärkungszauber nicht hast wird er weglaufen.'
 
-L['the_gift_of_cheese_note_1'] = nil
-L['the_gift_of_cheese_note_2'] = nil
-L['the_gift_of_cheese_note_3'] = nil
-L['the_gift_of_cheese_note_4'] = nil
-L['the_gift_of_cheese_note_5'] = nil
+L['the_gift_of_cheese_note_1'] = 'Plündere {object:Quietschender Lochkäse} in der {location:Obsidianrast} und du bekommst die {item:204871} in dein Inventar.'
+L['the_gift_of_cheese_note_2'] = 'Interagiere mit der {item:204871}, um {item:204872} zu erhalten. {note:(5 Minuten Abklingzeit)}'
+L['the_gift_of_cheese_note_3'] = 'Sobalt du 30x {item:204872} hast, kombiniere diese, um das Rezept zu erhalten.'
+L['the_gift_of_cheese_note_4'] = '{note:Diese Ratte liebt Käse und verzehrt etwa alle drei Minuten einen {item:3927}. Plane entsprechend!}'
+L['the_gift_of_cheese_note_5'] = 'Sobald du {item:204848} herstellen kannst, verfüttere einfach 50 {npc:4075n}, die du in Azeroth findest, um den Erfolg zu erhalten.'
 
 L['zaralek_rare_active'] = ns.color.Blue('Dieser seltene Gegner kann heute erscheinen.')
 L['zaralek_rare_inactive'] = ns.color.Orange('Dieser seltene Gegner wird heute nicht erscheinen, komm morgen wieder.')
