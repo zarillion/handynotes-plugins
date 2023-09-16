@@ -9,6 +9,7 @@ local Group = ns.Group
 
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
+local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
@@ -19,6 +20,7 @@ local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
 local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
+local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
@@ -1676,3 +1678,48 @@ hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
     end
     GameTooltip:Show()
 end)
+
+------------------------------------------------------------------------------
+--------------------------------- DREAMSURGE ---------------------------------
+------------------------------------------------------------------------------
+
+local Celestine = Class('Celestine', NPC, {
+    id = 210608,
+    icon = 'peg_bl',
+    scale = 2.0,
+    sublabel = L['dreamsurge_sublabel'],
+    note = L['celestine_vendor_note'],
+    rewards = {
+        Mount({item = 198824, id = 1671, note = '1000'}), -- Duskwing Ohuna
+        Toy({item = 209858, note = '500'}), -- Dreamsurge Remnant
+        Toy({item = 209944, note = '500'}), -- Friendsurge Defenders
+        Pet({item = 205024, id = 3523, note = '250'}), -- Cheddar
+        Pet({item = 205010, id = 3516, note = '250'}) -- Crimson Swoglet
+    }
+}) -- Celestine of the Harvest
+
+ns.node.Celestine = Celestine
+
+local RenewedMagmammoth = Class('RenewedMagmammoth', Collectible, {
+    label = '{item:192807}',
+    icon = 4034837,
+    sublabel = L['dreamsurge_sublabel'],
+    rewards = {
+        Mount({item = 192807, id = 1645}) -- Renewed Magmammoth
+    }
+})
+
+function RenewedMagmammoth.getters:note()
+    local function status(id, itemsNeed)
+        local itemsHave = GetItemCount(id, true);
+        if ns.PlayerHasItem(id, itemsNeed) then
+            return ns.status.Green(itemsHave .. '/' .. itemsNeed)
+        else
+            return ns.status.Red(itemsHave .. '/' .. itemsNeed)
+        end
+    end
+
+    return status(209419, 20) .. ' ' .. L['renewed_magmammoth_note']
+end
+
+ns.node.RenewedMagmammoth = RenewedMagmammoth

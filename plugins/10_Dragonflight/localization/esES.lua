@@ -148,6 +148,10 @@ L['options_icons_frostbound_chest_desc'] = 'Muestra dónde pueden haber {object:
 
 L['fyrakk_assault_label'] = 'Asalto de Fyrakk'
 
+L['dreamsurge_sublabel'] = nil
+L['celestine_vendor_note'] = nil
+L['renewed_magmammoth_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

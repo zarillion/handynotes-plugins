@@ -147,6 +147,10 @@ L['options_icons_frostbound_chest_desc'] = 'Display possible locations of {objec
 
 L['fyrakk_assault_label'] = 'Fyrakk Assault'
 
+L['dreamsurge_sublabel'] = '{note:Only available while a {location:Dreamsurge} is active in this zone.}'
+L['celestine_vendor_note'] = 'Exchange {item:207026} for a mount, toys, pets, and transmog.'
+L['renewed_magmammoth_note'] = 'Collect 20x {item:209419} from the final boss of a {location:Dreamsurge} and combine to create {item:192807}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

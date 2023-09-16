@@ -147,6 +147,10 @@ L['options_icons_frostbound_chest_desc'] = '顯示 {object:霜縛寶箱} 可能�
 
 L['fyrakk_assault_label'] = nil
 
+L['dreamsurge_sublabel'] = nil
+L['celestine_vendor_note'] = nil
+L['renewed_magmammoth_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
