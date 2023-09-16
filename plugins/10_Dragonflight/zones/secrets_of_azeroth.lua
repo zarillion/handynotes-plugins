@@ -762,39 +762,53 @@ ohn.nodes[81335930] = SecretsOfAzeroth({
     rewards = {
         Item({item = 208857}) -- The Path of Ishtar Drawing
     },
+    fgroup = 'PathOfIshtar',
     pois = {Path({81335930, 83884849, 78638334, 60726349, 31617167, 43404800})}
 }) -- Jhara - OPTIONAL
 
 local BurialMarker = Class('BurialMarker', SecretsOfAzeroth, {
     requires = ns.requirement.Item(208857), -- The Path of Ishtar Drawing
     rlabel = Gray(L['soa_11_rlabel_optional']),
-    pois = {Path({81335930, 83884849, 78638334, 60726349, 31617167, 43404800})}
+    fgroup = 'PathOfIshtar',
+    questAny = true
 })
 
 ohn.nodes[83884849] = BurialMarker({
     label = L['soa_11_marker_1_label'],
     questDeps = 78008, -- A Proper Burial (77865)
-    quest = 78025
+    quest = {
+        78025, -- First Marker
+        77578 -- Clue 11 Complete
+    }
 }) -- First Marker - OPTIONAL
 
 ohn.nodes[78638334] = BurialMarker({
     label = L['soa_11_marker_2_label'],
     note = L['in_small_cave'],
     questDeps = 78025, -- First Marker
-    quest = 78026
+    quest = {
+        78026, -- Second Marker
+        77578 -- Clue 11 Complete
+    }
 }) -- Second Marker - OPTIONAL
 
 ohn.nodes[60726349] = BurialMarker({
     label = L['soa_11_marker_3_label'],
     questDeps = 78026, -- Second Marker
-    quest = 78027
+    quest = {
+        78027, -- Third Marker
+        77578 -- Clue 11 Complete
+    }
 }) -- Third Marker - OPTIONAL
 
 ohn.nodes[31617167] = BurialMarker({
     label = L['soa_11_marker_4_label'],
     note = L['soa_11_marker_4_note'],
     questDeps = 78027, -- Third Marker
-    quest = 78028
+    quest = {
+        78028, -- Fourth Marker
+        77578 -- Clue 11 Complete
+    }
 }) -- Fourth Marker - OPTIONAL
 
 ohn.nodes[43404800] = BurialMarker({
@@ -804,7 +818,8 @@ ohn.nodes[43404800] = BurialMarker({
     questDeps = 78028, -- Fourth Marker
     quest = {
         78037, -- burned spider webs
-        78029 -- Fifth Marker
+        78029, -- Fifth Marker
+        77578 -- Clue 11 Complete
     }
 }) -- Fifth Marker - OPTIONAL
 
