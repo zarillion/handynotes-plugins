@@ -147,9 +147,9 @@ L['options_icons_frostbound_chest_desc'] = '显示 {object:霜缚宝箱} 可能�
 
 L['fyrakk_assault_label'] = '菲莱克突袭'
 
-L['dreamsurge_sublabel'] = nil
-L['celestine_vendor_note'] = nil
-L['renewed_magmammoth_note'] = nil
+L['dreamsurge_sublabel'] = '{note:只在 {location:梦涌} 在此区域处于活动状态时可用。}'
+L['celestine_vendor_note'] = '用 {item:207026} 兑换坐骑，玩具，宠物和幻化装备。'
+L['renewed_magmammoth_note'] = '从 {location:梦涌} 的最终首领收集20个 {item:209419} 并组合起来制造 {item:192807}。'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
