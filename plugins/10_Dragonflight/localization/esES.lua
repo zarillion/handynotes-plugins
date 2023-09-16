@@ -148,9 +148,9 @@ L['options_icons_frostbound_chest_desc'] = 'Muestra dónde pueden haber {object:
 
 L['fyrakk_assault_label'] = 'Asalto de Fyrakk'
 
-L['dreamsurge_sublabel'] = nil
-L['celestine_vendor_note'] = nil
-L['renewed_magmammoth_note'] = nil
+L['dreamsurge_sublabel'] = '{note:Sólo está disponible cuando {location:Pico Onírico} está activo en esta zona.}'
+L['celestine_vendor_note'] = 'Cambia {item:207026} por una montura, juguetes, mascotas, y transfiguraciones.'
+L['renewed_magmammoth_note'] = 'Reune 20x {item:209419} del boss final del {location:Pico Onírico} y combínalos para crear el {item:192807}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
