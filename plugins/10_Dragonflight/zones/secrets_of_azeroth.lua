@@ -1281,8 +1281,8 @@ for num, part in ipairs(MJJ_PARTS) do
         playerHasItem = {part.item},
         requires = {part.requires} or nil,
         parent = {id = part.parentMapID, note = part.note},
-        IsEnabled = function()
-            return not select(11, C_MountJournal.GetMountInfoByID(1813))
+        IsCompleted = function()
+            return select(11, C_MountJournal.GetMountInfoByID(1813))
         end
     })
 end
