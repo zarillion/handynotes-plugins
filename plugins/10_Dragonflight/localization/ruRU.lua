@@ -966,6 +966,7 @@ L['soa_13_great_place_f_note'] = nil
 
 -- Secrets of Azeroth: Clue 14
 L['soa_14_rlabel'] = nil
+L['soa_14_tithris_note'] = nil
 L['soa_14_buried_object_label'] = nil
 L['soa_14_tablet_label'] = nil
 L['soa_14_tablet_note'] = nil

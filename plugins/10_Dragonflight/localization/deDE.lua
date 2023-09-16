@@ -967,6 +967,7 @@ L['soa_13_great_place_f_note'] = 'Auf einer Kiste in {location:Der Drachenhort}.
 
 -- Secrets of Azeroth: Clue 14
 L['soa_14_rlabel'] = '(Hinweis 14)'
+L['soa_14_tithris_note'] = 'Sprich mit {npc:185562}, um die {item:208942} zu erhalten und gehe nach {location:Sturmschleiergipfel} in {location:Thaldraszus}.'
 L['soa_14_buried_object_label'] = 'Vergrabenes Objekt (%d)'
 L['soa_14_tablet_label'] = 'Titanenbeschriebene Tafel (%d)'
 L['soa_14_tablet_note'] = 'Benutze deine {item:208092}, um die {object:Titanenbeschriebene Tafel} zu enthüllen. Folge den Koordinaten mit {item:206696} zu {object:Vergrabenes Objekt} und grabe dort ein {item:209795} aus.'

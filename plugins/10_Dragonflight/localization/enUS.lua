@@ -965,6 +965,7 @@ L['soa_13_great_place_f_note'] = 'On a crate inside {location:The Dragon\'s Hoar
 
 -- Secrets of Azeroth: Clue 14
 L['soa_14_rlabel'] = '(Clue 14)'
+L['soa_14_tithris_note'] = 'Speak to {npc:185562}, he will give you {item:208942}. Afterwards go to {location:Stormshroud Peak} in {location:Thaldraszus}.'
 L['soa_14_buried_object_label'] = 'Buried Object (%d)'
 L['soa_14_tablet_label'] = 'Titan-Inscribed Tablet (%d)'
 L['soa_14_tablet_note'] = 'Use the {item:208092} to reveal the {object:Titan-Inscribed Tablet}. Follow the {item:206696} coordinates to the {object:Buried Object} and dig up the {item:209795}.'

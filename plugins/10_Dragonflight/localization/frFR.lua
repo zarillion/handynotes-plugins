@@ -963,6 +963,7 @@ L['soa_13_great_place_f_note'] = 'Sur une caisse à l\'intérieur du {location:T
 
 -- Secrets of Azeroth: Clue 14
 L['soa_14_rlabel'] = '(Indice n°14)'
+L['soa_14_tithris_note'] = nil
 L['soa_14_buried_object_label'] = 'Objet enterré (%d)'
 L['soa_14_tablet_label'] = 'Tablette gravée par les titans (%d)'
 L['soa_14_tablet_note'] = 'Utilisez la {item:208092} pour révéler la {object:Tablette gravée par les titans}. Suivez les coordonnées de la {item:206696} jusqu\'à l\'{object:Objet enterré} et déterrez l\'{item:209795}.'

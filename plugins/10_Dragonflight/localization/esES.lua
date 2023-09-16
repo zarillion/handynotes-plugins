@@ -966,6 +966,7 @@ L['soa_13_great_place_f_note'] = 'En una caja dentro del {location:Tesoro del Dr
 
 -- Secrets of Azeroth: Clue 14
 L['soa_14_rlabel'] = '(Pista 14)'
+L['soa_14_tithris_note'] = nil
 L['soa_14_buried_object_label'] = 'Objeto Enterrado (%d)'
 L['soa_14_tablet_label'] = 'Tablilla con Inscripciones Titánicas (%d)'
 L['soa_14_tablet_note'] = 'Usa la {item:208092} para revelar las {object:Tablilla con Inscripciones Titánicas}. Sigue las coordenadas del {item:206696} para llegar al {object:Objeto Enterrado} y desenterrar la {item:209795}.'

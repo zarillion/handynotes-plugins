@@ -965,6 +965,7 @@ L['soa_13_great_place_f_note'] = '在 {location:巨龍寶庫} 內的箱子上.\n
 
 -- Secrets of Azeroth: Clue 14
 L['soa_14_rlabel'] = '(線索14)'
+L['soa_14_tithris_note'] = nil
 L['soa_14_buried_object_label'] = '埋藏的物品 (%d)'
 L['soa_14_tablet_label'] = '泰坦銘刻石板 (%d)'
 L['soa_14_tablet_note'] = '使用 {item:208092} 來找到 {object:泰坦銘刻石板}. 跟著 (item:206696) 的座標找到 (object:埋藏的物品) 並且挖出 {item:209795}.'

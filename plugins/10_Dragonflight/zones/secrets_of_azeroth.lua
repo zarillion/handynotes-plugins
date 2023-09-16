@@ -609,9 +609,6 @@ tha.nodes[59307882] = TimeLostFragment({
     location = L['soa_08_tl_fragment_location_c']
 })
 
--- 77305 ![Out of the Sands]
--- 76508 Clue 08 complete
-
 -------------------------------------------------------------------------------
 ------------------------- SECRETS OF AZEROTH: CLUE 09 -------------------------
 -------------------------------------------------------------------------------
@@ -655,9 +652,6 @@ ohn.nodes[63005737] = SecretsOfAzeroth({
     questAny = true
     -- questDeps = 77653 -- A Key Story (TODO: uncomment if 77653 is fixed)
 }) -- Ancient Key Mold
-
--- 77822 --![A Titanic Mold]
--- 77576 -- Clue 09 complete
 
 -------------------------------------------------------------------------------
 ------------------------- SECRETS OF AZEROTH: CLUE 10 -------------------------
@@ -722,8 +716,6 @@ tws.nodes[24516074] = SecretsOfAzeroth({
         Item({item = 208831}) -- Reforged Titan Key
     }
 }) -- Weaponsmith Koref
-
--- 77577 -- Clue 10 complete
 
 -------------------------------------------------------------------------------
 ------------------------- SECRETS OF AZEROTH: CLUE 11 -------------------------
@@ -835,8 +827,6 @@ ohn.nodes[42655099] = SecretsOfAzeroth({
     pois = {POI({43614809})}
 }) -- Burial Banner
 
--- 77578 -- Clue 11 Complete
-
 -------------------------------------------------------------------------------
 ------------------------- SECRETS OF AZEROTH: CLUE 12 -------------------------
 -------------------------------------------------------------------------------
@@ -877,13 +867,9 @@ kar.nodes[33265118] = AncientTome({
     }
 })
 
--- 77579 -- Clue 12 complete
-
 -------------------------------------------------------------------------------
 ------------------------- SECRETS OF AZEROTH: CLUE 13 -------------------------
 -------------------------------------------------------------------------------
-
--- 77916, -- ![They Are Always Listening]
 
 val.nodes[47964686] = SecretsOfAzeroth({
     label = '{npc:207696}',
@@ -949,16 +935,24 @@ val.nodes[46004140] = SecretsOfAzeroth({
     pois = {POI({46944490})} -- Odd Statue
 }) -- Note to Kirtha
 
--- 77580 Clue 13 complete
--- 77934 ![A Complete Inventory]
-
 -------------------------------------------------------------------------------
 ------------------------- SECRETS OF AZEROTH: CLUE 14 -------------------------
 -------------------------------------------------------------------------------
 
--- 185562 Tithris
--- 77951 ![A Sphere in Danger] (77953)
--- 208942 Preservationsist's Dispatch Three
+val.nodes[47464618] = SecretsOfAzeroth({
+    label = '{npc:185562}',
+    rlabel = Gray(L['soa_14_rlabel']),
+    note = L['soa_14_tithris_note'],
+    quest = {
+        77951, -- ![A Sphere in Danger]
+        77953 -- Hidden Quest for ![A Sphere in Danger]
+    },
+    questAny = true,
+    questDeps = 77580, -- Clue 13 complete
+    rewards = {
+        Item({item = 208942}) -- Preservationsist's Dispatch Three
+    }
+}) -- Tithris
 
 tha.nodes[50208100] = SecretsOfAzeroth({
     label = format(L['soa_14_tablet_label'], 1),
@@ -966,7 +960,7 @@ tha.nodes[50208100] = SecretsOfAzeroth({
     requires = REQUIREMENT_TORCH_OF_PYRRETH,
     location = L['in_small_cave'],
     quest = 78108, -- hidden
-    questDeps = 77951, -- ![A Sphere in Danger]
+    questDeps = 77953, -- ![A Sphere in Danger]
     note = L['soa_14_tablet_note'],
     pois = {
         POI({49507970}), -- Buried Object
@@ -982,7 +976,7 @@ tha.nodes[49507970] = SecretsOfAzeroth({
         77954, -- ![A Curious Orb]
         77520 -- Clue 14 complete
     },
-    questDeps = {78108}, -- hidden
+    questDeps = 78108, -- hidden
     pois = {
         POI({50208100}), -- Buried Object
         Path({49507970, 50208100}) -- Path
