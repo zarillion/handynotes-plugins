@@ -136,7 +136,8 @@ map.nodes[37433171] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62940}) -- Adventurer of the Emerald Dream
-    }
+    },
+    pois = {POI({38113211})} -- Entrance
 }) -- Isaqa
 
 map.nodes[40294916] = Rare({
