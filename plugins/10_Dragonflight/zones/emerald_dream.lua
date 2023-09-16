@@ -88,7 +88,8 @@ map.nodes[29862077] = Rare({ -- REVIEW
 map.nodes[62907302] = Rare({
     id = 209913,
     quest = 77846,
-    note = L['in_cave'] .. '\n\n' .. L['fruitface_note'],
+    location = L['in_cave'],
+    note = L['fruitface_note'],
     rewards = {
         Achievement({id = 19316, criteria = 62938}), -- Adventurer of the Emerald Dream
         Transmog({item = 208372, slot = L['leather']}), -- Trickster's Tip Toers
@@ -113,7 +114,7 @@ map.nodes[54034142] = Rare({ -- REVIEW
 map.nodes[47062974] = Rare({
     id = 210075,
     quest = 77944,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62950}), -- Adventurer of the Emerald Dream
         Transmog({item = 208357, slot = L['cloak']}), -- Henri's Warm Coat
@@ -152,7 +153,7 @@ map.nodes[40294916] = Rare({
 map.nodes[41107328] = Rare({
     id = 210051,
     quest = 78213,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62946}), -- Adventurer of the Emerald Dream
         Item({item = 210683, quest = 78513, class = 'DRUID'}) -- Mark of the Dreamtalon Matriarch
@@ -178,14 +179,12 @@ map.nodes[63793624] = Rare({
 map.nodes[40467258] = Rare({
     id = 210045,
     quest = 78210,
-    note = L['in_cave'],
+    location = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62942}), -- Adventurer of the Emerald Dream
         Item({item = 201437}) -- Slumbering Dream Fragment
     },
-    pois = {
-        POI({38817158}) -- Entrance
-    }
+    pois = {POI({38817158})} -- Entrance
 }) -- Moragh the Slothful
 
 map.nodes[54953674] = Rare({
@@ -210,7 +209,7 @@ map.nodes[61747187] = Rare({
 map.nodes[44473929] = Rare({
     id = 210161,
     quest = 77890,
-    note = L['in_cave'],
+    location = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62951}), -- Adventurer of the Emerald Dream
         Item({item = 201437}) -- Slumbering Dream Fragment
@@ -274,7 +273,7 @@ map.nodes[26022656] = Rare({
 map.nodes[22743226] = Rare({
     id = 210559,
     quest = 78039,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Transmog({item = 210105, slot = L['leather']}) -- Autumn Druid Belt
     }
@@ -283,7 +282,7 @@ map.nodes[22743226] = Rare({
 map.nodes[38436213] = Rare({
     id = 210508,
     quest = 78214,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Item({item = 201437}) -- Slumbering Dream Fragment
     },
@@ -322,7 +321,7 @@ map.nodes[61625960] = Treasure({
 
 map.nodes[55275726] = Treasure({
     quest = 78006,
-    note = L['in_a_tree'],
+    location = L['in_a_tree'],
     rewards = {
         Achievement({id = 19317, criteria = 62961}) -- Treasures of The Emerald Dream
         -- REVIEW
@@ -331,7 +330,7 @@ map.nodes[55275726] = Treasure({
 
 map.nodes[37263069] = Treasure({
     quest = 78120,
-    note = L['pineshrew_cache_note'],
+    location = L['pineshrew_cache_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62956}) -- Treasures of The Emerald Dream
         -- REVIEW
@@ -385,7 +384,7 @@ map.nodes[47055309] = Treasure({
         Transmog({item = 210434, slot = L['cosmetic']}) -- Visage of Ursoc
     },
     pois = {
-        POI({48015246}) -- Mark of Ursol
+        POI({48015246, color = 'Green'}) -- Mark of Ursol
     }
 }) -- Reliquary of Ursol
 
@@ -438,7 +437,7 @@ map.nodes[55672258] = UnwakingEcho({
 
 map.nodes[55324538] = UnwakingEcho({
     quest = 78551,
-    sublabel = L['in_small_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Transmog({item = 210678, slot = L['cosmetic']}) -- Verdant Glearner's Scythe
     },
@@ -447,7 +446,7 @@ map.nodes[55324538] = UnwakingEcho({
 
 map.nodes[69575284] = UnwakingEcho({
     quest = 78550,
-    sublabel = L['inside_building'],
+    location = L['inside_building'],
     rewards = {
         Transmog({item = 210686, slot = L['shield']}) -- Grovekeeper's Barrier
     }
@@ -505,7 +504,7 @@ map.nodes[39575227] = PT.Engineering({
 map.nodes[40498937] = PT.Engineering({
     id = 210194,
     quest = 78279,
-    note = L['in_small_cave']
+    location = L['in_small_cave']
 }) -- Insomniotron
 
 map.nodes[62683626] = PT.Engineering({id = 210197, quest = 78281}) -- Unhatched Battery
@@ -598,14 +597,14 @@ map.nodes[36457124] = MoonkinHatchling({
 
 map.nodes[36386277] = MoonkinHatchling({
     criteriaID = 62790,
-    note = L['in_small_cave']
+    location = L['in_small_cave']
 }) -- Eugene
 
 map.nodes[38436958] = MoonkinHatchling({criteriaID = 62775}) -- Feets
 
 map.nodes[39347178] = MoonkinHatchling({
     criteriaID = 62779,
-    note = L['in_cave'],
+    location = L['in_cave'],
     pois = {POI({38817158})} -- Entrance
 }) -- Fruffles
 
@@ -613,14 +612,14 @@ map.nodes[38696352] = MoonkinHatchling({criteriaID = 62789}) -- Fuzz
 
 map.nodes[35756700] = MoonkinHatchling({
     criteriaID = 62773,
-    note = L['in_small_cave']
+    location = L['in_small_cave']
 }) -- Giblet
 
 map.nodes[37767327] = MoonkinHatchling({criteriaID = 62784}) -- Hops
 
 map.nodes[35566976] = MoonkinHatchling({
     criteriaID = 62783,
-    note = L['in_small_cave']
+    location = L['in_small_cave']
 }) -- Meep
 
 map.nodes[36116968] = MoonkinHatchling({criteriaID = 62787}) -- Moonbeam
@@ -629,13 +628,13 @@ map.nodes[37427231] = MoonkinHatchling({criteriaID = 62782}) -- Owlington
 
 map.nodes[38046901] = MoonkinHatchling({
     criteriaID = 62777,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     pois = {POI({37526855})} -- Entrance
 }) -- Peanut
 
 map.nodes[40407150] = MoonkinHatchling({
     criteriaID = 62778,
-    note = L['in_cave'],
+    location = L['in_cave'],
     pois = {POI({38817158})} -- Entrance
 }) -- Snoozle
 
@@ -646,19 +645,19 @@ map.nodes[36357161] = MoonkinHatchling({
 
 map.nodes[38446930] = MoonkinHatchling({
     criteriaID = 62786,
-    note = L['in_cave'],
+    location = L['in_cave'],
     pois = {POI({37536964})} -- Entrance
 }) -- Squeaky
 
 map.nodes[38757048] = MoonkinHatchling({
     criteriaID = 62791,
-    note = L['in_cave'],
+    location = L['in_cave'],
     pois = {POI({37536964})} -- Entrance
 }) -- Tickles
 
 map.nodes[37757026] = MoonkinHatchling({
     criteriaID = 62781,
-    note = L['in_cave'],
+    location = L['in_cave'],
     pois = {POI({37536964})} -- Entrance
 }) -- Wingnut
 
