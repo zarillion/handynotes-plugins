@@ -834,3 +834,186 @@ L['zaralek_event_inactive'] = ns.color.Orange('Cet Événement bonus n\'apparaî
 
 L['options_icons_zone_event'] = 'Événements bonus'
 L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements bonus.'
+
+-------------------------------------------------------------------------------
+----------------------------- SECRETS OF AZEROTH ------------------------------
+-------------------------------------------------------------------------------
+
+-- Secrets of Azeroth: Clue 1
+L['soa_01_rlabel'] = '(Indice n°1)'
+L['soa_01_golden_chalice_note'] = 'Placez le {item:208056} sur un tas d\'or à l\'intérieur de la Banque de {location:Valdrakken}.'
+
+-- Secrets of Azeroth: Clue 2
+L['soa_02_rlabel'] = '(Indice n°2)'
+L['soa_02_kathos_note'] = 'Parlez à la {npc:206864} pour recevoir la {item:207105}.\n\nApportez la {item:207105} jusqu\'à l\'{npc:186448} à {location:Iskaara} à la {location:Travée d’Azur}.'
+L['soa_02_shomko_note_a'] = 'Parlez à l\'{npc:186448} pour recevoir la {item:207580}.'
+L['soa_02_shomko_note_b'] = 'Placez la {item:207580} sur la {object:Lance cérémonielle} à la {location:Grève des Courcinglants} dans la {location:Toundra Boréenne} en {location:Norfendre}.'
+L['soa_02_shomko_note_c'] = '{note:Veillez à rester dans les parages afin de tuer un {npc:208182} pour recevoir la {item:207594}.}'
+
+-- Secrets of Azeroth: Clue 3
+L['soa_03_rlabel'] = '(Indice n°3)'
+L['soa_03_fangli_hoot_note_a'] = 'Parlez à {npc:207696} pour obtenir les {item:207802}. Vous devrez construire une {item:207827} en collectant divers composants :'
+L['soa_03_fangli_hoot_note_b'] = 'Échangez 5x {item:207956} avec {npc:185548} contre un {item:207814} à {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_c'] = 'Échangez 1x {item:207812} à {npc:185548} contre un {item:207813} à {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_d'] = 'Recevez 1x {item:207816} de {npc:198586} après avoir payé sa note de bar à {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_e'] = 'Combinez les objets récupérés pour obtenir une {item:207827} et commencer {quest:77237} à rendre auprès de {npc:207697} à {location:Valdrakken}.'
+L['soa_03_fangli_clue_label'] = 'Indice de Canine'
+L['soa_03_fangli_clue'] = 'Près d\'une cascade à l\'{location:Enclave d\'émeraude}.'
+L['soa_03_erugosa_note_a'] = 'Parlez à {npc:185556} pour recevoir la {item:208416}. Vous devrez collecter les objets suivants pour elle :'
+L['soa_03_erugosa_note_b'] = 'Achetez 5x {item:198441} auprès d\'{npc:194152} à l\'{location:Avant-poste Pas-de-bois} aux {location:Plaines d\'Ohn\'ahra}.'
+L['soa_03_erugosa_note_c'] = 'Achetez 5x {item:201419} auprès de {npc:196729} au {location:Marché d\'artisanat} à {location:Valdrakken}.'
+L['soa_03_erugosa_note_d'] = 'Achetez 5x {item:205693} auprès de {npc:204371} à l\'entrée de {location:Terreau} dans la {location:Grotte de Zaralek}.'
+L['soa_03_clinkyclick_note_a'] = 'Parlez à {npc:185548} pour recevoir un {item:207814}. Vous aurez besoin de :'
+L['soa_03_clinkyclick_note_b'] = 'Obtenez 10x {item:207956} auprès d\'{npc:185556} au {location:Bélier rôti} à {location:Valdrakken}.'
+L['soa_03_gryffin_note_a'] = 'Parlez à {npc:197781} pour recevoir un {item:207813}. Vous aurez besoin de rassembler :'
+L['soa_03_gryffin_note_b'] = 'Obtenez 1x {item:207812} en tuant des {npc:191451} à la {location:Rive de la Cascade} à {location:Valdrakken}.'
+L['soa_03_shakey_note_a'] = 'Parlez à {npc:198586} pour recevoir les {item:207816}.'
+L['soa_03_shakey_note_b'] = 'Payez la note du bar de {npc:198586} s\'élevant à %s au {location:Trésor du Dragon} à {location:Valdrakken}.'
+L['soa_03_shakey_note_c'] = 'Entrez au {location:Trésor du Dragon} par l\'entrée secrète en utilisant l\'emote {emote:/incliner} devant l\'{object:Étrange statue} située au fond du {location:Bélier rôti}.'
+
+-- Secrets of Azeroth: Clue 4
+L['soa_04_rlabel'] = '(Indice n°4)'
+L['soa_04_locker_label'] = 'Coffre de la préservatrice'
+L['soa_04_sazsel_note_a'] = 'Récupérez la {item:208130} dans le {object:Coffre de la préservatrice} au dernier étage du {location:Bélier rôti} et apportez-la à l\'{npc:208620} à {location:Valdrakken}.'
+L['soa_04_sazsel_note_b'] = 'Une fois examinée, rapportez la bannière dans le coffre et retournez voir {npc:207697}.'
+
+-- Secrets of Azeroth: Clue 5
+L['soa_05_rlabel'] = '(Indice n°5)'
+L['soa_05_torch_of_pyrreth_note_a'] = 'Activez les 3 {object:Levier ancien} trouvés au {location:Conservatoire de la Lieuse-de-vie} aux {location:Rivages de l\'Éveil} pour révéler la {item:208135}.'
+L['soa_05_torch_of_pyrreth_note_b'] = 'Une fois récupérée, retournez voir la {npc:206864} au {location:Bélier rôti} à {location:Valdrakken}.'
+L['soa_05_torch_of_pyrreth_note_c'] = 'Utilisez votre {item:208092} pour recevoir le buff {spell:419127}. Vous pouvez maintenant révéler le {npc:209011} qui fait apparaître une {object:Boîte enchantée}.'
+L['soa_05_ancient_lever_label'] = 'Levier ancien'
+L['soa_05_ancient_lever_note_a'] = 'A l\'arrière du bâtiment en ruine derrière {npc:195915}.'
+L['soa_05_ancient_lever_note_b'] = 'A l\'intérieur de la tour en ruine.'
+L['soa_05_ancient_lever_note_c'] = 'A l\'intérieur du bâtiment près des {npc:186823} et {npc:186825}.'
+L['soa_05_enchanted_box_label'] = 'Boîte enchantée'
+
+-- Secrets of Azeroth: Clue 6
+L['soa_06_rlabel'] = '(Indice n°6)'
+L['soa_06_unvieled_tablet_label'] = 'Tablette révélée'
+L['soa_06_unvieled_tablet_note_a'] = 'Parlez à {npc:207696} pour terminer la quête {quest:77284} et obtenir les {item:208137}.\n\nRendez-vous ensuite à {location:Vakthros} à la {location:Travée d’Azur}.'
+L['soa_06_unvieled_tablet_note_b'] = 'Utilisez la {item:208092} à la base du pylône à {location:Vakthros} à la {location:Travée d’Azur} pour faire apparaître la {object:Tablette révélée}.'
+L['soa_06_unvieled_tablet_note_c'] = 'Récupérez le {item:208143} et retournez voir {npc:207696} à {location:Valdrakken} pour compléter le secret.'
+
+-- Secrets of Azeroth: Clue 7
+L['soa_07_rlabel'] = '(Indice n°7)'
+L['soa_07_brazier_label'] = 'Brasero d\'encens ancien'
+L['soa_07_brazier_note_a'] = 'Parlez à {npc:185562} pour terminer la quête {quest:77303} et obtenir le {item:208144}.\n\nDirigez-vous vers les {location:Plaines d’Ohn’ahra} aux {location:Kurgans éternels}.'
+L['soa_07_brazier_note_b'] = 'Utilisez la {item:208135} pour allumer le {object:Brasero d\'encens ancien} à l\'intérieur du tertre funéraire.'
+L['soa_07_idol_note'] = 'Récupérez l\'{item:207730} apparue à côté du {object:Brasero d\'encens ancien} et retournez à {location:Valdrakken}.'
+
+-- Secrets of Azeroth: Clue 8
+L['soa_08_rlabel'] = '(Indice n°8)'
+L['soa_08_kathos_note'] = 'Parlez à la {npc:206864} pour recevoir {item:206948}.\n\nVolez jusqu\'aux {location:Sables changeants} à {location:Thaldraszus} et utilisez l\'{item:207730} pour trouver 3x {item:208191}.'
+L['soa_08_time_lost_fragment_note'] = 'Utilisez l\'{item:207730} pour trouver 3x {item:208191} aux {location:Sables changeants} à {location:Thaldraszus}.\n\nCombinez les 3x pour créer une {item:208146} et retournez voir la {npc:206864} à {location:Valdrakken}.'
+L['soa_08_tl_fragment_location_a'] = 'Sous un petit arbre.'
+L['soa_08_tl_fragment_location_b'] = 'Entre deux gros rochers.'
+L['soa_08_tl_fragment_location_c'] = 'Au fond de la petite rivière.'
+
+-- Secrets of Azeroth: Clue 9
+L['soa_09_rlabel'] = '(Indice n°9)'
+L['soa_09_bobby_note'] = 'Parlez à {npc:207696} pour commencer la quête {quest:77653}. Complétez la quête en allant voir le {npc:195769} et récupérez {item:208486}.\n\nEnsuite, rendez-vous à la {location:Clairière Sylvestre} aux {location:Plaines d\'Ohn\'ahra}.'
+L['soa_09_hastily_scrawled_stone_label'] = 'Pierre griffonnée à la hâte'
+L['soa_09_hastily_scrawled_stone_note'] = 'Utilisez la {item:208092} pour révéler la {object:Pierre griffonnée à la hâte} puis allez vers le {object:Moule de clé antique} à proximité.'
+L['soa_09_ancient_key_mold_label'] = 'Moule de clé antique'
+L['soa_09_ancient_key_mold_note'] = 'Récupérez le {object:Moule de clé antique} pour obtenir le {item:208827} qui lancera la quête {quest:77822}.\n\nRetournez voir le {npc:195769} à {location:Valdrakken}.'
+
+-- Secrets of Azeroth: Clue 10
+L['soa_10_rlabel'] = '(Indice n°10)'
+L['soa_10_tyrs_titan_key_note'] = 'Acceptez la quête {quest:77829} de {npc:207696} et allez voir le {npc:210837} pour obtenir la {item:208829}.\n\nRécupérez les {item:208835} et les {item:208836} aux {location:Rivages de l\'Eveil} pour reforger la clé à la {location:Citadelle d\'obsidienne}.'
+L['soa_10_rose_gold_dust_note'] = 'Récupérez 50x {item:208835}, utilisez votre {item:207730} pour trouver les petits cailloux rouges au sol.\n\nAllez voir le {npc:210837} à la {location:Citadelle d\'obsidienne} après avoir trouvé 50x {item:208835} et 8x {item:208836}.'
+L['soa_10_igneous_flux_note'] = 'Récupérez 8x {item:208836} à différents endroits aux {location:Rivages de l\'Eveil} où la lave rencontre l\'eau salée.\n\nAllez voir le {npc:210837} à la {location:Citadelle d\'obsidienne} après avoir trouvé 50x {item:208835} et 8x {item:208836}.'
+L['soa_10_weaponsmith_koref_note'] = 'Parlez au {npc:210837} et commencez la quête {quest:77831} pour l\'aider à reforger la {item:208831} avec les matériaux réscoltés et votre {item:208092}.'
+
+-- Secrets of Azeroth: Clue 11
+L['soa_11_rlabel'] = '(Indice n°11)'
+L['soa_11_rlabel_optional'] = '(Indice n°11 - Optionnel)'
+L['soa_11_kathos_note'] = 'Parlez à la {npc:206864}, vous recevrez la {item:208852}. Allez voir {npc:195543} aux {location:Plaines d\'Ohn\'ahra} pour lui poser des questions sur la bannière.'
+L['soa_11_sansok_khan_note'] = 'Demandez à {npc:195543} comment enterrer correctement {npc:Ishtaar Rethon}, le chasseur à qui appartient la bannière.\n\nVous recevrez la {item:209061} et devrez trouver {npc:191391} au {location:Poste de la pinède}.'
+L['soa_11_jhara_note'] = 'Parlez à {npc:191391}, l\'aubergiste. Elle vous donnera le {item:208857}, l\'indice de ce secret.'
+L['soa_11_marker_1_label'] = 'Premier marqueur'
+L['soa_11_marker_2_label'] = 'Deuxième marqueur'
+L['soa_11_marker_3_label'] = 'Troisième marqueur'
+L['soa_11_marker_4_label'] = 'Quatrième marqueur'
+L['soa_11_marker_4_note'] = 'A l\'intérieur du tertre funéraire.'
+L['soa_11_marker_5_label'] = 'Cinquième marqueur'
+L['soa_11_marker_5_note'] = 'Si l\'expédition {wq:Victimes entoilées} est active, elle doit être complétée avant d\'utiliser la {item:208092} pour brûler les toiles et révéler l\'indice.'
+L['soa_11_burial_banner_note'] = 'Enfoncez-vous dans la grotte et montez à l\'étage supérieur une fois que vous aurez atteint une rampe. Au fond de cet étage, vous trouverez un endroit où placer la {item:208852}.'
+
+-- Secrets of Azeroth: Clue 12
+L['soa_12_rlabel'] = '(Indice n°12)'
+L['soa_12_bobby_note'] = 'Parlez avec {npc:207696} pour recevoir la {item:208888}.\n\nRendez-vous à {location:Karazhan} (ancienne version) et avancez jusqu\'à avoir dépassé {npc:15691}, pour pénétrer dans la {location:Bibliothèque du Gardien}. Vous devrez y trouver un livre, utilisez votre {item:207730} pour le localiser.'
+L['soa_12_ancient_tome_note'] = 'Cherchez des ouvrages avec votre {item:207730} jusqu\'à ce que vous trouviez {item:208889} et ramenez-le à {npc:207696} à {location:Valdrakken}.'
+
+-- Secrets of Azeroth: Clue 13
+L['soa_13_rlabel'] = '(Indice n°13)'
+L['soa_13_bobby_note'] = 'Parlez à {npc:207696} pour commencer la quête {quest:77928}.'
+L['soa_13_great_place_a_label'] = 'Acte de vente de l\'hôtel des ventes'
+L['soa_13_great_place_a_note'] = 'Sur un tas de caisses situé dans l\'entrée de {location:Hôtel des ventes}.'
+L['soa_13_great_place_b_label'] = 'Récépissé de la chambre du Vide'
+L['soa_13_great_place_b_note'] = 'Sur une caisse dans le bâtiment du Transmogrifieur et de la Chambre du Vide.'
+L['soa_13_great_place_c_label'] = 'Récépissé de matériel de jardinage'
+L['soa_13_great_place_c_note'] = 'Dans un petit bâtiment où deux {npc:197035} se disputent.'
+L['soa_13_great_place_d_label'] = 'Note de chercheur'
+L['soa_13_great_place_d_note'] = 'A l\'intérieur d\'un petit bâtiment, posée sur des livres.'
+L['soa_13_great_place_e_label'] = 'Note griffonnée à la hâte'
+L['soa_13_great_place_e_note'] = 'Derrière le présentoir du vendeur au {location:Marché d\'artisanat}.'
+L['soa_13_great_place_f_label'] = 'Note à Kritha'
+L['soa_13_great_place_f_note'] = 'Sur une caisse à l\'intérieur du {location:Trésor du Dragon}.\n\nVous devez utiliser l\'emote {emote:/bow} devant l\'{npc:189827} au {location:Bélier rôti} pour entrer dans le bar secret.'
+
+-- Secrets of Azeroth: Clue 14
+L['soa_14_rlabel'] = '(Indice n°14)'
+L['soa_14_buried_object_label'] = 'Objet enterré (%d)'
+L['soa_14_tablet_label'] = 'Tablette gravée par les titans (%d)'
+L['soa_14_tablet_note'] = 'Utilisez la {item:208092} pour révéler la {object:Tablette gravée par les titans}. Suivez les coordonnées de la {item:206696} jusqu\'à l\'{object:Objet enterré} et déterrez l\'{item:209795}.'
+
+-- Secrets of Azeroth: Clue 15
+L['soa_15_rlabel'] = '(Indice n°15)'
+L['soa_15_tyrhold_statue_label'] = 'Statue du Bastion de Tyr'
+L['soa_15_tyrhold_statue_note'] = 'Approchez la {object:Statue du Bastion de Tyr} avec la {item:208092} et canalisez jusqu\'à ce que l\'orbe devienne rouge vif.'
+L['soa_15_tyrhold_forge_label'] = 'Forge du Bastion de Tyr'
+L['soa_15_tyrhold_forge_note'] = 'Approchez la forge au centre du {location:Bastion de Tyr} pour recevoir le buff {spell:423792}.'
+L['soa_15_broken_urn_note'] = 'Récupérez l\'{object:Urne brisée} pour recevoir l\'objet {item:%d}.'
+L['soa_15_broken_urn_location'] = 'Située au niveau %d du {location:Bastion de Tyr}.'
+L['soa_15_titan_power_relay_label'] = 'Relais de puissance des titans'
+L['soa_15_tpr_note'] = 'Insérer l\'objet {item:%d} au sein du {object:Relais de puissance des titans}.'
+L['soa_15_orb_label'] = 'Emplacement de l\'orbe'
+L['soa_15_orb_location'] = 'Au sommet du {location:Bastion de Tyr}.'
+L['soa_15_orb_note'] = 'Terminez la quête {quest:77977} en battant {npc:210674} et {npc:210675} pour recevoir l\'{item:209555}.\n\nPlacez l\'{item:209555} sur la console pour faire apparaître la {item:208980}.'
+
+-- Community Rumor Mill
+L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
+L['buried_satchel_sublabel'] = '{note:Ceci n\'est PAS un emplacement de {item:208142}.}'
+
+L['bs_epl_location'] = 'Derrière le bâtiment à la {location:Croisée de Corin}.'
+L['bs_fel_location'] = 'Sous l\'eau au centre des {location:Chutes de la Vénéneuse}.'
+L['bs_tho_location'] = 'Dans une grotte sous-marine nommée le {location:Bastion du Sabot fendu}.'
+L['bs_smv_location'] = 'Dans l\'arbre creux au {location:Pic du Saule-Lunaire}.'
+L['bs_net_location'] = 'À la {location:Manaforge B\'naar} à {location:Raz-de-Néant} en {location:Outreterre}.\n\n{note:Vous aurez besoin de 3 joueurs pour canaliser la {item:208092} sur les cristaux à proximité pour faire apparaître le {object:Monticule de terre meuble}.}'
+L['bs_vfw_location'] = 'Au sommet de la cascade dorée, dans la bouche de la statue {npc:129151}.'
+L['bs_tas_location'] = 'Utilisez la {item:208135} pour faire fondre le {npc:96438} et révéler le {object:Monticule de terre meuble}.'
+L['bs_dbt_location'] = 'Sous la grande griffe de squelette au {location:%s}.'
+L['bs_bar_location'] = 'Au sommet de la montagne.'
+L['bs_nag_location'] = 'Sur une île flottante surplombant le {location:Lac Chanteciel}.'
+L['bs_gri_location'] = 'Parlez à {npc:%s} pour faire une course de rondins entre le {location:Chantier d\'abattage du Ciel bleu} jusqu\'à la {location:Baie de la KapitalRisk}. Une fois la course commencée, vous recevrez le buff {spell:423942}.\n\n{note:Vous devez avoir le buff {spell:423942} pour voir la sacoche.}'
+L['bs_hmt_location'] = 'Au sommet de la {location:Culmination de Haut-Roc}, près du {object:Parchemin abîmé}.'
+L['bs_wpl_location'] = 'Entre le chariot et le donjon à {location:Caer Darrow}.'
+L['bs_tli_location'] = 'Sur le sol, au centre de l\'arène.'
+L['bs_tir_location'] = 'Au sommet de la montagne surplombant {location:Port-Liberté}.'
+
+L['bs_emerald_dragonshrine'] = 'Sanctuaire draconique Émeraude'
+L['bs_bronze_dragonshrine'] = 'Sanctuaire draconique Bronze'
+
+L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
+L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'
+
+-- Mimiron's Jumpjets Mount
+L['soa_mjj_list_note'] = 'Récupérez les 3 pièces et assemblez-les à la {object:Forge des arcanes renforcée} pour obtenir la monture {item:210022} :'
+L['soa_mjj_part1_note'] = 'Il faut que 3 joueurs canalisent les braseros avec leur {item:208092} pour invoquer le {npc:210398}. Il donnera la {item:208984}.'
+L['soa_mjj_part2_note'] = [[{note:Vous aurez besoin d'au moins 4 personnes à vos côtés pour cette partie.}
+
+Aux {location:Bois d'Arbrefer}, vous trouverez un {npc:210417} ainsi qu'une {object:Pièce du propulseur de Mimiron} cliquable à côté. Vous pouvez soit utiliser la {object:Pièce du propulseur de Mimiron} pour monter sur l'élémentaire et utiliser sa capacité {spell:423412} pour aspirer les gens, soit courir près de l'élémentaire (mais pas assez près pour entrer dans sa zone, car il vous renvoie en arrière) pour que la personne qui le pilote puisse vous aspirer.
+
+Une fois que l'élémentaire aura aspiré 4 personnes, il explosera et laissera tomber la {item:209781} ! Tous ceux qui se trouvent dans la zone peuvent le récupérer.
+]]
+L['soa_mjj_part3_note'] = 'La {item:209055} vous attendra juste devant la {object:Porte des ténèbres} aux {location:Terres foudroyées} ! Faites attention aux {npc:23082} et aux PNJ dans la zone, car il faut 12 secondes d\'incantation pour récupérer la pièce.'

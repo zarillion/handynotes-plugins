@@ -9,4 +9,5 @@
   <Script file="zones\zaralek_cavern.lua"/>
   <!--  -->
   <Script file="zones\dragonraces.lua"/>
+  <Script file="zones\secrets_of_azeroth.lua"/>
 </Ui>

@@ -28,7 +28,7 @@ L['broken_banding_note'] = '在雕像的右脚脚踝上。'
 L['chunk_of_sculpture_note'] = '巨龙雕像左侧地面上。'
 L['dislodged_dragoneye_note'] = '在巨龙雕像胸口下的一块岩石上。'
 L['finely_carved_wing_note'] = '巨龙雕像右膝下。'
-L['fragment_requirement_note'] = '{note:在你收集散落碎片之前，你需要在 {location:翼眠大使馆} 的巨龙雕像询问 {npc:193915} 她在这里做什么。}'
+L['fragment_requirement_note'] = '{note:在收集散落碎片之前，需要在 {location:翼眠大使馆} 的巨龙雕像询问 {npc:193915} 她在这里做什么。}'
 L['golden_claw_note'] = '在巨龙雕像右后爪上。'
 L['precious_stone_fragment_note'] = '在雕像的右脚下。'
 L['stone_dragontooth_note'] = '巨龙雕像基座旁边的地面上。'
@@ -227,7 +227,7 @@ L['stranded_soul_note'] = [[
 击杀 {npc:196900} 后它会爆炸成4个 {npc:196901}。
 需要激活它们来融化冰墙（推荐两个玩家）。
 
-击杀里面的 {npc:197183}，你会得到 {item:200528}。
+击杀里面的 {npc:197183}，会得到 {item:200528}。
 ]]
 
 L['gethdazr_note'] = [[
@@ -463,7 +463,7 @@ L['ohnahra_note_item3'] = '从拍卖行购买1个 {item:191507}。（炼金师�
 L['ohnahra_note_end'] = '获得所有材料后，前往 {npc:194796} 交任务获得的坐骑。'
 
 L['bakar_note'] = '抚摸獒犬！'
-L['bakar_ellam_note'] = '如果有足够多的玩家抚摸这只獒犬，她会带你去寻找她的宝藏。'
+L['bakar_ellam_note'] = '如果有足够多的玩家抚摸这只獒犬，会带着去寻找她的宝藏。'
 L['bakar_hugo_note'] = '跟随艾拉格营地旅行。'
 L['options_icons_bakar'] = '{achievement:16424}'
 L['options_icons_bakar_desc'] = '显示 {achievement:16424} 成就中獒犬的位置。'
@@ -485,7 +485,7 @@ L['initiate_kittileg_note'] = '完成 {quest:66226} 获得玩具！'
 L['quackers_duck_trap_kit'] = '要召唤 {npc:192557} 首先需要附近艾拉格氏族营地 {dot:Blue} 找到 {item:194740}。\n\n做成 {item:194712} 需要以下材料：'
 L['quackers_spawn'] = '接下来需要用 {item:194712} 在巢穴附近抓一只鸭子。在 {npc:192581} 处使用 {item:194739} 来召唤 {npc:192557}。'
 
-L['knew_you_nokhud_do_it_note'] = '{note:所有3个物品都是唯一的，并且有30分钟的计时。}\n\n从 {location:诺库顿要塞} 附近的各种 {npc:185357}、{npc:185353} 和 {npc:185168} 收集 {item:200184}，{item:200194} 和 {item:200196}。\n\n将它们组合起来制造 {item:200201} 并使用它之后与 {npc:197884} 交谈以开始训练课程。\n\n使用你的 |cFFFFFD00额外的动作按钮|r 完成它并获得成就。\n\n{note:在元素风暴期间团队中完成成就可以更容易地刷物品。}'
+L['knew_you_nokhud_do_it_note'] = '{note:所有3个物品都是唯一的，并且有30分钟的计时。}\n\n从 {location:诺库顿要塞} 附近的各种 {npc:185357}、{npc:185353} 和 {npc:185168} 收集 {item:200184}，{item:200194} 和 {item:200196}。\n\n将它们组合起来制造 {item:200201} 并使用它之后与 {npc:197884} 交谈以开始训练课程。\n\n使用 |cFFFFFD00额外的动作按钮|r 完成它并获得成就。\n\n{note:在元素风暴期间团队中完成成就可以更容易地刷物品。}'
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
 L['options_icons_nokhud_do_it_desc'] = '显示 {achievement:16583} 成就中有用的完成信息。'
 
@@ -514,7 +514,7 @@ L['ancient_protector_note'] = '击杀附近的 {npc:193244} 以获得 {item:1977
 L['blightpaw_note'] = '与附近的 {npc:193222} 交谈并同意帮助他。'
 L['corrupted_proto_dragon_note'] = '调查 {object:腐化的龙蛋} 后稀有出现。'
 L['lord_epochbrgl_note'] = '点击 {npc:193257} 后稀有出现。'
-L['the_great_shellkhan_note'] = '从 {location:碧蓝林海} 的 {location:考里克闪光河湾} 拾取 {item:200949}，3分钟内回到 {npc:191416} 交还物品激活稀有并获得成就。\n\n{note:在开始前确保 {npc:191416} 和 {npc:191305} 确实存在。一个角色每周只能拾取并交还一次物品，之后 {npc:191416} 只会对你表示感谢。}'
+L['the_great_shellkhan_note'] = '从 {location:碧蓝林海} 的 {location:考里克闪光河湾} 拾取 {item:200949}，3分钟内回到 {npc:191416} 交还物品激活稀有并获得成就。\n\n{note:在开始前确保 {npc:191416} 和 {npc:191305} 确实存在。一个角色每周只能拾取并交还一次物品，之后 {npc:191416} 只会表示感谢。}'
 L['weeping_vilomah_note'] = '和 {npc:193206} 对话召唤稀有。'
 L['woofang_note'] = '抚摸 {npc:193156} 稀有出现。'
 
@@ -579,7 +579,7 @@ L['living_mud_mask_note'] = [[
 
 当到达浮岛时，{npc:198062} 会在地板上。再次与他交谈，说他看起来死了。
 
-一个叫做 {npc:198590} 的软泥怪会出现并跑到 {npc:197232} 后面的树枝上。一旦你离得足够近，软泥怪会给任务 {quest:72060}。
+一个叫做 {npc:198590} 的软泥怪会出现并跑到 {npc:197232} 后面的树枝上。一旦离得足够近，软泥怪会给任务 {quest:72060}。
 
 回到 {npc:198062}，坐在长椅上，交付 {item:200872} 的任务。
 ]]
@@ -645,7 +645,7 @@ L['pt_jewel_igneous_gem_note'] = '快速点击岩浆内小岛上的3个水晶。
 L['pt_leath_poachers_pack_note'] = '在河床旁死去的狐人旁边。'
 L['pt_leath_spare_djaradin_tools_note'] = '在死去的红龙旁边。'
 L['pt_script_pulsing_earth_rune_note'] = '在倒塌的建筑物内的一张桌子后面。'
-L['pt_smith_ancient_monument_note'] = '在基座上击败4个围着一把剑的 {npc:188648}。\n\n{bug:（错误：目前点击剑后不会获得物品，而是会在一段时间后发送到你的邮箱。）}'
+L['pt_smith_ancient_monument_note'] = '在基座上击败4个围着一把剑的 {npc:188648}。\n\n{bug:（错误：目前点击剑后不会获得物品，而是会在一段时间后发送到邮箱。）}'
 L['pt_smith_curious_ingots_note'] = '{location:碎鳞要塞} 地面上的锭。'
 L['pt_smith_glimmer_of_blacksmithing_wisdom_note'] = '在 {object:暗淡的熔炉} 附近制造一个 {item:189541} 后物品将变为可以在 {object:煤渣盆} 拾取。'
 L['pt_smith_molten_ingot_note'] = '将3个锭踢入熔岩以出现怪物。打败怪物后拾取箱子。'
@@ -669,7 +669,7 @@ L['options_icons_ducklings_desc'] = '显示 {achievement:16409} 成就中鸭子�
 L['options_icons_chiseled_record'] = '{achievement:16412}'
 L['options_icons_chiseled_record_desc'] = '显示 {achievement:16412} 成就中石板的位置。'
 
-L['grand_theft_mammoth_note'] = '骑乘 {npc:194625} 到 {npc:198163}。\n\n{bug:（错误：如果你不能与 {npc:194625} 互动，请使用 /reload。）}'
+L['grand_theft_mammoth_note'] = '骑乘 {npc:194625} 到 {npc:198163}。\n\n{bug:（错误：如果不能与 {npc:194625} 互动，请使用 /reload。）}'
 L['options_icons_grand_theft_mammoth'] = '{achievement:16493}'
 L['options_icons_grand_theft_mammoth_desc'] = '显示 {achievement:16493} 成就中 {npc:194625} 的位置。'
 
@@ -677,7 +677,7 @@ L['options_icons_stories'] = '{achievement:16406}'
 L['options_icons_stories_desc'] = '显示 {achievement:16406} 成就中任务的位置。'
 L['all_sides_of_the_story_garrick_and_shuja_note'] = '开启任务线，聆听 {npc:184449} 和 {npc:184451} 的故事。'
 L['all_sides_of_the_story_duroz_and_kolgar_note'] = '在平台下方的一个小房间里。\n\n启动任务线并聆听 {npc:194800} 和 {npc:194801} 的故事。更多任务将在接下来的两周内解锁。'
-L['all_sides_of_the_story_tarjin_note'] = '从 {quest:70779} 开始任务线。\n{npc:196214} 每周都会告诉你另一个故事。'
+L['all_sides_of_the_story_tarjin_note'] = '从 {quest:70779} 开始任务线。\n{npc:196214} 每周都会告诉另一个故事。'
 L['all_sides_of_the_story_veritistrasz_note'] = '开始任务 {quest:70132} 以听取 {npc:194076} 的所有故事。\n之后将解锁 {quest:70134}，然后解锁 {quest:70268}。\n\n对于最后一个任务，需要 {item:198661} 在 {location:灭龙要塞} 中找到。'
 
 L['slumbering_worldsnail_note1'] = [[
@@ -687,17 +687,17 @@ L['slumbering_worldsnail_note1'] = [[
 
 3. 箱子有30%的几率会包含 {item:199215}。
 
-4. 使用会员资格会给你 {spell:386848} 负面效果，可以在 {location:黑曜堡垒} 周围刷 {item:202173}。
+4. 使用会员资格会给 {spell:386848} 负面效果，可以在 {location:黑曜堡垒} 周围刷 {item:202173}。
 
 5. 收集1000个 {item:202173} 以购买 {item:192786}。
 ]]
 
-L['slumbering_worldsnail_note2'] = '{note:注意：如果你死了，将失去你的会员负面效果。要么在你死之前以20个 {item:202173} 的价格从 {npc:193310} 购买新会员资格，要么交出更多钥匙，就有机会从宝箱中获得新会员资格。}'
+L['slumbering_worldsnail_note2'] = '{note:注意：如果死了，将失去会员负面效果。要么在死之前以20个 {item:202173} 的价格从 {npc:193310} 购买新会员资格，要么交出更多钥匙，就有机会从宝箱中获得新会员资格。}'
 
 L['magmashell_note'] = '从 {location:黑曜堡垒} 周围的 {npc:193138} 拾取 {item:201883} 并将其带给 {npc:199010}。\n\n{note:在熔岩中用一个20秒的引导法术来获得坐骑，因此建议带上治疗或类似 {item:200116} 的物品。}'
 
 L['otto_note_start1'] = '从 {location:欧恩哈拉平原} 的 {npc:191608} 处购买的 {item:202102} 收集一副 {item:202042}。这个包需要75个 {item:199338}，可以从钓鱼洞附近的 {title:<大家伙>} 怪物那里钓鱼或拾取。'
-L['otto_note_start2'] = '一旦你有了一副 {item:202042}，就可以前往位于 {location:嘶鸣海湾} 的 {location:泡泡浴} 深水酒吧找到一个跳舞垫，然后站在上面获得负面效果 {spell:396539}。一旦负面效果结束，你就会昏倒并在桶旁醒来。与它互动以拾取 {item:202061}。现在需要在桶里装满鱼来喂给 {npc:199563}。'
+L['otto_note_start2'] = '一旦有了一副 {item:202042}，就可以前往位于 {location:嘶鸣海湾} 的 {location:泡泡浴} 深水酒吧找到一个跳舞垫，然后站在上面获得负面效果 {spell:396539}。一旦负面效果结束，就会昏倒并在桶旁醒来。与它互动以拾取 {item:202061}。现在需要在桶里装满鱼来喂给 {npc:199563}。'
 L['otto_note_item1'] = '收集100个 {item:202072}，一种高掉率鱼类，可以在 {location:碧蓝林海} 的 {location:伊斯卡拉} 的开阔水域钓到。将桶与鱼一起使用可获得 {item:202066}。'
 L['otto_note_item2'] = '收集25个 {item:202073}，一种低掉率鱼类，可以在 {location:觉醒海岸} 的 {location:黑曜堡垒} 周围的熔岩中钓到。将桶与鱼一起使用可获得 {item:202068}。'
 L['otto_note_item3'] = '收集1个 {item:202074}，一种稀有掉率鱼类，可以在 {location:索德拉苏斯} 的 {location:艾杰斯亚学院} 的水域中钓到。将桶与鱼一起使用可获得 {item:202069}。'
@@ -836,3 +836,185 @@ L['zaralek_event_inactive'] = ns.color.Orange('此区域事件今日不开始，
 
 L['options_icons_zone_event'] = '区域事件'
 L['options_icons_zone_event_desc'] = '显示区域事件的位置。'
+
+-------------------------------------------------------------------------------
+----------------------------- SECRETS OF AZEROTH ------------------------------
+-------------------------------------------------------------------------------
+
+-- Secrets of Azeroth: Clue 1
+L['soa_01_rlabel'] = '（线索一）'
+L['soa_01_golden_chalice_note'] = '将 {item:208056} 放入 {location:瓦德拉肯} 的 {location:瓦德拉肯藏宝库} 中。'
+
+-- Secrets of Azeroth: Clue 2
+L['soa_02_rlabel'] = '（线索二）'
+L['soa_02_kathos_note'] = '与 {npc:206864} 交谈得到 {item:207105}。\n\n将 {item:207105} 带给 {location:碧蓝林海} {location:伊斯卡拉} 的 {npc:186448}。'
+L['soa_02_shomko_note_a'] = '与 {npc:186448} 交谈得到 {item:207580}。'
+L['soa_02_shomko_note_b'] = '将 {item:207580} 放置在 {location:诺森德} {location:北风苔原} 的 {location:裂鞭海岸} 的 {object:仪式长矛} 处。'
+L['soa_02_shomko_note_c'] = '{note:一定要留下来并击杀 {npc:208182} 以获得 {item:207594}。}'
+
+-- Secrets of Azeroth: Clue 3
+L['soa_03_rlabel'] = '（线索三）'
+L['soa_03_fangli_hoot_note_a'] = '与 {npc:207696} 交谈得到 {item:207802}。需要通过收集各种部件来合成 {item:207827}：'
+L['soa_03_fangli_hoot_note_b'] = '在 {location:瓦德拉肯} 用5个 {item:207956} 与 {npc:185548} 换取 {item:207814}。'
+L['soa_03_fangli_hoot_note_c'] = '在 {location:瓦德拉肯} 用1个 {item:207812} 与 {npc:197781} 换取 {item:207813}。'
+L['soa_03_fangli_hoot_note_d'] = '支付 {location:瓦德拉肯} 酒吧费用后，从 {npc:198586} 得到1个 {item:207816}。'
+L['soa_03_fangli_hoot_note_e'] = '将部件组合起来即可获得 {item:207827} 并开始 {location:瓦德拉肯} 的 {npc:207697} 的 {quest:77237}。'
+L['soa_03_fangli_clue_label'] = '方利的线索'
+L['soa_03_fangli_clue'] = '靠近 {location:翡翠飞地} 的瀑布。'
+L['soa_03_erugosa_note_a'] = '与 {npc:185556} 交谈得到 {item:208416}。需要为她收集以下物品：'
+L['soa_03_erugosa_note_b'] = '从 {location:欧恩哈拉平原} 的 {location:森步岗哨} 的 {npc:194152} 购买5个 {item:198441}。'
+L['soa_03_erugosa_note_c'] = '从 {location:索德拉苏斯} 的 {location:瓦德拉肯} 的 {npc:196729} 购买5个 {item:201419}。'
+L['soa_03_erugosa_note_d'] = '从 {location:查拉雷克洞窟} 的 {location:峈姆} 的 {npc:204371} 购买5个 {item:205693}。'
+L['soa_03_clinkyclick_note_a'] = '与 {npc:185548} 交谈得到 {item:207814}。需要：'
+L['soa_03_clinkyclick_note_b'] = '从 {location:瓦德拉肯} 的 {location:脆烤山羊旅店} 中的 {npc:185556} 处获得10个 {item:207956}。'
+L['soa_03_gryffin_note_a'] = '与 {npc:197781} 交谈得到 {item:207813}。需要收集：'
+L['soa_03_gryffin_note_b'] = '通过击杀 {location:瓦德拉肯} 的 {location:飞瀑之缘} 中的 {npc:191451} 来拾取1个 {item:207812}。' -- cascades
+L['soa_03_shakey_note_a'] = '与 {npc:198586} 交谈得到 {item:207816}。'
+L['soa_03_shakey_note_b'] = '在 {location:瓦德拉肯} 的 {location:巨龙宝藏} 支付 {npc:198586} 的酒吧费用。'
+L['soa_03_shakey_note_c'] = '通过 {location:脆烤山羊旅店} 后面的 {object:奇怪的雕像} 秘密入口处使用表情 {emote:/鞠躬}，{emote:/bow} 进入 {location:The 巨龙宝藏}。'
+
+-- Secrets of Azeroth: Clue 4
+L['soa_04_rlabel'] = '（线索四）'
+L['soa_04_locker_label'] = '捍卫者的柜子'
+L['soa_04_sazsel_note_a'] = '从 {location:脆烤山羊旅店} 顶层的 {object:捍卫者的柜子} 中拾取 {item:208130} 并将其带给 {location:瓦德拉肯} 的 {npc:208620}。'
+L['soa_04_sazsel_note_b'] = '鉴定完毕后，将旗子放回箱子并返回 {npc:207697}。'
+
+-- Secrets of Azeroth: Clue 5
+L['soa_05_rlabel'] = '（线索五）'
+L['soa_05_torch_of_pyrreth_note_a'] = '激活在 {location:觉醒海岸} {location:生命缚誓者花园} 附近发现的3个 {object:古老的拉杆} 来揭示 {item:208135}。'
+L['soa_05_torch_of_pyrreth_note_b'] = '收集完毕后返回 {location:瓦德拉肯} {location:脆烤山羊旅店} 的 {npc:206864}。'
+L['soa_05_torch_of_pyrreth_note_c'] = '使用 {item:208092} 获得 {spell:419127} 增益。现在可以显示 {npc:209011}，会出现一个 {object:魔法之箱}。'
+L['soa_05_ancient_lever_label'] = '古老的拉杆'
+L['soa_05_ancient_lever_note_a'] = '在废墟建筑后面 {npc:195915} 的后面。'
+L['soa_05_ancient_lever_note_b'] = '废墟塔内。'
+L['soa_05_ancient_lever_note_c'] = '在 {npc:186823} 和 {npc:186825} 附近的建筑物内。'
+L['soa_05_enchanted_box_label'] = '魔法之箱'
+
+-- Secrets of Azeroth: Clue 6
+L['soa_06_rlabel'] = '（线索六）'
+L['soa_06_unvieled_tablet_label'] = '现世的石板'
+L['soa_06_unvieled_tablet_note_a'] = '与 {npc:207696} 交谈完成任务 {quest:77284} 并得到 {item:208137}。\n\n然后前往 {location:碧蓝林海} 的 {location:瓦克索斯}。'
+L['soa_06_unvieled_tablet_note_b'] = '在 {location:碧蓝林海} {location:瓦克索斯} 塔底部的使用 {item:208092} 来揭示 {object:现世的石板}。'
+L['soa_06_unvieled_tablet_note_c'] = '拾取 {item:208143} 并返回 {location:瓦德拉肯} 的 {npc:207696} 以完成秘密。'
+
+-- Secrets of Azeroth: Clue 7
+L['soa_07_rlabel'] = '（线索七）'
+L['soa_07_brazier_label'] = '上古熏香火盆'
+L['soa_07_brazier_note_a'] = '与 {npc:185562} 交谈完成任务 {quest:77303} 并获得 {item:208144}。\n\n前往 {location:欧恩哈拉平原} 附近的 {location:永恒库尔干}。'
+L['soa_07_brazier_note_b'] = '在上古坟墓内使用 {item:208135} 点燃 {object:上古熏香火盆}。'
+L['soa_07_idol_note'] = '拾取 {object:上古熏香火盆} 旁边被揭示的 {item:207730} 并返回 {location:瓦德拉肯}。'
+
+-- Secrets of Azeroth: Clue 8
+L['soa_08_rlabel'] = '（线索八）'
+L['soa_08_kathos_note'] = '与 {npc:206864} 交谈得到 {item:206948}。\n\n飞到 {location:索德拉苏斯} 的 {location:变换流沙} 并使用 {item:207730} 找到3个 {item:208191}。'
+L['soa_08_time_lost_fragment_note'] = '在 {location:索德拉苏斯} 的 {location:变换流沙} 使用 {item:208135} 找到3个 {item:208191}。\n\n将所有3个组合起来创建 {item:208146} 并返回 {location:瓦德拉肯} 的 {npc:206864}。'
+L['soa_08_tl_fragment_location_a'] = '小树下。'
+L['soa_08_tl_fragment_location_b'] = '两块大石头之间。'
+L['soa_08_tl_fragment_location_c'] = '在小河的底部。'
+
+-- Secrets of Azeroth: Clue 9
+L['soa_09_rlabel'] = '（线索九）'
+L['soa_09_bobby_note'] = '与 {npc:207696} 交谈以开始任务 {quest:77653}。在 {npc:195769} 交任务得到 {item:208486}。\n\n然后前往 {location:欧恩哈拉平原} 的 {location:林荫之森}。'
+L['soa_09_hastily_scrawled_stone_label'] = '有潦草字迹的石头'
+L['soa_09_hastily_scrawled_stone_note'] = '使用 {item:208092} 来揭示{object:有潦草字迹的石头}，然后是附近的 {object:古老的钥匙模具}。'
+L['soa_09_ancient_key_mold_label'] = '古老的钥匙模具'
+L['soa_09_ancient_key_mold_note'] = '拾取 {object:古老的钥匙模具} 得到 {item:208827} 以开始任务 {quest:77822}。\n\n返回 {location:瓦德拉肯} 的 {npc:195769}。'
+
+-- Secrets of Azeroth: Clue 10
+L['soa_10_rlabel'] = '（线索十）'
+L['soa_10_tyrs_titan_key_note'] = '从 {npc:207696} 领取任务 {quest:77829} 并前往 {npc:210837} 得到 {item:208829}。\n\n在 {location:觉醒海岸} 收集 {item:208835} 和 {item:208836} 并在 {location:黑曜堡垒} 重铸钥匙。'
+L['soa_10_rose_gold_dust_note'] = '收集50个 {item:208835}，使用 {item:207730} 找到地板上的红色小石子。\n\n找到50个 {item:208835} 和8个 {item:208836} 后前往 {location:黑曜堡垒} 的 {npc:210837}。'
+L['soa_10_igneous_flux_note'] = '在熔岩与盐水相遇的 {location:觉醒海岸} 的各个位置收集8个 {item:208836}。\n\n找到50个 {item:208835} 和8个 {item:208836} 后前往 {location:黑曜堡垒} 的 {npc:210837}。'
+L['soa_10_weaponsmith_koref_note'] = '与 {npc:210837} 交谈并开始任务 {quest:77831}，帮助他用材料和 {item:208092} 重铸 {item:208831}。'
+
+-- Secrets of Azeroth: Clue 11
+L['soa_11_rlabel'] = '（线索十一）'
+L['soa_11_rlabel_optional'] = '（线索十一 - 可选）'
+L['soa_11_kathos_note'] = '与 {npc:206864} 交谈，将得到 {item:208852}。前往 {location:欧恩哈拉平原} 的 {npc:195543} 向他询问有关旗帜的事情。'
+L['soa_11_sansok_khan_note'] = '询问 {npc:195543} 如何正确埋葬旗帜所属的猎人 {npc:艾什塔尔·雷森}。\n\n将得到 {item:209061} 并被要求在 {location:松木哨站} 找到 {npc:191391}。'
+L['soa_11_jhara_note'] = '与旅店老板 {npc:191391} 交谈。她会给这个秘密的线索 {item:208857}。'
+L['soa_11_marker_1_label'] = '第一标记'
+L['soa_11_marker_2_label'] = '第二标记'
+L['soa_11_marker_3_label'] = '第三标记'
+L['soa_11_marker_4_label'] = '第四标记'
+L['soa_11_marker_4_note'] = '坟堆中。'
+L['soa_11_marker_5_label'] = '第五标记'
+L['soa_11_marker_5_note'] = '如果 {wq:网中受害者} 任务处于活动状态，则必须在使用 {item:208092} 烧毁蜘蛛网并揭示线索之前完成它。'
+L['soa_11_burial_banner_note'] = '深入洞穴，遇到坡道后到达顶层，在顶层的尽头，会找到一个存放 {item:208852} 的地方。'
+
+-- Secrets of Azeroth: Clue 12
+L['soa_12_rlabel'] = '（线索十二）'
+L['soa_12_bobby_note'] = '与 {npc:207696} 交谈得到 {item:208888}。\n\n前往 {location:老卡拉赞} 并在 {npc:15691} 之后清理道路，然后进入 {location:守护者的图书馆}。需要在那里找到一本书，使用 {item:207730} 来追踪它。'
+L['soa_12_ancient_tome_note'] = '使用 {item:207730} 搜索书籍，直到找到 {item:208889} 并将其带回位于 {location:瓦德拉肯} 的 {npc:207696}。'
+
+-- Secrets of Azeroth: Clue 13
+L['soa_13_rlabel'] = '（线索十三）'
+L['soa_13_bobby_note'] = '与 {npc:207696} 交谈开始任务 {quest:77928}。'
+L['soa_13_great_place_a_label'] = '拍卖行卖据'
+L['soa_13_great_place_a_note'] = '{location:拍卖行} 入口处的一堆盒子上。'
+L['soa_13_great_place_b_label'] = '虚空仓库收据'
+L['soa_13_great_place_b_note'] = '幻化和虚空仓库建筑的一堆板条箱上。'
+L['soa_13_great_place_c_label'] = '花园补给收据'
+L['soa_13_great_place_c_note'] = '在一座小建筑里，两个 {npc:197035} 正在争论。'
+L['soa_13_great_place_d_label'] = '研究员的笔记'
+L['soa_13_great_place_d_note'] = '在一栋小建筑内，一些书旁边。'
+L['soa_13_great_place_e_label'] = '字迹潦草的字条'
+L['soa_13_great_place_e_note'] = '在 {ocation:匠人集市} 的供应商摊位后面。'
+L['soa_13_great_place_f_label'] = '给克里沙的便条'
+L['soa_13_great_place_f_note'] = '在 {location:巨龙宝藏} 内的一个箱子上。\n\n需要对 {location:脆烤山羊旅店} 中的 {npc:189827} 进行表情 {emote:/鞠躬}，{emote:/bow} 才能进入秘密酒吧。'
+
+-- Secrets of Azeroth: Clue 14
+L['soa_14_rlabel'] = '（线索十四）'
+L['soa_14_buried_object_label'] = '埋藏的物品（%d）'
+L['soa_14_tablet_label'] = '泰坦铭刻的石板（%d）'
+L['soa_14_tablet_note'] = '使用 {item:208092} 来揭示 {object:泰坦铭刻的石板}。沿着 {item:206696} 坐标到达 {object:埋藏的物品} 并挖掘 {item:209795}。'
+
+-- Secrets of Azeroth: Clue 15
+L['soa_15_rlabel'] = '（线索十五）'
+L['soa_15_tyrhold_statue_label'] = '提尔要塞雕像'
+L['soa_15_tyrhold_statue_note'] = '使用 {item:208092} 接近提尔要塞雕像并进行引导，直到球体发出亮红色的光。'
+L['soa_15_tyrhold_forge_label'] = '提尔要塞熔炉'
+L['soa_15_tyrhold_forge_note'] = '接近 {location:提尔要塞} 中心的熔炉获得 {spell:423792} 增益。'
+L['soa_15_broken_urn_note'] = '掠夺 {object:破损的瓮} 获得 {item:%d}。'
+L['soa_15_broken_urn_location'] = '位于 {location:提尔要塞} %d 层。'
+L['soa_15_titan_power_relay_label'] = '泰坦能量中继器'
+L['soa_15_tpr_note'] = '将 {item:%d} 插入 {object:泰坦能量中继器}。'
+L['soa_15_orb_label'] = '宝珠位置'
+L['soa_15_orb_location'] = '{location:提尔要塞} 顶部。'
+L['soa_15_orb_note'] = '击败 {npc:210674} 和 {npc:210675} 来完成 {quest:77977}，以获得 {item:209555}。\n\n将 {item:209555} 放入控制台即可揭示 {item:208980}。'
+
+-- Community Rumor Mill
+L['buried_satchel_note'] = '从 {object:松软的泥土堆} 中拾取 {item:208142}。'
+L['buried_satchel_sublabel'] = '{note:这*不是* {item:208142} 的位置。}'
+
+L['bs_epl_location'] = '在 {location:考林路口} 的建筑物后面。'
+L['bs_fel_location'] = '在 {location:血毒瀑布} 水下中央。'
+L['bs_tho_location'] = '在 {location:裂蹄堡} 的水下洞穴中。'
+L['bs_smv_location'] = '在 {location:月柳山} 附近的空心树内。'
+L['bs_net_location'] = '在 {location:外域} {location:虚空风暴} 的 {location:法力熔炉：布纳尔} 中。\n\n{note:需要3名玩家在附近的水晶上引导 {item:208092} 来生成 {object:松软的泥土堆}。}'
+L['bs_vfw_location'] = '在金色瀑布顶部的 {npc:129151} 雕像口内。'
+L['bs_tas_location'] = '使用 {item:208135} 融化 {npc:96438} 并露出 {object:松软的泥土堆}。'
+L['bs_dbt_location'] = '在 {location:翡翠巨龙圣地} 的大型骷髅爪下。'
+L['bs_bar_location'] = '山顶上。'
+L['bs_nag_location'] = '在 {location:%s} 上方的一座浮岛上。'
+L['bs_gri_location'] = '与 {npc:%s} 交谈，乘坐圆木从 {location:蓝天伐木场} 前往 {location:风险湾}。开始骑行后，将获得 {spell:423942} 增益。\n\n{note:必须拥有 {spell:423942} 增益才能看到小包。}'
+L['bs_hmt_location'] = '在 {object:老化的羊皮纸} 附近的 {location:高岭之巅} 顶部。'
+L['bs_wpl_location'] = '在 {location:凯尔达隆} 的马车和要塞之间。'
+L['bs_tli_location'] = '在竞技场的中央地板上。'
+L['bs_tir_location'] = '在山顶俯瞰 {location:自由镇}。'
+
+L['bs_emerald_dragonshrine'] = '翡翠巨龙圣地'
+L['bs_bronze_dragonshrine'] = '青铜巨龙圣地'
+
+L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
+L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'
+
+-- Mimiron's Jumpjets Mount
+L['soa_mjj_list_note'] = '收集所有3个零件并在 {object:已强化的奥术熔炉} 组装它们得到 {item:210022}：'
+L['soa_mjj_part1_note'] = '让3名玩家用 {item:208092} 引导火盆来召唤 {npc:210398}。他会掉落 {item:208984}。'
+L['soa_mjj_part2_note'] = [[{note:完成此部分，周围至少需要4人。}
+
+在 {location:铁木森林} 中，会发现一个巨大的 {npc:210417} 和一个可以使用的 {object:米米尔隆的助推器零件}。可以使用 {object:米米尔隆的助推器零件} 来骑上元素并使用其能力 {spell:423412} 来吸人，或者跑到元素附近（但不足以接近它的范围攻击，因为它会把你击退），这样驾驶它的人就能把你吸进去。
+
+一旦元素吸入4个人，它就会爆炸并掉落 {item:209781}！该地区的任何人都可以拾取它。]]
+L['soa_mjj_part3_note'] = '{item:209055} 在 {location:诅咒之地} 的 {object:黑暗之门} 前面等你！小心该区域的 {npc:23082} 和 NPC，因为需要12秒的施法才能拾取该零件。'
