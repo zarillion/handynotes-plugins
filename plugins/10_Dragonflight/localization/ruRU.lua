@@ -148,9 +148,9 @@ L['options_icons_frostbound_chest_desc'] = 'Показать возможные 
 
 L['fyrakk_assault_label'] = 'Налеты Фиракка'
 
-L['dreamsurge_sublabel'] = nil
-L['celestine_vendor_note'] = nil
-L['renewed_magmammoth_note'] = nil
+L['dreamsurge_sublabel'] = '{note:Доступно только в то время как {location: Прилив Снов} активно в этой локации.}'
+L['celestine_vendor_note'] = 'Обмен {item: 207026} на средства передвижения, игрушки, питомцев и трансмогрификацию.'
+L['renewed_magmammoth_note'] = 'Соберите 20x {item: 209419} с финальных боссов {location: Прилива Снов} и соберите из них {item: 192807}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
