@@ -966,14 +966,14 @@ L['soa_13_great_place_f_note'] = 'En una caja dentro del {location:Tesoro del Dr
 
 -- Secrets of Azeroth: Clue 14
 L['soa_14_rlabel'] = '(Pista 14)'
-L['soa_14_tithris_note'] = nil
+L['soa_14_tithris_note'] = 'Habla con {npc:185562} quien te dará {item:208942}. Entonces ve a la {location:Cima de Embozo de Tormenta} en {location:Thaldraszus}.'
 L['soa_14_buried_object_label'] = 'Objeto Enterrado (%d)'
 L['soa_14_tablet_label'] = 'Tablilla con Inscripciones Titánicas (%d)'
 L['soa_14_tablet_note'] = 'Usa la {item:208092} para revelar las {object:Tablilla con Inscripciones Titánicas}. Sigue las coordenadas del {item:206696} para llegar al {object:Objeto Enterrado} y desenterrar la {item:209795}.'
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(Pista 15)'
-L['soa_15_kathos_note'] = nil
+L['soa_15_kathos_note'] = 'Habla con {npc:206864} para completar la misión {quest:77959} para conseguir {item:208958}. Entonces vuela a {location:Tyrhold} y completa una serie de tareas.'
 L['soa_15_tyrhold_statue_label'] = 'Estatua de Tyrhold'
 L['soa_15_tyrhold_statue_note'] = 'Acércate a la Estatua de Tyrhold con la {item:208092} y canaliza hasta que el orbe reluzca de color rojo brillante.'
 L['soa_15_tyrhold_forge_label'] = 'Forja de Tyrhold'
@@ -984,7 +984,12 @@ L['soa_15_titan_power_relay_label'] = 'Titan Power Relay'
 L['soa_15_tpr_note'] = 'Inserta {item:%d} dentro del {object:Repetidor de Poder Titánico}.'
 L['soa_15_orb_label'] = 'Ubicación de Orbe'
 L['soa_15_orb_location'] = 'Encima de {location:Tyrhold}.'
-L['soa_15_orb_note'] = 'Completa la misión {quest:77977} derrotando a {npc:210674} y a {npc:210675} para recibir el {item:209555}.\n\nColoca el {item:209555} en la consola para revelar el {item:208980}.'
+L['soa_15_orb_note'] = [[
+Acepta la misión {quest:77977} e inspecciona el orbe para invocar a {npc:210674} y a {npc:210675}. Derrótales para conseguir el {item:209555}.
+
+Coloca el {item:209555} en la consola para revelar el {item:208980}.
+Despoja el cofre y devuelve el {item:209555} a {npc:206864} quien apareció cerca tras haber revelado el {item:208980}.
+]]
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
