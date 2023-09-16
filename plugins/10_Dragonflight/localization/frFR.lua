@@ -970,7 +970,7 @@ L['soa_14_tablet_note'] = 'Utilisez la {item:208092} pour révéler la {object:T
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(Indice n°15)'
-L['soa_15_kathos_note'] = nil
+L['soa_15_kathos_note'] = 'Parlez à la {npc:206864} pour terminer la quête {quest:77959} et obtenir les {item:208958}. Volez ensuite jusqu\'au {location:Bastion de Tyr} et effectuez une série de tâches.'
 L['soa_15_tyrhold_statue_label'] = 'Statue du Bastion de Tyr'
 L['soa_15_tyrhold_statue_note'] = 'Approchez la {object:Statue du Bastion de Tyr} avec la {item:208092} et canalisez jusqu\'à ce que l\'orbe devienne rouge vif.'
 L['soa_15_tyrhold_forge_label'] = 'Forge du Bastion de Tyr'
@@ -981,7 +981,12 @@ L['soa_15_titan_power_relay_label'] = 'Relais de puissance des titans'
 L['soa_15_tpr_note'] = 'Insérer l\'objet {item:%d} au sein du {object:Relais de puissance des titans}.'
 L['soa_15_orb_label'] = 'Emplacement de l\'orbe'
 L['soa_15_orb_location'] = 'Au sommet du {location:Bastion de Tyr}.'
-L['soa_15_orb_note'] = 'Terminez la quête {quest:77977} en battant {npc:210674} et {npc:210675} pour recevoir l\'{item:209555}.\n\nPlacez l\'{item:209555} sur la console pour faire apparaître la {item:208980}.'
+L['soa_15_orb_note'] = [[
+Acceptez la quête {quest:77977} et inspectez l'orbe pour faire apparaître {npc:210674} et {npc:210675}, vainquez-les pour recevoir l'{item:209555}.
+
+Placez l'{item:209555} sur la console pour faire apparaître la {item:208980}.
+Récupérez la cache et rapportez l'{item:209555} à la {npc:206864} qui est apparue à proximité une fois la {item:208980} révélée.
+]]
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Récupérez la {item:208142} à partir du {object:Monticule de terre meuble}.'
