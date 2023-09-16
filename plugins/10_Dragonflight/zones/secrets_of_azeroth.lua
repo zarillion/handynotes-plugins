@@ -1296,8 +1296,12 @@ for num, part in ipairs(MJJ_PARTS) do
         playerHasItem = {part.item},
         requires = {part.requires} or nil,
         parent = {id = part.parentMapID, note = part.note},
-        IsCompleted = function()
-            return select(11, C_MountJournal.GetMountInfoByID(1813))
+        IsCompleted = function(self)
+            if ns.PlayerHasItem(part.item) then return true end
+            if select(11, C_MountJournal.GetMountInfoByID(1813)) then
+                return true
+            end
+            return ns.node.Node.IsCompleted(self)
         end
     })
 end
