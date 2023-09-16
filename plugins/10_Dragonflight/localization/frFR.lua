@@ -148,9 +148,9 @@ L['options_icons_frostbound_chest_desc'] = 'Afficher les emplacements possibles 
 
 L['fyrakk_assault_label'] = 'Assaut de Fyrakka'
 
-L['dreamsurge_sublabel'] = nil
-L['celestine_vendor_note'] = nil
-L['renewed_magmammoth_note'] = nil
+L['dreamsurge_sublabel'] = '{note:Uniquement disponible lorsqu\'un événement de {location:Poussée onirique} est actif dans cette zone.}'
+L['celestine_vendor_note'] = 'Échangez vos {item:207026} contre une monture, des jouets, des mascottes et des objets de transmogrification.'
+L['renewed_magmammoth_note'] = 'Récupérez 20x {item:209419} sur les boss de fin des événements de {location:Poussée onirique} et combinez-les pour créer un {item:192807}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
