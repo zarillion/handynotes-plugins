@@ -1507,7 +1507,7 @@ gri.nodes[GH_A.coordinates] = BuriedSatchel({
     location = format(L['bs_gri_location'], GH_A.npc),
     pois = GH_A.pois,
     quest = BURIED_SATCHELS[12].quest,
-    rlabel = Gray('(12/16)'),
+    rlabel = Gray(format('(%d/%d)', 12, #BURIED_SATCHELS)),
     parent = BURIED_SATCHELS[12].parentMapID
 }) -- Grizzly Hills Satchel (Alliance)
 
@@ -1517,6 +1517,6 @@ gri.nodes[GH_H.coordinates] = BuriedSatchel({
     location = format(L['bs_gri_location'], GH_H.npc),
     pois = GH_H.pois,
     quest = BURIED_SATCHELS[12].quest,
-    rlabel = Gray('(12/16)'),
+    rlabel = Gray(format('(%d/%d)', 12, #BURIED_SATCHELS)),
     parent = BURIED_SATCHELS[12].parentMapID
 }) -- Grizzly Hills Satchel (Horde)
