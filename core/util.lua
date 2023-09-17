@@ -156,7 +156,20 @@ local function RenderLinks(str, nameOnly)
 end
 
 -------------------------------------------------------------------------------
--------------------------------- PLAYER FUNCTIONS --------------------------------
+--------------------------------- NOTE STATUS ---------------------------------
+-------------------------------------------------------------------------------
+
+local function NoteStatus(itemID, numNeed, note)
+    local numHave = GetItemCount(itemID, true)
+    local status = format('%d/%d', numHave, numNeed)
+    if numHave >= numNeed then
+        return '\n\n' .. ns.status.Green(status) .. ' ' .. note
+    end
+    return '\n\n' .. ns.status.Red(status) .. ' ' .. note
+end
+
+-------------------------------------------------------------------------------
+-------------------------------- PLAYER FUNCTIONS -----------------------------
 -------------------------------------------------------------------------------
 
 local function PlayerHasItem(item, count)
@@ -246,6 +259,7 @@ ns.AsTable = AsTable
 ns.GetDatabaseTable = GetDatabaseTable
 ns.NameResolver = NameResolver
 ns.NewLocale = NewLocale
+ns.NoteStatus = NoteStatus
 ns.PlayerHasItem = PlayerHasItem
 ns.PlayerHasProfession = PlayerHasProfession
 ns.PrepareLinks = PrepareLinks

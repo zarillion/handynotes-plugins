@@ -72,15 +72,6 @@ local SecretsOfAzeroth = Class('SecretsOfAzeroth', ns.node.Node, {
     end
 }) -- Secrets of Azeroth
 
-local function NOTE_STATUS(id, itemsNeed)
-    local itemsHave = GetItemCount(id, true);
-    if ns.PlayerHasItem(id, itemsNeed) then
-        return ns.status.Green(itemsHave .. '/' .. itemsNeed)
-    else
-        return ns.status.Red(itemsHave .. '/' .. itemsNeed)
-    end
-end
-
 -------------------------------------------------------------------------------
 ------------------------- SECRETS OF AZEROTH: CLUE 01 -------------------------
 -------------------------------------------------------------------------------
@@ -153,12 +144,9 @@ local FangliHoot = Class('FangliHoot', SecretsOfAzeroth, {
 
 function FangliHoot.getters:note()
     local note = L['soa_03_fangli_hoot_note_a']
-    note = note .. '\n\n' .. NOTE_STATUS(207956, 1) .. ' ' ..
-               L['soa_03_fangli_hoot_note_b'] -- Thought Calculating Apparatus
-    note = note .. '\n\n' .. NOTE_STATUS(207813, 1) .. ' ' ..
-               L['soa_03_fangli_hoot_note_c'] -- Downey Helmet Liner
-    note = note .. '\n\n' .. NOTE_STATUS(207816, 1) .. ' ' ..
-               L['soa_03_fangli_hoot_note_d'] -- Crystal Ocular Lenses
+    note = note .. ns.NoteStatus(207956, 1, L['soa_03_fangli_hoot_note_b']) -- Thought Calculating Apparatus
+    note = note .. ns.NoteStatus(207813, 1, L['soa_03_fangli_hoot_note_c']) -- Downey Helmet Liner
+    note = note .. ns.NoteStatus(207816, 1, L['soa_03_fangli_hoot_note_d']) -- Crystal Ocular Lenses
     return note .. '\n\n' .. L['soa_03_fangli_hoot_note_e']
 end
 
@@ -203,12 +191,9 @@ local Erugosa = Class('Erugosa', SecretsOfAzeroth, {
 
 function Erugosa.getters:note()
     local note = L['soa_03_erugosa_note_a']
-    note = note .. '\n\n' .. NOTE_STATUS(198441, 5) .. ' ' ..
-               L['soa_03_erugosa_note_b'] -- Thunderspine Tenders
-    note = note .. '\n\n' .. NOTE_STATUS(201419, 5) .. ' ' ..
-               L['soa_03_erugosa_note_c'] -- Latticed Stinkhorn
-    note = note .. '\n\n' .. NOTE_STATUS(205693, 5) .. ' ' ..
-               L['soa_03_erugosa_note_d'] -- Apexis Asiago
+    note = note .. ns.NoteStatus(198441, 5, L['soa_03_erugosa_note_b']) -- Thunderspine Tenders
+    note = note .. ns.NoteStatus(201419, 5, L['soa_03_erugosa_note_c']) -- Latticed Stinkhorn
+    note = note .. ns.NoteStatus(205693, 5, L['soa_03_erugosa_note_d']) -- Apexis Asiago
     return note
 end
 
@@ -262,9 +247,8 @@ local Clinkyclick = Class('Clinkyclick', SecretsOfAzeroth, {
 }) -- Clinkyclick Shatterboom <Engineering Trainer>
 
 function Clinkyclick.getters:note()
-    local note = L['soa_03_clinkyclick_note_a'] .. '\n\n'
-    note = note .. NOTE_STATUS(207956, 5) .. ' ' ..
-               L['soa_03_clinkyclick_note_b'] -- Thunderspine Nest
+    local note = L['soa_03_clinkyclick_note_a']
+    note = note .. ns.NoteStatus(207956, 5, L['soa_03_clinkyclick_note_b']) -- Thunderspine Nest
     return note
 end
 
@@ -287,8 +271,8 @@ local Gryffin = Class('Gryffin', SecretsOfAzeroth, {
 }) -- Gryffin <Clinkyclick's Assistant>
 
 function Gryffin.getters:note()
-    local note = L['soa_03_gryffin_note_a'] .. '\n\n'
-    note = note .. NOTE_STATUS(207812, 1) .. ' ' .. L['soa_03_gryffin_note_b'] -- Fresh Tyranha
+    local note = L['soa_03_gryffin_note_a']
+    note = note .. ns.NoteStatus(207812, 1, L['soa_03_gryffin_note_b']) -- Fresh Tyranha
     return note
 end
 
