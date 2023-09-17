@@ -965,14 +965,14 @@ L['soa_13_great_place_f_note'] = '在 {location:巨龙宝藏} 内的一个箱子
 
 -- Secrets of Azeroth: Clue 14
 L['soa_14_rlabel'] = '（线索十四）'
-L['soa_14_tithris_note'] = nil
+L['soa_14_tithris_note'] = '与 {npc:185562} 交谈会给 {item:208942}。然后前往 {location:索德拉苏斯} 的 {location:雷暴峰}。'
 L['soa_14_buried_object_label'] = '埋藏的物品（%d）'
 L['soa_14_tablet_label'] = '泰坦铭刻的石板（%d）'
 L['soa_14_tablet_note'] = '使用 {item:208092} 来揭示 {object:泰坦铭刻的石板}。沿着 {item:206696} 坐标到达 {object:埋藏的物品} 并挖掘 {item:209795}。'
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '（线索十五）'
-L['soa_15_kathos_note'] = nil
+L['soa_15_kathos_note'] = '与 {npc:206864} 交谈完成任务 {quest:77959} 获得 {item:208958}。然后飞往 {location:提尔要塞} 并完成一系列任务。'
 L['soa_15_tyrhold_statue_label'] = '提尔要塞雕像'
 L['soa_15_tyrhold_statue_note'] = '使用 {item:208092} 接近提尔要塞雕像并进行引导，直到球体发出亮红色的光。'
 L['soa_15_tyrhold_forge_label'] = '提尔要塞熔炉'
@@ -983,7 +983,12 @@ L['soa_15_titan_power_relay_label'] = '泰坦能量中继器'
 L['soa_15_tpr_note'] = '将 {item:%d} 插入 {object:泰坦能量中继器}。'
 L['soa_15_orb_label'] = '宝珠位置'
 L['soa_15_orb_location'] = '{location:提尔要塞} 顶部。'
-L['soa_15_orb_note'] = '击败 {npc:210674} 和 {npc:210675} 来完成 {quest:77977}，以获得 {item:209555}。\n\n将 {item:209555} 放入控制台即可揭示 {item:208980}。'
+L['soa_15_orb_note'] = [[
+接受任务 {quest:77977} 并检查球体以召唤 {npc:210674} 和{npc:210675}，击败他们以获得 {item:209555}。
+
+将 {item:209555} 放入控制台以揭示 {item:208980}。
+拾取宝箱并将 {item:209555} 返回揭示 {item:208980} 后在附近出现的 {npc:206864}。
+]]
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = '从 {object:松软的泥土堆} 中拾取 {item:208142}。'
