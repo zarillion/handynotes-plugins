@@ -145,11 +145,11 @@ L['frostbound_chest'] = '霜縛寶箱'
 L['options_icons_frostbound_chest'] = '霜縛寶箱'
 L['options_icons_frostbound_chest_desc'] = '顯示 {object:霜縛寶箱} 可能的位置.'
 
-L['fyrakk_assault_label'] = nil
+L['fyrakk_assault_label'] = '菲拉卡突襲'
 
-L['dreamsurge_sublabel'] = nil
-L['celestine_vendor_note'] = nil
-L['renewed_magmammoth_note'] = nil
+L['dreamsurge_sublabel'] = '{note:只有在 {location:夢境湧現} 在此區域生效時會出現.}'
+L['celestine_vendor_note'] = '使用 {item:207026} 交換坐騎, 玩具, 寵物和塑形.'
+L['renewed_magmammoth_note'] = '從 {location:夢境湧現} 最後的首領收集20個 {item:209419} 來組合成 {item:192807}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -965,14 +965,14 @@ L['soa_13_great_place_f_note'] = '在 {location:巨龍寶庫} 內的箱子上.\n
 
 -- Secrets of Azeroth: Clue 14
 L['soa_14_rlabel'] = '(線索14)'
-L['soa_14_tithris_note'] = nil
+L['soa_14_tithris_note'] = '和 {npc:185562} 交談取得 {item:208942}. 之後到 {location:薩爪祖斯} 的 {location:風繞山峰}'
 L['soa_14_buried_object_label'] = '埋藏的物品 (%d)'
 L['soa_14_tablet_label'] = '泰坦銘刻石板 (%d)'
 L['soa_14_tablet_note'] = '使用 {item:208092} 來找到 {object:泰坦銘刻石板}. 跟著 (item:206696) 的座標找到 (object:埋藏的物品) 並且挖出 {item:209795}.'
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(線索15)'
-L['soa_15_kathos_note'] = nil
+L['soa_15_kathos_note'] = '和 {npc:206864} 交談以完成任務 {quest:77959} 來取得  {item:208958}. 之後飛到 {location:提爾堡} 來完成一系列的任務.'
 L['soa_15_tyrhold_statue_label'] = '提爾堡雕像'
 L['soa_15_tyrhold_statue_note'] = '使用 {item:208092} 後靠近提爾堡雕像並等待引導直到寶珠亮出紅光.'
 L['soa_15_tyrhold_forge_label'] = '提爾堡熔爐'
@@ -983,7 +983,12 @@ L['soa_15_titan_power_relay_label'] = '泰坦能量繼電器'
 L['soa_15_tpr_note'] = '插入 {item:%d} 到 {object:泰坦能量繼電器}'
 L['soa_15_orb_label'] = '寶珠位置'
 L['soa_15_orb_location'] = '在 {location:提爾堡} 頂.'
-L['soa_15_orb_note'] = '擊敗 {npc:210674} 和 {npc:210675} 來完成 {quest:77977} 以取得 {item:209555}.\n\n放置 {item:209555}'
+L['soa_15_orb_note'] = [[
+接受任務 {quest:77977} 並檢查寶珠來召喚 {npc:210674} 和 {npc:210675}. 擊敗他們後會取得 {item:209555}.
+
+將 {item:209555} 放到控制台會看到 {item:208980}.
+拾取寶箱並將 {item:209555} 交給在你看到 {item:208980} 後刷新的 {npc:206864}.
+]]
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = '從 {object:鬆軟的泥土堆} 拾取 {item:208142}.'
