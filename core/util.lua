@@ -139,7 +139,7 @@ local function RenderLinks(str, nameOnly)
                 return icon .. ns.color.Yellow('[' .. text .. ']')
             end
             if type == 'dot' then
-                local _, r, g, b = ns.getARGB(text, 255)
+                local r, g, b = ns.getARGB(text, 255)
                 local texStr = '|T%s:0::::16:16::16::16:%d:%d:%d|t'
                 return texStr:format(ns.GetGlowPath('peg_bl'), r, g, b)
             end
