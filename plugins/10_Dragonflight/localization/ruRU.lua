@@ -843,18 +843,18 @@ L['options_icons_zone_event_desc'] = 'Отображение мест для с�
 -------------------------------------------------------------------------------
 
 -- Secrets of Azeroth: Clue 1
-L['soa_01_rlabel'] = nil
+L['soa_01_rlabel'] = '(Загадка 1)'
 L['soa_01_golden_chalice_note'] = nil
 
 -- Secrets of Azeroth: Clue 2
-L['soa_02_rlabel'] = nil
+L['soa_02_rlabel'] = '(Загадка 2)'
 L['soa_02_kathos_note'] = nil
 L['soa_02_shomko_note_a'] = nil
 L['soa_02_shomko_note_b'] = nil
 L['soa_02_shomko_note_c'] = nil
 
 -- Secrets of Azeroth: Clue 3
-L['soa_03_rlabel'] = nil
+L['soa_03_rlabel'] = '(Загадка 3)'
 L['soa_03_fangli_hoot_note_a'] = nil
 L['soa_03_fangli_hoot_note_b'] = nil
 L['soa_03_fangli_hoot_note_c'] = nil
@@ -875,13 +875,13 @@ L['soa_03_shakey_note_b'] = nil
 L['soa_03_shakey_note_c'] = nil
 
 -- Secrets of Azeroth: Clue 4
-L['soa_04_rlabel'] = nil
+L['soa_04_rlabel'] = '(Загадка 4)'
 L['soa_04_locker_label'] = nil
 L['soa_04_sazsel_note_a'] = nil
 L['soa_04_sazsel_note_b'] = nil
 
 -- Secrets of Azeroth: Clue 5
-L['soa_05_rlabel'] = nil
+L['soa_05_rlabel'] = '(Загадка 5)'
 L['soa_05_torch_of_pyrreth_note_a'] = nil
 L['soa_05_torch_of_pyrreth_note_b'] = nil
 L['soa_05_torch_of_pyrreth_note_c'] = nil
@@ -892,21 +892,21 @@ L['soa_05_ancient_lever_note_c'] = nil
 L['soa_05_enchanted_box_label'] = nil
 
 -- Secrets of Azeroth: Clue 6
-L['soa_06_rlabel'] = nil
+L['soa_06_rlabel'] = '(Загадка 6)'
 L['soa_06_unvieled_tablet_label'] = nil
 L['soa_06_unvieled_tablet_note_a'] = nil
 L['soa_06_unvieled_tablet_note_b'] = nil
 L['soa_06_unvieled_tablet_note_c'] = nil
 
 -- Secrets of Azeroth: Clue 7
-L['soa_07_rlabel'] = nil
+L['soa_07_rlabel'] = '(Загадка 7)'
 L['soa_07_brazier_label'] = nil
 L['soa_07_brazier_note_a'] = nil
 L['soa_07_brazier_note_b'] = nil
 L['soa_07_idol_note'] = nil
 
 -- Secrets of Azeroth: Clue 8
-L['soa_08_rlabel'] = nil
+L['soa_08_rlabel'] = '(Загадка 8)'
 L['soa_08_kathos_note'] = nil
 L['soa_08_time_lost_fragment_note'] = nil
 L['soa_08_tl_fragment_location_a'] = nil
@@ -914,7 +914,7 @@ L['soa_08_tl_fragment_location_b'] = nil
 L['soa_08_tl_fragment_location_c'] = nil
 
 -- Secrets of Azeroth: Clue 9
-L['soa_09_rlabel'] = nil
+L['soa_09_rlabel'] = '(Загадка 9)'
 L['soa_09_bobby_note'] = nil
 L['soa_09_hastily_scrawled_stone_label'] = nil
 L['soa_09_hastily_scrawled_stone_note'] = nil
@@ -922,14 +922,14 @@ L['soa_09_ancient_key_mold_label'] = nil
 L['soa_09_ancient_key_mold_note'] = nil
 
 -- Secrets of Azeroth: Clue 10
-L['soa_10_rlabel'] = nil
+L['soa_10_rlabel'] = '(Загадка 10)'
 L['soa_10_tyrs_titan_key_note'] = nil
 L['soa_10_rose_gold_dust_note'] = nil
 L['soa_10_igneous_flux_note'] = nil
 L['soa_10_weaponsmith_koref_note'] = nil
 
 -- Secrets of Azeroth: Clue 11
-L['soa_11_rlabel'] = nil
+L['soa_11_rlabel'] = '(Загадка 11)'
 L['soa_11_rlabel_optional'] = nil
 L['soa_11_kathos_note'] = nil
 L['soa_11_sansok_khan_note'] = nil
@@ -944,12 +944,12 @@ L['soa_11_marker_5_note'] = nil
 L['soa_11_burial_banner_note'] = nil
 
 -- Secrets of Azeroth: Clue 12
-L['soa_12_rlabel'] = nil
+L['soa_12_rlabel'] = '(Загадка 12)'
 L['soa_12_bobby_note'] = nil
 L['soa_12_ancient_tome_note'] = nil
 
 -- Secrets of Azeroth: Clue 13
-L['soa_13_rlabel'] = nil
+L['soa_13_rlabel'] = '(Загадка 13)'
 L['soa_13_bobby_note'] = nil
 L['soa_13_great_place_a_label'] = nil
 L['soa_13_great_place_a_note'] = nil
@@ -965,14 +965,14 @@ L['soa_13_great_place_f_label'] = nil
 L['soa_13_great_place_f_note'] = nil
 
 -- Secrets of Azeroth: Clue 14
-L['soa_14_rlabel'] = nil
+L['soa_14_rlabel'] = '(Загадка 14)'
 L['soa_14_tithris_note'] = nil
 L['soa_14_buried_object_label'] = nil
 L['soa_14_tablet_label'] = nil
 L['soa_14_tablet_note'] = nil
 
 -- Secrets of Azeroth: Clue 15
-L['soa_15_rlabel'] = nil
+L['soa_15_rlabel'] = '(Загадка 15)'
 L['soa_15_kathos_note'] = nil
 L['soa_15_tyrhold_statue_label'] = nil
 L['soa_15_tyrhold_statue_note'] = nil
