@@ -42,5 +42,6 @@ ns.getARGB = function(color, mul)
     for k, v in pairs({c:match('(%x%x)(%x%x)(%x%x)(%x%x)')}) do
         argb[k] = tonumber(v, 16) / 255 * (mul or 1)
     end
-    return unpack(argb)
+    local a, r, g, b = unpack(argb)
+    return r, g, b
 end
