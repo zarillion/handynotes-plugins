@@ -103,6 +103,7 @@ L['dr_reverse'] = 'Обратный маршрут'
 L['dr_challenge'] = nil
 L['dr_reverse_challenge'] = nil
 L['dr_bronze'] = 'Завершите гонку, чтобы получить ' .. ns.color.Bronze('Бронзу') .. '.'
+L['dr_vendor_note'] = nil
 L['options_icons_dragonrace'] = 'Гонка на драконах'
 L['options_icons_dragonrace_desc'] = 'Отображение местоположения гонок на драконах.'
 

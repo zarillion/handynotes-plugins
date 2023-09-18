@@ -6,9 +6,14 @@ local Map = ns.Map
 local L = ns.locale
 local Class = ns.Class
 
+local NPC = ns.node.NPC
+
 local Achievement = ns.reward.Achievement
 local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
+local Transmog = ns.reward.Transmog
+
+local DC = ns.DRAGON_CUSTOMIZATIONS
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -54,6 +59,41 @@ function Dragonrace.getters:note()
     end
     return txt .. '\n\n' .. L['dr_bronze']
 end
+
+-------------------------------------------------------------------------------
+---------------------------- DRAGONRIDING VENDORS -----------------------------
+-------------------------------------------------------------------------------
+
+local valdrakken = ns.maps[2112] or Map({id = 2112, settings = true}) -- Valdrakken
+local stormwind = ns.maps[84] or Map({id = 84, settings = true}) -- Stormwind City
+local orgimmar = ns.maps[85] or Map({id = 85, settings = true}) -- Orgimmar
+
+local DragonridingVendor = Class('DragonridingVendor', NPC, {
+    icon = 4638724,
+    group = ns.groups.DRAGONRACE,
+    note = L['dr_vendor_note'],
+    rewards = {
+        DC.SetNote(DC.WindborneVelocidrake.TealScales, '50'),
+        DC.SetNote(DC.WindingSlitherdrake.BlondeHair, '25'),
+        DC.SetNote(DC.WindingSlitherdrake.CurvedNoseHorn, '25'),
+        Transmog({item = 206588, slot = L['cosmetic'], note = '20'}), -- Drake Racer's Helmet
+        Transmog({item = 206589, slot = L['cosmetic'], note = '20'}), -- Drake Racer's Shoulderpads
+        Transmog({item = 206590, slot = L['cosmetic'], note = '20'}), -- Drake Racer's Jersey
+        Transmog({item = 206591, slot = L['cosmetic'], note = '20'}), -- Drake Racer's Handwraps
+        Transmog({item = 206592, slot = L['cosmetic'], note = '20'}), -- Drake Racer's Belt
+        Transmog({item = 206593, slot = L['cosmetic'], note = '20'}), -- Drake Racer's Leggings
+        Transmog({item = 206594, slot = L['cosmetic'], note = '20'}) -- Drake Racer's Boots
+    }
+}) -- Dragonriding Vendor
+
+valdrakken.nodes[27004760] = DragonridingVendor({id = 206744}) -- Maztha <Riders of Azeroth>
+
+stormwind.nodes[59806620] = DragonridingVendor({
+    id = 212027,
+    faction = 'Alliance'
+}) -- Dathendrash <Riders of Azeroth>
+
+orgimmar.nodes[52006000] = DragonridingVendor({id = 212027, faction = 'Horde'}) -- Dathendrash <Riders of Azeroth>
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON ISLES ---------------------------------

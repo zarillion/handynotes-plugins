@@ -103,6 +103,7 @@ L['dr_reverse'] = nil
 L['dr_challenge'] = nil
 L['dr_reverse_challenge'] = nil
 L['dr_bronze'] = '경주를 완주하고 ' .. ns.color.Bronze('동메달') .. '을 획득하세요.'
+L['dr_vendor_note'] = nil
 L['options_icons_dragonrace'] = '용 조련술 경주'
 L['options_icons_dragonrace_desc'] = '용 조련술 경주 위치를 표시합니다.'
 

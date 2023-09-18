@@ -103,6 +103,7 @@ L['dr_reverse'] = '反向'
 L['dr_challenge'] = '挑戰'
 L['dr_reverse_challenge'] = '反向挑戰'
 L['dr_bronze'] = '完成賽事來取得 ' .. ns.color.Bronze('銅牌') .. '.'
+L['dr_vendor_note'] = nil
 L['options_icons_dragonrace'] = '飛龍競速'
 L['options_icons_dragonrace_desc'] = '顯示區域內所有飛龍競速的位置.'
 

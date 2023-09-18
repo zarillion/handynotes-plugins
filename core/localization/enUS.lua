@@ -103,6 +103,7 @@ L['dr_reverse'] = 'Reverse'
 L['dr_challenge'] = 'Challenge'
 L['dr_reverse_challenge'] = 'Reverse Challenge'
 L['dr_bronze'] = 'Finish the race to get ' .. ns.color.Bronze('Bronze') .. '.'
+L['dr_vendor_note'] = 'Exchange {currency:2588} for drakewatcher manuscripts and transmog.'
 L['options_icons_dragonrace'] = 'Dragonriding Races'
 L['options_icons_dragonrace_desc'] = 'Display all race locations for the zone.'
 
