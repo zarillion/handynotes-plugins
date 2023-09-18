@@ -640,7 +640,7 @@ local function EmeraldDream_Rewards(b, c, r) -- basic, challenge, reverse challe
         Achievement({id = 19114, criteria = b, oneline = true}), -- advanced gold
         Achievement({id = 19115, criteria = b, oneline = true}), -- reverse bronze
         Achievement({id = 19116, criteria = b, oneline = true}), -- reverse silver
-        Achievement({id = 19117, criteria = b, oneline = true}) -- reverse gold
+        Achievement({id = 19117, criteria = b, oneline = true}), -- reverse gold
         Section(L['dr_challenge']),
         Achievement({id = 19121, criteria = c, oneline = true}), -- challenge bronze
         Achievement({id = 19122, criteria = c, oneline = true}), -- challenge silver
