@@ -95,13 +95,13 @@ L['time_format_24hrs'] = '%m/%d - %H:%M 本地时间'
 
 L['dr_your_best_time'] = '最快时间：'
 L['dr_your_target_time'] = '目标时间：'
-L['dr_best_time'] = ' - %s: %.3fs'
-L['dr_target_time'] = ' - %s: %ss / %ss'
+L['dr_best_time'] = ' - %s：%.3f秒'
+L['dr_target_time'] = ' - %s：%s秒 / %s秒'
 L['dr_normal'] = '普通'
 L['dr_advanced'] = '进阶'
 L['dr_reverse'] = '反向'
-L['dr_challenge'] = nil
-L['dr_reverse_challenge'] = nil
+L['dr_challenge'] = '挑战'
+L['dr_reverse_challenge'] = '反向挑战'
 L['dr_bronze'] = '完成竞速获得 ' .. ns.color.Bronze('青铜') .. '。'
 L['options_icons_dragonrace'] = '驭龙竞速'
 L['options_icons_dragonrace_desc'] = '显示区域内全部驭龙竞速的位置。'
