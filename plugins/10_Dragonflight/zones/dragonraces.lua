@@ -48,7 +48,7 @@ function Dragonrace.getters:note()
         if self[race.type] then
             local label = race.label
             local sTime = Silver(self[race.type][2])
-            local gTime = Gold(self[race.type][2])
+            local gTime = Gold(self[race.type][3])
             txt = txt .. '\n' .. format(note, label, sTime, gTime)
         end
     end
