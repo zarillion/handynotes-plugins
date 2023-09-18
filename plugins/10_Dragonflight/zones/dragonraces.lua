@@ -7,6 +7,8 @@ local L = ns.locale
 local Class = ns.Class
 
 local Achievement = ns.reward.Achievement
+local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -487,19 +489,27 @@ ZaralekCavern.nodes[51264667] = Dragonrace({
     rewards = ZaralekCavern_Rewards(6)
 }) -- Sulfur Sprint
 
--------------------------------- EmeraldDream ---------------------------------
+-------------------------------- EMERALD DREAM --------------------------------
 
-local function EmeraldDream_Rewards(c)
+local function EmeraldDream_Rewards(b, c, r) -- basic, challenge, reverse challenge
     return {
-        Achievement({id = 19109, criteria = c, oneline = true}), -- normal bronze
-        Achievement({id = 19110, criteria = c, oneline = true}), -- normal silver
-        Achievement({id = 19111, criteria = c, oneline = true}), -- normal gold
-        Achievement({id = 19112, criteria = c, oneline = true}), -- advanced bronze
-        Achievement({id = 19113, criteria = c, oneline = true}), -- advanced silver
-        Achievement({id = 19114, criteria = c, oneline = true}), -- advanced gold
-        Achievement({id = 19115, criteria = c, oneline = true}), -- reverse bronze
-        Achievement({id = 19116, criteria = c, oneline = true}), -- reverse silver
-        Achievement({id = 19117, criteria = c, oneline = true}) -- reverse gold
+        Achievement({id = 19109, criteria = b, oneline = true}), -- normal bronze
+        Achievement({id = 19110, criteria = b, oneline = true}), -- normal silver
+        Achievement({id = 19111, criteria = b, oneline = true}), -- normal gold
+        Achievement({id = 19112, criteria = b, oneline = true}), -- advanced bronze
+        Achievement({id = 19113, criteria = b, oneline = true}), -- advanced silver
+        Achievement({id = 19114, criteria = b, oneline = true}), -- advanced gold
+        Achievement({id = 19115, criteria = b, oneline = true}), -- reverse bronze
+        Achievement({id = 19116, criteria = b, oneline = true}), -- reverse silver
+        Achievement({id = 19117, criteria = b, oneline = true}), -- reverse gold
+        Section(L['dr_challenge']),
+        Achievement({id = 19121, criteria = c, oneline = true}), -- challenge bronze
+        Achievement({id = 19122, criteria = c, oneline = true}), -- challenge silver
+        Achievement({id = 19123, criteria = c, oneline = true}), -- challenge gold
+        Spacer(), Section(L['dr_reverse_challenge']),
+        Achievement({id = 19124, criteria = r, oneline = true}), -- reverse challenge bronze
+        Achievement({id = 19125, criteria = r, oneline = true}), -- reverse challenge silver
+        Achievement({id = 19126, criteria = r, oneline = true}) -- reverse challenge gold
     }
 end
 
@@ -508,7 +518,9 @@ EmeraldDream.nodes[59112881] = Dragonrace({
     normal = {2676, 105, 100},
     advanced = {2682, 101, 98},
     reverse = {2688, 97, 94},
-    rewards = EmeraldDream_Rewards(1)
+    -- challenge = {nil, nil, nil},
+    -- reverseChallenge = {nil, nil, nil},
+    rewards = EmeraldDream_Rewards(1, 1, 1)
 }) -- Ysera Invitational
 
 EmeraldDream.nodes[37184408] = Dragonrace({
@@ -516,7 +528,9 @@ EmeraldDream.nodes[37184408] = Dragonrace({
     normal = {2677, 89, 84},
     advanced = {2683, 86, 83},
     reverse = {2689, 87, 84},
-    rewards = EmeraldDream_Rewards(2)
+    -- challenge = {nil, nil, nil},
+    -- reverseChallenge = {nil, nil, nil},
+    rewards = EmeraldDream_Rewards(2, 2, 2)
 }) -- Smoldering Sprint
 
 EmeraldDream.nodes[35165522] = Dragonrace({
@@ -524,7 +538,9 @@ EmeraldDream.nodes[35165522] = Dragonrace({
     normal = {2678, 83, 78},
     advanced = {2684, 79, 76},
     reverse = {2690, 76, 76},
-    rewards = EmeraldDream_Rewards(3)
+    -- challenge = {nil, nil, nil},
+    -- reverseChallenge = {nil, nil, nil},
+    rewards = EmeraldDream_Rewards(3, 3, 3)
 }) -- Viridescent Venture
 
 EmeraldDream.nodes[69625262] = Dragonrace({
@@ -532,7 +548,9 @@ EmeraldDream.nodes[69625262] = Dragonrace({
     normal = {2679, 78, 73},
     advanced = {2685, 72, 69},
     reverse = {2691, 75, 72},
-    rewards = EmeraldDream_Rewards(4)
+    -- challenge = {nil, nil, nil},
+    -- reverseChallenge = {nil, nil, nil},
+    rewards = EmeraldDream_Rewards(4, 4, 4)
 }) -- Shoreline Switchback
 
 EmeraldDream.nodes[62808812] = Dragonrace({
@@ -540,7 +558,9 @@ EmeraldDream.nodes[62808812] = Dragonrace({
     normal = {2680, 113, 108},
     advanced = {2686, 108, 105},
     reverse = {2692, 109, 106},
-    rewards = EmeraldDream_Rewards(5)
+    -- challenge = {nil, nil, nil},
+    -- reverseChallenge = {nil, nil, nil},
+    rewards = EmeraldDream_Rewards(5, 5, 5)
 }) -- Canopy Concours
 
 EmeraldDream.nodes[32354820] = Dragonrace({
@@ -548,7 +568,9 @@ EmeraldDream.nodes[32354820] = Dragonrace({
     normal = {2681, 93, 88},
     advanced = {2687, 79, 76},
     reverse = {2693, 79, 76},
-    rewards = EmeraldDream_Rewards(6)
+    -- challenge = {nil, nil, nil},
+    -- reverseChallenge = {nil, nil, nil},
+    rewards = EmeraldDream_Rewards(6, 6, 6)
 }) -- Emerald Amble
 
 -------------------------------------------------------------------------------
