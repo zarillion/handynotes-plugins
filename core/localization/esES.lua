@@ -104,7 +104,7 @@ L['dr_reverse'] = 'Inverso'
 L['dr_challenge'] = 'Desafío'
 L['dr_reverse_challenge'] = 'Desafío Inverso'
 L['dr_bronze'] = 'Acaba la carrera para conseguir el ' .. ns.color.Bronze('Bronce') .. '.'
-L['dr_vendor_note'] = nil
+L['dr_vendor_note'] = 'Intercambia {currency:2588} por manuscritos de dracovigía y transfiguraciones.'
 L['options_icons_dragonrace'] = 'Carreras de Dragones'
 L['options_icons_dragonrace_desc'] = 'Muestra dónde están todas las Carreras de Dragones de la zona.'
 
