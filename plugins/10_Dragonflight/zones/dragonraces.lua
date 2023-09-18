@@ -1033,12 +1033,7 @@ hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
         GameTooltip:AddLine(' ')
         GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1, true)
     end
-    if ns:GetOpt('show_loot') then
-        GameTooltip:AddLine(' ')
-        for i, reward in ipairs(node.rewards) do
-            if reward:IsEnabled() then reward:Render(GameTooltip) end
-        end
-    end
+    if ns:GetOpt('show_loot') then node:RenderRewards(GameTooltip) end
 
     GameTooltip:Show()
 end)
