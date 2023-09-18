@@ -65,6 +65,7 @@ local OhnahranPlains = ns.maps[2023]
 local Thaldraszus = ns.maps[2025]
 local WakingShores = ns.maps[2022]
 local ZaralekCavern = ns.maps[2133]
+local EmeraldDream = ns.maps[2200]
 
 --------------------------------- AZURE SPAN ----------------------------------
 
