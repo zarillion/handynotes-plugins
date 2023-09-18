@@ -678,11 +678,19 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
             return {
                 Achievement({id = 19013, criteria = self.criteriaID}), -- I Dream of Seeds
                 Achievement({id = 19198, criteria = {id = 1, qty = true}}), -- The Seeds I Sow
-                Currency({id = 2651, count = 20}) -- Seedbloom -- Spawned after the timer of the plant ran out, triggered hidden quest 77396 when looting
+                Currency({id = 2651, count = 20}), -- Seedbloom -- Spawned after the timer of the plant ran out, triggered hidden quest 77396 when looting
+                Transmog({item = 209990, slot = L['cosmetic']}) --
             }
         end
     }
 }) -- Emerald Bounty
+
+-- After planting the seed Enroaching Growth (npc:208492) will spawn around. They give you Emerald Dewdrop (currency:2650) after pulling them out.
+-- Running over Destructive Weevil (npc:208498) also give Dewdrops
+-- You can Loot the Dreamseed Cache from one Bounte multiple times per day.
+
+-- Small Dreamseeds give 20 Seedbloom (with low contribution)
+-- Gigantic Dreamseeds give 350 Seedbloom
 
 -- map.nodes[] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling
 -- map.nodes[] = EmeraldBounty({criteriaID = 62396}) -- Ageless Blossom
@@ -692,18 +700,18 @@ map.nodes[40025268] = EmeraldBounty({criteriaID = 62035}) -- Viridescent Sprout
 map.nodes[40672478] = EmeraldBounty({criteriaID = 62027}) -- Lavatouched Lilies
 map.nodes[40744348] = EmeraldBounty({criteriaID = 62036}) -- Glade Goldenrod
 map.nodes[42647405] = EmeraldBounty({criteriaID = 62186}) -- Moon Tulip
-map.nodes[46384049] = EmeraldBounty({criteriaID = 62037}) -- Dreamer's Daisy
+map.nodes[46384049] = EmeraldBounty({criteriaID = 62037, quest = 77274}) -- Dreamer's Daisy -- 77390 -- 77393 -- I Planted a Gigantic Seed here, quests may be different?
 map.nodes[48738045] = EmeraldBounty({criteriaID = 62189}) -- Flourishing Scurfpea
-map.nodes[49174806] = EmeraldBounty({criteriaID = 62038}) -- Ringing Rose
-map.nodes[49903543] = EmeraldBounty({criteriaID = 62041}) -- Belligerent Begonias
+map.nodes[49174806] = EmeraldBounty({criteriaID = 62038, quest = 77387}) -- Ringing Rose -- 77388 (contributing Dewdrops) --  77389 -- (looting Dreamseed Cache)
+map.nodes[49903543] = EmeraldBounty({criteriaID = 62041, quest = 77359}) -- Belligerent Begonias -- 77363 -- 77360
 map.nodes[51145866] = EmeraldBounty({criteriaID = 62397}) -- Whisperbloom Sapling
-map.nodes[54596763] = EmeraldBounty({criteriaID = 62029}) -- Chiming Foxglove
-map.nodes[56513767] = EmeraldBounty({criteriaID = 62040}) -- Lullaby Lavender
-map.nodes[56654487] = EmeraldBounty({criteriaID = 62039}) -- Lofty Lupin
-map.nodes[59235875] = EmeraldBounty({criteriaID = 62028}) -- Ysera's Clover
+map.nodes[54596763] = EmeraldBounty({criteriaID = 62029, quest = 77222}) -- Chiming Foxglove -- 77211 (looting Dreamseed Cache)
+map.nodes[56513767] = EmeraldBounty({criteriaID = 62040, quest = 77503}) -- Lullaby Lavender -- 77501
+map.nodes[56654487] = EmeraldBounty({criteriaID = 62039, quest = 77384}) -- Lofty Lupin -- 77385
+map.nodes[59235875] = EmeraldBounty({criteriaID = 62028, quest = 77216}) -- Ysera's Clover -- 77210
 map.nodes[63025282] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling
-map.nodes[63504710] = EmeraldBounty({criteriaID = 62032}) -- Fuzzy Licorice
-map.nodes[63956483] = EmeraldBounty({criteriaID = 62030}) -- Dragon's Daffodil
+map.nodes[63504710] = EmeraldBounty({criteriaID = 62032, quest = 77380}) -- Fuzzy Licorice
+map.nodes[63956483] = EmeraldBounty({criteriaID = 62030, quest = 77224}) -- Dragon's Daffodil
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
@@ -776,5 +784,9 @@ map.nodes[50226180] = NPC({
 -- 48292228 -- ontop of the burning tree
 -- 54101937
 -- 55324272
+-- 55915818
 -- 60134204 -- on a Branch - Bugged inside the branch. only lootable with interact key.
 -- 65985217 -- on a branch
+-- 32936562 -- on the tree
+-- 63457357
+-- 42236677 -- on the tree
