@@ -93,11 +93,16 @@ L['time_format_24hrs'] = '%H:%M - %d/%m heure locale'
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_best'] = 'Votre meilleur temps :\n - Normal : %.3fs\n - Avancé : %.3fs\n - Inversé : %.3fs'
-L['dr_best_dash'] = 'Votre meilleur temps :\n - %.3fs'
-L['dr_note'] = 'Temps imparti :\n - Normal : %ss / %ss\n - Avancé : %ss / %ss\n - Inversé : %ss / %ss'
-L['dr_note_dash'] = 'Temps imparti :\n - %ss / %ss'
-L['dr_bronze'] = '\n\nTerminez la course pour obtenir ' .. ns.color.Bronze('Bronze') .. '.'
+L['dr_your_best_time'] = 'Votre meilleur temps :'
+L['dr_your_target_time'] = 'Temps imparti :'
+L['dr_best_time'] = ' - %s: %.3fs'
+L['dr_target_time'] = ' - %s: %ss / %ss'
+L['dr_normal'] = 'Normal'
+L['dr_advanced'] = 'Avancé'
+L['dr_reverse'] = 'Inversé'
+L['dr_challenge'] = nil
+L['dr_reverse_challenge'] = nil
+L['dr_bronze'] = 'Terminez la course pour obtenir ' .. ns.color.Bronze('Bronze') .. '.'
 L['options_icons_dragonrace'] = 'Courses du Vol à dos de dragon'
 L['options_icons_dragonrace_desc'] = 'Afficher les emplacements de toutes les courses dans la zone.'
 
