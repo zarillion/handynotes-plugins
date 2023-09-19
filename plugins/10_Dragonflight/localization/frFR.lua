@@ -838,8 +838,8 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 L['envoy_of_winter_note'] = 'Ramassez des {item:208881} et utilisez le {spell:421658} près du puits jusqu\'à ce que l\'{npc:209929} apparaisse.'
 L['fruitface_note'] = 'Ramassez le {item:208837} au sol pour faire apparaître le {npc:209980}. Attaquez-le et suivez-le jusqu\'à ce qu\'il saute dans l\'eau et invoque un {npc:209966} et le monstre rare.'
 L['greedy_gessie_note'] = 'Vous devez récupérer les objets {object:Légumes sauvages}, {object:Melon écaille de rubis} et {object:Racine orange} aux alentours et les mettre dans les paniers près des {npc:210285} pour commencer le combat.'
-L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaquer {npc:209898}.'
 L['nuoberon_note'] = 'Pourchassez les tortues, jetez de la nourriture aux singes ou combattez les monstres des rêves pour aider {npc:209101} à passer un rêve amusant !'
+L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaquer {npc:209898}.'
 
 L['in_a_tree'] = 'En haut d\'un arbre.'
 L['inside_building'] = 'A l\'intérieur du bâtiment.'
@@ -872,6 +872,6 @@ L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des bébés séléniens pour le haut-fait {achievement:19293}.'
 
-L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
-L['sylvia_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'
 L['elianna_vendor_note'] = 'Échangez vos {currency:2777} contre des mascottes.'
+L['sylvia_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'
+L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'

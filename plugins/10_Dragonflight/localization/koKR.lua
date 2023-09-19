@@ -776,8 +776,8 @@ L['options_icons_zone_event_desc'] = nil
 L['envoy_of_winter_note'] = nil
 L['fruitface_note'] = nil
 L['greedy_gessie_note'] = nil
-L['reefbreaker_moruud_note'] = nil
 L['nuoberon_note'] = nil
+L['reefbreaker_moruud_note'] = nil
 
 L['in_a_tree'] = nil
 L['inside_building'] = nil
@@ -810,6 +810,6 @@ L['options_icons_dream_of_seeds_desc'] = nil
 L['options_icons_moonkin_hatchling'] = nil
 L['options_icons_moonkin_hatchling_desc'] = nil
 
-L['thaelishar_vendor_note'] = nil
-L['sylvia_vendor_note'] = nil
 L['elianna_vendor_note'] = nil
+L['sylvia_vendor_note'] = nil
+L['thaelishar_vendor_note'] = nil
