@@ -692,9 +692,7 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
 -- Small Dreamseeds give 20 Seedbloom (with low contribution)
 -- Gigantic Dreamseeds give 350 Seedbloom
 
--- map.nodes[] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling
 -- map.nodes[] = EmeraldBounty({criteriaID = 62396}) -- Ageless Blossom
--- map.nodes[] = EmeraldBounty({criteriaID = 62397}) -- Whisperbloom Sapling
 map.nodes[38455920] = EmeraldBounty({criteriaID = 62185}) -- Comfy Chamomile
 map.nodes[40025268] = EmeraldBounty({criteriaID = 62035}) -- Viridescent Sprout
 map.nodes[40672478] = EmeraldBounty({criteriaID = 62027}) -- Lavatouched Lilies
