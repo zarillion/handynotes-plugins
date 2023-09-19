@@ -314,7 +314,7 @@ OhnahranPlains.nodes[86263583] = Dragonrace({
     advanced = {2063, 46, 41},
     reverse = {2184, 52, 47},
     -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    reverseChallenge = {2441, 53, 50},
     rewards = OhnahranPlains_Rewards(2, 3, 4)
 }) -- Fen Flythrough
 
@@ -323,8 +323,8 @@ OhnahranPlains.nodes[80897220] = Dragonrace({
     normal = {2064, 52, 50},
     advanced = {2065, 52, 47},
     reverse = {2185, 51, 46},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2442, 53, 50},
+    reverseChallenge = {2443, 54, 51},
     rewards = OhnahranPlains_Rewards(3, 5, 6)
 }) -- Ravine River Run
 
@@ -341,7 +341,7 @@ OhnahranPlains.nodes[25715508] = Dragonrace({
 OhnahranPlains.nodes[59933555] = Dragonrace({
     label = '{quest:66921}',
     normal = {2069, 28, 25},
-    -- challenge = {nil, nil, nil},
+    challenge = {2446, 27, 24},
     rewards = {
         Achievement({id = 15918, criteria = 5, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 5, oneline = true}), -- normal silver
@@ -356,7 +356,7 @@ OhnahranPlains.nodes[59933555] = Dragonrace({
 OhnahranPlains.nodes[47487064] = Dragonrace({
     label = '{quest:66933}',
     normal = {2070, 29, 26},
-    -- challenge = {nil, nil, nil},
+    challenge = {2447, 30, 27},
     rewards = {
         Achievement({id = 15918, criteria = 6, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 6, oneline = true}), -- normal silver
@@ -373,8 +373,8 @@ OhnahranPlains.nodes[43746678] = Dragonrace({
     normal = {2119, 51, 46},
     advanced = {2120, 48, 43},
     reverse = {2187, 49, 44},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2448, 55, 52},
+    reverseChallenge = {2449, 55, 52},
     rewards = {
         Achievement({id = 15918, criteria = 7, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 7, oneline = true}), -- normal silver
