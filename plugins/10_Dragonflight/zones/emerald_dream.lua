@@ -237,9 +237,10 @@ map.nodes[61755220] = Rare({
     }
 }) -- Splinterlimb
 
-map.nodes[88004200] = Rare({ -- REVIEW
+map.nodes[57015167] = Rare({ -- multiple locations?
     id = 210111,
-    quest = nil,
+    quest = 78263,
+    note = L['surging_lasher_note'],
     rewards = {
         Achievement({id = 19316, criteria = 62941}) -- Adventurer of the Emerald Dream
     }

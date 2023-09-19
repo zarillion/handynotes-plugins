@@ -843,6 +843,7 @@ L['fruitface_note'] = 'Sammle {item:208837} vom Boden auf, damit {npc:209980} er
 L['greedy_gessie_note'] = 'Sammle frische Zutaten wie {object:Wildes Grünzeug}, {object:Rubinschuppenmelone} oder {object:Orangenwurzel} aus der Umgebung und legt diese in die Körbe, damit der seltene Gegner erscheint.'
 L['nuoberon_note'] = nil
 L['reefbreaker_moruud_note'] = 'Befestige alle 6 {npc:210089e} an ihm, um ihn angreifen zu können.'
+L['surging_lasher_note'] = 'Kann während des {event:Emerald Frenzy} Events in diesem Gebiet erscheinen.' -- review event not yet translated
 
 L['in_a_tree'] = 'Oben im Baum.'
 L['inside_building'] = 'Im Gebäude.'
