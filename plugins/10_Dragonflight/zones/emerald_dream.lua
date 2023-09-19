@@ -472,9 +472,10 @@ map.nodes[46152058] = PT.Enchanting({id = 210231, quest = 78309}) -- Everburning
 
 map.nodes[38373020] = PT.Enchanting({id = 210228, quest = 78308}) -- Pure Dream Water
 
-map.nodes[92004800] = PT.Enchanting({ -- REVIEW
+map.nodes[66367419] = PT.Enchanting({
     id = 210234,
-    quest = nil
+    quest = 78310,
+    note = L['essence_of_dreams_note']
 }) -- Essence of Dreams
 
 map.nodes[55642751] = PT.Inscription({id = 210458, quest = 78411}) -- Winnie's Notes on Flora and Fauna
@@ -509,28 +510,28 @@ map.nodes[40498937] = PT.Engineering({
     location = L['in_small_cave']
 }) -- Insomniotron
 
-map.nodes[62683626] = PT.Engineering({id = 210197, quest = 78281}) -- Unhatched Battery
-
-map.nodes[86005000] = PT.Engineering({ -- REVIEW
-    id = 210198,
-    quest = nil
-}) -- Depleted Battery
+map.nodes[62683626] = PT.Engineering({
+    id = 210197,
+    quest = 78281
+    --  turns into Depleted Battery (210198) after 3 days
+}) -- Unhatched Battery
 
 map.nodes[53272791] = PT.Tailoring({
     id = 210461,
-    quest = 78414
-    -- Inside the building behind a chair.
+    quest = 78414,
+    note = L['exceedingly_soft_wildercloth_note']
 }) -- Exceedingly Soft Wildercloth
 
-map.nodes[90005000] = PT.Tailoring({ -- REVIEW
+map.nodes[49826149] = PT.Tailoring({
     id = 210462,
-    quest = nil
+    quest = 78415,
+    note = L['plush_pillow_note']
 }) -- Plush Pillow
 
 map.nodes[40708615] = PT.Tailoring({
     id = 210463,
-    quest = 78416
-    -- inside a small boat.
+    quest = 78416,
+    note = L['snuggle_buddy_note']
 }) -- Snuggle Buddy
 
 map.nodes[33204656] = PT.Jewelcrafting({
@@ -679,8 +680,8 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
             return {
                 Achievement({id = 19013, criteria = self.criteriaID}), -- I Dream of Seeds
                 Achievement({id = 19198, criteria = {id = 1, qty = true}}), -- The Seeds I Sow
-                Currency({id = 2651, count = 20}), -- Seedbloom -- Spawned after the timer of the plant ran out, triggered hidden quest 77396 when looting
-                Transmog({item = 209990, slot = L['cosmetic']}) --
+                Currency({id = 2651, note = 20}), -- Seedbloom -- Spawned after the timer of the plant ran out, triggered hidden quest 77396 when looting
+                Transmog({item = 209990, slot = L['cosmetic']}) -- Overgrown Freyan Handguards
             }
         end
     }

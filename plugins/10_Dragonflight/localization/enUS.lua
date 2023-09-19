@@ -862,11 +862,15 @@ L['unwaking_echo_note'] = '{note:You can only open this chest in your dreams.}\n
 
 L['amirdrassil_defenders_shield_note'] = 'On the table next to {npc:211328}.'
 L['dreamtalon_claw_note'] = 'At the bottom of the tree trunk.'
+L['essence_of_dreams_note'] = 'Up in a floating, circular tree branch.'
+L['exceedingly_soft_wildercloth_note'] = 'Inside the building behind a chair.'
 L['experimental_dreamcatcher_note'] = 'In the floating tree.'
 L['grove_keepers_pillar_note'] = 'In front of the cave entrance.'
 L['handful_of_pebbles_note'] = 'On the statue\'s right shoulder.'
 L['molted_faerie_dragon_scales_note'] = 'On the ground in some flowers.'
 L['petrified_hope_note'] = 'Up in the tree stump.'
+L['plush_pillow_note'] = 'Inside the little hut on a table.'
+L['snuggle_buddy_note'] = 'Inside a small boat.'
 
 L['dreamseed_soil_label'] = 'Dreamseed Soil'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'

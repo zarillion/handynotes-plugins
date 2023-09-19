@@ -863,11 +863,15 @@ L['unwaking_echo_note'] = '{note:You can only open this chest in your dreams.}\n
 
 L['amirdrassil_defenders_shield_note'] = 'Auf dem Tisch neben {npc:211328}.'
 L['dreamtalon_claw_note'] = 'Unten am Stamm des Baumes.'
+L['essence_of_dreams_note'] = 'Oben in einem schwebenden, kreisförmigen Ast.'
+L['exceedingly_soft_wildercloth_note'] = 'Im Gebäude hinter einem Stuhl.'
 L['experimental_dreamcatcher_note'] = 'Im schwebenden Baum.'
 L['grove_keepers_pillar_note'] = 'Vor dem Eingang der Höhle.'
 L['handful_of_pebbles_note'] = 'An der rechten Schulter der Statue.'
 L['molted_faerie_dragon_scales_note'] = 'Auf dem Boden in einigen Blumen.'
 L['petrified_hope_note'] = 'Oben im Baumstumpf.'
+L['plush_pillow_note'] = 'In der kleinen Hütte auf einem Tisch.'
+L['snuggle_buddy_note'] = 'In einem kleinen Boot.'
 
 L['dreamseed_soil_label'] = '{npc:210723}' -- Traumsaaterde
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'

@@ -862,11 +862,15 @@ L['unwaking_echo_note'] = '{note:Sólo puedes abrir este cofre en tus sueños.}\
 
 L['amirdrassil_defenders_shield_note'] = 'En la mesa junto a {npc:211328}.'
 L['dreamtalon_claw_note'] = 'En el fondo del tronco del árbol.'
+L['essence_of_dreams_note'] = nil
+L['exceedingly_soft_wildercloth_note'] = nil
 L['experimental_dreamcatcher_note'] = 'En el árbol flotante.'
 L['grove_keepers_pillar_note'] = 'Enfrente de la entrada a la cueva.'
 L['handful_of_pebbles_note'] = 'Encima del hombro derecho de la estatua.'
 L['molted_faerie_dragon_scales_note'] = 'En el suelo, en unas flores.'
 L['petrified_hope_note'] = 'Encima del tocón del árbol.'
+L['plush_pillow_note'] = nil
+L['snuggle_buddy_note'] = nil
 
 L['dreamseed_soil_label'] = 'Tierra con Semillas del Sueño'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'

@@ -863,11 +863,15 @@ L['unwaking_echo_note'] = nil
 
 L['amirdrassil_defenders_shield_note'] = nil
 L['dreamtalon_claw_note'] = nil
+L['essence_of_dreams_note'] = nil
+L['exceedingly_soft_wildercloth_note'] = nil
 L['experimental_dreamcatcher_note'] = nil
 L['grove_keepers_pillar_note'] = nil
 L['handful_of_pebbles_note'] = nil
 L['molted_faerie_dragon_scales_note'] = nil
 L['petrified_hope_note'] = nil
+L['plush_pillow_note'] = nil
+L['snuggle_buddy_note'] = nil
 
 L['dreamseed_soil_label'] = nil
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'

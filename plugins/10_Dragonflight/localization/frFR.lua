@@ -860,11 +860,15 @@ L['unwaking_echo_note'] = '{note:Vous ne pouvez ouvrir ce coffre que dans vos r�
 
 L['amirdrassil_defenders_shield_note'] = 'Sur la table à côté de {npc:211328}.'
 L['dreamtalon_claw_note'] = 'A la base du tronc d\'arbre.'
+L['essence_of_dreams_note'] = nil
+L['exceedingly_soft_wildercloth_note'] = nil
 L['experimental_dreamcatcher_note'] = 'Dans l\'arbre flottant.'
 L['grove_keepers_pillar_note'] = 'Devant l\'entrée de la grotte.'
 L['handful_of_pebbles_note'] = 'Sur l\'épaule droite de la statue.'
 L['molted_faerie_dragon_scales_note'] = 'Au sol parmi quelques fleurs.'
 L['petrified_hope_note'] = 'Dans la souche d\'arbre.'
+L['plush_pillow_note'] = nil
+L['snuggle_buddy_note'] = nil
 
 L['dreamseed_soil_label'] = 'Sol pour graine onirique'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
