@@ -987,8 +987,8 @@ L['soa_15_orb_location'] = nil
 L['soa_15_orb_note'] = nil
 
 -- Community Rumor Mill
-L['buried_satchel_note'] = nil
-L['buried_satchel_sublabel'] = nil
+L['buried_satchel_note'] = 'Выкопайте {item: 208142} из {object:Кучи рыхлой земли}.'
+L['buried_satchel_sublabel'] = '{note:Это НЕ местоположение {item:208142}.}'
 
 L['bs_epl_location'] = nil
 L['bs_fel_location'] = nil
