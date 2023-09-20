@@ -900,10 +900,10 @@ L['soa_06_unvieled_tablet_note_c'] = nil
 
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '(Загадка 7)'
-L['soa_07_brazier_label'] = nil
-L['soa_07_brazier_note_a'] = nil
-L['soa_07_brazier_note_b'] = nil
-L['soa_07_idol_note'] = nil
+L['soa_07_brazier_label'] = 'Древняя жаровня для благовоний'
+L['soa_07_brazier_note_a'] = 'Поговорите с {npc:185562}, чтобы завершить задание {quest:77303} и получить {item:208144}.\n\nОтправляйтесь в {location:Равнины Он\'ары} в местность под названием {location:Вечные курганы}.'
+L['soa_07_brazier_note_b'] = 'Используйте {item:208135}, чтобы зажечь {object:Древнюю жаровню для благовоний} в древнем кургане.'
+L['soa_07_idol_note'] = 'Заберите {item:207730} рядом с {object:Древней жаровней для благовоний} и вернитесь в {location:Вальдраккен}.'
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '(Загадка 8)'
