@@ -66,6 +66,7 @@ L['pet'] = 'Mascota'
 L['recipe'] = nil
 L['spell'] = nil
 L['title'] = nil
+L['currency'] = nil
 L['toy'] = 'Juguete'
 L['rep'] = nil
 L['completed'] = 'Terminado'

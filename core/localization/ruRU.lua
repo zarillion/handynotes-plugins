@@ -67,6 +67,7 @@ L['recipe'] = 'Рецепт'
 L['spell'] = 'Заклинание'
 L['title'] = 'Звание'
 L['toy'] = 'Игрушка'
+L['currency'] = nil
 L['rep'] = 'Реп.'
 L['completed'] = 'Получено'
 L['incomplete'] = 'Незавершенно'

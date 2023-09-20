@@ -67,6 +67,7 @@ L['recipe'] = nil
 L['spell'] = '주문'
 L['title'] = '칭호'
 L['toy'] = '장난감'
+L['currency'] = nil
 L['rep'] = '평판'
 L['completed'] = '완료'
 L['incomplete'] = '미완료'

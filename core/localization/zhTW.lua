@@ -67,6 +67,7 @@ L['recipe'] = '配方'
 L['spell'] = '法術'
 L['title'] = '稱號'
 L['toy'] = '玩具'
+L['currency'] = nil
 L['rep'] = '聲望'
 L['completed'] = '已完成'
 L['incomplete'] = '未完成'
