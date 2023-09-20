@@ -966,10 +966,10 @@ L['soa_13_great_place_f_note'] = nil
 
 -- Secrets of Azeroth: Clue 14
 L['soa_14_rlabel'] = '(Загадка 14)'
-L['soa_14_tithris_note'] = nil
-L['soa_14_buried_object_label'] = nil
-L['soa_14_tablet_label'] = nil
-L['soa_14_tablet_note'] = nil
+L['soa_14_tithris_note'] = 'Поговорите с {npc:185562}, он даст вам {item:208942}. После этого отправляйтесь в {location:Пик Грозового Покрова} в {location:Тальдразусе}.'
+L['soa_14_buried_object_label'] = 'Закопанный предмет (%d)'
+L['soa_14_tablet_label'] = 'Табличка с письменами титанов (%d)'
+L['soa_14_tablet_note'] = 'Используйте {item: 208092}, чтобы открыть {object:Табличку с письменами титанов}. Следуйте по координатам с помощью {item: 206696} к {object:Закопанному предмету} и выкопайте {item: 209795}.'
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(Загадка 15)'
