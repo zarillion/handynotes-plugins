@@ -840,12 +840,12 @@ L['fruitface_note'] = 'Ramassez le {item:208837} au sol pour faire apparaître l
 L['greedy_gessie_note'] = 'Vous devez récupérer les objets {object:Légumes sauvages}, {object:Melon écaille de rubis} et {object:Racine orange} aux alentours et les mettre dans les paniers près des {npc:210285} pour commencer le combat.'
 L['nuoberon_note'] = 'Pourchassez les tortues, jetez de la nourriture aux singes ou combattez les monstres des rêves pour aider {npc:209101} à passer un rêve amusant !'
 L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaquer {npc:209898}.'
-L['surging_lasher_note'] = 'Peut apparaître pendant l\'événement {event:Frénésie d\'émeraude} dans cette zone.' -- review Event name
+L['surging_lasher_note'] = 'Peut apparaître pendant l\'événement {event:Frénésie d\'émeraude} dans cette zone.'
 
 L['in_a_tree'] = 'En haut d\'un arbre.'
 L['inside_building'] = 'A l\'intérieur du bâtiment.'
 
-L['hidden_moonkin_stash_label'] = nil -- review NYT
+L['hidden_moonkin_stash_label'] = 'Magot de boguelin dissimulé'
 
 L['magical_bloom_note'] = 'Poursuivez le {npc:210544} jusqu\'à ce qu\'il révèle le trésor.'
 L['pineshrew_cache_note'] = 'A côté de quelques rochers.'
@@ -855,7 +855,7 @@ L['reliquary_of_goldrinn_note'] = 'Trouvez une {object:Marque de Goldrinn} {dot:
 L['reliquary_of_ursol_note'] = 'Trouvez une {object:Marque d\'Ursol} {dot:Green} à proximité pour obtenir le buff {spell:423306} et rendez-vous à la {npc:210732}.'
 L['triflesnatchs_roving_trove_note'] = 'Suivez le {npc:210060} tandis qu\'il vole de branche en branche.'
 
-L['unwaking_echo_label'] = nil -- review NYT
+L['unwaking_echo_label'] = 'Écho non réveillé'
 L['unwaking_echo_note'] = '{note:Vous ne pouvez ouvrir ce coffre que dans vos rêves.}\n\nEndormez-vous avec l\'emote {emote:/sleep} à côté du coffre pour l\'ouvrir.'
 
 L['amirdrassil_defenders_shield_note'] = 'Sur la table à côté de {npc:211328}.'
