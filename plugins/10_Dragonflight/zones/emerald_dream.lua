@@ -681,7 +681,8 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
                 Achievement({id = 19013, criteria = self.criteriaID}), -- I Dream of Seeds
                 Achievement({id = 19198, criteria = {id = 1, qty = true}}), -- The Seeds I Sow
                 Currency({id = 2651, note = 20}), -- Seedbloom -- Spawned after the timer of the plant ran out, triggered hidden quest 77396 when looting
-                Transmog({item = 209990, slot = L['cosmetic']}) -- Overgrown Freyan Handguards
+                Transmog({item = 209990, slot = L['cosmetic']}), -- Overgrown Freyan Handguards
+                Transmog({item = 209971, slot = L['cosmetic']}) -- Clogs of the Dreamfused Skull
             }
         end
     }
@@ -695,13 +696,13 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
 -- Gigantic Dreamseeds give 350 Seedbloom
 
 -- map.nodes[] = EmeraldBounty({criteriaID = 62396}) -- Ageless Blossom
-map.nodes[38455920] = EmeraldBounty({criteriaID = 62185}) -- Comfy Chamomile
+map.nodes[38455920] = EmeraldBounty({criteriaID = 62185, quest = 77519}) -- Comfy Chamomile -- 77515 Dew -- 77517 Cache
 map.nodes[40025268] = EmeraldBounty({criteriaID = 62035}) -- Viridescent Sprout
-map.nodes[40672478] = EmeraldBounty({criteriaID = 62027}) -- Lavatouched Lilies
-map.nodes[40744348] = EmeraldBounty({criteriaID = 62036}) -- Glade Goldenrod
+map.nodes[40672478] = EmeraldBounty({criteriaID = 62027, quest = 77496}) -- Lavatouched Lilies -- 77492 Dew -- 77494
+map.nodes[40744348] = EmeraldBounty({criteriaID = 62036, quest = 77511}) -- Glade Goldenrod -- 77507 Dew
 map.nodes[42647405] = EmeraldBounty({criteriaID = 62186}) -- Moon Tulip
 map.nodes[46384049] = EmeraldBounty({criteriaID = 62037, quest = 77274}) -- Dreamer's Daisy -- 77390 -- 77393 -- I Planted a Gigantic Seed here, quests may be different?
-map.nodes[48738045] = EmeraldBounty({criteriaID = 62189}) -- Flourishing Scurfpea
+map.nodes[48738045] = EmeraldBounty({criteriaID = 62189, quest = 77538}) -- Flourishing Scurfpea -- 77536
 map.nodes[49174806] = EmeraldBounty({criteriaID = 62038, quest = 77387}) -- Ringing Rose -- 77388 (contributing Dewdrops) --  77389 -- (looting Dreamseed Cache)
 map.nodes[49903543] = EmeraldBounty({criteriaID = 62041, quest = 77359}) -- Belligerent Begonias -- 77363 -- 77360
 map.nodes[51145866] = EmeraldBounty({criteriaID = 62397}) -- Whisperbloom Sapling
@@ -777,6 +778,7 @@ map.nodes[50226180] = NPC({
 -- -- Flightstones
 -- -- Dragon Isle Supplies
 -- -- Whelpling's Dreaming Crest
+-- -- DC.WindingSlitherdrake.SpikedHorns
 
 -- 26213140
 -- 42284821
@@ -790,3 +792,5 @@ map.nodes[50226180] = NPC({
 -- 32936562 -- on the tree
 -- 63457357
 -- 42236677 -- on the tree
+-- 40384207
+-- 40883180
