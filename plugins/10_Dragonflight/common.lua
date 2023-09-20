@@ -782,8 +782,8 @@ ns.DRAGON_CUSTOMIZATIONS = {
     }
 }
 
-ns.DRAGON_CUSTOMIZATIONS.SetNote = function(dc, note)
-    return Item({item = dc.item, quest = dc.quest, note = note})
+ns.DRAGON_CUSTOMIZATIONS.SetCount = function(dc, count)
+    return Item({item = dc.item, quest = dc.quest, count = count})
 end
 
 -------------------------------------------------------------------------------

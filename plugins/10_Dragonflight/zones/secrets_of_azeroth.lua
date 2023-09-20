@@ -185,7 +185,7 @@ local Erugosa = Class('Erugosa', SecretsOfAzeroth, {
         207827 -- Unfinished Thinking Cap
     },
     rewards = {
-        Item({item = 207956, note = '10x'}) -- Thunderspine Nest
+        Item({item = 207956, count = 10}) -- Thunderspine Nest
     }
 }) -- Erugosa <Cooking Trainer>
 
@@ -206,7 +206,7 @@ ohn.nodes[85182347] = SecretsOfAzeroth({
     questDeps = 76987, -- Clue 02 complete
     note = L['soa_03_erugosa_note_b'],
     rewards = {
-        Item({item = 198441, note = '5x'}) -- Thunderspine Tenders
+        Item({item = 198441, count = 5}) -- Thunderspine Tenders
     }
 }) -- Agurahl the Butcher <Meat Vendor>
 
@@ -217,7 +217,7 @@ val.nodes[28996516] = SecretsOfAzeroth({
     questDeps = 76987, -- Clue 02 complete
     note = L['soa_03_erugosa_note_c'],
     rewards = {
-        Item({item = 201419, note = '5x'}) -- Apexis Asiago
+        Item({item = 201419, count = 5}) -- Apexis Asiago
     }
 }) -- Gorgonzormu <Cheesemonger>
 
@@ -228,7 +228,7 @@ zar.nodes[54085666] = SecretsOfAzeroth({
     questDeps = 76987, -- Clue 02 complete
     note = L['soa_03_erugosa_note_d'],
     rewards = {
-        Item({item = 205693, note = '5x'}) -- Latticed Stinkhorn
+        Item({item = 205693, count = 5}) -- Latticed Stinkhorn
     }
 }) -- Sniktak <Enterprising Mycologist>
 
@@ -289,7 +289,7 @@ val.nodes[46109447] = SecretsOfAzeroth({
     },
     note = L['soa_03_gryffin_note_b'],
     rewards = {
-        Item({item = 207812, note = '1x'}) -- Fresh Tyranha
+        Item({item = 207812, count = 1}) -- Fresh Tyranha
     }
 }) -- Hungering Tyranha
 

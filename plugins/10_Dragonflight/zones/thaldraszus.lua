@@ -625,7 +625,7 @@ map.nodes[33967695] = Treasure({
     },
     rewards = {
         Achievement({id = 16301, criteria = 54810}), -- Treasures of Thaldraszus
-        Item({item = 169951, note = '3x'}) -- Broken Hourglass
+        Item({item = 169951, count = 3}) -- Broken Hourglass
     }
 }) -- Cracked Hourglass
 
@@ -643,7 +643,7 @@ map.nodes[58168007] = Treasure({
     requires = ns.requirement.Quest(70538, '{item:199069}'), -- Yennu's Map
     rewards = {
         Achievement({id = 16301, criteria = 54811}), -- Treasures of Thaldraszus
-        Item({item = 200827, note = '5x'}) -- Weathered Sculpture
+        Item({item = 200827, count = 5}) -- Weathered Sculpture
     },
     pois = {POI({54937543})} -- Yennu's Map
 }) -- Sandy Wooden Duck (Sand Pile)
@@ -1493,9 +1493,9 @@ local Mythressa = Class('Mythressa', NPC, {
     parent = map.id,
     rewards = {
         Achievement({id = 16502}), -- Storming the Runway
-        Pet({item = 200173, id = 3287, note = 'x1000'}), -- Ghostflame
-        Pet({item = 200114, id = 3382, note = 'x1000'}), -- Stormie
-        Mount({item = 192775, id = 1622, note = 'x2000'}) -- Stormhide Salamanther
+        Pet({item = 200173, id = 3287, count = 1000}), -- Ghostflame
+        Pet({item = 200114, id = 3382, count = 1000}), -- Stormie
+        Mount({item = 192775, id = 1622, count = 2000}) -- Stormhide Salamanther
     }
 }) -- Mythressa <Apprentice Primal Researcher>
 

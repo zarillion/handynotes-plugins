@@ -298,6 +298,9 @@ function Item:GetText()
     if self.type then -- mount, pet, toy, etc
         text = text .. ' (' .. self.type .. ')'
     end
+    if self.count then
+        text = text .. string.format(' (%sx)', BreakUpLargeNumbers(self.count))
+    end
     if self.note then -- additional info
         text = text .. ' (' .. ns.RenderLinks(self.note, true) .. ')'
     end
