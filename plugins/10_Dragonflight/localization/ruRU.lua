@@ -945,8 +945,8 @@ L['soa_11_burial_banner_note'] = nil
 
 -- Secrets of Azeroth: Clue 12
 L['soa_12_rlabel'] = '(Загадка 12)'
-L['soa_12_bobby_note'] = nil
-L['soa_12_ancient_tome_note'] = nil
+L['soa_12_bobby_note'] = 'Поговорите с {npc:207696}, чтобы получить {item:208888}.\n\nОтправляйтесь в {location:Старый Каражан} и расчистите себе путь до {npc:15691}, чтобы попасть в {location:Библиотеку хранителя}. Вам нужно будет найти там том. Используйте {item:207730}, чтобы найти его.'
+L['soa_12_ancient_tome_note'] = 'Ищите тома с помощью {item:207730}, пока не найдете {item:208889}, и верните его {npc:207696} в {location:Вальдраккен}.'
 
 -- Secrets of Azeroth: Clue 13
 L['soa_13_rlabel'] = '(Загадка 13)'
