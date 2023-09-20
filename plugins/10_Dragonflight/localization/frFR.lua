@@ -840,7 +840,7 @@ L['fruitface_note'] = 'Ramassez le {item:208837} au sol pour faire apparaître l
 L['greedy_gessie_note'] = 'Vous devez récupérer les objets {object:Légumes sauvages}, {object:Melon écaille de rubis} et {object:Racine orange} aux alentours et les mettre dans les paniers près des {npc:210285} pour commencer le combat.'
 L['nuoberon_note'] = 'Pourchassez les tortues, jetez de la nourriture aux singes ou combattez les monstres des rêves pour aider {npc:209101} à passer un rêve amusant !'
 L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaquer {npc:209898}.'
-L['surging_lasher_note'] = nil
+L['surging_lasher_note'] = 'Peut apparaître pendant l\'événement {event:Frénésie d\'émeraude} dans cette zone.' -- review Event name
 
 L['in_a_tree'] = 'En haut d\'un arbre.'
 L['inside_building'] = 'A l\'intérieur du bâtiment.'
@@ -860,15 +860,15 @@ L['unwaking_echo_note'] = '{note:Vous ne pouvez ouvrir ce coffre que dans vos r�
 
 L['amirdrassil_defenders_shield_note'] = 'Sur la table à côté de {npc:211328}.'
 L['dreamtalon_claw_note'] = 'A la base du tronc d\'arbre.'
-L['essence_of_dreams_note'] = nil
-L['exceedingly_soft_wildercloth_note'] = nil
+L['essence_of_dreams_note'] = 'En haut d\'une branche d\'arbre flottante circulaire.'
+L['exceedingly_soft_wildercloth_note'] = 'A l\'intérieur du bâtiment, derrière une chaise.'
 L['experimental_dreamcatcher_note'] = 'Dans l\'arbre flottant.'
 L['grove_keepers_pillar_note'] = 'Devant l\'entrée de la grotte.'
 L['handful_of_pebbles_note'] = 'Sur l\'épaule droite de la statue.'
 L['molted_faerie_dragon_scales_note'] = 'Au sol parmi quelques fleurs.'
 L['petrified_hope_note'] = 'Dans la souche d\'arbre.'
-L['plush_pillow_note'] = nil
-L['snuggle_buddy_note'] = nil
+L['plush_pillow_note'] = 'A l\'intérieur de la petite cabane, sur une table.'
+L['snuggle_buddy_note'] = 'A l\'intérieur d\'un petit bateau.'
 
 L['dreamseed_soil_label'] = 'Sol pour graine onirique'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
