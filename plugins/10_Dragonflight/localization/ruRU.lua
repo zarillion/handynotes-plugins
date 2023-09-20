@@ -333,7 +333,7 @@ L['options_icons_forbidden_hoard'] = 'Запретный тайник'
 L['options_icons_forbidden_hoard_desc'] = 'Показать возможные местоположения {object:Запретных тайников}.'
 
 L['froststone_vault_storm_label'] = 'Изначальная буря в Ледокаменном хранилище'
-L['gooey_snailemental_note'] = 'Объедините x50 {item:204352}, собранных с боссов во время {object:Изначальной бури в Ледокаменном хранилище}, чтобы создать {item:192785}.'
+L['gooey_snailemental_note'] = 'Объедините 50x {item:204352}, собранных с боссов во время {object:Изначальной бури в Ледокаменном хранилище}, чтобы создать {item:192785}.'
 
 L['options_icons_froststone_vault_storm'] = 'Изначальная буря в Ледокаменном хранилище'
 L['options_icons_froststone_vault_storm_desc'] = 'Показать местоположение и награды за {object:Изначальную бурю в Ледокаменном хранилище}'
