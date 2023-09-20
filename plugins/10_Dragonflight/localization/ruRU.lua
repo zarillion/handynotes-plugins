@@ -876,9 +876,9 @@ L['soa_03_shakey_note_c'] = nil
 
 -- Secrets of Azeroth: Clue 4
 L['soa_04_rlabel'] = '(Загадка 4)'
-L['soa_04_locker_label'] = nil
-L['soa_04_sazsel_note_a'] = nil
-L['soa_04_sazsel_note_b'] = nil
+L['soa_04_locker_label'] = 'Сундук реставратора'
+L['soa_04_sazsel_note_a'] = 'Добудьте {item:208130} из {object:Сундука реставратора} на верхнем этаже {location:Жареного барашка} и отнесите до {npc:208620} в {location:Вальдраккене}.'
+L['soa_04_sazsel_note_b'] = 'После оценки верните знамя обратно в сундук и вернитесь к {npc:207697}.'
 
 -- Secrets of Azeroth: Clue 5
 L['soa_05_rlabel'] = '(Загадка 5)'
