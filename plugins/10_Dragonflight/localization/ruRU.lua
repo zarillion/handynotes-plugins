@@ -1009,8 +1009,8 @@ L['bs_tir_location'] = nil
 L['bs_emerald_dragonshrine'] = nil
 L['bs_bronze_dragonshrine'] = nil
 
-L['options_icons_secrets_of_azeroth'] = nil
-L['options_icons_secrets_of_azeroth_desc'] = nil
+L['options_icons_secrets_of_azeroth'] = 'Тайны Азерота'
+L['options_icons_secrets_of_azeroth_desc'] = 'Отображать места подсказок для {location:Тайн Азерота}.'
 
 -- Mimiron's Jumpjets Mount
 L['soa_mjj_list_note'] = nil
