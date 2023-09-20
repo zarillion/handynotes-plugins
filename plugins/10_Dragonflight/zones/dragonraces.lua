@@ -509,8 +509,8 @@ WakingShores.nodes[63327090] = Dragonrace({
     normal = {2042, 66, 64},
     advanced = {2044, 57, 52},
     reverse = {2154, 55, 50},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2421, 57, 54},
+    reverseChallenge = {2422, 60, 57},
     rewards = WakingShores_Rewards(1, 1, 2)
 }) -- Ruby Lifeshrine Loop
 
@@ -519,9 +519,27 @@ WakingShores.nodes[47018558] = Dragonrace({
     normal = {2048, 45, 43},
     advanced = {2049, 45, 40},
     reverse = {2176, 46, 41},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
-    rewards = WakingShores_Rewards(2, 3, 4)
+    challenge = {2423, 51, 48},
+    reverseChallenge = {2424, 52, 49},
+    rewards = {
+        Achievement({id = 15915, criteria = 2, oneline = true}), -- normal bronze
+        Achievement({id = 15916, criteria = 2, oneline = true}), -- normal silver
+        Achievement({id = 15917, criteria = 2, oneline = true}), -- normal gold
+        Achievement({id = 15927, criteria = 2, oneline = true}), -- advanced bronze
+        Achievement({id = 15928, criteria = 2, oneline = true}), -- advanced silver
+        Achievement({id = 15929, criteria = 2, oneline = true}), -- advanced gold
+        Achievement({id = 17195, criteria = 2, oneline = true}), -- reverse bronze
+        Achievement({id = 17196, criteria = 2, oneline = true}), -- reverse silver
+        Achievement({id = 17197, criteria = 2, oneline = true}), -- reverse gold
+        Section(L['dr_challenge']),
+        Achievement({id = 18748, criteria = 15, oneline = true}), -- challenge bronze
+        Achievement({id = 18749, criteria = 3, oneline = true}), -- challenge silver
+        Achievement({id = 18750, criteria = 3, oneline = true}), -- challenge gold
+        Spacer(), Section(L['dr_reverse_challenge']),
+        Achievement({id = 18748, criteria = 16, oneline = true}), -- reverse challenge bronze
+        Achievement({id = 18749, criteria = 4, oneline = true}), -- reverse challenge silver
+        Achievement({id = 18750, criteria = 4, oneline = true}) -- reverse challenge gold
+    }
 }) -- Wild Preserve Slalom
 
 WakingShores.nodes[41976730] = Dragonrace({
@@ -529,8 +547,8 @@ WakingShores.nodes[41976730] = Dragonrace({
     normal = {2052, 53, 47},
     advanced = {2053, 49, 44},
     reverse = {2177, 50, 45},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2425, 53, 50},
+    reverseChallenge = {2426, 54, 51},
     rewards = WakingShores_Rewards(3, 5, 6)
 }) -- Emberflow Flight
 
@@ -539,8 +557,8 @@ WakingShores.nodes[23268430] = Dragonrace({
     normal = {2054, 56, 48},
     advanced = {2055, 50, 45},
     reverse = {2178, 53, 48},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2427, 56, 53},
+    reverseChallenge = {2428, 56, 53},
     rewards = WakingShores_Rewards(4, 7, 8)
 }) -- Apex Canopy River Run
 
@@ -549,8 +567,8 @@ WakingShores.nodes[55454113] = Dragonrace({
     normal = {2056, 48, 43},
     advanced = {2057, 45, 40},
     reverse = {2179, 48, 43},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2429, 49, 46},
+    reverseChallenge = {2430, 51, 48},
     rewards = WakingShores_Rewards(5, 9, 10)
 }) -- Uktulut Coaster
 
@@ -559,8 +577,8 @@ WakingShores.nodes[73203393] = Dragonrace({
     normal = {2058, 56, 53},
     advanced = {2059, 58, 53},
     reverse = {2180, 61, 56},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2431, 63, 60},
+    reverseChallenge = {2432, 63, 60},
     rewards = WakingShores_Rewards(6, 11, 12)
 }) -- Wingrest Roundabout
 
@@ -569,19 +587,37 @@ WakingShores.nodes[62777400] = Dragonrace({
     normal = {2046, 66, 63},
     advanced = {2047, 66, 61},
     reverse = {2181, 65, 60},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2433, 67, 64},
+    reverseChallenge = {2434, 74, 69},
     rewards = WakingShores_Rewards(7, 13, 14)
 }) -- Flashfrost Flyover
 
-WakingShores.nodes[42599443] = Dragonrace({
+WakingShores.nodes[42599445] = Dragonrace({
     label = '{quest:66725}',
     normal = {2050, 43, 41},
     advanced = {2051, 43, 38},
     reverse = {2182, 46, 41},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
-    rewards = WakingShores_Rewards(8, 15, 16)
+    challenge = {2435, 46, 43},
+    reverseChallenge = {2436, 47, 44},
+    rewards = {
+        Achievement({id = 15915, criteria = 8, oneline = true}), -- normal bronze
+        Achievement({id = 15916, criteria = 8, oneline = true}), -- normal silver
+        Achievement({id = 15917, criteria = 8, oneline = true}), -- normal gold
+        Achievement({id = 15927, criteria = 8, oneline = true}), -- advanced bronze
+        Achievement({id = 15928, criteria = 8, oneline = true}), -- advanced silver
+        Achievement({id = 15929, criteria = 8, oneline = true}), -- advanced gold
+        Achievement({id = 17195, criteria = 8, oneline = true}), -- reverse bronze
+        Achievement({id = 17196, criteria = 8, oneline = true}), -- reverse silver
+        Achievement({id = 17197, criteria = 8, oneline = true}), -- reverse gold
+        Section(L['dr_challenge']),
+        Achievement({id = 18748, criteria = 3, oneline = true}), -- challenge bronze
+        Achievement({id = 18749, criteria = 15, oneline = true}), -- challenge silver
+        Achievement({id = 18750, criteria = 15, oneline = true}), -- challenge gold
+        Spacer(), Section(L['dr_reverse_challenge']),
+        Achievement({id = 18748, criteria = 4, oneline = true}), -- reverse challenge bronze
+        Achievement({id = 18749, criteria = 16, oneline = true}), -- reverse challenge silver
+        Achievement({id = 18750, criteria = 16, oneline = true}) -- reverse challenge gold
+    }
 }) -- Wild Preserve Circuit
 
 ------------------------------- ZARALEK CAVERN --------------------------------
