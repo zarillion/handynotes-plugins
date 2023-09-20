@@ -844,7 +844,7 @@ L['options_icons_zone_event_desc'] = 'Отображение мест для с�
 
 -- Secrets of Azeroth: Clue 1
 L['soa_01_rlabel'] = '(Загадка 1)'
-L['soa_01_golden_chalice_note'] = nil
+L['soa_01_golden_chalice_note'] = 'Поместите {item:208056} в {location:Сокровищнице Вальдраккена} в {location:Вальдраккене}.'
 
 -- Secrets of Azeroth: Clue 2
 L['soa_02_rlabel'] = '(Загадка 2)'
