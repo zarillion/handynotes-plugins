@@ -303,8 +303,8 @@ OhnahranPlains.nodes[63743051] = Dragonrace({
     normal = {2060, 52, 44},
     advanced = {2061, 46, 41},
     reverse = {2183, 50, 45},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2437, 54, 51},
+    reverseChallenge = {2439, 53, 50},
     rewards = OhnahranPlains_Rewards(1, 1, 2)
 }) -- Sundapple Copse Circuit
 
@@ -313,7 +313,7 @@ OhnahranPlains.nodes[86263583] = Dragonrace({
     normal = {2062, 51, 44},
     advanced = {2063, 46, 41},
     reverse = {2184, 52, 47},
-    -- challenge = {nil, nil, nil},
+    challenge = {2440, 53, 50},
     reverseChallenge = {2441, 53, 50},
     rewards = OhnahranPlains_Rewards(2, 3, 4)
 }) -- Fen Flythrough
@@ -333,8 +333,8 @@ OhnahranPlains.nodes[25715508] = Dragonrace({
     normal = {2066, 66, 59},
     advanced = {2067, 60, 55},
     reverse = {2186, 62, 57},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2444, 69, 66},
+    reverseChallenge = {2445, 69, 66},
     rewards = OhnahranPlains_Rewards(4, 7, 8)
 }) -- Emerald Garden Ascent
 
