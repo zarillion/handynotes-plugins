@@ -43,11 +43,12 @@ end
 ---------------------------------- CURRENCY -----------------------------------
 -------------------------------------------------------------------------------
 
-local Currency = Class('Currency', Requirement)
+local Currency = Class('Currency', Requirement, {type = L['currency']})
 
 function Currency:Initialize(id, count)
     self.id, self.count = id, count
     self.text = string.format('{currency:%d} x%d', self.id, self.count)
+    self.text = self.text .. ' (' .. self.type .. ')'
 end
 
 function Currency:IsMet()
@@ -95,7 +96,7 @@ end
 ------------------------------------ ITEM -------------------------------------
 -------------------------------------------------------------------------------
 
-local Item = Class('Item', Requirement)
+local Item = Class('Item', Requirement, {type = L['item']})
 
 -- Quality (optional - added in Dragnflight):
 -- 1 = Bronze 1 diamond
@@ -113,6 +114,7 @@ function Item:Initialize(id, count, quality)
     if self.count and self.count > 1 then
         self.text = self.text .. ' x' .. self.count
     end
+    if self.type then self.text = self.text .. ' (' .. self.type .. ')' end
 end
 
 function Item:IsMet() return ns.PlayerHasItem(self.id, self.count) end
@@ -203,7 +205,7 @@ end
 ------------------------------------- TOY -------------------------------------
 -------------------------------------------------------------------------------
 
-local Toy = Class('Toy', Item)
+local Toy = Class('Toy', Item, {type = L['toy']})
 
 function Toy:IsMet() return PlayerHasToy(self.id) end
 

@@ -61,6 +61,7 @@ L['weekly'] = 'Wöchentlich'
 L['normal'] = 'Normal'
 L['hard'] = 'Schwer'
 L['heirloom'] = 'Erbstück'
+L['item'] = nil
 L['mount'] = 'Reittier'
 L['pet'] = 'Haustier'
 L['recipe'] = 'Rezept'

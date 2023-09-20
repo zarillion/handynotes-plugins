@@ -61,6 +61,7 @@ L['weekly'] = '每週'
 L['normal'] = '普通'
 L['hard'] = '困難'
 L['heirloom'] = '傳家寶'
+L['item'] = nil
 L['mount'] = '坐騎'
 L['pet'] = '戰寵'
 L['recipe'] = '配方'
