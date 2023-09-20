@@ -848,7 +848,7 @@ L['surging_lasher_note'] = 'Puede aparece durante el evento {event:Frenesí Esme
 L['in_a_tree'] = 'Encima del árbol.'
 L['inside_building'] = 'En el edificio.'
 
-L['hidden_moonkin_stash_label'] = 'Hidden Moonkin Stash' -- REVIEW NTY
+L['hidden_moonkin_stash_label'] = 'Alijo de Lechúcizo Lunar Oculto'
 
 L['magical_bloom_note'] = 'Ataca a {npc:210544} y persíguelo hasta que revele el tesoro.'
 L['pineshrew_cache_note'] = 'Junto a algunas rocas.'
@@ -858,7 +858,7 @@ L['reliquary_of_goldrinn_note'] = 'Encuentra una {object:Marca de Goldrinn} {dot
 L['reliquary_of_ursol_note'] = 'Encuentra una {object:Marca de Ursol} {dot:Green} cercana para conseguir el buff {spell:423306} e ir a la {npc:210732}.'
 L['triflesnatchs_roving_trove_note'] = 'Sigue a {npc:210060} mientras vuela de rama en rama.'
 
-L['unwaking_echo_label'] = 'Unwaking Echo' -- REVIEW Unwaking Echo NTY
+L['unwaking_echo_label'] = 'Eco del despertar'
 L['unwaking_echo_note'] = '{note:Sólo puedes abrir este cofre en tus sueños.}\n\nTeclea la emoción {emote:/dormir} para dormir junto al cofre y que se abra.'
 
 L['amirdrassil_defenders_shield_note'] = 'En la mesa junto a {npc:211328}.'
