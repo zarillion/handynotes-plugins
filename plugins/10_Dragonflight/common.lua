@@ -610,6 +610,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         ManedHead = Item({item = 197111, quest = 69312}),
         MultiHornedHead = Item({item = 197114, quest = 69315}),
         OrnateHelm = Item({item = 197120, quest = 69321}),
+        PiratesDayArmor = Item({item = 208858, quest = 77875}),
         PlatedHead = Item({item = 197110, quest = 69311}),
         RedScales = Item({item = 197144, quest = 69345}),
         ScaledPattern = Item({item = 197141, quest = 69342}),
