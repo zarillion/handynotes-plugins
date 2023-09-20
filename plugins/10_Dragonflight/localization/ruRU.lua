@@ -848,10 +848,10 @@ L['soa_01_golden_chalice_note'] = 'Поместите {item:208056} в {location
 
 -- Secrets of Azeroth: Clue 2
 L['soa_02_rlabel'] = '(Загадка 2)'
-L['soa_02_kathos_note'] = nil
-L['soa_02_shomko_note_a'] = nil
-L['soa_02_shomko_note_b'] = nil
-L['soa_02_shomko_note_c'] = nil
+L['soa_02_kathos_note'] = 'Поговорите с {npc: 206864}, чтобы получить {item: 207105}.\n\nОтнесите {item:207105} к {npc:186448} в {location:Искару} в {location:Лазурный Простор}.'
+L['soa_02_shomko_note_a'] = 'Поговорите с {npc:186448}, чтобы получить {item:207580}.'
+L['soa_02_shomko_note_b'] = 'Поместите {item:207580} на {object:Ритуальное копье} в {location:Терзающем Биче} в локации {location:Борейская тундра} в {location:Нордсколе}.'
+L['soa_02_shomko_note_c'] = '{note:Обязательно останьтесь и убейте {npc: 208182}, чтобы получить {item:207594}.}'
 
 -- Secrets of Azeroth: Clue 3
 L['soa_03_rlabel'] = '(Загадка 3)'
