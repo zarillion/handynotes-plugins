@@ -990,10 +990,10 @@ L['soa_15_orb_note'] = nil
 L['buried_satchel_note'] = 'Выкопайте {item: 208142} из {object:Кучи рыхлой земли}.'
 L['buried_satchel_sublabel'] = '{note:Это НЕ местоположение {item:208142}.}'
 
-L['bs_epl_location'] = nil
-L['bs_fel_location'] = nil
-L['bs_tho_location'] = nil
-L['bs_smv_location'] = nil
+L['bs_epl_location'] = 'За зданием в {location:Перекрестке Корина}.'
+L['bs_fel_location'] = 'Под водой в центре {location:Оскверненного леса}.'
+L['bs_tho_location'] = 'В подводной пещере под названием {location:оплот Треснувшего Копыта}.'
+L['bs_smv_location'] = 'Внутри пустого дерева в {location:пике Лунной Ивы}.'
 L['bs_net_location'] = nil
 L['bs_vfw_location'] = nil
 L['bs_tas_location'] = nil
