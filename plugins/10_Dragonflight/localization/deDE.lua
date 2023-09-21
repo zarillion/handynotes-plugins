@@ -843,7 +843,7 @@ L['fruitface_note'] = 'Sammle {item:208837} vom Boden auf, damit {npc:209980} er
 L['greedy_gessie_note'] = 'Sammle frische Zutaten wie {object:Wildes Grünzeug}, {object:Rubinschuppenmelone} oder {object:Orangenwurzel} aus der Umgebung und legt diese in die Körbe, damit der seltene Gegner erscheint.'
 L['nuoberon_note'] = nil
 L['reefbreaker_moruud_note'] = 'Befestige alle 6 {npc:210089e} an ihm, um ihn angreifen zu können.'
-L['surging_lasher_note'] = 'Kann während des {event:Emerald Frenzy} Events in diesem Gebiet erscheinen.' -- review event not yet translated
+L['surging_lasher_note'] = 'Kann während des {location:Smaragdraserei} Events in diesem Gebiet erscheinen.'
 
 L['in_a_tree'] = 'Oben im Baum.'
 L['inside_building'] = 'Im Gebäude.'
@@ -858,8 +858,8 @@ L['reliquary_of_goldrinn_note'] = 'Finde ein {object:Mal von Goldrinn} {dot:Gree
 L['reliquary_of_ursol_note'] = 'Finde ein {object:Mal von Ursol} in der Nähe, um den Stärkungszauber {spell:423306} zu erhalten. Begib dich damit zu {npc:210732}.'
 L['triflesnatchs_roving_trove_note'] = 'Folge dem {npc:210060}, während er von Ast zu Ast fliegt.'
 
-L['unwaking_echo_label'] = nil -- review not yet translated
-L['unwaking_echo_note'] = '{note:You can only open this chest in your dreams.}\n\nLeg dich neben der Kiste schlafen {emote:(/schlafen)}, um diese öffnen zu können.' -- review not yet translated
+L['unwaking_echo_label'] = 'Nie erwachendes Echo'
+L['unwaking_echo_note'] = '{note:Ihr könnt diese Kiste nur in Euren Träumen öffnen.}\n\nLeg dich neben der Kiste schlafen {emote:(/schlafen)}, um diese öffnen zu können.'
 
 L['amirdrassil_defenders_shield_note'] = 'Auf dem Tisch neben {npc:211328}.'
 L['dreamtalon_claw_note'] = 'Unten am Stamm des Baumes.'
