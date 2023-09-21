@@ -874,12 +874,12 @@ L['dreamseed_soil_label'] = 'Sol pour graine onirique'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:Sol pour graine onirique} pour le haut-fait {achievement:19013}.'
 
-L['dreamfruit_label'] = nil
-L['dreamfruit_note'] = nil
+L['dreamfruit_label'] = 'Fruit du Rêve'
+L['dreamfruit_note'] = 'Apparaît lorsque l\'événement {location:Superfloraison} commence.'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des bébés séléniens pour le haut-fait {achievement:19293}.'
 
-L['elianna_vendor_note'] = 'Échangez vos {currency:2777} contre des mascottes.'
+L['elianna_vendor_note'] = 'Échangez vos {currency:2777} contre des mascottes et des montures.'
 L['sylvia_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'
 L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
