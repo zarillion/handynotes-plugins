@@ -719,6 +719,45 @@ map.nodes[63504710] = EmeraldBounty({criteriaID = 62032, quest = 77380}) -- Fuzz
 map.nodes[63956483] = EmeraldBounty({criteriaID = 62030, quest = 77224}) -- Dragon's Daffodil
 
 -------------------------------------------------------------------------------
+--------------------------------- DREAMFRUIT ----------------------------------
+-------------------------------------------------------------------------------
+
+-- https://us.forums.blizzard.com/en/wow/t/new-public-events-superbloom-and-emerald-bounty/1674596
+-- There will be up to the total of four available Dreamfruit.
+-- Each individual Dreamfruit during the Superbloom has its own,
+-- unique pool of blessings it can bestow.
+
+local Dreamfruit = Class('Dreamfruit', Collectible,
+    {icon = 5390643, group = ns.groups.DREAMFRUIT})
+
+map.nodes[51265990] = Dreamfruit({
+    rewards = {
+        Achievement({
+            id = 19310,
+            criteria = {
+                -- 62910, -- Basket of Explosive Acorns
+                -- 62911, -- Bubble Blowgun
+                -- 62912, -- Dream Gatherer
+                62913, -- Feral Overflow
+                -- 62914, -- Flower Trail
+                -- 62915, -- Lifesurger
+                -- 62916, -- Memory of L'ghorek
+                -- 62917, -- Memory of Ursoc
+                -- 62918, -- Mighty Roar
+                -- 62919, -- Moonkin Jump
+                62920, -- Moonkin Mayhem
+                -- 62921, -- Potent Lullaby
+                -- 62922, -- Putrid Propulsion
+                62923 -- Sack of Talontreats
+                -- 62924, -- Star Shower
+                -- 62925, -- The Superb Loom
+                -- 62926 -- Wake Up!
+            }
+        })
+    }
+})
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
