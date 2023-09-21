@@ -876,6 +876,9 @@ L['dreamseed_soil_label'] = 'Dreamseed Soil'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Display {object:Dreamseed Soil} locations for {achievement:19013}.'
 
+L['dreamfruit_label'] = 'Dreamfruit'
+L['dreamfruit_note'] = 'Appears when the {location:Superbloom} event begins.'
+
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Display moonkin hatchling locations for {achievement:19293}.'
 

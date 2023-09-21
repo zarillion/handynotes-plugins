@@ -874,6 +874,9 @@ L['dreamseed_soil_label'] = 'Sol pour graine onirique'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:Sol pour graine onirique} pour le haut-fait {achievement:19013}.'
 
+L['dreamfruit_label'] = nil
+L['dreamfruit_note'] = nil
+
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des bébés séléniens pour le haut-fait {achievement:19293}.'
 

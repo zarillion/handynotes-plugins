@@ -727,8 +727,11 @@ map.nodes[63956483] = EmeraldBounty({criteriaID = 62030, quest = 77224}) -- Drag
 -- Each individual Dreamfruit during the Superbloom has its own,
 -- unique pool of blessings it can bestow.
 
-local Dreamfruit = Class('Dreamfruit', Collectible,
-    {icon = 5390643, group = ns.groups.DREAMFRUIT})
+local Dreamfruit = Class('Dreamfruit', Collectible, {
+    icon = 5390643,
+    label = L['dreamfruit_label'],
+    note = L['dreamfruit_note']
+})
 
 map.nodes[51265990] = Dreamfruit({
     rewards = {
@@ -740,7 +743,7 @@ map.nodes[51265990] = Dreamfruit({
                 -- 62912, -- Dream Gatherer
                 62913, -- Feral Overflow
                 -- 62914, -- Flower Trail
-                -- 62915, -- Lifesurger
+                62915, -- Lifesurger
                 -- 62916, -- Memory of L'ghorek
                 -- 62917, -- Memory of Ursoc
                 -- 62918, -- Mighty Roar

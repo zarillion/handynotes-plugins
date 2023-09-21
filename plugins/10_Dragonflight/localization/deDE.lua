@@ -877,6 +877,9 @@ L['dreamseed_soil_label'] = '{npc:210723}' -- Traumsaaterde
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Zeigt die Positionen der {npc:210723} für den Erfolg {achievement:19013} an.'
 
+L['dreamfruit_label'] = 'Traumfrucht'
+L['dreamfruit_note'] = 'Erscheint, wenn das {location:Superblüte} Event beginnt.'
+
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinküken für den Erfolg {achievement:19293} an.'
 
