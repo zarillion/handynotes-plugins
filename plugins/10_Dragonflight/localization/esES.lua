@@ -877,8 +877,8 @@ L['dreamseed_soil_label'] = 'Tierra con Semillas del Sueño'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Muestra dónde están las {object:Tierra con Semillas del Sueño} para el logro {achievement:19013}.'
 
-L['dreamfruit_label'] = 'Dreamfruit' -- REVIEW Dreamfruit
-L['dreamfruit_note'] = 'Aparece cuando empieza el evento {location:Superbloom}.' -- REVIEW Superbloom
+L['dreamfruit_label'] = 'Fruta del Sueño'
+L['dreamfruit_note'] = 'Aparece cuando empieza el evento {location:Superfloración}.'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las proles de lechúcico lunar para el logro {achievement:19293}.'
