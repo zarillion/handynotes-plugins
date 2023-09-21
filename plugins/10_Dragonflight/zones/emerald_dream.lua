@@ -766,6 +766,12 @@ map.nodes[50226180] = NPC({
         Pet({item = 210652, id = 4300, note = '1'}), -- Somnolet
         Pet({item = 210505, id = 4287, note = '1'}), -- Reverie
         Pet({item = 210777, id = 4309, note = '1'}) -- Drowsey
+        -- https://www.wowhead.com/news/translucent-emerald-dream-mounts-in-patch-10-2-335160
+        -- Mount({item = 210831, id = nil, note = nil}), -- Delugen
+        -- Mount({item = 210948, id = nil, note = nil}), -- Imagiwing
+        -- Mount({item = 210946, id = nil, note = nil}), -- Mammyth
+        -- Mount({item = 210945, id = nil, note = nil}), -- Stargrazer
+        -- Mount({item = 210833, id = nil, note = nil}), -- Talont
     }
 }) -- Elianna <Dream Infuser>
 
