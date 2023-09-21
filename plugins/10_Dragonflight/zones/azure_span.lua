@@ -14,6 +14,7 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local AncientStone = ns.node.AncientStone
+local Celestine = ns.node.Celestine
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local ElementalStorm = ns.node.ElementalStorm
@@ -2056,5 +2057,11 @@ map.nodes[58512618] = Collectible({
         Toy({item = 206043}) -- Fyrakk's Frenzy
     }
 }) -- Fyrakk Assault
+
+------------------------------------------------------------------------------
+--------------------------------- DREAMSURGE ---------------------------------
+------------------------------------------------------------------------------
+
+map.nodes[45603972] = Celestine()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
