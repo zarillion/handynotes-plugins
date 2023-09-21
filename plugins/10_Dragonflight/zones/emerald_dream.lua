@@ -237,14 +237,18 @@ map.nodes[61755220] = Rare({
     }
 }) -- Splinterlimb
 
-map.nodes[57015167] = Rare({ -- multiple locations?
+local SurgingLasher = Class('SurgingLasher', Rare, {
     id = 210111,
     quest = 78263,
     note = L['surging_lasher_note'],
+    fgroup = 'SurgingLasher',
     rewards = {
         Achievement({id = 19316, criteria = 62941}) -- Adventurer of the Emerald Dream
     }
 }) -- Surging Lasher
+
+map.nodes[57015167] = SurgingLasher()
+map.nodes[58967188] = SurgingLasher()
 
 local Talthonei = Class('Talthonei', Rare, {
     id = 209902,
@@ -771,7 +775,7 @@ map.nodes[50226180] = NPC({
         Mount({item = 210946, id = 1938, note = '1'}), -- Mammyth
         Mount({item = 210969, id = 1940, note = '1'}), -- Salatrancer
         Mount({item = 210945, id = 1839, note = '1'}), -- Stargrazer
-        Mount({item = 210833, id = 1838, note = '1'}), -- Talont
+        Mount({item = 210833, id = 1838, note = '1'}) -- Talont
     }
 }) -- Elianna <Dream Infuser>
 
