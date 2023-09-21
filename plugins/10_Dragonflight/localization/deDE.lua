@@ -880,6 +880,6 @@ L['options_icons_dream_of_seeds_desc'] = 'Zeigt die Positionen der {npc:210723} 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinküken für den Erfolg {achievement:19293} an.'
 
-L['elianna_vendor_note'] = 'Tausche {currency:2777} gegen Haustiere ein.'
+L['elianna_vendor_note'] = 'Tausche {currency:2777} gegen Reittiere und Haustiere ein.'
 L['sylvia_vendor_note'] = 'Tausche {currency:2651} gegen Reittiere, Haustiere und Ausrüstungsvorlagen ein.'
 L['thaelishar_vendor_note'] = 'Tausche Gold gegen Druidenglyphen ein.'
