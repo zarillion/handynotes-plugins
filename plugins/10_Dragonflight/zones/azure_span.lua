@@ -33,6 +33,7 @@ local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
+local RenewedMagmammoth = ns.node.RenewedMagmammoth
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -2063,5 +2064,6 @@ map.nodes[58512618] = Collectible({
 ------------------------------------------------------------------------------
 
 map.nodes[45603972] = Celestine()
+map.nodes[32663964] = RenewedMagmammoth()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
