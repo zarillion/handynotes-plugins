@@ -53,13 +53,9 @@ function Dragonrace.getters:note()
         if self[race.type] then
             local label = race.label
             local sTime = ns.color.Red('??')
-            if self[race.type][2] then
-                sTime = Silver(self[race.type][2])
-            end
+            if self[race.type][2] then sTime = Silver(self[race.type][2]) end
             local gTime = ns.color.Red('??')
-            if self[race.type][3] then
-                gTime = Gold(self[race.type][3])
-            end
+            if self[race.type][3] then gTime = Gold(self[race.type][3]) end
             txt = txt .. '\n' .. format(note, label, sTime, gTime)
         end
     end
@@ -225,8 +221,8 @@ ForbiddenReach.nodes[76136563] = Dragonrace({
     normal = {2201, 46, 43},
     advanced = {2207, 47, 42},
     reverse = {2213, 47, 42},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2474, nil, 45},
+    reverseChallenge = {2475, nil, 44},
     rewards = ForbiddenReach_Rewards(1, 1, 2)
 }) -- Stormsunder Crater Circuit
 
@@ -235,8 +231,8 @@ ForbiddenReach.nodes[31326573] = Dragonrace({
     normal = {2202, 55, 52},
     advanced = {2208, 54, 49},
     reverse = {2214, 58, 53},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2476, nil, 50},
+    reverseChallenge = {2477, nil, 50},
     rewards = ForbiddenReach_Rewards(2, 3, 4)
 }) -- Morqut Ascent
 
@@ -245,8 +241,8 @@ ForbiddenReach.nodes[63095195] = Dragonrace({
     normal = {2203, 56, 53},
     advanced = {2209, 55, 50},
     reverse = {2215, 55, 50},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2478, nil, 53},
+    reverseChallenge = {2479, nil, 52},
     rewards = ForbiddenReach_Rewards(3, 5, 6)
 }) -- Aerie Chasm Cruise
 
@@ -255,8 +251,8 @@ ForbiddenReach.nodes[63658406] = Dragonrace({
     normal = {2204, 73, 70},
     advanced = {2210, 73, 68},
     reverse = {2216, 68, 63},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2480, nil, 70},
+    reverseChallenge = {2481, nil, 68},
     rewards = ForbiddenReach_Rewards(4, 7, 8)
 }) -- Southern Reach Route
 
@@ -265,8 +261,8 @@ ForbiddenReach.nodes[41361455] = Dragonrace({
     normal = {2205, 61, 58},
     advanced = {2211, 61, 58},
     reverse = {2217, 55, 50},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2482, nil, 55},
+    reverseChallenge = {2483, nil, 53},
     rewards = ForbiddenReach_Rewards(5, 9, 10)
 }) -- Caldera Coaster
 
@@ -275,8 +271,8 @@ ForbiddenReach.nodes[49426006] = Dragonrace({
     normal = {2206, 62, 59},
     advanced = {2212, 61, 58},
     reverse = {2218, 61, 58},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2484, nil, 60},
+    reverseChallenge = {2485, nil, 60},
     rewards = ForbiddenReach_Rewards(6, 11, 12)
 }) -- Forbidden Reach Rush
 
@@ -431,8 +427,8 @@ Thaldraszus.nodes[57777501] = Dragonrace({
     normal = {2080, 52, 49},
     advanced = {2081, 45, 40},
     reverse = {2194, 46, 41},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2462, nil, 47},
+    reverseChallenge = {2463, nil, 46},
     rewards = Thaldraszus_Rewards(1, 1, 2)
 }) -- Flowing Forest Flight
 
@@ -441,8 +437,8 @@ Thaldraszus.nodes[57236690] = Dragonrace({
     normal = {2092, 84, 81},
     advanced = {2093, 80, 75},
     reverse = {2195, 64, 59},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2464, nil, 58},
+    reverseChallenge = {2465, nil, 63},
     rewards = Thaldraszus_Rewards(2, 3, 4)
 }) -- Tyrhold Trial
 
@@ -451,8 +447,8 @@ Thaldraszus.nodes[37654893] = Dragonrace({
     normal = {2096, 72, 69},
     advanced = {2097, 71, 66},
     reverse = {2196, 74, 69},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2466, nil, 81},
+    reverseChallenge = {2467, nil, 80},
     rewards = Thaldraszus_Rewards(3, 5, 6)
 }) -- Cliffside Circuit
 
@@ -461,8 +457,8 @@ Thaldraszus.nodes[60294159] = Dragonrace({
     normal = {2098, 57, 54},
     advanced = {2099, 57, 52},
     reverse = {2197, 58, 53},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2468, nil, 65},
+    reverseChallenge = {2469, nil, 65},
     rewards = Thaldraszus_Rewards(4, 7, 8)
 }) -- Academy Ascent
 
@@ -471,8 +467,8 @@ Thaldraszus.nodes[39517619] = Dragonrace({
     normal = {2101, 64, 61},
     advanced = {2102, 59, 54},
     reverse = {2198, 62, 57},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2470, nil, 60},
+    reverseChallenge = {2471, nil, 64},
     rewards = Thaldraszus_Rewards(5, 9, 10)
 }) -- Garden Gallivant
 
@@ -481,8 +477,8 @@ Thaldraszus.nodes[58053361] = Dragonrace({
     normal = {2103, 53, 50},
     advanced = {2104, 50, 45},
     reverse = {2199, 52, 47},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2472, nil, 56},
+    reverseChallenge = {2473, nil, 54},
     rewards = Thaldraszus_Rewards(6, 11, 12)
 }) -- Caverns Criss-Cross
 
@@ -655,8 +651,8 @@ ZaralekCavern.nodes[38756061] = Dragonrace({
     normal = {2246, 68, 63},
     advanced = {2252, 60, 55},
     reverse = {2258, 57, 52},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2486, nil, 57},
+    reverseChallenge = {2487, nil, 58},
     rewards = ZaralekCavern_Rewards(1, 1, 2)
 }) -- Crystal Circuit
 
@@ -665,8 +661,8 @@ ZaralekCavern.nodes[39054999] = Dragonrace({
     normal = {2247, 80, 75},
     advanced = {2253, 73, 68},
     reverse = {2259, 73, 68},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2488, nil, 72},
+    reverseChallenge = {2489, nil, 72},
     rewards = ZaralekCavern_Rewards(2, 3, 4)
 }) -- Caldera Cruise
 
@@ -675,8 +671,8 @@ ZaralekCavern.nodes[54502371] = Dragonrace({
     normal = {2248, 72, 69},
     advanced = {2254, 69, 64},
     reverse = {2260, 69, 64},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2490, nil, 69},
+    reverseChallenge = {2491, nil, 71},
     rewards = ZaralekCavern_Rewards(3, 5, 6)
 }) -- Brimstone Scramble
 
@@ -685,8 +681,8 @@ ZaralekCavern.nodes[58724503] = Dragonrace({
     normal = {2249, 80, 75},
     advanced = {2255, 75, 70},
     reverse = {2261, 77, 42},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2492, nil, 79},
+    reverseChallenge = {2493, nil, 75},
     rewards = ZaralekCavern_Rewards(4, 7, 8)
 }) -- Shimmering Slalom
 
@@ -695,8 +691,8 @@ ZaralekCavern.nodes[58155759] = Dragonrace({
     normal = {2250, 60, 55},
     advanced = {2256, 55, 50},
     reverse = {2262, 53, 48},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2494, nil, 53},
+    reverseChallenge = {2495, nil, 52},
     rewards = ZaralekCavern_Rewards(5, 9, 10)
 }) -- Zaralek Zigzag
 
@@ -705,8 +701,8 @@ ZaralekCavern.nodes[51264667] = Dragonrace({
     normal = {2251, 67, 64},
     advanced = {2257, 62, 57},
     reverse = {2263, 62, 57},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2496, nil, 67},
+    reverseChallenge = {2497, nil, 65},
     rewards = ZaralekCavern_Rewards(6, 11, 12)
 }) -- Sulfur Sprint
 
