@@ -104,6 +104,7 @@ L['dr_challenge'] = 'Défi'
 L['dr_reverse_challenge'] = 'Défi inversé'
 L['dr_bronze'] = 'Terminez la course pour obtenir ' .. ns.color.Bronze('Bronze') .. '.'
 L['dr_vendor_note'] = 'Échangez vos {currency:2588} contre des manuscrits guette-drake et des objets de transmogrification.'
+L['dr_rostrum_note'] = nil
 L['options_icons_dragonrace'] = 'Courses du Vol à dos de dragon'
 L['options_icons_dragonrace_desc'] = 'Afficher les emplacements de toutes les courses dans la zone.'
 

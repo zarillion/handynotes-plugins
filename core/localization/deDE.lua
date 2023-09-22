@@ -104,6 +104,7 @@ L['dr_challenge'] = 'Herausforderung'
 L['dr_reverse_challenge'] = 'Umgekehrte Herausforderung'
 L['dr_bronze'] = 'Beende das Rennen um ' .. ns.color.Bronze('Bronze') .. ' zu erhalten.'
 L['dr_vendor_note'] = 'Tausche {currency:2588} gegen Drachenanpassungen und Ausrüstungsvorlagen ein.'
+L['dr_rostrum_note'] = nil
 L['options_icons_dragonrace'] = 'Drachenrennen'
 L['options_icons_dragonrace_desc'] = 'Zeigt die Positionen der Drachenrennen an.'
 

@@ -16,6 +16,19 @@ local Transmog = ns.reward.Transmog
 local DC = ns.DRAGON_CUSTOMIZATIONS
 
 -------------------------------------------------------------------------------
+
+local AzureSpan = ns.maps[2024]
+local ForbiddenReach = ns.maps[2151]
+local OhnahranPlains = ns.maps[2023]
+local Thaldraszus = ns.maps[2025]
+local WakingShores = ns.maps[2022]
+local ZaralekCavern = ns.maps[2133]
+
+local Orgimmar = ns.maps[85] or Map({id = 85, settings = true})
+local Stormwind = ns.maps[84] or Map({id = 84, settings = true})
+local Valdrakken = ns.maps[2112] or Map({id = 2112, settings = true})
+
+-------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -53,9 +66,13 @@ function Dragonrace.getters:note()
         if self[race.type] then
             local label = race.label
             local sTime = ns.color.Red('??')
-            if self[race.type][2] then sTime = Silver(self[race.type][2]) end
+            if self[race.type][2] then
+                sTime = Silver(self[race.type][2])
+            end
             local gTime = ns.color.Red('??')
-            if self[race.type][3] then gTime = Gold(self[race.type][3]) end
+            if self[race.type][3] then
+                gTime = Gold(self[race.type][3])
+            end
             txt = txt .. '\n' .. format(note, label, sTime, gTime)
         end
     end
@@ -65,10 +82,6 @@ end
 -------------------------------------------------------------------------------
 ---------------------------- DRAGONRIDING VENDORS -----------------------------
 -------------------------------------------------------------------------------
-
-local valdrakken = ns.maps[2112] or Map({id = 2112, settings = true}) -- Valdrakken
-local stormwind = ns.maps[84] or Map({id = 84, settings = true}) -- Stormwind City
-local orgimmar = ns.maps[85] or Map({id = 85, settings = true}) -- Orgimmar
 
 local DragonridingVendor = Class('DragonridingVendor', NPC, {
     icon = 4638724,
@@ -88,25 +101,77 @@ local DragonridingVendor = Class('DragonridingVendor', NPC, {
     }
 }) -- Dragonriding Vendor
 
-valdrakken.nodes[27004760] = DragonridingVendor({id = 206744}) -- Maztha <Riders of Azeroth>
+Orgimmar.nodes[52006000] = DragonridingVendor({
+    id = 212027, -- Dathendrash (Horde)
+    faction = 'Horde'
+})
 
-stormwind.nodes[59806620] = DragonridingVendor({
-    id = 212027,
+Stormwind.nodes[59806620] = DragonridingVendor({
+    id = 212027, -- Dathendrash (Alliance)
     faction = 'Alliance'
-}) -- Dathendrash <Riders of Azeroth>
+})
 
-orgimmar.nodes[52006000] = DragonridingVendor({id = 212027, faction = 'Horde'}) -- Dathendrash <Riders of Azeroth>
+Valdrakken.nodes[27004760] = DragonridingVendor({
+    id = 206744 -- Maztha
+})
+
+-------------------------------------------------------------------------------
+-------------------------- ROSTRUM OF TRANSFORMATION --------------------------
+-------------------------------------------------------------------------------
+
+local RostrumOfTransformation = Class('RostrumOfTransformation', NPC, {
+    id = 198464,
+    group = ns.groups.DRAGONRACE,
+    note = L['dr_rostrum_note']
+}) -- Rostrum of Transformation
+
+WakingShores.nodes[74035813] = RostrumOfTransformation({
+    icon = 254288,
+    rewards = {
+        Achievement({id = 16696}), -- Renewed Proto-Drake Drake Armor
+        Achievement({id = 16697}), -- Renewed Proto-Drake Head Featuers
+        Achievement({id = 16698}), -- Renewed Proto-Drake Tail Features
+        Achievement({id = 16699}), -- Renewed Proto-Drake Scales and Patterns
+        Achievement({id = 16700}) -- Renewed Proto-Drake Horns and Hair
+    }
+})
+
+OhnahranPlains.nodes[84643555] = RostrumOfTransformation({
+    icon = 254290,
+    rewards = {
+        Achievement({id = 16701}), -- Windborne Velocidrake Scales and Patterns
+        Achievement({id = 16702}), -- Windborne Velocidrake Armor
+        Achievement({id = 16704}), -- Windborne Velocidrake Horns and Fur
+        Achievement({id = 16705}), -- Windborne Velocidrake Head Features
+        Achievement({id = 16706}) -- Windborne Velocidrake Back and Tail
+    }
+})
+
+AzureSpan.nodes[63611321] = RostrumOfTransformation({
+    icon = 254291,
+    rewards = {
+        Achievement({id = 16707}), -- Highland Drake Scales and Patterns
+        Achievement({id = 16708}), -- Highland Drake Armor
+        Achievement({id = 16710}), -- Highland Drake Horns and Hair
+        Achievement({id = 16711}), -- Highland Drake Back and Tail
+        Achievement({id = 16712}) -- Highland Drake Head Features
+    }
+})
+
+Valdrakken.nodes[25245033] = RostrumOfTransformation({
+    icon = 254289,
+    rewards = {
+        Achievement({id = 16723}), -- Cliffside Wylderdrake Scales and Patterns
+        Achievement({id = 16724}), -- Cliffside Wylderdrake Armor
+        Achievement({id = 16725}), -- Cliffside Wylderdrake Horns and Manes
+        Achievement({id = 16726}), -- Cliffside Wylderdrake Back and Tail
+        Achievement({id = 16727}) -- Cliffside Wylderdrake Head Features
+    }
+})
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
-
-local AzureSpan = ns.maps[2024]
-local ForbiddenReach = ns.maps[2151]
-local OhnahranPlains = ns.maps[2023]
-local Thaldraszus = ns.maps[2025]
-local WakingShores = ns.maps[2022]
-local ZaralekCavern = ns.maps[2133]
 
 --------------------------------- AZURE SPAN ----------------------------------
 
