@@ -52,8 +52,14 @@ function Dragonrace.getters:note()
     for _, race in ipairs(DRAGONRIDING_RACE_TYPES) do
         if self[race.type] then
             local label = race.label
-            local sTime = Silver(self[race.type][2])
-            local gTime = Gold(self[race.type][3])
+            local sTime = ns.color.Red('??')
+            if self[race.type][2] then
+                sTime = Silver(self[race.type][2])
+            end
+            local gTime = ns.color.Red('??')
+            if self[race.type][3] then
+                gTime = Gold(self[race.type][3])
+            end
             txt = txt .. '\n' .. format(note, label, sTime, gTime)
         end
     end
@@ -135,8 +141,8 @@ AzureSpan.nodes[47914078] = Dragonrace({
     normal = {2074, 66, 63},
     advanced = {2075, 63, 58},
     reverse = {2188, 65, 60},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2450, 70, 67},
+    reverseChallenge = {2451, 72, 69},
     rewards = AzureSpan_Rewards(1, 1, 2)
 }) -- Azure Span Sprint
 
@@ -145,8 +151,8 @@ AzureSpan.nodes[20952262] = Dragonrace({
     normal = {2076, 61, 58},
     advanced = {2077, 61, 56},
     reverse = {2189, 58, 53},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2452, 58, 55},
+    reverseChallenge = {2453, 58, 55},
     rewards = AzureSpan_Rewards(2, 3, 4)
 }) -- Azure Span Slalom
 
@@ -155,8 +161,8 @@ AzureSpan.nodes[71292464] = Dragonrace({
     normal = {2078, 61, 58},
     advanced = {2079, 61, 56},
     reverse = {2190, 61, 56},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2454, nil, 63},
+    reverseChallenge = {2455, nil, 64},
     rewards = AzureSpan_Rewards(3, 5, 6)
 }) -- Vakthros Ascent
 
@@ -165,8 +171,8 @@ AzureSpan.nodes[16584937] = Dragonrace({
     normal = {2083, 78, 75},
     advanced = {2084, 75, 70},
     reverse = {2191, 72, 67},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2456, 81, 78},
+    reverseChallenge = {2457, 82, 79},
     rewards = AzureSpan_Rewards(4, 7, 8)
 }) -- Iskaara Tour
 
@@ -175,8 +181,8 @@ AzureSpan.nodes[48473579] = Dragonrace({
     normal = {2085, 79, 76},
     advanced = {2086, 77, 72},
     reverse = {2192, 74, 69},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2458, 88, 85},
+    reverseChallenge = {2459, 86, 83},
     rewards = AzureSpan_Rewards(5, 9, 10)
 }) -- Frostland Flyover
 
@@ -185,8 +191,8 @@ AzureSpan.nodes[42275677] = Dragonrace({
     normal = {2089, 94, 91},
     advanced = {2090, 86, 81},
     reverse = {2193, 81, 76},
-    -- challenge = {nil, nil, nil},
-    -- reverseChallenge = {nil, nil, nil},
+    challenge = {2460, 93, 90},
+    reverseChallenge = {2461, nil, 92},
     rewards = AzureSpan_Rewards(6, 11, 12)
 }) -- Archive Ambit
 
