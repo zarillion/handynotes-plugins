@@ -882,6 +882,8 @@ L['dreamfruit_note'] = nil
 L['options_icons_moonkin_hatchling'] = nil
 L['options_icons_moonkin_hatchling_desc'] = nil
 
+L['pollenfused_bristlebruin_fur_sample_note'] = nil
+
 L['mbc_note_start'] = nil
 L['mbc_note_end'] = nil
 

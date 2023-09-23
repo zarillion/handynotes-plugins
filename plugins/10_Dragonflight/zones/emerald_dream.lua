@@ -34,6 +34,16 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 local map = Map({id = 2200, settings = true})
 
 -------------------------------------------------------------------------------
+
+local Dragonblight = ns.maps[115] or Map({id = 115, settings = true})
+local Dreamgrove = ns.maps[747] or Map({id = 747, settings = true})
+local Duskwood = ns.maps[47] or Map({id = 47, settings = true})
+local Moonglade = ns.maps[80] or Map({id = 80, settings = true})
+local Stormshield = ns.maps[622] or Map({id = 622, settings = true})
+local TerokkarForest = ns.maps[108] or Map({id = 108, settings = true})
+local Warspear = ns.maps[624] or Map({id = 624, settings = true})
+
+-------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
@@ -146,7 +156,8 @@ map.nodes[40294916] = Rare({
     rewards = {
         Achievement({id = 19316, criteria = 62943}), -- Adventurer of the Emerald Dream
         Transmog({item = 210128, slot = L['2h_sword']}), -- Autumn Defender's Claymore
-        Recipe({item = 210173, profession = 333}) -- Formula: Enchanted Whelpling's Dreaming Crest
+        Recipe({item = 210173, profession = 333}), -- Formula: Enchanted Whelpling's Dreaming Crest
+        Item({item = 210650, quest = nil, class = 'DRUID'}) -- Mark of the Keen-Eyed Dreamsaber
     },
     pois = {Path({40294916, 39214992, 39535168, 40865209, 40545087, 40294916})}
 }) -- Keen-eyed Cian
@@ -183,6 +194,7 @@ map.nodes[40467258] = Rare({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62942}), -- Adventurer of the Emerald Dream
+        Item({item = 210729, quest = nil, class = 'DRUID'}), -- Mark of the Verdant Bristlebruin
         Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {POI({38817158})} -- Entrance
@@ -193,7 +205,8 @@ map.nodes[54953674] = Rare({
     quest = 77940,
     note = L['in_small_cave'],
     rewards = {
-        Achievement({id = 19316, criteria = 62949}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62949}), -- Adventurer of the Emerald Dream
+        Item({item = 210647, quest = nil, class = 'DRUID'}) -- Mark of the Umbramane
     }
 }) -- Mosa Umbramane
 
@@ -213,6 +226,7 @@ map.nodes[44473929] = Rare({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62951}), -- Adventurer of the Emerald Dream
+        Item({item = 210674, quest = nil, class = 'DRUID'}), -- Mark of the Sable Dreamtalon
         Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {
@@ -762,15 +776,79 @@ map.nodes[51265990] = Dreamfruit({
 
 -------------------------------------------------------------------------------
 -------------------------------- DRUID GLYPHS ---------------------------------
--------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
-local Dragonblight = ns.maps[115] or Map({id = 115, settings = true})
-local Dreamgrove = ns.maps[747] or Map({id = 747, settings = true})
-local Duskwood = ns.maps[47] or Map({id = 47, settings = true})
-local Moonglade = ns.maps[80] or Map({id = 80, settings = true})
-local Stormshield = ns.maps[622] or Map({id = 622, settings = true})
-local TerokkarForest = ns.maps[108] or Map({id = 108, settings = true})
-local Warspear = ns.maps[624] or Map({id = 624, settings = true})
+-- BLANCE DRUID FORMS
+-- [ ] ??
+
+-- FERAL DRUID FORMS
+-- [X] Mark of the Evergreen Dreamsaber (Silent Mark of the Dreamsaber)
+-- [X] Mark of the Keen-Eyed Dreamsaber
+-- [X] Moon-Blessed Claw
+
+-- [ ] Fire kitty form (Fandral's Seed Pouch (Toy))
+
+-- GUARDIAN DRUID FORMS
+-- [X] Mark of the Umbramane
+-- [ ] Mark of the Snowy Umbraclaw
+-- [X] Mark of the Lamy Umbraclaw (Silent Mark of the Umbraclaw)
+
+-- [ ] Mark of the Hibernating Runebear (Aurostor, the Hibernating?)
+
+-- [X] Pollenfused Bristlebruin Fur Sample
+-- [X] Mark of the Verdant Bristlebruin
+
+-- DRUID TRAVEL FORMS
+-- [X] Mark of the Thriving Dreamtalon (Silent Mark of the Dreamtalon)
+-- [X] Mark of the Sable Dreamtalon
+-- [X] Mark of the Dreamtalon Matriarch
+
+-- [ ] Mark of the Smoldering Dreamstag
+-- [ ] Mark of the Auric Dreamstag
+-- [X] Mark of the Lush Dreamstag (Silent Mark of the Dreamstag)
+
+-- DRUID FLIGHT FORMS
+-- [ ] Mark of the Slumbering Somnowl
+-- [ ] Soft Somnowl Feathers
+-- [ ] Feather of Friends (![The Answers You've Earned]?)
+-- [ ] Feather of the Blazing Somnowl (Tindral Sagswift, Seer of the Flame?)
+
+-- [X] Whiskerfish (Dreamfish Egg?)
+
+map.nodes[60341694] = NPC({
+    id = 212903,
+    icon = 'peg_bl',
+    scale = 2.0,
+    class = 'DRUID',
+    note = L['thaelishar_vendor_note'],
+    rewards = {
+        Item({item = 210764, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamtalon
+        Item({item = 210767, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamstag
+        Item({item = 210755, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamsaber
+        Item({item = 210766, note = '500', quest = nil, class = 'DRUID'}) -- Silent Mark of the Umbraclaw
+    }
+}) -- Thaelishar Groveheard <Fauna Specialist>
+
+map.nodes[63743916] = Collectible({
+    label = '{item:210727}',
+    icon = 237422,
+    note = L['pollenfused_bristlebruin_fur_sample_note'],
+    class = 'DRUID',
+    rewards = {
+        Item({item = 210727, quest = 78518, class = 'DRUID'}) -- Pollenfused Bristlebruin Fur Sample
+    }
+}) -- Pollenfused Bristlebruin Fur Sample
+
+map.nodes[40519008] = Collectible({
+    label = '{npc:211300}',
+    icon = 4559240,
+    class = 'DRUID',
+    note = 'PH',
+    rewards = {
+        Item({item = 210753, quest = nil, class = 'DRUID'}) -- Scale of the Prismatic Whiskerfish
+    },
+    IsEnabled = function() return true end
+}) -- Dreamfish Egg
 
 local EMPTY_VIALS = {
     [1] = {
@@ -923,20 +1001,6 @@ end
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
-
-map.nodes[60341694] = NPC({
-    id = 212903,
-    icon = 'peg_bl',
-    scale = 2.0,
-    class = 'DRUID',
-    note = L['thaelishar_vendor_note'],
-    rewards = {
-        Item({item = 210764, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamtalon
-        Item({item = 210767, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamstag
-        Item({item = 210755, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamsaber
-        Item({item = 210766, note = '500', quest = nil, class = 'DRUID'}) -- Silent Mark of the Umbraclaw
-    }
-}) -- Thaelishar Groveheard <Fauna Specialist>
 
 map.nodes[59761689] = NPC({
     id = 211265,
