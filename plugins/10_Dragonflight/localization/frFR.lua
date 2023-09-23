@@ -884,27 +884,27 @@ L['dreamfruit_note'] = 'Apparaît lorsque l\'événement {location:Superfloraiso
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des bébés séléniens pour le haut-fait {achievement:19293}.'
 
-L['pollenfused_bristlebruin_fur_sample_note'] = nil
+L['pollenfused_bristlebruin_fur_sample_note'] = 'Récupérez l\'{object:Échantillon de fourrure d\'hoursute amalgamée de pollen} trouvé au pied de l\'arbre à {location:La Calcination}.'
 
-L['mbc_note_start'] = nil
-L['mbc_note_end'] = nil
+L['mbc_note_start'] = 'Récupérez la {object:Small Box of Vials} pour recevoir la {item:210991}.\n\nVous obtiendrez 6x {item:210839} qui doivent être remplies avec de l\'eau du puits de lune provenant de chaque continent.' -- review NYT
+L['mbc_note_end'] = 'Combinez les 6x {item:210876} pour créer la {item:210977} et apportez-la jusqu\'à la {object:Feral Dreamstone} près d\'{location:Amirdrassil}.\n\nUtilisez la {item:210977} et récupérez la {object:Griffe bénie par la Lune} pour recevoir la {item:210728}.' -- review NYT
 
-L['mbc_vial_b'] = nil
-L['mbc_vial_d'] = nil
-L['mbc_vial_e'] = nil
-L['mbc_vial_k'] = nil
-L['mbc_vial_n'] = nil
-L['mbc_vial_o'] = nil
+L['mbc_vial_b'] = 'I' -- review NYT
+L['mbc_vial_d'] = 'D'
+L['mbc_vial_e'] = 'R' -- review NYT
+L['mbc_vial_k'] = 'K'
+L['mbc_vial_n'] = 'N'
+L['mbc_vial_o'] = 'O'
 
-L['mbc_vial_e_location'] = nil
-L['mbc_vial_k_location'] = nil
-L['mbc_vial_n_location'] = nil
-L['mbc_vial_o_location'] = nil
+L['mbc_vial_e_location'] = 'Bosquet crépusculaire'
+L['mbc_vial_k_location'] = 'Refuge des saisons de Malfurion'
+L['mbc_vial_n_location'] = 'Repos des étoiles'
+L['mbc_vial_o_location'] = 'Refuge Cénarien'
 
-L['mbc_vial_location'] = nil
+L['mbc_vial_location'] = 'Remplissez la {item:%d} avec de l\'eau du puits de lune au {location:%s} dans la zone {location:%s} du continent {location:%s} pour recevoir la {item:%d}.' -- review NYT
 
-L['mbc_moonwell_label'] = nil
-L['mbc_feral_dreamstone_label'] = nil
+L['mbc_moonwell_label'] = 'Puits de lune'
+L['mbc_feral_dreamstone_label'] = nil -- review NYT
 
 L['elianna_vendor_note'] = 'Échangez vos {currency:2777} contre des mascottes et des montures.'
 L['sylvia_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'
