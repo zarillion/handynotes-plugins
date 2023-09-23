@@ -890,7 +890,7 @@ L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinkü
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Auf dem Boden vor dem Baum.'
 
 L['mbc_note_start'] = 'Plündere die {object:Small Box of Vials}, um {item:210991} zu erhalten.\n\nDu bekommst 6x {item:210839}, die mit Wasser aus einem Mondbrunnen von sechs Kontinenten gefüllt werden müssen.' -- review not yet translated
-L['mbc_note_end'] = 'Kombiniere alle 6x {item:210876}, um {item:210977} herzustellen und bringe es zum {object:Feral Dreamstone} in der Nähe von {location:Amirdrassil}.\n\nBenutze {item:210977} und plündere {object:Moon-Blessed Claw}, um die {item:210728} zu erhalten.'  -- review not yet translated
+L['mbc_note_end'] = 'Kombiniere alle 6x {item:210876}, um {item:210977} herzustellen und bringe es zum {object:Feral Dreamstone} in der Nähe von {location:Amirdrassil}.\n\nBenutze {item:210977} und plündere {object:Moon-Blessed Claw}, um die {item:210728} zu erhalten.' -- review not yet translated
 
 L['mbc_vial_b'] = 'V' -- review not yet translated
 L['mbc_vial_d'] = 'D'
