@@ -45,7 +45,7 @@ L['requirement_not_found'] = 'Requirement location unknown!'
 L['multiple_spawns'] = 'Can appear in multiple locations.'
 L['shared_drops'] = 'Shared Drops'
 
-L['Requires'] = 'Requires'
+L['requires'] = 'Requires'
 L['ranked_research'] = '%s (Rank %d/%d)'
 
 L['focus'] = 'Focus'
