@@ -887,27 +887,27 @@ L['dreamfruit_note'] = 'Erscheint, wenn das {location:Superblüte} Event beginnt
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinküken für den Erfolg {achievement:19293} an.'
 
-L['pollenfused_bristlebruin_fur_sample_note'] = nil
+L['pollenfused_bristlebruin_fur_sample_note'] = 'Auf dem Boden vor dem Baum.'
 
-L['mbc_note_start'] = nil
-L['mbc_note_end'] = nil
+L['mbc_note_start'] = 'Plündere die {object:Small Box of Vials}, um {item:210991} zu erhalten.\n\nDu bekommst 6x {item:210839}, die mit Wasser aus einem Mondbrunnen von sechs Kontinenten gefüllt werden müssen.' -- review not yet translated
+L['mbc_note_end'] = 'Kombiniere alle 6x {item:210876}, um {item:210977} herzustellen und bringe es zum {object:Feral Dreamstone} in der Nähe von {location:Amirdrassil}.\n\nBenutze {item:210977} und plündere {object:Moon-Blessed Claw}, um die {item:210728} zu erhalten.'  -- review not yet translated
 
-L['mbc_vial_b'] = nil
-L['mbc_vial_d'] = nil
-L['mbc_vial_e'] = nil
-L['mbc_vial_k'] = nil
-L['mbc_vial_n'] = nil
-L['mbc_vial_o'] = nil
+L['mbc_vial_b'] = 'V' -- review not yet translated
+L['mbc_vial_d'] = 'D'
+L['mbc_vial_e'] = 'Ö' -- review not yet translated
+L['mbc_vial_k'] = 'K'
+L['mbc_vial_n'] = 'N'
+L['mbc_vial_o'] = 'S' -- review not yet translated
 
-L['mbc_vial_e_location'] = nil
-L['mbc_vial_k_location'] = nil
-L['mbc_vial_n_location'] = nil
-L['mbc_vial_o_location'] = nil
+L['mbc_vial_e_location'] = 'Zwielichtshain'
+L['mbc_vial_k_location'] = 'Sturmgrimms Grabhügel'
+L['mbc_vial_n_location'] = 'Sternruh'
+L['mbc_vial_o_location'] = 'Cenariusdickicht'
 
-L['mbc_vial_location'] = nil
+L['mbc_vial_location'] = 'Fülle die {item:%d} mit Wasser aus dem Mondbrunnen in {location:%s} ({location:%s}, {location:%s}), um eine {item:%d} zu erhalten.' -- review not yet translated
 
-L['mbc_moonwell_label'] = nil
-L['mbc_feral_dreamstone_label'] = nil
+L['mbc_moonwell_label'] = 'Mondbrunnen'
+L['mbc_feral_dreamstone_label'] = nil -- review not yet translated
 
 L['elianna_vendor_note'] = 'Tausche {currency:2777} gegen Reittiere und Haustiere ein.'
 L['sylvia_vendor_note'] = 'Tausche {currency:2651} gegen Reittiere, Haustiere und Ausrüstungsvorlagen ein.'
