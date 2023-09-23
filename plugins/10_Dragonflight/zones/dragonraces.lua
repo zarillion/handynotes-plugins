@@ -512,8 +512,8 @@ Thaldraszus.nodes[37654893] = Dragonrace({
     normal = {2096, 72, 69},
     advanced = {2097, 71, 66},
     reverse = {2196, 74, 69},
-    challenge = {2466, nil, 81},
-    reverseChallenge = {2467, nil, 80},
+    challenge = {2466, 84, 81},
+    reverseChallenge = {2467, 83, 80},
     rewards = Thaldraszus_Rewards(3, 5, 6)
 }) -- Cliffside Circuit
 
