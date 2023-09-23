@@ -882,6 +882,26 @@ L['dreamfruit_note'] = nil
 L['options_icons_moonkin_hatchling'] = nil
 L['options_icons_moonkin_hatchling_desc'] = nil
 
+L['mbc_note_start'] = nil
+L['mbc_note_end'] = nil
+
+L['mbc_vial_b'] = nil
+L['mbc_vial_d'] = nil
+L['mbc_vial_e'] = nil
+L['mbc_vial_k'] = nil
+L['mbc_vial_n'] = nil
+L['mbc_vial_o'] = nil
+
+L['mbc_vial_e_location'] = nil
+L['mbc_vial_k_location'] = nil
+L['mbc_vial_n_location'] = nil
+L['mbc_vial_o_location'] = nil
+
+L['mbc_vial_location'] = nil
+
+L['mbc_moonwell_label'] = nil
+L['mbc_feral_dreamstone_label'] = nil
+
 L['elianna_vendor_note'] = nil
 L['sylvia_vendor_note'] = nil
 L['thaelishar_vendor_note'] = nil

@@ -883,6 +883,26 @@ L['dreamfruit_note'] = 'Erscheint, wenn das {location:Superblüte} Event beginnt
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinküken für den Erfolg {achievement:19293} an.'
 
+L['mbc_note_start'] = nil
+L['mbc_note_end'] = nil
+
+L['mbc_vial_b'] = nil
+L['mbc_vial_d'] = nil
+L['mbc_vial_e'] = nil
+L['mbc_vial_k'] = nil
+L['mbc_vial_n'] = nil
+L['mbc_vial_o'] = nil
+
+L['mbc_vial_e_location'] = nil
+L['mbc_vial_k_location'] = nil
+L['mbc_vial_n_location'] = nil
+L['mbc_vial_o_location'] = nil
+
+L['mbc_vial_location'] = nil
+
+L['mbc_moonwell_label'] = nil
+L['mbc_feral_dreamstone_label'] = nil
+
 L['elianna_vendor_note'] = 'Tausche {currency:2777} gegen Reittiere und Haustiere ein.'
 L['sylvia_vendor_note'] = 'Tausche {currency:2651} gegen Reittiere, Haustiere und Ausrüstungsvorlagen ein.'
 L['thaelishar_vendor_note'] = 'Tausche Gold gegen Druidenglyphen ein.'

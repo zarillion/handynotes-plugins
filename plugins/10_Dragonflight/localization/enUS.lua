@@ -882,6 +882,26 @@ L['dreamfruit_note'] = 'Appears when the {location:Superbloom} event begins.'
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Display moonkin hatchling locations for {achievement:19293}.'
 
+L['mbc_note_start'] = 'Loot the {object:Small Box of Vials} to recieve the {item:210991}.\n\nYou will recieve 6x {item:210839} that need to be filled with moonwell water from each continent.'
+L['mbc_note_end'] = 'Combine all 6x {item:210876} to create {item:210977} and bring it to the {object:Feral Dreamstone} near {location:Amirdrissil}.\n\nUse the {item:210977} and loot the {object:Moon-Blessed Claw} to receive the {item:210728}.'
+
+L['mbc_vial_b'] = 'B'
+L['mbc_vial_d'] = 'D'
+L['mbc_vial_e'] = 'E'
+L['mbc_vial_k'] = 'K'
+L['mbc_vial_n'] = 'N'
+L['mbc_vial_o'] = 'O'
+
+L['mbc_vial_e_location'] = 'Twighlight Gove'
+L['mbc_vial_k_location'] = 'Stormrage Barrow Den'
+L['mbc_vial_n_location'] = 'Star\'s Rest'
+L['mbc_vial_o_location'] = 'Cenarion Refuge'
+
+L['mbc_vial_location'] = 'Fill the {item:%d} with water from the moonwell in {location:%s} in {location:%s} in {location:%s} to recieve {item:%d}.'
+
+L['mbc_moonwell_label'] = 'Moonwell'
+L['mbc_feral_dreamstone_label'] = 'Feral Dreamstone'
+
 L['elianna_vendor_note'] = 'Exchange {currency:2777} for pets and mounts.'
 L['sylvia_vendor_note'] = 'Exchange {currency:2651} for pets, mounts, and transmog.'
 L['thaelishar_vendor_note'] = 'Exchange gold for Druid glyphs.'

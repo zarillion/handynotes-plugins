@@ -761,6 +761,166 @@ map.nodes[51265990] = Dreamfruit({
 })
 
 -------------------------------------------------------------------------------
+-------------------------------- DRUID GLYPHS ---------------------------------
+-------------------------------------------------------------------------------
+
+local Dragonblight = ns.maps[115] or Map({id = 115, settings = true})
+local Dreamgrove = ns.maps[747] or Map({id = 747, settings = true})
+local Duskwood = ns.maps[47] or Map({id = 47, settings = true})
+local Moonglade = ns.maps[80] or Map({id = 80, settings = true})
+local Stormshield = ns.maps[622] or Map({id = 622, settings = true})
+local TerokkarForest = ns.maps[108] or Map({id = 108, settings = true})
+local Warspear = ns.maps[624] or Map({id = 624, settings = true})
+
+local EMPTY_VIALS = {
+    [1] = {
+        coordinates = 49143328,
+        location = L['mbc_vial_e_location'],
+        rlabel = L['mbc_vial_e'],
+        map = Duskwood,
+        parentMapID = 13,
+        parent = {13}, -- Eastern Kingdoms
+        vialEmptyID = 210836,
+        vialFilledID = 210875
+    },
+    [2] = {
+        coordinates = 68016022,
+        location = L['mbc_vial_k_location'],
+        rlabel = L['mbc_vial_k'],
+        map = Moonglade,
+        parentMapID = 12,
+        parent = {12}, -- Kalimdor
+        vialEmptyID = 210835,
+        vialFilledID = 210874
+    },
+    [3] = {
+        coordinates = 45132359,
+        location = L['mbc_vial_o_location'],
+        rlabel = L['mbc_vial_o'],
+        map = TerokkarForest,
+        parentMapID = 101,
+        parent = {101}, -- Outland
+        vialEmptyID = 210837,
+        vialFilledID = 210876
+    },
+    [4] = {
+        coordinates = 29385567,
+        location = L['mbc_vial_n_location'],
+        map = Dragonblight,
+        parentMapID = 113,
+        parent = {113}, -- Northrend
+        rlabel = L['mbc_vial_n'],
+        vialEmptyID = 210838,
+        vialFilledID = 210877
+    },
+    [5] = {
+        coordinates = 65735980,
+        faction = 'Alliance',
+        location = C_Map.GetMapInfo(Stormshield.id).name,
+        map = Stormshield,
+        parentMapID = 572,
+        zoneID = 588,
+        parent = {572, 588}, -- Draenor, Ashran
+        rlabel = L['mbc_vial_d'],
+        vialEmptyID = 210839,
+        vialFilledID = 210879
+    },
+    [6] = {
+        coordinates = 50005000, -- TODO: GET HORDE COORDINATES
+        faction = 'Horde',
+        location = C_Map.GetMapInfo(Warspear.id).name,
+        map = Warspear,
+        parentMapID = 572,
+        zoneID = 588,
+        parent = {572, 588}, -- Draenor, Ashran
+        rlabel = L['mbc_vial_d'],
+        vialEmptyID = 210839,
+        vialFilledID = 210879
+    },
+    [7] = {
+        coordinates = 35162469,
+        location = C_Map.GetMapInfo(Dreamgrove.id).name,
+        map = Dreamgrove,
+        parentMapID = 619,
+        zoneID = 641,
+        parent = {619, 641}, -- Broken Isles, Val'Sharah
+        rlabel = L['mbc_vial_b'],
+        vialEmptyID = 210840,
+        vialFilledID = 210880
+    }
+}
+
+local MoonBlessedClaw = Class('MoonBlessedClaw', Collectible, {
+    icon = 1508486,
+    class = 'DRUID',
+    quest = 78528, -- hidden
+    rewards = {
+        Item({item = 210977, note = '1x', class = 'DRUID'}), -- Coalesced Moonlight
+        Item({item = 210728, quest = 78521, class = 'DRUID'}) -- Moon-Blessed Claw
+    }
+}) -- Small Box of Vials
+
+function MoonBlessedClaw.getters:note()
+    local function complete(rlabel, vialFilledID)
+        if ns.PlayerHasItem(vialFilledID) or ns.PlayerHasItem(210977) then
+            return ns.status.Green(rlabel)
+        end
+        return ns.status.Red(rlabel)
+    end
+
+    local note = L['mbc_note_start'] .. '\n'
+    for _, vial in ipairs(EMPTY_VIALS) do
+        if not vial.faction or vial.faction == ns.faction then
+            local mName = C_Map.GetMapInfo(vial.map.id).name
+            local pName = C_Map.GetMapInfo(vial.parentMapID).name
+            local iDone = complete(vial.rlabel, vial.vialFilledID)
+            note = note .. format('\n%s %s (%s)', iDone, mName, pName)
+        end
+    end
+    return note .. '\n\n' .. L['mbc_note_end']
+end
+
+map.nodes[54922542] = MoonBlessedClaw({
+    label = '{item:210991}',
+    pois = {POI({41566694}), Path({41566694, 54922542})}
+}) -- Small Box of Vials
+
+map.nodes[41566694] = MoonBlessedClaw({
+    label = L['mbc_feral_dreamstone_label'],
+    pois = {POI({54922542}), Path({54922542, 41566694})}
+}) -- Feral Moonstone
+
+for num, vial in ipairs(EMPTY_VIALS) do
+    local e = vial.vialEmptyID
+    local f = vial.vialFilledID
+    local l = vial.location
+    local z = C_Map.GetMapInfo(vial.map.id).name
+    if vial.zoneID then z = C_Map.GetMapInfo(vial.zoneID).name end
+    local c = C_Map.GetMapInfo(vial.parentMapID).name
+    vial.map.nodes[vial.coordinates] = Collectible({
+        label = L['mbc_moonwell_label'],
+        icon = 134800,
+        location = format(L['mbc_vial_location'], e, l, z, c, f),
+        class = 'DRUID',
+        faction = vial.faction or nil,
+        rlabel = ns.status.Gray('"' .. vial.rlabel .. '"'),
+        parent = vial.parent,
+        playerHasItem = {vial.vialFilledID, 210977},
+        rewards = {
+            Item({item = vial.vialFilledID, note = '1x'}) -- Filled Vial
+        },
+        IsCompleted = function(self)
+            if self.playerHasItem then
+                for i, v in ipairs(self.playerHasItem) do
+                    if ns.PlayerHasItem(v) then return true end
+                end
+            end
+            return ns.node.Node.IsCompleted(self)
+        end
+    })
+end
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
