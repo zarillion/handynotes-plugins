@@ -1,7 +1,7 @@
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('deDE')
 if not L then return end
--- German translation by Dathwada EU-Eredar
+-- German Translation by Dathwada EU-Eredar and Ioney EU-Blackrock
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
 -------------------------------------------------------------------------------
@@ -45,7 +45,7 @@ L['requirement_not_found'] = 'Voraussetzungsort unbekannt!'
 L['multiple_spawns'] = 'Kann an mehreren Orten erscheinen.'
 L['shared_drops'] = 'Geteilte Beute'
 
-L['Requires'] = 'Benötigt'
+L['requires'] = 'Benötigt'
 L['ranked_research'] = '%s (Rang %d/%d)'
 
 L['focus'] = 'fokussieren'
@@ -79,6 +79,9 @@ L['unlearnable'] = 'Nicht erlernbar'
 L['defeated'] = 'Besiegt'
 L['undefeated'] = 'Unbesiegt'
 L['elite'] = 'Elite'
+L['quest'] = 'Quest'
+L['quest_repeatable'] = 'Wiederholbare Quest'
+L['achievement'] = 'Erfolg'
 
 L['follower_type_follower'] = 'Anhänger'
 L['follower_type_champion'] = 'Champion'

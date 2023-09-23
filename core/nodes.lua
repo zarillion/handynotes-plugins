@@ -303,9 +303,9 @@ function Node:Render(tooltip, focusable)
         for i, req in ipairs(self.requires) do
             if IsInstance(req, Requirement) then
                 color = req:IsMet() and ns.color.White or ns.color.Red
-                text = color(L['Requires'] .. ' ' .. req:GetText())
+                text = color(L['requires'] .. ' ' .. req:GetText())
             else
-                text = ns.color.Red(L['Requires'] .. ' ' .. req)
+                text = ns.color.Red(L['requires'] .. ' ' .. req)
             end
             tooltip:AddLine(ns.RenderLinks(text, true))
         end

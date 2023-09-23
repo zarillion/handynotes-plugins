@@ -19,14 +19,18 @@ Base class for all node requirements.
 --]]
 
 local Requirement = Class('Requirement', nil, {text = UNKNOWN})
-function Requirement:GetText() return self.text end
+function Requirement:GetText()
+    local text = self.text
+    if self.type then text = text .. ' (' .. self.type .. ')' end
+    return text
+end
 function Requirement:IsMet() return false end
 
 -------------------------------------------------------------------------------
 --------------------------------- ACHIEVEMENT ---------------------------------
 -------------------------------------------------------------------------------
 
-local Achievement = Class('Achievement', Requirement)
+local Achievement = Class('Achievement', Requirement, {type = L['achievement']})
 
 function Achievement:Initialize(id)
     self.id = id
@@ -48,7 +52,6 @@ local Currency = Class('Currency', Requirement, {type = L['currency']})
 function Currency:Initialize(id, count)
     self.id, self.count = id, count
     self.text = string.format('{currency:%d} x%d', self.id, self.count)
-    self.text = self.text .. ' (' .. self.type .. ')'
 end
 
 function Currency:IsMet()
@@ -114,7 +117,6 @@ function Item:Initialize(id, count, quality)
     if self.count and self.count > 1 then
         self.text = self.text .. ' x' .. self.count
     end
-    if self.type then self.text = self.text .. ' (' .. self.type .. ')' end
 end
 
 function Item:IsMet() return ns.PlayerHasItem(self.id, self.count) end
@@ -140,17 +142,12 @@ function Profession:IsMet() return ns.PlayerHasProfession(self.skillID) end
 ------------------------------------ QUEST ------------------------------------
 -------------------------------------------------------------------------------
 
-local Quest = Class('Quest', Requirement)
+local Quest = Class('Quest', Requirement, {type = L['quest']})
 
-function Quest:Initialize(id, text, daily)
-    self.id, self.text, self.daily = id, text, daily
-end
-
-function Quest:GetText()
-    local icon = self.daily and ns.GetIconLink('quest_ab') or
-                     ns.GetIconLink('quest_ay')
-    local text = C_QuestLog.GetTitleForQuestID(self.id) or self.text or UNKNOWN
-    return icon .. text
+function Quest:Initialize(id, text, repeatable)
+    self.id = id
+    self.text = C_QuestLog.GetTitleForQuestID(self.id) or text
+    self.type = repeatable and L['quest_repeatable'] or self.type
 end
 
 function Quest:IsMet() return C_QuestLog.IsQuestFlaggedCompleted(self.id) end
@@ -167,11 +164,13 @@ function Reputation:Initialize(id, level, isRenown)
 end
 
 function Reputation:GetText()
-    local name = GetFactionInfoByID(self.id)
-    local level = self.isRenown and self.level or
-                      GetText('FACTION_STANDING_LABEL' .. self.level)
-
-    return string.format(name .. ' (' .. level .. ')')
+    local level = self.level
+    if self.isRenown then
+        level = _G['COVENANT_SANCTUM_LEVEL']:format(level)
+    else
+        level = GetText('FACTION_STANDING_LABEL' .. level)
+    end
+    return ('%s (%s)'):format(GetFactionInfoByID(self.id), level)
 end
 
 function Reputation:IsMet()
@@ -185,7 +184,7 @@ end
 ------------------------------------ SPELL ------------------------------------
 -------------------------------------------------------------------------------
 
-local Spell = Class('Spell', Requirement)
+local Spell = Class('Spell', Requirement, {type = L['spell']})
 
 function Spell:Initialize(id)
     self.id = id

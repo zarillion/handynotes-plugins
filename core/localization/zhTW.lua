@@ -45,7 +45,7 @@ L['requirement_not_found'] = '所需位置未知'
 L['multiple_spawns'] = '可能出現在多個位置'
 L['shared_drops'] = '共享掉落'
 
-L['Requires'] = '需要'
+L['requires'] = '需要'
 L['ranked_research'] = '%s (等級 %d/%d)'
 
 L['focus'] = '專注'
@@ -79,6 +79,9 @@ L['unlearnable'] = '無法解鎖'
 L['defeated'] = '已擊敗'
 L['undefeated'] = '未擊敗'
 L['elite'] = '菁英'
+L['quest'] = nil
+L['quest_repeatable'] = nil
+L['achievement'] = nil
 
 L['follower_type_follower'] = '追隨者'
 L['follower_type_champion'] = '勇士'

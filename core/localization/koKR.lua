@@ -45,7 +45,7 @@ L['requirement_not_found'] = '요구사항 위치 불명!'
 L['multiple_spawns'] = '생성 위치가 여러 곳입니다.'
 L['shared_drops'] = nil
 
-L['Requires'] = '요구사항'
+L['requires'] = '요구사항'
 L['ranked_research'] = '%s (연구단계 %d/%d)'
 
 L['focus'] = '고정'
@@ -79,6 +79,9 @@ L['unlearnable'] = '습득불가'
 L['defeated'] = '처치함'
 L['undefeated'] = '처치하지 않음'
 L['elite'] = '정예'
+L['quest'] = nil
+L['quest_repeatable'] = nil
+L['achievement'] = nil
 
 L['follower_type_follower'] = '추종자'
 L['follower_type_champion'] = '영웅'

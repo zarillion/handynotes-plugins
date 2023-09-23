@@ -45,7 +45,7 @@ L['requirement_not_found'] = 'Emplacement requis inconnu'
 L['multiple_spawns'] = 'Peut apparaître à plusieurs endroits.'
 L['shared_drops'] = 'Drop partagé'
 
-L['Requires'] = 'Requiert'
+L['requires'] = 'Requiert'
 L['ranked_research'] = '%s (Rang %d/%d)'
 
 L['focus'] = 'Focus'
@@ -79,6 +79,9 @@ L['unlearnable'] = 'Non Apprenable'
 L['defeated'] = 'Vaincu'
 L['undefeated'] = 'Invaincu'
 L['elite'] = 'Élite'
+L['quest'] = nil
+L['quest_repeatable'] = nil
+L['achievement'] = nil
 
 L['follower_type_follower'] = 'Sujet'
 L['follower_type_champion'] = 'Champion'

@@ -1,8 +1,7 @@
--- Spanish Translation by (EU) Krovikan-Minahonda
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
-
+-- Spanish Translation by Krovikan EU-Minahonda
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
 -------------------------------------------------------------------------------
@@ -46,7 +45,7 @@ L['requirement_not_found'] = '¡Requerimiento de localización desconocido!'
 L['multiple_spawns'] = 'Puede aparecer en varios sitios.'
 L['shared_drops'] = 'Botín Compartido'
 
-L['Requires'] = 'Requiere'
+L['requires'] = 'Requiere'
 L['ranked_research'] = '%s (Rango %d/%d)'
 
 L['focus'] = 'Foco'
@@ -80,6 +79,9 @@ L['unlearnable'] = 'No se puede aprender'
 L['defeated'] = 'Derrotado'
 L['undefeated'] = 'Sin derrotar'
 L['elite'] = 'Élite'
+L['quest'] = nil
+L['quest_repeatable'] = nil
+L['achievement'] = nil
 
 L['follower_type_follower'] = 'Seguidor'
 L['follower_type_champion'] = 'Campeón'
