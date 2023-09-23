@@ -286,8 +286,8 @@ ForbiddenReach.nodes[76136563] = Dragonrace({
     normal = {2201, 46, 43},
     advanced = {2207, 47, 42},
     reverse = {2213, 47, 42},
-    challenge = {2474, nil, 45},
-    reverseChallenge = {2475, nil, 44},
+    challenge = {2474, 48, 45},
+    reverseChallenge = {2475, 47, 44},
     rewards = ForbiddenReach_Rewards(1, 1, 2)
 }) -- Stormsunder Crater Circuit
 
@@ -296,8 +296,8 @@ ForbiddenReach.nodes[31326573] = Dragonrace({
     normal = {2202, 55, 52},
     advanced = {2208, 54, 49},
     reverse = {2214, 58, 53},
-    challenge = {2476, nil, 50},
-    reverseChallenge = {2477, nil, 50},
+    challenge = {2476, 53, 50},
+    reverseChallenge = {2477, 53, 50},
     rewards = ForbiddenReach_Rewards(2, 3, 4)
 }) -- Morqut Ascent
 
@@ -306,8 +306,8 @@ ForbiddenReach.nodes[63095195] = Dragonrace({
     normal = {2203, 56, 53},
     advanced = {2209, 55, 50},
     reverse = {2215, 55, 50},
-    challenge = {2478, nil, 53},
-    reverseChallenge = {2479, nil, 52},
+    challenge = {2478, 56, 53},
+    reverseChallenge = {2479, 55, 52},
     rewards = ForbiddenReach_Rewards(3, 5, 6)
 }) -- Aerie Chasm Cruise
 
@@ -316,8 +316,8 @@ ForbiddenReach.nodes[63658406] = Dragonrace({
     normal = {2204, 73, 70},
     advanced = {2210, 73, 68},
     reverse = {2216, 68, 63},
-    challenge = {2480, nil, 70},
-    reverseChallenge = {2481, nil, 68},
+    challenge = {2480, 73, 70},
+    reverseChallenge = {2481, 71, 68},
     rewards = ForbiddenReach_Rewards(4, 7, 8)
 }) -- Southern Reach Route
 
@@ -327,7 +327,7 @@ ForbiddenReach.nodes[41361455] = Dragonrace({
     advanced = {2211, 61, 58},
     reverse = {2217, 55, 50},
     challenge = {2482, nil, 55},
-    reverseChallenge = {2483, nil, 53},
+    reverseChallenge = {2483, 56, 53},
     rewards = ForbiddenReach_Rewards(5, 9, 10)
 }) -- Caldera Coaster
 
@@ -336,8 +336,8 @@ ForbiddenReach.nodes[49426006] = Dragonrace({
     normal = {2206, 62, 59},
     advanced = {2212, 61, 58},
     reverse = {2218, 61, 58},
-    challenge = {2484, nil, 60},
-    reverseChallenge = {2485, nil, 60},
+    challenge = {2484, 63, 60},
+    reverseChallenge = {2485, 63, 60},
     rewards = ForbiddenReach_Rewards(6, 11, 12)
 }) -- Forbidden Reach Rush
 
