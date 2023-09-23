@@ -79,9 +79,9 @@ L['unlearnable'] = 'Non Apprenable'
 L['defeated'] = 'Vaincu'
 L['undefeated'] = 'Invaincu'
 L['elite'] = 'Élite'
-L['quest'] = nil
-L['quest_repeatable'] = nil
-L['achievement'] = nil
+L['quest'] = 'Quête'
+L['quest_repeatable'] = 'Quête répétable'
+L['achievement'] = 'Haut-Fait'
 
 L['follower_type_follower'] = 'Sujet'
 L['follower_type_champion'] = 'Champion'
