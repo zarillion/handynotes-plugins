@@ -1,3 +1,18 @@
+# v42
+
+* Added Dreamsurge rewards.
+* Added Elusive Skinning Bait creatures.
+* Added pet battles for the Battle on the Dragon Isles II achievement.
+* Added rewards from the Fyrakk Assault.
+* Added Secrets of Azeroth nodes across the world for all 15 secrets!
+* Added some prep-work for future Dragonracing cups.
+* Added The Gift of Cheese achievement.
+* Added the Many Boxes, Many Rockses achievement.
+* Added the Revival Catalyst.
+* Fixed a conflict with RareScanner tooltips.
+* Removed some spawn info that wasn't always correct.
+* Updated some Kalimdor Cup values.
+
 # v41
 
 * Fixed an incorrect ID for Windborne Velocidrake: Exposed Finned Back.
