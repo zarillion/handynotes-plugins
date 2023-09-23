@@ -887,27 +887,27 @@ L['dreamfruit_note'] = 'Aparece cuando empieza el evento {location:Superfloraci�
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las proles de lechúcico lunar para el logro {achievement:19293}.'
 
-L['pollenfused_bristlebruin_fur_sample_note'] = nil
+L['pollenfused_bristlebruin_fur_sample_note'] = 'Despoja la {object:Pollenfused Bristlebruin Fur Sample} que se encuentra cerca de la parte inferior del arbol de {location:The Char}.' --REVIEW {object:Pollenfused Bristlebruin Fur Sample} y {location:The Char}
 
-L['mbc_note_start'] = nil
-L['mbc_note_end'] = nil
+L['mbc_note_start'] = 'Despoja la {object:Caja Pequeña de Viales} para conseguir la {item:210991}.\n\nRecibirás 6x {item:210839} que necesitarán ser llenados con agua de la poza de la luna de cada continente.'
+L['mbc_note_end'] = 'Combina los 6x {item:210876} para crear {item:210977} y llévala a {object:Feral Dreamstone} cerca de {location:Amirdrissil}.\n\nUsa la {item:210977} y despoja la {object:Garra Bendita por la Luna} para conseguir {item:210728}.' -- REVIEW Feral Dreamstone
 
-L['mbc_vial_b'] = nil
-L['mbc_vial_d'] = nil
-L['mbc_vial_e'] = nil
-L['mbc_vial_k'] = nil
-L['mbc_vial_n'] = nil
-L['mbc_vial_o'] = nil
+L['mbc_vial_b'] = 'B' -- REVIEW
+L['mbc_vial_d'] = 'D' -- REVIEW
+L['mbc_vial_e'] = 'E' -- REVIEW
+L['mbc_vial_k'] = 'K' -- REVIEW
+L['mbc_vial_n'] = 'N' -- REVIEW
+L['mbc_vial_o'] = 'O' -- REVIEW
 
-L['mbc_vial_e_location'] = nil
-L['mbc_vial_k_location'] = nil
-L['mbc_vial_n_location'] = nil
-L['mbc_vial_o_location'] = nil
+L['mbc_vial_e_location'] = 'Arboleda del Crepúsculo'
+L['mbc_vial_k_location'] = 'Refugio de las Estaciones de Malfurion'
+L['mbc_vial_n_location'] = 'Reposo de las Estrellas'
+L['mbc_vial_o_location'] = 'Refugio Cenarion'
 
-L['mbc_vial_location'] = nil
+L['mbc_vial_location'] = 'Llena {item:%d} con agua de la poza de la luna de {location:%s} en {location:%s} en {location:%s} para conseguir {item:%d}.'
 
-L['mbc_moonwell_label'] = nil
-L['mbc_feral_dreamstone_label'] = nil
+L['mbc_moonwell_label'] = 'Poza de la Luna'
+L['mbc_feral_dreamstone_label'] = 'Feral Dreamstone' -- REVIEW Feral Dreamstone
 
 L['elianna_vendor_note'] = 'Cambia {currency:2777} por mascotas y monturas.'
 L['sylvia_vendor_note'] = 'Cambia {currency:2651} por mascotas, monturas y transfiguraciones.'
