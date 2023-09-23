@@ -222,8 +222,8 @@ AzureSpan.nodes[71292464] = Dragonrace({
     normal = {2078, 61, 58},
     advanced = {2079, 61, 56},
     reverse = {2190, 61, 56},
-    challenge = {2454, nil, 63},
-    reverseChallenge = {2455, nil, 64},
+    challenge = {2454, 66, 63},
+    reverseChallenge = {2455, 67, 64},
     rewards = AzureSpan_Rewards(3, 5, 6)
 }) -- Vakthros Ascent
 
@@ -253,7 +253,7 @@ AzureSpan.nodes[42275677] = Dragonrace({
     advanced = {2090, 86, 81},
     reverse = {2193, 81, 76},
     challenge = {2460, 93, 90},
-    reverseChallenge = {2461, nil, 92},
+    reverseChallenge = {2461, 95, 92},
     rewards = AzureSpan_Rewards(6, 11, 12)
 }) -- Archive Ambit
 
@@ -492,8 +492,8 @@ Thaldraszus.nodes[57777501] = Dragonrace({
     normal = {2080, 52, 49},
     advanced = {2081, 45, 40},
     reverse = {2194, 46, 41},
-    challenge = {2462, nil, 47},
-    reverseChallenge = {2463, nil, 46},
+    challenge = {2462, 50, 47},
+    reverseChallenge = {2463, 49, 46},
     rewards = Thaldraszus_Rewards(1, 1, 2)
 }) -- Flowing Forest Flight
 
@@ -502,8 +502,8 @@ Thaldraszus.nodes[57236690] = Dragonrace({
     normal = {2092, 84, 81},
     advanced = {2093, 80, 75},
     reverse = {2195, 64, 59},
-    challenge = {2464, nil, 58},
-    reverseChallenge = {2465, nil, 63},
+    challenge = {2464, 61, 58},
+    reverseChallenge = {2465, 66, 63},
     rewards = Thaldraszus_Rewards(2, 3, 4)
 }) -- Tyrhold Trial
 
@@ -522,8 +522,8 @@ Thaldraszus.nodes[60294159] = Dragonrace({
     normal = {2098, 57, 54},
     advanced = {2099, 57, 52},
     reverse = {2197, 58, 53},
-    challenge = {2468, nil, 65},
-    reverseChallenge = {2469, nil, 65},
+    challenge = {2468, 68, 65},
+    reverseChallenge = {2469, 68, 65},
     rewards = Thaldraszus_Rewards(4, 7, 8)
 }) -- Academy Ascent
 
@@ -532,8 +532,8 @@ Thaldraszus.nodes[39517619] = Dragonrace({
     normal = {2101, 64, 61},
     advanced = {2102, 59, 54},
     reverse = {2198, 62, 57},
-    challenge = {2470, nil, 60},
-    reverseChallenge = {2471, nil, 64},
+    challenge = {2470, 63, 60},
+    reverseChallenge = {2471, 67, 64},
     rewards = Thaldraszus_Rewards(5, 9, 10)
 }) -- Garden Gallivant
 
@@ -542,8 +542,8 @@ Thaldraszus.nodes[58053361] = Dragonrace({
     normal = {2103, 53, 50},
     advanced = {2104, 50, 45},
     reverse = {2199, 52, 47},
-    challenge = {2472, nil, 56},
-    reverseChallenge = {2473, nil, 54},
+    challenge = {2472, 59, 56},
+    reverseChallenge = {2473, 57, 54},
     rewards = Thaldraszus_Rewards(6, 11, 12)
 }) -- Caverns Criss-Cross
 
