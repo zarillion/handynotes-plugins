@@ -909,7 +909,8 @@ local ElusiveCrystalscaleStonecleaver = ElusiveCreature({
     rewards = {
         Item({item = 193215}), -- Adamant Scales
         Item({item = 193224}), -- Lustrous Scaled Hide
-        Item({item = 205451}) -- Flawless Crystal Scale
+        Item({item = 205451}), -- Flawless Crystal Scale
+        Achievement({id = 18832, criteria = 61478}) -- Elusive Legend of the Dragon Isles
     }
 }) -- Elusive Crystalscale Stonecleaver
 

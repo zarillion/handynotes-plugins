@@ -9,6 +9,7 @@ local Group = ns.Group
 
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
+local NPC = ns.node.NPC
 local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
@@ -19,6 +20,7 @@ local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
 local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
+local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
@@ -145,6 +147,11 @@ ns.groups.RITUAL_OFFERING = Group('ritual_offering', 'chest_bn', {
 })
 
 ns.groups.SCOUT_PACK = Group('scout_pack', 4562583, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.SECRETS_OF_AZEROTH = Group('secrets_of_azeroth', 'peg_gn', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -615,6 +622,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         ManedHead = Item({item = 197111, quest = 69312}),
         MultiHornedHead = Item({item = 197114, quest = 69315}),
         OrnateHelm = Item({item = 197120, quest = 69321}),
+        PiratesDayArmor = Item({item = 208858, quest = 77875}),
         PlatedHead = Item({item = 197110, quest = 69311}),
         RedScales = Item({item = 197144, quest = 69345}),
         ScaledPattern = Item({item = 197141, quest = 69342}),
@@ -1503,6 +1511,58 @@ local ElusiveCreature = ns.Class('ElusiveCreature', ns.node.Node, {
 
 ns.node.ElusiveCreature = ElusiveCreature
 
+-- Achievement({id = 18831, criteria = 61435}) -- Elusive Beasts of the Dragon Isles - Elusive Salamanther
+-- Achievement({id = 18831, criteria = 61438}) -- Elusive Beasts of the Dragon Isles - Elusive Proto Dragon
+-- Achievement({id = 18831, criteria = 61440}) -- Elusive Beasts of the Dragon Isles - Elusive Lava Phoenix
+-- Achievement({id = 18831, criteria = 61442}) -- Elusive Beasts of the Dragon Isles - Elusive Fiery Dreadsquall
+-- Achievement({id = 18831, criteria = 61444}) -- Elusive Beasts of the Dragon Isles - Elusive Rockfang
+-- Achievement({id = 18831, criteria = 61447}) -- Elusive Beasts of the Dragon Isles - Elusive Hornstrider
+-- Achievement({id = 18831, criteria = 61449}) -- Elusive Beasts of the Dragon Isles - Elusive Bull
+-- Achievement({id = 18831, criteria = 61451}) -- Elusive Beasts of the Dragon Isles - Elusive Ottuk
+-- Achievement({id = 18831, criteria = 61453}) -- Elusive Beasts of the Dragon Isles - Elusive Magmammoth Bull
+-- Achievement({id = 18831, criteria = 61455}) -- Elusive Beasts of the Dragon Isles - Elusive Prime Proto Dragon
+-- Achievement({id = 18831, criteria = 61457}) -- Elusive Beasts of the Dragon Isles - Elusive Elder Rockfang
+-- Achievement({id = 18831, criteria = 61459}) -- Elusive Beasts of the Dragon Isles - Elusive Rimeclaw Bear
+-- Achievement({id = 18831, criteria = 61461}) -- Elusive Beasts of the Dragon Isles - Elusive Argali
+-- Achievement({id = 18831, criteria = 61463}) -- Elusive Beasts of the Dragon Isles - Elusive Deepflayer
+-- Achievement({id = 18831, criteria = 61465}) -- Elusive Beasts of the Dragon Isles - Elusive Viper (Lava)
+-- Achievement({id = 18831, criteria = 61467}) -- Elusive Beasts of the Dragon Isles - Elusive Deepstrider
+-- Achievement({id = 18831, criteria = 61469}) -- Elusive Beasts of the Dragon Isles - Elusive Viper (Rock)
+-- Achievement({id = 18831, criteria = 61471}) -- Elusive Beasts of the Dragon Isles - Elusive Sulfurstrider
+-- Achievement({id = 18831, criteria = 61437}) -- Elusive Beasts of the Dragon Isles - Elusive Vorquin
+-- Achievement({id = 18831, criteria = 61439}) -- Elusive Beasts of the Dragon Isles - Elusive Thunder Lizard
+-- Achievement({id = 18831, criteria = 61441}) -- Elusive Beasts of the Dragon Isles - Elusive Magmammoth
+-- Achievement({id = 18831, criteria = 61443}) -- Elusive Beasts of the Dragon Isles - Elusive Snapdragon
+-- Achievement({id = 18831, criteria = 61445}) -- Elusive Beasts of the Dragon Isles - Elusive Feral Bakar
+-- Achievement({id = 18831, criteria = 61448}) -- Elusive Beasts of the Dragon Isles - Elusive Crystalspine
+-- Achievement({id = 18831, criteria = 61450}) -- Elusive Beasts of the Dragon Isles - Elusive Stonegazer
+-- Achievement({id = 18831, criteria = 61452}) -- Elusive Beasts of the Dragon Isles - Elusive Slyvern
+-- Achievement({id = 18831, criteria = 61454}) -- Elusive Beasts of the Dragon Isles - Elusive Prime Salamanther
+-- Achievement({id = 18831, criteria = 61456}) -- Elusive Beasts of the Dragon Isles - Elusive Storm Lizard
+-- Achievement({id = 18831, criteria = 61458}) -- Elusive Beasts of the Dragon Isles - Elusive Elder Slyvern
+-- Achievement({id = 18831, criteria = 61460}) -- Elusive Beasts of the Dragon Isles - Elusive Elder Armoredon
+-- Achievement({id = 18831, criteria = 61462}) -- Elusive Beasts of the Dragon Isles - Elusive Elder Argali
+-- Achievement({id = 18831, criteria = 61464}) -- Elusive Beasts of the Dragon Isles - Elusive Stoneclaw
+-- Achievement({id = 18831, criteria = 61466}) -- Elusive Beasts of the Dragon Isles - Elusive Lavafang
+-- Achievement({id = 18831, criteria = 61468}) -- Elusive Beasts of the Dragon Isles - Elusive Colossal Deepstrider
+-- Achievement({id = 18831, criteria = 61470}) -- Elusive Beasts of the Dragon Isles - Elusive Shalefang
+-- Achievement({id = 18831, criteria = 61472}) -- Elusive Beasts of the Dragon Isles - Elusive Colossal Sulfurstrider
+
+-- Achievement({id = 18832, criteria = 61473}) -- Elusive Legend of the Dragon Isles - Elusive Elder Drake
+-- X Achievement({id = 18832, criteria = 61474}) -- Elusive Legend of the Dragon Isles - Elusive Tempest Lizard
+-- X Achievement({id = 18832, criteria = 61475}) -- Elusive Legend of the Dragon Isles - Elusive Deepwater Salamanther
+-- X Achievement({id = 18832, criteria = 61476}) -- Elusive Legend of the Dragon Isles - Elusive Cliffdweller Vorquin
+-- Achievement({id = 18832, criteria = 61477}) -- Elusive Legend of the Dragon Isles - Elusive Frenzied Amberfur
+-- X Achievement({id = 18832, criteria = 61478}) -- Elusive Legend of the Dragon Isles - Elusive Crystalscale Stonecleaver
+-- X Achievement({id = 18832, criteria = 61479}) -- Elusive Legend of the Dragon Isles - Elusive Elder Frigidpelt
+-- X Achievement({id = 18832, criteria = 61480}) -- Elusive Legend of the Dragon Isles - Elusive Ferocious Titanfang
+-- Achievement({id = 18832, criteria = 61481}) -- Elusive Legend of the Dragon Isles - Elusive Proto Skyterror
+-- X Achievement({id = 18832, criteria = 61482}) -- Elusive Legend of the Dragon Isles - Elusive Flourishing Quillbloom
+-- Achievement({id = 18832, criteria = 61483}) -- Elusive Legend of the Dragon Isles - Elusive Auric Argali
+-- Achievement({id = 18832, criteria = 61484}) -- Elusive Legend of the Dragon Isles - Elusive Magma Cobra
+
+-- The ones marked with a X have been added to existing Elusive Creature nodes.
+
 -------------------------------------------------------------------------------
 ---------------------------- PET: MOTE OF NASZ'URO ----------------------------
 -------------------------------------------------------------------------------
@@ -1636,3 +1696,48 @@ hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
     end
     GameTooltip:Show()
 end)
+
+------------------------------------------------------------------------------
+--------------------------------- DREAMSURGE ---------------------------------
+------------------------------------------------------------------------------
+
+local Celestine = Class('Celestine', NPC, {
+    id = 210608,
+    icon = 'peg_bl',
+    scale = 2.0,
+    sublabel = L['dreamsurge_sublabel'],
+    note = L['celestine_vendor_note'],
+    rewards = {
+        Mount({item = 198824, id = 1671, note = '1000'}), -- Duskwing Ohuna
+        Toy({item = 209858, note = '500'}), -- Dreamsurge Remnant
+        Toy({item = 209944, note = '500'}), -- Friendsurge Defenders
+        Pet({item = 205024, id = 3523, note = '250'}), -- Cheddar
+        Pet({item = 205010, id = 3516, note = '250'}) -- Crimson Swoglet
+    }
+}) -- Celestine of the Harvest
+
+ns.node.Celestine = Celestine
+
+local RenewedMagmammoth = Class('RenewedMagmammoth', Collectible, {
+    label = '{item:192807}',
+    icon = 4034837,
+    sublabel = L['dreamsurge_sublabel'],
+    rewards = {
+        Mount({item = 192807, id = 1645}) -- Renewed Magmammoth
+    }
+})
+
+function RenewedMagmammoth.getters:note()
+    local function status(id, itemsNeed)
+        local itemsHave = GetItemCount(id, true);
+        if ns.PlayerHasItem(id, itemsNeed) then
+            return ns.status.Green(itemsHave .. '/' .. itemsNeed)
+        else
+            return ns.status.Red(itemsHave .. '/' .. itemsNeed)
+        end
+    end
+
+    return status(209419, 20) .. ' ' .. L['renewed_magmammoth_note']
+end
+
+ns.node.RenewedMagmammoth = RenewedMagmammoth

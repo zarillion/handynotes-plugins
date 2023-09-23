@@ -2147,7 +2147,8 @@ map.nodes[54705860] = ElusiveCreature({
     rewards = {
         Item({item = 193224}), -- Lustrous Scaled Hide
         Item({item = 193215}), -- Adamant Scales
-        Item({item = 193252}) -- Salamanther Scales
+        Item({item = 193252}), -- Salamanther Scales
+        Achievement({id = 18832, criteria = 61475}) -- Elusive Legend of the Dragon Isles
     }
 }) -- Elusive Deepwater Salamanther
 
@@ -2156,7 +2157,8 @@ map.nodes[45007700] = ElusiveCreature({
     rewards = {
         Item({item = 193224}), -- Lustrous Scaled Hide
         Item({item = 193215}), -- Adamant Scales
-        Item({item = 193259}) -- Flawless Proto Dragon Scale
+        Item({item = 193259}), -- Flawless Proto Dragon Scale
+        Achievement({id = 18832, criteria = 61481}) -- Elusive Legend of the Dragon Isles
     }
 }) -- Elusive Proto Skyterror
 

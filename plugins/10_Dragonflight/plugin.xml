@@ -10,4 +10,5 @@
   <Script file="zones\emerald_dream.lua"/>
   <!--  -->
   <Script file="zones\dragonraces.lua"/>
+  <Script file="zones\secrets_of_azeroth.lua"/>
 </Ui>

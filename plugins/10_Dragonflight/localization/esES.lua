@@ -148,6 +148,10 @@ L['options_icons_frostbound_chest_desc'] = 'Muestra dónde pueden haber {object:
 
 L['fyrakk_assault_label'] = 'Asalto de Fyrakk'
 
+L['dreamsurge_sublabel'] = '{note:Sólo está disponible cuando {location:Pico Onírico} está activo en esta zona.}'
+L['celestine_vendor_note'] = 'Cambia {item:207026} por una montura, juguetes, mascotas, y transfiguraciones.'
+L['renewed_magmammoth_note'] = 'Reune 20x {item:209419} del boss final del {location:Pico Onírico} y combínalos para crear el {item:192807}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -350,7 +354,7 @@ L['neltharions_toolkit_note'] = [[1. Recoge un {item:204278} que aparece aleator
 
 3. Encuentra el {object:Puerta Rota} dentro de la cueva junto al {npc:193310}.
 
-4. Repara el {object:Puerta Rota}. {note:Puede requerir hacer algunos clicks.}
+4. Repara el {object:Puerta Rota}. {note:Puede requerir hacer varios clicks.}
 
 5. Telepórtate a la habitación escondida en las {location:Cámaras de Zskera}. Mata al {npc:200375} y al {npc:203639}. Ahora abre el {object:Alijo Majestuoso de Obsidiana} para reclamar tu botín.]]
 
@@ -404,7 +408,7 @@ L['naszuro_caldera_of_the_menders'] = 'Encima de la torre.'
 L['eaglemaster_niraak_note'] = 'Mata a los {npc:186295} cercanos y a los {npc:186299} para hacer aparecer al raro.'
 L['hunter_of_the_deep_note'] = 'Haz click en el armero y dispara a los peces hasta que aparezca el raro.'
 L['porta_the_overgrown_note'] = 'Encuentra 5x {item:194426} en el fondo de {location:Espejo del Cielo} al oeste. Después espárcelos en el {npc:191953} para hacer aparecer al raro.'
-L['scaleseeker_mezeri_note'] = 'Ofrece {item:194681} a {npc:193224} y síguela hasta que te enseñe al raro.\n\n{note:La vendedora más cercana es {npc:190315} de {location:Atalaya de Tres Cascadas} en las {location:Tierras Azures}.}'
+L['scaleseeker_mezeri_note'] = 'Ofrece {item:194681} a {npc:193224} y síguela hasta que te enseñe al raro.\n\n{note:La vendedora más cercana es {npc:190315} de {location:Atalaya de Tres Cascadas} en {location:Las Tierras Azures}.}'
 L['shade_of_grief_note'] = 'Haz click en {npc:193166} para hacer aparecer al raro.'
 L['windscale_the_stormborn_note'] = 'Mata a los {npc:192367} que están canalizando en los {npc:192357}.'
 L['windseeker_avash_note'] = 'Mata a los {npc:195742} cercanos y a los {npc:187916} para hacer aparecer al raro.'
@@ -511,7 +515,7 @@ L['ancient_protector_note'] = 'Mata a una {npc:193244} cercana para conseguir un
 L['blightpaw_note'] = 'Habla con el {npc:193222} y acepta ayudarle.'
 L['corrupted_proto_dragon_note'] = 'Inspecciona el {object:Huevo de Dragón Corrupto} para hacer aparecer al raro.'
 L['lord_epochbrgl_note'] = 'Haz click en la {npc:193257} para hacer aparecer al raro.'
-L['the_great_shellkhan_note'] = 'Coge una {item:200949} en el {location:Destello Kauriq} de las {location:Tierras Azures} y regresa al {npc:191416} en menos de 3 minutos para devolver el objeto que activa al raro para conseguir el logro.\n\n{note:Asegúrate de que el {npc:191416} y {npc:191305} están realmente antes de empezar. Sólo un personaje puede coger y devolver el objeto una vez a la semana para activar el raro. Después, el {npc:191416} sólo te dará las gracias.}'
+L['the_great_shellkhan_note'] = 'Coge una {item:200949} en el {location:Destello Kauriq} de {location:Las Tierras Azures} y regresa al {npc:191416} en menos de 3 minutos para devolver el objeto que activa al raro para conseguir el logro.\n\n{note:Asegúrate de que el {npc:191416} y {npc:191305} están realmente antes de empezar. Sólo un personaje puede coger y devolver el objeto una vez a la semana para activar el raro. Después, el {npc:191416} sólo te dará las gracias.}'
 L['weeping_vilomah_note'] = 'Habla con {npc:193206} para invocar al raro.'
 L['woofang_note'] = 'Acaricia al {npc:193156} para hacer aparecer al raro.'
 
@@ -695,7 +699,7 @@ L['magmashell_note'] = 'Despoja {item:201883} de los {npc:193138} alrededor de l
 
 L['otto_note_start1'] = 'Compra un {item:202102} a {npc:191608} en las {location:Llanuras de Ohn\'ahra} para conseguir unas {item:202042}. El saco requiere 75x {item:199338} que pueden ser pescadas o despojadas de los enemigos {title:<Morrocotudo>} cerca de los nodos de pesca.'
 L['otto_note_start2'] = 'Ves al bar subacuático {location:El Baño de Burbujas} en la {location:Gruta Siseante}, usa las sombras y encuentra una alfombra de baile. Quédate allí hasta que te desmayes y despoja el {item:202061}.'
-L['otto_note_item1'] = 'Pesca 100x {item:202072} en las aguas abiertas de {location:Iskaara} en las {location:Tierras Azures}. Usa el barril para conseguir un {item:202066}.'
+L['otto_note_item1'] = 'Pesca 100x {item:202072} en las aguas abiertas de {location:Iskaara} en {location:Las Tierras Azures}. Usa el barril para conseguir un {item:202066}.'
 L['otto_note_item2'] = 'Pesca 25x {item:202073} en la lava alrededor de la {location:Ciudadela Obsidiana} en las {location:Orillas del Despertar}. Usa el barril para conseguir un {item:202068}.'
 L['otto_note_item3'] = 'Pesca un {item:202074} en las aguas cerca de la {location:Academia Algeth\'ar} en {location:Thaldraszus}. Usa el barril para conseguir un {item:202069}.'
 L['otto_note_end'] = 'Vuelve a la {location:Gruta Siseante} y deja el barril donde lo encontrastes para invocar a {npc:199563} y ¡recibir tu montura!.'
@@ -908,3 +912,193 @@ L['mbc_feral_dreamstone_label'] = nil
 L['elianna_vendor_note'] = 'Cambia {currency:2777} por mascotas y monturas.'
 L['sylvia_vendor_note'] = 'Cambia {currency:2651} por mascotas, monturas y transfiguraciones.'
 L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
+
+-------------------------------------------------------------------------------
+----------------------------- SECRETS OF AZEROTH ------------------------------
+-------------------------------------------------------------------------------
+
+-- Secrets of Azeroth: Clue 1
+L['soa_01_rlabel'] = '(Pista 1)'
+L['soa_01_golden_chalice_note'] = 'Coloca el {item:208056} en el {location:Tesoro de Valdrakken} de {location:Valdrakken}.'
+
+-- Secrets of Azeroth: Clue 2
+L['soa_02_rlabel'] = '(Pista 2)'
+L['soa_02_kathos_note'] = 'Habla con {npc:206864} para conseguir la {item:207105}.\n\nDásela a {npc:186448} de {location:Iskaara} en {location:Las Tierras Azures}.'
+L['soa_02_shomko_note_a'] = 'Habla con el {npc:186448} para conseguir la {item:207580}.'
+L['soa_02_shomko_note_b'] = 'Colócala en la {object:Lanza Ceremonial} de las {location:Ruinas Tralladón} en la {location:Tundra Boreal} de {location:Rasganorte}.'
+L['soa_02_shomko_note_c'] = '{note:Aségurate de quedarte y matar al {npc:208182} para conseguir el {item:207594}.}'
+
+-- Secrets of Azeroth: Clue 3
+L['soa_03_rlabel'] = '(Pista 3)'
+L['soa_03_fangli_hoot_note_a'] = 'Habla con {npc:207696} para conseguir {item:207802}. Necesitarás crear {item:207827} consiguiendo varios objectos:'
+L['soa_03_fangli_hoot_note_b'] = 'Comercia 5x {item:207956} con {npc:185548} para conseguir {item:207814} en {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_c'] = 'Comercia 1x {item:207812} con {npc:197781} para conseguir {item:207813} en {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_d'] = 'Consigue 1x {item:207816} de {npc:198586} tras pagar su cuenta del bar en {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_e'] = 'Combina los objetos para conseguir {item:207827} y comenzar la misión {quest:77237} de {npc:207697} en {location:Valdrakken}.'
+L['soa_03_fangli_clue_label'] = 'Pista de Fangli'
+L['soa_03_fangli_clue'] = 'Cerca de una cascada en el {location:Enclave Emeralda}.'
+L['soa_03_erugosa_note_a'] = 'Habla con {npc:185556} para conseguir la {item:208416}. Necesitarás conseguir los siguientes objetos para ella:'
+L['soa_03_erugosa_note_b'] = 'Compra 5x {item:198441} a {npc:194152} de {location:Avanzada Pasoleño} en las {location:Llanuras de Ohn\'ahra}.'
+L['soa_03_erugosa_note_c'] = 'Compra 5x {item:201419} a {npc:196729} de {location:Valdrakken} en {location:Thaldraszus}.'
+L['soa_03_erugosa_note_d'] = 'Compra 5x {item:205693} a {npc:204371} de {location:Loamm} en la {location:Caverna Zaralek}.'
+L['soa_03_clinkyclick_note_a'] = 'Habla con {npc:185548} para conseguir {item:207814}. Necesitarás:'
+L['soa_03_clinkyclick_note_b'] = 'Recibir 10x {item:207956} de {npc:185556} en {location:El Carnero Asado} en {location:Valdrakken}.'
+L['soa_03_gryffin_note_a'] = 'Habla con {npc:197781} para conseguir {item:207813}. Necesitarás:'
+L['soa_03_gryffin_note_b'] = 'Despoja 1x {item:207812} matando {npc:191451} del {location:Filo de la Cascada} en {location:Valdrakken}.'
+L['soa_03_shakey_note_a'] = 'Habla con {npc:198586} para conseguir {item:207816}.'
+L['soa_03_shakey_note_b'] = 'Paga la cuenta del bar de {npc:198586} %s del {location:Tesoro del Dragón} en {location:Valdrakken}.'
+L['soa_03_shakey_note_c'] = 'Entra en el {location:Tesoro del Dragón} a través de la entrada secreta tecleando en el chat la emoción {emote:/arrodillarse} en la {object:Estatua Extraña} en la parte trasera de {location:El Carnero Asado}.'
+
+-- Secrets of Azeroth: Clue 4
+L['soa_04_rlabel'] = '(Pista 4)'
+L['soa_04_locker_label'] = 'Armario de Ecologista'
+L['soa_04_sazsel_note_a'] = 'Despoja el {item:208130} de dentro del {object:Armario de Ecologista} en el piso superior de {location:El Carnero Asado} y llévaselo a {npc:208620} en {location:Valdrakken}.'
+L['soa_04_sazsel_note_b'] = 'Una vez tasado el estandarte, vuelve al armario y devuélvelo. Ahora ve a hablar con {npc:207697}.'
+
+-- Secrets of Azeroth: Clue 5
+L['soa_05_rlabel'] = '(Pista 5)'
+L['soa_05_torch_of_pyrreth_note_a'] = 'Activa las 3 {object:Palanca Antigua} que hay alrededor del {location:Invernadero de la Protectora} en las {location:Orillas del Despertar} para descubrir la {item:208135}.'
+L['soa_05_torch_of_pyrreth_note_b'] = 'Una vez la tengas devuélvela a la {npc:206864} de {location:El Carnero Asado} en {location:Valdrakken}.'
+L['soa_05_torch_of_pyrreth_note_c'] = 'Usa tu {item:208092} para conseguir el buff {spell:419127}. Ahora puedes descubrir el {npc:209011} dónde aparece una {object:Caja Encantada}.'
+L['soa_05_ancient_lever_label'] = 'Palanca Antigua'
+L['soa_05_ancient_lever_note_a'] = 'En la parte trasera del edificio en ruinas detrás de {npc:195915}.'
+L['soa_05_ancient_lever_note_b'] = 'Dentro de la torre en ruinas.'
+L['soa_05_ancient_lever_note_c'] = 'Dentro del edificio cerca de {npc:186823} y {npc:186825}.'
+L['soa_05_enchanted_box_label'] = 'Caja Encantada'
+
+-- Secrets of Azeroth: Clue 6
+L['soa_06_rlabel'] = '(Pista 6)'
+L['soa_06_unvieled_tablet_label'] = 'Tablilla Desvelada'
+L['soa_06_unvieled_tablet_note_a'] = 'Habla con {npc:207696} para completar la misión {quest:77284} y conseguir {item:208137}.\n\nEntonces viaja a {location:Vakthros} en {location:Las Tierras Azures}.'
+L['soa_06_unvieled_tablet_note_b'] = 'Usa la {item:208092} en la base del pilón de {location:Vakthros} en {location:Las Tierras Azures} para revelar la {object:Tablilla Desvelada}.'
+L['soa_06_unvieled_tablet_note_c'] = 'Despoja el {item:208143} y devuélvelo a {npc:207696} en {location:Valdrakken} para completar el secreto.'
+
+-- Secrets of Azeroth: Clue 7
+L['soa_07_rlabel'] = '(Pista 7)'
+L['soa_07_brazier_label'] = 'Blandón de Incienso Antiguo'
+L['soa_07_brazier_note_a'] = 'Habla con {npc:185562} para completar la misión {quest:77303} y conseguir {item:208144}.\n\nVes a las {location:Llanuras de Ohn\'ahra} a {location:Kurgans Eternos}.'
+L['soa_07_brazier_note_b'] = 'Usa la {item:208135} para encender el {object:Blandón de Incienso Antiguo} dentro del túmulo funerario.'
+L['soa_07_idol_note'] = 'Despoja el {item:207730} junto al {object:Blandón de Incienso Antiguo} y devuélvelo a {location:Valdrakken}.'
+
+-- Secrets of Azeroth: Clue 8
+L['soa_08_rlabel'] = '(Pista 8)'
+L['soa_08_kathos_note'] = 'Habla con {npc:206864} para conseguir {item:206948}.\n\nVuela al {location:Mar de Dunas} en {location:Thaldraszus} y usa el {item:207730} para encontrar 3x {item:208191}.'
+L['soa_08_time_lost_fragment_note'] = 'Usa el {item:207730} para encontrar 3x {item:208191} en el {location:Mar de Dunas} de {location:Thaldraszus}.\n\nCombínalos para crear la {item:208146} y devuélvela a {npc:206864} en {location:Valdrakken}.'
+L['soa_08_tl_fragment_location_a'] = 'Debajo de un árbol pequeño.'
+L['soa_08_tl_fragment_location_b'] = 'Entre dos rocas grandes.'
+L['soa_08_tl_fragment_location_c'] = 'En el fondo de un río pequeño.'
+
+-- Secrets of Azeroth: Clue 9
+L['soa_09_rlabel'] = '(Pista 9)'
+L['soa_09_bobby_note'] = 'Habla con {npc:207696} para empezar la misión {quest:77653}. Entrega la misión al {npc:195769} para conseguir {item:208486}.\n\nEntonces viaja al {location:Claro Nemoroso} en las {location:Llanuras Ohn\'ahra}.'
+L['soa_09_hastily_scrawled_stone_label'] = 'Tablilla Inscrita con Prisas'
+L['soa_09_hastily_scrawled_stone_note'] = 'Usa la {item:208092} para descubrir la {object:Tablilla Inscrita con Prisas} e ir junto al {object:Molde de Llave Antiguo}.'
+L['soa_09_ancient_key_mold_label'] = 'Molde de Llave Antiguo'
+L['soa_09_ancient_key_mold_note'] = 'Despoja el {object:Molde de Llave Antiguo} para conseguir el {item:208827} que empezará la misión {quest:77822}.\n\nDevuélvelo al {npc:195769} en {location:Valdrakken}.'
+
+-- Secrets of Azeroth: Clue 10
+L['soa_10_rlabel'] = '(Pista 10)'
+L['soa_10_tyrs_titan_key_note'] = 'Coge la misión {quest:77829} de {npc:207696} y ves a {npc:210837} para conseguir {item:208829}.\n\nRecoge {item:208835} y {item:208836} en las {location:Orillas del Despertar} para reforjar la llave en la {location:Ciudadela Obsidiana}.'
+L['soa_10_rose_gold_dust_note'] = 'Recoge 50x {item:208835} usando tu {item:207730} para encontrar las bolitas rojas en el suelo.\n\nVes a {npc:210837} en la {location:Ciudadela Obsidiana} tras recoger 50x {item:208835} y 8x {item:208836}.'
+L['soa_10_igneous_flux_note'] = 'Recoge 8x {item:208836} en varios sitios de las {location:Orillas del Despertar} en las orillas de lava junto al agua.\n\nVes a {npc:210837} en la {location:Ciudadela Obsidiana} tras recoger 50x {item:208835} y 8x {item:208836}.'
+L['soa_10_weaponsmith_koref_note'] = 'Habla con {npc:210837} y comienza la misión {quest:77831} para ayudarle a reforjar la {item:208831} con los ingredientes y tu {item:208092}.'
+
+-- Secrets of Azeroth: Clue 11
+L['soa_11_rlabel'] = '(Pista 11)'
+L['soa_11_rlabel_optional'] = '(Pista 11 - Opcional)'
+L['soa_11_kathos_note'] = 'Habla con {npc:206864} y te dará {item:208852}. Ves a {npc:195543} en las {location:Llanuras de Ohn\'ahra} para preguntarle acerca del Estandarte.'
+L['soa_11_sansok_khan_note'] = 'Pregunta a {npc:195543} cómo enterrar adecuadamente a {npc:Ishtar Rethon}, el cazador al que le pertenecía.\n\nRecibirás el {item:209061} y se te pedirá que busques a {npc:191391} en {location:Puesto del Pinar}.'
+L['soa_11_jhara_note'] = 'Habla con {npc:191391}, la tabernera. Ella te dará {item:208857}, la pista para este secreto.'
+L['soa_11_marker_1_label'] = 'Primer Marcador'
+L['soa_11_marker_2_label'] = 'Segundo Marcador'
+L['soa_11_marker_3_label'] = 'Tercer Marcador'
+L['soa_11_marker_4_label'] = 'Cuarto Marcador'
+L['soa_11_marker_4_note'] = 'Dentro del túmulo funerario.'
+L['soa_11_marker_5_label'] = 'Quinto Marcador'
+L['soa_11_marker_5_note'] = 'Si está activa la misión {wq:Víctimas de Telarañas} debe ser completada antes usando la {item:208092} para quemar las telarañas y revelar la pista.'
+L['soa_11_burial_banner_note'] = 'Aventúrate a las profundidades de la cueva y llega al piso superior una vez que encuentres una rampa. Al final del último piso encontrarás un lugar para depositar el {item:208852}.'
+
+-- Secrets of Azeroth: Clue 12
+L['soa_12_rlabel'] = '(Pista 12)'
+L['soa_12_bobby_note'] = 'Habla con {npc:207696} para conseguir la {item:208888}.\n\nVes a la {location:Antigua Karazhan} y limpia tu camino hasta después de {npc:15691} para abrirte camino por la {location:Biblioteca del Guardian}. Necesitarás encontrar un tomo allí usando tu {item:207730} para buscarlo.'
+L['soa_12_ancient_tome_note'] = 'Busca por los tomos con tu {item:207730} hasta que encuentres {item:208889}. Llévaselo a {npc:207696} en {location:Valdrakken}.'
+
+-- Secrets of Azeroth: Clue 13
+L['soa_13_rlabel'] = '(Pista 13)'
+L['soa_13_bobby_note'] = 'Habla con {npc:207696} para comenzar la misión {quest:77928}.'
+L['soa_13_great_place_a_label'] = 'Factura de Venta de la Casa de Subastas'
+L['soa_13_great_place_a_note'] = 'En una pila de cajas dentro de la entrada de la {location:Casa de Subastas}.'
+L['soa_13_great_place_b_label'] = 'Recepción del Depósito del Vacío'
+L['soa_13_great_place_b_note'] = 'En una pila de cajas en el edificio del Transfigurador y el Depósito del Vacío.'
+L['soa_13_great_place_c_label'] = 'Recepción del Jardín de Suministros'
+L['soa_13_great_place_c_note'] = 'En un edificio pequeño con dos {npc:197035} discutiendo.'
+L['soa_13_great_place_d_label'] = 'Notas del Investigador'
+L['soa_13_great_place_d_note'] = 'Dentro de un edificio pequeño cerca de unos libros.'
+L['soa_13_great_place_e_label'] = 'Nota Garabateada Deprisa'
+L['soa_13_great_place_e_note'] = 'Detrás del puesto del vendedor en el {location:Mercado de los Artesanos}.'
+L['soa_13_great_place_f_label'] = 'Nota para Kritha'
+L['soa_13_great_place_f_note'] = 'En una caja dentro del {location:Tesoro del Dragón}.\n\nNecesitas teclear la emoción {emote:/reverencia} a la {npc:189827} en el {location:Carnero Asado} para entrar en el bar secreto.'
+
+-- Secrets of Azeroth: Clue 14
+L['soa_14_rlabel'] = '(Pista 14)'
+L['soa_14_tithris_note'] = 'Habla con {npc:185562} quien te dará {item:208942}. Entonces ve a la {location:Cima de Embozo de Tormenta} en {location:Thaldraszus}.'
+L['soa_14_buried_object_label'] = 'Objeto Enterrado (%d)'
+L['soa_14_tablet_label'] = 'Tablilla con Inscripciones Titánicas (%d)'
+L['soa_14_tablet_note'] = 'Usa la {item:208092} para revelar las {object:Tablilla con Inscripciones Titánicas}. Sigue las coordenadas del {item:206696} para llegar al {object:Objeto Enterrado} y desenterrar la {item:209795}.'
+
+-- Secrets of Azeroth: Clue 15
+L['soa_15_rlabel'] = '(Pista 15)'
+L['soa_15_kathos_note'] = 'Habla con {npc:206864} para completar la misión {quest:77959} para conseguir {item:208958}. Entonces vuela a {location:Tyrhold} y completa una serie de tareas.'
+L['soa_15_tyrhold_statue_label'] = 'Estatua de Tyrhold'
+L['soa_15_tyrhold_statue_note'] = 'Acércate a la Estatua de Tyrhold con la {item:208092} y canaliza hasta que el orbe reluzca de color rojo brillante.'
+L['soa_15_tyrhold_forge_label'] = 'Forja de Tyrhold'
+L['soa_15_tyrhold_forge_note'] = 'Acércate a la forja en el centro de {location:Tyrhold} para conseguir el buff {spell:423792}.'
+L['soa_15_broken_urn_note'] = 'Despoja la {object:Urna Rota} para conseguir {item:%d}.'
+L['soa_15_broken_urn_location'] = 'Está en el nivel %d de {location:Tyrhold}.'
+L['soa_15_titan_power_relay_label'] = 'Titan Power Relay'
+L['soa_15_tpr_note'] = 'Inserta {item:%d} dentro del {object:Repetidor de Poder Titánico}.'
+L['soa_15_orb_label'] = 'Ubicación de Orbe'
+L['soa_15_orb_location'] = 'Encima de {location:Tyrhold}.'
+L['soa_15_orb_note'] = [[
+Acepta la misión {quest:77977} e inspecciona el orbe para invocar a {npc:210674} y a {npc:210675}. Derrótales para conseguir el {item:209555}.
+
+Coloca el {item:209555} en la consola para revelar el {item:208980}.
+Despoja el cofre y devuelve el {item:209555} a {npc:206864} quien apareció cerca tras haber revelado el {item:208980}.
+]]
+
+-- Community Rumor Mill
+L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
+L['buried_satchel_sublabel'] = '{note:Esto no es un localización de {item:208142}.}'
+
+L['bs_epl_location'] = 'Detrás del edificio en {location:Cruce de Corin}.'
+L['bs_fel_location'] = 'Bajo el agua en el centro de {location:Cascadas del Veneno}.'
+L['bs_tho_location'] = 'En una cueva bajo el agua llamada {location:Campamento Pezuña Quebrada}.'
+L['bs_smv_location'] = 'Dentro del árbol hueco en {location:Pico Sauce Lunar}.'
+L['bs_net_location'] = 'En {location:Forja de Maná B\'naar} de {location:Tormenta Abisal} en {location:Terrallende}.\n\n{note:Necesitarás 3 jugadores para canalizar la {item:208092} en los cristales cercanos para hacer aparecer el {object:Montículo de Porquería Blanda}.}'
+L['bs_vfw_location'] = 'En la cima de la cascada dorada y dentro de la boca la estatua de un {npc:129151}.'
+L['bs_tas_location'] = 'Usa la {item:208135} para derretir el {npc:96438} y hacer aparecer el {object:Montículo de Porquería Blanda}.'
+L['bs_dbt_location'] = 'Debajo de la gran garra esquelética del {location:%s}.'
+L['bs_bar_location'] = 'En la cima de la montaña.'
+L['bs_nag_location'] = 'En una isla flotante muy por encima del {location:Lago Sol Celeste}.'
+L['bs_gri_location'] = 'Habla con {npc:%s} para dar un paseo en tronco desde el {location:Aserradero Cielo Azul} hasta {location:Bahía Ventura}. Cuando comiences el paseo recibirás el buff {spell:423942}.\n\n{note:Tienes que tener el buff {spell:423942} para poder ver la bolsa.}'
+L['bs_hmt_location'] = 'Encima del {location:Pico de Monte Alto} cerca del {object:Papiro Deteriorado}.'
+L['bs_wpl_location'] = 'Entre el carro y el torreón de {location:Castel Darrow}.'
+L['bs_tli_location'] = 'En el suelo, en el centro de la arena.'
+L['bs_tir_location'] = 'En lo alto de la montaña con vistas a {location:Fuerte Libre}.'
+
+L['bs_emerald_dragonshrine'] = 'Santuario de Dragones Esmeralda'
+L['bs_bronze_dragonshrine'] = 'Santuario de Dragones Bronce'
+
+L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
+L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'
+
+-- Mimiron's Jumpjets Mount
+L['soa_mjj_list_note'] = 'Recoge las 3 piezas y ensámblalas en la {object:Forja Arcana Potenciada} para conseguir los {item:210022}:'
+L['soa_mjj_part1_note'] = 'Necesitas a 2 jugadores más para que canalicen junto a ti sus {item:208092} a los braseros para invocar a {npc:210398}. Al despojarlo soltará la {item:208984}.'
+L['soa_mjj_part2_note'] = [[{note:Necesitaréis ser al menos 4 personas para esta pieza.}
+
+En {location:Bosque de Troncoferro}, tendrás que buscar un {npc:210417} gigante y una {object:Pieza del Propulsor de Mimiron} para usar.
+Puedes usar la {object:Pieza del Propulsor de Mimiron} para subirte en el elemental y usar su habilidad {spell:423412} para absorber a las personas dentro, o correr cerca del elemental (pero no lo suficientemente cerca como para que te alcance su área de acción, ya que te empuja hacia atrás) para que la persona que lo pilote pueda absorberte.
+
+Una vez el elemental absorbe 4 personas dentro, explotará y soltará la {item:209781}. Cualquiera que esté cerca podrá despojarla.]]
+L['soa_mjj_part3_note'] = 'La {item:209055} estará esperándote enfrente del {object:Portal Oscuro} en {location:Las Tierras Devastadas}. Ten cuidado con los {npc:23082} y los NPCs de la zona, ya que se necesita canalizar durante 12 segundos para despojar la pieza.'

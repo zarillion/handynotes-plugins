@@ -147,6 +147,10 @@ L['options_icons_frostbound_chest_desc'] = 'Display possible locations of {objec
 
 L['fyrakk_assault_label'] = 'Fyrakk Assault'
 
+L['dreamsurge_sublabel'] = '{note:Only available while a {location:Dreamsurge} is active in this zone.}'
+L['celestine_vendor_note'] = 'Exchange {item:207026} for a mount, toys, pets, and transmog.'
+L['renewed_magmammoth_note'] = 'Collect 20x {item:209419} from the final boss of a {location:Dreamsurge} and combine to create {item:192807}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -907,3 +911,192 @@ L['mbc_feral_dreamstone_label'] = 'Feral Dreamstone'
 L['elianna_vendor_note'] = 'Exchange {currency:2777} for pets and mounts.'
 L['sylvia_vendor_note'] = 'Exchange {currency:2651} for pets, mounts, and transmog.'
 L['thaelishar_vendor_note'] = 'Exchange gold for Druid glyphs.'
+
+-------------------------------------------------------------------------------
+----------------------------- SECRETS OF AZEROTH ------------------------------
+-------------------------------------------------------------------------------
+
+-- Secrets of Azeroth: Clue 1
+L['soa_01_rlabel'] = '(Clue 1)'
+L['soa_01_golden_chalice_note'] = 'Place the {item:208056} in the {location:Valdrakken Treasury Hoard} in {location:Valdrakken}.'
+
+-- Secrets of Azeroth: Clue 2
+L['soa_02_rlabel'] = '(Clue 2)'
+L['soa_02_kathos_note'] = 'Speak to {npc:206864} to receive {item:207105}.\n\nTake the {item:207105} to {npc:186448} in {location:Iskaara} in {location:The Azure Span}.'
+L['soa_02_shomko_note_a'] = 'Speak to {npc:186448} to receive {item:207580}.'
+L['soa_02_shomko_note_b'] = 'Place {item:207580} at {object:Ceremonial Spear} in {location:Riplash Strand} in the {location:Borean Tundra} in {location:Northrend}.'
+L['soa_02_shomko_note_c'] = '{note:Be sure to stick around and kill {npc:208182} to receive {item:207594}.}'
+
+-- Secrets of Azeroth: Clue 3
+L['soa_03_rlabel'] = '(Clue 3)'
+L['soa_03_fangli_hoot_note_a'] = 'Speak with {npc:207696} to recieve {item:207802}. You\'ll need to build {item:207827} by collecting various pieces:'
+L['soa_03_fangli_hoot_note_b'] = 'Trade 5x {item:207956} with {npc:185548} for {item:207814} in {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_c'] = 'Trade 1x {item:207812} with {npc:197781} for {item:207813} in {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_d'] = 'Receive 1x {item:207816} from {npc:198586} after paying his bar tab in {location:Valdrakken}.'
+L['soa_03_fangli_hoot_note_e'] = 'Combine the pieces to recieve {item:207827} and begin {quest:77237} for {npc:207697} in {location:Valdrakken}.'
+L['soa_03_fangli_clue_label'] = 'Fangli\'s Clue'
+L['soa_03_fangli_clue'] = 'Near a waterfall by the {location:Emerald Enclave}.'
+L['soa_03_erugosa_note_a'] = 'Speak with {npc:185556} to receive {item:208416}. You\'ll need to collect the following items for her:'
+L['soa_03_erugosa_note_b'] = 'Purchase 5x {item:198441} from {npc:194152} in {location:Timberstep Outpost} in {location:Ohn\'ahran Plains}.'
+L['soa_03_erugosa_note_c'] = 'Purchase 5x {item:201419} from {npc:196729} in {location:Valdrakken} in {location:Thaldraszus}.'
+L['soa_03_erugosa_note_d'] = 'Purchase 5x {item:205693} from {npc:204371} in {location:Loamm} in {location:Zaralek Cavern}.'
+L['soa_03_clinkyclick_note_a'] = 'Speak with {npc:185548} to receive {item:207814}. You\'ll need:'
+L['soa_03_clinkyclick_note_b'] = 'Receive 10x {item:207956} from {npc:185556} in {location:The Roasted Ram} in {location:Valdrakken}.'
+L['soa_03_gryffin_note_a'] = 'Speak with {npc:197781} to receive {item:207813}. You\'ll need to collect:'
+L['soa_03_gryffin_note_b'] = 'Loot 1x {item:207812} by killing {npc:191451} in {location:Cascade\'s Edge} in {location:Valdrakken}.'
+L['soa_03_shakey_note_a'] = 'Speak with {npc:198586} to receive {item:207816}.'
+L['soa_03_shakey_note_b'] = 'Pay {npc:198586}\'s bar tab of %s at {location:The Dragon\'s Hoard} in {location:Valdrakken}.'
+L['soa_03_shakey_note_c'] = 'Enter {location:The Dragon\'s Hoard} through the secret entrance by {emote:/bow} at the {object:Odd Statue} at the back of {location:The Roasted Ram}.'
+
+-- Secrets of Azeroth: Clue 4
+L['soa_04_rlabel'] = '(Clue 4)'
+L['soa_04_locker_label'] = 'Preservationist\'s Locker'
+L['soa_04_sazsel_note_a'] = 'Loot the {item:208130} from within the {object:Preservationist\'s Locker} on the top floor of {location:The Roasted Ram} and bring to {npc:208620} in {location:Valdrakken}.'
+L['soa_04_sazsel_note_b'] = 'Once appraised return the banner back to the chest and return to {npc:207697}.'
+
+-- Secrets of Azeroth: Clue 5
+L['soa_05_rlabel'] = '(Clue 5)'
+L['soa_05_torch_of_pyrreth_note_a'] = 'Activate the 3 {object:Ancient Lever} found around {location:Life-Binder Conservatory} in {location:The Waking Shores} to reveal the {item:208135}.'
+L['soa_05_torch_of_pyrreth_note_b'] = 'Once collected return to {npc:206864} at {location:The Roasted Ram} in {location:Valdrakken}.'
+L['soa_05_torch_of_pyrreth_note_c'] = 'Use your {item:208092} to recieve the {spell:419127} buff. You can now reveal the {npc:209011} which spawns an {object:Enchanted Box}.'
+L['soa_05_ancient_lever_label'] = 'Ancient Lever'
+L['soa_05_ancient_lever_note_a'] = 'At the back of the ruined building behind {npc:195915}.'
+L['soa_05_ancient_lever_note_b'] = 'Inside the ruined tower.'
+L['soa_05_ancient_lever_note_c'] = 'Inside the building near {npc:186823} and {npc:186825}.'
+L['soa_05_enchanted_box_label'] = 'Enchanted Box'
+
+-- Secrets of Azeroth: Clue 6
+L['soa_06_rlabel'] = '(Clue 6)'
+L['soa_06_unvieled_tablet_label'] = 'Unveiled Tablet'
+L['soa_06_unvieled_tablet_note_a'] = 'Talk to {npc:207696} to complete the quest {quest:77284} and to obtain {item:208137}.\n\nThen travel to {location:Vakthros} in {location:The Azure Span}.'
+L['soa_06_unvieled_tablet_note_b'] = 'Use the {item:208092} at the base of the pylon in {location:Vakthros} in {location:The Azure Span} to reveal the {object:Unveiled Tablet}.'
+L['soa_06_unvieled_tablet_note_c'] = 'Loot the {item:208143} and return to {npc:207696} in {location:Valdrakken} to complete the secret.'
+
+-- Secrets of Azeroth: Clue 7
+L['soa_07_rlabel'] = '(Clue 7)'
+L['soa_07_brazier_label'] = 'Ancient Incense Brazier'
+L['soa_07_brazier_note_a'] = 'Talk to {npc:185562} to complete the quest {quest:77303} and to obtain {item:208144}.\n\nHead to the {location:Ohn\'ahran Plains} by {location:The Eternal Kurgans}.'
+L['soa_07_brazier_note_b'] = 'Use the {item:208135} to ignite the {object:Ancient Incense Brazier} within the ancient burial mound.'
+L['soa_07_idol_note'] = 'Loot the revealed {item:207730} next to the {object:Ancient Incense Brazier} and return to {location:Valdrakken}.'
+
+-- Secrets of Azeroth: Clue 8
+L['soa_08_rlabel'] = '(Clue 8)'
+L['soa_08_kathos_note'] = 'Speak to {npc:206864} to receive {item:206948}.\n\nFly into the {location:Shifting Sands} in {location:Thaldraszus} and use the {item:207730} to find 3x {item:208191}.'
+L['soa_08_time_lost_fragment_note'] = 'Use the {item:207730} to find 3x {item:208191} in the {location:Shifting Sands} in {location:Thaldraszus}.\n\nCombine all 3x to create {item:208146} and return to {npc:206864} in {location:Valdrakken}.'
+L['soa_08_tl_fragment_location_a'] = 'Under a small tree.'
+L['soa_08_tl_fragment_location_b'] = 'Between two large boulders.'
+L['soa_08_tl_fragment_location_c'] = 'At the bottom of the small river.'
+
+-- Secrets of Azeroth: Clue 9
+L['soa_09_rlabel'] = '(Clue 9)'
+L['soa_09_bobby_note'] = 'Speak to {npc:207696} to start the quest {quest:77653}. Turn in the quest at {npc:195769} to receive {item:208486}.\n\nThen travel to {location:Sylvan Glade} in {location:Ohn\'ahran Plains}.'
+L['soa_09_hastily_scrawled_stone_label'] = 'Hastily Scrawled Stone'
+L['soa_09_hastily_scrawled_stone_note'] = 'Use the {item:208092} to reveal the {object:Hastily Scrawled Stone} then go to the near by {object:Ancient Key Mold}.'
+L['soa_09_ancient_key_mold_label'] = 'Ancient Key Mold'
+L['soa_09_ancient_key_mold_note'] = 'Loot the {object:Ancient Key Mold} to receive {item:208827} to start the quest {quest:77822}.\n\nReturn to {npc:195769} in {location:Valdrakken}.'
+
+-- Secrets of Azeroth: Clue 10
+L['soa_10_rlabel'] = '(Clue 10)'
+L['soa_10_tyrs_titan_key_note'] = 'Pick up the quest {quest:77829} from {npc:207696} and go to {npc:210837} to obtain {item:208829}.\n\nCollect {item:208835} and {item:208836} in the {location:Waking Shores} to reforge the key at the {location:Obsidian Citadel}.'
+L['soa_10_rose_gold_dust_note'] = 'Collect 50x {item:208835}, use your {item:207730} to find the small red pebbles on the floor.\n\nGo to {npc:210837} at the {location:Obsidian Citadel} after you found 50x {item:208835} and 8x {item:208836}.'
+L['soa_10_igneous_flux_note'] = 'Collect 8x {item:208836} at various locations in the {location:Waking Shores} where lava meets salt water.\n\nGo to {npc:210837} at the {location:Obsidian Citadel} after you found 50x {item:208835} and 8x {item:208836}.'
+L['soa_10_weaponsmith_koref_note'] = 'Speak to {npc:210837} and start the quest {quest:77831} to help him reforge {item:208831} with the ingredients and your {item:208092}.'
+
+-- Secrets of Azeroth: Clue 11
+L['soa_11_rlabel'] = '(Clue 11)'
+L['soa_11_rlabel_optional'] = '(Clue 11 - Optional)'
+L['soa_11_kathos_note'] = 'Talk to {npc:206864}, you will receiving {item:208852}. Head to {npc:195543} in {location:Ohn\'ahran Plains} to ask him about the Banner.'
+L['soa_11_sansok_khan_note'] = 'Ask {npc:195543} how to properly bury {npc:Ishtar Rethon}, the hunter whom the banner belongs to.\n\nYou will receive {item:209061} and be requested to find {npc:191391} in {location:Pinewood Post}.'
+L['soa_11_jhara_note'] = 'Talk to {npc:191391}, the innkeeper. She will give you {item:208857}, the clue for this secret.'
+L['soa_11_marker_1_label'] = 'First Marker'
+L['soa_11_marker_2_label'] = 'Second Marker'
+L['soa_11_marker_3_label'] = 'Third Marker'
+L['soa_11_marker_4_label'] = 'Fourth Marker'
+L['soa_11_marker_4_note'] = 'Inside the burial mound.'
+L['soa_11_marker_5_label'] = 'Fifth Marker'
+L['soa_11_marker_5_note'] = 'If {wq:Web Victims} quest is active it must be completed before using the {item:208092} to burn away the webs and reveal the clue.'
+L['soa_11_burial_banner_note'] = 'Venture deep in the cave and get to the top floor once you encounter a ramp, at the end of the top floor you will find a place to deposit the {item:208852}.'
+
+-- Secrets of Azeroth: Clue 12
+L['soa_12_rlabel'] = '(Clue 12)'
+L['soa_12_bobby_note'] = 'Talk with {npc:207696} to receive {item:208888}.\n\nGo to {location:Old Karazhan} and clear your way till after {npc:15691}, to make your way into the {location:Guardian\'s Library}. You will need to find a tome there, use your {item:207730} to track it down.'
+L['soa_12_ancient_tome_note'] = 'Search for tomes with your {item:207730} until you find {item:208889} and bring it back to {npc:207696} in {location:Valdrakken}.'
+
+-- Secrets of Azeroth: Clue 13
+L['soa_13_rlabel'] = '(Clue 13)'
+L['soa_13_bobby_note'] = 'Talk to {npc:207696} to start the quest {quest:77928}.'
+L['soa_13_great_place_a_label'] = 'Auction House Bill of Sale'
+L['soa_13_great_place_a_note'] = 'On a stack of boxes inside the entrance to the {location:Auction House}.'
+L['soa_13_great_place_b_label'] = 'Void Storage Receipt'
+L['soa_13_great_place_b_note'] = 'On a stack of crates in the Transmogrifier and Void Storage building.'
+L['soa_13_great_place_c_label'] = 'Garden Supply Receipt'
+L['soa_13_great_place_c_note'] = 'In a small building with two {npc:197035} arguing.'
+L['soa_13_great_place_d_label'] = 'Researcher\'s Note'
+L['soa_13_great_place_d_note'] = 'Inside a small building near some books.'
+L['soa_13_great_place_e_label'] = 'Hastily Scrawled Note'
+L['soa_13_great_place_e_note'] = 'Behind the vendor stand in {location:The Artisan\'s Market}.'
+L['soa_13_great_place_f_label'] = 'Note to Kritha'
+L['soa_13_great_place_f_note'] = 'On a crate inside {location:The Dragon\'s Hoard}.\n\nYou need to {emote:/bow} to the {npc:189827} in {location:The Roasted Ram} to enter the secret bar.'
+
+-- Secrets of Azeroth: Clue 14
+L['soa_14_rlabel'] = '(Clue 14)'
+L['soa_14_tithris_note'] = 'Speak to {npc:185562}, he will give you {item:208942}. Afterwards go to {location:Stormshroud Peak} in {location:Thaldraszus}.'
+L['soa_14_buried_object_label'] = 'Buried Object (%d)'
+L['soa_14_tablet_label'] = 'Titan-Inscribed Tablet (%d)'
+L['soa_14_tablet_note'] = 'Use the {item:208092} to reveal the {object:Titan-Inscribed Tablet}. Follow the {item:206696} coordinates to the {object:Buried Object} and dig up the {item:209795}.'
+
+-- Secrets of Azeroth: Clue 15
+L['soa_15_rlabel'] = '(Clue 15)'
+L['soa_15_kathos_note'] = 'Speak with {npc:206864} to complete the quest {quest:77959} to obtain {item:208958}. Then Fly to {location:Tyrhold} and complete a series of tasks.'
+L['soa_15_tyrhold_statue_label'] = 'Tyrhold Statue'
+L['soa_15_tyrhold_statue_note'] = 'Approach the Tyrhold Statue with the {item:208092} and channel until the orb glows bright red.'
+L['soa_15_tyrhold_forge_label'] = 'Tyrhold Forge'
+L['soa_15_tyrhold_forge_note'] = 'Approach the forge in the center of {location:Tyrhold} to receive the {spell:423792} buff.'
+L['soa_15_broken_urn_note'] = 'Loot the {object:Broken Urn} to receive the {item:%d}.'
+L['soa_15_broken_urn_location'] = 'Located on level %d of {location:Tyrhold}.'
+L['soa_15_titan_power_relay_label'] = 'Titan Power Relay'
+L['soa_15_tpr_note'] = 'Insert the {item:%d} into the {object:Titan Power Relay}.'
+L['soa_15_orb_label'] = 'Orb Location'
+L['soa_15_orb_location'] = 'Atop {location:Tyrhold}.'
+L['soa_15_orb_note'] = [[
+Accept the Quest {quest:77977} and inspect the Orb to summon {npc:210674} and {npc:210675}, defeat them to receive the {item:209555}.
+
+Place the {item:209555} in the console to reveal the {item:208980}.
+Loot the Cache and return the {item:209555} to {npc:206864} who spawned nearby after you revealed the {item:208980}.
+]]
+
+-- Community Rumor Mill
+L['buried_satchel_note'] = 'Loot the {item:208142} from the {object:Loose Dirt Mound}.'
+L['buried_satchel_sublabel'] = '{note:This is NOT a {item:208142} location.}'
+
+L['bs_epl_location'] = 'Behind the building in {location:Corin\'s Crossing}.'
+L['bs_fel_location'] = 'Underwater in the center of {location:Bloodvenom Falls}.'
+L['bs_tho_location'] = 'In an underwater cave called {location:Splithoof Hold}.'
+L['bs_smv_location'] = 'Inside the hollow tree in {location:Moonwillow Peak}.'
+L['bs_net_location'] = 'In {location:Manaforge B\'naar} in {location:Netherstorm} in {location:Outland}.\n\n{note:You will need 3 players to channel {item:208092} on the nearby crystals to spawn the {object:Loose Dirt Mound}.}'
+L['bs_vfw_location'] = 'At the top of the golden waterfall within the mouth of the {npc:129151} statue.'
+L['bs_tas_location'] = 'Use the {item:208135} to melt the {npc:96438} and reveal the {object:Loose Dirt Mound}.'
+L['bs_dbt_location'] = 'Under the large skeleton claw in the {location:%s}.'
+L['bs_bar_location'] = 'On top of the mountain.'
+L['bs_nag_location'] = 'On a floating island high above {location:Skysong Lake}.'
+L['bs_gri_location'] = 'Speak to {npc:%s} to take a log ride from {location:Blue Sky Logging Grounds} to {location:Venture Bay}. Once you start the ride you will recieve the {spell:423942} buff.\n\n{note:You must have the {spell:423942} buff in order to see the satchel.}'
+L['bs_hmt_location'] = 'Atop {location:Highmountain Peak} near the {object:Weathered Parchment}.'
+L['bs_wpl_location'] = 'Between the cart and the keep in {location:Caer Darrow}.'
+L['bs_tli_location'] = 'On the floor, in the center of the arena.'
+L['bs_tir_location'] = 'Atop the mountain overlooking {location:Freehold}.'
+
+L['bs_emerald_dragonshrine'] = 'Emerald Dragonshrine'
+L['bs_bronze_dragonshrine'] = 'Bronze Dragonshrine'
+
+L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
+L['options_icons_secrets_of_azeroth_desc'] = 'Display clue locations for {location:Secrets of Azeroth}.'
+
+-- Mimiron's Jumpjets Mount
+L['soa_mjj_list_note'] = 'Collect all 3 parts  and assemble them at the {object:Empowered Arcane Forge} to recieve {item:210022}:'
+L['soa_mjj_part1_note'] = 'Have 3 players channeling the braziers with their {item:208092} to summon the {npc:210398}. He will drop the {item:208984}.'
+L['soa_mjj_part2_note'] = [[{note:You will need at least 4 people around you for this part.}
+
+In {location:Irontree Woods}, you will find a giant {npc:210417} and a {object:Mimiron's Booster Part} next to use. You can either use the {object:Mimiron's Booster Part} to mount on the elemental and use its ability {spell:423412} to suck people in, or run close to the elemental (but not close enough to get on its aoe, as it knocks you back) so the person piloting it can suck you in.
+
+Once the elemental sucks 4 people in, it will explode and drop {item:209781}! Anyone in the area can loot it.]]
+L['soa_mjj_part3_note'] = '{item:209055} will be waiting for you right in front of the {object:Dark Portal} in the {location:Blasted Lands}! Be careful of {npc:23082} and NPCs in the area, as it does take a 12-second cast to loot the part.'

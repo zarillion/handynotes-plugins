@@ -43,7 +43,7 @@ function POI:Initialize(attrs)
         for k, v in ipairs(self.points) do self[k] = v end
     end
 
-    if self.color then self.r, self.g, self.b = ns.HEXtoRGBA(self.color) end
+    if self.color then self.r, self.g, self.b = ns.getARGB(self.color) end
 end
 
 function POI:IsCompleted()
@@ -94,7 +94,7 @@ function POI:Draw(pin, xy)
     if self.icon then
         r, g, b, a = 1, 1, 1, 1
     elseif self.color then
-        r, g, b = ns.HEXtoRGBA(self.color)
+        r, g, b = ns.getARGB(self.color)
     end
 
     t:SetTexture(self.icon and ns.GetIconPath(self.icon) or CIRCLE)

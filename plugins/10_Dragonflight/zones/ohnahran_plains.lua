@@ -13,6 +13,7 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local AncientStone = ns.node.AncientStone
+local Celestine = ns.node.Celestine
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local ElementalStorm = ns.node.ElementalStorm
@@ -29,6 +30,7 @@ local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
+local RenewedMagmammoth = ns.node.RenewedMagmammoth
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -1862,7 +1864,8 @@ map.nodes[55005500] = ElusiveCreature({
     rewards = {
         Item({item = 193224}), -- Lustrous Scaled Hide
         Item({item = 193215}), -- Adamant Scales
-        Item({item = 193253}) -- Cacophonous Thunderscale
+        Item({item = 193253}), -- Cacophonous Thunderscale
+        Achievement({id = 18832, criteria = 61474}) -- Elusive Legend of the Dragon Isles
     }
 }) -- Elusive Tempest Lizard
 
@@ -1871,7 +1874,8 @@ map.nodes[24005600] = ElusiveCreature({
     rewards = {
         Item({item = 193218}), -- Dense Hide
         Item({item = 193211}), -- Resilient Leather
-        Item({item = 193251}) -- Crystalspine Fur
+        Item({item = 193251}), -- Crystalspine Fur
+        Achievement({id = 18832, criteria = 61482}) -- Elusive Legend of the Dragon Isles
     }
 }) -- Elusive Flourishing Quillbloom
 
@@ -2128,5 +2132,14 @@ map.nodes[76156952] = Collectible({
         Toy({item = 206043}) -- Fyrakk's Frenzy
     }
 }) -- Fyrakk Assault
+
+------------------------------------------------------------------------------
+--------------------------------- DREAMSURGE ---------------------------------
+------------------------------------------------------------------------------
+
+map.nodes[64164161] = Celestine()
+map.nodes[24496126] = RenewedMagmammoth()
+
+-------------------------------------------------------------------------------
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
