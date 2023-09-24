@@ -848,10 +848,10 @@ L['soa_01_golden_chalice_note'] = 'Поместите {item:208056} в {location
 
 -- Secrets of Azeroth: Clue 2
 L['soa_02_rlabel'] = '(Загадка 2)'
-L['soa_02_kathos_note'] = 'Поговорите с {npc: 206864}, чтобы получить {item: 207105}.\n\nОтнесите {item:207105} к {npc:186448} в {location:Искару} в {location:Лазурный Простор}.'
+L['soa_02_kathos_note'] = 'Поговорите с {npc:206864}, чтобы получить {item:207105}.\n\nОтнесите {item:207105} к {npc:186448} в {location:Искару} в {location:Лазурный Простор}.'
 L['soa_02_shomko_note_a'] = 'Поговорите с {npc:186448}, чтобы получить {item:207580}.'
 L['soa_02_shomko_note_b'] = 'Поместите {item:207580} на {object:Ритуальное копье} в {location:Терзающем Биче} в локации {location:Борейская тундра} в {location:Нордсколе}.'
-L['soa_02_shomko_note_c'] = '{note:Обязательно останьтесь и убейте {npc: 208182}, чтобы получить {item:207594}.}'
+L['soa_02_shomko_note_c'] = '{note:Обязательно останьтесь и убейте {npc:208182}, чтобы получить {item:207594}.}'
 
 -- Secrets of Azeroth: Clue 3
 L['soa_03_rlabel'] = '(Загадка 3)'
@@ -969,7 +969,7 @@ L['soa_14_rlabel'] = '(Загадка 14)'
 L['soa_14_tithris_note'] = 'Поговорите с {npc:185562}, он даст вам {item:208942}. После этого отправляйтесь в {location:Пик Грозового Покрова} в {location:Тальдразусе}.'
 L['soa_14_buried_object_label'] = 'Закопанный предмет (%d)'
 L['soa_14_tablet_label'] = 'Табличка с письменами титанов (%d)'
-L['soa_14_tablet_note'] = 'Используйте {item: 208092}, чтобы открыть {object:Табличку с письменами титанов}. Следуйте по координатам с помощью {item: 206696} к {object:Закопанному предмету} и выкопайте {item: 209795}.'
+L['soa_14_tablet_note'] = 'Используйте {item:208092}, чтобы открыть {object:Табличку с письменами титанов}. Следуйте по координатам с помощью {item:206696} к {object:Закопанному предмету} и выкопайте {item:209795}.'
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(Загадка 15)'
@@ -987,7 +987,7 @@ L['soa_15_orb_location'] = nil
 L['soa_15_orb_note'] = nil
 
 -- Community Rumor Mill
-L['buried_satchel_note'] = 'Выкопайте {item: 208142} из {object:Кучи рыхлой земли}.'
+L['buried_satchel_note'] = 'Выкопайте {item:208142} из {object:Кучи рыхлой земли}.'
 L['buried_satchel_sublabel'] = '{note:Это НЕ местоположение {item:208142}.}'
 
 L['bs_epl_location'] = 'За зданием в {location:Перекрестке Корина}.'
