@@ -716,7 +716,7 @@ ZaralekCavern.nodes[38756061] = Dragonrace({
     normal = {2246, 68, 63},
     advanced = {2252, 60, 55},
     reverse = {2258, 57, 52},
-    challenge = {2486, nil, 57},
+    challenge = {2486, 60, 57},
     reverseChallenge = {2487, nil, 58},
     rewards = ZaralekCavern_Rewards(1, 1, 2)
 }) -- Crystal Circuit
@@ -727,7 +727,7 @@ ZaralekCavern.nodes[39054999] = Dragonrace({
     advanced = {2253, 73, 68},
     reverse = {2259, 73, 68},
     challenge = {2488, nil, 72},
-    reverseChallenge = {2489, nil, 72},
+    reverseChallenge = {2489, 75, 72},
     rewards = ZaralekCavern_Rewards(2, 3, 4)
 }) -- Caldera Cruise
 
@@ -736,8 +736,8 @@ ZaralekCavern.nodes[54502371] = Dragonrace({
     normal = {2248, 72, 69},
     advanced = {2254, 69, 64},
     reverse = {2260, 69, 64},
-    challenge = {2490, nil, 69},
-    reverseChallenge = {2491, nil, 71},
+    challenge = {2490, 72, 69},
+    reverseChallenge = {2491, 74, 71},
     rewards = ZaralekCavern_Rewards(3, 5, 6)
 }) -- Brimstone Scramble
 
@@ -746,8 +746,8 @@ ZaralekCavern.nodes[58724503] = Dragonrace({
     normal = {2249, 80, 75},
     advanced = {2255, 75, 70},
     reverse = {2261, 77, 42},
-    challenge = {2492, nil, 79},
-    reverseChallenge = {2493, nil, 75},
+    challenge = {2492, 82, 79},
+    reverseChallenge = {2493, 78, 75},
     rewards = ZaralekCavern_Rewards(4, 7, 8)
 }) -- Shimmering Slalom
 
@@ -756,18 +756,18 @@ ZaralekCavern.nodes[58155759] = Dragonrace({
     normal = {2250, 60, 55},
     advanced = {2256, 55, 50},
     reverse = {2262, 53, 48},
-    challenge = {2494, nil, 53},
-    reverseChallenge = {2495, nil, 52},
+    challenge = {2494, 56, 53},
+    reverseChallenge = {2495, 55, 52},
     rewards = ZaralekCavern_Rewards(5, 9, 10)
-}) -- Zaralek Zigzag
+}) -- Loamm Roamm
 
 ZaralekCavern.nodes[51264667] = Dragonrace({
     label = '{quest:75035}',
     normal = {2251, 67, 64},
     advanced = {2257, 62, 57},
     reverse = {2263, 62, 57},
-    challenge = {2496, nil, 67},
-    reverseChallenge = {2497, nil, 65},
+    challenge = {2496, 70, 67},
+    reverseChallenge = {2497, 68, 65},
     rewards = ZaralekCavern_Rewards(6, 11, 12)
 }) -- Sulfur Sprint
 
