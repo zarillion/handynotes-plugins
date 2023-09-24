@@ -93,11 +93,18 @@ L['time_format_24hrs'] = nil
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_best'] = '개인 최고 기록:\n - 일반: %.3f초\n - 고급: %.3f초'
-L['dr_best_dash'] = '개인 최고 기록:\n - %.3f초'
-L['dr_note'] = '목표 시간:\n - 일반: %s초 / %s초\n - 고급: %s초 / %s초'
-L['dr_note_dash'] = '목표 시간:\n - %s초 / %s초'
-L['dr_bronze'] = '\n\n경주를 완주하고 ' .. ns.color.Bronze('동메달') .. '을 획득하세요.'
+L['dr_your_best_time'] = nil
+L['dr_your_target_time'] = nil
+L['dr_best_time'] = ' - %s: %.3fs'
+L['dr_target_time'] = ' - %s: %ss / %ss'
+L['dr_normal'] = nil
+L['dr_advanced'] = nil
+L['dr_reverse'] = nil
+L['dr_challenge'] = nil
+L['dr_reverse_challenge'] = nil
+L['dr_bronze'] = '경주를 완주하고 ' .. ns.color.Bronze('동메달') .. '을 획득하세요.'
+L['dr_vendor_note'] = nil
+L['dr_rostrum_note'] = nil
 L['options_icons_dragonrace'] = '용 조련술 경주'
 L['options_icons_dragonrace_desc'] = '용 조련술 경주 위치를 표시합니다.'
 

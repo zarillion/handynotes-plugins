@@ -258,7 +258,7 @@ L['icemaw_storage_cache'] = 'Vorratsdepot des Eisschlunds'
 L['options_icons_icemaw_storage_cache'] = 'Vorratsdepot des Eisschlunds'
 L['options_icons_icemaw_storage_cache_desc'] = 'Zeigt die möglichen Positionen für {object:Vorratsdepots des Eisschlunds} an.'
 
-L['kazzi_note_start'] = 'Tausche {item:202017} und {item:202018} für Ausrüstungsvorlagen, Drachenanpassungen, ein Haustier und mehr ein.'
+L['kazzi_note_start'] = 'Tausche {item:202017} und {item:202018} gegen Ausrüstungsvorlagen, Drachenwächtermanuskripte, ein Haustier und mehr ein.'
 L['kazzi_note_item'] = 'Zurzeit hast du %s {item:%s}.'
 L['kazzi_achievement_suffix'] = 'Rang in der Sprache der Winterpelze'
 
@@ -395,7 +395,7 @@ L['gemstone_of_return'] = 'Edelstein der Rückkehr'
 
 L['treysh_note'] = 'Tausche {currency:2118} oder Gold gegen Ausrüstungsvorlagen und Reittiere ein.'
 L['renown_envoy_label'] = 'Rufabgesandte'
-L['renown_envoy_note'] = 'Tausche {currency:2118} oder Gold gegen Reittiere, Haustiere, Ausrüstungsvorlagen, Drachenanpassungen, Rezepte und andere nützliche Gegenstände ein.'
+L['renown_envoy_note'] = 'Tausche {currency:2118} oder Gold gegen Reittiere, Haustiere, Ausrüstungsvorlagen, Drachenwächtermanuskripte, Rezepte und andere nützliche Gegenstände ein.'
 L['trader_hagarth_note'] = 'Tausche {item:190456} gegen Rezepte ein.'
 
 L['naszuro_caldera_of_the_menders'] = 'Oben im Turm.'
@@ -810,7 +810,7 @@ L['big_slick_note'] = 'Schließe bei {npc:201752} tägliche Quests ab, um bei de
 L['grogul_note'] = 'Sprich mit {npc:204672} und wähle ein Leckerli aus, das du benutzen kannst, die Schnecke zu ermutigen sich schneller fortzubewegen.\n{note:Der Erfolg kann vor Ruhmstufe 7 erlangt werden.}'
 
 L['saccratos_note'] = 'Tausche {item:204727} gegen zwei Reittiere, ein Haustier und mehr ein.'
-L['ponzo_note'] = 'Tausche {item:204985} gegen Drachenanpassungen, ein Reittier, ein Haustier und mehr ein.'
+L['ponzo_note'] = 'Tausche {item:204985} gegen ein Reittier, ein Haustier, Drachenwächtermanuskripte und mehr ein.'
 
 L['smelly_trash_pile_label'] = 'Stinkender Müllhaufen'
 L['options_icons_smelly_trash_pile'] = 'Stinkender Müllhaufen'

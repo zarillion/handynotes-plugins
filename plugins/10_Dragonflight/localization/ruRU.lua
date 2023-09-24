@@ -923,10 +923,10 @@ L['soa_01_golden_chalice_note'] = 'Поместите {item:208056} в {location
 
 -- Secrets of Azeroth: Clue 2
 L['soa_02_rlabel'] = '(Загадка 2)'
-L['soa_02_kathos_note'] = 'Поговорите с {npc: 206864}, чтобы получить {item: 207105}.\n\nОтнесите {item:207105} к {npc:186448} в {location:Искару} в {location:Лазурный Простор}.'
+L['soa_02_kathos_note'] = 'Поговорите с {npc:206864}, чтобы получить {item:207105}.\n\nОтнесите {item:207105} к {npc:186448} в {location:Искару} в {location:Лазурный Простор}.'
 L['soa_02_shomko_note_a'] = 'Поговорите с {npc:186448}, чтобы получить {item:207580}.'
 L['soa_02_shomko_note_b'] = 'Поместите {item:207580} на {object:Ритуальное копье} в {location:Терзающем Биче} в локации {location:Борейская тундра} в {location:Нордсколе}.'
-L['soa_02_shomko_note_c'] = '{note:Обязательно останьтесь и убейте {npc: 208182}, чтобы получить {item:207594}.}'
+L['soa_02_shomko_note_c'] = '{note:Обязательно останьтесь и убейте {npc:208182}, чтобы получить {item:207594}.}'
 
 -- Secrets of Azeroth: Clue 3
 L['soa_03_rlabel'] = '(Загадка 3)'
@@ -968,10 +968,10 @@ L['soa_05_enchanted_box_label'] = nil
 
 -- Secrets of Azeroth: Clue 6
 L['soa_06_rlabel'] = '(Загадка 6)'
-L['soa_06_unvieled_tablet_label'] = nil
-L['soa_06_unvieled_tablet_note_a'] = nil
-L['soa_06_unvieled_tablet_note_b'] = nil
-L['soa_06_unvieled_tablet_note_c'] = nil
+L['soa_06_unvieled_tablet_label'] = 'Открывшаяся табличка'
+L['soa_06_unvieled_tablet_note_a'] = 'Поговорите с {npc:207696}, чтобы завершить задание {quest:77284} и получить {item:208137}.\n\nЗатем отправляйтесь в {location:Вактрос} в {location:Лазурном Просторе}.'
+L['soa_06_unvieled_tablet_note_b'] = 'Используйте {item:208092} в основании пилона в {location:Вактросе} в {location:Лазурном Просторе}, чтобы появилась {object:Открывшаяся табличка}.'
+L['soa_06_unvieled_tablet_note_c'] = 'Заберите {item:208143} и вернитесь к {npc:207696} в {location:Вальдраккен}, чтобы завершить загадку.'
 
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '(Загадка 7)'
@@ -982,26 +982,26 @@ L['soa_07_idol_note'] = 'Заберите {item:207730} рядом с {object:Д
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '(Загадка 8)'
-L['soa_08_kathos_note'] = nil
-L['soa_08_time_lost_fragment_note'] = nil
-L['soa_08_tl_fragment_location_a'] = nil
-L['soa_08_tl_fragment_location_b'] = nil
-L['soa_08_tl_fragment_location_c'] = nil
+L['soa_08_kathos_note'] = 'Поговорите с {npc:206864}, чтобы получить {item:206948}.\n\nЛетите в {location:Зыбучие пески} в {location:Тальдразусе} и используйте {item:207730}, чтобы найти 3x {item:208191}.'
+L['soa_08_time_lost_fragment_note'] = 'Используйте {item:207730}, чтобы найти 3x {item:208191} в {в {location:Зыбучих песках} в {location:Тальдразусе}.\n\nОбъедините все 3x, чтобы создать {item:208146} и вернитесь к {npc:206864} в {location:Вальдраккен}.'
+L['soa_08_tl_fragment_location_a'] = 'Под маленьким деревом.'
+L['soa_08_tl_fragment_location_b'] = 'Между двумя большими валунами.'
+L['soa_08_tl_fragment_location_c'] = 'На дне маленькой реки.'
 
 -- Secrets of Azeroth: Clue 9
 L['soa_09_rlabel'] = '(Загадка 9)'
-L['soa_09_bobby_note'] = nil
-L['soa_09_hastily_scrawled_stone_label'] = nil
-L['soa_09_hastily_scrawled_stone_note'] = nil
-L['soa_09_ancient_key_mold_label'] = nil
-L['soa_09_ancient_key_mold_note'] = nil
+L['soa_09_bobby_note'] = 'Поговорите с {npc:207696}, чтобы начать задание {quest:77653}. Выполните задание у {npc:195769}, чтобы получить {item:208486}.\n\nЗатем отправляйтесь в {location:Лесную рощю} в {location:Равнинах Он\'ары}.'
+L['soa_09_hastily_scrawled_stone_label'] = 'Наспех исцарапанный камень'
+L['soa_09_hastily_scrawled_stone_note'] = 'Используйте {item:208092}, чтобы открыть {object:Наспех исцарапанный камень}, затем перейдите к ближайшей {object:Древней форме для ключа}.'
+L['soa_09_ancient_key_mold_label'] = 'Древняя форма для ключа'
+L['soa_09_ancient_key_mold_note'] = 'Добудьте {object:Древнюю форму для ключа}, чтобы получить {item:208827} для начала задания {quest:77822}.\n\nВернитесь к {npc:195769} в {location:Вальдраккене}.'
 
 -- Secrets of Azeroth: Clue 10
 L['soa_10_rlabel'] = '(Загадка 10)'
-L['soa_10_tyrs_titan_key_note'] = nil
-L['soa_10_rose_gold_dust_note'] = nil
-L['soa_10_igneous_flux_note'] = nil
-L['soa_10_weaponsmith_koref_note'] = nil
+L['soa_10_tyrs_titan_key_note'] = 'Возьмите задание {quest:77829} у {npc:207696} и идите к {npc:210837}, чтобы получить {item:208829}.\n\nСобирайте {item:208835} и {item:208836} на {location:Берегах Пробуждения}, чтобы создать ключ в {location:Обсидиановой цитадели}.'
+L['soa_10_rose_gold_dust_note'] = 'Соберите 50x {item:208835}, используйте свою игрушку {item:207730}, чтобы найти маленькую красную гальку на полу.\n\nОтправляйтесь к {npc:210837} в {location:Обсидиановую цитадель} после того, как вы нашли 50x {item:208835} и 8x {item:208836}.'
+L['soa_10_igneous_flux_note'] = 'Соберите 8x {item:208836} в различных местах в {location:Берегов Пробуждения}, где лава встречает морскую воду.\n\nОтправляйтесь к {npc:210837} в {location:Обсидиановую цитадель} после того, как вы нашли 50x {item:208835} и 8x {item:208836}.'
+L['soa_10_weaponsmith_koref_note'] = 'Поговорите с {npc:210837} и запустите задание {quest:77831}, чтобы помочь ему выковать {item:208831} с ингредиентами и вашей игрушкой {item:208092}.'
 
 -- Secrets of Azeroth: Clue 11
 L['soa_11_rlabel'] = '(Загадка 11)'
@@ -1044,7 +1044,7 @@ L['soa_14_rlabel'] = '(Загадка 14)'
 L['soa_14_tithris_note'] = 'Поговорите с {npc:185562}, он даст вам {item:208942}. После этого отправляйтесь в {location:Пик Грозового Покрова} в {location:Тальдразусе}.'
 L['soa_14_buried_object_label'] = 'Закопанный предмет (%d)'
 L['soa_14_tablet_label'] = 'Табличка с письменами титанов (%d)'
-L['soa_14_tablet_note'] = 'Используйте {item: 208092}, чтобы открыть {object:Табличку с письменами титанов}. Следуйте по координатам с помощью {item: 206696} к {object:Закопанному предмету} и выкопайте {item: 209795}.'
+L['soa_14_tablet_note'] = 'Используйте {item:208092}, чтобы открыть {object:Табличку с письменами титанов}. Следуйте по координатам с помощью {item:206696} к {object:Закопанному предмету} и выкопайте {item:209795}.'
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(Загадка 15)'
@@ -1062,27 +1062,27 @@ L['soa_15_orb_location'] = nil
 L['soa_15_orb_note'] = nil
 
 -- Community Rumor Mill
-L['buried_satchel_note'] = 'Выкопайте {item: 208142} из {object:Кучи рыхлой земли}.'
+L['buried_satchel_note'] = 'Выкопайте {item:208142} из {object:Кучи рыхлой земли}.'
 L['buried_satchel_sublabel'] = '{note:Это НЕ местоположение {item:208142}.}'
 
 L['bs_epl_location'] = 'За зданием в {location:Перекрестке Корина}.'
 L['bs_fel_location'] = 'Под водой в центре {location:Оскверненного леса}.'
 L['bs_tho_location'] = 'В подводной пещере под названием {location:оплот Треснувшего Копыта}.'
 L['bs_smv_location'] = 'Внутри пустого дерева в {location:пике Лунной Ивы}.'
-L['bs_net_location'] = nil
-L['bs_vfw_location'] = nil
-L['bs_tas_location'] = nil
-L['bs_dbt_location'] = nil
-L['bs_bar_location'] = nil
-L['bs_nag_location'] = nil
-L['bs_gri_location'] = nil
-L['bs_hmt_location'] = nil
-L['bs_wpl_location'] = nil
-L['bs_tli_location'] = nil
-L['bs_tir_location'] = nil
+L['bs_net_location'] = 'В {location:Манагорне Б\'наар} в {location:Пустоверте} в {location:Запределье}.\n\n{note:Вам понадобится 3 игрока, чтобы активировать {item:208092} на близлежащих кристаллах, чтобы появилась {object:Кучка рыхлой земли}.}'
+L['bs_vfw_location'] = 'На вершине золотого водопада в устье статуи {npc:129151}.'
+L['bs_tas_location'] = 'Используйте {item:208135}, чтобы растопить {npc:96438} и появиться {object:Кучка рыхлой земли}.'
+L['bs_dbt_location'] = 'Под большим когтями скелета в {location:%s}.'
+L['bs_bar_location'] = 'На вершине горы.'
+L['bs_nag_location'] = 'На плавающем острове высоко над {location:Озером Небесной Песни}.'
+L['bs_gri_location'] = 'Поговорите с {npc:%s}, чтобы прокатиться на бревне с {location:Лесозаготовки Синего Неба} до {location:Бухты торговцев}. После того, как вы начнете поездку, вы получите бафф {spell:423942}.\n\n{note:У вас должен быть бафф {spell:423942}, чтобы увидеть кучку рыхлой земли.}'
+L['bs_hmt_location'] = 'На вершине {location:Крутогорья} возле {object:Иссохшего пергамента}.'
+L['bs_wpl_location'] = 'Между повозкой и замком в {location:Каэр Дарроу}.'
+L['bs_tli_location'] = 'На полу, в центре арены.'
+L['bs_tir_location'] = 'На вершине горы с видом на {location:Вольную Гавань}.'
 
-L['bs_emerald_dragonshrine'] = 'Изумрудное святилище драконов'
-L['bs_bronze_dragonshrine'] = 'Бронзовое святилище драконов'
+L['bs_emerald_dragonshrine'] = 'Изумрудном святилище драконов'
+L['bs_bronze_dragonshrine'] = 'Бронзовом святилище драконов'
 
 L['options_icons_secrets_of_azeroth'] = 'Тайны Азерота'
 L['options_icons_secrets_of_azeroth_desc'] = 'Отображать места подсказок для {location:Тайн Азерота}.'
