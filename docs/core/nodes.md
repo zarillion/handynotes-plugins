@@ -113,11 +113,11 @@ map.nodes[58085381] = ns.node.Collectible({
     scale = 1.3
     note = L['ponzo_note'],
     rewards = {
-        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, 'x55'),
-        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, 'x55'),
-        DC.SetNote(DC.WindingSlitherdrake.CurledNose, 'x55'),
-        Pet({item = 205120, id = 3537, note = 'x85'}), -- Thimblerig
-        Mount({item = 205209, id = 1736, note = 'x170'}) -- Boulder Hauler
+        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, '55x'),
+        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, '55x'),
+        DC.SetNote(DC.WindingSlitherdrake.CurledNose, '55x'),
+        Pet({item = 205120, id = 3537, note = '85x'}), -- Thimblerig
+        Mount({item = 205209, id = 1736, note = '170x'}) -- Boulder Hauler
     }
 }) -- Ponzo <Barterer Extraordinaire>
 ```

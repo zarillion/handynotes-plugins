@@ -415,7 +415,7 @@ map.nodes[25751995] = Treasure({
     note = L['merchants_chest_note'],
     rewards = {
         Achievement({id = 12995, criteria = 41698}),
-        Item({item = 163036, note = 'x5'})
+        Item({item = 163036, note = '5x'})
     }
 }) -- Merchant's Chest
 
@@ -448,7 +448,7 @@ map.nodes[24264830] = Treasure({
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 12995, criteria = 41752}),
-        Item({item = 163036, note = 'x5'})
+        Item({item = 163036, note = '5x'})
     }
 }) -- Stolen Thornspeaker Cache
 
