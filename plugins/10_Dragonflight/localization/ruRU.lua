@@ -923,10 +923,10 @@ L['soa_09_ancient_key_mold_note'] = nil
 
 -- Secrets of Azeroth: Clue 10
 L['soa_10_rlabel'] = '(Загадка 10)'
-L['soa_10_tyrs_titan_key_note'] = nil
-L['soa_10_rose_gold_dust_note'] = nil
-L['soa_10_igneous_flux_note'] = nil
-L['soa_10_weaponsmith_koref_note'] = nil
+L['soa_10_tyrs_titan_key_note'] = 'Возьмите задание {quest:77829} у {npc:207696} и идите к {npc:210837}, чтобы получить {item:208829}.\n\nСобирайте {item:208835} и {item:208836} на {location:Берегах Пробуждения}, чтобы создать ключ в {location:Обсидиановой цитадели}.'
+L['soa_10_rose_gold_dust_note'] = 'Соберите 50x {item:208835}, используйте свою игрушку {item:207730}, чтобы найти маленькую красную гальку на полу.\n\nОтправляйтесь к {npc:210837} в {location:Обсидиановую цитадель} после того, как вы нашли 50x {item:208835} и 8x {item:208836}.'
+L['soa_10_igneous_flux_note'] = 'Соберите 8x {item:208836} в различных местах в {location:Берегов Пробуждения}, где лава встречает морскую воду.\n\nОтправляйтесь к {npc:210837} в {location:Обсидиановую цитадель} после того, как вы нашли 50x {item:208835} и 8x {item:208836}.'
+L['soa_10_weaponsmith_koref_note'] = 'Поговорите с {npc:210837} и запустите задание {quest:77831}, чтобы помочь ему выковать {item:208831} с ингредиентами и вашей игрушкой {item:208092}.'
 
 -- Secrets of Azeroth: Clue 11
 L['soa_11_rlabel'] = '(Загадка 11)'
