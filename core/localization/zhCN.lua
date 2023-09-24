@@ -79,9 +79,9 @@ L['unlearnable'] = '无法解锁'
 L['defeated'] = '已击杀'
 L['undefeated'] = '未击杀'
 L['elite'] = '精英'
-L['quest'] = nil
-L['quest_repeatable'] = nil
-L['achievement'] = nil
+L['quest'] = '任务'
+L['quest_repeatable'] = '可重复任务'
+L['achievement'] = '成就'
 
 L['follower_type_follower'] = '追随者'
 L['follower_type_champion'] = '勇士'
