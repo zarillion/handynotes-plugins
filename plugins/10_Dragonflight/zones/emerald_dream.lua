@@ -713,24 +713,24 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
 -- Small Dreamseeds give 20 Seedbloom (with low contribution)
 -- Gigantic Dreamseeds give 350 Seedbloom
 
--- map.nodes[] = EmeraldBounty({criteriaID = 62396}) -- Ageless Blossom                  -- Dew Contribution -- Looting Dreamseed Cache
-map.nodes[38455920] = EmeraldBounty({criteriaID = 62185, quest = 77519}) -- Comfy Chamomile         -- 77515 -- 77517 Cache
-map.nodes[40025268] = EmeraldBounty({criteriaID = 62035}) -- Viridescent Sprout                     --       --
-map.nodes[40672478] = EmeraldBounty({criteriaID = 62027, quest = 77496}) -- Lavatouched Lilies      -- 77492 -- 77494
-map.nodes[40744348] = EmeraldBounty({criteriaID = 62036, quest = 77511}) -- Glade Goldenrod         -- 77507 --
-map.nodes[42647405] = EmeraldBounty({criteriaID = 62186, quest = 77531}) -- Moon Tulip              -- 77527 -- 77529
-map.nodes[46384049] = EmeraldBounty({criteriaID = 62037, quest = 77274}) -- Dreamer's Daisy         -- 77390 -- 77393 -- I Planted a Gigantic Seed here, quests may be different?
-map.nodes[48738045] = EmeraldBounty({criteriaID = 62189, quest = 77538}) -- Flourishing Scurfpea    -- 77536 --
-map.nodes[49174806] = EmeraldBounty({criteriaID = 62038, quest = 77387}) -- Ringing Rose            -- 77388 -- 77389
-map.nodes[49903543] = EmeraldBounty({criteriaID = 62041, quest = 77359}) -- Belligerent Begonias    -- 77363 -- 77360
-map.nodes[51145866] = EmeraldBounty({criteriaID = 62397}) -- Whisperbloom Sapling                   --       --
-map.nodes[54596763] = EmeraldBounty({criteriaID = 62029, quest = 77222}) -- Chiming Foxglove        --       -- 77211 (looting Dreamseed Cache)
-map.nodes[56513767] = EmeraldBounty({criteriaID = 62040, quest = 77503}) -- Lullaby Lavender        --       -- 77501
-map.nodes[56654487] = EmeraldBounty({criteriaID = 62039, quest = 77384}) -- Lofty Lupin             --       -- 77385
-map.nodes[59235875] = EmeraldBounty({criteriaID = 62028, quest = 77216}) -- Ysera's Clover          --       -- 77210
-map.nodes[63025282] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling                       --       --
-map.nodes[63504710] = EmeraldBounty({criteriaID = 62032, quest = 77380}) -- Fuzzy Licorice          --       --
-map.nodes[63956483] = EmeraldBounty({criteriaID = 62030, quest = 77224}) -- Dragon's Daffodil       --       --
+-- map.nodes[] = EmeraldBounty({criteriaID = 62396}) -- Ageless Blossom
+map.nodes[38455920] = EmeraldBounty({criteriaID = 62185}) -- Comfy Chamomile
+map.nodes[40025268] = EmeraldBounty({criteriaID = 62035}) -- Viridescent Sprout
+map.nodes[40672478] = EmeraldBounty({criteriaID = 62027}) -- Lavatouched Lilies
+map.nodes[40744348] = EmeraldBounty({criteriaID = 62036}) -- Glade Goldenrod
+map.nodes[42647405] = EmeraldBounty({criteriaID = 62186}) -- Moon Tulip
+map.nodes[46384049] = EmeraldBounty({criteriaID = 62037}) -- Dreamer's Daisy
+map.nodes[48738045] = EmeraldBounty({criteriaID = 62189}) -- Flourishing Scurfpea
+map.nodes[49174806] = EmeraldBounty({criteriaID = 62038}) -- Ringing Rose
+map.nodes[49903543] = EmeraldBounty({criteriaID = 62041}) -- Belligerent Begonias
+map.nodes[51145866] = EmeraldBounty({criteriaID = 62397}) -- Whisperbloom Sapling
+map.nodes[54596763] = EmeraldBounty({criteriaID = 62029}) -- Chiming Foxglove
+map.nodes[56513767] = EmeraldBounty({criteriaID = 62040}) -- Lullaby Lavender
+map.nodes[56654487] = EmeraldBounty({criteriaID = 62039}) -- Lofty Lupin
+map.nodes[59235875] = EmeraldBounty({criteriaID = 62028}) -- Ysera's Clover
+map.nodes[63025282] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling
+map.nodes[63504710] = EmeraldBounty({criteriaID = 62032}) -- Fuzzy Licorice
+map.nodes[63956483] = EmeraldBounty({criteriaID = 62030}) -- Dragon's Daffodil
 
 -------------------------------------------------------------------------------
 --------------------------------- DREAMFRUIT ----------------------------------
@@ -1035,6 +1035,7 @@ map.nodes[47743551] = SmallSomnut()
 map.nodes[48292228] = SmallSomnut({location = L['in_a_tree']}) -- ontop of the burning tree
 map.nodes[54101937] = SmallSomnut()
 map.nodes[55324272] = SmallSomnut()
+map.nodes[55575494] = SmallSomnut({location = L['in_water']})
 map.nodes[55733714] = SmallSomnut()
 map.nodes[55915818] = SmallSomnut()
 map.nodes[60134204] = SmallSomnut() -- Bugged inside the Branch/Root. only lootable with interact key.
