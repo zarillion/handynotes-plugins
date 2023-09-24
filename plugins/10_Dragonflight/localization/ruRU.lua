@@ -915,11 +915,11 @@ L['soa_08_tl_fragment_location_c'] = 'На дне маленькой реки.'
 
 -- Secrets of Azeroth: Clue 9
 L['soa_09_rlabel'] = '(Загадка 9)'
-L['soa_09_bobby_note'] = nil
-L['soa_09_hastily_scrawled_stone_label'] = nil
-L['soa_09_hastily_scrawled_stone_note'] = nil
-L['soa_09_ancient_key_mold_label'] = nil
-L['soa_09_ancient_key_mold_note'] = nil
+L['soa_09_bobby_note'] = 'Поговорите с {npc:207696}, чтобы начать задание {quest:77653}. Выполните задание у {npc:195769}, чтобы получить {item:208486}.\n\nЗатем отправляйтесь в {location:Лесную рощю} в {location:Равнинах Он\'ары}.'
+L['soa_09_hastily_scrawled_stone_label'] = 'Наспех исцарапанный камень'
+L['soa_09_hastily_scrawled_stone_note'] = 'Используйте {item:208092}, чтобы открыть {object:Наспех исцарапанный камень}, затем перейдите к ближайшей {object:Древней форме для ключа}.'
+L['soa_09_ancient_key_mold_label'] = 'Древняя форма для ключа'
+L['soa_09_ancient_key_mold_note'] = 'Добудьте {object:Древнюю форму для ключа}, чтобы получить {item:208827} для начала задания {quest:77822}.\n\nВернитесь к {npc:195769} в {location:Вальдраккене}.'
 
 -- Secrets of Azeroth: Clue 10
 L['soa_10_rlabel'] = '(Загадка 10)'
