@@ -907,11 +907,11 @@ L['soa_07_idol_note'] = 'Заберите {item:207730} рядом с {object:Д
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '(Загадка 8)'
-L['soa_08_kathos_note'] = nil
-L['soa_08_time_lost_fragment_note'] = nil
-L['soa_08_tl_fragment_location_a'] = nil
-L['soa_08_tl_fragment_location_b'] = nil
-L['soa_08_tl_fragment_location_c'] = nil
+L['soa_08_kathos_note'] = 'Поговорите с {npc:206864}, чтобы получить {item:206948}.\n\nЛетите в {location:Зыбучие пески} в {location:Тальдразусе} и используйте {item:207730}, чтобы найти 3x {item:208191}.'
+L['soa_08_time_lost_fragment_note'] = 'Используйте {item:207730}, чтобы найти 3x {item:208191} в {в {location:Зыбучих песках} в {location:Тальдразусе}.\n\nОбъедините все 3x, чтобы создать {item:208146} и вернитесь к {npc:206864} в {location:Вальдраккен}.'
+L['soa_08_tl_fragment_location_a'] = 'Под маленьким деревом.'
+L['soa_08_tl_fragment_location_b'] = 'Между двумя большими валунами.'
+L['soa_08_tl_fragment_location_c'] = 'На дне маленькой реки.'
 
 -- Secrets of Azeroth: Clue 9
 L['soa_09_rlabel'] = '(Загадка 9)'
