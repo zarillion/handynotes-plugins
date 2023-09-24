@@ -893,10 +893,10 @@ L['soa_05_enchanted_box_label'] = nil
 
 -- Secrets of Azeroth: Clue 6
 L['soa_06_rlabel'] = '(Загадка 6)'
-L['soa_06_unvieled_tablet_label'] = nil
-L['soa_06_unvieled_tablet_note_a'] = nil
-L['soa_06_unvieled_tablet_note_b'] = nil
-L['soa_06_unvieled_tablet_note_c'] = nil
+L['soa_06_unvieled_tablet_label'] = 'Открывшаяся табличка'
+L['soa_06_unvieled_tablet_note_a'] = 'Поговорите с {npc:207696}, чтобы завершить задание {quest:77284} и получить {item:208137}.\n\nЗатем отправляйтесь в {location:Вактрос} в {location:Лазурном Просторе}.'
+L['soa_06_unvieled_tablet_note_b'] = 'Используйте {item:208092} в основании пилона в {location:Вактросе} в {location:Лазурном Просторе}, чтобы появилась {object:Открывшаяся табличка}.'
+L['soa_06_unvieled_tablet_note_c'] = 'Заберите {item:208143} и вернитесь к {npc:207696} в {location:Вальдраккен}, чтобы завершить загадку.'
 
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '(Загадка 7)'
