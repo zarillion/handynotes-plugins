@@ -910,6 +910,10 @@ L['elianna_vendor_note'] = 'Échangez vos {currency:2777} contre des mascottes e
 L['sylvia_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'
 L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
 
+L['small_somnut'] = nil
+L['options_icons_small_somnut'] = nil
+L['options_icons_small_somnut_desc'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------

@@ -912,6 +912,10 @@ L['elianna_vendor_note'] = 'Cambia {currency:2777} por mascotas y monturas.'
 L['sylvia_vendor_note'] = 'Cambia {currency:2651} por mascotas, monturas y transfiguraciones.'
 L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
 
+L['small_somnut'] = nil
+L['options_icons_small_somnut'] = nil
+L['options_icons_small_somnut_desc'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------

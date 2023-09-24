@@ -173,6 +173,11 @@ ns.groups.SIMMERING_CHEST = Group('simmering_chest', 'chest_gn', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.SMALL_SOMNUT = Group('small_somnut', 656681, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.SMALL_TREASURES = Group('small_treasures', 'chest_rd', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION

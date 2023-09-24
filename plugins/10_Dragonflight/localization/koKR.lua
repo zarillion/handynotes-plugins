@@ -848,6 +848,10 @@ L['elianna_vendor_note'] = nil
 L['sylvia_vendor_note'] = nil
 L['thaelishar_vendor_note'] = nil
 
+L['small_somnut'] = nil
+L['options_icons_small_somnut'] = nil
+L['options_icons_small_somnut_desc'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
