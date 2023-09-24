@@ -1,8 +1,7 @@
--- Spanish Translation by (EU) Krovikan-Minahonda
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
-
+-- Spanish Translation by (EU) Krovikan-Minahonda
 -------------------------------------------------------------------------------
 ---------------------------------- COVENANTS ----------------------------------
 -------------------------------------------------------------------------------
@@ -301,9 +300,9 @@ L['soulshape_otter_soul'] = 'Selecciona al {npc:181682} y teclea {emote:/abrazo}
 L['carriage_crusher_note'] = 'Sigue al {npc:180182} en su trayecto a {location:Las Fauces} y deféndelo hasta que ataque el {npc:180246}.'
 L['chamber_note'] = 'Usa un {item:186718} del {npc:178257} en el {object:Teletransportador Antiguo}. Usa el {object:Teletransportador Antiguo Reparado} para acceder a la cámara.'
 L['consumption_note'] = [[
-Este raro no soltará botín hasta que haya consumido a {npc:179758} x40 para transformarse en su forma azul sombreada (Raro).
+Este raro no soltará botín hasta que haya consumido a 40x {npc:179758} para transformarse en su forma azul sombreada (Raro).
 
-Este raro soltará objetos de investigación extra después de consumir otros {npc:179758} x40 para transformarse en su forma verde sombreada (Raro Élite).
+Este raro soltará objetos de investigación extra después de consumir otros 40x {npc:179758} para transformarse en su forma verde sombreada (Raro Élite).
 
 {note:El raro no hará aparecer {npc:179758} para consumir si está en combate.}
 ]]
@@ -936,8 +935,8 @@ L['drowned_broker_supplies_note'] = 'Dile a {npc:181059} que coja el control de 
 L['forgotten_protovault_note'] = 'Sólo está disponible durante la misión del mundo {wq:A salto de rana}.'
 L['grateful_boon_note'] = 'Es difícil de alcanzar sin volar; usa {spell:300728} o {spell:111771} para subir la montaña. Tranquiliza a las 12 criaturas de la zona y {npc:185293} hará aparecer el tesoro.'
 L['library_vault_note'] = 'Haz click en las tablillas de la {location:Gruta Léxica} hasta que encuentres el orden correcto y ganes el buff {spell:362062} para abrir la cámara.'
-L['mistaken_ovoid_note'] = 'Dentro de la caverna {location:Cataratas Dimensionales}. Has de recoger {item:190239} x5, y llevarlos a la {npc:185280}.'
-L['ripened_protopear_note'] = 'Inicia la cadena de misiones {quest:64641} para ganar accesso a la {location:Fundición Floreciente}. Recoge 5 {spell:367180} (nubes verdes) dentro y llévalas de una en una a la {npc:185416} para polinizarla. Una vez haya crecido 5 veces, caerá.'
+L['mistaken_ovoid_note'] = 'Dentro de la caverna {location:Cataratas Dimensionales}. Has de recoger 5x {item:190239}, y llevarlos a la {npc:185280}.'
+L['ripened_protopear_note'] = 'Inicia la cadena de misiones {quest:64641} para ganar accesso a la {location:Fundición Floreciente}. Recoge 5x {spell:367180} (nubes verdes) dentro y llévalas de una en una a la {npc:185416} para polinizarla. Una vez haya crecido 5 veces, caerá.'
 L['sphere_treasure_note'] = 'Salta las esferas con cuidado hasta llegar al tesoro.'
 L['submerged_chest_note'] = 'Absorbe el {object:Orbe de Poder Peligroso} al sur. Ahora interactúa con la {object:Bomba Olvidada} junto al tesoro.'
 L['symphonic_vault_note'] = 'Examina al {npc:183998} para escuchar una secuencia de cuatro sonidos. Cada {npc:183950} de la sala reproduce un sonido. Interactúa con ellas en el orden adecuado para desbloquear el tesoro.'
@@ -956,7 +955,7 @@ L['provis_cache'] = 'Alijo de Provis cerrado'
 L['provis_cache_note'] = [[
 Completa la misión diaria {quest:64717} que te da {npc:177958} al menos una vez.
 
-Usa el {item:187516} en las forjas de la zona para conseguir {item:187728} x15 y combinarlas en el {item:187787}. Este orbe tiene probabilidad de tener la llave.
+Usa el {item:187516} en las forjas de la zona para conseguir 15x {item:187728} y combinarlas en el {item:187787}. Este orbe tiene probabilidad de tener la llave.
 ]]
 L['prying_eye_discovery'] = 'Descubrimiento del Ojo Fisgón'
 L['prying_eye_discovery_note'] = 'Es más fácil de alcanzar cuando el volar esté desbloqueado.'
@@ -974,7 +973,7 @@ Es una máquina que te dará recompensas distintas una vez a la semana:
 L['rondure_cache'] = 'Alijo Circular'
 L['rondure_cache_note'] = 'Una forja interactuable en la cima del puzzle de saltos que hay dentro de la {location:Alcoba Circular}.'
 L['sandworn_chest'] = 'Cofre Erosionado por la Arena'
-L['sandworn_chest_note'] = 'Despoja {item:190198} x5 de los enemigos de la zona para construir la {item:190197}.'
+L['sandworn_chest_note'] = 'Despoja 5x {item:190198} de los enemigos de la zona para construir la {item:190197}.'
 L['sand_piles'] = 'Montones de Arena'
 L['sand_piles_note'] = [[
 Todos los montones de arena están en la cámara escondida {location:Alcoba Durmiente}. Cada montón requiere un {item:189863}, los cuales se pueden encontrar en otros tesoros de la zona:
@@ -1071,13 +1070,13 @@ L['volatile_precursor_note'] = 'Está encima de la forja más pequeña. Puede ne
 L['wayward_essence_note'] = 'Es difícil de alcanzar sin volar; usa {spell:300728} o {spell:111771}. Está en una forja flotante detrás de la {location:Cuenca del Exilio} por la que da vueltas una {npc:178094}. Ponte encima de la hendidura para absorver.'
 
 L['patient_bufonid_note'] = 'Progresa en la historia de {location:Zereth Mortis} hasta que {npc:180950} ofrezca la misión {quest:65727}. Completa las misiones cada día para atraer un {npc:185798} fuera del estanque.'
-L['patient_bufonid_note_day1'] = 'Recoge {item:190852} x15 de los Vespoide de la zona.'
-L['patient_bufonid_note_day2'] = 'Compra {item:172053} x30 de la Casa de Subastas.'
-L['patient_bufonid_note_day3'] = 'Compra {item:173202} x200 de la Casa de Subastas.'
-L['patient_bufonid_note_day4'] = 'Compra {item:173037} x10 de la Casa de Subastas.'
-L['patient_bufonid_note_day5'] = 'Recoge {item:187704} x5 de los enemigos de la zona.'
-L['patient_bufonid_note_day6'] = 'Compra {item:190880} x5 a {npc:185748} cerca de {location:Gracia del Peregrino}.'
-L['patient_bufonid_note_day7'] = 'Compra {item:187171} x1 a {npc:180114} en la mazmorra de {location:Tazavesh}.'
+L['patient_bufonid_note_day1'] = 'Recoge 15x {item:190852} de los Vespoide de la zona.'
+L['patient_bufonid_note_day2'] = 'Compra 30x {item:172053} de la Casa de Subastas.'
+L['patient_bufonid_note_day3'] = 'Compra 200x {item:173202} de la Casa de Subastas.'
+L['patient_bufonid_note_day4'] = 'Compra 10x {item:173037} de la Casa de Subastas.'
+L['patient_bufonid_note_day5'] = 'Recoge 5x {item:187704} de los enemigos de la zona.'
+L['patient_bufonid_note_day6'] = 'Compra 5x {item:190880} a {npc:185748} cerca de {location:Gracia del Peregrino}.'
+L['patient_bufonid_note_day7'] = 'Compra 1x {item:187171} a {npc:180114} en la mazmorra de {location:Tazavesh}.'
 
 L['lost_comb'] = 'Panal Perdido'
 L['soulshape_penguin_note'] = 'Está encima de la forja flotante.'
