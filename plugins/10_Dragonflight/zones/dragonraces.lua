@@ -326,7 +326,7 @@ ForbiddenReach.nodes[41361455] = Dragonrace({
     normal = {2205, 61, 58},
     advanced = {2211, 61, 58},
     reverse = {2217, 55, 50},
-    challenge = {2482, nil, 55},
+    challenge = {2482, 58, 55},
     reverseChallenge = {2483, 56, 53},
     rewards = ForbiddenReach_Rewards(5, 9, 10)
 }) -- Caldera Coaster
@@ -717,7 +717,7 @@ ZaralekCavern.nodes[38756061] = Dragonrace({
     advanced = {2252, 60, 55},
     reverse = {2258, 57, 52},
     challenge = {2486, 60, 57},
-    reverseChallenge = {2487, nil, 58},
+    reverseChallenge = {2487, 61, 58},
     rewards = ZaralekCavern_Rewards(1, 1, 2)
 }) -- Crystal Circuit
 
@@ -726,7 +726,7 @@ ZaralekCavern.nodes[39054999] = Dragonrace({
     normal = {2247, 80, 75},
     advanced = {2253, 73, 68},
     reverse = {2259, 73, 68},
-    challenge = {2488, nil, 72},
+    challenge = {2488, 75, 72},
     reverseChallenge = {2489, 75, 72},
     rewards = ZaralekCavern_Rewards(2, 3, 4)
 }) -- Caldera Cruise
