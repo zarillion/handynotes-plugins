@@ -98,11 +98,18 @@ L['time_format_24hrs'] = '%e.%m - %H:%M Местное время'
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_best'] = 'Ваше лучшее время:\n - Обычный: %.3fс\n - Сложный: %.3fс\n - Обратный маршрут: %.3fс'
-L['dr_best_dash'] = 'Ваше лучшее время:\n - %.3fс'
-L['dr_note'] = 'Отведенное время:\n - Обычный: %sс / %sс\n - Сложный: %sс / %sс\n - Обратный маршрут: %sс / %sс'
-L['dr_note_dash'] = 'Отведенное время:\n - %sс / %sс'
-L['dr_bronze'] = '\n\nЗавершите гонку, чтобы получить ' .. ns.color.Bronze('Бронзу') .. '.'
+L['dr_your_best_time'] = 'Ваше лучшее время:'
+L['dr_your_target_time'] = 'Отведенное время:'
+L['dr_best_time'] = ' - %s: %.3fs'
+L['dr_target_time'] = ' - %s: %ss / %ss'
+L['dr_normal'] = 'Обычный'
+L['dr_advanced'] = 'Сложный'
+L['dr_reverse'] = 'Обратный маршрут'
+L['dr_challenge'] = nil
+L['dr_reverse_challenge'] = nil
+L['dr_bronze'] = 'Завершите гонку, чтобы получить ' .. ns.color.Bronze('Бронзу') .. '.'
+L['dr_vendor_note'] = nil
+L['dr_rostrum_note'] = nil
 L['options_icons_dragonrace'] = 'Гонка на драконах'
 L['options_icons_dragonrace_desc'] = 'Отображение местоположения гонок на драконах.'
 

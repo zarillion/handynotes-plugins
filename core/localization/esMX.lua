@@ -98,11 +98,18 @@ L['time_format_24hrs'] = '%H:%M - %d/%m heure locale'
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_best'] = nil
-L['dr_best_dash'] = nil
-L['dr_note'] = nil
-L['dr_note_dash'] = nil
+L['dr_your_best_time'] = nil
+L['dr_your_target_time'] = nil
+L['dr_best_time'] = nil
+L['dr_target_time'] = nil
+L['dr_normal'] = nil
+L['dr_advanced'] = nil
+L['dr_reverse'] = nil
+L['dr_challenge'] = nil
+L['dr_reverse_challenge'] = nil
 L['dr_bronze'] = nil
+L['dr_vendor_note'] = nil
+L['dr_rostrum_note'] = nil
 L['options_icons_dragonrace'] = nil
 L['options_icons_dragonrace_desc'] = nil
 

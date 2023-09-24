@@ -98,11 +98,18 @@ L['time_format_24hrs'] = '%H:%M - %d/%m Hora local'
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_best'] = 'Tu mejor tiempo:\n - Normal: %.3fs\n - Avanzado: %.3fs\n - Inverso: %.3fs'
-L['dr_best_dash'] = 'Tu mejor tiempo:\n - %.3fs'
-L['dr_note'] = 'Objetivo de tiempo:\n - Normal: %ss / %ss\n - Avanzado: %ss / %ss\n - Inverso: %ss / %ss'
-L['dr_note_dash'] = 'Objetivo de tiempo:\n - %ss / %ss'
-L['dr_bronze'] = '\n\nAcaba la carrera para conseguir el ' .. ns.color.Bronze('Bronce') .. '.'
+L['dr_your_best_time'] = 'Tu mejor tiempo:'
+L['dr_your_target_time'] = 'Tu mejor tiempo:'
+L['dr_best_time'] = ' - %s: %.3fs'
+L['dr_target_time'] = ' - %s: %ss / %ss'
+L['dr_normal'] = 'Normal'
+L['dr_advanced'] = 'Avanzado'
+L['dr_reverse'] = 'Inverso'
+L['dr_challenge'] = 'Desafío'
+L['dr_reverse_challenge'] = 'Desafío Inverso'
+L['dr_bronze'] = 'Acaba la carrera para conseguir el ' .. ns.color.Bronze('Bronce') .. '.'
+L['dr_vendor_note'] = 'Intercambia {currency:2588} por manuscritos de dracovigía y transfiguraciones.'
+L['dr_rostrum_note'] = 'Colecciona todos los ' .. ns.color.Heirloom('Manuscritos de Dracovigía') .. ' de varios drops, vendedores, misiones, artesanía, y recompensas de logros.'
 L['options_icons_dragonrace'] = 'Carreras de Dragones'
 L['options_icons_dragonrace_desc'] = 'Muestra dónde están todas las Carreras de Dragones de la zona.'
 

@@ -98,11 +98,18 @@ L['time_format_24hrs'] = '%m/%d - %H:%M 本地时间'
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_best'] = '最快时间：\n - 普通：%.3f秒\n - 进阶：%.3f秒\n - 反向：%.3f秒'
-L['dr_best_dash'] = '最快时间：\n - %.3f秒'
-L['dr_note'] = '目标时间：\n - 普通：%s秒 / %s秒\n - 进阶：%s秒 / %s秒\n - 反向：%s秒 / %s秒'
-L['dr_note_dash'] = '目标时间：\n - %s秒 / %s秒'
-L['dr_bronze'] = '\n\n完成竞速获得 ' .. ns.color.Bronze('青铜') .. '。'
+L['dr_your_best_time'] = '最快时间：'
+L['dr_your_target_time'] = '目标时间：'
+L['dr_best_time'] = ' - %s：%.3f秒'
+L['dr_target_time'] = ' - %s：%s秒 / %s秒'
+L['dr_normal'] = '普通'
+L['dr_advanced'] = '进阶'
+L['dr_reverse'] = '反向'
+L['dr_challenge'] = '挑战'
+L['dr_reverse_challenge'] = '反向挑战'
+L['dr_bronze'] = '完成竞速获得 ' .. ns.color.Bronze('青铜') .. '。'
+L['dr_vendor_note'] = '用 {currency:2588} 兑换观龙者手稿和幻化。'
+L['dr_rostrum_note'] = '收集全部 ' .. ns.color.Heirloom('观龙者手稿') .. ' 从多处掉落，供应商，任务，制造和成就奖励。'
 L['options_icons_dragonrace'] = '驭龙竞速'
 L['options_icons_dragonrace_desc'] = '显示区域内全部驭龙竞速的位置。'
 
