@@ -1,8 +1,7 @@
--- Spanish Translation by (EU) Krovikan-Minahonda
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
-
+-- Spanish Translation by (EU) Krovikan-Minahonda
 -------------------------------------------------------------------------------
 ----------------------------------- COMMON ------------------------------------
 -------------------------------------------------------------------------------
@@ -35,7 +34,7 @@ Para avanzar en la Fase 4b necesitarás 150x {currency:416} para poder hacer la 
 
 Conseguirás {currency:416} en las misiones diarias.
 ]]
-L['hyjal_phase5_note'] = 'Para avanzar en la Fase 5 necesitarás completar las misiones {quest:29215} y {quest:29182}.' -- review
+L['hyjal_phase5_note'] = 'Para avanzar en la Fase 5 necesitarás completar las misiones {quest:29215} y {quest:29182}.'
 
 L['portal_molten_front'] = 'Portal al Frente de Magma'
 L['portal_mount_hyjal'] = 'Portal al Monte Hyjal'

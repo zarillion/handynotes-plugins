@@ -1,8 +1,7 @@
--- Spanish Translation by (EU) Krovikan-Minahonda
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
-
+-- Spanish Translation by Krovikan EU-Minahonda
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
 -------------------------------------------------------------------------------
@@ -46,7 +45,7 @@ L['requirement_not_found'] = '¡Requerimiento de localización desconocido!'
 L['multiple_spawns'] = 'Puede aparecer en varios sitios.'
 L['shared_drops'] = 'Botín Compartido'
 
-L['Requires'] = 'Requiere'
+L['requires'] = 'Requiere'
 L['ranked_research'] = '%s (Rango %d/%d)'
 
 L['focus'] = 'Foco'
@@ -62,12 +61,14 @@ L['weekly'] = 'Semanal'
 L['normal'] = 'Normal'
 L['hard'] = 'Difícil'
 L['heirloom'] = 'Reliquia'
+L['item'] = 'Objeto'
 L['mount'] = 'Montura'
 L['pet'] = 'Mascota'
 L['recipe'] = 'Receta'
 L['spell'] = 'Hechizo'
 L['title'] = 'Título'
 L['toy'] = 'Juguete'
+L['currency'] = 'Moneda'
 L['rep'] = 'Reputación'
 L['completed'] = 'Terminado'
 L['incomplete'] = 'Incompleto'
@@ -78,6 +79,9 @@ L['unlearnable'] = 'No se puede aprender'
 L['defeated'] = 'Derrotado'
 L['undefeated'] = 'Sin derrotar'
 L['elite'] = 'Élite'
+L['quest'] = 'Misión'
+L['quest_repeatable'] = 'Misión Repetible'
+L['achievement'] = 'Logro'
 
 L['follower_type_follower'] = 'Seguidor'
 L['follower_type_champion'] = 'Campeón'

@@ -49,6 +49,9 @@ local Transmog = ns.reward.Transmog
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local ItemStatus = ns.tooltip.ItemStatus
+local QuestStatus = ns.tooltip.QuestStatus
+
 local DC = ns.DRAGON_CUSTOMIZATIONS
 
 -------------------------------------------------------------------------------
@@ -968,8 +971,8 @@ map.nodes[17762167] = PM.Engineering({
     quest = 70252,
     note = L['pm_engi_frizz_buzzcrank'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2027, note = '5'}) -- Dragon Isles Engineering Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2027, count = '5'}) -- Dragon Isles Engineering Knowledge
     }
 }) -- Frizz Buzzcrank
 
@@ -978,8 +981,8 @@ map.nodes[40146434] = PM.Inscription({
     quest = 70254,
     note = L['pm_script_lydiara_whisperfeather'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2028, note = '5'}) -- Dragon Isles Inscription Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2028, count = '5'}) -- Dragon Isles Inscription Knowledge
     }
 }) -- Lydiara Whisperfeather
 
@@ -988,8 +991,8 @@ map.nodes[46244076] = PM.Jewelcrafting({
     quest = 70255,
     note = L['pm_jewel_pluutar'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2029, note = '5'}) -- Dragon Isles Jewelcrafting Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2029, count = '5'}) -- Dragon Isles Jewelcrafting Knowledge
     }
 }) -- Pluutar
 
@@ -1787,19 +1790,10 @@ local TemperamentalSkyclaw = Class('TemperamentalSkyclaw', Collectible, {
 }) -- Temperamental Skyclaw
 
 function TemperamentalSkyclaw.getters:note()
-    local function status(id, itemsNeed)
-        local itemsHave = GetItemCount(id, true);
-        if ns.PlayerHasItem(id, itemsNeed) then
-            return ns.status.Green(itemsHave .. '/' .. itemsNeed)
-        else
-            return ns.status.Red(itemsHave .. '/' .. itemsNeed)
-        end
-    end
-
     local note = L['temperamental_skyclaw_note_start']
-    note = note .. '\n\n' .. status(201420, 20) .. ' {item:201420}' -- Gnolan's House Special
-    note = note .. '\n\n' .. status(201421, 20) .. ' {item:201421}' -- Tuskarr Jerky
-    note = note .. '\n\n' .. status(201422, 20) .. ' {item:201422}' -- Flash Frozen Meat
+    note = note .. ItemStatus(201420, 20, '{item:201420}') -- Gnolan's House Special
+    note = note .. ItemStatus(201421, 20, '{item:201421}') -- Tuskarr Jerky
+    note = note .. ItemStatus(201422, 20, '{item:201422}') -- Flash Frozen Meat
     return note .. '\n\n' .. L['temperamental_skyclaw_note_end']
 end
 
@@ -1847,20 +1841,9 @@ local SnowclawCub = Class('SnowclawCub', Collectible, {
 }) -- Snowclaw Cub
 
 function SnowclawCub.getters:note()
-    local function status(id, itemsNeed)
-        local itemsHave = GetItemCount(id, true);
-        if ns.PlayerHasItem(id, itemsNeed) then
-            return ns.status.Green(itemsHave .. '/' .. itemsNeed)
-        else
-            return ns.status.Red(itemsHave .. '/' .. itemsNeed)
-        end
-    end
-
     local note = L['snowclaw_cub_note_start']
-    note = note .. '\n\n' .. status(197744, 3) .. ' ' ..
-               L['snowclaw_cub_note_item1'] -- Hornswog Hunk
-    note = note .. '\n\n' .. status(198356, 1) .. ' ' ..
-               L['snowclaw_cub_note_item2'] -- Honey Snack
+    note = note .. ItemStatus(197744, 3, L['snowclaw_cub_note_item1']) -- Hornswog Hunk
+    note = note .. ItemStatus(198356, 1, L['snowclaw_cub_note_item2']) -- Honey Snack
     return note .. '\n\n' .. L['snowclaw_cub_note_end']
 end
 
@@ -1919,20 +1902,10 @@ local Ranpiata = Class('Ranpiata', Collectible, {
 }) -- Ranpiata
 
 function Ranpiata.getters:note()
-    local function status(questID, questLeg)
-        if C_QuestLog.IsQuestFlaggedCompleted(questID) then
-            return ns.status.Green(questLeg)
-        else
-            return ns.status.Red(questLeg)
-        end
-    end
-
-    local note = '\n' .. status(70166, 1) .. ' ' ..
-                     L['artists_easel_note_step1'] -- The Joy of Painting
-    note = note .. '\n\n' .. status(70168, 2) .. ' ' ..
-               L['artists_easel_note_step2'] -- Sad Little Accidents
-    note = note .. '\n\n' .. status(70170, 3) .. ' ' ..
-               L['artists_easel_note_step3'] -- Beat the Demons Out of It
+    local note = '\n'
+    note = note .. QuestStatus(70166, 1, L['artists_easel_note_step1'], false) -- The Joy of Painting
+    note = note .. QuestStatus(70168, 2, L['artists_easel_note_step2']) -- Sad Little Accidents
+    note = note .. QuestStatus(70170, 3, L['artists_easel_note_step3']) -- Beat the Demons Out of It
     return note .. '\n\n' .. L['artists_easel_note_step4']
 end
 
@@ -1957,14 +1930,17 @@ map.nodes[78843413] = ns.node.MoteOfNaszuro({
     quest = 76178,
     note = L['naszuro_vakthros']
 }) -- Vakthros
+
 map.nodes[61577143] = ns.node.MoteOfNaszuro({
     quest = 76179,
     note = L['naszuro_imbu']
 }) -- Imbu
+
 map.nodes[36405646] = ns.node.MoteOfNaszuro({
     quest = 76180,
     note = L['naszuro_azure_archives']
 }) -- Azure Archives
+
 map.nodes[08235308] = ns.node.MoteOfNaszuro({
     quest = 76181,
     note = L['naszuro_hudsons_rock']
@@ -2006,26 +1982,25 @@ local Kazzi = Class('Kazzi', Collectible, {
             }
         }), -- Winterpelt Conversationalist
         Spacer(), Section(L['rep_honored']),
-        -- Transmog({item = 2039995, slot = L['cosmetic'], note = '75'}), -- Winter Pelt Cloak
-        Transmog({item = 204354, slot = L['cosmetic'], note = '500'}), -- Hollowed Furbolg Food Pack
+        Transmog({item = 204354, slot = L['cosmetic'], count = '500'}), -- Hollowed Furbolg Food Pack
         -- NOT IN DC
-        Item({item = 202273, quest = 73054, note = '50'}), -- Renewed Proto-Drake: Stubby Snout
-        Item({item = 197583, quest = 69787, note = '50'}), -- Windborne Velocidrake: Exposed Finned Back
-        Item({item = 197129, quest = 69330, note = '50'}), -- Highland Drake: Sleek Horns
-        Item({item = 197006, quest = 69206, note = '50'}), -- Cliffside Wylderdrake: Plated Nose
+        Item({item = 202273, quest = 73054, count = '50'}), -- Renewed Proto-Drake: Stubby Snout
+        Item({item = 197583, quest = 69787, count = '50'}), -- Windborne Velocidrake: Exposed Finned Back
+        Item({item = 197129, quest = 69330, count = '50'}), -- Highland Drake: Sleek Horns
+        Item({item = 197006, quest = 69206, count = '50'}), -- Cliffside Wylderdrake: Plated Nose
         Spacer(), Section(L['rep_revered']),
-        Item({item = 202287, note = '100'}), -- Paw-Made Winterpelt Reagent Bag
-        Transmog({item = 204355, slot = L['cosmetic'], note = '500'}), -- Hollowed Winterpelt Food Pack
-        Toy({item = 203734, note = '200'}), -- Snow Blanket
-        Recipe({item = 204678, profession = 197, note = '200'}), -- Pattern: Paw-Made Winterpelt Reagent Bag
-        Recipe({item = 202289, profession = 185, note = '750'}), -- Recipe: Firewater Sorbet
+        Item({item = 202287, count = '100'}), -- Paw-Made Winterpelt Reagent Bag
+        Transmog({item = 204355, slot = L['cosmetic'], count = '500'}), -- Hollowed Winterpelt Food Pack
+        Toy({item = 203734, count = '200'}), -- Snow Blanket
+        Recipe({item = 204678, profession = 197, count = '200'}), -- Pattern: Paw-Made Winterpelt Reagent Bag
+        Recipe({item = 202289, profession = 185, count = '750'}), -- Recipe: Firewater Sorbet
         -- NOT IN DC
-        Item({item = 202279, quest = 73056, note = '100'}), -- Renewed Proto-Drake: Malevolent Horns
-        Item({item = 197629, quest = 69835, note = '100'}), -- Windborne Velocidrake: Spiked Neck
-        Item({item = 197102, quest = 69303, note = '100'}), -- Highland Drake: Horned Chin
-        Item({item = 196995, quest = 69195, note = '100'}), -- Cliffside Wylderdrake: Spiked Horns
+        Item({item = 202279, quest = 73056, count = '100'}), -- Renewed Proto-Drake: Malevolent Horns
+        Item({item = 197629, quest = 69835, count = '100'}), -- Windborne Velocidrake: Spiked Neck
+        Item({item = 197102, quest = 69303, count = '100'}), -- Highland Drake: Horned Chin
+        Item({item = 196995, quest = 69195, count = '100'}), -- Cliffside Wylderdrake: Spiked Horns
         Spacer(), Section(L['rep_exalted']),
-        Pet({item = 202255, id = 3427, note = '150'}) -- Driftling
+        Pet({item = 202255, id = 3427, count = '150'}) -- Driftling
     },
     pois = {
         POI({66921271}) -- Sonova Snowden

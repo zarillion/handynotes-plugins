@@ -1225,9 +1225,9 @@ map.nodes[55895537] = LoammVendor({
     id = 203615,
     note = L['saccratos_note'],
     rewards = {
-        Pet({item = 205118, id = 3535, note = 'x50'}), -- Diamondshell
-        Mount({item = 191838, id = 1603, note = 'x100'}), -- Subterranean Magmammoth
-        Mount({item = 205197, id = 1730, note = 'x400'}) -- Igneous Shalewing
+        Pet({item = 205118, id = 3535, count = 55}), -- Diamondshell
+        Mount({item = 191838, id = 1603, count = 100}), -- Subterranean Magmammoth
+        Mount({item = 205197, id = 1730, count = 400}) -- Igneous Shalewing
     }
 }) -- Saccratos <Coveted Bauble Exchange>
 
@@ -1235,10 +1235,10 @@ map.nodes[58085381] = LoammVendor({
     id = 204693,
     note = L['ponzo_note'],
     rewards = {
-        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, 'x55'),
-        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, 'x55'),
-        DC.SetNote(DC.WindingSlitherdrake.CurledNose, 'x55'),
-        Pet({item = 205120, id = 3537, note = 'x85'}), -- Thimblerig
-        Mount({item = 205209, id = 1736, note = 'x170'}) -- Boulder Hauler
+        DC.SetCount(DC.WindingSlitherdrake.HairyBrow, 55),
+        DC.SetCount(DC.WindingSlitherdrake.ClusterChinHorn, 55),
+        DC.SetCount(DC.WindingSlitherdrake.CurledNose, 55),
+        Pet({item = 205120, id = 3537, count = 85}), -- Thimblerig
+        Mount({item = 205209, id = 1736, count = 170}) -- Boulder Hauler
     }
 }) -- Ponzo <Barterer Extraordinaire>

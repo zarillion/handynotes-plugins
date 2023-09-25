@@ -44,6 +44,8 @@ local Transmog = ns.reward.Transmog
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local ItemStatus = ns.tooltip.ItemStatus
+
 local DC = ns.DRAGON_CUSTOMIZATIONS
 
 -------------------------------------------------------------------------------
@@ -1140,8 +1142,8 @@ map.nodes[43276663] = PM.Blacksmithing({
     quest = 70250,
     note = L['pm_smith_grekka_anvilsmash'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2023, note = '5'}) -- Dragon Isles Blacksmithing Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2023, count = '5'}) -- Dragon Isles Blacksmithing Knowledge
     }
 }) -- Grekka Anvilsmash
 
@@ -1150,8 +1152,8 @@ map.nodes[60827590] = PM.Alchemy({
     quest = 70247,
     note = L['pm_alch_grigori_vialtry'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2024, note = '5'}) -- Dragon Isles Alchemy Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2024, count = '5'}) -- Dragon Isles Alchemy Knowledge
     }
 }) -- Grigori Vialtry
 
@@ -1160,8 +1162,8 @@ map.nodes[73286972] = PM.Skinning({
     quest = 70259,
     note = L['pm_skin_zenzi'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2033, note = '10'}) -- Dragon Isles Skinning Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2033, count = '10'}) -- Dragon Isles Skinning Knowledge
     }
 }) -- Zenzi
 
@@ -2351,11 +2353,12 @@ local Otto = Class('Otto', Collectible, {
 }) -- Otto
 
 function Otto.getters:note()
-    local note = status(199338, 75) .. ' ' .. L['otto_note_start1']
+    local note = ''
+    note = note .. ItemStatus(199338, 75, L['otto_note_start1'], false)
     note = note .. '\n\n' .. L['otto_note_start2']
-    note = note .. '\n\n' .. status(202072, 100) .. ' ' .. L['otto_note_item1'] -- Frigid Floe Fish
-    note = note .. '\n\n' .. status(202073, 25) .. ' ' .. L['otto_note_item2'] -- Calamitous Carp
-    note = note .. '\n\n' .. status(202074, 1) .. ' ' .. L['otto_note_item3'] -- Kingfin, the Wise Whiskerfish
+    note = note .. ItemStatus(202072, 100, L['otto_note_item1']) -- Frigid Floe Fish
+    note = note .. ItemStatus(202073, 25, L['otto_note_item2']) -- Calamitous Carp
+    note = note .. ItemStatus(202074, 1, L['otto_note_item3']) -- Kingfin, the Wise Whiskerfish
     return note .. '\n\n' .. L['otto_note_end']
 end
 
@@ -2577,14 +2580,17 @@ map.nodes[22848841] = ns.node.MoteOfNaszuro({
     quest = 76184,
     note = L['naszuro_apex_canopy']
 }) -- Apex Canopy
+
 map.nodes[24155556] = ns.node.MoteOfNaszuro({
     quest = 76185,
     note = L['naszuro_obsidian_throne']
 }) -- Obsidian Throne
+
 map.nodes[58506765] = ns.node.MoteOfNaszuro({
     quest = 76186,
     note = L['naszuro_ruby_lifeshrine']
 }) -- Ruby Lifeshrine
+
 map.nodes[63894481] = ns.node.MoteOfNaszuro({
     quest = 76187,
     note = L['naszuro_dragonheart_outpost']
