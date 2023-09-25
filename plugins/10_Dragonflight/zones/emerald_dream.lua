@@ -602,7 +602,10 @@ local MoonkinHatchling = Class('Hatchling', Collectible, {
     group = ns.groups.MOONKIN_HATCHLING,
     getters = {
         rewards = function(self)
-            return {Achievement({id = 19293, criteria = self.criteriaID})}
+            return {
+                Achievement({id = 19293, criteria = self.criteriaID}), -- Friends in Feathers
+                Pet({item = 210522, id = 4288}) -- Blueloo
+            }
         end
     }
 })
