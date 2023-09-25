@@ -950,19 +950,19 @@ L['soa_12_ancient_tome_note'] = 'Ищите тома с помощью {item:207
 
 -- Secrets of Azeroth: Clue 13
 L['soa_13_rlabel'] = '(Загадка 13)'
-L['soa_13_bobby_note'] = nil
-L['soa_13_great_place_a_label'] = nil
-L['soa_13_great_place_a_note'] = nil
-L['soa_13_great_place_b_label'] = nil
-L['soa_13_great_place_b_note'] = nil
-L['soa_13_great_place_c_label'] = nil
-L['soa_13_great_place_c_note'] = nil
-L['soa_13_great_place_d_label'] = nil
-L['soa_13_great_place_d_note'] = nil
-L['soa_13_great_place_e_label'] = nil
-L['soa_13_great_place_e_note'] = nil
-L['soa_13_great_place_f_label'] = nil
-L['soa_13_great_place_f_note'] = nil
+L['soa_13_bobby_note'] = 'Поговорите с {npc:207696}, чтобы начать задание {quest:77928}.'
+L['soa_13_great_place_a_label'] = 'Расписка из аукционного дома'
+L['soa_13_great_place_a_note'] = 'На стопке ящиков внутри {location:Аукциона}.'
+L['soa_13_great_place_b_label'] = 'Квитанция из Хранилища Бездны'
+L['soa_13_great_place_b_note'] = 'На стопке ящиков в здании трансмогрификации.'
+L['soa_13_great_place_c_label'] = 'Счет за товары для садовников'
+L['soa_13_great_place_c_note'] = 'В небольшом здании с двумя {npc:197035}.'
+L['soa_13_great_place_d_label'] = 'Исследовательские записи'
+L['soa_13_great_place_d_note'] = 'В небольшом здании возле некоторых книг.'
+L['soa_13_great_place_e_label'] = 'Нацарапанная в спешке записка'
+L['soa_13_great_place_e_note'] = 'Позади стойки торговца на {location:Рынке Ремесленников}.'
+L['soa_13_great_place_f_label'] = 'Записка для Криты'
+L['soa_13_great_place_f_note'] = 'На ящике внутри {location:Драконьего тайника}.\n\nВам нужно использовать эмоцию {emote:/колени} к {npc:189827} в {location:Жареном барашке}, чтобы войти в секретный бар.'
 
 -- Secrets of Azeroth: Clue 14
 L['soa_14_rlabel'] = '(Загадка 14)'
