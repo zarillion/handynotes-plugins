@@ -899,6 +899,7 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'S' -- review not yet translated
 
+L['mbc_vial_d_location'] = nil
 L['mbc_vial_e_location'] = 'Zwielichtshain'
 L['mbc_vial_k_location'] = 'Sturmgrimms Grabhügel'
 L['mbc_vial_n_location'] = 'Sternruh'

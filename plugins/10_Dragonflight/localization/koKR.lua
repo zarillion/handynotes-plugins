@@ -834,6 +834,7 @@ L['mbc_vial_k'] = nil
 L['mbc_vial_n'] = nil
 L['mbc_vial_o'] = nil
 
+L['mbc_vial_d_location'] = nil
 L['mbc_vial_e_location'] = nil
 L['mbc_vial_k_location'] = nil
 L['mbc_vial_n_location'] = nil

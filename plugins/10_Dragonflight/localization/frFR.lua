@@ -896,6 +896,7 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'O'
 
+L['mbc_vial_d_location'] = nil
 L['mbc_vial_e_location'] = 'Bosquet crépusculaire'
 L['mbc_vial_k_location'] = 'Refuge des saisons de Malfurion'
 L['mbc_vial_n_location'] = 'Repos des étoiles'
