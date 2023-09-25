@@ -1029,10 +1029,10 @@ end
 -------------------------------- SMALL SOMNUTS --------------------------------
 -------------------------------------------------------------------------------
 
-local SmallSomnut = Class('SmallSomnut', ns.node.Node, {
-    label = L['small_somnut'],
+local Somnut = Class('Somnut', ns.node.Node, {
+    label = L['somnut'],
     icon = 656681,
-    group = ns.groups.SMALL_SOMNUT,
+    group = ns.groups.SOMNUT,
     rewards = {
         Transmog({item = 210132, type = L['2h_sword']}), -- Wildleaf Greatsword
         Item({item = 208066}), -- Small Dreamseed
@@ -1045,29 +1045,29 @@ local SmallSomnut = Class('SmallSomnut', ns.node.Node, {
     }
 })
 
-map.nodes[26213140] = SmallSomnut()
-map.nodes[32936562] = SmallSomnut({location = L['in_a_tree']})
-map.nodes[34566935] = SmallSomnut()
-map.nodes[37735019] = SmallSomnut()
-map.nodes[38073268] = SmallSomnut()
-map.nodes[38512516] = SmallSomnut()
-map.nodes[39315799] = SmallSomnut()
-map.nodes[40384207] = SmallSomnut()
-map.nodes[40883180] = SmallSomnut()
-map.nodes[42236677] = SmallSomnut({location = L['in_a_tree']})
-map.nodes[42284821] = SmallSomnut()
-map.nodes[43107190] = SmallSomnut({location = L['in_a_tree']})
-map.nodes[44633492] = SmallSomnut()
-map.nodes[47743551] = SmallSomnut()
-map.nodes[48292228] = SmallSomnut({location = L['in_a_tree']}) -- ontop of the burning tree
-map.nodes[54101937] = SmallSomnut()
-map.nodes[55324272] = SmallSomnut()
-map.nodes[55575494] = SmallSomnut({location = L['in_water']})
-map.nodes[55733714] = SmallSomnut()
-map.nodes[55915818] = SmallSomnut()
-map.nodes[60134204] = SmallSomnut() -- Bugged inside the Branch/Root. only lootable with interact key.
-map.nodes[63457357] = SmallSomnut()
-map.nodes[65985217] = SmallSomnut() -- On a Branch/Root
+map.nodes[26213140] = Somnut()
+map.nodes[32936562] = Somnut({location = L['in_a_tree']})
+map.nodes[34566935] = Somnut()
+map.nodes[37735019] = Somnut()
+map.nodes[38073268] = Somnut()
+map.nodes[38512516] = Somnut()
+map.nodes[39315799] = Somnut()
+map.nodes[40384207] = Somnut()
+map.nodes[40883180] = Somnut()
+map.nodes[42236677] = Somnut({location = L['in_a_tree']})
+map.nodes[42284821] = Somnut()
+map.nodes[43107190] = Somnut({location = L['in_a_tree']})
+map.nodes[44633492] = Somnut()
+map.nodes[47743551] = Somnut()
+map.nodes[48292228] = Somnut({location = L['in_a_tree']}) -- ontop of the burning tree
+map.nodes[54101937] = Somnut()
+map.nodes[55324272] = Somnut()
+map.nodes[55575494] = Somnut({location = L['in_water']})
+map.nodes[55733714] = Somnut()
+map.nodes[55915818] = Somnut()
+map.nodes[60134204] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
+map.nodes[63457357] = Somnut()
+map.nodes[65985217] = Somnut() -- On a Branch/Root
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

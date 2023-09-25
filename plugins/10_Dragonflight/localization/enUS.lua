@@ -912,9 +912,9 @@ L['elianna_vendor_note'] = 'Exchange {currency:2777} for pets and mounts.'
 L['sylvia_vendor_note'] = 'Exchange {currency:2651} for pets, mounts, and transmog.'
 L['thaelishar_vendor_note'] = 'Exchange gold for Druid glyphs.'
 
-L['small_somnut'] = 'Small Somnut'
-L['options_icons_small_somnut'] = 'Small Somnut'
-L['options_icons_small_somnut_desc'] = 'Display possible locations of {object:Small Somnuts}.'
+L['somnut'] = 'Somnut'
+L['options_icons_somnut'] = 'Somnut'
+L['options_icons_somnut_desc'] = 'Display possible locations of {object:Somnuts}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------

@@ -913,9 +913,9 @@ L['elianna_vendor_note'] = 'Tausche {currency:2777} gegen Reittiere und Haustier
 L['sylvia_vendor_note'] = 'Tausche {currency:2651} gegen Reittiere, Haustiere und Ausrüstungsvorlagen ein.'
 L['thaelishar_vendor_note'] = 'Tausche Gold gegen Druidenglyphen ein.'
 
-L['small_somnut'] = 'Kleine Schlummernuss'
-L['options_icons_small_somnut'] = 'Kleine Schlummernuss'
-L['options_icons_small_somnut_desc'] = 'Zeigt die möglichen Positionen für {object:Kleine Schlummernusss}.'
+L['somnut'] = 'Schlummernuss'
+L['options_icons_somnut'] = 'Schlummernuss'
+L['options_icons_somnut_desc'] = 'Zeigt die möglichen Positionen für {object:Schlummernuss}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
