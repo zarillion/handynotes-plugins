@@ -882,14 +882,14 @@ L['soa_04_sazsel_note_b'] = 'После оценки верните знамя �
 
 -- Secrets of Azeroth: Clue 5
 L['soa_05_rlabel'] = '(Загадка 5)'
-L['soa_05_torch_of_pyrreth_note_a'] = nil
-L['soa_05_torch_of_pyrreth_note_b'] = nil
-L['soa_05_torch_of_pyrreth_note_c'] = nil
-L['soa_05_ancient_lever_label'] = nil
-L['soa_05_ancient_lever_note_a'] = nil
-L['soa_05_ancient_lever_note_b'] = nil
-L['soa_05_ancient_lever_note_c'] = nil
-L['soa_05_enchanted_box_label'] = nil
+L['soa_05_torch_of_pyrreth_note_a'] = 'Активируйте 3 {object:Древних рычага}, найденных вокруг {location:обсерватории Хранительницы Жизни} на {location:Берегах Пробуждения}, чтобы раскрыть {item:208135}.'
+L['soa_05_torch_of_pyrreth_note_b'] = 'После сбора вернитесь к {npc:206864} в {location:Жареном Барашке} в {location:Вальдраккене}.'
+L['soa_05_torch_of_pyrreth_note_c'] = 'Используйте свой {item:208092}, чтобы получить бафф {spell:419127}. Теперь вы можете найти {npc:209011}, который создаст {object:Зачарованный ящик}.'
+L['soa_05_ancient_lever_label'] = 'Древний рычаг'
+L['soa_05_ancient_lever_note_a'] = 'В конце разрушенного здания позади {npc:195915}.'
+L['soa_05_ancient_lever_note_b'] = 'Внутри разрушенной башни.'
+L['soa_05_ancient_lever_note_c'] = 'Внутри здания рядом {npc:186823} и {npc:186825}.'
+L['soa_05_enchanted_box_label'] = 'Зачарованный ящик'
 
 -- Secrets of Azeroth: Clue 6
 L['soa_06_rlabel'] = '(Загадка 6)'
