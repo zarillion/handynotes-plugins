@@ -698,7 +698,7 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
             return {
                 Achievement({id = 19013, criteria = self.criteriaID}), -- I Dream of Seeds
                 Achievement({id = 19198, criteria = {id = 1, qty = true}}), -- The Seeds I Sow
-                Currency({id = 2651, note = 20}), -- Seedbloom -- Spawned after the timer of the plant ran out, triggered hidden quest 77396 when looting
+                Currency({id = 2651, count = 20}), -- Seedbloom -- Spawned after the timer of the plant ran out, triggered hidden quest 77396 when looting
                 Transmog({item = 209990, slot = L['cosmetic']}), -- Overgrown Freyan Handguards
                 Transmog({item = 209971, slot = L['cosmetic']}) -- Clogs of the Dreamfused Skull
             }
@@ -849,10 +849,10 @@ map.nodes[60341694] = NPC({
     class = 'DRUID',
     note = L['thaelishar_vendor_note'],
     rewards = {
-        Item({item = 210764, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamtalon
-        Item({item = 210767, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamstag
-        Item({item = 210755, note = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamsaber
-        Item({item = 210766, note = '500', quest = nil, class = 'DRUID'}) -- Silent Mark of the Umbraclaw
+        Item({item = 210764, count = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamtalon
+        Item({item = 210767, count = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamstag
+        Item({item = 210755, count = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamsaber
+        Item({item = 210766, count = '500', quest = nil, class = 'DRUID'}) -- Silent Mark of the Umbraclaw
     }
 }) -- Thaelishar Groveheard <Fauna Specialist>
 
@@ -960,7 +960,7 @@ local MoonBlessedClaw = Class('MoonBlessedClaw', Collectible, {
     class = 'DRUID',
     quest = 78528, -- hidden
     rewards = {
-        Item({item = 210977, note = '1x', class = 'DRUID'}), -- Coalesced Moonlight
+        Item({item = 210977, count = '1', class = 'DRUID'}), -- Coalesced Moonlight
         Item({item = 210728, quest = 78521, class = 'DRUID'}) -- Moon-Blessed Claw
     }
 }) -- Small Box of Vials
@@ -1012,7 +1012,7 @@ for num, vial in ipairs(EMPTY_VIALS) do
         parent = vial.parent,
         playerHasItem = {vial.vialFilledID, 210977},
         rewards = {
-            Item({item = vial.vialFilledID, note = '1x'}) -- Filled Vial
+            Item({item = vial.vialFilledID, count = '1'}) -- Filled Vial
         },
         IsCompleted = function(self)
             if self.playerHasItem then
@@ -1079,18 +1079,18 @@ map.nodes[59761689] = NPC({
     scale = 2.0,
     note = L['sylvia_vendor_note'],
     rewards = {
-        Pet({item = 210689, id = 4305, note = '800'}), -- Snoots
-        Pet({item = 210690, id = 4306, note = '800'}), -- Elmer
-        Pet({item = 210571, id = 4296, note = '800'}), -- Snoozles
-        Pet({item = 210570, id = 4295, note = '800'}), -- Napps
-        Pet({item = 210651, id = 4299, note = '800'}), -- Dustite
-        Pet({item = 210648, id = 4298, note = '800'}), -- Seedle
-        Mount({item = 209950, id = 1810, note = '2500'}), -- Reins of the Rekindled Dreamstag
-        Mount({item = 209947, id = 1808, note = '2500'}), -- Reins of the Blossoming Dreamstag
-        Mount({item = 210775, id = 1835, note = '2500'}), -- Reins of the Snowfluff Dreamtalon
-        Mount({item = 210769, id = 1833, note = '2500'}), -- Reins of the Springtide Dreamtalon
-        Mount({item = 210057, id = 1817, note = '2500'}), -- Reins of the Morning Flourish Dreamsaber
-        Mount({item = 210058, id = 1816, note = '2500'}) -- Reins of the Evening Sun Dreamsaber
+        Pet({item = 210689, id = 4305, count = '800'}), -- Snoots
+        Pet({item = 210690, id = 4306, count = '800'}), -- Elmer
+        Pet({item = 210571, id = 4296, count = '800'}), -- Snoozles
+        Pet({item = 210570, id = 4295, count = '800'}), -- Napps
+        Pet({item = 210651, id = 4299, count = '800'}), -- Dustite
+        Pet({item = 210648, id = 4298, count = '800'}), -- Seedle
+        Mount({item = 209950, id = 1810, count = '2500'}), -- Reins of the Rekindled Dreamstag
+        Mount({item = 209947, id = 1808, count = '2500'}), -- Reins of the Blossoming Dreamstag
+        Mount({item = 210775, id = 1835, count = '2500'}), -- Reins of the Snowfluff Dreamtalon
+        Mount({item = 210769, id = 1833, count = '2500'}), -- Reins of the Springtide Dreamtalon
+        Mount({item = 210057, id = 1817, count = '2500'}), -- Reins of the Morning Flourish Dreamsaber
+        Mount({item = 210058, id = 1816, count = '2500'}) -- Reins of the Evening Sun Dreamsaber
     }
 }) -- Sylvia Whisperbloom <Dreamseed Botanist>
 
@@ -1100,18 +1100,18 @@ map.nodes[50226180] = NPC({
     scale = 2.0,
     note = L['elianna_vendor_note'],
     rewards = {
-        Pet({item = 210785, id = 4310, note = '1'}), -- Snorr
-        Pet({item = 210553, id = 4289, note = '1'}), -- Dreamborne Scarab
-        Pet({item = 210555, id = 4290, note = '1'}), -- Dreamhoof
-        Pet({item = 210567, id = 4292, note = '1'}), -- Memorie
-        Pet({item = 210652, id = 4300, note = '1'}), -- Somnolet
-        Pet({item = 210505, id = 4287, note = '1'}), -- Reverie
-        Pet({item = 210777, id = 4309, note = '1'}), -- Drowsey
-        Mount({item = 210831, id = 1837, note = '1'}), -- Delugen
-        Mount({item = 210948, id = 1939, note = '1'}), -- Imagiwing
-        Mount({item = 210946, id = 1938, note = '1'}), -- Mammyth
-        Mount({item = 210969, id = 1940, note = '1'}), -- Salatrancer
-        Mount({item = 210945, id = 1839, note = '1'}), -- Stargrazer
-        Mount({item = 210833, id = 1838, note = '1'}) -- Talont
+        Pet({item = 210785, id = 4310, count = '1'}), -- Snorr
+        Pet({item = 210553, id = 4289, count = '1'}), -- Dreamborne Scarab
+        Pet({item = 210555, id = 4290, count = '1'}), -- Dreamhoof
+        Pet({item = 210567, id = 4292, count = '1'}), -- Memorie
+        Pet({item = 210652, id = 4300, count = '1'}), -- Somnolet
+        Pet({item = 210505, id = 4287, count = '1'}), -- Reverie
+        Pet({item = 210777, id = 4309, count = '1'}), -- Drowsey
+        Mount({item = 210831, id = 1837, count = '1'}), -- Delugen
+        Mount({item = 210948, id = 1939, count = '1'}), -- Imagiwing
+        Mount({item = 210946, id = 1938, count = '1'}), -- Mammyth
+        Mount({item = 210969, id = 1940, count = '1'}), -- Salatrancer
+        Mount({item = 210945, id = 1839, count = '1'}), -- Stargrazer
+        Mount({item = 210833, id = 1838, count = '1'}) -- Talont
     }
 }) -- Elianna <Dream Infuser>
