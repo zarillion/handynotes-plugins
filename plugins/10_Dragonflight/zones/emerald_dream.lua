@@ -27,6 +27,8 @@ local Transmog = ns.reward.Transmog
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local ItemStatus = ns.tooltip.ItemStatus
+
 local DC = ns.DRAGON_CUSTOMIZATIONS
 
 -------------------------------------------------------------------------------
@@ -845,11 +847,25 @@ map.nodes[52847357] = Dreamfruit({
 
 -- [X] Whiskerfish (Dreamfish Egg?)
 
-map.nodes[60341694] = NPC({
+-------------------------------------------------------------------------------
+
+-- Silent Mark of the ...
+-- Target the correct animal and channel the item until the [Recently Attended]
+-- buff appears. It appears you need to attune to 10+ for each animal.
+
+-- Target a Striped Dreamtalon in Lushdream Crags
+-- Target a Rabid Gladehart, Watchful Gladehind, or Flathoof Dreamstag in Lushdream Crags
+-- Target a Verdant Dreamsaber
+-- Target a Frightened Umbraclaw in Lushdream Crags
+
+local DruidGlyph = Class('DruidGlyph', Collectible, {
+    icon = 625999,
+    group = ns.groups.DRUID_GLYPH,
+    class = 'DRUID'
+}) -- Druid Glyph
+
+map.nodes[60341694] = DruidGlyph({
     id = 212903,
-    icon = 'peg_bl',
-    scale = 2.0,
-    class = 'DRUID',
     note = L['thaelishar_vendor_note'],
     rewards = {
         Item({item = 210764, count = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamtalon
@@ -859,26 +875,41 @@ map.nodes[60341694] = NPC({
     }
 }) -- Thaelishar Groveheard <Fauna Specialist>
 
-map.nodes[63743916] = Collectible({
+map.nodes[63743916] = DruidGlyph({
     label = '{item:210727}',
-    icon = 237422,
     note = L['pollenfused_bristlebruin_fur_sample_note'],
-    class = 'DRUID',
     rewards = {
         Item({item = 210727, quest = 78518, class = 'DRUID'}) -- Pollenfused Bristlebruin Fur Sample
     }
 }) -- Pollenfused Bristlebruin Fur Sample
 
-map.nodes[40519008] = Collectible({
+map.nodes[40519008] = DruidGlyph({
     label = '{npc:211300}',
-    icon = 4559240,
-    class = 'DRUID',
-    note = 'PH',
+    rlabel = ns.color.Red('PH'),
     rewards = {
         Item({item = 210753, quest = nil, class = 'DRUID'}) -- Scale of the Prismatic Whiskerfish
     },
     IsEnabled = function() return true end
 }) -- Dreamfish Egg
+
+local SlumberingSomnowl = Class('SlumberingSomnowl', DruidGlyph, {
+    label = '{item:210535}',
+    rlabel = ns.color.Red('PH'),
+    rewards = {
+        Item({item = 210535, quest = nil, class = 'DRUID'}) -- Mark of the Slumbering Somnowl
+    }
+}) -- Mark of the Slumbering Somnowl
+
+function SlumberingSomnowl.getters:note()
+    local note = '\n'
+    note = note .. ItemStatus(210565, 5, L['slumbering_somnowl_note_a'], false)
+    note = note .. ItemStatus(4291, 1, L['slumbering_somnowl_note_b'])
+    note = note .. ItemStatus(210566, 1, L['slumbering_somnowl_note_c'])
+    note = note .. ItemStatus(194864, 1, L['slumbering_somnowl_note_d'])
+    return note .. '\n\n' .. L['slumbering_somnowl_note_e']
+end
+
+map.nodes[54507698] = SlumberingSomnowl()
 
 local EMPTY_VIALS = {
     [1] = {
@@ -958,9 +989,7 @@ local EMPTY_VIALS = {
     }
 }
 
-local MoonBlessedClaw = Class('MoonBlessedClaw', Collectible, {
-    icon = 1508486,
-    class = 'DRUID',
+local MoonBlessedClaw = Class('MoonBlessedClaw', DruidGlyph, {
     quest = 78528, -- hidden
     rewards = {
         Item({item = 210977, count = '1', class = 'DRUID'}), -- Coalesced Moonlight
@@ -1005,9 +1034,8 @@ for num, vial in ipairs(EMPTY_VIALS) do
     local z = C_Map.GetMapInfo(vial.map.id).name
     if vial.zoneID then z = C_Map.GetMapInfo(vial.zoneID).name end
     local c = C_Map.GetMapInfo(vial.parentMapID).name
-    vial.map.nodes[vial.coordinates] = Collectible({
+    vial.map.nodes[vial.coordinates] = DruidGlyph({
         label = L['mbc_moonwell_label'],
-        icon = 134800,
         location = format(L['mbc_vial_location'], e, l, z, c, f),
         class = 'DRUID',
         faction = vial.faction or nil,

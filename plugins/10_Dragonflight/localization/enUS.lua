@@ -908,9 +908,19 @@ L['mbc_vial_location'] = 'Fill the {item:%d} with water from the moonwell in {lo
 L['mbc_moonwell_label'] = 'Moonwell'
 L['mbc_feral_dreamstone_label'] = 'Feral Dreamstone'
 
+L['slumbering_somnowl_note_a'] = 'Collect 5x {item:210565} from various {npc:Somnowl} throughout the {location:Emerald Dream}.'
+L['slumbering_somnowl_note_b'] = 'Purchase 1x {item:4291} from any trade supplies vendor.'
+L['slumbering_somnowl_note_c'] = 'Combine 5x {item:210565} and 1x {item:4291} to create {item:210566}.'
+L['slumbering_somnowl_note_d'] = 'Collect 1x {item:194864}.'
+L['slumbering_somnowl_note_e'] = 'Combine 1x {item:210566} and 1x {item:194864} to create {item:210535}.'
+
+L['thaelishar_vendor_note'] = 'Exchange gold for Druid glyphs.'
+
+L['options_icons_druid_glyph'] = 'Druid Glyphs'
+L['options_icons_druid_glyph_desc'] = 'Display locations for {emote:Druid Glyphs}.'
+
 L['elianna_vendor_note'] = 'Exchange {currency:2777} for pets and mounts.'
 L['sylvia_vendor_note'] = 'Exchange {currency:2651} for pets, mounts, and transmog.'
-L['thaelishar_vendor_note'] = 'Exchange gold for Druid glyphs.'
 
 L['somnut'] = 'Somnut'
 L['options_icons_somnut'] = 'Somnut'

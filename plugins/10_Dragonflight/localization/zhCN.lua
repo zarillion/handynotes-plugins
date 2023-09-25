@@ -908,9 +908,19 @@ L['mbc_vial_location'] = nil
 L['mbc_moonwell_label'] = nil
 L['mbc_feral_dreamstone_label'] = nil
 
+L['slumbering_somnowl_note_a'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_b'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_c'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_d'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_e'] = nil -- unconfirmed - do not translate
+
+L['thaelishar_vendor_note'] = nil
+
+L['options_icons_druid_glyph'] = nil
+L['options_icons_druid_glyph_desc'] = nil
+
 L['elianna_vendor_note'] = nil
 L['sylvia_vendor_note'] = nil
-L['thaelishar_vendor_note'] = nil
 
 L['somnut'] = nil
 L['options_icons_somnut'] = nil

@@ -76,6 +76,12 @@ ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.DRUID_GLYPH = Group('druid_glyph', 625999, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function() return ns.class == 'DRUID' end
+})
+
 ns.groups.ELEMENTAL_STORM = Group('elemental_storm', 538566, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION

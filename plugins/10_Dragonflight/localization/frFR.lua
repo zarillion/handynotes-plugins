@@ -906,9 +906,19 @@ L['mbc_vial_location'] = 'Remplissez la {item:%d} avec de l\'eau du puits de lun
 L['mbc_moonwell_label'] = 'Puits de lune'
 L['mbc_feral_dreamstone_label'] = nil -- review NYT
 
+L['slumbering_somnowl_note_a'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_b'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_c'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_d'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_e'] = nil -- unconfirmed - do not translate
+
+L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
+
+L['options_icons_druid_glyph'] = nil
+L['options_icons_druid_glyph_desc'] = nil
+
 L['elianna_vendor_note'] = 'Échangez vos {currency:2777} contre des mascottes et des montures.'
 L['sylvia_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'
-L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
 
 L['somnut'] = nil
 L['options_icons_somnut'] = nil

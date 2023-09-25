@@ -908,9 +908,19 @@ L['mbc_vial_location'] = 'Llena {item:%d} con agua de la poza de la luna de {loc
 L['mbc_moonwell_label'] = 'Poza de la Luna'
 L['mbc_feral_dreamstone_label'] = 'Feral Dreamstone' -- REVIEW Feral Dreamstone
 
+L['slumbering_somnowl_note_a'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_b'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_c'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_d'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_e'] = nil -- unconfirmed - do not translate
+
+L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
+
+L['options_icons_druid_glyph'] = nil
+L['options_icons_druid_glyph_desc'] = nil
+
 L['elianna_vendor_note'] = 'Cambia {currency:2777} por mascotas y monturas.'
 L['sylvia_vendor_note'] = 'Cambia {currency:2651} por mascotas, monturas y transfiguraciones.'
-L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
 
 L['somnut'] = nil
 L['options_icons_somnut'] = nil
