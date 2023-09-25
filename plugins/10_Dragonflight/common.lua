@@ -1677,7 +1677,7 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
 end)
 
 hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
-    if select(2, IsAddOnLoaded('RareScanner')) then
+    if select(2, C_AddOns.IsAddOnLoaded('RareScanner')) then
         local status, result = pcall(function()
             return _G['RareScannerDB'].profiles.Default.map
                        .tooltipsOnIngameIcons

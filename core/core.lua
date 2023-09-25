@@ -49,7 +49,7 @@ local function InitializeDropdownMenu(level, mapID, coord)
             end
         }, level)
 
-        if select(2, IsAddOnLoaded('TomTom')) then
+        if select(2, C_AddOns.IsAddOnLoaded('TomTom')) then
             -- Add spacer before TomTom section
             LibDD:UIDropDownMenu_AddButton(spacer, level)
             -- Add waypoint to TomoTom for single node

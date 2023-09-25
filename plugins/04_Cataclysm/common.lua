@@ -24,7 +24,7 @@ ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION,
     IsEnabled = function(self)
-        if select(2, IsAddOnLoaded('HandyNotes_Dragonflight')) then
+        if select(2, C_AddOns.IsAddOnLoaded('HandyNotes_Dragonflight')) then
             return false
         end
         return Group.IsEnabled(self)

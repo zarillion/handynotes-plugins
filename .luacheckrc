@@ -22,6 +22,7 @@ read_globals = {
 
     -- WoW API functions
     'AuraUtil',
+    'C_AddOns',
     'C_AreaPoiInfo',
     'C_Calendar',
     'C_ContributionCollector',
@@ -79,7 +80,6 @@ read_globals = {
     'GetTime',
     'GetTitleName',
     'InCombatLockdown',
-    'IsAddOnLoaded',
     'IsLeftAltKeyDown',
     'IsLeftControlKeyDown',
     'IsSpellKnown',
