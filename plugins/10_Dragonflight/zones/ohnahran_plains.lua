@@ -1078,8 +1078,8 @@ map.nodes[82455067] = PM.Leatherworking({
     quest = 70256,
     note = L['pm_leath_erden'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2025, note = '5'}) -- Dragon Isles Leatherworking Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2025, count = '5'}) -- Dragon Isles Leatherworking Knowledge
     }
 }) -- Erden
 
@@ -1088,8 +1088,8 @@ map.nodes[58375000] = PM.Herbalism({
     quest = 70253,
     note = L['pm_herb_hua_greenpaw'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2034, note = '10'}) -- Dragon Isles Herbalism Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2034, count = '10'}) -- Dragon Isles Herbalism Knowledge
     }
 }) -- Hua Greenpaw
 
@@ -1098,8 +1098,8 @@ map.nodes[62441868] = PM.Enchanting({
     quest = 70251,
     note = L['pm_ench_shalasar_glimmerdusk'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2030, note = '5'}) -- Dragon Isles Enchanting Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2030, count = '5'}) -- Dragon Isles Enchanting Knowledge
     }
 }) -- Shalasar Glimmerdusk
 

@@ -968,8 +968,8 @@ map.nodes[17762167] = PM.Engineering({
     quest = 70252,
     note = L['pm_engi_frizz_buzzcrank'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2027, note = '5'}) -- Dragon Isles Engineering Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2027, count = '5'}) -- Dragon Isles Engineering Knowledge
     }
 }) -- Frizz Buzzcrank
 
@@ -978,8 +978,8 @@ map.nodes[40146434] = PM.Inscription({
     quest = 70254,
     note = L['pm_script_lydiara_whisperfeather'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2028, note = '5'}) -- Dragon Isles Inscription Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2028, count = '5'}) -- Dragon Isles Inscription Knowledge
     }
 }) -- Lydiara Whisperfeather
 
@@ -988,8 +988,8 @@ map.nodes[46244076] = PM.Jewelcrafting({
     quest = 70255,
     note = L['pm_jewel_pluutar'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2029, note = '5'}) -- Dragon Isles Jewelcrafting Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2029, count = '5'}) -- Dragon Isles Jewelcrafting Knowledge
     }
 }) -- Pluutar
 
@@ -2006,26 +2006,25 @@ local Kazzi = Class('Kazzi', Collectible, {
             }
         }), -- Winterpelt Conversationalist
         Spacer(), Section(L['rep_honored']),
-        -- Transmog({item = 2039995, slot = L['cosmetic'], note = '75'}), -- Winter Pelt Cloak
-        Transmog({item = 204354, slot = L['cosmetic'], note = '500'}), -- Hollowed Furbolg Food Pack
+        Transmog({item = 204354, slot = L['cosmetic'], count = '500'}), -- Hollowed Furbolg Food Pack
         -- NOT IN DC
-        Item({item = 202273, quest = 73054, note = '50'}), -- Renewed Proto-Drake: Stubby Snout
-        Item({item = 197583, quest = 69787, note = '50'}), -- Windborne Velocidrake: Exposed Finned Back
-        Item({item = 197129, quest = 69330, note = '50'}), -- Highland Drake: Sleek Horns
-        Item({item = 197006, quest = 69206, note = '50'}), -- Cliffside Wylderdrake: Plated Nose
+        Item({item = 202273, quest = 73054, count = '50'}), -- Renewed Proto-Drake: Stubby Snout
+        Item({item = 197583, quest = 69787, count = '50'}), -- Windborne Velocidrake: Exposed Finned Back
+        Item({item = 197129, quest = 69330, count = '50'}), -- Highland Drake: Sleek Horns
+        Item({item = 197006, quest = 69206, count = '50'}), -- Cliffside Wylderdrake: Plated Nose
         Spacer(), Section(L['rep_revered']),
-        Item({item = 202287, note = '100'}), -- Paw-Made Winterpelt Reagent Bag
-        Transmog({item = 204355, slot = L['cosmetic'], note = '500'}), -- Hollowed Winterpelt Food Pack
-        Toy({item = 203734, note = '200'}), -- Snow Blanket
-        Recipe({item = 204678, profession = 197, note = '200'}), -- Pattern: Paw-Made Winterpelt Reagent Bag
-        Recipe({item = 202289, profession = 185, note = '750'}), -- Recipe: Firewater Sorbet
+        Item({item = 202287, count = '100'}), -- Paw-Made Winterpelt Reagent Bag
+        Transmog({item = 204355, slot = L['cosmetic'], count = '500'}), -- Hollowed Winterpelt Food Pack
+        Toy({item = 203734, count = '200'}), -- Snow Blanket
+        Recipe({item = 204678, profession = 197, count = '200'}), -- Pattern: Paw-Made Winterpelt Reagent Bag
+        Recipe({item = 202289, profession = 185, count = '750'}), -- Recipe: Firewater Sorbet
         -- NOT IN DC
-        Item({item = 202279, quest = 73056, note = '100'}), -- Renewed Proto-Drake: Malevolent Horns
-        Item({item = 197629, quest = 69835, note = '100'}), -- Windborne Velocidrake: Spiked Neck
-        Item({item = 197102, quest = 69303, note = '100'}), -- Highland Drake: Horned Chin
-        Item({item = 196995, quest = 69195, note = '100'}), -- Cliffside Wylderdrake: Spiked Horns
+        Item({item = 202279, quest = 73056, count = '100'}), -- Renewed Proto-Drake: Malevolent Horns
+        Item({item = 197629, quest = 69835, count = '100'}), -- Windborne Velocidrake: Spiked Neck
+        Item({item = 197102, quest = 69303, count = '100'}), -- Highland Drake: Horned Chin
+        Item({item = 196995, quest = 69195, count = '100'}), -- Cliffside Wylderdrake: Spiked Horns
         Spacer(), Section(L['rep_exalted']),
-        Pet({item = 202255, id = 3427, note = '150'}) -- Driftling
+        Pet({item = 202255, id = 3427, count = '150'}) -- Driftling
     },
     pois = {
         POI({66921271}) -- Sonova Snowden

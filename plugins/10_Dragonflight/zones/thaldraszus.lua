@@ -964,8 +964,8 @@ map.nodes[61437687] = PM.Mining({
     quest = 70258,
     note = L['pm_mining_bridgette_holdug'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2035, note = '10'}) -- Dragon Isles Mining Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2035, count = '10'}) -- Dragon Isles Mining Knowledge
     }
 }) -- Bridgette Holdug
 
@@ -975,8 +975,8 @@ val.nodes[27894576] = PM.Tailoring({
     note = L['pm_tailor_elysa_raywinder'],
     parent = map.id,
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2026, note = '5'}) -- Dragon Isles Tailoring Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2026, count = '5'}) -- Dragon Isles Tailoring Knowledge
     }
 }) -- Elysa Raywinder
 

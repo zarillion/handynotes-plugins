@@ -1140,8 +1140,8 @@ map.nodes[43276663] = PM.Blacksmithing({
     quest = 70250,
     note = L['pm_smith_grekka_anvilsmash'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2023, note = '5'}) -- Dragon Isles Blacksmithing Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2023, count = '5'}) -- Dragon Isles Blacksmithing Knowledge
     }
 }) -- Grekka Anvilsmash
 
@@ -1150,8 +1150,8 @@ map.nodes[60827590] = PM.Alchemy({
     quest = 70247,
     note = L['pm_alch_grigori_vialtry'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2024, note = '5'}) -- Dragon Isles Alchemy Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2024, count = '5'}) -- Dragon Isles Alchemy Knowledge
     }
 }) -- Grigori Vialtry
 
@@ -1160,8 +1160,8 @@ map.nodes[73286972] = PM.Skinning({
     quest = 70259,
     note = L['pm_skin_zenzi'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2033, note = '10'}) -- Dragon Isles Skinning Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2033, count = '10'}) -- Dragon Isles Skinning Knowledge
     }
 }) -- Zenzi
 
