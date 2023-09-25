@@ -220,7 +220,7 @@ map.nodes[34656797] = Rare({
     quest = 52469,
     rewards = {
         Achievement({id = 12940, criteria = 41769}),
-        Item({item = 163036, note = 'x10'}) -- Polished Pet Charm
+        Item({item = 163036, note = '10x'}) -- Polished Pet Charm
     }
 }) -- Poacher Zane
 
@@ -449,7 +449,7 @@ map.nodes[67224321] = Treasure({
     note = L['sunken_strongbox_note'],
     rewards = {
         Achievement({id = 12853, criteria = 41064}),
-        Item({item = 163036, note = 'x5'}) -- Polished Pet Charm
+        Item({item = 163036, note = '5x'}) -- Polished Pet Charm
     }
 }) -- Sunken Strongbox
 

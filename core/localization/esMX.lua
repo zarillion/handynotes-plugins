@@ -45,7 +45,7 @@ L['requirement_not_found'] = nil
 L['multiple_spawns'] = nil
 L['shared_drops'] = nil
 
-L['Requires'] = nil
+L['requires'] = nil
 L['ranked_research'] = nil
 
 L['focus'] = nil
@@ -61,12 +61,14 @@ L['weekly'] = 'Semanal'
 L['normal'] = 'Normal'
 L['hard'] = 'Difícil'
 L['heirloom'] = nil
+L['item'] = nil
 L['mount'] = 'Montura'
 L['pet'] = 'Mascota'
 L['recipe'] = nil
 L['spell'] = nil
 L['title'] = nil
 L['toy'] = 'Juguete'
+L['currency'] = nil
 L['rep'] = nil
 L['completed'] = 'Terminado'
 L['incomplete'] = 'Incompleto'
@@ -77,6 +79,9 @@ L['unlearnable'] = 'No se puede aprender'
 L['defeated'] = nil
 L['undefeated'] = nil
 L['elite'] = nil
+L['quest'] = nil
+L['quest_repeatable'] = nil
+L['achievement'] = nil
 
 L['follower_type_follower'] = nil
 L['follower_type_champion'] = nil

@@ -45,7 +45,7 @@ L['requirement_not_found'] = 'Местоположение требования 
 L['multiple_spawns'] = 'Может появляться в нескольких местах.'
 L['shared_drops'] = 'Общий дроп'
 
-L['Requires'] = 'Требуется'
+L['requires'] = 'Требуется'
 L['ranked_research'] = '%s (Ранг %d/%d)'
 
 L['focus'] = 'Фокус'
@@ -61,12 +61,14 @@ L['weekly'] = 'Раз в неделю'
 L['normal'] = 'Обычный'
 L['hard'] = 'Сложный'
 L['heirloom'] = 'Наследуемый'
+L['item'] = nil
 L['mount'] = 'Маунт'
 L['pet'] = 'Питомец'
 L['recipe'] = 'Рецепт'
 L['spell'] = 'Заклинание'
 L['title'] = 'Звание'
 L['toy'] = 'Игрушка'
+L['currency'] = nil
 L['rep'] = 'Реп.'
 L['completed'] = 'Получено'
 L['incomplete'] = 'Незавершенно'
@@ -77,6 +79,9 @@ L['unlearnable'] = 'Не поддается изучению'
 L['defeated'] = 'Побежден'
 L['undefeated'] = 'Не Побежден'
 L['elite'] = 'Элитный'
+L['quest'] = nil
+L['quest_repeatable'] = nil
+L['achievement'] = nil
 
 L['follower_type_follower'] = 'Последователь'
 L['follower_type_champion'] = 'Чемпион'

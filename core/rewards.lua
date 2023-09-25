@@ -199,11 +199,12 @@ end
 ----------------------------------- CURRENCY ----------------------------------
 -------------------------------------------------------------------------------
 
-local Currency = Class('Currency', Reward)
+local Currency = Class('Currency', Reward, {type = L['currency']})
 
 function Currency:GetText()
     local info = C_CurrencyInfo.GetCurrencyInfo(self.id)
     local text = C_CurrencyInfo.GetCurrencyLink(self.id, 0)
+    text = text .. ' (' .. self.type .. ')'
     if self.note then -- additional info
         text = text .. ' (' .. self.note .. ')'
     end
@@ -296,6 +297,9 @@ function Item:GetText()
     local text = self.itemLink
     if self.type then -- mount, pet, toy, etc
         text = text .. ' (' .. self.type .. ')'
+    end
+    if self.count then
+        text = text .. string.format(' (%sx)', BreakUpLargeNumbers(self.count))
     end
     if self.note then -- additional info
         text = text .. ' (' .. ns.RenderLinks(self.note, true) .. ')'

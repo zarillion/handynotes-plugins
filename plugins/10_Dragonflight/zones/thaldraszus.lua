@@ -44,6 +44,8 @@ local Transmog = ns.reward.Transmog
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local QuestStatus = ns.tooltip.QuestStatus
+
 local DC = ns.DRAGON_CUSTOMIZATIONS
 
 -------------------------------------------------------------------------------
@@ -55,6 +57,26 @@ local tpf = Map({id = 2085, settings = false}) -- The Primalist Future
 -------------------------------------------------------------------------------
 
 -- war supplies 41974893
+
+-- TODO: TEST NODE, REMOVE BEFORE RELEASE
+val.nodes[62306730] = ns.node.Node({
+    label = 'TEST NODE',
+    icon = 'quest_ay',
+    requires = {
+        ns.requirement.Achievement(6753), --
+        ns.requirement.Currency(1767, 200), --
+        ns.requirement.GarrisonTalent(2164), --
+        ns.requirement.GarrisonTalentRank(2164, 1), --
+        ns.requirement.Item(208056), --
+        ns.requirement.Profession(186), --
+        ns.requirement.Profession(164, 2822, 25), --
+        ns.requirement.Quest(72709), --
+        ns.requirement.Reputation(2503, 9, true), --
+        ns.requirement.Spell(401577), --
+        ns.requirement.Toy(202042), --
+        ns.requirement.WarMode --
+    }
+})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -625,7 +647,7 @@ map.nodes[33967695] = Treasure({
     },
     rewards = {
         Achievement({id = 16301, criteria = 54810}), -- Treasures of Thaldraszus
-        Item({item = 169951, note = '3x'}) -- Broken Hourglass
+        Item({item = 169951, count = 3}) -- Broken Hourglass
     }
 }) -- Cracked Hourglass
 
@@ -643,7 +665,7 @@ map.nodes[58168007] = Treasure({
     requires = ns.requirement.Quest(70538, '{item:199069}'), -- Yennu's Map
     rewards = {
         Achievement({id = 16301, criteria = 54811}), -- Treasures of Thaldraszus
-        Item({item = 200827, note = '5x'}) -- Weathered Sculpture
+        Item({item = 200827, count = 5}) -- Weathered Sculpture
     },
     pois = {POI({54937543})} -- Yennu's Map
 }) -- Sandy Wooden Duck (Sand Pile)
@@ -942,8 +964,8 @@ map.nodes[61437687] = PM.Mining({
     quest = 70258,
     note = L['pm_mining_bridgette_holdug'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2035, note = '10'}) -- Dragon Isles Mining Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2035, count = '10'}) -- Dragon Isles Mining Knowledge
     }
 }) -- Bridgette Holdug
 
@@ -953,8 +975,8 @@ val.nodes[27894576] = PM.Tailoring({
     note = L['pm_tailor_elysa_raywinder'],
     parent = map.id,
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2026, note = '5'}) -- Dragon Isles Tailoring Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2026, count = '5'}) -- Dragon Isles Tailoring Knowledge
     }
 }) -- Elysa Raywinder
 
@@ -1493,9 +1515,9 @@ local Mythressa = Class('Mythressa', NPC, {
     parent = map.id,
     rewards = {
         Achievement({id = 16502}), -- Storming the Runway
-        Pet({item = 200173, id = 3287, note = 'x1000'}), -- Ghostflame
-        Pet({item = 200114, id = 3382, note = 'x1000'}), -- Stormie
-        Mount({item = 192775, id = 1622, note = 'x2000'}) -- Stormhide Salamanther
+        Pet({item = 200173, id = 3287, count = 1000}), -- Ghostflame
+        Pet({item = 200114, id = 3382, count = 1000}), -- Stormie
+        Mount({item = 192775, id = 1622, count = 2000}) -- Stormhide Salamanther
     }
 }) -- Mythressa <Apprentice Primal Researcher>
 
@@ -1651,18 +1673,22 @@ map.nodes[62711323] = ns.node.MoteOfNaszuro({
     quest = 76189,
     note = L['naszuro_veiled_ossuary']
 }) -- Veiled Ossuary
+
 map.nodes[61234074] = ns.node.MoteOfNaszuro({
     quest = 76190,
     note = L['naszuro_algethar_academy']
 }) -- Algeth'ar Academy
+
 map.nodes[72885505] = ns.node.MoteOfNaszuro({
     quest = 76191,
     note = L['naszuro_vault_of_the_incarnates']
 }) -- Vault of the Incarnates
+
 map.nodes[70876985] = ns.node.MoteOfNaszuro({
     quest = 76192,
     note = L['naszuro_thaldraszus_peak']
 }) -- Thaldraszus Peak
+
 map.nodes[62618507] = ns.node.MoteOfNaszuro({
     quest = 76193,
     note = L['naszuro_temporal_conflux']
@@ -1689,22 +1715,14 @@ local Rumiastrasza = Class('Rumiastrasza', Collectible, {
 }) -- Rumiastrasza
 
 function Rumiastrasza.getters:note()
-    local function status(questID, questLeg)
-        if C_QuestLog.IsQuestFlaggedCompleted(questID) then
-            return ns.status.Green(questLeg)
-        else
-            return ns.status.Red(questLeg)
-        end
-    end
-
     local note = L['hoard_of_draconic_delicacies_note_start'] .. '\n'
-    note = note .. '\n' .. status(67047, 1) .. ' {quest:67047}' -- Warm Away These Shivers
-    note = note .. '\n' .. status(67063, 2) .. ' {quest:67063}' -- 10,000 Years Of Roasting
-    note = note .. '\n' .. status(67064, 3) .. ' {quest:67064}' -- Rambling Delight
-    note = note .. '\n' .. status(67065, 4) .. ' {quest:67065}' -- Future Fresh Fungi
-    note = note .. '\n' .. status(67066, 5) .. ' {quest:67066}' -- Delights To Delve For
-    note = note .. '\n' .. status(67067, 6) .. ' {quest:67067}' -- Navigating The Leapmaize
-    note = note .. '\n' .. status(67068, 7) .. ' {quest:67068}' -- Anything But A Breeze
+    note = note .. '\n' .. QuestStatus(67047, 1, '{quest:67047}', false) -- Warm Away These Shivers
+    note = note .. '\n' .. QuestStatus(67063, 2, '{quest:67063}', false) -- 10,000 Years Of Roasting
+    note = note .. '\n' .. QuestStatus(67064, 3, '{quest:67064}', false) -- Rambling Delight
+    note = note .. '\n' .. QuestStatus(67065, 4, '{quest:67065}', false) -- Future Fresh Fungi
+    note = note .. '\n' .. QuestStatus(67066, 5, '{quest:67066}', false) -- Delights To Delve For
+    note = note .. '\n' .. QuestStatus(67067, 6, '{quest:67067}', false) -- Navigating The Leapmaize
+    note = note .. '\n' .. QuestStatus(67068, 7, '{quest:67068}', false) -- Anything But A Breeze
     return note .. '\n\n' .. L['hoard_of_draconic_delicacies_note_end']
 end
 

@@ -1,10 +1,9 @@
--- Spanish Translation by (EU) Krovikan-Minahonda
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
 
 local Gold = ns.color.Gold
-
+-- Spanish Translation by (EU) Krovikan-Minahonda
 -------------------------------------------------------------------------------
 ------------------------------- ANTORAN WASTES --------------------------------
 -------------------------------------------------------------------------------

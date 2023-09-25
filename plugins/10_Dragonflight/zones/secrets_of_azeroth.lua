@@ -18,6 +18,9 @@ local Gray = ns.color.Gray
 local POI = ns.poi.POI
 local Path = ns.poi.Path
 
+local ItemStatus = ns.tooltip.ItemStatus
+local QuestStatus = ns.tooltip.QuestStatus
+
 -------------------------------------------------------------------------------
 
 -- Achievement: Whodunnit?
@@ -144,9 +147,9 @@ local FangliHoot = Class('FangliHoot', SecretsOfAzeroth, {
 
 function FangliHoot.getters:note()
     local note = L['soa_03_fangli_hoot_note_a']
-    note = note .. ns.NoteStatus(207956, 1, L['soa_03_fangli_hoot_note_b']) -- Thought Calculating Apparatus
-    note = note .. ns.NoteStatus(207813, 1, L['soa_03_fangli_hoot_note_c']) -- Downey Helmet Liner
-    note = note .. ns.NoteStatus(207816, 1, L['soa_03_fangli_hoot_note_d']) -- Crystal Ocular Lenses
+    note = note .. ItemStatus(207956, 1, L['soa_03_fangli_hoot_note_b']) -- Thought Calculating Apparatus
+    note = note .. ItemStatus(207813, 1, L['soa_03_fangli_hoot_note_c']) -- Downey Helmet Liner
+    note = note .. ItemStatus(207816, 1, L['soa_03_fangli_hoot_note_d']) -- Crystal Ocular Lenses
     return note .. '\n\n' .. L['soa_03_fangli_hoot_note_e']
 end
 
@@ -185,15 +188,15 @@ local Erugosa = Class('Erugosa', SecretsOfAzeroth, {
         207827 -- Unfinished Thinking Cap
     },
     rewards = {
-        Item({item = 207956, note = '10x'}) -- Thunderspine Nest
+        Item({item = 207956, count = 10}) -- Thunderspine Nest
     }
 }) -- Erugosa <Cooking Trainer>
 
 function Erugosa.getters:note()
     local note = L['soa_03_erugosa_note_a']
-    note = note .. ns.NoteStatus(198441, 5, L['soa_03_erugosa_note_b']) -- Thunderspine Tenders
-    note = note .. ns.NoteStatus(201419, 5, L['soa_03_erugosa_note_c']) -- Latticed Stinkhorn
-    note = note .. ns.NoteStatus(205693, 5, L['soa_03_erugosa_note_d']) -- Apexis Asiago
+    note = note .. ItemStatus(198441, 5, L['soa_03_erugosa_note_b']) -- Thunderspine Tenders
+    note = note .. ItemStatus(201419, 5, L['soa_03_erugosa_note_c']) -- Latticed Stinkhorn
+    note = note .. ItemStatus(205693, 5, L['soa_03_erugosa_note_d']) -- Apexis Asiago
     return note
 end
 
@@ -206,7 +209,7 @@ ohn.nodes[85182347] = SecretsOfAzeroth({
     questDeps = 76987, -- Clue 02 complete
     note = L['soa_03_erugosa_note_b'],
     rewards = {
-        Item({item = 198441, note = '5x'}) -- Thunderspine Tenders
+        Item({item = 198441, count = 5}) -- Thunderspine Tenders
     }
 }) -- Agurahl the Butcher <Meat Vendor>
 
@@ -217,7 +220,7 @@ val.nodes[28996516] = SecretsOfAzeroth({
     questDeps = 76987, -- Clue 02 complete
     note = L['soa_03_erugosa_note_c'],
     rewards = {
-        Item({item = 201419, note = '5x'}) -- Apexis Asiago
+        Item({item = 201419, count = 5}) -- Apexis Asiago
     }
 }) -- Gorgonzormu <Cheesemonger>
 
@@ -228,7 +231,7 @@ zar.nodes[54085666] = SecretsOfAzeroth({
     questDeps = 76987, -- Clue 02 complete
     note = L['soa_03_erugosa_note_d'],
     rewards = {
-        Item({item = 205693, note = '5x'}) -- Latticed Stinkhorn
+        Item({item = 205693, count = 5}) -- Latticed Stinkhorn
     }
 }) -- Sniktak <Enterprising Mycologist>
 
@@ -248,7 +251,7 @@ local Clinkyclick = Class('Clinkyclick', SecretsOfAzeroth, {
 
 function Clinkyclick.getters:note()
     local note = L['soa_03_clinkyclick_note_a']
-    note = note .. ns.NoteStatus(207956, 5, L['soa_03_clinkyclick_note_b']) -- Thunderspine Nest
+    note = note .. ItemStatus(207956, 5, L['soa_03_clinkyclick_note_b']) -- Thunderspine Nest
     return note
 end
 
@@ -272,7 +275,7 @@ local Gryffin = Class('Gryffin', SecretsOfAzeroth, {
 
 function Gryffin.getters:note()
     local note = L['soa_03_gryffin_note_a']
-    note = note .. ns.NoteStatus(207812, 1, L['soa_03_gryffin_note_b']) -- Fresh Tyranha
+    note = note .. ItemStatus(207812, 1, L['soa_03_gryffin_note_b']) -- Fresh Tyranha
     return note
 end
 
@@ -289,7 +292,7 @@ val.nodes[46109447] = SecretsOfAzeroth({
     },
     note = L['soa_03_gryffin_note_b'],
     rewards = {
-        Item({item = 207812, note = '1x'}) -- Fresh Tyranha
+        Item({item = 207812, count = 1}) -- Fresh Tyranha
     }
 }) -- Hungering Tyranha
 
@@ -1255,16 +1258,11 @@ local MJJ_List = Class('MJJ_List', ns.node.Collectible, {
 }) -- Mimiron's Jumpjets List
 
 function MJJ_List.getters:note()
-    local function complete(num, item)
-        if ns.PlayerHasItem(item) then return ns.status.Green(num) end
-        return ns.status.Red(num)
-    end
-
     local note = L['soa_mjj_list_note'] .. '\n'
     for num, part in ipairs(MJJ_PARTS) do
         local mName = C_Map.GetMapInfo(part.map.id).name
         local pName = C_Map.GetMapInfo(part.parentMapID).name
-        local done = complete(num, part.item)
+        local done = ItemStatus(part.item, num)
         note = note ..
                    format('\n%s {item:%d} %s (%s)', done, part.item, mName,
                 pName)
@@ -1449,19 +1447,11 @@ local BuriedSatchelList = Class('BuriedSatchelList', SecretsOfAzeroth, {
 }) -- Buried Satchel List
 
 function BuriedSatchelList.getters:note()
-    local function complete(num, questID)
-        if C_QuestLog.IsQuestFlaggedCompleted(questID) then
-            return ns.status.Green(num)
-        else
-            return ns.status.Red(num)
-        end
-    end
-
     local note = L['buried_satchel_note'] .. '\n'
     for num, satchel in ipairs(BURIED_SATCHELS) do
         local mName = C_Map.GetMapInfo(satchel.map.id).name
         local pName = C_Map.GetMapInfo(satchel.parentMapID).name
-        local qDone = complete(num, satchel.quest)
+        local qDone = QuestStatus(satchel.quest, num)
         note = note .. format('\n%s %s (%s)', qDone, mName, pName)
     end
     return note
