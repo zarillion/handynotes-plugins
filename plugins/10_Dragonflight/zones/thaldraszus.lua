@@ -1673,18 +1673,22 @@ map.nodes[62711323] = ns.node.MoteOfNaszuro({
     quest = 76189,
     note = L['naszuro_veiled_ossuary']
 }) -- Veiled Ossuary
+
 map.nodes[61234074] = ns.node.MoteOfNaszuro({
     quest = 76190,
     note = L['naszuro_algethar_academy']
 }) -- Algeth'ar Academy
+
 map.nodes[72885505] = ns.node.MoteOfNaszuro({
     quest = 76191,
     note = L['naszuro_vault_of_the_incarnates']
 }) -- Vault of the Incarnates
+
 map.nodes[70876985] = ns.node.MoteOfNaszuro({
     quest = 76192,
     note = L['naszuro_thaldraszus_peak']
 }) -- Thaldraszus Peak
+
 map.nodes[62618507] = ns.node.MoteOfNaszuro({
     quest = 76193,
     note = L['naszuro_temporal_conflux']
@@ -1712,13 +1716,13 @@ local Rumiastrasza = Class('Rumiastrasza', Collectible, {
 
 function Rumiastrasza.getters:note()
     local note = L['hoard_of_draconic_delicacies_note_start'] .. '\n'
-    note = note .. '\n' .. QuestStatus(67047, 1) .. ' {quest:67047}' -- Warm Away These Shivers
-    note = note .. '\n' .. QuestStatus(67063, 2) .. ' {quest:67063}' -- 10,000 Years Of Roasting
-    note = note .. '\n' .. QuestStatus(67064, 3) .. ' {quest:67064}' -- Rambling Delight
-    note = note .. '\n' .. QuestStatus(67065, 4) .. ' {quest:67065}' -- Future Fresh Fungi
-    note = note .. '\n' .. QuestStatus(67066, 5) .. ' {quest:67066}' -- Delights To Delve For
-    note = note .. '\n' .. QuestStatus(67067, 6) .. ' {quest:67067}' -- Navigating The Leapmaize
-    note = note .. '\n' .. QuestStatus(67068, 7) .. ' {quest:67068}' -- Anything But A Breeze
+    note = note .. '\n' .. QuestStatus(67047, 1, '{quest:67047}', false) -- Warm Away These Shivers
+    note = note .. '\n' .. QuestStatus(67063, 2, '{quest:67063}', false) -- 10,000 Years Of Roasting
+    note = note .. '\n' .. QuestStatus(67064, 3, '{quest:67064}', false) -- Rambling Delight
+    note = note .. '\n' .. QuestStatus(67065, 4, '{quest:67065}', false) -- Future Fresh Fungi
+    note = note .. '\n' .. QuestStatus(67066, 5, '{quest:67066}', false) -- Delights To Delve For
+    note = note .. '\n' .. QuestStatus(67067, 6, '{quest:67067}', false) -- Navigating The Leapmaize
+    note = note .. '\n' .. QuestStatus(67068, 7, '{quest:67068}', false) -- Anything But A Breeze
     return note .. '\n\n' .. L['hoard_of_draconic_delicacies_note_end']
 end
 

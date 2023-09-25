@@ -88,9 +88,9 @@ local DragonridingVendor = Class('DragonridingVendor', NPC, {
     group = ns.groups.DRAGONRACE,
     note = L['dr_vendor_note'],
     rewards = {
-        DC.SetNote(DC.WindborneVelocidrake.TealScales, '50'),
-        DC.SetNote(DC.WindingSlitherdrake.BlondeHair, '25'),
-        DC.SetNote(DC.WindingSlitherdrake.CurvedNoseHorn, '25'),
+        DC.SetCount(DC.WindborneVelocidrake.TealScales, '50'),
+        DC.SetCount(DC.WindingSlitherdrake.BlondeHair, '25'),
+        DC.SetCount(DC.WindingSlitherdrake.CurvedNoseHorn, '25'),
         Transmog({item = 206588, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Helmet
         Transmog({item = 206589, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Shoulderpads
         Transmog({item = 206590, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Jersey

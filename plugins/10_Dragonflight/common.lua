@@ -1696,11 +1696,11 @@ local Celestine = Class('Celestine', NPC, {
     sublabel = L['dreamsurge_sublabel'],
     note = L['celestine_vendor_note'],
     rewards = {
-        Mount({item = 198824, id = 1671, note = '1000'}), -- Duskwing Ohuna
-        Toy({item = 209858, note = '500'}), -- Dreamsurge Remnant
-        Toy({item = 209944, note = '500'}), -- Friendsurge Defenders
-        Pet({item = 205024, id = 3523, note = '250'}), -- Cheddar
-        Pet({item = 205010, id = 3516, note = '250'}) -- Crimson Swoglet
+        Mount({item = 198824, id = 1671, count = '1000'}), -- Duskwing Ohuna
+        Toy({item = 209858, count = '500'}), -- Dreamsurge Remnant
+        Toy({item = 209944, count = '500'}), -- Friendsurge Defenders
+        Pet({item = 205024, id = 3523, count = '250'}), -- Cheddar
+        Pet({item = 205010, id = 3516, count = '250'}) -- Crimson Swoglet
     }
 }) -- Celestine of the Harvest
 
@@ -1716,16 +1716,8 @@ local RenewedMagmammoth = Class('RenewedMagmammoth', Collectible, {
 })
 
 function RenewedMagmammoth.getters:note()
-    local function status(id, itemsNeed)
-        local itemsHave = GetItemCount(id, true);
-        if ns.PlayerHasItem(id, itemsNeed) then
-            return ns.status.Green(itemsHave .. '/' .. itemsNeed)
-        else
-            return ns.status.Red(itemsHave .. '/' .. itemsNeed)
-        end
-    end
-
-    return status(209419, 20) .. ' ' .. L['renewed_magmammoth_note']
+    return ns.tooltip
+               .ItemStatus(209419, 20, L['renewed_magmammoth_note'], false)
 end
 
 ns.node.RenewedMagmammoth = RenewedMagmammoth

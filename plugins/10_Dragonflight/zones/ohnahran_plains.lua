@@ -45,6 +45,9 @@ local Circle = ns.poi.Circle
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local ItemStatus = ns.tooltip.ItemStatus
+local QuestStatus = ns.tooltip.QuestStatus
+
 local DC = ns.DRAGON_CUSTOMIZATIONS
 
 -------------------------------------------------------------------------------
@@ -277,18 +280,11 @@ local Quackers = Class('Quackers', Rare, {
 })
 
 function Quackers.getters:note()
-    local function status(id, count)
-        if ns.PlayerHasItem(id, count) then
-            return ns.status.Green(count .. 'x')
-        else
-            return ns.status.Red(count .. 'x')
-        end
-    end
     local note = L['quackers_duck_trap_kit']
-    note = note .. '\n' .. status(201402, 1) .. ' {item:201402}' -- Large Sturdy Femur
-    note = note .. '\n' .. status(193053, 3) .. ' {item:193053}' -- Contoured Fowlfeather
-    note = note .. '\n' .. status(201404, 2) .. ' {item:201404}\n\n' -- Tallstrider Sinew
-    return note .. L['quackers_spawn']
+    note = note .. ItemStatus(201402, 1, '{item:201402}') -- Large Sturdy Femur
+    note = note .. ItemStatus(193053, 3, '{item:193053}') -- Contoured Fowlfeather
+    note = note .. ItemStatus(201404, 2, '{item:201404}') -- Tallstrider Sinew
+    return note .. '\n\n' .. L['quackers_spawn']
 end
 
 map.nodes[68207920] = Quackers() -- Quackers the Terrible
@@ -1980,20 +1976,12 @@ local Lizi = Class('Lizi', Collectible, {
 }) -- Initiate Radiya
 
 function Lizi.getters:note()
-    local function status(i)
-        if C_QuestLog.IsQuestFlaggedCompleted(self.quest[i]) then
-            return ns.status.Green(i)
-        else
-            return ns.status.Red(i)
-        end
-    end
-
     local note = L['lizi_note']
-    note = note .. '\n\n' .. status(1) .. ' ' .. L['lizi_note_day1'] -- Fluorescent Fluid
-    note = note .. '\n\n' .. status(2) .. ' ' .. L['lizi_note_day2'] -- High-Fiber Leaf
-    note = note .. '\n\n' .. status(3) .. ' ' .. L['lizi_note_day3'] -- Thousandbine Piranha
-    note = note .. '\n\n' .. status(4) .. ' ' .. L['lizi_note_day4'] -- Woolly Mountain Pelt
-    note = note .. '\n\n' .. status(5) .. ' ' .. L['lizi_note_day5'] -- Meluun's Green Curry
+    note = note .. QuestStatus(self.quest[1], 1, L['lizi_note_day1']) -- Fluorescent Fluid
+    note = note .. QuestStatus(self.quest[2], 2, L['lizi_note_day2']) -- High-Fiber Leaf
+    note = note .. QuestStatus(self.quest[3], 3, L['lizi_note_day3']) -- Thousandbine Piranha
+    note = note .. QuestStatus(self.quest[4], 4, L['lizi_note_day4']) -- Woolly Mountain Pelt
+    note = note .. QuestStatus(self.quest[5], 5, L['lizi_note_day5']) -- Meluun's Green Curry
     return note
 end
 
@@ -2018,19 +2006,10 @@ local Ohnahra = Class('Ohnahra', Collectible, {
 }) -- Ohn'ahra
 
 function Ohnahra.getters:note()
-    local function status(id, itemsNeed)
-        local itemsHave = GetItemCount(id, true);
-        if ns.PlayerHasItem(id, itemsNeed) then
-            return ns.status.Green(itemsHave .. '/' .. itemsNeed)
-        else
-            return ns.status.Red(itemsHave .. '/' .. itemsNeed)
-        end
-    end
-
     local note = L['ohnahra_note_start']
-    note = note .. '\n\n' .. status(201929, 3) .. ' ' .. L['ohnahra_note_item1'] -- Stolen Breath of Ohn'ahra
-    note = note .. '\n\n' .. status(201323, 1) .. ' ' .. L['ohnahra_note_item2'] -- Essence of Awakening
-    note = note .. '\n\n' .. status(191507, 1) .. ' ' .. L['ohnahra_note_item3'] -- Exultant Incense
+    note = note .. ItemStatus(201929, 3, L['ohnahra_note_item1']) -- Stolen Breath of Ohn'ahra
+    note = note .. ItemStatus(201323, 1, L['ohnahra_note_item2']) -- Essence of Awakening
+    note = note .. ItemStatus(191507, 1, L['ohnahra_note_item3']) -- Exultant Incense
     return note .. '\n\n' .. L['ohnahra_note_end']
 end
 
@@ -2074,6 +2053,7 @@ map.nodes[61236436] = ns.node.MoteOfNaszuro({
     quest = 76182,
     note = L['naszuro_windsong_rise']
 }) -- Windsong Rise
+
 map.nodes[34335874] = ns.node.MoteOfNaszuro({
     quest = 76183,
     note = L['naszuro_emerald_gardens']

@@ -49,6 +49,9 @@ local Transmog = ns.reward.Transmog
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local ItemStatus = ns.tooltip.ItemStatus
+local QuestStatus = ns.tooltip.QuestStatus
+
 local DC = ns.DRAGON_CUSTOMIZATIONS
 
 -------------------------------------------------------------------------------
@@ -1787,19 +1790,10 @@ local TemperamentalSkyclaw = Class('TemperamentalSkyclaw', Collectible, {
 }) -- Temperamental Skyclaw
 
 function TemperamentalSkyclaw.getters:note()
-    local function status(id, itemsNeed)
-        local itemsHave = GetItemCount(id, true);
-        if ns.PlayerHasItem(id, itemsNeed) then
-            return ns.status.Green(itemsHave .. '/' .. itemsNeed)
-        else
-            return ns.status.Red(itemsHave .. '/' .. itemsNeed)
-        end
-    end
-
     local note = L['temperamental_skyclaw_note_start']
-    note = note .. '\n\n' .. status(201420, 20) .. ' {item:201420}' -- Gnolan's House Special
-    note = note .. '\n\n' .. status(201421, 20) .. ' {item:201421}' -- Tuskarr Jerky
-    note = note .. '\n\n' .. status(201422, 20) .. ' {item:201422}' -- Flash Frozen Meat
+    note = note .. ItemStatus(201420, 20, '{item:201420}') -- Gnolan's House Special
+    note = note .. ItemStatus(201421, 20, '{item:201421}') -- Tuskarr Jerky
+    note = note .. ItemStatus(201422, 20, '{item:201422}') -- Flash Frozen Meat
     return note .. '\n\n' .. L['temperamental_skyclaw_note_end']
 end
 
@@ -1847,20 +1841,9 @@ local SnowclawCub = Class('SnowclawCub', Collectible, {
 }) -- Snowclaw Cub
 
 function SnowclawCub.getters:note()
-    local function status(id, itemsNeed)
-        local itemsHave = GetItemCount(id, true);
-        if ns.PlayerHasItem(id, itemsNeed) then
-            return ns.status.Green(itemsHave .. '/' .. itemsNeed)
-        else
-            return ns.status.Red(itemsHave .. '/' .. itemsNeed)
-        end
-    end
-
     local note = L['snowclaw_cub_note_start']
-    note = note .. '\n\n' .. status(197744, 3) .. ' ' ..
-               L['snowclaw_cub_note_item1'] -- Hornswog Hunk
-    note = note .. '\n\n' .. status(198356, 1) .. ' ' ..
-               L['snowclaw_cub_note_item2'] -- Honey Snack
+    note = note .. ItemStatus(197744, 3, L['snowclaw_cub_note_item1']) -- Hornswog Hunk
+    note = note .. ItemStatus(198356, 1, L['snowclaw_cub_note_item2']) -- Honey Snack
     return note .. '\n\n' .. L['snowclaw_cub_note_end']
 end
 
@@ -1919,20 +1902,10 @@ local Ranpiata = Class('Ranpiata', Collectible, {
 }) -- Ranpiata
 
 function Ranpiata.getters:note()
-    local function status(questID, questLeg)
-        if C_QuestLog.IsQuestFlaggedCompleted(questID) then
-            return ns.status.Green(questLeg)
-        else
-            return ns.status.Red(questLeg)
-        end
-    end
-
-    local note = '\n' .. status(70166, 1) .. ' ' ..
-                     L['artists_easel_note_step1'] -- The Joy of Painting
-    note = note .. '\n\n' .. status(70168, 2) .. ' ' ..
-               L['artists_easel_note_step2'] -- Sad Little Accidents
-    note = note .. '\n\n' .. status(70170, 3) .. ' ' ..
-               L['artists_easel_note_step3'] -- Beat the Demons Out of It
+    local note = '\n'
+    note = note .. QuestStatus(70166, 1, L['artists_easel_note_step1'], false) -- The Joy of Painting
+    note = note .. QuestStatus(70168, 2, L['artists_easel_note_step2']) -- Sad Little Accidents
+    note = note .. QuestStatus(70170, 3, L['artists_easel_note_step3']) -- Beat the Demons Out of It
     return note .. '\n\n' .. L['artists_easel_note_step4']
 end
 
@@ -1957,14 +1930,17 @@ map.nodes[78843413] = ns.node.MoteOfNaszuro({
     quest = 76178,
     note = L['naszuro_vakthros']
 }) -- Vakthros
+
 map.nodes[61577143] = ns.node.MoteOfNaszuro({
     quest = 76179,
     note = L['naszuro_imbu']
 }) -- Imbu
+
 map.nodes[36405646] = ns.node.MoteOfNaszuro({
     quest = 76180,
     note = L['naszuro_azure_archives']
 }) -- Azure Archives
+
 map.nodes[08235308] = ns.node.MoteOfNaszuro({
     quest = 76181,
     note = L['naszuro_hudsons_rock']
