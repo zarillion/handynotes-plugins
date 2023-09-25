@@ -908,7 +908,7 @@ L['mbc_vial_location'] = 'Llena {item:%d} con agua de la poza de la luna de {loc
 L['mbc_moonwell_label'] = 'Poza de la Luna'
 L['mbc_feral_dreamstone_label'] = 'Feral Dreamstone' -- REVIEW Feral Dreamstone
 
-L['slumbering_somnowl_note_a'] = 'Consigue 5x {item:210565} de varios {npc:Somnowl} a lo largo del {location:Sueño Esmeralda}.' -- unconfirmed
+L['slumbering_somnowl_note_a'] = 'Consigue 5x {item:210565} de varios {npc:Somnowl} a lo largo del {location:Sueño Esmeralda}.' -- unconfirmed and REVIEW {npc:Somnowl}
 L['slumbering_somnowl_note_b'] = 'Compra 1x {item:4291} a cualquier vendedor de suministros.' -- unconfirmed
 L['slumbering_somnowl_note_c'] = 'Combina 5x {item:210565} y 1x {item:4291} para crear {item:210566}.' -- unconfirmed
 L['slumbering_somnowl_note_d'] = 'Consigue 1x {item:194864}.' -- unconfirmed
@@ -922,9 +922,9 @@ L['options_icons_druid_glyph_desc'] = 'Muestra dónde están los {emote:Glifo de
 L['elianna_vendor_note'] = 'Cambia {currency:2777} por mascotas y monturas.'
 L['sylvia_vendor_note'] = 'Cambia {currency:2651} por mascotas, monturas y transfiguraciones.'
 
-L['somnut'] = 'Somnut' -- REVIEW Somnut y artículo
-L['options_icons_somnut'] = 'Somnut' -- REVIEW Somnut y artículo
-L['options_icons_somnut_desc'] = 'Muestra dónden pueden estar los {object:Somnuts}.' -- REVIEW Somnut y artículo
+L['somnut'] = 'Somnuez'
+L['options_icons_somnut'] = 'Somnuez'
+L['options_icons_somnut_desc'] = 'Muestra dónden pueden estar los {object:Somnuez}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
