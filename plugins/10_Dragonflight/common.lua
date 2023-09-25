@@ -797,6 +797,19 @@ ns.DRAGON_CUSTOMIZATIONS = {
         WhiteScales = Item({item = 203354, quest = 73845}),
         YellowAndSilverArmor = Item({item = 203304, quest = 73792}),
         YellowScales = Item({item = 203355, quest = 73846})
+    },
+    FlourishingWhimsydrake = {
+        BackFins = Item({item = 210482, quest = nil}),
+        BodyArmor = Item({item = 210471, quest = nil}), 
+        GoldAndPinkArmor = Item({item = 210478, quest = nil}),
+        Helmet = Item({item = 210476, quest = nil}),
+        Horns = Item({item = 210486, quest = nil}),
+        LongSnout = Item({item = 210485, quest = nil}),
+        NeckFins = Item({item = 210487, quest = nil}),
+        NightScales = Item({item = 210479, quest = nil}),
+        RidgedBrow = Item({item = 210483, quest = nil}),
+        SunsetScales = Item({item = 210481, quest = nil}),
+        UnderbiteSnout = Item({item = 210484, quest = nil})
     }
 }
 
