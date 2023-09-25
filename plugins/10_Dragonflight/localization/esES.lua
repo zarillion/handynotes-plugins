@@ -898,10 +898,10 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'R'
 L['mbc_vial_o'] = 'T'
 
-L['mbc_vial_d_location'] = nil
+L['mbc_vial_d_location'] = 'Avanzada Estrella Fugaz'
 L['mbc_vial_e_location'] = 'Arboleda del Crepúsculo'
-L['mbc_vial_k_location'] = 'Refugio de las Estaciones de Malfurion'
-L['mbc_vial_n_location'] = 'Reposo de las Estrellas'
+L['mbc_vial_k_location'] = 'Túmulo de Tempestira'
+L['mbc_vial_n_location'] = 'Reposo Estelar'
 L['mbc_vial_o_location'] = 'Refugio Cenarion'
 
 L['mbc_vial_location'] = 'Llena {item:%d} con agua de la poza de la luna de {location:%s} en {location:%s} en {location:%s} para conseguir {item:%d}.'
