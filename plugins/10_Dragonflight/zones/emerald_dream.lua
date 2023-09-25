@@ -757,7 +757,7 @@ map.nodes[51265990] = Dreamfruit({
         Achievement({
             id = 19310,
             criteria = {
-                -- 62910, -- Basket of Explosive Acorns
+                62910, -- Basket of Explosive Acorns
                 62911, -- Bubble Blowgun
                 62912, -- Dream Gatherer
                 62913, -- Feral Overflow
@@ -1066,6 +1066,7 @@ local Somnut = Class('Somnut', ns.node.Node, {
     group = ns.groups.SOMNUT,
     rewards = {
         Transmog({item = 210132, type = L['2h_sword']}), -- Wildleaf Greatsword
+        Transmog({item = 210128, type = L['2h_sword']}), -- Autumn Defender's Claymore
         Item({item = 208066}), -- Small Dreamseed
         Item({item = 191784}), -- Dragon Shard of Knowledge
         Currency({id = 2706}), -- Whelpling's Dreaming Crest
@@ -1083,22 +1084,32 @@ map.nodes[37735019] = Somnut()
 map.nodes[38073268] = Somnut()
 map.nodes[38512516] = Somnut()
 map.nodes[39315799] = Somnut()
+map.nodes[39552298] = Somnut()
+map.nodes[40082431] = Somnut()
 map.nodes[40384207] = Somnut()
 map.nodes[40883180] = Somnut()
+map.nodes[41285450] = Somnut()
+map.nodes[41454593] = Somnut()
 map.nodes[42236677] = Somnut({location = L['in_a_tree']})
 map.nodes[42284821] = Somnut()
 map.nodes[43107190] = Somnut({location = L['in_a_tree']})
+map.nodes[44572452] = Somnut()
 map.nodes[44633492] = Somnut()
+map.nodes[46913522] = Somnut()
 map.nodes[47743551] = Somnut()
 map.nodes[48292228] = Somnut({location = L['in_a_tree']}) -- ontop of the burning tree
 map.nodes[54101937] = Somnut()
+map.nodes[54191511] = Somnut({location = L['in_a_tree']}) -- Bugged flying in the air
+map.nodes[54223219] = Somnut({location = L['in_a_tree']})
 map.nodes[55324272] = Somnut()
 map.nodes[55575494] = Somnut({location = L['in_water']})
 map.nodes[55733714] = Somnut()
 map.nodes[55915818] = Somnut()
 map.nodes[60134204] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
+map.nodes[61977450] = Somnut()
 map.nodes[63457357] = Somnut()
 map.nodes[65985217] = Somnut() -- On a Branch/Root
+map.nodes[66085014] = Somnut()
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
