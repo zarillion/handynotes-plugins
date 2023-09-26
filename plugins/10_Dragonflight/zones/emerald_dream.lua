@@ -601,6 +601,7 @@ map.nodes[61677548] = Dragonglyph({rewards = {Achievement({id = 19303})}}) -- Dr
 local MoonkinHatchling = Class('Hatchling', Collectible, {
     icon = 467894,
     group = ns.groups.MOONKIN_HATCHLING,
+    note = L['moonkin_hatchling_note'],
     getters = {
         rewards = function(self)
             return {
@@ -779,6 +780,7 @@ map.nodes[51265990] = Dreamfruit({
 })
 
 map.nodes[52847357] = Dreamfruit({
+    requires = {ns.requirement.Reputation(2574, 12, true)}, -- just a guess
     rewards = {
         Achievement({
             id = 19310,
@@ -1045,6 +1047,7 @@ local Somnut = Class('Somnut', ns.node.Node, {
     label = L['somnut'],
     icon = 656681,
     group = ns.groups.SOMNUT,
+    requires = {ns.requirement.Reputation(2574, 2, true)},
     rewards = {
         Transmog({item = 210132, type = L['2h_sword']}), -- Wildleaf Greatsword
         Transmog({item = 210128, type = L['2h_sword']}), -- Autumn Defender's Claymore
@@ -1082,10 +1085,12 @@ map.nodes[48292228] = Somnut({location = L['in_a_tree']}) -- ontop of the burnin
 map.nodes[54101937] = Somnut()
 map.nodes[54191511] = Somnut({location = L['in_a_tree']}) -- Bugged flying in the air
 map.nodes[54223219] = Somnut({location = L['in_a_tree']})
+map.nodes[54924044] = Somnut()
 map.nodes[55324272] = Somnut()
 map.nodes[55575494] = Somnut({location = L['in_water']})
 map.nodes[55733714] = Somnut()
 map.nodes[55915818] = Somnut()
+map.nodes[57185350] = Somnut() -- flying in the air, but reachable
 map.nodes[60134204] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
 map.nodes[61977450] = Somnut()
 map.nodes[63457357] = Somnut()

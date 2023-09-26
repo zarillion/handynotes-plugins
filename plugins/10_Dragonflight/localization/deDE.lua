@@ -886,6 +886,7 @@ L['dreamfruit_note'] = 'Erscheint, wenn das {location:Superblüte} Event beginnt
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinküken für den Erfolg {achievement:19293} an.'
+L['moonkin_hatchling_note'] = '{wq:78370} muss aktiv sein.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Auf dem Boden vor dem Baum.'
 
