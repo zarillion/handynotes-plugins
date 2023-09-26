@@ -777,6 +777,9 @@ L['options_icons_zone_event_desc'] = nil
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
+L['options_icons_emerald_dream_safari_desc'] = nil
+
 L['envoy_of_winter_note'] = nil
 L['fruitface_note'] = nil
 L['greedy_gessie_note'] = nil

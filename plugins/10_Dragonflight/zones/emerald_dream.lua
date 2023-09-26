@@ -1086,16 +1086,83 @@ map.nodes[54101937] = Somnut()
 map.nodes[54191511] = Somnut({location = L['in_a_tree']}) -- Bugged flying in the air
 map.nodes[54223219] = Somnut({location = L['in_a_tree']})
 map.nodes[54924044] = Somnut()
+map.nodes[55002530] = Somnut({location = L['in_a_tree']}) -- bugged floating in the tree, hard to reach
 map.nodes[55324272] = Somnut()
 map.nodes[55575494] = Somnut({location = L['in_water']})
 map.nodes[55733714] = Somnut()
 map.nodes[55915818] = Somnut()
 map.nodes[57185350] = Somnut() -- flying in the air, but reachable
+map.nodes[58933803] = Somnut()
+map.nodes[59425365] = Somnut()
 map.nodes[60134204] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
 map.nodes[61977450] = Somnut()
 map.nodes[63457357] = Somnut()
 map.nodes[65985217] = Somnut() -- On a Branch/Root
 map.nodes[66085014] = Somnut()
+
+-------------------------------------------------------------------------------
+---------------------------- EMERALD DREAM SAFARI -----------------------------
+-------------------------------------------------------------------------------
+
+-- Node locations are placed at the position i first found the Pet at.
+-- When the wowhead database is filled with locations we have to update them.
+
+local EmeraldDream_Safari = Class('EmeraldDream_Safari', ns.node.Safari,
+    {group = ns.groups.EMERALD_DREAM_SAFARI})
+
+map.nodes[52205720] = EmeraldDream_Safari({
+    id = 212557,
+    rewards = {Achievement({id = 19401, criteria = 63271}), Pet({id = 4304})}
+    -- pois = {POI({})}
+}) -- Dream Badger
+
+map.nodes[41704890] = EmeraldDream_Safari({
+    id = 211110,
+    rewards = {Achievement({id = 19401, criteria = 63272}), Pet({id = 4275})}
+    -- pois = {POI({})}
+}) -- Flooftalon
+
+map.nodes[39604820] = EmeraldDream_Safari({
+    id = 211177,
+    rewards = {Achievement({id = 19401, criteria = 63273}), Pet({id = 4276})}
+    -- pois = {POI({})}
+}) -- Fol'ya Pup
+
+map.nodes[46805910] = EmeraldDream_Safari({
+    id = 211288,
+    rewards = {Achievement({id = 19401, criteria = 63274}), Pet({id = 4278})}
+    -- pois = {POI({})}
+}) -- Leyhart
+
+map.nodes[91005600] = EmeraldDream_Safari({
+    id = 212437,
+    rewards = {Achievement({id = 19401, criteria = 63275}), Pet({id = 4302})}
+    -- pois = {POI({})}
+}) -- Pale Slumbertooth
+
+map.nodes[38805110] = EmeraldDream_Safari({
+    id = 211302,
+    rewards = {Achievement({id = 19401, criteria = 63276}), Pet({id = 4280})}
+    -- pois = {POI({})}
+}) -- Pewling
+
+map.nodes[56907730] = EmeraldDream_Safari({
+    id = 211182,
+    rewards = {Achievement({id = 19401, criteria = 63277}), Pet({id = 4277})}
+    -- pois = {POI({})}
+}) -- Sapnibbler
+
+map.nodes[87005900] = EmeraldDream_Safari({
+    id = 211295,
+    rewards = {Achievement({id = 19401, criteria = 63278}), Pet({id = 4279})}
+    -- pois = {POI({})}
+}) -- Slumbertooth
+
+map.nodes[89005900] = EmeraldDream_Safari({
+    id = 212459,
+    rewards = {Achievement({id = 19401, criteria = 63279}), Pet({id = 4303})}
+    -- pois = {POI({})}
+}) -- Snaggletoof
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

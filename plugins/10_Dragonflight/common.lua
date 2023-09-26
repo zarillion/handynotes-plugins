@@ -352,6 +352,12 @@ ns.groups.SAFARI = Group('safari', 4048818, {
     achievement = 16519
 })
 
+ns.groups.EMERALD_DREAM_SAFARI = Group('emerald_dream_safari', 4899641, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 19401
+})
+
 ns.groups.SCALECOMMANDER_ITEM = Group('scalecommander_item', 134422, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

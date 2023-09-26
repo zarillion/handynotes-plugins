@@ -841,6 +841,9 @@ L['options_icons_zone_event_desc'] = 'Display locations for zone events.'
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
+L['options_icons_emerald_dream_safari_desc'] = 'Display battle pet locations for the {achievement:19401} achievement.'
+
 L['envoy_of_winter_note'] = 'Gather {item:208881} and use {spell:421658} near the well until {npc:209929} spawns.'
 L['fruitface_note'] = 'Pick up {item:208837} from the ground to let {npc:209980} appear. Attack and follow him until he jumps in the water and summons {npc:209966} and the rare.'
 L['greedy_gessie_note'] = 'You need to collect {object:Wild Greens}, {object:Rubyscale Melon} and {object:Orangeroot} from the surrounding area and put them in the baskets near the {npc:210285s} to start the encounter.'

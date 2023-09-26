@@ -842,6 +842,9 @@ L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse 
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
+L['options_icons_emerald_dream_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:19401} an.'
+
 L['envoy_of_winter_note'] = 'Sammle {item:208881} und benutze {spell:421658} am Brunnen, bis der seltene Gegner erscheint.'
 L['fruitface_note'] = 'Sammle {item:208837} vom Boden auf, damit {npc:209980} erscheint. Greifen ihn an und folge ihm bis er ins Wasser springt und {npc:209966} und den seltenen Gegner erscheinen lässt.'
 L['greedy_gessie_note'] = 'Sammle frische Zutaten wie {object:Wildes Grünzeug}, {object:Rubinschuppenmelone} oder {object:Orangenwurzel} aus der Umgebung und legt diese in die Körbe, damit der seltene Gegner erscheint.'
