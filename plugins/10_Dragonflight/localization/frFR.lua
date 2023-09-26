@@ -840,7 +840,7 @@ L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements
 -------------------------------------------------------------------------------
 
 L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
-L['options_icons_emerald_dream_safari_desc'] = nil
+L['options_icons_emerald_dream_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:19401}.'
 
 L['envoy_of_winter_note'] = 'Ramassez des {item:208881} et utilisez le {spell:421658} près du puits jusqu\'à ce que l\'{npc:209929} apparaisse.'
 L['fruitface_note'] = 'Ramassez le {item:208837} au sol pour faire apparaître le {npc:209980}. Attaquez-le et suivez-le jusqu\'à ce qu\'il saute dans l\'eau et invoque un {npc:209966} et le monstre rare.'
