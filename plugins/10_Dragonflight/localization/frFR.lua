@@ -883,7 +883,7 @@ L['dreamfruit_note'] = 'Apparaît lorsque l\'événement {location:Superfloraiso
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des bébés séléniens pour le haut-fait {achievement:19293}.'
-L['moonkin_hatchling_note'] = nil
+L['moonkin_hatchling_note'] = 'Nécessite que l\'expédition {wq:78370} soit active.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Récupérez l\'{object:Échantillon de fourrure d\'hoursute amalgamée de pollen} trouvé au pied de l\'arbre à {location:La Calcination}.'
 
@@ -897,7 +897,7 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'O'
 
-L['mbc_vial_d_location'] = nil
+L['mbc_vial_d_location'] = 'Avant-poste de Pluie-d’Étoiles'
 L['mbc_vial_e_location'] = 'Bosquet crépusculaire'
 L['mbc_vial_k_location'] = 'Refuge des saisons de Malfurion'
 L['mbc_vial_n_location'] = 'Repos des étoiles'
