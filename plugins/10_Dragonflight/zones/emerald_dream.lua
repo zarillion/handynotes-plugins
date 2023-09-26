@@ -43,31 +43,31 @@ local DRUID_GLYPH = Class('DRUID_GLYPH', Item, {class = 'DRUID'})
 
 ns.DRUID_GLYPHS = {
     Feral = {
-        EvergreenDreamsaber = DRUID_GLYPH({item = 210669, quest = 99999}),
-        KeenEyedDreamsaber = DRUID_GLYPH({item = 210650, quest = 99999}),
+        EvergreenDreamsaber = DRUID_GLYPH({item = 210669, quest = 78507}),
+        KeenEyedDreamsaber = DRUID_GLYPH({item = 210650, quest = 78503}),
         MoonBlessedDreamsaber = DRUID_GLYPH({item = 210728, quest = 78521})
     },
     Guardian = {
         AshenBristlebruin = DRUID_GLYPH({item = 210727, quest = 78518}),
-        DarkUmbraclaw = DRUID_GLYPH({item = 210647, quest = 99999}),
-        HibernatingRunebear = DRUID_GLYPH({item = 210751, quest = 99999}),
-        LoamyUmbraclaw = DRUID_GLYPH({item = 210738, quest = 99999}),
-        SnowyUmbraclaw = DRUID_GLYPH({item = 210739, quest = 99999}),
-        VerdantBristlebruin = DRUID_GLYPH({item = 210729, quest = 99999})
+        DarkUmbraclaw = DRUID_GLYPH({item = 210647, quest = 78481}),
+        HibernatingRunebear = DRUID_GLYPH({item = 210751, quest = 78528}),
+        LoamyUmbraclaw = DRUID_GLYPH({item = 210738, quest = 78519}),
+        SnowyUmbraclaw = DRUID_GLYPH({item = 210739, quest = 78520}),
+        VerdantBristlebruin = DRUID_GLYPH({item = 210729, quest = 78517})
     },
     Travel = {
-        AuricDreamstag = DRUID_GLYPH({item = 210735, quest = 99999}),
+        AuricDreamstag = DRUID_GLYPH({item = 210735, quest = 78523}),
         DreamtalonMatriarch = DRUID_GLYPH({item = 210683, quest = 78513}),
-        LushDreamstag = DRUID_GLYPH({item = 210731, quest = 99999}),
-        SableDreamtalon = DRUID_GLYPH({item = 210674, quest = 99999}),
-        SmolderingDreamstag = DRUID_GLYPH({item = 210736, quest = 99999}),
-        ThrivingDreamtalon = DRUID_GLYPH({item = 210684, quest = 99999})
+        LushDreamstag = DRUID_GLYPH({item = 210731, quest = 78522}),
+        SableDreamtalon = DRUID_GLYPH({item = 210674, quest = 78511}),
+        SmolderingDreamstag = DRUID_GLYPH({item = 210736, quest = 78524}),
+        ThrivingDreamtalon = DRUID_GLYPH({item = 210684, quest = 78515})
     },
     Flight = {
         AzureSomnowl = DRUID_GLYPH({item = 210645, quest = 78479}),
-        BlazingSomnowl = DRUID_GLYPH({item = 210754, quest = 99999}),
-        PrismaticWhiskerfish = DRUID_GLYPH({item = 210753, quest = 99999}),
-        SlumberingSomnowl = DRUID_GLYPH({item = 210535, quest = 99999})
+        BlazingSomnowl = DRUID_GLYPH({item = 210754, quest = 78527}),
+        PrismaticWhiskerfish = DRUID_GLYPH({item = 210753, quest = 78516}),
+        SlumberingSomnowl = DRUID_GLYPH({item = 210535, quest = 78448})
     }
 }
 
@@ -734,7 +734,8 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
                 Achievement({id = 19198, criteria = {id = 1, qty = true}}), -- The Seeds I Sow
                 Currency({id = 2651, count = 20}), -- Seedbloom -- Spawned after the timer of the plant ran out, triggered hidden quest 77396 when looting
                 Transmog({item = 209990, slot = L['cosmetic']}), -- Overgrown Freyan Handguards
-                Transmog({item = 209971, slot = L['cosmetic']}) -- Clogs of the Dreamfused Skull
+                Transmog({item = 209971, slot = L['cosmetic']}), -- Clogs of the Dreamfused Skull
+                Pet({item = 210651, id = 4299}) -- Dustite
             }
         end
     }
@@ -850,10 +851,10 @@ map.nodes[60341694] = DruidGlyph({
     id = 212903,
     note = L['thaelishar_vendor_note'] .. '\n\n' .. L['silent_mark_note'],
     rewards = {
-        Item({item = 210764, count = '500', quest = 99999}), -- Silent Mark of the Dreamtalon
-        Item({item = 210767, count = '500', quest = 99999}), -- Silent Mark of the Dreamstag
-        Item({item = 210755, count = '500', quest = 99999}), -- Silent Mark of the Dreamsaber
-        Item({item = 210766, count = '500', quest = 99999}) -- Silent Mark of the Umbraclaw
+        Item({item = 210764, count = '500', quest = 78515}), -- Silent Mark of the Dreamtalon
+        Item({item = 210767, count = '500', quest = 78522}), -- Silent Mark of the Dreamstag
+        Item({item = 210755, count = '500', quest = 78507}), -- Silent Mark of the Dreamsaber
+        Item({item = 210766, count = '500', quest = 78519}) -- Silent Mark of the Umbraclaw
     },
     pois = {POI({50054897}), Path({60341694, 50054897})}
 }) -- Thaelishar Groveheard <Fauna Specialist>
