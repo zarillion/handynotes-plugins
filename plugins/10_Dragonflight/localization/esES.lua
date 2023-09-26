@@ -842,7 +842,7 @@ L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
 -------------------------------------------------------------------------------
 
 L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
-L['options_icons_emerald_dream_safari_desc'] = nil
+L['options_icons_emerald_dream_safari_desc'] = 'Muestra dónde están los combates de mascotas para el logro {achievement:19401}.'
 
 L['envoy_of_winter_note'] = 'Reune {item:208881} y usa {spell:421658} cerca del pozo hasta que aparezca {npc:209929}.'
 L['fruitface_note'] = 'Coge una {item:208837} del suelo para dejar aparecer a {npc:209980}. Atácale y síguelo hasta que salte al agua e invoque al raro {npc:209966}.'
