@@ -890,7 +890,7 @@ L['moonkin_hatchling_note'] = 'Requires Worldquest {wq:Claws for Concern} to be 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Loot the {object:Pollenfused Bristlebruin Fur Sample} found near the bottom of the tree in {location:The Char}.'
 
 L['mbc_note_start'] = 'Loot the {object:Small Box of Vials} to recieve the {item:210991}.\n\nYou will recieve 6x {item:210839} that need to be filled with moonwell water from each continent.'
-L['mbc_note_end'] = 'Combine all 6x {item:210876} to create {item:210977} and bring it to the {object:Feral Dreamstone} near {location:Amirdrissil}.\n\nUse the {item:210977} and loot the {object:Moon-Blessed Claw} to receive the {item:210728}.'
+L['mbc_note_end'] = 'Combine all 6x {item:210876} to create {item:210977} and bring it to the {object:Feral Dreamstone} near {location:Amirdrassil}.\n\nUse the {item:210977} and loot the {object:Moon-Blessed Claw} to receive the {item:210728}.'
 
 L['mbc_vial_b'] = 'B'
 L['mbc_vial_d'] = 'D'

@@ -856,7 +856,7 @@ L['hidden_moonkin_stash_label'] = nil -- review not yet translated
 
 L['magical_bloom_note'] = 'Greife den {npc:210544} an und jage ihn, bis er den Schatz enthüllt.'
 L['pineshrew_cache_note'] = 'Neben ein paar Felsen.'
-L['reliquary_of_ashamane_note'] = '{note:Wenn die Weltquest {wq:Dryad Fire Drill} aktiv ist, muss diese zuerst abgeschlossen werden, bevor du die Statue sehen kannst.}\n\nFinde ein {object:Mal von Ashamane} {dot:Green} in der Nähe, um den Stärkungszauber {spell:425426} zu erhalten. Begib dich damit zu {npc:212009}.' -- review wq
+L['reliquary_of_ashamane_note'] = '{note:Wenn die Weltquest {wq:Dryadenfeuerübung} aktiv ist, muss diese zuerst abgeschlossen werden, bevor du die Statue sehen kannst.}\n\nFinde ein {object:Mal von Ashamane} {dot:Green} in der Nähe, um den Stärkungszauber {spell:425426} zu erhalten. Begib dich damit zu {npc:212009}.'
 L['reliquary_of_aviana_note'] = 'Finde ein {object:Mal von Aviana} in der Nähe, um den Stärkungszauber {spell:425432} zu erhalten. Begib dich damit zu {npc:212011}.'
 L['reliquary_of_goldrinn_note'] = 'Finde ein {object:Mal von Goldrinn} {dot:Green} in der Nähe, um den Stärkungszauber {spell:425408} zu erhalten. Begib dich damit zu {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Finde ein {object:Mal von Ursol} in der Nähe, um den Stärkungszauber {spell:423306} zu erhalten. Begib dich damit zu {npc:210732}.'
@@ -900,7 +900,7 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'S' -- review not yet translated
 
-L['mbc_vial_d_location'] = nil
+L['mbc_vial_d_location'] = 'Außenposten Sternenfall'
 L['mbc_vial_e_location'] = 'Zwielichtshain'
 L['mbc_vial_k_location'] = 'Sturmgrimms Grabhügel'
 L['mbc_vial_n_location'] = 'Sternruh'
@@ -911,7 +911,7 @@ L['mbc_vial_location'] = 'Fülle die {item:%d} mit Wasser aus dem Mondbrunnen in
 L['mbc_moonwell_label'] = 'Mondbrunnen'
 L['mbc_feral_dreamstone_label'] = nil -- review not yet translated
 
-L['azure_somnowl_note'] = nil
+L['azure_somnowl_note'] = 'Schließe die kurze Questreihe für Druiden ab, die mit der Quest {quest:78066} endet, um die {item:210645} zu erhalten.'
 
 L['slumbering_somnowl_note_a'] = nil -- unconfirmed - do not translate
 L['slumbering_somnowl_note_b'] = nil -- unconfirmed - do not translate
@@ -920,18 +920,18 @@ L['slumbering_somnowl_note_d'] = nil -- unconfirmed - do not translate
 L['slumbering_somnowl_note_e'] = nil -- unconfirmed - do not translate
 
 L['thaelishar_vendor_note'] = 'Tausche Gold gegen Druidenglyphen ein.'
-L['silent_mark_label'] = nil
-L['silent_mark_note'] = nil
+L['silent_mark_label'] = 'Reichtraumklippen'
+L['silent_mark_note'] = 'Visiere das richtige Tier an und kanalisiere das Mal, um es auf diese Form einzustimmen. {note:Du musst das Mal mit 10+ Tieren einstimmen.}\n\nKanalisiere {item:210764} auf {npc:210892}.\n\nKanalisiere {item:210767} auf {npc:211347}, {npc:211283}, oder {npc:210894}.\n\nKanalisiere {item:210755} auf {npc:210594}.\n\nKanalisiere {item:210766} auf {npc:209494}.'
 
-L['options_icons_druid_glyph'] = nil
-L['options_icons_druid_glyph_desc'] = nil
+L['options_icons_druid_glyph'] = 'Druidenglyphen'
+L['options_icons_druid_glyph_desc'] = 'Zeigt die Positionen der {emote:Druidenglyphen} an.'
 
 L['elianna_vendor_note'] = 'Tausche {currency:2777} gegen Reittiere und Haustiere ein.'
 L['sylvia_vendor_note'] = 'Tausche {currency:2651} gegen Reittiere, Haustiere und Ausrüstungsvorlagen ein.'
 
 L['somnut'] = 'Schlummernuss'
 L['options_icons_somnut'] = 'Schlummernuss'
-L['options_icons_somnut_desc'] = 'Zeigt die möglichen Positionen für {object:Schlummernuss}.'
+L['options_icons_somnut_desc'] = 'Zeigt die möglichen Positionen für {object:Schlummernuss} an.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------

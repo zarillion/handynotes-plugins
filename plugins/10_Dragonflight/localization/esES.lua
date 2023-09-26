@@ -890,7 +890,7 @@ L['moonkin_hatchling_note'] = 'Requiere que la misión del mundo {wq:La preocupa
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Despoja la {object:Muestra de pelaje de erizapúas polinizado} que se encuentra cerca de la parte inferior del arbol de {location:Calcina}.'
 
 L['mbc_note_start'] = 'Despoja la {object:Caja Pequeña de Viales} para conseguir la {item:210991}.\n\nRecibirás 6x {item:210839} que necesitarán ser llenados con agua de la poza de la luna de cada continente.'
-L['mbc_note_end'] = 'Combina los 6x {item:210876} para crear {item:210977} y llévala a {object:Feral Dreamstone} cerca de {location:Amirdrissil}.\n\nUsa la {item:210977} y despoja la {object:Garra Bendita por la Luna} para conseguir {item:210728}.' -- REVIEW Feral Dreamstone
+L['mbc_note_end'] = 'Combina los 6x {item:210876} para crear {item:210977} y llévala a {object:Feral Dreamstone} cerca de {location:Amirdrassil}.\n\nUsa la {item:210977} y despoja la {object:Garra Bendita por la Luna} para conseguir {item:210728}.' -- REVIEW Feral Dreamstone
 
 L['mbc_vial_b'] = 'I'
 L['mbc_vial_d'] = 'D'
