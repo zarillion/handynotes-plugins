@@ -853,7 +853,7 @@ L['hidden_moonkin_stash_label'] = 'Magot de boguelin dissimulé'
 
 L['magical_bloom_note'] = 'Poursuivez le {npc:210544} jusqu\'à ce qu\'il révèle le trésor.'
 L['pineshrew_cache_note'] = 'A côté de quelques rochers.'
-L['reliquary_of_ashamane_note'] = '{note:Si l\'expédition {wq:Dryad Fire Drill} est active, vous devez la terminer avant de pouvoir voir le trésor.}\n\nTrouvez une {object:Marque d\'Ashamane} {dot:Green} à proximité pour obtenir le buff {spell:425426} et rendez-vous à la {npc:212009}.'
+L['reliquary_of_ashamane_note'] = '{note:Si l\'expédition {wq:Exercice des Dryades} est active, vous devez la terminer avant de pouvoir voir le trésor.}\n\nTrouvez une {object:Marque d\'Ashamane} {dot:Green} à proximité pour obtenir le buff {spell:425426} et rendez-vous à la {npc:212009}.'
 L['reliquary_of_aviana_note'] = 'Trouvez une {object:Marque d\'Aviana} {dot:Green} à proximité pour obtenir le buff {spell:425432} et rendez-vous à la {npc:212011}.'
 L['reliquary_of_goldrinn_note'] = 'Trouvez une {object:Marque de Goldrinn} {dot:Green} à proximité pour obtenir le buff {spell:425408} et rendez-vous à la {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Trouvez une {object:Marque d\'Ursol} {dot:Green} à proximité pour obtenir le buff {spell:423306} et rendez-vous à la {npc:210732}.'
@@ -908,7 +908,7 @@ L['mbc_vial_location'] = 'Remplissez la {item:%d} avec de l\'eau du puits de lun
 L['mbc_moonwell_label'] = 'Puits de lune'
 L['mbc_feral_dreamstone_label'] = nil -- review NYT
 
-L['azure_somnowl_note'] = nil
+L['azure_somnowl_note'] = 'Terminez la courte suites de quêtes réservée aux druides se terminant par {quest:78066} pour recevoir les {item:210645}.'
 
 L['slumbering_somnowl_note_a'] = nil -- unconfirmed - do not translate
 L['slumbering_somnowl_note_b'] = nil -- unconfirmed - do not translate
@@ -917,8 +917,8 @@ L['slumbering_somnowl_note_d'] = nil -- unconfirmed - do not translate
 L['slumbering_somnowl_note_e'] = nil -- unconfirmed - do not translate
 
 L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
-L['silent_mark_label'] = nil
-L['silent_mark_note'] = nil
+L['silent_mark_label'] = 'Combes des Songes florissants'
+L['silent_mark_note'] = 'Ciblez le bon animal et canalisez l\'objet correspondant jusqu\'à ce que l\'{spell:426910} apparaisse. {note:Vous devez vous harmoniser avec au moins 10 animaux.}\n\nCanalisez la {item:210764} sur les {npc:210892}.\n\nCanalisez la {item:210767} sur les {npc:211347}, {npc:211283}, ou {npc:210894}.\n\nCanalisez la {item:210755} sur les {npc:210594}.\n\nCanalisez la {item:210766} sur les {npc:209494}.'
 
 L['options_icons_druid_glyph'] = 'Glyphes de druide'
 L['options_icons_druid_glyph_desc'] = 'Afficher les emplacements des {emote:Glyphes de druide}.'
