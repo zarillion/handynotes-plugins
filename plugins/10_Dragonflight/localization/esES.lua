@@ -910,6 +910,8 @@ L['mbc_vial_location'] = 'Llena {item:%d} con agua de la poza de la luna de {loc
 L['mbc_moonwell_label'] = 'Poza de la Luna'
 L['mbc_feral_dreamstone_label'] = 'Feral Dreamstone' -- REVIEW Feral Dreamstone
 
+L['azure_somnowl_note'] = nil
+
 L['slumbering_somnowl_note_a'] = 'Consigue 5x {item:210565} de varios {npc:Somnowl} a lo largo del {location:Sueño Esmeralda}.' -- unconfirmed and REVIEW {npc:Somnowl}
 L['slumbering_somnowl_note_b'] = 'Compra 1x {item:4291} a cualquier vendedor de suministros.' -- unconfirmed
 L['slumbering_somnowl_note_c'] = 'Combina 5x {item:210565} y 1x {item:4291} para crear {item:210566}.' -- unconfirmed
@@ -917,6 +919,8 @@ L['slumbering_somnowl_note_d'] = 'Consigue 1x {item:194864}.' -- unconfirmed
 L['slumbering_somnowl_note_e'] = 'Combina 1x {item:210566} y 1x {item:194864} para crear {item:210535}.' -- unconfirmed
 
 L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
+L['silent_mark_label'] = nil
+L['silent_mark_note'] = nil
 
 L['options_icons_druid_glyph'] = 'Glifos de Druida'
 L['options_icons_druid_glyph_desc'] = 'Muestra dónde están los {emote:Glifo de Druida}.'

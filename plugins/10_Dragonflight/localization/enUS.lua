@@ -910,6 +910,8 @@ L['mbc_vial_location'] = 'Fill the {item:%d} with water from the moonwell in {lo
 L['mbc_moonwell_label'] = 'Moonwell'
 L['mbc_feral_dreamstone_label'] = 'Feral Dreamstone'
 
+L['azure_somnowl_note'] = 'Complete the short druid-only quest chain ending in {quest:78066} to receive the {item:210645}.'
+
 L['slumbering_somnowl_note_a'] = 'Collect 5x {item:210565} from various {npc:Somnowl} throughout the {location:Emerald Dream}.'
 L['slumbering_somnowl_note_b'] = 'Purchase 1x {item:4291} from any trade supplies vendor.'
 L['slumbering_somnowl_note_c'] = 'Combine 5x {item:210565} and 1x {item:4291} to create {item:210566}.'
@@ -917,6 +919,8 @@ L['slumbering_somnowl_note_d'] = 'Collect 1x {item:194864}.'
 L['slumbering_somnowl_note_e'] = 'Combine 1x {item:210566} and 1x {item:194864} to create {item:210535}.'
 
 L['thaelishar_vendor_note'] = 'Exchange gold for Druid glyphs.'
+L['silent_mark_label'] = 'Lushdream Crags'
+L['silent_mark_note'] = 'Target the correct animal and channel the matching item until {spell:426910} appears. {note:You must attune with 10+ animals.}\n\nChannel {item:210764} onto {npc:210892}.\n\nChannel {item:210767} onto {npc:211347}, {npc:211283}, or {npc:210894}.\n\nChannel {item:210755} onto {npc:210594}.\n\nChannel {item:210766} onto {npc:209494}.'
 
 L['options_icons_druid_glyph'] = 'Druid Glyphs'
 L['options_icons_druid_glyph_desc'] = 'Display locations for {emote:Druid Glyphs}.'

@@ -908,6 +908,8 @@ L['mbc_vial_location'] = 'Remplissez la {item:%d} avec de l\'eau du puits de lun
 L['mbc_moonwell_label'] = 'Puits de lune'
 L['mbc_feral_dreamstone_label'] = nil -- review NYT
 
+L['azure_somnowl_note'] = nil
+
 L['slumbering_somnowl_note_a'] = nil -- unconfirmed - do not translate
 L['slumbering_somnowl_note_b'] = nil -- unconfirmed - do not translate
 L['slumbering_somnowl_note_c'] = nil -- unconfirmed - do not translate
@@ -915,6 +917,8 @@ L['slumbering_somnowl_note_d'] = nil -- unconfirmed - do not translate
 L['slumbering_somnowl_note_e'] = nil -- unconfirmed - do not translate
 
 L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
+L['silent_mark_label'] = nil
+L['silent_mark_note'] = nil
 
 L['options_icons_druid_glyph'] = 'Glyphes de druide'
 L['options_icons_druid_glyph_desc'] = 'Afficher les emplacements des {emote:Glyphes de druide}.'

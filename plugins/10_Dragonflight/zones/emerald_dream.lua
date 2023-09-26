@@ -36,13 +36,42 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 local map = Map({id = 2200, settings = true})
 
 -------------------------------------------------------------------------------
+-------------------------------- DRUID GLYPHS ---------------------------------
+-------------------------------------------------------------------------------
 
-local Dragonblight = ns.maps[115] or Map({id = 115, settings = true})
-local Dreamgrove = ns.maps[747] or Map({id = 747, settings = true})
-local Duskwood = ns.maps[47] or Map({id = 47, settings = true})
-local Moonglade = ns.maps[80] or Map({id = 80, settings = true})
-local ShadowmoonValley = ns.maps[539] or Map({id = 539, settings = true})
-local TerokkarForest = ns.maps[108] or Map({id = 108, settings = true})
+local DRUID_GLYPH = Class('DRUID_GLYPH', Item, {class = 'DRUID'})
+
+ns.DRUID_GLYPHS = {
+    Feral = {
+        EvergreenDreamsaber = DRUID_GLYPH({item = 210669, quest = 99999}),
+        KeenEyedDreamsaber = DRUID_GLYPH({item = 210650, quest = 99999}),
+        MoonBlessedDreamsaber = DRUID_GLYPH({item = 210728, quest = 78521})
+    },
+    Guardian = {
+        AshenBristlebruin = DRUID_GLYPH({item = 210727, quest = 78518}),
+        DarkUmbraclaw = DRUID_GLYPH({item = 210647, quest = 99999}),
+        HibernatingRunebear = DRUID_GLYPH({item = 210751, quest = 99999}),
+        LoamyUmbraclaw = DRUID_GLYPH({item = 210738, quest = 99999}),
+        SnowyUmbraclaw = DRUID_GLYPH({item = 210739, quest = 99999}),
+        VerdantBristlebruin = DRUID_GLYPH({item = 210729, quest = 99999})
+    },
+    Travel = {
+        AuricDreamstag = DRUID_GLYPH({item = 210735, quest = 99999}),
+        DreamtalonMatriarch = DRUID_GLYPH({item = 210683, quest = 78513}),
+        LushDreamstag = DRUID_GLYPH({item = 210731, quest = 99999}),
+        SableDreamtalon = DRUID_GLYPH({item = 210674, quest = 99999}),
+        SmolderingDreamstag = DRUID_GLYPH({item = 210736, quest = 99999}),
+        ThrivingDreamtalon = DRUID_GLYPH({item = 210684, quest = 99999})
+    },
+    Flight = {
+        AzureSomnowl = DRUID_GLYPH({item = 210645, quest = 78479}),
+        BlazingSomnowl = DRUID_GLYPH({item = 210754, quest = 99999}),
+        PrismaticWhiskerfish = DRUID_GLYPH({item = 210753, quest = 99999}),
+        SlumberingSomnowl = DRUID_GLYPH({item = 210535, quest = 99999})
+    }
+}
+
+local DG = ns.DRUID_GLYPHS
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -158,7 +187,7 @@ map.nodes[40294916] = Rare({
         Achievement({id = 19316, criteria = 62943}), -- Adventurer of the Emerald Dream
         Transmog({item = 210128, slot = L['2h_sword']}), -- Autumn Defender's Claymore
         Recipe({item = 210173, profession = 333}), -- Formula: Enchanted Whelpling's Dreaming Crest
-        Item({item = 210650, quest = nil, class = 'DRUID'}) -- Mark of the Keen-Eyed Dreamsaber
+        DG.Feral.KeenEyedDreamsaber -- Mark of the Keen-Eyed Dreamsaber
     },
     pois = {Path({40294916, 39214992, 39535168, 40865209, 40545087, 40294916})}
 }) -- Keen-eyed Cian
@@ -169,7 +198,7 @@ map.nodes[41107328] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62946}), -- Adventurer of the Emerald Dream
-        Item({item = 210683, quest = 78513, class = 'DRUID'}) -- Mark of the Dreamtalon Matriarch
+        DG.Travel.DreamtalonMatriarch -- Mark of the Dreamtalon Matriarch
     }
 }) -- Matriarch Keevah
 
@@ -195,7 +224,7 @@ map.nodes[40467258] = Rare({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62942}), -- Adventurer of the Emerald Dream
-        Item({item = 210729, quest = nil, class = 'DRUID'}), -- Mark of the Verdant Bristlebruin
+        DG.Guardian.VerdantBristlebruin, -- Mark of the Verdant Bristlebruin
         Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {POI({38817158})} -- Entrance
@@ -207,7 +236,7 @@ map.nodes[54953674] = Rare({
     note = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62949}), -- Adventurer of the Emerald Dream
-        Item({item = 210647, quest = nil, class = 'DRUID'}) -- Mark of the Umbramane
+        DG.Guardian.DarkUmbraclaw -- Mark of the Umbramane
     }
 }) -- Mosa Umbramane
 
@@ -227,7 +256,7 @@ map.nodes[44473929] = Rare({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62951}), -- Adventurer of the Emerald Dream
-        Item({item = 210674, quest = nil, class = 'DRUID'}), -- Mark of the Sable Dreamtalon
+        DG.Travel.SableDreamtalon, -- Mark of the Sable Dreamtalon
         Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {
@@ -809,55 +838,7 @@ map.nodes[52847357] = Dreamfruit({
 
 -------------------------------------------------------------------------------
 -------------------------------- DRUID GLYPHS ---------------------------------
-------------------------------------------------------------------------------
-
--- BLANCE DRUID FORMS
--- [ ] ??
-
--- FERAL DRUID FORMS
--- [X] Mark of the Evergreen Dreamsaber (Silent Mark of the Dreamsaber)
--- [X] Mark of the Keen-Eyed Dreamsaber
--- [X] Moon-Blessed Claw
-
--- [ ] Fire kitty form (Fandral's Seed Pouch (Toy))
-
--- GUARDIAN DRUID FORMS
--- [X] Mark of the Umbramane
--- [ ] Mark of the Snowy Umbraclaw
--- [X] Mark of the Lamy Umbraclaw (Silent Mark of the Umbraclaw)
-
--- [ ] Mark of the Hibernating Runebear (Aurostor, the Hibernating?)
-
--- [X] Pollenfused Bristlebruin Fur Sample
--- [X] Mark of the Verdant Bristlebruin
-
--- DRUID TRAVEL FORMS
--- [X] Mark of the Thriving Dreamtalon (Silent Mark of the Dreamtalon)
--- [X] Mark of the Sable Dreamtalon
--- [X] Mark of the Dreamtalon Matriarch
-
--- [ ] Mark of the Smoldering Dreamstag
--- [ ] Mark of the Auric Dreamstag
--- [X] Mark of the Lush Dreamstag (Silent Mark of the Dreamstag)
-
--- DRUID FLIGHT FORMS
--- [ ] Mark of the Slumbering Somnowl
--- [ ] Soft Somnowl Feathers
--- [ ] Feather of Friends (![The Answers You've Earned]?)
--- [ ] Feather of the Blazing Somnowl (Tindral Sagswift, Seer of the Flame?)
-
--- [X] Whiskerfish (Dreamfish Egg?)
-
 -------------------------------------------------------------------------------
-
--- Silent Mark of the ...
--- Target the correct animal and channel the item until the [Recently Attended]
--- buff appears. It appears you need to attune to 10+ for each animal.
-
--- Target a Striped Dreamtalon in Lushdream Crags
--- Target a Rabid Gladehart, Watchful Gladehind, or Flathoof Dreamstag in Lushdream Crags
--- Target a Verdant Dreamsaber
--- Target a Frightened Umbraclaw in Lushdream Crags
 
 local DruidGlyph = Class('DruidGlyph', Collectible, {
     icon = 625999,
@@ -867,39 +848,51 @@ local DruidGlyph = Class('DruidGlyph', Collectible, {
 
 map.nodes[60341694] = DruidGlyph({
     id = 212903,
-    note = L['thaelishar_vendor_note'],
+    note = L['thaelishar_vendor_note'] .. '\n\n' .. L['silent_mark_note'],
     rewards = {
-        Item({item = 210764, count = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamtalon
-        Item({item = 210767, count = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamstag
-        Item({item = 210755, count = '500', quest = nil, class = 'DRUID'}), -- Silent Mark of the Dreamsaber
-        Item({item = 210766, count = '500', quest = nil, class = 'DRUID'}) -- Silent Mark of the Umbraclaw
-    }
+        Item({item = 210764, count = '500', quest = 99999}), -- Silent Mark of the Dreamtalon
+        Item({item = 210767, count = '500', quest = 99999}), -- Silent Mark of the Dreamstag
+        Item({item = 210755, count = '500', quest = 99999}), -- Silent Mark of the Dreamsaber
+        Item({item = 210766, count = '500', quest = 99999}) -- Silent Mark of the Umbraclaw
+    },
+    pois = {POI({50054897}), Path({60341694, 50054897})}
 }) -- Thaelishar Groveheard <Fauna Specialist>
+
+map.nodes[50054897] = DruidGlyph({
+    label = L['silent_mark_label'],
+    note = L['silent_mark_note'],
+    rewards = {
+        DG.Travel.ThrivingDreamtalon, -- Silent Mark of the Dreamtalon
+        DG.Travel.LushDreamstag, -- Silent Mark of the Dreamstag
+        DG.Feral.EvergreenDreamsaber, --  Silent Mark of the Dreamsaber
+        DG.Guardian.LoamyUmbraclaw -- Silent Mark of the Umbraclaw
+    },
+    pois = {Path({ns.poi.Circle({origin = 50054897, radius = 4})})}
+})
 
 map.nodes[63743916] = DruidGlyph({
     label = '{item:210727}',
     note = L['pollenfused_bristlebruin_fur_sample_note'],
-    rewards = {
-        Item({item = 210727, quest = 78518, class = 'DRUID'}) -- Pollenfused Bristlebruin Fur Sample
-    }
+    rewards = {DG.Guardian.AshenBristlebruin} -- Pollenfused Bristlebruin Fur Sample
 }) -- Pollenfused Bristlebruin Fur Sample
 
 map.nodes[40519008] = DruidGlyph({
     label = '{npc:211300}',
     rlabel = ns.color.Red('PH'),
-    rewards = {
-        Item({item = 210753, quest = nil, class = 'DRUID'}) -- Scale of the Prismatic Whiskerfish
-    },
-    IsEnabled = function() return true end
+    rewards = {DG.Flight.PrismaticWhiskerfish} -- Scale of the Prismatic Whiskerfish
 }) -- Dreamfish Egg
+
+map.nodes[34636932] = DruidGlyph({
+    label = '{npc:210524}',
+    note = L['azure_somnowl_note'],
+    rewards = {DG.Flight.AzureSomnowl} -- Feather of Friends
+}) -- Q'onzu
 
 local SlumberingSomnowl = Class('SlumberingSomnowl', DruidGlyph, {
     label = '{item:210535}',
     rlabel = ns.color.Red('PH'),
-    rewards = {
-        Item({item = 210535, quest = nil, class = 'DRUID'}) -- Mark of the Slumbering Somnowl
-    }
-}) -- Mark of the Slumbering Somnowl
+    rewards = {DG.Flight.SlumberingSomnowl} -- Mark of the Slumbering Somnowl
+})
 
 function SlumberingSomnowl.getters:note()
     local note = '\n'
@@ -911,6 +904,15 @@ function SlumberingSomnowl.getters:note()
 end
 
 map.nodes[54507698] = SlumberingSomnowl()
+
+-------------------- DRUID GLYPH: MOON-BLESSED DREAMSABER ---------------------
+
+local Dragonblight = ns.maps[115] or Map({id = 115, settings = true})
+local Dreamgrove = ns.maps[747] or Map({id = 747, settings = true})
+local Duskwood = ns.maps[47] or Map({id = 47, settings = true})
+local Moonglade = ns.maps[80] or Map({id = 80, settings = true})
+local ShadowmoonValley = ns.maps[539] or Map({id = 539, settings = true})
+local TerokkarForest = ns.maps[108] or Map({id = 108, settings = true})
 
 local EMPTY_VIALS = {
     [1] = {
@@ -978,11 +980,8 @@ local EMPTY_VIALS = {
 
 local MoonBlessedClaw = Class('MoonBlessedClaw', DruidGlyph, {
     quest = 78528, -- hidden
-    rewards = {
-        Item({item = 210977, count = '1', class = 'DRUID'}), -- Coalesced Moonlight
-        Item({item = 210728, quest = 78521, class = 'DRUID'}) -- Moon-Blessed Claw
-    }
-}) -- Small Box of Vials
+    rewards = {DG.Feral.MoonBlessedDreamsaber} -- Moon-Blessed Claw
+})
 
 function MoonBlessedClaw.getters:note()
     local function complete(rlabel, vialFilledID)
