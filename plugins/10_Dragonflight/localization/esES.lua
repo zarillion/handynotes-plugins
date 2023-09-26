@@ -919,7 +919,7 @@ L['slumbering_somnowl_note_d'] = 'Consigue 1x {item:194864}.' -- unconfirmed
 L['slumbering_somnowl_note_e'] = 'Combina 1x {item:210566} y 1x {item:194864} para crear {item:210535}.' -- unconfirmed
 
 L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
-L['silent_mark_label'] = 'Lushdream Crags'
+L['silent_mark_label'] = 'Riscos Sueñofrondoso'
 L['silent_mark_note'] = 'Selecciona el animal correcto y canaliza el objeto correspondiente hasta que aparezca {spell:426910}. {note:Debes hacerlo con más de 10 animales.}\n\nCanaliza {item:210764} en {npc:210892}.\n\nCanaliza {item:210767} en {npc:211347}, {npc:211283}, o {npc:210894}.\n\nCanaliza {item:210755} en {npc:210594}.\n\nCanaliza {item:210766} en {npc:209494}.'
 
 L['options_icons_druid_glyph'] = 'Glifos de Druida'
