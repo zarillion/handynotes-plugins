@@ -855,7 +855,7 @@ L['hidden_moonkin_stash_label'] = 'Alijo de Vainete Oculto'
 
 L['magical_bloom_note'] = 'Ataca a {npc:210544} y persíguelo hasta que revele el tesoro.'
 L['pineshrew_cache_note'] = 'Junto a algunas rocas.'
-L['reliquary_of_ashamane_note'] = '{note:Si la misión del mundo {wq:Dryad Fire Drill} está activa necesitarás completarla antes para poder ver el tesoro.}\n\nEncuentra una {object:Marca de Ashamane} {dot:Green} cercana para conseguir el buff {spell:425426} e ir a la {npc:212009}.' -- REVIEW {wq:Dryad Fire Drill}
+L['reliquary_of_ashamane_note'] = '{note:Si la misión del mundo {wq:76506} está activa necesitarás completarla antes para poder ver el tesoro.}\n\nEncuentra una {object:Marca de Ashamane} {dot:Green} cercana para conseguir el buff {spell:425426} e ir a la {npc:212009}.'
 L['reliquary_of_aviana_note'] = 'Encuentra una {object:Marca de Aviana} {dot:Green}cercana para conseguir el buff {spell:425432} e ir a la {npc:212011}.'
 L['reliquary_of_goldrinn_note'] = 'Encuentra una {object:Marca de Goldrinn} {dot:Green} cercana para conseguir el buff {spell:425408} e ir a la {npc:212012}.'
 L['reliquary_of_ursol_note'] = 'Encuentra una {object:Marca de Ursol} {dot:Green} cercana para conseguir el buff {spell:423306} e ir a la {npc:210732}.'
@@ -885,7 +885,7 @@ L['dreamfruit_note'] = 'Aparece cuando empieza el evento {location:Superfloraci�
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las proles de lechúcico lunar para el logro {achievement:19293}.'
-L['moonkin_hatchling_note'] = nil
+L['moonkin_hatchling_note'] = 'Requiere que la misión {wq:78370} esté activa.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Despoja la {object:Muestra de pelaje de erizapúas polinizado} que se encuentra cerca de la parte inferior del arbol de {location:Calcina}.'
 
@@ -910,17 +910,17 @@ L['mbc_vial_location'] = 'Llena {item:%d} con agua de la poza de la luna de {loc
 L['mbc_moonwell_label'] = 'Poza de la Luna'
 L['mbc_feral_dreamstone_label'] = 'Feral Dreamstone' -- REVIEW Feral Dreamstone
 
-L['azure_somnowl_note'] = nil
+L['azure_somnowl_note'] = 'Completa la corta cadena de misiones (sólo para druidas) hasta que acabe en la misión {quest:78066} para conseguir la {item:210645}.'
 
-L['slumbering_somnowl_note_a'] = 'Consigue 5x {item:210565} de varios {npc:Somnowl} a lo largo del {location:Sueño Esmeralda}.' -- unconfirmed and REVIEW {npc:Somnowl}
+L['slumbering_somnowl_note_a'] = 'Consigue 5x {item:210565} de varios {npc:Somnobúho} a lo largo del {location:Sueño Esmeralda}.' -- unconfirmed
 L['slumbering_somnowl_note_b'] = 'Compra 1x {item:4291} a cualquier vendedor de suministros.' -- unconfirmed
 L['slumbering_somnowl_note_c'] = 'Combina 5x {item:210565} y 1x {item:4291} para crear {item:210566}.' -- unconfirmed
 L['slumbering_somnowl_note_d'] = 'Consigue 1x {item:194864}.' -- unconfirmed
 L['slumbering_somnowl_note_e'] = 'Combina 1x {item:210566} y 1x {item:194864} para crear {item:210535}.' -- unconfirmed
 
 L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
-L['silent_mark_label'] = nil
-L['silent_mark_note'] = nil
+L['silent_mark_label'] = 'Lushdream Crags'
+L['silent_mark_note'] = 'Selecciona el animal correcto y canaliza el objeto correspondiente hasta que aparezca {spell:426910}. {note:Debes hacerlo con más de 10 animales.}\n\nCanaliza {item:210764} en {npc:210892}.\n\nCanaliza {item:210767} en {npc:211347}, {npc:211283}, o {npc:210894}.\n\nCanaliza {item:210755} en {npc:210594}.\n\nCanaliza {item:210766} en {npc:209494}.'
 
 L['options_icons_druid_glyph'] = 'Glifos de Druida'
 L['options_icons_druid_glyph_desc'] = 'Muestra dónde están los {emote:Glifo de Druida}.'
