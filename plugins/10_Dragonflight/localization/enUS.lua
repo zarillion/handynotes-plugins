@@ -885,7 +885,7 @@ L['dreamfruit_note'] = 'Appears when the {location:Superbloom} event begins.'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Display moonkin hatchling locations for {achievement:19293}.'
-L['moonkin_hatchling_note'] = 'Requires {wq:78370} to be active.'
+L['moonkin_hatchling_note'] = 'Requires Worldquest {wq:Claws for Concern} to be active.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Loot the {object:Pollenfused Bristlebruin Fur Sample} found near the bottom of the tree in {location:The Char}.'
 

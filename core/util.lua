@@ -105,13 +105,11 @@ local function RenderLinks(str, nameOnly)
                 return nameOnly and (name .. (suffix or '')) or
                            ('|T' .. icon .. ':0|t ' .. link)
             end
-        elseif type == 'daily' or type == 'quest' or type == 'wq' then
+        elseif type == 'daily' or type == 'quest' then
             local name = C_QuestLog.GetTitleForQuestID(id)
             if name then
                 if nameOnly then return name end
-                local icon =
-                    type == 'daily' and 'quest_ab' or type == 'quest' and
-                        'quest_ay' or 'world_quest'
+                local icon = type == 'daily' and 'quest_ab' or 'quest_ay'
                 return ns.GetIconLink(icon, 12) ..
                            ns.color.Yellow('[' .. name .. ']')
             end

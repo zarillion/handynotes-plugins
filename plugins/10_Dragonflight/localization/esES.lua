@@ -885,7 +885,7 @@ L['dreamfruit_note'] = 'Aparece cuando empieza el evento {location:Superfloraci�
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las proles de lechúcico lunar para el logro {achievement:19293}.'
-L['moonkin_hatchling_note'] = 'Requiere que la misión {wq:78370} esté activa.'
+L['moonkin_hatchling_note'] = 'Requiere que la misión {wq:La preocupación me desgarra} esté activa.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Despoja la {object:Muestra de pelaje de erizapúas polinizado} que se encuentra cerca de la parte inferior del arbol de {location:Calcina}.'
 
