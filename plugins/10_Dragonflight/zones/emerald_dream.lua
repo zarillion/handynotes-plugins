@@ -1085,7 +1085,9 @@ map.nodes[48292228] = Somnut({location = L['in_a_tree']}) -- ontop of the burnin
 map.nodes[54101937] = Somnut()
 map.nodes[54191511] = Somnut({location = L['in_a_tree']}) -- Bugged flying in the air
 map.nodes[54223219] = Somnut({location = L['in_a_tree']})
+map.nodes[54652938] = Somnut()
 map.nodes[54924044] = Somnut()
+map.nodes[54933912] = Somnut()
 map.nodes[55002530] = Somnut({location = L['in_a_tree']}) -- bugged floating in the tree, hard to reach
 map.nodes[55324272] = Somnut()
 map.nodes[55575494] = Somnut({location = L['in_water']})
@@ -1152,7 +1154,7 @@ map.nodes[56907730] = EmeraldDream_Safari({
     -- pois = {POI({})}
 }) -- Sapnibbler
 
-map.nodes[87005900] = EmeraldDream_Safari({
+map.nodes[48207620] = EmeraldDream_Safari({
     id = 211295,
     rewards = {Achievement({id = 19401, criteria = 63278}), Pet({id = 4279})}
     -- pois = {POI({})}
