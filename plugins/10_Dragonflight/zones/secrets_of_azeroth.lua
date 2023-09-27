@@ -1451,8 +1451,8 @@ function BuriedSatchelList.getters:note()
     for num, satchel in ipairs(BURIED_SATCHELS) do
         local mName = C_Map.GetMapInfo(satchel.map.id).name
         local pName = C_Map.GetMapInfo(satchel.parentMapID).name
-        local qDone = QuestStatus(satchel.quest, num)
-        note = note .. format('\n%s %s (%s)', qDone, mName, pName)
+        local qDone = QuestStatus(satchel.quest, num, false)
+        note = note .. format('%s %s (%s)', qDone, mName, pName)
     end
     return note
 end
