@@ -973,18 +973,23 @@ L['soa_14_tablet_note'] = 'Используйте {item:208092}, чтобы от
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(Загадка 15)'
-L['soa_15_kathos_note'] = nil
-L['soa_15_tyrhold_statue_label'] = nil
-L['soa_15_tyrhold_statue_note'] = nil
-L['soa_15_tyrhold_forge_label'] = nil
-L['soa_15_tyrhold_forge_note'] = nil
-L['soa_15_broken_urn_note'] = nil
-L['soa_15_broken_urn_location'] = nil
-L['soa_15_titan_power_relay_label'] = nil
-L['soa_15_tpr_note'] = nil
-L['soa_15_orb_label'] = nil
-L['soa_15_orb_location'] = nil
-L['soa_15_orb_note'] = nil
+L['soa_15_kathos_note'] = 'Поговорите с {npc:206864}, чтобы завершить задание {quest:77959} и получить {item:208958}. Затем летите в {location:Тирхолд} и выполните серию задач.'
+L['soa_15_tyrhold_statue_label'] = 'Статуя Тирхолда'
+L['soa_15_tyrhold_statue_note'] = 'Подойдите к статуе Тирхолда и с помощью {item:208092} активируйте ее, пока шар не засветится ярко-красным.'
+L['soa_15_tyrhold_forge_label'] = 'Тирхолдская кузница'
+L['soa_15_tyrhold_forge_note'] = 'Подойдите к кузнице в центре {location:Тирхолда}, чтобы получить бафф {spell:423792.'
+L['soa_15_broken_urn_note'] = 'Осмотрите {object:Разбитые урны}, чтобы получить {item:%d}.'
+L['soa_15_broken_urn_location'] = 'Расположен на %d уровне в {location:Тирхолд}.'
+L['soa_15_titan_power_relay_label'] = 'Ретранслятор энергии титанов'
+L['soa_15_tpr_note'] = 'Установите {item:%d} в {object:Ретранслятор энергии титанов}.'
+L['soa_15_orb_label'] = 'Местонахождение сферы'
+L['soa_15_orb_location'] = 'На вершине {location:Тирхолда}.'
+L['soa_15_orb_note'] = [[
+Примите задание {quest:77977} и осмотрите сферу, чтобы вызвать {npc:210674} и {npc:210675}, победить их, чтобы получить {item:209555}.
+
+Поместите {item:209555} в консоль, чтобы раскрыть {item:208980}.
+Заберите сундук и отнесите {item:209555} к {npc:206864}, который породил неподалеку после того, как вы обнаружили {item:208980}.
+]]
 
 -- Community Rumor Mill
 L['buried_satchel_note'] = 'Выкопайте {item:208142} из {object:Кучи рыхлой земли}.'
