@@ -57,6 +57,8 @@ ns.DRUID_GLYPHS = {
     },
     Travel = {
         AuricDreamstag = DRUID_GLYPH({item = 210735, quest = 78523}),
+        AuroralDreamtalon = DRUID_GLYPH({item = 211081, quest = 78514}),
+        BorealDreamtalon = DRUID_GLYPH({item = 211080, quest = 78512}),
         DreamtalonMatriarch = DRUID_GLYPH({item = 210683, quest = 78513}),
         LushDreamstag = DRUID_GLYPH({item = 210731, quest = 78522}),
         SableDreamtalon = DRUID_GLYPH({item = 210674, quest = 78511}),
@@ -70,6 +72,15 @@ ns.DRUID_GLYPHS = {
         SlumberingSomnowl = DRUID_GLYPH({item = 210535, quest = 78448})
     }
 }
+
+ns.DRUID_GLYPHS.SetCount = function(dg, count)
+    return Item({
+        item = dg.item,
+        quest = dg.quest,
+        count = count,
+        class = dg.class
+    })
+end
 
 local DG = ns.DRUID_GLYPHS
 
@@ -351,13 +362,15 @@ map.nodes[85004600] = Treasure({ -- REVIEW
     }
 }) -- Crystalline Glowblossom
 
-map.nodes[83004600] = Treasure({ -- REVIEW
-    quest = nil,
-    note = 'PH',
+map.nodes[47493485] = Treasure({
+    label = L['hidden_moonkin_stash_label'],
+    quest = 77858,
+    location = L['in_a_tree'],
     rewards = {
-        Achievement({id = 19317, criteria = 62953}) -- Treasures of The Emerald Dream
-    }
-}) -- Hidden Podling Stash
+        Achievement({id = 19317, criteria = 62953}), -- Treasures of The Emerald Dream
+        Toy({item = 210725})
+    } -- Owl Post
+}) -- Hidden Podling Stash (Hidden Moonkin Stash)
 
 map.nodes[61625960] = Treasure({
     quest = 78005,
@@ -458,13 +471,6 @@ map.nodes[35075519] = Treasure({
 
 -------------------------------------------------------------------------------
 
-map.nodes[47493485] = Treasure({
-    label = L['hidden_moonkin_stash_label'],
-    quest = 77858,
-    location = L['in_a_tree'],
-    rewards = {Toy({item = 210725})} -- Owl Post
-}) -- Hidden Moonkin Stash
-
 local UnwakingEcho = Class('UnwakingEcho', Treasure, {
     icon = 'chest_gn',
     label = L['unwaking_echo_label'],
@@ -509,12 +515,14 @@ map.nodes[69575284] = UnwakingEcho({
 
 map.nodes[54043264] = PT.Alchemy({id = 210184, quest = 78264}) -- Experimental Decay Sample
 
-map.nodes[36264653] = PT.Alchemy({id = 210185, quest = 78269}) -- Splash Potion of Narcolepsy
+map.nodes[62757375] = PT.Alchemy({
+    id = 210185,
+    quest = 78269,
+    note = L['in_cave'],
+    pois = {POI({63457161})} -- Entrance
+}) -- Splash Potion of Narcolepsy
 
-map.nodes[80004800] = PT.Alchemy({ -- REVIEW
-    id = 210190,
-    quest = nil
-}) -- Blazeroot
+map.nodes[36264653] = PT.Alchemy({id = 210190, quest = 78275}) -- Blazeroot
 
 map.nodes[46152058] = PT.Enchanting({id = 210231, quest = 78309}) -- Everburning Core
 
@@ -1182,6 +1190,9 @@ map.nodes[59761689] = NPC({
         Pet({item = 210570, id = 4295, count = '800'}), -- Napps
         Pet({item = 210651, id = 4299, count = '800'}), -- Dustite
         Pet({item = 210648, id = 4298, count = '800'}), -- Seedle
+        DG.SetCount(DG.Travel.BorealDreamtalon, '1250'),
+        DG.SetCount(DG.Travel.AuroralDreamtalon, '1250'),
+        DG.SetCount(DG.Guardian.SnowyUmbraclaw, '1250'),
         Mount({item = 209950, id = 1810, count = '2500'}), -- Reins of the Rekindled Dreamstag
         Mount({item = 209947, id = 1808, count = '2500'}), -- Reins of the Blossoming Dreamstag
         Mount({item = 210775, id = 1835, count = '2500'}), -- Reins of the Snowfluff Dreamtalon

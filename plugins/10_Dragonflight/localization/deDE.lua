@@ -848,14 +848,14 @@ L['options_icons_emerald_dream_safari_desc'] = 'Zeigt die Positionen der Kampfha
 L['envoy_of_winter_note'] = 'Sammle {item:208881} und benutze {spell:421658} am Brunnen, bis der seltene Gegner erscheint.'
 L['fruitface_note'] = 'Sammle {item:208837} vom Boden auf, damit {npc:209980} erscheint. Greifen ihn an und folge ihm bis er ins Wasser springt und {npc:209966} und den seltenen Gegner erscheinen lässt.'
 L['greedy_gessie_note'] = 'Sammle frische Zutaten wie {object:Wildes Grünzeug}, {object:Rubinschuppenmelone} oder {object:Orangenwurzel} aus der Umgebung und legt diese in die Körbe, damit der seltene Gegner erscheint.'
-L['nuoberon_note'] = nil
+L['nuoberon_note'] = 'Jagt Schildkröten, bewerft Affen mit Essen oder bekämpft Traummonster, um {npc:209101} zu einem lustigen Traum zu verhelfen!'
 L['reefbreaker_moruud_note'] = 'Befestige alle 6 {npc:210089e} an ihm, um ihn angreifen zu können.'
 L['surging_lasher_note'] = 'Kann während des {location:Smaragdraserei} Events in diesem Gebiet erscheinen.'
 
 L['in_a_tree'] = 'Oben im Baum.'
 L['inside_building'] = 'Im Gebäude.'
 
-L['hidden_moonkin_stash_label'] = nil -- review not yet translated
+L['hidden_moonkin_stash_label'] = 'Verstecktes Mondkinlager'
 
 L['magical_bloom_note'] = 'Greife den {npc:210544} an und jage ihn, bis er den Schatz enthüllt.'
 L['pineshrew_cache_note'] = 'Neben ein paar Felsen.'
@@ -909,7 +909,7 @@ L['mbc_vial_k_location'] = 'Sturmgrimms Grabhügel'
 L['mbc_vial_n_location'] = 'Sternruh'
 L['mbc_vial_o_location'] = 'Cenariusdickicht'
 
-L['mbc_vial_location'] = 'Fülle die {item:%d} mit Wasser aus dem Mondbrunnen in {location:%s} ({location:%s}, {location:%s}), um eine {item:%d} zu erhalten.' -- review not yet translated
+L['mbc_vial_location'] = 'Fülle die {item:%d} mit Wasser aus dem Mondbrunnen in {location:%s} ({location:%s}, {location:%s}), um eine {item:%d} zu erhalten.'
 
 L['mbc_moonwell_label'] = 'Mondbrunnen'
 L['mbc_feral_dreamstone_label'] = nil -- review not yet translated
