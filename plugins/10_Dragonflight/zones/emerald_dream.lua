@@ -756,7 +756,21 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
 -- Small Dreamseeds give 20 Seedbloom (with low contribution)
 -- Gigantic Dreamseeds give 350 Seedbloom
 
--- map.nodes[] = EmeraldBounty({criteriaID = 62396}) -- Ageless Blossom
+map.nodes[59201737] = EmeraldBounty({
+    requires = ns.requirement.Quest(78172), -- ![Mysterious Seeds]
+    criteriaID = 62396
+}) -- Ageless Blossom
+
+map.nodes[59731584] = EmeraldBounty({
+    requires = ns.requirement.Quest(78172), -- ![Mysterious Seeds]
+    criteriaID = 62396
+}) -- Ageless Blossom
+
+map.nodes[60101818] = EmeraldBounty({
+    requires = ns.requirement.Quest(78172), -- ![Mysterious Seeds]
+    criteriaID = 62396
+}) -- Ageless Blossom
+
 map.nodes[38455920] = EmeraldBounty({criteriaID = 62185}) -- Comfy Chamomile
 map.nodes[40025268] = EmeraldBounty({criteriaID = 62035}) -- Viridescent Sprout
 map.nodes[40672478] = EmeraldBounty({criteriaID = 62027}) -- Lavatouched Lilies
