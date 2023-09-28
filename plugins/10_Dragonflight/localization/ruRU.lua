@@ -930,18 +930,18 @@ L['soa_10_weaponsmith_koref_note'] = 'Поговорите с {npc:210837} и з
 
 -- Secrets of Azeroth: Clue 11
 L['soa_11_rlabel'] = '(Загадка 11)'
-L['soa_11_rlabel_optional'] = nil
-L['soa_11_kathos_note'] = nil
-L['soa_11_sansok_khan_note'] = nil
-L['soa_11_jhara_note'] = nil
-L['soa_11_marker_1_label'] = nil
-L['soa_11_marker_2_label'] = nil
-L['soa_11_marker_3_label'] = nil
-L['soa_11_marker_4_label'] = nil
-L['soa_11_marker_4_note'] = nil
-L['soa_11_marker_5_label'] = nil
-L['soa_11_marker_5_note'] = nil
-L['soa_11_burial_banner_note'] = nil
+L['soa_11_rlabel_optional'] = '(Подсказка 11 - необязательно)'
+L['soa_11_kathos_note'] = 'Поговорив с {npc:206864}, вы получите {item:208852}. Отправляйтесь к {npc:195543} в {location:Равнины Он\'ары}, чтобы спросить его о знамени.'
+L['soa_11_sansok_khan_note'] = 'Спросите {npc:195543} как правильно захоронить {npc:Иштаара Ретона}, это охотник, которому принадлежит знамя.\n\nВы получите {item:209061} и вам нужно найти {npc:191391} в {location:Сосновой заставе}.'
+L['soa_11_jhara_note'] = 'Поговорите в гостинице с {npc:191391}. Она даст вам {item:208857}, это подсказка для этого секрета.'
+L['soa_11_marker_1_label'] = 'Первый маркер'
+L['soa_11_marker_2_label'] = 'Второй маркер'
+L['soa_11_marker_3_label'] = 'Третий маркер'
+L['soa_11_marker_4_label'] = 'Четвертый маркер'
+L['soa_11_marker_4_note'] = 'Внутри захоронения.'
+L['soa_11_marker_5_label'] = 'Пятый маркер'
+L['soa_11_marker_5_note'] = 'Если активно локальное задание {wq:Опутанные паутиной}, вам нужно завершить его, прежде чем использовать {item:208092}, чтобы сжечь паутину и раскрыть подсказку.'
+L['soa_11_burial_banner_note'] = 'Внутри пещеры добраться до второго этажа, в конце вы найдете место, чтобы использовать {item:208852}.'
 
 -- Secrets of Azeroth: Clue 12
 L['soa_12_rlabel'] = '(Загадка 12)'
