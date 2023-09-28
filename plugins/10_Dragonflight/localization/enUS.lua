@@ -929,7 +929,7 @@ L['options_icons_druid_glyph'] = 'Druid Glyphs'
 L['options_icons_druid_glyph_desc'] = 'Display locations for {emote:Druid Glyphs}.'
 
 L['elianna_vendor_note'] = 'Exchange {currency:2777} for pets and mounts.'
-L['sylvia_vendor_note'] = 'Exchange {currency:2651} for pets, mounts, and transmog.'
+L['thistlefir_vendor_note'] = 'Exchange {currency:2651} for pets, mounts, and transmog.'
 
 L['somnut'] = 'Somnut'
 L['options_icons_somnut'] = 'Somnut'

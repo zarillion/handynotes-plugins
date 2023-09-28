@@ -865,7 +865,7 @@ L['options_icons_druid_glyph'] = nil
 L['options_icons_druid_glyph_desc'] = nil
 
 L['elianna_vendor_note'] = nil
-L['sylvia_vendor_note'] = nil
+L['thistlefir_vendor_note'] = nil
 
 L['somnut'] = nil
 L['options_icons_somnut'] = nil

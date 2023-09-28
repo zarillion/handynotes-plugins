@@ -927,7 +927,7 @@ L['options_icons_druid_glyph'] = 'Glyphes de druide'
 L['options_icons_druid_glyph_desc'] = 'Afficher les emplacements des {emote:Glyphes de druide}.'
 
 L['elianna_vendor_note'] = 'Échangez vos {currency:2777} contre des mascottes et des montures.'
-L['sylvia_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'
+L['thistlefir_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'
 
 L['somnut'] = 'Somninoix'
 L['options_icons_somnut'] = 'Somninoix'
