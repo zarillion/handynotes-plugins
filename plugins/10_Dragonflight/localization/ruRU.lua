@@ -885,7 +885,8 @@ L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = nil
 
 L['dreamfruit_label'] = nil
-L['dreamfruit_note'] = nil
+L['dreamfruit_note_1'] = nil
+L['dreamfruit_note_2'] = nil
 
 L['options_icons_moonkin_hatchling'] = nil
 L['options_icons_moonkin_hatchling_desc'] = nil

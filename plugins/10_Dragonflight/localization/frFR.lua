@@ -882,7 +882,8 @@ L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:Sol pour graine onirique} pour le haut-fait {achievement:19013}.'
 
 L['dreamfruit_label'] = 'Fruit du Rêve'
-L['dreamfruit_note'] = 'Apparaît lorsque l\'événement {location:Superfloraison} commence.'
+L['dreamfruit_note_1'] = nil -- 'Apparaît lorsque l\'événement {location:Superfloraison} commence.'
+L['dreamfruit_note_2'] = nil
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des bébés séléniens pour le haut-fait {achievement:19293}.'

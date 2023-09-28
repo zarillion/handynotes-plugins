@@ -649,6 +649,13 @@ local MoonkinHatchling = Class('Hatchling', Collectible, {
     }
 })
 
+function MoonkinHatchling:IsCollected()
+    local _, _, completed = GetAchievementCriteriaInfoByID(19293,
+        self.criteriaID)
+    if not completed then return false end
+    return true
+end
+
 map.nodes[37136593] = MoonkinHatchling({criteriaID = 62785}) -- Beaks
 
 map.nodes[39096598] = MoonkinHatchling({criteriaID = 62776}) -- Bumbletweet
@@ -798,13 +805,11 @@ map.nodes[63956483] = EmeraldBounty({criteriaID = 62030}) -- Dragon's Daffodil
 -- Each individual Dreamfruit during the Superbloom has its own,
 -- unique pool of blessings it can bestow.
 
-local Dreamfruit = Class('Dreamfruit', Collectible, {
-    icon = 5390643,
-    label = L['dreamfruit_label'],
-    note = L['dreamfruit_note']
-})
+local Dreamfruit = Class('Dreamfruit', Collectible,
+    {icon = 5390643, label = L['dreamfruit_label']})
 
 map.nodes[51265990] = Dreamfruit({
+    note = L['dreamfruit_note_1'],
     rewards = {
         Achievement({
             id = 19310,
@@ -832,7 +837,8 @@ map.nodes[51265990] = Dreamfruit({
 })
 
 map.nodes[52847357] = Dreamfruit({
-    requires = {ns.requirement.Reputation(2574, 12, true)}, -- just a guess
+    note = L['dreamfruit_note_2'],
+    requires = {ns.requirement.Reputation(2574, 12, true)}, -- review required
     rewards = {
         Achievement({
             id = 19310,
@@ -1123,6 +1129,7 @@ map.nodes[61977450] = Somnut()
 map.nodes[63457357] = Somnut()
 map.nodes[65985217] = Somnut() -- On a Branch/Root
 map.nodes[66085014] = Somnut()
+map.nodes[66306338] = Somnut()
 
 -------------------------------------------------------------------------------
 ---------------------------- EMERALD DREAM SAFARI -----------------------------
