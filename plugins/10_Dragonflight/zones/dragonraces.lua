@@ -99,6 +99,16 @@ local DragonridingVendor = Class('DragonridingVendor', NPC, {
         Transmog({item = 206592, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Belt
         Transmog({item = 206593, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Leggings
         Transmog({item = 206594, slot = L['cosmetic'], count = '20'}) -- Drake Racer's Boots
+        --
+        -- Transmog({item = 210078, slot = L['cosmetic']}) -- Sky-Captain's Formal Attire
+        -- Transmog({item = 210066, slot = L['cosmetic']}) -- Sky-Captain's Formal Boots
+        -- Transmog({item = 210071, slot = L['cosmetic']}) -- Sky-Captain's Formal Cape
+        -- Transmog({item = 210067, slot = L['cosmetic']}) -- Sky-Captain's Formal Coat
+        -- Transmog({item = 210065, slot = L['cosmetic']}) -- Sky-Captain's Formal Hat
+        -- Transmog({item = 210079, slot = L['cosmetic']}) -- Sky-Captain's Masquerade Attire
+        -- Transmog({item = 210073, slot = L['cosmetic']}) -- Sky-Captain's Masquerade Boots
+        -- Transmog({item = 210076, slot = L['cosmetic']}) -- Sky-Captain's Masquerade Cape
+        -- Transmog({item = 210075, slot = L['cosmetic']}) -- Sky-Captain's Masquerade Pants
     }
 }) -- Dragonriding Vendor
 

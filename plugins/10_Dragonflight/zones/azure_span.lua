@@ -1902,11 +1902,10 @@ local Ranpiata = Class('Ranpiata', Collectible, {
 }) -- Ranpiata
 
 function Ranpiata.getters:note()
-    local note = '\n'
-    note = note .. QuestStatus(70166, 1, L['artists_easel_note_step1'], false) -- The Joy of Painting
-    note = note .. QuestStatus(70168, 2, L['artists_easel_note_step2']) -- Sad Little Accidents
-    note = note .. QuestStatus(70170, 3, L['artists_easel_note_step3']) -- Beat the Demons Out of It
-    return note .. '\n\n' .. L['artists_easel_note_step4']
+    local note = QuestStatus(70166, 1, L['artists_easel_note_step1'], true) -- The Joy of Painting
+    note = note .. QuestStatus(70168, 2, L['artists_easel_note_step2'], true) -- Sad Little Accidents
+    note = note .. QuestStatus(70170, 3, L['artists_easel_note_step3'], true) -- Beat the Demons Out of It
+    return note .. L['artists_easel_note_step4']
 end
 
 map.nodes[07855348] = Ranpiata()

@@ -22,14 +22,14 @@ local function ItemStatus(itemID, numNeed, note, spacer)
 end
 
 local function QuestStatus(questID, identifier, note, spacer)
-    local txt
+    local txt = '\n'
     if C_QuestLog.IsQuestFlaggedCompleted(questID) then
-        txt = ns.status.Green(identifier)
+        txt = txt .. ns.status.Green(identifier)
     else
-        txt = ns.status.Red(identifier)
+        txt = txt .. ns.status.Red(identifier)
     end
     if note then txt = txt .. ' ' .. note end
-    if spacer == nil or spacer == true then txt = '\n\n' .. txt end
+    if spacer then txt = txt .. '\n' end -- adds a blank line after the status text
     return txt
 end
 

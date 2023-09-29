@@ -1716,13 +1716,13 @@ local Rumiastrasza = Class('Rumiastrasza', Collectible, {
 
 function Rumiastrasza.getters:note()
     local note = L['hoard_of_draconic_delicacies_note_start'] .. '\n'
-    note = note .. '\n' .. QuestStatus(67047, 1, '{quest:67047}', false) -- Warm Away These Shivers
-    note = note .. '\n' .. QuestStatus(67063, 2, '{quest:67063}', false) -- 10,000 Years Of Roasting
-    note = note .. '\n' .. QuestStatus(67064, 3, '{quest:67064}', false) -- Rambling Delight
-    note = note .. '\n' .. QuestStatus(67065, 4, '{quest:67065}', false) -- Future Fresh Fungi
-    note = note .. '\n' .. QuestStatus(67066, 5, '{quest:67066}', false) -- Delights To Delve For
-    note = note .. '\n' .. QuestStatus(67067, 6, '{quest:67067}', false) -- Navigating The Leapmaize
-    note = note .. '\n' .. QuestStatus(67068, 7, '{quest:67068}', false) -- Anything But A Breeze
+    note = note .. QuestStatus(67047, 1, '{quest:67047}') -- Warm Away These Shivers
+    note = note .. QuestStatus(67063, 2, '{quest:67063}') -- 10,000 Years Of Roasting
+    note = note .. QuestStatus(67064, 3, '{quest:67064}') -- Rambling Delight
+    note = note .. QuestStatus(67065, 4, '{quest:67065}') -- Future Fresh Fungi
+    note = note .. QuestStatus(67066, 5, '{quest:67066}') -- Delights To Delve For
+    note = note .. QuestStatus(67067, 6, '{quest:67067}') -- Navigating The Leapmaize
+    note = note .. QuestStatus(67068, 7, '{quest:67068}') -- Anything But A Breeze
     return note .. '\n\n' .. L['hoard_of_draconic_delicacies_note_end']
 end
 
