@@ -882,25 +882,25 @@ L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:Sol pour graine onirique} pour le haut-fait {achievement:19013}.'
 
 L['dreamfruit_label'] = 'Fruit du Rêve'
-L['dreamfruit_note_1'] = nil -- 'Apparaît lorsque l\'événement {location:Superfloraison} commence.'
-L['dreamfruit_note_2'] = nil
+L['dreamfruit_note_1'] = 'Apparaît lorsque l\'événement {location:Superfloraison} commence. L\'événement démarre toutes les heures.'
+L['dreamfruit_note_2'] = 'Apparaît après le premier arrêt de l\'événement {location:Superfloraison}. L\'événement démarre toutes les heures près d\'{location:Amirdrassil}.'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des bébés séléniens pour le haut-fait {achievement:19293}.'
 L['moonkin_hatchling_note'] = 'Nécessite que l\'expédition {wq:Griffes d’inquiétude} soit active.'
 
 L['druid_glyphs_label'] = 'Glyphes de druide'
-L['druid_glyphs_sublabel'] = nil
-L['druid_glyphs_note'] = nil
+L['druid_glyphs_sublabel'] = '{note:Ceci n\'est PAS un glyphe de druide. Il s\'agit simplement d\'une liste !}'
+L['druid_glyphs_note'] = 'Récupérez des {note:Glyphes de druide} grâce à diverses activités au sein du {location:Rêve d\'Émeraude}.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Récupérez l\'{object:Échantillon de fourrure d\'hoursute amalgamée de pollen} trouvé au pied de l\'arbre à {location:La Calcination}.'
 
 L['mbc_note_start'] = 'Récupérez la {object:Small Box of Vials} pour recevoir la {item:210991}.\n\nVous obtiendrez 6x {item:210839} qui doivent être remplies avec de l\'eau du puits de lune provenant de chaque continent.' -- review NYT
 L['mbc_note_end'] = 'Combinez les 6x {item:210876} pour créer la {item:210977} et apportez-la jusqu\'à la {object:Feral Dreamstone} près d\'{location:Amirdrassil}.\n\nUtilisez la {item:210977} et récupérez la {object:Griffe bénie par la Lune} pour recevoir la {item:210728}.' -- review NYT
 
-L['mbc_vial_b'] = 'I' -- review NYT
+L['mbc_vial_b'] = 'B'
 L['mbc_vial_d'] = 'D'
-L['mbc_vial_e'] = 'R' -- review NYT
+L['mbc_vial_e'] = 'E'
 L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'O'
@@ -911,7 +911,7 @@ L['mbc_vial_k_location'] = 'Refuge des saisons de Malfurion'
 L['mbc_vial_n_location'] = 'Repos des étoiles'
 L['mbc_vial_o_location'] = 'Refuge Cénarien'
 
-L['mbc_vial_location'] = 'Remplissez la {item:%d} avec de l\'eau du puits de lune au {location:%s} dans la zone {location:%s} du continent {location:%s} pour recevoir la {item:%d}.' -- review NYT
+L['mbc_vial_location'] = 'Remplissez la {item:%d} avec de l\'eau du puits de lune au {location:%s} dans la zone {location:%s} du continent {location:%s} pour recevoir la {item:%d}.'
 
 L['mbc_moonwell_label'] = 'Puits de lune'
 L['mbc_feral_dreamstone_label'] = nil -- review NYT
