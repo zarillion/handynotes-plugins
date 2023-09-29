@@ -1217,6 +1217,96 @@ end
 map.nodes[52442683] = TheGiftOfCheese()
 
 -------------------------------------------------------------------------------
+------------------------------- ZARALEK SAFARI --------------------------------
+-------------------------------------------------------------------------------
+
+-- local Zaralek_Safari = Class('Zaralek_Safari', ns.node.Safari,
+--     {group = ns.groups.ZARALEK_SAFARI})
+
+-- map.nodes[49003260] = Zaralek_Safari({
+--     id = 203287,
+--     rewards = {Achievement({id = 17879, criteria = 59342}), Pet({id = 3477})},
+--     pois = {
+--         POI({
+--             44004020, 44004900, 44405020, 44405060, 44805840, 44805860,
+--             45005080, 45005160, 45203900, 45204000, 45205640, 45205660,
+--             46205400, 47203840, 47403740, 47403860, 47603720, 47603760,
+--             48203500, 48205240, 48403600, 48405320, 48603600, 48605320,
+--             48803460, 49003240, 49003260, 49005160, 49203360, 49403940,
+--             49403960, 49405040, 49405140, 49603860, 49604120, 49605040,
+--             49605140, 49605160, 49803340, 49803740, 49803780, 49804940,
+--             50004580, 50203960, 50404480, 50404740, 50404760, 50604640,
+--             50604660, 50604920, 50804300, 50804780
+--         })
+--     }
+-- })-- Puddlehopper
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Yellabon
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Stonewhisker
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Boulderfang
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Hollow Moth
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Rock Martin
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Endmite
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Cobbleshell
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Slabwing
+
+
+-------------------------------------------------------------------------------
 
 local LoammVendor = Class('LoammVendor', Collectible,
     {icon = 'peg_bl', scale = 1.3}) -- Loamm Vendor
