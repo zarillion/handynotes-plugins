@@ -892,6 +892,10 @@ L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinküken für den Erfolg {achievement:19293} an.'
 L['moonkin_hatchling_note'] = 'Die Weltquest {wq:Beklemmende Klauen} muss aktiv sein.'
 
+L['druid_glyphs_label'] = 'Druidenglyphen'
+L['druid_glyphs_sublabel'] = nil
+L['druid_glyphs_note'] = nil
+
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Auf dem Boden vor dem Baum.'
 
 L['mbc_note_start'] = 'Plündere die {object:Small Box of Vials}, um {item:210991} zu erhalten.\n\nDu bekommst 6x {item:210839}, die mit Wasser aus einem Mondbrunnen von sechs Kontinenten gefüllt werden müssen.' -- review not yet translated
@@ -928,7 +932,7 @@ L['silent_mark_label'] = 'Reichtraumklippen'
 L['silent_mark_note'] = 'Visiere das richtige Tier an und kanalisiere das Mal, um es auf diese Form einzustimmen. {note:Du musst das Mal mit 10+ Tieren einstimmen.}\n\nKanalisiere {item:210764} auf {npc:210892}.\n\nKanalisiere {item:210767} auf {npc:211347}, {npc:211283}, oder {npc:210894}.\n\nKanalisiere {item:210755} auf {npc:210594}.\n\nKanalisiere {item:210766} auf {npc:209494}.'
 
 L['options_icons_druid_glyph'] = 'Druidenglyphen'
-L['options_icons_druid_glyph_desc'] = 'Zeigt die Positionen der {emote:Druidenglyphen} an.'
+L['options_icons_druid_glyph_desc'] = 'Zeigt die Positionen der {note:Druidenglyphen} an.'
 
 L['elianna_vendor_note'] = 'Tausche {currency:2777} gegen Reittiere und Haustiere ein.'
 L['thistlefir_vendor_note'] = 'Tausche {currency:2651} gegen Reittiere, Haustiere und Ausrüstungsvorlagen ein.'

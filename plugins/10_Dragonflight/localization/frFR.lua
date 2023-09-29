@@ -889,6 +889,10 @@ L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des bébés séléniens pour le haut-fait {achievement:19293}.'
 L['moonkin_hatchling_note'] = 'Nécessite que l\'expédition {wq:Griffes d’inquiétude} soit active.'
 
+L['druid_glyphs_label'] = 'Glyphes de druide'
+L['druid_glyphs_sublabel'] = nil
+L['druid_glyphs_note'] = nil
+
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Récupérez l\'{object:Échantillon de fourrure d\'hoursute amalgamée de pollen} trouvé au pied de l\'arbre à {location:La Calcination}.'
 
 L['mbc_note_start'] = 'Récupérez la {object:Small Box of Vials} pour recevoir la {item:210991}.\n\nVous obtiendrez 6x {item:210839} qui doivent être remplies avec de l\'eau du puits de lune provenant de chaque continent.' -- review NYT
@@ -925,7 +929,7 @@ L['silent_mark_label'] = 'Combes des Songes florissants'
 L['silent_mark_note'] = 'Ciblez le bon animal et canalisez l\'objet correspondant jusqu\'à ce que l\'{spell:426910} apparaisse. {note:Vous devez vous harmoniser avec au moins 10 animaux.}\n\nCanalisez la {item:210764} sur les {npc:210892}.\n\nCanalisez la {item:210767} sur les {npc:211347}, {npc:211283}, ou {npc:210894}.\n\nCanalisez la {item:210755} sur les {npc:210594}.\n\nCanalisez la {item:210766} sur les {npc:209494}.'
 
 L['options_icons_druid_glyph'] = 'Glyphes de druide'
-L['options_icons_druid_glyph_desc'] = 'Afficher les emplacements des {emote:Glyphes de druide}.'
+L['options_icons_druid_glyph_desc'] = 'Afficher les emplacements des {note:Glyphes de druide}.'
 
 L['elianna_vendor_note'] = 'Échangez vos {currency:2777} contre des mascottes et des montures.'
 L['thistlefir_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'

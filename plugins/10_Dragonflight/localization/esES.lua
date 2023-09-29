@@ -891,6 +891,10 @@ L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las proles de lechúcico lunar para el logro {achievement:19293}.'
 L['moonkin_hatchling_note'] = 'Requiere que la misión del mundo {wq:La preocupación me desgarra} esté activa.'
 
+L['druid_glyphs_label'] = 'Glifos de Druida'
+L['druid_glyphs_sublabel'] = nil
+L['druid_glyphs_note'] = nil
+
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Despoja la {object:Muestra de pelaje de erizapúas polinizado} que se encuentra cerca de la parte inferior del arbol de {location:Calcina}.'
 
 L['mbc_note_start'] = 'Despoja la {object:Caja Pequeña de Viales} para conseguir la {item:210991}.\n\nRecibirás 6x {item:210839} que necesitarán ser llenados con agua de la poza de la luna de cada continente.'
@@ -927,7 +931,7 @@ L['silent_mark_label'] = 'Riscos Sueñofrondoso'
 L['silent_mark_note'] = 'Selecciona el animal correcto y canaliza el objeto correspondiente hasta que aparezca {spell:426910}. {note:Debes hacerlo con más de 10 animales.}\n\nCanaliza {item:210764} en {npc:210892}.\n\nCanaliza {item:210767} en {npc:211347}, {npc:211283}, o {npc:210894}.\n\nCanaliza {item:210755} en {npc:210594}.\n\nCanaliza {item:210766} en {npc:209494}.'
 
 L['options_icons_druid_glyph'] = 'Glifos de Druida'
-L['options_icons_druid_glyph_desc'] = 'Muestra dónde están los {emote:Glifo de Druida}.'
+L['options_icons_druid_glyph_desc'] = 'Muestra dónde están los {note:Glifo de Druida}.'
 
 L['elianna_vendor_note'] = 'Cambia {currency:2777} por mascotas y monturas.'
 L['thistlefir_vendor_note'] = 'Cambia {currency:2651} por mascotas, monturas y transfiguraciones.'

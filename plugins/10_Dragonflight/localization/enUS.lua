@@ -891,6 +891,10 @@ L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Display moonkin hatchling locations for {achievement:19293}.'
 L['moonkin_hatchling_note'] = 'Requires Worldquest {wq:Claws for Concern} to be active.'
 
+L['druid_glyphs_label'] = 'Druid Glyphs'
+L['druid_glyphs_sublabel'] = '{note:This is NOT a Druid Glyph. Just a checklist!}'
+L['druid_glyphs_note'] = 'Collect {note:Druid Glyphs} from various activities around the {location:Emerald Dream}.'
+
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Loot the {object:Pollenfused Bristlebruin Fur Sample} found near the bottom of the tree in {location:The Char}.'
 
 L['mbc_note_start'] = 'Loot the {object:Small Box of Vials} to recieve the {item:210991}.\n\nYou will recieve 6x {item:210839} that need to be filled with moonwell water from each continent.'
@@ -927,7 +931,7 @@ L['silent_mark_label'] = 'Lushdream Crags'
 L['silent_mark_note'] = 'Target the correct animal and channel the matching item until {spell:426910} appears. {note:You must attune with 10+ animals.}\n\nChannel {item:210764} onto {npc:210892}.\n\nChannel {item:210767} onto {npc:211347}, {npc:211283}, or {npc:210894}.\n\nChannel {item:210755} onto {npc:210594}.\n\nChannel {item:210766} onto {npc:209494}.'
 
 L['options_icons_druid_glyph'] = 'Druid Glyphs'
-L['options_icons_druid_glyph_desc'] = 'Display locations for {emote:Druid Glyphs}.'
+L['options_icons_druid_glyph_desc'] = 'Display locations for {note:Druid Glyphs}.'
 
 L['elianna_vendor_note'] = 'Exchange {currency:2777} for pets and mounts.'
 L['thistlefir_vendor_note'] = 'Exchange {currency:2651} for pets, mounts, and transmog.'

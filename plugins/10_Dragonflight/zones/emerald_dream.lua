@@ -21,6 +21,7 @@ local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Section = ns.reward.Section
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -74,12 +75,11 @@ ns.DRUID_GLYPHS = {
 }
 
 ns.DRUID_GLYPHS.SetCount = function(dg, count)
-    return Item({
-        item = dg.item,
-        quest = dg.quest,
-        count = count,
-        class = dg.class
-    })
+    return DRUID_GLYPH({item = dg.item, quest = dg.quest, count = count})
+end
+
+ns.DRUID_GLYPHS.SetNote = function(dg, note)
+    return DRUID_GLYPH({item = dg.item, quest = dg.quest, note = note})
 end
 
 local DG = ns.DRUID_GLYPHS
@@ -875,6 +875,39 @@ local DruidGlyph = Class('DruidGlyph', Collectible, {
     class = 'DRUID'
 }) -- Druid Glyph
 
+map.nodes[70002700] = DruidGlyph({
+    label = L['druid_glyphs_label'],
+    sublabel = L['druid_glyphs_sublabel'],
+    note = L['druid_glyphs_note'],
+    rewards = {
+        Section('{spell:768}'), -- Feral
+        DG.SetNote(DG.Feral.EvergreenDreamsaber, '{npc:212903}'),
+        DG.SetNote(DG.Feral.KeenEyedDreamsaber, '{npc:210046}'),
+        DG.SetNote(DG.Feral.MoonBlessedDreamsaber, '{item:210991}'),
+        ns.reward.Spacer(), Section('{spell:5487}'), -- Guardian
+        DG.SetNote(DG.Guardian.AshenBristlebruin, '{item:210727}'),
+        DG.SetNote(DG.Guardian.DarkUmbraclaw, '{npc:210070}'),
+        DG.SetNote(DG.Guardian.HibernatingRunebear, '{npc:209574}'), -- speculated
+        DG.SetNote(DG.Guardian.LoamyUmbraclaw, '{npc:212903}'),
+        DG.SetNote(DG.Guardian.SnowyUmbraclaw, '{npc:212903}'),
+        DG.SetNote(DG.Guardian.VerdantBristlebruin, '{npc:210045}'),
+        ns.reward.Spacer(), Section('{spell:783}'), -- Travel
+        DG.SetNote(DG.Travel.AuricDreamstag, '{spell:45357}'),
+        DG.SetNote(DG.Travel.AuroralDreamtalon, '{npc:212903}'),
+        DG.SetNote(DG.Travel.BorealDreamtalon, '{npc:212903}'),
+        DG.SetNote(DG.Travel.DreamtalonMatriarch, '{npc:210051}'),
+        DG.SetNote(DG.Travel.LushDreamstag, '{npc:212903}'),
+        DG.SetNote(DG.Travel.SableDreamtalon, '{npc:210161}'),
+        DG.SetNote(DG.Travel.SmolderingDreamstag, L['unknown']),
+        DG.SetNote(DG.Travel.ThrivingDreamtalon, '{npc:212903}'),
+        ns.reward.Spacer(), Section('{spell:276029}'), -- Flight
+        DG.SetNote(DG.Flight.AzureSomnowl, '{quest:78066}'),
+        DG.SetNote(DG.Flight.BlazingSomnowl, '{npc:210601}'), -- speculated
+        DG.SetNote(DG.Flight.PrismaticWhiskerfish, '{npc:211300}'), -- speculated
+        DG.SetNote(DG.Flight.SlumberingSomnowl, '{item:210535}')
+    }
+}) -- Druid Glyph List
+
 map.nodes[60341694] = DruidGlyph({
     id = 212903,
     note = L['thaelishar_vendor_note'] .. '\n\n' .. L['silent_mark_note'],
@@ -924,7 +957,7 @@ local SlumberingSomnowl = Class('SlumberingSomnowl', DruidGlyph, {
 })
 
 function SlumberingSomnowl.getters:note()
-    local note = '\n'
+    local note = ''
     note = note .. ItemStatus(210565, 5, L['slumbering_somnowl_note_a'], false)
     note = note .. ItemStatus(4291, 1, L['slumbering_somnowl_note_b'])
     note = note .. ItemStatus(210566, 1, L['slumbering_somnowl_note_c'])
