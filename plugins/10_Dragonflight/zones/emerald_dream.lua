@@ -737,6 +737,7 @@ map.nodes[37757026] = MoonkinHatchling({
 
 local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
     label = L['dreamseed_soil_label'],
+    note = L['dreamseed_soil_note'],
     requires = {
         ns.requirement.Item(208066) -- Small Dreamseed
     },
@@ -856,7 +857,7 @@ map.nodes[52847357] = Dreamfruit({
                 -- 62920, -- Moonkin Mayhem
                 -- 62921, -- Potent Lullaby
                 -- 62922, -- Putrid Propulsion
-                -- 62923, -- Sack of Talontreats
+                62923, -- Sack of Talontreats
                 62924, -- Star Shower
                 62925, -- The Superb Loom
                 62926 -- Wake Up!
@@ -1147,6 +1148,7 @@ map.nodes[44633492] = Somnut()
 map.nodes[46913522] = Somnut()
 map.nodes[47743551] = Somnut()
 map.nodes[48292228] = Somnut({location = L['in_a_tree']}) -- ontop of the burning tree
+map.nodes[53995564] = Somnut({location = L['in_small_cave']})
 map.nodes[54101937] = Somnut()
 map.nodes[54191511] = Somnut({location = L['in_a_tree']}) -- Bugged flying in the air
 map.nodes[54223219] = Somnut({location = L['in_a_tree']})

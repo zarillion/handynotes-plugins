@@ -878,6 +878,7 @@ L['plush_pillow_note'] = 'A l\'intérieur de la petite cabane, sur une table.'
 L['snuggle_buddy_note'] = 'A l\'intérieur d\'un petit bateau.'
 
 L['dreamseed_soil_label'] = 'Sol pour graine onirique'
+L['dreamseed_soil_note'] = nil
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:Sol pour graine onirique} pour le haut-fait {achievement:19013}.'
 

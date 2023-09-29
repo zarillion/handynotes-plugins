@@ -880,6 +880,11 @@ L['plush_pillow_note'] = 'Inside the little hut on a table.'
 L['snuggle_buddy_note'] = 'Inside a small boat.'
 
 L['dreamseed_soil_label'] = 'Dreamseed Soil'
+L['dreamseed_soil_note'] = [[
+You can only get {currency:2651}, {item:210651} and cosmetics if you contribute or plant a Dreamseed, the amount of {currency:2651} depends on the quality of the seed.
+
+If you contribute {currency:2650}, you will receive a small amount of crafting materials and {currency:2245s}.
+]] -- is there only 1 pet? will it drop from any seed?
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Display {object:Dreamseed Soil} locations for {achievement:19013}.'
 

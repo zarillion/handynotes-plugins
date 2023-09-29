@@ -881,6 +881,11 @@ L['plush_pillow_note'] = 'In der kleinen Hütte auf einem Tisch.'
 L['snuggle_buddy_note'] = 'In einem kleinen Boot.'
 
 L['dreamseed_soil_label'] = '{npc:210723}' -- Traumsaaterde
+L['dreamseed_soil_note'] = [[
+Du kannst  {currency:2651}, {item:210651} und Kosmetische Gegenstände nur erhalten, wenn du eine Traumsaat beisteuerst oder pflanzt. Die Menge der {currency:2651} hängt von der Qualität der Saat ab.
+
+Wenn du {currency:2650} beisteuerst, erhältst du eine kleine Menge an Handwerksmaterialien und {currency:2245}.
+]]
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Zeigt die Positionen der {npc:210723} für den Erfolg {achievement:19013} an.'
 

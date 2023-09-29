@@ -880,6 +880,7 @@ L['plush_pillow_note'] = 'Dentro de la choza pequeña y encima de una mesa.'
 L['snuggle_buddy_note'] = 'Dentro de un bote pequeño.'
 
 L['dreamseed_soil_label'] = 'Tierra con Semillas del Sueño'
+L['dreamseed_soil_note'] = nil
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Muestra dónde están las {object:Tierra con Semillas del Sueño} para el logro {achievement:19013}.'
 

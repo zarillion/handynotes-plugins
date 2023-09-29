@@ -816,6 +816,7 @@ L['plush_pillow_note'] = nil
 L['snuggle_buddy_note'] = nil
 
 L['dreamseed_soil_label'] = nil
+L['dreamseed_soil_note'] = nil
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = nil
 
