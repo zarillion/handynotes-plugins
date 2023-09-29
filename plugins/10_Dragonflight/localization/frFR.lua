@@ -878,7 +878,11 @@ L['plush_pillow_note'] = 'A l\'intérieur de la petite cabane, sur une table.'
 L['snuggle_buddy_note'] = 'A l\'intérieur d\'un petit bateau.'
 
 L['dreamseed_soil_label'] = 'Sol pour graine onirique'
-L['dreamseed_soil_note'] = nil
+L['dreamseed_soil_note'] = [[
+Vous ne pouvez obtenir des {currency:2651}, {item:210651} et des cosmétiques que si vous contribuez ou plantez une Graine onirique, la quantité de {currency:2651} dépend de la qualité de la graine.
+
+Si vous contribuez avec des {currency:2650}, vous recevrez une petite quantité de matériaux d'artisanat et des {currency:2245s}.
+]]
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:Sol pour graine onirique} pour le haut-fait {achievement:19013}.'
 
