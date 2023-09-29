@@ -42,6 +42,14 @@ local map = Map({id = 2200, settings = true})
 
 local DRUID_GLYPH = Class('DRUID_GLYPH', Item, {class = 'DRUID'})
 
+function DRUID_GLYPH:Count(count)
+    return DRUID_GLYPH({item = self.item, quest = self.quest, count = count})
+end
+
+function DRUID_GLYPH:Note(note)
+    return DRUID_GLYPH({item = self.item, quest = self.quest, note = note})
+end
+
 ns.DRUID_GLYPHS = {
     Feral = {
         EvergreenDreamsaber = DRUID_GLYPH({item = 210669, quest = 78507}),
@@ -73,14 +81,6 @@ ns.DRUID_GLYPHS = {
         SlumberingSomnowl = DRUID_GLYPH({item = 210535, quest = 78448})
     }
 }
-
-ns.DRUID_GLYPHS.SetCount = function(dg, count)
-    return DRUID_GLYPH({item = dg.item, quest = dg.quest, count = count})
-end
-
-ns.DRUID_GLYPHS.SetNote = function(dg, note)
-    return DRUID_GLYPH({item = dg.item, quest = dg.quest, note = note})
-end
 
 local DG = ns.DRUID_GLYPHS
 
@@ -881,30 +881,33 @@ map.nodes[70002700] = DruidGlyph({
     note = L['druid_glyphs_note'],
     rewards = {
         Section('{spell:768}'), -- Feral
-        DG.SetNote(DG.Feral.EvergreenDreamsaber, '{npc:212903}'),
-        DG.SetNote(DG.Feral.KeenEyedDreamsaber, '{npc:210046}'),
-        DG.SetNote(DG.Feral.MoonBlessedDreamsaber, '{item:210991}'),
-        ns.reward.Spacer(), Section('{spell:5487}'), -- Guardian
-        DG.SetNote(DG.Guardian.AshenBristlebruin, '{item:210727}'),
-        DG.SetNote(DG.Guardian.DarkUmbraclaw, '{npc:210070}'),
-        DG.SetNote(DG.Guardian.HibernatingRunebear, '{npc:209574}'), -- speculated
-        DG.SetNote(DG.Guardian.LoamyUmbraclaw, '{npc:212903}'),
-        DG.SetNote(DG.Guardian.SnowyUmbraclaw, '{npc:212903}'),
-        DG.SetNote(DG.Guardian.VerdantBristlebruin, '{npc:210045}'),
-        ns.reward.Spacer(), Section('{spell:783}'), -- Travel
-        DG.SetNote(DG.Travel.AuricDreamstag, '{spell:45357}'),
-        DG.SetNote(DG.Travel.AuroralDreamtalon, '{npc:212903}'),
-        DG.SetNote(DG.Travel.BorealDreamtalon, '{npc:212903}'),
-        DG.SetNote(DG.Travel.DreamtalonMatriarch, '{npc:210051}'),
-        DG.SetNote(DG.Travel.LushDreamstag, '{npc:212903}'),
-        DG.SetNote(DG.Travel.SableDreamtalon, '{npc:210161}'),
-        DG.SetNote(DG.Travel.SmolderingDreamstag, L['unknown']),
-        DG.SetNote(DG.Travel.ThrivingDreamtalon, '{npc:212903}'),
-        ns.reward.Spacer(), Section('{spell:276029}'), -- Flight
-        DG.SetNote(DG.Flight.AzureSomnowl, '{quest:78066}'),
-        DG.SetNote(DG.Flight.BlazingSomnowl, '{npc:210601}'), -- speculated
-        DG.SetNote(DG.Flight.PrismaticWhiskerfish, '{npc:211300}'), -- speculated
-        DG.SetNote(DG.Flight.SlumberingSomnowl, '{item:210535}')
+        DG.Feral.EvergreenDreamsaber:Note('{npc:212903}'),
+        DG.Feral.KeenEyedDreamsaber:Note('{npc:210046}'),
+        DG.Feral.MoonBlessedDreamsaber:Note('{item:210991}'), --
+        ns.reward.Spacer(), --
+        Section('{spell:5487}'), -- Guardian
+        DG.Guardian.AshenBristlebruin:Note('{item:210727}'),
+        DG.Guardian.DarkUmbraclaw:Note('{npc:210070}'),
+        DG.Guardian.HibernatingRunebear:Note('{npc:209574}'), -- speculated
+        DG.Guardian.LoamyUmbraclaw:Note('{npc:212903}'),
+        DG.Guardian.SnowyUmbraclaw:Note('{npc:212903}'),
+        DG.Guardian.VerdantBristlebruin:Note('{npc:210045}'), --
+        ns.reward.Spacer(), --
+        Section('{spell:783}'), -- Travel
+        DG.Travel.AuricDreamstag:Note('{spell:45357}'),
+        DG.Travel.AuroralDreamtalon:Note('{npc:212903}'),
+        DG.Travel.BorealDreamtalon:Note('{npc:212903}'),
+        DG.Travel.DreamtalonMatriarch:Note('{npc:210051}'),
+        DG.Travel.LushDreamstag:Note('{npc:212903}'),
+        DG.Travel.SableDreamtalon:Note('{npc:210161}'),
+        DG.Travel.SmolderingDreamstag:Note(L['unknown']),
+        DG.Travel.ThrivingDreamtalon:Note('{npc:212903}'), --
+        ns.reward.Spacer(), --
+        Section('{spell:276029}'), -- Flight
+        DG.Flight.AzureSomnowl:Note('{quest:78066}'),
+        DG.Flight.BlazingSomnowl:Note('{npc:210601}'), -- speculated
+        DG.Flight.PrismaticWhiskerfish:Note('{npc:211300}'), -- speculated
+        DG.Flight.SlumberingSomnowl:Note('{item:210535}')
     }
 }) -- Druid Glyph List
 
@@ -1246,9 +1249,9 @@ map.nodes[59761689] = NPC({
         Pet({item = 210570, id = 4295, count = '800'}), -- Napps
         Pet({item = 210651, id = 4299, count = '800'}), -- Dustite
         Pet({item = 210648, id = 4298, count = '800'}), -- Seedle
-        DG.SetCount(DG.Travel.BorealDreamtalon, '1250'),
-        DG.SetCount(DG.Travel.AuroralDreamtalon, '1250'),
-        DG.SetCount(DG.Guardian.SnowyUmbraclaw, '1250'),
+        DG.Travel.BorealDreamtalon:Count(1250),
+        DG.Travel.AuroralDreamtalon:Count(1250),
+        DG.Guardian.SnowyUmbraclaw:Count(1250),
         Mount({item = 209950, id = 1810, count = '2500'}), -- Reins of the Rekindled Dreamstag
         Mount({item = 209947, id = 1808, count = '2500'}), -- Reins of the Blossoming Dreamstag
         Mount({item = 210775, id = 1835, count = '2500'}), -- Reins of the Snowfluff Dreamtalon
