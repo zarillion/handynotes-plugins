@@ -1305,7 +1305,6 @@ map.nodes[52442683] = TheGiftOfCheese()
 --     }
 -- })-- Slabwing
 
-
 -------------------------------------------------------------------------------
 
 local LoammVendor = Class('LoammVendor', Collectible,
