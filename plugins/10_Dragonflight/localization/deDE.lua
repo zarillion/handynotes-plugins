@@ -886,7 +886,7 @@ L['options_icons_dream_of_seeds_desc'] = 'Zeigt die Positionen der {npc:210723} 
 
 L['dreamfruit_label'] = 'Traumfrucht'
 L['dreamfruit_note_1'] = 'Erscheint, wenn das {location:Superblüte} Event beginnt. Das Event startet zu jeder vollen Stunde.'
-L['dreamfruit_note_2'] = 'Erscheint nach dem ersten stopp des {location:Superblüte} Events. Das Event startet zu jeder vollen Stunde in der nähe von {location:Amirdrassil}.'
+L['dreamfruit_note_2'] = 'Erscheint nach dem ersten Stopp des {location:Superblüte} Events. Das Event startet zu jeder vollen Stunde in der nähe von {location:Amirdrassil}.'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinküken für den Erfolg {achievement:19293} an.'

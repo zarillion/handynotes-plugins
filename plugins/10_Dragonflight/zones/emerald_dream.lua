@@ -1090,6 +1090,7 @@ local Somnut = Class('Somnut', ns.node.Node, {
 })
 
 map.nodes[26213140] = Somnut()
+map.nodes[28553410] = Somnut()
 map.nodes[32936562] = Somnut({location = L['in_a_tree']})
 map.nodes[34566935] = Somnut()
 map.nodes[37735019] = Somnut()
@@ -1124,6 +1125,7 @@ map.nodes[55915818] = Somnut()
 map.nodes[57185350] = Somnut() -- flying in the air, but reachable
 map.nodes[58933803] = Somnut()
 map.nodes[59425365] = Somnut()
+map.nodes[59566338] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
 map.nodes[60134204] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
 map.nodes[61977450] = Somnut()
 map.nodes[63457357] = Somnut()
