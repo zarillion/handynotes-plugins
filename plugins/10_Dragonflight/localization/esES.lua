@@ -892,8 +892,8 @@ L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las proles de
 L['moonkin_hatchling_note'] = 'Requiere que la misión del mundo {wq:La preocupación me desgarra} esté activa.'
 
 L['druid_glyphs_label'] = 'Glifos de Druida'
-L['druid_glyphs_sublabel'] = nil
-L['druid_glyphs_note'] = nil
+L['druid_glyphs_sublabel'] = '{note:Esto NO es un Glifo de Druida. ¡Sólo una lista de verificación!}'
+L['druid_glyphs_note'] = 'Colecciona {note:Glifos de Druida} obtenidos de varias actividades a lo larlo del {location:Sueño Esmeralda}.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Despoja la {object:Muestra de pelaje de erizapúas polinizado} que se encuentra cerca de la parte inferior del arbol de {location:Calcina}.'
 
