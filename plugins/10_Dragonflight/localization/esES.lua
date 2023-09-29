@@ -1129,8 +1129,7 @@ L['soa_mjj_list_note'] = 'Recoge las 3 piezas y ensámblalas en la {object:Forja
 L['soa_mjj_part1_note'] = 'Necesitas a 2 jugadores más para que canalicen junto a ti sus {item:208092} a los braseros para invocar a {npc:210398}. Al despojarlo soltará la {item:208984}.'
 L['soa_mjj_part2_note'] = [[{note:Necesitaréis ser al menos 4 personas para esta pieza.}
 
-En {location:Bosque de Troncoferro}, tendrás que buscar un {npc:210417} gigante y una {object:Pieza del Propulsor de Mimiron} para usar.
-Puedes usar la {object:Pieza del Propulsor de Mimiron} para subirte en el elemental y usar su habilidad {spell:423412} para absorber a las personas dentro, o correr cerca del elemental (pero no lo suficientemente cerca como para que te alcance su área de acción, ya que te empuja hacia atrás) para que la persona que lo pilote pueda absorberte.
+En {location:Bosque de Troncoferro}, tendrás que buscar un {npc:210417} gigante y una {object:Pieza del Propulsor de Mimiron} para usar. Puedes usar la {object:Pieza del Propulsor de Mimiron} para subirte en el elemental y usar su habilidad {spell:423412} para absorber a las personas dentro, o correr cerca del elemental (pero no lo suficientemente cerca como para que te alcance su área de acción, ya que te empuja hacia atrás) para que la persona que lo pilote pueda absorberte.
 
 Una vez el elemental absorbe 4 personas dentro, explotará y soltará la {item:209781}. Cualquiera que esté cerca podrá despojarla.]]
 L['soa_mjj_part3_note'] = 'La {item:209055} estará esperándote enfrente del {object:Portal Oscuro} en {location:Las Tierras Devastadas}. Ten cuidado con los {npc:23082} y los NPCs de la zona, ya que se necesita canalizar durante 12 segundos para despojar la pieza.'
