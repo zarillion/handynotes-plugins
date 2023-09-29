@@ -58,26 +58,6 @@ local tpf = Map({id = 2085, settings = false}) -- The Primalist Future
 
 -- war supplies 41974893
 
--- TODO: TEST NODE, REMOVE BEFORE RELEASE
-val.nodes[62306730] = ns.node.Node({
-    label = 'TEST NODE',
-    icon = 'quest_ay',
-    requires = {
-        ns.requirement.Achievement(6753), --
-        ns.requirement.Currency(1767, 200), --
-        ns.requirement.GarrisonTalent(2164), --
-        ns.requirement.GarrisonTalentRank(2164, 1), --
-        ns.requirement.Item(208056), --
-        ns.requirement.Profession(186), --
-        ns.requirement.Profession(164, 2822, 25), --
-        ns.requirement.Quest(72709), --
-        ns.requirement.Reputation(2503, 9, true), --
-        ns.requirement.Spell(401577), --
-        ns.requirement.Toy(202042), --
-        ns.requirement.WarMode --
-    }
-})
-
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
