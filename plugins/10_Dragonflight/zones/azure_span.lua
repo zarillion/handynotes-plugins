@@ -14,7 +14,6 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local AncientStone = ns.node.AncientStone
-local Celestine = ns.node.Celestine
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local ElementalStorm = ns.node.ElementalStorm
@@ -33,7 +32,6 @@ local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
-local RenewedMagmammoth = ns.node.RenewedMagmammoth
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -2037,7 +2035,7 @@ map.nodes[58512618] = Collectible({
 --------------------------------- DREAMSURGE ---------------------------------
 ------------------------------------------------------------------------------
 
-map.nodes[45603972] = Celestine()
-map.nodes[32663964] = RenewedMagmammoth()
+map.nodes[45603972] = ns.node.Celestine()
+map.nodes[32663964] = ns.node.RenewedMagmammoth()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
