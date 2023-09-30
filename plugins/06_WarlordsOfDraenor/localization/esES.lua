@@ -252,7 +252,7 @@ L['warsong_relics'] = 'Contra una valla fuera de una choza.'
 L['stolen_draenei_tome'] = 'Puede aparecer en varios sitios encima de las torres.'
 L['dirt_mound'] = 'Mata a {npc:86659} para que aparezca cerca, en el suelo, el {npc:87280}. Interactúa con el tótem para recibir el buff {spell:174572}. Ahora puedes excarvar en los {npc:87530} cercanos para encontrar objetos.'
 
-L['stable_master_note'] = 'Habla con el {npc: Maestro de Establos} para recibir un silbato de montura en prácticas.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUsa el silbato para invocar tu montura en prácticas y mata al objetivo.\n\n{achievement:9539} requiere la {item:118469} de |cffffff00Establos Nivel 2|r.\n\n{achievement:9540} requiere el {item:118470} de |cffffff00Establos Nivel 3|r.'
+L['stable_master_note'] = 'Habla con el {npc:Maestro de Establos} para recibir un silbato de montura en prácticas.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUsa el silbato para invocar tu montura en prácticas y mata al objetivo.\n\n{achievement:9539} requiere la {item:118469} de |cffffff00Establos Nivel 2|r.\n\n{achievement:9540} requiere el {item:118470} de |cffffff00Establos Nivel 3|r.'
 
 L['making_the_cut_note'] = 'Mientras {npc:88210} esté disponible mata a 15 ogros alrededor de |cffffff00El Círculo de Sangre|r. Una vez se hayan matado a los 15 ogros será posible señalar como objetivo a {npc:88210}.'
 

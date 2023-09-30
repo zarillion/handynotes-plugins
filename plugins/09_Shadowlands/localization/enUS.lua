@@ -670,7 +670,7 @@ Combine all three etchings to create the {item:182329}, which can be used to sum
 L['animaflow_teleporter_note'] = 'Activate to travel directly to other locations in {location:The Maw}.'
 L['chaotic_riftstone_note'] = 'Activate to {spell:344157} quickly across {location:The Maw}.'
 L['venari_note'] = [[
-Use {currency:1767} to purchase {location: The Maw} and {location:Torghast} upgrades.
+Use {currency:1767} to purchase {location:The Maw} and {location:Torghast} upgrades.
 
 {note:Account-wide {location:Torghast} upgrades will show as incomplete on alts!}
 ]]

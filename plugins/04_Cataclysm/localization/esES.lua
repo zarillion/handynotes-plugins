@@ -81,7 +81,7 @@ L['gang_war_note'] = 'Gana un duelo en el {location:Nidal de Sethria} durante la
 L['death_from_above_note'] = [[
 Bombardea a {title:Señor del Fuego} cuando estés haciendo la misión diaria {daily:29290}.
 
-{note: Sólo hay 3 {title:Señor del Fuego} activos al mismo tiempo. Para completar el logro más rápido no devuelvas la misión y regresa al día siguiente.}
+{note:Sólo hay 3 {title:Señor del Fuego} activos al mismo tiempo. Para completar el logro más rápido no devuelvas la misión y regresa al día siguiente.}
 ]]
 L['flamewaker_sentinel_note'] = 'Usa la {item:137663} para bajar su vida y así te lance {spell:98369}. Esquiva todos los disparos y mátalo.'
 L['flamewaker_shaman_note'] = 'Usa la {item:137663} para bajar su vida. Espera a que se mate él mismo.'
