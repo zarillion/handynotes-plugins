@@ -1114,10 +1114,10 @@ local Somnut = Class('Somnut', ns.node.Node, {
     group = ns.groups.SOMNUT,
     requires = {ns.requirement.Reputation(2574, 2, true)},
     rewards = {
+        Item({item = 208066}), -- Small Dreamseed
         Transmog({item = 210132, type = L['2h_sword']}), -- Wildleaf Greatsword
         Transmog({item = 210128, type = L['2h_sword']}), -- Autumn Defender's Claymore
-        Item({item = 208066}), -- Small Dreamseed
-        Item({item = 191784}), -- Dragon Shard of Knowledge
+        Transmog({item = 210084, type = L['plate']}), -- Harvest Guardian Chestplate
         Currency({id = 2706}), -- Whelpling's Dreaming Crest
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}), -- Dragon Isles Supplies
@@ -1130,14 +1130,19 @@ map.nodes[26213140] = Somnut()
 map.nodes[28553410] = Somnut()
 map.nodes[32936562] = Somnut({location = L['in_a_tree']})
 map.nodes[34566935] = Somnut()
+map.nodes[35176611] = Somnut({location = L['in_a_tree']})
+map.nodes[36704600] = Somnut()
 map.nodes[37735019] = Somnut()
 map.nodes[38073268] = Somnut()
 map.nodes[38512516] = Somnut()
+map.nodes[39184365] = Somnut()
 map.nodes[39315799] = Somnut()
 map.nodes[39552298] = Somnut()
+map.nodes[39705235] = Somnut()
 map.nodes[40082431] = Somnut()
 map.nodes[40384207] = Somnut()
 map.nodes[40883180] = Somnut()
+map.nodes[41012758] = Somnut()
 map.nodes[41285450] = Somnut()
 map.nodes[41454593] = Somnut()
 map.nodes[42236677] = Somnut({location = L['in_a_tree']})
@@ -1145,6 +1150,7 @@ map.nodes[42284821] = Somnut()
 map.nodes[43107190] = Somnut({location = L['in_a_tree']})
 map.nodes[44572452] = Somnut()
 map.nodes[44633492] = Somnut()
+map.nodes[45532594] = Somnut()
 map.nodes[46913522] = Somnut()
 map.nodes[47743551] = Somnut()
 map.nodes[48292228] = Somnut({location = L['in_a_tree']}) -- ontop of the burning tree
