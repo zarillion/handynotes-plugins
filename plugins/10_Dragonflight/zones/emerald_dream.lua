@@ -1271,27 +1271,27 @@ map.nodes[89005900] = EmeraldDream_Safari({
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[59761689] = NPC({
+map.nodes[59761689] = NPC({ -- REVIEW count
     id = 211265,
     icon = 'peg_bl',
     scale = 2.0,
     note = L['sylvia_vendor_note'],
     rewards = {
-        Pet({item = 210689, id = 4305, count = '800'}), -- Snoots
         Pet({item = 210690, id = 4306, count = '800'}), -- Elmer
+        Pet({item = 210689, id = 4305, count = '800'}), -- Snoots
         Pet({item = 210571, id = 4296, count = '800'}), -- Snoozles
         Pet({item = 210570, id = 4295, count = '800'}), -- Napps
         Pet({item = 210651, id = 4299, count = '800'}), -- Dustite
         Pet({item = 210648, id = 4298, count = '800'}), -- Seedle
         DG.Travel.BorealDreamtalon:Count(1250),
         DG.Travel.AuroralDreamtalon:Count(1250),
-        DG.Guardian.SnowyUmbraclaw:Count(1250),
-        Mount({item = 209950, id = 1810, count = '2500'}), -- Reins of the Rekindled Dreamstag
-        Mount({item = 209947, id = 1808, count = '2500'}), -- Reins of the Blossoming Dreamstag
-        Mount({item = 210775, id = 1835, count = '2500'}), -- Reins of the Snowfluff Dreamtalon
-        Mount({item = 210769, id = 1833, count = '2500'}), -- Reins of the Springtide Dreamtalon
-        Mount({item = 210057, id = 1817, count = '2500'}), -- Reins of the Morning Flourish Dreamsaber
-        Mount({item = 210058, id = 1816, count = '2500'}) -- Reins of the Evening Sun Dreamsaber
+        DG.Guardian.SnowyUmbraclaw:Count(1250)
+        -- Mount({item = 209950, id = 1810, count = '2500'}), -- Reins of the Rekindled Dreamstag
+        -- Mount({item = 209947, id = 1808, count = '2500'}), -- Reins of the Blossoming Dreamstag
+        -- Mount({item = 210775, id = 1835, count = '2500'}), -- Reins of the Snowfluff Dreamtalon
+        -- Mount({item = 210769, id = 1833, count = '2500'}), -- Reins of the Springtide Dreamtalon
+        -- Mount({item = 210057, id = 1817, count = '2500'}), -- Reins of the Morning Flourish Dreamsaber
+        -- Mount({item = 210058, id = 1816, count = '2500'}) -- Reins of the Evening Sun Dreamsaber
     }
 }) -- Sylvia Whisperbloom <Dreamseed Botanist>
 
