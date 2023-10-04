@@ -780,22 +780,48 @@ map.nodes[60101818] = EmeraldBounty({
 }) -- Ageless Blossom
 
 map.nodes[38455920] = EmeraldBounty({criteriaID = 62185}) -- Comfy Chamomile
-map.nodes[40025268] = EmeraldBounty({criteriaID = 62035}) -- Viridescent Sprout
-map.nodes[40672478] = EmeraldBounty({criteriaID = 62027}) -- Lavatouched Lilies
+map.nodes[40025269] = EmeraldBounty({criteriaID = 62035}) -- Viridescent Sprout
+map.nodes[40682478] = EmeraldBounty({criteriaID = 62027}) -- Lavatouched Lilies
 map.nodes[40744348] = EmeraldBounty({criteriaID = 62036}) -- Glade Goldenrod
-map.nodes[42647405] = EmeraldBounty({criteriaID = 62186}) -- Moon Tulip
+map.nodes[42647404] = EmeraldBounty({criteriaID = 62186}) -- Moon Tulip
 map.nodes[46384049] = EmeraldBounty({criteriaID = 62037}) -- Dreamer's Daisy
-map.nodes[48738045] = EmeraldBounty({criteriaID = 62189}) -- Flourishing Scurfpea
-map.nodes[49174806] = EmeraldBounty({criteriaID = 62038}) -- Ringing Rose
-map.nodes[49903543] = EmeraldBounty({criteriaID = 62041}) -- Belligerent Begonias
-map.nodes[51145866] = EmeraldBounty({criteriaID = 62397}) -- Whisperbloom Sapling
-map.nodes[54596763] = EmeraldBounty({criteriaID = 62029}) -- Chiming Foxglove
+map.nodes[48738046] = EmeraldBounty({criteriaID = 62189}) -- Flourishing Scurfpea
+map.nodes[49164807] = EmeraldBounty({criteriaID = 62038}) -- Ringing Rose
+map.nodes[49903544] = EmeraldBounty({criteriaID = 62041}) -- Belligerent Begonias
+map.nodes[51145866] = EmeraldBounty({criteriaID = 62397}) -- Whisperbloom Sapling -- REVIEW COORDS
+map.nodes[54596763] = EmeraldBounty({criteriaID = 62029}) -- Chiming Foxglove -- REVIEW COORDS
 map.nodes[56513767] = EmeraldBounty({criteriaID = 62040}) -- Lullaby Lavender
-map.nodes[56654487] = EmeraldBounty({criteriaID = 62039}) -- Lofty Lupin
-map.nodes[59235875] = EmeraldBounty({criteriaID = 62028}) -- Ysera's Clover
-map.nodes[63025282] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling
+map.nodes[56664489] = EmeraldBounty({criteriaID = 62039}) -- Lofty Lupin
+map.nodes[59245876] = EmeraldBounty({criteriaID = 62028}) -- Ysera's Clover
+map.nodes[63035284] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling
 map.nodes[63504710] = EmeraldBounty({criteriaID = 62032}) -- Fuzzy Licorice
-map.nodes[63956483] = EmeraldBounty({criteriaID = 62030}) -- Dragon's Daffodil
+map.nodes[63966484] = EmeraldBounty({criteriaID = 62030}) -- Dragon's Daffodil
+
+-------------------------------------------------------------------------------
+---------------------------- VignettePinMixin Hook ----------------------------
+-------------------------------------------------------------------------------
+
+hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
+    if self.vignetteID ~= 5971 then return end
+
+    local mapID = self:GetMap().mapID
+    local group = ns.groups.DREAM_OF_SEEDS
+    if not ns.maps[mapID] or not group:GetDisplay(mapID) then return end
+
+    local x = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).x
+    local y = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).y
+    local node = ns.maps[mapID].nodes[HandyNotes:getCoord(x, y)]
+    if not node then return end
+
+    -- GameTooltip:AddLine(node.requires, true, 1, 1, 1)
+    if ns:GetOpt('show_notes') then
+        GameTooltip:AddLine(' ')
+        GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1, true)
+    end
+    if ns:GetOpt('show_loot') then node:RenderRewards(GameTooltip) end
+
+    GameTooltip:Show()
+end)
 
 -------------------------------------------------------------------------------
 --------------------------------- DREAMFRUIT ----------------------------------
@@ -901,7 +927,7 @@ map.nodes[70002700] = DruidGlyph({
         DG.Travel.DreamtalonMatriarch:Note('{npc:210051}'),
         DG.Travel.LushDreamstag:Note('{npc:212903}'),
         DG.Travel.SableDreamtalon:Note('{npc:210161}'),
-        DG.Travel.SmolderingDreamstag:Note(L['unknown']),
+        DG.Travel.SmolderingDreamstag:Note(UNKNOWN),
         DG.Travel.ThrivingDreamtalon:Note('{npc:212903}'), --
         ns.reward.Spacer(), --
         Section('{spell:276029}'), -- Flight

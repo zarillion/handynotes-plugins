@@ -898,8 +898,8 @@ L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinkü
 L['moonkin_hatchling_note'] = 'Die Weltquest {wq:Beklemmende Klauen} muss aktiv sein.'
 
 L['druid_glyphs_label'] = 'Druidenglyphen'
-L['druid_glyphs_sublabel'] = nil
-L['druid_glyphs_note'] = nil
+L['druid_glyphs_sublabel'] = '{note:Das ist nur eine Checkliste für die Druidenglypen!}'
+L['druid_glyphs_note'] = 'Sammle {note:Druidenglyphen} von verschiedene Aktivitäten in der Zone {location:Der Smaragdgrüne Traum}.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Auf dem Boden vor dem Baum.'
 
