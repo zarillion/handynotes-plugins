@@ -1021,8 +1021,7 @@ L['soa_mjj_list_note'] = 'Recoge las 3 piezas y ensámblalas en la {object:Forja
 L['soa_mjj_part1_note'] = 'Necesitas a 2 jugadores más para que canalicen junto a ti sus {item:208092} a los braseros para invocar a {npc:210398}. Al despojarlo soltará la {item:208984}.'
 L['soa_mjj_part2_note'] = [[{note:Necesitaréis ser al menos 4 personas para esta pieza.}
 
-En {location:Bosque de Troncoferro}, tendrás que buscar un {npc:210417} gigante y una {object:Pieza del Propulsor de Mimiron} para usar.
-Puedes usar la {object:Pieza del Propulsor de Mimiron} para subirte en el elemental y usar su habilidad {spell:423412} para absorber a las personas dentro, o correr cerca del elemental (pero no lo suficientemente cerca como para que te alcance su área de acción, ya que te empuja hacia atrás) para que la persona que lo pilote pueda absorberte.
+En {location:Bosque de Troncoferro}, tendrás que buscar un {npc:210417} gigante y una {object:Pieza del Propulsor de Mimiron} para usar. Puedes usar la {object:Pieza del Propulsor de Mimiron} para subirte en el elemental y usar su habilidad {spell:423412} para absorber a las personas dentro, o correr cerca del elemental (pero no lo suficientemente cerca como para que te alcance su área de acción, ya que te empuja hacia atrás) para que la persona que lo pilote pueda absorberte.
 
 Una vez el elemental absorbe 4 personas dentro, explotará y soltará la {item:209781}. Cualquiera que esté cerca podrá despojarla.]]
 L['soa_mjj_part3_note'] = 'La {item:209055} estará esperándote enfrente del {object:Portal Oscuro} en {location:Las Tierras Devastadas}. Ten cuidado con los {npc:23082} y los NPCs de la zona, ya que se necesita canalizar durante 12 segundos para despojar la pieza.'
@@ -1031,29 +1030,29 @@ L['soa_mjj_part3_note'] = 'La {item:209055} estará esperándote enfrente del {o
 ------------------------------- WARCRAFT RUMBLE -------------------------------
 -------------------------------------------------------------------------------
 
-L['rumble_coin_bag'] = nil
-L['rumble_foil_bag'] = nil
-L['rumble_both_bags'] = nil
-L['warcraft_rumble_machine'] = nil
+L['rumble_coin_bag'] = 'Bolsa de Monedas de Warcraft Rumble'
+L['rumble_foil_bag'] = 'Caja de Brillos de Warcraft Rumble'
+L['rumble_both_bags'] = 'Moneda de Warcraft Rumble y Brillos de Warcraft Rumble'
+L['warcraft_rumble_machine'] = 'Máquina de Warcraft Rumble'
 
-L['wr_ohn_both_01'] = nil
-L['wr_ohn_foil_02'] = nil
-L['wr_sto_coin_01'] = nil
-L['wr_sto_foil_01'] = nil
-L['wr_sto_foil_02'] = nil
-L['wr_tas_both_01'] = nil
-L['wr_tas_foil_01'] = nil
-L['wr_tha_both_01'] = nil
-L['wr_tha_foil_01'] = nil
-L['wr_tws_both_01'] = nil
-L['wr_tws_foil_01'] = nil
-L['wr_tws_foil_02'] = nil
-L['wr_val_coin_01'] = nil
-L['wr_val_foil_01'] = nil
-L['wr_val_machine'] = nil
-L['wr_org_coin_01'] = nil
-L['wr_org_foil_01'] = nil
-L['wr_dur_foil_01'] = nil
+L['wr_ohn_both_01'] = 'Dentro de un edificio en ruinas en {location:Lunedania}.'
+L['wr_ohn_foil_02'] = 'Por una roca cerca de la cascada.'
+L['wr_sto_coin_01'] = 'Detrás de la caja de almacenamiento.'
+L['wr_sto_foil_01'] = 'Cerca de una pila de bolas de cañón.'
+L['wr_sto_foil_02'] = 'Cerca de la rampa que baja a los muelles.'
+L['wr_tas_both_01'] = 'Detrás de un árbol con vistas a la {location:Cala del Ballenero}.'
+L['wr_tas_foil_01'] = 'Cerca de un árbol enorme roto.'
+L['wr_tha_both_01'] = 'En una isla flotante cerca de {location:Reserva de Tyrhold}.'
+L['wr_tha_foil_01'] = 'Encima de un jarrón gigante.'
+L['wr_tws_both_01'] = 'En lo alto de la torre de piedra con vistas al agua.'
+L['wr_tws_foil_01'] = 'Encima de una montaña con vistas a la lava.'
+L['wr_tws_foil_02'] = 'En una torre pequeña de piedra con vistas al agua.'
+L['wr_val_coin_01'] = 'En el primer piso de {location:El Carnero Asado} cerca del {object:Horno de Cocina}.'
+L['wr_val_foil_01'] = 'En la cama del segundo piso de {location:El Carnero Asado}.'
+L['wr_val_machine'] = 'En el segundo piso de {location:El Carnero Asado}.'
+L['wr_org_coin_01'] = 'En el segundo piso de {location:El Colmillo Roto}.'
+L['wr_org_foil_01'] = 'Tras la {location:Casa de Subastas}.'
+L['wr_dur_foil_01'] = 'Detrás de unas cajas de suministros.'
 
-L['options_icons_warcraft_rumble'] = nil
-L['options_icons_warcraft_rumble_desc'] = nil
+L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
+L['options_icons_warcraft_rumble_desc'] = 'Muestra dónde están las {object:Bolsa de Monedas de Warcraft Rumble} y {object:Caja de Brillos de Warcraft Rumble} vinculadas a la campaña promocional de {object:Warcraft Rumble}.'
