@@ -1025,3 +1025,34 @@ In {location:Irontree Woods}, you will find a giant {npc:210417} and a {object:M
 
 Once the elemental sucks 4 people in, it will explode and drop {item:209781}! Anyone in the area can loot it.]]
 L['soa_mjj_part3_note'] = '{item:209055} will be waiting for you right in front of the {object:Dark Portal} in the {location:Blasted Lands}! Be careful of {npc:23082} and NPCs in the area, as it does take a 12-second cast to loot the part.'
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = 'Rumble Coin Bag'
+L['rumble_foil_bag'] = 'Rumble Foil Bag'
+L['rumble_both_bags'] = 'Rumble Coin and Foil Bag'
+L['warcraft_rumble_machine'] = 'Warcraft Rumble Machine'
+
+L['wr_ohn_both_01'] = 'Inside of a ruined building in {location:Lunedane}.'
+L['wr_ohn_foil_02'] = 'By a rock near the waterfall.'
+L['wr_sto_coin_01'] = 'Behind the storage crate.'
+L['wr_sto_foil_01'] = 'Near a pile of cannonballs.'
+L['wr_sto_foil_02'] = 'Near the ramp down to the docks.'
+L['wr_tas_both_01'] = 'Behind a tree overlooking {location:Whaler\'s Nook}.'
+L['wr_tas_foil_01'] = 'Near a massive broken tree.'
+L['wr_tha_both_01'] = 'On a floating island near {location:Tyrhold Reservoir}.'
+L['wr_tha_foil_01'] = 'On top of a giant plant vase.'
+L['wr_tws_both_01'] = 'At the top of the stone tower overlooking the water.'
+L['wr_tws_foil_01'] = 'On the moutain overlooking the lava.'
+L['wr_tws_foil_02'] = 'On a small stone tower overlooking the water.'
+L['wr_val_coin_01'] = 'On the first floor of {location:The Roasted Ram} near the {object:Cooking Oven}.'
+L['wr_val_foil_01'] = 'On the second floor of {location:The Roasted Ram} on the bed.'
+L['wr_val_machine'] = 'On the second floor of {location:The Roasted Ram}.'
+L['wr_org_coin_01'] = 'On the second floor of {location:The Broken Tusk}.'
+L['wr_org_foil_01'] = 'Behind the {location:Auction House}.'
+L['wr_dur_foil_01'] = 'Behind some supply crates.'
+
+L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
+L['options_icons_warcraft_rumble_desc'] = 'Display {object:Coin} and {object:Foil} locations for the {object:Warcraft Rumble} crossover promotion.'

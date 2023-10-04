@@ -1026,3 +1026,34 @@ Puedes usar la {object:Pieza del Propulsor de Mimiron} para subirte en el elemen
 
 Una vez el elemental absorbe 4 personas dentro, explotará y soltará la {item:209781}. Cualquiera que esté cerca podrá despojarla.]]
 L['soa_mjj_part3_note'] = 'La {item:209055} estará esperándote enfrente del {object:Portal Oscuro} en {location:Las Tierras Devastadas}. Ten cuidado con los {npc:23082} y los NPCs de la zona, ya que se necesita canalizar durante 12 segundos para despojar la pieza.'
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = nil
+L['rumble_foil_bag'] = nil
+L['rumble_both_bags'] = nil
+L['warcraft_rumble_machine'] = nil
+
+L['wr_ohn_both_01'] = nil
+L['wr_ohn_foil_02'] = nil
+L['wr_sto_coin_01'] = nil
+L['wr_sto_foil_01'] = nil
+L['wr_sto_foil_02'] = nil
+L['wr_tas_both_01'] = nil
+L['wr_tas_foil_01'] = nil
+L['wr_tha_both_01'] = nil
+L['wr_tha_foil_01'] = nil
+L['wr_tws_both_01'] = nil
+L['wr_tws_foil_01'] = nil
+L['wr_tws_foil_02'] = nil
+L['wr_val_coin_01'] = nil
+L['wr_val_foil_01'] = nil
+L['wr_val_machine'] = nil
+L['wr_org_coin_01'] = nil
+L['wr_org_foil_01'] = nil
+L['wr_dur_foil_01'] = nil
+
+L['options_icons_warcraft_rumble'] = nil
+L['options_icons_warcraft_rumble_desc'] = nil

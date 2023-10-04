@@ -1027,3 +1027,34 @@ In {location:Der Eisenwald} findest du einen riesigen {npc:210417} und {object:M
 
 Sobald der Elementar 4 Leute eingesaugt hat, explodiert er und lässt {item:209781} fallen! Jeder, der sich in der Nähe befindet, kann es plündern.]]
 L['soa_mjj_part3_note'] = 'Das {item:209055} wartet direkt vor dem {location:Dunklen Portal} in den {location:Verwüsteten Landen} auf dich! Nimm dich vor den herunterfallenden Fel-Meteoriten in Acht, denn es dauert 12 Sekunden, um das Teil zu plündern.'
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = nil
+L['rumble_foil_bag'] = nil
+L['rumble_both_bags'] = nil
+L['warcraft_rumble_machine'] = nil
+
+L['wr_ohn_both_01'] = nil
+L['wr_ohn_foil_02'] = nil
+L['wr_sto_coin_01'] = nil
+L['wr_sto_foil_01'] = nil
+L['wr_sto_foil_02'] = nil
+L['wr_tas_both_01'] = nil
+L['wr_tas_foil_01'] = nil
+L['wr_tha_both_01'] = nil
+L['wr_tha_foil_01'] = nil
+L['wr_tws_both_01'] = nil
+L['wr_tws_foil_01'] = nil
+L['wr_tws_foil_02'] = nil
+L['wr_val_coin_01'] = nil
+L['wr_val_foil_01'] = nil
+L['wr_val_machine'] = nil
+L['wr_org_coin_01'] = nil
+L['wr_org_foil_01'] = nil
+L['wr_dur_foil_01'] = nil
+
+L['options_icons_warcraft_rumble'] = nil
+L['options_icons_warcraft_rumble_desc'] = nil

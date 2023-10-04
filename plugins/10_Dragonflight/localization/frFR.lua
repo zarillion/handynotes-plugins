@@ -1024,3 +1024,34 @@ Aux {location:Bois d'Arbrefer}, vous trouverez un {npc:210417} ainsi qu'une {obj
 Une fois que l'élémentaire aura aspiré 4 personnes, il explosera et laissera tomber la {item:209781} ! Tous ceux qui se trouvent dans la zone peuvent le récupérer.
 ]]
 L['soa_mjj_part3_note'] = 'La {item:209055} vous attendra juste devant la {object:Porte des ténèbres} aux {location:Terres foudroyées} ! Faites attention aux {npc:23082} et aux PNJ dans la zone, car il faut 12 secondes d\'incantation pour récupérer la pièce.'
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = nil
+L['rumble_foil_bag'] = nil
+L['rumble_both_bags'] = nil
+L['warcraft_rumble_machine'] = nil
+
+L['wr_ohn_both_01'] = nil
+L['wr_ohn_foil_02'] = nil
+L['wr_sto_coin_01'] = nil
+L['wr_sto_foil_01'] = nil
+L['wr_sto_foil_02'] = nil
+L['wr_tas_both_01'] = nil
+L['wr_tas_foil_01'] = nil
+L['wr_tha_both_01'] = nil
+L['wr_tha_foil_01'] = nil
+L['wr_tws_both_01'] = nil
+L['wr_tws_foil_01'] = nil
+L['wr_tws_foil_02'] = nil
+L['wr_val_coin_01'] = nil
+L['wr_val_foil_01'] = nil
+L['wr_val_machine'] = nil
+L['wr_org_coin_01'] = nil
+L['wr_org_foil_01'] = nil
+L['wr_dur_foil_01'] = nil
+
+L['options_icons_warcraft_rumble'] = nil
+L['options_icons_warcraft_rumble_desc'] = nil

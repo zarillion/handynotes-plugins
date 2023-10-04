@@ -1025,3 +1025,34 @@ L['soa_mjj_part2_note'] = [[{note:完成此部分，周围至少需要4人。}
 
 一旦元素吸入4个人，它就会爆炸并掉落 {item:209781}！该地区的任何人都可以拾取它。]]
 L['soa_mjj_part3_note'] = '{item:209055} 在 {location:诅咒之地} 的 {object:黑暗之门} 前面等你！小心该区域的 {npc:23082} 和 NPC，因为需要12秒的施法才能拾取该零件。'
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = nil
+L['rumble_foil_bag'] = nil
+L['rumble_both_bags'] = nil
+L['warcraft_rumble_machine'] = nil
+
+L['wr_ohn_both_01'] = nil
+L['wr_ohn_foil_02'] = nil
+L['wr_sto_coin_01'] = nil
+L['wr_sto_foil_01'] = nil
+L['wr_sto_foil_02'] = nil
+L['wr_tas_both_01'] = nil
+L['wr_tas_foil_01'] = nil
+L['wr_tha_both_01'] = nil
+L['wr_tha_foil_01'] = nil
+L['wr_tws_both_01'] = nil
+L['wr_tws_foil_01'] = nil
+L['wr_tws_foil_02'] = nil
+L['wr_val_coin_01'] = nil
+L['wr_val_foil_01'] = nil
+L['wr_val_machine'] = nil
+L['wr_org_coin_01'] = nil
+L['wr_org_foil_01'] = nil
+L['wr_dur_foil_01'] = nil
+
+L['options_icons_warcraft_rumble'] = nil
+L['options_icons_warcraft_rumble_desc'] = nil

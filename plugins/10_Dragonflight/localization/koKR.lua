@@ -952,3 +952,34 @@ L['soa_mjj_list_note'] = nil
 L['soa_mjj_part1_note'] = nil
 L['soa_mjj_part2_note'] = nil
 L['soa_mjj_part3_note'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = nil
+L['rumble_foil_bag'] = nil
+L['rumble_both_bags'] = nil
+L['warcraft_rumble_machine'] = nil
+
+L['wr_ohn_both_01'] = nil
+L['wr_ohn_foil_02'] = nil
+L['wr_sto_coin_01'] = nil
+L['wr_sto_foil_01'] = nil
+L['wr_sto_foil_02'] = nil
+L['wr_tas_both_01'] = nil
+L['wr_tas_foil_01'] = nil
+L['wr_tha_both_01'] = nil
+L['wr_tha_foil_01'] = nil
+L['wr_tws_both_01'] = nil
+L['wr_tws_foil_01'] = nil
+L['wr_tws_foil_02'] = nil
+L['wr_val_coin_01'] = nil
+L['wr_val_foil_01'] = nil
+L['wr_val_machine'] = nil
+L['wr_org_coin_01'] = nil
+L['wr_org_foil_01'] = nil
+L['wr_dur_foil_01'] = nil
+
+L['options_icons_warcraft_rumble'] = nil
+L['options_icons_warcraft_rumble_desc'] = nil
