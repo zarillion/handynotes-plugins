@@ -939,7 +939,7 @@ L['options_icons_druid_glyph'] = 'Glifos de Druida'
 L['options_icons_druid_glyph_desc'] = 'Muestra dónde están los {note:Glifo de Druida}.'
 
 L['elianna_vendor_note'] = 'Cambia {currency:2777} por mascotas y monturas.'
-L['thistlefir_vendor_note'] = 'Cambia {currency:2651} por mascotas, monturas y transfiguraciones.'
+L['sylvia_vendor_note'] = 'Cambia {currency:2651} por mascotas, monturas y transfiguraciones.'
 
 L['somnut'] = 'Somnuez'
 L['options_icons_somnut'] = 'Somnuez'

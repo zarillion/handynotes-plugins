@@ -1272,10 +1272,10 @@ map.nodes[89005900] = EmeraldDream_Safari({
 -------------------------------------------------------------------------------
 
 map.nodes[59761689] = NPC({
-    id = 211069,
+    id = 211265,
     icon = 'peg_bl',
     scale = 2.0,
-    note = L['thistlefir_vendor_note'],
+    note = L['sylvia_vendor_note'],
     rewards = {
         Pet({item = 210689, id = 4305, count = '800'}), -- Snoots
         Pet({item = 210690, id = 4306, count = '800'}), -- Elmer
@@ -1293,7 +1293,7 @@ map.nodes[59761689] = NPC({
         Mount({item = 210057, id = 1817, count = '2500'}), -- Reins of the Morning Flourish Dreamsaber
         Mount({item = 210058, id = 1816, count = '2500'}) -- Reins of the Evening Sun Dreamsaber
     }
-}) -- Thistlefir <Seedbloom Keeper>
+}) -- Sylvia Whisperbloom <Dreamseed Botanist>
 
 map.nodes[50226180] = NPC({
     id = 211209,
