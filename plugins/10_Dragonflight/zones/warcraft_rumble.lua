@@ -6,7 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local Collectible = ns.node.Collectible
+local Node = ns.node.Node
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
@@ -26,7 +26,7 @@ local dur = ns.maps[1] or Map({id = 1, settings = true}) -- Durotar
 
 -------------------------------------------------------------------------------
 
-local Coin = Class('Coin', Collectible, {
+local Coin = Class('Coin', Node, {
     label = L['rumble_coin_bag'],
     icon = 5149946,
     group = ns.groups.WARCRAFT_RUMBLE,
@@ -35,7 +35,7 @@ local Coin = Class('Coin', Collectible, {
     }
 }) -- Coin
 
-local Foil = Class('Foil', Collectible, {
+local Foil = Class('Foil', Node, {
     label = L['rumble_foil_bag'],
     icon = 5149946,
     group = ns.groups.WARCRAFT_RUMBLE,
@@ -44,7 +44,7 @@ local Foil = Class('Foil', Collectible, {
     }
 }) -- Foil
 
-local Both = Class('Both', Collectible, {
+local Both = Class('Both', Node, {
     label = L['rumble_both_bags'],
     icon = 5149946,
     group = ns.groups.WARCRAFT_RUMBLE,
@@ -54,58 +54,7 @@ local Both = Class('Both', Collectible, {
     }
 })
 
----------------------------------- STORMWIND ----------------------------------
-
-sto.nodes[31203740] = Coin({location = L['wr_sto_coin_01'], quest = 74844})
-sto.nodes[38704610] = Foil({location = L['wr_sto_foil_01'], quest = 74286})
-sto.nodes[75108600] = Foil({location = L['wr_sto_foil_02'], quest = 73952})
-
------------------------------------ ORGIMMAR ----------------------------------
-
-dur.nodes[56001200] = Foil({location = L['wr_dur_foil_01'], quest = 74287})
-org.nodes[54107540] = Foil({location = L['wr_org_foil_01'], quest = 74848})
-org.nodes[54307750] = Coin({location = L['wr_org_coin_01'], quest = 74845})
-
------------------------------- THE WAKING SHORES ------------------------------
-
-tws.nodes[56461925] = Both({
-    location = L['wr_tws_both_01'],
-    quest = {73182, 75039} -- Coin, Foil
-})
-
-tws.nodes[34606370] = Foil({location = L['wr_tws_foil_01'], quest = 74851})
-tws.nodes[63107860] = Foil({location = L['wr_tws_foil_02'], quest = 74850})
-
-------------------------------- OHN'AHRAN PLAINS ------------------------------
-
-ohn.nodes[19108190] = Both({
-    location = L['wr_ohn_both_01'],
-    quest = {73928, 75040} -- Coin, Foil
-})
-
-ohn.nodes[81807790] = Foil({location = L['wr_ohn_foil_02'], quest = 75036})
-
---------------------------------- AZURE SPAN ----------------------------------
-
-tas.nodes[07404750] = Both({
-    location = L['wr_tas_both_01'],
-    quest = {73936, 75041} -- Coin, Foil
-})
-
-tas.nodes[57303770] = Foil({location = L['wr_tas_foil_01'], quest = 75037})
-
---------------------------------- THALDRASZUS ---------------------------------
-
-tha.nodes[49205840] = Both({
-    location = L['wr_tha_both_01'],
-    quest = {74843, 75038} -- Coin, Foil
-})
-
-tha.nodes[57006680] = Foil({location = L['wr_tha_foil_01'], quest = 74852})
-
---------------------------------- VALDRAKKEN ----------------------------------
-
-val.nodes[48104660] = Collectible({
+local Machine = Class('Machine', ns.node.Collectible, {
     label = L['warcraft_rumble_machine'],
     icon = 5149946,
     group = ns.groups.WARCRAFT_RUMBLE,
@@ -133,5 +82,59 @@ val.nodes[48104660] = Collectible({
     }
 }) -- Warcraft Rumble Machine
 
+---------------------------------- STORMWIND ----------------------------------
+
+sto.nodes[31203740] = Coin({location = L['wr_sto_coin_01'], quest = 74844})
+sto.nodes[38704610] = Foil({location = L['wr_sto_foil_01'], quest = 74286})
+sto.nodes[75108600] = Foil({location = L['wr_sto_foil_02'], quest = 73952})
+sto.nodes[28424122] = Machine()
+
+----------------------------------- ORGIMMAR ----------------------------------
+
+dur.nodes[56001200] = Foil({location = L['wr_dur_foil_01'], quest = 74287})
+org.nodes[54067520] = Foil({location = L['wr_org_foil_01'], quest = 74848})
+org.nodes[54507738] = Coin({location = L['wr_org_coin_01'], quest = 74845})
+org.nodes[50548249] = Machine()
+
+------------------------------ THE WAKING SHORES ------------------------------
+
+tws.nodes[56461925] = Both({
+    location = L['wr_tws_both_01'],
+    quest = {73182, 75039} -- Coin, Foil
+})
+
+tws.nodes[34606370] = Foil({location = L['wr_tws_foil_01'], quest = 74851})
+tws.nodes[63107860] = Foil({location = L['wr_tws_foil_02'], quest = 74850})
+
+------------------------------- OHN'AHRAN PLAINS ------------------------------
+
+ohn.nodes[19128201] = Both({
+    location = L['wr_ohn_both_01'],
+    quest = {73928, 75040} -- Coin, Foil
+})
+
+ohn.nodes[81807790] = Foil({location = L['wr_ohn_foil_02'], quest = 75036})
+
+--------------------------------- AZURE SPAN ----------------------------------
+
+tas.nodes[07504755] = Both({
+    location = L['wr_tas_both_01'],
+    quest = {73936, 75041} -- Coin, Foil
+})
+
+tas.nodes[57303770] = Foil({location = L['wr_tas_foil_01'], quest = 75037})
+
+--------------------------------- THALDRASZUS ---------------------------------
+
+tha.nodes[49205840] = Both({
+    location = L['wr_tha_both_01'],
+    quest = {74843, 75038} -- Coin, Foil
+})
+
+tha.nodes[57006680] = Foil({location = L['wr_tha_foil_01'], quest = 74852})
+
+--------------------------------- VALDRAKKEN ----------------------------------
+
 val.nodes[45504710] = Coin({location = L['wr_val_coin_01'], quest = 73180})
 val.nodes[46104670] = Foil({location = L['wr_val_foil_01'], quest = 74849})
+val.nodes[48104660] = Machine()
