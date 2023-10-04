@@ -1055,4 +1055,4 @@ L['wr_org_foil_01'] = 'Behind the {location:Auction House}.'
 L['wr_dur_foil_01'] = 'Behind some supply crates.'
 
 L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
-L['options_icons_warcraft_rumble_desc'] = 'Display {object:Coin} and {object:Foil} locations for the {object:Warcraft Rumble} crossover promotion.'
+L['options_icons_warcraft_rumble_desc'] = 'Display {object:Rumble Coin Bag} and {object:Rumble Foil Bag} locations for the {object:Warcraft Rumble} crossover promotion.'
