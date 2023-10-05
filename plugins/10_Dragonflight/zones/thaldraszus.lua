@@ -1516,21 +1516,23 @@ val.nodes[38113773] = Mythressa()
 
 map.nodes[56007100] = ElusiveCreature({
     label = '{npc:195518}',
+    quest = 74231,
     rewards = {
         Item({item = 193224}), -- Lustrous Scaled Hide
         Item({item = 193215}), -- Adamant Scales
         Item({item = 193255}), -- Pristine Vorquin Horn
-        Achievement({id = 18832, criteria = 61476}) -- Elusive Legend of the Dragon Isles
+        Achievement({id = 18833, criteria = 61479}) -- Elusive Legends of the Dragon Isles
     }
 }) -- Elusive Cliffdweller Vorquin
 
 map.nodes[48005100] = ElusiveCreature({
     label = '{npc:195472}',
+    quest = 74189,
     rewards = {
         Item({item = 193218}), -- Dense Hide
         Item({item = 193211}), -- Resilient Leather
         Item({item = 193254}), -- Rockfang Leather
-        Achievement({id = 18832, criteria = 61480}) -- Elusive Legend of the Dragon Isles
+        Achievement({id = 18833, criteria = 61476}) -- Elusive Legends of the Dragon Isles
     }
 }) -- Elusive Ferocious Titanfang
 

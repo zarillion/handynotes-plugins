@@ -2146,21 +2146,23 @@ map.nodes[64712635] = ElementalStorm({
 
 map.nodes[54705860] = ElusiveCreature({
     label = '{npc:195492}',
+    quest = 74191,
     rewards = {
         Item({item = 193224}), -- Lustrous Scaled Hide
         Item({item = 193215}), -- Adamant Scales
         Item({item = 193252}), -- Salamanther Scales
-        Achievement({id = 18832, criteria = 61475}) -- Elusive Legend of the Dragon Isles
+        Achievement({id = 18833, criteria = 61477}) -- Elusive Legends of the Dragon Isles
     }
 }) -- Elusive Deepwater Salamanther
 
 map.nodes[45007700] = ElusiveCreature({
     label = '{npc:195509}',
+    quest = 74190,
     rewards = {
         Item({item = 193224}), -- Lustrous Scaled Hide
         Item({item = 193215}), -- Adamant Scales
         Item({item = 193259}), -- Flawless Proto Dragon Scale
-        Achievement({id = 18832, criteria = 61481}) -- Elusive Legend of the Dragon Isles
+        Achievement({id = 18833, criteria = 61478}) -- Elusive Legends of the Dragon Isles
     }
 }) -- Elusive Proto Skyterror
 

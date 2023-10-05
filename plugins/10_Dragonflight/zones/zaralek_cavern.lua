@@ -906,16 +906,29 @@ map.nodes[72114844] = Dragonglyph({rewards = {Achievement({id = 17515})}}) -- Dr
 
 local ElusiveCrystalscaleStonecleaver = ElusiveCreature({
     label = '{npc:204821}',
+    quest = 74234,
     rewards = {
         Item({item = 193215}), -- Adamant Scales
         Item({item = 193224}), -- Lustrous Scaled Hide
         Item({item = 205451}), -- Flawless Crystal Scale
-        Achievement({id = 18832, criteria = 61478}) -- Elusive Legend of the Dragon Isles
+        Achievement({id = 18833, criteria = 61483}) -- Elusive Legends of the Dragon Isles
     }
 }) -- Elusive Crystalscale Stonecleaver
 
 map.nodes[57663814] = ElusiveCrystalscaleStonecleaver
 map.nodes[60233957] = ElusiveCrystalscaleStonecleaver
+
+map.nodes[44054787] = ElusiveCreature({
+    label = '{npc:204831}',
+    quest = 74235,
+    rewards = {
+        Item({item = 193215}), -- Adamant Scales
+        Item({item = 193224}), -- Lustrous Scaled Hide
+        Item({item = 204460}), -- Zaralek Glowspores
+        Item({item = 205413}), -- Obsidian Cobraskin
+        Achievement({id = 18833, criteria = 61484}) -- Elusive Legends of the Dragon Isles
+    }
+}) -- Elusive Magma Cobra
 
 -------------------------------------------------------------------------------
 --------------------------------- ZONE EVENTS ---------------------------------

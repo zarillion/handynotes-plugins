@@ -926,14 +926,27 @@ map.nodes[78035110] = SignalTransmitter({quest = 73144}) -- Stormsunder Mountain
 
 local ElusiveFrenziedAmberfir = ElusiveCreature({
     label = '{npc:202436}',
+    quest = 74232,
     rewards = {
         Item({item = 193218}), -- Dense Hide
-        Item({item = 193211}) -- Resilient Leather
+        Item({item = 193211}), -- Resilient Leather
+        Achievement({id = 18833, criteria = 61481}) -- Elusive Legends of the Dragon Isles
     }
 }) -- Elusive Frienzied Amberfir
 
 map.nodes[44265790] = ElusiveFrenziedAmberfir
 map.nodes[42705144] = ElusiveFrenziedAmberfir
+
+map.nodes[45804040] = ElusiveCreature({
+    label = '{npc:202441}',
+    quest = 74233,
+    rewards = {
+        Item({item = 193218}), -- Dense Hide
+        Item({item = 193211}), -- Resilient Leather
+        Item({item = 204092}), -- Auric Fleece
+        Achievement({id = 18833, criteria = 61482}) -- Elusive Legends of the Dragon Isles
+    }
+}) -- Elusive Auric Argali
 
 -------------------------------------------------------------------------------
 -------------------------------- ZSKERA VAULTS --------------------------------
