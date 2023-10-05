@@ -8,12 +8,12 @@ local Map = ns.Map
 local Class = ns.Class
 
 local Collectible = ns.node.Collectible
+local Dragonglyph = ns.node.Dragonglyph
+local ElusiveCreature = ns.node.ElusiveCreature
 local NPC = ns.node.NPC
+local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
-
-local Dragonglyph = ns.node.Dragonglyph
-local PT = ns.node.ProfessionTreasures
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -892,6 +892,35 @@ map.nodes[52847357] = Dreamfruit({
     }
 })
 
+map.nodes[46256309] = Dreamfruit({
+    -- note = L['dreamfruit_note_2'],
+    requires = {ns.requirement.Reputation(2574, 12, true)}, -- review required
+    rewards = {
+        Achievement({
+            id = 19310,
+            criteria = {
+                -- 62910, -- Basket of Explosive Acorns
+                -- 62911, -- Bubble Blowgun
+                -- 62912, -- Dream Gatherer
+                -- 62913, -- Feral Overflow
+                62914, -- Flower Trail
+                -- 62915, -- Lifesurger
+                -- 62916, -- Memory of L'ghorek
+                -- 62917, -- Memory of Ursoc
+                62918 -- Mighty Roar
+                -- 62919, -- Moonkin Jump
+                -- 62920, -- Moonkin Mayhem
+                -- 62921, -- Potent Lullaby
+                -- 62922, -- Putrid Propulsion
+                -- 62923, -- Sack of Talontreats
+                -- 62924, -- Star Shower
+                -- 62925, -- The Superb Loom
+                -- 62926 -- Wake Up!
+            }
+        })
+    }
+})
+
 -------------------------------------------------------------------------------
 -------------------------------- DRUID GLYPHS ---------------------------------
 -------------------------------------------------------------------------------
@@ -1266,6 +1295,30 @@ map.nodes[89005900] = EmeraldDream_Safari({
     rewards = {Achievement({id = 19401, criteria = 63279}), Pet({id = 4303})}
     -- pois = {POI({})}
 }) -- Snaggletoof
+
+-------------------------------------------------------------------------------
+------------------------------ ELUSIVE CREATURES ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[41324916] = ElusiveCreature({
+    label = '{npc:212090}',
+    quest = 78394,
+    rewards = {
+        Item({item = 193218}), -- Dense Hide
+        Item({item = 193211}), -- Resilient Leather
+        Item({item = 210687}) -- Ironfur Sample
+    }
+}) -- Elusive Blooming Brierhide
+
+map.nodes[61263991] = ElusiveCreature({
+    label = '{npc:212133}',
+    quest = 78397,
+    rewards = {
+        Item({item = 193218}), -- Dense Hide
+        Item({item = 193211}), -- Resilient Leather
+        Item({item = 210456}) -- Dreaming Antler Fragment
+    }
+}) -- Elusive Verdant Gladewarden
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
