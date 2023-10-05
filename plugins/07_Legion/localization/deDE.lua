@@ -122,7 +122,7 @@ Bei den Portalen erscheinen dann Elite Gegner, diese haben eine höhere chance {
 ---------------------------------- DALARAN ------------------------------------
 -------------------------------------------------------------------------------
 
-local tz = ({'PST', 'KST', 'MEZ', 'CST', 'CST'})[GetCurrentRegion()]
+local tz = ({'PST', 'KST', 'MEZ', 'CST', 'CST'})[GetCurrentRegion()] or UNKNOWN
 
 L['sheddles_chest'] = 'Gussis Truhe'
 L['shoe_shine_kit_note'] = 'Die Kiste erscheint im oberen Stockwerk an der Position von {npc:97003} nur von Samstag auf Sonntag um Mitternacht (' .. tz .. ' Serverzeit).'

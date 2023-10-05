@@ -118,7 +118,7 @@ L['sentinax_rare_note'] = [[
 local tz = ({
     '太平洋标准时间', '韩国标准时间', '欧洲中部时间',
     '中国标准时间', '中国标准时间'
-})[GetCurrentRegion()]
+})[GetCurrentRegion()] or UNKNOWN
 
 L['sheddles_chest'] = '西德尔的箱子'
 L['shoe_shine_kit_note'] = '每个星期六晚上的午夜零时（' .. tz .. '）{npc:97003} 将他的箱子丢在地上几小时并离开。'

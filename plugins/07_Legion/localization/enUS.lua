@@ -115,7 +115,7 @@ The Portals will then spawn Elite Mobs that have a higher chance of dropping {it
 -------------------------------------------------------------------------------
 
 -- Midnight tz per region: US=>PST, KR=>KST, EU=>CET, TW=>CST, CN=>CST
-local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()]
+local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()] or UNKNOWN
 
 L['sheddles_chest'] = 'Sheddle\'s Chest'
 L['shoe_shine_kit_note'] = 'Every Saturday night at midnight (' .. tz .. ') {npc:97003} will drop his chest on the ground for a couple hours and leave.'

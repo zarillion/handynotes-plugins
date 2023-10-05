@@ -116,7 +116,7 @@ Les Portails feront apparaître des Monstres Élites qui auront plus de chances 
 -------------------------------------------------------------------------------
 
 -- Midnight tz per region: US=>PST, KR=>KST, EU=>CET, TW=>CST, CN=>CST
-local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()]
+local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()] or UNKNOWN
 
 L['sheddles_chest'] = 'Coffre de Sheddle'
 L['shoe_shine_kit_note'] = 'Tous les samedis soirs à minuit (' .. tz .. ') {npc:97003} laissera son coffre sur le sol pendant quelques heures et partira.'

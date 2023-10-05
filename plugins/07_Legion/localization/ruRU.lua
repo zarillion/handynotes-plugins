@@ -104,7 +104,7 @@ L['sentinax_rare_note'] = nil
 -------------------------------------------------------------------------------
 
 -- Midnight tz per region: US=>PST, KR=>KST, EU=>CET, TW=>CST, CN=>CST
--- local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()]
+-- local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()] or UNKNOWN
 
 L['sheddles_chest'] = nil
 L['shoe_shine_kit_note'] = nil
