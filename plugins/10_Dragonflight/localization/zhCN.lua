@@ -534,6 +534,7 @@ L['pt_jewel_painters_pretty_jewel_note'] = '一盏灯内。'
 L['pt_leath_decayed_scales_note'] = '篮子内。'
 L['pt_script_counterfeit_darkmoon_deck_note'] = '与 {npc:194856} 交谈并提出帮助阻止她的 {object:暗月套牌} 散落在她的脚下。按正确的顺序（A 到 8）点击卡片，然后再次与她交谈。'
 L['pt_script_forgetful_apprentices_tome_note'] = '在靠近大望远镜的桌子上。'
+L['pt_script_forgetful_apprentices_tome_algethera_note'] = nil
 L['pt_script_how_to_train_your_whelpling_note'] = '躺在沙盒里的棕色小书。'
 L['pt_smith_draconic_flux_note'] = '建筑物内。'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = '点击 {object:上古龙纹织布机} 以完成一个小游戏，将线轴连接到中心宝石。'

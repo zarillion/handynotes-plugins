@@ -103,6 +103,7 @@ map.nodes[61507360] = Rare({
 
 map.nodes[59807060] = Rare({
     id = 205865,
+    quest = 76170,
     rewards = {
         Transmog({item = 208168, slot = L['1h_sword']}), -- Black Blade of K'tanth
         Transmog({item = 208172, slot = L['staff']}), -- Bloodstained Runecrook
@@ -886,6 +887,13 @@ map.nodes[56304120] = PT.Inscription({
     id = 198659,
     quest = 70264,
     note = L['pt_script_forgetful_apprentices_tome_note']
+}) -- Forgetful Apprentice's Tome
+
+map.nodes[47104007] = PT.Inscription({
+    id = 198659,
+    quest = 70248,
+    note = L['pt_script_forgetful_apprentices_tome_algethera_note'],
+    pois = {POI({49844031})}
 }) -- Forgetful Apprentice's Tome
 
 map.nodes[56803050] = PT.Leatherworking({

@@ -534,6 +534,7 @@ L['pt_jewel_painters_pretty_jewel_note'] = '在燈座內.'
 L['pt_leath_decayed_scales_note'] = '在一個袋子裡.'
 L['pt_script_counterfeit_darkmoon_deck_note'] = '和 {npc:194856} 講話並幫助她整理散落在他腳邊的 {object:風暴套卡}. 依照順序點選卡片 (1到8) 之後和她交談來取得套卡.'
 L['pt_script_forgetful_apprentices_tome_note'] = '在桌上一個大圓規旁.'
+L['pt_script_forgetful_apprentices_tome_algethera_note'] = nil
 L['pt_script_how_to_train_your_whelpling_note'] = '躺在沙盒內的一本小綠書.'
 L['pt_smith_draconic_flux_note'] = '在一棟建築內.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = '點選 {object:古老的龍紡織布機} 來完成一個小遊戲把線捲連到中間的寶石.'

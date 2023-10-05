@@ -447,7 +447,7 @@ map.nodes[56040305] = Treasure({
 
 map.nodes[36397425] = Treasure({
     note = L['crystal_encased_chest_note'],
-    quest = {74987, 75559, 75601, 73697, 74986},
+    quest = {74987, 75559, 75601, 73697, 74986}, -- needs a review, chest does not disappear
     rewards = {
         Achievement({id = 17786, criteria = 59228}), -- Treasures of Zaralek Cavern
         Item({item = 204985}), -- Barter Brick
@@ -593,7 +593,7 @@ map.nodes[64197495] = Treasure({
 
 map.nodes[60664622] = Treasure({
     label = L['stolen_stash_label'],
-    quest = {75302, 66382},
+    quest = 75302,
     rewards = {
         Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones
@@ -689,6 +689,7 @@ map.nodes[50326091] = SmellyTrashPile()
 map.nodes[51055710] = SmellyTrashPile()
 map.nodes[51224089] = SmellyTrashPile()
 map.nodes[51931544] = SmellyTrashPile()
+map.nodes[52080709] = SmellyTrashPile()
 map.nodes[52562740] = SmellyTrashPile()
 map.nodes[57047087] = SmellyTrashPile()
 map.nodes[57476456] = SmellyTrashPile()
@@ -1187,6 +1188,11 @@ local CuriousTopHat = Class('CuriousTopHat', Collectible, {
 map.nodes[38866432] = CuriousTopHat()
 map.nodes[43967748] = CuriousTopHat()
 map.nodes[51586689] = CuriousTopHat()
+map.nodes[61736979] = CuriousTopHat()
+map.nodes[63205574] = CuriousTopHat()
+deepflayerNest.nodes[70016555] = CuriousTopHat({
+    parent = {id = map.id, location = L['in_cave'], pois = {POI({61463864})}}
+})
 
 -------------------------------------------------------------------------------
 ----------------------- ACHIEVEMENT: THE GIFT OF CHEESE -----------------------

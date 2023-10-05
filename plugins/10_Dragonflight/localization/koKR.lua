@@ -507,6 +507,7 @@ L['pt_jewel_painters_pretty_jewel_note'] = '등불 안에 있음'
 L['pt_leath_decayed_scales_note'] = '바구니 안에 있음'
 L['pt_script_counterfeit_darkmoon_deck_note'] = nil
 L['pt_script_forgetful_apprentices_tome_note'] = '큰 망원경 근처 탁자 위에 있음'
+L['pt_script_forgetful_apprentices_tome_algethera_note'] = nil
 L['pt_script_how_to_train_your_whelpling_note'] = nil
 L['pt_smith_draconic_flux_note'] = '건물 내에 있음'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = '모래밭에 놓여있는 작은 갈색 책'

@@ -536,6 +536,7 @@ L['pt_jewel_painters_pretty_jewel_note'] = 'Внутри фонаря.'
 L['pt_leath_decayed_scales_note'] = 'Внутри корзины.'
 L['pt_script_counterfeit_darkmoon_deck_note'] = 'Поговорите с {npc:194856} и предложите помочь ей вернуть {object:Колоды карт Новолуния} которые разбросаны у ее ног. Нажмите на карты в правильном порядке (от туза до 8), а затем поговорите с ней, чтобы получить колоду.'
 L['pt_script_forgetful_apprentices_tome_note'] = 'На столе возле большого телескопа.'
+L['pt_script_forgetful_apprentices_tome_algethera_note'] = nil
 L['pt_script_how_to_train_your_whelpling_note'] = 'Маленькая коричневая книга лежит в песочнице.'
 L['pt_smith_draconic_flux_note'] = 'Внутри здания.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Нажать на {object:Древний прядильный станок драконов} чтобы завершить мини-игру, в которой вы соединяете катушки с нитками с центральным камнем.'
