@@ -50,7 +50,9 @@ function Dragonrace.getters:sublabel()
         if self[race.type] then
             local currencyID = self[race.type][1]
             local label = race.label
-            local time = C_CurrencyInfo.GetCurrencyInfo(currencyID).quantity
+            local time = currencyID and
+                             C_CurrencyInfo.GetCurrencyInfo(currencyID).quantity or
+                             0
             txt = txt .. '\n' .. format(note, label, time / 1000)
         end
     end
@@ -945,144 +947,171 @@ UngoroCrater.nodes[53379308] = Dragonrace({
 ------------------------------- EASTERN KINGDOMS ------------------------------
 -------------------------------------------------------------------------------
 
--- local function EasternKingdoms_Rewards(c)
---     return {
---         Achievement({id = 18566, criteria = c, oneline = true}), -- normal bronze
---         Achievement({id = 18567, criteria = c, oneline = true}), -- normal silver
---         Achievement({id = 18568, criteria = c, oneline = true}), -- normal gold
---         Achievement({id = 18569, criteria = c, oneline = true}), -- advanced bronze
---         Achievement({id = 18570, criteria = c, oneline = true}), -- advanced silver
---         Achievement({id = 18571, criteria = c, oneline = true}), -- advanced gold
---         Achievement({id = 18572, criteria = c, oneline = true}), -- reverse bronze
---         Achievement({id = 18573, criteria = c, oneline = true}), -- reverse silver
---         Achievement({id = 18574, criteria = c, oneline = true}) -- reverse gold
---     }
--- end
+local function EasternKingdoms_Rewards(c)
+    return {
+        Achievement({id = 18566, criteria = c, oneline = true}), -- normal bronze
+        Achievement({id = 18567, criteria = c, oneline = true}), -- normal silver
+        Achievement({id = 18568, criteria = c, oneline = true}), -- normal gold
+        Achievement({id = 18569, criteria = c, oneline = true}), -- advanced bronze
+        Achievement({id = 18570, criteria = c, oneline = true}), -- advanced silver
+        Achievement({id = 18571, criteria = c, oneline = true}), -- advanced gold
+        Achievement({id = 18572, criteria = c, oneline = true}), -- reverse bronze
+        Achievement({id = 18573, criteria = c, oneline = true}), -- reverse silver
+        Achievement({id = 18574, criteria = c, oneline = true}) -- reverse gold
+    }
+end
 
 -- local Gilneas = ns.maps[nil] or Map({id = nil, settings = true}) -- Missing Map ID
--- Gilneas.nodes[10001000] = Dragonrace({
+
+-- Gilneas.nodes[58641161] = Dragonrace({
 --     label = '{quest:76309}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(1)
+--     normal = {2536, nil, nil},
+--     advanced = {2552, nil, nil},
+--     reverse = {2568, nil, nil},
+--     rewards = EasternKingdoms_Rewards(1),
+--     parent = 13
 -- }) -- Gilneas Gambit
 
--- local LochModan = ns.maps[48] or Map({id = 48, settings = true})
--- LochModan.nodes[10001000] = Dragonrace({
---     label = '{quest:76339}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(2)
--- }) -- Loch Modan Loop
+local LochModan = ns.maps[48] or Map({id = 48, settings = true})
 
--- local SearingGorge = ns.maps[32] or Map({id = 32, settings = true})
--- SearingGorge.nodes[10001000] = Dragonrace({
---     label = '{quest:76357}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(3)
--- }) -- Searing Slalom
+LochModan.nodes[46921389] = Dragonrace({
+    label = '{quest:76339}',
+    normal = {2537, 68, 63},
+    advanced = {2553, 64, 61},
+    reverse = {2569, 66, 63},
+    rewards = EasternKingdoms_Rewards(2),
+    parent = 13
+}) -- Loch Modan Loop
 
--- TwilightHighlands.nodes[10001000] = Dragonrace({
---     label = '{quest:76364}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(4)
--- }) -- Twilight Terror
+local SearingGorge = ns.maps[32] or Map({id = 32, settings = true})
 
--- local DeadwindPass = ns.maps[42] or Map({id = 42, settings = true})
--- DeadwindPass.nodes[10001000] = Dragonrace({
---     label = '{quest:76380}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(5)
--- }) -- Deadwind Derby
+SearingGorge.nodes[73224239] = Dragonrace({
+    label = '{quest:76357}',
+    normal = {2538, 57, 52},
+    advanced = {2554, 49, 46},
+    reverse = {2570, 46, 43},
+    rewards = EasternKingdoms_Rewards(3),
+    parent = 13
+}) -- Searing Slalom
 
--- local ElwynnForest = ns.maps[37] or Map({id = 37, settings = true})
--- ElwynnForest.nodes[10001000] = Dragonrace({
---     label = '{quest:76397}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(6)
--- }) -- Elwynn Forest Flash
+local TwilightHighlands = ns.maps[241] or Map({id = 241, settings = true})
 
--- local NorthernStranglethorn = ns.maps[50] or Map({id = 50, settings = true})
--- NorthernStranglethorn.nodes[10001000] = Dragonrace({
---     label = '{quest:76438}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(7)
--- }) -- Gurubashi Gala
+TwilightHighlands.nodes[34797786] = Dragonrace({
+    label = '{quest:76364}',
+    normal = {2539, 78, 73},
+    advanced = {2555, 71, 68},
+    reverse = {2571, 69, 66},
+    rewards = EasternKingdoms_Rewards(4),
+    parent = 13
+}) -- Twilight Terror
 
--- local DunMorogh = ns.maps[27] or Map({id = 27, settings = true})
--- DunMorogh.nodes[10001000] = Dragonrace({
---     label = '{quest:76445}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(8)
--- }) -- Ironforge Interceptor
+local DeadwindPass = ns.maps[42] or Map({id = 42, settings = true})
 
--- local BlastedLands = ns.maps[17] or Map({id = 17, settings = true})
--- BlastedLands.nodes[10001000] = Dragonrace({
---     label = '{quest:76469}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(9)
--- }) -- Blasted Lands Bolt
+DeadwindPass.nodes[46217221] = Dragonrace({
+    label = '{quest:76380}',
+    normal = {2540, 65, 60},
+    advanced = {2556, 62, 59}, -- silver time is a guess
+    reverse = {2572, 62, 59},
+    rewards = EasternKingdoms_Rewards(5),
+    parent = 13
+}) -- Deadwind Derby
 
--- local EasternPlaguelands = ns.maps[22] or Map({id = 22, settings = true})
--- EasternPlaguelands.nodes[10001000] = Dragonrace({
---     label = '{quest:76510}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(10)
--- }) -- Plaguelands Plunge
+local ElwynnForest = ns.maps[37] or Map({id = 37, settings = true})
 
--- local CapeOfStranglethorn = ns.maps[210] or Map({id = 210, settings = true})
--- CapeOfStranglethorn.nodes[10001000] = Dragonrace({
---     label = '{quest:76515}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(11)
--- }) -- Booty Bay Blast
+ElwynnForest.nodes[64574862] = Dragonrace({
+    label = '{quest:76397}',
+    normal = {2541, 78, 73},
+    advanced = {2557, 69, 66},
+    reverse = {2573, 66, 63},
+    rewards = EasternKingdoms_Rewards(6),
+    parent = 13
+}) -- Elwynn Forest Flash
 
--- local Badlands = ns.maps[15] or Map({id = 15, settings = true})
--- Badlands.nodes[10001000] = Dragonrace({
---     label = '{quest:76523}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(12)
--- }) -- Fuselight Night Flight
+local NorthernStranglethorn = ns.maps[50] or Map({id = 50, settings = true})
 
--- local TwilightHighlands = ns.maps[241] or Map({id = 241, settings = true})
--- TwilightHighlands.nodes[10001000] = Dragonrace({
---     label = '{quest:76527}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(13)
--- }) -- Krazzworks Klash
+NorthernStranglethorn.nodes[70102655] = Dragonrace({
+    label = '{quest:76438}',
+    normal = {2542, nil, nil},
+    advanced = {2558, nil, nil},
+    reverse = {2574, nil, nil},
+    rewards = EasternKingdoms_Rewards(7),
+    parent = 13
+}) -- Gurubashi Gala
 
--- local RedridgeMountains = ns.maps[49] or Map({id = 49, settings = true})
--- RedridgeMountains.nodes[10001000] = Dragonrace({
---     label = '{quest:76536}',
---     normal = {nil, nil, nil},
---     advanced = {nil, nil, nil},
---     reverse = {nil, nil, nil},
---     rewards = EasternKingdoms_Rewards(14)
--- }) -- Redridge Rally
+local DunMorogh = ns.maps[27] or Map({id = 27, settings = true})
+
+DunMorogh.nodes[74123398] = Dragonrace({
+    label = '{quest:76445}',
+    normal = {2543, 75, 70},
+    advanced = {2559, 67, 64},
+    reverse = {2575, 63, 60},
+    rewards = EasternKingdoms_Rewards(8),
+    parent = 13
+}) -- Ironforge Interceptor
+
+local BlastedLands = ns.maps[17] or Map({id = 17, settings = true})
+
+BlastedLands.nodes[62662616] = Dragonrace({
+    label = '{quest:76469}',
+    normal = {2544, nil, nil},
+    advanced = {2560, nil, nil},
+    reverse = {2576, nil, nil},
+    rewards = EasternKingdoms_Rewards(9),
+    parent = 13
+}) -- Blasted Lands Bolt
+
+local EasternPlaguelands = ns.maps[23] or Map({id = 23, settings = true})
+
+EasternPlaguelands.nodes[34763793] = Dragonrace({
+    label = '{quest:76510}',
+    normal = {2545, nil, nil},
+    advanced = {2561, nil, nil},
+    reverse = {2577, nil, nil},
+    rewards = EasternKingdoms_Rewards(10),
+    parent = 13
+}) -- Plaguelands Plunge
+
+local CapeOfStranglethorn = ns.maps[210] or Map({id = 210, settings = true})
+
+CapeOfStranglethorn.nodes[40417782] = Dragonrace({
+    label = '{quest:76515}',
+    normal = {2546, nil, nil},
+    advanced = {2562, nil, nil},
+    reverse = {2578, nil, nil},
+    rewards = EasternKingdoms_Rewards(11),
+    parent = 13
+}) -- Booty Bay Blast
+
+local Badlands = ns.maps[15] or Map({id = 15, settings = true})
+
+Badlands.nodes[67113674] = Dragonrace({
+    label = '{quest:76523}',
+    normal = {2547, 69, 64},
+    advanced = {2563, 61, 58},
+    reverse = {2579, 61, 58},
+    rewards = EasternKingdoms_Rewards(12),
+    parent = 13
+}) -- Fuselight Night Flight
+
+TwilightHighlands.nodes[72892784] = Dragonrace({
+    label = '{quest:76527}',
+    normal = {2548, 69, 64}, -- times need review
+    advanced = {2564, 69, 64},
+    reverse = {2580, 67, 62},
+    rewards = EasternKingdoms_Rewards(13),
+    parent = 13
+}) -- Krazzworks Klash
+
+local RedridgeMountains = ns.maps[49] or Map({id = 49, settings = true})
+
+RedridgeMountains.nodes[40822498] = Dragonrace({
+    label = '{quest:76536}',
+    normal = {2549, nil, nil},
+    advanced = {2565, nil, nil},
+    reverse = {2581, nil, nil},
+    rewards = EasternKingdoms_Rewards(14),
+    parent = 13
+}) -- Redridge Rally
 
 -------------------------------------------------------------------------------
 ----------------------------------- OUTLANDS ----------------------------------
@@ -1212,40 +1241,52 @@ local DRAGONRACE_POI = {
     [7506] = 64125435, -- Feralas Ruins Ramble
     [7507] = 39548419, -- Ahn'Qiraj Circuit
     [7508] = 55764218, -- Uldum Tour
-    [7509] = 53379308 -- Un'Goro Crater Circuit
+    [7509] = 53379308, -- Un'Goro Crater Circuit
     -- Eastern Kingdoms
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
+    [7571] = 58641161, -- Gilneas Gambit
+    [7572] = 46921389, -- Loch Modan Loop
+    [7573] = 73224239, -- Searing Slalom
+    [7574] = 34797786, -- Twilight Terror
+    [7575] = 46217221, -- Deadwind Derby
+    [7576] = 64574862, -- Elwynn Forest Flash
+    [7577] = 70102655, -- Gurubashi Gala
+    [7578] = 74123398, -- Ironforge Interceptor
+    [7579] = 62662616, -- Blasted Lands Bolt
+    [7580] = 34763793, -- Plaguelands Plunge
+    [7581] = 40417782, -- Booty Bay Blast
+    [7582] = 67113674, -- Fuselight Night Flight
+    [7583] = 72892784, -- Krazzworks Klash
+    [7584] = 40822498 -- Redridge Rally
     -- Outlands
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
+    -- [] = nil, --
+    -- [] = nil, --
+    -- [] = nil, --
+    -- [] = nil, --
+    -- [] = nil, --
     -- Northrend
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
+    -- [] = nil, --
+    -- [] = nil, --
+    -- [] = nil, --
+    -- [] = nil, --
+    -- [] = nil, --
     -- Pandaria
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
+    -- [] = nil, --
+    -- [] = nil, --
+    -- [] = nil, --
+    -- [] = nil, --
+    -- [] = nil, --
     -- Broken Isles
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
+    -- [] = nil, --
+    -- [] = nil, --
+    -- [] = nil, --
+    -- [] = nil, --
+    -- [] = nil, --
 }
 
 hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+    -- local pos = C_AreaPoiInfo.GetAreaPOIInfo(WorldMapFrame:GetMapID(), self.areaPoiID).position
+    -- GameTooltip:AddLine(('\nXY: %.2f %.2f'):format(pos.x * 100, pos.y * 100)) -- Debug
+
     if not DRAGONRACE_POI[self.areaPoiID] then return end
     local mapID = self:GetMap().mapID
     local group = ns.groups.DRAGONRACE
@@ -1267,8 +1308,6 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
             if reward:IsEnabled() then reward:Render(GameTooltip) end
         end
     end
-
-    -- GameTooltip:AddLine('\nPOI ID: ' .. self.areaPoiID) -- Debug
 
     GameTooltip:Show()
 end)
