@@ -48,6 +48,20 @@ function NameResolver:Resolve(link)
 end
 
 -------------------------------------------------------------------------------
+------------------------------- CALENDAR EVENTS -------------------------------
+-------------------------------------------------------------------------------
+
+local function IsCalendarEventActive(eventID)
+    C_Calendar.SetMonth(0)
+    local day = C_DateAndTime.GetCurrentCalendarTime().monthDay
+    for i = 1, C_Calendar.GetNumDayEvents(0, day) do
+        local event = C_Calendar.GetDayEvent(0, day, i)
+        if event.eventID == eventID then return true end
+    end
+    return false
+end
+
+-------------------------------------------------------------------------------
 -------------------------------- LINK RENDERER --------------------------------
 -------------------------------------------------------------------------------
 
@@ -244,6 +258,7 @@ end
 ns.AsIDTable = AsIDTable
 ns.AsTable = AsTable
 ns.GetDatabaseTable = GetDatabaseTable
+ns.IsCalendarEventActive = IsCalendarEventActive
 ns.NameResolver = NameResolver
 ns.NewLocale = NewLocale
 ns.PlayerHasItem = PlayerHasItem
