@@ -76,6 +76,12 @@ ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.EASTERN_KINGDOMS_CUP = Group('dragonrace', 1100022, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function() return ns.IsCalendarEventActive(1400) end
+})
+
 ns.groups.ELEMENTAL_STORM = Group('elemental_storm', 538566, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -116,6 +122,12 @@ ns.groups.ICEMAW_STORAGE_CACHE = Group('icemaw_storage_cache', 'chest_nv', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.KALIMDOR_CUP = Group('dragonrace', 1100022, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function() return ns.IsCalendarEventActive(1395) end
+})
+
 ns.groups.LIGHTNING_BOUND_CHEST = Group('lightning_bound_chest', 'chest_pp', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -153,7 +165,13 @@ ns.groups.SCOUT_PACK = Group('scout_pack', 4562583, {
 
 ns.groups.SECRETS_OF_AZEROTH = Group('secrets_of_azeroth', 'peg_gn', {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function()
+        local us = ns.IsCalendarEventActive(1396)
+        local eu = ns.IsCalendarEventActive(1398)
+        local tw = ns.IsCalendarEventActive(1399)
+        return us or eu or tw
+    end
 })
 
 ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {

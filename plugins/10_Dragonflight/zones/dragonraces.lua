@@ -796,6 +796,9 @@ ZaralekCavern.nodes[51264667] = Dragonrace({
 ---------------------------------- KALIMDOR -----------------------------------
 -------------------------------------------------------------------------------
 
+local KalimdorCup = Class('KalimdorCup', Dragonrace,
+    {parent = 12, group = ns.groups.KALIMDOR_CUP})
+
 local function Kalimdor_Rewards(c)
     return {
         Achievement({id = 17712, criteria = c, oneline = true}), -- normal bronze
@@ -811,182 +814,171 @@ local function Kalimdor_Rewards(c)
 end
 
 local Felwood = ns.maps[77] or Map({id = 77, settings = true})
-Felwood.nodes[58181079] = Dragonrace({
+Felwood.nodes[58181079] = KalimdorCup({
     label = '{quest:75277}',
     normal = {2312, 75, 70},
     advanced = {2342, 66, 63},
     reverse = {2372, 65, 62},
     rewards = Kalimdor_Rewards(1),
-    parent = 12,
     areaPoiID = 7494
 }) -- Fel Flyover
 
 local Winterspring = ns.maps[83] or Map({id = 83, settings = true})
-Winterspring.nodes[68836804] = Dragonrace({
+Winterspring.nodes[68836804] = KalimdorCup({
     label = '{quest:75310}',
     normal = {2313, 81, 76},
     advanced = {2343, 86, 73},
     reverse = {2373, 73, 70},
     rewards = Kalimdor_Rewards(2),
-    parent = 12,
     areaPoiID = 7495
 }) -- Winter Wander
 
 local Hyjal = ns.maps[198] or Map({id = 198, settings = true})
-Hyjal.nodes[56702790] = Dragonrace({
+Hyjal.nodes[56702790] = KalimdorCup({
     label = '{quest:75317}',
     normal = {2314, 50, 45},
     advanced = {2344, 46, 41},
     reverse = {2374, 46, 41},
     rewards = Kalimdor_Rewards(3),
-    parent = 12,
     areaPoiID = 7496
 }) -- Nordrassil Spiral
 
-Hyjal.nodes[21905420] = Dragonrace({
+Hyjal.nodes[21905420] = KalimdorCup({
     label = '{quest:75330}',
     normal = {2315, 75, 70},
     advanced = {2345, 72, 69},
     reverse = {2375, 72, 67},
     rewards = Kalimdor_Rewards(4),
-    parent = 12,
     areaPoiID = 7497
 }) -- Hyjal Hotfoot
 
 local Azshara = ns.maps[76] or Map({id = 76, settings = true})
-Azshara.nodes[67202617] = Dragonrace({
+Azshara.nodes[67202617] = KalimdorCup({
     label = '{quest:75347}',
     normal = {2316, 105, 100},
     advanced = {2346, 100, 94},
     reverse = {2376, 100, 94},
     rewards = Kalimdor_Rewards(5),
-    parent = 12,
     areaPoiID = 7498
 }) -- Rocketway Ride
 
 local Ashenvale = ns.maps[63] or Map({id = 63, settings = true})
-Ashenvale.nodes[37043058] = Dragonrace({
+Ashenvale.nodes[37043058] = KalimdorCup({
     label = '{quest:75378}',
     normal = {2317, 69, 64},
     advanced = {2347, 64, 59},
     reverse = {2377, 64, 59},
     rewards = Kalimdor_Rewards(6),
-    parent = 12,
     areaPoiID = 7499
 }) -- Ashenvale Ambit
 
 local Durotar = ns.maps[1] or Map({id = 1, settings = true})
-Durotar.nodes[56906286] = Dragonrace({
+Durotar.nodes[56906286] = KalimdorCup({
     label = '{quest:75385}',
     normal = {2318, 85, 80},
     advanced = {2348, 78, 73},
     reverse = {2378, 78, 73},
     rewards = Kalimdor_Rewards(7),
-    parent = 12,
     areaPoiID = 7500
 }) -- Durotar Tour
 
 local StonetalonMontains = ns.maps[65] or Map({id = 65, settings = true})
-StonetalonMontains.nodes[66778681] = Dragonrace({
+StonetalonMontains.nodes[66778681] = KalimdorCup({
     label = '{quest:75394}',
     normal = {2319, 85, 80},
     advanced = {2349, 75, 70},
     reverse = {2379, 75, 70},
     rewards = Kalimdor_Rewards(8),
-    parent = 12,
     areaPoiID = 7501
 }) -- Webwinder Weave
 
 local Desolace = ns.maps[66] or Map({id = 66, settings = true})
-Desolace.nodes[28106328] = Dragonrace({
+Desolace.nodes[28106328] = KalimdorCup({
     label = '{quest:75409}',
     normal = {2320, 80, 75},
     advanced = {2350, 80, 75},
     reverse = {2380, 75, 70},
     rewards = Kalimdor_Rewards(9),
-    parent = 12,
     areaPoiID = 7502
 }) -- Desolace Drift
 
 local SouthernBarrens = ns.maps[199] or Map({id = 199, settings = true})
-SouthernBarrens.nodes[41431300] = Dragonrace({
+SouthernBarrens.nodes[41431300] = KalimdorCup({
     label = '{quest:75412}',
     normal = {2321, 53, 48},
     advanced = {2351, 48, 43},
     reverse = {2381, 49, 44},
     rewards = Kalimdor_Rewards(10),
-    parent = 12,
     areaPoiID = 7503
 }) -- Barrens Divide Dive
 
-SouthernBarrens.nodes[42809308] = Dragonrace({
+SouthernBarrens.nodes[42809308] = KalimdorCup({
     label = '{quest:75437}',
     normal = {2322, 58, 53},
     advanced = {2352, 52, 47},
     reverse = {2382, 52, 47},
     rewards = Kalimdor_Rewards(11),
-    parent = 12,
     areaPoiID = 7504
 }) -- Razorfen Roundabout
 
 local ThousandNeedles = ns.maps[64] or Map({id = 64, settings = true})
-ThousandNeedles.nodes[09731735] = Dragonrace({
+ThousandNeedles.nodes[09731735] = KalimdorCup({
     label = '{quest:75463}',
     normal = {2323, 92, 87},
     advanced = {2353, 82, 77},
     reverse = {2383, 82, 77},
     rewards = Kalimdor_Rewards(12),
-    parent = 12,
     areaPoiID = 7505
 }) -- Thousand Needles Thread
 
 local Feralas = ns.maps[69] or Map({id = 69, settings = true})
-Feralas.nodes[64125435] = Dragonrace({
+Feralas.nodes[64125435] = KalimdorCup({
     label = '{quest:75468}',
     normal = {2324, 94, 89},
     advanced = {2354, 89, 84},
     reverse = {2384, 89, 84},
     rewards = Kalimdor_Rewards(13),
-    parent = 12,
     areaPoiID = 7506
 }) -- Feralas Ruins Ramble
 
 local Silithus = ns.maps[81] or Map({id = 81, settings = true})
-Silithus.nodes[39548419] = Dragonrace({
+Silithus.nodes[39548419] = KalimdorCup({
     label = '{quest:75472}',
     normal = {2325, 80, 75},
     advanced = {2355, 71, 66},
     reverse = {2385, 74, 69},
     rewards = Kalimdor_Rewards(14),
-    parent = 12,
     areaPoiID = 7507
 }) -- Ahn'Qiraj Circuit
 
 local Uldum = ns.maps[249] or Map({id = 249, settings = true})
-Uldum.nodes[55764218] = Dragonrace({
+Uldum.nodes[55764218] = KalimdorCup({
     label = '{quest:75481}',
     normal = {2326, 89, 84},
     advanced = {2356, 81, 76},
     reverse = {2386, 81, 76},
     rewards = Kalimdor_Rewards(15),
-    parent = 12,
     areaPoiID = 7508
 }) -- Uldum Tour
 
 local UngoroCrater = ns.maps[78] or Map({id = 78, settings = true})
-UngoroCrater.nodes[53379308] = Dragonrace({
+UngoroCrater.nodes[53379308] = KalimdorCup({
     label = '{quest:75485}',
     normal = {2327, 105, 100},
     advanced = {2357, 92, 87},
     reverse = {2387, 96, 91},
     rewards = Kalimdor_Rewards(16),
-    parent = 12,
     areaPoiID = 7509
 }) -- Un'Goro Crater Circuit
 
 -------------------------------------------------------------------------------
 ------------------------------- EASTERN KINGDOMS ------------------------------
 -------------------------------------------------------------------------------
+
+local EasternKingdomsCup = Class('EasternKingdomsCup', Dragonrace, {
+    parent = 13,
+    group = ns.groups.EASTERN_KINGDOMS_CUP
+})
 
 local function EasternKingdoms_Rewards(c)
     return {
@@ -1003,80 +995,73 @@ local function EasternKingdoms_Rewards(c)
 end
 
 local Gilneas = ns.maps[217] or Map({id = 217, settings = true}) -- Missing Map ID
-Gilneas.nodes[58611160] = Dragonrace({
+Gilneas.nodes[58611160] = EasternKingdomsCup({
     label = '{quest:76309}',
     normal = {2536, 83, 78},
     advanced = {2552, 77, 74},
     reverse = {2568, 77, 74},
     rewards = EasternKingdoms_Rewards(1),
-    parent = 13,
     areaPoiID = 7571
 }) -- Gilneas Gambit
 
 local LochModan = ns.maps[48] or Map({id = 48, settings = true})
-LochModan.nodes[46921391] = Dragonrace({
+LochModan.nodes[46921391] = EasternKingdomsCup({
     label = '{quest:76339}',
     normal = {2537, 68, 63},
     advanced = {2553, 64, 61},
     reverse = {2569, 66, 63},
     rewards = EasternKingdoms_Rewards(2),
-    parent = 13,
     areaPoiID = 7572
 }) -- Loch Modan Loop
 
 local SearingGorge = ns.maps[32] or Map({id = 32, settings = true})
-SearingGorge.nodes[73244238] = Dragonrace({
+SearingGorge.nodes[73244238] = EasternKingdomsCup({
     label = '{quest:76357}',
     normal = {2538, 57, 52},
     advanced = {2554, 49, 46},
     reverse = {2570, 46, 43},
     rewards = EasternKingdoms_Rewards(3),
-    parent = 13,
     areaPoiID = 7573
 }) -- Searing Slalom
 
 local TwilightHighlands = ns.maps[241] or Map({id = 241, settings = true})
-TwilightHighlands.nodes[34797786] = Dragonrace({
+TwilightHighlands.nodes[34797786] = EasternKingdomsCup({
     label = '{quest:76364}',
     normal = {2539, 78, 73},
     advanced = {2555, 71, 68},
     reverse = {2571, 69, 66},
     rewards = EasternKingdoms_Rewards(4),
-    parent = 13,
     areaPoiID = 7574
 }) -- Twilight Terror
 
 local DeadwindPass = ns.maps[42] or Map({id = 42, settings = true})
-DeadwindPass.nodes[46227221] = Dragonrace({
+DeadwindPass.nodes[46227221] = EasternKingdomsCup({
     label = '{quest:76380}',
     normal = {2540, 65, 60},
     advanced = {2556, 62, 59},
     reverse = {2572, 62, 59},
     rewards = EasternKingdoms_Rewards(5),
-    parent = 13,
     areaPoiID = 7575
 }) -- Deadwind Derby
 
 local ElwynnForest = ns.maps[37] or Map({id = 37, settings = true})
-ElwynnForest.nodes[64704879] = Dragonrace({
+ElwynnForest.nodes[64704879] = EasternKingdomsCup({
     label = '{quest:76397}',
     normal = {2541, 78, 73},
     advanced = {2557, 69, 66},
     reverse = {2573, 66, 63},
     rewards = EasternKingdoms_Rewards(6),
-    parent = 13,
     areaPoiID = 7576
 }) -- Elwynn Forest Flash
 
 local StranglethornVale = ns.maps[224] or Map({id = 224, settings = true})
 local NorthernStranglethorn = ns.maps[50] or Map({id = 50, settings = true})
-local GurubashiGala = Dragonrace({
+local GurubashiGala = EasternKingdomsCup({
     label = '{quest:76438}',
     normal = {2542, 61, 56},
     advanced = {2558, 52, 49},
     reverse = {2574, 53, 50},
     rewards = EasternKingdoms_Rewards(7),
-    parent = 13,
     areaPoiID = 7577
 }) -- Gurubashi Gala
 
@@ -1084,46 +1069,42 @@ NorthernStranglethorn.nodes[70102655] = GurubashiGala
 StranglethornVale.nodes[62691781] = GurubashiGala
 
 local DunMorogh = ns.maps[27] or Map({id = 27, settings = true})
-DunMorogh.nodes[74133398] = Dragonrace({
+DunMorogh.nodes[74133398] = EasternKingdomsCup({
     label = '{quest:76445}',
     normal = {2543, 75, 70},
     advanced = {2559, 67, 64},
     reverse = {2575, 63, 60},
     rewards = EasternKingdoms_Rewards(8),
-    parent = 13,
     areaPoiID = 7578
 }) -- Ironforge Interceptor
 
 local BlastedLands = ns.maps[17] or Map({id = 17, settings = true})
-BlastedLands.nodes[62662616] = Dragonrace({
+BlastedLands.nodes[62662616] = EasternKingdomsCup({
     label = '{quest:76469}',
     normal = {2544, 74, 69},
     advanced = {2560, 65, 62},
     reverse = {2576, 67, 64},
     rewards = EasternKingdoms_Rewards(9),
-    parent = 13,
     areaPoiID = 7579
 }) -- Blasted Lands Bolt
 
 local EasternPlaguelands = ns.maps[23] or Map({id = 23, settings = true})
-EasternPlaguelands.nodes[34753792] = Dragonrace({
+EasternPlaguelands.nodes[34753792] = EasternKingdomsCup({
     label = '{quest:76510}',
     normal = {2545, 68, 63},
     advanced = {2561, 56, 53},
     reverse = {2577, 61, 58},
     rewards = EasternKingdoms_Rewards(10),
-    parent = 13,
     areaPoiID = 7580
 }) -- Plaguelands Plunge
 
 local CapeOfStranglethorn = ns.maps[210] or Map({id = 210, settings = true})
-local BootyBayBlast = Dragonrace({
+local BootyBayBlast = EasternKingdomsCup({
     label = '{quest:76515}',
     normal = {2546, 68, 63},
     advanced = {2562, 60, 57},
     reverse = {2578, 59, 56},
     rewards = EasternKingdoms_Rewards(11),
-    parent = 13,
     areaPoiID = 7581
 }) -- Booty Bay Blast
 
@@ -1131,34 +1112,31 @@ CapeOfStranglethorn.nodes[40417782] = BootyBayBlast
 StranglethornVale.nodes[37608240] = BootyBayBlast
 
 local Badlands = ns.maps[15] or Map({id = 15, settings = true})
-Badlands.nodes[67113676] = Dragonrace({
+Badlands.nodes[67113676] = EasternKingdomsCup({
     label = '{quest:76523}',
     normal = {2547, 69, 64},
     advanced = {2563, 61, 58},
     reverse = {2579, 61, 58},
     rewards = EasternKingdoms_Rewards(12),
-    parent = 13,
     areaPoiID = 7582
 }) -- Fuselight Night Flight
 
-TwilightHighlands.nodes[72892784] = Dragonrace({
+TwilightHighlands.nodes[72892784] = EasternKingdomsCup({
     label = '{quest:76527}',
     normal = {2548, 76, 71},
     advanced = {2564, 67, 64},
     reverse = {2580, 65, 62},
     rewards = EasternKingdoms_Rewards(13),
-    parent = 13,
     areaPoiID = 7583
 }) -- Krazzworks Klash
 
 local RedridgeMountains = ns.maps[49] or Map({id = 49, settings = true})
-RedridgeMountains.nodes[40822500] = Dragonrace({
+RedridgeMountains.nodes[40822500] = EasternKingdomsCup({
     label = '{quest:76536}',
     normal = {2549, 62, 57},
     advanced = {2565, 55, 52},
     reverse = {2581, 55, 52},
     rewards = EasternKingdoms_Rewards(14),
-    parent = 13,
     areaPoiID = 7584
 }) -- Redridge Rally
 
