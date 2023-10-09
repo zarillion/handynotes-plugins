@@ -751,6 +751,7 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
                 Currency({id = 2651, count = 20}), -- Seedbloom -- Spawned after the timer of the plant ran out, triggered hidden quest 77396 when looting
                 Transmog({item = 209990, slot = L['cosmetic']}), -- Overgrown Freyan Handguards
                 Transmog({item = 209971, slot = L['cosmetic']}), -- Clogs of the Dreamfused Skull
+                Recipe({item = 210242, profession = 185}), -- Recipe: Slumbering Peacebloom Tea
                 Pet({item = 210651, id = 4299}) -- Dustite
             }
         end
@@ -1187,6 +1188,7 @@ map.nodes[32936562] = Somnut({location = L['in_a_tree']})
 map.nodes[34566935] = Somnut()
 map.nodes[35176611] = Somnut({location = L['in_a_tree']})
 map.nodes[36704600] = Somnut()
+map.nodes[36804405] = Somnut()
 map.nodes[37735019] = Somnut()
 map.nodes[38073268] = Somnut()
 map.nodes[38512516] = Somnut()
@@ -1194,7 +1196,6 @@ map.nodes[39184365] = Somnut()
 map.nodes[39315799] = Somnut()
 map.nodes[39552298] = Somnut()
 map.nodes[39705235] = Somnut()
-map.nodes[36804405] = Somnut()
 map.nodes[40082431] = Somnut()
 map.nodes[40384207] = Somnut()
 map.nodes[40883180] = Somnut()
@@ -1224,6 +1225,7 @@ map.nodes[55733714] = Somnut()
 map.nodes[55915818] = Somnut()
 map.nodes[57185350] = Somnut() -- flying in the air, but reachable
 map.nodes[58933803] = Somnut()
+map.nodes[59002516] = Somnut()
 map.nodes[59425365] = Somnut()
 map.nodes[59566338] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
 map.nodes[60134204] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
