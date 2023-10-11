@@ -903,8 +903,7 @@ L['druid_glyphs_note'] = 'Colecciona {note:Glifo de Druida} obtenidos de varias 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Despoja la {object:Muestra de pelaje de erizapúas polinizado} que se encuentra cerca de la parte inferior del arbol de {location:Calcina}.'
 
 L['mbc_note_start'] = 'Despoja la {object:Caja Pequeña de Viales} para conseguir la {item:210991}.\n\nRecibirás 6x {item:210839} que necesitarán ser llenados con agua de la poza de la luna de cada continente.'
-L['mbc_note_end'] = 'Combina los 6x {item:210876} para crear {item:210977} y llévala a {object:Feral Dreamstone} cerca de {location:Amirdrassil}.\n\nUsa la {item:210977} y despoja la {object:Garra Bendita por la Luna} para conseguir {item:210728}.' -- REVIEW Feral Dreamstone
-
+L['mbc_note_end'] = 'Combina los 6x {item:210876} para crear {item:210977} y llévala a la {object:Piedra del Sueño feral} cerca de {location:Amirdrassil}.\n\nUsa la {item:210977} y despoja la {object:Garra Bendita por la Luna} para conseguir {item:210728}.'
 L['mbc_vial_b'] = 'I'
 L['mbc_vial_d'] = 'D'
 L['mbc_vial_e'] = 'R'
@@ -921,7 +920,7 @@ L['mbc_vial_o_location'] = 'Refugio Cenarion'
 L['mbc_vial_location'] = 'Llena {item:%d} con agua de la poza de la luna de {location:%s} en {location:%s} en {location:%s} para conseguir {item:%d}.'
 
 L['mbc_moonwell_label'] = 'Poza de la Luna'
-L['mbc_feral_dreamstone_label'] = 'Feral Dreamstone' -- REVIEW Feral Dreamstone
+L['mbc_feral_dreamstone_label'] = 'Piedra del Sueño Feral'
 
 L['azure_somnowl_note'] = 'Completa la corta cadena de misiones (sólo para druidas) hasta que acabe en la misión {quest:78066} para conseguir la {item:210645}.'
 
