@@ -900,8 +900,8 @@ L['druid_glyphs_note'] = 'Récupérez des {note:Glyphes de druide} grâce à div
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Récupérez l\'{object:Échantillon de fourrure d\'hoursute amalgamée de pollen} trouvé au pied de l\'arbre à {location:La Calcination}.'
 
-L['mbc_note_start'] = 'Récupérez la {object:Small Box of Vials} pour recevoir la {item:210991}.\n\nVous obtiendrez 6x {item:210839} qui doivent être remplies avec de l\'eau du puits de lune provenant de chaque continent.' -- review NYT
-L['mbc_note_end'] = 'Combinez les 6x {item:210876} pour créer la {item:210977} et apportez-la jusqu\'à la {object:Feral Dreamstone} près d\'{location:Amirdrassil}.\n\nUtilisez la {item:210977} et récupérez la {object:Griffe bénie par la Lune} pour recevoir la {item:210728}.' -- review NYT
+L['mbc_note_start'] = 'Récupérez la {object:Petite boite de fioles} pour recevoir la {item:210991}.\n\nVous obtiendrez 6x {item:210839} qui doivent être remplies avec de l\'eau du puits de lune provenant de chaque continent.'
+L['mbc_note_end'] = 'Combinez les 6x {item:210876} pour créer la {item:210977} et apportez-la jusqu\'à la {object:Pierre onirique farouche} près d\'{location:Amirdrassil}.\n\nUtilisez la {item:210977} et récupérez la {object:Griffe bénie par la Lune} pour recevoir la {item:210728}.'
 
 L['mbc_vial_b'] = 'B'
 L['mbc_vial_d'] = 'D'
@@ -919,7 +919,7 @@ L['mbc_vial_o_location'] = 'Refuge Cénarien'
 L['mbc_vial_location'] = 'Remplissez la {item:%d} avec de l\'eau du puits de lune au {location:%s} dans la zone {location:%s} du continent {location:%s} pour recevoir la {item:%d}.'
 
 L['mbc_moonwell_label'] = 'Puits de lune'
-L['mbc_feral_dreamstone_label'] = nil -- review NYT
+L['mbc_feral_dreamstone_label'] = 'Pierre onirique farouche'
 
 L['azure_somnowl_note'] = 'Terminez la courte suites de quêtes réservée aux druides se terminant par {quest:78066} pour recevoir les {item:210645}.'
 
