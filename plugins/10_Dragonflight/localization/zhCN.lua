@@ -1030,29 +1030,29 @@ L['soa_mjj_part3_note'] = '{item:209055} 在 {location:诅咒之地} 的 {object
 ------------------------------- WARCRAFT RUMBLE -------------------------------
 -------------------------------------------------------------------------------
 
-L['rumble_coin_bag'] = nil
-L['rumble_foil_bag'] = nil
-L['rumble_both_bags'] = nil
-L['warcraft_rumble_machine'] = nil
+L['rumble_coin_bag'] = '魔兽游戏币袋'
+L['rumble_foil_bag'] = '魔兽游戏箔纸袋'
+L['rumble_both_bags'] = '魔兽游戏币袋和箔纸袋'
+L['warcraft_rumble_machine'] = '魔兽游戏机'
 
-L['wr_ohn_both_01'] = nil
-L['wr_ohn_foil_02'] = nil
-L['wr_sto_coin_01'] = nil
-L['wr_sto_foil_01'] = nil
-L['wr_sto_foil_02'] = nil
-L['wr_tas_both_01'] = nil
-L['wr_tas_foil_01'] = nil
-L['wr_tha_both_01'] = nil
-L['wr_tha_foil_01'] = nil
-L['wr_tws_both_01'] = nil
-L['wr_tws_foil_01'] = nil
-L['wr_tws_foil_02'] = nil
-L['wr_val_coin_01'] = nil
-L['wr_val_foil_01'] = nil
-L['wr_val_machine'] = nil
-L['wr_org_coin_01'] = nil
-L['wr_org_foil_01'] = nil
-L['wr_dur_foil_01'] = nil
+L['wr_ohn_both_01'] = '在 {location:露恩黛} 一座废弃建筑内。'
+L['wr_ohn_foil_02'] = '在瀑布附近的一块岩石旁边。'
+L['wr_sto_coin_01'] = '在储物箱后面。'
+L['wr_sto_foil_01'] = '在一堆炮弹旁。'
+L['wr_sto_foil_02'] = '在靠近通往码头的坡道。'
+L['wr_tas_both_01'] = '在俯瞰 {location:捕鲸者海角} 的一棵树后面。'
+L['wr_tas_foil_01'] = '在一棵巨大的断树旁边。'
+L['wr_tha_both_01'] = '在 {location:提尔要塞水库} 附近的一个浮岛上。'
+L['wr_tha_foil_01'] = '在一个巨大的植物花盆上。'
+L['wr_tws_both_01'] = '在俯瞰水面的石塔顶。'
+L['wr_tws_foil_01'] = '在俯瞰熔岩的山上。'
+L['wr_tws_foil_02'] = '在俯瞰水面的小石塔上。'
+L['wr_val_coin_01'] = '在 {location:脆烤山羊旅店} 一楼，{object:烹饪烤箱} 旁边。'
+L['wr_val_foil_01'] = '在 {location:脆烤山羊旅店} 二楼的床上。'
+L['wr_val_machine'] = '在 {location:脆烤山羊旅店} 二楼。'
+L['wr_org_coin_01'] = '在 {location:破裂的獠牙} 二楼。'
+L['wr_org_foil_01'] = '在 {location:拍卖行} 后面。'
+L['wr_dur_foil_01'] = '在一些补给箱后面。'
 
-L['options_icons_warcraft_rumble'] = nil
-L['options_icons_warcraft_rumble_desc'] = nil
+L['options_icons_warcraft_rumble'] = '魔兽游戏机'
+L['options_icons_warcraft_rumble_desc'] = '显示 {object:魔兽游戏币袋} 和 {object:魔兽游戏箔纸袋} 的位置以进行 {object:魔兽游戏机} 跨界促销。'
