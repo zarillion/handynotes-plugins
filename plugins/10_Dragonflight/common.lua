@@ -165,13 +165,7 @@ ns.groups.SCOUT_PACK = Group('scout_pack', 4562583, {
 
 ns.groups.SECRETS_OF_AZEROTH = Group('secrets_of_azeroth', 'peg_gn', {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION,
-    IsEnabled = function()
-        local us = ns.IsCalendarEventActive(1396)
-        local eu = ns.IsCalendarEventActive(1398)
-        local tw = ns.IsCalendarEventActive(1399)
-        return us or eu or tw
-    end
+    type = ns.group_types.EXPANSION
 })
 
 ns.groups.SIGNAL_TRANSMITTER = Group('signal_transmitter', 4548860, {
