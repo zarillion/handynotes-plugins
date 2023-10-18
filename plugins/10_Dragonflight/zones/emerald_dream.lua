@@ -387,8 +387,10 @@ map.nodes[55275726] = Treasure({
     quest = 78006,
     location = L['in_a_tree'],
     rewards = {
-        Achievement({id = 19317, criteria = 62961}) -- Treasures of The Emerald Dream
-        -- REVIEW
+        Achievement({id = 19317, criteria = 62961}), -- Treasures of The Emerald Dream
+        Item({item = 208067}), -- Plump Dreamseed
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
     }
 }) -- Odd Burl
 
