@@ -855,7 +855,6 @@ L['surging_lasher_note'] = nil
 L['in_a_tree'] = nil
 L['inside_building'] = nil
 
-L['tragedy_of_erinethria_label'] = nil
 L['hidden_moonkin_stash_label'] = nil
 L['magical_bloom_note'] = nil
 L['pineshrew_cache_note'] = nil

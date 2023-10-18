@@ -486,7 +486,8 @@ map.nodes[34105633] = Treasure({
 
 map.nodes[53712395] = Treasure({
     quest = 78835,
-    label = L['tragedy_of_erinethria_label'],
+    label = '{item:208619}',
+    note = L['inside_building'],
     rewards = {
         Item({item = 208619}) -- The Tragedy of Erinethria
     }
