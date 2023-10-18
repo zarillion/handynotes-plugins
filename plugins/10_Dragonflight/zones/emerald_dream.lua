@@ -473,7 +473,7 @@ map.nodes[34105633] = Treasure({
     },
     rewards = {
         Achievement({id = 19317, criteria = 62952}), -- Treasures of The Emerald Dream
-        Item({item = 208067}), -- Plump Dreamseed
+        Item({item = 208067}) -- Plump Dreamseed
     },
     pois = {
         POI({39715215, 42225630, 41756256}), -- Perched locations
