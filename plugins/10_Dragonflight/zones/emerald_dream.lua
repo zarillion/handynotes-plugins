@@ -35,6 +35,7 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2200, settings = true})
+local bor = Map({id = 2254, settings = false}) -- Barrows of Reverie
 
 -------------------------------------------------------------------------------
 -------------------------------- DRUID GLYPHS ---------------------------------
@@ -405,17 +406,21 @@ map.nodes[37263069] = Treasure({
     }
 }) -- Pineshrew Cache
 
-map.nodes[63437298] = Treasure({
+bor.nodes[63363628] = Treasure({
     quest = 78359,
     location = L['in_cave'],
     note = L['reliquary_of_ashamane_note'],
+    parent = {
+        id = map.id,
+        pois = {POI({63457161})} -- Entrance
+    },
     rewards = {
         Achievement({id = 19317, criteria = 62958}), -- Treasures of The Emerald Dream
         Transmog({item = 210631, slot = L['cosmetic']}) -- Branch of Ashamane
     },
     pois = {
-        POI({63457161}), -- Entrance
-        POI({62087464, color = 'Green'}) -- Mark of Ashamane
+        POI({66641549}), -- Entrance
+        POI({38686649, color = 'Green'}) -- Mark of Ashamane
     }
 }) -- Reliquary of Ashamane
 
@@ -480,7 +485,8 @@ map.nodes[35075519] = Treasure({
 local UnwakingEcho = Class('UnwakingEcho', Treasure, {
     icon = 'chest_gn',
     label = L['unwaking_echo_label'],
-    note = L['unwaking_echo_note']
+    note = L['unwaking_echo_note'],
+    requires = ns.requirement.Spell(421216) -- Dreaming
 }) -- Unwaking Echo
 
 map.nodes[46408615] = UnwakingEcho({
@@ -510,7 +516,9 @@ map.nodes[69575284] = UnwakingEcho({
     quest = 78550,
     location = L['inside_building'],
     rewards = {
-        Transmog({item = 210686, slot = L['shield']}) -- Grovekeeper's Barrier
+        Transmog({item = 210686, slot = L['shield']}), -- Grovekeeper's Barrier
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
     }
 })
 
@@ -566,10 +574,11 @@ map.nodes[39575227] = PT.Engineering({
     note = L['experimental_dreamcatcher_note']
 }) -- Experimental Dreamcatcher
 
-map.nodes[40498937] = PT.Engineering({
+bor.nodes[49486918] = PT.Engineering({
     id = 210194,
     quest = 78279,
-    location = L['in_small_cave']
+    location = L['in_cave'],
+    parent = map.id
 }) -- Insomniotron
 
 map.nodes[62683626] = PT.Engineering({
