@@ -852,7 +852,7 @@ L['surging_lasher_note'] = 'Peut apparaître pendant l\'événement {location:Fr
 L['in_a_tree'] = 'En haut d\'un arbre.'
 L['inside_building'] = 'A l\'intérieur du bâtiment.'
 
-L["tragedy_of_erinethria_label"] = nil
+L['tragedy_of_erinethria_label'] = nil
 L['hidden_moonkin_stash_label'] = 'Magot de boguelin dissimulé'
 L['magical_bloom_note'] = 'Poursuivez le {npc:210544} jusqu\'à ce qu\'il révèle le trésor.'
 L['pineshrew_cache_note'] = 'A côté de quelques rochers.'

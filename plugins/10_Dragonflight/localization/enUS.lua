@@ -854,7 +854,7 @@ L['surging_lasher_note'] = 'Can spawn during the {location:Emerald Frenzy} event
 L['in_a_tree'] = 'Up in a tree.'
 L['inside_building'] = 'In the building.'
 
-L["tragedy_of_erinethria_label"] = "The Tragedy of Erinethria"
+L['tragedy_of_erinethria_label'] = 'The Tragedy of Erinethria'
 L['hidden_moonkin_stash_label'] = 'Hidden Moonkin Stash'
 L['magical_bloom_note'] = 'Chase the {npc:210544} until he reveals the treasure.'
 L['pineshrew_cache_note'] = 'Next to a few rocks.'
