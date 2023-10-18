@@ -855,8 +855,8 @@ L['surging_lasher_note'] = 'Kann während des {location:Smaragdraserei} Events i
 L['in_a_tree'] = 'Oben im Baum.'
 L['inside_building'] = 'Im Gebäude.'
 
+L["tragedy_of_erinethria_label"] = nil
 L['hidden_moonkin_stash_label'] = 'Verstecktes Mondkinlager'
-
 L['magical_bloom_note'] = 'Greife den {npc:210544} an und jage ihn, bis er den Schatz enthüllt.'
 L['pineshrew_cache_note'] = 'Neben ein paar Felsen.'
 L['reliquary_of_ashamane_note'] = '{note:Wenn die Weltquest {wq:Dryadenfeuerübung} aktiv ist, muss diese zuerst abgeschlossen werden, bevor du die Statue sehen kannst.}\n\nFinde ein {object:Mal von Ashamane} {dot:Green} in der Nähe, um den Stärkungszauber {spell:425426} zu erhalten. Begib dich damit zu {npc:212009}.'

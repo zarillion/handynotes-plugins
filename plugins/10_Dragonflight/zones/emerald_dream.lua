@@ -107,7 +107,7 @@ map.nodes[64178399] = Rare({
         Achievement({id = 19316, criteria = 62931}), -- Adventurer of the Emerald Dream
         Transmog({item = 208327, slot = L['leather']}) -- Maruud's Piercing Hands
     }
-}) -- Reefbreaker Moruud (Cragnosh)
+}) -- Reefbreaker Moruud
 
 map.nodes[66036318] = Rare({
     id = 209909,
@@ -209,7 +209,7 @@ map.nodes[41107328] = Rare({
     quest = 78213,
     location = L['in_small_cave'],
     rewards = {
-        Achievement({id = 19316, criteria = 62946}), -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62946}), -- Adventurer of the Emerald Dream / BUG: Has now the same CriteriaID (62944) as Somnambulant Ori
         DG.Travel.DreamtalonMatriarch -- Mark of the Dreamtalon Matriarch
     }
 }) -- Matriarch Keevah
@@ -330,6 +330,17 @@ map.nodes[26022656] = Rare({
     }
 }) -- The Apostle
 
+map.nodes[38436213] = Rare({
+    id = 210508,
+    quest = 78214,
+    location = L['in_small_cave'],
+    rewards = {
+        Achievement({id = 19316, criteria = 64492}), -- Adventurer of the Emerald Dream
+        Item({item = 201437}) -- Slumbering Dream Fragment
+    },
+    pois = {POI({38176157})} -- Entrance
+}) -- Voracious Mikanji
+
 -------------------------------------------------------------------------------
 
 map.nodes[22743226] = Rare({
@@ -341,21 +352,11 @@ map.nodes[22743226] = Rare({
     }
 }) -- Balboan
 
-map.nodes[38436213] = Rare({
-    id = 210508,
-    quest = 78214,
-    location = L['in_small_cave'],
-    rewards = {
-        Item({item = 201437}) -- Slumbering Dream Fragment
-    },
-    pois = {POI({38176157})} -- Entrance
-}) -- Voracious Mikanji
-
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[39146553] = Treasure({ -- REVIEW
+map.nodes[39146553] = Treasure({
     quest = 77950,
     location = L['in_a_tree'],
     rewards = {
@@ -462,7 +463,7 @@ map.nodes[47055309] = Treasure({
     }
 }) -- Reliquary of Ursol
 
-map.nodes[34105633] = Treasure({
+map.nodes[35075519] = Treasure({
     label = '{npc:210060}',
     note = L['triflesnatchs_roving_trove_note'],
     quest = {
@@ -472,14 +473,23 @@ map.nodes[34105633] = Treasure({
         77872 -- Exhausted Triflesnatcher
     },
     rewards = {
-        Achievement({id = 19317, criteria = 62952}), -- Treasures of The Emerald Dream
-        Item({item = 208067}) -- Plump Dreamseed
+        Achievement({id = 19317, criteria = 62952}) -- Treasures of The Emerald Dream
     },
     pois = {
         POI({39715215, 42225630, 41756256}), -- Perched locations
-        Path({39715215, 42225630, 41756256, 34105633}) -- Flight path
+        Path({39715215, 42225630, 41756256, 35075519}) -- Flight path
     }
 }) -- Triflesnatch's Roving Trove
+
+-------------------------------------------------------------------------------
+
+map.nodes[53712395] = Treasure({
+    quest = 78835,
+    label = L['tragedy_of_erinethria_label'],
+    rewards = {
+        Item({item = 208619}) -- The Tragedy of Erinethria
+    }
+}) -- The Tragedy of Erinethria
 
 -------------------------------------------------------------------------------
 
@@ -487,25 +497,20 @@ local UnwakingEcho = Class('UnwakingEcho', Treasure, {
     icon = 'chest_gn',
     label = L['unwaking_echo_label'],
     note = L['unwaking_echo_note'],
-    rlabel = ns.status.LightBlue('+200 ' .. L['rep']),
     requires = ns.requirement.Spell(421216) -- Dreaming
 }) -- Unwaking Echo
 
 map.nodes[46408615] = UnwakingEcho({
     quest = 78552,
     rewards = {
-        Transmog({item = 210682, slot = L['cosmetic']}), -- Camper's Knife
-        Currency({id = 2245}), -- Flightstones
-        Currency({id = 2003}) -- Dragon Isles Supplies
+        Transmog({item = 210682, slot = L['cosmetic']}) -- Camper's Knife
     }
 })
 
 map.nodes[55672258] = UnwakingEcho({
     quest = 78547,
     rewards = {
-        Transmog({item = 210675, slot = L['cosmetic']}), -- Gardener's Lightstaff
-        Currency({id = 2245}), -- Flightstones
-        Currency({id = 2003}) -- Dragon Isles Supplies
+        Transmog({item = 210675, slot = L['cosmetic']}) -- Gardener's Lightstaff
     }
 })
 
@@ -513,9 +518,7 @@ map.nodes[55324538] = UnwakingEcho({
     quest = 78551,
     location = L['in_small_cave'],
     rewards = {
-        Transmog({item = 210678, slot = L['cosmetic']}), -- Verdant Glearner's Scythe
-        Currency({id = 2245}), -- Flightstones
-        Currency({id = 2003}) -- Dragon Isles Supplies
+        Transmog({item = 210678, slot = L['cosmetic']}) -- Verdant Glearner's Scythe
     },
     pois = {POI({54774452})} -- Entrance
 })
@@ -535,7 +538,7 @@ map.nodes[69575284] = UnwakingEcho({
 -------------------------------------------------------------------------------
 -- https://www.wowhead.com/ptr-2/items/quality:4?filter=168:99:82;2:11:2;0:0:100200
 
-map.nodes[54043264] = PT.Alchemy({id = 210184, quest = 78264}) -- Experimental Decay Sample
+map.nodes[54043264] = PT.Alchemy({id = 210184, quest = 78264}) -- Half-Filled Dreamless Sleep Potion
 
 map.nodes[62757375] = PT.Alchemy({
     id = 210185,
@@ -812,7 +815,7 @@ map.nodes[46384049] = EmeraldBounty({criteriaID = 62037}) -- Dreamer's Daisy
 map.nodes[48738046] = EmeraldBounty({criteriaID = 62189}) -- Flourishing Scurfpea
 map.nodes[49164807] = EmeraldBounty({criteriaID = 62038}) -- Ringing Rose
 map.nodes[49903544] = EmeraldBounty({criteriaID = 62041}) -- Belligerent Begonias
-map.nodes[51145866] = EmeraldBounty({criteriaID = 62397}) -- Whisperbloom Sapling -- REVIEW COORDS
+map.nodes[51155864] = EmeraldBounty({criteriaID = 62397}) -- Whisperbloom Sapling
 map.nodes[54596763] = EmeraldBounty({criteriaID = 62029}) -- Chiming Foxglove
 map.nodes[56513767] = EmeraldBounty({criteriaID = 62040}) -- Lullaby Lavender
 map.nodes[56664489] = EmeraldBounty({criteriaID = 62039}) -- Lofty Lupin

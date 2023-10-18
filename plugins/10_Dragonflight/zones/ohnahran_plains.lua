@@ -1998,6 +1998,7 @@ local Ohnahra = Class('Ohnahra', Collectible, {
     },
     rewards = {
         Mount({item = 198821, id = 1545}), -- Divine Kiss of Ohn'ahra
+        Achievement({id = 19461}), -- Kissed by the Wind
         Achievement({id = 16446, criteria = 55386, note = L['pretty_neat_note']})
     },
     pois = {

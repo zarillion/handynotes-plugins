@@ -854,8 +854,8 @@ L['surging_lasher_note'] = 'Puede aparece durante el evento {location:Frenesí E
 L['in_a_tree'] = 'Encima del árbol.'
 L['inside_building'] = 'En el edificio.'
 
+L["tragedy_of_erinethria_label"] = nil
 L['hidden_moonkin_stash_label'] = 'Alijo de Vainete Oculto'
-
 L['magical_bloom_note'] = 'Ataca a {npc:210544} y persíguelo hasta que revele el tesoro.'
 L['pineshrew_cache_note'] = 'Junto a algunas rocas.'
 L['reliquary_of_ashamane_note'] = '{note:Si la misión del mundo {wq:Taladro de fuego de dríade} está activa necesitarás completarla antes para poder ver el tesoro.}\n\nEncuentra una {object:Marca de Ashamane} {dot:Green} cercana para conseguir el buff {spell:425426} e ir a la {npc:212009}.'
