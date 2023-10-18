@@ -377,8 +377,10 @@ map.nodes[61625960] = Treasure({
     quest = 78005,
     note = L['magical_bloom_note'],
     rewards = {
-        Achievement({id = 19317, criteria = 62960}) -- Treasures of The Emerald Dream
-        -- REVIEW
+        Achievement({id = 19317, criteria = 62960}), -- Treasures of The Emerald Dream
+        Item({item = 208047}), -- Gigantic Dreamseed
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
     },
     pois = {POI({64346131})} -- Laughing Sprigling
 }) -- Magical Bloom
