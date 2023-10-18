@@ -486,20 +486,25 @@ local UnwakingEcho = Class('UnwakingEcho', Treasure, {
     icon = 'chest_gn',
     label = L['unwaking_echo_label'],
     note = L['unwaking_echo_note'],
+    rlabel = ns.status.LightBlue('+200 ' .. L['rep']),
     requires = ns.requirement.Spell(421216) -- Dreaming
 }) -- Unwaking Echo
 
 map.nodes[46408615] = UnwakingEcho({
     quest = 78552,
     rewards = {
-        Transmog({item = 210682, slot = L['cosmetic']}) -- Camper's Knife
+        Transmog({item = 210682, slot = L['cosmetic']}), -- Camper's Knife
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
     }
 })
 
 map.nodes[55672258] = UnwakingEcho({
     quest = 78547,
     rewards = {
-        Transmog({item = 210675, slot = L['cosmetic']}) -- Gardener's Lightstaff
+        Transmog({item = 210675, slot = L['cosmetic']}), -- Gardener's Lightstaff
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
     }
 })
 
@@ -507,7 +512,9 @@ map.nodes[55324538] = UnwakingEcho({
     quest = 78551,
     location = L['in_small_cave'],
     rewards = {
-        Transmog({item = 210678, slot = L['cosmetic']}) -- Verdant Glearner's Scythe
+        Transmog({item = 210678, slot = L['cosmetic']}), -- Verdant Glearner's Scythe
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
     },
     pois = {POI({54774452})} -- Entrance
 })
