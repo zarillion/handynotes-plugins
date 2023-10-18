@@ -762,7 +762,6 @@ map.nodes[37757026] = MoonkinHatchling({
 -------------------------------------------------------------------------------
 
 local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
-    label = L['dreamseed_soil_label'],
     note = L['dreamseed_soil_note'],
     requires = {
         ns.requirement.Item(208066) -- Small Dreamseed
@@ -770,6 +769,11 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
     icon = 464030,
     group = ns.groups.DREAM_OF_SEEDS,
     getters = {
+        label = function(self)
+            local id = self.criteriaID
+            local name = select(1, GetAchievementCriteriaInfoByID(19013, id))
+            return L['dreamseed_soil_label'] .. ' - ' .. name
+        end,
         rewards = function(self)
             return {
                 Achievement({id = 19013, criteria = self.criteriaID}), -- I Dream of Seeds
