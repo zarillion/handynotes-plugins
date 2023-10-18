@@ -813,7 +813,7 @@ map.nodes[48738046] = EmeraldBounty({criteriaID = 62189}) -- Flourishing Scurfpe
 map.nodes[49164807] = EmeraldBounty({criteriaID = 62038}) -- Ringing Rose
 map.nodes[49903544] = EmeraldBounty({criteriaID = 62041}) -- Belligerent Begonias
 map.nodes[51145866] = EmeraldBounty({criteriaID = 62397}) -- Whisperbloom Sapling -- REVIEW COORDS
-map.nodes[54596763] = EmeraldBounty({criteriaID = 62029}) -- Chiming Foxglove -- REVIEW COORDS
+map.nodes[54596763] = EmeraldBounty({criteriaID = 62029}) -- Chiming Foxglove
 map.nodes[56513767] = EmeraldBounty({criteriaID = 62040}) -- Lullaby Lavender
 map.nodes[56664489] = EmeraldBounty({criteriaID = 62039}) -- Lofty Lupin
 map.nodes[59245876] = EmeraldBounty({criteriaID = 62028}) -- Ysera's Clover
