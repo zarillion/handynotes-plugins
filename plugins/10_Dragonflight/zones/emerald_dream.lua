@@ -354,11 +354,12 @@ map.nodes[38436213] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[85004600] = Treasure({ -- REVIEW
-    quest = nil,
-    note = 'PH',
+map.nodes[39146553] = Treasure({ -- REVIEW
+    quest = 77950,
+    location = L['in_a_tree'],
     rewards = {
-        Achievement({id = 19317, criteria = 62954}) -- Treasures of The Emerald Dream
+        Achievement({id = 19317, criteria = 62954}), -- Treasures of The Emerald Dream
+        Item({item = 208047}) -- Gigantic Dreamseed
     }
 }) -- Crystalline Glowblossom
 
@@ -368,9 +369,9 @@ map.nodes[47493485] = Treasure({
     location = L['in_a_tree'],
     rewards = {
         Achievement({id = 19317, criteria = 62953}), -- Treasures of The Emerald Dream
-        Toy({item = 210725})
-    } -- Owl Post
-}) -- Hidden Podling Stash (Hidden Moonkin Stash)
+        Toy({item = 210725}) -- Owl Post
+    }
+}) -- Hidden Moonkin Stash
 
 map.nodes[61625960] = Treasure({
     quest = 78005,
@@ -395,14 +396,15 @@ map.nodes[37263069] = Treasure({
     quest = 78120,
     location = L['pineshrew_cache_note'],
     rewards = {
-        Achievement({id = 19317, criteria = 62956}) -- Treasures of The Emerald Dream
-        -- REVIEW
+        Achievement({id = 19317, criteria = 62956}), -- Treasures of The Emerald Dream
+        Toy({item = 210411}) -- Fast Growing Seed
     }
 }) -- Pineshrew Cache
 
 map.nodes[63437298] = Treasure({
     quest = 78359,
-    note = L['in_cave'] .. '\n\n' .. L['reliquary_of_ashamane_note'],
+    location = L['in_cave'],
+    note = L['reliquary_of_ashamane_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62958}), -- Treasures of The Emerald Dream
         Transmog({item = 210631, slot = L['cosmetic']}) -- Branch of Ashamane
