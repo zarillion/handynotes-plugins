@@ -902,8 +902,8 @@ L['druid_glyphs_note'] = 'Sammle {note:Druidenglyphen} von verschiedene Aktivit�
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Auf dem Boden vor dem Baum.'
 
-L['mbc_note_start'] = 'Plündere die {object:Small Box of Vials}, um {item:210991} zu erhalten.\n\nDu bekommst 6x {item:210839}, die mit Wasser aus einem Mondbrunnen von sechs Kontinenten gefüllt werden müssen.' -- review not yet translated
-L['mbc_note_end'] = 'Kombiniere alle 6x {item:210876}, um {item:210977} herzustellen und bringe es zum {object:Feral Dreamstone} in der Nähe von {location:Amirdrassil}.\n\nBenutze {item:210977} und plündere {object:Moon-Blessed Claw}, um die {item:210728} zu erhalten.' -- review not yet translated
+L['mbc_note_start'] = 'Plündere die {object:Kleine Schachtel mit Phiolen}, um {item:210991} zu erhalten.\n\nDu bekommst 6x {item:210839}, die mit Wasser aus einem Mondbrunnen von sechs Kontinenten gefüllt werden müssen.'
+L['mbc_note_end'] = 'Kombiniere alle 6x {item:210876}, um {item:210977} herzustellen und bringe es zum {object:Wilder Traumstein} in der Nähe von {location:Amirdrassil}.\n\nBenutze {item:210977} und plündere {object:Mondgesegnete Klaue}, um die {item:210728} zu erhalten.'
 
 L['mbc_vial_b'] = 'V' -- review not yet translated
 L['mbc_vial_d'] = 'D'
@@ -921,7 +921,7 @@ L['mbc_vial_o_location'] = 'Cenariusdickicht'
 L['mbc_vial_location'] = 'Fülle die {item:%d} mit Wasser aus dem Mondbrunnen in {location:%s} ({location:%s}, {location:%s}), um eine {item:%d} zu erhalten.'
 
 L['mbc_moonwell_label'] = 'Mondbrunnen'
-L['mbc_feral_dreamstone_label'] = nil -- review not yet translated
+L['mbc_feral_dreamstone_label'] = 'Wilder Traumstein'
 
 L['azure_somnowl_note'] = 'Schließe die kurze Questreihe für Druiden ab, die mit der Quest {quest:78066} endet, um die {item:210645} zu erhalten.'
 

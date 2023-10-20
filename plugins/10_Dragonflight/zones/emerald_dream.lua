@@ -53,9 +53,7 @@ function DRUID_GLYPH:Note(note)
 end
 
 ns.DRUID_GLYPHS = {
-    Moonkin = {
-        FireMoonkin = DRUID_GLYPH({item = 211280, quest = 99999}) -- REVIEW
-    },
+    Moonkin = {FireMoonkin = DRUID_GLYPH({item = 211280, quest = 78525})},
     Feral = {
         EvergreenDreamsaber = DRUID_GLYPH({item = 210669, quest = 78507}),
         KeenEyedDreamsaber = DRUID_GLYPH({item = 210650, quest = 78503}),
@@ -123,7 +121,7 @@ map.nodes[66036318] = Rare({
     }
 }) -- Crabtankerous
 
-map.nodes[34716316] = Rare({ -- REVIEW
+map.nodes[34716316] = Rare({
     id = 209929,
     quest = 77878,
     vignette = 5816,
@@ -133,7 +131,7 @@ map.nodes[34716316] = Rare({ -- REVIEW
     }
 }) -- Envoy of Winter
 
-map.nodes[29862077] = Rare({ -- REVIEW
+map.nodes[29862077] = Rare({
     id = 209893,
     quest = 78015,
     vignette = 5835,
@@ -158,7 +156,7 @@ map.nodes[62907302] = Rare({
     }
 }) -- Fruitface
 
-map.nodes[54034142] = Rare({ -- REVIEW
+map.nodes[54034142] = Rare({
     id = 209936,
     quest = 77982,
     vignette = 5817,
