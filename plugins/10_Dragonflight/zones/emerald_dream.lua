@@ -2,14 +2,14 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
-
-local Class = ns.Class
 
 local Collectible = ns.node.Collectible
 local Dragonglyph = ns.node.Dragonglyph
 local ElusiveCreature = ns.node.ElusiveCreature
+local Node = ns.node.Node
 local NPC = ns.node.NPC
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
@@ -439,9 +439,7 @@ map.nodes[64231928] = Treasure({
         Achievement({id = 19317, criteria = 62957}), -- Treasures of The Emerald Dream
         Transmog({item = 210659, slot = L['cosmetic']}) -- Branch of Aviana
     },
-    pois = {
-        POI({64532091, color = 'Green'}) -- Mark of Aviana
-    }
+    pois = {POI({64532091, color = 'Green'})} -- Mark of Aviana
 }) -- Reliquary of Aviana
 
 map.nodes[32938325] = Treasure({
@@ -465,20 +463,13 @@ map.nodes[47055309] = Treasure({
         Achievement({id = 19317, criteria = 62955}), -- Treasures of The Emerald Dream
         Transmog({item = 210434, slot = L['cosmetic']}) -- Visage of Ursoc
     },
-    pois = {
-        POI({48015246, color = 'Green'}) -- Mark of Ursol
-    }
+    pois = {POI({48015246, color = 'Green'})} -- Mark of Ursol
 }) -- Reliquary of Ursol
 
 map.nodes[34105633] = Treasure({
     label = '{npc:210060}',
     note = L['triflesnatchs_roving_trove_note'],
-    quest = {
-        77855, -- Perch 1
-        77857, -- Perch 2
-        77860, -- Perch 3
-        77872 -- Exhausted Triflesnatcher
-    },
+    quest = {77855, 77857, 77860, 77872},
     rewards = {
         Achievement({id = 19317, criteria = 62952}), -- Treasures of The Emerald Dream
         Item({item = 208067}) -- Plump Dreamseed
@@ -506,8 +497,8 @@ local UnwakingEcho = Class('UnwakingEcho', Treasure, {
     icon = 'chest_gn',
     label = L['unwaking_echo_label'],
     note = L['unwaking_echo_note'],
-    rlabel = ns.status.LightBlue('+200 ' .. L['rep']),
-    requires = ns.requirement.Spell(421216) -- Dreaming
+    requires = ns.requirement.Spell(421216), -- Dreaming
+    rlabel = ns.status.LightBlue('+200 ' .. L['rep'])
 }) -- Unwaking Echo
 
 map.nodes[46408615] = UnwakingEcho({
@@ -777,7 +768,7 @@ map.nodes[37757026] = MoonkinHatchling({
 ------------------------------- DREAMSEED SOIL --------------------------------
 -------------------------------------------------------------------------------
 
-local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
+local EmeraldBounty = Class('EmeraldBounty', Node, {
     note = L['dreamseed_soil_note'],
     requires = {
         ns.requirement.Item(208066) -- Small Dreamseed
@@ -788,7 +779,7 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
         label = function(self)
             local id = self.criteriaID
             local name = select(1, GetAchievementCriteriaInfoByID(19013, id))
-            return L['dreamseed_soil_label'] .. ' - ' .. name
+            return format('%s - %s', L['dreamseed_soil_label'], name)
         end,
         rewards = function(self)
             return {
@@ -811,20 +802,14 @@ local EmeraldBounty = Class('EmeraldBounty', ns.node.Node, {
 -- Small Dreamseeds give 20 Seedbloom (with low contribution)
 -- Gigantic Dreamseeds give 350 Seedbloom
 
-map.nodes[59201737] = EmeraldBounty({
+local AgelessBlossom = EmeraldBounty({
     requires = ns.requirement.Quest(78172), -- ![Mysterious Seeds]
     criteriaID = 62396
-}) -- Ageless Blossom
+})
 
-map.nodes[59731584] = EmeraldBounty({
-    requires = ns.requirement.Quest(78172), -- ![Mysterious Seeds]
-    criteriaID = 62396
-}) -- Ageless Blossom
-
-map.nodes[60101818] = EmeraldBounty({
-    requires = ns.requirement.Quest(78172), -- ![Mysterious Seeds]
-    criteriaID = 62396
-}) -- Ageless Blossom
+map.nodes[59201737] = AgelessBlossom()
+map.nodes[59731584] = AgelessBlossom()
+map.nodes[60101818] = AgelessBlossom()
 
 map.nodes[38455920] = EmeraldBounty({criteriaID = 62185}) -- Comfy Chamomile
 map.nodes[40025269] = EmeraldBounty({criteriaID = 62035}) -- Viridescent Sprout
@@ -1153,7 +1138,7 @@ local EMPTY_VIALS = {
 }
 
 local MoonBlessedClaw = Class('MoonBlessedClaw', DruidGlyph, {
-    quest = 78528, -- hidden
+    quest = 78528,
     rewards = {DG.Feral.MoonBlessedDreamsaber} -- Moon-Blessed Claw
 })
 
@@ -1195,19 +1180,17 @@ for num, vial in ipairs(EMPTY_VIALS) do
     vial.map.nodes[vial.coordinates] = DruidGlyph({
         label = L['mbc_moonwell_label'],
         location = format(L['mbc_vial_location'], e, l, z, c, f),
-        rlabel = ns.status.Gray('"' .. vial.rlabel .. '"'),
+        rlabel = ns.status.Gray(format('"%s"', vial.rlabel)),
         parent = vial.parent,
         playerHasItem = {vial.vialFilledID, 210977},
-        rewards = {
-            Item({item = vial.vialFilledID, count = '1'}) -- Filled Vial
-        },
+        rewards = {Item({item = vial.vialFilledID, count = '1'})},
         IsCompleted = function(self)
             if self.playerHasItem then
                 for i, v in ipairs(self.playerHasItem) do
                     if ns.PlayerHasItem(v) then return true end
                 end
             end
-            return ns.node.Node.IsCompleted(self)
+            return Node.IsCompleted(self)
         end
     })
 end
@@ -1216,7 +1199,7 @@ end
 -------------------------------- SMALL SOMNUTS --------------------------------
 -------------------------------------------------------------------------------
 
-local Somnut = Class('Somnut', ns.node.Node, {
+local Somnut = Class('Somnut', Node, {
     label = L['somnut'],
     icon = 656681,
     group = ns.groups.SOMNUT,
@@ -1229,7 +1212,8 @@ local Somnut = Class('Somnut', ns.node.Node, {
         Currency({id = 2706}), -- Whelpling's Dreaming Crest
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}), -- Dragon Isles Supplies
-        DC.WindingSlitherdrake.SpikedHorns, DC.WindingSlitherdrake.SpikedTail,
+        DC.WindingSlitherdrake.SpikedHorns, --
+        DC.WindingSlitherdrake.SpikedTail, --
         DC.WindingSlitherdrake.SmallSpikedChest
     }
 })
