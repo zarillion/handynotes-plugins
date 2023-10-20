@@ -843,7 +843,7 @@ L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
 L['options_icons_emerald_dream_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:19401}.'
 
 L['envoy_of_winter_note'] = 'Ramassez des {item:208881} et utilisez le {spell:421658} près du puits jusqu\'à ce que l\'{npc:209929} apparaisse.'
-L['fruitface_note'] = 'Ramassez le {item:208837} au sol pour faire apparaître le {npc:209980}. Attaquez-le et suivez-le jusqu\'à ce qu\'il saute dans l\'eau et invoque un {npc:209966} et le monstre rare.'
+L['fruitface_note'] = 'Ramassez les {item:208837} au sol pour faire apparaître le {npc:209980}. Attaquez-le et suivez-le jusqu\'à ce qu\'il saute dans l\'eau et invoque un {npc:209966} et le monstre rare.'
 L['greedy_gessie_note'] = 'Vous devez récupérer les objets {object:Légumes sauvages}, {object:Melon écaille de rubis} et {object:Racine orange} aux alentours et les mettre dans les paniers près des {npc:210285} pour commencer le combat.'
 L['nuoberon_note'] = 'Pourchassez les tortues, jetez de la nourriture aux singes ou combattez les monstres des rêves pour aider {npc:209101} à passer un rêve amusant !'
 L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaquer {npc:209898}.'
@@ -922,11 +922,11 @@ L['mbc_feral_dreamstone_label'] = 'Pierre onirique farouche'
 
 L['azure_somnowl_note'] = 'Terminez la courte suites de quêtes réservée aux druides se terminant par {quest:78066} pour recevoir les {item:210645}.'
 
-L['slumbering_somnowl_note_a'] = nil -- unconfirmed - do not translate
-L['slumbering_somnowl_note_b'] = nil -- unconfirmed - do not translate
-L['slumbering_somnowl_note_c'] = nil -- unconfirmed - do not translate
-L['slumbering_somnowl_note_d'] = nil -- unconfirmed - do not translate
-L['slumbering_somnowl_note_e'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_a'] = 'Récupérez 5x {item:210565} en utilisant le sort {spell:2637} pour endormir diverses {npc:Somnichouettes} présentes au sein du {location:Rêve d\'émeraude}.'
+L['slumbering_somnowl_note_b'] = 'Achetez 1x {item:4291} auprès de n\'importe quel vendeur de fournitures d’artisanat.'
+L['slumbering_somnowl_note_c'] = 'Combinez 5x {item:210565} et 1x {item:4291} pour créer un {item:210566}.'
+L['slumbering_somnowl_note_d'] = 'Récupérez 1x {item:194864}.'
+L['slumbering_somnowl_note_e'] = 'Combinez 1x {item:210566} et 1x {item:194864} pour créer une {item:210535}.'
 
 L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
 L['silent_mark_label'] = 'Combes des Songes florissants'
