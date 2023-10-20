@@ -195,6 +195,9 @@ function Addon:OnInitialize()
     -- Add global groups to settings panel
     ns.CreateGlobalGroupOptions()
 
+    -- Update calendar events
+    ns.UpdateActiveCalendarEvents()
+
     -- Add quick-toggle menu button to top-right corner of world map
     local template = ADDON_NAME .. 'WorldMapOptionsButtonTemplate'
     ns.world_map_button = LibStub('Krowi_WorldMapButtons-1.4'):Add(template,
