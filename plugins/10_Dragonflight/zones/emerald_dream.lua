@@ -807,9 +807,9 @@ local AgelessBlossom = EmeraldBounty({
     criteriaID = 62396
 })
 
-map.nodes[59201737] = AgelessBlossom()
-map.nodes[59731584] = AgelessBlossom()
-map.nodes[60101818] = AgelessBlossom()
+map.nodes[59201737] = AgelessBlossom
+map.nodes[59731584] = AgelessBlossom
+map.nodes[60101818] = AgelessBlossom
 
 map.nodes[38455920] = EmeraldBounty({criteriaID = 62185}) -- Comfy Chamomile
 map.nodes[40025269] = EmeraldBounty({criteriaID = 62035}) -- Viridescent Sprout
