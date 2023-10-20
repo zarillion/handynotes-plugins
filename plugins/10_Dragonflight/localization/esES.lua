@@ -903,6 +903,7 @@ L['pollenfused_bristlebruin_fur_sample_note'] = 'Despoja la {object:Muestra de p
 
 L['mbc_note_start'] = 'Despoja la {object:Caja Pequeña de Viales} para conseguir la {item:210991}.\n\nRecibirás 6x {item:210839} que necesitarán ser llenados con agua de la poza de la luna de cada continente.'
 L['mbc_note_end'] = 'Combina los 6x {item:210876} para crear {item:210977} y llévala a la {object:Piedra del Sueño feral} cerca de {location:Amirdrassil}.\n\nUsa la {item:210977} y despoja la {object:Garra Bendita por la Luna} para conseguir {item:210728}.'
+
 L['mbc_vial_b'] = 'I'
 L['mbc_vial_d'] = 'D'
 L['mbc_vial_e'] = 'R'
@@ -923,11 +924,11 @@ L['mbc_feral_dreamstone_label'] = 'Piedra del Sueño Feral'
 
 L['azure_somnowl_note'] = 'Completa la corta cadena de misiones (sólo para druidas) hasta que acabe en la misión {quest:78066} para conseguir la {item:210645}.'
 
-L['slumbering_somnowl_note_a'] = 'Consigue 5x {item:210565} de varios {npc:Somnobúho} a lo largo del {location:Sueño Esmeralda}.' -- unconfirmed
-L['slumbering_somnowl_note_b'] = 'Compra 1x {item:4291} a cualquier vendedor de suministros.' -- unconfirmed
-L['slumbering_somnowl_note_c'] = 'Combina 5x {item:210565} y 1x {item:4291} para crear {item:210566}.' -- unconfirmed
-L['slumbering_somnowl_note_d'] = 'Consigue 1x {item:194864}.' -- unconfirmed
-L['slumbering_somnowl_note_e'] = 'Combina 1x {item:210566} y 1x {item:194864} para crear {item:210535}.' -- unconfirmed
+L['slumbering_somnowl_note_a'] = 'Consigue 5x {item:210565} poniendo a varios {npc:Somnobúho} a dormir con el hechizo {spell:2637} a lo largo del {location:Sueño Esmeralda}.'
+L['slumbering_somnowl_note_b'] = 'Compra 1x {item:4291} a cualquier vendedor de suministros.'
+L['slumbering_somnowl_note_c'] = 'Combina 5x {item:210565} y 1x {item:4291} para crear {item:210566}.'
+L['slumbering_somnowl_note_d'] = 'Consigue 1x {item:194864}.'
+L['slumbering_somnowl_note_e'] = 'Combina 1x {item:210566} y 1x {item:194864} para crear {item:210535}.'
 
 L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
 L['silent_mark_label'] = 'Riscos Sueñofrondoso'
