@@ -22,6 +22,7 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
 local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -52,6 +53,9 @@ function DRUID_GLYPH:Note(note)
 end
 
 ns.DRUID_GLYPHS = {
+    Moonkin = {
+        FireMoonkin = DRUID_GLYPH({item = 211280, quest = 99999}) -- REVIEW
+    },
     Feral = {
         EvergreenDreamsaber = DRUID_GLYPH({item = 210669, quest = 78507}),
         KeenEyedDreamsaber = DRUID_GLYPH({item = 210650, quest = 78503}),
@@ -78,8 +82,10 @@ ns.DRUID_GLYPHS = {
     Flight = {
         AzureSomnowl = DRUID_GLYPH({item = 210645, quest = 78479}),
         BlazingSomnowl = DRUID_GLYPH({item = 210754, quest = 78527}),
-        PrismaticWhiskerfish = DRUID_GLYPH({item = 210753, quest = 78516}),
         SlumberingSomnowl = DRUID_GLYPH({item = 210535, quest = 78448})
+    },
+    Aquatic = {
+        PrismaticWhiskerfish = DRUID_GLYPH({item = 210753, quest = 78516})
     }
 }
 
@@ -312,7 +318,8 @@ local Talthonei = Class('Talthonei', Rare, {
     fgroup = 'talthonei',
     rewards = {
         Achievement({id = 19316, criteria = 62934}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208374, slot = L['staff']}) -- Talthornei's Wrath
+        Transmog({item = 208374, slot = L['staff']}), -- Talthornei's Wrath
+        DG.Travel.SmolderingDreamstag -- Mark of the Smoldering Dreamstag
     }
 }) -- Talthonei Ashwisper
 
@@ -976,19 +983,23 @@ map.nodes[70002700] = DruidGlyph({
     sublabel = L['druid_glyphs_sublabel'],
     note = L['druid_glyphs_note'],
     rewards = {
+        -- LuaFormatter off
+        Section('{spell:24858}'), -- Moonkin
+        DG.Moonkin.FireMoonkin:Note('{npc:210601}'),
+        Spacer(),
         Section('{spell:768}'), -- Feral
         DG.Feral.EvergreenDreamsaber:Note('{npc:212903}'),
         DG.Feral.KeenEyedDreamsaber:Note('{npc:210046}'),
-        DG.Feral.MoonBlessedDreamsaber:Note('{item:210991}'), --
-        ns.reward.Spacer(), --
+        DG.Feral.MoonBlessedDreamsaber:Note('{item:210991}'),
+        Spacer(),
         Section('{spell:5487}'), -- Guardian
         DG.Guardian.AshenBristlebruin:Note('{item:210727}'),
         DG.Guardian.DarkUmbraclaw:Note('{npc:210070}'),
-        DG.Guardian.HibernatingRunebear:Note('{npc:209574}'), -- speculated
+        DG.Guardian.HibernatingRunebear:Note('{npc:209574}'),
         DG.Guardian.LoamyUmbraclaw:Note('{npc:212903}'),
         DG.Guardian.SnowyUmbraclaw:Note('{npc:212903}'),
-        DG.Guardian.VerdantBristlebruin:Note('{npc:210045}'), --
-        ns.reward.Spacer(), --
+        DG.Guardian.VerdantBristlebruin:Note('{npc:210045}'),
+        Spacer(),
         Section('{spell:783}'), -- Travel
         DG.Travel.AuricDreamstag:Note('{spell:45357}'),
         DG.Travel.AuroralDreamtalon:Note('{npc:212903}'),
@@ -996,14 +1007,17 @@ map.nodes[70002700] = DruidGlyph({
         DG.Travel.DreamtalonMatriarch:Note('{npc:210051}'),
         DG.Travel.LushDreamstag:Note('{npc:212903}'),
         DG.Travel.SableDreamtalon:Note('{npc:210161}'),
-        DG.Travel.SmolderingDreamstag:Note(UNKNOWN),
-        DG.Travel.ThrivingDreamtalon:Note('{npc:212903}'), --
-        ns.reward.Spacer(), --
+        DG.Travel.SmolderingDreamstag:Note('{npc:209902}'),
+        DG.Travel.ThrivingDreamtalon:Note('{npc:212903}'),
+        Spacer(),
         Section('{spell:276029}'), -- Flight
         DG.Flight.AzureSomnowl:Note('{quest:78066}'),
-        DG.Flight.BlazingSomnowl:Note('{npc:210601}'), -- speculated
-        DG.Flight.PrismaticWhiskerfish:Note('{npc:211300}'), -- speculated
-        DG.Flight.SlumberingSomnowl:Note('{item:210535}')
+        DG.Flight.BlazingSomnowl:Note('{npc:210601}'),
+        DG.Flight.SlumberingSomnowl:Note('{item:210535}'),
+        Spacer(),
+        Section('{spell:276012}'),
+        DG.Aquatic.PrismaticWhiskerfish:Note('{npc:211300}')
+        -- LuaFormatter on
     }
 }) -- Druid Glyph List
 
@@ -1040,7 +1054,7 @@ map.nodes[63743916] = DruidGlyph({
 map.nodes[40519008] = DruidGlyph({
     label = '{npc:211300}',
     rlabel = ns.color.Red('PH'),
-    rewards = {DG.Flight.PrismaticWhiskerfish} -- Scale of the Prismatic Whiskerfish
+    rewards = {DG.Aquatic.PrismaticWhiskerfish} -- Scale of the Prismatic Whiskerfish
 }) -- Dreamfish Egg
 
 map.nodes[34636932] = DruidGlyph({
@@ -1051,7 +1065,6 @@ map.nodes[34636932] = DruidGlyph({
 
 local SlumberingSomnowl = Class('SlumberingSomnowl', DruidGlyph, {
     label = '{item:210535}',
-    rlabel = ns.color.Red('PH'),
     rewards = {DG.Flight.SlumberingSomnowl} -- Mark of the Slumbering Somnowl
 })
 

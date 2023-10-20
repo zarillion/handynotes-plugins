@@ -924,7 +924,7 @@ L['mbc_feral_dreamstone_label'] = 'Feral Dreamstone'
 
 L['azure_somnowl_note'] = 'Complete the short druid-only quest chain ending in {quest:78066} to receive the {item:210645}.'
 
-L['slumbering_somnowl_note_a'] = 'Collect 5x {item:210565} from various {npc:Somnowl} throughout the {location:Emerald Dream}.'
+L['slumbering_somnowl_note_a'] = 'Collect 5x {item:210565} by putting various {npc:Somnowl} to sleep with {spell:2637} throughout the {location:Emerald Dream}.'
 L['slumbering_somnowl_note_b'] = 'Purchase 1x {item:4291} from any trade supplies vendor.'
 L['slumbering_somnowl_note_c'] = 'Combine 5x {item:210565} and 1x {item:4291} to create {item:210566}.'
 L['slumbering_somnowl_note_d'] = 'Collect 1x {item:194864}.'
