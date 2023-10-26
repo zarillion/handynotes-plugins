@@ -932,19 +932,19 @@ L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
 L['silent_mark_label'] = 'Combes des Songes florissants'
 L['silent_mark_note'] = 'Ciblez le bon animal et canalisez l\'objet correspondant jusqu\'à ce que l\'{spell:426910} apparaisse. {note:Vous devez vous harmoniser avec au moins 10 animaux.}\n\nCanalisez la {item:210764} sur les {npc:210892}.\n\nCanalisez la {item:210767} sur les {npc:211347}, {npc:211283}, ou {npc:210894}.\n\nCanalisez la {item:210755} sur les {npc:210594}.\n\nCanalisez la {item:210766} sur les {npc:209494}.'
 
-L['amirdrassil'] = nil
-L['prismatic_location'] = nil
-L['prismatic_note_1'] = nil
-L['prismatic_note_2'] = nil
-L['prismatic_note_3'] = nil
-L['prismatic_note_4'] = nil
-L['prismatic_note_5'] = nil
+L['amirdrassil'] = 'Amirdrassil, l\'Espoir du Rêve'
+L['prismatic_location'] = 'À l\'intérieur du raid {location:Amirdrassil, l\'Espoir du Rêve}.'
+L['prismatic_note_1'] = '1. Pêchez 10x {item:210782} dans les bassins de l\'{location:Atrium de l’Afflux}.'
+L['prismatic_note_2'] = '2. Pêchez 10x {item:210783} dans les bassins de lave de la {location:Salle incendiée}.'
+L['prismatic_note_3'] = '3. Jetez les 20x poissons dans le plus grand bassin de l\'{location:Atrium de l’Afflux} pour recevoir le buff {spell:427145} pendant 30 minutes.'
+L['prismatic_note_4'] = '4. Pêchez dans le banc de {object:Moustanches prismatiques} à l\'{location:Atrium de l’Afflux} jusqu\'à ce que vous attrapiez {item:210784}.'
+L['prismatic_note_5'] = '5. Relâchez {npc:Xena} dans l\'eau de l\'{location:Atrium de l’Afflux} pour recevoir une {item:210753}.'
 
 L['options_icons_druid_glyph'] = 'Glyphes de druide'
 L['options_icons_druid_glyph_desc'] = 'Afficher les emplacements des {note:Glyphes de druide}.'
 
-L['elianna_vendor_note'] = nil
-L['dream_energy_name'] = nil
+L['elianna_vendor_note'] = 'Terminer des activités au sein du {location:Rêve d\'Émeraude} vous rapportera de l\'%s (une monnaie cachée).\n\nAtteindre 7 000 %s débloquera la quête {quest:78598} donnée par {npc:211209} qui vous récompensera par une 1x {currency:2777}.\n\nEchangez vos {currency:2777} contre des mascottes et des montures.'
+L['dream_energy_name'] = 'Énergie du rêve' -- PH Name
 L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
 
 L['sylvia_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'
@@ -953,8 +953,8 @@ L['somnut'] = 'Somninoix'
 L['options_icons_somnut'] = 'Somninoix'
 L['options_icons_somnut_desc'] = 'Afficher les emplacements possibles des {object:Somninoix}.'
 
-L['improvised_leafbed_note'] = nil
-L['kalandu_note'] = nil
+L['improvised_leafbed_note'] = 'Terminez la suite de quêtes commençant par {quest:77896} pour recevoir le {item:210864} de la part de {npc:210164}.'
+L['kalandu_note'] = 'Terminez la suite de quêtes commençant par {quest:77948} pour recevoir {item:210633} de la part de {npc:210196}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
