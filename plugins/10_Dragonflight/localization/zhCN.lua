@@ -920,15 +920,23 @@ L['mbc_feral_dreamstone_label'] = nil
 
 L['azure_somnowl_note'] = nil
 
-L['slumbering_somnowl_note_a'] = nil -- unconfirmed - do not translate
-L['slumbering_somnowl_note_b'] = nil -- unconfirmed - do not translate
-L['slumbering_somnowl_note_c'] = nil -- unconfirmed - do not translate
-L['slumbering_somnowl_note_d'] = nil -- unconfirmed - do not translate
-L['slumbering_somnowl_note_e'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_a'] = nil
+L['slumbering_somnowl_note_b'] = nil
+L['slumbering_somnowl_note_c'] = nil
+L['slumbering_somnowl_note_d'] = nil
+L['slumbering_somnowl_note_e'] = nil
 
 L['thaelishar_vendor_note'] = nil
 L['silent_mark_label'] = nil
 L['silent_mark_note'] = nil
+
+L['amirdrassil'] = nil
+L['prismatic_location'] = nil
+L['prismatic_note_1'] = nil
+L['prismatic_note_2'] = nil
+L['prismatic_note_3'] = nil
+L['prismatic_note_4'] = nil
+L['prismatic_note_5'] = nil
 
 L['options_icons_druid_glyph'] = nil
 L['options_icons_druid_glyph_desc'] = nil

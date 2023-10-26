@@ -925,15 +925,23 @@ L['mbc_feral_dreamstone_label'] = 'Wilder Traumstein'
 
 L['azure_somnowl_note'] = 'Schließe die kurze Questreihe für Druiden ab, die mit der Quest {quest:78066} endet, um die {item:210645} zu erhalten.'
 
-L['slumbering_somnowl_note_a'] = nil -- unconfirmed - do not translate
-L['slumbering_somnowl_note_b'] = nil -- unconfirmed - do not translate
-L['slumbering_somnowl_note_c'] = nil -- unconfirmed - do not translate
-L['slumbering_somnowl_note_d'] = nil -- unconfirmed - do not translate
-L['slumbering_somnowl_note_e'] = nil -- unconfirmed - do not translate
+L['slumbering_somnowl_note_a'] = nil
+L['slumbering_somnowl_note_b'] = nil
+L['slumbering_somnowl_note_c'] = nil
+L['slumbering_somnowl_note_d'] = nil
+L['slumbering_somnowl_note_e'] = nil
 
 L['thaelishar_vendor_note'] = 'Tausche Gold gegen Druidenglyphen ein.'
 L['silent_mark_label'] = 'Reichtraumklippen'
 L['silent_mark_note'] = 'Visiere das richtige Tier an und kanalisiere das Mal, um es auf diese Form einzustimmen. {note:Du musst das Mal mit 10+ Tieren einstimmen.}\n\nKanalisiere {item:210764} auf {npc:210892}.\n\nKanalisiere {item:210767} auf {npc:211347}, {npc:211283}, oder {npc:210894}.\n\nKanalisiere {item:210755} auf {npc:210594}.\n\nKanalisiere {item:210766} auf {npc:209494}.'
+
+L['amirdrassil'] = nil
+L['prismatic_location'] = nil
+L['prismatic_note_1'] = nil
+L['prismatic_note_2'] = nil
+L['prismatic_note_3'] = nil
+L['prismatic_note_4'] = nil
+L['prismatic_note_5'] = nil
 
 L['options_icons_druid_glyph'] = 'Druidenglyphen'
 L['options_icons_druid_glyph_desc'] = 'Zeigt die Positionen der {note:Druidenglyphen} an.'

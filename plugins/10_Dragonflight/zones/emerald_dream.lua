@@ -999,7 +999,7 @@ map.nodes[70002700] = DruidGlyph({
         DG.Flight.SlumberingSomnowl:Note('{item:210535}'),
         Spacer(),
         Section('{spell:276012}'),
-        DG.Aquatic.PrismaticWhiskerfish:Note('{npc:211300}')
+        DG.Aquatic.PrismaticWhiskerfish:Note(L['amirdrassil'])
         -- LuaFormatter on
     }
 }) -- Druid Glyph List
@@ -1034,17 +1034,27 @@ map.nodes[63743916] = DruidGlyph({
     rewards = {DG.Guardian.AshenBristlebruin} -- Pollenfused Bristlebruin Fur Sample
 }) -- Pollenfused Bristlebruin Fur Sample
 
-map.nodes[40519008] = DruidGlyph({
-    label = '{npc:211300}',
-    rlabel = ns.color.Red('PH'),
-    rewards = {DG.Aquatic.PrismaticWhiskerfish} -- Scale of the Prismatic Whiskerfish
-}) -- Dreamfish Egg
-
 map.nodes[34636932] = DruidGlyph({
     label = '{npc:210524}',
     note = L['azure_somnowl_note'],
     rewards = {DG.Flight.AzureSomnowl} -- Feather of Friends
 }) -- Q'onzu
+
+local PrismaticWhiskerfish = Class('PrismaticWhiskerfish', DruidGlyph, {
+    label = '{item:210753}',
+    location = L['prismatic_location'],
+    rewards = {DG.Aquatic.PrismaticWhiskerfish}
+}) -- Prismatic Whiskerfish
+
+function PrismaticWhiskerfish.getters:note()
+    local note = L['prismatic_note_1']
+    note = note .. '\n\n' .. L['prismatic_note_2']
+    note = note .. '\n\n' .. L['prismatic_note_3']
+    note = note .. '\n\n' .. L['prismatic_note_4']
+    return note .. '\n\n' .. L['prismatic_note_5']
+end
+
+map.nodes[29703103] = PrismaticWhiskerfish()
 
 local SlumberingSomnowl = Class('SlumberingSomnowl', DruidGlyph, {
     label = '{item:210535}',

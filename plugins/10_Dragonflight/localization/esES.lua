@@ -934,6 +934,14 @@ L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
 L['silent_mark_label'] = 'Riscos Sueñofrondoso'
 L['silent_mark_note'] = 'Selecciona el animal correcto y canaliza el objeto correspondiente hasta que aparezca {spell:426910}. {note:Debes hacerlo con más de 10 animales.}\n\nCanaliza {item:210764} en {npc:210892}.\n\nCanaliza {item:210767} en {npc:211347}, {npc:211283}, o {npc:210894}.\n\nCanaliza {item:210755} en {npc:210594}.\n\nCanaliza {item:210766} en {npc:209494}.'
 
+L['amirdrassil'] = nil
+L['prismatic_location'] = nil
+L['prismatic_note_1'] = nil
+L['prismatic_note_2'] = nil
+L['prismatic_note_3'] = nil
+L['prismatic_note_4'] = nil
+L['prismatic_note_5'] = nil
+
 L['options_icons_druid_glyph'] = 'Glifos de Druida'
 L['options_icons_druid_glyph_desc'] = 'Muestra dónde están los {note:Glifo de Druida}.'
 

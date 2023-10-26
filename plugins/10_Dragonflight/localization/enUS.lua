@@ -934,6 +934,14 @@ L['thaelishar_vendor_note'] = 'Exchange gold for Druid glyphs.'
 L['silent_mark_label'] = 'Lushdream Crags'
 L['silent_mark_note'] = 'Target the correct animal and channel the matching item until {spell:426910} appears. {note:You must attune with 10+ animals.}\n\nChannel {item:210764} onto {npc:210892}.\n\nChannel {item:210767} onto {npc:211347}, {npc:211283}, or {npc:210894}.\n\nChannel {item:210755} onto {npc:210594}.\n\nChannel {item:210766} onto {npc:209494}.'
 
+L['amirdrassil'] = 'Amirdrassil, The Dream’s Hope'
+L['prismatic_location'] = 'Inside {location:Amirdrassil, the Dream\'s Hope} raid.'
+L['prismatic_note_1'] = '1. Fish up 10x {item:210782} from the pools in the {location:Wellspring Atrium}.'
+L['prismatic_note_2'] = '2. Fish up 10x {item:210783} from the lava pools in {location:The Scorched Hall}.'
+L['prismatic_note_3'] = '3. Throw all 20x fish into the largest pool in the {location:Wellspring Atrium} to receive the {spell:427145} buff for 30 minutes.'
+L['prismatic_note_4'] = '4. Fish from the {object:Prismatic Whiskerfis} fishing pool in the {location:Wellspring Atrium} until you catch {item:210784}.'
+L['prismatic_note_5'] = '5. Release {npc:Xena} back into the water in the {location:Wellspring Atrium} to receive {item:210753}.'
+
 L['options_icons_druid_glyph'] = 'Druid Glyphs'
 L['options_icons_druid_glyph_desc'] = 'Display locations for {note:Druid Glyphs}.'
 

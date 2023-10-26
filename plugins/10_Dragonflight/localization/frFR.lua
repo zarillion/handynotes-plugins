@@ -932,6 +932,14 @@ L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
 L['silent_mark_label'] = 'Combes des Songes florissants'
 L['silent_mark_note'] = 'Ciblez le bon animal et canalisez l\'objet correspondant jusqu\'à ce que l\'{spell:426910} apparaisse. {note:Vous devez vous harmoniser avec au moins 10 animaux.}\n\nCanalisez la {item:210764} sur les {npc:210892}.\n\nCanalisez la {item:210767} sur les {npc:211347}, {npc:211283}, ou {npc:210894}.\n\nCanalisez la {item:210755} sur les {npc:210594}.\n\nCanalisez la {item:210766} sur les {npc:209494}.'
 
+L['amirdrassil'] = nil
+L['prismatic_location'] = nil
+L['prismatic_note_1'] = nil
+L['prismatic_note_2'] = nil
+L['prismatic_note_3'] = nil
+L['prismatic_note_4'] = nil
+L['prismatic_note_5'] = nil
+
 L['options_icons_druid_glyph'] = 'Glyphes de druide'
 L['options_icons_druid_glyph_desc'] = 'Afficher les emplacements des {note:Glyphes de druide}.'
 
