@@ -1416,3 +1416,12 @@ map.nodes[50226180] = NPC({
         Mount({item = 210833, id = 1838, count = '1'}) -- Talont
     }
 }) -- Elianna <Dream Infuser>
+
+map.nodes[58137730] = Collectible({
+    label = '{item:210864}',
+    icon = 614747,
+    location = L['in_small_cave'],
+    note = L['improvised_leafbed_note'],
+    rewards = {Toy({item = 210864})}, -- Improvised Leafbed
+    pois = {POI({58037780})} -- Entrance
+}) -- Thaalean

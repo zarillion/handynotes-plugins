@@ -952,6 +952,8 @@ L['somnut'] = 'Somnuez'
 L['options_icons_somnut'] = 'Somnuez'
 L['options_icons_somnut_desc'] = 'Muestra dónden pueden estar los {object:Somnuez}.'
 
+L['improvised_leafbed_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------

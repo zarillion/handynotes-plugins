@@ -952,6 +952,8 @@ L['somnut'] = 'Somnut'
 L['options_icons_somnut'] = 'Somnut'
 L['options_icons_somnut_desc'] = 'Display possible locations of {object:Somnuts}.'
 
+L['improvised_leafbed_note'] = 'Complete the quest chain beginning with {quest:77896} to receive the {item:} from {npc:210164}.'
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
