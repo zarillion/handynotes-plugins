@@ -1399,6 +1399,7 @@ local Elianna = Class('Elianna', NPC, {
     id = 211209,
     icon = 'peg_bl',
     scale = 2.0,
+    requires = {ns.requirement.Reputation(2574, 5, true)},
     rewards = {
         Pet({item = 210785, id = 4310, count = '1'}), -- Snorr
         Pet({item = 210553, id = 4289, count = '1'}), -- Dreamborne Scarab
