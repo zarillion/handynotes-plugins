@@ -902,7 +902,7 @@ L['druid_glyphs_note'] = 'Colecciona {note:Glifo de Druida} obtenidos de varias 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Despoja la {object:Muestra de pelaje de erizapúas polinizado} que se encuentra cerca de la parte inferior del arbol de {location:Calcina}.'
 
 L['mbc_note_start'] = 'Despoja la {object:Caja Pequeña de Viales} para conseguir la {item:210991}.\n\nRecibirás 6x {item:210839} que necesitarán ser llenados con agua de la poza de la luna de cada continente.'
-L['mbc_note_end'] = 'Combina los 6x {item:210876} para crear {item:210977} y llévala a la {object:Piedra del Sueño feral} cerca de {location:Amirdrassil}.\n\nUsa la {item:210977} y despoja la {object:Garra Bendita por la Luna} para conseguir {item:210728}.'
+L['mbc_note_end'] = 'Combina los 6x {item:210876} para crear la {item:210977} y llévala a la {object:Piedra del Sueño feral} cerca de {location:Amirdrassil}.\n\nUsa la {item:210977} y despoja la {object:Garra Bendita por la Luna} para conseguir la {item:210728}.'
 
 L['mbc_vial_b'] = 'I'
 L['mbc_vial_d'] = 'D'
@@ -926,27 +926,27 @@ L['azure_somnowl_note'] = 'Completa la corta cadena de misiones (sólo para drui
 
 L['slumbering_somnowl_note_a'] = 'Consigue 5x {item:210565} poniendo a varios {npc:Somnobúho} a dormir con el hechizo {spell:2637} a lo largo del {location:Sueño Esmeralda}.'
 L['slumbering_somnowl_note_b'] = 'Compra 1x {item:4291} a cualquier vendedor de suministros.'
-L['slumbering_somnowl_note_c'] = 'Combina 5x {item:210565} y 1x {item:4291} para crear {item:210566}.'
+L['slumbering_somnowl_note_c'] = 'Combina 5x {item:210565} y 1x {item:4291} para crear la {item:210566}.'
 L['slumbering_somnowl_note_d'] = 'Consigue 1x {item:194864}.'
-L['slumbering_somnowl_note_e'] = 'Combina 1x {item:210566} y 1x {item:194864} para crear {item:210535}.'
+L['slumbering_somnowl_note_e'] = 'Combina 1x {item:210566} y 1x {item:194864} para crear la {item:210535}.'
 
 L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
 L['silent_mark_label'] = 'Riscos Sueñofrondoso'
 L['silent_mark_note'] = 'Selecciona el animal correcto y canaliza el objeto correspondiente hasta que aparezca {spell:426910}. {note:Debes hacerlo con más de 10 animales.}\n\nCanaliza {item:210764} en {npc:210892}.\n\nCanaliza {item:210767} en {npc:211347}, {npc:211283}, o {npc:210894}.\n\nCanaliza {item:210755} en {npc:210594}.\n\nCanaliza {item:210766} en {npc:209494}.'
 
-L['amirdrassil'] = nil
-L['prismatic_location'] = nil
-L['prismatic_note_1'] = nil
-L['prismatic_note_2'] = nil
-L['prismatic_note_3'] = nil
-L['prismatic_note_4'] = nil
-L['prismatic_note_5'] = nil
+L['amirdrassil'] = 'Amirdrassil, La Esperanza del Sueño'
+L['prismatic_location'] = 'Dentro de la banda {location:Amirdrassil, La Esperanza del Sueño}.'
+L['prismatic_note_1'] = '1. Pesca 10x {item:210782} de los bancos en {location:Claustro del Manantial}.'
+L['prismatic_note_2'] = '2. Pesca 10x {item:210783} de los bancos de lava en la {location:Sala Agostada}.'
+L['prismatic_note_3'] = '3. Lanza los 20x peces dentro del banco más grande en {location:Claustro del Manantial} para conseguir durante 30 minutos el buff {spell:427145}.'
+L['prismatic_note_4'] = '4. Pesca en el banco de peces {object:Pezbigotes Prismáticos} en {location:Claustro del Manantial} hasta que saques a {item:210784}.'
+L['prismatic_note_5'] = '5. Libera a {npc:Xena} en el agua del {location:Claustro del Manantial} para conseguir una {item:210753}.'
 
 L['options_icons_druid_glyph'] = 'Glifos de Druida'
 L['options_icons_druid_glyph_desc'] = 'Muestra dónde están los {note:Glifo de Druida}.'
 
-L['elianna_vendor_note'] = nil
-L['dream_energy_name'] = nil
+L['elianna_vendor_note'] = 'Completando actividades en el {location:Sueño Esmeralda} conseguirás %s (una moneda oculta).\n\nCon 7.000 %s desbloquearás la misión {quest:78598} de {npc:211209} que te recompensará con 1x {currency:2777}.\n\nCambia {currency:2777} por mascotas y monturas.'
+L['dream_energy_name'] = 'Energía de Ensueño' -- NYT
 L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
 
 L['sylvia_vendor_note'] = 'Cambia {currency:2651} por mascotas, monturas y transfiguraciones.'
@@ -955,8 +955,8 @@ L['somnut'] = 'Somnuez'
 L['options_icons_somnut'] = 'Somnuez'
 L['options_icons_somnut_desc'] = 'Muestra dónden pueden estar los {object:Somnuez}.'
 
-L['improvised_leafbed_note'] = nil
-L['kalandu_note'] = nil
+L['improvised_leafbed_note'] = 'Completa la cadena de misiones comenzando con {quest:77896} para conseguir la {item:210864} de {npc:210164}.'
+L['kalandu_note'] = 'Completa la cadena de misiones comenzando con {quest:77948} para conseguir a {item:210633} de {npc:210196}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
@@ -975,7 +975,7 @@ L['soa_02_shomko_note_c'] = '{note:Aségurate de quedarte y matar al {npc:208182
 
 -- Secrets of Azeroth: Clue 3
 L['soa_03_rlabel'] = '(Pista 3)'
-L['soa_03_fangli_hoot_note_a'] = 'Habla con {npc:207696} para conseguir {item:207802}. Necesitarás crear {item:207827} consiguiendo varios objectos:'
+L['soa_03_fangli_hoot_note_a'] = 'Habla con {npc:207696} para conseguir las {item:207802}. Necesitarás crear {item:207827} consiguiendo varios objectos:'
 L['soa_03_fangli_hoot_note_b'] = 'Comercia 5x {item:207956} con {npc:185548} para conseguir {item:207814} en {location:Valdrakken}.'
 L['soa_03_fangli_hoot_note_c'] = 'Comercia 1x {item:207812} con {npc:197781} para conseguir {item:207813} en {location:Valdrakken}.'
 L['soa_03_fangli_hoot_note_d'] = 'Consigue 1x {item:207816} de {npc:198586} tras pagar su cuenta del bar en {location:Valdrakken}.'
