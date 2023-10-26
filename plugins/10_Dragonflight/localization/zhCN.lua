@@ -949,6 +949,7 @@ L['options_icons_somnut'] = nil
 L['options_icons_somnut_desc'] = nil
 
 L['improvised_leafbed_note'] = nil
+L['kalandu_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------

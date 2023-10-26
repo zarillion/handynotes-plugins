@@ -1425,3 +1425,10 @@ map.nodes[58137730] = Collectible({
     rewards = {Toy({item = 210864})}, -- Improvised Leafbed
     pois = {POI({58037780})} -- Entrance
 }) -- Thaalean
+
+map.nodes[52016363] = Collectible({
+    label = '{item:210633}',
+    icon = 3071791,
+    note = L['kalandu_note'],
+    rewards = {Pet({item = 210633, id = 4297})} -- Kal'andu
+}) -- Solarys Thorngale

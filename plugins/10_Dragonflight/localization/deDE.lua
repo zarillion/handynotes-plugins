@@ -954,6 +954,7 @@ L['options_icons_somnut'] = 'Schlummernuss'
 L['options_icons_somnut_desc'] = 'Zeigt die möglichen Positionen für {object:Schlummernuss} an.'
 
 L['improvised_leafbed_note'] = nil
+L['kalandu_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------

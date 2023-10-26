@@ -951,6 +951,7 @@ L['options_icons_somnut'] = 'Somninoix'
 L['options_icons_somnut_desc'] = 'Afficher les emplacements possibles des {object:Somninoix}.'
 
 L['improvised_leafbed_note'] = nil
+L['kalandu_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
