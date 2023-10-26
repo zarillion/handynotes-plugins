@@ -939,13 +939,13 @@ L['prismatic_location'] = 'Inside {location:Amirdrassil, the Dream\'s Hope} raid
 L['prismatic_note_1'] = '1. Fish up 10x {item:210782} from the pools in the {location:Wellspring Atrium}.'
 L['prismatic_note_2'] = '2. Fish up 10x {item:210783} from the lava pools in {location:The Scorched Hall}.'
 L['prismatic_note_3'] = '3. Throw all 20x fish into the largest pool in the {location:Wellspring Atrium} to receive the {spell:427145} buff for 30 minutes.'
-L['prismatic_note_4'] = '4. Fish from the {object:Prismatic Whiskerfis} fishing pool in the {location:Wellspring Atrium} until you catch {item:210784}.'
+L['prismatic_note_4'] = '4. Fish from the {object:Prismatic Whiskerfish} fishing pool in the {location:Wellspring Atrium} until you catch {item:210784}.'
 L['prismatic_note_5'] = '5. Release {npc:Xena} back into the water in the {location:Wellspring Atrium} to receive {item:210753}.'
 
 L['options_icons_druid_glyph'] = 'Druid Glyphs'
 L['options_icons_druid_glyph_desc'] = 'Display locations for {note:Druid Glyphs}.'
 
-L['elianna_vendor_note'] = 'Completing activities around the {location:Emerald Dream} will reward %s (a hidden currency).\n\nEarning 7,000 %s will unlock {quest:78598} from {npc:211209} which rewareds 1x {currency:2777}.\n\nExchange {currency:2777} for pets and mounts.'
+L['elianna_vendor_note'] = 'Completing activities around the {location:Emerald Dream} will reward %s (a hidden currency).\n\nEarning 7,000 %s will unlock {quest:78598} from {npc:211209} which rewards 1x {currency:2777}.\n\nExchange {currency:2777} for pets and mounts.'
 L['dream_energy_name'] = 'Dream Energy'
 L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
 
