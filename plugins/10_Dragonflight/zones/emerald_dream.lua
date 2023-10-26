@@ -1395,11 +1395,10 @@ map.nodes[59761689] = NPC({ -- REVIEW count
     }
 }) -- Sylvia Whisperbloom <Dreamseed Botanist>
 
-map.nodes[50226180] = NPC({
+local Elianna = Class('Elianna', NPC, {
     id = 211209,
     icon = 'peg_bl',
     scale = 2.0,
-    note = L['elianna_vendor_note'],
     rewards = {
         Pet({item = 210785, id = 4310, count = '1'}), -- Snorr
         Pet({item = 210553, id = 4289, count = '1'}), -- Dreamborne Scarab
@@ -1408,6 +1407,7 @@ map.nodes[50226180] = NPC({
         Pet({item = 210652, id = 4300, count = '1'}), -- Somnolet
         Pet({item = 210505, id = 4287, count = '1'}), -- Reverie
         Pet({item = 210777, id = 4309, count = '1'}), -- Drowsey
+        Spacer(), --
         Mount({item = 210831, id = 1837, count = '1'}), -- Delugen
         Mount({item = 210948, id = 1939, count = '1'}), -- Imagiwing
         Mount({item = 210946, id = 1938, count = '1'}), -- Mammyth
@@ -1416,6 +1416,21 @@ map.nodes[50226180] = NPC({
         Mount({item = 210833, id = 1838, count = '1'}) -- Talont
     }
 }) -- Elianna <Dream Infuser>
+
+function Elianna.getters:note()
+    -- LuaFormatter off
+    local n = format('\124T1394953:0\124t \124cFF00FF00[%s]\124r', L['dream_energy_name']) -- TODO: Can be simplified once currency is updated
+    -- LuaFormatter on
+    local currencyInfo = C_CurrencyInfo.GetCurrencyInfo(2649)
+    local q = currencyInfo.quantity
+    local m = currencyInfo.maxQuantity
+    local p = (q / m) * 100
+    local note = format(L['elianna_vendor_note'], n, n)
+    note = note .. '\n\n' .. format(L['dream_energy_info'], n, q, m, p)
+    return note
+end
+
+map.nodes[50226180] = Elianna()
 
 map.nodes[58137730] = Collectible({
     label = '{item:210864}',

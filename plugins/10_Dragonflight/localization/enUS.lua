@@ -945,7 +945,10 @@ L['prismatic_note_5'] = '5. Release {npc:Xena} back into the water in the {locat
 L['options_icons_druid_glyph'] = 'Druid Glyphs'
 L['options_icons_druid_glyph_desc'] = 'Display locations for {note:Druid Glyphs}.'
 
-L['elianna_vendor_note'] = 'Exchange {currency:2777} for pets and mounts.'
+L['elianna_vendor_note'] = 'Completing activities around the {location:Emerald Dream} will reward %s (a hidden currency).\n\nEarning 7,000 %s will unlock {quest:78598} from {npc:211209} which rewareds 1x {currency:2777}.\n\nExchange {currency:2777} for pets and mounts.'
+L['dream_energy_name'] = 'Dream Energy'
+L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
+
 L['sylvia_vendor_note'] = 'Exchange {currency:2651} for pets, mounts, and transmog.'
 
 L['somnut'] = 'Somnut'

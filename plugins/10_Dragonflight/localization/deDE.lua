@@ -946,7 +946,10 @@ L['prismatic_note_5'] = nil
 L['options_icons_druid_glyph'] = 'Druidenglyphen'
 L['options_icons_druid_glyph_desc'] = 'Zeigt die Positionen der {note:Druidenglyphen} an.'
 
-L['elianna_vendor_note'] = 'Tausche {currency:2777} gegen Reittiere und Haustiere ein.'
+L['elianna_vendor_note'] = nil
+L['dream_energy_name'] = nil
+L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
+
 L['sylvia_vendor_note'] = 'Tausche {currency:2651} gegen Reittiere, Haustiere und Ausrüstungsvorlagen ein.'
 
 L['somnut'] = 'Schlummernuss'

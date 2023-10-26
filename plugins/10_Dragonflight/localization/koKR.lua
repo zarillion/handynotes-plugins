@@ -878,6 +878,9 @@ L['options_icons_druid_glyph'] = nil
 L['options_icons_druid_glyph_desc'] = nil
 
 L['elianna_vendor_note'] = nil
+L['dream_energy_name'] = nil
+L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
+
 L['sylvia_vendor_note'] = nil
 
 L['somnut'] = nil
