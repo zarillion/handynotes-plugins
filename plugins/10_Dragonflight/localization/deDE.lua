@@ -925,29 +925,29 @@ L['mbc_feral_dreamstone_label'] = 'Wilder Traumstein'
 
 L['azure_somnowl_note'] = 'Schließe die kurze Questreihe für Druiden ab, die mit der Quest {quest:78066} endet, um die {item:210645} zu erhalten.'
 
-L['slumbering_somnowl_note_a'] = nil
-L['slumbering_somnowl_note_b'] = nil
-L['slumbering_somnowl_note_c'] = nil
-L['slumbering_somnowl_note_d'] = nil
-L['slumbering_somnowl_note_e'] = nil
+L['slumbering_somnowl_note_a'] = 'Sammle 5x {item:210565}, indem du {npc:Schlummereulen} mit deiner Fähigkeit {spell:2637} in der Zone {location:Der Smaragdgrüne Traum} in den Schlaf versetzt.'
+L['slumbering_somnowl_note_b'] = 'Kaufe 1x {item:4291} bei einem Händler für Handwerkswaren.'
+L['slumbering_somnowl_note_c'] = 'Kombiniere 5x {item:210565} und 1x {item:4291}, um {item:210566} herzustellen.'
+L['slumbering_somnowl_note_d'] = 'Sammle 1x {item:194864}.'
+L['slumbering_somnowl_note_e'] = 'Kombiniere 1x {item:210566} und 1x {item:194864}, um {item:210535} herzustellen.'
 
 L['thaelishar_vendor_note'] = 'Tausche Gold gegen Druidenglyphen ein.'
 L['silent_mark_label'] = 'Reichtraumklippen'
 L['silent_mark_note'] = 'Visiere das richtige Tier an und kanalisiere das Mal, um es auf diese Form einzustimmen. {note:Du musst das Mal mit 10+ Tieren einstimmen.}\n\nKanalisiere {item:210764} auf {npc:210892}.\n\nKanalisiere {item:210767} auf {npc:211347}, {npc:211283}, oder {npc:210894}.\n\nKanalisiere {item:210755} auf {npc:210594}.\n\nKanalisiere {item:210766} auf {npc:209494}.'
 
-L['amirdrassil'] = nil
-L['prismatic_location'] = nil
-L['prismatic_note_1'] = nil
-L['prismatic_note_2'] = nil
-L['prismatic_note_3'] = nil
-L['prismatic_note_4'] = nil
-L['prismatic_note_5'] = nil
+L['amirdrassil'] = 'Amirdrassil, Hoffnung des Traums'
+L['prismatic_location'] = 'Im Schlachtzug {location:Amirdrassil, Hoffnung des Traums}.'
+L['prismatic_note_1'] = '1. Angle 10x {item:210782} aus Becken in der {location:Urquellvorhalle}.'
+L['prismatic_note_2'] = '2. Angle 10x {item:210783} aus Lavabecken in {location:Die Versengte Halle}.'
+L['prismatic_note_3'] = '3. Wirf alle 20x Fische in das größte Becken in der {location:Urquellvorhalle}, um für 30 Minuten den Stärkungszauber {spell:427145} zu erhalten.'
+L['prismatic_note_4'] = '4. Anlge im {object:Prosmatischer Schnurrwels} Fischbecken in der {location:Urquellvorhalle}, bis du {item:210784} fängst.'
+L['prismatic_note_5'] = '5. Lasse {npc:Xena} im Becken in der {location:Urquellvorhalle} wieder frei, um {item:210753} zu erhalten.'
 
 L['options_icons_druid_glyph'] = 'Druidenglyphen'
 L['options_icons_druid_glyph_desc'] = 'Zeigt die Positionen der {note:Druidenglyphen} an.'
 
-L['elianna_vendor_note'] = nil
-L['dream_energy_name'] = nil
+L['elianna_vendor_note'] = 'Schließe Aktivitäten im {location:Der Smaragdgrüne Traum} ab, um %s (a hidden currency) zu erhalten.\n\nVerdiene 7,000 %s, um von {npc:211209} die Quest {quest:78598} zu erhalten, welche dir als Belohnung 1x {currency:2777} gewährt.\n\nTausche {currency:2777} gegen Reittiere und Haustiere ein.'
+L['dream_energy_name'] = 'Traumenergie'
 L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
 
 L['sylvia_vendor_note'] = 'Tausche {currency:2651} gegen Reittiere, Haustiere und Ausrüstungsvorlagen ein.'
@@ -956,8 +956,8 @@ L['somnut'] = 'Schlummernuss'
 L['options_icons_somnut'] = 'Schlummernuss'
 L['options_icons_somnut_desc'] = 'Zeigt die möglichen Positionen für {object:Schlummernuss} an.'
 
-L['improvised_leafbed_note'] = nil
-L['kalandu_note'] = nil
+L['improvised_leafbed_note'] = 'Beginne die Quest {quest:77896} und schließe die Questreihe ab, um {item:210864} von {npc:210164} zu erhalten.'
+L['kalandu_note'] = 'Beginne die Quest {quest:77948} und schließe die Questreihe ab, um {item:210633} von {npc:210196} zu erhalten.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
