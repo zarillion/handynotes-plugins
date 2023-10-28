@@ -958,25 +958,25 @@ L['options_icons_somnut_desc'] = 'Muestra dónden pueden estar los {object:Somnu
 L['improvised_leafbed_note'] = 'Completa la cadena de misiones comenzando con {quest:77896} para conseguir la {item:210864} de {npc:210164}.'
 L['kalandu_note'] = 'Completa la cadena de misiones comenzando con {quest:77948} para conseguir a {item:210633} de {npc:210196}.'
 
-L['Ochre_note'] = nil
-L['Ochre_note_Stage1'] = nil
-L['Ochre_note_Stage2'] = nil
-L['Ochre_note_Stage3'] = nil
-L['Ochre_note_Stage4'] = nil
-L['Ochre_note_Stage5'] = nil
+L['Ochre_note'] = 'Habla con {npc:209253} para empezar la cadena de misiones. {npc:209571} te ofrecerá las siguientes fases.'
+L['Ochre_note_Stage1'] = '{quest:77677}. {note:5 días para crecer.}'
+L['Ochre_note_Stage2'] = '{quest:78398}. {note:5 días para crecer.}'
+L['Ochre_note_Stage3'] = 'Consigue {item:208646} ({note:espera 3 días}) para combinarlo definitivamente en {item:208647}, antes de acabar {quest:77697}. {note:5 días para crecer.}'
+L['Ochre_note_Stage4'] = '{quest:77711}. {note:5 días para crecer.}'
+L['Ochre_note_Stage5'] = '{quest:77762}.'
 
-L['thorn_beast_stag'] = nil
-L['thorn_beast_saber'] = nil
-L['thorn_beast_bear'] = nil
-L['thornbeast_note'] = nil
-L['athainne_note'] = nil
-L['ulfar_note'] = nil
-L['thorn_beast_step_2'] = nil
-L['thorn_beast_step_3'] = nil
-L['thorn_beast_step_4'] = nil
-L['thorn_stag_note'] = nil
-L['thorn_saber_note'] = nil
-L['thorn_bear_note'] = nil
+L['thorn_beast_stag'] = ' (Venado)'
+L['thorn_beast_saber'] = ' (Sable)'
+L['thorn_beast_bear'] = ' (Oso)'
+L['thornbeast_note'] = 'Para domesticar 3 tipos de Bestias de Espinas\n\nPASO 1\n\nUn cazador tiene la probabilidad de despojar 3 tipos de {item:209860} de los venados, sables y osos en el {location:Sueño Esmeralda}.\n\n'
+L['athainne_note'] = '{note:Las {item:209860} difieren según el tipo de bestia.}\n\nPara domesticar 3 tipos de Bestias de Espinas\n\nPASO 2\n\n{npc:140044} pasea con {npc:129771} por la noche y descansa en la Guarida de {npc:149386} durante el día.\n{note:Hora del Servidor:\n  05:00~19:00 Día\n  19:00~05:00 Noche\n(Ella sólo reaparece al amanecer y al atardecer, y existe hasta la próxima reaparición. \nSu ausencia ocurre cuando la cierva perdió el último tiempo de reaparición debido a que la zona de instancia se recicló o el servidor se reinició.\nSi es el caso, intenta cruzar servidores o entrar/salir del modo guerra.)\nPídele ayuda para bendecir el {item:209860} para crear {item:209863}.\n\n'
+L['ulfar_note'] = '{note:Las {item:209863} difieren según el tipo de bestia.}\n\nPara domesticar 3 tipos de Bestias de Espinas\n\nPASO 3\n\nPregunta a {npc:149386} sobre usar {item:209863} para crear {item:209866}.\n\n'
+L['thorn_beast_step_2'] = 'Siguiente Paso: Ves a {location:Drustvar} en {location:Kul Tiras}, y encuentra una cierva llamada {npc:140044}.'
+L['thorn_beast_step_3'] = 'Siguiente Paso: Ves a la Guarida de {npc:149386} a por su ayuda.'
+L['thorn_beast_step_4'] = 'Siguiente Paso: Vuelve al {location:Sueño Esmeralda}, y encuentra los objetivos adecuados para el ritual de transformación.'
+L['thorn_stag_note'] = '{note:El {item:209866} difiere según el tipo de bestia.}\n\nPara domesticar 3 tipos de Bestias de Espinas (Venado)\n\nPASO 4\n\nMata a {npc:210976} y usa el {item:209866} en el cuerpo. El venado renace como {npc:210984} <Espíritu Nacido de las Espinas>.\nUsa {spell:1515} en él.\nHay tres colores disponibles para {npc:210984} con diferentes ID de NPC. (Negro, Marrón, Verde)'
+L['thorn_saber_note'] = '{note:El {item:209867} difiere según el tipo de bestia.}\n\nPara domesticar 3 tipos de Bestias de Espinas (Sable)\n\nPASO 4\n\nMata a {npc:210975} y usa el {item:209867} en el cuerpo. El sable renace como {npc:210981} <Espíritu Nacido de las Espinas>.\nUsa {spell:1515} en él.\nHay tres colores disponibles para {npc:210981} con diferentes ID de NPC. (Negro, Verde, Pálido)'
+L['thorn_bear_note'] = '{note:El {item:209868} difiere según el tipo de bestia.}\n\nPara domesticar 3 tipos de Bestias de Espinas (Oso)\n\nPASO 4\n\nMata a {npc:210977}, y usa el {item:209868} en el cuerpo. El oso renace como {npc:210988} <Espíritu Nacido de las Espinas>.\nUsa {spell:1515} en él.\nHay tres colores disponibles para {npc:210988} con diferentes ID de NPC. (Marrón, Negro, Verde)'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
