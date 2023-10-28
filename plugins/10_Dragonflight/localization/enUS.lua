@@ -958,6 +958,26 @@ L['options_icons_somnut_desc'] = 'Display possible locations of {object:Somnuts}
 L['improvised_leafbed_note'] = 'Complete the quest chain beginning with {quest:77896} to receive the {item:210864} from {npc:210164}.'
 L['kalandu_note'] = 'Complete the quest chain beginning with {quest:77948} to receive {item:210633} from {npc:210196}.'
 
+L['Ochre_note'] = 'Talk to {npc:209253} to begin quest line, {npc:209571} will offer the next stages.'
+L['Ochre_note_Stage1'] = '{quest:77677}. {note:5 days to grow.}'
+L['Ochre_note_Stage2'] = '{quest:78398}. {note:5 days to grow.}'
+L['Ochre_note_Stage3'] = 'Have to {note:wait 3 days} for {item:208646} to completely combined to {item:208647}, before finishing {quest:77697}. {note:5 days to grow.}'
+L['Ochre_note_Stage4'] = '{quest:77711}. {note:5 days to grow.}'
+L['Ochre_note_Stage5'] = '{quest:77762}.'
+
+L['thorn_beast_stag'] = ' (Stag)'
+L['thorn_beast_saber'] = ' (Saber)'
+L['thorn_beast_bear'] = ' (Bear)'
+L['thornbeast_note'] = 'To tame 3 kinds of Thorn Beasts\n\nSTEP 1\n\nA hunter has a chace to loot 3 kinds of {item:209860s} from stags, sabers, and bears in {location:Emerald Dream}.\n\n'
+L['athainne_note'] = '{note:{item:209860s} are different from each kind of beast.}\n\nTo tame 3 kinds of Thorn Beasts\n\nSTEP 2\n\n{npc:140044} walks with {npc:129771} at night, and rests in {npc:149386}\'s Den during daytime.\n{note:Sever Time:\n  05:00~19:00 Daytime\n  19:00~05:00 Nighttime\n(She only respawns at sunrise and sunset, and exists till next respawn. \nHer absense occurs when the doe missed the last respawn time due to the instance zone recycled or the sever restarted.\nIf the case, try to cross servers or shift in/out warmode.)\nAsk her for help to bless on {item:209860} to create {item:209863}.\n\n'
+L['ulfar_note'] = '{note:{item:209863s} are different from each kind of beast.}\n\nTo tame 3 kinds of Thorn Beasts\n\nSTEP 3\n\nAsk {npc:149386} to use {item:209863s} to creat {item:209866s}.\n\n'
+L['thorn_beast_step_2'] = 'Next Step: Go to {location:Drustvar} in {location:Kul Tiras}, and find a doe called {npc:140044}.'
+L['thorn_beast_step_3'] = 'Next Step: Go to {npc:149386}\'s Den for his help.'
+L['thorn_beast_step_4'] = 'Next Step: Go back to {location:Emerald Dream}, and find the suitable targets for the transformation ritual.'
+L['thorn_stag_note'] = '{note:{item:209866s} are different from each kind of beast.}\n\nTo tame 3 kinds of Thorn Beasts (Stag)\n\nSTEP 4\n\nSlain {npc:210976}, then use {item:209866} on the corpse. The stag reborns as {npc:210984} <Thornborn Spirit>.\nCast {spell:1515} on it.\nThree color are available for {npc:210984} with different NPCID. (Black, Brown, Green)'
+L['thorn_saber_note'] = '{note:{item:209867s} are different from each kind of beast.}\n\nTo tame 3 kinds of Thorn Beasts (Saber)\n\nSTEP 4\n\nSlain {npc:210975}, then use {item:209866} on the corpse. The stag reborns as {npc:210981} <Thornborn Spirit>.\nCast {spell:1515} on it.\nThree color are available for {npc:210981} with different NPCID. (Black, Green, Pale)'
+L['thorn_bear_note'] = '{note:{item:209868s} are different from each kind of beast.}\n\nTo tame 3 kinds of Thorn Beasts (Bear)\n\nSTEP 4\n\nSlain {npc:210977}, then use {item:209866} on the corpse. The stag reborns as {npc:210988} <Thornborn Spirit>.\nCast {spell:1515} on it.\nThree color are available for {npc:210988} with different NPCID. (Brown, Dark, Green)'
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
