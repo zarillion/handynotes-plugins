@@ -958,6 +958,26 @@ L['options_icons_somnut_desc'] = 'Muestra dónden pueden estar los {object:Somnu
 L['improvised_leafbed_note'] = 'Completa la cadena de misiones comenzando con {quest:77896} para conseguir la {item:210864} de {npc:210164}.'
 L['kalandu_note'] = 'Completa la cadena de misiones comenzando con {quest:77948} para conseguir a {item:210633} de {npc:210196}.'
 
+L['Ochre_note'] = nil
+L['Ochre_note_Stage1'] = nil
+L['Ochre_note_Stage2'] = nil
+L['Ochre_note_Stage3'] = nil
+L['Ochre_note_Stage4'] = nil
+L['Ochre_note_Stage5'] = nil
+
+L['thorn_beast_stag'] = nil
+L['thorn_beast_saber'] = nil
+L['thorn_beast_bear'] = nil
+L['thornbeast_note'] = nil
+L['athainne_note'] = nil
+L['ulfar_note'] = nil
+L['thorn_beast_step_2'] = nil
+L['thorn_beast_step_3'] = nil
+L['thorn_beast_step_4'] = nil
+L['thorn_stag_note'] = nil
+L['thorn_saber_note'] = nil
+L['thorn_bear_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
