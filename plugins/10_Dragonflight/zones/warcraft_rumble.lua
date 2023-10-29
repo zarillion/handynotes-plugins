@@ -58,7 +58,6 @@ local Machine = Class('Machine', ns.node.Collectible, {
     label = L['warcraft_rumble_machine'],
     icon = 5149946,
     group = ns.groups.WARCRAFT_RUMBLE,
-    location = L['wr_val_machine'],
     rewards = {
         Achievement({
             id = 17361,
@@ -189,4 +188,4 @@ val.nodes[46104670] = Foil({
     quest = 74849,
     parent = {1978}
 })
-val.nodes[48104660] = Machine({parent = {1978}})
+val.nodes[48104660] = Machine({location = L['wr_val_machine'], parent = {1978}})
