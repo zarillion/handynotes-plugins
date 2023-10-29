@@ -84,57 +84,109 @@ local Machine = Class('Machine', ns.node.Collectible, {
 
 ---------------------------------- STORMWIND ----------------------------------
 
-sto.nodes[31203740] = Coin({location = L['wr_sto_coin_01'], quest = 74844})
-sto.nodes[38704610] = Foil({location = L['wr_sto_foil_01'], quest = 74286})
-sto.nodes[75108600] = Foil({location = L['wr_sto_foil_02'], quest = 73952})
-sto.nodes[28424122] = Machine()
+sto.nodes[31203740] = Coin({
+    location = L['wr_sto_coin_01'],
+    quest = 74844,
+    parent = {37, 13}
+})
+sto.nodes[38704610] = Foil({
+    location = L['wr_sto_foil_01'],
+    quest = 74286,
+    parent = {37, 13}
+})
+sto.nodes[75108600] = Foil({
+    location = L['wr_sto_foil_02'],
+    quest = 73952,
+    parent = {37, 13}
+})
+sto.nodes[28424122] = Machine({parent = {37, 13}})
 
 ----------------------------------- ORGIMMAR ----------------------------------
 
-dur.nodes[56001200] = Foil({location = L['wr_dur_foil_01'], quest = 74287})
-org.nodes[54067520] = Foil({location = L['wr_org_foil_01'], quest = 74848})
-org.nodes[54507738] = Coin({location = L['wr_org_coin_01'], quest = 74845})
-org.nodes[50548249] = Machine()
+dur.nodes[56001200] = Foil({
+    location = L['wr_dur_foil_01'],
+    quest = 74287,
+    parent = {1, 12}
+})
+org.nodes[54067520] = Foil({
+    location = L['wr_org_foil_01'],
+    quest = 74848,
+    parent = {1, 12}
+})
+org.nodes[54507738] = Coin({
+    location = L['wr_org_coin_01'],
+    quest = 74845,
+    parent = {1, 12}
+})
+org.nodes[50548249] = Machine({parent = {1, 12}})
 
 ------------------------------ THE WAKING SHORES ------------------------------
 
 tws.nodes[56461925] = Both({
     location = L['wr_tws_both_01'],
-    quest = {73182, 75039} -- Coin, Foil
+    quest = {73182, 75039}, -- Coin, Foil
+    parent = {1978}
 })
-
-tws.nodes[34606370] = Foil({location = L['wr_tws_foil_01'], quest = 74851})
-tws.nodes[63107860] = Foil({location = L['wr_tws_foil_02'], quest = 74850})
+tws.nodes[34606370] = Foil({
+    location = L['wr_tws_foil_01'],
+    quest = 74851,
+    parent = {1978}
+})
+tws.nodes[63107860] = Foil({
+    location = L['wr_tws_foil_02'],
+    quest = 74850,
+    parent = {1978}
+})
 
 ------------------------------- OHN'AHRAN PLAINS ------------------------------
 
 ohn.nodes[19128201] = Both({
     location = L['wr_ohn_both_01'],
-    quest = {73928, 75040} -- Coin, Foil
+    quest = {73928, 75040}, -- Coin, Foil
+    parent = {1978}
 })
-
-ohn.nodes[81807790] = Foil({location = L['wr_ohn_foil_02'], quest = 75036})
+ohn.nodes[81807790] = Foil({
+    location = L['wr_ohn_foil_02'],
+    quest = 75036,
+    parent = {1978}
+})
 
 --------------------------------- AZURE SPAN ----------------------------------
 
 tas.nodes[07504755] = Both({
     location = L['wr_tas_both_01'],
-    quest = {73936, 75041} -- Coin, Foil
+    quest = {73936, 75041}, -- Coin, Foil
+    parent = {1978}
 })
-
-tas.nodes[57303770] = Foil({location = L['wr_tas_foil_01'], quest = 75037})
+tas.nodes[57303770] = Foil({
+    location = L['wr_tas_foil_01'],
+    quest = 75037,
+    parent = {1978}
+})
 
 --------------------------------- THALDRASZUS ---------------------------------
 
 tha.nodes[49205840] = Both({
     location = L['wr_tha_both_01'],
-    quest = {74843, 75038} -- Coin, Foil
+    quest = {74843, 75038}, -- Coin, Foil
+    parent = {1978}
 })
-
-tha.nodes[57006680] = Foil({location = L['wr_tha_foil_01'], quest = 74852})
+tha.nodes[57006680] = Foil({
+    location = L['wr_tha_foil_01'],
+    quest = 74852,
+    parent = {1978}
+})
 
 --------------------------------- VALDRAKKEN ----------------------------------
 
-val.nodes[45504710] = Coin({location = L['wr_val_coin_01'], quest = 73180})
-val.nodes[46104670] = Foil({location = L['wr_val_foil_01'], quest = 74849})
-val.nodes[48104660] = Machine()
+val.nodes[45504710] = Coin({
+    location = L['wr_val_coin_01'],
+    quest = 73180,
+    parent = {1978}
+})
+val.nodes[46104670] = Foil({
+    location = L['wr_val_foil_01'],
+    quest = 74849,
+    parent = {1978}
+})
+val.nodes[48104660] = Machine({parent = {1978}})
