@@ -890,12 +890,12 @@ L['options_icons_somnut_desc'] = nil
 L['improvised_leafbed_note'] = nil
 L['kalandu_note'] = nil
 
-L['Ochre_note'] = nil
-L['Ochre_note_Stage1'] = nil
-L['Ochre_note_Stage2'] = nil
-L['Ochre_note_Stage3'] = nil
-L['Ochre_note_Stage4'] = nil
-L['Ochre_note_Stage5'] = nil
+L['ochre_note'] = nil
+L['ochre_note_stage1'] = nil
+L['ochre_note_stage2'] = nil
+L['ochre_note_stage3'] = nil
+L['ochre_note_stage4'] = nil
+L['ochre_note_stage5'] = nil
 
 L['thorn_beast_stag'] = nil
 L['thorn_beast_saber'] = nil
