@@ -930,7 +930,6 @@ L['mbc_feral_dreamstone_label'] = '野性梦境石'
 
 L['azure_somnowl_note'] = '完成一个德鲁伊专属的简短任务线，最后一步{quest:78066}奖励{item:210645}。'
 
-L['slumbering_somnowl_note'] = '对诸如{npc:211176}, {npc:209975}, {npc:208234}, {npc:210942}等施放{spell:2637}，之后你便能从一只睡着的{npc:寐枭}身上{spell:426183}，获得一根{item:210565}。之后{npc:寐枭}会有一个减益{spell:426272}, 在5分钟之内阻止你从同一只{npc:寐枭}身上继续薅。\n\n'
 L['slumbering_somnowl_note_a'] = '对{location:翡翠梦境}里各种{npc:寐枭}施放{spell:2637}然后{spell:426183}，收集5根{item:210565}。'
 L['slumbering_somnowl_note_b'] = '从商人处购买一缕{item:4291} 。'
 L['slumbering_somnowl_note_c'] = '将5根{item:210565}和一缕{item:4291}组成{item:210566}。'
