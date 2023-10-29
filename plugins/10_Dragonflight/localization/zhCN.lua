@@ -965,12 +965,12 @@ L['options_icons_somnut_desc'] = '显示{object:小型眠果}可能的位置'
 L['improvised_leafbed_note'] = '完成从{quest:77896}起始的任务线，从{npc:210164}得到奖励{item:210864}。'
 L['kalandu_note'] = '完成从{quest:77948}起始的任务线，从{npc:210196}得到奖励{item:210633}。'
 
-L['Ochre_note'] = '和{npc:209253}对话开始任务线, {npc:209571}会布置接下来的任务。'
-L['Ochre_note_Stage1'] = '{quest:77677}。{note:生长期5天。}'
-L['Ochre_note_Stage2'] = '{quest:78398}。{note:生长期5天。}'
-L['Ochre_note_Stage3'] = '{item:208646} 完全合成 {item:208647} {note:需要等待3天}，才能完成{quest:77697}。{note:生长期5天。}'
-L['Ochre_note_Stage4'] = '{quest:77711}。{note:生长期5天。}'
-L['Ochre_note_Stage5'] = '{quest:77762}。'
+L['ochre_note'] = '和{npc:209253}对话开始任务线, {npc:209571}会布置接下来的任务。'
+L['ochre_note_stage1'] = '{quest:77677}。{note:生长期5天。}'
+L['ochre_note_stage2'] = '{quest:78398}。{note:生长期5天。}'
+L['ochre_note_stage3'] = '{item:208646} 完全合成 {item:208647} {note:需要等待3天}，才能完成{quest:77697}。{note:生长期5天。}'
+L['ochre_note_stage4'] = '{quest:77711}。{note:生长期5天。}'
+L['ochre_note_stage5'] = '{quest:77762}。'
 
 L['thorn_beast_stag'] = ' (鹿)'
 L['thorn_beast_saber'] = ' (豹)'
@@ -982,8 +982,8 @@ L['thorn_beast_step_2'] = '下一步: 去{location:库尔提拉斯}的{location:
 L['thorn_beast_step_3'] = '下一步: 去{npc:149386}的兽穴找他帮忙。'
 L['thorn_beast_step_4'] = '下一步: 回{location:翡翠梦境}, 为转化仪式找到合适的目标。'
 L['thorn_stag_note'] = '{note:每种野兽的{item:209866}虽同名但不一样。}\n\n驯服3种荆生野兽：(鹿)\n\n阶段 4\n\n杀死{npc:210976},对尸体使用{item:209866}。梦麋重生为{npc:210984}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210984}有三种颜色(黑, 褐, 绿)，对应不同NPCID。'
-L['thorn_saber_note'] = '{note:每种野兽的{item:209867}虽同名但不一样。}\n\n驯服3种荆生野兽：(豹)\n\n阶段 4\n\n杀死{npc:210975},对尸体使用{item:209866}。梦刃豹重生为{npc:210981}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210981}有三种颜色(黑, 绿, 灰)，对应不同NPCID。'
-L['thorn_bear_note'] = '{note:每种野兽的{item:209868}虽同名但不一样。}\n\n驯服3种荆生野兽：(熊)\n\n阶段 4\n\n杀死{npc:210977},对尸体使用{item:209866}。鬃罴重生为{npc:210988}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210988}有三种颜色(褐, 暗, 绿)，对应不同NPCID。'
+L['thorn_saber_note'] = '{note:每种野兽的{item:209867}虽同名但不一样。}\n\n驯服3种荆生野兽：(豹)\n\n阶段 4\n\n杀死{npc:210975},对尸体使用{item:209867}。梦刃豹重生为{npc:210981}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210981}有三种颜色(黑, 绿, 灰)，对应不同NPCID。'
+L['thorn_bear_note'] = '{note:每种野兽的{item:209868}虽同名但不一样。}\n\n驯服3种荆生野兽：(熊)\n\n阶段 4\n\n杀死{npc:210977},对尸体使用{item:209868}。鬃罴重生为{npc:210988}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210988}有三种颜色(褐, 暗, 绿)，对应不同NPCID。'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
