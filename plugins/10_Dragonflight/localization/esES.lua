@@ -961,7 +961,7 @@ L['kalandu_note'] = 'Completa la cadena de misiones comenzando con {quest:77948}
 L['ochre_note'] = 'Habla con {npc:209253} para empezar la cadena de misiones. {npc:209571} te ofrecerá las siguientes fases.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:5 días para crecer.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:5 días para crecer.}'
-L['ochre_note_stage3'] = 'Consigue {item:208646} ({note:espera 3 días}) para combinarlo definitivamente en {item:208647}, antes de acabar {quest:77697}. {note:5 días para crecer.}'
+L['ochre_note_stage3'] = '{npc:209571} te dejará recoger 5x {item:4537} {dot:Yellow}, 3x {item:209416} {dot:Green}, y 5x {item:208644} {dot:Red}, para después combinarlos en {item:208646}. {note:Espera 3 días} para que se convierta en {item:208647}, antes de acabar {quest:77697}. {note:5 días para crecer.}'
 L['ochre_note_stage4'] = '{quest:77711}. {note:5 días para crecer.}'
 L['ochre_note_stage5'] = '{quest:77762}.'
 
