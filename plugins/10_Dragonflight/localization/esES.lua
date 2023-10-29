@@ -958,12 +958,12 @@ L['options_icons_somnut_desc'] = 'Muestra dónden pueden estar los {object:Somnu
 L['improvised_leafbed_note'] = 'Completa la cadena de misiones comenzando con {quest:77896} para conseguir la {item:210864} de {npc:210164}.'
 L['kalandu_note'] = 'Completa la cadena de misiones comenzando con {quest:77948} para conseguir a {item:210633} de {npc:210196}.'
 
-L['Ochre_note'] = 'Habla con {npc:209253} para empezar la cadena de misiones. {npc:209571} te ofrecerá las siguientes fases.'
-L['Ochre_note_Stage1'] = '{quest:77677}. {note:5 días para crecer.}'
-L['Ochre_note_Stage2'] = '{quest:78398}. {note:5 días para crecer.}'
-L['Ochre_note_Stage3'] = 'Consigue {item:208646} ({note:espera 3 días}) para combinarlo definitivamente en {item:208647}, antes de acabar {quest:77697}. {note:5 días para crecer.}'
-L['Ochre_note_Stage4'] = '{quest:77711}. {note:5 días para crecer.}'
-L['Ochre_note_Stage5'] = '{quest:77762}.'
+L['ochre_note'] = 'Habla con {npc:209253} para empezar la cadena de misiones. {npc:209571} te ofrecerá las siguientes fases.'
+L['ochre_note_stage1'] = '{quest:77677}. {note:5 días para crecer.}'
+L['ochre_note_stage2'] = '{quest:78398}. {note:5 días para crecer.}'
+L['ochre_note_stage3'] = 'Consigue {item:208646} ({note:espera 3 días}) para combinarlo definitivamente en {item:208647}, antes de acabar {quest:77697}. {note:5 días para crecer.}'
+L['ochre_note_stage4'] = '{quest:77711}. {note:5 días para crecer.}'
+L['ochre_note_stage5'] = '{quest:77762}.'
 
 L['thorn_beast_stag'] = ' (Venado)'
 L['thorn_beast_saber'] = ' (Sable)'
