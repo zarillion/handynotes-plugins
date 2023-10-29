@@ -961,7 +961,7 @@ L['kalandu_note'] = 'Complete the quest chain beginning with {quest:77948} to re
 L['ochre_note'] = 'Talk to {npc:209253} to begin quest line, {npc:209571} will offer the next stages.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:5 days to grow.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:5 days to grow.}'
-L['ochre_note_stage3'] = 'Have to {note:wait 3 days} for {item:208646} to completely combined to {item:208647}, before finishing {quest:77697}. {note:5 days to grow.}'
+L['ochre_note_stage3'] = '{npc:209571} will let you to collect 5x{item:4537}{dot:Yellow}, 3x{item:209416}{dot:Green}, and 5x{item:208644}{dot:Red}, combine them into {item:208646}. {note:Wait 3 days} for it to become {item:208647}, before finishing {quest:77697}. {note:5 days to grow.}'
 L['ochre_note_stage4'] = '{quest:77711}. {note:5 days to grow.}'
 L['ochre_note_stage5'] = '{quest:77762}.'
 
