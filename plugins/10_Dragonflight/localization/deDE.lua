@@ -959,12 +959,12 @@ L['options_icons_somnut_desc'] = 'Zeigt die möglichen Positionen für {object:S
 L['improvised_leafbed_note'] = 'Beginne die Quest {quest:77896} und schließe die Questreihe ab, um {item:210864} von {npc:210164} zu erhalten.'
 L['kalandu_note'] = 'Beginne die Quest {quest:77948} und schließe die Questreihe ab, um {item:210633} von {npc:210196} zu erhalten.'
 
-L['Ochre_note'] = nil
-L['Ochre_note_Stage1'] = nil
-L['Ochre_note_Stage2'] = nil
-L['Ochre_note_Stage3'] = nil
-L['Ochre_note_Stage4'] = nil
-L['Ochre_note_Stage5'] = nil
+L['ochre_note'] = nil
+L['ochre_note_stage1'] = nil
+L['ochre_note_stage2'] = nil
+L['ochre_note_stage3'] = nil
+L['ochre_note_stage4'] = nil
+L['ochre_note_stage5'] = nil
 
 L['thorn_beast_stag'] = nil
 L['thorn_beast_saber'] = nil
