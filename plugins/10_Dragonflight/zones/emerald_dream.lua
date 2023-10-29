@@ -1464,9 +1464,8 @@ local Ochre = Class('Ochre', Collectible, {
         POI({color = 'Green', points = {43558093, 43157962, 43067724}}), -- Tutle Egg
         POI({color = 'Red', points = {58705344, 58335391, 57915537}}), -- Fenblossom Lashling
         Path({color = 'Red', ns.poi.Circle({origin = 56104577, radius = 3})})
-        }
     }
-) -- Smoldering Sprout
+}) -- Smoldering Sprout
 
 function Ochre.getters:note()
     local note = L['ochre_note']
@@ -1491,13 +1490,19 @@ local Thornbeast = Class('Thornbeast', Treasure, {
 
 function Thornbeast.getters:note()
     local note = L['thornbeast_note']
-    note = note .. ItemStatus(209860, 1, '{item:209860}'..L['thorn_beast_stag'], false)
-    note = note .. ItemStatus(209861, 1, '{item:209861}'..L['thorn_beast_saber'])
-    note = note .. ItemStatus(209862, 1, '{item:209862}'..L['thorn_beast_bear'])
+    note = note ..
+               ItemStatus(209860, 1, '{item:209860}' .. L['thorn_beast_stag'],
+            false)
+    note = note ..
+               ItemStatus(209861, 1, '{item:209861}' .. L['thorn_beast_saber'])
+    note = note ..
+               ItemStatus(209862, 1, '{item:209862}' .. L['thorn_beast_bear'])
     return note .. '\n\n' .. L['thorn_beast_step_2']
 end
 
-map.nodes[49645610] = Thornbeast({pois = {Path({ns.poi.Circle({origin = 49645610, radius = 16})})}})
+map.nodes[49645610] = Thornbeast({
+    pois = {Path({ns.poi.Circle({origin = 49645610, radius = 16})})}
+})
 
 -- STEP 2
 local Drustvar = Map({id = 896, settings = false}) -- Drustvar
@@ -1516,14 +1521,25 @@ local Athainne = Class('Athainne', NPC, {
 
 function Athainne.getters:note()
     local note = L['athainne_note']
-    note = note .. ItemStatus(209863, 1, '{item:209863}'..L['thorn_beast_stag'], false)
-    note = note .. ItemStatus(209864, 1, '{item:209864}'..L['thorn_beast_saber'])
-    note = note .. ItemStatus(209865, 1, '{item:209865}'..L['thorn_beast_bear'])
+    note = note ..
+               ItemStatus(209863, 1, '{item:209863}' .. L['thorn_beast_stag'],
+            false)
+    note = note ..
+               ItemStatus(209864, 1, '{item:209864}' .. L['thorn_beast_saber'])
+    note = note ..
+               ItemStatus(209865, 1, '{item:209865}' .. L['thorn_beast_bear'])
     return note .. '\n\n' .. L['thorn_beast_step_3']
 end
 
 Drustvar.nodes[44924547] = Athainne({pois = {POI({46124524})}}) -- day
-Drustvar.nodes[51653967] = Athainne({pois = {Path({51653967, 51444024, 51264102, 51434135, 51744126, 52264082, 52484048, 52453919, 52123911, 51813939, 51653967})}}) -- night
+Drustvar.nodes[51653967] = Athainne({
+    pois = {
+        Path({
+            51653967, 51444024, 51264102, 51434135, 51744126, 52264082,
+            52484048, 52453919, 52123911, 51813939, 51653967
+        })
+    }
+}) -- night
 
 -- STEP 3
 local Ulfar = Class('Ulfar', NPC, {
@@ -1540,9 +1556,13 @@ local Ulfar = Class('Ulfar', NPC, {
 
 function Ulfar.getters:note()
     local note = L['ulfar_note']
-    note = note .. ItemStatus(209866, 1, '{item:209866}'..L['thorn_beast_stag'], false)
-    note = note .. ItemStatus(209867, 1, '{item:209867}'..L['thorn_beast_saber'])
-    note = note .. ItemStatus(209868, 1, '{item:209868}'..L['thorn_beast_bear'])
+    note = note ..
+               ItemStatus(209866, 1, '{item:209866}' .. L['thorn_beast_stag'],
+            false)
+    note = note ..
+               ItemStatus(209867, 1, '{item:209867}' .. L['thorn_beast_saber'])
+    note = note ..
+               ItemStatus(209868, 1, '{item:209868}' .. L['thorn_beast_bear'])
     return note .. '\n\n' .. L['thorn_beast_step_4']
 end
 
@@ -1557,7 +1577,11 @@ map.nodes[44646425] = NPC({
     },
     class = 'HUNTER',
     note = L['thorn_stag_note'],
-    pois = {Path({44836541, 44736496, 44686436, 44646425, 44426404, 44076340, 43696279})}
+    pois = {
+        Path({
+            44836541, 44736496, 44686436, 44646425, 44426404, 44076340, 43696279
+        })
+    }
 }) -- Argyr
 
 map.nodes[57204780] = NPC({

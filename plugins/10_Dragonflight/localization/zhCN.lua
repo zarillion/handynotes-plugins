@@ -889,9 +889,9 @@ L['dreamseed_soil_note'] = [[
 个人捐献1次(5个)，结算{item:210224}
 总进度达成50%，结算{item:210225}
 总进度达成100%，结算{item:210226}
-    ]]
+]]
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
-L['options_icons_dream_of_seeds_desc'] ='显示成就{achievement:19013}中{object:梦境之种壤土}的位置'
+L['options_icons_dream_of_seeds_desc'] = '显示成就{achievement:19013}中{object:梦境之种壤土}的位置'
 
 L['dreamfruit_label'] = '美梦果'
 L['dreamfruit_note_1'] = '{location:超然盛放}事件开始时显现。 事件每整点钟开始。'
