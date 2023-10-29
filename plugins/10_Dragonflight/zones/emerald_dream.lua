@@ -1470,11 +1470,11 @@ local Ochre = Class('Ochre', Collectible, {
 
 function Ochre.getters:note()
     local note = L['Ochre_note']
-    note = note .. QuestStatus(self.quest[1], 1, L['Ochre_note_Stage1']) -- Some Water...
-    note = note .. QuestStatus(self.quest[2], 2, L['Ochre_note_Stage2']) -- A Dash of Minerals...
-    note = note .. QuestStatus(self.quest[3], 3, L['Ochre_note_Stage3']) -- The Right Food...
-    note = note .. QuestStatus(self.quest[4], 4, L['Ochre_note_Stage4']) -- And a Pinch of Magic
-    note = note .. QuestStatus(self.quest[5], 5, L['Ochre_note_Stage5']) -- Little Hope is Never Without Worth
+    note = note .. QuestStatus(self.quest[1], 1, L['ochre_note_stage1']) -- Some Water...
+    note = note .. QuestStatus(self.quest[2], 2, L['ochre_note_stage2']) -- A Dash of Minerals...
+    note = note .. QuestStatus(self.quest[3], 3, L['ochre_note_stage3']) -- The Right Food...
+    note = note .. QuestStatus(self.quest[4], 4, L['ochre_note_stage4']) -- And a Pinch of Magic
+    note = note .. QuestStatus(self.quest[5], 5, L['ochre_note_stage5']) -- Little Hope is Never Without Worth
     return note
 end
 
@@ -1490,8 +1490,7 @@ local Thornbeast = Class('Thornbeast', Treasure, {
 })
 
 function Thornbeast.getters:note()
-    local note = ''
-    note = L['thornbeast_note']
+    local note = L['thornbeast_note']
     note = note .. ItemStatus(209860, 1, '{item:209860}'..L['thorn_beast_stag'], false)
     note = note .. ItemStatus(209861, 1, '{item:209861}'..L['thorn_beast_saber'])
     note = note .. ItemStatus(209862, 1, '{item:209862}'..L['thorn_beast_bear'])
@@ -1516,8 +1515,7 @@ local Athainne = Class('Athainne', NPC, {
 }) -- Athainne
 
 function Athainne.getters:note()
-    local note = ''
-    note = L['athainne_note']
+    local note = L['athainne_note']
     note = note .. ItemStatus(209863, 1, '{item:209863}'..L['thorn_beast_stag'], false)
     note = note .. ItemStatus(209864, 1, '{item:209864}'..L['thorn_beast_saber'])
     note = note .. ItemStatus(209865, 1, '{item:209865}'..L['thorn_beast_bear'])
@@ -1541,8 +1539,7 @@ local Ulfar = Class('Ulfar', NPC, {
 }) -- Ulfar
 
 function Ulfar.getters:note()
-    local note = ''
-    note = L['ulfar_note']
+    local note = L['ulfar_note']
     note = note .. ItemStatus(209866, 1, '{item:209866}'..L['thorn_beast_stag'], false)
     note = note .. ItemStatus(209867, 1, '{item:209867}'..L['thorn_beast_saber'])
     note = note .. ItemStatus(209868, 1, '{item:209868}'..L['thorn_beast_bear'])
