@@ -757,7 +757,7 @@ L['phoenix_wishwing_ash_feather'] = [[
 ]]
 L['phoenix_wishwing_info'] = '这是位于 {location:巨龙群岛} 的 {location:觉醒海岸} 的 {item:193373} 收藏品的一部分。'
 
-L['bugbiter_tortoise_note'] = '收集 {item:202082} {dot:Red} 和 {item:202084} {dot:Green} 并在 {npc:187077} 兑换 {item:202085}。\n\n{npc: 187077} 需要世界任务 {wq:辉刃之骨} 激活。'
+L['bugbiter_tortoise_note'] = '收集 {item:202082} {dot:Red} 和 {item:202084} {dot:Green} 并在 {npc:187077} 兑换 {item:202085}。\n\n{npc:187077} 需要世界任务 {wq:辉刃之骨} 激活。'
 
 L['naszuro_apex_canopy'] = '在楼梯的一根小柱子上。'
 L['naszuro_obsidian_throne'] = '在宝座的左侧，{npc:185894} 和 {npc:187495} 所在的位置。'
@@ -842,117 +842,147 @@ L['options_icons_zone_event_desc'] = '显示区域事件的位置。'
 -------------------------------------------------------------------------------
 
 L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
-L['options_icons_emerald_dream_safari_desc'] = nil
+L['options_icons_emerald_dream_safari_desc'] = '显示成就{achievement:19401}中战斗宠物的位置。'
 
-L['envoy_of_winter_note'] = nil
-L['fruitface_note'] = nil
-L['greedy_gessie_note'] = nil
-L['nuoberon_note'] = nil
-L['reefbreaker_moruud_note'] = nil
-L['surging_lasher_note'] = nil
+L['envoy_of_winter_note'] = '收集{item:208881}，并在井附近使用{spell:421658}，直到{npc:209929}出现。'
+L['fruitface_note'] = '请求{dot:Pink}{npc:209950}对你施放{spell:421446}，以便让地上的{item:208837}显形。捡起果子使得{dot:Yellow}{npc:209980}现身。 攻击他，然后跟随他直至他跳入水中{dot:Red}并且召唤{npc:209966}和稀有{npc:209913}。'
+L['greedy_gessie_note'] = '为野餐收集{object:野生青菜}，{object:红玉之鳞甜瓜} 和{object:橙根}等原料，并将其放置在{npc:210285}们旁的篮子，以开启战斗。'
+L['nuoberon_note'] = '追逐乌龟{npc:209252}，拾取{object:美味的梦境大餐}对猴子{npc:209445}{spell:420253}，或与鳄鱼{npc:209456}搏斗，来帮助{npc:209101}做个有趣的梦！'
+L['reefbreaker_moruud_note'] = '收集附近全部6根{npc:210089}来攻击{npc:209898}。'
+L['surging_lasher_note'] = '当这片区域的{location:翡翠狂欢}事件激活时，会在此刷新。'
 
-L['in_a_tree'] = nil
-L['inside_building'] = nil
+L['in_a_tree'] = '在树上。'
+L['inside_building'] = '在建筑里面。'
 
-L['hidden_moonkin_stash_label'] = nil
-L['magical_bloom_note'] = nil
-L['pineshrew_cache_note'] = nil
-L['reliquary_of_ashamane_note'] = nil
-L['reliquary_of_aviana_note'] = nil
-L['reliquary_of_goldrinn_note'] = nil
-L['reliquary_of_ursol_note'] = nil
-L['triflesnatchs_roving_trove_note'] = nil
+L['hidden_moonkin_stash_label'] = '隐秘的枭兽藏匿物'
+L['magical_bloom_note'] = '追逐{npc:210544}，直至他揭示宝藏。'
+L['pineshrew_cache_note'] = '在石块旁。'
+L['reliquary_of_ashamane_note'] = '{note:如果世界任务{wq:树妖消防演习}激活时，需要先完成任务才能看见宝藏。}\n\n在附近{dot:Green}找到并触摸{object:阿莎曼的印记}， 在有{spell:425426}陪同时回{npc:212009}处。'
+L['reliquary_of_aviana_note'] = '在附近{dot:Green}找到并触摸{object:艾维娜的印记}，在有{spell:425432}陪同时回{npc:212011}处。'
+L['reliquary_of_goldrinn_note'] = '在附近{dot:Green}找到并触摸{object:戈德林的印记}，在有{spell:425408}陪同时回{npc:212012}处。'
+L['reliquary_of_ursol_note'] = '在附近{dot:Green}找到并触摸{object:乌索尔印记}，在有{spell:423306}陪同时回{npc:210732}处。'
+L['triflesnatchs_roving_trove_note'] = '追随{npc:210060}在枝头间的飞翔路线。'
 
-L['unwaking_echo_label'] = nil
-L['unwaking_echo_note'] = nil
+L['unwaking_echo_label'] = '酣梦回响'
+L['unwaking_echo_note'] = '{note:你只能在梦乡中打开这个箱子。}\n\n在旁边{emote:/睡觉}，进入梦乡方可开启箱子。'
 
-L['amirdrassil_defenders_shield_note'] = nil
-L['dreamtalon_claw_note'] = nil
-L['essence_of_dreams_note'] = nil
-L['exceedingly_soft_wildercloth_note'] = nil
-L['experimental_dreamcatcher_note'] = nil
-L['grove_keepers_pillar_note'] = nil
-L['handful_of_pebbles_note'] = nil
-L['molted_faerie_dragon_scales_note'] = nil
-L['petrified_hope_note'] = nil
-L['plush_pillow_note'] = nil
-L['snuggle_buddy_note'] = nil
+L['amirdrassil_defenders_shield_note'] = '在{npc:211328}旁边的桌上。'
+L['dreamtalon_claw_note'] = '在树干的底部。'
+L['essence_of_dreams_note'] = '在浮空的圆形树枝上。'
+L['exceedingly_soft_wildercloth_note'] = '建筑物内的一把椅子后面。'
+L['experimental_dreamcatcher_note'] = '在浮空树上。'
+L['grove_keepers_pillar_note'] = '就在洞穴入口前。'
+L['handful_of_pebbles_note'] = '在雕像的右肩上。'
+L['molted_faerie_dragon_scales_note'] = '花丛之中。'
+L['petrified_hope_note'] = '在树桩上。'
+L['plush_pillow_note'] = '小屋内的一张桌子上。'
+L['snuggle_buddy_note'] = '在一艘小船里。'
 
-L['dreamseed_soil_label'] = nil
-L['dreamseed_soil_note'] = nil
+L['dreamseed_soil_label'] = '梦境之种壤土'
+L['dreamseed_soil_note'] = [[
+    种植的梦境之种的品质，决定了幻梦奖赏的品质，可以开出相应数量的 {currency:2651}, 小宠物{item:210651}和"翡翠奖赏"配色幻化。
+{item:208066}结出{item:210217}
+{item:208067}结出{item:210218}
+{item:208047}结出{item:210219}
+
+    {currency:2650}的捐献进度, 决定了翡翠花蕾的品质，可以开出相应数量{currency:2245s}和专业材料。
+个人捐献1次(5个)，结算{item:210224}
+总进度达成50%，结算{item:210225}
+总进度达成100%，结算{item:210226}
+]]
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
-L['options_icons_dream_of_seeds_desc'] = nil
+L['options_icons_dream_of_seeds_desc'] = '显示成就{achievement:19013}中{object:梦境之种壤土}的位置'
 
-L['dreamfruit_label'] = nil
-L['dreamfruit_note_1'] = nil
-L['dreamfruit_note_2'] = nil
+L['dreamfruit_label'] = '美梦果'
+L['dreamfruit_note_1'] = '{location:超然盛放}事件开始时显现。 事件每整点钟开始。'
+L['dreamfruit_note_2'] = '{location:超然盛放}事件开始后的第一站显现。 事件在{location:阿梅达希尔}周围，每整点钟开始。'
 
-L['options_icons_moonkin_hatchling'] = nil
-L['options_icons_moonkin_hatchling_desc'] = nil
-L['moonkin_hatchling_note'] = nil
+L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
+L['options_icons_moonkin_hatchling_desc'] = '显示成就{achievement:19293}中枭兽宝宝的位置。'
+L['moonkin_hatchling_note'] = '需要世界任务{wq:关切利爪}激活时。'
 
-L['druid_glyphs_label'] = nil
-L['druid_glyphs_sublabel'] = nil
-L['druid_glyphs_note'] = nil
+L['druid_glyphs_label'] = '德鲁伊印记'
+L['druid_glyphs_sublabel'] = '{note:这不是一个德鲁伊印记，而是清单!}'
+L['druid_glyphs_note'] = '在{location:翡翠梦境}中，通过各种途径，收集{note:德鲁伊印记}'
 
-L['pollenfused_bristlebruin_fur_sample_note'] = nil
+L['pollenfused_bristlebruin_fur_sample_note'] = '在{location:焦烬之壤}的一颗树根处拾取{object:花粉灌注的鬃罴毛皮样本}。'
 
-L['mbc_note_start'] = nil
-L['mbc_note_end'] = nil
+L['mbc_note_start'] = '拾取{object:一箱小瓶子}，得到{item:210991}.\n\n你得到6个{item:210839}，需要用来自各大陆的月亮井水来装满。'
+L['mbc_note_end'] = '混合6个{item:210876}制造{item:210977}， 然后来到{location:阿梅达希尔}的{object:野性梦境石}.\n\n使用{item:210977}并拾取{object:月福之爪}，得到{item:210728}。'
 
-L['mbc_vial_b'] = nil
-L['mbc_vial_d'] = nil
-L['mbc_vial_e'] = nil
-L['mbc_vial_k'] = nil
-L['mbc_vial_n'] = nil
-L['mbc_vial_o'] = nil
+L['mbc_vial_b'] = '破'
+L['mbc_vial_d'] = '德'
+L['mbc_vial_e'] = '东'
+L['mbc_vial_k'] = '卡'
+L['mbc_vial_n'] = '诺'
+L['mbc_vial_o'] = '外'
 
-L['mbc_vial_d_location'] = nil
-L['mbc_vial_e_location'] = nil
-L['mbc_vial_k_location'] = nil
-L['mbc_vial_n_location'] = nil
-L['mbc_vial_o_location'] = nil
+L['mbc_vial_d_location'] = '影月谷，星落哨站'
+L['mbc_vial_e_location'] = '暮色森林，黎明森林'
+L['mbc_vial_k_location'] = '月光林地，怒风兽穴'
+L['mbc_vial_n_location'] = '龙骨荒野，群星之墓'
+L['mbc_vial_o_location'] = '赞加沼泽，塞纳里奥避难所'
 
-L['mbc_vial_location'] = nil
+L['mbc_vial_location'] = '携{item:%d}到{location:%s}的月亮井（{location:%s}， {location:%s}），灌满井水，得到{item:%d}。'
 
-L['mbc_moonwell_label'] = nil
-L['mbc_feral_dreamstone_label'] = nil
+L['mbc_moonwell_label'] = '月亮井'
+L['mbc_feral_dreamstone_label'] = '野性梦境石'
 
-L['azure_somnowl_note'] = nil
+L['azure_somnowl_note'] = '完成一个德鲁伊专属的简短任务线，最后一步{quest:78066}奖励{item:210645}。'
 
-L['slumbering_somnowl_note_a'] = nil
-L['slumbering_somnowl_note_b'] = nil
-L['slumbering_somnowl_note_c'] = nil
-L['slumbering_somnowl_note_d'] = nil
-L['slumbering_somnowl_note_e'] = nil
+L['slumbering_somnowl_note_a'] = '对{location:翡翠梦境}里各种{npc:寐枭}施放{spell:2637}然后{spell:426183}，收集5根{item:210565}。'
+L['slumbering_somnowl_note_b'] = '从商人处购买一缕{item:4291} 。'
+L['slumbering_somnowl_note_c'] = '将5根{item:210565}和一缕{item:4291}组成{item:210566}。'
+L['slumbering_somnowl_note_d'] = '获得一个{item:194864}。'
+L['slumbering_somnowl_note_e'] = '将{item:210566}和{item:194864}组成{item:210535}。'
 
-L['thaelishar_vendor_note'] = nil
-L['silent_mark_label'] = nil
-L['silent_mark_note'] = nil
+L['thaelishar_vendor_note'] = '用金币来购买德鲁伊的沉默印记'
+L['silent_mark_label'] = '繁梦峭壁'
+L['silent_mark_note'] = '对目标动物引导，使印记与其形态协调，直至获得{spell:426910}。 {note:你需要协调10来只动物。}\n\n用{item:210764}引导{npc:210892}。\n\n用{item:210767}引导{npc:211347}, {npc:211283}, 或 {npc:210894}。\n\n用{item:210755}引导{npc:210594}.\n\n用{item:210766}引导{npc:209494}。'
 
-L['amirdrassil'] = nil
-L['prismatic_location'] = nil
-L['prismatic_note_1'] = nil
-L['prismatic_note_2'] = nil
-L['prismatic_note_3'] = nil
-L['prismatic_note_4'] = nil
-L['prismatic_note_5'] = nil
+L['amirdrassil'] = '阿梅达希尔，梦境之愿'
+L['prismatic_location'] = '在团本{location:阿梅达希尔，梦境之愿}内。'
+L['prismatic_note_1'] = '1. 从{location:圣泉中庭}的水池中钓10条{item:210782}'
+L['prismatic_note_2'] = '2. 从{location:焰灼大厅(沃尔科罗斯焦坑)}的岩浆中钓10条{item:210783}。'
+L['prismatic_note_3'] = '3. 把10条鱼扔进{location:圣泉中庭}最大的水池中，得到30分钟的增益{spell:427145}。'
+L['prismatic_note_4'] = '4. {location:圣泉中庭}的水池中显现{object:棱光腮须鱼群}，从中可以钓到{item:210784}。'
+L['prismatic_note_5'] = '5. 将{npc:奇娜}放生回{location:圣泉中庭}的水池中，会得到{item:210753}。'
 
-L['options_icons_druid_glyph'] = nil
-L['options_icons_druid_glyph_desc'] = nil
+L['options_icons_druid_glyph'] = '德鲁伊印记'
+L['options_icons_druid_glyph_desc'] = '显示{note:德鲁伊印记}的位置'
 
-L['elianna_vendor_note'] = nil
-L['dream_energy_name'] = nil
+L['elianna_vendor_note'] = '完成{location:翡翠梦境}中的各项活动会奖励%s (隐藏货币)。\n\n %s达到7,000时可以从{npc:211209}处，解锁任务{quest:78598}，奖励1枚{currency:2777}。\n\n用{currency:2777}来购买宠物和坐骑。'
+L['dream_energy_name'] = '梦境能量'
 L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
 
-L['sylvia_vendor_note'] = nil
+L['sylvia_vendor_note'] = '用{currency:2651}来购买宠物，坐骑，幻化'
 
-L['somnut'] = nil
-L['options_icons_somnut'] = nil
-L['options_icons_somnut_desc'] = nil
+L['somnut'] = '小型眠果'
+L['options_icons_somnut'] = '小型眠果'
+L['options_icons_somnut_desc'] = '显示{object:小型眠果}可能的位置'
 
-L['improvised_leafbed_note'] = nil
-L['kalandu_note'] = nil
+L['improvised_leafbed_note'] = '完成从{quest:77896}起始的任务线，从{npc:210164}得到奖励{item:210864}。'
+L['kalandu_note'] = '完成从{quest:77948}起始的任务线，从{npc:210196}得到奖励{item:210633}。'
+
+L['ochre_note'] = '和{npc:209253}对话开始任务线, {npc:209571}会布置接下来的任务。'
+L['ochre_note_stage1'] = '{quest:77677}。{note:生长期5天。}'
+L['ochre_note_stage2'] = '{quest:78398}。{note:生长期5天。}'
+L['ochre_note_stage3'] = '{npc:209571}让你收集5根{item:4537}{dot:Yellow}, 3颗{item:209416}{dot:Green}, 5份{item:208644}{dot:Red}, 将它们合成{item:208646}。{note:需要等待3天}形成{item:208647}后，才能完成{quest:77697}。{note:生长期5天。}'
+L['ochre_note_stage4'] = '{quest:77711}。{note:生长期5天。}'
+L['ochre_note_stage5'] = '{quest:77762}。'
+
+L['thorn_beast_stag'] = ' (鹿)'
+L['thorn_beast_saber'] = ' (豹)'
+L['thorn_beast_bear'] = ' (熊)'
+L['thornbeast_note'] = '驯服3种荆生野兽：\n\n阶段 1\n\n猎人有几率从{location:翡翠梦境}的梦麋，梦刃豹，鬃罴三类野兽身上拾取到3种不同的{item:209860}。\n\n'
+L['athainne_note'] = '{note:每种野兽的{item:209860}虽同名但不一样。}\n\n驯服3种荆生野兽：\n\n阶段 2\n\n{npc:140044}，夜晚与{npc:129771}一起漫步, 白天在{npc:149386}的兽穴休憩。\n{note:服务器时间：\n白天  05:00~19:00\n夜晚  19:00~05:00\n({npc:140044}只会在日出和日落时刷新，通常会一直存在，除非区域地图副本被系统回收或服务器维护导致错过了上次刷新时间。\n如果母鹿不在，可尝试跨服务器或切换战争模式。)}\n请求她祝福{item:209860}来制作{item:209863}。\n\n'
+L['ulfar_note'] = '{note:每种野兽的{item:209863}虽同名但不一样。}\n\n驯服3种荆生野兽：\n\n阶段 3\n\n请求{npc:149386}使用{item:209863s}来制作{item:209866s}。\n\n'
+L['thorn_beast_step_2'] = '下一步: 去{location:库尔提拉斯}的{location:德鲁斯瓦}, 找到一只名唤{npc:140044}的母鹿。'
+L['thorn_beast_step_3'] = '下一步: 去{npc:149386}的兽穴找他帮忙。'
+L['thorn_beast_step_4'] = '下一步: 回{location:翡翠梦境}, 为转化仪式找到合适的目标。'
+L['thorn_stag_note'] = '{note:每种野兽的{item:209866}虽同名但不一样。}\n\n驯服3种荆生野兽：(鹿)\n\n阶段 4\n\n杀死{npc:210976},对尸体使用{item:209866}。梦麋重生为{npc:210984}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210984}有三种颜色(黑, 褐, 绿)。'
+L['thorn_saber_note'] = '{note:每种野兽的{item:209867}虽同名但不一样。}\n\n驯服3种荆生野兽：(豹)\n\n阶段 4\n\n杀死{npc:210975},对尸体使用{item:209867}。梦刃豹重生为{npc:210981}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210981}有三种颜色(黑, 绿, 灰)。'
+L['thorn_bear_note'] = '{note:每种野兽的{item:209868}虽同名但不一样。}\n\n驯服3种荆生野兽：(熊)\n\n阶段 4\n\n杀死{npc:210977},对尸体使用{item:209868}。鬃罴重生为{npc:210988}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210988}有三种颜色(褐, 暗, 绿)。'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
