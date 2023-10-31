@@ -971,18 +971,34 @@ L['ochre_note_stage3'] = '{npc:209571}让你收集5根{item:4537}{dot:Yellow}, 3
 L['ochre_note_stage4'] = '{quest:77711}。{note:生长期5天。}'
 L['ochre_note_stage5'] = '{quest:77762}。'
 
-L['thorn_beast_stag'] = ' (鹿)'
-L['thorn_beast_saber'] = ' (豹)'
-L['thorn_beast_bear'] = ' (熊)'
-L['thornbeast_note'] = '驯服3种荆生野兽：\n\n阶段 1\n\n猎人有几率从{location:翡翠梦境}的梦麋，梦刃豹，鬃罴三类野兽身上拾取到3种不同的{item:209860}。\n\n'
-L['athainne_note'] = '{note:每种野兽的{item:209860}虽同名但不一样。}\n\n驯服3种荆生野兽：\n\n阶段 2\n\n{npc:140044}，夜晚与{npc:129771}一起漫步, 白天在{npc:149386}的兽穴休憩。\n{note:服务器时间：\n白天  05:00~19:00\n夜晚  19:00~05:00\n({npc:140044}只会在日出和日落时刷新，通常会一直存在，除非区域地图副本被系统回收或服务器维护导致错过了上次刷新时间。\n如果母鹿不在，可尝试跨服务器或切换战争模式。)}\n请求她祝福{item:209860}来制作{item:209863}。\n\n'
-L['ulfar_note'] = '{note:每种野兽的{item:209863}虽同名但不一样。}\n\n驯服3种荆生野兽：\n\n阶段 3\n\n请求{npc:149386}使用{item:209863s}来制作{item:209866s}。\n\n'
-L['thorn_beast_step_2'] = '下一步: 去{location:库尔提拉斯}的{location:德鲁斯瓦}, 找到一只名唤{npc:140044}的母鹿。'
-L['thorn_beast_step_3'] = '下一步: 去{npc:149386}的兽穴找他帮忙。'
-L['thorn_beast_step_4'] = '下一步: 回{location:翡翠梦境}, 为转化仪式找到合适的目标。'
-L['thorn_stag_note'] = '{note:每种野兽的{item:209866}虽同名但不一样。}\n\n驯服3种荆生野兽：(鹿)\n\n阶段 4\n\n杀死{npc:210976},对尸体使用{item:209866}。梦麋重生为{npc:210984}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210984}有三种颜色(黑, 褐, 绿)。'
-L['thorn_saber_note'] = '{note:每种野兽的{item:209867}虽同名但不一样。}\n\n驯服3种荆生野兽：(豹)\n\n阶段 4\n\n杀死{npc:210975},对尸体使用{item:209867}。梦刃豹重生为{npc:210981}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210981}有三种颜色(黑, 绿, 灰)。'
-L['thorn_bear_note'] = '{note:每种野兽的{item:209868}虽同名但不一样。}\n\n驯服3种荆生野兽：(熊)\n\n阶段 4\n\n杀死{npc:210977},对尸体使用{item:209868}。鬃罴重生为{npc:210988}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210988}有三种颜色(褐, 暗, 绿)。'
+-- L['thornbeast_note'] = '驯服3种荆生野兽：\n\n阶段 1\n\n猎人有几率从{location:翡翠梦境}的梦麋，梦刃豹，鬃罴三类野兽身上拾取到3种不同的{item:209860}。\n\n'
+-- L['athainne_note'] = '{note:每种野兽的{item:209860}虽同名但不一样。}\n\n驯服3种荆生野兽：\n\n阶段 2\n\n{npc:140044}，夜晚与{npc:129771}一起漫步, 白天在{npc:149386}的兽穴休憩。\n{note:服务器时间：\n白天  05:00~19:00\n夜晚  19:00~05:00\n({npc:140044}只会在日出和日落时刷新，通常会一直存在，除非区域地图副本被系统回收或服务器维护导致错过了上次刷新时间。\n如果母鹿不在，可尝试跨服务器或切换战争模式。)}\n请求她祝福{item:209860}来制作{item:209863}。\n\n'
+-- L['ulfar_note'] = '{note:每种野兽的{item:209863}虽同名但不一样。}\n\n驯服3种荆生野兽：\n\n阶段 3\n\n请求{npc:149386}使用{item:209863s}来制作{item:209866s}。\n\n'
+-- L['thorn_beast_step_2'] = '下一步: 去{location:库尔提拉斯}的{location:德鲁斯瓦}, 找到一只名唤{npc:140044}的母鹿。'
+-- L['thorn_beast_step_3'] = '下一步: 去{npc:149386}的兽穴找他帮忙。'
+-- L['thorn_beast_step_4'] = '下一步: 回{location:翡翠梦境}, 为转化仪式找到合适的目标。'
+-- L['thorn_stag_note'] = '{note:每种野兽的{item:209866}虽同名但不一样。}\n\n驯服3种荆生野兽：(鹿)\n\n阶段 4\n\n杀死{npc:210976},对尸体使用{item:209866}。梦麋重生为{npc:210984}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210984}有三种颜色(黑, 褐, 绿)。'
+-- L['thorn_saber_note'] = '{note:每种野兽的{item:209867}虽同名但不一样。}\n\n驯服3种荆生野兽：(豹)\n\n阶段 4\n\n杀死{npc:210975},对尸体使用{item:209867}。梦刃豹重生为{npc:210981}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210981}有三种颜色(黑, 绿, 灰)。'
+-- L['thorn_bear_note'] = '{note:每种野兽的{item:209868}虽同名但不一样。}\n\n驯服3种荆生野兽：(熊)\n\n阶段 4\n\n杀死{npc:210977},对尸体使用{item:209868}。鬃罴重生为{npc:210988}<荆生幽魂>。\n对其施放{spell:1515}。\n{npc:210988}有三种颜色(褐, 暗, 绿)。'
+
+L['thorn_beast_stag'] = '{item:%d} ({npc:鹿})'
+L['thorn_beast_saber'] = '{item:%d} ({npc:豹})'
+L['thorn_beast_bear'] = '{item:%d} ({npc:熊})'
+
+L['thornbeast_disclaimer'] = nil
+
+L['thorn_laden_heart_note_1'] = nil
+L['thorn_laden_heart_note_2'] = nil
+
+L['athainne_note_1'] = nil
+L['athainne_note_2'] = nil
+
+L['ulfar_note_1'] = nil
+L['ulfar_note_2'] = nil
+
+L['thorn_stag_note'] = nil
+L['thorn_saber_note'] = nil
+L['thorn_bear_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------

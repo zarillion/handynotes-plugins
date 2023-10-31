@@ -67,6 +67,7 @@ read_globals = {
     'GetCurrentRegion',
     'GetCVar',
     'GetFactionInfoByID',
+    'GetGameTime',
     'GetItemCount',
     'GetItemInfo',
     'GetItemSpecInfo',

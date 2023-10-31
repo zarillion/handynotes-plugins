@@ -28,6 +28,7 @@ local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
+local Circle = ns.poi.Circle
 
 local ItemStatus = ns.tooltip.ItemStatus
 local QuestStatus = ns.tooltip.QuestStatus
@@ -1452,7 +1453,7 @@ map.nodes[52016363] = Collectible({
 
 -------------------------- MOUNT: OCHRE DREAMTALON --------------------------
 
-local Ochre = Class('Ochre', Collectible, {
+local OchreDreamtalon = Class('OchreDreamtalon', Collectible, {
     id = 209253,
     icon = 5370985,
     quest = {77677, 78398, 77697, 77711, 77762}, -- QuestLineID 5477 Stages
@@ -1461,122 +1462,121 @@ local Ochre = Class('Ochre', Collectible, {
     pois = {
         POI({49586281}), -- Professor Ash
         POI({49856163, color = 'Yellow'}), -- Banana
-        POI({color = 'Green', points = {43558093, 43157962, 43067724}}), -- Tutle Egg
+        POI({color = 'Green', points = {43558093, 43157962, 43067724}}), -- Turtle Egg
         POI({color = 'Red', points = {58705344, 58335391, 57915537}}), -- Fenblossom Lashling
-        Path({color = 'Red', ns.poi.Circle({origin = 56104577, radius = 3})})
+        Path({color = 'Red', Circle({origin = 56104577, radius = 3})})
     }
 }) -- Smoldering Sprout
 
-function Ochre.getters:note()
-    local note = L['ochre_note']
-    note = note .. QuestStatus(self.quest[1], 1, L['ochre_note_stage1']) -- Some Water...
-    note = note .. QuestStatus(self.quest[2], 2, L['ochre_note_stage2']) -- A Dash of Minerals...
-    note = note .. QuestStatus(self.quest[3], 3, L['ochre_note_stage3']) -- The Right Food...
-    note = note .. QuestStatus(self.quest[4], 4, L['ochre_note_stage4']) -- And a Pinch of Magic
-    note = note .. QuestStatus(self.quest[5], 5, L['ochre_note_stage5']) -- Little Hope is Never Without Worth
+function OchreDreamtalon.getters:note()
+    local note = L['ochre_note'] .. '\n'
+    note = note .. QuestStatus(self.quest[1], 1, L['ochre_note_stage1'], true) -- ![Some Water...]
+    note = note .. QuestStatus(self.quest[2], 2, L['ochre_note_stage2'], true) -- ![A Dash of Minerals...]
+    note = note .. QuestStatus(self.quest[3], 3, L['ochre_note_stage3'], true) -- ![The Right Food...]
+    note = note .. QuestStatus(self.quest[4], 4, L['ochre_note_stage4'], true) -- ![And a Pinch of Magic]
+    note = note .. QuestStatus(self.quest[5], 5, L['ochre_note_stage5'], true) -- ![Little Hope is Never Without Worth]
     return note
 end
 
-map.nodes[48676789] = Ochre()
+map.nodes[48676789] = OchreDreamtalon()
 
 -------------------------- HUNTER PET: THORN BEAST --------------------------
+
 -- STEP 1
-local Thornbeast = Class('Thornbeast', Treasure, {
+
+local ThornLadenHeart = Class('ThornLadenHeart', Node, {
     label = '{item:209860}',
+    rlabel = ns.status.Gray('1/4'),
     icon = 415052,
-    scale = 1.0,
-    class = 'HUNTER'
+    class = 'HUNTER',
+    pois = {Path({Circle({origin = 49645610, radius = 16})})}
 })
 
-function Thornbeast.getters:note()
-    local note = L['thornbeast_note']
-    note = note ..
-               ItemStatus(209860, 1, '{item:209860}' .. L['thorn_beast_stag'],
-            false)
-    note = note ..
-               ItemStatus(209861, 1, '{item:209861}' .. L['thorn_beast_saber'])
-    note = note ..
-               ItemStatus(209862, 1, '{item:209862}' .. L['thorn_beast_bear'])
-    return note .. '\n\n' .. L['thorn_beast_step_2']
+function ThornLadenHeart.getters:note()
+    local disclaimer = format(L['thornbeast_disclaimer'], 209860)
+    local note = L['thorn_laden_heart_note_1'] .. '\n\n' .. disclaimer
+    note = note .. ItemStatus(209860, 1, format(L['thorn_beast_stag'], 209860))
+    note = note .. ItemStatus(209861, 1, format(L['thorn_beast_saber'], 209861))
+    note = note .. ItemStatus(209862, 1, format(L['thorn_beast_bear'], 209862))
+    return note .. '\n\n' .. L['thorn_laden_heart_note_2']
 end
 
-map.nodes[49645610] = Thornbeast({
-    pois = {Path({ns.poi.Circle({origin = 49645610, radius = 16})})}
-})
+map.nodes[49645610] = ThornLadenHeart()
 
 -- STEP 2
-local Drustvar = Map({id = 896, settings = false}) -- Drustvar
+local drustvar = ns.maps[896] or Map({id = 896, settings = false})
 
 local Athainne = Class('Athainne', NPC, {
     id = 140044,
-    icon = 'peg_gn',
-    requires = {
-        ns.requirement.Item(209860), -- Thorn-Laden Heart (stag)
-        ns.requirement.Item(209861), -- Thorn-Laden Heart (saber)
-        ns.requirement.Item(209862) -- Thorn-Laden Heart (bear)
-    },
+    rlabel = ns.status.Gray('2/4'),
+    icon = 960685,
     class = 'HUNTER',
-    scale = 2.0
+    IsEnabled = function(self)
+        local spawn = 'nighttime'
+        local hour, _ = GetGameTime()
+        if hour >= 5 and hour < 15 then spawn = 'daytime' end
+        return self.spawn == spawn
+    end
 }) -- Athainne
 
 function Athainne.getters:note()
-    local note = L['athainne_note']
-    note = note ..
-               ItemStatus(209863, 1, '{item:209863}' .. L['thorn_beast_stag'],
-            false)
-    note = note ..
-               ItemStatus(209864, 1, '{item:209864}' .. L['thorn_beast_saber'])
-    note = note ..
-               ItemStatus(209865, 1, '{item:209865}' .. L['thorn_beast_bear'])
-    return note .. '\n\n' .. L['thorn_beast_step_3']
+    local disclaimer = format(L['thornbeast_disclaimer'], 209863)
+    local note = L['athainne_note_1'] .. '\n\n' .. disclaimer
+    note = note .. ItemStatus(209863, 1, format(L['thorn_beast_stag'], 209863))
+    note = note .. ItemStatus(209864, 1, format(L['thorn_beast_saber'], 209864))
+    note = note .. ItemStatus(209865, 1, format(L['thorn_beast_bear'], 209865))
+    return note .. '\n\n' .. L['athainne_note_2']
 end
 
-Drustvar.nodes[44924547] = Athainne({pois = {POI({46124524})}}) -- day
-Drustvar.nodes[51653967] = Athainne({
+drustvar.nodes[44924547] = Athainne({
+    location = L['in_small_cave'],
+    spawn = 'daytime',
+    pois = {POI({46124524})} -- Entrance
+}) -- Althainne (Day)
+
+drustvar.nodes[51653967] = Athainne({
+    spawn = 'nighttime',
     pois = {
         Path({
             51653967, 51444024, 51264102, 51434135, 51744126, 52264082,
             52484048, 52453919, 52123911, 51813939, 51653967
         })
     }
-}) -- night
+}) -- Althainne (Night)
 
 -- STEP 3
+
 local Ulfar = Class('Ulfar', NPC, {
     id = 141159,
-    icon = 'peg_bl',
-    requires = {
-        ns.requirement.Item(209863), -- Moontouched Thorns (stag)
-        ns.requirement.Item(209864), -- Moontouched Thorns (saber)
-        ns.requirement.Item(209865) -- Moontouched Thorns (bear)
-    },
+    rlabel = ns.status.Gray('3/4'),
+    icon = 2101969,
     class = 'HUNTER',
-    scale = 2.0
+    pois = {POI({46124524})} -- Entrance
 }) -- Ulfar
 
 function Ulfar.getters:note()
-    local note = L['ulfar_note']
-    note = note ..
-               ItemStatus(209866, 1, '{item:209866}' .. L['thorn_beast_stag'],
-            false)
-    note = note ..
-               ItemStatus(209867, 1, '{item:209867}' .. L['thorn_beast_saber'])
-    note = note ..
-               ItemStatus(209868, 1, '{item:209868}' .. L['thorn_beast_bear'])
-    return note .. '\n\n' .. L['thorn_beast_step_4']
+    local disclaimer = format(L['thornbeast_disclaimer'], 209866)
+    local note = L['ulfar_note_1'] .. '\n\n' .. disclaimer
+    note = note .. ItemStatus(209866, 1, format(L['thorn_beast_stag'], 209866))
+    note = note .. ItemStatus(209867, 1, format(L['thorn_beast_saber'], 209867))
+    note = note .. ItemStatus(209868, 1, format(L['thorn_beast_bear'], 209868))
+    return note .. '\n\n' .. L['ulfar_note_2']
 end
 
-Drustvar.nodes[45194585] = Ulfar({pois = {POI({46124524})}})
+drustvar.nodes[45194585] = Ulfar()
 
 -- STEP 4
+
 map.nodes[44646425] = NPC({
     id = 210976, -- Wandering Gladehart
+    rlabel = ns.status.Gray('4/4'),
     icon = 132144,
     requires = {
-        ns.requirement.Item(209866) -- Thornspeaker Ritual Knife (stag)
+        ns.requirement.Item(209866) -- Thornspeaker Ritual Knife (Stag)
     },
     class = 'HUNTER',
-    note = L['thorn_stag_note'],
+    note = format(L['thornbeast_disclaimer'], 209866) .. '\n\n' ..
+        L['thorn_stag_note'],
     pois = {
         Path({
             44836541, 44736496, 44686436, 44646425, 44426404, 44076340, 43696279
@@ -1586,22 +1586,26 @@ map.nodes[44646425] = NPC({
 
 map.nodes[57204780] = NPC({
     id = 210975, -- Listless Dreamsaber
+    rlabel = ns.status.Gray('4/4'),
     icon = 132115,
     location = L['in_cave'],
     requires = {
-        ns.requirement.Item(209867) -- Thornspeaker Ritual Knife (saber)
+        ns.requirement.Item(209867) -- Thornspeaker Ritual Knife (Saber)
     },
     class = 'HUNTER',
-    note = L['thorn_saber_note'],
+    note = format(L['thornbeast_disclaimer'], 209866) .. '\n\n' ..
+        L['thorn_saber_note'],
     pois = {POI({57294864})}
 }) -- Liliuna
 
 map.nodes[36596203] = NPC({
     id = 210977, -- Displaced Bristlebruin
+    rlabel = ns.status.Gray('4/4'),
     icon = 132276,
     requires = {
-        ns.requirement.Item(209868) -- Thornspeaker Ritual Knife (bear)
+        ns.requirement.Item(209868) -- Thornspeaker Ritual Knife (Bear)
     },
     class = 'HUNTER',
-    note = L['thorn_bear_note']
+    note = format(L['thornbeast_disclaimer'], 209866) .. '\n\n' ..
+        L['thorn_bear_note']
 }) -- Astera

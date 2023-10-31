@@ -965,16 +965,21 @@ L['ochre_note_stage5'] = nil
 L['thorn_beast_stag'] = nil
 L['thorn_beast_saber'] = nil
 L['thorn_beast_bear'] = nil
-L['thornbeast_note'] = nil
-L['athainne_note'] = nil
-L['ulfar_note'] = nil
-L['thorn_beast_step_2'] = nil
-L['thorn_beast_step_3'] = nil
-L['thorn_beast_step_4'] = nil
+
+L['thornbeast_disclaimer'] = nil
+
+L['thorn_laden_heart_note_1'] = nil
+L['thorn_laden_heart_note_2'] = nil
+
+L['athainne_note_1'] = nil
+L['athainne_note_2'] = nil
+
+L['ulfar_note_1'] = nil
+L['ulfar_note_2'] = nil
+
 L['thorn_stag_note'] = nil
 L['thorn_saber_note'] = nil
 L['thorn_bear_note'] = nil
-
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
