@@ -958,7 +958,7 @@ L['options_icons_somnut_desc'] = 'Display possible locations of {object:Somnuts}
 L['improvised_leafbed_note'] = 'Complete the quest chain beginning with {quest:77896} to receive the {item:210864} from {npc:210164}.'
 L['kalandu_note'] = 'Complete the quest chain beginning with {quest:77948} to receive {item:210633} from {npc:210196}.'
 
-L['ochre_note'] = 'Talk to {npc:209253} to begin quest line, {npc:209571} will offer the next stages.'
+L['ochre_note'] = 'Talk to {npc:209253} to begin the quest line, {npc:209571} will offer the next stages.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:5 days to grow.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:5 days to grow.}'
 L['ochre_note_stage3'] = '{npc:209571} will let you to collect 5x {item:4537} {dot:Yellow}, 3x {item:209416} {dot:Green}, and 5x {item:208644} {dot:Red}, combine them into {item:208646}. {note:Wait 3 days} for it to become {item:208647}, before finishing {quest:77697}. {note:5 days to grow.}'
@@ -972,13 +972,13 @@ L['thorn_beast_bear'] = '{item:%d} ({npc:Bear})'
 L['thornbeast_disclaimer'] = '{note:Reminder, each beast type has a unique {item:%s} and will lead to a matching thornbeast.}'
 
 L['thorn_laden_heart_note_1'] = 'Loot a {item:209860} from any {npc:stag}, {npc:saber}, or {npc:bear} in the {location:Emerald Dream}.'
-L['thorn_laden_heart_note_2'] = 'Once you have a {item:209860} go and find a doe named {npc:140044} in {location:Drustvar} in {location:Kul Tiras}.'
+L['thorn_laden_heart_note_2'] = 'Once you have a {item:209860}, go and find a doe named {npc:140044} in {location:Drustvar} in {location:Kul Tiras}.'
 
 L['athainne_note_1'] = '{note:{npc:140044} walks with {npc:129771} at night, and rests in {location:Ulfar\'s Den} during the day.}\n\nAsk {npc:140044} to use {item:209860} to create {item:209863}.'
-L['athainne_note_2'] = 'Once you have spoken to {npc:140044} to receive the {item:209863} go to {location:Ulfar\'s Den} for {npc:141159} help.'
+L['athainne_note_2'] = 'Once you have spoken to {npc:140044} and received the {item:209863}, go to {location:Ulfar\'s Den} for {npc:141159} help.'
 
 L['ulfar_note_1'] = 'Ask {npc:149386} to use {item:209863} to create {item:209866}.'
-L['ulfar_note_2'] = 'Once you have the {item:209866} go back to the {location:Emerald Dream} to find a suitable target for the transformation ritual.'
+L['ulfar_note_2'] = 'Once you have the {item:209866}, go back to the {location:Emerald Dream} to find a suitable target for the transformation ritual.'
 
 L['thorn_stag_note'] = '1. Kill {npc:210976}, then use {item:209866} on the corpse. The stag will respawn as {npc:210984} {npc:<Thornborn Spirit>}.\n\n2. Cast {spell:1515} on it.\n\n3. Three color are available for {npc:210984}: black, brown, and green.'
 L['thorn_saber_note'] = '1. Kill {npc:210975}, then use {item:209867} on the corpse. The saber will respawn as {npc:210981} {npc:<Thornborn Spirit>}.\n\n2. Cast {spell:1515} on it.\n\n3. Three color are available for {npc:210981}: black, green, and pale.'
