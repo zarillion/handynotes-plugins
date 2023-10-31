@@ -1032,29 +1032,29 @@ L['soa_mjj_part3_note'] = '{item:209055} будет ждать вас прямо
 ------------------------------- WARCRAFT RUMBLE -------------------------------
 -------------------------------------------------------------------------------
 
-L['rumble_coin_bag'] = nil
-L['rumble_foil_bag'] = nil
-L['rumble_both_bags'] = nil
-L['warcraft_rumble_machine'] = nil
+L['rumble_coin_bag'] = 'Мешочек с монетами Rumble'
+L['rumble_foil_bag'] = 'Мешочек с оберткой Rumble'
+L['rumble_both_bags'] = 'Мешочек с монетами и оберткой Rumble'
+L['warcraft_rumble_machine'] = 'Игровой автомат Rumble'
 
-L['wr_ohn_both_01'] = nil
-L['wr_ohn_foil_02'] = nil
-L['wr_sto_coin_01'] = nil
-L['wr_sto_foil_01'] = nil
-L['wr_sto_foil_02'] = nil
-L['wr_tas_both_01'] = nil
-L['wr_tas_foil_01'] = nil
-L['wr_tha_both_01'] = nil
-L['wr_tha_foil_01'] = nil
-L['wr_tws_both_01'] = nil
-L['wr_tws_foil_01'] = nil
-L['wr_tws_foil_02'] = nil
-L['wr_val_coin_01'] = nil
-L['wr_val_foil_01'] = nil
-L['wr_val_machine'] = nil
-L['wr_org_coin_01'] = nil
-L['wr_org_foil_01'] = nil
-L['wr_dur_foil_01'] = nil
+L['wr_ohn_both_01'] = 'Внутри разрушенного здания в {location:Лундейне}.'
+L['wr_ohn_foil_02'] = 'Скала возле водопада.'
+L['wr_sto_coin_01'] = 'За ящиком.'
+L['wr_sto_foil_01'] = 'Рядом с кучей пушечных ядер.'
+L['wr_sto_foil_02'] = 'Рядом с пандусом, спускающимся к докам.'
+L['wr_tas_both_01'] = 'За деревом с видом на {location:Прибежище Китобоя}.'
+L['wr_tas_foil_01'] = 'Рядом с массивным сломанным деревом.'
+L['wr_tha_both_01'] = 'На летающем острове неподалеку от {location:Тирхолдского резервуара}.'
+L['wr_tha_foil_01'] = 'На вершине гигантской вазы с растениями.'
+L['wr_tws_both_01'] = 'На вершине каменной башни с видом на воду.'
+L['wr_tws_foil_01'] = 'На горе с видом на лаву.'
+L['wr_tws_foil_02'] = 'На небольшой каменной башне, возвышающейся над водой.'
+L['wr_val_coin_01'] = 'На втором этаже {location:Жареного барашка} рядом с {object:духовкой}.'
+L['wr_val_foil_01'] = 'На втором этаже {location:Жареного барашка} на кровати.'
+L['wr_val_machine'] = 'На втором этаже {location:Жареного барашка}.'
+L['wr_org_coin_01'] = 'На втором этаже {location:Сломаного клыка}.'
+L['wr_org_foil_01'] = 'За {location:Аукционом}.'
+L['wr_dur_foil_01'] = 'За какими-то ящиками с припасами.'
 
-L['options_icons_warcraft_rumble'] = nil
-L['options_icons_warcraft_rumble_desc'] = nil
+L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
+L['options_icons_warcraft_rumble_desc'] = 'Отображать {object:Мешочки с монетами Rumble} и {object:Мешочки с обертками Rumble} для промоакции {object:Warcraft Rumble}.'
