@@ -76,6 +76,12 @@ ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.EASTERN_KINGDOMS_CUP = Group('dragonrace', 1100022, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function() return ns.IsCalendarEventActive(1400) end
+})
+
 ns.groups.ELEMENTAL_STORM = Group('elemental_storm', 538566, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -114,6 +120,12 @@ ns.groups.GRAND_HUNTS = Group('grand_hunts', 237377, {
 ns.groups.ICEMAW_STORAGE_CACHE = Group('icemaw_storage_cache', 'chest_nv', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
+})
+
+ns.groups.KALIMDOR_CUP = Group('dragonrace', 1100022, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function() return ns.IsCalendarEventActive(1395) end
 })
 
 ns.groups.LIGHTNING_BOUND_CHEST = Group('lightning_bound_chest', 'chest_pp', {
