@@ -965,34 +965,24 @@ L['ochre_note_stage3'] = '{npc:209571} te dejará recoger 5x {item:4537} {dot:Ye
 L['ochre_note_stage4'] = '{quest:77711}. {note:5 días para crecer.}'
 L['ochre_note_stage5'] = '{quest:77762}.'
 
--- L['thornbeast_note'] = 'Para domesticar 3 tipos de Bestias de Espinas\n\nPASO 1\n\nUn cazador tiene la probabilidad de despojar 3 tipos de {item:209860} de los venados, sables y osos en el {location:Sueño Esmeralda}.\n\n'
--- L['athainne_note'] = '{note:Las {item:209860} difieren según el tipo de bestia.}\n\nPara domesticar 3 tipos de Bestias de Espinas\n\nPASO 2\n\n{npc:140044} pasea con {npc:129771} por la noche y descansa en la Guarida de {npc:149386} durante el día.\n{note:Hora del Servidor:\n  05:00~19:00 Día\n  19:00~05:00 Noche\n(Ella sólo reaparece al amanecer y al atardecer, y existe hasta la próxima reaparición. \nSu ausencia ocurre cuando la cierva perdió el último tiempo de reaparición debido a que la zona de instancia se recicló o el servidor se reinició.\nSi es el caso, intenta cruzar servidores o entrar/salir del modo guerra.)\nPídele ayuda para bendecir el {item:209860} para crear {item:209863}.\n\n'
--- L['ulfar_note'] = '{note:Las {item:209863} difieren según el tipo de bestia.}\n\nPara domesticar 3 tipos de Bestias de Espinas\n\nPASO 3\n\nPregunta a {npc:149386} sobre usar {item:209863} para crear {item:209866}.\n\n'
--- L['thorn_beast_step_2'] = 'Siguiente Paso: Ves a {location:Drustvar} en {location:Kul Tiras}, y encuentra una cierva llamada {npc:140044}.'
--- L['thorn_beast_step_3'] = 'Siguiente Paso: Ves a la Guarida de {npc:149386} a por su ayuda.'
--- L['thorn_beast_step_4'] = 'Siguiente Paso: Vuelve al {location:Sueño Esmeralda}, y encuentra los objetivos adecuados para el ritual de transformación.'
--- L['thorn_stag_note'] = '{note:El {item:209866} difiere según el tipo de bestia.}\n\nPara domesticar 3 tipos de Bestias de Espinas (Venado)\n\nPASO 4\n\nMata a {npc:210976} y usa el {item:209866} en el cuerpo. El venado renace como {npc:210984} <Espíritu Nacido de las Espinas>.\nUsa {spell:1515} en él.\nHay tres colores disponibles para {npc:210984} con diferentes ID de NPC. (Negro, Marrón, Verde)'
--- L['thorn_saber_note'] = '{note:El {item:209867} difiere según el tipo de bestia.}\n\nPara domesticar 3 tipos de Bestias de Espinas (Sable)\n\nPASO 4\n\nMata a {npc:210975} y usa el {item:209867} en el cuerpo. El sable renace como {npc:210981} <Espíritu Nacido de las Espinas>.\nUsa {spell:1515} en él.\nHay tres colores disponibles para {npc:210981} con diferentes ID de NPC. (Negro, Verde, Pálido)'
--- L['thorn_bear_note'] = '{note:El {item:209868} difiere según el tipo de bestia.}\n\nPara domesticar 3 tipos de Bestias de Espinas (Oso)\n\nPASO 4\n\nMata a {npc:210977}, y usa el {item:209868} en el cuerpo. El oso renace como {npc:210988} <Espíritu Nacido de las Espinas>.\nUsa {spell:1515} en él.\nHay tres colores disponibles para {npc:210988} con diferentes ID de NPC. (Marrón, Negro, Verde)'
-
 L['thorn_beast_stag'] = '{item:%d} ({npc:Venado})'
 L['thorn_beast_saber'] = '{item:%d} ({npc:Sable})'
 L['thorn_beast_bear'] = '{item:%d} ({npc:Oso})'
 
-L['thornbeast_disclaimer'] = nil
+L['thornbeast_disclaimer'] = '{note:Recuerda, cada tipo de bestia tiene un {item:%s} diferente que te llevará a la Bestia de Espinas correspondiente.}'
 
-L['thorn_laden_heart_note_1'] = nil
-L['thorn_laden_heart_note_2'] = nil
+L['thorn_laden_heart_note_1'] = 'Despoja un {item:209860} de cualquier {npc:Venado}, {npc:Sable}, u {npc:Oso} en el {location:Sueño Esmeralda}.'
+L['thorn_laden_heart_note_2'] = 'Una vez tengas un {item:209860} ves a buscar a una cierva llamada {npc:140044} en {location:Drustvar} en {location:Kul Tiras}.'
 
-L['athainne_note_1'] = nil
-L['athainne_note_2'] = nil
+L['athainne_note_1'] = '{note:{npc:140044} walks with {npc:129771} at night, and rests in {location:Ulfar\'s Den} during the day.}\n\nAsk {npc:140044} to use {item:209860} to create {item:209863}.'
+L['athainne_note_2'] = 'Una vez hayas hablado con {npc:140044} para conseguir las {item:209863} ves a la {location:Guarida de Ulfar} para pedir ayuda a {npc:141159}.'
 
-L['ulfar_note_1'] = nil
-L['ulfar_note_2'] = nil
+L['ulfar_note_1'] = 'Pregunta a {npc:149386} sobre usar las {item:209863} para crear el {item:209866}.'
+L['ulfar_note_2'] = 'Una vez tengas el {item:209866} vuelve al {location:Sueño Esmeralda} para encontrar un objetivo adecuado para el ritual de transformación.'
 
-L['thorn_stag_note'] = nil
-L['thorn_saber_note'] = nil
-L['thorn_bear_note'] = nil
+L['thorn_stag_note'] = '1. Mata a {npc:210976}, y usa el {item:209866} en su cuerpo. El venado renacerá como {npc:210984} {npc:<Espíritu Nacido de las Espinas>}.\n\n2. Usa {spell:1515} en él.\n\n3. Hay tres colores disponibles para {npc:210984}: negro, marrón y verde.'
+L['thorn_saber_note'] = '1. Mata a {npc:210975}, y usa el {item:209867} en su cuerpo. El sable renacerá como {npc:210981} {npc:<Espíritu Nacido de las Espinas>}.\n\n2. Usa {spell:1515} en él.\n\n3. Hay tres colores disponibles para {npc:210981}: negro, verde y pálido.'
+L['thorn_bear_note'] = '1. Mata a {npc:210977}, y usa el {item:209868} en su cuerpo. El oso renacerá como {npc:210988} {npc:<Espíritu Nacido de las Espinas>}.\n\n2. Usa {spell:1515} en él.\n\n3. Hay tres colores disponibles para {npc:210988}: marrón, oscuro y verde.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
