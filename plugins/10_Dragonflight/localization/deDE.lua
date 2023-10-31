@@ -959,31 +959,31 @@ L['options_icons_somnut_desc'] = 'Zeigt die möglichen Positionen für {object:S
 L['improvised_leafbed_note'] = 'Beginne die Quest {quest:77896} und schließe die Questreihe ab, um {item:210864} von {npc:210164} zu erhalten.'
 L['kalandu_note'] = 'Beginne die Quest {quest:77948} und schließe die Questreihe ab, um {item:210633} von {npc:210196} zu erhalten.'
 
-L['ochre_note'] = nil
-L['ochre_note_stage1'] = nil
-L['ochre_note_stage2'] = nil
-L['ochre_note_stage3'] = nil
-L['ochre_note_stage4'] = nil
-L['ochre_note_stage5'] = nil
+L['ochre_note'] = 'Sprich mit {npc:209253}, um die Questreihe zu starten. {npc:209571} wird die nächsten Abschnitte anbieten.'
+L['ochre_note_stage1'] = '{quest:77677}. {note:5 Tage zum Wachsen.}'
+L['ochre_note_stage2'] = '{quest:78398}. {note:5 Tage zum Wachsen.}'
+L['ochre_note_stage3'] = '{npc:209571} lässt dich 5x {item:4537} {dot:Yellow}, 3x {item:209416} {dot:Green} und 5x {item:208644} {dot:Red} sammeln, kombiniere diese zu {item:208646}. {note:Warte 3 Tage}, bis es zu {item:208647} wird, bevor du die Quest {quest:77697} abschließen kannst. {note:5 Tage zum Wachsen.}' -- review
+L['ochre_note_stage4'] = '{quest:77711}. {note:5 Tage zum Wachsen.}'
+L['ochre_note_stage5'] = '{quest:77762}.'
 
-L['thorn_beast_stag'] = nil
-L['thorn_beast_saber'] = nil
-L['thorn_beast_bear'] = nil
+L['thorn_beast_stag'] = '{item:%d} ({npc:Hirsch})'
+L['thorn_beast_saber'] = '{item:%d} ({npc:Säbler})' -- review
+L['thorn_beast_bear'] = '{item:%d} ({npc:Bär})'
 
-L['thornbeast_disclaimer'] = nil
+L['thornbeast_disclaimer'] = '{note:Info: Jede Bestienart hat ein einzigartiges {item:%s}, das zur passenden Dornenbestie führt.}' -- review
 
-L['thorn_laden_heart_note_1'] = nil
-L['thorn_laden_heart_note_2'] = nil
+L['thorn_laden_heart_note_1'] = 'Plündere ein {item:209860} von einem {npc:Hirsch}, {npc:Säbler} oder {npc:Bär} in {location:Der Smaragdgrüne Traum}.'
+L['thorn_laden_heart_note_2'] = 'Sobald du ein {item:209860} hast, gehe nach {location:Drustvar} in {location:Kul Tiras} zu {npc:140044}.'
 
-L['athainne_note_1'] = nil
-L['athainne_note_2'] = nil
+L['athainne_note_1'] = '{note:{npc:140044} läuft nachts mit {npc:129771} umher und ruht sich tagsüber in {location:Ulfars Höhle} aus.}\n\nSprich mit {npc:140044}, um {item:209863} zu erhalten.' -- review
+L['athainne_note_2'] = 'Gehe mit den {item:209863} zu {npc:141159} in {location:Ulfars Höhle}.' -- review
 
-L['ulfar_note_1'] = nil
-L['ulfar_note_2'] = nil
+L['ulfar_note_1'] = 'Sprich mit {npc:149386}, um {item:209866} zu erhalten.' -- review
+L['ulfar_note_2'] = 'Sobald du das {item:209866} hast, gehe zurück in {location:Der Smaragdgrüne Traum}, um ein geeignetes Ziel für das Transformationsritual zu finden.'
 
-L['thorn_stag_note'] = nil
-L['thorn_saber_note'] = nil
-L['thorn_bear_note'] = nil
+L['thorn_stag_note'] = '1. Töte {npc:210976} und benutze das {item:209866} mit der Leiche. Der Hirsh wird als {npc:210984} {npc:<Thornborn Spirit>} wiedererscheinen.\n\n2. Wirke {spell:1515} auf ihn.\n\n3. {npc:210984} ist in 3 Farben verfügbar: schwarz, braun und grün.' -- review
+L['thorn_saber_note'] = '1. Töte {npc:210975} und benutze das {item:209867} mit der Leiche. Der Säbler wird als {npc:210981} {npc:<Thornborn Spirit>} wiedererscheinen.\n\n2. Wirke {spell:1515} auf ihn.\n\n3. {npc:210981} ist in 3 Farben verfügbar: schwarz, grün und hell.' -- review
+L['thorn_bear_note'] = '1. Töte {npc:210977} und benutze das {item:209868} mit der Leiche. Der Bär wird als {npc:210988} {npc:<Thornborn Spirit>} wiedererscheinen.\n\n2. Wirke {spell:1515} auf ihn.\n\n3. {npc:210988} ist in 3 Farben verfügbar: braun, dunkel und grün.' -- review
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
