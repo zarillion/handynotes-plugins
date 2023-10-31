@@ -956,31 +956,31 @@ L['options_icons_somnut_desc'] = 'Afficher les emplacements possibles des {objec
 L['improvised_leafbed_note'] = 'Terminez la suite de quêtes commençant par {quest:77896} pour recevoir le {item:210864} de la part de {npc:210164}.'
 L['kalandu_note'] = 'Terminez la suite de quêtes commençant par {quest:77948} pour recevoir {item:210633} de la part de {npc:210196}.'
 
-L['ochre_note'] = nil
-L['ochre_note_stage1'] = nil
-L['ochre_note_stage2'] = nil
-L['ochre_note_stage3'] = nil
-L['ochre_note_stage4'] = nil
-L['ochre_note_stage5'] = nil
+L['ochre_note'] = 'Parlez au {npc:209253} pour commencer la suite de la quête, le {npc:209571} vous indiquera les étapes suivantes.'
+L['ochre_note_stage1'] = '{quest:77677}. {note:Prends 5 jours à pousser.}'
+L['ochre_note_stage2'] = '{quest:78398}. {note:Prends 5 jours à pousser.}'
+L['ochre_note_stage3'] = 'Le {npc:209571} vous enverra récupérer 5x {item:4537} {dot:Yellow}, 3x {item:209416} {dot:Green}, et 5x {item:208644} {dot:Red}, combinez-les en {item:208646}. Attendez 3 jours qu\'ils se transforment en {item:208647}, et terminez la quête {quest:77697}. {note:Prends 5 jours à pousser.}'
+L['ochre_note_stage4'] = '{quest:77711}. {note:Prends 5 jours à pousser.}'
+L['ochre_note_stage5'] = '{quest:77762}.'
 
-L['thorn_beast_stag'] = nil
-L['thorn_beast_saber'] = nil
-L['thorn_beast_bear'] = nil
+L['thorn_beast_stag'] = '{item:%d} ({npc:Cerf})'
+L['thorn_beast_saber'] = '{item:%d} ({npc:Sabre})'
+L['thorn_beast_bear'] = '{item:%d} ({npc:Ours})'
 
-L['thornbeast_disclaimer'] = nil
+L['thornbeast_disclaimer'] = '{note:Pour rappel, chaque type de bête a un {item:%s} unique et mènera à une bête à épines correspondante.}' -- review
 
-L['thorn_laden_heart_note_1'] = nil
-L['thorn_laden_heart_note_2'] = nil
+L['thorn_laden_heart_note_1'] = 'Récupérez un {item:209860} sur n\'importe quel {npc:cerf}, {npc:sabre} ou {npc:ours} au sein du {location:Rêve d\'Émeraude}.'
+L['thorn_laden_heart_note_2'] = 'Une fois que vous avez un {item:209860}, allez trouver une biche nommée {npc:140044} à {location:Drustvar} à {location:Kul Tiras}.'
 
-L['athainne_note_1'] = nil
-L['athainne_note_2'] = nil
+L['athainne_note_1'] = '{note:{npc:140044} accompagne {npc:129771} la nuit, et se repose à la {location:Tanière d\'Ulfar} le jour.}\n\nDemandez à {npc:140044} d\'utiliser le {item:209860} pour créer les {item:209863}.'
+L['athainne_note_2'] = 'Après avoir parlé à {npc:140044} et reçu les {item:209863}, allez à la {location:Tanière d\'Ulfar} pour obtenir l\'aide d\'{npc:141159}.'
 
-L['ulfar_note_1'] = nil
-L['ulfar_note_2'] = nil
+L['ulfar_note_1'] = 'Demandez à {npc:149386} d\'utiliser les {item:209863} pour créer un {item:209866}.'
+L['ulfar_note_2'] = 'Après avoir obtenu le {item:209866}, retournez au {location:Rêve d\'Émeraude} pour trouver une cible propice au rituel de transformation.'
 
-L['thorn_stag_note'] = nil
-L['thorn_saber_note'] = nil
-L['thorn_bear_note'] = nil
+L['thorn_stag_note'] = '1. Tuez un {npc:210976}, puis utilisez le {item:209866} sur le cadavre. Le cerf réapparaîtra sous la forme d\'{npc:210984} {npc:<Thornborn Spirit>}.\n\n2. Lancez le sort {spell:1515} sur lui.\n\n3. Trois teintes sont disponibles pour {npc:210984} : noir, marron et vert.' -- review
+L['thorn_saber_note'] = '1. Tuez un {npc:210975}, puis utilisez le {item:209867} sur le cadavre. Le sabre réapparaîtra sous la forme de {npc:210981} {npc:<Thornborn Spirit>}.\n\n2. Lancez le sort {spell:1515} sur lui.\n\n3. Trois teintes sont disponibles pour {npc:210981} : noir, vert et pâle.' -- review
+L['thorn_bear_note'] = '1. Tuez un {npc:210977}, puis utilisez le {item:209868} sur le cadavre. L\'ours réapparaîtra sous la forme d\'{npc:210988} {npc:<Thornborn Spirit>}.\n\n2. Lancez le sort {spell:1515} sur lui.\n\n3. Trois teintes sont disponibles pour {npc:210988} : marron, foncé et vert.' -- review
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
