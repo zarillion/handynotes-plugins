@@ -975,7 +975,7 @@ L['thorn_laden_heart_note_1'] = 'Despoja un {item:209860} de cualquier {npc:Vena
 L['thorn_laden_heart_note_2'] = 'Una vez tengas un {item:209860} ves a buscar a una cierva llamada {npc:140044} en {location:Drustvar} en {location:Kul Tiras}.'
 
 L['athainne_note_1'] = '{note:{npc:140044} walks with {npc:129771} at night, and rests in {location:Ulfar\'s Den} during the day.}\n\nAsk {npc:140044} to use {item:209860} to create {item:209863}.'
-L['athainne_note_2'] = 'Una vez hayas hablado con {npc:140044} para conseguir las {item:209863} ves a la {location:Guarida de Ulfar} para pedir ayuda a {npc:141159}.'
+L['athainne_note_2'] = 'Una vez hayas hablado con {npc:140044} y conseguido las {item:209863} ves a la {location:Guarida de Ulfar} para pedir ayuda a {npc:141159}.'
 
 L['ulfar_note_1'] = 'Pregunta a {npc:149386} sobre usar las {item:209863} para crear el {item:209866}.'
 L['ulfar_note_2'] = 'Una vez tengas el {item:209866} vuelve al {location:Sueño Esmeralda} para encontrar un objetivo adecuado para el ritual de transformación.'
