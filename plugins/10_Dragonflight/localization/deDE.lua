@@ -1028,3 +1028,34 @@ In {location:Der Eisenwald} findest du einen riesigen {npc:210417} und {object:M
 
 Sobald der Elementar 4 Leute eingesaugt hat, explodiert er und lässt {item:209781} fallen! Jeder, der sich in der Nähe befindet, kann es plündern.]]
 L['soa_mjj_part3_note'] = 'Das {item:209055} wartet direkt vor dem {location:Dunklen Portal} in den {location:Verwüsteten Landen} auf dich! Nimm dich vor den herunterfallenden Fel-Meteoriten in Acht, denn es dauert 12 Sekunden, um das Teil zu plündern.'
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = 'Rumble-Münzenbeutel'
+L['rumble_foil_bag'] = 'Rumble-Folientasche'
+L['rumble_both_bags'] = 'Rumble-Münzenbeutel und Rumble-Folientasche'
+L['warcraft_rumble_machine'] = 'Warcraft Rumble-Spielautomat'
+
+L['wr_ohn_both_01'] = 'Im Inneren der Gebäuderuine in {location:Lunedane}.'
+L['wr_ohn_foil_02'] = 'Auf einem Felsvorsprung des Wasserfalls.'
+L['wr_sto_coin_01'] = 'Neben der Treppe hinter den Vorratskisten.'
+L['wr_sto_foil_01'] = 'Vor einem Stapel Kanonenkugeln.'
+L['wr_sto_foil_02'] = 'In der Nähe der Rampe hinunter zur Anlegestelle.'
+L['wr_tas_both_01'] = 'Hinter einem Baum mit Blick auf {location:Walfängerwinkel}.'
+L['wr_tas_foil_01'] = 'Vor einem riesigen gefällten Baumestamm.'
+L['wr_tha_both_01'] = 'Auf einem schwebendem Feldbrocken in der Nähe des {location:Tyrholdreservoir}.'
+L['wr_tha_foil_01'] = 'Auf einer riesigen Pflanzenvase.'
+L['wr_tws_both_01'] = 'Oben in der zerstörten Kuppel des Turms.'
+L['wr_tws_foil_01'] = 'Auf einem kleinen Berg mit Blick auf die Lava.'
+L['wr_tws_foil_02'] = 'Auf einem kleinen Steinbogen.'
+L['wr_val_coin_01'] = 'In der ersten Etage des Gasthauses {location:Zum Gerösteten Geißbock} in der Nähe des {object:Kochofen}.'
+L['wr_val_foil_01'] = 'Auf dem Bett in der zweiten Etage des Gasthauses {location:Zum Gerösteten Geißbock}.'
+L['wr_val_machine'] = 'In der zweiten Etage des Gasthauses {location:Zum Gerösteten Geißbock}.'
+L['wr_org_coin_01'] = 'In der zweiten Etage des Gasthauses {location:Zum Gebrochenen Hauer}.'
+L['wr_org_foil_01'] = 'Neben dem {location:Auktionshaus}.'
+L['wr_dur_foil_01'] = 'Hinter einigen Vorratskisten.'
+
+L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
+L['options_icons_warcraft_rumble_desc'] = 'Zeigt die Position der {object:Rumble-Münzenbeutel} und {object:Rumble-Folientasche} für die {object:Warcraft Rumble} Crossover Promotion.'

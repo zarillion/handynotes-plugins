@@ -1026,3 +1026,34 @@ L['soa_mjj_part2_note'] = [[{note:你至少需要4個玩家在你附近來完成
 
 當元素吸進4個人後, 他會爆炸並掉落 {item:209781}! 任何在附近的人都可以拾取它.]]
 L['soa_mjj_part3_note'] = '{item:209055} 會在 {location:詛咒之地} 的 {location:黑暗之門} 的正前方等你! 小心附近的{npc:210886}和NPC, 你需要讀12秒的施法條來拾取零件.'
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = '兵團零錢袋'
+L['rumble_foil_bag'] = '兵團錫箔包裝袋'
+L['rumble_both_bags'] = '兵團零錢和錫箔袋'
+L['warcraft_rumble_machine'] = '《魔獸兵團》遊戲機'
+
+L['wr_ohn_both_01'] = '在 {location:盧恩丹} 的一個廢墟建築內.'
+L['wr_ohn_foil_02'] = '在瀑布旁的一個石頭上.'
+L['wr_sto_coin_01'] = '在儲存箱後方.'
+L['wr_sto_foil_01'] = '在一堆砲彈旁.'
+L['wr_sto_foil_02'] = '在通往碼頭的坡道旁.'
+L['wr_tas_both_01'] = '在俯瞰 {location:捕鯨者望角} 的一棵樹後.'
+L['wr_tas_foil_01'] = '在一個巨大的斷木附近.'
+L['wr_tha_both_01'] = '在 {location:提爾堡蓄水池} 附近的飄浮島嶼上.'
+L['wr_tha_foil_01'] = '在一個巨大的植物花盆上.'
+L['wr_tws_both_01'] = '在俯瞰水的石塔頂端.'
+L['wr_tws_foil_01'] = '在俯瞰熔岩的山上.'
+L['wr_tws_foil_02'] = '在一個俯瞰水的小石塔上.'
+L['wr_val_coin_01'] = '在 {location:炙烤公羊旅店} 一樓 {object:烹飪爐灶} 旁.'
+L['wr_val_foil_01'] = '在 {location:炙烤公羊旅店} 二樓床上.'
+L['wr_val_machine'] = '在 {location:炙烤公羊旅店} 二樓.'
+L['wr_org_coin_01'] = '在 {location:破齒旅店} 二樓.'
+L['wr_org_foil_01'] = '在 {location:拍賣場} 後方.'
+L['wr_dur_foil_01'] = '在一些補給箱後面.'
+
+L['options_icons_warcraft_rumble'] = '魔獸兵團'
+L['options_icons_warcraft_rumble_desc'] = '顯示為了 {object:魔獸兵團} 跨界促銷的 {object:兵團零錢袋} 和 {object:兵團錫箔包裝袋} 的位置.'

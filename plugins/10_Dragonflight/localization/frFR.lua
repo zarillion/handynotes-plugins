@@ -1025,3 +1025,34 @@ Aux {location:Bois d'Arbrefer}, vous trouverez un {npc:210417} ainsi qu'une {obj
 Une fois que l'élémentaire aura aspiré 4 personnes, il explosera et laissera tomber la {item:209781} ! Tous ceux qui se trouvent dans la zone peuvent le récupérer.
 ]]
 L['soa_mjj_part3_note'] = 'La {item:209055} vous attendra juste devant la {object:Porte des ténèbres} aux {location:Terres foudroyées} ! Faites attention aux {npc:23082} et aux PNJ dans la zone, car il faut 12 secondes d\'incantation pour récupérer la pièce.'
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = 'Sac de pièces Rumble'
+L['rumble_foil_bag'] = 'Sac de Rumble métallisé'
+L['rumble_both_bags'] = 'Sac de Rumble métallisé et Pièces Rumble'
+L['warcraft_rumble_machine'] = 'Borne Warcraft Rumble'
+
+L['wr_ohn_both_01'] = 'À l\'intérieur d\'un bâtiment en ruine à {location:Lunedane}.'
+L['wr_ohn_foil_02'] = 'Sur un rocher près de la cascade.'
+L['wr_sto_coin_01'] = 'Derrière la caisse de rangement.'
+L['wr_sto_foil_01'] = 'Près d\'une pile de boulets de canon.'
+L['wr_sto_foil_02'] = 'Près de la rampe d\'accès aux quais.'
+L['wr_tas_both_01'] = 'Derrière un arbre surplombant la {location:Crique du Baleinier}.'
+L['wr_tas_foil_01'] = 'Près d\'un grand arbre brisé.'
+L['wr_tha_both_01'] = 'Sur une île flottante près du {location:Réservoir du Bastion de Tyr}.'
+L['wr_tha_foil_01'] = 'Au-dessus d\'un grand vase de plantes.'
+L['wr_tws_both_01'] = 'Au sommet de la tour de pierre surplombant l\'eau.'
+L['wr_tws_foil_01'] = 'Sur la montagne surplombant la lave.'
+L['wr_tws_foil_02'] = 'Sur une petite tour de pierre surplombant l\'eau.'
+L['wr_val_coin_01'] = 'Au premier étage du {location:Bélier rôti}, près du {object:Four}.'
+L['wr_val_foil_01'] = 'Au deuxième étage du {location:Bélier rôti} sur le lit.'
+L['wr_val_machine'] = 'Au deuxième étage du {location:Bélier rôti}.'
+L['wr_org_coin_01'] = 'Au deuxième étage de {location:La Broche Rompue}.'
+L['wr_org_foil_01'] = 'Derrière l\'{location:Hôtel des Ventes}.'
+L['wr_dur_foil_01'] = 'Derrière des caisses de fournitures.'
+
+L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
+L['options_icons_warcraft_rumble_desc'] = 'Afficher les emplacements des {object:Sac de pièces Rumble} et des {object:Sac de Rumble métallisé} liés à la campagne promotionnelle de {object:Warcraft Rumble}.'

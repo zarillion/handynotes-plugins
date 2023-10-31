@@ -203,6 +203,11 @@ ns.groups.TUSKARR_TACKLEBOX = Group('tuskarr_tacklebox', 'chest_yw', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.WARCRAFT_RUMBLE = Group('warcraft_rumble', 5149946, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.ZONE_EVENT = Group('zone_event', 'peg_rd', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
