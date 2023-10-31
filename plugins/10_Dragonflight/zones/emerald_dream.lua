@@ -1514,7 +1514,7 @@ local Athainne = Class('Athainne', NPC, {
     IsEnabled = function(self)
         local spawn = 'nighttime'
         local hour, _ = GetGameTime()
-        if hour >= 5 and hour < 15 then spawn = 'daytime' end
+        if hour >= 5 and hour < 19 then spawn = 'daytime' end
         return self.spawn == spawn
     end
 }) -- Athainne
