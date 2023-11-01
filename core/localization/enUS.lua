@@ -112,6 +112,7 @@ L['dr_vendor_note'] = 'Exchange {currency:2588} for drakewatcher manuscripts and
 L['dr_rostrum_note'] = 'Collect all ' .. ns.color.Heirloom('Drakewatcher Manuscript') .. ' from various drops, vendors, quests, crafting, and achievement rewards.'
 L['options_icons_dragonrace'] = 'Dragonriding Races'
 L['options_icons_dragonrace_desc'] = 'Display all race locations for the zone.'
+L['options_show_completed_races'] = 'Show completed races'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

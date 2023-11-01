@@ -36,7 +36,7 @@ ns.groups.CLAN_CHEST = Group('clan_chest', 'chest_bk', {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.COMMUNITY_FEAST = ns.Group('community_feast', 629056, {
+ns.groups.COMMUNITY_FEAST = Group('community_feast', 629056, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -66,7 +66,7 @@ ns.groups.DRAGON_GLYPH = Group('dragon_glyph', 4728198, {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.DRAGONBANE_SIEGE = ns.Group('dragonbane_siege', 3753264, {
+ns.groups.DRAGONBANE_SIEGE = Group('dragonbane_siege', 3753264, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -87,7 +87,7 @@ ns.groups.ELEMENTAL_STORM = Group('elemental_storm', 538566, {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.ELUSIVE_CREATURE = ns.Group('elusive_creature', 644271, {
+ns.groups.ELUSIVE_CREATURE = Group('elusive_creature', 644271, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION,
     IsEnabled = function(self)

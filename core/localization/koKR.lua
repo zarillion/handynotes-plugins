@@ -112,6 +112,7 @@ L['dr_vendor_note'] = nil
 L['dr_rostrum_note'] = nil
 L['options_icons_dragonrace'] = '용 조련술 경주'
 L['options_icons_dragonrace_desc'] = '용 조련술 경주 위치를 표시합니다.'
+L['options_show_completed_races'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

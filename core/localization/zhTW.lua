@@ -112,6 +112,7 @@ L['dr_vendor_note'] = nil
 L['dr_rostrum_note'] = nil
 L['options_icons_dragonrace'] = '飛龍競速'
 L['options_icons_dragonrace_desc'] = '顯示區域內所有飛龍競速的位置.'
+L['options_show_completed_races'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

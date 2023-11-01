@@ -112,6 +112,7 @@ L['dr_vendor_note'] = 'Échangez vos {currency:2588} contre des manuscrits guett
 L['dr_rostrum_note'] = 'Collectionnez tous les ' .. ns.color.Heirloom('Manuscrits guette-drake') .. ' provenant d\'objets lâchés, de vendeurs, de quêtes, d\'artisanat et de récompenses de hauts-faits.'
 L['options_icons_dragonrace'] = 'Courses du Vol à dos de dragon'
 L['options_icons_dragonrace_desc'] = 'Afficher les emplacements de toutes les courses dans la zone.'
+L['options_show_completed_races'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

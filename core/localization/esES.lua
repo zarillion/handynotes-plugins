@@ -112,6 +112,7 @@ L['dr_vendor_note'] = 'Intercambia {currency:2588} por manuscritos de dracovigí
 L['dr_rostrum_note'] = 'Colecciona todos los ' .. ns.color.Heirloom('Manuscritos de Dracovigía') .. ' de varios drops, vendedores, misiones, artesanía, y recompensas de logros.'
 L['options_icons_dragonrace'] = 'Carreras de Dragones'
 L['options_icons_dragonrace_desc'] = 'Muestra dónde están todas las Carreras de Dragones de la zona.'
+L['options_show_completed_races'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

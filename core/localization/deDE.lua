@@ -112,6 +112,7 @@ L['dr_vendor_note'] = 'Tausche {currency:2588} gegen Drachenanpassungen und Ausr
 L['dr_rostrum_note'] = 'Sammle alle ' .. ns.color.Heirloom('Drachenwächtermanuskripte') .. ' von verschiedenen Quellen wie Händlern, Quests, Erfolgen und anderen Belohnungen.'
 L['options_icons_dragonrace'] = 'Drachenrennen'
 L['options_icons_dragonrace_desc'] = 'Zeigt die Positionen der Drachenrennen an.'
+L['options_show_completed_races'] = 'Zeige abgeschlossene Drachenrennen'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

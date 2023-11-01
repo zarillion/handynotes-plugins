@@ -32,8 +32,16 @@ local Valdrakken = ns.maps[2112] or Map({id = 2112, settings = true})
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-local Dragonrace = Class('DragonRace', ns.node.Collectible,
-    {icon = 1100022, group = ns.groups.DRAGONRACE})
+local Dragonrace = Class('DragonRace', ns.node.Collectible, {
+    icon = 1100022,
+    group = ns.groups.DRAGONRACE,
+    IsCompleted = function(self)
+        if (ns:GetOpt('show_completed_races')) then return false end
+
+        if self:IsCollected() then return true end
+        return ns.node.Collectible.IsCompleted(self)
+    end
+})
 
 local DRAGONRIDING_RACE_TYPES = {
     [1] = {type = 'normal', label = L['dr_normal']},

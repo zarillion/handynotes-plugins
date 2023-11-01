@@ -112,6 +112,7 @@ L['dr_vendor_note'] = nil
 L['dr_rostrum_note'] = nil
 L['options_icons_dragonrace'] = nil
 L['options_icons_dragonrace_desc'] = nil
+L['options_show_completed_races'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

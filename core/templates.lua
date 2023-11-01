@@ -154,6 +154,19 @@ function WorldMapOptionsButtonMixin:AddGroupOptions(group, level)
         frame = self.ScaleOption,
         func = function(v) group:SetScale(v, map.id) end
     }, level)
+
+    if (group.name == 'dragonrace') then
+        LibDD:UIDropDownMenu_AddSeparator(level)
+        LibDD:UIDropDownMenu_AddButton({
+            text = L['options_show_completed_races'],
+            isNotRadio = true,
+            keepShownOnClick = true,
+            checked = ns:GetOpt('show_completed_races'),
+            func = function(button, option)
+                ns:SetOpt('show_completed_races', button.checked)
+            end
+        }, level)
+    end
 end
 
 function WorldMapOptionsButtonMixin:InitializeDropDown(level)
