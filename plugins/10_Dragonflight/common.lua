@@ -531,7 +531,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         PurpleHair = Item({item = 197372, quest = 69573}),
         RazorSnout = Item({item = 197399, quest = 69600}),
         RedHair = Item({item = 197370, quest = 69571}),
-        --RedScales = Item({item = 192111, quest = nil}), -- remove, impossible name
+        -- RedScales = Item({item = 192111, quest = nil}), -- remove, impossible name
         SharkSnout = Item({item = 197400, quest = 69601}),
         ShortSpikedCrest = Item({item = 197364, quest = 69565}),
         SilverAndBlueArmor = Item({item = 197347, quest = 69548}),
@@ -808,7 +808,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         RedScales = Item({item = 203353, quest = 73844}),
         SharkFinnedTail = Item({item = 203359, quest = 73851}),
         ShortHorns = Item({item = 203333, quest = 73822}),
-        --ShortSpikedCrest = Item({item = 197364, quest = 69565}), --remove, duplicated
+        -- ShortSpikedCrest = Item({item = 197364, quest = 69565}), -- remove, duplicated
         SingleJawHorn = Item({item = 203344, quest = 73835}),
         SmallFinnedCrest = Item({item = 203317, quest = 73805}),
         SmallFinnedTail = Item({item = 203358, quest = 73850}),
@@ -871,8 +871,14 @@ ns.DRAGON_CUSTOMIZATIONS = {
         YellowScales = Item({item = 207777, quest = 77148})
     },
     DragonIslesDrakes = {
-        GildedArmor = Item({item = 208200, quest = {69550,69786,69167,69296,73786}}),
-        WhiteScales = Item({item = 208550, quest = {69594,69820,69347,69214,73845}})
+        GildedArmor = Item({
+            item = 208200,
+            quest = {69550, 69786, 69167, 69296, 73786}
+        }),
+        WhiteScales = Item({
+            item = 208550,
+            quest = {69594, 69820, 69347, 69214, 73845}
+        })
     }
 }
 

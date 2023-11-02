@@ -100,7 +100,7 @@ map.nodes[51253128] = Rare({
     quest = 77942,
     rewards = {
         Achievement({id = 19316, criteria = 62945}), -- Adventurer of the Emerald Dream
-        --Item({item = 201437}), -- Slumbering Dream Fragment
+        -- Item({item = 201437}), -- Slumbering Dream Fragment
         DC.WindingSlitherdrake.HairyChin
     }
 }) -- Bloodstripe Great Ray
@@ -173,7 +173,7 @@ bor.nodes[54153685] = Rare({
 map.nodes[54034142] = Rare({
     id = 209936,
     quest = 77982,
-    vignette = 5817, --become 5969 when active
+    vignette = 5817, -- become 5969 when active
     note = L['greedy_gessie_note'],
     rewards = {
         Achievement({id = 19316, criteria = 62932}), -- Adventurer of the Emerald Dream
@@ -181,7 +181,7 @@ map.nodes[54034142] = Rare({
         Item({item = 211303}), -- Dryad's Supply Pouch +25 rep
         Transmog({item = 210094, slot = L['plate']}), -- Harvest Guardian Legplates
         Item({item = 208355, type = L['neck']}) -- String of Delicacies
-        --Item({item = 201437}) -- Slumbering Dream Fragment
+        -- Item({item = 201437}) -- Slumbering Dream Fragment
     }
 }) -- Greedy Gessie
 
@@ -192,7 +192,7 @@ map.nodes[47062974] = Rare({
     rewards = {
         Achievement({id = 19316, criteria = 62950}), -- Adventurer of the Emerald Dream
         Transmog({item = 208357, slot = L['cloak']}) -- Henri's Warm Coat
-        --Item({item = 201437}) -- Slumbering Dream Fragment
+        -- Item({item = 201437}) -- Slumbering Dream Fragment
     }
 }) -- Henri Snufftail
 
@@ -260,7 +260,7 @@ map.nodes[40467258] = Rare({
     rewards = {
         Achievement({id = 19316, criteria = 62942}), -- Adventurer of the Emerald Dream
         DG.Guardian.VerdantBristlebruin -- Mark of the Verdant Bristlebruin
-        --Item({item = 201437}) -- Slumbering Dream Fragment
+        -- Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {POI({38817158})} -- Entrance
 }) -- Moragh the Slothful
@@ -295,7 +295,7 @@ map.nodes[44473929] = Rare({
         Achievement({id = 19316, criteria = 62951}), -- Adventurer of the Emerald Dream
         Transmog({item = 208322, slot = L['plate']}), -- Treads of the Nightclaw
         DG.Travel.SableDreamtalon -- Mark of the Sable Dreamtalon
-        --Item({item = 201437}) -- Slumbering Dream Fragment
+        -- Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {
         POI({44923692, 44293595}) -- Entrance
@@ -307,14 +307,16 @@ map.nodes[43484697] = Rare({
     quest = 78212,
     rewards = {
         Achievement({id = 19316, criteria = 62944}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208381, slot = L['1h_mace']}), --Scepter of Still Waters
-        Transmog({item = 210132, slot = L['2h_sword']}) --Wildleaf Greatsword
-        --Item({item = 201437}) -- Slumbering Dream Fragment
+        Transmog({item = 208381, slot = L['1h_mace']}), -- Scepter of Still Waters
+        Transmog({item = 210132, slot = L['2h_sword']}) -- Wildleaf Greatsword
+        -- Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {
-            Path({43784798, 43544739, 43134649, 40734753, 40304814,
-                    40344908, 40874937, 42474934, 43504896, 43784798})
-        }
+        Path({
+            43784798, 43544739, 43134649, 40734753, 40304814, 40344908,
+            40874937, 42474934, 43504896, 43784798
+        })
+    }
 }) -- Somnambulant Ori
 
 map.nodes[61755220] = Rare({
@@ -371,7 +373,7 @@ map.nodes[38436213] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 64492}) -- Adventurer of the Emerald Dream
-        --Item({item = 201437}) -- Slumbering Dream Fragment
+        -- Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {POI({38176157})} -- Entrance
 }) -- Voracious Mikanji
@@ -567,8 +569,8 @@ local UnwakingEcho = Class('UnwakingEcho', Treasure, {
     icon = 'chest_gn',
     label = L['unwaking_echo_label'],
     note = L['unwaking_echo_note'],
-    requires = ns.requirement.Spell(421216), -- Dreaming
-    --rlabel = ns.status.LightBlue('+200 ' .. L['rep'])
+    requires = ns.requirement.Spell(421216) -- Dreaming
+    -- rlabel = ns.status.LightBlue('+200 ' .. L['rep'])
 }) -- Unwaking Echo
 
 map.nodes[46408615] = UnwakingEcho({
@@ -1150,8 +1152,11 @@ end
 
 map.nodes[54507698] = SlumberingSomnowl({
     pois = {
-        POI({55357645,54627720,71455417,34205882,43887115,
-        68425147,59634116,60424151,61473978,59534241})}
+        POI({
+            55357645, 54627720, 71455417, 34205882, 43887115, 68425147,
+            59634116, 60424151, 61473978, 59534241
+        })
+    }
 })
 
 -------------------- DRUID GLYPH: MOON-BLESSED DREAMSABER ---------------------
@@ -1308,7 +1313,7 @@ local Somnut = Class('Somnut', Node, {
         Currency({id = 2003, type = '~35'}), -- Dragon Isles Supplies
         DC.WindingSlitherdrake.SpikedHorns, --
         DC.WindingSlitherdrake.SpikedTail, --
-        DC.WindingSlitherdrake.SmallSpikedCrest --typo
+        DC.WindingSlitherdrake.SmallSpikedCrest -- typo
     }
 })
 
@@ -1467,29 +1472,30 @@ map.nodes[58434177] = ElusiveCreature({
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[59761689] = NPC({ -- REVIEW count --another vendor Talisa Whisperbloom 212797 at camp 2200:49776211
-    id = 211265,
-    icon = 'peg_bl',
-    scale = 2.0,
-    note = L['sylvia_vendor_note'],
-    rewards = {
-        Pet({item = 210690, id = 4306, count = '800'}), -- Elmer
-        Pet({item = 210689, id = 4305, count = '800'}), -- Snoots
-        Pet({item = 210571, id = 4296, count = '800'}), -- Snoozles
-        Pet({item = 210570, id = 4295, count = '800'}), -- Napps
-        Pet({item = 210651, id = 4299, count = '800'}), -- Dustite
-        Pet({item = 210648, id = 4298, count = '800'}), -- Seedle
-        DG.Travel.BorealDreamtalon:Count(1250),
-        DG.Travel.AuroralDreamtalon:Count(1250),
-        DG.Guardian.SnowyUmbraclaw:Count(1250)
-        -- Mount({item = 209950, id = 1810, count = '2500'}), -- Reins of the Rekindled Dreamstag
-        -- Mount({item = 209947, id = 1808, count = '2500'}), -- Reins of the Blossoming Dreamstag
-        -- Mount({item = 210775, id = 1835, count = '2500'}), -- Reins of the Snowfluff Dreamtalon
-        -- Mount({item = 210769, id = 1833, count = '2500'}), -- Reins of the Springtide Dreamtalon
-        -- Mount({item = 210057, id = 1817, count = '2500'}), -- Reins of the Morning Flourish Dreamsaber
-        -- Mount({item = 210058, id = 1816, count = '2500'}) -- Reins of the Evening Sun Dreamsaber
-    }
-}) -- Sylvia Whisperbloom <Dreamseed Botanist>
+map.nodes[59761689] = NPC(
+    { -- REVIEW count --another vendor Talisa Whisperbloom 212797 at camp 2200:49776211
+        id = 211265,
+        icon = 'peg_bl',
+        scale = 2.0,
+        note = L['sylvia_vendor_note'],
+        rewards = {
+            Pet({item = 210690, id = 4306, count = '800'}), -- Elmer
+            Pet({item = 210689, id = 4305, count = '800'}), -- Snoots
+            Pet({item = 210571, id = 4296, count = '800'}), -- Snoozles
+            Pet({item = 210570, id = 4295, count = '800'}), -- Napps
+            Pet({item = 210651, id = 4299, count = '800'}), -- Dustite
+            Pet({item = 210648, id = 4298, count = '800'}), -- Seedle
+            DG.Travel.BorealDreamtalon:Count(1250),
+            DG.Travel.AuroralDreamtalon:Count(1250),
+            DG.Guardian.SnowyUmbraclaw:Count(1250)
+            -- Mount({item = 209950, id = 1810, count = '2500'}), -- Reins of the Rekindled Dreamstag
+            -- Mount({item = 209947, id = 1808, count = '2500'}), -- Reins of the Blossoming Dreamstag
+            -- Mount({item = 210775, id = 1835, count = '2500'}), -- Reins of the Snowfluff Dreamtalon
+            -- Mount({item = 210769, id = 1833, count = '2500'}), -- Reins of the Springtide Dreamtalon
+            -- Mount({item = 210057, id = 1817, count = '2500'}), -- Reins of the Morning Flourish Dreamsaber
+            -- Mount({item = 210058, id = 1816, count = '2500'}) -- Reins of the Evening Sun Dreamsaber
+        }
+    }) -- Sylvia Whisperbloom <Dreamseed Botanist>
 
 local Elianna = Class('Elianna', NPC, {
     id = 211209,
