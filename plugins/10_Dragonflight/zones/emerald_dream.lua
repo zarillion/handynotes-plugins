@@ -312,7 +312,7 @@ map.nodes[43484697] = Rare({
         --Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {
-            Path({43784798, 43544739, 43134649, 40734753, 40304814, 
+            Path({43784798, 43544739, 43134649, 40734753, 40304814,
                     40344908, 40874937, 42474934, 43504896, 43784798})
         }
 }) -- Somnambulant Ori
@@ -1448,7 +1448,7 @@ map.nodes[43994990] = ElusiveCreature({
         Item({item = 193218}), -- Dense Hide
         Item({item = 193211}), -- Resilient Leather
         Item({item = 210687}) -- Ironfur Sample
-    }, 
+    },
     pois = ({Path({ns.poi.Circle({origin = 43994990, radius = 3})})})
 }) -- Elusive Blooming Brierhide
 
