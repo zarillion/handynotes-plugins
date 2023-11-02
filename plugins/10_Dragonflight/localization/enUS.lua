@@ -845,7 +845,7 @@ L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
 L['options_icons_emerald_dream_safari_desc'] = 'Display battle pet locations for the {achievement:19401} achievement.'
 
 L['envoy_of_winter_note'] = 'Gather {item:208881} and use {spell:421658} near the well until {npc:209929} spawns.'
-L['fruitface_note'] = 'Pick up {item:208837} from the ground to let {npc:209980} appear. Attack and follow him until he jumps in the water and summons {npc:209966} and the rare.'
+L['fruitface_note'] = 'Ask {dot:Pink} {npc:209950} to cast {spell:421446} on you, then {item:208837} on the ground become visiable. Pick them up to let {dot:Yellow} {npc:209980} appear. Attack and follow him until he jumps in the water {dot:Red} and summons {npc:209966} and {npc:209913}.'
 L['greedy_gessie_note'] = 'You need to collect {object:Wild Greens}, {object:Rubyscale Melon} and {object:Orangeroot} from the surrounding area and put them in the baskets near the {npc:210285s} to start the encounter.'
 L['nuoberon_note'] = 'Chase turtles, throw food at monkeys, or fight dream monsters to help {npc:209101} have a fun Dream!'
 L['reefbreaker_moruud_note'] = 'Connect all 6 of the nearby {npc:210089} to attack {npc:209898}.'
