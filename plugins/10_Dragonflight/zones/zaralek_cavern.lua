@@ -447,7 +447,7 @@ map.nodes[56040305] = Treasure({
 
 map.nodes[36397425] = Treasure({
     note = L['crystal_encased_chest_note'],
-    quest = {74987, 75559, 75601, 73697, 74986}, -- needs a review, chest does not disappear
+    quest = {74987, 75559, 75601, 74986}, -- delete 73697, it's Ancient Zaqali Chest Looting Quest
     rewards = {
         Achievement({id = 17786, criteria = 59228}), -- Treasures of Zaralek Cavern
         Item({item = 204985}), -- Barter Brick
@@ -863,7 +863,11 @@ map.nodes[48251702] = PT.Enchanting({id = 204990, quest = 75508}) -- Lava-Drench
 map.nodes[62395380] = PT.Enchanting({id = 204999, quest = 75509}) -- Shimmering Aqueous Orb
 
 map.nodes[50504790] = PT.Engineering({id = 204471, quest = 75184}) -- Defective Survival Pack
-map.nodes[37825884] = PT.Engineering({id = 204475, quest = 75186}) -- Busted Wyrmhole Generator
+map.nodes[37825884] = PT.Engineering({
+    id = 204475, 
+    quest = 75186,
+    note = L['busted_wyrmhole_generator_note']
+}) -- Busted Wyrmhole Generator
 map.nodes[48101659] = PT.Engineering({
     id = 204855,
     quest = 75433,
@@ -905,19 +909,17 @@ map.nodes[72114844] = Dragonglyph({rewards = {Achievement({id = 17515})}}) -- Dr
 ------------------------------ ELUSIVE CREATURES ------------------------------
 -------------------------------------------------------------------------------
 
-local ElusiveCrystalscaleStonecleaver = ElusiveCreature({
+map.nodes[60233957] = ElusiveCreature({
     label = '{npc:204821}',
     quest = 74234,
     rewards = {
         Item({item = 193215}), -- Adamant Scales
         Item({item = 193224}), -- Lustrous Scaled Hide
-        Item({item = 205451}), -- Flawless Crystal Scale
+        Item({item = 205451, quest = 75866}), -- Flawless Crystal Scale
         Achievement({id = 18833, criteria = 61483}) -- Elusive Legends of the Dragon Isles
-    }
+    },
+    pois = {Path({ns.poi.Circle({origin = 60233957, radius = 3})})}
 }) -- Elusive Crystalscale Stonecleaver
-
-map.nodes[57663814] = ElusiveCrystalscaleStonecleaver
-map.nodes[60233957] = ElusiveCrystalscaleStonecleaver
 
 map.nodes[44054787] = ElusiveCreature({
     label = '{npc:204831}',
