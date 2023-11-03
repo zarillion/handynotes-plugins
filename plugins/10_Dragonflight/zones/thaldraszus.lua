@@ -97,9 +97,29 @@ map.nodes[61507360] = Rare({
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
         DC.WindborneVelocidrake.SpikedBack, DC.HighlandDrake.StripedPattern,
-        DC.HighlandDrake.ManedHead
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Broodweaver Araznae
+
+map.nodes[40807465] = Rare({
+    id = 193243,
+    quest = 72834,
+    rewards = {
+        Transmog({item = 200165, slot = L['shield']}), -- Aegis of Scales
+        Transmog({item = 200682, slot = L['plate']}), -- Hardened Scale Shoulderguards
+        Transmog({item = 200228, slot = L['mail']}), -- Protoscale Pauldrons
+        DC.RenewedProtoDrake.ClubTail, DC.CliffsideWylderdrake.HeavyHorns
+    },
+    pois = {
+        Path({
+            40807465, 38667537, 37447542, 36727565, 36507640, 37237792, 
+            38137912, 38707939, 39277942, 39567930, 39687884, 39507767, 
+            39477697, 39667648, 39947653, 40107680, 40497778, 40237878, 
+            40037911, 39747932, 39367896, 39147837, 39097697, 39747530, 
+            40387463, 40807465
+        })
+    }
+}) -- Acrosoth
 
 map.nodes[59807060] = Rare({
     id = 205865,
@@ -130,12 +150,10 @@ map.nodes[44886910] = Rare({
     pois = {POI({44616780})} -- Entrance
 }) -- Corrupted Proto-Dragon
 
-local CRAGGRAVATEDELEMENTAL = Rare({
+map.nodes[45458518] = Rare({
     id = 193663,
     vignette = 5237,
     quest = 74061,
-    fgroup = 'craggravated',
-    focusable = true,
     rewards = {
         Achievement({id = 16679, criteria = 56154}),
         Transmog({item = 200298, slot = L['plate']}), -- Stoneshaped Greatbelt
@@ -146,8 +164,8 @@ local CRAGGRAVATEDELEMENTAL = Rare({
     }
 }) -- Craggravated Elemental
 
-map.nodes[45458518] = CRAGGRAVATEDELEMENTAL
-map.nodes[52746732] = CRAGGRAVATEDELEMENTAL
+-- map.nodes[45458518] = CRAGGRAVATEDELEMENTAL
+-- map.nodes[52746732] = CRAGGRAVATEDELEMENTAL--not a respawned node
 
 map.nodes[47675115] = Rare({
     id = 193234,
@@ -161,8 +179,8 @@ map.nodes[47675115] = Rare({
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
-        DC.HighlandDrake.ToothyMouth, DC.CliffsideWylderdrake.HeadMane,
-        DC.HighlandDrake.ManedHead
+        DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.ImpalerHorns,
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Eldoren the Reborn
 
@@ -180,7 +198,8 @@ map.nodes[53374092] = Rare({
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        Toy({item = 200249}) -- Mage's Chewed Wand
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Goremaul the Gluttonous
 
@@ -196,7 +215,8 @@ map.nodes[59128380] = Rare({
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Toy({item = 200148}), -- A Collection Of Me
-        DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
+        DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns,
+        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth
     },
     pois = {
         Path({
@@ -222,8 +242,8 @@ map.nodes[62298177] = Rare({
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
         Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
         Toy({item = 200148}), -- A Collection Of Me
-        DC.CliffsideWylderdrake.NarrowStripesPattern,
-        DC.HighlandDrake.StagHorns, DC.CliffsideWylderdrake.FinnedNeck
+        DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns,
+        DC.CliffsideWylderdrake.FinnedNeck, DC.WindborneVelocidrake.LargeHeadFin
     },
     pois = {POI({61708120})} -- Entrance
 }) -- Lord Epochbrgl
@@ -388,7 +408,9 @@ map.nodes[47207895] = Rare({
     interval = ns.Intervals.Interval14h({id = 21}),
     rewards = {
         Achievement({id = 16679, criteria = 56144}),
-        Transmog({item = 200139, slot = L['bow']}) -- Tempest Arc
+        Transmog({item = 200139, slot = L['bow']}), -- Tempest Arc
+        DC.RenewedProtoDrake.PurpleHair, DC.WindborneVelocidrake.SweptHorns,
+        DC.WindborneVelocidrake.FeatheryHead
     },
     pois = {
         Path({
@@ -502,8 +524,7 @@ map.nodes[55647727] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
-        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane,
-        Item({item = 198048}) -- Titan Training Matrix I
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Henlare
 
@@ -521,8 +542,8 @@ map.nodes[36757287] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
-        Item({item = 198048}) -- Titan Training Matrix I
-    }
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
+        }
 }) -- Liskron the Dazzling
 
 map.nodes[36798556] = Rare({
@@ -536,8 +557,8 @@ map.nodes[36798556] = Rare({
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Toy({item = 200198}), -- Primalist Prison
         DC.WindborneVelocidrake.ClusterHorns, DC.RenewedProtoDrake.ImpalerHorns,
-        DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.HeavyHorns,
-        Item({item = 198048}) -- Titan Training Matrix I
+        DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.HeavyHorns
+        -- Item({item = 198048}) -- Titan Training Matrix I
     }
 }) -- Lookout Mordren
 
@@ -575,7 +596,8 @@ tpf.nodes[53536521] = Rare({
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
         Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
-        Transmog({item = 201447, slot = L['cosmetic']}) -- Primal Revenant's Breezeblade
+        Transmog({item = 201447, slot = L['cosmetic']}), -- Primal Revenant's Breezeblade
+        DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek
     }
 }) -- Avalantus
 
@@ -592,6 +614,41 @@ tpf.nodes[46884248] = Rare({
     }
 }) -- Shapemaster Za'lani
 
+-- Tyrhold (10.0.5)
+map.nodes[59766226] = Rare({
+    id = 201550,
+    vignette = 5563, --Dreamsurge:5880
+    quest = 74565,
+    rewards = {
+        Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
+        Transmog({item = 200299, slot = L['1h_sword']}), -- Strange Clockwork Gladius
+        DC.HighlandDrake.CrestedBrow
+    }
+}) -- Overloading Defense Matrix
+
+map.nodes[59525659] = Rare({
+    id = 201552,
+    vignette = 5562, --Dreamsurge:5881
+    quest = 74566,
+    rewards = {
+        Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
+        Transmog({item = 200299, slot = L['1h_sword']}), -- Strange Clockwork Gladius
+        Transmog({item = 203665, slot = L['mail']}), -- Stonetongues Hood
+        DC.HighlandDrake.CrestedBrow
+    }
+}) -- Overseer Stonetongue
+
+map.nodes[61736079] = Rare({
+    id = 201549,
+    vignette = 5564, --Dreamsurge:5879
+    quest = 74561,
+    rewards = {
+        Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
+        Transmog({item = 200267, slot = L['plate']}), -- Reinforced Garden Tenders
+        Transmog({item = 203666, slot = L['leather']}), -- Vinelashed Bracers
+        DC.RenewedProtoDrake.SnubSnout, DC.HighlandDrake.TanHorns
+    }
+}) -- Morlash
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
@@ -1694,7 +1751,7 @@ map.nodes[62618507] = ns.node.MoteOfNaszuro({
 
 map.nodes[59735374] = ns.node.Node({
     label = L['revival_catalyst_label'],
-    icon = 4914678,
+    icon = 1394953, -- use new season icon
     note = L['revival_catalyst_note']
 }) -- Revival Catalyst
 
