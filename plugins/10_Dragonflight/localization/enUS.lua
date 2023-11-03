@@ -958,6 +958,8 @@ L['options_icons_somnut_desc'] = 'Display possible locations of {object:Somnuts}
 L['improvised_leafbed_note'] = 'Complete the quest chain beginning with {quest:77896} to receive the {item:210864} from {npc:210164}.'
 L['kalandu_note'] = 'Complete the quest chain beginning with {quest:77948} to receive {item:210633} from {npc:210196}.'
 
+L['renewed_dream'] = '{note:Here is not a treasure!}\n{item:201437} drops from all over {location:Emerald Dream}.\nCombine 5 {item:201437s} to restore a {item:201439}.'
+
 L['ochre_note'] = 'Talk to {npc:209253} to begin the quest line, {npc:209571} will offer the next stages.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:5 days to grow.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:5 days to grow.}'
