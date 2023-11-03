@@ -529,7 +529,8 @@ map.nodes[29275803] = Treasure({
     rewards = {
         Item({item = 208066}), -- Small Dreamseed
         Item({item = 208067}), -- Plump Dreamseed
-        DC.GrottoNetherwingDrake.TripleSpikedCrest, DC.GrottoNetherwingDrake.ShortHorns,
+        DC.GrottoNetherwingDrake.TripleSpikedCrest,
+        DC.GrottoNetherwingDrake.ShortHorns,
         DC.GrottoNetherwingDrake.BarbedTail
     }
 }) -- Renewed Dream
