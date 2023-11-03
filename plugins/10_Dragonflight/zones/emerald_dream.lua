@@ -109,10 +109,11 @@ map.nodes[64178399] = Rare({
     id = 209898,
     quest = 77867,
     note = L['reefbreaker_moruud_note'],
+    rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62931}), -- Adventurer of the Emerald Dream
-        Currency({id = 2652, type = '+25'}), -- Dream Wardens Reputation
-        Item({item = 211303}), -- Dryad's Supply Pouch +25 rep
+        -- Currency({id = 2652, type = '+25'}), -- Dream Wardens Reputation
+        -- Item({item = 211303}), -- Dryad's Supply Pouch +25 rep
         Transmog({item = 208327, slot = L['leather']}) -- Maruud's Piercing Hands
     }
 }) -- Reefbreaker Moruud
@@ -130,10 +131,11 @@ map.nodes[34716316] = Rare({
     quest = 77878,
     vignette = 5816,
     note = L['envoy_of_winter_note'],
+    rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62933}), -- Adventurer of the Emerald Dream
-        Currency({id = 2652, type = '+25'}), -- Dream Wardens Reputation
-        Item({item = 211303}), -- Dryad's Supply Pouch +25 rep
+        -- Currency({id = 2652, type = '+25'}), -- Dream Wardens Reputation
+        -- Item({item = 211303}), -- Dryad's Supply Pouch +25 rep
         Transmog({item = 208340, slot = L['cloth']}) -- Stag's Flourishing Mantle
     }
 }) -- Envoy of Winter
@@ -175,10 +177,11 @@ map.nodes[54034142] = Rare({
     quest = 77982,
     vignette = 5817, -- become 5969 when active
     note = L['greedy_gessie_note'],
+    rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62932}), -- Adventurer of the Emerald Dream
-        Currency({id = 2652, type = '+25'}), -- Dream Wardens Reputation
-        Item({item = 211303}), -- Dryad's Supply Pouch +25 rep
+        -- Currency({id = 2652, type = '+25'}), -- Dream Wardens Reputation
+        -- Item({item = 211303}), -- Dryad's Supply Pouch +25 rep
         Transmog({item = 210094, slot = L['plate']}), -- Harvest Guardian Legplates
         Item({item = 208355, type = L['neck']}) -- String of Delicacies
         -- Item({item = 201437}) -- Slumbering Dream Fragment
@@ -280,10 +283,11 @@ map.nodes[61747187] = Rare({
     quest = 77570,
     note = L['nuoberon_note'],
     vignette = 5786,
+    rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
-        Achievement({id = 19316, criteria = 62929}), -- Adventurer of the Emerald Dream
-        Currency({id = 2652, type = '+25'}), -- Dream Wardens Reputation
-        Item({item = 211303}) -- Dryad's Supply Pouch +25 rep
+        Achievement({id = 19316, criteria = 62929}) -- Adventurer of the Emerald Dream
+        -- Currency({id = 2652, type = '+25'}), -- Dream Wardens Reputation
+        -- Item({item = 211303}) -- Dryad's Supply Pouch +25 rep
     }
 }) -- Nuoberon
 
@@ -406,9 +410,10 @@ map.nodes[47493485] = Treasure({
     label = L['hidden_moonkin_stash_label'],
     quest = 77858,
     location = L['in_a_tree'],
+    rlabel = ns.status.LightBlue('+200 ' .. L['rep']),
     rewards = {
         Achievement({id = 19317, criteria = 62953}), -- Treasures of The Emerald Dream
-        Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
+        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Toy({item = 210725}) -- Owl Post
     }
 }) -- Hidden Moonkin Stash
@@ -416,10 +421,11 @@ map.nodes[47493485] = Treasure({
 map.nodes[61625960] = Treasure({
     quest = 78005,
     note = L['magical_bloom_note'],
+    rlabel = ns.status.LightBlue('+200 ' .. L['rep']),
     rewards = {
         Achievement({id = 19317, criteria = 62960}), -- Treasures of The Emerald Dream
         Item({item = 208047}), -- Gigantic Dreamseed
-        Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
+        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Currency({id = 2245, type = '20'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     },
@@ -429,10 +435,11 @@ map.nodes[61625960] = Treasure({
 map.nodes[55275726] = Treasure({
     quest = 78006,
     location = L['in_a_tree'],
+    rlabel = ns.status.LightBlue('+200 ' .. L['rep']),
     rewards = {
         Achievement({id = 19317, criteria = 62961}), -- Treasures of The Emerald Dream
         Item({item = 208067}), -- Plump Dreamseed
-        Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
+        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Currency({id = 2245, type = '20'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     }
@@ -515,19 +522,17 @@ map.nodes[34105633] = Treasure({
 
 -------------------------------------------------------------------------------
 
--- L['renewed_dream'] = '{item:201437} drops from all over {location:Emerald Dream}.\nCombine 5 {item:201437s} to restore a {item:201439}.'
--- --Slumbering Dream Fragment x 5 to combine
--- map.nodes[????????] = Treasure({
---     icon = 1394946,
---     label = '{item:201439}',
---     note = L['renewed_dream'],
---     rewards = {
---         Item({item = 208066}), -- Small Dreamseed
---         Item({item = 208067}), -- Plump Dreamseed
---         DC.GrottoNetherwingDrake.TripleSpikedCrest, DC.GrottoNetherwingDrake.ShortHorns,
---         DC.GrottoNetherwingDrake.BarbedTail
---     }
--- }) -- Renewed Dream
+map.nodes[29275803] = Treasure({
+    icon = 1394946,
+    label = '{item:201439}',
+    note = L['renewed_dream'],
+    rewards = {
+        Item({item = 208066}), -- Small Dreamseed
+        Item({item = 208067}), -- Plump Dreamseed
+        DC.GrottoNetherwingDrake.TripleSpikedCrest, DC.GrottoNetherwingDrake.ShortHorns,
+        DC.GrottoNetherwingDrake.BarbedTail
+    }
+}) -- Renewed Dream
 
 -------------------------------------------------------------------------------
 
@@ -570,14 +575,14 @@ local UnwakingEcho = Class('UnwakingEcho', Treasure, {
     label = L['unwaking_echo_label'],
     note = L['unwaking_echo_note'],
     requires = ns.requirement.Spell(421216) -- Dreaming
-    -- rlabel = ns.status.LightBlue('+200 ' .. L['rep'])
+    rlabel = ns.status.LightBlue('+200 ' .. L['rep'])
 }) -- Unwaking Echo
 
 map.nodes[46408615] = UnwakingEcho({
     quest = 78552,
     rewards = {
         Transmog({item = 210682, slot = L['cosmetic']}), -- Camper's Knife
-        Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
+        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Currency({id = 2245, type = '~21'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     }
@@ -587,7 +592,7 @@ map.nodes[55672258] = UnwakingEcho({
     quest = 78547,
     rewards = {
         Transmog({item = 210675, slot = L['cosmetic']}), -- Gardener's Lightstaff
-        Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
+        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Currency({id = 2245, type = '~21'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     }
@@ -598,7 +603,7 @@ map.nodes[55324538] = UnwakingEcho({
     location = L['in_small_cave'],
     rewards = {
         Transmog({item = 210678, slot = L['cosmetic']}), -- Verdant Glearner's Scythe
-        Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
+        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Currency({id = 2245, type = '~21'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     },
@@ -610,7 +615,7 @@ map.nodes[69575284] = UnwakingEcho({
     location = L['inside_building'],
     rewards = {
         Transmog({item = 210686, slot = L['shield']}), -- Grovekeeper's Barrier
-        Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
+        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Currency({id = 2245, type = '~21'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     }
