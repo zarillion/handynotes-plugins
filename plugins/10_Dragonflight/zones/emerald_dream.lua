@@ -574,7 +574,7 @@ local UnwakingEcho = Class('UnwakingEcho', Treasure, {
     icon = 'chest_gn',
     label = L['unwaking_echo_label'],
     note = L['unwaking_echo_note'],
-    requires = ns.requirement.Spell(421216) -- Dreaming
+    requires = ns.requirement.Spell(421216), -- Dreaming
     rlabel = ns.status.LightBlue('+200 ' .. L['rep'])
 }) -- Unwaking Echo
 
