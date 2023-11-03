@@ -958,6 +958,8 @@ L['options_icons_somnut_desc'] = 'Muestra dónden pueden estar los {object:Somnu
 L['improvised_leafbed_note'] = 'Completa la cadena de misiones comenzando con {quest:77896} para conseguir la {item:210864} de {npc:210164}.'
 L['kalandu_note'] = 'Completa la cadena de misiones comenzando con {quest:77948} para conseguir a {item:210633} de {npc:210196}.'
 
+L['renewed_dream'] = nil
+
 L['ochre_note'] = 'Habla con {npc:209253} para empezar la cadena de misiones. {npc:209571} te ofrecerá las siguientes fases.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:5 días para crecer.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:5 días para crecer.}'
