@@ -2049,7 +2049,7 @@ map.nodes[65801269] = Kazzi()
 map.nodes[58512618] = Collectible({
     label = L['fyrakk_assault_label'],
     icon = 4914672,
-    quest = {75467, 74526}, --Shadeisethal, Secured Shipment
+    quest = {75467, 74526}, -- Shadeisethal, Secured Shipment
     vignette = 5610, -- Disciple of Fyrakk -- review not showing tooltip
     rewards = {
         Achievement({id = 17506}), -- Still Standing in the Fire
@@ -2069,31 +2069,31 @@ map.nodes[58512618] = Collectible({
     }
 }) -- Fyrakk Assault
 
---Special Working Table
---Requirement: Fyrakk Assault active in this zone
+-- Special Working Table
+-- Requirement: Fyrakk Assault active in this zone
 
---visable: Blacksmithing
+-- visable: Blacksmithing
 map.nodes[53193141] = ns.node.Node({
     label = L['shadowflame_forge_label'],
     icon = 4914678, --
     note = L['shadowflame_forge_note']
 }) -- Shadowflame Forge
 
---visable: Blacksmithing, Engineering
+-- visable: Blacksmithing, Engineering
 map.nodes[53903029] = ns.node.Node({
     label = L['shadowflame_blacksmithing_anvil_label'],
     icon = 4914678, --
     note = L['shadowflame_blacksmithing_anvil_note']
 }) -- Shadowflame Blacksmithing Anvil
 
---visable: Leatherworking
+-- visable: Leatherworking
 map.nodes[54853216] = ns.node.Node({
     label = L['shadowflame_leatherworking_table_label'],
     icon = 4914678, --
     note = L['shadowflame_leatherworking_table_note']
 }) -- Shadowflame Leatherworking Table
 
---visable: Enchanting
+-- visable: Enchanting
 map.nodes[55693044] = ns.node.Node({
     label = L['shadowflame_incantation_table_label'],
     icon = 4914678, --
