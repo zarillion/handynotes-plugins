@@ -987,6 +987,9 @@ L['thorn_stag_note'] = '1. Töte {npc:210976} und benutze das {item:209866} mit 
 L['thorn_saber_note'] = '1. Töte {npc:210975} und benutze das {item:209867} mit der Leiche. Der Säbler wird als {npc:210981} {npc:<Thornborn Spirit>} wiedererscheinen.\n\n2. Wirke {spell:1515} auf ihn.\n\n3. {npc:210981} ist in 3 Farben verfügbar: schwarz, grün und hell.' -- review
 L['thorn_bear_note'] = '1. Töte {npc:210977} und benutze das {item:209868} mit der Leiche. Der Bär wird als {npc:210988} {npc:<Thornborn Spirit>} wiedererscheinen.\n\n2. Wirke {spell:1515} auf ihn.\n\n3. {npc:210988} ist in 3 Farben verfügbar: braun, dunkel und grün.' -- review
 
+L['nahqi_note'] = nil
+
+L['sulraka_note']  = nil
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
