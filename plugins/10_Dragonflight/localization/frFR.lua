@@ -984,6 +984,9 @@ L['thorn_stag_note'] = '1. Tuez un {npc:210976}, puis utilisez le {item:209866} 
 L['thorn_saber_note'] = '1. Tuez un {npc:210975}, puis utilisez le {item:209867} sur le cadavre. Le sabre réapparaîtra sous la forme de {npc:210981} {npc:<Thornborn Spirit>}.\n\n2. Lancez le sort {spell:1515} sur lui.\n\n3. Trois teintes sont disponibles pour {npc:210981} : noir, vert et pâle.' -- review
 L['thorn_bear_note'] = '1. Tuez un {npc:210977}, puis utilisez le {item:209868} sur le cadavre. L\'ours réapparaîtra sous la forme d\'{npc:210988} {npc:<Thornborn Spirit>}.\n\n2. Lancez le sort {spell:1515} sur lui.\n\n3. Trois teintes sont disponibles pour {npc:210988} : marron, foncé et vert.' -- review
 
+L['nahqi_note'] = nil
+
+L['sulraka_note']  = nil
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
