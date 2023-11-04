@@ -498,7 +498,7 @@ Thaldraszus.nodes[57236690] = Dragonrace({
     reverse = {2195, 64, 59},
     challenge = {2464, 61, 58},
     reverseChallenge = {2465, 66, 63},
-    stormRace = {nil, nil, nil},
+    stormRace = {2667, nil, 80},
     rewards = Thaldraszus_Rewards(2, 3, 4, 4)
 }) -- Tyrhold Trial
 
