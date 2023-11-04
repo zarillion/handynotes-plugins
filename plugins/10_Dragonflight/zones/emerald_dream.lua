@@ -1065,13 +1065,13 @@ map.nodes[70002700] = DruidGlyph({
         DG.Guardian.DarkUmbraclaw:Note('{npc:210070}'),
         DG.Guardian.HibernatingRunebear:Note('{npc:209574}'),
         DG.Guardian.LoamyUmbraclaw:Note('{npc:212903}'),
-        DG.Guardian.SnowyUmbraclaw:Note('{npc:212903}'),
+        DG.Guardian.SnowyUmbraclaw:Note('{npc:211265}'),
         DG.Guardian.VerdantBristlebruin:Note('{npc:210045}'),
         Spacer(),
         Section('{spell:783}'), -- Travel
         DG.Travel.AuricDreamstag:Note('{spell:45357}'),
-        DG.Travel.AuroralDreamtalon:Note('{npc:212903}'),
-        DG.Travel.BorealDreamtalon:Note('{npc:212903}'),
+        DG.Travel.AuroralDreamtalon:Note('{npc:211265}'),
+        DG.Travel.BorealDreamtalon:Note('{npc:211265}'),
         DG.Travel.DreamtalonMatriarch:Note('{npc:210051}'),
         DG.Travel.LushDreamstag:Note('{npc:212903}'),
         DG.Travel.SableDreamtalon:Note('{npc:210161}'),
@@ -1080,11 +1080,11 @@ map.nodes[70002700] = DruidGlyph({
         Spacer(),
         Section('{spell:276029}'), -- Flight
         DG.Flight.AzureSomnowl:Note('{quest:78066}'),
-        DG.Flight.BlazingSomnowl:Note('{npc:210601}'),
-        DG.Flight.SlumberingSomnowl:Note('{item:210535}'),
+        DG.Flight.BlazingSomnowl:Note('{item:210061}'),
+        DG.Flight.SlumberingSomnowl:Note('{spell:2637}, {spell:426183}'),
         Spacer(),
         Section('{spell:276012}'),
-        DG.Aquatic.PrismaticWhiskerfish:Note(L['amirdrassil'])
+        DG.Aquatic.PrismaticWhiskerfish:Note('{spell:51294}, '..L['amirdrassil'])
         -- LuaFormatter on
     }
 }) -- Druid Glyph List
@@ -1714,3 +1714,38 @@ map.nodes[36596203] = NPC({
     note = format(L['thornbeast_disclaimer'], 209866) .. '\n\n' ..
         L['thorn_bear_note']
 }) -- Astera
+
+-------------------------- SPIRIT BEAST: NAH'QI --------------------------
+
+map.nodes[45507220] = NPC({
+    id = 210908,
+    icon = 5171363,
+    requires = {
+        ns.requirement.Quest(78842, '{item:211314}') -- Cinder of Companionship
+    },
+    class = 'HUNTER',
+    note = L['nahqi_note'],
+    pois = {Path({
+        45507220, 45207000, 45006770, 45006560, 45206340,
+        45706110, 46805940, 48405800, 49805730, 51305670,
+        52705710, 53605900, 54406130, 54606320, 55206530,
+        55406750, 55006920, 54607100, 53807230, 52907390,
+        51707490, 50307510, 48507480, 46807390, 45507220
+    })}
+}) -- Nah'qi
+
+------------------------- SPIRIT BEAST: SUL'RAKA --------------------------
+
+map.nodes[58305820] = NPC({
+    id = 210868,
+    icon = 2446018,
+    class = 'HUNTER',
+    note = L['sulraka_note'],
+    pois = {Path({
+        58305820, 58206020, 58106240, 58206470, 58806690,
+        59906810, 61106930, 62706950, 64306750, 65406640,
+        65906420, 66106190, 65006040, 63805900, 63005700,
+        62805530, 61805420, 60305380, 59005290, 57805380,
+        57905610, 58305820
+    })}
+}) -- Sul'raka
