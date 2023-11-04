@@ -276,7 +276,7 @@ ForbiddenReach.nodes[76136563] = Dragonrace({
     reverse = {2213, 47, 42},
     challenge = {2474, 48, 45},
     reverseChallenge = {2475, 47, 44},
-    stormRace = {nil, nil, nil},
+    stormRace = {2668, nil, 90},
     rewards = ForbiddenReach_Rewards(1, 1, 2, 5)
 }) -- Stormsunder Crater Circuit
 
