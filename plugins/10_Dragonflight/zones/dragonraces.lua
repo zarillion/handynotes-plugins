@@ -209,7 +209,7 @@ AzureSpan.nodes[71292464] = Dragonrace({
     reverse = {2190, 61, 56},
     challenge = {2454, 66, 63},
     reverseChallenge = {2455, 67, 64},
-    stormRace = {nil, nil, nil},
+    stormRace = {2666, nil, 120},
     rewards = AzureSpan_Rewards(3, 5, 6, 3)
 }) -- Vakthros Ascent
 
