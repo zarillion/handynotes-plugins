@@ -107,9 +107,9 @@ L['dr_advanced'] = nil
 L['dr_reverse'] = nil
 L['dr_challenge'] = nil
 L['dr_reverse_challenge'] = nil
+L['dr_storm_race'] = nil
 L['dr_bronze'] = nil
 L['dr_vendor_note'] = nil
-L['dr_rostrum_note'] = nil
 L['options_icons_dragonrace'] = nil
 L['options_icons_dragonrace_desc'] = nil
 
