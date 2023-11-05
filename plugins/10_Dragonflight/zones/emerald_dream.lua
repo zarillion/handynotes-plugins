@@ -938,6 +938,32 @@ hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
     GameTooltip:Show()
 end)
 
+--------------------------------- SUPER BLOOM ----------------------------------
+
+map.nodes[51555972] = Collectible({
+    icon = 3939983,
+    label = "{quest:78319}",
+    vignette=5813,
+    rewards = {
+        Spacer(),
+        Section(PVP_PROGRESS_REWARDS_HEADER..':2300/8000'),
+        Item({item = 211411}),
+        Currency({id = 2650}),
+        Spacer(),
+        Section(PVP_PROGRESS_REWARDS_HEADER..':5600/8000'),
+        Item({item = 211413}),
+        DC.GrottoNetherwingDrake.SingleHornedCrest,
+        Spacer(),
+        Section(PVP_PROGRESS_REWARDS_HEADER..':8000/8000'),
+        Item({item = 211414}),
+        Item({item = 208047}), -- Gigantic Dreamseed
+        Spacer(),
+        Currency({id = 2652, type = '+50'}), -- Dream Wardens Reputation
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
+    }
+})
+
 -------------------------------------------------------------------------------
 --------------------------------- DREAMFRUIT ----------------------------------
 -------------------------------------------------------------------------------
