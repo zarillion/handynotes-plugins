@@ -146,6 +146,22 @@ L['options_icons_frostbound_chest'] = 'Cofre Ligado a la Escarcha'
 L['options_icons_frostbound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Ligado a la Escarcha}.'
 
 L['fyrakk_assault_label'] = 'Asalto de Fyrakk'
+L['fyrakk_secured_shipment'] = nil
+
+L['shadowflame_forge_label'] = nil
+L['shadowflame_forge_note'] = nil
+L['shadowflame_blacksmithing_anvil_label'] = nil
+L['shadowflame_blacksmithing_anvil_note'] = nil
+L['shadowflame_leatherworking_table_label'] = nil
+L['shadowflame_leatherworking_table_note'] = nil
+L['shadowflame_incantation_table_label'] = nil
+L['shadowflame_incantation_table_note'] = nil
+L['azure_loom_label'] = nil
+L['azure_loom_note'] = nil
+L['temporal_loom_label'] = nil
+L['temporal_loom_note'] = nil
+L['earthwarders_forge_label'] = nil
+L['earthwarders_forge_note'] = nil
 
 L['dreamsurge_sublabel'] = '{note:Sólo está disponible cuando {location:Pico Onírico} está activo en esta zona.}'
 L['celestine_vendor_note'] = 'Cambia {item:207026} por una montura, juguetes, mascotas, y transfiguraciones.'
@@ -800,6 +816,7 @@ L['options_icons_ritual_offering_desc'] = 'Muestra dónde pueden haber {object:O
 L['nal_kskol_reliquary_label'] = 'Relicario de Nal ks\'kol'
 L['nal_kskol_reliquary_note'] = 'Usa la {object:Consola de Acceso al Relicario} y resuelve el puzzle para abrir el {object:Relicario de Nal ks\'kol}.'
 
+L['busted_wyrmhole_generator_note'] = nil
 L['molten_scoutbot_note'] = 'Abre el {object:Explorabot de magma} y despoja el {item:204850}.'
 L['bolts_and_brass_note'] = 'Abre los {object:Tornillos y Latón} y despoja los {item:204850}.'
 
