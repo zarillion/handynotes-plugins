@@ -2069,36 +2069,82 @@ map.nodes[58512618] = Collectible({
     }
 }) -- Fyrakk Assault
 
--- Special Working Table
--- Requirement: Fyrakk Assault active in this zone
+-------------------------------------------------------------------------------
+---------------------------- SPECIAL WORKING TABLE-----------------------------
+-------------------------------------------------------------------------------
 
--- visable: Blacksmithing
+-- 2096	Brackenhide Hollow - Brackenhide Hollow
+-- 2106	Brackenhide Hollow - Den of Decay
+-- local denofdecay = Map({id = 2106, settings = false}) -- Den of Decay
+-- denofdecay.nodes[63703852] = ns.node.Node({
+--     -- dungeonLevel = 2,
+--     -- type = "table",
+--     label = L["altar_of_decay_label"],
+--     icon = 4554436,
+--     note = L['altar_of_decay_note'],
+--     IsEnabled = function(self) -- Leatherworking, Alchemy
+--         if ns.PlayerHasProfession(165) or ns.PlayerHasProfession(171) then return true
+--         else return false end
+--         return ns.node.Item.IsEnabled(self)
+--     end
+-- }) -- The Altar of Decay
+
+map.nodes[38376074] = ns.node.Node({
+    label = L['azure_loom_label'],
+    icon = 4549303,
+    note = L['azure_loom_note'],
+    IsEnabled = function(self) -- Tailoring
+        if not ns.PlayerHasProfession(197) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- Azure Loom
+
+-- Shadowflame Crafting Benches
+-- Require: Fyrakk Assault active in this zone
 map.nodes[53193141] = ns.node.Node({
     label = L['shadowflame_forge_label'],
-    icon = 4914678, --
-    note = L['shadowflame_forge_note']
+    icon = 4622286,
+    note = L['shadowflame_forge_note'],
+    IsEnabled = function(self) -- Blacksmithing
+        if not ns.PlayerHasProfession(164) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
 }) -- Shadowflame Forge
 
--- visable: Blacksmithing, Engineering
+-- Require: Fyrakk Assault active in this zone
 map.nodes[53903029] = ns.node.Node({
     label = L['shadowflame_blacksmithing_anvil_label'],
     icon = 4914678, --
-    note = L['shadowflame_blacksmithing_anvil_note']
+    note = L['shadowflame_blacksmithing_anvil_note'],
+    IsEnabled = function(self) -- Blacksmithing, Engineering
+        if ns.PlayerHasProfession(164) or ns.PlayerHasProfession(202) then return true
+        else return false end
+        return ns.node.Item.IsEnabled(self)
+    end
 }) -- Shadowflame Blacksmithing Anvil
 
--- visable: Leatherworking
+-- Require: Fyrakk Assault active in this zone
 map.nodes[54853216] = ns.node.Node({
     label = L['shadowflame_leatherworking_table_label'],
-    icon = 4914678, --
-    note = L['shadowflame_leatherworking_table_note']
+    icon = 5088848,
+    note = L['shadowflame_leatherworking_table_note'],
+    IsEnabled = function(self) -- Leatherworking
+        if not ns.PlayerHasProfession(165) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
 }) -- Shadowflame Leatherworking Table
 
--- visable: Enchanting
+-- Require: Fyrakk Assault active in this zone
 map.nodes[55693044] = ns.node.Node({
     label = L['shadowflame_incantation_table_label'],
-    icon = 4914678, --
-    note = L['shadowflame_incantation_table_note']
+    icon = 4620672,
+    note = L['shadowflame_incantation_table_note'],
+    IsEnabled = function(self) -- Enchanting
+        if not ns.PlayerHasProfession(333) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
 }) -- Shadowflame Incantation Table
+
 ------------------------------------------------------------------------------
 --------------------------------- DREAMSURGE ---------------------------------
 ------------------------------------------------------------------------------
