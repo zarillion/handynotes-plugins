@@ -44,6 +44,14 @@ local DRAGONRIDING_RACE_TYPES = {
     [6] = {type = 'stormRace', label = L['dr_storm_race']}
 }
 
+local function CanAddRace(raceType)
+    if raceType == 'stormRace' then
+        local unlocked = select(4, GetAchievementInfo(19027)) -- [Heroic Edition: Algarian Stormrider]
+        return unlocked and true or false
+    end
+    return true
+end
+
 function Dragonrace.getters:sublabel()
     local note = L['dr_best_time']
     local txt = L['dr_your_best_time']
@@ -54,11 +62,7 @@ function Dragonrace.getters:sublabel()
             local time = currencyID and
                              C_CurrencyInfo.GetCurrencyInfo(currencyID).quantity or
                              0
-            if race.type == 'stormRace' then
-                if (select(4, GetAchievementInfo(19027)) == true) then
-                    txt = txt .. '\n' .. format(note, label, time / 1000)
-                end
-            else
+            if CanAddRace(race.type) then
                 txt = txt .. '\n' .. format(note, label, time / 1000)
             end
         end
@@ -82,11 +86,7 @@ function Dragonrace.getters:note()
             if self[race.type][3] then
                 gTime = Gold(self[race.type][3])
             end
-            if race.type == 'stormRace' then
-                if (select(4, GetAchievementInfo(19027)) == true) then
-                    txt = txt .. '\n' .. format(note, label, sTime, gTime)
-                end
-            else
+            if CanAddRace(race.type) then
                 txt = txt .. '\n' .. format(note, label, sTime, gTime)
             end
         end
@@ -94,16 +94,13 @@ function Dragonrace.getters:note()
     return txt .. '\n\n' .. L['dr_bronze']
 end
 
-local function AddStormRace(rewards, criteria)
-    if (select(4, GetAchievementInfo(19027)) == true) then
-        table.insert(rewards, Spacer())
-        table.insert(rewards, Section(L['dr_storm_race']))
-        table.insert(rewards, Achievement(
-            {id = 18928, criteria = criteria, oneline = true}))
-        table.insert(rewards, Achievement(
-            {id = 18929, criteria = criteria, oneline = true}))
-        table.insert(rewards, Achievement(
-            {id = 18931, criteria = criteria, oneline = true}))
+local function AddStormRace(r, c)
+    if CanAddRace('stormRace') then
+        table.insert(r, Spacer())
+        table.insert(r, Section(L['dr_storm_race']))
+        table.insert(r, Achievement({id = 18928, criteria = c, oneline = true}))
+        table.insert(r, Achievement({id = 18929, criteria = c, oneline = true}))
+        table.insert(r, Achievement({id = 18931, criteria = c, oneline = true}))
     end
 end
 
