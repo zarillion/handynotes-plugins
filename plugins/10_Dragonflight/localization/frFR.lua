@@ -147,6 +147,22 @@ L['options_icons_frostbound_chest'] = 'Coffre lié par le givre'
 L['options_icons_frostbound_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres liés par le givre}.'
 
 L['fyrakk_assault_label'] = 'Assaut de Fyrakka'
+L['fyrakk_secured_shipment'] = nil
+
+L['shadowflame_forge_label'] = nil
+L['shadowflame_forge_note'] = nil
+L['shadowflame_blacksmithing_anvil_label'] = nil
+L['shadowflame_blacksmithing_anvil_note'] = nil
+L['shadowflame_leatherworking_table_label'] = nil
+L['shadowflame_leatherworking_table_note'] = nil
+L['shadowflame_incantation_table_label'] = nil
+L['shadowflame_incantation_table_note'] = nil
+L['azure_loom_label'] = nil
+L['azure_loom_note'] = nil
+L['temporal_loom_label'] = nil
+L['temporal_loom_note'] = nil
+L['earthwarders_forge_label'] = nil
+L['earthwarders_forge_note'] = nil
 
 L['dreamsurge_sublabel'] = '{note:Uniquement disponible lorsqu\'un événement de {location:Poussée onirique} est actif dans cette zone.}'
 L['celestine_vendor_note'] = 'Échangez vos {item:207026} contre une monture, des jouets, des mascottes et des objets de transmogrification.'
@@ -798,6 +814,7 @@ L['options_icons_ritual_offering_desc'] = 'Afficher les emplacements possibles d
 L['nal_kskol_reliquary_label'] = 'Reliquaire de Nak Ks\'sol'
 L['nal_kskol_reliquary_note'] = 'Utilisez la {object:Console d\'accès au reliquaire} et résolvez l\'énigme pour ouvrir le {object:Reliquaire de Nak Ks\'sol}.'
 
+L['busted_wyrmhole_generator_note'] = nil
 L['molten_scoutbot_note'] = 'Examinez l\'{object:Explorobot fondu} et récupérez le {item:204855}.'
 L['bolts_and_brass_note'] = 'Examinez les {object:Boulons et cuivre} et récupérez la {item:204850}.'
 
