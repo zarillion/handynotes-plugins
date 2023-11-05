@@ -2639,4 +2639,16 @@ map.nodes[47128259] = NPC({
     note = L['cataloger_jakes_note']
 }) -- Cataloger Jakes (Dragonscale Expedition Reputation)
 
+---------------------------- SPECIAL WORKING TABLE-----------------------------
+
+map.nodes[24556089] = ns.node.Node({
+    label = L['earthwarders_forge_label'],
+    icon = 4622280,
+    note = L['earthwarders_forge_note'],
+    IsEnabled = function(self) -- Blacksmithing
+        if not ns.PlayerHasProfession(164) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- The Earth-Warder's Forge
+
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
