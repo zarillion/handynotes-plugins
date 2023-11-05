@@ -107,9 +107,9 @@ L['dr_advanced'] = '进阶'
 L['dr_reverse'] = '反向'
 L['dr_challenge'] = '挑战'
 L['dr_reverse_challenge'] = '反向挑战'
+L['dr_storm_race'] = nil
 L['dr_bronze'] = '完成竞速获得 ' .. ns.color.Bronze('青铜') .. '。'
 L['dr_vendor_note'] = '用 {currency:2588} 兑换观龙者手稿和幻化。'
-L['dr_rostrum_note'] = '收集全部 ' .. ns.color.Heirloom('观龙者手稿') .. ' 从多处掉落，供应商，任务，制造和成就奖励。'
 L['options_icons_dragonrace'] = '驭龙竞速'
 L['options_icons_dragonrace_desc'] = '显示区域内全部驭龙竞速的位置。'
 

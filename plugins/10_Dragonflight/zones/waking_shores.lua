@@ -179,7 +179,7 @@ map.nodes[27826071] = CauldronbearerBlakor()
 
 map.nodes[29935074] = RareElite({
     id = 190991,
-    vignette = 5115, -- Dreamsurge:5902
+    vignette = {5115, 5902},
     quest = 74043,
     location = L['in_cave'],
     rewards = {

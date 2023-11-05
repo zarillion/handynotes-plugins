@@ -40,8 +40,17 @@ local DRAGONRIDING_RACE_TYPES = {
     [2] = {type = 'advanced', label = L['dr_advanced']},
     [3] = {type = 'reverse', label = L['dr_reverse']},
     [4] = {type = 'challenge', label = L['dr_challenge']},
-    [5] = {type = 'reverseChallenge', label = L['dr_reverse_challenge']}
+    [5] = {type = 'reverseChallenge', label = L['dr_reverse_challenge']},
+    [6] = {type = 'stormRace', label = L['dr_storm_race']}
 }
+
+local function CanAddRace(raceType)
+    if raceType == 'stormRace' then
+        local unlocked = select(4, GetAchievementInfo(19027)) -- [Heroic Edition: Algarian Stormrider]
+        return unlocked and true or false
+    end
+    return true
+end
 
 function Dragonrace.getters:sublabel()
     local note = L['dr_best_time']
@@ -53,7 +62,9 @@ function Dragonrace.getters:sublabel()
             local time = currencyID and
                              C_CurrencyInfo.GetCurrencyInfo(currencyID).quantity or
                              0
-            txt = txt .. '\n' .. format(note, label, time / 1000)
+            if CanAddRace(race.type) then
+                txt = txt .. '\n' .. format(note, label, time / 1000)
+            end
         end
     end
     return txt
@@ -75,10 +86,22 @@ function Dragonrace.getters:note()
             if self[race.type][3] then
                 gTime = Gold(self[race.type][3])
             end
-            txt = txt .. '\n' .. format(note, label, sTime, gTime)
+            if CanAddRace(race.type) then
+                txt = txt .. '\n' .. format(note, label, sTime, gTime)
+            end
         end
     end
     return txt .. '\n\n' .. L['dr_bronze']
+end
+
+local function AddStormRace(r, c)
+    if CanAddRace('stormRace') then
+        table.insert(r, Spacer())
+        table.insert(r, Section(L['dr_storm_race']))
+        table.insert(r, Achievement({id = 18928, criteria = c, oneline = true}))
+        table.insert(r, Achievement({id = 18929, criteria = c, oneline = true}))
+        table.insert(r, Achievement({id = 18931, criteria = c, oneline = true}))
+    end
 end
 
 -------------------------------------------------------------------------------
@@ -109,16 +132,6 @@ local DragonridingVendor = Class('DragonridingVendor', NPC, {
         Transmog({item = 206592, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Belt
         Transmog({item = 206593, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Leggings
         Transmog({item = 206594, slot = L['cosmetic'], count = '20'}) -- Drake Racer's Boots
-        --
-        -- Transmog({item = 210078, slot = L['cosmetic']}) -- Sky-Captain's Formal Attire
-        -- Transmog({item = 210066, slot = L['cosmetic']}) -- Sky-Captain's Formal Boots
-        -- Transmog({item = 210071, slot = L['cosmetic']}) -- Sky-Captain's Formal Cape
-        -- Transmog({item = 210067, slot = L['cosmetic']}) -- Sky-Captain's Formal Coat
-        -- Transmog({item = 210065, slot = L['cosmetic']}) -- Sky-Captain's Formal Hat
-        -- Transmog({item = 210079, slot = L['cosmetic']}) -- Sky-Captain's Masquerade Attire
-        -- Transmog({item = 210073, slot = L['cosmetic']}) -- Sky-Captain's Masquerade Boots
-        -- Transmog({item = 210076, slot = L['cosmetic']}) -- Sky-Captain's Masquerade Cape
-        -- Transmog({item = 210075, slot = L['cosmetic']}) -- Sky-Captain's Masquerade Pants
     }
 }) -- Dragonriding Vendor
 
@@ -137,67 +150,13 @@ Valdrakken.nodes[27004760] = DragonridingVendor({
 })
 
 -------------------------------------------------------------------------------
--------------------------- ROSTRUM OF TRANSFORMATION --------------------------
--------------------------------------------------------------------------------
-
-local RostrumOfTransformation = Class('RostrumOfTransformation', NPC, {
-    id = 198464,
-    group = ns.groups.DRAGONRACE,
-    note = L['dr_rostrum_note']
-}) -- Rostrum of Transformation
-
-WakingShores.nodes[74035813] = RostrumOfTransformation({
-    icon = 254288,
-    rewards = {
-        Achievement({id = 16696}), -- Renewed Proto-Drake Drake Armor
-        Achievement({id = 16697}), -- Renewed Proto-Drake Head Featuers
-        Achievement({id = 16698}), -- Renewed Proto-Drake Tail Features
-        Achievement({id = 16699}), -- Renewed Proto-Drake Scales and Patterns
-        Achievement({id = 16700}) -- Renewed Proto-Drake Horns and Hair
-    }
-})
-
-OhnahranPlains.nodes[84643555] = RostrumOfTransformation({
-    icon = 254290,
-    rewards = {
-        Achievement({id = 16701}), -- Windborne Velocidrake Scales and Patterns
-        Achievement({id = 16702}), -- Windborne Velocidrake Armor
-        Achievement({id = 16704}), -- Windborne Velocidrake Horns and Fur
-        Achievement({id = 16705}), -- Windborne Velocidrake Head Features
-        Achievement({id = 16706}) -- Windborne Velocidrake Back and Tail
-    }
-})
-
-AzureSpan.nodes[63611321] = RostrumOfTransformation({
-    icon = 254291,
-    rewards = {
-        Achievement({id = 16707}), -- Highland Drake Scales and Patterns
-        Achievement({id = 16708}), -- Highland Drake Armor
-        Achievement({id = 16710}), -- Highland Drake Horns and Hair
-        Achievement({id = 16711}), -- Highland Drake Back and Tail
-        Achievement({id = 16712}) -- Highland Drake Head Features
-    }
-})
-
-Valdrakken.nodes[25245033] = RostrumOfTransformation({
-    icon = 254289,
-    rewards = {
-        Achievement({id = 16723}), -- Cliffside Wylderdrake Scales and Patterns
-        Achievement({id = 16724}), -- Cliffside Wylderdrake Armor
-        Achievement({id = 16725}), -- Cliffside Wylderdrake Horns and Manes
-        Achievement({id = 16726}), -- Cliffside Wylderdrake Back and Tail
-        Achievement({id = 16727}) -- Cliffside Wylderdrake Head Features
-    }
-})
-
--------------------------------------------------------------------------------
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
 --------------------------------- AZURE SPAN ----------------------------------
 
-local function AzureSpan_Rewards(b, c, r) -- basic, challenge, reverse challenge
-    return {
+local function AzureSpan_Rewards(b, c, r, s) -- basic, challenge, reverse challenge, storm race
+    local rewards = {
         Achievement({id = 15921, criteria = b, oneline = true}), -- normal bronze
         Achievement({id = 15922, criteria = b, oneline = true}), -- normal silver
         Achievement({id = 15923, criteria = b, oneline = true}), -- normal gold
@@ -216,6 +175,8 @@ local function AzureSpan_Rewards(b, c, r) -- basic, challenge, reverse challenge
         Achievement({id = 18758, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18759, criteria = r, oneline = true}) -- reverse challenge gold
     }
+    if s then AddStormRace(rewards, s) end
+    return rewards
 end
 
 AzureSpan.nodes[47914078] = Dragonrace({
@@ -245,7 +206,8 @@ AzureSpan.nodes[71292464] = Dragonrace({
     reverse = {2190, 61, 56},
     challenge = {2454, 66, 63},
     reverseChallenge = {2455, 67, 64},
-    rewards = AzureSpan_Rewards(3, 5, 6)
+    stormRace = {2666, nil, 120},
+    rewards = AzureSpan_Rewards(3, 5, 6, 3)
 }) -- Vakthros Ascent
 
 AzureSpan.nodes[16584937] = Dragonrace({
@@ -280,8 +242,8 @@ AzureSpan.nodes[42275677] = Dragonrace({
 
 ------------------------------- FORBIDDEN REACH -------------------------------
 
-local function ForbiddenReach_Rewards(b, c, r) -- basic, challenge, reverse challenge
-    return {
+local function ForbiddenReach_Rewards(b, c, r, s) -- basic, challenge, reverse challenge, storm race
+    local rewards = {
         Achievement({id = 17279, criteria = b, oneline = true}), -- normal bronze
         Achievement({id = 17280, criteria = b, oneline = true}), -- normal silver
         Achievement({id = 17281, criteria = b, oneline = true}), -- normal gold
@@ -300,6 +262,8 @@ local function ForbiddenReach_Rewards(b, c, r) -- basic, challenge, reverse chal
         Achievement({id = 18780, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18781, criteria = r, oneline = true}) -- reverse challenge gold
     }
+    if s then AddStormRace(rewards, s) end
+    return rewards
 end
 
 ForbiddenReach.nodes[76136563] = Dragonrace({
@@ -309,7 +273,8 @@ ForbiddenReach.nodes[76136563] = Dragonrace({
     reverse = {2213, 47, 42},
     challenge = {2474, 48, 45},
     reverseChallenge = {2475, 47, 44},
-    rewards = ForbiddenReach_Rewards(1, 1, 2)
+    stormRace = {2668, nil, 90},
+    rewards = ForbiddenReach_Rewards(1, 1, 2, 5)
 }) -- Stormsunder Crater Circuit
 
 ForbiddenReach.nodes[31326573] = Dragonrace({
@@ -364,8 +329,8 @@ ForbiddenReach.nodes[49426006] = Dragonrace({
 
 ------------------------------- OHNAHRAN PLAINS -------------------------------
 
-local function OhnahranPlains_Rewards(b, c, r) -- basic, challenge, reverse challenge
-    return {
+local function OhnahranPlains_Rewards(b, c, r, s) -- basic, challenge, reverse challenge, storm race
+    local rewards = {
         Achievement({id = 15918, criteria = b, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = b, oneline = true}), -- normal silver
         Achievement({id = 15920, criteria = b, oneline = true}), -- normal gold
@@ -384,6 +349,8 @@ local function OhnahranPlains_Rewards(b, c, r) -- basic, challenge, reverse chal
         Achievement({id = 18755, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18756, criteria = r, oneline = true}) -- reverse challenge gold
     }
+    if s then AddStormRace(rewards, s) end
+    return rewards
 end
 
 OhnahranPlains.nodes[63743051] = Dragonrace({
@@ -403,7 +370,8 @@ OhnahranPlains.nodes[86263583] = Dragonrace({
     reverse = {2184, 52, 47},
     challenge = {2440, 53, 50},
     reverseChallenge = {2441, 53, 50},
-    rewards = OhnahranPlains_Rewards(2, 3, 4)
+    stormRace = {nil, nil, nil},
+    rewards = OhnahranPlains_Rewards(2, 3, 4, 2)
 }) -- Fen Flythrough
 
 OhnahranPlains.nodes[80897220] = Dragonrace({
@@ -486,8 +454,8 @@ OhnahranPlains.nodes[43746678] = Dragonrace({
 
 --------------------------------- THALDRASZUS ---------------------------------
 
-local function Thaldraszus_Rewards(b, c, r) -- basic, challenge, reverse challenge
-    return {
+local function Thaldraszus_Rewards(b, c, r, s) -- basic, challenge, reverse challenge, storm race
+    local rewards = {
         Achievement({id = 15924, criteria = b, oneline = true}), -- normal bronze
         Achievement({id = 15925, criteria = b, oneline = true}), -- normal silver
         Achievement({id = 15926, criteria = b, oneline = true}), -- normal gold
@@ -506,6 +474,8 @@ local function Thaldraszus_Rewards(b, c, r) -- basic, challenge, reverse challen
         Achievement({id = 18761, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18762, criteria = r, oneline = true}) -- reverse challenge gold
     }
+    if s then AddStormRace(rewards, s) end
+    return rewards
 end
 
 Thaldraszus.nodes[57777501] = Dragonrace({
@@ -525,7 +495,8 @@ Thaldraszus.nodes[57236690] = Dragonrace({
     reverse = {2195, 64, 59},
     challenge = {2464, 61, 58},
     reverseChallenge = {2465, 66, 63},
-    rewards = Thaldraszus_Rewards(2, 3, 4)
+    stormRace = {2667, nil, 80},
+    rewards = Thaldraszus_Rewards(2, 3, 4, 4)
 }) -- Tyrhold Trial
 
 Thaldraszus.nodes[37654893] = Dragonrace({
@@ -570,8 +541,8 @@ Thaldraszus.nodes[58053361] = Dragonrace({
 
 -------------------------------- WAKING SHORES --------------------------------
 
-local function WakingShores_Rewards(b, c, r) -- basic, challenge, reverse challenge
-    return {
+local function WakingShores_Rewards(b, c, r, s) -- basic, challenge, reverse challenge, storm race
+    local rewards = {
         Achievement({id = 15915, criteria = b, oneline = true}), -- normal bronze
         Achievement({id = 15916, criteria = b, oneline = true}), -- normal silver
         Achievement({id = 15917, criteria = b, oneline = true}), -- normal gold
@@ -590,6 +561,8 @@ local function WakingShores_Rewards(b, c, r) -- basic, challenge, reverse challe
         Achievement({id = 18749, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18750, criteria = r, oneline = true}) -- reverse challenge gold
     }
+    if s then AddStormRace(rewards, s) end
+    return rewards
 end
 
 WakingShores.nodes[63327090] = Dragonrace({
@@ -599,7 +572,8 @@ WakingShores.nodes[63327090] = Dragonrace({
     reverse = {2154, 55, 50},
     challenge = {2421, 57, 54},
     reverseChallenge = {2422, 60, 57},
-    rewards = WakingShores_Rewards(1, 1, 2)
+    stormRace = {nil, nil, nil},
+    rewards = WakingShores_Rewards(1, 1, 2, 1)
 }) -- Ruby Lifeshrine Loop
 
 WakingShores.nodes[47018558] = Dragonrace({
@@ -710,8 +684,8 @@ WakingShores.nodes[42599445] = Dragonrace({
 
 ------------------------------- ZARALEK CAVERN --------------------------------
 
-local function ZaralekCavern_Rewards(b, c, r) -- basic, challenge, reverse challenge
-    return {
+local function ZaralekCavern_Rewards(b, c, r, s) -- basic, challenge, reverse challenge, storm race
+    local rewards = {
         Achievement({id = 17483, criteria = b, oneline = true}), -- normal bronze
         Achievement({id = 17484, criteria = b, oneline = true}), -- normal silver
         Achievement({id = 17485, criteria = b, oneline = true}), -- normal gold
@@ -730,6 +704,8 @@ local function ZaralekCavern_Rewards(b, c, r) -- basic, challenge, reverse chall
         Achievement({id = 18787, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18788, criteria = r, oneline = true}) -- reverse challenge gold
     }
+    if s then AddStormRace(rewards, s) end
+    return rewards
 end
 
 ZaralekCavern.nodes[38756061] = Dragonrace({
@@ -739,7 +715,8 @@ ZaralekCavern.nodes[38756061] = Dragonrace({
     reverse = {2258, 57, 52},
     challenge = {2486, 60, 57},
     reverseChallenge = {2487, 61, 58},
-    rewards = ZaralekCavern_Rewards(1, 1, 2)
+    stormRace = {nil, nil, nil},
+    rewards = ZaralekCavern_Rewards(1, 1, 2, 6)
 }) -- Crystal Circuit
 
 ZaralekCavern.nodes[39054999] = Dragonrace({
