@@ -146,6 +146,22 @@ L['options_icons_frostbound_chest'] = '서리결속 보관함'
 L['options_icons_frostbound_chest_desc'] = nil
 
 L['fyrakk_assault_label'] = nil
+L['fyrakk_secured_shipment'] = nil
+
+L['shadowflame_forge_label'] = nil
+L['shadowflame_forge_note'] = nil
+L['shadowflame_blacksmithing_anvil_label'] = nil
+L['shadowflame_blacksmithing_anvil_note'] = nil
+L['shadowflame_leatherworking_table_label'] = nil
+L['shadowflame_leatherworking_table_note'] = nil
+L['shadowflame_incantation_table_label'] = nil
+L['shadowflame_incantation_table_note'] = nil
+L['azure_loom_label'] = nil
+L['azure_loom_note'] = nil
+L['temporal_loom_label'] = nil
+L['temporal_loom_note'] = nil
+L['earthwarders_forge_label'] = nil
+L['earthwarders_forge_note'] = nil
 
 L['dreamsurge_sublabel'] = nil
 L['celestine_vendor_note'] = nil
@@ -736,6 +752,7 @@ L['options_icons_ritual_offering_desc'] = nil
 L['nal_kskol_reliquary_label'] = nil
 L['nal_kskol_reliquary_note'] = nil
 
+L['busted_wyrmhole_generator_note'] = nil
 L['molten_scoutbot_note'] = nil
 L['bolts_and_brass_note'] = nil
 
