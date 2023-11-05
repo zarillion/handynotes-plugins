@@ -1967,7 +1967,7 @@ map.nodes[66564391] = Collectible({
 
 -------------------------- MOUNT: LIZI, THUNDERSPINE --------------------------
 
-local Lizi = Class('Lizi', Collectible, {
+local Lizi = Class('Lizi', Collectible, { -- Reivew Collectible?
     id = 190014,
     icon = 4008180,
     quest = {71196, 71197, 71198, 71199, 71195}, -- Dailys
@@ -2132,35 +2132,53 @@ map.nodes[76156952] = Collectible({
     }
 }) -- Fyrakk Assault
 
--- Special Working Table: Shadowflame Crafting Benches
--- Requirement: Fyrakk Assault active in this zone
-
--- visable: Blacksmithing
+-------------------------------------------------------------------------------
+---------------------------- SPECIAL WORKING TABLE-----------------------------
+-------------------------------------------------------------------------------
+-- Shadowflame Crafting Benches
+-- Require: Fyrakk Assault active in this zone
 map.nodes[72277242] = ns.node.Node({
     label = L['shadowflame_forge_label'],
-    icon = 4914678, --
-    note = L['shadowflame_forge_note']
+    icon = 4622286,
+    note = L['shadowflame_forge_note'],
+    IsEnabled = function(self) -- Blacksmithing
+        if not ns.PlayerHasProfession(164) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
 }) -- Shadowflame Forge
 
--- visable: Blacksmithing, Engineering
+-- Require: Fyrakk Assault active in this zone
 map.nodes[73387083] = ns.node.Node({
     label = L['shadowflame_blacksmithing_anvil_label'],
     icon = 4914678, --
-    note = L['shadowflame_blacksmithing_anvil_note']
-}) -- Blacksmithing Anvil
+    note = L['shadowflame_blacksmithing_anvil_note'],
+    IsEnabled = function(self) -- Blacksmithing, Engineering
+        if ns.PlayerHasProfession(164) or ns.PlayerHasProfession(202) then return true
+        else return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- Shadowflame Blacksmithing Anvil
 
--- visable: Leatherworking
+-- Require: Fyrakk Assault active in this zone
 map.nodes[74727194] = ns.node.Node({
     label = L['shadowflame_leatherworking_table_label'],
-    icon = 4914678, --
-    note = L['shadowflame_leatherworking_table_note']
+    icon = 5088848,
+    note = L['shadowflame_leatherworking_table_note'],
+    IsEnabled = function(self) -- Leatherworking
+        if not ns.PlayerHasProfession(165) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
 }) -- Shadowflame Leatherworking Table
 
--- visable: Enchanting
+-- Require: Fyrakk Assault active in this zone
 map.nodes[73337238] = ns.node.Node({
     label = L['shadowflame_incantation_table_label'],
-    icon = 4914678, --
-    note = L['shadowflame_incantation_table_note']
+    icon = 4620672,
+    note = L['shadowflame_incantation_table_note'],
+    IsEnabled = function(self) -- Enchanting
+        if not ns.PlayerHasProfession(333) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
 }) -- Shadowflame Incantation Table
 
 ------------------------------------------------------------------------------
