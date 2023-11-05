@@ -147,6 +147,22 @@ L['options_icons_frostbound_chest'] = 'Скованный льдом сунду�
 L['options_icons_frostbound_chest_desc'] = 'Показать возможные места {object:Скованный льдом сундуков}.'
 
 L['fyrakk_assault_label'] = 'Налеты Фиракка'
+L['fyrakk_secured_shipment'] = nil
+
+L['shadowflame_forge_label'] = nil
+L['shadowflame_forge_note'] = nil
+L['shadowflame_blacksmithing_anvil_label'] = nil
+L['shadowflame_blacksmithing_anvil_note'] = nil
+L['shadowflame_leatherworking_table_label'] = nil
+L['shadowflame_leatherworking_table_note'] = nil
+L['shadowflame_incantation_table_label'] = nil
+L['shadowflame_incantation_table_note'] = nil
+L['azure_loom_label'] = nil
+L['azure_loom_note'] = nil
+L['temporal_loom_label'] = nil
+L['temporal_loom_note'] = nil
+L['earthwarders_forge_label'] = nil
+L['earthwarders_forge_note'] = nil
 
 L['dreamsurge_sublabel'] = '{note:Доступно только в то время как {location:Прилив Снов} активен в этой локации.}'
 L['celestine_vendor_note'] = 'Обмен {item:207026} на средства передвижения, игрушки, питомцев и трансмогрификацию.'
@@ -801,6 +817,7 @@ L['options_icons_ritual_offering_desc'] = 'Показать возможные �
 L['nal_kskol_reliquary_label'] = 'Реликварий Нал-кс\'кола'
 L['nal_kskol_reliquary_note'] = 'Воспользуйтесь {object:Консолью доступа к реликварию} и решите головоломку, чтобы открыть {object:Реликварий Нал-кс\'кола}.'
 
+L['busted_wyrmhole_generator_note'] = nil
 L['molten_scoutbot_note'] = 'Откройте {object:Огненный разведобот} и соберите {item:204855}.'
 L['bolts_and_brass_note'] = 'Откройте {object:Болты и латунь} и соберите {item:204850}.'
 
