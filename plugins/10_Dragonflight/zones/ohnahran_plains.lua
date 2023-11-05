@@ -522,7 +522,7 @@ map.nodes[90434005] = Rare({
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
         Transmog({item = 200432, slot = L['cloth']}), -- Rotguard Cowl
         Toy({item = 200178}), -- Infected Ichor
-        DC.CliffsideWylderdrake.BlackHair, DC.CliffsideWylderdrake.DualHornedChin, 
+        DC.CliffsideWylderdrake.BlackHair, DC.CliffsideWylderdrake.DualHornedChin,
         DC.CliffsideWylderdrake.Ears, DC.HighlandDrake.SpikedClubTail
     }
 }) -- Blightpaw the Depraved
