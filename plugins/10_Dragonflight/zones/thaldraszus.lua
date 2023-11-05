@@ -543,7 +543,7 @@ map.nodes[36757287] = Rare({
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
-        }
+    }
 }) -- Liskron the Dazzling
 
 map.nodes[36798556] = Rare({
@@ -1815,5 +1815,17 @@ function Brendormi.getters:note()
 end
 
 tpf.nodes[61244679] = Brendormi()
+
+---------------------------- SPECIAL WORKING TABLE-----------------------------
+
+map.nodes[60918021] = ns.node.Node({
+    label = L['temporal_loom_label'],
+    icon = 4549302,
+    note = L['temporal_loom_note'],
+    IsEnabled = function(self) -- Tailoring
+        if not ns.PlayerHasProfession(197) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- Temporal Loom
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
