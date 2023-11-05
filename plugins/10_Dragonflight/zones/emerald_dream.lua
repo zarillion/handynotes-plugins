@@ -1257,6 +1257,8 @@ map.nodes[45532594] = Somnut()
 map.nodes[46913522] = Somnut()
 map.nodes[47743551] = Somnut()
 map.nodes[48292228] = Somnut({location = L['in_a_tree']}) -- ontop of the burning tree
+map.nodes[52973369] = Somnut({location = L['in_water']})
+map.nodes[53284339] = Somnut()
 map.nodes[53995564] = Somnut({location = L['in_small_cave']})
 map.nodes[54101937] = Somnut()
 map.nodes[54191511] = Somnut({location = L['in_a_tree']}) -- Bugged flying in the air
@@ -1275,7 +1277,10 @@ map.nodes[59002516] = Somnut()
 map.nodes[59425365] = Somnut()
 map.nodes[59566338] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
 map.nodes[60134204] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
+map.nodes[60504531] = Somnut({location = L['in_a_tree']})
+map.nodes[61748602] = Somnut()
 map.nodes[61977450] = Somnut()
+map.nodes[62102929] = Somnut({location = L['in_water']})
 map.nodes[63457357] = Somnut()
 map.nodes[65985217] = Somnut() -- On a Branch/Root
 map.nodes[66085014] = Somnut()
