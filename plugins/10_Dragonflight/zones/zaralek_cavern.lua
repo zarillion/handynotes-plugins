@@ -229,7 +229,7 @@ map.nodes[42226524] = Rare({
         Transmog({item = 205292, slot = L['cloak']}), -- Kairoktra's Mane
         DC.WindingSlitherdrake.SmallFinnedTail, --
         Pet({item = 205147, id = 3541}), -- Ridged Shalewing
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        -- Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
 }) -- Karokta
@@ -291,7 +291,7 @@ map.nodes[40753817] = Rare({
         Transmog({item = 205311, slot = L['mail']}), -- Magmascale Pauldrons
         Transmog({item = 205300, slot = L['leather']}), -- Magma Waders
         DC.WindingSlitherdrake.ImpalerHorns, --
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        -- Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Item({item = 192055}), -- Dragon Isle Artifact
         Currency({id = 2245}) -- Flightstones
     }
@@ -324,7 +324,7 @@ map.nodes[36205300] = Rare({
         Transmog({item = 205294, slot = L['cloth']}), -- Sandals of Molten Scorn
         Transmog({item = 205301, slot = L['leather']}), -- Hardened Lava Handwraps
         DC.WindingSlitherdrake.CurledCheekHorn, --
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        -- Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
 }) -- Skornak
@@ -439,7 +439,7 @@ map.nodes[56040305] = Treasure({
     note = L['chest_of_the_flights_treasure_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59224}), -- Treasures of Zaralek Cavern
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        -- Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
@@ -451,7 +451,7 @@ map.nodes[36397425] = Treasure({
     rewards = {
         Achievement({id = 17786, criteria = 59228}), -- Treasures of Zaralek Cavern
         Item({item = 204985}), -- Barter Brick
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        -- Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     },
@@ -535,7 +535,7 @@ map.nodes[48451083] = Treasure({
     quest = 75514,
     note = L['fealtys_reward_note'],
     rewards = {
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        -- Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     },
@@ -553,7 +553,7 @@ map.nodes[56734868] = Treasure({
     quest = 75320,
     note = L['moth_pilfered_pouch_note'],
     rewards = {
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        -- Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     },
@@ -581,7 +581,7 @@ map.nodes[64197495] = Treasure({
     quest = 75745,
     note = L['nal_kskol_reliquary_note'],
     rewards = {
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        -- Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Item({item = 191784}), -- Dragon Shard of Knowledge
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
@@ -595,7 +595,7 @@ map.nodes[60664622] = Treasure({
     label = L['stolen_stash_label'],
     quest = 75302,
     rewards = {
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        -- Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
@@ -606,7 +606,7 @@ deepflayerNest.nodes[63698291] = Treasure({
     quest = 75303,
     location = L['in_deepflayer_nest'],
     rewards = {
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
+        -- Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     },
