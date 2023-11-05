@@ -864,7 +864,7 @@ map.nodes[62395380] = PT.Enchanting({id = 204999, quest = 75509}) -- Shimmering 
 
 map.nodes[50504790] = PT.Engineering({id = 204471, quest = 75184}) -- Defective Survival Pack
 map.nodes[37825884] = PT.Engineering({
-    id = 204475, 
+    id = 204475,
     quest = 75186,
     note = L['busted_wyrmhole_generator_note']
 }) -- Busted Wyrmhole Generator
