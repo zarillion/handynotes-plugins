@@ -167,7 +167,7 @@ local CauldronbearerBlakor = Class('cauldronbearerblakor', RareElite, {
     },
     pois = {
         Path({
-            29605401, 29655371, 29805359, 30385364, 30615390, 30605447, 
+            29605401, 29655371, 29805359, 30385364, 30615390, 30605447,
             30745476, 31135531, 31195583, 31085619, 30535596
         }),
         Path({29336233, 26585932, 26285992, 26015953, 26485842, 26335790})
@@ -359,7 +359,7 @@ map.nodes[22207649] = RareElite({
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Transmog({item = 200151, slot = L['1h_sword']}), -- Seamist Blade
         Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
-        DC.CliffsideWylderdrake.FinnedNeck, DC.WindborneVelocidrake.LargeHeadFin, 
+        DC.CliffsideWylderdrake.FinnedNeck, DC.WindborneVelocidrake.LargeHeadFin,
         DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth
     }
 }) -- Massive Magmashell
@@ -669,7 +669,7 @@ map.nodes[65617410] = Rare({
         ns.reward.Section('{npc:193634}'), -- Swog'ranka -- drops more but i limited it to 2 tmog
         Transmog({item = 200151, slot = L['1h_sword']}), -- Seamist Blade
         Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
-        DC.CliffsideWylderdrake.FinnedNeck, DC.WindborneVelocidrake.LargeHeadFin, 
+        DC.CliffsideWylderdrake.FinnedNeck, DC.WindborneVelocidrake.LargeHeadFin,
         ns.reward.Section('{npc:193710}'), -- Seereel, the Spring
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
@@ -836,10 +836,10 @@ map.nodes[68085669] = Rare({
     },
     pois = {
         Path({
-            67265859, 68205832, 68255788, 68135746, 67775648, 
-            67625593, 67375427, 67375518, 68765539, 68955551, 
-            69065602, 68805668, 68085669, 67965711, 68235791, 
-            68245830, 68045850, 67295861, 67895853, 68225830, 
+            67265859, 68205832, 68255788, 68135746, 67775648,
+            67625593, 67375427, 67375518, 68765539, 68955551,
+            69065602, 68805668, 68085669, 67965711, 68235791,
+            68245830, 68045850, 67295861, 67895853, 68225830,
             68255779, 67815693
         })
     }
