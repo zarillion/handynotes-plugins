@@ -146,6 +146,22 @@ L['options_icons_frostbound_chest'] = '霜縛寶箱'
 L['options_icons_frostbound_chest_desc'] = '顯示 {object:霜縛寶箱} 可能的位置.'
 
 L['fyrakk_assault_label'] = '菲拉卡突襲'
+L['fyrakk_secured_shipment'] = nil
+
+L['shadowflame_forge_label'] = nil
+L['shadowflame_forge_note'] = nil
+L['shadowflame_blacksmithing_anvil_label'] = nil
+L['shadowflame_blacksmithing_anvil_note'] = nil
+L['shadowflame_leatherworking_table_label'] = nil
+L['shadowflame_leatherworking_table_note'] = nil
+L['shadowflame_incantation_table_label'] = nil
+L['shadowflame_incantation_table_note'] = nil
+L['azure_loom_label'] = nil
+L['azure_loom_note'] = nil
+L['temporal_loom_label'] = nil
+L['temporal_loom_note'] = nil
+L['earthwarders_forge_label'] = nil
+L['earthwarders_forge_note'] = nil
 
 L['dreamsurge_sublabel'] = '{note:只有在 {location:夢境湧現} 在此區域生效時會出現.}'
 L['celestine_vendor_note'] = '使用 {item:207026} 交換坐騎, 玩具, 寵物和塑形.'
@@ -800,6 +816,7 @@ L['options_icons_ritual_offering_desc'] = '顯示 {object:儀式祭品} 可能�
 L['nal_kskol_reliquary_label'] = '納克斯科聖匣'
 L['nal_kskol_reliquary_note'] = '使用 {object:聖匣存取控制臺} 並解開謎題來開啟 {object:納克斯科聖匣}.'
 
+L['busted_wyrmhole_generator_note'] = nil
 L['molten_scoutbot_note'] = '開啟 {object:熔火偵查機器人} 並拾取 {item:204855}.'
 L['bolts_and_brass_note'] = '開啟 {object:螺栓與黃銅} 並拾取 {item:204850}.'
 
