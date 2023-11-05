@@ -173,7 +173,7 @@ map.nodes[30575625] = RareElite({
 
 map.nodes[29935074] = RareElite({
     id = 190991,
-    vignette = 5115,
+    vignette = {5115, 5902},
     quest = 74043,
     location = L['in_cave'],
     rewards = {

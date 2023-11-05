@@ -1677,6 +1677,10 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
     end
 end)
 
+------------------------------------------------------------------------------
+--------------------------- RARE VIGNETTE TOOLTIPS ---------------------------
+------------------------------------------------------------------------------
+
 hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
     if select(2, IsAddOnLoaded('RareScanner')) then
         local status, result = pcall(function()
@@ -1694,8 +1698,16 @@ hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
 
     if not map then return end
 
+    local function IsValidVignette(vignettes, vignetteID)
+        for _, vignette in ipairs(vignettes) do
+            if vignette == vignetteID then return true end
+        end
+        return false
+    end
+
     for _, node in pairs(map.nodes) do
-        if node.vignette and node.vignette == self:GetVignetteID() and
+        if node.vignette and
+            IsValidVignette(node.vignette, self:GetVignetteID()) and
             node.rewards and ns:GetOpt('show_loot') then
             node:RenderRewards(GameTooltip)
         end
