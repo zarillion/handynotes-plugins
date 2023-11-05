@@ -993,7 +993,7 @@ map.nodes[51265990] = Dreamfruit({
                 -- 62918, -- Mighty Roar
                 62919, -- Moonkin Jump
                 62920, -- Moonkin Mayhem
-                -- 62921, -- Potent Lullaby
+                62921, -- Potent Lullaby
                 62922, -- Putrid Propulsion
                 62923 -- Sack of Talontreats
                 -- 62924, -- Star Shower
@@ -1033,34 +1033,34 @@ map.nodes[52847357] = Dreamfruit({
     }
 })
 
-map.nodes[46256309] = Dreamfruit({
-    -- note = L['dreamfruit_note_2'],
-    requires = {ns.requirement.Reputation(2574, 12, true)}, -- review required
-    rewards = {
-        Achievement({
-            id = 19310,
-            criteria = {
-                -- 62910, -- Basket of Explosive Acorns
-                -- 62911, -- Bubble Blowgun
-                -- 62912, -- Dream Gatherer
-                -- 62913, -- Feral Overflow
-                62914, -- Flower Trail
-                -- 62915, -- Lifesurger
-                -- 62916, -- Memory of L'ghorek
-                -- 62917, -- Memory of Ursoc
-                62918 -- Mighty Roar
-                -- 62919, -- Moonkin Jump
-                -- 62920, -- Moonkin Mayhem
-                -- 62921, -- Potent Lullaby
-                -- 62922, -- Putrid Propulsion
-                -- 62923, -- Sack of Talontreats
-                -- 62924, -- Star Shower
-                -- 62925, -- The Superb Loom
-                -- 62926 -- Wake Up!
-            }
-        })
-    }
-})
+-- map.nodes[46256309] = Dreamfruit({
+--     -- note = L['dreamfruit_note_3'],
+--     requires = {ns.requirement.Reputation(2574, 12, true)}, -- review required
+--     rewards = {
+--         Achievement({
+--             id = 19310,
+--             criteria = {
+--                 -- 62910, -- Basket of Explosive Acorns
+--                 -- 62911, -- Bubble Blowgun
+--                 -- 62912, -- Dream Gatherer
+--                 -- 62913, -- Feral Overflow
+--                 62914, -- Flower Trail
+--                 -- 62915, -- Lifesurger
+--                 -- 62916, -- Memory of L'ghorek
+--                 -- 62917, -- Memory of Ursoc
+--                 62918 -- Mighty Roar
+--                 -- 62919, -- Moonkin Jump
+--                 -- 62920, -- Moonkin Mayhem
+--                 -- 62921, -- Potent Lullaby
+--                 -- 62922, -- Putrid Propulsion
+--                 -- 62923, -- Sack of Talontreats
+--                 -- 62924, -- Star Shower
+--                 -- 62925, -- The Superb Loom
+--                 -- 62926 -- Wake Up!
+--             }
+--         })
+--     }
+-- })
 
 -------------------------------------------------------------------------------
 -------------------------------- DRUID GLYPHS ---------------------------------
@@ -1350,7 +1350,6 @@ local Somnut = Class('Somnut', Node, {
 
 map.nodes[26213140] = Somnut()
 map.nodes[28553410] = Somnut()
-map.nodes[32815440] = Somnut()
 map.nodes[32936562] = Somnut({location = L['in_a_tree']})
 map.nodes[34566935] = Somnut()
 map.nodes[35176611] = Somnut({location = L['in_a_tree']})
@@ -1374,18 +1373,13 @@ map.nodes[42284821] = Somnut()
 map.nodes[43107190] = Somnut({location = L['in_a_tree']})
 map.nodes[44572452] = Somnut()
 map.nodes[44633492] = Somnut()
-map.nodes[44714996] = Somnut()
 map.nodes[45532594] = Somnut()
 map.nodes[46913522] = Somnut()
-map.nodes[47333064] = Somnut()
 map.nodes[47743551] = Somnut()
 map.nodes[48292228] = Somnut({location = L['in_a_tree']}) -- ontop of the burning tree
-map.nodes[49073517] = Somnut()
-map.nodes[51041899] = Somnut()
-map.nodes[52413818] = Somnut()
-map.nodes[52973368] = Somnut({location = L['in_water']})
+map.nodes[52973369] = Somnut({location = L['in_water']})
+map.nodes[53284339] = Somnut()
 map.nodes[53995564] = Somnut({location = L['in_small_cave']})
-map.nodes[54044129] = Somnut()
 map.nodes[54101937] = Somnut()
 map.nodes[54191511] = Somnut({location = L['in_a_tree']}) -- Bugged flying in the air
 map.nodes[54223219] = Somnut({location = L['in_a_tree']})
@@ -1403,7 +1397,10 @@ map.nodes[59002516] = Somnut()
 map.nodes[59425365] = Somnut()
 map.nodes[59566338] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
 map.nodes[60134204] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
+map.nodes[60504531] = Somnut({location = L['in_a_tree']})
+map.nodes[61748602] = Somnut()
 map.nodes[61977450] = Somnut()
+map.nodes[62102929] = Somnut({location = L['in_water']})
 map.nodes[63457357] = Somnut()
 map.nodes[65985217] = Somnut() -- On a Branch/Root
 map.nodes[66085014] = Somnut()
