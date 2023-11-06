@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local Node = ns.node.Node
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
@@ -36,6 +37,8 @@ local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -522,8 +525,9 @@ map.nodes[90434005] = Rare({
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
         Transmog({item = 200432, slot = L['cloth']}), -- Rotguard Cowl
         Toy({item = 200178}), -- Infected Ichor
-        DC.CliffsideWylderdrake.BlackHair, DC.CliffsideWylderdrake.DualHornedChin,
-        DC.CliffsideWylderdrake.Ears, DC.HighlandDrake.SpikedClubTail
+        DC.CliffsideWylderdrake.BlackHair,
+        DC.CliffsideWylderdrake.DualHornedChin, DC.CliffsideWylderdrake.Ears,
+        DC.HighlandDrake.SpikedClubTail
     }
 }) -- Blightpaw the Depraved
 
@@ -546,11 +550,7 @@ map.nodes[80817770] = Rare({
 
 -- These rares/elites are not part of the adventurer achievement for the zone
 
-map.nodes[73725602] = Rare({
-    id = 193168,
-    quest = 73903
-    }
-) -- Biryuk
+map.nodes[73725602] = Rare({id = 193168, quest = 73903}) -- Biryuk
 
 map.nodes[59926696] = Rare({
     id = 193669,
@@ -578,7 +578,6 @@ map.nodes[26366533] = Rare({
     quest = 72845,
     location = L['in_small_cave'],
     rewards = {
-        -- Item({item = 198048}), -- Titan Training Matrix I
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200137, slot = L['dagger']}), -- Chitin Dreadbringer
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
@@ -597,7 +596,6 @@ map.nodes[44894924] = Rare({
     quest = 72847,
     location = L['in_small_cave'],
     rewards = {
-        -- Item({item = 198048}), -- Titan Training Matrix I
         Transmog({item = 200137, slot = L['dagger']}), -- Chitin Dreadbringer
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
@@ -617,8 +615,6 @@ map.nodes[63034854] = Rare({
     quest = 72849,
     note = L['in_waterfall_cave'],
     rewards = {
-        -- Item({item = 198048}), -- Titan Training Matrix I
-        Toy({item = 198409}), -- Personal Shell
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
@@ -626,6 +622,7 @@ map.nodes[63034854] = Rare({
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Toy({item = 198409}), -- Personal Shell
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     }
@@ -636,7 +633,6 @@ map.nodes[22956670] = Rare({
     vignette = 5179,
     quest = 72851,
     rewards = {
-        -- Item({item = 198048}), -- Titan Training Matrix I
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
@@ -656,7 +652,6 @@ map.nodes[26073412] = Rare({
     quest = 72852,
     location = L['in_cave'],
     rewards = {
-        -- Item({item = 198048}), -- Titan Training Matrix I
         Transmog({item = 198429, slot = L['staff']}), -- Typhoon Bringer
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
@@ -694,11 +689,9 @@ map.nodes[34823454] = Rare({
     rewards = {
         Transmog({item = 203674, slot = L['plate']}), -- Brutal Tramplers
         DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair
-        },
-    pois = {
-        Path({33793438, 34303449, 34823454, 35333464, 35833478, 36323500})
-        }
-    }) -- Lurgan
+    },
+    pois = {Path({33793438, 34303449, 34823454, 35333464, 35833478, 36323500})}
+}) -- Lurgan
 
 map.nodes[36803800] = Rare({
     id = 201535,
@@ -2109,21 +2102,36 @@ map.nodes[47037119] = Collectible({
 ------------------------------- FYRAKK ASSAULT --------------------------------
 -------------------------------------------------------------------------------
 
+local FyrakkAssault = Class('FyrakkAssault', ns.requirement.Requirement, {
+    text = L['fyrakk_assault_label'],
+    IsMet = function()
+        local validPOIs = {7429, 7471, 7473, 7486, 7487}
+        local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(map.id)
+        for _, activePOI in ipairs(activePOIs) do
+            for _, validPOI in pairs(validPOIs) do
+                if activePOI == validPOI then return true end
+            end
+        end
+        return false
+    end
+})()
+
 map.nodes[76156952] = Collectible({
     label = L['fyrakk_assault_label'],
     icon = 4914672,
-    quest = {75467, 75525}, --Kretchenwrath, Secured Shipment
+    quest = {75467, 75525}, -- Kretchenwrath, Secured Shipment
     vignette = 5610, -- Disciple of Fyrakk
+    requires = FyrakkAssault,
     rewards = {
         Achievement({id = 17506}), -- Still Standing in the Fire
         Achievement({id = 17735, criteria = {id = 1, qty = true}}), -- We Didn't Start the Fire
-        ns.reward.Section('{npc:201673}'),
+        Section('{npc:201673}'), -- Kretchenwrath
         Pet({item = 205002, id = 3511}), -- Blaise
         Pet({item = 205003, id = 3512}), -- Ambre
         Toy({item = 206043}), -- Fyrakk's Frenzy
         DC.RenewedProtoDrake.BruiserHorns,
-        DC.RenewedProtoDrake.BlackAndRedArmor,
-        ns.reward.Section(L['fyrakk_secured_shipment']),
+        DC.RenewedProtoDrake.BlackAndRedArmor, Spacer(),
+        Section(L['fyrakk_secured_shipment']),
         DC.RenewedProtoDrake.BronzeAndPinkArmor,
         DC.WindborneVelocidrake.BronzeAndGreenArmor,
         DC.HighlandDrake.BronzeAndGreenArmor,
@@ -2132,49 +2140,48 @@ map.nodes[76156952] = Collectible({
     }
 }) -- Fyrakk Assault
 
--------------------------------------------------------------------------------
----------------------------- SPECIAL WORKING TABLE-----------------------------
--------------------------------------------------------------------------------
--- Shadowflame Crafting Benches
--- Require: Fyrakk Assault active in this zone
-map.nodes[72277242] = ns.node.Node({
+------------------------------- CRAFTING TABLES -------------------------------
+
+map.nodes[72277242] = Node({
     label = L['shadowflame_forge_label'],
     icon = 4622286,
     note = L['shadowflame_forge_note'],
+    requires = FyrakkAssault,
     IsEnabled = function(self) -- Blacksmithing
         if not ns.PlayerHasProfession(164) then return false end
         return ns.node.Item.IsEnabled(self)
     end
 }) -- Shadowflame Forge
 
--- Require: Fyrakk Assault active in this zone
-map.nodes[73387083] = ns.node.Node({
+map.nodes[73387083] = Node({
     label = L['shadowflame_blacksmithing_anvil_label'],
     icon = 4914678, --
     note = L['shadowflame_blacksmithing_anvil_note'],
+    requires = FyrakkAssault,
     IsEnabled = function(self) -- Blacksmithing, Engineering
-        if ns.PlayerHasProfession(164) or ns.PlayerHasProfession(202) then return true
-        else return false end
+        local bs = ns.PlayerHasProfession(164)
+        local en = ns.PlayerHasProfession(202)
+        if not bs and not en then return false end
         return ns.node.Item.IsEnabled(self)
     end
 }) -- Shadowflame Blacksmithing Anvil
 
--- Require: Fyrakk Assault active in this zone
-map.nodes[74727194] = ns.node.Node({
+map.nodes[74727194] = Node({
     label = L['shadowflame_leatherworking_table_label'],
     icon = 5088848,
     note = L['shadowflame_leatherworking_table_note'],
+    requires = FyrakkAssault,
     IsEnabled = function(self) -- Leatherworking
         if not ns.PlayerHasProfession(165) then return false end
         return ns.node.Item.IsEnabled(self)
     end
 }) -- Shadowflame Leatherworking Table
 
--- Require: Fyrakk Assault active in this zone
-map.nodes[73337238] = ns.node.Node({
+map.nodes[73337238] = Node({
     label = L['shadowflame_incantation_table_label'],
     icon = 4620672,
     note = L['shadowflame_incantation_table_note'],
+    requires = FyrakkAssault,
     IsEnabled = function(self) -- Enchanting
         if not ns.PlayerHasProfession(333) then return false end
         return ns.node.Item.IsEnabled(self)
