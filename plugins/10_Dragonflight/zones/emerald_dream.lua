@@ -146,7 +146,7 @@ map.nodes[29862077] = Rare({
     id = 209893,
     quest = 78015,
     vignette = 5835,
-    --rlabel = ns.status.LightBlue('+50 ' .. L['rep']), -- bug no rep now
+    -- rlabel = ns.status.LightBlue('+50 ' .. L['rep']), -- bug no rep now
     rewards = {
         Achievement({id = 19316, criteria = 62930}), -- Adventurer of the Emerald Dream
         Recipe({item = 210172, profession = 333}) -- Formula: Enchanted Wyrm's Dreaming Crest
@@ -337,7 +337,7 @@ local SurgingLasher = Class('SurgingLasher', Rare, {
     }
 }) -- Surging Lasher
 
-map.nodes[57015167] = SurgingLasher({vignette = 5859}) --use Emerald Frenzy Vignette to hint rare's possile node
+map.nodes[57015167] = SurgingLasher({vignette = 5859}) -- use Emerald Frenzy Vignette to hint rare's possile node
 map.nodes[58967188] = SurgingLasher()
 map.nodes[59896202] = SurgingLasher()
 
@@ -889,9 +889,7 @@ local EmeraldBounty = Class('EmeraldBounty', Node, {
                 Currency({id = 2652, type = 'requre progress 50%? +20'}), -- Dream Wardens Reputation -- REVIEW !!!
                 Currency({id = 2245, type = '+10'}), -- Flightstones
                 -- Currency({id = 2003}), -- Dragon Isles Supplies
-                Spacer(),
-                Section('{item:208066}'),
-                Item({item = 210217}),
+                Spacer(), Section('{item:208066}'), Item({item = 210217}),
                 Transmog({item = 209960, slot = L['cosmetic']}), -- Ceremonial Jacaranda Gown
                 Transmog({item = 209961, slot = L['cosmetic']}), -- Ceremonial Jacaranda Cape
                 Transmog({item = 209962, slot = L['cosmetic']}), -- Ceremonial Jacaranda Sandals
@@ -939,9 +937,7 @@ local EmeraldBounty = Class('EmeraldBounty', Node, {
                 Transmog({item = 210029, slot = L['cosmetic']}), -- Overgrown Freyan Hatchet
                 Transmog({item = 210032, slot = L['cosmetic']}), -- Overgrown Freyan Smasher
                 Transmog({item = 210034, slot = L['cosmetic']}), -- Overgrown Freyan Pike
-                Spacer(),
-                Section('{item:208067}'),
-                Item({item = 210218}),
+                Spacer(), Section('{item:208067}'), Item({item = 210218}),
                 Recipe({item = 210242, profession = 185}), -- Recipe: Slumbering Peacebloom Tea -- Plump Dreamseed
                 Recipe({item = 210174, profession = 333}), -- Formula: Illusory Adornment: Dreams -- Plump Dreamseed
                 Recipe({item = 210241, profession = 171}), -- Recipe: Dreamwalker's Healing Potion -- Plump Dreamseed
@@ -951,9 +947,7 @@ local EmeraldBounty = Class('EmeraldBounty', Node, {
                 Pet({item = 210570, id = 4295}), -- Napps
                 Pet({item = 210651, id = 4299}), -- Dustite
                 Pet({item = 210648, id = 4298}), -- Seedle
-                Spacer(),
-                Section('{item:208047}'),
-                Item({item = 210219}),
+                Spacer(), Section('{item:208047}'), Item({item = 210219}),
                 Mount({item = 209950, id = 1810}), -- Reins of the Rekindled Dreamstag
                 Mount({item = 209947, id = 1808}), -- Reins of the Blossoming Dreamstag
                 Mount({item = 210775, id = 1835}), -- Reins of the Snowfluff Dreamtalon
