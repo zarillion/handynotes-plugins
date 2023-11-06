@@ -896,11 +896,9 @@ L['plush_pillow_note'] = 'Inside the little hut on a table.'
 L['snuggle_buddy_note'] = 'Inside a small boat.'
 
 L['dreamseed_soil_label'] = 'Dreamseed Soil'
-L['dreamseed_soil_note'] = [[
-You can only get {currency:2651}, {item:210651} and cosmetics if you contribute or plant a Dreamseed, the amount of {currency:2651} depends on the quality of the seed.
+L['dreamseed_soil_note'] = 'Contribution progress of {currency:2650}, determines the quality of {item:201467}.\nIts quality affects the probability of {item:210059} being found in {object:Dreamseed Cache}.\n{item:210224} (Once at least)\n{item:210225} (Progress: 50%)\n{item:210226} (Progress: 100%)\n\nQuality of {object:Dreamseed} defines the kind of reward.\n{item:208066}: A transmog or crafting materials.\n{item:208067}: A pet or crafting materials.\n{item:208047}: A mount or crafting materials.'
+L['dreamseed_cache'] = 'Dreamseed Cache'
 
-If you contribute {currency:2650}, you will receive a small amount of crafting materials and {currency:2245s}.
-]] -- is there only 1 pet? will it drop from any seed?
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Display {object:Dreamseed Soil} locations for {achievement:19013}.'
 
