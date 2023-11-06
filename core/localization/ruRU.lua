@@ -107,9 +107,9 @@ L['dr_advanced'] = 'Сложный'
 L['dr_reverse'] = 'Обратный маршрут'
 L['dr_challenge'] = 'Испытание'
 L['dr_reverse_challenge'] = 'Испытание наоборот'
+L['dr_storm_race'] = nil
 L['dr_bronze'] = 'Завершите гонку, чтобы получить ' .. ns.color.Bronze('Бронзу') .. '.'
 L['dr_vendor_note'] = 'Обмен {currency:2588} на манускрипты и трансмогрификацию.'
-L['dr_rostrum_note'] = 'Собрать все ' .. ns.color.Heirloom('Манускрипты наблюдения за драконами') .. ' из различного дропа, торговцев, заданий, ремесел и достижений.'
 L['options_icons_dragonrace'] = 'Гонка на драконах'
 L['options_icons_dragonrace_desc'] = 'Отображение местоположения гонок на драконах.'
 

@@ -95,7 +95,6 @@ L['elemental_storm_snowstorm'] = '雪暴'
 
 L['elemental_storm_brakenhide_hollow'] = '蕨皮山谷'
 L['elemental_storm_cobalt_assembly'] = '钴蓝集所'
-L['elemental_storm_dragonbane_keep'] = '灭龙要塞'
 L['elemental_storm_imbu'] = '伊姆布'
 L['elemental_storm_nokhudon_hold'] = '诺库顿要塞'
 L['elemental_storm_ohniri_springs'] = '欧恩伊尔清泉'
@@ -146,6 +145,22 @@ L['options_icons_frostbound_chest'] = '霜缚宝箱'
 L['options_icons_frostbound_chest_desc'] = '显示 {object:霜缚宝箱} 可能的位置。'
 
 L['fyrakk_assault_label'] = '菲莱克突袭'
+L['fyrakk_secured_shipment'] = '夺得的货物'
+
+L['shadowflame_forge_label'] = '暗影烈焰熔炉'
+L['shadowflame_forge_note'] = '制作如下配方时需要:\n{spell:408282}'
+L['shadowflame_blacksmithing_anvil_label'] = '暗影烈焰锻造铁砧'
+L['shadowflame_blacksmithing_anvil_note'] = '制作如下配方时需要:\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
+L['shadowflame_leatherworking_table_label'] = '暗影烈焰制皮桌'
+L['shadowflame_leatherworking_table_note'] = '制作如下配方时需要:\n{spell:406275}'
+L['shadowflame_incantation_table_label'] = '暗影烈焰法咒桌'
+L['shadowflame_incantation_table_note'] = '制作如下配方时需要:\n{spell:405076}'
+L['azure_loom_label'] = '碧蓝织布机'
+L['azure_loom_note'] = '制作如下配方时需要:\n{spell:376556}'
+L['temporal_loom_label'] = '时光织布机'
+L['temporal_loom_note'] = '制作如下配方时需要:\n{spell:376557}'
+L['earthwarders_forge_label'] = '大地守护者的熔炉'
+L['earthwarders_forge_note'] = '制作如下配方时需要:\n{spell:367713}'
 
 L['dreamsurge_sublabel'] = '{note:只在 {location:梦涌} 在此区域处于活动状态时可用。}'
 L['celestine_vendor_note'] = '用 {item:207026} 兑换坐骑，玩具，宠物和幻化装备。'
@@ -534,6 +549,7 @@ L['pt_jewel_painters_pretty_jewel_note'] = '一盏灯内。'
 L['pt_leath_decayed_scales_note'] = '篮子内。'
 L['pt_script_counterfeit_darkmoon_deck_note'] = '与 {npc:194856} 交谈并提出帮助阻止她的 {object:暗月套牌} 散落在她的脚下。按正确的顺序（A 到 8）点击卡片，然后再次与她交谈。'
 L['pt_script_forgetful_apprentices_tome_note'] = '在靠近大望远镜的桌子上。'
+L['pt_script_forgetful_apprentices_tome_algethera_note'] = '点击 {object:奇特的雕文} 来获得增益 {spell:384818}。过桥并从 {npc:194880} 拾取 {item:198672} 并将其带回雕文。'
 L['pt_script_how_to_train_your_whelpling_note'] = '躺在沙盒里的棕色小书。'
 L['pt_smith_draconic_flux_note'] = '建筑物内。'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = '点击 {object:上古龙纹织布机} 以完成一个小游戏，将线轴连接到中心宝石。'
@@ -799,6 +815,7 @@ L['options_icons_ritual_offering_desc'] = '显示 {object:仪式供品} 可能�
 L['nal_kskol_reliquary_label'] = '纳·克斯寇圣物匣'
 L['nal_kskol_reliquary_note'] = '使用 {object:圣物匣开启控制台} 并解开拼图以打开 {object:纳·克斯寇圣物匣}。'
 
+L['busted_wyrmhole_generator_note'] = '从{object:坏掉的龙洞发生器}一起拾取的{item:205954}。\n使用后为{item:198156}解锁{location:查拉雷克洞窟}的虫洞选项。'
 L['molten_scoutbot_note'] = '打开 {object:熔火斥候机器人} 并拾取 {item:204855}.'
 L['bolts_and_brass_note'] = '打开 {object:螺栓和黄铜} 并拾取 {item:204850}。'
 
@@ -1184,3 +1201,34 @@ L['soa_mjj_part2_note'] = [[{note:完成此部分，周围至少需要4人。}
 
 一旦元素吸入4个人，它就会爆炸并掉落 {item:209781}！该地区的任何人都可以拾取它。]]
 L['soa_mjj_part3_note'] = '{item:209055} 在 {location:诅咒之地} 的 {object:黑暗之门} 前面等你！小心该区域的 {npc:23082} 和 NPC，因为需要12秒的施法才能拾取该零件。'
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = '魔兽游戏币袋'
+L['rumble_foil_bag'] = '魔兽游戏箔纸袋'
+L['rumble_both_bags'] = '魔兽游戏币袋和箔纸袋'
+L['warcraft_rumble_machine'] = '魔兽游戏机'
+
+L['wr_ohn_both_01'] = '在 {location:露恩黛} 一座废弃建筑内。'
+L['wr_ohn_foil_02'] = '在瀑布附近的一块岩石旁边。'
+L['wr_sto_coin_01'] = '在储物箱后面。'
+L['wr_sto_foil_01'] = '在一堆炮弹旁。'
+L['wr_sto_foil_02'] = '在靠近通往码头的坡道。'
+L['wr_tas_both_01'] = '在俯瞰 {location:捕鲸者海角} 的一棵树后面。'
+L['wr_tas_foil_01'] = '在一棵巨大的断树旁边。'
+L['wr_tha_both_01'] = '在 {location:提尔要塞水库} 附近的一个浮岛上。'
+L['wr_tha_foil_01'] = '在一个巨大的植物花盆上。'
+L['wr_tws_both_01'] = '在俯瞰水面的石塔顶。'
+L['wr_tws_foil_01'] = '在俯瞰熔岩的山上。'
+L['wr_tws_foil_02'] = '在俯瞰水面的小石塔上。'
+L['wr_val_coin_01'] = '在 {location:脆烤山羊旅店} 一楼，{object:烹饪烤箱} 旁边。'
+L['wr_val_foil_01'] = '在 {location:脆烤山羊旅店} 二楼的床上。'
+L['wr_val_machine'] = '在 {location:脆烤山羊旅店} 二楼。'
+L['wr_org_coin_01'] = '在 {location:破裂的獠牙} 二楼。'
+L['wr_org_foil_01'] = '在 {location:拍卖行} 后面。'
+L['wr_dur_foil_01'] = '在一些补给箱后面。'
+
+L['options_icons_warcraft_rumble'] = '魔兽游戏机'
+L['options_icons_warcraft_rumble_desc'] = '显示 {object:魔兽游戏币袋} 和 {object:魔兽游戏箔纸袋} 的位置以进行 {object:魔兽游戏机} 跨界促销。'

@@ -48,6 +48,34 @@ function NameResolver:Resolve(link)
 end
 
 -------------------------------------------------------------------------------
+------------------------------- CALENDAR EVENTS -------------------------------
+-------------------------------------------------------------------------------
+
+local activeCalenderEvents = {}
+local function UpdateActiveCalendarEvents()
+    -- set Calendar to current month
+    local current = C_DateAndTime.GetCurrentCalendarTime()
+    C_Calendar.SetAbsMonth(current.month, current.year)
+
+    wipe(activeCalenderEvents)
+    local day = current.monthDay
+    for i = 1, C_Calendar.GetNumDayEvents(0, day) do
+        local event = C_Calendar.GetDayEvent(0, day, i)
+        activeCalenderEvents[event.eventID] = true
+    end
+
+    -- hours until midnight + minutes unit midnight + 5 extra seconds
+    local nextDay = (((23 - current.hour) * 60) + (60 - current.minute)) * 60 +
+                        5
+    -- this will call UpdateActiveCalendarEvents after midnight
+    C_Timer.After(nextDay, UpdateActiveCalendarEvents)
+end
+
+local function IsCalendarEventActive(eventID)
+    return activeCalenderEvents[eventID] and true or false
+end
+
+-------------------------------------------------------------------------------
 -------------------------------- LINK RENDERER --------------------------------
 -------------------------------------------------------------------------------
 
@@ -244,9 +272,11 @@ end
 ns.AsIDTable = AsIDTable
 ns.AsTable = AsTable
 ns.GetDatabaseTable = GetDatabaseTable
+ns.IsCalendarEventActive = IsCalendarEventActive
 ns.NameResolver = NameResolver
 ns.NewLocale = NewLocale
 ns.PlayerHasItem = PlayerHasItem
 ns.PlayerHasProfession = PlayerHasProfession
 ns.PrepareLinks = PrepareLinks
 ns.RenderLinks = RenderLinks
+ns.UpdateActiveCalendarEvents = UpdateActiveCalendarEvents

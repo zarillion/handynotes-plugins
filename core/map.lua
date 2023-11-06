@@ -95,8 +95,9 @@ function Map:AddNode(coord, node)
             end
             local map = ns.maps[parent.id] or Map({id = parent.id})
             map.nodes[HandyNotes:getCoord(px, py)] = ns.Clone(node, {
-                pois = (parent.pois or false),
-                note = (parent.note or false)
+                pois = parent.pois or nil,
+                note = parent.note or nil,
+                location = parent.location or nil
             })
         end
     end

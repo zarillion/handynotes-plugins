@@ -96,7 +96,6 @@ L['elemental_storm_snowstorm'] = 'Tempêtes de neige'
 
 L['elemental_storm_brakenhide_hollow'] = 'Creux des Fougerobes'
 L['elemental_storm_cobalt_assembly'] = 'Assemblée de Cobalt'
-L['elemental_storm_dragonbane_keep'] = 'Donjon du Fléau-des-Dragons'
 L['elemental_storm_imbu'] = 'Imbou'
 L['elemental_storm_nokhudon_hold'] = 'Bastion Nokhudon'
 L['elemental_storm_ohniri_springs'] = 'Sources des Ohn’irs'
@@ -147,6 +146,22 @@ L['options_icons_frostbound_chest'] = 'Coffre lié par le givre'
 L['options_icons_frostbound_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres liés par le givre}.'
 
 L['fyrakk_assault_label'] = 'Assaut de Fyrakka'
+L['fyrakk_secured_shipment'] = nil
+
+L['shadowflame_forge_label'] = nil
+L['shadowflame_forge_note'] = nil
+L['shadowflame_blacksmithing_anvil_label'] = nil
+L['shadowflame_blacksmithing_anvil_note'] = nil
+L['shadowflame_leatherworking_table_label'] = nil
+L['shadowflame_leatherworking_table_note'] = nil
+L['shadowflame_incantation_table_label'] = nil
+L['shadowflame_incantation_table_note'] = nil
+L['azure_loom_label'] = nil
+L['azure_loom_note'] = nil
+L['temporal_loom_label'] = nil
+L['temporal_loom_note'] = nil
+L['earthwarders_forge_label'] = nil
+L['earthwarders_forge_note'] = nil
 
 L['dreamsurge_sublabel'] = '{note:Uniquement disponible lorsqu\'un événement de {location:Poussée onirique} est actif dans cette zone.}'
 L['celestine_vendor_note'] = 'Échangez vos {item:207026} contre une monture, des jouets, des mascottes et des objets de transmogrification.'
@@ -535,6 +550,7 @@ L['pt_jewel_painters_pretty_jewel_note'] = 'A l\'intérieur d\'une lanterne.'
 L['pt_leath_decayed_scales_note'] = 'Dans un panier.'
 L['pt_script_counterfeit_darkmoon_deck_note'] = 'Parlez à {npc:194856} et proposez-lui de l\'aider avec la {object:Suite de Sombrelune} éparpillée à ses pieds. Cliquez sur les cartes dans le bon ordre (de l\'As au 8), puis parlez-lui à nouveau.'
 L['pt_script_forgetful_apprentices_tome_note'] = 'Sur une table près d\'un grand télescope.'
+L['pt_script_forgetful_apprentices_tome_algethera_note'] = 'Cliquez sur le {object:Glyphe étrange} pour obtenir le buff {spell:384818}. Traversez le pont, récupérez la {item:198672} sur le {npc:194880} et rapportez-la au Glyphe.'
 L['pt_script_how_to_train_your_whelpling_note'] = 'Un petit livre marron posé dans le bac à sable.'
 L['pt_smith_draconic_flux_note'] = 'A l\'intérieur d\'un bâtiment.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Cliquez sur le {object:Rouet tisse-dragon ancien} pour effectuer un mini-jeu où vous devez relier les bobines de fil à la gemme centrale.'
@@ -797,6 +813,7 @@ L['options_icons_ritual_offering_desc'] = 'Afficher les emplacements possibles d
 L['nal_kskol_reliquary_label'] = 'Reliquaire de Nak Ks\'sol'
 L['nal_kskol_reliquary_note'] = 'Utilisez la {object:Console d\'accès au reliquaire} et résolvez l\'énigme pour ouvrir le {object:Reliquaire de Nak Ks\'sol}.'
 
+L['busted_wyrmhole_generator_note'] = nil
 L['molten_scoutbot_note'] = 'Examinez l\'{object:Explorobot fondu} et récupérez le {item:204855}.'
 L['bolts_and_brass_note'] = 'Examinez les {object:Boulons et cuivre} et récupérez la {item:204850}.'
 
@@ -1177,3 +1194,34 @@ Aux {location:Bois d'Arbrefer}, vous trouverez un {npc:210417} ainsi qu'une {obj
 Une fois que l'élémentaire aura aspiré 4 personnes, il explosera et laissera tomber la {item:209781} ! Tous ceux qui se trouvent dans la zone peuvent le récupérer.
 ]]
 L['soa_mjj_part3_note'] = 'La {item:209055} vous attendra juste devant la {object:Porte des ténèbres} aux {location:Terres foudroyées} ! Faites attention aux {npc:23082} et aux PNJ dans la zone, car il faut 12 secondes d\'incantation pour récupérer la pièce.'
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = 'Sac de pièces Rumble'
+L['rumble_foil_bag'] = 'Sac de Rumble métallisé'
+L['rumble_both_bags'] = 'Sac de Rumble métallisé et Pièces Rumble'
+L['warcraft_rumble_machine'] = 'Borne Warcraft Rumble'
+
+L['wr_ohn_both_01'] = 'À l\'intérieur d\'un bâtiment en ruine à {location:Lunedane}.'
+L['wr_ohn_foil_02'] = 'Sur un rocher près de la cascade.'
+L['wr_sto_coin_01'] = 'Derrière la caisse de rangement.'
+L['wr_sto_foil_01'] = 'Près d\'une pile de boulets de canon.'
+L['wr_sto_foil_02'] = 'Près de la rampe d\'accès aux quais.'
+L['wr_tas_both_01'] = 'Derrière un arbre surplombant la {location:Crique du Baleinier}.'
+L['wr_tas_foil_01'] = 'Près d\'un grand arbre brisé.'
+L['wr_tha_both_01'] = 'Sur une île flottante près du {location:Réservoir du Bastion de Tyr}.'
+L['wr_tha_foil_01'] = 'Au-dessus d\'un grand vase de plantes.'
+L['wr_tws_both_01'] = 'Au sommet de la tour de pierre surplombant l\'eau.'
+L['wr_tws_foil_01'] = 'Sur la montagne surplombant la lave.'
+L['wr_tws_foil_02'] = 'Sur une petite tour de pierre surplombant l\'eau.'
+L['wr_val_coin_01'] = 'Au premier étage du {location:Bélier rôti}, près du {object:Four}.'
+L['wr_val_foil_01'] = 'Au deuxième étage du {location:Bélier rôti} sur le lit.'
+L['wr_val_machine'] = 'Au deuxième étage du {location:Bélier rôti}.'
+L['wr_org_coin_01'] = 'Au deuxième étage de {location:La Broche Rompue}.'
+L['wr_org_foil_01'] = 'Derrière l\'{location:Hôtel des Ventes}.'
+L['wr_dur_foil_01'] = 'Derrière des caisses de fournitures.'
+
+L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
+L['options_icons_warcraft_rumble_desc'] = 'Afficher les emplacements des {object:Sac de pièces Rumble} et des {object:Sac de Rumble métallisé} liés à la campagne promotionnelle de {object:Warcraft Rumble}.'

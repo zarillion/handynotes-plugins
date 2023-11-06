@@ -146,8 +146,13 @@ local Quest = Class('Quest', Requirement, {type = L['quest']})
 
 function Quest:Initialize(id, text, repeatable)
     self.id = id
-    self.text = C_QuestLog.GetTitleForQuestID(self.id) or text
+    self.text = text
     self.type = repeatable and L['quest_repeatable'] or self.type
+end
+
+function Quest:GetText()
+    local text = C_QuestLog.GetTitleForQuestID(self.id) or self.text or UNKNOWN
+    return ('%s (%s)'):format(text, self.type)
 end
 
 function Quest:IsMet() return C_QuestLog.IsQuestFlaggedCompleted(self.id) end

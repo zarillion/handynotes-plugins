@@ -99,7 +99,7 @@ map.nodes[54517174] = Rare({
 
 map.nodes[28635882] = RareElite({
     id = 190986,
-    vignette = 5112,
+    vignette = {5112, 5900},
     quest = 74040,
     rewards = {
         Achievement({id = 16676, criteria = 56059}),
@@ -112,7 +112,8 @@ map.nodes[28635882] = RareElite({
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        DC.HighlandDrake.ToothyMouth
+        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     }
 }) -- Battlehorn Pyrhus
 
@@ -152,28 +153,32 @@ map.nodes[26847642] = RareElite({
     }
 }) -- Captain Lancer
 
-map.nodes[30575625] = RareElite({
+local CauldronbearerBlakor = Class('cauldronbearerblakor', RareElite, {
     id = 186783,
-    vignette = 5480,
+    vignette = {5480, 5901},
     quest = 74042,
+    fgroup = 'cauldronbearerblakor',
     rewards = {
         Achievement({id = 16676, criteria = 56056}),
         Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
         DC.CliffsideWylderdrake.BluntSpikedTail,
         DC.CliffsideWylderdrake.HornedNose
+    },
+    pois = {
+        Path({
+            29605401, 29655371, 29805359, 30385364, 30615390, 30605447,
+            30745476, 31135531, 31195583, 31085619, 30535596
+        }), Path({29336233, 26585932, 26285992, 26015953, 26485842, 26335790})
     }
-    -- pois = {
-    --     Path({
-    --         26285788, 26545827, 25985955, 26315995, 26585932, 27316007,
-    --         27396026, 29306229
-    --     })
-    -- }
 }) -- Cauldronbearer Blakor
+
+map.nodes[30575625] = CauldronbearerBlakor()
+map.nodes[27826071] = CauldronbearerBlakor()
 
 map.nodes[29935074] = RareElite({
     id = 190991,
-    vignette = 5115,
+    vignette = {5115, 5902},
     quest = 74043,
     location = L['in_cave'],
     rewards = {
@@ -262,8 +267,8 @@ map.nodes[21626478] = RareElite({
         Achievement({id = 16676, criteria = 56049}),
         Transmog({item = 200167, slot = L['1h_axe']}), -- Regurgitated Stone Handaxe
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
-        Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
-        DC.RenewedProtoDrake.ImpalerHorns -- needs review, is not in wowhead drops
+        Transmog({item = 200252, slot = L['gun']}) -- Molten Flak Cannon
+        -- DC.RenewedProtoDrake.ImpalerHorns -- needs review, is not in wowhead drops
     }
 }) -- Enkine the Voracious
 
@@ -336,7 +341,7 @@ map.nodes[39596353] = Rare({
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Transmog({item = 200684, slot = L['2h_sword']}), -- Emerald Tailbone
         DC.HighlandDrake.ClubTail, DC.WindborneVelocidrake.GrayHorns,
-        DC.RenewedProtoDrake.ImpalerHorns
+        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth
     }
 }) -- Magmaton
 
@@ -354,7 +359,8 @@ map.nodes[22207649] = RareElite({
         Transmog({item = 200151, slot = L['1h_sword']}), -- Seamist Blade
         Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
         DC.CliffsideWylderdrake.FinnedNeck,
-        DC.WindborneVelocidrake.LargeHeadFin, DC.RenewedProtoDrake.ImpalerHorns
+        DC.WindborneVelocidrake.LargeHeadFin, DC.RenewedProtoDrake.ImpalerHorns,
+        DC.HighlandDrake.ToothyMouth
     }
 }) -- Massive Magmashell
 
@@ -428,7 +434,7 @@ map.nodes[64676939] = Rare({
 
 map.nodes[24005896] = RareElite({
     id = 193232,
-    vignette = 5512,
+    vignette = {5512, 5904},
     quest = 74051,
     note = L['obsidian_throne_rare_note'],
     rewards = {
@@ -443,7 +449,7 @@ map.nodes[24005896] = RareElite({
 
 map.nodes[30736110] = RareElite({
     id = 187598,
-    vignette = 5513,
+    vignette = {5513, 5903},
     quest = 74052,
     rewards = {
         Achievement({id = 16676, criteria = 56057}),
@@ -485,7 +491,8 @@ map.nodes[23755724] = RareElite({
         Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        Toy({item = 200249}) -- Mage's Chewed Wand
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     },
     pois = {
         POI({
@@ -508,7 +515,9 @@ map.nodes[42892832] = Rare({
         Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        DC.CliffsideWylderdrake.FinnedNeck, DC.WindborneVelocidrake.LargeHeadFin
+        DC.CliffsideWylderdrake.FinnedNeck,
+        DC.WindborneVelocidrake.LargeHeadFin, DC.HighlandDrake.ManedHead,
+        DC.CliffsideWylderdrake.HeadMane
     },
     pois = {
         Path({
@@ -532,7 +541,7 @@ map.nodes[34578950] = Rare({
         Transmog({item = 200189, slot = L['plate']}), -- Hydroforged Shell Helm
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
-        DC.HighlandDrake.FinnedBack
+        DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek
     },
     pois = {POI({36028984})} -- Entrance
 }) -- Slurpo, the Incredible Snail
@@ -549,7 +558,8 @@ map.nodes[69486653] = Rare({
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
-        Transmog({item = 200252, slot = L['gun']}) -- Molten Flak Cannon
+        Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Smogswog the Firebreather
 
@@ -588,7 +598,7 @@ map.nodes[45453540] = Rare({
 
 map.nodes[33525576] = RareElite({
     id = 187886,
-    vignette = 5109,
+    vignette = {5109, 5905},
     quest = 74054,
     location = L['in_small_cave'],
     rewards = {
@@ -632,7 +642,7 @@ map.nodes[33886446] = Rare({
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
-        DC.HighlandDrake.ManedHead
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Skald the Impaler
 
@@ -713,7 +723,7 @@ map.nodes[64173289] = Rare({
 map.nodes[54582137] = Rare({
     id = 195915,
     vignette = 5372,
-    quest = 70648,
+    quest = 72839, -- 70648 is a tracking quest, 72839 is slaining quest
     rewards = {
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
@@ -806,11 +816,35 @@ map.nodes[42203960] = Rare({
         Transmog({item = 200171, slot = L['1h_sword']}), -- Grymheart Blade
         Transmog({item = 200175, slot = L['2h_mace']}), -- Repurposed Anvil
         Transmog({item = 200243, slot = L['cloth']}), -- Titanic Scholar's Finery
+        DC.CliffsideWylderdrake.BluntSpikedTail,
+        DC.CliffsideWylderdrake.HornedNose, -- his team members looting table
         DC.HighlandDrake.HairyCheek
     }
 }) -- Harkyn Grymstone
 
 -- map.nodes[46795728] = Rare({id = 190718}) -- Monsoo, The Boiling Rage
+
+map.nodes[68085669] = Rare({
+    id = 187745,
+    vignette = nil,
+    quest = 74092,
+    rewards = {
+        Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
+        Transmog({item = 200299, slot = L['1h_sword']}), -- Strange Clockwork Gladius
+        Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
+        Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
+        DC.WindborneVelocidrake.SpikedBack, DC.HighlandDrake.StripedPattern,
+        DC.HighlandDrake.CrestedBrow
+    },
+    pois = {
+        Path({
+            67265859, 68205832, 68255788, 68135746, 67775648, 67625593,
+            67375427, 67375518, 68765539, 68955551, 69065602, 68805668,
+            68085669, 67965711, 68235791, 68245830, 68045850, 67295861,
+            67895853, 68225830, 68255779, 67815693
+        })
+    }
+}) -- Disoriented Watcher -- just be like a rare
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -2120,13 +2154,6 @@ map.nodes[79804940] = Safari({
 ----------------------- ELEMENTAL STORMS: WAKING SHORES -----------------------
 -------------------------------------------------------------------------------
 
-map.nodes[28957105] = ElementalStorm({
-    label = format('%s: %s', L['elemental_storm'],
-        L['elemental_storm_dragonbane_keep']),
-    mapID = map.id,
-    areaPOIs = {7249, 7250, 7251, 7252}
-}) -- Elemental Storm: Dragonbane Keep
-
 map.nodes[29735398] = ElementalStorm({
     label = format('%s: %s', L['elemental_storm'], L['elemental_storm_slagmire']),
     mapID = map.id,
@@ -2146,21 +2173,23 @@ map.nodes[64712635] = ElementalStorm({
 
 map.nodes[54705860] = ElusiveCreature({
     label = '{npc:195492}',
+    quest = 74191,
     rewards = {
         Item({item = 193224}), -- Lustrous Scaled Hide
         Item({item = 193215}), -- Adamant Scales
         Item({item = 193252}), -- Salamanther Scales
-        Achievement({id = 18832, criteria = 61475}) -- Elusive Legend of the Dragon Isles
+        Achievement({id = 18833, criteria = 61477}) -- Elusive Legends of the Dragon Isles
     }
 }) -- Elusive Deepwater Salamanther
 
 map.nodes[45007700] = ElusiveCreature({
     label = '{npc:195509}',
+    quest = 74190,
     rewards = {
         Item({item = 193224}), -- Lustrous Scaled Hide
         Item({item = 193215}), -- Adamant Scales
         Item({item = 193259}), -- Flawless Proto Dragon Scale
-        Achievement({id = 18832, criteria = 61481}) -- Elusive Legend of the Dragon Isles
+        Achievement({id = 18833, criteria = 61478}) -- Elusive Legends of the Dragon Isles
     }
 }) -- Elusive Proto Skyterror
 
@@ -2603,5 +2632,17 @@ map.nodes[47128259] = NPC({
     icon = 454065,
     note = L['cataloger_jakes_note']
 }) -- Cataloger Jakes (Dragonscale Expedition Reputation)
+
+---------------------------- SPECIAL WORKING TABLE-----------------------------
+
+map.nodes[24556089] = ns.node.Node({
+    label = L['earthwarders_forge_label'],
+    icon = 4622280,
+    note = L['earthwarders_forge_note'],
+    IsEnabled = function(self) -- Blacksmithing
+        if not ns.PlayerHasProfession(164) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- The Earth-Warder's Forge
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

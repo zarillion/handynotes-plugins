@@ -95,7 +95,6 @@ L['elemental_storm_snowstorm'] = 'Schneesturm'
 
 L['elemental_storm_brakenhide_hollow'] = 'Brackenfellhöhle'
 L['elemental_storm_cobalt_assembly'] = 'Kobaltkonvent'
-L['elemental_storm_dragonbane_keep'] = 'Drachenfluchfestung'
 L['elemental_storm_imbu'] = 'Imbu'
 L['elemental_storm_nokhudon_hold'] = 'Festung Nokhudon'
 L['elemental_storm_ohniri_springs'] = 'Quellen von Ohn\'iri'
@@ -146,6 +145,22 @@ L['options_icons_frostbound_chest'] = 'Frostgebundene Kiste'
 L['options_icons_frostbound_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Frostgebundene Kisten} an.'
 
 L['fyrakk_assault_label'] = 'Angriff von Fyrakk'
+L['fyrakk_secured_shipment'] = nil
+
+L['shadowflame_forge_label'] = nil
+L['shadowflame_forge_note'] = nil
+L['shadowflame_blacksmithing_anvil_label'] = nil
+L['shadowflame_blacksmithing_anvil_note'] = nil
+L['shadowflame_leatherworking_table_label'] = nil
+L['shadowflame_leatherworking_table_note'] = nil
+L['shadowflame_incantation_table_label'] = nil
+L['shadowflame_incantation_table_note'] = nil
+L['azure_loom_label'] = nil
+L['azure_loom_note'] = nil
+L['temporal_loom_label'] = nil
+L['temporal_loom_note'] = nil
+L['earthwarders_forge_label'] = nil
+L['earthwarders_forge_note'] = nil
 
 L['dreamsurge_sublabel'] = '{note:Nur verfügbar, wenn ein {location:Traumsprung} in dieser Zone aktiv ist.}'
 L['celestine_vendor_note'] = 'Tausche {item:207026} gegen ein Reittier, Haustiere, Spielzeuge und Ausrüstungsvorlagen ein.'
@@ -534,9 +549,10 @@ L['pt_jewel_painters_pretty_jewel_note'] = 'In einer Laterne.'
 L['pt_leath_decayed_scales_note'] = 'In einem Korb.'
 L['pt_script_counterfeit_darkmoon_deck_note'] = 'Sprich mit {npc:194856} und biete an, ihr zu helfen, das zu ihren Füßen verstreute {object:Dunkelmondkartenset} wieder herzurichten. Klicke die Karten in der richtigen Reihenfolge an (Ass bis 8) und sprich dann mit ihr, um das Deck zu erhalten.'
 L['pt_script_forgetful_apprentices_tome_note'] = 'Auf einem Tisch neben einem großen Teleskop.'
+L['pt_script_forgetful_apprentices_tome_algethera_note'] = 'Klicke auf die {object:Merkwürdige Glyphe} um den Buff {spell:384818} zu erhalte.\nGehe über die Brücke und plündere {item:198672} von {npc:194880}, bringe diesen danach zurück zur Glyphe.'
 L['pt_script_how_to_train_your_whelpling_note'] = 'Das kleine braune Buch liegt im Sandkasten.'
 L['pt_smith_draconic_flux_note'] = 'In einem Gebäude.'
-L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Click on the Ancient Dragonweave Loom to complete a minigame where you connect the spools of thread to the center gem.'
+L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Klicke auf den {object:Uralten Drachenwebrahmen}, um ein Minispiel zu absolvieren, bei dem du die Fadenspulen mit dem mittleren Edelstein verbindest.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Kleines Banner in einem Sandhaufen.'
 
 L['picante_pomfruit_cake_note'] = 'Der {item:200904} steht auf dem Tisch, ist jedoch nicht immer verfügbar. Wenn du schon einmal da bist, probierte doch auch gleich drei Gerichte für den Erfolg {achievement:16556}.'
@@ -800,6 +816,7 @@ L['options_icons_ritual_offering_desc'] = 'Zeigt die möglichen Positionen von {
 L['nal_kskol_reliquary_label'] = 'Reliquiar von Nal ks\'kol'
 L['nal_kskol_reliquary_note'] = 'Benutze die {object:Reliquiarzugriffskonsole} und löse das Rätsel, um das {object:Reliquiar von Nal ks\'kol} öffnen zu können.'
 
+L['busted_wyrmhole_generator_note'] = nil
 L['molten_scoutbot_note'] = 'Öffne den {object:Geschmolzenen Späherbot} und plündere {item:204855}.'
 L['bolts_and_brass_note'] = 'Öffne {object:Bolzen und Bronze} und plündere {item:204850}.'
 
@@ -1157,7 +1174,7 @@ L['bs_vfw_location'] = 'Am Anfang des Wasserfalls im Mund der {npc:129151} Statu
 L['bs_tas_location'] = 'Benutze deine {item:208092}, um den {npc:96438} zu schmelzen und den {object:Lockerer Erdhaufen} freizulegen.'
 L['bs_dbt_location'] = 'Unter der großen Skelettklaue im {location:%s}.'
 L['bs_bar_location'] = 'Auf dem Gipfel des Berges.'
-L['bs_nag_location'] = 'Auf einer kleinen schwebenden Insel für dem {location:Himmelsweisensee}.'
+L['bs_nag_location'] = 'Auf einer kleinen schwebenden Insel über dem {location:Himmelsweisensee}.'
 L['bs_gri_location'] = 'Sprich mit {npc:%s}, um eine Baumstammfahrt vom {location:Holzfällerposten Blauhimmel} zur {location:Venturebucht} zu starten. Sobald die Fahrt beginnt, erhältst du den Stärkungszauber {spell:423942}.\n\n{note:Du musst den Stärkungszauber {spell:423942} haben, um den Erdhaufen sehen zu können.}'
 L['bs_hmt_location'] = 'Ganz oben bei {location:Die Hochbergspitze} neben {object:Verwittertes Pergament}.'
 L['bs_wpl_location'] = 'Zwischen dem Wagen und der kleinen Hütte in {location:Darrowehr}.'
@@ -1179,3 +1196,34 @@ In {location:Der Eisenwald} findest du einen riesigen {npc:210417} und {object:M
 
 Sobald der Elementar 4 Leute eingesaugt hat, explodiert er und lässt {item:209781} fallen! Jeder, der sich in der Nähe befindet, kann es plündern.]]
 L['soa_mjj_part3_note'] = 'Das {item:209055} wartet direkt vor dem {location:Dunklen Portal} in den {location:Verwüsteten Landen} auf dich! Nimm dich vor den herunterfallenden Fel-Meteoriten in Acht, denn es dauert 12 Sekunden, um das Teil zu plündern.'
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = 'Rumble-Münzenbeutel'
+L['rumble_foil_bag'] = 'Rumble-Folientasche'
+L['rumble_both_bags'] = 'Rumble-Münzenbeutel und Rumble-Folientasche'
+L['warcraft_rumble_machine'] = 'Warcraft Rumble-Spielautomat'
+
+L['wr_ohn_both_01'] = 'Im Inneren der Gebäuderuine in {location:Lunedane}.'
+L['wr_ohn_foil_02'] = 'Auf einem Felsvorsprung des Wasserfalls.'
+L['wr_sto_coin_01'] = 'Neben der Treppe hinter den Vorratskisten.'
+L['wr_sto_foil_01'] = 'Vor einem Stapel Kanonenkugeln.'
+L['wr_sto_foil_02'] = 'In der Nähe der Rampe hinunter zur Anlegestelle.'
+L['wr_tas_both_01'] = 'Hinter einem Baum mit Blick auf {location:Walfängerwinkel}.'
+L['wr_tas_foil_01'] = 'Vor einem riesigen gefällten Baumestamm.'
+L['wr_tha_both_01'] = 'Auf einem schwebendem Feldbrocken in der Nähe des {location:Tyrholdreservoir}.'
+L['wr_tha_foil_01'] = 'Auf einer riesigen Pflanzenvase.'
+L['wr_tws_both_01'] = 'Oben in der zerstörten Kuppel des Turms.'
+L['wr_tws_foil_01'] = 'Auf einem kleinen Berg mit Blick auf die Lava.'
+L['wr_tws_foil_02'] = 'Auf einem kleinen Steinbogen.'
+L['wr_val_coin_01'] = 'In der ersten Etage des Gasthauses {location:Zum Gerösteten Geißbock} in der Nähe des {object:Kochofen}.'
+L['wr_val_foil_01'] = 'Auf dem Bett in der zweiten Etage des Gasthauses {location:Zum Gerösteten Geißbock}.'
+L['wr_val_machine'] = 'In der zweiten Etage des Gasthauses {location:Zum Gerösteten Geißbock}.'
+L['wr_org_coin_01'] = 'In der zweiten Etage des Gasthauses {location:Zum Gebrochenen Hauer}.'
+L['wr_org_foil_01'] = 'Neben dem {location:Auktionshaus}.'
+L['wr_dur_foil_01'] = 'Hinter einigen Vorratskisten.'
+
+L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
+L['options_icons_warcraft_rumble_desc'] = 'Zeigt die Position der {object:Rumble-Münzenbeutel} und {object:Rumble-Folientasche} für die {object:Warcraft Rumble} Crossover Promotion.'

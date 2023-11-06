@@ -95,7 +95,6 @@ L['elemental_storm_snowstorm'] = nil
 
 L['elemental_storm_brakenhide_hollow'] = nil
 L['elemental_storm_cobalt_assembly'] = nil
-L['elemental_storm_dragonbane_keep'] = nil
 L['elemental_storm_imbu'] = nil
 L['elemental_storm_nokhudon_hold'] = nil
 L['elemental_storm_ohniri_springs'] = nil
@@ -146,6 +145,22 @@ L['options_icons_frostbound_chest'] = '서리결속 보관함'
 L['options_icons_frostbound_chest_desc'] = nil
 
 L['fyrakk_assault_label'] = nil
+L['fyrakk_secured_shipment'] = nil
+
+L['shadowflame_forge_label'] = nil
+L['shadowflame_forge_note'] = nil
+L['shadowflame_blacksmithing_anvil_label'] = nil
+L['shadowflame_blacksmithing_anvil_note'] = nil
+L['shadowflame_leatherworking_table_label'] = nil
+L['shadowflame_leatherworking_table_note'] = nil
+L['shadowflame_incantation_table_label'] = nil
+L['shadowflame_incantation_table_note'] = nil
+L['azure_loom_label'] = nil
+L['azure_loom_note'] = nil
+L['temporal_loom_label'] = nil
+L['temporal_loom_note'] = nil
+L['earthwarders_forge_label'] = nil
+L['earthwarders_forge_note'] = nil
 
 L['dreamsurge_sublabel'] = nil
 L['celestine_vendor_note'] = nil
@@ -507,6 +522,7 @@ L['pt_jewel_painters_pretty_jewel_note'] = '등불 안에 있음'
 L['pt_leath_decayed_scales_note'] = '바구니 안에 있음'
 L['pt_script_counterfeit_darkmoon_deck_note'] = nil
 L['pt_script_forgetful_apprentices_tome_note'] = '큰 망원경 근처 탁자 위에 있음'
+L['pt_script_forgetful_apprentices_tome_algethera_note'] = nil
 L['pt_script_how_to_train_your_whelpling_note'] = nil
 L['pt_smith_draconic_flux_note'] = '건물 내에 있음'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = '모래밭에 놓여있는 작은 갈색 책'
@@ -735,6 +751,7 @@ L['options_icons_ritual_offering_desc'] = nil
 L['nal_kskol_reliquary_label'] = nil
 L['nal_kskol_reliquary_note'] = nil
 
+L['busted_wyrmhole_generator_note'] = nil
 L['molten_scoutbot_note'] = nil
 L['bolts_and_brass_note'] = nil
 
@@ -1101,3 +1118,34 @@ L['soa_mjj_list_note'] = nil
 L['soa_mjj_part1_note'] = nil
 L['soa_mjj_part2_note'] = nil
 L['soa_mjj_part3_note'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = nil
+L['rumble_foil_bag'] = nil
+L['rumble_both_bags'] = nil
+L['warcraft_rumble_machine'] = nil
+
+L['wr_ohn_both_01'] = nil
+L['wr_ohn_foil_02'] = nil
+L['wr_sto_coin_01'] = nil
+L['wr_sto_foil_01'] = nil
+L['wr_sto_foil_02'] = nil
+L['wr_tas_both_01'] = nil
+L['wr_tas_foil_01'] = nil
+L['wr_tha_both_01'] = nil
+L['wr_tha_foil_01'] = nil
+L['wr_tws_both_01'] = nil
+L['wr_tws_foil_01'] = nil
+L['wr_tws_foil_02'] = nil
+L['wr_val_coin_01'] = nil
+L['wr_val_foil_01'] = nil
+L['wr_val_machine'] = nil
+L['wr_org_coin_01'] = nil
+L['wr_org_foil_01'] = nil
+L['wr_dur_foil_01'] = nil
+
+L['options_icons_warcraft_rumble'] = nil
+L['options_icons_warcraft_rumble_desc'] = nil

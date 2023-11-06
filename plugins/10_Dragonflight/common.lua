@@ -82,6 +82,12 @@ ns.groups.DRUID_GLYPH = Group('druid_glyph', 625999, {
     IsEnabled = function() return ns.class == 'DRUID' end
 })
 
+ns.groups.EASTERN_KINGDOMS_CUP = Group('dragonrace', 1100022, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function() return ns.IsCalendarEventActive(1400) end
+})
+
 ns.groups.ELEMENTAL_STORM = Group('elemental_storm', 538566, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -120,6 +126,12 @@ ns.groups.GRAND_HUNTS = Group('grand_hunts', 237377, {
 ns.groups.ICEMAW_STORAGE_CACHE = Group('icemaw_storage_cache', 'chest_nv', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
+})
+
+ns.groups.KALIMDOR_CUP = Group('dragonrace', 1100022, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function() return ns.IsCalendarEventActive(1395) end
 })
 
 ns.groups.LIGHTNING_BOUND_CHEST = Group('lightning_bound_chest', 'chest_pp', {
@@ -210,6 +222,11 @@ ns.groups.TUSKARR_CHEST = Group('tuskarr_chest', 'chest_bn', {
 })
 
 ns.groups.TUSKARR_TACKLEBOX = Group('tuskarr_tacklebox', 'chest_yw', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.WARCRAFT_RUMBLE = Group('warcraft_rumble', 5149946, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -490,6 +507,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         BrewfestArmor = Item({item = 208742, quest = 77774}),
         BronzeAndPinkArmor = Item({item = 197353, quest = 69554}),
         BronzeScales = Item({item = 197391, quest = 69592}),
+        BruiserHorns = Item({item = 202277, quest = 99999}), -- TODO: Update quest
         BrownHair = Item({item = 197369, quest = 69570}),
         BruiserHorns = Item({item = 202277, quest = 73057}),
         ClubTail = Item({item = 197403, quest = 69604}),
@@ -1758,6 +1776,10 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
     end
 end)
 
+------------------------------------------------------------------------------
+--------------------------- RARE VIGNETTE TOOLTIPS ---------------------------
+------------------------------------------------------------------------------
+
 hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
     if select(2, C_AddOns.IsAddOnLoaded('RareScanner')) then
         local status, result = pcall(function()
@@ -1775,8 +1797,16 @@ hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
 
     if not map then return end
 
+    local function IsValidVignette(vignettes, vignetteID)
+        for _, vignette in ipairs(vignettes) do
+            if vignette == vignetteID then return true end
+        end
+        return false
+    end
+
     for _, node in pairs(map.nodes) do
-        if node.vignette and node.vignette == self:GetVignetteID() and
+        if node.vignette and
+            IsValidVignette(node.vignette, self:GetVignetteID()) and
             node.rewards and ns:GetOpt('show_loot') then
             node:RenderRewards(GameTooltip)
         end

@@ -95,7 +95,6 @@ L['elemental_storm_snowstorm'] = 'Snowstorm'
 
 L['elemental_storm_brakenhide_hollow'] = 'Brackenhide Hollow'
 L['elemental_storm_cobalt_assembly'] = 'Cobalt Assembly'
-L['elemental_storm_dragonbane_keep'] = 'Dragonbane Keep'
 L['elemental_storm_imbu'] = 'Imbu'
 L['elemental_storm_nokhudon_hold'] = 'Nokhudon Hold'
 L['elemental_storm_ohniri_springs'] = 'Ohn\'iri Springs'
@@ -146,6 +145,22 @@ L['options_icons_frostbound_chest'] = 'Frostbound Chest'
 L['options_icons_frostbound_chest_desc'] = 'Display possible locations of {object:Frostbound Chests}.'
 
 L['fyrakk_assault_label'] = 'Fyrakk Assault'
+L['fyrakk_secured_shipment'] = 'Secured Shipment'
+
+L['shadowflame_forge_label'] = 'Shadowflame Forge'
+L['shadowflame_forge_note'] = 'Required when crafting this recipe:\n{spell:408282}'
+L['shadowflame_blacksmithing_anvil_label'] = 'Shadowflame Blacksmithing Anvil'
+L['shadowflame_blacksmithing_anvil_note'] = 'Required when crafting these recipes:\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
+L['shadowflame_leatherworking_table_label'] = 'Shadowflame Leatherworking Table'
+L['shadowflame_leatherworking_table_note'] = 'Required when crafting this recipe:\n{spell:406275}'
+L['shadowflame_incantation_table_label'] = 'Shadowflame Incantation Table'
+L['shadowflame_incantation_table_note'] = 'Required when crafting this recipe:\n{spell:405076}'
+L['azure_loom_label'] = 'Azure Loom'
+L['azure_loom_note'] = 'Required when crafting this recipe:\n{spell:376556}'
+L['temporal_loom_label'] = 'Temporal Loom'
+L['temporal_loom_note'] = 'Required when crafting this recipe:\n{spell:376557}'
+L['earthwarders_forge_label'] = 'The Earth-Warder\'s Forge'
+L['earthwarders_forge_note'] = 'Required when crafting this recipe:\n{spell:367713}'
 
 L['dreamsurge_sublabel'] = '{note:Only available while a {location:Dreamsurge} is active in this zone.}'
 L['celestine_vendor_note'] = 'Exchange {item:207026} for a mount, toys, pets, and transmog.'
@@ -534,6 +549,7 @@ L['pt_jewel_painters_pretty_jewel_note'] = 'Inside a lantern.'
 L['pt_leath_decayed_scales_note'] = 'Inside a basket.'
 L['pt_script_counterfeit_darkmoon_deck_note'] = 'Speak to {npc:194856} and offer to help her with the {object:Darkmoon Deck} scattered at her feet. Click the cards in the correct order (Ace through 8) then speak to her again.'
 L['pt_script_forgetful_apprentices_tome_note'] = 'On a table near a big telescope.'
+L['pt_script_forgetful_apprentices_tome_algethera_note'] = 'Click on the {object:Curious Glyph} to get the buff {spell:384818}. Cross the bridge and loot {item:198672} from {npc:194880} and bring it back to the Glyph.'
 L['pt_script_how_to_train_your_whelpling_note'] = 'Little brown book lying in the sandbox.'
 L['pt_smith_draconic_flux_note'] = 'Inside a building.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Click on the {object:Ancient Dragonweave Loom} to complete a minigame where you connect the spools of thread to the center gem.'
@@ -799,6 +815,7 @@ L['options_icons_ritual_offering_desc'] = 'Display possible locations of {object
 L['nal_kskol_reliquary_label'] = 'Nal ks\'kol Reliquary'
 L['nal_kskol_reliquary_note'] = 'Use the {object:Reliquary Access Console} and solve the puzzle to open the {object:Nal ks\'kol Reliquary}.'
 
+L['busted_wyrmhole_generator_note'] = '{item:205954} also looted from {object:Busted Wyrmhole Generator}.\n On use to unlock {location:Zaralek Cavern} wormhole option for {item:198156}.'
 L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.'
 L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'
 
@@ -1177,3 +1194,34 @@ In {location:Irontree Woods}, you will find a giant {npc:210417} and a {object:M
 
 Once the elemental sucks 4 people in, it will explode and drop {item:209781}! Anyone in the area can loot it.]]
 L['soa_mjj_part3_note'] = '{item:209055} will be waiting for you right in front of the {object:Dark Portal} in the {location:Blasted Lands}! Be careful of {npc:23082} and NPCs in the area, as it does take a 12-second cast to loot the part.'
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = 'Rumble Coin Bag'
+L['rumble_foil_bag'] = 'Rumble Foil Bag'
+L['rumble_both_bags'] = 'Rumble Coin and Foil Bag'
+L['warcraft_rumble_machine'] = 'Warcraft Rumble Machine'
+
+L['wr_ohn_both_01'] = 'Inside of a ruined building in {location:Lunedane}.'
+L['wr_ohn_foil_02'] = 'By a rock near the waterfall.'
+L['wr_sto_coin_01'] = 'Behind the storage crate.'
+L['wr_sto_foil_01'] = 'Near a pile of cannonballs.'
+L['wr_sto_foil_02'] = 'Near the ramp down to the docks.'
+L['wr_tas_both_01'] = 'Behind a tree overlooking {location:Whaler\'s Nook}.'
+L['wr_tas_foil_01'] = 'Near a massive broken tree.'
+L['wr_tha_both_01'] = 'On a floating island near {location:Tyrhold Reservoir}.'
+L['wr_tha_foil_01'] = 'On top of a giant plant vase.'
+L['wr_tws_both_01'] = 'At the top of the stone tower overlooking the water.'
+L['wr_tws_foil_01'] = 'On the mountain overlooking the lava.'
+L['wr_tws_foil_02'] = 'On a small stone tower overlooking the water.'
+L['wr_val_coin_01'] = 'On the first floor of {location:The Roasted Ram} near the {object:Cooking Oven}.'
+L['wr_val_foil_01'] = 'On the second floor of {location:The Roasted Ram} on the bed.'
+L['wr_val_machine'] = 'On the second floor of {location:The Roasted Ram}.'
+L['wr_org_coin_01'] = 'On the second floor of {location:The Broken Tusk}.'
+L['wr_org_foil_01'] = 'Behind the {location:Auction House}.'
+L['wr_dur_foil_01'] = 'Behind some supply crates.'
+
+L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
+L['options_icons_warcraft_rumble_desc'] = 'Display {object:Rumble Coin Bag} and {object:Rumble Foil Bag} locations for the {object:Warcraft Rumble} crossover promotion.'

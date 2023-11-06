@@ -52,6 +52,7 @@ function Node:Initialize(attrs)
     self.parent = ns.AsIDTable(self.parent)
     self.requires = ns.AsTable(self.requires, Requirement)
     self.group = ns.AsTable(self.group, Group)
+    self.vignette = ns.AsTable(self.vignette)
 
     -- ensure proper group(s) is/are assigned
     for _, group in pairs(self.group) do

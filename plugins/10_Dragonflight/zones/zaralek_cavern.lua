@@ -229,7 +229,6 @@ map.nodes[42226524] = Rare({
         Transmog({item = 205292, slot = L['cloak']}), -- Kairoktra's Mane
         DC.WindingSlitherdrake.SmallFinnedTail, --
         Pet({item = 205147, id = 3541}), -- Ridged Shalewing
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
 }) -- Karokta
@@ -291,7 +290,6 @@ map.nodes[40753817] = Rare({
         Transmog({item = 205311, slot = L['mail']}), -- Magmascale Pauldrons
         Transmog({item = 205300, slot = L['leather']}), -- Magma Waders
         DC.WindingSlitherdrake.ImpalerHorns, --
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Item({item = 192055}), -- Dragon Isle Artifact
         Currency({id = 2245}) -- Flightstones
     }
@@ -324,7 +322,6 @@ map.nodes[36205300] = Rare({
         Transmog({item = 205294, slot = L['cloth']}), -- Sandals of Molten Scorn
         Transmog({item = 205301, slot = L['leather']}), -- Hardened Lava Handwraps
         DC.WindingSlitherdrake.CurledCheekHorn, --
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}) -- Flightstones
     }
 }) -- Skornak
@@ -439,7 +436,6 @@ map.nodes[56040305] = Treasure({
     note = L['chest_of_the_flights_treasure_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59224}), -- Treasures of Zaralek Cavern
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
@@ -447,11 +443,10 @@ map.nodes[56040305] = Treasure({
 
 map.nodes[36397425] = Treasure({
     note = L['crystal_encased_chest_note'],
-    quest = {74987, 75559, 75601, 73697, 74986},
+    quest = {74987, 75559, 75601, 74986}, -- delete 73697, it's Ancient Zaqali Chest Looting Quest
     rewards = {
         Achievement({id = 17786, criteria = 59228}), -- Treasures of Zaralek Cavern
         Item({item = 204985}), -- Barter Brick
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     },
@@ -535,7 +530,6 @@ map.nodes[48451083] = Treasure({
     quest = 75514,
     note = L['fealtys_reward_note'],
     rewards = {
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     },
@@ -553,7 +547,6 @@ map.nodes[56734868] = Treasure({
     quest = 75320,
     note = L['moth_pilfered_pouch_note'],
     rewards = {
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     },
@@ -581,7 +574,6 @@ map.nodes[64197495] = Treasure({
     quest = 75745,
     note = L['nal_kskol_reliquary_note'],
     rewards = {
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Item({item = 191784}), -- Dragon Shard of Knowledge
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
@@ -593,9 +585,8 @@ map.nodes[64197495] = Treasure({
 
 map.nodes[60664622] = Treasure({
     label = L['stolen_stash_label'],
-    quest = {75302, 66382},
+    quest = 75302,
     rewards = {
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
@@ -606,7 +597,6 @@ deepflayerNest.nodes[63698291] = Treasure({
     quest = 75303,
     location = L['in_deepflayer_nest'],
     rewards = {
-        Item({item = 204075}), -- Whelpling's Shadowflame Crest Fragment
         Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     },
@@ -689,6 +679,7 @@ map.nodes[50326091] = SmellyTrashPile()
 map.nodes[51055710] = SmellyTrashPile()
 map.nodes[51224089] = SmellyTrashPile()
 map.nodes[51931544] = SmellyTrashPile()
+map.nodes[52080709] = SmellyTrashPile()
 map.nodes[52562740] = SmellyTrashPile()
 map.nodes[57047087] = SmellyTrashPile()
 map.nodes[57476456] = SmellyTrashPile()
@@ -862,7 +853,11 @@ map.nodes[48251702] = PT.Enchanting({id = 204990, quest = 75508}) -- Lava-Drench
 map.nodes[62395380] = PT.Enchanting({id = 204999, quest = 75509}) -- Shimmering Aqueous Orb
 
 map.nodes[50504790] = PT.Engineering({id = 204471, quest = 75184}) -- Defective Survival Pack
-map.nodes[37825884] = PT.Engineering({id = 204475, quest = 75186}) -- Busted Wyrmhole Generator
+map.nodes[37825884] = PT.Engineering({
+    id = 204475,
+    quest = 75186,
+    note = L['busted_wyrmhole_generator_note']
+}) -- Busted Wyrmhole Generator
 map.nodes[48101659] = PT.Engineering({
     id = 204855,
     quest = 75433,
@@ -904,18 +899,29 @@ map.nodes[72114844] = Dragonglyph({rewards = {Achievement({id = 17515})}}) -- Dr
 ------------------------------ ELUSIVE CREATURES ------------------------------
 -------------------------------------------------------------------------------
 
-local ElusiveCrystalscaleStonecleaver = ElusiveCreature({
+map.nodes[60233957] = ElusiveCreature({
     label = '{npc:204821}',
+    quest = 74234,
     rewards = {
         Item({item = 193215}), -- Adamant Scales
         Item({item = 193224}), -- Lustrous Scaled Hide
-        Item({item = 205451}), -- Flawless Crystal Scale
-        Achievement({id = 18832, criteria = 61478}) -- Elusive Legend of the Dragon Isles
-    }
+        Item({item = 205451, quest = 75866}), -- Flawless Crystal Scale
+        Achievement({id = 18833, criteria = 61483}) -- Elusive Legends of the Dragon Isles
+    },
+    pois = {Path({ns.poi.Circle({origin = 60233957, radius = 3})})}
 }) -- Elusive Crystalscale Stonecleaver
 
-map.nodes[57663814] = ElusiveCrystalscaleStonecleaver
-map.nodes[60233957] = ElusiveCrystalscaleStonecleaver
+map.nodes[44054787] = ElusiveCreature({
+    label = '{npc:204831}',
+    quest = 74235,
+    rewards = {
+        Item({item = 193215}), -- Adamant Scales
+        Item({item = 193224}), -- Lustrous Scaled Hide
+        Item({item = 204460}), -- Zaralek Glowspores
+        Item({item = 205413}), -- Obsidian Cobraskin
+        Achievement({id = 18833, criteria = 61484}) -- Elusive Legends of the Dragon Isles
+    }
+}) -- Elusive Magma Cobra
 
 -------------------------------------------------------------------------------
 --------------------------------- ZONE EVENTS ---------------------------------
@@ -1174,6 +1180,11 @@ local CuriousTopHat = Class('CuriousTopHat', Collectible, {
 map.nodes[38866432] = CuriousTopHat()
 map.nodes[43967748] = CuriousTopHat()
 map.nodes[51586689] = CuriousTopHat()
+map.nodes[61736979] = CuriousTopHat()
+map.nodes[63205574] = CuriousTopHat()
+deepflayerNest.nodes[70016555] = CuriousTopHat({
+    parent = {id = map.id, location = L['in_cave'], pois = {POI({61463864})}}
+})
 
 -------------------------------------------------------------------------------
 ----------------------- ACHIEVEMENT: THE GIFT OF CHEESE -----------------------
@@ -1215,6 +1226,95 @@ function TheGiftOfCheese.getters:note()
 end
 
 map.nodes[52442683] = TheGiftOfCheese()
+
+-------------------------------------------------------------------------------
+------------------------------- ZARALEK SAFARI --------------------------------
+-------------------------------------------------------------------------------
+
+-- local Zaralek_Safari = Class('Zaralek_Safari', ns.node.Safari,
+--     {group = ns.groups.ZARALEK_SAFARI})
+
+-- map.nodes[49003260] = Zaralek_Safari({
+--     id = 203287,
+--     rewards = {Achievement({id = 17879, criteria = 59342}), Pet({id = 3477})},
+--     pois = {
+--         POI({
+--             44004020, 44004900, 44405020, 44405060, 44805840, 44805860,
+--             45005080, 45005160, 45203900, 45204000, 45205640, 45205660,
+--             46205400, 47203840, 47403740, 47403860, 47603720, 47603760,
+--             48203500, 48205240, 48403600, 48405320, 48603600, 48605320,
+--             48803460, 49003240, 49003260, 49005160, 49203360, 49403940,
+--             49403960, 49405040, 49405140, 49603860, 49604120, 49605040,
+--             49605140, 49605160, 49803340, 49803740, 49803780, 49804940,
+--             50004580, 50203960, 50404480, 50404740, 50404760, 50604640,
+--             50604660, 50604920, 50804300, 50804780
+--         })
+--     }
+-- })-- Puddlehopper
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Yellabon
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Stonewhisker
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Boulderfang
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Hollow Moth
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Rock Martin
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Endmite
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Cobbleshell
+
+-- map.nodes[1234] = Zaralek_Safari({
+--     id = nil,
+--     rewards = {Achievement({id = 17879, criteria = nil}), Pet({id = nil})},
+--     pois = {
+--         POI({})
+--     }
+-- })-- Slabwing
 
 -------------------------------------------------------------------------------
 

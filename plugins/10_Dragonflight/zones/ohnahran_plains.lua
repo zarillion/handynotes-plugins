@@ -7,13 +7,13 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local Node = ns.node.Node
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local AncientStone = ns.node.AncientStone
-local Celestine = ns.node.Celestine
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
 local ElementalStorm = ns.node.ElementalStorm
@@ -30,7 +30,6 @@ local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
-local RenewedMagmammoth = ns.node.RenewedMagmammoth
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -38,6 +37,8 @@ local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -126,7 +127,7 @@ map.nodes[75184651] = Rare({
         Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        DC.HighlandDrake.ManedHead
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Fulgurb
 
@@ -200,7 +201,7 @@ map.nodes[71694585] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 198409}), -- Personal Shell
-        DC.HighlandDrake.ManedHead
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Malsegan
 
@@ -272,6 +273,7 @@ local Quackers = Class('Quackers', Rare, {
     id = 192557,
     vignette = 5144,
     quest = 73972,
+    note = L['river_camp_note'],
     rewards = {
         Achievement({id = 16677, criteria = 56091}),
         Achievement({id = 16446, criteria = 55396, note = L['pretty_neat_note']})
@@ -414,7 +416,7 @@ map.nodes[53627281] = Rare({
         Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        DC.CliffsideWylderdrake.HeadMane
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     }
 }) -- Steamgill
 
@@ -523,10 +525,9 @@ map.nodes[90434005] = Rare({
         Transmog({item = 200283, slot = L['leather']}), -- Gnoll-Gnawed Breeches
         Transmog({item = 200432, slot = L['cloth']}), -- Rotguard Cowl
         Toy({item = 200178}), -- Infected Ichor
-        DC.CliffsideWylderdrake.BlackHair, -- Cliffside Wylderdrake: Black Hair
-        DC.CliffsideWylderdrake.DualHornedChin, -- Cliffside Wylderdrake: Dual Horned Chin
-        DC.CliffsideWylderdrake.Ears, -- Cliffside Wylderdrake: Ears
-        DC.HighlandDrake.SpikedClubTail -- Highland Drake: Spiked Club Tail
+        DC.CliffsideWylderdrake.BlackHair,
+        DC.CliffsideWylderdrake.DualHornedChin, DC.CliffsideWylderdrake.Ears,
+        DC.HighlandDrake.SpikedClubTail
     }
 }) -- Blightpaw the Depraved
 
@@ -548,6 +549,8 @@ map.nodes[80817770] = Rare({
 -------------------------------------------------------------------------------
 
 -- These rares/elites are not part of the adventurer achievement for the zone
+
+map.nodes[73725602] = Rare({id = 193168, quest = 73903}) -- Biryuk
 
 map.nodes[59926696] = Rare({
     id = 193669,
@@ -575,7 +578,6 @@ map.nodes[26366533] = Rare({
     quest = 72845,
     location = L['in_small_cave'],
     rewards = {
-        Item({item = 198048}), -- Titan Training Matrix I
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200137, slot = L['dagger']}), -- Chitin Dreadbringer
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
@@ -594,7 +596,6 @@ map.nodes[44894924] = Rare({
     quest = 72847,
     location = L['in_small_cave'],
     rewards = {
-        Item({item = 198048}), -- Titan Training Matrix I
         Transmog({item = 200137, slot = L['dagger']}), -- Chitin Dreadbringer
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
@@ -614,8 +615,6 @@ map.nodes[63034854] = Rare({
     quest = 72849,
     note = L['in_waterfall_cave'],
     rewards = {
-        Item({item = 198048}), -- Titan Training Matrix I
-        Toy({item = 198409}), -- Personal Shell
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
@@ -623,6 +622,7 @@ map.nodes[63034854] = Rare({
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Toy({item = 198409}), -- Personal Shell
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     }
@@ -633,7 +633,6 @@ map.nodes[22956670] = Rare({
     vignette = 5179,
     quest = 72851,
     rewards = {
-        Item({item = 198048}), -- Titan Training Matrix I
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
@@ -653,7 +652,6 @@ map.nodes[26073412] = Rare({
     quest = 72852,
     location = L['in_cave'],
     rewards = {
-        Item({item = 198048}), -- Titan Training Matrix I
         Transmog({item = 198429, slot = L['staff']}), -- Typhoon Bringer
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
@@ -684,45 +682,44 @@ map.nodes[43105078] = Rare({
     pois = {POI({43724823})}
 }) -- Web-Queen Ashkaz
 
-map.nodes[34823454] = Rare(
-    { -- is all over the place on wowhead, took a random one,
-        id = 201540,
-        vignette = 5570,
-        quest = 74546,
-        rewards = {
-            Transmog({item = 203674, slot = L['plate']}), -- Brutal Tramplers
-            DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair
-        },
-        pois = {
-            Path({33793438, 34303449, 34823454, 35333464, 35833478, 36323500})
-        }
-    }) -- Lurgan
+map.nodes[34823454] = Rare({
+    id = 201540,
+    vignette = {5570, 5898},
+    quest = 74546,
+    rewards = {
+        Transmog({item = 203674, slot = L['plate']}), -- Brutal Tramplers
+        DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair
+    },
+    pois = {Path({33793438, 34303449, 34823454, 35333464, 35833478, 36323500})}
+}) -- Lurgan
 
 map.nodes[36803800] = Rare({
     id = 201535,
-    vignette = 5573,
+    vignette = {5573, 5895},
     quest = 74552,
     rewards = {
         Transmog({item = 203673, slot = L['dagger']}), -- Bloodbeak's Ravenor
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
-        Transmog({item = 200442, slot = L['leather']}) -- Basilisk Hide Jerkin
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     }
 }) -- Bloodbeak the Ravenous
 
 map.nodes[35804040] = Rare({
     id = 201537,
-    vignette = 5569,
+    vignette = {5569, 5896},
     quest = 74463,
     rewards = {
         Transmog({item = 203671, slot = L['cloak']}), -- Bloodbeak's Ravenor
-        DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair
+        DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair,
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
     }
 }) -- Groffnar
 
 map.nodes[32614184] = Rare({
     id = 201539,
-    vignette = 5571,
+    vignette = {5571, 5899},
     quest = 74547,
     rewards = {
         Transmog({item = 203676, slot = L['cloth']}), -- Stormcaller's Grounding Shoes
@@ -734,7 +731,7 @@ map.nodes[32614184] = Rare({
 
 map.nodes[33843872] = Rare({
     id = 201538,
-    vignette = 5572,
+    vignette = {5572, 5897},
     quest = 74548,
     rewards = {
         Transmog({item = 203672, slot = L['mail']}), -- Master Huntmaster's Wristguards
@@ -814,6 +811,7 @@ map.nodes[51985839] = Treasure({
 
 map.nodes[56007878] = ns.node.ElementalChest({
     quest = 71033,
+    -- vignette = 5407,
     label = L['chest_of_the_flood'],
     rewards = {
         Item({item = 192055}), -- Dragon Isles Artifact
@@ -821,7 +819,7 @@ map.nodes[56007878] = ns.node.ElementalChest({
         Transmog({item = 201443, slot = L['shield']}), -- Primal Revenant's Icewall
         Transmog({item = 201442, slot = L['1h_sword']}) -- Primal Revenant's Frostblade
     }
-}) -- Chest of the Flood
+}) -- Water-Bound Chest
 
 map.nodes[53296890] = Treasure({
     label = L['forgotten_dragon_treasure_label'],
@@ -1857,21 +1855,23 @@ map.nodes[34153854] = ElementalStorm({
 
 map.nodes[55005500] = ElusiveCreature({
     label = '{npc:195465}',
+    quest = 74188,
     rewards = {
         Item({item = 193224}), -- Lustrous Scaled Hide
         Item({item = 193215}), -- Adamant Scales
         Item({item = 193253}), -- Cacophonous Thunderscale
-        Achievement({id = 18832, criteria = 61474}) -- Elusive Legend of the Dragon Isles
+        Achievement({id = 18833, criteria = 61475}) -- Elusive Legends of the Dragon Isles
     }
 }) -- Elusive Tempest Lizard
 
 map.nodes[24005600] = ElusiveCreature({
     label = '{npc:195541}',
+    quest = 74187,
     rewards = {
         Item({item = 193218}), -- Dense Hide
         Item({item = 193211}), -- Resilient Leather
         Item({item = 193251}), -- Crystalspine Fur
-        Achievement({id = 18832, criteria = 61482}) -- Elusive Legend of the Dragon Isles
+        Achievement({id = 18833, criteria = 61480}) -- Elusive Legends of the Dragon Isles
     }
 }) -- Elusive Flourishing Quillbloom
 
@@ -1960,7 +1960,7 @@ map.nodes[66564391] = Collectible({
 
 -------------------------- MOUNT: LIZI, THUNDERSPINE --------------------------
 
-local Lizi = Class('Lizi', Collectible, {
+local Lizi = Class('Lizi', Collectible, { -- Reivew Collectible?
     id = 190014,
     icon = 4008180,
     quest = {71196, 71197, 71198, 71199, 71195}, -- Dailys
@@ -2102,24 +2102,98 @@ map.nodes[47037119] = Collectible({
 ------------------------------- FYRAKK ASSAULT --------------------------------
 -------------------------------------------------------------------------------
 
+local FyrakkAssault = Class('FyrakkAssault', ns.requirement.Requirement, {
+    text = L['fyrakk_assault_label'],
+    IsMet = function()
+        local validPOIs = {7429, 7471, 7473, 7486, 7487}
+        local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(map.id)
+        for _, activePOI in ipairs(activePOIs) do
+            for _, validPOI in pairs(validPOIs) do
+                if activePOI == validPOI then return true end
+            end
+        end
+        return false
+    end
+})()
+
 map.nodes[76156952] = Collectible({
     label = L['fyrakk_assault_label'],
     icon = 4914672,
+    quest = {75467, 75525}, -- Kretchenwrath, Secured Shipment
+    vignette = 5610, -- Disciple of Fyrakk
+    requires = FyrakkAssault,
     rewards = {
         Achievement({id = 17506}), -- Still Standing in the Fire
         Achievement({id = 17735, criteria = {id = 1, qty = true}}), -- We Didn't Start the Fire
+        Section('{npc:201673}'), -- Kretchenwrath
         Pet({item = 205002, id = 3511}), -- Blaise
         Pet({item = 205003, id = 3512}), -- Ambre
-        Toy({item = 206043}) -- Fyrakk's Frenzy
+        Toy({item = 206043}), -- Fyrakk's Frenzy
+        DC.RenewedProtoDrake.BruiserHorns,
+        DC.RenewedProtoDrake.BlackAndRedArmor, Spacer(),
+        Section(L['fyrakk_secured_shipment']),
+        DC.RenewedProtoDrake.BronzeAndPinkArmor,
+        DC.WindborneVelocidrake.BronzeAndGreenArmor,
+        DC.HighlandDrake.BronzeAndGreenArmor,
+        DC.CliffsideWylderdrake.BronzeAndTealArmor,
+        DC.WindingSlitherdrake.GreenAndBronzeArmor
     }
 }) -- Fyrakk Assault
+
+------------------------------- CRAFTING TABLES -------------------------------
+
+map.nodes[72277242] = Node({
+    label = L['shadowflame_forge_label'],
+    icon = 4622286,
+    note = L['shadowflame_forge_note'],
+    requires = FyrakkAssault,
+    IsEnabled = function(self) -- Blacksmithing
+        if not ns.PlayerHasProfession(164) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- Shadowflame Forge
+
+map.nodes[73387083] = Node({
+    label = L['shadowflame_blacksmithing_anvil_label'],
+    icon = 4914678, --
+    note = L['shadowflame_blacksmithing_anvil_note'],
+    requires = FyrakkAssault,
+    IsEnabled = function(self) -- Blacksmithing, Engineering
+        local bs = ns.PlayerHasProfession(164)
+        local en = ns.PlayerHasProfession(202)
+        if not bs and not en then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- Shadowflame Blacksmithing Anvil
+
+map.nodes[74727194] = Node({
+    label = L['shadowflame_leatherworking_table_label'],
+    icon = 5088848,
+    note = L['shadowflame_leatherworking_table_note'],
+    requires = FyrakkAssault,
+    IsEnabled = function(self) -- Leatherworking
+        if not ns.PlayerHasProfession(165) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- Shadowflame Leatherworking Table
+
+map.nodes[73337238] = Node({
+    label = L['shadowflame_incantation_table_label'],
+    icon = 4620672,
+    note = L['shadowflame_incantation_table_note'],
+    requires = FyrakkAssault,
+    IsEnabled = function(self) -- Enchanting
+        if not ns.PlayerHasProfession(333) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- Shadowflame Incantation Table
 
 ------------------------------------------------------------------------------
 --------------------------------- DREAMSURGE ---------------------------------
 ------------------------------------------------------------------------------
 
-map.nodes[64164161] = Celestine()
-map.nodes[24496126] = RenewedMagmammoth()
+map.nodes[64164161] = ns.node.Celestine()
+map.nodes[24496126] = ns.node.RenewedMagmammoth()
 
 -------------------------------------------------------------------------------
 

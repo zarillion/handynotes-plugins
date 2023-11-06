@@ -95,7 +95,6 @@ L['elemental_storm_snowstorm'] = 'Tormenta de Nieve'
 
 L['elemental_storm_brakenhide_hollow'] = 'Hondonada Frondacuero'
 L['elemental_storm_cobalt_assembly'] = 'Galería Cobalto'
-L['elemental_storm_dragonbane_keep'] = 'Fortaleza de Ruinadragón'
 L['elemental_storm_imbu'] = 'Imbu'
 L['elemental_storm_nokhudon_hold'] = 'Bastión Nokhudon'
 L['elemental_storm_ohniri_springs'] = 'Manantiales Ohn\'iri'
@@ -146,6 +145,22 @@ L['options_icons_frostbound_chest'] = 'Cofre Ligado a la Escarcha'
 L['options_icons_frostbound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Ligado a la Escarcha}.'
 
 L['fyrakk_assault_label'] = 'Asalto de Fyrakk'
+L['fyrakk_secured_shipment'] = 'Envío Seguro'
+
+L['shadowflame_forge_label'] = 'Forja Pirosombra'
+L['shadowflame_forge_note'] = 'Requerida para crear esta receta:\n{spell:408282}'
+L['shadowflame_blacksmithing_anvil_label'] = 'Yunque de Herrería Pirosombra'
+L['shadowflame_blacksmithing_anvil_note'] = 'Requerido para crear estas recetas:\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
+L['shadowflame_leatherworking_table_label'] = 'Mesa de Peletería Pirosombra'
+L['shadowflame_leatherworking_table_note'] = 'Requerida para crear esta receta:\n{spell:406275}'
+L['shadowflame_incantation_table_label'] = 'Mesa de Encantamiento Pirosombra'
+L['shadowflame_incantation_table_note'] = 'Requerida para crear esta receta:\n{spell:405076}'
+L['azure_loom_label'] = 'Telar Azur'
+L['azure_loom_note'] = 'Requerido para crear esta receta:\n{spell:376556}'
+L['temporal_loom_label'] = 'Telar Temporal'
+L['temporal_loom_note'] = 'Requerido para crear esta receta:\n{spell:376557}'
+L['earthwarders_forge_label'] = 'Forja del Guardián de la Tierra'
+L['earthwarders_forge_note'] = 'Requerida para crear esta receta:\n{spell:367713}'
 
 L['dreamsurge_sublabel'] = '{note:Sólo está disponible cuando {location:Pico Onírico} está activo en esta zona.}'
 L['celestine_vendor_note'] = 'Cambia {item:207026} por una montura, juguetes, mascotas, y transfiguraciones.'
@@ -534,6 +549,7 @@ L['pt_jewel_painters_pretty_jewel_note'] = 'Dentro de una lámpara.'
 L['pt_leath_decayed_scales_note'] = 'Dentro de una cesta.'
 L['pt_script_counterfeit_darkmoon_deck_note'] = 'Habla con {npc:194856} y ofrécete a ayudarla a recoger su {object:Colección de la Luna Negra} esparcida a sus pies. Haz click en las cartas en el orden correcto (del As al 8). Después habla con ella de nuevo.'
 L['pt_script_forgetful_apprentices_tome_note'] = 'Encima de la mesa cercana a un gran telescopio.'
+L['pt_script_forgetful_apprentices_tome_algethera_note'] = 'Haz click en el {object:Glifo Curioso} para conseguir el buff {spell:384818}. Atraviesa el puente y despoja la {item:198672} de la {npc:194880} para llevarla de vuelta al Glifo.'
 L['pt_script_how_to_train_your_whelpling_note'] = 'Pequeño libro marrón tirado en la caja de arena.'
 L['pt_smith_draconic_flux_note'] = 'Dentro de un edificio.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Haz click en el {object:Telar de Tejido de Dragón Ancestral} para completar un minijuego donde has de conectar los carretes de hilo a la gema central.'
@@ -799,6 +815,7 @@ L['options_icons_ritual_offering_desc'] = 'Muestra dónde pueden haber {object:O
 L['nal_kskol_reliquary_label'] = 'Relicario de Nal ks\'kol'
 L['nal_kskol_reliquary_note'] = 'Usa la {object:Consola de Acceso al Relicario} y resuelve el puzzle para abrir el {object:Relicario de Nal ks\'kol}.'
 
+L['busted_wyrmhole_generator_note'] = 'La {item:205954} puede despojarse del {object:Generador de Agujeros de Vermis Destrozado}.\n Al usarla, desbloquearás en el generador de gusanos la opción {location:Caverna Zaralek} para el {item:198156}.'
 L['molten_scoutbot_note'] = 'Abre el {object:Explorabot de magma} y despoja el {item:204850}.'
 L['bolts_and_brass_note'] = 'Abre los {object:Tornillos y Latón} y despoja los {item:204850}.'
 
@@ -1178,3 +1195,34 @@ En {location:Bosque de Troncoferro}, tendrás que buscar un {npc:210417} gigante
 
 Una vez el elemental absorbe 4 personas dentro, explotará y soltará la {item:209781}. Cualquiera que esté cerca podrá despojarla.]]
 L['soa_mjj_part3_note'] = 'La {item:209055} estará esperándote enfrente del {object:Portal Oscuro} en {location:Las Tierras Devastadas}. Ten cuidado con los {npc:23082} y los NPCs de la zona, ya que se necesita canalizar durante 12 segundos para despojar la pieza.'
+
+-------------------------------------------------------------------------------
+------------------------------- WARCRAFT RUMBLE -------------------------------
+-------------------------------------------------------------------------------
+
+L['rumble_coin_bag'] = 'Bolsa de Monedas de Warcraft Rumble'
+L['rumble_foil_bag'] = 'Caja de Brillos de Warcraft Rumble'
+L['rumble_both_bags'] = 'Moneda de Warcraft Rumble y Brillos de Warcraft Rumble'
+L['warcraft_rumble_machine'] = 'Máquina de Warcraft Rumble'
+
+L['wr_ohn_both_01'] = 'Dentro de un edificio en ruinas en {location:Lunedania}.'
+L['wr_ohn_foil_02'] = 'Por una roca cerca de la cascada.'
+L['wr_sto_coin_01'] = 'Detrás de la caja de almacenamiento.'
+L['wr_sto_foil_01'] = 'Cerca de una pila de bolas de cañón.'
+L['wr_sto_foil_02'] = 'Cerca de la rampa que baja a los muelles.'
+L['wr_tas_both_01'] = 'Detrás de un árbol con vistas a la {location:Cala del Ballenero}.'
+L['wr_tas_foil_01'] = 'Cerca de un árbol enorme roto.'
+L['wr_tha_both_01'] = 'En una isla flotante cerca de {location:Reserva de Tyrhold}.'
+L['wr_tha_foil_01'] = 'Encima de un jarrón gigante.'
+L['wr_tws_both_01'] = 'En lo alto de la torre de piedra con vistas al agua.'
+L['wr_tws_foil_01'] = 'Encima de una montaña con vistas a la lava.'
+L['wr_tws_foil_02'] = 'En una torre pequeña de piedra con vistas al agua.'
+L['wr_val_coin_01'] = 'En el primer piso de {location:El Carnero Asado} cerca del {object:Horno de Cocina}.'
+L['wr_val_foil_01'] = 'En la cama del segundo piso de {location:El Carnero Asado}.'
+L['wr_val_machine'] = 'En el segundo piso de {location:El Carnero Asado}.'
+L['wr_org_coin_01'] = 'En el segundo piso de {location:El Colmillo Roto}.'
+L['wr_org_foil_01'] = 'Tras la {location:Casa de Subastas}.'
+L['wr_dur_foil_01'] = 'Detrás de unas cajas de suministros.'
+
+L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
+L['options_icons_warcraft_rumble_desc'] = 'Muestra dónde están las {object:Bolsa de Monedas de Warcraft Rumble} y {object:Caja de Brillos de Warcraft Rumble} vinculadas a la campaña promocional de {object:Warcraft Rumble}.'
