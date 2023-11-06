@@ -890,7 +890,13 @@ local EmeraldBounty = Class('EmeraldBounty', Node, {
                 Spacer(), Section('{item:208047}'),
                 Recipe({item = 210242, profession = 185, note = '{item:208067}'}), -- Recipe: Slumbering Peacebloom Tea -- Plump Dreamseed
                 Recipe({item = 210174, profession = 333, note = '{item:208067}'}), -- Formula: Illusory Adornment: Dreams -- Plump Dreamseed
-                Recipe({item = 210241, profession = 171, note = '{item:208067}'}) -- Recipe: Dreamwalker's Healing Potion -- Plump Dreamseed
+                Recipe({item = 210241, profession = 171, note = '{item:208067}'}), -- Recipe: Dreamwalker's Healing Potion -- Plump Dreamseed
+                Mount({item = 209950, id = 1810}), -- Reins of the Rekindled Dreamstag
+                Mount({item = 209947, id = 1808}), -- Reins of the Blossoming Dreamstag
+                Mount({item = 210775, id = 1835}), -- Reins of the Snowfluff Dreamtalon
+                Mount({item = 210769, id = 1833}), -- Reins of the Springtide Dreamtalon
+                Mount({item = 210057, id = 1817}), -- Reins of the Morning Flourish Dreamsaber
+                Mount({item = 210058, id = 1816}) -- Reins of the Evening Sun Dreamsaber
             }
         end
     }
@@ -1531,13 +1537,13 @@ local SeedbloomVendor = Class('SeedbloomVendor', NPC, {
         Pet({item = 210651, id = 4299, count = '1'}), -- Dustite
         Pet({item = 210648, id = 4298, count = '1'}), -- Seedle
         Spacer(), --
-        Section(ns.requirement.Reputation(2574, 18, true):GetText()),
-        Mount({item = 209950, id = 1810, count = '1'}), -- Reins of the Rekindled Dreamstag
-        Mount({item = 209947, id = 1808, count = '1'}), -- Reins of the Blossoming Dreamstag
-        Mount({item = 210775, id = 1835, count = '1'}), -- Reins of the Snowfluff Dreamtalon
-        Mount({item = 210769, id = 1833, count = '1'}), -- Reins of the Springtide Dreamtalon
-        Mount({item = 210057, id = 1817, count = '1'}), -- Reins of the Morning Flourish Dreamsaber
-        Mount({item = 210058, id = 1816, count = '1'}) -- Reins of the Evening Sun Dreamsaber
+        -- Section(ns.requirement.Reputation(2574, 18, true):GetText()), -- she doesnt sell mounts to me
+        -- Mount({item = 209950, id = 1810, count = '1'}), -- Reins of the Rekindled Dreamstag
+        -- Mount({item = 209947, id = 1808, count = '1'}), -- Reins of the Blossoming Dreamstag
+        -- Mount({item = 210775, id = 1835, count = '1'}), -- Reins of the Snowfluff Dreamtalon
+        -- Mount({item = 210769, id = 1833, count = '1'}), -- Reins of the Springtide Dreamtalon
+        -- Mount({item = 210057, id = 1817, count = '1'}), -- Reins of the Morning Flourish Dreamsaber
+        -- Mount({item = 210058, id = 1816, count = '1'}) -- Reins of the Evening Sun Dreamsaber
     }
 })
 
