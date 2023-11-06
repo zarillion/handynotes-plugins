@@ -169,8 +169,7 @@ local CauldronbearerBlakor = Class('cauldronbearerblakor', RareElite, {
         Path({
             29605401, 29655371, 29805359, 30385364, 30615390, 30605447,
             30745476, 31135531, 31195583, 31085619, 30535596
-        }),
-        Path({29336233, 26585932, 26285992, 26015953, 26485842, 26335790})
+        }), Path({29336233, 26585932, 26285992, 26015953, 26485842, 26335790})
     }
 }) -- Cauldronbearer Blakor
 
@@ -359,8 +358,9 @@ map.nodes[22207649] = RareElite({
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Transmog({item = 200151, slot = L['1h_sword']}), -- Seamist Blade
         Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
-        DC.CliffsideWylderdrake.FinnedNeck, DC.WindborneVelocidrake.LargeHeadFin,
-        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth
+        DC.CliffsideWylderdrake.FinnedNeck,
+        DC.WindborneVelocidrake.LargeHeadFin, DC.RenewedProtoDrake.ImpalerHorns,
+        DC.HighlandDrake.ToothyMouth
     }
 }) -- Massive Magmashell
 
@@ -515,8 +515,9 @@ map.nodes[42892832] = Rare({
         Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        DC.CliffsideWylderdrake.FinnedNeck, DC.WindborneVelocidrake.LargeHeadFin,
-        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
+        DC.CliffsideWylderdrake.FinnedNeck,
+        DC.WindborneVelocidrake.LargeHeadFin, DC.HighlandDrake.ManedHead,
+        DC.CliffsideWylderdrake.HeadMane
     },
     pois = {
         Path({
@@ -669,8 +670,8 @@ map.nodes[65617410] = Rare({
         ns.reward.Section('{npc:193634}'), -- Swog'ranka -- drops more but i limited it to 2 tmog
         Transmog({item = 200151, slot = L['1h_sword']}), -- Seamist Blade
         Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
-        DC.CliffsideWylderdrake.FinnedNeck, DC.WindborneVelocidrake.LargeHeadFin,
-        ns.reward.Section('{npc:193710}'), -- Seereel, the Spring
+        DC.CliffsideWylderdrake.FinnedNeck,
+        DC.WindborneVelocidrake.LargeHeadFin, ns.reward.Section('{npc:193710}'), -- Seereel, the Spring
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
         DC.CliffsideWylderdrake.FinnedCheek, DC.HighlandDrake.FinnedBack,
@@ -815,7 +816,8 @@ map.nodes[42203960] = Rare({
         Transmog({item = 200171, slot = L['1h_sword']}), -- Grymheart Blade
         Transmog({item = 200175, slot = L['2h_mace']}), -- Repurposed Anvil
         Transmog({item = 200243, slot = L['cloth']}), -- Titanic Scholar's Finery
-        DC.CliffsideWylderdrake.BluntSpikedTail, DC.CliffsideWylderdrake.HornedNose,  --his team members looting table
+        DC.CliffsideWylderdrake.BluntSpikedTail,
+        DC.CliffsideWylderdrake.HornedNose, -- his team members looting table
         DC.HighlandDrake.HairyCheek
     }
 }) -- Harkyn Grymstone
@@ -836,11 +838,10 @@ map.nodes[68085669] = Rare({
     },
     pois = {
         Path({
-            67265859, 68205832, 68255788, 68135746, 67775648,
-            67625593, 67375427, 67375518, 68765539, 68955551,
-            69065602, 68805668, 68085669, 67965711, 68235791,
-            68245830, 68045850, 67295861, 67895853, 68225830,
-            68255779, 67815693
+            67265859, 68205832, 68255788, 68135746, 67775648, 67625593,
+            67375427, 67375518, 68765539, 68955551, 69065602, 68805668,
+            68085669, 67965711, 68235791, 68245830, 68045850, 67295861,
+            67895853, 68225830, 68255779, 67815693
         })
     }
 }) -- Disoriented Watcher -- just be like a rare
@@ -2152,13 +2153,6 @@ map.nodes[79804940] = Safari({
 -------------------------------------------------------------------------------
 ----------------------- ELEMENTAL STORMS: WAKING SHORES -----------------------
 -------------------------------------------------------------------------------
-
---[[map.nodes[28957105] = ElementalStorm({
-    label = format('%s: %s', L['elemental_storm'],
-        L['elemental_storm_dragonbane_keep']),
-    mapID = map.id,
-    areaPOIs = {7249, 7250, 7251, 7252}
-}) -- Elemental Storm: Dragonbane Keep]] -- removed in patch 10.1
 
 map.nodes[29735398] = ElementalStorm({
     label = format('%s: %s', L['elemental_storm'], L['elemental_storm_slagmire']),
