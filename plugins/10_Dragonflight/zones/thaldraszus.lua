@@ -164,9 +164,6 @@ map.nodes[45458518] = Rare({
     }
 }) -- Craggravated Elemental
 
--- map.nodes[45458518] = CRAGGRAVATEDELEMENTAL
--- map.nodes[52746732] = CRAGGRAVATEDELEMENTAL--not a respawned node
-
 map.nodes[47675115] = Rare({
     id = 193234,
     vignette = 5198,
@@ -215,8 +212,9 @@ map.nodes[59128380] = Rare({
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Toy({item = 200148}), -- A Collection Of Me
-        DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns,
-        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth
+        DC.CliffsideWylderdrake.NarrowStripesPattern,
+        DC.HighlandDrake.StagHorns, DC.RenewedProtoDrake.ImpalerHorns,
+        DC.HighlandDrake.ToothyMouth
     },
     pois = {
         Path({
@@ -242,8 +240,9 @@ map.nodes[62298177] = Rare({
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
         Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
         Toy({item = 200148}), -- A Collection Of Me
-        DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns,
-        DC.CliffsideWylderdrake.FinnedNeck, DC.WindborneVelocidrake.LargeHeadFin
+        DC.CliffsideWylderdrake.NarrowStripesPattern,
+        DC.HighlandDrake.StagHorns, DC.CliffsideWylderdrake.FinnedNeck,
+        DC.WindborneVelocidrake.LargeHeadFin
     },
     pois = {POI({61708120})} -- Entrance
 }) -- Lord Epochbrgl
@@ -558,7 +557,6 @@ map.nodes[36798556] = Rare({
         Toy({item = 200198}), -- Primalist Prison
         DC.WindborneVelocidrake.ClusterHorns, DC.RenewedProtoDrake.ImpalerHorns,
         DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.HeavyHorns
-        -- Item({item = 198048}) -- Titan Training Matrix I
     }
 }) -- Lookout Mordren
 
@@ -617,7 +615,7 @@ tpf.nodes[46884248] = Rare({
 -- Tyrhold (10.0.5)
 map.nodes[59766226] = Rare({
     id = 201550,
-    vignette = 5563, --Dreamsurge:5880
+    vignette = 5563, -- Dreamsurge:5880
     quest = 74565,
     rewards = {
         Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
@@ -628,7 +626,7 @@ map.nodes[59766226] = Rare({
 
 map.nodes[59525659] = Rare({
     id = 201552,
-    vignette = 5562, --Dreamsurge:5881
+    vignette = 5562, -- Dreamsurge:5881
     quest = 74566,
     rewards = {
         Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
@@ -640,7 +638,7 @@ map.nodes[59525659] = Rare({
 
 map.nodes[61736079] = Rare({
     id = 201549,
-    vignette = 5564, --Dreamsurge:5879
+    vignette = 5564, -- Dreamsurge:5879
     quest = 74561,
     rewards = {
         Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
