@@ -860,7 +860,7 @@ L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
 L['options_icons_emerald_dream_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:19401}.'
 
 L['envoy_of_winter_note'] = 'Ramassez des {item:208881} et utilisez le {spell:421658} près du puits jusqu\'à ce que l\'{npc:209929} apparaisse.'
-L['fruitface_note'] = 'Ramassez les {item:208837} au sol pour faire apparaître le {npc:209980}. Attaquez-le et suivez-le jusqu\'à ce qu\'il saute dans l\'eau et invoque un {npc:209966} et le monstre rare.'
+L['fruitface_note'] = 'Demandez à {dot:Pink} {npc:209950} de vous donner la {spell:421446}, les {item:208837} au sol deviendront alors visibles. Ramassez-les pour faire apparaître le {dot:Yellow} {npc:209980}. Attaquez-le et suivez-le jusqu\'à ce qu\'il saute dans l\'eau {dot:Red} et invoque {npc:209913} et un {npc:209966}.'
 L['greedy_gessie_note'] = 'Vous devez récupérer les objets {object:Légumes sauvages}, {object:Melon écaille de rubis} et {object:Racine orange} aux alentours et les mettre dans les paniers près des {npc:210285} pour commencer le combat.'
 L['nuoberon_note'] = 'Pourchassez les tortues, jetez de la nourriture aux singes ou combattez les monstres des rêves pour aider {npc:209101} à passer un rêve amusant !'
 L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaquer {npc:209898}.'
@@ -973,9 +973,9 @@ L['options_icons_somnut_desc'] = 'Afficher les emplacements possibles des {objec
 L['improvised_leafbed_note'] = 'Terminez la suite de quêtes commençant par {quest:77896} pour recevoir le {item:210864} de la part de {npc:210164}.'
 L['kalandu_note'] = 'Terminez la suite de quêtes commençant par {quest:77948} pour recevoir {item:210633} de la part de {npc:210196}.'
 
-L['renewed_dream'] = nil
+L['renewed_dream'] = '{note:Ceci n\'est pas un trésor !}\nLes {item:201437} sont récupérés un peu partout au sein du {location:Rêve d\'Émeraude}.\nCombinez 5x {item:201437} pour reconstituer un {item:201439}.'
 
-L['ochre_note'] = 'Parlez au {npc:209253} pour commencer la suite de la quête, le {npc:209571} vous indiquera les étapes suivantes.'
+L['ochre_note'] = 'Parlez à la {npc:209253} pour commencer la suite de la quête, le {npc:209571} vous indiquera les étapes suivantes.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:Prends 5 jours à pousser.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:Prends 5 jours à pousser.}'
 L['ochre_note_stage3'] = 'Le {npc:209571} vous enverra récupérer 5x {item:4537} {dot:Yellow}, 3x {item:209416} {dot:Green}, et 5x {item:208644} {dot:Red}, combinez-les en {item:208646}. Attendez 3 jours qu\'ils se transforment en {item:208647}, et terminez la quête {quest:77697}. {note:Prends 5 jours à pousser.}'
@@ -1001,9 +1001,9 @@ L['thorn_stag_note'] = '1. Tuez un {npc:210976}, puis utilisez le {item:209866} 
 L['thorn_saber_note'] = '1. Tuez un {npc:210975}, puis utilisez le {item:209867} sur le cadavre. Le sabre réapparaîtra sous la forme de {npc:210981} {npc:<Thornborn Spirit>}.\n\n2. Lancez le sort {spell:1515} sur lui.\n\n3. Trois teintes sont disponibles pour {npc:210981} : noir, vert et pâle.' -- review
 L['thorn_bear_note'] = '1. Tuez un {npc:210977}, puis utilisez le {item:209868} sur le cadavre. L\'ours réapparaîtra sous la forme d\'{npc:210988} {npc:<Thornborn Spirit>}.\n\n2. Lancez le sort {spell:1515} sur lui.\n\n3. Trois teintes sont disponibles pour {npc:210988} : marron, foncé et vert.' -- review
 
-L['nahqi_note'] = nil
+L['nahqi_note'] = 'La {item:211314} est nécessaire afin d\'utiliser {spell:1515} sur {npc:210908}, cet objet est obtenu grâce à la monture {item:210061}.\n\n{npc:210908} {npc:<Ember of Regrowth>} vole dans le ciel autour d\'{location:Amirdrassil} sur un trajet en {note:sens inverse des aiguilles d\'une montre}, prenant 17min et 30sec pour faire un tour complet. \nIl possède un temps de réapparition minimum de 30 minutes. \n\n{note:Il s\'agit d\'un {npc:Esprit de bête}. Seuls les Chasseurs Maîtrise des bêtes peuvent l\'apprivoiser}.' -- review
 
-L['sulraka_note'] = nil
+L['sulraka_note'] = '{npc:210868} {npc:<Fille de Kimbul>} patrouille dans la zone à l\'est d\'{location:Amirdrassil} sur un trajet en {note:sens inverse des aiguilles d\'une montre}, prenant 17 minutes pour compléter un tour. \nElle possède un temps de réapparition minimum de 30 minutes.\n\nElle laisse derrière elle des {object:Traces lourdes} en marchant, qui durent 3 minutes. \nElle se déplace toujours furtivement, vous devrez donc utiliser le sort {spell:1543} devant des {object:Traces lourdes} fraîchement apparues pour la révéler. \nUtilisez votre {spell:257284} et/ou un {spell:187650} et tentez d\'utiliser le sort {spell:1515}.\n\n{note:Il est important de la piéger ou de la révéler car {npc:210868} ne s\'arrêtera pas de bouger, même lorsqu\'elle est attaquée. Elle peut sortir de la portée du sort {spell:1543}, ce qui l\'annule.}\n\n{note:Il s\'agit d\'un {npc:Esprit de bête}. Seuls les Chasseurs Maîtrise des bêtes peuvent l\'apprivoiser}.' -- review
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
