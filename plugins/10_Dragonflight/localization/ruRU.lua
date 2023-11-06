@@ -955,6 +955,8 @@ L['options_icons_somnut_desc'] = nil
 L['improvised_leafbed_note'] = nil
 L['kalandu_note'] = nil
 
+L['renewed_dream'] = nil
+
 L['ochre_note'] = nil
 L['ochre_note_stage1'] = nil
 L['ochre_note_stage2'] = nil
@@ -980,6 +982,11 @@ L['ulfar_note_2'] = nil
 L['thorn_stag_note'] = nil
 L['thorn_saber_note'] = nil
 L['thorn_bear_note'] = nil
+
+L['nahqi_note'] = nil
+
+L['sulraka_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------

@@ -845,7 +845,7 @@ L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
 L['options_icons_emerald_dream_safari_desc'] = 'Display battle pet locations for the {achievement:19401} achievement.'
 
 L['envoy_of_winter_note'] = 'Gather {item:208881} and use {spell:421658} near the well until {npc:209929} spawns.'
-L['fruitface_note'] = 'Pick up {item:208837} from the ground to let {npc:209980} appear. Attack and follow him until he jumps in the water and summons {npc:209966} and the rare.'
+L['fruitface_note'] = 'Ask {dot:Pink} {npc:209950} to cast {spell:421446} on you, then {item:208837} on the ground become visiable. Pick them up to let {dot:Yellow} {npc:209980} appear. Attack and follow him until he jumps in the water {dot:Red} and summons {npc:209966} and {npc:209913}.'
 L['greedy_gessie_note'] = 'You need to collect {object:Wild Greens}, {object:Rubyscale Melon} and {object:Orangeroot} from the surrounding area and put them in the baskets near the {npc:210285s} to start the encounter.'
 L['nuoberon_note'] = 'Chase turtles, throw food at monkeys, or fight dream monsters to help {npc:209101} have a fun Dream!'
 L['reefbreaker_moruud_note'] = 'Connect all 6 of the nearby {npc:210089} to attack {npc:209898}.'
@@ -958,6 +958,8 @@ L['options_icons_somnut_desc'] = 'Display possible locations of {object:Somnuts}
 L['improvised_leafbed_note'] = 'Complete the quest chain beginning with {quest:77896} to receive the {item:210864} from {npc:210164}.'
 L['kalandu_note'] = 'Complete the quest chain beginning with {quest:77948} to receive {item:210633} from {npc:210196}.'
 
+L['renewed_dream'] = '{note:Here is not a treasure!}\n{item:201437} drops from all over {location:Emerald Dream}.\nCombine 5 {item:201437s} to restore a {item:201439}.'
+
 L['ochre_note'] = 'Talk to {npc:209253} to begin the quest line, {npc:209571} will offer the next stages.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:5 days to grow.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:5 days to grow.}'
@@ -984,6 +986,9 @@ L['thorn_stag_note'] = '1. Kill {npc:210976}, then use {item:209866} on the corp
 L['thorn_saber_note'] = '1. Kill {npc:210975}, then use {item:209867} on the corpse. The saber will respawn as {npc:210981} {npc:<Thornborn Spirit>}.\n\n2. Cast {spell:1515} on it.\n\n3. Three color are available for {npc:210981}: black, green, and pale.'
 L['thorn_bear_note'] = '1. Kill {npc:210977}, then use {item:209868} on the corpse. The bear will respawn as {npc:210988} {npc:<Thornborn Spirit>}.\n\n2. Cast {spell:1515} on it.\n\n3. Three color are available for {npc:210988}: brown, dark, and green.'
 
+L['nahqi_note'] = 'It requires the {item:211314} to use {spell:1515} with {npc:210908}, that is obtained from the mount {item:210061}.\n\n{npc:210908}{npc:<Ember of Regrowth>} flies in the sky around {location:Amirdrassil} in a {note:counter clockwise} route, taking 17:30 minutes to complete a lap. \nIt has a minimum respawn timer of 30 minutes. \n\n{note:It is a {npc:Spirit Beast}. Only Beast Mastery Hunters can tame it.}'
+
+L['sulraka_note'] = '{npc:210868}{npc:<Daughter of Kimbul>} patrols the area to the east of {location:Amirdrassil} in a {note:counter clockwise} route, taking 17 minutes to complete a lap. \nIt has a minimum respawn timer of 30 minutes.\n\nIt leaves behind {object:Heavy Tracks} while walking which lasts 3 minutes. \nWalks always in stealth, so you will need to use {spell:1543} in front of a freshly {object:Heavy Tracks} to reveal her. \nCast {spell:257284} and/or {spell:187650} and attempt to {spell:1515}.\n\n{note:It is important to trap it or to reveal her because {npc:210868} will not stop moving, even when attacked. Can get out of range of the {spell:1543} cancelling the skill.}\n\n{note:It is a {npc:Spirit Beast}. Only Beast Mastery Hunters can tame it.}'
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------

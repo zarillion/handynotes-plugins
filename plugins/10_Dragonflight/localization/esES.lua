@@ -958,6 +958,8 @@ L['options_icons_somnut_desc'] = 'Muestra dónden pueden estar los {object:Somnu
 L['improvised_leafbed_note'] = 'Completa la cadena de misiones comenzando con {quest:77896} para conseguir la {item:210864} de {npc:210164}.'
 L['kalandu_note'] = 'Completa la cadena de misiones comenzando con {quest:77948} para conseguir a {item:210633} de {npc:210196}.'
 
+L['renewed_dream'] = '{note:¡Esto no es un tesoro!}\n{item:201437} puede caer de cualquier enemigo en el {location:Sueño Esmeralda}.\nCombina 5 de ellos para restaurar un {item:201439}.'
+
 L['ochre_note'] = 'Habla con {npc:209253} para empezar la cadena de misiones. {npc:209571} te ofrecerá las siguientes fases.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:5 días para crecer.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:5 días para crecer.}'
@@ -983,6 +985,10 @@ L['ulfar_note_2'] = 'Una vez tengas el {item:209866} vuelve al {location:Sueño 
 L['thorn_stag_note'] = '1. Mata a {npc:210976}, y usa el {item:209866} en su cuerpo. El venado renacerá como {npc:210984} {npc:<Espíritu Nacido de las Espinas>}.\n\n2. Usa {spell:1515} en él.\n\n3. Hay tres colores disponibles para {npc:210984}: negro, marrón y verde.'
 L['thorn_saber_note'] = '1. Mata a {npc:210975}, y usa el {item:209867} en su cuerpo. El sable renacerá como {npc:210981} {npc:<Espíritu Nacido de las Espinas>}.\n\n2. Usa {spell:1515} en él.\n\n3. Hay tres colores disponibles para {npc:210981}: negro, verde y pálido.'
 L['thorn_bear_note'] = '1. Mata a {npc:210977}, y usa el {item:209868} en su cuerpo. El oso renacerá como {npc:210988} {npc:<Espíritu Nacido de las Espinas>}.\n\n2. Usa {spell:1515} en él.\n\n3. Hay tres colores disponibles para {npc:210988}: marrón, oscuro y verde.'
+
+L['nahqi_note'] = 'Requiere la {item:211314} para usar {spell:1515} con {npc:210908}, la cual se consigue de la montura {item:210061}.\n\n{npc:210908}{npc:<Ascua del Recrecimiento>} vuela por el cielo alrededor de {location:Amirdrassil} por una ruta {note:en sentido antihorario} que le lleva 17 minutos completarla. \nTras ello, reaparece como mínimo al cabo de 30 minutos. \n\n{note:Es una {npc:Bestia Espíritu}. Sólo pueden domarla los Cazadores Bestias.}'
+
+L['sulraka_note'] = '{npc:210868}{npc:<Hija de Kimbul>} patrulla el área al este de {location:Amirdrassil} por una ruta {note:en sentido antihorario} que le lleva 17 minutos completarla. \nTras ello, reaparece como mínimo al cabo de 30 minutos.\n\nPor donde pasa deja unas {object:Fuertes Pisadas} que duran 3 minutos. \nCamina siempre en sigilo por lo que para encontrarla tendrás que usar una {spell:1543} frente a una {object:Fuerte Pisada} fresca. \nUsa la {spell:257284} y/o {spell:187650} e intenta usar {spell:1515}.\n\n{note:Es importante atraparla o revelarla porque {npc:210868} no parará de moverse aunque la ataques. Puede salir fuera de rango de {spell:1543} cancelando la habilidad.}\n\n{note:Es una {npc:Bestia Espíritu}. Sólo pueden domarla los Cazadores Bestias.}'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------

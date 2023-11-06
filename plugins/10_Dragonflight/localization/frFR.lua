@@ -956,6 +956,8 @@ L['options_icons_somnut_desc'] = 'Afficher les emplacements possibles des {objec
 L['improvised_leafbed_note'] = 'Terminez la suite de quêtes commençant par {quest:77896} pour recevoir le {item:210864} de la part de {npc:210164}.'
 L['kalandu_note'] = 'Terminez la suite de quêtes commençant par {quest:77948} pour recevoir {item:210633} de la part de {npc:210196}.'
 
+L['renewed_dream'] = nil
+
 L['ochre_note'] = 'Parlez au {npc:209253} pour commencer la suite de la quête, le {npc:209571} vous indiquera les étapes suivantes.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:Prends 5 jours à pousser.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:Prends 5 jours à pousser.}'
@@ -981,6 +983,10 @@ L['ulfar_note_2'] = 'Après avoir obtenu le {item:209866}, retournez au {locatio
 L['thorn_stag_note'] = '1. Tuez un {npc:210976}, puis utilisez le {item:209866} sur le cadavre. Le cerf réapparaîtra sous la forme d\'{npc:210984} {npc:<Thornborn Spirit>}.\n\n2. Lancez le sort {spell:1515} sur lui.\n\n3. Trois teintes sont disponibles pour {npc:210984} : noir, marron et vert.' -- review
 L['thorn_saber_note'] = '1. Tuez un {npc:210975}, puis utilisez le {item:209867} sur le cadavre. Le sabre réapparaîtra sous la forme de {npc:210981} {npc:<Thornborn Spirit>}.\n\n2. Lancez le sort {spell:1515} sur lui.\n\n3. Trois teintes sont disponibles pour {npc:210981} : noir, vert et pâle.' -- review
 L['thorn_bear_note'] = '1. Tuez un {npc:210977}, puis utilisez le {item:209868} sur le cadavre. L\'ours réapparaîtra sous la forme d\'{npc:210988} {npc:<Thornborn Spirit>}.\n\n2. Lancez le sort {spell:1515} sur lui.\n\n3. Trois teintes sont disponibles pour {npc:210988} : marron, foncé et vert.' -- review
+
+L['nahqi_note'] = nil
+
+L['sulraka_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
