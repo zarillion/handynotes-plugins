@@ -878,7 +878,7 @@ local EmeraldBounty = Class('EmeraldBounty', Node, {
                 Achievement({id = 19198, criteria = {id = 1, qty = true}}), -- The Seeds I Sow
                 -- Currency({id = 2651, count = 20}), -- Seedbloom -- Spawned after the timer of the plant ran out, triggered hidden quest 77396 when looting
                 -- Spacer(),
-                Section(L['Dreamseed Cache']),
+                Section(L['dreamseed_cache']),
                 Mount({item = 210059, id = 1815}), -- Reins of the Winter Night Dreamsaber
                 DC.GrottoNetherwingDrake.HeadSpike, -- Gigantic Dreamseed by myself
                 DC.GrottoNetherwingDrake.OutcastPattern,
