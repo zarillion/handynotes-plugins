@@ -970,7 +970,10 @@ map.nodes[51265990] = Dreamfruit({
                 62923 -- Sack of Talontreats
                 -- 62924, -- Star Shower
                 -- 62925, -- The Superb Loom
-                -- 62926 -- Wake Up!
+                -- 62926, -- Wake Up!
+                -- 63414, -- Nae'dra Nibbles
+                -- 63415, -- Fae Lens
+                -- 63438-- Arachnid Annihilation
             }
         })
     }
@@ -999,7 +1002,10 @@ map.nodes[52847357] = Dreamfruit({
                 62923, -- Sack of Talontreats
                 62924, -- Star Shower
                 62925, -- The Superb Loom
-                62926 -- Wake Up!
+                62926, -- Wake Up!
+                -- 63414, -- Nae'dra Nibbles
+                63415, -- Fae Lens
+                63438-- Arachnid Annihilation
             }
         })
     }
