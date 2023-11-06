@@ -507,7 +507,6 @@ ns.DRAGON_CUSTOMIZATIONS = {
         BrewfestArmor = Item({item = 208742, quest = 77774}),
         BronzeAndPinkArmor = Item({item = 197353, quest = 69554}),
         BronzeScales = Item({item = 197391, quest = 69592}),
-        BruiserHorns = Item({item = 202277, quest = 99999}), -- TODO: Update quest
         BrownHair = Item({item = 197369, quest = 69570}),
         BruiserHorns = Item({item = 202277, quest = 73057}),
         ClubTail = Item({item = 197403, quest = 69604}),

@@ -92,7 +92,7 @@ ns.DRUID_GLYPHS = {
 local DG = ns.DRUID_GLYPHS
 
 local DruidSpacer = Class('DruidSpacer', Spacer, {
-    IsEnabled = function(self) return ns.class == 'DRUID' and true or false end
+    IsEnabled = function() return ns.class == 'DRUID' end
 })
 
 -------------------------------------------------------------------------------
