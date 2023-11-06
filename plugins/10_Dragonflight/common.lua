@@ -477,6 +477,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         BovineHorns = Item({item = 197377, quest = 69578}),
         BronzeAndPinkArmor = Item({item = 197353, quest = 69554}),
         BronzeScales = Item({item = 197391, quest = 69592}),
+        BruiserHorns = Item({item = 202277, quest = 99999}), -- TODO: Update quest
         BrownHair = Item({item = 197369, quest = 69570}),
         ClubTail = Item({item = 197403, quest = 69604}),
         CurledHorns = Item({item = 197375, quest = 69576}),
