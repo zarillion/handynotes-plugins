@@ -896,13 +896,8 @@ L['plush_pillow_note'] = 'Dentro de la choza pequeña y encima de una mesa.'
 L['snuggle_buddy_note'] = 'Dentro de un bote pequeño.'
 
 L['dreamseed_soil_label'] = 'Tierra con Semillas del Sueño'
-L['dreamseed_soil_note'] = nil
-L['dreamseed_cache'] = nil
--- L['dreamseed_soil_note'] = [[
--- Sólo puedes conseguir {currency:2651}, {item:210651} y cosméticos si contribuyes o plantas una Semilla del Sueño. La cantidad de {currency:2651} depende de la calidad de la semilla.
-
--- Si contribuyes con {currency:2650}, recibirás una pequeña cantidad de materiales de artesanía y {currency:2245}.
--- ]]
+L['dreamseed_soil_note'] = 'La contribución al progreso de {currency:2650}, determina la calidad de la {item:201467}.\nSu calidad afecta a la probabilidad de encontrar las {item:210059} en un {object:Alijo de semillas del Sueño}.\n{item:210224} (Al menos una vez)\n{item:210225} (Progreso: 50%)\n{item:210226} (Progreso: 100%)\n\nLa calidad de las {object:Semillas del Sueño} determina el tipo de recompensa.\n{item:208066}: Una transfiguración o materiales de fabricación.\n{item:208067}: Una mascota o materiales de fabricación.\n{item:208047}: Una montura o materiales de fabricación.'
+L['dreamseed_cache'] = 'Alijo de semillas del Sueño'
 
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Muestra dónde están las {object:Tierra con Semillas del Sueño} para el logro {achievement:19013}.'
