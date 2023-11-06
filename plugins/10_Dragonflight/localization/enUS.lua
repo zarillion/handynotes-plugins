@@ -896,7 +896,7 @@ L['plush_pillow_note'] = 'Inside the little hut on a table.'
 L['snuggle_buddy_note'] = 'Inside a small boat.'
 
 L['dreamseed_soil_label'] = 'Dreamseed Soil'
-L['dreamseed_soil_note'] = 'Contribution progress of {currency:2650}, determines the quality of Emerald Bloom。\nIts quality affects the probability of {item:210059} being found in {object:Dreamseed Cache}.\n{item:210224} (Once at least)\n{item:210225} (Progress: 50%)\n{item:210226} (Progress: 100%)\n\nQuality of Dreamseed defines what kind of reward.\n{item:208066}: A Transmog or crafting materials\n{item:208067}: A Pet or crafting materials\n{item:208047}: A Mount or crafting materials'
+L['dreamseed_soil_note'] = 'Contribution progress of {currency:2650}, determines the quality of {item:201467}.\nIts quality affects the probability of {item:210059} being found in {object:Dreamseed Cache}.\n{item:210224} (Once at least)\n{item:210225} (Progress: 50%)\n{item:210226} (Progress: 100%)\n\nQuality of {object:Dreamseed} defines the kind of reward.\n{item:208066}: A transmog or crafting materials.\n{item:208067}: A pet or crafting materials.\n{item:208047}: A mount or crafting materials.'
 L['dreamseed_cache'] = 'Dreamseed Cache'
 
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
