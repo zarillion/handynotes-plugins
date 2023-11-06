@@ -684,7 +684,7 @@ map.nodes[43105078] = Rare({
 
 map.nodes[34823454] = Rare({
     id = 201540,
-    vignette = 5570, -- Dreamsurge:5898
+    vignette = {5570, 5898},
     quest = 74546,
     rewards = {
         Transmog({item = 203674, slot = L['plate']}), -- Brutal Tramplers
@@ -695,7 +695,7 @@ map.nodes[34823454] = Rare({
 
 map.nodes[36803800] = Rare({
     id = 201535,
-    vignette = 5573, -- Dreamsurge:5895
+    vignette = {5573, 5895},
     quest = 74552,
     rewards = {
         Transmog({item = 203673, slot = L['dagger']}), -- Bloodbeak's Ravenor
@@ -708,7 +708,7 @@ map.nodes[36803800] = Rare({
 
 map.nodes[35804040] = Rare({
     id = 201537,
-    vignette = 5569, -- Dreamsurge:5896
+    vignette = {5569, 5896},
     quest = 74463,
     rewards = {
         Transmog({item = 203671, slot = L['cloak']}), -- Bloodbeak's Ravenor
@@ -719,7 +719,7 @@ map.nodes[35804040] = Rare({
 
 map.nodes[32614184] = Rare({
     id = 201539,
-    vignette = 5571, -- Dreamsurge:5899
+    vignette = {5571, 5899},
     quest = 74547,
     rewards = {
         Transmog({item = 203676, slot = L['cloth']}), -- Stormcaller's Grounding Shoes
@@ -731,7 +731,7 @@ map.nodes[32614184] = Rare({
 
 map.nodes[33843872] = Rare({
     id = 201538,
-    vignette = 5572, -- Dreamsurge:5897
+    vignette = {5572, 5897},
     quest = 74548,
     rewards = {
         Transmog({item = 203672, slot = L['mail']}), -- Master Huntmaster's Wristguards

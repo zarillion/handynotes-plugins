@@ -99,7 +99,7 @@ map.nodes[54517174] = Rare({
 
 map.nodes[28635882] = RareElite({
     id = 190986,
-    vignette = 5112, -- Dreamsurge:5900
+    vignette = {5112, 5900},
     quest = 74040,
     rewards = {
         Achievement({id = 16676, criteria = 56059}),
@@ -155,7 +155,7 @@ map.nodes[26847642] = RareElite({
 
 local CauldronbearerBlakor = Class('cauldronbearerblakor', RareElite, {
     id = 186783,
-    vignette = 5480, -- Dreamsurge:5901
+    vignette = {5480, 5901},
     quest = 74042,
     fgroup = 'cauldronbearerblakor',
     rewards = {
@@ -434,7 +434,7 @@ map.nodes[64676939] = Rare({
 
 map.nodes[24005896] = RareElite({
     id = 193232,
-    vignette = 5512, -- Dreamsurge:5904
+    vignette = {5512, 5904},
     quest = 74051,
     note = L['obsidian_throne_rare_note'],
     rewards = {
@@ -449,7 +449,7 @@ map.nodes[24005896] = RareElite({
 
 map.nodes[30736110] = RareElite({
     id = 187598,
-    vignette = 5513, -- Dreamsurge:5903
+    vignette = {5513, 5903},
     quest = 74052,
     rewards = {
         Achievement({id = 16676, criteria = 56057}),
@@ -598,8 +598,8 @@ map.nodes[45453540] = Rare({
 
 map.nodes[33525576] = RareElite({
     id = 187886,
-    vignette = 5109,
-    quest = 74054, -- Dreamsurge:5905
+    vignette = {5109, 5905},
+    quest = 74054,
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 16676, criteria = 56058}),

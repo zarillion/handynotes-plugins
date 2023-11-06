@@ -135,7 +135,7 @@ map.nodes[13432270] = Rare({
 
 map.nodes[14053096] = Rare({
     id = 197353,
-    vignette = 5414, -- Dreamsurge:5891
+    vignette = {5414, 5891},
     quest = 73985,
     fgroup = 'brackenhide',
     interval = ns.Intervals.BrackenhideInterval({id = 1}),
@@ -264,7 +264,7 @@ map.nodes[58264391] = Rare({
 
 map.nodes[14083747] = Rare({
     id = 197354,
-    vignette = 5415, -- Dreamsurge:5892
+    vignette = {5415, 5892},
     quest = 73996,
     fgroup = 'brackenhide',
     interval = ns.Intervals.BrackenhideInterval({id = 2}),
@@ -316,7 +316,7 @@ map.nodes[19234362] = Rare({
 
 map.nodes[16213364] = Rare({
     id = 197356,
-    vignette = 5416, -- Dreamsurge:5893
+    vignette = {5416, 5893},
     quest = 74004,
     fgroup = 'brackenhide',
     interval = ns.Intervals.BrackenhideInterval({id = 3}),
@@ -456,7 +456,7 @@ map.nodes[26494939] = Rare({
 
 map.nodes[10863229] = Rare({
     id = 197344,
-    vignette = 5413, -- Dreamsurge:5894
+    vignette = {5413, 5894},
     quest = 74032,
     fgroup = 'brackenhide',
     interval = ns.Intervals.BrackenhideInterval({id = 0}),

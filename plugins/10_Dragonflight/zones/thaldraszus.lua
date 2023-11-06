@@ -615,7 +615,7 @@ tpf.nodes[46884248] = Rare({
 -- Tyrhold (10.0.5)
 map.nodes[59766226] = Rare({
     id = 201550,
-    vignette = 5563, -- Dreamsurge:5880
+    vignette = {5563, 5880},
     quest = 74565,
     rewards = {
         Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
@@ -626,7 +626,7 @@ map.nodes[59766226] = Rare({
 
 map.nodes[59525659] = Rare({
     id = 201552,
-    vignette = 5562, -- Dreamsurge:5881
+    vignette = {5562, 5881},
     quest = 74566,
     rewards = {
         Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
@@ -638,7 +638,7 @@ map.nodes[59525659] = Rare({
 
 map.nodes[61736079] = Rare({
     id = 201549,
-    vignette = 5564, -- Dreamsurge:5879
+    vignette = {5564, 5879},
     quest = 74561,
     rewards = {
         Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
