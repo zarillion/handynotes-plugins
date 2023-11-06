@@ -865,7 +865,7 @@ L['envoy_of_winter_note'] = '收集{item:208881}，并在井附近使用{spell:4
 L['fruitface_note'] = '请求{dot:Pink}{npc:209950}对你施放{spell:421446}，以便让地上的{item:208837}显形。捡起果子使得{dot:Yellow}{npc:209980}现身。 攻击他，然后跟随他直至他跳入水中{dot:Red}并且召唤{npc:209966}和稀有{npc:209913}。'
 L['greedy_gessie_note'] = '为野餐收集{object:野生青菜}，{object:红玉之鳞甜瓜} 和{object:橙根}等原料，并将其放置在{npc:210285}们旁的篮子，以开启战斗。'
 L['nuoberon_note'] = '追逐乌龟{npc:209252}，拾取{object:美味的梦境大餐}对猴子{npc:209445}{spell:420253}，或与鳄鱼{npc:209456}搏斗，来帮助{npc:209101}做个有趣的梦！'
-L['reefbreaker_moruud_note'] = '收集附近全部6根{npc:210089}来攻击{npc:209898}。'
+L['reefbreaker_moruud_note'] = '利用附近全部6根{npc:210089}来牵制{npc:209898}。'
 L['surging_lasher_note'] = '当这片区域的{location:翡翠狂欢}事件激活时，会在此刷新。'
 
 L['in_a_tree'] = '在树上。'
@@ -896,17 +896,9 @@ L['plush_pillow_note'] = '小屋内的一张桌子上。'
 L['snuggle_buddy_note'] = '在一艘小船里。'
 
 L['dreamseed_soil_label'] = '梦境之种壤土'
-L['dreamseed_soil_note'] = [[
-    种植的梦境之种的品质，决定了幻梦奖赏的品质，可以开出相应数量的 {currency:2651}, 小宠物{item:210651}和"翡翠奖赏"配色幻化。
-{item:208066}结出{item:210217}
-{item:208067}结出{item:210218}
-{item:208047}结出{item:210219}
+L['dreamseed_soil_note'] = '{currency:2650} 的捐献进度, 决定了翡翠花蕾的品质。\n其品质影响{object:梦境之种宝箱}开出 {item:210059}的几率。\n{item:210224} (至少1次)\n{item:210225} (进度50%)\n{item:210226} (进度100%)\n\n梦境之种的品质决定了奖励的类型。\n{item:208066}: 专业材料 或 一件装饰品\n{item:208067}: 专业材料 或 一只宠物\n{item:208047}: 专业材料 或 一匹坐骑'
+L['dreamseed_cache'] = '梦境之种宝箱'
 
-    {currency:2650}的捐献进度, 决定了翡翠花蕾的品质，可以开出相应数量{currency:2245s}和专业材料。
-个人捐献1次(5个)，结算{item:210224}
-总进度达成50%，结算{item:210225}
-总进度达成100%，结算{item:210226}
-]]
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = '显示成就{achievement:19013}中{object:梦境之种壤土}的位置'
 
@@ -1009,9 +1001,9 @@ L['thorn_stag_note'] = '1. 杀死{npc:210976},对尸体使用{item:209866}。 �
 L['thorn_saber_note'] = '1. 杀死{npc:210975},对尸体使用{item:209867}。梦刃豹重生为{npc:210981}{npc:<荆生幽魂>}。\n\n2. 对其施放{spell:1515}。\n\n3. {npc:210981}有三种颜色(黑, 绿, 灰)。'
 L['thorn_bear_note'] = '1. 杀死{npc:210977},对尸体使用{item:209868}。鬃罴重生为{npc:210988}{npc:<荆生幽魂>}。\n\n2. 对其施放{spell:1515}。\n\n3. {npc:210988}有三种颜色(褐, 暗, 绿)。'
 
-L['nahqi_note'] = nil
+L['nahqi_note'] = '要对{npc:210908}施放{spell:1515}，需要{item:211314}。这来自于{item:210061}。\n\n{npc:210908}{npc:<愈合余烬>}围绕{location:阿梅达希尔}在高空{note:逆时针}绕圈缓慢飞翔，一圈下来耗时17:30。 \n它的刷新时间最少 30 分钟。 \n\n{note:这是只{npc:灵魂兽}。 只有兽王猎人能驯服。}'
 
-L['sulraka_note'] = nil
+L['sulraka_note'] = '{npc:210868}{npc:<吉布尔之女>}在{location:阿梅达希尔}东方以{note:逆时针}路线巡游， 大约17分钟绕一周。 \n它的刷新时间最少 30 分钟。\n\n当它行进时会在身后留下{object:笨重的踪迹}，持续3分钟。 \n由于一直潜行状态，你需要在一个刚刚刷新的{object:笨重的踪迹}前面使用{spell:1543}来让其显形。 \n先施放{spell:257284}和(或){spell:187650}，再尝试{spell:1515}。\n\n{note:注意：{npc:210868}即使受到攻击也不会停止前行，所以一定要使用陷阱或照明。否则{spell:1543}会在超距后取消施法。}\n\n{note:这是只{npc:灵魂兽}。 只有兽王猎人能驯服。}'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
