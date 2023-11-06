@@ -146,6 +146,22 @@ L['options_icons_frostbound_chest'] = 'Frostbound Chest'
 L['options_icons_frostbound_chest_desc'] = 'Display possible locations of {object:Frostbound Chests}.'
 
 L['fyrakk_assault_label'] = 'Fyrakk Assault'
+L['fyrakk_secured_shipment'] = 'Secured Shipment'
+
+L['shadowflame_forge_label'] = 'Shadowflame Forge'
+L['shadowflame_forge_note'] = 'Required when crafting this recipe:\n{spell:408282}'
+L['shadowflame_blacksmithing_anvil_label'] = 'Shadowflame Blacksmithing Anvil'
+L['shadowflame_blacksmithing_anvil_note'] = 'Required when crafting these recipes:\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
+L['shadowflame_leatherworking_table_label'] = 'Shadowflame Leatherworking Table'
+L['shadowflame_leatherworking_table_note'] = 'Required when crafting this recipe:\n{spell:406275}'
+L['shadowflame_incantation_table_label'] = 'Shadowflame Incantation Table'
+L['shadowflame_incantation_table_note'] = 'Required when crafting this recipe:\n{spell:405076}'
+L['azure_loom_label'] = 'Azure Loom'
+L['azure_loom_note'] = 'Required when crafting this recipe:\n{spell:376556}'
+L['temporal_loom_label'] = 'Temporal Loom'
+L['temporal_loom_note'] = 'Required when crafting this recipe:\n{spell:376557}'
+L['earthwarders_forge_label'] = 'The Earth-Warder\'s Forge'
+L['earthwarders_forge_note'] = 'Required when crafting this recipe:\n{spell:367713}'
 
 L['dreamsurge_sublabel'] = '{note:Only available while a {location:Dreamsurge} is active in this zone.}'
 L['celestine_vendor_note'] = 'Exchange {item:207026} for a mount, toys, pets, and transmog.'
@@ -800,6 +816,7 @@ L['options_icons_ritual_offering_desc'] = 'Display possible locations of {object
 L['nal_kskol_reliquary_label'] = 'Nal ks\'kol Reliquary'
 L['nal_kskol_reliquary_note'] = 'Use the {object:Reliquary Access Console} and solve the puzzle to open the {object:Nal ks\'kol Reliquary}.'
 
+L['busted_wyrmhole_generator_note'] = '{item:205954} also looted from {object:Busted Wyrmhole Generator}.\n On use to unlock {location:Zaralek Cavern} wormhole option for {item:198156}.'
 L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.'
 L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'
 

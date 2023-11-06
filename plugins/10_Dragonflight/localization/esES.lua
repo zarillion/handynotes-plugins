@@ -146,6 +146,22 @@ L['options_icons_frostbound_chest'] = 'Cofre Ligado a la Escarcha'
 L['options_icons_frostbound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Ligado a la Escarcha}.'
 
 L['fyrakk_assault_label'] = 'Asalto de Fyrakk'
+L['fyrakk_secured_shipment'] = 'Envío Seguro'
+
+L['shadowflame_forge_label'] = 'Forja Pirosombra'
+L['shadowflame_forge_note'] = 'Requerida para crear esta receta:\n{spell:408282}'
+L['shadowflame_blacksmithing_anvil_label'] = 'Yunque de Herrería Pirosombra'
+L['shadowflame_blacksmithing_anvil_note'] = 'Requerido para crear estas recetas:\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
+L['shadowflame_leatherworking_table_label'] = 'Mesa de Peletería Pirosombra'
+L['shadowflame_leatherworking_table_note'] = 'Requerida para crear esta receta:\n{spell:406275}'
+L['shadowflame_incantation_table_label'] = 'Mesa de Encantamiento Pirosombra'
+L['shadowflame_incantation_table_note'] = 'Requerida para crear esta receta:\n{spell:405076}'
+L['azure_loom_label'] = 'Telar Azur'
+L['azure_loom_note'] = 'Requerido para crear esta receta:\n{spell:376556}'
+L['temporal_loom_label'] = 'Telar Temporal'
+L['temporal_loom_note'] = 'Requerido para crear esta receta:\n{spell:376557}'
+L['earthwarders_forge_label'] = 'Forja del Guardián de la Tierra'
+L['earthwarders_forge_note'] = 'Requerida para crear esta receta:\n{spell:367713}'
 
 L['dreamsurge_sublabel'] = '{note:Sólo está disponible cuando {location:Pico Onírico} está activo en esta zona.}'
 L['celestine_vendor_note'] = 'Cambia {item:207026} por una montura, juguetes, mascotas, y transfiguraciones.'
@@ -800,6 +816,7 @@ L['options_icons_ritual_offering_desc'] = 'Muestra dónde pueden haber {object:O
 L['nal_kskol_reliquary_label'] = 'Relicario de Nal ks\'kol'
 L['nal_kskol_reliquary_note'] = 'Usa la {object:Consola de Acceso al Relicario} y resuelve el puzzle para abrir el {object:Relicario de Nal ks\'kol}.'
 
+L['busted_wyrmhole_generator_note'] = 'La {item:205954} puede despojarse del {object:Generador de Agujeros de Vermis Destrozado}.\n Al usarla, desbloquearás en el generador de gusanos la opción {location:Caverna Zaralek} para el {item:198156}.'
 L['molten_scoutbot_note'] = 'Abre el {object:Explorabot de magma} y despoja el {item:204850}.'
 L['bolts_and_brass_note'] = 'Abre los {object:Tornillos y Latón} y despoja los {item:204850}.'
 

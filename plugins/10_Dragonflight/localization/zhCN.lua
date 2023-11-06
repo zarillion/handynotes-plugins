@@ -146,6 +146,22 @@ L['options_icons_frostbound_chest'] = '霜缚宝箱'
 L['options_icons_frostbound_chest_desc'] = '显示 {object:霜缚宝箱} 可能的位置。'
 
 L['fyrakk_assault_label'] = '菲莱克突袭'
+L['fyrakk_secured_shipment'] = '夺得的货物'
+
+L['shadowflame_forge_label'] = '暗影烈焰熔炉'
+L['shadowflame_forge_note'] = '制作如下配方时需要:\n{spell:408282}'
+L['shadowflame_blacksmithing_anvil_label'] = '暗影烈焰锻造铁砧'
+L['shadowflame_blacksmithing_anvil_note'] = '制作如下配方时需要:\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
+L['shadowflame_leatherworking_table_label'] = '暗影烈焰制皮桌'
+L['shadowflame_leatherworking_table_note'] = '制作如下配方时需要:\n{spell:406275}'
+L['shadowflame_incantation_table_label'] = '暗影烈焰法咒桌'
+L['shadowflame_incantation_table_note'] = '制作如下配方时需要:\n{spell:405076}'
+L['azure_loom_label'] = '碧蓝织布机'
+L['azure_loom_note'] = '制作如下配方时需要:\n{spell:376556}'
+L['temporal_loom_label'] = '时光织布机'
+L['temporal_loom_note'] = '制作如下配方时需要:\n{spell:376557}'
+L['earthwarders_forge_label'] = '大地守护者的熔炉'
+L['earthwarders_forge_note'] = '制作如下配方时需要:\n{spell:367713}'
 
 L['dreamsurge_sublabel'] = '{note:只在 {location:梦涌} 在此区域处于活动状态时可用。}'
 L['celestine_vendor_note'] = '用 {item:207026} 兑换坐骑，玩具，宠物和幻化装备。'
@@ -800,6 +816,7 @@ L['options_icons_ritual_offering_desc'] = '显示 {object:仪式供品} 可能�
 L['nal_kskol_reliquary_label'] = '纳·克斯寇圣物匣'
 L['nal_kskol_reliquary_note'] = '使用 {object:圣物匣开启控制台} 并解开拼图以打开 {object:纳·克斯寇圣物匣}。'
 
+L['busted_wyrmhole_generator_note'] = '从{object:坏掉的龙洞发生器}一起拾取的{item:205954}。\n使用后为{item:198156}解锁{location:查拉雷克洞窟}的虫洞选项。'
 L['molten_scoutbot_note'] = '打开 {object:熔火斥候机器人} 并拾取 {item:204855}.'
 L['bolts_and_brass_note'] = '打开 {object:螺栓和黄铜} 并拾取 {item:204850}。'
 
