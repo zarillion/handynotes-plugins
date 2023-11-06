@@ -95,7 +95,6 @@ L['elemental_storm_snowstorm'] = 'Schneesturm'
 
 L['elemental_storm_brakenhide_hollow'] = 'Brackenfellhöhle'
 L['elemental_storm_cobalt_assembly'] = 'Kobaltkonvent'
-L['elemental_storm_dragonbane_keep'] = 'Drachenfluchfestung'
 L['elemental_storm_imbu'] = 'Imbu'
 L['elemental_storm_nokhudon_hold'] = 'Festung Nokhudon'
 L['elemental_storm_ohniri_springs'] = 'Quellen von Ohn\'iri'

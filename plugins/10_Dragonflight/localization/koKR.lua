@@ -95,7 +95,6 @@ L['elemental_storm_snowstorm'] = nil
 
 L['elemental_storm_brakenhide_hollow'] = nil
 L['elemental_storm_cobalt_assembly'] = nil
-L['elemental_storm_dragonbane_keep'] = nil
 L['elemental_storm_imbu'] = nil
 L['elemental_storm_nokhudon_hold'] = nil
 L['elemental_storm_ohniri_springs'] = nil

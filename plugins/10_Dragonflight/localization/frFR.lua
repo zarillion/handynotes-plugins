@@ -96,7 +96,6 @@ L['elemental_storm_snowstorm'] = 'Tempêtes de neige'
 
 L['elemental_storm_brakenhide_hollow'] = 'Creux des Fougerobes'
 L['elemental_storm_cobalt_assembly'] = 'Assemblée de Cobalt'
-L['elemental_storm_dragonbane_keep'] = 'Donjon du Fléau-des-Dragons'
 L['elemental_storm_imbu'] = 'Imbou'
 L['elemental_storm_nokhudon_hold'] = 'Bastion Nokhudon'
 L['elemental_storm_ohniri_springs'] = 'Sources des Ohn’irs'

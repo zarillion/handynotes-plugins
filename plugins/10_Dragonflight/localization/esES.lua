@@ -95,7 +95,6 @@ L['elemental_storm_snowstorm'] = 'Tormenta de Nieve'
 
 L['elemental_storm_brakenhide_hollow'] = 'Hondonada Frondacuero'
 L['elemental_storm_cobalt_assembly'] = 'Galería Cobalto'
-L['elemental_storm_dragonbane_keep'] = 'Fortaleza de Ruinadragón'
 L['elemental_storm_imbu'] = 'Imbu'
 L['elemental_storm_nokhudon_hold'] = 'Bastión Nokhudon'
 L['elemental_storm_ohniri_springs'] = 'Manantiales Ohn\'iri'

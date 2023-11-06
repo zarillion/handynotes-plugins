@@ -96,7 +96,6 @@ L['elemental_storm_snowstorm'] = 'Снежная буря'
 
 L['elemental_storm_brakenhide_hollow'] = 'Лощина Бурошкуров'
 L['elemental_storm_cobalt_assembly'] = 'Кобальтовая ассамблея'
-L['elemental_storm_dragonbane_keep'] = 'Драконья Погибель'
 L['elemental_storm_imbu'] = 'Имбу'
 L['elemental_storm_nokhudon_hold'] = 'Аванпост Нокхуд'
 L['elemental_storm_ohniri_springs'] = 'Ключи Он\'ир'

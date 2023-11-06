@@ -95,7 +95,6 @@ L['elemental_storm_snowstorm'] = '雪暴'
 
 L['elemental_storm_brakenhide_hollow'] = '蕨皮山谷'
 L['elemental_storm_cobalt_assembly'] = '钴蓝集所'
-L['elemental_storm_dragonbane_keep'] = '灭龙要塞'
 L['elemental_storm_imbu'] = '伊姆布'
 L['elemental_storm_nokhudon_hold'] = '诺库顿要塞'
 L['elemental_storm_ohniri_springs'] = '欧恩伊尔清泉'

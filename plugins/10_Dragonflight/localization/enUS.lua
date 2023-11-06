@@ -95,7 +95,6 @@ L['elemental_storm_snowstorm'] = 'Snowstorm'
 
 L['elemental_storm_brakenhide_hollow'] = 'Brackenhide Hollow'
 L['elemental_storm_cobalt_assembly'] = 'Cobalt Assembly'
-L['elemental_storm_dragonbane_keep'] = 'Dragonbane Keep'
 L['elemental_storm_imbu'] = 'Imbu'
 L['elemental_storm_nokhudon_hold'] = 'Nokhudon Hold'
 L['elemental_storm_ohniri_springs'] = 'Ohn\'iri Springs'
