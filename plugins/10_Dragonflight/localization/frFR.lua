@@ -146,22 +146,22 @@ L['options_icons_frostbound_chest'] = 'Coffre lié par le givre'
 L['options_icons_frostbound_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres liés par le givre}.'
 
 L['fyrakk_assault_label'] = 'Assaut de Fyrakka'
-L['fyrakk_secured_shipment'] = nil
+L['fyrakk_secured_shipment'] = 'Cargaison sécurisée'
 
-L['shadowflame_forge_label'] = nil
-L['shadowflame_forge_note'] = nil
-L['shadowflame_blacksmithing_anvil_label'] = nil
-L['shadowflame_blacksmithing_anvil_note'] = nil
-L['shadowflame_leatherworking_table_label'] = nil
-L['shadowflame_leatherworking_table_note'] = nil
-L['shadowflame_incantation_table_label'] = nil
-L['shadowflame_incantation_table_note'] = nil
-L['azure_loom_label'] = nil
-L['azure_loom_note'] = nil
-L['temporal_loom_label'] = nil
-L['temporal_loom_note'] = nil
-L['earthwarders_forge_label'] = nil
-L['earthwarders_forge_note'] = nil
+L['shadowflame_forge_label'] = 'Forge d\'ombreflamme'
+L['shadowflame_forge_note'] = 'Requis pour la fabrication de la recette :\n{spell:408282}'
+L['shadowflame_blacksmithing_anvil_label'] = 'Enclume d’ombreflamme'
+L['shadowflame_blacksmithing_anvil_note'] = 'Requis pour la fabrication des recettes :\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
+L['shadowflame_leatherworking_table_label'] = 'Table de travail du cuir d’ombreflamme'
+L['shadowflame_leatherworking_table_note'] = 'Requis pour la fabrication de la recette :\n{spell:406275}'
+L['shadowflame_incantation_table_label'] = 'Table d’incantation d’ombreflamme'
+L['shadowflame_incantation_table_note'] = 'Requis pour la fabrication de la recette :\n{spell:405076}'
+L['azure_loom_label'] = 'Métier à tisser d’azur'
+L['azure_loom_note'] = 'Requis pour la fabrication de la recette :\n{spell:376556}'
+L['temporal_loom_label'] = 'Métier à tisser temporel'
+L['temporal_loom_note'] = 'Requis pour la fabrication de la recette :\n{spell:376557}'
+L['earthwarders_forge_label'] = 'Forge du Gardeterre'
+L['earthwarders_forge_note'] = 'Requis pour la fabrication de la recette :\n{spell:367713}'
 
 L['dreamsurge_sublabel'] = '{note:Uniquement disponible lorsqu\'un événement de {location:Poussée onirique} est actif dans cette zone.}'
 L['celestine_vendor_note'] = 'Échangez vos {item:207026} contre une monture, des jouets, des mascottes et des objets de transmogrification.'
@@ -813,7 +813,7 @@ L['options_icons_ritual_offering_desc'] = 'Afficher les emplacements possibles d
 L['nal_kskol_reliquary_label'] = 'Reliquaire de Nak Ks\'sol'
 L['nal_kskol_reliquary_note'] = 'Utilisez la {object:Console d\'accès au reliquaire} et résolvez l\'énigme pour ouvrir le {object:Reliquaire de Nak Ks\'sol}.'
 
-L['busted_wyrmhole_generator_note'] = nil
+L['busted_wyrmhole_generator_note'] = 'La {item:205954} peut aussi être récupérée sur le {object:Générateur de trou de wyrm cassé}.\n Utilisez-la pour débloquer l\'option de trou de wyrm vers la {location:Grotte de Zaralek} au sein du {item:198156}.'
 L['molten_scoutbot_note'] = 'Examinez l\'{object:Explorobot fondu} et récupérez le {item:204855}.'
 L['bolts_and_brass_note'] = 'Examinez les {object:Boulons et cuivre} et récupérez la {item:204850}.'
 
