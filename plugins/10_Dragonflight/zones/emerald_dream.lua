@@ -91,6 +91,10 @@ ns.DRUID_GLYPHS = {
 
 local DG = ns.DRUID_GLYPHS
 
+local DruidSpacer = Class('DruidSpacer', Spacer, {
+    IsEnabled = function(self) return ns.class == 'DRUID' and true or false end
+})
+
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
@@ -100,7 +104,6 @@ map.nodes[51253128] = Rare({
     quest = 77942,
     rewards = {
         Achievement({id = 19316, criteria = 62945}), -- Adventurer of the Emerald Dream
-        -- Item({item = 201437}), -- Slumbering Dream Fragment
         DC.WindingSlitherdrake.HairyChin
     }
 }) -- Bloodstripe Great Ray
@@ -112,9 +115,8 @@ map.nodes[64178399] = Rare({
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62931}), -- Adventurer of the Emerald Dream
-        -- Currency({id = 2652, type = '+25'}), -- Dream Wardens Reputation
-        -- Item({item = 211303}), -- Dryad's Supply Pouch +25 rep
-        Transmog({item = 208327, slot = L['leather']}) -- Maruud's Piercing Hands
+        Transmog({item = 208327, slot = L['leather']}), -- Maruud's Piercing Hands
+        Item({item = 211303}) -- Dryad's Supply Pouch
     }
 }) -- Reefbreaker Moruud
 
@@ -134,9 +136,8 @@ map.nodes[34716316] = Rare({
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62933}), -- Adventurer of the Emerald Dream
-        -- Currency({id = 2652, type = '+25'}), -- Dream Wardens Reputation
-        -- Item({item = 211303}), -- Dryad's Supply Pouch +25 rep
-        Transmog({item = 208340, slot = L['cloth']}) -- Stag's Flourishing Mantle
+        Transmog({item = 208340, slot = L['cloth']}), -- Stag's Flourishing Mantle
+        Item({item = 211303}) -- Dryad's Supply Pouch
     }
 }) -- Envoy of Winter
 
@@ -175,16 +176,14 @@ bor.nodes[54153685] = Rare({
 map.nodes[54034142] = Rare({
     id = 209936,
     quest = 77982,
-    vignette = 5817, -- become 5969 when active
+    vignette = {5817, 5969},
     note = L['greedy_gessie_note'],
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62932}), -- Adventurer of the Emerald Dream
-        -- Currency({id = 2652, type = '+25'}), -- Dream Wardens Reputation
-        -- Item({item = 211303}), -- Dryad's Supply Pouch +25 rep
         Transmog({item = 210094, slot = L['plate']}), -- Harvest Guardian Legplates
-        Item({item = 208355, type = L['neck']}) -- String of Delicacies
-        -- Item({item = 201437}) -- Slumbering Dream Fragment
+        Item({item = 208355, type = L['neck']}), -- String of Delicacies
+        Item({item = 211303}) -- Dryad's Supply Pouch
     }
 }) -- Greedy Gessie
 
@@ -195,7 +194,6 @@ map.nodes[47062974] = Rare({
     rewards = {
         Achievement({id = 19316, criteria = 62950}), -- Adventurer of the Emerald Dream
         Transmog({item = 208357, slot = L['cloak']}) -- Henri's Warm Coat
-        -- Item({item = 201437}) -- Slumbering Dream Fragment
     }
 }) -- Henri Snufftail
 
@@ -235,7 +233,7 @@ map.nodes[41107328] = Rare({
     quest = 78213,
     location = L['in_small_cave'],
     rewards = {
-        Achievement({id = 19316, criteria = 62946}), -- Adventurer of the Emerald Dream / BUG: Has now the same CriteriaID (62944) as Somnambulant Ori
+        Achievement({id = 19316, criteria = 62946}), -- Adventurer of the Emerald Dream - TODO: Shares criteriaID with Somnambulant Ori
         DG.Travel.DreamtalonMatriarch -- Mark of the Dreamtalon Matriarch
     }
 }) -- Matriarch Keevah
@@ -263,7 +261,6 @@ map.nodes[40467258] = Rare({
     rewards = {
         Achievement({id = 19316, criteria = 62942}), -- Adventurer of the Emerald Dream
         DG.Guardian.VerdantBristlebruin -- Mark of the Verdant Bristlebruin
-        -- Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {POI({38817158})} -- Entrance
 }) -- Moragh the Slothful
@@ -285,9 +282,8 @@ map.nodes[61747187] = Rare({
     vignette = 5786,
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
-        Achievement({id = 19316, criteria = 62929}) -- Adventurer of the Emerald Dream
-        -- Currency({id = 2652, type = '+25'}), -- Dream Wardens Reputation
-        -- Item({item = 211303}) -- Dryad's Supply Pouch +25 rep
+        Achievement({id = 19316, criteria = 62929}), -- Adventurer of the Emerald Dream
+        Item({item = 211303}) -- Dryad's Supply Pouch
     }
 }) -- Nuoberon
 
@@ -299,7 +295,6 @@ map.nodes[44473929] = Rare({
         Achievement({id = 19316, criteria = 62951}), -- Adventurer of the Emerald Dream
         Transmog({item = 208322, slot = L['plate']}), -- Treads of the Nightclaw
         DG.Travel.SableDreamtalon -- Mark of the Sable Dreamtalon
-        -- Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {
         POI({44923692, 44293595}) -- Entrance
@@ -313,7 +308,6 @@ map.nodes[43484697] = Rare({
         Achievement({id = 19316, criteria = 62944}), -- Adventurer of the Emerald Dream
         Transmog({item = 208381, slot = L['1h_mace']}), -- Scepter of Still Waters
         Transmog({item = 210132, slot = L['2h_sword']}) -- Wildleaf Greatsword
-        -- Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {
         Path({
@@ -377,7 +371,6 @@ map.nodes[38436213] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 64492}) -- Adventurer of the Emerald Dream
-        -- Item({item = 201437}) -- Slumbering Dream Fragment
     },
     pois = {POI({38176157})} -- Entrance
 }) -- Voracious Mikanji
@@ -413,7 +406,6 @@ map.nodes[47493485] = Treasure({
     rlabel = ns.status.LightBlue('+200 ' .. L['rep']),
     rewards = {
         Achievement({id = 19317, criteria = 62953}), -- Treasures of The Emerald Dream
-        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Toy({item = 210725}) -- Owl Post
     }
 }) -- Hidden Moonkin Stash
@@ -425,7 +417,6 @@ map.nodes[61625960] = Treasure({
     rewards = {
         Achievement({id = 19317, criteria = 62960}), -- Treasures of The Emerald Dream
         Item({item = 208047}), -- Gigantic Dreamseed
-        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Currency({id = 2245, type = '20'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     },
@@ -439,7 +430,6 @@ map.nodes[55275726] = Treasure({
     rewards = {
         Achievement({id = 19317, criteria = 62961}), -- Treasures of The Emerald Dream
         Item({item = 208067}), -- Plump Dreamseed
-        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Currency({id = 2245, type = '20'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     }
@@ -483,7 +473,7 @@ map.nodes[64231928] = Treasure({
 }) -- Reliquary of Aviana
 
 map.nodes[32938325] = Treasure({
-    quest = 78361, -- 78368 trigged for Wyldclaw?
+    quest = 78361,
     location = L['in_small_cave'],
     note = L['reliquary_of_goldrinn_note'],
     rewards = {
@@ -529,8 +519,9 @@ map.nodes[29275803] = Treasure({
     rewards = {
         Item({item = 208066}), -- Small Dreamseed
         Item({item = 208067}), -- Plump Dreamseed
-        DC.GrottoNetherwingDrake.TripleSpikedCrest,
-        DC.GrottoNetherwingDrake.ShortHorns, DC.GrottoNetherwingDrake.BarbedTail
+        DC.GrottoNetherwingDrake.TripleSpikedCrest, --
+        DC.GrottoNetherwingDrake.ShortHorns, --
+        DC.GrottoNetherwingDrake.BarbedTail
     }
 }) -- Renewed Dream
 
@@ -538,34 +529,25 @@ map.nodes[29275803] = Treasure({
 
 map.nodes[49816171] = Treasure({
     icon = 133741,
-    scale = 1.0,
     quest = 78831,
     label = '{item:210049}',
     note = L['inside_building'],
-    rewards = {
-        Item({item = 210049}) -- The Legend of Elun'Ahir
-    }
+    rewards = {Item({item = 210049})} -- The Legend of Elun'Ahir
 }) -- The Legend of Elun'Ahir
 
 map.nodes[54462464] = Treasure({
     icon = 133741,
-    scale = 1.0,
     quest = 78833,
     label = '{item:208649}',
-    rewards = {
-        Item({item = 208649}) -- On the Nature of the Dream
-    }
+    rewards = {Item({item = 208649})} -- On the Nature of the Dream
 }) -- On the Nature of the Dream
 
 map.nodes[53712395] = Treasure({
     icon = 133741,
-    scale = 1.0,
     quest = 78835,
     label = '{item:208619}',
     note = L['inside_building'],
-    rewards = {
-        Item({item = 208619}) -- The Tragedy of Erinethria
-    }
+    rewards = {Item({item = 208619})} -- The Tragedy of Erinethria
 }) -- The Tragedy of Erinethria
 
 -------------------------------------------------------------------------------
@@ -582,7 +564,6 @@ map.nodes[46408615] = UnwakingEcho({
     quest = 78552,
     rewards = {
         Transmog({item = 210682, slot = L['cosmetic']}), -- Camper's Knife
-        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Currency({id = 2245, type = '~21'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     }
@@ -592,7 +573,6 @@ map.nodes[55672258] = UnwakingEcho({
     quest = 78547,
     rewards = {
         Transmog({item = 210675, slot = L['cosmetic']}), -- Gardener's Lightstaff
-        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Currency({id = 2245, type = '~21'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     }
@@ -603,7 +583,6 @@ map.nodes[55324538] = UnwakingEcho({
     location = L['in_small_cave'],
     rewards = {
         Transmog({item = 210678, slot = L['cosmetic']}), -- Verdant Glearner's Scythe
-        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Currency({id = 2245, type = '~21'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     },
@@ -615,7 +594,6 @@ map.nodes[69575284] = UnwakingEcho({
     location = L['inside_building'],
     rewards = {
         Transmog({item = 210686, slot = L['shield']}), -- Grovekeeper's Barrier
-        -- Currency({id = 2652, type = '200'}), -- Dream Wardens Reputation
         Currency({id = 2245, type = '~21'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     }
@@ -854,7 +832,6 @@ local EmeraldBounty = Class('EmeraldBounty', Node, {
     requires = {
         ns.requirement.Item(208066) -- Small Dreamseed
     },
-    -- vignette = 5971, -- too long tooltip for vignette
     icon = 464030,
     group = ns.groups.DREAM_OF_SEEDS,
     getters = {
@@ -912,10 +889,6 @@ map.nodes[63035284] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling
 map.nodes[63504710] = EmeraldBounty({criteriaID = 62032}) -- Fuzzy Licorice
 map.nodes[63966484] = EmeraldBounty({criteriaID = 62030}) -- Dragon's Daffodil
 
--------------------------------------------------------------------------------
----------------------------- VignettePinMixin Hook ----------------------------
--------------------------------------------------------------------------------
-
 hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
     if self.vignetteID ~= 5971 then return end
 
@@ -938,28 +911,27 @@ hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
     GameTooltip:Show()
 end)
 
---------------------------------- SUPER BLOOM ----------------------------------
+-------------------------------------------------------------------------------
+--------------------------------- SUPER BLOOM ---------------------------------
+-------------------------------------------------------------------------------
 
 map.nodes[51555972] = Collectible({
     icon = 3939983,
-    label = "{quest:78319}",
-    vignette=5813,
+    label = '{quest:78319}',
+    vignette = 5813,
+    rlabel = ns.status.LightBlue('+50' .. L['rep']),
     rewards = {
-        Spacer(),
-        Section(PVP_PROGRESS_REWARDS_HEADER..':2300/8000'),
-        Item({item = 211411}),
-        Currency({id = 2650}),
-        Spacer(),
-        Section(PVP_PROGRESS_REWARDS_HEADER..':5600/8000'),
-        Item({item = 211413}),
-        DC.GrottoNetherwingDrake.SingleHornedCrest,
-        Spacer(),
-        Section(PVP_PROGRESS_REWARDS_HEADER..':8000/8000'),
-        Item({item = 211414}),
+        Section(PVP_PROGRESS_REWARDS_HEADER .. ': 2300/8000'),
+        Item({item = 211411}), -- Sprouting Dreamtrove
+        Currency({id = 2650}), -- Emerald Dewdrop
+        Spacer(), --
+        Section(PVP_PROGRESS_REWARDS_HEADER .. ': 5600/8000'),
+        Item({item = 211413}), -- Budding Dreamtrove
+        DC.GrottoNetherwingDrake.SingleHornedCrest, Spacer(), --
+        Section(PVP_PROGRESS_REWARDS_HEADER .. ': 8000/8000'),
+        Item({item = 211414}), -- Blossoming Dreamtrove
         Item({item = 208047}), -- Gigantic Dreamseed
-        Spacer(),
-        Currency({id = 2652, type = '+50'}), -- Dream Wardens Reputation
-        Currency({id = 2245}), -- Flightstones
+        Spacer(), Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
 })
@@ -1291,10 +1263,10 @@ map.nodes[54922542] = MoonBlessedClaw({
     pois = {POI({41566694}), Path({41566694, 54922542})}
 }) -- Small Box of Vials
 
-map.nodes[41566694] = MoonBlessedClaw({
+map.nodes[41756694] = MoonBlessedClaw({
     label = L['mbc_feral_dreamstone_label'],
     pois = {POI({54922542}), Path({54922542, 41566694})}
-}) -- Feral Moonstone 41756695
+}) -- Feral Moonstone
 
 for num, vial in ipairs(EMPTY_VIALS) do
     local e = vial.vialEmptyID
@@ -1344,7 +1316,7 @@ local Somnut = Class('Somnut', Node, {
         Currency({id = 2003, type = '~35'}), -- Dragon Isles Supplies
         DC.WindingSlitherdrake.SpikedHorns, --
         DC.WindingSlitherdrake.SpikedTail, --
-        DC.WindingSlitherdrake.SmallSpikedCrest -- typo
+        DC.WindingSlitherdrake.SmallSpikedCrest --
     }
 })
 
@@ -1482,7 +1454,7 @@ map.nodes[43994990] = ElusiveCreature({
         Item({item = 193211}), -- Resilient Leather
         Item({item = 210687}) -- Ironfur Sample
     },
-    pois = ({Path({ns.poi.Circle({origin = 43994990, radius = 3})})})
+    pois = ({Path({Circle({origin = 43994990, radius = 3})})})
 }) -- Elusive Blooming Brierhide
 
 map.nodes[58434177] = ElusiveCreature({
@@ -1493,37 +1465,46 @@ map.nodes[58434177] = ElusiveCreature({
         Item({item = 193211}), -- Resilient Leather
         Item({item = 210456}) -- Dreaming Antler Fragment
     },
-    pois = ({Path({ns.poi.Circle({origin = 58434177, radius = 3})})})
+    pois = ({Path({Circle({origin = 58434177, radius = 3})})})
 }) -- Elusive Verdant Gladewarden
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[59761689] = NPC(
-    { -- REVIEW count --another vendor Talisa Whisperbloom 212797 at camp 2200:49776211
-        id = 211265,
-        icon = 'peg_bl',
-        scale = 2.0,
-        note = L['sylvia_vendor_note'],
-        rewards = {
-            Pet({item = 210690, id = 4306, count = '800'}), -- Elmer
-            Pet({item = 210689, id = 4305, count = '800'}), -- Snoots
-            Pet({item = 210571, id = 4296, count = '800'}), -- Snoozles
-            Pet({item = 210570, id = 4295, count = '800'}), -- Napps
-            Pet({item = 210651, id = 4299, count = '800'}), -- Dustite
-            Pet({item = 210648, id = 4298, count = '800'}), -- Seedle
-            DG.Travel.BorealDreamtalon:Count(1250),
-            DG.Travel.AuroralDreamtalon:Count(1250),
-            DG.Guardian.SnowyUmbraclaw:Count(1250)
-            -- Mount({item = 209950, id = 1810, count = '2500'}), -- Reins of the Rekindled Dreamstag
-            -- Mount({item = 209947, id = 1808, count = '2500'}), -- Reins of the Blossoming Dreamstag
-            -- Mount({item = 210775, id = 1835, count = '2500'}), -- Reins of the Snowfluff Dreamtalon
-            -- Mount({item = 210769, id = 1833, count = '2500'}), -- Reins of the Springtide Dreamtalon
-            -- Mount({item = 210057, id = 1817, count = '2500'}), -- Reins of the Morning Flourish Dreamsaber
-            -- Mount({item = 210058, id = 1816, count = '2500'}) -- Reins of the Evening Sun Dreamsaber
-        }
-    }) -- Sylvia Whisperbloom <Dreamseed Botanist>
+------------------------------ VENDOR: SEEDBLOOM ------------------------------
+
+local SeedbloomVendor = Class('SeedbloomVendor', NPC, {
+    icon = 'peg_bl',
+    scale = 2.0,
+    note = L['sylvia_vendor_note'],
+    rewards = {
+        DG.Travel.BorealDreamtalon:Count('1'), --
+        DG.Travel.AuroralDreamtalon:Count('1'), --
+        DG.Guardian.SnowyUmbraclaw:Count('1'), --
+        DruidSpacer(), --
+        Section(ns.requirement.Reputation(2574, 11, true):GetText()),
+        Pet({item = 210690, id = 4306, count = '1'}), -- Elmer
+        Pet({item = 210689, id = 4305, count = '1'}), -- Snoots
+        Pet({item = 210571, id = 4296, count = '1'}), -- Snoozles
+        Pet({item = 210570, id = 4295, count = '1'}), -- Napps
+        Pet({item = 210651, id = 4299, count = '1'}), -- Dustite
+        Pet({item = 210648, id = 4298, count = '1'}), -- Seedle
+        Spacer(), --
+        Section(ns.requirement.Reputation(2574, 18, true):GetText()),
+        Mount({item = 209950, id = 1810, count = '1'}), -- Reins of the Rekindled Dreamstag
+        Mount({item = 209947, id = 1808, count = '1'}), -- Reins of the Blossoming Dreamstag
+        Mount({item = 210775, id = 1835, count = '1'}), -- Reins of the Snowfluff Dreamtalon
+        Mount({item = 210769, id = 1833, count = '1'}), -- Reins of the Springtide Dreamtalon
+        Mount({item = 210057, id = 1817, count = '1'}), -- Reins of the Morning Flourish Dreamsaber
+        Mount({item = 210058, id = 1816, count = '1'}) -- Reins of the Evening Sun Dreamsaber
+    }
+})
+
+map.nodes[59761689] = SeedbloomVendor({id = 211265}) -- Sylvia Whisperbloom <Dreamseed Botanist>
+map.nodes[49776211] = SeedbloomVendor({id = 212797}) -- Talisa Whisperbloom <Dreamseed Botanist>
+
+---------------------------- VENDOR: DREAM ENERGY -----------------------------
 
 local Elianna = Class('Elianna', NPC, {
     id = 211209,
@@ -1550,7 +1531,7 @@ local Elianna = Class('Elianna', NPC, {
 
 function Elianna.getters:note()
     -- LuaFormatter off
-    local n = format('\124T1394953:0\124t \124cFF00FF00[%s]\124r', L['dream_energy_name']) -- TODO: Can be simplified once currency is updated
+    local n = format('\124T1394953:0\124t \124cFF00FF00[%s]\124r', L['dream_energy_name'])
     -- LuaFormatter on
     local currencyInfo = C_CurrencyInfo.GetCurrencyInfo(2649)
     local q = currencyInfo.quantity
@@ -1563,6 +1544,8 @@ end
 
 map.nodes[50226180] = Elianna()
 
+--------------------------- TOY: IMPROVISED LEAFBED ---------------------------
+
 map.nodes[58137730] = Collectible({
     label = '{item:210864}',
     icon = 614747,
@@ -1572,6 +1555,8 @@ map.nodes[58137730] = Collectible({
     pois = {POI({58037780})} -- Entrance
 }) -- Thaalean
 
+-------------------------------- PET: KAL'ANDU --------------------------------
+
 map.nodes[52016363] = Collectible({
     label = '{item:210633}',
     icon = 3071791,
@@ -1579,12 +1564,12 @@ map.nodes[52016363] = Collectible({
     rewards = {Pet({item = 210633, id = 4297})} -- Kal'andu
 }) -- Solarys Thorngale
 
--------------------------- MOUNT: OCHRE DREAMTALON --------------------------
+--------------------------- MOUNT: OCHRE DREAMTALON ---------------------------
 
 local OchreDreamtalon = Class('OchreDreamtalon', Collectible, {
     id = 209253,
     icon = 5370985,
-    quest = {77677, 78398, 77697, 77711, 77762}, -- QuestLineID 5477 Stages
+    quest = {77677, 78398, 77697, 77711, 77762},
     questCount = true,
     rewards = {Mount({item = 210774, id = 1834})}, -- Ochre Dreamtalon
     pois = {
@@ -1738,28 +1723,25 @@ map.nodes[36596203] = NPC({
         L['thorn_bear_note']
 }) -- Astera
 
--------------------------- SPIRIT BEAST: NAH'QI --------------------------
+---------------------------- SPIRIT BEAST: NAH'QI -----------------------------
 
 map.nodes[45507220] = NPC({
     id = 210908,
     icon = 5171363,
-    requires = {
-        ns.requirement.Quest(78842, '{item:211314}') -- Cinder of Companionship
-    },
+    requires = {ns.requirement.Quest(78842, '{item:211314}')}, -- Cinder of Companionship
     class = 'HUNTER',
     note = L['nahqi_note'],
     pois = {
         Path({
-            45507220, 45207000, 45006770, 45006560, 45206340,
-            45706110, 46805940, 48405800, 49805730, 51305670,
-            52705710, 53605900, 54406130, 54606320, 55206530,
-            55406750, 55006920, 54607100, 53807230, 52907390,
-            51707490, 50307510, 48507480, 46807390, 45507220
+            45507220, 45207000, 45006770, 45006560, 45206340, 45706110,
+            46805940, 48405800, 49805730, 51305670, 52705710, 53605900,
+            54406130, 54606320, 55206530, 55406750, 55006920, 54607100,
+            53807230, 52907390, 51707490, 50307510, 48507480, 46807390, 45507220
         })
     }
 }) -- Nah'qi
 
-------------------------- SPIRIT BEAST: SUL'RAKA --------------------------
+--------------------------- SPIRIT BEAST: SUL'RAKA ----------------------------
 
 map.nodes[58305820] = NPC({
     id = 210868,
@@ -1768,11 +1750,10 @@ map.nodes[58305820] = NPC({
     note = L['sulraka_note'],
     pois = {
         Path({
-            58305820, 58206020, 58106240, 58206470, 58806690,
-            59906810, 61106930, 62706950, 64306750, 65406640,
-            65906420, 66106190, 65006040, 63805900, 63005700,
-            62805530, 61805420, 60305380, 59005290, 57805380,
-            57905610, 58305820
+            58305820, 58206020, 58106240, 58206470, 58806690, 59906810,
+            61106930, 62706950, 64306750, 65406640, 65906420, 66106190,
+            65006040, 63805900, 63005700, 62805530, 61805420, 60305380,
+            59005290, 57805380, 57905610, 58305820
         })
     }
 }) -- Sul'raka

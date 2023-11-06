@@ -130,6 +130,7 @@ read_globals = {
     'CLOSE',
     'ITEM_QUALITY_COLORS',
     'PVP_LABEL_WAR_MODE',
+    'PVP_PROGRESS_REWARDS_HEADER',
     'SOUNDKIT',
     'UNKNOWN',
     'WORLD_MAP_FILTER_TITLE',
