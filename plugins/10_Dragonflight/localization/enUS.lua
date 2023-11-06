@@ -896,7 +896,20 @@ L['plush_pillow_note'] = 'Inside the little hut on a table.'
 L['snuggle_buddy_note'] = 'Inside a small boat.'
 
 L['dreamseed_soil_label'] = 'Dreamseed Soil'
-L['dreamseed_soil_note'] = 'Contribution progress of {currency:2650}, determines the quality of {item:201467}.\nIts quality affects the probability of {item:210059} being found in {object:Dreamseed Cache}.\n{item:210224} (Once at least)\n{item:210225} (Progress: 50%)\n{item:210226} (Progress: 100%)\n\nQuality of {object:Dreamseed} defines the kind of reward.\n{item:208066}: A transmog or crafting materials.\n{item:208067}: A pet or crafting materials.\n{item:208047}: A mount or crafting materials.'
+L['dreamseed_soil_note'] = [[
+The quality of the {object:Emerald Bloom Rewards} and the chances of finding {item:210059} in the {object:Dreamseed Cache} depend on how much {currency:2650} you contribute.
+
+{item:210224} (Contribute at least one {currency:2650})
+{item:210225} (Progress: 50%)
+{item:210226} (Progress: 100%)
+
+Quality of the contributed {object:Dreamseed} defines the kind of reward:
+{item:208066}: A transmog or crafting materials.
+{item:208067}: A pet or crafting materials.
+{item:208047}: A mount or crafting materials.
+
+{note:For a list of rewards take a look at {npc:211265} on the island in the north, she also sells most of the rewards.}
+]]
 L['dreamseed_cache'] = 'Dreamseed Cache'
 
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
@@ -964,7 +977,7 @@ L['elianna_vendor_note'] = 'Completing activities around the {location:Emerald D
 L['dream_energy_name'] = 'Dream Energy'
 L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
 
-L['sylvia_vendor_note'] = 'Exchange {currency:2651} for pets, mounts, and transmog.'
+L['sylvia_vendor_note'] = 'Exchange {currency:2651} for pets, mounts, and transmog. You can also get them from Dreemseeds.'
 
 L['somnut'] = 'Somnut'
 L['options_icons_somnut'] = 'Somnut'

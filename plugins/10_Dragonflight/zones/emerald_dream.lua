@@ -883,40 +883,18 @@ local EmeraldBounty = Class('EmeraldBounty', Node, {
                 DC.GrottoNetherwingDrake.OutcastPattern,
                 DC.GrottoNetherwingDrake.LongHorns,
                 DC.GrottoNetherwingDrake.ClusterSpikedBack,
-                Recipe({item = 211065, profession = 773}), -- Technique: Mark of the Auric Dreamstag
-                Recipe({item = 210490, profession = 773}), -- Technique: Vantus Rune: Amirdrassil, the Dream's Hope
-                Spacer(), --
-                Section('{item:208067}'), --
-                Item({item = 210218}), --
-                Recipe({item = 210242, profession = 185}), -- Recipe: Slumbering Peacebloom Tea -- Plump Dreamseed
-                Recipe({item = 210174, profession = 333}), -- Formula: Illusory Adornment: Dreams -- Plump Dreamseed
-                Recipe({item = 210241, profession = 171}), -- Recipe: Dreamwalker's Healing Potion -- Plump Dreamseed
-                Pet({item = 210690, id = 4306}), -- Elmer
-                Pet({item = 210689, id = 4305}), -- Snoots
-                Pet({item = 210571, id = 4296}), -- Snoozles
-                Pet({item = 210570, id = 4295}), -- Napps
-                Pet({item = 210651, id = 4299}), -- Dustite
-                Pet({item = 210648, id = 4298}), -- Seedle
-                Spacer(), --
-                Section('{item:208047}'), --
-                Item({item = 210219}), --
-                Mount({item = 209950, id = 1810}), -- Reins of the Rekindled Dreamstag
-                Mount({item = 209947, id = 1808}), -- Reins of the Blossoming Dreamstag
-                Mount({item = 210775, id = 1835}), -- Reins of the Snowfluff Dreamtalon
-                Mount({item = 210769, id = 1833}), -- Reins of the Springtide Dreamtalon
-                Mount({item = 210057, id = 1817}), -- Reins of the Morning Flourish Dreamsaber
-                Mount({item = 210058, id = 1816}) -- Reins of the Evening Sun Dreamsaber
+                Recipe({item = 211065, profession = 773}), -- Technique: Mark of the Auric Dreamstag -- Cache Drop
+                Recipe({item = 210490, profession = 773}), -- Technique: Vantus Rune: Amirdrassil, the Dream's Hope -- Cache Drop
+                Currency({id = 2652}), -- Dream Wardens Reputation -- REVIEW !!! requires Dewdrop progress 50%?
+                Currency({id = 2245}), -- Flightstones
+                Spacer(), Section('{item:208047}'),
+                Recipe({item = 210242, profession = 185, note = '{item:208067}'}), -- Recipe: Slumbering Peacebloom Tea -- Plump Dreamseed
+                Recipe({item = 210174, profession = 333, note = '{item:208067}'}), -- Formula: Illusory Adornment: Dreams -- Plump Dreamseed
+                Recipe({item = 210241, profession = 171, note = '{item:208067}'}) -- Recipe: Dreamwalker's Healing Potion -- Plump Dreamseed
             }
         end
     }
 }) -- Emerald Bounty
-
--- After planting the seed Enroaching Growth (npc:208492) will spawn around. They give you Emerald Dewdrop (currency:2650) after pulling them out.
--- Running over Destructive Weevil (npc:208498) also give Dewdrops
--- You can Loot the Dreamseed Cache from one Bounte multiple times per day.
-
--- Small Dreamseeds give 20 Seedbloom (with low contribution)
--- Gigantic Dreamseeds give 350 Seedbloom
 
 local AgelessBlossom = EmeraldBounty({
     requires = ns.requirement.Quest(78172), -- ![Mysterious Seeds]

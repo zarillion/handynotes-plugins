@@ -897,13 +897,21 @@ L['plush_pillow_note'] = 'In der kleinen Hütte auf einem Tisch.'
 L['snuggle_buddy_note'] = 'In einem kleinen Boot.'
 
 L['dreamseed_soil_label'] = '{npc:210723}' -- Traumsaaterde
-L['dreamseed_soil_note'] = nil
-L['dreamseed_cache'] = nil
--- L['dreamseed_soil_note'] = [[
--- Du kannst  {currency:2651}, {item:210651} und Kosmetische Gegenstände nur erhalten, wenn du eine Traumsaat beisteuerst oder pflanzt. Die Menge der {currency:2651} hängt von der Qualität der Saat ab.
+L['dreamseed_soil_note'] = [[
+Die Qualität der {object:Smaragdblüten Belohnung} und die chance {item:210059} in der {object:Traumsaattruhe} zu finden hängt davon ab wieviel {currency:2650} beigesteuert werden.
 
--- Wenn du {currency:2650} beisteuerst, erhältst du eine kleine Menge an Handwerksmaterialien und {currency:2245}.
--- ]]
+{item:210224} (Mindestens ein {currency:2650} beisteuern)
+{item:210225} (Fortschritt: 50%)
+{item:210226} (Fortschritt: 100%)
+
+Die Qualität der {object:Traumsaat} bestimmt die art der Belohnung:
+{item:208066}: Eine Ausrüstungsvorlage oder Handwerksmaterialien.
+{item:208067}: Ein Haustier oder Handwerksmaterialien.
+{item:208047}: Ein Reittier oder Handwerksmaterialien.
+
+{note:Für eine Liste der Belohungen sieh dir {npc:211265} auf der Insel im Norden an, Sie verkauft auch die meisten Belohungen.}
+]]
+L['dreamseed_cache'] = 'Traumsaattruhe'
 
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Zeigt die Positionen der {npc:210723} für den Erfolg {achievement:19013} an.'
@@ -970,7 +978,7 @@ L['elianna_vendor_note'] = 'Schließe Aktivitäten im {location:Der Smaragdgrün
 L['dream_energy_name'] = 'Traumenergie'
 L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
 
-L['sylvia_vendor_note'] = 'Tausche {currency:2651} gegen Reittiere, Haustiere und Ausrüstungsvorlagen ein.'
+L['sylvia_vendor_note'] = 'Tausche {currency:2651} gegen Reittiere, Haustiere und Ausrüstungsvorlagen ein. Diese können auch durch {object:Traumsaaten} erhalten werden.'
 
 L['somnut'] = 'Schlummernuss'
 L['options_icons_somnut'] = 'Schlummernuss'
