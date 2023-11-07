@@ -23,6 +23,7 @@ local OhnahranPlains = ns.maps[2023]
 local Thaldraszus = ns.maps[2025]
 local WakingShores = ns.maps[2022]
 local ZaralekCavern = ns.maps[2133]
+local EmeraldDream = ns.maps[2200]
 
 local Orgimmar = ns.maps[85] or Map({id = 85, settings = true})
 local Stormwind = ns.maps[84] or Map({id = 84, settings = true})
@@ -768,6 +769,90 @@ ZaralekCavern.nodes[51264667] = Dragonrace({
     reverseChallenge = {2497, 68, 65},
     rewards = ZaralekCavern_Rewards(6, 11, 12)
 }) -- Sulfur Sprint
+
+-------------------------------- EMERALD DREAM --------------------------------
+
+local function EmeraldDream_Rewards(b, c, r) -- basic, challenge, reverse challenge
+    return {
+        Achievement({id = 19109, criteria = b, oneline = true}), -- normal bronze
+        Achievement({id = 19110, criteria = b, oneline = true}), -- normal silver
+        Achievement({id = 19111, criteria = b, oneline = true}), -- normal gold
+        Achievement({id = 19112, criteria = b, oneline = true}), -- advanced bronze
+        Achievement({id = 19113, criteria = b, oneline = true}), -- advanced silver
+        Achievement({id = 19114, criteria = b, oneline = true}), -- advanced gold
+        Achievement({id = 19115, criteria = b, oneline = true}), -- reverse bronze
+        Achievement({id = 19116, criteria = b, oneline = true}), -- reverse silver
+        Achievement({id = 19117, criteria = b, oneline = true}), -- reverse gold
+        Section(L['dr_challenge']),
+        Achievement({id = 19121, criteria = c, oneline = true}), -- challenge bronze
+        Achievement({id = 19122, criteria = c, oneline = true}), -- challenge silver
+        Achievement({id = 19123, criteria = c, oneline = true}), -- challenge gold
+        Spacer(), Section(L['dr_reverse_challenge']),
+        Achievement({id = 19124, criteria = r, oneline = true}), -- reverse challenge bronze
+        Achievement({id = 19125, criteria = r, oneline = true}), -- reverse challenge silver
+        Achievement({id = 19126, criteria = r, oneline = true}) -- reverse challenge gold
+    }
+end
+
+EmeraldDream.nodes[59112881] = Dragonrace({
+    label = '{quest:77841}',
+    normal = {2676, 105, 100},
+    advanced = {2682, 101, 98},
+    reverse = {2688, 97, 94},
+    challenge = {2694, 106, 103},
+    reverseChallenge = {2695, 109, 106},
+    rewards = EmeraldDream_Rewards(1, 1, 1)
+}) -- Ysera Invitational
+
+EmeraldDream.nodes[37184408] = Dragonrace({
+    label = '{quest:77983}',
+    normal = {2677, 89, 84},
+    advanced = {2683, 86, 83},
+    reverse = {2689, 87, 84},
+    challenge = {2696, 89, 86},
+    reverseChallenge = {2697, 97, 94},
+    rewards = EmeraldDream_Rewards(2, 2, 2)
+}) -- Smoldering Sprint
+
+EmeraldDream.nodes[35165522] = Dragonrace({
+    label = '{quest:77996}',
+    normal = {2678, 83, 78},
+    advanced = {2684, 79, 76},
+    reverse = {2690, 76, 76},
+    challenge = {2698, 97, 94},
+    reverseChallenge = {2699, 93, 90},
+    rewards = EmeraldDream_Rewards(3, 3, 3)
+}) -- Viridescent Venture
+
+EmeraldDream.nodes[69625262] = Dragonrace({
+    label = '{quest:78016}',
+    normal = {2679, 78, 73},
+    advanced = {2685, 72, 69},
+    reverse = {2691, 75, 72},
+    challenge = {2700, 85, 82},
+    reverseChallenge = {2701, 81, 78},
+    rewards = EmeraldDream_Rewards(4, 4, 4)
+}) -- Shoreline Switchback
+
+EmeraldDream.nodes[62808812] = Dragonrace({
+    label = '{quest:78102}',
+    normal = {2680, 113, 108},
+    advanced = {2686, 108, 105},
+    reverse = {2692, 109, 106},
+    challenge = {2702, 108, 105},
+    reverseChallenge = {2703, 108, 105},
+    rewards = EmeraldDream_Rewards(5, 5, 5)
+}) -- Canopy Concours
+
+EmeraldDream.nodes[32354820] = Dragonrace({
+    label = '{quest:78115}',
+    normal = {2681, 93, 88},
+    advanced = {2687, 79, 76},
+    reverse = {2693, 79, 76},
+    challenge = {2704, 86, 83},
+    reverseChallenge = {2705, 84, 81},
+    rewards = EmeraldDream_Rewards(6, 6, 6)
+}) -- Emerald Amble
 
 -------------------------------------------------------------------------------
 ---------------------------------- KALIMDOR -----------------------------------

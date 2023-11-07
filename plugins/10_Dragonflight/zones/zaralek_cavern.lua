@@ -122,7 +122,7 @@ map.nodes[48372384] = Rare({
         Achievement({id = 18100, criteria = 59494}), -- Cavern Clawbbering
         Transmog({item = 205332, slot = L['1h_mace']}), -- Fist of the Demolisher
         Transmog({item = 205315, slot = L['plate']}), -- Colossian Cuirass
-        DC.WindingSlitherdrake.ShortSpikedCrest, --
+        DC.RenewedProtoDrake.ShortSpikedCrest, --
         Item({item = 200071}) -- Sacred Tuskarr Totem
     }
 }) -- Colossian

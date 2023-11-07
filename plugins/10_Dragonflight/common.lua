@@ -76,6 +76,12 @@ ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.DRUID_GLYPH = Group('druid_glyph', 625999, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function() return ns.class == 'DRUID' end
+})
+
 ns.groups.EASTERN_KINGDOMS_CUP = Group('dragonrace', 1100022, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION,
@@ -185,6 +191,11 @@ ns.groups.SIMMERING_CHEST = Group('simmering_chest', 'chest_gn', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.SOMNUT = Group('somnut', 656681, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.SMALL_TREASURES = Group('small_treasures', 'chest_rd', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -256,6 +267,12 @@ ns.groups.CHISELED_RECORD = Group('chiseled_record', 134455, {
     achievement = 16412
 })
 
+ns.groups.DREAM_OF_SEEDS = Group('dream_of_seeds', 464030, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 19013
+})
+
 ns.groups.DREAMGUARD = Group('dreamguard', 341763, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -322,6 +339,12 @@ ns.groups.MANY_BOXES = Group('many_boxes', 132762, {
     achievement = 18559
 })
 
+ns.groups.MOONKIN_HATCHLING = Group('moonkin_hatchling', 467894, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 19293
+})
+
 ns.groups.NEW_PERSPECTIVE = Group('new_perspective', 1109100, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -344,6 +367,12 @@ ns.groups.SAFARI = Group('safari', 4048818, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
     achievement = 16519
+})
+
+ns.groups.EMERALD_DREAM_SAFARI = Group('emerald_dream_safari', 4899641, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 19401
 })
 
 ns.groups.SCALECOMMANDER_ITEM = Group('scalecommander_item', 134422, {
@@ -475,16 +504,20 @@ ns.DRAGON_CUSTOMIZATIONS = {
         BlueHair = Item({item = 197368, quest = 69569}),
         BlueScales = Item({item = 197390, quest = 69591}),
         BovineHorns = Item({item = 197377, quest = 69578}),
+        BrewfestArmor = Item({item = 208742, quest = 77774}),
         BronzeAndPinkArmor = Item({item = 197353, quest = 69554}),
         BronzeScales = Item({item = 197391, quest = 69592}),
-        BruiserHorns = Item({item = 202277, quest = 99999}), -- TODO: Update quest
         BrownHair = Item({item = 197369, quest = 69570}),
+        BruiserHorns = Item({item = 202277, quest = 73057}),
         ClubTail = Item({item = 197403, quest = 69604}),
         CurledHorns = Item({item = 197375, quest = 69576}),
         CurvedHorns = Item({item = 197380, quest = 69581}),
         CurvedSpikedBrow = Item({item = 197358, quest = 69559}),
         DualHornedCrest = Item({item = 197366, quest = 69567}),
         Ears = Item({item = 197376, quest = 69577}),
+        EmbodimentOfShadowflame = Item({item = 210537, quest = 78453}),
+        EmbodimentOfTheBlazing = Item({item = 210536, quest = 78451}),
+        EmbodimentOfTheStormEater = Item({item = 201790, quest = 72367}),
         FinnedCrest = Item({item = 197365, quest = 69566}),
         FinnedJaw = Item({item = 197388, quest = 69589}),
         FinnedTail = Item({item = 197404, quest = 69605}),
@@ -495,7 +528,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         GradientHorns = Item({item = 197381, quest = 69582}),
         GrayHair = Item({item = 197367, quest = 69568}),
         GreenHair = Item({item = 197371, quest = 69572}),
-        GreenScales = Item({item = 192523, quest = 66720}),
+        GreenScales = Item({item = 197389, quest = 66720}), -- two GreenScales in wowhead, 192523 do not exist in game
         HairyBack = Item({item = 197356, quest = 69557}),
         HairyBrow = Item({item = 197359, quest = 69560}),
         HarrierPattern = Item({item = 197395, quest = 69596}),
@@ -505,15 +538,17 @@ ns.DRAGON_CUSTOMIZATIONS = {
         HornedBack = Item({item = 197354, quest = 69555}),
         HornedJaw = Item({item = 197385, quest = 69586}),
         ImpalerHorns = Item({item = 197379, quest = 69580}),
+        MalevolentHorns = Item({item = 202279, quest = 73056}),
         ManedCrest = Item({item = 197363, quest = 69564}),
         ManedTail = Item({item = 197405, quest = 69606}),
+        PlatedBrow = Item({item = 202274, quest = 73055}),
         PlatedJaw = Item({item = 202275, quest = 73059}),
         PredatorPattern = Item({item = 197394, quest = 69595}),
         ProngedTail = Item({item = 202280, quest = 73060}),
         PurpleHair = Item({item = 197372, quest = 69573}),
         RazorSnout = Item({item = 197399, quest = 69600}),
         RedHair = Item({item = 197370, quest = 69571}),
-        RedScales = Item({item = 192111, quest = nil}), -- current not in game
+        -- RedScales = Item({item = 192111, quest = nil}), -- remove, impossible name
         SharkSnout = Item({item = 197400, quest = 69601}),
         ShortSpikedCrest = Item({item = 197364, quest = 69565}),
         SilverAndBlueArmor = Item({item = 197347, quest = 69548}),
@@ -528,10 +563,12 @@ ns.DRAGON_CUSTOMIZATIONS = {
         SpinedCrest = Item({item = 197362, quest = 69563}),
         SpinedTail = Item({item = 197406, quest = 69607}),
         SteelAndYellowArmor = Item({item = 197352, quest = 69553}),
+        StubbySnout = Item({item = 202273, quest = 73054}),
         SubtleHorns = Item({item = 197378, quest = 69579}),
         SweptHorns = Item({item = 197374, quest = 69575}),
         ThickSpinedJaw = Item({item = 197355, quest = 69556}),
         ThinSpinedJaw = Item({item = 197387, quest = 69588}),
+        VisageOfTheInfinite = Item({item = 208104, quest = 77255}),
         WhiteHorns = Item({item = 197382, quest = 69583}),
         WhiteScales = Item({item = 197393, quest = 69594})
     },
@@ -561,7 +598,8 @@ ns.DRAGON_CUSTOMIZATIONS = {
         GoldAndRedArmor = Item({item = 197580, quest = 69784}),
         GrayHair = Item({item = 197598, quest = 69802}),
         GrayHorns = Item({item = 197608, quest = 69812}),
-        HairyHead = Item({item = 197591, quest = 381190}),
+        HairyHead = Item({item = 197591, quest = 69795}),
+        HallowsEndArmor = Item({item = 208680, quest = 77725}),
         HeavyScales = Item({item = 197617, quest = 69821}),
         Helm = Item({item = 197600, quest = 69804}),
         HookedSnout = Item({item = 197619, quest = 69823}),
@@ -587,6 +625,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         SteelAndOrangeArmor = Item({item = 197579, quest = 69783}),
         SweptHorns = Item({item = 197606, quest = 69810}),
         TealScales = Item({item = 197615, quest = 69819}),
+        VisageOfTheInfinite = Item({item = 208105, quest = 77256}),
         WavyHorns = Item({item = 197601, quest = 69805}),
         WhiteAndPinkArmor = Item({item = 197582, quest = 69786}),
         WhiteHorns = Item({item = 197609, quest = 69813}),
@@ -609,6 +648,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         CurledBackHorns = Item({item = 197128, quest = 69329}),
         Ears = Item({item = 197116, quest = 69317}),
         EmbodimentOfTheCrimsonGladiator = Item({item = 201792, quest = 72371}),
+        EmbodimentOfTheHellforged = Item({item = 205876, quest = 75967}),
         FinnedBack = Item({item = 197098, quest = 69299}),
         FinnedHead = Item({item = 197106, quest = 69307}),
         FinnedNeck = Item({item = 197155, quest = 69356}),
@@ -662,7 +702,9 @@ ns.DRAGON_CUSTOMIZATIONS = {
         ToothyMouth = Item({item = 197135, quest = 69336}),
         TripleFinnedHead = Item({item = 197107, quest = 69308}),
         VerticalFinnedTail = Item({item = 197148, quest = 69349}),
-        WhiteScales = Item({item = 197146, quest = 69347})
+        VisageOfTheInfinite = Item({item = 208103, quest = 77257}),
+        WhiteScales = Item({item = 197146, quest = 69347}),
+        WinterVeilArmor = Item({item = 210432, quest = 78371})
     },
     CliffsideWylderdrake = {
         Armor = Item({item = 196961, quest = 69161}),
@@ -678,6 +720,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         ConicalHead = Item({item = 196981, quest = 69181}),
         CurledHeadHorns = Item({item = 196979, quest = 69179}),
         DarkSkinVariation = Item({item = 197015, quest = 69215}),
+        DayOfTheDeadArmor = Item({item = 208859, quest = 77876}),
         DualHornedChin = Item({item = 196973, quest = 69173}),
         Ears = Item({item = 196982, quest = 69182}),
         FinnedBack = Item({item = 196969, quest = 69169}),
@@ -725,6 +768,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         SteelAndYellowArmor = Item({item = 196968, quest = 69168}),
         SweptHorns = Item({item = 196999, quest = 69199}),
         TripleHeadHorns = Item({item = 196980, quest = 69180}),
+        VisageOfTheInfinite = Item({item = 208102, quest = 77258}),
         WhiteHair = Item({item = 196989, quest = 69189}),
         WhiteScales = Item({item = 197014, quest = 69214}),
         WideStripesPattern = Item({item = 197007, quest = 69207})
@@ -735,7 +779,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         BlondeHair = Item({item = 203322, quest = 73810}),
         BlueAndSilverArmor = Item({item = 203300, quest = 73788}),
         BlueScales = Item({item = 203350, quest = 73841}),
-        BronzeScales = Item({item = 203351, quest = 842}),
+        BronzeScales = Item({item = 203351, quest = 73842}),
         BrownHair = Item({item = 203323, quest = 73811}),
         ClusterChinHorn = Item({item = 203312, quest = 73800}),
         ClusterHorns = Item({item = 203331, quest = 73820}),
@@ -747,6 +791,8 @@ ns.DRAGON_CUSTOMIZATIONS = {
         CurvedHorns = Item({item = 203335, quest = 73825}),
         CurvedNoseHorn = Item({item = 203349, quest = 73840}),
         Ears = Item({item = 203320, quest = 73808}),
+        EmbodimentOfTheObsidianGladiator = Item({item = 205865, quest = 75941}),
+        EmbodimentOfTheVerdantGladiator = Item({item = 210064, quest = 78216}),
         FinnedCheek = Item({item = 203319, quest = 73807}),
         FinnedTipTail = Item({item = 203361, quest = 73853}),
         GrandChinThorn = Item({item = 203310, quest = 73798}),
@@ -779,7 +825,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         RedScales = Item({item = 203353, quest = 73844}),
         SharkFinnedTail = Item({item = 203359, quest = 73851}),
         ShortHorns = Item({item = 203333, quest = 73822}),
-        ShortSpikedCrest = Item({item = 197364, quest = 69565}),
+        -- ShortSpikedCrest = Item({item = 197364, quest = 69565}), -- remove, duplicated
         SingleJawHorn = Item({item = 203344, quest = 73835}),
         SmallFinnedCrest = Item({item = 203317, quest = 73805}),
         SmallFinnedTail = Item({item = 203358, quest = 73850}),
@@ -793,12 +839,63 @@ ns.DRAGON_CUSTOMIZATIONS = {
         TanHorns = Item({item = 203327, quest = 73815}),
         ThornHorns = Item({item = 203337, quest = 73827}),
         TripleJawHorns = Item({item = 203342, quest = 73833}),
+        VisageOfTheInfinite = Item({item = 208106, quest = 77259}),
         WhiteAndGoldArmor = Item({item = 203298, quest = 73786}),
         WhiteHair = Item({item = 203324, quest = 73812}),
         WhiteHorns = Item({item = 203328, quest = 73816}),
         WhiteScales = Item({item = 203354, quest = 73845}),
         YellowAndSilverArmor = Item({item = 203304, quest = 73792}),
         YellowScales = Item({item = 203355, quest = 73846})
+    },
+    FlourishingWhimsydrake = {
+        BackFins = Item({item = 210482, quest = 78400}),
+        BodyArmor = Item({item = 210471, quest = 78401}),
+        GoldAndPinkArmor = Item({item = 210478, quest = 78399}),
+        Helmet = Item({item = 210476, quest = 78402}),
+        Horns = Item({item = 210486, quest = 78406}),
+        LongSnout = Item({item = 210485, quest = 78405}),
+        NeckFins = Item({item = 210487, quest = 78407}),
+        NightScales = Item({item = 210479, quest = 78408}),
+        RidgedBrow = Item({item = 210483, quest = 78403}),
+        SunriseScales = Item({item = 210480, quest = 78409}),
+        SunsetScales = Item({item = 210481, quest = 78410}),
+        UnderbiteSnout = Item({item = 210484, quest = 78404})
+    },
+    GrottoNetherwingDrake = {
+        Armor = Item({item = 207760, quest = 77131}),
+        BarbedTail = Item({item = 207779, quest = 77150}),
+        BlackScales = Item({item = 207776, quest = 77147}),
+        ChinSpike = Item({item = 207762, quest = 77133}),
+        ChinTendrils = Item({item = 207761, quest = 77132}),
+        ClusterSpikedBack = Item({item = 207759, quest = 77130}),
+        ClusterSpikedCrest = Item({item = 207765, quest = 77136}),
+        DoubleFinnedTail = Item({item = 207778, quest = 77149}),
+        FinnedJaw = Item({item = 207774, quest = 77145}),
+        HeadSpike = Item({item = 207764, quest = 77135}),
+        Helm = Item({item = 207770, quest = 77141}),
+        LongHorns = Item({item = 207772, quest = 77143}),
+        OutcastPattern = Item({item = 207769, quest = 77140}),
+        PurpleandSilverArmor = Item({item = 207757, quest = 77128}),
+        ShortHorns = Item({item = 207771, quest = 77142}),
+        SingleHornedCrest = Item({item = 207763, quest = 77134}),
+        SpikedBack = Item({item = 207758, quest = 77129}),
+        SpikedJaw = Item({item = 207773, quest = 77144}),
+        TealScales = Item({item = 207775, quest = 77146}),
+        TempestuousPattern = Item({item = 207767, quest = 77138}),
+        TripleSpikedCrest = Item({item = 207766, quest = 77137}),
+        VioletScales = Item({item = 211381, quest = 78878}),
+        VolatilePattern = Item({item = 207768, quest = 77139}),
+        YellowScales = Item({item = 207777, quest = 77148})
+    },
+    DragonIslesDrakes = {
+        GildedArmor = Item({
+            item = 208200,
+            quest = {69550, 69786, 69167, 69296, 73786}
+        }),
+        WhiteScales = Item({
+            item = 208550,
+            quest = {69594, 69820, 69347, 69214, 73845}
+        })
     }
 }
 
@@ -1683,7 +1780,7 @@ end)
 ------------------------------------------------------------------------------
 
 hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
-    if select(2, IsAddOnLoaded('RareScanner')) then
+    if select(2, C_AddOns.IsAddOnLoaded('RareScanner')) then
         local status, result = pcall(function()
             return _G['RareScannerDB'].profiles.Default.map
                        .tooltipsOnIngameIcons

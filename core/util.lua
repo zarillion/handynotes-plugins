@@ -137,7 +137,7 @@ local function RenderLinks(str, nameOnly)
             local name = C_QuestLog.GetTitleForQuestID(id)
             if name then
                 if nameOnly then return name end
-                local icon = (type == 'daily') and 'quest_ab' or 'quest_ay'
+                local icon = type == 'daily' and 'quest_ab' or 'quest_ay'
                 return ns.GetIconLink(icon, 12) ..
                            ns.color.Yellow('[' .. name .. ']')
             end
@@ -152,7 +152,7 @@ local function RenderLinks(str, nameOnly)
     end)
     -- render commonly colored text
     local function renderNonNumeric(str)
-        local result = str:gsub('{(%l+):([^}]+)}', function(type, text)
+        local result = str:gsub('{(%l+):([^{}]+)}', function(type, text)
             if type == 'bug' then return ns.color.Red(text) end
             if type == 'emote' then return ns.color.Orange(text) end
             if type == 'location' then return ns.color.Yellow(text) end

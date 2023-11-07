@@ -855,6 +855,170 @@ L['options_icons_zone_event'] = 'Zona de Evento'
 L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
 
 -------------------------------------------------------------------------------
+------------------------------- Emerald Dream ---------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
+L['options_icons_emerald_dream_safari_desc'] = 'Muestra dónde están los combates de mascotas para el logro {achievement:19401}.'
+
+L['envoy_of_winter_note'] = 'Reune {item:208881} y usa {spell:421658} cerca del pozo hasta que aparezca {npc:209929}.'
+L['fruitface_note'] = 'Coge una {item:208837} del suelo para dejar aparecer a {npc:209980}. Atácale y síguelo hasta que salte al agua e invoque al raro {npc:209966}.'
+L['greedy_gessie_note'] = 'Necesitas recoger {object:Verduras Salvajes}, {object:Melón Escamarrubí} y {object:Naranjarraíz} alrededor de la zona y ponerlo todo en las cestas cerca de {npc:210285s} para comenzar el encuentro.'
+L['nuoberon_note'] = 'Persigue tortugas, lanza comida a los monos, o lucha contra monstruos oníricos para ayudar a que {npc:209101} tenga un sueño divertido.'
+L['reefbreaker_moruud_note'] = 'Conecta las 6 {npc:210089} cercanas para atacar a {npc:209898}.'
+L['surging_lasher_note'] = 'Puede aparece durante el evento {location:Frenesí Esmeralda} en esta zona.'
+
+L['in_a_tree'] = 'Encima del árbol.'
+L['inside_building'] = 'En el edificio.'
+
+L['hidden_moonkin_stash_label'] = 'Alijo de Vainete Oculto'
+L['magical_bloom_note'] = 'Ataca a {npc:210544} y persíguelo hasta que revele el tesoro.'
+L['pineshrew_cache_note'] = 'Junto a algunas rocas.'
+L['reliquary_of_ashamane_note'] = '{note:Si la misión del mundo {wq:Taladro de fuego de dríade} está activa necesitarás completarla antes para poder ver el tesoro.}\n\nEncuentra una {object:Marca de Ashamane} {dot:Green} cercana para conseguir el buff {spell:425426} e ir a la {npc:212009}.'
+L['reliquary_of_aviana_note'] = 'Encuentra una {object:Marca de Aviana} {dot:Green}cercana para conseguir el buff {spell:425432} e ir a la {npc:212011}.'
+L['reliquary_of_goldrinn_note'] = 'Encuentra una {object:Marca de Goldrinn} {dot:Green} cercana para conseguir el buff {spell:425408} e ir a la {npc:212012}.'
+L['reliquary_of_ursol_note'] = 'Encuentra una {object:Marca de Ursol} {dot:Green} cercana para conseguir el buff {spell:423306} e ir a la {npc:210732}.'
+L['triflesnatchs_roving_trove_note'] = 'Sigue a {npc:210060} mientras vuela de rama en rama.'
+
+L['unwaking_echo_label'] = 'Eco del despertar'
+L['unwaking_echo_note'] = '{note:Sólo puedes abrir este cofre en tus sueños.}\n\nTeclea la emoción {emote:/dormir} para dormir junto al cofre y que se abra.'
+
+L['amirdrassil_defenders_shield_note'] = 'En la mesa junto a {npc:211328}.'
+L['dreamtalon_claw_note'] = 'En el fondo del tronco del árbol.'
+L['essence_of_dreams_note'] = 'Arriba, en una rama de árbol circular y flotante.'
+L['exceedingly_soft_wildercloth_note'] = 'Dentro del edificio y detrás de una silla.'
+L['experimental_dreamcatcher_note'] = 'En el árbol flotante.'
+L['grove_keepers_pillar_note'] = 'Enfrente de la entrada a la cueva.'
+L['handful_of_pebbles_note'] = 'Encima del hombro derecho de la estatua.'
+L['molted_faerie_dragon_scales_note'] = 'En el suelo, en unas flores.'
+L['petrified_hope_note'] = 'Encima del tocón del árbol.'
+L['plush_pillow_note'] = 'Dentro de la choza pequeña y encima de una mesa.'
+L['snuggle_buddy_note'] = 'Dentro de un bote pequeño.'
+
+L['dreamseed_soil_label'] = 'Tierra con Semillas del Sueño'
+L['dreamseed_soil_note'] = [[
+La calidad de las {object:Recompensa Flor de Esmeralda} y las probabilidades de encontrar las {item:210059} en el {object:Alijo de Semillas del Sueño} depende de cuanto aportes de {currency:2650}.
+
+{item:210224} (Aporta al menos un {currency:2650})
+{item:210225} (Progreso: 50%)
+{item:210226} (Progreso: 100%)
+
+La calidad de las {object:Semillas del Sueño} aportadas define el tipo de recompensa:
+{item:208066}: Una transfiguración o materiales de fabricación.
+{item:208067}: Una mascota o materiales de fabricación.
+{item:208047}: Una montura o materiales de fabricación.
+
+{note:Para una lista de recompensas echa un vistazo a {npc:211265} en la isla del norte. Ella vende muchas de las recompensas.}
+]]
+L['dreamseed_cache'] = 'Alijo de Semillas del Sueño'
+
+L['options_icons_dream_of_seeds'] = '{achievement:19013}'
+L['options_icons_dream_of_seeds_desc'] = 'Muestra dónde están las {object:Tierra con Semillas del Sueño} para el logro {achievement:19013}.'
+
+L['dreamfruit_label'] = 'Fruta del Sueño'
+L['dreamfruit_note_1'] = 'Aparece cuando empieza el evento {location:Superfloración}. El evento comienza a cada hora en punto.'
+L['dreamfruit_note_2'] = 'Aparece tras la primera parada del evento {location:Superfloración}. El evento comienza a cada hora en punto cerca de {location:Amirdrassil}.'
+
+L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
+L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las proles de lechúcico lunar para el logro {achievement:19293}.'
+L['moonkin_hatchling_note'] = 'Requiere que la misión del mundo {wq:La preocupación me desgarra} esté activa.'
+
+L['druid_glyphs_label'] = 'Glifos de Druida'
+L['druid_glyphs_sublabel'] = '{note:Esto NO es un Glifo de Druida. ¡Sólo una lista de verificación!}'
+L['druid_glyphs_note'] = 'Colecciona {note:Glifo de Druida} obtenidos de varias actividades a lo largo del {location:Sueño Esmeralda}.'
+
+L['pollenfused_bristlebruin_fur_sample_note'] = 'Despoja la {object:Muestra de pelaje de erizapúas polinizado} que se encuentra cerca de la parte inferior del arbol de {location:Calcina}.'
+
+L['mbc_note_start'] = 'Despoja la {object:Caja Pequeña de Viales} para conseguir la {item:210991}.\n\nRecibirás 6x {item:210839} que necesitarán ser llenados con agua de la poza de la luna de cada continente.'
+L['mbc_note_end'] = 'Combina los 6x {item:210876} para crear la {item:210977} y llévala a la {object:Piedra del Sueño feral} cerca de {location:Amirdrassil}.\n\nUsa la {item:210977} y despoja la {object:Garra Bendita por la Luna} para conseguir la {item:210728}.'
+
+L['mbc_vial_b'] = 'I'
+L['mbc_vial_d'] = 'D'
+L['mbc_vial_e'] = 'R'
+L['mbc_vial_k'] = 'K'
+L['mbc_vial_n'] = 'R'
+L['mbc_vial_o'] = 'T'
+
+L['mbc_vial_d_location'] = 'Avanzada Estrella Fugaz'
+L['mbc_vial_e_location'] = 'Arboleda del Crepúsculo'
+L['mbc_vial_k_location'] = 'Túmulo de Tempestira'
+L['mbc_vial_n_location'] = 'Reposo Estelar'
+L['mbc_vial_o_location'] = 'Refugio Cenarion'
+
+L['mbc_vial_location'] = 'Llena {item:%d} con agua de la poza de la luna de {location:%s} en {location:%s} en {location:%s} para conseguir {item:%d}.'
+
+L['mbc_moonwell_label'] = 'Poza de la Luna'
+L['mbc_feral_dreamstone_label'] = 'Piedra del Sueño Feral'
+
+L['azure_somnowl_note'] = 'Completa la corta cadena de misiones (sólo para druidas) hasta que acabe en la misión {quest:78066} para conseguir la {item:210645}.'
+
+L['slumbering_somnowl_note_a'] = 'Consigue 5x {item:210565} poniendo a varios {npc:Somnobúho} a dormir con el hechizo {spell:2637} a lo largo del {location:Sueño Esmeralda}.'
+L['slumbering_somnowl_note_b'] = 'Compra 1x {item:4291} a cualquier vendedor de suministros.'
+L['slumbering_somnowl_note_c'] = 'Combina 5x {item:210565} y 1x {item:4291} para crear la {item:210566}.'
+L['slumbering_somnowl_note_d'] = 'Consigue 1x {item:194864}.'
+L['slumbering_somnowl_note_e'] = 'Combina 1x {item:210566} y 1x {item:194864} para crear la {item:210535}.'
+
+L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
+L['silent_mark_label'] = 'Riscos Sueñofrondoso'
+L['silent_mark_note'] = 'Selecciona el animal correcto y canaliza el objeto correspondiente hasta que aparezca {spell:426910}. {note:Debes hacerlo con más de 10 animales.}\n\nCanaliza {item:210764} en {npc:210892}.\n\nCanaliza {item:210767} en {npc:211347}, {npc:211283}, o {npc:210894}.\n\nCanaliza {item:210755} en {npc:210594}.\n\nCanaliza {item:210766} en {npc:209494}.'
+
+L['amirdrassil'] = 'Amirdrassil, La Esperanza del Sueño'
+L['prismatic_location'] = 'Dentro de la banda {location:Amirdrassil, La Esperanza del Sueño}.'
+L['prismatic_note_1'] = '1. Pesca 10x {item:210782} de los bancos en {location:Claustro del Manantial}.'
+L['prismatic_note_2'] = '2. Pesca 10x {item:210783} de los bancos de lava en la {location:Sala Agostada}.'
+L['prismatic_note_3'] = '3. Lanza los 20x peces dentro del banco más grande en {location:Claustro del Manantial} para conseguir durante 30 minutos el buff {spell:427145}.'
+L['prismatic_note_4'] = '4. Pesca en el banco de peces {object:Pezbigotes Prismáticos} en {location:Claustro del Manantial} hasta que saques a {item:210784}.'
+L['prismatic_note_5'] = '5. Libera a {npc:Xena} en el agua del {location:Claustro del Manantial} para conseguir una {item:210753}.'
+
+L['options_icons_druid_glyph'] = 'Glifos de Druida'
+L['options_icons_druid_glyph_desc'] = 'Muestra dónde están los {note:Glifo de Druida}.'
+
+L['elianna_vendor_note'] = 'Completando actividades en el {location:Sueño Esmeralda} conseguirás %s (una moneda oculta).\n\nCon 7.000 %s desbloquearás la misión {quest:78598} de {npc:211209} que te recompensará con 1x {currency:2777}.\n\nCambia {currency:2777} por mascotas y monturas.'
+L['dream_energy_name'] = 'Energía de Ensueño' -- NYT
+L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
+
+L['sylvia_vendor_note'] = 'Cambia {currency:2651} por mascotas, monturas y transfiguraciones. También puedes conseguirlos de las Semillas del Sueño.'
+
+L['somnut'] = 'Somnuez'
+L['options_icons_somnut'] = 'Somnuez'
+L['options_icons_somnut_desc'] = 'Muestra dónden pueden estar los {object:Somnuez}.'
+
+L['improvised_leafbed_note'] = 'Completa la cadena de misiones comenzando con {quest:77896} para conseguir la {item:210864} de {npc:210164}.'
+L['kalandu_note'] = 'Completa la cadena de misiones comenzando con {quest:77948} para conseguir a {item:210633} de {npc:210196}.'
+
+L['renewed_dream'] = '{note:¡Esto no es un tesoro!}\n{item:201437} puede caer de cualquier enemigo en el {location:Sueño Esmeralda}.\nCombina 5 de ellos para restaurar un {item:201439}.'
+
+L['ochre_note'] = 'Habla con {npc:209253} para empezar la cadena de misiones. {npc:209571} te ofrecerá las siguientes fases.'
+L['ochre_note_stage1'] = '{quest:77677}. {note:5 días para crecer.}'
+L['ochre_note_stage2'] = '{quest:78398}. {note:5 días para crecer.}'
+L['ochre_note_stage3'] = '{npc:209571} te dejará recoger 5x {item:4537} {dot:Yellow}, 3x {item:209416} {dot:Green}, y 5x {item:208644} {dot:Red}, para después combinarlos en {item:208646}. {note:Espera 3 días} para que se convierta en {item:208647}, antes de acabar {quest:77697}. {note:5 días para crecer.}'
+L['ochre_note_stage4'] = '{quest:77711}. {note:5 días para crecer.}'
+L['ochre_note_stage5'] = '{quest:77762}.'
+
+L['thorn_beast_stag'] = '{item:%d} ({npc:Venado})'
+L['thorn_beast_saber'] = '{item:%d} ({npc:Sable})'
+L['thorn_beast_bear'] = '{item:%d} ({npc:Oso})'
+
+L['thornbeast_disclaimer'] = '{note:Recuerda, cada tipo de bestia tiene un {item:%s} diferente que te llevará a la Bestia de Espinas correspondiente.}'
+
+L['thorn_laden_heart_note_1'] = 'Despoja un {item:209860} de cualquier {npc:Venado}, {npc:Sable}, u {npc:Oso} en el {location:Sueño Esmeralda}.'
+L['thorn_laden_heart_note_2'] = 'Una vez tengas un {item:209860} ves a buscar a una cierva llamada {npc:140044} en {location:Drustvar} en {location:Kul Tiras}.'
+
+L['athainne_note_1'] = '{note:{npc:140044} walks with {npc:129771} at night, and rests in {location:Ulfar\'s Den} during the day.}\n\nAsk {npc:140044} to use {item:209860} to create {item:209863}.'
+L['athainne_note_2'] = 'Una vez hayas hablado con {npc:140044} y conseguido las {item:209863} ves a la {location:Guarida de Ulfar} para pedir ayuda a {npc:141159}.'
+
+L['ulfar_note_1'] = 'Pregunta a {npc:149386} sobre usar las {item:209863} para crear el {item:209866}.'
+L['ulfar_note_2'] = 'Una vez tengas el {item:209866} vuelve al {location:Sueño Esmeralda} para encontrar un objetivo adecuado para el ritual de transformación.'
+
+L['thorn_stag_note'] = '1. Mata a {npc:210976}, y usa el {item:209866} en su cuerpo. El venado renacerá como {npc:210984} {npc:<Espíritu Nacido de las Espinas>}.\n\n2. Usa {spell:1515} en él.\n\n3. Hay tres colores disponibles para {npc:210984}: negro, marrón y verde.'
+L['thorn_saber_note'] = '1. Mata a {npc:210975}, y usa el {item:209867} en su cuerpo. El sable renacerá como {npc:210981} {npc:<Espíritu Nacido de las Espinas>}.\n\n2. Usa {spell:1515} en él.\n\n3. Hay tres colores disponibles para {npc:210981}: negro, verde y pálido.'
+L['thorn_bear_note'] = '1. Mata a {npc:210977}, y usa el {item:209868} en su cuerpo. El oso renacerá como {npc:210988} {npc:<Espíritu Nacido de las Espinas>}.\n\n2. Usa {spell:1515} en él.\n\n3. Hay tres colores disponibles para {npc:210988}: marrón, oscuro y verde.'
+
+L['nahqi_note'] = 'Requiere la {item:211314} para usar {spell:1515} con {npc:210908}, la cual se consigue de la montura {item:210061}.\n\n{npc:210908}{npc:<Ascua del Recrecimiento>} vuela por el cielo alrededor de {location:Amirdrassil} por una ruta {note:en sentido antihorario} que le lleva 17 minutos completarla. \nTras ello, reaparece como mínimo al cabo de 30 minutos. \n\n{note:Es una {npc:Bestia Espíritu}. Sólo pueden domarla los Cazadores Bestias.}'
+
+L['sulraka_note'] = '{npc:210868}{npc:<Hija de Kimbul>} patrulla el área al este de {location:Amirdrassil} por una ruta {note:en sentido antihorario} que le lleva 17 minutos completarla. \nTras ello, reaparece como mínimo al cabo de 30 minutos.\n\nPor donde pasa deja unas {object:Huellas Profundas} que duran 3 minutos. \nCamina siempre en sigilo por lo que para encontrarla tendrás que usar una {spell:1543} frente a una {object:Huella Profunda} fresca. \nUsa la {spell:257284} y/o {spell:187650} e intenta usar {spell:1515}.\n\n{note:Es importante atraparla o revelarla porque {npc:210868} no parará de moverse aunque la ataques. Puede salir fuera de rango de {spell:1543} cancelando la habilidad.}\n\n{note:Es una {npc:Bestia Espíritu}. Sólo pueden domarla los Cazadores Bestias.}'
+
+-------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
@@ -871,7 +1035,7 @@ L['soa_02_shomko_note_c'] = '{note:Aségurate de quedarte y matar al {npc:208182
 
 -- Secrets of Azeroth: Clue 3
 L['soa_03_rlabel'] = '(Pista 3)'
-L['soa_03_fangli_hoot_note_a'] = 'Habla con {npc:207696} para conseguir {item:207802}. Necesitarás crear {item:207827} consiguiendo varios objectos:'
+L['soa_03_fangli_hoot_note_a'] = 'Habla con {npc:207696} para conseguir las {item:207802}. Necesitarás crear {item:207827} consiguiendo varios objectos:'
 L['soa_03_fangli_hoot_note_b'] = 'Comercia 5x {item:207956} con {npc:185548} para conseguir {item:207814} en {location:Valdrakken}.'
 L['soa_03_fangli_hoot_note_c'] = 'Comercia 1x {item:207812} con {npc:197781} para conseguir {item:207813} en {location:Valdrakken}.'
 L['soa_03_fangli_hoot_note_d'] = 'Consigue 1x {item:207816} de {npc:198586} tras pagar su cuenta del bar en {location:Valdrakken}.'
