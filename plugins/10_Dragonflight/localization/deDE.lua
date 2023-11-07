@@ -145,22 +145,22 @@ L['options_icons_frostbound_chest'] = 'Frostgebundene Kiste'
 L['options_icons_frostbound_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Frostgebundene Kisten} an.'
 
 L['fyrakk_assault_label'] = 'Angriff von Fyrakk'
-L['fyrakk_secured_shipment'] = nil
+L['fyrakk_secured_shipment'] = 'Gesicherte Lieferung'
 
-L['shadowflame_forge_label'] = nil
-L['shadowflame_forge_note'] = nil
-L['shadowflame_blacksmithing_anvil_label'] = nil
-L['shadowflame_blacksmithing_anvil_note'] = nil
-L['shadowflame_leatherworking_table_label'] = nil
-L['shadowflame_leatherworking_table_note'] = nil
-L['shadowflame_incantation_table_label'] = nil
-L['shadowflame_incantation_table_note'] = nil
-L['azure_loom_label'] = nil
-L['azure_loom_note'] = nil
-L['temporal_loom_label'] = nil
-L['temporal_loom_note'] = nil
-L['earthwarders_forge_label'] = nil
-L['earthwarders_forge_note'] = nil
+L['shadowflame_forge_label'] = 'Schattenflammenschmiede'
+L['shadowflame_forge_note'] = 'Erforderlich für die Herstellung des Rezepts:\n{spell:408282}'
+L['shadowflame_blacksmithing_anvil_label'] = 'Schattenflammenschmiedeamboss'
+L['shadowflame_blacksmithing_anvil_note'] = 'Erforderlich für die Herstellung der Rezepte:\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
+L['shadowflame_leatherworking_table_label'] = 'Schattenflammenlederverarbeitungstisch'
+L['shadowflame_leatherworking_table_note'] = 'Erforderlich für die Herstellung des Rezepts:\n{spell:406275}'
+L['shadowflame_incantation_table_label'] = 'Schattenflammenzauberformeltisch'
+L['shadowflame_incantation_table_note'] = 'Erforderlich für die Herstellung des Rezepts:\n{spell:405076}'
+L['azure_loom_label'] = 'Azurblauer Webrahmen'
+L['azure_loom_note'] = 'Erforderlich für die Herstellung des Rezepts:\n{spell:376556}'
+L['temporal_loom_label'] = 'Temporalwebrahmen'
+L['temporal_loom_note'] = 'Erforderlich für die Herstellung des Rezepts:\n{spell:376557}'
+L['earthwarders_forge_label'] = 'Schmiede des Erdwächters'
+L['earthwarders_forge_note'] = 'Erforderlich für die Herstellung des Rezepts:\n{spell:367713}'
 
 L['dreamsurge_sublabel'] = '{note:Nur verfügbar, wenn ein {location:Traumsprung} in dieser Zone aktiv ist.}'
 L['celestine_vendor_note'] = 'Tausche {item:207026} gegen ein Reittier, Haustiere, Spielzeuge und Ausrüstungsvorlagen ein.'
@@ -471,7 +471,7 @@ L['lizi_note_day3'] = 'Sammle 10x {item:194966} gefischt aus allen Gewässern de
 L['lizi_note_day4'] = 'Sammle 20x {item:192636} von Mammuts in den {location:Ebenen von Ohn\'ahra}.'
 L['lizi_note_day5'] = 'Nimm die Quest {quest:71195} von {npc:190014} an und hole 1x {item:200598} von {npc:190015} in einem Zelt südlich der {location:Quellen von Ohn\'iri}.'
 
-L['ohnahra_note_start'] = 'Schließe die tägliche Questreihe {quest:71196} für {item:192799} bei den {location:Quellen von Ohn\'iri} ab. Nimm von {npc:190022} hinter einer Hütte bei den {location:Quellen von Ohn\'iri} die Quest {quest:72512} an. \n\nSammel die folgenden Materialien:'
+L['ohnahra_note_start'] = 'Schließe die tägliche Questreihe {quest:71196} für {item:192799} bei den {location:Quellen von Ohn\'iri} ab. Nimm von {npc:190022} hinter einer Hütte bei den {location:Quellen von Ohn\'iri} die Quest {quest:72512} an.\n\nSammel die folgenden Materialien:'
 L['ohnahra_note_item1'] = 'Sammle 3x {item:201929} von {npc:186151}, dem Endboss im Dungeon {location:Der Angriff der Nokhud}. Kein 100% Drop.'
 L['ohnahra_note_item2'] = 'Kaufe 1x {item:201323} von {npc:196707} für 50x {currency:2003} und 1x {item:194562}.\n{item:194562} kann von Zeitverlorenen Gegnern in {location:Thaldrazsus} geplündert werden.'
 L['ohnahra_note_item3'] = 'Kaufe 1x {item:191507} aus dem Auktionshaus. (Alchemisten können {item:191588} von {npc:196707} ab Ruhmstufe 22 kaufen)'
@@ -816,7 +816,7 @@ L['options_icons_ritual_offering_desc'] = 'Zeigt die möglichen Positionen von {
 L['nal_kskol_reliquary_label'] = 'Reliquiar von Nal ks\'kol'
 L['nal_kskol_reliquary_note'] = 'Benutze die {object:Reliquiarzugriffskonsole} und löse das Rätsel, um das {object:Reliquiar von Nal ks\'kol} öffnen zu können.'
 
-L['busted_wyrmhole_generator_note'] = nil
+L['busted_wyrmhole_generator_note'] = 'Enthält auch den {item:205954}, der dem {item:198156} die Option hinzufügt, dich in die {location:Zaralekhöhle} zu teleportieren.'
 L['molten_scoutbot_note'] = 'Öffne den {object:Geschmolzenen Späherbot} und plündere {item:204855}.'
 L['bolts_and_brass_note'] = 'Öffne {object:Bolzen und Bronze} und plündere {item:204850}.'
 
@@ -863,7 +863,7 @@ L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
 L['options_icons_emerald_dream_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:19401} an.'
 
 L['envoy_of_winter_note'] = 'Sammle {item:208881} und benutze {spell:421658} am Brunnen, bis der seltene Gegner erscheint.'
-L['fruitface_note'] = 'Sammle {item:208837} vom Boden auf, damit {npc:209980} erscheint. Greifen ihn an und folge ihm bis er ins Wasser springt und {npc:209966} und den seltenen Gegner erscheinen lässt.'
+L['fruitface_note'] = 'Biete {npc:209950} {dot:Pink} deine Hilfe an, um {spell:421446} zu erhalten, damit du {item:208837} sehen kannst. Sammle {item:208837} vom Boden auf, damit {npc:209980} erscheint. Greife ihn an und folge ihm bis er ins Wasser springt und {npc:209966} und den seltenen Gegner erscheinen lässt.'
 L['greedy_gessie_note'] = 'Sammle frische Zutaten wie {object:Wildes Grünzeug}, {object:Rubinschuppenmelone} oder {object:Orangenwurzel} aus der Umgebung und legt diese in die Körbe, damit der seltene Gegner erscheint.'
 L['nuoberon_note'] = 'Jagt Schildkröten, bewerft Affen mit Essen oder bekämpft Traummonster, um {npc:209101} zu einem lustigen Traum zu verhelfen!'
 L['reefbreaker_moruud_note'] = 'Befestige alle 6 {npc:210089e} an ihm, um ihn angreifen zu können.'
@@ -898,18 +898,18 @@ L['snuggle_buddy_note'] = 'In einem kleinen Boot.'
 
 L['dreamseed_soil_label'] = '{npc:210723}' -- Traumsaaterde
 L['dreamseed_soil_note'] = [[
-Die Qualität der {object:Smaragdblüten Belohnung} und die chance {item:210059} in der {object:Traumsaattruhe} zu finden hängt davon ab wieviel {currency:2650} beigesteuert werden.
+Die Qualität der {object:Smaragdblüten Belohnung} und die Chance {item:210059} in der {object:Traumsaattruhe} zu finden, hängt davon ab, wieviel {currency:2650} beigesteuert werden.
 
-{item:210224} (Mindestens ein {currency:2650} beisteuern)
+{item:210224} (Mindestens einmal {currency:2650} beisteuern)
 {item:210225} (Fortschritt: 50%)
 {item:210226} (Fortschritt: 100%)
 
-Die Qualität der {object:Traumsaat} bestimmt die art der Belohnung:
+Die Qualität der {object:Traumsaat} bestimmt die Art der Belohnung:
 {item:208066}: Eine Ausrüstungsvorlage oder Handwerksmaterialien.
 {item:208067}: Ein Haustier oder Handwerksmaterialien.
 {item:208047}: Ein Reittier oder Handwerksmaterialien.
 
-{note:Für eine Liste der Belohungen sieh dir {npc:211265} auf der Insel im Norden an, Sie verkauft auch die meisten Belohungen.}
+{note:Für eine Liste der Belohungen sieh dir {npc:211265} auf der Insel im Norden an, sie verkauft auch die meisten Belohungen.}
 ]]
 L['dreamseed_cache'] = 'Traumsaattruhe'
 
@@ -987,7 +987,7 @@ L['options_icons_somnut_desc'] = 'Zeigt die möglichen Positionen für {object:S
 L['improvised_leafbed_note'] = 'Beginne die Quest {quest:77896} und schließe die Questreihe ab, um {item:210864} von {npc:210164} zu erhalten.'
 L['kalandu_note'] = 'Beginne die Quest {quest:77948} und schließe die Questreihe ab, um {item:210633} von {npc:210196} zu erhalten.'
 
-L['renewed_dream'] = nil
+L['renewed_dream'] = '{note:An dieser Position ist KEIN Schatz!}\n{item:201437} kann überall in {location:Der Smaragdgrüne Traum} als Beute fallen gelassen werden.\nKombiniere 5 {item:201437}, um {item:201439} wiederherzustellen.'
 
 L['ochre_note'] = 'Sprich mit {npc:209253}, um die Questreihe zu starten. {npc:209571} wird die nächsten Abschnitte anbieten.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:5 Tage zum Wachsen.}'
@@ -1000,24 +1000,24 @@ L['thorn_beast_stag'] = '{item:%d} ({npc:Hirsch})'
 L['thorn_beast_saber'] = '{item:%d} ({npc:Säbler})' -- review
 L['thorn_beast_bear'] = '{item:%d} ({npc:Bär})'
 
-L['thornbeast_disclaimer'] = '{note:Info: Jede Bestienart hat ein einzigartiges {item:%s}, das zur passenden Dornenbestie führt.}' -- review
+L['thornbeast_disclaimer'] = '{note:Info: Jede Bestienart hat einzigartige {item:%s}, die zur passenden Dornenbestie führen.}'
 
 L['thorn_laden_heart_note_1'] = 'Plündere ein {item:209860} von einem {npc:Hirsch}, {npc:Säbler} oder {npc:Bär} in {location:Der Smaragdgrüne Traum}.'
 L['thorn_laden_heart_note_2'] = 'Sobald du ein {item:209860} hast, gehe nach {location:Drustvar} in {location:Kul Tiras} zu {npc:140044}.'
 
-L['athainne_note_1'] = '{note:{npc:140044} läuft nachts mit {npc:129771} umher und ruht sich tagsüber in {location:Ulfars Höhle} aus.}\n\nSprich mit {npc:140044}, um {item:209863} zu erhalten.' -- review
-L['athainne_note_2'] = 'Gehe mit den {item:209863} zu {npc:141159} in {location:Ulfars Höhle}.' -- review
+L['athainne_note_1'] = '{note:{npc:140044} läuft nachts mit {npc:129771} umher und ruht sich tagsüber in {location:Ulfars Höhle} aus.}\n\nSprich mit {npc:140044}, um {item:209863} zu erhalten.'
+L['athainne_note_2'] = 'Gehe mit den {item:209863} zu {npc:141159} in {location:Ulfars Höhle}.'
 
-L['ulfar_note_1'] = 'Sprich mit {npc:149386}, um {item:209866} zu erhalten.' -- review
+L['ulfar_note_1'] = 'Sprich mit {npc:149386}, um {item:209866} zu erhalten.'
 L['ulfar_note_2'] = 'Sobald du das {item:209866} hast, gehe zurück in {location:Der Smaragdgrüne Traum}, um ein geeignetes Ziel für das Transformationsritual zu finden.'
 
-L['thorn_stag_note'] = '1. Töte {npc:210976} und benutze das {item:209866} mit der Leiche. Der Hirsh wird als {npc:210984} {npc:<Thornborn Spirit>} wiedererscheinen.\n\n2. Wirke {spell:1515} auf ihn.\n\n3. {npc:210984} ist in 3 Farben verfügbar: schwarz, braun und grün.' -- review
-L['thorn_saber_note'] = '1. Töte {npc:210975} und benutze das {item:209867} mit der Leiche. Der Säbler wird als {npc:210981} {npc:<Thornborn Spirit>} wiedererscheinen.\n\n2. Wirke {spell:1515} auf ihn.\n\n3. {npc:210981} ist in 3 Farben verfügbar: schwarz, grün und hell.' -- review
-L['thorn_bear_note'] = '1. Töte {npc:210977} und benutze das {item:209868} mit der Leiche. Der Bär wird als {npc:210988} {npc:<Thornborn Spirit>} wiedererscheinen.\n\n2. Wirke {spell:1515} auf ihn.\n\n3. {npc:210988} ist in 3 Farben verfügbar: braun, dunkel und grün.' -- review
+L['thorn_stag_note'] = '1. Töte {npc:210976} und benutze das {item:209866} mit der Leiche. Der Hirsch wird als {npc:210984} wiedererscheinen.\n\n2. Wirke {spell:1515} auf ihn.\n\n3. {npc:210984} ist in 3 Farben verfügbar: schwarz, braun und grün.' -- review colors
+L['thorn_saber_note'] = '1. Töte {npc:210975} und benutze das {item:209867} mit der Leiche. Der Säbler wird als {npc:210981} wiedererscheinen.\n\n2. Wirke {spell:1515} auf ihn.\n\n3. {npc:210981} ist in 3 Farben verfügbar: schwarz, grün und hell.' -- review colors
+L['thorn_bear_note'] = '1. Töte {npc:210977} und benutze das {item:209868} mit der Leiche. Der Bär wird als {npc:210988} wiedererscheinen.\n\n2. Wirke {spell:1515} auf ihn.\n\n3. {npc:210988} ist in 3 Farben verfügbar: braun, dunkel und grün.' -- review colors
 
-L['nahqi_note'] = nil
+L['nahqi_note'] = 'Benötigt die {item:211314}, um {npc:210908} mit {spell:1515} zu zähmen.\n\n{npc:210908} fliegt im Himmel um {location:Amirdrassil} {note:gegen den Uhrzeigersinn} seine Runde.\n\n{note:Diese {npc:Geisterbestie} können nur Tierherrschafts-Jäger zähmen.}' -- review Das vom Reittier {item:210061} erhältlich ist
 
-L['sulraka_note'] = nil
+L['sulraka_note'] = 'Patrouilliert das Gebiet östlich von {location:Amirdrassil} {note:gegen den Uhrzeigersinn}.\n\nLässt während des laufens {object:Heavy Tracks} zurück, die 3 Minuten halten.\nLäuft immer in Verstohlenheit, du musst ihn mit deiner Fähigkeit {spell:1543} vor frischen {object:Heavy Tracks} aufdecken.\nZaubere {spell:257284} auf ihn und/oder benutze {spell:187650} und versuche ihn mit {spell:1515} zu zähmen.\n\n{note:Es ist wichtig, ihn aufzudecken oder zu fangen, denn {npc:210868} hört nicht auf sich zu bewegen, selbst wenn er angegriffen wird. Kann aus der Reichweite von {spell:1543} laufen.}\n\n{note:Diese {npc:Geisterbestie} können nur Tierherrschafts-Jäger zähmen.}' -- review Heavy Tracks
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
