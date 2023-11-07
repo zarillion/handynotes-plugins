@@ -1,3 +1,28 @@
+# v43
+
+* Added content for Guardians of the Dream.
+  * Added new rares, treasures, battle pets, dragon glyphs and races.
+  * Added Dreamfruit locations.
+  * Added druid glyph locations.
+  * Added Emerald Bounty locations.
+  * Added hatchling locations for Friends in Feathers.
+  * Added Moonblessed Claw locations.
+  * Added new profession treasures.
+  * Added Somnut locations.
+  * Added the Ochre Dreamtalon mount.
+  * Added the seedbloom and dream energy vendors.
+* Added challenge and reverse challenge races.
+* Added Eastern Kingdoms cup races.
+* Added many missing dragonrace timings.
+* Added missing elusive creature data.
+* Added numerous missing rares and rewards.
+* Added requirements to Fyrakk Assaults.
+* Added Rostrum of Transformation nodes.
+* Added storm race rewards.
+* Added tooltip rendering enhancements.
+* Added Warcraft Rumble toys.
+* Update TOC for 10.2
+
 # v42
 
 * Added Dreamsurge rewards.
