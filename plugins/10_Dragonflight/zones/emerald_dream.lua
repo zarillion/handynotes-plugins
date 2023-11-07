@@ -1343,16 +1343,14 @@ end
 -------------------------------- SMALL SOMNUTS --------------------------------
 -------------------------------------------------------------------------------
 -- Laden Somnut -- Renown 11 --Review what's difference between Laden and small
--- Small Dreamseed
--- Flightstones -- 4~6
--- Dragon Isles Supplies -- 30~39
 
 local Somnut = Class('Somnut', Node, {
     label = L['somnut'],
     icon = 656681,
     group = ns.groups.SOMNUT,
-    requires = {ns.requirement.Reputation(2574, 2, true)},
+    requires = {ns.requirement.Reputation(2574, 2, true)}, -- review required? i can loot them at renown 1
     rewards = {
+        ns.reward.Quest({id = 78172}), -- Mysterious Seeds
         Item({item = 208066}), -- Small Dreamseed
         Transmog({item = 210132, type = L['2h_sword']}), -- Wildleaf Greatsword
         Transmog({item = 210128, type = L['2h_sword']}), -- Autumn Defender's Claymore
@@ -1415,6 +1413,7 @@ map.nodes[59002516] = Somnut()
 map.nodes[59425365] = Somnut()
 map.nodes[59566338] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
 map.nodes[60134204] = Somnut() -- Bugged inside the Branch/Root. only lootable with interact key.
+map.nodes[60135629] = Somnut()
 map.nodes[60504531] = Somnut({location = L['in_a_tree']})
 map.nodes[61748602] = Somnut()
 map.nodes[61977450] = Somnut()
@@ -1458,11 +1457,11 @@ map.nodes[46805910] = EmeraldDream_Safari({
     -- pois = {POI({})}
 }) -- Leyhart
 
-map.nodes[91005600] = EmeraldDream_Safari({
-    id = 212437,
-    rewards = {Achievement({id = 19401, criteria = 63275}), Pet({id = 4302})}
-    -- pois = {POI({})}
-}) -- Pale Slumbertooth
+-- map.nodes[91005600] = EmeraldDream_Safari({
+--     id = 212437,
+--     rewards = {Achievement({id = 19401, criteria = 63275}), Pet({id = 4302})}
+--     -- pois = {POI({})}
+-- }) -- Pale Slumbertooth
 
 map.nodes[38805110] = EmeraldDream_Safari({
     id = 211302,
@@ -1482,7 +1481,7 @@ map.nodes[48207620] = EmeraldDream_Safari({
     -- pois = {POI({})}
 }) -- Slumbertooth
 
-map.nodes[89005900] = EmeraldDream_Safari({
+map.nodes[57712630] = EmeraldDream_Safari({
     id = 212459,
     rewards = {Achievement({id = 19401, criteria = 63279}), Pet({id = 4303})}
     -- pois = {POI({})}
