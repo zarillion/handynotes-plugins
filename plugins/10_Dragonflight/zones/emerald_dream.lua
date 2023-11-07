@@ -1535,8 +1535,8 @@ local SeedbloomVendor = Class('SeedbloomVendor', NPC, {
         Pet({item = 210571, id = 4296, count = '1'}), -- Snoozles
         Pet({item = 210570, id = 4295, count = '1'}), -- Napps
         Pet({item = 210651, id = 4299, count = '1'}), -- Dustite
-        Pet({item = 210648, id = 4298, count = '1'}), -- Seedle
-        Spacer(), --
+        Pet({item = 210648, id = 4298, count = '1'}) -- Seedle
+        -- Spacer(), --
         -- Section(ns.requirement.Reputation(2574, 18, true):GetText()), -- she doesnt sell mounts to me
         -- Mount({item = 209950, id = 1810, count = '1'}), -- Reins of the Rekindled Dreamstag
         -- Mount({item = 209947, id = 1808, count = '1'}), -- Reins of the Blossoming Dreamstag
