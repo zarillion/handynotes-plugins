@@ -560,39 +560,25 @@ map.nodes[29275803] = Treasure({
 
 -------------------------------------------------------------------------------
 
-local Book = Class('Book', Treasure, {icon = 133741})
+local Book = Class('Book', ns.node.Item, {icon = 133741})
 
 map.nodes[49816171] = Book({
+    id = 210049,
     quest = 78831,
-    label = '{item:210049}',
-    note = L['inside_building'],
-    rewards = {Item({item = 210049})} -- The Legend of Elun'Ahir
+    note = L['inside_building']
 }) -- The Legend of Elun'Ahir
 
-map.nodes[54462464] = Book({
-    quest = 78833,
-    label = '{item:208649}',
-    rewards = {Item({item = 208649})} -- On the Nature of the Dream
-}) -- On the Nature of the Dream
+map.nodes[54462464] = Book({id = 208649, quest = 78833}) -- On the Nature of the Dream
 
-map.nodes[59641910] = Book({
-    quest = 78834,
-    label = '{item:210346}',
-    rewards = {Item({item = 210346})} -- Self-Baking Herb Based Cookies
-}) -- Self-Baking Herb Based Cookies
+map.nodes[59641910] = Book({id = 210346, quest = 78834}) -- Self-Baking Herb Based Cookies
 
 map.nodes[53712395] = Book({
+    id = 208619,
     quest = 78835,
-    label = '{item:208619}',
-    note = L['inside_building'],
-    rewards = {Item({item = 208619})} -- The Tragedy of Erinethria
+    note = L['inside_building']
 }) -- The Tragedy of Erinethria
 
-map.nodes[60834489] = Book({
-    quest = 78911,
-    label = '{item:210737}',
-    rewards = {Item({item = 210737})} -- Ashwood Research Binder
-}) -- Ashwood Research Binder
+map.nodes[60834489] = Book({id = 210737, quest = 78911}) -- Ashwood Research Binder
 
 -------------------------------------------------------------------------------
 
