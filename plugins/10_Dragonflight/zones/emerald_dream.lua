@@ -560,23 +560,28 @@ map.nodes[29275803] = Treasure({
 
 -------------------------------------------------------------------------------
 
-map.nodes[49816171] = Treasure({
-    icon = 133741,
+local Book = Class('Book', Treasure, {icon = 133741})
+
+map.nodes[49816171] = Book({
     quest = 78831,
     label = '{item:210049}',
     note = L['inside_building'],
     rewards = {Item({item = 210049})} -- The Legend of Elun'Ahir
 }) -- The Legend of Elun'Ahir
 
-map.nodes[54462464] = Treasure({
-    icon = 133741,
+map.nodes[54462464] = Book({
     quest = 78833,
     label = '{item:208649}',
     rewards = {Item({item = 208649})} -- On the Nature of the Dream
 }) -- On the Nature of the Dream
 
-map.nodes[53712395] = Treasure({
-    icon = 133741,
+map.nodes[59641910] = Book({
+    quest = 78834,
+    label = '{item:210346}',
+    rewards = {Item({item = 210346})} -- Self-Baking Herb Based Cookies
+}) -- Self-Baking Herb Based Cookies
+
+map.nodes[53712395] = Book({
     quest = 78835,
     label = '{item:208619}',
     note = L['inside_building'],
@@ -860,6 +865,21 @@ map.nodes[37757026] = MoonkinHatchling({
 ------------------------------- DREAMSEED SOIL --------------------------------
 -------------------------------------------------------------------------------
 
+local AgelessBlossom = Class('AgelessBlossom', Collectible, {
+    requires = ns.requirement.Quest(78172), -- ![Mysterious Seeds]
+    icon = 464030,
+    group = ns.groups.DREAM_OF_SEEDS,
+    rewards = {
+        Achievement({id = 19013, criteria = 62396}) -- I Dream of Seeds
+    },
+    label = format('%s - %s', L['dreamseed_soil_label'],
+        GetAchievementCriteriaInfoByID(19013, 62396))
+}) -- Emerald Bounty
+
+map.nodes[59201737] = AgelessBlossom()
+map.nodes[59731584] = AgelessBlossom()
+map.nodes[60101818] = AgelessBlossom()
+
 local EmeraldBounty = Class('EmeraldBounty', Node, {
     note = L['dreamseed_soil_note'],
     requires = {
@@ -870,7 +890,7 @@ local EmeraldBounty = Class('EmeraldBounty', Node, {
     getters = {
         label = function(self)
             local id = self.criteriaID
-            local name = select(1, GetAchievementCriteriaInfoByID(19013, id))
+            local name = GetAchievementCriteriaInfoByID(19013, id)
             return format('%s - %s', L['dreamseed_soil_label'], name)
         end,
         rewards = function(self)
@@ -902,15 +922,6 @@ local EmeraldBounty = Class('EmeraldBounty', Node, {
     }
 }) -- Emerald Bounty
 
-local AgelessBlossom = EmeraldBounty({
-    requires = ns.requirement.Quest(78172), -- ![Mysterious Seeds]
-    criteriaID = 62396
-})
-
-map.nodes[59201737] = AgelessBlossom
-map.nodes[59731584] = AgelessBlossom
-map.nodes[60101818] = AgelessBlossom
-
 map.nodes[38455920] = EmeraldBounty({criteriaID = 62185}) -- Comfy Chamomile
 map.nodes[40025269] = EmeraldBounty({criteriaID = 62035}) -- Viridescent Sprout
 map.nodes[40682478] = EmeraldBounty({criteriaID = 62027}) -- Lavatouched Lilies
@@ -936,8 +947,8 @@ hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
     local group = ns.groups.DREAM_OF_SEEDS
     if not ns.maps[mapID] or not group:GetDisplay(mapID) then return end
 
-    local x = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).x
-    local y = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).y
+    local x, y =
+        C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID):GetXY()
     local node = ns.maps[mapID].nodes[HandyNotes:getCoord(x, y)]
     if not node then return end
 
