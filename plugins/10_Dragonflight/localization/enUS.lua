@@ -529,7 +529,7 @@ L['ancient_protector_note'] = 'Kill nearby {npc:193244} to get {item:197708}. Co
 L['blightpaw_note'] = 'Talk to {npc:193222} nearby and agree to help him.'
 L['corrupted_proto_dragon_note'] = 'Inspect the {object:Corrupted Dragon Egg} to spawn the rare.'
 L['lord_epochbrgl_note'] = 'Click {npc:193257} to spawn the rare.'
-L['the_great_shellkhan_note'] = 'Collect {item:200949} from {location:Kauriq Gleamlet} in {location:The Azure Span}, go back to {npc:191416} within 3 minutes to return the item to activate the rare and get the achievement. \n\n{note:Make sure {npc:191416} and {npc:191305} are acutally there before you start. Only one character can pick up and return the item once a week to activate the rare, after which {npc:191416} will only thank you.}'
+L['the_great_shellkhan_note'] = 'Collect {item:200949} from {location:Kauriq Gleamlet} in {location:The Azure Span}, go back to {npc:191416} within 3 minutes to return the item to activate the rare and get the achievement.\n\n{note:Make sure {npc:191416} and {npc:191305} are acutally there before you start. Only one character can pick up and return the item once a week to activate the rare, after which {npc:191416} will only thank you.}'
 L['weeping_vilomah_note'] = 'Talk to {npc:193206} to summon the rare.'
 L['woofang_note'] = 'Pet {npc:193156} to spawn the rare.'
 
@@ -815,7 +815,7 @@ L['options_icons_ritual_offering_desc'] = 'Display possible locations of {object
 L['nal_kskol_reliquary_label'] = 'Nal ks\'kol Reliquary'
 L['nal_kskol_reliquary_note'] = 'Use the {object:Reliquary Access Console} and solve the puzzle to open the {object:Nal ks\'kol Reliquary}.'
 
-L['busted_wyrmhole_generator_note'] = '{item:205954} also looted from {object:Busted Wyrmhole Generator}.\n On use to unlock {location:Zaralek Cavern} wormhole option for {item:198156}.'
+L['busted_wyrmhole_generator_note'] = '{item:205954} also looted from {object:Busted Wyrmhole Generator}.\nOn use to unlock {location:Zaralek Cavern} wormhole option for {item:198156}.'
 L['molten_scoutbot_note'] = 'Open the {object:Molten Scoutbot} and loot the {item:204855}.'
 L['bolts_and_brass_note'] = 'Open the {object:Bolts and Brass} and loot the {item:204850}.'
 
@@ -862,7 +862,7 @@ L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
 L['options_icons_emerald_dream_safari_desc'] = 'Display battle pet locations for the {achievement:19401} achievement.'
 
 L['envoy_of_winter_note'] = 'Gather {item:208881} and use {spell:421658} near the well until {npc:209929} spawns.'
-L['fruitface_note'] = 'Ask {dot:Pink} {npc:209950} to cast {spell:421446} on you, then {item:208837} on the ground become visiable. Pick them up to let {dot:Yellow} {npc:209980} appear. Attack and follow him until he jumps in the water {dot:Red} and summons {npc:209966} and {npc:209913}.'
+L['fruitface_note'] = 'Offer {npc:209950} {dot:Pink} your help to get {spell:421446}, then {item:208837s} become visible on the ground. Pick them up to let {npc:209980} {dot:Yellow} appear. Attack and follow him until he jumps in the water {dot:Red} and summons {npc:209966} and {npc:209913}.'
 L['greedy_gessie_note'] = 'You need to collect {object:Wild Greens}, {object:Rubyscale Melon} and {object:Orangeroot} from the surrounding area and put them in the baskets near the {npc:210285s} to start the encounter.'
 L['nuoberon_note'] = 'Chase turtles, throw food at monkeys, or fight dream monsters to help {npc:209101} have a fun Dream!'
 L['reefbreaker_moruud_note'] = 'Connect all 6 of the nearby {npc:210089} to attack {npc:209898}.'
@@ -899,7 +899,7 @@ L['dreamseed_soil_label'] = 'Dreamseed Soil'
 L['dreamseed_soil_note'] = [[
 The quality of the {object:Emerald Bloom Rewards} and the chances of finding {item:210059} in the {object:Dreamseed Cache} depend on how much {currency:2650} you contribute.
 
-{item:210224} (Contribute at least one {currency:2650})
+{item:210224} (Contribute {currency:2650} at least once)
 {item:210225} (Progress: 50%)
 {item:210226} (Progress: 100%)
 
@@ -1014,9 +1014,10 @@ L['thorn_stag_note'] = '1. Kill {npc:210976}, then use {item:209866} on the corp
 L['thorn_saber_note'] = '1. Kill {npc:210975}, then use {item:209867} on the corpse. The saber will respawn as {npc:210981} {npc:<Thornborn Spirit>}.\n\n2. Cast {spell:1515} on it.\n\n3. Three color are available for {npc:210981}: black, green, and pale.'
 L['thorn_bear_note'] = '1. Kill {npc:210977}, then use {item:209868} on the corpse. The bear will respawn as {npc:210988} {npc:<Thornborn Spirit>}.\n\n2. Cast {spell:1515} on it.\n\n3. Three color are available for {npc:210988}: brown, dark, and green.'
 
-L['nahqi_note'] = 'It requires the {item:211314} to use {spell:1515} with {npc:210908}, that is obtained from the mount {item:210061}.\n\n{npc:210908}{npc:<Ember of Regrowth>} flies in the sky around {location:Amirdrassil} in a {note:counter clockwise} route, taking 17:30 minutes to complete a lap. \nIt has a minimum respawn timer of 30 minutes. \n\n{note:It is a {npc:Spirit Beast}. Only Beast Mastery Hunters can tame it.}'
+L['nahqi_note'] = 'It requires the {item:211314} to use {spell:1515} with {npc:210908}, that is obtained from the mount {item:210061}.\n\n{npc:210908}{npc:<Ember of Regrowth>} flies in the sky around {location:Amirdrassil} in a {note:counter clockwise} route, taking 17:30 minutes to complete a lap.\nIt has a minimum respawn timer of 30 minutes.\n\n{note:It is a {npc:Spirit Beast}. Only Beast Mastery Hunters can tame it.}'
 
-L['sulraka_note'] = '{npc:210868}{npc:<Daughter of Kimbul>} patrols the area to the east of {location:Amirdrassil} in a {note:counter clockwise} route, taking 17 minutes to complete a lap. \nIt has a minimum respawn timer of 30 minutes.\n\nIt leaves behind {object:Heavy Tracks} while walking which lasts 3 minutes. \nWalks always in stealth, so you will need to use {spell:1543} in front of a freshly {object:Heavy Tracks} to reveal her. \nCast {spell:257284} and/or {spell:187650} and attempt to {spell:1515}.\n\n{note:It is important to trap it or to reveal her because {npc:210868} will not stop moving, even when attacked. Can get out of range of the {spell:1543} cancelling the skill.}\n\n{note:It is a {npc:Spirit Beast}. Only Beast Mastery Hunters can tame it.}'
+L['sulraka_note'] = '{npc:210868}{npc:<Daughter of Kimbul>} patrols the area to the east of {location:Amirdrassil} in a {note:counter clockwise} route, taking 17 minutes to complete a lap.\nIt has a minimum respawn timer of 30 minutes.\n\nIt leaves behind {object:Heavy Tracks} while walking which lasts 3 minutes.\nWalks always in stealth, so you will need to use {spell:1543} in front of a freshly {object:Heavy Tracks} to reveal her.\nCast {spell:257284} and/or {spell:187650} and attempt to {spell:1515}.\n\n{note:It is important to trap it or to reveal her because {npc:210868} will not stop moving, even when attacked. Can get out of range of the {spell:1543} cancelling the skill.}\n\n{note:It is a {npc:Spirit Beast}. Only Beast Mastery Hunters can tame it.}'
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
