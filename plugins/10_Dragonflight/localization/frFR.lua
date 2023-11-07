@@ -894,13 +894,21 @@ L['plush_pillow_note'] = 'A l\'intérieur de la petite cabane, sur une table.'
 L['snuggle_buddy_note'] = 'A l\'intérieur d\'un petit bateau.'
 
 L['dreamseed_soil_label'] = 'Sol pour graine onirique'
-L['dreamseed_soil_note'] = nil
--- L['dreamseed_soil_note'] = [[
--- Vous ne pouvez obtenir des {currency:2651}, {item:210651} et des cosmétiques que si vous contribuez ou plantez une Graine onirique, la quantité de {currency:2651} dépend de la qualité de la graine.
+L['dreamseed_soil_note'] = [[
+La qualité des {object:Récompenses de Floraison émeraude} et les chances de trouver les {item:210059} dans la {object:Cache de graine onirique} dépendent du nombre de {currency:2650} que vous contribuez.
 
--- Si vous contribuez avec des {currency:2650}, vous recevrez une petite quantité de matériaux d'artisanat et des {currency:2245s}.
--- ]]
-L['dreamseed_cache'] = nil
+{item:210224} (Contribuez avec au moins une {currency:2650})
+{item:210225} (Progression : 50%)
+{item:210226} (Progression : 100%)
+
+La qualité de la {object:Graine onirique} contribuée détermine le type de récompense :
+{item:208066}: Un objet de transmogrification ou des composants d'artisanat.
+{item:208067}: Une mascotte ou des composants d'artisanat.
+{item:208047}: Une monture ou des composants d'artisanat.
+
+{note:Pour voir la liste des récompenses, allez voir {npc:211265} sur l'île au nord, elle vend aussi la plupart des récompenses.}
+]]
+L['dreamseed_cache'] = 'Cache de graine onirique'
 
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:Sol pour graine onirique} pour le haut-fait {achievement:19013}.'
@@ -967,7 +975,7 @@ L['elianna_vendor_note'] = 'Terminer des activités au sein du {location:Rêve d
 L['dream_energy_name'] = 'Énergie du rêve' -- PH Name
 L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
 
-L['sylvia_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification.'
+L['sylvia_vendor_note'] = 'Échangez vos {currency:2651} contre des mascottes, des montures et des objets de transmogrification. Vous pouvez également obtenir ces récompenses grâce aux Graines oniriques.'
 
 L['somnut'] = 'Somninoix'
 L['options_icons_somnut'] = 'Somninoix'
