@@ -588,6 +588,12 @@ map.nodes[53712395] = Book({
     rewards = {Item({item = 208619})} -- The Tragedy of Erinethria
 }) -- The Tragedy of Erinethria
 
+map.nodes[60834489] = Book({
+    quest = 78911,
+    label = '{item:210737}',
+    rewards = {Item({item = 210737})} -- Ashwood Research Binder
+}) -- Ashwood Research Binder
+
 -------------------------------------------------------------------------------
 
 local UnwakingEcho = Class('UnwakingEcho', Treasure, {
