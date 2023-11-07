@@ -815,7 +815,7 @@ L['options_icons_ritual_offering_desc'] = 'Muestra dónde pueden haber {object:O
 L['nal_kskol_reliquary_label'] = 'Relicario de Nal ks\'kol'
 L['nal_kskol_reliquary_note'] = 'Usa la {object:Consola de Acceso al Relicario} y resuelve el puzzle para abrir el {object:Relicario de Nal ks\'kol}.'
 
-L['busted_wyrmhole_generator_note'] = 'La {item:205954} puede despojarse del {object:Generador de Agujeros de Vermis Destrozado}.\n Al usarla, desbloquearás en el generador de gusanos la opción {location:Caverna Zaralek} para el {item:198156}.'
+L['busted_wyrmhole_generator_note'] = 'La {item:205954} puede despojarse del {object:Generador de Agujeros de Vermis Destrozado}.\nAl usarla, desbloquearás en el generador de gusanos la opción {location:Caverna Zaralek} para el {item:198156}.'
 L['molten_scoutbot_note'] = 'Abre el {object:Explorabot de magma} y despoja el {item:204850}.'
 L['bolts_and_brass_note'] = 'Abre los {object:Tornillos y Latón} y despoja los {item:204850}.'
 
@@ -862,7 +862,7 @@ L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
 L['options_icons_emerald_dream_safari_desc'] = 'Muestra dónde están los combates de mascotas para el logro {achievement:19401}.'
 
 L['envoy_of_winter_note'] = 'Reune {item:208881} y usa {spell:421658} cerca del pozo hasta que aparezca {npc:209929}.'
-L['fruitface_note'] = 'Coge una {item:208837} del suelo para dejar aparecer a {npc:209980}. Atácale y síguelo hasta que salte al agua e invoque al raro {npc:209966}.'
+L['fruitface_note'] = 'Ofrece a {npc:209950} {dot:Pink} tu ayuda para conseguir {spell:421446} y así hacer visible en el suelo unas {item:208837}. Cógelas y deja que aparezca {npc:209980} {dot:Yellow}. Atácale y síguele hasta que salte al agua {dot:Red} e invoque a {npc:209966} y a {npc:209913}.'
 L['greedy_gessie_note'] = 'Necesitas recoger {object:Verduras Salvajes}, {object:Melón Escamarrubí} y {object:Naranjarraíz} alrededor de la zona y ponerlo todo en las cestas cerca de {npc:210285s} para comenzar el encuentro.'
 L['nuoberon_note'] = 'Persigue tortugas, lanza comida a los monos, o lucha contra monstruos oníricos para ayudar a que {npc:209101} tenga un sueño divertido.'
 L['reefbreaker_moruud_note'] = 'Conecta las 6 {npc:210089} cercanas para atacar a {npc:209898}.'
@@ -899,7 +899,7 @@ L['dreamseed_soil_label'] = 'Tierra con Semillas del Sueño'
 L['dreamseed_soil_note'] = [[
 La calidad de las {object:Recompensa Flor de Esmeralda} y las probabilidades de encontrar las {item:210059} en el {object:Alijo de Semillas del Sueño} depende de cuanto aportes de {currency:2650}.
 
-{item:210224} (Aporta al menos un {currency:2650})
+{item:210224} (Aporta {currency:2650} al menos una vez)
 {item:210225} (Progreso: 50%)
 {item:210226} (Progreso: 100%)
 
@@ -1014,9 +1014,9 @@ L['thorn_stag_note'] = '1. Mata a {npc:210976}, y usa el {item:209866} en su cue
 L['thorn_saber_note'] = '1. Mata a {npc:210975}, y usa el {item:209867} en su cuerpo. El sable renacerá como {npc:210981} {npc:<Espíritu Nacido de las Espinas>}.\n\n2. Usa {spell:1515} en él.\n\n3. Hay tres colores disponibles para {npc:210981}: negro, verde y pálido.'
 L['thorn_bear_note'] = '1. Mata a {npc:210977}, y usa el {item:209868} en su cuerpo. El oso renacerá como {npc:210988} {npc:<Espíritu Nacido de las Espinas>}.\n\n2. Usa {spell:1515} en él.\n\n3. Hay tres colores disponibles para {npc:210988}: marrón, oscuro y verde.'
 
-L['nahqi_note'] = 'Requiere la {item:211314} para usar {spell:1515} con {npc:210908}, la cual se consigue de la montura {item:210061}.\n\n{npc:210908}{npc:<Ascua del Recrecimiento>} vuela por el cielo alrededor de {location:Amirdrassil} por una ruta {note:en sentido antihorario} que le lleva 17 minutos completarla. \nTras ello, reaparece como mínimo al cabo de 30 minutos. \n\n{note:Es una {npc:Bestia Espíritu}. Sólo pueden domarla los Cazadores Bestias.}'
+L['nahqi_note'] = 'Requiere la {item:211314} para usar {spell:1515} con {npc:210908}, la cual se consigue de la montura {item:210061}.\n\n{npc:210908}{npc:<Ascua del Recrecimiento>} vuela por el cielo alrededor de {location:Amirdrassil} por una ruta {note:en sentido antihorario} que le lleva 17 minutos completarla.\nTras ello, reaparece como mínimo al cabo de 30 minutos.\n\n{note:Es una {npc:Bestia Espíritu}. Sólo pueden domarla los Cazadores Bestias.}'
 
-L['sulraka_note'] = '{npc:210868}{npc:<Hija de Kimbul>} patrulla el área al este de {location:Amirdrassil} por una ruta {note:en sentido antihorario} que le lleva 17 minutos completarla. \nTras ello, reaparece como mínimo al cabo de 30 minutos.\n\nPor donde pasa deja unas {object:Huellas Profundas} que duran 3 minutos. \nCamina siempre en sigilo por lo que para encontrarla tendrás que usar una {spell:1543} frente a una {object:Huella Profunda} fresca. \nUsa la {spell:257284} y/o {spell:187650} e intenta usar {spell:1515}.\n\n{note:Es importante atraparla o revelarla porque {npc:210868} no parará de moverse aunque la ataques. Puede salir fuera de rango de {spell:1543} cancelando la habilidad.}\n\n{note:Es una {npc:Bestia Espíritu}. Sólo pueden domarla los Cazadores Bestias.}'
+L['sulraka_note'] = '{npc:210868}{npc:<Hija de Kimbul>} patrulla el área al este de {location:Amirdrassil} por una ruta {note:en sentido antihorario} que le lleva 17 minutos completarla.\nTras ello, reaparece como mínimo al cabo de 30 minutos.\n\nPor donde pasa deja unas {object:Huellas Profundas} que duran 3 minutos.\nCamina siempre en sigilo por lo que para encontrarla tendrás que usar una {spell:1543} frente a una {object:Huella Profunda} fresca.\nUsa la {spell:257284} y/o {spell:187650} e intenta usar {spell:1515}.\n\n{note:Es importante atraparla o revelarla porque {npc:210868} no parará de moverse aunque la ataques. Puede salir fuera de rango de {spell:1543} cancelando la habilidad.}\n\n{note:Es una {npc:Bestia Espíritu}. Sólo pueden domarla los Cazadores Bestias.}'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
