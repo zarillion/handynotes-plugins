@@ -481,7 +481,7 @@ map.nodes[37263069] = Treasure({
     }
 }) -- Pineshrew Cache
 
-bor.nodes[63363628] = Treasure({
+bor.nodes[63863509] = Treasure({
     quest = 78359,
     location = L['in_cave'],
     note = L['reliquary_of_ashamane_note'],
@@ -1470,11 +1470,12 @@ map.nodes[46805910] = EmeraldDream_Safari({
     -- pois = {POI({})}
 }) -- Leyhart
 
--- map.nodes[91005600] = EmeraldDream_Safari({
---     id = 212437,
---     rewards = {Achievement({id = 19401, criteria = 63275}), Pet({id = 4302})}
---     -- pois = {POI({})}
--- }) -- Pale Slumbertooth
+map.nodes[34306760] = EmeraldDream_Safari({
+    requires = ns.requirement.Toy(209944),
+    id = 212437,
+    rewards = {Achievement({id = 19401, criteria = 63275}), Pet({id = 4302})}
+    -- pois = {POI({})}
+}) -- Pale Slumbertooth
 
 map.nodes[38805110] = EmeraldDream_Safari({
     id = 211302,
