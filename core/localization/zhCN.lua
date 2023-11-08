@@ -112,7 +112,7 @@ L['dr_vendor_note'] = '用 {currency:2588} 兑换观龙者手稿和幻化。'
 L['dr_rostrum_note'] = '收集全部 ' .. ns.color.Heirloom('观龙者手稿') .. ' 从多处掉落，供应商，任务，制造和成就奖励。'
 L['options_icons_dragonrace'] = '驭龙竞速'
 L['options_icons_dragonrace_desc'] = '显示区域内全部驭龙竞速的位置。'
-L['options_show_completed_races'] = nil
+L['options_show_completed_races'] = '显示已完成竞速'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
