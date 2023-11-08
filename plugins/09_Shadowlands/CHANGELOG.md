@@ -1,3 +1,8 @@
+# v58
+
+* Added tooltip rendering enhancements.
+* Update TOC for 10.2
+
 # v57
 
 * Added a change to prevent WorldMapPinMixin taint.
