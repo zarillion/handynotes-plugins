@@ -962,7 +962,7 @@ L['thaelishar_vendor_note'] = 'Exchange gold for Druid glyphs.'
 L['silent_mark_label'] = 'Lushdream Crags'
 L['silent_mark_note'] = 'Target the correct animal and channel the matching item until {spell:426910} appears. {note:You must attune with 10+ animals.}\n\nChannel {item:210764} onto {npc:210892}.\n\nChannel {item:210767} onto {npc:211347}, {npc:211283}, or {npc:210894}.\n\nChannel {item:210755} onto {npc:210594}.\n\nChannel {item:210766} onto {npc:209494}.'
 
-L['amirdrassil'] = 'Amirdrassil, The Dream’s Hope'
+L['amirdrassil'] = 'Amirdrassil, the Dream\'s Hope'
 L['prismatic_location'] = 'Inside {location:Amirdrassil, the Dream\'s Hope} raid.'
 L['prismatic_note_1'] = '1. Fish up 10x {item:210782} from the pools in the {location:Wellspring Atrium}.'
 L['prismatic_note_2'] = '2. Fish up 10x {item:210783} from the lava pools in {location:The Scorched Hall}.'
