@@ -1158,7 +1158,10 @@ map.nodes[50054897] = DruidGlyph({
         DG.Feral.EvergreenDreamsaber, --  Silent Mark of the Dreamsaber
         DG.Guardian.LoamyUmbraclaw -- Silent Mark of the Umbraclaw
     },
-    pois = {Path({ns.poi.Circle({origin = 50054897, radius = 4})})}
+    pois = {
+        Path({Circle({origin = 50054897, radius = 4})}),
+        Path({Circle({origin = 42886656, radius = 3})})
+    }
 })
 
 map.nodes[63743916] = DruidGlyph({
