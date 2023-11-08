@@ -384,7 +384,8 @@ map.nodes[22743226] = Rare({
     quest = 78039,
     location = L['in_small_cave'],
     rewards = {
-        Transmog({item = 210105, slot = L['leather']}) -- Autumn Druid Belt
+        Transmog({item = 210105, slot = L['leather']}), -- Autumn Druid Belt
+        DC.GrottoNetherwingDrake.BarbedTail --
     }
 }) -- Balboan
 
