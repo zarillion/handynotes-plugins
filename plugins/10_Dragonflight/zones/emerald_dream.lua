@@ -137,6 +137,7 @@ map.nodes[34716316] = Rare({
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62933}), -- Adventurer of the Emerald Dream
+        Transmog({item = 208337, slot = L['leather']}), -- Leaf Steward's Leggings
         Transmog({item = 208340, slot = L['cloth']}), -- Stag's Flourishing Mantle
         Item({item = 211303}) -- Dryad's Supply Pouch
     }
@@ -262,6 +263,7 @@ map.nodes[40467258] = Rare({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62942}), -- Adventurer of the Emerald Dream
+        Transmog({item = 210120, slot = L['leather']}), -- Autumn Druid Treads
         DG.Guardian.VerdantBristlebruin -- Mark of the Verdant Bristlebruin
     },
     pois = {POI({38817158})} -- Entrance
@@ -427,9 +429,10 @@ map.nodes[41202620] = Amalgamation() -- Review
 map.nodes[39146553] = Treasure({
     quest = 77950,
     location = L['in_a_tree'],
+    rlabel = ns.status.LightBlue('+200 ' .. L['rep']),
     rewards = {
-        Achievement({id = 19317, criteria = 62954}), -- Treasures of The Emerald Dream
-        Item({item = 208047}) -- Gigantic Dreamseed
+        Achievement({id = 19317, criteria = 62954}) -- Treasures of The Emerald Dream
+        -- Item({item = 208047}) -- Gigantic Dreamseed
     }
 }) -- Crystalline Glowblossom
 
@@ -637,11 +640,14 @@ map.nodes[69575284] = UnwakingEcho({
 
 map.nodes[54043264] = PT.Alchemy({id = 210184, quest = 78264}) -- Half-Filled Dreamless Sleep Potion
 
-map.nodes[62757375] = PT.Alchemy({
+bor.nodes[50934991] = PT.Alchemy({
     id = 210185,
     quest = 78269,
-    note = L['in_cave'],
-    pois = {POI({63457161})} -- Entrance
+    parent = {
+        id = map.id,
+        note = L['in_cave'],
+        pois = {POI({63457161})} -- Entrance
+    }
 }) -- Splash Potion of Narcolepsy
 
 map.nodes[36264653] = PT.Alchemy({id = 210190, quest = 78275}) -- Blazeroot
@@ -963,7 +969,7 @@ map.nodes[51555972] = Collectible({
     icon = 3939983,
     label = '{quest:78319}',
     vignette = 5813,
-    rlabel = ns.status.LightBlue('+50' .. L['rep']),
+    rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Section(PVP_PROGRESS_REWARDS_HEADER .. ': 2300/8000'),
         Item({item = 211411}), -- Sprouting Dreamtrove
