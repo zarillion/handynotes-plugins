@@ -913,13 +913,13 @@ L['dreamseed_cache'] = 'Cache de graine onirique'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:Sol pour graine onirique} pour le haut-fait {achievement:19013}.'
 
-L['bloom_man_group_suffix'] = nil
-L['dream_chaser_suffix'] = nil
+L['bloom_man_group_suffix'] = 'fois que le pouvoir Débordement farouche à été utilisé'
+L['dream_chaser_suffix'] = 'rêves errants récupérés'
 L['dreamfruit_label'] = 'Fruit du Rêve'
 L['dreamfruit_note_1'] = 'Apparaît lorsque l\'événement {location:Superfloraison} commence. L\'événement démarre toutes les heures.'
 L['dreamfruit_note_2'] = 'Apparaît après le premier arrêt de l\'événement {location:Superfloraison}. L\'événement démarre toutes les heures près d\'{location:Amirdrassil}.'
-L['options_icons_dreamfruit'] = nil
-L['options_icons_dreamfruit_desc'] = nil
+L['options_icons_dreamfruit'] = '{achievement:19310}'
+L['options_icons_dreamfruit_desc'] = 'Afficher les emplacements des Fruits du Rêve pour le haut-fait {achievement:19310}.'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des bébés séléniens pour le haut-fait {achievement:19293}.'
@@ -952,7 +952,7 @@ L['mbc_vial_location'] = 'Remplissez la {item:%d} avec de l\'eau du puits de lun
 L['mbc_moonwell_label'] = 'Puits de lune'
 L['mbc_feral_dreamstone_label'] = 'Pierre onirique farouche'
 
-L['azure_somnowl_note'] = 'Terminez la courte suites de quêtes réservée aux druides se terminant par {quest:78066} pour recevoir les {item:210645}.'
+L['azure_somnowl_note'] = 'Terminez la courte suites de quêtes réservée aux druides commençant par {quest:78065} et donnée par {npc:209318} pour recevoir les {item:210645}.'
 
 L['slumbering_somnowl_note_a'] = 'Récupérez 5x {item:210565} en utilisant le sort {spell:2637} pour endormir diverses {npc:Somnichouettes} présentes au sein du {location:Rêve d\'émeraude}.'
 L['slumbering_somnowl_note_b'] = 'Achetez 1x {item:4291} auprès de n\'importe quel vendeur de fournitures d’artisanat.'
@@ -962,7 +962,7 @@ L['slumbering_somnowl_note_e'] = 'Combinez 1x {item:210566} et 1x {item:194864} 
 
 L['thaelishar_vendor_note'] = 'Échangez de l\'or contre des glyphes de druide.'
 L['silent_mark_label'] = 'Combes des Songes florissants'
-L['silent_mark_note'] = 'Ciblez le bon animal et canalisez l\'objet correspondant jusqu\'à ce que l\'{spell:426910} apparaisse. {note:Vous devez vous harmoniser avec au moins 10 animaux.}\n\nCanalisez la {item:210764} sur les {npc:210892}.\n\nCanalisez la {item:210767} sur les {npc:211347}, {npc:211283}, ou {npc:210894}.\n\nCanalisez la {item:210755} sur les {npc:210594}.\n\nCanalisez la {item:210766} sur les {npc:209494}.'
+L['silent_mark_note'] = 'Ciblez le bon animal et canalisez l\'objet correspondant jusqu\'à ce que l\'{spell:426910} apparaisse. {note:Vous devez vous harmoniser avec au moins 10 animaux.}\n\nCanalisez la {item:210764} sur les {npc:210892}.\n\nCanalisez la {item:210767} sur les {npc:211347}, {npc:211283}, ou {npc:210894}.\n\nCanalisez la {item:210755} sur les {npc:210594}.\n\nCanalisez la {item:210766} sur les {npc:209494}, {npc:212028}, ou {npc:212024}.'
 
 L['amirdrassil'] = 'Amirdrassil, l\'Espoir du Rêve'
 L['prismatic_location'] = 'À l\'intérieur du raid {location:Amirdrassil, l\'Espoir du Rêve}.'
