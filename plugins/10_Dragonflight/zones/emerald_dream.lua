@@ -104,6 +104,8 @@ map.nodes[51253128] = Rare({
     quest = 77942,
     rewards = {
         Achievement({id = 19316, criteria = 62945}), -- Adventurer of the Emerald Dream
+        Transmog({item = 208326, type = L['leather']}), -- Vest of the Flametide
+        Transmog({item = 208347, type = L['plate']}), -- Stone Wolf's Cuffs
         DC.WindingSlitherdrake.HairyChin
     }
 }) -- Bloodstripe Great Ray
@@ -116,7 +118,7 @@ map.nodes[64178399] = Rare({
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62931}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208327, slot = L['leather']}), -- Maruud's Piercing Hands
+        Transmog({item = 208327, type = L['leather']}), -- Maruud's Piercing Hands
         Item({item = 211303}) -- Dryad's Supply Pouch
     }
 }) -- Reefbreaker Moruud
@@ -125,7 +127,9 @@ map.nodes[66036318] = Rare({
     id = 209909,
     quest = 77862,
     rewards = {
-        Achievement({id = 19316, criteria = 62937}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62937}), -- Adventurer of the Emerald Dream
+        Transmog({item = 208333, type = L['leather']}), -- Fallen Flame's Crown
+        Transmog({item = 208341, type = L['mail']}) -- Fire-Runed Spaulders
     }
 }) -- Crabtankerous
 
@@ -137,8 +141,9 @@ map.nodes[34716316] = Rare({
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62933}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208337, slot = L['leather']}), -- Leaf Steward's Leggings
-        Transmog({item = 208340, slot = L['cloth']}), -- Stag's Flourishing Mantle
+        Transmog({item = 208332, type = L['mail']}), -- Horns of the Envoy
+        Transmog({item = 208337, type = L['leather']}), -- Leaf Steward's Leggings
+        Transmog({item = 208340, type = L['cloth']}), -- Stag's Flourishing Mantle
         Item({item = 211303}) -- Dryad's Supply Pouch
     }
 }) -- Envoy of Winter
@@ -151,6 +156,9 @@ map.nodes[29862077] = Rare({
     rewards = {
         Achievement({id = 19316, criteria = 62930}), -- Adventurer of the Emerald Dream
         Recipe({item = 210172, profession = 333}) -- Formula: Enchanted Wyrm's Dreaming Crest
+        Transmog({item = 208328, type = L['plate']}), -- Fystia's Deft Hands
+        Transmog({item = 208331, type = L['cloth']}), -- Cowl of the Flame
+        Transmog({item = 208371, type = L['mail']}) -- Fire Assassin's Boots
     }
 }) -- Firebrand Fystia
 
@@ -165,8 +173,12 @@ bor.nodes[54153685] = Rare({
     },
     rewards = {
         Achievement({id = 19316, criteria = 62938}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208372, slot = L['leather']}), -- Trickster's Tip Toers
-        Recipe({item = 210171, profession = 333}) -- Formula: Enchanted Aspect's Dreaming Crest
+        Transmog({item = 208372, type = L['leather']}), -- Trickster's Tip Toers
+        Transmog({item = 208344, type = L['mail']}), -- Sash of the Fruit Thief
+        Transmog({item = 208388, type = L['wand']}), -- Leafster's Magic Wand
+        Recipe({item = 210171, profession = 333}), -- Formula: Enchanted Aspect's Dreaming Crest
+        DC.GrottoNetherwingDrake.ShortHorns,
+        DC.GrottoNetherwingDrake.TripleSpikedCrest
     },
     pois = {
         POI({66641549}), -- Entrance
@@ -184,9 +196,14 @@ map.nodes[54034142] = Rare({
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62932}), -- Adventurer of the Emerald Dream
-        Transmog({item = 210094, slot = L['plate']}), -- Harvest Guardian Legplates
+        Transmog({item = 210094, type = L['plate']}), -- Harvest Guardian Legplates
+        Recipe({item = 210172, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Wyrm's Dreaming Crest
+        Recipe({item = 210173, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Whelpling's Dreaming Crest
+        Recipe({item = 210491, profession = ns.professions.INSCRIPTION.skillID}), -- Technique: Winding Slitherdrake: Hairy Chin
         Item({item = 208355, type = L['neck']}), -- String of Delicacies
-        Item({item = 211303}) -- Dryad's Supply Pouch
+        DC.GrottoNetherwingDrake.TripleSpikedCrest,
+        DC.GrottoNetherwingDrake.ShortHorns
+        Item({item = 211303}), -- Dryad's Supply Pouch
     }
 }) -- Greedy Gessie
 
@@ -196,7 +213,7 @@ map.nodes[47062974] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62950}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208357, slot = L['cloak']}) -- Henri's Warm Coat
+        Transmog({item = 208357, type = L['cloak']}) -- Henri's Warm Coat
     }
 }) -- Henri Snufftail
 
@@ -205,6 +222,9 @@ map.nodes[58775119] = Rare({
     quest = 77864,
     rewards = {
         Achievement({id = 19316, criteria = 62936}) -- Adventurer of the Emerald Dream
+        Transmog({item = 208325, type = L['mail']}), -- Ignit's Fiery Heart
+        Transmog({item = 208338, type = L['leather']}), -- Furious Flame's Shoulders
+        Recipe({item = 210493, profession = ns.professions.INSCRIPTION.skillID}), -- Technique: Grotto Netherwing Drake: Spiked Jaw
     }
 }) -- Ignit the Firebranded
 
@@ -214,6 +234,10 @@ map.nodes[37433171] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62940}) -- Adventurer of the Emerald Dream
+        Transmog({item = 208348, type = L['mail']}), -- Binds of the Shatterer
+        Transmog({item = 208385, type = L['2h_sword']}), -- Flame Endowed Blade
+        Transmog({item = 208345, type = L['leather']}), -- Forgebreaker's Belt
+        Recipe({item = 210172, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Wyrm's Dreaming Crest
     },
     pois = {POI({38113211})} -- Entrance
 }) -- Isaqa
@@ -223,8 +247,8 @@ map.nodes[40294916] = Rare({
     quest = 78211,
     rewards = {
         Achievement({id = 19316, criteria = 62943}), -- Adventurer of the Emerald Dream
-        Transmog({item = 210128, slot = L['2h_sword']}), -- Autumn Defender's Claymore
-        Transmog({item = 210402, slot = L['wand']}), -- Frigid Conservator's Wand
+        Transmog({item = 210128, type = L['2h_sword']}), -- Autumn Defender's Claymore
+        Transmog({item = 210402, type = L['wand']}), -- Frigid Conservator's Wand
         Recipe({item = 210173, profession = 333}), -- Formula: Enchanted Whelpling's Dreaming Crest
         DG.Feral.KeenEyedDreamsaber -- Mark of the Keen-Eyed Dreamsaber
     },
@@ -263,11 +287,11 @@ map.nodes[40467258] = Rare({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62942}), -- Adventurer of the Emerald Dream
-        Transmog({item = 210120, slot = L['leather']}), -- Autumn Druid Treads
+        Transmog({item = 210120, type = L['leather']}), -- Autumn Druid Treads
         DG.Guardian.VerdantBristlebruin -- Mark of the Verdant Bristlebruin
     },
     pois = {POI({38817158})} -- Entrance
-}) -- Moragh the Slothful
+}) -- Moragh the typehful
 
 map.nodes[54953674] = Rare({
     id = 210070,
@@ -297,7 +321,7 @@ map.nodes[44473929] = Rare({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62951}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208322, slot = L['plate']}), -- Treads of the Nightclaw
+        Transmog({item = 208322, type = L['plate']}), -- Treads of the Nightclaw
         DG.Travel.SableDreamtalon -- Mark of the Sable Dreamtalon
     },
     pois = {
@@ -310,8 +334,8 @@ map.nodes[43484697] = Rare({
     quest = 78212,
     rewards = {
         Achievement({id = 19316, criteria = 62944}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208381, slot = L['1h_mace']}), -- Scepter of Still Waters
-        Transmog({item = 210132, slot = L['2h_sword']}) -- Wildleaf Greatsword
+        Transmog({item = 208381, type = L['1h_mace']}), -- Scepter of Still Waters
+        Transmog({item = 210132, type = L['2h_sword']}) -- Wildleaf Greatsword
     },
     pois = {
         Path({
@@ -349,7 +373,7 @@ local Talthonei = Class('Talthonei', Rare, {
     fgroup = 'talthonei',
     rewards = {
         Achievement({id = 19316, criteria = 62934}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208374, slot = L['staff']}), -- Talthornei's Wrath
+        Transmog({item = 208374, type = L['staff']}), -- Talthornei's Wrath
         DG.Travel.SmolderingDreamstag -- Mark of the Smoldering Dreamstag
     }
 }) -- Talthonei Ashwisper
@@ -365,7 +389,7 @@ map.nodes[26022656] = Rare({
     quest = 77990,
     rewards = {
         Achievement({id = 19316, criteria = 62939}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208324, slot = L['plate']}) -- Scorching Dryad's Chestpiece
+        Transmog({item = 208324, type = L['plate']}) -- Scorching Dryad's Chestpiece
     }
 }) -- The Apostle
 
@@ -386,7 +410,7 @@ map.nodes[22743226] = Rare({
     quest = 78039,
     location = L['in_small_cave'],
     rewards = {
-        Transmog({item = 210105, slot = L['leather']}), -- Autumn Druid Belt
+        Transmog({item = 210105, type = L['leather']}), -- Autumn Druid Belt
         DC.GrottoNetherwingDrake.BarbedTail --
     }
 }) -- Balboan
@@ -491,7 +515,7 @@ bor.nodes[63863509] = Treasure({
     },
     rewards = {
         Achievement({id = 19317, criteria = 62958}), -- Treasures of The Emerald Dream
-        Transmog({item = 210631, slot = L['cosmetic']}) -- Branch of Ashamane
+        Transmog({item = 210631, type = L['cosmetic']}) -- Branch of Ashamane
     },
     pois = {
         POI({66641549}), -- Entrance
@@ -504,7 +528,7 @@ map.nodes[64231928] = Treasure({
     note = L['reliquary_of_aviana_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62957}), -- Treasures of The Emerald Dream
-        Transmog({item = 210659, slot = L['cosmetic']}) -- Branch of Aviana
+        Transmog({item = 210659, type = L['cosmetic']}) -- Branch of Aviana
     },
     pois = {POI({64532091, color = 'Green'})} -- Mark of Aviana
 }) -- Reliquary of Aviana
@@ -515,7 +539,7 @@ map.nodes[32938325] = Treasure({
     note = L['reliquary_of_goldrinn_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62959}), -- Treasures of The Emerald Dream
-        Transmog({item = 210660, slot = L['cosmetic']}) -- Claw of Lo'Gosh
+        Transmog({item = 210660, type = L['cosmetic']}) -- Claw of Lo'Gosh
     },
     pois = {
         POI({33108240}), -- Entrance
@@ -528,7 +552,7 @@ map.nodes[47055309] = Treasure({
     note = L['reliquary_of_ursol_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62955}), -- Treasures of The Emerald Dream
-        Transmog({item = 210434, slot = L['cosmetic']}) -- Visage of Ursoc
+        Transmog({item = 210434, type = L['cosmetic']}) -- Visage of Ursoc
     },
     pois = {POI({48015246, color = 'Green'})} -- Mark of Ursol
 }) -- Reliquary of Ursol
@@ -597,7 +621,7 @@ local UnwakingEcho = Class('UnwakingEcho', Treasure, {
 map.nodes[46408615] = UnwakingEcho({
     quest = 78552,
     rewards = {
-        Transmog({item = 210682, slot = L['cosmetic']}), -- Camper's Knife
+        Transmog({item = 210682, type = L['cosmetic']}), -- Camper's Knife
         Currency({id = 2245, type = '~21'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     }
@@ -606,7 +630,7 @@ map.nodes[46408615] = UnwakingEcho({
 map.nodes[55672258] = UnwakingEcho({
     quest = 78547,
     rewards = {
-        Transmog({item = 210675, slot = L['cosmetic']}), -- Gardener's Lightstaff
+        Transmog({item = 210675, type = L['cosmetic']}), -- Gardener's Lightstaff
         Currency({id = 2245, type = '~21'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     }
@@ -616,7 +640,7 @@ map.nodes[55324538] = UnwakingEcho({
     quest = 78551,
     location = L['in_small_cave'],
     rewards = {
-        Transmog({item = 210678, slot = L['cosmetic']}), -- Verdant Glearner's Scythe
+        Transmog({item = 210678, type = L['cosmetic']}), -- Verdant Glearner's Scythe
         Currency({id = 2245, type = '~21'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     },
@@ -627,7 +651,7 @@ map.nodes[69575284] = UnwakingEcho({
     quest = 78550,
     location = L['inside_building'],
     rewards = {
-        Transmog({item = 210686, slot = L['shield']}), -- Grovekeeper's Barrier
+        Transmog({item = 210686, type = L['shield']}), -- Grovekeeper's Barrier
         Currency({id = 2245, type = '~21'}), -- Flightstones
         Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
     }
