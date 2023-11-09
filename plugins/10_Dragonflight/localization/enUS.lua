@@ -915,9 +915,13 @@ L['dreamseed_cache'] = 'Dreamseed Cache'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Display {object:Dreamseed Soil} locations for {achievement:19013}.'
 
+L['bloom_man_group_suffix'] = 'times the Feral Overflow power used'
+L['dream_chaser_suffix'] = 'errant Dreams gathered'
 L['dreamfruit_label'] = 'Dreamfruit'
 L['dreamfruit_note_1'] = 'Appears when the {location:Superbloom} event begins. The event start on every full hour.'
 L['dreamfruit_note_2'] = 'Appears after the first stop of the {location:Superbloom} event. The event start on every full hour near {location:Amirdrassil}.'
+L['options_icons_dreamfruit'] = '{achievement:19310}'
+L['options_icons_dreamfruit_desc'] = 'Display Dreamfruit locations for {achievement:19310}.'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Display moonkin hatchling locations for {achievement:19293}.'
@@ -950,7 +954,7 @@ L['mbc_vial_location'] = 'Fill the {item:%d} with water from the moonwell in {lo
 L['mbc_moonwell_label'] = 'Moonwell'
 L['mbc_feral_dreamstone_label'] = 'Feral Dreamstone'
 
-L['azure_somnowl_note'] = 'Complete the short druid-only quest chain ending in {quest:78066} to receive the {item:210645}.'
+L['azure_somnowl_note'] = 'Complete the short druid-only quest chain which starts with {quest:78065} given by {npc:209318} to receive the {item:210645}.'
 
 L['slumbering_somnowl_note_a'] = 'Collect 5x {item:210565} by putting various {npc:Somnowl} to sleep with {spell:2637} throughout the {location:Emerald Dream}.'
 L['slumbering_somnowl_note_b'] = 'Purchase 1x {item:4291} from any trade supplies vendor.'
@@ -960,7 +964,7 @@ L['slumbering_somnowl_note_e'] = 'Combine 1x {item:210566} and 1x {item:194864} 
 
 L['thaelishar_vendor_note'] = 'Exchange gold for Druid glyphs.'
 L['silent_mark_label'] = 'Lushdream Crags'
-L['silent_mark_note'] = 'Target the correct animal and channel the matching item until {spell:426910} appears. {note:You must attune with 10+ animals.}\n\nChannel {item:210764} onto {npc:210892}.\n\nChannel {item:210767} onto {npc:211347}, {npc:211283}, or {npc:210894}.\n\nChannel {item:210755} onto {npc:210594}.\n\nChannel {item:210766} onto {npc:209494}.'
+L['silent_mark_note'] = 'Target the correct animal and channel the matching item until {spell:426910} appears. {note:You must attune with 10+ animals.}\n\nChannel {item:210764} onto {npc:210892}.\n\nChannel {item:210767} onto {npc:211347}, {npc:211283}, or {npc:210894}.\n\nChannel {item:210755} onto {npc:210594}.\n\nChannel {item:210766} onto {npc:209494}, {npc:212028}, or {npc:212024}.'
 
 L['amirdrassil'] = 'Amirdrassil, the Dream\'s Hope'
 L['prismatic_location'] = 'Inside {location:Amirdrassil, the Dream\'s Hope} raid.'

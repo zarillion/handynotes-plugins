@@ -107,6 +107,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Race locations for the [Emerald Dream Racing Completionist](https://wowhead.com/achievement=19118) family of achievements.
 * Moonkin Hatchlings for the [Friends In Feathers](https://www.wowhead.com/achievement=19293) achievement.
 * Dreamseed Soils for the [I Dream of Seeds](https://www.wowhead.com/achievement=19013) achievement.
+* Dreamfruits for the [Fruit of the Bloom](https://www.wowhead.com/achievement=19310) achievement.
 * Profession-specific treasure locations which grant knowledge for your crafting specializations.
 
 ## Localization

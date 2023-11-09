@@ -279,6 +279,12 @@ ns.groups.DREAMGUARD = Group('dreamguard', 341763, {
     achievement = 16574
 })
 
+ns.groups.DREAMFRUIT = Group('dreamfruit', 5390643, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 19310
+})
+
 ns.groups.DUCKLINGS = Group('ducklings', 4048818, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

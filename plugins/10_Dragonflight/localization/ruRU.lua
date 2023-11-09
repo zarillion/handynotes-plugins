@@ -903,9 +903,13 @@ L['dreamseed_cache'] = nil
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = nil
 
+L['bloom_man_group_suffix'] = nil
+L['dream_chaser_suffix'] = nil
 L['dreamfruit_label'] = nil
 L['dreamfruit_note_1'] = nil
 L['dreamfruit_note_2'] = nil
+L['options_icons_dreamfruit'] = nil
+L['options_icons_dreamfruit_desc'] = nil
 
 L['options_icons_moonkin_hatchling'] = nil
 L['options_icons_moonkin_hatchling_desc'] = nil

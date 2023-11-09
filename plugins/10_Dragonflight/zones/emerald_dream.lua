@@ -291,7 +291,7 @@ map.nodes[40467258] = Rare({
         DG.Guardian.VerdantBristlebruin -- Mark of the Verdant Bristlebruin
     },
     pois = {POI({38817158})} -- Entrance
-}) -- Moragh the typehful
+}) -- Moragh the Slothful
 
 map.nodes[54953674] = Rare({
     id = 210070,
@@ -745,7 +745,7 @@ map.nodes[40708615] = PT.Tailoring({
 
 map.nodes[33204656] = PT.Jewelcrafting({
     id = 210200,
-    quest = 78252,
+    quest = 78282,
     note = L['petrified_hope_note']
 }) -- Petrified Hope
 
@@ -995,6 +995,19 @@ map.nodes[51555972] = Collectible({
     vignette = 5813,
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
+        Achievement({id = 19312}), -- Super Duper Bloom
+        Achievement({
+            id = 19313,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['bloom_man_group_suffix']
+            }
+        }), -- Bloom Man Group
+        Achievement({
+            id = 19315,
+            criteria = {id = 1, qty = true, suffix = L['dream_chaser_suffix']}
+        }), -- Dream Chaser
         Section(PVP_PROGRESS_REWARDS_HEADER .. ': 2300/8000'),
         Item({item = 211411}), -- Sprouting Dreamtrove
         Currency({id = 2650}), -- Emerald Dewdrop
@@ -1011,7 +1024,7 @@ map.nodes[51555972] = Collectible({
 })
 
 -------------------------------------------------------------------------------
---------------------------------- DREAMFRUIT ----------------------------------
+----------------------------- FRUIT OF THE BLOOM ------------------------------
 -------------------------------------------------------------------------------
 
 -- https://us.forums.blizzard.com/en/wow/t/new-public-events-superbloom-and-emerald-bounty/1674596
@@ -1019,8 +1032,11 @@ map.nodes[51555972] = Collectible({
 -- Each individual Dreamfruit during the Superbloom has its own,
 -- unique pool of blessings it can bestow.
 
-local Dreamfruit = Class('Dreamfruit', Collectible,
-    {icon = 5390643, label = L['dreamfruit_label']})
+local Dreamfruit = Class('Dreamfruit', Collectible, {
+    icon = 5390643,
+    label = L['dreamfruit_label'],
+    group = ns.groups.DREAMFRUIT
+})
 
 map.nodes[51265990] = Dreamfruit({
     note = L['dreamfruit_note_1'],
@@ -1190,7 +1206,8 @@ map.nodes[50054897] = DruidGlyph({
     },
     pois = {
         Path({Circle({origin = 50054897, radius = 4})}),
-        Path({Circle({origin = 42886656, radius = 3})})
+        Path({Circle({origin = 42886656, radius = 3})}),
+        Path({Circle({origin = 38007100, radius = 2})})
     }
 })
 
@@ -1200,10 +1217,12 @@ map.nodes[63743916] = DruidGlyph({
     rewards = {DG.Guardian.AshenBristlebruin} -- Pollenfused Bristlebruin Fur Sample
 }) -- Pollenfused Bristlebruin Fur Sample
 
-map.nodes[34636932] = DruidGlyph({
+map.nodes[34656926] = DruidGlyph({
     label = '{npc:210524}',
     note = L['azure_somnowl_note'],
-    rewards = {DG.Flight.AzureSomnowl} -- Feather of Friends
+    requires = ns.requirement.Quest(77178), -- Tactical Withdrawal
+    rewards = {DG.Flight.AzureSomnowl}, -- Feather of Friends
+    pois = {POI({50786208})} -- Cenarius
 }) -- Q'onzu
 
 local PrismaticWhiskerfish = Class('PrismaticWhiskerfish', DruidGlyph, {

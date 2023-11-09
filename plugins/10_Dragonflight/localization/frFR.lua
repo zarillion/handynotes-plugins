@@ -913,9 +913,13 @@ L['dreamseed_cache'] = 'Cache de graine onirique'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:Sol pour graine onirique} pour le haut-fait {achievement:19013}.'
 
+L['bloom_man_group_suffix'] = nil
+L['dream_chaser_suffix'] = nil
 L['dreamfruit_label'] = 'Fruit du Rêve'
 L['dreamfruit_note_1'] = 'Apparaît lorsque l\'événement {location:Superfloraison} commence. L\'événement démarre toutes les heures.'
 L['dreamfruit_note_2'] = 'Apparaît après le premier arrêt de l\'événement {location:Superfloraison}. L\'événement démarre toutes les heures près d\'{location:Amirdrassil}.'
+L['options_icons_dreamfruit'] = nil
+L['options_icons_dreamfruit_desc'] = nil
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Afficher les emplacements des bébés séléniens pour le haut-fait {achievement:19293}.'

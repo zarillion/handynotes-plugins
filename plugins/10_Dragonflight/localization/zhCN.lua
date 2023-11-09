@@ -915,9 +915,13 @@ L['dreamseed_cache'] = '梦境之种宝箱'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = '显示 {achievement:19013} 成就中 {object:梦境之种壤土} 的位置。'
 
+L['bloom_man_group_suffix'] = nil
+L['dream_chaser_suffix'] = nil
 L['dreamfruit_label'] = '美梦果'
 L['dreamfruit_note_1'] = '{location:超然盛放} 事件开始时显现。事件每整点钟开始。'
 L['dreamfruit_note_2'] = '{location:超然盛放} 事件开始后的第一站显现。事件在 {location:阿梅达希尔} 周围，每整点钟开始。'
+L['options_icons_dreamfruit'] = nil
+L['options_icons_dreamfruit_desc'] = nil
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = '显示 {achievement:19293} 成就中枭兽宝宝的位置。'

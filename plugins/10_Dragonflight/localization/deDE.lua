@@ -916,9 +916,13 @@ L['dreamseed_cache'] = 'Traumsaattruhe'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Zeigt die Positionen der {npc:210723} für den Erfolg {achievement:19013} an.'
 
+L['bloom_man_group_suffix'] = '-mal die Fähigkeit \'Wilder Überschuss\' genutzt'
+L['dream_chaser_suffix'] = 'umherirrende Träume gesammelt'
 L['dreamfruit_label'] = 'Traumfrucht'
 L['dreamfruit_note_1'] = 'Erscheint, wenn das {location:Superblüte} Event beginnt. Das Event startet zu jeder vollen Stunde.'
 L['dreamfruit_note_2'] = 'Erscheint nach dem ersten Stopp des {location:Superblüte} Events. Das Event startet zu jeder vollen Stunde in der nähe von {location:Amirdrassil}.'
+L['options_icons_dreamfruit'] = '{achievement:19310}'
+L['options_icons_dreamfruit_desc'] = 'Zeigt die Position der Traumfrüchte für den Erfolg {achievement:19310} an.'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Zeigt die Positionen der Mondkinküken für den Erfolg {achievement:19293} an.'
@@ -951,7 +955,7 @@ L['mbc_vial_location'] = 'Fülle die {item:%d} mit Wasser aus dem Mondbrunnen in
 L['mbc_moonwell_label'] = 'Mondbrunnen'
 L['mbc_feral_dreamstone_label'] = 'Wilder Traumstein'
 
-L['azure_somnowl_note'] = 'Schließe die kurze Questreihe für Druiden ab, die mit der Quest {quest:78066} endet, um die {item:210645} zu erhalten.'
+L['azure_somnowl_note'] = 'Schließe die kurze Questreihe für Druiden ab, die mit der von {npc:209318} gegebenen Quest {quest:78065} beginnt, um die {item:210645} zu erhalten.'
 
 L['slumbering_somnowl_note_a'] = 'Sammle 5x {item:210565}, indem du {npc:Schlummereulen} mit deiner Fähigkeit {spell:2637} in der Zone {location:Der Smaragdgrüne Traum} in den Schlaf versetzt.'
 L['slumbering_somnowl_note_b'] = 'Kaufe 1x {item:4291} bei einem Händler für Handwerkswaren.'
@@ -961,7 +965,7 @@ L['slumbering_somnowl_note_e'] = 'Kombiniere 1x {item:210566} und 1x {item:19486
 
 L['thaelishar_vendor_note'] = 'Tausche Gold gegen Druidenglyphen ein.'
 L['silent_mark_label'] = 'Reichtraumklippen'
-L['silent_mark_note'] = 'Visiere das richtige Tier an und kanalisiere das Mal, um es auf diese Form einzustimmen. {note:Du musst das Mal mit 10+ Tieren einstimmen.}\n\nKanalisiere {item:210764} auf {npc:210892}.\n\nKanalisiere {item:210767} auf {npc:211347}, {npc:211283}, oder {npc:210894}.\n\nKanalisiere {item:210755} auf {npc:210594}.\n\nKanalisiere {item:210766} auf {npc:209494}.'
+L['silent_mark_note'] = 'Visiere das richtige Tier an und kanalisiere das Mal, um es auf diese Form einzustimmen. {note:Du musst das Mal mit 10+ Tieren einstimmen.}\n\nKanalisiere {item:210764} auf {npc:210892}.\n\nKanalisiere {item:210767} auf {npc:211347}, {npc:211283}, oder {npc:210894}.\n\nKanalisiere {item:210755} auf {npc:210594}.\n\nKanalisiere {item:210766} auf {npc:209494}, {npc:212028} oder {npc:212024}.'
 
 L['amirdrassil'] = 'Amirdrassil, Hoffnung des Traums'
 L['prismatic_location'] = 'Im Schlachtzug {location:Amirdrassil, Hoffnung des Traums}.'
