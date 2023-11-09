@@ -1826,4 +1826,13 @@ map.nodes[60918021] = ns.node.Node({
     end
 }) -- Temporal Loom
 
+---------------- PORTAL TO CENTRAL ENCAMPMENT - EMERALD DREAM -----------------
+
+val.nodes[62685732] = ns.node.Node({
+    label = '{spell:370368}', 
+    sublabel = '{spell:429034}',
+    icon = 'portal_gn',
+    scale = 2.0
+})
+
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
