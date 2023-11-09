@@ -202,8 +202,8 @@ map.nodes[54034142] = Rare({
         Recipe({item = 210491, profession = ns.professions.INSCRIPTION.skillID}), -- Technique: Winding Slitherdrake: Hairy Chin
         Item({item = 208355, type = L['neck']}), -- String of Delicacies
         DC.GrottoNetherwingDrake.TripleSpikedCrest,
-        DC.GrottoNetherwingDrake.ShortHorns,
-        Item({item = 211303}), -- Dryad's Supply Pouch
+        DC.GrottoNetherwingDrake.ShortHorns, --
+        Item({item = 211303}) -- Dryad's Supply Pouch
     }
 }) -- Greedy Gessie
 
@@ -224,7 +224,7 @@ map.nodes[58775119] = Rare({
         Achievement({id = 19316, criteria = 62936}), -- Adventurer of the Emerald Dream
         Transmog({item = 208325, type = L['mail']}), -- Ignit's Fiery Heart
         Transmog({item = 208338, type = L['leather']}), -- Furious Flame's Shoulders
-        Recipe({item = 210493, profession = ns.professions.INSCRIPTION.skillID}), -- Technique: Grotto Netherwing Drake: Spiked Jaw
+        Recipe({item = 210493, profession = ns.professions.INSCRIPTION.skillID}) -- Technique: Grotto Netherwing Drake: Spiked Jaw
     }
 }) -- Ignit the Firebranded
 
@@ -237,7 +237,7 @@ map.nodes[37433171] = Rare({
         Transmog({item = 208348, type = L['mail']}), -- Binds of the Shatterer
         Transmog({item = 208385, type = L['2h_sword']}), -- Flame Endowed Blade
         Transmog({item = 208345, type = L['leather']}), -- Forgebreaker's Belt
-        Recipe({item = 210172, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Wyrm's Dreaming Crest
+        Recipe({item = 210172, profession = ns.professions.ENCHANTING.skillID}) -- Formula: Enchanted Wyrm's Dreaming Crest
     },
     pois = {POI({38113211})} -- Entrance
 }) -- Isaqa
