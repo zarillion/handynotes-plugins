@@ -1829,7 +1829,7 @@ map.nodes[60918021] = ns.node.Node({
 ---------------- PORTAL TO CENTRAL ENCAMPMENT - EMERALD DREAM -----------------
 
 val.nodes[62685732] = ns.node.Node({
-    label = '{spell:370368}', 
+    label = '{spell:370368}',
     sublabel = '{spell:429034}',
     icon = 'portal_gn',
     scale = 2.0
