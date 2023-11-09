@@ -915,13 +915,13 @@ L['dreamseed_cache'] = 'Alijo de Semillas del Sueño'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Muestra dónde están las {object:Tierra con Semillas del Sueño} para el logro {achievement:19013}.'
 
-L['bloom_man_group_suffix'] = nil
-L['dream_chaser_suffix'] = nil
+L['bloom_man_group_suffix'] = 'veces que se ha usado Desbordamiento Feral'
+L['dream_chaser_suffix'] = 'Sueños errantes reunidos'
 L['dreamfruit_label'] = 'Fruta del Sueño'
 L['dreamfruit_note_1'] = 'Aparece cuando empieza el evento {location:Superfloración}. El evento comienza a cada hora en punto.'
 L['dreamfruit_note_2'] = 'Aparece tras la primera parada del evento {location:Superfloración}. El evento comienza a cada hora en punto cerca de {location:Amirdrassil}.'
-L['options_icons_dreamfruit'] = nil
-L['options_icons_dreamfruit_desc'] = nil
+L['options_icons_dreamfruit'] = '{achievement:19310}'
+L['options_icons_dreamfruit_desc'] = 'Muestra dónde están las Frutas del Sueño para el logro {achievement:19310}.'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = 'Muestra dónde están las proles de lechúcico lunar para el logro {achievement:19293}.'
@@ -954,7 +954,7 @@ L['mbc_vial_location'] = 'Llena {item:%d} con agua de la poza de la luna de {loc
 L['mbc_moonwell_label'] = 'Poza de la Luna'
 L['mbc_feral_dreamstone_label'] = 'Piedra del Sueño Feral'
 
-L['azure_somnowl_note'] = 'Completa la corta cadena de misiones (sólo para druidas) hasta que acabe en la misión {quest:78066} para conseguir la {item:210645}.'
+L['azure_somnowl_note'] = 'Completa la corta cadena de misiones (sólo para druidas) que comienza con la misión {quest:78065} que da {npc:209318} para conseguir la {item:210645}.'
 
 L['slumbering_somnowl_note_a'] = 'Consigue 5x {item:210565} poniendo a varios {npc:Somnobúho} a dormir con el hechizo {spell:2637} a lo largo del {location:Sueño Esmeralda}.'
 L['slumbering_somnowl_note_b'] = 'Compra 1x {item:4291} a cualquier vendedor de suministros.'
@@ -964,7 +964,7 @@ L['slumbering_somnowl_note_e'] = 'Combina 1x {item:210566} y 1x {item:194864} pa
 
 L['thaelishar_vendor_note'] = 'Cambia oro por glifos de Druida.'
 L['silent_mark_label'] = 'Riscos Sueñofrondoso'
-L['silent_mark_note'] = 'Selecciona el animal correcto y canaliza el objeto correspondiente hasta que aparezca {spell:426910}. {note:Debes hacerlo con más de 10 animales.}\n\nCanaliza {item:210764} en {npc:210892}.\n\nCanaliza {item:210767} en {npc:211347}, {npc:211283}, o {npc:210894}.\n\nCanaliza {item:210755} en {npc:210594}.\n\nCanaliza {item:210766} en {npc:209494}.'
+L['silent_mark_note'] = 'Selecciona el animal correcto y canaliza el objeto correspondiente hasta que aparezca {spell:426910}. {note:Debes hacerlo con más de 10 animales.}\n\nCanaliza {item:210764} en {npc:210892}.\n\nCanaliza {item:210767} en {npc:211347}, {npc:211283}, o {npc:210894}.\n\nCanaliza {item:210755} en {npc:210594}.\n\nCanaliza {item:210766} en {npc:209494}, {npc:212028}, o en {npc:212024}.'
 
 L['amirdrassil'] = 'Amirdrassil, La Esperanza del Sueño'
 L['prismatic_location'] = 'Dentro de la banda {location:Amirdrassil, La Esperanza del Sueño}.'
