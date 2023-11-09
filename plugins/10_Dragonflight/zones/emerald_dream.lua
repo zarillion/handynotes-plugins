@@ -155,7 +155,7 @@ map.nodes[29862077] = Rare({
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62930}), -- Adventurer of the Emerald Dream
-        Recipe({item = 210172, profession = 333}) -- Formula: Enchanted Wyrm's Dreaming Crest
+        Recipe({item = 210172, profession = 333}), -- Formula: Enchanted Wyrm's Dreaming Crest
         Transmog({item = 208328, type = L['plate']}), -- Fystia's Deft Hands
         Transmog({item = 208331, type = L['cloth']}), -- Cowl of the Flame
         Transmog({item = 208371, type = L['mail']}) -- Fire Assassin's Boots
@@ -202,7 +202,7 @@ map.nodes[54034142] = Rare({
         Recipe({item = 210491, profession = ns.professions.INSCRIPTION.skillID}), -- Technique: Winding Slitherdrake: Hairy Chin
         Item({item = 208355, type = L['neck']}), -- String of Delicacies
         DC.GrottoNetherwingDrake.TripleSpikedCrest,
-        DC.GrottoNetherwingDrake.ShortHorns
+        DC.GrottoNetherwingDrake.ShortHorns,
         Item({item = 211303}), -- Dryad's Supply Pouch
     }
 }) -- Greedy Gessie
@@ -221,7 +221,7 @@ map.nodes[58775119] = Rare({
     id = 209620,
     quest = 77864,
     rewards = {
-        Achievement({id = 19316, criteria = 62936}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62936}), -- Adventurer of the Emerald Dream
         Transmog({item = 208325, type = L['mail']}), -- Ignit's Fiery Heart
         Transmog({item = 208338, type = L['leather']}), -- Furious Flame's Shoulders
         Recipe({item = 210493, profession = ns.professions.INSCRIPTION.skillID}), -- Technique: Grotto Netherwing Drake: Spiked Jaw
@@ -233,7 +233,7 @@ map.nodes[37433171] = Rare({
     quest = 77989,
     location = L['in_small_cave'],
     rewards = {
-        Achievement({id = 19316, criteria = 62940}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62940}), -- Adventurer of the Emerald Dream
         Transmog({item = 208348, type = L['mail']}), -- Binds of the Shatterer
         Transmog({item = 208385, type = L['2h_sword']}), -- Flame Endowed Blade
         Transmog({item = 208345, type = L['leather']}), -- Forgebreaker's Belt
