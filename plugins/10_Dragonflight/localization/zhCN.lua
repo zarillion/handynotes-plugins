@@ -915,13 +915,13 @@ L['dreamseed_cache'] = '梦境之种宝箱'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = '显示 {achievement:19013} 成就中 {object:梦境之种壤土} 的位置。'
 
-L['bloom_man_group_suffix'] = nil
-L['dream_chaser_suffix'] = nil
+L['bloom_man_group_suffix'] = '野性漫溢能量已用次数'
+L['dream_chaser_suffix'] = '迷途之梦已收集'
 L['dreamfruit_label'] = '美梦果'
 L['dreamfruit_note_1'] = '{location:超然盛放} 事件开始时显现。事件每整点钟开始。'
 L['dreamfruit_note_2'] = '{location:超然盛放} 事件开始后的第一站显现。事件在 {location:阿梅达希尔} 周围，每整点钟开始。'
-L['options_icons_dreamfruit'] = nil
-L['options_icons_dreamfruit_desc'] = nil
+L['options_icons_dreamfruit'] = '{achievement:19310}'
+L['options_icons_dreamfruit_desc'] = '显示 {achievement:19310} 成就中美梦果的位置。'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
 L['options_icons_moonkin_hatchling_desc'] = '显示 {achievement:19293} 成就中枭兽宝宝的位置。'
@@ -936,12 +936,12 @@ L['pollenfused_bristlebruin_fur_sample_note'] = '在 {location:焦烬之壤} 的
 L['mbc_note_start'] = '拾取 {object:一箱小瓶子}，得到{item:210991}。\n\n你得到6个 {item:210839}，需要用来自各大陆的月亮井水来装满。'
 L['mbc_note_end'] = '混合6个 {item:210876} 制造{item:210977}，然后来到 {location:阿梅达希尔} 的 {object:野性梦境石}。\n\n使用 {item:210977} 并拾取 {object:月福之爪}，得到 {item:210728}。'
 
-L['mbc_vial_b'] = '破'
-L['mbc_vial_d'] = '德'
-L['mbc_vial_e'] = '东'
-L['mbc_vial_k'] = '卡'
-L['mbc_vial_n'] = '诺'
-L['mbc_vial_o'] = '外'
+L['mbc_vial_b'] = '破碎群岛'
+L['mbc_vial_d'] = '德拉诺'
+L['mbc_vial_e'] = '东部王国'
+L['mbc_vial_k'] = '卡利姆多'
+L['mbc_vial_n'] = '诺森德'
+L['mbc_vial_o'] = '外域'
 
 L['mbc_vial_d_location'] = '星落哨站'
 L['mbc_vial_e_location'] = '黎明森林'
