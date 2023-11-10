@@ -796,49 +796,49 @@ end
 
 EmeraldDream.nodes[59112881] = Dragonrace({
     label = '{quest:77841}',
-    normal = {2676, 105, 100},
-    advanced = {2682, 101, 98},
-    reverse = {2688, 97, 94},
-    challenge = {2694, 106, 103},
-    reverseChallenge = {2695, 109, 106},
+    normal = {2676, 103, 98},
+    advanced = {2682, 90, 87},
+    reverse = {2688, 90, 87},
+    challenge = {2694, 98, 95},
+    reverseChallenge = {2695, 100, 97},
     rewards = EmeraldDream_Rewards(1, 1, 1)
 }) -- Ysera Invitational
 
 EmeraldDream.nodes[37184408] = Dragonrace({
     label = '{quest:77983}',
-    normal = {2677, 89, 84},
-    advanced = {2683, 86, 83},
-    reverse = {2689, 87, 84},
-    challenge = {2696, 89, 86},
-    reverseChallenge = {2697, 97, 94},
+    normal = {2677, 85, 80},
+    advanced = {2683, 76, 73},
+    reverse = {2689, 76, 73},
+    challenge = {2696, 82, 79},
+    reverseChallenge = {2697, 83, 80},
     rewards = EmeraldDream_Rewards(2, 2, 2)
 }) -- Smoldering Sprint
 
 EmeraldDream.nodes[35165522] = Dragonrace({
     label = '{quest:77996}',
     normal = {2678, 83, 78},
-    advanced = {2684, 79, 76},
-    reverse = {2690, 76, 76},
-    challenge = {2698, 97, 94},
-    reverseChallenge = {2699, 93, 90},
+    advanced = {2684, 67, 64},
+    reverse = {2690, 67, 64},
+    challenge = {2698, 76, 73},
+    reverseChallenge = {2699, 76, 73},
     rewards = EmeraldDream_Rewards(3, 3, 3)
 }) -- Viridescent Venture
 
 EmeraldDream.nodes[69625262] = Dragonrace({
     label = '{quest:78016}',
     normal = {2679, 78, 73},
-    advanced = {2685, 72, 69},
-    reverse = {2691, 75, 72},
-    challenge = {2700, 85, 82},
-    reverseChallenge = {2701, 81, 78},
+    advanced = {2685, 66, 63},
+    reverse = {2691, 65, 62},
+    challenge = {2700, 73, 70},
+    reverseChallenge = {2701, 73, 70},
     rewards = EmeraldDream_Rewards(4, 4, 4)
 }) -- Shoreline Switchback
 
 EmeraldDream.nodes[62808812] = Dragonrace({
     label = '{quest:78102}',
-    normal = {2680, 113, 108},
-    advanced = {2686, 108, 105},
-    reverse = {2692, 109, 106},
+    normal = {2680, 110, 105},
+    advanced = {2686, 96, 93},
+    reverse = {2692, 99, 96},
     challenge = {2702, 108, 105},
     reverseChallenge = {2703, 108, 105},
     rewards = EmeraldDream_Rewards(5, 5, 5)
@@ -846,11 +846,11 @@ EmeraldDream.nodes[62808812] = Dragonrace({
 
 EmeraldDream.nodes[32354820] = Dragonrace({
     label = '{quest:78115}',
-    normal = {2681, 93, 88},
-    advanced = {2687, 79, 76},
-    reverse = {2693, 79, 76},
-    challenge = {2704, 86, 83},
-    reverseChallenge = {2705, 84, 81},
+    normal = {2681, 89, 84},
+    advanced = {2687, 73, 70},
+    reverse = {2693, 73, 70},
+    challenge = {2704, 76, 73},
+    reverseChallenge = {2705, 76, 73},
     rewards = EmeraldDream_Rewards(6, 6, 6)
 }) -- Emerald Amble
 
