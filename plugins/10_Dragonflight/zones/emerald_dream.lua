@@ -1055,11 +1055,11 @@ map.nodes[51555972] = Collectible({
             id = 19315,
             criteria = {id = 1, qty = true, suffix = L['dream_chaser_suffix']}
         }), -- Dream Chaser
-        Section(PVP_PROGRESS_REWARDS_HEADER .. ': 2300/8000'),
+        Section(PVP_PROGRESS_REWARDS_HEADER .. ': 2600/8000'),
         Item({item = 211411}), -- Sprouting Dreamtrove
         Currency({id = 2650}), -- Emerald Dewdrop
         Spacer(), --
-        Section(PVP_PROGRESS_REWARDS_HEADER .. ': 5600/8000'),
+        Section(PVP_PROGRESS_REWARDS_HEADER .. ': 5300/8000'),
         Item({item = 211413}), -- Budding Dreamtrove
         DC.GrottoNetherwingDrake.SingleHornedCrest, Spacer(), --
         Section(PVP_PROGRESS_REWARDS_HEADER .. ': 8000/8000'),
@@ -1671,15 +1671,15 @@ local SeedbloomVendor = Class('SeedbloomVendor', NPC, {
         Pet({item = 210571, id = 4296, count = '1'}), -- Snoozles
         Pet({item = 210570, id = 4295, count = '1'}), -- Napps
         Pet({item = 210651, id = 4299, count = '1'}), -- Dustite
-        Pet({item = 210648, id = 4298, count = '1'}) -- Seedle
+        Pet({item = 210648, id = 4298, count = '1'}), -- Seedle
         -- Spacer(), --
-        -- Section(ns.requirement.Reputation(2574, 18, true):GetText()), -- she doesnt sell mounts to me
-        -- Mount({item = 209950, id = 1810, count = '1'}), -- Reins of the Rekindled Dreamstag
-        -- Mount({item = 209947, id = 1808, count = '1'}), -- Reins of the Blossoming Dreamstag
+        Section(ns.requirement.Reputation(2574, 18, true):GetText()),
+        Mount({item = 209950, id = 1810, count = '1'}), -- Reins of the Rekindled Dreamstag
+        Mount({item = 209947, id = 1808, count = '1'}), -- Reins of the Blossoming Dreamstag
         -- Mount({item = 210775, id = 1835, count = '1'}), -- Reins of the Snowfluff Dreamtalon
         -- Mount({item = 210769, id = 1833, count = '1'}), -- Reins of the Springtide Dreamtalon
-        -- Mount({item = 210057, id = 1817, count = '1'}), -- Reins of the Morning Flourish Dreamsaber
-        -- Mount({item = 210058, id = 1816, count = '1'}) -- Reins of the Evening Sun Dreamsaber
+        Mount({item = 210057, id = 1817, count = '1'}), -- Reins of the Morning Flourish Dreamsaber
+        Mount({item = 210058, id = 1816, count = '1'}) -- Reins of the Evening Sun Dreamsaber
     }
 })
 
