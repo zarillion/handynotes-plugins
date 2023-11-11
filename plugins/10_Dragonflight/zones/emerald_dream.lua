@@ -106,7 +106,7 @@ map.nodes[51253128] = Rare({
         Achievement({id = 19316, criteria = 62945}), -- Adventurer of the Emerald Dream
         Transmog({item = 208326, type = L['leather']}), -- Vest of the Flametide
         Transmog({item = 208347, type = L['plate']}), -- Stone Wolf's Cuffs
-        DC.WindingSlitherdrake.HairyChin
+        -- DC.WindingSlitherdrake.HairyChin not on wowhead
     }
 }) -- Bloodstripe Great Ray
 
@@ -308,7 +308,7 @@ map.nodes[54953674] = Rare({
     rewards = {
         Achievement({id = 19316, criteria = 62949}), -- Adventurer of the Emerald Dream
         Transmog({item = 208375, type = L['1h_mace']}), -- Owlbear's Decisive Strike
-        Recipe({item = 208375, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Aspect's Dreaming Crest
+        Recipe({item = 210171, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Aspect's Dreaming Crest
         DG.Guardian.DarkUmbraclaw -- Mark of the Umbramane
     }
 }) -- Mosa Umbramane
