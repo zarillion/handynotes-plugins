@@ -6,7 +6,7 @@ local Map = ns.Map
 local L = ns.locale
 local Class = ns.Class
 
-local NPC = ns.node.NPC
+local Collectible = ns.node.Collectible
 
 local Achievement = ns.reward.Achievement
 local Section = ns.reward.Section
@@ -33,7 +33,7 @@ local Valdrakken = ns.maps[2112] or Map({id = 2112, settings = true})
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-local Dragonrace = Class('DragonRace', ns.node.Collectible,
+local Dragonrace = Class('DragonRace', Collectible,
     {icon = 1100022, group = ns.groups.DRAGONRACE})
 
 local DRAGONRIDING_RACE_TYPES = {
@@ -109,7 +109,7 @@ end
 ---------------------------- DRAGONRIDING VENDORS -----------------------------
 -------------------------------------------------------------------------------
 
-local DragonridingVendor = Class('DragonridingVendor', NPC, {
+local DragonridingVendor = Class('DragonridingVendor', Collectible, {
     icon = 4638724,
     group = ns.groups.DRAGONRACE,
     note = L['dr_vendor_note'],

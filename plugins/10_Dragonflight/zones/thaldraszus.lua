@@ -1551,7 +1551,7 @@ tpf.nodes[57404187] = ElementalStorm({
 
 -- ELEMENTAL STORM VENDOR -----------------------------------------------------
 
-local Mythressa = Class('Mythressa', NPC, {
+local Mythressa = Class('Mythressa', Collectible, {
     id = 196516,
     icon = 538566,
     group = ns.groups.ELEMENTAL_STORM,

@@ -1656,7 +1656,7 @@ map.nodes[58434177] = ElusiveCreature({
 
 ------------------------------ VENDOR: SEEDBLOOM ------------------------------
 
-local SeedbloomVendor = Class('SeedbloomVendor', NPC, {
+local SeedbloomVendor = Class('SeedbloomVendor', Collectible, {
     icon = 'peg_bl',
     scale = 2.0,
     note = L['sylvia_vendor_note'],
@@ -1672,7 +1672,7 @@ local SeedbloomVendor = Class('SeedbloomVendor', NPC, {
         Pet({item = 210570, id = 4295, count = '1'}), -- Napps
         Pet({item = 210651, id = 4299, count = '1'}), -- Dustite
         Pet({item = 210648, id = 4298, count = '1'}), -- Seedle
-        -- Spacer(), --
+        Spacer(), --
         Section(ns.requirement.Reputation(2574, 18, true):GetText()),
         Mount({item = 209950, id = 1810, count = '1'}), -- Reins of the Rekindled Dreamstag
         Mount({item = 209947, id = 1808, count = '1'}), -- Reins of the Blossoming Dreamstag
@@ -1688,7 +1688,7 @@ map.nodes[49776211] = SeedbloomVendor({id = 212797}) -- Talisa Whisperbloom <Dre
 
 ---------------------------- VENDOR: DREAM ENERGY -----------------------------
 
-local Elianna = Class('Elianna', NPC, {
+local Elianna = Class('Elianna', Collectible, {
     id = 211209,
     icon = 'peg_bl',
     scale = 2.0,
