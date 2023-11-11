@@ -104,8 +104,8 @@ map.nodes[51253128] = Rare({
     quest = 77942,
     rewards = {
         Achievement({id = 19316, criteria = 62945}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208326, type = L['leather']}), -- Vest of the Flametide
         Transmog({item = 208347, type = L['plate']}), -- Stone Wolf's Cuffs
+        Transmog({item = 208326, type = L['leather']}) -- Vest of the Flametide
         -- DC.WindingSlitherdrake.HairyChin not on wowhead
     }
 }) -- Bloodstripe Great Ray
@@ -128,8 +128,8 @@ map.nodes[66036318] = Rare({
     quest = 77862,
     rewards = {
         Achievement({id = 19316, criteria = 62937}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208333, type = L['leather']}), -- Fallen Flame's Crown
-        Transmog({item = 208341, type = L['mail']}) -- Fire-Runed Spaulders
+        Transmog({item = 208341, type = L['mail']}), -- Fire-Runed Spaulders
+        Transmog({item = 208333, type = L['leather']}) -- Fallen Flame's Crown
     }
 }) -- Crabtankerous
 
@@ -157,8 +157,8 @@ map.nodes[29862077] = Rare({
         Achievement({id = 19316, criteria = 62930}), -- Adventurer of the Emerald Dream
         Recipe({item = 210172, profession = 333}), -- Formula: Enchanted Wyrm's Dreaming Crest
         Transmog({item = 208328, type = L['plate']}), -- Fystia's Deft Hands
-        Transmog({item = 208331, type = L['cloth']}), -- Cowl of the Flame
-        Transmog({item = 208371, type = L['mail']}) -- Fire Assassin's Boots
+        Transmog({item = 208371, type = L['mail']}), -- Fire Assassin's Boots
+        Transmog({item = 208331, type = L['cloth']}) -- Cowl of the Flame
     }
 }) -- Firebrand Fystia
 
@@ -173,9 +173,9 @@ bor.nodes[54153685] = Rare({
     },
     rewards = {
         Achievement({id = 19316, criteria = 62938}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208372, type = L['leather']}), -- Trickster's Tip Toers
-        Transmog({item = 208344, type = L['mail']}), -- Sash of the Fruit Thief
         Transmog({item = 208388, type = L['wand']}), -- Leafster's Magic Wand
+        Transmog({item = 208344, type = L['mail']}), -- Sash of the Fruit Thief
+        Transmog({item = 208372, type = L['leather']}), -- Trickster's Tip Toers
         Recipe({item = 210171, profession = 333}), -- Formula: Enchanted Aspect's Dreaming Crest
         DC.GrottoNetherwingDrake.ShortHorns,
         DC.GrottoNetherwingDrake.TripleSpikedCrest
@@ -200,7 +200,6 @@ map.nodes[54034142] = Rare({
         Recipe({item = 210172, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Wyrm's Dreaming Crest
         Recipe({item = 210173, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Whelpling's Dreaming Crest
         Recipe({item = 210491, profession = ns.professions.INSCRIPTION.skillID}), -- Technique: Winding Slitherdrake: Hairy Chin
-        Item({item = 208355, type = L['neck']}), -- String of Delicacies
         DC.GrottoNetherwingDrake.TripleSpikedCrest,
         DC.GrottoNetherwingDrake.ShortHorns, --
         Item({item = 211303}) -- Dryad's Supply Pouch
@@ -234,9 +233,9 @@ map.nodes[37433171] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62940}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208345, type = L['leather']}), -- Forgebreaker's Belt
-        Transmog({item = 208348, type = L['mail']}), -- Binds of the Shatterer
         Transmog({item = 208385, type = L['2h_sword']}), -- Flame Endowed Blade
+        Transmog({item = 208348, type = L['mail']}), -- Binds of the Shatterer
+        Transmog({item = 208345, type = L['leather']}), -- Forgebreaker's Belt
         Recipe({item = 210172, profession = ns.professions.ENCHANTING.skillID}) -- Formula: Enchanted Wyrm's Dreaming Crest
     },
     pois = {POI({38113211})} -- Entrance
@@ -247,9 +246,9 @@ map.nodes[40294916] = Rare({
     quest = 78211,
     rewards = {
         Achievement({id = 19316, criteria = 62943}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208336, type = L['mail']}), -- Legguards of the Dreamsaber
-        Transmog({item = 208342, type = L['plate']}), -- Girdle of Nature's Fury
         Transmog({item = 208363, type = L['warglaive']}), -- Twinfang of the  Clan
+        Transmog({item = 208342, type = L['plate']}), -- Girdle of Nature's Fury
+        Transmog({item = 208336, type = L['mail']}), -- Legguards of the Dreamsaber
         Recipe({item = 210173, profession = 333}), -- Formula: Enchanted Whelpling's Dreaming Crest
         DG.Feral.KeenEyedDreamsaber, -- Mark of the Keen-Eyed Dreamsaber
         DC.GrottoNetherwingDrake.ShortHorns
@@ -322,9 +321,9 @@ map.nodes[61747187] = Rare({
     rewards = {
         Achievement({id = 19316, criteria = 62929}), -- Adventurer of the Emerald Dream
         Transmog({item = 209880, type = L['bow']}), -- Curve of Starry Dusks
-        DC.GrottoNetherwingDrake.BarbedTail,
-        DC.GrottoNetherwingDrake.ShortHorns,
-        Recipe({item = 210171, profession = ns.professions.ENCHANTING.skillID}) -- Formula: Enchanted Aspect's Dreaming Crest
+        Recipe({item = 210171, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Aspect's Dreaming Crest
+        DC.GrottoNetherwingDrake.BarbedTail, --
+        DC.GrottoNetherwingDrake.ShortHorns
     }
 }) -- Nuoberon
 
@@ -334,8 +333,8 @@ map.nodes[44473929] = Rare({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62951}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208322, type = L['plate']}), -- Treads of the Nightclaw
         Transmog({item = 208359, type = L['offhand']}), -- Nightclaw's Bauble
+        Transmog({item = 208322, type = L['plate']}), -- Treads of the Nightclaw
         Recipe({item = 210171, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Aspect's Dreaming Crest
         Recipe({item = 210172, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Wyrm's Dreaming Crest
         Recipe({item = 210493, profession = ns.professions.INSCRIPTION.skillID}), -- Technique: Grotto Netherwing Drake: Spiked Jaw
@@ -367,8 +366,8 @@ map.nodes[61755220] = Rare({
     quest = 77863,
     rewards = {
         Achievement({id = 19316, criteria = 62935}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208346, type = L['cloth']}), -- Singed Barkbands
         Transmog({item = 208361, type = L['staff']}), -- Splinterlimb's Branch
+        Transmog({item = 208346, type = L['cloth']}), -- Singed Barkbands
         Recipe({item = 210492, profession = ns.professions.INSCRIPTION.skillID}), -- Technique: Grotto Netherwing Drake: Chin Tendrils
         Recipe({item = 210171, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Aspect's Dreaming Crest
         Recipe({item = 191578, profession = ns.professions.ALCHEMY.skillID}) -- Recipe: Transmute: Awakened Fire
@@ -395,9 +394,9 @@ local Talthonei = Class('Talthonei', Rare, {
     fgroup = 'talthonei',
     rewards = {
         Achievement({id = 19316, criteria = 62934}), -- Adventurer of the Emerald Dream
+        Transmog({item = 208367, type = L['dagger']}), -- Lasher's Red Thorn
         Transmog({item = 208330, type = L['mail']}), -- Piercing Touch of the Vine
         Transmog({item = 208335, type = L['cloth']}), -- Vibrant Fall Leggings
-        Transmog({item = 208367, type = L['dagger']}), -- Lasher's Red Thorn
         Recipe({item = 210171, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Aspect's Dreaming Crest
         Recipe({item = 210172, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Wyrm's Dreaming Crest
         Recipe({item = 210173, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Whelpling's Dreaming Crest
