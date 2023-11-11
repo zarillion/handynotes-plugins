@@ -916,7 +916,7 @@ L['dreamseed_cache'] = 'Traumsaattruhe'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Zeigt die Positionen der {npc:210723} für den Erfolg {achievement:19013} an.'
 
-L['bloom_man_group_suffix'] = '-mal die Fähigkeit \'Wilder Überschuss\' genutzt'
+L['bloom_man_group_suffix'] = 'mal die Fähigkeit \'Wilder Überschuss\' genutzt'
 L['dream_chaser_suffix'] = 'umherirrende Träume gesammelt'
 L['dreamfruit_label'] = 'Traumfrucht'
 L['dreamfruit_note_1'] = 'Erscheint, wenn das {location:Superblüte} Event beginnt. Das Event startet zu jeder vollen Stunde.'
@@ -937,12 +937,12 @@ L['pollenfused_bristlebruin_fur_sample_note'] = 'Auf dem Boden vor dem Baum.'
 L['mbc_note_start'] = 'Plündere die {object:Kleine Schachtel mit Phiolen}, um {item:210991} zu erhalten.\n\nDu bekommst 6x {item:210839}, die mit Wasser aus einem Mondbrunnen von sechs Kontinenten gefüllt werden müssen.'
 L['mbc_note_end'] = 'Kombiniere alle 6x {item:210876}, um {item:210977} herzustellen und bringe es zum {object:Wilder Traumstein} in der Nähe von {location:Amirdrassil}.\n\nBenutze {item:210977} und plündere {object:Mondgesegnete Klaue}, um die {item:210728} zu erhalten.'
 
-L['mbc_vial_b'] = 'V' -- review not yet translated
+L['mbc_vial_b'] = 'B' -- review not yet translated
 L['mbc_vial_d'] = 'D'
-L['mbc_vial_e'] = 'Ö' -- review not yet translated
+L['mbc_vial_e'] = 'E' -- review not yet translated
 L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
-L['mbc_vial_o'] = 'S' -- review not yet translated
+L['mbc_vial_o'] = 'O' -- review not yet translated
 
 L['mbc_vial_d_location'] = 'Außenposten Sternenfall'
 L['mbc_vial_e_location'] = 'Zwielichtshain'
@@ -972,7 +972,7 @@ L['prismatic_location'] = 'Im Schlachtzug {location:Amirdrassil, Hoffnung des Tr
 L['prismatic_note_1'] = '1. Angle 10x {item:210782} aus Becken in der {location:Urquellvorhalle}.'
 L['prismatic_note_2'] = '2. Angle 10x {item:210783} aus Lavabecken in {location:Die Versengte Halle}.'
 L['prismatic_note_3'] = '3. Wirf alle 20x Fische in das größte Becken in der {location:Urquellvorhalle}, um für 30 Minuten den Stärkungszauber {spell:427145} zu erhalten.'
-L['prismatic_note_4'] = '4. Anlge im {object:Prosmatischer Schnurrwels} Fischbecken in der {location:Urquellvorhalle}, bis du {item:210784} fängst.'
+L['prismatic_note_4'] = '4. Angle im {object:Prosmatischer Schnurrwels} Fischbecken in der {location:Urquellvorhalle}, bis du {item:210784} fängst.'
 L['prismatic_note_5'] = '5. Lasse {npc:Xena} im Becken in der {location:Urquellvorhalle} wieder frei, um {item:210753} zu erhalten.'
 
 L['options_icons_druid_glyph'] = 'Druidenglyphen'
