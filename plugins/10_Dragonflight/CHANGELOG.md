@@ -1,3 +1,11 @@
+# v44
+
+* Added portal to Emerald Dream.
+* Added the Pale Slumbertooth pet.
+* Added three Superbloom achievements.
+* Fixed the quest id for the Petrified Hope treasure.
+* Updated rares, treasures and rewards.
+
 # v43
 
 * Added content for Guardians of the Dream.
