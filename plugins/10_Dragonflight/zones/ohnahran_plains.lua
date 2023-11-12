@@ -273,7 +273,6 @@ local Quackers = Class('Quackers', Rare, {
     id = 192557,
     vignette = 5144,
     quest = 73972,
-    note = L['river_camp_note'],
     rewards = {
         Achievement({id = 16677, criteria = 56091}),
         Achievement({id = 16446, criteria = 55396, note = L['pretty_neat_note']})
@@ -282,7 +281,7 @@ local Quackers = Class('Quackers', Rare, {
 })
 
 function Quackers.getters:note()
-    local note = L['quackers_duck_trap_kit']
+    local note = L['river_camp_note'] .. '\n\n' .. L['quackers_duck_trap_kit']
     note = note .. ItemStatus(201402, 1, '{item:201402}') -- Large Sturdy Femur
     note = note .. ItemStatus(193053, 3, '{item:193053}') -- Contoured Fowlfeather
     note = note .. ItemStatus(201404, 2, '{item:201404}') -- Tallstrider Sinew
@@ -1950,7 +1949,7 @@ map.nodes[38636670] = AncientStone({
 
 -------------------------- SPIRIT BEAST: BLOODGULLET --------------------------
 
-map.nodes[66564391] = Collectible({
+map.nodes[66564391] = NPC({
     id = 193254,
     icon = 236165,
     class = 'HUNTER',
