@@ -1061,7 +1061,10 @@ map.nodes[51555972] = Collectible({
         Spacer(), --
         Section(PVP_PROGRESS_REWARDS_HEADER .. ': 5300/8000'),
         Item({item = 211413}), -- Budding Dreamtrove
-        DC.GrottoNetherwingDrake.SingleHornedCrest, Spacer(), --
+        DC.RenewedProtoDrake.GreenHair, DC.WindingSlitherdrake.HeavyHorns,
+        DC.WindingSlitherdrake.ClusterJawHorns, DC.WindingSlitherdrake.SingleJawHorn,
+        DC.GrottoNetherwingDrake.ChinSpike, DC.GrottoNetherwingDrake.TempestuousPattern,
+        DC.GrottoNetherwingDrake.FinnedJaw, DC.GrottoNetherwingDrake.SingleHornedCrest, Spacer(), --
         Section(PVP_PROGRESS_REWARDS_HEADER .. ': 8000/8000'),
         Item({item = 211414}), -- Blossoming Dreamtrove
         Item({item = 208047}), -- Gigantic Dreamseed
