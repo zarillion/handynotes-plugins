@@ -450,7 +450,6 @@ map.nodes[22743226] = Rare({
 local Raszageth = Class('Raszageth', Rare, {
     id = 209912,
     quest = 77859,
-    vignette = 5808,
     fgroup = 'raszageth',
     -- note = L['raszageths_note'],
     -- rlabel = ns.status.LightBlue('+50 ' .. L['rep']), -- NOT confirm yet
@@ -460,7 +459,7 @@ local Raszageth = Class('Raszageth', Rare, {
     }
 }) -- Raszageth's Last Breath
 
-map.nodes[24203240] = Raszageth() -- wowhead coords
+map.nodes[24203240] = Raszageth({vignette = 5808}) -- wowhead coords
 map.nodes[26402800] = Raszageth() -- wowhead coords
 map.nodes[39965108] = Raszageth()
 map.nodes[46203560] = Raszageth() -- wowhead coords
@@ -473,7 +472,6 @@ map.nodes[67606620] = Raszageth() -- wowhead coords
 local Amalgamation = Class('Amalgamation', Rare, {
     id = 209915,
     quest = 77856,
-    vignette = 5807, -- Coagulating Dreams
     fgroup = 'amalgamation',
     -- note = L['amalgamation_note'],
     -- rlabel = ns.status.LightBlue('+50 ' .. L['rep']), -- NOT confirm yet
@@ -483,7 +481,7 @@ local Amalgamation = Class('Amalgamation', Rare, {
     }
 }) -- Amalgamation of Dreams
 
-map.nodes[39615386] = Amalgamation()
+map.nodes[39615386] = Amalgamation({vignette = 5807})
 map.nodes[41202620] = Amalgamation() -- Review
 map.nodes[48404880] = Amalgamation() -- wowhead coords
 map.nodes[51805740] = Amalgamation() -- wowhead coords
