@@ -865,6 +865,7 @@ L['greedy_gessie_note'] = 'Vous devez récupérer les objets {object:Légumes sa
 L['nuoberon_note'] = 'Pourchassez les tortues, jetez de la nourriture aux singes ou combattez les monstres des rêves pour aider {npc:209101} à passer un rêve amusant !'
 L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaquer {npc:209898}.'
 L['surging_lasher_note'] = 'Peut apparaître pendant l\'événement {location:Frénésie d\'émeraude} dans cette zone.'
+L['talthonei_ashwisper_note'] = nil
 
 L['in_a_tree'] = 'En haut d\'un arbre.'
 L['inside_building'] = 'A l\'intérieur du bâtiment.'

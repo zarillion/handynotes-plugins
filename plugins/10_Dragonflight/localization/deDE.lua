@@ -868,6 +868,7 @@ L['greedy_gessie_note'] = 'Sammle frische Zutaten wie {object:Wildes Grünzeug},
 L['nuoberon_note'] = 'Jagt Schildkröten, bewerft Affen mit Essen oder bekämpft Traummonster, um {npc:209101} zu einem lustigen Traum zu verhelfen!'
 L['reefbreaker_moruud_note'] = 'Befestige alle 6 {npc:210089e} an ihm, um ihn angreifen zu können.'
 L['surging_lasher_note'] = 'Kann während des {location:Smaragdraserei} Events in diesem Gebiet erscheinen.'
+L['talthonei_ashwisper_note'] = 'Töte Gegner in der Nähe, bis der getötete Gegner sagt "Man wird... mich rächen", um den seltenen Gegner erscheinen zu lassen.'
 
 L['in_a_tree'] = 'Oben im Baum.'
 L['inside_building'] = 'Im Gebäude.'

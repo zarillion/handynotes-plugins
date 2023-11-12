@@ -867,6 +867,7 @@ L['greedy_gessie_note'] = 'You need to collect {object:Wild Greens}, {object:Rub
 L['nuoberon_note'] = 'Chase turtles, throw food at monkeys, or fight dream monsters to help {npc:209101} have a fun Dream!'
 L['reefbreaker_moruud_note'] = 'Connect all 6 of the nearby {npc:210089} to attack {npc:209898}.'
 L['surging_lasher_note'] = 'Can spawn during the {location:Emerald Frenzy} event in this area.'
+L['talthonei_ashwisper_note'] = 'Kill mobs in the surrounding area until the killed mob says "I will be avenged" to spawn the rare.'
 
 L['in_a_tree'] = 'Up in a tree.'
 L['inside_building'] = 'In the building.'

@@ -867,6 +867,7 @@ L['greedy_gessie_note'] = 'Necesitas recoger {object:Verduras Salvajes}, {object
 L['nuoberon_note'] = 'Persigue tortugas, lanza comida a los monos, o lucha contra monstruos oníricos para ayudar a que {npc:209101} tenga un sueño divertido.'
 L['reefbreaker_moruud_note'] = 'Conecta las 6 {npc:210089} cercanas para atacar a {npc:209898}.'
 L['surging_lasher_note'] = 'Puede aparece durante el evento {location:Frenesí Esmeralda} en esta zona.'
+L['talthonei_ashwisper_note'] = nil
 
 L['in_a_tree'] = 'Encima del árbol.'
 L['inside_building'] = 'En el edificio.'

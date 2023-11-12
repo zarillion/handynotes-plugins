@@ -391,6 +391,7 @@ map.nodes[59896202] = SurgingLasher()
 local Talthonei = Class('Talthonei', Rare, {
     id = 209902,
     quest = 77994,
+    note = L['talthonei_ashwisper_note'],
     fgroup = 'talthonei',
     rewards = {
         Achievement({id = 19316, criteria = 62934}), -- Adventurer of the Emerald Dream

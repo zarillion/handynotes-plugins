@@ -868,6 +868,7 @@ L['greedy_gessie_note'] = nil
 L['nuoberon_note'] = nil
 L['reefbreaker_moruud_note'] = nil
 L['surging_lasher_note'] = nil
+L['talthonei_ashwisper_note'] = nil
 
 L['in_a_tree'] = nil
 L['inside_building'] = nil
