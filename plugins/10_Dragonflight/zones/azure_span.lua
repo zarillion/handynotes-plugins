@@ -2107,7 +2107,6 @@ map.nodes[38376074] = Node({
     label = L['azure_loom_label'],
     icon = 4549303,
     note = L['azure_loom_note'],
-    requires = FyrakkAssault,
     IsEnabled = function(self) -- Tailoring
         if not ns.PlayerHasProfession(197) then return false end
         return ns.node.Item.IsEnabled(self)
