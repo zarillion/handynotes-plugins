@@ -965,7 +965,7 @@ L['slumbering_somnowl_note_e'] = '将 {item:210566} 和 {item:194864} 组成 {it
 
 L['thaelishar_vendor_note'] = '用金币来购买德鲁伊印记。'
 L['silent_mark_label'] = '繁梦峭壁'
-L['silent_mark_note'] = '对目标动物引导，使印记与其形态协调，直至获得 {spell:426910}。{note:需要协调10多只动物。}\n\n用 {item:210764} 引导 {npc:210892}。\n\n用 {item:210767} 引导 {npc:211347}、{npc:211283} 或 {npc:210894}。\n\n用 {item:210755} 引导 {npc:210594}。\n\n用 {item:210766} 引导 {npc:209494}，, {npc:212028}, 或 {npc:212024}。'
+L['silent_mark_note'] = '对目标动物引导，使印记与其形态协调，直至获得 {spell:426910}。{note:需要协调10多只动物。}\n\n用 {item:210764} 引导 {npc:210892}。\n\n用 {item:210767} 引导 {npc:211347}、{npc:211283} 或 {npc:210894}。\n\n用 {item:210755} 引导 {npc:210594}。\n\n用 {item:210766} 引导 {npc:209494}，{npc:212028}，或 {npc:212024}。'
 
 L['amirdrassil'] = '阿梅达希尔，梦境之愿'
 L['prismatic_location'] = '在团队副本 {location:阿梅达希尔，梦境之愿} 内。'
