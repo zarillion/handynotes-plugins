@@ -955,7 +955,7 @@ L['mbc_vial_location'] = '携带 {item:%d} 到 {location:%s} 的月亮井（{loc
 L['mbc_moonwell_label'] = '月亮井'
 L['mbc_feral_dreamstone_label'] = '野性梦境石'
 
-L['azure_somnowl_note'] = '完成一个德鲁伊专属的简短任务线，最后一步 {quest:78066} 奖励 {item:210645}。'
+L['azure_somnowl_note'] = '完成一个德鲁伊专属的简短任务线，从 {npc:209318} 处接到起始任务 {quest:78065}， 最终奖励 {item:210645}。'
 
 L['slumbering_somnowl_note_a'] = '对 {location:翡翠梦境} 里各种 {npc:寐枭} 施放 {spell:2637} 然后 {spell:426183}，收集5个 {item:210565}。'
 L['slumbering_somnowl_note_b'] = '从商人处购买一个 {item:4291}。'
@@ -965,7 +965,7 @@ L['slumbering_somnowl_note_e'] = '将 {item:210566} 和 {item:194864} 组成 {it
 
 L['thaelishar_vendor_note'] = '用金币来购买德鲁伊印记。'
 L['silent_mark_label'] = '繁梦峭壁'
-L['silent_mark_note'] = '对目标动物引导，使印记与其形态协调，直至获得 {spell:426910}。{note:需要协调10多只动物。}\n\n用 {item:210764} 引导 {npc:210892}。\n\n用 {item:210767} 引导 {npc:211347}、{npc:211283} 或 {npc:210894}。\n\n用 {item:210755} 引导 {npc:210594}。\n\n用 {item:210766} 引导 {npc:209494}。'
+L['silent_mark_note'] = '对目标动物引导，使印记与其形态协调，直至获得 {spell:426910}。{note:需要协调10多只动物。}\n\n用 {item:210764} 引导 {npc:210892}。\n\n用 {item:210767} 引导 {npc:211347}、{npc:211283} 或 {npc:210894}。\n\n用 {item:210755} 引导 {npc:210594}。\n\n用 {item:210766} 引导 {npc:209494}，, {npc:212028}, 或 {npc:212024}。'
 
 L['amirdrassil'] = '阿梅达希尔，梦境之愿'
 L['prismatic_location'] = '在团队副本 {location:阿梅达希尔，梦境之愿} 内。'
