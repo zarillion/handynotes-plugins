@@ -1685,6 +1685,10 @@ local SeedbloomVendor = Class('SeedbloomVendor', Collectible, {
 
 map.nodes[59761689] = SeedbloomVendor({id = 211265}) -- Sylvia Whisperbloom <Dreamseed Botanist>
 map.nodes[49776211] = SeedbloomVendor({id = 212797}) -- Talisa Whisperbloom <Dreamseed Botanist>
+-- map.nodes[31505950] = SeedbloomVendor({
+--     id = 212797,
+--     pois = {ns.poi.Line({31505950, 49776211}), POI({49776211})}
+-- }) -- Talisa Whisperbloom <Dreamseed Botanist>
 
 ---------------------------- VENDOR: DREAM ENERGY -----------------------------
 
@@ -1725,6 +1729,10 @@ function Elianna.getters:note()
 end
 
 map.nodes[50226180] = Elianna()
+-- map.nodes[31505650] = Elianna({
+--     id = 212797,
+--     pois = {ns.poi.Line({31505650, 50226180}), POI({50226180})}
+-- })
 
 --------------------------- TOY: IMPROVISED LEAFBED ---------------------------
 

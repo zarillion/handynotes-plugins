@@ -1855,3 +1855,21 @@ function RenewedMagmammoth.getters:note()
 end
 
 ns.node.RenewedMagmammoth = RenewedMagmammoth
+
+------------------------------------------------------------------------------
+------------------------- HIDE USELESS AREAPOI ICONS -------------------------
+------------------------------------------------------------------------------
+
+local HIDDEN_POIS = {
+    [7365] = true, -- Dragonscale Basecamp
+    [7391] = true, -- Valdrakken, Seat of the Aspects
+    [7392] = true, -- Maruukai
+    [7393] = true, -- Iskaara
+    [7394] = true, -- Obsidian Citadel
+    [7489] = true, -- Loamm
+    [7636] = true -- Central Encampment
+}
+
+hooksecurefunc(AreaPOIPinMixin, 'OnAcquired', function(self)
+    if self and HIDDEN_POIS[self.areaPoiID] then self:SetPosition(2, 2) end
+end)
