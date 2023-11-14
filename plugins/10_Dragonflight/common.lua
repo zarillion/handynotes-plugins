@@ -1567,8 +1567,7 @@ function ElementalStorm.getters:rewards()
         ELEMENTAL_STORM_MANUSCRIPT_REWARDS['thunderstorm'][1],
         ELEMENTAL_STORM_MANUSCRIPT_REWARDS['thunderstorm'][2],
         -- DC.RenewedProtoDrake.PurpleHair, DC.WindborneVelocidrake.SweptHorns,
-        Spacer(),
-        Section(L['elemental_storm_sandstorm']), -- Sandstorm Rewards
+        Spacer(), Section(L['elemental_storm_sandstorm']), -- Sandstorm Rewards
         getStormAchievement(self.mapID, 'sandstorm'),
         ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['sandstorm'],
         ELEMENTAL_STORM_PET_REWARDS['sandstorm'],
@@ -1578,8 +1577,7 @@ function ElementalStorm.getters:rewards()
         ELEMENTAL_STORM_MANUSCRIPT_REWARDS['sandstorm'][1],
         ELEMENTAL_STORM_MANUSCRIPT_REWARDS['sandstorm'][2],
         -- DC.WindborneVelocidrake.ClubTail, DC.CliffsideWylderdrake.BlackHorns,
-        Spacer(),
-        Section(L['elemental_storm_firestorm']), -- Firestorm Rewards
+        Spacer(), Section(L['elemental_storm_firestorm']), -- Firestorm Rewards
         getStormAchievement(self.mapID, 'firestorm'),
         ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['firestorm'],
         ELEMENTAL_STORM_PET_REWARDS['firestorm'],
@@ -1591,8 +1589,7 @@ function ElementalStorm.getters:rewards()
         ELEMENTAL_STORM_MANUSCRIPT_REWARDS['firestorm'][1],
         ELEMENTAL_STORM_MANUSCRIPT_REWARDS['firestorm'][2],
         -- DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
-        Spacer(),
-        Section(L['elemental_storm_snowstorm']), -- Snowstorm Rewards
+        Spacer(), Section(L['elemental_storm_snowstorm']), -- Snowstorm Rewards
         getStormAchievement(self.mapID, 'snowstorm'),
         ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['snowstorm'],
         ELEMENTAL_STORM_PET_REWARDS['snowstorm'],
@@ -1603,8 +1600,7 @@ function ElementalStorm.getters:rewards()
         ELEMENTAL_STORM_MANUSCRIPT_REWARDS['snowstorm'][1],
         ELEMENTAL_STORM_MANUSCRIPT_REWARDS['snowstorm'][2],
         -- DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek,
-        Spacer(),
-        ELEMENTAL_STORM_FORMULA_REWARDS['all']
+        Spacer(), ELEMENTAL_STORM_FORMULA_REWARDS['all']
     }
 end
 
@@ -1631,10 +1627,14 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
                     ELEMENTAL_STORM_PET_REWARDS[stormType],
                     ELEMENTAL_STORM_FORMULA_REWARDS['all'],
                     ELEMENTAL_STORM_FORMULA_REWARDS[stormType],
-                    unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType]),
+                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][1],
+                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][2],
+                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][3],
+                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][4],
                     ELEMENTAL_STORM_MANUSCRIPT_REWARDS['all'][1],
                     ELEMENTAL_STORM_MANUSCRIPT_REWARDS['all'][2],
-                    unpack(ELEMENTAL_STORM_MANUSCRIPT_REWARDS[stormType])
+                    ELEMENTAL_STORM_MANUSCRIPT_REWARDS[stormType][1],
+                    ELEMENTAL_STORM_MANUSCRIPT_REWARDS[stormType][2]
                 }
                 GameTooltip:AddLine(' ')
                 for i, reward in ipairs(rewards) do

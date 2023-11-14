@@ -124,8 +124,7 @@ local DragonridingVendor = Class('DragonridingVendor', Collectible, {
         DC.SetCount(DC.WindingSlitherdrake.HornedBrow, '25'),
         DC.SetCount(DC.WindingSlitherdrake.PairedHorns, '25'),
         DC.SetCount(DC.WindingSlitherdrake.SharkFinnedTail, '25'),
-        DC.SetCount(DC.WindingSlitherdrake.YellowScales, '50'),
-        Spacer(), --
+        DC.SetCount(DC.WindingSlitherdrake.YellowScales, '50'), Spacer(), --
         Transmog({item = 206588, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Helmet
         Transmog({item = 206589, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Shoulderpads
         Transmog({item = 206590, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Jersey
@@ -730,9 +729,12 @@ local function ZaralekCavern_Rewards(b, c, r, s) -- basic, challenge, reverse ch
         Spacer(), Section(_G.WORLD_QUEST_REWARD_FILTERS_TITLE),
         Item({item = 205226}), -- Cavern Racer's Purse
         DC.RenewedProtoDrake.ProngedTail, DC.HighlandDrake.TaperedChin,
-        DC.CliffsideWylderdrake.SplitHorns, DC.CliffsideWylderdrake.SmallHeadSpikes,
-        DC.WindingSlitherdrake.SmallFinnedCrest, DC.WindingSlitherdrake.FinnedTipTail,
-        DC.WindingSlitherdrake.PointedNose, DC.WindingSlitherdrake.TripleJawHorns
+        DC.CliffsideWylderdrake.SplitHorns,
+        DC.CliffsideWylderdrake.SmallHeadSpikes,
+        DC.WindingSlitherdrake.SmallFinnedCrest,
+        DC.WindingSlitherdrake.FinnedTipTail,
+        DC.WindingSlitherdrake.PointedNose,
+        DC.WindingSlitherdrake.TripleJawHorns
     }
     if s then AddStormRace(rewards, s) end
     return rewards
@@ -823,9 +825,12 @@ local function EmeraldDream_Rewards(b, c, r) -- basic, challenge, reverse challe
         Spacer(), Section(_G.WORLD_QUEST_REWARD_FILTERS_TITLE),
         Item({item = 210549}), -- Dream Racer's Purse
         DC.WindingSlitherdrake.HairyJaw, DC.WindingSlitherdrake.ShortHorns,
-        DC.WindingSlitherdrake.ThornHorns, DC.WindingSlitherdrake.LargeFinnedTail,
-        DC.GrottoNetherwingDrake.SpikedBack, DC.GrottoNetherwingDrake.ClusterSpikedCrest,
-        DC.GrottoNetherwingDrake.VolatilePattern, DC.GrottoNetherwingDrake.DoubleFinnedTail
+        DC.WindingSlitherdrake.ThornHorns,
+        DC.WindingSlitherdrake.LargeFinnedTail,
+        DC.GrottoNetherwingDrake.SpikedBack,
+        DC.GrottoNetherwingDrake.ClusterSpikedCrest,
+        DC.GrottoNetherwingDrake.VolatilePattern,
+        DC.GrottoNetherwingDrake.DoubleFinnedTail
     }
 end
 
