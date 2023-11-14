@@ -910,9 +910,9 @@ La qualité de la {object:Graine onirique} contribuée détermine le type de ré
 {note:Pour voir la liste des récompenses, allez voir {npc:211265} sur l'île au nord, elle vend aussi la plupart des récompenses.}
 ]]
 L['dreamseed_cache'] = 'Cache de graine onirique'
-
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:Sol pour graine onirique} pour le haut-fait {achievement:19013}.'
+L['the_seeds_i_sow_suffix'] = nil
 
 L['bloom_man_group_suffix'] = 'fois que le pouvoir Débordement farouche à été utilisé'
 L['dream_chaser_suffix'] = 'rêves errants récupérés'

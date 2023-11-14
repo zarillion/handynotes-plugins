@@ -912,9 +912,9 @@ L['dreamseed_soil_note'] = [[
 {note:奖励列表请查看岛屿北部的 {npc:211265}，她也出售大部分奖励。}
 ]]
 L['dreamseed_cache'] = '梦境之种宝箱'
-
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = '显示 {achievement:19013} 成就中 {object:梦境之种壤土} 的位置。'
+L['the_seeds_i_sow_suffix'] = nil
 
 L['bloom_man_group_suffix'] = '野性漫溢能量已用次数'
 L['dream_chaser_suffix'] = '迷途之梦已收集'

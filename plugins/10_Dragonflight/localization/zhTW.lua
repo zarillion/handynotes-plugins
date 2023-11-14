@@ -912,9 +912,9 @@ L['dreamseed_soil_note'] = [[
 {note:詳細獎勵列表可以到北邊島上找 {npc:211265} , 他也販賣大部分的獎勵.}
 ]]
 L['dreamseed_cache'] = '夢境種子貯藏箱'
-
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = '顯示 {achievement:19013} 成就所需的 {object:翡翠恩惠} 所在的位置.'
+L['the_seeds_i_sow_suffix'] = nil
 
 L['bloom_man_group_suffix'] = '已使用野性滿溢之力次數'
 L['dream_chaser_suffix'] = '游移夢境已收集'

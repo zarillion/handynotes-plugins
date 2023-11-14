@@ -967,7 +967,14 @@ local EmeraldBounty = Class('EmeraldBounty', Node, {
         rewards = function(self)
             return {
                 Achievement({id = 19013, criteria = self.criteriaID}), -- I Dream of Seeds
-                Achievement({id = 19198, criteria = {id = 1, qty = true}}), -- The Seeds I Sow
+                Achievement({
+                    id = 19198,
+                    criteria = {
+                        id = 1,
+                        qty = true,
+                        suffix = L['the_seeds_i_sow_suffix']
+                    }
+                }), -- The Seeds I Sow
                 Section(L['dreamseed_cache']),
                 Mount({item = 210059, id = 1815}), -- Reins of the Winter Night Dreamsaber
                 DC.GrottoNetherwingDrake.HeadSpike, -- Gigantic Dreamseed by myself

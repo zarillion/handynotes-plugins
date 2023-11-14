@@ -912,9 +912,9 @@ La calidad de las {object:Semillas del Sueño} aportadas define el tipo de recom
 {note:Para una lista de recompensas echa un vistazo a {npc:211265} en la isla del norte. Ella vende muchas de las recompensas.}
 ]]
 L['dreamseed_cache'] = 'Alijo de Semillas del Sueño'
-
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Muestra dónde están las {object:Tierra con Semillas del Sueño} para el logro {achievement:19013}.'
+L['the_seeds_i_sow_suffix'] = nil
 
 L['bloom_man_group_suffix'] = 'veces que se ha usado Desbordamiento Feral'
 L['dream_chaser_suffix'] = 'Sueños errantes reunidos'

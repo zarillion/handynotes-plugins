@@ -912,9 +912,9 @@ Quality of the contributed {object:Dreamseed} defines the kind of reward:
 {note:For a list of rewards take a look at {npc:211265} on the island in the north, she also sells most of the rewards.}
 ]]
 L['dreamseed_cache'] = 'Dreamseed Cache'
-
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Display {object:Dreamseed Soil} locations for {achievement:19013}.'
+L['the_seeds_i_sow_suffix'] = 'seeds to the Emerald Bounty contributed'
 
 L['bloom_man_group_suffix'] = 'times the Feral Overflow power used'
 L['dream_chaser_suffix'] = 'errant Dreams gathered'
@@ -955,7 +955,7 @@ L['mbc_vial_location'] = 'Fill the {item:%d} with water from the moonwell in {lo
 L['mbc_moonwell_label'] = 'Moonwell'
 L['mbc_feral_dreamstone_label'] = 'Feral Dreamstone'
 
-L['azure_somnowl_note'] = 'Complete the short druid-only quest chain which starts with {quest:78065} given by {npc:209318} to receive the {item:210645}.'
+L['azure_somnowl_note'] = 'Complete the short quest chain which starts with {quest:78065} given by {npc:209318} to receive the {item:210645}.'
 
 L['slumbering_somnowl_note_a'] = 'Collect 5x {item:210565} by putting various {npc:Somnowl} to sleep with {spell:2637} throughout the {location:Emerald Dream}.'
 L['slumbering_somnowl_note_b'] = 'Purchase 1x {item:4291} from any trade supplies vendor.'
