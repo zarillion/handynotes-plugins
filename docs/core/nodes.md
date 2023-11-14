@@ -1,4 +1,4 @@
-# Node Classes
+# Node Classes <!-- omit from toc -->
 
 - [Node](#node)
 - [Collectible](#collectible)
@@ -24,7 +24,7 @@ ns.node.Node({
 })
 ```
 
-### Default Properites
+### Default Properites <!-- omit from toc -->
 
 `ns.node.Node` has the following properties by default:
 
@@ -41,7 +41,7 @@ ns.node.Node({
 - `group` ([group](groups.html)) (*default: ns.groups.MISC*)
   - The group that contains and controls this node.
 
-### Optional Tooltip Properties
+### Optional Tooltip Properties <!-- omit from toc -->
 
 `ns.node.Node` supports the following *optional* properties that affect a node's tootlip:
 
@@ -60,7 +60,7 @@ ns.node.Node({
 - `rewards` ([Reward](rewards.html))
   - List of rewards that are offered by the node.
 
-### Optional Visibility Properties
+### Optional Visibility Properties <!-- omit from toc -->
 
 `ns.node.Node` supports the following *optional* properties that affect a node's visibility:
 
@@ -90,7 +90,7 @@ ns.node.Node({
 - `questDeps` (int / int[ ])
   - Show this node if all `questID` in `questDeps` have been completed.
 
-### Optional Interaction Properties
+### Optional Interaction Properties <!-- omit from toc -->
 
 `ns.node.Node` supports the following *optional* properties that affect a node's interaction:
 
@@ -129,7 +129,7 @@ map.nodes[58085381] = ns.node.Collectible({
 }) -- Ponzo <Barterer Extraordinaire>
 ```
 
-### Optional Properties
+### Optional Properties <!-- omit from toc -->
 
 `ns.node.Collectible` supports the following properties:
 
@@ -165,7 +165,7 @@ map.intro = MawIntro({
 map.nodes[80306280] = map.intro
 ```
 
-### Default Properites
+### Default Properites <!-- omit from toc -->
 
 `ns.node.Intro` has the following properties set by default:
 
@@ -178,7 +178,7 @@ map.nodes[80306280] = map.intro
 - `minimap` (boolean) (*default: false*)
   - The Intro node will not be displayed on the minimap by default.
 
-### Optional Properties
+### Optional Properties <!-- omit from toc -->
 
 `ns.node.Intro` supports the following properties:
 
@@ -200,7 +200,7 @@ map.nodes[78175317] = ns.node.Item({
 }) -- Ambystan Darter
 ```
 
-### Required Properties
+### Required Properties <!-- omit from toc -->
 
 `ns.node.Item` requires the following properties:
 
@@ -233,7 +233,7 @@ map.nodes[37164467] = ns.node.NPC({
 }) -- Olea Manu
 ```
 
-### Required Properties
+### Required Properties <!-- omit from toc -->
 
 `ns.node.NPC` requires the following properties:
 
@@ -251,7 +251,7 @@ map.nodes[13095369] = ns.node.PetBattle({
 }) -- Wildfire
 ```
 
-### Default Properites
+### Default Properites <!-- omit from toc -->
 
 `ns.node.PetBattle` has the following properties set by default:
 
@@ -262,7 +262,7 @@ map.nodes[13095369] = ns.node.PetBattle({
 - `group` ([group](groups.html)) (*default: ns.groups.PETBATTLE*)
   - The default group for this node.
 
-### Required Properties
+### Required Properties <!-- omit from toc -->
 
 `ns.node.PetBattle` requires the following properties:
 
@@ -287,14 +287,14 @@ map.nodes[53486145] = Quest({
 })
 ```
 
-### Default Properites
+### Default Properites <!-- omit from toc -->
 
 `ns.node.Quest` has the following properties set by default:
 
 - `icon` ([string](icons.html) / int) (*default: 'quest_ay'*)
   - The default icon for this node.
 
-### Optional Properties
+### Optional Properties <!-- omit from toc -->
 
 `ns.node.Quest` supports the following properties:
 
@@ -323,7 +323,7 @@ map.nodes[43947530] = ns.node.Rare({
 }) -- The Engulfer
 ```
 
-### Default Properites
+### Default Properites <!-- omit from toc -->
 
 `ns.node.Rare` has the following properties set by default:
 
@@ -335,14 +335,14 @@ map.nodes[43947530] = ns.node.Rare({
 - `group` ([group](groups.html)) (*default: ns.groups.RARE*)
   - The default group for this node.
 
-### Required Properties
+### Required Properties <!-- omit from toc -->
 
 `ns.node.Rare` requires the following properties:
 
 - `id` (int)
   - The `npcID` for the rare. This will be used for the `label` property.
 
-### Recommended Properties
+### Recommended Properties <!-- omit from toc -->
 
 It is highly recommended that you add the `quest` property to rares and use the hidden `questID` used by Blizzard to track if a rare has been killed for the day.
 
@@ -369,7 +369,7 @@ map.nodes[65804182] = ns.node.Treasure({
 }) -- Golden Dragon Goblet
 ```
 
-### Default Properites
+### Default Properites <!-- omit from toc -->
 
 `ns.node.Treasure` has the following properties set by default:
 
@@ -380,7 +380,7 @@ map.nodes[65804182] = ns.node.Treasure({
 - `group` ([group](groups.html)) (*default: ns.groups.TREASURE*)
   - The default group for this node.
 
-### Recommended Properties
+### Recommended Properties <!-- omit from toc -->
 
 It is highly recommended that you add the `quest` property to rares and use the hidden `questID` used by Blizzard to track if a treasure has been collected.
 

@@ -1,8 +1,8 @@
-# Requirements
+# Requirements <!-- omit from toc -->
 
 `ns.requirement`
 
-- [Requirement](#requirement)
+- [Requirement (Base Class)](#requirement-base-class)
 - [Achievement](#achievement)
 - [Currency](#currency)
 - [GarrisonTalent](#garrisontalent)
@@ -15,7 +15,7 @@
 - [Toy](#toy)
 - [WarMode](#warmode)
 
-## Requirement
+## Requirement (Base Class)
 
 Base Class for all Requirements
 
@@ -23,7 +23,7 @@ Base Class for all Requirements
 Requirement({text = 'Requirement Text'})
 ```
 
-### Default Properites
+### Default Properites <!-- omit from toc -->
 
 - `text`  (string) (*default: 'UNKNOWN'*)
   - The text that is shown in the tooltip for the Requirement.
@@ -90,7 +90,7 @@ Item(id, count, quality)
   - Amount of the required Item.
 - `quality`  (int) 1-5
   - Adds the Quality Icon for the Dragonflight Material.
-    ![Crafting Quality](https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/PATPGXI8XCOK1657150576099.png)
+    ![Crafting Quality](https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/PATPGXI8XCOK1657150576099.png){height=150}
 
 ---
 

@@ -1,4 +1,4 @@
-# Reward Classes
+# Reward Classes <!-- omit from toc -->
 
 - [Section](#section)
 - [Spacer](#spacer)
@@ -36,7 +36,7 @@ Section("Title of the Section")
 
 The Spacer Reward just adds a blank line.
 
-### Example
+### Example <!-- omit from toc -->
 
 ```lua
 Spacer()
@@ -46,13 +46,13 @@ Spacer()
 
 ## Achievement
 
-### Example
+### Example <!-- omit from toc -->
 
 ```lua
 Achievement({id = 17736, criteria = {qty = true, id = 1}}) -- The Gift of Cheese
 ```
 
-### Properties
+### Properties <!-- omit from toc -->
 
 - `id` (int) (*required*)
   - The ID of the achievement
@@ -76,13 +76,13 @@ Achievement({id = 17736, criteria = {qty = true, id = 1}}) -- The Gift of Cheese
 
 Is Used to display a Currency in the Node rewards
 
-### Example
+### Example <!-- omit from toc -->
 
 ```lua
 Currency({id = 2245}) -- Flightstones
 ```
 
-### Properties
+### Properties <!-- omit from toc -->
 
 - `id` (int) (*required*)
   - The ID of the currency
@@ -93,13 +93,13 @@ Currency({id = 2245}) -- Flightstones
 
 ## Follower
 
-### Example
+### Example <!-- omit from toc -->
 
 ```lua
 Follower({id = 467, icon = 608952}) -- Fen Tao
 ```
 
-### Properties
+### Properties <!-- omit from toc -->
 
 - `id` (int) (*required*)
   - The follower ID.
@@ -114,13 +114,13 @@ Follower({id = 467, icon = 608952}) -- Fen Tao
 
 The Item reward is used as the base class for other item related rewards
 
-### Example
+### Example <!-- omit from toc -->
 
 ```lua
 Item({item = 188793, quest = 65282, note = '150'}) -- Improved Cypher Analysis Tool
 ```
 
-### Properties
+### Properties <!-- omit from toc -->
 
 - `item` (int) (*required*)
   - The Item ID.
@@ -143,13 +143,13 @@ Item({item = 188793, quest = 65282, note = '150'}) -- Improved Cypher Analysis T
 
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
-### Example
+### Example <!-- omit from toc -->
 
 ```lua
 Heirloom({item = 122250}) -- Tattered Dreadmist Mask
 ```
 
-### Properties
+### Properties <!-- omit from toc -->
 
 - `item` (int) (*required*)
   - The ID of the Heirloom Item
@@ -162,18 +162,18 @@ Heirloom({item = 122250}) -- Tattered Dreadmist Mask
 
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
-### Example
+### Example <!-- omit from toc -->
 
 ```lua
 Mount({item = 44168, id = 265}) -- Time-Lost Proto-Drake
 ```
 
-### Properties
+### Properties <!-- omit from toc -->
 
 - `item` (int) (*required*)
   - The Item ID from which you learn the mount.
 - `id` (int) (*required*)
-  - The [MountID](https://wowpedia.fandom.com/wiki/MountID).
+  - The [MountID](https://warcraft.wiki.gg/wiki/MountID).
 
 ---
 
@@ -181,30 +181,30 @@ Mount({item = 44168, id = 265}) -- Time-Lost Proto-Drake
 
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
-### Example
+### Example <!-- omit from toc -->
 
 ```lua
 Pet({id = 635}) -- Adder
 ```
 
-### Properties
+### Properties <!-- omit from toc -->
 
 - `item` (int) (*required*)
   - The Item ID from which you learn the pet.
 - `id` (int) (*required*)
-  - The [BattlePetSpeciesID](https://wowpedia.fandom.com/wiki/BattlePetSpeciesID) of the Pet.
+  - The [BattlePetSpeciesID](https://warcraft.wiki.gg/wiki/BattlePetSpeciesID) of the Pet.
 
 ---
 
 ## Quest
 
-### Example
+### Example <!-- omit from toc -->
 
 ```lua
 Quest({id = 60}) -- Kobold Candles
 ```
 
-### Properties
+### Properties <!-- omit from toc -->
 
 - `id` (int) (*required*)
   - The ID of the rewarded quest.
@@ -215,33 +215,38 @@ Quest({id = 60}) -- Kobold Candles
 
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
-### Example
+### Example <!-- omit from toc -->
 
 ```lua
 Recipe({item = 198104, profession = 185}) -- Recipe: Blubbery Muffin
 ```
 
-### Properties
+### Properties <!-- omit from toc -->
 
 - `item` (int) (*required*)
   - Them Item ID of the Recipe, not the Product.
 - `profession` (int) (*required*)
-  - The Profession '[Base SkillLineID](https://wowpedia.fandom.com/wiki/TradeSkillLineID)'
-    - 129 - First Aid
-    - 164 - Blacksmithing
-    - 165 - Leatherworking
-    - 171 - Alchemy
-    - 182 - Herbalism
-    - 185 - Cooking
-    - 186 - Mining
-    - 197 - Tailoring
-    - 202 - Engineering
-    - 333 - Enchanting
-    - 356 - Fishing
-    - 393 - Skinning
-    - 755 - Jewelcrafting
-    - 773 - Inscription
-    - 794 - Archeology
+  - The profession ID
+  - [Base SkillLineID](https://warcraft.wiki.gg/wiki/TradeSkillLineID)
+
+  | SkillLineID | Profession     |
+  | :---------: | -------------- |
+  |     129     | First Aid      |
+  |     164     | Blacksmithing  |
+  |     165     | Leatherworking |
+  |     171     | Alchemy        |
+  |     182     | Herbalism      |
+  |     185     | Cooking        |
+  |     186     | Mining         |
+  |     197     | Tailoring      |
+  |     202     | Engineering    |
+  |     333     | Enchanting     |
+  |     356     | Fishing        |
+  |     393     | Skinning       |
+  |     755     | Jewelcrafting  |
+  |     773     | Inscription    |
+  |     794     | Archeology     |
+
 
 ---
 
@@ -249,13 +254,15 @@ Recipe({item = 198104, profession = 185}) -- Recipe: Blubbery Muffin
 
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
-### Example
+Is Used to track Items that reward a Spell
+
+### Example <!-- omit from toc -->
 
 ```lua
 Spell({item = item_id, spell = spell_id})
 ```
 
-### Properties
+### Properties <!-- omit from toc -->
 
 - `item` (int) (*required*)
   - The Item ID.
@@ -266,16 +273,16 @@ Spell({item = item_id, spell = spell_id})
 
 ## Title
 
-### Example
+### Example <!-- omit from toc -->
 
 ```lua
 Title({id = title_id, pattern = '{title} {player}'})
 ```
 
-### Properties
+### Properties <!-- omit from toc -->
 
 - `id` (int) (*required*)
-  - The [TitleID](https://wowpedia.fandom.com/wiki/TitleId).
+  - The [TitleID](https://warcraft.wiki.gg/wiki/TitleId).
 - `pattern` (string) (*required*)
   - Required to show the title in the right order.
     - `'{title} {player}'`
@@ -291,13 +298,13 @@ Title({id = title_id, pattern = '{title} {player}'})
 
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
-### Example
+### Example <!-- omit from toc -->
 
 ```lua
 Toy({item = item_id})
 ```
 
-### Properties
+### Properties <!-- omit from toc -->
 
 - `item` (int) (*required*)
   - The ID of the Toy.
@@ -308,16 +315,18 @@ Toy({item = item_id})
 
 Uses [Item](#item) as its base class, all properties from Item can be used here too.
 
-### Example
+### Example <!-- omit from toc -->
 
 ```lua
 Transmog({item = item_id, slot = L[slot_locale]})
 ```
 
-### Properties
+### Properties <!-- omit from toc -->
 
 - `item` (int) (*required*)
   - The ID of the Transmog Item
-- `slot` (string) ([*Locale*](localizations.html))
+- `type` (string) ([*Locale*](localizations.html))
   - Should always be set to mark the Item Type (leather, 1h_sword, cloak, cosmetic, etc.)
   - Important for cosmetic cloaks.
+- `slot` (string) ([*Locale*](localizations.html))
+  - Obsolete, was replaced by `type`.

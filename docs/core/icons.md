@@ -1,4 +1,4 @@
-# Functions
+# Functions <!-- omit from toc -->
 
 * `ns.GetIconPath(name)`
   * returns the path to the Icon texture
@@ -11,7 +11,19 @@
   * `ns.GetIconLink('chest_bk')` -> `|TICONS\chest_bk.blp:0:0|t`
   * `ns.GetIconLink('chest_bk',0,4,8)` -> `|TICONS\chest_bk.blp:0:0:4:8|t`
 
-# Icons
+# Icons <!-- omit from toc -->
+
+- [Chests](#chests)
+- [Crystals](#crystals)
+- [Flight Points](#flight-points)
+- [Horseshoes](#horseshoes)
+- [Pet Battle Paws](#pet-battle-paws)
+- [Pegs](#pegs)
+- [Portals](#portals)
+- [Quests](#quests)
+- [Skulls](#skulls)
+- [Miscellaneous Icons](#miscellaneous-icons)
+
 
 ## Chests
 

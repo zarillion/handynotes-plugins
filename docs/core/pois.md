@@ -1,4 +1,4 @@
-# POIs
+# POIs <!-- omit from toc -->
 
 `ns.poi.`
 
@@ -23,14 +23,14 @@ POI({color = 'Red', points = {41176055, 41526214, 41995819, 43565838}})
 A POI can have just a table of coordinates, those will be marked by a dot. The color is by default blue and can be changed by the user through the settings.
 POIs can also have folloing properties:
 
-### Required Properties
+### Required Properties <!-- omit from toc -->
 
 `ns.poi.POI` requires the following properties:
 
 - `points` ([int]) (*required*)
   - POI coordintes in a table.
 
-### Optional Properties
+### Optional Properties <!-- omit from toc -->
 
 `ns.poi.POI` supports the following properties:
 
@@ -97,7 +97,7 @@ This is a function which returns coordinates of a circle.
 Path({Circle({origin = 50005000, radius = 5.5})})
 ```
 
-### Required Properties
+### Required Properties <!-- omit from toc -->
 
 `ns.poi.Cirlce` requires the following properties:
 
@@ -116,7 +116,7 @@ This is a function which returns coordinates of a square.
 Path({Square({origin = 50005000, radius = 5.5})})
 ```
 
-### Required Properties
+### Required Properties <!-- omit from toc -->
 
 `ns.poi.Square` requires the following properties:
 
