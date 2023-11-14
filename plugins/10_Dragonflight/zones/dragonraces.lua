@@ -157,7 +157,7 @@ Valdrakken.nodes[27004760] = DragonridingVendor({
 --------------------------------- AZURE SPAN ----------------------------------
 
 local DragonRacersPurse = {
-    Spacer(), Section(WORLD_QUEST_REWARD_FILTERS_TITLE),
+    Spacer(), Section(_G.WORLD_QUEST_REWARD_FILTERS_TITLE),
     Item({item = 199192}), -- Dragon Racer's Purse
     DC.RenewedProtoDrake.DualHornedCrest, DC.RenewedProtoDrake.ThinSpinedJaw,
     DC.WindborneVelocidrake.HookedSnout, DC.WindborneVelocidrake.CurledHorns,
@@ -273,7 +273,7 @@ local function ForbiddenReach_Rewards(b, c, r, s) -- basic, challenge, reverse c
         Achievement({id = 18779, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18780, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18781, criteria = r, oneline = true}), -- reverse challenge gold
-        Spacer(), Section(WORLD_QUEST_REWARD_FILTERS_TITLE),
+        Spacer(), Section(_G.WORLD_QUEST_REWARD_FILTERS_TITLE),
         Item({item = 205226}), -- Reach Racer's Purse
         DC.RenewedProtoDrake.PlatedBrow, DC.WindborneVelocidrake.SmallEars,
         DC.HighlandDrake.SweptHorns, DC.CliffsideWylderdrake.FlaredCheek
@@ -727,7 +727,7 @@ local function ZaralekCavern_Rewards(b, c, r, s) -- basic, challenge, reverse ch
         Achievement({id = 18786, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18787, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18788, criteria = r, oneline = true}), -- reverse challenge gold
-        Spacer(), Section(WORLD_QUEST_REWARD_FILTERS_TITLE),
+        Spacer(), Section(_G.WORLD_QUEST_REWARD_FILTERS_TITLE),
         Item({item = 205226}), -- Cavern Racer's Purse
         DC.RenewedProtoDrake.ProngedTail, DC.HighlandDrake.TaperedChin,
         DC.CliffsideWylderdrake.SplitHorns, DC.CliffsideWylderdrake.SmallHeadSpikes,
@@ -820,7 +820,7 @@ local function EmeraldDream_Rewards(b, c, r) -- basic, challenge, reverse challe
         Achievement({id = 19124, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 19125, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 19126, criteria = r, oneline = true}), -- reverse challenge gold
-        Spacer(), Section(WORLD_QUEST_REWARD_FILTERS_TITLE),
+        Spacer(), Section(_G.WORLD_QUEST_REWARD_FILTERS_TITLE),
         Item({item = 210549}), -- Dream Racer's Purse
         DC.WindingSlitherdrake.HairyJaw, DC.WindingSlitherdrake.ShortHorns,
         DC.WindingSlitherdrake.ThornHorns, DC.WindingSlitherdrake.LargeFinnedTail,
