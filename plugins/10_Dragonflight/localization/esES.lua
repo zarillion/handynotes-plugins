@@ -914,7 +914,7 @@ La calidad de las {object:Semillas del Sueño} aportadas define el tipo de recom
 L['dreamseed_cache'] = 'Alijo de Semillas del Sueño'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Muestra dónde están las {object:Tierra con Semillas del Sueño} para el logro {achievement:19013}.'
-L['the_seeds_i_sow_suffix'] = nil
+L['the_seeds_i_sow_suffix'] = 'Semillas del Sueño entregadas al Regalo Esmeralda'
 
 L['bloom_man_group_suffix'] = 'veces que se ha usado Desbordamiento Feral'
 L['dream_chaser_suffix'] = 'Sueños errantes reunidos'
@@ -955,7 +955,7 @@ L['mbc_vial_location'] = 'Llena {item:%d} con agua de la poza de la luna de {loc
 L['mbc_moonwell_label'] = 'Poza de la Luna'
 L['mbc_feral_dreamstone_label'] = 'Piedra del Sueño Feral'
 
-L['azure_somnowl_note'] = 'Completa la corta cadena de misiones (sólo para druidas) que comienza con la misión {quest:78065} que da {npc:209318} para conseguir la {item:210645}.'
+L['azure_somnowl_note'] = 'Completa la corta cadena de misiones que comienza con la misión {quest:78065} que da {npc:209318} para conseguir la {item:210645}.'
 
 L['slumbering_somnowl_note_a'] = 'Consigue 5x {item:210565} poniendo a varios {npc:Somnobúho} a dormir con el hechizo {spell:2637} a lo largo del {location:Sueño Esmeralda}.'
 L['slumbering_somnowl_note_b'] = 'Compra 1x {item:4291} a cualquier vendedor de suministros.'
