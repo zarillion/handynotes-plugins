@@ -44,6 +44,8 @@ L['activation_unknown'] = 'Activation unknown!'
 L['requirement_not_found'] = 'Requirement location unknown!'
 L['multiple_spawns'] = 'Can appear in multiple locations.'
 L['shared_drops'] = 'Shared Drops'
+L['zone_drops_label'] = 'Zone Drops'
+L['zone_drops_note'] = 'The items listed below can be dropped by several mobs in this zone.'
 
 L['requires'] = 'Requires'
 L['ranked_research'] = '%s (Rank %d/%d)'

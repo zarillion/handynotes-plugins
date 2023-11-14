@@ -44,6 +44,8 @@ L['activation_unknown'] = '啟動條件未知'
 L['requirement_not_found'] = '所需位置未知'
 L['multiple_spawns'] = '可能出現在多個位置'
 L['shared_drops'] = '共享掉落'
+L['zone_drops_label'] = nil
+L['zone_drops_note'] = nil
 
 L['requires'] = '需要'
 L['ranked_research'] = '%s (等級 %d/%d)'

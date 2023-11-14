@@ -44,6 +44,8 @@ L['activation_unknown'] = 'Activation inconnue'
 L['requirement_not_found'] = 'Emplacement requis inconnu'
 L['multiple_spawns'] = 'Peut apparaître à plusieurs endroits.'
 L['shared_drops'] = 'Drop partagé'
+L['zone_drops_label'] = nil
+L['zone_drops_note'] = nil
 
 L['requires'] = 'Requiert'
 L['ranked_research'] = '%s (Rang %d/%d)'
