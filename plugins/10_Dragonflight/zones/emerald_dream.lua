@@ -119,8 +119,7 @@ map.nodes[64178399] = Rare({
     rewards = {
         Achievement({id = 19316, criteria = 62931}), -- Adventurer of the Emerald Dream
         Transmog({item = 208334, type = L['plate']}), -- Legplates of the Krakken
-        Transmog({item = 208327, type = L['leather']}), -- Maruud's Piercing Hands
-        Item({item = 211303}) -- Dryad's Supply Pouch
+        Transmog({item = 208327, type = L['leather']}) -- Maruud's Piercing Hands
     }
 }) -- Reefbreaker Moruud
 
@@ -146,8 +145,7 @@ map.nodes[34716316] = Rare({
         Transmog({item = 208365, type = L['polearm']}), -- Winter's Stand
         Transmog({item = 208332, type = L['mail']}), -- Horns of the Envoy
         Transmog({item = 208337, type = L['leather']}), -- Leaf Steward's Leggings
-        Transmog({item = 208340, type = L['cloth']}), -- Stag's Flourishing Mantle
-        Item({item = 211303}) -- Dryad's Supply Pouch
+        Transmog({item = 208340, type = L['cloth']}) -- Stag's Flourishing Mantle
     }
 }) -- Envoy of Winter
 
@@ -204,8 +202,7 @@ map.nodes[54034142] = Rare({
         Recipe({item = 210173, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Whelpling's Dreaming Crest
         Recipe({item = 210491, profession = ns.professions.INSCRIPTION.skillID}), -- Technique: Winding Slitherdrake: Hairy Chin
         DC.GrottoNetherwingDrake.TripleSpikedCrest,
-        DC.GrottoNetherwingDrake.ShortHorns, --
-        Item({item = 211303}) -- Dryad's Supply Pouch
+        DC.GrottoNetherwingDrake.ShortHorns
     }
 }) -- Greedy Gessie
 
@@ -464,10 +461,7 @@ local Raszageth = Class('Raszageth', Rare, {
     fgroup = 'raszageth',
     -- note = L['raszageths_note'],
     -- rlabel = ns.status.LightBlue('+50 ' .. L['rep']), -- NOT confirm yet
-    rewards = {
-        DC.GrottoNetherwingDrake.TripleSpikedCrest
-        -- Item({item = 211303}) -- Dryad's Supply Pouch +25 rep -- Review
-    }
+    rewards = {DC.GrottoNetherwingDrake.TripleSpikedCrest}
 }) -- Raszageth's Last Breath
 
 map.nodes[24203240] = Raszageth() -- wowhead coords
@@ -487,10 +481,7 @@ local Amalgamation = Class('Amalgamation', Rare, {
     fgroup = 'amalgamation',
     -- note = L['amalgamation_note'],
     -- rlabel = ns.status.LightBlue('+50 ' .. L['rep']), -- NOT confirm yet
-    rewards = {
-        DC.GrottoNetherwingDrake.TripleSpikedCrest
-        -- Item({item = 211303}) -- Dryad's Supply Pouch +25 rep -- Review
-    }
+    rewards = {DC.GrottoNetherwingDrake.TripleSpikedCrest}
 }) -- Amalgamation of Dreams
 
 map.nodes[39615386] = Amalgamation()
