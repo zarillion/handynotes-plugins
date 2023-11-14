@@ -1034,7 +1034,7 @@ hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
 end)
 
 -------------------------------------------------------------------------------
---------------------------------- SUPER BLOOM ---------------------------------
+--------------------------------- SUPERBLOOM ----------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[51555972] = Collectible({
@@ -1062,10 +1062,20 @@ map.nodes[51555972] = Collectible({
         Spacer(), --
         Section(PVP_PROGRESS_REWARDS_HEADER .. ': 5300/8000'),
         Item({item = 211413}), -- Budding Dreamtrove
-        DC.GrottoNetherwingDrake.SingleHornedCrest, Spacer(), --
+        DC.RenewedProtoDrake.GreenHair, --
+        DC.WindingSlitherdrake.ClusterJawHorns, --
+        DC.WindingSlitherdrake.HeavyHorns, --
+        DC.WindingSlitherdrake.SingleJawHorn, --
+        DC.GrottoNetherwingDrake.SingleHornedCrest, --
+        DC.GrottoNetherwingDrake.ChinSpike, --
+        DC.GrottoNetherwingDrake.FinnedJaw, --
+        DC.GrottoNetherwingDrake.TempestuousPattern, --
+        Spacer(), --
         Section(PVP_PROGRESS_REWARDS_HEADER .. ': 8000/8000'),
         Item({item = 211414}), -- Blossoming Dreamtrove
         Item({item = 208047}), -- Gigantic Dreamseed
+        Item({item = 208067}), -- Plump Dreamseed
+        Item({item = 208066}), -- Small Dreamseed
         Spacer(), Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
@@ -1088,6 +1098,10 @@ local Dreamfruit = Class('Dreamfruit', Collectible, {
 
 map.nodes[51265990] = Dreamfruit({
     note = L['dreamfruit_note_1'],
+    requires = {
+        ns.requirement.Reputation(2574, 1, true),
+        ns.requirement.Reputation(2574, 4, true)
+    },
     rewards = {
         Achievement({
             id = 19310,
@@ -1119,7 +1133,10 @@ map.nodes[51265990] = Dreamfruit({
 
 map.nodes[52847357] = Dreamfruit({
     note = L['dreamfruit_note_2'],
-    requires = {ns.requirement.Reputation(2574, 12, true)}, -- review required
+    requires = {
+        ns.requirement.Reputation(2574, 8, true),
+        ns.requirement.Reputation(2574, 12, true)
+    },
     rewards = {
         Achievement({
             id = 19310,
@@ -1143,6 +1160,41 @@ map.nodes[52847357] = Dreamfruit({
                 62926, -- Wake Up!
                 -- 63414, -- Nae'dra Nibbles
                 63415, -- Fae Lens
+                63438 -- Arachnid Annihilation
+            }
+        })
+    }
+})
+
+map.nodes[46276304] = Dreamfruit({
+    note = L['dreamfruit_note_2'],
+    requires = {
+        ns.requirement.Reputation(2574, 8, true),
+        ns.requirement.Reputation(2574, 12, true)
+    },
+    rewards = {
+        Achievement({
+            id = 19310,
+            criteria = {
+                -- 62910, -- Basket of Explosive Acorns
+                -- 62911, -- Bubble Blowgun
+                -- 62912, -- Dream Gatherer
+                -- 62913, -- Feral Overflow
+                62914, -- Flower Trail
+                -- 62915, -- Lifesurger
+                -- 62916, -- Memory of L'ghorek
+                -- 62917, -- Memory of Ursoc
+                62918, -- Mighty Roar
+                -- 62919, -- Moonkin Jump
+                -- 62920, -- Moonkin Mayhem
+                -- 62921, -- Potent Lullaby
+                -- 62922, -- Putrid Propulsion
+                -- 62923, -- Sack of Talontreats
+                -- 62924, -- Star Shower
+                -- 62925, -- The Superb Loom
+                -- 62926, -- Wake Up!
+                -- 63414, -- Nae'dra Nibbles
+                -- 63415, -- Fae Lens
                 63438 -- Arachnid Annihilation
             }
         })
