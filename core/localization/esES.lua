@@ -44,6 +44,8 @@ L['activation_unknown'] = '¡Activación desconocida!'
 L['requirement_not_found'] = '¡Requerimiento de localización desconocido!'
 L['multiple_spawns'] = 'Puede aparecer en varios sitios.'
 L['shared_drops'] = 'Botín Compartido'
+L['zone_drops_label'] = 'Zonas de Caídas'
+L['zone_drops_note'] = 'Los objetos listados debajo los pueden soltar varios enemigos en esta zona.'
 
 L['requires'] = 'Requiere'
 L['ranked_research'] = '%s (Rango %d/%d)'

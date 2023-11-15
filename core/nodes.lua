@@ -554,7 +554,7 @@ function Interval:Initialize(attrs)
         [2] = self.initial.kr or self.initial.tw,
         [3] = self.initial.eu,
         [5] = self.initial.cn
-    } -- https://wowpedia.fandom.com/wiki/API_GetCurrentRegion
+    } -- https://warcraft.wiki.gg/wiki/API_GetCurrentRegion
 
     if self.id then
         self.SpawnTime = self.id * self.offset +

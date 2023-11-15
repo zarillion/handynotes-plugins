@@ -900,9 +900,9 @@ L['snuggle_buddy_note'] = nil
 L['dreamseed_soil_label'] = nil
 L['dreamseed_soil_note'] = nil
 L['dreamseed_cache'] = nil
-
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = nil
+L['the_seeds_i_sow_suffix'] = nil
 
 L['bloom_man_group_suffix'] = nil
 L['dream_chaser_suffix'] = nil

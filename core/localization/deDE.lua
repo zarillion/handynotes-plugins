@@ -44,6 +44,8 @@ L['activation_unknown'] = 'Aktivierung unbekannt!'
 L['requirement_not_found'] = 'Voraussetzungsort unbekannt!'
 L['multiple_spawns'] = 'Kann an mehreren Orten erscheinen.'
 L['shared_drops'] = 'Geteilte Beute'
+L['zone_drops_label'] = 'Zonenbeute'
+L['zone_drops_note'] = 'Die unten aufgeführten Gegenstände können von mehreren Gegnern in dieser Zone fallen gelassen werden.'
 
 L['requires'] = 'Benötigt'
 L['ranked_research'] = '%s (Rang %d/%d)'

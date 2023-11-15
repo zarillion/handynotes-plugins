@@ -44,6 +44,8 @@ L['activation_unknown'] = 'Активация неизвестна!'
 L['requirement_not_found'] = 'Местоположение требования неизвестно!'
 L['multiple_spawns'] = 'Может появляться в нескольких местах.'
 L['shared_drops'] = 'Общий дроп'
+L['zone_drops_label'] = nil
+L['zone_drops_note'] = nil
 
 L['requires'] = 'Требуется'
 L['ranked_research'] = '%s (Ранг %d/%d)'

@@ -44,6 +44,8 @@ L['activation_unknown'] = nil
 L['requirement_not_found'] = nil
 L['multiple_spawns'] = nil
 L['shared_drops'] = nil
+L['zone_drops_label'] = nil
+L['zone_drops_note'] = nil
 
 L['requires'] = nil
 L['ranked_research'] = nil
