@@ -1637,8 +1637,8 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
                     ELEMENTAL_STORM_MANUSCRIPT_REWARDS[stormType][2]
                 }
                 GameTooltip:AddLine(' ')
-                for i, reward in ipairs(rewards) do
-                    if reward:IsEnabled() then
+                for _, reward in ipairs(rewards) do
+                    if reward and reward:IsEnabled() then
                         reward:Render(GameTooltip)
                     end
                 end

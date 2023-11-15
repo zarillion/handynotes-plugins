@@ -175,7 +175,7 @@ function Node:IterateRewards()
             index = index + 1
             if index > #self.rewards then return end
             reward = self.rewards[index]
-        until reward:IsEnabled()
+        until reward and reward:IsEnabled()
         return reward
     end
 end
