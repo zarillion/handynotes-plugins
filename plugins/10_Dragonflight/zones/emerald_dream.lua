@@ -514,9 +514,7 @@ map.nodes[61625960] = Treasure({
     rlabel = ns.status.LightBlue('+200 ' .. L['rep']),
     rewards = {
         Achievement({id = 19317, criteria = 62960}), -- Treasures of The Emerald Dream
-        Item({item = 208047}), -- Gigantic Dreamseed
-        Currency({id = 2245, type = '20'}), -- Flightstones
-        Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
+        Item({item = 208047}) -- Gigantic Dreamseed
     },
     pois = {POI({64346131})} -- Laughing Sprigling
 }) -- Magical Bloom
@@ -527,9 +525,7 @@ map.nodes[55275726] = Treasure({
     rlabel = ns.status.LightBlue('+200 ' .. L['rep']),
     rewards = {
         Achievement({id = 19317, criteria = 62961}), -- Treasures of The Emerald Dream
-        Item({item = 208067}), -- Plump Dreamseed
-        Currency({id = 2245, type = '20'}), -- Flightstones
-        Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
+        Item({item = 208067}) -- Plump Dreamseed
     }
 }) -- Odd Burl
 
@@ -614,7 +610,6 @@ map.nodes[74002700] = Treasure({
     icon = 1394946,
     label = '{item:201439}',
     note = L['renewed_dream'],
-    scale = 1,
     rewards = {
         Item({item = 208066}), -- Small Dreamseed
         Item({item = 208067}), -- Plump Dreamseed
@@ -631,7 +626,7 @@ local Book = Class('Book', ns.node.Item, {icon = 133741})
 map.nodes[49816171] = Book({
     id = 210049,
     quest = 78831,
-    note = L['inside_building']
+    location = L['inside_building']
 }) -- The Legend of Elun'Ahir
 
 map.nodes[54462464] = Book({id = 208649, quest = 78833}) -- On the Nature of the Dream
@@ -641,7 +636,7 @@ map.nodes[59641910] = Book({id = 210346, quest = 78834}) -- Self-Baking Herb Bas
 map.nodes[53712395] = Book({
     id = 208619,
     quest = 78835,
-    note = L['inside_building']
+    location = L['inside_building']
 }) -- The Tragedy of Erinethria
 
 map.nodes[60834489] = Book({id = 210737, quest = 78911}) -- Ashwood Research Binder
@@ -658,41 +653,25 @@ local UnwakingEcho = Class('UnwakingEcho', Treasure, {
 
 map.nodes[46408615] = UnwakingEcho({
     quest = 78552,
-    rewards = {
-        Transmog({item = 210682, type = L['cosmetic']}), -- Camper's Knife
-        Currency({id = 2245, type = '~21'}), -- Flightstones
-        Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
-    }
+    rewards = {Transmog({item = 210682, type = L['cosmetic']})} -- Camper's Knife
 })
 
 map.nodes[55672258] = UnwakingEcho({
     quest = 78547,
-    rewards = {
-        Transmog({item = 210675, type = L['cosmetic']}), -- Gardener's Lightstaff
-        Currency({id = 2245, type = '~21'}), -- Flightstones
-        Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
-    }
+    rewards = {Transmog({item = 210675, type = L['cosmetic']})} -- Gardener's Lightstaff
 })
 
 map.nodes[55324538] = UnwakingEcho({
     quest = 78551,
     location = L['in_small_cave'],
-    rewards = {
-        Transmog({item = 210678, type = L['cosmetic']}), -- Verdant Glearner's Scythe
-        Currency({id = 2245, type = '~21'}), -- Flightstones
-        Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
-    },
+    rewards = {Transmog({item = 210678, type = L['cosmetic']})}, -- Verdant Glearner's Scythe
     pois = {POI({54774452})} -- Entrance
 })
 
 map.nodes[69575284] = UnwakingEcho({
     quest = 78550,
     location = L['inside_building'],
-    rewards = {
-        Transmog({item = 210686, type = L['shield']}), -- Grovekeeper's Barrier
-        Currency({id = 2245, type = '~21'}), -- Flightstones
-        Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
-    }
+    rewards = {Transmog({item = 210686, type = L['shield']})} -- Grovekeeper's Barrier
 })
 
 -------------------------------------------------------------------------------
@@ -757,11 +736,7 @@ bor.nodes[49486918] = PT.Engineering({
     parent = map.id
 }) -- Insomniotron
 
-map.nodes[62683626] = PT.Engineering({
-    id = 210197,
-    quest = 78281
-    --  turns into Depleted Battery (210198) after 3 days
-}) -- Unhatched Battery
+map.nodes[62683626] = PT.Engineering({id = 210197, quest = 78281}) -- Unhatched Battery
 
 map.nodes[53272791] = PT.Tailoring({
     id = 210461,
@@ -973,8 +948,6 @@ local EmeraldBounty = Class('EmeraldBounty', Node, {
                 DC.GrottoNetherwingDrake.ClusterSpikedBack,
                 Recipe({item = 211065, profession = 773}), -- Technique: Mark of the Auric Dreamstag -- Cache Drop
                 Recipe({item = 210490, profession = 773}), -- Technique: Vantus Rune: Amirdrassil, the Dream's Hope -- Cache Drop
-                Currency({id = 2652}), -- Dream Wardens Reputation -- REVIEW !!! requires Dewdrop progress 50%?
-                Currency({id = 2245}), -- Flightstones
                 Spacer(), Section('{item:208047}'),
                 Recipe({item = 210242, profession = 185, note = '{item:208067}'}), -- Recipe: Slumbering Peacebloom Tea -- Plump Dreamseed
                 Recipe({item = 210174, profession = 333, note = '{item:208067}'}), -- Formula: Illusory Adornment: Dreams -- Plump Dreamseed
@@ -1072,9 +1045,7 @@ map.nodes[51555972] = Collectible({
         Item({item = 211414}), -- Blossoming Dreamtrove
         Item({item = 208047}), -- Gigantic Dreamseed
         Item({item = 208067}), -- Plump Dreamseed
-        Item({item = 208066}), -- Small Dreamseed
-        Spacer(), Currency({id = 2245}), -- Flightstones
-        Currency({id = 2003}) -- Dragon Isles Supplies
+        Item({item = 208066}) -- Small Dreamseed
     }
 })
 
@@ -1476,9 +1447,6 @@ local Somnut = Class('Somnut', Node, {
     rewards = {
         ns.reward.Quest({id = 78172}), -- Mysterious Seeds
         Item({item = 208066}), -- Small Dreamseed
-        Currency({id = 2706}), -- Whelpling's Dreaming Crest
-        Currency({id = 2245}), -- Flightstones
-        Currency({id = 2003}), -- Dragon Isles Supplies
         DC.WindingSlitherdrake.SpikedHorns, --
         DC.WindingSlitherdrake.SpikedTail, --
         DC.WindingSlitherdrake.SmallSpikedCrest --
@@ -1550,9 +1518,6 @@ map.nodes[66306338] = Somnut()
 -------------------------------------------------------------------------------
 ---------------------------- EMERALD DREAM SAFARI -----------------------------
 -------------------------------------------------------------------------------
-
--- Node locations are placed at the position i first found the Pet at.
--- When the wowhead database is filled with locations we have to update them.
 
 local EmeraldDream_Safari = Class('EmeraldDream_Safari', ns.node.Safari,
     {group = ns.groups.EMERALD_DREAM_SAFARI})
