@@ -914,7 +914,7 @@ L['dreamseed_soil_note'] = [[
 L['dreamseed_cache'] = '梦境之种宝箱'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = '显示 {achievement:19013} 成就中 {object:梦境之种壤土} 的位置。'
-L['the_seeds_i_sow_suffix'] = nil
+L['the_seeds_i_sow_suffix'] = '翡翠奖赏种子已捐献'
 
 L['bloom_man_group_suffix'] = '野性漫溢能量已用次数'
 L['dream_chaser_suffix'] = '迷途之梦已收集'
@@ -955,7 +955,7 @@ L['mbc_vial_location'] = '携带 {item:%d} 到 {location:%s} 的月亮井（{loc
 L['mbc_moonwell_label'] = '月亮井'
 L['mbc_feral_dreamstone_label'] = '野性梦境石'
 
-L['azure_somnowl_note'] = '完成一个德鲁伊专属的简短任务线，最后一步 {quest:78066} 奖励 {item:210645}。'
+L['azure_somnowl_note'] = '完成一个从 {npc:209318} 领取的 {quest:78065} 作为开始的简短任务线，奖励 {item:210645}。'
 
 L['slumbering_somnowl_note_a'] = '对 {location:翡翠梦境} 里各种 {npc:寐枭} 施放 {spell:2637} 然后 {spell:426183}，收集5个 {item:210565}。'
 L['slumbering_somnowl_note_b'] = '从商人处购买一个 {item:4291}。'
