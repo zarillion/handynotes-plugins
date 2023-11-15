@@ -44,6 +44,8 @@ L['activation_unknown'] = '활성화 방법 알려지지 않음!'
 L['requirement_not_found'] = '요구사항 위치 불명!'
 L['multiple_spawns'] = '생성 위치가 여러 곳입니다.'
 L['shared_drops'] = nil
+L['zone_drops_label'] = nil
+L['zone_drops_note'] = nil
 
 L['requires'] = '요구사항'
 L['ranked_research'] = '%s (연구단계 %d/%d)'

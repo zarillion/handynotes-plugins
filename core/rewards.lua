@@ -434,8 +434,8 @@ function Recipe:Initialize(attrs)
 end
 
 -- Tooltip Documentation:
--- https://wowpedia.fandom.com/wiki/Patch_10.0.2/API_changes
--- https://wowpedia.fandom.com/wiki/Patch_10.1.0/API_changes
+-- https://warcraft.wiki.gg/wiki/Patch_10.0.2/API_changes
+-- https://warcraft.wiki.gg/wiki/Patch_10.1.0/API_changes
 function Recipe:IsObtained()
     local info = C_TooltipInfo.GetItemByID(self.item)
     if info then

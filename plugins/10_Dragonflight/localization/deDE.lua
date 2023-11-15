@@ -913,9 +913,9 @@ Die Qualität der {object:Traumsaat} bestimmt die Art der Belohnung:
 {note:Für eine Liste der Belohungen sieh dir {npc:211265} auf der Insel im Norden an, sie verkauft auch die meisten Belohungen.}
 ]]
 L['dreamseed_cache'] = 'Traumsaattruhe'
-
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Zeigt die Positionen der {npc:210723} für den Erfolg {achievement:19013} an.'
+L['the_seeds_i_sow_suffix'] = 'Samen der Smaragdfülle beigesteuert'
 
 L['bloom_man_group_suffix'] = 'mal die Fähigkeit \'Wilder Überschuss\' genutzt'
 L['dream_chaser_suffix'] = 'umherirrende Träume gesammelt'
@@ -956,7 +956,7 @@ L['mbc_vial_location'] = 'Fülle die {item:%d} mit Wasser aus dem Mondbrunnen in
 L['mbc_moonwell_label'] = 'Mondbrunnen'
 L['mbc_feral_dreamstone_label'] = 'Wilder Traumstein'
 
-L['azure_somnowl_note'] = 'Schließe die kurze Questreihe für Druiden ab, die mit der von {npc:209318} gegebenen Quest {quest:78065} beginnt, um die {item:210645} zu erhalten.'
+L['azure_somnowl_note'] = 'Schließe die kurze Questreihe ab, die mit der von {npc:209318} gegebenen Quest {quest:78065} beginnt, um die {item:210645} zu erhalten.'
 
 L['slumbering_somnowl_note_a'] = 'Sammle 5x {item:210565}, indem du {npc:Schlummereulen} mit deiner Fähigkeit {spell:2637} in der Zone {location:Der Smaragdgrüne Traum} in den Schlaf versetzt.'
 L['slumbering_somnowl_note_b'] = 'Kaufe 1x {item:4291} bei einem Händler für Handwerkswaren.'

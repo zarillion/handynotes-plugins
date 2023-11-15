@@ -867,7 +867,7 @@ L['greedy_gessie_note'] = 'Necesitas recoger {object:Verduras Salvajes}, {object
 L['nuoberon_note'] = 'Persigue tortugas, lanza comida a los monos, o lucha contra monstruos oníricos para ayudar a que {npc:209101} tenga un sueño divertido.'
 L['reefbreaker_moruud_note'] = 'Conecta las 6 {npc:210089} cercanas para atacar a {npc:209898}.'
 L['surging_lasher_note'] = 'Puede aparece durante el evento {location:Frenesí Esmeralda} en esta zona.'
-L['talthonei_ashwisper_note'] = nil
+L['talthonei_ashwisper_note'] = 'Mata a los enemigos de los alrededores hasta que el enemigo matado diga "Seré vengado" para hacer aparecer el raro.'
 
 L['in_a_tree'] = 'Encima del árbol.'
 L['inside_building'] = 'En el edificio.'
@@ -912,9 +912,9 @@ La calidad de las {object:Semillas del Sueño} aportadas define el tipo de recom
 {note:Para una lista de recompensas echa un vistazo a {npc:211265} en la isla del norte. Ella vende muchas de las recompensas.}
 ]]
 L['dreamseed_cache'] = 'Alijo de Semillas del Sueño'
-
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Muestra dónde están las {object:Tierra con Semillas del Sueño} para el logro {achievement:19013}.'
+L['the_seeds_i_sow_suffix'] = 'Semillas del Sueño entregadas al Regalo Esmeralda'
 
 L['bloom_man_group_suffix'] = 'veces que se ha usado Desbordamiento Feral'
 L['dream_chaser_suffix'] = 'Sueños errantes reunidos'
@@ -955,7 +955,7 @@ L['mbc_vial_location'] = 'Llena {item:%d} con agua de la poza de la luna de {loc
 L['mbc_moonwell_label'] = 'Poza de la Luna'
 L['mbc_feral_dreamstone_label'] = 'Piedra del Sueño Feral'
 
-L['azure_somnowl_note'] = 'Completa la corta cadena de misiones (sólo para druidas) que comienza con la misión {quest:78065} que da {npc:209318} para conseguir la {item:210645}.'
+L['azure_somnowl_note'] = 'Completa la corta cadena de misiones que comienza con la misión {quest:78065} que da {npc:209318} para conseguir la {item:210645}.'
 
 L['slumbering_somnowl_note_a'] = 'Consigue 5x {item:210565} poniendo a varios {npc:Somnobúho} a dormir con el hechizo {spell:2637} a lo largo del {location:Sueño Esmeralda}.'
 L['slumbering_somnowl_note_b'] = 'Compra 1x {item:4291} a cualquier vendedor de suministros.'

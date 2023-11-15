@@ -910,9 +910,9 @@ La qualité de la {object:Graine onirique} contribuée détermine le type de ré
 {note:Pour voir la liste des récompenses, allez voir {npc:211265} sur l'île au nord, elle vend aussi la plupart des récompenses.}
 ]]
 L['dreamseed_cache'] = 'Cache de graine onirique'
-
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Afficher les emplacements des {object:Sol pour graine onirique} pour le haut-fait {achievement:19013}.'
+L['the_seeds_i_sow_suffix'] = 'graines ayant été apportées aux Mannes d\'émeraude'
 
 L['bloom_man_group_suffix'] = 'fois que le pouvoir Débordement farouche à été utilisé'
 L['dream_chaser_suffix'] = 'rêves errants récupérés'
@@ -953,7 +953,7 @@ L['mbc_vial_location'] = 'Remplissez la {item:%d} avec de l\'eau du puits de lun
 L['mbc_moonwell_label'] = 'Puits de lune'
 L['mbc_feral_dreamstone_label'] = 'Pierre onirique farouche'
 
-L['azure_somnowl_note'] = 'Terminez la courte suites de quêtes réservée aux druides commençant par {quest:78065} et donnée par {npc:209318} pour recevoir les {item:210645}.'
+L['azure_somnowl_note'] = 'Terminez la courte suites de quêtes commençant par {quest:78065} et donnée par {npc:209318} pour recevoir les {item:210645}.'
 
 L['slumbering_somnowl_note_a'] = 'Récupérez 5x {item:210565} en utilisant le sort {spell:2637} pour endormir diverses {npc:Somnichouettes} présentes au sein du {location:Rêve d\'émeraude}.'
 L['slumbering_somnowl_note_b'] = 'Achetez 1x {item:4291} auprès de n\'importe quel vendeur de fournitures d’artisanat.'
