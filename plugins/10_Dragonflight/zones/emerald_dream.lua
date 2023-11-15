@@ -466,10 +466,13 @@ map.nodes[63806380] = Amalgamation() -- wowhead coords
 map.nodes[72002700] = Node({
     icon = 5390645,
     label = L['zone_drops_label'],
+    scale = 1.5,
     note = L['zone_drops_note'],
     rewards = {
         Item({item = 208066}), -- Small Dreamseed
         Item({item = 208067}), -- Plump Dreamseed
+        Item({item = 208047}), -- Gigantic Dreamseed
+        Spacer(),
         Recipe({item = 191578, profession = ns.professions.ALCHEMY.skillID}), -- Recipe: Transmute: Awakened Fire
         Recipe({item = 210171, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Aspect's Dreaming Crest
         Recipe({item = 210172, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Wyrm's Dreaming Crest
@@ -479,7 +482,9 @@ map.nodes[72002700] = Node({
         Recipe({item = 210493, profession = ns.professions.INSCRIPTION.skillID}), -- Technique: Grotto Netherwing Drake: Spiked Jaw
         DC.GrottoNetherwingDrake.BarbedTail,
         DC.GrottoNetherwingDrake.ShortHorns,
-        DC.GrottoNetherwingDrake.TripleSpikedCrest
+        DC.GrottoNetherwingDrake.TripleSpikedCrest, Spacer(),
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
     }
 })
 
@@ -610,6 +615,7 @@ map.nodes[74002700] = Treasure({
     icon = 1394946,
     label = '{item:201439}',
     note = L['renewed_dream'],
+    scale = 1.5,
     rewards = {
         Item({item = 208066}), -- Small Dreamseed
         Item({item = 208067}), -- Plump Dreamseed
@@ -1462,6 +1468,7 @@ map.nodes[36704600] = Somnut()
 map.nodes[36804405] = Somnut()
 map.nodes[37735019] = Somnut()
 map.nodes[38073268] = Somnut()
+map.nodes[38476184] = Somnut({location = L['in_small_cave']})
 map.nodes[38512516] = Somnut()
 map.nodes[39184365] = Somnut()
 map.nodes[39315799] = Somnut()
@@ -1482,7 +1489,9 @@ map.nodes[45532594] = Somnut()
 map.nodes[46913522] = Somnut()
 map.nodes[47743551] = Somnut()
 map.nodes[48292228] = Somnut({location = L['in_a_tree']}) -- ontop of the burning tree
+map.nodes[48703449] = Somnut()
 map.nodes[49083517] = Somnut()
+map.nodes[51271460] = Somnut()
 map.nodes[51622974] = Somnut({location = L['in_water']})
 map.nodes[51782620] = Somnut()
 map.nodes[52973369] = Somnut({location = L['in_water']})
@@ -1513,7 +1522,7 @@ map.nodes[62102929] = Somnut({location = L['in_water']})
 map.nodes[63457357] = Somnut()
 map.nodes[65985217] = Somnut() -- On a Branch/Root
 map.nodes[66085014] = Somnut()
-map.nodes[66306338] = Somnut()
+map.nodes[66246327] = Somnut()
 
 -------------------------------------------------------------------------------
 ---------------------------- EMERALD DREAM SAFARI -----------------------------
