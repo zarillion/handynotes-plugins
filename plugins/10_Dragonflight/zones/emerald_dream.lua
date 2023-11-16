@@ -1052,8 +1052,6 @@ map.nodes[51555972] = Collectible({
         Item({item = 208047}), -- Gigantic Dreamseed
         Item({item = 208067}), -- Plump Dreamseed
         Item({item = 208066}), -- Small Dreamseed
-        Spacer(), Currency({id = 2245}), -- Flightstones
-        Currency({id = 2003}), -- Dragon Isles Supplies
         Spacer(), Section('{npc:207554}' .. '  ' .. _G.LOOT), -- Verlann Timbercrush
         Transmog({item = 210661, slot = L['cosmetic']}), -- Dreamcatcher's Crescent
         Transmog({item = 210662, slot = L['cosmetic']}), -- Ochre Ornament of the Grove
