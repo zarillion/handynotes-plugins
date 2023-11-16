@@ -1270,6 +1270,8 @@ map.nodes[34656926] = DruidGlyph({
     pois = {POI({50786208})} -- Cenarius
 }) -- Q'onzu
 
+--------------------- DRUID GLYPH: PRISTMATIC WHISKERFISH ---------------------
+
 local PrismaticWhiskerfish = Class('PrismaticWhiskerfish', DruidGlyph, {
     label = '{item:210753}',
     location = L['prismatic_location'],
@@ -1285,6 +1287,22 @@ function PrismaticWhiskerfish.getters:note()
 end
 
 map.nodes[29703103] = PrismaticWhiskerfish()
+
+local wel = ns.maps[2232] or Map({id = 2232, settings = false}) -- Wellspring Atrium
+
+wel.nodes[50706200] = PrismaticWhiskerfish({
+    pois = {
+        POI({50705700}), -- Fishing location
+        Path({Circle({origin = 50706200, radius = 4})}), -- Fishing pool
+        Path({Circle({origin = 43002000, radius = 3})}) -- The Scorched Hall entrance
+    }
+})
+
+-- local tsh = ns.maps[2244] or Map({id = 2244, settings = false}) -- The Scorched Hall
+
+-- tsh.nodes[50005000] = PrismaticWhiskerfish()
+
+----------------------- DRUID GLYPH: SLUMBERING SOMNOWL -----------------------
 
 local SlumberingSomnowl = Class('SlumberingSomnowl', DruidGlyph, {
     label = '{item:210535}',
