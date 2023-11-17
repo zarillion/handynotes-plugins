@@ -2087,21 +2087,31 @@ map.nodes[58512618] = Collectible({
 
 ------------------------------- CRAFTING TABLES -------------------------------
 
--- 2096	Brackenhide Hollow - Brackenhide Hollow
--- 2106	Brackenhide Hollow - Den of Decay
--- local denofdecay = Map({id = 2106, settings = false}) -- Den of Decay
--- denofdecay.nodes[63703852] = ns.node.Node({
---     -- dungeonLevel = 2,
---     -- type = "table",
---     label = L["altar_of_decay_label"],
---     icon = 4554436,
---     note = L['altar_of_decay_note'],
---     IsEnabled = function(self) -- Leatherworking, Alchemy
---         if ns.PlayerHasProfession(165) or ns.PlayerHasProfession(171) then return true
---         else return false end
---         return ns.node.Item.IsEnabled(self)
---     end
--- }) -- The Altar of Decay
+local brackenhide = Map({id = 2096, settings = false}) -- Brackenhide Hollow - Brackenhide Hollow
+brackenhide.nodes[80224812] = Node({
+    label = L["altar_of_decay_label"],
+    icon = 4554436,
+    note = L['altar_of_decay_note'],
+    IsEnabled = function(self) -- Leatherworking, Alchemy
+        local lw = ns.PlayerHasProfession(165)
+        local al = ns.PlayerHasProfession(171)
+        if not lw and not al then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- The Altar of Decay
+
+local denofdecay = Map({id = 2106, settings = false}) -- Brackenhide Hollow - Den of Decay
+denofdecay.nodes[63703852] = ns.node.Node({
+    label = L["altar_of_decay_label"],
+    icon = 4554436,
+    note = L['altar_of_decay_note'],
+    IsEnabled = function(self) -- Leatherworking, Alchemy
+        local lw = ns.PlayerHasProfession(165)
+        local al = ns.PlayerHasProfession(171)
+        if not lw and not al then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- The Altar of Decay
 
 map.nodes[38376074] = Node({
     label = L['azure_loom_label'],
