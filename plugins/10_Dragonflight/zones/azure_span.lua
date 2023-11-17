@@ -2089,7 +2089,7 @@ map.nodes[58512618] = Collectible({
 
 local brackenhide = Map({id = 2096, settings = false}) -- Brackenhide Hollow - Brackenhide Hollow
 brackenhide.nodes[80224812] = Node({
-    label = L["altar_of_decay_label"],
+    label = L['altar_of_decay_label'],
     icon = 4554436,
     note = L['altar_of_decay_note'],
     IsEnabled = function(self) -- Leatherworking, Alchemy
@@ -2102,7 +2102,7 @@ brackenhide.nodes[80224812] = Node({
 
 local denofdecay = Map({id = 2106, settings = false}) -- Brackenhide Hollow - Den of Decay
 denofdecay.nodes[63703852] = ns.node.Node({
-    label = L["altar_of_decay_label"],
+    label = L['altar_of_decay_label'],
     icon = 4554436,
     note = L['altar_of_decay_note'],
     IsEnabled = function(self) -- Leatherworking, Alchemy
