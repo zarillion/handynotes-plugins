@@ -424,7 +424,7 @@ map.nodes[22743226] = Rare({
 local Raszageth = Class('Raszageth', Rare, {
     id = 209912,
     quest = 77859,
-    fgroup = 'raszageth',
+    fgroup = 'raszageth'
     -- note = L['raszageths_note'],
     -- rlabel = ns.status.LightBlue('+50 ' .. L['rep']), -- NOT confirm yet
     -- rewards = {}
@@ -443,7 +443,7 @@ map.nodes[67606620] = Raszageth() -- wowhead coords
 local Amalgamation = Class('Amalgamation', Rare, {
     id = 209915,
     quest = 77856,
-    fgroup = 'amalgamation',
+    fgroup = 'amalgamation'
     -- note = L['amalgamation_note'],
     -- rlabel = ns.status.LightBlue('+50 ' .. L['rep']), -- NOT confirm yet
     -- rewards = {}
@@ -458,6 +458,18 @@ map.nodes[58806700] = Amalgamation()
 map.nodes[59005860] = Amalgamation() -- wowhead coords
 map.nodes[62805200] = Amalgamation() -- wowhead coords
 map.nodes[63806380] = Amalgamation() -- wowhead coords
+
+---------------------------------- WORLD BOSS ---------------------------------
+
+map.nodes[39465371] = Rare({
+    id = 209574,
+    quest = 76367,
+    rewards = {
+        DG.Guardian.HibernatingRunebear,
+        Transmog({item = 210433, type = L['cosmetic']}), -- Visage of Aurostor
+        DC.FlourishingWhimsydrake.SunriseScales
+    }
+}) -- Aurostor
 
 ---------------------------------- ZONE DROPS ---------------------------------
 
