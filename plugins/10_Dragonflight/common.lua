@@ -1627,14 +1627,14 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
                     ELEMENTAL_STORM_PET_REWARDS[stormType],
                     ELEMENTAL_STORM_FORMULA_REWARDS['all'],
                     ELEMENTAL_STORM_FORMULA_REWARDS[stormType],
-                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][1],
-                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][2],
-                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][3],
-                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][4],
                     ELEMENTAL_STORM_MANUSCRIPT_REWARDS['all'][1],
                     ELEMENTAL_STORM_MANUSCRIPT_REWARDS['all'][2],
                     ELEMENTAL_STORM_MANUSCRIPT_REWARDS[stormType][1],
-                    ELEMENTAL_STORM_MANUSCRIPT_REWARDS[stormType][2]
+                    ELEMENTAL_STORM_MANUSCRIPT_REWARDS[stormType][2],
+                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][1],
+                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][2],
+                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][3],
+                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][4]
                 }
                 GameTooltip:AddLine(' ')
                 for _, reward in ipairs(rewards) do
