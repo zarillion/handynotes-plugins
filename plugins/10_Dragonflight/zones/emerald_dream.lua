@@ -1298,9 +1298,14 @@ wel.nodes[50706200] = PrismaticWhiskerfish({
     }
 })
 
--- local tsh = ns.maps[2244] or Map({id = 2244, settings = false}) -- The Scorched Hall
+local tsh = ns.maps[2244] or Map({id = 2244, settings = false}) -- The Scorched Hall
 
--- tsh.nodes[50005000] = PrismaticWhiskerfish()
+tsh.nodes[55006800] = PrismaticWhiskerfish({
+    pois = {
+        Path({Circle({origin = 55005900, radius = 7})}), -- Fishing pool
+        Path({Circle({origin = 78008900, radius = 3})}) -- The Scorched Hall entrance
+    }
+})
 
 ----------------------- DRUID GLYPH: SLUMBERING SOMNOWL -----------------------
 
