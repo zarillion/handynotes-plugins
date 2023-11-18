@@ -1409,7 +1409,7 @@ local EMPTY_VIALS = {
 }
 
 local MoonBlessedClaw = Class('MoonBlessedClaw', DruidGlyph, {
-    quest = 78528,
+    quest = 78521,
     rewards = {DG.Feral.MoonBlessedDreamsaber} -- Moon-Blessed Claw
 })
 
@@ -1456,6 +1456,9 @@ for num, vial in ipairs(EMPTY_VIALS) do
         playerHasItem = {vial.vialFilledID, 210977},
         rewards = {Item({item = vial.vialFilledID, count = '1'})},
         IsCompleted = function(self)
+            if C_QuestLog.IsQuestFlaggedCompleted(78521) then
+                return true
+            end
             if self.playerHasItem then
                 for i, v in ipairs(self.playerHasItem) do
                     if ns.PlayerHasItem(v) then return true end
