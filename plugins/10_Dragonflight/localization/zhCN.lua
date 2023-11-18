@@ -783,7 +783,7 @@ L['naszuro_ruby_lifeshrine'] = '龙雕像爪子的下面。'
 L['naszuro_dragonheart_outpost'] = '在树的树枝上。'
 
 L['box_of_rocks_label'] = '一箱岩石'
-L['box_of_rocks_note'] = '{object:一箱岩石} 可以在 {location:觉醒海岸} 周围的 {location:兹斯克拉宝库} 内找到，或者从拍卖行购买。'
+L['box_of_rocks_note'] = '{object:一箱岩石} 可以在 {location:觉醒海岸} 整个地区，或者{location:禁忌离岛} 的 {location:兹斯克拉宝库} 内找到，也可以从拍卖行购买。'
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = '显示 {achievement:18559} 成就中 {object:一箱岩石} 可能的位置。'
 

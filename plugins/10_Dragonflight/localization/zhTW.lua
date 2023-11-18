@@ -783,7 +783,7 @@ L['naszuro_ruby_lifeshrine'] = '在龍雕像爪子之下.'
 L['naszuro_dragonheart_outpost'] = '在樹的枝幹間.'
 
 L['box_of_rocks_label'] = '一盒石頭'
-L['box_of_rocks_note'] = '{object:一盒石頭} 可以在 {location:甦醒海岸} 附近, {location:扎拉萊克洞穴} 裡面或是從拍賣場購買.'
+L['box_of_rocks_note'] = '{object:一盒石頭} 可以在 {location:甦醒海岸} 全境, 或是 {location:禁忌之境} 的 {location:澤斯克拉密庫} 裡面找到, 也可以從拍賣場購買.'
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = '顯示成就 {achievement:18559} 所需的 {object:一盒石頭} 可能的位置.'
 
