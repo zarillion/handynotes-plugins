@@ -859,16 +859,19 @@ map.nodes[35756700] = MoonkinHatchling({
 
 map.nodes[37767327] = MoonkinHatchling({criteriaID = 62784}) -- Hops
 
-map.nodes[35566976] = MoonkinHatchling({
+map.nodes[35686969] = MoonkinHatchling({
     criteriaID = 62783,
     location = L['in_small_cave']
 }) -- Meep
 
-map.nodes[36116968] = MoonkinHatchling({criteriaID = 62787}) -- Moonbeam
+map.nodes[35656941] = MoonkinHatchling({
+    criteriaID = 62787,
+    location = L['in_small_cave']
+}) -- Moonbeam
 
 map.nodes[37427231] = MoonkinHatchling({criteriaID = 62782}) -- Owlington
 
-map.nodes[38046901] = MoonkinHatchling({
+map.nodes[37846926] = MoonkinHatchling({
     criteriaID = 62777,
     location = L['in_small_cave'],
     pois = {POI({37526855})} -- Entrance
