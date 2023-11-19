@@ -866,6 +866,7 @@ L['fruitface_note'] = 'Ofrece a {npc:209950} {dot:Pink} tu ayuda para conseguir 
 L['greedy_gessie_note'] = 'Necesitas recoger {object:Verduras Salvajes}, {object:Melón Escamarrubí} y {object:Naranjarraíz} alrededor de la zona y ponerlo todo en las cestas cerca de {npc:210285s} para comenzar el encuentro.'
 L['nuoberon_note'] = 'Persigue tortugas, lanza comida a los monos, o lucha contra monstruos oníricos para ayudar a que {npc:209101} tenga un sueño divertido.'
 L['reefbreaker_moruud_note'] = 'Conecta las 6 {npc:210089} cercanas para atacar a {npc:209898}.'
+L['splinterlimb_note'] = nil
 L['surging_lasher_note'] = 'Puede aparece durante el evento {location:Frenesí Esmeralda} en esta zona.'
 L['talthonei_ashwisper_note'] = 'Mata a los enemigos de los alrededores hasta que el enemigo matado diga "Seré vengado" para hacer aparecer el raro.'
 

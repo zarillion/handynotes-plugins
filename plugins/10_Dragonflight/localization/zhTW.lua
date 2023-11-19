@@ -866,6 +866,7 @@ L['fruitface_note'] = '提供 {npc:209950} {dot:Pink} 幫助來取得 {spell:421
 L['greedy_gessie_note'] = '你需要從附近區域收集 {object:野生蔬菜}, {object:晶紅鱗甜瓜} 和 {object:橘根} 並將它們放到 {npc:210285} 附近的籃子內來開啟戰鬥'
 L['nuoberon_note'] = '追逐猴子, 丟食物給猴子, 或是和夢境怪獸戰鬥來幫助 {npc:209101} 有個愉快的夢!'
 L['reefbreaker_moruud_note'] = '將附近的6個 {npc:210089} 連到 {npc:209898} 身上後才可攻擊他.'
+L['splinterlimb_note'] = nil
 L['surging_lasher_note'] = '在此區域有 {location:翡翠狂亂} 事件時會重生.'
 L['talthonei_ashwisper_note'] = '在附近的區域擊殺怪物直到被殺的怪物說"我會復仇的"來刷新稀有.'
 

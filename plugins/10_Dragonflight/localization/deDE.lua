@@ -867,6 +867,7 @@ L['fruitface_note'] = 'Biete {npc:209950} {dot:Pink} deine Hilfe an, um {spell:4
 L['greedy_gessie_note'] = 'Sammle frische Zutaten wie {object:Wildes Grünzeug}, {object:Rubinschuppenmelone} oder {object:Orangenwurzel} aus der Umgebung und legt diese in die Körbe, damit der seltene Gegner erscheint.'
 L['nuoberon_note'] = 'Jagt Schildkröten, bewerft Affen mit Essen oder bekämpft Traummonster, um {npc:209101} zu einem lustigen Traum zu verhelfen!'
 L['reefbreaker_moruud_note'] = 'Befestige alle 6 {npc:210089e} an ihm, um ihn angreifen zu können.'
+L['splinterlimb_note'] = 'Wird nach 8 Stapeln des Schwächungszaubers {spell:420009} angreifbar. Der Schwächungszauber stapelt sich pro beendeter Runde. Töte die Gegner, die ihn angreifen, damit er seine Runde schneller beenden kann.'
 L['surging_lasher_note'] = 'Kann während des {location:Smaragdraserei} Events in diesem Gebiet erscheinen.'
 L['talthonei_ashwisper_note'] = 'Töte Gegner in der Nähe, bis der getötete Gegner sagt "Man wird... mich rächen", um den seltenen Gegner erscheinen zu lassen.'
 

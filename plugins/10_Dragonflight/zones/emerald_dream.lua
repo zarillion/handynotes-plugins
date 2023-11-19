@@ -346,6 +346,7 @@ map.nodes[43484697] = Rare({
 map.nodes[61755220] = Rare({
     id = 209365,
     quest = 77863,
+    note = L['splinterlimb_note'],
     rewards = {
         Achievement({id = 19316, criteria = 62935}), -- Adventurer of the Emerald Dream
         Transmog({item = 208361, type = L['staff']}), -- Splinterlimb's Branch

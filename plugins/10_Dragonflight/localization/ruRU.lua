@@ -867,6 +867,7 @@ L['fruitface_note'] = nil
 L['greedy_gessie_note'] = nil
 L['nuoberon_note'] = nil
 L['reefbreaker_moruud_note'] = nil
+L['splinterlimb_note'] = nil
 L['surging_lasher_note'] = nil
 L['talthonei_ashwisper_note'] = nil
 
