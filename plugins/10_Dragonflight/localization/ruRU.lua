@@ -885,17 +885,17 @@ L['triflesnatchs_roving_trove_note'] = nil
 L['unwaking_echo_label'] = 'Непробуждающийся отголосок'
 L['unwaking_echo_note'] = '{note:Вы можете открыть этот сундук только во сне.}\n\nУсните {emote:/спать} рядом с сундуком, чтобы открыть его.'
 
-L['amirdrassil_defenders_shield_note'] = nil
-L['dreamtalon_claw_note'] = nil
-L['essence_of_dreams_note'] = nil
-L['exceedingly_soft_wildercloth_note'] = nil
-L['experimental_dreamcatcher_note'] = nil
-L['grove_keepers_pillar_note'] = nil
-L['handful_of_pebbles_note'] = nil
-L['molted_faerie_dragon_scales_note'] = nil
-L['petrified_hope_note'] = nil
-L['plush_pillow_note'] = nil
-L['snuggle_buddy_note'] = nil
+L['amirdrassil_defenders_shield_note'] = 'На столе рядом с {npc:211328}.'
+L['dreamtalon_claw_note'] = 'В нижней части ствола дерева.'
+L['essence_of_dreams_note'] = 'Наверху, на плавающей круглой ветке дерева.'
+L['exceedingly_soft_wildercloth_note'] = 'Внутри здания за стулом.'
+L['experimental_dreamcatcher_note'] = 'На плавучем дереве.'
+L['grove_keepers_pillar_note'] = 'Перед входом в пещеру.'
+L['handful_of_pebbles_note'] = 'На правом плече статуи.'
+L['molted_faerie_dragon_scales_note'] = 'На земле в каких-то цветах.'
+L['petrified_hope_note'] = 'Наверху, на пне дерева.'
+L['plush_pillow_note'] = 'Внутри маленькой хижины на столе.'
+L['snuggle_buddy_note'] = 'Внутри маленькой лодки.'
 
 L['dreamseed_soil_label'] = nil
 L['dreamseed_soil_note'] = nil
@@ -925,12 +925,12 @@ L['pollenfused_bristlebruin_fur_sample_note'] = nil
 L['mbc_note_start'] = nil
 L['mbc_note_end'] = nil
 
-L['mbc_vial_b'] = nil
-L['mbc_vial_d'] = nil
-L['mbc_vial_e'] = nil
-L['mbc_vial_k'] = nil
-L['mbc_vial_n'] = nil
-L['mbc_vial_o'] = nil
+L['mbc_vial_b'] = 'B'
+L['mbc_vial_d'] = 'D'
+L['mbc_vial_e'] = 'E'
+L['mbc_vial_k'] = 'K'
+L['mbc_vial_n'] = 'N'
+L['mbc_vial_o'] = 'O'
 
 L['mbc_vial_d_location'] = nil
 L['mbc_vial_e_location'] = nil
