@@ -424,10 +424,12 @@ map.nodes[22743226] = Rare({
 local Raszageth = Class('Raszageth', Rare, {
     id = 209912,
     quest = 77859,
-    fgroup = 'raszageth'
+    fgroup = 'raszageth',
     -- note = L['raszageths_note'],
     -- rlabel = ns.status.LightBlue('+50 ' .. L['rep']), -- NOT confirm yet
-    -- rewards = {}
+    rewards = {
+        Currency({id = 2716, type = '+5'}) -- Drake's Dreaming Crests
+    }
 }) -- Raszageth's Last Breath
 
 map.nodes[24203240] = Raszageth({vignette = 5808}) -- wowhead coords
@@ -443,10 +445,12 @@ map.nodes[67606620] = Raszageth() -- wowhead coords
 local Amalgamation = Class('Amalgamation', Rare, {
     id = 209915,
     quest = 77856,
-    fgroup = 'amalgamation'
+    fgroup = 'amalgamation',
     -- note = L['amalgamation_note'],
     -- rlabel = ns.status.LightBlue('+50 ' .. L['rep']), -- NOT confirm yet
-    -- rewards = {}
+    rewards = {
+        Currency({id = 2716, type = '+5'}) -- Drake's Dreaming Crests
+    }
 }) -- Amalgamation of Dreams
 
 map.nodes[39615386] = Amalgamation({vignette = 5807})
