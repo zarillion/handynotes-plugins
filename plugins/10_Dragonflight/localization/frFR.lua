@@ -990,8 +990,6 @@ L['options_icons_somnut_desc'] = 'Afficher les emplacements possibles des {objec
 L['improvised_leafbed_note'] = 'Terminez la suite de quêtes commençant par {quest:77896} pour recevoir le {item:210864} de la part de {npc:210164}.'
 L['kalandu_note'] = 'Terminez la suite de quêtes commençant par {quest:77948} pour recevoir {item:210633} de la part de {npc:210196}.'
 
-L['renewed_dream'] = '{note:Ceci n\'est pas un trésor !}\nLes {item:201437} sont récupérés un peu partout au sein du {location:Rêve d\'Émeraude}.\nCombinez 5x {item:201437} pour reconstituer un {item:201439}.'
-
 L['ochre_note'] = 'Parlez à la {npc:209253} pour commencer la suite de la quête, le {npc:209571} vous indiquera les étapes suivantes.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:Prends 5 jours à pousser.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:Prends 5 jours à pousser.}'

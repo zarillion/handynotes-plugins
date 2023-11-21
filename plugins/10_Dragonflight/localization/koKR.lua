@@ -915,8 +915,6 @@ L['options_icons_somnut_desc'] = nil
 L['improvised_leafbed_note'] = nil
 L['kalandu_note'] = nil
 
-L['renewed_dream'] = nil
-
 L['ochre_note'] = nil
 L['ochre_note_stage1'] = nil
 L['ochre_note_stage2'] = nil

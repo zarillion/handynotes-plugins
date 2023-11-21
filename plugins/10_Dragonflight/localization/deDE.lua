@@ -993,8 +993,6 @@ L['options_icons_somnut_desc'] = 'Zeigt die möglichen Positionen für {object:S
 L['improvised_leafbed_note'] = 'Beginne die Quest {quest:77896} und schließe die Questreihe ab, um {item:210864} von {npc:210164} zu erhalten.'
 L['kalandu_note'] = 'Beginne die Quest {quest:77948} und schließe die Questreihe ab, um {item:210633} von {npc:210196} zu erhalten.'
 
-L['renewed_dream'] = '{note:An dieser Position ist KEIN Schatz!}\n{item:201437} kann überall in {location:Der Smaragdgrüne Traum} als Beute fallen gelassen werden.\nKombiniere 5 {item:201437}, um {item:201439} wiederherzustellen.'
-
 L['ochre_note'] = 'Sprich mit {npc:209253}, um die Questreihe zu starten. {npc:209571} wird die nächsten Abschnitte anbieten.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:5 Tage zum Wachsen.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:5 Tage zum Wachsen.}'

@@ -992,8 +992,6 @@ L['options_icons_somnut_desc'] = '显示 {object:眠果} 可能的位置。'
 L['improvised_leafbed_note'] = '完成从 {quest:77896} 起始的任务线，从 {npc:210164} 得到奖励 {item:210864}。'
 L['kalandu_note'] = '完成从 {quest:77948} 起始的任务线，从 {npc:210196} 得到奖励 {item:210633}。'
 
-L['renewed_dream'] = '{note:这里不是一个宝箱！}\n{item:201437} 广泛掉落自 {location:翡翠梦境}。\n5个 {item:201437} 可以合成1个 {item:201439}。'
-
 L['ochre_note'] = '和 {npc:209253} 对话开始任务线，{npc:209571} 会布置接下来的任务。'
 L['ochre_note_stage1'] = '{quest:77677}。{note:生长期5天。}'
 L['ochre_note_stage2'] = '{quest:78398}。{note:生长期5天。}'

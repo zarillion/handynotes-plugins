@@ -992,8 +992,6 @@ L['options_icons_somnut_desc'] = '顯示 {object:小睡夢果} 可能的位置.'
 L['improvised_leafbed_note'] = '完成從 {quest:77896} 開始的任務鍊來從 {npc:210164} 取得 {item:210864}.'
 L['kalandu_note'] = '完成從 {quest:77948} 開始的任務鍊以從 {npc:210196} 取得 {item:210633}.'
 
-L['renewed_dream'] = '{note:這裡沒有寶藏!}\n全 {location:翡翠夢境} 都會掉落 {item:201437}\n組合 5個 {item:201437} 來復原成 {item:201439}.'
-
 L['ochre_note'] = '和 {npc:209253} 交談來開始任務線. {npc:209571} 會提供下個階段'
 L['ochre_note_stage1'] = '{quest:77677}. {note:成長期5天.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:成長期5天.}'
