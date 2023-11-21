@@ -972,7 +972,7 @@ L['prismatic_location'] = '在團本 {location:『夢境希望』埃達希爾} �
 L['prismatic_note_1'] = '1. 從 {location:泉湧中庭} 的水池釣 10隻 {item:210782}.'
 L['prismatic_note_2'] = '2. 從 {location:灼烈大廳} 的熔岩池釣 10隻 {item:210783}.'
 L['prismatic_note_3'] = '3. 將總共20隻魚丟到 {location:泉湧中庭} 內最大的水池來取得30分鐘的增益 {spell:427145}.'
-L['prismatic_note_4'] = '4. 在 {location:泉湧中庭} 的 {object:Prismatic Whiskerfish} 魚群釣魚直到釣到 {item:210784}.'
+L['prismatic_note_4'] = '4. 在 {location:泉湧中庭} 的 {object:稜彩鰓鬚魚水池} 魚群釣魚直到釣到 {item:210784}.'
 L['prismatic_note_5'] = '5. 在 {location:泉湧中庭} 釋放 {npc:希納} 回到水中來取得 {item:210753}.'
 
 L['options_icons_druid_glyph'] = '德魯伊印記'
