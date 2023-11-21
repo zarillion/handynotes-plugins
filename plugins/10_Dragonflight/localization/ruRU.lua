@@ -905,13 +905,13 @@ L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = 'Отобразить {object:Почву для семени Сна} в локации для {achievement:19013}.'
 L['the_seeds_i_sow_suffix'] = 'семена, внесенные в Изумрудный дар'
 
-L['bloom_man_group_suffix'] = nil
-L['dream_chaser_suffix'] = nil
-L['dreamfruit_label'] = nil
-L['dreamfruit_note_1'] = nil
-L['dreamfruit_note_2'] = nil
-L['options_icons_dreamfruit'] = nil
-L['options_icons_dreamfruit_desc'] = nil
+L['bloom_man_group_suffix'] = 'время использования Дикого прилива'
+L['dream_chaser_suffix'] = 'соберите потерянные сновидения'
+L['dreamfruit_label'] = 'Сонный плод'
+L['dreamfruit_note_1'] = 'Появляется, когда {location:Цветочный Бум} начинается. Событие начинается в начале каждого часа.'
+L['dreamfruit_note_2'] = 'Появляется после первой остановки на событии {location:Цветочный Бум}. Событие начинается в начале каждого часа возле {location:Амирдрассила}.'
+L['options_icons_dreamfruit'] = '{achievement:19310}'
+L['options_icons_dreamfruit_desc'] = 'Показать местоположения Сонных плодов для {achievement:19310}.'
 
 L['options_icons_moonkin_hatchling'] = nil
 L['options_icons_moonkin_hatchling_desc'] = nil
