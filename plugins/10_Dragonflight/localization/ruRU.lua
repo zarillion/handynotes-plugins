@@ -860,7 +860,7 @@ L['options_icons_zone_event_desc'] = 'Отображение мест для с�
 -------------------------------------------------------------------------------
 
 L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
-L['options_icons_emerald_dream_safari_desc'] = nil
+L['options_icons_emerald_dream_safari_desc'] = 'Показать местонахождение боевых питомцев для достижения {achievement:19401}.'
 
 L['envoy_of_winter_note'] = nil
 L['fruitface_note'] = nil
@@ -870,20 +870,20 @@ L['reefbreaker_moruud_note'] = nil
 L['surging_lasher_note'] = nil
 L['talthonei_ashwisper_note'] = nil
 
-L['in_a_tree'] = nil
-L['inside_building'] = nil
+L['in_a_tree'] = 'На дереве.'
+L['inside_building'] = 'В здании.'
 
-L['hidden_moonkin_stash_label'] = nil
+L['hidden_moonkin_stash_label'] = 'Тайник совухов'
 L['magical_bloom_note'] = nil
-L['pineshrew_cache_note'] = nil
+L['pineshrew_cache_note'] = 'Рядом с несколькими камнями.'
 L['reliquary_of_ashamane_note'] = nil
 L['reliquary_of_aviana_note'] = nil
 L['reliquary_of_goldrinn_note'] = nil
 L['reliquary_of_ursol_note'] = nil
 L['triflesnatchs_roving_trove_note'] = nil
 
-L['unwaking_echo_label'] = nil
-L['unwaking_echo_note'] = nil
+L['unwaking_echo_label'] = 'Непробуждающийся отголосок'
+L['unwaking_echo_note'] = '{note:Вы можете открыть этот сундук только во сне.}\n\nУсните {emote:/спать} рядом с сундуком, чтобы открыть его.'
 
 L['amirdrassil_defenders_shield_note'] = nil
 L['dreamtalon_claw_note'] = nil
