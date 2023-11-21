@@ -864,7 +864,7 @@ L['fruitface_note'] = 'Offrez votre aide à {npc:209950} {dot:Pink} pour recevoi
 L['greedy_gessie_note'] = 'Vous devez récupérer les objets {object:Légumes sauvages}, {object:Melon écaille de rubis} et {object:Racine orange} aux alentours et les mettre dans les paniers près des {npc:210285} pour commencer le combat.'
 L['nuoberon_note'] = 'Pourchassez les tortues, jetez de la nourriture aux singes ou combattez les monstres des rêves pour aider {npc:209101} à passer un rêve amusant !'
 L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaquer {npc:209898}.'
-L['splinterlimb_note'] = nil
+L['splinterlimb_note'] = 'Devient hostile après 8 stacks du debuff {spell:420009}. Le debuff se cumule par tour terminé. Tuez les monstres qui l\'attaquent pour qu\'il puisse terminer son tour plus rapidement.'
 L['surging_lasher_note'] = 'Peut apparaître pendant l\'événement {location:Frénésie d\'émeraude} dans cette zone.'
 L['talthonei_ashwisper_note'] = 'Tuez des monstres dans la zone jusqu\'à ce qu\'un des monstres tués dise "Je serai vengé" pour faire apparaître le rare.'
 
