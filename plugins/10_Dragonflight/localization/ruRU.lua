@@ -980,16 +980,16 @@ L['options_icons_somnut_desc'] = nil
 L['improvised_leafbed_note'] = nil
 L['kalandu_note'] = nil
 
-L['ochre_note'] = nil
-L['ochre_note_stage1'] = nil
-L['ochre_note_stage2'] = nil
+L['ochre_note'] = 'Поговорите с {npc:209253} чтобы начать линейку заданий, {npc:209571} состоит из следующих этапов.'
+L['ochre_note_stage1'] = '{quest:77677}. {note:5 дней на выращивание.}'
+L['ochre_note_stage2'] = '{quest:78398}. {note:5 дней на выращивание.}'
 L['ochre_note_stage3'] = nil
-L['ochre_note_stage4'] = nil
-L['ochre_note_stage5'] = nil
+L['ochre_note_stage4'] = '{quest:77711}. {note:5 дней на выращивание.}'
+L['ochre_note_stage5'] = '{quest:77762}.'
 
-L['thorn_beast_stag'] = nil
-L['thorn_beast_saber'] = nil
-L['thorn_beast_bear'] = nil
+L['thorn_beast_stag'] = '{item:%d} ({npc:Олень})'
+L['thorn_beast_saber'] = '{item:%d} ({npc:Саблезуб})'
+L['thorn_beast_bear'] = '{item:%d} ({npc:Медведь})'
 
 L['thornbeast_disclaimer'] = nil
 
