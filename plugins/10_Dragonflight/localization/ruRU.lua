@@ -897,12 +897,12 @@ L['petrified_hope_note'] = 'Наверху, на пне дерева.'
 L['plush_pillow_note'] = 'Внутри маленькой хижины на столе.'
 L['snuggle_buddy_note'] = 'Внутри маленькой лодки.'
 
-L['dreamseed_soil_label'] = nil
+L['dreamseed_soil_label'] = 'Почва для семени Сна'
 L['dreamseed_soil_note'] = nil
-L['dreamseed_cache'] = nil
+L['dreamseed_cache'] = 'Сундук семени Сна'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
-L['options_icons_dream_of_seeds_desc'] = nil
-L['the_seeds_i_sow_suffix'] = nil
+L['options_icons_dream_of_seeds_desc'] = 'Отобразить {object:Почву для семени Сна} в локации для {achievement:19013}.'
+L['the_seeds_i_sow_suffix'] = 'семена, внесенные в Изумрудный дар'
 
 L['bloom_man_group_suffix'] = nil
 L['dream_chaser_suffix'] = nil
