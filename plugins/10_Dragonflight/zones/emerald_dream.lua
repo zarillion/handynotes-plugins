@@ -367,6 +367,7 @@ local SurgingLasher = Class('SurgingLasher', Rare, {
     }
 }) -- Surging Lasher
 
+map.nodes[42413092] = SurgingLasher()
 map.nodes[57015167] = SurgingLasher({vignette = 5859})
 map.nodes[58967188] = SurgingLasher()
 map.nodes[59896202] = SurgingLasher()
@@ -384,9 +385,15 @@ local Talthonei = Class('Talthonei', Rare, {
     }
 }) -- Talthonei Ashwisper
 
+-- map.nodes[34605500] = Talthonei() -- wowhead HOW? only with WQ?
 map.nodes[35132264] = Talthonei()
 map.nodes[36922240] = Talthonei()
+map.nodes[59204360] = Talthonei() -- wowhead
 map.nodes[61426741] = Talthonei()
+map.nodes[61604500] = Talthonei() -- wowhead
+map.nodes[61804140] = Talthonei() -- wowhead
+map.nodes[62805220] = Talthonei() -- wowhead
+map.nodes[62805520] = Talthonei() -- wowhead
 map.nodes[63877009] = Talthonei()
 map.nodes[64446660] = Talthonei()
 
@@ -609,22 +616,6 @@ map.nodes[34105633] = Treasure({
         Path({39715215, 42225630, 41756256, 34105633}) -- Flight path
     }
 }) -- Triflesnatch's Roving Trove
-
--------------------------------------------------------------------------------
-
-map.nodes[74002700] = Treasure({
-    icon = 1394946,
-    label = '{item:201439}',
-    note = L['renewed_dream'],
-    scale = 1.5,
-    rewards = {
-        Item({item = 208066}), -- Small Dreamseed
-        Item({item = 208067}), -- Plump Dreamseed
-        DC.GrottoNetherwingDrake.TripleSpikedCrest, --
-        DC.GrottoNetherwingDrake.ShortHorns, --
-        DC.GrottoNetherwingDrake.BarbedTail
-    }
-}) -- Renewed Dream
 
 -------------------------------------------------------------------------------
 
@@ -1063,11 +1054,6 @@ map.nodes[51555972] = Collectible({
 ----------------------------- FRUIT OF THE BLOOM ------------------------------
 -------------------------------------------------------------------------------
 
--- https://us.forums.blizzard.com/en/wow/t/new-public-events-superbloom-and-emerald-bounty/1674596
--- There will be up to the total of four available Dreamfruit.
--- Each individual Dreamfruit during the Superbloom has its own,
--- unique pool of blessings it can bestow.
-
 local Dreamfruit = Class('Dreamfruit', Collectible, {
     icon = 5390643,
     label = L['dreamfruit_label'],
@@ -1121,22 +1107,22 @@ map.nodes[52847357] = Dreamfruit({
             criteria = {
                 -- 62910, -- Basket of Explosive Acorns
                 -- 62911, -- Bubble Blowgun
-                62912, -- Dream Gatherer
+                -- 62912, -- Dream Gatherer
                 -- 62913, -- Feral Overflow
                 62914, -- Flower Trail
                 -- 62915, -- Lifesurger
-                -- 62916, -- Memory of L'ghorek
+                62916, -- Memory of L'ghorek
                 62917, -- Memory of Ursoc
                 62918, -- Mighty Roar
                 -- 62919, -- Moonkin Jump
                 -- 62920, -- Moonkin Mayhem
                 -- 62921, -- Potent Lullaby
                 -- 62922, -- Putrid Propulsion
-                62923, -- Sack of Talontreats
+                -- 62923, -- Sack of Talontreats
                 62924, -- Star Shower
                 62925, -- The Superb Loom
                 62926, -- Wake Up!
-                -- 63414, -- Nae'dra Nibbles
+                63414, -- Nae'dra Nibbles
                 63415, -- Fae Lens
                 63438 -- Arachnid Annihilation
             }
@@ -1160,19 +1146,19 @@ map.nodes[46276304] = Dreamfruit({
                 -- 62913, -- Feral Overflow
                 62914, -- Flower Trail
                 -- 62915, -- Lifesurger
-                -- 62916, -- Memory of L'ghorek
-                -- 62917, -- Memory of Ursoc
+                62916, -- Memory of L'ghorek
+                62917, -- Memory of Ursoc
                 62918, -- Mighty Roar
                 -- 62919, -- Moonkin Jump
                 -- 62920, -- Moonkin Mayhem
                 -- 62921, -- Potent Lullaby
                 -- 62922, -- Putrid Propulsion
                 -- 62923, -- Sack of Talontreats
-                -- 62924, -- Star Shower
-                -- 62925, -- The Superb Loom
-                -- 62926, -- Wake Up!
-                -- 63414, -- Nae'dra Nibbles
-                -- 63415, -- Fae Lens
+                62924, -- Star Shower
+                62925, -- The Superb Loom
+                62926, -- Wake Up!
+                63414, -- Nae'dra Nibbles
+                63415, -- Fae Lens
                 63438 -- Arachnid Annihilation
             }
         })
