@@ -2645,4 +2645,11 @@ map.nodes[24556089] = ns.node.Node({
     end
 }) -- The Earth-Warder's Forge
 
+------------------------------------------------------------------------------
+--------------------------------- DREAMSURGE ---------------------------------
+------------------------------------------------------------------------------
+
+map.nodes[58446784] = ns.node.Celestine()
+map.nodes[41197748] = ns.node.RenewedMagmammoth()
+
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

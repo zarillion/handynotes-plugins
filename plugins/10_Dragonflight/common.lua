@@ -1843,6 +1843,7 @@ ns.node.Celestine = Celestine
 local RenewedMagmammoth = Class('RenewedMagmammoth', Collectible, {
     label = '{item:192807}',
     icon = 4034837,
+    vignette = 5751,
     sublabel = L['dreamsurge_sublabel'],
     rewards = {
         Mount({item = 192807, id = 1645}) -- Renewed Magmammoth
