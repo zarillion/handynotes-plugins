@@ -941,7 +941,7 @@ L['mbc_vial_o_location'] = nil
 
 L['mbc_vial_location'] = nil
 
-L['mbc_moonwell_label'] = nil
+L['mbc_moonwell_label'] = 'Лунный колодец'
 L['mbc_feral_dreamstone_label'] = nil
 
 L['azure_somnowl_note'] = nil
@@ -973,9 +973,9 @@ L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
 
 L['sylvia_vendor_note'] = nil
 
-L['somnut'] = nil
-L['options_icons_somnut'] = nil
-L['options_icons_somnut_desc'] = nil
+L['somnut'] = 'Снорех'
+L['options_icons_somnut'] = 'Снорех'
+L['options_icons_somnut_desc'] = 'Отображать возможные местоположения {object:Снорехов}.'
 
 L['improvised_leafbed_note'] = nil
 L['kalandu_note'] = nil
