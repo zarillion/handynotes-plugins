@@ -991,7 +991,7 @@ L['thorn_beast_stag'] = '{item:%d} ({npc:Олень})'
 L['thorn_beast_saber'] = '{item:%d} ({npc:Саблезуб})'
 L['thorn_beast_bear'] = '{item:%d} ({npc:Медведь})'
 
-L['thornbeast_disclaimer'] = nil
+L['thornbeast_disclaimer'] = '{note:Напоминание, каждый тип зверя имеет уникальный {item:%s} и приведет к подходящему шипастому зверю.}'
 
 L['thorn_laden_heart_note_1'] = nil
 L['thorn_laden_heart_note_2'] = nil
@@ -999,7 +999,7 @@ L['thorn_laden_heart_note_2'] = nil
 L['athainne_note_1'] = nil
 L['athainne_note_2'] = nil
 
-L['ulfar_note_1'] = nil
+L['ulfar_note_1'] = 'Попросите {npc:149386} использовать {item:209863} чтобы создать {item:209866}.'
 L['ulfar_note_2'] = nil
 
 L['thorn_stag_note'] = nil
