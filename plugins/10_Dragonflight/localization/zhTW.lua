@@ -1005,7 +1005,7 @@ L['thorn_beast_bear'] = '{item:%d} ({npc:熊})'
 
 L['thornbeast_disclaimer'] = '{note:提醒, 每種野獸類型有獨特的 {item:%s} 並且會對應到相對的荊棘野獸.}'
 
-L['thorn_laden_heart_note_1'] = '從 {location:翡翠夢境} 裡的任意 {npc:雄鹿}, {npc:劍齒虎} 或 {npc:熊} 拾取一個 {item:209860}.'
+L['thorn_laden_heart_note_1'] = '從 {location:翡翠夢境} 裡的任意 {npc:雄鹿}, {npc:夢刃豹} 或 {npc:熊} 拾取一個 {item:209860}.'
 L['thorn_laden_heart_note_2'] = '當你有一個 {item:209860} 後, 到 {location:庫爾提拉斯} 的 {location:佐司瓦} 找一隻母鹿 {npc:140044}.'
 
 L['athainne_note_1'] = '{note:{npc:140044} 晚上時會和 {npc:129771} 一起移動, 白天時會在 {locatuon:烏爾法洞穴} 內休息.}\n\n要求 {npc:140044} 使用 {item:209860} 製造 {item:209863}.'
@@ -1014,9 +1014,9 @@ L['athainne_note_2'] = '當你和 {npc:140044} 說話並取得 {item:209863} 後
 L['ulfar_note_1'] = '要求 {npc:149386} 使用 {item:209863} 製造 {item:209866}.'
 L['ulfar_note_2'] = '當你有了 {item:209866}, 回到 {location:翡翠夢境} 找到一個適合轉化儀式的目標.'
 
-L['thorn_stag_note'] = '1. 殺掉 {npc:210976}, 並對著屍體使用 {item:209866}. 雄鹿會重生成 {npc:210984} {npc:<Thornborn Spirit>}.\n\n2. 對牠使用 {spell:1515}.\n\n3. {npc:210984} 有三種顏色: 黑色, 棕色, 和綠色.'
-L['thorn_saber_note'] = '1. 殺掉 {npc:210975}, 並對著屍體使用 {item:209867}. 夜刃豹會重生成 {npc:210981} {npc:<Thornborn Spirit>}.\n\n2. 對牠使用 {spell:1515}.\n\n3. {npc:210981} 有三種顏色: 黑色, 綠色, 和灰白.'
-L['thorn_bear_note'] = '1. 殺掉 {npc:210977}, 並對著屍體使用 {item:209868}. 夜刃豹會重生成 {npc:210988} {npc:<Thornborn Spirit>}.\n\n2. 對牠使用 {spell:1515}.\n\n3. {npc:210981} 有三種顏色: 棕色, 暗色, 和綠色.'
+L['thorn_stag_note'] = '1. 殺掉 {npc:210976}, 並對著屍體使用 {item:209866}. 雄鹿會重生成 {npc:210984} {npc:<棘裔靈魂>}.\n\n2. 對牠使用 {spell:1515}.\n\n3. {npc:210984} 有三種顏色: 黑色, 棕色, 和綠色.'
+L['thorn_saber_note'] = '1. 殺掉 {npc:210975}, 並對著屍體使用 {item:209867}. 夢刃豹會重生成 {npc:210981} {npc:<棘裔靈魂>}.\n\n2. 對牠使用 {spell:1515}.\n\n3. {npc:210981} 有三種顏色: 黑色, 綠色, 和灰白.'
+L['thorn_bear_note'] = '1. 殺掉 {npc:210977}, 並對著屍體使用 {item:209868}. 熊會重生成 {npc:210988} {npc:<棘裔靈魂>}.\n\n2. 對牠使用 {spell:1515}.\n\n3. {npc:210981} 有三種顏色: 棕色, 暗色, 和綠色.'
 
 L['nahqi_note'] = '需要 {item:211314} 才能對 {npc:210908} 使用 {spell:1515}, 這需要從坐騎 {item:210061} 上取得.\n\n{npc:210908}{npc:<Ember of Regrowth>} 在空中 {note:逆時鐘} 繞著 {location:埃達希爾} 飛行, 飛行一周花費17:30.\n最小刷新時間為30分鐘.\n\n{note:牠是{npc:靈獸}. 只有獸王獵可以馴服牠.}'
 
