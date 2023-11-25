@@ -549,7 +549,7 @@ L['pt_jewel_painters_pretty_jewel_note'] = '在燈座內.'
 L['pt_leath_decayed_scales_note'] = '在一個袋子裡.'
 L['pt_script_counterfeit_darkmoon_deck_note'] = '和 {npc:194856} 講話並幫助她整理散落在他腳邊的 {object:風暴套卡}. 依照順序點選卡片 (1到8) 之後和她交談來取得套卡.'
 L['pt_script_forgetful_apprentices_tome_note'] = '在桌上一個大圓規旁.'
-L['pt_script_forgetful_apprentices_tome_algethera_note'] = nil
+L['pt_script_forgetful_apprentices_tome_algethera_note'] = '點選 {object:可疑的徽記} 來取得增益 {spell:384818}. 穿過橋梁並從 {npc:194880} 拾取 {item:198672} 並將其帶回徽記處.'
 L['pt_script_how_to_train_your_whelpling_note'] = '躺在沙盒內的一本小綠書.'
 L['pt_smith_draconic_flux_note'] = '在一棟建築內.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = '點選 {object:古老的龍紡織布機} 來完成一個小遊戲把線捲連到中間的寶石.'
@@ -815,7 +815,7 @@ L['options_icons_ritual_offering_desc'] = '顯示 {object:儀式祭品} 可能�
 L['nal_kskol_reliquary_label'] = '納克斯科聖匣'
 L['nal_kskol_reliquary_note'] = '使用 {object:聖匣存取控制臺} 並解開謎題來開啟 {object:納克斯科聖匣}.'
 
-L['busted_wyrmhole_generator_note'] = nil
+L['busted_wyrmhole_generator_note'] = '{item:205954} 也是拾取自 {object:壞掉的龍洞產生器}.\n使用後會從 {item:198156} 解鎖 {location:扎拉萊克洞窟} 的龍洞選項.'
 L['molten_scoutbot_note'] = '開啟 {object:熔火偵查機器人} 並拾取 {item:204855}.'
 L['bolts_and_brass_note'] = '開啟 {object:螺栓與黃銅} 並拾取 {item:204850}.'
 
@@ -866,7 +866,7 @@ L['fruitface_note'] = '提供 {npc:209950} {dot:Pink} 幫助來取得 {spell:421
 L['greedy_gessie_note'] = '你需要從附近區域收集 {object:野生蔬菜}, {object:晶紅鱗甜瓜} 和 {object:橘根} 並將它們放到 {npc:210285} 附近的籃子內來開啟戰鬥'
 L['nuoberon_note'] = '追逐猴子, 丟食物給猴子, 或是和夢境怪獸戰鬥來幫助 {npc:209101} 有個愉快的夢!'
 L['reefbreaker_moruud_note'] = '將附近的6個 {npc:210089} 連到 {npc:209898} 身上後才可攻擊他.'
-L['splinterlimb_note'] = nil
+L['splinterlimb_note'] = '在8層 {spell:420009} 減益後會變為敵對. 每一輪後會堆疊一層. 擊殺攻擊他的怪物可以讓他快點完成每輪.'
 L['surging_lasher_note'] = '在此區域有 {location:翡翠狂亂} 事件時會重生.'
 L['talthonei_ashwisper_note'] = '在附近的區域擊殺怪物直到被殺的怪物說"我會復仇的"來刷新稀有.'
 
