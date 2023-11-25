@@ -145,22 +145,22 @@ L['options_icons_frostbound_chest'] = '霜縛寶箱'
 L['options_icons_frostbound_chest_desc'] = '顯示 {object:霜縛寶箱} 可能的位置.'
 
 L['fyrakk_assault_label'] = '菲拉卡突襲'
-L['fyrakk_secured_shipment'] = nil
+L['fyrakk_secured_shipment'] = '封住的貨箱'
 
-L['shadowflame_forge_label'] = nil
-L['shadowflame_forge_note'] = nil
-L['shadowflame_blacksmithing_anvil_label'] = nil
-L['shadowflame_blacksmithing_anvil_note'] = nil
-L['shadowflame_leatherworking_table_label'] = nil
-L['shadowflame_leatherworking_table_note'] = nil
-L['shadowflame_incantation_table_label'] = nil
-L['shadowflame_incantation_table_note'] = nil
-L['azure_loom_label'] = nil
-L['azure_loom_note'] = nil
-L['temporal_loom_label'] = nil
-L['temporal_loom_note'] = nil
-L['earthwarders_forge_label'] = nil
-L['earthwarders_forge_note'] = nil
+L['shadowflame_forge_label'] = '暗焰熔爐'
+L['shadowflame_forge_note'] = '當製造以下圖樣時需要:\n{spell:408282}'
+L['shadowflame_blacksmithing_anvil_label'] = '暗焰鍛造鐵砧'
+L['shadowflame_blacksmithing_anvil_note'] = '當製造以下圖樣時需要:\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
+L['shadowflame_leatherworking_table_label'] = '暗焰製皮工作臺'
+L['shadowflame_leatherworking_table_note'] = '當製造以下圖樣時需要:\n{spell:406275}'
+L['shadowflame_incantation_table_label'] = '暗焰附魔桌'
+L['shadowflame_incantation_table_note'] = '當製造以下圖樣時需要:\n{spell:405076}'
+L['azure_loom_label'] = '蒼藍織布機'
+L['azure_loom_note'] = '當製造以下圖樣時需要:\n{spell:376556}'
+L['temporal_loom_label'] = '時光織布機'
+L['temporal_loom_note'] = '當製造以下圖樣時需要:\n{spell:376557}'
+L['earthwarders_forge_label'] = '大地守護者的熔爐'
+L['earthwarders_forge_note'] = '當製造以下圖樣時需要:\n{spell:367713}'
 
 L['dreamsurge_sublabel'] = '{note:只有在 {location:夢境湧現} 在此區域生效時會出現.}'
 L['celestine_vendor_note'] = '使用 {item:207026} 交換坐騎, 玩具, 寵物和塑形.'
