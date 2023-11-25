@@ -869,6 +869,7 @@ L['reefbreaker_moruud_note'] = 'Connect all 6 of the nearby {npc:210089} to atta
 L['splinterlimb_note'] = 'Becomes hostile after 8 stacks of the {spell:420009} debuff. The debuff stacks per completed round. Kill the mobs that attack him so that he can complete his round faster.'
 L['surging_lasher_note'] = 'Can spawn during the {location:Emerald Frenzy} event in this area.'
 L['talthonei_ashwisper_note'] = 'Kill mobs in the surrounding area until the killed mob says "I will be avenged" to spawn the rare.'
+L['talthonei_ashwisper_wq_note'] = '{note:Can only spawn here if the world quest {wq:Portal Panic} is active.}'
 
 L['in_a_tree'] = 'Up in a tree.'
 L['inside_building'] = 'In the building.'

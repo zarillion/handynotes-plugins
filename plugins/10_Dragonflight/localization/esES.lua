@@ -869,6 +869,7 @@ L['reefbreaker_moruud_note'] = 'Conecta las 6 {npc:210089} cercanas para atacar 
 L['splinterlimb_note'] = 'Se hace hostil tras recibir 8 acumulaciones del debuff {spell:420009}. El debuff se acumula por cada ronda completada. Mata los enemigos que le atacan para que pueda completar la ronda más rápidamente.'
 L['surging_lasher_note'] = 'Puede aparece durante el evento {location:Frenesí Esmeralda} en esta zona.'
 L['talthonei_ashwisper_note'] = 'Mata a los enemigos de los alrededores hasta que el enemigo matado diga "Seré vengado" para hacer aparecer el raro.'
+L['talthonei_ashwisper_wq_note'] = nil
 
 L['in_a_tree'] = 'Encima del árbol.'
 L['inside_building'] = 'En el edificio.'

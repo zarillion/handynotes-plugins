@@ -870,6 +870,7 @@ L['reefbreaker_moruud_note'] = nil
 L['splinterlimb_note'] = nil
 L['surging_lasher_note'] = nil
 L['talthonei_ashwisper_note'] = nil
+L['talthonei_ashwisper_wq_note'] = nil
 
 L['in_a_tree'] = 'На дереве.'
 L['inside_building'] = 'В здании.'

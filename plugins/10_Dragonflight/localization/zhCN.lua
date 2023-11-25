@@ -869,6 +869,7 @@ L['reefbreaker_moruud_note'] = '利用附近全部6个 {npc:210089} 来攻击 {n
 L['splinterlimb_note'] = nil
 L['surging_lasher_note'] = '当这片区域的 {location:翡翠狂欢} 事件激活时，会在此刷新。'
 L['talthonei_ashwisper_note'] = '击杀周围区域的怪物，直到被击杀的怪物说“我会报仇”后稀有出现。'
+L['talthonei_ashwisper_wq_note'] = nil
 
 L['in_a_tree'] = '在树上。'
 L['inside_building'] = '在建筑里面。'

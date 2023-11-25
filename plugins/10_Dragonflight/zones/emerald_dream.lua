@@ -385,7 +385,7 @@ local Talthonei = Class('Talthonei', Rare, {
     }
 }) -- Talthonei Ashwisper
 
--- map.nodes[34605500] = Talthonei() -- wowhead HOW? only with WQ?
+map.nodes[34775492] = Talthonei({sublabel = L['talthonei_ashwisper_wq_note']})
 map.nodes[35132264] = Talthonei()
 map.nodes[36922240] = Talthonei()
 map.nodes[59204360] = Talthonei() -- wowhead
@@ -1606,14 +1606,20 @@ map.nodes[46607960] = EmeraldDream_Safari({
     }
 }) -- Leyhart
 
-map.nodes[34606240] = EmeraldDream_Safari({
+map.nodes[34316765] = EmeraldDream_Safari({
     requires = ns.requirement.Toy(209944),
     id = 212437,
     rewards = {Achievement({id = 19401, criteria = 63275}), Pet({id = 4302})},
-    pois = {POI({34206760, 34606240, 46603880, 46804820, 58403520, 58603500})}
+    pois = {
+        POI({
+            53606531, 51396661, 51116816, 48366943, 61937615, 34316765,
+            34606225, 35756228, 35855785, 34275534, 35365323, 46614723,
+            46934809, 46653889, 58483511, 60601844
+        })
+    }
 }) -- Pale Slumbertooth
 
-map.nodes[34606240] = EmeraldDream_Safari({
+map.nodes[37203600] = EmeraldDream_Safari({
     id = 211302,
     rewards = {Achievement({id = 19401, criteria = 63276}), Pet({id = 4280})},
     pois = {

@@ -867,6 +867,7 @@ L['reefbreaker_moruud_note'] = 'Connectez les 6 {npc:210089} proches pour attaqu
 L['splinterlimb_note'] = 'Devient hostile après 8 stacks du debuff {spell:420009}. Le debuff se cumule par tour terminé. Tuez les monstres qui l\'attaquent pour qu\'il puisse terminer son tour plus rapidement.'
 L['surging_lasher_note'] = 'Peut apparaître pendant l\'événement {location:Frénésie d\'émeraude} dans cette zone.'
 L['talthonei_ashwisper_note'] = 'Tuez des monstres dans la zone jusqu\'à ce qu\'un des monstres tués dise "Je serai vengé" pour faire apparaître le rare.'
+L['talthonei_ashwisper_wq_note'] = nil
 
 L['in_a_tree'] = 'En haut d\'un arbre.'
 L['inside_building'] = 'A l\'intérieur du bâtiment.'

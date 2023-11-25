@@ -870,6 +870,7 @@ L['reefbreaker_moruud_note'] = 'Befestige alle 6 {npc:210089e} an ihm, um ihn an
 L['splinterlimb_note'] = 'Wird nach 8 Stapeln des Schwächungszaubers {spell:420009} angreifbar. Der Schwächungszauber stapelt sich pro beendeter Runde. Töte die Gegner, die ihn angreifen, damit er seine Runde schneller beenden kann.'
 L['surging_lasher_note'] = 'Kann während des {location:Smaragdraserei} Events in diesem Gebiet erscheinen.'
 L['talthonei_ashwisper_note'] = 'Töte Gegner in der Nähe, bis der getötete Gegner sagt "Man wird... mich rächen", um den seltenen Gegner erscheinen zu lassen.'
+L['talthonei_ashwisper_wq_note'] = '{note:Kann hier erscheinen, wenn die Weltquest {wq:Portalpanik} aktiv ist.}'
 
 L['in_a_tree'] = 'Oben im Baum.'
 L['inside_building'] = 'Im Gebäude.'
