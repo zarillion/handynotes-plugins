@@ -608,7 +608,7 @@ L['naszuro_thaldraszus_peak'] = 'En un pico secundario de la montaña.'
 L['naszuro_temporal_conflux'] = 'En la cabeza de la estatua del dragón.'
 
 L['revival_catalyst_label'] = 'Catalizador de Reanimación'
-L['revival_catalyst_note'] = 'Convierte equipo del tier anterior en un objeto del nivel tier actual y de la ranura de equipo equivalente (incluyendo bonus de set para las ranuras que lo lleven).'
+L['revival_catalyst_note'] = 'Convierte equipo que no sea de tier en un objeto del tier actual y de la ranura de equipo equivalente.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
