@@ -610,7 +610,7 @@ L['naszuro_thaldraszus_peak'] = 'On a secondary peak of the mountain.'
 L['naszuro_temporal_conflux'] = 'On the head of the dragon statue.'
 
 L['revival_catalyst_label'] = 'Revival Catalyst'
-L['revival_catalyst_note'] = 'Convert non-tier gear into an equivalent item level and gear slot Tier piece.'
+L['revival_catalyst_note'] = 'Convert non-tier gear into an equivalent item level and gear slot Tier piece.\n\nSeason 3:\nAutomatically receive 1 charge every 2 weeks, accumulating up to a cap of 8.\n{currency:2796}: %d/%d'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

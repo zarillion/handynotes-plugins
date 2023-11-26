@@ -610,7 +610,7 @@ L['naszuro_thaldraszus_peak'] = 'En un pico secundario de la montaña.'
 L['naszuro_temporal_conflux'] = 'En la cabeza de la estatua del dragón.'
 
 L['revival_catalyst_label'] = 'Catalizador de Reanimación'
-L['revival_catalyst_note'] = 'Convierte equipo del tier anterior en un objeto del nivel tier actual y de la ranura de equipo equivalente (incluyendo bonus de set para las ranuras que lo lleven).'
+L['revival_catalyst_note'] = 'Convierte equipo del tier anterior en un objeto del nivel tier actual y de la ranura de equipo equivalente (incluyendo bonus de set para las ranuras que lo lleven).\n\nSeason 3:\nAutomatically receive 1 charge every 2 weeks, accumulating up to a cap of 8.\n{currency:2796}: %d/%d'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

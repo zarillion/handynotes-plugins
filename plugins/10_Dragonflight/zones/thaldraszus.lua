@@ -1741,11 +1741,20 @@ map.nodes[62618507] = ns.node.MoteOfNaszuro({
 
 -------------------------------------------------------------------------------
 
-map.nodes[59735374] = ns.node.Node({
+local Catalyst = Class('Catalyst', ns.node.Node, {
     label = L['revival_catalyst_label'],
-    icon = 1394953, -- use new season icon
-    note = L['revival_catalyst_note']
+    icon = 1394953
 }) -- Revival Catalyst
+
+function Catalyst.getters:note()
+    local currencyInfo = C_CurrencyInfo.GetCurrencyInfo(2796)
+    local q = currencyInfo.quantity
+    local m = currencyInfo.maxQuantity
+    local note = format(L['revival_catalyst_note'], q, m)
+    return note
+end
+
+map.nodes[59735374] = Catalyst()
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 

@@ -611,7 +611,7 @@ L['naszuro_thaldraszus_peak'] = 'Sur un pic intermédiaire de la montagne.'
 L['naszuro_temporal_conflux'] = 'Sur la tête de la statue du dragon.'
 
 L['revival_catalyst_label'] = 'Catalyseur de Renouveau'
-L['revival_catalyst_note'] = 'Transforme des pièces d\'armures ne faisant pas partie d\'un ensemble en une nouvelle pièce d’ensemble du même niveau.'
+L['revival_catalyst_note'] = 'Transforme des pièces d\'armures ne faisant pas partie d\'un ensemble en une nouvelle pièce d’ensemble du même niveau.\n\nSeason 3:\nAutomatically receive 1 charge every 2 weeks, accumulating up to a cap of 8.\n{currency:2796}: %d/%d'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
