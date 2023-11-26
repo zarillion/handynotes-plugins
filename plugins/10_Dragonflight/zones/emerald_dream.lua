@@ -346,6 +346,7 @@ map.nodes[43484697] = Rare({
 map.nodes[61755220] = Rare({
     id = 209365,
     quest = 77863,
+    note = L['splinterlimb_note'],
     rewards = {
         Achievement({id = 19316, criteria = 62935}), -- Adventurer of the Emerald Dream
         Transmog({item = 208361, type = L['staff']}), -- Splinterlimb's Branch
@@ -366,6 +367,7 @@ local SurgingLasher = Class('SurgingLasher', Rare, {
     }
 }) -- Surging Lasher
 
+map.nodes[42413092] = SurgingLasher()
 map.nodes[57015167] = SurgingLasher({vignette = 5859})
 map.nodes[58967188] = SurgingLasher()
 map.nodes[59896202] = SurgingLasher()
@@ -383,9 +385,15 @@ local Talthonei = Class('Talthonei', Rare, {
     }
 }) -- Talthonei Ashwisper
 
+map.nodes[34775492] = Talthonei({sublabel = L['talthonei_ashwisper_wq_note']})
 map.nodes[35132264] = Talthonei()
 map.nodes[36922240] = Talthonei()
+map.nodes[59204360] = Talthonei() -- wowhead
 map.nodes[61426741] = Talthonei()
+map.nodes[61604500] = Talthonei() -- wowhead
+map.nodes[61804140] = Talthonei() -- wowhead
+map.nodes[62805220] = Talthonei() -- wowhead
+map.nodes[62805520] = Talthonei() -- wowhead
 map.nodes[63877009] = Talthonei()
 map.nodes[64446660] = Talthonei()
 
@@ -480,10 +488,13 @@ map.nodes[39465371] = Rare({
 map.nodes[72002700] = Node({
     icon = 5390645,
     label = L['zone_drops_label'],
+    scale = 1.5,
     note = L['zone_drops_note'],
     rewards = {
         Item({item = 208066}), -- Small Dreamseed
         Item({item = 208067}), -- Plump Dreamseed
+        Item({item = 208047}), -- Gigantic Dreamseed
+        Spacer(),
         Recipe({item = 191578, profession = ns.professions.ALCHEMY.skillID}), -- Recipe: Transmute: Awakened Fire
         Recipe({item = 210171, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Aspect's Dreaming Crest
         Recipe({item = 210172, profession = ns.professions.ENCHANTING.skillID}), -- Formula: Enchanted Wyrm's Dreaming Crest
@@ -493,7 +504,9 @@ map.nodes[72002700] = Node({
         Recipe({item = 210493, profession = ns.professions.INSCRIPTION.skillID}), -- Technique: Grotto Netherwing Drake: Spiked Jaw
         DC.GrottoNetherwingDrake.BarbedTail,
         DC.GrottoNetherwingDrake.ShortHorns,
-        DC.GrottoNetherwingDrake.TripleSpikedCrest
+        DC.GrottoNetherwingDrake.TripleSpikedCrest, Spacer(),
+        Currency({id = 2245}), -- Flightstones
+        Currency({id = 2003}) -- Dragon Isles Supplies
     }
 })
 
@@ -528,9 +541,7 @@ map.nodes[61625960] = Treasure({
     rlabel = ns.status.LightBlue('+200 ' .. L['rep']),
     rewards = {
         Achievement({id = 19317, criteria = 62960}), -- Treasures of The Emerald Dream
-        Item({item = 208047}), -- Gigantic Dreamseed
-        Currency({id = 2245, type = '20'}), -- Flightstones
-        Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
+        Item({item = 208047}) -- Gigantic Dreamseed
     },
     pois = {POI({64346131})} -- Laughing Sprigling
 }) -- Magical Bloom
@@ -541,9 +552,7 @@ map.nodes[55275726] = Treasure({
     rlabel = ns.status.LightBlue('+200 ' .. L['rep']),
     rewards = {
         Achievement({id = 19317, criteria = 62961}), -- Treasures of The Emerald Dream
-        Item({item = 208067}), -- Plump Dreamseed
-        Currency({id = 2245, type = '20'}), -- Flightstones
-        Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
+        Item({item = 208067}) -- Plump Dreamseed
     }
 }) -- Odd Burl
 
@@ -624,28 +633,12 @@ map.nodes[34105633] = Treasure({
 
 -------------------------------------------------------------------------------
 
-map.nodes[74002700] = Treasure({
-    icon = 1394946,
-    label = '{item:201439}',
-    note = L['renewed_dream'],
-    scale = 1,
-    rewards = {
-        Item({item = 208066}), -- Small Dreamseed
-        Item({item = 208067}), -- Plump Dreamseed
-        DC.GrottoNetherwingDrake.TripleSpikedCrest, --
-        DC.GrottoNetherwingDrake.ShortHorns, --
-        DC.GrottoNetherwingDrake.BarbedTail
-    }
-}) -- Renewed Dream
-
--------------------------------------------------------------------------------
-
 local Book = Class('Book', ns.node.Item, {icon = 133741})
 
 map.nodes[49816171] = Book({
     id = 210049,
     quest = 78831,
-    note = L['inside_building']
+    location = L['inside_building']
 }) -- The Legend of Elun'Ahir
 
 map.nodes[54462464] = Book({id = 208649, quest = 78833}) -- On the Nature of the Dream
@@ -655,7 +648,7 @@ map.nodes[59641910] = Book({id = 210346, quest = 78834}) -- Self-Baking Herb Bas
 map.nodes[53712395] = Book({
     id = 208619,
     quest = 78835,
-    note = L['inside_building']
+    location = L['inside_building']
 }) -- The Tragedy of Erinethria
 
 map.nodes[60834489] = Book({id = 210737, quest = 78911}) -- Ashwood Research Binder
@@ -672,41 +665,25 @@ local UnwakingEcho = Class('UnwakingEcho', Treasure, {
 
 map.nodes[46408615] = UnwakingEcho({
     quest = 78552,
-    rewards = {
-        Transmog({item = 210682, type = L['cosmetic']}), -- Camper's Knife
-        Currency({id = 2245, type = '~21'}), -- Flightstones
-        Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
-    }
+    rewards = {Transmog({item = 210682, type = L['cosmetic']})} -- Camper's Knife
 })
 
 map.nodes[55672258] = UnwakingEcho({
     quest = 78547,
-    rewards = {
-        Transmog({item = 210675, type = L['cosmetic']}), -- Gardener's Lightstaff
-        Currency({id = 2245, type = '~21'}), -- Flightstones
-        Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
-    }
+    rewards = {Transmog({item = 210675, type = L['cosmetic']})} -- Gardener's Lightstaff
 })
 
 map.nodes[55324538] = UnwakingEcho({
     quest = 78551,
     location = L['in_small_cave'],
-    rewards = {
-        Transmog({item = 210678, type = L['cosmetic']}), -- Verdant Glearner's Scythe
-        Currency({id = 2245, type = '~21'}), -- Flightstones
-        Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
-    },
+    rewards = {Transmog({item = 210678, type = L['cosmetic']})}, -- Verdant Glearner's Scythe
     pois = {POI({54774452})} -- Entrance
 })
 
 map.nodes[69575284] = UnwakingEcho({
     quest = 78550,
     location = L['inside_building'],
-    rewards = {
-        Transmog({item = 210686, type = L['shield']}), -- Grovekeeper's Barrier
-        Currency({id = 2245, type = '~21'}), -- Flightstones
-        Currency({id = 2003, type = '~35'}) -- Dragon Isles Supplies
-    }
+    rewards = {Transmog({item = 210686, type = L['shield']})} -- Grovekeeper's Barrier
 })
 
 -------------------------------------------------------------------------------
@@ -771,11 +748,7 @@ bor.nodes[49486918] = PT.Engineering({
     parent = map.id
 }) -- Insomniotron
 
-map.nodes[62683626] = PT.Engineering({
-    id = 210197,
-    quest = 78281
-    --  turns into Depleted Battery (210198) after 3 days
-}) -- Unhatched Battery
+map.nodes[62683626] = PT.Engineering({id = 210197, quest = 78281}) -- Unhatched Battery
 
 map.nodes[53272791] = PT.Tailoring({
     id = 210461,
@@ -892,16 +865,19 @@ map.nodes[35756700] = MoonkinHatchling({
 
 map.nodes[37767327] = MoonkinHatchling({criteriaID = 62784}) -- Hops
 
-map.nodes[35566976] = MoonkinHatchling({
+map.nodes[35686969] = MoonkinHatchling({
     criteriaID = 62783,
     location = L['in_small_cave']
 }) -- Meep
 
-map.nodes[36116968] = MoonkinHatchling({criteriaID = 62787}) -- Moonbeam
+map.nodes[35656941] = MoonkinHatchling({
+    criteriaID = 62787,
+    location = L['in_small_cave']
+}) -- Moonbeam
 
 map.nodes[37427231] = MoonkinHatchling({criteriaID = 62782}) -- Owlington
 
-map.nodes[38046901] = MoonkinHatchling({
+map.nodes[37846926] = MoonkinHatchling({
     criteriaID = 62777,
     location = L['in_small_cave'],
     pois = {POI({37526855})} -- Entrance
@@ -987,8 +963,6 @@ local EmeraldBounty = Class('EmeraldBounty', Node, {
                 DC.GrottoNetherwingDrake.ClusterSpikedBack,
                 Recipe({item = 211065, profession = 773}), -- Technique: Mark of the Auric Dreamstag -- Cache Drop
                 Recipe({item = 210490, profession = 773}), -- Technique: Vantus Rune: Amirdrassil, the Dream's Hope -- Cache Drop
-                Currency({id = 2652}), -- Dream Wardens Reputation -- REVIEW !!! requires Dewdrop progress 50%?
-                Currency({id = 2245}), -- Flightstones
                 Spacer(), Section('{item:208047}'),
                 Recipe({item = 210242, profession = 185, note = '{item:208067}'}), -- Recipe: Slumbering Peacebloom Tea -- Plump Dreamseed
                 Recipe({item = 210174, profession = 333, note = '{item:208067}'}), -- Formula: Illusory Adornment: Dreams -- Plump Dreamseed
@@ -1086,20 +1060,13 @@ map.nodes[51555972] = Collectible({
         Item({item = 211414}), -- Blossoming Dreamtrove
         Item({item = 208047}), -- Gigantic Dreamseed
         Item({item = 208067}), -- Plump Dreamseed
-        Item({item = 208066}), -- Small Dreamseed
-        Spacer(), Currency({id = 2245}), -- Flightstones
-        Currency({id = 2003}) -- Dragon Isles Supplies
+        Item({item = 208066}) -- Small Dreamseed
     }
 })
 
 -------------------------------------------------------------------------------
 ----------------------------- FRUIT OF THE BLOOM ------------------------------
 -------------------------------------------------------------------------------
-
--- https://us.forums.blizzard.com/en/wow/t/new-public-events-superbloom-and-emerald-bounty/1674596
--- There will be up to the total of four available Dreamfruit.
--- Each individual Dreamfruit during the Superbloom has its own,
--- unique pool of blessings it can bestow.
 
 local Dreamfruit = Class('Dreamfruit', Collectible, {
     icon = 5390643,
@@ -1154,22 +1121,22 @@ map.nodes[52847357] = Dreamfruit({
             criteria = {
                 -- 62910, -- Basket of Explosive Acorns
                 -- 62911, -- Bubble Blowgun
-                62912, -- Dream Gatherer
+                -- 62912, -- Dream Gatherer
                 -- 62913, -- Feral Overflow
                 62914, -- Flower Trail
                 -- 62915, -- Lifesurger
-                -- 62916, -- Memory of L'ghorek
+                62916, -- Memory of L'ghorek
                 62917, -- Memory of Ursoc
                 62918, -- Mighty Roar
                 -- 62919, -- Moonkin Jump
                 -- 62920, -- Moonkin Mayhem
                 -- 62921, -- Potent Lullaby
                 -- 62922, -- Putrid Propulsion
-                62923, -- Sack of Talontreats
+                -- 62923, -- Sack of Talontreats
                 62924, -- Star Shower
                 62925, -- The Superb Loom
                 62926, -- Wake Up!
-                -- 63414, -- Nae'dra Nibbles
+                63414, -- Nae'dra Nibbles
                 63415, -- Fae Lens
                 63438 -- Arachnid Annihilation
             }
@@ -1193,19 +1160,19 @@ map.nodes[46276304] = Dreamfruit({
                 -- 62913, -- Feral Overflow
                 62914, -- Flower Trail
                 -- 62915, -- Lifesurger
-                -- 62916, -- Memory of L'ghorek
-                -- 62917, -- Memory of Ursoc
+                62916, -- Memory of L'ghorek
+                62917, -- Memory of Ursoc
                 62918, -- Mighty Roar
                 -- 62919, -- Moonkin Jump
                 -- 62920, -- Moonkin Mayhem
                 -- 62921, -- Potent Lullaby
                 -- 62922, -- Putrid Propulsion
                 -- 62923, -- Sack of Talontreats
-                -- 62924, -- Star Shower
-                -- 62925, -- The Superb Loom
-                -- 62926, -- Wake Up!
-                -- 63414, -- Nae'dra Nibbles
-                -- 63415, -- Fae Lens
+                62924, -- Star Shower
+                62925, -- The Superb Loom
+                62926, -- Wake Up!
+                63414, -- Nae'dra Nibbles
+                63415, -- Fae Lens
                 63438 -- Arachnid Annihilation
             }
         })
@@ -1307,6 +1274,8 @@ map.nodes[34656926] = DruidGlyph({
     pois = {POI({50786208})} -- Cenarius
 }) -- Q'onzu
 
+--------------------- DRUID GLYPH: PRISTMATIC WHISKERFISH ---------------------
+
 local PrismaticWhiskerfish = Class('PrismaticWhiskerfish', DruidGlyph, {
     label = '{item:210753}',
     location = L['prismatic_location'],
@@ -1322,6 +1291,27 @@ function PrismaticWhiskerfish.getters:note()
 end
 
 map.nodes[29703103] = PrismaticWhiskerfish()
+
+local wel = ns.maps[2232] or Map({id = 2232, settings = false}) -- Wellspring Atrium
+
+wel.nodes[50706200] = PrismaticWhiskerfish({
+    pois = {
+        POI({50705700}), -- Fishing location
+        Path({Circle({origin = 50706200, radius = 4})}), -- Fishing pool
+        Path({Circle({origin = 43002000, radius = 3})}) -- The Scorched Hall entrance
+    }
+})
+
+local tsh = ns.maps[2244] or Map({id = 2244, settings = false}) -- The Scorched Hall
+
+tsh.nodes[55006800] = PrismaticWhiskerfish({
+    pois = {
+        Path({Circle({origin = 55005900, radius = 7})}), -- Fishing pool
+        Path({Circle({origin = 78008900, radius = 3})}) -- The Scorched Hall entrance
+    }
+})
+
+----------------------- DRUID GLYPH: SLUMBERING SOMNOWL -----------------------
 
 local SlumberingSomnowl = Class('SlumberingSomnowl', DruidGlyph, {
     label = '{item:210535}',
@@ -1420,7 +1410,7 @@ local EMPTY_VIALS = {
 }
 
 local MoonBlessedClaw = Class('MoonBlessedClaw', DruidGlyph, {
-    quest = 78528,
+    quest = 78521,
     rewards = {DG.Feral.MoonBlessedDreamsaber} -- Moon-Blessed Claw
 })
 
@@ -1467,6 +1457,9 @@ for num, vial in ipairs(EMPTY_VIALS) do
         playerHasItem = {vial.vialFilledID, 210977},
         rewards = {Item({item = vial.vialFilledID, count = '1'})},
         IsCompleted = function(self)
+            if C_QuestLog.IsQuestFlaggedCompleted(78521) then
+                return true
+            end
             if self.playerHasItem then
                 for i, v in ipairs(self.playerHasItem) do
                     if ns.PlayerHasItem(v) then return true end
@@ -1490,9 +1483,6 @@ local Somnut = Class('Somnut', Node, {
     rewards = {
         ns.reward.Quest({id = 78172}), -- Mysterious Seeds
         Item({item = 208066}), -- Small Dreamseed
-        Currency({id = 2706}), -- Whelpling's Dreaming Crest
-        Currency({id = 2245}), -- Flightstones
-        Currency({id = 2003}), -- Dragon Isles Supplies
         DC.WindingSlitherdrake.SpikedHorns, --
         DC.WindingSlitherdrake.SpikedTail, --
         DC.WindingSlitherdrake.SmallSpikedCrest --
@@ -1508,6 +1498,7 @@ map.nodes[36704600] = Somnut()
 map.nodes[36804405] = Somnut()
 map.nodes[37735019] = Somnut()
 map.nodes[38073268] = Somnut()
+map.nodes[38476184] = Somnut({location = L['in_small_cave']})
 map.nodes[38512516] = Somnut()
 map.nodes[39184365] = Somnut()
 map.nodes[39315799] = Somnut()
@@ -1528,7 +1519,9 @@ map.nodes[45532594] = Somnut()
 map.nodes[46913522] = Somnut()
 map.nodes[47743551] = Somnut()
 map.nodes[48292228] = Somnut({location = L['in_a_tree']}) -- ontop of the burning tree
+map.nodes[48703449] = Somnut()
 map.nodes[49083517] = Somnut()
+map.nodes[51271460] = Somnut()
 map.nodes[51622974] = Somnut({location = L['in_water']})
 map.nodes[51782620] = Somnut()
 map.nodes[52973369] = Somnut({location = L['in_water']})
@@ -1559,14 +1552,11 @@ map.nodes[62102929] = Somnut({location = L['in_water']})
 map.nodes[63457357] = Somnut()
 map.nodes[65985217] = Somnut() -- On a Branch/Root
 map.nodes[66085014] = Somnut()
-map.nodes[66306338] = Somnut()
+map.nodes[66246327] = Somnut()
 
 -------------------------------------------------------------------------------
 ---------------------------- EMERALD DREAM SAFARI -----------------------------
 -------------------------------------------------------------------------------
-
--- Node locations are placed at the position i first found the Pet at.
--- When the wowhead database is filled with locations we have to update them.
 
 local EmeraldDream_Safari = Class('EmeraldDream_Safari', ns.node.Safari,
     {group = ns.groups.EMERALD_DREAM_SAFARI})
@@ -1630,14 +1620,20 @@ map.nodes[46607960] = EmeraldDream_Safari({
     }
 }) -- Leyhart
 
-map.nodes[34606240] = EmeraldDream_Safari({
+map.nodes[34316765] = EmeraldDream_Safari({
     requires = ns.requirement.Toy(209944),
     id = 212437,
     rewards = {Achievement({id = 19401, criteria = 63275}), Pet({id = 4302})},
-    pois = {POI({34206760, 34606240, 46603880, 46804820, 58403520, 58603500})}
+    pois = {
+        POI({
+            53606531, 51396661, 51116816, 48366943, 61937615, 34316765,
+            34606225, 35756228, 35855785, 34275534, 35365323, 46614723,
+            46934809, 46653889, 58483511, 60601844
+        })
+    }
 }) -- Pale Slumbertooth
 
-map.nodes[34606240] = EmeraldDream_Safari({
+map.nodes[37203600] = EmeraldDream_Safari({
     id = 211302,
     rewards = {Achievement({id = 19401, criteria = 63276}), Pet({id = 4280})},
     pois = {

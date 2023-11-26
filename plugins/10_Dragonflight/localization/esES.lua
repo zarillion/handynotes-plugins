@@ -868,8 +868,10 @@ L['fruitface_note'] = 'Ofrece a {npc:209950} {dot:Pink} tu ayuda para conseguir 
 L['greedy_gessie_note'] = 'Necesitas recoger {object:Verduras Salvajes}, {object:Melón Escamarrubí} y {object:Naranjarraíz} alrededor de la zona y ponerlo todo en las cestas cerca de {npc:210285s} para comenzar el encuentro.'
 L['nuoberon_note'] = 'Persigue tortugas, lanza comida a los monos, o lucha contra monstruos oníricos para ayudar a que {npc:209101} tenga un sueño divertido.'
 L['reefbreaker_moruud_note'] = 'Conecta las 6 {npc:210089} cercanas para atacar a {npc:209898}.'
+L['splinterlimb_note'] = 'Se hace hostil tras recibir 8 acumulaciones del debuff {spell:420009}. El debuff se acumula por cada ronda completada. Mata los enemigos que le atacan para que pueda completar la ronda más rápidamente.'
 L['surging_lasher_note'] = 'Puede aparece durante el evento {location:Frenesí Esmeralda} en esta zona.'
 L['talthonei_ashwisper_note'] = 'Mata a los enemigos de los alrededores hasta que el enemigo matado diga "Seré vengado" para hacer aparecer el raro.'
+L['talthonei_ashwisper_wq_note'] = '{note:Sólo puede aparecer aquí si está activa la misión del mundo {wq:Pánico en los portales}.}'
 
 L['in_a_tree'] = 'Encima del árbol.'
 L['inside_building'] = 'En el edificio.'
@@ -992,8 +994,6 @@ L['options_icons_somnut_desc'] = 'Muestra dónden pueden estar los {object:Somnu
 
 L['improvised_leafbed_note'] = 'Completa la cadena de misiones comenzando con {quest:77896} para conseguir la {item:210864} de {npc:210164}.'
 L['kalandu_note'] = 'Completa la cadena de misiones comenzando con {quest:77948} para conseguir a {item:210633} de {npc:210196}.'
-
-L['renewed_dream'] = '{note:¡Esto no es un tesoro!}\n{item:201437} puede caer de cualquier enemigo en el {location:Sueño Esmeralda}.\nCombina 5 de ellos para restaurar un {item:201439}.'
 
 L['ochre_note'] = 'Habla con {npc:209253} para empezar la cadena de misiones. {npc:209571} te ofrecerá las siguientes fases.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:5 días para crecer.}'

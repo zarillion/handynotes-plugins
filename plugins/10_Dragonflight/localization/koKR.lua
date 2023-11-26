@@ -804,8 +804,10 @@ L['fruitface_note'] = nil
 L['greedy_gessie_note'] = nil
 L['nuoberon_note'] = nil
 L['reefbreaker_moruud_note'] = nil
+L['splinterlimb_note'] = nil
 L['surging_lasher_note'] = nil
 L['talthonei_ashwisper_note'] = nil
+L['talthonei_ashwisper_wq_note'] = nil
 
 L['in_a_tree'] = nil
 L['inside_building'] = nil
@@ -915,8 +917,6 @@ L['options_icons_somnut_desc'] = nil
 
 L['improvised_leafbed_note'] = nil
 L['kalandu_note'] = nil
-
-L['renewed_dream'] = nil
 
 L['ochre_note'] = nil
 L['ochre_note_stage1'] = nil

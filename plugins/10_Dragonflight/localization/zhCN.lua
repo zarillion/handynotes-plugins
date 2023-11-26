@@ -868,8 +868,10 @@ L['fruitface_note'] = '请求 {npc:209950} {dot:Pink} 帮你获得 {spell:421446
 L['greedy_gessie_note'] = '需要收集 {object:野生青菜}，{object:红玉之鳞甜瓜} 和 {object:橙根}，并将其放置在 {npc:210285} 旁的篮子，以开启战斗。'
 L['nuoberon_note'] = '追逐乌龟，对猴子扔食物，或与梦境野兽战斗来帮助 {npc:209101} 做个有趣的梦！'
 L['reefbreaker_moruud_note'] = '利用附近全部6个 {npc:210089} 来攻击 {npc:209898}。'
+L['splinterlimb_note'] = nil
 L['surging_lasher_note'] = '当这片区域的 {location:翡翠狂欢} 事件激活时，会在此刷新。'
 L['talthonei_ashwisper_note'] = '击杀周围区域的怪物，直到被击杀的怪物说“我会报仇”后稀有出现。'
+L['talthonei_ashwisper_wq_note'] = nil
 
 L['in_a_tree'] = '在树上。'
 L['inside_building'] = '在建筑里面。'
@@ -992,8 +994,6 @@ L['options_icons_somnut_desc'] = '显示 {object:眠果} 可能的位置。'
 
 L['improvised_leafbed_note'] = '完成从 {quest:77896} 起始的任务线，从 {npc:210164} 得到奖励 {item:210864}。'
 L['kalandu_note'] = '完成从 {quest:77948} 起始的任务线，从 {npc:210196} 得到奖励 {item:210633}。'
-
-L['renewed_dream'] = '{note:这里不是一个宝箱！}\n{item:201437} 广泛掉落自 {location:翡翠梦境}。\n5个 {item:201437} 可以合成1个 {item:201439}。'
 
 L['ochre_note'] = '和 {npc:209253} 对话开始任务线，{npc:209571} 会布置接下来的任务。'
 L['ochre_note_stage1'] = '{quest:77677}。{note:生长期5天。}'

@@ -868,8 +868,10 @@ L['fruitface_note'] = 'Offer {npc:209950} {dot:Pink} your help to get {spell:421
 L['greedy_gessie_note'] = 'You need to collect {object:Wild Greens}, {object:Rubyscale Melon} and {object:Orangeroot} from the surrounding area and put them in the baskets near the {npc:210285s} to start the encounter.'
 L['nuoberon_note'] = 'Chase turtles, throw food at monkeys, or fight dream monsters to help {npc:209101} have a fun Dream!'
 L['reefbreaker_moruud_note'] = 'Connect all 6 of the nearby {npc:210089} to attack {npc:209898}.'
+L['splinterlimb_note'] = 'Becomes hostile after 8 stacks of the {spell:420009} debuff. The debuff stacks per completed round. Kill the mobs that attack him so that he can complete his round faster.'
 L['surging_lasher_note'] = 'Can spawn during the {location:Emerald Frenzy} event in this area.'
 L['talthonei_ashwisper_note'] = 'Kill mobs in the surrounding area until the killed mob says "I will be avenged" to spawn the rare.'
+L['talthonei_ashwisper_wq_note'] = '{note:Can only spawn here if the world quest {wq:Portal Panic} is active.}'
 
 L['in_a_tree'] = 'Up in a tree.'
 L['inside_building'] = 'In the building.'
@@ -992,8 +994,6 @@ L['options_icons_somnut_desc'] = 'Display possible locations of {object:Somnuts}
 
 L['improvised_leafbed_note'] = 'Complete the quest chain beginning with {quest:77896} to receive the {item:210864} from {npc:210164}.'
 L['kalandu_note'] = 'Complete the quest chain beginning with {quest:77948} to receive {item:210633} from {npc:210196}.'
-
-L['renewed_dream'] = '{note:Here is not a treasure!}\n{item:201437} drops from all over {location:Emerald Dream}.\nCombine 5 {item:201437s} to restore a {item:201439}.'
 
 L['ochre_note'] = 'Talk to {npc:209253} to begin the quest line, {npc:209571} will offer the next stages.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:5 days to grow.}'

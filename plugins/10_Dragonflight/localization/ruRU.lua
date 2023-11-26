@@ -862,57 +862,59 @@ L['options_icons_zone_event_desc'] = 'Отображение мест для с�
 -------------------------------------------------------------------------------
 
 L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
-L['options_icons_emerald_dream_safari_desc'] = nil
+L['options_icons_emerald_dream_safari_desc'] = 'Показать местонахождение боевых питомцев для достижения {achievement:19401}.'
 
 L['envoy_of_winter_note'] = nil
 L['fruitface_note'] = nil
 L['greedy_gessie_note'] = nil
 L['nuoberon_note'] = nil
 L['reefbreaker_moruud_note'] = nil
+L['splinterlimb_note'] = nil
 L['surging_lasher_note'] = nil
 L['talthonei_ashwisper_note'] = nil
+L['talthonei_ashwisper_wq_note'] = nil
 
-L['in_a_tree'] = nil
-L['inside_building'] = nil
+L['in_a_tree'] = 'На дереве.'
+L['inside_building'] = 'В здании.'
 
-L['hidden_moonkin_stash_label'] = nil
+L['hidden_moonkin_stash_label'] = 'Тайник совухов'
 L['magical_bloom_note'] = nil
-L['pineshrew_cache_note'] = nil
+L['pineshrew_cache_note'] = 'Рядом с несколькими камнями.'
 L['reliquary_of_ashamane_note'] = nil
 L['reliquary_of_aviana_note'] = nil
 L['reliquary_of_goldrinn_note'] = nil
 L['reliquary_of_ursol_note'] = nil
 L['triflesnatchs_roving_trove_note'] = nil
 
-L['unwaking_echo_label'] = nil
-L['unwaking_echo_note'] = nil
+L['unwaking_echo_label'] = 'Непробуждающийся отголосок'
+L['unwaking_echo_note'] = '{note:Вы можете открыть этот сундук только во сне.}\n\nУсните {emote:/спать} рядом с сундуком, чтобы открыть его.'
 
-L['amirdrassil_defenders_shield_note'] = nil
-L['dreamtalon_claw_note'] = nil
-L['essence_of_dreams_note'] = nil
-L['exceedingly_soft_wildercloth_note'] = nil
-L['experimental_dreamcatcher_note'] = nil
-L['grove_keepers_pillar_note'] = nil
-L['handful_of_pebbles_note'] = nil
-L['molted_faerie_dragon_scales_note'] = nil
-L['petrified_hope_note'] = nil
-L['plush_pillow_note'] = nil
-L['snuggle_buddy_note'] = nil
+L['amirdrassil_defenders_shield_note'] = 'На столе рядом с {npc:211328}.'
+L['dreamtalon_claw_note'] = 'В нижней части ствола дерева.'
+L['essence_of_dreams_note'] = 'Наверху, на плавающей круглой ветке дерева.'
+L['exceedingly_soft_wildercloth_note'] = 'Внутри здания за стулом.'
+L['experimental_dreamcatcher_note'] = 'На плавучем дереве.'
+L['grove_keepers_pillar_note'] = 'Перед входом в пещеру.'
+L['handful_of_pebbles_note'] = 'На правом плече статуи.'
+L['molted_faerie_dragon_scales_note'] = 'На земле в каких-то цветах.'
+L['petrified_hope_note'] = 'Наверху, на пне дерева.'
+L['plush_pillow_note'] = 'Внутри маленькой хижины на столе.'
+L['snuggle_buddy_note'] = 'Внутри маленькой лодки.'
 
-L['dreamseed_soil_label'] = nil
+L['dreamseed_soil_label'] = 'Почва для семени Сна'
 L['dreamseed_soil_note'] = nil
-L['dreamseed_cache'] = nil
+L['dreamseed_cache'] = 'Сундук семени Сна'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
-L['options_icons_dream_of_seeds_desc'] = nil
-L['the_seeds_i_sow_suffix'] = nil
+L['options_icons_dream_of_seeds_desc'] = 'Отобразить {object:Почву для семени Сна} в локации для {achievement:19013}.'
+L['the_seeds_i_sow_suffix'] = 'семена, внесенные в Изумрудный дар'
 
-L['bloom_man_group_suffix'] = nil
-L['dream_chaser_suffix'] = nil
-L['dreamfruit_label'] = nil
-L['dreamfruit_note_1'] = nil
-L['dreamfruit_note_2'] = nil
-L['options_icons_dreamfruit'] = nil
-L['options_icons_dreamfruit_desc'] = nil
+L['bloom_man_group_suffix'] = 'время использования Дикого прилива'
+L['dream_chaser_suffix'] = 'соберите потерянные сновидения'
+L['dreamfruit_label'] = 'Сонный плод'
+L['dreamfruit_note_1'] = 'Появляется, когда {location:Цветочный Бум} начинается. Событие начинается в начале каждого часа.'
+L['dreamfruit_note_2'] = 'Появляется после первой остановки на событии {location:Цветочный Бум}. Событие начинается в начале каждого часа возле {location:Амирдрассила}.'
+L['options_icons_dreamfruit'] = '{achievement:19310}'
+L['options_icons_dreamfruit_desc'] = 'Показать местоположения Сонных плодов для {achievement:19310}.'
 
 L['options_icons_moonkin_hatchling'] = nil
 L['options_icons_moonkin_hatchling_desc'] = nil
@@ -927,12 +929,12 @@ L['pollenfused_bristlebruin_fur_sample_note'] = nil
 L['mbc_note_start'] = nil
 L['mbc_note_end'] = nil
 
-L['mbc_vial_b'] = nil
-L['mbc_vial_d'] = nil
-L['mbc_vial_e'] = nil
-L['mbc_vial_k'] = nil
-L['mbc_vial_n'] = nil
-L['mbc_vial_o'] = nil
+L['mbc_vial_b'] = 'B'
+L['mbc_vial_d'] = 'D'
+L['mbc_vial_e'] = 'E'
+L['mbc_vial_k'] = 'K'
+L['mbc_vial_n'] = 'N'
+L['mbc_vial_o'] = 'O'
 
 L['mbc_vial_d_location'] = nil
 L['mbc_vial_e_location'] = nil
@@ -942,7 +944,7 @@ L['mbc_vial_o_location'] = nil
 
 L['mbc_vial_location'] = nil
 
-L['mbc_moonwell_label'] = nil
+L['mbc_moonwell_label'] = 'Лунный колодец'
 L['mbc_feral_dreamstone_label'] = nil
 
 L['azure_somnowl_note'] = nil
@@ -974,27 +976,25 @@ L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
 
 L['sylvia_vendor_note'] = nil
 
-L['somnut'] = nil
-L['options_icons_somnut'] = nil
-L['options_icons_somnut_desc'] = nil
+L['somnut'] = 'Снорех'
+L['options_icons_somnut'] = 'Снорех'
+L['options_icons_somnut_desc'] = 'Отображать возможные местоположения {object:Снорехов}.'
 
 L['improvised_leafbed_note'] = nil
 L['kalandu_note'] = nil
 
-L['renewed_dream'] = nil
-
-L['ochre_note'] = nil
-L['ochre_note_stage1'] = nil
-L['ochre_note_stage2'] = nil
+L['ochre_note'] = 'Поговорите с {npc:209253} чтобы начать линейку заданий, {npc:209571} состоит из следующих этапов.'
+L['ochre_note_stage1'] = '{quest:77677}. {note:5 дней на выращивание.}'
+L['ochre_note_stage2'] = '{quest:78398}. {note:5 дней на выращивание.}'
 L['ochre_note_stage3'] = nil
-L['ochre_note_stage4'] = nil
-L['ochre_note_stage5'] = nil
+L['ochre_note_stage4'] = '{quest:77711}. {note:5 дней на выращивание.}'
+L['ochre_note_stage5'] = '{quest:77762}.'
 
-L['thorn_beast_stag'] = nil
-L['thorn_beast_saber'] = nil
-L['thorn_beast_bear'] = nil
+L['thorn_beast_stag'] = '{item:%d} ({npc:Олень})'
+L['thorn_beast_saber'] = '{item:%d} ({npc:Саблезуб})'
+L['thorn_beast_bear'] = '{item:%d} ({npc:Медведь})'
 
-L['thornbeast_disclaimer'] = nil
+L['thornbeast_disclaimer'] = '{note:Напоминание, каждый тип зверя имеет уникальный {item:%s} и приведет к подходящему шипастому зверю.}'
 
 L['thorn_laden_heart_note_1'] = nil
 L['thorn_laden_heart_note_2'] = nil
@@ -1002,7 +1002,7 @@ L['thorn_laden_heart_note_2'] = nil
 L['athainne_note_1'] = nil
 L['athainne_note_2'] = nil
 
-L['ulfar_note_1'] = nil
+L['ulfar_note_1'] = 'Попросите {npc:149386} использовать {item:209863} чтобы создать {item:209866}.'
 L['ulfar_note_2'] = nil
 
 L['thorn_stag_note'] = nil
