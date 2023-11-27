@@ -868,10 +868,10 @@ L['fruitface_note'] = '请求 {npc:209950} {dot:Pink} 帮你获得 {spell:421446
 L['greedy_gessie_note'] = '需要收集 {object:野生青菜}，{object:红玉之鳞甜瓜} 和 {object:橙根}，并将其放置在 {npc:210285} 旁的篮子，以开启战斗。'
 L['nuoberon_note'] = '追逐乌龟，对猴子扔食物，或与梦境野兽战斗来帮助 {npc:209101} 做个有趣的梦！'
 L['reefbreaker_moruud_note'] = '利用附近全部6个 {npc:210089} 来攻击 {npc:209898}。'
-L['splinterlimb_note'] = nil
+L['splinterlimb_note'] = '在叠加8层 {spell:420009} 负面效果后变为敌对。每完成一轮负面效果都会叠加。击杀攻击他的怪物，以便他可以更快地完成轮数。'
 L['surging_lasher_note'] = '当这片区域的 {location:翡翠狂欢} 事件激活时，会在此刷新。'
 L['talthonei_ashwisper_note'] = '击杀周围区域的怪物，直到被击杀的怪物说“我会报仇”后稀有出现。'
-L['talthonei_ashwisper_wq_note'] = nil
+L['talthonei_ashwisper_wq_note'] = '{note:仅在世界任务 {wq:传送门恐慌} 处于活动状态时才能在此出现。}'
 
 L['in_a_tree'] = '在树上。'
 L['inside_building'] = '在建筑里面。'

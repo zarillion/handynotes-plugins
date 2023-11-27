@@ -1,3 +1,10 @@
+# v45
+
+* Added a new icon for zone-wide drops.
+* Removed some less useful drop information.
+* Updated rare loot drops and misc rewards in the emerald dream.
+* Updated the superbloom reward tooltips.
+
 # v44
 
 * Added portal to Emerald Dream.
