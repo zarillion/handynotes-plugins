@@ -862,14 +862,14 @@ L['options_icons_zone_event_desc'] = 'Отображение мест для с�
 L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
 L['options_icons_emerald_dream_safari_desc'] = 'Показать местонахождение боевых питомцев для достижения {achievement:19401}.'
 
-L['envoy_of_winter_note'] = nil
+L['envoy_of_winter_note'] = 'Соберите {item:208881} и используйте {spell:421658} возле колодца, пока не появиться {npc:209929}.'
 L['fruitface_note'] = nil
 L['greedy_gessie_note'] = nil
-L['nuoberon_note'] = nil
-L['reefbreaker_moruud_note'] = nil
+L['nuoberon_note'] = 'Гоняйтесь за черепахами, бросайте еду в обезьян или сражайтесь с монстрами, чтобы помочь {npc:209101}!'
+L['reefbreaker_moruud_note'] = 'Соедините все 6 близлежащих {npc:210089} чтобы атаковать {npc:209898}.'
 L['splinterlimb_note'] = nil
 L['surging_lasher_note'] = nil
-L['talthonei_ashwisper_note'] = nil
+L['talthonei_ashwisper_note'] = 'Убивайте монстров в окрестностях до тех пор, пока убитый монстр не скажет "Я буду отомщен" чтобы породить редкого монстра.'
 L['talthonei_ashwisper_wq_note'] = nil
 
 L['in_a_tree'] = 'На дереве.'
