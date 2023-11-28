@@ -931,9 +931,9 @@ L['options_icons_moonkin_hatchling'] = nil
 L['options_icons_moonkin_hatchling_desc'] = nil
 L['moonkin_hatchling_note'] = nil
 
-L['druid_glyphs_label'] = nil
-L['druid_glyphs_sublabel'] = nil
-L['druid_glyphs_note'] = nil
+L['druid_glyphs_label'] = 'Символы Друида'
+L['druid_glyphs_sublabel'] = '{note:Это НЕ символ друидов. Просто контрольный список!}'
+L['druid_glyphs_note'] = 'Собирать {note:Символы Друида} от различных активностей в {location:Изумрудном Сне}.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = nil
 
