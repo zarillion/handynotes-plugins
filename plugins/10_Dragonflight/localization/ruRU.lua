@@ -965,8 +965,8 @@ L['prismatic_note_3'] = nil
 L['prismatic_note_4'] = nil
 L['prismatic_note_5'] = nil
 
-L['options_icons_druid_glyph'] = nil
-L['options_icons_druid_glyph_desc'] = nil
+L['options_icons_druid_glyph'] = 'Символы Друида'
+L['options_icons_druid_glyph_desc'] = 'Отображение мест для {note:Символов Друида}.'
 
 L['elianna_vendor_note'] = nil
 L['dream_energy_name'] = nil
