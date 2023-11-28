@@ -994,8 +994,8 @@ L['thorn_beast_bear'] = '{item:%d} ({npc:Медведь})'
 
 L['thornbeast_disclaimer'] = '{note:Напоминание, каждый тип зверя имеет уникальный {item:%s} и приведет к подходящему шипастому зверю.}'
 
-L['thorn_laden_heart_note_1'] = nil
-L['thorn_laden_heart_note_2'] = nil
+L['thorn_laden_heart_note_1'] = 'Соберите {item:209860} из любого {npc:оленя}, {npc:саблезуба}, или {npc:медведя} в {location:Изумрудном Сне}.'
+L['thorn_laden_heart_note_2'] = 'Как только у вас появится {item:209860}, идите и найди лань по кличке {npc:140044} в {location:Друстваре} в {location:Кул-Тирасе}.'
 
 L['athainne_note_1'] = nil
 L['athainne_note_2'] = nil
