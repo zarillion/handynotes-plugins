@@ -970,11 +970,11 @@ L['thaelishar_vendor_note'] = nil
 L['silent_mark_label'] = nil
 L['silent_mark_note'] = nil
 
-L['amirdrassil'] = nil
-L['prismatic_location'] = nil
-L['prismatic_note_1'] = nil
-L['prismatic_note_2'] = nil
-L['prismatic_note_3'] = nil
+L['amirdrassil'] = 'Амирдрассил, Надежда Сна'
+L['prismatic_location'] = 'Внутри рейда {location:Амирдрассил, Надежда Сна}.'
+L['prismatic_note_1'] = '1. Выловите 10x {item:210782} из бассейнов в {location:Родниковом Атриуме}.'
+L['prismatic_note_2'] = '2. Выловите 10x {item:210783} из лавовых бассейнов в {location:Яме Вулкаросса}.'
+L['prismatic_note_3'] = '3. Бросьте все 20 рыб в самый большой бассейн в {location:Родниковом Атриуме} чтобы получить {spell:427145} бафф на 30 минут.'
 L['prismatic_note_4'] = nil
 L['prismatic_note_5'] = nil
 
