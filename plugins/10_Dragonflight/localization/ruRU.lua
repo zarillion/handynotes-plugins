@@ -876,13 +876,13 @@ L['in_a_tree'] = 'На дереве.'
 L['inside_building'] = 'В здании.'
 
 L['hidden_moonkin_stash_label'] = 'Тайник совухов'
-L['magical_bloom_note'] = nil
+L['magical_bloom_note'] = 'Бегите за {npc:210544} пока он не откроет сокровище.'
 L['pineshrew_cache_note'] = 'Рядом с несколькими камнями.'
 L['reliquary_of_ashamane_note'] = nil
-L['reliquary_of_aviana_note'] = nil
-L['reliquary_of_goldrinn_note'] = nil
-L['reliquary_of_ursol_note'] = nil
-L['triflesnatchs_roving_trove_note'] = nil
+L['reliquary_of_aviana_note'] = 'Найдите {object:Метку Авианы} {dot:Green} поблизости, чтобы получить бафф {spell:425432} и идите к {npc:212011}.'
+L['reliquary_of_goldrinn_note'] = 'Найдите {object:Метку Голдринна} {dot:Green} поблизости, чтобы получить бафф {spell:425408} и идите к {npc:212012}.'
+L['reliquary_of_ursol_note'] = 'Найдите {object:Метку Урсола} {dot:Green} поблизости, чтобы получить бафф {spell:423306} и идите к {npc:210732}.'
+L['triflesnatchs_roving_trove_note'] = 'Следуйте за {npc:210060} пока он перелетает с ветки на ветку.'
 
 L['unwaking_echo_label'] = 'Непробуждающийся отголосок'
 L['unwaking_echo_note'] = '{note:Вы можете открыть этот сундук только во сне.}\n\nУсните {emote:/спать} рядом с сундуком, чтобы открыть его.'
