@@ -494,6 +494,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Muestra dónde están los {npc:110398} para el logro {achievement:16574}.'
 
 L['khadin_note'] = 'Intercambia una {item:191784} por conocimiento de la profesión.'
+L['khadin_prof_note'] = nil
 L['the_great_swog_note'] = 'Intercambia {item:199338}, {item:199339} y {item:199340} por un {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Entrega {item:200093} para conseguir reputación con {faction:2503}.'
 L['elder_yusa_note'] = 'Selecciona a la {npc:192818} y teclea {emote:/hambre} para conseguir la receta de cocina.'

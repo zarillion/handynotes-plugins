@@ -496,6 +496,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Отображать места Изумрудных Стражников для {achievement:16574}'
 
 L['khadin_note'] = 'Обмен {item:191784} на знания по профессии.'
+L['khadin_prof_note'] = nil
 L['the_great_swog_note'] = 'Обменять {item:199338}, {item:199339} и {item:199340} на {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Обменяйте {item:200093} на репутацию с {faction:2503}.'
 L['elder_yusa_note'] = 'Возьмите в цель {npc:192818} и {emote:/голод} чтобы получить рецепт приготовления.'

@@ -494,6 +494,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Display dreamguard locations for the {achievement:16574} achievement.'
 
 L['khadin_note'] = 'Exchange {item:191784} for profession knowledge.'
+L['khadin_prof_note'] = 'Earn %d more {currency:%d}s to max out {spell:%d} profession tree.'
 L['the_great_swog_note'] = 'Exchange {item:199338}, {item:199339} and {item:199340} for {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Exchange {item:200093} for {faction:2503} reputation.'
 L['elder_yusa_note'] = 'Target {npc:192818} and {emote:/hungry} to obtain the cooking recipe.'

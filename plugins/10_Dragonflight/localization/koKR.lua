@@ -467,6 +467,7 @@ L['options_icons_dreamguard'] = nil
 L['options_icons_dreamguard_desc'] = '{achievement:16574} 업적을 위한 꿈수호병 위치를 표시합니다.'
 
 L['khadin_note'] = '{item:191784}을 교환하여 전문기술 지식을 습득합니다'
+L['khadin_prof_note'] = nil
 L['the_great_swog_note'] = '{item:199338}, {item:199339}, {item:199340}을 교환하여 {item:202102}를 얻습니다.'
 L['hunt_instructor_basku_note'] = '{item:200093}을 반납하여 {faction:2503} 평판을 획득합니다.'
 L['elder_yusa_note'] = nil
