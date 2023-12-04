@@ -146,22 +146,22 @@ L['options_icons_frostbound_chest'] = 'Скованный льдом сунду�
 L['options_icons_frostbound_chest_desc'] = 'Показать возможные места {object:Скованный льдом сундуков}.'
 
 L['fyrakk_assault_label'] = 'Налеты Фиракка'
-L['fyrakk_secured_shipment'] = nil
+L['fyrakk_secured_shipment'] = 'Защищенные ресурсы'
 
-L['shadowflame_forge_label'] = nil
-L['shadowflame_forge_note'] = nil
-L['shadowflame_blacksmithing_anvil_label'] = nil
-L['shadowflame_blacksmithing_anvil_note'] = nil
-L['shadowflame_leatherworking_table_label'] = nil
-L['shadowflame_leatherworking_table_note'] = nil
-L['shadowflame_incantation_table_label'] = nil
-L['shadowflame_incantation_table_note'] = nil
-L['azure_loom_label'] = nil
-L['azure_loom_note'] = nil
-L['temporal_loom_label'] = nil
-L['temporal_loom_note'] = nil
-L['earthwarders_forge_label'] = nil
-L['earthwarders_forge_note'] = nil
+L['shadowflame_forge_label'] = 'Кузня пламени тьмы'
+L['shadowflame_forge_note'] = 'Требуется при изготовления этого рецепта:\n{spell:408282}'
+L['shadowflame_blacksmithing_anvil_label'] = 'Наковальня кузни пламени тьмы (кузнечное дело)'
+L['shadowflame_blacksmithing_anvil_note'] = 'Требуется при изготовления этого рецепта:\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
+L['shadowflame_leatherworking_table_label'] = 'Стол кузни пламени тьмы (Кожевничество)'
+L['shadowflame_leatherworking_table_note'] = 'Требуется при изготовления этого рецепта:\n{spell:406275}'
+L['shadowflame_incantation_table_label'] = 'Стол кузни пламени тьмы (Начертание)'
+L['shadowflame_incantation_table_note'] = 'Требуется при изготовления этого рецепта:\n{spell:405076}'
+L['azure_loom_label'] = 'Лазурный ткацкий станок'
+L['azure_loom_note'] = 'Требуется при изготовления этого рецепта:\n{spell:376556}'
+L['temporal_loom_label'] = 'Временной ткацкий станок'
+L['temporal_loom_note'] = 'Требуется при изготовления этого рецепта:\n{spell:376557}'
+L['earthwarders_forge_label'] = 'Кузница Хранителя Земли'
+L['earthwarders_forge_note'] = 'Требуется при изготовления этого рецепта:\n{spell:367713}'
 
 L['dreamsurge_sublabel'] = '{note:Доступно только в то время как {location:Прилив Снов} активен в этой локации.}'
 L['celestine_vendor_note'] = 'Обмен {item:207026} на средства передвижения, игрушки, питомцев и трансмогрификацию.'
