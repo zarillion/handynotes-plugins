@@ -981,8 +981,8 @@ L['prismatic_note_5'] = nil
 L['options_icons_druid_glyph'] = 'Символы Друида'
 L['options_icons_druid_glyph_desc'] = 'Отображение мест для {note:Символов Друида}.'
 
-L['elianna_vendor_note'] = nil
-L['dream_energy_name'] = nil
+L['elianna_vendor_note'] = 'Завершение мероприятий по всему {location:Изумрудному Сну} вознаградит %s (скрытая валюта).\n\nЗаработок 7,000 %s откроет {quest:78598} у {npc:211209} с наградой 1x {currency:2777}.\n\nОбменяйте {currency:2777} на питомцев и средства передвижения.'
+L['dream_energy_name'] = 'Энергия Сна'
 L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
 
 L['sylvia_vendor_note'] = nil
