@@ -927,9 +927,9 @@ L['dreamfruit_note_2'] = 'Появляется после первой оста�
 L['options_icons_dreamfruit'] = '{achievement:19310}'
 L['options_icons_dreamfruit_desc'] = 'Показать местоположения Сонных плодов для {achievement:19310}.'
 
-L['options_icons_moonkin_hatchling'] = nil
-L['options_icons_moonkin_hatchling_desc'] = nil
-L['moonkin_hatchling_note'] = nil
+L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
+L['options_icons_moonkin_hatchling_desc'] = 'Отображение местоположения лунных совушков для {achievement:19293}.'
+L['moonkin_hatchling_note'] = 'Требуется активное локальное задание {wq:Укол сомнений}.'
 
 L['druid_glyphs_label'] = 'Символы Друида'
 L['druid_glyphs_sublabel'] = '{note:Это НЕ символ друидов. Просто контрольный список!}'
