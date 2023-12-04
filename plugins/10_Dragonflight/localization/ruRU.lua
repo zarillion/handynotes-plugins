@@ -937,7 +937,7 @@ L['druid_glyphs_note'] = 'Собирать {note:Символы Друида} о
 
 L['pollenfused_bristlebruin_fur_sample_note'] = nil
 
-L['mbc_note_start'] = nil
+L['mbc_note_start'] = 'Откройте {object:Маленькую коробку с флаконами} чтобы получить {item:210991}.\n\nВы получите 6x {item:210839} которые нужно наполнить водой из лунных колодцев с каждого континента.'
 L['mbc_note_end'] = nil
 
 L['mbc_vial_b'] = 'B'
@@ -958,13 +958,13 @@ L['mbc_vial_location'] = 'Заполните {item:%d} водой из лунн�
 L['mbc_moonwell_label'] = 'Лунный колодец'
 L['mbc_feral_dreamstone_label'] = nil
 
-L['azure_somnowl_note'] = nil
+L['azure_somnowl_note'] = 'Завершите короткую цепочку заданий, которая начинается с {quest:78065} у {npc:209318} чтобы получить {item:210645}.'
 
-L['slumbering_somnowl_note_a'] = nil
-L['slumbering_somnowl_note_b'] = nil
-L['slumbering_somnowl_note_c'] = nil
-L['slumbering_somnowl_note_d'] = nil
-L['slumbering_somnowl_note_e'] = nil
+L['slumbering_somnowl_note_a'] = 'Собирите 5x {item:210565} помещая различных {npc:Сплюшек} в сон с помощью {spell:2637} в {location:Изумрудном Сне}.'
+L['slumbering_somnowl_note_b'] = 'Купите 1x {item:4291} у любого торговца хозяйственных товаров.'
+L['slumbering_somnowl_note_c'] = 'Объедините 5x {item:210565} и 1x {item:4291} чтобы создать {item:210566}.'
+L['slumbering_somnowl_note_d'] = 'Соберите 1x {item:194864}.'
+L['slumbering_somnowl_note_e'] = 'Объедините 1x {item:210566} и 1x {item:194864} чтобы создать {item:210535}.'
 
 L['thaelishar_vendor_note'] = nil
 L['silent_mark_label'] = nil
