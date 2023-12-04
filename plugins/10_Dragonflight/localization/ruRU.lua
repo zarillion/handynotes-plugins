@@ -947,13 +947,13 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'O'
 
-L['mbc_vial_d_location'] = nil
+L['mbc_vial_d_location'] = 'Застава Падающих Звезд'
 L['mbc_vial_e_location'] = nil
 L['mbc_vial_k_location'] = nil
-L['mbc_vial_n_location'] = nil
+L['mbc_vial_n_location'] = 'Покой Звезд'
 L['mbc_vial_o_location'] = nil
 
-L['mbc_vial_location'] = nil
+L['mbc_vial_location'] = 'Заполните {item:%d} водой из лунного колодца в {location:%s} в {location:%s} в {location:%s} чтобы получить {item:%d}.'
 
 L['mbc_moonwell_label'] = 'Лунный колодец'
 L['mbc_feral_dreamstone_label'] = nil
