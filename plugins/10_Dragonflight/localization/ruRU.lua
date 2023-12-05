@@ -935,7 +935,7 @@ L['druid_glyphs_label'] = 'Символы Друида'
 L['druid_glyphs_sublabel'] = '{note:Это НЕ символ друидов. Просто контрольный список!}'
 L['druid_glyphs_note'] = 'Собирать {note:Символы Друида} от различных активностей в {location:Изумрудном Сне}.'
 
-L['pollenfused_bristlebruin_fur_sample_note'] = nil
+L['pollenfused_bristlebruin_fur_sample_note'] = 'Возьмите {object:Образец шерсти опыленного лохматого косолапа} у подножия дерева на {location:Пепелище}.'
 
 L['mbc_note_start'] = 'Откройте {object:Маленькую коробку с флаконами} чтобы получить {item:210991}.\n\nВы получите 6x {item:210839} которые нужно наполнить водой из лунных колодцев с каждого континента.'
 L['mbc_note_end'] = nil
