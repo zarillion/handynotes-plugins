@@ -966,8 +966,8 @@ L['slumbering_somnowl_note_c'] = 'Объедините 5x {item:210565} и 1x {i
 L['slumbering_somnowl_note_d'] = 'Соберите 1x {item:194864}.'
 L['slumbering_somnowl_note_e'] = 'Объедините 1x {item:210566} и 1x {item:194864} чтобы создать {item:210535}.'
 
-L['thaelishar_vendor_note'] = nil
-L['silent_mark_label'] = nil
+L['thaelishar_vendor_note'] = 'Покупайте за золото символы на друида.'
+L['silent_mark_label'] = 'Утесы Пышного Сна'
 L['silent_mark_note'] = 'Нацеливайтесь на нужное животное и направляйте соответствующий предмет до тех пор, пока не появляется {spell:426910}. {note:Вы должны настроиться на более чем 10 животных.}\n\nКанал {item:210764} на {npc:210892}.\n\nКанал {item:210767} на {npc:211347}, {npc:211283}, или {npc:210894}.\n\nКанал {item:210755} на {npc:210594}.\n\nКанал {item:210766} на {npc:209494}, {npc:212028}, или {npc:212024}.'
 
 L['amirdrassil'] = 'Амирдрассил, Надежда Сна'
