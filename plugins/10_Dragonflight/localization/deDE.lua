@@ -912,7 +912,7 @@ Die Qualität der {object:Traumsaat} bestimmt die Art der Belohnung:
 {item:208067}: Ein Haustier oder Handwerksmaterialien.
 {item:208047}: Ein Reittier oder Handwerksmaterialien.
 
-{note:Für eine Liste der Belohungen sieh dir {npc:211265} auf der Insel im Norden an, sie verkauft auch die meisten Belohungen.}
+{note:Für eine Liste der Belohnungen sieh dir {npc:211265} auf der Insel im Norden an, sie verkauft auch die meisten Belohnungen.}
 ]]
 L['dreamseed_cache'] = 'Traumsaattruhe'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
@@ -933,7 +933,7 @@ L['moonkin_hatchling_note'] = 'Die Weltquest {wq:Beklemmende Klauen} muss aktiv 
 
 L['druid_glyphs_label'] = 'Druidenglyphen'
 L['druid_glyphs_sublabel'] = '{note:Das ist nur eine Checkliste für die Druidenglypen!}'
-L['druid_glyphs_note'] = 'Sammle {note:Druidenglyphen} von verschiedene Aktivitäten in der Zone {location:Der Smaragdgrüne Traum}.'
+L['druid_glyphs_note'] = 'Sammle {note:Druidenglyphen} von verschiedenen Aktivitäten in der Zone {location:Der Smaragdgrüne Traum}.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Auf dem Boden vor dem Baum.'
 
