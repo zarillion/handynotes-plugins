@@ -1248,24 +1248,24 @@ L['options_icons_warcraft_rumble_desc'] = 'Zeigt die Position der {object:Rumble
 --------------------------------- AMIRDRASSIL ---------------------------------
 -------------------------------------------------------------------------------
 
-L['kaldorei_backpack_label'] = nil
-L['kaldorei_bag_label'] = nil
-L['kaldorei_bedroll_label'] = nil
-L['kaldorei_dagger_label'] = nil
-L['kaldorei_horn_label'] = nil
-L['kaldorei_moon_bow_label'] = nil
-L['kaldorei_shield_label'] = nil
-L['kaldorei_spear_label'] = nil
-L['kaldorei_spyglass_label'] = nil
+L['kaldorei_backpack_label'] = 'Kaldoreirucksack'
+L['kaldorei_bag_label'] = 'Kaldoreitasche'
+L['kaldorei_bedroll_label'] = 'Kaldoreischlafsack'
+L['kaldorei_dagger_label'] = 'Kaldoreidolch'
+L['kaldorei_horn_label'] = 'Kaldoreihorn'
+L['kaldorei_moon_bow_label'] = 'Kaldoreimondbogen'
+L['kaldorei_shield_label'] = 'Kaldoreischild'
+L['kaldorei_spear_label'] = 'Kaldoreispeer'
+L['kaldorei_spyglass_label'] = 'Kaldoreifernrohr'
 
-L['blue_kaldorei_backpack_note'] = nil
-L['blue_kaldorei_bedroll_note'] = nil
-L['blue_kaldorei_pouch_note'] = nil
-L['kaldorei_bow_carver_note'] = nil
-L['kaldorei_sentinels_spyglass_note'] = nil
-L['night_elven_bow_note'] = nil
-L['night_elven_horn_note'] = nil
-L['night_elven_sgnal_note'] = nil
-L['night_elven_shield_note'] = nil
-L['night_elven_spear_note'] = nil
-L['violet_kaldorei_pouch_note'] = nil
+L['blue_kaldorei_backpack_note'] = 'Auf einer Kiste im Haus.'
+L['blue_kaldorei_bedroll_note'] = 'Hinter dem Tisch vor einem kleinen Felsen.'
+L['blue_kaldorei_pouch_note'] = 'Neben dem Haus auf einem Fass.'
+L['kaldorei_bow_carver_note'] = 'Steckt in der obersten Etage im Tisch in einer Schriftrolle.'
+L['kaldorei_sentinels_spyglass_note'] = 'Auf einer Kiste unter dem Torbogen.'
+L['night_elven_bow_note'] = 'Lehnt in der {location:Hütte von Arlithrien} an einem Waffenständer.'
+L['night_elven_horn_note'] = 'Auf einer Kiste in der obersten Etage des {location:Morgenrötenwachturm}s.'
+L['night_elven_shield_note'] = 'Lehnt an einer Kiste neben dem Tisch.'
+L['night_elven_signal_note'] = 'Hängt oberhalb der Treppe an einer Wasserschale.'
+L['night_elven_spear_note'] = 'Lehnt am Eingang der {location:Scharfschneidenhalle} an einer Säule.'
+L['violet_kaldorei_pouch_note'] = 'Liegt vor den Vasen auf dem Boden.'
