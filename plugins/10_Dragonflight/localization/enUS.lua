@@ -1242,3 +1242,29 @@ L['wr_dur_foil_01'] = 'Behind some supply crates.'
 
 L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
 L['options_icons_warcraft_rumble_desc'] = 'Display {object:Rumble Coin Bag} and {object:Rumble Foil Bag} locations for the {object:Warcraft Rumble} crossover promotion.'
+
+-------------------------------------------------------------------------------
+---------------------------------- BEL'AMETH ----------------------------------
+-------------------------------------------------------------------------------
+
+L['kaldorei_backpack_label'] = 'Kaldorei Backpack'
+L['kaldorei_bag_label'] = 'Kaldorei Bag'
+L['kaldorei_bedroll_label'] = 'Kaldorei Bedroll'
+L['kaldorei_dagger_label'] = 'Kaldorei Dagger'
+L['kaldorei_horn_label'] = 'Kaldorei Horn'
+L['kaldorei_moon_bow_label'] = 'Kaldorei Moon Bow'
+L['kaldorei_shield_label'] = 'Kaldorei Shield'
+L['kaldorei_spear_label'] = 'Kaldorei Spear'
+L['kaldorei_spyglass_label'] = 'Kaldorei Spyglass'
+
+L['blue_kaldorei_backpack_note'] = 'On top of a crate in the harbor shop at {location:Belanaar}.'
+L['blue_kaldorei_bedroll_note'] = 'Behind the table near the moonwell.'
+L['blue_kaldorei_pouch_note'] = 'On a barrel outside the building filled with portals.'
+L['kaldorei_bow_carver_note'] = 'On a table at the top of the {location:Twilight Watchtower} near {npc:216731}.'
+L['kaldorei_sentinels_spyglass_note'] = 'On top of a crate at the end of the dock in {location:Belanaar}.'
+L['night_elven_bow_note'] = 'Leaning against the weapon rack in {location:Arlithrien Lodge}.'
+L['night_elven_horn_note'] = 'On a crate at the top of the {location:Dawning Watchtower} near {npc:216752}.'
+L['night_elven_sgnal_note'] = 'Hanging on a brazier atop the steps.'
+L['night_elven_shield_note'] = 'Learning against a crate near {npc:216269} the mining trainer.'
+L['night_elven_spear_note'] = 'Leaning against the wall of the {location:Keen-Edge Hall}.'
+L['violet_kaldorei_pouch_note'] = 'Near the bottom of the arch behind the moonwell.'

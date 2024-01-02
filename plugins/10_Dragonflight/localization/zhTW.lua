@@ -1242,3 +1242,29 @@ L['wr_dur_foil_01'] = '在一些補給箱後面.'
 
 L['options_icons_warcraft_rumble'] = '魔獸兵團'
 L['options_icons_warcraft_rumble_desc'] = '顯示為了 {object:魔獸兵團} 跨界促銷的 {object:兵團零錢袋} 和 {object:兵團錫箔包裝袋} 的位置.'
+
+-------------------------------------------------------------------------------
+--------------------------------- AMIRDRASSIL ---------------------------------
+-------------------------------------------------------------------------------
+
+L['kaldorei_backpack_label'] = nil
+L['kaldorei_bag_label'] = nil
+L['kaldorei_bedroll_label'] = nil
+L['kaldorei_dagger_label'] = nil
+L['kaldorei_horn_label'] = nil
+L['kaldorei_moon_bow_label'] = nil
+L['kaldorei_shield_label'] = nil
+L['kaldorei_spear_label'] = nil
+L['kaldorei_spyglass_label'] = nil
+
+L['blue_kaldorei_backpack_note'] = nil
+L['blue_kaldorei_bedroll_note'] = nil
+L['blue_kaldorei_pouch_note'] = nil
+L['kaldorei_bow_carver_note'] = nil
+L['kaldorei_sentinels_spyglass_note'] = nil
+L['night_elven_bow_note'] = nil
+L['night_elven_horn_note'] = nil
+L['night_elven_sgnal_note'] = nil
+L['night_elven_shield_note'] = nil
+L['night_elven_spear_note'] = nil
+L['violet_kaldorei_pouch_note'] = nil

@@ -1,13 +1,14 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
   <Script file="common.lua"/>
+  <Script file="zones\amirdrassil.lua"/>
   <Script file="zones\azure_span.lua"/>
+  <Script file="zones\emerald_dream.lua"/>
   <Script file="zones\forbidden_reach.lua"/>
   <Script file="zones\forbidden_reach2.lua"/>
   <Script file="zones\ohnahran_plains.lua"/>
   <Script file="zones\thaldraszus.lua"/>
   <Script file="zones\waking_shores.lua"/>
   <Script file="zones\zaralek_cavern.lua"/>
-  <Script file="zones\emerald_dream.lua"/>
   <!--  -->
   <Script file="zones\dragonraces.lua"/>
   <Script file="zones\secrets_of_azeroth.lua"/>

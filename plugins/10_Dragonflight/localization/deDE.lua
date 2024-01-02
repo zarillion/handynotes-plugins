@@ -1243,3 +1243,29 @@ L['wr_dur_foil_01'] = 'Hinter einigen Vorratskisten.'
 
 L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
 L['options_icons_warcraft_rumble_desc'] = 'Zeigt die Position der {object:Rumble-Münzenbeutel} und {object:Rumble-Folientasche} für die {object:Warcraft Rumble} Crossover Promotion.'
+
+-------------------------------------------------------------------------------
+--------------------------------- AMIRDRASSIL ---------------------------------
+-------------------------------------------------------------------------------
+
+L['kaldorei_backpack_label'] = nil
+L['kaldorei_bag_label'] = nil
+L['kaldorei_bedroll_label'] = nil
+L['kaldorei_dagger_label'] = nil
+L['kaldorei_horn_label'] = nil
+L['kaldorei_moon_bow_label'] = nil
+L['kaldorei_shield_label'] = nil
+L['kaldorei_spear_label'] = nil
+L['kaldorei_spyglass_label'] = nil
+
+L['blue_kaldorei_backpack_note'] = nil
+L['blue_kaldorei_bedroll_note'] = nil
+L['blue_kaldorei_pouch_note'] = nil
+L['kaldorei_bow_carver_note'] = nil
+L['kaldorei_sentinels_spyglass_note'] = nil
+L['night_elven_bow_note'] = nil
+L['night_elven_horn_note'] = nil
+L['night_elven_sgnal_note'] = nil
+L['night_elven_shield_note'] = nil
+L['night_elven_spear_note'] = nil
+L['violet_kaldorei_pouch_note'] = nil
