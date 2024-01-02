@@ -1247,24 +1247,24 @@ L['options_icons_warcraft_rumble_desc'] = 'Muestra dónde están las {object:Bol
 --------------------------------- AMIRDRASSIL ---------------------------------
 -------------------------------------------------------------------------------
 
-L['kaldorei_backpack_label'] = nil
-L['kaldorei_bag_label'] = nil
-L['kaldorei_bedroll_label'] = nil
-L['kaldorei_dagger_label'] = nil
-L['kaldorei_horn_label'] = nil
-L['kaldorei_moon_bow_label'] = nil
-L['kaldorei_shield_label'] = nil
-L['kaldorei_spear_label'] = nil
-L['kaldorei_spyglass_label'] = nil
+L['kaldorei_backpack_label'] = 'Mochila Kaldorei'
+L['kaldorei_bag_label'] = 'Bolsa Kaldorei'
+L['kaldorei_bedroll_label'] = 'Saco de Dormir Kaldorei'
+L['kaldorei_dagger_label'] = 'Daga Kaldorei'
+L['kaldorei_horn_label'] = 'Cuerno Kaldorei'
+L['kaldorei_moon_bow_label'] = 'Arco Lunar Kaldorei'
+L['kaldorei_shield_label'] = 'Escudo Kaldorei'
+L['kaldorei_spear_label'] = 'Lanza Kaldorei'
+L['kaldorei_spyglass_label'] = 'Catalejo Kaldorei'
 
-L['blue_kaldorei_backpack_note'] = nil
-L['blue_kaldorei_bedroll_note'] = nil
-L['blue_kaldorei_pouch_note'] = nil
-L['kaldorei_bow_carver_note'] = nil
-L['kaldorei_sentinels_spyglass_note'] = nil
-L['night_elven_bow_note'] = nil
-L['night_elven_horn_note'] = nil
-L['night_elven_sgnal_note'] = nil
-L['night_elven_shield_note'] = nil
-L['night_elven_spear_note'] = nil
-L['violet_kaldorei_pouch_note'] = nil
+L['blue_kaldorei_backpack_note'] = 'Encima de una caja en la tienda del puerto de {location:Belanaar}.'
+L['blue_kaldorei_bedroll_note'] = 'Detrás de la mesa cerca del pozo de la luna.'
+L['blue_kaldorei_pouch_note'] = 'En un barril fuera del edificio lleno de portales.'
+L['kaldorei_bow_carver_note'] = 'En una mesa en lo alto de {location:Twilight Watchtower} cerca de {npc:216731}.' -- REVIEW Twilight Watchtower quizás Torre de Vigilancia Crepuscular y de/de la
+L['kaldorei_sentinels_spyglass_note'] = 'Encima de una caja al final del muelle de {location:Belanaar}.'
+L['night_elven_bow_note'] = 'Apoyado contra el estante de armas de {location:Arlithrien Lodge}.' -- REVIEW Arlithrien Lodge y de/de la
+L['night_elven_horn_note'] = 'En una caja en la parte superior de {location:Dawning Watchtower} cerca de {npc:216752}.' -- REVIEW Dawning Watchtower y de/de la
+L['night_elven_sgnal_note'] = 'Colgando de un blandón encima de las escaleras.'
+L['night_elven_shield_note'] = 'Apoyado contra una caja cerca del instructor de minería {npc:216269}.'
+L['night_elven_spear_note'] = 'Apoyado contra la pared de {location:Keen-Edge Hall}.' -- REVIEW Keen-Edge Hall y de/de la
+L['violet_kaldorei_pouch_note'] = 'Cerca de la parte inferior del arco detrás del pozo de la luna.'
