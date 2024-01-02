@@ -1246,24 +1246,24 @@ L['options_icons_warcraft_rumble_desc'] = 'Afficher les emplacements des {object
 --------------------------------- AMIRDRASSIL ---------------------------------
 -------------------------------------------------------------------------------
 
-L['kaldorei_backpack_label'] = nil
-L['kaldorei_bag_label'] = nil
-L['kaldorei_bedroll_label'] = nil
-L['kaldorei_dagger_label'] = nil
-L['kaldorei_horn_label'] = nil
-L['kaldorei_moon_bow_label'] = nil
-L['kaldorei_shield_label'] = nil
-L['kaldorei_spear_label'] = nil
-L['kaldorei_spyglass_label'] = nil
+L['kaldorei_backpack_label'] = 'Sac à dos kaldorei'
+L['kaldorei_bag_label'] = 'Sac kaldorei'
+L['kaldorei_bedroll_label'] = 'Sac de couchage kaldorei'
+L['kaldorei_dagger_label'] = 'Dague kaldorei'
+L['kaldorei_horn_label'] = 'Corne kaldorei'
+L['kaldorei_moon_bow_label'] = 'Arc de lune kaldorei'
+L['kaldorei_shield_label'] = 'Bouclier kaldorei'
+L['kaldorei_spear_label'] = 'Lance kaldorei'
+L['kaldorei_spyglass_label'] = 'Longue-vue kaldorei'
 
-L['blue_kaldorei_backpack_note'] = nil
-L['blue_kaldorei_bedroll_note'] = nil
-L['blue_kaldorei_pouch_note'] = nil
-L['kaldorei_bow_carver_note'] = nil
-L['kaldorei_sentinels_spyglass_note'] = nil
-L['night_elven_bow_note'] = nil
-L['night_elven_horn_note'] = nil
-L['night_elven_sgnal_note'] = nil
-L['night_elven_shield_note'] = nil
-L['night_elven_spear_note'] = nil
-L['violet_kaldorei_pouch_note'] = nil
+L['blue_kaldorei_backpack_note'] = 'Sur une caisse dans la boutique du port à {location:Belanaar}.'
+L['blue_kaldorei_bedroll_note'] = 'Derrière la table près du puits de lune.'
+L['blue_kaldorei_pouch_note'] = 'Sur un tonneau à l\'extérieur du bâtiment rempli de portails.'
+L['kaldorei_bow_carver_note'] = 'Sur une table au sommet de la {location:Tour de guet du Crépuscule} près de {npc:216731}.'
+L['kaldorei_sentinels_spyglass_note'] = 'Sur une caisse au bout du quai à {location:Belanaar}.'
+L['night_elven_bow_note'] = 'Appuyé contre le râtelier d\'armes au {location:Pavillon d\'Arlithrien}.'
+L['night_elven_horn_note'] = 'Sur une caisse au sommet de la {location:Tour de guet du Point-du-jour} près du {npc:216752}.'
+L['night_elven_sgnal_note'] = 'Accroché à un brasero en haut des marches.'
+L['night_elven_shield_note'] = 'Posé contre une caisse près de {npc:216269}, la maîtresse de minage.'
+L['night_elven_spear_note'] = 'Adossée au mur de la {location:Salle de Fil-Tranchant}.'
+L['violet_kaldorei_pouch_note'] = 'Au pied de l\'arche, derrière le puits de lune.'
