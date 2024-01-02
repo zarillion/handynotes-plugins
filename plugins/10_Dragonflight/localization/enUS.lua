@@ -1244,7 +1244,7 @@ L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
 L['options_icons_warcraft_rumble_desc'] = 'Display {object:Rumble Coin Bag} and {object:Rumble Foil Bag} locations for the {object:Warcraft Rumble} crossover promotion.'
 
 -------------------------------------------------------------------------------
----------------------------------- BEL'AMETH ----------------------------------
+--------------------------------- AMIRDRASSIL ---------------------------------
 -------------------------------------------------------------------------------
 
 L['kaldorei_backpack_label'] = 'Kaldorei Backpack'
