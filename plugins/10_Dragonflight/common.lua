@@ -908,7 +908,16 @@ ns.DRAGON_CUSTOMIZATIONS = {
 }
 
 ns.DRAGON_CUSTOMIZATIONS.SetCount = function(dc, count)
-    return Item({item = dc.item, quest = dc.quest, count = count})
+    if not dc.spell then
+        return Item({item = dc.item, quest = dc.quest, count = count})
+    else
+        return Spell({
+            item = dc.item,
+            spell = dc.spell,
+            count = count,
+            type = false
+        })
+    end
 end
 
 -------------------------------------------------------------------------------
