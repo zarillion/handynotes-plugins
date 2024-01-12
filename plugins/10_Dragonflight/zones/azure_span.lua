@@ -2167,4 +2167,16 @@ map.nodes[55693044] = Node({
 map.nodes[45603972] = ns.node.Celestine()
 map.nodes[32663964] = ns.node.RenewedMagmammoth()
 
+-------------------------------- TUSKARR PEPE ---------------------------------
+
+map.nodes[12904860] = Collectible({
+    label = L['tuskarr_pepe_label'],
+    note = L['tuskarr_pepe_note'],
+    quest = 79551,
+    icon = 1044996,
+    rewards = {
+        Item({item = 213207}) -- A Tiny Ear Warmer
+    }
+}) -- Tuskarr Pepe
+
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
