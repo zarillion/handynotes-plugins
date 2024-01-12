@@ -1279,3 +1279,5 @@ L['night_elven_shield_note'] = 'Leaning against a crate near {npc:216269} the mi
 L['night_elven_signal_note'] = 'Hanging on a brazier atop the steps.'
 L['night_elven_spear_note'] = 'Leaning against the wall of the {location:Keen-Edge Hall}.'
 L['violet_kaldorei_pouch_note'] = 'Near the bottom of the arch behind the moonwell.'
+
+L['moon_priestess_lasara_note'] = 'Exchange {currency:2003} for transmog.'

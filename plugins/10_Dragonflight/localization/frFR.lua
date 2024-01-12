@@ -1278,3 +1278,5 @@ L['night_elven_shield_note'] = 'Posé contre une caisse près de {npc:216269}, l
 L['night_elven_signal_note'] = 'Accroché à un brasero en haut des marches.'
 L['night_elven_spear_note'] = 'Adossée au mur de la {location:Salle de Fil-Tranchant}.'
 L['violet_kaldorei_pouch_note'] = 'Au pied de l\'arche, derrière le puits de lune.'
+
+L['moon_priestess_lasara_note'] = nil

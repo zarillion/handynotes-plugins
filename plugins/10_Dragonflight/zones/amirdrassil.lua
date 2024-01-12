@@ -5,6 +5,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local Treasure = ns.node.Treasure
 
 local Transmog = ns.reward.Transmog
@@ -93,3 +94,24 @@ map.nodes[52541771] = Treasure({
     note = L['blue_kaldorei_backpack_note'],
     rewards = {Transmog({item = 213005, slot = L['cloak']})}
 }) -- Blue Kaldorei Backpack
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[46507063] = Collectible({
+    label = '{npc:216286}',
+    icon = 'peg_bl',
+    scale = 2.0,
+    note = L['moon_priestess_lasara_note'],
+    rewards = {
+        Transmog({
+            item = 210424,
+            slot = L['cosmetic'],
+            count = 250,
+            faction = 'Alliance'
+        }), -- Darnassian Tabard
+        Transmog({item = 210418, slot = L['cosmetic'], count = 250}), -- Darnassian Cloak
+        Transmog({item = 210415, slot = L['cosmetic'], count = 250}) -- Darnassian Moonsilver Spaulders
+    }
+}) -- Moon Priestess Lasara

@@ -1280,3 +1280,5 @@ L['night_elven_shield_note'] = 'Lehnt an einer Kiste neben dem Tisch.'
 L['night_elven_signal_note'] = 'Hängt oberhalb der Treppe an einer Wasserschale.'
 L['night_elven_spear_note'] = 'Lehnt am Eingang der {location:Scharfschneidenhalle} an einer Säule.'
 L['violet_kaldorei_pouch_note'] = 'Liegt vor den Vasen auf dem Boden.'
+
+L['moon_priestess_lasara_note'] = nil

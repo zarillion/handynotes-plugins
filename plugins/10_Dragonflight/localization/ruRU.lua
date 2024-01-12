@@ -1280,3 +1280,5 @@ L['night_elven_shield_note'] = nil
 L['night_elven_signal_note'] = nil
 L['night_elven_spear_note'] = nil
 L['violet_kaldorei_pouch_note'] = nil
+
+L['moon_priestess_lasara_note'] = nil

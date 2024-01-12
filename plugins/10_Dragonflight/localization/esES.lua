@@ -1279,3 +1279,5 @@ L['night_elven_shield_note'] = 'Apoyado contra una caja cerca del instructor de 
 L['night_elven_signal_note'] = 'Colgando de un blandón encima de las escaleras.'
 L['night_elven_spear_note'] = 'Apoyado contra la pared de {location:Cámara Afilada}.'
 L['violet_kaldorei_pouch_note'] = 'Cerca de la parte inferior del arco detrás del pozo de la luna.'
+
+L['moon_priestess_lasara_note'] = nil
