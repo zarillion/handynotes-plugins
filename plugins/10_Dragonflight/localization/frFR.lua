@@ -1028,6 +1028,10 @@ L['nahqi_note'] = 'La {item:211314} est nécessaire afin d\'utiliser {spell:1515
 
 L['sulraka_note'] = '{npc:210868} {npc:<Fille de Kimbul>} patrouille dans la zone à l\'est d\'{location:Amirdrassil} sur un trajet en {note:sens inverse des aiguilles d\'une montre}, prenant 17 minutes pour compléter un tour.\nElle possède un temps de réapparition minimum de 30 minutes.\n\nElle laisse derrière elle des {object:Empreintes profondes} en marchant, qui durent 3 minutes.\nElle se déplace toujours furtivement, vous devrez donc utiliser le sort {spell:1543} devant des {object:Empreintes profondes} fraîchement apparues pour la révéler.\nUtilisez votre {spell:257284} et/ou un {spell:187650} et tentez d\'utiliser le sort {spell:1515}.\n\n{note:Il est important de la piéger ou de la révéler car {npc:210868} ne s\'arrêtera pas de bouger, même lorsqu\'elle est attaquée. Elle peut sortir de la portée du sort {spell:1543}, ce qui l\'annule.}\n\n{note:Il s\'agit d\'un {npc:Esprit de bête}. Seuls les Chasseurs Maîtrise des bêtes peuvent l\'apprivoiser}.'
 
+L['alara_shinu_note_01'] = nil
+L['alara_shinu_note_02'] = nil
+L['alara_shinu_note_03'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------

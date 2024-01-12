@@ -1991,3 +1991,40 @@ map.nodes[58305820] = NPC({
         })
     }
 }) -- Sul'raka
+
+-------------------- DEAMON HUNTER WARGLAIVES: ALARA'SHINU --------------------
+
+map.nodes[50506090] = Collectible({
+    label = '{npc:213029}',
+    rlabel = ns.status.Gray('1/3'),
+    class = 'DEMONHUNTER',
+    icon = 5061798,
+    note = L['alara_shinu_note_01'],
+    rewards = {
+        Transmog({item = 210961, slot = L['warglaive']}) -- Alara'shinu
+    }
+}) -- Landeron Felfury
+
+local brokenShore = ns.maps[646] or Map({id = 646, settings = true})
+brokenShore.nodes[71604130] = Collectible({
+    label = '{npc:213186}',
+    rlabel = ns.status.Gray('2/3'),
+    class = 'DEMONHUNTER',
+    icon = 5061798,
+    note = L['alara_shinu_note_02'],
+    rewards = {
+        Transmog({item = 210961, slot = L['warglaive']}) -- Alara'shinu
+    }
+}) -- Memory of Landeron Felfury
+
+local valSharah = ns.maps[641] or Map({id = 641, settings = true})
+valSharah.nodes[51105710] = Collectible({
+    label = '{npc:213114}',
+    rlabel = ns.status.Gray('3/3'),
+    class = 'DEMONHUNTER',
+    icon = 5061798,
+    note = L['alara_shinu_note_03'],
+    rewards = {
+        Transmog({item = 210961, slot = L['warglaive']}) -- Alara'shinu
+    }
+}) -- Memory of Landeron Felfury
