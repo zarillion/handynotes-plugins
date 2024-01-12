@@ -166,6 +166,13 @@ L['dreamsurge_sublabel'] = nil
 L['celestine_vendor_note'] = nil
 L['renewed_magmammoth_note'] = nil
 
+L['dragon_pepe_label'] = nil
+L['dragon_pepe_note'] = nil
+L['explorer_pepe_label'] = nil
+L['explorer_pepe_note'] = nil
+L['tuskarr_pepe_label'] = nil
+L['tuskarr_pepe_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

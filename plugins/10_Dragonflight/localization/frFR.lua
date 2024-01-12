@@ -167,6 +167,13 @@ L['dreamsurge_sublabel'] = '{note:Uniquement disponible lorsqu\'un événement d
 L['celestine_vendor_note'] = 'Échangez vos {item:207026} contre une monture, des jouets, des mascottes et des objets de transmogrification.'
 L['renewed_magmammoth_note'] = 'Récupérez 20x {item:209419} sur les boss de fin des événements de {location:Poussée onirique} et combinez-les pour créer un {item:192807}.'
 
+L['dragon_pepe_label'] = nil
+L['dragon_pepe_note'] = nil
+L['explorer_pepe_label'] = nil
+L['explorer_pepe_note'] = nil
+L['tuskarr_pepe_label'] = nil
+L['tuskarr_pepe_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

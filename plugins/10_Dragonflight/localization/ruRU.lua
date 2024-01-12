@@ -167,6 +167,13 @@ L['dreamsurge_sublabel'] = '{note:Доступно только в то врем
 L['celestine_vendor_note'] = 'Обмен {item:207026} на средства передвижения, игрушки, питомцев и трансмогрификацию.'
 L['renewed_magmammoth_note'] = 'Соберите 20x {item:209419} с финальных боссов {location:Прилива Снов} и соберите из них {item:192807}.'
 
+L['dragon_pepe_label'] = nil
+L['dragon_pepe_note'] = nil
+L['explorer_pepe_label'] = nil
+L['explorer_pepe_note'] = nil
+L['tuskarr_pepe_label'] = nil
+L['tuskarr_pepe_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

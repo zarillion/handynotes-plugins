@@ -166,6 +166,13 @@ L['dreamsurge_sublabel'] = '{note:Only available while a {location:Dreamsurge} i
 L['celestine_vendor_note'] = 'Exchange {item:207026} for a mount, toys, pets, and transmog.'
 L['renewed_magmammoth_note'] = 'Collect 20x {item:209419} from the final boss of a {location:Dreamsurge} and combine to create {item:192807}.'
 
+L['dragon_pepe_label'] = 'Dragon Pepe'
+L['dragon_pepe_note'] = 'Perched on the pillar to the left of the stairs leading to the {location:Seat of the Aspects}.'
+L['explorer_pepe_label'] = 'Explorer Pepe'
+L['explorer_pepe_note'] = 'Perched on top of the large tent at {location:Dragonscale Basecamp}.'
+L['tuskarr_pepe_label'] = 'Tuskarr Pepe'
+L['tuskarr_pepe_note'] = 'Perched on the building near {npc:196544} and {npc:187680}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

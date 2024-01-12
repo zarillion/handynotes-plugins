@@ -166,6 +166,13 @@ L['dreamsurge_sublabel'] = '{note:Sólo está disponible cuando {location:Pico O
 L['celestine_vendor_note'] = 'Cambia {item:207026} por una montura, juguetes, mascotas, y transfiguraciones.'
 L['renewed_magmammoth_note'] = 'Reune 20x {item:209419} del boss final del {location:Pico Onírico} y combínalos para crear el {item:192807}.'
 
+L['dragon_pepe_label'] = nil
+L['dragon_pepe_note'] = nil
+L['explorer_pepe_label'] = nil
+L['explorer_pepe_note'] = nil
+L['tuskarr_pepe_label'] = nil
+L['tuskarr_pepe_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

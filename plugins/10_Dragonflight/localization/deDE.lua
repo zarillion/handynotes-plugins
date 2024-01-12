@@ -166,6 +166,13 @@ L['dreamsurge_sublabel'] = '{note:Nur verfügbar, wenn ein {location:Traumsprung
 L['celestine_vendor_note'] = 'Tausche {item:207026} gegen ein Reittier, Haustiere, Spielzeuge und Ausrüstungsvorlagen ein.'
 L['renewed_magmammoth_note'] = 'Sammle 20x {item:209419} vom Endboss eines {location:Traumsprungs}, um das Reittier {item:192807} zu erhalten.'
 
+L['dragon_pepe_label'] = nil
+L['dragon_pepe_note'] = nil
+L['explorer_pepe_label'] = nil
+L['explorer_pepe_note'] = nil
+L['tuskarr_pepe_label'] = nil
+L['tuskarr_pepe_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

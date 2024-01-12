@@ -166,6 +166,13 @@ L['dreamsurge_sublabel'] = '{note:只有在 {location:夢境湧現} 在此區域
 L['celestine_vendor_note'] = '使用 {item:207026} 交換坐騎, 玩具, 寵物和塑形.'
 L['renewed_magmammoth_note'] = '從 {location:夢境湧現} 最後的首領收集20個 {item:209419} 來組合成 {item:192807}.'
 
+L['dragon_pepe_label'] = nil
+L['dragon_pepe_note'] = nil
+L['explorer_pepe_label'] = nil
+L['explorer_pepe_note'] = nil
+L['tuskarr_pepe_label'] = nil
+L['tuskarr_pepe_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

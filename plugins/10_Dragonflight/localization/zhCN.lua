@@ -166,6 +166,13 @@ L['dreamsurge_sublabel'] = '{note:只在 {location:梦涌} 在此区域处于活
 L['celestine_vendor_note'] = '用 {item:207026} 兑换坐骑，玩具，宠物和幻化装备。'
 L['renewed_magmammoth_note'] = '从 {location:梦涌} 的最终首领收集20个 {item:209419} 并组合起来制造 {item:192807}。'
 
+L['dragon_pepe_label'] = nil
+L['dragon_pepe_note'] = nil
+L['explorer_pepe_label'] = nil
+L['explorer_pepe_note'] = nil
+L['tuskarr_pepe_label'] = nil
+L['tuskarr_pepe_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
