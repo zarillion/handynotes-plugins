@@ -114,25 +114,41 @@ local DragonridingVendor = Class('DragonridingVendor', Collectible, {
     group = ns.groups.DRAGONRACE,
     note = L['dr_vendor_note'],
     rewards = {
-        DC.CliffsideWylderdrake.CurledHeadHorns,
-        DC.HighlandDrake.CurledBackHorns, --
-        DC.RenewedProtoDrake.ProngedTail, --
-        DC.WindborneVelocidrake.HookedSnout,
-        DC.SetCount(DC.WindborneVelocidrake.TealScales, '50'),
-        DC.SetCount(DC.WindingSlitherdrake.BlondeHair, '25'),
-        DC.SetCount(DC.WindingSlitherdrake.CurvedNoseHorn, '25'),
-        DC.WindingSlitherdrake.HornedBrow, --
-        DC.WindingSlitherdrake.PairedHorns, --
-        DC.WindingSlitherdrake.SharkFinnedTail, --
-        DC.WindingSlitherdrake.YellowScales, --
+        DC.SetCount(DC.DragonIslesDrakes.EndlessPossibility, 50),
+        DC.SetCount(DC.WindborneVelocidrake.TealScales, 50),
+        DC.SetCount(DC.WindingSlitherdrake.BlondeHair, 25),
+        DC.SetCount(DC.WindingSlitherdrake.CurvedNoseHorn, 25),
+        DC.SetCount(DC.WindingSlitherdrake.HornedBrow, 25),
+        DC.SetCount(DC.WindingSlitherdrake.PairedHorns, 25),
+        DC.SetCount(DC.WindingSlitherdrake.SharkFinnedTail, 25),
+        DC.SetCount(DC.WindingSlitherdrake.YellowScales, 50), --
         Spacer(), --
-        Transmog({item = 206588, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Helmet
-        Transmog({item = 206589, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Shoulderpads
-        Transmog({item = 206590, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Jersey
-        Transmog({item = 206591, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Handwraps
-        Transmog({item = 206592, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Belt
-        Transmog({item = 206593, slot = L['cosmetic'], count = '20'}), -- Drake Racer's Leggings
-        Transmog({item = 206594, slot = L['cosmetic'], count = '20'}) -- Drake Racer's Boots
+        DC.SetCount(DC.CliffsideWylderdrake.CurledHeadHorns, 25),
+        DC.SetCount(DC.CliffsideWylderdrake.LargeTailSpikes, 25), -- 10.2.5
+        DC.SetCount(DC.HighlandDrake.CurledBackHorns, 25),
+        DC.SetCount(DC.HighlandDrake.SweptSpikedHead, 25), -- 10.2.5
+        DC.SetCount(DC.RenewedProtoDrake.DualHornedCrest, 25), -- 10.2.5
+        DC.SetCount(DC.RenewedProtoDrake.ProngedTail, 25),
+        DC.SetCount(DC.WindborneVelocidrake.CurledHorns, 25), -- 10.2.5
+        DC.SetCount(DC.WindborneVelocidrake.HookedSnout, 25), --
+        Spacer(), --
+        Transmog({item = 206588, slot = L['cosmetic'], count = 20}), -- Drake Racer's Helmet
+        Transmog({item = 206589, slot = L['cosmetic'], count = 20}), -- Drake Racer's Shoulderpads
+        Transmog({item = 206590, slot = L['cosmetic'], count = 20}), -- Drake Racer's Jersey
+        Transmog({item = 206591, slot = L['cosmetic'], count = 20}), -- Drake Racer's Handwraps
+        Transmog({item = 206592, slot = L['cosmetic'], count = 20}), -- Drake Racer's Belt
+        Transmog({item = 206593, slot = L['cosmetic'], count = 20}), -- Drake Racer's Leggings
+        Transmog({item = 206594, slot = L['cosmetic'], count = 20}), -- Drake Racer's Boots
+        Spacer(), --
+        Transmog({item = 211877, slot = L['cosmetic'], count = 20}), -- Drake Racer's Scarf
+        Transmog({item = 211881, slot = L['cosmetic'], count = 20}), -- Outlandish Drake Racer's Helmet
+        Transmog({item = 211882, slot = L['cosmetic'], count = 20}), -- Outlandish Drake Racer's Shoulderpads
+        Transmog({item = 211883, slot = L['cosmetic'], count = 20}), -- Outlandish Drake Racer's Jersey
+        Transmog({item = 211884, slot = L['cosmetic'], count = 20}), -- Outlandish Drake Racer's Handwraps
+        Transmog({item = 211885, slot = L['cosmetic'], count = 20}), -- Outlandish Drake Racer's Belt
+        Transmog({item = 211886, slot = L['cosmetic'], count = 20}), -- Outlandish Drake Racer's Leggings
+        Transmog({item = 211887, slot = L['cosmetic'], count = 20}), -- Outlandish Drake Racer's Boots
+        Transmog({item = 211888, slot = L['cosmetic'], count = 20}) -- Outlandish Drake Racer's Scarf
     }
 }) -- Dragonriding Vendor
 
