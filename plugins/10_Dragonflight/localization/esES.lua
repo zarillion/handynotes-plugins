@@ -617,6 +617,8 @@ L['naszuro_temporal_conflux'] = 'En la cabeza de la estatua del dragón.'
 L['revival_catalyst_label'] = 'Catalizador de Reanimación'
 L['revival_catalyst_note'] = 'Convierte equipo que no sea de tier en un objeto del tier actual y de la ranura de equipo equivalente.'
 
+L['provisioner_aristta_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

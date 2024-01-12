@@ -619,6 +619,8 @@ L['naszuro_temporal_conflux'] = 'Auf dem Kopf der Drachenstatue.'
 L['revival_catalyst_label'] = 'Belebungskatalysator'
 L['revival_catalyst_note'] = 'Verwandelt einen Gegenstand in einen Setgegenstand.'
 
+L['provisioner_aristta_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

@@ -38,6 +38,7 @@ local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -1846,5 +1847,46 @@ val.nodes[50505290] = Collectible({
         Item({item = 213181}) -- A Tiny Dragon Goblet
     }
 }) -- Dragon Pepe
+
+----------------------------- PROVISIONER ARISTTA -----------------------------
+
+map.nodes[61373139] = Collectible({
+    label = '{npc:209192}',
+    icon = 'peg_bl',
+    scale = 2.0,
+    note = L['provisioner_aristta_note'],
+    rewards = {
+        Mount({item = 192796, id = 1638, count = 20000}), -- Explorer's Stonehide Packbeast
+        Spacer(), --
+        Transmog({item = 208456, slot = L['cosmetic'], count = 15000}), -- Archivist's Elegant Bag
+        Transmog({item = 212794, slot = L['cosmetic'], count = 15000}), -- Historian's Hefty Habersack
+        Transmog({item = 208452, slot = L['cosmetic'], count = 15000}), -- Historian's Dapper Cap
+        Transmog({item = 208547, slot = L['cosmetic'], count = 12000}), -- Archivist's Reading Spectacles
+        Transmog({item = 208546, slot = L['cosmetic'], count = 12000}), -- Archivist's Rose-Tinted Glasses
+        Transmog({item = 212637, slot = L['cosmetic'], count = 7000}), -- Historian's Striders
+        Transmog({item = 212636, slot = L['cosmetic'], count = 7000}), -- Historian's Trousers
+        Transmog({item = 212635, slot = L['cosmetic'], count = 5000}), -- Historian's Utility Belt
+        Transmog({item = 212634, slot = L['cosmetic'], count = 5000}), -- Historian's Fingerless Gloves
+        Transmog({item = 212633, slot = L['cosmetic'], count = 5000}), -- Historian's Fitted Vest
+        Spacer(), --
+        Transmog({item = 208458, slot = L['offhand'], count = 10000}), -- Archivist's Extravagant Lantern
+        Transmog({item = 208450, slot = L['offhand'], count = 10000}), -- Coiled Archivist's Rope
+        Transmog({item = 213276, slot = L['1h_mace'], count = 10000}), -- Archivist's Magnifying Mace
+        Transmog({item = 208455, slot = L['1h_mace'], count = 10000}), -- Archivist's Sturdy Hook
+        Transmog({item = 208453, slot = L['1h_mace'], count = 10000}), -- Archivist's Super Scooper
+        Transmog({item = 213275, slot = L['1h_sword'], count = 10000}), -- Archivist's Rockpuller
+        Transmog({item = 208454, slot = L['1h_axe'], count = 10000}), -- Archivist's Mining Pick
+        Transmog({item = 212870, slot = L['dagger'], count = 10000}), -- Archivist's Stone Chisel
+        Transmog({item = 213274, slot = L['staff'], count = 10000}), -- Archivist's Pathfinder
+        Transmog({item = 208459, slot = L['2h_mace'], count = 10000}), -- Archivist's Improvised Cudgel
+        Transmog({item = 208457, slot = L['2h_mace'], count = 10000}), -- Archivist's Spelunking Torch
+        Transmog({
+            item = 212941,
+            slot = L['gun'],
+            count = 10000,
+            note = _G.ITEM_ACCOUNTBOUND
+        }) -- Archivist's "Light Touch"
+    }
+}) -- Provisioner Aristta
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

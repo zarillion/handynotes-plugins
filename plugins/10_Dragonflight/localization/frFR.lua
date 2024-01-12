@@ -618,6 +618,8 @@ L['naszuro_temporal_conflux'] = 'Sur la tête de la statue du dragon.'
 L['revival_catalyst_label'] = 'Catalyseur de Renouveau'
 L['revival_catalyst_note'] = 'Transforme des pièces d\'armures ne faisant pas partie d\'un ensemble en une nouvelle pièce d’ensemble du même niveau.'
 
+L['provisioner_aristta_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
