@@ -166,12 +166,12 @@ L['dreamsurge_sublabel'] = '{note:Sólo está disponible cuando {location:Pico O
 L['celestine_vendor_note'] = 'Cambia {item:207026} por una montura, juguetes, mascotas, y transfiguraciones.'
 L['renewed_magmammoth_note'] = 'Reune 20x {item:209419} del boss final del {location:Pico Onírico} y combínalos para crear el {item:192807}.'
 
-L['dragon_pepe_label'] = nil
-L['dragon_pepe_note'] = nil
-L['explorer_pepe_label'] = nil
-L['explorer_pepe_note'] = nil
-L['tuskarr_pepe_label'] = nil
-L['tuskarr_pepe_note'] = nil
+L['dragon_pepe_label'] = 'Pepe el Dragón'
+L['dragon_pepe_note'] = 'Encaramado en el pilar a la izquierda de las escaleras que conducen al {location:Trono de los Aspectos}.'
+L['explorer_pepe_label'] = 'Pepe el Explorador'
+L['explorer_pepe_note'] = 'Encaramado en lo alto de la gran tienda de campaña del {location:Campamento Base Dragontina}.'
+L['tuskarr_pepe_label'] = 'Pepe Tuskarr'
+L['tuskarr_pepe_note'] = 'Encaramado en el edificio cerca de {npc:196544} y {npc:187680}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -617,7 +617,7 @@ L['naszuro_temporal_conflux'] = 'En la cabeza de la estatua del dragón.'
 L['revival_catalyst_label'] = 'Catalizador de Reanimación'
 L['revival_catalyst_note'] = 'Convierte equipo que no sea de tier en un objeto del tier actual y de la ranura de equipo equivalente.'
 
-L['provisioner_aristta_note'] = nil
+L['provisioner_aristta_note'] = 'Intercambia {currency:2657} por transfiguraciones y una montura.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -1032,9 +1032,9 @@ L['nahqi_note'] = 'Requiere la {item:211314} para usar {spell:1515} con {npc:210
 
 L['sulraka_note'] = '{npc:210868}{npc:<Hija de Kimbul>} patrulla el área al este de {location:Amirdrassil} por una ruta {note:en sentido antihorario} que le lleva 17 minutos completarla.\nTras ello, reaparece como mínimo al cabo de 30 minutos.\n\nPor donde pasa deja unas {object:Huellas Profundas} que duran 3 minutos.\nCamina siempre en sigilo por lo que para encontrarla tendrás que usar una {spell:1543} frente a una {object:Huella Profunda} fresca.\nUsa la {spell:257284} y/o {spell:187650} e intenta usar {spell:1515}.\n\n{note:Es importante atraparla o revelarla porque {npc:210868} no parará de moverse aunque la ataques. Puede salir fuera de rango de {spell:1543} cancelando la habilidad.}\n\n{note:Es una {npc:Bestia Espíritu}. Sólo pueden domarla los Cazadores Bestias.}'
 
-L['alara_shinu_note_01'] = nil
-L['alara_shinu_note_02'] = nil
-L['alara_shinu_note_03'] = nil
+L['alara_shinu_note_01'] = 'Habla con {npc:213029} en el {location:Campamento Central} del {location:Sueño Esmeralda}.\n\nÉl te indicará que busques su recuerdo en {location:La Costa Abrupta}.'
+L['alara_shinu_note_02'] = 'Habla con {npc:213186} en el {location:Templo Perdido} de {location:La Costa Abrupta}.\n\nÉl te indicará que busques su recuerdo en {location:Val\'sharah}.'
+L['alara_shinu_note_03'] = 'Habla con {npc:213114} en el {location:Templo de Elune} de {location:Val\'Sharah}.\n\nDespués de que se acabe el recuerdo, aparecerá un ciervo portando su guja de guerra que te permitirá corromperlo y despojar {item:210961}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
@@ -1282,4 +1282,4 @@ L['night_elven_signal_note'] = 'Colgando de un blandón encima de las escaleras.
 L['night_elven_spear_note'] = 'Apoyado contra la pared de {location:Cámara Afilada}.'
 L['violet_kaldorei_pouch_note'] = 'Cerca de la parte inferior del arco detrás del pozo de la luna.'
 
-L['moon_priestess_lasara_note'] = nil
+L['moon_priestess_lasara_note'] = 'Intercambia {currency:2003} por transfiguraciones.'
