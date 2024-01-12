@@ -2090,6 +2090,7 @@ function Khadin.getters:note()
     }
     local KPneed = function(prof)
         local cfg = C_ProfSpecs.GetConfigIDForSkillLine(DFprof[prof].variant)
+        if cfg == 0 then return end
         local spec = C_ProfSpecs.GetSpecTabIDsForSkillLine(DFprof[prof].variant)
         local tree = C_Traits.GetTreeCurrencyInfo(cfg, spec[1], true)
         local spent = tree[1].spent
