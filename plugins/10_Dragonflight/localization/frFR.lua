@@ -167,12 +167,12 @@ L['dreamsurge_sublabel'] = '{note:Uniquement disponible lorsqu\'un événement d
 L['celestine_vendor_note'] = 'Échangez vos {item:207026} contre une monture, des jouets, des mascottes et des objets de transmogrification.'
 L['renewed_magmammoth_note'] = 'Récupérez 20x {item:209419} sur les boss de fin des événements de {location:Poussée onirique} et combinez-les pour créer un {item:192807}.'
 
-L['dragon_pepe_label'] = nil
-L['dragon_pepe_note'] = nil
-L['explorer_pepe_label'] = nil
-L['explorer_pepe_note'] = nil
-L['tuskarr_pepe_label'] = nil
-L['tuskarr_pepe_note'] = nil
+L['dragon_pepe_label'] = 'Pépé le Dragon'
+L['dragon_pepe_note'] = 'Perché sur un pilier à gauche de l\'escalier menant au {location:Siège des Aspects}.'
+L['explorer_pepe_label'] = 'Pépé l\'explorateur'
+L['explorer_pepe_note'] = 'Perché au sommet de la grande tente au {location:Camp de base du Dracaret}.'
+L['tuskarr_pepe_label'] = 'Pépé le Rohart'
+L['tuskarr_pepe_note'] = 'Perché à droite du bâtiment près de {npc:196544} et {npc:187680}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -618,7 +618,7 @@ L['naszuro_temporal_conflux'] = 'Sur la tête de la statue du dragon.'
 L['revival_catalyst_label'] = 'Catalyseur de Renouveau'
 L['revival_catalyst_note'] = 'Transforme des pièces d\'armures ne faisant pas partie d\'un ensemble en une nouvelle pièce d’ensemble du même niveau.'
 
-L['provisioner_aristta_note'] = nil
+L['provisioner_aristta_note'] = 'Échangez vos {currency:2657} contre des objets de transmogrification et une monture.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -1030,9 +1030,9 @@ L['nahqi_note'] = 'La {item:211314} est nécessaire afin d\'utiliser {spell:1515
 
 L['sulraka_note'] = '{npc:210868} {npc:<Fille de Kimbul>} patrouille dans la zone à l\'est d\'{location:Amirdrassil} sur un trajet en {note:sens inverse des aiguilles d\'une montre}, prenant 17 minutes pour compléter un tour.\nElle possède un temps de réapparition minimum de 30 minutes.\n\nElle laisse derrière elle des {object:Empreintes profondes} en marchant, qui durent 3 minutes.\nElle se déplace toujours furtivement, vous devrez donc utiliser le sort {spell:1543} devant des {object:Empreintes profondes} fraîchement apparues pour la révéler.\nUtilisez votre {spell:257284} et/ou un {spell:187650} et tentez d\'utiliser le sort {spell:1515}.\n\n{note:Il est important de la piéger ou de la révéler car {npc:210868} ne s\'arrêtera pas de bouger, même lorsqu\'elle est attaquée. Elle peut sortir de la portée du sort {spell:1543}, ce qui l\'annule.}\n\n{note:Il s\'agit d\'un {npc:Esprit de bête}. Seuls les Chasseurs Maîtrise des bêtes peuvent l\'apprivoiser}.'
 
-L['alara_shinu_note_01'] = nil
-L['alara_shinu_note_02'] = nil
-L['alara_shinu_note_03'] = nil
+L['alara_shinu_note_01'] = 'Parlez à {npc:213029} au {location:Campement Central} dans le {location:Rêve d’émeraude}.\n\nIl vous demandera de rechercher son souvenir au {location:Rivage Brisé}.'
+L['alara_shinu_note_02'] = 'Parlez au {npc:213186} situé au {location:Temple Perdu} au {location:Rivage Brisé}.\n\nIl vous demandera de rechercher son souvenir à {location:Val\'sharah}.'
+L['alara_shinu_note_03'] = 'Parlez au {npc:213114} au {location:Temple d’Élune} à {location:Val\'sharah}.\n\nUne fois le souvenir terminé, un cerf portant son glaive de guerre apparaîtra, vous permettant de le corrompre et de récupérer {item:210961}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
@@ -1281,4 +1281,4 @@ L['night_elven_signal_note'] = 'Accroché à un brasero en haut des marches.'
 L['night_elven_spear_note'] = 'Adossée au mur de la {location:Salle de Fil-Tranchant}.'
 L['violet_kaldorei_pouch_note'] = 'Au pied de l\'arche, derrière le puits de lune.'
 
-L['moon_priestess_lasara_note'] = nil
+L['moon_priestess_lasara_note'] = 'Échangez vos {currency:2003} contre des objets de transmogrification.'
