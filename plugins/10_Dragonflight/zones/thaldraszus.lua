@@ -1841,10 +1841,9 @@ val.nodes[62685732] = ns.node.Node({
 val.nodes[50505290] = Collectible({
     label = L['dragon_pepe_label'],
     note = L['dragon_pepe_note'],
-    quest = 79547,
     icon = 1044996,
     rewards = {
-        Item({item = 213181}) -- A Tiny Dragon Goblet
+        Item({item = 213181, quest = 79547}) -- A Tiny Dragon Goblet
     }
 }) -- Dragon Pepe
 

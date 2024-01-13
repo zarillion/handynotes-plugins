@@ -2650,10 +2650,9 @@ map.nodes[24556089] = ns.node.Node({
 map.nodes[47308270] = Collectible({
     label = L['explorer_pepe_label'],
     note = L['explorer_pepe_note'],
-    quest = 79550,
     icon = 1044996,
     rewards = {
-        Item({item = 213202}) -- A Tiny Explorer's Hat
+        Item({item = 213202, quest = 79550}) -- A Tiny Explorer's Hat
     }
 }) -- Explorer Pepe
 

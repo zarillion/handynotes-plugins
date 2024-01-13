@@ -2172,10 +2172,9 @@ map.nodes[32663964] = ns.node.RenewedMagmammoth()
 map.nodes[12904860] = Collectible({
     label = L['tuskarr_pepe_label'],
     note = L['tuskarr_pepe_note'],
-    quest = 79551,
     icon = 1044996,
     rewards = {
-        Item({item = 213207}) -- A Tiny Ear Warmer
+        Item({item = 213207, quest = 79551}) -- A Tiny Ear Warmer
     }
 }) -- Tuskarr Pepe
 
