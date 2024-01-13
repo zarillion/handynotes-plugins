@@ -231,7 +231,7 @@ map.nodes[37433171] = Rare({
     pois = {POI({38113211})} -- Entrance
 }) -- Isaqa
 
-map.nodes[40294916] = Rare({
+map.nodes[40685084] = Rare({
     id = 210046,
     quest = 78211,
     rewards = {
@@ -241,7 +241,13 @@ map.nodes[40294916] = Rare({
         Transmog({item = 208336, type = L['mail']}), -- Legguards of the Dreamsaber
         DG.Feral.KeenEyedDreamsaber -- Mark of the Keen-Eyed Dreamsaber
     },
-    pois = {Path({40294916, 39214992, 39535168, 40865209, 40545087, 40294916})}
+    pois = {
+        Path({
+            40685084, 40735079, 40795045, 40644967, 40424961, 39724906,
+            39424984, 39325061, 39505117, 39865164, 40215183, 40615183,
+            40825162, 40655100, 40685084
+        })
+    }
 }) -- Keen-eyed Cian
 
 map.nodes[41107328] = Rare({
@@ -883,7 +889,7 @@ map.nodes[37846926] = MoonkinHatchling({
     pois = {POI({37526855})} -- Entrance
 }) -- Peanut
 
-map.nodes[40407150] = MoonkinHatchling({
+map.nodes[40317156] = MoonkinHatchling({
     criteriaID = 62778,
     location = L['in_cave'],
     pois = {POI({38817158})} -- Entrance
@@ -894,7 +900,7 @@ map.nodes[36357161] = MoonkinHatchling({
     pois = {POI({36147092})} -- Entrance
 }) -- Squawkle
 
-map.nodes[38446930] = MoonkinHatchling({
+map.nodes[38446932] = MoonkinHatchling({
     criteriaID = 62786,
     location = L['in_cave'],
     pois = {POI({37536964})} -- Entrance
@@ -906,7 +912,7 @@ map.nodes[38757048] = MoonkinHatchling({
     pois = {POI({37536964})} -- Entrance
 }) -- Tickles
 
-map.nodes[37757026] = MoonkinHatchling({
+map.nodes[37777028] = MoonkinHatchling({
     criteriaID = 62781,
     location = L['in_cave'],
     pois = {POI({37536964})} -- Entrance
