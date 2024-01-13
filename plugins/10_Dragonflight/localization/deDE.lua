@@ -166,12 +166,12 @@ L['dreamsurge_sublabel'] = '{note:Nur verfügbar, wenn ein {location:Traumsprung
 L['celestine_vendor_note'] = 'Tausche {item:207026} gegen ein Reittier, Haustiere, Spielzeuge und Ausrüstungsvorlagen ein.'
 L['renewed_magmammoth_note'] = 'Sammle 20x {item:209419} vom Endboss eines {location:Traumsprungs}, um das Reittier {item:192807} zu erhalten.'
 
-L['dragon_pepe_label'] = nil
-L['dragon_pepe_note'] = nil
-L['explorer_pepe_label'] = nil
-L['explorer_pepe_note'] = nil
-L['tuskarr_pepe_label'] = nil
-L['tuskarr_pepe_note'] = nil
+L['dragon_pepe_label'] = 'Pepe der Drache'
+L['dragon_pepe_note'] = 'Sitzt unten an der Treppe, die zum {Ort:Sitz der Aspekte} führt.'
+L['explorer_pepe_label'] = 'Pepe der Entdecker'
+L['explorer_pepe_note'] = 'Sitzt oben auf dem großen Zelt im {Ort:Drachenschuppenbasislager}.'
+L['tuskarr_pepe_label'] = 'Pepe der Tuskarr'
+L['tuskarr_pepe_note'] = 'Sitzt in der Nähe von {npc:196544} und {npc:187680} auf einem Gegenstand.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -619,7 +619,7 @@ L['naszuro_temporal_conflux'] = 'Auf dem Kopf der Drachenstatue.'
 L['revival_catalyst_label'] = 'Belebungskatalysator'
 L['revival_catalyst_note'] = 'Verwandelt einen Gegenstand in einen Setgegenstand.'
 
-L['provisioner_aristta_note'] = nil
+L['provisioner_aristta_note'] = 'Tausche {currency:2657} gegen ein Reittier und Ausrüstungsvorlagen ein.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -1033,9 +1033,9 @@ L['nahqi_note'] = 'Benötigt die {item:211314}, um {npc:210908} mit {spell:1515}
 
 L['sulraka_note'] = 'Patrouilliert das Gebiet östlich von {location:Amirdrassil} {note:gegen den Uhrzeigersinn}.\n\nLässt während des laufens {object:Tiefe Fährten} zurück, die 3 Minuten halten.\nLäuft immer in Verstohlenheit, du musst ihn mit deiner Fähigkeit {spell:1543} vor frischen {object:Tiefe Fährten} aufdecken.\nZaubere {spell:257284} auf ihn und/oder benutze {spell:187650} und versuche ihn mit {spell:1515} zu zähmen.\n\n{note:Es ist wichtig, ihn aufzudecken oder zu fangen, denn {npc:210868} hört nicht auf sich zu bewegen, selbst wenn er angegriffen wird. Kann aus der Reichweite von {spell:1543} laufen.}\n\n{note:Diese {npc:Geisterbestie} können nur Tierherrschafts-Jäger zähmen.}'
 
-L['alara_shinu_note_01'] = nil
-L['alara_shinu_note_02'] = nil
-L['alara_shinu_note_03'] = nil
+L['alara_shinu_note_01'] = 'Sprich mit {npc:213029} im {location:Zentrallager} in {location:Der Smaragdgrüne Traum}.\n\nEr wird dich bitten, sein Erinnerung in {location:Die Verheerte Küste} zu suchen.'
+L['alara_shinu_note_02'] = 'Sprich mit {npc:213186} bei {location:Der Verlorene Tempel} in {location:Die Verheerte Küste}.\n\nEr wird dich bitten, sein Erinnerung in {location:Val\'sharah} zu suchen.'
+L['alara_shinu_note_03'] = 'Sprich mit {npc:213114} bei {location:Der Tempel von Elune} in {location:Val\'Sharah}.\n\nDanach erscheint ein Hirsch, der seine Kriegsgleve trägt. Erfülle die Kriegsgleve mit der Teufelsflamme und plündere {item:210961}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
@@ -1283,4 +1283,4 @@ L['night_elven_signal_note'] = 'Hängt oberhalb der Treppe an einer Wasserschale
 L['night_elven_spear_note'] = 'Lehnt am Eingang der {location:Scharfschneidenhalle} an einer Säule.'
 L['violet_kaldorei_pouch_note'] = 'Liegt vor den Vasen auf dem Boden.'
 
-L['moon_priestess_lasara_note'] = nil
+L['moon_priestess_lasara_note'] = 'Tausche {currency:2003} gegen Ausrüstungsvorlagen ein.'
