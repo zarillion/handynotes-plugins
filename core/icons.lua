@@ -18,6 +18,8 @@ local DEFAULT_GLOW = Glow('square_icon')
 
 ns.icons = { -- name => path
 
+    bag = {Icon('bag'), Glow('bag')},
+
     -- Red, Blue, Yellow, Purple, Green, Pink, Lime, Navy, Teal
     chest_bk = {Icon('chest_black'), Glow('chest')},
     chest_bl = {Icon('chest_blue'), Glow('chest')},
@@ -31,8 +33,6 @@ ns.icons = { -- name => path
     chest_rd = {Icon('chest_red'), Glow('chest')},
     chest_tl = {Icon('chest_teal'), Glow('chest')},
     chest_yw = {Icon('chest_yellow'), Glow('chest')},
-
-    coins = {Icon('coins'), Glow('coins')},
 
     crystal_b = {Icon('crystal_blue'), Glow('crystal')},
     crystal_o = {Icon('crystal_orange'), Glow('crystal')},
