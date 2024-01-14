@@ -174,7 +174,7 @@ L['explorer_pepe_note'] = 'Perché au sommet de la grande tente au {location:Cam
 L['tuskarr_pepe_label'] = 'Pépé le Rohart'
 L['tuskarr_pepe_note'] = 'Perché à droite du bâtiment près de {npc:196544} et {npc:187680}.'
 
-L['end_of_august'] = nil
+L['end_of_august'] = '{note:Disponible uniquement jusqu\'à fin août.}'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -1032,19 +1032,14 @@ L['nahqi_note'] = 'La {item:211314} est nécessaire afin d\'utiliser {spell:1515
 
 L['sulraka_note'] = '{npc:210868} {npc:<Fille de Kimbul>} patrouille dans la zone à l\'est d\'{location:Amirdrassil} sur un trajet en {note:sens inverse des aiguilles d\'une montre}, prenant 17 minutes pour compléter un tour.\nElle possède un temps de réapparition minimum de 30 minutes.\n\nElle laisse derrière elle des {object:Empreintes profondes} en marchant, qui durent 3 minutes.\nElle se déplace toujours furtivement, vous devrez donc utiliser le sort {spell:1543} devant des {object:Empreintes profondes} fraîchement apparues pour la révéler.\nUtilisez votre {spell:257284} et/ou un {spell:187650} et tentez d\'utiliser le sort {spell:1515}.\n\n{note:Il est important de la piéger ou de la révéler car {npc:210868} ne s\'arrêtera pas de bouger, même lorsqu\'elle est attaquée. Elle peut sortir de la portée du sort {spell:1543}, ce qui l\'annule.}\n\n{note:Il s\'agit d\'un {npc:Esprit de bête}. Seuls les Chasseurs Maîtrise des bêtes peuvent l\'apprivoiser}.'
 
--- DELETE WHEN FINISHED WITH NEW TRANSLATION
--- L['alara_shinu_note_01'] = 'Parlez à {npc:213029} au {location:Campement Central} dans le {location:Rêve d’émeraude}.\n\nIl vous demandera de rechercher son souvenir au {location:Rivage Brisé}.'
--- L['alara_shinu_note_02'] = 'Parlez au {npc:213186} situé au {location:Temple Perdu} au {location:Rivage Brisé}.\n\nIl vous demandera de rechercher son souvenir à {location:Val\'sharah}.'
--- L['alara_shinu_note_03'] = 'Parlez au {npc:213114} au {location:Temple d’Élune} à {location:Val\'sharah}.\n\nUne fois le souvenir terminé, un cerf portant son glaive de guerre apparaîtra, vous permettant de le corrompre et de récupérer {item:210961}.'
-
-L['alarashinu_note'] = nil
-L['alarashinu_note_stage1'] = nil
-L['alarashinu_note_stage2'] = nil
-L['alarashinu_note_stage3'] = nil
-L['alarashinu_note_stage4'] = nil
-L['alarashinu_note_stage5'] = nil
-L['alarashinu_note_stage6'] = nil
-L['alarashinu_note_end'] = nil
+L['alarashinu_note'] = '{item:210961}, un glaive de guerre secret, à l\'apparence mêlant nature et teintes gangrenées.\n\n{note:Effets visuels spéciaux :}\nVous laissez derrière vous une traînée de fleurs lorsque vous utilisez {spell:195072}/ {spell:189110}/ {spell:198793} avec {item:210961} équipé ou transmogrifié !'
+L['alarashinu_note_stage1'] = 'Parlez à {npc:213029} au {location:Campement Central} dans le {location:Rêve d’émeraude}.'
+L['alarashinu_note_stage2'] = 'Rendez-vous au {location:Temple Perdu} au {location:Rivage Brisé}, assistez au {npc:213114}.'
+L['alarashinu_note_stage3'] = 'Rendez-vous au {location:Temple d’Élune} à {location:Val\'sharah}, assistez à un autre {npc:213186}.'
+L['alarashinu_note_stage4'] = 'Une fois le souvenir terminé, un {npc:213248} portant son glaive de guerre apparaîtra.'
+L['alarashinu_note_stage5'] = 'Imprégnez le {npc:213308} avec votre gangreflamme.'
+L['alarashinu_note_stage6'] = 'Récupérez le {npc:213381} et recevez {item:210961}.'
+L['alarashinu_note_end'] = 'Retournez voir {npc:213029}, il aura une ligne de dialogue supplémentaire une fois que vous aurez obtenu ce glaive de guerre.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
