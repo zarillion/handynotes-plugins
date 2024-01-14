@@ -173,6 +173,8 @@ L['explorer_pepe_note'] = 'Perched on top of the large tent at {location:Dragons
 L['tuskarr_pepe_label'] = 'Tuskarr Pepe'
 L['tuskarr_pepe_note'] = 'Perched on the building near {npc:196544} and {npc:187680}.'
 
+L['end_of_august'] = '{note:Only available before end of August.}'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

@@ -173,6 +173,8 @@ L['explorer_pepe_note'] = 'Encaramado en lo alto de la gran tienda de campaña d
 L['tuskarr_pepe_label'] = 'Pepe Tuskarr'
 L['tuskarr_pepe_note'] = 'Encaramado en el edificio cerca de {npc:196544} y {npc:187680}.'
 
+L['end_of_august'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

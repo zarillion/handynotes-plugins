@@ -174,6 +174,8 @@ L['explorer_pepe_note'] = 'Perché au sommet de la grande tente au {location:Cam
 L['tuskarr_pepe_label'] = 'Pépé le Rohart'
 L['tuskarr_pepe_note'] = 'Perché à droite du bâtiment près de {npc:196544} et {npc:187680}.'
 
+L['end_of_august'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

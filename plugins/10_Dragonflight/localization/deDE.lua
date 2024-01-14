@@ -173,6 +173,8 @@ L['explorer_pepe_note'] = 'Sitzt oben auf dem großen Zelt im {Ort:Drachenschupp
 L['tuskarr_pepe_label'] = 'Pepe der Tuskarr'
 L['tuskarr_pepe_note'] = 'Sitzt in der Nähe von {npc:196544} und {npc:187680} auf einem Gegenstand.'
 
+L['end_of_august'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

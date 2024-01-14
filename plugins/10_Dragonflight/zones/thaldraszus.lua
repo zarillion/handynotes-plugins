@@ -33,6 +33,7 @@ local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
 
 local Achievement = ns.reward.Achievement
+local Appearance = ns.reward.Appearance
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
@@ -1887,5 +1888,65 @@ map.nodes[61373139] = Collectible({
         }) -- Archivist's "Light Touch"
     }
 }) -- Provisioner Aristta
+
+--------------------------------- Ms. Xiulan ----------------------------------
+
+local Xiulan = Class('Xiulan', Collectible, {
+    label = '{npc:189644}',
+    icon = 'peg_bl',
+    scale = 2.0,
+    parent = map.id,
+    note = L['end_of_august'],
+    rewards = {
+        Mount({item = 211084, id = 1944, count = 1200000}), -- Gold Resonating Crystal
+        Spacer(), --
+        Appearance({item = 211300, count = 200000}), -- Arsenal: Whispering Temple Blades
+        Transmog({
+            item = 211099,
+            type = L['shield'],
+            note = L['cosmetic'],
+            count = 100000
+        }), -- Gilded Scarab Bulwark
+        Transmog({
+            item = 211096,
+            type = L['gun'],
+            note = L['cosmetic'],
+            count = 100000
+        }), -- Gold-Plated Witchhunter's Carbine
+        Transmog({
+            item = 211294,
+            type = L['polearm'],
+            note = L['cosmetic'],
+            count = 100000
+        }), -- Marauder King's Body Carver
+        Transmog({
+            item = 211097,
+            type = L['2h_axe'],
+            note = L['cosmetic'],
+            count = 90000
+        }), -- Gilded Crown Splitter
+        Transmog({
+            item = 211159,
+            type = L['shield'],
+            note = L['cosmetic'],
+            count = 80000
+        }), -- Royal Witch Doctor's Guard
+        Transmog({
+            item = 211145,
+            type = L['cloak'],
+            note = L['cosmetic'],
+            count = 80000
+        }), -- Royal Witch Doctor's Trophies
+        Transmog({
+            item = 211295,
+            type = L['plate'],
+            note = L['cosmetic'],
+            count = 75000
+        }), -- Wrathful Crusader's Helm
+        Transmog({item = 211259, note = L['cosmetic'], count = 75000}) -- Regal Gryphon Rider's Headgear
+    }
+}) -- Ms. Xiulan <Madam Goya's Assistant>
+
+val.nodes[19215029] = Xiulan()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
