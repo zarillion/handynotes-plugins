@@ -196,6 +196,8 @@ L['options_icons_rares_desc'] = '显示稀有 NPC 的位置。'
 L['options_icons_rares'] = '稀有'
 L['options_icons_treasures_desc'] = '显示隐藏宝藏位置。'
 L['options_icons_treasures'] = '宝藏'
+L['options_icons_vendors_desc'] = nil
+L['options_icons_vendors'] = nil
 
 ------------------------------------ FOCUS ------------------------------------
 

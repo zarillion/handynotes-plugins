@@ -5,8 +5,8 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
-local Collectible = ns.node.Collectible
 local Treasure = ns.node.Treasure
+local Vendor = ns.node.Vendor
 
 local Transmog = ns.reward.Transmog
 
@@ -99,10 +99,8 @@ map.nodes[52541771] = Treasure({
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[46507063] = Collectible({
-    label = '{npc:216286}',
-    icon = 'peg_bl',
-    scale = 2.0,
+map.nodes[46507063] = Vendor({
+    id = 216286,
     note = L['moon_priestess_lasara_note'],
     rewards = {
         Transmog({

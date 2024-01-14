@@ -32,6 +32,8 @@ ns.icons = { -- name => path
     chest_tl = {Icon('chest_teal'), Glow('chest')},
     chest_yw = {Icon('chest_yellow'), Glow('chest')},
 
+    coins = {Icon('coins'), Glow('coins')},
+
     crystal_b = {Icon('crystal_blue'), Glow('crystal')},
     crystal_o = {Icon('crystal_orange'), Glow('crystal')},
     crystal_p = {Icon('crystal_purple'), Glow('crystal')},

@@ -196,6 +196,8 @@ L['options_icons_rares_desc'] = 'Afficher les emplacements des PNJ rares.'
 L['options_icons_rares'] = 'Rares'
 L['options_icons_treasures_desc'] = 'Afficher les emplacements des trésors cachés'
 L['options_icons_treasures'] = 'Trésors'
+L['options_icons_vendors_desc'] = nil
+L['options_icons_vendors'] = nil
 
 ------------------------------------ FOCUS ------------------------------------
 

@@ -196,6 +196,8 @@ L['options_icons_rares_desc'] = 'Zeigt die Positionen von seltenen Gegnern an.'
 L['options_icons_rares'] = 'Seltene Gegner'
 L['options_icons_treasures_desc'] = 'Zeigt die Positionen versteckter Schätze an.'
 L['options_icons_treasures'] = 'Schätze'
+L['options_icons_vendors_desc'] = nil
+L['options_icons_vendors'] = nil
 
 ---------------------------------- FOCUS ---------------------------------
 
