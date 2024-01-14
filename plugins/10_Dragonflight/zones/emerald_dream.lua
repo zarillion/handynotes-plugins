@@ -1994,37 +1994,29 @@ map.nodes[58305820] = NPC({
 
 -------------------- DEAMON HUNTER WARGLAIVES: ALARA'SHINU --------------------
 
-map.nodes[50506090] = Collectible({
-    label = '{npc:213029}',
-    rlabel = ns.status.Gray('1/3'),
-    class = 'DEMONHUNTER',
+local Alarashinu = Class('Alarashinu', Collectible, {
     icon = 5061798,
-    note = L['alara_shinu_note_01'],
-    rewards = {
-        Transmog({item = 210961, slot = L['warglaive']}) -- Alara'shinu
-    }
-}) -- Landeron Felfury
+    quest = {78606, 78622, 78623, 78660, 78677, 78678}, -- a hidden quest chain
+    questCount = true,
+    class = 'DEMONHUNTER',
+    rewards = {Transmog({item = 210961, type = L['warglaive']})} -- Alara'shinu
+})
 
-local brokenShore = ns.maps[646] or Map({id = 646, settings = true})
-brokenShore.nodes[71604130] = Collectible({
-    label = '{npc:213186}',
-    rlabel = ns.status.Gray('2/3'),
-    class = 'DEMONHUNTER',
-    icon = 5061798,
-    note = L['alara_shinu_note_02'],
-    rewards = {
-        Transmog({item = 210961, slot = L['warglaive']}) -- Alara'shinu
-    }
-}) -- Memory of Landeron Felfury
+function Alarashinu.getters:note()
+    local n = L['alarashinu_note'] .. '\n'
+    n = n .. QuestStatus(self.quest[1], 1, L['alarashinu_note_stage1'], true)
+    n = n .. QuestStatus(self.quest[2], 2, L['alarashinu_note_stage2'], true)
+    n = n .. QuestStatus(self.quest[3], 3, L['alarashinu_note_stage3'], true)
+    n = n .. QuestStatus(self.quest[4], 4, L['alarashinu_note_stage4'], true)
+    n = n .. QuestStatus(self.quest[5], 5, L['alarashinu_note_stage5'], true)
+    n = n .. QuestStatus(self.quest[6], 6, L['alarashinu_note_stage6'], true)
+    return n .. '\n' .. L['alarashinu_note_end']
+end
 
-local valSharah = ns.maps[641] or Map({id = 641, settings = true})
-valSharah.nodes[51105710] = Collectible({
-    label = '{npc:213114}',
-    rlabel = ns.status.Gray('3/3'),
-    class = 'DEMONHUNTER',
-    icon = 5061798,
-    note = L['alara_shinu_note_03'],
-    rewards = {
-        Transmog({item = 210961, slot = L['warglaive']}) -- Alara'shinu
-    }
-}) -- Memory of Landeron Felfury
+map.nodes[50536096] = Alarashinu({id = 213029}) -- Landeron Felfury
+
+local brokenshore = ns.maps[646] or Map({id = 646, settings = false})
+brokenshore.nodes[71674147] = Alarashinu({id = 213114}) -- Memory of Landeron Felfury
+
+local valsharah = ns.maps[641] or Map({id = 641, settings = false})
+valsharah.nodes[51185689] = Alarashinu({id = 213186}) -- Memory of Landeron Felfury
