@@ -1034,19 +1034,14 @@ L['nahqi_note'] = 'Requiere la {item:211314} para usar {spell:1515} con {npc:210
 
 L['sulraka_note'] = '{npc:210868}{npc:<Hija de Kimbul>} patrulla el área al este de {location:Amirdrassil} por una ruta {note:en sentido antihorario} que le lleva 17 minutos completarla.\nTras ello, reaparece como mínimo al cabo de 30 minutos.\n\nPor donde pasa deja unas {object:Huellas Profundas} que duran 3 minutos.\nCamina siempre en sigilo por lo que para encontrarla tendrás que usar una {spell:1543} frente a una {object:Huella Profunda} fresca.\nUsa la {spell:257284} y/o {spell:187650} e intenta usar {spell:1515}.\n\n{note:Es importante atraparla o revelarla porque {npc:210868} no parará de moverse aunque la ataques. Puede salir fuera de rango de {spell:1543} cancelando la habilidad.}\n\n{note:Es una {npc:Bestia Espíritu}. Sólo pueden domarla los Cazadores Bestias.}'
 
--- DELETE WHEN FINISHED WITH NEW TRANSLATION
--- L['alara_shinu_note_01'] = 'Habla con {npc:213029} en el {location:Campamento Central} del {location:Sueño Esmeralda}.\n\nÉl te indicará que busques su recuerdo en {location:La Costa Abrupta}.'
--- L['alara_shinu_note_02'] = 'Habla con {npc:213186} en el {location:Templo Perdido} de {location:La Costa Abrupta}.\n\nÉl te indicará que busques su recuerdo en {location:Val\'sharah}.'
--- L['alara_shinu_note_03'] = 'Habla con {npc:213114} en el {location:Templo de Elune} de {location:Val\'Sharah}.\n\nDespués de que se acabe el recuerdo, aparecerá un ciervo portando su guja de guerra que te permitirá corromperlo y despojar {item:210961}.'
-
-L['alarashinu_note'] = nil
-L['alarashinu_note_stage1'] = nil
-L['alarashinu_note_stage2'] = nil
-L['alarashinu_note_stage3'] = nil
-L['alarashinu_note_stage4'] = nil
-L['alarashinu_note_stage5'] = nil
-L['alarashinu_note_stage6'] = nil
-L['alarashinu_note_end'] = nil
+L['alarashinu_note'] = '{item:210961}, una guja de guerra oculta de naturaleza vil.\n\n{note:Efectos visuales especiales:}\nDejas un rastro de flores cuando usas {spell:195072}/ {spell:189110}/ {spell:198793} con Alara\'shinu equipada o transfigurada.'
+L['alarashinu_note_stage1'] = 'Habla con {npc:213029} en el {location:Campamento Central} del {location:Sueño Esmeralda}.'
+L['alarashinu_note_stage2'] = 'Ves al {location:Templo Perdido} de {location:La Costa Abrupta}, presencia un {npc:213114}.'
+L['alarashinu_note_stage3'] = 'Ves al {location:Templo de Elune} de {location:Val\'Sharah}, presencia otro {npc:213186}.'
+L['alarashinu_note_stage4'] = 'Después de que se acabe el recuerdo, aparecerá un {npc:213248} portando su Guja de Guerra.'
+L['alarashinu_note_stage5'] = 'Imbuye {npc:213308} con tu llama vil.'
+L['alarashinu_note_stage6'] = 'Despoja la {npc:213381} y recibirás {item:210961}.'
+L['alarashinu_note_end'] = 'Vuelve a {npc:213029}, tiene un diálogo adicional después de obtener esta guja de guerra.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
