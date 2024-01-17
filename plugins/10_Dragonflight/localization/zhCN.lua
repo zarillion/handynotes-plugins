@@ -166,14 +166,14 @@ L['dreamsurge_sublabel'] = '{note:只在 {location:梦涌} 在此区域处于活
 L['celestine_vendor_note'] = '用 {item:207026} 兑换坐骑，玩具，宠物和幻化装备。'
 L['renewed_magmammoth_note'] = '从 {location:梦涌} 的最终首领收集20个 {item:209419} 并组合起来制造 {item:192807}。'
 
-L['dragon_pepe_label'] = nil
-L['dragon_pepe_note'] = nil
-L['explorer_pepe_label'] = nil
-L['explorer_pepe_note'] = nil
-L['tuskarr_pepe_label'] = nil
-L['tuskarr_pepe_note'] = nil
+L['dragon_pepe_label'] = '巨龙佩佩'
+L['dragon_pepe_note'] = '栖息在通往 {location:守护巨龙之座} 的楼梯左侧的柱子上。'
+L['explorer_pepe_label'] = '探险家佩佩'
+L['explorer_pepe_note'] = '栖息在 {location:龙鳞先遣营地} 的大帐篷顶部。'
+L['tuskarr_pepe_label'] = '海象人佩佩'
+L['tuskarr_pepe_note'] = '栖息在 {npc:196544} 和 {npc:187680} 附近的建筑物上。'
 
-L['end_of_august'] = nil
+L['end_of_august'] = '{note:仅在八月底之前提供。}'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -619,7 +619,7 @@ L['naszuro_temporal_conflux'] = '在龙雕像的头上。'
 L['revival_catalyst_label'] = '复苏化生'
 L['revival_catalyst_note'] = '将非套装装备转换为同等物品等级和装备槽套装装备。'
 
-L['provisioner_aristta_note'] = nil
+L['provisioner_aristta_note'] = '用 {currency:2657} 兑换幻化和坐骑。'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -878,7 +878,7 @@ L['greedy_gessie_note'] = '需要收集 {object:野生青菜}，{object:红玉�
 L['nuoberon_note'] = '追逐乌龟，对猴子扔食物，或与梦境野兽战斗来帮助 {npc:209101} 做个有趣的梦！'
 L['reefbreaker_moruud_note'] = '利用附近全部6个 {npc:210089} 来攻击 {npc:209898}。'
 L['splinterlimb_note'] = '在叠加8层 {spell:420009} 负面效果后变为敌对。每完成一轮负面效果都会叠加。击杀攻击他的怪物，以便他可以更快地完成轮数。'
-L['surging_lasher_note'] = '当这片区域的 {location:翡翠狂欢} 事件激活时，会在此刷新。'
+L['surging_lasher_note'] = '当这片区域的 {location:翡翠狂乱} 事件激活时，会在此刷新。'
 L['talthonei_ashwisper_note'] = '击杀周围区域的怪物，直到被击杀的怪物说“我会报仇”后稀有出现。'
 L['talthonei_ashwisper_wq_note'] = '{note:仅在世界任务 {wq:传送门恐慌} 处于活动状态时才能在此出现。}'
 
@@ -911,7 +911,7 @@ L['snuggle_buddy_note'] = '在一艘小船里。'
 
 L['dreamseed_soil_label'] = '梦境之种壤土'
 L['dreamseed_soil_note'] = [[
-{currency:2650} 的捐献进度, 决定了在 {object:梦境之种宝箱} 中 {object:翡翠花蕾奖励} 的品质和找到 {item:210059} 的几率。
+{currency:2650} 的捐献进度, 决定了在 {object:梦境之种秘宝} 中 {object:翡翠花蕾奖励} 的品质和找到 {item:210059} 的几率。
 
 {item:210224}（捐献 {currency:2650} 至少1次）
 {item:210225}（进度50%）
@@ -924,7 +924,7 @@ L['dreamseed_soil_note'] = [[
 
 {note:奖励列表请查看岛屿北部的 {npc:211265}，她也出售大部分奖励。}
 ]]
-L['dreamseed_cache'] = '梦境之种宝箱'
+L['dreamseed_cache'] = '梦境之种秘宝'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
 L['options_icons_dream_of_seeds_desc'] = '显示 {achievement:19013} 成就中 {object:梦境之种壤土} 的位置。'
 L['the_seeds_i_sow_suffix'] = '翡翠奖赏种子已捐献'
@@ -1034,14 +1034,15 @@ L['nahqi_note'] = '要对 {npc:210908} 施放 {spell:1515}，需要 {item:211314
 
 L['sulraka_note'] = '{npc:210868} {npc:<吉布尔之女>} 在 {location:阿梅达希尔} 东方以 {note:逆时针} 路线巡游，大约17分钟绕一周。\n它的刷新时间最少30分钟。\n\n当它行进时会在身后留下 {object:笨重的踪迹}，持续3分钟。\n由于一直潜行状态，需要在一个刚刚刷新的 {object:笨重的踪迹} 前面使用 {spell:1543} 来让其显形。\n先施放 {spell:257284} 和（或）{spell:187650}，再尝试 {spell:1515}。\n\n{note:注意：{npc:210868} 即使受到攻击也不会停止前行，所以一定要使用陷阱或照明。否则 {spell:1543} 会在超距后取消施法。}\n\n{note:这是只 {npc:灵魂兽}。只有兽王猎人能驯服。}'
 
-L['alarashinu_note'] = nil
-L['alarashinu_note_stage1'] = nil
-L['alarashinu_note_stage2'] = nil
-L['alarashinu_note_stage3'] = nil
-L['alarashinu_note_stage4'] = nil
-L['alarashinu_note_stage5'] = nil
-L['alarashinu_note_stage6'] = nil
-L['alarashinu_note_end'] = nil
+L['alarashinu_note'] = '{item:210961}，一把隐藏的带有邪色的自然战刃。\n\n{note:特殊视觉效果：}\n装备或幻化阿莱纳希努使用 {spell:195072} / {spell:189110} / {spell:198793} 时会留下一串花迹！'
+L['alarashinu_note_stage1'] = '与 {location:翡翠梦境} 的 {location:中心营地} 的 {npc:213029} 交谈。'
+L['alarashinu_note_stage2'] = '前往 {location:破碎海滩 } 的 {location:失落的神殿}，见 {npc:213114}。'
+L['alarashinu_note_stage3'] = '前往 {location:瓦尔莎拉 } 的 {location:月神殿}，见 {npc:213186}。'
+L['alarashinu_note_stage4'] = '记忆结束后，一个 {npc:213248} 会带着他的战刃出现。'
+L['alarashinu_note_stage5'] = '用邪能火焰灌注 {npc:213308}。'
+L['alarashinu_note_stage6'] = '拾取 {npc:213381} 并获得 {item:210961}。'
+L['alarashinu_note_end'] = '返回 {npc:213029}，在获得这把战刃后，他会出现一个奖励对话框。'
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
@@ -1266,26 +1267,26 @@ L['options_icons_warcraft_rumble_desc'] = '显示 {object:魔兽游戏币袋} �
 --------------------------------- AMIRDRASSIL ---------------------------------
 -------------------------------------------------------------------------------
 
-L['kaldorei_backpack_label'] = nil
-L['kaldorei_bag_label'] = nil
-L['kaldorei_bedroll_label'] = nil
-L['kaldorei_dagger_label'] = nil
-L['kaldorei_horn_label'] = nil
-L['kaldorei_moon_bow_label'] = nil
-L['kaldorei_shield_label'] = nil
-L['kaldorei_spear_label'] = nil
-L['kaldorei_spyglass_label'] = nil
+L['kaldorei_backpack_label'] = '卡多雷背包'
+L['kaldorei_bag_label'] = '卡多雷袋子'
+L['kaldorei_bedroll_label'] = '卡多雷铺盖'
+L['kaldorei_dagger_label'] = '卡多雷匕首'
+L['kaldorei_horn_label'] = '卡多雷号角'
+L['kaldorei_moon_bow_label'] = '卡多雷月弓'
+L['kaldorei_shield_label'] = '卡多雷战盾'
+L['kaldorei_spear_label'] = '卡多雷战矛'
+L['kaldorei_spyglass_label'] = '卡多雷望远镜'
 
-L['blue_kaldorei_backpack_note'] = nil
-L['blue_kaldorei_bedroll_note'] = nil
-L['blue_kaldorei_pouch_note'] = nil
-L['kaldorei_bow_carver_note'] = nil
-L['kaldorei_sentinels_spyglass_note'] = nil
-L['night_elven_bow_note'] = nil
-L['night_elven_horn_note'] = nil
-L['night_elven_shield_note'] = nil
-L['night_elven_signal_note'] = nil
-L['night_elven_spear_note'] = nil
-L['violet_kaldorei_pouch_note'] = nil
+L['blue_kaldorei_backpack_note'] = '在 {location:贝拉纳尔} 港口商店的一个箱子上。'
+L['blue_kaldorei_bedroll_note'] = '靠近月亮井的桌子后面。'
+L['blue_kaldorei_pouch_note'] = '在建筑物外的一个装满液体的桶上。'
+L['kaldorei_bow_carver_note'] = '在 {npc:216731} 附近的 {location:暮光瞭望塔} 顶部的桌子上。'
+L['kaldorei_sentinels_spyglass_note'] = '在 {location:贝拉纳尔} 码头尽头的一个箱子上。'
+L['night_elven_bow_note'] = '靠在 {location:阿里斯瑞恩基地} 的武器架上。'
+L['night_elven_horn_note'] = '在 {npc:216752} 附近的 {location:暮光瞭望塔} 顶部的一个箱子上。'
+L['night_elven_shield_note'] = '靠在采矿训练师 {npc:216269} 附近的一个箱子上。'
+L['night_elven_signal_note'] = '挂在台阶顶上的火盆上。'
+L['night_elven_spear_note'] = '靠在 {location:锋刃大厅} 的墙上。'
+L['violet_kaldorei_pouch_note'] = '靠近月亮井后面的拱门底部。'
 
-L['moon_priestess_lasara_note'] = nil
+L['moon_priestess_lasara_note'] = '将 {currency:2003} 兑换成幻化。'
