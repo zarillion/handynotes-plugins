@@ -175,10 +175,10 @@ L['tuskarr_pepe_note'] = 'Encaramado en el edificio cerca de {npc:196544} y {npc
 
 L['end_of_august'] = '{note:Sólo está disponible antes de que acabe Agosto.}'
 
-L['rich_soil_label'] = nil
-L['rich_soil_note'] = nil
-L['options_icons_rich_soil'] = nil
-L['options_icons_rich_soil_desc'] = nil
+L['rich_soil_label'] = 'Terreno Rico'
+L['rich_soil_note'] = 'Planta varias semillas en una zona de {object:Terreno Rico} en las {location:Islas Dragón} para obtener recompensas aleatorias.\n\n{item:200506} - Crecen hierbas comunes aleatorias de las {location:Islas Dragón}\n\n{item:200508} - Crecen Esencias Reanimadas aleatorias\n\n{item:200507} - Crecen hierbas descompuestas aleatorias\n\n{item:200509} - Aparece un {npc:198571} para varias hierbas y esencias aleatorias'
+L['options_icons_rich_soil'] = 'Terreno Rico'
+L['options_icons_rich_soil_desc'] = 'Muestra dónde hay {object:Terreno Rico}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
