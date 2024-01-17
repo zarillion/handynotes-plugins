@@ -166,6 +166,15 @@ L['dreamsurge_sublabel'] = '{note:Nur verfügbar, wenn ein {location:Traumsprung
 L['celestine_vendor_note'] = 'Tausche {item:207026} gegen ein Reittier, Haustiere, Spielzeuge und Ausrüstungsvorlagen ein.'
 L['renewed_magmammoth_note'] = 'Sammle 20x {item:209419} vom Endboss eines {location:Traumsprungs}, um das Reittier {item:192807} zu erhalten.'
 
+L['dragon_pepe_label'] = 'Pepe der Drache'
+L['dragon_pepe_note'] = 'Sitzt unten an der Treppe, die zum {Ort:Sitz der Aspekte} führt.'
+L['explorer_pepe_label'] = 'Pepe der Entdecker'
+L['explorer_pepe_note'] = 'Sitzt oben auf dem großen Zelt im {Ort:Drachenschuppenbasislager}.'
+L['tuskarr_pepe_label'] = 'Pepe der Tuskarr'
+L['tuskarr_pepe_note'] = 'Sitzt in der Nähe von {npc:196544} und {npc:187680} auf einem Gegenstand.'
+
+L['end_of_august'] = '{note:Nur bis Ende August verfügbar.}'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -612,6 +621,8 @@ L['naszuro_temporal_conflux'] = 'Auf dem Kopf der Drachenstatue.'
 L['revival_catalyst_label'] = 'Belebungskatalysator'
 L['revival_catalyst_note'] = 'Verwandelt einen Gegenstand in einen Setgegenstand.'
 
+L['provisioner_aristta_note'] = 'Tausche {currency:2657} gegen ein Reittier und Ausrüstungsvorlagen ein.'
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -867,8 +878,10 @@ L['fruitface_note'] = 'Biete {npc:209950} {dot:Pink} deine Hilfe an, um {spell:4
 L['greedy_gessie_note'] = 'Sammle frische Zutaten wie {object:Wildes Grünzeug}, {object:Rubinschuppenmelone} oder {object:Orangenwurzel} aus der Umgebung und legt diese in die Körbe, damit der seltene Gegner erscheint.'
 L['nuoberon_note'] = 'Jagt Schildkröten, bewerft Affen mit Essen oder bekämpft Traummonster, um {npc:209101} zu einem lustigen Traum zu verhelfen!'
 L['reefbreaker_moruud_note'] = 'Befestige alle 6 {npc:210089e} an ihm, um ihn angreifen zu können.'
+L['splinterlimb_note'] = 'Wird nach 8 Stapeln des Schwächungszaubers {spell:420009} angreifbar. Der Schwächungszauber stapelt sich pro beendeter Runde. Töte die Gegner, die ihn angreifen, damit er seine Runde schneller beenden kann.'
 L['surging_lasher_note'] = 'Kann während des {location:Smaragdraserei} Events in diesem Gebiet erscheinen.'
 L['talthonei_ashwisper_note'] = 'Töte Gegner in der Nähe, bis der getötete Gegner sagt "Man wird... mich rächen", um den seltenen Gegner erscheinen zu lassen.'
+L['talthonei_ashwisper_wq_note'] = '{note:Kann hier erscheinen, wenn die Weltquest {wq:Portalpanik} aktiv ist.}'
 
 L['in_a_tree'] = 'Oben im Baum.'
 L['inside_building'] = 'Im Gebäude.'
@@ -910,7 +923,7 @@ Die Qualität der {object:Traumsaat} bestimmt die Art der Belohnung:
 {item:208067}: Ein Haustier oder Handwerksmaterialien.
 {item:208047}: Ein Reittier oder Handwerksmaterialien.
 
-{note:Für eine Liste der Belohungen sieh dir {npc:211265} auf der Insel im Norden an, sie verkauft auch die meisten Belohungen.}
+{note:Für eine Liste der Belohnungen sieh dir {npc:211265} auf der Insel im Norden an, sie verkauft auch die meisten Belohnungen.}
 ]]
 L['dreamseed_cache'] = 'Traumsaattruhe'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
@@ -931,7 +944,7 @@ L['moonkin_hatchling_note'] = 'Die Weltquest {wq:Beklemmende Klauen} muss aktiv 
 
 L['druid_glyphs_label'] = 'Druidenglyphen'
 L['druid_glyphs_sublabel'] = '{note:Das ist nur eine Checkliste für die Druidenglypen!}'
-L['druid_glyphs_note'] = 'Sammle {note:Druidenglyphen} von verschiedene Aktivitäten in der Zone {location:Der Smaragdgrüne Traum}.'
+L['druid_glyphs_note'] = 'Sammle {note:Druidenglyphen} von verschiedenen Aktivitäten in der Zone {location:Der Smaragdgrüne Traum}.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Auf dem Boden vor dem Baum.'
 
@@ -992,8 +1005,6 @@ L['options_icons_somnut_desc'] = 'Zeigt die möglichen Positionen für {object:S
 L['improvised_leafbed_note'] = 'Beginne die Quest {quest:77896} und schließe die Questreihe ab, um {item:210864} von {npc:210164} zu erhalten.'
 L['kalandu_note'] = 'Beginne die Quest {quest:77948} und schließe die Questreihe ab, um {item:210633} von {npc:210196} zu erhalten.'
 
-L['renewed_dream'] = '{note:An dieser Position ist KEIN Schatz!}\n{item:201437} kann überall in {location:Der Smaragdgrüne Traum} als Beute fallen gelassen werden.\nKombiniere 5 {item:201437}, um {item:201439} wiederherzustellen.'
-
 L['ochre_note'] = 'Sprich mit {npc:209253}, um die Questreihe zu starten. {npc:209571} wird die nächsten Abschnitte anbieten.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:5 Tage zum Wachsen.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:5 Tage zum Wachsen.}'
@@ -1002,10 +1013,10 @@ L['ochre_note_stage4'] = '{quest:77711}. {note:5 Tage zum Wachsen.}'
 L['ochre_note_stage5'] = '{quest:77762}.'
 
 L['thorn_beast_stag'] = '{item:%d} ({npc:Hirsch})'
-L['thorn_beast_saber'] = '{item:%d} ({npc:Säbler})' -- review
+L['thorn_beast_saber'] = '{item:%d} ({npc:Säbler})'
 L['thorn_beast_bear'] = '{item:%d} ({npc:Bär})'
 
-L['thornbeast_disclaimer'] = '{note:Info: Jede Bestienart hat einzigartige {item:%s}, die zur passenden Dornenbestie führen.}'
+L['thornbeast_disclaimer'] = '{note:Info: Jede Bestienart hat ein einzigartiges {item:%s}, das zur passenden Dornenbestie führt.}'
 
 L['thorn_laden_heart_note_1'] = 'Plündere ein {item:209860} von einem {npc:Hirsch}, {npc:Säbler} oder {npc:Bär} in {location:Der Smaragdgrüne Traum}.'
 L['thorn_laden_heart_note_2'] = 'Sobald du ein {item:209860} hast, gehe nach {location:Drustvar} in {location:Kul Tiras} zu {npc:140044}.'
@@ -1022,7 +1033,16 @@ L['thorn_bear_note'] = '1. Töte {npc:210977} und benutze das {item:209868} mit 
 
 L['nahqi_note'] = 'Benötigt die {item:211314}, um {npc:210908} mit {spell:1515} zu zähmen.\n\n{npc:210908} fliegt im Himmel um {location:Amirdrassil} {note:gegen den Uhrzeigersinn} seine Runde.\n\n{note:Diese {npc:Geisterbestie} können nur Tierherrschafts-Jäger zähmen.}' -- review Das vom Reittier {item:210061} erhältlich ist
 
-L['sulraka_note'] = 'Patrouilliert das Gebiet östlich von {location:Amirdrassil} {note:gegen den Uhrzeigersinn}.\n\nLässt während des laufens {object:Heavy Tracks} zurück, die 3 Minuten halten.\nLäuft immer in Verstohlenheit, du musst ihn mit deiner Fähigkeit {spell:1543} vor frischen {object:Heavy Tracks} aufdecken.\nZaubere {spell:257284} auf ihn und/oder benutze {spell:187650} und versuche ihn mit {spell:1515} zu zähmen.\n\n{note:Es ist wichtig, ihn aufzudecken oder zu fangen, denn {npc:210868} hört nicht auf sich zu bewegen, selbst wenn er angegriffen wird. Kann aus der Reichweite von {spell:1543} laufen.}\n\n{note:Diese {npc:Geisterbestie} können nur Tierherrschafts-Jäger zähmen.}' -- review Heavy Tracks
+L['sulraka_note'] = 'Patrouilliert das Gebiet östlich von {location:Amirdrassil} {note:gegen den Uhrzeigersinn}.\n\nLässt während des laufens {object:Tiefe Fährten} zurück, die 3 Minuten halten.\nLäuft immer in Verstohlenheit, du musst ihn mit deiner Fähigkeit {spell:1543} vor frischen {object:Tiefe Fährten} aufdecken.\nZaubere {spell:257284} auf ihn und/oder benutze {spell:187650} und versuche ihn mit {spell:1515} zu zähmen.\n\n{note:Es ist wichtig, ihn aufzudecken oder zu fangen, denn {npc:210868} hört nicht auf sich zu bewegen, selbst wenn er angegriffen wird. Kann aus der Reichweite von {spell:1543} laufen.}\n\n{note:Diese {npc:Geisterbestie} können nur Tierherrschafts-Jäger zähmen.}'
+
+L['alarashinu_note'] = '{item:210961}, eine verborgene fel-gefärbte Naturkriegsgleve.\n\n{note:Visueller Spezialeffekt:}\nHast du Alara\'shinu angelegt oder transmogrifiziert, hinterlassen die Folgenden Fähigkeiten eine Spur aus Blumen:\n{spell:195072}\n{spell:189110}\n{spell:198793}.'
+L['alarashinu_note_stage1'] = 'Sprich mit {npc:213029} im {location:Zentrallager} in {location:Der Smaragdgrüne Traum}.'
+L['alarashinu_note_stage2'] = 'Reise zu {location:Der Verlorene Tempel} in {location:Die Verheerte Küste}, um Zeuge der {npc:213114} zu werden.'
+L['alarashinu_note_stage3'] = 'Reise zu {location:Der Tempel von Elune} in {location:Val\'sharah}, um Zeuge einer weiteren {npc:213186} zu werden.'
+L['alarashinu_note_stage4'] = 'Nach der Erinnerung erscheint ein {npc:213248}, der die Kriegsgleve trägt.'
+L['alarashinu_note_stage5'] = 'Erfülle die {npc:213308} mit deiner Teufelsflamme.'
+L['alarashinu_note_stage6'] = 'Plündere die {npc:213381}, um {item:210961} zu erhalten.'
+L['alarashinu_note_end'] = 'Nachdem du die Kriegsgleve erhalten hast und du zurück zu {npc:213029} kehrst, hat er einen Bonusdialog für dich.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
@@ -1243,3 +1263,31 @@ L['wr_dur_foil_01'] = 'Hinter einigen Vorratskisten.'
 
 L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
 L['options_icons_warcraft_rumble_desc'] = 'Zeigt die Position der {object:Rumble-Münzenbeutel} und {object:Rumble-Folientasche} für die {object:Warcraft Rumble} Crossover Promotion.'
+
+-------------------------------------------------------------------------------
+--------------------------------- AMIRDRASSIL ---------------------------------
+-------------------------------------------------------------------------------
+
+L['kaldorei_backpack_label'] = 'Kaldoreirucksack'
+L['kaldorei_bag_label'] = 'Kaldoreitasche'
+L['kaldorei_bedroll_label'] = 'Kaldoreischlafsack'
+L['kaldorei_dagger_label'] = 'Kaldoreidolch'
+L['kaldorei_horn_label'] = 'Kaldoreihorn'
+L['kaldorei_moon_bow_label'] = 'Kaldoreimondbogen'
+L['kaldorei_shield_label'] = 'Kaldoreischild'
+L['kaldorei_spear_label'] = 'Kaldoreispeer'
+L['kaldorei_spyglass_label'] = 'Kaldoreifernrohr'
+
+L['blue_kaldorei_backpack_note'] = 'Auf einer Kiste im Haus.'
+L['blue_kaldorei_bedroll_note'] = 'Hinter dem Tisch vor einem kleinen Felsen.'
+L['blue_kaldorei_pouch_note'] = 'Neben dem Haus auf einem Fass.'
+L['kaldorei_bow_carver_note'] = 'Steckt in der obersten Etage im Tisch in einer Schriftrolle.'
+L['kaldorei_sentinels_spyglass_note'] = 'Auf einer Kiste unter dem Torbogen.'
+L['night_elven_bow_note'] = 'Lehnt in der {location:Hütte von Arlithrien} an einem Waffenständer.'
+L['night_elven_horn_note'] = 'Auf einer Kiste in der obersten Etage des {location:Morgenrötenwachturm}s.'
+L['night_elven_shield_note'] = 'Lehnt an einer Kiste neben dem Tisch.'
+L['night_elven_signal_note'] = 'Hängt oberhalb der Treppe an einer Wasserschale.'
+L['night_elven_spear_note'] = 'Lehnt am Eingang der {location:Scharfschneidenhalle} an einer Säule.'
+L['violet_kaldorei_pouch_note'] = 'Liegt vor den Vasen auf dem Boden.'
+
+L['moon_priestess_lasara_note'] = 'Tausche {currency:2003} gegen Ausrüstungsvorlagen ein.'

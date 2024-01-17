@@ -2645,4 +2645,15 @@ map.nodes[24556089] = ns.node.Node({
     end
 }) -- The Earth-Warder's Forge
 
+-------------------------------- EXPLORER PEPE --------------------------------
+
+map.nodes[47308270] = Collectible({
+    label = L['explorer_pepe_label'],
+    note = L['explorer_pepe_note'],
+    icon = 1044996,
+    rewards = {
+        Item({item = 213202, quest = 79550}) -- A Tiny Explorer's Hat
+    }
+}) -- Explorer Pepe
+
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

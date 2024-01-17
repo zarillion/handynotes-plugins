@@ -166,6 +166,15 @@ L['dreamsurge_sublabel'] = '{note:只在 {location:梦涌} 在此区域处于活
 L['celestine_vendor_note'] = '用 {item:207026} 兑换坐骑，玩具，宠物和幻化装备。'
 L['renewed_magmammoth_note'] = '从 {location:梦涌} 的最终首领收集20个 {item:209419} 并组合起来制造 {item:192807}。'
 
+L['dragon_pepe_label'] = nil
+L['dragon_pepe_note'] = nil
+L['explorer_pepe_label'] = nil
+L['explorer_pepe_note'] = nil
+L['tuskarr_pepe_label'] = nil
+L['tuskarr_pepe_note'] = nil
+
+L['end_of_august'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -610,6 +619,8 @@ L['naszuro_temporal_conflux'] = '在龙雕像的头上。'
 L['revival_catalyst_label'] = '复苏化生'
 L['revival_catalyst_note'] = '将非套装装备转换为同等物品等级和装备槽套装装备。'
 
+L['provisioner_aristta_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -866,8 +877,10 @@ L['fruitface_note'] = '请求 {npc:209950} {dot:Pink} 帮你获得 {spell:421446
 L['greedy_gessie_note'] = '需要收集 {object:野生青菜}，{object:红玉之鳞甜瓜} 和 {object:橙根}，并将其放置在 {npc:210285} 旁的篮子，以开启战斗。'
 L['nuoberon_note'] = '追逐乌龟，对猴子扔食物，或与梦境野兽战斗来帮助 {npc:209101} 做个有趣的梦！'
 L['reefbreaker_moruud_note'] = '利用附近全部6个 {npc:210089} 来攻击 {npc:209898}。'
+L['splinterlimb_note'] = '在叠加8层 {spell:420009} 负面效果后变为敌对。每完成一轮负面效果都会叠加。击杀攻击他的怪物，以便他可以更快地完成轮数。'
 L['surging_lasher_note'] = '当这片区域的 {location:翡翠狂欢} 事件激活时，会在此刷新。'
 L['talthonei_ashwisper_note'] = '击杀周围区域的怪物，直到被击杀的怪物说“我会报仇”后稀有出现。'
+L['talthonei_ashwisper_wq_note'] = '{note:仅在世界任务 {wq:传送门恐慌} 处于活动状态时才能在此出现。}'
 
 L['in_a_tree'] = '在树上。'
 L['inside_building'] = '在建筑里面。'
@@ -991,8 +1004,6 @@ L['options_icons_somnut_desc'] = '显示 {object:眠果} 可能的位置。'
 L['improvised_leafbed_note'] = '完成从 {quest:77896} 起始的任务线，从 {npc:210164} 得到奖励 {item:210864}。'
 L['kalandu_note'] = '完成从 {quest:77948} 起始的任务线，从 {npc:210196} 得到奖励 {item:210633}。'
 
-L['renewed_dream'] = '{note:这里不是一个宝箱！}\n{item:201437} 广泛掉落自 {location:翡翠梦境}。\n5个 {item:201437} 可以合成1个 {item:201439}。'
-
 L['ochre_note'] = '和 {npc:209253} 对话开始任务线，{npc:209571} 会布置接下来的任务。'
 L['ochre_note_stage1'] = '{quest:77677}。{note:生长期5天。}'
 L['ochre_note_stage2'] = '{quest:78398}。{note:生长期5天。}'
@@ -1023,6 +1034,14 @@ L['nahqi_note'] = '要对 {npc:210908} 施放 {spell:1515}，需要 {item:211314
 
 L['sulraka_note'] = '{npc:210868} {npc:<吉布尔之女>} 在 {location:阿梅达希尔} 东方以 {note:逆时针} 路线巡游，大约17分钟绕一周。\n它的刷新时间最少30分钟。\n\n当它行进时会在身后留下 {object:笨重的踪迹}，持续3分钟。\n由于一直潜行状态，需要在一个刚刚刷新的 {object:笨重的踪迹} 前面使用 {spell:1543} 来让其显形。\n先施放 {spell:257284} 和（或）{spell:187650}，再尝试 {spell:1515}。\n\n{note:注意：{npc:210868} 即使受到攻击也不会停止前行，所以一定要使用陷阱或照明。否则 {spell:1543} 会在超距后取消施法。}\n\n{note:这是只 {npc:灵魂兽}。只有兽王猎人能驯服。}'
 
+L['alarashinu_note'] = nil
+L['alarashinu_note_stage1'] = nil
+L['alarashinu_note_stage2'] = nil
+L['alarashinu_note_stage3'] = nil
+L['alarashinu_note_stage4'] = nil
+L['alarashinu_note_stage5'] = nil
+L['alarashinu_note_stage6'] = nil
+L['alarashinu_note_end'] = nil
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
@@ -1242,3 +1261,31 @@ L['wr_dur_foil_01'] = '在一些补给箱后面。'
 
 L['options_icons_warcraft_rumble'] = '魔兽游戏机'
 L['options_icons_warcraft_rumble_desc'] = '显示 {object:魔兽游戏币袋} 和 {object:魔兽游戏箔纸袋} 的位置以进行 {object:魔兽游戏机} 跨界促销。'
+
+-------------------------------------------------------------------------------
+--------------------------------- AMIRDRASSIL ---------------------------------
+-------------------------------------------------------------------------------
+
+L['kaldorei_backpack_label'] = nil
+L['kaldorei_bag_label'] = nil
+L['kaldorei_bedroll_label'] = nil
+L['kaldorei_dagger_label'] = nil
+L['kaldorei_horn_label'] = nil
+L['kaldorei_moon_bow_label'] = nil
+L['kaldorei_shield_label'] = nil
+L['kaldorei_spear_label'] = nil
+L['kaldorei_spyglass_label'] = nil
+
+L['blue_kaldorei_backpack_note'] = nil
+L['blue_kaldorei_bedroll_note'] = nil
+L['blue_kaldorei_pouch_note'] = nil
+L['kaldorei_bow_carver_note'] = nil
+L['kaldorei_sentinels_spyglass_note'] = nil
+L['night_elven_bow_note'] = nil
+L['night_elven_horn_note'] = nil
+L['night_elven_shield_note'] = nil
+L['night_elven_signal_note'] = nil
+L['night_elven_spear_note'] = nil
+L['violet_kaldorei_pouch_note'] = nil
+
+L['moon_priestess_lasara_note'] = nil

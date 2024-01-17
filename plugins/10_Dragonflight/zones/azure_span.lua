@@ -12,6 +12,7 @@ local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
+local Vendor = ns.node.Vendor
 
 local AncientStone = ns.node.AncientStone
 local Disturbeddirt = ns.node.Disturbeddirt
@@ -1991,9 +1992,8 @@ map.nodes[12404920] = NPC({
     }
 }) -- Elder Poa (Iskaara Tuskarr Reputation)
 
-local Kazzi = Class('Kazzi', Collectible, {
+local Kazzi = Class('Kazzi', Vendor, {
     id = 201105,
-    icon = 1535070,
     requires = {ns.requirement.Quest(72547)}, -- Academic Acquisitions
     rewards = {
         Toy({item = 202283, note = L['rep_revered']}), -- Reading Glasses
@@ -2166,5 +2166,58 @@ map.nodes[55693044] = Node({
 
 map.nodes[45603972] = ns.node.Celestine()
 map.nodes[32663964] = ns.node.RenewedMagmammoth()
+
+-------------------------------- TUSKARR PEPE ---------------------------------
+
+map.nodes[12904860] = Collectible({
+    label = L['tuskarr_pepe_label'],
+    note = L['tuskarr_pepe_note'],
+    icon = 1044996,
+    rewards = {
+        Item({item = 213207, quest = 79551}) -- A Tiny Ear Warmer
+    }
+}) -- Tuskarr Pepe
+
+-------------------------------------------------------------------------------
+--------------------------------- THE BIG DIG ---------------------------------
+-------------------------------------------------------------------------------
+
+local Eadweard = Class('Eadweard', Collectible, {
+    label = '{npc:209134}',
+    icon = 5315246,
+    rewards = {
+        Achievement({
+            id = 19790,
+            criteria = {
+                65402, -- Tenured Archivist
+                65398, -- When a Rock is Just a Rock
+                65403, -- Goggle Wobble
+                65399, -- Clued In
+                65400, -- Relic Rescuer
+                65401, -- Tome Comber
+                65420, -- Finally At Rest
+                65421 -- Just One More Thing
+            }
+        }), -- The Archives Called, You Answered
+        Transmog({item = 212692, slot = L['cosmetic']}), -- Excavator's Dusky Fedora
+        Transmog({item = 212638, slot = L['cosmetic']}), -- Excavator's Work Shirt
+        Transmog({item = 212793, slot = L['cosmetic']}), -- Excavator's Pack of Findings
+        Transmog({item = 212640, slot = L['cosmetic']}), -- Excavator's Trusty Satchel
+        Transmog({item = 212641, slot = L['cosmetic']}), -- Excavator's Rugged Pants
+        Transmog({item = 212639, slot = L['cosmetic']}), -- Excavator's Glovelettes
+        Transmog({item = 212642, slot = L['cosmetic']}), -- Excavator's Boots
+        Spacer(), --
+        Section('{item:213177}'), --
+        Mount({item = 212645, id = 2038}) -- Clayscale Hornstrider
+    }
+}) -- Eadweard Dalyngrigge
+
+function Eadweard.getters:rlabel()
+    local completed = C_QuestLog.IsQuestFlaggedCompleted(79226)
+    local color = completed and ns.status.Green or ns.status.Gray
+    return color(L['weekly'])
+end
+
+map.nodes[26964646] = Eadweard()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

@@ -11,6 +11,7 @@ local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
+local Vendor = ns.node.Vendor
 
 local AncientStone = ns.node.AncientStone
 local Disturbeddirt = ns.node.Disturbeddirt
@@ -33,11 +34,13 @@ local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
 
 local Achievement = ns.reward.Achievement
+local Appearance = ns.reward.Appearance
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -1549,30 +1552,6 @@ tpf.nodes[57404187] = ElementalStorm({
     areaPOIs = {7241, 7242, 7243, 7244}
 }) -- Elemental Storm: Primalist Tomorrow
 
--- ELEMENTAL STORM VENDOR -----------------------------------------------------
-
-local Mythressa = Class('Mythressa', Collectible, {
-    id = 196516,
-    icon = 538566,
-    group = ns.groups.ELEMENTAL_STORM,
-    parent = map.id,
-    rewards = {
-        Achievement({id = 16502}), -- Storming the Runway
-        Pet({item = 200173, id = 3287, count = 1000}), -- Ghostflame
-        Pet({item = 200114, id = 3382, count = 1000}), -- Stormie
-        Mount({item = 192775, id = 1622, count = 2000}) -- Stormhide Salamanther
-    }
-}) -- Mythressa <Apprentice Primal Researcher>
-
-function Mythressa.getters:note()
-    local noteStart = L['elemental_storm_mythressa_note_start']
-    local currency = C_CurrencyInfo.GetCurrencyInfo(2118).quantity -- Elemental Overflow
-    local noteEnd = format(L['elemental_storm_mythressa_note_end'], currency)
-    return noteStart .. '\n\n' .. noteEnd
-end
-
-val.nodes[38113773] = Mythressa()
-
 -------------------------------------------------------------------------------
 ------------------------------ ELUSIVE CREATURES ------------------------------
 -------------------------------------------------------------------------------
@@ -1653,6 +1632,87 @@ val.nodes[57048156] = AncientStone({
 ------------------------------------------------------------------------------
 
 map.nodes[51134337] = ns.node.Celestine()
+
+-------------------------------------------------------------------------------
+----------------------------------- VENDORS -----------------------------------
+-------------------------------------------------------------------------------
+
+local Mythressa = Class('Mythressa', Vendor, {
+    id = 196516,
+    parent = map.id,
+    rewards = {
+        Achievement({id = 16502}), -- Storming the Runway
+        Pet({item = 200173, id = 3287, count = 1000}), -- Ghostflame
+        Pet({item = 200114, id = 3382, count = 1000}), -- Stormie
+        Mount({item = 192775, id = 1622, count = 2000}) -- Stormhide Salamanther
+    }
+}) -- Mythressa <Apprentice Primal Researcher>
+
+function Mythressa.getters:note()
+    local noteStart = L['elemental_storm_mythressa_note_start']
+    local currency = C_CurrencyInfo.GetCurrencyInfo(2118).quantity -- Elemental Overflow
+    local noteEnd = format(L['elemental_storm_mythressa_note_end'], currency)
+    return noteStart .. '\n\n' .. noteEnd
+end
+
+val.nodes[38113773] = Mythressa()
+
+local Brendormi = Class('Brendormi', Vendor, {
+    id = 199425,
+    rewards = {
+        Toy({item = 202020}), -- Chasing Storm
+        Pet({item = 193855, id = 3334}), -- Time-Lost Vorquin
+        Mount({item = 192800, id = 1478}) -- Skyskin Hornstrider
+    }
+}) -- Brendormi <Field Primal Researcher>
+
+function Brendormi.getters:note()
+    local item = GetItemCount(202039, true) -- Essence of the Storm
+    local currency = C_CurrencyInfo.GetCurrencyInfo(2118).quantity -- Elemental Overflow
+    local note = L['brendormi_note_start'] .. '\n\n'
+    note = note .. format(L['brendormi_note_item'], item) .. '\n'
+    note = note .. format(L['brendormi_note_currency'], currency) .. '\n'
+    return note
+end
+
+tpf.nodes[61244679] = Brendormi()
+
+map.nodes[61373139] = Vendor({
+    id = 209192,
+    note = L['provisioner_aristta_note'],
+    rewards = {
+        Mount({item = 192796, id = 1638, count = 20000}), -- Explorer's Stonehide Packbeast
+        Spacer(), --
+        Transmog({item = 208456, slot = L['cosmetic'], count = 15000}), -- Archivist's Elegant Bag
+        Transmog({item = 212794, slot = L['cosmetic'], count = 15000}), -- Historian's Hefty Habersack
+        Transmog({item = 208452, slot = L['cosmetic'], count = 15000}), -- Historian's Dapper Cap
+        Transmog({item = 208547, slot = L['cosmetic'], count = 12000}), -- Archivist's Reading Spectacles
+        Transmog({item = 208546, slot = L['cosmetic'], count = 12000}), -- Archivist's Rose-Tinted Glasses
+        Transmog({item = 212637, slot = L['cosmetic'], count = 7000}), -- Historian's Striders
+        Transmog({item = 212636, slot = L['cosmetic'], count = 7000}), -- Historian's Trousers
+        Transmog({item = 212635, slot = L['cosmetic'], count = 5000}), -- Historian's Utility Belt
+        Transmog({item = 212634, slot = L['cosmetic'], count = 5000}), -- Historian's Fingerless Gloves
+        Transmog({item = 212633, slot = L['cosmetic'], count = 5000}), -- Historian's Fitted Vest
+        Spacer(), --
+        Transmog({item = 208458, slot = L['offhand'], count = 10000}), -- Archivist's Extravagant Lantern
+        Transmog({item = 208450, slot = L['offhand'], count = 10000}), -- Coiled Archivist's Rope
+        Transmog({item = 213276, slot = L['1h_mace'], count = 10000}), -- Archivist's Magnifying Mace
+        Transmog({item = 208455, slot = L['1h_mace'], count = 10000}), -- Archivist's Sturdy Hook
+        Transmog({item = 208453, slot = L['1h_mace'], count = 10000}), -- Archivist's Super Scooper
+        Transmog({item = 213275, slot = L['1h_sword'], count = 10000}), -- Archivist's Rockpuller
+        Transmog({item = 208454, slot = L['1h_axe'], count = 10000}), -- Archivist's Mining Pick
+        Transmog({item = 212870, slot = L['dagger'], count = 10000}), -- Archivist's Stone Chisel
+        Transmog({item = 213274, slot = L['staff'], count = 10000}), -- Archivist's Pathfinder
+        Transmog({item = 208459, slot = L['2h_mace'], count = 10000}), -- Archivist's Improvised Cudgel
+        Transmog({item = 208457, slot = L['2h_mace'], count = 10000}), -- Archivist's Spelunking Torch
+        Transmog({
+            item = 212941,
+            slot = L['gun'],
+            count = 10000,
+            note = _G.ITEM_ACCOUNTBOUND
+        }) -- Archivist's "Light Touch"
+    }
+}) -- Provisioner Aristta
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
@@ -1793,27 +1853,6 @@ val.nodes[35182459] = NPC({
     parent = map.id
 }) -- Lillian Brightmoon (Dragonscale Expedition Reputation)
 
-local Brendormi = Class('Brendormi', Collectible, {
-    id = 199425,
-    icon = 135990,
-    rewards = {
-        Toy({item = 202020}), -- Chasing Storm
-        Pet({item = 193855, id = 3334}), -- Time-Lost Vorquin
-        Mount({item = 192800, id = 1478}) -- Skyskin Hornstrider
-    }
-}) -- Brendormi <Field Primal Researcher>
-
-function Brendormi.getters:note()
-    local item = GetItemCount(202039, true) -- Essence of the Storm
-    local currency = C_CurrencyInfo.GetCurrencyInfo(2118).quantity -- Elemental Overflow
-    local note = L['brendormi_note_start'] .. '\n\n'
-    note = note .. format(L['brendormi_note_item'], item) .. '\n'
-    note = note .. format(L['brendormi_note_currency'], currency) .. '\n'
-    return note
-end
-
-tpf.nodes[61244679] = Brendormi()
-
 ---------------------------- SPECIAL WORKING TABLE-----------------------------
 
 map.nodes[60918021] = ns.node.Node({
@@ -1834,5 +1873,117 @@ val.nodes[62685732] = ns.node.Node({
     icon = 'portal_gn',
     scale = 2.0
 })
+
+--------------------------------- DRAGON PEPE ---------------------------------
+
+val.nodes[50505290] = Collectible({
+    label = L['dragon_pepe_label'],
+    note = L['dragon_pepe_note'],
+    icon = 1044996,
+    rewards = {
+        Item({item = 213181, quest = 79547}) -- A Tiny Dragon Goblet
+    }
+}) -- Dragon Pepe
+
+----------------------------- PROVISIONER ARISTTA -----------------------------
+
+map.nodes[61373139] = Collectible({
+    label = '{npc:209192}',
+    icon = 'peg_bl',
+    scale = 2.0,
+    note = L['provisioner_aristta_note'],
+    rewards = {
+        Mount({item = 192796, id = 1638, count = 20000}), -- Explorer's Stonehide Packbeast
+        Spacer(), --
+        Transmog({item = 208456, slot = L['cosmetic'], count = 15000}), -- Archivist's Elegant Bag
+        Transmog({item = 212794, slot = L['cosmetic'], count = 15000}), -- Historian's Hefty Habersack
+        Transmog({item = 208452, slot = L['cosmetic'], count = 15000}), -- Historian's Dapper Cap
+        Transmog({item = 208547, slot = L['cosmetic'], count = 12000}), -- Archivist's Reading Spectacles
+        Transmog({item = 208546, slot = L['cosmetic'], count = 12000}), -- Archivist's Rose-Tinted Glasses
+        Transmog({item = 212637, slot = L['cosmetic'], count = 7000}), -- Historian's Striders
+        Transmog({item = 212636, slot = L['cosmetic'], count = 7000}), -- Historian's Trousers
+        Transmog({item = 212635, slot = L['cosmetic'], count = 5000}), -- Historian's Utility Belt
+        Transmog({item = 212634, slot = L['cosmetic'], count = 5000}), -- Historian's Fingerless Gloves
+        Transmog({item = 212633, slot = L['cosmetic'], count = 5000}), -- Historian's Fitted Vest
+        Spacer(), --
+        Transmog({item = 208458, slot = L['offhand'], count = 10000}), -- Archivist's Extravagant Lantern
+        Transmog({item = 208450, slot = L['offhand'], count = 10000}), -- Coiled Archivist's Rope
+        Transmog({item = 213276, slot = L['1h_mace'], count = 10000}), -- Archivist's Magnifying Mace
+        Transmog({item = 208455, slot = L['1h_mace'], count = 10000}), -- Archivist's Sturdy Hook
+        Transmog({item = 208453, slot = L['1h_mace'], count = 10000}), -- Archivist's Super Scooper
+        Transmog({item = 213275, slot = L['1h_sword'], count = 10000}), -- Archivist's Rockpuller
+        Transmog({item = 208454, slot = L['1h_axe'], count = 10000}), -- Archivist's Mining Pick
+        Transmog({item = 212870, slot = L['dagger'], count = 10000}), -- Archivist's Stone Chisel
+        Transmog({item = 213274, slot = L['staff'], count = 10000}), -- Archivist's Pathfinder
+        Transmog({item = 208459, slot = L['2h_mace'], count = 10000}), -- Archivist's Improvised Cudgel
+        Transmog({item = 208457, slot = L['2h_mace'], count = 10000}), -- Archivist's Spelunking Torch
+        Transmog({
+            item = 212941,
+            slot = L['gun'],
+            count = 10000,
+            note = _G.ITEM_ACCOUNTBOUND
+        }) -- Archivist's "Light Touch"
+    }
+}) -- Provisioner Aristta
+
+--------------------------------- Ms. Xiulan ----------------------------------
+
+local Xiulan = Class('Xiulan', Collectible, {
+    label = '{npc:189644}',
+    icon = 'peg_bl',
+    scale = 2.0,
+    parent = map.id,
+    note = L['end_of_august'],
+    rewards = {
+        Mount({item = 211084, id = 1944, count = 1200000}), -- Gold Resonating Crystal
+        Spacer(), --
+        Appearance({item = 211300, count = 200000}), -- Arsenal: Whispering Temple Blades
+        Transmog({
+            item = 211099,
+            type = L['shield'],
+            note = L['cosmetic'],
+            count = 100000
+        }), -- Gilded Scarab Bulwark
+        Transmog({
+            item = 211096,
+            type = L['gun'],
+            note = L['cosmetic'],
+            count = 100000
+        }), -- Gold-Plated Witchhunter's Carbine
+        Transmog({
+            item = 211294,
+            type = L['polearm'],
+            note = L['cosmetic'],
+            count = 100000
+        }), -- Marauder King's Body Carver
+        Transmog({
+            item = 211097,
+            type = L['2h_axe'],
+            note = L['cosmetic'],
+            count = 90000
+        }), -- Gilded Crown Splitter
+        Transmog({
+            item = 211159,
+            type = L['shield'],
+            note = L['cosmetic'],
+            count = 80000
+        }), -- Royal Witch Doctor's Guard
+        Transmog({
+            item = 211145,
+            type = L['cloak'],
+            note = L['cosmetic'],
+            count = 80000
+        }), -- Royal Witch Doctor's Trophies
+        Transmog({
+            item = 211295,
+            type = L['plate'],
+            note = L['cosmetic'],
+            count = 75000
+        }), -- Wrathful Crusader's Helm
+        Transmog({item = 211259, note = L['cosmetic'], count = 75000}) -- Regal Gryphon Rider's Headgear
+    }
+}) -- Ms. Xiulan <Madam Goya's Assistant>
+
+val.nodes[19215029] = Xiulan()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

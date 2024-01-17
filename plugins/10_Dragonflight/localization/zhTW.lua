@@ -145,26 +145,35 @@ L['options_icons_frostbound_chest'] = '霜縛寶箱'
 L['options_icons_frostbound_chest_desc'] = '顯示 {object:霜縛寶箱} 可能的位置.'
 
 L['fyrakk_assault_label'] = '菲拉卡突襲'
-L['fyrakk_secured_shipment'] = nil
+L['fyrakk_secured_shipment'] = '封住的貨箱'
 
-L['shadowflame_forge_label'] = nil
-L['shadowflame_forge_note'] = nil
-L['shadowflame_blacksmithing_anvil_label'] = nil
-L['shadowflame_blacksmithing_anvil_note'] = nil
-L['shadowflame_leatherworking_table_label'] = nil
-L['shadowflame_leatherworking_table_note'] = nil
-L['shadowflame_incantation_table_label'] = nil
-L['shadowflame_incantation_table_note'] = nil
-L['azure_loom_label'] = nil
-L['azure_loom_note'] = nil
-L['temporal_loom_label'] = nil
-L['temporal_loom_note'] = nil
-L['earthwarders_forge_label'] = nil
-L['earthwarders_forge_note'] = nil
+L['shadowflame_forge_label'] = '暗焰熔爐'
+L['shadowflame_forge_note'] = '當製造以下圖樣時需要:\n{spell:408282}'
+L['shadowflame_blacksmithing_anvil_label'] = '暗焰鍛造鐵砧'
+L['shadowflame_blacksmithing_anvil_note'] = '當製造以下圖樣時需要:\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
+L['shadowflame_leatherworking_table_label'] = '暗焰製皮工作臺'
+L['shadowflame_leatherworking_table_note'] = '當製造以下圖樣時需要:\n{spell:406275}'
+L['shadowflame_incantation_table_label'] = '暗焰附魔桌'
+L['shadowflame_incantation_table_note'] = '當製造以下圖樣時需要:\n{spell:405076}'
+L['azure_loom_label'] = '蒼藍織布機'
+L['azure_loom_note'] = '當製造以下圖樣時需要:\n{spell:376556}'
+L['temporal_loom_label'] = '時光織布機'
+L['temporal_loom_note'] = '當製造以下圖樣時需要:\n{spell:376557}'
+L['earthwarders_forge_label'] = '大地守護者的熔爐'
+L['earthwarders_forge_note'] = '當製造以下圖樣時需要:\n{spell:367713}'
 
 L['dreamsurge_sublabel'] = '{note:只有在 {location:夢境湧現} 在此區域生效時會出現.}'
 L['celestine_vendor_note'] = '使用 {item:207026} 交換坐騎, 玩具, 寵物和塑形.'
 L['renewed_magmammoth_note'] = '從 {location:夢境湧現} 最後的首領收集20個 {item:209419} 來組合成 {item:192807}.'
+
+L['dragon_pepe_label'] = nil
+L['dragon_pepe_note'] = nil
+L['explorer_pepe_label'] = nil
+L['explorer_pepe_note'] = nil
+L['tuskarr_pepe_label'] = nil
+L['tuskarr_pepe_note'] = nil
+
+L['end_of_august'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -549,7 +558,7 @@ L['pt_jewel_painters_pretty_jewel_note'] = '在燈座內.'
 L['pt_leath_decayed_scales_note'] = '在一個袋子裡.'
 L['pt_script_counterfeit_darkmoon_deck_note'] = '和 {npc:194856} 講話並幫助她整理散落在他腳邊的 {object:風暴套卡}. 依照順序點選卡片 (1到8) 之後和她交談來取得套卡.'
 L['pt_script_forgetful_apprentices_tome_note'] = '在桌上一個大圓規旁.'
-L['pt_script_forgetful_apprentices_tome_algethera_note'] = nil
+L['pt_script_forgetful_apprentices_tome_algethera_note'] = '點選 {object:可疑的徽記} 來取得增益 {spell:384818}. 穿過橋梁並從 {npc:194880} 拾取 {item:198672} 並將其帶回徽記處.'
 L['pt_script_how_to_train_your_whelpling_note'] = '躺在沙盒內的一本小綠書.'
 L['pt_smith_draconic_flux_note'] = '在一棟建築內.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = '點選 {object:古老的龍紡織布機} 來完成一個小遊戲把線捲連到中間的寶石.'
@@ -609,6 +618,8 @@ L['naszuro_temporal_conflux'] = '在龍雕像的頭上.'
 
 L['revival_catalyst_label'] = '重生育籃控制臺'
 L['revival_catalyst_note'] = '將非套裝裝備轉換為對應裝等語部位的套裝部件.'
+
+L['provisioner_aristta_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -815,7 +826,7 @@ L['options_icons_ritual_offering_desc'] = '顯示 {object:儀式祭品} 可能�
 L['nal_kskol_reliquary_label'] = '納克斯科聖匣'
 L['nal_kskol_reliquary_note'] = '使用 {object:聖匣存取控制臺} 並解開謎題來開啟 {object:納克斯科聖匣}.'
 
-L['busted_wyrmhole_generator_note'] = nil
+L['busted_wyrmhole_generator_note'] = '{item:205954} 也是拾取自 {object:壞掉的龍洞產生器}.\n使用後會從 {item:198156} 解鎖 {location:扎拉萊克洞窟} 的龍洞選項.'
 L['molten_scoutbot_note'] = '開啟 {object:熔火偵查機器人} 並拾取 {item:204855}.'
 L['bolts_and_brass_note'] = '開啟 {object:螺栓與黃銅} 並拾取 {item:204850}.'
 
@@ -866,8 +877,10 @@ L['fruitface_note'] = '提供 {npc:209950} {dot:Pink} 幫助來取得 {spell:421
 L['greedy_gessie_note'] = '你需要從附近區域收集 {object:野生蔬菜}, {object:晶紅鱗甜瓜} 和 {object:橘根} 並將它們放到 {npc:210285} 附近的籃子內來開啟戰鬥'
 L['nuoberon_note'] = '追逐猴子, 丟食物給猴子, 或是和夢境怪獸戰鬥來幫助 {npc:209101} 有個愉快的夢!'
 L['reefbreaker_moruud_note'] = '將附近的6個 {npc:210089} 連到 {npc:209898} 身上後才可攻擊他.'
+L['splinterlimb_note'] = '在8層 {spell:420009} 減益後會變為敵對. 每一輪後會堆疊一層. 擊殺攻擊他的怪物可以讓他快點完成每輪.'
 L['surging_lasher_note'] = '在此區域有 {location:翡翠狂亂} 事件時會重生.'
 L['talthonei_ashwisper_note'] = '在附近的區域擊殺怪物直到被殺的怪物說"我會復仇的"來刷新稀有.'
+L['talthonei_ashwisper_wq_note'] = '{note:只有在世界任務 {wq:Portal Panic} 處於啟動時才會在此刷新.}'
 
 L['in_a_tree'] = '在一棵樹上.'
 L['inside_building'] = '在建築內.'
@@ -972,7 +985,7 @@ L['prismatic_location'] = '在團本 {location:『夢境希望』埃達希爾} �
 L['prismatic_note_1'] = '1. 從 {location:泉湧中庭} 的水池釣 10隻 {item:210782}.'
 L['prismatic_note_2'] = '2. 從 {location:灼烈大廳} 的熔岩池釣 10隻 {item:210783}.'
 L['prismatic_note_3'] = '3. 將總共20隻魚丟到 {location:泉湧中庭} 內最大的水池來取得30分鐘的增益 {spell:427145}.'
-L['prismatic_note_4'] = '4. 在 {location:泉湧中庭} 的 {object:Prismatic Whiskerfish} 魚群釣魚直到釣到 {item:210784}.'
+L['prismatic_note_4'] = '4. 在 {location:泉湧中庭} 的 {object:稜彩鰓鬚魚水池} 魚群釣魚直到釣到 {item:210784}.'
 L['prismatic_note_5'] = '5. 在 {location:泉湧中庭} 釋放 {npc:希納} 回到水中來取得 {item:210753}.'
 
 L['options_icons_druid_glyph'] = '德魯伊印記'
@@ -991,8 +1004,6 @@ L['options_icons_somnut_desc'] = '顯示 {object:小睡夢果} 可能的位置.'
 L['improvised_leafbed_note'] = '完成從 {quest:77896} 開始的任務鍊來從 {npc:210164} 取得 {item:210864}.'
 L['kalandu_note'] = '完成從 {quest:77948} 開始的任務鍊以從 {npc:210196} 取得 {item:210633}.'
 
-L['renewed_dream'] = '{note:這裡沒有寶藏!}\n全 {location:翡翠夢境} 都會掉落 {item:201437}\n組合 5個 {item:201437} 來復原成 {item:201439}.'
-
 L['ochre_note'] = '和 {npc:209253} 交談來開始任務線. {npc:209571} 會提供下個階段'
 L['ochre_note_stage1'] = '{quest:77677}. {note:成長期5天.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:成長期5天.}'
@@ -1006,7 +1017,7 @@ L['thorn_beast_bear'] = '{item:%d} ({npc:熊})'
 
 L['thornbeast_disclaimer'] = '{note:提醒, 每種野獸類型有獨特的 {item:%s} 並且會對應到相對的荊棘野獸.}'
 
-L['thorn_laden_heart_note_1'] = '從 {location:翡翠夢境} 裡的任意 {npc:雄鹿}, {npc:劍齒虎} 或 {npc:熊} 拾取一個 {item:209860}.'
+L['thorn_laden_heart_note_1'] = '從 {location:翡翠夢境} 裡的任意 {npc:雄鹿}, {npc:夢刃豹} 或 {npc:熊} 拾取一個 {item:209860}.'
 L['thorn_laden_heart_note_2'] = '當你有一個 {item:209860} 後, 到 {location:庫爾提拉斯} 的 {location:佐司瓦} 找一隻母鹿 {npc:140044}.'
 
 L['athainne_note_1'] = '{note:{npc:140044} 晚上時會和 {npc:129771} 一起移動, 白天時會在 {locatuon:烏爾法洞穴} 內休息.}\n\n要求 {npc:140044} 使用 {item:209860} 製造 {item:209863}.'
@@ -1015,13 +1026,22 @@ L['athainne_note_2'] = '當你和 {npc:140044} 說話並取得 {item:209863} 後
 L['ulfar_note_1'] = '要求 {npc:149386} 使用 {item:209863} 製造 {item:209866}.'
 L['ulfar_note_2'] = '當你有了 {item:209866}, 回到 {location:翡翠夢境} 找到一個適合轉化儀式的目標.'
 
-L['thorn_stag_note'] = '1. 殺掉 {npc:210976}, 並對著屍體使用 {item:209866}. 雄鹿會重生成 {npc:210984} {npc:<Thornborn Spirit>}.\n\n2. 對牠使用 {spell:1515}.\n\n3. {npc:210984} 有三種顏色: 黑色, 棕色, 和綠色.'
-L['thorn_saber_note'] = '1. 殺掉 {npc:210975}, 並對著屍體使用 {item:209867}. 夜刃豹會重生成 {npc:210981} {npc:<Thornborn Spirit>}.\n\n2. 對牠使用 {spell:1515}.\n\n3. {npc:210981} 有三種顏色: 黑色, 綠色, 和灰白.'
-L['thorn_bear_note'] = '1. 殺掉 {npc:210977}, 並對著屍體使用 {item:209868}. 夜刃豹會重生成 {npc:210988} {npc:<Thornborn Spirit>}.\n\n2. 對牠使用 {spell:1515}.\n\n3. {npc:210981} 有三種顏色: 棕色, 暗色, 和綠色.'
+L['thorn_stag_note'] = '1. 殺掉 {npc:210976}, 並對著屍體使用 {item:209866}. 雄鹿會重生成 {npc:210984} {npc:<棘裔靈魂>}.\n\n2. 對牠使用 {spell:1515}.\n\n3. {npc:210984} 有三種顏色: 黑色, 棕色, 和綠色.'
+L['thorn_saber_note'] = '1. 殺掉 {npc:210975}, 並對著屍體使用 {item:209867}. 夢刃豹會重生成 {npc:210981} {npc:<棘裔靈魂>}.\n\n2. 對牠使用 {spell:1515}.\n\n3. {npc:210981} 有三種顏色: 黑色, 綠色, 和灰白.'
+L['thorn_bear_note'] = '1. 殺掉 {npc:210977}, 並對著屍體使用 {item:209868}. 熊會重生成 {npc:210988} {npc:<棘裔靈魂>}.\n\n2. 對牠使用 {spell:1515}.\n\n3. {npc:210981} 有三種顏色: 棕色, 暗色, 和綠色.'
 
 L['nahqi_note'] = '需要 {item:211314} 才能對 {npc:210908} 使用 {spell:1515}, 這需要從坐騎 {item:210061} 上取得.\n\n{npc:210908}{npc:<Ember of Regrowth>} 在空中 {note:逆時鐘} 繞著 {location:埃達希爾} 飛行, 飛行一周花費17:30.\n最小刷新時間為30分鐘.\n\n{note:牠是{npc:靈獸}. 只有獸王獵可以馴服牠.}'
 
 L['sulraka_note'] = '{npc:210868}{npc:<Daughter of Kimbul>} 以 {note:逆時鐘方向} 在 {location:埃達希爾} 東方的區域巡邏, 花費17分鐘完成一周.\n最小刷新時間為30分鐘.\n\n在移動時會在後方留下會存在3分鐘的 {object:Heavy Tracks}.\n牠會一直潛行移動, 所以你必須要在全新的 {object:Heavy Tracks} 前方使用 {spell:1543} 來揭露牠.\n施放 {spell:257284} 和/或 {spell:187650} 然後再嘗試使用  {spell:1515}.\n\n{note:把牠困住或是揭露牠是很重要的, 因為即使受到攻擊 {npc:210868} 也不會停止移動. 牠可能會跑出 {spell:1543} 的範圍來取消技能.}\n\n{note:牠是{npc:靈獸}. 只有獸王獵可以馴服牠.}'
+
+L['alarashinu_note'] = nil
+L['alarashinu_note_stage1'] = nil
+L['alarashinu_note_stage2'] = nil
+L['alarashinu_note_stage3'] = nil
+L['alarashinu_note_stage4'] = nil
+L['alarashinu_note_stage5'] = nil
+L['alarashinu_note_stage6'] = nil
+L['alarashinu_note_end'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
@@ -1242,3 +1262,31 @@ L['wr_dur_foil_01'] = '在一些補給箱後面.'
 
 L['options_icons_warcraft_rumble'] = '魔獸兵團'
 L['options_icons_warcraft_rumble_desc'] = '顯示為了 {object:魔獸兵團} 跨界促銷的 {object:兵團零錢袋} 和 {object:兵團錫箔包裝袋} 的位置.'
+
+-------------------------------------------------------------------------------
+--------------------------------- AMIRDRASSIL ---------------------------------
+-------------------------------------------------------------------------------
+
+L['kaldorei_backpack_label'] = nil
+L['kaldorei_bag_label'] = nil
+L['kaldorei_bedroll_label'] = nil
+L['kaldorei_dagger_label'] = nil
+L['kaldorei_horn_label'] = nil
+L['kaldorei_moon_bow_label'] = nil
+L['kaldorei_shield_label'] = nil
+L['kaldorei_spear_label'] = nil
+L['kaldorei_spyglass_label'] = nil
+
+L['blue_kaldorei_backpack_note'] = nil
+L['blue_kaldorei_bedroll_note'] = nil
+L['blue_kaldorei_pouch_note'] = nil
+L['kaldorei_bow_carver_note'] = nil
+L['kaldorei_sentinels_spyglass_note'] = nil
+L['night_elven_bow_note'] = nil
+L['night_elven_horn_note'] = nil
+L['night_elven_shield_note'] = nil
+L['night_elven_signal_note'] = nil
+L['night_elven_spear_note'] = nil
+L['violet_kaldorei_pouch_note'] = nil
+
+L['moon_priestess_lasara_note'] = nil

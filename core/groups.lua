@@ -129,5 +129,6 @@ ns.groups = {
         {type = ns.group_types.STANDARD, order = 3}),
     QUEST = Group('quests', 'quest_ay',
         {type = ns.group_types.STANDARD, order = 4}),
-    MISC = Group('misc', 454046, {type = ns.group_types.STANDARD, order = 5})
+    VENDOR = Group('vendors', 'bag', {type = ns.group_types.STANDARD, order = 5}),
+    MISC = Group('misc', 454046, {type = ns.group_types.STANDARD, order = 6})
 }

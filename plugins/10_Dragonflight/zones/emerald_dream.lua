@@ -14,6 +14,7 @@ local NPC = ns.node.NPC
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
+local Vendor = ns.node.Vendor
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -231,7 +232,7 @@ map.nodes[37433171] = Rare({
     pois = {POI({38113211})} -- Entrance
 }) -- Isaqa
 
-map.nodes[40294916] = Rare({
+map.nodes[40685084] = Rare({
     id = 210046,
     quest = 78211,
     rewards = {
@@ -241,7 +242,13 @@ map.nodes[40294916] = Rare({
         Transmog({item = 208336, type = L['mail']}), -- Legguards of the Dreamsaber
         DG.Feral.KeenEyedDreamsaber -- Mark of the Keen-Eyed Dreamsaber
     },
-    pois = {Path({40294916, 39214992, 39535168, 40865209, 40545087, 40294916})}
+    pois = {
+        Path({
+            40685084, 40735079, 40795045, 40644967, 40424961, 39724906,
+            39424984, 39325061, 39505117, 39865164, 40215183, 40615183,
+            40825162, 40655100, 40685084
+        })
+    }
 }) -- Keen-eyed Cian
 
 map.nodes[41107328] = Rare({
@@ -346,6 +353,7 @@ map.nodes[43484697] = Rare({
 map.nodes[61755220] = Rare({
     id = 209365,
     quest = 77863,
+    note = L['splinterlimb_note'],
     rewards = {
         Achievement({id = 19316, criteria = 62935}), -- Adventurer of the Emerald Dream
         Transmog({item = 208361, type = L['staff']}), -- Splinterlimb's Branch
@@ -366,6 +374,7 @@ local SurgingLasher = Class('SurgingLasher', Rare, {
     }
 }) -- Surging Lasher
 
+map.nodes[42413092] = SurgingLasher()
 map.nodes[57015167] = SurgingLasher({vignette = 5859})
 map.nodes[58967188] = SurgingLasher()
 map.nodes[59896202] = SurgingLasher()
@@ -383,9 +392,15 @@ local Talthonei = Class('Talthonei', Rare, {
     }
 }) -- Talthonei Ashwisper
 
+map.nodes[34775492] = Talthonei({sublabel = L['talthonei_ashwisper_wq_note']})
 map.nodes[35132264] = Talthonei()
 map.nodes[36922240] = Talthonei()
+map.nodes[59204360] = Talthonei() -- wowhead
 map.nodes[61426741] = Talthonei()
+map.nodes[61604500] = Talthonei() -- wowhead
+map.nodes[61804140] = Talthonei() -- wowhead
+map.nodes[62805220] = Talthonei() -- wowhead
+map.nodes[62805520] = Talthonei() -- wowhead
 map.nodes[63877009] = Talthonei()
 map.nodes[64446660] = Talthonei()
 
@@ -608,22 +623,6 @@ map.nodes[34105633] = Treasure({
         Path({39715215, 42225630, 41756256, 34105633}) -- Flight path
     }
 }) -- Triflesnatch's Roving Trove
-
--------------------------------------------------------------------------------
-
-map.nodes[74002700] = Treasure({
-    icon = 1394946,
-    label = '{item:201439}',
-    note = L['renewed_dream'],
-    scale = 1.5,
-    rewards = {
-        Item({item = 208066}), -- Small Dreamseed
-        Item({item = 208067}), -- Plump Dreamseed
-        DC.GrottoNetherwingDrake.TripleSpikedCrest, --
-        DC.GrottoNetherwingDrake.ShortHorns, --
-        DC.GrottoNetherwingDrake.BarbedTail
-    }
-}) -- Renewed Dream
 
 -------------------------------------------------------------------------------
 
@@ -859,22 +858,25 @@ map.nodes[35756700] = MoonkinHatchling({
 
 map.nodes[37767327] = MoonkinHatchling({criteriaID = 62784}) -- Hops
 
-map.nodes[35566976] = MoonkinHatchling({
+map.nodes[35686969] = MoonkinHatchling({
     criteriaID = 62783,
     location = L['in_small_cave']
 }) -- Meep
 
-map.nodes[36116968] = MoonkinHatchling({criteriaID = 62787}) -- Moonbeam
+map.nodes[35656941] = MoonkinHatchling({
+    criteriaID = 62787,
+    location = L['in_small_cave']
+}) -- Moonbeam
 
 map.nodes[37427231] = MoonkinHatchling({criteriaID = 62782}) -- Owlington
 
-map.nodes[38046901] = MoonkinHatchling({
+map.nodes[37846926] = MoonkinHatchling({
     criteriaID = 62777,
     location = L['in_small_cave'],
     pois = {POI({37526855})} -- Entrance
 }) -- Peanut
 
-map.nodes[40407150] = MoonkinHatchling({
+map.nodes[40317156] = MoonkinHatchling({
     criteriaID = 62778,
     location = L['in_cave'],
     pois = {POI({38817158})} -- Entrance
@@ -885,7 +887,7 @@ map.nodes[36357161] = MoonkinHatchling({
     pois = {POI({36147092})} -- Entrance
 }) -- Squawkle
 
-map.nodes[38446930] = MoonkinHatchling({
+map.nodes[38446932] = MoonkinHatchling({
     criteriaID = 62786,
     location = L['in_cave'],
     pois = {POI({37536964})} -- Entrance
@@ -897,7 +899,7 @@ map.nodes[38757048] = MoonkinHatchling({
     pois = {POI({37536964})} -- Entrance
 }) -- Tickles
 
-map.nodes[37757026] = MoonkinHatchling({
+map.nodes[37777028] = MoonkinHatchling({
     criteriaID = 62781,
     location = L['in_cave'],
     pois = {POI({37536964})} -- Entrance
@@ -1065,11 +1067,6 @@ map.nodes[51555972] = Collectible({
 ----------------------------- FRUIT OF THE BLOOM ------------------------------
 -------------------------------------------------------------------------------
 
--- https://us.forums.blizzard.com/en/wow/t/new-public-events-superbloom-and-emerald-bounty/1674596
--- There will be up to the total of four available Dreamfruit.
--- Each individual Dreamfruit during the Superbloom has its own,
--- unique pool of blessings it can bestow.
-
 local Dreamfruit = Class('Dreamfruit', Collectible, {
     icon = 5390643,
     label = L['dreamfruit_label'],
@@ -1123,22 +1120,22 @@ map.nodes[52847357] = Dreamfruit({
             criteria = {
                 -- 62910, -- Basket of Explosive Acorns
                 -- 62911, -- Bubble Blowgun
-                62912, -- Dream Gatherer
+                -- 62912, -- Dream Gatherer
                 -- 62913, -- Feral Overflow
                 62914, -- Flower Trail
                 -- 62915, -- Lifesurger
-                -- 62916, -- Memory of L'ghorek
+                62916, -- Memory of L'ghorek
                 62917, -- Memory of Ursoc
                 62918, -- Mighty Roar
                 -- 62919, -- Moonkin Jump
                 -- 62920, -- Moonkin Mayhem
                 -- 62921, -- Potent Lullaby
                 -- 62922, -- Putrid Propulsion
-                62923, -- Sack of Talontreats
+                -- 62923, -- Sack of Talontreats
                 62924, -- Star Shower
                 62925, -- The Superb Loom
                 62926, -- Wake Up!
-                -- 63414, -- Nae'dra Nibbles
+                63414, -- Nae'dra Nibbles
                 63415, -- Fae Lens
                 63438 -- Arachnid Annihilation
             }
@@ -1162,19 +1159,19 @@ map.nodes[46276304] = Dreamfruit({
                 -- 62913, -- Feral Overflow
                 62914, -- Flower Trail
                 -- 62915, -- Lifesurger
-                -- 62916, -- Memory of L'ghorek
-                -- 62917, -- Memory of Ursoc
+                62916, -- Memory of L'ghorek
+                62917, -- Memory of Ursoc
                 62918, -- Mighty Roar
                 -- 62919, -- Moonkin Jump
                 -- 62920, -- Moonkin Mayhem
                 -- 62921, -- Potent Lullaby
                 -- 62922, -- Putrid Propulsion
                 -- 62923, -- Sack of Talontreats
-                -- 62924, -- Star Shower
-                -- 62925, -- The Superb Loom
-                -- 62926, -- Wake Up!
-                -- 63414, -- Nae'dra Nibbles
-                -- 63415, -- Fae Lens
+                62924, -- Star Shower
+                62925, -- The Superb Loom
+                62926, -- Wake Up!
+                63414, -- Nae'dra Nibbles
+                63415, -- Fae Lens
                 63438 -- Arachnid Annihilation
             }
         })
@@ -1276,6 +1273,8 @@ map.nodes[34656926] = DruidGlyph({
     pois = {POI({50786208})} -- Cenarius
 }) -- Q'onzu
 
+--------------------- DRUID GLYPH: PRISTMATIC WHISKERFISH ---------------------
+
 local PrismaticWhiskerfish = Class('PrismaticWhiskerfish', DruidGlyph, {
     label = '{item:210753}',
     location = L['prismatic_location'],
@@ -1291,6 +1290,27 @@ function PrismaticWhiskerfish.getters:note()
 end
 
 map.nodes[29703103] = PrismaticWhiskerfish()
+
+local wel = ns.maps[2232] or Map({id = 2232, settings = false}) -- Wellspring Atrium
+
+wel.nodes[50706200] = PrismaticWhiskerfish({
+    pois = {
+        POI({50705700}), -- Fishing location
+        Path({Circle({origin = 50706200, radius = 4})}), -- Fishing pool
+        Path({Circle({origin = 43002000, radius = 3})}) -- The Scorched Hall entrance
+    }
+})
+
+local tsh = ns.maps[2244] or Map({id = 2244, settings = false}) -- The Scorched Hall
+
+tsh.nodes[55006800] = PrismaticWhiskerfish({
+    pois = {
+        Path({Circle({origin = 55005900, radius = 7})}), -- Fishing pool
+        Path({Circle({origin = 78008900, radius = 3})}) -- The Scorched Hall entrance
+    }
+})
+
+----------------------- DRUID GLYPH: SLUMBERING SOMNOWL -----------------------
 
 local SlumberingSomnowl = Class('SlumberingSomnowl', DruidGlyph, {
     label = '{item:210535}',
@@ -1389,7 +1409,7 @@ local EMPTY_VIALS = {
 }
 
 local MoonBlessedClaw = Class('MoonBlessedClaw', DruidGlyph, {
-    quest = 78528,
+    quest = 78521,
     rewards = {DG.Feral.MoonBlessedDreamsaber} -- Moon-Blessed Claw
 })
 
@@ -1436,6 +1456,9 @@ for num, vial in ipairs(EMPTY_VIALS) do
         playerHasItem = {vial.vialFilledID, 210977},
         rewards = {Item({item = vial.vialFilledID, count = '1'})},
         IsCompleted = function(self)
+            if C_QuestLog.IsQuestFlaggedCompleted(78521) then
+                return true
+            end
             if self.playerHasItem then
                 for i, v in ipairs(self.playerHasItem) do
                     if ns.PlayerHasItem(v) then return true end
@@ -1596,14 +1619,20 @@ map.nodes[46607960] = EmeraldDream_Safari({
     }
 }) -- Leyhart
 
-map.nodes[34606240] = EmeraldDream_Safari({
+map.nodes[34316765] = EmeraldDream_Safari({
     requires = ns.requirement.Toy(209944),
     id = 212437,
     rewards = {Achievement({id = 19401, criteria = 63275}), Pet({id = 4302})},
-    pois = {POI({34206760, 34606240, 46603880, 46804820, 58403520, 58603500})}
+    pois = {
+        POI({
+            53606531, 51396661, 51116816, 48366943, 61937615, 34316765,
+            34606225, 35756228, 35855785, 34275534, 35365323, 46614723,
+            46934809, 46653889, 58483511, 60601844
+        })
+    }
 }) -- Pale Slumbertooth
 
-map.nodes[34606240] = EmeraldDream_Safari({
+map.nodes[37203600] = EmeraldDream_Safari({
     id = 211302,
     rewards = {Achievement({id = 19401, criteria = 63276}), Pet({id = 4280})},
     pois = {
@@ -1681,14 +1710,10 @@ map.nodes[58434177] = ElusiveCreature({
 }) -- Elusive Verdant Gladewarden
 
 -------------------------------------------------------------------------------
--------------------------------- MISCELLANEOUS --------------------------------
+----------------------------------- VENDORS -----------------------------------
 -------------------------------------------------------------------------------
 
------------------------------- VENDOR: SEEDBLOOM ------------------------------
-
-local SeedbloomVendor = Class('SeedbloomVendor', Collectible, {
-    icon = 'peg_bl',
-    scale = 2.0,
+local SeedbloomVendor = Class('SeedbloomVendor', Vendor, {
     note = L['sylvia_vendor_note'],
     rewards = {
         DG.Travel.BorealDreamtalon:Count('1'), --
@@ -1716,12 +1741,8 @@ local SeedbloomVendor = Class('SeedbloomVendor', Collectible, {
 map.nodes[59761689] = SeedbloomVendor({id = 211265}) -- Sylvia Whisperbloom <Dreamseed Botanist>
 map.nodes[49776211] = SeedbloomVendor({id = 212797}) -- Talisa Whisperbloom <Dreamseed Botanist>
 
----------------------------- VENDOR: DREAM ENERGY -----------------------------
-
-local Elianna = Class('Elianna', Collectible, {
+local Elianna = Class('Elianna', Vendor, {
     id = 211209,
-    icon = 'peg_bl',
-    scale = 2.0,
     requires = {ns.requirement.Reputation(2574, 5, true)},
     rewards = {
         Pet({item = 210785, id = 4310, count = '1'}), -- Snorr
@@ -1755,6 +1776,10 @@ function Elianna.getters:note()
 end
 
 map.nodes[50226180] = Elianna()
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
 
 --------------------------- TOY: IMPROVISED LEAFBED ---------------------------
 
@@ -1969,3 +1994,32 @@ map.nodes[58305820] = NPC({
         })
     }
 }) -- Sul'raka
+
+-------------------- DEAMON HUNTER WARGLAIVES: ALARA'SHINU --------------------
+
+local Alarashinu = Class('Alarashinu', Collectible, {
+    icon = 5061798,
+    quest = {78606, 78622, 78623, 78660, 78677, 78678}, -- a hidden quest chain
+    questCount = true,
+    class = 'DEMONHUNTER',
+    rewards = {Transmog({item = 210961, type = L['warglaive']})} -- Alara'shinu
+})
+
+function Alarashinu.getters:note()
+    local n = L['alarashinu_note'] .. '\n'
+    n = n .. QuestStatus(self.quest[1], 1, L['alarashinu_note_stage1'], true)
+    n = n .. QuestStatus(self.quest[2], 2, L['alarashinu_note_stage2'], true)
+    n = n .. QuestStatus(self.quest[3], 3, L['alarashinu_note_stage3'], true)
+    n = n .. QuestStatus(self.quest[4], 4, L['alarashinu_note_stage4'], true)
+    n = n .. QuestStatus(self.quest[5], 5, L['alarashinu_note_stage5'], true)
+    n = n .. QuestStatus(self.quest[6], 6, L['alarashinu_note_stage6'], true)
+    return n .. '\n' .. L['alarashinu_note_end']
+end
+
+map.nodes[50536096] = Alarashinu({id = 213029}) -- Landeron Felfury
+
+local brokenshore = ns.maps[646] or Map({id = 646, settings = false})
+brokenshore.nodes[71674147] = Alarashinu({id = 213114}) -- Memory of Landeron Felfury
+
+local valsharah = ns.maps[641] or Map({id = 641, settings = false})
+valsharah.nodes[51185689] = Alarashinu({id = 213186}) -- Memory of Landeron Felfury

@@ -146,26 +146,35 @@ L['options_icons_frostbound_chest'] = 'Скованный льдом сунду�
 L['options_icons_frostbound_chest_desc'] = 'Показать возможные места {object:Скованный льдом сундуков}.'
 
 L['fyrakk_assault_label'] = 'Налеты Фиракка'
-L['fyrakk_secured_shipment'] = nil
+L['fyrakk_secured_shipment'] = 'Защищенные ресурсы'
 
-L['shadowflame_forge_label'] = nil
-L['shadowflame_forge_note'] = nil
-L['shadowflame_blacksmithing_anvil_label'] = nil
-L['shadowflame_blacksmithing_anvil_note'] = nil
-L['shadowflame_leatherworking_table_label'] = nil
-L['shadowflame_leatherworking_table_note'] = nil
-L['shadowflame_incantation_table_label'] = nil
-L['shadowflame_incantation_table_note'] = nil
-L['azure_loom_label'] = nil
-L['azure_loom_note'] = nil
-L['temporal_loom_label'] = nil
-L['temporal_loom_note'] = nil
-L['earthwarders_forge_label'] = nil
-L['earthwarders_forge_note'] = nil
+L['shadowflame_forge_label'] = 'Кузня пламени тьмы'
+L['shadowflame_forge_note'] = 'Требуется при изготовления этого рецепта:\n{spell:408282}'
+L['shadowflame_blacksmithing_anvil_label'] = 'Наковальня кузни пламени тьмы (кузнечное дело)'
+L['shadowflame_blacksmithing_anvil_note'] = 'Требуется при изготовления этого рецепта:\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
+L['shadowflame_leatherworking_table_label'] = 'Стол кузни пламени тьмы (Кожевничество)'
+L['shadowflame_leatherworking_table_note'] = 'Требуется при изготовления этого рецепта:\n{spell:406275}'
+L['shadowflame_incantation_table_label'] = 'Стол кузни пламени тьмы (Наложение чар)'
+L['shadowflame_incantation_table_note'] = 'Требуется при изготовления этого рецепта:\n{spell:405076}'
+L['azure_loom_label'] = 'Лазурный ткацкий станок'
+L['azure_loom_note'] = 'Требуется при изготовления этого рецепта:\n{spell:376556}'
+L['temporal_loom_label'] = 'Временной ткацкий станок'
+L['temporal_loom_note'] = 'Требуется при изготовления этого рецепта:\n{spell:376557}'
+L['earthwarders_forge_label'] = 'Кузница Хранителя Земли'
+L['earthwarders_forge_note'] = 'Требуется при изготовления этого рецепта:\n{spell:367713}'
 
 L['dreamsurge_sublabel'] = '{note:Доступно только в то время как {location:Прилив Снов} активен в этой локации.}'
 L['celestine_vendor_note'] = 'Обмен {item:207026} на средства передвижения, игрушки, питомцев и трансмогрификацию.'
 L['renewed_magmammoth_note'] = 'Соберите 20x {item:209419} с финальных боссов {location:Прилива Снов} и соберите из них {item:192807}.'
+
+L['dragon_pepe_label'] = nil
+L['dragon_pepe_note'] = nil
+L['explorer_pepe_label'] = nil
+L['explorer_pepe_note'] = nil
+L['tuskarr_pepe_label'] = nil
+L['tuskarr_pepe_note'] = nil
+
+L['end_of_august'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -612,6 +621,8 @@ L['naszuro_temporal_conflux'] = 'На голове статуи дракона.'
 L['revival_catalyst_label'] = 'Катализатор возрождения'
 L['revival_catalyst_note'] = 'Преобразование не сетового снаряжения в предмет эквивалентного уровня но сетового качества.'
 
+L['provisioner_aristta_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -816,7 +827,7 @@ L['options_icons_ritual_offering_desc'] = 'Показать возможные �
 L['nal_kskol_reliquary_label'] = 'Реликварий Нал-кс\'кола'
 L['nal_kskol_reliquary_note'] = 'Воспользуйтесь {object:Консолью доступа к реликварию} и решите головоломку, чтобы открыть {object:Реликварий Нал-кс\'кола}.'
 
-L['busted_wyrmhole_generator_note'] = nil
+L['busted_wyrmhole_generator_note'] = '{item:205954} также получите из {object:Сломанный драконий генератор червоточин}.\nПри использовании для разблокировки {location:Пещеры Заралек} вариант червоточины для {item:198156}.'
 L['molten_scoutbot_note'] = 'Откройте {object:Огненный разведобот} и соберите {item:204855}.'
 L['bolts_and_brass_note'] = 'Откройте {object:Болты и латунь} и соберите {item:204850}.'
 
@@ -860,148 +871,161 @@ L['options_icons_zone_event_desc'] = 'Отображение мест для с�
 -------------------------------------------------------------------------------
 
 L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
-L['options_icons_emerald_dream_safari_desc'] = nil
+L['options_icons_emerald_dream_safari_desc'] = 'Показать местонахождение боевых питомцев для достижения {achievement:19401}.'
 
-L['envoy_of_winter_note'] = nil
-L['fruitface_note'] = nil
-L['greedy_gessie_note'] = nil
-L['nuoberon_note'] = nil
-L['reefbreaker_moruud_note'] = nil
-L['surging_lasher_note'] = nil
-L['talthonei_ashwisper_note'] = nil
+L['envoy_of_winter_note'] = 'Соберите {item:208881} и используйте {spell:421658} возле колодца, пока не появиться {npc:209929}.'
+L['fruitface_note'] = 'Предложьте {npc:209950} {dot:Pink} вашу помощь и получите {spell:421446}, затем {item:208837} становятся видимыми на земле. Поднимите его, чтобы позволить {npc:209980} {dot:Yellow} появиться. Атакуйте и следуйте за ним, пока он не прыгнет в воду {dot:Red} и вызывает {npc:209966} и {npc:209913}.'
+L['greedy_gessie_note'] = 'Вам нужно собрать {object:Дикая зелень}, {object:Рубиновая дыня} и {object:Желтокорень} из окрестностей и положите их в корзины рядом с {npc:210285} чтобы вызвать редкого монстра.'
+L['nuoberon_note'] = 'Гоняйтесь за черепахами, бросайте еду в обезьян или сражайтесь с монстрами, чтобы помочь {npc:209101}!'
+L['reefbreaker_moruud_note'] = 'Соедините все 6 близлежащих {npc:210089} чтобы атаковать {npc:209898}.'
+L['splinterlimb_note'] = 'Становится враждебным после 8 стаков дебаффа {spell:420009}. Дебафф суммируется за завершенный раунд. Убейте монстров, которые нападают на него, чтобы он быстрее завершил свой раунд.'
+L['surging_lasher_note'] = 'Может появляться во время {location:Изумрудного бешенства} это событие в этой области.'
+L['talthonei_ashwisper_note'] = 'Убивайте монстров в окрестностях до тех пор, пока убитый монстр не скажет "Я буду отомщен" чтобы породить редкого монстра.'
+L['talthonei_ashwisper_wq_note'] = '{note:Может появиться здесь только в том случае, если локальное задание {wq:Суета у портала} активно.}'
 
-L['in_a_tree'] = nil
-L['inside_building'] = nil
+L['in_a_tree'] = 'На дереве.'
+L['inside_building'] = 'В здании.'
 
-L['hidden_moonkin_stash_label'] = nil
-L['magical_bloom_note'] = nil
-L['pineshrew_cache_note'] = nil
-L['reliquary_of_ashamane_note'] = nil
-L['reliquary_of_aviana_note'] = nil
-L['reliquary_of_goldrinn_note'] = nil
-L['reliquary_of_ursol_note'] = nil
-L['triflesnatchs_roving_trove_note'] = nil
+L['hidden_moonkin_stash_label'] = 'Тайник совухов'
+L['magical_bloom_note'] = 'Бегите за {npc:210544} пока он не откроет сокровище.'
+L['pineshrew_cache_note'] = 'Рядом с несколькими камнями.'
+L['reliquary_of_ashamane_note'] = '{note:Если локальное задание {wq:Огненная тренировка для дриад} активно, вам нужно завершить его, прежде чем вы сможете увидеть сокровище.}\n\nНайдите {object:Метку Пеплошкурой} {dot:Green} поблизости, чтобы получить бафф {spell:425426} и идите к {npc:212009}.'
+L['reliquary_of_aviana_note'] = 'Найдите {object:Метку Авианы} {dot:Green} поблизости, чтобы получить бафф {spell:425432} и идите к {npc:212011}.'
+L['reliquary_of_goldrinn_note'] = 'Найдите {object:Метку Голдринна} {dot:Green} поблизости, чтобы получить бафф {spell:425408} и идите к {npc:212012}.'
+L['reliquary_of_ursol_note'] = 'Найдите {object:Метку Урсола} {dot:Green} поблизости, чтобы получить бафф {spell:423306} и идите к {npc:210732}.'
+L['triflesnatchs_roving_trove_note'] = 'Следуйте за {npc:210060} пока он перелетает с ветки на ветку.'
 
-L['unwaking_echo_label'] = nil
-L['unwaking_echo_note'] = nil
+L['unwaking_echo_label'] = 'Непробуждающийся отголосок'
+L['unwaking_echo_note'] = '{note:Вы можете открыть этот сундук только во сне.}\n\nУсните {emote:/спать} рядом с сундуком, чтобы открыть его.'
 
-L['amirdrassil_defenders_shield_note'] = nil
-L['dreamtalon_claw_note'] = nil
-L['essence_of_dreams_note'] = nil
-L['exceedingly_soft_wildercloth_note'] = nil
-L['experimental_dreamcatcher_note'] = nil
-L['grove_keepers_pillar_note'] = nil
-L['handful_of_pebbles_note'] = nil
-L['molted_faerie_dragon_scales_note'] = nil
-L['petrified_hope_note'] = nil
-L['plush_pillow_note'] = nil
-L['snuggle_buddy_note'] = nil
+L['amirdrassil_defenders_shield_note'] = 'На столе рядом с {npc:211328}.'
+L['dreamtalon_claw_note'] = 'В нижней части ствола дерева.'
+L['essence_of_dreams_note'] = 'Наверху, на плавающей круглой ветке дерева.'
+L['exceedingly_soft_wildercloth_note'] = 'Внутри здания за стулом.'
+L['experimental_dreamcatcher_note'] = 'На плавучем дереве.'
+L['grove_keepers_pillar_note'] = 'Перед входом в пещеру.'
+L['handful_of_pebbles_note'] = 'На правом плече статуи.'
+L['molted_faerie_dragon_scales_note'] = 'На земле в каких-то цветах.'
+L['petrified_hope_note'] = 'Наверху, на пне дерева.'
+L['plush_pillow_note'] = 'Внутри маленькой хижины на столе.'
+L['snuggle_buddy_note'] = 'Внутри маленькой лодки.'
 
-L['dreamseed_soil_label'] = nil
-L['dreamseed_soil_note'] = nil
-L['dreamseed_cache'] = nil
+L['dreamseed_soil_label'] = 'Почва для семени Сна'
+L['dreamseed_soil_note'] = [[
+Качество самого {object:изумрудного цветка} и шансы получить {item:210059} в {object:Сундуке семени Сна} зависит от того, насколько сильно вы вносите свой вклад {currency:2650}.
+
+{item:210224} (Внести {currency:2650} по крайней мере, один раз)
+{item:210225} (Прогресс: 50%)
+{item:210226} (Прогресс: 100%)
+
+Качество внесенного вклада {object:Семя сна} определяет вид вознаграждения:
+{item:208066}: Трансмог или материалы для профессий.
+{item:208067}: Питомцы или материалы для профессий.
+{item:208047}: Средства передвижения или материалы для профессий.
+
+{note:Чтобы ознакомиться со списком наград, взгляните на {npc:211265} на северном острове она также продает большую часть наград.}
+]]
+L['dreamseed_cache'] = 'Сундук семени Сна'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
-L['options_icons_dream_of_seeds_desc'] = nil
-L['the_seeds_i_sow_suffix'] = nil
+L['options_icons_dream_of_seeds_desc'] = 'Отобразить {object:Почву для семени Сна} в локации для {achievement:19013}.'
+L['the_seeds_i_sow_suffix'] = 'семена, внесенные в Изумрудный дар'
 
-L['bloom_man_group_suffix'] = nil
-L['dream_chaser_suffix'] = nil
-L['dreamfruit_label'] = nil
-L['dreamfruit_note_1'] = nil
-L['dreamfruit_note_2'] = nil
-L['options_icons_dreamfruit'] = nil
-L['options_icons_dreamfruit_desc'] = nil
+L['bloom_man_group_suffix'] = 'время использования Дикого прилива'
+L['dream_chaser_suffix'] = 'соберите потерянные сновидения'
+L['dreamfruit_label'] = 'Сонный плод'
+L['dreamfruit_note_1'] = 'Появляется, когда {location:Цветочный Бум} начинается. Событие начинается в начале каждого часа.'
+L['dreamfruit_note_2'] = 'Появляется после первой остановки на событии {location:Цветочный Бум}. Событие начинается в начале каждого часа возле {location:Амирдрассила}.'
+L['options_icons_dreamfruit'] = '{achievement:19310}'
+L['options_icons_dreamfruit_desc'] = 'Показать местоположения Сонных плодов для {achievement:19310}.'
 
-L['options_icons_moonkin_hatchling'] = nil
-L['options_icons_moonkin_hatchling_desc'] = nil
-L['moonkin_hatchling_note'] = nil
+L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
+L['options_icons_moonkin_hatchling_desc'] = 'Отображение местоположения лунных совушков для {achievement:19293}.'
+L['moonkin_hatchling_note'] = 'Требуется активное локальное задание {wq:Укол сомнений}.'
 
-L['druid_glyphs_label'] = nil
-L['druid_glyphs_sublabel'] = nil
-L['druid_glyphs_note'] = nil
+L['druid_glyphs_label'] = 'Символы Друида'
+L['druid_glyphs_sublabel'] = '{note:Это НЕ символ друидов. Просто контрольный список!}'
+L['druid_glyphs_note'] = 'Собирать {note:Символы Друида} от различных активностей в {location:Изумрудном Сне}.'
 
-L['pollenfused_bristlebruin_fur_sample_note'] = nil
+L['pollenfused_bristlebruin_fur_sample_note'] = 'Возьмите {object:Образец шерсти опыленного лохматого косолапа} у подножия дерева на {location:Пепелище}.'
 
-L['mbc_note_start'] = nil
-L['mbc_note_end'] = nil
+L['mbc_note_start'] = 'Откройте {object:Маленькую коробку с флаконами} чтобы получить {item:210991}.\n\nВы получите 6x {item:210839} которые нужно наполнить водой из лунных колодцев с каждого континента.'
+L['mbc_note_end'] = 'Объединить все 6x {item:210876} для создания {item:210977} и принесите эго к {object:Звериному каменю снов} рядом с {location:Амирдрассилом}.\n\nИспользуйте {item:210977} и заберите {object:Благословленный луной коготь} чтобы получить {item:210728}.'
 
-L['mbc_vial_b'] = nil
-L['mbc_vial_d'] = nil
-L['mbc_vial_e'] = nil
-L['mbc_vial_k'] = nil
-L['mbc_vial_n'] = nil
-L['mbc_vial_o'] = nil
+L['mbc_vial_b'] = 'B'
+L['mbc_vial_d'] = 'D'
+L['mbc_vial_e'] = 'E'
+L['mbc_vial_k'] = 'K'
+L['mbc_vial_n'] = 'N'
+L['mbc_vial_o'] = 'O'
 
-L['mbc_vial_d_location'] = nil
+L['mbc_vial_d_location'] = 'Застава Падающих Звезд'
 L['mbc_vial_e_location'] = nil
 L['mbc_vial_k_location'] = nil
-L['mbc_vial_n_location'] = nil
+L['mbc_vial_n_location'] = 'Покой Звезд'
 L['mbc_vial_o_location'] = nil
 
-L['mbc_vial_location'] = nil
+L['mbc_vial_location'] = 'Заполните {item:%d} водой из лунного колодца в {location:%s} в {location:%s} в {location:%s} чтобы получить {item:%d}.'
 
-L['mbc_moonwell_label'] = nil
+L['mbc_moonwell_label'] = 'Лунный колодец'
 L['mbc_feral_dreamstone_label'] = nil
 
-L['azure_somnowl_note'] = nil
+L['azure_somnowl_note'] = 'Завершите короткую цепочку заданий, которая начинается с {quest:78065} у {npc:209318} чтобы получить {item:210645}.'
 
-L['slumbering_somnowl_note_a'] = nil
-L['slumbering_somnowl_note_b'] = nil
-L['slumbering_somnowl_note_c'] = nil
-L['slumbering_somnowl_note_d'] = nil
-L['slumbering_somnowl_note_e'] = nil
+L['slumbering_somnowl_note_a'] = 'Собирите 5x {item:210565} помещая различных {npc:Сплюшек} в сон с помощью {spell:2637} в {location:Изумрудном Сне}.'
+L['slumbering_somnowl_note_b'] = 'Купите 1x {item:4291} у любого торговца хозяйственных товаров.'
+L['slumbering_somnowl_note_c'] = 'Объедините 5x {item:210565} и 1x {item:4291} чтобы создать {item:210566}.'
+L['slumbering_somnowl_note_d'] = 'Соберите 1x {item:194864}.'
+L['slumbering_somnowl_note_e'] = 'Объедините 1x {item:210566} и 1x {item:194864} чтобы создать {item:210535}.'
 
-L['thaelishar_vendor_note'] = nil
-L['silent_mark_label'] = nil
-L['silent_mark_note'] = nil
+L['thaelishar_vendor_note'] = 'Покупайте за золото символы на друида.'
+L['silent_mark_label'] = 'Утесы Пышного Сна'
+L['silent_mark_note'] = 'Нацеливайтесь на нужное животное и направляйте соответствующий предмет до тех пор, пока не появляется {spell:426910}. {note:Вы должны настроиться на более чем 10 животных.}\n\nКанал {item:210764} на {npc:210892}.\n\nКанал {item:210767} на {npc:211347}, {npc:211283}, или {npc:210894}.\n\nКанал {item:210755} на {npc:210594}.\n\nКанал {item:210766} на {npc:209494}, {npc:212028}, или {npc:212024}.'
 
-L['amirdrassil'] = nil
-L['prismatic_location'] = nil
-L['prismatic_note_1'] = nil
-L['prismatic_note_2'] = nil
-L['prismatic_note_3'] = nil
-L['prismatic_note_4'] = nil
-L['prismatic_note_5'] = nil
+L['amirdrassil'] = 'Амирдрассил, Надежда Сна'
+L['prismatic_location'] = 'Внутри рейда {location:Амирдрассил, Надежда Сна}.'
+L['prismatic_note_1'] = '1. Выловите 10x {item:210782} из бассейнов в {location:Родниковом Атриуме}.'
+L['prismatic_note_2'] = '2. Выловите 10x {item:210783} из лавовых бассейнов в {location:Яме Вулкаросса}.'
+L['prismatic_note_3'] = '3. Бросьте все 20 рыб в самый большой бассейн в {location:Родниковом Атриуме} чтобы получить {spell:427145} бафф на 30 минут.'
+L['prismatic_note_4'] = '4. Выловите рыбу из {object:Пруда радужных сомов} в {location:Родниковом Атриуме} пока не поймаете {item:210784}.'
+L['prismatic_note_5'] = '5. Отпустите {npc:Ксену} обратно в воду в {location:Родниковом Атриуме} и получите {item:210753}.'
 
-L['options_icons_druid_glyph'] = nil
-L['options_icons_druid_glyph_desc'] = nil
+L['options_icons_druid_glyph'] = 'Символы Друида'
+L['options_icons_druid_glyph_desc'] = 'Отображение мест для {note:Символов Друида}.'
 
-L['elianna_vendor_note'] = nil
-L['dream_energy_name'] = nil
+L['elianna_vendor_note'] = 'Завершение мероприятий по всему {location:Изумрудному Сну} вознаградит %s (скрытая валюта).\n\nЗаработок 7,000 %s откроет {quest:78598} у {npc:211209} с наградой 1x {currency:2777}.\n\nОбменяйте {currency:2777} на питомцев и средства передвижения.'
+L['dream_energy_name'] = 'Энергия Сна'
 L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
 
-L['sylvia_vendor_note'] = nil
+L['sylvia_vendor_note'] = 'Обменяйте {currency:2651} на питомцев, средства передвижения и трансмогрификацию. Вы также можете получить их из семян сна.'
 
-L['somnut'] = nil
-L['options_icons_somnut'] = nil
-L['options_icons_somnut_desc'] = nil
+L['somnut'] = 'Снорех'
+L['options_icons_somnut'] = 'Снорех'
+L['options_icons_somnut_desc'] = 'Отображать возможные местоположения {object:Снорехов}.'
 
-L['improvised_leafbed_note'] = nil
-L['kalandu_note'] = nil
+L['improvised_leafbed_note'] = 'Завершите цепочку заданий, начинающуюся с {quest:77896} чтобы получить {item:210864} у {npc:210164}.'
+L['kalandu_note'] = 'Завершите цепочку заданий, начинающуюся с {quest:77948} чтобы получить {item:210633} у {npc:210196}.'
 
-L['renewed_dream'] = nil
+L['ochre_note'] = 'Поговорите с {npc:209253} чтобы начать линейку заданий, {npc:209571} состоит из следующих этапов.'
+L['ochre_note_stage1'] = '{quest:77677}. {note:5 дней на выращивание.}'
+L['ochre_note_stage2'] = '{quest:78398}. {note:5 дней на выращивание.}'
+L['ochre_note_stage3'] = '{npc:209571} позволит вам собрать 5x {item:4537} {dot:Yellow}, 3x {item:209416} {dot:Green}, и 5x {item:208644} {dot:Red}, объедините их в {item:208646}. {note:Подождите 3 дня} чтобы получить {item:208647}, после завершения {quest:77697}. {note:5 дней на выращивание.}'
+L['ochre_note_stage4'] = '{quest:77711}. {note:5 дней на выращивание.}'
+L['ochre_note_stage5'] = '{quest:77762}.'
 
-L['ochre_note'] = nil
-L['ochre_note_stage1'] = nil
-L['ochre_note_stage2'] = nil
-L['ochre_note_stage3'] = nil
-L['ochre_note_stage4'] = nil
-L['ochre_note_stage5'] = nil
+L['thorn_beast_stag'] = '{item:%d} ({npc:Олень})'
+L['thorn_beast_saber'] = '{item:%d} ({npc:Саблезуб})'
+L['thorn_beast_bear'] = '{item:%d} ({npc:Медведь})'
 
-L['thorn_beast_stag'] = nil
-L['thorn_beast_saber'] = nil
-L['thorn_beast_bear'] = nil
+L['thornbeast_disclaimer'] = '{note:Напоминание, каждый тип зверя имеет уникальный {item:%s} и приведет к подходящему шипастому зверю.}'
 
-L['thornbeast_disclaimer'] = nil
+L['thorn_laden_heart_note_1'] = 'Соберите {item:209860} из любого {npc:оленя}, {npc:саблезуба}, или {npc:медведя} в {location:Изумрудном Сне}.'
+L['thorn_laden_heart_note_2'] = 'Как только у вас появится {item:209860}, идите и найди лань по кличке {npc:140044} в {location:Друстваре} в {location:Кул-Тирасе}.'
 
-L['thorn_laden_heart_note_1'] = nil
-L['thorn_laden_heart_note_2'] = nil
+L['athainne_note_1'] = '{note:{npc:140044} ходит с {npc:129771} ночью и отдыхает в {location:Берлоге Ульфара} в течение дня.}\n\nПопросите {npc:140044} использовать {item:209860} для создания {item:209863}.'
+L['athainne_note_2'] = 'Как только вы поговорите с {npc:140044} и получите {item:209863}, отправляйтесь к {location:Берлоге Ульфара} для помощи {npc:141159}.'
 
-L['athainne_note_1'] = nil
-L['athainne_note_2'] = nil
-
-L['ulfar_note_1'] = nil
-L['ulfar_note_2'] = nil
+L['ulfar_note_1'] = 'Попросите {npc:149386} использовать {item:209863} чтобы создать {item:209866}.'
+L['ulfar_note_2'] = 'Как только у вас будетe {item:209866}, вернитесь в {location:Изумрудный Сон} чтобы найти подходящую цель для ритуала трансформации.'
 
 L['thorn_stag_note'] = nil
 L['thorn_saber_note'] = nil
@@ -1010,6 +1034,15 @@ L['thorn_bear_note'] = nil
 L['nahqi_note'] = nil
 
 L['sulraka_note'] = nil
+
+L['alarashinu_note'] = nil
+L['alarashinu_note_stage1'] = nil
+L['alarashinu_note_stage2'] = nil
+L['alarashinu_note_stage3'] = nil
+L['alarashinu_note_stage4'] = nil
+L['alarashinu_note_stage5'] = nil
+L['alarashinu_note_stage6'] = nil
+L['alarashinu_note_end'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
@@ -1230,3 +1263,31 @@ L['wr_dur_foil_01'] = 'За какими-то ящиками с припасам
 
 L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
 L['options_icons_warcraft_rumble_desc'] = 'Отображать {object:Мешочки с монетами Rumble} и {object:Мешочки с обертками Rumble} для промоакции {object:Warcraft Rumble}.'
+
+-------------------------------------------------------------------------------
+--------------------------------- AMIRDRASSIL ---------------------------------
+-------------------------------------------------------------------------------
+
+L['kaldorei_backpack_label'] = nil
+L['kaldorei_bag_label'] = nil
+L['kaldorei_bedroll_label'] = nil
+L['kaldorei_dagger_label'] = nil
+L['kaldorei_horn_label'] = nil
+L['kaldorei_moon_bow_label'] = nil
+L['kaldorei_shield_label'] = nil
+L['kaldorei_spear_label'] = nil
+L['kaldorei_spyglass_label'] = nil
+
+L['blue_kaldorei_backpack_note'] = nil
+L['blue_kaldorei_bedroll_note'] = nil
+L['blue_kaldorei_pouch_note'] = nil
+L['kaldorei_bow_carver_note'] = nil
+L['kaldorei_sentinels_spyglass_note'] = nil
+L['night_elven_bow_note'] = nil
+L['night_elven_horn_note'] = nil
+L['night_elven_shield_note'] = nil
+L['night_elven_signal_note'] = nil
+L['night_elven_spear_note'] = nil
+L['violet_kaldorei_pouch_note'] = nil
+
+L['moon_priestess_lasara_note'] = nil

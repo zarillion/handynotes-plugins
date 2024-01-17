@@ -166,6 +166,15 @@ L['dreamsurge_sublabel'] = '{note:Sólo está disponible cuando {location:Pico O
 L['celestine_vendor_note'] = 'Cambia {item:207026} por una montura, juguetes, mascotas, y transfiguraciones.'
 L['renewed_magmammoth_note'] = 'Reune 20x {item:209419} del boss final del {location:Pico Onírico} y combínalos para crear el {item:192807}.'
 
+L['dragon_pepe_label'] = 'Pepe el Dragón'
+L['dragon_pepe_note'] = 'Encaramado en el pilar a la izquierda de las escaleras que conducen al {location:Trono de los Aspectos}.'
+L['explorer_pepe_label'] = 'Pepe el Explorador'
+L['explorer_pepe_note'] = 'Encaramado en lo alto de la gran tienda de campaña del {location:Campamento Base Dragontina}.'
+L['tuskarr_pepe_label'] = 'Pepe Tuskarr'
+L['tuskarr_pepe_note'] = 'Encaramado en el edificio cerca de {npc:196544} y {npc:187680}.'
+
+L['end_of_august'] = '{note:Sólo está disponible antes de que acabe Agosto.}'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -608,7 +617,9 @@ L['naszuro_thaldraszus_peak'] = 'En un pico secundario de la montaña.'
 L['naszuro_temporal_conflux'] = 'En la cabeza de la estatua del dragón.'
 
 L['revival_catalyst_label'] = 'Catalizador de Reanimación'
-L['revival_catalyst_note'] = 'Convierte equipo del tier anterior en un objeto del nivel tier actual y de la ranura de equipo equivalente (incluyendo bonus de set para las ranuras que lo lleven).'
+L['revival_catalyst_note'] = 'Convierte equipo que no sea de tier en un objeto del tier actual y de la ranura de equipo equivalente.'
+
+L['provisioner_aristta_note'] = 'Intercambia {currency:2657} por transfiguraciones y una montura.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -866,8 +877,10 @@ L['fruitface_note'] = 'Ofrece a {npc:209950} {dot:Pink} tu ayuda para conseguir 
 L['greedy_gessie_note'] = 'Necesitas recoger {object:Verduras Salvajes}, {object:Melón Escamarrubí} y {object:Naranjarraíz} alrededor de la zona y ponerlo todo en las cestas cerca de {npc:210285s} para comenzar el encuentro.'
 L['nuoberon_note'] = 'Persigue tortugas, lanza comida a los monos, o lucha contra monstruos oníricos para ayudar a que {npc:209101} tenga un sueño divertido.'
 L['reefbreaker_moruud_note'] = 'Conecta las 6 {npc:210089} cercanas para atacar a {npc:209898}.'
+L['splinterlimb_note'] = 'Se hace hostil tras recibir 8 acumulaciones del debuff {spell:420009}. El debuff se acumula por cada ronda completada. Mata los enemigos que le atacan para que pueda completar la ronda más rápidamente.'
 L['surging_lasher_note'] = 'Puede aparece durante el evento {location:Frenesí Esmeralda} en esta zona.'
 L['talthonei_ashwisper_note'] = 'Mata a los enemigos de los alrededores hasta que el enemigo matado diga "Seré vengado" para hacer aparecer el raro.'
+L['talthonei_ashwisper_wq_note'] = '{note:Sólo puede aparecer aquí si está activa la misión del mundo {wq:Pánico en los portales}.}'
 
 L['in_a_tree'] = 'Encima del árbol.'
 L['inside_building'] = 'En el edificio.'
@@ -991,8 +1004,6 @@ L['options_icons_somnut_desc'] = 'Muestra dónden pueden estar los {object:Somnu
 L['improvised_leafbed_note'] = 'Completa la cadena de misiones comenzando con {quest:77896} para conseguir la {item:210864} de {npc:210164}.'
 L['kalandu_note'] = 'Completa la cadena de misiones comenzando con {quest:77948} para conseguir a {item:210633} de {npc:210196}.'
 
-L['renewed_dream'] = '{note:¡Esto no es un tesoro!}\n{item:201437} puede caer de cualquier enemigo en el {location:Sueño Esmeralda}.\nCombina 5 de ellos para restaurar un {item:201439}.'
-
 L['ochre_note'] = 'Habla con {npc:209253} para empezar la cadena de misiones. {npc:209571} te ofrecerá las siguientes fases.'
 L['ochre_note_stage1'] = '{quest:77677}. {note:5 días para crecer.}'
 L['ochre_note_stage2'] = '{quest:78398}. {note:5 días para crecer.}'
@@ -1022,6 +1033,15 @@ L['thorn_bear_note'] = '1. Mata a {npc:210977}, y usa el {item:209868} en su cue
 L['nahqi_note'] = 'Requiere la {item:211314} para usar {spell:1515} con {npc:210908}, la cual se consigue de la montura {item:210061}.\n\n{npc:210908}{npc:<Ascua del Recrecimiento>} vuela por el cielo alrededor de {location:Amirdrassil} por una ruta {note:en sentido antihorario} que le lleva 17 minutos completarla.\nTras ello, reaparece como mínimo al cabo de 30 minutos.\n\n{note:Es una {npc:Bestia Espíritu}. Sólo pueden domarla los Cazadores Bestias.}'
 
 L['sulraka_note'] = '{npc:210868}{npc:<Hija de Kimbul>} patrulla el área al este de {location:Amirdrassil} por una ruta {note:en sentido antihorario} que le lleva 17 minutos completarla.\nTras ello, reaparece como mínimo al cabo de 30 minutos.\n\nPor donde pasa deja unas {object:Huellas Profundas} que duran 3 minutos.\nCamina siempre en sigilo por lo que para encontrarla tendrás que usar una {spell:1543} frente a una {object:Huella Profunda} fresca.\nUsa la {spell:257284} y/o {spell:187650} e intenta usar {spell:1515}.\n\n{note:Es importante atraparla o revelarla porque {npc:210868} no parará de moverse aunque la ataques. Puede salir fuera de rango de {spell:1543} cancelando la habilidad.}\n\n{note:Es una {npc:Bestia Espíritu}. Sólo pueden domarla los Cazadores Bestias.}'
+
+L['alarashinu_note'] = '{item:210961}, una guja de guerra oculta de naturaleza vil.\n\n{note:Efectos visuales especiales:}\nDejas un rastro de flores cuando usas {spell:195072}/ {spell:189110}/ {spell:198793} con Alara\'shinu equipada o transfigurada.'
+L['alarashinu_note_stage1'] = 'Habla con {npc:213029} en el {location:Campamento Central} del {location:Sueño Esmeralda}.'
+L['alarashinu_note_stage2'] = 'Ves al {location:Templo Perdido} de {location:La Costa Abrupta}, presencia un {npc:213114}.'
+L['alarashinu_note_stage3'] = 'Ves al {location:Templo de Elune} de {location:Val\'Sharah}, presencia otro {npc:213186}.'
+L['alarashinu_note_stage4'] = 'Después de que se acabe el recuerdo, aparecerá un {npc:213248} portando su Guja de Guerra.'
+L['alarashinu_note_stage5'] = 'Imbuye {npc:213308} con tu llama vil.'
+L['alarashinu_note_stage6'] = 'Despoja la {npc:213381} y recibirás {item:210961}.'
+L['alarashinu_note_end'] = 'Vuelve a {npc:213029}, tiene un diálogo adicional después de obtener esta guja de guerra.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
@@ -1242,3 +1262,31 @@ L['wr_dur_foil_01'] = 'Detrás de unas cajas de suministros.'
 
 L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
 L['options_icons_warcraft_rumble_desc'] = 'Muestra dónde están las {object:Bolsa de Monedas de Warcraft Rumble} y {object:Caja de Brillos de Warcraft Rumble} vinculadas a la campaña promocional de {object:Warcraft Rumble}.'
+
+-------------------------------------------------------------------------------
+--------------------------------- AMIRDRASSIL ---------------------------------
+-------------------------------------------------------------------------------
+
+L['kaldorei_backpack_label'] = 'Mochila Kaldorei'
+L['kaldorei_bag_label'] = 'Bolsa Kaldorei'
+L['kaldorei_bedroll_label'] = 'Saco de Dormir Kaldorei'
+L['kaldorei_dagger_label'] = 'Daga Kaldorei'
+L['kaldorei_horn_label'] = 'Cuerno Kaldorei'
+L['kaldorei_moon_bow_label'] = 'Arco Lunar Kaldorei'
+L['kaldorei_shield_label'] = 'Escudo Kaldorei'
+L['kaldorei_spear_label'] = 'Lanza Kaldorei'
+L['kaldorei_spyglass_label'] = 'Catalejo Kaldorei'
+
+L['blue_kaldorei_backpack_note'] = 'Encima de una caja en la tienda del puerto de {location:Belanaar}.'
+L['blue_kaldorei_bedroll_note'] = 'Detrás de la mesa cerca del pozo de la luna.'
+L['blue_kaldorei_pouch_note'] = 'En un barril fuera del edificio lleno de portales.'
+L['kaldorei_bow_carver_note'] = 'En una mesa en lo alto de la {location:Atalaya del Crepúsculo} cerca de {npc:216731}.'
+L['kaldorei_sentinels_spyglass_note'] = 'Encima de una caja al final del muelle de {location:Belanaar}.'
+L['night_elven_bow_note'] = 'Apoyado contra el estante de armas del {location:Refugio de Arlithrien}.'
+L['night_elven_horn_note'] = 'En una caja en la parte superior de la {location:Atalaya del Alba} cerca de {npc:216752}.'
+L['night_elven_shield_note'] = 'Apoyado contra una caja cerca del instructor de minería {npc:216269}.'
+L['night_elven_signal_note'] = 'Colgando de un blandón encima de las escaleras.'
+L['night_elven_spear_note'] = 'Apoyado contra la pared de {location:Cámara Afilada}.'
+L['violet_kaldorei_pouch_note'] = 'Cerca de la parte inferior del arco detrás del pozo de la luna.'
+
+L['moon_priestess_lasara_note'] = 'Intercambia {currency:2003} por transfiguraciones.'
