@@ -175,10 +175,10 @@ L['tuskarr_pepe_note'] = 'Sitzt in der Nähe von {npc:196544} und {npc:187680} a
 
 L['end_of_august'] = '{note:Nur bis Ende August verfügbar.}'
 
-L['rich_soil_label'] = nil
-L['rich_soil_note'] = nil
-L['options_icons_rich_soil'] = nil
-L['options_icons_rich_soil_desc'] = nil
+L['rich_soil_label'] = 'Fruchtbarer Boden'
+L['rich_soil_note'] = 'Pflanzt verschiedene Samen in einem Stück {object:Fruchtbarer Boden} auf den {location:Dracheninseln}, um Belohnungen zu erhalten.\n\n{item:200506} - Zufällige Planzen der {location:Dracheninseln}\n\n{item:200508} - Zufällige tobende Essenzen\n\n{item:200507} - Zufällige verrottende Pflanzen\n\n{item:200509} - Lässt {npc:198571} für verschiedene Kräuter und Essenzen erscheinen.'
+L['options_icons_rich_soil'] = 'Fruchtbarer Boden'
+L['options_icons_rich_soil_desc'] = 'Zeigt mögliche Positionen von {object:Fruchtbarer Boden} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
