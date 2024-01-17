@@ -48,7 +48,7 @@ map.nodes[47905688] = Treasure({
 
 map.nodes[51910589] = Treasure({
     label = L['kaldorei_spyglass_label'],
-    quest = 76500,
+    quest = 79500,
     note = L['kaldorei_sentinels_spyglass_note'],
     rewards = {Transmog({item = 213013, slot = L['offhand']})}
 }) -- Kaldorei Sentinel's Spyglass
