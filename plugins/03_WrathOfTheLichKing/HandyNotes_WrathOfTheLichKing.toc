@@ -1,4 +1,4 @@
-## Interface: 100200
+## Interface: 100205
 ## Title: HandyNotes: Wrath of the Lich King
 ## Version: 1
 ## Notes: Wrath of the Lich King Notes
