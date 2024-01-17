@@ -1,3 +1,15 @@
+# v46
+
+* Added *many* missing dragon riding appearances and transmogs.
+* Added a new category of nodes for vendors!
+* Added new night-elf transmog items in Amirdrassil.
+* Added new Pepe appearances.
+* Added rewards for "The Big Dig".
+* Updated Dragonrace times in Zaralek Cavern.
+* Updated Keen-eyed Cian route. His rare node is now on his spawn point.
+* Updated Moonkin hatchling coords.
+* Updated TOC for 10.2.5
+
 # v45
 
 * Added a new icon for zone-wide drops.

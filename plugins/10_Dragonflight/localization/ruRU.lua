@@ -169,6 +169,15 @@ L['dreamsurge_sublabel'] = '{note:Доступно только в то врем
 L['celestine_vendor_note'] = 'Обмен {item:207026} на средства передвижения, игрушки, питомцев и трансмогрификацию.'
 L['renewed_magmammoth_note'] = 'Соберите 20x {item:209419} с финальных боссов {location:Прилива Снов} и соберите из них {item:192807}.'
 
+L['dragon_pepe_label'] = nil
+L['dragon_pepe_note'] = nil
+L['explorer_pepe_label'] = nil
+L['explorer_pepe_note'] = nil
+L['tuskarr_pepe_label'] = nil
+L['tuskarr_pepe_note'] = nil
+
+L['end_of_august'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -615,6 +624,8 @@ L['naszuro_temporal_conflux'] = 'На голове статуи дракона.'
 L['revival_catalyst_label'] = 'Катализатор возрождения'
 L['revival_catalyst_note'] = 'Преобразование не сетового снаряжения в предмет эквивалентного уровня но сетового качества.\n\nSeason 3:\nAutomatically receive 1 charge every 2 weeks, accumulating up to a cap of 8.\n{currency:2796}: %d/%d'
 
+L['provisioner_aristta_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -1027,6 +1038,15 @@ L['nahqi_note'] = nil
 
 L['sulraka_note'] = nil
 
+L['alarashinu_note'] = nil
+L['alarashinu_note_stage1'] = nil
+L['alarashinu_note_stage2'] = nil
+L['alarashinu_note_stage3'] = nil
+L['alarashinu_note_stage4'] = nil
+L['alarashinu_note_stage5'] = nil
+L['alarashinu_note_stage6'] = nil
+L['alarashinu_note_end'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
@@ -1246,3 +1266,31 @@ L['wr_dur_foil_01'] = 'За какими-то ящиками с припасам
 
 L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
 L['options_icons_warcraft_rumble_desc'] = 'Отображать {object:Мешочки с монетами Rumble} и {object:Мешочки с обертками Rumble} для промоакции {object:Warcraft Rumble}.'
+
+-------------------------------------------------------------------------------
+--------------------------------- AMIRDRASSIL ---------------------------------
+-------------------------------------------------------------------------------
+
+L['kaldorei_backpack_label'] = nil
+L['kaldorei_bag_label'] = nil
+L['kaldorei_bedroll_label'] = nil
+L['kaldorei_dagger_label'] = nil
+L['kaldorei_horn_label'] = nil
+L['kaldorei_moon_bow_label'] = nil
+L['kaldorei_shield_label'] = nil
+L['kaldorei_spear_label'] = nil
+L['kaldorei_spyglass_label'] = nil
+
+L['blue_kaldorei_backpack_note'] = nil
+L['blue_kaldorei_bedroll_note'] = nil
+L['blue_kaldorei_pouch_note'] = nil
+L['kaldorei_bow_carver_note'] = nil
+L['kaldorei_sentinels_spyglass_note'] = nil
+L['night_elven_bow_note'] = nil
+L['night_elven_horn_note'] = nil
+L['night_elven_shield_note'] = nil
+L['night_elven_signal_note'] = nil
+L['night_elven_spear_note'] = nil
+L['violet_kaldorei_pouch_note'] = nil
+
+L['moon_priestess_lasara_note'] = nil

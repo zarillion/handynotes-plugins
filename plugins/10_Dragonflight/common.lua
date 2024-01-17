@@ -9,8 +9,8 @@ local Group = ns.Group
 
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
-local NPC = ns.node.NPC
 local Rare = ns.node.Rare
+local Vendor = ns.node.Vendor
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -20,6 +20,7 @@ local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
 local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
+local Spell = ns.reward.Spell
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -534,7 +535,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         GradientHorns = Item({item = 197381, quest = 69582}),
         GrayHair = Item({item = 197367, quest = 69568}),
         GreenHair = Item({item = 197371, quest = 69572}),
-        GreenScales = Item({item = 197389, quest = 66720}), -- two GreenScales in wowhead, 192523 do not exist in game
+        GreenScales = Item({item = 197389, quest = 66720}),
         HairyBack = Item({item = 197356, quest = 69557}),
         HairyBrow = Item({item = 197359, quest = 69560}),
         HarrierPattern = Item({item = 197395, quest = 69596}),
@@ -544,6 +545,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         HornedBack = Item({item = 197354, quest = 69555}),
         HornedJaw = Item({item = 197385, quest = 69586}),
         ImpalerHorns = Item({item = 197379, quest = 69580}),
+        LoveArmor = Item({item = 211812, quest = 79088}), -- 10.2.5
         MalevolentHorns = Item({item = 202279, quest = 73056}),
         ManedCrest = Item({item = 197363, quest = 69564}),
         ManedTail = Item({item = 197405, quest = 69606}),
@@ -554,7 +556,6 @@ ns.DRAGON_CUSTOMIZATIONS = {
         PurpleHair = Item({item = 197372, quest = 69573}),
         RazorSnout = Item({item = 197399, quest = 69600}),
         RedHair = Item({item = 197370, quest = 69571}),
-        -- RedScales = Item({item = 192111, quest = nil}), -- remove, impossible name
         SharkSnout = Item({item = 197400, quest = 69601}),
         ShortSpikedCrest = Item({item = 197364, quest = 69565}),
         SilverAndBlueArmor = Item({item = 197347, quest = 69548}),
@@ -822,6 +823,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         LightBlueAndCopperArmor = Item({item = 203301, quest = 73789}),
         LongChinHorn = Item({item = 203309, quest = 73797}),
         LongJawHorns = Item({item = 203341, quest = 73832}),
+        LunarFestivalArmor = Item({item = 211868, quest = 79112}), -- 10.2.5
         PairedHorns = Item({item = 203336, quest = 73826}),
         PlatedBrow = Item({item = 203307, quest = 73795}),
         PointedNose = Item({item = 203348, quest = 73839}),
@@ -831,7 +833,6 @@ ns.DRAGON_CUSTOMIZATIONS = {
         RedScales = Item({item = 203353, quest = 73844}),
         SharkFinnedTail = Item({item = 203359, quest = 73851}),
         ShortHorns = Item({item = 203333, quest = 73822}),
-        -- ShortSpikedCrest = Item({item = 197364, quest = 69565}), -- remove, duplicated
         SingleJawHorn = Item({item = 203344, quest = 73835}),
         SmallFinnedCrest = Item({item = 203317, quest = 73805}),
         SmallFinnedTail = Item({item = 203358, quest = 73850}),
@@ -894,6 +895,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         YellowScales = Item({item = 207777, quest = 77148})
     },
     DragonIslesDrakes = {
+        EndlessPossibility = Spell({item = 212518, spell = 431709}),
         GildedArmor = Item({
             item = 208200,
             quest = {69550, 69786, 69167, 69296, 73786}
@@ -906,7 +908,16 @@ ns.DRAGON_CUSTOMIZATIONS = {
 }
 
 ns.DRAGON_CUSTOMIZATIONS.SetCount = function(dc, count)
-    return Item({item = dc.item, quest = dc.quest, count = count})
+    if not dc.spell then
+        return Item({item = dc.item, quest = dc.quest, count = count})
+    else
+        return Spell({
+            item = dc.item,
+            spell = dc.spell,
+            count = count,
+            type = false
+        })
+    end
 end
 
 -------------------------------------------------------------------------------
@@ -1504,6 +1515,25 @@ local ELEMENTAL_STORM_TRANSMOG_REWARDS = {
     }
 }
 
+local DC = ns.DRAGON_CUSTOMIZATIONS
+local ELEMENTAL_STORM_MANUSCRIPT_REWARDS = {
+    ['all'] = {
+        DC.WindborneVelocidrake.ClusterHorns, DC.RenewedProtoDrake.HeavyHorns
+    },
+    ['thunderstorm'] = {
+        DC.RenewedProtoDrake.PurpleHair, DC.WindborneVelocidrake.SweptHorns
+    },
+    ['sandstorm'] = {
+        DC.WindborneVelocidrake.ClubTail, DC.CliffsideWylderdrake.BlackHorns
+    },
+    ['firestorm'] = {
+        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth
+    },
+    ['snowstorm'] = {
+        DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek
+    }
+}
+
 local ElementalStorm = Class('ElementalStorm', Collectible, {
     icon = 538566,
     group = ns.groups.ELEMENTAL_STORM,
@@ -1535,6 +1565,8 @@ function ElementalStorm.getters:rewards()
 
     return {
         ELEMENTAL_STORM_MOB_ACHIVEMENTS['all'],
+        ELEMENTAL_STORM_MANUSCRIPT_REWARDS['all'][1],
+        ELEMENTAL_STORM_MANUSCRIPT_REWARDS['all'][2], Spacer(),
         Section(L['elemental_storm_thunderstorm']), -- Thunderstorm Rewards
         getStormAchievement(self.mapID, 'thunderstorm'),
         ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['thunderstorm'],
@@ -1542,15 +1574,21 @@ function ElementalStorm.getters:rewards()
         ELEMENTAL_STORM_FORMULA_REWARDS['thunderstorm'],
         ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm'][1],
         ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm'][2],
-        ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm'][3], Spacer(),
-        Section(L['elemental_storm_sandstorm']), -- Sandstorm Rewards
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['thunderstorm'][3],
+        ELEMENTAL_STORM_MANUSCRIPT_REWARDS['thunderstorm'][1],
+        ELEMENTAL_STORM_MANUSCRIPT_REWARDS['thunderstorm'][2],
+        -- DC.RenewedProtoDrake.PurpleHair, DC.WindborneVelocidrake.SweptHorns,
+        Spacer(), Section(L['elemental_storm_sandstorm']), -- Sandstorm Rewards
         getStormAchievement(self.mapID, 'sandstorm'),
         ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['sandstorm'],
         ELEMENTAL_STORM_PET_REWARDS['sandstorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['sandstorm'],
         ELEMENTAL_STORM_TRANSMOG_REWARDS['sandstorm'][1],
-        ELEMENTAL_STORM_TRANSMOG_REWARDS['sandstorm'][2], Spacer(),
-        Section(L['elemental_storm_firestorm']), -- Firestorm Rewards
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['sandstorm'][2],
+        ELEMENTAL_STORM_MANUSCRIPT_REWARDS['sandstorm'][1],
+        ELEMENTAL_STORM_MANUSCRIPT_REWARDS['sandstorm'][2],
+        -- DC.WindborneVelocidrake.ClubTail, DC.CliffsideWylderdrake.BlackHorns,
+        Spacer(), Section(L['elemental_storm_firestorm']), -- Firestorm Rewards
         getStormAchievement(self.mapID, 'firestorm'),
         ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['firestorm'],
         ELEMENTAL_STORM_PET_REWARDS['firestorm'],
@@ -1558,16 +1596,22 @@ function ElementalStorm.getters:rewards()
         ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'][1],
         ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'][2],
         ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'][3],
-        ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'][4], Spacer(),
-        Section(L['elemental_storm_snowstorm']), -- Snowstorm Rewards
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['firestorm'][4],
+        ELEMENTAL_STORM_MANUSCRIPT_REWARDS['firestorm'][1],
+        ELEMENTAL_STORM_MANUSCRIPT_REWARDS['firestorm'][2],
+        -- DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
+        Spacer(), Section(L['elemental_storm_snowstorm']), -- Snowstorm Rewards
         getStormAchievement(self.mapID, 'snowstorm'),
         ELEMENTAL_STORM_BOSS_ACHIEVEMENTS['snowstorm'],
         ELEMENTAL_STORM_PET_REWARDS['snowstorm'],
         ELEMENTAL_STORM_FORMULA_REWARDS['snowstorm'],
         ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm'][1],
         ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm'][2],
-        ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm'][3], Spacer(),
-        ELEMENTAL_STORM_FORMULA_REWARDS['all']
+        ELEMENTAL_STORM_TRANSMOG_REWARDS['snowstorm'][3],
+        ELEMENTAL_STORM_MANUSCRIPT_REWARDS['snowstorm'][1],
+        ELEMENTAL_STORM_MANUSCRIPT_REWARDS['snowstorm'][2],
+        -- DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek,
+        Spacer(), ELEMENTAL_STORM_FORMULA_REWARDS['all']
     }
 end
 
@@ -1594,11 +1638,18 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
                     ELEMENTAL_STORM_PET_REWARDS[stormType],
                     ELEMENTAL_STORM_FORMULA_REWARDS['all'],
                     ELEMENTAL_STORM_FORMULA_REWARDS[stormType],
-                    unpack(ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType])
+                    ELEMENTAL_STORM_MANUSCRIPT_REWARDS['all'][1],
+                    ELEMENTAL_STORM_MANUSCRIPT_REWARDS['all'][2],
+                    ELEMENTAL_STORM_MANUSCRIPT_REWARDS[stormType][1],
+                    ELEMENTAL_STORM_MANUSCRIPT_REWARDS[stormType][2],
+                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][1],
+                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][2],
+                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][3],
+                    ELEMENTAL_STORM_TRANSMOG_REWARDS[stormType][4]
                 }
                 GameTooltip:AddLine(' ')
-                for i, reward in ipairs(rewards) do
-                    if reward:IsEnabled() then
+                for _, reward in ipairs(rewards) do
+                    if reward and reward:IsEnabled() then
                         reward:Render(GameTooltip)
                     end
                 end
@@ -1823,10 +1874,8 @@ end)
 --------------------------------- DREAMSURGE ---------------------------------
 ------------------------------------------------------------------------------
 
-local Celestine = Class('Celestine', NPC, {
+local Celestine = Class('Celestine', Vendor, {
     id = 210608,
-    icon = 'peg_bl',
-    scale = 2.0,
     sublabel = L['dreamsurge_sublabel'],
     note = L['celestine_vendor_note'],
     rewards = {

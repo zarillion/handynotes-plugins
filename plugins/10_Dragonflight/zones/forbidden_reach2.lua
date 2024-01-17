@@ -11,6 +11,7 @@ local Node = ns.node.Node
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local Vendor = ns.node.Vendor
 
 local Dragonglyph = ns.node.Dragonglyph
 local ElusiveCreature = ns.node.ElusiveCreature
@@ -1338,6 +1339,64 @@ map.nodes[55393586] = ScalecommanderItem({
 }) -- Sending Stone: Initial Report
 
 -------------------------------------------------------------------------------
+----------------------------------- VENDORS -----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[35615948] = Vendor({
+    id = 200559,
+    note = L['treysh_note'],
+    rewards = {
+        Transmog({item = 204562, slot = L['2h_mace']}), -- Maruuk Maul
+        Transmog({item = 204563, slot = L['1h_mace']}), -- Morqut Club
+        Transmog({item = 204564, slot = L['gun']}), -- Dragonscale Expeditioner's Rifle
+        Transmog({item = 204566, slot = L['offhand']}), -- Journal of the Forbidden Reach
+        Transmog({item = 204569, slot = L['fist']}), -- Valdrakken Talons
+        Transmog({item = 204570, slot = L['dagger']}), -- Valdrakken Pocketknife
+        Spacer(), -- Mounts
+        Mount({item = 201719, id = 1686}), -- Obsidian Vorquin
+        Mount({item = 201704, id = 1684}), -- Sapphire Vorquin
+        Mount({item = 201702, id = 1683}), -- Crimson Vorquin
+        Mount({item = 201720, id = 1685}), -- Bronze Vorquin
+        Mount({item = 198808, id = 1664}), -- Guardian Vorquin
+        Mount({item = 198809, id = 1667}), -- Armored Vorquin Leystrider
+        Mount({item = 198811, id = 1668}), -- Majestic Armored Vorquin
+        Mount({item = 198810, id = 1665}) -- Swift Armored Vorquin
+    }
+}) -- Treysh <Quartermaster>
+
+map.nodes[34325997] = Vendor({
+    label = L['renown_envoy_label'],
+    note = L['renown_envoy_note'],
+    rewards = {
+        Section('{npc:200566}'), -- Cataloger Daela
+        Pet({item = 191915, id = 3259, count = 2000}), -- Shaggy
+        Spacer(), Section('{npc:200562}'), -- Turik
+        Pet({item = 193850, id = 3330, count = 25000}), -- Buckie
+        Spacer(), Section('{npc:200564}'), -- Storykeepe Ashekh
+        Mount({item = 204382, id = 1467, count = 100000}), -- Noble Bruffalon
+        Spacer(), Section('{npc:200563}'), -- Kraxxus
+        DC.SetCount(DC.WindborneVelocidrake.ExposedFinnedNeck, 2500),
+        DC.SetCount(DC.HighlandDrake.TaperedNose, 2500)
+    }
+}) -- Cataloger Daela, Turik, Storykeeper Ashekh, and Kraxxus <Renown Envoys>
+
+map.nodes[35905744] = Vendor({
+    id = 202445,
+    note = L['trader_hagarth_note'],
+    rewards = {
+        Recipe({item = 203420, profession = 171, count = 10}), -- Recipe: Draconic Suppression Powder
+        Recipe({item = 203421, profession = 164, count = 10}), -- Plans: Ancient Ceremonial Trident
+        Recipe({item = 203422, profession = 185, count = 10}), -- Recipe: Sparkling Spice Pouch
+        Recipe({item = 203423, profession = 333, count = 10}), -- Formula: Glowing Crystal Bookmark
+        Recipe({item = 203424, profession = 202, count = 10}), -- Schematic: Gnomish Voicebox
+        Recipe({item = 203425, profession = 773, count = 10}), -- Technique: Arcane Dispelling Rune
+        Recipe({item = 203426, profession = 755, count = 10}), -- Design: Crystal Tuning Fork
+        Recipe({item = 203427, profession = 165, count = 10}), -- Pattern: Reinforced Pristine Leather
+        Recipe({item = 203428, profession = 197, count = 10}) -- Pattern: Traditional Morqut Kite
+    }
+}) -- Trader Hag'arth <Artisan's Consortium Quartermaster>
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
@@ -1379,65 +1438,3 @@ warCreche.nodes[47808130] = GemstoneOfReturn({
 warCreche.nodes[65376249] = GemstoneOfReturn({
     pois = {Arrow({65376249, 67030720})}
 }) -- Pyrachniss
-
---------------------------- MORQUT VILLAGE VENDORS ----------------------------
-
-map.nodes[35615948] = Collectible({
-    id = 200559,
-    icon = 'peg_bl',
-    scale = 1.3,
-    note = L['treysh_note'],
-    rewards = {
-        Transmog({item = 204562, slot = L['2h_mace']}), -- Maruuk Maul
-        Transmog({item = 204563, slot = L['1h_mace']}), -- Morqut Club
-        Transmog({item = 204564, slot = L['gun']}), -- Dragonscale Expeditioner's Rifle
-        Transmog({item = 204566, slot = L['offhand']}), -- Journal of the Forbidden Reach
-        Transmog({item = 204569, slot = L['fist']}), -- Valdrakken Talons
-        Transmog({item = 204570, slot = L['dagger']}), -- Valdrakken Pocketknife
-        Spacer(), -- Mounts
-        Mount({item = 201719, id = 1686}), -- Obsidian Vorquin
-        Mount({item = 201704, id = 1684}), -- Sapphire Vorquin
-        Mount({item = 201702, id = 1683}), -- Crimson Vorquin
-        Mount({item = 201720, id = 1685}), -- Bronze Vorquin
-        Mount({item = 198808, id = 1664}), -- Guardian Vorquin
-        Mount({item = 198809, id = 1667}), -- Armored Vorquin Leystrider
-        Mount({item = 198811, id = 1668}), -- Majestic Armored Vorquin
-        Mount({item = 198810, id = 1665}) -- Swift Armored Vorquin
-    }
-}) -- Treysh <Quartermaster>
-
-map.nodes[34325997] = Collectible({
-    label = L['renown_envoy_label'],
-    icon = 'peg_bl',
-    scale = 1.3,
-    note = L['renown_envoy_note'],
-    rewards = {
-        Section('{npc:200566}'), -- Cataloger Daela
-        Pet({item = 191915, id = 3259, count = 2000}), -- Shaggy
-        Spacer(), Section('{npc:200562}'), -- Turik
-        Pet({item = 193850, id = 3330, count = 25000}), -- Buckie
-        Spacer(), Section('{npc:200564}'), -- Storykeepe Ashekh
-        Mount({item = 204382, id = 1467, count = 100000}), -- Noble Bruffalon
-        Spacer(), Section('{npc:200563}'), -- Kraxxus
-        DC.SetCount(DC.WindborneVelocidrake.ExposedFinnedNeck, 2500),
-        DC.SetCount(DC.HighlandDrake.TaperedNose, 2500)
-    }
-}) -- Cataloger Daela, Turik, Storykeeper Ashekh, and Kraxxus <Renown Envoys>
-
-map.nodes[35905744] = Collectible({
-    id = 202445,
-    icon = 'peg_bl',
-    scale = 1.3,
-    note = L['trader_hagarth_note'],
-    rewards = {
-        Recipe({item = 203420, profession = 171, count = 10}), -- Recipe: Draconic Suppression Powder
-        Recipe({item = 203421, profession = 164, count = 10}), -- Plans: Ancient Ceremonial Trident
-        Recipe({item = 203422, profession = 185, count = 10}), -- Recipe: Sparkling Spice Pouch
-        Recipe({item = 203423, profession = 333, count = 10}), -- Formula: Glowing Crystal Bookmark
-        Recipe({item = 203424, profession = 202, count = 10}), -- Schematic: Gnomish Voicebox
-        Recipe({item = 203425, profession = 773, count = 10}), -- Technique: Arcane Dispelling Rune
-        Recipe({item = 203426, profession = 755, count = 10}), -- Design: Crystal Tuning Fork
-        Recipe({item = 203427, profession = 165, count = 10}), -- Pattern: Reinforced Pristine Leather
-        Recipe({item = 203428, profession = 197, count = 10}) -- Pattern: Traditional Morqut Kite
-    }
-}) -- Trader Hag'arth <Artisan's Consortium Quartermaster>
