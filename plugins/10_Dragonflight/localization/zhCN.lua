@@ -173,6 +173,8 @@ L['explorer_pepe_note'] = nil
 L['tuskarr_pepe_label'] = nil
 L['tuskarr_pepe_note'] = nil
 
+L['end_of_august'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -1032,10 +1034,14 @@ L['nahqi_note'] = '要对 {npc:210908} 施放 {spell:1515}，需要 {item:211314
 
 L['sulraka_note'] = '{npc:210868} {npc:<吉布尔之女>} 在 {location:阿梅达希尔} 东方以 {note:逆时针} 路线巡游，大约17分钟绕一周。\n它的刷新时间最少30分钟。\n\n当它行进时会在身后留下 {object:笨重的踪迹}，持续3分钟。\n由于一直潜行状态，需要在一个刚刚刷新的 {object:笨重的踪迹} 前面使用 {spell:1543} 来让其显形。\n先施放 {spell:257284} 和（或）{spell:187650}，再尝试 {spell:1515}。\n\n{note:注意：{npc:210868} 即使受到攻击也不会停止前行，所以一定要使用陷阱或照明。否则 {spell:1543} 会在超距后取消施法。}\n\n{note:这是只 {npc:灵魂兽}。只有兽王猎人能驯服。}'
 
-L['alara_shinu_note_01'] = nil
-L['alara_shinu_note_02'] = nil
-L['alara_shinu_note_03'] = nil
-
+L['alarashinu_note'] = nil
+L['alarashinu_note_stage1'] = nil
+L['alarashinu_note_stage2'] = nil
+L['alarashinu_note_stage3'] = nil
+L['alarashinu_note_stage4'] = nil
+L['alarashinu_note_stage5'] = nil
+L['alarashinu_note_stage6'] = nil
+L['alarashinu_note_end'] = nil
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------

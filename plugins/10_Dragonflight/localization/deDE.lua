@@ -173,6 +173,8 @@ L['explorer_pepe_note'] = 'Sitzt oben auf dem großen Zelt im {Ort:Drachenschupp
 L['tuskarr_pepe_label'] = 'Pepe der Tuskarr'
 L['tuskarr_pepe_note'] = 'Sitzt in der Nähe von {npc:196544} und {npc:187680} auf einem Gegenstand.'
 
+L['end_of_august'] = '{note:Nur bis Ende August verfügbar.}'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -1033,9 +1035,14 @@ L['nahqi_note'] = 'Benötigt die {item:211314}, um {npc:210908} mit {spell:1515}
 
 L['sulraka_note'] = 'Patrouilliert das Gebiet östlich von {location:Amirdrassil} {note:gegen den Uhrzeigersinn}.\n\nLässt während des laufens {object:Tiefe Fährten} zurück, die 3 Minuten halten.\nLäuft immer in Verstohlenheit, du musst ihn mit deiner Fähigkeit {spell:1543} vor frischen {object:Tiefe Fährten} aufdecken.\nZaubere {spell:257284} auf ihn und/oder benutze {spell:187650} und versuche ihn mit {spell:1515} zu zähmen.\n\n{note:Es ist wichtig, ihn aufzudecken oder zu fangen, denn {npc:210868} hört nicht auf sich zu bewegen, selbst wenn er angegriffen wird. Kann aus der Reichweite von {spell:1543} laufen.}\n\n{note:Diese {npc:Geisterbestie} können nur Tierherrschafts-Jäger zähmen.}'
 
-L['alara_shinu_note_01'] = 'Sprich mit {npc:213029} im {location:Zentrallager} in {location:Der Smaragdgrüne Traum}.\n\nEr wird dich bitten, sein Erinnerung in {location:Die Verheerte Küste} zu suchen.'
-L['alara_shinu_note_02'] = 'Sprich mit {npc:213186} bei {location:Der Verlorene Tempel} in {location:Die Verheerte Küste}.\n\nEr wird dich bitten, sein Erinnerung in {location:Val\'sharah} zu suchen.'
-L['alara_shinu_note_03'] = 'Sprich mit {npc:213114} bei {location:Der Tempel von Elune} in {location:Val\'Sharah}.\n\nDanach erscheint ein Hirsch, der seine Kriegsgleve trägt. Erfülle die Kriegsgleve mit der Teufelsflamme und plündere {item:210961}.'
+L['alarashinu_note'] = '{item:210961}, eine verborgene fel-gefärbte Naturkriegsgleve.\n\n{note:Visueller Spezialeffekt:}\nHast du Alara\'shinu angelegt oder transmogrifiziert, hinterlassen die Folgenden Fähigkeiten eine Spur aus Blumen:\n{spell:195072}\n{spell:189110}\n{spell:198793}.'
+L['alarashinu_note_stage1'] = 'Sprich mit {npc:213029} im {location:Zentrallager} in {location:Der Smaragdgrüne Traum}.'
+L['alarashinu_note_stage2'] = 'Reise zu {location:Der Verlorene Tempel} in {location:Die Verheerte Küste}, um Zeuge der {npc:213114} zu werden.'
+L['alarashinu_note_stage3'] = 'Reise zu {location:Der Tempel von Elune} in {location:Val\'sharah}, um Zeuge einer weiteren {npc:213186} zu werden.'
+L['alarashinu_note_stage4'] = 'Nach der Erinnerung erscheint ein {npc:213248}, der die Kriegsgleve trägt.'
+L['alarashinu_note_stage5'] = 'Erfülle die {npc:213308} mit deiner Teufelsflamme.'
+L['alarashinu_note_stage6'] = 'Plündere die {npc:213381}, um {item:210961} zu erhalten.'
+L['alarashinu_note_end'] = 'Nachdem du die Kriegsgleve erhalten hast und du zurück zu {npc:213029} kehrst, hat er einen Bonusdialog für dich.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
