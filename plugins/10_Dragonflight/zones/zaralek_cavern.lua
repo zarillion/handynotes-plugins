@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
+local Vendor = ns.node.Vendor
 
 local AncientStone = ns.node.AncientStone
 local Dragonglyph = ns.node.Dragonglyph
@@ -1317,11 +1318,10 @@ map.nodes[52442683] = TheGiftOfCheese()
 -- })-- Slabwing
 
 -------------------------------------------------------------------------------
+----------------------------------- VENDORS -----------------------------------
+-------------------------------------------------------------------------------
 
-local LoammVendor = Class('LoammVendor', Collectible,
-    {icon = 'peg_bl', scale = 1.3}) -- Loamm Vendor
-
-map.nodes[55895537] = LoammVendor({
+map.nodes[55895537] = Vendor({
     id = 203615,
     note = L['saccratos_note'],
     rewards = {
@@ -1331,7 +1331,7 @@ map.nodes[55895537] = LoammVendor({
     }
 }) -- Saccratos <Coveted Bauble Exchange>
 
-map.nodes[58085381] = LoammVendor({
+map.nodes[58085381] = Vendor({
     id = 204693,
     note = L['ponzo_note'],
     rewards = {

@@ -196,6 +196,8 @@ L['options_icons_rares_desc'] = '희귀몹 위치 표시'
 L['options_icons_rares'] = '희귀몹'
 L['options_icons_treasures_desc'] = '숨겨진 보물 위치 표시'
 L['options_icons_treasures'] = '보물'
+L['options_icons_vendors_desc'] = nil
+L['options_icons_vendors'] = nil
 
 ------------------------------------ FOCUS ------------------------------------
 
