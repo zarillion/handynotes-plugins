@@ -949,6 +949,7 @@ L['moonkin_hatchling_note'] = '需要 {wq:关切利爪} 世界任务激活。'
 L['druid_glyphs_label'] = '德鲁伊印记'
 L['druid_glyphs_sublabel'] = '{note:这不是一个德鲁伊印记，而是清单！}'
 L['druid_glyphs_note'] = '在 {location:翡翠梦境} 中，通过各种途径，收集 {note:德鲁伊印记}。'
+L['druid_glyphs_checklist_note'] = nil
 
 L['pollenfused_bristlebruin_fur_sample_note'] = '在 {location:焦烬之壤} 的一颗树根处拾取 {object:花粉灌注的鬃罴毛皮样本}。'
 

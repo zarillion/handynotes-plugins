@@ -949,6 +949,7 @@ L['moonkin_hatchling_note'] = '需要世界任務 {wq:擔憂之爪} 存在時.'
 L['druid_glyphs_label'] = '德魯伊印記'
 L['druid_glyphs_sublabel'] = '{note:這不是一個德魯伊印記. 只是一份清單!}'
 L['druid_glyphs_note'] = '從 {location:翡翠夢境} 的各種活動中收集 {note:德魯伊印記}.'
+L['druid_glyphs_checklist_note'] = nil
 
 L['pollenfused_bristlebruin_fur_sample_note'] = '在 {location:焦黑地} 的大樹下附近拾取 {object:花粉融合刺棕熊毛皮樣品}.'
 

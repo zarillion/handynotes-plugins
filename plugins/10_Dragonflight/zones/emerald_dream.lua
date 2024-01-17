@@ -1226,10 +1226,40 @@ map.nodes[70002700] = DruidGlyph({
         DG.Flight.SlumberingSomnowl:Note('{spell:2637}, {spell:426183}'),
         Spacer(),
         Section('{spell:276012}'),
-        DG.Aquatic.PrismaticWhiskerfish:Note('{spell:51294}, '..L['amirdrassil'])
+        DG.Aquatic.PrismaticWhiskerfish:Note('{spell:51294}, ' .. L['amirdrassil'])
         -- LuaFormatter on
     }
 }) -- Druid Glyph List
+
+local RareKill = Class('RareKill', ns.reward.Reward)
+
+function RareKill:IsEnabled()
+    local completed = C_QuestLog.IsQuestFlaggedCompleted(self.nQuest)
+    return not completed
+end
+
+function RareKill:GetText() return ns.RenderLinks('{npc:' .. self.id .. '}') end
+
+function RareKill:GetStatus()
+    local Green = ns.status.Green
+    local Red = ns.status.Red
+    local completed = C_QuestLog.IsQuestFlaggedCompleted(self.kQuest)
+    return completed and Green(L['completed']) or Red(L['incomplete'])
+end
+
+map.nodes[72002700] = DruidGlyph({
+    label = L['druid_glyphs_label'],
+    sublabel = L['druid_glyphs_sublabel'],
+    note = L['druid_glyphs_note'] .. '\n\n' .. L['druid_glyphs_checklist_note'],
+    rewards = {
+        RareKill({id = 210046, nQuest = 78503, kQuest = 78211}), -- Keen-eyed Cian
+        RareKill({id = 210051, nQuest = 78513, kQuest = 78213}), -- Matriarch Keevah
+        RareKill({id = 210070, nQuest = 78481, kQuest = 77940}), -- Mosa Umbramane
+        RareKill({id = 210161, nQuest = 78511, kQuest = 77890}), -- Ristar, the Rabid
+        RareKill({id = 209902, nQuest = 78524, kQuest = 77994}), -- Talthonei Ashwisper
+        RareKill({id = 210045, nQuest = 78517, kQuest = 78210}) -- Moragh the Slothful
+    }
+}) -- Druid Glyph Checklsit
 
 map.nodes[60341694] = DruidGlyph({
     id = 212903,

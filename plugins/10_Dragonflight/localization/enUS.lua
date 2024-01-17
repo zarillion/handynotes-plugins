@@ -949,6 +949,7 @@ L['moonkin_hatchling_note'] = 'Requires Worldquest {wq:Claws for Concern} to be 
 L['druid_glyphs_label'] = 'Druid Glyphs'
 L['druid_glyphs_sublabel'] = '{note:This is NOT a Druid Glyph. Just a checklist!}'
 L['druid_glyphs_note'] = 'Collect {note:Druid Glyphs} from various activities around the {location:Emerald Dream}.'
+L['druid_glyphs_checklist_note'] = 'Track daily kills for rares in {location:The Emerald Dream}. Only {npc:NPCs} with needed loot will appear in the list.\n\nDaily kills will be marked as ' .. ns.status.Green('Completed') .. '.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Loot the {object:Pollenfused Bristlebruin Fur Sample} found near the bottom of the tree in {location:The Char}.'
 

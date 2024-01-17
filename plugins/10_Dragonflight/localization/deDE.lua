@@ -950,6 +950,7 @@ L['moonkin_hatchling_note'] = 'Die Weltquest {wq:Beklemmende Klauen} muss aktiv 
 L['druid_glyphs_label'] = 'Druidenglyphen'
 L['druid_glyphs_sublabel'] = '{note:Das ist nur eine Checkliste für die Druidenglypen!}'
 L['druid_glyphs_note'] = 'Sammle {note:Druidenglyphen} von verschiedenen Aktivitäten in der Zone {location:Der Smaragdgrüne Traum}.'
+L['druid_glyphs_checklist_note'] = nil
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Auf dem Boden vor dem Baum.'
 

@@ -872,6 +872,7 @@ L['moonkin_hatchling_note'] = nil
 L['druid_glyphs_label'] = nil
 L['druid_glyphs_sublabel'] = nil
 L['druid_glyphs_note'] = nil
+L['druid_glyphs_checklist_note'] = nil
 
 L['pollenfused_bristlebruin_fur_sample_note'] = nil
 
