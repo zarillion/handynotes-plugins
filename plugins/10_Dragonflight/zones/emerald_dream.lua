@@ -1053,7 +1053,13 @@ map.nodes[51555972] = Collectible({
         Item({item = 211414}), -- Blossoming Dreamtrove
         Item({item = 208047}), -- Gigantic Dreamseed
         Item({item = 208067}), -- Plump Dreamseed
-        Item({item = 208066}) -- Small Dreamseed
+        Item({item = 208066}), -- Small Dreamseed
+        Spacer(), Section('{npc:207554}' .. '  ' .. _G.LOOT), -- Verlann Timbercrush
+        Transmog({item = 210661, slot = L['cosmetic']}), -- Dreamcatcher's Crescent
+        Transmog({item = 210662, slot = L['cosmetic']}), -- Ochre Ornament of the Grove
+        Transmog({item = 210663, slot = L['cosmetic']}), -- Circlet of the Mother Tree
+        Transmog({item = 210664, slot = L['cosmetic']}), -- Frost Sapling's Adornment
+        Transmog({item = 210666, slot = L['cosmetic']}) -- Crest of the Seething Flamekeeper
     }
 })
 

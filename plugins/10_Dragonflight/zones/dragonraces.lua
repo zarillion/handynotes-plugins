@@ -12,7 +12,7 @@ local Achievement = ns.reward.Achievement
 local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
 local Transmog = ns.reward.Transmog
-
+local Item = ns.reward.Item
 local DC = ns.DRAGON_CUSTOMIZATIONS
 
 -------------------------------------------------------------------------------
@@ -172,6 +172,16 @@ Valdrakken.nodes[27004760] = DragonridingVendor({
 
 --------------------------------- AZURE SPAN ----------------------------------
 
+local DragonRacersPurse = {
+    Spacer(), Section(_G.WORLD_QUEST_REWARD_FILTERS_TITLE),
+    Item({item = 199192}), -- Dragon Racer's Purse
+    DC.RenewedProtoDrake.DualHornedCrest, DC.RenewedProtoDrake.ThinSpinedJaw,
+    DC.WindborneVelocidrake.HookedSnout, DC.WindborneVelocidrake.CurledHorns,
+    DC.HighlandDrake.CurledBackHorns, DC.HighlandDrake.HookedTail,
+    DC.HighlandDrake.SweptSpikedHead, DC.CliffsideWylderdrake.LargeTailSpikes,
+    DC.CliffsideWylderdrake.SpikedBrow, DC.CliffsideWylderdrake.CurledHeadHorns
+}
+
 local function AzureSpan_Rewards(b, c, r, s) -- basic, challenge, reverse challenge, storm race
     local rewards = {
         Achievement({id = 15921, criteria = b, oneline = true}), -- normal bronze
@@ -190,7 +200,8 @@ local function AzureSpan_Rewards(b, c, r, s) -- basic, challenge, reverse challe
         Spacer(), Section(L['dr_reverse_challenge']),
         Achievement({id = 18757, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18758, criteria = r, oneline = true}), -- reverse challenge silver
-        Achievement({id = 18759, criteria = r, oneline = true}) -- reverse challenge gold
+        Achievement({id = 18759, criteria = r, oneline = true}), -- reverse challenge gold
+        unpack(DragonRacersPurse)
     }
     if s then AddStormRace(rewards, s) end
     return rewards
@@ -277,7 +288,11 @@ local function ForbiddenReach_Rewards(b, c, r, s) -- basic, challenge, reverse c
         Spacer(), Section(L['dr_reverse_challenge']),
         Achievement({id = 18779, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18780, criteria = r, oneline = true}), -- reverse challenge silver
-        Achievement({id = 18781, criteria = r, oneline = true}) -- reverse challenge gold
+        Achievement({id = 18781, criteria = r, oneline = true}), -- reverse challenge gold
+        Spacer(), Section(_G.WORLD_QUEST_REWARD_FILTERS_TITLE),
+        Item({item = 205226}), -- Reach Racer's Purse
+        DC.RenewedProtoDrake.PlatedBrow, DC.WindborneVelocidrake.SmallEars,
+        DC.HighlandDrake.SweptHorns, DC.CliffsideWylderdrake.FlaredCheek
     }
     if s then AddStormRace(rewards, s) end
     return rewards
@@ -364,7 +379,8 @@ local function OhnahranPlains_Rewards(b, c, r, s) -- basic, challenge, reverse c
         Spacer(), Section(L['dr_reverse_challenge']),
         Achievement({id = 18754, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18755, criteria = r, oneline = true}), -- reverse challenge silver
-        Achievement({id = 18756, criteria = r, oneline = true}) -- reverse challenge gold
+        Achievement({id = 18756, criteria = r, oneline = true}), -- reverse challenge gold
+        unpack(DragonRacersPurse)
     }
     if s then AddStormRace(rewards, s) end
     return rewards
@@ -422,7 +438,8 @@ OhnahranPlains.nodes[59933555] = Dragonrace({
         Section(L['dr_challenge']),
         Achievement({id = 18754, criteria = 11, oneline = true}), -- challenge bronze
         Achievement({id = 18755, criteria = 11, oneline = true}), -- challenge silver
-        Achievement({id = 18756, criteria = 11, oneline = true}) -- challenge gold
+        Achievement({id = 18756, criteria = 11, oneline = true}), -- challenge gold
+        unpack(DragonRacersPurse)
     }
 }) -- Maruukai Dash
 
@@ -437,7 +454,8 @@ OhnahranPlains.nodes[47487064] = Dragonrace({
         Section(L['dr_challenge']),
         Achievement({id = 18754, criteria = 12, oneline = true}), -- challenge bronze
         Achievement({id = 18755, criteria = 12, oneline = true}), -- challenge silver
-        Achievement({id = 18756, criteria = 12, oneline = true}) -- challenge gold
+        Achievement({id = 18756, criteria = 12, oneline = true}), -- challenge gold
+        unpack(DragonRacersPurse)
     }
 }) -- Mirror of Sky Dash
 
@@ -465,7 +483,8 @@ OhnahranPlains.nodes[43746678] = Dragonrace({
         Spacer(), Section(L['dr_reverse_challenge']),
         Achievement({id = 18754, criteria = 10, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18755, criteria = 10, oneline = true}), -- reverse challenge silver
-        Achievement({id = 18756, criteria = 10, oneline = true}) -- reverse challenge gold
+        Achievement({id = 18756, criteria = 10, oneline = true}), -- reverse challenge gold
+        unpack(DragonRacersPurse)
     }
 }) -- River Rapids Route
 
@@ -489,7 +508,8 @@ local function Thaldraszus_Rewards(b, c, r, s) -- basic, challenge, reverse chal
         Spacer(), Section(L['dr_reverse_challenge']),
         Achievement({id = 18760, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18761, criteria = r, oneline = true}), -- reverse challenge silver
-        Achievement({id = 18762, criteria = r, oneline = true}) -- reverse challenge gold
+        Achievement({id = 18762, criteria = r, oneline = true}), -- reverse challenge gold
+        unpack(DragonRacersPurse)
     }
     if s then AddStormRace(rewards, s) end
     return rewards
@@ -576,7 +596,8 @@ local function WakingShores_Rewards(b, c, r, s) -- basic, challenge, reverse cha
         Spacer(), Section(L['dr_reverse_challenge']),
         Achievement({id = 18748, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18749, criteria = r, oneline = true}), -- reverse challenge silver
-        Achievement({id = 18750, criteria = r, oneline = true}) -- reverse challenge gold
+        Achievement({id = 18750, criteria = r, oneline = true}), -- reverse challenge gold
+        unpack(DragonRacersPurse)
     }
     if s then AddStormRace(rewards, s) end
     return rewards
@@ -617,7 +638,8 @@ WakingShores.nodes[47018558] = Dragonrace({
         Spacer(), Section(L['dr_reverse_challenge']),
         Achievement({id = 18748, criteria = 16, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18749, criteria = 4, oneline = true}), -- reverse challenge silver
-        Achievement({id = 18750, criteria = 4, oneline = true}) -- reverse challenge gold
+        Achievement({id = 18750, criteria = 4, oneline = true}), -- reverse challenge gold
+        unpack(DragonRacersPurse)
     }
 }) -- Wild Preserve Slalom
 
@@ -695,7 +717,8 @@ WakingShores.nodes[42599445] = Dragonrace({
         Spacer(), Section(L['dr_reverse_challenge']),
         Achievement({id = 18748, criteria = 4, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18749, criteria = 16, oneline = true}), -- reverse challenge silver
-        Achievement({id = 18750, criteria = 16, oneline = true}) -- reverse challenge gold
+        Achievement({id = 18750, criteria = 16, oneline = true}), -- reverse challenge gold
+        unpack(DragonRacersPurse)
     }
 }) -- Wild Preserve Circuit
 
@@ -719,7 +742,16 @@ local function ZaralekCavern_Rewards(b, c, r, s) -- basic, challenge, reverse ch
         Spacer(), Section(L['dr_reverse_challenge']),
         Achievement({id = 18786, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18787, criteria = r, oneline = true}), -- reverse challenge silver
-        Achievement({id = 18788, criteria = r, oneline = true}) -- reverse challenge gold
+        Achievement({id = 18788, criteria = r, oneline = true}), -- reverse challenge gold
+        Spacer(), Section(_G.WORLD_QUEST_REWARD_FILTERS_TITLE),
+        Item({item = 205226}), -- Cavern Racer's Purse
+        DC.RenewedProtoDrake.ProngedTail, DC.HighlandDrake.TaperedChin,
+        DC.CliffsideWylderdrake.SplitHorns,
+        DC.CliffsideWylderdrake.SmallHeadSpikes,
+        DC.WindingSlitherdrake.SmallFinnedCrest,
+        DC.WindingSlitherdrake.FinnedTipTail,
+        DC.WindingSlitherdrake.PointedNose,
+        DC.WindingSlitherdrake.TripleJawHorns
     }
     if s then AddStormRace(rewards, s) end
     return rewards
@@ -806,7 +838,16 @@ local function EmeraldDream_Rewards(b, c, r) -- basic, challenge, reverse challe
         Spacer(), Section(L['dr_reverse_challenge']),
         Achievement({id = 19124, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 19125, criteria = r, oneline = true}), -- reverse challenge silver
-        Achievement({id = 19126, criteria = r, oneline = true}) -- reverse challenge gold
+        Achievement({id = 19126, criteria = r, oneline = true}), -- reverse challenge gold
+        Spacer(), Section(_G.WORLD_QUEST_REWARD_FILTERS_TITLE),
+        Item({item = 210549}), -- Dream Racer's Purse
+        DC.WindingSlitherdrake.HairyJaw, DC.WindingSlitherdrake.ShortHorns,
+        DC.WindingSlitherdrake.ThornHorns,
+        DC.WindingSlitherdrake.LargeFinnedTail,
+        DC.GrottoNetherwingDrake.SpikedBack,
+        DC.GrottoNetherwingDrake.ClusterSpikedCrest,
+        DC.GrottoNetherwingDrake.VolatilePattern,
+        DC.GrottoNetherwingDrake.DoubleFinnedTail
     }
 end
 
