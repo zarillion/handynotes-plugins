@@ -176,10 +176,10 @@ L['tuskarr_pepe_note'] = 'Perché à droite du bâtiment près de {npc:196544} e
 
 L['end_of_august'] = '{note:Disponible uniquement jusqu\'à fin août.}'
 
-L['rich_soil_label'] = nil
-L['rich_soil_note'] = nil
-L['options_icons_rich_soil'] = nil
-L['options_icons_rich_soil_desc'] = nil
+L['rich_soil_label'] = 'Sol riche'
+L['rich_soil_note'] = 'Semez des germes sur les parcelles de {object:Sols riches} dans les {location:Îles aux Dragons} pour obtenir des récompenses aléatoires.\n\n{item:200506} - Faites pousser des herbes ordinaires aléatoires provenant des {location:Îles aux Dragons}.\n\n{item:200508} - Faites pousser des Essences agitées aléatoires.\n\n{item:200507} - Faites pousser des herbes décomposées aléatoires.\n\n{item:200509} - Fait apparaître une {npc:198571} donnant en butin diverses herbes et essences aléatoires.'
+L['options_icons_rich_soil'] = 'Sol riche'
+L['options_icons_rich_soil_desc'] = 'Afficher les emplacements des {object:Sols riches}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
