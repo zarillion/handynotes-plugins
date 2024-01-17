@@ -1896,10 +1896,8 @@ val.nodes[50505290] = Collectible({
 
 ----------------------------- PROVISIONER ARISTTA -----------------------------
 
-map.nodes[61373139] = Collectible({
-    label = '{npc:209192}',
-    icon = 'peg_bl',
-    scale = 2.0,
+map.nodes[61373139] = Vendor({
+    id = 209192,
     note = L['provisioner_aristta_note'],
     rewards = {
         Mount({item = 192796, id = 1638, count = 20000}), -- Explorer's Stonehide Packbeast
@@ -1937,10 +1935,8 @@ map.nodes[61373139] = Collectible({
 
 --------------------------------- Ms. Xiulan ----------------------------------
 
-local Xiulan = Class('Xiulan', Collectible, {
-    label = '{npc:189644}',
-    icon = 'peg_bl',
-    scale = 2.0,
+local Xiulan = Class('Xiulan', Vendor, {
+    id = 189644,
     parent = map.id,
     note = L['end_of_august'],
     rewards = {
