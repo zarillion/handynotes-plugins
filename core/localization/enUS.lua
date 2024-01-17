@@ -196,6 +196,8 @@ L['options_icons_rares_desc'] = 'Display locations of rare NPCs.'
 L['options_icons_rares'] = 'Rares'
 L['options_icons_treasures_desc'] = 'Display locations of hidden treasures.'
 L['options_icons_treasures'] = 'Treasures'
+L['options_icons_vendors_desc'] = 'Display locations for vendors.'
+L['options_icons_vendors'] = 'Vendors'
 
 ------------------------------------ FOCUS ------------------------------------
 

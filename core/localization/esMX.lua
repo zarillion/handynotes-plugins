@@ -196,6 +196,8 @@ L['options_icons_rares_desc'] = 'Mostrar los lugares de los NPCs raros.'
 L['options_icons_rares'] = 'Raros'
 L['options_icons_treasures_desc'] = nil
 L['options_icons_treasures'] = 'Tesoros'
+L['options_icons_vendors_desc'] = nil
+L['options_icons_vendors'] = nil
 
 ------------------------------------ FOCUS ------------------------------------
 

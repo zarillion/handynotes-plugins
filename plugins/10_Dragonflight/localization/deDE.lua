@@ -166,6 +166,13 @@ L['dreamsurge_sublabel'] = '{note:Nur verfügbar, wenn ein {location:Traumsprung
 L['celestine_vendor_note'] = 'Tausche {item:207026} gegen ein Reittier, Haustiere, Spielzeuge und Ausrüstungsvorlagen ein.'
 L['renewed_magmammoth_note'] = 'Sammle 20x {item:209419} vom Endboss eines {location:Traumsprungs}, um das Reittier {item:192807} zu erhalten.'
 
+L['dragon_pepe_label'] = 'Pepe der Drache'
+L['dragon_pepe_note'] = 'Sitzt unten an der Treppe, die zum {Ort:Sitz der Aspekte} führt.'
+L['explorer_pepe_label'] = 'Pepe der Entdecker'
+L['explorer_pepe_note'] = 'Sitzt oben auf dem großen Zelt im {Ort:Drachenschuppenbasislager}.'
+L['tuskarr_pepe_label'] = 'Pepe der Tuskarr'
+L['tuskarr_pepe_note'] = 'Sitzt in der Nähe von {npc:196544} und {npc:187680} auf einem Gegenstand.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -612,6 +619,8 @@ L['naszuro_temporal_conflux'] = 'Auf dem Kopf der Drachenstatue.'
 L['revival_catalyst_label'] = 'Belebungskatalysator'
 L['revival_catalyst_note'] = 'Verwandelt einen Gegenstand in einen Setgegenstand.'
 
+L['provisioner_aristta_note'] = 'Tausche {currency:2657} gegen ein Reittier und Ausrüstungsvorlagen ein.'
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -1024,6 +1033,10 @@ L['nahqi_note'] = 'Benötigt die {item:211314}, um {npc:210908} mit {spell:1515}
 
 L['sulraka_note'] = 'Patrouilliert das Gebiet östlich von {location:Amirdrassil} {note:gegen den Uhrzeigersinn}.\n\nLässt während des laufens {object:Tiefe Fährten} zurück, die 3 Minuten halten.\nLäuft immer in Verstohlenheit, du musst ihn mit deiner Fähigkeit {spell:1543} vor frischen {object:Tiefe Fährten} aufdecken.\nZaubere {spell:257284} auf ihn und/oder benutze {spell:187650} und versuche ihn mit {spell:1515} zu zähmen.\n\n{note:Es ist wichtig, ihn aufzudecken oder zu fangen, denn {npc:210868} hört nicht auf sich zu bewegen, selbst wenn er angegriffen wird. Kann aus der Reichweite von {spell:1543} laufen.}\n\n{note:Diese {npc:Geisterbestie} können nur Tierherrschafts-Jäger zähmen.}'
 
+L['alara_shinu_note_01'] = 'Sprich mit {npc:213029} im {location:Zentrallager} in {location:Der Smaragdgrüne Traum}.\n\nEr wird dich bitten, sein Erinnerung in {location:Die Verheerte Küste} zu suchen.'
+L['alara_shinu_note_02'] = 'Sprich mit {npc:213186} bei {location:Der Verlorene Tempel} in {location:Die Verheerte Küste}.\n\nEr wird dich bitten, sein Erinnerung in {location:Val\'sharah} zu suchen.'
+L['alara_shinu_note_03'] = 'Sprich mit {npc:213114} bei {location:Der Tempel von Elune} in {location:Val\'Sharah}.\n\nDanach erscheint ein Hirsch, der seine Kriegsgleve trägt. Erfülle die Kriegsgleve mit der Teufelsflamme und plündere {item:210961}.'
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
@@ -1243,3 +1256,31 @@ L['wr_dur_foil_01'] = 'Hinter einigen Vorratskisten.'
 
 L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
 L['options_icons_warcraft_rumble_desc'] = 'Zeigt die Position der {object:Rumble-Münzenbeutel} und {object:Rumble-Folientasche} für die {object:Warcraft Rumble} Crossover Promotion.'
+
+-------------------------------------------------------------------------------
+--------------------------------- AMIRDRASSIL ---------------------------------
+-------------------------------------------------------------------------------
+
+L['kaldorei_backpack_label'] = 'Kaldoreirucksack'
+L['kaldorei_bag_label'] = 'Kaldoreitasche'
+L['kaldorei_bedroll_label'] = 'Kaldoreischlafsack'
+L['kaldorei_dagger_label'] = 'Kaldoreidolch'
+L['kaldorei_horn_label'] = 'Kaldoreihorn'
+L['kaldorei_moon_bow_label'] = 'Kaldoreimondbogen'
+L['kaldorei_shield_label'] = 'Kaldoreischild'
+L['kaldorei_spear_label'] = 'Kaldoreispeer'
+L['kaldorei_spyglass_label'] = 'Kaldoreifernrohr'
+
+L['blue_kaldorei_backpack_note'] = 'Auf einer Kiste im Haus.'
+L['blue_kaldorei_bedroll_note'] = 'Hinter dem Tisch vor einem kleinen Felsen.'
+L['blue_kaldorei_pouch_note'] = 'Neben dem Haus auf einem Fass.'
+L['kaldorei_bow_carver_note'] = 'Steckt in der obersten Etage im Tisch in einer Schriftrolle.'
+L['kaldorei_sentinels_spyglass_note'] = 'Auf einer Kiste unter dem Torbogen.'
+L['night_elven_bow_note'] = 'Lehnt in der {location:Hütte von Arlithrien} an einem Waffenständer.'
+L['night_elven_horn_note'] = 'Auf einer Kiste in der obersten Etage des {location:Morgenrötenwachturm}s.'
+L['night_elven_shield_note'] = 'Lehnt an einer Kiste neben dem Tisch.'
+L['night_elven_signal_note'] = 'Hängt oberhalb der Treppe an einer Wasserschale.'
+L['night_elven_spear_note'] = 'Lehnt am Eingang der {location:Scharfschneidenhalle} an einer Säule.'
+L['violet_kaldorei_pouch_note'] = 'Liegt vor den Vasen auf dem Boden.'
+
+L['moon_priestess_lasara_note'] = 'Tausche {currency:2003} gegen Ausrüstungsvorlagen ein.'

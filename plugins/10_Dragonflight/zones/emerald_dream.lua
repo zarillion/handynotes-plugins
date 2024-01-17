@@ -14,6 +14,7 @@ local NPC = ns.node.NPC
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
+local Vendor = ns.node.Vendor
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -1703,14 +1704,10 @@ map.nodes[58434177] = ElusiveCreature({
 }) -- Elusive Verdant Gladewarden
 
 -------------------------------------------------------------------------------
--------------------------------- MISCELLANEOUS --------------------------------
+----------------------------------- VENDORS -----------------------------------
 -------------------------------------------------------------------------------
 
------------------------------- VENDOR: SEEDBLOOM ------------------------------
-
-local SeedbloomVendor = Class('SeedbloomVendor', Collectible, {
-    icon = 'peg_bl',
-    scale = 2.0,
+local SeedbloomVendor = Class('SeedbloomVendor', Vendor, {
     note = L['sylvia_vendor_note'],
     rewards = {
         DG.Travel.BorealDreamtalon:Count('1'), --
@@ -1738,12 +1735,8 @@ local SeedbloomVendor = Class('SeedbloomVendor', Collectible, {
 map.nodes[59761689] = SeedbloomVendor({id = 211265}) -- Sylvia Whisperbloom <Dreamseed Botanist>
 map.nodes[49776211] = SeedbloomVendor({id = 212797}) -- Talisa Whisperbloom <Dreamseed Botanist>
 
----------------------------- VENDOR: DREAM ENERGY -----------------------------
-
-local Elianna = Class('Elianna', Collectible, {
+local Elianna = Class('Elianna', Vendor, {
     id = 211209,
-    icon = 'peg_bl',
-    scale = 2.0,
     requires = {ns.requirement.Reputation(2574, 5, true)},
     rewards = {
         Pet({item = 210785, id = 4310, count = '1'}), -- Snorr
@@ -1777,6 +1770,10 @@ function Elianna.getters:note()
 end
 
 map.nodes[50226180] = Elianna()
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
 
 --------------------------- TOY: IMPROVISED LEAFBED ---------------------------
 
@@ -1991,3 +1988,40 @@ map.nodes[58305820] = NPC({
         })
     }
 }) -- Sul'raka
+
+-------------------- DEAMON HUNTER WARGLAIVES: ALARA'SHINU --------------------
+
+map.nodes[50506090] = Collectible({
+    label = '{npc:213029}',
+    rlabel = ns.status.Gray('1/3'),
+    class = 'DEMONHUNTER',
+    icon = 5061798,
+    note = L['alara_shinu_note_01'],
+    rewards = {
+        Transmog({item = 210961, slot = L['warglaive']}) -- Alara'shinu
+    }
+}) -- Landeron Felfury
+
+local brokenShore = ns.maps[646] or Map({id = 646, settings = true})
+brokenShore.nodes[71604130] = Collectible({
+    label = '{npc:213186}',
+    rlabel = ns.status.Gray('2/3'),
+    class = 'DEMONHUNTER',
+    icon = 5061798,
+    note = L['alara_shinu_note_02'],
+    rewards = {
+        Transmog({item = 210961, slot = L['warglaive']}) -- Alara'shinu
+    }
+}) -- Memory of Landeron Felfury
+
+local valSharah = ns.maps[641] or Map({id = 641, settings = true})
+valSharah.nodes[51105710] = Collectible({
+    label = '{npc:213114}',
+    rlabel = ns.status.Gray('3/3'),
+    class = 'DEMONHUNTER',
+    icon = 5061798,
+    note = L['alara_shinu_note_03'],
+    rewards = {
+        Transmog({item = 210961, slot = L['warglaive']}) -- Alara'shinu
+    }
+}) -- Memory of Landeron Felfury

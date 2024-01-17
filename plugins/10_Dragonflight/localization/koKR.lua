@@ -166,6 +166,13 @@ L['dreamsurge_sublabel'] = nil
 L['celestine_vendor_note'] = nil
 L['renewed_magmammoth_note'] = nil
 
+L['dragon_pepe_label'] = nil
+L['dragon_pepe_note'] = nil
+L['explorer_pepe_label'] = nil
+L['explorer_pepe_note'] = nil
+L['tuskarr_pepe_label'] = nil
+L['tuskarr_pepe_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -573,6 +580,8 @@ L['naszuro_temporal_conflux'] = nil
 L['revival_catalyst_label'] = nil
 L['revival_catalyst_note'] = nil
 
+L['provisioner_aristta_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
@@ -946,6 +955,10 @@ L['nahqi_note'] = nil
 
 L['sulraka_note'] = nil
 
+L['alara_shinu_note_01'] = nil
+L['alara_shinu_note_02'] = nil
+L['alara_shinu_note_03'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
@@ -1156,3 +1169,31 @@ L['wr_dur_foil_01'] = nil
 
 L['options_icons_warcraft_rumble'] = nil
 L['options_icons_warcraft_rumble_desc'] = nil
+
+-------------------------------------------------------------------------------
+--------------------------------- AMIRDRASSIL ---------------------------------
+-------------------------------------------------------------------------------
+
+L['kaldorei_backpack_label'] = nil
+L['kaldorei_bag_label'] = nil
+L['kaldorei_bedroll_label'] = nil
+L['kaldorei_dagger_label'] = nil
+L['kaldorei_horn_label'] = nil
+L['kaldorei_moon_bow_label'] = nil
+L['kaldorei_shield_label'] = nil
+L['kaldorei_spear_label'] = nil
+L['kaldorei_spyglass_label'] = nil
+
+L['blue_kaldorei_backpack_note'] = nil
+L['blue_kaldorei_bedroll_note'] = nil
+L['blue_kaldorei_pouch_note'] = nil
+L['kaldorei_bow_carver_note'] = nil
+L['kaldorei_sentinels_spyglass_note'] = nil
+L['night_elven_bow_note'] = nil
+L['night_elven_horn_note'] = nil
+L['night_elven_shield_note'] = nil
+L['night_elven_signal_note'] = nil
+L['night_elven_spear_note'] = nil
+L['violet_kaldorei_pouch_note'] = nil
+
+L['moon_priestess_lasara_note'] = nil
