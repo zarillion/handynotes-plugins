@@ -27,6 +27,7 @@ local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
 local RareElite = ns.node.RareElite
+local RichSoil = ns.node.RichSoil
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
@@ -1632,6 +1633,14 @@ val.nodes[57048156] = AncientStone({
 ------------------------------------------------------------------------------
 
 map.nodes[51134337] = ns.node.Celestine()
+
+-------------------------------------------------------------------------------
+---------------------------------- RICH SOIL ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[71007200] = RichSoil()
+map.nodes[49366061] = RichSoil()
+map.nodes[32406920] = RichSoil()
 
 -------------------------------------------------------------------------------
 ----------------------------------- VENDORS -----------------------------------

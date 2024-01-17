@@ -176,6 +176,11 @@ L['tuskarr_pepe_note'] = nil
 
 L['end_of_august'] = nil
 
+L['rich_soil_label'] = nil
+L['rich_soil_note'] = nil
+L['options_icons_rich_soil'] = nil
+L['options_icons_rich_soil_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

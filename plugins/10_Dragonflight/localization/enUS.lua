@@ -175,6 +175,11 @@ L['tuskarr_pepe_note'] = 'Perched on the building near {npc:196544} and {npc:187
 
 L['end_of_august'] = '{note:Only available before end of August.}'
 
+L['rich_soil_label'] = 'Rich Soil'
+L['rich_soil_note'] = 'Plant various seedlings in a patch of {object:Rich Soil} on the {location:Dragon Isles} to sprout random rewards.\n\n{item:200506} - Grow random standard {location:Dragon Isles} herbs\n\n{item:200508} - Grow random Rousing Essensces\n\n{item:200507} - Grow random decayed herbs\n\n{item:200509} - Spawn {npc:198571} for various random herbs and essences'
+L['options_icons_rich_soil'] = 'Rich Soil'
+L['options_icons_rich_soil_desc'] = 'Display locations for {object:Rich Soil}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

@@ -176,6 +176,11 @@ L['tuskarr_pepe_note'] = 'Perché à droite du bâtiment près de {npc:196544} e
 
 L['end_of_august'] = '{note:Disponible uniquement jusqu\'à fin août.}'
 
+L['rich_soil_label'] = nil
+L['rich_soil_note'] = nil
+L['options_icons_rich_soil'] = nil
+L['options_icons_rich_soil_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

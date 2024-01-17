@@ -175,6 +175,11 @@ L['tuskarr_pepe_note'] = 'Encaramado en el edificio cerca de {npc:196544} y {npc
 
 L['end_of_august'] = '{note:Sólo está disponible antes de que acabe Agosto.}'
 
+L['rich_soil_label'] = nil
+L['rich_soil_note'] = nil
+L['options_icons_rich_soil'] = nil
+L['options_icons_rich_soil_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

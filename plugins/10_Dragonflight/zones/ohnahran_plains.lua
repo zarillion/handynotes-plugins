@@ -25,6 +25,7 @@ local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
+local RichSoil = ns.node.RichSoil
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
@@ -2194,6 +2195,22 @@ map.nodes[73337238] = Node({
 
 map.nodes[64164161] = ns.node.Celestine()
 map.nodes[24496126] = ns.node.RenewedMagmammoth()
+
+-------------------------------------------------------------------------------
+---------------------------------- RICH SOIL ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[25005800] = RichSoil()
+map.nodes[24205984] = RichSoil()
+map.nodes[60005300] = RichSoil()
+map.nodes[59605060] = RichSoil()
+map.nodes[62295025] = RichSoil()
+map.nodes[25586053] = RichSoil()
+map.nodes[31295175] = RichSoil()
+map.nodes[62456000] = RichSoil()
+map.nodes[62805850] = RichSoil()
+map.nodes[65665315] = RichSoil()
+map.nodes[32925312] = RichSoil()
 
 -------------------------------------------------------------------------------
 

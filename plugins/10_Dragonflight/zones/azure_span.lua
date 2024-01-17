@@ -28,6 +28,7 @@ local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
 local RareElite = ns.node.RareElite
+local RichSoil = ns.node.RichSoil
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
@@ -1800,6 +1801,20 @@ map.nodes[60324973] = AncientStone({
 map.nodes[77403113] = AncientStone({
     rewards = {Achievement({id = 17563, criteria = 58818})}
 }) -- Valkros Maintenance
+
+-------------------------------------------------------------------------------
+---------------------------------- RICH SOIL ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[41004800] = RichSoil()
+map.nodes[40005900] = RichSoil()
+map.nodes[38604960] = RichSoil()
+map.nodes[41275042] = RichSoil()
+map.nodes[40806116] = RichSoil()
+map.nodes[46685564] = RichSoil()
+map.nodes[41484059] = RichSoil()
+map.nodes[41144865] = RichSoil()
+map.nodes[44035954] = RichSoil()
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

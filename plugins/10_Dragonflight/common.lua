@@ -160,6 +160,16 @@ ns.groups.REED_CHEST = Group('reed_chest', 'chest_yw', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.RICH_SOIL = Group('rich_soil', 4554355, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function(self)
+        -- Only display group for herbalism players
+        if not ns.professions.HERBALISM:HasProfession() then return false end
+        return Group.IsEnabled(self)
+    end
+})
+
 ns.groups.RITUAL_OFFERING = Group('ritual_offering', 'chest_bn', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -1904,3 +1914,16 @@ function RenewedMagmammoth.getters:note()
 end
 
 ns.node.RenewedMagmammoth = RenewedMagmammoth
+
+-------------------------------------------------------------------------------
+---------------------------------- RICH SOIL ----------------------------------
+-------------------------------------------------------------------------------
+
+local RichSoil = Class('RichSoil', Node, {
+    label = L['rich_soil_label'],
+    icon = 4554355,
+    group = ns.groups.RICH_SOIL,
+    note = L['rich_soil_note']
+}) -- Rich Soil
+
+ns.node.RichSoil = RichSoil

@@ -26,6 +26,7 @@ local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
 local RareElite = ns.node.RareElite
+local RichSoil = ns.node.RichSoil
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
@@ -2318,6 +2319,24 @@ map.nodes[34624668] = Collectible({
     },
     pois = {POI({35514794})} -- Entrance
 }) -- Broken Waygate
+
+-------------------------------------------------------------------------------
+---------------------------------- RICH SOIL ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[60006400] = RichSoil()
+map.nodes[56006800] = RichSoil()
+map.nodes[53506400] = RichSoil()
+map.nodes[54476895] = RichSoil()
+map.nodes[54355753] = RichSoil()
+map.nodes[53376028] = RichSoil()
+map.nodes[57006000] = RichSoil()
+map.nodes[54305700] = RichSoil()
+map.nodes[53005200] = RichSoil()
+map.nodes[54606584] = RichSoil()
+map.nodes[55875764] = RichSoil()
+map.nodes[59456104] = RichSoil()
+map.nodes[60645668] = RichSoil()
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
