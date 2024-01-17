@@ -82,7 +82,7 @@ map.nodes[59075874] = RareElite({
     pois = {POI({60755543, 60736211, 59225648, 59266104})} -- Titanic Reactors
 }) -- Ancient Protector
 
-map.nodes[61507360] = Rare({
+map.nodes[61636958] = Rare({
     id = 193220,
     vignette = 5193,
     quest = 73987,
@@ -1627,12 +1627,6 @@ val.nodes[57048156] = AncientStone({
     rewards = {Achievement({id = 17564, criteria = 58825})}
 }) -- Valdrakken
 
-------------------------------------------------------------------------------
---------------------------------- DREAMSURGE ---------------------------------
-------------------------------------------------------------------------------
-
-map.nodes[51134337] = ns.node.Celestine()
-
 -------------------------------------------------------------------------------
 ----------------------------------- VENDORS -----------------------------------
 -------------------------------------------------------------------------------
@@ -1807,11 +1801,20 @@ map.nodes[62618507] = ns.node.MoteOfNaszuro({
 
 -------------------------------------------------------------------------------
 
-map.nodes[59735374] = ns.node.Node({
+local Catalyst = Class('Catalyst', ns.node.Node, {
     label = L['revival_catalyst_label'],
-    icon = 1394953, -- use new season icon
-    note = L['revival_catalyst_note']
+    icon = 1394953
 }) -- Revival Catalyst
+
+function Catalyst.getters:note()
+    local currencyInfo = C_CurrencyInfo.GetCurrencyInfo(2796)
+    local q = currencyInfo.quantity
+    local m = currencyInfo.maxQuantity
+    local note = format(L['revival_catalyst_note'], q, m)
+    return note
+end
+
+map.nodes[59735374] = Catalyst()
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
@@ -1985,5 +1988,12 @@ local Xiulan = Class('Xiulan', Collectible, {
 }) -- Ms. Xiulan <Madam Goya's Assistant>
 
 val.nodes[19215029] = Xiulan()
+
+------------------------------------------------------------------------------
+--------------------------------- DREAMSURGE ---------------------------------
+------------------------------------------------------------------------------
+
+map.nodes[51134337] = ns.node.Celestine()
+map.nodes[61792619] = ns.node.RenewedMagmammoth()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
