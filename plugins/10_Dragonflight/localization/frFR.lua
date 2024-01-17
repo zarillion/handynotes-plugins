@@ -145,6 +145,10 @@ L['frostbound_chest'] = 'Coffre lié par le givre'
 L['options_icons_frostbound_chest'] = 'Coffre lié par le givre'
 L['options_icons_frostbound_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres liés par le givre}.'
 
+L['war_supply_chest_note'] = nil
+L['options_icons_war_supplies_desc'] = nil
+L['options_icons_war_supplies'] = nil
+
 L['fyrakk_assault_label'] = 'Assaut de Fyrakka'
 L['fyrakk_secured_shipment'] = 'Cargaison sécurisée'
 

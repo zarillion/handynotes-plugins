@@ -232,6 +232,11 @@ ns.groups.WARCRAFT_RUMBLE = Group('warcraft_rumble', 5149946, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.WAR_SUPPLY = Group('war_supplies', 'star_chest_g', {
+    defaults = ns.GROUP_HIDDEN75,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.ZONE_EVENT = Group('zone_event', 'peg_rd', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -1280,6 +1285,33 @@ local ElementalChest = Class('ElementalChest', ns.node.Treasure, {
 })
 
 ns.node.ElementalChest = ElementalChest
+
+-------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CRATES ------------------------------
+-------------------------------------------------------------------------------
+
+ns.node.WarSupply = Class('WarSupply', Node, {
+    icon = 'star_chest_g',
+    scale = 1.5,
+    label = '{npc:135238}',
+    rlabel = ns.GetIconLink('war_mode_swords', 16),
+    quest = {72376, 72377},
+    note = L['war_supply_chest_note'],
+    requires = ns.requirement.WarMode,
+    rewards = {
+        Achievement({id = 16615, criteria = {id = 1, qty = true}}), -- Blood Bank
+        Achievement({id = 16613, criteria = {id = 1, qty = true}}), -- Finder's Keepers
+        Recipe({item = 201257, profession = 165}), -- Bloodstained Pattern: Infurious Hide
+        Recipe({item = 201259, profession = 165}), -- Bloodstained Pattern: Infurious Scales
+        Recipe({item = 201256, profession = 164}), -- Bloodstained Plans: Infurious Alloy
+        Recipe({item = 201258, profession = 197}), -- Bloodstained Pattern: Infurious Wildercloth Bolt
+        Item({item = 190451}), -- Rousing Ire
+        Currency({id = 2123, note = '~200'}), -- Bloody Tokens
+        Currency({id = 1602, note = '+60'}), -- Conquest
+        Currency({id = 1792, note = '+100'}) -- Honor
+    },
+    group = ns.groups.WAR_SUPPLY
+})
 
 -------------------------------------------------------------------------------
 ---------------------------------- INTERVALS ----------------------------------

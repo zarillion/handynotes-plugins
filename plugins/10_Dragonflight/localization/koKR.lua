@@ -144,6 +144,10 @@ L['frostbound_chest'] = '서리결속 보관함'
 L['options_icons_frostbound_chest'] = '서리결속 보관함'
 L['options_icons_frostbound_chest_desc'] = nil
 
+L['war_supply_chest_note'] = nil
+L['options_icons_war_supplies_desc'] = nil
+L['options_icons_war_supplies'] = nil
+
 L['fyrakk_assault_label'] = nil
 L['fyrakk_secured_shipment'] = nil
 

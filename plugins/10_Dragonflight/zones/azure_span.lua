@@ -33,6 +33,7 @@ local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
+local WarSupply = ns.node.WarSupply
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -1409,6 +1410,20 @@ map.nodes[67101270] = IcemawStorageCache()
 map.nodes[48406380] = ns.node.FrostboundChest()
 map.nodes[49706390] = ns.node.FrostboundChest()
 map.nodes[51306080] = ns.node.FrostboundChest()
+
+-------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[21403520] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[24505010] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[26202970] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[38303290] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[44904680] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[48505360] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[67701640] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[69705400] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[71402890] = WarSupply({fgroup = 'supply_azure_span'})
 
 -------------------------------------------------------------------------------
 --------------------- TO ALL THE SQUIRRELS HIDDEN TIL NOW ---------------------

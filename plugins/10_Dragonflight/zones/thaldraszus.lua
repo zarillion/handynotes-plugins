@@ -32,6 +32,7 @@ local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
+local WarSupply = ns.node.WarSupply
 
 local Achievement = ns.reward.Achievement
 local Appearance = ns.reward.Appearance
@@ -864,6 +865,21 @@ map.nodes[61906180] = TitanChest()
 map.nodes[54006140] = ns.node.FrostboundChest()
 map.nodes[55206290] = ns.node.FrostboundChest()
 map.nodes[56206450] = ns.node.FrostboundChest()
+
+-------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[37337483] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[42004890] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[43806980] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[49405770] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[50105870] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[53903600] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[57385384] = WarSupply({fgroup = 'supply_thaldraszus', note = 'Bug! dispear after openning'})
+map.nodes[59606171] = WarSupply({fgroup = 'supply_thaldraszus', note = 'Bug! dispear after openning'})
+map.nodes[61903070] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[64605970] = WarSupply({fgroup = 'supply_thaldraszus'})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

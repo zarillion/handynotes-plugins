@@ -144,6 +144,10 @@ L['frostbound_chest'] = '霜缚宝箱'
 L['options_icons_frostbound_chest'] = '霜缚宝箱'
 L['options_icons_frostbound_chest_desc'] = '显示 {object:霜缚宝箱} 可能的位置。'
 
+L['war_supply_chest_note'] = '一个 {npc:135181} 每隔45分钟就会在头顶飞过一次，并空投一个 {npc:135238} 到潜在可能的几个位置之一。'
+L['options_icons_war_supplies_desc'] = '显示 {npc:135238} 的空投位置。'
+L['options_icons_war_supplies'] = '{npc:135238}'
+
 L['fyrakk_assault_label'] = '菲莱克突袭'
 L['fyrakk_secured_shipment'] = '夺得的货物'
 

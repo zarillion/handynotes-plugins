@@ -31,6 +31,7 @@ local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
+local WarSupply = ns.node.WarSupply
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -995,6 +996,20 @@ map.nodes[57604350] = ns.node.DracthyrSupplyChest()
 map.nodes[66405660] = ns.node.DracthyrSupplyChest()
 map.nodes[67905800] = ns.node.DracthyrSupplyChest()
 map.nodes[68005890] = ns.node.DracthyrSupplyChest()
+
+-------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[24227983] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[32006370] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[32605100] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[47997652] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[51505640] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[51794273] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[66123326] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[70866535] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[78704910] = WarSupply({fgroup = 'supply_waking_shore'})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
