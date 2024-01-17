@@ -949,8 +949,7 @@ L['moonkin_hatchling_note'] = 'Requiere que la misión del mundo {wq:La preocupa
 L['druid_glyphs_label'] = 'Glifos de Druida'
 L['druid_glyphs_sublabel'] = '{note:Esto NO es un Glifo de Druida. ¡Sólo una lista de verificación!}'
 L['druid_glyphs_note'] = 'Colecciona {note:Glifo de Druida} obtenidos de varias actividades a lo largo del {location:Sueño Esmeralda}.'
-L['druid_glyphs_checklist_note'] = nil
-
+L['druid_glyphs_checklist_note'] = 'Seguimiento de las muertes diarias de raros en el {location:Sueño Esmeralda}. Sólo aparecen en la lista los {npc:NPC} con algo necesario por despojar.\n\nLas muertes diarias estarán marcadas como ' .. ns.status.Green('Completado') .. '.'
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Despoja la {object:Muestra de pelaje de erizapúas polinizado} que se encuentra cerca de la parte inferior del arbol de {location:Calcina}.'
 
 L['mbc_note_start'] = 'Despoja la {object:Caja Pequeña de Viales} para conseguir la {item:210991}.\n\nRecibirás 6x {item:210839} que necesitarán ser llenados con agua de la poza de la luna de cada continente.'
