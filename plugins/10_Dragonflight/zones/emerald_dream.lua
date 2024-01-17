@@ -14,6 +14,7 @@ local NPC = ns.node.NPC
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
+local Vendor = ns.node.Vendor
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -1703,14 +1704,10 @@ map.nodes[58434177] = ElusiveCreature({
 }) -- Elusive Verdant Gladewarden
 
 -------------------------------------------------------------------------------
--------------------------------- MISCELLANEOUS --------------------------------
+----------------------------------- VENDORS -----------------------------------
 -------------------------------------------------------------------------------
 
------------------------------- VENDOR: SEEDBLOOM ------------------------------
-
-local SeedbloomVendor = Class('SeedbloomVendor', Collectible, {
-    icon = 'peg_bl',
-    scale = 2.0,
+local SeedbloomVendor = Class('SeedbloomVendor', Vendor, {
     note = L['sylvia_vendor_note'],
     rewards = {
         DG.Travel.BorealDreamtalon:Count('1'), --
@@ -1738,12 +1735,8 @@ local SeedbloomVendor = Class('SeedbloomVendor', Collectible, {
 map.nodes[59761689] = SeedbloomVendor({id = 211265}) -- Sylvia Whisperbloom <Dreamseed Botanist>
 map.nodes[49776211] = SeedbloomVendor({id = 212797}) -- Talisa Whisperbloom <Dreamseed Botanist>
 
----------------------------- VENDOR: DREAM ENERGY -----------------------------
-
-local Elianna = Class('Elianna', Collectible, {
+local Elianna = Class('Elianna', Vendor, {
     id = 211209,
-    icon = 'peg_bl',
-    scale = 2.0,
     requires = {ns.requirement.Reputation(2574, 5, true)},
     rewards = {
         Pet({item = 210785, id = 4310, count = '1'}), -- Snorr
@@ -1777,6 +1770,10 @@ function Elianna.getters:note()
 end
 
 map.nodes[50226180] = Elianna()
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
 
 --------------------------- TOY: IMPROVISED LEAFBED ---------------------------
 

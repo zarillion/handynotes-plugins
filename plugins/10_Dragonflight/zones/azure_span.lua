@@ -12,6 +12,7 @@ local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
+local Vendor = ns.node.Vendor
 
 local AncientStone = ns.node.AncientStone
 local Disturbeddirt = ns.node.Disturbeddirt
@@ -1991,9 +1992,8 @@ map.nodes[12404920] = NPC({
     }
 }) -- Elder Poa (Iskaara Tuskarr Reputation)
 
-local Kazzi = Class('Kazzi', Collectible, {
+local Kazzi = Class('Kazzi', Vendor, {
     id = 201105,
-    icon = 1535070,
     requires = {ns.requirement.Quest(72547)}, -- Academic Acquisitions
     rewards = {
         Toy({item = 202283, note = L['rep_revered']}), -- Reading Glasses

@@ -9,8 +9,8 @@ local Group = ns.Group
 
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
-local NPC = ns.node.NPC
 local Rare = ns.node.Rare
+local Vendor = ns.node.Vendor
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -1834,10 +1834,8 @@ end)
 --------------------------------- DREAMSURGE ---------------------------------
 ------------------------------------------------------------------------------
 
-local Celestine = Class('Celestine', NPC, {
+local Celestine = Class('Celestine', Vendor, {
     id = 210608,
-    icon = 'peg_bl',
-    scale = 2.0,
     sublabel = L['dreamsurge_sublabel'],
     note = L['celestine_vendor_note'],
     rewards = {
