@@ -947,7 +947,7 @@ L['moonkin_hatchling_note'] = 'Nécessite que l\'expédition {wq:Griffes d’inq
 L['druid_glyphs_label'] = 'Glyphes de druide'
 L['druid_glyphs_sublabel'] = '{note:Ceci n\'est PAS un glyphe de druide. Il s\'agit simplement d\'une liste !}'
 L['druid_glyphs_note'] = 'Récupérez des {note:Glyphes de druide} grâce à diverses activités au sein du {location:Rêve d\'Émeraude}.'
-L['druid_glyphs_checklist_note'] = nil
+L['druid_glyphs_checklist_note'] = 'Retrouvez ici les rares du {location:Rêve d\'Émeraude} et l\'information indiquant si ils ont été tués pour la journée. Seuls les {npc:PNJs} dont le butin est nécessaire apparaîtront dans la liste.\n\nLes monstres tuables quotidiennement seront marqués comme ' .. ns.status.Green('Complété') .. '.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Récupérez l\'{object:Échantillon de fourrure d\'hoursute amalgamée de pollen} trouvé au pied de l\'arbre à {location:La Calcination}.'
 
