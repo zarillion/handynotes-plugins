@@ -167,9 +167,9 @@ L['celestine_vendor_note'] = 'Tausche {item:207026} gegen ein Reittier, Haustier
 L['renewed_magmammoth_note'] = 'Sammle 20x {item:209419} vom Endboss eines {location:Traumsprungs}, um das Reittier {item:192807} zu erhalten.'
 
 L['dragon_pepe_label'] = 'Pepe der Drache'
-L['dragon_pepe_note'] = 'Sitzt unten an der Treppe, die zum {Ort:Sitz der Aspekte} führt.'
+L['dragon_pepe_note'] = 'Sitzt unten an der Treppe, die zum {location:Sitz der Aspekte} führt.'
 L['explorer_pepe_label'] = 'Pepe der Entdecker'
-L['explorer_pepe_note'] = 'Sitzt oben auf dem großen Zelt im {Ort:Drachenschuppenbasislager}.'
+L['explorer_pepe_note'] = 'Sitzt oben auf dem großen Zelt im {location:Drachenschuppenbasislager}.'
 L['tuskarr_pepe_label'] = 'Pepe der Tuskarr'
 L['tuskarr_pepe_note'] = 'Sitzt in der Nähe von {npc:196544} und {npc:187680} auf einem Gegenstand.'
 
