@@ -1240,14 +1240,17 @@ end
 
 function RareKill:GetText() return ns.RenderLinks('{npc:' .. self.id .. '}') end
 
+function RareKill:IsObtained()
+    return C_QuestLog.IsQuestFlaggedCompleted(self.kQuest)
+end
+
 function RareKill:GetStatus()
     local Green = ns.status.Green
     local Red = ns.status.Red
-    local completed = C_QuestLog.IsQuestFlaggedCompleted(self.kQuest)
-    return completed and Green(L['completed']) or Red(L['incomplete'])
+    return self:IsObtained() and Green(L['completed']) or Red(L['incomplete'])
 end
 
-map.nodes[72002700] = DruidGlyph({
+map.nodes[70003000] = DruidGlyph({
     label = L['druid_glyphs_label'],
     sublabel = L['druid_glyphs_sublabel'],
     note = L['druid_glyphs_note'] .. '\n\n' .. L['druid_glyphs_checklist_note'],
