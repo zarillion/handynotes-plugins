@@ -16,8 +16,6 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
 
-local WarSupply = ns.node.WarSupply
-
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
@@ -1568,18 +1566,6 @@ map.nodes[63457357] = Somnut()
 map.nodes[65985217] = Somnut() -- On a Branch/Root
 map.nodes[66085014] = Somnut()
 map.nodes[66246327] = Somnut()
-
--------------------------------------------------------------------------------
------------------------------- WAR SUPPLY CHESTS ------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[32402360] = WarSupply({fgroup = 'supply_emerald_dream'})
-map.nodes[37705440] = WarSupply({fgroup = 'supply_emerald_dream'})
-map.nodes[39002520] = WarSupply({fgroup = 'supply_emerald_dream'})
-map.nodes[47202180] = WarSupply({fgroup = 'supply_emerald_dream'})
-map.nodes[52703340] = WarSupply({fgroup = 'supply_emerald_dream'})
-map.nodes[62206172] = WarSupply({fgroup = 'supply_emerald_dream'})
-
 
 -------------------------------------------------------------------------------
 ---------------------------- EMERALD DREAM SAFARI -----------------------------

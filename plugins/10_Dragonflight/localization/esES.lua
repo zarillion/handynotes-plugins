@@ -144,10 +144,6 @@ L['frostbound_chest'] = 'Cofre Ligado a la Escarcha'
 L['options_icons_frostbound_chest'] = 'Cofre Ligado a la Escarcha'
 L['options_icons_frostbound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Ligado a la Escarcha}.'
 
-L['war_supply_chest_note'] = nil
-L['options_icons_war_supplies_desc'] = nil
-L['options_icons_war_supplies'] = nil
-
 L['fyrakk_assault_label'] = 'Asalto de Fyrakk'
 L['fyrakk_secured_shipment'] = 'Envío Seguro'
 

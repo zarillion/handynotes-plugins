@@ -144,10 +144,6 @@ L['frostbound_chest'] = 'Frostbound Chest'
 L['options_icons_frostbound_chest'] = 'Frostbound Chest'
 L['options_icons_frostbound_chest_desc'] = 'Display possible locations of {object:Frostbound Chests}.'
 
-L['war_supply_chest_note'] = 'A {npc:135181} will fly overhead once every 45 minutes and drop a {npc:135238} at one of these potential drop locations.'
-L['options_icons_war_supplies_desc'] = 'Display {npc:135238} drop locations.'
-L['options_icons_war_supplies'] = '{npc:135238}'
-
 L['fyrakk_assault_label'] = 'Fyrakk Assault'
 L['fyrakk_secured_shipment'] = 'Secured Shipment'
 

@@ -144,10 +144,6 @@ L['frostbound_chest'] = '霜縛寶箱'
 L['options_icons_frostbound_chest'] = '霜縛寶箱'
 L['options_icons_frostbound_chest_desc'] = '顯示 {object:霜縛寶箱} 可能的位置.'
 
-L['war_supply_chest_note'] = nil
-L['options_icons_war_supplies_desc'] = nil
-L['options_icons_war_supplies'] = nil
-
 L['fyrakk_assault_label'] = '菲拉卡突襲'
 L['fyrakk_secured_shipment'] = '封住的貨箱'
 

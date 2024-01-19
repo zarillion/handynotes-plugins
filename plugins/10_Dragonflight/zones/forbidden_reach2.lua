@@ -17,7 +17,6 @@ local Dragonglyph = ns.node.Dragonglyph
 local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
 local SignalTransmitter = ns.node.SignalTransmitter
-local WarSupply = ns.node.WarSupply
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -625,18 +624,6 @@ map.nodes[48947352] = ns.node.ElementalChest({
         Item({item = 204577}) -- Condensed Nature Magic
     }
 }) -- Storm-Bound Chest
-
--------------------------------------------------------------------------------
------------------------------- WAR SUPPLY CHESTS ------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[15001480] = WarSupply({fgroup = 'supply_forbidden_reach'})
-map.nodes[31405380] = WarSupply({fgroup = 'supply_forbidden_reach'})
-map.nodes[40801240] = WarSupply({fgroup = 'supply_forbidden_reach'})
-map.nodes[41203670] = WarSupply({fgroup = 'supply_forbidden_reach'})
-map.nodes[50104390] = WarSupply({fgroup = 'supply_forbidden_reach'})
-map.nodes[59003900] = WarSupply({fgroup = 'supply_forbidden_reach'})
-map.nodes[70707710] = WarSupply({fgroup = 'supply_forbidden_reach'})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

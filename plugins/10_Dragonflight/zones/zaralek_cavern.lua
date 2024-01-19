@@ -16,7 +16,6 @@ local AncientStone = ns.node.AncientStone
 local Dragonglyph = ns.node.Dragonglyph
 local PT = ns.node.ProfessionTreasures
 local ElusiveCreature = ns.node.ElusiveCreature
-local WarSupply = ns.node.WarSupply
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -746,18 +745,6 @@ map.nodes[60006300] = SmellyTreasureChest()
 map.nodes[62504200] = SmellyTreasureChest()
 map.nodes[62906990] = SmellyTreasureChest()
 map.nodes[65205530] = SmellyTreasureChest()
-
--------------------------------------------------------------------------------
------------------------------- WAR SUPPLY CHESTS ------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[41903760] = WarSupply({fgroup = 'supply_zaralek_cavern'})
-map.nodes[44502840] = WarSupply({fgroup = 'supply_zaralek_cavern'})
-map.nodes[46205880] = WarSupply({fgroup = 'supply_zaralek_cavern'})
-map.nodes[47104430] = WarSupply({fgroup = 'supply_zaralek_cavern'})
-map.nodes[48501800] = WarSupply({fgroup = 'supply_zaralek_cavern'})
-map.nodes[53904130] = WarSupply({fgroup = 'supply_zaralek_cavern'})
-map.nodes[57906610] = WarSupply({fgroup = 'supply_zaralek_cavern'})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

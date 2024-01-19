@@ -145,10 +145,6 @@ L['frostbound_chest'] = 'Скованный льдом сундук'
 L['options_icons_frostbound_chest'] = 'Скованный льдом сундук'
 L['options_icons_frostbound_chest_desc'] = 'Показать возможные места {object:Скованный льдом сундуков}.'
 
-L['war_supply_chest_note'] = nil
-L['options_icons_war_supplies_desc'] = nil
-L['options_icons_war_supplies'] = nil
-
 L['fyrakk_assault_label'] = 'Налеты Фиракка'
 L['fyrakk_secured_shipment'] = 'Защищенные ресурсы'
 
