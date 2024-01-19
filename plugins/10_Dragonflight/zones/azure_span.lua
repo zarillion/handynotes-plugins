@@ -57,6 +57,7 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2024, settings = true})
+local tra = Map({id = 2262, settings = false}) -- Traitor's Rest
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -2233,6 +2234,6 @@ function Eadweard.getters:rlabel()
     return color(L['weekly'])
 end
 
-map.nodes[26964646] = Eadweard()
+tra.nodes[55335134] = Eadweard({parent = map.id})
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
