@@ -145,6 +145,12 @@ ns.groups.MAGICBOUND_CHEST = Group('magicbound_chest', 'chest_tl', {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.OUTLAND_CUP = Group('dragonrace', 1100022, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function() return ns.IsCalendarEventActive(1407) end
+})
+
 ns.groups.PROFESSION_RARES = Group('profession_rares', 'peg_rd', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION

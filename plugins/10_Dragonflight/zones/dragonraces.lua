@@ -1263,27 +1263,153 @@ RedridgeMountains.nodes[40822500] = EasternKingdomsCup({
 ----------------------------------- OUTLANDS ----------------------------------
 -------------------------------------------------------------------------------
 
--- local function Outlands_Rewards(c)
---     return {
---         Achievement({id = 18566, criteria = c, oneline = true}), -- normal bronze
---         Achievement({id = 18567, criteria = c, oneline = true}), -- normal silver
---         Achievement({id = 18568, criteria = c, oneline = true}), -- normal gold
---         Achievement({id = 18569, criteria = c, oneline = true}), -- advanced bronze
---         Achievement({id = 18570, criteria = c, oneline = true}), -- advanced silver
---         Achievement({id = 18571, criteria = c, oneline = true}), -- advanced gold
---         Achievement({id = 18572, criteria = c, oneline = true}), -- reverse bronze
---         Achievement({id = 18573, criteria = c, oneline = true}), -- reverse silver
---         Achievement({id = 18574, criteria = c, oneline = true}) -- reverse gold
---     }
--- end
+local OutlandCup = Class('OutlandCup', Dragonrace,
+    {parent = 101, group = ns.groups.OUTLAND_CUP})
 
--- local BladesEdge = ns.maps[105] or Map({id = 105, settings = true})
--- local HellfirePeninsula = ns.maps[100] or Map({id = 100, settings = true})
--- local Nagrand = ns.maps[107] or Map({id = 107, settings = true})
--- local Netherstorm = ns.maps[109] or Map({id = 109, settings = true})
--- local ShadowmoonValley = ns.maps[104] or Map({id = 104, settings = true})
--- local TerokkarForest = ns.maps[108] or Map({id = 108, settings = true})
--- local Zangarmarsh = ns.maps[102] or Map({id = 102, settings = true})
+local function Outland_Rewards(c)
+    return {
+        Achievement({id = 19092, criteria = c, oneline = true}), -- normal bronze
+        Achievement({id = 19097, criteria = c, oneline = true}), -- normal silver
+        Achievement({id = 19098, criteria = c, oneline = true}), -- normal gold
+        Achievement({id = 19099, criteria = c, oneline = true}), -- advanced bronze
+        Achievement({id = 19100, criteria = c, oneline = true}), -- advanced silver
+        Achievement({id = 19101, criteria = c, oneline = true}), -- advanced gold
+        Achievement({id = 19102, criteria = c, oneline = true}), -- reverse bronze
+        Achievement({id = 19103, criteria = c, oneline = true}), -- reverse silver
+        Achievement({id = 19104, criteria = c, oneline = true}) -- reverse gold
+    }
+end
+
+local HellfirePeninsula = ns.maps[100] or Map({id = 100, settings = true})
+HellfirePeninsula.nodes[75514425] = OutlandCup({
+    label = '{quest:77102}',
+    normal = {2600, 80, 75},
+    advanced = {2615, 76, 73},
+    reverse = {2630, 75, 72},
+    rewards = Outland_Rewards(1),
+    areaPoiID = 7589
+}) -- Hellfire Hustle
+
+local Zangarmarsh = ns.maps[102] or Map({id = 102, settings = true})
+Zangarmarsh.nodes[36923719] = OutlandCup({
+    label = '{quest:77169}',
+    normal = {2601, 80, 75},
+    advanced = {2616, 73, 70},
+    reverse = {2631, 73, 70},
+    rewards = Outland_Rewards(2),
+    areaPoiID = 7590
+}) -- Coilfang Caper
+
+local BladesEdge = ns.maps[105] or Map({id = 105, settings = true})
+BladesEdge.nodes[61032759] = OutlandCup({
+    label = '{quest:77205}',
+    normal = {2602, 80, 75},
+    advanced = {2617, 75, 72},
+    reverse = {2632, 78, 75},
+    rewards = Outland_Rewards(3),
+    areaPoiID = 7591
+}) -- Blade's Edge Brawl
+
+local ShadowmoonValley = ns.maps[104] or Map({id = 104, settings = true})
+ShadowmoonValley.nodes[61734841] = OutlandCup({
+    label = '{quest:77346}',
+    normal = {2608, 75, 70},
+    advanced = {2623, 66, 63},
+    reverse = {2638, 66, 63},
+    rewards = Outland_Rewards(9),
+    areaPoiID = 7597
+}) -- Shadowmoon Slam
+
+ShadowmoonValley.nodes[51014006] = OutlandCup({
+    label = '{quest:77684}',
+    normal = {2612, 82, 77},
+    advanced = {2627, 76, 73},
+    reverse = {2642, 79, 76},
+    rewards = Outland_Rewards(13),
+    areaPoiID = 7601
+}) -- Fel Pit Fracas
+
+local Nagrand = ns.maps[107] or Map({id = 107, settings = true})
+Nagrand.nodes[58267599] = OutlandCup({
+    label = '{quest:77238}',
+    normal = {2603, 69, 64},
+    advanced = {2618, 60, 57},
+    reverse = {2633, 61, 58},
+    rewards = Outland_Rewards(4),
+    areaPoiID = 7592
+}) -- Telaar Tear
+
+Nagrand.nodes[29472503] = OutlandCup({
+    label = '{quest:77589}',
+    normal = {2610, 85, 80},
+    advanced = {2625, 75, 72},
+    reverse = {2640, 76, 73},
+    rewards = Outland_Rewards(11),
+    areaPoiID = 7599
+}) -- Warmaul Wingding
+
+local TerokkarForest = ns.maps[108] or Map({id = 108, settings = true})
+local Shattrath = ns.maps[111] or Map({id = 111, settings = true})
+local ShattrathCitySashay = OutlandCup({
+    label = '{quest:77322}',
+    normal = {2607, 80, 75},
+    advanced = {2622, 68, 65},
+    reverse = {2637, 69, 66},
+    rewards = Outland_Rewards(8),
+    areaPoiID = 7596
+}) -- Shattrath City Sashay
+
+TerokkarForest.nodes[34813025] = ShattrathCitySashay
+Shattrath.nodes[71317061] = ShattrathCitySashay
+
+local RazorthornRiseRush = OutlandCup({
+    label = '{quest:77260}',
+    normal = {2604, 72, 67},
+    advanced = {2619, 57, 54},
+    reverse = {2634, 57, 54},
+    rewards = Outland_Rewards(5),
+    areaPoiID = 7593
+}) -- Razorthorn Rise Rush
+
+TerokkarForest.nodes[59810480] = RazorthornRiseRush
+HellfirePeninsula.nodes[32657707] = RazorthornRiseRush
+
+TerokkarForest.nodes[42256788] = OutlandCup({
+    label = '{quest:77264}',
+    normal = {2605, 78, 73},
+    advanced = {2620, 73, 70},
+    reverse = {2635, 73, 70},
+    rewards = Outland_Rewards(6),
+    areaPoiID = 7594
+}) -- Auchindoun Coaster
+
+TerokkarForest.nodes[67256586] = OutlandCup({
+    label = '{quest:77645}',
+    normal = {2611, 75, 70},
+    advanced = {2626, 66, 63},
+    reverse = {2641, 66, 63},
+    rewards = Outland_Rewards(12),
+    areaPoiID = 7600
+}) -- Skettis Scramble
+
+local Netherstorm = ns.maps[109] or Map({id = 109, settings = true})
+Netherstorm.nodes[51204193] = OutlandCup({
+    label = '{quest:77398}',
+    normal = {2609, 120, 115},
+    advanced = {2624, 112, 109},
+    reverse = {2639, 113, 110},
+    rewards = Outland_Rewards(10),
+    areaPoiID = 7598
+}) -- Eco-Dome Excursion
+
+Netherstorm.nodes[68894774] = OutlandCup({
+    label = '{quest:77278}',
+    normal = {2606, 105, 100},
+    advanced = {2621, 90, 87},
+    reverse = {2636, 91, 88},
+    rewards = Outland_Rewards(7),
+    areaPoiID = 7595
+}) -- Tempest Keep Sweep
 
 -------------------------------------------------------------------------------
 ---------------------------------- NORTHREND ----------------------------------
