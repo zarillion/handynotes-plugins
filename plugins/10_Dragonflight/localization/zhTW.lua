@@ -166,19 +166,19 @@ L['dreamsurge_sublabel'] = '{note:只有在 {location:夢境湧現} 在此區域
 L['celestine_vendor_note'] = '使用 {item:207026} 交換坐騎, 玩具, 寵物和塑形.'
 L['renewed_magmammoth_note'] = '從 {location:夢境湧現} 最後的首領收集20個 {item:209419} 來組合成 {item:192807}.'
 
-L['dragon_pepe_label'] = nil
-L['dragon_pepe_note'] = nil
-L['explorer_pepe_label'] = nil
-L['explorer_pepe_note'] = nil
-L['tuskarr_pepe_label'] = nil
-L['tuskarr_pepe_note'] = nil
+L['dragon_pepe_label'] = '巨龍皮皮'
+L['dragon_pepe_note'] = '停在往 {location:守護巨龍之座} 樓梯左側的柱子上.'
+L['explorer_pepe_label'] = '探險者皮皮'
+L['explorer_pepe_note'] = '停在 {location:龍鱗基地} 的大帳篷上方.'
+L['tuskarr_pepe_label'] = '巨牙海民皮皮'
+L['tuskarr_pepe_note'] = '停在靠近 {npc:196544} 和 {npc:187680} 的建築上.'
 
-L['end_of_august'] = nil
+L['end_of_august'] = '{note:僅在八月底前可取得.}'
 
-L['rich_soil_label'] = nil
-L['rich_soil_note'] = nil
-L['options_icons_rich_soil'] = nil
-L['options_icons_rich_soil_desc'] = nil
+L['rich_soil_label'] = '肥沃土壤'
+L['rich_soil_note'] = '在 {location:巨龍群島} 的 {object:肥沃土壤} 種植各種種子會長出隨機的獎勵.\n\n{item:200506} - 長出隨機標準 {location:巨龍群島} 草藥\n\n{item:200508} - 長出隨機喚醒元素精華\n\n{item:200507} - 長出隨機腐朽草藥\n\n{item:200509} - 生出 {npc:198571} 來取得各種隨機草藥和元素精華'
+L['options_icons_rich_soil'] = '肥沃土壤'
+L['options_icons_rich_soil_desc'] = '顯示 {object:肥沃土壤} 的位置.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -624,7 +624,7 @@ L['naszuro_temporal_conflux'] = '在龍雕像的頭上.'
 L['revival_catalyst_label'] = '重生育籃控制臺'
 L['revival_catalyst_note'] = '將非套裝裝備轉換為對應裝等語部位的套裝部件.'
 
-L['provisioner_aristta_note'] = nil
+L['provisioner_aristta_note'] = '用 {currency:2657} 交換塑型和一隻座騎.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -856,11 +856,11 @@ L['seething_cache_treasure_note'] = '要能夠看到 {object:沸騰貯藏箱} �
 L['chest_of_the_flights_treasure_note'] = '要開啟寶箱你必須按照順序點選 {object:Empowered Gems} {note:紅> 黑 > 藍 > 黃 > 綠}.'
 L['curious_top_hat_note'] = '當你有 {spell:410288} 增益時和 {npc:205010} 互動來拿到 {item:205021}. 如果你沒有增益的時候靠近他他會跑掉.'
 
-L['the_gift_of_cheese_note_1'] = nil
-L['the_gift_of_cheese_note_2'] = nil
-L['the_gift_of_cheese_note_3'] = nil
-L['the_gift_of_cheese_note_4'] = nil
-L['the_gift_of_cheese_note_5'] = nil
+L['the_gift_of_cheese_note_1'] = '在 {location:黑曜之眠} 點選 {object:Squeaking Swiss} 後 {item:204871} 會進入你的背包.'
+L['the_gift_of_cheese_note_2'] = '和 {item:204871} 互動會取得 {item:204872}. {note:(5分鐘冷卻)}'
+L['the_gift_of_cheese_note_3'] = '當你有30個 {item:204872} 後, 組合這些碎片來取得圖樣.'
+L['the_gift_of_cheese_note_4'] = '{note:這隻老鼠喜歡起司, 大約每3分鐘會吃掉一個 {item:3927}. 好好計畫!}'
+L['the_gift_of_cheese_note_5'] = '當你能製造 {item:204848} 後, 餵給在艾澤拉斯找到的50個 {npc:4075} 來完成成就.'
 
 L['zaralek_rare_active'] = ns.color.Blue('此稀有今日會刷新.')
 L['zaralek_rare_inactive'] = ns.color.Orange('此稀有今日不會刷新, 明日再來.')
@@ -949,34 +949,34 @@ L['moonkin_hatchling_note'] = '需要世界任務 {wq:擔憂之爪} 存在時.'
 L['druid_glyphs_label'] = '德魯伊印記'
 L['druid_glyphs_sublabel'] = '{note:這不是一個德魯伊印記. 只是一份清單!}'
 L['druid_glyphs_note'] = '從 {location:翡翠夢境} 的各種活動中收集 {note:德魯伊印記}.'
-L['druid_glyphs_checklist_note'] = nil
+L['druid_glyphs_checklist_note'] = '在 {location:翡翠夢境} 追蹤每日稀有的擊殺. 只有需要拾取的 {npc:NPC} 會顯示在清單中.\n\n每日已擊殺過的會標示成 ' .. ns.status.Green('已完成') .. '.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = '在 {location:焦黑地} 的大樹下附近拾取 {object:花粉融合刺棕熊毛皮樣品}.'
 
-L['mbc_note_start'] = '拾取 {object:Small Box of Vials} 來取得 {item:210991}.\n\n你會拿到6個 {210839} 需要用各個大陸的月井水灌滿.'
-L['mbc_note_end'] = '合成6個 {item:210876} 來產生 {item:210977} 並將它帶到 {location:埃達希爾} 旁的 {object:Feral Dreamstone}.\n\n使用 {item:210977} 並拾取 {item:210977} 來取得 {item:210728}.'
+L['mbc_note_start'] = '拾取 {object:一小箱的瓶子} 來取得 {item:210991}.\n\n你會拿到6個 {item:210839} 需要用各個大陸的月井水灌滿.'
+L['mbc_note_end'] = '合成6個 {item:210876} 來產生 {item:210977} 並將它帶到 {location:埃達希爾} 旁的 {object:野性夢石}.\n\n使用 {item:210977} 並拾取 {object:月祐之爪} 來取得 {item:210728}.'
 
-L['mbc_vial_b'] = nil
-L['mbc_vial_d'] = nil
-L['mbc_vial_e'] = nil
-L['mbc_vial_k'] = nil
-L['mbc_vial_n'] = nil
-L['mbc_vial_o'] = nil
+L['mbc_vial_b'] = 'B'
+L['mbc_vial_d'] = 'D'
+L['mbc_vial_e'] = 'E'
+L['mbc_vial_k'] = 'K'
+L['mbc_vial_n'] = 'N'
+L['mbc_vial_o'] = 'O'
 
-L['mbc_vial_d_location'] = nil
-L['mbc_vial_e_location'] = nil
-L['mbc_vial_k_location'] = nil
-L['mbc_vial_n_location'] = nil
-L['mbc_vial_o_location'] = nil
+L['mbc_vial_d_location'] = '墜星哨站'
+L['mbc_vial_e_location'] = '暮光森林'
+L['mbc_vial_k_location'] = '怒風獸穴'
+L['mbc_vial_n_location'] = '繁星之眠'
+L['mbc_vial_o_location'] = '塞納里奧避難所'
 
-L['mbc_vial_location'] = nil
+L['mbc_vial_location'] = '將 {item:%d} 灌入從 {location:%s}, {location:%s}, {location:%s} 的月井所取得的水來取得 {item:%d}.'
 
 L['mbc_moonwell_label'] = '月井'
-L['mbc_feral_dreamstone_label'] = nil
+L['mbc_feral_dreamstone_label'] = '野性夢石'
 
 L['azure_somnowl_note'] = '完成 {npc:209318} 給予的 {quest:78065} 開始的短任務鏈來取得 {item:210645}.'
 
-L['slumbering_somnowl_note_a'] = '在 {location:翡翠夢境} 用 {spell:2637} 讓不同的 {npc:Somnowl} 睡著來收集 5 個 {item:210565}'
+L['slumbering_somnowl_note_a'] = '在 {location:翡翠夢境} 用 {spell:2637} 讓不同的 {npc:眠梟} 睡著來收集 5 個 {item:210565}'
 L['slumbering_somnowl_note_b'] = '從任意的補給品商人購買1個 {item:4291}.'
 L['slumbering_somnowl_note_c'] = '組合5個 {item:210565} 和1個 {item:4291} 來產生 {item:210566}.'
 L['slumbering_somnowl_note_d'] = '收集1個 {item:194864}.'
@@ -984,7 +984,7 @@ L['slumbering_somnowl_note_e'] = '組合1個 {item:210566} 和1個 {item:194864}
 
 L['thaelishar_vendor_note'] = '用金幣交換德魯伊印記.'
 L['silent_mark_label'] = '茂盛夢鹿'
-L['silent_mark_note'] = '選取正確的動物並引到對應的物品直到 {spell:426910} 出現. {note:你必須要同調 10+ 個動物.}\n\n引導 {item:210764} 到 {npc:210892}.\n\n引導 {item:210767} 到 {npc:211347}, {npc:211283}, or {npc:210894}.\n\n引導 {item:210755} 到 {npc:210594}.\n\n引導 {item:210766} 到 {npc:209494}, {npc:212028}, 或 {npc:212024}.'
+L['silent_mark_note'] = '選取正確的動物並引到對應的物品直到 {spell:426910} 出現. {note:你必須要同調 10+ 個動物.}\n\n引導 {item:210764} 到 {npc:210892}.\n\n引導 {item:210767} 到 {npc:211347}, {npc:211283}, 或 {npc:210894}.\n\n引導 {item:210755} 到 {npc:210594}.\n\n引導 {item:210766} 到 {npc:209494}, {npc:212028}, 或 {npc:212024}.'
 
 L['amirdrassil'] = '『夢境希望』埃達希爾'
 L['prismatic_location'] = '在團本 {location:『夢境希望』埃達希爾} 內.'
@@ -1003,9 +1003,9 @@ L['dream_energy_info'] = '%s: %d/%d (%.1f%%)'
 
 L['sylvia_vendor_note'] = '使用 {currency:2651} 交換寵物, 坐騎和塑形. 你也可以從夢境種子的獎勵取得它們.'
 
-L['somnut'] = '小睡夢果'
-L['options_icons_somnut'] = '小睡夢果'
-L['options_icons_somnut_desc'] = '顯示 {object:小睡夢果} 可能的位置.'
+L['somnut'] = '睡夢果'
+L['options_icons_somnut'] = '睡夢果'
+L['options_icons_somnut_desc'] = '顯示 {object:睡夢果} 可能的位置.'
 
 L['improvised_leafbed_note'] = '完成從 {quest:77896} 開始的任務鍊來從 {npc:210164} 取得 {item:210864}.'
 L['kalandu_note'] = '完成從 {quest:77948} 開始的任務鍊以從 {npc:210196} 取得 {item:210633}.'
