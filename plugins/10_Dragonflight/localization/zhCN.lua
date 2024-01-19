@@ -175,10 +175,10 @@ L['tuskarr_pepe_note'] = '栖息在 {npc:196544} 和 {npc:187680} 附近的建�
 
 L['end_of_august'] = '{note:仅在八月底之前提供。}'
 
-L['rich_soil_label'] = nil
-L['rich_soil_note'] = nil
-L['options_icons_rich_soil'] = nil
-L['options_icons_rich_soil_desc'] = nil
+L['rich_soil_label'] = '肥沃的土壤'
+L['rich_soil_note'] = '在 {location:巨龙群岛} 的 {object:肥沃的土壤} 中种植各种幼苗，发芽随机奖励。\n\n{item:200506} - 种植随机标准的 {location:巨龙群岛} 草药\n\n{item:200508} - 种植随机活力精华\n\n{item:200507} - 种植随机腐烂草药\n\n{item:200509} - 出现 {npc:198571} 以获得各种随机草药和精华'
+L['options_icons_rich_soil'] = '肥沃的土壤'
+L['options_icons_rich_soil_desc'] = '显示 {object:肥沃的土壤} 的位置。'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -949,7 +949,7 @@ L['moonkin_hatchling_note'] = '需要 {wq:关切利爪} 世界任务激活。'
 L['druid_glyphs_label'] = '德鲁伊印记'
 L['druid_glyphs_sublabel'] = '{note:这不是一个德鲁伊印记，而是清单！}'
 L['druid_glyphs_note'] = '在 {location:翡翠梦境} 中，通过各种途径，收集 {note:德鲁伊印记}。'
-L['druid_glyphs_checklist_note'] = nil
+L['druid_glyphs_checklist_note'] = '追踪 {location:翡翠梦境} 中稀有物品的每日击杀数。只有具有所需拾取的 {npc:NPC} 才会出现在列表中。\n\n每日击杀数将标记为 ' .. ns.status.Green('已完成') .. '。'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = '在 {location:焦烬之壤} 的一颗树根处拾取 {object:花粉灌注的鬃罴毛皮样本}。'
 
