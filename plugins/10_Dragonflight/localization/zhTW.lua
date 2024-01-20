@@ -1040,14 +1040,14 @@ L['nahqi_note'] = '需要 {item:211314} 才能對 {npc:210908} 使用 {spell:151
 
 L['sulraka_note'] = '{npc:210868}{npc:<Daughter of Kimbul>} 以 {note:逆時鐘方向} 在 {location:埃達希爾} 東方的區域巡邏, 花費17分鐘完成一周.\n最小刷新時間為30分鐘.\n\n在移動時會在後方留下會存在3分鐘的 {object:Heavy Tracks}.\n牠會一直潛行移動, 所以你必須要在全新的 {object:Heavy Tracks} 前方使用 {spell:1543} 來揭露牠.\n施放 {spell:257284} 和/或 {spell:187650} 然後再嘗試使用  {spell:1515}.\n\n{note:把牠困住或是揭露牠是很重要的, 因為即使受到攻擊 {npc:210868} 也不會停止移動. 牠可能會跑出 {spell:1543} 的範圍來取消技能.}\n\n{note:牠是{npc:靈獸}. 只有獸王獵可以馴服牠.}'
 
-L['alarashinu_note'] = nil
-L['alarashinu_note_stage1'] = nil
-L['alarashinu_note_stage2'] = nil
-L['alarashinu_note_stage3'] = nil
-L['alarashinu_note_stage4'] = nil
-L['alarashinu_note_stage5'] = nil
-L['alarashinu_note_stage6'] = nil
-L['alarashinu_note_end'] = nil
+L['alarashinu_note'] = '{item:210961}, 一個隱藏的魔痕戰刃.\n\n{note:特殊的視覺效果:}\n當你塑型或是使用 {item:210961} 時施放 {spell:195072}/ {spell:189110}/ {spell:198793} 會留下一道由花構成的路徑!'
+L['alarashinu_note_stage1'] = '在 {location:翡翠夢境} 的 {location:中央營地} 和 {npc:213029} 說話.'
+L['alarashinu_note_stage2'] = '到 {location:破碎海岸} 的 {location:失落神殿} 找到 {npc:213114}.'
+L['alarashinu_note_stage3'] = '到 {location:維爾薩拉} 的 {location:伊露恩神殿} 找到另一個 {npc:213186}.'
+L['alarashinu_note_stage4'] = '在記憶撥放完之後, {npc:213248} 會出現並帶著他的戰刃.'
+L['alarashinu_note_stage5'] = '使用你的魔化烈焰灌注 {npc:213308}.'
+L['alarashinu_note_stage6'] = '拾取 {npc:213381} 來取得 {item:210961}.'
+L['alarashinu_note_end'] = '回去找 {npc:213029}, 在你取得戰刃後他會有額外的對話.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
@@ -1273,26 +1273,26 @@ L['options_icons_warcraft_rumble_desc'] = '顯示為了 {object:魔獸兵團} �
 --------------------------------- AMIRDRASSIL ---------------------------------
 -------------------------------------------------------------------------------
 
-L['kaldorei_backpack_label'] = nil
-L['kaldorei_bag_label'] = nil
-L['kaldorei_bedroll_label'] = nil
-L['kaldorei_dagger_label'] = nil
-L['kaldorei_horn_label'] = nil
-L['kaldorei_moon_bow_label'] = nil
-L['kaldorei_shield_label'] = nil
-L['kaldorei_spear_label'] = nil
-L['kaldorei_spyglass_label'] = nil
+L['kaldorei_backpack_label'] = '卡多雷背包'
+L['kaldorei_bag_label'] = '卡多雷背袋'
+L['kaldorei_bedroll_label'] = '卡多雷睡墊'
+L['kaldorei_dagger_label'] = '卡多雷匕首'
+L['kaldorei_horn_label'] = '卡多雷號角'
+L['kaldorei_moon_bow_label'] = '卡多雷彎月弓'
+L['kaldorei_shield_label'] = '卡多雷之盾'
+L['kaldorei_spear_label'] = '卡多雷長矛'
+L['kaldorei_spyglass_label'] = '卡多雷望遠鏡'
 
-L['blue_kaldorei_backpack_note'] = nil
-L['blue_kaldorei_bedroll_note'] = nil
-L['blue_kaldorei_pouch_note'] = nil
-L['kaldorei_bow_carver_note'] = nil
-L['kaldorei_sentinels_spyglass_note'] = nil
-L['night_elven_bow_note'] = nil
-L['night_elven_horn_note'] = nil
-L['night_elven_shield_note'] = nil
-L['night_elven_signal_note'] = nil
-L['night_elven_spear_note'] = nil
-L['violet_kaldorei_pouch_note'] = nil
+L['blue_kaldorei_backpack_note'] = '在 {location:貝拉納爾} 的港口商店裡的箱子上方.'
+L['blue_kaldorei_bedroll_note'] = '在月井附近的桌子後方.'
+L['blue_kaldorei_pouch_note'] = '在一個充滿傳送門的建築外的桶子上.'
+L['kaldorei_bow_carver_note'] = '在 {location:暮光瞭望塔} 頂端靠近 {npc:216731} 旁的桌子上.'
+L['kaldorei_sentinels_spyglass_note'] = '在 {location:貝拉納爾} 的碼頭底端的箱子上.'
+L['night_elven_bow_note'] = '靠在 {location:亞里斯瑞恩小屋} 的武器架上.'
+L['night_elven_horn_note'] = '在 {location:晨曦瞭望塔} 頂端靠近 {npc:216752} 的箱子上.'
+L['night_elven_shield_note'] = '靠在採礦訓練師 {npc:216269} 旁的箱子上.'
+L['night_elven_signal_note'] = '掛在階梯頂端的火盆上.'
+L['night_elven_spear_note'] = '靠在 {location:鋒銳大廳} 的牆上.'
+L['violet_kaldorei_pouch_note'] = '在月井後方的拱門下方.'
 
-L['moon_priestess_lasara_note'] = nil
+L['moon_priestess_lasara_note'] = '使用 {currency:2003} 交換塑型.'
