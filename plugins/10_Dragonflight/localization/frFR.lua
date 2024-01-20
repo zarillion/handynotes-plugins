@@ -61,6 +61,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = 'Afficher les emplacements possibles
 L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:16729}.'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:18361}.'
 
 L['hnj_sublabel'] = 'Nécessite une Grande chasse Shikaar à proximité'
 L['hnj_western_azure_span_hunt'] = 'Au sommet de l\'arbre mort.'

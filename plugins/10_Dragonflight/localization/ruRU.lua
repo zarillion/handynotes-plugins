@@ -61,6 +61,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = 'Показать возможные
 L['squirrels_note'] = 'Вы должны использовать эмоцию {emote:/любовь} на зверьках, а не на боевых питомцах.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Места появления зверьков для {achievement:16729}'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = 'Места появления зверьков для {achievement:18361}'
 
 L['hnj_sublabel'] = 'Требуется местная Шикаарская Великая Охота'
 L['hnj_western_azure_span_hunt'] = 'На вершине мертвого дерева.'

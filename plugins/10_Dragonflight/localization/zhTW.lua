@@ -60,6 +60,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = '顯示 {object:巨牙海民釣具�
 L['squirrels_note'] = '你必須對小動物而不是戰寵使用表情 {emote:/love}.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = '顯示 {achievement:16729} 成就中小動物的位置.'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = '顯示 {achievement:18361} 成就中小動物的位置.'
 
 L['hnj_sublabel'] = '需要當地的席卡氏族大狩獵'
 L['hnj_western_azure_span_hunt'] = '在死掉樹的頂端.'

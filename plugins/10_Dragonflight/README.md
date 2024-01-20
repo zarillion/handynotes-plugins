@@ -100,6 +100,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 * Dragon Glyphs for the [Zaralek Cavern Glyph Hunter](https://www.wowhead.com/achievement=18150) achievement.
 * Ancient Stones for the [Ancient Stones of Zaralek](https://www.wowhead.com/achievement=17567) achievement.
+* Critter locations for the [To All the Squirrels Burrowed Beneath](https://www.wowhead.com/achievement=18361/to-all-the-squirrels-burrowed-beneath) achievement.
 
 ### Emerald Dream
 

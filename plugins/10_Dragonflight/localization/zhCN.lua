@@ -60,6 +60,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = '显示 {object:海象人工具盒} 
 L['squirrels_note'] = '必须使用表情 {emote:/爱}，{emote:/love} 给非战斗宠物的小动物。'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = '显示 {achievement:16729} 成就中小动物的位置。'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = '显示 {achievement:18361} 成就中小动物的位置。'
 
 L['hnj_sublabel'] = '需要本地席卡尔洪荒狩猎'
 L['hnj_western_azure_span_hunt'] = '死树顶上。'

@@ -1342,3 +1342,63 @@ map.nodes[58085381] = Vendor({
         Mount({item = 205209, id = 1736, count = 170}) -- Boulder Hauler
     }
 }) -- Ponzo <Barterer Extraordinaire>
+
+-------------------------------------------------------------------------------
+-------------------- TO ALL THE SQUIRRELS BURROWED BENEATH --------------------
+-------------------------------------------------------------------------------
+
+local Squirrel = Class('Squirrel', Collectible, {
+    group = ns.groups.ZARALEK_SQUIRRELS,
+    icon = 237182,
+    note = L['squirrels_note']
+})
+
+map.nodes[58457422] = Squirrel({
+    id = 201124,
+    rewards = {Achievement({id = 18361, criteria = 1})}
+}) -- Hissing Dustmoth
+
+map.nodes[58247305] = Squirrel({
+    id = 201120,
+    rewards = {Achievement({id = 18361, criteria = 2})}
+}) -- Pygmy Dawdler
+
+map.nodes[37967107] = Squirrel({
+    id = 200997,
+    rewards = {Achievement({id = 18361, criteria = 3})}
+}) -- Rock Martin
+
+map.nodes[50167670] = Squirrel({
+    id = 204780,
+    rewards = {Achievement({id = 18361, criteria = 4})}
+}) -- Skittering Pincher
+
+map.nodes[52047521] = Squirrel({
+    id = 204785,
+    rewards = {Achievement({id = 18361, criteria = 5})}
+}) -- Hatchling Dawdler
+
+map.nodes[44917771] = Squirrel({
+    id = 201875,
+    rewards = {Achievement({id = 18361, criteria = 6})}
+}) -- Aimless Snail
+
+map.nodes[36405417] = Squirrel({
+    id = 204801,
+    rewards = {Achievement({id = 18361, criteria = 7})}
+}) -- Incense Cinder
+
+map.nodes[36515305] = Squirrel({
+    id = 204802,
+    rewards = {Achievement({id = 18361, criteria = 8})}
+}) -- Magma Bubble
+
+map.nodes[32155111] = Squirrel({
+    id = 202720,
+    rewards = {Achievement({id = 18361, criteria = 9})}
+}) -- Phoenix Hatchling
+
+map.nodes[50036469] = Squirrel({
+    id = 205213,
+    rewards = {Achievement({id = 18361, criteria = 10})}
+}) -- Scuttering Beetle

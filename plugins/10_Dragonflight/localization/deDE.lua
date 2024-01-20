@@ -60,6 +60,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = 'Zeigt die möglichen Positionen fü
 L['squirrels_note'] = 'Du musst das Emote {emote:/liebe} auf Kleintiere anwenden (KEINE Kampfhaustiere).'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:16729} an.'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:18361} an.'
 
 L['hnj_sublabel'] = 'Benötigt einen Großen Jagdtrupp der Shikaarzen in der Nähe'
 L['hnj_western_azure_span_hunt'] = 'Auf dem toten Baum.'

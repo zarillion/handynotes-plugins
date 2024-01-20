@@ -60,6 +60,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = 'Muestra dónde pueden haber {object
 L['squirrels_note'] = 'Has de teclear {emote:/amor} mientras seleccionas alimañas que no sean mascotas de combate.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:16729}.'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:18361}.'
 
 L['hnj_sublabel'] = 'Requiere Gran Cacería Shikaar local'
 L['hnj_western_azure_span_hunt'] = 'Encima del árbol muerto.'
