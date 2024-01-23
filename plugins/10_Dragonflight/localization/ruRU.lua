@@ -167,12 +167,12 @@ L['dreamsurge_sublabel'] = '{note:Доступно только в то врем
 L['celestine_vendor_note'] = 'Обмен {item:207026} на средства передвижения, игрушки, питомцев и трансмогрификацию.'
 L['renewed_magmammoth_note'] = 'Соберите 20x {item:209419} с финальных боссов {location:Прилива Снов} и соберите из них {item:192807}.'
 
-L['dragon_pepe_label'] = nil
-L['dragon_pepe_note'] = nil
-L['explorer_pepe_label'] = nil
-L['explorer_pepe_note'] = nil
-L['tuskarr_pepe_label'] = nil
-L['tuskarr_pepe_note'] = nil
+L['dragon_pepe_label'] = 'Дракон Пепе'
+L['dragon_pepe_note'] = 'Расположен на столбе слева от лестницы, ведущей к {location:Престолу Аспектов}.'
+L['explorer_pepe_label'] = 'Исследователь Пепе'
+L['explorer_pepe_note'] = 'Расположен на вершине большой палатки в {location:лагере Драконьей экспедиции}.'
+L['tuskarr_pepe_label'] = 'Клыкарр Пепе'
+L['tuskarr_pepe_note'] = 'Расположен на здании рядом с {npc:196544} и {npc:187680}.'
 
 L['end_of_august'] = nil
 
