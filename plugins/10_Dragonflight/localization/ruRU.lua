@@ -973,7 +973,7 @@ L['mbc_vial_o_location'] = 'Кенарийский оплот'
 L['mbc_vial_location'] = 'Заполните {item:%d} водой из лунного колодца в {location:%s} в {location:%s} в {location:%s} чтобы получить {item:%d}.'
 
 L['mbc_moonwell_label'] = 'Лунный колодец'
-L['mbc_feral_dreamstone_label'] = nil
+L['mbc_feral_dreamstone_label'] = 'Звериный камень снов'
 
 L['azure_somnowl_note'] = 'Завершите короткую цепочку заданий, которая начинается с {quest:78065} у {npc:209318} чтобы получить {item:210645}.'
 
