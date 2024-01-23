@@ -965,10 +965,10 @@ L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'O'
 
 L['mbc_vial_d_location'] = 'Застава Падающих Звезд'
-L['mbc_vial_e_location'] = nil
-L['mbc_vial_k_location'] = nil
+L['mbc_vial_e_location'] = 'Сумеречная роща'
+L['mbc_vial_k_location'] = 'Кельи Малфуриона'
 L['mbc_vial_n_location'] = 'Покой Звезд'
-L['mbc_vial_o_location'] = nil
+L['mbc_vial_o_location'] = 'Кенарийский оплот'
 
 L['mbc_vial_location'] = 'Заполните {item:%d} водой из лунного колодца в {location:%s} в {location:%s} в {location:%s} чтобы получить {item:%d}.'
 
