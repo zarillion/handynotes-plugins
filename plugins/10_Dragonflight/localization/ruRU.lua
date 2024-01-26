@@ -1274,15 +1274,15 @@ L['options_icons_warcraft_rumble_desc'] = 'Отображать {object:Мешо
 --------------------------------- AMIRDRASSIL ---------------------------------
 -------------------------------------------------------------------------------
 
-L['kaldorei_backpack_label'] = nil
-L['kaldorei_bag_label'] = nil
-L['kaldorei_bedroll_label'] = nil
-L['kaldorei_dagger_label'] = nil
-L['kaldorei_horn_label'] = nil
-L['kaldorei_moon_bow_label'] = nil
-L['kaldorei_shield_label'] = nil
-L['kaldorei_spear_label'] = nil
-L['kaldorei_spyglass_label'] = nil
+L['kaldorei_backpack_label'] = 'Калдорайский рюкзак'
+L['kaldorei_bag_label'] = 'Калдорайская сумка'
+L['kaldorei_bedroll_label'] = 'Калдорайская походная постель'
+L['kaldorei_dagger_label'] = 'Калдорайский кинжал'
+L['kaldorei_horn_label'] = 'Калдорайский рог'
+L['kaldorei_moon_bow_label'] = 'Калдорайский лунный лук'
+L['kaldorei_shield_label'] = 'Калдорайский щит'
+L['kaldorei_spear_label'] = 'Калдорайское копье'
+L['kaldorei_spyglass_label'] = 'Калдорайская подзорная труба'
 
 L['blue_kaldorei_backpack_note'] = nil
 L['blue_kaldorei_bedroll_note'] = nil
