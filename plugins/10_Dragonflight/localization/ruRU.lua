@@ -1042,13 +1042,13 @@ L['nahqi_note'] = nil
 L['sulraka_note'] = nil
 
 L['alarashinu_note'] = nil
-L['alarashinu_note_stage1'] = nil
-L['alarashinu_note_stage2'] = nil
-L['alarashinu_note_stage3'] = nil
-L['alarashinu_note_stage4'] = nil
+L['alarashinu_note_stage1'] = 'Поговорите с {npc:213029} в {location:Центральном лагере} в {location:Изумрудном Сне}.'
+L['alarashinu_note_stage2'] = 'Отправляйтесь в {location:Разрушенный храм} на {location:Расколотом берегу}, и станьте свидетелем {npc:213114}.'
+L['alarashinu_note_stage3'] = 'Отправляйтесь в {location:Храм Элуны} в {location:Валь\'шаре}, и станьте свидетелем {npc:213186}.'
+L['alarashinu_note_stage4'] = 'После того, как воспоминания иссякнут, {npc:213248} появится со своим Парными клинками.'
 L['alarashinu_note_stage5'] = 'Наполните {npc:213308} своим пламенем Скверны.'
 L['alarashinu_note_stage6'] = 'Обыщите {npc:213381} и получите {item:210961}.'
-L['alarashinu_note_end'] = 'Вернитесь к {npc:213029}, и после того, как вы получите этот боевой клинок, у него появится бонусный диалог.'
+L['alarashinu_note_end'] = 'Вернитесь к {npc:213029} после того, как вы получите эти Парные клинки, у него появится бонусный диалог.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
