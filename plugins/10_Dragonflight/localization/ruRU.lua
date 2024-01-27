@@ -1046,9 +1046,9 @@ L['alarashinu_note_stage1'] = nil
 L['alarashinu_note_stage2'] = nil
 L['alarashinu_note_stage3'] = nil
 L['alarashinu_note_stage4'] = nil
-L['alarashinu_note_stage5'] = nil
-L['alarashinu_note_stage6'] = nil
-L['alarashinu_note_end'] = nil
+L['alarashinu_note_stage5'] = 'Наполните {npc:213308} своим пламенем Скверны.'
+L['alarashinu_note_stage6'] = 'Обыщите {npc:213381} и получите {item:210961}.'
+L['alarashinu_note_end'] = 'Вернитесь к {npc:213029}, и после того, как вы получите этот боевой клинок, у него появится бонусный диалог.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
