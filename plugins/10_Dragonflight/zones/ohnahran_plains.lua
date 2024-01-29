@@ -2214,4 +2214,19 @@ map.nodes[32925312] = RichSoil()
 
 -------------------------------------------------------------------------------
 
+local PrismaticLeaperSchool = Class('PrismaticLeaperSchool', Collectible, {
+    label = '{item:200061}',
+    icon = 630618,
+    fgroup = 'prismatic_leaper_school',
+    rewards = {
+        Achievement({id = 16322, criteria = {1, 2, 3, 4, 5}}) -- Best in Slot
+    }
+}); -- Prismatic Leaper School
+
+map.nodes[56408040] = PrismaticLeaperSchool()
+map.nodes[58303170] = PrismaticLeaperSchool()
+map.nodes[61508230] = PrismaticLeaperSchool()
+map.nodes[64303850] = PrismaticLeaperSchool()
+map.nodes[86105250] = PrismaticLeaperSchool()
+
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS
