@@ -433,6 +433,18 @@ ns.groups.STORIES = Group('stories', 4549126, {
     achievement = 16406
 })
 
+ns.groups.CLUED_IN = Group('clued_in', 618973, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 19787
+})
+
+ns.groups.GOGGLE_WOBBLE = Group('goggle_wobble', 133023, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 19791
+})
+
 -------------------------------------------------------------------------------
 --------------------------------- ELITE RARES ---------------------------------
 -------------------------------------------------------------------------------
@@ -1927,3 +1939,36 @@ local RichSoil = Class('RichSoil', Node, {
 }) -- Rich Soil
 
 ns.node.RichSoil = RichSoil
+
+-------------------------------------------------------------------------------
+---------------------------------- CLUED IN -----------------------------------
+-------------------------------------------------------------------------------
+
+local CluedIn = Class('CluedIn', Collectible, {
+    icon = 618973,
+    note = L['clued_in_note'],
+    rewards = {
+        Achievement({
+            id = 19787, -- Clued In
+            criteria = {id = 1, qty = true, suffix = L['information_stuffed_clue']}
+        })
+    },
+    group = ns.groups.CLUED_IN
+})
+
+ns.node.CluedIn = CluedIn
+
+-------------------------------------------------------------------------------
+-------------------------------- GOGGLE WOBBLE --------------------------------
+-------------------------------------------------------------------------------
+
+local GoggleWobble = Class('GoggleWobble', Collectible, {
+    id = 207763,
+    icon = 133023,
+    note = L['goggle_wobble_note'],
+    requires = ns.requirement.Spell(414539), -- Technoscryers
+    group = ns.groups.GOGGLE_WOBBLE
+}) -- Goggle Wobble
+
+ns.node.GoggleWobble = GoggleWobble
+

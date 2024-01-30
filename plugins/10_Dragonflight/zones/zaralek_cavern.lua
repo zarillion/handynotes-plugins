@@ -1122,6 +1122,39 @@ map.nodes[44458040] = Collectible({
 }) -- Grogul <Race Coordinator>
 
 -------------------------------------------------------------------------------
+---------------------------------- CLUED IN -----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[40995057] = ns.node.CluedIn({
+    label = L['djaradin_scroll'], -- 'Djaradin Scroll'
+    quest = 76734, -- Research: Djaradin of Zaralek Cavern
+    requires = ns.requirement.InProgress(76734)
+})
+
+map.nodes[40894160] = ns.node.CluedIn({
+    label = L['forgotten_incense'], -- 'Forgotten Incense'
+    quest = 76734,
+    requires = ns.requirement.InProgress(76734),
+    location = L['forgotten_incense_note'] -- '{note:hard to reach due to the quest boundaries}'
+})
+
+map.nodes[41844525] = ns.node.CluedIn({
+    label = L['historied_heirloom'], -- 'Historied Heirloom'
+    quest = 76734,
+    requires = ns.requirement.InProgress(76734)
+})
+
+-------------------------------------------------------------------------------
+-------------------------------- GOGGLE WOBBLE --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[38134985] = ns.node.GoggleWobble({
+    -- quest = {77484, 78820}, -- Technoscrying: (The Mysteries of )Igira's Watch
+    -- requires = ns.requirement.InProgress(77484, 78820),
+    rewards = {Achievement({id = 19791, criteria = 65404})}
+})
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 

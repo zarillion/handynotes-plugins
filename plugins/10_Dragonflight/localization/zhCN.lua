@@ -180,6 +180,15 @@ L['rich_soil_note'] = '在 {location:巨龙群岛} 的 {object:肥沃的土壤} 
 L['options_icons_rich_soil'] = '肥沃的土壤'
 L['options_icons_rich_soil_desc'] = '显示 {object:肥沃的土壤} 的位置。'
 
+L['information_stuffed_clue'] = '满载信息的线索'
+L['clued_in_note'] = '{npc:210079} 于事件 {note:盛大发掘}，以及3个世界任务 {wq:研究：……} 期间刷新。'
+L['options_icons_clued_in'] = '{achievement:19787}'
+L['options_icons_clued_in_desc'] = '显示成就 {achievement:19787} 中 {npc:210079} 的位置。'
+
+L['goggle_wobble_note'] = '在引导任务线 或 世界任务 {wq:科技占卜：……} 期间，穿戴 {item:202247} 的同时与 {npc:207763} {emote:/跳舞}({emote:/dance})。'
+L['options_icons_goggle_wobble'] = '{achievement:19791}'
+L['options_icons_goggle_wobble_desc'] = '显示成就 {achievement:19791} 中 {npc:207763} 的位置。'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -429,6 +438,12 @@ L['trader_hagarth_note'] = '将 {item:190456} 换成匠人珍玩配方。'
 
 L['naszuro_caldera_of_the_menders'] = '在塔顶。'
 
+L['sun_bleached_vase'] = '久经日晒的花瓶'
+L['untranslated_tome'] = '未翻译的魔典'
+L['untranslated_tome_note'] = '在建筑里，入口位于桥下'
+L['mysterious_boot'] = '神秘的靴子'
+L['mysterious_boot_note'] = '在上层'
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -537,6 +552,9 @@ L['naszuro_emerald_gardens'] = '瀑布旁的草地上。'
 
 L['prismatic_leaper_school_label'] = nil
 L['prismatic_leaper_school_note'] = nil
+
+L['aylaag_spear'] = nil
+L['dedication_plaquard'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -872,6 +890,11 @@ L['zaralek_event_inactive'] = ns.color.Orange('此区域事件今日不开始，
 
 L['options_icons_zone_event'] = '区域事件'
 L['options_icons_zone_event_desc'] = '显示区域事件的位置。'
+
+L['djaradin_scroll'] = nil
+L['forgotten_incense'] = nil
+L['forgotten_incense_note'] = '{note:由于任务边界的问题难以到达。}'
+L['historied_heirloom'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

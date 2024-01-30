@@ -181,6 +181,15 @@ L['rich_soil_note'] = 'Садите различные семена на уча�
 L['options_icons_rich_soil'] = 'Плодородная земля'
 L['options_icons_rich_soil_desc'] = 'Отображение местоположения для {object:Плодородной земли}.'
 
+L['information_stuffed_clue'] = nil
+L['clued_in_note'] = nil
+L['options_icons_clued_in'] = nil
+L['options_icons_clued_in_desc'] = nil
+
+L['goggle_wobble_note'] = nil
+L['options_icons_goggle_wobble'] = nil
+L['options_icons_goggle_wobble_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -431,6 +440,12 @@ L['trader_hagarth_note'] = 'Обменяйте {item:190456} на рецепты
 
 L['naszuro_caldera_of_the_menders'] = 'На вершине башни.'
 
+L['sun_bleached_vase'] = nil
+L['untranslated_tome'] = nil
+L['untranslated_tome_note'] = nil
+L['mysterious_boot'] = nil
+L['mysterious_boot_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -539,6 +554,9 @@ L['naszuro_emerald_gardens'] = 'На траве рядом с водопадом
 
 L['prismatic_leaper_school_label'] = nil
 L['prismatic_leaper_school_note'] = nil
+
+L['aylaag_spear'] = nil
+L['dedication_plaquard'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -873,6 +891,11 @@ L['zaralek_event_inactive'] = ns.color.Orange('Это событие не нач
 
 L['options_icons_zone_event'] = 'События'
 L['options_icons_zone_event_desc'] = 'Отображение мест для событий.'
+
+L['djaradin_scroll'] = nil
+L['forgotten_incense'] = nil
+L['forgotten_incense_note'] = nil
+L['historied_heirloom'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

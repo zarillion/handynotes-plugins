@@ -181,6 +181,15 @@ L['rich_soil_note'] = 'Semez des germes sur les parcelles de {object:Sols riches
 L['options_icons_rich_soil'] = 'Sol riche'
 L['options_icons_rich_soil_desc'] = 'Afficher les emplacements des {object:Sols riches}.'
 
+L['information_stuffed_clue'] = nil
+L['clued_in_note'] = nil
+L['options_icons_clued_in'] = nil
+L['options_icons_clued_in_desc'] = nil
+
+L['goggle_wobble_note'] = nil
+L['options_icons_goggle_wobble'] = nil
+L['options_icons_goggle_wobble_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -430,6 +439,12 @@ L['trader_hagarth_note'] = 'Échangez vos {item:190456} contre des recettes de B
 
 L['naszuro_caldera_of_the_menders'] = 'Au sommet de la tour.'
 
+L['sun_bleached_vase'] = nil
+L['untranslated_tome'] = nil
+L['untranslated_tome_note'] = nil
+L['mysterious_boot'] = nil
+L['mysterious_boot_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -538,6 +553,9 @@ L['naszuro_emerald_gardens'] = 'Sur l\'herbe à côté de la cascade.'
 
 L['prismatic_leaper_school_label'] = 'Banc de bondisseurs prismatiques'
 L['prismatic_leaper_school_note'] = 'Parlez avec {npc:195935} à {location:Iskaara} pour effectuer vos améliorations.\n\nPêchez les objets suivants dans les {object:Bancs de bondisseurs prismatiques} aux {location:Plaines d’Ohn’ahra}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
+
+L['aylaag_spear'] = nil
+L['dedication_plaquard'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -870,6 +888,11 @@ L['zaralek_event_inactive'] = ns.color.Orange('Cet Événement bonus n\'apparaî
 
 L['options_icons_zone_event'] = 'Événements bonus'
 L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements bonus.'
+
+L['djaradin_scroll'] = nil
+L['forgotten_incense'] = nil
+L['forgotten_incense_note'] = nil
+L['historied_heirloom'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

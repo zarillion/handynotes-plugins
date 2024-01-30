@@ -180,6 +180,15 @@ L['rich_soil_note'] = 'Planta varias semillas en una zona de {object:Terreno Ric
 L['options_icons_rich_soil'] = 'Terreno Rico'
 L['options_icons_rich_soil_desc'] = 'Muestra dónde hay {object:Terreno Rico}.'
 
+L['information_stuffed_clue'] = nil
+L['clued_in_note'] = nil
+L['options_icons_clued_in'] = nil
+L['options_icons_clued_in_desc'] = nil
+
+L['goggle_wobble_note'] = nil
+L['options_icons_goggle_wobble'] = nil
+L['options_icons_goggle_wobble_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -429,6 +438,12 @@ L['trader_hagarth_note'] = 'Intercambia {item:190456} por recetas de Bibelot del
 
 L['naszuro_caldera_of_the_menders'] = 'Encima de la torre.'
 
+L['sun_bleached_vase'] = nil
+L['untranslated_tome'] = nil
+L['untranslated_tome_note'] = nil
+L['mysterious_boot'] = nil
+L['mysterious_boot_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -537,6 +552,9 @@ L['naszuro_emerald_gardens'] = 'En la hierba pasada la cascada.'
 
 L['prismatic_leaper_school_label'] = 'Banco de Saltadores Prismáticos'
 L['prismatic_leaper_school_note'] = 'Habla con {npc:195935} en {location:Iskaara} para hacer tus mejoras.\n\nPesca los siguientes objetos de los {object:Banco de Saltadores Prismáticos} a lo largo de las {location:Llanuras de Ohn\'ahra}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
+
+L['aylaag_spear'] = nil
+L['dedication_plaquard'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -872,6 +890,11 @@ L['zaralek_event_inactive'] = ns.color.Orange('Esta Zona de Evento no empezará 
 
 L['options_icons_zone_event'] = 'Zona de Evento'
 L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
+
+L['djaradin_scroll'] = nil
+L['forgotten_incense'] = nil
+L['forgotten_incense_note'] = nil
+L['historied_heirloom'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

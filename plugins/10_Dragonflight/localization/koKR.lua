@@ -180,6 +180,15 @@ L['rich_soil_note'] = nil
 L['options_icons_rich_soil'] = nil
 L['options_icons_rich_soil_desc'] = nil
 
+L['information_stuffed_clue'] = nil
+L['clued_in_note'] = nil
+L['options_icons_clued_in'] = nil
+L['options_icons_clued_in_desc'] = nil
+
+L['goggle_wobble_note'] = nil
+L['options_icons_goggle_wobble'] = nil
+L['options_icons_goggle_wobble_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -402,6 +411,12 @@ L['trader_hagarth_note'] = nil
 
 L['naszuro_caldera_of_the_menders'] = nil
 
+L['sun_bleached_vase'] = nil
+L['untranslated_tome'] = nil
+L['untranslated_tome_note'] = nil
+L['mysterious_boot'] = nil
+L['mysterious_boot_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -510,6 +525,9 @@ L['naszuro_emerald_gardens'] = nil
 
 L['prismatic_leaper_school_label'] = nil
 L['prismatic_leaper_school_note'] = nil
+
+L['aylaag_spear'] = nil
+L['dedication_plaquard'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -808,6 +826,11 @@ L['zaralek_event_inactive'] = nil
 
 L['options_icons_zone_event'] = nil
 L['options_icons_zone_event_desc'] = nil
+
+L['djaradin_scroll'] = nil
+L['forgotten_incense'] = nil
+L['forgotten_incense_note'] = nil
+L['historied_heirloom'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

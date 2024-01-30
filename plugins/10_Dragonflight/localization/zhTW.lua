@@ -180,6 +180,15 @@ L['rich_soil_note'] = '在 {location:巨龍群島} 的 {object:肥沃土壤} 種
 L['options_icons_rich_soil'] = '肥沃土壤'
 L['options_icons_rich_soil_desc'] = '顯示 {object:肥沃土壤} 的位置.'
 
+L['information_stuffed_clue'] = nil
+L['clued_in_note'] = nil
+L['options_icons_clued_in'] = nil
+L['options_icons_clued_in_desc'] = nil
+
+L['goggle_wobble_note'] = nil
+L['options_icons_goggle_wobble'] = nil
+L['options_icons_goggle_wobble_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -429,6 +438,12 @@ L['trader_hagarth_note'] = '使用 {item:190456} 交換工匠珍品設計圖.'
 
 L['naszuro_caldera_of_the_menders'] = '在塔的頂端.'
 
+L['sun_bleached_vase'] = nil
+L['untranslated_tome'] = nil
+L['untranslated_tome_note'] = nil
+L['mysterious_boot'] = nil
+L['mysterious_boot_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -537,6 +552,9 @@ L['naszuro_emerald_gardens'] = '在瀑布旁邊的草地.'
 
 L['prismatic_leaper_school_label'] = nil
 L['prismatic_leaper_school_note'] = nil
+
+L['aylaag_spear'] = nil
+L['dedication_plaquard'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -872,6 +890,11 @@ L['zaralek_event_inactive'] = ns.color.Orange('此區域事件今日不會開始
 
 L['options_icons_zone_event'] = '區域事件'
 L['options_icons_zone_event_desc'] = '顯示區域事件的位置.'
+
+L['djaradin_scroll'] = nil
+L['forgotten_incense'] = nil
+L['forgotten_incense_note'] = nil
+L['historied_heirloom'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
