@@ -1950,7 +1950,11 @@ local CluedIn = Class('CluedIn', Collectible, {
     rewards = {
         Achievement({
             id = 19787, -- Clued In
-            criteria = {id = 1, qty = true, suffix = L['information_stuffed_clue']}
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['information_stuffed_clue']
+            }
         })
     },
     group = ns.groups.CLUED_IN

@@ -1368,8 +1368,8 @@ map.nodes[56383872] = ns.node.CluedIn({
 -------------------------------------------------------------------------------
 
 map.nodes[77143837] = ns.node.GoggleWobble({
-    -- quest = {77483, 78931}, -- Technoscrying: (The Mysteries of )Dragonskull Island
-    -- requires = ns.requirement.InProgress(77483, 78931),
+    -- quest = 78931, -- Technoscrying: (The Mysteries of )Dragonskull Island
+    -- requires = ns.requirement.InProgress(78931),
     rewards = {Achievement({id = 19791, criteria = 65405})}
 })
 
