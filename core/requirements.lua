@@ -158,6 +158,23 @@ end
 function Quest:IsMet() return C_QuestLog.IsQuestFlaggedCompleted(self.id) end
 
 -------------------------------------------------------------------------------
+--------------------------------- IN PROGRESS ---------------------------------
+-------------------------------------------------------------------------------
+
+local InProgress = Class('InProgress', Requirement, {type = _G.IN_PROGRESS})
+
+function InProgress:Initialize(id)
+    self.id = id
+end
+
+function InProgress:GetText()
+    local text = C_QuestLog.GetTitleForQuestID(self.id) or UNKNOWN
+    return ('%s (%s)'):format(text, self.type)
+end
+
+function InProgress:IsMet() return C_TaskQuest.IsActive(self.id) end
+
+-------------------------------------------------------------------------------
 --------------------------------- REPUTATION ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -234,6 +251,7 @@ ns.requirement = {
     Item = Item,
     Profession = Profession,
     Quest = Quest,
+InProgress = InProgress,
     Reputation = Reputation,
     Requirement = Requirement,
     Spell = Spell,
