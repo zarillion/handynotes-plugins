@@ -7,6 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 
 local Collectible = ns.node.Collectible
+local Vendor = ns.node.Vendor
 
 local Achievement = ns.reward.Achievement
 local Section = ns.reward.Section
@@ -109,9 +110,7 @@ end
 ---------------------------- DRAGONRIDING VENDORS -----------------------------
 -------------------------------------------------------------------------------
 
-local DragonridingVendor = Class('DragonridingVendor', Collectible, {
-    icon = 4638724,
-    group = ns.groups.DRAGONRACE,
+local DragonridingVendor = Class('DragonridingVendor', Vendor, {
     note = L['dr_vendor_note'],
     rewards = {
         DC.SetCount(DC.DragonIslesDrakes.EndlessPossibility, 50),

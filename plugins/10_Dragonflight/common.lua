@@ -20,7 +20,6 @@ local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
 local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
-local Spell = ns.reward.Spell
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -911,7 +910,7 @@ ns.DRAGON_CUSTOMIZATIONS = {
         YellowScales = Item({item = 207777, quest = 77148})
     },
     DragonIslesDrakes = {
-        EndlessPossibility = Spell({item = 212518, spell = 431709}),
+        EndlessPossibility = Toy({item = 212518}),
         GildedArmor = Item({
             item = 208200,
             quest = {69550, 69786, 69167, 69296, 73786}
@@ -924,15 +923,10 @@ ns.DRAGON_CUSTOMIZATIONS = {
 }
 
 ns.DRAGON_CUSTOMIZATIONS.SetCount = function(dc, count)
-    if not dc.spell then
-        return Item({item = dc.item, quest = dc.quest, count = count})
+    if not dc.quest then
+        return Toy({item = dc.item, count = count, type = false})
     else
-        return Spell({
-            item = dc.item,
-            spell = dc.spell,
-            count = count,
-            type = false
-        })
+        return Item({item = dc.item, quest = dc.quest, count = count})
     end
 end
 
