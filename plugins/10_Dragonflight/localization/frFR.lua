@@ -536,8 +536,8 @@ L['bloodgullet_note'] = 'Obtenez le buff {spell:369277} (1 heure) dans une tente
 L['naszuro_windsong_rise'] = 'Au sommet du pilier de pierre.'
 L['naszuro_emerald_gardens'] = 'Sur l\'herbe à côté de la cascade.'
 
-L['prismatic_leaper_school_label'] = nil
-L['prismatic_leaper_school_note'] = nil
+L['prismatic_leaper_school_label'] = 'Banc de bondisseurs prismatiques'
+L['prismatic_leaper_school_note'] = 'Parlez avec {npc:195935} à {location:Iskaara} pour effectuer vos améliorations.\n\nPêchez les objets suivants dans les {object:Bancs de bondisseurs prismatiques} aux {location:Plaines d’Ohn’ahra}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
