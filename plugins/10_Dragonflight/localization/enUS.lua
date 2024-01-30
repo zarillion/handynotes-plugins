@@ -535,6 +535,9 @@ L['bloodgullet_note'] = 'Get the {spell:369277} buff (1 hour) in a tent at the {
 L['naszuro_windsong_rise'] = 'On top of the rock pillar.'
 L['naszuro_emerald_gardens'] = 'On the grass besides the waterfall.'
 
+L['prismatic_leaper_school_label'] = 'Prismatic Leaper School'
+L['prismatic_leaper_school_note'] = 'Speak with {npc:195935} in {location:Iskaara} to make your upgrades.\n\nFish up the following items from {object:Prismatic Leaper Schools} throughout the {location:Ohn\'ahran Plains}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

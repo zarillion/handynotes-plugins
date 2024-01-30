@@ -535,6 +535,9 @@ L['bloodgullet_note'] = '在 {location:木階哨站} 的一個帳篷裡的 {obje
 L['naszuro_windsong_rise'] = '在岩石柱子頂端.'
 L['naszuro_emerald_gardens'] = '在瀑布旁邊的草地.'
 
+L['prismatic_leaper_school_label'] = nil
+L['prismatic_leaper_school_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

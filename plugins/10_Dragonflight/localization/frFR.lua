@@ -536,6 +536,9 @@ L['bloodgullet_note'] = 'Obtenez le buff {spell:369277} (1 heure) dans une tente
 L['naszuro_windsong_rise'] = 'Au sommet du pilier de pierre.'
 L['naszuro_emerald_gardens'] = 'Sur l\'herbe à côté de la cascade.'
 
+L['prismatic_leaper_school_label'] = nil
+L['prismatic_leaper_school_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

@@ -508,6 +508,9 @@ L['bloodgullet_note'] = nil
 L['naszuro_windsong_rise'] = nil
 L['naszuro_emerald_gardens'] = nil
 
+L['prismatic_leaper_school_label'] = nil
+L['prismatic_leaper_school_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------

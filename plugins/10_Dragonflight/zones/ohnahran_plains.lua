@@ -2215,11 +2215,26 @@ map.nodes[32925312] = RichSoil()
 -------------------------------------------------------------------------------
 
 local PrismaticLeaperSchool = Class('PrismaticLeaperSchool', Collectible, {
-    label = '{item:200061}',
+    label = L['prismatic_leaper_school_label'],
     icon = 630618,
     fgroup = 'prismatic_leaper_school',
+    note = format(L['prismatic_leaper_school_note'], 200080, -- Draconium Nugget
+        200081, -- Strong Seavine
+        200082, -- Battered Imbu-made Net
+        200083, -- Irontree Branch
+        200084 -- Salinated Serevite
+    ),
     rewards = {
-        Achievement({id = 16322, criteria = {1, 2, 3, 4, 5}}) -- Best in Slot
+        Achievement({
+            id = 16322,
+            criteria = {
+                55019, -- Harpoon handle
+                55076, -- Harpoon head
+                55024, -- Harpoon rope
+                55021, -- Fishing net weights
+                55022 -- Fishing net knots
+            }
+        }) -- Best in Slot
     }
 }); -- Prismatic Leaper School
 
