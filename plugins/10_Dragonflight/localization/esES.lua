@@ -535,8 +535,8 @@ L['bloodgullet_note'] = 'Consigue el buff {spell:369277} (dura 1 hora) en una ti
 L['naszuro_windsong_rise'] = 'Encima del pilar de rocas.'
 L['naszuro_emerald_gardens'] = 'En la hierba pasada la cascada.'
 
-L['prismatic_leaper_school_label'] = nil
-L['prismatic_leaper_school_note'] = nil
+L['prismatic_leaper_school_label'] = 'Banco de Saltadores Prismáticos'
+L['prismatic_leaper_school_note'] = 'Habla con {npc:195935} en {location:Iskaara} para hacer tus mejoras.\n\nPesca los siguientes objetos de los {object:Banco de Saltadores Prismáticos} a lo largo de las {location:Llanuras de Ohn\'ahra}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
