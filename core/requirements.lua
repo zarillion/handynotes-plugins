@@ -234,7 +234,6 @@ ns.requirement = {
     Item = Item,
     Profession = Profession,
     Quest = Quest,
-    InProgress = InProgress,
     Reputation = Reputation,
     Requirement = Requirement,
     Spell = Spell,
