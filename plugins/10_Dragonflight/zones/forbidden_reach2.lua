@@ -1343,23 +1343,20 @@ map.nodes[55393586] = ScalecommanderItem({
 -------------------------------------------------------------------------------
 
 map.nodes[55424648] = ns.node.CluedIn({
-    label = L['sun_bleached_vase'], -- 'Sun-Bleached Vase'
-    quest = 77424,
-    requires = ns.requirement.InProgress(77424)
+    label = L['sun_bleached_vase'], -- Sun-Bleached Vase
+    quest = 77424
 })
 
 map.nodes[54933669] = ns.node.CluedIn({
-    label = L['untranslated_tome'], -- 'Untranslated Tome'
+    label = L['untranslated_tome'], -- Untranslated Tome
     quest = 77424,
-    requires = ns.requirement.InProgress(77424),
     location = L['untranslated_tome_note'],
     pois = {POI({55103878})} -- Entrance
 })
 
 map.nodes[56383872] = ns.node.CluedIn({
-    label = L['mysterious_boot'], -- 'Mysterious Boot'
+    label = L['mysterious_boot'], -- Mysterious Boot
     quest = 77424,
-    requires = ns.requirement.InProgress(77424),
     location = L['mysterious_boot_note']
 })
 
@@ -1368,8 +1365,6 @@ map.nodes[56383872] = ns.node.CluedIn({
 -------------------------------------------------------------------------------
 
 map.nodes[77143837] = ns.node.GoggleWobble({
-    -- quest = 78931, -- Technoscrying: (The Mysteries of )Dragonskull Island
-    -- requires = ns.requirement.InProgress(78931),
     rewards = {Achievement({id = 19791, criteria = 65405})}
 })
 

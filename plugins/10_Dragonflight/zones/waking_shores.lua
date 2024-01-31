@@ -2343,8 +2343,6 @@ map.nodes[60645668] = RichSoil()
 -------------------------------------------------------------------------------
 
 map.nodes[56374394] = ns.node.GoggleWobble({
-    -- quest = {77434, 78616}, -- Technoscrying: (The Mysteries of the Concord) Observatory
-    -- requires = ns.requirement.InProgress(77434, 78616),
     rewards = {Achievement({id = 19791, criteria = 65406})}
 })
 

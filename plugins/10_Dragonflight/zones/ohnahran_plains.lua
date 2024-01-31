@@ -1950,18 +1950,14 @@ map.nodes[38636670] = AncientStone({
 -------------------------------------------------------------------------------
 
 map.nodes[64674842] = ns.node.CluedIn({
-    label = L['aylaag_spear'], -- 'Aylaag Spear'
-    quest = 76587, -- Research: Centaur of Ohn'ahran Plains
-    requires = ns.requirement.InProgress(76587)
+    label = L['aylaag_spear'], -- Aylaag Spear
+    quest = 76587 -- Research: Centaur of Ohn'ahran Plains
 })
 
 map.nodes[69944089] = ns.node.CluedIn({
-    label = L['dedication_plaquard'], -- 'Dedication Plaquard'
-    quest = 76587,
-    requires = ns.requirement.InProgress(76587)
+    label = L['dedication_plaquard'], -- Dedication Plaquard
+    quest = 76587
 })
-
--------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

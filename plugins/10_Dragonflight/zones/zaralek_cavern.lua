@@ -1126,22 +1126,19 @@ map.nodes[44458040] = Collectible({
 -------------------------------------------------------------------------------
 
 map.nodes[40995057] = ns.node.CluedIn({
-    label = L['djaradin_scroll'], -- 'Djaradin Scroll'
-    quest = 76734, -- Research: Djaradin of Zaralek Cavern
-    requires = ns.requirement.InProgress(76734)
+    label = L['djaradin_scroll'], -- Djaradin Scroll
+    quest = 76734 -- Research: Djaradin of Zaralek Cavern
 })
 
 map.nodes[40894160] = ns.node.CluedIn({
-    label = L['forgotten_incense'], -- 'Forgotten Incense'
+    label = L['forgotten_incense'], -- Forgotten Incense
     quest = 76734,
-    requires = ns.requirement.InProgress(76734),
-    location = L['forgotten_incense_note'] -- '{note:hard to reach due to the quest boundaries}'
+    location = L['forgotten_incense_note']
 })
 
 map.nodes[41844525] = ns.node.CluedIn({
-    label = L['historied_heirloom'], -- 'Historied Heirloom'
-    quest = 76734,
-    requires = ns.requirement.InProgress(76734)
+    label = L['historied_heirloom'], -- Historied Heirloom
+    quest = 76734
 })
 
 -------------------------------------------------------------------------------
@@ -1149,8 +1146,6 @@ map.nodes[41844525] = ns.node.CluedIn({
 -------------------------------------------------------------------------------
 
 map.nodes[38134985] = ns.node.GoggleWobble({
-    -- quest = {77484, 78820}, -- Technoscrying: (The Mysteries of )Igira's Watch
-    -- requires = ns.requirement.InProgress(77484, 78820),
     rewards = {Achievement({id = 19791, criteria = 65404})}
 })
 
