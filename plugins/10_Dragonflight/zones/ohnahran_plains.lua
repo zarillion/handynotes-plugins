@@ -31,6 +31,7 @@ local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
+local WarSupply = ns.node.WarSupply
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -946,6 +947,20 @@ map.nodes[62005160] = LightningBoundChest()
 map.nodes[65601340] = LightningBoundChest()
 map.nodes[67001180] = LightningBoundChest()
 map.nodes[67101270] = LightningBoundChest()
+
+-------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[22406370] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[36003220] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[35926292] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[48512646] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[61156158] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[62908070] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[75094969] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[77702440] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[80907569] = WarSupply({fgroup = 'supply_ohnahran_plains'})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------

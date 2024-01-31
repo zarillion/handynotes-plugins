@@ -257,6 +257,11 @@ ns.groups.ZSKERA_VAULTS = Group('zskera_vaults', 4909720, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.WAR_SUPPLY = Group('war_supplies', 'star_chest_g', {
+    defaults = ns.GROUP_HIDDEN75,
+    type = ns.group_types.EXPANSION
+})
+
 -------------------------------------------------------------------------------
 
 ns.groups.ANCESTOR = Group('ancestor', 135946, {
@@ -1290,6 +1295,41 @@ local ElementalChest = Class('ElementalChest', ns.node.Treasure, {
 })
 
 ns.node.ElementalChest = ElementalChest
+
+-------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CRATES ------------------------------
+-------------------------------------------------------------------------------
+
+local WarSupply = Class('WarSupply', Node, {
+    icon = 'star_chest_g',
+    scale = 1.5,
+    label = '{npc:135238}',
+    rlabel = ns.GetIconLink('war_mode_swords', 16),
+    quest = {72376, 72377}, -- first loot of the day rewards Conquest and extra Bloody Tokens
+    note = L['war_supply_chest_note'],
+    requires = ns.requirement.WarMode,
+    rewards = {
+        -- Achievement({id = 19294, criteria = {id = 1, qty = true}}), -- Tour of Duty: Emerald Dream
+        -- Achievement({id = 17851, criteria = {id = 1, qty = true}}), -- Tour of Duty: Zaralek Cavern
+        -- Achievement({id = 16592, criteria = {id = 1, qty = true}}), -- Tour of Duty: The Waking Shores
+        -- Achievement({id = 16594, criteria = {id = 1, qty = true}}), -- Tour of Duty: The Azure Span
+        -- Achievement({id = 16593, criteria = {id = 1, qty = true}}), -- Tour of Duty: Thaldraszus
+        -- Achievement({id = 16595, criteria = {id = 1, qty = true}}), -- Tour of Duty: Ohn'ahran Plains
+        -- Achievement({id = 16615, criteria = {id = 1, qty = true}}), -- Blood Bank
+        Achievement({id = 16613, criteria = {id = 1, qty = true}}), -- Finder's Keepers
+        Recipe({item = 201257, profession = 165}), -- Bloodstained Pattern: Infurious Hide
+        Recipe({item = 201259, profession = 165}), -- Bloodstained Pattern: Infurious Scales
+        Recipe({item = 201256, profession = 164}), -- Bloodstained Plans: Infurious Alloy
+        Recipe({item = 201258, profession = 197}), -- Bloodstained Pattern: Infurious Wildercloth Bolt
+        Item({item = 190451}), -- Rousing Ire
+        Currency({id = 2123, note = '+200'}), -- Bloody Tokens
+        Currency({id = 1602, note = '+60'}), -- Conquest
+        Currency({id = 1792, note = '+100'}) -- Honor
+    },
+    group = ns.groups.WAR_SUPPLY
+})
+
+ns.node.WarSupply = WarSupply
 
 -------------------------------------------------------------------------------
 ---------------------------------- INTERVALS ----------------------------------
