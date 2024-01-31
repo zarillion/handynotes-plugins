@@ -144,6 +144,10 @@ L['frostbound_chest'] = 'Frostgebundene Kiste'
 L['options_icons_frostbound_chest'] = 'Frostgebundene Kiste'
 L['options_icons_frostbound_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Frostgebundene Kisten} an.'
 
+L['war_supply_chest_note'] = nil
+L['options_icons_war_supplies_desc'] = nil
+L['options_icons_war_supplies'] = nil
+
 L['fyrakk_assault_label'] = 'Angriff von Fyrakk'
 L['fyrakk_secured_shipment'] = 'Gesicherte Lieferung'
 
