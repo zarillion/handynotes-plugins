@@ -438,7 +438,7 @@ L['trader_hagarth_note'] = 'Intercambia {item:190456} por recetas de Bibelot del
 
 L['naszuro_caldera_of_the_menders'] = 'Encima de la torre.'
 
-L['sun_bleached_vase'] = 'Sun-Bleached Vase'
+L['sun_bleached_vase'] = 'Jarrón Blanqueado por el Sol'
 L['untranslated_tome'] = 'Tomo sin Traducir'
 L['untranslated_tome_note'] = 'En el edificio con la entrada bajo del puente.'
 L['mysterious_boot'] = 'Botas Misteriosas'
@@ -554,7 +554,7 @@ L['prismatic_leaper_school_label'] = 'Banco de Saltadores Prismáticos'
 L['prismatic_leaper_school_note'] = 'Habla con {npc:195935} en {location:Iskaara} para hacer tus mejoras.\n\nPesca los siguientes objetos de los {object:Banco de Saltadores Prismáticos} a lo largo de las {location:Llanuras de Ohn\'ahra}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
 L['aylaag_spear'] = 'Lanza Aylaag'
-L['dedication_plaquard'] = 'Dedication Plaquard'
+L['dedication_plaquard'] = 'Placa de Dedicación'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -892,9 +892,9 @@ L['options_icons_zone_event'] = 'Zona de Evento'
 L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
 
 L['djaradin_scroll'] = 'Pergamino Djaradin'
-L['forgotten_incense'] = 'Forgotten Incense'
+L['forgotten_incense'] = 'Incienso Olvidado'
 L['forgotten_incense_note'] = '{note:Difícil de alcanzar debido a los límites de la misión.}'
-L['historied_heirloom'] = 'Historied Heirloom'
+L['historied_heirloom'] = 'Reliquia Histórica'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
