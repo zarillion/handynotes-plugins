@@ -60,6 +60,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = nil
 L['squirrels_note'] = '전투 애완동물이 아닌 동물에게 {emote:/사랑} 을 해야 합니다'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = '{achievement:16729} 업적을 위한 동물 위치를 표시합니다.'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = '{achievement:18361} 업적을 위한 동물 위치를 표시합니다.'
 
 L['hnj_sublabel'] = '해당 지역에서 시카르 사냥의 제전 진행 필요'
 L['hnj_western_azure_span_hunt'] = '죽은 나무 꼭대기에 있음'
