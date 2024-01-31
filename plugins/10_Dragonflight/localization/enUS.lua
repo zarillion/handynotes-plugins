@@ -184,6 +184,15 @@ L['rich_soil_note'] = 'Plant various seedlings in a patch of {object:Rich Soil} 
 L['options_icons_rich_soil'] = 'Rich Soil'
 L['options_icons_rich_soil_desc'] = 'Display locations for {object:Rich Soil}.'
 
+L['information_stuffed_clue'] = 'Information-Stuffed Clue'
+L['clued_in_note'] = 'The {npc:210079} spawn during {note:the Big Dig} event and the 3 world quests {wq:Research: ...}.'
+L['options_icons_clued_in'] = '{achievement:19787}'
+L['options_icons_clued_in_desc'] = 'Display {npc:210079} locations for {achievement:19787} achievement.'
+
+L['goggle_wobble_note'] = '{emote:/dance} with {npc:207763} during the intro quest line or the 3 world quests {wq:Technoscrying: ...} while wearing {item:202247}.'
+L['options_icons_goggle_wobble'] = '{achievement:19791}'
+L['options_icons_goggle_wobble_desc'] = 'Display {npc:207763} locations for {achievement:19791} achievement.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -433,6 +442,12 @@ L['trader_hagarth_note'] = 'Exchange {item:190456} for Artisan Curio recipes.'
 
 L['naszuro_caldera_of_the_menders'] = 'On top of the tower.'
 
+L['sun_bleached_vase'] = 'Sun-Bleached Vase'
+L['untranslated_tome'] = 'Untranslated Tome'
+L['untranslated_tome_note'] = 'In the building with the entrance below the bridge.'
+L['mysterious_boot'] = 'Mysterious Boot'
+L['mysterious_boot_note'] = 'Upper floor.'
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -541,6 +556,9 @@ L['naszuro_emerald_gardens'] = 'On the grass besides the waterfall.'
 
 L['prismatic_leaper_school_label'] = 'Prismatic Leaper School'
 L['prismatic_leaper_school_note'] = 'Speak with {npc:195935} in {location:Iskaara} to make your upgrades.\n\nFish up the following items from {object:Prismatic Leaper Schools} throughout the {location:Ohn\'ahran Plains}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
+
+L['aylaag_spear'] = 'Aylaag Spear'
+L['dedication_plaquard'] = 'Dedication Plaquard'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -876,6 +894,11 @@ L['zaralek_event_inactive'] = ns.color.Orange('This Zone Event will not start to
 
 L['options_icons_zone_event'] = 'Zone Event'
 L['options_icons_zone_event_desc'] = 'Display locations for zone events.'
+
+L['djaradin_scroll'] = 'Djaradin Scroll'
+L['forgotten_incense'] = 'Forgotten Incense'
+L['forgotten_incense_note'] = '{note:Hard to reach due to the quest boundaries.}'
+L['historied_heirloom'] = 'Historied Heirloom'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

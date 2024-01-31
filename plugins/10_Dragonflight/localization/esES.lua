@@ -184,6 +184,15 @@ L['rich_soil_note'] = 'Planta varias semillas en una zona de {object:Terreno Ric
 L['options_icons_rich_soil'] = 'Terreno Rico'
 L['options_icons_rich_soil_desc'] = 'Muestra dónde hay {object:Terreno Rico}.'
 
+L['information_stuffed_clue'] = 'Pista Rebosante de Información'
+L['clued_in_note'] = 'La {npc:210079} aparece durante el evento {note:La Gran Excavación} y las 3 misiones del mundo {wq:Investigación: ...}.'
+L['options_icons_clued_in'] = '{achievement:19787}'
+L['options_icons_clued_in_desc'] = 'Muestra dónde están las {npc:210079} para el logro {achievement:19787}.'
+
+L['goggle_wobble_note'] = 'Teclea la emoción {emote:/bailar} a {npc:207763} durante la línea de misiones introductorias o durantes las 3 misiones del mundo {wq:Tecnoadivinación ...} mientras usas {item:202247}.'
+L['options_icons_goggle_wobble'] = '{achievement:19791}'
+L['options_icons_goggle_wobble_desc'] = 'Muestra dónde está {npc:207763} para el logro {achievement:19791}.'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -433,6 +442,12 @@ L['trader_hagarth_note'] = 'Intercambia {item:190456} por recetas de Bibelot del
 
 L['naszuro_caldera_of_the_menders'] = 'Encima de la torre.'
 
+L['sun_bleached_vase'] = 'Jarrón Blanqueado por el Sol'
+L['untranslated_tome'] = 'Tomo sin Traducir'
+L['untranslated_tome_note'] = 'En el edificio con la entrada bajo del puente.'
+L['mysterious_boot'] = 'Botas Misteriosas'
+L['mysterious_boot_note'] = 'En el piso superior.'
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -541,6 +556,9 @@ L['naszuro_emerald_gardens'] = 'En la hierba pasada la cascada.'
 
 L['prismatic_leaper_school_label'] = 'Banco de Saltadores Prismáticos'
 L['prismatic_leaper_school_note'] = 'Habla con {npc:195935} en {location:Iskaara} para hacer tus mejoras.\n\nPesca los siguientes objetos de los {object:Banco de Saltadores Prismáticos} a lo largo de las {location:Llanuras de Ohn\'ahra}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
+
+L['aylaag_spear'] = 'Lanza Aylaag'
+L['dedication_plaquard'] = 'Placa de Dedicación'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -876,6 +894,11 @@ L['zaralek_event_inactive'] = ns.color.Orange('Esta Zona de Evento no empezará 
 
 L['options_icons_zone_event'] = 'Zona de Evento'
 L['options_icons_zone_event_desc'] = 'Mustra dónde hay Zonas de Eventos.'
+
+L['djaradin_scroll'] = 'Pergamino Djaradin'
+L['forgotten_incense'] = 'Incienso Olvidado'
+L['forgotten_incense_note'] = '{note:Difícil de alcanzar debido a los límites de la misión.}'
+L['historied_heirloom'] = 'Reliquia Histórica'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
