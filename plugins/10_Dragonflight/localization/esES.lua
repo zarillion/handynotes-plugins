@@ -146,9 +146,9 @@ L['frostbound_chest'] = 'Cofre Ligado a la Escarcha'
 L['options_icons_frostbound_chest'] = 'Cofre Ligado a la Escarcha'
 L['options_icons_frostbound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Ligado a la Escarcha}.'
 
-L['war_supply_chest_note'] = nil
-L['options_icons_war_supplies_desc'] = nil
-L['options_icons_war_supplies'] = nil
+L['war_supply_chest_note'] = 'Una {npc:135181} sobrevolará una vez cada 45 minutos y lanzará un {npc:135238} en uno de los posibles lugares de entrega.'
+L['options_icons_war_supplies_desc'] = 'Muestra dónde puede caer un {npc:135238}.'
+L['options_icons_war_supplies'] = '{npc:135238}'
 
 L['fyrakk_assault_label'] = 'Asalto de Fyrakk'
 L['fyrakk_secured_shipment'] = 'Envío Seguro'
