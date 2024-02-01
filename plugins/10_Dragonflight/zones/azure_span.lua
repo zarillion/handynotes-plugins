@@ -2237,7 +2237,7 @@ local Eadweard = Class('Eadweard', Collectible, {
         Transmog({item = 212640, slot = L['cosmetic']}), -- Excavator's Trusty Satchel
         Transmog({item = 212641, slot = L['cosmetic']}), -- Excavator's Rugged Pants
         Transmog({item = 212639, slot = L['cosmetic']}), -- Excavator's Glovelettes
-        Transmog({item = 212642, slot = L['cosmetic']}), -- Excavator's Boots    
+        Transmog({item = 212642, slot = L['cosmetic']}) -- Excavator's Boots
     }
 }) -- Eadweard Dalyngrigge
 
