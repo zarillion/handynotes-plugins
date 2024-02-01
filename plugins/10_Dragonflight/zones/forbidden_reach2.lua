@@ -1360,6 +1360,24 @@ map.nodes[56383872] = ns.node.CluedIn({
     location = L['mysterious_boot_note']
 })
 
+map.nodes[19621537] = ns.node.CluedIn({
+    label = L['decaying_fishing_bucket'],
+    quest = 77362,
+    location = L['decaying_fishing_bucket_note']
+})
+
+map.nodes[18241313] = ns.node.CluedIn({
+    label = L['forgotten_fishing_pole'],
+    quest = 77362,
+    location = L['forgotten_fishing_pole_note']
+})
+
+map.nodes[10591156] = ns.node.CluedIn({
+    label = L['overgrown_fishing_bench'],
+    quest = 77362,
+    location = L['overgrown_fishing_bench_note']
+})
+
 -------------------------------------------------------------------------------
 -------------------------------- GOGGLE WOBBLE --------------------------------
 -------------------------------------------------------------------------------

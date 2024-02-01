@@ -181,11 +181,11 @@ L['options_icons_rich_soil'] = 'Rich Soil'
 L['options_icons_rich_soil_desc'] = 'Display locations for {object:Rich Soil}.'
 
 L['information_stuffed_clue'] = 'Information-Stuffed Clue'
-L['clued_in_note'] = 'The {npc:210079} spawn during {note:the Big Dig} event and the 3 world quests {wq:Research: ...}.'
+L['clued_in_note'] = 'The {npc:210079} spawn during {note:the Big Dig} event and the world quests {wq:Research: ...}.'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = 'Display {npc:210079} locations for {achievement:19787} achievement.'
 
-L['goggle_wobble_note'] = '{emote:/dance} with {npc:207763} during the intro quest line or the 3 world quests {wq:Technoscrying: ...} while wearing {item:202247}.'
+L['goggle_wobble_note'] = '{emote:/dance} with {npc:207763} during the intro quest line or the world quests {wq:Technoscrying: ...} while wearing {item:202247}.'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Display {npc:207763} locations for {achievement:19791} achievement.'
 
@@ -443,6 +443,12 @@ L['untranslated_tome'] = 'Untranslated Tome'
 L['untranslated_tome_note'] = 'In the building with the entrance below the bridge.'
 L['mysterious_boot'] = 'Mysterious Boot'
 L['mysterious_boot_note'] = 'Upper floor.'
+L['decaying_fishing_bucket'] = 'Decaying Fishing Bucket'
+L['decaying_fishing_bucket_note'] = 'On the top floor of the tower.'
+L['forgotten_fishing_pole'] = 'Forgotten Fishing Pole'
+L['forgotten_fishing_pole_note'] = 'On the ground level.'
+L['overgrown_fishing_bench'] = 'Overgrown Fishing Bench'
+L['overgrown_fishing_bench_note'] = 'An overgrown rock, hard to see.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

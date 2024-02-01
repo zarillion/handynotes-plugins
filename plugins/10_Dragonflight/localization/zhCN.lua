@@ -181,7 +181,7 @@ L['options_icons_rich_soil'] = '肥沃的土壤'
 L['options_icons_rich_soil_desc'] = '显示 {object:肥沃的土壤} 的位置。'
 
 L['information_stuffed_clue'] = '满载信息的线索'
-L['clued_in_note'] = '{npc:210079} 于事件 {note:盛大发掘}，以及3个世界任务 {wq:研究：……} 期间刷新。'
+L['clued_in_note'] = '{npc:210079} 于事件 {note:盛大发掘}，以及 世界任务 {wq:研究：……} 期间刷新。'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = '显示成就 {achievement:19787} 中 {npc:210079} 的位置。'
 
@@ -443,6 +443,12 @@ L['untranslated_tome'] = '未翻译的魔典'
 L['untranslated_tome_note'] = '在建筑里，入口位于桥下'
 L['mysterious_boot'] = '神秘的靴子'
 L['mysterious_boot_note'] = '在上层'
+L['decaying_fishing_bucket'] = '腐烂鱼桶'
+L['decaying_fishing_bucket_note'] = '在塔的最顶层'
+L['forgotten_fishing_pole'] = '被遗忘的鱼竿'
+L['forgotten_fishing_pole_note'] = '在最底层'
+L['overgrown_fishing_bench'] = '长满杂草的钓鱼椅'
+L['overgrown_fishing_bench_note'] = '覆满青苔的岩石，不大显眼'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

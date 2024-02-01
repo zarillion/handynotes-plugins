@@ -416,6 +416,12 @@ L['untranslated_tome'] = nil
 L['untranslated_tome_note'] = nil
 L['mysterious_boot'] = nil
 L['mysterious_boot_note'] = nil
+L['decaying_fishing_bucket'] = nil
+L['decaying_fishing_bucket_note'] = nil
+L['forgotten_fishing_pole'] = nil
+L['forgotten_fishing_pole_note'] = nil
+L['overgrown_fishing_bench'] = nil
+L['overgrown_fishing_bench_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

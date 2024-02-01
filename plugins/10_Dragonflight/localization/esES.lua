@@ -443,6 +443,12 @@ L['untranslated_tome'] = 'Tomo sin Traducir'
 L['untranslated_tome_note'] = 'En el edificio con la entrada bajo del puente.'
 L['mysterious_boot'] = 'Botas Misteriosas'
 L['mysterious_boot_note'] = 'En el piso superior.'
+L['decaying_fishing_bucket'] = nil
+L['decaying_fishing_bucket_note'] = nil
+L['forgotten_fishing_pole'] = nil
+L['forgotten_fishing_pole_note'] = nil
+L['overgrown_fishing_bench'] = nil
+L['overgrown_fishing_bench_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
