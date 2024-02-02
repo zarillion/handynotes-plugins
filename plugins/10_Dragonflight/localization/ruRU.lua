@@ -61,6 +61,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = 'Показать возможные
 L['squirrels_note'] = 'Вы должны использовать эмоцию {emote:/любовь} на зверьках, а не на боевых питомцах.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Места появления зверьков для {achievement:16729}'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = 'Места появления зверьков для {achievement:18361}'
 
 L['hnj_sublabel'] = 'Требуется местная Шикаарская Великая Охота'
 L['hnj_western_azure_span_hunt'] = 'На вершине мертвого дерева.'
@@ -144,6 +146,10 @@ L['options_icons_simmering_chest_desc'] = 'Показать возможные �
 L['frostbound_chest'] = 'Скованный льдом сундук'
 L['options_icons_frostbound_chest'] = 'Скованный льдом сундук'
 L['options_icons_frostbound_chest_desc'] = 'Показать возможные места {object:Скованный льдом сундуков}.'
+
+L['war_supply_chest_note'] = nil
+L['options_icons_war_supplies_desc'] = nil
+L['options_icons_war_supplies'] = nil
 
 L['fyrakk_assault_label'] = 'Налеты Фиракка'
 L['fyrakk_secured_shipment'] = 'Защищенные ресурсы'

@@ -60,6 +60,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = 'Display possible locations of {obje
 L['squirrels_note'] = 'You must use the emote {emote:/love} on critters, not battle pets.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Display critter locations for {achievement:16729} achievement.'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = 'Display critter locations for {achievement:18361} achievement.'
 
 L['hnj_sublabel'] = 'Requires local Shikaar Grand Hunt'
 L['hnj_western_azure_span_hunt'] = 'On top of the dead tree.'
@@ -144,6 +146,10 @@ L['frostbound_chest'] = 'Frostbound Chest'
 L['options_icons_frostbound_chest'] = 'Frostbound Chest'
 L['options_icons_frostbound_chest_desc'] = 'Display possible locations of {object:Frostbound Chests}.'
 
+L['war_supply_chest_note'] = 'A {npc:135181} will fly overhead once every 45 minutes and drop a {npc:135238} at one of these potential drop locations.'
+L['options_icons_war_supplies_desc'] = 'Display {npc:135238} drop locations.'
+L['options_icons_war_supplies'] = '{npc:135238}'
+
 L['fyrakk_assault_label'] = 'Fyrakk Assault'
 L['fyrakk_secured_shipment'] = 'Secured Shipment'
 
@@ -181,6 +187,7 @@ L['options_icons_rich_soil'] = 'Rich Soil'
 L['options_icons_rich_soil_desc'] = 'Display locations for {object:Rich Soil}.'
 
 L['information_stuffed_clue'] = 'Information-Stuffed Clue'
+
 L['clued_in_note'] = 'The {npc:210079} spawn during {note:the Big Dig} event and the world quests {wq:Research: ...}.'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = 'Display {npc:210079} locations for {achievement:19787} achievement.'
@@ -449,6 +456,7 @@ L['forgotten_fishing_pole'] = 'Forgotten Fishing Pole'
 L['forgotten_fishing_pole_note'] = 'On the ground level.'
 L['overgrown_fishing_bench'] = 'Overgrown Fishing Bench'
 L['overgrown_fishing_bench_note'] = 'An overgrown rock, hard to see.'
+
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------

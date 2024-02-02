@@ -61,6 +61,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = 'Afficher les emplacements possibles
 L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:16729}.'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:18361}.'
 
 L['hnj_sublabel'] = 'Nécessite une Grande chasse Shikaar à proximité'
 L['hnj_western_azure_span_hunt'] = 'Au sommet de l\'arbre mort.'
@@ -145,6 +147,10 @@ L['frostbound_chest'] = 'Coffre lié par le givre'
 L['options_icons_frostbound_chest'] = 'Coffre lié par le givre'
 L['options_icons_frostbound_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres liés par le givre}.'
 
+L['war_supply_chest_note'] = 'Une {npc:135181} survolera la zone toutes les 45 minutes et déposera une {npc:135238} à l\'un de ces emplacements potentiels.'
+L['options_icons_war_supplies_desc'] = 'Afficher les emplacements de chute des {npc:135238}.'
+L['options_icons_war_supplies'] = '{npc:135238}'
+
 L['fyrakk_assault_label'] = 'Assaut de Fyrakka'
 L['fyrakk_secured_shipment'] = 'Cargaison sécurisée'
 
@@ -181,14 +187,14 @@ L['rich_soil_note'] = 'Semez des germes sur les parcelles de {object:Sols riches
 L['options_icons_rich_soil'] = 'Sol riche'
 L['options_icons_rich_soil_desc'] = 'Afficher les emplacements des {object:Sols riches}.'
 
-L['information_stuffed_clue'] = nil
-L['clued_in_note'] = nil
-L['options_icons_clued_in'] = nil
-L['options_icons_clued_in_desc'] = nil
+L['information_stuffed_clue'] = 'Indice riche en informations'
+L['clued_in_note'] = 'Les {npc:210079} apparaissent lors de l\'événement {note:La grande fouille} et lors des expéditions {wq:Recherche : ...}.'
+L['options_icons_clued_in'] = '{achievement:19787}'
+L['options_icons_clued_in_desc'] = 'Afficher les emplacements des {npc:210079} pour le haut-fait {achievement:19787}.'
 
-L['goggle_wobble_note'] = nil
-L['options_icons_goggle_wobble'] = nil
-L['options_icons_goggle_wobble_desc'] = nil
+L['goggle_wobble_note'] = '{emote:/danser} avec {npc:207763} pendant la suite de quêtes d\'introduction ou lors des expéditions {wq:Bidulodivination : ...} en portant les {item:202247}.'
+L['options_icons_goggle_wobble'] = '{achievement:19791}'
+L['options_icons_goggle_wobble_desc'] = 'Afficher les emplacements de {npc:207763} pour le haut-fait {achievement:19791}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -440,10 +446,10 @@ L['trader_hagarth_note'] = 'Échangez vos {item:190456} contre des recettes de B
 L['naszuro_caldera_of_the_menders'] = 'Au sommet de la tour.'
 
 L['sun_bleached_vase'] = nil
-L['untranslated_tome'] = nil
-L['untranslated_tome_note'] = nil
+L['untranslated_tome'] = 'Tome non traduit'
+L['untranslated_tome_note'] = 'Dans le bâtiment dont l\'entrée se trouve sous le pont.'
 L['mysterious_boot'] = nil
-L['mysterious_boot_note'] = nil
+L['mysterious_boot_note'] = 'A l\'étage supérieur.'
 L['decaying_fishing_bucket'] = nil
 L['decaying_fishing_bucket_note'] = nil
 L['forgotten_fishing_pole'] = nil
@@ -560,8 +566,8 @@ L['naszuro_emerald_gardens'] = 'Sur l\'herbe à côté de la cascade.'
 L['prismatic_leaper_school_label'] = 'Banc de bondisseurs prismatiques'
 L['prismatic_leaper_school_note'] = 'Parlez avec {npc:195935} à {location:Iskaara} pour effectuer vos améliorations.\n\nPêchez les objets suivants dans les {object:Bancs de bondisseurs prismatiques} aux {location:Plaines d’Ohn’ahra}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
-L['aylaag_spear'] = nil
-L['dedication_plaquard'] = nil
+L['aylaag_spear'] = 'Lance aylaag'
+L['dedication_plaquard'] = 'Affiche de consécration'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -896,8 +902,8 @@ L['options_icons_zone_event'] = 'Événements bonus'
 L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements bonus.'
 
 L['djaradin_scroll'] = nil
-L['forgotten_incense'] = nil
-L['forgotten_incense_note'] = nil
+L['forgotten_incense'] = 'Encens oublié'
+L['forgotten_incense_note'] = '{note:Difficile à atteindre en raison des bordures de la quête.}'
 L['historied_heirloom'] = nil
 
 -------------------------------------------------------------------------------

@@ -60,6 +60,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = 'Zeigt die möglichen Positionen fü
 L['squirrels_note'] = 'Du musst das Emote {emote:/liebe} auf Kleintiere anwenden (KEINE Kampfhaustiere).'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:16729} an.'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:18361} an.'
 
 L['hnj_sublabel'] = 'Benötigt einen Großen Jagdtrupp der Shikaarzen in der Nähe'
 L['hnj_western_azure_span_hunt'] = 'Auf dem toten Baum.'
@@ -143,6 +145,10 @@ L['options_icons_simmering_chest_desc'] = 'Zeigt die möglichen Positionen der {
 L['frostbound_chest'] = 'Frostgebundene Kiste'
 L['options_icons_frostbound_chest'] = 'Frostgebundene Kiste'
 L['options_icons_frostbound_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Frostgebundene Kisten} an.'
+
+L['war_supply_chest_note'] = nil
+L['options_icons_war_supplies_desc'] = nil
+L['options_icons_war_supplies'] = nil
 
 L['fyrakk_assault_label'] = 'Angriff von Fyrakk'
 L['fyrakk_secured_shipment'] = 'Gesicherte Lieferung'

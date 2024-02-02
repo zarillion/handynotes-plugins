@@ -34,6 +34,7 @@ local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
+local WarSupply = ns.node.WarSupply
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -1413,6 +1414,20 @@ map.nodes[49706390] = ns.node.FrostboundChest()
 map.nodes[51306080] = ns.node.FrostboundChest()
 
 -------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[21403520] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[24505010] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[26202970] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[38303290] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[44904680] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[48505360] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[67701640] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[69705400] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[71402890] = WarSupply({fgroup = 'supply_azure_span'})
+
+-------------------------------------------------------------------------------
 --------------------- TO ALL THE SQUIRRELS HIDDEN TIL NOW ---------------------
 -------------------------------------------------------------------------------
 
@@ -2215,16 +2230,14 @@ local Eadweard = Class('Eadweard', Collectible, {
                 65421 -- Just One More Thing
             }
         }), -- The Archives Called, You Answered
+        Mount({item = 212645, id = 2038}), -- Clayscale Hornstrider
         Transmog({item = 212692, slot = L['cosmetic']}), -- Excavator's Dusky Fedora
         Transmog({item = 212638, slot = L['cosmetic']}), -- Excavator's Work Shirt
         Transmog({item = 212793, slot = L['cosmetic']}), -- Excavator's Pack of Findings
         Transmog({item = 212640, slot = L['cosmetic']}), -- Excavator's Trusty Satchel
         Transmog({item = 212641, slot = L['cosmetic']}), -- Excavator's Rugged Pants
         Transmog({item = 212639, slot = L['cosmetic']}), -- Excavator's Glovelettes
-        Transmog({item = 212642, slot = L['cosmetic']}), -- Excavator's Boots
-        Spacer(), --
-        Section('{item:213177}'), --
-        Mount({item = 212645, id = 2038}) -- Clayscale Hornstrider
+        Transmog({item = 212642, slot = L['cosmetic']}) -- Excavator's Boots
     }
 }) -- Eadweard Dalyngrigge
 

@@ -60,6 +60,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = 'Muestra dónde pueden haber {object
 L['squirrels_note'] = 'Has de teclear {emote:/amor} mientras seleccionas alimañas que no sean mascotas de combate.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:16729}.'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:18361}.'
 
 L['hnj_sublabel'] = 'Requiere Gran Cacería Shikaar local'
 L['hnj_western_azure_span_hunt'] = 'Encima del árbol muerto.'
@@ -143,6 +145,10 @@ L['options_icons_simmering_chest_desc'] = 'Muestra dónde pueden haber {object:C
 L['frostbound_chest'] = 'Cofre Ligado a la Escarcha'
 L['options_icons_frostbound_chest'] = 'Cofre Ligado a la Escarcha'
 L['options_icons_frostbound_chest_desc'] = 'Muestra dónde pueden haber {object:Cofre Ligado a la Escarcha}.'
+
+L['war_supply_chest_note'] = 'Una {npc:135181} sobrevolará una vez cada 45 minutos y lanzará un {npc:135238} en uno de los posibles lugares de entrega.'
+L['options_icons_war_supplies_desc'] = 'Muestra dónde puede caer un {npc:135238}.'
+L['options_icons_war_supplies'] = '{npc:135238}'
 
 L['fyrakk_assault_label'] = 'Asalto de Fyrakk'
 L['fyrakk_secured_shipment'] = 'Envío Seguro'
