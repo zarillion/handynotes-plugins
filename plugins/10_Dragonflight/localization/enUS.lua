@@ -187,7 +187,6 @@ L['options_icons_rich_soil'] = 'Rich Soil'
 L['options_icons_rich_soil_desc'] = 'Display locations for {object:Rich Soil}.'
 
 L['information_stuffed_clue'] = 'Information-Stuffed Clue'
-
 L['clued_in_note'] = 'The {npc:210079} spawn during {note:the Big Dig} event and the world quests {wq:Research: ...}.'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = 'Display {npc:210079} locations for {achievement:19787} achievement.'
@@ -456,7 +455,6 @@ L['forgotten_fishing_pole'] = 'Forgotten Fishing Pole'
 L['forgotten_fishing_pole_note'] = 'On the ground level.'
 L['overgrown_fishing_bench'] = 'Overgrown Fishing Bench'
 L['overgrown_fishing_bench_note'] = 'An overgrown rock, hard to see.'
-
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
