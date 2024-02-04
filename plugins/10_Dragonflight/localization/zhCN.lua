@@ -191,7 +191,7 @@ L['clued_in_note'] = '{npc:210079} 于事件 {note:盛大发掘}，以及 世界
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = '显示成就 {achievement:19787} 中 {npc:210079} 的位置。'
 
-L['goggle_wobble_note'] = '在引导任务线 或 世界任务 {wq:科技占卜：……} 期间，穿戴 {item:202247} 的同时与 {npc:207763} {emote:/跳舞}({emote:/dance})。'
+L['goggle_wobble_note'] = '在引导任务线或世界任务 {wq:科技占卜：……} 期间，穿戴 {item:202247} 的同时与 {npc:207763} {emote:/跳舞}({emote:/dance})。'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = '显示成就 {achievement:19791} 中 {npc:207763} 的位置。'
 
@@ -446,15 +446,15 @@ L['naszuro_caldera_of_the_menders'] = '在塔顶。'
 
 L['sun_bleached_vase'] = '久经日晒的花瓶'
 L['untranslated_tome'] = '未翻译的魔典'
-L['untranslated_tome_note'] = '在建筑里，入口位于桥下'
+L['untranslated_tome_note'] = '在建筑里，入口位于桥下。'
 L['mysterious_boot'] = '神秘的靴子'
-L['mysterious_boot_note'] = '在上层'
+L['mysterious_boot_note'] = '在上层。'
 L['decaying_fishing_bucket'] = '腐烂鱼桶'
-L['decaying_fishing_bucket_note'] = '在塔的最顶层'
+L['decaying_fishing_bucket_note'] = '在塔的最顶层。'
 L['forgotten_fishing_pole'] = '被遗忘的鱼竿'
-L['forgotten_fishing_pole_note'] = '在最底层'
+L['forgotten_fishing_pole_note'] = '在最底层。'
 L['overgrown_fishing_bench'] = '长满杂草的钓鱼椅'
-L['overgrown_fishing_bench_note'] = '覆满青苔的岩石，不大显眼'
+L['overgrown_fishing_bench_note'] = '覆满青苔的岩石，不大显眼。'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -562,11 +562,11 @@ L['bloodgullet_note'] = '在 {location:森步岗哨} 的帐篷中从 {object:觉
 L['naszuro_windsong_rise'] = '石柱上。'
 L['naszuro_emerald_gardens'] = '瀑布旁的草地上。'
 
-L['prismatic_leaper_school_label'] = nil
-L['prismatic_leaper_school_note'] = nil
+L['prismatic_leaper_school_label'] = '棱光跃鲑鱼群'
+L['prismatic_leaper_school_note'] = '与 {location:伊斯卡拉} 的 {npc:195935} 交谈以进行升级。\n\n从整个 {location:欧恩哈拉平原} 的 {object:棱光跃鲑鱼群} 中钓取以下物品：\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
-L['aylaag_spear'] = nil
-L['dedication_plaquard'] = nil
+L['aylaag_spear'] = '艾拉格长矛'
+L['dedication_plaquard'] = '奉献壁橱'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -903,10 +903,10 @@ L['zaralek_event_inactive'] = ns.color.Orange('此区域事件今日不开始，
 L['options_icons_zone_event'] = '区域事件'
 L['options_icons_zone_event_desc'] = '显示区域事件的位置。'
 
-L['djaradin_scroll'] = nil
-L['forgotten_incense'] = nil
+L['djaradin_scroll'] = '贾拉丁卷轴'
+L['forgotten_incense'] = '被遗忘的熏香'
 L['forgotten_incense_note'] = '{note:由于任务边界的问题难以到达。}'
-L['historied_heirloom'] = nil
+L['historied_heirloom'] = '历史传家宝'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
