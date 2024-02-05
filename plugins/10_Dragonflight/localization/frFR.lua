@@ -196,6 +196,10 @@ L['goggle_wobble_note'] = '{emote:/danser} avec {npc:207763} pendant la suite de
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Afficher les emplacements de {npc:207763} pour le haut-fait {achievement:19791}.'
 
+L['just_one_more_thing_note'] = nil
+L['options_icons_just_one_more_thing'] = nil
+L['options_icons_just_one_more_thing_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

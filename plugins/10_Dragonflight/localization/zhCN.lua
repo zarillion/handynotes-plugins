@@ -195,6 +195,10 @@ L['goggle_wobble_note'] = '在引导任务线或世界任务 {wq:科技占卜：
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = '显示成就 {achievement:19791} 中 {npc:207763} 的位置。'
 
+L['just_one_more_thing_note'] = '需要完成总共6个 {wq:研究：……} 各3次才能达成对应子项。'
+L['options_icons_just_one_more_thing'] = '{achievement:19792}'
+L['options_icons_just_one_more_thing_desc'] = '显示 {achievement:19792} 的成就子项进度。'
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------

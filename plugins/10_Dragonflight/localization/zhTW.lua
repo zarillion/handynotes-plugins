@@ -195,6 +195,10 @@ L['goggle_wobble_note'] = nil
 L['options_icons_goggle_wobble'] = nil
 L['options_icons_goggle_wobble_desc'] = nil
 
+L['just_one_more_thing_note'] = nil
+L['options_icons_just_one_more_thing'] = nil
+L['options_icons_just_one_more_thing_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
