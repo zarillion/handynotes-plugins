@@ -1114,3 +1114,6 @@ L['options_icons_mawsworn_supply_cache'] = 'Coffres de fournitures antreliges'
 L['options_icons_mawsworn_supply_cache_desc'] = 'Afficher les emplacements possibles des {object:Coffres de fournitures antreliges}.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Emplacements des Automas sans noyaux pour le haut-fait {achievement:15542}.'
+
+L['ponderers_portal_label'] = nil
+L['ponderers_portal_note'] = nil

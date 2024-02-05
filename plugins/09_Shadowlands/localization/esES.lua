@@ -1117,3 +1117,6 @@ L['options_icons_mawsworn_supply_cache'] = 'Cofres de Suministros Jurafauces'
 L['options_icons_mawsworn_supply_cache_desc'] = 'Muestra dónde están los sitios posibles para los {object:Cofre de Suministros Jurafauces}.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Muestra dónde están los Automas salvajes que controlar para el logro {achievement:15542}.'
+
+L['ponderers_portal_label'] = nil
+L['ponderers_portal_note'] = nil
