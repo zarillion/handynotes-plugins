@@ -901,10 +901,10 @@ L['zaralek_event_inactive'] = ns.color.Orange('Cet Événement bonus n\'apparaî
 L['options_icons_zone_event'] = 'Événements bonus'
 L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements bonus.'
 
-L['djaradin_scroll'] = nil
+L['djaradin_scroll'] = 'Parchemin djaradin'
 L['forgotten_incense'] = 'Encens oublié'
 L['forgotten_incense_note'] = '{note:Difficile à atteindre en raison des bordures de la quête.}'
-L['historied_heirloom'] = nil
+L['historied_heirloom'] = 'Objet à l\'histoire riche'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

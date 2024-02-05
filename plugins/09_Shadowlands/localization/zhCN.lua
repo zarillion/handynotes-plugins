@@ -1117,3 +1117,6 @@ L['options_icons_mawsworn_supply_cache'] = '渊誓补给宝箱'
 L['options_icons_mawsworn_supply_cache_desc'] = '显示 {object:渊誓补给宝箱} 可能的位置。'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = '显示 {achievement:15542} 成就中无核自动体的位置。'
+
+L['ponderers_portal_label'] = nil
+L['ponderers_portal_note'] = nil

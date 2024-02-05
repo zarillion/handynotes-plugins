@@ -1103,3 +1103,6 @@ L['options_icons_mawsworn_supply_cache'] = 'Schlundgebundene Vorratstruhen'
 L['options_icons_mawsworn_supply_cache_desc'] = 'Zeigt die möglichen Positionen für Schlundgebundene Vorratstruhen an.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Zeigt die Positionen der Wildtierautomas (kernlose Automas) für den Erfolg {achievement:15542} an.'
+
+L['ponderers_portal_label'] = nil
+L['ponderers_portal_note'] = nil

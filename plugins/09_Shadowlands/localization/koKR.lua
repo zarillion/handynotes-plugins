@@ -940,3 +940,6 @@ L['options_icons_mawsworn_supply_cache'] = '나락살이 보급품 상자'
 L['options_icons_mawsworn_supply_cache_desc'] = '나락살이 보급품 상자의 발견 가능한 위치를 표시합니다'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = '{achievement:15542} 업적을 위한 핵이 없는 자동기계 위치를 표시합니다.'
+
+L['ponderers_portal_label'] = nil
+L['ponderers_portal_note'] = nil
