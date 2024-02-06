@@ -1118,5 +1118,9 @@ L['options_icons_mawsworn_supply_cache_desc'] = '显示 {object:渊誓补给宝�
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = '显示 {achievement:15542} 成就中无核自动体的位置。'
 
-L['ponderers_portal_label'] = nil
-L['ponderers_portal_note'] = nil
+L['ponderers_portal_label'] = '沉思者的传送门'
+L['ponderers_portal_note'] = [[{item:190196} 可以在 {item:190177} 的帮助下找到，而 {item:190177} 可以从 {faction:开悟者} 声望的巅峰宝箱 {item:187780} 中拾取。
+
+{note:一旦看到区域范围的表情，任何玩家都可以拾取传送门，而不仅仅是打开传送门的玩家。}
+
+要打开传送门，六名玩家需要坐在 {location:扎雷殁提斯} 中心的 {location:冥世锻炉} 下水池周围的六角柱上并使用 {item:190177}。每个支柱都需要有一名玩家。]]
