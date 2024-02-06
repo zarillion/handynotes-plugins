@@ -933,7 +933,6 @@ ns.DRAGON_CUSTOMIZATIONS = {
         YellowScales = Item({item = 207777, quest = 77148})
     },
     DragonIslesDrakes = {
-        EndlessPossibility = Toy({item = 212518}),
         GildedArmor = Item({
             item = 208200,
             quest = {69550, 69786, 69167, 69296, 73786}
