@@ -22,6 +22,7 @@ local WarSupply = ns.node.WarSupply
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
+local Skin = ns.reward.Skin
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
@@ -74,6 +75,7 @@ map.nodes[28303794] = Rare({
     location = L['in_water_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58459}), -- Champion of the Forbidden Reach
+        Skin({item = 193224, quest = 75884, count = 4}), -- Lustrous Scaled Hide
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
@@ -407,6 +409,7 @@ local Snarfang = Class('Snarfang', ProfessionRare, {
     fgroup = 'fgroup_snarfang',
     rewards = {
         Achievement({id = 17525, criteria = 58477}), -- Champion of the Forbidden Reach
+        Skin({item = 193218, quest = 75879, count = 3}), -- Dense Hide
         Item({item = 203648}), -- Primalist Necklace
         Item({item = 190456}), -- Artisan's Mettle
         Currency({id = 2118}) -- Elemental Overflow
@@ -445,7 +448,8 @@ local Faunos = Class('Faunos', ProfessionRare, {
     summoningObject = L['pr_raw_argali_pelts'], -- Raw Argali Pelts
     fgroup = 'fgroup_faunos',
     rewards = {
-        Achievement({id = 17525, criteria = 58479}) -- Champion of the Forbidden Reach
+        Achievement({id = 17525, criteria = 58479}), -- Champion of the Forbidden Reach
+        Skin({item = 193218, quest = 75881, count = 3}) -- Dense Hide
     }
 }) -- Faunos
 
@@ -569,6 +573,7 @@ local Luttrok = Class('Luttrok', ProfessionRare, {
     fgroup = 'fgroup_luttrok',
     rewards = {
         Achievement({id = 17525, criteria = 58485}), -- Champion of the Forbidden Reach
+        Skin({item = 193218, quest = 75878, count = 3}), -- Dense Hide
         Pet({item = 193235, id = 3285}) -- Luvvy
     }
 }) -- Luttrok

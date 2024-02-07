@@ -16,14 +16,16 @@ local AncientStone = ns.node.AncientStone
 local Dragonglyph = ns.node.Dragonglyph
 local PT = ns.node.ProfessionTreasures
 local ElusiveCreature = ns.node.ElusiveCreature
-local WarSupply = ns.node.WarSupply
+local SkinableRare = ns.node.SkinableRare
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
+local Skin = ns.reward.Skin
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Section = ns.reward.Section
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -138,7 +140,21 @@ map.nodes[31805061] = Rare({
         Achievement({id = 17783, criteria = 59209}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59495}), -- Cavern Clawbbering
         Transmog({item = 205293, slot = L['cloth']}), -- Emberdusk's Embrace
-        DC.WindingSlitherdrake.LargeFinnedThroat
+        DC.WindingSlitherdrake.LargeFinnedThroat,
+        Skin({item = 193218, quest = 75873, count = 4}), -- Dense Hide
+        Skin({item = 193258, quest = 75873, count = 4}) -- Fire-Infused Hide
+    }
+}) -- Emberdusk
+
+map.nodes[31805062] = SkinableRare({
+    label = '{npc:203664}',
+    questDeps = 75361,
+    quest = 75873,
+    -- interval = ZaralekRotation({id = 0}),
+    rewards = {
+        Section(_G.UNIT_SKINNABLE_LEATHER),
+        Skin({item = 193218, count = 4}), -- Dense Hide
+        Skin({item = 193258, count = 4}) -- Fire-Infused Hide
     }
 }) -- Emberdusk
 
@@ -152,7 +168,23 @@ map.nodes[36324481] = Rare({
         Achievement({id = 17783, criteria = 59207}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59496}), -- Cavern Clawbbering
         Transmog({item = 205303, slot = L['leather']}), -- Leggings of Flowing Flame
-        DC.HighlandDrake.SpikedHead
+        DC.HighlandDrake.SpikedHead,
+        Skin({item = 193218, quest = 75872, count = 3}), -- Dense Hide
+        Skin({item = 193258, quest = 75872, count = 3}) -- Fire-Infused Hide
+    },
+    pois = {POI({35924400})} -- Entrance
+}) -- Flowfy
+
+map.nodes[36324482] = SkinableRare({
+    label = '{npc:203660}',
+    questDeps = 75357,
+    quest = 75872,
+    location = L['in_small_cave'],
+    -- interval = ZaralekRotation({id = 0}),
+    rewards = {
+        Section(_G.UNIT_SKINNABLE_LEATHER),
+        Skin({item = 193218, count = 3}), -- Dense Hide
+        Skin({item = 193258, count = 3}) -- Fire-Infused Hide
     },
     pois = {POI({35924400})} -- Entrance
 }) -- Flowfy
@@ -231,7 +263,18 @@ map.nodes[42226524] = Rare({
         Transmog({item = 205292, slot = L['cloak']}), -- Kairoktra's Mane
         DC.WindingSlitherdrake.SmallFinnedTail, --
         Pet({item = 205147, id = 3541}), -- Ridged Shalewing
-        Currency({id = 2245}) -- Flightstones
+        Skin({item = 193224, quest = 74238, count = 4}) -- Lustrous Scaled Hide
+    }
+}) -- Karokta
+
+map.nodes[42226525] = SkinableRare({
+    label = '{npc:203625}',
+    questDeps = 75333,
+    quest = 74238,
+    -- interval = ZaralekRotation({id = 1}),
+    rewards = {
+        Section(_G.UNIT_SKINNABLE_LEATHER),
+        Skin({item = 193224, count = 4}) -- Lustrous Scaled Hide
     }
 }) -- Karokta
 
@@ -276,7 +319,21 @@ map.nodes[65435587] = Rare({
         Transmog({item = 205323, slot = L['leather']}), -- Rock-Lined Pauldrons
         Pet({item = 205152, id = 3546}), -- Skaarn
         DC.CliffsideWylderdrake.SpikedClubTail, --
-        Item({item = 206021, note = '{item:205151}'}) -- Kob'rok's Luminescent Scale (for Salverun Pet)
+        Item({item = 206021, note = '{item:205151}'}), -- Kob'rok's Luminescent Scale (for Salverun Pet)
+        Skin({item = 193224, quest = 74237, count = 3}) -- Lustrous Scaled Hide
+    },
+    pois = {POI({64785550})} -- Entrance
+}) -- Kob'rok
+
+map.nodes[65435588] = SkinableRare({
+    lable = '{npc:203462}',
+    questDeps = 75266,
+    quest = 74237,
+    location = L['in_small_cave'],
+    -- interval = ZaralekRotation({id = 3}),
+    rewards = {
+        Section(_G.UNIT_SKINNABLE_LEATHER),
+        Skin({item = 193224, count = 3}) -- Lustrous Scaled Hide
     },
     pois = {POI({64785550})} -- Entrance
 }) -- Kob'rok
@@ -293,9 +350,22 @@ map.nodes[40753817] = Rare({
         Transmog({item = 205300, slot = L['leather']}), -- Magma Waders
         DC.WindingSlitherdrake.ImpalerHorns, --
         Item({item = 192055}), -- Dragon Isle Artifact
-        Currency({id = 2245}) -- Flightstones
+        Skin({item = 193218, quest = 74236, count = 4}), -- Dense Hide
+        Skin({item = 193258, quest = 74236, count = 4}) -- Fire-Infused Hide
     }
-}) -- Magmanesha
+}) -- Magtembo
+
+map.nodes[40753818] = SkinableRare({
+    label = '{npc:200111}',
+    questDeps = 75339,
+    quest = 74236,
+    -- interval = ZaralekRotation({id = 4}),
+    rewards = {
+        Section(_G.UNIT_SKINNABLE_LEATHER),
+        Skin({item = 193218, count = 4}), -- Dense Hide
+        Skin({item = 193258, count = 4}) -- Fire-Infused Hide
+    }
+}) -- Magtembo
 
 map.nodes[55841899] = Rare({
     id = 203521,

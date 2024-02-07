@@ -28,6 +28,7 @@ local PT = ns.node.ProfessionTreasures
 local RichSoil = ns.node.RichSoil
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
+local SkinableRare = ns.node.SkinableRare
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
@@ -36,6 +37,7 @@ local WarSupply = ns.node.WarSupply
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
+local Skin = ns.reward.Skin
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
@@ -138,7 +140,11 @@ map.nodes[85221544] = Rare({
     vignette = nil,
     quest = 73951,
     note = L['aylaag_outpost_note'],
-    rewards = {Achievement({id = 16677, criteria = 56082})}
+    rewards = {
+        Achievement({id = 16677, criteria = 56082}),
+        Skin({item = 193218, quest = 74180, count = 3}), -- Dense Hide
+        Skin({item = 193254, quest = 74180, count = 3}) -- Rockfang Leather
+    }
 }) -- Hamett
 
 map.nodes[80544222] = Rare({
@@ -146,8 +152,12 @@ map.nodes[80544222] = Rare({
     vignette = 5077,
     quest = 73966,
     note = L['aylaag_outpost_note'] .. '\n\n' .. L['hunter_of_the_deep_note'],
-    rewards = {Achievement({id = 16677, criteria = 56083})}
-}) -- Hunter of Deep
+    rewards = {
+        Achievement({id = 16677, criteria = 56083}),
+        Skin({item = 193224, quest = 74179, count = 3}), -- Lustrous Scaled Hide
+        Skin({item = 193252, quest = 74179, count = 3}) -- Salamanther Scales
+    }
+}) -- Hunter of the Deep
 
 map.nodes[80513869] = Rare({
     id = 188124,
@@ -175,7 +185,9 @@ map.nodes[87556151] = Rare({
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.RenewedProtoDrake.SharkSnout, DC.HighlandDrake.FinnedHead,
-        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane,
+        Skin({item = 193224, quest = 74169, count = 3}), -- Lustrous Scaled Hide
+        Skin({item = 193255, quest = 74169, count = 3}) -- Pristine Vorquin Horn
     }
 }) -- Liskheszaera
 
@@ -184,7 +196,11 @@ map.nodes[32823817] = Rare({
     vignette = 5365,
     quest = 73968,
     note = L['eaglewatch_outpost_note'],
-    rewards = {Achievement({id = 16677, criteria = 56094})}
+    rewards = {
+        Achievement({id = 16677, criteria = 56094}),
+        Skin({item = 193218, quest = 74182, count = 3}), -- Dense Hide
+        Skin({item = 193258, quest = 74182, count = 3}) -- Fire-Infused Hide
+    }
 }) -- Makhra the Ashtouched
 
 map.nodes[71694585] = Rare({
@@ -203,7 +219,8 @@ map.nodes[71694585] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 198409}), -- Personal Shell
-        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane,
+        Skin({item = 193224, quest = 74171, count = 4}) -- Lustrous Scaled Hide
     }
 }) -- Malsegan
 
@@ -326,7 +343,10 @@ map.nodes[42804428] = Rare({
     vignette = nil,
     quest = 73973,
     note = L['eaglewatch_outpost_note'],
-    rewards = {Achievement({id = 16677, criteria = 56093})}
+    rewards = {
+        Achievement({id = 16677, criteria = 56093}),
+        Skin({item = 193218, quest = 74176, count = 3}) -- Dense Hide
+    }
 }) -- Rustlily
 
 map.nodes[20444344] = Rare({
@@ -418,7 +438,9 @@ map.nodes[53627281] = Rare({
         Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead,
+        Skin({item = 193224, quest = 74173, count = 4}), -- Lustrous Scaled Hide
+        Skin({item = 193252, quest = 74173, count = 4}) -- Salamanther Scales
     }
 }) -- Steamgill
 
@@ -435,7 +457,10 @@ map.nodes[27605560] = Rare({
     vignette = 5352,
     quest = 73976,
     note = L['eaglewatch_outpost_note'],
-    rewards = {Achievement({id = 16677, criteria = 56088})}
+    rewards = {
+        Achievement({id = 16677, criteria = 56088}),
+        Skin({item = 193224, quest = 74177, count = 3}) -- Lustrous Scaled Hide
+    }
 }) -- The Jolly Giant
 
 map.nodes[83786215] = Rare({
@@ -443,7 +468,19 @@ map.nodes[83786215] = Rare({
     vignette = nil,
     quest = 73978,
     note = L['river_camp_note'],
-    rewards = {Achievement({id = 16677, criteria = 56090})}
+    rewards = {
+        Achievement({id = 16677, criteria = 56090}),
+        Skin({item = 193218, quest = 74183, count = 3}), -- Dense Hide
+        Skin({item = 193256, quest = 74183, count = 3}) -- Windsong Plumage
+    },
+    pois = {
+        Path({
+            83596274, 84136222, 84756165, 85286133, 84456062, 83906068,
+            83426138, 83256242, 83356327, 83676381, 83936499, 83906578,
+            83726636, 83096642, 82296570, 81306529, 80676517, 80236515,
+            80536393, 81676373, 82946351, 83596274
+        })
+    }
 }) -- Vaniik the Stormtouched
 
 map.nodes[84214784] = Rare({
@@ -451,7 +488,11 @@ map.nodes[84214784] = Rare({
     vignette = 5140,
     quest = 73979,
     note = L['river_camp_note'] .. '\n\n' .. L['windscale_the_stormborn_note'],
-    rewards = {Achievement({id = 16677, criteria = 56089})}
+    rewards = {
+        Achievement({id = 16677, criteria = 56089}),
+        Skin({item = 193224, quest = 74184, count = 3}), -- Lustrous Scaled Hide
+        Skin({item = 193259, quest = 74184, count = 3}) -- Flawless Proto Dragon Scale
+    }
 }) -- Windscale the Stormborn
 
 map.nodes[58596822] = Rare({
@@ -480,7 +521,8 @@ map.nodes[30206260] = Rare({
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
-        Transmog({item = 200442, slot = L['leather']}) -- Basilisk Hide Jerkin
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Skin({item = 193224, quest = 74172, count = 3}) -- Lustrous Scaled Hide
     }
 }) -- Zarizz
 
@@ -503,7 +545,9 @@ map.nodes[31456387] = Rare({
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane,
-        DC.RenewedProtoDrake.PurpleHair, DC.WindborneVelocidrake.SweptHorns
+        DC.RenewedProtoDrake.PurpleHair, DC.WindborneVelocidrake.SweptHorns,
+        Skin({item = 193218, quest = 74170, count = 3}), -- Dense Hide
+        Skin({item = 193256, quest = 74170, count = 3}) -- Windsong Plumage
     }
 }) -- Zenet Avis
 
@@ -512,7 +556,11 @@ map.nodes[72232306] = Rare({
     vignette = 5087,
     quest = 73980,
     note = L['aylaag_outpost_note'],
-    rewards = {Achievement({id = 16677, criteria = 56085})}
+    rewards = {
+        Achievement({id = 16677, criteria = 56085}),
+        Skin({item = 193224, quest = 74181, count = 3}), -- Lustrous Scaled Hide
+        Skin({item = 193259, quest = 74181, count = 3}) -- Flawless Proto Dragon Scale
+    }
 }) -- Zerimek
 
 map.nodes[90434005] = Rare({
@@ -529,7 +577,8 @@ map.nodes[90434005] = Rare({
         Toy({item = 200178}), -- Infected Ichor
         DC.CliffsideWylderdrake.BlackHair,
         DC.CliffsideWylderdrake.DualHornedChin, DC.CliffsideWylderdrake.Ears,
-        DC.HighlandDrake.SpikedClubTail
+        DC.HighlandDrake.SpikedClubTail,
+        Skin({item = 193218, quest = 74197, count = 3, note = '{npc:193231}'}) -- Dense Hide
     }
 }) -- Blightpaw the Depraved
 
@@ -552,7 +601,11 @@ map.nodes[80817770] = Rare({
 
 -- These rares/elites are not part of the adventurer achievement for the zone
 
-map.nodes[73725602] = Rare({id = 193168, quest = 73903}) -- Biryuk
+map.nodes[73725602] = Rare({
+    id = 193168,
+    quest = 73903,
+    rewards = {Skin({item = 193218, quest = 74174, count = 3})} -- Dense Hide
+}) -- Biryuk
 
 map.nodes[59926696] = Rare({
     id = 193669,
@@ -607,7 +660,21 @@ map.nodes[44894924] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
-        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead,
+        Skin({item = 193218, count = 3, quest = 74186}), -- Dense Hide
+        Skin({item = 193254, count = 3, quest = 74186}) -- Rockfang Leather
+    }
+}) -- Skaara
+
+map.nodes[44894925] = SkinableRare({
+    label = '{npc:192949}',
+    location = L['in_small_cave'],
+    questDeps = 72847,
+    quest = 74168,
+    rewards = {
+        Section(_G.UNIT_SKINNABLE_LEATHER),
+        Skin({item = 193218, count = 3}), -- Dense Hide
+        Skin({item = 193254, count = 3}) -- Rockfang Leather
     }
 }) -- Skaara
 
@@ -626,7 +693,19 @@ map.nodes[63034854] = Rare({
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 198409}), -- Personal Shell
         Toy({item = 200249}), -- Mage's Chewed Wand
-        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead,
+        Skin({item = 193224, count = 3, quest = 74167}) -- Lustrous Scaled Hide
+    }
+}) -- Sunscale Behemoth
+
+map.nodes[63034855] = SkinableRare({
+    label = '{npc:193133}',
+    note = L['in_waterfall_cave'],
+    questDeps = 72849,
+    quest = 74167,
+    rewards = {
+        Section(_G.UNIT_SKINNABLE_LEATHER),
+        Skin({item = 193224, count = 3}) -- Lustrous Scaled Hide
     }
 }) -- Sunscale Behemoth
 
@@ -644,7 +723,20 @@ map.nodes[22956670] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
-        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead,
+        Skin({item = 193224, count = 3, quest = 74175}), -- Lustrous Scaled Hide
+        Skin({item = 193252, count = 3, quest = 74175}) -- Salamanther Scales
+    }
+}) -- Territorial Coastling
+
+map.nodes[22956671] = SkinableRare({
+    label = '{npc:193163}',
+    questDeps = 72851,
+    quest = 74175,
+    rewards = {
+        Section(_G.UNIT_SKINNABLE_LEATHER),
+        Skin({item = 193224, count = 3}), -- Lustrous Scaled Hide
+        Skin({item = 193252, count = 3}) -- Salamanther Scales
     }
 }) -- Territorial Coastling
 
@@ -704,7 +796,8 @@ map.nodes[36803800] = Rare({
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead,
+        Skin({item = 193218, quest = 74551, count = 4}) -- Dense Hide
     }
 }) -- Bloodbeak the Ravenous
 
@@ -715,7 +808,8 @@ map.nodes[35804040] = Rare({
     rewards = {
         Transmog({item = 203671, slot = L['cloak']}), -- Bloodbeak's Ravenor
         DC.CliffsideWylderdrake.ManedTail, DC.RenewedProtoDrake.GrayHair,
-        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead,
+        Skin({item = 193218, quest = 74550, count = 4}) -- Dense Hide
     }
 }) -- Groffnar
 
