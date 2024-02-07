@@ -17,6 +17,7 @@ local Dragonglyph = ns.node.Dragonglyph
 local PT = ns.node.ProfessionTreasures
 local ElusiveCreature = ns.node.ElusiveCreature
 local SkinableRare = ns.node.SkinableRare
+local WarSupply = ns.node.WarSupply
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
