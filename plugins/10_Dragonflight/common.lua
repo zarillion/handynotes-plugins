@@ -1727,6 +1727,22 @@ hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
 end)
 
 -------------------------------------------------------------------------------
+--------------------------------- SKINABLERARE --------------------------------
+-------------------------------------------------------------------------------
+
+local SkinableRare = Class('SkinableRare', ns.node.Node, {
+    icon = 'skin',
+    rlabel = ns.GetIconLink(4620680, 13),
+    -- IsEnabled = function(self) -- Skinning
+    --     if not ns.PlayerHasProfession(393) then return false end
+    --     return ns.node.Node.IsEnabled(self)
+    -- end,
+    group = ns.groups.ELUSIVE_CREATURE
+})
+
+ns.node.SkinableRare = SkinableRare
+
+-------------------------------------------------------------------------------
 ------------------------------ ELUSIVE CREATURES ------------------------------
 -------------------------------------------------------------------------------
 
