@@ -323,6 +323,46 @@ function Item:GetStatus()
 end
 
 -------------------------------------------------------------------------------
+------------------------------------- SKIN ------------------------------------
+-------------------------------------------------------------------------------
+
+local Skin = Class('Skin', Item, {display_option = 'show_skinning_rewards'})
+
+-- function Skin:IsObtained()
+--     return C_QuestLog.IsQuestFlaggedCompleted(self.quest)
+-- end
+
+function Skin:GetText()
+    local text = self.itemLink
+    if self.type then -- Leather, Scale, Side Gathers
+        text = text .. ' (' .. self.type .. ')'
+    end
+    if not self.tier then -- delete Quality-Tier Icon
+        text = string.gsub(text, '....P%a*-C%a*-Q%a*-T%a*%d:%d*:%d*.....', '')
+    end
+    if self.count then
+        text = text .. string.format(' (+%s)', BreakUpLargeNumbers(self.count))
+    end
+    if self.note then -- additional info
+        text = text .. ' (' .. ns.RenderLinks(self.note, true) .. ')'
+    end
+    return Icon(self.itemIcon) .. text
+end
+
+function Skin:GetStatus()
+    if self.quest then
+        local completed = C_QuestLog.IsQuestFlaggedCompleted(self.quest)
+        return completed and Green(_G.UNIT_ALREADY_SKINNED_LEATHER)
+        or Red(_G.UNIT_SKINNABLE_LEATHER)
+    end
+end
+
+function Skin:IsEnabled()
+    if not Item.IsEnabled(self) then return false end
+    return ns.PlayerHasProfession(393)  -- Skinning
+end
+
+-------------------------------------------------------------------------------
 ----------------------------------- HEIRLOOM ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -636,6 +676,7 @@ ns.reward = {
     Currency = Currency,
     Follower = Follower,
     Item = Item,
+    Skin = Skin,
     Heirloom = Heirloom,
     Mount = Mount,
     Pet = Pet,

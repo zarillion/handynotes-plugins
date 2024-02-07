@@ -187,6 +187,8 @@ L['options_transmog_rewards'] = 'Show transmog rewards'
 L['options_transmog_rewards_desc'] = 'Display transmog rewards in tooltips and track their collected status.'
 L['options_all_transmog_rewards'] = 'Show unobtainable transmog rewards'
 L['options_all_transmog_rewards_desc'] = 'Display transmog rewards obtainable by other classes.'
+L['options_skinning_rewards'] = 'Show skinning rewards'
+L['options_skinning_rewards_desc'] = 'Display skinning rewards in tooltips and track their collected status.'
 
 L['options_icons_misc_desc'] = 'Display locations of other miscellaneous nodes.'
 L['options_icons_misc'] = 'Miscellaneous'

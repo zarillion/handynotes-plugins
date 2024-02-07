@@ -187,6 +187,8 @@ L['options_transmog_rewards'] = 'Afficher les transmos en récompense'
 L['options_transmog_rewards_desc'] = 'Afficher les transmos en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_all_transmog_rewards'] = 'Afficher les transmos plus obtenables en récompense'
 L['options_all_transmog_rewards_desc'] = 'Afficher les transmos en récompenses pouvant être obtenus par d\'autres classes.'
+L['options_skinning_rewards'] = nil
+L['options_skinning_rewards_desc'] = nil
 
 L['options_icons_misc_desc'] = 'Afficher les emplacements des nœuds divers'
 L['options_icons_misc'] = 'Divers'

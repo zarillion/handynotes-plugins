@@ -187,6 +187,8 @@ L['options_transmog_rewards'] = '显示幻化奖励'
 L['options_transmog_rewards_desc'] = '在提示中显示幻化奖励并跟踪其收集状态。'
 L['options_all_transmog_rewards'] = '显示无法获取的幻化奖励'
 L['options_all_transmog_rewards_desc'] = '显示其它职业可以获取的幻化奖励。'
+L['options_skinning_rewards'] = '显示剥皮奖励'
+L['options_skinning_rewards_desc'] = '在提示中显示剥皮奖励并跟踪其收集状态。'
 
 L['options_icons_misc_desc'] = '显示其它未分类项的位置。'
 L['options_icons_misc'] = '杂项'
