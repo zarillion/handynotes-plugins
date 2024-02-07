@@ -187,7 +187,7 @@ L['options_icons_rich_soil'] = '肥沃的土壤'
 L['options_icons_rich_soil_desc'] = '显示 {object:肥沃的土壤} 的位置。'
 
 L['information_stuffed_clue'] = '满载信息的线索'
-L['clued_in_note'] = '{npc:210079} 于事件 {note:盛大发掘}，以及 世界任务 {wq:研究：……} 期间刷新。'
+L['clued_in_note'] = '{npc:210079} 于事件 {note:盛大发掘}，以及世界任务 {wq:研究：……} 期间刷新。'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = '显示成就 {achievement:19787} 中 {npc:210079} 的位置。'
 
