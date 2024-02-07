@@ -721,7 +721,22 @@ map.nodes[77302198] = Rare({
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.HighlandDrake.ManedHead, DC.RenewedProtoDrake.ClubTail,
-        DC.CliffsideWylderdrake.HeavyHorns, DC.CliffsideWylderdrake.HeadMane
+        DC.CliffsideWylderdrake.HeavyHorns, DC.CliffsideWylderdrake.HeadMane,
+        Skin({item = 193224, quest = 74219, count = 3}), -- Lustrous Scaled Hide
+    },
+    pois = {
+        POI({77902281}) -- Entrance
+    }
+}) -- Ancient Hornswog
+
+map.nodes[77302199] = SkinableRare({
+    label = '{npc:187111}',
+    location = L['in_small_cave'],
+    questDeps = 72835,
+    quest = 74219,
+    rewards = {
+        Section(_G.UNIT_SKINNABLE_LEATHER),
+        Skin({item = 193224, count = 3}) -- Lustrous Scaled Hide
     },
     pois = {
         POI({77902281}) -- Entrance
