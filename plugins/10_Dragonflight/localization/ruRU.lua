@@ -1320,13 +1320,13 @@ L['kaldorei_spyglass_label'] = 'Калдорайская подзорная тр
 L['blue_kaldorei_backpack_note'] = 'На ящике в портовом магазине в {location:Беланааре}.'
 L['blue_kaldorei_bedroll_note'] = 'За столом возле лунного колодца.'
 L['blue_kaldorei_pouch_note'] = 'На бочке возле здания, с порталами.'
-L['kaldorei_bow_carver_note'] = nil
+L['kaldorei_bow_carver_note'] = 'На столе в верхней части {location:Сторожевой башни Сумерек} рядом с {npc:216731}.'
 L['kaldorei_sentinels_spyglass_note'] = 'На ящике в конце дока в {location:Беланааре}.'
-L['night_elven_bow_note'] = nil
-L['night_elven_horn_note'] = nil
+L['night_elven_bow_note'] = 'Прислонен к оружейной стойке в {location:Приюте Арлитриэна}.'
+L['night_elven_horn_note'] = 'На ящике наверху {location:Сторожевой башни Рассвета}  рядом с {npc:216752}.'
 L['night_elven_shield_note'] = 'Прелсланен к ящику который возле {npc:216269}, учителя по горному делу.'
 L['night_elven_signal_note'] = 'Висит на жаровне на ступеньках.'
-L['night_elven_spear_note'] = nil
+L['night_elven_spear_note'] = 'Прислонен к стене в {location:Зале Метких Клинков}.'
 L['violet_kaldorei_pouch_note'] = 'Около нижней части арки за лунным колодцем.'
 
 L['moon_priestess_lasara_note'] = 'Обмен {currency:2003} на трансмогрификацию.'
