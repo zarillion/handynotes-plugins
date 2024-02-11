@@ -909,11 +909,11 @@ L['djaradin_scroll'] = 'Parchemin djaradin'
 L['forgotten_incense'] = 'Encens oublié'
 L['forgotten_incense_note'] = '{note:Difficile à atteindre en raison des bordures de la quête.}'
 L['historied_heirloom'] = 'Objet à l\'histoire riche'
-L['rusted_dirt_pale'] = nil
-L['rusted_dirt_pale_note'] = nil
-L['niffen_pickaxe'] = nil
-L['chipped_grub_pot'] = nil
-L['chipped_grub_pot_note'] = nil
+L['rusted_dirt_pale'] = 'Seau de terre rouillé'
+L['rusted_dirt_pale_note'] = '{note:Disparaît après que vous ayez cliqué sur les autres {object:Indices riches en informations} dans cette zone de quête.}'
+L['niffen_pickaxe'] = 'Pioche flairane'
+L['chipped_grub_pot'] = 'Marmite à boustiff ébéchée'
+L['chipped_grub_pot_note'] = 'Au sommet de la tour.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
