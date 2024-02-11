@@ -911,11 +911,11 @@ L['djaradin_scroll'] = 'Pergamino Djaradin'
 L['forgotten_incense'] = 'Incienso Olvidado'
 L['forgotten_incense_note'] = '{note:Difícil de alcanzar debido a los límites de la misión.}'
 L['historied_heirloom'] = 'Reliquia Histórica'
-L['rusted_dirt_pale'] = nil
-L['rusted_dirt_pale_note'] = nil
-L['niffen_pickaxe'] = nil
-L['chipped_grub_pot'] = nil
-L['chipped_grub_pot_note'] = nil
+L['rusted_dirt_pale'] = 'Tierra Pálida y Oxidada'
+L['rusted_dirt_pale_note'] = '{note:Desaparece después de hacer click en los otros objetos {object:Pista Rebosante de Información} de este lugar.}'
+L['niffen_pickaxe'] = 'Piqueta de Niffen'
+L['chipped_grub_pot'] = 'Caldero de Manduca Partido'
+L['chipped_grub_pot_note'] = 'En lo alto de la torre.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
