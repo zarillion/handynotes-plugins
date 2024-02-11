@@ -1154,6 +1154,24 @@ map.nodes[41844525] = ns.node.CluedIn({
     quest = 76734
 })
 
+map.nodes[45935148] = ns.node.CluedIn({
+    label = L['rusted_dirt_pale'],
+    quest = 76739, -- Research: Niffen of Zaralek Cavern
+    location = L['rusted_dirt_pale_note']
+})
+
+map.nodes[49084529] = ns.node.CluedIn({
+    label = L['niffen_pickaxe'],
+    quest = 76739,
+    location = L['forgotten_incense_note']
+})
+
+map.nodes[47684926] = ns.node.CluedIn({
+    label = L['chipped_grub_pot'],
+    quest = 76739,
+    location = L['chipped_grub_pot_note'] .. '\n' .. L['rusted_dirt_pale_note']
+})
+
 -------------------------------------------------------------------------------
 -------------------------------- GOGGLE WOBBLE --------------------------------
 -------------------------------------------------------------------------------

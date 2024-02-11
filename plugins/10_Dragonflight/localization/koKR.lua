@@ -847,6 +847,11 @@ L['djaradin_scroll'] = nil
 L['forgotten_incense'] = nil
 L['forgotten_incense_note'] = nil
 L['historied_heirloom'] = nil
+L['rusted_dirt_pale'] = nil
+L['rusted_dirt_pale_note'] = nil
+L['niffen_pickaxe'] = nil
+L['chipped_grub_pot'] = nil
+L['chipped_grub_pot_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

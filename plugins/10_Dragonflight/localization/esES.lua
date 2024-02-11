@@ -911,6 +911,11 @@ L['djaradin_scroll'] = 'Pergamino Djaradin'
 L['forgotten_incense'] = 'Incienso Olvidado'
 L['forgotten_incense_note'] = '{note:Difícil de alcanzar debido a los límites de la misión.}'
 L['historied_heirloom'] = 'Reliquia Histórica'
+L['rusted_dirt_pale'] = nil
+L['rusted_dirt_pale_note'] = nil
+L['niffen_pickaxe'] = nil
+L['chipped_grub_pot'] = nil
+L['chipped_grub_pot_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

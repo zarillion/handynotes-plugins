@@ -911,6 +911,11 @@ L['djaradin_scroll'] = 'Djaradin Scroll'
 L['forgotten_incense'] = 'Forgotten Incense'
 L['forgotten_incense_note'] = '{note:Hard to reach due to the quest boundaries.}'
 L['historied_heirloom'] = 'Historied Heirloom'
+L['rusted_dirt_pale'] = 'Rusted Dirt Pale'
+L['rusted_dirt_pale_note'] = '{note:Dispearing after clicking the other {object:Information-Stuffed Clues} objects in this site.}'
+L['niffen_pickaxe'] = 'Niffen Pickaxe'
+L['chipped_grub_pot'] = 'Chipped Grub Pot'
+L['chipped_grub_pot_note'] = 'On the top of the tower.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
