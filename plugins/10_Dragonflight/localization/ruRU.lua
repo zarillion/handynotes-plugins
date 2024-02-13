@@ -187,14 +187,14 @@ L['rich_soil_note'] = 'Садите различные семена на уча�
 L['options_icons_rich_soil'] = 'Плодородная земля'
 L['options_icons_rich_soil_desc'] = 'Отображение местоположения для {object:Плодородной земли}.'
 
-L['information_stuffed_clue'] = nil
-L['clued_in_note'] = nil
-L['options_icons_clued_in'] = nil
-L['options_icons_clued_in_desc'] = nil
+L['information_stuffed_clue'] = 'Важнейшая подсказка'
+L['clued_in_note'] = '{npc:210079} появляеться во время {note:Больших раскопок} событие и 3 локальных задания {wq:Исследование: ...}.'
+L['options_icons_clued_in'] = '{achievement:19787}'
+L['options_icons_clued_in_desc'] = 'Показать {npc:210079} места для достижения {achievement:19787}.'
 
-L['goggle_wobble_note'] = nil
-L['options_icons_goggle_wobble'] = nil
-L['options_icons_goggle_wobble_desc'] = nil
+L['goggle_wobble_note'] = '{emote:/танец} с {npc:207763} во время вступительной линии заданий или 3-х локальных заданий {wq:Техногадание: ...} во время ношения {item:202247}.'
+L['options_icons_goggle_wobble'] = '{achievement:19791}'
+L['options_icons_goggle_wobble_desc'] = 'Показать {npc:207763} места для достижения {achievement:19791}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
