@@ -446,11 +446,11 @@ L['trader_hagarth_note'] = 'Обменяйте {item:190456} на рецепты
 
 L['naszuro_caldera_of_the_menders'] = 'На вершине башни.'
 
-L['sun_bleached_vase'] = nil
-L['untranslated_tome'] = nil
-L['untranslated_tome_note'] = nil
-L['mysterious_boot'] = nil
-L['mysterious_boot_note'] = nil
+L['sun_bleached_vase'] = 'Выцветшая на солнце ваза'
+L['untranslated_tome'] = 'Непереведенная книга'
+L['untranslated_tome_note'] = 'В здании со входом под мостом.'
+L['mysterious_boot'] = 'Таинственный сапог'
+L['mysterious_boot_note'] = 'Верхний этаж.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
