@@ -558,11 +558,11 @@ L['bloodgullet_note'] = 'Получить {spell:369277} бафф (1 час) в 
 L['naszuro_windsong_rise'] = 'На вершине каменного столба.'
 L['naszuro_emerald_gardens'] = 'На траве рядом с водопадом.'
 
-L['prismatic_leaper_school_label'] = nil
-L['prismatic_leaper_school_note'] = nil
+L['prismatic_leaper_school_label'] = 'Косяк призматического прыгуна'
+L['prismatic_leaper_school_note'] = 'Поговорите с {npc:195935} в {location:Искаре} чтобы сделать ваши улучшения.\n\nДостаньте следующие предметы из {object:Косяка призматического прыгуна} по всей {location:Равнине Он\'ары}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
-L['aylaag_spear'] = nil
-L['dedication_plaquard'] = nil
+L['aylaag_spear'] = 'Копье клана Айлааг'
+L['dedication_plaquard'] = 'Табличка с посвящением'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
