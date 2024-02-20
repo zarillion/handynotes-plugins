@@ -313,14 +313,14 @@ L['naszuro_hudsons_rock'] = 'En la cima de la pequeña colina rocosa.'
 L['ferry_to_iskaara'] = 'Barco a Iskaara'
 
 L['options_icons_vegetarian_diet'] = '{achievement:16762}'
-L['options_icons_vegetarian_diet_desc'] = nil
+L['options_icons_vegetarian_diet_desc'] = 'Muestra dónde están los {object:Almacén de Carne} para el logro {achievement:16762}.'
 
-L['meat_storage_label'] = nil
-L['meat_storage_note'] = nil
+L['meat_storage_label'] = 'Almacén de Carne'
+L['meat_storage_note'] = 'Tras rescatar a los 12 {npc:186766} de los {object:Almacén de Carne} dentro de la {location:Hondonada Frondacuero} recibirás un correo de {npc:196267} con {item:200631}.'
 
-L['meat_storage_location_a'] = nil
-L['meat_storage_location_b'] = nil
-L['meat_storage_location_c'] = nil
+L['meat_storage_location_a'] = 'En la playa rodeado de varios {npc:96239}.'
+L['meat_storage_location_b'] = 'Cerca de una cueva detrás de {npc:187192}.'
+L['meat_storage_location_c'] = 'En una cueva pequeña detrás de {npc:197130} y {npc:186226}.'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
