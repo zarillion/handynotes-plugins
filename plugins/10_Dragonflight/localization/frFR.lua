@@ -314,14 +314,14 @@ L['naszuro_hudsons_rock'] = 'Au sommet de la petite colline rocheuse.'
 L['ferry_to_iskaara'] = 'Bateau pour Iskaara'
 
 L['options_icons_vegetarian_diet'] = '{achievement:16762}'
-L['options_icons_vegetarian_diet_desc'] = nil
+L['options_icons_vegetarian_diet_desc'] = 'Afficher les emplacements des {object:Réserves de viande} pour le haut-fait {achievement:16762}.'
 
-L['meat_storage_label'] = nil
-L['meat_storage_note'] = nil
+L['meat_storage_label'] = 'Réserve de viande'
+L['meat_storage_note'] = 'Après avoir libéré les 12 {npc:186766} des {object:Réserves de viande} au {location:Creux des Fougerobes}, vous recevrez un courrier de {npc:196267} contenant le jouet {item:200631}.'
 
-L['meat_storage_location_a'] = nil
-L['meat_storage_location_b'] = nil
-L['meat_storage_location_c'] = nil
+L['meat_storage_location_a'] = 'Sur la plage, au milieu des {npc:96239s}.'
+L['meat_storage_location_b'] = 'Près d\'une grotte derrière {npc:187192}.'
+L['meat_storage_location_c'] = 'Dans une petite grotte derrière la {npc:197130} et le {npc:186226}.'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
