@@ -898,10 +898,10 @@ L['zaralek_event_inactive'] = ns.color.Orange('Это событие не нач
 L['options_icons_zone_event'] = 'События'
 L['options_icons_zone_event_desc'] = 'Отображение мест для событий.'
 
-L['djaradin_scroll'] = nil
-L['forgotten_incense'] = nil
-L['forgotten_incense_note'] = nil
-L['historied_heirloom'] = nil
+L['djaradin_scroll'] = 'Свиток джарадинов'
+L['forgotten_incense'] = 'Забытые благовония'
+L['forgotten_incense_note'] = '{note:Труднодоступен из-за границ задания.}'
+L['historied_heirloom'] = 'Историческая реликвия'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
