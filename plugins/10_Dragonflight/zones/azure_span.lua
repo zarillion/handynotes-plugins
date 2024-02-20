@@ -1833,6 +1833,53 @@ map.nodes[41144865] = RichSoil()
 map.nodes[44035954] = RichSoil()
 
 -------------------------------------------------------------------------------
+----------------------------- THE VEGETARIAN DIET -----------------------------
+-------------------------------------------------------------------------------
+
+local bhh = ns.maps[2096] or Map({id = 2096, settings = false})
+
+local MeatStorage = Class('MeatStorage', Collectible, {
+    label = L['meat_storage_label'],
+    icon = 4635249,
+    note = L['meat_storage_note'],
+    group = ns.groups.VEGETARIAN_DIET,
+    rewards = {
+        Achievement({id = 16762}), -- The Vegetarian Diet
+        Toy({item = 200631}) -- Happy Tuskarr Palooza
+    }
+}) -- Captive Tuskarr
+
+bhh.nodes[11883354] = MeatStorage({location = L['meat_storage_location_a']})
+bhh.nodes[19304078] = MeatStorage({location = L['meat_storage_location_a']})
+bhh.nodes[22172995] = MeatStorage({location = L['meat_storage_location_a']})
+bhh.nodes[29223300] = MeatStorage({location = L['meat_storage_location_a']})
+bhh.nodes[29102697] = MeatStorage({location = L['meat_storage_location_a']})
+bhh.nodes[25041603] = MeatStorage({location = L['meat_storage_location_a']})
+bhh.nodes[27194311] = MeatStorage({location = L['meat_storage_location_a']})
+
+bhh.nodes[55325915] = MeatStorage({
+    location = L['in_small_cave'],
+    pois = {POI({53206146})} -- Entrance
+})
+
+bhh.nodes[56325949] = MeatStorage({
+    location = L['in_small_cave'],
+    pois = {POI({53206146})} -- Entrance
+})
+
+bhh.nodes[56776032] = MeatStorage({
+    location = L['in_small_cave'],
+    pois = {POI({53206146})} -- Entrance
+})
+
+bhh.nodes[55565794] = MeatStorage({
+    location = L['meat_storage_location_b'],
+    pois = {POI({57885466})} -- Entrance
+})
+
+bhh.nodes[65934616] = MeatStorage({location = L['meat_storage_location_c']})
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 

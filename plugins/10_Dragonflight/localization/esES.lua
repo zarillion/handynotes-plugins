@@ -312,6 +312,16 @@ L['naszuro_hudsons_rock'] = 'En la cima de la pequeña colina rocosa.'
 
 L['ferry_to_iskaara'] = 'Barco a Iskaara'
 
+L['options_icons_vegetarian_diet'] = '{achievement:16762}'
+L['options_icons_vegetarian_diet_desc'] = nil
+
+L['meat_storage_label'] = nil
+L['meat_storage_note'] = nil
+
+L['meat_storage_location_a'] = nil
+L['meat_storage_location_b'] = nil
+L['meat_storage_location_c'] = nil
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------

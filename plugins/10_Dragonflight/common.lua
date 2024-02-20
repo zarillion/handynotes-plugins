@@ -432,6 +432,12 @@ ns.groups.SQUIRRELS = Group('squirrels', 237182, {
     achievement = 16729
 })
 
+ns.groups.VEGETARIAN_DIET = ns.Group('vegetarian_diet', 4635249, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16762
+})
+
 ns.groups.ZARALEK_SQUIRRELS = Group('zaralek_squirrels', 237182, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
