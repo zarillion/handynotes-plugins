@@ -839,6 +839,11 @@ L['box_of_rocks_note'] = '{object:Kasten mit Steinen} kann in {location:Die Küs
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Zeigt die möglichen Positionen von {object:Kasten mit Steinen} für den Erfolg {achievement:18559} an.'
 
+L['drakonid_painting'] = nil
+L['emptied_hourglass'] = nil
+L['rusted_signal_horn'] = nil
+L['rusted_signal_horn_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------

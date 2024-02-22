@@ -838,6 +838,11 @@ L['box_of_rocks_note'] = '{object:一箱岩石} 可以在 {location:觉醒海岸
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = '显示 {achievement:18559} 成就中 {object:一箱岩石} 可能的位置。'
 
+L['drakonid_painting'] = '龙人绘画'
+L['emptied_hourglass'] = '空荡荡的沙漏'
+L['rusted_signal_horn'] = '生锈的传信号角'
+L['rusted_signal_horn_note'] = '在顶层。'
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------

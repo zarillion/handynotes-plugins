@@ -838,6 +838,11 @@ L['box_of_rocks_note'] = '{object:Box of Rocks} can be found around {location:Th
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Show possible {object:Box of Rocks} locations for {achievement:18559}.'
 
+L['drakonid_painting'] = 'Drakonid Painting'
+L['emptied_hourglass'] = 'Emptied Hourglass'
+L['rusted_signal_horn'] = 'Rusted Signal Horn'
+L['rusted_signal_horn_note'] = 'On the top floor.'
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------

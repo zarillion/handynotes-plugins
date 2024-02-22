@@ -836,6 +836,11 @@ L['box_of_rocks_note'] = 'Les {object:Boîtes de pierres} peuvent être trouvée
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Afficher les emplacements possibles des {object:Boîtes de pierres} pour le haut-fait {achievement:18559}.'
 
+L['drakonid_painting'] = nil
+L['emptied_hourglass'] = nil
+L['rusted_signal_horn'] = nil
+L['rusted_signal_horn_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
