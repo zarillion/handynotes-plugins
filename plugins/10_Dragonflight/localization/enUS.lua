@@ -195,7 +195,7 @@ L['goggle_wobble_note'] = '{emote:/dance} with {npc:207763} during the intro que
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Display {npc:207763} locations for {achievement:19791} achievement.'
 
-L['just_one_more_thing_note'] = 'Have to complete each of six {wq:Research: ...} three times to get the correspond credit.'
+L['just_one_more_thing_note'] = 'Have to complete any world quest {wq:Research: ...} three times.'
 L['options_icons_just_one_more_thing'] = '{achievement:19792}'
 L['options_icons_just_one_more_thing_desc'] = 'Display progress for each criteria for {achievement:19792}.'
 
