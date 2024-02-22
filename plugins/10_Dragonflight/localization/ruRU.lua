@@ -315,14 +315,14 @@ L['naszuro_hudsons_rock'] = 'На вершине небольшого скали
 L['ferry_to_iskaara'] = 'Лодка, плывущая в Искару'
 
 L['options_icons_vegetarian_diet'] = '{achievement:16762}'
-L['options_icons_vegetarian_diet_desc'] = nil
+L['options_icons_vegetarian_diet_desc'] = 'Показать {object:Склад мяса} в локации для достижения {achievement:16762}.'
 
-L['meat_storage_label'] = nil
-L['meat_storage_note'] = nil
+L['meat_storage_label'] = 'Склад мяса'
+L['meat_storage_note'] = 'После освобождения всех 12 {npc:186766} от {object:Склада мяса} внутри {location:Лощины Бурошкуров} вы получите письмо от {npc:196267} содержащее {item:200631}.'
 
-L['meat_storage_location_a'] = nil
-L['meat_storage_location_b'] = nil
-L['meat_storage_location_c'] = nil
+L['meat_storage_location_a'] = 'На пляже, окруженном {npc:96239}.'
+L['meat_storage_location_b'] = 'Рядом с пещерой позади {npc:187192}.'
+L['meat_storage_location_c'] = 'В маленькой пещере за {npc:197130} и {npc:186226}.'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
