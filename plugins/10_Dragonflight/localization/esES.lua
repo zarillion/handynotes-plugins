@@ -195,7 +195,7 @@ L['goggle_wobble_note'] = 'Teclea la emoción {emote:/bailar} a {npc:207763} dur
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Muestra dónde está {npc:207763} para el logro {achievement:19791}.'
 
-L['just_one_more_thing_note'] = 'Tienes que completar cada una de las seis {wq:Investigación: ...} tres veces para conseguir el criterio correspondiente.'
+L['just_one_more_thing_note'] = 'Tienes que completar cualquier misión del mundo {wq:Investigación: ...} tres veces para conseguir el criterio correspondiente.'
 L['options_icons_just_one_more_thing'] = '{achievement:19792}'
 L['options_icons_just_one_more_thing_desc'] = 'Muestra el progreso para cada criterio del logro {achievement:19792}.'
 
@@ -848,10 +848,10 @@ L['box_of_rocks_note'] = 'Las {object:Caja de Piedras} pueden encontrarse a lo l
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Muestra dónde pueden estar las {object:Caja de Piedras} para el logro {achievement:18559}.'
 
-L['drakonid_painting'] = nil
-L['emptied_hourglass'] = nil
-L['rusted_signal_horn'] = nil
-L['rusted_signal_horn_note'] = nil
+L['drakonid_painting'] = 'Pintora Dracónida'
+L['emptied_hourglass'] = 'Reloj de Arena Vaciado'
+L['rusted_signal_horn'] = 'Cuerno de Señalización Oxidado'
+L['rusted_signal_horn_note'] = 'En el último piso.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
