@@ -316,6 +316,16 @@ L['naszuro_hudsons_rock'] = 'On top of the small rocky hill.'
 
 L['ferry_to_iskaara'] = 'Boat to Iskaara'
 
+L['options_icons_vegetarian_diet'] = '{achievement:16762}'
+L['options_icons_vegetarian_diet_desc'] = 'Display {object:Meat Storage} locations for {achievement:16762}.'
+
+L['meat_storage_label'] = 'Meat Storage'
+L['meat_storage_note'] = 'After freeing all 12 {npc:186766} from {object:Meat Storage} inside of {location:Brackenhide Hollow} you will recieve mail from {npc:196267} containing the {item:200631}.'
+
+L['meat_storage_location_a'] = 'On the beach surrounded by {npc:96239s}.'
+L['meat_storage_location_b'] = 'Near a cave behind {npc:187192}.'
+L['meat_storage_location_c'] = 'In a small cave behind the {npc:197130} and {npc:186226}.'
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------

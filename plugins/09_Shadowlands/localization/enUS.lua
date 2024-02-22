@@ -1119,7 +1119,7 @@ L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Coreless automa locations for the {achievement:15542} achievement.'
 
 L['ponderers_portal_label'] = 'Ponderer\'s Portal'
-L['ponderers_portal_note'] = [[The {item:190196} can be found with the help of the {item:190177}, which can be looted from the {item:187780}, the Paragon cache for the {faction:Enlightened} reputation.
+L['ponderers_portal_note'] = [[The {item:190196} can be found with the help of the {item:190177}, which can be looted from the {item:187780}, the Paragon cache for the {faction:The Enlightened} reputation.
 
 {note:The portal can be looted by any player once the zone-wide emote is seen, not just those who opened the portal.}
 

@@ -316,6 +316,16 @@ L['naszuro_hudsons_rock'] = '在小石丘的頂端.'
 
 L['ferry_to_iskaara'] = '乘船到伊斯凱拉'
 
+L['options_icons_vegetarian_diet'] = '{achievement:16762}'
+L['options_icons_vegetarian_diet_desc'] = nil
+
+L['meat_storage_label'] = nil
+L['meat_storage_note'] = nil
+
+L['meat_storage_location_a'] = nil
+L['meat_storage_location_b'] = nil
+L['meat_storage_location_c'] = nil
+
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
 -------------------------------------------------------------------------------

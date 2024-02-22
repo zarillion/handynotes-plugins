@@ -113,7 +113,7 @@ end
 local DragonridingVendor = Class('DragonridingVendor', Vendor, {
     note = L['dr_vendor_note'],
     rewards = {
-        DC.SetCount(DC.DragonIslesDrakes.EndlessPossibility, 40),
+        ns.reward.Toy({item = 212518, count = 40}), -- Vial of Endless Draconic Scales
         DC.SetCount(DC.WindborneVelocidrake.TealScales, 50),
         DC.SetCount(DC.WindingSlitherdrake.BlondeHair, 25),
         DC.SetCount(DC.WindingSlitherdrake.CurvedNoseHorn, 25),
