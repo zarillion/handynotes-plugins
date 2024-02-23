@@ -146,9 +146,9 @@ L['frostbound_chest'] = '霜縛寶箱'
 L['options_icons_frostbound_chest'] = '霜縛寶箱'
 L['options_icons_frostbound_chest_desc'] = '顯示 {object:霜縛寶箱} 可能的位置.'
 
-L['war_supply_chest_note'] = nil
-L['options_icons_war_supplies_desc'] = nil
-L['options_icons_war_supplies'] = nil
+L['war_supply_chest_note'] = '{npc:135181} 每45分鐘會飛過地圖, 並在這些可能的位置丟下一個 {npc:135238}.'
+L['options_icons_war_supplies_desc'] = '顯示 {npc:135238} 掉落的位置.'
+L['options_icons_war_supplies'] = '{npc:135238}'
 
 L['fyrakk_assault_label'] = '菲拉卡突襲'
 L['fyrakk_secured_shipment'] = '封住的貨箱'
@@ -186,14 +186,14 @@ L['rich_soil_note'] = '在 {location:巨龍群島} 的 {object:肥沃土壤} 種
 L['options_icons_rich_soil'] = '肥沃土壤'
 L['options_icons_rich_soil_desc'] = '顯示 {object:肥沃土壤} 的位置.'
 
-L['information_stuffed_clue'] = nil
+L['information_stuffed_clue'] = '裝滿資訊的線索'
 L['clued_in_note'] = nil
-L['options_icons_clued_in'] = nil
-L['options_icons_clued_in_desc'] = nil
+L['options_icons_clued_in'] = '{achievement:19787}'
+L['options_icons_clued_in_desc'] = '顯示成就 {achievement:19787} 所需的 {npc:210079} 位置.'
 
 L['goggle_wobble_note'] = nil
-L['options_icons_goggle_wobble'] = nil
-L['options_icons_goggle_wobble_desc'] = nil
+L['options_icons_goggle_wobble'] = '{achievement:19791}'
+L['options_icons_goggle_wobble_desc'] = '顯示成就 {achievement:19791} 所需的 {npc:207763} 位置.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
