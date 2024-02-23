@@ -186,12 +186,12 @@ L['rich_soil_note'] = '在 {location:巨龍群島} 的 {object:肥沃土壤} 種
 L['options_icons_rich_soil'] = '肥沃土壤'
 L['options_icons_rich_soil_desc'] = '顯示 {object:肥沃土壤} 的位置.'
 
-L['information_stuffed_clue'] = '裝滿資訊的線索'
-L['clued_in_note'] = nil
+L['information_stuffed_clue'] = '裝滿資訊的線索 會在事件 {note:大挖掘} 中和3個世界任務 {wq:研究：...} 中刷新.'
+L['clued_in_note'] = '{npc:210079}'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = '顯示成就 {achievement:19787} 所需的 {npc:210079} 位置.'
 
-L['goggle_wobble_note'] = nil
+L['goggle_wobble_note'] = '在引導任務線或是3個世界任務 {wq:高科技占測...} 時戴著 {item:202247} 和 {npc:207763} {emote:/dance}.'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = '顯示成就 {achievement:19791} 所需的 {npc:207763} 位置.'
 
@@ -313,7 +313,7 @@ L['naszuro_hudsons_rock'] = '在小石丘的頂端.'
 L['ferry_to_iskaara'] = '乘船到伊斯凱拉'
 
 L['options_icons_vegetarian_diet'] = '{achievement:16762}'
-L['options_icons_vegetarian_diet_desc'] = nil
+L['options_icons_vegetarian_diet_desc'] = '顯示成就 {achievement:16762} 所需的 {object:Meat Storage} 位置.'
 
 L['meat_storage_label'] = nil
 L['meat_storage_note'] = nil
@@ -909,7 +909,7 @@ L['options_icons_zone_event_desc'] = '顯示區域事件的位置.'
 
 L['djaradin_scroll'] = nil
 L['forgotten_incense'] = nil
-L['forgotten_incense_note'] = nil
+L['forgotten_incense_note'] = '{note:因為任務邊界的關係很難到達.}'
 L['historied_heirloom'] = nil
 
 -------------------------------------------------------------------------------
