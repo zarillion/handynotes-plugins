@@ -186,8 +186,8 @@ L['rich_soil_note'] = '在 {location:巨龍群島} 的 {object:肥沃土壤} 種
 L['options_icons_rich_soil'] = '肥沃土壤'
 L['options_icons_rich_soil_desc'] = '顯示 {object:肥沃土壤} 的位置.'
 
-L['information_stuffed_clue'] = '裝滿資訊的線索 會在事件 {note:大挖掘} 中和3個世界任務 {wq:研究：...} 中刷新.'
-L['clued_in_note'] = '{npc:210079}'
+L['information_stuffed_clue'] = '裝滿資訊的線索'
+L['clued_in_note'] = '{npc:210079} 會在 {note:大挖掘} 事件中和執行3個世界任務 {wq:研究：...} 中刷新.'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = '顯示成就 {achievement:19787} 所需的 {npc:210079} 位置.'
 
@@ -313,14 +313,14 @@ L['naszuro_hudsons_rock'] = '在小石丘的頂端.'
 L['ferry_to_iskaara'] = '乘船到伊斯凱拉'
 
 L['options_icons_vegetarian_diet'] = '{achievement:16762}'
-L['options_icons_vegetarian_diet_desc'] = '顯示成就 {achievement:16762} 所需的 {object:Meat Storage} 位置.'
+L['options_icons_vegetarian_diet_desc'] = '顯示成就 {achievement:16762} 所需的 {object:肉倉} 位置.'
 
-L['meat_storage_label'] = nil
-L['meat_storage_note'] = nil
+L['meat_storage_label'] = '肉倉'
+L['meat_storage_note'] = '在 {location:蕨皮谷} 內從 {object:肉倉} 解救所有12個 {npc:186766} 後, 你會收到 {npc:196267} 寄給你含有 {item:200631} 的信.'
 
-L['meat_storage_location_a'] = nil
-L['meat_storage_location_b'] = nil
-L['meat_storage_location_c'] = nil
+L['meat_storage_location_a'] = '被 {npc:96239} 包圍的海灘上.'
+L['meat_storage_location_b'] = '在 {npc:187192} 後方的山洞附近.'
+L['meat_storage_location_c'] = '在 {npc:197130} 和 {npc:186226} 後方的小山洞.'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -456,9 +456,9 @@ L['naszuro_caldera_of_the_menders'] = '在塔的頂端.'
 
 L['sun_bleached_vase'] = nil
 L['untranslated_tome'] = nil
-L['untranslated_tome_note'] = nil
+L['untranslated_tome_note'] = '在入口在橋下的建築內.'
 L['mysterious_boot'] = nil
-L['mysterious_boot_note'] = nil
+L['mysterious_boot_note'] = '上層.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -566,8 +566,8 @@ L['bloodgullet_note'] = '在 {location:木階哨站} 的一個帳篷裡的 {obje
 L['naszuro_windsong_rise'] = '在岩石柱子頂端.'
 L['naszuro_emerald_gardens'] = '在瀑布旁邊的草地.'
 
-L['prismatic_leaper_school_label'] = nil
-L['prismatic_leaper_school_note'] = nil
+L['prismatic_leaper_school_label'] = '稜彩跳躍者魚群'
+L['prismatic_leaper_school_note'] = '和 {location:伊斯凱拉} 的 {npc:195935} 對話來取得升級.\n\n可以從 {location:雍亞拉平原} 內的 {object:稜彩跳躍者魚群} 釣起下列物品:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
 L['aylaag_spear'] = nil
 L['dedication_plaquard'] = nil
