@@ -313,14 +313,14 @@ L['naszuro_hudsons_rock'] = '小石山顶上。'
 L['ferry_to_iskaara'] = '乘船前往伊斯卡拉'
 
 L['options_icons_vegetarian_diet'] = '{achievement:16762}'
-L['options_icons_vegetarian_diet_desc'] = nil
+L['options_icons_vegetarian_diet_desc'] = '显示 {achievement:16762} 成就中 {object:肉类仓库} 的位置。'
 
-L['meat_storage_label'] = nil
-L['meat_storage_note'] = nil
+L['meat_storage_label'] = '肉类仓库'
+L['meat_storage_note'] = '从 {location:蕨皮山谷} 内的 {object:肉类仓库} 解救所有12个 {npc:186766} 后，将收到来自 {npc:196267} 的邮件，其中包含 {item:200631}。'
 
-L['meat_storage_location_a'] = nil
-L['meat_storage_location_b'] = nil
-L['meat_storage_location_c'] = nil
+L['meat_storage_location_a'] = '在被 {npc:96239} 包围的海滩上。'
+L['meat_storage_location_b'] = '靠近 {npc:187192} 后面的一个洞穴。'
+L['meat_storage_location_c'] = '在 {npc:197130} 和 {npc:186226} 后面的一个小洞穴里。'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
