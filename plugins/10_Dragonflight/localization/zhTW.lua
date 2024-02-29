@@ -927,7 +927,7 @@ L['reefbreaker_moruud_note'] = '將附近的6個 {npc:210089} 連到 {npc:209898
 L['splinterlimb_note'] = '在8層 {spell:420009} 減益後會變為敵對. 每一輪後會堆疊一層. 擊殺攻擊他的怪物可以讓他快點完成每輪.'
 L['surging_lasher_note'] = '在此區域有 {location:翡翠狂亂} 事件時會重生.'
 L['talthonei_ashwisper_note'] = '在附近的區域擊殺怪物直到被殺的怪物說"我會復仇的"來刷新稀有.'
-L['talthonei_ashwisper_wq_note'] = '{note:只有在世界任務 {wq:Portal Panic} 處於啟動時才會在此刷新.}'
+L['talthonei_ashwisper_wq_note'] = '{note:只有在世界任務 {wq:傳送門之亂} 處於啟動時才會在此刷新.}'
 
 L['in_a_tree'] = '在一棵樹上.'
 L['inside_building'] = '在建築內.'
