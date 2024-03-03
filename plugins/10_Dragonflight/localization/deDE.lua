@@ -146,9 +146,9 @@ L['frostbound_chest'] = 'Frostgebundene Kiste'
 L['options_icons_frostbound_chest'] = 'Frostgebundene Kiste'
 L['options_icons_frostbound_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Frostgebundene Kisten} an.'
 
-L['war_supply_chest_note'] = nil
-L['options_icons_war_supplies_desc'] = nil
-L['options_icons_war_supplies'] = nil
+L['war_supply_chest_note'] = 'Eine {npc:135181} fliegt alle 45 Minuten und wirft eine {npc:135238} an einer der möglichen Abwurfstellen ab.'
+L['options_icons_war_supplies_desc'] = 'Zeigt die Position von möglichen Abwurfstellen für die {npc:135238} an.'
+L['options_icons_war_supplies'] = '{npc:135238}'
 
 L['fyrakk_assault_label'] = 'Angriff von Fyrakk'
 L['fyrakk_secured_shipment'] = 'Gesicherte Lieferung'
@@ -186,14 +186,14 @@ L['rich_soil_note'] = 'Pflanzt verschiedene Samen in einem Stück {object:Frucht
 L['options_icons_rich_soil'] = 'Fruchtbarer Boden'
 L['options_icons_rich_soil_desc'] = 'Zeigt mögliche Positionen von {object:Fruchtbarer Boden} an.'
 
-L['information_stuffed_clue'] = nil
-L['clued_in_note'] = nil
-L['options_icons_clued_in'] = nil
-L['options_icons_clued_in_desc'] = nil
+L['information_stuffed_clue'] = 'Informationsreicher Hinweis'
+L['clued_in_note'] = 'Ein {npc:210079} erscheint während des Events {note:Das große Buddeln} oder bei {wq:Forschung: ...} Weltquests.'
+L['options_icons_clued_in'] = '{achievement:19787}'
+L['options_icons_clued_in_desc'] = 'Zeigt die Positionen für {npc:210079} für den Erfolg {achievement:19787} an.'
 
-L['goggle_wobble_note'] = nil
-L['options_icons_goggle_wobble'] = nil
-L['options_icons_goggle_wobble_desc'] = nil
+L['goggle_wobble_note'] = 'Tanze {emote:/tanzen} mit {npc:207763} während der Einführungsquestreihe oder den {wq:Technosehen: ...} Weltquests während du den {item:202247} trägst.'
+L['options_icons_goggle_wobble'] = '{achievement:19791}'
+L['options_icons_goggle_wobble_desc'] = 'Zeigt die Positionen von {npc:207763} für den Erfolg {achievement:19791} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -314,14 +314,14 @@ L['naszuro_hudsons_rock'] = 'Oben auf dem kleinen felsigen Hügel.'
 L['ferry_to_iskaara'] = 'Boot nach Iskaara'
 
 L['options_icons_vegetarian_diet'] = '{achievement:16762}'
-L['options_icons_vegetarian_diet_desc'] = nil
+L['options_icons_vegetarian_diet_desc'] = 'Zeigt die Position der {object:Fleischlager} für den Erfolg {achievement:16762} an.'
 
-L['meat_storage_label'] = nil
-L['meat_storage_note'] = nil
+L['meat_storage_label'] = 'Fleischlager'
+L['meat_storage_note'] = 'Nachdem du alle 12 {npc:186766}, die in einem {object:Fleischlager} gefangen sind, befreit hast, erhältst du Post von {npc:196267}. In der Post ist das {item:200631} Spielzeug.'
 
-L['meat_storage_location_a'] = nil
-L['meat_storage_location_b'] = nil
-L['meat_storage_location_c'] = nil
+L['meat_storage_location_a'] = 'Am Strand umgeben von {npc:96239en}.'
+L['meat_storage_location_b'] = 'In der Nähe einer Höhle hinter {npc:187192}.'
+L['meat_storage_location_c'] = 'In einer kleinen Höhle hinter {npc:197130} und {npc:186226}.'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -454,11 +454,11 @@ L['trader_hagarth_note'] = 'Tausche {item:190456} gegen Rezepte ein.'
 
 L['naszuro_caldera_of_the_menders'] = 'Oben im Turm.'
 
-L['sun_bleached_vase'] = nil
-L['untranslated_tome'] = nil
-L['untranslated_tome_note'] = nil
-L['mysterious_boot'] = nil
-L['mysterious_boot_note'] = nil
+L['sun_bleached_vase'] = 'Sonnengebleichte Vase'
+L['untranslated_tome'] = 'Unübersetzter Foliant'
+L['untranslated_tome_note'] = 'In dem Gebäude mit dem Eingang unterhalb der Brücke.'
+L['mysterious_boot'] = 'Mysteriöser Stiefel'
+L['mysterious_boot_note'] = 'Im oberen Stockwerk.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -566,11 +566,11 @@ L['bloodgullet_note'] = 'Hol dir in einem Zelt am {location:Baumschrittaußenpos
 L['naszuro_windsong_rise'] = 'Oben auf der Steinsäule.'
 L['naszuro_emerald_gardens'] = 'Im Gras neben dem Wasserfall.'
 
-L['prismatic_leaper_school_label'] = nil
-L['prismatic_leaper_school_note'] = nil
+L['prismatic_leaper_school_label'] = 'Prismatischer Springerschwarm'
+L['prismatic_leaper_school_note'] = 'Sprich mit {npc:195935} in {location:Iskaara}, um Verbesserungen freizuschalten.\n\nAngle die folgenden Gegenstände aus {object:Prismatischer Springerschwarm} in {location:Ohn\'ahran Plains}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
-L['aylaag_spear'] = nil
-L['dedication_plaquard'] = nil
+L['aylaag_spear'] = 'Speer der Aylaag'
+L['dedication_plaquard'] = 'Widmungsplakette'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -908,10 +908,10 @@ L['zaralek_event_inactive'] = ns.color.Orange('Dieses Ereignis wird heute nicht 
 L['options_icons_zone_event'] = 'Zonen-Ereignisse'
 L['options_icons_zone_event_desc'] = 'Zeigt die Positionen der Zonen-Ereignisse an.'
 
-L['djaradin_scroll'] = nil
-L['forgotten_incense'] = nil
-L['forgotten_incense_note'] = nil
-L['historied_heirloom'] = nil
+L['djaradin_scroll'] = 'Schriftrolle der Djaradin'
+L['forgotten_incense'] = 'Vergessenes Räucherwerk'
+L['forgotten_incense_note'] = '{note:Aufgrund der Questgrenzen schwer zu erreichen.}'
+L['historied_heirloom'] = 'Historisches Erbstück'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
@@ -992,7 +992,7 @@ L['moonkin_hatchling_note'] = 'Die Weltquest {wq:Beklemmende Klauen} muss aktiv 
 L['druid_glyphs_label'] = 'Druidenglyphen'
 L['druid_glyphs_sublabel'] = '{note:Das ist nur eine Checkliste für die Druidenglypen!}'
 L['druid_glyphs_note'] = 'Sammle {note:Druidenglyphen} von verschiedenen Aktivitäten in der Zone {location:Der Smaragdgrüne Traum}.'
-L['druid_glyphs_checklist_note'] = nil
+L['druid_glyphs_checklist_note'] = 'Verfolge, ob du heute schon die seltenen Gegner im {location:Der Smaragdgrüne Traum} besiegt hast. Es werden nur {npc:NPCs} mit benötigter Beute angezeigt.\n\nWurde ein Gegner besiegt, wird dieser als ' .. ns.status.Green('Abgeschlossen') .. ' angezeigt.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Auf dem Boden vor dem Baum.'
 
