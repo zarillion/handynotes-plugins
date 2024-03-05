@@ -664,9 +664,9 @@ L['revival_catalyst_note'] = 'Transforme des pièces d\'armures ne faisant pas p
 
 L['provisioner_aristta_note'] = 'Échangez vos {currency:2657} contre des objets de transmogrification et une monture.'
 
-L['investigators_pocketwatch_note_a'] = nil
-L['investigators_pocketwatch_note_b'] = nil
-L['investigators_pocketwatch_note_c'] = nil
+L['investigators_pocketwatch_note_a'] = '1. Empruntez le {item:208449} à {npc:204990} ({dot:Green}) située l\'étage de l\'{location:Auberge de Tout-Temps} à la {location:Marges des Éons}.\n\n{note:Vous devez avoir terminé sa suite de quêtes au préalable.}'
+L['investigators_pocketwatch_note_b'] = '2. Utilisez le {item:208449} près de {npc:203769} ({dot:Blue}) au rez-de-chaussée de l\'{location:Auberge de Tout-Temps} à la {location:Marges des Éons} et achetez un {item:208448} à {npc:207463}.\n\n{note:l\'{item:208448} a une durée de 30 secondes. Faites vite !}'
+L['investigators_pocketwatch_note_c'] = '3. Rendez-vous vite à la cascade et buvez l\'{item:208448}. Interagissez avec l\'{object:Horloge trempée de temps} rendue visible pour faire apparaître l\'{npc:201664}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
