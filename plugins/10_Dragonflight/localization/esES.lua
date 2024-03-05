@@ -663,9 +663,9 @@ L['revival_catalyst_note'] = 'Convierte equipo que no sea de tier en un objeto d
 
 L['provisioner_aristta_note'] = 'Intercambia {currency:2657} por transfiguraciones y una montura.'
 
-L['investigators_pocketwatch_note_a'] = nil
-L['investigators_pocketwatch_note_b'] = nil
-L['investigators_pocketwatch_note_c'] = nil
+L['investigators_pocketwatch_note_a'] = '1. Pídele prestado el {item:208449} a {npc:204990} ({dot:Green}) en el piso superior de la {location:Posada de Todos los Momentos} en {location:El Margen del Eon}.\n\n{note:Tienes que haber completado su cadena de misiones.}'
+L['investigators_pocketwatch_note_b'] = '2. Usa el {item:208449} cerca del {npc:203769} ({dot:Blue}) en el piso inferior de la {location:Posada de Todos los Momentos} en {location:El Margen del Eon} y compra un {item:208448} al {npc:207463}.\n\n{note:{item:208448} dura 30 segundos en el inventario. ¡Sé rápido!}'
+L['investigators_pocketwatch_note_c'] = '3. Ve rápidamente a la cascada y bébete el {item:208448}. Interactúa con el nuevo objeto visible {object:Crocoinvestigador temporal} para hacer aparecer al {npc:201664}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
