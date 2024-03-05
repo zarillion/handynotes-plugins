@@ -663,6 +663,10 @@ L['revival_catalyst_note'] = '將非套裝裝備轉換為對應裝等語部位�
 
 L['provisioner_aristta_note'] = '用 {currency:2657} 交換塑型和一隻座騎.'
 
+L['investigators_pocketwatch_note_a'] = nil
+L['investigators_pocketwatch_note_b'] = nil
+L['investigators_pocketwatch_note_c'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

@@ -663,6 +663,10 @@ L['revival_catalyst_note'] = 'Convierte equipo que no sea de tier en un objeto d
 
 L['provisioner_aristta_note'] = 'Intercambia {currency:2657} por transfiguraciones y una montura.'
 
+L['investigators_pocketwatch_note_a'] = nil
+L['investigators_pocketwatch_note_b'] = nil
+L['investigators_pocketwatch_note_c'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

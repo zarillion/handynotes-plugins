@@ -626,6 +626,10 @@ L['revival_catalyst_note'] = nil
 
 L['provisioner_aristta_note'] = nil
 
+L['investigators_pocketwatch_note_a'] = nil
+L['investigators_pocketwatch_note_b'] = nil
+L['investigators_pocketwatch_note_c'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

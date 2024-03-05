@@ -1826,6 +1826,23 @@ map.nodes[62618507] = ns.node.MoteOfNaszuro({
     note = L['naszuro_temporal_conflux']
 }) -- Temporal Conflux
 
+---------------------- TOY: INVESTI-GATOR'S POCKETWATCH -----------------------
+
+map.nodes[54648589] = Collectible({
+    id = 201664,
+    icon = 134376,
+    note = format('%s\n\n%s\n\n%s', L['investigators_pocketwatch_note_a'],
+        L['investigators_pocketwatch_note_b'],
+        L['investigators_pocketwatch_note_c']),
+    rewards = {
+        Toy({item = 206993}) -- Investi-gator's Pocketwatch
+    },
+    pois = {
+        POI({52158140, color = 'Green'}), -- Melly Teletone
+        POI({52138151, color = 'Blue'}) -- Bartender Bob
+    }
+}) -- Temporal Investi-gator
+
 -------------------------------------------------------------------------------
 
 map.nodes[59735374] = ns.node.Node({

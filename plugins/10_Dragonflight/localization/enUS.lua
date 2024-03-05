@@ -663,6 +663,10 @@ L['revival_catalyst_note'] = 'Convert non-tier gear into an equivalent item leve
 
 L['provisioner_aristta_note'] = 'Exchange {currency:2657} for transmogs and a mount.'
 
+L['investigators_pocketwatch_note_a'] = '1. Borrow {item:208449} from {npc:204990} ({dot:Green}) upstairs in {location:Everywhere Inn} in {location:Eon\'s Fringe}.\n\n{note:You must have previously completed her quest chain.}'
+L['investigators_pocketwatch_note_b'] = '2. Use {item:208449} near {npc:203769} ({dot:Blue}) downstairs in {location:Everywhere Inn} in {location:Eon\'s Fringe} and purchase {item:208448} from {npc:207463}.\n\n{note:{item:208448} has a 30 second duration. Be quick!}'
+L['investigators_pocketwatch_note_c'] = '3. Quickly get to the waterfall and drink the {item:208448}. Interact with the newly visible {object:Time-Soaked Clock} to spawn the {npc:201664}.'
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

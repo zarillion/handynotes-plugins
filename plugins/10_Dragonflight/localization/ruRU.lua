@@ -665,6 +665,10 @@ L['revival_catalyst_note'] = 'Преобразование не сетового
 
 L['provisioner_aristta_note'] = 'Обмен {currency:2657} на трансмогрификацию и средства передвижения.'
 
+L['investigators_pocketwatch_note_a'] = nil
+L['investigators_pocketwatch_note_b'] = nil
+L['investigators_pocketwatch_note_c'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
