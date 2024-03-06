@@ -663,9 +663,9 @@ L['revival_catalyst_note'] = '将非套装装备转换为同等物品等级和�
 
 L['provisioner_aristta_note'] = '用 {currency:2657} 兑换幻化和坐骑。'
 
-L['investigators_pocketwatch_note_a'] = nil
-L['investigators_pocketwatch_note_b'] = nil
-L['investigators_pocketwatch_note_c'] = nil
+L['investigators_pocketwatch_note_a'] = '1. 从 {location:纪元边界} 的 {location:万时旅店} 楼上的 {npc:204990} ({dot:Green}) 借用 {item:208449}。\n\n{note:必须之前已完成她的任务链。}'
+L['investigators_pocketwatch_note_b'] = '2. 在 {location:纪元边界} 的 {location:万时旅店} 楼下的 {npc:203769} ({dot:Blue}) 附近使用 {item:208449} 并从 {npc:207463} 购买 {item:208448}。\n\n{note:{item:208448} 的持续时间为30秒。快点！}'
+L['investigators_pocketwatch_note_c'] = '3. 快速到达瀑布并喝 {item:208448}。与新可见的 {object:时间浸透的钟} 交互以出现 {npc:201664}。'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
