@@ -665,9 +665,9 @@ L['revival_catalyst_note'] = 'Преобразование не сетового
 
 L['provisioner_aristta_note'] = 'Обмен {currency:2657} на трансмогрификацию и средства передвижения.'
 
-L['investigators_pocketwatch_note_a'] = nil
-L['investigators_pocketwatch_note_b'] = nil
-L['investigators_pocketwatch_note_c'] = nil
+L['investigators_pocketwatch_note_a'] = '1. Возьмите {item:208449} у {npc:204990} ({dot:Green}) на втором этаже в {location:таверне} в {location:Грани Эпох}.\n\n{note:Вы, должны были, ранее завершить ее цепочку заданий.}'
+L['investigators_pocketwatch_note_b'] = '2. Используйте {item:208449} около {npc:203769} ({dot:Blue}) он на первом этаже в {location:таверне} в {location:Грани Эпох} и купите {item:208448} у {npc:207463}.\n\n{note:{item:208448} имеет продолжительность 30 секунд. Быстрее!}'
+L['investigators_pocketwatch_note_c'] = '3. Быстро доберитесь до водопада и выпейте {item:208448}. Взаимодействуйте с вновь видимыми {object:Пропитанными временем часами} чтобы призвать {npc:201664}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
