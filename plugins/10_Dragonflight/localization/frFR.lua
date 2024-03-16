@@ -668,8 +668,8 @@ L['investigators_pocketwatch_note_a'] = '1. Empruntez le {item:208449} à {npc:2
 L['investigators_pocketwatch_note_b'] = '2. Utilisez le {item:208449} près de {npc:203769} ({dot:Blue}) au rez-de-chaussée de l\'{location:Auberge de Tout-Temps} à la {location:Marges des Éons} et achetez un {item:208448} à {npc:207463}.\n\n{note:l\'{item:208448} a une durée de 30 secondes. Faites vite !}'
 L['investigators_pocketwatch_note_c'] = '3. Rendez-vous vite à la cascade et buvez l\'{item:208448}. Interagissez avec l\'{object:Horloge trempée de temps} rendue visible pour faire apparaître l\'{npc:201664}.'
 
-L['ominous_portal_label'] = nil
-L['ominous_portal_note'] = nil
+L['ominous_portal_label'] = 'Portail inquiétant'
+L['ominous_portal_note'] = 'Toutes les 30 minutes, un {object:Portail inquiétant} apparaîtra.\n\n5 minutes plus tard, {npc:214984} fera apparaître plusieurs boss. Battez le {npc:215141}, {npc:215147}, et {npc:215146} pour obtenir des récompenses.\n\n{note:Il n\'y a pas de limite journalière pour le butin.}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
