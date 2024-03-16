@@ -667,6 +667,9 @@ L['investigators_pocketwatch_note_a'] = '1. Borrow {item:208449} from {npc:20499
 L['investigators_pocketwatch_note_b'] = '2. Use {item:208449} near {npc:203769} ({dot:Blue}) downstairs in {location:Everywhen Inn} in {location:Eon\'s Fringe} and purchase {item:208448} from {npc:207463}.\n\n{note:{item:208448} has a 30 second duration. Be quick!}'
 L['investigators_pocketwatch_note_c'] = '3. Quickly get to the waterfall and drink the {item:208448}. Interact with the newly visible {object:Time-Soaked Clock} to spawn the {npc:201664}.'
 
+L['ominous_portal_label'] = 'Ominous Portal'
+L['ominous_portal_note'] = 'Every 30 minutes an {object:Ominous Portal} will spawn.\n\n5 minutes later {npc:214984} will spawn several bosses. Defeat {npc:215141}, {npc:215147}, and {npc:215146} for your chance at the rewards.\n\n{note:There is no daily loot lockout.}'
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------

@@ -1736,6 +1736,58 @@ map.nodes[61373139] = Vendor({
 }) -- Provisioner Aristta
 
 -------------------------------------------------------------------------------
+----------------------- HEARTHSTONE'S 10TH ANNIVERSARY ------------------------
+-------------------------------------------------------------------------------
+
+local HearthstoneEvent = Class('HearthstoneEvent', Collectible, {
+    label = L['ominous_portal_label'],
+    icon = 1061040,
+    note = L['ominous_portal_note'],
+    rewards = {
+        Achievement({
+            id = 19724,
+            criteria = {
+                65343, -- Abomination
+                66032, -- Alley Cat
+                65340, -- Ancient of Lore
+                65335, -- Arcane Explosion
+                65341, -- Arcane Golem
+                65334, -- Arcane Shot
+                65338, -- Baron Geddon
+                65337, -- Blessing of Kings
+                65329, -- Cairne Bloodhoof
+                65330, -- Charged Devilsaur
+                65345, -- Chillwind Yeti
+                65336, -- Forbidden Words
+                65344, -- Grove Tender
+                65370, -- Hand of Protection
+                65339, -- Hogger
+                65332, -- Jive, Insect!
+                65333, -- Preparation
+                65328, -- Pyroblast
+                65342, -- Righteousness
+                65347, -- Scarlet Crusader
+                65346 -- Shadow Word: Ruin
+            }
+        }), -- Hearthstone Card Collection
+        Mount({item = 212522, id = 1959}), -- Compass Rose
+        Pet({item = 212606, id = 4406}), -- Sarge
+        Toy({item = 212337}), -- Stone of the Hearth
+        Transmog({item = 212607, type = L['cosmetic']}), -- Reno's Lucky Hat
+        Transmog({item = 212644, type = L['cosmetic']}), -- Taverner's Belt
+        Transmog({item = 212336, type = L['cosmetic']}), -- The Tavern's Tabard
+        Item({item = 212335, note = L['bag']}) -- Collectors Carryall
+    }
+}) -- Heathstone Event
+
+local stormwind = ns.maps[84] or Map({id = 84, settings = false})
+local durotar = ns.maps[1] or Map({id = 1, settings = false})
+
+val.nodes[62556761] = HearthstoneEvent({parent = map.id})
+stormwind.nodes[34002100] = HearthstoneEvent()
+durotar.nodes[53101620] = HearthstoneEvent()
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 

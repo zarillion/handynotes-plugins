@@ -667,6 +667,9 @@ L['investigators_pocketwatch_note_a'] = nil
 L['investigators_pocketwatch_note_b'] = nil
 L['investigators_pocketwatch_note_c'] = nil
 
+L['ominous_portal_label'] = nil
+L['ominous_portal_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
 -------------------------------------------------------------------------------
