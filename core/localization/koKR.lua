@@ -187,6 +187,8 @@ L['options_transmog_rewards'] = '형상변환 보상 표시'
 L['options_transmog_rewards_desc'] = '형상변환 보상을 툴팁에 표시하고 수집 진행상황을 추적합니다'
 L['options_all_transmog_rewards'] = '획득 불가 형상변환 보상 표시'
 L['options_all_transmog_rewards_desc'] = '타직업으로만 수집가능한 형상변환 보상을 표시합니다'
+L['options_skinning_rewards'] = nil
+L['options_skinning_rewards_desc'] = nil
 
 L['options_icons_misc_desc'] = '기타 위치 정보 표시'
 L['options_icons_misc'] = '기타'

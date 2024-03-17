@@ -39,6 +39,7 @@ local WarSupply = ns.node.WarSupply
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
+local Skin = ns.reward.Skin
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Section = ns.reward.Section
@@ -153,7 +154,8 @@ map.nodes[14053096] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
-        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead,
+        Skin({item = 193218, quest = 74122, count = 4}) -- Dense Hide
     }
 }) -- Blisterhide
 
@@ -251,7 +253,8 @@ map.nodes[64992995] = Rare({
     quest = 73876,
     location = L['in_small_cave'],
     rewards = {
-        Achievement({id = 16678, criteria = 56104}) -- Adventurer of The Azure Span
+        Achievement({id = 16678, criteria = 56104}), -- Adventurer of The Azure Span
+        Skin({item = 193218, quest = 74130, count = 3}) -- Dense Hide
     }
 }) -- Frigidpelt Den Mother
 
@@ -295,7 +298,8 @@ map.nodes[32682911] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
-        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane,
+        Skin({item = 193218, quest = 74135, count = 4}) -- Dense Hide
     }
 }) -- Gruffy
 
@@ -314,7 +318,8 @@ map.nodes[19234362] = Rare({
         Transmog({item = 200206, slot = L['bow']}), -- Behemoth Slayer Greatbow
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        Toy({item = 200249}) -- Mage's Chewed Wand
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        Skin({item = 193218, quest = 74134, count = 4}) -- Dense Hide
     }
 }) -- Grumbletrunk
 
@@ -377,7 +382,8 @@ map.nodes[58095471] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
-        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead,
+        Skin({item = 193218, quest = 74131, count = 3}) -- Dense Hide
     }
 }) -- Mucka the Raker
 
@@ -420,11 +426,13 @@ map.nodes[58813260] = Rare({
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead, -- Ravenous Tundra Bear
+        -- Skin({item = 193218, quest = 74132, note = '+1'}), -- Dense Hide
         ns.reward.Section('{npc:193706}'),
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
         Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
         DC.CliffsideWylderdrake.FinnedCheek, DC.HighlandDrake.FinnedBack, -- Snufflegust
+        -- Skin({item = 193218, quest = 74216, count = 4}), -- Dense Hide
         ns.reward.Spacer(), -- Shared Loot
         Item({item = 200086}) -- Khaz'gorite-infused Resin
     }

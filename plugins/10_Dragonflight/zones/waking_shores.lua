@@ -29,6 +29,7 @@ local RareElite = ns.node.RareElite
 local RichSoil = ns.node.RichSoil
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
+local SkinableRare = ns.node.SkinableRare
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
@@ -37,9 +38,11 @@ local WarSupply = ns.node.WarSupply
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
+local Skin = ns.reward.Skin
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Section = ns.reward.Section
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -115,7 +118,9 @@ map.nodes[28635882] = RareElite({
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
-        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead,
+        Skin({item = 193218, quest = 74225, count = 4}), -- Dense Hide
+        Skin({item = 193258, quest = 74225, count = 4}) -- Fire-Infused Hide
     }
 }) -- Battlehorn Pyrhus
 
@@ -128,7 +133,9 @@ map.nodes[52916529] = Rare({
         Achievement({id = 16676, criteria = 56038}),
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
         DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
-        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead,
+        Skin({item = 193218, quest = 74220, count = 4, note = '{npc:192737}'}), -- Dense Hide
+        Skin({item = 193258, quest = 74220, count = 4, note = '{npc:192737}'}) -- Fire-Infused Hide
     },
     pois = {
         Path({
@@ -220,7 +227,9 @@ map.nodes[31785474] = RareElite({
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
         DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead,
-        Toy({item = 200249}) -- Mage's Chewed Wand
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        Skin({item = 193224, quest = 74229, count = 4}), -- Lustrous Scaled Hide
+        Skin({item = 193259, quest = 74229, count = 4}) -- Flawless Proto Dragon Scale
     },
     pois = {POI({27735660})} -- Sabellian
 }) -- Death's Shadow
@@ -269,7 +278,8 @@ map.nodes[21626478] = RareElite({
         Achievement({id = 16676, criteria = 56049}),
         Transmog({item = 200167, slot = L['1h_axe']}), -- Regurgitated Stone Handaxe
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
-        Transmog({item = 200252, slot = L['gun']}) -- Molten Flak Cannon
+        Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
+        Skin({item = 193224, quest = 74224, count = 4}) -- Lustrous Scaled Hide
         -- DC.RenewedProtoDrake.ImpalerHorns -- needs review, is not in wowhead drops
     }
 }) -- Enkine the Voracious
@@ -519,7 +529,8 @@ map.nodes[42892832] = Rare({
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         DC.CliffsideWylderdrake.FinnedNeck,
         DC.WindborneVelocidrake.LargeHeadFin, DC.HighlandDrake.ManedHead,
-        DC.CliffsideWylderdrake.HeadMane
+        DC.CliffsideWylderdrake.HeadMane,
+        Skin({item = 193224, quest = 74223, count = 3}) -- Lustrous Scaled Hide
     },
     pois = {
         Path({
@@ -561,7 +572,8 @@ map.nodes[69486653] = Rare({
         Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
-        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane,
+        Skin({item = 193224, quest = 74222, count = 4}) -- Lustrous Scaled Hide
     }
 }) -- Smogswog the Firebreather
 
@@ -594,7 +606,9 @@ map.nodes[45453540] = Rare({
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
-        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead,
+        Skin({item = 193218, quest = 74218, count = 3}), -- Dense Hide
+        Skin({item = 193253, quest = 74218, count = 3}) -- Cacophonous Thunderscale
     }
 }) -- Thunderous Matriarch
 
@@ -624,7 +638,8 @@ map.nodes[30025534] = RareElite({
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
-        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth
+        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
+        Skin({item = 193224, quest = 74228, count = 4}) -- Lustrous Scaled Hide
     }
 }) -- Worldcarver A'tir
 
@@ -644,7 +659,8 @@ map.nodes[33886446] = Rare({
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
-        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane,
+        Skin({item = 193224, quest = 74215, count = 4}) -- Lustrous Scaled Hide
     }
 }) -- Skald the Impaler
 
@@ -668,10 +684,12 @@ map.nodes[65617410] = Rare({
         ns.reward.Section('{npc:193735}'), -- Moth'go Deeploom -- drops more but i limited it to 2 tmog
         Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        -- Skin({item = 193224, quest = 74214, count = 4}), -- Lustrous Scaled Hide
         DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane,
         ns.reward.Section('{npc:193634}'), -- Swog'ranka -- drops more but i limited it to 2 tmog
         Transmog({item = 200151, slot = L['1h_sword']}), -- Seamist Blade
         Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
+        -- Skin({item = 193224, quest = 74213, count = 4}), -- Lustrous Scaled Hide
         DC.CliffsideWylderdrake.FinnedNeck,
         DC.WindborneVelocidrake.LargeHeadFin, ns.reward.Section('{npc:193710}'), -- Seereel, the Spring
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
@@ -703,7 +721,22 @@ map.nodes[77302198] = Rare({
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
         DC.HighlandDrake.ManedHead, DC.RenewedProtoDrake.ClubTail,
-        DC.CliffsideWylderdrake.HeavyHorns, DC.CliffsideWylderdrake.HeadMane
+        DC.CliffsideWylderdrake.HeavyHorns, DC.CliffsideWylderdrake.HeadMane,
+        Skin({item = 193224, quest = 74219, count = 3}), -- Lustrous Scaled Hide
+    },
+    pois = {
+        POI({77902281}) -- Entrance
+    }
+}) -- Ancient Hornswog
+
+map.nodes[77302199] = SkinableRare({
+    label = '{npc:187111}',
+    location = L['in_small_cave'],
+    questDeps = 72835,
+    quest = 74219,
+    rewards = {
+        Section(_G.UNIT_SKINNABLE_LEATHER),
+        Skin({item = 193224, count = 3}) -- Lustrous Scaled Hide
     },
     pois = {
         POI({77902281}) -- Entrance

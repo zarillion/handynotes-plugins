@@ -187,6 +187,8 @@ L['options_transmog_rewards'] = 'Показать трансмогрификац
 L['options_transmog_rewards_desc'] = 'Отображать трансмогрификацию во всплывающих подсказках и отслеживать их статус.'
 L['options_all_transmog_rewards'] = 'Показать недоступные награды за трансмогрификацию'
 L['options_all_transmog_rewards_desc'] = 'Показать награды за трансмогрификацию, доступные другим классам.'
+L['options_skinning_rewards'] = nil
+L['options_skinning_rewards_desc'] = nil
 
 L['options_icons_misc_desc'] = 'Отображение местоположения других разных точек.'
 L['options_icons_misc'] = 'Разное'

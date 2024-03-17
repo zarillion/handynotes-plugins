@@ -13,6 +13,7 @@ local Node = ns.node.Node
 local NPC = ns.node.NPC
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
+local SkinableRare = ns.node.SkinableRare
 local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
 
@@ -21,6 +22,7 @@ local WarSupply = ns.node.WarSupply
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
+local Skin = ns.reward.Skin
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
@@ -109,7 +111,8 @@ map.nodes[51253128] = Rare({
         Achievement({id = 19316, criteria = 62945}), -- Adventurer of the Emerald Dream
         Transmog({item = 208376, type = L['bow']}), -- Great Ray's Longbow
         Transmog({item = 208347, type = L['plate']}), -- Stone Wolf's Cuffs
-        Transmog({item = 208326, type = L['leather']}) -- Vest of the Flametide
+        Transmog({item = 208326, type = L['leather']}), -- Vest of the Flametide
+        Skin({item = 193224, quest = 78340, count = 3}) -- Lustrous Scaled Hide
     }
 }) -- Bloodstripe Great Ray
 
@@ -148,7 +151,18 @@ map.nodes[34716316] = Rare({
         Transmog({item = 208365, type = L['polearm']}), -- Winter's Stand
         Transmog({item = 208332, type = L['mail']}), -- Horns of the Envoy
         Transmog({item = 208337, type = L['leather']}), -- Leaf Steward's Leggings
-        Transmog({item = 208340, type = L['cloth']}) -- Stag's Flourishing Mantle
+        Transmog({item = 208340, type = L['cloth']}), -- Stag's Flourishing Mantle
+        Skin({item = 193218, quest = 0, count = 3}) -- Dense Hide
+    }
+}) -- Envoy of Winter
+
+map.nodes[34716317] = SkinableRare({
+    label = '{npc:209929}',
+    questDeps = 77878,
+    quest = 0, -- no daily lockout
+    rewards = {
+        Section(_G.UNIT_SKINNABLE_LEATHER),
+        Skin({item = 193218, count = 3}) -- Dense Hide
     }
 }) -- Envoy of Winter
 
@@ -196,7 +210,19 @@ map.nodes[54034142] = Rare({
     note = L['greedy_gessie_note'],
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
-        Achievement({id = 19316, criteria = 62932}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 62932}), -- Adventurer of the Emerald Dream
+        Item({item = 208355, type = L['neck']}), -- String of Delicacies
+        Skin({item = 193218, quest = 78333, count = 4}) -- Dense Hide
+    }
+}) -- Greedy Gessie
+
+map.nodes[54034143] = SkinableRare({
+    label = '{npc:209936}',
+    questDeps = 77982,
+    quest = 78333,
+    rewards = {
+        Section(_G.UNIT_SKINNABLE_LEATHER),
+        Skin({item = 193218, count = 4}) -- Dense Hide
     }
 }) -- Greedy Gessie
 
@@ -206,7 +232,8 @@ map.nodes[47062974] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62950}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208357, type = L['cloak']}) -- Henri's Warm Coat
+        Transmog({item = 208357, type = L['cloak']}), -- Henri's Warm Coat
+        Skin({item = 193218, quest = 78344, note ='+2'}) -- Dense Hide
     }
 }) -- Henri Snufftail
 
@@ -242,7 +269,8 @@ map.nodes[40685084] = Rare({
         Transmog({item = 208363, type = L['warglaive']}), -- Twinfang of the  Clan
         Transmog({item = 208342, type = L['plate']}), -- Girdle of Nature's Fury
         Transmog({item = 208336, type = L['mail']}), -- Legguards of the Dreamsaber
-        DG.Feral.KeenEyedDreamsaber -- Mark of the Keen-Eyed Dreamsaber
+        DG.Feral.KeenEyedDreamsaber, -- Mark of the Keen-Eyed Dreamsaber
+        Skin({item = 193218, quest = 78339, count = 3}) -- Dense Hide
     },
     pois = {
         Path({
@@ -262,7 +290,8 @@ map.nodes[41107328] = Rare({
         Transmog({item = 208379, type = L['1h_axe']}), -- Keevah's Extended Claw
         Transmog({item = 208339, type = L['plate']}), -- Saber's Stone Pauldrons
         Transmog({item = 208343, type = L['cloth']}), -- Matriarch's Flowery Band
-        DG.Travel.DreamtalonMatriarch -- Mark of the Dreamtalon Matriarch
+        DG.Travel.DreamtalonMatriarch, -- Mark of the Dreamtalon Matriarch
+        Skin({item = 193218, quest = 78341, count = 3}) -- Dense Hide
     }
 }) -- Matriarch Keevah
 
@@ -271,6 +300,7 @@ map.nodes[45781879] = Rare({
     quest = 77941,
     rewards = {
         Achievement({id = 19316, criteria = 62947}), -- Adventurer of the Emerald Dream
+        Item({item = 208353, type = L['ring']}), -- Djaradin's Molten Band
         Toy({item = 205463}) -- Molten Lava Ball
     }
 }) -- Moltenbinder's Disciple
@@ -282,7 +312,9 @@ map.nodes[63793624] = Rare({
         Achievement({id = 19316, criteria = 62948}), -- Adventurer of the Emerald Dream
         Transmog({item = 208358, type = L['shield']}), -- Sunset's Bulwark
         Transmog({item = 208349, type = L['leather']}), -- Burning Leather Cuffs
-        Transmog({item = 208323, type = L['cloth']}) -- Nature's Firebathed Robes
+        Transmog({item = 208323, type = L['cloth']}), -- Nature's Firebathed Robes
+        Skin({item = 193224, quest = 78342, count = 2}), -- Lustrous Scaled Hide
+        Skin({item = 193258, quest = 78342, count = 2}) -- Fire-Infused Hide
     }
 }) -- Molten Leadspike
 
@@ -292,9 +324,11 @@ map.nodes[40467258] = Rare({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62942}), -- Adventurer of the Emerald Dream
+        Item({item = 209954, type = L['trinket']}), -- Moragh's Favorite Rock
         Transmog({item = 208380, type = L['1h_axe']}), -- Moragh's Kneading Claw
         Transmog({item = 208329, type = L['cloth']}), -- Warm Grasp of the Dream
-        DG.Guardian.VerdantBristlebruin -- Mark of the Verdant Bristlebruin
+        DG.Guardian.VerdantBristlebruin, -- Mark of the Verdant Bristlebruin
+        Skin({item = 193218, quest = 78338, count = 3}) -- Dense Hide
     },
     pois = {POI({38817158})} -- Entrance
 }) -- Moragh the Slothful
@@ -306,7 +340,8 @@ map.nodes[54953674] = Rare({
     rewards = {
         Achievement({id = 19316, criteria = 62949}), -- Adventurer of the Emerald Dream
         Transmog({item = 208375, type = L['1h_mace']}), -- Owlbear's Decisive Strike
-        DG.Guardian.DarkUmbraclaw -- Mark of the Umbramane
+        DG.Guardian.DarkUmbraclaw, -- Mark of the Umbramane
+        Skin({item = 193218, quest = 78343, count = 2}) -- Dense Hide
     }
 }) -- Mosa Umbramane
 
@@ -330,7 +365,22 @@ map.nodes[44473929] = Rare({
         Achievement({id = 19316, criteria = 62951}), -- Adventurer of the Emerald Dream
         Transmog({item = 208359, type = L['offhand']}), -- Nightclaw's Bauble
         Transmog({item = 208322, type = L['plate']}), -- Treads of the Nightclaw
-        DG.Travel.SableDreamtalon -- Mark of the Sable Dreamtalon
+        DG.Travel.SableDreamtalon, -- Mark of the Sable Dreamtalon
+        Skin({item = 193218, quest = 0, count = 2}) -- Dense Hide
+    },
+    pois = {
+        POI({44923692, 44293595}) -- Entrance
+    }
+}) -- Ristar, the Rabid
+
+map.nodes[44473928] = SkinableRare({
+    label = '{npc:210161}',
+    questDeps = 77890,
+    quest = 0, -- no daily lockout
+    location = L['in_cave'],
+    rewards = {
+        Section(_G.UNIT_SKINNABLE_LEATHER),
+        Skin({item = 193218, count = 2}) -- Dense Hide
     },
     pois = {
         POI({44923692, 44293595}) -- Entrance
@@ -342,6 +392,7 @@ map.nodes[43484697] = Rare({
     quest = 78212,
     rewards = {
         Achievement({id = 19316, criteria = 62944}), -- Adventurer of the Emerald Dream
+        Item({item = 209956, type = L['trinket']}), -- Ori's Verdant Feather
         Transmog({item = 208381, type = L['1h_mace']}) -- Scepter of Still Waters
     },
     pois = {
@@ -397,6 +448,7 @@ local Talthonei = Class('Talthonei', Rare, {
 map.nodes[34775492] = Talthonei({sublabel = L['talthonei_ashwisper_wq_note']})
 map.nodes[35132264] = Talthonei()
 map.nodes[36922240] = Talthonei()
+map.nodes[59134750] = Talthonei()
 map.nodes[59204360] = Talthonei() -- wowhead
 map.nodes[61426741] = Talthonei()
 map.nodes[61604500] = Talthonei() -- wowhead
@@ -422,7 +474,9 @@ map.nodes[38436213] = Rare({
     quest = 78214,
     location = L['in_small_cave'],
     rewards = {
-        Achievement({id = 19316, criteria = 64492}) -- Adventurer of the Emerald Dream
+        Achievement({id = 19316, criteria = 64492}), -- Adventurer of the Emerald Dream
+        Item({item = 208354, type = L['neck']}), -- Cerulean Turtle's Pendant
+        Skin({item = 193224, quest = 78345, count = 3}) -- Lustrous Scaled Hide
     },
     pois = {POI({38176157})} -- Entrance
 }) -- Voracious Mikanji

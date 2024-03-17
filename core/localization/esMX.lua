@@ -187,6 +187,8 @@ L['options_transmog_rewards'] = nil
 L['options_transmog_rewards_desc'] = nil
 L['options_all_transmog_rewards'] = nil
 L['options_all_transmog_rewards_desc'] = nil
+L['options_skinning_rewards'] = nil
+L['options_skinning_rewards_desc'] = nil
 
 L['options_icons_misc_desc'] = nil
 L['options_icons_misc'] = 'Miscelánea'

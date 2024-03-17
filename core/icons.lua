@@ -18,6 +18,7 @@ local DEFAULT_GLOW = Glow('square_icon')
 
 ns.icons = { -- name => path
 
+    skin = {Icon('skin'), Glow('skin')},
     bag = {Icon('bag'), Glow('bag')},
 
     -- Red, Blue, Yellow, Purple, Green, Pink, Lime, Navy, Teal
