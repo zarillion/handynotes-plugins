@@ -667,8 +667,8 @@ L['investigators_pocketwatch_note_a'] = '1. 从 {location:纪元边界} 的 {loc
 L['investigators_pocketwatch_note_b'] = '2. 在 {location:纪元边界} 的 {location:万时旅店} 楼下的 {npc:203769} ({dot:Blue}) 附近使用 {item:208449} 并从 {npc:207463} 购买 {item:208448}。\n\n{note:{item:208448} 的持续时间为30秒。快点！}'
 L['investigators_pocketwatch_note_c'] = '3. 快速到达瀑布并喝 {item:208448}。与新可见的 {object:时间浸透的钟} 交互以出现 {npc:201664}。'
 
-L['ominous_portal_label'] = nil
-L['ominous_portal_note'] = nil
+L['ominous_portal_label'] = '{npc:214985}'
+L['ominous_portal_note'] = '每30分钟就会出现一个 {npc:214985}。\n\n5分钟后 {npc:214984} 将出现多个首领。击败 {npc:215141}、{npc:215147} 和 {npc:215146}，就有机会获得奖励。\n\n{note:没有每日拾取锁定。}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
