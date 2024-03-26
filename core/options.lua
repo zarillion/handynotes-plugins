@@ -106,7 +106,7 @@ ns.options = {
                     set = function(info, v)
                         ns:SetOpt(info.arg, v)
                         ns.world_map_button:Refresh()
-                        LibStub('Krowi_WorldMapButtons-1.4').SetPoints();
+                        LibStub('Krowi_WorldMapButtons-1.4').SetPoints()
                     end,
                     order = 2,
                     width = 'full'
