@@ -665,12 +665,12 @@ L['revival_catalyst_note'] = 'Verwandelt einen Gegenstand in einen Setgegenstand
 
 L['provisioner_aristta_note'] = 'Tausche {currency:2657} gegen ein Reittier und Ausrüstungsvorlagen ein.'
 
-L['investigators_pocketwatch_note_a'] = nil
-L['investigators_pocketwatch_note_b'] = nil
-L['investigators_pocketwatch_note_c'] = nil
+L['investigators_pocketwatch_note_a'] = '1. Leihe dir {item:208449} von {npc:204990} {dot:Green} in der oberen Etage im {location:Gasthaus im Irgendwann} aus.\n\n{note:Du muss ihre Questreihe abgeschlossen haben.}'
+L['investigators_pocketwatch_note_b'] = '2. Benutze {item:208449} in der Nähe von {npc:203769} {dot:Blue} in der unteren Etage im {location:Gasthaus im Irgendwann} und kaufe {item:208448} von {npc:207463}.\n\n{note:{item:208448} hält nur 30 Sekunden. Beeil dich!}'
+L['investigators_pocketwatch_note_c'] = '3. Begib dich schnell zum Wasserfall und trinke {item:208448}. Interagiere mit der neu erschienenen {object:Zeitgetränkte Uhr}, um {npc:201664} erscheinen zu lassen.'
 
-L['ominous_portal_label'] = nil
-L['ominous_portal_note'] = nil
+L['ominous_portal_label'] = 'Ominöses Portal'
+L['ominous_portal_note'] = 'Alle 30 Minuten erscheint ein {object:Ominöses Portal}.\n\n5 Minuten später wird {npc:214984} mehrere Bosse erscheinen lassen. Besiege den {npc:215141}, {npc:215147} und {npc:215146} für eine Chance auf die Belohnungen.\n\n{note:Es gibt keine tägliche Beutesperre.}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
