@@ -455,10 +455,10 @@ L['trader_hagarth_note'] = 'Échangez vos {item:190456} contre des recettes de B
 
 L['naszuro_caldera_of_the_menders'] = 'Au sommet de la tour.'
 
-L['sun_bleached_vase'] = nil
+L['sun_bleached_vase'] = 'Vase blanchi par le soleil'
 L['untranslated_tome'] = 'Tome non traduit'
 L['untranslated_tome_note'] = 'Dans le bâtiment dont l\'entrée se trouve sous le pont.'
-L['mysterious_boot'] = nil
+L['mysterious_boot'] = 'Botte mystérieuse'
 L['mysterious_boot_note'] = 'A l\'étage supérieur.'
 
 -------------------------------------------------------------------------------
