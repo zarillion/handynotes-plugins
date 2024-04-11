@@ -207,7 +207,7 @@ map.nodes[59128380] = Rare({
     quest = 73881,
     rewards = {
         Achievement({id = 16679, criteria = 56135}),
-        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200126, slot = L['cloak']}), -- Mantle of Copious Chronologies
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
@@ -236,7 +236,7 @@ map.nodes[62298177] = Rare({
     rewards = {
         Achievement({id = 16679, criteria = 56157}),
         Transmog({item = 200185, slot = L['leather']}), -- Grips of the Everflowing Ocean
-        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200126, slot = L['cloak']}), -- Mantle of Copious Chronologies
         Transmog({item = 200151, slot = L['1h_sword']}), -- Seamist Blade
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
         Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
@@ -292,7 +292,7 @@ map.nodes[57218420] = Rare({
     rewards = {
         Achievement({id = 16679, criteria = 56142}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
-        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200126, slot = L['cloak']}), -- Mantle of Copious Chronologies
         Toy({item = 200148}), -- A Collection Of Me
         DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
     }
@@ -390,7 +390,7 @@ map.nodes[37607780] = Rare({
     rewards = {
         Achievement({id = 16679, criteria = 56150}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
-        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200126, slot = L['cloak']}), -- Mantle of Copious Chronologies
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Toy({item = 200148}), -- A Collection Of Me
