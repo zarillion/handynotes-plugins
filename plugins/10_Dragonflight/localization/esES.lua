@@ -623,15 +623,15 @@ L['options_icons_new_perspective_desc'] = 'Muestra dónde están los paisajes pa
 
 L['fringe_benefits_note'] = 'Completa 8 de las misiones diarias para obtener el logro.'
 L['options_icons_fringe_benefits'] = '{achievement:19507}'
-L['options_icons_fringe_benefits_desc'] = 'Muestra dónde están las misiones diarias para el logro {achievement:19507}.}'
+L['options_icons_fringe_benefits_desc'] = 'Muestra dónde están las misiones diarias para el logro {achievement:19507}.'
 
 L['little_scales_daycare_note'] = 'Necesitas hacer una serie de misiones durante varios días, comenzando con {quest:72664} que te da el {npc:197478}, para conseguir el logro y la mascota.'
 L['options_icons_whelp'] = '{achievement:18384}'
-L['options_icons_whelp_desc'] = 'Muestra dónde están las misiones diarias para el logro {achievement:18384}.}'
+L['options_icons_whelp_desc'] = 'Muestra dónde están las misiones diarias para el logro {achievement:18384}.'
 
 L['ruby_feast_gourmand'] = 'Cada día, un invitado chef al azar sirve distintos platos y bebidas.'
 L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
-L['options_icons_ruby_feast_gourmand_desc'] = 'Muestra dónde están las misiones diarias para el logro {achievement:16556}.}'
+L['options_icons_ruby_feast_gourmand_desc'] = 'Muestra dónde están las misiones diarias para el logro {achievement:16556}.'
 
 L['sorotis_note'] = 'Entrega {item:199906} para conseguir reputación con {faction:2510}.'
 L['lillian_brightmoon_note'] = 'Entrega {item:201412} para conseguir reputación con {faction:2507}.'
