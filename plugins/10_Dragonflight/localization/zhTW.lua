@@ -621,7 +621,17 @@ L['new_perspective_note'] = '在遠景位置使用任何自拍相機拍張照. �
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = '顯示成就 {achievement:16634} 所需的遠景位置.'
 
+L['fringe_benefits_note'] = nil
+L['options_icons_fringe_benefits'] = '{achievement:19507}'
+L['options_icons_fringe_benefits_desc'] = nil
+
+L['little_scales_daycare_note'] = '你必須要完成橫跨多天的任務線來獲得成就和寵物, 此任務線從 {npc:197478} 所取得的任務 {quest:72664} 所開始.'
+L['options_icons_whelp'] = '{achievement:18384}'
+L['options_icons_whelp_desc'] = nil
+
 L['ruby_feast_gourmand'] = '一個隨機的客座大廚會每天提供不同的食物和飲料.'
+L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
+L['options_icons_ruby_feast_gourmand_desc'] = nil
 
 L['sorotis_note'] = '用 {item:199906} 交換 {faction:2510} 聲望.'
 L['lillian_brightmoon_note'] = '用 {item:201412} 交換 {faction:2507} 聲望.'
@@ -651,7 +661,6 @@ L['living_mud_mask_note'] = [[
 回到坐在長凳上的 {npc:197232} 處, 並回報任務來取得 {item:200872}.
 ]]
 
-L['little_scales_daycare_note'] = '你必須要完成橫跨多天的任務線來獲得成就和寵物, 此任務線從 {npc:197478} 所取得的任務 {quest:72664} 所開始.'
 L['naszuro_veiled_ossuary'] = '在小祭壇旁邊.'
 L['naszuro_algethar_academy'] = '在塔頂的邊柱旁.'
 L['naszuro_vault_of_the_incarnates'] = '在雕像的腳邊.'

@@ -621,7 +621,17 @@ L['new_perspective_note'] = 'Take a picture with the S.E.L.F.I.E. camera at the 
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Display vista locations for the {achievement:16634} achievement.'
 
+L['fringe_benefits_note'] = 'Complete 8 of the daily quests to earn the achievement.'
+L['options_icons_fringe_benefits'] = '{achievement:19507}'
+L['options_icons_fringe_benefits_desc'] = 'Display the location where the daily quests for the {achievement:19507} achievement can be accepted.'
+
+L['little_scales_daycare_note'] = 'You have to do a questline over multiple days, starting with {quest:72664} from {npc:197478}, to earn this achievement and the pet.'
+L['options_icons_whelp'] = '{achievement:18384}'
+L['options_icons_whelp_desc'] = 'Display the location where the daily quests for the {achievement:18384} achievement can be accepted.'
+
 L['ruby_feast_gourmand'] = 'Every day, a random guest chef serves up different dishes and drinks.'
+L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
+L['options_icons_ruby_feast_gourmand_desc'] = 'Display the location where the daily quests for the {achievement:16556} achievement can be accepted.'
 
 L['sorotis_note'] = 'Exchange {item:199906} for {faction:2510} reputation.'
 L['lillian_brightmoon_note'] = 'Exchange {item:201412} for {faction:2507} reputation.'
@@ -651,7 +661,6 @@ A small slime called {npc:198590} will spawn and run away to a branch behind {np
 Go back to {npc:198062}, sitting on a bench, and turn in the quest for your {item:200872}.
 ]]
 
-L['little_scales_daycare_note'] = 'You have to do a questline over multiple days, starting with {quest:72664} from {npc:197478}, to earn this achievement and the pet.'
 L['naszuro_veiled_ossuary'] = 'Besides the small shrine.'
 L['naszuro_algethar_academy'] = 'On the ledge of the tower top.'
 L['naszuro_vault_of_the_incarnates'] = 'At the foot of the statue.'

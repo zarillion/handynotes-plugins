@@ -594,7 +594,17 @@ L['new_perspective_note'] = '절경에서 "셀카" 사진기로 사진을 촬영
 L['options_icons_new_perspective'] = nil
 L['options_icons_new_perspective_desc'] = '{achievement:16634} 업적을 위한 절경의 위치를 표시합니다.'
 
+L['fringe_benefits_note'] = nil
+L['options_icons_fringe_benefits'] = '{achievement:19507}'
+L['options_icons_fringe_benefits_desc'] = nil
+
+L['little_scales_daycare_note'] = nil
+L['options_icons_whelp'] = '{achievement:18384}'
+L['options_icons_whelp_desc'] = nil
+
 L['ruby_feast_gourmand'] = '매일 무작위로 선정된 요리사가 서로 다른 음식과 음료를 제공합니다.'
+L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
+L['options_icons_ruby_feast_gourmand_desc'] = nil
 
 L['sorotis_note'] = '{item:199906}을 반납하여 {faction:2510} 평판을 획득합니다.'
 L['lillian_brightmoon_note'] = '{item:201412}을 반납하여 {faction:2507} 평판을 획득합니다.'
@@ -614,7 +624,6 @@ L['options_icons_titan_chest_desc'] = nil
 
 L['living_mud_mask_note'] = nil
 
-L['little_scales_daycare_note'] = nil
 L['naszuro_veiled_ossuary'] = nil
 L['naszuro_algethar_academy'] = nil
 L['naszuro_vault_of_the_incarnates'] = nil

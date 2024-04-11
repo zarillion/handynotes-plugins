@@ -36,7 +36,7 @@ ns.groups.CLAN_CHEST = Group('clan_chest', 'chest_bk', {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.COMMUNITY_FEAST = ns.Group('community_feast', 629056, {
+ns.groups.COMMUNITY_FEAST = Group('community_feast', 629056, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -66,7 +66,7 @@ ns.groups.DRAGON_GLYPH = Group('dragon_glyph', 4728198, {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.DRAGONBANE_SIEGE = ns.Group('dragonbane_siege', 3753264, {
+ns.groups.DRAGONBANE_SIEGE = Group('dragonbane_siege', 3753264, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -93,7 +93,7 @@ ns.groups.ELEMENTAL_STORM = Group('elemental_storm', 538566, {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.ELUSIVE_CREATURE = ns.Group('elusive_creature', 644271, {
+ns.groups.ELUSIVE_CREATURE = Group('elusive_creature', 644271, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION,
     IsEnabled = function(self)
@@ -324,10 +324,22 @@ ns.groups.FRAGMENT = Group('fragment', 134908, {
     achievement = 16323
 })
 
+ns.groups.FRINGE_BENEFITS = Group('fringe_benefits', 4630470, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 19507
+})
+
 ns.groups.GRAND_THEFT_MAMMOTH = Group('grand_theft_mammoth', 4034836, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
     achievement = 16493
+})
+
+ns.groups.RUBY_FEAST_GOURMAND = Group('ruby_feast_gourmand', 629060, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 16556
 })
 
 ns.groups.HEMET_NESINGWARY_JR = Group('hemet_nesingwary_jr', 236444, {
@@ -432,10 +444,16 @@ ns.groups.SQUIRRELS = Group('squirrels', 237182, {
     achievement = 16729
 })
 
-ns.groups.VEGETARIAN_DIET = ns.Group('vegetarian_diet', 4635249, {
+ns.groups.VEGETARIAN_DIET = Group('vegetarian_diet', 4635249, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
     achievement = 16762
+})
+
+ns.groups.WHELP = Group('whelp', 4719556, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 18384
 })
 
 ns.groups.ZARALEK_SQUIRRELS = Group('zaralek_squirrels', 237182, {

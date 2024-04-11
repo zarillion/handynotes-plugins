@@ -621,7 +621,17 @@ L['new_perspective_note'] = '用自拍神器与景点合影。一旦进入相机
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = '显示 {achievement:16634} 成就中景点的位置。'
 
+L['fringe_benefits_note'] = nil
+L['options_icons_fringe_benefits'] = '{achievement:19507}'
+L['options_icons_fringe_benefits_desc'] = nil
+
+L['little_scales_daycare_note'] = '必须在多天内完成任务线，从 {npc:197478} 的 {quest:72664} 开始，才能获得此成就和宠物。'
+L['options_icons_whelp'] = '{achievement:18384}'
+L['options_icons_whelp_desc'] = nil
+
 L['ruby_feast_gourmand'] = '每天，一位随机的客座厨师都会提供不同的食品和饮料。'
+L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
+L['options_icons_ruby_feast_gourmand_desc'] = nil
 
 L['sorotis_note'] = '用 {item:199906} 换取 {faction:2510} 声望。'
 L['lillian_brightmoon_note'] = '用 {item:201412} 换取 {faction:2507} 声望。'
@@ -651,7 +661,6 @@ L['living_mud_mask_note'] = [[
 回到 {npc:198062}，坐在长椅上，交付 {item:200872} 的任务。
 ]]
 
-L['little_scales_daycare_note'] = '必须在多天内完成任务线，从 {npc:197478} 的 {quest:72664} 开始，才能获得此成就和宠物。'
 L['naszuro_veiled_ossuary'] = '神龛边上。'
 L['naszuro_algethar_academy'] = '在塔顶的壁架上。'
 L['naszuro_vault_of_the_incarnates'] = '雕像脚下。'

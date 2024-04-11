@@ -621,7 +621,17 @@ L['new_perspective_note'] = 'Mache am Aussichtspunkt ein Foto mit der S.E.L.F.I.
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Zeigt die Positionen der Aussichten für den Erfolg {achievement:16634} an.'
 
+L['fringe_benefits_note'] = 'Schließe 8 der täglichen Quests ab, um den Erfolg zu erringen.'
+L['options_icons_fringe_benefits'] = '{achievement:19507}'
+L['options_icons_fringe_benefits_desc'] = 'Zeigt die Position, an der die täglichen Quests für den Erfolg {achievement:19507} angenommen werden können.'
+
+L['little_scales_daycare_note'] = 'Du musst eine mehrtägige Questreihe abschließen, die mit der Quest {quest:72664} von {npc:197478} startet, um diesen Erfolg und das Haustier zu erhalten.'
+L['options_icons_whelp'] = '{achievement:18384}'
+L['options_icons_whelp_desc'] = 'Zeigt die Position, an der die täglichen Quests für der Erfolg {achievement:18384} angenommen werden können.'
+
 L['ruby_feast_gourmand'] = 'Täglich tischt ein zufälliger Gastkoch verschiedene Gerichte und Getränke auf.'
+L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
+L['options_icons_ruby_feast_gourmand_desc'] = 'Zeigt die Position, an der die täglichen Quests für der Erfolg {achievement:16556} angenommen werden können.'
 
 L['sorotis_note'] = 'Tausche {item:199906} gegen Ruf beim {faction:2510} ein.'
 L['lillian_brightmoon_note'] = 'Tausche {item:201412} gegen Ruf bei der |cFFFFFF00Drachenschuppenexpedition|r ein.'
@@ -653,7 +663,6 @@ Verfolge die erscheinende {npc:198590} bis auf einen Ast hinter {npc:197232}. We
 Geh zu {npc:198062} und schließe die Quest ab, um {item:200872} zu erhalten.
 ]]
 
-L['little_scales_daycare_note'] = 'Du musst eine mehrtägige Questreihe abschließen, die mit der Quest {quest:72664} von {npc:197478} startet, um diesen Erfolg und das Haustier zu erhalten.'
 L['naszuro_veiled_ossuary'] = 'Neben dem kleinen Schrein.'
 L['naszuro_algethar_academy'] = 'Auf dem Vorsprung der Turmspitze.'
 L['naszuro_vault_of_the_incarnates'] = 'Neben dem Fuß der Statue.'

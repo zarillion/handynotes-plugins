@@ -1640,6 +1640,65 @@ val.nodes[57048156] = AncientStone({
     rewards = {Achievement({id = 17564, criteria = 58825})}
 }) -- Valdrakken
 
+-------------------------------------------------------------------------------
+------------------------------ MISC ACHIEVEMENTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[52198159] = Collectible({
+    icon = 4630470,
+    label = '{achievement:19507}',
+    note = L['fringe_benefits_note'],
+    group = ns.groups.FRINGE_BENEFITS,
+    rewards = {
+        Achievement({
+            id = 19507,
+            criteria = {
+                64642, 64643, 64644, 64645, 64646, 64647, 64648, 64649, 64650,
+                64651, 64654, 60757, 64657, 64658, 64659, 64660
+            }
+        })
+    }
+}) -- Fringe Benefits
+
+val.nodes[61261096] = Collectible({
+    icon = 629060,
+    label = '{achievement:16556}',
+    note = L['ruby_feast_gourmand'] .. '\n\n' .. L['rumiastrasza_note'],
+    group = ns.groups.RUBY_FEAST_GOURMAND,
+    rewards = {
+        Achievement({
+            id = 16556,
+            criteria = {
+                55714, 55715, 55716, 55717, 55718, 55719, 55720, 55721, 55722,
+                55723, 55724, 55725, 55726, 55728, 55729, 55730, 55731, 55732,
+                55733, 55734
+            }
+        })
+    }
+}) -- Great Gourmand of the Ruby Feast
+
+val.nodes[13005740] = Collectible({
+    icon = 4719556,
+    label = '{achievement:18384}',
+    note = L['little_scales_daycare_note'],
+    group = ns.groups.WHELP,
+    requires = {
+        ns.requirement.Quest(72664), -- Eggs in Abundance
+        ns.requirement.Quest(72665), -- Whelptender's Wisdom
+        ns.requirement.Quest(72666) -- Daycare Director Agapanthus
+    },
+    rewards = {
+        Achievement({
+            id = 18384,
+            criteria = {
+                60132, 60133, 60134, 60135, 60136, 60137, 60138, 60139, 60140,
+                60141, 60142, 60143, 60144, 60145, 60146, 60147
+            }
+        }), -- Whelp, There It Is
+        Pet({item = 205165, id = 3555}) -- Axel
+    }
+}) -- Whelp, There It Is
+
 ------------------------------------------------------------------------------
 --------------------------------- DREAMSURGE ---------------------------------
 ------------------------------------------------------------------------------
@@ -1791,25 +1850,6 @@ durotar.nodes[53101620] = HearthstoneEvent()
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
----------------- ACHIEVEMENT: GREAT GOURMAND OF THE RUBY FEAST ----------------
-
-val.nodes[61261096] = Collectible({
-    icon = 629060,
-    parent = map.id,
-    label = '{achievement:16556}',
-    note = L['ruby_feast_gourmand'] .. '\n\n' .. L['rumiastrasza_note'],
-    rewards = {
-        Achievement({
-            id = 16556,
-            criteria = {
-                55714, 55715, 55716, 55717, 55718, 55719, 55720, 55721, 55722,
-                55723, 55724, 55725, 55726, 55728, 55729, 55730, 55731, 55732,
-                55733, 55734
-            }
-        })
-    }
-}) -- Great Gourmand of the Ruby Feast
-
 val.nodes[43757494] = Collectible({
     icon = 4048815,
     parent = map.id,
@@ -1828,28 +1868,6 @@ map.nodes[40474531] = Collectible({
     note = L['living_mud_mask_note'],
     rewards = {Pet({item = 200872, id = 3405})}
 }) -- Pet: Living Mud Mask
-
-val.nodes[13005740] = Collectible({ -- TODO
-    label = '{achievement:18384}',
-    icon = 4719556,
-    note = L['little_scales_daycare_note'],
-    -- https://www.wowhead.com/ptr-2/achievement=18384/whelp-there-it-is#comments:id=5611653
-    requires = {
-        ns.requirement.Quest(72664), -- Eggs in Abundance
-        ns.requirement.Quest(72665), -- Whelptender's Wisdom
-        ns.requirement.Quest(72666) -- Daycare Director Agapanthus
-    },
-    rewards = {
-        Achievement({
-            id = 18384,
-            criteria = {
-                60132, 60133, 60134, 60135, 60136, 60137, 60138, 60139, 60140,
-                60141, 60142, 60143, 60144, 60145, 60146, 60147
-            }
-        }), -- Whelp, There It Is
-        Pet({item = 205165, id = 3555}) -- Axel
-    }
-}) -- Pet: "Axel" from Achievement "Whelp, There It Is"
 
 ---------------------------- PET: MOTE OF NASZ'URO ----------------------------
 

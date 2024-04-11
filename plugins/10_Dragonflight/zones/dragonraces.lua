@@ -900,7 +900,7 @@ EmeraldDream.nodes[62808812] = Dragonrace({
     rewards = EmeraldDream_Rewards(5, 5, 5)
 }) -- Canopy Concours
 
-EmeraldDream.nodes[32354820] = Dragonrace({
+EmeraldDream.nodes[32364825] = Dragonrace({
     label = '{quest:78115}',
     normal = {2681, 89, 84},
     advanced = {2687, 73, 70},
