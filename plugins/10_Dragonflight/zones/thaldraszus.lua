@@ -1836,7 +1836,8 @@ local HearthstoneEvent = Class('HearthstoneEvent', Collectible, {
         Transmog({item = 212644, type = L['cosmetic']}), -- Taverner's Belt
         Transmog({item = 212336, type = L['cosmetic']}), -- The Tavern's Tabard
         Item({item = 212335, note = L['bag']}) -- Collectors Carryall
-    }
+    },
+    IsEnabled = function() return ns.IsCalendarEventActive(1462) end
 }) -- Heathstone Event
 
 local stormwind = ns.maps[84] or Map({id = 84, settings = false})
