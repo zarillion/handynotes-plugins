@@ -175,6 +175,8 @@ L['options_restore_hidden_nodes_desc'] = 'Восстановите все скр
 
 L['options_rewards_settings'] = 'Награды'
 L['options_reward_types'] = 'Показать типы наград'
+L['options_manuscript_rewards'] = nil
+L['options_manuscript_rewards_desc'] = nil
 L['options_mount_rewards'] = 'Показать маунтов'
 L['options_mount_rewards_desc'] = 'Отображать маунтов во всплывающих подсказках и отслеживать их собранный статус.'
 L['options_pet_rewards'] = 'Показать питомцев'

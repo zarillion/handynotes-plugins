@@ -111,7 +111,7 @@ L['dr_challenge'] = 'Herausforderung'
 L['dr_reverse_challenge'] = 'Umgekehrte Herausforderung'
 L['dr_storm_race'] = 'Sturmrennen'
 L['dr_bronze'] = 'Beende das Rennen um ' .. ns.color.Bronze('Bronze') .. ' zu erhalten.'
-L['dr_vendor_note'] = 'Tausche {currency:2588} gegen Drachenanpassungen und Ausrüstungsvorlagen ein.'
+L['dr_vendor_note'] = 'Tausche {currency:2588} gegen Drachenwächtermanuskripte und Ausrüstungsvorlagen ein.'
 L['options_icons_dragonrace'] = 'Drachenrennen'
 L['options_icons_dragonrace_desc'] = 'Zeigt die Positionen der Drachenrennen an.'
 
@@ -175,6 +175,8 @@ L['options_restore_hidden_nodes_desc'] = 'Stellt alle Punkte wieder her, die üb
 
 L['options_rewards_settings'] = 'Belohnungen'
 L['options_reward_types'] = 'Zeige Belohnungstypen'
+L['options_manuscript_rewards'] = 'Zeige Drachenwächtermanuskriptbelohnungen'
+L['options_manuscript_rewards_desc'] = 'Zeige Drachenwächtermanuskriptbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_mount_rewards'] = 'Zeige Reittierbelohnungen'
 L['options_mount_rewards_desc'] = 'Zeige Reittierbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_pet_rewards'] = 'Zeige Haustierbelohnungen'

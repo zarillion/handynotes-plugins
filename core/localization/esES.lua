@@ -175,6 +175,8 @@ L['options_restore_hidden_nodes_desc'] = 'Vuelve a mostrar todos los nodos ocult
 
 L['options_rewards_settings'] = 'Recompensas'
 L['options_reward_types'] = 'Mostrar tipos de recompensas'
+L['options_manuscript_rewards'] = nil
+L['options_manuscript_rewards_desc'] = nil
 L['options_mount_rewards'] = 'Mostrar recompensas de monturas'
 L['options_mount_rewards_desc'] = 'Muestra las recompensas de monturas en las notas y rastrea el estado de si ha sido aprendida.'
 L['options_pet_rewards'] = 'Mostrar recompensas de mascotas'

@@ -25,6 +25,7 @@ ns.optionDefaults = {
         show_notes = true,
 
         -- rewards
+        show_manuscript_rewards = true,
         show_mount_rewards = true,
         show_pet_rewards = true,
         show_recipe_rewards = true,
@@ -131,6 +132,14 @@ ns.options = {
                     type = 'header',
                     name = L['options_rewards_settings'],
                     order = 10
+                },
+                show_manuscript_rewards = {
+                    type = 'toggle',
+                    arg = 'show_manuscript_rewards',
+                    name = L['options_manuscript_rewards'],
+                    desc = L['options_manuscript_rewards_desc'],
+                    order = 11,
+                    width = 'full'
                 },
                 show_mount_rewards = {
                     type = 'toggle',

@@ -175,6 +175,8 @@ L['options_restore_hidden_nodes_desc'] = nil
 
 L['options_rewards_settings'] = nil
 L['options_reward_types'] = nil
+L['options_manuscript_rewards'] = nil
+L['options_manuscript_rewards_desc'] = nil
 L['options_mount_rewards'] = nil
 L['options_mount_rewards_desc'] = nil
 L['options_pet_rewards'] = nil
