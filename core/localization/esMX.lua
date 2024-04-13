@@ -12,6 +12,7 @@ L['leather'] = 'Cuero'
 L['mail'] = 'Malla'
 L['plate'] = 'Placas'
 L['cosmetic'] = nil
+L['tabard'] = nil
 
 L['1h_mace'] = '1m Maza'
 L['1h_sword'] = '1m Espada'

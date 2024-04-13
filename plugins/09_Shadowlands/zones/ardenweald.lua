@@ -133,7 +133,7 @@ map.nodes[67465147] = Rare({
         Achievement({id = 14309, criteria = 48787}),
         Transmog({item = 179593, slot = L['cloth']}), -- Darkreach Mask
         Transmog({item = 179594, slot = L['leather']}), -- Witherscorn Guise
-        Transmog({item = 179596, slot = L['cosmetic']}), -- Drust Mask of Dominance
+        Transmog({item = 179596}), -- Drust Mask of Dominance
         Item({item = 183091, quest = 62246}) -- Lifewoven Bracelet
     }
 }) -- Hunter Vivanna

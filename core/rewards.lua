@@ -295,7 +295,10 @@ end
 
 function Item:GetText()
     local text = self.itemLink
-    if self.type then -- mount, pet, toy, etc
+    if C_Item.IsCosmeticItem(self.item) then
+        local type = self.type and ', ' .. self.type or ''
+        text = text .. ' (' .. L['cosmetic'] .. type .. ')'
+    elseif self.type then -- mount, pet, toy, etc
         text = text .. ' (' .. self.type .. ')'
     end
     if self.count then

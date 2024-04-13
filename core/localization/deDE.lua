@@ -12,6 +12,7 @@ L['leather'] = 'Leder'
 L['mail'] = 'Kette'
 L['plate'] = 'Platte'
 L['cosmetic'] = 'Kosmetisch'
+L['tabard'] = 'Wappenrock'
 
 L['1h_mace'] = 'Einhandstreitkolben'
 L['1h_sword'] = 'Einhandschwert'

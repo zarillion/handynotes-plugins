@@ -12,6 +12,7 @@ L['leather'] = '가죽'
 L['mail'] = '사슬'
 L['plate'] = '판금'
 L['cosmetic'] = '장식'
+L['tabard'] = '겉옷'
 
 L['1h_mace'] = '한손 둔기'
 L['1h_sword'] = '한손 도검'

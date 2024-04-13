@@ -570,7 +570,7 @@ bor.nodes[63863509] = Treasure({
     },
     rewards = {
         Achievement({id = 19317, criteria = 62958}), -- Treasures of The Emerald Dream
-        Transmog({item = 210631, type = L['cosmetic']}) -- Branch of Ashamane
+        Transmog({item = 210631, type = L['staff']}) -- Branch of Ashamane
     },
     pois = {
         POI({66641549}), -- Entrance
@@ -583,7 +583,7 @@ map.nodes[64231928] = Treasure({
     note = L['reliquary_of_aviana_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62957}), -- Treasures of The Emerald Dream
-        Transmog({item = 210659, type = L['cosmetic']}) -- Branch of Aviana
+        Transmog({item = 210659, type = L['staff']}) -- Branch of Aviana
     },
     pois = {POI({64532091, color = 'Green'})} -- Mark of Aviana
 }) -- Reliquary of Aviana
@@ -594,7 +594,7 @@ map.nodes[32938325] = Treasure({
     note = L['reliquary_of_goldrinn_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62959}), -- Treasures of The Emerald Dream
-        Transmog({item = 210660, type = L['cosmetic']}) -- Claw of Lo'Gosh
+        Transmog({item = 210660, type = L['fist']}) -- Claw of Lo'Gosh
     },
     pois = {
         POI({33108240}), -- Entrance
@@ -660,18 +660,18 @@ local UnwakingEcho = Class('UnwakingEcho', Treasure, {
 
 map.nodes[46408615] = UnwakingEcho({
     quest = 78552,
-    rewards = {Transmog({item = 210682, type = L['cosmetic']})} -- Camper's Knife
+    rewards = {Transmog({item = 210682, type = L['dagger']})} -- Camper's Knife
 })
 
 map.nodes[55672258] = UnwakingEcho({
     quest = 78547,
-    rewards = {Transmog({item = 210675, type = L['cosmetic']})} -- Gardener's Lightstaff
+    rewards = {Transmog({item = 210675, type = L['staff']})} -- Gardener's Lightstaff
 })
 
 map.nodes[55324538] = UnwakingEcho({
     quest = 78551,
     location = L['in_small_cave'],
-    rewards = {Transmog({item = 210678, type = L['cosmetic']})}, -- Verdant Glearner's Scythe
+    rewards = {Transmog({item = 210678, type = L['polearm']})}, -- Verdant Glearner's Scythe
     pois = {POI({54774452})} -- Entrance
 })
 
@@ -1057,11 +1057,11 @@ map.nodes[51555972] = Collectible({
         Item({item = 208067}), -- Plump Dreamseed
         Item({item = 208066}), -- Small Dreamseed
         Spacer(), Section('{npc:207554}' .. '  ' .. _G.LOOT), -- Verlann Timbercrush
-        Transmog({item = 210661, slot = L['cosmetic']}), -- Dreamcatcher's Crescent
-        Transmog({item = 210662, slot = L['cosmetic']}), -- Ochre Ornament of the Grove
-        Transmog({item = 210663, slot = L['cosmetic']}), -- Circlet of the Mother Tree
-        Transmog({item = 210664, slot = L['cosmetic']}), -- Frost Sapling's Adornment
-        Transmog({item = 210666, slot = L['cosmetic']}) -- Crest of the Seething Flamekeeper
+        Transmog({item = 210661, slot = L['cloak']}), -- Dreamcatcher's Crescent
+        Transmog({item = 210662, slot = L['cloak']}), -- Ochre Ornament of the Grove
+        Transmog({item = 210663, slot = L['cloak']}), -- Circlet of the Mother Tree
+        Transmog({item = 210664, slot = L['cloak']}), -- Frost Sapling's Adornment
+        Transmog({item = 210666, slot = L['cloak']}) -- Crest of the Seething Flamekeeper
     }
 })
 

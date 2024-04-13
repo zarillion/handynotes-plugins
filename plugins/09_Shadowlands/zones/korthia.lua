@@ -66,10 +66,10 @@ map.nodes[51164167] = Rare({
     note = L['consumption_note'],
     rlabel = ns.status.LightBlue(L['plus_research']),
     rewards = {
-        Achievement({id = 15107, criteria = 52285}),
-        Transmog({item = 187245, slot = L['cosmetic']}), -- Death-Enveloped Spires
-        Transmog({item = 187246, slot = L['cosmetic']}), -- Death-Enveloped Pauldrons
-        Transmog({item = 187247, slot = L['cosmetic']}) -- Death-Enveloped Shoulder Spikes
+        Achievement({id = 15107, criteria = 52285}), --
+        Transmog({item = 187245}), -- Death-Enveloped Spires
+        Transmog({item = 187246}), -- Death-Enveloped Pauldrons
+        Transmog({item = 187247}) -- Death-Enveloped Shoulder Spikes
     }
 }) -- Consumption
 
@@ -120,8 +120,8 @@ map.nodes[59203580] = Rare({
     rewards = {
         Achievement({id = 15107, criteria = 52304}),
         Transmog({item = 187394, slot = L['plate']}), -- Tormented Giant's Legplates
-        Transmog({item = 187248, slot = L['cosmetic']}), -- Kroke's Gleaming Spaulders
-        Transmog({item = 187250, slot = L['cosmetic']}) -- Kroke's Wingspiked Pauldrons
+        Transmog({item = 187248}), -- Kroke's Gleaming Spaulders
+        Transmog({item = 187250}) -- Kroke's Wingspiked Pauldrons
     },
     pois = {
         Path({
@@ -288,9 +288,9 @@ map.nodes[16007500] = Rare({
         Transmog({item = 187376, slot = L['leather']}), -- Mawsworn Lieutenant's Treads
         Transmog({item = 187382, slot = L['mail']}), -- Mawsworn Exterminator's Hauberk
         Transmog({item = 187392, slot = L['plate']}), -- Sabatons of the Towering Construct
-        Transmog({item = 187035, slot = L['cosmetic']}), -- Cold Burden of the Damned
-        Transmog({item = 187242, slot = L['cosmetic']}), -- Exterminator's Crest of the Damned
-        Transmog({item = 187241, slot = L['cosmetic']}) -- Watchful Eye of the Damned
+        Transmog({item = 187035, slot = L['cloak']}), -- Cold Burden of the Damned
+        Transmog({item = 187242, slot = L['cloak']}), -- Exterminator's Crest of the Damned
+        Transmog({item = 187241, slot = L['cloak']}) -- Watchful Eye of the Damned
     }
 }) -- Towering Exterminator
 
@@ -443,8 +443,8 @@ map.nodes[62065550] = Treasure({
     label = L['spectral_bound_chest'],
     rlabel = ns.status.LightBlue(L['plus_research']),
     rewards = {
-        Transmog({item = 187026, slot = L['cosmetic']}), -- Field Warden's Torture Kit
-        Transmog({item = 187240, slot = L['cosmetic']}) -- Field Warden's Watchful Eye
+        Transmog({item = 187026, slot = L['cloak']}), -- Field Warden's Torture Kit
+        Transmog({item = 187240, slot = L['cloak']}) -- Field Warden's Watchful Eye
     },
     pois = {
         POI({50505370, 52305320, 52604970, 54205060, quest = 64249}), -- west
@@ -635,8 +635,8 @@ local RiftCache = Class('RiftCache', Treasure, {
     group = ns.groups.RIFTBOUND_CACHE,
     rift = 1,
     rewards = {
-        Transmog({item = 187251, slot = L['cosmetic']}), -- Shaded Skull Shoulderguards
-        Transmog({item = 187243, slot = L['cosmetic']}), -- Shadehunter's Crescent
+        Transmog({item = 187251}), -- Shaded Skull Shoulderguards
+        Transmog({item = 187243, slot = L['cloak']}), -- Shadehunter's Crescent
         Item({item = 187276, quest = 64522}), -- Stolen Korthian Supplies
         Item({item = 185050, quest = 63606, covenant = NIGHTFAE}) -- Spider Soul
     }
@@ -808,9 +808,9 @@ local MawswornC = Class('MawswornC', Treasure, {
     note = L['mawsworn_cache_note'],
     rlabel = ns.status.LightBlue(L['plus_research']),
     rewards = {
-        Transmog({item = 187020, slot = L['cosmetic']}), -- Necrobinder's Shoulderpads
-        Transmog({item = 187026, slot = L['cosmetic']}), -- Field Warden's Torture Kit
-        Transmog({item = 187240, slot = L['cosmetic']}) -- Field Warden's Watchful Eye
+        Transmog({item = 187020}), -- Necrobinder's Shoulderpads
+        Transmog({item = 187026, slot = L['cloak']}), -- Field Warden's Torture Kit
+        Transmog({item = 187240, slot = L['cloak']}) -- Field Warden's Watchful Eye
     }
 })
 
