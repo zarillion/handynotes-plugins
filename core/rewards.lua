@@ -295,7 +295,7 @@ end
 
 function Item:GetText()
     local text = self.itemLink
-    if C_Item.IsCosmeticItem(self.item) then
+    if self.isCosmetic then
         local type = self.type and ', ' .. self.type or ''
         text = text .. ' (' .. L['cosmetic'] .. type .. ')'
     elseif self.type then -- mount, pet, toy, etc
@@ -565,6 +565,7 @@ function Transmog:Prepare()
     if sourceID then CTC.PlayerCanCollectSource(sourceID) end
     GetItemSpecInfo(self.item)
     CTC.PlayerHasTransmog(self.item)
+    self.isCosmetic = C_Item.IsCosmeticItem(self.item)
 end
 
 function Transmog:IsEnabled()
