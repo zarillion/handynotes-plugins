@@ -1966,6 +1966,7 @@ hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
             IsValidVignette(node.vignette, self:GetVignetteID()) and
             node.rewards and ns:GetOpt('show_loot') then
             node:RenderRewards(GameTooltip)
+            break
         end
     end
     GameTooltip:Show()
