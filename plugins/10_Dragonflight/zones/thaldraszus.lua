@@ -1834,7 +1834,7 @@ local HearthstoneEvent = Class('HearthstoneEvent', Collectible, {
         Toy({item = 212337}), -- Stone of the Hearth
         Transmog({item = 212607}), -- Reno's Lucky Hat
         Transmog({item = 212644}), -- Taverner's Belt
-        Transmog({item = 212336, type = L['tabard']}), -- The Tavern's Tabard
+        Transmog({item = 212336, slot = L['tabard']}), -- The Tavern's Tabard
         Item({item = 212335, note = L['bag']}) -- Collectors Carryall
     },
     IsEnabled = function() return ns.IsCalendarEventActive(1462) end
@@ -2043,13 +2043,13 @@ local Xiulan = Class('Xiulan', Vendor, {
         Mount({item = 211084, id = 1944, count = 1200000}), -- Gold Resonating Crystal
         Spacer(), --
         Appearance({item = 211300, count = 200000}), -- Arsenal: Whispering Temple Blades
-        Transmog({item = 211099, type = L['shield'], count = 100000}), -- Gilded Scarab Bulwark
-        Transmog({item = 211096, type = L['gun'], count = 100000}), -- Gold-Plated Witchhunter's Carbine
-        Transmog({item = 211294, type = L['polearm'], count = 100000}), -- Marauder King's Body Carver
-        Transmog({item = 211097, type = L['2h_axe'], count = 90000}), -- Gilded Crown Splitter
-        Transmog({item = 211159, type = L['shield'], count = 80000}), -- Royal Witch Doctor's Guard
-        Transmog({item = 211145, type = L['cloak'], count = 80000}), -- Royal Witch Doctor's Trophies
-        Transmog({item = 211295, type = L['plate'], count = 75000}), -- Wrathful Crusader's Helm
+        Transmog({item = 211099, slot = L['shield'], count = 100000}), -- Gilded Scarab Bulwark
+        Transmog({item = 211096, slot = L['gun'], count = 100000}), -- Gold-Plated Witchhunter's Carbine
+        Transmog({item = 211294, slot = L['polearm'], count = 100000}), -- Marauder King's Body Carver
+        Transmog({item = 211097, slot = L['2h_axe'], count = 90000}), -- Gilded Crown Splitter
+        Transmog({item = 211159, slot = L['shield'], count = 80000}), -- Royal Witch Doctor's Guard
+        Transmog({item = 211145, slot = L['cloak'], count = 80000}), -- Royal Witch Doctor's Trophies
+        Transmog({item = 211295, slot = L['plate'], count = 75000}), -- Wrathful Crusader's Helm
         Transmog({item = 211259, count = 75000}) -- Regal Gryphon Rider's Headgear
     }
 }) -- Ms. Xiulan <Madam Goya's Assistant>
