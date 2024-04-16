@@ -569,8 +569,8 @@ L['naszuro_emerald_gardens'] = '在瀑布旁邊的草地.'
 L['prismatic_leaper_school_label'] = '稜彩跳躍者魚群'
 L['prismatic_leaper_school_note'] = '和 {location:伊斯凱拉} 的 {npc:195935} 對話來取得升級.\n\n可以從 {location:雍亞拉平原} 內的 {object:稜彩跳躍者魚群} 釣起下列物品:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
-L['aylaag_spear'] = nil
-L['dedication_plaquard'] = nil
+L['aylaag_spear'] = '艾拉格長矛'
+L['dedication_plaquard'] = '貢獻牌'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -593,7 +593,7 @@ L['tasty_hatchling_treat_note'] = '在書架後的一個桶子內.'
 L['pm_mining_bridgette_holdug'] = '在一個長草的石柱頂端.'
 L['pm_tailor_elysa_raywinder'] = '在塔中間的平台上.'
 L['pt_alch_contraband_concoction_note'] = '藏在樹叢內 {note:很難看到}.'
-L['pt_alch_tasty_candy_note'] = '各丟一個在附近的 {object:[Discarded Toy]} 到每個大鍋, 然後殺掉刷新出來的怪物.'
+L['pt_alch_tasty_candy_note'] = '丟一個在附近的 {object:丟棄的玩具} 到每個大鍋.'
 L['pt_ench_fractured_titanic_sphere_note'] = '{location:提爾堡} 南邊.'
 L['pt_jewel_alexstraszite_cluster_note'] = '{location:提爾堡} 內.'
 L['pt_jewel_painters_pretty_jewel_note'] = '在燈座內.'
@@ -621,17 +621,17 @@ L['new_perspective_note'] = '在遠景位置使用任何自拍相機拍張照. �
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = '顯示成就 {achievement:16634} 所需的遠景位置.'
 
-L['fringe_benefits_note'] = nil
+L['fringe_benefits_note'] = '完成其中8個每日任務來取得成就.'
 L['options_icons_fringe_benefits'] = '{achievement:19507}'
-L['options_icons_fringe_benefits_desc'] = nil
+L['options_icons_fringe_benefits_desc'] = '顯示成就 {achievement:19507} 所需的每日任務接取位置.'
 
 L['little_scales_daycare_note'] = '你必須要完成橫跨多天的任務線來獲得成就和寵物, 此任務線從 {npc:197478} 所取得的任務 {quest:72664} 所開始.'
 L['options_icons_whelp'] = '{achievement:18384}'
-L['options_icons_whelp_desc'] = nil
+L['options_icons_whelp_desc'] = '顯示成就 {achievement:18384} 所需的每日任務接取位置.'
 
 L['ruby_feast_gourmand'] = '一個隨機的客座大廚會每天提供不同的食物和飲料.'
 L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
-L['options_icons_ruby_feast_gourmand_desc'] = nil
+L['options_icons_ruby_feast_gourmand_desc'] = '顯示成就 {achievement:16556} 所需的每日任務接取位置.'
 
 L['sorotis_note'] = '用 {item:199906} 交換 {faction:2510} 聲望.'
 L['lillian_brightmoon_note'] = '用 {item:201412} 交換 {faction:2507} 聲望.'
@@ -672,12 +672,12 @@ L['revival_catalyst_note'] = '將非套裝裝備轉換為對應裝等語部位�
 
 L['provisioner_aristta_note'] = '用 {currency:2657} 交換塑型和一隻座騎.'
 
-L['investigators_pocketwatch_note_a'] = nil
-L['investigators_pocketwatch_note_b'] = nil
-L['investigators_pocketwatch_note_c'] = nil
+L['investigators_pocketwatch_note_a'] = '1. 在 {location:紀元邊境} 的 {location:隨時旅店} 樓上, 從 {npc:204990} ({dot:Green}) 借 {item:208449}.\n\n{note:你必須先完成她之前的任務鍊.}'
+L['investigators_pocketwatch_note_b'] = '2. 在 {location:紀元邊境} 的 {location:隨時旅店} 樓下, 靠近 {npc:203769} ({dot:Blue}) 使用 {item:208449} 並從 {npc:207463} 購買 {item:208448}.\n\n{note:{item:208448} 只會存在30秒. 動作快!}'
+L['investigators_pocketwatch_note_c'] = '3. 盡快到達瀑布並喝下 {item:208448}. 和新出現的 {object:Time-Soaked Clock} 互動來召喚 {npc:201664}.'
 
-L['ominous_portal_label'] = nil
-L['ominous_portal_note'] = nil
+L['ominous_portal_label'] = '不詳的傳送門'
+L['ominous_portal_note'] = '每30分鐘 {object:不詳的傳送門} 會刷新.\n\n5分鐘後 {npc:214984} 會召喚幾個首領. 擊敗 {npc:215141}, {npc:215147}, 和 {npc:215146} 後有機會拿到你的獎勵.\n\n{note:這沒有每日拾取鎖定.}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
