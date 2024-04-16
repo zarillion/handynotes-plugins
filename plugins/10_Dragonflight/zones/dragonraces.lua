@@ -139,7 +139,7 @@ local DragonridingVendor = Class('DragonridingVendor', Vendor, {
         Transmog({item = 206593, count = 20}), -- Drake Racer's Leggings
         Transmog({item = 206594, count = 20}), -- Drake Racer's Boots
         Spacer(), --
-        Transmog({item = 211877, count = 5}), -- Drake Racer's Scarf
+        Transmog({item = 211877, slot = L['cloak'], count = 5}), -- Drake Racer's Scarf
         Transmog({item = 211881, count = 15}), -- Outlandish Drake Racer's Helmet
         Transmog({item = 211882, count = 15}), -- Outlandish Drake Racer's Shoulderpads
         Transmog({item = 211883, count = 15}), -- Outlandish Drake Racer's Jersey
@@ -147,7 +147,7 @@ local DragonridingVendor = Class('DragonridingVendor', Vendor, {
         Transmog({item = 211885, count = 15}), -- Outlandish Drake Racer's Belt
         Transmog({item = 211886, count = 15}), -- Outlandish Drake Racer's Leggings
         Transmog({item = 211887, count = 15}), -- Outlandish Drake Racer's Boots
-        Transmog({item = 211888, count = 5}) -- Outlandish Drake Racer's Scarf
+        Transmog({item = 211888, slot = L['cloak'], count = 5}) -- Outlandish Drake Racer's Scarf
     }
 }) -- Dragonriding Vendor
 

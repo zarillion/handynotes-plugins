@@ -1764,7 +1764,7 @@ map.nodes[61373139] = Vendor({
         Mount({item = 192796, id = 1638, count = 20000}), -- Explorer's Stonehide Packbeast
         Spacer(), --
         Transmog({item = 208456, slot = L['cloak'], count = 15000}), -- Archivist's Elegant Bag
-        Transmog({item = 212794, count = 15000}), -- Historian's Hefty Habersack
+        Transmog({item = 212794, slot = L['cloak'], count = 15000}), -- Historian's Hefty Habersack
         Transmog({item = 208452, count = 15000}), -- Historian's Dapper Cap
         Transmog({item = 208547, count = 12000}), -- Archivist's Reading Spectacles
         Transmog({item = 208546, count = 12000}), -- Archivist's Rose-Tinted Glasses
@@ -1832,8 +1832,8 @@ local HearthstoneEvent = Class('HearthstoneEvent', Collectible, {
         Mount({item = 212522, id = 1959}), -- Compass Rose
         Pet({item = 212606, id = 4406}), -- Sarge
         Toy({item = 212337}), -- Stone of the Hearth
-        Transmog({item = 212607, type = L['cosmetic']}), -- Reno's Lucky Hat
-        Transmog({item = 212644, type = L['cosmetic']}), -- Taverner's Belt
+        Transmog({item = 212607}), -- Reno's Lucky Hat
+        Transmog({item = 212644}), -- Taverner's Belt
         Transmog({item = 212336, type = L['tabard']}), -- The Tavern's Tabard
         Item({item = 212335, note = L['bag']}) -- Collectors Carryall
     },
@@ -2003,7 +2003,7 @@ map.nodes[61373139] = Vendor({
         Mount({item = 192796, id = 1638, count = 20000}), -- Explorer's Stonehide Packbeast
         Spacer(), --
         Transmog({item = 208456, slot = L['cloak'], count = 15000}), -- Archivist's Elegant Bag
-        Transmog({item = 212794, count = 15000}), -- Historian's Hefty Habersack
+        Transmog({item = 212794, slot = L['cloak'], count = 15000}), -- Historian's Hefty Habersack
         Transmog({item = 208452, count = 15000}), -- Historian's Dapper Cap
         Transmog({item = 208547, count = 12000}), -- Archivist's Reading Spectacles
         Transmog({item = 208546, count = 12000}), -- Archivist's Rose-Tinted Glasses

@@ -2087,7 +2087,7 @@ local Kazzi = Class('Kazzi', Vendor, {
         Spacer(), Section(L['rep_honored']),
         Transmog({item = 202282, slot = L['1h_mace'], count = '150'}), -- Winterpelt Mending Totem
         Transmog({item = 203995, slot = L['cloak'], count = '75'}), -- Winter Pelt Cloak
-        Transmog({item = 204354, count = '500'}), -- Hollowed Furbolg Food Pack
+        Transmog({item = 204354, slot = L['cloak'], count = '500'}), -- Hollowed Furbolg Food Pack
         -- NOT IN DC
         Item({item = 202273, quest = 73054, count = '50'}), -- Renewed Proto-Drake: Stubby Snout
         Item({item = 197583, quest = 69787, count = '50'}), -- Windborne Velocidrake: Exposed Finned Back
@@ -2283,7 +2283,7 @@ local Eadweard = Class('Eadweard', Collectible, {
         Mount({item = 212645, id = 2038}), -- Clayscale Hornstrider
         Transmog({item = 212692}), -- Excavator's Dusky Fedora
         Transmog({item = 212638}), -- Excavator's Work Shirt
-        Transmog({item = 212793}), -- Excavator's Pack of Findings
+        Transmog({item = 212793, slot = L['cloak']}), -- Excavator's Pack of Findings
         Transmog({item = 212640}), -- Excavator's Trusty Satchel
         Transmog({item = 212641}), -- Excavator's Rugged Pants
         Transmog({item = 212639}), -- Excavator's Glovelettes

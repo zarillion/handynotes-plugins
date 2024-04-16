@@ -607,7 +607,7 @@ map.nodes[47055309] = Treasure({
     note = L['reliquary_of_ursol_note'],
     rewards = {
         Achievement({id = 19317, criteria = 62955}), -- Treasures of The Emerald Dream
-        Transmog({item = 210434, type = L['cosmetic']}) -- Visage of Ursoc
+        Transmog({item = 210434}) -- Visage of Ursoc
     },
     pois = {POI({48015246, color = 'Green'})} -- Mark of Ursol
 }) -- Reliquary of Ursol
