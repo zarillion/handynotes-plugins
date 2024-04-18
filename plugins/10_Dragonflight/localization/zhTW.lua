@@ -187,7 +187,7 @@ L['options_icons_rich_soil'] = '肥沃土壤'
 L['options_icons_rich_soil_desc'] = '顯示 {object:肥沃土壤} 的位置.'
 
 L['information_stuffed_clue'] = '裝滿資訊的線索'
-L['clued_in_note'] = '{npc:210079} 會在 {note:大挖掘} 事件中和執行3個世界任務 {wq:研究：...} 中刷新.'
+L['clued_in_note'] = '{npc:210079} 會在 {note:大挖掘} 事件時和在執行3個以 {wq:研究：...} 為名的世界任務時刷新.'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = '顯示成就 {achievement:19787} 所需的 {npc:210079} 位置.'
 
@@ -586,7 +586,7 @@ L['woofang_note'] = '撫摸 {npc:193156} 來召喚稀有.'
 
 L['acorn_harvester_note'] = '在附近的地上收集一個 {object:橡實} 來取得 {spell:388485} 之後再和 {npc:196172} 互動.\n\n{bug:(BUG: 要點選 {npc:196172} 可能需要重新載入)}.'
 L['cracked_hourglass_note'] = '{item:199068} 可以在 {object:遠征隊斥侯包} 和 {object:挖過的土} 中找到.'
-L['sandy_wooden_duck_note'] = '收集 {item:199069} 並使用它.'
+L['sandy_wooden_duck_note'] = '拾取 {item:199069} 並使用它.'
 
 L['tasty_hatchling_treat_note'] = '在書架後的一個桶子內.'
 
@@ -923,10 +923,10 @@ L['zaralek_event_inactive'] = ns.color.Orange('此區域事件今日不會開始
 L['options_icons_zone_event'] = '區域事件'
 L['options_icons_zone_event_desc'] = '顯示區域事件的位置.'
 
-L['djaradin_scroll'] = nil
-L['forgotten_incense'] = nil
+L['djaradin_scroll'] = '加拉登卷軸'
+L['forgotten_incense'] = '被遺忘的薰香'
 L['forgotten_incense_note'] = '{note:因為任務邊界的關係很難到達.}'
-L['historied_heirloom'] = nil
+L['historied_heirloom'] = '歷史悠久的傳家寶'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
