@@ -2,14 +2,13 @@ local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
 -- Spanish Translation by (EU) Krovikan-Minahonda
-
 -------------------------------------------------------------------------------
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['flight_glyph'] = nil
-L['options_icons_flight_glyph'] = nil
-L['options_icons_flight_glyph_desc'] = nil
+L['flight_glyph'] = 'Glifo de Vuelo'
+L['options_icons_flight_glyph'] = 'Glifos de Vuelo'
+L['options_icons_flight_glyph_desc'] = 'Muestra dónde están todos los glifos de vuelo.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
