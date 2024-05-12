@@ -22,6 +22,10 @@ L['options_icons_flight_glyph_desc'] = 'Muestra dónde están todos los glifos d
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
+L['mereldar_menance_note'] = nil               -- DO NOT TRANSLATE YET
+L['options_icons_mereldar_menance'] = nil      -- DO NOT TRANSLATE YET
+L['options_icons_mereldar_menance_desc'] = nil -- DO NOT TRANSLATE YET
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

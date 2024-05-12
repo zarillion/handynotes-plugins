@@ -24,6 +24,13 @@ ns.groups.FLIGHT_GLYPH = Group('flight_glyph', 4728198, {
 
 -------------------------------------------------------------------------------
 
+ns.groups.MERELDAR_MENANCE = Group('mereldar_menance', 135232, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40151
+})
+
+
 ns.groups.SIGN = Group('sign', 135946, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
