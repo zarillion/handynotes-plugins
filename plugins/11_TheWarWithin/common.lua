@@ -30,7 +30,6 @@ ns.groups.MERELDAR_MENANCE = Group('mereldar_menance', 135232, {
     achievement = 40151
 })
 
-
 ns.groups.SIGN = Group('sign', 135946, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

@@ -22,8 +22,8 @@ L['options_icons_flight_glyph_desc'] = 'Muestra dónde están todos los glifos d
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
-L['mereldar_menance_note'] = nil               -- 'Lanza una roca en cada lugar.'
-L['options_icons_mereldar_menance'] = nil      -- '{achievement:40151}'
+L['mereldar_menance_note'] = nil -- 'Lanza una roca en cada lugar.'
+L['options_icons_mereldar_menance'] = nil -- '{achievement:40151}'
 L['options_icons_mereldar_menance_desc'] = nil -- 'Muestra los objetivos para el logro {achievement:40151}.'
 
 -------------------------------------------------------------------------------

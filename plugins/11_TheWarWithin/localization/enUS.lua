@@ -23,7 +23,7 @@ L['options_icons_flight_glyph_desc'] = 'Display the location of all flight glyph
 -------------------------------------------------------------------------------
 
 L['mereldar_menance_note'] = 'PH' -- 'Throw a rock at each location.'             -- DO NOT TRANSLATE YET
-L['options_icons_mereldar_menance'] = '{achievement:40151}'                       -- DO NOT TRANSLATE YET
+L['options_icons_mereldar_menance'] = '{achievement:40151}' -- DO NOT TRANSLATE YET
 L['options_icons_mereldar_menance_desc'] = 'Show targets for {achievement:40151}' -- DO NOT TRANSLATE YET
 
 -------------------------------------------------------------------------------
