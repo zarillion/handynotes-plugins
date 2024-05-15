@@ -16,7 +16,7 @@ local Achievement = ns.reward.Achievement
 
 -------------------------------------------------------------------------------
 
-local map = Map({id = nil, settings = true})
+local map = Map({id = 2248, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -128,7 +128,7 @@ map.nodes[56703430] = Rare({
 }) -- Warphorn
 
 map.nodes[26105400] = Rare({
-    id = 219284 ,
+    id = 219284,
     rewards = {Achievement({id = 40435, criteria = 17})}
 }) -- Zovex
 
