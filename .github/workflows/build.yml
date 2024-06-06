@@ -17,8 +17,8 @@ jobs:
 
       - name: Install lua 5.1 & luarocks
         run: |
-          apt update
-          apt install lua5.1 luarocks
+          sudo apt update
+          sudo apt install lua5.1 luarocks
 
       # The lua-format library takes a while to compile, so we cache it
       # Update the YYYYMMDD component of the cache key if you want to force an update
