@@ -7,10 +7,10 @@ local ADDON_NAME, ns = ...
 local Map = ns.Map
 
 local Rare = ns.node.Rare
-local Treasure = ns.node.Treasure
+-- local Treasure = ns.node.Treasure
 
-local DragonRace = ns.node.DragonRace
-local FlightGlyph = ns.node.FlightGlyph
+-- local DragonRace = ns.node.DragonRace
+-- local FlightGlyph = ns.node.FlightGlyph
 
 local Achievement = ns.reward.Achievement
 
