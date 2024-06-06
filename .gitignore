@@ -1,4 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
 release/
 
 # Ignore IDE.
 .idea
+
+# Ignore environment file
+.env
