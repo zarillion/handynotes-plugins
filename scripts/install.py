@@ -63,11 +63,19 @@ def main():
         action="store_true",
         help="uninstall and exit",
     )
+    parser.add_argument(
+        "-e",
+        "--expansion",
+        type=int,
+        default=0,
+        help="install single expansion"
+    )
     args = parser.parse_args()
 
     target: Path = args.target
     clean: bool = args.clean
     uninstall: bool = args.uninstall
+    expansion: int = args.expansion
 
     if not target.exists():
         print(f"Path does not exist: {target}", file=sys.stderr)
@@ -81,6 +89,10 @@ def main():
     for plugin in sorted(Path("plugins").iterdir()):
         plugin_name = f"HandyNotes_{plugin.name[3:]}"
         target_dir = target.joinpath(plugin_name)
+
+        # skip expansion if this is not the one we want
+        if expansion not in (0, int(plugin.name[:2])):
+            continue
 
         # remove previous installs
         if clean or uninstall:
