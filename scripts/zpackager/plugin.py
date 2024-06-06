@@ -25,9 +25,11 @@ class Plugin(BaseModel):
         already exist in the source tree when the tag is created!! If no section for
         this tag is found, a default message is used.
         """
-        with open(Path(self.path, "CHANGELOG.md")) as f:
-            if match := re.match(rf"^# {tag}\s+(.+?)# v\d+", f.read(), re.M | re.S):
-                return match.group(1).strip() + "\n"
+        changelog = Path(self.path, "CHANGELOG.md")
+        if changelog.exists():
+            with open(Path(self.path, "CHANGELOG.md")) as f:
+                if match := re.match(rf"^# {tag}\s+(.+?)# v\d+", f.read(), re.M | re.S):
+                    return match.group(1).strip() + "\n"
 
         return "No changelog entries for this release.\n"
 
