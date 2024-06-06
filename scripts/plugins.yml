@@ -63,7 +63,7 @@ plugins:
   - dir: 11_TheWarWithin
     name: HandyNotes_TheWarWithin
     curse: 932955
-    wowi: null
+    wowi: 26753
     enabled: true
 
   - dir: 12_Midnight
