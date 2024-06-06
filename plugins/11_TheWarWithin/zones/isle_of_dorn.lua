@@ -136,79 +136,79 @@ map.nodes[26105400] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[38007960] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = nil})}
-}) -- Dalaran Sewer Turtle
+-- map.nodes[38007960] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Dalaran Sewer Turtle
 
-map.nodes[61901680] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = nil})}
-}) -- Earthen Coffer
+-- map.nodes[61901680] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Earthen Coffer
 
-map.nodes[77503690] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = nil})}
-}) -- Elemental Geode
+-- map.nodes[77503690] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Elemental Geode
 
-map.nodes[63804310] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = nil})}
-}) -- Forgotten Axe
+-- map.nodes[63804310] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Forgotten Axe
 
-map.nodes[56306420] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = 11})}
-}) -- Infused Cinderbrew
+-- map.nodes[56306420] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = 11})}
+-- }) -- Infused Cinderbrew
 
-map.nodes[81402060] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = 9})}
-}) -- Jade Pearl
+-- map.nodes[81402060] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = 9})}
+-- }) -- Jade Pearl
 
-map.nodes[82204570] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = nil})}
-}) -- Keeper's Stash
+-- map.nodes[82204570] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Keeper's Stash
 
-map.nodes[37706300] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = nil})}
-}) -- Lionel
+-- map.nodes[37706300] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Lionel
 
-map.nodes[60302080] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = nil})}
-}) -- Lost Mosswool
+-- map.nodes[60302080] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Lost Mosswool
 
-map.nodes[54806980] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = nil})}
-}) -- U'llwort The Self-Exiled
+-- map.nodes[54806980] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- U'llwort The Self-Exiled
 
-map.nodes[53501440] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = nil})}
-}) -- Weary Water Elemental
+-- map.nodes[53501440] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Weary Water Elemental
 
-map.nodes[59701950] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = nil})}
-}) -- Web-wrapped Axe
+-- map.nodes[59701950] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Web-wrapped Axe
 
-map.nodes[82502480] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = nil})}
-}) -- Titan Console
+-- map.nodes[82502480] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Titan Console
 
-map.nodes[57501540] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = nil})}
-}) -- Watcher of the North
+-- map.nodes[57501540] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Watcher of the North
 
-map.nodes[39508720] = Treasure({
-    rewards = {Achievement({id = 40434, criteria = nil})}
-}) -- Watcher of the South
+-- map.nodes[39508720] = Treasure({
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Watcher of the South
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[79601800] = FlightGlyph({rewards = Achievement({id = 40152})}) -- Three Shields
+-- map.nodes[79601800] = FlightGlyph({rewards = Achievement({id = 40152})}) -- Three Shields
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[53006800] = DragonRace() -- Basin Bypass, Boskroot Basin
-map.nodes[46003300] = DragonRace() -- Dornogal Drift, Dornogal
-map.nodes[28008100] = DragonRace() -- Orecreg's Doglegs, Orecreg
-map.nodes[35004300] = DragonRace() -- Storm's Watch Survey, Storm's Watch
-map.nodes[59002100] = DragonRace() -- Thunderhead Trail, Thunderhead Peak
-map.nodes[63004600] = DragonRace() -- The Wold Ways, south of Mourning Rise
+-- map.nodes[53006800] = DragonRace() -- Basin Bypass, Boskroot Basin
+-- map.nodes[46003300] = DragonRace() -- Dornogal Drift, Dornogal
+-- map.nodes[28008100] = DragonRace() -- Orecreg's Doglegs, Orecreg
+-- map.nodes[35004300] = DragonRace() -- Storm's Watch Survey, Storm's Watch
+-- map.nodes[59002100] = DragonRace() -- Thunderhead Trail, Thunderhead Peak
+-- map.nodes[63004600] = DragonRace() -- The Wold Ways, south of Mourning Rise
