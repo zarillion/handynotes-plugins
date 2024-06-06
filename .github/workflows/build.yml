@@ -15,10 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install lua 5.1 & luarocks
+      - name: Install lua ${{ env.lua-version }} & luarocks
         run: |
           sudo apt update
-          sudo apt install lua5.1 luarocks
+          sudo apt install lua${{ env.lua-version }} luarocks
 
       # The lua-format library takes a while to compile, so we cache it
       # Update the YYYYMMDD component of the cache key if you want to force an update
