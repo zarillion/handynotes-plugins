@@ -111,15 +111,16 @@ def main():
         os.makedirs(target_dir.joinpath(".git"), exist_ok=True)
 
         # link core + library dirs
-        for item in ("../core", "libs", "embeds.xml"):
-            install(Path(item), target_dir.joinpath(item))
+        install(Path("../core"), target_dir.joinpath("core"))
+        install(Path("../libs"), target_dir.joinpath("libs"))
+        install(Path("../embed.xml"), target_dir.joinpath("embed.xml"))
 
         # install templates.xml file
         with (
             open("../templates.xml") as f1,
-            open(target_dir.joinpath("../templates.xml"), "w") as f2,
+            open(target_dir.joinpath("templates.xml"), "w") as f2,
         ):
-            print(f"Writing templates.xml => {target_dir.joinpath('../templates.xml')}")
+            print(f"Writing templates.xml => {target_dir.joinpath('templates.xml')}")
             f2.write(f1.read().format(addon=plugin_name))
 
 
