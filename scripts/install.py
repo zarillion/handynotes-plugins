@@ -113,7 +113,7 @@ def main():
         # link core + library dirs
         install(Path("../core"), target_dir.joinpath("core"))
         install(Path("../libs"), target_dir.joinpath("libs"))
-        install(Path("../embed.xml"), target_dir.joinpath("embed.xml"))
+        install(Path("../embeds.xml"), target_dir.joinpath("embeds.xml"))
 
         # install templates.xml file
         with (
