@@ -7,9 +7,9 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['flight_glyph'] = nil
-L['options_icons_flight_glyph'] = nil
-L['options_icons_flight_glyph_desc'] = nil
+L['skyriding_glyph'] = nil
+L['options_icons_skyriding_glyph'] = nil
+L['options_icons_skyriding_glyph_desc'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------

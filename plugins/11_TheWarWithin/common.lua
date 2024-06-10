@@ -22,7 +22,7 @@ ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.FLIGHT_GLYPH = Group('flight_glyph', 4728198, {
+ns.groups.SKYRIDING_GLYPH = Group('skyriding_glyph', 4728198, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -90,13 +90,13 @@ end
 ns.node.DragonRace = Dragonrace
 
 -------------------------------------------------------------------------------
--------------------------------- FLIGHT GLYPHS --------------------------------
+------------------------------- SKYRIDING GLYPH -------------------------------
 -------------------------------------------------------------------------------
 
-local FlightGlyph = Class('FlightGlyph', Collectible, {
+local SkyridingGlyph = Class('SkyridingGlyph', Collectible, {
     icon = 4728198,
-    label = L['flight_glyph'],
-    group = ns.groups.FLIGHT_GLYPH
+    label = L['skyriding_glyph'],
+    group = ns.groups.SKYRIDING_GLYPH
 })
 
-ns.node.FlightGlyph = FlightGlyph
+ns.node.SkyridingGlyph = SkyridingGlyph

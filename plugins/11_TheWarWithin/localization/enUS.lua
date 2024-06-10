@@ -6,9 +6,9 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['flight_glyph'] = 'Flight Glyph'
-L['options_icons_flight_glyph'] = 'Flight Glyphs'
-L['options_icons_flight_glyph_desc'] = 'Display the location of all flight glyphs.'
+L['skyriding_glyph'] = 'Skyriding Glyph'
+L['options_icons_skyriding_glyph'] = 'Skyriding Glyphs'
+L['options_icons_skyriding_glyph_desc'] = 'Display the location of all skyriding glyphs.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
