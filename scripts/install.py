@@ -86,7 +86,7 @@ def main():
         print(f'Path is not a WoW addons directory: "{target}"', file=sys.stderr)
         return 1
 
-    for plugin in sorted(Path("plugins").iterdir()):
+    for plugin in sorted(Path("../plugins").iterdir()):
         plugin_name = f"HandyNotes_{plugin.name[3:]}"
         target_dir = target.joinpath(plugin_name)
 
@@ -111,15 +111,15 @@ def main():
         os.makedirs(target_dir.joinpath(".git"), exist_ok=True)
 
         # link core + library dirs
-        for item in ("core", "libs", "embeds.xml"):
+        for item in ("../core", "libs", "embeds.xml"):
             install(Path(item), target_dir.joinpath(item))
 
         # install templates.xml file
         with (
-            open("templates.xml") as f1,
-            open(target_dir.joinpath("templates.xml"), "w") as f2,
+            open("../templates.xml") as f1,
+            open(target_dir.joinpath("../templates.xml"), "w") as f2,
         ):
-            print(f"Writing templates.xml => {target_dir.joinpath('templates.xml')}")
+            print(f"Writing templates.xml => {target_dir.joinpath('../templates.xml')}")
             f2.write(f1.read().format(addon=plugin_name))
 
 
