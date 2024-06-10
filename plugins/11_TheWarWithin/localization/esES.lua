@@ -7,9 +7,9 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['skyriding_glyph'] = nil
-L['options_icons_skyriding_glyph'] = nil
-L['options_icons_skyriding_glyph_desc'] = nil
+L['skyriding_glyph'] = 'Glifo de Surcacielos'
+L['options_icons_skyriding_glyph'] = 'Glifos de Surcacielos'
+L['options_icons_skyriding_glyph_desc'] = 'Muestra dónde están todos los glifos de surcacielos.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
