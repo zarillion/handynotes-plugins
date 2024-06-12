@@ -2,14 +2,13 @@ local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
 -- Spanish Translation by (EU) Krovikan-Minahonda
-
 -------------------------------------------------------------------------------
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
 L['skyriding_glyph'] = 'Glifo de Surcacielos'
 L['options_icons_skyriding_glyph'] = 'Glifos de Surcacielos'
-L['options_icons_skyriding_glyph_desc'] = 'Muestra dónde están todos los glifos de surcacielos.'
+L['options_icons_skyriding_glyph_desc'] = 'Muestra dónde están los glifos de surcacielos.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
@@ -19,8 +18,8 @@ L['options_icons_skyriding_glyph_desc'] = 'Muestra dónde están todos los glifo
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_not_so_quick_fix'] = nil
-L['options_icons_not_so_quick_fix_desc'] = nil
+L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
+L['options_icons_not_so_quick_fix_desc'] = 'Muestra dónde están las consolas del logro {achievement:40473}.'
 
 L['not_so_quick_fix_note'] = nil
 L['water_console_location'] = nil
@@ -30,8 +29,8 @@ L['obsidian_console_location'] = nil
 L['lost_console_location'] = nil
 L['earthen_console_location'] = nil
 
-L['options_icons_notable_machines'] = nil
-L['options_icons_notable_machines_desc'] = nil
+L['options_icons_notable_machines'] = '{achievement:40628}'
+L['options_icons_notable_machines_desc'] = 'Muestra dónde están las notas del logro {achievement:40628}.'
 
 L['notable_machines_note'] = nil
 L['fragment_I_location'] = nil
@@ -41,8 +40,8 @@ L['fragment_IV_location'] = nil
 L['fragment_V_location'] = nil
 L['fragment_VI_location'] = nil
 
-L['options_icons_rocked_to_sleep'] = nil
-L['options_icons_rocked_to_sleep_desc'] = nil
+L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
+L['options_icons_rocked_to_sleep_desc'] = 'Muestra dónde están las placas del logro {achievement:40504}.'
 
 L['rocked_to_sleep_note'] = nil
 L['attwogaz_location'] = nil
@@ -60,8 +59,8 @@ L['sathilga_location'] = nil
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_biblio_archivist'] = nil
-L['options_icons_biblio_archivist_desc'] = nil
+L['options_icons_biblio_archivist'] = '{achievement:40622}'
+L['options_icons_biblio_archivist_desc'] = 'Muestra dónde están los libros del logro {achievement:40622}.'
 
 L['biblio_archivist_note'] = nil
 L['biblio_book_01_location'] = nil
@@ -75,8 +74,8 @@ L['biblio_book_08_location'] = nil
 L['biblio_book_09_location'] = nil
 L['biblio_book_10_location'] = nil
 
-L['options_icons_lost_and_found'] = nil
-L['options_icons_lost_and_found_desc'] = nil
+L['options_icons_lost_and_found'] = '{achievement:40618}'
+L['options_icons_lost_and_found_desc'] = 'Muestra dónde están todos los recuerdos del logro {achievement:40618}.'
 
 L['lost_and_found_note'] = nil
 L['broken_bracelet_location'] = nil
@@ -89,8 +88,8 @@ L['ivory_tinderbox_location'] = nil
 L['dented_spear_location'] = nil
 L['filigreed_cleric_location'] = nil
 
-L['options_icons_missing_lynx'] = nil
-L['options_icons_missing_lynx_desc'] = nil
+L['options_icons_missing_lynx'] = '{achievement:40625}'
+L['options_icons_missing_lynx_desc'] = 'Muestra dónde están los linces del logro {achievement:40625}.'
 
 L['missing_lynx_note'] = nil
 L['magpie_location'] = nil
@@ -112,8 +111,8 @@ L['gobbo_location'] = nil
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_itsy_bitsy_spider'] = nil
-L['options_icons_itsy_bitsy_spider_desc'] = nil
+L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
+L['options_icons_itsy_bitsy_spider_desc'] = 'Muestra dónde están las tejerratas del logro {achievement:40624}.'
 
 L['itsy_bitsy_spider_note'] = nil
 L['webster_location'] = nil
