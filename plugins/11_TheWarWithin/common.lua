@@ -30,6 +30,12 @@ ns.groups.BIBLIO_ARCHIVIST = Group('biblio_archivist', 5341597, {
     achievement = 40622
 })
 
+ns.groups.ITSY_BITSY_SPIDER = Group('itsy_bitsy_spider', 5793405, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40624
+})
+
 ns.groups.LOST_AND_FOUND = Group('lost_and_found', 4635200, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

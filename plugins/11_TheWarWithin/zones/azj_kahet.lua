@@ -2,7 +2,11 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
+local L = ns.locale
 local Map = ns.Map
+
+local Collectible = ns.node.Collectible
 
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
@@ -59,3 +63,48 @@ map.nodes[69963104] = SkyridingGlyph({
 -- map.nodes[00000000] = SkyridingGlyph({
 --     rewards = {Achievement({id = 40705, criteria = 11})}
 -- }) -- Untamed Valley
+
+-------------------------------------------------------------------------------
+----------------------- ACHIEVEMENT: ITSY BITSY SPIDER ------------------------
+-------------------------------------------------------------------------------
+
+local ItsyBitsySpider = Class('ItsyBitsySpider', Collectible, {
+    icon = 5793405,
+    group = ns.groups.ITSY_BITSY_SPIDER,
+    note = L['itsy_bitsy_spider_note']
+})
+
+map.nodes[00000000] = ItsyBitsySpider({
+    location = L['webster_location'],
+    rewards = {Achievement({id = 40624, criteria = 1})}
+}) -- Webster
+
+map.nodes[00000000] = ItsyBitsySpider({
+    location = L['spindle_location'],
+    rewards = {Achievement({id = 40624, criteria = 2})}
+}) -- Spindle
+
+map.nodes[00000000] = ItsyBitsySpider({
+    location = L['swift_location'],
+    rewards = {Achievement({id = 40624, criteria = 3})}
+}) -- Swift
+
+map.nodes[00000000] = ItsyBitsySpider({
+    location = L['rumurh_location'],
+    rewards = {Achievement({id = 40624, criteria = 4})}
+}) -- Ru'murh
+
+map.nodes[00000000] = ItsyBitsySpider({
+    location = L['thimble_location'],
+    rewards = {Achievement({id = 40624, criteria = 5})}
+}) -- Thimble
+
+map.nodes[00000000] = ItsyBitsySpider({
+    location = L['scampering_weave_rat_location'],
+    rewards = {Achievement({id = 40624, criteria = 6})}
+}) -- Scampering Weave-Rat
+
+map.nodes[00000000] = ItsyBitsySpider({
+    location = L['generals_scouting_shadecaster_location'],
+    rewards = {Achievement({id = 40624, criteria = 7})}
+}) -- General's Scouting Shadecaster

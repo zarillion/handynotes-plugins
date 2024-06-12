@@ -95,3 +95,15 @@ L['gobbo_location'] = nil
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
+
+L['options_icons_itsy_bitsy_spider'] = nil
+L['options_icons_itsy_bitsy_spider_desc'] = nil
+
+L['itsy_bitsy_spider_note'] = nil
+L['webster_location'] = nil
+L['spindle_location'] = nil
+L['swift_location'] = nil
+L['rumurh_location'] = nil
+L['thimble_location'] = nil
+L['scampering_weave_rat_location'] = nil
+L['generals_scouting_shadecaster_location'] = nil
