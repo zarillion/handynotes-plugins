@@ -60,6 +60,12 @@ ns.groups.NOTABLE_MACHINES = Group('notable_machines', 1506451, {
     achievement = 40628
 })
 
+ns.groups.ROCKED_TO_SLEEP = Group('rocked_to_sleep', 5788303, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40504
+})
+
 -------------------------------------------------------------------------------
 ------------------------------- SKYRIDING GLYPH -------------------------------
 -------------------------------------------------------------------------------

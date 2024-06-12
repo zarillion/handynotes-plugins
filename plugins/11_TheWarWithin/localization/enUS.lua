@@ -40,6 +40,21 @@ L['fragment_IV_location'] = 'PH'
 L['fragment_V_location'] = 'PH'
 L['fragment_VI_location'] = 'PH'
 
+L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
+L['options_icons_rocked_to_sleep_desc'] = 'Display plaque locations for {achievement:40504}.'
+
+L['rocked_to_sleep_note'] = 'PH'
+L['attwogaz_location'] = 'PH'
+L['halthaz_location'] = 'PH'
+L['krattdaz_location'] = 'PH'
+L['uisgaz_location'] = 'PH'
+L['venedaz_location'] = 'PH'
+L['merunth_location'] = 'PH'
+L['varerko_location'] = 'PH'
+L['alfritha_location'] = 'PH'
+L['gundrig_location'] = 'PH'
+L['sathilga_location'] = 'PH'
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

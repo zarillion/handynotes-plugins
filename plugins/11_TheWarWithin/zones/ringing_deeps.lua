@@ -232,3 +232,63 @@ map.nodes[00000000] = MachineSpeakerNote({
     location = L['fragment_VI_location'],
     rewards = {Achievement({id = 40628, criteria = 6})}
 }) -- Notes On The Machine Speakers: Fragment VI
+
+-------------------------------------------------------------------------------
+------------------------ ACHIEVEMENT: ROCKED TO SLEEP -------------------------
+-------------------------------------------------------------------------------
+
+local InertEarthen = Class('InertEarthen', Collectible, {
+    icon = 5788303,
+    group = ns.groups.ROCKED_TO_SLEEP,
+    note = L['rocked_to_sleep_note']
+})
+
+map.nodes[00000000] = InertEarthen({
+    location = L['attwogaz_location'],
+    rewards = {Achievement({id = 40504, criteria = 1})}
+}) -- Attwogaz
+
+map.nodes[00000000] = InertEarthen({
+    location = L['halthaz_location'],
+    rewards = {Achievement({id = 40504, criteria = 2})}
+}) -- Halthaz
+
+map.nodes[00000000] = InertEarthen({
+    location = L['krattdaz_location'],
+    rewards = {Achievement({id = 40504, criteria = 3})}
+}) -- Krattdaz
+
+map.nodes[00000000] = InertEarthen({
+    location = L['uisgaz_location'],
+    rewards = {Achievement({id = 40504, criteria = 4})}
+}) -- Uisgaz
+
+map.nodes[00000000] = InertEarthen({
+    location = L['venedaz_location'],
+    rewards = {Achievement({id = 40504, criteria = 5})}
+}) -- Venedaz
+
+map.nodes[00000000] = InertEarthen({
+    location = L['merunth_location'],
+    rewards = {Achievement({id = 40504, criteria = 6})}
+}) -- Merunth
+
+map.nodes[00000000] = InertEarthen({
+    location = L['varerko_location'],
+    rewards = {Achievement({id = 40504, criteria = 7})}
+}) -- Varerko
+
+map.nodes[00000000] = InertEarthen({
+    location = L['alfritha_location'],
+    rewards = {Achievement({id = 40504, criteria = 8})}
+}) -- Alfritha
+
+map.nodes[00000000] = InertEarthen({
+    location = L['gundrig_location'],
+    rewards = {Achievement({id = 40504, criteria = 9})}
+}) -- Gundrig
+
+map.nodes[00000000] = InertEarthen({
+    location = L['sathilga_location'],
+    rewards = {Achievement({id = 40504, criteria = 10})}
+}) -- Sathilga

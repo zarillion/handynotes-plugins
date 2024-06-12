@@ -41,6 +41,21 @@ L['fragment_IV_location'] = nil
 L['fragment_V_location'] = nil
 L['fragment_VI_location'] = nil
 
+L['options_icons_rocked_to_sleep'] = nil
+L['options_icons_rocked_to_sleep_desc'] = nil
+
+L['rocked_to_sleep_note'] = nil
+L['attwogaz_location'] = nil
+L['halthaz_location'] = nil
+L['krattdaz_location'] = nil
+L['uisgaz_location'] = nil
+L['venedaz_location'] = nil
+L['merunth_location'] = nil
+L['varerko_location'] = nil
+L['alfritha_location'] = nil
+L['gundrig_location'] = nil
+L['sathilga_location'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
