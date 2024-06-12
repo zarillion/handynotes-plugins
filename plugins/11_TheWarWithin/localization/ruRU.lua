@@ -23,10 +23,6 @@ L['options_icons_skyriding_glyph_desc'] = nil
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
-L['mereldar_menance_note'] = nil -- DO NOT TRANSLATE YET
-L['options_icons_mereldar_menance'] = nil -- DO NOT TRANSLATE YET
-L['options_icons_mereldar_menance_desc'] = nil -- DO NOT TRANSLATE YET
-
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
