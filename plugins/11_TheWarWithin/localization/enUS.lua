@@ -44,6 +44,21 @@ L['fragment_VI_location'] = 'PH'
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_biblio_archivist'] = '{achievement:40622}'
+L['options_icons_biblio_archivist_desc'] = 'Display book locations for {achievement:40622}.'
+
+L['biblio_archivist_note'] = 'PH'
+L['biblio_book_01_location'] = 'PH'
+L['biblio_book_02_location'] = 'PH'
+L['biblio_book_03_location'] = 'PH'
+L['biblio_book_04_location'] = 'PH'
+L['biblio_book_05_location'] = 'PH'
+L['biblio_book_06_location'] = 'PH'
+L['biblio_book_07_location'] = 'PH'
+L['biblio_book_08_location'] = 'PH'
+L['biblio_book_09_location'] = 'PH'
+L['biblio_book_10_location'] = 'PH'
+
 L['options_icons_lost_and_found'] = '{achievement:40618}'
 L['options_icons_lost_and_found_desc'] = 'Display momento locations for {achievement:40618}.'
 

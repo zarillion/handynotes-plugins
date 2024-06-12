@@ -61,6 +61,66 @@ map.nodes[57616460] = SkyridingGlyph({
 }) -- Tenir's Ascent
 
 -------------------------------------------------------------------------------
+------------------------ ACHIEVEMENT: BIBLIO ARCHIVIST ------------------------
+-------------------------------------------------------------------------------
+
+local BiblioBook = Class('BiblioBook', Collectible, {
+    icon = 5341597,
+    group = ns.groups.BIBLIO_ARCHIVIST,
+    note = L['biblio_archivist_note']
+})
+
+map.nodes[00000000] = BiblioBook({
+    location = L['biblio_book_01_location'],
+    rewards = {Achievement({id = 40622, criteria = 1})}
+}) -- The Big Book of Arathi Idioms
+
+map.nodes[00000000] = BiblioBook({
+    location = L['biblio_book_02_location'],
+    rewards = {Achievement({id = 40622, criteria = 2})}
+}) -- 500 Dishes Using Cave Fish and Mushrooms
+
+map.nodes[00000000] = BiblioBook({
+    location = L['biblio_book_03_location'],
+    rewards = {Achievement({id = 40622, criteria = 3})}
+}) -- Care and Feeding of the Imperial Lynx
+
+map.nodes[00000000] = BiblioBook({
+    location = L['biblio_book_04_location'],
+    rewards = {Achievement({id = 40622, criteria = 4})}
+}) -- Light's Gambit Playbook
+
+map.nodes[00000000] = BiblioBook({
+    location = L['biblio_book_05_location'],
+    rewards = {Achievement({id = 40622, criteria = 5})}
+}) -- From the Depths They Come
+
+map.nodes[00000000] = BiblioBook({
+    location = L['biblio_book_06_location'],
+    rewards = {Achievement({id = 40622, criteria = 6})}
+}) -- Palawltar's Codex of Dimensional Structure
+
+map.nodes[00000000] = BiblioBook({
+    location = L['biblio_book_07_location'],
+    rewards = {Achievement({id = 40622, criteria = 7})}
+}) -- Shadow Curfew Guidelines
+
+map.nodes[00000000] = BiblioBook({
+    location = L['biblio_book_08_location'],
+    rewards = {Achievement({id = 40622, criteria = 8})}
+}) -- Shadow Curfew Journal
+
+map.nodes[00000000] = BiblioBook({
+    location = L['biblio_book_09_location'],
+    rewards = {Achievement({id = 40622, criteria = 9})}
+}) -- The Song of Renilash
+
+map.nodes[00000000] = BiblioBook({
+    location = L['biblio_book_10_location'],
+    rewards = {Achievement({id = 40622, criteria = 10})}
+}) -- Beledar - The Emperor's Vision
+
+-------------------------------------------------------------------------------
 ------------------------- ACHIEVEMENT: LOST AND FOUND -------------------------
 -------------------------------------------------------------------------------
 

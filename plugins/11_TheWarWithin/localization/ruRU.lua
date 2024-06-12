@@ -45,6 +45,21 @@ L['fragment_VI_location'] = nil
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_biblio_archivist'] = nil
+L['options_icons_biblio_archivist_desc'] = nil
+
+L['biblio_archivist_note'] = nil
+L['biblio_book_01_location'] = nil
+L['biblio_book_02_location'] = nil
+L['biblio_book_03_location'] = nil
+L['biblio_book_04_location'] = nil
+L['biblio_book_05_location'] = nil
+L['biblio_book_06_location'] = nil
+L['biblio_book_07_location'] = nil
+L['biblio_book_08_location'] = nil
+L['biblio_book_09_location'] = nil
+L['biblio_book_10_location'] = nil
+
 L['options_icons_lost_and_found'] = nil
 L['options_icons_lost_and_found_desc'] = nil
 
