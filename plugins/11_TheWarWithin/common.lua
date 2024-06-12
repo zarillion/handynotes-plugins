@@ -24,6 +24,12 @@ ns.groups.SKYRIDING_GLYPH = Group('skyriding_glyph', 4728198, {
 
 -------------------------------------------------------------------------------
 
+ns.groups.LOST_AND_FOUND = Group('lost_and_found', 4635200, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40618
+})
+
 ns.groups.MISSING_LYNX = Group('missing_lynx', 5689905, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

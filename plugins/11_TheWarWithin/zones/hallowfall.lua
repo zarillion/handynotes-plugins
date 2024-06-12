@@ -61,11 +61,66 @@ map.nodes[57616460] = SkyridingGlyph({
 }) -- Tenir's Ascent
 
 -------------------------------------------------------------------------------
+------------------------- ACHIEVEMENT: LOST AND FOUND -------------------------
+-------------------------------------------------------------------------------
+
+local Momento = Class('Momento', Collectible, {
+    icon = 4635200,
+    group = ns.groups.LOST_AND_FOUND,
+    note = L['lost_and_found_note']
+})
+
+map.nodes[00000000] = Momento({
+    location = L['broken_bracelet_location'],
+    rewards = {Achievement({id = 40618, criteria = 1})}
+}) -- Broken Bracelet
+
+map.nodes[00000000] = Momento({
+    location = L['stuffed_lynx_toy_location'],
+    rewards = {Achievement({id = 40618, criteria = 2})}
+}) -- Stuffed Lynx Toy
+
+map.nodes[00000000] = Momento({
+    location = L['tarnished_compass_location'],
+    rewards = {Achievement({id = 40618, criteria = 3})}
+}) -- Tarnished Compass
+
+map.nodes[00000000] = Momento({
+    location = L['sturdy_locket_location'],
+    rewards = {Achievement({id = 40618, criteria = 4})}
+}) -- Sturdy Locket
+
+map.nodes[00000000] = Momento({
+    location = L['wooden_figure_location'],
+    rewards = {Achievement({id = 40618, criteria = 5})}
+}) -- Wooden Figure
+
+map.nodes[00000000] = Momento({
+    location = L['calcified_journal_location'],
+    rewards = {Achievement({id = 40618, criteria = 6})}
+}) -- Calcified Journal
+
+map.nodes[00000000] = Momento({
+    location = L['ivory_tinderbox_location'],
+    rewards = {Achievement({id = 40618, criteria = 7})}
+}) -- Ivory Tinderbox
+
+map.nodes[00000000] = Momento({
+    location = L['dented_spear_location'],
+    rewards = {Achievement({id = 40618, criteria = 8})}
+}) -- Dented Spear
+
+map.nodes[00000000] = Momento({
+    location = L['filigreed_cleric_location'],
+    rewards = {Achievement({id = 40618, criteria = 9})}
+}) -- Filigreed Cleric
+
+-------------------------------------------------------------------------------
 ------------------------ ACHIEVEMENT: THE MISSING LYNX ------------------------
 -------------------------------------------------------------------------------
 
 local MissingLynx = Class('MissingLynx', Collectible, {
-    icon = 40625,
+    icon = 5689905,
     group = ns.groups.MISSING_LYNX,
     note = L['missing_lynx_note']
 })

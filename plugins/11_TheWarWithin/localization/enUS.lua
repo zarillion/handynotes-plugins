@@ -22,6 +22,20 @@ L['options_icons_skyriding_glyph_desc'] = 'Display the location of all skyriding
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_lost_and_found'] = '{achievement:40618}'
+L['options_icons_lost_and_found_desc'] = 'Display momento locations for {achievement:40618}.'
+
+L['lost_and_found_note'] = 'PH'
+L['broken_bracelet_location'] = 'PH'
+L['stuffed_lynx_toy_location'] = 'PH'
+L['tarnished_compass_location'] = 'PH'
+L['sturdy_locket_location'] = 'PH'
+L['wooden_figure_location'] = 'PH'
+L['calcified_journal_location'] = 'PH'
+L['ivory_tinderbox_location'] = 'PH'
+L['dented_spear_location'] = 'PH'
+L['filigreed_cleric_location'] = 'PH'
+
 L['options_icons_missing_lynx'] = '{achievement:40625}'
 L['options_icons_missing_lynx_desc'] = 'Display lynx locations for {achievement:40625}.'
 
