@@ -29,6 +29,17 @@ L['obsidian_console_location'] = nil
 L['lost_console_location'] = nil
 L['earthen_console_location'] = nil
 
+L['options_icons_notable_machines'] = nil
+L['options_icons_notable_machines_desc'] = nil
+
+L['notable_machines_note'] = nil
+L['fragment_I_location'] = nil
+L['fragment_II_location'] = nil
+L['fragment_III_location'] = nil
+L['fragment_IV_location'] = nil
+L['fragment_V_location'] = nil
+L['fragment_VI_location'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

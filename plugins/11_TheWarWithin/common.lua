@@ -42,6 +42,12 @@ ns.groups.NOT_SO_QUICK_FIX = Group('not_so_quick_fix', 134067, {
     achievement = 40473
 })
 
+ns.groups.NOTABLE_MACHINES = Group('notable_machines', 1506451, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40628
+})
+
 -------------------------------------------------------------------------------
 ------------------------------- SKYRIDING GLYPH -------------------------------
 -------------------------------------------------------------------------------

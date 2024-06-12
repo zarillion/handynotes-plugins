@@ -192,3 +192,43 @@ map.nodes[00000000] = BustedConsole({
     location = L['earthen_console_location'],
     rewards = {Achievement({id = 40473, criteria = 6})}
 }) -- Earthen Console
+
+-------------------------------------------------------------------------------
+------------------------ ACHIEVEMENT: NOTABLE MACHINES ------------------------
+-------------------------------------------------------------------------------
+
+local MachineSpeakerNote = Class('MachineSpeakerNote', Collectible, {
+    icon = 1506451,
+    group = ns.groups.NOTABLE_MACHINES,
+    note = L['notable_machines_note']
+})
+
+map.nodes[00000000] = MachineSpeakerNote({
+    location = L['fragment_I_location'],
+    rewards = {Achievement({id = 40628, criteria = 1})}
+}) -- Notes On The Machine Speakers: Fragment I
+
+map.nodes[00000000] = MachineSpeakerNote({
+    location = L['fragment_II_location'],
+    rewards = {Achievement({id = 40628, criteria = 2})}
+}) -- Notes On The Machine Speakers: Fragment II
+
+map.nodes[00000000] = MachineSpeakerNote({
+    location = L['fragment_III_location'],
+    rewards = {Achievement({id = 40628, criteria = 3})}
+}) -- Notes On The Machine Speakers: Fragment III
+
+map.nodes[00000000] = MachineSpeakerNote({
+    location = L['fragment_IV_location'],
+    rewards = {Achievement({id = 40628, criteria = 4})}
+}) -- Notes On The Machine Speakers: Fragment IV
+
+map.nodes[00000000] = MachineSpeakerNote({
+    location = L['fragment_V_location'],
+    rewards = {Achievement({id = 40628, criteria = 5})}
+}) -- Notes On The Machine Speakers: Fragment V
+
+map.nodes[00000000] = MachineSpeakerNote({
+    location = L['fragment_VI_location'],
+    rewards = {Achievement({id = 40628, criteria = 6})}
+}) -- Notes On The Machine Speakers: Fragment VI
