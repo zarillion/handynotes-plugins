@@ -55,13 +55,3 @@ map.nodes[45741243] = SkyridingGlyph({
 map.nodes[57616460] = SkyridingGlyph({
     rewards = {Achievement({id = 40704, criteria = 10})}
 }) -- Tenir's Ascent
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
--- map.nodes[73003900] = DragonRace() -- Dunelle's Detour
--- map.nodes[40006600] = DragonRace() -- Light's Redoubt Descent
--- map.nodes[38006300] = DragonRace() -- Mereldar Meander
--- map.nodes[58002600] = DragonRace() -- Stillstone Slalom
--- map.nodes[60006800] = DragonRace() -- Ternir's Traversal
--- map.nodes[55001800] = DragonRace() -- Velhan's Venture

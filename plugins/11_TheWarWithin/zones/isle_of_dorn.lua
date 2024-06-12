@@ -233,14 +233,3 @@ map.nodes[63314512] = SkyridingGlyph({
 map.nodes[74964785] = SkyridingGlyph({
     rewards = {Achievement({id = 40166, criteria = 10})}
 }) -- Ironwold
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
--- map.nodes[53006800] = DragonRace() -- Basin Bypass, Boskroot Basin
--- map.nodes[46003300] = DragonRace() -- Dornogal Drift, Dornogal
--- map.nodes[28008100] = DragonRace() -- Orecreg's Doglegs, Orecreg
--- map.nodes[35004300] = DragonRace() -- Storm's Watch Survey, Storm's Watch
--- map.nodes[59002100] = DragonRace() -- Thunderhead Trail, Thunderhead Peak
--- map.nodes[63004600] = DragonRace() -- The Wold Ways, south of Mourning Rise

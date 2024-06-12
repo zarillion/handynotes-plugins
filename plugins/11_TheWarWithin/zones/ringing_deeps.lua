@@ -148,13 +148,3 @@ map.nodes[62896604] = SkyridingGlyph({
 map.nodes[46445175] = SkyridingGlyph({
     rewards = {Achievement({id = 40703, criteria = 9})}
 }) -- The Waterworks
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
--- map.nodes[43004800] = DragonRace() -- Cataract River Cruise
--- map.nodes[63003800] = DragonRace() -- Chittering Concourse
--- map.nodes[32001000] = DragonRace() -- Earthenworks Weave
--- map.nodes[58008300] = DragonRace() -- Opportunity Point Amble
--- map.nodes[32002400] = DragonRace() -- Ringing Deeps Ramble
--- map.nodes[60007500] = DragonRace() -- Taelloch Twist
