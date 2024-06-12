@@ -22,6 +22,25 @@ L['options_icons_skyriding_glyph_desc'] = 'Display the location of all skyriding
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_missing_lynx'] = '{achievement:40625}'
+L['options_icons_missing_lynx_desc'] = 'Display lynx locations for {achievement:40625}.'
+
+L['missing_lynx_note'] = 'PH'
+L['magpie_location'] = 'PH'
+L['evan_location'] = 'PH'
+L['emery_location'] = 'PH'
+L['jinx_location'] = 'PH'
+L['moog_location'] = 'PH'
+L['iggy_location'] = 'PH'
+L['nightclaw_location'] = 'PH'
+L['purrlock_location'] = 'PH'
+L['shadowpouncer_location'] = 'PH'
+L['miral_murder_mittens_location'] = 'PH'
+L['fuzzy_location'] = 'PH'
+L['furball_location'] = 'PH'
+L['dander_location'] = 'PH'
+L['gobbo_location'] = 'PH'
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
