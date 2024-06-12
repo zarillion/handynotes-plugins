@@ -18,6 +18,17 @@ L['options_icons_skyriding_glyph_desc'] = 'Display the location of all skyriding
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
+L['options_icons_not_so_quick_fix_desc'] = 'Display console locations for {achievement:40473}.'
+
+L['not_so_quick_fix_note'] = 'PH'
+L['water_console_location'] = 'PH'
+L['abyssal_console_location'] = 'PH'
+L['taelloch_console_location'] = 'PH'
+L['obsidian_console_location'] = 'PH'
+L['lost_console_location'] = 'PH'
+L['earthen_console_location'] = 'PH'
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

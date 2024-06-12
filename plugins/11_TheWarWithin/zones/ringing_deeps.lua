@@ -2,7 +2,11 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
+local L = ns.locale
 local Map = ns.Map
+
+local Collectible = ns.node.Collectible
 
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
@@ -148,3 +152,43 @@ map.nodes[62896604] = SkyridingGlyph({
 map.nodes[46445175] = SkyridingGlyph({
     rewards = {Achievement({id = 40703, criteria = 9})}
 }) -- The Waterworks
+
+-------------------------------------------------------------------------------
+------------------------ ACHIEVEMENT: NOT SO QUICK FIX ------------------------
+-------------------------------------------------------------------------------
+
+local BustedConsole = Class('BustedConsole', Collectible, {
+    icon = 134067,
+    group = ns.groups.NOT_SO_QUICK_FIX,
+    note = L['not_so_quick_fix_note']
+})
+
+map.nodes[00000000] = BustedConsole({
+    location = L['water_console_location'],
+    rewards = {Achievement({id = 40473, criteria = 1})}
+}) -- Water Console
+
+map.nodes[00000000] = BustedConsole({
+    location = L['abyssal_console_location'],
+    rewards = {Achievement({id = 40473, criteria = 2})}
+}) -- Abyssal Console
+
+map.nodes[00000000] = BustedConsole({
+    location = L['taelloch_console_location'],
+    rewards = {Achievement({id = 40473, criteria = 3})}
+}) -- Taelloch Console
+
+map.nodes[00000000] = BustedConsole({
+    location = L['obsidian_console_location'],
+    rewards = {Achievement({id = 40473, criteria = 4})}
+}) -- Obsidian Console
+
+map.nodes[00000000] = BustedConsole({
+    location = L['lost_console_location'],
+    rewards = {Achievement({id = 40473, criteria = 5})}
+}) -- Lost Console
+
+map.nodes[00000000] = BustedConsole({
+    location = L['earthen_console_location'],
+    rewards = {Achievement({id = 40473, criteria = 6})}
+}) -- Earthen Console

@@ -18,6 +18,17 @@ L['options_icons_skyriding_glyph_desc'] = nil
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_not_so_quick_fix'] = nil
+L['options_icons_not_so_quick_fix_desc'] = nil
+
+L['not_so_quick_fix_note'] = nil
+L['water_console_location'] = nil
+L['abyssal_console_location'] = nil
+L['taelloch_console_location'] = nil
+L['obsidian_console_location'] = nil
+L['lost_console_location'] = nil
+L['earthen_console_location'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
