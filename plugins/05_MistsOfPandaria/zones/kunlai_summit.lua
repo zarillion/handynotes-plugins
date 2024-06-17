@@ -213,11 +213,11 @@ local sprites_cloth_chest = Treasure({
     quest = 31412,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Transmog({item = 86221}), -- Wise Sprite Cloak
-        Transmog({item = 86222}), -- Precise Sprite Cloak
-        Transmog({item = 86223}), -- Agile Sprite Cloak
-        Transmog({item = 86224}), -- Steadfast Sprite Cape
-        Transmog({item = 86225}) -- Strong Sprite Cloak
+        Transmog({item = 86221, slot = L['cloak']}), -- Wise Sprite Cloak
+        Transmog({item = 86222, slot = L['cloak']}), -- Precise Sprite Cloak
+        Transmog({item = 86223, slot = L['cloak']}), -- Agile Sprite Cloak
+        Transmog({item = 86224, slot = L['cloak']}), -- Steadfast Sprite Cape
+        Transmog({item = 86225, slot = L['cloak']}) -- Strong Sprite Cloak
     }
 }) -- Sprite's Cloth Chest
 map.nodes[73137356] = sprites_cloth_chest

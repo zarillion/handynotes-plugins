@@ -345,7 +345,7 @@ map.nodes[57027686] = Treasure({
     quest = 48749,
     rewards = {
         Achievement({id = 12074, criteria = 37600}),
-        Transmog({item = 153267, slot = L['2h_sword']}) -- Enclave Aspirant's Hatchet
+        Transmog({item = 153267, slot = L['1h_axe']}) -- Enclave Aspirant's Hatchet
     },
     pois = {POI({57087407}), Path({57087407, 57117525, 57627617, 57027686})}
 }) -- Desperate Eredar's Cache

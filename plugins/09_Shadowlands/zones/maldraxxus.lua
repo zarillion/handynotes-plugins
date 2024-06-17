@@ -43,7 +43,7 @@ map.nodes[52663542] = Rare({
     rewards = {
         Achievement({id = 14308, criteria = 48876}),
         Transmog({item = 184290, slot = L['dagger']}), -- Blood-Dyed Bonesaw
-        Transmog({item = 184154, slot = L['cosmetic']}), -- Grungy Containment Pack
+        Transmog({item = 184154, slot = L['cloak']}), -- Grungy Containment Pack
         Toy({item = 184476}) -- Regenerating Slime Vial
     }
 }) -- Bubbleblood
@@ -143,7 +143,7 @@ map.nodes[72872891] = Rare({
     quest = 62369,
     rewards = {
         Achievement({id = 14308, criteria = 49724}),
-        Transmog({item = 181810, slot = L['cosmetic'], covenant = NECROLORD}) -- Phylactery of the Dead Conniver
+        Transmog({item = 181810, slot = L['cloak'], covenant = NECROLORD}) -- Phylactery of the Dead Conniver
     }
 }) -- Necromantic Anomaly
 
@@ -165,7 +165,7 @@ map.nodes[50346328] = Rare({
     rewards = {
         Achievement({id = 14308, criteria = 48868}),
         Transmog({item = 183700, slot = L['cloth']}), -- Forgotten Summoner's Shoulderpads
-        Transmog({item = 181811, slot = L['cosmetic'], covenant = NECROLORD}) -- Beckoner's Shadowy Crystal
+        Transmog({item = 181811, slot = L['cloak'], covenant = NECROLORD}) -- Beckoner's Shadowy Crystal
     }
 }) -- Nirvaska the Summoner
 
@@ -288,7 +288,7 @@ map.nodes[28965138] = Rare({
         Achievement({id = 14308, criteria = 48864}),
         Achievement({id = 14763, criteria = 49929}), -- Ashen Ink
         Transmog({item = 184285, slot = L['plate']}), -- Boneclutched Shackles
-        Transmog({item = 181804, slot = L['cosmetic'], covenant = NECROLORD}) -- Trophy of the Reborn Bonelord
+        Transmog({item = 181804, slot = L['cloak'], covenant = NECROLORD}) -- Trophy of the Reborn Bonelord
     },
     pois = {POI({26314280})}
 }) -- Zargox the Reborn
@@ -348,7 +348,7 @@ map.nodes[57007421] = Rare({
         Transmog({item = 184175, slot = L['wand'], note = '{npc:157311}'}), -- Bone-Blistering Wand
         Transmog({item = 184301, slot = L['leather'], note = '{npc:157309}'}), -- Twenty-Loop Violet Girdle
         Transmog({item = 184300, slot = L['cloak'], note = '{npc:157312}'}), -- Fused Spineguard
-        Transmog({item = 184156, slot = L['cosmetic'], note = '{npc:157312}'}), -- Recovered Containment Pack
+        Transmog({item = 184156, slot = L['cloak'], note = '{npc:157312}'}), -- Recovered Containment Pack
         ns.reward.Spacer(),
         Pet({item = 181270, id = 2960, note = '{npc:157312}'}), -- Decaying Oozewalker
         Toy({item = 183903}), -- Smelly Jelly
@@ -392,7 +392,7 @@ map.nodes[44083989] = Treasure({
         Achievement({id = 14833, criteria = 49917, covenant = NECROLORD}),
         Achievement({id = 14833, criteria = 49922, covenant = NECROLORD}),
         Transmog({item = 183619, slot = L['2h_axe']}), -- Everlasting Boneforged Greataxe
-        Transmog({item = 181800, slot = L['cosmetic'], covenant = NECROLORD}), -- Standard of the Blackhound Warband
+        Transmog({item = 181800, slot = L['cloak'], covenant = NECROLORD}), -- Standard of the Blackhound Warband
         Toy({item = 184318}) -- Battlecry of Krexus
     }
 }) -- Blackhound Cache

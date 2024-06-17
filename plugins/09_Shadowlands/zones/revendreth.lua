@@ -151,7 +151,7 @@ map.nodes[32641545] = Rare({
     note = L['madalav_note'],
     rewards = {
         Transmog({item = 180489, slot = L['1h_sword']}), -- Forgemaster's Many-Fold Rapier
-        Transmog({item = 180939, slot = L['cosmetic'], covenant = VENTHYR}) -- Mantle of the Forgemaster's Dark Blades
+        Transmog({item = 180939, slot = L['cloak'], covenant = VENTHYR}) -- Mantle of the Forgemaster's Dark Blades
     },
     pois = {
         POI({32661483}) -- Madalav's Hammer
@@ -1204,9 +1204,10 @@ local BrokenMirror = Class('BrokenMirror', Node, {
         Transmog({item = 181028, slot = L['plate']}), -- Dread Sentinel's Burnished Girdle
         Transmog({item = 181029, slot = L['plate']}), -- Dread Sentinel's Burnished Vambraces
         Transmog({item = 181030, slot = L['cloak']}), -- Dread Sentinel's Burnished Cloak
-        ns.reward.Spacer(), Transmog({item = 183707, slot = L['cosmetic']}), -- Mantle of Burnished Blades
-        Transmog({item = 183710, slot = L['cosmetic']}), -- Burnished Sinstone Chain
-        Transmog({item = 183711, slot = L['cosmetic']}), -- Burnished Crypt Keeper's Mantle
+        ns.reward.Spacer(), --
+        Transmog({item = 183707, slot = L['cloak']}), -- Mantle of Burnished Blades
+        Transmog({item = 183710, slot = L['cloak']}), -- Burnished Sinstone Chain
+        Transmog({item = 183711, slot = L['cloak']}), -- Burnished Crypt Keeper's Mantle
         ns.reward.Spacer(), Pet({item = 183855, id = 3012}), -- Stony's Infused Ruby
         Mount({item = 183798, id = 1389}) -- Silessa's Battle Harness
     }

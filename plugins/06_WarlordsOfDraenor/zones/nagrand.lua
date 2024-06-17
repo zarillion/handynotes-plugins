@@ -344,7 +344,7 @@ map.nodes[45866629] = Treasure({
         Achievement({
             id = 9728,
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Transmog({item = 117981, slot = L['offhand']})
+        }), Transmog({item = 117981, slot = L['shield']})
     }
 }) -- Fragment of Oshu'gun
 

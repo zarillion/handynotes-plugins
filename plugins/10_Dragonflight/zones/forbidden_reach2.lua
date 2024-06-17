@@ -164,6 +164,7 @@ map.nodes[59695883] = Rare({
     rewards = {
         Achievement({id = 17525, criteria = 58466}), -- Champion of the Forbidden Reach
         Mount({item = 192772, id = 1619}), -- Ancient Salamanther
+        DC.WindborneVelocidrake.PlatedNeck, --
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
@@ -707,6 +708,7 @@ local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
     label = L['forbidden_hoard_label'],
     icon = 'chest_pp',
     scale = 1.3,
+    vignette = {5463, 5614},
     group = ns.groups.FORBIDDEN_HOARD,
     rewards = {
         Achievement({id = 17526, criteria = 58487}), -- Treasures of the Forbidden Reach

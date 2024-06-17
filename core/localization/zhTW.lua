@@ -12,6 +12,7 @@ L['leather'] = '皮甲'
 L['mail'] = '鎖甲'
 L['plate'] = '鎧甲'
 L['cosmetic'] = '裝飾品'
+L['tabard'] = nil
 
 L['1h_mace'] = '單手錘'
 L['1h_sword'] = '單手劍'
