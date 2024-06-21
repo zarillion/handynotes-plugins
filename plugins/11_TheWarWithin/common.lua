@@ -36,6 +36,12 @@ ns.groups.ITSY_BITSY_SPIDER = Group('itsy_bitsy_spider', 5793405, {
     achievement = 40624
 })
 
+ns.groups.KHAZ_ALGAR_LORE_HUNTER = Group('khaz_algar_lore_hunter', 4419344, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40762
+})
+
 ns.groups.LOST_AND_FOUND = Group('lost_and_found', 4635200, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -65,6 +71,17 @@ ns.groups.ROCKED_TO_SLEEP = Group('rocked_to_sleep', 5788303, {
     type = ns.group_types.ACHIEVEMENT,
     achievement = 40504
 })
+
+-------------------------------------------------------------------------------
+---------------------------- KHAZ ALGAR LORE HUNTER ---------------------------
+-------------------------------------------------------------------------------
+
+local LoreObject = Class('LoreObject', Collectible, {
+    icon = 4419344,
+    group = ns.groups.KHAZ_ALGAR_LORE_HUNTER
+})
+
+ns.node.LoreObject = LoreObject
 
 -------------------------------------------------------------------------------
 ------------------------------- SKYRIDING GLYPH -------------------------------

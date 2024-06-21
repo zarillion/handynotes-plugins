@@ -5,12 +5,15 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
--- local Rare = ns.node.Rare
+local LoreObject = ns.node.LoreObject
+local Rare = ns.node.Rare
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
 local Pet = ns.reward.Pet
+local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
@@ -24,170 +27,236 @@ local map = Map({id = 2248, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[16906120] = Rare({
---     id = 219281,
---     rewards = {Achievement({id = 40435, criteria = 16})}
--- }) -- Alunira
+map.nodes[23335817] = Rare({
+    id = 219281,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68225})}
+}) -- Alunira
 
--- map.nodes[39408410] = Rare({
---     id = 219264,
---     rewards = {Achievement({id = 40435, criteria = 5})}
--- }) -- Bloodmaw
+map.nodes[41077616] = Rare({ -- get path
+    id = 219264,
+    quest = 81893,
+    rewards = {
+        Achievement({id = 40435, criteria = 68214}), --
+        Transmog({item = 223351, slot = L['leather']}) -- Wolf Packleader's Hood
+    }
+}) -- Bloodmaw
 
--- map.nodes[00000000] = Rare({
---     id = 221128 ,
---     rewards = {Achievement({id = 40435, criteria = 15})}
--- }) -- Clawbreaker K'zithix
+map.nodes[12001200] = Rare({ -- review
+    id = 221128,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68224})}
+}) -- Clawbreaker K'zithix
 
--- map.nodes[46406340] = Rare({
---     id = 219265,
---     rewards = {Achievement({id = 40435, criteria = 6})}
--- }) -- Emperor Pitfang
+map.nodes[47946014] = Rare({
+    id = 219265,
+    quest = 81895,
+    note = L['in_cave'], -- more like a mine
+    rewards = {
+        Achievement({id = 40435, criteria = 68215}),
+        Transmog({item = 223345, slot = L['leather']}) -- Viper's Stone Grips
+    },
+    pois = {
+        POI({45936001, 46206206, 47726173}) -- Entries
+    }
+}) -- Emperor Pitfang
 
--- map.nodes[19904520] = Rare({
---     id = 219266,
---     rewards = {Achievement({id = 40435, criteria = 9})}
--- }) -- Escaped Cutthroat
+map.nodes[19904520] = Rare({ -- review
+    id = 219266,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68218})}
+}) -- Escaped Cutthroat
 
--- map.nodes[64004370] = Rare({
---     id = 219279,
---     rewards = {Achievement({id = 40435, criteria = 14})}
--- }) -- Flamekeeper Graz
+map.nodes[62714007] = Rare({ -- get path
+    id = 219279,
+    quest = 81905, -- 84034 ?
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rewards = {Achievement({id = 40435, criteria = 68223})}
+    -- pois = {Path({})}
+}) -- Flamekeeper Graz
 
--- map.nodes[52808720] = Rare({
---     id = 219268,
---     rewards = {Achievement({id = 40435, criteria = 8})}
--- }) -- Gar'loc
+map.nodes[53527998] = Rare({ -- get path
+    id = 219268,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68217})}
+}) -- Gar'loc
 
--- map.nodes[26105401] = Rare({
---     id = 222378,
---     rewards = {Achievement({id = 40435, criteria = 18})}
--- }) -- Kereke
+map.nodes[26105401] = Rare({ -- review
+    id = 222378,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68227})}
+}) -- Kereke
 
--- map.nodes[00000000] = Rare({
---     id = 219270 ,
---     rewards = {Achievement({id = 40435, criteria = 11})}
--- }) -- Kronolith, Might of the Mountain
+map.nodes[14001200] = Rare({ -- review
+    id = 219270,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68220})}
+}) -- Kronolith, Might of the Mountain
 
--- map.nodes[76303920] = Rare({
---     id = 220890,
---     rewards = {Achievement({id = 40435, criteria = 22})}
--- }) -- Matriarch Charfuria
+map.nodes[73004009] = Rare({
+    id = 220890,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68231})}
+}) -- Matriarch Charfuria
 
--- map.nodes[49907480] = Rare({
---     id = 219267,
---     rewards = {Achievement({id = 40435, criteria = 7})}
--- }) -- Plaguehart
+map.nodes[50876975] = Rare({ -- review
+    id = 219267,
+    quest = 81897, -- 84026 ?
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rewards = {Achievement({id = 40435, criteria = 68216})}
+}) -- Plaguehart
 
--- map.nodes[nil] = Rare({
---     id = 222380 ,
---     rewards = {Achievement({id = 40435, criteria = 19})}
--- }) -- Rotfist
+map.nodes[16001200] = Rare({ -- review
+    id = 222380,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68228})}
+}) -- Rotfist
 
--- map.nodes[31707910] = Rare({
---     id = 213115,
---     rewards = {Achievement({id = 40435, criteria = 1})}
--- }) -- Rustul Titancap
+map.nodes[35887489] = Rare({ -- get path
+    id = 213115,
+    quest = 78619,
+    rewards = {
+        Achievement({id = 40435, criteria = 68210}), --
+        Transmog({item = 223367, slot = L['leather']}) -- Cuffs of the Titancap
+    }
+}) -- Rustul Titancap
 
--- map.nodes[64207310] = Rare({
---     id = 217534,
---     rewards = {Achievement({id = 40435, criteria = 2})}
--- }) -- Sandres the Relicbearer
+map.nodes[64207310] = Rare({ -- review
+    id = 217534,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68211})}
+}) -- Sandres the Relicbearer
 
--- map.nodes[78402380] = Rare({
---     id = 219278,
---     rewards = {Achievement({id = 40435, criteria = 12})}
--- }) -- Shallowshell the Clacker
+map.nodes[74422804] = Rare({
+    id = 219278,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68221})}
+}) -- Shallowshell the Clacker
 
--- map.nodes[59306390] = Rare({
---     id = 219262,
---     rewards = {Achievement({id = 40435, criteria = 3})}
--- }) -- Springbubble
+map.nodes[58776068] = Rare({
+    id = 219262,
+    quest = 81892,
+    rewards = {
+        Achievement({id = 40435, criteria = 68212}),
+        Transmog({item = 223356, slot = L['leather']}) -- Shoulderpads of the Steamsurger
+    }
+}) -- Springbubble
 
--- map.nodes[72603750] = Rare({
---     id = 220883,
---     rewards = {Achievement({id = 40435, criteria = 21})}
--- }) -- Sweetspark the Oozeful
+map.nodes[72603750] = Rare({ -- review
+    id = 220883,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68230})}
+}) -- Sweetspark the Oozeful
 
--- map.nodes[60201630] = Rare({
---     id = 219269,
---     rewards = {Achievement({id = 40435, criteria = 10})}
--- }) -- Tempest Lord Incarnus
+map.nodes[56891601] = Rare({
+    id = 219269,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68219})},
+    pois = {Path({56891601, 57401625, 57761653})}
+}) -- Tempest Lord Incarnus
 
--- map.nodes[76403660] = Rare({
---     id = 221126,
---     rewards = {Achievement({id = 40435, criteria = 20})}
--- }) -- Tephratennae
+map.nodes[72913794] = Rare({ -- get path
+    id = 221126,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68229})}
+}) -- Tephratennae
 
--- map.nodes[57301840] = Rare({
---     id = 219271,
---     rewards = {Achievement({id = 40435, criteria = 13})}
--- }) -- Twice-Stinger the Wretched
+map.nodes[57122241] = Rare({
+    id = 219271,
+    quest = nil,
+    rewards = {Achievement({id = 40435, criteria = 68222})}
+}) -- Twice-Stinger the Wretched
 
--- map.nodes[56703430] = Rare({
---     id = 219263,
---     rewards = {Achievement({id = 40435, criteria = 4})}
--- }) -- Warphorn
+map.nodes[56833477] = Rare({
+    id = 219263,
+    quest = 81894,
+    rewards = {
+        Achievement({id = 40435, criteria = 68213}),
+        Transmog({item = 223344, slot = L['leather']}) -- Warphorn's Resilient Vest
+    },
+    pois = {
+        Path({
+            58053488, 58253574, 58303662, 58163725, 57903774, 57623801,
+            57343819, 57053828, 56573823, 56293757, 56363707, 56553649,
+            56683592, 56723554, 56583488, 56833477, 57093443, 57313441,
+            57813457, 58053488
+        })
+    }
+}) -- Warphorn
 
--- map.nodes[26105400] = Rare({
---     id = 219284,
---     rewards = {Achievement({id = 40435, criteria = 17})}
--- }) -- Zovex
+map.nodes[30905239] = Rare({ -- review
+    id = 219284,
+    quest = 82203,
+    rewards = {Achievement({id = 40435, criteria = 68226})}
+}) -- Zovex
+
+-------------------------------------------------------------------------------
+
+map.nodes[46153217] = Rare({id = 220846, quest = 81515}) -- Rowdy Rubble
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[38007960] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 40434, criteria = nil})}
--- }) -- Dalaran Sewer Turtle
+map.nodes[59122348] = Treasure({ -- You may have to wait until it spawns.
+    quest = 82715,
+    -- vignette = 6293,
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    note = L['inside_building'],
+    rewards = {
+        Achievement({id = 40434, criteria = 68209}),
+        Transmog({item = 224290, slot = L['1h_axe']}) -- Storm Defender's Axe
+    }
+}) -- Defender's Axe (Web-wrapped Axe)
 
--- map.nodes[61901680] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 40434, criteria = nil})}
--- }) -- Earthen Coffer
+map.nodes[56226094] = Treasure({ -- You may have to wait until it spawns.
+    quest = 82714,
+    -- vignette = 6292,
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rewards = {
+        Achievement({id = 40434, criteria = 68208}), --
+        Item({item = 224263}) -- Infused Cinderbrew
+    }
+}) -- Infused Cinderbrew
 
--- map.nodes[77503690] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 40434, criteria = nil})}
--- }) -- Elemental Geode
+map.nodes[77232445] = Treasure({ -- You may have to wait until it spawns.
+    quest = 82287,
+    -- vignette = 6262,
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rewards = {
+        Achievement({id = 40434, criteria = 68206}), --
+        Item({item = 223280}) -- Jade Pearl (500g)
+    }
+}) -- Jade Pearl
 
--- map.nodes[63804310] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 40434, criteria = nil})}
--- }) -- Forgotten Axe
+map.nodes[62574327] = Treasure({ -- You may have to wait until it spawns.
+    quest = 82325,
+    -- vignette = 6273,
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rewards = {
+        Achievement({id = 40434, criteria = 68205}),
+        Transmog({item = 223484, slot = L['2h_axe']}) -- Kobold Mastermind's "Pivel"
+    }
+}) -- Kobold Pickaxe
 
--- map.nodes[56306420] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 40434, criteria = 11})}
--- }) -- Infused Cinderbrew
-
--- map.nodes[81402060] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 40434, criteria = 9})}
--- }) -- Jade Pearl
-
--- map.nodes[82204570] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 40434, criteria = nil})}
--- }) -- Keeper's Stash
-
--- map.nodes[37706300] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 40434, criteria = nil})}
--- }) -- Lionel
-
--- 38074358 223247 Thak's Treasure
-map.nodes[36954218] = Treasure({
-    quest = 82246, -- 82245 ?
-    rewards = {Achievement({id = 40434, criteria = 68203})}
-}) -- Thak's Treasure
+map.nodes[40625986] = Treasure({
+    quest = {82212, 82227, 83243}, -- feed, opend, ?
+    -- vignette = 6224,
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    note = L['magical_treasure_chest_note'],
+    rewards = {
+        Achievement({id = 40434, criteria = 68199}),
+        Pet({item = 224579, id = 3362}) -- Sapphire Crab
+    }
+}) -- Magical Treasure Chest (Lionel)
 
 map.nodes[59732868] = Treasure({ -- 59602460, 59102708  follow {npc:222963}
-    quest = nil, -- missed to collect this
+    quest = {82145, 82251, 83246},
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    -- vignette = 6212,
+    note = L['mosswool_flower_note'],
     rewards = {
-        Achievement({id = 40434, criteria = 68204}), --
+        Achievement({id = 40434, criteria = 68204}),
         Pet({item = 224450, id = 4527}) -- Lil' Moss Rosy
     },
     pois = {
@@ -196,43 +265,101 @@ map.nodes[59732868] = Treasure({ -- 59602460, 59102708  follow {npc:222963}
     }
 }) -- Mosswool Flower (Lost Mosswool)
 
--- map.nodes[54806980] = Treasure({ -- 55006564
---     quest = nil,
---     rewards = {Achievement({id = 40434, criteria = nil})}
--- }) -- U'llwort The Self-Exiled
+map.nodes[55006564] = Treasure({ -- more Boskroot Cap locations ?
+    quest = {
+        82142, -- Cap handed
+        82253, -- looted
+        83245 -- looted
+    },
+    -- vignette = 6209,
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    note = L['mushroom_cap_note'],
+    rewards = {Achievement({id = 40434, criteria = 68202})},
+    pois = {
+        POI({51837032, 52326982, 52466780, 52687038}) -- Boskroot Caps
+    }
+}) -- Mushroom Cap (U'llwort The Self-Exiled)
 
 map.nodes[53951920] = Treasure({
-    -- Bring back the Elemental Pearl / Hand the pearl to the water elemental.
     quest = {82134, 82252, 83244},
+    -- vignette = 6208,
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    note = L['mysterious_orb_note'],
     rewards = {Achievement({id = 40434, criteria = 68201})},
     pois = {
         POI({53081855}) -- Elemental Pearl {item:221504}
     }
 }) -- Mysterious Orb (Weary Water Elemental)
 
-map.nodes[59122348] = Treasure({
-    quest = 82715,
-    note = L['inside_building'],
-    rewards = {
-        Achievement({id = 40434, criteria = 68209}), --
-        Transmog({item = 224290, slot = L['1h_axe']}) -- Storm Defender's Axe
+map.nodes[48896087] = Treasure({ -- You may have to wait until it spawns.
+    quest = 82326,
+    -- vignette = 6274,
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    note = L['in_cave'], -- more like a mine
+    rewards = {Achievement({id = 40434, criteria = 68207})},
+    pois = {
+        POI({45936001, 46206206, 47726173}) -- Entries
     }
-}) -- Defender's Axe (Web-wrapped Axe)
+}) -- Shimmering Opal Lily
+
+map.nodes[38074358] = Treasure({
+    quest = 82246, -- 82245 ?
+    -- vignette = 6236,
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    note = L['thaks_treasure_note'],
+    rewards = {Achievement({id = 40434, criteria = 68203})}
+}) -- Thak's Treasure
+
+map.nodes[48513004] = Treasure({
+    quest = {82160, 83242},
+    -- vignette = 6210
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    note = L['in_small_cave'] .. '\n\n' .. L['trees_treasure_note'],
+    rewards = {
+        Achievement({id = 40434, criteria = 68197}), --
+        Toy({item = 224585}) -- Hanna's Locket
+    },
+    pois = {
+        POI({48683103}), -- Entrance
+        POI({19735843, quest = 82755, color = 'Green'}), -- Pearlescent Shellcrab
+        POI({38264202, quest = 82756, color = 'Green'}), -- Pearlescent Shellcrab / Up in the Tree
+        POI({41852701, quest = 82754, color = 'Green'}), -- Pearlescent Shellcrab
+        POI({50717057, quest = 82751, color = 'Green'}), -- Pearlescent Shellcrab / under a root
+        POI({70771999, quest = 82753, color = 'Green'}), -- Pearlescent Shellcrab
+        POI({74924939, quest = 82752, color = 'Green'}) -- Pearlescent Shellcrab / on a root
+    }
+}) -- Tree's Treasure (Pearlescent Shellcrab)
+
+map.nodes[40917377] = Treasure({ -- review
+    quest = nil,
+    -- vignette = 6244
+    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rewards = {Achievement({id = 40434, criteria = 68198})}
+}) -- Turtle's Thanks (Dalaran Sewer Turtle)
+
+-------------------------------------------------------------------------------
+
+-- map.nodes[61901680] = Treasure({
+--     quest = nil,
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Earthen Coffer
+
+map.nodes[73693706] = Treasure({quest = nil, note = L['in_small_cave']}) -- Elemental Geode
+
+-- map.nodes[63804310] = Treasure({
+--     quest = nil,
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Forgotten Axe
+
+-- map.nodes[82204570] = Treasure({
+--     quest = nil,
+--     rewards = {Achievement({id = 40434, criteria = nil})}
+-- }) -- Keeper's Stash
 
 -- map.nodes[82502480] = Treasure({
 --     quest = nil,
 --     rewards = {Achievement({id = 40434, criteria = nil})}
 -- }) -- Titan Console
-
--- map.nodes[57501540] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 40434, criteria = nil})}
--- }) -- Watcher of the North
-
--- map.nodes[39508720] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 40434, criteria = nil})}
--- }) -- Watcher of the South
 
 -------------------------------------------------------------------------------
 -------------------------- ISLE OF DORN GLYPH HUNTER --------------------------
@@ -277,3 +404,28 @@ map.nodes[62114493] = SkyridingGlyph({
 map.nodes[71904721] = SkyridingGlyph({
     rewards = {Achievement({id = 40166, criteria = 69245})}
 }) -- Ironwold
+
+-------------------------------------------------------------------------------
+--------------------------- KHAZ ALGAR LORE HUNTER ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[57222001] = LoreObject({
+    rlabel = ns.tooltip.ReputationGain(250, 2590), -- Council of Dornogal
+    rewards = {Achievement({id = 40762, criteria = 69372})}
+}) -- Watcher of the North
+
+map.nodes[37295254] = LoreObject({
+    rlabel = ns.tooltip.ReputationGain(250, 2590), -- Council of Dornogal
+    note = L['in_water'],
+    rewards = {Achievement({id = 40762, criteria = 69369})}
+}) -- Galan's Edict
+
+map.nodes[44083014] = LoreObject({
+    rlabel = ns.tooltip.ReputationGain(250, 2590), -- Council of Dornogal
+    rewards = {Achievement({id = 40762, criteria = 69371})}
+}) -- Stone of The Unbound
+
+map.nodes[42128025] = LoreObject({
+    rlabel = ns.tooltip.ReputationGain(250, 2590), -- Council of Dornogal
+    rewards = {Achievement({id = 40762, criteria = 69373})}
+}) -- Watcher of the South

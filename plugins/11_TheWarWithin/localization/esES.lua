@@ -10,9 +10,19 @@ L['skyriding_glyph'] = 'Glifo de Surcacielos'
 L['options_icons_skyriding_glyph'] = 'Glifos de Surcacielos'
 L['options_icons_skyriding_glyph_desc'] = 'Muestra dónde están los glifos de surcacielos.'
 
+L['options_icons_khaz_algar_lore_hunter'] = nil
+L['options_icons_khaz_algar_lore_hunter_desc'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
+
+L['magical_treasure_chest_note'] = nil
+L['mosswool_flower_note'] = nil
+L['mushroom_cap_note'] = nil
+L['mysterious_orb_note'] = nil
+L['thaks_treasure_note'] = nil
+L['trees_treasure_note'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------

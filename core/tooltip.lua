@@ -33,4 +33,14 @@ local function QuestStatus(questID, identifier, note, spacer)
     return txt
 end
 
-ns.tooltip = {ItemStatus = ItemStatus, QuestStatus = QuestStatus}
+local function ReputationGain(value, factionID)
+    local factionName = C_Reputation.GetFactionDataByID(factionID).name
+
+    return ns.status.LightBlue('+' .. value .. ' ' .. factionName)
+end
+
+ns.tooltip = {
+    ItemStatus = ItemStatus,
+    QuestStatus = QuestStatus,
+    ReputationGain = ReputationGain
+}

@@ -10,9 +10,19 @@ L['skyriding_glyph'] = 'Skyriding Glyph'
 L['options_icons_skyriding_glyph'] = 'Skyriding Glyphs'
 L['options_icons_skyriding_glyph_desc'] = 'Display the location of all skyriding glyphs.'
 
+L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
+L['options_icons_khaz_algar_lore_hunter_desc'] = 'Display lore object locations for {achievement:40762}.'
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
+
+L['magical_treasure_chest_note'] = 'Push {npc:223104} back into the water then collect 5 {npc:223159s} nearby.'
+L['mosswool_flower_note'] = 'Click on the {npc:222956} and follow him.'
+L['mushroom_cap_note'] = 'Collect a {object:Boskroot Cap} in the nearby forest and bring it back to {npc:222894}.'
+L['mysterious_orb_note'] = 'Bring the {object:Elemental Pearl} back to the {npc:222847}.'
+L['thaks_treasure_note'] = 'Speak with {npc:223227} and follow him.'
+L['trees_treasure_note'] = 'Speak with {npc:222940} to get a {item:224185}. Guide 6 {npc:224548s} {dot:Green} around the {location:Isle of Dorn}. If you have collected all crabs go back into the cave to {npc:222940} and speak with her again.'
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
