@@ -31,6 +31,8 @@ local Transmog = ns.reward.Transmog
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local ItemStatus = ns.tooltip.ItemStatus
+
 local DC = ns.DRAGON_CUSTOMIZATIONS
 
 -------------------------------------------------------------------------------
@@ -1243,28 +1245,11 @@ local TheGiftOfCheese = Class('TheGiftOfCheese', Collectible, {
 }) -- The Gift of Cheese
 
 function TheGiftOfCheese.getters:note()
-    local function status(id, itemsNeed, itemsNeedString)
-        local itemsHave = GetItemCount(id, true);
-        if ns.PlayerHasItem(id, itemsNeed) then
-            return ns.status.Green(itemsHave .. '/' .. itemsNeedString)
-        else
-            return ns.status.Red(itemsHave .. '/' .. itemsNeedString)
-        end
-    end
-
-    local function getString(id)
-        local s = '??????'
-        return s:sub(1, #tostring(GetItemCount(id))) -- 1/? or 26/?? or 159/???
-    end
-
-    local note = L['the_gift_of_cheese_note_1'] .. '\n\n'
-    note = note .. status(204871, 1, '1') .. ' ' ..
-               L['the_gift_of_cheese_note_2'] .. '\n\n'
-    note = note .. status(204872, 30, '30') .. ' ' ..
-               L['the_gift_of_cheese_note_3'] .. '\n\n'
-    note = note .. status(3927, 1, getString(3927)) .. ' ' ..
-               L['the_gift_of_cheese_note_4'] .. '\n\n'
-    return note .. L['the_gift_of_cheese_note_5']
+    local note = L['the_gift_of_cheese_note_1']
+    note = note .. ItemStatus(204871, 1, L['the_gift_of_cheese_note_2'])
+    note = note .. ItemStatus(204872, 30, L['the_gift_of_cheese_note_3'])
+    note = note .. ItemStatus(3927, '?', L['the_gift_of_cheese_note_4'])
+    return note .. '\n\n' .. L['the_gift_of_cheese_note_5']
 end
 
 map.nodes[52442683] = TheGiftOfCheese()

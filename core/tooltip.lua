@@ -10,8 +10,8 @@ local _, ns = ...
 local function ItemStatus(itemID, numNeed, note, spacer)
     local txt
     local numHave = GetItemCount(itemID, true)
-    local status = format('%d/%d', numHave, numNeed)
-    if numHave >= numNeed then
+    local status = format('%d/%s', numHave, numNeed)
+    if type(numNeed) == 'number' and numHave >= numNeed then
         txt = ns.status.Green(status)
     else
         txt = ns.status.Red(status)
