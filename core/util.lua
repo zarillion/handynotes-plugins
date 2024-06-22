@@ -128,7 +128,7 @@ local function RenderLinks(str, nameOnly)
             if nameOnly then return name end
             return ns.color.NPC(name) -- TODO: colorize based on standing?
         elseif type == 'item' then
-            local name, link, _, _, _, _, _, _, _, icon = GetItemInfo(id)
+            local name, link, _, _, _, _, _, _, _, icon = C_Item.GetItemInfo(id)
             if link and icon then
                 return nameOnly and (name .. (suffix or '')) or
                            ('|T' .. icon .. ':0|t ' .. link)
@@ -188,7 +188,8 @@ end
 -------------------------------------------------------------------------------
 
 local function PlayerHasItem(item, count)
-    return GetItemCount(item, true) >= (count and count > 1 and count or 1)
+    return C_Item.GetItemCount(item, true) >=
+               (count and count > 1 and count or 1)
 end
 
 local function PlayerHasProfession(skillID)

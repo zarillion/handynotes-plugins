@@ -112,7 +112,7 @@ local BigBagOBijous = Class('BigBagOBijous', Collectible, {
 function BigBagOBijous.getters:note()
     local function count(id)
         if ns.PlayerHasItem(id) then
-            return ns.status.Green(GetItemCount(id, true))
+            return ns.status.Green(C_Item.GetItemCount(id, true))
         else
             return ns.status.Red(0)
         end
@@ -250,7 +250,7 @@ local BonePile = Class('BonePile', Collectible, {
 
 function BonePile.getters:note()
     local function status(id, itemsNeed)
-        local itemsHave = GetItemCount(id, true);
+        local itemsHave = C_Item.GetItemCount(id, true);
         return ns.PlayerHasItem(id, itemsNeed) and
                    ns.status.Green(itemsHave .. '/' .. itemsNeed) or
                    ns.status.Red(itemsHave .. '/' .. itemsNeed)

@@ -2111,8 +2111,8 @@ local Kazzi = Class('Kazzi', Vendor, {
 }) -- Kazzi <Winterpelt Furbolg Quartermaster>
 
 function Kazzi.getters:note()
-    local itemOne = GetItemCount(202017, true) -- Liberated Furbolg Artifact
-    local itemTwo = GetItemCount(202018, true) -- Intact Scribe Stick
+    local itemOne = C_Item.GetItemCount(202017, true) -- Liberated Furbolg Artifact
+    local itemTwo = C_Item.GetItemCount(202018, true) -- Intact Scribe Stick
     local note = L['kazzi_note_start'] .. '\n\n'
     note = note .. format(L['kazzi_note_item'], itemOne, '202017') .. '\n'
     note = note .. format(L['kazzi_note_item'], itemTwo, '202018')

@@ -2366,7 +2366,7 @@ map.nodes[56374394] = ns.node.GoggleWobble({
 -------------------------------------------------------------------------------
 
 local function status(id, itemsNeed)
-    local itemsHave = GetItemCount(id, true);
+    local itemsHave = C_Item.GetItemCount(id, true);
     return ns.PlayerHasItem(id, itemsNeed) and
                ns.status.Green(itemsHave .. '/' .. itemsNeed) or
                ns.status.Red(itemsHave .. '/' .. itemsNeed)

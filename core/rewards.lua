@@ -560,7 +560,7 @@ function Transmog:Prepare()
     Item.Prepare(self)
     local sourceID = select(2, CTC.GetItemInfo(self.item))
     if sourceID then CTC.PlayerCanCollectSource(sourceID) end
-    GetItemSpecInfo(self.item)
+    C_Item.GetItemSpecInfo(self.item)
     CTC.PlayerHasTransmog(self.item)
 end
 
@@ -600,11 +600,11 @@ function Transmog:IsObtainable()
     if not Item.IsObtainable(self) then return false end
     -- Cosmetic cloaks do not behave well with the GetItemSpecInfo() function.
     -- They return an empty table even though you can get the item to drop.
-    local _, _, _, ilvl, _, _, _, _, equipLoc = GetItemInfo(self.item)
+    local _, _, _, ilvl, _, _, _, _, equipLoc = C_Item.GetItemInfo(self.item)
     if not (ilvl == 1 and equipLoc == 'INVTYPE_CLOAK' and self.slot ==
         L['cosmetic']) then
         -- Verify the item drops for any of the players specs
-        local specs = GetItemSpecInfo(self.item)
+        local specs = C_Item.GetItemSpecInfo(self.item)
         if type(specs) == 'table' and #specs == 0 then return false end
     end
     return true

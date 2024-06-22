@@ -9,7 +9,7 @@ local _, ns = ...
 
 local function ItemStatus(itemID, numNeed, note, spacer)
     local txt
-    local numHave = GetItemCount(itemID, true)
+    local numHave = C_Item.GetItemCount(itemID, true)
     local status = format('%d/%s', numHave, numNeed)
     if type(numNeed) == 'number' and numHave >= numNeed then
         txt = ns.status.Green(status)

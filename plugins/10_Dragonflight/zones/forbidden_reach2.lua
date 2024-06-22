@@ -1099,7 +1099,7 @@ local MossyMammoth = Class('MossyMammoth', Collectible, {
 }) -- Mossy Mammoth
 
 function MossyMammoth.getters:note()
-    local function HasItem(id) return GetItemCount(id, true) > 0 end
+    local function HasItem(id) return C_Item.GetItemCount(id, true) > 0 end
 
     local function HasMount(id)
         return select(11, C_MountJournal.GetMountInfoByID(id))
