@@ -8,9 +8,12 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 
+local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
+
+local ReputationGain = ns.tooltip.ReputationGain
 
 -------------------------------------------------------------------------------
 
@@ -108,3 +111,32 @@ map.nodes[00000000] = ItsyBitsySpider({
     location = L['generals_scouting_shadecaster_location'],
     rewards = {Achievement({id = 40624, criteria = 7})}
 }) -- General's Scouting Shadecaster
+
+-------------------------------------------------------------------------------
+--------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------
+-------------------------------------------------------------------------------
+
+map.nodes[06001400] = LoreObject({ -- review
+    rlabel = ReputationGain(250, 2600), -- The Severed Threads
+    rewards = {Achievement({id = 40762, criteria = 69385})}
+}) -- Forgotten Shadecaster
+
+map.nodes[08001400] = LoreObject({ -- review
+    rlabel = ReputationGain(250, 2600), -- The Severed Threads
+    rewards = {Achievement({id = 40762, criteria = 69387})}
+}) -- Kah'teht
+
+map.nodes[10001400] = LoreObject({ -- review
+    rlabel = ReputationGain(250, 2600), -- The Severed Threads
+    rewards = {Achievement({id = 40762, criteria = 69388})}
+}) -- Mad Nerubian
+
+map.nodes[12001400] = LoreObject({ -- review
+    rlabel = ReputationGain(250, 2600), -- The Severed Threads
+    rewards = {Achievement({id = 40762, criteria = 69386})}
+}) -- Neglected Shadecaster
+
+map.nodes[14001400] = LoreObject({ -- review
+    rlabel = ReputationGain(250, 2600), -- The Severed Threads
+    rewards = {Achievement({id = 40762, criteria = 69384})}
+}) -- Weathered Shadecaster

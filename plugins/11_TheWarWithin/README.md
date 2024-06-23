@@ -44,7 +44,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 ### Khaz Algar
 
-* TODO
+* Lore objects for the [Khaz Algar Lore Hunter](https://www.wowhead.com/achievement=40762) achievement.
 
 ### The Isle of Dorn
 

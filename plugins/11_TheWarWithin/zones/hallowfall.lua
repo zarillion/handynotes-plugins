@@ -8,9 +8,12 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 
+local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
+
+local ReputationGain = ns.tooltip.ReputationGain
 
 -------------------------------------------------------------------------------
 
@@ -254,3 +257,32 @@ map.nodes[00000000] = MissingLynx({
     location = L['gobbo_location'],
     rewards = {Achievement({id = 40625, criteria = 14})}
 }) -- Gobbo
+
+-------------------------------------------------------------------------------
+--------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------
+-------------------------------------------------------------------------------
+
+map.nodes[62214557] = LoreObject({
+    -- rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
+    rewards = {Achievement({id = 40762, criteria = 69383})}
+}) -- A Scout's Journal
+
+map.nodes[71433667] = LoreObject({
+    -- rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
+    rewards = {Achievement({id = 40762, criteria = 69382})}
+}) -- A Tattered Note
+
+map.nodes[78244041] = LoreObject({
+    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
+    rewards = {Achievement({id = 40762, criteria = 69381})}
+}) -- A Weathered Tome
+
+map.nodes[25085371] = LoreObject({
+    -- rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
+    rewards = {Achievement({id = 40762, criteria = 69380})}
+}) -- A Worn Down Book
+
+map.nodes[25723845] = LoreObject({
+    -- rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
+    rewards = {Achievement({id = 40762, criteria = 69379})}
+}) -- Captain's Chest

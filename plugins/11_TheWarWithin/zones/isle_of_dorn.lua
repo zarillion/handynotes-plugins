@@ -396,11 +396,6 @@ map.nodes[73693706] = Treasure({quest = nil, note = L['in_small_cave']}) -- Elem
 --     rewards = {Achievement({id = 40434, criteria = nil})}
 -- }) -- Keeper's Stash
 
--- map.nodes[82502480] = Treasure({
---     quest = nil,
---     rewards = {Achievement({id = 40434, criteria = nil})}
--- }) -- Titan Console
-
 -------------------------------------------------------------------------------
 -------------------------- ISLE OF DORN GLYPH HUNTER --------------------------
 -------------------------------------------------------------------------------
@@ -446,26 +441,31 @@ map.nodes[71904721] = SkyridingGlyph({
 }) -- Ironwold
 
 -------------------------------------------------------------------------------
---------------------------- KHAZ ALGAR LORE HUNTER ----------------------------
+--------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------
 -------------------------------------------------------------------------------
 
-map.nodes[57222001] = LoreObject({
-    rlabel = ns.tooltip.ReputationGain(250, 2590), -- Council of Dornogal
-    rewards = {Achievement({id = 40762, criteria = 69372})}
-}) -- Watcher of the North
-
 map.nodes[37295254] = LoreObject({
-    rlabel = ns.tooltip.ReputationGain(250, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(250, 2590), -- Council of Dornogal
     note = L['in_water'],
     rewards = {Achievement({id = 40762, criteria = 69369})}
 }) -- Galan's Edict
 
 map.nodes[44083014] = LoreObject({
-    rlabel = ns.tooltip.ReputationGain(250, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(250, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40762, criteria = 69371})}
 }) -- Stone of The Unbound
 
+map.nodes[78132785] = LoreObject({
+    rlabel = ReputationGain(250, 2590), -- Council of Dornogal
+    rewards = {Achievement({id = 40762, criteria = 69370})}
+}) -- Titan Console
+
+map.nodes[57222001] = LoreObject({
+    rlabel = ReputationGain(250, 2590), -- Council of Dornogal
+    rewards = {Achievement({id = 40762, criteria = 69372})}
+}) -- Watcher of the North
+
 map.nodes[42128025] = LoreObject({
-    rlabel = ns.tooltip.ReputationGain(250, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(250, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40762, criteria = 69373})}
 }) -- Watcher of the South

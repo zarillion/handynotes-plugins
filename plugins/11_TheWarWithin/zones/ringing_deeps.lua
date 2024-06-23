@@ -8,9 +8,11 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 
+local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
+local ReputationGain = ns.tooltip.ReputationGain
 
 -------------------------------------------------------------------------------
 
@@ -292,3 +294,32 @@ map.nodes[00000000] = InertEarthen({
     location = L['sathilga_location'],
     rewards = {Achievement({id = 40504, criteria = 10})}
 }) -- Sathilga
+
+-------------------------------------------------------------------------------
+--------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------
+-------------------------------------------------------------------------------
+
+map.nodes[39311739] = LoreObject({
+    rlabel = ReputationGain(250, 2594), -- The Assembly of the Deeps
+    rewards = {Achievement({id = 40762, criteria = 69374})}
+}) -- A Skull on a Sign
+
+map.nodes[64945614] = LoreObject({
+    -- rlabel = ReputationGain(250, 2594), -- The Assembly of the Deeps
+    rewards = {Achievement({id = 40762, criteria = 69378})}
+}) -- Kobold Warning Sign
+
+map.nodes[51477241] = LoreObject({
+    rlabel = ReputationGain(250, 2594), -- The Assembly of the Deeps
+    rewards = {Achievement({id = 40762, criteria = 69376})}
+}) -- Submerged Sign
+
+map.nodes[71364240] = LoreObject({
+    -- rlabel = ReputationGain(250, 2594), -- The Assembly of the Deeps
+    rewards = {Achievement({id = 40762, criteria = 69375})}
+}) -- Warning: Collapsed Tunnel
+
+map.nodes[74002000] = LoreObject({ -- review
+    rlabel = ReputationGain(250, 2594), -- The Assembly of the Deeps
+    rewards = {Achievement({id = 40762, criteria = 69377})}
+}) -- Wax-Drenched Sign
