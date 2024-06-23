@@ -17,12 +17,17 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = nil
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
+L['alunira_note'] = nil
+
 L['magical_treasure_chest_note'] = nil
 L['mosswool_flower_note'] = nil
 L['mushroom_cap_note'] = nil
 L['mysterious_orb_note'] = nil
 L['thaks_treasure_note'] = nil
 L['trees_treasure_note'] = nil
+L['turtles_thanks_1_note'] = nil
+L['turtles_thanks_2_note'] = nil
+L['turtles_thanks_3_note'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------

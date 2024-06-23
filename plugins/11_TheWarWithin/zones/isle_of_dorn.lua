@@ -2,16 +2,19 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local LoreObject = ns.node.LoreObject
 local Rare = ns.node.Rare
-local SkyridingGlyph = ns.node.SkyridingGlyph
 local Treasure = ns.node.Treasure
+
+local LoreObject = ns.node.LoreObject
+local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -19,9 +22,12 @@ local Transmog = ns.reward.Transmog
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local ReputationGain = ns.tooltip.ReputationGain
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2248, settings = true})
+local dor = Map({id = 2339, settings = true}) -- Dornogal
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -30,7 +36,11 @@ local map = Map({id = 2248, settings = true})
 map.nodes[23335817] = Rare({
     id = 219281,
     quest = nil,
-    rewards = {Achievement({id = 40435, criteria = 68225})}
+    note = L['alunira_note'],
+    rewards = {
+        Achievement({id = 40435, criteria = 68225}),
+        Mount({item = 223270, id = 2176}) -- Alunira
+    }
 }) -- Alunira
 
 map.nodes[41077616] = Rare({ -- get path
@@ -42,7 +52,7 @@ map.nodes[41077616] = Rare({ -- get path
     }
 }) -- Bloodmaw
 
-map.nodes[12001200] = Rare({ -- review
+map.nodes[76403620] = Rare({ -- review
     id = 221128,
     quest = nil,
     rewards = {Achievement({id = 40435, criteria = 68224})}
@@ -61,7 +71,7 @@ map.nodes[47946014] = Rare({
     }
 }) -- Emperor Pitfang
 
-map.nodes[19904520] = Rare({ -- review
+map.nodes[25784503] = Rare({
     id = 219266,
     quest = nil,
     rewards = {Achievement({id = 40435, criteria = 68218})}
@@ -70,12 +80,12 @@ map.nodes[19904520] = Rare({ -- review
 map.nodes[62714007] = Rare({ -- get path
     id = 219279,
     quest = 81905, -- 84034 ?
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40435, criteria = 68223})}
     -- pois = {Path({})}
 }) -- Flamekeeper Graz
 
-map.nodes[53527998] = Rare({ -- get path
+map.nodes[53527998] = Rare({
     id = 219268,
     quest = nil,
     rewards = {Achievement({id = 40435, criteria = 68217})}
@@ -87,7 +97,7 @@ map.nodes[26105401] = Rare({ -- review
     rewards = {Achievement({id = 40435, criteria = 68227})}
 }) -- Kereke
 
-map.nodes[14001200] = Rare({ -- review
+map.nodes[48212701] = Rare({
     id = 219270,
     quest = nil,
     rewards = {Achievement({id = 40435, criteria = 68220})}
@@ -102,7 +112,7 @@ map.nodes[73004009] = Rare({
 map.nodes[50876975] = Rare({ -- review
     id = 219267,
     quest = 81897, -- 84026 ?
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40435, criteria = 68216})}
 }) -- Plaguehart
 
@@ -112,18 +122,27 @@ map.nodes[16001200] = Rare({ -- review
     rewards = {Achievement({id = 40435, criteria = 68228})}
 }) -- Rotfist
 
-map.nodes[35887489] = Rare({ -- get path
+map.nodes[35657489] = Rare({ -- get path
     id = 213115,
     quest = 78619,
     rewards = {
         Achievement({id = 40435, criteria = 68210}), --
         Transmog({item = 223367, slot = L['leather']}) -- Cuffs of the Titancap
+    },
+    pois = {
+        Path({
+            35657489, 35987492, 36407502, 36747513, 36997533, 37007556,
+            36887580, 36597614, -- check this path
+            36177642, 35777617, 35357609, 35307597, 35397581, 35587547,
+            35037495, 34897468, 34897403, 35357368, 35627338, 36137351,
+            36617424, 37137470, 36997533
+        })
     }
 }) -- Rustul Titancap
 
-map.nodes[64207310] = Rare({ -- review
+map.nodes[62776842] = Rare({
     id = 217534,
-    quest = nil,
+    quest = 79685,
     rewards = {Achievement({id = 40435, criteria = 68211})}
 }) -- Sandres the Relicbearer
 
@@ -184,7 +203,7 @@ map.nodes[56833477] = Rare({
     }
 }) -- Warphorn
 
-map.nodes[30905239] = Rare({ -- review
+map.nodes[30905239] = Rare({
     id = 219284,
     quest = 82203,
     rewards = {Achievement({id = 40435, criteria = 68226})}
@@ -201,7 +220,7 @@ map.nodes[46153217] = Rare({id = 220846, quest = 81515}) -- Rowdy Rubble
 map.nodes[59122348] = Treasure({ -- You may have to wait until it spawns.
     quest = 82715,
     -- vignette = 6293,
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     note = L['inside_building'],
     rewards = {
         Achievement({id = 40434, criteria = 68209}),
@@ -212,7 +231,7 @@ map.nodes[59122348] = Treasure({ -- You may have to wait until it spawns.
 map.nodes[56226094] = Treasure({ -- You may have to wait until it spawns.
     quest = 82714,
     -- vignette = 6292,
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {
         Achievement({id = 40434, criteria = 68208}), --
         Item({item = 224263}) -- Infused Cinderbrew
@@ -222,7 +241,7 @@ map.nodes[56226094] = Treasure({ -- You may have to wait until it spawns.
 map.nodes[77232445] = Treasure({ -- You may have to wait until it spawns.
     quest = 82287,
     -- vignette = 6262,
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {
         Achievement({id = 40434, criteria = 68206}), --
         Item({item = 223280}) -- Jade Pearl (500g)
@@ -232,7 +251,7 @@ map.nodes[77232445] = Treasure({ -- You may have to wait until it spawns.
 map.nodes[62574327] = Treasure({ -- You may have to wait until it spawns.
     quest = 82325,
     -- vignette = 6273,
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {
         Achievement({id = 40434, criteria = 68205}),
         Transmog({item = 223484, slot = L['2h_axe']}) -- Kobold Mastermind's "Pivel"
@@ -242,7 +261,7 @@ map.nodes[62574327] = Treasure({ -- You may have to wait until it spawns.
 map.nodes[40625986] = Treasure({
     quest = {82212, 82227, 83243}, -- feed, opend, ?
     -- vignette = 6224,
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     note = L['magical_treasure_chest_note'],
     rewards = {
         Achievement({id = 40434, criteria = 68199}),
@@ -252,7 +271,7 @@ map.nodes[40625986] = Treasure({
 
 map.nodes[59732868] = Treasure({ -- 59602460, 59102708  follow {npc:222963}
     quest = {82145, 82251, 83246},
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     -- vignette = 6212,
     note = L['mosswool_flower_note'],
     rewards = {
@@ -272,18 +291,18 @@ map.nodes[55006564] = Treasure({ -- more Boskroot Cap locations ?
         83245 -- looted
     },
     -- vignette = 6209,
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     note = L['mushroom_cap_note'],
     rewards = {Achievement({id = 40434, criteria = 68202})},
     pois = {
-        POI({51837032, 52326982, 52466780, 52687038}) -- Boskroot Caps
+        POI({51837032, 52326982, 52466780, 52687038, 52346737}) -- Boskroot Caps
     }
 }) -- Mushroom Cap (U'llwort The Self-Exiled)
 
 map.nodes[53951920] = Treasure({
     quest = {82134, 82252, 83244},
     -- vignette = 6208,
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     note = L['mysterious_orb_note'],
     rewards = {Achievement({id = 40434, criteria = 68201})},
     pois = {
@@ -294,7 +313,7 @@ map.nodes[53951920] = Treasure({
 map.nodes[48896087] = Treasure({ -- You may have to wait until it spawns.
     quest = 82326,
     -- vignette = 6274,
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     note = L['in_cave'], -- more like a mine
     rewards = {Achievement({id = 40434, criteria = 68207})},
     pois = {
@@ -305,7 +324,7 @@ map.nodes[48896087] = Treasure({ -- You may have to wait until it spawns.
 map.nodes[38074358] = Treasure({
     quest = 82246, -- 82245 ?
     -- vignette = 6236,
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     note = L['thaks_treasure_note'],
     rewards = {Achievement({id = 40434, criteria = 68203})}
 }) -- Thak's Treasure
@@ -313,7 +332,7 @@ map.nodes[38074358] = Treasure({
 map.nodes[48513004] = Treasure({
     quest = {82160, 83242},
     -- vignette = 6210
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     note = L['in_small_cave'] .. '\n\n' .. L['trees_treasure_note'],
     rewards = {
         Achievement({id = 40434, criteria = 68197}), --
@@ -330,12 +349,33 @@ map.nodes[48513004] = Treasure({
     }
 }) -- Tree's Treasure (Pearlescent Shellcrab)
 
-map.nodes[40917377] = Treasure({ -- review
-    quest = nil,
-    -- vignette = 6244
-    rlabel = ns.tooltip.ReputationGain(150, 2590), -- Council of Dornogal
-    rewards = {Achievement({id = 40434, criteria = 68198})}
+local TurtlesThanks = Class('TurtlesThanks', Treasure, {
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
+    rewards = {
+        Achievement({id = 40434, criteria = 68198}),
+        Pet({item = 224549, id = 4594}) -- Sewer Turlte Whistle
+    }
 }) -- Turtle's Thanks (Dalaran Sewer Turtle)
+
+function TurtlesThanks.getters:note()
+    local note = ns.tooltip.ItemStatus(220143, 5, L['turtles_thanks_1_note'],
+        false)
+    note = note .. ns.tooltip.ItemStatus(222533, 1, L['turtles_thanks_2_note'])
+    return note .. '\n\n' .. L['turtles_thanks_3_note']
+end
+
+map.nodes[40917377] = TurtlesThanks({
+    quest = 79586
+    -- vignette = 6244, 6245
+})
+
+dor.nodes[58283026] = TurtlesThanks({
+    quest = {82255, 82716},
+    questDeps = 79586,
+    parent = map.id,
+    -- vignette = 6246
+    note = L['turtles_thanks_3_note']
+})
 
 -------------------------------------------------------------------------------
 

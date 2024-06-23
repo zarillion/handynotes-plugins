@@ -17,12 +17,17 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Display lore object locations 
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
-L['magical_treasure_chest_note'] = 'Push {npc:223104} back into the water then collect 5 {npc:223159s} nearby.'
+L['alunira_note'] = 'Collect 10x {item:224025} and combine them into a {item:224026} to remove her {spell:451570}.'
+
+L['magical_treasure_chest_note'] = 'Push {npc:223104} back into the water then collect 5x {npc:223159s} nearby.'
 L['mosswool_flower_note'] = 'Click on the {npc:222956} and follow him.'
 L['mushroom_cap_note'] = 'Collect a {object:Boskroot Cap} in the nearby forest and bring it back to {npc:222894}.'
 L['mysterious_orb_note'] = 'Bring the {object:Elemental Pearl} back to the {npc:222847}.'
 L['thaks_treasure_note'] = 'Speak with {npc:223227} and follow him.'
-L['trees_treasure_note'] = 'Speak with {npc:222940} to get a {item:224185}. Guide 6 {npc:224548s} {dot:Green} around the {location:Isle of Dorn}. If you have collected all crabs go back into the cave to {npc:222940} and speak with her again.'
+L['trees_treasure_note'] = 'Speak with {npc:222940} to get a {item:224185}. Guide 6x {npc:224548s} ({dot:Green}) around the {location:Isle of Dorn} back to {npc:222940}. When you have guided all the crabs back, go back in the cave to {npc:222940} and speak with her.'
+L['turtles_thanks_1_note'] = 'Hand in 5x {item:220143} (can be fished from {object:Calm Surfacing Ripple} pools or bought from the auction house). {note:Leave the area and return immediately to hand in the next fish.}'
+L['turtles_thanks_2_note'] = 'Hand in 1x {item:222533} (can be fished from {object:Glimmerpool}, {object:Festering Rotpool}, {object:Infused Ichor Spill} pool or bought from the auction house).'
+L['turtles_thanks_3_note'] = 'Meet the {npc:223338} in {location:Dornogal} and speak with her to reveal the treasure.'
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
