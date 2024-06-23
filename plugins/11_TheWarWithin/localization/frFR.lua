@@ -9,12 +9,10 @@ if not L then return end
 
 L['skyriding_glyph'] = 'Glyphe de vol dynamique'
 L['options_icons_skyriding_glyph'] = 'Glyphes de vol dynamique'
-L['options_icons_skyriding_glyph_desc'] =
-    'Afficher les emplacements des glyphes de vol dynamique.'
+L['options_icons_skyriding_glyph_desc'] = 'Afficher les emplacements des glyphes de vol dynamique.'
 
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
-L['options_icons_khaz_algar_lore_hunter_desc'] =
-    'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:40762}.'
+L['options_icons_khaz_algar_lore_hunter_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:40762}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
@@ -36,9 +34,14 @@ L['turtles_thanks_3_note'] = nil
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------
 
+L['forgotten_treasure_note'] = nil
+L['kaja_cola_machine_note'] = nil
+
+L['forgotten_treasure_note'] = nil
+L['kaja_cola_machine_note'] = nil
+
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
-L['options_icons_not_so_quick_fix_desc'] =
-    'Afficher les emplacements des consoles pour le haut-fait {achievement:40473}.'
+L['options_icons_not_so_quick_fix_desc'] = 'Afficher les emplacements des consoles pour le haut-fait {achievement:40473}.'
 
 L['not_so_quick_fix_note'] = nil
 L['water_console_location'] = nil
@@ -49,8 +52,7 @@ L['lost_console_location'] = nil
 L['earthen_console_location'] = nil
 
 L['options_icons_notable_machines'] = '{achievement:40628}'
-L['options_icons_notable_machines_desc'] =
-    'Afficher les emplacements des notes pour le haut-fait {achievement:40628}.'
+L['options_icons_notable_machines_desc'] = 'Afficher les emplacements des notes pour le haut-fait {achievement:40628}.'
 
 L['notable_machines_note'] = nil
 L['fragment_I_location'] = nil
@@ -61,8 +63,7 @@ L['fragment_V_location'] = nil
 L['fragment_VI_location'] = nil
 
 L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
-L['options_icons_rocked_to_sleep_desc'] =
-    'Afficher les emplacements des plaques pour le haut-fait {achievement:40504}.'
+L['options_icons_rocked_to_sleep_desc'] = 'Afficher les emplacements des plaques pour le haut-fait {achievement:40504}.'
 
 L['rocked_to_sleep_note'] = nil
 L['attwogaz_location'] = nil
@@ -81,8 +82,7 @@ L['sathilga_location'] = nil
 -------------------------------------------------------------------------------
 
 L['options_icons_biblio_archivist'] = '{achievement:40622}'
-L['options_icons_biblio_archivist_desc'] =
-    'Afficher les emplacements des livres pour le haut-fait {achievement:40622}.'
+L['options_icons_biblio_archivist_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40622}.'
 
 L['biblio_archivist_note'] = nil
 L['biblio_book_01_location'] = nil
@@ -97,8 +97,7 @@ L['biblio_book_09_location'] = nil
 L['biblio_book_10_location'] = nil
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
-L['options_icons_lost_and_found_desc'] =
-    'Afficher les emplacements des souvenirs perdus pour le haut-fait {achievement:40618}.'
+L['options_icons_lost_and_found_desc'] = 'Afficher les emplacements des souvenirs perdus pour le haut-fait {achievement:40618}.'
 
 L['lost_and_found_note'] = nil
 L['broken_bracelet_location'] = nil
@@ -112,8 +111,7 @@ L['dented_spear_location'] = nil
 L['filigreed_cleric_location'] = nil
 
 L['options_icons_missing_lynx'] = '{achievement:40625}'
-L['options_icons_missing_lynx_desc'] =
-    'Afficher les emplacements des lynx pour le haut-fait {achievement:40625}.'
+L['options_icons_missing_lynx_desc'] = 'Afficher les emplacements des lynx pour le haut-fait {achievement:40625}.'
 
 L['missing_lynx_note'] = nil
 L['magpie_location'] = nil
@@ -136,8 +134,7 @@ L['gobbo_location'] = nil
 -------------------------------------------------------------------------------
 
 L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
-L['options_icons_itsy_bitsy_spider_desc'] =
-    'Afficher les emplacements des tisse-rats pour le haut-fait {achievement:40624}.'
+L['options_icons_itsy_bitsy_spider_desc'] = 'Afficher les emplacements des tisse-rats pour le haut-fait {achievement:40624}.'
 
 L['itsy_bitsy_spider_note'] = nil
 L['webster_location'] = nil

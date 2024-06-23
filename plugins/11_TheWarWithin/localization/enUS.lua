@@ -33,6 +33,9 @@ L['turtles_thanks_3_note'] = 'Meet the {npc:223338} in {location:Dornogal} and s
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------
 
+L['forgotten_treasure_note'] = 'Open {object:Buried Treasure}s nearby to get the {item:217960}.'
+L['kaja_cola_machine_note'] = 'Purchase drinks in the following order: Bluesberry Blast > Orange O-pocalypse > Oyster Outbreak > Mangoro Madness.'
+
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Display console locations for {achievement:40473}.'
 

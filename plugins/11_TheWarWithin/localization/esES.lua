@@ -33,6 +33,9 @@ L['turtles_thanks_3_note'] = nil
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------
 
+L['forgotten_treasure_note'] = nil
+L['kaja_cola_machine_note'] = nil
+
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Muestra dónde están las consolas del logro {achievement:40473}.'
 
