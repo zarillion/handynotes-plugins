@@ -58,11 +58,13 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 ### Hallowfall
 
-* TODO
+* Lore books for the [Biblo Archivist](https://www.wowhead.com/achievement=40622) achievement.
+* Mementos for the [Lost and Found](https://www.wowhead.com/achievement=40618) achievement.
+* Ferocious warcats for the [The Missing Lynx](https://www.wowhead.com/achievement=40625) achievement.
 
 ### Azj-Kahet
 
-* TODO
+* Weave-rats for the [Itsy Bitsy Spider](https://www.wowhead.com/achievement=40624) achievement.
 
 ## Localization
 

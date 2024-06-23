@@ -24,47 +24,47 @@ local map = Map({id = 2255, settings = true})
 -------------------------------------------------------------------------------
 
 map.nodes[63352068] = SkyridingGlyph({
-    rewards = {Achievement({id = 40705, criteria = 1})}
+    rewards = {Achievement({id = 40705, criteria = 69265})}
 }) -- Arathi's End
 
 map.nodes[47932751] = SkyridingGlyph({
-    rewards = {Achievement({id = 40705, criteria = 2})}
+    rewards = {Achievement({id = 40705, criteria = 69266})}
 }) -- Siegehold
 
 map.nodes[28314536] = SkyridingGlyph({
-    rewards = {Achievement({id = 40705, criteria = 3})}
+    rewards = {Achievement({id = 40705, criteria = 69267})}
 }) -- Ruptured Lake
 
 map.nodes[44536041] = SkyridingGlyph({
-    rewards = {Achievement({id = 40705, criteria = 4})}
+    rewards = {Achievement({id = 40705, criteria = 69268})}
 }) -- Eye of Ansurek
 
 -- cot.nodes[12953470] = SkyridingGlyph({
---     rewards = {Achievement({id = 40705, criteria = 5})}
+--     rewards = {Achievement({id = 40705, criteria = 69269})}
 -- }) -- Old Sacrificial Pit
 
 -- cot.nodes[58949040] = SkyridingGlyph({
---     rewards = {Achievement({id = 40705, criteria = 6})}
+--     rewards = {Achievement({id = 40705, criteria = 69270})}
 -- }) -- Deepwalker Pass
 
 map.nodes[65908557] = SkyridingGlyph({
-    rewards = {Achievement({id = 40705, criteria = 7})}
+    rewards = {Achievement({id = 40705, criteria = 69271})}
 }) -- The Maddening Deep
 
 map.nodes[77518502] = SkyridingGlyph({
-    rewards = {Achievement({id = 40705, criteria = 8})}
+    rewards = {Achievement({id = 40705, criteria = 69272})}
 }) -- Rak-Ush
 
 map.nodes[58036068] = SkyridingGlyph({
-    rewards = {Achievement({id = 40705, criteria = 9})}
+    rewards = {Achievement({id = 40705, criteria = 69273})}
 }) -- Silken Ward
 
 map.nodes[69963104] = SkyridingGlyph({
-    rewards = {Achievement({id = 40705, criteria = 10})}
+    rewards = {Achievement({id = 40705, criteria = 69274})}
 }) -- Trickling Abyss
 
 -- map.nodes[00000000] = SkyridingGlyph({
---     rewards = {Achievement({id = 40705, criteria = 11})}
+--     rewards = {Achievement({id = 40705, criteria = 69275})}
 -- }) -- Untamed Valley
 
 -------------------------------------------------------------------------------
@@ -77,39 +77,39 @@ local ItsyBitsySpider = Class('ItsyBitsySpider', Collectible, {
     note = L['itsy_bitsy_spider_note']
 })
 
-map.nodes[00000000] = ItsyBitsySpider({
+map.nodes[06001200] = ItsyBitsySpider({
     location = L['webster_location'],
-    rewards = {Achievement({id = 40624, criteria = 1})}
+    rewards = {Achievement({id = 40624, criteria = 68972})}
 }) -- Webster
 
-map.nodes[00000000] = ItsyBitsySpider({
+map.nodes[08001200] = ItsyBitsySpider({
     location = L['spindle_location'],
-    rewards = {Achievement({id = 40624, criteria = 2})}
+    rewards = {Achievement({id = 40624, criteria = 68973})}
 }) -- Spindle
 
-map.nodes[00000000] = ItsyBitsySpider({
+map.nodes[10001200] = ItsyBitsySpider({
     location = L['swift_location'],
-    rewards = {Achievement({id = 40624, criteria = 3})}
+    rewards = {Achievement({id = 40624, criteria = 68974})}
 }) -- Swift
 
-map.nodes[00000000] = ItsyBitsySpider({
+map.nodes[12001200] = ItsyBitsySpider({
     location = L['rumurh_location'],
-    rewards = {Achievement({id = 40624, criteria = 4})}
+    rewards = {Achievement({id = 40624, criteria = 68976})}
 }) -- Ru'murh
 
-map.nodes[00000000] = ItsyBitsySpider({
+map.nodes[14001200] = ItsyBitsySpider({
     location = L['thimble_location'],
-    rewards = {Achievement({id = 40624, criteria = 5})}
+    rewards = {Achievement({id = 40624, criteria = 68977})}
 }) -- Thimble
 
-map.nodes[00000000] = ItsyBitsySpider({
+map.nodes[16001200] = ItsyBitsySpider({
     location = L['scampering_weave_rat_location'],
-    rewards = {Achievement({id = 40624, criteria = 6})}
+    rewards = {Achievement({id = 40624, criteria = 68978})}
 }) -- Scampering Weave-Rat
 
-map.nodes[00000000] = ItsyBitsySpider({
+map.nodes[18001200] = ItsyBitsySpider({
     location = L['generals_scouting_shadecaster_location'],
-    rewards = {Achievement({id = 40624, criteria = 7})}
+    rewards = {Achievement({id = 40624, criteria = 68979})}
 }) -- General's Scouting Shadecaster
 
 -------------------------------------------------------------------------------
