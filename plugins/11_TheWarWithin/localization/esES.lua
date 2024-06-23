@@ -19,7 +19,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Muestra dónde están los obje
 
 L['magical_treasure_chest_note'] = 'Empuja a {npc:223104} de regreso al agua y luego recoge 5 {npc:223159} en las cercanías.'
 L['mosswool_flower_note'] = 'Haz click en {npc:222956} y síguelo.'
-L['mushroom_cap_note'] = 'Recoge {object:Boskroot Cap} en el bosque cercano y llévala de vuelta a {npc:222894}.' -- Boskroot Cap pendiente
+L['mushroom_cap_note'] = 'Recoge un {object:Hongo de Boscorraíz} en el bosque cercano y llévalo de vuelta a {npc:222894}.'
 L['mysterious_orb_note'] = 'Lleva la {object:Perla Elemental} de vuelta al {npc:222847}.'
 L['thaks_treasure_note'] = 'Habla con {npc:223227} y síguelo.'
 L['trees_treasure_note'] = 'Habla con {npc:222940} para conseguir {item:224185}. Guia a 6 {npc:224548} {dot:Green} alrededor de la {location:Isla de Dorn}. Si has recolectado todos los cangrejos, regresa a la cueva con {npc:222940} y habla con ella otra vez.'
