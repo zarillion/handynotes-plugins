@@ -17,17 +17,17 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Muestra dónde están los obje
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
-L['alunira_note'] = nil
+L['alunira_note'] = 'Recoge 10x {item:224025} y combínalos en un {item:224026} para quitarle {spell:451570}.'
 
 L['magical_treasure_chest_note'] = 'Empuja a {npc:223104} de regreso al agua y luego recoge 5 {npc:223159} en las cercanías.'
 L['mosswool_flower_note'] = 'Haz click en {npc:222956} y síguelo.'
 L['mushroom_cap_note'] = 'Recoge un {object:Hongo de Boscorraíz} en el bosque cercano y llévalo de vuelta a {npc:222894}.'
 L['mysterious_orb_note'] = 'Lleva la {object:Perla Elemental} de vuelta al {npc:222847}.'
 L['thaks_treasure_note'] = 'Habla con {npc:223227} y síguelo.'
-L['trees_treasure_note'] = 'Habla con {npc:222940} para conseguir {item:224185}. Guia a 6 {npc:224548} {dot:Green} alrededor de la {location:Isla de Dorn}. Si has recolectado todos los cangrejos, regresa a la cueva con {npc:222940} y habla con ella otra vez.'
-L['turtles_thanks_1_note'] = nil
-L['turtles_thanks_2_note'] = nil
-L['turtles_thanks_3_note'] = nil
+L['trees_treasure_note'] = 'Habla con {npc:222940} para conseguir {item:224185}. Guia 6x {npc:224548} {dot:Green} alrededor de la {location:Isla de Dorn} de vuelta a {npc:222940}. Cuando haya guiado a todos los cangrejos de vuelta, habla con ella.'
+L['turtles_thanks_1_note'] = 'Entrega 5x {item:220143} (puede ser pescado de bancos {object:Calm Surfacing Ripple} o comprados en la casa de subastas). {note:Deja la zona y vuelve inmediatamente para entregar el siguiente pez.}' -- Falta el banco de peces
+L['turtles_thanks_2_note'] = 'Entrega 1x {item:222533} (puede ser pescado de bancos {object:Glimmerpool}, {object:Festering Rotpool}, {object:Infused Ichor Spill} o comprados en la casa de subastas).' -- Faltan los bancos de peces
+L['turtles_thanks_3_note'] = 'Alimenta a {npc:223338} en {location:Dornogal} y habla con ella para revelar el tesoro.'
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
