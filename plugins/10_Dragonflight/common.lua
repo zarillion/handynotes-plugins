@@ -993,7 +993,7 @@ end
 local Flag = Class('Flag', Collectible, {
     icon = 1723999,
     label = L['dragonscale_expedition_flag'], -- Dragonscale Expedition Flag
-    rlabel = ns.status.LightBlue('+250 ' .. select(1, GetFactionInfoByID(2507))), -- Dragonscale Expedition
+    rlabel = ns.tooltip.ReputationGain(250, 2507), -- Dragonscale Expedition
     group = ns.groups.FLAG,
     requires = {
         ns.requirement.Reputation(2507, 6, true), -- Dragonscale Expedition

@@ -124,7 +124,7 @@ local function RenderLinks(str, nameOnly)
                 end
             end
         elseif type == 'faction' then
-            local name = GetFactionInfoByID(id)
+            local name = ns.api.GetFactionInfoByID(id)
             if nameOnly then return name end
             return ns.color.NPC(name) -- TODO: colorize based on standing?
         elseif type == 'item' then
@@ -142,7 +142,7 @@ local function RenderLinks(str, nameOnly)
                            ns.color.Yellow('[' .. name .. ']')
             end
         elseif type == 'spell' then
-            local name, _, icon = GetSpellInfo(id)
+            local name, _, icon = ns.api.GetSpellInfo(id)
             if name and icon then
                 if nameOnly then return name end
                 return ns.color.Spell('|T' .. icon .. ':0|t [' .. name .. ']')

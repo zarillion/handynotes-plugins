@@ -35,7 +35,7 @@ local VENTHYR = ns.covenants.VEN
 local map = Map({id = 1961, settings = true})
 
 function map:CanDisplay(node, coord, minimap)
-    local research = select(3, GetFactionInfoByID(2472))
+    local research = select(3, ns.api.GetFactionInfoByID(2472)) -- The Archivists' Codex
     if node.research and research < node.research then return false end
     return Map.CanDisplay(self, node, coord, minimap)
 end

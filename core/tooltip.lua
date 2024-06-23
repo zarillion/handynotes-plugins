@@ -34,7 +34,7 @@ local function QuestStatus(questID, identifier, note, spacer)
 end
 
 local function ReputationGain(value, factionID)
-    local factionName = C_Reputation.GetFactionDataByID(factionID).name
+    local factionName = ns.api.GetFactionInfoByID(factionID)
 
     return ns.status.LightBlue('+' .. value .. ' ' .. factionName)
 end

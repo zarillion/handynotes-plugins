@@ -2449,13 +2449,13 @@ function Friendship:Initialize(id, level, label)
 end
 
 function Friendship:GetText()
-    local name = GetFactionInfoByID(self.id)
+    local name = ns.api.GetFactionInfoByID(self.id)
     local level = self.label
     return string.format(name .. ' (' .. level .. ')')
 end
 
 function Friendship:IsMet()
-    local standingID = select(3, GetFactionInfoByID(self.id))
+    local standingID = select(3, ns.api.GetFactionInfoByID(self.id))
     return standingID >= self.level
 end
 

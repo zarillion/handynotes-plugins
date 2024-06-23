@@ -66,7 +66,8 @@ read_globals = {
     'GetContainerNumSlots',
     'GetCurrentRegion',
     'GetCVar',
-    'GetFactionInfoByID',
+    'GetFactionDataByID', -- 11.0
+    'GetFactionInfoByID', -- 10.2.7
     'GetGameTime',
     'GetLocale',
     'GetPlayerFacing',
@@ -74,7 +75,7 @@ read_globals = {
     'GetProfessions',
     'GetQuestObjectiveInfo',
     'GetServerTime',
-    'GetSpellInfo',
+    'GetSpellInfo', -- 10.2.7
     'GetText',
     'GetTime',
     'GetTitleName',

@@ -1104,7 +1104,7 @@ local LeyLine = Class('LeyLine', Collectible, {
     icon = 1033908,
     location = L['in_small_cave'],
     note = L['leyline_note'],
-    rlabel = ns.status.LightBlue('+20 ' .. select(1, GetFactionInfoByID(2510))), -- Valdrakken Accord
+    rlabel = ns.tooltip.ReputationGain(20, 2510), -- Valdrakken Accord
     group = ns.groups.LEYLINE
 })
 

@@ -175,13 +175,13 @@ function Reputation:GetText()
     else
         level = GetText('FACTION_STANDING_LABEL' .. level)
     end
-    return ('%s (%s)'):format(GetFactionInfoByID(self.id), level)
+    return ('%s (%s)'):format(ns.api.GetFactionInfoByID(self.id), level)
 end
 
 function Reputation:IsMet()
     local standingID = self.isRenown and
                            C_MajorFactions.GetCurrentRenownLevel(self.id) or
-                           select(3, GetFactionInfoByID(self.id))
+                           select(3, ns.api.GetFactionInfoByID(self.id))
     return standingID >= self.level
 end
 
