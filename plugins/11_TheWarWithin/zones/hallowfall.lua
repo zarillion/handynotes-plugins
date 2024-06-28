@@ -7,6 +7,8 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+-- local Rare = ns.node.Rare
+local Treasure = ns.node.Treasure
 
 local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
@@ -18,6 +20,225 @@ local ReputationGain = ns.tooltip.ReputationGain
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2215, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+-- map.nodes[06002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69716})}
+-- }) -- Beledar's Spawn
+
+-- map.nodes[08002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69718})}
+-- }) -- Brineslash
+
+-- map.nodes[10002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69720})}
+-- }) -- Crazed Cabbage Smacker
+
+-- map.nodes[12002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69722})}
+-- }) -- Croakit
+
+-- map.nodes[14002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69721})}
+-- }) -- Deathpetal
+
+-- map.nodes[16002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69717})}
+-- }) -- Deathtide
+
+-- map.nodes[18002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69703})}
+-- }) -- Deepfiend Azellix
+
+-- map.nodes[20002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69724})}
+-- }) -- Duskshadow
+
+-- map.nodes[22002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69727})}
+-- }) -- Finclaw Bloodtide
+
+-- map.nodes[24002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69707})}
+-- }) -- Funglour
+
+-- map.nodes[26002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69706})}
+-- }) -- Grimslice
+
+-- map.nodes[28002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69712})}
+-- }) -- Horror of the Shallows
+
+-- map.nodes[30002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69704})}
+-- }) -- Ixlorb the Weaver
+
+-- map.nodes[32002000] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69710})}
+-- }) -- Lytfang the Lost
+
+-- map.nodes[06002200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69719})}
+-- }) -- Moth'ethk
+
+-- map.nodes[08002200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69705})}
+-- }) -- Murkshade
+
+-- map.nodes[10002200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69728})}
+-- }) -- Murkspike
+
+-- map.nodes[12002200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69725})}
+-- }) -- Parasidous
+
+-- map.nodes[14002200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69715})}
+-- }) -- Pride of Beledar
+
+-- map.nodes[14002200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69726})}
+-- }) -- Ravageant
+
+-- map.nodes[16002200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69714})}
+-- }) -- Sir Alastair Purefire
+
+-- map.nodes[18002200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69709})}
+-- }) -- Sloshmuck
+
+-- map.nodes[20002200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69713})}
+-- }) -- Strength of Beledar
+
+-- map.nodes[22002200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69711})}
+-- }) -- The Perchfather
+
+-- map.nodes[24002200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69708})}
+-- }) -- The Taskmaker
+
+-- map.nodes[26002200] = Rare({
+--     id = nil,
+--     quest = nil,
+--     rewards = {Achievement({id = 40851, criteria = 69723})}
+-- }) -- Toadstomper
+
+-------------------------------------------------------------------------------
+---------------------------------- TREASURES ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[06002400] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 40848, criteria = 69695})}
+}) -- Arathi Loremaster
+
+map.nodes[08002400] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 40848, criteria = 69692})}
+}) -- Caesper
+
+map.nodes[10002400] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 40848, criteria = 69694})}
+}) -- Dark Ritual
+
+map.nodes[12002400] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 40848, criteria = 69701})}
+}) -- Illuminated Footlocker
+
+map.nodes[14002400] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 40848, criteria = 69696})}
+}) -- Illusive Kobyss Lure
+
+map.nodes[16002400] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 40848, criteria = 69697})}
+}) -- Jewel of the Cliffs
+
+map.nodes[18002400] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 40848, criteria = 69699})}
+}) -- Lost Necklace
+
+map.nodes[20002400] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 40848, criteria = 69698})}
+}) -- Priory Satchel
+
+map.nodes[22002400] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 40848, criteria = 69700})}
+}) -- Sky-Captains' Sunken Cache
+
+map.nodes[24002400] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 40848, criteria = 69693})}
+}) -- Smuggler's Treasure
+
+map.nodes[26002400] = Treasure({
+    quest = nil,
+    rewards = {Achievement({id = 40848, criteria = 69702})}
+}) -- Spore-covered Coffer
 
 -------------------------------------------------------------------------------
 --------------------------- HALLOWFALL GLYPH HUNTER ---------------------------
