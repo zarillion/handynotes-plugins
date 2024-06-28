@@ -216,49 +216,51 @@ map.nodes[24002000] = Treasure({ -- review
 --------------------------- AZJ-KAHET GLYPH HUNTER ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[63352068] = SkyridingGlyph({
+map.nodes[63421396] = SkyridingGlyph({
     rewards = {Achievement({id = 40705, criteria = 69265})}
 }) -- Arathi's End
 
-map.nodes[47932751] = SkyridingGlyph({
+map.nodes[46692126] = SkyridingGlyph({
     rewards = {Achievement({id = 40705, criteria = 69266})}
 }) -- Siegehold
 
-map.nodes[28314536] = SkyridingGlyph({
+map.nodes[25174058] = SkyridingGlyph({
     rewards = {Achievement({id = 40705, criteria = 69267})}
 }) -- Ruptured Lake
 
-map.nodes[44536041] = SkyridingGlyph({
+map.nodes[42925715] = SkyridingGlyph({
     rewards = {Achievement({id = 40705, criteria = 69268})}
 }) -- Eye of Ansurek
 
--- cot.nodes[12953470] = SkyridingGlyph({
---     rewards = {Achievement({id = 40705, criteria = 69269})}
--- }) -- Old Sacrificial Pit
+cot.nodes[13103377] = SkyridingGlyph({
+    parent = map.id,
+    rewards = {Achievement({id = 40705, criteria = 69269})}
+}) -- Old Sacrificial Pit
 
--- cot.nodes[58949040] = SkyridingGlyph({
---     rewards = {Achievement({id = 40705, criteria = 69270})}
--- }) -- Deepwalker Pass
+cot.nodes[78377125] = SkyridingGlyph({
+    parent = map.id,
+    rewards = {Achievement({id = 40705, criteria = 69270})}
+}) -- Deepwalker Pass
 
-map.nodes[65908557] = SkyridingGlyph({
+map.nodes[66258486] = SkyridingGlyph({
     rewards = {Achievement({id = 40705, criteria = 69271})}
 }) -- The Maddening Deep
 
-map.nodes[77518502] = SkyridingGlyph({
+map.nodes[73198417] = SkyridingGlyph({
     rewards = {Achievement({id = 40705, criteria = 69272})}
 }) -- Rak-Ush
 
-map.nodes[58036068] = SkyridingGlyph({
+map.nodes[57575733] = SkyridingGlyph({
     rewards = {Achievement({id = 40705, criteria = 69273})}
 }) -- Silken Ward
 
-map.nodes[69963104] = SkyridingGlyph({
+map.nodes[70562516] = SkyridingGlyph({ -- review
     rewards = {Achievement({id = 40705, criteria = 69274})}
 }) -- Trickling Abyss
 
--- map.nodes[00000000] = SkyridingGlyph({
---     rewards = {Achievement({id = 40705, criteria = 69275})}
--- }) -- Untamed Valley
+map.nodes[65405178] = SkyridingGlyph({
+    rewards = {Achievement({id = 40705, criteria = 69275})}
+}) -- Untamed Valley
 
 -------------------------------------------------------------------------------
 ----------------------- ACHIEVEMENT: ITSY BITSY SPIDER ------------------------
@@ -309,27 +311,39 @@ map.nodes[18001200] = ItsyBitsySpider({
 --------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------
 -------------------------------------------------------------------------------
 
-map.nodes[06001400] = LoreObject({ -- review
-    rlabel = ReputationGain(250, 2600), -- The Severed Threads
+cot.nodes[77557018] = LoreObject({
+    rlabel = ReputationGain(85, 2601), -- The Weaver
+    -- ReputationGain(85, 2605), -- The General
+    -- ReputationGain(85, 2607), -- The Vizier
+    parent = map.id,
     rewards = {Achievement({id = 40762, criteria = 69385})}
 }) -- Forgotten Shadecaster
 
-map.nodes[08001400] = LoreObject({ -- review
-    rlabel = ReputationGain(250, 2600), -- The Severed Threads
+map.nodes[75443325] = LoreObject({
+    rlabel = ReputationGain(85, 2601), -- The Weaver
+    -- ReputationGain(85, 2605), -- The General
+    -- ReputationGain(85, 2607), -- The Vizier
     rewards = {Achievement({id = 40762, criteria = 69387})}
 }) -- Kah'teht
 
-map.nodes[10001400] = LoreObject({ -- review
-    rlabel = ReputationGain(250, 2600), -- The Severed Threads
+map.nodes[54071889] = LoreObject({
+    rlabel = ReputationGain(85, 2601), -- The Weaver
+    -- ReputationGain(85, 2605), -- The General
+    -- ReputationGain(85, 2607), -- The Vizier
     rewards = {Achievement({id = 40762, criteria = 69388})}
 }) -- Mad Nerubian
 
-map.nodes[12001400] = LoreObject({ -- review
-    rlabel = ReputationGain(250, 2600), -- The Severed Threads
+cot.nodes[08533058] = LoreObject({
+    rlabel = ReputationGain(85, 2601), -- The Weaver
+    -- ReputationGain(85, 2605), -- The General
+    -- ReputationGain(85, 2607), -- The Vizier
+    parent = map.id,
     rewards = {Achievement({id = 40762, criteria = 69386})}
 }) -- Neglected Shadecaster
 
-map.nodes[14001400] = LoreObject({ -- review
-    rlabel = ReputationGain(250, 2600), -- The Severed Threads
+map.nodes[71126233] = LoreObject({
+    rlabel = ReputationGain(85, 2601), -- The Weaver
+    -- ReputationGain(85, 2605), -- The General
+    -- ReputationGain(85, 2607), -- The Vizier
     rewards = {Achievement({id = 40762, criteria = 69384})}
 }) -- Weathered Shadecaster
