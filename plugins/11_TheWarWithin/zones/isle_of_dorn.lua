@@ -6,7 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local PT = ns.node.ProfessionTreasure
+local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -401,10 +401,7 @@ map.nodes[73693706] = Treasure({quest = nil, note = L['in_small_cave']}) -- Elem
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[58186204] = PT.Mining({
-    quest = 83906,
-    id = 226332
-}) -- Earthen Miner's Gavel
+map.nodes[58186204] = PT.Mining({quest = 83906, id = 226332}) -- Earthen Miner's Gavel
 
 -------------------------------------------------------------------------------
 -------------------------- ISLE OF DORN GLYPH HUNTER --------------------------
