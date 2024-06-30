@@ -6,7 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local PT = ns.node.ProfessionTreasures
+local PT = ns.node.ProfessionTreasure
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
