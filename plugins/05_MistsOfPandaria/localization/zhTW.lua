@@ -6,11 +6,11 @@ if not L then return end
 -------------------------------- TIMELESS ISLE --------------------------------
 -------------------------------------------------------------------------------
 
-L['cavern_of_lost_spirits'] = nil
-L['looted_twice'] = nil
+L['cavern_of_lost_spirits'] = '在 {location:失落靈魂洞穴} 內.'
+L['looted_twice'] = '這隻角色還沒有殺過這隻稀有. 每天它可以被拾取兩次.'
 L['neverending_spritewood'] = nil
 L['neverending_spritewood_note'] = nil
-L['zarhym_note'] = nil
+L['zarhym_note'] = '每天妳可以和 {npc:71876} 對話一次來進入 {spell:144145} 來嘗試找回它的身體.'
 
 L['archiereus_note'] = nil
 L['chelon_note'] = nil
@@ -29,17 +29,17 @@ L['spelurk_note'] = nil
 L['zhugon_note'] = nil
 
 L['blazing_chest'] = nil
-L['moss_covered_chest'] = nil
-L['skull_covered_chest'] = nil
-L['smoldering_chest'] = nil
+L['moss_covered_chest'] = '長滿青苔的箱子'
+L['skull_covered_chest'] = '骨蓋寶箱'
+L['smoldering_chest'] = '悶燃寶箱'
 L['sturdy_chest'] = nil
 L['sturdy_chest_note'] = nil
 
-L['gleaming_treasure_satchel_note'] = nil
-L['gleaming_treasure_chest_note'] = nil
+L['gleaming_treasure_satchel_note'] = '從船上的繩子往上走再跳到掛著包包的桅桿上.'
+L['gleaming_treasure_chest_note'] = '從柱子上面跳到寶箱處.'
 L['mist_covered_treasure_chest_note'] = nil
-L['ropebound_treasure_chest_note'] = nil
-L['sunken_treasure_note'] = nil
+L['ropebound_treasure_chest_note'] = '從繩子上走到寶箱處.'
+L['sunken_treasure_note'] = '在沈船附近擊殺菁英取得鑰匙.'
 
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
@@ -100,7 +100,7 @@ L['momos_treasure_chest_note'] = '內含大約10金.'
 L['hozen_treasure_cache'] = '猴人藏寶箱' -- wowhead.com/object=213769
 L['hozen_treasure_cache_note'] = '內含大約99金.'
 L['rikktiks_tick_remover'] = '黎克堤的小箱子' -- wowhead.com/object=213793
-L['stolen_sprite_treasure'] = nil -- wowhead.com/object=213770
+L['stolen_sprite_treasure'] = '失竊的妖精寶藏' -- wowhead.com/object=213770
 L['stolen_sprite_treasure_note'] = '內含大約104金.'
 L['sturdy_yaungol_spear'] = nil -- wowhead.com/object=213842
 L['sprites_cloth_chest'] = nil -- wowhead.com/object=213751
