@@ -7,13 +7,14 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
--- local Rare = ns.node.Rare
+local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 local Item = ns.reward.Item
 local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
@@ -105,11 +106,14 @@ local map = Map({id = 2215, settings = true})
 --     rewards = {Achievement({id = 40851, criteria = 69712})}
 -- }) -- Horror of the Shallows
 
--- map.nodes[30002000] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69704})}
--- }) -- Ixlorb the Weaver
+map.nodes[57046433] = Rare({
+    id = 218426,
+    quest = 80006,
+    rewards = {
+        Achievement({id = 40851, criteria = 69704}),
+        Transmog({item = 223379, type = L['plate']}) -- Nerubian Weaver's Chestplate
+    }
+}) -- Ixlorb the Weaver
 
 -- map.nodes[32002000] = Rare({
 --     id = nil,
@@ -117,17 +121,20 @@ local map = Map({id = 2215, settings = true})
 --     rewards = {Achievement({id = 40851, criteria = 69710})}
 -- }) -- Lytfang the Lost
 
--- map.nodes[06002200] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69719})}
--- }) -- Moth'ethk
+map.nodes[63402880] = Rare({
+    id = 206203,
+    quest = nil,
+    rewards = {Achievement({id = 40851, criteria = 69719})}
+}) -- Moth'ethk
 
--- map.nodes[08002200] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69705})}
--- }) -- Murkshade
+map.nodes[52132681] = Rare({
+    id = 218452, -- 218455 Lost Cache
+    quest = 80010,
+    rewards = {
+        Achievement({id = 40851, criteria = 69705}),
+        Transmog({item = 223383, type = L['plate']}) -- Murkshade Handguards
+    }
+}) -- Murkshade
 
 -- map.nodes[10002200] = Rare({
 --     id = nil,
@@ -171,11 +178,11 @@ local map = Map({id = 2215, settings = true})
 --     rewards = {Achievement({id = 40851, criteria = 69713})}
 -- }) -- Strength of Beledar
 
--- map.nodes[22002200] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69711})}
--- }) -- The Perchfather
+map.nodes[44011637] = Rare({
+    id = 221648,
+    quest = nil,
+    rewards = {Achievement({id = 40851, criteria = 69711})}
+}) -- The Perchfather
 
 -- map.nodes[24002200] = Rare({
 --     id = nil,
@@ -194,21 +201,23 @@ local map = Map({id = 2215, settings = true})
 -------------------------------------------------------------------------------
 
 map.nodes[40035112] = Treasure({
-    quest = nil,
+    quest = 83298,
     note = L['arathi_loremaster_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69695}), --
         Toy({item = 225659}) -- Arathi Book Collection
     },
     pois = {
-        POI({68684159}), Path({Circle({origin = 68684159, radius = 2})}), -- Palawltar's Codez of Dimensional Structure
-        POI({69344394}), Path({Circle({origin = 69344394, radius = 2})}), -- Care and Feeding of the Imperial Lynx
-        POI({64182812}), Path({Circle({origin = 64182812, radius = 2})}), -- Shadow Curfew Guidelines
-        POI({56586518}), Path({Circle({origin = 56586518, radius = 2})}), -- Beledar - The Emperor's Vision
-        POI({70225684}), Path({Circle({origin = 70225684, radius = 2})}), -- The Song of Renilash
-        POI({48153959}), Path({Circle({origin = 48153959, radius = 2})}) -- The Big Book of Arathi Idioms
+        POI({48756471}), Path({Circle({origin = 48756471, radius = 2})}), -- Palawltar's Codez of Dimensional Structure -- q83309
+        POI({69344394}), Path({Circle({origin = 69344394, radius = 2})}), -- Care and Feeding of the Imperial Lynx -- q83310
+        POI({64182812}), Path({Circle({origin = 64182812, radius = 2})}), -- Shadow Curfew Guidelines -- q83311
+        POI({56586518}), Path({Circle({origin = 56586518, radius = 2})}), -- Beledar - The Emperor's Vision -- q83312
+        POI({70225684}), Path({Circle({origin = 70225684, radius = 2})}), -- The Song of Renilash -- q83313
+        POI({48153959}), Path({Circle({origin = 48153959, radius = 2})}) -- The Big Book of Arathi Idioms -- q83314
     }
 }) -- Arathi Loremaster
+
+-- Questions trigger quests > 83300 > 83301 > 83302 > 83303 > 83304 > 83305
 
 map.nodes[41795827] = Treasure({
     quest = nil,
@@ -236,8 +245,8 @@ map.nodes[59525966] = Treasure({
     }
 }) -- Dark Ritual
 
-map.nodes[57652744] = Treasure({
-    quest = nil,
+map.nodes[58382715] = Treasure({
+    quest = 81468,
     location = L['in_small_cave'],
     note = L['illuminated_footlocker_note'],
     rewards = {
@@ -296,7 +305,7 @@ map.nodes[55726960] = Treasure({
 }) -- Jewel of the Cliffs
 
 map.nodes[50071385] = Treasure({
-    quest = nil,
+    quest = 81978,
     note = L['lost_necklace_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69699}),
@@ -407,7 +416,7 @@ map.nodes[10001400] = BiblioBook({
     rewards = {Achievement({id = 40622, criteria = 68957})}
 }) -- Care and Feeding of the Imperial Lynx
 
-map.nodes[12001400] = BiblioBook({
+map.nodes[68694149] = BiblioBook({
     location = L['biblio_book_04_location'],
     rewards = {Achievement({id = 40622, criteria = 68958})}
 }) -- Light's Gambit Playbook

@@ -80,7 +80,7 @@ L['sathilga_location'] = 'PH'
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
-L['arathi_loremaster_note'] = 'Speak with {npc:221630} within {location:Mereldar} and answer several questions correctly to receive {item:225659}.\n\nAnswers can be found within books located around {location:Hallowfall}.\n\n{note:Books do not need to be found to answer the questions however all books overlap with {achievement:40622}.}'
+L['arathi_loremaster_note'] = 'Speak with {npc:221630} within {location:Mereldar} and answer several questions correctly to receive {item:225659}.\n\nAnswers can be found within books located around {location:Hallowfall}.'
 L['caesper_note'] = 'Purchase {item:225238} from ({dot:Blue}) {npc:217645} in {location:Dunelle\'s Kindess}, {location:Hallowfall}.\n\nFeed it to {npc:225948} and follow him to the treasure.'
 L['dark_ritual_note'] = 'Interact with the {object:Dark Ritual} and defeat all the {npc:226059}, {npc:226052}, and {npc:226062} to loot the {object:Shadowed Essence}.'
 L['illuminated_footlocker_note'] = 'Catch 5x falling {spell:442389} from the {npc:220703} to receive {spell:442529} and reveal the {object:Illuminated Footlocker}.'
