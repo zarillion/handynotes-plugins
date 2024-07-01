@@ -80,6 +80,21 @@ L['sathilga_location'] = nil
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
+L['arathi_loremaster_note'] = nil
+L['caesper_note'] = nil
+L['dark_ritual_note'] = nil
+L['illuminated_footlocker_note'] = nil
+L['illusive_kobyss_lure_note'] = nil
+L['sunless_lure_location'] = nil
+L['murkfin_lure_location'] = nil
+L['hungering_shimmerfin_location'] = nil
+L['ragefin_necrostaff_location'] = nil
+L['jewel_of_the_cliffs_location'] = nil
+L['lost_necklace_note'] = nil
+L['priory_satchel_location'] = nil
+L['smugglers_treasure_note'] = nil
+L['smugglers_treasure_location'] = nil
+
 L['options_icons_biblio_archivist'] = nil
 L['options_icons_biblio_archivist_desc'] = nil
 

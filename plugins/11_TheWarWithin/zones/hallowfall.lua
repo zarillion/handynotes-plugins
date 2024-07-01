@@ -14,8 +14,16 @@ local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
+local Recipe = ns.reward.Recipe
+local Toy = ns.reward.Toy
 
+local ItemStatus = ns.tooltip.ItemStatus
 local ReputationGain = ns.tooltip.ReputationGain
+
+local POI = ns.poi.POI
+local Path = ns.poi.Path
+local Circle = ns.poi.Circle
 
 -------------------------------------------------------------------------------
 
@@ -185,44 +193,124 @@ local map = Map({id = 2215, settings = true})
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[06002400] = Treasure({
+map.nodes[40035112] = Treasure({
     quest = nil,
-    rewards = {Achievement({id = 40848, criteria = 69695})}
+    note = L['arathi_loremaster_note'],
+    rewards = {
+        Achievement({id = 40848, criteria = 69695}), --
+        Toy({item = 225659}) -- Arathi Book Collection
+    },
+    pois = {
+        POI({68684159}), Path({Circle({origin = 68684159, radius = 2})}), -- Palawltar's Codez of Dimensional Structure
+        POI({69344394}), Path({Circle({origin = 69344394, radius = 2})}), -- Care and Feeding of the Imperial Lynx
+        POI({64182812}), Path({Circle({origin = 64182812, radius = 2})}), -- Shadow Curfew Guidelines
+        POI({56586518}), Path({Circle({origin = 56586518, radius = 2})}), -- Beledar - The Emperor's Vision
+        POI({70225684}), Path({Circle({origin = 70225684, radius = 2})}), -- The Song of Renilash
+        POI({48153959}), Path({Circle({origin = 48153959, radius = 2})}) -- The Big Book of Arathi Idioms
+    }
 }) -- Arathi Loremaster
 
-map.nodes[08002400] = Treasure({
+map.nodes[41795827] = Treasure({
     quest = nil,
-    rewards = {Achievement({id = 40848, criteria = 69692})}
+    note = L['caesper_note'],
+    rewards = {
+        Achievement({id = 40848, criteria = 69692}),
+        Recipe({item = 225639, profession = 185}) -- Recipe: Exquisitely Eviscerated Muscle
+    },
+    pois = {
+        POI({69254397}), -- Torran Dellain
+        Path({Circle({origin = 69254397, radius = 2})})
+    }
 }) -- Caesper
 
-map.nodes[10002400] = Treasure({
+map.nodes[59525966] = Treasure({
     quest = nil,
-    rewards = {Achievement({id = 40848, criteria = 69694})}
+    location = L['in_cave'],
+    note = L['dark_ritual_note'],
+    rewards = {
+        Achievement({id = 40848, criteria = 69694}),
+        Item({item = 225693, note = L['trinket']}) -- Shadowed Essence
+    },
+    pois = {
+        POI({59656067}) -- Entrance
+    }
 }) -- Dark Ritual
 
-map.nodes[12002400] = Treasure({
+map.nodes[57652744] = Treasure({
     quest = nil,
-    rewards = {Achievement({id = 40848, criteria = 69701})}
+    location = L['in_small_cave'],
+    note = L['illuminated_footlocker_note'],
+    rewards = {
+        Achievement({id = 40848, criteria = 69701}), --
+        Toy({item = 224552}) -- Cave Spelunker's Torch
+    },
+    pois = {POI({57642740})} -- Entrance
 }) -- Illuminated Footlocker
 
-map.nodes[14002400] = Treasure({
+local IllusiveKobyssLure = Class('IllusiveKobyssLure', Treasure, {
     quest = nil,
-    rewards = {Achievement({id = 40848, criteria = 69696})}
+    rlabel = ns.status.Gray('{item:225641}'),
+    fgroup = 'illusive_kobyss_lure',
+    rewards = {
+        Achievement({id = 40848, criteria = 69696}), --
+        Toy({item = 225641}) -- Illusive Kobyss Lure
+    }
 }) -- Illusive Kobyss Lure
 
-map.nodes[16002400] = Treasure({
+function IllusiveKobyssLure.getters:note()
+    local note = L['illusive_kobyss_lure_note']
+    note = note .. ItemStatus(225554, 1, '{item:225554}') -- Sunless Lure
+    note = note .. ItemStatus(225558, 1, '{item:225558}') -- Murkfin Lure
+    note = note .. ItemStatus(225559, 1, '{item:225559}') -- Hungering Shimmerfin
+    note = note .. ItemStatus(225560, 1, '{item:225560}') -- Ragefin Necrostaff
+    return note
+end
+
+map.nodes[55362720] = IllusiveKobyssLure({
+    label = '{item:225554}',
+    location = L['sunless_lure_location']
+}) -- Sunless Lure
+
+map.nodes[47611854] = IllusiveKobyssLure({
+    label = '{item:225558}',
+    location = L['murkfin_lure_location']
+}) -- Murkfin Lure
+
+map.nodes[50655037] = IllusiveKobyssLure({
+    label = '{item:225559}',
+    location = L['hungering_shimmerfin_location']
+}) -- Hungering Shimmerfin
+
+map.nodes[34965465] = IllusiveKobyssLure({
+    label = '{item:225560}',
+    location = L['ragefin_necrostaff_location']
+}) -- Ragefin Necrostaff
+
+map.nodes[55726960] = Treasure({
     quest = nil,
-    rewards = {Achievement({id = 40848, criteria = 69697})}
+    location = L['jewel_of_the_cliffs_location'],
+    rewards = {
+        Achievement({id = 40848, criteria = 69697}), --
+        Item({item = 224580}) -- Massive Sapphire Chunk
+    }
 }) -- Jewel of the Cliffs
 
-map.nodes[18002400] = Treasure({
+map.nodes[50071385] = Treasure({
     quest = nil,
-    rewards = {Achievement({id = 40848, criteria = 69699})}
+    note = L['lost_necklace_note'],
+    rewards = {
+        Achievement({id = 40848, criteria = 69699}),
+        Item({item = 224575, note = L['neck']}) -- Lightbearer's Pendant
+    }
 }) -- Lost Necklace
 
-map.nodes[20002400] = Treasure({
+map.nodes[30233875] = Treasure({
     quest = nil,
-    rewards = {Achievement({id = 40848, criteria = 69698})}
+    location = L['priory_satchel_location'],
+    rewards = {
+        Achievement({id = 40848, criteria = 69698}),
+        Item({item = 224578, note = L['bag']}) -- Arathor Courier's Satchel
+    }
 }) -- Priory Satchel
 
 map.nodes[22002400] = Treasure({
@@ -230,14 +318,23 @@ map.nodes[22002400] = Treasure({
     rewards = {Achievement({id = 40848, criteria = 69700})}
 }) -- Sky-Captains' Sunken Cache
 
-map.nodes[24002400] = Treasure({
+map.nodes[55145185] = Treasure({
     quest = nil,
-    rewards = {Achievement({id = 40848, criteria = 69693})}
+    requires = ns.requirement.Item(225335), -- Smuggler's Key
+    location = L['smugglers_treasure_location'],
+    note = L['smugglers_treasure_note'],
+    rewards = {
+        Achievement({id = 40848, criteria = 69693}), --
+        Item({item = 226021}) -- Jar of Pickels
+    },
+    pois = {POI({55425164})} -- Dead Arathi
 }) -- Smuggler's Treasure
 
-map.nodes[26002400] = Treasure({
+map.nodes[76765382] = Treasure({
     quest = nil,
-    rewards = {Achievement({id = 40848, criteria = 69702})}
+    location = L['in_cave'],
+    rewards = {Achievement({id = 40848, criteria = 69702})},
+    pois = {POI({76105390})} -- Entrance
 }) -- Spore-covered Coffer
 
 -------------------------------------------------------------------------------

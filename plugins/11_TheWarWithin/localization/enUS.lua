@@ -80,6 +80,21 @@ L['sathilga_location'] = 'PH'
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
+L['arathi_loremaster_note'] = 'Speak with {npc:221630} within {location:Mereldar} and answer several questions correctly to receive {item:225659}.\n\nAnswers can be found within books located around {location:Hallowfall}.\n\n{note:Books do not need to be found to answer the questions however all books overlap with {achievement:40622}.}'
+L['caesper_note'] = 'Purchase {item:225238} from ({dot:Blue}) {npc:217645} in {location:Dunelle\'s Kindess}, {location:Hallowfall}.\n\nFeed it to {npc:225948} and follow him to the treasure.'
+L['dark_ritual_note'] = 'Interact with the {object:Dark Ritual} and defeat all the {npc:226059}, {npc:226052}, and {npc:226062} to loot the {object:Shadowed Essence}.'
+L['illuminated_footlocker_note'] = 'Catch 5x falling {spell:442389} from the {npc:220703} to receive {spell:442529} and reveal the {object:Illuminated Footlocker}.'
+L['illusive_kobyss_lure_note'] = 'Combine all 4 items to create {item:225641}:'
+L['sunless_lure_location'] = 'Dropped by {npc:215653} on the {location:Sunless Strand}.'
+L['murkfin_lure_location'] = 'Dropped by {npc:213622} on {location:Velhan\'s Claim}. They are camouflaged and use an {npc:215623} as bait.'
+L['hungering_shimmerfin_location'] = 'Dropped by {npc:215243} in {location:The Hungering Pool}. They are camouflaged and use an {npc:215623} as bait.'
+L['ragefin_necrostaff_location'] = 'Dropped by {npc:213406} at the {location:Veneration Grounds}.'
+L['jewel_of_the_cliffs_location'] = 'Extremely high up in the stone wall.'
+L['lost_necklace_note'] = 'Loot the {object:Lost Momento} on the edge of the shrine.'
+L['priory_satchel_location'] = 'Loot the {object:Windswept Satchel} hanging from the corner of the {location:Priory of the Sacred Flame} cathedral.'
+L['smugglers_treasure_note'] = 'Loot the required {item:225335} from the ({dot:Blue}) {npc:226025} below the cliff.'
+L['smugglers_treasure_location'] = 'High on the cliff between several rocks.'
+
 L['options_icons_biblio_archivist'] = '{achievement:40622}'
 L['options_icons_biblio_archivist_desc'] = 'Display book locations for {achievement:40622}.'
 
