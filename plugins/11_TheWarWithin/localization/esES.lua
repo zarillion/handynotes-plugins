@@ -79,7 +79,7 @@ L['sathilga_location'] = nil
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
-L['arathi_loremaster_note'] = 'Habla con {npc:221630} dentro de {location:Mereldar} y responde varias preguntas correctamente para recibir la {item:225659}.\n\nPuedes encontrar las respuestas en los libros que hay por alrededor de {location:Santificación}.\n\n{note:No hace falta encontrar los libros para responder las preguntas, aunque todos los libros corresponden al logro {achievement:40622}.}'
+L['arathi_loremaster_note'] = 'Habla con {npc:221630} dentro de {location:Mereldar} y responde varias preguntas correctamente para recibir la {item:225659}.\n\nPuedes encontrar las respuestas en los libros que hay por alrededor de {location:Santificación}.'
 L['caesper_note'] = 'Compra una {item:225238} a ({dot:Blue}) {npc:217645} en {location:Amabilidad de Dunelle}, {location:Santificación}.\n\nAlimenta a {npc:225948} y síguelo al tesoro.'
 L['dark_ritual_note'] = 'Interactúa con el {object:Ritual Oscuro} y derrota a {npc:226059}, {npc:226052}, y {npc:226062} para despojar la {object:Esencia Sombreada}.'
 L['illuminated_footlocker_note'] = 'Consigue 5x {spell:442389} que caen de {npc:220703} para conseguir {spell:442529} y descubrir el {object:Baúl Iluminado}.'
