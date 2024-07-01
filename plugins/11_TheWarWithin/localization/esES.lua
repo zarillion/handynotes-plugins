@@ -28,8 +28,8 @@ L['mushroom_cap_note'] = 'Recoge un {object:Hongo de Boscorraíz} en el bosque c
 L['mysterious_orb_note'] = 'Lleva la {object:Perla Elemental} de vuelta al {npc:222847}.'
 L['thaks_treasure_note'] = 'Habla con {npc:223227} y síguelo.'
 L['trees_treasure_note'] = 'Habla con {npc:222940} para conseguir {item:224185}. Guia 6x {npc:224548} {dot:Green} alrededor de la {location:Isla de Dorn} de vuelta a {npc:222940}. Cuando haya guiado a todos los cangrejos de vuelta, habla con ella.'
-L['turtles_thanks_1_note'] = 'Entrega 5x {item:220143} (puede ser pescado de bancos {object:Calm Surfacing Ripple} o comprados en la casa de subastas). {note:Deja la zona y vuelve inmediatamente para entregar el siguiente pez.}' -- NYT for object. I can't do without client esES and I cancel WoW > 2 years.
-L['turtles_thanks_2_note'] = 'Entrega 1x {item:222533} (puede ser pescado de bancos {object:Glimmerpool}, {object:Festering Rotpool}, {object:Infused Ichor Spill} o comprados en la casa de subastas).' -- NYT for objects. I can't do without client esES and I cancel WoW > 2 years.
+L['turtles_thanks_1_note'] = 'Entrega 5x {item:220143} (puede ser pescado de bancos {object:Onda calmada} o comprados en la casa de subastas). {note:Deja la zona y vuelve inmediatamente para entregar el siguiente pez.}'
+L['turtles_thanks_2_note'] = 'Entrega 1x {item:222533} (puede ser pescado de bancos {object:Lagoluz}, {object:Festering Rotpool}, {object:Vertido de Ícor Imbuido} o comprados en la casa de subastas).' -- NYT for object:Festering Rotpool. I can't do without client esES and I cancel WoW > 2 years.
 L['turtles_thanks_3_note'] = 'Alimenta a {npc:223338} en {location:Dornogal} y habla con ella para revelar el tesoro.'
 
 -------------------------------------------------------------------------------
@@ -37,7 +37,7 @@ L['turtles_thanks_3_note'] = 'Alimenta a {npc:223338} en {location:Dornogal} y h
 -------------------------------------------------------------------------------
 
 L['forgotten_treasure_note'] = 'Abre los {object:Tesoro Enterrado} cercanos para conseguir la {item:217960}.'
-L['kaja_cola_machine_note'] = 'Compra bebidas en el orden siguiente: Bluesberry Blast > Orange O-pocalypse > Oyster Outbreak > Mangoro Madness.' -- NYT for drinks
+L['kaja_cola_machine_note'] = 'Compra bebidas en el orden siguiente: Bomba de Bayazul > Napalm de Naranja > Oleada de Ostras > Majadería de Mangoro.'
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Muestra dónde están las consolas del logro {achievement:40473}.'
 
@@ -82,7 +82,7 @@ L['sathilga_location'] = nil
 L['arathi_loremaster_note'] = 'Habla con {npc:221630} dentro de {location:Mereldar} y responde varias preguntas correctamente para recibir la {item:225659}.\n\nPuedes encontrar las respuestas en los libros que hay por alrededor de {location:Santificación}.\n\n{note:No hace falta encontrar los libros para responder las preguntas, aunque todos los libros corresponden al logro {achievement:40622}.}'
 L['caesper_note'] = 'Compra una {item:225238} a ({dot:Blue}) {npc:217645} en {location:Amabilidad de Dunelle}, {location:Santificación}.\n\nAlimenta a {npc:225948} y síguelo al tesoro.'
 L['dark_ritual_note'] = 'Interactúa con el {object:Ritual Oscuro} y derrota a {npc:226059}, {npc:226052}, y {npc:226062} para despojar la {object:Esencia Sombreada}.'
-L['illuminated_footlocker_note'] = 'Consigue 5x {spell:442389} que caen de {npc:220703} para conseguir {spell:442529} y descubrir {object:Illuminated Footlocker}.' -- NYT object. I can't do without client esES and I cancel WoW > 2 years.
+L['illuminated_footlocker_note'] = 'Consigue 5x {spell:442389} que caen de {npc:220703} para conseguir {spell:442529} y descubrir el {object:Baúl Iluminado}.'
 L['illusive_kobyss_lure_note'] = 'Combina los 4 objetos para crear {item:225641}:'
 L['sunless_lure_location'] = 'Se despoja de {npc:215653} en la {location:Playa del Sol Ausente}.'
 L['murkfin_lure_location'] = 'Se despoja de {npc:213622} en {location:Reclamación de Velhan}. Están camuflados y has de usar {npc:215623} como cebo.'
