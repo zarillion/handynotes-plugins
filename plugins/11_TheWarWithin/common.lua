@@ -229,7 +229,6 @@ end
 
 -- Mining
 -- 226333 Dornogal Chisel -- https://www.wowhead.com/ptr-2/item=226333/dornogal-chisel#comments:id=5881311
--- 226334 Earthen Excavator's Shovel -- https://www.wowhead.com/ptr-2/item=226334/earthen-excavators-shovel#comments:id=5878047
 -- 226335 Regenerating Ore -- https://www.wowhead.com/ptr-2/item=226335/regenerating-ore#comments:id=5878181
 -- 226336 Arathi Precision Drill
 -- 226337 Devout Archaeologist's Excavator -- https://www.wowhead.com/ptr-2/item=226337/devout-archaeologists-excavator#comments:id=5878717

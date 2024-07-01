@@ -53,7 +53,7 @@ map.nodes[41077616] = Rare({ -- get path
     }
 }) -- Bloodmaw
 
-map.nodes[76403620] = Rare({ -- review
+map.nodes[55762753] = Rare({ -- review
     id = 221128,
     quest = nil,
     rewards = {Achievement({id = 40435, criteria = 68224})}
@@ -78,7 +78,7 @@ map.nodes[25784503] = Rare({
     rewards = {Achievement({id = 40435, criteria = 68218})}
 }) -- Escaped Cutthroat
 
-map.nodes[62714007] = Rare({ -- get path
+map.nodes[63984054] = Rare({ -- get path
     id = 219279,
     quest = 81905, -- 84034 ?
     rlabel = ReputationGain(150, 2590), -- Council of Dornogal
@@ -385,7 +385,11 @@ dor.nodes[58283026] = TurtlesThanks({
 --     rewards = {Achievement({id = 40434, criteria = nil})}
 -- }) -- Earthen Coffer
 
-map.nodes[73693706] = Treasure({quest = nil, note = L['in_small_cave']}) -- Elemental Geode
+map.nodes[73693706] = Treasure({
+    lable = L['elemental_geode_label'],
+    quest = nil,
+    note = L['in_small_cave']
+}) -- Elemental Geode
 
 -- map.nodes[63804310] = Treasure({
 --     quest = nil,

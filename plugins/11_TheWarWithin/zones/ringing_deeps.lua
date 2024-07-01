@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -15,9 +16,10 @@ local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 
--- local Path = ns.poi.Path
+local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 local ReputationGain = ns.tooltip.ReputationGain
@@ -30,9 +32,9 @@ local map = Map({id = 2214, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[55087053] = Rare({
+map.nodes[49606619] = Rare({
     id = 220274,
-    quest = nil
+    quest = 80557
     -- rewards = {Achievement({id = nil, criteria = nil})}
 }) -- Aquellion
 
@@ -51,13 +53,13 @@ map.nodes[66232975] = Rare({ -- flyes around
     }
 }) -- Candleflayer Captain
 
-map.nodes[41291725] = Rare({ -- review, multiple locations?
+map.nodes[41371692] = Rare({ -- review, multiple locations?
     id = 220267,
     quest = nil
     -- rewards = {Achievement({id = nil, criteria = nil})}
 }) -- Charmonger
 
-map.nodes[50004200] = Rare({ -- review
+map.nodes[57883810] = Rare({ -- review
     id = 220266,
     quest = nil
     -- rewards = {Achievement({id = nil, criteria = nil})}
@@ -71,18 +73,18 @@ map.nodes[43005000] = Rare({ -- review
 
 map.nodes[66636887] = Rare({
     id = 220272,
-    quest = nil,
+    quest = 81566,
     note = L['in_small_cave']
     -- rewards = {Achievement({id = nil, criteria = nil})}
 }) -- Deathbound Husk
 
-map.nodes[61005700] = Rare({ -- review
+map.nodes[67045265] = Rare({ -- review
     id = 218393,
     quest = nil
     -- rewards = {Achievement({id = nil, criteria = nil})}
 }) -- Disturbed Earthgorger
 
-map.nodes[57005700] = Rare({ -- review
+map.nodes[65354950] = Rare({ -- review
     id = 221199,
     quest = nil
     -- rewards = {Achievement({id = nil, criteria = nil})}
@@ -109,10 +111,16 @@ map.nodes[57015473] = Rare({
     -- rewards = {Achievement({id = nil, criteria = nil})}
 }) -- Rampaging Skardyn
 
-map.nodes[60005300] = Rare({ -- review
+map.nodes[66214622] = Rare({ -- review
     id = 221217,
-    quest = nil
+    quest = nil,
     -- rewards = {Achievement({id = nil, criteria = nil})}
+    pois = {
+        Path({
+            65424760, 66214622, 67714621, 68464746, 68644916, 68195135,
+            66875175, 66384917, 65424760
+        })
+    }
 }) -- Spore-infused Shalewing
 
 map.nodes[47621217] = Rare({
@@ -126,7 +134,7 @@ map.nodes[71654630] = Rare({
     quest = nil,
     note = L['in_cave'],
     -- rewards = {Achievement({id = nil, criteria = nil})}
-    pois = {POI({7284443})} -- Entrance
+    pois = {POI({72844447})} -- Entrance
 }) -- Trungal
 
 -------------------------------------------------------------------------------
@@ -141,17 +149,17 @@ map.nodes[52591991] = Rare({
 -------------------------------------------------------------------------------
 
 map.nodes[63086311] = Treasure({ -- lvl 71
-    quest = nil,
+    quest = 82230,
     rewards = {Achievement({id = 40724, criteria = 69281})}
 }) -- Cursed Pickaxe
 
 map.nodes[45511745] = Treasure({ -- lvl 73
-    quest = nil,
+    quest = 82239,
     rewards = {Achievement({id = 40724, criteria = 69283})}
 }) -- Discarded Toolbox
 
 map.nodes[48254896] = Treasure({ -- lvl 71
-    quest = nil,
+    quest = 82820,
     rewards = {Achievement({id = 40724, criteria = 69311})}
 }) -- Dislodged Blockage (Blocked Intake)
 
@@ -181,7 +189,7 @@ map.nodes[59016438] = Treasure({
 }) -- Kaja'Cola Machine
 
 map.nodes[50485349] = Treasure({ -- lvl 71
-    quest = nil,
+    quest = 80485,
     requires = {
         ns.requirement.Item(217960) -- Forgotten Key
     },
@@ -191,28 +199,36 @@ map.nodes[50485349] = Treasure({ -- lvl 71
 }) -- Forgotten Treasure
 
 map.nodes[55391385] = Treasure({ -- lvl 71
-    quest = nil,
+    quest = 82235,
     note = L['in_small_cave'],
     rewards = {Achievement({id = 40724, criteria = 69282})},
     pois = {POI({54681421})} -- Entrance
 }) -- Munderut's Forgotten Stash
 
 map.nodes[58933027] = Treasure({ -- lvl 71
-    quest = nil,
-    rewards = {Achievement({id = 40724, criteria = 69307})}
+    quest = 82818,
+    rewards = {
+        Achievement({id = 40724, criteria = 69307}), Pet({id = 4470}) -- Oop'lajax
+    }
 }) -- Scary Dark Chest
 
 map.nodes[66203341] = Treasure({ -- lvl 71
-    quest = nil,
+    quest = 83030,
     rewards = {Achievement({id = 40724, criteria = 69304})}
 }) -- Waterlogged Refuse
 
 map.nodes[68863883] = Treasure({ -- lvl 71
-    quest = nil,
+    quest = 79308,
     note = L['in_small_cave'],
     rewards = {Achievement({id = 40724, criteria = 69280})},
     pois = {POI({68714072})} -- Entrance
 }) -- Webbed Knapsack
+
+-------------------------------------------------------------------------------
+----------------------------- PROFESSION TREASURES ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[58186204] = PT.Mining({quest = 83908, id = 226334}) -- Earthen Excavator's Shovel
 
 -------------------------------------------------------------------------------
 ----------------------- THE RINGING DEEPS GLYPH HUNTER ------------------------

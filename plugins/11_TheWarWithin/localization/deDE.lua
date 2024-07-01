@@ -20,6 +20,9 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = nil
 
 L['alunira_note'] = nil
 
+L['inside_building'] = 'Im Gebäude.'
+
+L['elemental_geode_label'] = nil
 L['magical_treasure_chest_note'] = nil
 L['mosswool_flower_note'] = nil
 L['mushroom_cap_note'] = nil

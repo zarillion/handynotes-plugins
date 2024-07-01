@@ -20,6 +20,9 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Afficher les emplacements des 
 
 L['alunira_note'] = nil
 
+L['inside_building'] = 'A l\'intérieur du bâtiment.'
+
+L['elemental_geode_label'] = nil
 L['magical_treasure_chest_note'] = 'Poussez {npc:223104} dans l\'eau puis récupérez 5x {npc:223159} à proximité.'
 L['mosswool_flower_note'] = 'Cliquez sur la {npc:222956} et suivez-la.'
 L['mushroom_cap_note'] = 'Ramassez un {object:Chapeau de Boscracine} dans la forêt voisine et ramenez-le à {npc:222894}.'
