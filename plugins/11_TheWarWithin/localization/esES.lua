@@ -21,15 +21,15 @@ L['alunira_note'] = 'Recoge 10x {item:224025} y combínalos en un {item:224026} 
 
 L['inside_building'] = 'En el edificio.'
 
-L['elemental_geode_label'] = nil
+L['elemental_geode_label'] = 'Geoda Elemental'
 L['magical_treasure_chest_note'] = 'Empuja a {npc:223104} de regreso al agua y luego recoge 5 {npc:223159} en las cercanías.'
 L['mosswool_flower_note'] = 'Haz click en {npc:222956} y síguelo.'
 L['mushroom_cap_note'] = 'Recoge un {object:Hongo de Boscorraíz} en el bosque cercano y llévalo de vuelta a {npc:222894}.'
 L['mysterious_orb_note'] = 'Lleva la {object:Perla Elemental} de vuelta al {npc:222847}.'
 L['thaks_treasure_note'] = 'Habla con {npc:223227} y síguelo.'
 L['trees_treasure_note'] = 'Habla con {npc:222940} para conseguir {item:224185}. Guia 6x {npc:224548} {dot:Green} alrededor de la {location:Isla de Dorn} de vuelta a {npc:222940}. Cuando haya guiado a todos los cangrejos de vuelta, habla con ella.'
-L['turtles_thanks_1_note'] = 'Entrega 5x {item:220143} (puede ser pescado de bancos {object:Calm Surfacing Ripple} o comprados en la casa de subastas). {note:Deja la zona y vuelve inmediatamente para entregar el siguiente pez.}' -- Falta el banco de peces
-L['turtles_thanks_2_note'] = 'Entrega 1x {item:222533} (puede ser pescado de bancos {object:Glimmerpool}, {object:Festering Rotpool}, {object:Infused Ichor Spill} o comprados en la casa de subastas).' -- Faltan los bancos de peces
+L['turtles_thanks_1_note'] = 'Entrega 5x {item:220143} (puede ser pescado de bancos {object:Calm Surfacing Ripple} o comprados en la casa de subastas). {note:Deja la zona y vuelve inmediatamente para entregar el siguiente pez.}' -- NYT for object. I can't do without client esES and I cancel WoW > 2 years.
+L['turtles_thanks_2_note'] = 'Entrega 1x {item:222533} (puede ser pescado de bancos {object:Glimmerpool}, {object:Festering Rotpool}, {object:Infused Ichor Spill} o comprados en la casa de subastas).' -- NYT for objects. I can't do without client esES and I cancel WoW > 2 years.
 L['turtles_thanks_3_note'] = 'Alimenta a {npc:223338} en {location:Dornogal} y habla con ella para revelar el tesoro.'
 
 -------------------------------------------------------------------------------
@@ -37,8 +37,7 @@ L['turtles_thanks_3_note'] = 'Alimenta a {npc:223338} en {location:Dornogal} y h
 -------------------------------------------------------------------------------
 
 L['forgotten_treasure_note'] = 'Abre los {object:Tesoro Enterrado} cercanos para conseguir la {item:217960}.'
-L['kaja_cola_machine_note'] = 'Compra bebidas en el orden siguiente: Bluesberry Blast > Orange O-pocalypse > Oyster Outbreak > Mangoro Madness.' -- Faltan las bebidas
-
+L['kaja_cola_machine_note'] = 'Compra bebidas en el orden siguiente: Bluesberry Blast > Orange O-pocalypse > Oyster Outbreak > Mangoro Madness.' -- NYT for drinks
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Muestra dónde están las consolas del logro {achievement:40473}.'
 
@@ -80,20 +79,20 @@ L['sathilga_location'] = nil
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
-L['arathi_loremaster_note'] = nil
-L['caesper_note'] = nil
-L['dark_ritual_note'] = nil
-L['illuminated_footlocker_note'] = nil
-L['illusive_kobyss_lure_note'] = nil
-L['sunless_lure_location'] = nil
-L['murkfin_lure_location'] = nil
-L['hungering_shimmerfin_location'] = nil
-L['ragefin_necrostaff_location'] = nil
-L['jewel_of_the_cliffs_location'] = nil
-L['lost_necklace_note'] = nil
-L['priory_satchel_location'] = nil
-L['smugglers_treasure_note'] = nil
-L['smugglers_treasure_location'] = nil
+L['arathi_loremaster_note'] = 'Habla con {npc:221630} dentro de {location:Mereldar} y responde varias preguntas correctamente para recibir la {item:225659}.\n\nPuedes encontrar las respuestas en los libros que hay por alrededor de {location:Santificación}.\n\n{note:No hace falta encontrar los libros para responder las preguntas, aunque todos los libros corresponden al logro {achievement:40622}.}'
+L['caesper_note'] = 'Compra una {item:225238} a ({dot:Blue}) {npc:217645} en {location:Amabilidad de Dunelle}, {location:Santificación}.\n\nAlimenta a {npc:225948} y síguelo al tesoro.'
+L['dark_ritual_note'] = 'Interactúa con el {object:Ritual Oscuro} y derrota a {npc:226059}, {npc:226052}, y {npc:226062} para despojar la {object:Esencia Sombreada}.'
+L['illuminated_footlocker_note'] = 'Consigue 5x {spell:442389} que caen de {npc:220703} para conseguir {spell:442529} y descubrir {object:Illuminated Footlocker}.' -- NYT object. I can't do without client esES and I cancel WoW > 2 years.
+L['illusive_kobyss_lure_note'] = 'Combina los 4 objetos para crear {item:225641}:'
+L['sunless_lure_location'] = 'Se despoja de {npc:215653} en la {location:Playa del Sol Ausente}.'
+L['murkfin_lure_location'] = 'Se despoja de {npc:213622} en {location:Reclamación de Velhan}. Están camuflados y has de usar {npc:215623} como cebo.'
+L['hungering_shimmerfin_location'] = 'Se despoja de {npc:215243} en el {location:Charco Hambriento}. Están camuflados y has de usar {npc:215623} como cebo.'
+L['ragefin_necrostaff_location'] = 'Se despoja de {npc:213406} en las {location:Tierras de Veneración}.'
+L['jewel_of_the_cliffs_location'] = 'Extremadamente alto en el muro de piedra.'
+L['lost_necklace_note'] = 'Despoja el {object:Recuerdo Perdido} en el borde del santuario.'
+L['priory_satchel_location'] = 'Despoja {object:Windswept Satchel} colgando de la esquina del monasterio del {location:Priorato de la Llama Sagrada}.'
+L['smugglers_treasure_note'] = 'Despoja la {item:225335} requerida desde ({dot:Blue}) {npc:226025} debajo del acantilado.'
+L['smugglers_treasure_location'] = 'En lo alto del acantilado entre varias rocas.'
 
 L['options_icons_biblio_archivist'] = '{achievement:40622}'
 L['options_icons_biblio_archivist_desc'] = 'Muestra dónde están los libros del logro {achievement:40622}.'
