@@ -415,27 +415,27 @@ map.nodes[06001800] = MissingLynx({
     rewards = {Achievement({id = 40625, criteria = 68975})}
 }) -- Magpie
 
-map.nodes[08001800] = MissingLynx({
+map.nodes[42695384] = MissingLynx({
     location = L['evan_location'],
     rewards = {Achievement({id = 40625, criteria = 68998})}
 }) -- Evan
 
-map.nodes[10001800] = MissingLynx({
+map.nodes[42735388] = MissingLynx({
     location = L['emery_location'],
     rewards = {Achievement({id = 40625, criteria = 68999})}
 }) -- Emery
 
-map.nodes[12001800] = MissingLynx({
+map.nodes[42305381] = MissingLynx({
     location = L['jinx_location'],
     rewards = {Achievement({id = 40625, criteria = 69000})}
 }) -- Jinx
 
-map.nodes[14001800] = MissingLynx({
+map.nodes[69274372] = MissingLynx({
     location = L['moog_location'],
     rewards = {Achievement({id = 40625, criteria = 69001})}
 }) -- Moog
 
-map.nodes[16001800] = MissingLynx({
+map.nodes[69274372] = MissingLynx({
     location = L['iggy_location'],
     rewards = {Achievement({id = 40625, criteria = 69002})}
 }) -- Iggy
@@ -445,37 +445,37 @@ map.nodes[18001800] = MissingLynx({
     rewards = {Achievement({id = 40625, criteria = 69003})}
 }) -- Nightclaw
 
-map.nodes[20001800] = MissingLynx({
+map.nodes[63792932] = MissingLynx({
     location = L['purrlock_location'],
     rewards = {Achievement({id = 40625, criteria = 69004})}
 }) -- Purrlock
 
-map.nodes[22001800] = MissingLynx({
+map.nodes[63262811] = MissingLynx({
     location = L['shadowpouncer_location'],
     rewards = {Achievement({id = 40625, criteria = 69005})}
 }) -- Shadowpouncer
 
-map.nodes[24001800] = MissingLynx({
+map.nodes[61193054] = MissingLynx({
     location = L['miral_murder_mittens_location'],
     rewards = {Achievement({id = 40625, criteria = 69006})}
 }) -- Miral Murder-Mittens
 
-map.nodes[26001800] = MissingLynx({
+map.nodes[64441857] = MissingLynx({
     location = L['fuzzy_location'],
     rewards = {Achievement({id = 40625, criteria = 69007})}
 }) -- Fuzzy
 
-map.nodes[28001800] = MissingLynx({
+map.nodes[64441857] = MissingLynx({
     location = L['furball_location'],
     rewards = {Achievement({id = 40625, criteria = 69008})}
 }) -- Furball
 
-map.nodes[30001800] = MissingLynx({
+map.nodes[61922081] = MissingLynx({
     location = L['dander_location'],
     rewards = {Achievement({id = 40625, criteria = 69009})}
 }) -- Dander
 
-map.nodes[32001800] = MissingLynx({
+map.nodes[42145371] = MissingLynx({
     location = L['gobbo_location'],
     rewards = {Achievement({id = 40625, criteria = 69010})}
 }) -- Gobbo
