@@ -182,8 +182,12 @@ map.nodes[48254896] = Treasure({ -- lvl 71
 }) -- Dislodged Blockage (Blocked Intake)
 
 map.nodes[49053163] = Treasure({ -- Inside the Inn
-    quest = nil,
-    requires = {},
+    quest = 82464,
+    requires = {
+        ns.requirement.Item(223878), ns.requirement.Item(223879),
+        ns.requirement.Item(223880), ns.requirement.Item(223881),
+        ns.requirement.Item(223882)
+    },
     rewards = {Achievement({id = 40724, criteria = 69312})},
     pois = {
         POI({47673217}), -- Entrance
