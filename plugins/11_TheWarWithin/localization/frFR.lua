@@ -18,27 +18,27 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Afficher les emplacements des 
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
-L['alunira_note'] = nil
+L['alunira_note'] = 'Récupérez 10x {item:224025} et combinez-les en un {item:224026} pour retirer son {spell:451570}.'
 
 L['inside_building'] = 'A l\'intérieur du bâtiment.'
 
-L['elemental_geode_label'] = nil
+L['elemental_geode_label'] = 'Géode élémentaire'
 L['magical_treasure_chest_note'] = 'Poussez {npc:223104} dans l\'eau puis récupérez 5x {npc:223159} à proximité.'
 L['mosswool_flower_note'] = 'Cliquez sur la {npc:222956} et suivez-la.'
 L['mushroom_cap_note'] = 'Ramassez un {object:Chapeau de Boscracine} dans la forêt voisine et ramenez-le à {npc:222894}.'
 L['mysterious_orb_note'] = 'Ramenez la {object:Perle élémentaire} à l\'{npc:222847}.'
 L['thaks_treasure_note'] = 'Parlez à {npc:223227} et suivez-le.'
-L['trees_treasure_note'] = 'Parlez à {npc:222940} pour obtenir une {item:224185}. Guidez 6x {npc:224548} {dot:Green} à travers l\'{location:Île de Dorn}. Si vous avez ramassé tous les crabes, retournez dans la grotte pour parler à nouveau avec {npc:222940}.'
-L['turtles_thanks_1_note'] = nil
+L['trees_treasure_note'] = 'Parlez à {npc:222940} pour obtenir une {item:224185}. Guidez 6x {npc:224548} ({dot:Green}) répartis dans l\'{location:Île de Dorn} vers {npc:222940}. Lorsque vous avez guidé tous les crabes, retournez dans la grotte pour parler à nouveau avec {npc:222940}.'
+L['turtles_thanks_1_note'] = 'Apportez 5x {item:220143} (à pêcher dans les {object:Clapotis de surface calme} ou à acheter à l\'hôtel des ventes). {note:Quittez la zone et revenez aussitôt pour donner le poisson suivant}.'
 L['turtles_thanks_2_note'] = nil
-L['turtles_thanks_3_note'] = nil
+L['turtles_thanks_3_note'] = 'Rencontrez la {npc:223338} à {location:Dornogal} et parlez-lui pour faire apparaître le trésor.'
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------
 
-L['forgotten_treasure_note'] = nil
-L['kaja_cola_machine_note'] = nil
+L['forgotten_treasure_note'] = 'Ouvrez les {object:Trésor enfoui} à proximité pour obtenir la {item:217960}.'
+L['kaja_cola_machine_note'] = 'Achetez les boissons dans l\'ordre suivant : Bluesberry Blast > Orange O-pocalypse > Oyster Outbreak > Mangoro Madness.'
 
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Afficher les emplacements des consoles pour le haut-fait {achievement:40473}.'
@@ -81,20 +81,20 @@ L['sathilga_location'] = nil
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
-L['arathi_loremaster_note'] = nil
-L['caesper_note'] = nil
-L['dark_ritual_note'] = nil
-L['illuminated_footlocker_note'] = nil
-L['illusive_kobyss_lure_note'] = nil
-L['sunless_lure_location'] = nil
-L['murkfin_lure_location'] = nil
-L['hungering_shimmerfin_location'] = nil
-L['ragefin_necrostaff_location'] = nil
-L['jewel_of_the_cliffs_location'] = nil
-L['lost_necklace_note'] = nil
-L['priory_satchel_location'] = nil
-L['smugglers_treasure_note'] = nil
-L['smugglers_treasure_location'] = nil
+L['arathi_loremaster_note'] = 'Parlez à {npc:221630} situé à {location:Mereldar} et répondez correctement à plusieurs questions pour recevoir la {item:225659}.\n\nLes réponses se trouvent dans des livres répartis dans la zone de {location:Sainte-Chute}.\n\n{note:Il n\'est pas nécessaire de trouver les livres pour répondre aux questions, mais tous sont liés au haut-fait {achievement:40622}.}'
+L['caesper_note'] = 'Achetez un {item:225238} à ({dot:Blue}) {npc:217645} situé à la {location:Bonté de Dunelle}, {location:Sainte-Chute}.\n\nDonnez-le à manger à {npc:225948} et suivez-le jusqu\'au trésor.'
+L['dark_ritual_note'] = 'Interagissez avec le {object:Rituel des ténèbres} et battez toutes les {npc:226059}, {npc:226052}, et {npc:226062} pour récupérer l\' {object:Essence ombreuse}.'
+L['illuminated_footlocker_note'] = 'Attrapez 5x {spell:442389} chutant depuis la {npc:220703} pour recevoir l\'{spell:442529} et faire apparaître la {object:Cantine illuminée}.'
+L['illusive_kobyss_lure_note'] = 'Combinez les 4 objets pour créer l\'{item:225641} :'
+L['sunless_lure_location'] = 'Obtenu sur les {npc:215653} à la {location:Grève Sans-Soleil}.'
+L['murkfin_lure_location'] = 'Obtenu sur les {npc:213622} à la {location:Prétention de Velhan}. Ils sont camouflés et utilisent un {npc:215623} comme appât.'
+L['hungering_shimmerfin_location'] = 'Obtenu sur les {npc:215243} au {location:Bassin Dévorant}. Ils sont camouflés et utilisent un {npc:215623} comme appât.'
+L['ragefin_necrostaff_location'] = 'Obtenu sur les {npc:213406} au {location:Terrain d\'Adulation}.'
+L['jewel_of_the_cliffs_location'] = 'Très haut, dans la paroi de pierre.'
+L['lost_necklace_note'] = 'Récupérez le {object:Souvenir perdu} sur le bord du sanctuaire.'
+L['priory_satchel_location'] = 'Récupérez la {object:Besace balayée par le vent} accrochée à l\'angle de la cathédrale {location:Prieuré de la Flamme sacrée}.'
+L['smugglers_treasure_note'] = 'Récupérez la {item:225335} nécessaire sur l\'({dot:Blue}) {npc:226025} en contrebas de la falaise.'
+L['smugglers_treasure_location'] = 'En haut de la falaise, entre plusieurs rochers.'
 
 L['options_icons_biblio_archivist'] = '{achievement:40622}'
 L['options_icons_biblio_archivist_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40622}.'
