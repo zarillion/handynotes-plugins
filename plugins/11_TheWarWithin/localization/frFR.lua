@@ -38,7 +38,7 @@ L['turtles_thanks_3_note'] = 'Rencontrez la {npc:223338} à {location:Dornogal} 
 -------------------------------------------------------------------------------
 
 L['forgotten_treasure_note'] = 'Ouvrez les {object:Trésor enfoui} à proximité pour obtenir la {item:217960}.'
-L['kaja_cola_machine_note'] = 'Achetez les boissons dans l\'ordre suivant : Bluesberry Blast > Orange O-pocalypse > Oyster Outbreak > Mangoro Madness.'
+L['kaja_cola_machine_note'] = 'Achetez les boissons dans l\'ordre suivant : Dynamyrtille > O-pocalypse d\'orange > Fulgur\'huître > Mangomanie.'
 
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Afficher les emplacements des consoles pour le haut-fait {achievement:40473}.'
