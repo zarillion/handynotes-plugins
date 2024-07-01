@@ -38,6 +38,7 @@ L['turtles_thanks_3_note'] = 'Alimenta a {npc:223338} en {location:Dornogal} y h
 
 L['forgotten_treasure_note'] = 'Abre los {object:Tesoro Enterrado} cercanos para conseguir la {item:217960}.'
 L['kaja_cola_machine_note'] = 'Compra bebidas en el orden siguiente: Bomba de Bayazul > Napalm de Naranja > Oleada de Ostras > Majadería de Mangoro.'
+
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Muestra dónde están las consolas del logro {achievement:40473}.'
 
