@@ -32,89 +32,108 @@ local map = Map({id = 2214, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[49606619] = Rare({
+map.nodes[52591991] = Rare({
+    id = 220265,
+    quest = 81674,
+    rewards = {Achievement({id = 40837, criteria = 69634})}
+}) -- Automaxor
+
+local Aquellion = Class('Aquellion', Rare, {
     id = 220274,
-    quest = 80557
-    -- rewards = {Achievement({id = nil, criteria = nil})}
+    quest = 80557,
+    fgroup = 'aquellion',
+    rewards = {Achievement({id = 40837, criteria = 69625})}
 }) -- Aquellion
 
-map.nodes[52002640] = Rare({ -- review
-    id = 220270,
-    quest = nil
-    -- rewards = {Achievement({id = nil, criteria = nil})}
-}) -- Basilisk Matriarch
+map.nodes[55087053] = Aquellion()
+map.nodes[49556618] = Aquellion()
 
 map.nodes[66232975] = Rare({ -- flyes around
     id = 220276,
     quest = 80505,
     rewards = {
-        -- Achievement({id = nil, criteria = nil})
+        Achievement({id = 40837, criteria = 69623}),
         Transmog({item = 223363, slot = L['leather']}) -- Flying Kobold's Seatbelt
     }
-}) -- Candleflayer Captain
+}) -- Candleflyer Captain
 
 map.nodes[41371692] = Rare({ -- review, multiple locations?
     id = 220267,
-    quest = nil
-    -- rewards = {Achievement({id = nil, criteria = nil})}
+    quest = nil,
+    rewards = {Achievement({id = 40837, criteria = 69632})}
 }) -- Charmonger
 
 map.nodes[57883810] = Rare({ -- review
     id = 220266,
-    quest = nil
-    -- rewards = {Achievement({id = nil, criteria = nil})}
+    quest = nil,
+    rewards = {Achievement({id = 40837, criteria = 69633})}
 }) -- Coalesced Monstrosity
 
 map.nodes[43005000] = Rare({ -- review
     id = 220269,
-    quest = nil
-    -- rewards = {Achievement({id = nil, criteria = nil})}
+    quest = nil,
+    rewards = {Achievement({id = 40837, criteria = 69630})}
 }) -- Cragmund
 
 map.nodes[66636887] = Rare({
     id = 220272,
     quest = 81566,
-    note = L['in_small_cave']
-    -- rewards = {Achievement({id = nil, criteria = nil})}
+    note = L['in_small_cave'],
+    rewards = {Achievement({id = 40837, criteria = 69627})}
 }) -- Deathbound Husk
 
 map.nodes[67045265] = Rare({ -- review
     id = 218393,
-    quest = nil
-    -- rewards = {Achievement({id = nil, criteria = nil})}
+    quest = nil,
+    rewards = {Achievement({id = 40837, criteria = 69640})}
 }) -- Disturbed Earthgorger
+
+map.nodes[53000880] = Rare({ -- review 53801800
+    id = 220286,
+    quest = nil,
+    rewards = {Achievement({id = 40837, criteria = 69636})}
+}) -- Deepflayer Broodmother
 
 map.nodes[65354950] = Rare({ -- review
     id = 221199,
-    quest = nil
-    -- rewards = {Achievement({id = nil, criteria = nil})}
+    quest = nil,
+    rewards = {Achievement({id = 40837, criteria = 69639})}
 }) -- Hungerer of the Deeps
 
 map.nodes[47064697] = Rare({
     id = 220287,
-    quest = nil
-    -- rewards = {Achievement({id = nil, criteria = nil})}
+    quest = nil,
+    rewards = {Achievement({id = 40837, criteria = 69635})}
 }) -- Kelpmire
 
 map.nodes[42753510] = Rare({ -- review
     id = 220275,
     quest = 80547,
     rewards = {
-        -- Achievement({id = nil, criteria = nil})
+        Achievement({id = 40837, criteria = 69624}),
         Transmog({item = 223355, slot = L['leather']}) -- Waterskipper's Leggings
     }
 }) -- King Splash
 
+map.nodes[76002000] = Rare({
+    id = 220285,
+    quest = nil,
+    rewards = {Achievement({id = 40837, criteria = 69637})}
+}) -- Lurker of the Deeps
+
 map.nodes[57015473] = Rare({
     id = 220273,
-    quest = nil
-    -- rewards = {Achievement({id = nil, criteria = nil})}
-}) -- Rampaging Skardyn
+    quest = 81563,
+    rewards = {
+        Achievement({id = 40837, criteria = 69626}),
+        Transmog({item = 223404, slot = L['leather']}) -- Corrupted Earthen Cuffs
+    }
+}) -- Rampaging Blight
 
 map.nodes[66214622] = Rare({ -- review
     id = 221217,
     quest = nil,
-    -- rewards = {Achievement({id = nil, criteria = nil})}
+    rewards = {Achievement({id = 40837, criteria = 69638})},
     pois = {
         Path({
             65424760, 66214622, 67714621, 68464746, 68644916, 68195135,
@@ -125,24 +144,23 @@ map.nodes[66214622] = Rare({ -- review
 
 map.nodes[47621217] = Rare({
     id = 220271,
-    quest = 80507 -- 84040
-    -- rewards = {Achievement({id = nil, criteria = nil})}
+    quest = 80507,
+    rewards = {Achievement({id = 40837, criteria = 69628})}
 }) -- Terror of the Forge
 
 map.nodes[71654630] = Rare({
     id = 220268,
     quest = nil,
     note = L['in_cave'],
-    -- rewards = {Achievement({id = nil, criteria = nil})}
+    rewards = {Achievement({id = 40837, criteria = 69631})},
     pois = {POI({72844447})} -- Entrance
 }) -- Trungal
 
--------------------------------------------------------------------------------
-
-map.nodes[52591991] = Rare({
-    id = 220265,
-    quest = 81674 -- 84046
-}) -- Optimized Construct
+map.nodes[52032657] = Rare({
+    id = 220270,
+    quest = 80506,
+    rewards = {Achievement({id = 40837, criteria = 69629})}
+}) -- Zilthara
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -434,7 +452,8 @@ map.nodes[71364240] = LoreObject({
     rewards = {Achievement({id = 40762, criteria = 69375})}
 }) -- Warning: Collapsed Tunnel
 
-map.nodes[74002000] = LoreObject({ -- review
+map.nodes[50215826] = LoreObject({
     rlabel = ReputationGain(250, 2594), -- The Assembly of the Deeps
+    note = L['in_small_cave'],
     rewards = {Achievement({id = 40762, criteria = 69377})}
 }) -- Wax-Drenched Sign

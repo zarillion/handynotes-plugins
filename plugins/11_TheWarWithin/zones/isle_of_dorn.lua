@@ -48,12 +48,12 @@ map.nodes[41077616] = Rare({ -- get path
     id = 219264,
     quest = 81893,
     rewards = {
-        Achievement({id = 40435, criteria = 68214}), --
+        Achievement({id = 40435, criteria = 68214}),
         Transmog({item = 223351, slot = L['leather']}) -- Wolf Packleader's Hood
     }
 }) -- Bloodmaw
 
-map.nodes[55762753] = Rare({ -- review
+map.nodes[55762753] = Rare({
     id = 221128,
     quest = nil,
     rewards = {Achievement({id = 40435, criteria = 68224})}
@@ -162,7 +162,7 @@ map.nodes[58776068] = Rare({
     }
 }) -- Springbubble
 
-map.nodes[72603750] = Rare({ -- review
+map.nodes[69853850] = Rare({
     id = 220883,
     quest = nil,
     rewards = {Achievement({id = 40435, criteria = 68230})}
