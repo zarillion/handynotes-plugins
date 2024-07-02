@@ -81,7 +81,7 @@ L['sathilga_location'] = nil
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
-L['arathi_loremaster_note'] = 'Parlez à {npc:221630} situé à {location:Mereldar} et répondez correctement à plusieurs questions pour recevoir la {item:225659}.\n\nLes réponses se trouvent dans des livres répartis dans la zone de {location:Sainte-Chute}.\n\n{note:Il n\'est pas nécessaire de trouver les livres pour répondre aux questions, mais tous sont liés au haut-fait {achievement:40622}.}'
+L['arathi_loremaster_note'] = 'Parlez à {npc:221630} situé à {location:Mereldar} et répondez correctement à plusieurs questions pour recevoir la {item:225659}.\n\nLes réponses se trouvent dans des livres répartis dans la zone de {location:Sainte-Chute}.'
 L['caesper_note'] = 'Achetez un {item:225238} à ({dot:Blue}) {npc:217645} situé à la {location:Bonté de Dunelle}, {location:Sainte-Chute}.\n\nDonnez-le à manger à {npc:225948} et suivez-le jusqu\'au trésor.'
 L['dark_ritual_note'] = 'Interagissez avec le {object:Rituel des ténèbres} et battez toutes les {npc:226059}, {npc:226052}, et {npc:226062} pour récupérer l\' {object:Essence ombreuse}.'
 L['illuminated_footlocker_note'] = 'Attrapez 5x {spell:442389} chutant depuis la {npc:220703} pour recevoir l\'{spell:442529} et faire apparaître la {object:Cantine illuminée}.'
