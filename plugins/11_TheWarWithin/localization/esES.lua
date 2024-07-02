@@ -29,7 +29,7 @@ L['mysterious_orb_note'] = 'Lleva la {object:Perla Elemental} de vuelta al {npc:
 L['thaks_treasure_note'] = 'Habla con {npc:223227} y síguelo.'
 L['trees_treasure_note'] = 'Habla con {npc:222940} para conseguir {item:224185}. Guia 6x {npc:224548} {dot:Green} alrededor de la {location:Isla de Dorn} de vuelta a {npc:222940}. Cuando haya guiado a todos los cangrejos de vuelta, habla con ella.'
 L['turtles_thanks_1_note'] = 'Entrega 5x {item:220143} (puede ser pescado de bancos {object:Onda calmada} o comprados en la casa de subastas). {note:Deja la zona y vuelve inmediatamente para entregar el siguiente pez.}'
-L['turtles_thanks_2_note'] = 'Entrega 1x {item:222533} (puede ser pescado de bancos {object:Lagoluz}, {object:Festering Rotpool}, {object:Vertido de Ícor Imbuido} o comprados en la casa de subastas).' -- NYT for object:Festering Rotpool. I can't do without client esES and I cancel WoW > 2 years.
+L['turtles_thanks_2_note'] = 'Entrega 1x {item:222533} (puede ser pescado de bancos {object:Lagoluz}, {object:Charco de Putrefacción Purulenta}, {object:Vertido de Ícor Imbuido} o comprados en la casa de subastas).'
 L['turtles_thanks_3_note'] = 'Alimenta a {npc:223338} en {location:Dornogal} y habla con ella para revelar el tesoro.'
 
 -------------------------------------------------------------------------------
