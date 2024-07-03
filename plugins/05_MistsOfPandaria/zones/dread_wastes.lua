@@ -217,10 +217,12 @@ map.nodes[56707770] = Treasure({
 map.nodes[66306650] = Treasure({
     label = '{item:86522}',
     quest = 31433,
+    note = L['in_cave'],
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
         Transmog({item = 86522, slot = L['1h_sword']}) -- Blade of the Prime
-    }
+    },
+    pois = {POI({66786382})}
 }) -- Blade of the Prime
 
 map.nodes[54305650] = Treasure({

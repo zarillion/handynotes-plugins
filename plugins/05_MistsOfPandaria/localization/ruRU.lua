@@ -118,6 +118,7 @@ L['abandoned_crate_of_goods_note'] = nil
 
 L['cache_of_pilfered_goods'] = nil
 L['virmen_treasure_cache'] = nil
+L['mysterious_fruit_pile'] = 'Груда таинственных фруктов'
 
 -------------------------------------------------------------------------------
 ------------------------------- Isle of Thunder -------------------------------

@@ -136,6 +136,7 @@ L['abandoned_crate_of_goods_note'] = 'Contient environ 103 or.'
 
 L['cache_of_pilfered_goods'] = 'Cache de fournitures chapardées'
 L['virmen_treasure_cache'] = 'Cache au trésor virmène'
+L['mysterious_fruit_pile'] = 'Pile de fruits mystérieuse'
 
 -------------------------------------------------------------------------------
 ------------------------------- Isle of Thunder -------------------------------

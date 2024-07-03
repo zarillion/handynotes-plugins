@@ -118,6 +118,7 @@ L['abandoned_crate_of_goods_note'] = nil
 
 L['cache_of_pilfered_goods'] = nil
 L['virmen_treasure_cache'] = '兔妖寶藏貯藏箱'
+L['mysterious_fruit_pile'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Isle of Thunder -------------------------------
