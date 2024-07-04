@@ -172,11 +172,11 @@ map.nodes[52132681] = Rare({
 --     rewards = {Achievement({id = 40851, criteria = 69725})}
 -- }) -- Parasidous
 
--- map.nodes[14002200] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69715})}
--- }) -- Pride of Beledar
+map.nodes[57304857] = Rare({
+    id = 221786,
+    quest = nil,
+    rewards = {Achievement({id = 40851, criteria = 69715})}
+}) -- Pride of Beledar
 
 -- map.nodes[14002200] = Rare({
 --     id = nil,
@@ -281,7 +281,7 @@ map.nodes[58382715] = Treasure({
 }) -- Illuminated Footlocker
 
 local IllusiveKobyssLure = Class('IllusiveKobyssLure', Treasure, {
-    quest = nil,
+    quest = 83299,
     rlabel = ns.status.Gray('{item:225641}'),
     fgroup = 'illusive_kobyss_lure',
     rewards = {
@@ -301,22 +301,34 @@ end
 
 map.nodes[55362720] = IllusiveKobyssLure({
     label = '{item:225554}',
-    location = L['sunless_lure_location']
+    location = L['sunless_lure_location'],
+    pois = {POI({54962723, 54632815, 53532879, 53462991, 53942986, 53782639})}
 }) -- Sunless Lure
 
 map.nodes[47611854] = IllusiveKobyssLure({
     label = '{item:225558}',
-    location = L['murkfin_lure_location']
+    location = L['murkfin_lure_location'],
+    pois = {
+        POI({
+            46421831, 46271596, 45961566, 45171463, 44791220, 44531189,
+            44931131, 44991046, 46281055, 46471247, 46581366, 47061512,
+            48191456, 47941494, 48301671, 48221749, 44191467, 43731380
+        })
+    }
 }) -- Murkfin Lure
 
 map.nodes[50655037] = IllusiveKobyssLure({
     label = '{item:225559}',
-    location = L['hungering_shimmerfin_location']
+    location = L['hungering_shimmerfin_location'],
+    pois = {POI({51914861, 51475176, 50765233, 49194822, 50674744})}
 }) -- Hungering Shimmerfin
 
 map.nodes[34965465] = IllusiveKobyssLure({
     label = '{item:225560}',
-    location = L['ragefin_necrostaff_location']
+    location = L['ragefin_necrostaff_location'],
+    pois = {
+        Path({Circle({origin = 34965465, radius = 1.5})})
+    }
 }) -- Ragefin Necrostaff
 
 map.nodes[55726960] = Treasure({
@@ -352,7 +364,7 @@ map.nodes[22002400] = Treasure({
 }) -- Sky-Captains' Sunken Cache
 
 map.nodes[55145185] = Treasure({
-    quest = nil,
+    quest = 83273,
     requires = ns.requirement.Item(225335), -- Smuggler's Key
     location = L['smugglers_treasure_location'],
     note = L['smugglers_treasure_note'],
