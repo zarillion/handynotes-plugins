@@ -190,11 +190,11 @@ map.nodes[35943547] = Rare({
     rewards = {Achievement({id = 40851, criteria = 69714})}
 }) -- Sir Alastair Purefire
 
--- map.nodes[18002200] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69709})}
--- }) -- Sloshmuck
+map.nodes[73215297] = Rare({
+    id = 215805,
+    quest = nil,
+    rewards = {Achievement({id = 40851, criteria = 69709})}
+}) -- Sloshmuck
 
 -- map.nodes[20002200] = Rare({
 --     id = nil,
@@ -208,11 +208,11 @@ map.nodes[44011637] = Rare({
     rewards = {Achievement({id = 40851, criteria = 69711})}
 }) -- The Perchfather
 
--- map.nodes[24002200] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69708})}
--- }) -- The Taskmaker
+map.nodes[56486899] = Rare({
+    id = 218444,
+    quest = nil,
+    rewards = {Achievement({id = 40851, criteria = 69708})}
+}) -- The Taskmaker
 
 -- map.nodes[26002200] = Rare({
 --     id = nil,
@@ -244,7 +244,7 @@ map.nodes[40035112] = Treasure({
 -- Questions trigger quests > 83300 > 83301 > 83302 > 83303 > 83304 > 83305
 
 map.nodes[41795827] = Treasure({
-    quest = nil,
+    quest = 83263,
     note = L['caesper_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69692}),
@@ -332,7 +332,7 @@ map.nodes[34965465] = IllusiveKobyssLure({
 }) -- Ragefin Necrostaff
 
 map.nodes[55726960] = Treasure({
-    quest = nil,
+    quest = 81971,
     location = L['jewel_of_the_cliffs_location'],
     rewards = {
         Achievement({id = 40848, criteria = 69697}), --
@@ -375,7 +375,7 @@ map.nodes[55145185] = Treasure({
     pois = {POI({55425164})} -- Dead Arathi
 }) -- Smuggler's Treasure
 
-map.nodes[76765382] = Treasure({
+map.nodes[76765382] = Treasure({ -- review, was not there when i looked
     quest = nil,
     location = L['in_cave'],
     rewards = {Achievement({id = 40848, criteria = 69702})},
@@ -486,6 +486,8 @@ map.nodes[56586518] = BiblioBook({
 -------------------------------------------------------------------------------
 ------------------------- ACHIEVEMENT: LOST AND FOUND -------------------------
 -------------------------------------------------------------------------------
+
+ -- [60486020] Maera Ashyld
 
 local Momento = Class('Momento', Collectible, {
     icon = 4635200,
