@@ -222,7 +222,7 @@ map.nodes[59122348] = Treasure({ -- You may have to wait until it spawns.
     quest = 82715,
     -- vignette = 6293,
     rlabel = ReputationGain(150, 2590), -- Council of Dornogal
-    note = L['inside_building'],
+    note = L['in_building'],
     rewards = {
         Achievement({id = 40434, criteria = 68209}),
         Transmog({item = 224290, slot = L['1h_axe']}) -- Storm Defender's Axe
