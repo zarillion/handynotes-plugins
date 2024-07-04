@@ -114,7 +114,7 @@ map.nodes[36905469] = Rare({
     }
 }) -- Grimslice
 
-map.nodes[28002000] = Rare({
+map.nodes[33122687] = Rare({
     id = 221668,
     quest = nil,
     rewards = {Achievement({id = 40851, criteria = 69712})},
