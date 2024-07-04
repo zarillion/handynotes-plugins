@@ -52,26 +52,10 @@ L['ranked_research'] = nil
 
 L['focus'] = nil
 L['retrieving'] = 'Recuperando el enlace del elemento ...'
-L['in_cave'] = 'En una cueva.'
-L['in_small_cave'] = 'En una cueva pequeña.'
-L['in_water_cave'] = 'En una cueva submarina.'
-L['in_waterfall_cave'] = nil
-L['in_water'] = 'Bajo el agua.'
-L['hourly'] = nil
-L['daily'] = nil
-L['weekly'] = 'Semanal'
+
 L['normal'] = 'Normal'
 L['hard'] = 'Difícil'
-L['heirloom'] = nil
-L['item'] = nil
-L['mount'] = 'Montura'
-L['pet'] = 'Mascota'
-L['recipe'] = nil
-L['spell'] = nil
-L['title'] = nil
-L['toy'] = 'Juguete'
-L['currency'] = nil
-L['rep'] = nil
+
 L['completed'] = 'Terminado'
 L['incomplete'] = 'Incompleto'
 L['known'] = 'Conocido'
@@ -85,16 +69,43 @@ L['quest'] = nil
 L['quest_repeatable'] = nil
 L['achievement'] = nil
 
+---------------------------------- LOCATION -----------------------------------
+L['in_cave'] = 'En una cueva.'
+L['in_small_cave'] = 'En una cueva pequeña.'
+L['in_water_cave'] = 'En una cueva submarina.'
+L['in_waterfall_cave'] = nil
+L['in_water'] = 'Bajo el agua.'
+L['in_building'] = nil
+
+------------------------------------ TIME -------------------------------------
+L['hourly'] = nil
+L['daily'] = nil
+L['weekly'] = 'Semanal'
+
+L['time_format_12hrs'] = '%I:%M %p - %d/%m heure locale'
+L['time_format_24hrs'] = '%H:%M - %d/%m heure locale'
+
+----------------------------------- REWARDS -----------------------------------
+L['heirloom'] = nil
+L['item'] = nil
+L['mount'] = 'Montura'
+L['pet'] = 'Mascota'
+L['recipe'] = nil
+L['spell'] = nil
+L['title'] = nil
+L['toy'] = 'Juguete'
+L['currency'] = nil
+L['rep'] = nil
+
+---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = nil
 L['follower_type_champion'] = nil
 L['follower_type_companion'] = nil
 
+--------------------------------- REPUTATION ----------------------------------
 L['rep_honored'] = nil
 L['rep_revered'] = nil
 L['rep_exalted'] = nil
-
-L['time_format_12hrs'] = '%I:%M %p - %d/%m heure locale'
-L['time_format_24hrs'] = '%H:%M - %d/%m heure locale'
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------

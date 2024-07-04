@@ -52,26 +52,10 @@ L['ranked_research'] = '%s (Rang %d/%d)'
 
 L['focus'] = 'fokussieren'
 L['retrieving'] = 'Gegenstandslink wird abgerufen ...'
-L['in_cave'] = 'In einer Höhle.'
-L['in_small_cave'] = 'In einer kleinen Höhle.'
-L['in_water_cave'] = 'In einer Unterwasserhöhle.'
-L['in_waterfall_cave'] = 'In einer Höhle hinter einem Wasserfall.'
-L['in_water'] = 'Im Wasser.'
-L['hourly'] = 'Stündlich'
-L['daily'] = 'Täglich'
-L['weekly'] = 'Wöchentlich'
+
 L['normal'] = 'Normal'
 L['hard'] = 'Schwer'
-L['heirloom'] = 'Erbstück'
-L['item'] = 'Gegenstand'
-L['mount'] = 'Reittier'
-L['pet'] = 'Haustier'
-L['recipe'] = 'Rezept'
-L['spell'] = 'Fähigkeit'
-L['title'] = 'Titel'
-L['toy'] = 'Spielzeug'
-L['currency'] = 'Währung'
-L['rep'] = 'Ruf'
+
 L['completed'] = 'Abgeschlossen'
 L['incomplete'] = 'Unvollständig'
 L['known'] = 'Bekannt'
@@ -85,16 +69,43 @@ L['quest'] = 'Quest'
 L['quest_repeatable'] = 'Wiederholbare Quest'
 L['achievement'] = 'Erfolg'
 
+---------------------------------- LOCATION -----------------------------------
+L['in_cave'] = 'In einer Höhle.'
+L['in_small_cave'] = 'In einer kleinen Höhle.'
+L['in_water_cave'] = 'In einer Unterwasserhöhle.'
+L['in_waterfall_cave'] = 'In einer Höhle hinter einem Wasserfall.'
+L['in_water'] = 'Im Wasser.'
+L['in_building'] = 'Im Gebäude.'
+
+------------------------------------ TIME -------------------------------------
+L['hourly'] = 'Stündlich'
+L['daily'] = 'Täglich'
+L['weekly'] = 'Wöchentlich'
+
+L['time_format_12hrs'] = '%d.%m - %I:%M %p'
+L['time_format_24hrs'] = '%d.%m - %H:%M'
+
+----------------------------------- REWARDS -----------------------------------
+L['heirloom'] = 'Erbstück'
+L['item'] = 'Gegenstand'
+L['mount'] = 'Reittier'
+L['pet'] = 'Haustier'
+L['recipe'] = 'Rezept'
+L['spell'] = 'Fähigkeit'
+L['title'] = 'Titel'
+L['toy'] = 'Spielzeug'
+L['currency'] = 'Währung'
+L['rep'] = 'Ruf'
+
+---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = 'Anhänger'
 L['follower_type_champion'] = 'Champion'
 L['follower_type_companion'] = 'Abenteurer'
 
+--------------------------------- REPUTATION ----------------------------------
 L['rep_honored'] = 'Wohlwollend'
 L['rep_revered'] = 'Respektvoll'
 L['rep_exalted'] = 'Erfürchtig'
-
-L['time_format_12hrs'] = '%d.%m - %I:%M %p'
-L['time_format_24hrs'] = '%d.%m - %H:%M'
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------

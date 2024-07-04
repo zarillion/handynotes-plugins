@@ -52,26 +52,10 @@ L['ranked_research'] = '%s (等級 %d/%d)'
 
 L['focus'] = '專注'
 L['retrieving'] = '接收物品連結 ...'
-L['in_cave'] = '在洞穴。'
-L['in_small_cave'] = '在小洞穴。'
-L['in_water_cave'] = '在水下洞穴。'
-L['in_waterfall_cave'] = '在瀑布後面洞穴內。'
-L['in_water'] = '在水下。'
-L['hourly'] = '每小時'
-L['daily'] = '每日'
-L['weekly'] = '每週'
+
 L['normal'] = '普通'
 L['hard'] = '困難'
-L['heirloom'] = '傳家寶'
-L['item'] = '物品'
-L['mount'] = '坐騎'
-L['pet'] = '戰寵'
-L['recipe'] = '配方'
-L['spell'] = '法術'
-L['title'] = '稱號'
-L['toy'] = '玩具'
-L['currency'] = '通貨'
-L['rep'] = '聲望'
+
 L['completed'] = '已完成'
 L['incomplete'] = '未完成'
 L['known'] = '已獲得'
@@ -85,16 +69,43 @@ L['quest'] = '任務'
 L['quest_repeatable'] = '可重複任務'
 L['achievement'] = '成就'
 
+---------------------------------- LOCATION -----------------------------------
+L['in_cave'] = '在洞穴。'
+L['in_small_cave'] = '在小洞穴。'
+L['in_water_cave'] = '在水下洞穴。'
+L['in_waterfall_cave'] = '在瀑布後面洞穴內。'
+L['in_water'] = '在水下。'
+L['in_building'] = '在建築內.'
+
+------------------------------------ TIME -------------------------------------
+L['hourly'] = '每小時'
+L['daily'] = '每日'
+L['weekly'] = '每週'
+
+L['time_format_12hrs'] = '%m/%d - %I:%M %p 本地時間'
+L['time_format_24hrs'] = '%m/%d - %H:%M 本地時間'
+
+----------------------------------- REWARDS -----------------------------------
+L['heirloom'] = '傳家寶'
+L['item'] = '物品'
+L['mount'] = '坐騎'
+L['pet'] = '戰寵'
+L['recipe'] = '配方'
+L['spell'] = '法術'
+L['title'] = '稱號'
+L['toy'] = '玩具'
+L['currency'] = '通貨'
+L['rep'] = '聲望'
+
+---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = '追隨者'
 L['follower_type_champion'] = '勇士'
 L['follower_type_companion'] = '夥伴'
 
+--------------------------------- REPUTATION ----------------------------------
 L['rep_honored'] = '尊敬'
 L['rep_revered'] = '崇敬'
 L['rep_exalted'] = '崇拜'
-
-L['time_format_12hrs'] = '%m/%d - %I:%M %p 本地時間'
-L['time_format_24hrs'] = '%m/%d - %H:%M 本地時間'
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------

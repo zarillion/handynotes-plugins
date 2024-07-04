@@ -52,26 +52,10 @@ L['ranked_research'] = '%s (Rank %d/%d)'
 
 L['focus'] = 'Focus'
 L['retrieving'] = 'Retrieving item link ...'
-L['in_cave'] = 'In a cave.'
-L['in_small_cave'] = 'In a small cave.'
-L['in_water_cave'] = 'In an underwater cave.'
-L['in_waterfall_cave'] = 'In a cave behind a waterfall.'
-L['in_water'] = 'In the water.'
-L['hourly'] = 'Hourly'
-L['daily'] = 'Daily'
-L['weekly'] = 'Weekly'
+
 L['normal'] = 'Normal'
 L['hard'] = 'Hard'
-L['heirloom'] = 'Heirloom'
-L['item'] = 'Item'
-L['mount'] = 'Mount'
-L['pet'] = 'Pet'
-L['recipe'] = 'Recipe'
-L['spell'] = 'Spell'
-L['title'] = 'Title'
-L['toy'] = 'Toy'
-L['currency'] = 'Currency'
-L['rep'] = 'Rep'
+
 L['completed'] = 'Completed'
 L['incomplete'] = 'Incomplete'
 L['known'] = 'Known'
@@ -85,16 +69,43 @@ L['quest'] = 'Quest'
 L['quest_repeatable'] = 'Repeatable Quest'
 L['achievement'] = 'Achievement'
 
+---------------------------------- LOCATION -----------------------------------
+L['in_cave'] = 'In a cave.'
+L['in_small_cave'] = 'In a small cave.'
+L['in_water_cave'] = 'In an underwater cave.'
+L['in_waterfall_cave'] = 'In a cave behind a waterfall.'
+L['in_water'] = 'In the water.'
+L['in_building'] = 'In the building.'
+
+------------------------------------ TIME -------------------------------------
+L['hourly'] = 'Hourly'
+L['daily'] = 'Daily'
+L['weekly'] = 'Weekly'
+
+L['time_format_12hrs'] = '%B %d - %I:%M %p local time'
+L['time_format_24hrs'] = '%B %d - %H:%M local time'
+
+----------------------------------- REWARDS -----------------------------------
+L['heirloom'] = 'Heirloom'
+L['item'] = 'Item'
+L['mount'] = 'Mount'
+L['pet'] = 'Pet'
+L['recipe'] = 'Recipe'
+L['spell'] = 'Spell'
+L['title'] = 'Title'
+L['toy'] = 'Toy'
+L['currency'] = 'Currency'
+L['rep'] = 'Rep'
+
+---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = 'Follower'
 L['follower_type_champion'] = 'Champion'
 L['follower_type_companion'] = 'Companion'
 
+--------------------------------- REPUTATION ----------------------------------
 L['rep_honored'] = 'Honored'
 L['rep_revered'] = 'Revered'
 L['rep_exalted'] = 'Exalted'
-
-L['time_format_12hrs'] = '%B %d - %I:%M %p local time'
-L['time_format_24hrs'] = '%B %d - %H:%M local time'
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------

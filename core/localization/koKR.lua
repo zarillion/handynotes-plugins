@@ -52,26 +52,10 @@ L['ranked_research'] = '%s (연구단계 %d/%d)'
 
 L['focus'] = '고정'
 L['retrieving'] = '아이템 링크 가져오는 중...'
-L['in_cave'] = '동굴 안에 있음.'
-L['in_small_cave'] = '작은 동굴 안에 있음.'
-L['in_water_cave'] = '수중 동굴 안에 있음.'
-L['in_waterfall_cave'] = '폭포 뒤 동굴 안에 있음.'
-L['in_water'] = '물 속에 있음.'
-L['hourly'] = '한시간단위'
-L['daily'] = '일간'
-L['weekly'] = '주간'
+
 L['normal'] = '보통'
 L['hard'] = '어려움'
-L['heirloom'] = '유산'
-L['item'] = nil
-L['mount'] = '탈것'
-L['pet'] = '애완동물'
-L['recipe'] = nil
-L['spell'] = '주문'
-L['title'] = '칭호'
-L['toy'] = '장난감'
-L['currency'] = nil
-L['rep'] = '평판'
+
 L['completed'] = '완료'
 L['incomplete'] = '미완료'
 L['known'] = '확인'
@@ -85,16 +69,43 @@ L['quest'] = nil
 L['quest_repeatable'] = nil
 L['achievement'] = nil
 
+---------------------------------- LOCATION -----------------------------------
+L['in_cave'] = '동굴 안에 있음.'
+L['in_small_cave'] = '작은 동굴 안에 있음.'
+L['in_water_cave'] = '수중 동굴 안에 있음.'
+L['in_waterfall_cave'] = '폭포 뒤 동굴 안에 있음.'
+L['in_water'] = '물 속에 있음.'
+L['in_building'] = nil
+
+------------------------------------ TIME -------------------------------------
+L['hourly'] = '한시간단위'
+L['daily'] = '일간'
+L['weekly'] = '주간'
+
+L['time_format_12hrs'] = nil
+L['time_format_24hrs'] = nil
+
+----------------------------------- REWARDS -----------------------------------
+L['heirloom'] = '유산'
+L['item'] = nil
+L['mount'] = '탈것'
+L['pet'] = '애완동물'
+L['recipe'] = nil
+L['spell'] = '주문'
+L['title'] = '칭호'
+L['toy'] = '장난감'
+L['currency'] = nil
+L['rep'] = '평판'
+
+---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = '추종자'
 L['follower_type_champion'] = '영웅'
 L['follower_type_companion'] = '동료'
 
+--------------------------------- REPUTATION ----------------------------------
 L['rep_honored'] = nil
 L['rep_revered'] = nil
 L['rep_exalted'] = nil
-
-L['time_format_12hrs'] = nil
-L['time_format_24hrs'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
