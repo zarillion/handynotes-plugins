@@ -326,9 +326,7 @@ map.nodes[50655037] = IllusiveKobyssLure({
 map.nodes[34965465] = IllusiveKobyssLure({
     label = '{item:225560}',
     location = L['ragefin_necrostaff_location'],
-    pois = {
-        Path({Circle({origin = 34965465, radius = 1.5})})
-    }
+    pois = {Path({Circle({origin = 34965465, radius = 1.5})})}
 }) -- Ragefin Necrostaff
 
 map.nodes[55726960] = Treasure({
@@ -487,7 +485,7 @@ map.nodes[56586518] = BiblioBook({
 ------------------------- ACHIEVEMENT: LOST AND FOUND -------------------------
 -------------------------------------------------------------------------------
 
- -- [60486020] Maera Ashyld
+-- [60486020] Maera Ashyld
 
 local Momento = Class('Momento', Collectible, {
     icon = 4635200,
