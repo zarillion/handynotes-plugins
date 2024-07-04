@@ -203,7 +203,8 @@ map.nodes[49053163] = Treasure({ -- Inside the Inn
 
 map.nodes[59016438] = Treasure({
     quest = 82819,
-    note = L['inside_building'] .. '\n\n' .. L['kaja_cola_machine_note'],
+    location = L['in_building'],
+    note = L['kaja_cola_machine_note'],
     rewards = {
         Achievement({id = 40724, criteria = 69308}),
         Item({item = 220774, note = L['bag']}) -- Goblin Mini Fridge
@@ -215,7 +216,8 @@ map.nodes[50485349] = Treasure({ -- lvl 71
     requires = {
         ns.requirement.Item(217960) -- Forgotten Key
     },
-    note = L['in_waterfall_cave'] .. '\n\n' .. L['forgotten_treasure_note'],
+    location = L['in_waterfall_cave'],
+    note = L['forgotten_treasure_note'],
     rewards = {Achievement({id = 40724, criteria = 69313})},
     pois = {POI({52065314})} -- Entrance
 }) -- Forgotten Treasure
