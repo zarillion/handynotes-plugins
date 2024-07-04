@@ -20,8 +20,6 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = nil
 
 L['alunira_note'] = nil
 
-L['inside_building'] = 'В здании.'
-
 L['elemental_geode_label'] = nil
 L['magical_treasure_chest_note'] = nil
 L['mosswool_flower_note'] = nil
@@ -99,7 +97,6 @@ L['smugglers_treasure_location'] = nil
 L['options_icons_biblio_archivist'] = nil
 L['options_icons_biblio_archivist_desc'] = nil
 
-L['biblio_archivist_note'] = nil
 L['biblio_book_01_location'] = nil
 L['biblio_book_02_location'] = nil
 L['biblio_book_03_location'] = nil

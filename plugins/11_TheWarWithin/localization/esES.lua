@@ -19,8 +19,6 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Muestra dónde están los obje
 
 L['alunira_note'] = 'Recoge 10x {item:224025} y combínalos en un {item:224026} para quitarle {spell:451570}.'
 
-L['inside_building'] = 'En el edificio.'
-
 L['elemental_geode_label'] = 'Geoda Elemental'
 L['magical_treasure_chest_note'] = 'Empuja a {npc:223104} de regreso al agua y luego recoge 5 {npc:223159} en las cercanías.'
 L['mosswool_flower_note'] = 'Haz click en {npc:222956} y síguelo.'
@@ -98,7 +96,6 @@ L['smugglers_treasure_location'] = 'En lo alto del acantilado entre varias rocas
 L['options_icons_biblio_archivist'] = '{achievement:40622}'
 L['options_icons_biblio_archivist_desc'] = 'Muestra dónde están los libros del logro {achievement:40622}.'
 
-L['biblio_archivist_note'] = nil
 L['biblio_book_01_location'] = nil
 L['biblio_book_02_location'] = nil
 L['biblio_book_03_location'] = nil
