@@ -156,5 +156,5 @@ L['thimble_location'] = nil
 L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
-L['concealed_contraband'] = 'Contrabando oculto'
-L['trapped_trove_note'] = nil
+L['concealed_contraband'] = 'Contrabando Oculto'
+L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'
