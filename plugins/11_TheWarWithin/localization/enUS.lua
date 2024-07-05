@@ -155,3 +155,6 @@ L['rumurh_location'] = 'PH'
 L['thimble_location'] = 'PH'
 L['scampering_weave_rat_location'] = 'PH'
 L['generals_scouting_shadecaster_location'] = 'PH'
+
+L['concealed_contraband'] = 'Concealed Contraband'
+L['trapped_trove_note'] = 'In a building that hangs from the ceiling. Avoid the spiderwebs on the floor.'

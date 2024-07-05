@@ -63,13 +63,13 @@ map.nodes[41371692] = Rare({ -- review, multiple locations?
     rewards = {Achievement({id = 40837, criteria = 69632})}
 }) -- Charmonger
 
-map.nodes[57883810] = Rare({ -- review
+map.nodes[57883810] = Rare({
     id = 220266,
     quest = nil,
     rewards = {Achievement({id = 40837, criteria = 69633})}
 }) -- Coalesced Monstrosity
 
-map.nodes[43005000] = Rare({ -- review
+map.nodes[50994631] = Rare({
     id = 220269,
     quest = nil,
     rewards = {Achievement({id = 40837, criteria = 69630})}

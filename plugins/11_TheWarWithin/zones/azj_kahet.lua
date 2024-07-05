@@ -14,6 +14,11 @@ local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
+local Pet = ns.reward.Pet
+local Toy = ns.reward.Toy
+
+local POI = ns.poi.POI
+local Path = ns.poi.Path
 
 local ReputationGain = ns.tooltip.ReputationGain
 
@@ -27,11 +32,11 @@ local cotl = Map({id = 2216, settings = true}) -- City of Threads - Lower
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[06001600] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69651})}
--- }) -- Abyssal Devourer
+map.nodes[46383875] = Rare({
+    id = 216031,
+    quest = nil,
+    rewards = {Achievement({id = 40840, criteria = 69651})}
+}) -- Abyssal Devourer
 
 -- map.nodes[08001600] = Rare({
 --     id = nil,
@@ -39,11 +44,11 @@ local cotl = Map({id = 2216, settings = true}) -- City of Threads - Lower
 --     rewards = {Achievement({id = 40840, criteria = 69654})}
 -- }) -- Ahg'zagall
 
--- map.nodes[10001600] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69661})}
--- }) -- Cha'tak
+map.nodes[70722147] = Rare({
+    id = 216042,
+    quest = nil,
+    rewards = {Achievement({id = 40840, criteria = 69661})}
+}) -- Cha'tak
 
 -- map.nodes[12001600] = Rare({
 --     id = nil,
@@ -57,17 +62,17 @@ local cotl = Map({id = 2216, settings = true}) -- City of Threads - Lower
 --     rewards = {Achievement({id = 40840, criteria = 69669})}
 -- }) -- Deepcrawler Tx'kesh
 
--- map.nodes[16001600] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69664})}
--- }) -- Enduring Gutterface
+map.nodes[58036210] = Rare({
+    id = 216045,
+    quest = nil,
+    rewards = {Achievement({id = 40840, criteria = 69664})}
+}) -- Enduring Gutterface
 
--- map.nodes[18001600] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69655})}
--- }) -- Grik'ik
+map.nodes[61232730] = Rare({
+    id = 216042,
+    quest = 81699,
+    rewards = {Achievement({id = 40840, criteria = 69655})}
+}) -- Grik'ik
 
 -- map.nodes[20001600] = Rare({
 --     id = nil,
@@ -75,11 +80,11 @@ local cotl = Map({id = 2216, settings = true}) -- City of Threads - Lower
 --     rewards = {Achievement({id = 40840, criteria = 69667})}
 -- }) -- Harvester Qixt
 
--- map.nodes[22001600] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69665})}
--- }) -- Jix'ak the Crazed
+map.nodes[67468317] = Rare({
+    id = 216048,
+    quest = nil,
+    rewards = {Achievement({id = 40840, criteria = 69665})}
+}) -- Jix'ak the Crazed
 
 -- map.nodes[24001600] = Rare({
 --     id = nil,
@@ -87,35 +92,60 @@ local cotl = Map({id = 2216, settings = true}) -- City of Threads - Lower
 --     rewards = {Achievement({id = 40840, criteria = 696670})}
 -- }) -- Kaheti Bladeguard
 
--- map.nodes[06001800] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69659})}
--- }) -- Kaheti Silk Hauler
+map.nodes[63152530] = Rare({
+    id = 221327,
+    quest = nil,
+    rewards = {Achievement({id = 40840, criteria = 69659})},
+    pois = {
+        Path({
+            65121909, 65182000, 64882081, 64542159, 64232241, 63912321,
+            63612409, 63272490, 63072569, 62912657, 62762748, 62602830,
+            62422913, 61742948
+        })
+    }
+}) -- Kaheti Silk Hauler
 
--- map.nodes[08001800] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69663})}
--- }) -- Maddened Siegebomber
+map.nodes[66496197] = Rare({
+    id = 216044,
+    quest = nil,
+    rewards = {Achievement({id = 40840, criteria = 69663})},
+    pois = {
+        Path({
+            64406543, 63386508, 62406514, 61816617, 61426703, 61616794,
+            62516818, 63616779, 64116704, 64416621, 64776538, 65136438,
+            65396351, 65736274, 66496197, 67346189, 67916253, 68346333,
+            68776442, 69086546, 69276638, 69266727, 68826792, 68206849,
+            67466921, 66436903, 66206818, 65886738, 65396650, 64906581, 64406543
+        })
+    }
+}) -- Maddened Siegebomber
 
--- map.nodes[10001800] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69662})}
--- }) -- Monstrous Lasharoth
+map.nodes[69986923] = Rare({
+    id = 216043,
+    quest = nil,
+    rewards = {Achievement({id = 40840, criteria = 69662})}
+}) -- Monstrous Lasharoth
 
--- map.nodes[12001800] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69653})}
--- }) -- Rhak'ik & Khak'ik
+map.nodes[43863678] = Rare({
+    id = 216032, -- 221032 Rhak'ik
+    quest = 81694,
+    rewards = {Achievement({id = 40840, criteria = 69653})},
+    pois = {
+        Path({
+            44043048, 43773132, 43533211, 43443299, 43293385, 43273476,
+            43553553, 43823633, 43933722, 43933813, 43783898, 43573987,
+            43424074, 43434158, 43764243
+        })
+    }
+}) -- Rhak'ik & Khak'ik
 
--- map.nodes[14001800] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69666})}
--- }) -- The Oozekhan
+map.nodes[61918962] = Rare({
+    id = 216049,
+    quest = nil,
+    location = L['in_small_cave'],
+    rewards = {Achievement({id = 40840, criteria = 69666})},
+    pois = {POI({6341892})}
+}) -- The Oozekhan
 
 -- map.nodes[16001800] = Rare({
 --     id = nil,
@@ -129,11 +159,17 @@ local cotl = Map({id = 2216, settings = true}) -- City of Threads - Lower
 --     rewards = {Achievement({id = 40840, criteria = 69668})}
 -- }) -- Umbraclaw Matra
 
--- map.nodes[20001800] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69656})}
--- }) -- Vilewing
+map.nodes[34694110] = Rare({
+    id = 216037,
+    quest = nil,
+    rewards = {Achievement({id = 40840, criteria = 69656})},
+    pois = {
+        Path({
+            34493843, 34113856, 33653930, 33573969, 33644062, 33894099,
+            34694110, 34994082, 35333998, 35433959, 35253877, 34923855, 34493843
+        })
+    }
+}) -- Vilewing
 
 cotl.nodes[67525826] = Rare({
     id = 216039,
@@ -145,19 +181,33 @@ cotl.nodes[67525826] = Rare({
     rewards = {Achievement({id = 40840, criteria = 69658})}
 }) -- Xishorr
 
+cot.nodes[30755599] = Rare({id = 216038, quest = nil, parent = map.id}) -- The Groundskeeper
+
+map.nodes[63109486] = Rare({
+    id = 216047,
+    location = L['in_cave'],
+    quest = nil,
+    pois = {POI({65329380})}
+}) -- The One Left
+
+map.nodes[62816618] = Rare({id = 216046, quest = nil}) -- Tka'ktath
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[06002000] = Treasure({ -- review
-    quest = nil,
-    parent = map.id,
-    rewards = {Achievement({id = 40828, criteria = 1})} -- duplicated criteria id 69615
+map.nodes[62728794] = Treasure({ -- review
+    quest = 82520, -- review
+    rewards = {
+        Achievement({id = 40828, criteria = 1}), -- duplicated criteria id 69615
+        Pet({item = 225544, id = 4599}) -- Mind Slurp
+    }
 }) -- Corrupted Memory
+-- I'm not sure if the treasure was called Corrupted Memory or Memory Cache. The Treasure was guarded by a mob called Corrupted memory.
+-- No Achievement criteria was triggered, looks like all Azj Kahet treasure Achievements are bugged
 
-map.nodes[08002000] = Treasure({ -- review
-    quest = nil,
-    parent = map.id,
+map.nodes[67459072] = Treasure({
+    quest = 82718,
     rewards = {Achievement({id = 40828, criteria = 69646})}
 }) -- Disturbed Soil
 
@@ -182,35 +232,53 @@ cot.nodes[31642077] = Treasure({
     rewards = {Achievement({id = 40828, criteria = 69648})}
 }) -- Nerubian Offerings
 
-map.nodes[16002000] = Treasure({ -- review
-    quest = nil,
-    parent = map.id,
+map.nodes[49554370] = Treasure({
+    quest = 82529,
     rewards = {Achievement({id = 40828, criteria = 69645})}
 }) -- Nest Egg
 
-map.nodes[18002000] = Treasure({ -- review
-    quest = nil,
-    parent = map.id,
+map.nodes[54525081] = Treasure({
+    quest = 82721,
     rewards = {Achievement({id = 40828, criteria = 69649})}
 }) -- Niffen Stash
 
-map.nodes[20002000] = Treasure({ -- review
-    quest = nil,
-    parent = map.id,
-    rewards = {Achievement({id = 40828, criteria = 69647})}
+map.nodes[67482754] = Treasure({
+    quest = 82719,
+    -- parent = map.id,
+    rewards = {Achievement({id = 40828, criteria = 69647})},
+    pois = {POI({65422765})}
 }) -- Silk-spun Supplies
 
-map.nodes[22002000] = Treasure({ -- review
-    quest = nil,
+cot.nodes[67397441] = Treasure({
+    quest = 82727,
     parent = map.id,
-    rewards = {Achievement({id = 40828, criteria = 69644})}
+    note = L['trapped_trove_note'],
+    rewards = {
+        Achievement({id = 40828, criteria = 69644}),
+        Pet({item = 222966, id = 4473}) -- Spinner
+    }
 }) -- Trapped Trove
 
-map.nodes[24002000] = Treasure({ -- review
-    quest = nil,
-    parent = map.id,
-    rewards = {Achievement({id = 40828, criteria = 69643})}
+map.nodes[78613320] = Treasure({
+    quest = 82527,
+    rewards = {
+        Achievement({id = 40828, criteria = 69643}), Toy({item = 2525347}) -- Web-Vandal's Spinning Wheel
+    },
+    pois = {POI({74794285, 74183770, 72663967})}
 }) -- Weaving Supplies
+-- TODO: write a note:
+-- You need to collect Hints from Silk Scraps/Threads before you can open the treasure.
+-- 74794285 Violet Thread - Item 223901
+-- 74183770 Gold Thread - 223903
+-- 72663967 Crimson Thread - 223902
+
+map.nodes[34056102] = Treasure({
+    label = L['concealed_contraband'],
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
+    quest = 82525
+}) -- Concealed Contraband -- Web Cocoon
 
 -------------------------------------------------------------------------------
 --------------------------- AZJ-KAHET GLYPH HUNTER ----------------------------

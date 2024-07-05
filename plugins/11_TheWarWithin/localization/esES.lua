@@ -155,3 +155,6 @@ L['rumurh_location'] = nil
 L['thimble_location'] = nil
 L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
+
+L['concealed_contraband'] = 'Contrabando oculto'
+L['trapped_trove_note'] = nil
