@@ -296,7 +296,7 @@ map.nodes[55006564] = Treasure({ -- more Boskroot Cap locations ?
     note = L['mushroom_cap_note'],
     rewards = {Achievement({id = 40434, criteria = 68202})},
     pois = {
-        POI({51837032, 52326982, 52466780, 52687038, 52346737}) -- Boskroot Caps
+        POI({51837032, 52326982, 52466780, 52687038, 52346737, 52646562}) -- Boskroot Caps
     }
 }) -- Mushroom Cap (U'llwort The Self-Exiled)
 
