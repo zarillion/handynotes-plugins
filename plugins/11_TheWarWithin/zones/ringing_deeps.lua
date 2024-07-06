@@ -384,55 +384,55 @@ local InertEarthen = Class('InertEarthen', Collectible, {
     note = L['rocked_to_sleep_note']
 })
 
-map.nodes[74001800] = InertEarthen({ -- review
-    location = L['attwogaz_location'],
-    rewards = {Achievement({id = 40504, criteria = 68684})}
-}) -- Attwogaz
-
-map.nodes[76001800] = InertEarthen({ -- review
-    location = L['halthaz_location'],
-    rewards = {Achievement({id = 40504, criteria = 68682})}
-}) -- Halthaz
-
-map.nodes[78001800] = InertEarthen({ -- review
-    location = L['krattdaz_location'],
-    rewards = {Achievement({id = 40504, criteria = 68685})}
-}) -- Krattdaz
-
-map.nodes[80001800] = InertEarthen({ -- review
-    location = L['uisgaz_location'],
-    rewards = {Achievement({id = 40504, criteria = 68686})}
-}) -- Uisgaz
-
-map.nodes[82001800] = InertEarthen({ -- review
-    location = L['venedaz_location'],
-    rewards = {Achievement({id = 40504, criteria = 68687})}
-}) -- Venedaz
-
-map.nodes[84001800] = InertEarthen({ -- review
-    location = L['merunth_location'],
-    rewards = {Achievement({id = 40504, criteria = 68688})}
-}) -- Merunth
-
-map.nodes[86001800] = InertEarthen({ -- review
-    location = L['varerko_location'],
-    rewards = {Achievement({id = 40504, criteria = 68689})}
-}) -- Varerko
-
-map.nodes[88001800] = InertEarthen({ -- review
+map.nodes[48537065] = InertEarthen({
     location = L['alfritha_location'],
     rewards = {Achievement({id = 40504, criteria = 68690})}
 }) -- Alfritha
 
-map.nodes[90001800] = InertEarthen({ -- review
-    location = L['gundrig_location'],
+map.nodes[62853635] = InertEarthen({
+    location = L['attwogaz_location'], -- on top of the ledge
+    rewards = {Achievement({id = 40504, criteria = 68684})}
+}) -- Attwogaz
+
+map.nodes[65428379] = InertEarthen({
+    location = L['gundrig_location'], -- on top of the ledge
     rewards = {Achievement({id = 40504, criteria = 68691})}
 }) -- Gundrig
 
-map.nodes[92001800] = InertEarthen({ -- review
+map.nodes[76001800] = InertEarthen({ -- review
+    location = L['halthaz_location'],
+    rewards = {Achievement({id = 40504, criteria = 68682})}
+}) -- Hathlaz
+
+map.nodes[43154087] = InertEarthen({
+    location = L['krattdaz_location'],
+    rewards = {Achievement({id = 40504, criteria = 68685})}
+}) -- Krattdaz
+
+map.nodes[59179369] = InertEarthen({
+    location = L['merunth_location'], -- Up on the pipe
+    rewards = {Achievement({id = 40504, criteria = 68688})}
+}) -- Merunth
+
+map.nodes[64075574] = InertEarthen({
     location = L['sathilga_location'],
     rewards = {Achievement({id = 40504, criteria = 68692})}
 }) -- Sathilga
+
+map.nodes[55043023] = InertEarthen({
+    location = L['uisgaz_location'],
+    rewards = {Achievement({id = 40504, criteria = 68686})}
+}) -- Uisgaz
+
+map.nodes[49364902] = InertEarthen({
+    location = L['varerko_location'],
+    rewards = {Achievement({id = 40504, criteria = 68689})}
+}) -- Varerko
+
+map.nodes[48583175] = InertEarthen({
+    location = L['venedaz_location'],
+    rewards = {Achievement({id = 40504, criteria = 68687})}
+}) -- Venedaz
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------

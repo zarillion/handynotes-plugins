@@ -62,7 +62,7 @@ L['fragment_VI_location'] = 'PH'
 L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
 L['options_icons_rocked_to_sleep_desc'] = 'Display plaque locations for {achievement:40504}.'
 
-L['rocked_to_sleep_note'] = 'PH'
+L['rocked_to_sleep_note'] = 'Read the plague of the inert earthen.'
 L['attwogaz_location'] = 'PH'
 L['halthaz_location'] = 'PH'
 L['krattdaz_location'] = 'PH'
