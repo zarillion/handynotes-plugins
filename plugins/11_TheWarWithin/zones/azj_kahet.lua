@@ -58,11 +58,11 @@ map.nodes[70722147] = Rare({
 --     rewards = {Achievement({id = 40840, criteria = 69657})}
 -- }) -- Chitin Hulk
 
--- map.nodes[14001600] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69669})}
--- }) -- Deepcrawler Tx'kesh
+map.nodes[64560668] = Rare({
+    id = 222624,
+    quest = 82077, -- 84081 review, triggered both quests
+    rewards = {Achievement({id = 40840, criteria = 69669})}
+}) -- Deepcrawler Tx'kesh
 
 map.nodes[58036210] = Rare({
     id = 216045,
@@ -149,17 +149,17 @@ map.nodes[61918962] = Rare({
     pois = {POI({6341892})}
 }) -- The Oozekhan
 
--- map.nodes[16001800] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69660})}
--- }) -- The XT-Minecrusher 8700
+map.nodes[76635780] = Rare({
+    id = 216034,
+    quest = nil,
+    rewards = {Achievement({id = 40840, criteria = 69660})}
+}) -- The XT-Minecrusher 8700
 
--- map.nodes[18001800] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69668})}
--- }) -- Umbraclaw Matra
+map.nodes[64590352] = Rare({
+    id = 216051,
+    quest = nil,
+    rewards = {Achievement({id = 40840, criteria = 69668})}
+}) -- Umbraclaw Matra
 
 map.nodes[34694110] = Rare({
     id = 216037,
@@ -290,12 +290,16 @@ map.nodes[34056102] = Treasure({
 -------------------------------------------------------------------------------
 
 map.nodes[44476052] = PT.Alchemy({quest = nil, id = 226272}) -- Dark Apothecary's Vial -- review
-map.nodes[46552279] = PT.Blacksmithing({quest = nil, id = 226282}) -- Nerubian Smith's Kit -- review
+cot.nodes[46552279] = PT.Blacksmithing({
+    quest = 83854,
+    id = 226282,
+    parent = map.id
+}) -- Nerubian Smith's Kit
 map.nodes[55863809] = PT.Inscription({quest = nil, id = 226314}) -- Nerubian Texts -- review
-map.nodes[50103078] = PT.Inscription({quest = nil, id = 226315}) -- Venomancer's Ink Well -- review
-map.nodes[46732165] = PT.Mining({quest = nil, id = 226338}) -- Heavy Spider Crusher -- review
+cot.nodes[50103078] = PT.Inscription({quest = nil, id = 226315}) -- Venomancer's Ink Well -- review
+cot.nodes[46812169] = PT.Mining({quest = 83912, id = 226338, parent = map.id}) -- Heavy Spider Crusher -- review
 map.nodes[56995864] = PT.Skinning({quest = nil, id = 226347}) -- Carapace Shiner -- review
-map.nodes[50241675] = PT.Tailoring({quest = nil, id = 226355}) -- Nerubian's Pincushion -- review
+cot.nodes[50241675] = PT.Tailoring({quest = nil, id = 226355}) -- Nerubian's Pincushion -- review
 
 -------------------------------------------------------------------------------
 --------------------------- AZJ-KAHET GLYPH HUNTER ----------------------------

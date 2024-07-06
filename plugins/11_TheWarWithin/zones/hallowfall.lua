@@ -35,11 +35,11 @@ local map = Map({id = 2215, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[06002000] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69716})}
--- }) -- Beledar's Spawn
+map.nodes[42703134] = Rare({
+    id = 221690,
+    quest = nil,
+    rewards = {Achievement({id = 40851, criteria = 69716})}
+}) -- Beledar's Spawn
 
 -- map.nodes[08002000] = Rare({
 --     id = nil,
@@ -71,11 +71,14 @@ local map = Map({id = 2215, settings = true})
 --     rewards = {Achievement({id = 40851, criteria = 69717})}
 -- }) -- Deathtide
 
--- map.nodes[18002000] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69703})}
--- }) -- Deepfiend Azellix
+map.nodes[72116435] = Rare({
+    id = 218458,
+    quest = 80011,
+    rewards = {
+        Achievement({id = 40851, criteria = 69703}),
+        Transmog({item = 223394, type = L['plate']}) -- Deepfiend Pauldrons
+    }
+}) -- Deepfiend Azellix
 
 -- map.nodes[20002000] = Rare({
 --     id = nil,
@@ -140,11 +143,11 @@ map.nodes[57046433] = Rare({
     }
 }) -- Ixlorb the Weaver
 
--- map.nodes[32002000] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69710})}
--- }) -- Lytfang the Lost
+map.nodes[23005922] = Rare({
+    id = 221534,
+    quest = nil,
+    rewards = {Achievement({id = 40851, criteria = 69710})}
+}) -- Lytfang the Lost
 
 map.nodes[63402880] = Rare({
     id = 206203,
@@ -221,6 +224,16 @@ map.nodes[56486899] = Rare({
 --     rewards = {Achievement({id = 40851, criteria = 69723})}
 -- }) -- Toadstomper
 
+map.nodes[63782057] = Rare({
+    id = 214905,
+    quest = nil,
+    pois = {
+        Path({
+            62102153, 62622116, 63162080, 63782057, 63932018, 63761978,
+            63641936, 63531893, 63341857, 62931795
+        })
+    }
+}) -- Name
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
@@ -385,7 +398,7 @@ map.nodes[76765382] = Treasure({ -- review, was not there when i looked
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[47586113] = PT.Blacksmithing({quest = nil, id = 226280}) -- Holy Flame Forge -- review
+map.nodes[47586106] = PT.Blacksmithing({quest = 83852, id = 226280}) -- Holy Flame Forge -- review
 map.nodes[44035563] = PT.Blacksmithing({quest = nil, id = 226281}) -- Radiant Tongs -- review
 map.nodes[35925497] = PT.Herbalism({quest = nil, id = 226305}) -- Arathi Herb Pruner -- review
 map.nodes[43075684] = PT.Mining({quest = nil, id = 226337}) -- Devout Archaeologist's Excavator -- review
