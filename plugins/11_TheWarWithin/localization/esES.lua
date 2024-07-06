@@ -40,7 +40,7 @@ L['kaja_cola_machine_note'] = 'Compra bebidas en el orden siguiente: Bomba de Ba
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Muestra dónde están las consolas del logro {achievement:40473}.'
 
-L['not_so_quick_fix_note'] = nil
+L['not_so_quick_fix_note'] = 'Repara la consolas terránea estropeada.'
 L['water_console_location'] = nil
 L['abyssal_console_location'] = nil
 L['taelloch_console_location'] = nil
@@ -51,7 +51,7 @@ L['earthen_console_location'] = nil
 L['options_icons_notable_machines'] = '{achievement:40628}'
 L['options_icons_notable_machines_desc'] = 'Muestra dónde están las notas del logro {achievement:40628}.'
 
-L['notable_machines_note'] = nil
+L['notable_machines_note'] = 'Lee la nota.'
 L['fragment_I_location'] = nil
 L['fragment_II_location'] = nil
 L['fragment_III_location'] = nil
@@ -62,7 +62,7 @@ L['fragment_VI_location'] = nil
 L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
 L['options_icons_rocked_to_sleep_desc'] = 'Muestra dónde están las placas del logro {achievement:40504}.'
 
-L['rocked_to_sleep_note'] = nil
+L['rocked_to_sleep_note'] = 'Lee la placa del terráneo inerte.'
 L['attwogaz_location'] = nil
 L['halthaz_location'] = nil
 L['krattdaz_location'] = nil
