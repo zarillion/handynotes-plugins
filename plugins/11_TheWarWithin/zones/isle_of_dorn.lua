@@ -406,7 +406,8 @@ map.nodes[73693706] = Treasure({
 -------------------------------------------------------------------------------
 
 dor.nodes[47207040] = PT.Alchemy({quest = nil, id = 226265, parent = map.id}) -- Earthen Iron Powder -- review
-dor.nodes[57174685] = PT.Inscription({quest = nil, id = 226308, parent = map.id}) -- Dornogal Scribe's Quill -- review
+dor.nodes[57174685] =
+    PT.Inscription({quest = nil, id = 226308, parent = map.id}) -- Dornogal Scribe's Quill -- review
 map.nodes[58186204] = PT.Mining({quest = 83906, id = 226332}) -- Earthen Miner's Gavel
 dor.nodes[53225301] = PT.Mining({quest = nil, id = 226333, parent = map.id}) -- Dornogal Chisel -- review
 map.nodes[60042800] = PT.Skinning({quest = nil, id = 226341}) -- Earthen Worker's Beams -- review
@@ -485,3 +486,12 @@ map.nodes[42128025] = LoreObject({
     rlabel = ReputationGain(250, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40762, criteria = 69373})}
 }) -- Watcher of the South
+
+-------------------------------------------------------------------------------
+
+dor.nodes[50367215] = ns.node.Collectible({
+    icon = 4620670,
+    label = '{achievement:40606}}',
+    rewards = {Achievement({id = 40606, criteria = 0})},
+    parent = map.id
+})
