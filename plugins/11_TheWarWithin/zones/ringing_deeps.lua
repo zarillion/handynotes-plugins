@@ -255,10 +255,11 @@ map.nodes[68863883] = Treasure({ -- lvl 71
 -------------------------------------------------------------------------------
 
 map.nodes[42182415] = PT.Alchemy({quest = nil, id = 226267}) -- Reinforced Beaker -- review
-map.nodes[47673317] = PT.Blacksmithing({quest = nil, id = 226278}) -- Ringing Hammer Vise -- review
+map.nodes[47673317] = PT.Blacksmithing({quest = 83850, id = 226278}) -- Ringing Hammer Vise
+map.nodes[60525367] = PT.Blacksmithing({quest = 83851, id = 226279}) -- Earthen Chisels
 map.nodes[48573426] = PT.Inscription({quest = nil, id = 226310}) -- Runic Scroll -- review
 map.nodes[58186204] = PT.Mining({quest = 83908, id = 226334}) -- Earthen Excavator's Shovel
-map.nodes[66276626] = PT.Mining({quest = nil, id = 226335}) -- Regenerating Ore -- review
+map.nodes[66276626] = PT.Mining({quest = 83909, id = 226335}) -- Regenerating Ore -- review
 map.nodes[65716190] = PT.Skinning({quest = nil, id = 226343}) -- Fungarian's Rich Tannin -- review
 map.nodes[48853286] = PT.Tailoring({
     quest = nil,
@@ -486,3 +487,54 @@ map.nodes[47663529] = Vendor({
         Toy({item = 224643}) -- Pet-Sized Candle
     }
 }) -- Gnawbles
+
+local DisturbedDirt = Class('Disturbed_dirt', ns.node.Node, {
+    icon = 132386,
+    scale = 0.7,
+    label = '{npc:206978}', -- review
+    group = ns.groups.DISTURBED_DIRT,
+    requires = {ns.requirement.Reputation(2594, 2, true)}, -- Assembly of the Deeps Renown 2
+    rewards = {Item({item = 212493})} -- Odd Glob of Wax
+})
+
+-- Disturbed Dirt - Not on Minimap but quite visible from some distance
+-- first loot triggered quest 84543
+map.nodes[46713076] = DisturbedDirt()
+map.nodes[47453785] = DisturbedDirt()
+map.nodes[49361113] = DisturbedDirt()
+map.nodes[51821194] = DisturbedDirt()
+map.nodes[52713193] = DisturbedDirt()
+map.nodes[52991720] = DisturbedDirt()
+map.nodes[53611070] = DisturbedDirt()
+map.nodes[54823031] = DisturbedDirt()
+map.nodes[55572820] = DisturbedDirt()
+map.nodes[55673637] = DisturbedDirt()
+map.nodes[55763100] = DisturbedDirt()
+map.nodes[55893943] = DisturbedDirt()
+map.nodes[55896839] = DisturbedDirt()
+map.nodes[56576361] = DisturbedDirt()
+map.nodes[56704160] = DisturbedDirt()
+map.nodes[56752418] = DisturbedDirt()
+map.nodes[57056517] = DisturbedDirt()
+map.nodes[57056845] = DisturbedDirt()
+map.nodes[57142299] = DisturbedDirt()
+map.nodes[57263511] = DisturbedDirt()
+map.nodes[57497726] = DisturbedDirt()
+map.nodes[57514834] = DisturbedDirt()
+map.nodes[57663957] = DisturbedDirt()
+map.nodes[57914262] = DisturbedDirt()
+map.nodes[58036805] = DisturbedDirt()
+map.nodes[58846629] = DisturbedDirt()
+map.nodes[59207742] = DisturbedDirt()
+map.nodes[59227892] = DisturbedDirt()
+map.nodes[59235361] = DisturbedDirt()
+map.nodes[60039242] = DisturbedDirt()
+map.nodes[61255312] = DisturbedDirt()
+map.nodes[62563191] = DisturbedDirt()
+map.nodes[63103270] = DisturbedDirt()
+map.nodes[63756316] = DisturbedDirt()
+map.nodes[64066137] = DisturbedDirt()
+map.nodes[64656659] = DisturbedDirt()
+map.nodes[65393974] = DisturbedDirt()
+map.nodes[66733837] = DisturbedDirt()
+map.nodes[67794830] = DisturbedDirt()

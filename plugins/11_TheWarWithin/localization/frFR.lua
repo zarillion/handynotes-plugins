@@ -76,6 +76,8 @@ L['gundrig_location'] = nil
 L['sathilga_location'] = nil
 
 L['gnawbles_ruby_vendor_note'] = nil
+L['options_icons_disturbed_dirt'] = nil
+L['options_icons_disturbed_dirt_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------

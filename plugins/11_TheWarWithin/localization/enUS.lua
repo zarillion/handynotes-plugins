@@ -79,6 +79,8 @@ L['gnawbles_ruby_vendor_note'] = [[Gather {item:212493} from {object:Disturbed E
 Once you've done 10 contributions or contributed a total of 50x {item:212493}, the NPC next to {npc:225166}, {npc:216164}, will offer the quest {quest:82957} which will give you 1x {item:224642}.
 
 Each item costs 1x {item:224642}.]]
+L['options_icons_disturbed_dirt'] = 'Disturbed Dirt'
+L['options_icons_disturbed_dirt_desc'] = 'Display locations of {object:Disturbed Dirt}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
