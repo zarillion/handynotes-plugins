@@ -483,6 +483,6 @@ map.nodes[47663529] = Vendor({
     rewards = {
         Pet({item = 224760, id = 4597}), -- Wobbles
         Pet({item = 224646, id = 4598}), -- Coppers the Cobold
-        Toy({item = 224643}), -- Pet-Sized Candle
+        Toy({item = 224643}) -- Pet-Sized Candle
     }
 }) -- Gnawbles
