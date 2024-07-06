@@ -281,6 +281,18 @@ map.nodes[34056102] = Treasure({
 }) -- Concealed Contraband -- Web Cocoon
 
 -------------------------------------------------------------------------------
+----------------------------- PROFESSION TREASURES ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[44476052] = PT.Alchemy({quest = nil, id = 226272}) -- Dark Apothecary's Vial -- review
+map.nodes[46552279] = PT.Blacksmithing({quest = nil, id = 226282}) -- Nerubian Smith's Kit -- review
+map.nodes[55863809] = PT.Inscription({quest = nil, id = 226314}) -- Nerubian Texts -- review
+map.nodes[50103078] = PT.Inscription({quest = nil, id = 226315}) -- Venomancer's Ink Well -- review
+map.nodes[46732165] = PT.Mining({quest = nil, id = 226338}) -- Heavy Spider Crusher -- review
+map.nodes[56995864] = PT.Skinning({quest = nil, id = 226347}) -- Carapace Shiner -- review
+map.nodes[50241675] = PT.Tailoring({quest = nil, id = 226355}) -- Nerubian's Pincushion -- review
+
+-------------------------------------------------------------------------------
 --------------------------- AZJ-KAHET GLYPH HUNTER ----------------------------
 -------------------------------------------------------------------------------
 

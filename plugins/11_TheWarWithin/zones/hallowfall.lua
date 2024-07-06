@@ -381,6 +381,18 @@ map.nodes[76765382] = Treasure({ -- review, was not there when i looked
 }) -- Spore-covered Coffer
 
 -------------------------------------------------------------------------------
+----------------------------- PROFESSION TREASURES ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[47586113] = PT.Blacksmithing({quest = nil, id = 226280}) -- Holy Flame Forge -- review
+map.nodes[44035563] = PT.Blacksmithing({quest = nil, id = 226281}) -- Radiant Tongs -- review
+map.nodes[35925497] = PT.Herbalism({quest = nil, id = 226305}) -- Arathi Herb Pruner -- review
+map.nodes[43075684] = PT.Mining({quest = nil, id = 226337}) -- Devout Archaeologist's Excavator -- review
+map.nodes[42305391] = PT.Skinning({quest = nil, id = 226345}) -- Arathi Craftsman's Spokeshave -- review
+map.nodes[49316233] = PT.Tailoring({quest = nil, id = 226352}) -- Arathi Rotary Cutter -- review
+map.nodes[40116812] = PT.Tailoring({quest = nil, id = 226353}) -- Royal Outfitter's Protractor -- review
+
+-------------------------------------------------------------------------------
 --------------------------- HALLOWFALL GLYPH HUNTER ---------------------------
 -------------------------------------------------------------------------------
 
