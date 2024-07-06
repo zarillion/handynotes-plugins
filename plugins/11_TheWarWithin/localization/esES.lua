@@ -76,11 +76,11 @@ L['sathilga_location'] = nil
 
 L['gnawbles_ruby_vendor_note'] = [[Recolecta {item:212493} de la {object:Tierra Perturbada} para dárselo a {npc:225166}.
 
-Una vez que hayas hecho 10 contribuciones o hayas contribuido con un total de 50x {item:212493}, el NPC que está junto a {npc:225166}, {npc:216164}, te ofrecerá la misión {quest:82957} que te dará 1x {item:224642}.
+Una vez que hayas hecho 10 contribuciones o hayas contribuido con un total de 50x {item:212493} recibirás 1x {item:224642}.
 
 Cada objeto cuesta 1x {item:224642}.]]
-L['options_icons_disturbed_dirt'] = nil
-L['options_icons_disturbed_dirt_desc'] = nil
+L['options_icons_disturbed_dirt'] = 'Tierra Revuelta'
+L['options_icons_disturbed_dirt_desc'] = 'Muestra dónde están las {object:Tierra Revuelta}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
