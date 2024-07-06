@@ -72,6 +72,12 @@ ns.groups.ROCKED_TO_SLEEP = Group('rocked_to_sleep', 5788303, {
     achievement = 40504
 })
 
+-- ns.groups.SAFARI = Group('safari', 4048818, {
+--     defaults = ns.GROUP_HIDDEN,
+--     type = ns.group_types.ACHIEVEMENT,
+--     achievement = 40194
+-- })
+
 -------------------------------------------------------------------------------
 ---------------------------- KHAZ ALGAR LORE HUNTER ---------------------------
 -------------------------------------------------------------------------------
@@ -254,3 +260,198 @@ end
 -- 226353 Royal Outfitter's Protractor -- https://www.wowhead.com/ptr-2/item=226353/royal-outfitters-protractor#comments:id=5888097
 -- 226354 Nerubian Quilt
 -- 226355 Nerubian's Pincushion -- https://www.wowhead.com/ptr-2/item=226355/nerubians-pincushion#comments:id=5884236
+
+-------------------------------------------------------------------------------
+------------------------------ KHAZ ALGAR SAFARI ------------------------------
+-------------------------------------------------------------------------------
+
+-- local Safari = Class('Safari', Collectible,
+--     {icon = 'paw_g', group = ns.groups.SAFARI}) -- Khaz Algar Safari
+
+-- ns.node.Safari = Safari
+
+-- map.nodes[0000] = Safari({
+--     id = 222071,
+--     rewards = {Achievement({id = 40194, criteria = 67292}), Pet({id = 4457})}
+--     -- pois = {POI({0000})}
+-- }) -- Chitin Burrower
+
+-- map.nodes[0000] = Safari({
+--     id = 222613,
+--     rewards = {Achievement({id = 40194, criteria = 67294}), Pet({id = 4514})}
+--     -- pois = {POI({0000})}
+-- }) -- Fallowspark Glowfly
+
+-- map.nodes[0000] = Safari({
+--     id = 222615,
+--     rewards = {Achievement({id = 40194, criteria = 67296}), Pet({id = 4516})}
+--     -- pois = {POI({0000})}
+-- }) -- Vibrant Glowfly
+
+-- map.nodes[0000] = Safari({
+--     id = 222344,
+--     rewards = {Achievement({id = 40194, criteria = 67298}), Pet({id = 4477})}
+--     -- pois = {POI({0000})}
+-- }) -- Verdant Scootlefish
+
+-- map.nodes[0000] = Safari({
+--     id = 222351,
+--     rewards = {Achievement({id = 40194, criteria = 67300}), Pet({id = 4480})}
+--     -- pois = {POI({0000})}
+-- }) -- Shadowy Oozeling
+
+-- map.nodes[0000] = Safari({
+--     id = 222582,
+--     rewards = {Achievement({id = 40194, criteria = 67302}), Pet({id = 4498})}
+--     -- pois = {POI({0000})}
+-- }) -- Ebon Ploughworm
+
+-- map.nodes[0000] = Safari({
+--     id = 222195,
+--     rewards = {Achievement({id = 40194, criteria = 67304}), Pet({id = 4460})}
+--     -- pois = {POI({0000})}
+-- }) -- Arathi Chicken
+
+-- map.nodes[0000] = Safari({
+--     id = 222877,
+--     rewards = {Achievement({id = 40194, criteria = 67306}), Pet({id = 4535})}
+--     -- pois = {POI({0000})}
+-- }) -- Ghostcap Menace
+
+-- map.nodes[0000] = Safari({
+--     id = 222421,
+--     rewards = {Achievement({id = 40194, criteria = 67308}), Pet({id = 4483})}
+--     -- pois = {POI({0000})}
+-- }) -- Vile Bloodtick
+
+-- map.nodes[0000] = Safari({
+--     id = 222499,
+--     rewards = {Achievement({id = 40194, criteria = 67310}), Pet({id = 4485})}
+--     -- pois = {POI({0000})}
+-- }) -- Mossy Snail
+
+-- map.nodes[0000] = Safari({
+--     id = 222739,
+--     rewards = {Achievement({id = 40194, criteria = 67312}), Pet({id = 4522})}
+--     -- pois = {POI({0000})}
+-- }) -- Troglofrog
+
+-- map.nodes[0000] = Safari({
+--     id = 222775,
+--     rewards = {Achievement({id = 40194, criteria = 67314}), Pet({id = 4526})}
+--     -- pois = {POI({0000})}
+-- }) -- Sandstone Mosswool
+
+-- map.nodes[0000] = Safari({
+--     id = 223136,
+--     rewards = {Achievement({id = 40194, criteria = 67316}), Pet({id = 4544})}
+--     -- pois = {POI({0000})}
+-- }) -- Umbral Amalgam
+
+-- map.nodes[0000] = Safari({
+--     id = 223094,
+--     rewards = {Achievement({id = 40194, criteria = 67318}), Pet({id = 4538})}
+--     -- pois = {POI({0000})}
+-- }) -- Cobalt Ramolith
+
+-- map.nodes[0000] = Safari({
+--     id = 223092,
+--     rewards = {Achievement({id = 40194, criteria = 67320}), Pet({id = 4540})}
+--     -- pois = {POI({0000})}
+-- }) -- Alabaster Stonecharger
+
+-- map.nodes[0000] = Safari({
+--     id = 223698,
+--     rewards = {Achievement({id = 40194, criteria = 68270}), Pet({id = 4577})}
+--     -- pois = {POI({0000})}
+-- }) -- Cinderhoney Emberstinger
+
+-- map.nodes[0000] = Safari({
+--     id = 222066,
+--     rewards = {Achievement({id = 40194, criteria = 67293}), Pet({id = 4456})}
+--     -- pois = {POI({0000})}
+-- }) -- Arachnoid Hatchling
+
+-- map.nodes[0000] = Safari({
+--     id = 222614,
+--     rewards = {Achievement({id = 40194, criteria = 67295}), Pet({id = 4515})}
+--     -- pois = {POI({0000})}
+-- }) -- Azure Flickerfly
+
+-- map.nodes[0000] = Safari({
+--     id = 222325,
+--     rewards = {Achievement({id = 40194, criteria = 67297}), Pet({id = 4471})}
+--     -- pois = {POI({0000})}
+-- }) -- Aubergine Scootlefish
+
+-- map.nodes[0000] = Safari({
+--     id = 222354,
+--     rewards = {Achievement({id = 40194, criteria = 67299}), Pet({id = 4481})}
+--     -- pois = {POI({0000})}
+-- }) -- Voidling Ooze
+
+-- map.nodes[0000] = Safari({
+--     id = 222584,
+--     rewards = {Achievement({id = 40194, criteria = 67301}), Pet({id = 4499})}
+--     -- pois = {POI({0000})}
+-- }) -- Common Ploughworm
+
+-- map.nodes[0000] = Safari({
+--     id = 222194,
+--     rewards = {Achievement({id = 40194, criteria = 67303}), Pet({id = 4461})}
+--     -- pois = {POI({0000})}
+-- }) -- Greenlands Chicken
+
+-- map.nodes[0000] = Safari({
+--     id = 222875,
+--     rewards = {Achievement({id = 40194, criteria = 67305}), Pet({id = 4533})}
+--     -- pois = {POI({0000})}
+-- }) -- Meek Bloodlasher
+
+-- map.nodes[0000] = Safari({
+--     id = 222608,
+--     rewards = {Achievement({id = 40194, criteria = 67307}), Pet({id = 4510})}
+--     -- pois = {POI({0000})}
+-- }) -- Winged Arachnoid
+
+-- map.nodes[0000] = Safari({
+--     id = 222713,
+--     rewards = {Achievement({id = 40194, criteria = 67309}), Pet({id = 4518})}
+--     -- pois = {POI({0000})}
+-- }) -- Magmashell Crawler
+
+-- map.nodes[0000] = Safari({
+--     id = 222736,
+--     rewards = {Achievement({id = 40194, criteria = 67311}), Pet({id = 4521})}
+--     -- pois = {POI({0000})}
+-- }) -- Subterranean Dartwog
+
+-- map.nodes[0000] = Safari({
+--     id = 222774,
+--     rewards = {Achievement({id = 40194, criteria = 67313}), Pet({id = 4525})}
+--     -- pois = {POI({0000})}
+-- }) -- Fragrant Stonelamb
+
+-- map.nodes[0000] = Safari({
+--     id = 222778,
+--     rewards = {Achievement({id = 40194, criteria = 67315}), Pet({id = 4529})}
+--     -- pois = {POI({0000})}
+-- }) -- Shale Mosswool
+
+-- map.nodes[0000] = Safari({
+--     id = 223090,
+--     rewards = {Achievement({id = 40194, criteria = 67317}), Pet({id = 4541})}
+--     -- pois = {POI({0000})}
+-- }) -- Bedrock Stonecharger
+
+-- map.nodes[0000] = Safari({
+--     id = 223093,
+--     rewards = {Achievement({id = 40194, criteria = 	67319}), Pet({id = 4539})}
+--     -- pois = {POI({0000})}
+-- }) -- Granite Ramolith
+
+-- map.nodes[0000] = Safari({
+--     id = 223715,
+--     rewards = {Achievement({id = 40194, criteria = 68269}), Pet({id = 4574})}
+--     -- pois = {POI({0000})}
+-- }) -- Snuffling
