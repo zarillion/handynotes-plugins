@@ -41,7 +41,7 @@ L['kaja_cola_machine_note'] = 'Achetez les boissons dans l\'ordre suivant : Dyna
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Afficher les emplacements des consoles pour le haut-fait {achievement:40473}.'
 
-L['not_so_quick_fix_note'] = nil
+L['not_so_quick_fix_note'] = 'Réparez la console terrestre cassée.'
 L['water_console_location'] = nil
 L['abyssal_console_location'] = nil
 L['taelloch_console_location'] = nil
@@ -52,7 +52,7 @@ L['earthen_console_location'] = nil
 L['options_icons_notable_machines'] = '{achievement:40628}'
 L['options_icons_notable_machines_desc'] = 'Afficher les emplacements des notes pour le haut-fait {achievement:40628}.'
 
-L['notable_machines_note'] = nil
+L['notable_machines_note'] = 'Lisez la note.'
 L['fragment_I_location'] = nil
 L['fragment_II_location'] = nil
 L['fragment_III_location'] = nil
@@ -63,7 +63,7 @@ L['fragment_VI_location'] = nil
 L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
 L['options_icons_rocked_to_sleep_desc'] = 'Afficher les emplacements des plaques pour le haut-fait {achievement:40504}.'
 
-L['rocked_to_sleep_note'] = nil
+L['rocked_to_sleep_note'] = 'Lisez la plaque du terrestre inerte.'
 L['attwogaz_location'] = nil
 L['halthaz_location'] = nil
 L['krattdaz_location'] = nil
@@ -125,7 +125,7 @@ L['filigreed_cleric_location'] = nil
 L['options_icons_missing_lynx'] = '{achievement:40625}'
 L['options_icons_missing_lynx_desc'] = 'Afficher les emplacements des lynx pour le haut-fait {achievement:40625}.'
 
-L['missing_lynx_note'] = nil
+L['missing_lynx_note'] = 'Caressez le féroce félin de guerre.'
 L['magpie_location'] = nil
 L['evan_location'] = nil
 L['emery_location'] = nil
@@ -148,7 +148,7 @@ L['gobbo_location'] = nil
 L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = 'Afficher les emplacements des tisse-rats pour le haut-fait {achievement:40624}.'
 
-L['itsy_bitsy_spider_note'] = nil
+L['itsy_bitsy_spider_note'] = 'Faites signe ({emote:/signe}) au tisse-rat.'
 L['webster_location'] = nil
 L['spindle_location'] = nil
 L['swift_location'] = nil
@@ -158,4 +158,4 @@ L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
 L['concealed_contraband'] = 'Contrebande dissimulée'
-L['trapped_trove_note'] = nil
+L['trapped_trove_note'] = 'Dans un bâtiment suspendu au plafond. Évitez les toiles d\'araignées au sol.'
