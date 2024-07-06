@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
+local Vendor = ns.node.Vendor
 
 local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
@@ -17,6 +18,7 @@ local SkyridingGlyph = ns.node.SkyridingGlyph
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
+local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
@@ -474,3 +476,13 @@ map.nodes[50215826] = LoreObject({
     note = L['in_small_cave'],
     rewards = {Achievement({id = 40762, criteria = 69377})}
 }) -- Wax-Drenched Sign
+
+map.nodes[47663529] = Vendor({
+    id = 216164,
+    note = L['gnawbles_ruby_vendor_note'],
+    rewards = {
+        Pet({item = 224760, id = 4597}), -- Wobbles
+        Pet({item = 224646, id = 4598}), -- Coppers the Cobold
+        Toy({item = 224643}), -- Pet-Sized Candle
+    }
+}) -- Gnawbles

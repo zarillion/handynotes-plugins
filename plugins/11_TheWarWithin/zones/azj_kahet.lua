@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
@@ -40,7 +41,7 @@ map.nodes[46383875] = Rare({
 }) -- Abyssal Devourer
 
 map.nodes[37924284] = Rare({
-    id = nil,
+    id = 214151,
     quest = 78905,
     rewards = {Achievement({id = 40840, criteria = 69654})}
 }) -- Ahg'zagall

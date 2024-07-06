@@ -74,6 +74,12 @@ L['alfritha_location'] = 'PH'
 L['gundrig_location'] = 'PH'
 L['sathilga_location'] = 'PH'
 
+L['gnawbles_ruby_vendor_note'] = [[Gather {item:212493} from {object:Disturbed Earth} and bring it to {npc:225166}.
+
+Once you've done 10 contributions, or contributed a total of 50 {item:212493}, the NPC next to {npc:225166}, {npc:216164}, will offer the quest {quest:82957}, which will give you 1 {item:224642}.
+
+Each item costs 1 {item:224642}.]]
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
