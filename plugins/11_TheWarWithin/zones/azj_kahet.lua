@@ -16,6 +16,7 @@ local SkyridingGlyph = ns.node.SkyridingGlyph
 local Achievement = ns.reward.Achievement
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 local Path = ns.poi.Path
@@ -38,11 +39,11 @@ map.nodes[46383875] = Rare({
     rewards = {Achievement({id = 40840, criteria = 69651})}
 }) -- Abyssal Devourer
 
--- map.nodes[08001600] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69654})}
--- }) -- Ahg'zagall
+map.nodes[37924284] = Rare({
+    id = nil,
+    quest = 78905,
+    rewards = {Achievement({id = 40840, criteria = 69654})}
+}) -- Ahg'zagall
 
 map.nodes[70722147] = Rare({
     id = 216042,
@@ -161,8 +162,11 @@ map.nodes[61918962] = Rare({
 
 map.nodes[34694110] = Rare({
     id = 216037,
-    quest = nil,
-    rewards = {Achievement({id = 40840, criteria = 69656})},
+    quest = 81700,
+    rewards = {
+        Achievement({id = 40840, criteria = 69656}),
+        Transmog({item = 223405, type = L['plate']}) -- Vilewing Visor
+    },
     pois = {
         Path({
             34493843, 34113856, 33653930, 33573969, 33644062, 33894099,
