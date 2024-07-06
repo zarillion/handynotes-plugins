@@ -77,7 +77,7 @@ L['sathilga_location'] = nil
 
 L['gnawbles_ruby_vendor_note'] = [[Sammle {item:212493} aus {object:Disturbed Earth} und bringe sie zu {npc:225166}.
 
-Sobald du 10 Beiträge geleistet hast oder insgesamt 50 {item:212493} beigesteuert hast, wird der NPC neben {npc:225166}, {npc:216164}, dir die Quest {quest:82957} anbieten, durch diese erhältst du 1 {item:224642}.
+Sobald du 10 Beiträge geleistet hast oder insgesamt 50 {item:212493} beigesteuert hast erhältst du 1x {item:224642}.
 
 Jeder Gegenstand kostet 1 {item:224642}.]] -- review
 L['options_icons_disturbed_dirt'] = 'Disturbed Dirt' -- review
