@@ -115,7 +115,7 @@ map.nodes[42753510] = Rare({ -- review
     }
 }) -- King Splash
 
-map.nodes[76002000] = Rare({
+map.nodes[74002000] = Rare({ -- review
     id = 220285,
     quest = nil,
     rewards = {Achievement({id = 40837, criteria = 69637})}
@@ -349,7 +349,7 @@ map.nodes[45882881] = MachineSpeakerNote({
     rewards = {Achievement({id = 40628, criteria = 68991})}
 }) -- Notes On The Machine Speakers: Fragment I
 
-map.nodes[74001600] = MachineSpeakerNote({ -- review
+map.nodes[48932593] = MachineSpeakerNote({
     location = L['fragment_II_location'],
     rewards = {Achievement({id = 40628, criteria = 68992})}
 }) -- Notes On The Machine Speakers: Fragment II
@@ -369,7 +369,7 @@ map.nodes[80001600] = MachineSpeakerNote({ -- review
     rewards = {Achievement({id = 40628, criteria = 68995})}
 }) -- Notes On The Machine Speakers: Fragment V
 
-map.nodes[82001600] = MachineSpeakerNote({ -- review
+map.nodes[65107955] = MachineSpeakerNote({
     location = L['fragment_VI_location'],
     rewards = {Achievement({id = 40628, criteria = 68996})}
 }) -- Notes On The Machine Speakers: Fragment VI

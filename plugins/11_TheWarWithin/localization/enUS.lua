@@ -51,7 +51,7 @@ L['earthen_console_location'] = 'PH'
 L['options_icons_notable_machines'] = '{achievement:40628}'
 L['options_icons_notable_machines_desc'] = 'Display note locations for {achievement:40628}.'
 
-L['notable_machines_note'] = 'PH'
+L['notable_machines_note'] = 'Read the note.'
 L['fragment_I_location'] = 'PH'
 L['fragment_II_location'] = 'PH'
 L['fragment_III_location'] = 'PH'
