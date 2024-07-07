@@ -27,6 +27,7 @@ local ReputationGain = ns.tooltip.ReputationGain
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2255, settings = true})
+local akl = Map({id = 2256, settings = true}) -- Azj-Kahet - Lower
 local cot = Map({id = 2213, settings = true}) -- City of Threads
 local cotl = Map({id = 2216, settings = true}) -- City of Threads - Lower
 
@@ -76,16 +77,24 @@ map.nodes[61232730] = Rare({
     rewards = {Achievement({id = 40840, criteria = 69655})}
 }) -- Grik'ik
 
--- map.nodes[20001600] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69667})}
--- }) -- Harvester Qixt
+akl.nodes[65198283] = Rare({
+    id = 216050,
+    quest = nil,
+    rewards = {Achievement({id = 40840, criteria = 69667})},
+    pois = {
+        Path({
+            65738036, 65288117, 65248203, 65198283, 64948363, 64678446,
+            64508528, 64588614, 64838694, 64138720, 63688645, 63008597
+        })
+    },
+    parent = map.id
+}) -- Harvester Qixt
 
-map.nodes[67468317] = Rare({
+akl.nodes[67438318] = Rare({
     id = 216048,
     quest = nil,
-    rewards = {Achievement({id = 40840, criteria = 69665})}
+    rewards = {Achievement({id = 40840, criteria = 69665})},
+    parent = map.id
 }) -- Jix'ak the Crazed
 
 -- map.nodes[24001600] = Rare({
