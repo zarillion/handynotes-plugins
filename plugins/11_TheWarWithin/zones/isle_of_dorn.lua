@@ -491,7 +491,8 @@ map.nodes[42128025] = LoreObject({
 
 dor.nodes[50367215] = ns.node.Collectible({
     icon = 4620670,
-    label = '{achievement:40606}}',
+    label = '{achievement:40606}',
+    group = ns.groups.FLAT_EARTHEN,
     rewards = {Achievement({id = 40606, criteria = 0})},
     parent = map.id
-})
+}) -- Flat Earthen
