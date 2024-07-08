@@ -103,6 +103,8 @@ L['lost_necklace_note'] = 'Despoja el {object:Recuerdo Perdido} en el borde del 
 L['priory_satchel_location'] = 'Despoja {object:Windswept Satchel} colgando de la esquina del monasterio del {location:Priorato de la Llama Sagrada}.'
 L['smugglers_treasure_note'] = 'Despoja la {item:225335} requerida desde ({dot:Blue}) {npc:226025} debajo del acantilado.'
 L['smugglers_treasure_location'] = 'En lo alto del acantilado entre varias rocas.'
+L['coral_fused_clam'] = nil
+L['coral_fused_clam_note'] = nil
 
 L['options_icons_biblio_archivist'] = '{achievement:40622}'
 L['options_icons_biblio_archivist_desc'] = 'Muestra dónde están los libros del logro {achievement:40622}.'
@@ -150,6 +152,9 @@ L['fuzzy_location'] = nil
 L['furball_location'] = nil
 L['dander_location'] = nil
 L['gobbo_location'] = nil
+
+L['croakit_note'] = nil
+L['deathtide_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------

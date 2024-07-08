@@ -171,8 +171,6 @@ end
 -- map.nodes[0000] = PT.Alchemy({quest = nil, id = 226271}) -- Nerubian Mixing Salts
 
 -- Blacksmithing
--- map.nodes[0000] = PT.Blacksmithing({quest = nil, id = 226276}) -- Ancient Earthen Anvil
--- map.nodes[0000] = PT.Blacksmithing({quest = nil, id = 226277}) -- Dornogal Hammer
 -- map.nodes[0000] = PT.Blacksmithing({quest = nil, id = 226283}) -- Spiderling's Wire Brush
 
 -- Enchanting

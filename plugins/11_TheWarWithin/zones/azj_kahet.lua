@@ -225,9 +225,8 @@ map.nodes[67459072] = Treasure({
     rewards = {Achievement({id = 40828, criteria = 69646})}
 }) -- Disturbed Soil
 
-map.nodes[10002000] = Treasure({ -- review
-    quest = nil,
-    parent = map.id,
+map.nodes[38783722] = Treasure({ -- review
+    quest = 82722,
     rewards = {Achievement({id = 40828, criteria = 69650})}
 }) -- Missing Scout's Pack
 

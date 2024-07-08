@@ -104,6 +104,8 @@ L['lost_necklace_note'] = 'Récupérez le {object:Souvenir perdu} sur le bord du
 L['priory_satchel_location'] = 'Récupérez la {object:Besace balayée par le vent} accrochée à l\'angle de la cathédrale {location:Prieuré de la Flamme sacrée}.'
 L['smugglers_treasure_note'] = 'Récupérez la {item:225335} nécessaire sur l\'({dot:Blue}) {npc:226025} en contrebas de la falaise.'
 L['smugglers_treasure_location'] = 'En haut de la falaise, entre plusieurs rochers.'
+L['coral_fused_clam'] = nil
+L['coral_fused_clam_note'] = nil
 
 L['options_icons_biblio_archivist'] = '{achievement:40622}'
 L['options_icons_biblio_archivist_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40622}.'
@@ -151,6 +153,9 @@ L['fuzzy_location'] = nil
 L['furball_location'] = nil
 L['dander_location'] = nil
 L['gobbo_location'] = nil
+
+L['croakit_note'] = nil
+L['deathtide_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------

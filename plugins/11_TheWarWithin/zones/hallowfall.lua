@@ -15,10 +15,11 @@ local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
-local Transmog = ns.reward.Transmog
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local ItemStatus = ns.tooltip.ItemStatus
 local ReputationGain = ns.tooltip.ReputationGain
@@ -35,10 +36,19 @@ local map = Map({id = 2215, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[42703134] = Rare({
-    id = 221690,
-    quest = nil,
-    rewards = {Achievement({id = 40851, criteria = 69716})}
+map.nodes[15004000] = Rare({
+    id = 207802,
+    rewards = {
+        Mount({item = 223315, id = 2192}),
+        Achievement({id = 40851, criteria = 69716})
+    },
+    pois = {
+        POI({
+            25825754, 32673962, 37207191, 37744585, 38382474, 42733133,
+            45252569, 47015504, 48853197, 50514857, 51427080, 54833679,
+            58034885, 60451862, 61380753, 62823857, 68123014, 71976558, 72804152
+        })
+    }
 }) -- Beledar's Spawn
 
 -- map.nodes[08002000] = Rare({
@@ -53,11 +63,13 @@ map.nodes[42703134] = Rare({
 --     rewards = {Achievement({id = 40851, criteria = 69720})}
 -- }) -- Crazed Cabbage Smacker
 
--- map.nodes[12002000] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69722})}
--- }) -- Croakit
+map.nodes[67552316] = Rare({
+    id = 214757,
+    quest = nil,
+    note = L['croakit_note'],
+    rewards = {Achievement({id = 40851, criteria = 69722})},
+    pois = {POI({65802355})}
+}) -- Croakit
 
 -- map.nodes[14002000] = Rare({
 --     id = nil,
@@ -65,11 +77,18 @@ map.nodes[42703134] = Rare({
 --     rewards = {Achievement({id = 40851, criteria = 69721})}
 -- }) -- Deathpetal
 
--- map.nodes[16002000] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69717})}
--- }) -- Deathtide
+map.nodes[44744241] = Rare({
+    id = 221753,
+    quest = nil,
+    note = L['deathtide_note'],
+    rewards = {Achievement({id = 40851, criteria = 69717})},
+    pois = {
+        POI({48001668, color = 'Green'}), -- Jar of Mucus
+        POI({
+            28925120, 34185782, 34365357, 43451413, 50094966, 53771913, 55142344
+        }) -- Offering of Pure Water
+    }
+}) -- Deathtide
 
 map.nodes[72116435] = Rare({
     id = 218458,
@@ -80,11 +99,11 @@ map.nodes[72116435] = Rare({
     }
 }) -- Deepfiend Azellix
 
--- map.nodes[20002000] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69724})}
--- }) -- Duskshadow
+map.nodes[63931977] = Rare({
+    id = 221179,
+    quest = nil,
+    rewards = {Achievement({id = 40851, criteria = 69724})}
+}) -- Duskshadow
 
 -- map.nodes[22002000] = Rare({
 --     id = nil,
@@ -92,11 +111,11 @@ map.nodes[72116435] = Rare({
 --     rewards = {Achievement({id = 40851, criteria = 69727})}
 -- }) -- Finclaw Bloodtide
 
--- map.nodes[24002000] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69707})}
--- }) -- Funglour
+map.nodes[36807187] = Rare({
+    id = 221767,
+    quest = 81881,
+    rewards = {Achievement({id = 40851, criteria = 69707})}
+}) -- Funglour
 
 map.nodes[36905469] = Rare({
     id = 221551,
@@ -182,11 +201,11 @@ map.nodes[57304857] = Rare({
     rewards = {Achievement({id = 40851, criteria = 69715})}
 }) -- Pride of Beledar
 
--- map.nodes[14002200] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69726})}
--- }) -- Ravageant
+map.nodes[59702107] = Rare({
+    id = 207826,
+    quest = nil,
+    rewards = {Achievement({id = 40851, criteria = 69726})}
+}) -- Ravageant
 
 map.nodes[35943547] = Rare({
     id = 221708,
@@ -200,11 +219,11 @@ map.nodes[73215297] = Rare({
     rewards = {Achievement({id = 40851, criteria = 69709})}
 }) -- Sloshmuck
 
--- map.nodes[20002200] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69713})}
--- }) -- Strength of Beledar
+map.nodes[42703134] = Rare({
+    id = 221690,
+    quest = nil,
+    rewards = {Achievement({id = 40851, criteria = 69713})}
+}) -- Strength of Beledar
 
 map.nodes[44011637] = Rare({
     id = 221648,
@@ -232,8 +251,17 @@ map.nodes[63782057] = Rare({
             62102153, 62622116, 63162080, 63782057, 63932018, 63761978,
             63641936, 63531893, 63341857, 62931795
         })
-    }
-}) -- Name
+    },
+    fgroup = 'mycelium'
+}) -- Radiant-Twisted Mycelium
+
+map.nodes[62090835] = Rare({
+    id = 214905,
+    quest = nil,
+    pois = {Path({62880584, 62230644, 61870771, 62380853, 63490849})},
+    fgroup = 'mycelium'
+}) -- Radiant-Twisted Mycelium
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
@@ -394,14 +422,23 @@ map.nodes[76765382] = Treasure({ -- review, was not there when i looked
     pois = {POI({76105390})} -- Entrance
 }) -- Spore-covered Coffer
 
+map.nodes[63990612] = Treasure({
+    quest = nil,
+    label = L['coral_fused_clam'],
+    note = L['coral_fused_clam_note'],
+    pois = {
+        POI({61890609}) -- Clammer's Kit - Requires level 80
+    }
+}) -- Coral Fused Clam
+
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[47586106] = PT.Blacksmithing({quest = 83852, id = 226280}) -- Holy Flame Forge -- review
-map.nodes[44035563] = PT.Blacksmithing({quest = nil, id = 226281}) -- Radiant Tongs -- review
+map.nodes[44065559] = PT.Blacksmithing({quest = 83853, id = 226281}) -- Radiant Tongs -- review
 map.nodes[35925497] = PT.Herbalism({quest = nil, id = 226305}) -- Arathi Herb Pruner -- review
-map.nodes[43075684] = PT.Mining({quest = nil, id = 226337}) -- Devout Archaeologist's Excavator -- review
+map.nodes[43095685] = PT.Mining({quest = 83911, id = 226337}) -- Devout Archaeologist's Excavator -- review
 map.nodes[42305391] = PT.Skinning({quest = nil, id = 226345}) -- Arathi Craftsman's Spokeshave -- review
 map.nodes[49316233] = PT.Tailoring({quest = nil, id = 226352}) -- Arathi Rotary Cutter -- review
 map.nodes[40116812] = PT.Tailoring({quest = nil, id = 226353}) -- Royal Outfitter's Protractor -- review

@@ -65,7 +65,7 @@ L['fragment_VI_location'] = 'PH'
 L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
 L['options_icons_rocked_to_sleep_desc'] = 'Display plaque locations for {achievement:40504}.'
 
-L['rocked_to_sleep_note'] = 'Read the plague of the inert earthen.'
+L['rocked_to_sleep_note'] = 'Read the plaque of the inert earthen.'
 L['attwogaz_location'] = 'PH'
 L['halthaz_location'] = 'PH'
 L['krattdaz_location'] = 'PH'
@@ -103,6 +103,11 @@ L['lost_necklace_note'] = 'Loot the {object:Lost Momento} on the edge of the shr
 L['priory_satchel_location'] = 'Loot the {object:Windswept Satchel} hanging from the corner of the {location:Priory of the Sacred Flame} cathedral.'
 L['smugglers_treasure_note'] = 'Loot the required {item:225335} from the ({dot:Blue}) {npc:226025} below the cliff.'
 L['smugglers_treasure_location'] = 'High on the cliff between several rocks.'
+L['coral_fused_clam'] = 'Coral Fused Clam'
+L['coral_fused_clam_note'] = [[Loot {item:218354} from the {object:Clammer's Kit} to open the Clam.
+
+{note:Requires level 80 to pick up.}
+]] -- from wowhead, needs to be reviewed
 
 L['options_icons_biblio_archivist'] = '{achievement:40622}'
 L['options_icons_biblio_archivist_desc'] = 'Display book locations for {achievement:40622}.'
@@ -150,6 +155,13 @@ L['fuzzy_location'] = 'PH'
 L['furball_location'] = 'PH'
 L['dander_location'] = 'PH'
 L['gobbo_location'] = 'PH'
+
+L['croakit_note'] = [[To attack {npc:214757} you must first fish 10 {item:211474} from the water nearby.
+Once you have all the fish go to {npc:214757} and toss them to him.]] -- from wowhead, needs to be confirmed.
+L['deathtide_note'] = [[To summon him you must use {item:220123} on the {object:Ominous Altar}.
+You need to combine {item:220122} {dot:Blue} and {item:220124} {dot:Green} to get {item:220123}.
+
+{note:You need to be level 80 to pick them up.} ]] -- from wowhead, needs to be reviewed
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------

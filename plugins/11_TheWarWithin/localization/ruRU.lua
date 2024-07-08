@@ -100,6 +100,8 @@ L['lost_necklace_note'] = nil
 L['priory_satchel_location'] = nil
 L['smugglers_treasure_note'] = nil
 L['smugglers_treasure_location'] = nil
+L['coral_fused_clam'] = nil
+L['coral_fused_clam_note'] = nil
 
 L['options_icons_biblio_archivist'] = nil
 L['options_icons_biblio_archivist_desc'] = nil
@@ -147,6 +149,9 @@ L['fuzzy_location'] = nil
 L['furball_location'] = nil
 L['dander_location'] = nil
 L['gobbo_location'] = nil
+
+L['croakit_note'] = nil
+L['deathtide_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
