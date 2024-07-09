@@ -103,8 +103,11 @@ L['lost_necklace_note'] = 'Despoja el {object:Recuerdo Perdido} en el borde del 
 L['priory_satchel_location'] = 'Despoja {object:Windswept Satchel} colgando de la esquina del monasterio del {location:Priorato de la Llama Sagrada}.'
 L['smugglers_treasure_note'] = 'Despoja la {item:225335} requerida desde ({dot:Blue}) {npc:226025} debajo del acantilado.'
 L['smugglers_treasure_location'] = 'En lo alto del acantilado entre varias rocas.'
-L['coral_fused_clam'] = nil
-L['coral_fused_clam_note'] = nil
+L['coral_fused_clam'] = 'Almeja Incrustada de Coral'
+L['coral_fused_clam_note'] = [[Despoja una {item:218354} del {object:Clammer's Kit} para abrir la Almeja.
+
+{note:Requiere ser nivel 80 para cogerla.}
+]] -- NYT {object:Clammer's Kit}
 
 L['options_icons_biblio_archivist'] = '{achievement:40622}'
 L['options_icons_biblio_archivist_desc'] = 'Muestra dónde están los libros del logro {achievement:40622}.'
@@ -153,8 +156,13 @@ L['furball_location'] = nil
 L['dander_location'] = nil
 L['gobbo_location'] = nil
 
-L['croakit_note'] = nil
-L['deathtide_note'] = nil
+L['croakit_note'] = [[Para atacar a {npc:214757} primero tienes que pescar 10x {item:211474} del agua cercana.
+
+Una vez los tengas todos ve a {npc:214757} y échaselos.]]
+L['deathtide_note'] = [[Para invocarlo tienes que usar una {item:220123} en el {object:Altar Agorero}.
+Necesitarás combinar {item:220122} {dot:Blue} y {item:220124} {dot:Green} para conseguir la {item:220123}.
+
+{note:Requiere ser nivel 80 para cogerla.} ]]
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
