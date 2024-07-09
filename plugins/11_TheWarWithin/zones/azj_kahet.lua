@@ -105,7 +105,7 @@ akl.nodes[67438318] = Rare({
 
 map.nodes[63152530] = Rare({
     id = 221327,
-    quest = nil,
+    quest = 81702, -- 84071
     rewards = {Achievement({id = 40840, criteria = 69659})},
     pois = {
         Path({
@@ -376,7 +376,13 @@ map.nodes[06001200] = ItsyBitsySpider({
 
 map.nodes[08001200] = ItsyBitsySpider({
     location = L['spindle_location'],
-    rewards = {Achievement({id = 40624, criteria = 68973})}
+    rewards = {Achievement({id = 40624, criteria = 68973})},
+    pois = {
+        POI({
+            63003300, 48405640, 48405660, 63003300, 45606000, 46205900,
+            46605900, 56204820
+        }) -- review - just copied from wowhead
+    }
 }) -- Spindle
 
 map.nodes[10001200] = ItsyBitsySpider({
@@ -391,7 +397,11 @@ map.nodes[12001200] = ItsyBitsySpider({
 
 map.nodes[14001200] = ItsyBitsySpider({
     location = L['thimble_location'],
-    rewards = {Achievement({id = 40624, criteria = 68977})}
+    rewards = {Achievement({id = 40624, criteria = 68977})},
+    pois = {
+        POI({31604740, 55607100, 60601760}), -- review - just copied from wowhead
+        POI({55106876}) -- confirmed
+    }
 }) -- Thimble
 
 map.nodes[16001200] = ItsyBitsySpider({
