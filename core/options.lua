@@ -133,6 +133,14 @@ ns.options = {
                     name = L['options_rewards_settings'],
                     order = 10
                 },
+                show_achievement_rewards = {
+                    type = 'toggle',
+                    arg = 'show_achievement_rewards',
+                    name = L['options_achievement_rewards'],
+                    desc = L['options_achievement_rewards_desc'],
+                    order = 11,
+                    width = 'full'
+                },
                 show_manuscript_rewards = {
                     type = 'toggle',
                     arg = 'show_manuscript_rewards',

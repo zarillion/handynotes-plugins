@@ -186,6 +186,8 @@ L['options_restore_hidden_nodes_desc'] = 'Restore all nodes hidden using the rig
 
 L['options_rewards_settings'] = 'Rewards'
 L['options_reward_types'] = 'Show reward types'
+L['options_achievements_rewards'] = 'Show Achievement rewards'
+L['options_achievements_rewards_desc'] = 'Display achievement rewards in tooltips and track their collected status.'
 L['options_manuscript_rewards'] = 'Show drakewatcher manuscript rewards'
 L['options_manuscript_rewards_desc'] = 'Display drakewatcher manuscript rewards in tooltips and track their collected status.'
 L['options_mount_rewards'] = 'Show mount rewards'

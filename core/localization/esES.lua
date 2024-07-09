@@ -186,6 +186,8 @@ L['options_restore_hidden_nodes_desc'] = 'Vuelve a mostrar todos los nodos ocult
 
 L['options_rewards_settings'] = 'Recompensas'
 L['options_reward_types'] = 'Mostrar tipos de recompensas'
+L['options_achievements_rewards'] = nil
+L['options_achievements_rewards_desc'] = nil
 L['options_manuscript_rewards'] = 'Mostrar las recompensas de los manuscritos de dracovigía'
 L['options_manuscript_rewards_desc'] = 'Muestra las recompensas de los manuscritos de dracovigía en los tooltips y sigue si ya lo has coleccionado.'
 L['options_mount_rewards'] = 'Mostrar recompensas de monturas'

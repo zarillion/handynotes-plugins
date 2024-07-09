@@ -186,6 +186,8 @@ L['options_restore_hidden_nodes_desc'] = 'Stellt alle Punkte wieder her, die üb
 
 L['options_rewards_settings'] = 'Belohnungen'
 L['options_reward_types'] = 'Zeige Belohnungstypen'
+L['options_achievements_rewards'] = 'Zeige Erfolgsbelohnungen'
+L['options_achievements_rewards_desc'] = 'Zeige Erfolgsbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_manuscript_rewards'] = 'Zeige Drachenwächtermanuskriptbelohnungen'
 L['options_manuscript_rewards_desc'] = 'Zeige Drachenwächtermanuskriptbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_mount_rewards'] = 'Zeige Reittierbelohnungen'

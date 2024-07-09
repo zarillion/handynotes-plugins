@@ -186,6 +186,8 @@ L['options_restore_hidden_nodes_desc'] = '恢復所有使用右鍵選單隱藏�
 
 L['options_rewards_settings'] = '獎勵'
 L['options_reward_types'] = '顯示獎勵類型'
+L['options_achievements_rewards'] = nil
+L['options_achievements_rewards_desc'] = nil
 L['options_manuscript_rewards'] = nil
 L['options_manuscript_rewards_desc'] = nil
 L['options_mount_rewards'] = '顯示坐騎獎勵'

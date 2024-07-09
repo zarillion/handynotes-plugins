@@ -186,6 +186,8 @@ L['options_restore_hidden_nodes_desc'] = 'Restaure tous les nœuds cachés en ut
 
 L['options_rewards_settings'] = 'Récompenses'
 L['options_reward_types'] = 'Afficher les types de récompenses'
+L['options_achievements_rewards'] = nil
+L['options_achievements_rewards_desc'] = nil
 L['options_manuscript_rewards'] = 'Montrer les Manuscrits guette-drake en récompenses'
 L['options_manuscript_rewards_desc'] = 'Afficher les Manuscrits guette-drake en récompenses dans les infobulles et suivre l\'état de leur acquisition.'
 L['options_mount_rewards'] = 'Afficher les montures en récompense'

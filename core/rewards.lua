@@ -107,7 +107,7 @@ function Spacer:Render(tooltip) tooltip:AddLine(' ') end
 --------------------------------- ACHIEVEMENT ---------------------------------
 -------------------------------------------------------------------------------
 
-local Achievement = Class('Achievement', Reward)
+local Achievement = Class('Achievement', Reward, {display_option = 'show_achievements_rewards'})
 
 local GetCriteriaInfo = function(id, criteria)
     local results = {GetAchievementCriteriaInfoByID(id, criteria)}

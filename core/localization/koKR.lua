@@ -186,6 +186,8 @@ L['options_restore_hidden_nodes_desc'] = '우클릭 메뉴에서 숨긴 지점 �
 
 L['options_rewards_settings'] = '보상'
 L['options_reward_types'] = '보상 종류 표시'
+L['options_achievements_rewards'] = nil
+L['options_achievements_rewards_desc'] = nil
 L['options_manuscript_rewards'] = nil
 L['options_manuscript_rewards_desc'] = nil
 L['options_mount_rewards'] = '탈것 보상 표시'
