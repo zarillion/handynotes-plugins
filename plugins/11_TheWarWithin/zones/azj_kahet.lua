@@ -381,7 +381,8 @@ map.nodes[08001200] = ItsyBitsySpider({
         POI({
             63003300, 48405640, 48405660, 63003300, 45606000, 46205900,
             46605900, 56204820
-        }) -- review - just copied from wowhead
+        }), -- review - just copied from wowhead
+        POI({55644395, color = 'Red'})
     }
 }) -- Spindle
 
@@ -400,7 +401,7 @@ map.nodes[14001200] = ItsyBitsySpider({
     rewards = {Achievement({id = 40624, criteria = 68977})},
     pois = {
         POI({31604740, 55607100, 60601760}), -- review - just copied from wowhead
-        POI({55106876}) -- confirmed
+        POI({55106876, color = 'Red'}) -- confirmed
     }
 }) -- Thimble
 
