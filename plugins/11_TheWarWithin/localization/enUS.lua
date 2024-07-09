@@ -156,7 +156,8 @@ L['furball_location'] = 'PH'
 L['dander_location'] = 'PH'
 L['gobbo_location'] = 'PH'
 
-L['croakit_note'] = [[To attack {npc:214757} you must first fish 10 {item:211474} from the water nearby.
+L['croakit_note'] = [[To attack {npc:214757} you must first fish 10x {item:211474} from the water nearby.
+
 Once you have all the fish go to {npc:214757} and toss them to him.]] -- from wowhead, needs to be confirmed.
 L['deathtide_note'] = [[To summon him you must use {item:220123} on the {object:Ominous Altar}.
 You need to combine {item:220122} {dot:Blue} and {item:220124} {dot:Green} to get {item:220123}.
