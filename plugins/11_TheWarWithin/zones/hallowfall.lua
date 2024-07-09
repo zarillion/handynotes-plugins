@@ -416,7 +416,7 @@ map.nodes[55145185] = Treasure({
 }) -- Smuggler's Treasure
 
 map.nodes[76765382] = Treasure({ -- review, was not there when i looked
-    quest = nil,
+    quest = 79275,
     location = L['in_cave'],
     rewards = {Achievement({id = 40848, criteria = 69702})},
     pois = {POI({76105390})} -- Entrance

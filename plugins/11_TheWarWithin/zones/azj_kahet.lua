@@ -303,6 +303,7 @@ cot.nodes[46552279] = PT.Blacksmithing({
     id = 226282,
     parent = map.id
 }) -- Nerubian Smith's Kit
+map.nodes[52965126] = PT.Blacksmithing({quest = 83855, id = 226283}) -- Spiderling's Wire Brush
 map.nodes[55863809] = PT.Inscription({quest = nil, id = 226314}) -- Nerubian Texts -- review
 cot.nodes[50103078] = PT.Inscription({quest = nil, id = 226315}) -- Venomancer's Ink Well -- review
 cot.nodes[46812169] = PT.Mining({quest = 83912, id = 226338, parent = map.id}) -- Heavy Spider Crusher -- review
@@ -401,13 +402,24 @@ map.nodes[14001200] = ItsyBitsySpider({
     rewards = {Achievement({id = 40624, criteria = 68977})},
     pois = {
         POI({31604740, 55607100, 60601760}), -- review - just copied from wowhead
-        POI({55106876, color = 'Red'}) -- confirmed
+        POI({
+            points = {55106876, 65938810, 68705578, 43752660, 53395340, 28824288},
+            color = 'Red'
+        }) -- confirmed
     }
 }) -- Thimble
 
-map.nodes[16001200] = ItsyBitsySpider({
+cot.nodes[50311591] = ItsyBitsySpider({
     location = L['scampering_weave_rat_location'],
-    rewards = {Achievement({id = 40624, criteria = 68978})}
+    rewards = {Achievement({id = 40624, criteria = 68978})},
+    pois = {
+        Path({
+            52151317, 51811238, 50831126, 49521115, 48471114, 47421333,
+            47481445, 48221539, 48331588, 47571725, 46741772, 46511686,
+            46591499, 47671521, 48741559, 50311591, 51601554, 52151317
+        })
+    },
+    parent = map.id
 }) -- Scampering Weave-Rat
 
 map.nodes[18001200] = ItsyBitsySpider({

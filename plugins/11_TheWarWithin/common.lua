@@ -170,9 +170,6 @@ end
 -- map.nodes[0000] = PT.Alchemy({quest = nil, id = 226270}) -- Sanctified Mortar and Pestle
 -- map.nodes[0000] = PT.Alchemy({quest = nil, id = 226271}) -- Nerubian Mixing Salts
 
--- Blacksmithing
--- map.nodes[0000] = PT.Blacksmithing({quest = nil, id = 226283}) -- Spiderling's Wire Brush
-
 -- Enchanting
 -- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226284}) -- Grinded Earthen Gem
 -- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226285}) -- Silver Dornogal Rod
