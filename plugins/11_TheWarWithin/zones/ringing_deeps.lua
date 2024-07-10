@@ -61,7 +61,7 @@ map.nodes[66232975] = Rare({ -- flyes around
 
 map.nodes[41371692] = Rare({ -- review, multiple locations?
     id = 220267,
-    quest = nil,
+    quest = 81564, -- 84044
     rewards = {Achievement({id = 40837, criteria = 69632})}
 }) -- Charmonger
 
@@ -73,7 +73,7 @@ map.nodes[57883810] = Rare({
 
 map.nodes[50994631] = Rare({
     id = 220269,
-    quest = nil,
+    quest = 84042, -- 80560
     rewards = {Achievement({id = 40837, criteria = 69630})}
 }) -- Cragmund
 
