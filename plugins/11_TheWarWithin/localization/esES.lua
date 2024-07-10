@@ -104,10 +104,10 @@ L['priory_satchel_location'] = 'Despoja {object:Windswept Satchel} colgando de l
 L['smugglers_treasure_note'] = 'Despoja la {item:225335} requerida desde ({dot:Blue}) {npc:226025} debajo del acantilado.'
 L['smugglers_treasure_location'] = 'En lo alto del acantilado entre varias rocas.'
 L['coral_fused_clam'] = 'Almeja Incrustada de Coral'
-L['coral_fused_clam_note'] = [[Despoja una {item:218354} del {object:Clammer's Kit} para abrir la Almeja.
+L['coral_fused_clam_note'] = [[Despoja una {item:218354} del {object:Equipo de Mariscador} para abrir la Almeja.
 
 {note:Requiere ser nivel 80 para cogerla.}
-]] -- NYT {object:Clammer's Kit}
+]]
 
 L['options_icons_biblio_archivist'] = '{achievement:40622}'
 L['options_icons_biblio_archivist_desc'] = 'Muestra dónde están los libros del logro {achievement:40622}.'
