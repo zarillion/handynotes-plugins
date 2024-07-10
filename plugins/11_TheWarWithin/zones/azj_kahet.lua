@@ -403,7 +403,9 @@ map.nodes[14001200] = ItsyBitsySpider({
     pois = {
         POI({31604740, 55607100, 60601760}), -- review - just copied from wowhead
         POI({
-            points = {55106876, 65938810, 68705578, 43752660, 53395340, 28824288},
+            points = {
+                55106876, 65938810, 68705578, 43752660, 53395340, 28824288
+            },
             color = 'Red'
         }) -- confirmed
     }
