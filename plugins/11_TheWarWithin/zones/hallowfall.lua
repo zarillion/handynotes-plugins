@@ -398,9 +398,13 @@ map.nodes[30233875] = Treasure({
     }
 }) -- Priory Satchel
 
-map.nodes[22002400] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 40848, criteria = 69700})}
+map.nodes[45944513] = Treasure({
+    quest = 82005,
+    rewards = {
+        Achievement({id = 40848, criteria = 69700}), Toy({item = 224554})
+    }
+    -- you might have to talk to 4 Sky-Captains on flying boats to unlock this treasure
+    -- hidden quests after talking to the captains: 82012, 82024, 82025, 82026
 }) -- Sky-Captains' Sunken Cache
 
 map.nodes[55145185] = Treasure({
@@ -430,6 +434,13 @@ map.nodes[63990612] = Treasure({
         POI({61890609}) -- Clammer's Kit - Requires level 80
     }
 }) -- Coral Fused Clam
+
+-- map.nodes[56091454] = Treasure({
+--     quest = 81518,
+--     rewards = {
+--         Item({item = 206350}), -- Radiant Remnant
+--     }
+-- }) -- Fisherman's Pouch
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
