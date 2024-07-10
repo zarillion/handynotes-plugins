@@ -405,7 +405,7 @@ map.nodes[73693706] = Treasure({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-dor.nodes[47207040] = PT.Alchemy({quest = nil, id = 226265, parent = map.id}) -- Earthen Iron Powder -- review
+dor.nodes[32456032] = PT.Alchemy({quest = 83840, id = 226265, parent = map.id}) -- Earthen Iron Powder
 dor.nodes[57174685] =
     PT.Inscription({quest = nil, id = 226308, parent = map.id}) -- Dornogal Scribe's Quill -- review
 map.nodes[58186204] = PT.Mining({quest = 83906, id = 226332}) -- Earthen Miner's Gavel
@@ -491,7 +491,7 @@ map.nodes[42128025] = LoreObject({
 
 -------------------------------------------------------------------------------
 
-dor.nodes[50367215] = ns.node.Collectible({
+dor.nodes[50006188] = ns.node.Collectible({
     icon = 4620670,
     label = '{achievement:40606}',
     group = ns.groups.FLAT_EARTHEN,

@@ -152,13 +152,13 @@ for _, profession in pairs(ns.professions) do
         PM[name] = Class(name .. 'Master', ProfessionMaster, {
             icon = icon,
             skillID = skillID,
-            requires = ns.requirement.Profession(skillID, variantID, 25)
+            requires = ns.requirement.Profession(skillID, variantID, 1)
         })
 
         PT[name] = Class(name .. 'Treasure', ProfessionTreasure, {
             icon = icon,
             skillID = skillID,
-            requires = ns.requirement.Profession(skillID, variantID, 25)
+            requires = ns.requirement.Profession(skillID, variantID, 1)
         })
     end
 end
