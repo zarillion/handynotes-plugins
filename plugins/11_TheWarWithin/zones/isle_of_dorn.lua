@@ -92,12 +92,6 @@ map.nodes[53527998] = Rare({
     rewards = {Achievement({id = 40435, criteria = 68217})}
 }) -- Gar'loc
 
-map.nodes[26105401] = Rare({ -- review
-    id = 222378,
-    quest = nil,
-    rewards = {Achievement({id = 40435, criteria = 68227})}
-}) -- Kereke
-
 map.nodes[48212701] = Rare({
     id = 219270,
     quest = nil,
@@ -116,12 +110,6 @@ map.nodes[50876975] = Rare({ -- review
     rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40435, criteria = 68216})}
 }) -- Plaguehart
-
-map.nodes[16001200] = Rare({ -- review
-    id = 222380,
-    quest = nil,
-    rewards = {Achievement({id = 40435, criteria = 68228})}
-}) -- Rotfist
 
 map.nodes[35657489] = Rare({ -- get path
     id = 213115,
@@ -207,7 +195,11 @@ map.nodes[56833477] = Rare({
 map.nodes[30905239] = Rare({
     id = 219284,
     quest = 82203,
-    rewards = {Achievement({id = 40435, criteria = 68226})}
+    label = L['violet_hold_prisoner'],
+    rewards = {
+        Achievement({id = 40435, criteria = {68226, 68228, 68227}}),
+        Transmog({item = 226117, type = L['offhand']}) -- Dalaran Guardian's Arcanotool
+    }
 }) -- Zovex
 
 -------------------------------------------------------------------------------

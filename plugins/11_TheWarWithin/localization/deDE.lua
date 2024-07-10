@@ -19,6 +19,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Zeigt die Positionen der Gesch
 -------------------------------------------------------------------------------
 
 L['alunira_note'] = 'Sammle 10x {item:224025} und kombiniere diese zu einem {item:224026}, um den Schwächungszauber {spell:451570} zu entfernen.'
+L['violet_hold_prisoner'] = nil
 
 L['elemental_geode_label'] = nil
 L['magical_treasure_chest_note'] = 'Schubse {npc:223104} zurück ins Wasser und sammle dann 5x {npc:223159s} in der Nähe.'

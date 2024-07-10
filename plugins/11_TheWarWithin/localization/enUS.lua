@@ -18,6 +18,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Display lore object locations 
 -------------------------------------------------------------------------------
 
 L['alunira_note'] = 'Collect 10x {item:224025} and combine them into a {item:224026} to remove her {spell:451570}.'
+L['violet_hold_prisoner'] = 'Violet Hold Prisoner'
 
 L['elemental_geode_label'] = 'Elemental Geode'
 L['magical_treasure_chest_note'] = 'Push {npc:223104} back into the water then collect 5x {npc:223159s} nearby.'

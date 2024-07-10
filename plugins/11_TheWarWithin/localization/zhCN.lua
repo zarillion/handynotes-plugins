@@ -18,6 +18,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = nil
 -------------------------------------------------------------------------------
 
 L['alunira_note'] = nil
+L['violet_hold_prisoner'] = nil
 
 L['elemental_geode_label'] = nil
 L['magical_treasure_chest_note'] = nil

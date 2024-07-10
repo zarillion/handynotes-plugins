@@ -18,6 +18,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Muestra dónde están los obje
 -------------------------------------------------------------------------------
 
 L['alunira_note'] = 'Recoge 10x {item:224025} y combínalos en un {item:224026} para quitarle {spell:451570}.'
+L['violet_hold_prisoner'] = nil
 
 L['elemental_geode_label'] = 'Geoda Elemental'
 L['magical_treasure_chest_note'] = 'Empuja a {npc:223104} de regreso al agua y luego recoge 5 {npc:223159} en las cercanías.'
