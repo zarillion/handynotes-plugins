@@ -104,8 +104,11 @@ L['lost_necklace_note'] = 'Récupérez le {object:Souvenir perdu} sur le bord du
 L['priory_satchel_location'] = 'Récupérez la {object:Besace balayée par le vent} accrochée à l\'angle de la cathédrale {location:Prieuré de la Flamme sacrée}.'
 L['smugglers_treasure_note'] = 'Récupérez la {item:225335} nécessaire sur l\'({dot:Blue}) {npc:226025} en contrebas de la falaise.'
 L['smugglers_treasure_location'] = 'En haut de la falaise, entre plusieurs rochers.'
-L['coral_fused_clam'] = nil
-L['coral_fused_clam_note'] = nil
+L['coral_fused_clam'] = 'Palourde à corail fusionné'
+L['coral_fused_clam_note'] = [[Récupérez le {item:218354} à partir du {object:Kit de palourdier} pour ouvrir la Palourde.
+
+{note:Vous devez être de niveau 80 pour le ramasser.}
+]]
 
 L['options_icons_biblio_archivist'] = '{achievement:40622}'
 L['options_icons_biblio_archivist_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40622}.'
@@ -154,8 +157,13 @@ L['furball_location'] = nil
 L['dander_location'] = nil
 L['gobbo_location'] = nil
 
-L['croakit_note'] = nil
-L['deathtide_note'] = nil
+L['croakit_note'] = [[Pour attaquer {npc:214757}, vous devez d'abord pêcher 10x {item:211474} dans l'eau à proximité.
+
+Une fois que vous avez tous les poissons, allez vers {npc:214757} et lancez-les-lui.]]
+L['deathtide_note'] = [[Pour l'invoquer, vous devez utiliser l'{item:220123} sur l'{object:Autel menaçant}.
+Vous devez combiner l'{item:220122} {dot:Blue} et le {item:220124} {dot:Green} pour obtenir l'{item:220123}.
+
+{note:Vous devez être de niveau 80 pour les ramasser.} ]]
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
