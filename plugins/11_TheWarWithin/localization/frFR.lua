@@ -19,7 +19,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Afficher les emplacements des 
 -------------------------------------------------------------------------------
 
 L['alunira_note'] = 'Récupérez 10x {item:224025} et combinez-les en un {item:224026} pour retirer son {spell:451570}.'
-L['violet_hold_prisoner'] = nil
+L['violet_hold_prisoner'] = 'Prisonnier du Fort Pourpre'
 
 L['elemental_geode_label'] = 'Géode élémentaire'
 L['magical_treasure_chest_note'] = 'Poussez {npc:223104} dans l\'eau puis récupérez 5x {npc:223159} à proximité.'
