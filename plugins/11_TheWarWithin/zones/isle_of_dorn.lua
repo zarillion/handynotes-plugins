@@ -175,6 +175,24 @@ map.nodes[57122241] = Rare({
     rewards = {Achievement({id = 40435, criteria = 68222})}
 }) -- Twice-Stinger the Wretched
 
+map.nodes[30905239] = Rare({
+    id = 219284,
+    label = L['violet_hold_prisoner'],
+    quest = {82203, 82204, 82205},
+    questCount = true,
+    rewards = {
+        Achievement({
+            id = 40435,
+            criteria = {
+                {id = 68227, quest = 82204}, -- Kereke
+                {id = 68228, quest = 82205}, -- Rotfist
+                {id = 68226, quest = 82203} -- Zovex
+            }
+        }), --
+        Transmog({item = 226117, type = L['offhand']}) -- Dalaran Guardian's Arcanotool
+    }
+}) -- Violet Hold Prisoner (Kereke, Rotfist, Zovex)
+
 map.nodes[56833477] = Rare({
     id = 219263,
     quest = 81894,
@@ -191,16 +209,6 @@ map.nodes[56833477] = Rare({
         })
     }
 }) -- Warphorn
-
-map.nodes[30905239] = Rare({
-    id = 219284,
-    quest = 82203,
-    label = L['violet_hold_prisoner'],
-    rewards = {
-        Achievement({id = 40435, criteria = {68226, 68228, 68227}}),
-        Transmog({item = 226117, type = L['offhand']}) -- Dalaran Guardian's Arcanotool
-    }
-}) -- Zovex
 
 -------------------------------------------------------------------------------
 
