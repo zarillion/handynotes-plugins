@@ -234,7 +234,6 @@ end
 -- map.nodes[0000] = PT.Skinning({quest = nil, id = 226340}) -- Dornogal Carving Knife
 -- map.nodes[0000] = PT.Skinning({quest = nil, id = 226342}) -- Artisan's Drawing Knife
 -- map.nodes[0000] = PT.Skinning({quest = nil, id = 226344}) -- Arathi Tanning Agent
--- map.nodes[0000] = PT.Skinning({quest = nil, id = 226346}) -- Nerubian's Slicking Iron
 
 -- Tailoring
 -- map.nodes[0000] = PT.Tailoring({quest = nil, id = 226349}) -- Earthen Tape Measure
