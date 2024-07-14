@@ -320,8 +320,12 @@ cot.nodes[63141118] = PT.Engineering({
 cot.nodes[46771612] = PT.Herbalism({quest = 83881, id = 226307}) -- Tunneler's Shovel
 cot.nodes[54602088] =
     PT.Herbalism({quest = 83880, id = 226306, parent = map.id}) -- Web-Entangled Lotus
-map.nodes[55863809] = PT.Inscription({quest = nil, id = 226314}) -- Nerubian Texts -- review
-cot.nodes[50103078] = PT.Inscription({quest = nil, id = 226315}) -- Venomancer's Ink Well -- review
+map.nodes[55834390] = PT.Inscription({quest = 83888, id = 226314}) -- Nerubian Texts
+cot.nodes[50233085] = PT.Inscription({
+    quest = 83889,
+    id = 226315,
+    parent = map.id
+}) -- Venomancer's Ink Well
 cot.nodes[47831954] = PT.Jewelcrafting({
     quest = 89896,
     id = 226322,
@@ -336,12 +340,12 @@ cot.nodes[55042695] = PT.Leatherworking({
 map.nodes[59995401] = PT.Leatherworking({quest = 83905, id = 226331}) -- Curved Nerubian Skinning Knife
 cot.nodes[46812169] = PT.Mining({quest = 83912, id = 226338, parent = map.id}) -- Heavy Spider Crusher
 cotl.nodes[47954059] = PT.Mining({quest = 83913, id = 226339}) -- Nerubian Mining Cart
-map.nodes[56995864] = PT.Skinning({quest = nil, id = 226347}) -- Carapace Shiner -- review
-cotl.nodes[44594925] = PT.Skinning({
+cotl.nodes[44484947] = PT.Skinning({
     quest = 83920,
     id = 226346,
     parent = {map.id, cot.id}
 }) -- Nerubian's Slicking Iron
+map.nodes[56545524] = PT.Skinning({quest = 83921, id = 226347}) -- Carapace Shiner
 map.nodes[53285313] = PT.Tailoring({quest = 83928, id = 226354}) -- Nerubian Quilt
 cot.nodes[50321682] =
     PT.Tailoring({quest = 83929, id = 226355, parent = map.id}) -- Nerubian's Pincushion

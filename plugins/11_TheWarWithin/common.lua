@@ -166,17 +166,6 @@ end
 -- Herbalism
 -- map.nodes[0000] = PT.Herbalism({quest = nil, id = 224265}) -- Deepgrove Rose -- Random Drop 5 per week
 
--- Inscription
--- map.nodes[0000] = PT.Inscription({quest = nil, id = 226309}) -- Historian's Dip Pen
--- map.nodes[0000] = PT.Inscription({quest = nil, id = 226311}) -- Blue Earthen Pigment
--- map.nodes[0000] = PT.Inscription({quest = nil, id = 226312}) -- Informant's Fountain Pen
--- map.nodes[0000] = PT.Inscription({quest = nil, id = 226313}) -- Calligrapher's Chiselled Marker
-
--- Skinning
--- map.nodes[0000] = PT.Skinning({quest = nil, id = 226340}) -- Dornogal Carving Knife
--- map.nodes[0000] = PT.Skinning({quest = nil, id = 226342}) -- Artisan's Drawing Knife
--- map.nodes[0000] = PT.Skinning({quest = nil, id = 226344}) -- Arathi Tanning Agent
-
 -------------------------------------------------------------------------------
 ------------------------------ KHAZ ALGAR SAFARI ------------------------------
 -------------------------------------------------------------------------------

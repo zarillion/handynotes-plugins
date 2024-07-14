@@ -526,15 +526,18 @@ map.nodes[46316135] = PT.Engineering({quest = 83870, id = 226296}) -- Holy Firew
 map.nodes[41634893] = PT.Engineering({quest = 83871, id = 226297}) -- Arathi Safety Gloves
 map.nodes[47786330] = PT.Herbalism({quest = 83878, id = 226304}) -- Arathi Garden Trowel
 map.nodes[35975501] = PT.Herbalism({quest = 83879, id = 226305}) -- Arathi Herb Pruner
+map.nodes[43255894] = PT.Inscription({quest = 83886, id = 226312}) -- Informant's Fountain Pen
+map.nodes[42834907] = PT.Inscription({quest = 83887, id = 226313}) -- Calligrapher's Chiselled Marker
 map.nodes[47396068] = PT.Jewelcrafting({quest = 83894, id = 226320}) -- Arathi Sizing Gauges
 map.nodes[44695097] = PT.Jewelcrafting({quest = 83895, id = 226321}) -- Librarian's Magnifiers
 map.nodes[47516513] = PT.Leatherworking({quest = 83902, id = 226328}) -- Arathi Beveler Set
 map.nodes[41505783] = PT.Leatherworking({quest = 83903, id = 226329}) -- Arathi Leather Burnisher
 map.nodes[46076439] = PT.Mining({quest = 83910, id = 226336}) -- Arathi Precision Drill
-map.nodes[43095684] = PT.Mining({quest = 83911, id = 226337}) -- Devout Archaeologist's Excavator -- review
-map.nodes[42305391] = PT.Skinning({quest = nil, id = 226345}) -- Arathi Craftsman's Spokeshave -- review
-map.nodes[49326231] = PT.Tailoring({quest = 83926, id = 226352}) -- Arathi Rotary Cutter -- review
-map.nodes[40096813] = PT.Tailoring({quest = 83927, id = 226353}) -- Royal Outfitter's Protractor -- review
+map.nodes[43095684] = PT.Mining({quest = 83911, id = 226337}) -- Devout Archaeologist's Excavator
+map.nodes[49366215] = PT.Skinning({quest = 83918, id = 226344}) -- Arathi Tanning Agent
+map.nodes[42295393] = PT.Skinning({quest = 83919, id = 226345}) -- Arathi Craftsman's Spokeshave
+map.nodes[49326231] = PT.Tailoring({quest = 83926, id = 226352}) -- Arathi Rotary Cutter
+map.nodes[40096813] = PT.Tailoring({quest = 83927, id = 226353}) -- Royal Outfitter's Protractor
 
 -------------------------------------------------------------------------------
 --------------------------- HALLOWFALL GLYPH HUNTER ---------------------------

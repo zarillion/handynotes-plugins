@@ -424,8 +424,12 @@ dor.nodes[64845284] = PT.Engineering({
 map.nodes[57556146] = PT.Herbalism({quest = 83874, id = 226300}) -- Ancient Flower
 dor.nodes[59242352] =
     PT.Herbalism({quest = 83875, id = 226301, parent = map.id}) -- Dornogal Gardening Scythe
-dor.nodes[57174685] =
-    PT.Inscription({quest = nil, id = 226308, parent = map.id}) -- Dornogal Scribe's Quill -- review
+dor.nodes[57254689] = PT.Inscription({
+    quest = 83882,
+    id = 226308,
+    parent = map.id
+}) -- Dornogal Scribe's Quill
+map.nodes[55976001] = PT.Inscription({quest = 83883, id = 226309}) -- Historian's Dip Pen
 map.nodes[63536687] = PT.Jewelcrafting({quest = 83890, id = 226316}) -- Gentle Jewel Hammer
 dor.nodes[34845219] = PT.Jewelcrafting({
     quest = 83891,
@@ -439,10 +443,11 @@ dor.nodes[59242352] = PT.Leatherworking({
 }) -- Earthen Lacing Tools
 map.nodes[58653077] = PT.Leatherworking({quest = 83899, id = 226325}) -- Dornogal Craftsman's Flat Knife
 map.nodes[58186204] = PT.Mining({quest = 83906, id = 226332}) -- Earthen Miner's Gavel
-dor.nodes[36717936] = PT.Mining({quest = 83907, id = 226333, parent = map.id}) -- Dornogal Chisel -- review
-map.nodes[60042800] = PT.Skinning({quest = nil, id = 226341}) -- Earthen Worker's Beams -- review
+dor.nodes[36717936] = PT.Mining({quest = 83907, id = 226333, parent = map.id}) -- Dornogal Chisel
+dor.nodes[28785165] = PT.Skinning({quest = 83914, id = 226340, parent = map.id}) -- Dornogal Carving Knife
+map.nodes[60042799] = PT.Skinning({quest = 83915, id = 226341}) -- Earthen Worker's Beams
 dor.nodes[61561850] =
-    PT.Tailoring({quest = 83922, id = 226348, parent = map.id}) -- Dornogal Seam Ripper -- review
+    PT.Tailoring({quest = 83922, id = 226348, parent = map.id}) -- Dornogal Seam Ripper
 map.nodes[56216102] = PT.Tailoring({quest = 83923, id = 226349}) -- Earthen Tape Measure
 
 -------------------------------------------------------------------------------
