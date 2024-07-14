@@ -6,6 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local DisturbedDirt = ns.node.DisturbedDirt
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -488,6 +489,28 @@ map.nodes[42128025] = LoreObject({
     rlabel = ReputationGain(250, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40762, criteria = 69373})}
 }) -- Watcher of the South
+
+-------------------------------------------------------------------------------
+-------------------------------- DISTURBED DIRT -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[38187892] = DisturbedDirt()
+map.nodes[44767702] = DisturbedDirt()
+map.nodes[57975529] = DisturbedDirt()
+map.nodes[59517165] = DisturbedDirt()
+map.nodes[61966015] = DisturbedDirt()
+map.nodes[63826247] = DisturbedDirt()
+map.nodes[64776839] = DisturbedDirt()
+map.nodes[65076588] = DisturbedDirt()
+map.nodes[65337065] = DisturbedDirt()
+map.nodes[65696586] = DisturbedDirt()
+map.nodes[68563233] = DisturbedDirt()
+map.nodes[69003300] = DisturbedDirt()
+map.nodes[69993181] = DisturbedDirt()
+map.nodes[70653055] = DisturbedDirt()
+map.nodes[70812854] = DisturbedDirt()
+map.nodes[70902974] = DisturbedDirt()
+map.nodes[27026815] = DisturbedDirt()
 
 -------------------------------------------------------------------------------
 

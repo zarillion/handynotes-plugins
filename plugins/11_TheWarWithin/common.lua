@@ -240,6 +240,23 @@ end
 -- map.nodes[0000] = PT.Tailoring({quest = nil, id = 226354}) -- Nerubian Quilt
 
 -------------------------------------------------------------------------------
+-------------------------------- DISTURBED DIRT -------------------------------
+-------------------------------------------------------------------------------
+
+ns.node.DisturbedDirt = Class('Disturbed_dirt', ns.node.Collectible, {
+    icon = 132386,
+    scale = 0.7,
+    label = '{npc:206978}', -- review
+    group = ns.groups.DISTURBED_DIRT,
+    requires = {ns.requirement.Reputation(2594, 2, true)}, -- Assembly of the Deeps Renown 2
+    rewards = {
+        ns.reward.Item({item = 212493}), -- Odd Glob of Wax
+        ns.reward.Achievement({id = 40585, criteria = {id = 1, qty = true}}) -- Super Size Snuffling
+    }
+}) -- Disturbed Dirt - Not on Minimap but quite visible from some distance
+-- first loot triggered quest 84543 probably not relevant
+
+-------------------------------------------------------------------------------
 ------------------------------ KHAZ ALGAR SAFARI ------------------------------
 -------------------------------------------------------------------------------
 

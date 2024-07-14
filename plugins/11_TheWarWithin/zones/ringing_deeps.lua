@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local DisturbedDirt = ns.node.DisturbedDirt
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -478,6 +479,10 @@ map.nodes[50215826] = LoreObject({
     rewards = {Achievement({id = 40762, criteria = 69377})}
 }) -- Wax-Drenched Sign
 
+-------------------------------------------------------------------------------
+-------------------------------- DISTURBED DIRT -------------------------------
+-------------------------------------------------------------------------------
+
 map.nodes[47663529] = Vendor({
     id = 216164,
     note = L['gnawbles_ruby_vendor_note'],
@@ -488,17 +493,6 @@ map.nodes[47663529] = Vendor({
     }
 }) -- Gnawbles
 
-local DisturbedDirt = Class('Disturbed_dirt', ns.node.Node, {
-    icon = 132386,
-    scale = 0.7,
-    label = '{npc:206978}', -- review
-    group = ns.groups.DISTURBED_DIRT,
-    requires = {ns.requirement.Reputation(2594, 2, true)}, -- Assembly of the Deeps Renown 2
-    rewards = {Item({item = 212493})} -- Odd Glob of Wax
-})
-
--- Disturbed Dirt - Not on Minimap but quite visible from some distance
--- first loot triggered quest 84543
 map.nodes[46713076] = DisturbedDirt()
 map.nodes[47453785] = DisturbedDirt()
 map.nodes[49361113] = DisturbedDirt()

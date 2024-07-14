@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local DisturbedDirt = ns.node.DisturbedDirt
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -474,3 +475,32 @@ map.nodes[71126233] = LoreObject({
     -- ReputationGain(85, 2607), -- The Vizier
     rewards = {Achievement({id = 40762, criteria = 69384})}
 }) -- Weathered Shadecaster
+
+-------------------------------------------------------------------------------
+-------------------------------- DISTURBED DIRT -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[49572863] = DisturbedDirt()
+map.nodes[57202906] = DisturbedDirt()
+map.nodes[60404091] = DisturbedDirt()
+map.nodes[63143918] = DisturbedDirt()
+map.nodes[64733653] = DisturbedDirt()
+map.nodes[76594443] = DisturbedDirt()
+map.nodes[77983656] = DisturbedDirt()
+map.nodes[75473638] = DisturbedDirt()
+map.nodes[71426732] = DisturbedDirt()
+map.nodes[77167049] = DisturbedDirt()
+map.nodes[75317142] = DisturbedDirt()
+map.nodes[75487737] = DisturbedDirt()
+map.nodes[70127943] = DisturbedDirt()
+akl.nodes[65388188] = DisturbedDirt({parent = map.id})
+map.nodes[59846504] = DisturbedDirt()
+map.nodes[41826537] = DisturbedDirt()
+map.nodes[40636088] = DisturbedDirt()
+map.nodes[36845786] = DisturbedDirt()
+map.nodes[36065877] = DisturbedDirt()
+map.nodes[38085589] = DisturbedDirt()
+map.nodes[38375464] = DisturbedDirt()
+map.nodes[39835394] = DisturbedDirt()
+map.nodes[38764920] = DisturbedDirt()
+map.nodes[39834688] = DisturbedDirt()
