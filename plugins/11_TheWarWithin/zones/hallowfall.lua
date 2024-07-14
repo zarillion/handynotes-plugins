@@ -139,7 +139,7 @@ map.nodes[36905469] = Rare({
 
 map.nodes[33122687] = Rare({
     id = 221668,
-    quest = nil,
+    quest = 81836, -- 84065
     rewards = {Achievement({id = 40851, criteria = 69712})},
     pois = {
         Path({
@@ -197,7 +197,7 @@ map.nodes[52132681] = Rare({
 
 map.nodes[57304857] = Rare({
     id = 221786,
-    quest = nil,
+    quest = 81882, -- 84068
     rewards = {Achievement({id = 40851, criteria = 69715})}
 }) -- Pride of Beledar
 
@@ -209,26 +209,32 @@ map.nodes[59702107] = Rare({
 
 map.nodes[35943547] = Rare({
     id = 221708,
-    quest = nil,
+    quest = 84067, -- 81853
     rewards = {Achievement({id = 40851, criteria = 69714})}
 }) -- Sir Alastair Purefire
 
 map.nodes[73215297] = Rare({
     id = 215805,
-    quest = nil,
+    quest = 79271, -- 84062
     rewards = {Achievement({id = 40851, criteria = 69709})}
 }) -- Sloshmuck
 
 map.nodes[42703134] = Rare({
     id = 221690,
-    quest = nil,
-    rewards = {Achievement({id = 40851, criteria = 69713})}
+    quest = 84066, -- 81849
+    rewards = {
+        Achievement({id = 40851, criteria = 69713}),
+        Transmog({item = 221246, type = L['staff']}) -- Fierce Beast Staff
+    }
 }) -- Strength of Beledar
 
 map.nodes[44011637] = Rare({
     id = 221648,
-    quest = nil,
-    rewards = {Achievement({id = 40851, criteria = 69711})}
+    quest = 84064, -- 81791
+    rewards = {
+        Achievement({id = 40851, criteria = 69711}),
+        Transmog({item = 221229, type = L['plate']}) -- Perchfather's Cuffs
+    }
 }) -- The Perchfather
 
 map.nodes[56486899] = Rare({
@@ -299,7 +305,7 @@ map.nodes[41795827] = Treasure({
 }) -- Caesper
 
 map.nodes[59525966] = Treasure({
-    quest = nil,
+    quest = 83284,
     location = L['in_cave'],
     note = L['dark_ritual_note'],
     rewards = {
