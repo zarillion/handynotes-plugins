@@ -307,7 +307,11 @@ cot.nodes[47831954] = PT.Jewelcrafting({quest = 89896, id = 226322, parent = map
 map.nodes[56165865] = PT.Jewelcrafting({quest = 83897, id = 226323}) -- Nerubian Bench Blocks
 cot.nodes[46812169] = PT.Mining({quest = 83912, id = 226338, parent = map.id}) -- Heavy Spider Crusher -- review
 map.nodes[56995864] = PT.Skinning({quest = nil, id = 226347}) -- Carapace Shiner -- review
-cotl.nodes[44594925] = PT.Skinning({quest = 83920, id = 226346, parent = {map.id, cot.id}}) -- Nerubian's Slicking Iron
+cotl.nodes[44594925] = PT.Skinning({
+    quest = 83920,
+    id = 226346,
+    parent = {map.id, cot.id}
+}) -- Nerubian's Slicking Iron
 cot.nodes[50241675] = PT.Tailoring({quest = nil, id = 226355}) -- Nerubian's Pincushion -- review
 
 -------------------------------------------------------------------------------

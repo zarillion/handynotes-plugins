@@ -264,7 +264,11 @@ map.nodes[56985453] = PT.Jewelcrafting({quest = 83893, id = 226319}) -- Jeweler'
 map.nodes[58186204] = PT.Mining({quest = 83908, id = 226334}) -- Earthen Excavator's Shovel
 map.nodes[66276626] = PT.Mining({quest = 83909, id = 226335}) -- Regenerating Ore -- review
 map.nodes[65716190] = PT.Skinning({quest = nil, id = 226343}) -- Fungarian's Rich Tannin -- review
-map.nodes[48853286] = PT.Tailoring({quest = nil, id = 226350, pois = {POI({47703216})} --[[ Entrance ]] }) -- Runed Earthen Pins
+map.nodes[48853286] = PT.Tailoring({
+    quest = nil,
+    id = 226350,
+    pois = {POI({47703216})} -- Entrance
+}) -- Runed Earthen Pins
 map.nodes[64126034] = PT.Tailoring({quest = nil, id = 226351}) -- Earthen Stitcher's Snips -- review
 
 -------------------------------------------------------------------------------
