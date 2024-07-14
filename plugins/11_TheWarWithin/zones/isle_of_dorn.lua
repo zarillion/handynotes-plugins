@@ -513,6 +513,28 @@ map.nodes[70902974] = DisturbedDirt()
 map.nodes[27026815] = DisturbedDirt()
 
 -------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[38337882] = ns.node.PetBattle({
+    id = 223446,
+    rewards = {
+        Achievement({id = 40153, criteria = 67135, oneline = true}), -- Battle on Khaz Algar
+        ns.reward.Spacer(),
+        Achievement({id = 40154, criteria = 67139, oneline = true}), -- Aquatic Battler of Khaz Algar
+        Achievement({id = 40155, criteria = 67143, oneline = true}), -- Beast Battler of Khaz Algar
+        Achievement({id = 40156, criteria = 67147, oneline = true}), -- Critter Battler of Khaz Algar
+        Achievement({id = 40157, criteria = 67151, oneline = true}), -- Dragonkin Battler of Khaz Algar
+        Achievement({id = 40158, criteria = 67155, oneline = true}), -- Elemental Battler of Khaz Algar
+        Achievement({id = 40161, criteria = 67159, oneline = true}), -- Flying Battler of Khaz Algar
+        Achievement({id = 40162, criteria = 67163, oneline = true}), -- Humanoid Battler of Khaz Algar
+        Achievement({id = 40163, criteria = 67166, oneline = true}), -- Magic Battler of Khaz Algar
+        Achievement({id = 40164, criteria = 67170, oneline = true}), -- Mechanical Battler of Khaz Algar
+        Achievement({id = 40165, criteria = 67174, oneline = true}) -- Undead Battler of Khaz Algar
+    }
+}) -- Collector Dyna
+
+-------------------------------------------------------------------------------
 
 dor.nodes[50006188] = ns.node.Collectible({
     icon = 4620670,
