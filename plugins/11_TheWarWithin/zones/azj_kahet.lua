@@ -317,7 +317,8 @@ cot.nodes[63141118] = PT.Engineering({
     id = 226299,
     parent = map.id
 }) -- Emptied Venom Canister
-cot.nodes[46771612] = PT.Herbalism({quest = 83881, id = 226307}) -- Tunneler's Shovel
+cot.nodes[46771612] =
+    PT.Herbalism({quest = 83881, id = 226307, parent = map.id}) -- Tunneler's Shovel
 cot.nodes[54602088] =
     PT.Herbalism({quest = 83880, id = 226306, parent = map.id}) -- Web-Entangled Lotus
 map.nodes[55834390] = PT.Inscription({quest = 83888, id = 226314}) -- Nerubian Texts
@@ -339,7 +340,11 @@ cot.nodes[55042695] = PT.Leatherworking({
 }) -- Nerubian Tanning Mallet
 map.nodes[59995401] = PT.Leatherworking({quest = 83905, id = 226331}) -- Curved Nerubian Skinning Knife
 cot.nodes[46812169] = PT.Mining({quest = 83912, id = 226338, parent = map.id}) -- Heavy Spider Crusher
-cotl.nodes[47954059] = PT.Mining({quest = 83913, id = 226339}) -- Nerubian Mining Cart
+cotl.nodes[47954059] = PT.Mining({
+    quest = 83913,
+    id = 226339,
+    parent = {map.id, cot.id}
+}) -- Nerubian Mining Cart
 cotl.nodes[44484947] = PT.Skinning({
     quest = 83920,
     id = 226346,
