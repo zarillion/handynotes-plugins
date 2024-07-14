@@ -305,6 +305,18 @@ cot.nodes[46552279] = PT.Blacksmithing({
     parent = map.id
 }) -- Nerubian Smith's Kit
 map.nodes[52965126] = PT.Blacksmithing({quest = 83855, id = 226283}) -- Spiderling's Wire Brush
+cot.nodes[61712201] = PT.Enchanting({
+    quest = 83864,
+    id = 226290,
+    parent = map.id
+}) -- Book of Dark Magic
+map.nodes[57354404] = PT.Enchanting({quest = 83865, id = 226291}) -- Void Shard
+map.nodes[56853859] = PT.Engineering({quest = 83872, id = 226298}) -- Puppeted Mechanical Spider
+cot.nodes[63141118] = PT.Engineering({
+    quest = 83873,
+    id = 226299,
+    parent = map.id
+}) -- Emptied Venom Canister
 map.nodes[55863809] = PT.Inscription({quest = nil, id = 226314}) -- Nerubian Texts -- review
 cot.nodes[50103078] = PT.Inscription({quest = nil, id = 226315}) -- Venomancer's Ink Well -- review
 cot.nodes[47831954] = PT.Jewelcrafting({

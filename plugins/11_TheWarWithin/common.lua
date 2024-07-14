@@ -163,26 +163,6 @@ for _, profession in pairs(ns.professions) do
     end
 end
 
--- Enchanting
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226284}) -- Grinded Earthen Gem
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226285}) -- Silver Dornogal Rod
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226286}) -- Soot-Coated Orb
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226287}) -- Animated Enchanting Dust
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226288}) -- Essence of Holy Fire
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226289}) -- Enchanted Arathi Scroll
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226290}) -- Book of Dark Magic
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226291}) -- Void Shard
-
--- Engineering
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226292}) -- Rock Engineer's Wrench
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226293}) -- Dornogal Spectacles
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226294}) -- Inert Mining Bomb
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226295}) -- Earthen Construct Blueprints
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226296}) -- Holy Firework Dud
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226297}) -- Arathi Safety Gloves
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226298}) -- Puppeted Mechanical Spider
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226299}) -- Emptied Venom Canister
-
 -- Herbalism
 -- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226301}) -- Dornogal Gardening Scythe
 -- map.nodes[0000] = PT.Herbalism({quest = nil, id = 224265}) -- Deepgrove Rose

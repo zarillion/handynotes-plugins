@@ -409,6 +409,18 @@ dor.nodes[32456032] = PT.Alchemy({quest = 83840, id = 226265, parent = map.id}) 
 map.nodes[57696182] = PT.Alchemy({quest = 83841, id = 226266}) -- Metal Dornogal Frame
 map.nodes[59836191] = PT.Blacksmithing({quest = 83848, id = 226276}) -- Ancient Earthen Anvil
 map.nodes[47613191] = PT.Blacksmithing({quest = 83849, id = 226277}) -- Dornogal Hammer
+map.nodes[57606164] = PT.Enchanting({quest = 83856, id = 226284}) -- Grinded Earthen Gem
+dor.nodes[57945697] = PT.Enchanting({
+    quest = 83859,
+    id = 226285,
+    parent = map.id
+}) -- Silver Dornogal Rod
+map.nodes[61356957] = PT.Engineering({quest = 83866, id = 226292}) -- Rock Engineer's Wrench
+dor.nodes[64845284] = PT.Engineering({
+    quest = 83867,
+    id = 226293,
+    parent = map.id
+}) -- Dornogal Spectacles
 dor.nodes[57174685] =
     PT.Inscription({quest = nil, id = 226308, parent = map.id}) -- Dornogal Scribe's Quill -- review
 dor.nodes[34845219] = PT.Jewelcrafting({
