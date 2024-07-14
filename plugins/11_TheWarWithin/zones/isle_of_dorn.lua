@@ -405,15 +405,31 @@ map.nodes[73693706] = Treasure({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-dor.nodes[32456032] = PT.Alchemy({quest = 83840, id = 226265, parent = map.id}) -- Earthen Iron Powder
+dor.nodes[32456032] = PT.Alchemy({
+    quest = 83840,
+id = 226265,
+parent = map.id
+}) -- Earthen Iron Powder
 map.nodes[57696182] = PT.Alchemy({quest = 83841, id = 226266}) -- Metal Dornogal Frame
 map.nodes[59836191] = PT.Blacksmithing({quest = 83848, id = 226276}) -- Ancient Earthen Anvil
 map.nodes[47613191] = PT.Blacksmithing({quest = 83849, id = 226277}) -- Dornogal Hammer
-dor.nodes[57174685] = PT.Inscription({quest = nil, id = 226308, parent = map.id}) -- Dornogal Scribe's Quill -- review
-dor.nodes[34845219] = PT.Jewelcrafting({quest = 83891, id = 226317, parent = map.id}) -- Earthen Gem Pliers
+dor.nodes[57174685] = PT.Inscription({
+    quest = nil,
+    id = 226308,
+    parent = map.id
+}) -- Dornogal Scribe's Quill -- review
+dor.nodes[34845219] = PT.Jewelcrafting({
+    quest = 83891,
+    id = 226317,
+    parent = map.id
+}) -- Earthen Gem Pliers
 map.nodes[63536687] = PT.Jewelcrafting({quest = 83890, id = 226316}) -- Gentle Jewel Hammer
 map.nodes[58186204] = PT.Mining({quest = 83906, id = 226332}) -- Earthen Miner's Gavel
-dor.nodes[35359194] = PT.Mining({quest = 83907, id = 226333, parent = map.id}) -- Dornogal Chisel -- review
+dor.nodes[35359194] = PT.Mining({
+    quest = 83907,
+    id = 226333,
+    parent = map.id
+}) -- Dornogal Chisel -- review
 map.nodes[60042800] = PT.Skinning({quest = nil, id = 226341}) -- Earthen Worker's Beams -- review
 dor.nodes[54616373] = PT.Tailoring({quest = nil, id = 226348}) -- Dornogal Seam Ripper -- review
 
