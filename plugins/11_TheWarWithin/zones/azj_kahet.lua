@@ -334,14 +334,17 @@ cot.nodes[55042695] = PT.Leatherworking({
     parent = map.id
 }) -- Nerubian Tanning Mallet
 map.nodes[59995401] = PT.Leatherworking({quest = 83905, id = 226331}) -- Curved Nerubian Skinning Knife
-cot.nodes[46812169] = PT.Mining({quest = 83912, id = 226338, parent = map.id}) -- Heavy Spider Crusher -- review
+cot.nodes[46812169] = PT.Mining({quest = 83912, id = 226338, parent = map.id}) -- Heavy Spider Crusher
+cotl.nodes[47954059] = PT.Mining({quest = 83913, id = 226339}) -- Nerubian Mining Cart
 map.nodes[56995864] = PT.Skinning({quest = nil, id = 226347}) -- Carapace Shiner -- review
 cotl.nodes[44594925] = PT.Skinning({
     quest = 83920,
     id = 226346,
     parent = {map.id, cot.id}
 }) -- Nerubian's Slicking Iron
-cot.nodes[50241675] = PT.Tailoring({quest = nil, id = 226355}) -- Nerubian's Pincushion -- review
+map.nodes[53285313] = PT.Tailoring({quest = 83928, id = 226354}) -- Nerubian Quilt
+cot.nodes[50321682] =
+    PT.Tailoring({quest = 83929, id = 226355, parent = map.id}) -- Nerubian's Pincushion
 
 -------------------------------------------------------------------------------
 --------------------------- AZJ-KAHET GLYPH HUNTER ----------------------------

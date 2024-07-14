@@ -172,18 +172,10 @@ end
 -- map.nodes[0000] = PT.Inscription({quest = nil, id = 226312}) -- Informant's Fountain Pen
 -- map.nodes[0000] = PT.Inscription({quest = nil, id = 226313}) -- Calligrapher's Chiselled Marker
 
--- Mining
--- map.nodes[0000] = PT.Mining({quest = nil, id = 226336}) -- Arathi Precision Drill
--- map.nodes[0000] = PT.Mining({quest = nil, id = 226339}) -- Nerubian Mining Cart
-
 -- Skinning
 -- map.nodes[0000] = PT.Skinning({quest = nil, id = 226340}) -- Dornogal Carving Knife
 -- map.nodes[0000] = PT.Skinning({quest = nil, id = 226342}) -- Artisan's Drawing Knife
 -- map.nodes[0000] = PT.Skinning({quest = nil, id = 226344}) -- Arathi Tanning Agent
-
--- Tailoring
--- map.nodes[0000] = PT.Tailoring({quest = nil, id = 226349}) -- Earthen Tape Measure
--- map.nodes[0000] = PT.Tailoring({quest = nil, id = 226354}) -- Nerubian Quilt
 
 -------------------------------------------------------------------------------
 ------------------------------ KHAZ ALGAR SAFARI ------------------------------

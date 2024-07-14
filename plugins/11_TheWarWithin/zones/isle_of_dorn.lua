@@ -439,9 +439,11 @@ dor.nodes[59242352] = PT.Leatherworking({
 }) -- Earthen Lacing Tools
 map.nodes[58653077] = PT.Leatherworking({quest = 83899, id = 226325}) -- Dornogal Craftsman's Flat Knife
 map.nodes[58186204] = PT.Mining({quest = 83906, id = 226332}) -- Earthen Miner's Gavel
-dor.nodes[35359194] = PT.Mining({quest = 83907, id = 226333, parent = map.id}) -- Dornogal Chisel -- review
+dor.nodes[36717936] = PT.Mining({quest = 83907, id = 226333, parent = map.id}) -- Dornogal Chisel -- review
 map.nodes[60042800] = PT.Skinning({quest = nil, id = 226341}) -- Earthen Worker's Beams -- review
-dor.nodes[54616373] = PT.Tailoring({quest = nil, id = 226348}) -- Dornogal Seam Ripper -- review
+dor.nodes[61561850] =
+    PT.Tailoring({quest = 83922, id = 226348, parent = map.id}) -- Dornogal Seam Ripper -- review
+map.nodes[56216102] = PT.Tailoring({quest = 83923, id = 226349}) -- Earthen Tape Measure
 
 -------------------------------------------------------------------------------
 -------------------------- ISLE OF DORN GLYPH HUNTER --------------------------

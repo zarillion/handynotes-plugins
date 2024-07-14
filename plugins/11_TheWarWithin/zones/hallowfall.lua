@@ -530,10 +530,11 @@ map.nodes[47396068] = PT.Jewelcrafting({quest = 83894, id = 226320}) -- Arathi S
 map.nodes[44695097] = PT.Jewelcrafting({quest = 83895, id = 226321}) -- Librarian's Magnifiers
 map.nodes[47516513] = PT.Leatherworking({quest = 83902, id = 226328}) -- Arathi Beveler Set
 map.nodes[41505783] = PT.Leatherworking({quest = 83903, id = 226329}) -- Arathi Leather Burnisher
-map.nodes[43095685] = PT.Mining({quest = 83911, id = 226337}) -- Devout Archaeologist's Excavator -- review
+map.nodes[46076439] = PT.Mining({quest = 83910, id = 226336}) -- Arathi Precision Drill
+map.nodes[43095684] = PT.Mining({quest = 83911, id = 226337}) -- Devout Archaeologist's Excavator -- review
 map.nodes[42305391] = PT.Skinning({quest = nil, id = 226345}) -- Arathi Craftsman's Spokeshave -- review
-map.nodes[49316233] = PT.Tailoring({quest = nil, id = 226352}) -- Arathi Rotary Cutter -- review
-map.nodes[40116812] = PT.Tailoring({quest = nil, id = 226353}) -- Royal Outfitter's Protractor -- review
+map.nodes[49326231] = PT.Tailoring({quest = 83926, id = 226352}) -- Arathi Rotary Cutter -- review
+map.nodes[40096813] = PT.Tailoring({quest = 83927, id = 226353}) -- Royal Outfitter's Protractor -- review
 
 -------------------------------------------------------------------------------
 --------------------------- HALLOWFALL GLYPH HUNTER ---------------------------
