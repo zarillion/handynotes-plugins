@@ -407,8 +407,8 @@ map.nodes[73693706] = Treasure({
 
 dor.nodes[32456032] = PT.Alchemy({
     quest = 83840,
-id = 226265,
-parent = map.id
+    id = 226265,
+    parent = map.id
 }) -- Earthen Iron Powder
 map.nodes[57696182] = PT.Alchemy({quest = 83841, id = 226266}) -- Metal Dornogal Frame
 map.nodes[59836191] = PT.Blacksmithing({quest = 83848, id = 226276}) -- Ancient Earthen Anvil
