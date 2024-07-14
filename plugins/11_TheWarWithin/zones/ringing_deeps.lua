@@ -260,11 +260,15 @@ map.nodes[47673317] = PT.Blacksmithing({quest = 83850, id = 226278}) -- Ringing 
 map.nodes[60525367] = PT.Blacksmithing({quest = 83851, id = 226279}) -- Earthen Chisels
 map.nodes[44612213] = PT.Enchanting({quest = 83860, id = 226286}) -- Soot-Coated Orb
 map.nodes[67186590] = PT.Enchanting({quest = 83861, id = 226287}) -- Animated Enchanting Dust
-map.nodes[64495875] = PT.Engineering({quest = 83869, id = 226295}) -- Earthen Construct Blueprints
 map.nodes[42632725] = PT.Engineering({quest = 83868, id = 226294}) -- Inert Mining Bomb
+map.nodes[64495875] = PT.Engineering({quest = 83869, id = 226295}) -- Earthen Construct Blueprints
 map.nodes[48573426] = PT.Inscription({quest = nil, id = 226310}) -- Runic Scroll -- review
+map.nodes[48243504] = PT.Herbalism({quest = 83876, id = 226302}) -- Earthen Digging Fork
+map.nodes[52916581] = PT.Herbalism({quest = 83877, id = 226303}) -- Fungarian Slicer's Knife
 map.nodes[48493513] = PT.Jewelcrafting({quest = 83892, id = 226318}) -- Carved Stone File
 map.nodes[56985453] = PT.Jewelcrafting({quest = 83893, id = 226319}) -- Jeweler's Delicate Drill
+map.nodes[47053489] = PT.Leatherworking({quest = 83900, id = 226326}) -- Underground Stropping Compound
+map.nodes[64286527] = PT.Leatherworking({quest = 83901, id = 226327}) -- Earthen Awl
 map.nodes[58186204] = PT.Mining({quest = 83908, id = 226334}) -- Earthen Excavator's Shovel
 map.nodes[66276626] = PT.Mining({quest = 83909, id = 226335}) -- Regenerating Ore -- review
 map.nodes[65716190] = PT.Skinning({quest = nil, id = 226343}) -- Fungarian's Rich Tannin -- review

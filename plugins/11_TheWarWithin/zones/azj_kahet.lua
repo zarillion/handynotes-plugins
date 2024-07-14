@@ -297,8 +297,8 @@ map.nodes[34056102] = Treasure({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[42835735] = PT.Alchemy({quest = 83847, id = 226272}) -- Dark Apothecary's Vial
 cot.nodes[45321322] = PT.Alchemy({quest = 83846, id = 226271, parent = map.id}) -- Nerubian Mixing Salts
+map.nodes[42835735] = PT.Alchemy({quest = 83847, id = 226272}) -- Dark Apothecary's Vial
 cot.nodes[46552279] = PT.Blacksmithing({
     quest = 83854,
     id = 226282,
@@ -317,6 +317,9 @@ cot.nodes[63141118] = PT.Engineering({
     id = 226299,
     parent = map.id
 }) -- Emptied Venom Canister
+cot.nodes[46771612] = PT.Herbalism({quest = 83881, id = 226307}) -- Tunneler's Shovel
+cot.nodes[54602088] =
+    PT.Herbalism({quest = 83880, id = 226306, parent = map.id}) -- Web-Entangled Lotus
 map.nodes[55863809] = PT.Inscription({quest = nil, id = 226314}) -- Nerubian Texts -- review
 cot.nodes[50103078] = PT.Inscription({quest = nil, id = 226315}) -- Venomancer's Ink Well -- review
 cot.nodes[47831954] = PT.Jewelcrafting({
@@ -325,6 +328,12 @@ cot.nodes[47831954] = PT.Jewelcrafting({
     parent = map.id
 }) -- Ritual Caster's Crystal
 map.nodes[56165865] = PT.Jewelcrafting({quest = 83897, id = 226323}) -- Nerubian Bench Blocks
+cot.nodes[55042695] = PT.Leatherworking({
+    quest = 83904,
+    id = 226330,
+    parent = map.id
+}) -- Nerubian Tanning Mallet
+map.nodes[59995401] = PT.Leatherworking({quest = 83905, id = 226331}) -- Curved Nerubian Skinning Knife
 cot.nodes[46812169] = PT.Mining({quest = 83912, id = 226338, parent = map.id}) -- Heavy Spider Crusher -- review
 map.nodes[56995864] = PT.Skinning({quest = nil, id = 226347}) -- Carapace Shiner -- review
 cotl.nodes[44594925] = PT.Skinning({

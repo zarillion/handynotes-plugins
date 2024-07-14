@@ -164,30 +164,13 @@ for _, profession in pairs(ns.professions) do
 end
 
 -- Herbalism
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226301}) -- Dornogal Gardening Scythe
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 224265}) -- Deepgrove Rose
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226300}) -- Ancient Flower
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226302}) -- Earthen Digging Fork
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226303}) -- Fungarian Slicer's Knife
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226304}) -- Arathi Garden Trowel
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226306}) -- Web-Entangled Lotus
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226307}) -- Tunneler's Shovel
+-- map.nodes[0000] = PT.Herbalism({quest = nil, id = 224265}) -- Deepgrove Rose -- Random Drop 5 per week
 
 -- Inscription
 -- map.nodes[0000] = PT.Inscription({quest = nil, id = 226309}) -- Historian's Dip Pen
 -- map.nodes[0000] = PT.Inscription({quest = nil, id = 226311}) -- Blue Earthen Pigment
 -- map.nodes[0000] = PT.Inscription({quest = nil, id = 226312}) -- Informant's Fountain Pen
 -- map.nodes[0000] = PT.Inscription({quest = nil, id = 226313}) -- Calligrapher's Chiselled Marker
-
--- Leatherworking
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226324}) -- Earthen Lacing Tools
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226325}) -- Dornogal Craftsman's Flat Knife
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226326}) -- Underground Stropping Compound
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226327}) -- Earthen Awl
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226328}) -- Arathi Beveler Set
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226329}) -- Arathi Leather Burnisher
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226330}) -- Nerubian Tanning Mallet
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226331}) -- Curved Nerubian Skinning Knife
 
 -- Mining
 -- map.nodes[0000] = PT.Mining({quest = nil, id = 226336}) -- Arathi Precision Drill
