@@ -163,7 +163,6 @@ for _, profession in pairs(ns.professions) do
     end
 end
 
-
 -- Enchanting
 -- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226284}) -- Grinded Earthen Gem
 -- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226285}) -- Silver Dornogal Rod
