@@ -406,14 +406,24 @@ map.nodes[73693706] = Treasure({
 -------------------------------------------------------------------------------
 
 dor.nodes[32456032] = PT.Alchemy({quest = 83840, id = 226265, parent = map.id}) -- Earthen Iron Powder
+map.nodes[57706177] = PT.Alchemy({quest = nil, id = 226266}) -- Metal Dornogal Frame -- review
+dor.nodes[59286628] = PT.Enchanting({quest = nil, id = 226285, parent = map.id}) -- Silver Dornogal Rod -- review
+map.nodes[57636163] = PT.Enchanting({quest = nil, id = 226284}) -- Grinded Earthen Gem -- review
+dor.nodes[66906192] =
+    PT.Engineering({quest = nil, id = 226293, parent = map.id}) -- Dornogal Spectacles -- review
+map.nodes[61306953] = PT.Engineering({quest = nil, id = 226292}) -- Rock Engineer's Wrench -- review
 dor.nodes[57174685] =
     PT.Inscription({quest = nil, id = 226308, parent = map.id}) -- Dornogal Scribe's Quill -- review
+dor.nodes[60612917] = PT.Herbalism({quest = nil, id = 226301, parent = map.id}) -- Dornogal Gardening Scythe -- review
+map.nodes[57286149] = PT.Herbalism({quest = nil, id = 226300}) -- Ancient Flower -- review
 map.nodes[58186204] = PT.Mining({quest = 83906, id = 226332}) -- Earthen Miner's Gavel
 dor.nodes[35359194] = PT.Mining({quest = 83907, id = 226333, parent = map.id}) -- Dornogal Chisel -- review
 map.nodes[59836191] = PT.Blacksmithing({quest = 83848, id = 226276}) -- Ancient Earthen Anvil
 map.nodes[47613191] = PT.Blacksmithing({quest = 83849, id = 226277}) -- Dornogal Hammer
 map.nodes[60042800] = PT.Skinning({quest = nil, id = 226341}) -- Earthen Worker's Beams -- review
-dor.nodes[54616373] = PT.Tailoring({quest = nil, id = 226348}) -- Dornogal Seam Ripper -- review
+dor.nodes[26346095] = PT.Skinning({quest = nil, id = 226340, parent = map.id}) -- Dornogal Carving Knife -- review
+dor.nodes[54616373] = PT.Tailoring({quest = nil, id = 226348, parent = map.id}) -- Dornogal Seam Ripper -- review
+map.nodes[56196095] = PT.Tailoring({quest = nil, id = 226349}) -- Earthen Tape Measure -- review
 
 -------------------------------------------------------------------------------
 -------------------------- ISLE OF DORN GLYPH HUNTER --------------------------

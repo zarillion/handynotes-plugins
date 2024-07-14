@@ -255,12 +255,21 @@ map.nodes[68863883] = Treasure({ -- lvl 71
 -------------------------------------------------------------------------------
 
 map.nodes[42182415] = PT.Alchemy({quest = nil, id = 226267}) -- Reinforced Beaker -- review
+map.nodes[64936182] = PT.Alchemy({quest = nil, id = 226268}) -- Engraved Stirring Rod -- review
+map.nodes[67126585] = PT.Enchanting({quest = nil, id = 226287}) -- Animated Enchanting Dust -- review
+map.nodes[4461226] = PT.Enchanting({quest = nil, id = 226286}) -- Soot-Coated Orb -- review
+map.nodes[5731411] = PT.Enchanting({quest = nil, id = 226291}) -- Void Shard -- review
+map.nodes[64535879] = PT.Engineering({quest = nil, id = 226295}) -- Earthen Construct Blueprints -- review
+map.nodes[42672729] = PT.Engineering({quest = nil, id = 226294}) -- Inert Mining Bomb -- review
 map.nodes[47673317] = PT.Blacksmithing({quest = 83850, id = 226278}) -- Ringing Hammer Vise
 map.nodes[60525367] = PT.Blacksmithing({quest = 83851, id = 226279}) -- Earthen Chisels
+map.nodes[52856582] = PT.Herbalism({quest = nil, id = 226303}) -- Fungarian Slicer's Knife -- review
+map.nodes[48263498] = PT.Herbalism({quest = nil, id = 226302}) -- Earthen Digging Fork -- review
 map.nodes[48573426] = PT.Inscription({quest = nil, id = 226310}) -- Runic Scroll -- review
 map.nodes[58186204] = PT.Mining({quest = 83908, id = 226334}) -- Earthen Excavator's Shovel
 map.nodes[66276626] = PT.Mining({quest = 83909, id = 226335}) -- Regenerating Ore -- review
 map.nodes[65716190] = PT.Skinning({quest = nil, id = 226343}) -- Fungarian's Rich Tannin -- review
+map.nodes[47242837] = PT.Skinning({quest = nil, id = 226342}) -- Artisan's Drawing Knife -- review
 map.nodes[48853286] = PT.Tailoring({
     quest = nil,
     id = 226350,

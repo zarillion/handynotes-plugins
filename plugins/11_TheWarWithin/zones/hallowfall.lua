@@ -516,11 +516,20 @@ map.nodes[63990612] = Treasure({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[42645503] = PT.Alchemy({quest = nil, id = 226269}) -- Chemist's Purified Water -- review
+map.nodes[41675581] = PT.Alchemy({quest = nil, id = 226270}) -- Sanctified Mortar and Pestle --review
+map.nodes[48646453] = PT.Enchanting({quest = nil, id = 226289}) -- Enchanted Arathi Scroll -- review
+map.nodes[40047051] = PT.Enchanting({quest = nil, id = 226288}) -- Essence of Holy Fire -- review
+map.nodes[41614889] = PT.Engineering({quest = nil, id = 226297}) -- Arathi Safety Gloves -- review
+map.nodes[46336142] = PT.Engineering({quest = nil, id = 226296}) -- Holy Firework Dud -- review
 map.nodes[47586106] = PT.Blacksmithing({quest = 83852, id = 226280}) -- Holy Flame Forge -- review
 map.nodes[44065559] = PT.Blacksmithing({quest = 83853, id = 226281}) -- Radiant Tongs -- review
 map.nodes[35925497] = PT.Herbalism({quest = nil, id = 226305}) -- Arathi Herb Pruner -- review
+map.nodes[47816318] = PT.Herbalism({quest = nil, id = 226304}) -- Arathi Garden Trowel -- review
 map.nodes[43095685] = PT.Mining({quest = 83911, id = 226337}) -- Devout Archaeologist's Excavator -- review
+map.nodes[46126438] = PT.Mining({quest = nil, id = 226336}) -- Arathi Precision Drill -- review
 map.nodes[42305391] = PT.Skinning({quest = nil, id = 226345}) -- Arathi Craftsman's Spokeshave -- review
+map.nodes[49346207] = PT.Skinning({quest = nil, id = 226344}) -- Arathi Tanning Agent -- review
 map.nodes[49316233] = PT.Tailoring({quest = nil, id = 226352}) -- Arathi Rotary Cutter -- review
 map.nodes[40116812] = PT.Tailoring({quest = nil, id = 226353}) -- Royal Outfitter's Protractor -- review
 

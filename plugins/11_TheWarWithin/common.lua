@@ -163,81 +163,41 @@ for _, profession in pairs(ns.professions) do
     end
 end
 
--- Alchemy
--- map.nodes[0000] = PT.Alchemy({quest = nil, id = 226266}) -- Metal Dornogal Frame
--- map.nodes[0000] = PT.Alchemy({quest = nil, id = 226268}) -- Engraved Stirring Rod
--- map.nodes[0000] = PT.Alchemy({quest = nil, id = 226269}) -- Chemist's Purified Water
--- map.nodes[0000] = PT.Alchemy({quest = nil, id = 226270}) -- Sanctified Mortar and Pestle
--- map.nodes[0000] = PT.Alchemy({quest = nil, id = 226271}) -- Nerubian Mixing Salts
-
--- Enchanting
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226284}) -- Grinded Earthen Gem
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226285}) -- Silver Dornogal Rod
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226286}) -- Soot-Coated Orb
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226287}) -- Animated Enchanting Dust
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226288}) -- Essence of Holy Fire
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226289}) -- Enchanted Arathi Scroll
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226290}) -- Book of Dark Magic
--- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226291}) -- Void Shard
-
--- Engineering
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226292}) -- Rock Engineer's Wrench
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226293}) -- Dornogal Spectacles
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226294}) -- Inert Mining Bomb
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226295}) -- Earthen Construct Blueprints
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226296}) -- Holy Firework Dud
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226297}) -- Arathi Safety Gloves
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226298}) -- Puppeted Mechanical Spider
--- map.nodes[0000] = PT.Engineering({quest = nil, id = 226299}) -- Emptied Venom Canister
-
 -- Herbalism
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226301}) -- Dornogal Gardening Scythe
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 224265}) -- Deepgrove Rose
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226300}) -- Ancient Flower
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226302}) -- Earthen Digging Fork
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226303}) -- Fungarian Slicer's Knife
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226304}) -- Arathi Garden Trowel
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226306}) -- Web-Entangled Lotus
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226307}) -- Tunneler's Shovel
+-- dor.nodes[60612917] = PT.Herbalism({quest = nil, id = 226301, parent = map.id}) -- Dornogal Gardening Scythe -- review
+-- map.nodes[0000] = PT.Herbalism({quest = nil, id = 224265}) -- Deepgrove Rose -- review
+-- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226300}) -- Ancient Flower -- review
+-- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226302}) -- Earthen Digging Fork -- review
+-- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226303}) -- Fungarian Slicer's Knife -- review
+-- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226304}) -- Arathi Garden Trowel -- review
+-- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226306}) -- Web-Entangled Lotus -- review
+-- map.nodes[0000] = PT.Herbalism({quest = nil, id = 226307}) -- Tunneler's Shovel -- review
 
 -- Inscription
--- map.nodes[0000] = PT.Inscription({quest = nil, id = 226309}) -- Historian's Dip Pen
--- map.nodes[0000] = PT.Inscription({quest = nil, id = 226311}) -- Blue Earthen Pigment
--- map.nodes[0000] = PT.Inscription({quest = nil, id = 226312}) -- Informant's Fountain Pen
--- map.nodes[0000] = PT.Inscription({quest = nil, id = 226313}) -- Calligrapher's Chiselled Marker
+-- map.nodes[0000] = PT.Inscription({quest = nil, id = 226309}) -- Historian's Dip Pen -- review
+-- map.nodes[0000] = PT.Inscription({quest = nil, id = 226311}) -- Blue Earthen Pigment -- review
+-- map.nodes[0000] = PT.Inscription({quest = nil, id = 226312}) -- Informant's Fountain Pen -- review
+-- map.nodes[0000] = PT.Inscription({quest = nil, id = 226313}) -- Calligrapher's Chiselled Marker -- review
 
 -- Jewelcrafting
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226316}) -- Gentle Jewel Hammer
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226317}) -- Earthen Gem Pliers
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226318}) -- Carved Stone File
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226319}) -- Jeweler's Delicate Drill
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226320}) -- Arathi Sizing Gauges
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226321}) -- Librarian's Magnifiers
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226322}) -- Ritual Caster's Crystal
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226323}) -- Nerubian Bench Blocks
+-- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226316}) -- Gentle Jewel Hammer -- review
+-- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226317}) -- Earthen Gem Pliers -- review
+-- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226318}) -- Carved Stone File -- review
+-- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226319}) -- Jeweler's Delicate Drill -- review
+-- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226320}) -- Arathi Sizing Gauges -- review
+-- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226321}) -- Librarian's Magnifiers -- review
+-- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226322}) -- Ritual Caster's Crystal -- review
+-- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226323}) -- Nerubian Bench Blocks -- review
 
 -- Leatherworking
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226324}) -- Earthen Lacing Tools
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226325}) -- Dornogal Craftsman's Flat Knife
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226326}) -- Underground Stropping Compound
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226327}) -- Earthen Awl
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226328}) -- Arathi Beveler Set
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226329}) -- Arathi Leather Burnisher
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226330}) -- Nerubian Tanning Mallet
--- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226331}) -- Curved Nerubian Skinning Knife
-
--- Mining
--- map.nodes[0000] = PT.Mining({quest = nil, id = 226336}) -- Arathi Precision Drill
--- map.nodes[0000] = PT.Mining({quest = nil, id = 226339}) -- Nerubian Mining Cart
-
--- Skinning
--- map.nodes[0000] = PT.Skinning({quest = nil, id = 226340}) -- Dornogal Carving Knife
--- map.nodes[0000] = PT.Skinning({quest = nil, id = 226342}) -- Artisan's Drawing Knife
--- map.nodes[0000] = PT.Skinning({quest = nil, id = 226344}) -- Arathi Tanning Agent
-
--- Tailoring
--- map.nodes[0000] = PT.Tailoring({quest = nil, id = 226349}) -- Earthen Tape Measure
--- map.nodes[0000] = PT.Tailoring({quest = nil, id = 226354}) -- Nerubian Quilt
+-- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226324}) -- Earthen Lacing Tools -- review
+-- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226325}) -- Dornogal Craftsman's Flat Knife -- review
+-- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226326}) -- Underground Stropping Compound -- review
+-- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226327}) -- Earthen Awl -- review
+-- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226328}) -- Arathi Beveler Set -- review
+-- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226329}) -- Arathi Leather Burnisher -- review
+-- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226330}) -- Nerubian Tanning Mallet -- review
+-- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226331}) -- Curved Nerubian Skinning Knife -- review
 
 -------------------------------------------------------------------------------
 ------------------------------ KHAZ ALGAR SAFARI ------------------------------
