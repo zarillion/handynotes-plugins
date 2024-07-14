@@ -188,7 +188,7 @@ map.nodes[34694110] = Rare({
 cotl.nodes[67525826] = Rare({
     id = 216039,
     quest = 81701, -- 84070
-    parent = {map.id, cot.id},
+    parent = cot.id, -- ?
     -- ReputationGain(50, 2601), -- The Weaver
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier
@@ -298,35 +298,22 @@ map.nodes[34056102] = Treasure({
 -------------------------------------------------------------------------------
 
 map.nodes[44476052] = PT.Alchemy({quest = nil, id = 226272}) -- Dark Apothecary's Vial -- review
-map.nodes[45461315] = PT.Alchemy({quest = nil, id = 226271}) -- Nerubian Mixing Salts
-cot.nodes[61492167] = PT.Enchanting({quest = nil, id = 226290, parent = map.id}) -- Book of Dark Magic -- review
 cot.nodes[46552279] = PT.Blacksmithing({
     quest = 83854,
     id = 226282,
     parent = map.id
 }) -- Nerubian Smith's Kit
 map.nodes[52965126] = PT.Blacksmithing({quest = 83855, id = 226283}) -- Spiderling's Wire Brush
-map.nodes[56903864] = PT.Engineering({quest = nil, id = 226298}) -- Puppeted Mechanical Spider -- review
-cot.nodes[63171133] =
-    PT.Engineering({quest = nil, id = 226299, parent = map.id}) -- Emptied Venom Canister -- review
 map.nodes[55863809] = PT.Inscription({quest = nil, id = 226314}) -- Nerubian Texts -- review
-cot.nodes[50103078] =
-    PT.Inscription({quest = nil, id = 226315, parent = map.id}) -- Venomancer's Ink Well -- review
-cot.nodes[46812169] = PT.Mining({quest = 83912, id = 226338, parent = map.id}) -- Heavy Spider Crusher
-cotl.nodes[48314080] = PT.Mining({
-    quest = nil,
-    id = 226339,
-    parent = {map.id, cot.id}
-}) -- Nerubian Mining Cart -- review
-map.nodes[46631588] = PT.Herbalism({quest = nil, id = 226307}) -- Tunneler's Shovel -- review
+cot.nodes[50103078] = PT.Inscription({quest = nil, id = 226315}) -- Venomancer's Ink Well -- review
+cot.nodes[46812169] = PT.Mining({quest = 83912, id = 226338, parent = map.id}) -- Heavy Spider Crusher -- review
 map.nodes[56995864] = PT.Skinning({quest = nil, id = 226347}) -- Carapace Shiner -- review
 cotl.nodes[44594925] = PT.Skinning({
     quest = 83920,
     id = 226346,
     parent = {map.id, cot.id}
 }) -- Nerubian's Slicking Iron
-cot.nodes[50241675] = PT.Tailoring({quest = nil, id = 226355, parent = map.id}) -- Nerubian's Pincushion -- review
-map.nodes[53265301] = PT.Tailoring({quest = nil, id = 226354}) -- Nerubian Quilt -- review
+cot.nodes[50241675] = PT.Tailoring({quest = nil, id = 226355}) -- Nerubian's Pincushion -- review
 
 -------------------------------------------------------------------------------
 --------------------------- AZJ-KAHET GLYPH HUNTER ----------------------------
