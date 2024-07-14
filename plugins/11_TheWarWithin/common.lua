@@ -163,12 +163,6 @@ for _, profession in pairs(ns.professions) do
     end
 end
 
--- Alchemy
--- map.nodes[0000] = PT.Alchemy({quest = nil, id = 226266}) -- Metal Dornogal Frame
--- map.nodes[0000] = PT.Alchemy({quest = nil, id = 226268}) -- Engraved Stirring Rod
--- map.nodes[0000] = PT.Alchemy({quest = nil, id = 226269}) -- Chemist's Purified Water
--- map.nodes[0000] = PT.Alchemy({quest = nil, id = 226270}) -- Sanctified Mortar and Pestle
--- map.nodes[0000] = PT.Alchemy({quest = nil, id = 226271}) -- Nerubian Mixing Salts
 
 -- Enchanting
 -- map.nodes[0000] = PT.Enchanting({quest = nil, id = 226284}) -- Grinded Earthen Gem
@@ -205,16 +199,6 @@ end
 -- map.nodes[0000] = PT.Inscription({quest = nil, id = 226311}) -- Blue Earthen Pigment
 -- map.nodes[0000] = PT.Inscription({quest = nil, id = 226312}) -- Informant's Fountain Pen
 -- map.nodes[0000] = PT.Inscription({quest = nil, id = 226313}) -- Calligrapher's Chiselled Marker
-
--- Jewelcrafting
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226316}) -- Gentle Jewel Hammer
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226317}) -- Earthen Gem Pliers
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226318}) -- Carved Stone File
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226319}) -- Jeweler's Delicate Drill
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226320}) -- Arathi Sizing Gauges
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226321}) -- Librarian's Magnifiers
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226322}) -- Ritual Caster's Crystal
--- map.nodes[0000] = PT.Jewelcrafting({quest = nil, id = 226323}) -- Nerubian Bench Blocks
 
 -- Leatherworking
 -- map.nodes[0000] = PT.Leatherworking({quest = nil, id = 226324}) -- Earthen Lacing Tools

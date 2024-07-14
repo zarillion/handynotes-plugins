@@ -254,18 +254,17 @@ map.nodes[68863883] = Treasure({ -- lvl 71
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[42182415] = PT.Alchemy({quest = nil, id = 226267}) -- Reinforced Beaker -- review
+map.nodes[42212415] = PT.Alchemy({quest = 83842, id = 226267}) -- Reinforced Beaker
+map.nodes[64966175] = PT.Alchemy({quest = 83843, id = 226268}) -- Engraved Stirring Rod
 map.nodes[47673317] = PT.Blacksmithing({quest = 83850, id = 226278}) -- Ringing Hammer Vise
 map.nodes[60525367] = PT.Blacksmithing({quest = 83851, id = 226279}) -- Earthen Chisels
 map.nodes[48573426] = PT.Inscription({quest = nil, id = 226310}) -- Runic Scroll -- review
+map.nodes[48493513] = PT.Jewelcrafting({quest = 83892, id = 226318}) -- Carved Stone File
+map.nodes[56985453] = PT.Jewelcrafting({quest = 83893, id = 226319}) -- Jeweler's Delicate Drill
 map.nodes[58186204] = PT.Mining({quest = 83908, id = 226334}) -- Earthen Excavator's Shovel
 map.nodes[66276626] = PT.Mining({quest = 83909, id = 226335}) -- Regenerating Ore -- review
 map.nodes[65716190] = PT.Skinning({quest = nil, id = 226343}) -- Fungarian's Rich Tannin -- review
-map.nodes[48853286] = PT.Tailoring({
-    quest = nil,
-    id = 226350,
-    pois = {POI({47703216})} -- Entrance
-}) -- Runed Earthen Pins -- review
+map.nodes[48853286] = PT.Tailoring({quest = nil, id = 226350, pois = {POI({47703216})} --[[ Entrance ]] }) -- Runed Earthen Pins
 map.nodes[64126034] = PT.Tailoring({quest = nil, id = 226351}) -- Earthen Stitcher's Snips -- review
 
 -------------------------------------------------------------------------------
