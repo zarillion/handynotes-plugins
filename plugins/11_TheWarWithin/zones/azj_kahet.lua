@@ -299,7 +299,7 @@ map.nodes[34056102] = Treasure({
 
 cot.nodes[45321322] = PT.Alchemy({quest = 83846, id = 226271, parent = map.id}) -- Nerubian Mixing Salts
 map.nodes[42835735] = PT.Alchemy({quest = 83847, id = 226272}) -- Dark Apothecary's Vial
-cot.nodes[46552279] = PT.Blacksmithing({
+cot.nodes[46522291] = PT.Blacksmithing({
     quest = 83854,
     id = 226282,
     parent = map.id

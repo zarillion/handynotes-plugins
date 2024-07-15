@@ -256,8 +256,8 @@ map.nodes[68863883] = Treasure({ -- lvl 71
 
 map.nodes[42212415] = PT.Alchemy({quest = 83842, id = 226267}) -- Reinforced Beaker
 map.nodes[64966175] = PT.Alchemy({quest = 83843, id = 226268}) -- Engraved Stirring Rod
-map.nodes[47673317] = PT.Blacksmithing({quest = 83850, id = 226278}) -- Ringing Hammer Vise
-map.nodes[60525367] = PT.Blacksmithing({quest = 83851, id = 226279}) -- Earthen Chisels
+map.nodes[47703316] = PT.Blacksmithing({quest = 83850, id = 226278}) -- Ringing Hammer Vise
+map.nodes[60535368] = PT.Blacksmithing({quest = 83851, id = 226279}) -- Earthen Chisels
 map.nodes[44612213] = PT.Enchanting({quest = 83860, id = 226286}) -- Soot-Coated Orb
 map.nodes[67186590] = PT.Enchanting({quest = 83861, id = 226287}) -- Animated Enchanting Dust1
 map.nodes[42632725] = PT.Engineering({quest = 83868, id = 226294}) -- Inert Mining Bomb
