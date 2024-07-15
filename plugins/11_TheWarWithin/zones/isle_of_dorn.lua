@@ -408,7 +408,11 @@ map.nodes[73693706] = Treasure({
 dor.nodes[32456032] = PT.Alchemy({quest = 83840, id = 226265, parent = map.id}) -- Earthen Iron Powder
 map.nodes[57696182] = PT.Alchemy({quest = 83841, id = 226266}) -- Metal Dornogal Frame
 map.nodes[59826191] = PT.Blacksmithing({quest = 83848, id = 226276}) -- Ancient Earthen Anvil
-dor.nodes[47582623] = PT.Blacksmithing({quest = 83849, id = 226277, parent = map.id}) -- Dornogal Hammer
+dor.nodes[47582623] = PT.Blacksmithing({
+    quest = 83849,
+    id = 226277,
+    parent = map.id
+}) -- Dornogal Hammer
 map.nodes[57606164] = PT.Enchanting({quest = 83856, id = 226284}) -- Grinded Earthen Gem
 dor.nodes[57945697] = PT.Enchanting({
     quest = 83859,
