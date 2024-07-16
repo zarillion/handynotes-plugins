@@ -298,23 +298,28 @@ map.nodes[34056102] = Treasure({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[44476052] = PT.Alchemy({quest = nil, id = 226272}) -- Dark Apothecary's Vial -- review
-cot.nodes[46552279] = PT.Blacksmithing({
-    quest = 83854,
-    id = 226282,
-    parent = map.id
-}) -- Nerubian Smith's Kit
-map.nodes[52965126] = PT.Blacksmithing({quest = 83855, id = 226283}) -- Spiderling's Wire Brush
-map.nodes[55863809] = PT.Inscription({quest = nil, id = 226314}) -- Nerubian Texts -- review
-cot.nodes[50103078] = PT.Inscription({quest = nil, id = 226315}) -- Venomancer's Ink Well -- review
-cot.nodes[46812169] = PT.Mining({quest = 83912, id = 226338, parent = map.id}) -- Heavy Spider Crusher -- review
-map.nodes[56995864] = PT.Skinning({quest = nil, id = 226347}) -- Carapace Shiner -- review
-cotl.nodes[44594925] = PT.Skinning({
-    quest = 83920,
-    id = 226346,
-    parent = {map.id, cot.id}
-}) -- Nerubian's Slicking Iron
-cot.nodes[50241675] = PT.Tailoring({quest = nil, id = 226355}) -- Nerubian's Pincushion -- review
+cot.nodes[54392082] = PT.Herbalism({quest = 83880, id = 226306}) --Web-Tangled Lotus
+cot.nodes[46631599] = PT.Herbalism({quest = 83881, id = 226307}) --Tunneler's Shovel
+cot.nodes[46692141] = PT.Mining({quest = 83912, id = 226338}) --Heavy Spider Crusher
+cotl.nodes[48134073] = PT.Mining({quest = 83913, id = 226339}) --Nerubian Mining Supplies
+map.nodes[56495527] = PT.Skinning({quest = 83921, id = 226347}) --Carapace Shiner
+cotl.nodes[44624930] = PT.Skinning({quest = 83920, id = 226346}) --Nerubian's Slicking Iron
+map.nodes[42855728] = PT.Alchemy({quest = 83847, id = 226272}) --Dark Apothecary's Vial
+cot.nodes[45431325] = PT.Alchemy({quest = 83846, id = 226271}) --Nerubian Mixing Salts
+map.nodes[53015426] = PT.Blacksmithing({quest = 83855, id = 226283}) --Spiderling's Wire Brush
+cot.nodes[46612271] = PT.Blacksmithing({quest = 83854, id = 226282}) --Nerubian Smith's Kit
+map.nodes[57334412] = PT.Enchanting({quest = 83865, id = 226291}) --Void Shard
+cot.nodes[61682224] = PT.Enchanting({quest = 83864, id = 226290}) --Book of Dark Magic
+map.nodes[56843865] = PT.Engineering({quest = 83872, id = 226298}) --Puppeted Mechanical Spider
+cot.nodes[62961129] = PT.Engineering({quest = 83873, id = 226299}) --Emptied Venom Canister
+map.nodes[55834399] = PT.Inscription({quest = 83888, id = 226314}) --Nerubian Texts
+cot.nodes[50043087] = PT.Inscription({quest = 83889, id = 226315}) --Venomancer's Ink Well
+map.nodes[56105873] = PT.Jewelcrafting({quest = 83897, id = 226323}) --Nerubian Bench Blocks
+cot.nodes[47581939] = PT.Jewelcrafting({quest = 83896, id = 226322}) --Ritual Caster's Crystal
+map.nodes[59975391] = PT.Leatherworking({quest = 83905, id = 226331}) --Curved Nerubian Skinning Knife
+cot.nodes[55222689] = PT.Leatherworking({quest = 83904, id = 226330}) --Nerubian Tanning Mallet
+map.nodes[53255300] = PT.Tailoring({quest = 83928, id = 226354}) --Nerubian Quilt
+cot.nodes[50171674] = PT.Tailoring({quest = 83929, id = 226355}) --Nerubian's Pincushion
 
 -------------------------------------------------------------------------------
 --------------------------- AZJ-KAHET GLYPH HUNTER ----------------------------

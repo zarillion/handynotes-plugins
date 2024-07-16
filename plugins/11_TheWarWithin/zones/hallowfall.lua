@@ -517,13 +517,28 @@ map.nodes[63990612] = Treasure({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[47586106] = PT.Blacksmithing({quest = 83852, id = 226280}) -- Holy Flame Forge -- review
-map.nodes[44065559] = PT.Blacksmithing({quest = 83853, id = 226281}) -- Radiant Tongs -- review
-map.nodes[35925497] = PT.Herbalism({quest = nil, id = 226305}) -- Arathi Herb Pruner -- review
-map.nodes[43095685] = PT.Mining({quest = 83911, id = 226337}) -- Devout Archaeologist's Excavator -- review
-map.nodes[42305391] = PT.Skinning({quest = nil, id = 226345}) -- Arathi Craftsman's Spokeshave -- review
-map.nodes[49316233] = PT.Tailoring({quest = nil, id = 226352}) -- Arathi Rotary Cutter -- review
-map.nodes[40116812] = PT.Tailoring({quest = nil, id = 226353}) -- Royal Outfitter's Protractor -- review
+map.nodes[47806337] = PT.Herbalism({quest = 83878, id = 226304}) --Arathi Garden Trowel
+map.nodes[36025509] = PT.Herbalism({quest = 83879, id = 226305}) --Arathi Herb Pruner
+map.nodes[43135680] = PT.Mining({quest = 83911, id = 226337}) --Devour Archaeologist's Excavator
+map.nodes[46096439] = PT.Mining({quest = 83910, id = 226336}) --Arathi Precision Drill
+map.nodes[42295386] = PT.Skinning({quest = 83919, id = 226345}) --Arathi Craftsman's Spokeshave
+map.nodes[49346207] = PT.Skinning({quest = 83918, id = 226344}) --Arathi Tanning Agent
+map.nodes[42625504] = PT.Alchemy({quest = 83844, id = 226269}) --Chemist's Purified Water
+map.nodes[41675578] = PT.Alchemy({quest = 83845, id = 226270}) --Sanctified Mortar and Pestle
+map.nodes[44015563] = PT.Blacksmithing({quest = 83853, id = 226281}) --Radiant Tongs
+map.nodes[47536111] = PT.Blacksmithing({quest = 83852, id = 226280}) --Holy Flame Forge
+map.nodes[48666451] = PT.Enchanting({quest = 83863, id = 226289}) --Enchanted Arathi Scroll
+map.nodes[40037053] = PT.Enchanting({quest = 83862, id = 226288}) --Essence of Holy Fire
+map.nodes[46326140] = PT.Engineering({quest = 83870, id = 226296}) --Holy Firework Dud
+map.nodes[41574895] = PT.Engineering({quest = 83871, id = 226297}) --Arathi Safety Gloves
+map.nodes[42834912] = PT.Inscription({quest = 83887, id = 226313}) --Calligrapher's Chiseled Marker
+map.nodes[43195894] = PT.Inscription({quest = 83886, id = 226312}) --Informant's Fountain Pen
+map.nodes[44655092] = PT.Jewelcrafting({quest = 83895, id = 226321}) --Librarian's Magnifier
+map.nodes[47406061] = PT.Jewelcrafting({quest = 83894, id = 226320}) --Arathi Sizing Gauges
+map.nodes[41535781] = PT.Leatherworking({quest = 83903, id = 226329}) --Arathi Leather Burnisher
+map.nodes[47466511] = PT.Leatherworking({quest = 83902, id = 226328}) --Arathi Beveler Set
+map.nodes[49306232] = PT.Tailoring({quest = 83926, id = 226352}) --Arathi Rotary Cutter
+map.nodes[40126809] = PT.Tailoring({quest = 83927, id = 226353}) --Royal Outfitter's Protractor
 
 -------------------------------------------------------------------------------
 --------------------------- HALLOWFALL GLYPH HUNTER ---------------------------

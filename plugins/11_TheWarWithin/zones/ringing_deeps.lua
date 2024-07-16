@@ -255,19 +255,28 @@ map.nodes[68863883] = Treasure({ -- lvl 71
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[42182415] = PT.Alchemy({quest = nil, id = 226267}) -- Reinforced Beaker -- review
-map.nodes[47673317] = PT.Blacksmithing({quest = 83850, id = 226278}) -- Ringing Hammer Vise
-map.nodes[60525367] = PT.Blacksmithing({quest = 83851, id = 226279}) -- Earthen Chisels
-map.nodes[48573426] = PT.Inscription({quest = nil, id = 226310}) -- Runic Scroll -- review
-map.nodes[58186204] = PT.Mining({quest = 83908, id = 226334}) -- Earthen Excavator's Shovel
-map.nodes[66276626] = PT.Mining({quest = 83909, id = 226335}) -- Regenerating Ore -- review
-map.nodes[65716190] = PT.Skinning({quest = nil, id = 226343}) -- Fungarian's Rich Tannin -- review
-map.nodes[48853286] = PT.Tailoring({
-    quest = nil,
-    id = 226350,
-    pois = {POI({47703216})} -- Entrance
-}) -- Runed Earthen Pins -- review
-map.nodes[64126034] = PT.Tailoring({quest = nil, id = 226351}) -- Earthen Stitcher's Snips -- review
+map.nodes[52896575] = PT.Herbalism({quest = 83877, id = 226303}) --Fungarian Slicer's Knife
+map.nodes[48243495] = PT.Herbalism({quest = 83876, id = 226302}) -- Earthen Digging Fork
+map.nodes[66336621] = PT.Mining({quest = 83909, id = 226335}) --Regenerating Ore
+map.nodes[49372752] = PT.Mining({quest = 83908, id = 226334}) --Earthen Excavator's Shovel
+map.nodes[65766189] = PT.Skinning({quest = 83917, id = 226343}) --Fungarian's Rich Tannin
+map.nodes[47302837] = PT.Skinning({quest = 83916, id = 226342}) --Artisan's Drawing Knife
+map.nodes[64906175] = PT.Alchemy({quest = 83843, id = 226268}) --Engraved Stirring Rod
+map.nodes[42262409] = PT.Alchemy({quest = 83842, id = 226267}) --Reinforced Beaker
+map.nodes[60545369] = PT.Blacksmithing({quest = 83851, id = 226279}) --Earthen Chisels
+map.nodes[47653324] = PT.Blacksmithing({quest = 83850, id = 226278}) --Ringing Hammer Vise
+map.nodes[67136588] = PT.Enchanting({quest = 83861, id = 226287}) --Animated Enchanting Dust
+map.nodes[44612220] = PT.Enchanting({quest = 83860, id = 226286}) --Soot-Coated Orb
+map.nodes[42672730] = PT.Engineering({quest = 83868, id = 226294}) --Inert Mining Bomb
+map.nodes[64555880] = PT.Engineering({quest = 83869, id = 226295}) --Earthen Construct Blueprints
+map.nodes[62465806] = PT.Inscription({quest = 83885, id = 226311}) --Blue Earthen Pigment
+map.nodes[48503426] = PT.Inscription({quest = 83884, id = 226310}) --Runic Scroll
+map.nodes[57025462] = PT.Jewelcrafting({quest = 83893, id = 226319}) --Jeweler's Delicate Drill
+map.nodes[48553515] = PT.Jewelcrafting({quest = 83892, id = 226318}) --Carved Stone File
+map.nodes[64326521] = PT.Leatherworking({quest = 83901, id = 226327}) --Earthen Awl
+map.nodes[47073480] = PT.Leatherworking({quest = 83900, id = 226326}) --Underground Stropping Compound
+map.nodes[64196040] = PT.Tailoring({quest = 83925, id = 226351}) --Earthen Stitcher's Snips
+map.nodes[48873284] = PT.Tailoring({quest = 83922, id = 226350}) --Runed Earthen Pins
 
 -------------------------------------------------------------------------------
 ----------------------- THE RINGING DEEPS GLYPH HUNTER ------------------------
