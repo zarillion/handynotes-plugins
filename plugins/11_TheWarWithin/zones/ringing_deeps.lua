@@ -276,7 +276,7 @@ map.nodes[48553515] = PT.Jewelcrafting({quest = 83892, id = 226318}) --Carved St
 map.nodes[64326521] = PT.Leatherworking({quest = 83901, id = 226327}) --Earthen Awl
 map.nodes[47073480] = PT.Leatherworking({quest = 83900, id = 226326}) --Underground Stropping Compound
 map.nodes[64196040] = PT.Tailoring({quest = 83925, id = 226351}) --Earthen Stitcher's Snips
-map.nodes[48873284] = PT.Tailoring({quest = 83922, id = 226350}) --Runed Earthen Pins
+map.nodes[48873284] = PT.Tailoring({quest = 83924, id = 226350}) --Runed Earthen Pins
 
 -------------------------------------------------------------------------------
 ----------------------- THE RINGING DEEPS GLYPH HUNTER ------------------------

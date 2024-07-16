@@ -415,7 +415,7 @@ map.nodes[60022804] = PT.Skinning({quest = 83915, id = 226341}) -- Earthen Worke
 dor.nodes[32456032] = PT.Alchemy({quest = 83840, id = 226265}) -- Earthen Iron Powder
 map.nodes[57686175] = PT.Alchemy({quest = 83841, id = 226266}) -- Metal Dornogal Frame
 map.nodes[59836191] = PT.Blacksmithing({quest = 83848, id = 226276}) -- Ancient Earthen Anvil
-dor.nodes[47613191] = PT.Blacksmithing({quest = 83849, id = 226277}) -- Dornogal Hammer
+dor.nodes[47702637] = PT.Blacksmithing({quest = 83849, id = 226277}) -- Dornogal Hammer
 dor.nodes[57895689] = PT.Enchanting({quest = 83859, id = 226285}) -- Silver Dornogal Rod
 map.nodes[57576157] = PT.Enchanting({quest = 83856, id = 226284}) -- Grinded Earthen Gem
 dor.nodes[64785269] = PT.Engineering({quest = 83867, id = 226293}) -- Dornogal Spectacles
@@ -426,7 +426,7 @@ dor.nodes[35005249] = PT.Jewelcrafting({quest = 83891, id = 226317}) -- Earthen 
 map.nodes[63506683] = PT.Jewelcrafting({quest = 83890, id = 226316}) -- Gentle Jewel Hammer
 dor.nodes[68102345] = PT.Leatherworking({quest = 83898, id = 226324}) -- Earthen Lacing Tools
 map.nodes[58673071] = PT.Leatherworking({quest = 83899, id = 226325}) -- Dornogal Craftsman's Flat Knife
-dor.nodes[32456032] = PT.Tailoring({quest = 83922, id = 226348}) -- Dornocal Seam Ripper
+dor.nodes[61511866] = PT.Tailoring({quest = 83922, id = 226348}) -- Dornocal Seam Ripper
 map.nodes[56196092] = PT.Tailoring({quest = 83923, id = 226349}) -- Earthen Tape Measure
 
 -------------------------------------------------------------------------------
