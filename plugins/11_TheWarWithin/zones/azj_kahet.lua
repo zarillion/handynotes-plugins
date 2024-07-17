@@ -38,8 +38,11 @@ local cotl = Map({id = 2216, settings = true}) -- City of Threads - Lower
 
 map.nodes[46383875] = Rare({
     id = 216031,
-    quest = nil,
-    rewards = {Achievement({id = 40840, criteria = 69651})}
+    quest = 81695,
+    rewards = {
+        Achievement({id = 40840, criteria = 69651}),
+        Transmog({item = 223389, type = L['plate']}) -- Legplates of Dark Hunger
+    }
 }) -- Abyssal Devourer
 
 map.nodes[37924284] = Rare({
@@ -50,15 +53,16 @@ map.nodes[37924284] = Rare({
 
 map.nodes[70722147] = Rare({
     id = 216042,
-    quest = nil,
+    quest = 84073, -- 81704
     rewards = {Achievement({id = 40840, criteria = 69661})}
 }) -- Cha'tak
 
--- map.nodes[12001600] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69657})}
--- }) -- Chitin Hulk
+cot.nodes[30755599] = Rare({
+    id = 216038,
+    quest = 84069, -- 81634
+    rewards = {Achievement({id = 40840, criteria = 69657})},
+    parent = map.id
+}) -- The Groundskeeper (Chitin Hulk)
 
 map.nodes[64560668] = Rare({
     id = 222624,
@@ -68,7 +72,7 @@ map.nodes[64560668] = Rare({
 
 map.nodes[58036210] = Rare({
     id = 216045,
-    quest = nil,
+    quest = 84076, -- 81707
     rewards = {Achievement({id = 40840, criteria = 69664})}
 }) -- Enduring Gutterface
 
@@ -98,11 +102,12 @@ akl.nodes[67438318] = Rare({
     parent = map.id
 }) -- Jix'ak the Crazed
 
--- map.nodes[24001600] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 696670})}
--- }) -- Kaheti Bladeguard
+map.nodes[62400703] = Rare({
+    id = 216052,
+    quest = nil,
+    rewards = {Achievement({id = 40840, criteria = 69670})},
+    pois = {Path({62870495, 62610615, 62400703, 62070804, 61830851, 61160787})}
+}) -- Kaheti Bladeguard
 
 map.nodes[63152530] = Rare({
     id = 221327,
@@ -119,7 +124,7 @@ map.nodes[63152530] = Rare({
 
 map.nodes[66496197] = Rare({
     id = 216044,
-    quest = nil,
+    quest = 84075, -- 81706
     rewards = {Achievement({id = 40840, criteria = 69663})},
     pois = {
         Path({
@@ -196,16 +201,18 @@ cotl.nodes[67525826] = Rare({
     rewards = {Achievement({id = 40840, criteria = 69658})}
 }) -- Xishorr
 
-cot.nodes[30755599] = Rare({id = 216038, quest = nil, parent = map.id}) -- The Groundskeeper
-
-map.nodes[63109486] = Rare({
+map.nodes[63479504] = Rare({
     id = 216047,
     location = L['in_cave'],
     quest = nil,
     pois = {POI({65329380})}
 }) -- The One Left
 
-map.nodes[62816618] = Rare({id = 216046, quest = nil}) -- Tka'ktath
+map.nodes[62816618] = Rare({
+    id = 216046,
+    quest = nil,
+    rewards = {ns.reward.Item({item = 225952, quest = 83627})} -- starts the questchain to get the Siesbarg mount.
+}) -- Tka'ktath
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

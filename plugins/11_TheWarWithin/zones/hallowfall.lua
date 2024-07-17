@@ -165,8 +165,11 @@ map.nodes[57046433] = Rare({
 
 map.nodes[23005922] = Rare({
     id = 221534,
-    quest = nil,
-    rewards = {Achievement({id = 40851, criteria = 69710})}
+    quest = 84063, -- 81756
+    rewards = {
+        Achievement({id = 40851, criteria = 69710}),
+        Transmog({item = 221207, type = L['mail']}) -- Den Mother's Chestpiece
+    }
 }) -- Lytfang the Lost
 
 map.nodes[63402880] = Rare({
@@ -240,7 +243,7 @@ map.nodes[44011637] = Rare({
 
 map.nodes[56486899] = Rare({
     id = 218444,
-    quest = nil,
+    quest = 84061, -- 80009
     rewards = {Achievement({id = 40851, criteria = 69708})}
 }) -- The Taskmaker
 
@@ -502,7 +505,7 @@ map.nodes[63990612] = Treasure({
     label = L['coral_fused_clam'],
     note = L['coral_fused_clam_note'],
     pois = {
-        POI({61890609}) -- Clammer's Kit - Requires level 80
+        POI({61890609}) -- Clammer's Kit - Requires level 80 -- q80687
     }
 }) -- Coral Fused Clam
 
@@ -827,3 +830,40 @@ map.nodes[66344187] = DisturbedDirt()
 map.nodes[44147539] = DisturbedDirt()
 map.nodes[44537632] = DisturbedDirt()
 map.nodes[44947610] = DisturbedDirt()
+
+-------------------------------------------------------------------------------
+------------------------- ACHIEVEMENT: MERELDAR MENACE ------------------------
+-------------------------------------------------------------------------------
+
+-- local BadExample = Class('BadExample', ns.node.Collectible, {icon = 135232})
+
+-- These are just speculations, dont know where to get the stone to test it.
+-- Probably because i am stuck at the Campaign Questline
+
+-- map.nodes[43505077] = BadExample({
+--     rewards = {Achievement({id = 40151, criteria = 67219})}
+-- }) -- Holy Oil -- according to wowhead wowhead.com/beta/npc=223557
+
+-- map.nodes[41815599] = BadExample({
+--     rewards = {Achievement({id = 40151, criteria = 67121})}
+-- }) -- Orphanage Window
+
+-- map.nodes[42465440] = BadExample({
+--     rewards = {Achievement({id = 40151, criteria = 67123})}
+-- }) -- Food Stall
+
+-- map.nodes[42355490] = BadExample({
+--     rewards = {Achievement({id = 40151, criteria = 67124})}
+-- }) -- Fountain
+
+-- map.nodes[42295441] = BadExample({
+--     rewards = {Achievement({id = 40151, criteria = 67125})}
+-- }) -- Spice Stall
+
+-- map.nodes[42965270] = BadExample({
+--     rewards = {Achievement({id = 40151, criteria = 67126})}
+-- }) -- Light and Flame
+
+-- map.nodes[44075423] = BadExample({
+--     rewards = {Achievement({id = 40151, criteria = 67130})}
+-- }) -- Airship Drafting Board
