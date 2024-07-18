@@ -414,7 +414,7 @@ map.nodes[65428379] = InertEarthen({
     rewards = {Achievement({id = 40504, criteria = 68691})}
 }) -- Gundrig
 
-map.nodes[76001800] = InertEarthen({ -- review
+map.nodes[44351354] = InertEarthen({
     location = L['halthaz_location'],
     rewards = {Achievement({id = 40504, criteria = 68682})}
 }) -- Hathlaz
