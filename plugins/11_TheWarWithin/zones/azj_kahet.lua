@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local DisturbedDirt = ns.node.DisturbedDirt
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -37,8 +38,11 @@ local cotl = Map({id = 2216, settings = true}) -- City of Threads - Lower
 
 map.nodes[46383875] = Rare({
     id = 216031,
-    quest = nil,
-    rewards = {Achievement({id = 40840, criteria = 69651})}
+    quest = 81695,
+    rewards = {
+        Achievement({id = 40840, criteria = 69651}),
+        Transmog({item = 223389, type = L['plate']}) -- Legplates of Dark Hunger
+    }
 }) -- Abyssal Devourer
 
 map.nodes[37924284] = Rare({
@@ -49,15 +53,16 @@ map.nodes[37924284] = Rare({
 
 map.nodes[70722147] = Rare({
     id = 216042,
-    quest = nil,
+    quest = 84073, -- 81704
     rewards = {Achievement({id = 40840, criteria = 69661})}
 }) -- Cha'tak
 
--- map.nodes[12001600] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 69657})}
--- }) -- Chitin Hulk
+cot.nodes[30755599] = Rare({
+    id = 216038,
+    quest = 84069, -- 81634
+    rewards = {Achievement({id = 40840, criteria = 69657})},
+    parent = map.id
+}) -- The Groundskeeper (Chitin Hulk)
 
 map.nodes[64560668] = Rare({
     id = 222624,
@@ -67,12 +72,12 @@ map.nodes[64560668] = Rare({
 
 map.nodes[58036210] = Rare({
     id = 216045,
-    quest = nil,
+    quest = 84076, -- 81707
     rewards = {Achievement({id = 40840, criteria = 69664})}
 }) -- Enduring Gutterface
 
 map.nodes[61232730] = Rare({
-    id = 216042,
+    id = 216041,
     quest = 81699,
     rewards = {Achievement({id = 40840, criteria = 69655})}
 }) -- Grik'ik
@@ -97,11 +102,12 @@ akl.nodes[67438318] = Rare({
     parent = map.id
 }) -- Jix'ak the Crazed
 
--- map.nodes[24001600] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40840, criteria = 696670})}
--- }) -- Kaheti Bladeguard
+map.nodes[62400703] = Rare({ -- renamed by Blizzard?
+    id = 216052,
+    quest = nil,
+    rewards = {Achievement({id = 40840, criteria = 69670})},
+    pois = {Path({62870495, 62610615, 62400703, 62070804, 61830851, 61160787})}
+}) -- Kaheti Bladeguard
 
 map.nodes[63152530] = Rare({
     id = 221327,
@@ -118,7 +124,7 @@ map.nodes[63152530] = Rare({
 
 map.nodes[66496197] = Rare({
     id = 216044,
-    quest = nil,
+    quest = 84075, -- 81706
     rewards = {Achievement({id = 40840, criteria = 69663})},
     pois = {
         Path({
@@ -150,12 +156,13 @@ map.nodes[43863678] = Rare({
     }
 }) -- Rhak'ik & Khak'ik
 
-map.nodes[61918962] = Rare({
+akl.nodes[61918962] = Rare({
     id = 216049,
     quest = nil,
     location = L['in_small_cave'],
     rewards = {Achievement({id = 40840, criteria = 69666})},
-    pois = {POI({6341892})}
+    parent = map.id,
+    pois = {POI({63418984})} -- Entrance
 }) -- The Oozekhan
 
 map.nodes[76635780] = Rare({
@@ -188,23 +195,27 @@ map.nodes[34694110] = Rare({
 cotl.nodes[67525826] = Rare({
     id = 216039,
     quest = 81701, -- 84070
-    parent = cot.id, -- ?
+    parent = {map.id, cot.id}, -- ?
     -- ReputationGain(50, 2601), -- The Weaver
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69658})}
 }) -- Xishorr
 
-cot.nodes[30755599] = Rare({id = 216038, quest = nil, parent = map.id}) -- The Groundskeeper
+-------------------------------------------------------------------------------
 
-map.nodes[63109486] = Rare({
+map.nodes[63479504] = Rare({
     id = 216047,
     location = L['in_cave'],
     quest = nil,
-    pois = {POI({65329380})}
+    pois = {POI({65309350})} -- Entrance
 }) -- The One Left
 
-map.nodes[62816618] = Rare({id = 216046, quest = nil}) -- Tka'ktath
+map.nodes[62816618] = Rare({
+    id = 216046,
+    quest = nil,
+    rewards = {ns.reward.Item({item = 225952, quest = 83627})} -- starts the questchain to get the Siesbarg mount.
+}) -- Tka'ktath
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -275,7 +286,8 @@ cot.nodes[67397441] = Treasure({
 map.nodes[78613320] = Treasure({
     quest = 82527,
     rewards = {
-        Achievement({id = 40828, criteria = 69643}), Toy({item = 2525347}) -- Web-Vandal's Spinning Wheel
+        Achievement({id = 40828, criteria = 69643}), --
+        Toy({item = 225347}) -- Web-Vandal's Spinning Wheel
     },
     pois = {POI({74794285, 74183770, 72663967})}
 }) -- Weaving Supplies
@@ -415,10 +427,28 @@ local ItsyBitsySpider = Class('ItsyBitsySpider', Collectible, {
     note = L['itsy_bitsy_spider_note']
 })
 
-map.nodes[06001200] = ItsyBitsySpider({
-    location = L['webster_location'],
-    rewards = {Achievement({id = 40624, criteria = 68972})}
-}) -- Webster
+map.nodes[18001200] = ItsyBitsySpider({
+    location = L['generals_scouting_shadecaster_location'],
+    rewards = {Achievement({id = 40624, criteria = 68979})}
+}) -- General's Scouting Shadecaster
+
+map.nodes[12001200] = ItsyBitsySpider({
+    location = L['rumurh_location'],
+    rewards = {Achievement({id = 40624, criteria = 68976})}
+}) -- Ru'murh
+
+cot.nodes[50311591] = ItsyBitsySpider({
+    location = L['scampering_weave_rat_location'],
+    rewards = {Achievement({id = 40624, criteria = 68978})},
+    pois = {
+        Path({
+            52151317, 51811238, 50831126, 49521115, 48471114, 47421333,
+            47481445, 48221539, 48331588, 47571725, 46741772, 46511686,
+            46591499, 47671521, 48741559, 50311591, 51601554, 52151317
+        })
+    },
+    parent = map.id
+}) -- Scampering Weave-Rat
 
 map.nodes[08001200] = ItsyBitsySpider({
     location = L['spindle_location'],
@@ -437,42 +467,25 @@ map.nodes[10001200] = ItsyBitsySpider({
     rewards = {Achievement({id = 40624, criteria = 68974})}
 }) -- Swift
 
-map.nodes[12001200] = ItsyBitsySpider({
-    location = L['rumurh_location'],
-    rewards = {Achievement({id = 40624, criteria = 68976})}
-}) -- Ru'murh
-
-map.nodes[14001200] = ItsyBitsySpider({
+map.nodes[55106876] = ItsyBitsySpider({
     location = L['thimble_location'],
     rewards = {Achievement({id = 40624, criteria = 68977})},
     pois = {
         POI({31604740, 55607100, 60601760}), -- review - just copied from wowhead
         POI({
             points = {
-                55106876, 65938810, 68705578, 43752660, 53395340, 28824288
+                55106876, 65938810, 68705578, 43752660, 53395340, 28824288,
+                57548187
             },
             color = 'Red'
         }) -- confirmed
     }
 }) -- Thimble
 
-cot.nodes[50311591] = ItsyBitsySpider({
-    location = L['scampering_weave_rat_location'],
-    rewards = {Achievement({id = 40624, criteria = 68978})},
-    pois = {
-        Path({
-            52151317, 51811238, 50831126, 49521115, 48471114, 47421333,
-            47481445, 48221539, 48331588, 47571725, 46741772, 46511686,
-            46591499, 47671521, 48741559, 50311591, 51601554, 52151317
-        })
-    },
-    parent = map.id
-}) -- Scampering Weave-Rat
-
-map.nodes[18001200] = ItsyBitsySpider({
-    location = L['generals_scouting_shadecaster_location'],
-    rewards = {Achievement({id = 40624, criteria = 68979})}
-}) -- General's Scouting Shadecaster
+map.nodes[06001200] = ItsyBitsySpider({
+    location = L['webster_location'],
+    rewards = {Achievement({id = 40624, criteria = 68972})}
+}) -- Webster
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------
@@ -514,3 +527,32 @@ map.nodes[71126233] = LoreObject({
     -- ReputationGain(85, 2607), -- The Vizier
     rewards = {Achievement({id = 40762, criteria = 69384})}
 }) -- Weathered Shadecaster
+
+-------------------------------------------------------------------------------
+-------------------------------- DISTURBED DIRT -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[49572863] = DisturbedDirt()
+map.nodes[57202906] = DisturbedDirt()
+map.nodes[60404091] = DisturbedDirt()
+map.nodes[63143918] = DisturbedDirt()
+map.nodes[64733653] = DisturbedDirt()
+map.nodes[76594443] = DisturbedDirt()
+map.nodes[77983656] = DisturbedDirt()
+map.nodes[75473638] = DisturbedDirt()
+map.nodes[71426732] = DisturbedDirt()
+map.nodes[77167049] = DisturbedDirt()
+map.nodes[75317142] = DisturbedDirt()
+map.nodes[75487737] = DisturbedDirt()
+map.nodes[70127943] = DisturbedDirt()
+akl.nodes[65388188] = DisturbedDirt({parent = map.id})
+map.nodes[59846504] = DisturbedDirt()
+map.nodes[41826537] = DisturbedDirt()
+map.nodes[40636088] = DisturbedDirt()
+map.nodes[36845786] = DisturbedDirt()
+map.nodes[36065877] = DisturbedDirt()
+map.nodes[38085589] = DisturbedDirt()
+map.nodes[38375464] = DisturbedDirt()
+map.nodes[39835394] = DisturbedDirt()
+map.nodes[38764920] = DisturbedDirt()
+map.nodes[39834688] = DisturbedDirt()

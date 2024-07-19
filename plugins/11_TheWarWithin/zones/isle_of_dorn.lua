@@ -6,6 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local DisturbedDirt = ns.node.DisturbedDirt
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
@@ -527,6 +528,65 @@ map.nodes[42128025] = LoreObject({
     rlabel = ReputationGain(250, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40762, criteria = 69373})}
 }) -- Watcher of the South
+
+-------------------------------------------------------------------------------
+-------------------------------- DISTURBED DIRT -------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[27026815] = DisturbedDirt()
+map.nodes[38187892] = DisturbedDirt()
+map.nodes[44767702] = DisturbedDirt()
+map.nodes[57493429] = DisturbedDirt()
+map.nodes[57975529] = DisturbedDirt()
+map.nodes[58405778] = DisturbedDirt()
+map.nodes[58695763] = DisturbedDirt()
+map.nodes[58793702] = DisturbedDirt()
+map.nodes[58865571] = DisturbedDirt()
+map.nodes[59517165] = DisturbedDirt()
+map.nodes[60165487] = DisturbedDirt()
+map.nodes[61893557] = DisturbedDirt()
+map.nodes[61966015] = DisturbedDirt()
+map.nodes[62162647] = DisturbedDirt()
+map.nodes[62272828] = DisturbedDirt()
+map.nodes[62522512] = DisturbedDirt()
+map.nodes[62723522] = DisturbedDirt()
+map.nodes[63826247] = DisturbedDirt()
+map.nodes[63895331] = DisturbedDirt()
+map.nodes[64776839] = DisturbedDirt()
+map.nodes[65076588] = DisturbedDirt()
+map.nodes[65337065] = DisturbedDirt()
+map.nodes[65585521] = DisturbedDirt()
+map.nodes[65696586] = DisturbedDirt()
+map.nodes[68563233] = DisturbedDirt()
+map.nodes[69003300] = DisturbedDirt()
+map.nodes[69993181] = DisturbedDirt()
+map.nodes[70653055] = DisturbedDirt()
+map.nodes[70812854] = DisturbedDirt()
+map.nodes[70902974] = DisturbedDirt()
+map.nodes[71553114] = DisturbedDirt()
+map.nodes[72613005] = DisturbedDirt()
+
+-------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[38337882] = ns.node.PetBattle({
+    id = 223446,
+    rewards = {
+        Achievement({id = 40153, criteria = 67135, oneline = true}), -- Battle on Khaz Algar
+        ns.reward.Spacer(),
+        Achievement({id = 40154, criteria = 67139, oneline = true}), -- Aquatic Battler of Khaz Algar
+        Achievement({id = 40155, criteria = 67143, oneline = true}), -- Beast Battler of Khaz Algar
+        Achievement({id = 40156, criteria = 67147, oneline = true}), -- Critter Battler of Khaz Algar
+        Achievement({id = 40157, criteria = 67151, oneline = true}), -- Dragonkin Battler of Khaz Algar
+        Achievement({id = 40158, criteria = 67155, oneline = true}), -- Elemental Battler of Khaz Algar
+        Achievement({id = 40161, criteria = 67159, oneline = true}), -- Flying Battler of Khaz Algar
+        Achievement({id = 40162, criteria = 67163, oneline = true}), -- Humanoid Battler of Khaz Algar
+        Achievement({id = 40163, criteria = 67166, oneline = true}), -- Magic Battler of Khaz Algar
+        Achievement({id = 40164, criteria = 67170, oneline = true}), -- Mechanical Battler of Khaz Algar
+        Achievement({id = 40165, criteria = 67174, oneline = true}) -- Undead Battler of Khaz Algar
+    }
+}) -- Collector Dyna
 
 -------------------------------------------------------------------------------
 
