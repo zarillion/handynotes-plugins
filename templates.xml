@@ -19,7 +19,7 @@
     </Layers>
   </Button>
 
-  <DropDownToggleButton name="{addon}WorldMapOptionsButtonTemplate" frameStrata="HIGH" mixin="{addon}WorldMapOptionsButtonMixin" virtual="true">
+  <DropdownButton name="{addon}WorldMapOptionsButtonTemplate" frameStrata="HIGH" mixin="{addon}WorldMapOptionsButtonMixin" virtual="true">
     <Size x="32" y="32"/>
     <Layers>
       <Layer level="BACKGROUND">
@@ -65,7 +65,7 @@
       <OnEnter method="OnEnter"/>
       <OnLeave function="GameTooltip_Hide"/>
     </Scripts>
-  </DropDownToggleButton>
+  </DropdownButton>
 
   <Frame name="{addon}TextMenuOptionTemplate" inherits="UIDropDownCustomMenuEntryTemplate" virtual="true">
     <Size x="240" y="20"/>
