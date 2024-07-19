@@ -272,7 +272,7 @@ map.nodes[56985453] = PT.Jewelcrafting({quest = 83893, id = 226319}) -- Jeweler'
 map.nodes[47053489] = PT.Leatherworking({quest = 83900, id = 226326}) -- Underground Stropping Compound
 map.nodes[64286527] = PT.Leatherworking({quest = 83901, id = 226327}) -- Earthen Awl
 map.nodes[49422755] = PT.Mining({quest = 83908, id = 226334}) -- Earthen Excavator's Shovel
-map.nodes[66266624] = PT.Mining({aquest = 83909, id = 226335}) -- Regenerating Ore
+map.nodes[66266624] = PT.Mining({quest = 83909, id = 226335}) -- Regenerating Ore
 map.nodes[47302833] = PT.Skinning({quest = 83916, id = 226342}) -- Artisan's Drawing Knife
 map.nodes[65696190] = PT.Skinning({quest = 83917, id = 226343}) -- Fungarian's Rich Tannin -- review
 map.nodes[48823286] = PT.Tailoring({
