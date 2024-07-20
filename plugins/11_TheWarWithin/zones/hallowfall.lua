@@ -141,6 +141,7 @@ map.nodes[36905469] = Rare({
 map.nodes[33122687] = Rare({
     id = 221668,
     quest = 81836, -- 84065
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40851, criteria = 69712})},
     pois = {
         Path({
@@ -165,7 +166,8 @@ map.nodes[57046433] = Rare({
 
 map.nodes[23005922] = Rare({
     id = 221534,
-    quest = 84063, -- 81756
+    quest = 81756, -- 84063
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69710}),
         Transmog({item = 221207, type = L['mail']}) -- Den Mother's Chestpiece
@@ -187,11 +189,12 @@ map.nodes[52132681] = Rare({
     }
 }) -- Murkshade
 
--- map.nodes[10002200] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69728})}
--- }) -- Murkspike
+map.nodes[61981331] = Rare({ -- patrols
+    id = 220771,
+    quest = 82565, -- 84060
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
+    rewards = {Achievement({id = 40851, criteria = 69728})}
+}) -- Murkspike
 
 -- map.nodes[12002200] = Rare({
 --     id = nil,
@@ -202,6 +205,7 @@ map.nodes[52132681] = Rare({
 map.nodes[57304857] = Rare({
     id = 221786,
     quest = 81882, -- 84068
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40851, criteria = 69715})}
 }) -- Pride of Beledar
 
@@ -213,19 +217,22 @@ map.nodes[59702107] = Rare({
 
 map.nodes[35943547] = Rare({
     id = 221708,
-    quest = 84067, -- 81853
+    quest = 81853, -- 84067
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40851, criteria = 69714})}
 }) -- Sir Alastair Purefire
 
-map.nodes[73215297] = Rare({
+map.nodes[73405259] = Rare({
     id = 215805,
     quest = 79271, -- 84062
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40851, criteria = 69709})}
 }) -- Sloshmuck
 
 map.nodes[42703134] = Rare({
     id = 221690,
-    quest = 84066, -- 81849
+    quest = 81849, -- 84066
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69713}),
         Transmog({item = 221246, type = L['staff']}) -- Fierce Beast Staff
@@ -234,7 +241,8 @@ map.nodes[42703134] = Rare({
 
 map.nodes[44011637] = Rare({
     id = 221648,
-    quest = 84064, -- 81791
+    quest = 81791, -- 84064
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69711}),
         Transmog({item = 221229, type = L['plate']}) -- Perchfather's Cuffs
@@ -243,7 +251,7 @@ map.nodes[44011637] = Rare({
 
 map.nodes[56486899] = Rare({
     id = 218444,
-    quest = 84061, -- 80009
+    quest = 80009, -- 84061
     rewards = {Achievement({id = 40851, criteria = 69708})}
 }) -- The Taskmaker
 
@@ -312,6 +320,7 @@ map.nodes[59525966] = Treasure({
     quest = 83284,
     location = L['in_cave'],
     note = L['dark_ritual_note'],
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69694}),
         Item({item = 225693, note = L['trinket']}) -- Shadowed Essence
@@ -325,6 +334,7 @@ map.nodes[58382715] = Treasure({
     quest = 81468,
     location = L['in_small_cave'],
     note = L['illuminated_footlocker_note'],
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69701}), --
         Toy({item = 224552}) -- Cave Spelunker's Torch
@@ -485,6 +495,7 @@ map.nodes[55145185] = Treasure({
     quest = 83273,
     requires = ns.requirement.Item(225335), -- Smuggler's Key
     location = L['smugglers_treasure_location'],
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     note = L['smugglers_treasure_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69693}), --

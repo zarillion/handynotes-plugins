@@ -53,13 +53,17 @@ map.nodes[37924284] = Rare({
 
 map.nodes[70722147] = Rare({
     id = 216042,
-    quest = 84073, -- 81704
-    rewards = {Achievement({id = 40840, criteria = 69661})}
+    quest = 81704, -- 84073
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
+    rewards = {Achievement({id = 40840, criteria = 69661})},
+    pois = {POI({70102201})} -- Entrance
 }) -- Cha'tak
 
 cot.nodes[30755599] = Rare({
     id = 216038,
-    quest = 84069, -- 81634
+    quest = 81634, -- 84069
     rewards = {Achievement({id = 40840, criteria = 69657})},
     parent = map.id
 }) -- The Groundskeeper (Chitin Hulk)
@@ -72,7 +76,10 @@ map.nodes[64560668] = Rare({
 
 map.nodes[58036210] = Rare({
     id = 216045,
-    quest = 84076, -- 81707
+    quest = 81707, -- 84076
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69664})}
 }) -- Enduring Gutterface
 
@@ -112,6 +119,9 @@ map.nodes[62400703] = Rare({ -- renamed by Blizzard?
 map.nodes[63152530] = Rare({
     id = 221327,
     quest = 81702, -- 84071
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69659})},
     pois = {
         Path({
@@ -124,7 +134,10 @@ map.nodes[63152530] = Rare({
 
 map.nodes[66496197] = Rare({
     id = 216044,
-    quest = 84075, -- 81706
+    quest = 81706, -- 84075
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69663})},
     pois = {
         Path({
@@ -139,7 +152,10 @@ map.nodes[66496197] = Rare({
 
 map.nodes[69986923] = Rare({
     id = 216043,
-    quest = nil,
+    quest = 81705, -- 84074
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69662})}
 }) -- Monstrous Lasharoth
 
@@ -165,10 +181,14 @@ akl.nodes[61918962] = Rare({
     pois = {POI({63418984})} -- Entrance
 }) -- The Oozekhan
 
-map.nodes[76635780] = Rare({
+map.nodes[76585780] = Rare({
     id = 216034,
-    quest = nil,
-    rewards = {Achievement({id = 40840, criteria = 69660})}
+    quest = 81703, -- 84072
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
+    rewards = {Achievement({id = 40840, criteria = 69660})},
+    pois = {POI({77485899})} -- Entrance
 }) -- The XT-Minecrusher 8700
 
 map.nodes[64590352] = Rare({
@@ -213,7 +233,7 @@ map.nodes[63479504] = Rare({
 
 map.nodes[62816618] = Rare({
     id = 216046,
-    quest = nil,
+    quest = 82289,
     rewards = {ns.reward.Item({item = 225952, quest = 83627})} -- starts the questchain to get the Siesbarg mount.
 }) -- Tka'ktath
 
@@ -248,11 +268,11 @@ map.nodes[12002000] = Treasure({ -- review
 }) -- Memory Cache
 
 cot.nodes[31642077] = Treasure({
+    quest = 82720,
+    parent = map.id,
     -- ReputationGain(50, 2601), -- The Weaver
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier
-    quest = 82720,
-    parent = map.id,
     rewards = {Achievement({id = 40828, criteria = 69648})}
 }) -- Nerubian Offerings
 
@@ -285,6 +305,9 @@ cot.nodes[67397441] = Treasure({
 
 map.nodes[78613320] = Treasure({
     quest = 82527,
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40828, criteria = 69643}), --
         Toy({item = 225347}) -- Web-Vandal's Spinning Wheel

@@ -62,19 +62,20 @@ map.nodes[66232975] = Rare({ -- flyes around
 
 map.nodes[41371692] = Rare({ -- review, multiple locations?
     id = 220267,
-    quest = 81564, -- 84044
+    quest = 81564, -- 84044 (81562 only triggered)
     rewards = {Achievement({id = 40837, criteria = 69632})}
 }) -- Charmonger
 
 map.nodes[57883810] = Rare({
     id = 220266,
-    quest = nil,
+    quest = 81511, -- 84045
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69633})}
 }) -- Coalesced Monstrosity
 
 map.nodes[50994631] = Rare({
     id = 220269,
-    quest = 84042, -- 80560
+    quest = 80560, -- 84042
     rewards = {Achievement({id = 40837, criteria = 69630})}
 }) -- Cragmund
 
@@ -105,11 +106,12 @@ map.nodes[65354950] = Rare({ -- review
 
 map.nodes[47064697] = Rare({
     id = 220287,
-    quest = nil,
+    quest = 81485, -- 84047
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69635})}
 }) -- Kelpmire
 
-map.nodes[42753510] = Rare({ -- review
+map.nodes[42773508] = Rare({
     id = 220275,
     quest = 80547,
     rewards = {
@@ -147,21 +149,24 @@ map.nodes[66214622] = Rare({ -- review
 
 map.nodes[47621217] = Rare({
     id = 220271,
-    quest = 80507,
+    quest = 80507, -- 84040
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69628})}
 }) -- Terror of the Forge
 
 map.nodes[71654630] = Rare({
     id = 220268,
-    quest = nil,
-    note = L['in_cave'],
+    quest = 80574, -- 84043
+    note = L['in_cave'], -- kill the root of trungal npc:220615
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69631})},
     pois = {POI({72844447})} -- Entrance
 }) -- Trungal
 
 map.nodes[52032657] = Rare({
     id = 220270,
-    quest = 80506,
+    quest = 80506, -- 84041
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69629})}
 }) -- Zilthara
 
@@ -174,7 +179,7 @@ map.nodes[63086311] = Treasure({ -- lvl 71
     rewards = {Achievement({id = 40724, criteria = 69281})}
 }) -- Cursed Pickaxe
 
-map.nodes[45511745] = Treasure({ -- lvl 73
+map.nodes[45511745] = Treasure({ -- lvl 71
     quest = 82239,
     rewards = {Achievement({id = 40724, criteria = 69283})}
 }) -- Discarded Toolbox
@@ -247,6 +252,7 @@ map.nodes[66203341] = Treasure({ -- lvl 71
 map.nodes[68863883] = Treasure({ -- lvl 71
     quest = 79308,
     note = L['in_small_cave'],
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40724, criteria = 69280})},
     pois = {POI({68714072})} -- Entrance
 }) -- Webbed Knapsack
@@ -545,3 +551,4 @@ map.nodes[64656659] = DisturbedDirt()
 map.nodes[65393974] = DisturbedDirt()
 map.nodes[66733837] = DisturbedDirt()
 map.nodes[67794830] = DisturbedDirt()
+map.nodes[75624339] = DisturbedDirt() -- ?

@@ -56,7 +56,7 @@ map.nodes[41077616] = Rare({ -- get path
 
 map.nodes[55762753] = Rare({
     id = 221128,
-    quest = nil,
+    quest = 81920,
     rewards = {Achievement({id = 40435, criteria = 68224})}
 }) -- Clawbreaker K'zithix
 
@@ -75,7 +75,7 @@ map.nodes[47946014] = Rare({
 
 map.nodes[25784503] = Rare({
     id = 219266,
-    quest = nil,
+    quest = 81907,
     rewards = {Achievement({id = 40435, criteria = 68218})}
 }) -- Escaped Cutthroat
 
@@ -89,25 +89,26 @@ map.nodes[63984054] = Rare({ -- get path
 
 map.nodes[53527998] = Rare({
     id = 219268,
-    quest = nil,
+    quest = 81899,
     rewards = {Achievement({id = 40435, criteria = 68217})}
 }) -- Gar'loc
 
 map.nodes[48212701] = Rare({
     id = 219270,
-    quest = nil,
+    quest = 81902,
     rewards = {Achievement({id = 40435, criteria = 68220})}
 }) -- Kronolith, Might of the Mountain
 
 map.nodes[73004009] = Rare({
     id = 220890,
-    quest = nil,
+    quest = 81921, -- 84039
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40435, criteria = 68231})}
 }) -- Matriarch Charfuria
 
-map.nodes[50876975] = Rare({ -- review
+map.nodes[50876975] = Rare({
     id = 219267,
-    quest = 81897, -- 84026 ?
+    quest = 81897, -- 84026
     rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40435, criteria = 68216})}
 }) -- Plaguehart
@@ -138,7 +139,7 @@ map.nodes[62776842] = Rare({
 
 map.nodes[74422804] = Rare({
     id = 219278,
-    quest = nil,
+    quest = 81903,
     rewards = {Achievement({id = 40435, criteria = 68221})}
 }) -- Shallowshell the Clacker
 
@@ -153,26 +154,29 @@ map.nodes[58776068] = Rare({
 
 map.nodes[69853850] = Rare({
     id = 220883,
-    quest = nil,
+    quest = 81922, -- 84038
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40435, criteria = 68230})}
 }) -- Sweetspark the Oozeful
 
 map.nodes[56891601] = Rare({
     id = 219269,
-    quest = nil,
+    quest = 81901,
     rewards = {Achievement({id = 40435, criteria = 68219})},
     pois = {Path({56891601, 57401625, 57761653})}
 }) -- Tempest Lord Incarnus
 
 map.nodes[72913794] = Rare({ -- get path
     id = 221126,
-    quest = nil,
-    rewards = {Achievement({id = 40435, criteria = 68229})}
+    quest = 81923, -- 84037
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
+    rewards = {Achievement({id = 40435, criteria = 68229})},
+    pois = {Path({73823883})}
 }) -- Tephratennae
 
 map.nodes[57122241] = Rare({
     id = 219271,
-    quest = nil,
+    quest = 81904,
     rewards = {Achievement({id = 40435, criteria = 68222})}
 }) -- Twice-Stinger the Wretched
 
@@ -386,7 +390,7 @@ dor.nodes[58283026] = TurtlesThanks({
 --     rewards = {Achievement({id = 40434, criteria = nil})}
 -- }) -- Earthen Coffer
 
-map.nodes[73693706] = Treasure({
+map.nodes[73693706] = Treasure({ -- 51166732 second spawn
     lable = L['elemental_geode_label'],
     quest = nil,
     note = L['in_small_cave']
@@ -536,6 +540,7 @@ map.nodes[42128025] = LoreObject({
 map.nodes[27026815] = DisturbedDirt()
 map.nodes[38187892] = DisturbedDirt()
 map.nodes[44767702] = DisturbedDirt()
+map.nodes[47617007] = DisturbedDirt()
 map.nodes[57493429] = DisturbedDirt()
 map.nodes[57975529] = DisturbedDirt()
 map.nodes[58405778] = DisturbedDirt()
