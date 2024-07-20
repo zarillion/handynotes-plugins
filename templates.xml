@@ -71,7 +71,7 @@
     <Size x="240" y="20"/>
     <Layers>
       <Layer>
-        <FontString parentKey="Text" inherits="GameFontHighlightSmallLeft" wordwrap="true" maxLines="2">
+        <FontString parentKey="Text" inherits="GameFontHighlightLeft" wordwrap="true" maxLines="2">
           <Anchors>
             <Anchor point="TOP"/>
             <Anchor point="BOTTOM"/>
@@ -98,12 +98,18 @@
       </Layer>
     </Layers>
     <Frames>
-      <Slider parentKey="Slider" defaultValue="1" obeyStepOnDrag="true" inherits="PropertySliderTemplate">
+      <Slider parentKey="Slider" inherits="MinimalSliderTemplate" defaultValue="1" obeyStepOnDrag="true" mixin="PropertyBindingMixin, PropertySliderMixin">
         <Size x="0" y="20"/>
         <Anchors>
           <Anchor point="LEFT" relativeKey="$parent.Label" relativePoint="RIGHT" x="5" y="0"/>
           <Anchor point="RIGHT" relativeKey="$parent.Value" relativePoint="LEFT" x="-5" y="0"/>
         </Anchors>
+        <Scripts>
+		    	<OnValueChanged method="OnValueChanged"/>
+		    	<OnEvent method="OnEvent"/>
+		    	<OnEnter method="OnEnter"/>
+		    	<OnLeave method="OnLeave"/>
+		    </Scripts>
       </Slider>
     </Frames>
   </Frame>

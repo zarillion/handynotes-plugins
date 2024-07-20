@@ -8,13 +8,13 @@ local L = ns.locale
 --------------------------------- CREATESLIDER --------------------------------
 -------------------------------------------------------------------------------
 
-local function Custom_CreateSlider(info, level)
+local function Custom_CreateSlider(info, parent)
     local function format(v)
         if info.percentage then return FormatPercentage(v, true) end
         return string.format('%.2f', v)
     end
 
-    level:CreateTemplate(ADDON_NAME .. 'SliderMenuOptionTemplate')
+    parent:CreateTemplate(ADDON_NAME .. 'SliderMenuOptionTemplate')
         :AddInitializer(function(frame)
             local value = info.value()
             frame.Label:SetText(info.text)
@@ -132,7 +132,7 @@ function WorldMapOptionsButtonMixin:OnLoad()
             Settings.OpenToCategory('HandyNotes')
             LibStub('AceConfigDialog-3.0'):SelectGroup('HandyNotes', 'plugins',
                 ADDON_NAME, 'ZonesTab', 'Zone_' .. map.id)
-        end) -- todo
+        end)
     end)
 end
 
@@ -162,13 +162,15 @@ function WorldMapOptionsButtonMixin:Refresh()
     end
 end
 
-function WorldMapOptionsButtonMixin:AddGroupOptions(group, level)
+function WorldMapOptionsButtonMixin:AddGroupOptions(group, parent)
     local map = ns.maps[self:GetParent():GetMapID()]
 
-    level:CreateTemplate(ADDON_NAME .. 'TextMenuOptionTemplate'):AddInitializer(
-        function(frame) frame.Text:SetText(ns.RenderLinks(group.desc)) end)
+    parent:CreateTemplate(ADDON_NAME .. 'TextMenuOptionTemplate')
+        :AddInitializer(function(frame)
+            frame.Text:SetText(ns.RenderLinks(group.desc))
+        end)
 
-    level:CreateDivider()
+    parent:CreateDivider()
 
     Custom_CreateSlider({
         text = L['options_opacity'],
@@ -178,7 +180,7 @@ function WorldMapOptionsButtonMixin:AddGroupOptions(group, level)
         value = function() return group:GetAlpha(map.id) end,
         percentage = true,
         func = function(v) group:SetAlpha(v, map.id) end
-    }, level)
+    }, parent)
 
     Custom_CreateSlider({
         text = L['options_scale'],
@@ -187,5 +189,5 @@ function WorldMapOptionsButtonMixin:AddGroupOptions(group, level)
         step = 0.05,
         value = function() return group:GetScale(map.id) end,
         func = function(v) group:SetScale(v, map.id) end
-    }, level)
+    }, parent)
 end
