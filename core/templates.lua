@@ -16,14 +16,13 @@ local function Custom_CreateSlider(info, level)
 
     level:CreateTemplate(ADDON_NAME .. 'SliderMenuOptionTemplate')
         :AddInitializer(function(frame)
+            local value = info.value()
             frame.Label:SetText(info.text)
-            frame.Value:SetText(format(info.value))
+            frame.Value:SetText(format(value))
             frame.Slider:SetMinMaxValues(info.min, info.max)
             frame.Slider:SetMinMaxValues(info.min, info.max)
             frame.Slider:SetValueStep(info.step)
-            frame.Slider:SetAccessorFunction(function()
-                return info.value
-            end)
+            frame.Slider:SetAccessorFunction(function() return value end)
             frame.Slider:SetMutatorFunction(function(v)
                 frame.Value:SetText(format(v))
                 info.func(v)
@@ -176,7 +175,7 @@ function WorldMapOptionsButtonMixin:AddGroupOptions(group, level)
         min = 0,
         max = 1,
         step = 0.01,
-        value = group:GetAlpha(map.id),
+        value = function() return group:GetAlpha(map.id) end,
         percentage = true,
         func = function(v) group:SetAlpha(v, map.id) end
     }, level)
@@ -186,7 +185,7 @@ function WorldMapOptionsButtonMixin:AddGroupOptions(group, level)
         min = 0.3,
         max = 3,
         step = 0.05,
-        value = group:GetScale(map.id),
+        value = function() return group:GetScale(map.id) end,
         func = function(v) group:SetScale(v, map.id) end
     }, level)
 end
