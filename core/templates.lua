@@ -4,31 +4,32 @@
 local ADDON_NAME, ns = ...
 local L = ns.locale
 
-local LibDD = LibStub:GetLibrary('LibUIDropDownMenu-4.0')
-
 -------------------------------------------------------------------------------
---------------------------- UIDROPDOWNMENU_ADDSLIDER --------------------------
+--------------------------------- CREATESLIDER --------------------------------
 -------------------------------------------------------------------------------
 
-local function Custom_UIDropDownMenu_AddSlider(info, level)
+local function Custom_CreateSlider(info, level)
     local function format(v)
         if info.percentage then return FormatPercentage(v, true) end
         return string.format('%.2f', v)
     end
 
-    info.frame.Label:SetText(info.text)
-    info.frame.Value:SetText(format(info.value))
-    info.frame.Slider:SetMinMaxValues(info.min, info.max)
-    info.frame.Slider:SetMinMaxValues(info.min, info.max)
-    info.frame.Slider:SetValueStep(info.step)
-    info.frame.Slider:SetAccessorFunction(function() return info.value end)
-    info.frame.Slider:SetMutatorFunction(function(v)
-        info.frame.Value:SetText(format(v))
-        info.func(v)
-    end)
-    info.frame.Slider:UpdateVisibleState()
-
-    LibDD:UIDropDownMenu_AddButton({customFrame = info.frame}, level)
+    level:CreateTemplate(ADDON_NAME .. 'SliderMenuOptionTemplate')
+        :AddInitializer(function(frame)
+            frame.Label:SetText(info.text)
+            frame.Value:SetText(format(info.value))
+            frame.Slider:SetMinMaxValues(info.min, info.max)
+            frame.Slider:SetMinMaxValues(info.min, info.max)
+            frame.Slider:SetValueStep(info.step)
+            frame.Slider:SetAccessorFunction(function()
+                return info.value
+            end)
+            frame.Slider:SetMutatorFunction(function(v)
+                frame.Value:SetText(format(v))
+                info.func(v)
+            end)
+            frame.Slider:UpdateVisibleState()
+        end)
 end
 
 -------------------------------------------------------------------------------
@@ -68,55 +69,50 @@ function WorldMapOptionsButtonMixin:OnLoad()
         local map = ns.maps[self:GetParent():GetMapID()]
         if not map then return end
 
-        root:CreateTitle(WORLD_MAP_FILTER_LABEL_SHOW)
-
-        local current_group_type, achievements_menu_added = nil, false
+        local current_group_type = nil
+        local ach_menu = nil
+        local achievements_menu_added = false
 
         for _, group in ipairs(map.groups) do
-            if current_group_type and current_group_type ~= group.type then -- Add a separator each time the group type changes
+            -- Add a separator each time the group type changes
+            if current_group_type and current_group_type ~= group.type then
                 root:CreateDivider()
             end
             current_group_type = group.type
 
-            if group:IsEnabled() and group:HasEnabledNodes(map) and group.type ~=
-                ns.group_types.ACHIEVEMENT then
-                local group_menu_button =
-                    root:CreateCheckbox(GetGroupText(group), IsGroupChecked,
-                        SetGroupChecked, {mapid = map.id, group = group})
+            if group:IsEnabled() and group:HasEnabledNodes(map) then
+                if group.type == ns.group_types.ACHIEVEMENT then
+                    if not achievements_menu_added then
+                        ach_menu = root:CreateButton(
+                            ns.GetIconLink(236671, 12, 1, 0) .. '  ' ..
+                                ACHIEVEMENTS)
+                        achievements_menu_added = true
+                    end
 
-                -- submenu for group options
-                group_menu_button:CreateTemplate(ADDON_NAME ..
-                                                     'SliderMenuOptionTemplate')
-
-            elseif group:IsEnabled() and group:HasEnabledNodes(map) and
-                group.type == ns.group_types.ACHIEVEMENT and
-                not achievements_menu_added then
-                local ach_menu = root:CreateButton(
-                    ns.GetIconLink(236671, 12, 1, 0) .. '  ' .. ACHIEVEMENTS)
-
-                -- Submenu for achievements
-                for _, ach_group in ipairs(map.groups) do
-                    if ach_group.type == ns.group_types.ACHIEVEMENT and
-                        ach_group:IsEnabled() and ach_group:HasEnabledNodes(map) then
-
+                    if ach_menu ~= nil then
                         local ach_menu_button =
-                            ach_menu:CreateCheckbox(GetGroupText(ach_group, true),
+                            ach_menu:CreateCheckbox(GetGroupText(group, true),
                                 IsGroupChecked, SetGroupChecked, {
                                     mapid = map.id,
-                                    group = ach_group
+                                    group = group
                                 })
-                        ach_menu_button:CreateTemplate(ADDON_NAME ..
-                                                           'SliderMenuOptionTemplate')
+                        self:AddGroupOptions(group, ach_menu_button)
                     end
+                else
+                    local group_menu_button =
+                        root:CreateCheckbox(GetGroupText(group), IsGroupChecked,
+                            SetGroupChecked, {mapid = map.id, group = group})
+
+                    -- Submenu for group options
+                    self:AddGroupOptions(group, group_menu_button)
                 end
-                achievements_menu_added = true
             end
         end
 
         root:CreateDivider()
 
         local menu_reward_types = root:CreateButton(L['options_reward_types'])
-        for i, type in ipairs({
+        for _, type in ipairs({
             'manuscript', 'mount', 'pet', 'recipe', 'toy', 'transmog',
             'all_transmog'
         }) do
@@ -167,32 +163,30 @@ function WorldMapOptionsButtonMixin:Refresh()
     end
 end
 
--- function WorldMapOptionsButtonMixin:AddGroupOptions(group, level)
---     local map = ns.maps[self:GetParent():GetMapID()]
+function WorldMapOptionsButtonMixin:AddGroupOptions(group, level)
+    local map = ns.maps[self:GetParent():GetMapID()]
 
---     self.GroupDesc.Text:SetText(ns.RenderLinks(group.desc))
---     LibDD:UIDropDownMenu_AddButton({customFrame = self.GroupDesc}, level)
---     LibDD:UIDropDownMenu_AddButton({notClickable = true, notCheckable = true},
---         level)
+    level:CreateTemplate(ADDON_NAME .. 'TextMenuOptionTemplate'):AddInitializer(
+        function(frame) frame.Text:SetText(ns.RenderLinks(group.desc)) end)
 
---     Custom_UIDropDownMenu_AddSlider({
---         text = L['options_opacity'],
---         min = 0,
---         max = 1,
---         step = 0.01,
---         value = group:GetAlpha(map.id),
---         frame = self.AlphaOption,
---         percentage = true,
---         func = function(v) group:SetAlpha(v, map.id) end
---     }, level)
+    level:CreateDivider()
 
---     Custom_UIDropDownMenu_AddSlider({
---         text = L['options_scale'],
---         min = 0.3,
---         max = 3,
---         step = 0.05,
---         value = group:GetScale(map.id),
---         frame = self.ScaleOption,
---         func = function(v) group:SetScale(v, map.id) end
---     }, level)
--- end
+    Custom_CreateSlider({
+        text = L['options_opacity'],
+        min = 0,
+        max = 1,
+        step = 0.01,
+        value = group:GetAlpha(map.id),
+        percentage = true,
+        func = function(v) group:SetAlpha(v, map.id) end
+    }, level)
+
+    Custom_CreateSlider({
+        text = L['options_scale'],
+        min = 0.3,
+        max = 3,
+        step = 0.05,
+        value = group:GetScale(map.id),
+        func = function(v) group:SetScale(v, map.id) end
+    }, level)
+end
