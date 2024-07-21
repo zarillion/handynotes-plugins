@@ -265,6 +265,13 @@ map.nodes[63782057] = Rare({
     fgroup = 'mycelium'
 }) -- Radiant-Twisted Mycelium
 
+-- Drops a "Massive Remnant" on the ground which gives Buff 432622 (also called Massive Remnant)
+-- which can be used to empower keyflames. After empowering the keyflames have a 30 minute countdown.
+-- There might be more to those keyflames butt i'm campaign locked until they fix some bugs.
+
+-- Known Keyflame locations:
+-- 66552394 Stillstone Pond Keyflame (NPC ID 229141)
+
 map.nodes[62090835] = Rare({
     id = 214905,
     quest = nil,
@@ -501,7 +508,7 @@ map.nodes[76765382] = Treasure({ -- review, was not there when i looked
 }) -- Spore-covered Coffer
 
 map.nodes[63990612] = Treasure({
-    quest = nil,
+    quest = nil, -- no quest triggered
     label = L['coral_fused_clam'],
     note = L['coral_fused_clam_note'],
     pois = {
