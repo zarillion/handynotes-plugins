@@ -392,7 +392,7 @@ map.nodes[18001200] = ItsyBitsySpider({
     rewards = {Achievement({id = 40624, criteria = 68979})}
 }) -- General's Scouting Shadecaster
 
-map.nodes[12001200] = ItsyBitsySpider({
+map.nodes[55022662] = ItsyBitsySpider({
     location = L['rumurh_location'],
     rewards = {Achievement({id = 40624, criteria = 68976})}
 }) -- Ru'murh
@@ -516,3 +516,10 @@ map.nodes[38375464] = DisturbedDirt()
 map.nodes[39835394] = DisturbedDirt()
 map.nodes[38764920] = DisturbedDirt()
 map.nodes[39834688] = DisturbedDirt()
+
+-- Rumor Broker
+-- CoT 47840965 - NPC 224188 Ghos'opp - triggers quest 82640
+-- CoT 55012661 - 224193 Ru'murh - 82581
+-- LCoT 55704782 - 224197 Ru'murh - 82644
+-- CoT 54833455 - 224198 Ru'murh - No Quest
+-- CoT 77845369 - 224196 Ru'murh - No Quest
