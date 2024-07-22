@@ -196,15 +196,7 @@ function Spell:Initialize(id)
     self.text = string.format('{spell:%d}', self.id)
 end
 
-function Spell:IsMet()
-    for i = 1, 255 do
-        local buff = C_UnitAuras.GetAuraDataByIndex('player', i, 'HELPFUL')
-        if buff and buff.spellId == self.id then return true end
-        local debuff = C_UnitAuras.GetAuraDataByIndex('player', i, 'HARMFUL')
-        if debuff and debuff.spellId == self.id then return true end
-    end
-    return false
-end
+function Spell:IsMet() return C_UnitAuras.GetPlayerAuraBySpellID(self.id) ~= nil end
 
 -------------------------------------------------------------------------------
 ------------------------------------- TOY -------------------------------------
