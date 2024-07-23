@@ -1,0 +1,79 @@
+plugins:
+
+  - dir: 01_WorldOfWarcraft
+    name: HandyNotes_WorldOfWarcraft
+    curse: 413932
+    wowi: null
+    enabled: true
+
+  - dir: 02_BurningCrusade
+    name: HandyNotes_BurningCrusade
+    curse: 413928
+    wowi: null
+    enabled: true
+
+  - dir: 03_WrathOfTheLichKing
+    name: HandyNotes_WrathOfTheLichKing
+    curse: 413927
+    wowi: null
+    enabled: true
+
+  - dir: 04_Cataclysm
+    name: HandyNotes_Cataclysm
+    curse: 413926
+    wowi: null
+    enabled: true
+
+  - dir: 05_MistsOfPandaria
+    name: HandyNotes_MistsOfPandaria
+    curse: 413925
+    wowi: null
+    enabled: true
+
+  - dir: 06_WarlordsOfDraenor
+    name: HandyNotes_WarlordsOfDraenor
+    curse: 413924
+    wowi: null
+    enabled: true
+
+  - dir: 07_Legion
+    name: HandyNotes_Legion
+    curse: 413923
+    wowi: null
+    enabled: true
+
+  - dir: 08_BattleForAzeroth
+    name: HandyNotes_BattleForAzeroth
+    curse: 413922
+    wowi: 25829
+    enabled: true
+
+  - dir: 09_Shadowlands
+    name: HandyNotes_Shadowlands
+    curse: 363739
+    wowi: 25828
+    enabled: true
+
+  - dir: 10_Dragonflight
+    name: HandyNotes_Dragonflight
+    curse: 605372
+    wowi: 26409
+    enabled: true
+
+  - dir: 11_TheWarWithin
+    name: HandyNotes_TheWarWithin
+    curse: 932955
+    wowi: 26753
+    enabled: true
+
+  - dir: 12_Midnight
+    name: HandyNotes_Midnight
+    curse: 932956
+    wowi: null
+    enabled: false
+
+  - dir: 13_TheLastTitan
+    name: HandyNotes_TheLastTitan
+    curse: 932958
+    wowi: null
+    enabled: false

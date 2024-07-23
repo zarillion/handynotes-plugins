@@ -631,7 +631,17 @@ L['new_perspective_note'] = 'Haz una foto con la cámara S.E.L.F.I.E. al paisaje
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Muestra dónde están los paisajes para el logro {achievement:16634}.'
 
+L['fringe_benefits_note'] = 'Completa 8 de las misiones diarias para obtener el logro.'
+L['options_icons_fringe_benefits'] = '{achievement:19507}'
+L['options_icons_fringe_benefits_desc'] = 'Muestra dónde están las misiones diarias para el logro {achievement:19507}.'
+
+L['little_scales_daycare_note'] = 'Necesitas hacer una serie de misiones durante varios días, comenzando con {quest:72664} que te da el {npc:197478}, para conseguir el logro y la mascota.'
+L['options_icons_whelp'] = '{achievement:18384}'
+L['options_icons_whelp_desc'] = 'Muestra dónde están las misiones diarias para el logro {achievement:18384}.'
+
 L['ruby_feast_gourmand'] = 'Cada día, un invitado chef al azar sirve distintos platos y bebidas.'
+L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
+L['options_icons_ruby_feast_gourmand_desc'] = 'Muestra dónde están las misiones diarias para el logro {achievement:16556}.'
 
 L['sorotis_note'] = 'Entrega {item:199906} para conseguir reputación con {faction:2510}.'
 L['lillian_brightmoon_note'] = 'Entrega {item:201412} para conseguir reputación con {faction:2507}.'
@@ -661,7 +671,6 @@ Aparecerá una babosa llamada {npc:198590} y huirá a una rama detrás de {npc:1
 Vuelve con {npc:198062}, que está sentado en un banco, y entrega la misión para conseguir tu {item:200872}.
 ]]
 
-L['little_scales_daycare_note'] = 'Necesitas hacer una serie de misiones durante varios días, comenzando con {quest:72664} que te da el {npc:197478}, para conseguir el logro y la mascota.'
 L['naszuro_veiled_ossuary'] = 'Por el santuario pequeño.'
 L['naszuro_algethar_academy'] = 'En el borde de la cima de la torre.'
 L['naszuro_vault_of_the_incarnates'] = 'A los pies de la estatua.'
@@ -672,6 +681,13 @@ L['revival_catalyst_label'] = 'Catalizador de Reanimación'
 L['revival_catalyst_note'] = 'Convierte equipo que no sea de tier en un objeto del tier actual y de la ranura de equipo equivalente.'
 
 L['provisioner_aristta_note'] = 'Intercambia {currency:2657} por transfiguraciones y una montura.'
+
+L['investigators_pocketwatch_note_a'] = '1. Pídele prestado el {item:208449} a {npc:204990} ({dot:Green}) en el piso superior de la {location:Posada de Todos los Momentos} en {location:El Margen del Eon}.\n\n{note:Tienes que haber completado su cadena de misiones.}'
+L['investigators_pocketwatch_note_b'] = '2. Usa el {item:208449} cerca del {npc:203769} ({dot:Blue}) en el piso inferior de la {location:Posada de Todos los Momentos} en {location:El Margen del Eon} y compra un {item:208448} al {npc:207463}.\n\n{note:{item:208448} dura 30 segundos en el inventario. ¡Sé rápido!}'
+L['investigators_pocketwatch_note_c'] = '3. Ve rápidamente a la cascada y bébete el {item:208448}. Interactúa con el nuevo objeto visible {object:Crocoinvestigador temporal} para hacer aparecer al {npc:201664}.'
+
+L['ominous_portal_label'] = 'Portal Ominoso'
+L['ominous_portal_note'] = 'Cada 30 minutos aparecerá un {object:Portal Ominoso}.\n\n5 minutos después, aparecerá {npc:214984} e invocará algunos bosses. Derrota al {npc:215141}, a {npc:215147}, y a {npc:215146} para tus probabilidades de las recompensas.\n\n{note:Se puede repetir varias veces al día para conseguir botín.}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

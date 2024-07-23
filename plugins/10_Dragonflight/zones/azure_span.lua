@@ -1104,7 +1104,7 @@ local LeyLine = Class('LeyLine', Collectible, {
     icon = 1033908,
     location = L['in_small_cave'],
     note = L['leyline_note'],
-    rlabel = ns.status.LightBlue('+20 ' .. select(1, GetFactionInfoByID(2510))), -- Valdrakken Accord
+    rlabel = ns.tooltip.ReputationGain(20, 2510), -- Valdrakken Accord
     group = ns.groups.LEYLINE
 })
 
@@ -2111,8 +2111,8 @@ local Kazzi = Class('Kazzi', Vendor, {
 }) -- Kazzi <Winterpelt Furbolg Quartermaster>
 
 function Kazzi.getters:note()
-    local itemOne = GetItemCount(202017, true) -- Liberated Furbolg Artifact
-    local itemTwo = GetItemCount(202018, true) -- Intact Scribe Stick
+    local itemOne = C_Item.GetItemCount(202017, true) -- Liberated Furbolg Artifact
+    local itemTwo = C_Item.GetItemCount(202018, true) -- Intact Scribe Stick
     local note = L['kazzi_note_start'] .. '\n\n'
     note = note .. format(L['kazzi_note_item'], itemOne, '202017') .. '\n'
     note = note .. format(L['kazzi_note_item'], itemTwo, '202018')

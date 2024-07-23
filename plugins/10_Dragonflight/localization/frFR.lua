@@ -459,10 +459,10 @@ L['trader_hagarth_note'] = 'Échangez vos {item:190456} contre des recettes de B
 
 L['naszuro_caldera_of_the_menders'] = 'Au sommet de la tour.'
 
-L['sun_bleached_vase'] = nil
+L['sun_bleached_vase'] = 'Vase blanchi par le soleil'
 L['untranslated_tome'] = 'Tome non traduit'
 L['untranslated_tome_note'] = 'Dans le bâtiment dont l\'entrée se trouve sous le pont.'
-L['mysterious_boot'] = nil
+L['mysterious_boot'] = 'Botte mystérieuse'
 L['mysterious_boot_note'] = 'A l\'étage supérieur.'
 L['decaying_fishing_bucket'] = nil
 L['decaying_fishing_bucket_note'] = nil
@@ -632,7 +632,17 @@ L['new_perspective_note'] = 'Prenez une photo du panorama avec l\'Appareil P.R.O
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Afficher les emplacements des panoramas pour le haut-fait {achievement:16634}.'
 
+L['fringe_benefits_note'] = 'Terminez 8 des quêtes journalières pour obtenir ce haut-fait.'
+L['options_icons_fringe_benefits'] = '{achievement:19507}'
+L['options_icons_fringe_benefits_desc'] = 'Afficher l\'emplacement où les quêtes quotidiennes pour le haut-fait {achievement:19507} peuvent être acceptées.'
+
+L['little_scales_daycare_note'] = 'Vous devez réaliser une suite de quêtes sur plusieurs jours, en commençant par {quest:72664} donnée par le {npc:197478}, pour obtenir ce haut-fait et cette mascotte.'
+L['options_icons_whelp'] = '{achievement:18384}'
+L['options_icons_whelp_desc'] = 'Afficher l\'emplacement où les quêtes quotidiennes pour le haut-fait {achievement:18384} peuvent être acceptées.'
+
 L['ruby_feast_gourmand'] = 'Chaque jour, un chef invité au hasard sert des plats et des boissons variés.'
+L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
+L['options_icons_ruby_feast_gourmand_desc'] = 'Afficher l\'emplacement où les quêtes journalières pour le haut-fait {achievement:16556} peuvent être acceptées.'
 
 L['sorotis_note'] = 'Échangez vos {item:199906} pour obtenir de la réputation avec le {faction:2510}.'
 L['lillian_brightmoon_note'] = 'Echangez vos {item:201412} pour obtenir de la réputation avec l\'{faction:2507}.'
@@ -662,7 +672,6 @@ Un petit slime nommé {npc:198590} apparaîtra et s'enfuira vers une branche sit
 Revenez voir {npc:198062}, assis sur un banc, et rendez la quête pour obtenir votre {item:200872}.
 ]]
 
-L['little_scales_daycare_note'] = 'Vous devez réaliser une suite de quêtes sur plusieurs jours, en commençant par {quest:72664} donnée par le {npc:197478}, pour obtenir ce haut-fait et cette mascotte.'
 L['naszuro_veiled_ossuary'] = 'A côté du petit sanctuaire.'
 L['naszuro_algethar_academy'] = 'Sur le rebord au sommet de la tour.'
 L['naszuro_vault_of_the_incarnates'] = 'Au pied de la statue.'
@@ -673,6 +682,13 @@ L['revival_catalyst_label'] = 'Catalyseur de Renouveau'
 L['revival_catalyst_note'] = 'Transforme des pièces d\'armures ne faisant pas partie d\'un ensemble en une nouvelle pièce d’ensemble du même niveau.'
 
 L['provisioner_aristta_note'] = 'Échangez vos {currency:2657} contre des objets de transmogrification et une monture.'
+
+L['investigators_pocketwatch_note_a'] = '1. Empruntez le {item:208449} à {npc:204990} ({dot:Green}) située l\'étage de l\'{location:Auberge de Tout-Temps} à la {location:Marges des Éons}.\n\n{note:Vous devez avoir terminé sa suite de quêtes au préalable.}'
+L['investigators_pocketwatch_note_b'] = '2. Utilisez le {item:208449} près de {npc:203769} ({dot:Blue}) au rez-de-chaussée de l\'{location:Auberge de Tout-Temps} à la {location:Marges des Éons} et achetez un {item:208448} à {npc:207463}.\n\n{note:l\'{item:208448} a une durée de 30 secondes. Faites vite !}'
+L['investigators_pocketwatch_note_c'] = '3. Rendez-vous vite à la cascade et buvez l\'{item:208448}. Interagissez avec l\'{object:Horloge trempée de temps} rendue visible pour faire apparaître l\'{npc:201664}.'
+
+L['ominous_portal_label'] = 'Portail inquiétant'
+L['ominous_portal_note'] = 'Toutes les 30 minutes, un {object:Portail inquiétant} apparaîtra.\n\n5 minutes plus tard, {npc:214984} fera apparaître plusieurs boss. Battez le {npc:215141}, {npc:215147}, et {npc:215146} pour obtenir des récompenses.\n\n{note:Il n\'y a pas de limite journalière pour le butin.}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

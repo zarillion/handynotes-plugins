@@ -146,9 +146,9 @@ L['frostbound_chest'] = '霜縛寶箱'
 L['options_icons_frostbound_chest'] = '霜縛寶箱'
 L['options_icons_frostbound_chest_desc'] = '顯示 {object:霜縛寶箱} 可能的位置.'
 
-L['war_supply_chest_note'] = nil
-L['options_icons_war_supplies_desc'] = nil
-L['options_icons_war_supplies'] = nil
+L['war_supply_chest_note'] = '{npc:135181} 每45分鐘會飛過地圖, 並在這些可能的位置丟下一個 {npc:135238}.'
+L['options_icons_war_supplies_desc'] = '顯示 {npc:135238} 掉落的位置.'
+L['options_icons_war_supplies'] = '{npc:135238}'
 
 L['fyrakk_assault_label'] = '菲拉卡突襲'
 L['fyrakk_secured_shipment'] = '封住的貨箱'
@@ -186,14 +186,14 @@ L['rich_soil_note'] = '在 {location:巨龍群島} 的 {object:肥沃土壤} 種
 L['options_icons_rich_soil'] = '肥沃土壤'
 L['options_icons_rich_soil_desc'] = '顯示 {object:肥沃土壤} 的位置.'
 
-L['information_stuffed_clue'] = nil
-L['clued_in_note'] = nil
-L['options_icons_clued_in'] = nil
-L['options_icons_clued_in_desc'] = nil
+L['information_stuffed_clue'] = '裝滿資訊的線索'
+L['clued_in_note'] = '{npc:210079} 會在 {note:大挖掘} 事件時和在執行3個以 {wq:研究：...} 為名的世界任務時刷新.'
+L['options_icons_clued_in'] = '{achievement:19787}'
+L['options_icons_clued_in_desc'] = '顯示成就 {achievement:19787} 所需的 {npc:210079} 位置.'
 
-L['goggle_wobble_note'] = nil
-L['options_icons_goggle_wobble'] = nil
-L['options_icons_goggle_wobble_desc'] = nil
+L['goggle_wobble_note'] = '在引導任務線或是3個世界任務 {wq:高科技占測...} 時戴著 {item:202247} 和 {npc:207763} {emote:/dance}.'
+L['options_icons_goggle_wobble'] = '{achievement:19791}'
+L['options_icons_goggle_wobble_desc'] = '顯示成就 {achievement:19791} 所需的 {npc:207763} 位置.'
 
 L['just_one_more_thing_note'] = nil
 L['options_icons_just_one_more_thing'] = nil
@@ -317,14 +317,14 @@ L['naszuro_hudsons_rock'] = '在小石丘的頂端.'
 L['ferry_to_iskaara'] = '乘船到伊斯凱拉'
 
 L['options_icons_vegetarian_diet'] = '{achievement:16762}'
-L['options_icons_vegetarian_diet_desc'] = nil
+L['options_icons_vegetarian_diet_desc'] = '顯示成就 {achievement:16762} 所需的 {object:肉倉} 位置.'
 
-L['meat_storage_label'] = nil
-L['meat_storage_note'] = nil
+L['meat_storage_label'] = '肉倉'
+L['meat_storage_note'] = '在 {location:蕨皮谷} 內從 {object:肉倉} 解救所有12個 {npc:186766} 後, 你會收到 {npc:196267} 寄給你含有 {item:200631} 的信.'
 
-L['meat_storage_location_a'] = nil
-L['meat_storage_location_b'] = nil
-L['meat_storage_location_c'] = nil
+L['meat_storage_location_a'] = '被 {npc:96239} 包圍的海灘上.'
+L['meat_storage_location_b'] = '在 {npc:187192} 後方的山洞附近.'
+L['meat_storage_location_c'] = '在 {npc:197130} 和 {npc:186226} 後方的小山洞.'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -460,9 +460,10 @@ L['naszuro_caldera_of_the_menders'] = '在塔的頂端.'
 
 L['sun_bleached_vase'] = nil
 L['untranslated_tome'] = nil
-L['untranslated_tome_note'] = nil
+L['untranslated_tome_note'] = '在入口在橋下的建築內.'
 L['mysterious_boot'] = nil
-L['mysterious_boot_note'] = nil
+
+L['mysterious_boot_note'] = '上層.'
 L['decaying_fishing_bucket'] = nil
 L['decaying_fishing_bucket_note'] = nil
 L['forgotten_fishing_pole'] = nil
@@ -576,11 +577,11 @@ L['bloodgullet_note'] = '在 {location:木階哨站} 的一個帳篷裡的 {obje
 L['naszuro_windsong_rise'] = '在岩石柱子頂端.'
 L['naszuro_emerald_gardens'] = '在瀑布旁邊的草地.'
 
-L['prismatic_leaper_school_label'] = nil
-L['prismatic_leaper_school_note'] = nil
+L['prismatic_leaper_school_label'] = '稜彩跳躍者魚群'
+L['prismatic_leaper_school_note'] = '和 {location:伊斯凱拉} 的 {npc:195935} 對話來取得升級.\n\n可以從 {location:雍亞拉平原} 內的 {object:稜彩跳躍者魚群} 釣起下列物品:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
-L['aylaag_spear'] = nil
-L['dedication_plaquard'] = nil
+L['aylaag_spear'] = '艾拉格長矛'
+L['dedication_plaquard'] = '貢獻牌'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -596,14 +597,14 @@ L['woofang_note'] = '撫摸 {npc:193156} 來召喚稀有.'
 
 L['acorn_harvester_note'] = '在附近的地上收集一個 {object:橡實} 來取得 {spell:388485} 之後再和 {npc:196172} 互動.\n\n{bug:(BUG: 要點選 {npc:196172} 可能需要重新載入)}.'
 L['cracked_hourglass_note'] = '{item:199068} 可以在 {object:遠征隊斥侯包} 和 {object:挖過的土} 中找到.'
-L['sandy_wooden_duck_note'] = '收集 {item:199069} 並使用它.'
+L['sandy_wooden_duck_note'] = '拾取 {item:199069} 並使用它.'
 
 L['tasty_hatchling_treat_note'] = '在書架後的一個桶子內.'
 
 L['pm_mining_bridgette_holdug'] = '在一個長草的石柱頂端.'
 L['pm_tailor_elysa_raywinder'] = '在塔中間的平台上.'
 L['pt_alch_contraband_concoction_note'] = '藏在樹叢內 {note:很難看到}.'
-L['pt_alch_tasty_candy_note'] = '各丟一個在附近的 {object:[Discarded Toy]} 到每個大鍋, 然後殺掉刷新出來的怪物.'
+L['pt_alch_tasty_candy_note'] = '丟一個在附近的 {object:丟棄的玩具} 到每個大鍋.'
 L['pt_ench_fractured_titanic_sphere_note'] = '{location:提爾堡} 南邊.'
 L['pt_jewel_alexstraszite_cluster_note'] = '{location:提爾堡} 內.'
 L['pt_jewel_painters_pretty_jewel_note'] = '在燈座內.'
@@ -631,7 +632,17 @@ L['new_perspective_note'] = '在遠景位置使用任何自拍相機拍張照. �
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = '顯示成就 {achievement:16634} 所需的遠景位置.'
 
+L['fringe_benefits_note'] = '完成其中8個每日任務來取得成就.'
+L['options_icons_fringe_benefits'] = '{achievement:19507}'
+L['options_icons_fringe_benefits_desc'] = '顯示成就 {achievement:19507} 所需的每日任務接取位置.'
+
+L['little_scales_daycare_note'] = '你必須要完成橫跨多天的任務線來獲得成就和寵物, 此任務線從 {npc:197478} 所取得的任務 {quest:72664} 所開始.'
+L['options_icons_whelp'] = '{achievement:18384}'
+L['options_icons_whelp_desc'] = '顯示成就 {achievement:18384} 所需的每日任務接取位置.'
+
 L['ruby_feast_gourmand'] = '一個隨機的客座大廚會每天提供不同的食物和飲料.'
+L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
+L['options_icons_ruby_feast_gourmand_desc'] = '顯示成就 {achievement:16556} 所需的每日任務接取位置.'
 
 L['sorotis_note'] = '用 {item:199906} 交換 {faction:2510} 聲望.'
 L['lillian_brightmoon_note'] = '用 {item:201412} 交換 {faction:2507} 聲望.'
@@ -661,7 +672,6 @@ L['living_mud_mask_note'] = [[
 回到坐在長凳上的 {npc:197232} 處, 並回報任務來取得 {item:200872}.
 ]]
 
-L['little_scales_daycare_note'] = '你必須要完成橫跨多天的任務線來獲得成就和寵物, 此任務線從 {npc:197478} 所取得的任務 {quest:72664} 所開始.'
 L['naszuro_veiled_ossuary'] = '在小祭壇旁邊.'
 L['naszuro_algethar_academy'] = '在塔頂的邊柱旁.'
 L['naszuro_vault_of_the_incarnates'] = '在雕像的腳邊.'
@@ -672,6 +682,13 @@ L['revival_catalyst_label'] = '重生育籃控制臺'
 L['revival_catalyst_note'] = '將非套裝裝備轉換為對應裝等語部位的套裝部件.'
 
 L['provisioner_aristta_note'] = '用 {currency:2657} 交換塑型和一隻座騎.'
+
+L['investigators_pocketwatch_note_a'] = '1. 在 {location:紀元邊境} 的 {location:隨時旅店} 樓上, 從 {npc:204990} ({dot:Green}) 借 {item:208449}.\n\n{note:你必須先完成她之前的任務鍊.}'
+L['investigators_pocketwatch_note_b'] = '2. 在 {location:紀元邊境} 的 {location:隨時旅店} 樓下, 靠近 {npc:203769} ({dot:Blue}) 使用 {item:208449} 並從 {npc:207463} 購買 {item:208448}.\n\n{note:{item:208448} 只會存在30秒. 動作快!}'
+L['investigators_pocketwatch_note_c'] = '3. 盡快到達瀑布並喝下 {item:208448}. 和新出現的 {object:Time-Soaked Clock} 互動來召喚 {npc:201664}.'
+
+L['ominous_portal_label'] = '不詳的傳送門'
+L['ominous_portal_note'] = '每30分鐘 {object:不詳的傳送門} 會刷新.\n\n5分鐘後 {npc:214984} 會召喚幾個首領. 擊敗 {npc:215141}, {npc:215147}, 和 {npc:215146} 後有機會拿到你的獎勵.\n\n{note:這沒有每日拾取鎖定.}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -922,10 +939,10 @@ L['zaralek_event_inactive'] = ns.color.Orange('此區域事件今日不會開始
 L['options_icons_zone_event'] = '區域事件'
 L['options_icons_zone_event_desc'] = '顯示區域事件的位置.'
 
-L['djaradin_scroll'] = nil
-L['forgotten_incense'] = nil
-L['forgotten_incense_note'] = nil
-L['historied_heirloom'] = nil
+L['djaradin_scroll'] = '加拉登卷軸'
+L['forgotten_incense'] = '被遺忘的薰香'
+L['forgotten_incense_note'] = '{note:因為任務邊界的關係很難到達.}'
+L['historied_heirloom'] = '歷史悠久的傳家寶'
 L['rusted_dirt_pale'] = nil
 L['rusted_dirt_pale_note'] = nil
 L['niffen_pickaxe'] = nil
@@ -947,7 +964,7 @@ L['reefbreaker_moruud_note'] = '將附近的6個 {npc:210089} 連到 {npc:209898
 L['splinterlimb_note'] = '在8層 {spell:420009} 減益後會變為敵對. 每一輪後會堆疊一層. 擊殺攻擊他的怪物可以讓他快點完成每輪.'
 L['surging_lasher_note'] = '在此區域有 {location:翡翠狂亂} 事件時會重生.'
 L['talthonei_ashwisper_note'] = '在附近的區域擊殺怪物直到被殺的怪物說"我會復仇的"來刷新稀有.'
-L['talthonei_ashwisper_wq_note'] = '{note:只有在世界任務 {wq:Portal Panic} 處於啟動時才會在此刷新.}'
+L['talthonei_ashwisper_wq_note'] = '{note:只有在世界任務 {wq:傳送門之亂} 處於啟動時才會在此刷新.}'
 
 L['in_a_tree'] = '在一棵樹上.'
 L['inside_building'] = '在建築內.'

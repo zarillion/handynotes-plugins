@@ -207,7 +207,7 @@ map.nodes[59128380] = Rare({
     quest = 73881,
     rewards = {
         Achievement({id = 16679, criteria = 56135}),
-        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200126, slot = L['cloak']}), -- Mantle of Copious Chronologies
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
@@ -236,7 +236,7 @@ map.nodes[62298177] = Rare({
     rewards = {
         Achievement({id = 16679, criteria = 56157}),
         Transmog({item = 200185, slot = L['leather']}), -- Grips of the Everflowing Ocean
-        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200126, slot = L['cloak']}), -- Mantle of Copious Chronologies
         Transmog({item = 200151, slot = L['1h_sword']}), -- Seamist Blade
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
         Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
@@ -292,7 +292,7 @@ map.nodes[57218420] = Rare({
     rewards = {
         Achievement({id = 16679, criteria = 56142}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
-        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200126, slot = L['cloak']}), -- Mantle of Copious Chronologies
         Toy({item = 200148}), -- A Collection Of Me
         DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
     }
@@ -390,7 +390,7 @@ map.nodes[37607780] = Rare({
     rewards = {
         Achievement({id = 16679, criteria = 56150}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
-        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200126, slot = L['cloak']}), -- Mantle of Copious Chronologies
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Toy({item = 200148}), -- A Collection Of Me
@@ -1640,6 +1640,65 @@ val.nodes[57048156] = AncientStone({
     rewards = {Achievement({id = 17564, criteria = 58825})}
 }) -- Valdrakken
 
+-------------------------------------------------------------------------------
+------------------------------ MISC ACHIEVEMENTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[52198159] = Collectible({
+    icon = 4630470,
+    label = '{achievement:19507}',
+    note = L['fringe_benefits_note'],
+    group = ns.groups.FRINGE_BENEFITS,
+    rewards = {
+        Achievement({
+            id = 19507,
+            criteria = {
+                64642, 64643, 64644, 64645, 64646, 64647, 64648, 64649, 64650,
+                64651, 64654, 60757, 64657, 64658, 64659, 64660
+            }
+        })
+    }
+}) -- Fringe Benefits
+
+val.nodes[61261096] = Collectible({
+    icon = 629060,
+    label = '{achievement:16556}',
+    note = L['ruby_feast_gourmand'] .. '\n\n' .. L['rumiastrasza_note'],
+    group = ns.groups.RUBY_FEAST_GOURMAND,
+    rewards = {
+        Achievement({
+            id = 16556,
+            criteria = {
+                55714, 55715, 55716, 55717, 55718, 55719, 55720, 55721, 55722,
+                55723, 55724, 55725, 55726, 55728, 55729, 55730, 55731, 55732,
+                55733, 55734
+            }
+        })
+    }
+}) -- Great Gourmand of the Ruby Feast
+
+val.nodes[13005740] = Collectible({
+    icon = 4719556,
+    label = '{achievement:18384}',
+    note = L['little_scales_daycare_note'],
+    group = ns.groups.WHELP,
+    requires = {
+        ns.requirement.Quest(72664), -- Eggs in Abundance
+        ns.requirement.Quest(72665), -- Whelptender's Wisdom
+        ns.requirement.Quest(72666) -- Daycare Director Agapanthus
+    },
+    rewards = {
+        Achievement({
+            id = 18384,
+            criteria = {
+                60132, 60133, 60134, 60135, 60136, 60137, 60138, 60139, 60140,
+                60141, 60142, 60143, 60144, 60145, 60146, 60147
+            }
+        }), -- Whelp, There It Is
+        Pet({item = 205165, id = 3555}) -- Axel
+    }
+}) -- Whelp, There It Is
+
 ------------------------------------------------------------------------------
 --------------------------------- DREAMSURGE ---------------------------------
 ------------------------------------------------------------------------------
@@ -1688,7 +1747,7 @@ local Brendormi = Class('Brendormi', Vendor, {
 }) -- Brendormi <Field Primal Researcher>
 
 function Brendormi.getters:note()
-    local item = GetItemCount(202039, true) -- Essence of the Storm
+    local item = C_Item.GetItemCount(202039, true) -- Essence of the Storm
     local currency = C_CurrencyInfo.GetCurrencyInfo(2118).quantity -- Elemental Overflow
     local note = L['brendormi_note_start'] .. '\n\n'
     note = note .. format(L['brendormi_note_item'], item) .. '\n'
@@ -1736,27 +1795,61 @@ map.nodes[61373139] = Vendor({
 }) -- Provisioner Aristta
 
 -------------------------------------------------------------------------------
--------------------------------- MISCELLANEOUS --------------------------------
+----------------------- HEARTHSTONE'S 10TH ANNIVERSARY ------------------------
 -------------------------------------------------------------------------------
 
----------------- ACHIEVEMENT: GREAT GOURMAND OF THE RUBY FEAST ----------------
-
-val.nodes[61261096] = Collectible({
-    icon = 629060,
-    parent = map.id,
-    label = '{achievement:16556}',
-    note = L['ruby_feast_gourmand'] .. '\n\n' .. L['rumiastrasza_note'],
+local HearthstoneEvent = Class('HearthstoneEvent', Collectible, {
+    label = L['ominous_portal_label'],
+    icon = 1061040,
+    note = L['ominous_portal_note'],
     rewards = {
         Achievement({
-            id = 16556,
+            id = 19724,
             criteria = {
-                55714, 55715, 55716, 55717, 55718, 55719, 55720, 55721, 55722,
-                55723, 55724, 55725, 55726, 55728, 55729, 55730, 55731, 55732,
-                55733, 55734
+                65343, -- Abomination
+                66032, -- Alley Cat
+                65340, -- Ancient of Lore
+                65335, -- Arcane Explosion
+                65341, -- Arcane Golem
+                65334, -- Arcane Shot
+                65338, -- Baron Geddon
+                65337, -- Blessing of Kings
+                65329, -- Cairne Bloodhoof
+                65330, -- Charged Devilsaur
+                65345, -- Chillwind Yeti
+                65336, -- Forbidden Words
+                65344, -- Grove Tender
+                65370, -- Hand of Protection
+                65339, -- Hogger
+                65332, -- Jive, Insect!
+                65333, -- Preparation
+                65328, -- Pyroblast
+                65342, -- Righteousness
+                65347, -- Scarlet Crusader
+                65346 -- Shadow Word: Ruin
             }
-        })
-    }
-}) -- Great Gourmand of the Ruby Feast
+        }), -- Hearthstone Card Collection
+        Mount({item = 212522, id = 1959}), -- Compass Rose
+        Pet({item = 212606, id = 4406}), -- Sarge
+        Toy({item = 212337}), -- Stone of the Hearth
+        Transmog({item = 212607, type = L['cosmetic']}), -- Reno's Lucky Hat
+        Transmog({item = 212644, type = L['cosmetic']}), -- Taverner's Belt
+        Transmog({item = 212336, type = L['cosmetic']}), -- The Tavern's Tabard
+        Item({item = 212335, note = L['bag']}) -- Collectors Carryall
+    },
+    IsEnabled = function() return ns.IsCalendarEventActive(1462) end
+}) -- Heathstone Event
+
+local stormwind = ns.maps[84] or Map({id = 84, settings = false})
+local durotar = ns.maps[1] or Map({id = 1, settings = false})
+
+val.nodes[62556761] = HearthstoneEvent({parent = map.id})
+stormwind.nodes[34002100] = HearthstoneEvent()
+durotar.nodes[53101620] = HearthstoneEvent()
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
 
 val.nodes[43757494] = Collectible({
     icon = 4048815,
@@ -1776,28 +1869,6 @@ map.nodes[40474531] = Collectible({
     note = L['living_mud_mask_note'],
     rewards = {Pet({item = 200872, id = 3405})}
 }) -- Pet: Living Mud Mask
-
-val.nodes[13005740] = Collectible({ -- TODO
-    label = '{achievement:18384}',
-    icon = 4719556,
-    note = L['little_scales_daycare_note'],
-    -- https://www.wowhead.com/ptr-2/achievement=18384/whelp-there-it-is#comments:id=5611653
-    requires = {
-        ns.requirement.Quest(72664), -- Eggs in Abundance
-        ns.requirement.Quest(72665), -- Whelptender's Wisdom
-        ns.requirement.Quest(72666) -- Daycare Director Agapanthus
-    },
-    rewards = {
-        Achievement({
-            id = 18384,
-            criteria = {
-                60132, 60133, 60134, 60135, 60136, 60137, 60138, 60139, 60140,
-                60141, 60142, 60143, 60144, 60145, 60146, 60147
-            }
-        }), -- Whelp, There It Is
-        Pet({item = 205165, id = 3555}) -- Axel
-    }
-}) -- Pet: "Axel" from Achievement "Whelp, There It Is"
 
 ---------------------------- PET: MOTE OF NASZ'URO ----------------------------
 
@@ -1825,6 +1896,23 @@ map.nodes[62618507] = ns.node.MoteOfNaszuro({
     quest = 76193,
     note = L['naszuro_temporal_conflux']
 }) -- Temporal Conflux
+
+---------------------- TOY: INVESTI-GATOR'S POCKETWATCH -----------------------
+
+map.nodes[54648589] = Collectible({
+    id = 201664,
+    icon = 134376,
+    note = format('%s\n\n%s\n\n%s', L['investigators_pocketwatch_note_a'],
+        L['investigators_pocketwatch_note_b'],
+        L['investigators_pocketwatch_note_c']),
+    rewards = {
+        Toy({item = 206993}) -- Investi-gator's Pocketwatch
+    },
+    pois = {
+        POI({52158140, color = 'Green'}), -- Melly Teletone
+        POI({52138151, color = 'Blue'}) -- Bartender Bob
+    }
+}) -- Temporal Investi-gator
 
 -------------------------------------------------------------------------------
 

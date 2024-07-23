@@ -36,7 +36,7 @@ In addition to rares, this plugin also adds the following expansion or zone-spec
 
 ### Shadowmoon Valley
 
-* Nethwing Egg locations for [On Wings of Nether](https://www.wowhead.com/achievement=898/on-wings-of-nether) achievement.
+* Netherwing Egg locations for [On Wings of Nether](https://www.wowhead.com/achievement=898/on-wings-of-nether) achievement.
 
 ## Localization
 

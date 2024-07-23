@@ -1,1 +1,5 @@
-requests>=2.22.0
+click~=8.1.7
+pydantic~=2.7.3
+PyYAML~=6.0.1
+requests~=2.32.3
+ruff~=0.4.8

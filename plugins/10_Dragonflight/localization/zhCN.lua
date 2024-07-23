@@ -317,14 +317,14 @@ L['naszuro_hudsons_rock'] = '小石山顶上。'
 L['ferry_to_iskaara'] = '乘船前往伊斯卡拉'
 
 L['options_icons_vegetarian_diet'] = '{achievement:16762}'
-L['options_icons_vegetarian_diet_desc'] = nil
+L['options_icons_vegetarian_diet_desc'] = '显示 {achievement:16762} 成就中 {object:肉类仓库} 的位置。'
 
-L['meat_storage_label'] = nil
-L['meat_storage_note'] = nil
+L['meat_storage_label'] = '肉类仓库'
+L['meat_storage_note'] = '从 {location:蕨皮山谷} 内的 {object:肉类仓库} 解救所有12个 {npc:186766} 后，将收到来自 {npc:196267} 的邮件，其中包含 {item:200631}。'
 
-L['meat_storage_location_a'] = nil
-L['meat_storage_location_b'] = nil
-L['meat_storage_location_c'] = nil
+L['meat_storage_location_a'] = '在被 {npc:96239} 包围的海滩上。'
+L['meat_storage_location_b'] = '靠近 {npc:187192} 后面的一个洞穴。'
+L['meat_storage_location_c'] = '在 {npc:197130} 和 {npc:186226} 后面的一个小洞穴里。'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -631,7 +631,17 @@ L['new_perspective_note'] = '用自拍神器与景点合影。一旦进入相机
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = '显示 {achievement:16634} 成就中景点的位置。'
 
+L['fringe_benefits_note'] = '完成8个日常任务即可获得成就。'
+L['options_icons_fringe_benefits'] = '{achievement:19507}'
+L['options_icons_fringe_benefits_desc'] = '显示 {achievement:19507} 成就中可以接受日常任务的位置。'
+
+L['little_scales_daycare_note'] = '必须在多天内完成任务线，从 {npc:197478} 的 {quest:72664} 开始，才能获得此成就和宠物。'
+L['options_icons_whelp'] = '{achievement:18384}'
+L['options_icons_whelp_desc'] = '显示 {achievement:18384} 成就中可以接受日常任务的位置。'
+
 L['ruby_feast_gourmand'] = '每天，一位随机的客座厨师都会提供不同的食品和饮料。'
+L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
+L['options_icons_ruby_feast_gourmand_desc'] = '显示 {achievement:16556} 成就中可以接受日常任务的位置。'
 
 L['sorotis_note'] = '用 {item:199906} 换取 {faction:2510} 声望。'
 L['lillian_brightmoon_note'] = '用 {item:201412} 换取 {faction:2507} 声望。'
@@ -661,7 +671,6 @@ L['living_mud_mask_note'] = [[
 回到 {npc:198062}，坐在长椅上，交付 {item:200872} 的任务。
 ]]
 
-L['little_scales_daycare_note'] = '必须在多天内完成任务线，从 {npc:197478} 的 {quest:72664} 开始，才能获得此成就和宠物。'
 L['naszuro_veiled_ossuary'] = '神龛边上。'
 L['naszuro_algethar_academy'] = '在塔顶的壁架上。'
 L['naszuro_vault_of_the_incarnates'] = '雕像脚下。'
@@ -672,6 +681,13 @@ L['revival_catalyst_label'] = '复苏化生'
 L['revival_catalyst_note'] = '将非套装装备转换为同等物品等级和装备槽套装装备。'
 
 L['provisioner_aristta_note'] = '用 {currency:2657} 兑换幻化和坐骑。'
+
+L['investigators_pocketwatch_note_a'] = '1. 从 {location:纪元边界} 的 {location:万时旅店} 楼上的 {npc:204990} ({dot:Green}) 借用 {item:208449}。\n\n{note:必须之前已完成她的任务链。}'
+L['investigators_pocketwatch_note_b'] = '2. 在 {location:纪元边界} 的 {location:万时旅店} 楼下的 {npc:203769} ({dot:Blue}) 附近使用 {item:208449} 并从 {npc:207463} 购买 {item:208448}。\n\n{note:{item:208448} 的持续时间为30秒。快点！}'
+L['investigators_pocketwatch_note_c'] = '3. 快速到达瀑布并喝 {item:208448}。与新可见的 {object:时间浸透的钟} 交互以出现 {npc:201664}。'
+
+L['ominous_portal_label'] = '{npc:214985}'
+L['ominous_portal_note'] = '每30分钟就会出现一个 {npc:214985}。\n\n5分钟后 {npc:214984} 将出现多个首领。击败 {npc:215141}、{npc:215147} 和 {npc:215146}，就有机会获得奖励。\n\n{note:没有每日拾取锁定。}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------

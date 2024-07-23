@@ -18,7 +18,7 @@ This repository hosts *all* of our HandyNotes plugins. Since they all share the 
 The `install.py` script can be used to install your clone of this repository into your `Interface/AddOns` directory. It will create symbolic links to directories and files in the source tree for each plugin. After installation, a `/reload` is all that is needed after editing a file to see the changes reflected in game.
 
 ```
-~/handynotes-plugins$ python install.py --help
+~/handynotes-plugins$ python scripts/install.py --help
 usage: install.py [-h] [-c] [-u] Path\To\Interface\AddOns
 
 Install all HandyNotes plugins defined in this project for development.

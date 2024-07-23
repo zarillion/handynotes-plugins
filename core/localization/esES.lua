@@ -52,26 +52,10 @@ L['ranked_research'] = '%s (Rango %d/%d)'
 
 L['focus'] = 'Foco'
 L['retrieving'] = 'Recuperando el enlace del elemento ...'
-L['in_cave'] = 'En una cueva.'
-L['in_small_cave'] = 'En una cueva pequeña.'
-L['in_water_cave'] = 'En una cueva submarina.'
-L['in_waterfall_cave'] = 'En una cueva detrás de una cascada.'
-L['in_water'] = 'Bajo el agua.'
-L['hourly'] = 'Horaria'
-L['daily'] = 'Diaria'
-L['weekly'] = 'Semanal'
+
 L['normal'] = 'Normal'
 L['hard'] = 'Difícil'
-L['heirloom'] = 'Reliquia'
-L['item'] = 'Objeto'
-L['mount'] = 'Montura'
-L['pet'] = 'Mascota'
-L['recipe'] = 'Receta'
-L['spell'] = 'Hechizo'
-L['title'] = 'Título'
-L['toy'] = 'Juguete'
-L['currency'] = 'Moneda'
-L['rep'] = 'Reputación'
+
 L['completed'] = 'Terminado'
 L['incomplete'] = 'Incompleto'
 L['known'] = 'Conocido'
@@ -85,16 +69,43 @@ L['quest'] = 'Misión'
 L['quest_repeatable'] = 'Misión Repetible'
 L['achievement'] = 'Logro'
 
+---------------------------------- LOCATION -----------------------------------
+L['in_cave'] = 'En una cueva.'
+L['in_small_cave'] = 'En una cueva pequeña.'
+L['in_water_cave'] = 'En una cueva submarina.'
+L['in_waterfall_cave'] = 'En una cueva detrás de una cascada.'
+L['in_water'] = 'Bajo el agua.'
+L['in_building'] = 'En el edificio.'
+
+------------------------------------ TIME -------------------------------------
+L['hourly'] = 'Horaria'
+L['daily'] = 'Diaria'
+L['weekly'] = 'Semanal'
+
+L['time_format_12hrs'] = '%I:%M %p - %d/%m Hora local'
+L['time_format_24hrs'] = '%H:%M - %d/%m Hora local'
+
+----------------------------------- REWARDS -----------------------------------
+L['heirloom'] = 'Reliquia'
+L['item'] = 'Objeto'
+L['mount'] = 'Montura'
+L['pet'] = 'Mascota'
+L['recipe'] = 'Receta'
+L['spell'] = 'Hechizo'
+L['title'] = 'Título'
+L['toy'] = 'Juguete'
+L['currency'] = 'Moneda'
+L['rep'] = 'Reputación'
+
+---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = 'Seguidor'
 L['follower_type_champion'] = 'Campeón'
 L['follower_type_companion'] = 'Compañero'
 
+--------------------------------- REPUTATION ----------------------------------
 L['rep_honored'] = 'Honorable'
 L['rep_revered'] = 'Reverenciado'
 L['rep_exalted'] = 'Exaltado'
-
-L['time_format_12hrs'] = '%I:%M %p - %d/%m Hora local'
-L['time_format_24hrs'] = '%H:%M - %d/%m Hora local'
 
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
@@ -175,6 +186,8 @@ L['options_restore_hidden_nodes_desc'] = 'Vuelve a mostrar todos los nodos ocult
 
 L['options_rewards_settings'] = 'Recompensas'
 L['options_reward_types'] = 'Mostrar tipos de recompensas'
+L['options_manuscript_rewards'] = 'Mostrar las recompensas de los manuscritos de dracovigía'
+L['options_manuscript_rewards_desc'] = 'Muestra las recompensas de los manuscritos de dracovigía en los tooltips y sigue si ya lo has coleccionado.'
 L['options_mount_rewards'] = 'Mostrar recompensas de monturas'
 L['options_mount_rewards_desc'] = 'Muestra las recompensas de monturas en las notas y rastrea el estado de si ha sido aprendida.'
 L['options_pet_rewards'] = 'Mostrar recompensas de mascotas'

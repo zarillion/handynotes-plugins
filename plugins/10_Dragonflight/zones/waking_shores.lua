@@ -2394,7 +2394,7 @@ map.nodes[57004400] = ns.node.JustOneMoreThing({
 -------------------------------------------------------------------------------
 
 local function status(id, itemsNeed)
-    local itemsHave = GetItemCount(id, true);
+    local itemsHave = C_Item.GetItemCount(id, true);
     return ns.PlayerHasItem(id, itemsNeed) and
                ns.status.Green(itemsHave .. '/' .. itemsNeed) or
                ns.status.Red(itemsHave .. '/' .. itemsNeed)
@@ -2477,13 +2477,13 @@ function Friendship:Initialize(id, level, label)
 end
 
 function Friendship:GetText()
-    local name = GetFactionInfoByID(self.id)
+    local name = ns.api.GetFactionInfoByID(self.id)
     local level = self.label
     return string.format(name .. ' (' .. level .. ')')
 end
 
 function Friendship:IsMet()
-    local standingID = select(3, GetFactionInfoByID(self.id))
+    local standingID = select(3, ns.api.GetFactionInfoByID(self.id))
     return standingID >= self.level
 end
 

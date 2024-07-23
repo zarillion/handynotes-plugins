@@ -308,7 +308,8 @@ val.nodes[39046182] = SecretsOfAzeroth({
         207827 -- Unfinished Thinking Cap
     },
     note = L['soa_03_shakey_note_a'] .. '\n\n' ..
-        format(L['soa_03_shakey_note_b'], GetCoinTextureString(3464358)),
+        format(L['soa_03_shakey_note_b'],
+            C_CurrencyInfo.GetCoinTextureString(3464358)),
     rewards = {
         Item({item = 207816}) -- Crystal Ocular Lenses
     }
@@ -326,8 +327,9 @@ val.nodes[47334110] = SecretsOfAzeroth({
         207816, -- Crystal Ocular Lenses
         207827 -- Unfinished Thinking Cap
     },
-    note = format(L['soa_03_shakey_note_b'], GetCoinTextureString(3464358)) ..
-        '\n\n' .. L['soa_03_shakey_note_c'],
+    note = format(L['soa_03_shakey_note_b'],
+        C_CurrencyInfo.GetCoinTextureString(3464358)) .. '\n\n' ..
+        L['soa_03_shakey_note_c'],
     pois = {POI({46944489})} -- Odd Statue
 }) -- Kritha
 

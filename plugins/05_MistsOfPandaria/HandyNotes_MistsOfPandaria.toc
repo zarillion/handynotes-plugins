@@ -1,6 +1,6 @@
-## Interface: 100205
+## Interface: 100207
 ## Title: HandyNotes: Mists of Pandaria
-## Version: 1
+## Version: 0
 ## Notes: Mists of Pandaria Notes
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes

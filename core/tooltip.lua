@@ -9,9 +9,9 @@ local _, ns = ...
 
 local function ItemStatus(itemID, numNeed, note, spacer)
     local txt
-    local numHave = GetItemCount(itemID, true)
-    local status = format('%d/%d', numHave, numNeed)
-    if numHave >= numNeed then
+    local numHave = C_Item.GetItemCount(itemID, true)
+    local status = format('%d/%s', numHave, numNeed)
+    if type(numNeed) == 'number' and numHave >= numNeed then
         txt = ns.status.Green(status)
     else
         txt = ns.status.Red(status)
@@ -33,4 +33,14 @@ local function QuestStatus(questID, identifier, note, spacer)
     return txt
 end
 
-ns.tooltip = {ItemStatus = ItemStatus, QuestStatus = QuestStatus}
+local function ReputationGain(value, factionID)
+    local factionName = ns.api.GetFactionInfoByID(factionID)
+
+    return ns.status.LightBlue('+' .. value .. ' ' .. factionName)
+end
+
+ns.tooltip = {
+    ItemStatus = ItemStatus,
+    QuestStatus = QuestStatus,
+    ReputationGain = ReputationGain
+}
