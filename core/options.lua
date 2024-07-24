@@ -26,6 +26,7 @@ ns.optionDefaults = {
 
         -- rewards
         show_skinning_rewards = true,
+        show_manuscript_rewards = true,
         show_mount_rewards = true,
         show_pet_rewards = true,
         show_recipe_rewards = true,
@@ -107,6 +108,7 @@ ns.options = {
                     set = function(info, v)
                         ns:SetOpt(info.arg, v)
                         ns.world_map_button:Refresh()
+                        LibStub('Krowi_WorldMapButtons-1.4').SetPoints()
                     end,
                     order = 2,
                     width = 'full'
@@ -132,11 +134,27 @@ ns.options = {
                     name = L['options_rewards_settings'],
                     order = 10
                 },
+                show_achievement_rewards = {
+                    type = 'toggle',
+                    arg = 'show_achievement_rewards',
+                    name = L['options_achievement_rewards'],
+                    desc = L['options_achievement_rewards_desc'],
+                    order = 11,
+                    width = 'full'
+                },
                 show_skinning_rewards = {
                     type = 'toggle',
                     arg = 'show_skinning_rewards',
                     name = L['options_skinning_rewards'],
                     desc = L['options_skinning_rewards_desc'],
+                    order = 11,
+                    width = 'full'
+                },
+                show_manuscript_rewards = {
+                    type = 'toggle',
+                    arg = 'show_manuscript_rewards',
+                    name = L['options_manuscript_rewards'],
+                    desc = L['options_manuscript_rewards_desc'],
                     order = 11,
                     width = 'full'
                 },
