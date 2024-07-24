@@ -133,6 +133,8 @@ read_globals = {
     'PVP_PROGRESS_REWARDS_HEADER',
     'SOUNDKIT',
     'UNKNOWN',
+    'UNIT_ALREADY_SKINNED_LEATHER',
+    'UNIT_SKINNABLE_LEATHER',
     'WORLD_MAP_FILTER_TITLE',
 
     -- Third-Party libraries/addons
