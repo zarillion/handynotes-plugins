@@ -37,7 +37,7 @@ local dor = Map({id = 2339, settings = true}) -- Dornogal
 
 map.nodes[23335817] = Rare({
     id = 219281,
-    quest = nil,
+    quest = 82196,
     note = L['alunira_note'],
     rewards = {
         Achievement({id = 40435, criteria = 68225}),

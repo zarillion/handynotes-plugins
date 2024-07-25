@@ -53,34 +53,35 @@ map.nodes[15004000] = Rare({
 }) -- Beledar's Spawn
 
 -- map.nodes[08002000] = Rare({
---     id = nil,
---     quest = nil,
+--     id = 220159,
+--     quest = 80486,
 --     rewards = {Achievement({id = 40851, criteria = 69718})}
 -- }) -- Brineslash
 
 -- map.nodes[10002000] = Rare({
---     id = nil,
---     quest = nil,
+--     id = 206514,
+--     quest = 82558,
 --     rewards = {Achievement({id = 40851, criteria = 69720})}
 -- }) -- Crazed Cabbage Smacker
 
 map.nodes[67552316] = Rare({
     id = 214757,
-    quest = nil,
+    quest = 82560,
     note = L['croakit_note'],
     rewards = {Achievement({id = 40851, criteria = 69722})},
     pois = {POI({65802355})}
 }) -- Croakit
 
--- map.nodes[14002000] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69721})}
--- }) -- Deathpetal
+map.nodes[63643205] = Rare({
+    id = 206184,
+    quest = 82559, -- 84053
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
+    rewards = {Achievement({id = 40851, criteria = 69721})}
+}) -- Deathpetal
 
 map.nodes[44744241] = Rare({
     id = 221753,
-    quest = nil,
+    quest = 81880,
     note = L['deathtide_note'],
     rewards = {Achievement({id = 40851, criteria = 69717})},
     pois = {
@@ -102,13 +103,13 @@ map.nodes[72116435] = Rare({
 
 map.nodes[63931977] = Rare({
     id = 221179,
-    quest = nil,
+    quest = 82562,
     rewards = {Achievement({id = 40851, criteria = 69724})}
 }) -- Duskshadow
 
 -- map.nodes[22002000] = Rare({
 --     id = nil,
---     quest = nil,
+--     quest = 82564,
 --     rewards = {Achievement({id = 40851, criteria = 69727})}
 -- }) -- Finclaw Bloodtide
 
@@ -176,7 +177,7 @@ map.nodes[23005922] = Rare({
 
 map.nodes[63402880] = Rare({
     id = 206203,
-    quest = nil,
+    quest = 82557,
     rewards = {Achievement({id = 40851, criteria = 69719})}
 }) -- Moth'ethk
 
@@ -198,9 +199,9 @@ map.nodes[61981331] = Rare({ -- patrols
 
 -- map.nodes[12002200] = Rare({
 --     id = nil,
---     quest = nil,
+--     quest = 82563,
 --     rewards = {Achievement({id = 40851, criteria = 69725})}
--- }) -- Parasidous
+-- }) -- Parasidious
 
 map.nodes[57304857] = Rare({
     id = 221786,
@@ -211,7 +212,7 @@ map.nodes[57304857] = Rare({
 
 map.nodes[59702107] = Rare({
     id = 207826,
-    quest = nil,
+    quest = 82566,
     rewards = {Achievement({id = 40851, criteria = 69726})}
 }) -- Ravageant
 
@@ -255,15 +256,16 @@ map.nodes[56486899] = Rare({
     rewards = {Achievement({id = 40851, criteria = 69708})}
 }) -- The Taskmaker
 
--- map.nodes[26002200] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69723})}
--- }) -- Toadstomper
+map.nodes[66432411] = Rare({
+    id = 207803,
+    quest = 82561, -- 84055
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
+    rewards = {Achievement({id = 40851, criteria = 69723})}
+}) -- Toadstomper
 
 map.nodes[63782057] = Rare({
     id = 214905,
-    quest = nil,
+    quest = nil, -- no quest triggered
     pois = {
         Path({
             62102153, 62622116, 63162080, 63782057, 63932018, 63761978,
@@ -306,6 +308,7 @@ map.nodes[40035112] = Treasure({
 map.nodes[41795827] = Treasure({
     quest = 83263,
     note = L['caesper_note'],
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69692}),
         Recipe({item = 225639, profession = 185}) -- Recipe: Exquisitely Eviscerated Muscle

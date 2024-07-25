@@ -62,7 +62,7 @@ map.nodes[66232975] = Rare({ -- flyes around
 
 map.nodes[41371692] = Rare({ -- review, multiple locations?
     id = 220267,
-    quest = 81564, -- 84044 (81562 only triggered)
+    quest = 81562, -- 84044  81564?
     rewards = {Achievement({id = 40837, criteria = 69632})}
 }) -- Charmonger
 
@@ -88,19 +88,19 @@ map.nodes[66636887] = Rare({
 
 map.nodes[67045265] = Rare({ -- review
     id = 218393,
-    quest = nil,
+    quest = 80003,
     rewards = {Achievement({id = 40837, criteria = 69640})}
 }) -- Disturbed Earthgorger
 
 map.nodes[53000880] = Rare({ -- review 53801800
     id = 220286,
-    quest = nil,
+    quest = 80536,
     rewards = {Achievement({id = 40837, criteria = 69636})}
 }) -- Deepflayer Broodmother
 
 map.nodes[65354950] = Rare({ -- review
     id = 221199,
-    quest = nil,
+    quest = 81648,
     rewards = {Achievement({id = 40837, criteria = 69639})}
 }) -- Hungerer of the Deeps
 
@@ -122,7 +122,7 @@ map.nodes[42773508] = Rare({
 
 map.nodes[74002000] = Rare({ -- review
     id = 220285,
-    quest = nil,
+    quest = 81633,
     rewards = {Achievement({id = 40837, criteria = 69637})}
 }) -- Lurker of the Deeps
 
@@ -137,7 +137,7 @@ map.nodes[57015473] = Rare({
 
 map.nodes[66214622] = Rare({ -- review
     id = 221217,
-    quest = nil,
+    quest = 81652,
     rewards = {Achievement({id = 40837, criteria = 69638})},
     pois = {
         Path({
@@ -196,6 +196,7 @@ map.nodes[49053163] = Treasure({ -- Inside the Inn
         ns.requirement.Item(223880), ns.requirement.Item(223881),
         ns.requirement.Item(223882)
     },
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40724, criteria = 69312})},
     pois = {
         POI({47673217}), -- Entrance
@@ -226,7 +227,10 @@ map.nodes[50485349] = Treasure({ -- lvl 71
     },
     location = L['in_waterfall_cave'],
     note = L['forgotten_treasure_note'],
-    rewards = {Achievement({id = 40724, criteria = 69313})},
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
+    rewards = {
+        Achievement({id = 40724, criteria = 69313}), Toy({item = 224783}) -- Sovereign's Finery Chest
+    },
     pois = {POI({52065314})} -- Entrance
 }) -- Forgotten Treasure
 

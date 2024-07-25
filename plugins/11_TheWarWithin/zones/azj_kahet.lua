@@ -91,7 +91,7 @@ map.nodes[61232730] = Rare({
 
 akl.nodes[65198283] = Rare({
     id = 216050,
-    quest = nil,
+    quest = 82036,
     rewards = {Achievement({id = 40840, criteria = 69667})},
     pois = {
         Path({
@@ -104,14 +104,14 @@ akl.nodes[65198283] = Rare({
 
 akl.nodes[67438318] = Rare({
     id = 216048,
-    quest = nil,
+    quest = 82034,
     rewards = {Achievement({id = 40840, criteria = 69665})},
     parent = map.id
 }) -- Jix'ak the Crazed
 
 map.nodes[62400703] = Rare({ -- renamed by Blizzard?
     id = 216052,
-    quest = nil,
+    quest = 82078,
     rewards = {Achievement({id = 40840, criteria = 69670})},
     pois = {Path({62870495, 62610615, 62400703, 62070804, 61830851, 61160787})}
 }) -- Kaheti Bladeguard
@@ -174,7 +174,7 @@ map.nodes[43863678] = Rare({
 
 akl.nodes[61918962] = Rare({
     id = 216049,
-    quest = nil,
+    quest = 82035,
     location = L['in_small_cave'],
     rewards = {Achievement({id = 40840, criteria = 69666})},
     parent = map.id,
@@ -193,7 +193,7 @@ map.nodes[76585780] = Rare({
 
 map.nodes[64590352] = Rare({
     id = 216051,
-    quest = nil,
+    quest = 82037,
     rewards = {Achievement({id = 40840, criteria = 69668})}
 }) -- Umbraclaw Matra
 
@@ -227,7 +227,7 @@ cotl.nodes[67525826] = Rare({
 map.nodes[63479504] = Rare({
     id = 216047,
     location = L['in_cave'],
-    quest = nil,
+    quest = 82290,
     pois = {POI({65309350})} -- Entrance
 }) -- The One Left
 
@@ -241,13 +241,17 @@ map.nodes[62816618] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[62728794] = Treasure({ -- review
-    quest = 82520, -- review
+akl.nodes[62728795] = Treasure({
+    quest = 82520,
+    parent = map.id,
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40828, criteria = 1}), -- duplicated criteria id 69615
         Pet({item = 225544, id = 4599}) -- Mind Slurp
     }
-}) -- Corrupted Memory
+}) -- Memory Cache
 -- I'm not sure if the treasure was called Corrupted Memory or Memory Cache. The Treasure was guarded by a mob called Corrupted memory.
 -- No Achievement criteria was triggered, looks like all Azj Kahet treasure Achievements are bugged
 
@@ -283,6 +287,9 @@ map.nodes[49554370] = Treasure({
 
 map.nodes[54525081] = Treasure({
     quest = 82721,
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40828, criteria = 69649})}
 }) -- Niffen Stash
 
