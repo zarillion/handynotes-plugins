@@ -60,6 +60,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = nil
 L['squirrels_note'] = '전투 애완동물이 아닌 동물에게 {emote:/사랑} 을 해야 합니다'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = '{achievement:16729} 업적을 위한 동물 위치를 표시합니다.'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = '{achievement:18361} 업적을 위한 동물 위치를 표시합니다.'
 
 L['hnj_sublabel'] = '해당 지역에서 시카르 사냥의 제전 진행 필요'
 L['hnj_western_azure_span_hunt'] = '죽은 나무 꼭대기에 있음'
@@ -144,6 +146,10 @@ L['frostbound_chest'] = '서리결속 보관함'
 L['options_icons_frostbound_chest'] = '서리결속 보관함'
 L['options_icons_frostbound_chest_desc'] = nil
 
+L['war_supply_chest_note'] = nil
+L['options_icons_war_supplies_desc'] = nil
+L['options_icons_war_supplies'] = nil
+
 L['fyrakk_assault_label'] = nil
 L['fyrakk_secured_shipment'] = nil
 
@@ -176,6 +182,20 @@ L['tuskarr_pepe_label'] = nil
 L['tuskarr_pepe_note'] = nil
 
 L['end_of_august'] = nil
+
+L['rich_soil_label'] = nil
+L['rich_soil_note'] = nil
+L['options_icons_rich_soil'] = nil
+L['options_icons_rich_soil_desc'] = nil
+
+L['information_stuffed_clue'] = nil
+L['clued_in_note'] = nil
+L['options_icons_clued_in'] = nil
+L['options_icons_clued_in_desc'] = nil
+
+L['goggle_wobble_note'] = nil
+L['options_icons_goggle_wobble'] = nil
+L['options_icons_goggle_wobble_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -274,6 +294,16 @@ L['naszuro_azure_archives'] = nil
 L['naszuro_hudsons_rock'] = nil
 
 L['ferry_to_iskaara'] = nil
+
+L['options_icons_vegetarian_diet'] = '{achievement:16762}'
+L['options_icons_vegetarian_diet_desc'] = nil
+
+L['meat_storage_label'] = nil
+L['meat_storage_note'] = nil
+
+L['meat_storage_location_a'] = nil
+L['meat_storage_location_b'] = nil
+L['meat_storage_location_c'] = nil
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -399,6 +429,12 @@ L['trader_hagarth_note'] = nil
 
 L['naszuro_caldera_of_the_menders'] = nil
 
+L['sun_bleached_vase'] = nil
+L['untranslated_tome'] = nil
+L['untranslated_tome_note'] = nil
+L['mysterious_boot'] = nil
+L['mysterious_boot_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -506,6 +542,12 @@ L['bloodgullet_note'] = nil
 L['naszuro_windsong_rise'] = nil
 L['naszuro_emerald_gardens'] = nil
 
+L['prismatic_leaper_school_label'] = nil
+L['prismatic_leaper_school_note'] = nil
+
+L['aylaag_spear'] = nil
+L['dedication_plaquard'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -555,7 +597,17 @@ L['new_perspective_note'] = '절경에서 "셀카" 사진기로 사진을 촬영
 L['options_icons_new_perspective'] = nil
 L['options_icons_new_perspective_desc'] = '{achievement:16634} 업적을 위한 절경의 위치를 표시합니다.'
 
+L['fringe_benefits_note'] = nil
+L['options_icons_fringe_benefits'] = '{achievement:19507}'
+L['options_icons_fringe_benefits_desc'] = nil
+
+L['little_scales_daycare_note'] = nil
+L['options_icons_whelp'] = '{achievement:18384}'
+L['options_icons_whelp_desc'] = nil
+
 L['ruby_feast_gourmand'] = '매일 무작위로 선정된 요리사가 서로 다른 음식과 음료를 제공합니다.'
+L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
+L['options_icons_ruby_feast_gourmand_desc'] = nil
 
 L['sorotis_note'] = '{item:199906}을 반납하여 {faction:2510} 평판을 획득합니다.'
 L['lillian_brightmoon_note'] = '{item:201412}을 반납하여 {faction:2507} 평판을 획득합니다.'
@@ -575,7 +627,6 @@ L['options_icons_titan_chest_desc'] = nil
 
 L['living_mud_mask_note'] = nil
 
-L['little_scales_daycare_note'] = nil
 L['naszuro_veiled_ossuary'] = nil
 L['naszuro_algethar_academy'] = nil
 L['naszuro_vault_of_the_incarnates'] = nil
@@ -586,6 +637,13 @@ L['revival_catalyst_label'] = nil
 L['revival_catalyst_note'] = nil
 
 L['provisioner_aristta_note'] = nil
+
+L['investigators_pocketwatch_note_a'] = nil
+L['investigators_pocketwatch_note_b'] = nil
+L['investigators_pocketwatch_note_c'] = nil
+
+L['ominous_portal_label'] = nil
+L['ominous_portal_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -804,6 +862,11 @@ L['zaralek_event_inactive'] = nil
 L['options_icons_zone_event'] = nil
 L['options_icons_zone_event_desc'] = nil
 
+L['djaradin_scroll'] = nil
+L['forgotten_incense'] = nil
+L['forgotten_incense_note'] = nil
+L['historied_heirloom'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
@@ -870,6 +933,7 @@ L['moonkin_hatchling_note'] = nil
 L['druid_glyphs_label'] = nil
 L['druid_glyphs_sublabel'] = nil
 L['druid_glyphs_note'] = nil
+L['druid_glyphs_checklist_note'] = nil
 
 L['pollenfused_bristlebruin_fur_sample_note'] = nil
 

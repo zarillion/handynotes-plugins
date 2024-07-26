@@ -25,11 +25,13 @@ local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
+local RichSoil = ns.node.RichSoil
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
+local WarSupply = ns.node.WarSupply
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -944,6 +946,20 @@ map.nodes[62005160] = LightningBoundChest()
 map.nodes[65601340] = LightningBoundChest()
 map.nodes[67001180] = LightningBoundChest()
 map.nodes[67101270] = LightningBoundChest()
+
+-------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[22406370] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[36003220] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[35926292] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[48512646] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[61156158] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[62908070] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[75094969] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[77702440] = WarSupply({fgroup = 'supply_ohnahran_plains'})
+map.nodes[80907569] = WarSupply({fgroup = 'supply_ohnahran_plains'})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
@@ -1944,6 +1960,20 @@ map.nodes[38636670] = AncientStone({
 }) -- Wind, Wood, Water
 
 -------------------------------------------------------------------------------
+---------------------------------- CLUED IN -----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[64674842] = ns.node.CluedIn({
+    label = L['aylaag_spear'], -- Aylaag Spear
+    quest = 76587 -- Research: Centaur of Ohn'ahran Plains
+})
+
+map.nodes[69944089] = ns.node.CluedIn({
+    label = L['dedication_plaquard'], -- Dedication Plaquard
+    quest = 76587
+})
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
@@ -2237,5 +2267,51 @@ map.nodes[64164161] = ns.node.Celestine()
 map.nodes[24496126] = ns.node.RenewedMagmammoth()
 
 -------------------------------------------------------------------------------
+---------------------------------- RICH SOIL ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[25005800] = RichSoil()
+map.nodes[24205984] = RichSoil()
+map.nodes[60005300] = RichSoil()
+map.nodes[59605060] = RichSoil()
+map.nodes[62295025] = RichSoil()
+map.nodes[25586053] = RichSoil()
+map.nodes[31295175] = RichSoil()
+map.nodes[62456000] = RichSoil()
+map.nodes[62805850] = RichSoil()
+map.nodes[65665315] = RichSoil()
+map.nodes[32925312] = RichSoil()
+
+-------------------------------------------------------------------------------
+
+local PrismaticLeaperSchool = Class('PrismaticLeaperSchool', Collectible, {
+    label = L['prismatic_leaper_school_label'],
+    icon = 630618,
+    fgroup = 'prismatic_leaper_school',
+    note = format(L['prismatic_leaper_school_note'], 200080, -- Draconium Nugget
+        200081, -- Strong Seavine
+        200082, -- Battered Imbu-made Net
+        200083, -- Irontree Branch
+        200084 -- Salinated Serevite
+    ),
+    rewards = {
+        Achievement({
+            id = 16322,
+            criteria = {
+                55019, -- Harpoon handle
+                55076, -- Harpoon head
+                55024, -- Harpoon rope
+                55021, -- Fishing net weights
+                55022 -- Fishing net knots
+            }
+        }) -- Best in Slot
+    }
+}); -- Prismatic Leaper School
+
+map.nodes[56408040] = PrismaticLeaperSchool()
+map.nodes[58303170] = PrismaticLeaperSchool()
+map.nodes[61508230] = PrismaticLeaperSchool()
+map.nodes[64303850] = PrismaticLeaperSchool()
+map.nodes[86105250] = PrismaticLeaperSchool()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

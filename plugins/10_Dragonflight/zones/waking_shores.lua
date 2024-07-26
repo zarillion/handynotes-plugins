@@ -26,11 +26,13 @@ local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
 local RareElite = ns.node.RareElite
+local RichSoil = ns.node.RichSoil
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
+local WarSupply = ns.node.WarSupply
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -995,6 +997,20 @@ map.nodes[57604350] = ns.node.DracthyrSupplyChest()
 map.nodes[66405660] = ns.node.DracthyrSupplyChest()
 map.nodes[67905800] = ns.node.DracthyrSupplyChest()
 map.nodes[68005890] = ns.node.DracthyrSupplyChest()
+
+-------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[24227983] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[32006370] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[32605100] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[47997652] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[51545639] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[51794273] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[66123326] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[70866535] = WarSupply({fgroup = 'supply_waking_shore'})
+map.nodes[78704910] = WarSupply({fgroup = 'supply_waking_shore'})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
@@ -2320,11 +2336,37 @@ map.nodes[34624668] = Collectible({
 }) -- Broken Waygate
 
 -------------------------------------------------------------------------------
+---------------------------------- RICH SOIL ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[60006400] = RichSoil()
+map.nodes[56006800] = RichSoil()
+map.nodes[53506400] = RichSoil()
+map.nodes[54476895] = RichSoil()
+map.nodes[54355753] = RichSoil()
+map.nodes[53376028] = RichSoil()
+map.nodes[57006000] = RichSoil()
+map.nodes[54305700] = RichSoil()
+map.nodes[53005200] = RichSoil()
+map.nodes[54606584] = RichSoil()
+map.nodes[55875764] = RichSoil()
+map.nodes[59456104] = RichSoil()
+map.nodes[60645668] = RichSoil()
+
+-------------------------------------------------------------------------------
+-------------------------------- GOGGLE WOBBLE --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[56374394] = ns.node.GoggleWobble({
+    rewards = {Achievement({id = 19791, criteria = 65406})}
+})
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
 local function status(id, itemsNeed)
-    local itemsHave = GetItemCount(id, true);
+    local itemsHave = C_Item.GetItemCount(id, true);
     return ns.PlayerHasItem(id, itemsNeed) and
                ns.status.Green(itemsHave .. '/' .. itemsNeed) or
                ns.status.Red(itemsHave .. '/' .. itemsNeed)
@@ -2407,13 +2449,13 @@ function Friendship:Initialize(id, level, label)
 end
 
 function Friendship:GetText()
-    local name = GetFactionInfoByID(self.id)
+    local name = ns.api.GetFactionInfoByID(self.id)
     local level = self.label
     return string.format(name .. ' (' .. level .. ')')
 end
 
 function Friendship:IsMet()
-    local standingID = select(3, GetFactionInfoByID(self.id))
+    local standingID = select(3, ns.api.GetFactionInfoByID(self.id))
     return standingID >= self.level
 end
 

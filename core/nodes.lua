@@ -220,6 +220,7 @@ function Node:Prepare()
     ns.PrepareLinks(self.sublabel)
     ns.PrepareLinks(self.location)
     ns.PrepareLinks(self.note)
+    ns.PrepareLinks(self.rlabel)
 
     if self.requires then
         for i, req in ipairs(self.requires) do
@@ -282,7 +283,7 @@ function Node:Render(tooltip, focusable)
     if #rlabel > 0 then
         local rtext = _G[tooltip:GetName() .. 'TextRight1']
         rtext:SetTextColor(1, 1, 1)
-        rtext:SetText(rlabel)
+        rtext:SetText(ns.RenderLinks(rlabel, true))
         rtext:Show()
     end
 

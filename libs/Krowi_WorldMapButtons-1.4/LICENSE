@@ -1,5 +1,5 @@
 Krowi's World Map Buttons License
-	Copyright ©2020-2022 The contents of this library, excluding third-party resources, are
+	Copyright ©2020 The contents of this library, excluding third-party resources, are
 	copyrighted to their authors with all rights reserved.
 
 	This library is free to use and the authors hereby grants you the following rights:

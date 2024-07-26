@@ -132,6 +132,7 @@ L['abandoned_crate_of_goods_note'] = 'Enthält ca. 103 Gold.'
 
 L['cache_of_pilfered_goods'] = 'Truhe mit geklauten Waren'
 L['virmen_treasure_cache'] = 'Schatztruhe der Shed-Ling'
+L['mysterious_fruit_pile'] = 'Haufen mysteriöser Früchte'
 
 -------------------------------------------------------------------------------
 ------------------------------- Isle of Thunder -------------------------------

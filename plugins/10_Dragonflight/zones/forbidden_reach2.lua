@@ -17,6 +17,7 @@ local Dragonglyph = ns.node.Dragonglyph
 local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
 local SignalTransmitter = ns.node.SignalTransmitter
+local WarSupply = ns.node.WarSupply
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -33,6 +34,8 @@ local Arrow = ns.poi.Arrow
 local Circle = ns.poi.Circle
 local Path = ns.poi.Path
 local POI = ns.poi.POI
+
+local ItemStatus = ns.tooltip.ItemStatus
 
 local DC = ns.DRAGON_CUSTOMIZATIONS
 
@@ -203,6 +206,7 @@ map.nodes[61723400] = Rare({
     note = L['wymslayer_angvardi_note'],
     rewards = {
         Achievement({id = 17525, criteria = 58469}), -- Champion of the Forbidden Reach
+        DC.WindborneVelocidrake.WhiteHorns, --
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
@@ -624,6 +628,18 @@ map.nodes[48947352] = ns.node.ElementalChest({
         Item({item = 204577}) -- Condensed Nature Magic
     }
 }) -- Storm-Bound Chest
+
+-------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[15001480] = WarSupply({fgroup = 'supply_forbidden_reach'})
+map.nodes[31405380] = WarSupply({fgroup = 'supply_forbidden_reach'})
+map.nodes[40801240] = WarSupply({fgroup = 'supply_forbidden_reach'})
+map.nodes[41203670] = WarSupply({fgroup = 'supply_forbidden_reach'})
+map.nodes[50104390] = WarSupply({fgroup = 'supply_forbidden_reach'})
+map.nodes[59003900] = WarSupply({fgroup = 'supply_forbidden_reach'})
+map.nodes[70707710] = WarSupply({fgroup = 'supply_forbidden_reach'})
 
 -------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
@@ -1059,27 +1075,10 @@ local RecipeRat = Class('RecipeRat', Collectible, {
 }) -- Recipe Rat
 
 function RecipeRat.getters:note()
-    local function status(id, itemsNeed, itemsNeedString)
-        local itemsHave = GetItemCount(id, true);
-        if ns.PlayerHasItem(id, itemsNeed) then
-            return ns.status.Green(itemsHave .. '/' .. itemsNeedString)
-        else
-            return ns.status.Red(itemsHave .. '/' .. itemsNeedString)
-        end
-    end
-
-    local function getString(id)
-        local s = '??????'
-        return s:sub(1, #tostring(GetItemCount(id))) -- 1/? or 26/?? or 159/???
-    end
-
-    local note = L['recipe_rat_note_1'] .. '\n\n'
-    note = note .. status(202252, 1, '1') .. ' ' .. L['recipe_rat_note_2'] ..
-               '\n\n'
-    note = note .. status(204340, 30, '30') .. ' ' .. L['recipe_rat_note_3'] ..
-               '\n\n'
-    note = note .. status(3927, 1, getString(3927)) .. ' ' ..
-               L['recipe_rat_note_4']
+    local note = L['recipe_rat_note_1']
+    note = note .. ItemStatus(202252, 1, L['recipe_rat_note_2'])
+    note = note .. ItemStatus(204340, 30, L['recipe_rat_note_3'])
+    note = note .. ItemStatus(3927, '?', L['recipe_rat_note_4'])
     return note
 end
 
@@ -1100,7 +1099,7 @@ local MossyMammoth = Class('MossyMammoth', Collectible, {
 }) -- Mossy Mammoth
 
 function MossyMammoth.getters:note()
-    local function HasItem(id) return GetItemCount(id, true) > 0 end
+    local function HasItem(id) return C_Item.GetItemCount(id, true) > 0 end
 
     local function HasMount(id)
         return select(11, C_MountJournal.GetMountInfoByID(id))
@@ -1337,6 +1336,36 @@ map.nodes[55393586] = ScalecommanderItem({
     pois = {POI({55103837})}, -- Entrance
     item = {204252, 202326}
 }) -- Sending Stone: Initial Report
+
+-------------------------------------------------------------------------------
+---------------------------------- CLUED IN -----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[55424648] = ns.node.CluedIn({
+    label = L['sun_bleached_vase'], -- Sun-Bleached Vase
+    quest = 77424
+})
+
+map.nodes[54933669] = ns.node.CluedIn({
+    label = L['untranslated_tome'], -- Untranslated Tome
+    quest = 77424,
+    location = L['untranslated_tome_note'],
+    pois = {POI({55103878})} -- Entrance
+})
+
+map.nodes[56383872] = ns.node.CluedIn({
+    label = L['mysterious_boot'], -- Mysterious Boot
+    quest = 77424,
+    location = L['mysterious_boot_note']
+})
+
+-------------------------------------------------------------------------------
+-------------------------------- GOGGLE WOBBLE --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[77143837] = ns.node.GoggleWobble({
+    rewards = {Achievement({id = 19791, criteria = 65405})}
+})
 
 -------------------------------------------------------------------------------
 ----------------------------------- VENDORS -----------------------------------

@@ -1,6 +1,6 @@
 --[[
 	Krowi's World Map Buttons License
-		Copyright ©2020-2022 The contents of this library, excluding third-party resources, are
+		Copyright ©2020 The contents of this library, excluding third-party resources, are
 		copyrighted to their authors with all rights reserved.
 
 		This library is free to use and the authors hereby grants you the following rights:
@@ -18,35 +18,35 @@
 		the copyright holders.
 ]]
 
-local lib = LibStub:NewLibrary('Krowi_WorldMapButtons-1.4', 2);
+local lib, oldminor = LibStub:NewLibrary('Krowi_WorldMapButtons-1.4', 7);
 
 if not lib then
 	return;
 end
 
-local AddButton;
-local function Fix1_3_1Buttons()
-	local old = LibStub("Krowi_WorldMapButtons-1.3", true);
-	if old then
-		local children = { WorldMapFrame:GetChildren() };
-		for i, child in ipairs(children) do
-			local p, _, rp, x, y = child:GetPoint(1);
-			if x and y and x <= -68 and y == -2 and child:GetName() == nil then
-				AddButton(child);
-			end
-		end
-	end
+local version = (GetBuildInfo());
+local major = string.match(version, "(%d+)%.(%d+)%.(%d+)(%w?)");
+lib.IsClassic = major == "1";
+lib.IsTbcClassic = major == "2";
+lib.IsWrathClassic = major == "3";
+lib.HasNoOverlay = lib.IsClassic or lib.IsTbcClassic or lib.IsWrathClassic;
+lib.IsDragonflight = major == "10";
+lib.IsTheWarWithin = major == "11";
+lib.IsMainline = lib.IsDragonflight or lib.IsTheWarWithin;
 
-	Fix1_3_1Buttons = function() end;
+local AddButton;
+
+lib.XOffset, lib.YOffset = 4, -2;
+function lib:SetOffsets(xOffset, yOffset)
+	self.XOffset = xOffset or self.XOffset;
+	self.YOffset = yOffset or self.YOffset;
 end
 
 function lib.SetPoints()
-	Fix1_3_1Buttons();
-
-	local xOffset = 4;
+	local xOffset = lib.XOffset;
 	for _, button in next, lib.Buttons do
 		if button:IsShown() then
-			button:SetPoint("TOPRIGHT", button.relativeFrame, -xOffset, -2);
+			button:SetPoint("TOPRIGHT", button.relativeFrame, -xOffset, lib.YOffset);
 			xOffset = xOffset + 32;
 		end
 	end
@@ -59,36 +59,37 @@ local function HookDefaultButtons()
 	end
 
 	for _, f in next, WorldMapFrame.overlayFrames do
-        if WorldMapTrackingOptionsButtonMixin and f.OnLoad == WorldMapTrackingOptionsButtonMixin.OnLoad then
+		if WorldMapTrackingOptionsButtonMixin and f.OnLoad == WorldMapTrackingOptionsButtonMixin.OnLoad then
 			f.KrowiWorldMapButtonsIndex = #lib.Buttons;
 			tinsert(lib.Buttons, f);
-        end
-        if WorldMapTrackingPinButtonMixin and f.OnLoad == WorldMapTrackingPinButtonMixin.OnLoad then
+		end
+		if WorldMapTrackingPinButtonMixin and f.OnLoad == WorldMapTrackingPinButtonMixin.OnLoad then
 			f.KrowiWorldMapButtonsIndex = #lib.Buttons;
 			tinsert(lib.Buttons, f);
-        end
-    end
+		end
+		if WorldMapShowLegendButtonMixin and f.OnLoad == WorldMapShowLegendButtonMixin.OnLoad then
+			f.KrowiWorldMapButtonsIndex = #lib.Buttons;
+			tinsert(lib.Buttons, f);
+		end
+	end
 
 	lib.HookedDefaultButtons = true;
 end
 
 local function PatchWrathClassic()
-	if WorldMapFrame.RefreshOverlayFrames ~= nil then
-		return;
+	if lib.HasNoOverlay and WorldMapFrame.RefreshOverlayFrames == nil then
+		WorldMapFrame.RefreshOverlayFrames = function()
+		end
 	end
 
-	WorldMapFrame.RefreshOverlayFrames = function()
-	end
-	
-	lib.IsWrathClassic = true;
-	lib.PatchedWrathClassic = true;
+	PatchWrathClassic = function() end;
 end
 
 function AddButton(button)
-	local xOffset = 4 + lib.NumButtons * 32;
+	local xOffset = 4 + #lib.Buttons * 32;
 	button:SetPoint("TOPRIGHT", WorldMapFrame:GetCanvasContainer(), "TOPRIGHT", -xOffset, -2);
 	button.relativeFrame = WorldMapFrame:GetCanvasContainer();
-	hooksecurefunc(WorldMapFrame, lib.IsWrathClassic and "OnMapChanged" or "RefreshOverlayFrames", function()
+	hooksecurefunc(WorldMapFrame, lib.HasNoOverlay and "OnMapChanged" or "RefreshOverlayFrames", function()
 		button:Refresh();
 		lib.SetPoints();
 	end);
@@ -99,23 +100,48 @@ function AddButton(button)
 end
 
 function lib:Add(templateName, templateType)
-	if lib.Buttons == nil then
-		lib.Buttons = lib.buttons or {}; -- 'Krowi_WorldMapButtons-1.4', 1 compatibility
-		if NumKrowi_WorldMapButtons then
-			NumKrowi_WorldMapButtons = NumKrowi_WorldMapButtons - 1; -- 'Krowi_WorldMapButtons-1.4', 1 compatibility
-		end
-		lib.NumButtons = NumKrowi_WorldMapButtons or 0; -- 'Krowi_WorldMapButtons-1.4', 1 compatibility
+	if self.Buttons == nil then
+		self.Buttons = {};
 	end
 
-	if not lib.HookedDefaultButtons then
+	if not self.HookedDefaultButtons then
 		HookDefaultButtons();
 	end
 
-	if not lib.PatchedWrathClassic then
-		PatchWrathClassic();
+	PatchWrathClassic();
+
+	local button = CreateFrame(templateType, "Krowi_WorldMapButtons" .. (#self.Buttons + 1), lib.HasNoOverlay and WorldMapFrame.ScrollContainer or WorldMapFrame, templateName);
+
+	if lib.HasNoOverlay then
+		button:SetFrameStrata("TOOLTIP");
 	end
 
-	lib.NumButtons = lib.NumButtons + 1;
-	local button = CreateFrame(templateType, "Krowi_WorldMapButtons" .. lib.NumButtons, WorldMapFrame, templateName);
 	return AddButton(button);
+end
+
+-- handle upgrades
+
+if oldminor and oldminor == 1 then
+	lib.Buttons = lib.buttons;
+end
+
+if oldminor and oldminor == 3 then
+	if lib.HasNoOverlay then
+		for _, button in next, lib.Buttons do
+			button:SetParent(WorldMapFrame.ScrollContainer);
+			button:SetFrameStrata("TOOLTIP");
+		end
+	end
+end
+
+if oldminor and oldminor < 7 then
+	if lib.HookedDefaultButtons and WorldMapFrame.overlayFrames and WorldMapShowLegendButtonMixin then
+		-- Add the Legend button to the hooked set
+		for _, f in next, WorldMapFrame.overlayFrames do
+			if f.OnLoad == WorldMapShowLegendButtonMixin.OnLoad then
+				f.KrowiWorldMapButtonsIndex = #lib.Buttons;
+				tinsert(lib.Buttons, f);
+			end
+		end
+	end
 end

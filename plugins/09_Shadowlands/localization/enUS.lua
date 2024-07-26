@@ -1117,3 +1117,10 @@ L['options_icons_mawsworn_supply_cache'] = 'Mawsworn Supply Caches'
 L['options_icons_mawsworn_supply_cache_desc'] = 'Display possible locations for {object:Mawsworn Supply Caches}.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Coreless automa locations for the {achievement:15542} achievement.'
+
+L['ponderers_portal_label'] = 'Ponderer\'s Portal'
+L['ponderers_portal_note'] = [[The {item:190196} can be found with the help of the {item:190177}, which can be looted from the {item:187780}, the Paragon cache for the {faction:The Enlightened} reputation.
+
+{note:The portal can be looted by any player once the zone-wide emote is seen, not just those who opened the portal.}
+
+To open the portal, six players will need to sit on top of the hexagon pillars surrounding the pool of water under the {location:Forge of Afterlives} in the center of {location:Zereth Mortis} and use the {item:190177}. There needs to be one player at each pillar.]]

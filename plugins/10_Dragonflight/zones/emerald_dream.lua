@@ -16,6 +16,8 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
 
+local WarSupply = ns.node.WarSupply
+
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
@@ -1240,10 +1242,43 @@ map.nodes[70002700] = DruidGlyph({
         DG.Flight.SlumberingSomnowl:Note('{spell:2637}, {spell:426183}'),
         Spacer(),
         Section('{spell:276012}'),
-        DG.Aquatic.PrismaticWhiskerfish:Note('{spell:51294}, '..L['amirdrassil'])
+        DG.Aquatic.PrismaticWhiskerfish:Note('{spell:51294}, ' .. L['amirdrassil'])
         -- LuaFormatter on
     }
 }) -- Druid Glyph List
+
+local RareKill = Class('RareKill', ns.reward.Reward)
+
+function RareKill:IsEnabled()
+    local completed = C_QuestLog.IsQuestFlaggedCompleted(self.nQuest)
+    return not completed
+end
+
+function RareKill:GetText() return ns.RenderLinks('{npc:' .. self.id .. '}') end
+
+function RareKill:IsObtained()
+    return C_QuestLog.IsQuestFlaggedCompleted(self.kQuest)
+end
+
+function RareKill:GetStatus()
+    local Green = ns.status.Green
+    local Red = ns.status.Red
+    return self:IsObtained() and Green(L['completed']) or Red(L['incomplete'])
+end
+
+map.nodes[70003000] = DruidGlyph({
+    label = L['druid_glyphs_label'],
+    sublabel = L['druid_glyphs_sublabel'],
+    note = L['druid_glyphs_note'] .. '\n\n' .. L['druid_glyphs_checklist_note'],
+    rewards = {
+        RareKill({id = 210046, nQuest = 78503, kQuest = 78211}), -- Keen-eyed Cian
+        RareKill({id = 210051, nQuest = 78513, kQuest = 78213}), -- Matriarch Keevah
+        RareKill({id = 210070, nQuest = 78481, kQuest = 77940}), -- Mosa Umbramane
+        RareKill({id = 210161, nQuest = 78511, kQuest = 77890}), -- Ristar, the Rabid
+        RareKill({id = 209902, nQuest = 78524, kQuest = 77994}), -- Talthonei Ashwisper
+        RareKill({id = 210045, nQuest = 78517, kQuest = 78210}) -- Moragh the Slothful
+    }
+}) -- Druid Glyph Checklsit
 
 map.nodes[60341694] = DruidGlyph({
     id = 212903,
@@ -1566,6 +1601,17 @@ map.nodes[63457357] = Somnut()
 map.nodes[65985217] = Somnut() -- On a Branch/Root
 map.nodes[66085014] = Somnut()
 map.nodes[66246327] = Somnut()
+
+-------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[32402360] = WarSupply({fgroup = 'supply_emerald_dream'})
+map.nodes[37705440] = WarSupply({fgroup = 'supply_emerald_dream'})
+map.nodes[39002520] = WarSupply({fgroup = 'supply_emerald_dream'})
+map.nodes[47202180] = WarSupply({fgroup = 'supply_emerald_dream'})
+map.nodes[52703340] = WarSupply({fgroup = 'supply_emerald_dream'})
+map.nodes[62206172] = WarSupply({fgroup = 'supply_emerald_dream'})
 
 -------------------------------------------------------------------------------
 ---------------------------- EMERALD DREAM SAFARI -----------------------------

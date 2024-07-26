@@ -1092,3 +1092,6 @@ L['options_icons_mawsworn_supply_cache'] = '淵誓補給箱'
 L['options_icons_mawsworn_supply_cache_desc'] = '顯示淵誓補給箱可能的位置'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = '顯示 {achievement:15542} 成就所需無核自主機的位置.'
+
+L['ponderers_portal_label'] = nil
+L['ponderers_portal_note'] = nil

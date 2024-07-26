@@ -61,6 +61,8 @@ L['options_icons_tuskarr_tacklebox_desc'] = 'Afficher les emplacements possibles
 L['squirrels_note'] = 'Vous devez utiliser l\'émote /amour sur les bestioles, pas sur les familiers de combat.'
 L['options_icons_squirrels'] = '{achievement:16729}'
 L['options_icons_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:16729}.'
+L['options_icons_zaralek_squirrels'] = '{achievement:18361}'
+L['options_icons_zaralek_squirrels_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:18361}.'
 
 L['hnj_sublabel'] = 'Nécessite une Grande chasse Shikaar à proximité'
 L['hnj_western_azure_span_hunt'] = 'Au sommet de l\'arbre mort.'
@@ -145,6 +147,10 @@ L['frostbound_chest'] = 'Coffre lié par le givre'
 L['options_icons_frostbound_chest'] = 'Coffre lié par le givre'
 L['options_icons_frostbound_chest_desc'] = 'Afficher les emplacements possibles des {object:Coffres liés par le givre}.'
 
+L['war_supply_chest_note'] = 'Une {npc:135181} survolera la zone toutes les 45 minutes et déposera une {npc:135238} à l\'un de ces emplacements potentiels.'
+L['options_icons_war_supplies_desc'] = 'Afficher les emplacements de chute des {npc:135238}.'
+L['options_icons_war_supplies'] = '{npc:135238}'
+
 L['fyrakk_assault_label'] = 'Assaut de Fyrakka'
 L['fyrakk_secured_shipment'] = 'Cargaison sécurisée'
 
@@ -177,6 +183,20 @@ L['tuskarr_pepe_label'] = 'Pépé le Rohart'
 L['tuskarr_pepe_note'] = 'Perché à droite du bâtiment près de {npc:196544} et {npc:187680}.'
 
 L['end_of_august'] = '{note:Disponible uniquement jusqu\'à fin août.}'
+
+L['rich_soil_label'] = 'Sol riche'
+L['rich_soil_note'] = 'Semez des germes sur les parcelles de {object:Sols riches} dans les {location:Îles aux Dragons} pour obtenir des récompenses aléatoires.\n\n{item:200506} - Faites pousser des herbes ordinaires aléatoires provenant des {location:Îles aux Dragons}.\n\n{item:200508} - Faites pousser des Essences agitées aléatoires.\n\n{item:200507} - Faites pousser des herbes décomposées aléatoires.\n\n{item:200509} - Fait apparaître une {npc:198571} donnant en butin diverses herbes et essences aléatoires.'
+L['options_icons_rich_soil'] = 'Sol riche'
+L['options_icons_rich_soil_desc'] = 'Afficher les emplacements des {object:Sols riches}.'
+
+L['information_stuffed_clue'] = 'Indice riche en informations'
+L['clued_in_note'] = 'Les {npc:210079} apparaissent lors de l\'événement {note:La grande fouille} et lors des 3 expéditions {wq:Recherche : ...}.'
+L['options_icons_clued_in'] = '{achievement:19787}'
+L['options_icons_clued_in_desc'] = 'Afficher les emplacements des {npc:210079} pour le haut-fait {achievement:19787}.'
+
+L['goggle_wobble_note'] = '{emote:/danser} avec {npc:207763} pendant la suite de quêtes d\'introduction ou lors des 3 expéditions {wq:Bidulodivination : ...} en portant les {item:202247}.'
+L['options_icons_goggle_wobble'] = '{achievement:19791}'
+L['options_icons_goggle_wobble_desc'] = 'Afficher les emplacements de {npc:207763} pour le haut-fait {achievement:19791}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -294,6 +314,16 @@ L['naszuro_azure_archives'] = 'Sur le flanc de la montagne, sur un petit rocher.
 L['naszuro_hudsons_rock'] = 'Au sommet de la petite colline rocheuse.'
 
 L['ferry_to_iskaara'] = 'Bateau pour Iskaara'
+
+L['options_icons_vegetarian_diet'] = '{achievement:16762}'
+L['options_icons_vegetarian_diet_desc'] = 'Afficher les emplacements des {object:Réserves de viande} pour le haut-fait {achievement:16762}.'
+
+L['meat_storage_label'] = 'Réserve de viande'
+L['meat_storage_note'] = 'Après avoir libéré les 12 {npc:186766} des {object:Réserves de viande} au {location:Creux des Fougerobes}, vous recevrez un courrier de {npc:196267} contenant le jouet {item:200631}.'
+
+L['meat_storage_location_a'] = 'Sur la plage, au milieu des {npc:96239s}.'
+L['meat_storage_location_b'] = 'Près d\'une grotte derrière {npc:187192}.'
+L['meat_storage_location_c'] = 'Dans une petite grotte derrière la {npc:197130} et le {npc:186226}.'
 
 -------------------------------------------------------------------------------
 ------------------ FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
@@ -427,6 +457,12 @@ L['trader_hagarth_note'] = 'Échangez vos {item:190456} contre des recettes de B
 
 L['naszuro_caldera_of_the_menders'] = 'Au sommet de la tour.'
 
+L['sun_bleached_vase'] = 'Vase blanchi par le soleil'
+L['untranslated_tome'] = 'Tome non traduit'
+L['untranslated_tome_note'] = 'Dans le bâtiment dont l\'entrée se trouve sous le pont.'
+L['mysterious_boot'] = 'Botte mystérieuse'
+L['mysterious_boot_note'] = 'A l\'étage supérieur.'
+
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
 -------------------------------------------------------------------------------
@@ -534,6 +570,12 @@ L['bloodgullet_note'] = 'Obtenez le buff {spell:369277} (1 heure) dans une tente
 L['naszuro_windsong_rise'] = 'Au sommet du pilier de pierre.'
 L['naszuro_emerald_gardens'] = 'Sur l\'herbe à côté de la cascade.'
 
+L['prismatic_leaper_school_label'] = 'Banc de bondisseurs prismatiques'
+L['prismatic_leaper_school_note'] = 'Parlez avec {npc:195935} à {location:Iskaara} pour effectuer vos améliorations.\n\nPêchez les objets suivants dans les {object:Bancs de bondisseurs prismatiques} aux {location:Plaines d’Ohn’ahra}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
+
+L['aylaag_spear'] = 'Lance aylaag'
+L['dedication_plaquard'] = 'Affiche de consécration'
+
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
 -------------------------------------------------------------------------------
@@ -583,7 +625,17 @@ L['new_perspective_note'] = 'Prenez une photo du panorama avec l\'Appareil P.R.O
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Afficher les emplacements des panoramas pour le haut-fait {achievement:16634}.'
 
+L['fringe_benefits_note'] = 'Terminez 8 des quêtes journalières pour obtenir ce haut-fait.'
+L['options_icons_fringe_benefits'] = '{achievement:19507}'
+L['options_icons_fringe_benefits_desc'] = 'Afficher l\'emplacement où les quêtes quotidiennes pour le haut-fait {achievement:19507} peuvent être acceptées.'
+
+L['little_scales_daycare_note'] = 'Vous devez réaliser une suite de quêtes sur plusieurs jours, en commençant par {quest:72664} donnée par le {npc:197478}, pour obtenir ce haut-fait et cette mascotte.'
+L['options_icons_whelp'] = '{achievement:18384}'
+L['options_icons_whelp_desc'] = 'Afficher l\'emplacement où les quêtes quotidiennes pour le haut-fait {achievement:18384} peuvent être acceptées.'
+
 L['ruby_feast_gourmand'] = 'Chaque jour, un chef invité au hasard sert des plats et des boissons variés.'
+L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
+L['options_icons_ruby_feast_gourmand_desc'] = 'Afficher l\'emplacement où les quêtes journalières pour le haut-fait {achievement:16556} peuvent être acceptées.'
 
 L['sorotis_note'] = 'Échangez vos {item:199906} pour obtenir de la réputation avec le {faction:2510}.'
 L['lillian_brightmoon_note'] = 'Echangez vos {item:201412} pour obtenir de la réputation avec l\'{faction:2507}.'
@@ -613,7 +665,6 @@ Un petit slime nommé {npc:198590} apparaîtra et s'enfuira vers une branche sit
 Revenez voir {npc:198062}, assis sur un banc, et rendez la quête pour obtenir votre {item:200872}.
 ]]
 
-L['little_scales_daycare_note'] = 'Vous devez réaliser une suite de quêtes sur plusieurs jours, en commençant par {quest:72664} donnée par le {npc:197478}, pour obtenir ce haut-fait et cette mascotte.'
 L['naszuro_veiled_ossuary'] = 'A côté du petit sanctuaire.'
 L['naszuro_algethar_academy'] = 'Sur le rebord au sommet de la tour.'
 L['naszuro_vault_of_the_incarnates'] = 'Au pied de la statue.'
@@ -624,6 +675,13 @@ L['revival_catalyst_label'] = 'Catalyseur de Renouveau'
 L['revival_catalyst_note'] = 'Transforme des pièces d\'armures ne faisant pas partie d\'un ensemble en une nouvelle pièce d’ensemble du même niveau.\n\nSeason 3:\nAutomatically receive 1 charge every 2 weeks, accumulating up to a cap of 8.\n{currency:2796}: %d/%d'
 
 L['provisioner_aristta_note'] = 'Échangez vos {currency:2657} contre des objets de transmogrification et une monture.'
+
+L['investigators_pocketwatch_note_a'] = '1. Empruntez le {item:208449} à {npc:204990} ({dot:Green}) située l\'étage de l\'{location:Auberge de Tout-Temps} à la {location:Marges des Éons}.\n\n{note:Vous devez avoir terminé sa suite de quêtes au préalable.}'
+L['investigators_pocketwatch_note_b'] = '2. Utilisez le {item:208449} près de {npc:203769} ({dot:Blue}) au rez-de-chaussée de l\'{location:Auberge de Tout-Temps} à la {location:Marges des Éons} et achetez un {item:208448} à {npc:207463}.\n\n{note:l\'{item:208448} a une durée de 30 secondes. Faites vite !}'
+L['investigators_pocketwatch_note_c'] = '3. Rendez-vous vite à la cascade et buvez l\'{item:208448}. Interagissez avec l\'{object:Horloge trempée de temps} rendue visible pour faire apparaître l\'{npc:201664}.'
+
+L['ominous_portal_label'] = 'Portail inquiétant'
+L['ominous_portal_note'] = 'Toutes les 30 minutes, un {object:Portail inquiétant} apparaîtra.\n\n5 minutes plus tard, {npc:214984} fera apparaître plusieurs boss. Battez le {npc:215141}, {npc:215147}, et {npc:215146} pour obtenir des récompenses.\n\n{note:Il n\'y a pas de limite journalière pour le butin.}'
 
 -------------------------------------------------------------------------------
 ------------------------------ THE WAKING SHORE -------------------------------
@@ -866,6 +924,11 @@ L['zaralek_event_inactive'] = ns.color.Orange('Cet Événement bonus n\'apparaî
 L['options_icons_zone_event'] = 'Événements bonus'
 L['options_icons_zone_event_desc'] = 'Afficher les emplacements des événements bonus.'
 
+L['djaradin_scroll'] = 'Parchemin djaradin'
+L['forgotten_incense'] = 'Encens oublié'
+L['forgotten_incense_note'] = '{note:Difficile à atteindre en raison des bordures de la quête.}'
+L['historied_heirloom'] = 'Objet à l\'histoire riche'
+
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
 -------------------------------------------------------------------------------
@@ -945,6 +1008,7 @@ L['moonkin_hatchling_note'] = 'Nécessite que l\'expédition {wq:Griffes d’inq
 L['druid_glyphs_label'] = 'Glyphes de druide'
 L['druid_glyphs_sublabel'] = '{note:Ceci n\'est PAS un glyphe de druide. Il s\'agit simplement d\'une liste !}'
 L['druid_glyphs_note'] = 'Récupérez des {note:Glyphes de druide} grâce à diverses activités au sein du {location:Rêve d\'Émeraude}.'
+L['druid_glyphs_checklist_note'] = 'Retrouvez ici les rares du {location:Rêve d\'Émeraude} et l\'information indiquant si ils ont été tués pour la journée. Seuls les {npc:PNJs} dont le butin est nécessaire apparaîtront dans la liste.\n\nLes monstres tuables quotidiennement seront marqués comme ' .. ns.status.Green('Complété') .. '.'
 
 L['pollenfused_bristlebruin_fur_sample_note'] = 'Récupérez l\'{object:Échantillon de fourrure d\'hoursute amalgamée de pollen} trouvé au pied de l\'arbre à {location:La Calcination}.'
 

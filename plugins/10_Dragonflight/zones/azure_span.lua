@@ -28,11 +28,13 @@ local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
 local RareElite = ns.node.RareElite
+local RichSoil = ns.node.RichSoil
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
+local WarSupply = ns.node.WarSupply
 
 local Achievement = ns.reward.Achievement
 local Currency = ns.reward.Currency
@@ -56,6 +58,7 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2024, settings = true})
+local tra = Map({id = 2262, settings = false}) -- Traitor's Rest
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -1101,7 +1104,7 @@ local LeyLine = Class('LeyLine', Collectible, {
     icon = 1033908,
     location = L['in_small_cave'],
     note = L['leyline_note'],
-    rlabel = ns.status.LightBlue('+20 ' .. select(1, GetFactionInfoByID(2510))), -- Valdrakken Accord
+    rlabel = ns.tooltip.ReputationGain(20, 2510), -- Valdrakken Accord
     group = ns.groups.LEYLINE
 })
 
@@ -1409,6 +1412,20 @@ map.nodes[67101270] = IcemawStorageCache()
 map.nodes[48406380] = ns.node.FrostboundChest()
 map.nodes[49706390] = ns.node.FrostboundChest()
 map.nodes[51306080] = ns.node.FrostboundChest()
+
+-------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[21403520] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[24505010] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[26202970] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[38303290] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[44904680] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[48505360] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[67701640] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[69705400] = WarSupply({fgroup = 'supply_azure_span'})
+map.nodes[71402890] = WarSupply({fgroup = 'supply_azure_span'})
 
 -------------------------------------------------------------------------------
 --------------------- TO ALL THE SQUIRRELS HIDDEN TIL NOW ---------------------
@@ -1802,6 +1819,67 @@ map.nodes[77403113] = AncientStone({
 }) -- Valkros Maintenance
 
 -------------------------------------------------------------------------------
+---------------------------------- RICH SOIL ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[41004800] = RichSoil()
+map.nodes[40005900] = RichSoil()
+map.nodes[38604960] = RichSoil()
+map.nodes[41275042] = RichSoil()
+map.nodes[40806116] = RichSoil()
+map.nodes[46685564] = RichSoil()
+map.nodes[41484059] = RichSoil()
+map.nodes[41144865] = RichSoil()
+map.nodes[44035954] = RichSoil()
+
+-------------------------------------------------------------------------------
+----------------------------- THE VEGETARIAN DIET -----------------------------
+-------------------------------------------------------------------------------
+
+local bhh = ns.maps[2096] or Map({id = 2096, settings = false})
+
+local MeatStorage = Class('MeatStorage', Collectible, {
+    label = L['meat_storage_label'],
+    icon = 4635249,
+    note = L['meat_storage_note'],
+    group = ns.groups.VEGETARIAN_DIET,
+    rewards = {
+        Achievement({id = 16762}), -- The Vegetarian Diet
+        Toy({item = 200631}) -- Happy Tuskarr Palooza
+    }
+}) -- Captive Tuskarr
+
+bhh.nodes[11883354] = MeatStorage({location = L['meat_storage_location_a']})
+bhh.nodes[19304078] = MeatStorage({location = L['meat_storage_location_a']})
+bhh.nodes[22172995] = MeatStorage({location = L['meat_storage_location_a']})
+bhh.nodes[29223300] = MeatStorage({location = L['meat_storage_location_a']})
+bhh.nodes[29102697] = MeatStorage({location = L['meat_storage_location_a']})
+bhh.nodes[25041603] = MeatStorage({location = L['meat_storage_location_a']})
+bhh.nodes[27194311] = MeatStorage({location = L['meat_storage_location_a']})
+
+bhh.nodes[55325915] = MeatStorage({
+    location = L['in_small_cave'],
+    pois = {POI({53206146})} -- Entrance
+})
+
+bhh.nodes[56325949] = MeatStorage({
+    location = L['in_small_cave'],
+    pois = {POI({53206146})} -- Entrance
+})
+
+bhh.nodes[56776032] = MeatStorage({
+    location = L['in_small_cave'],
+    pois = {POI({53206146})} -- Entrance
+})
+
+bhh.nodes[55565794] = MeatStorage({
+    location = L['meat_storage_location_b'],
+    pois = {POI({57885466})} -- Entrance
+})
+
+bhh.nodes[65934616] = MeatStorage({location = L['meat_storage_location_c']})
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
@@ -2033,8 +2111,8 @@ local Kazzi = Class('Kazzi', Vendor, {
 }) -- Kazzi <Winterpelt Furbolg Quartermaster>
 
 function Kazzi.getters:note()
-    local itemOne = GetItemCount(202017, true) -- Liberated Furbolg Artifact
-    local itemTwo = GetItemCount(202018, true) -- Intact Scribe Stick
+    local itemOne = C_Item.GetItemCount(202017, true) -- Liberated Furbolg Artifact
+    local itemTwo = C_Item.GetItemCount(202018, true) -- Intact Scribe Stick
     local note = L['kazzi_note_start'] .. '\n\n'
     note = note .. format(L['kazzi_note_item'], itemOne, '202017') .. '\n'
     note = note .. format(L['kazzi_note_item'], itemTwo, '202018')
@@ -2208,16 +2286,14 @@ local Eadweard = Class('Eadweard', Collectible, {
                 65421 -- Just One More Thing
             }
         }), -- The Archives Called, You Answered
+        Mount({item = 212645, id = 2038}), -- Clayscale Hornstrider
         Transmog({item = 212692, slot = L['cosmetic']}), -- Excavator's Dusky Fedora
         Transmog({item = 212638, slot = L['cosmetic']}), -- Excavator's Work Shirt
         Transmog({item = 212793, slot = L['cosmetic']}), -- Excavator's Pack of Findings
         Transmog({item = 212640, slot = L['cosmetic']}), -- Excavator's Trusty Satchel
         Transmog({item = 212641, slot = L['cosmetic']}), -- Excavator's Rugged Pants
         Transmog({item = 212639, slot = L['cosmetic']}), -- Excavator's Glovelettes
-        Transmog({item = 212642, slot = L['cosmetic']}), -- Excavator's Boots
-        Spacer(), --
-        Section('{item:213177}'), --
-        Mount({item = 212645, id = 2038}) -- Clayscale Hornstrider
+        Transmog({item = 212642, slot = L['cosmetic']}) -- Excavator's Boots
     }
 }) -- Eadweard Dalyngrigge
 
@@ -2227,6 +2303,6 @@ function Eadweard.getters:rlabel()
     return color(L['weekly'])
 end
 
-map.nodes[26964646] = Eadweard()
+tra.nodes[55335134] = Eadweard({parent = map.id})
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

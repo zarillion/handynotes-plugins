@@ -1117,3 +1117,10 @@ L['options_icons_mawsworn_supply_cache'] = 'Cofres de Suministros Jurafauces'
 L['options_icons_mawsworn_supply_cache_desc'] = 'Muestra dónde están los sitios posibles para los {object:Cofre de Suministros Jurafauces}.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Muestra dónde están los Automas salvajes que controlar para el logro {achievement:15542}.'
+
+L['ponderers_portal_label'] = 'Portal del Pensador'
+L['ponderers_portal_note'] = [[La {item:190196} se puede encontrar con la ayuda de la {item:190177}, que puede ser despojada de {item:187780}, el alijo Paragon de la reputación {faction:Los Iluminados}.
+
+{note:Cualquier jugador puede despojar el portal una vez que se ve el texto de emoción en toda la zona, no sólo aquellos que abrieron el portal.}
+
+Para abrir el portal, seis jugadores tendrán que sentarse encima de los pilares hexagonales que rodean el estanque de agua bajo la {location:Forja de la Pestilencia} en el centro de {location:Zereth Mortis} y usar la {item:190177}. Es necesario que haya un jugador en cada pilar.]]
