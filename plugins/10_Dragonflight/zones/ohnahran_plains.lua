@@ -2103,7 +2103,7 @@ local Khadin = Class('Khadin', NPC, {
 }) -- Khadin
 
 function Khadin.getters:note()
-    local n = GetItemCount(191784, true, nil, true)
+    local n = C_Item.GetItemCount(191784, true, nil, true)
     local note = L['khadin_note'] .. '\n' .. format(_G.PROFESSIONS_SPECIALIZATION_CURRENCY_TOTAL, n)
     local DFprof = {
         [171] = {variant = 2823, spell = 2259, max = 510, currency = 2024}, -- Alchemy
