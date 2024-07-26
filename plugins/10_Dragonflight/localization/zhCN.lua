@@ -671,7 +671,7 @@ L['naszuro_thaldraszus_peak'] = '第二高的山峰上。'
 L['naszuro_temporal_conflux'] = '在龙雕像的头上。'
 
 L['revival_catalyst_label'] = '复苏化生'
-L['revival_catalyst_note'] = '将非套装装备转换为同等物品等级和装备槽套装装备。\n\n第三赛季：\n每2周自动获得1层充能，最多累积8层。\n{currency:2796}: %d/%d'
+L['revival_catalyst_note'] = '将非套装装备转换为同等物品等级和装备槽套装装备。\n\n{currency:2912}: %d/%d'
 
 L['provisioner_aristta_note'] = '用 {currency:2657} 兑换幻化和坐骑。'
 

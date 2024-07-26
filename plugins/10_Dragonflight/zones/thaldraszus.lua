@@ -1919,11 +1919,11 @@ map.nodes[54648589] = Collectible({
 
 local Catalyst = Class('Catalyst', ns.node.Node, {
     label = L['revival_catalyst_label'],
-    icon = 1394953
+    icon = 348536 -- Season 4
 }) -- Revival Catalyst
 
 function Catalyst.getters:note()
-    local currencyInfo = C_CurrencyInfo.GetCurrencyInfo(2796)
+    local currencyInfo = C_CurrencyInfo.GetCurrencyInfo(2912) -- Season 4
     local q = currencyInfo.quantity
     local m = currencyInfo.maxQuantity
     local note = format(L['revival_catalyst_note'], q, m)

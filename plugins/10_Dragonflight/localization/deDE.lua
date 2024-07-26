@@ -673,7 +673,7 @@ L['naszuro_thaldraszus_peak'] = 'Auf einem Nebengipfel des Berges.'
 L['naszuro_temporal_conflux'] = 'Auf dem Kopf der Drachenstatue.'
 
 L['revival_catalyst_label'] = 'Belebungskatalysator'
-L['revival_catalyst_note'] = 'Verwandelt einen Gegenstand in einen Setgegenstand.\n\nSeason 3:\nAutomatically receive 1 charge every 2 weeks, accumulating up to a cap of 8.\n{currency:2796}: %d/%d'
+L['revival_catalyst_note'] = 'Verwandelt einen Gegenstand in einen Setgegenstand.\n\n{currency:2912}: %d/%d'
 
 L['provisioner_aristta_note'] = 'Tausche {currency:2657} gegen ein Reittier und Ausrüstungsvorlagen ein.'
 

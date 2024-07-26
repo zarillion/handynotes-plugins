@@ -671,7 +671,7 @@ L['naszuro_thaldraszus_peak'] = 'En un pico secundario de la montaña.'
 L['naszuro_temporal_conflux'] = 'En la cabeza de la estatua del dragón.'
 
 L['revival_catalyst_label'] = 'Catalizador de Reanimación'
-L['revival_catalyst_note'] = 'Convierte equipo que no sea de tier en un objeto del tier actual y de la ranura de equipo equivalente.\n\nTemporada 3:\nRecibe automáticamente 1 carga cada 2 semanas hasta un máximo de 8 acumulaciones.\n{currency:2796}: %d/%d'
+L['revival_catalyst_note'] = 'Convierte equipo que no sea de tier en un objeto del tier actual y de la ranura de equipo equivalente.\n\n{currency:2912}: %d/%d'
 
 L['provisioner_aristta_note'] = 'Intercambia {currency:2657} por transfiguraciones y una montura.'
 
