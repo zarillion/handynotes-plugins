@@ -2256,7 +2256,7 @@ map.nodes[30287005] = Collectible({
     requires = ns.requirement.Reputation(2510, 5, true), -- Valdrakken Accord
     rewards = SIEGE_ON_DRAGONBANE_KEEP_REWARDS,
     IsEnabled = function(self)
-        local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
+        local activePOIs = C_AreaPoiInfo.GetEventsForMap(self.mapID)
         local possiblePOIs = self.areaPOIs
         for a = 1, #activePOIs do
             for p = 1, #possiblePOIs do
@@ -2269,7 +2269,7 @@ map.nodes[30287005] = Collectible({
     end
 }) -- Siege on Dragonbane Keep
 
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+hooksecurefunc(AreaPOIEventPinMixin, 'TryShowTooltip', function(self)
     if self and self.areaPoiID then
         local mapID = self:GetMap().mapID
         local group = ns.groups.DRAGONBANE_SIEGE

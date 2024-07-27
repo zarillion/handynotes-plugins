@@ -1897,7 +1897,7 @@ map.nodes[24005600] = ElusiveCreature({
 
 map.nodes[81891730] = GrandHunt({
     mapID = map.id,
-    areaPOI = 7098,
+    areaPOI = 7053,
     criteria = 55677
 }) -- Northern Ohn'ahran Plains Hunt
 
