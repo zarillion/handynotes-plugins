@@ -1261,6 +1261,7 @@ map.nodes[58925475] = TuskarrChest({note = L['in_water']})
 map.nodes[59006670] = TuskarrChest()
 map.nodes[59235652] = TuskarrChest()
 map.nodes[60505900] = TuskarrChest()
+map.nodes[45815613] = TuskarrChest()
 
 -------------------------------------------------------------------------------
 ----------------------------- DECAY COVERED CHEST -----------------------------
@@ -1324,6 +1325,7 @@ map.nodes[35603410] = DecayCoveredChest()
 map.nodes[35904660] = DecayCoveredChest()
 map.nodes[58204140] = DecayCoveredChest()
 map.nodes[58504270] = DecayCoveredChest()
+map.nodes[57514132] = DecayCoveredChest()
 
 -------------------------------------------------------------------------------
 ---------------------------------- REED CHEST ---------------------------------

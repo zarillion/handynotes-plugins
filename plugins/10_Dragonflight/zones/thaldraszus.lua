@@ -1713,6 +1713,9 @@ map.nodes[61792619] = ns.node.RenewedMagmammoth()
 map.nodes[71007200] = RichSoil()
 map.nodes[49366061] = RichSoil()
 map.nodes[32406920] = RichSoil()
+map.nodes[46235962] = RichSoil()
+map.nodes[63238021] = RichSoil()
+map.nodes[34687230] = RichSoil()
 
 -------------------------------------------------------------------------------
 ----------------------------------- VENDORS -----------------------------------

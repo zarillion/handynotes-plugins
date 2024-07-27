@@ -397,6 +397,7 @@ local Talthonei = Class('Talthonei', Rare, {
 map.nodes[34775492] = Talthonei({sublabel = L['talthonei_ashwisper_wq_note']})
 map.nodes[35132264] = Talthonei()
 map.nodes[36922240] = Talthonei()
+map.nodes[59134750] = Talthonei()
 map.nodes[59204360] = Talthonei() -- wowhead
 map.nodes[61426741] = Talthonei()
 map.nodes[61604500] = Talthonei() -- wowhead
@@ -1608,6 +1609,7 @@ map.nodes[39002520] = WarSupply({fgroup = 'supply_emerald_dream'})
 map.nodes[47202180] = WarSupply({fgroup = 'supply_emerald_dream'})
 map.nodes[52703340] = WarSupply({fgroup = 'supply_emerald_dream'})
 map.nodes[62206172] = WarSupply({fgroup = 'supply_emerald_dream'})
+map.nodes[47984506] = WarSupply({fgroup = 'supply_emerald_dream'})
 
 -------------------------------------------------------------------------------
 ---------------------------- EMERALD DREAM SAFARI -----------------------------
@@ -2051,7 +2053,7 @@ map.nodes[58305820] = NPC({
     }
 }) -- Sul'raka
 
--------------------- DEAMON HUNTER WARGLAIVES: ALARA'SHINU --------------------
+--------------------- DEMON HUNTER WARGLAIVES: ALARA'SHINU --------------------
 
 local Alarashinu = Class('Alarashinu', Collectible, {
     icon = 5061798,

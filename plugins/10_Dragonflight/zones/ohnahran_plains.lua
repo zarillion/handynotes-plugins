@@ -2281,6 +2281,10 @@ map.nodes[62456000] = RichSoil()
 map.nodes[62805850] = RichSoil()
 map.nodes[65665315] = RichSoil()
 map.nodes[32925312] = RichSoil()
+map.nodes[42546868] = RichSoil()
+map.nodes[23126400] = RichSoil()
+map.nodes[79344177] = RichSoil()
+map.nodes[79103430] = RichSoil()
 
 -------------------------------------------------------------------------------
 
