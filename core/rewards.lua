@@ -651,7 +651,7 @@ end
 function Reputation:IsEnabled()
     if not Reward.IsEnabled(self) then return false end
     if self.quest then
-        return not C_QuestLog.IsQuestFlaggedCompleted(self.quest)
+        return not C_QuestLog.IsQuestFlaggedCompletedOnAccount(self.quest)
     end
     return true
 end
