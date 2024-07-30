@@ -634,6 +634,29 @@ function Transmog:GetStatus()
 end
 
 -------------------------------------------------------------------------------
+--------------------------------- REPUTATION ----------------------------------
+-------------------------------------------------------------------------------
+
+local Reputation = Class('Reputation', Reward,
+    {display_option = 'show_rep_rewards', type = L['rep']})
+
+function Reputation:GetText()
+    local text = ns.api.GetFactionInfoByID(self.id)
+    if self.gain then text = ('+%d %s'):format(self.gain, text) end
+    text = ns.color.LightBlue(text) .. ' (' .. self.type .. ')'
+
+    return text
+end
+
+function Reputation:IsEnabled()
+    if not Reward.IsEnabled(self) then return false end
+    if self.quest then
+        return not C_QuestLog.IsQuestFlaggedCompleted(self.quest)
+    end
+    return true
+end
+
+-------------------------------------------------------------------------------
 
 ns.reward = {
     Reward = Reward,
@@ -653,5 +676,6 @@ ns.reward = {
     Title = Title,
     Toy = Toy,
     Appearance = Appearance,
-    Transmog = Transmog
+    Transmog = Transmog,
+    Reputation = Reputation
 }

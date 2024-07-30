@@ -19,11 +19,10 @@ local Achievement = ns.reward.Achievement
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Reputation = ns.reward.Reputation
 
 local POI = ns.poi.POI
 local Path = ns.poi.Path
-
-local ReputationGain = ns.tooltip.ReputationGain
 
 -------------------------------------------------------------------------------
 
@@ -125,7 +124,11 @@ map.nodes[63152530] = Rare({
 map.nodes[66496197] = Rare({
     id = 216044,
     quest = 84075, -- 81706
-    rewards = {Achievement({id = 40840, criteria = 69663})},
+    rewards = {
+        Achievement({id = 40840, criteria = 69663}),
+        Reputation({id = 2601, gain = 999, quest = 80022}),
+        Reputation({id = 2601, gain = 666})
+    },
     pois = {
         Path({
             64406543, 63386508, 62406514, 61816617, 61426703, 61616794,
@@ -195,11 +198,13 @@ map.nodes[34694110] = Rare({
 cotl.nodes[67525826] = Rare({
     id = 216039,
     quest = 81701, -- 84070
-    parent = {map.id, cot.id}, -- ?
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
-    rewards = {Achievement({id = 40840, criteria = 69658})}
+    parent = {map.id, cot.id},
+    rewards = {
+        Achievement({id = 40840, criteria = 69658}),
+        Reputation({id = 2601, gain = 50}), -- The Weaver
+        Reputation({id = 2605, gain = 50}), -- The General
+        Reputation({id = 2607, gain = 50}) -- The Vizier
+    }
 }) -- Xishorr
 
 -------------------------------------------------------------------------------
@@ -248,12 +253,14 @@ map.nodes[12002000] = Treasure({ -- review
 }) -- Memory Cache
 
 cot.nodes[31642077] = Treasure({
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     quest = 82720,
     parent = map.id,
-    rewards = {Achievement({id = 40828, criteria = 69648})}
+    rewards = {
+        Achievement({id = 40828, criteria = 69648}),
+        Reputation({id = 2601, gain = 50}), -- The Weaver
+        Reputation({id = 2605, gain = 50}), -- The General
+        Reputation({id = 2607, gain = 50}) -- The Vizier
+    }
 }) -- Nerubian Offerings
 
 map.nodes[49554370] = Treasure({
@@ -299,10 +306,12 @@ map.nodes[78613320] = Treasure({
 
 map.nodes[34056102] = Treasure({
     label = L['concealed_contraband'],
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
-    quest = 82525
+    quest = 82525,
+    rewards = {
+        Reputation({id = 2601, gain = 50}), -- The Weaver
+        Reputation({id = 2605, gain = 50}), -- The General
+        Reputation({id = 2607, gain = 50}) -- The Vizier
+    }
 }) -- Concealed Contraband -- Web Cocoon
 
 -------------------------------------------------------------------------------
@@ -452,40 +461,50 @@ map.nodes[06001200] = ItsyBitsySpider({
 -------------------------------------------------------------------------------
 
 cot.nodes[77557018] = LoreObject({
-    rlabel = ReputationGain(85, 2601), -- The Weaver
-    -- ReputationGain(85, 2605), -- The General
-    -- ReputationGain(85, 2607), -- The Vizier
     parent = map.id,
-    rewards = {Achievement({id = 40762, criteria = 69385})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69385}),
+        Reputation({id = 2601, gain = 85}), -- The Weaver
+        Reputation({id = 2605, gain = 85}), -- The General
+        Reputation({id = 2607, gain = 85}) -- The Vizier
+    }
 }) -- Forgotten Shadecaster
 
 map.nodes[75443325] = LoreObject({
-    rlabel = ReputationGain(85, 2601), -- The Weaver
-    -- ReputationGain(85, 2605), -- The General
-    -- ReputationGain(85, 2607), -- The Vizier
-    rewards = {Achievement({id = 40762, criteria = 69387})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69387}),
+        Reputation({id = 2601, gain = 85}), -- The Weaver
+        Reputation({id = 2605, gain = 85}), -- The General
+        Reputation({id = 2607, gain = 85}) -- The Vizier
+    }
 }) -- Kah'teht
 
 map.nodes[54071889] = LoreObject({
-    rlabel = ReputationGain(85, 2601), -- The Weaver
-    -- ReputationGain(85, 2605), -- The General
-    -- ReputationGain(85, 2607), -- The Vizier
-    rewards = {Achievement({id = 40762, criteria = 69388})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69388}),
+        Reputation({id = 2601, gain = 85}), -- The Weaver
+        Reputation({id = 2605, gain = 85}), -- The General
+        Reputation({id = 2607, gain = 85}) -- The Vizier
+    }
 }) -- Mad Nerubian
 
 cot.nodes[08533058] = LoreObject({
-    rlabel = ReputationGain(85, 2601), -- The Weaver
-    -- ReputationGain(85, 2605), -- The General
-    -- ReputationGain(85, 2607), -- The Vizier
     parent = map.id,
-    rewards = {Achievement({id = 40762, criteria = 69386})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69386}),
+        Reputation({id = 2601, gain = 85}), -- The Weaver
+        Reputation({id = 2605, gain = 85}), -- The General
+        Reputation({id = 2607, gain = 85}) -- The Vizier
+    }
 }) -- Neglected Shadecaster
 
 map.nodes[71126233] = LoreObject({
-    rlabel = ReputationGain(85, 2601), -- The Weaver
-    -- ReputationGain(85, 2605), -- The General
-    -- ReputationGain(85, 2607), -- The Vizier
-    rewards = {Achievement({id = 40762, criteria = 69384})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69384}),
+        Reputation({id = 2601, gain = 85}), -- The Weaver
+        Reputation({id = 2605, gain = 85}), -- The General
+        Reputation({id = 2607, gain = 85}) -- The Vizier
+    }
 }) -- Weathered Shadecaster
 
 -------------------------------------------------------------------------------
