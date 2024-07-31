@@ -492,7 +492,7 @@ map.nodes[32333935] = Treasure({
     quest = 73410,
     note = L['seething_cache_treasure_note'],
     rewards = {
-        Achievement({id = 17786, criteria = 59221}), -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59220}), -- Treasures of Zaralek Cavern
         Mount({item = 192779, id = 1623}) -- Seething Slug
     },
     pois = {
