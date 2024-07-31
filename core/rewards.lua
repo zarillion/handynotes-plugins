@@ -524,7 +524,8 @@ end
 
 -- Ensemble, Arsenal, Illusion
 
-local Appearance = Class('Appearance', Item, {type = _G.APPEARANCE_LABEL})
+local Appearance = Class('Appearance', Item,
+{display_option = 'show_transmog_rewards', type = _G.APPEARANCE_LABEL})
 
 function Appearance:IsObtained()
     local KnownLineType = Enum.TooltipDataLineType.RestrictedSpellKnown
