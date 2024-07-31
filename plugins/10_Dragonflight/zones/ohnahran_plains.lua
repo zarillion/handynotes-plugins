@@ -2097,14 +2097,12 @@ map.nodes[82327320] = NPC({
     note = L['the_great_swog_note']
 }) -- The Great Swog
 
-local Khadin = Class('Khadin', NPC, {
-    id = 193110,
-    icon = 4643982
-}) -- Khadin
+local Khadin = Class('Khadin', NPC, {id = 193110, icon = 4643982}) -- Khadin
 
 function Khadin.getters:note()
     local n = C_Item.GetItemCount(191784, true, nil, true)
-    local note = L['khadin_note'] .. '\n' .. format(_G.PROFESSIONS_SPECIALIZATION_CURRENCY_TOTAL, n)
+    local note = L['khadin_note'] .. '\n' ..
+                     format(_G.PROFESSIONS_SPECIALIZATION_CURRENCY_TOTAL, n)
     local DFprof = {
         [171] = {variant = 2823, spell = 2259, max = 510, currency = 2024}, -- Alchemy
         [164] = {variant = 2822, spell = 2018, max = 800, currency = 2023}, -- Blacksmithing
@@ -2128,8 +2126,8 @@ function Khadin.getters:note()
         local need = DFprof[prof].max - spent - quantity
         local c = DFprof[prof].currency
         local s = DFprof[prof].spell
-        if need > 0
-        then note = note .. '\n\n' .. format(L['khadin_prof_note'], need, c, s)
+        if need > 0 then
+            note = note .. '\n\n' .. format(L['khadin_prof_note'], need, c, s)
         end
     end
     local prof1, prof2 = GetProfessions()
