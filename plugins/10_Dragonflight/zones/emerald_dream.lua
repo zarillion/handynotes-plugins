@@ -1920,6 +1920,7 @@ local Athainne = Class('Athainne', NPC, {
     icon = 960685,
     class = 'HUNTER',
     IsEnabled = function(self)
+        if self.class and self.class ~= ns.class then return false end
         local spawn = 'nighttime'
         local hour, _ = GetGameTime()
         if hour >= 5 and hour < 19 then spawn = 'daytime' end
