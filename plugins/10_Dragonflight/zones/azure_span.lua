@@ -59,6 +59,8 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 
 local map = Map({id = 2024, settings = true})
 local tra = Map({id = 2262, settings = false}) -- Traitor's Rest
+local bhh = Map({id = 2096, settings = false}) -- Brackenhide Hollow
+local bhd = Map({id = 2106, settings = false}) -- Brackenhide Hollow - Den of Decay
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -1836,8 +1838,6 @@ map.nodes[44035954] = RichSoil()
 ----------------------------- THE VEGETARIAN DIET -----------------------------
 -------------------------------------------------------------------------------
 
-local bhh = ns.maps[2096] or Map({id = 2096, settings = false})
-
 local MeatStorage = Class('MeatStorage', Collectible, {
     label = L['meat_storage_label'],
     icon = 4635249,
@@ -2177,11 +2177,8 @@ local AlterOfDecay = Class('AlterOfDecay', Node, {
     end
 }) -- The Altar of Decay
 
-local brackenhide = Map({id = 2096, settings = false}) -- Brackenhide Hollow - Brackenhide Hollow
-brackenhide.nodes[80224812] = AlterOfDecay()
-
-local denofdecay = Map({id = 2106, settings = false}) -- Brackenhide Hollow - Den of Decay
-denofdecay.nodes[63703852] = AlterOfDecay()
+bhh.nodes[80224812] = AlterOfDecay()
+bhd.nodes[63703852] = AlterOfDecay()
 
 map.nodes[38376074] = Node({
     label = L['azure_loom_label'],
