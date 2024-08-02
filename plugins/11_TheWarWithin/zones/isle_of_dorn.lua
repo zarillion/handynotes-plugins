@@ -37,7 +37,7 @@ local dor = Map({id = 2339, settings = true}) -- Dornogal
 
 map.nodes[23335817] = Rare({
     id = 219281,
-    quest = nil,
+    quest = 82196,
     note = L['alunira_note'],
     rewards = {
         Achievement({id = 40435, criteria = 68225}),
@@ -56,7 +56,7 @@ map.nodes[41077616] = Rare({ -- get path
 
 map.nodes[55762753] = Rare({
     id = 221128,
-    quest = nil,
+    quest = 81920,
     rewards = {Achievement({id = 40435, criteria = 68224})}
 }) -- Clawbreaker K'zithix
 
@@ -75,7 +75,7 @@ map.nodes[47946014] = Rare({
 
 map.nodes[25784503] = Rare({
     id = 219266,
-    quest = nil,
+    quest = 81907,
     rewards = {Achievement({id = 40435, criteria = 68218})}
 }) -- Escaped Cutthroat
 
@@ -89,25 +89,26 @@ map.nodes[63984054] = Rare({ -- get path
 
 map.nodes[53527998] = Rare({
     id = 219268,
-    quest = nil,
+    quest = 81899,
     rewards = {Achievement({id = 40435, criteria = 68217})}
 }) -- Gar'loc
 
 map.nodes[48212701] = Rare({
     id = 219270,
-    quest = nil,
+    quest = 81902,
     rewards = {Achievement({id = 40435, criteria = 68220})}
 }) -- Kronolith, Might of the Mountain
 
 map.nodes[73004009] = Rare({
     id = 220890,
-    quest = nil,
+    quest = 81921, -- 84039
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40435, criteria = 68231})}
 }) -- Matriarch Charfuria
 
-map.nodes[50876975] = Rare({ -- review
+map.nodes[50876975] = Rare({
     id = 219267,
-    quest = 81897, -- 84026 ?
+    quest = 81897, -- 84026
     rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40435, criteria = 68216})}
 }) -- Plaguehart
@@ -138,7 +139,7 @@ map.nodes[62776842] = Rare({
 
 map.nodes[74422804] = Rare({
     id = 219278,
-    quest = nil,
+    quest = 81903,
     rewards = {Achievement({id = 40435, criteria = 68221})}
 }) -- Shallowshell the Clacker
 
@@ -153,26 +154,29 @@ map.nodes[58776068] = Rare({
 
 map.nodes[69853850] = Rare({
     id = 220883,
-    quest = nil,
+    quest = 81922, -- 84038
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40435, criteria = 68230})}
 }) -- Sweetspark the Oozeful
 
 map.nodes[56891601] = Rare({
     id = 219269,
-    quest = nil,
+    quest = 81901,
     rewards = {Achievement({id = 40435, criteria = 68219})},
     pois = {Path({56891601, 57401625, 57761653})}
 }) -- Tempest Lord Incarnus
 
 map.nodes[72913794] = Rare({ -- get path
     id = 221126,
-    quest = nil,
-    rewards = {Achievement({id = 40435, criteria = 68229})}
+    quest = 81923, -- 84037
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
+    rewards = {Achievement({id = 40435, criteria = 68229})},
+    pois = {Path({73823883})}
 }) -- Tephratennae
 
 map.nodes[57122241] = Rare({
     id = 219271,
-    quest = nil,
+    quest = 81904,
     rewards = {Achievement({id = 40435, criteria = 68222})}
 }) -- Twice-Stinger the Wretched
 
@@ -386,7 +390,7 @@ dor.nodes[58283026] = TurtlesThanks({
 --     rewards = {Achievement({id = 40434, criteria = nil})}
 -- }) -- Earthen Coffer
 
-map.nodes[73693706] = Treasure({
+map.nodes[73693706] = Treasure({ -- 51166732 second spawn
     lable = L['elemental_geode_label'],
     quest = nil,
     note = L['in_small_cave']
@@ -407,14 +411,53 @@ map.nodes[73693706] = Treasure({
 -------------------------------------------------------------------------------
 
 dor.nodes[32456032] = PT.Alchemy({quest = 83840, id = 226265, parent = map.id}) -- Earthen Iron Powder
-dor.nodes[57174685] =
-    PT.Inscription({quest = nil, id = 226308, parent = map.id}) -- Dornogal Scribe's Quill -- review
+map.nodes[57696182] = PT.Alchemy({quest = 83841, id = 226266}) -- Metal Dornogal Frame
+map.nodes[59826191] = PT.Blacksmithing({quest = 83848, id = 226276}) -- Ancient Earthen Anvil
+dor.nodes[47582623] = PT.Blacksmithing({
+    quest = 83849,
+    id = 226277,
+    parent = map.id
+}) -- Dornogal Hammer
+map.nodes[57606164] = PT.Enchanting({quest = 83856, id = 226284}) -- Grinded Earthen Gem
+dor.nodes[57945697] = PT.Enchanting({
+    quest = 83859,
+    id = 226285,
+    parent = map.id
+}) -- Silver Dornogal Rod
+map.nodes[61356957] = PT.Engineering({quest = 83866, id = 226292}) -- Rock Engineer's Wrench
+dor.nodes[64845284] = PT.Engineering({
+    quest = 83867,
+    id = 226293,
+    parent = map.id
+}) -- Dornogal Spectacles
+map.nodes[57556146] = PT.Herbalism({quest = 83874, id = 226300}) -- Ancient Flower
+dor.nodes[59242352] =
+    PT.Herbalism({quest = 83875, id = 226301, parent = map.id}) -- Dornogal Gardening Scythe
+dor.nodes[57254689] = PT.Inscription({
+    quest = 83882,
+    id = 226308,
+    parent = map.id
+}) -- Dornogal Scribe's Quill
+map.nodes[55976001] = PT.Inscription({quest = 83883, id = 226309}) -- Historian's Dip Pen
+map.nodes[63536687] = PT.Jewelcrafting({quest = 83890, id = 226316}) -- Gentle Jewel Hammer
+dor.nodes[34845219] = PT.Jewelcrafting({
+    quest = 83891,
+    id = 226317,
+    parent = map.id
+}) -- Earthen Gem Pliers
+dor.nodes[59242352] = PT.Leatherworking({
+    quest = 83898,
+    id = 226324,
+    parent = map.id
+}) -- Earthen Lacing Tools
+map.nodes[58653077] = PT.Leatherworking({quest = 83899, id = 226325}) -- Dornogal Craftsman's Flat Knife
 map.nodes[58186204] = PT.Mining({quest = 83906, id = 226332}) -- Earthen Miner's Gavel
-dor.nodes[35359194] = PT.Mining({quest = 83907, id = 226333, parent = map.id}) -- Dornogal Chisel -- review
-map.nodes[59836191] = PT.Blacksmithing({quest = 83848, id = 226276}) -- Ancient Earthen Anvil
-map.nodes[47613191] = PT.Blacksmithing({quest = 83849, id = 226277}) -- Dornogal Hammer
-map.nodes[60042800] = PT.Skinning({quest = nil, id = 226341}) -- Earthen Worker's Beams -- review
-dor.nodes[54616373] = PT.Tailoring({quest = nil, id = 226348}) -- Dornogal Seam Ripper -- review
+dor.nodes[36717936] = PT.Mining({quest = 83907, id = 226333, parent = map.id}) -- Dornogal Chisel
+dor.nodes[28785165] = PT.Skinning({quest = 83914, id = 226340, parent = map.id}) -- Dornogal Carving Knife
+map.nodes[60042799] = PT.Skinning({quest = 83915, id = 226341}) -- Earthen Worker's Beams
+dor.nodes[61561850] =
+    PT.Tailoring({quest = 83922, id = 226348, parent = map.id}) -- Dornogal Seam Ripper
+map.nodes[56216102] = PT.Tailoring({quest = 83923, id = 226349}) -- Earthen Tape Measure
 
 -------------------------------------------------------------------------------
 -------------------------- ISLE OF DORN GLYPH HUNTER --------------------------
@@ -497,6 +540,7 @@ map.nodes[42128025] = LoreObject({
 map.nodes[27026815] = DisturbedDirt()
 map.nodes[38187892] = DisturbedDirt()
 map.nodes[44767702] = DisturbedDirt()
+map.nodes[47617007] = DisturbedDirt()
 map.nodes[57493429] = DisturbedDirt()
 map.nodes[57975529] = DisturbedDirt()
 map.nodes[58405778] = DisturbedDirt()

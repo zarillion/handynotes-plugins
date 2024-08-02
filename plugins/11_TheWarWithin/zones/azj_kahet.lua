@@ -53,13 +53,17 @@ map.nodes[37924284] = Rare({
 
 map.nodes[70722147] = Rare({
     id = 216042,
-    quest = 84073, -- 81704
-    rewards = {Achievement({id = 40840, criteria = 69661})}
+    quest = 81704, -- 84073
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
+    rewards = {Achievement({id = 40840, criteria = 69661})},
+    pois = {POI({70102201})} -- Entrance
 }) -- Cha'tak
 
 cot.nodes[30755599] = Rare({
     id = 216038,
-    quest = 84069, -- 81634
+    quest = 81634, -- 84069
     rewards = {Achievement({id = 40840, criteria = 69657})},
     parent = map.id
 }) -- The Groundskeeper (Chitin Hulk)
@@ -72,7 +76,10 @@ map.nodes[64560668] = Rare({
 
 map.nodes[58036210] = Rare({
     id = 216045,
-    quest = 84076, -- 81707
+    quest = 81707, -- 84076
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69664})}
 }) -- Enduring Gutterface
 
@@ -84,7 +91,7 @@ map.nodes[61232730] = Rare({
 
 akl.nodes[65198283] = Rare({
     id = 216050,
-    quest = nil,
+    quest = 82036,
     rewards = {Achievement({id = 40840, criteria = 69667})},
     pois = {
         Path({
@@ -97,14 +104,14 @@ akl.nodes[65198283] = Rare({
 
 akl.nodes[67438318] = Rare({
     id = 216048,
-    quest = nil,
+    quest = 82034,
     rewards = {Achievement({id = 40840, criteria = 69665})},
     parent = map.id
 }) -- Jix'ak the Crazed
 
 map.nodes[62400703] = Rare({ -- renamed by Blizzard?
     id = 216052,
-    quest = nil,
+    quest = 82078,
     rewards = {Achievement({id = 40840, criteria = 69670})},
     pois = {Path({62870495, 62610615, 62400703, 62070804, 61830851, 61160787})}
 }) -- Kaheti Bladeguard
@@ -112,6 +119,9 @@ map.nodes[62400703] = Rare({ -- renamed by Blizzard?
 map.nodes[63152530] = Rare({
     id = 221327,
     quest = 81702, -- 84071
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69659})},
     pois = {
         Path({
@@ -124,7 +134,10 @@ map.nodes[63152530] = Rare({
 
 map.nodes[66496197] = Rare({
     id = 216044,
-    quest = 84075, -- 81706
+    quest = 81706, -- 84075
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69663})},
     pois = {
         Path({
@@ -139,7 +152,10 @@ map.nodes[66496197] = Rare({
 
 map.nodes[69986923] = Rare({
     id = 216043,
-    quest = nil,
+    quest = 81705, -- 84074
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69662})}
 }) -- Monstrous Lasharoth
 
@@ -158,22 +174,26 @@ map.nodes[43863678] = Rare({
 
 akl.nodes[61918962] = Rare({
     id = 216049,
-    quest = nil,
+    quest = 82035,
     location = L['in_small_cave'],
     rewards = {Achievement({id = 40840, criteria = 69666})},
     parent = map.id,
     pois = {POI({63418984})} -- Entrance
 }) -- The Oozekhan
 
-map.nodes[76635780] = Rare({
+map.nodes[76585780] = Rare({
     id = 216034,
-    quest = nil,
-    rewards = {Achievement({id = 40840, criteria = 69660})}
+    quest = 81703, -- 84072
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
+    rewards = {Achievement({id = 40840, criteria = 69660})},
+    pois = {POI({77485899})} -- Entrance
 }) -- The XT-Minecrusher 8700
 
 map.nodes[64590352] = Rare({
     id = 216051,
-    quest = nil,
+    quest = 82037,
     rewards = {Achievement({id = 40840, criteria = 69668})}
 }) -- Umbraclaw Matra
 
@@ -207,13 +227,13 @@ cotl.nodes[67525826] = Rare({
 map.nodes[63479504] = Rare({
     id = 216047,
     location = L['in_cave'],
-    quest = nil,
+    quest = 82290,
     pois = {POI({65309350})} -- Entrance
 }) -- The One Left
 
 map.nodes[62816618] = Rare({
     id = 216046,
-    quest = nil,
+    quest = 82289,
     rewards = {ns.reward.Item({item = 225952, quest = 83627})} -- starts the questchain to get the Siesbarg mount.
 }) -- Tka'ktath
 
@@ -221,13 +241,17 @@ map.nodes[62816618] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[62728794] = Treasure({ -- review
-    quest = 82520, -- review
+akl.nodes[62728795] = Treasure({
+    quest = 82520,
+    parent = map.id,
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40828, criteria = 1}), -- duplicated criteria id 69615
         Pet({item = 225544, id = 4599}) -- Mind Slurp
     }
-}) -- Corrupted Memory
+}) -- Memory Cache
 -- I'm not sure if the treasure was called Corrupted Memory or Memory Cache. The Treasure was guarded by a mob called Corrupted memory.
 -- No Achievement criteria was triggered, looks like all Azj Kahet treasure Achievements are bugged
 
@@ -248,11 +272,11 @@ map.nodes[12002000] = Treasure({ -- review
 }) -- Memory Cache
 
 cot.nodes[31642077] = Treasure({
+    quest = 82720,
+    parent = map.id,
     -- ReputationGain(50, 2601), -- The Weaver
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier
-    quest = 82720,
-    parent = map.id,
     rewards = {Achievement({id = 40828, criteria = 69648})}
 }) -- Nerubian Offerings
 
@@ -263,6 +287,9 @@ map.nodes[49554370] = Treasure({
 
 map.nodes[54525081] = Treasure({
     quest = 82721,
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40828, criteria = 69649})}
 }) -- Niffen Stash
 
@@ -285,6 +312,9 @@ cot.nodes[67397441] = Treasure({
 
 map.nodes[78613320] = Treasure({
     quest = 82527,
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40828, criteria = 69643}), --
         Toy({item = 225347}) -- Web-Vandal's Spinning Wheel
@@ -309,23 +339,63 @@ map.nodes[34056102] = Treasure({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[44476052] = PT.Alchemy({quest = nil, id = 226272}) -- Dark Apothecary's Vial -- review
-cot.nodes[46552279] = PT.Blacksmithing({
+cot.nodes[45321322] = PT.Alchemy({quest = 83846, id = 226271, parent = map.id}) -- Nerubian Mixing Salts
+map.nodes[42835735] = PT.Alchemy({quest = 83847, id = 226272}) -- Dark Apothecary's Vial
+cot.nodes[46522291] = PT.Blacksmithing({
     quest = 83854,
     id = 226282,
     parent = map.id
 }) -- Nerubian Smith's Kit
 map.nodes[52965126] = PT.Blacksmithing({quest = 83855, id = 226283}) -- Spiderling's Wire Brush
-map.nodes[55863809] = PT.Inscription({quest = nil, id = 226314}) -- Nerubian Texts -- review
-cot.nodes[50103078] = PT.Inscription({quest = nil, id = 226315}) -- Venomancer's Ink Well -- review
-cot.nodes[46812169] = PT.Mining({quest = 83912, id = 226338, parent = map.id}) -- Heavy Spider Crusher -- review
-map.nodes[56995864] = PT.Skinning({quest = nil, id = 226347}) -- Carapace Shiner -- review
-cotl.nodes[44594925] = PT.Skinning({
+cot.nodes[61712201] = PT.Enchanting({
+    quest = 83864,
+    id = 226290,
+    parent = map.id
+}) -- Book of Dark Magic
+map.nodes[57354404] = PT.Enchanting({quest = 83865, id = 226291}) -- Void Shard
+map.nodes[56853859] = PT.Engineering({quest = 83872, id = 226298}) -- Puppeted Mechanical Spider
+cot.nodes[63141118] = PT.Engineering({
+    quest = 83873,
+    id = 226299,
+    parent = map.id
+}) -- Emptied Venom Canister
+cot.nodes[46771612] =
+    PT.Herbalism({quest = 83881, id = 226307, parent = map.id}) -- Tunneler's Shovel
+cot.nodes[54602088] =
+    PT.Herbalism({quest = 83880, id = 226306, parent = map.id}) -- Web-Entangled Lotus
+map.nodes[55834390] = PT.Inscription({quest = 83888, id = 226314}) -- Nerubian Texts
+cot.nodes[50233085] = PT.Inscription({
+    quest = 83889,
+    id = 226315,
+    parent = map.id
+}) -- Venomancer's Ink Well
+cot.nodes[47831954] = PT.Jewelcrafting({
+    quest = 89896,
+    id = 226322,
+    parent = map.id
+}) -- Ritual Caster's Crystal
+map.nodes[56165865] = PT.Jewelcrafting({quest = 83897, id = 226323}) -- Nerubian Bench Blocks
+cot.nodes[55042695] = PT.Leatherworking({
+    quest = 83904,
+    id = 226330,
+    parent = map.id
+}) -- Nerubian Tanning Mallet
+map.nodes[59995401] = PT.Leatherworking({quest = 83905, id = 226331}) -- Curved Nerubian Skinning Knife
+cot.nodes[46812169] = PT.Mining({quest = 83912, id = 226338, parent = map.id}) -- Heavy Spider Crusher
+cotl.nodes[47954059] = PT.Mining({
+    quest = 83913,
+    id = 226339,
+    parent = {map.id, cot.id}
+}) -- Nerubian Mining Cart
+cotl.nodes[44484947] = PT.Skinning({
     quest = 83920,
     id = 226346,
     parent = {map.id, cot.id}
 }) -- Nerubian's Slicking Iron
-cot.nodes[50241675] = PT.Tailoring({quest = nil, id = 226355}) -- Nerubian's Pincushion -- review
+map.nodes[56545524] = PT.Skinning({quest = 83921, id = 226347}) -- Carapace Shiner
+map.nodes[53285313] = PT.Tailoring({quest = 83928, id = 226354}) -- Nerubian Quilt
+cot.nodes[50321682] =
+    PT.Tailoring({quest = 83929, id = 226355, parent = map.id}) -- Nerubian's Pincushion
 
 -------------------------------------------------------------------------------
 --------------------------- AZJ-KAHET GLYPH HUNTER ----------------------------
