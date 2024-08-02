@@ -524,7 +524,7 @@ map.nodes[48411636] = Treasure({
     quest = 75515,
     location = L['in_small_cave'],
     rewards = {
-        Transmog({item = 205981, slot = L['cosmetic']}) -- Molten Primal Fang
+        Transmog({item = 205981, slot = L['1h_sword']}) -- Molten Primal Fang
     },
     pois = {POI({48411819})}
 }) -- Molten Hoard

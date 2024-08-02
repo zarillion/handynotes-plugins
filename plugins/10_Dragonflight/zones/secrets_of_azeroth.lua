@@ -536,7 +536,7 @@ ohn.nodes[39555886] = SecretsOfAzeroth({
     pois = {POI({40355952})}, -- Entrance
     rewards = {
         Achievement({id = 18645, criteria = 3}), -- Tools of the Trade
-        Transmog({item = 208150, slot = L['cosmetic']}), -- Blue Tweed Cap
+        Transmog({item = 208150}), -- Blue Tweed Cap
         Toy({item = 207730}) -- Idol of Ohn'ahra
     }
 }) -- Idol of Ohn'ahra

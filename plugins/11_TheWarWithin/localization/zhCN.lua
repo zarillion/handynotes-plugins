@@ -6,33 +6,33 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['skyriding_glyph'] = nil
-L['options_icons_skyriding_glyph'] = nil
-L['options_icons_skyriding_glyph_desc'] = nil
+L['skyriding_glyph'] = '驭空术魔符'
+L['options_icons_skyriding_glyph'] = '驭空术魔符s'
+L['options_icons_skyriding_glyph_desc'] = '显示全部驭空术魔符的位置。'
 
-L['options_icons_khaz_algar_lore_hunter'] = nil
-L['options_icons_khaz_algar_lore_hunter_desc'] = nil
+L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
+L['options_icons_khaz_algar_lore_hunter_desc'] = '显示 {achievement:40762} 成就中剧情物品的位置。'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
-L['alunira_note'] = nil
-L['violet_hold_prisoner'] = nil
+L['alunira_note'] = '收集10个 {item:224025} 并组合成 {item:224026} 以移除她的 {spell:451570}。'
+L['violet_hold_prisoner'] = '紫罗兰监狱囚犯'
 
-L['elemental_geode_label'] = nil
-L['magical_treasure_chest_note'] = nil
-L['mosswool_flower_note'] = nil
-L['mushroom_cap_note'] = nil
-L['mysterious_orb_note'] = nil
-L['thaks_treasure_note'] = nil
-L['trees_treasure_note'] = nil
-L['turtles_thanks_1_note'] = nil
-L['turtles_thanks_2_note'] = nil
-L['turtles_thanks_3_note'] = nil
+L['elemental_geode_label'] = '元素晶簇'
+L['magical_treasure_chest_note'] = '将 {npc:223104} 推回水中然后在附近收集5个 {npc:223159}。'
+L['mosswool_flower_note'] = '点击 {npc:222956} 并跟随他。'
+L['mushroom_cap_note'] = '在附近的森林中收集一个 {object:薮根伞菇} 并将其带回给 {npc:222894}。'
+L['mysterious_orb_note'] = '将 {object:元素珍珠} 带回给 {npc:222847}。'
+L['thaks_treasure_note'] = '与 {npc:223227} 交谈并跟随他。'
+L['trees_treasure_note'] = '与 {npc:222940} 交谈，获得 {item:224185}。引导6个 {npc:224548}（{dot:Green}）绕过 {location:多恩岛} 返回 {npc:222940}。将所有螃蟹引导回来后，返回洞穴中的 {npc:222940} 并与她交谈。'
+L['turtles_thanks_1_note'] = '交出5个 {item:220143}（可从 {object:平静的浮面涟漪} 鱼点钓鱼或从拍卖行购买）。{note:离开该区域并立即返回交出下一条鱼。}'
+L['turtles_thanks_2_note'] = '交出1个 {item:222533}（可从 {object:浮光之池}，{object:溃烂的腐臭之池}，{object:Infused Ichor Spill} 鱼点钓鱼或从拍卖行购买）。'
+L['turtles_thanks_3_note'] = '在 {location:多恩诺嘉尔} 与 {npc:223338} 会面并与她交谈以发现宝藏。'
 
-L['options_icons_flat_earthen'] = nil
-L['options_icons_flat_earthen_desc'] = nil
+L['options_icons_flat_earthen'] = '{achievement:40606}'
+L['options_icons_flat_earthen_desc'] = '显示 {achievement:40606} 成就中的位置。'
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------

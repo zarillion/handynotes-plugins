@@ -131,23 +131,23 @@ local DragonridingVendor = Class('DragonridingVendor', Vendor, {
         DC.SetCount(DC.WindborneVelocidrake.CurledHorns, 25), -- 10.2.5
         DC.SetCount(DC.WindborneVelocidrake.HookedSnout, 25), --
         Spacer(), --
-        Transmog({item = 206588, slot = L['cosmetic'], count = 20}), -- Drake Racer's Helmet
-        Transmog({item = 206589, slot = L['cosmetic'], count = 20}), -- Drake Racer's Shoulderpads
-        Transmog({item = 206590, slot = L['cosmetic'], count = 20}), -- Drake Racer's Jersey
-        Transmog({item = 206591, slot = L['cosmetic'], count = 20}), -- Drake Racer's Handwraps
-        Transmog({item = 206592, slot = L['cosmetic'], count = 20}), -- Drake Racer's Belt
-        Transmog({item = 206593, slot = L['cosmetic'], count = 20}), -- Drake Racer's Leggings
-        Transmog({item = 206594, slot = L['cosmetic'], count = 20}), -- Drake Racer's Boots
+        Transmog({item = 206588, count = 20}), -- Drake Racer's Helmet
+        Transmog({item = 206589, count = 20}), -- Drake Racer's Shoulderpads
+        Transmog({item = 206590, count = 20}), -- Drake Racer's Jersey
+        Transmog({item = 206591, count = 20}), -- Drake Racer's Handwraps
+        Transmog({item = 206592, count = 20}), -- Drake Racer's Belt
+        Transmog({item = 206593, count = 20}), -- Drake Racer's Leggings
+        Transmog({item = 206594, count = 20}), -- Drake Racer's Boots
         Spacer(), --
-        Transmog({item = 211877, slot = L['cosmetic'], count = 5}), -- Drake Racer's Scarf
-        Transmog({item = 211881, slot = L['cosmetic'], count = 15}), -- Outlandish Drake Racer's Helmet
-        Transmog({item = 211882, slot = L['cosmetic'], count = 15}), -- Outlandish Drake Racer's Shoulderpads
-        Transmog({item = 211883, slot = L['cosmetic'], count = 15}), -- Outlandish Drake Racer's Jersey
-        Transmog({item = 211884, slot = L['cosmetic'], count = 15}), -- Outlandish Drake Racer's Handwraps
-        Transmog({item = 211885, slot = L['cosmetic'], count = 15}), -- Outlandish Drake Racer's Belt
-        Transmog({item = 211886, slot = L['cosmetic'], count = 15}), -- Outlandish Drake Racer's Leggings
-        Transmog({item = 211887, slot = L['cosmetic'], count = 15}), -- Outlandish Drake Racer's Boots
-        Transmog({item = 211888, slot = L['cosmetic'], count = 5}) -- Outlandish Drake Racer's Scarf
+        Transmog({item = 211877, slot = L['cloak'], count = 5}), -- Drake Racer's Scarf
+        Transmog({item = 211881, count = 15}), -- Outlandish Drake Racer's Helmet
+        Transmog({item = 211882, count = 15}), -- Outlandish Drake Racer's Shoulderpads
+        Transmog({item = 211883, count = 15}), -- Outlandish Drake Racer's Jersey
+        Transmog({item = 211884, count = 15}), -- Outlandish Drake Racer's Handwraps
+        Transmog({item = 211885, count = 15}), -- Outlandish Drake Racer's Belt
+        Transmog({item = 211886, count = 15}), -- Outlandish Drake Racer's Leggings
+        Transmog({item = 211887, count = 15}), -- Outlandish Drake Racer's Boots
+        Transmog({item = 211888, slot = L['cloak'], count = 5}) -- Outlandish Drake Racer's Scarf
     }
 }) -- Dragonriding Vendor
 

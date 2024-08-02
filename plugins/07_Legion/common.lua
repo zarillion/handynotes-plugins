@@ -107,7 +107,7 @@ ns.node.Safari = {
     EchoBatling = Class('EchoBatling', Safari, {
         id = 88542,
         rewards = {
-            Achievement({id = 11233, criteria = nil, oneline = true}), -- TODO: Missing criteria ID?
+            Achievement({id = 11233, criteria = 33127, oneline = true}),
             Achievement({id = 14729, criteria = 50234}), -- To All the Squirrels ...
             Pet({id = 1761})
         }

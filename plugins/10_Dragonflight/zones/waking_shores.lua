@@ -390,7 +390,7 @@ map.nodes[56004592] = Rare({
         Achievement({id = 16676, criteria = 56034}),
         Transmog({item = 200165, slot = L['shield']}), -- Aegis of Scales
         Transmog({item = 200256, slot = L['offhand']}), -- Darkmaul Soul Horn
-        Transmog({item = 200310, note = L['cloak']}), -- Stole of the Iron Phantom
+        Transmog({item = 200310, slot = L['cloak']}), -- Stole of the Iron Phantom
         DC.RenewedProtoDrake.ClubTail, DC.RenewedProtoDrake.WhiteHorns,
         DC.CliffsideWylderdrake.HeavyHorns, DC.CliffsideWylderdrake.HornedJaw
     }
@@ -870,11 +870,11 @@ map.nodes[69314658] = Treasure({
     quest = 70346,
     note = L['dead_mans_chestplate_note'],
     rewards = {
-        Achievement({id = 16297, criteria = 54702}),
-        Transmog({item = 202190, slot = L['cosmetic']}), -- Dead Man's Chains
-        Transmog({item = 202191, slot = L['cosmetic']}), -- Dead Man's Breastplate
-        Transmog({item = 202192, slot = L['cosmetic']}), -- Dead Man's Leathers
-        Transmog({item = 202193, slot = L['cosmetic']}) -- Dead Man's Tunic
+        Achievement({id = 16297, criteria = 54702}), --
+        Transmog({item = 202190}), -- Dead Man's Chains
+        Transmog({item = 202191}), -- Dead Man's Breastplate
+        Transmog({item = 202192}), -- Dead Man's Leathers
+        Transmog({item = 202193}) -- Dead Man's Tunic
     }
 }) -- Dead Man's Chestplate
 
@@ -1458,20 +1458,20 @@ local DjaradinCache = Class('DjaradinCache', ns.node.Node, {
     group = ns.groups.DJARADIN_CACHE,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Transmog({item = 201035, slot = L['cosmetic']}), -- Citadel Crushers Pauldrons
-        Transmog({item = 201036, slot = L['cosmetic']}), -- Citadel Crushers Chestplate
-        Transmog({item = 201037, slot = L['cosmetic']}), -- Citadel Crushers Legguards
-        Transmog({item = 201038, slot = L['cosmetic']}), -- Citadel Crushers Footwraps
-        Transmog({item = 201039, slot = L['cosmetic']}), -- Citadel Crushers Helm
-        Transmog({item = 201041, slot = L['cosmetic']}), -- Citadel Crushers Cloak
-        Transmog({item = 201042, slot = L['cosmetic']}), -- Obsidian Crushers Bracers
-        Transmog({item = 201043, slot = L['cosmetic']}), -- Obsidian Crushers Belt
-        Transmog({item = 201429, slot = L['cosmetic']}), -- Obsidian Fist
-        Transmog({item = 201430, slot = L['cosmetic']}), -- Burning Mallet
-        Transmog({item = 201431, slot = L['cosmetic']}), -- Obsidian Tyrants Mace
-        Transmog({item = 201432, slot = L['cosmetic']}), -- Obsidian Dragontooth
-        Transmog({item = 201433, slot = L['cosmetic']}), -- Citadel Wardens Mace
-        Transmog({item = 201434, slot = L['cosmetic']}), -- Obsidian Barrier
+        Transmog({item = 201035, slot = L['plate']}), -- Citadel Crushers Pauldrons
+        Transmog({item = 201036, slot = L['plate']}), -- Citadel Crushers Chestplate
+        Transmog({item = 201037, slot = L['plate']}), -- Citadel Crushers Legguards
+        Transmog({item = 201038, slot = L['plate']}), -- Citadel Crushers Footwraps
+        Transmog({item = 201039, slot = L['plate']}), -- Citadel Crushers Helm
+        Transmog({item = 201041, slot = L['cloak']}), -- Citadel Crushers Cloak
+        Transmog({item = 201042, slot = L['plate']}), -- Obsidian Crushers Bracers
+        Transmog({item = 201043, slot = L['plate']}), -- Obsidian Crushers Belt
+        Transmog({item = 201429, slot = L['fist']}), -- Obsidian Fist
+        Transmog({item = 201430, slot = L['1h_mace']}), -- Burning Mallet
+        Transmog({item = 201431, slot = L['1h_mace']}), -- Obsidian Tyrants Mace
+        Transmog({item = 201432, slot = L['1h_sword']}), -- Obsidian Dragontooth
+        Transmog({item = 201433, slot = L['2h_mace']}), -- Citadel Wardens Mace
+        Transmog({item = 201434, slot = L['shield']}), -- Obsidian Barrier
         Item({item = 199230}), -- Schematic: Projectile Propulsion Pinion
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199066, quest = 70535}), -- Letter of Caution
@@ -2256,7 +2256,7 @@ map.nodes[30287005] = Collectible({
     requires = ns.requirement.Reputation(2510, 5, true), -- Valdrakken Accord
     rewards = SIEGE_ON_DRAGONBANE_KEEP_REWARDS,
     IsEnabled = function(self)
-        local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
+        local activePOIs = C_AreaPoiInfo.GetEventsForMap(self.mapID)
         local possiblePOIs = self.areaPOIs
         for a = 1, #activePOIs do
             for p = 1, #possiblePOIs do
@@ -2269,7 +2269,7 @@ map.nodes[30287005] = Collectible({
     end
 }) -- Siege on Dragonbane Keep
 
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+hooksecurefunc(AreaPOIEventPinMixin, 'TryShowTooltip', function(self)
     if self and self.areaPoiID then
         local mapID = self:GetMap().mapID
         local group = ns.groups.DRAGONBANE_SIEGE

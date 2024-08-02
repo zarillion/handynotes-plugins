@@ -62,19 +62,20 @@ map.nodes[66232975] = Rare({ -- flyes around
 
 map.nodes[41371692] = Rare({ -- review, multiple locations?
     id = 220267,
-    quest = 81564, -- 84044
+    quest = 81562, -- 84044  81564?
     rewards = {Achievement({id = 40837, criteria = 69632})}
 }) -- Charmonger
 
 map.nodes[57883810] = Rare({
     id = 220266,
-    quest = nil,
+    quest = 81511, -- 84045
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69633})}
 }) -- Coalesced Monstrosity
 
 map.nodes[50994631] = Rare({
     id = 220269,
-    quest = 84042, -- 80560
+    quest = 80560, -- 84042
     rewards = {Achievement({id = 40837, criteria = 69630})}
 }) -- Cragmund
 
@@ -87,29 +88,30 @@ map.nodes[66636887] = Rare({
 
 map.nodes[67045265] = Rare({ -- review
     id = 218393,
-    quest = nil,
+    quest = 80003,
     rewards = {Achievement({id = 40837, criteria = 69640})}
 }) -- Disturbed Earthgorger
 
 map.nodes[53000880] = Rare({ -- review 53801800
     id = 220286,
-    quest = nil,
+    quest = 80536,
     rewards = {Achievement({id = 40837, criteria = 69636})}
 }) -- Deepflayer Broodmother
 
 map.nodes[65354950] = Rare({ -- review
     id = 221199,
-    quest = nil,
+    quest = 81648,
     rewards = {Achievement({id = 40837, criteria = 69639})}
 }) -- Hungerer of the Deeps
 
 map.nodes[47064697] = Rare({
     id = 220287,
-    quest = nil,
+    quest = 81485, -- 84047
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69635})}
 }) -- Kelpmire
 
-map.nodes[42753510] = Rare({ -- review
+map.nodes[42773508] = Rare({
     id = 220275,
     quest = 80547,
     rewards = {
@@ -120,7 +122,7 @@ map.nodes[42753510] = Rare({ -- review
 
 map.nodes[74002000] = Rare({ -- review
     id = 220285,
-    quest = nil,
+    quest = 81633,
     rewards = {Achievement({id = 40837, criteria = 69637})}
 }) -- Lurker of the Deeps
 
@@ -135,7 +137,7 @@ map.nodes[57015473] = Rare({
 
 map.nodes[66214622] = Rare({ -- review
     id = 221217,
-    quest = nil,
+    quest = 81652,
     rewards = {Achievement({id = 40837, criteria = 69638})},
     pois = {
         Path({
@@ -147,21 +149,24 @@ map.nodes[66214622] = Rare({ -- review
 
 map.nodes[47621217] = Rare({
     id = 220271,
-    quest = 80507,
+    quest = 80507, -- 84040
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69628})}
 }) -- Terror of the Forge
 
 map.nodes[71654630] = Rare({
     id = 220268,
-    quest = nil,
-    note = L['in_cave'],
+    quest = 80574, -- 84043
+    note = L['in_cave'], -- kill the root of trungal npc:220615
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69631})},
     pois = {POI({72844447})} -- Entrance
 }) -- Trungal
 
 map.nodes[52032657] = Rare({
     id = 220270,
-    quest = 80506,
+    quest = 80506, -- 84041
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69629})}
 }) -- Zilthara
 
@@ -174,7 +179,7 @@ map.nodes[63086311] = Treasure({ -- lvl 71
     rewards = {Achievement({id = 40724, criteria = 69281})}
 }) -- Cursed Pickaxe
 
-map.nodes[45511745] = Treasure({ -- lvl 73
+map.nodes[45511745] = Treasure({ -- lvl 71
     quest = 82239,
     rewards = {Achievement({id = 40724, criteria = 69283})}
 }) -- Discarded Toolbox
@@ -191,6 +196,7 @@ map.nodes[49053163] = Treasure({ -- Inside the Inn
         ns.requirement.Item(223880), ns.requirement.Item(223881),
         ns.requirement.Item(223882)
     },
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40724, criteria = 69312})},
     pois = {
         POI({47673217}), -- Entrance
@@ -221,7 +227,10 @@ map.nodes[50485349] = Treasure({ -- lvl 71
     },
     location = L['in_waterfall_cave'],
     note = L['forgotten_treasure_note'],
-    rewards = {Achievement({id = 40724, criteria = 69313})},
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
+    rewards = {
+        Achievement({id = 40724, criteria = 69313}), Toy({item = 224783}) -- Sovereign's Finery Chest
+    },
     pois = {POI({52065314})} -- Entrance
 }) -- Forgotten Treasure
 
@@ -247,6 +256,7 @@ map.nodes[66203341] = Treasure({ -- lvl 71
 map.nodes[68863883] = Treasure({ -- lvl 71
     quest = 79308,
     note = L['in_small_cave'],
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40724, criteria = 69280})},
     pois = {POI({68714072})} -- Entrance
 }) -- Webbed Knapsack
@@ -255,19 +265,32 @@ map.nodes[68863883] = Treasure({ -- lvl 71
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[42182415] = PT.Alchemy({quest = nil, id = 226267}) -- Reinforced Beaker -- review
-map.nodes[47673317] = PT.Blacksmithing({quest = 83850, id = 226278}) -- Ringing Hammer Vise
-map.nodes[60525367] = PT.Blacksmithing({quest = 83851, id = 226279}) -- Earthen Chisels
-map.nodes[48573426] = PT.Inscription({quest = nil, id = 226310}) -- Runic Scroll -- review
-map.nodes[58186204] = PT.Mining({quest = 83908, id = 226334}) -- Earthen Excavator's Shovel
-map.nodes[66276626] = PT.Mining({quest = 83909, id = 226335}) -- Regenerating Ore -- review
-map.nodes[65716190] = PT.Skinning({quest = nil, id = 226343}) -- Fungarian's Rich Tannin -- review
-map.nodes[48853286] = PT.Tailoring({
-    quest = nil,
+map.nodes[42212415] = PT.Alchemy({quest = 83842, id = 226267}) -- Reinforced Beaker
+map.nodes[64966175] = PT.Alchemy({quest = 83843, id = 226268}) -- Engraved Stirring Rod
+map.nodes[47703316] = PT.Blacksmithing({quest = 83850, id = 226278}) -- Ringing Hammer Vise
+map.nodes[60535368] = PT.Blacksmithing({quest = 83851, id = 226279}) -- Earthen Chisels
+map.nodes[44612213] = PT.Enchanting({quest = 83860, id = 226286}) -- Soot-Coated Orb
+map.nodes[67186590] = PT.Enchanting({quest = 83861, id = 226287}) -- Animated Enchanting Dust1
+map.nodes[42632725] = PT.Engineering({quest = 83868, id = 226294}) -- Inert Mining Bomb
+map.nodes[64495875] = PT.Engineering({quest = 83869, id = 226295}) -- Earthen Construct Blueprints
+map.nodes[48563432] = PT.Inscription({quest = 83883, id = 226310}) -- Runic Scroll
+map.nodes[62465801] = PT.Inscription({quest = 83885, id = 226311}) -- Blue Earthen Pigment
+map.nodes[48243504] = PT.Herbalism({quest = 83876, id = 226302}) -- Earthen Digging Fork
+map.nodes[52916581] = PT.Herbalism({quest = 83877, id = 226303}) -- Fungarian Slicer's Knife
+map.nodes[48493513] = PT.Jewelcrafting({quest = 83892, id = 226318}) -- Carved Stone File
+map.nodes[56985453] = PT.Jewelcrafting({quest = 83893, id = 226319}) -- Jeweler's Delicate Drill
+map.nodes[47053489] = PT.Leatherworking({quest = 83900, id = 226326}) -- Underground Stropping Compound
+map.nodes[64286527] = PT.Leatherworking({quest = 83901, id = 226327}) -- Earthen Awl
+map.nodes[49422755] = PT.Mining({quest = 83908, id = 226334}) -- Earthen Excavator's Shovel
+map.nodes[66266624] = PT.Mining({quest = 83909, id = 226335}) -- Regenerating Ore
+map.nodes[47302833] = PT.Skinning({quest = 83916, id = 226342}) -- Artisan's Drawing Knife
+map.nodes[65696190] = PT.Skinning({quest = 83917, id = 226343}) -- Fungarian's Rich Tannin -- review
+map.nodes[48823286] = PT.Tailoring({
+    quest = 83924,
     id = 226350,
     pois = {POI({47703216})} -- Entrance
-}) -- Runed Earthen Pins -- review
-map.nodes[64126034] = PT.Tailoring({quest = nil, id = 226351}) -- Earthen Stitcher's Snips -- review
+}) -- Runed Earthen Pins
+map.nodes[64156033] = PT.Tailoring({quest = 83925, id = 226351}) -- Earthen Stitcher's Snips
 
 -------------------------------------------------------------------------------
 ----------------------- THE RINGING DEEPS GLYPH HUNTER ------------------------
@@ -532,3 +555,4 @@ map.nodes[64656659] = DisturbedDirt()
 map.nodes[65393974] = DisturbedDirt()
 map.nodes[66733837] = DisturbedDirt()
 map.nodes[67794830] = DisturbedDirt()
+map.nodes[75624339] = DisturbedDirt() -- ?

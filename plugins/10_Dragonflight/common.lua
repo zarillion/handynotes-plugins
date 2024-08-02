@@ -1077,9 +1077,9 @@ local Disturbeddirt = Class('Disturbed_dirt', Node, {
     },
     rewards = {
         Item({item = 190453}), -- Spark of Ingenuity
-        Transmog({item = 201386, slot = L['cosmetic']}), -- Drakonid Defender's Pike
-        Transmog({item = 201388, slot = L['cosmetic']}), -- Dragonspawn Wingtipped Staff
-        Transmog({item = 201390, slot = L['cosmetic']}), -- Devastating Drakonid Waraxe
+        Transmog({item = 201386, slot = L['polearm']}), -- Drakonid Defender's Pike
+        Transmog({item = 201388, slot = L['staff']}), -- Dragonspawn Wingtipped Staff
+        Transmog({item = 201390, slot = L['2h_axe']}), -- Devastating Drakonid Waraxe
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
         Item({item = 199066, quest = 70535}), -- Letter of Caution
@@ -1108,12 +1108,12 @@ local Scoutpack = Class('Scoutpack', Node, {
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
         Mount({item = 192764, id = 1617}), -- Verdant Skitterfly
-        Transmog({item = 201387, slot = L['cosmetic']}), -- Dragon Knight's Halberd
-        Transmog({item = 201388, slot = L['cosmetic']}), -- Dragonspawn Wingtipped Staff
-        Transmog({item = 201390, slot = L['cosmetic']}), -- Devastating Drakonid Waraxe
-        Transmog({item = 201392, slot = L['cosmetic']}), -- Dragon Noble's Cutlass
-        Transmog({item = 201395, slot = L['cosmetic']}), -- Dragon Wingcrest Scimitar
-        Transmog({item = 201396, slot = L['cosmetic']}), -- Dracthyr Claw Extensions
+        Transmog({item = 201387, slot = L['polearm']}), -- Dragon Knight's Halberd
+        Transmog({item = 201388, slot = L['staff']}), -- Dragonspawn Wingtipped Staff
+        Transmog({item = 201390, slot = L['2h_axe']}), -- Devastating Drakonid Waraxe
+        Transmog({item = 201392, slot = L['1h_sword']}), -- Dragon Noble's Cutlass
+        Transmog({item = 201395, slot = L['1h_sword']}), -- Dragon Wingcrest Scimitar
+        Transmog({item = 201396, slot = L['fist']}), -- Dracthyr Claw Extensions
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
         Item({item = 199066, quest = 70535}), -- Letter of Caution
@@ -1231,8 +1231,8 @@ ns.node.SimmeringChest = Class('SimmeringChest', Node, {
     group = ns.groups.SIMMERING_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Transmog({item = 201446, slot = L['cosmetic']}), -- Primal Revenant's Firewall
-        Transmog({item = 201445, slot = L['cosmetic']}), -- Primal Revenant's Emberblade
+        Transmog({item = 201446, slot = L['shield']}), -- Primal Revenant's Firewall
+        Transmog({item = 201445, slot = L['1h_sword']}), -- Primal Revenant's Emberblade
         Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199068, quest = 70537}), -- Time-Lost Memo
@@ -1253,8 +1253,8 @@ ns.node.FrostboundChest = Class('FrostboundChest', Node, {
     group = ns.groups.FROSTBOUND_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Transmog({item = 201443, slot = L['cosmetic']}), -- Primal Revenant's Icewall
-        Transmog({item = 201442, slot = L['cosmetic']}), -- Primal Revenant's Frostblade
+        Transmog({item = 201443, slot = L['shield']}), -- Primal Revenant's Icewall
+        Transmog({item = 201442, slot = L['1h_sword']}), -- Primal Revenant's Frostblade
         Item({item = 199065, quest = 70534}), -- Sorrowful Letter
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Item({item = 199068, quest = 70537}), -- Time-Lost Memo
@@ -1606,7 +1606,7 @@ local ELEMENTAL_STORM_TRANSMOG_REWARDS = {
         prepTransmog(200136, L['plate'], '{npc:193674}') -- Monsoonic Armguards
     },
     ['sandstorm'] = {
-        prepTransmog(200231, L['offhand'], '{npc:193644}'), -- Flaming Stonescale Bulwark
+        prepTransmog(200231, L['shield'], '{npc:193644}'), -- Flaming Stonescale Bulwark
         prepTransmog(200145, L['2h_sword'], '{npc:193652}') -- Hilted Monolith
     },
     ['firestorm'] = {
@@ -1855,11 +1855,11 @@ local GRAND_HUNT_AREA_POIS = {
     [7095] = 'Eastern Azure Span Hunt',
     [7096] = 'Southern Azure Span Hunt',
     [7097] = 'Southern Thaldrazus Hunt',
-    [7098] = 'Northern Ohnahran Plains Hunt',
+    [7053] = 'Northern Ohnahran Plains Hunt',
     [7099] = 'Northern Thaldraszus Hunt',
     [7342] = 'Grand Hunts (Ohnahran Plains',
-    [7343] = 'Grand Hunts (Thaldraszus)',
-    [7344] = 'Grand Hunts (The Waking Shore)',
+    [7343] = 'Grand Hunts (The Waking Shore)',
+    [7344] = 'Grand Hunts (Thaldraszus)',
     [7345] = 'Grand Hunts (The Azure Span)'
 }
 
@@ -1874,7 +1874,7 @@ local GrandHunt = Class('GrandHunt', Collectible, {
     icon = 237377,
     group = ns.groups.GRAND_HUNTS,
     IsEnabled = function(self)
-        local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
+        local activePOIs = C_AreaPoiInfo.GetEventsForMap(self.mapID)
         for a = 1, #activePOIs do
             if activePOIs[a] == self.areaPOI then return false end
         end
@@ -1919,7 +1919,7 @@ end
 
 ns.node.GrandHunt = GrandHunt
 
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+hooksecurefunc(AreaPOIEventPinMixin, 'TryShowTooltip', function(self)
     if self and self.areaPoiID then
         local mapID = self:GetMap().mapID
         local group = ns.groups.GRAND_HUNTS
@@ -1972,6 +1972,7 @@ hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
             IsValidVignette(node.vignette, self:GetVignetteID()) and
             node.rewards and ns:GetOpt('show_loot') then
             node:RenderRewards(GameTooltip)
+            break
         end
     end
     GameTooltip:Show()
@@ -2069,9 +2070,7 @@ local JustOneMoreThing = Class('JustOneMoreThing', Collectible, {
     questCount = true,
     icon = 1411833,
     note = L['just_one_more_thing_note'],
-    -- rewards = {Achievement({id = 19792, criteria = {65408, 65409, 65410, 65411, 65412, 65413}})}
     group = ns.groups.JUST_ONE_MORE_THING
 }) -- Just One More Thing
 
 ns.node.JustOneMoreThing = JustOneMoreThing
-

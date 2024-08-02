@@ -227,7 +227,7 @@ map.nodes[57394864] = Rare({
     id = 83553,
     quest = 35909,
     rewards = {
-        Transmog({item = 113571, slot = L['cloth']}), Currency({id = 824})
+        Transmog({item = 113571, slot = L['mail']}), Currency({id = 824})
     }
 }) -- Insha'tar
 
