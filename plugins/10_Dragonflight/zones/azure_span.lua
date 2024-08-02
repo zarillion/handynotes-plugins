@@ -1235,13 +1235,13 @@ local TuskarrChest = Class('TuskarrChest', ns.node.Node, {
     group = ns.groups.TUSKARR_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Transmog({item = 201372, slot = L['cosmetic']}), -- Imbu Tuskarr Axe
-        Transmog({item = 201373, slot = L['cosmetic']}), -- Imbu Net Cutter
-        Transmog({item = 201374, slot = L['cosmetic']}), -- Tuskarr Fishing Pike
-        Transmog({item = 201376, slot = L['cosmetic']}), -- Imbu Tuskarr Mace
-        Transmog({item = 201377, slot = L['cosmetic']}), -- Imbu Warrior's Club
-        Transmog({item = 201377, slot = L['cosmetic']}), -- Tuskarr Elder's Staff
-        Transmog({item = 201378, slot = L['cosmetic']}), -- Tuskarr Angler's Crossbow
+        Transmog({item = 201372, slot = L['1h_axe']}), -- Imbu Tuskarr Axe
+        Transmog({item = 201373, slot = L['dagger']}), -- Imbu Net Cutter
+        Transmog({item = 201374, slot = L['polearm']}), -- Tuskarr Fishing Pike
+        Transmog({item = 201375, slot = L['2h_mace']}), -- Imbu Warrior's Club
+        Transmog({item = 201376, slot = L['1h_mace']}), -- Imbu Tuskarr Mace
+        Transmog({item = 201377, slot = L['staff']}), -- Tuskarr Elder's Staff
+        Transmog({item = 201378, slot = L['crossbow']}), -- Tuskarr Angler's Crossbow
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 200071}), -- Sacred Tuskarr Totem
         Currency({id = 2003}) -- Dragon Isles Supplies
@@ -1275,12 +1275,12 @@ local DecayCoveredChest = Class('DecayCoveredChest', ns.node.Node, {
     group = ns.groups.DECAY_COVERED_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Transmog({item = 201365, slot = L['cosmetic']}), -- Brackenhide Gnoll Guard
-        Transmog({item = 201370, slot = L['cosmetic']}), -- Brackenhide Skullcracker
-        Transmog({item = 201369, slot = L['cosmetic']}), -- Hollow Greatwood Pestilence
-        Transmog({item = 201368, slot = L['cosmetic']}), -- Brackenhide Hollow Barbslinger
-        Transmog({item = 201363, slot = L['cosmetic']}), -- Brackenhide Hollow Maul
-        Transmog({item = 201367, slot = L['cosmetic']}), -- Hollow Hunter's Sticker
+        Transmog({item = 201365, slot = L['shield']}), -- Brackenhide Gnoll Guard
+        Transmog({item = 201370, slot = L['1h_mace']}), -- Brackenhide Skullcracker
+        Transmog({item = 201369, slot = L['2h_mace']}), -- Hollow Greatwood Pestilence
+        Transmog({item = 201368, slot = L['crossbow']}), -- Brackenhide Hollow Barbslinger
+        Transmog({item = 201363, slot = L['2h_mace']}), -- Brackenhide Hollow Maul
+        Transmog({item = 201367, slot = L['polearm']}), -- Hollow Hunter's Sticker
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Recipe({item = 194312, profession = 165}), -- Pattern: Gnoll Tent
@@ -1748,7 +1748,7 @@ local COMMUNITY_FEAST_REWARDS = {
     Recipe({item = 198131, profession = 185}), -- Recipe: Gral's Devotion
     Recipe({item = 198129, profession = 185}), -- Recipe: Gral's Reverence
     Recipe({item = 198130, profession = 185}), -- Recipe: Gral's Veneration
-    Transmog({item = 200882, slot = L['cosmetic']}), -- Big Kinook's Spare Ladle
+    Transmog({item = 200882, slot = L['staff']}), -- Big Kinook's Spare Ladle
     ns.reward.Spacer(), Item({item = 200652}), -- Alchemical Flavor Pocket
     Item({item = 192055}), -- Dragon Isles Artifact
     Item({item = 200071}) -- Sacred Tuskarr Totem
@@ -2087,15 +2087,17 @@ local Kazzi = Class('Kazzi', Vendor, {
             }
         }), -- Winterpelt Conversationalist
         Spacer(), Section(L['rep_honored']),
-        Transmog({item = 204354, slot = L['cosmetic'], count = '500'}), -- Hollowed Furbolg Food Pack
+        Transmog({item = 202282, slot = L['1h_mace'], count = '150'}), -- Winterpelt Mending Totem
+        Transmog({item = 203995, slot = L['cloak'], count = '75'}), -- Winter Pelt Cloak
+        Transmog({item = 204354, slot = L['cloak'], count = '500'}), -- Hollowed Furbolg Food Pack
         -- NOT IN DC
         Item({item = 202273, quest = 73054, count = '50'}), -- Renewed Proto-Drake: Stubby Snout
         Item({item = 197583, quest = 69787, count = '50'}), -- Windborne Velocidrake: Exposed Finned Back
         Item({item = 197129, quest = 69330, count = '50'}), -- Highland Drake: Sleek Horns
         Item({item = 197006, quest = 69206, count = '50'}), -- Cliffside Wylderdrake: Plated Nose
-        Spacer(), Section(L['rep_revered']),
-        Item({item = 202287, count = '100'}), -- Paw-Made Winterpelt Reagent Bag
-        Transmog({item = 204355, slot = L['cosmetic'], count = '500'}), -- Hollowed Winterpelt Food Pack
+        Spacer(), --
+        Section(L['rep_revered']), --
+        Transmog({item = 204355, slot = L['cloak'], count = '500'}), -- Hollowed Winterpelt Food Pack
         Toy({item = 203734, count = '200'}), -- Snow Blanket
         Recipe({item = 204678, profession = 197, count = '200'}), -- Pattern: Paw-Made Winterpelt Reagent Bag
         Recipe({item = 202289, profession = 185, count = '750'}), -- Recipe: Firewater Sorbet
@@ -2104,7 +2106,8 @@ local Kazzi = Class('Kazzi', Vendor, {
         Item({item = 197629, quest = 69835, count = '100'}), -- Windborne Velocidrake: Spiked Neck
         Item({item = 197102, quest = 69303, count = '100'}), -- Highland Drake: Horned Chin
         Item({item = 196995, quest = 69195, count = '100'}), -- Cliffside Wylderdrake: Spiked Horns
-        Spacer(), Section(L['rep_exalted']),
+        Spacer(), --
+        Section(L['rep_exalted']),
         Pet({item = 202255, id = 3427, count = '150'}) -- Driftling
     },
     pois = {
@@ -2278,13 +2281,13 @@ local Eadweard = Class('Eadweard', Collectible, {
             }
         }), -- The Archives Called, You Answered
         Mount({item = 212645, id = 2038}), -- Clayscale Hornstrider
-        Transmog({item = 212692, slot = L['cosmetic']}), -- Excavator's Dusky Fedora
-        Transmog({item = 212638, slot = L['cosmetic']}), -- Excavator's Work Shirt
-        Transmog({item = 212793, slot = L['cosmetic']}), -- Excavator's Pack of Findings
-        Transmog({item = 212640, slot = L['cosmetic']}), -- Excavator's Trusty Satchel
-        Transmog({item = 212641, slot = L['cosmetic']}), -- Excavator's Rugged Pants
-        Transmog({item = 212639, slot = L['cosmetic']}), -- Excavator's Glovelettes
-        Transmog({item = 212642, slot = L['cosmetic']}) -- Excavator's Boots
+        Transmog({item = 212692}), -- Excavator's Dusky Fedora
+        Transmog({item = 212638}), -- Excavator's Work Shirt
+        Transmog({item = 212793, slot = L['cloak']}), -- Excavator's Pack of Findings
+        Transmog({item = 212640}), -- Excavator's Trusty Satchel
+        Transmog({item = 212641}), -- Excavator's Rugged Pants
+        Transmog({item = 212639}), -- Excavator's Glovelettes
+        Transmog({item = 212642}) -- Excavator's Boots
     }
 }) -- Eadweard Dalyngrigge
 

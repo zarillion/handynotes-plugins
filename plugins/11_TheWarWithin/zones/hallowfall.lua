@@ -53,34 +53,35 @@ map.nodes[15004000] = Rare({
 }) -- Beledar's Spawn
 
 -- map.nodes[08002000] = Rare({
---     id = nil,
---     quest = nil,
+--     id = 220159,
+--     quest = 80486,
 --     rewards = {Achievement({id = 40851, criteria = 69718})}
 -- }) -- Brineslash
 
 -- map.nodes[10002000] = Rare({
---     id = nil,
---     quest = nil,
+--     id = 206514,
+--     quest = 82558,
 --     rewards = {Achievement({id = 40851, criteria = 69720})}
 -- }) -- Crazed Cabbage Smacker
 
 map.nodes[67552316] = Rare({
     id = 214757,
-    quest = nil,
+    quest = 82560,
     note = L['croakit_note'],
     rewards = {Achievement({id = 40851, criteria = 69722})},
     pois = {POI({65802355})}
 }) -- Croakit
 
--- map.nodes[14002000] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69721})}
--- }) -- Deathpetal
+map.nodes[63643205] = Rare({
+    id = 206184,
+    quest = 82559, -- 84053
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
+    rewards = {Achievement({id = 40851, criteria = 69721})}
+}) -- Deathpetal
 
 map.nodes[44744241] = Rare({
     id = 221753,
-    quest = nil,
+    quest = 81880,
     note = L['deathtide_note'],
     rewards = {Achievement({id = 40851, criteria = 69717})},
     pois = {
@@ -102,13 +103,13 @@ map.nodes[72116435] = Rare({
 
 map.nodes[63931977] = Rare({
     id = 221179,
-    quest = nil,
+    quest = 82562,
     rewards = {Achievement({id = 40851, criteria = 69724})}
 }) -- Duskshadow
 
 -- map.nodes[22002000] = Rare({
 --     id = nil,
---     quest = nil,
+--     quest = 82564,
 --     rewards = {Achievement({id = 40851, criteria = 69727})}
 -- }) -- Finclaw Bloodtide
 
@@ -141,6 +142,7 @@ map.nodes[36905469] = Rare({
 map.nodes[33122687] = Rare({
     id = 221668,
     quest = 81836, -- 84065
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40851, criteria = 69712})},
     pois = {
         Path({
@@ -165,7 +167,8 @@ map.nodes[57046433] = Rare({
 
 map.nodes[23005922] = Rare({
     id = 221534,
-    quest = 84063, -- 81756
+    quest = 81756, -- 84063
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69710}),
         Transmog({item = 221207, type = L['mail']}) -- Den Mother's Chestpiece
@@ -174,7 +177,7 @@ map.nodes[23005922] = Rare({
 
 map.nodes[63402880] = Rare({
     id = 206203,
-    quest = nil,
+    quest = 82557,
     rewards = {Achievement({id = 40851, criteria = 69719})}
 }) -- Moth'ethk
 
@@ -187,45 +190,50 @@ map.nodes[52132681] = Rare({
     }
 }) -- Murkshade
 
--- map.nodes[10002200] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69728})}
--- }) -- Murkspike
+map.nodes[61981331] = Rare({ -- patrols
+    id = 220771,
+    quest = 82565, -- 84060
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
+    rewards = {Achievement({id = 40851, criteria = 69728})}
+}) -- Murkspike
 
 -- map.nodes[12002200] = Rare({
 --     id = nil,
---     quest = nil,
+--     quest = 82563,
 --     rewards = {Achievement({id = 40851, criteria = 69725})}
--- }) -- Parasidous
+-- }) -- Parasidious
 
 map.nodes[57304857] = Rare({
     id = 221786,
     quest = 81882, -- 84068
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40851, criteria = 69715})}
 }) -- Pride of Beledar
 
 map.nodes[59702107] = Rare({
     id = 207826,
-    quest = nil,
+    quest = 82566,
     rewards = {Achievement({id = 40851, criteria = 69726})}
 }) -- Ravageant
 
 map.nodes[35943547] = Rare({
     id = 221708,
-    quest = 84067, -- 81853
+    quest = 81853, -- 84067
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40851, criteria = 69714})}
 }) -- Sir Alastair Purefire
 
-map.nodes[73215297] = Rare({
+map.nodes[73405259] = Rare({
     id = 215805,
     quest = 79271, -- 84062
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40851, criteria = 69709})}
 }) -- Sloshmuck
 
 map.nodes[42703134] = Rare({
     id = 221690,
-    quest = 84066, -- 81849
+    quest = 81849, -- 84066
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69713}),
         Transmog({item = 221246, type = L['staff']}) -- Fierce Beast Staff
@@ -234,7 +242,8 @@ map.nodes[42703134] = Rare({
 
 map.nodes[44011637] = Rare({
     id = 221648,
-    quest = 84064, -- 81791
+    quest = 81791, -- 84064
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69711}),
         Transmog({item = 221229, type = L['plate']}) -- Perchfather's Cuffs
@@ -243,19 +252,20 @@ map.nodes[44011637] = Rare({
 
 map.nodes[56486899] = Rare({
     id = 218444,
-    quest = 84061, -- 80009
+    quest = 80009, -- 84061
     rewards = {Achievement({id = 40851, criteria = 69708})}
 }) -- The Taskmaker
 
--- map.nodes[26002200] = Rare({
---     id = nil,
---     quest = nil,
---     rewards = {Achievement({id = 40851, criteria = 69723})}
--- }) -- Toadstomper
+map.nodes[66432411] = Rare({
+    id = 207803,
+    quest = 82561, -- 84055
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
+    rewards = {Achievement({id = 40851, criteria = 69723})}
+}) -- Toadstomper
 
 map.nodes[63782057] = Rare({
     id = 214905,
-    quest = nil,
+    quest = nil, -- no quest triggered
     pois = {
         Path({
             62102153, 62622116, 63162080, 63782057, 63932018, 63761978,
@@ -305,6 +315,7 @@ map.nodes[40035112] = Treasure({
 map.nodes[41795827] = Treasure({
     quest = 83263,
     note = L['caesper_note'],
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69692}),
         Recipe({item = 225639, profession = 185}) -- Recipe: Exquisitely Eviscerated Muscle
@@ -319,6 +330,7 @@ map.nodes[59525966] = Treasure({
     quest = 83284,
     location = L['in_cave'],
     note = L['dark_ritual_note'],
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69694}),
         Item({item = 225693, note = L['trinket']}) -- Shadowed Essence
@@ -332,6 +344,7 @@ map.nodes[58382715] = Treasure({
     quest = 81468,
     location = L['in_small_cave'],
     note = L['illuminated_footlocker_note'],
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69701}), --
         Toy({item = 224552}) -- Cave Spelunker's Torch
@@ -492,6 +505,7 @@ map.nodes[55145185] = Treasure({
     quest = 83273,
     requires = ns.requirement.Item(225335), -- Smuggler's Key
     location = L['smugglers_treasure_location'],
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     note = L['smugglers_treasure_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69693}), --
@@ -527,13 +541,28 @@ map.nodes[63990612] = Treasure({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[47586106] = PT.Blacksmithing({quest = 83852, id = 226280}) -- Holy Flame Forge -- review
-map.nodes[44065559] = PT.Blacksmithing({quest = 83853, id = 226281}) -- Radiant Tongs -- review
-map.nodes[35925497] = PT.Herbalism({quest = nil, id = 226305}) -- Arathi Herb Pruner -- review
-map.nodes[43095685] = PT.Mining({quest = 83911, id = 226337}) -- Devout Archaeologist's Excavator -- review
-map.nodes[42305391] = PT.Skinning({quest = nil, id = 226345}) -- Arathi Craftsman's Spokeshave -- review
-map.nodes[49316233] = PT.Tailoring({quest = nil, id = 226352}) -- Arathi Rotary Cutter -- review
-map.nodes[40116812] = PT.Tailoring({quest = nil, id = 226353}) -- Royal Outfitter's Protractor -- review
+map.nodes[42645510] = PT.Alchemy({quest = 83844, id = 226269}) -- Chemist's Purified Water
+map.nodes[41665584] = PT.Alchemy({quest = 83845, id = 226270}) -- Sanctified Mortar and Pestle
+map.nodes[47586106] = PT.Blacksmithing({quest = 83852, id = 226280}) -- Holy Flame Forge
+map.nodes[44065559] = PT.Blacksmithing({quest = 83853, id = 226281}) -- Radiant Tongs
+map.nodes[40067055] = PT.Enchanting({quest = 83862, id = 226288}) -- Essence of Holy Fire
+map.nodes[42632725] = PT.Enchanting({quest = 83868, id = 226289}) -- Enchanted Arathi Scroll
+map.nodes[46316135] = PT.Engineering({quest = 83870, id = 226296}) -- Holy Firework Dud
+map.nodes[41634893] = PT.Engineering({quest = 83871, id = 226297}) -- Arathi Safety Gloves
+map.nodes[47786330] = PT.Herbalism({quest = 83878, id = 226304}) -- Arathi Garden Trowel
+map.nodes[35975501] = PT.Herbalism({quest = 83879, id = 226305}) -- Arathi Herb Pruner
+map.nodes[43255894] = PT.Inscription({quest = 83886, id = 226312}) -- Informant's Fountain Pen
+map.nodes[42834907] = PT.Inscription({quest = 83887, id = 226313}) -- Calligrapher's Chiselled Marker
+map.nodes[47396068] = PT.Jewelcrafting({quest = 83894, id = 226320}) -- Arathi Sizing Gauges
+map.nodes[44695097] = PT.Jewelcrafting({quest = 83895, id = 226321}) -- Librarian's Magnifiers
+map.nodes[47516513] = PT.Leatherworking({quest = 83902, id = 226328}) -- Arathi Beveler Set
+map.nodes[41505783] = PT.Leatherworking({quest = 83903, id = 226329}) -- Arathi Leather Burnisher
+map.nodes[46076439] = PT.Mining({quest = 83910, id = 226336}) -- Arathi Precision Drill
+map.nodes[43095684] = PT.Mining({quest = 83911, id = 226337}) -- Devout Archaeologist's Excavator
+map.nodes[49366215] = PT.Skinning({quest = 83918, id = 226344}) -- Arathi Tanning Agent
+map.nodes[42295393] = PT.Skinning({quest = 83919, id = 226345}) -- Arathi Craftsman's Spokeshave
+map.nodes[49326231] = PT.Tailoring({quest = 83926, id = 226352}) -- Arathi Rotary Cutter
+map.nodes[40096813] = PT.Tailoring({quest = 83927, id = 226353}) -- Royal Outfitter's Protractor
 
 -------------------------------------------------------------------------------
 --------------------------- HALLOWFALL GLYPH HUNTER ---------------------------

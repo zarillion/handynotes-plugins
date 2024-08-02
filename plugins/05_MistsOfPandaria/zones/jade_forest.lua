@@ -258,7 +258,7 @@ map.nodes[39254665] = Treasure({
     quest = 31307,
     rewards = {
         Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
-        Transmog({item = 86199, slot = L['2h_mace']}) -- Jade Infused Blade
+        Transmog({item = 86199, slot = L['1h_sword']}) -- Jade Infused Blade
     }
 }) -- Jade Infused Blade
 

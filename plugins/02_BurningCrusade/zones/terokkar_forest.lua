@@ -66,7 +66,7 @@ map.nodes[59802420] = Rare({
         Achievement({id = 1312, criteria = 4520}), -- Bloody Rare
         Transmog({item = 31231, slot = L['cloth']}), -- Feathered Sash
         Transmog({item = 31229, slot = L['leather']}), -- Feathered Waistband
-        Transmog({item = 31231, slot = L['mail']}), -- Feathered Sash
+        Transmog({item = 31228, slot = L['mail']}), -- Feathered Belt
         Transmog({item = 31227, slot = L['plate']}) -- Feathered Girdle
     },
     pois = {

@@ -595,7 +595,7 @@ tpf.nodes[53536521] = Rare({
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
         Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
-        Transmog({item = 201447, slot = L['cosmetic']}), -- Primal Revenant's Breezeblade
+        Transmog({item = 201447, slot = L['1h_sword']}), -- Primal Revenant's Breezeblade
         DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek
     }
 }) -- Avalantus
@@ -803,21 +803,21 @@ local TitanChest = Class('TitanChest', ns.node.Node, {
     group = ns.groups.TITAN_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Transmog({item = 201048, slot = L['cosmetic']}), -- Tyrhold Epaulets
-        Transmog({item = 201049, slot = L['cosmetic']}), -- Tyrhold Robe
-        Transmog({item = 201050, slot = L['cosmetic']}), -- Tyrhold Leggings
-        Transmog({item = 201051, slot = L['cosmetic']}), -- Tyrhold Slippers
-        Transmog({item = 201052, slot = L['cosmetic']}), -- Tyrhold Visage
-        Transmog({item = 201053, slot = L['cosmetic']}), -- Tyrhold Gloves
-        Transmog({item = 201054, slot = L['cosmetic']}), -- Tyrhold Drape
-        Transmog({item = 201056, slot = L['cosmetic']}), -- Tyrhold Sash
-        Transmog({item = 201455, slot = L['cosmetic']}), -- Tyrhold Broadsword
-        Transmog({item = 201456, slot = L['cosmetic']}), -- Tyrhold Carbine
-        Transmog({item = 201457, slot = L['cosmetic']}), -- Tyrhold Relic
-        Transmog({item = 201458, slot = L['cosmetic']}), -- Aegis of Tyrhold
-        Transmog({item = 201459, slot = L['cosmetic']}), -- Tyrhold Shortsword
-        Transmog({item = 201460, slot = L['cosmetic']}), -- Gavel of Tyrhold
-        Transmog({item = 201461, slot = L['cosmetic']}), -- Tyrhold Pinnacle
+        Transmog({item = 201048, slot = L['cloth']}), -- Tyrhold Epaulets
+        Transmog({item = 201049, slot = L['cloth']}), -- Tyrhold Robe
+        Transmog({item = 201050, slot = L['cloth']}), -- Tyrhold Leggings
+        Transmog({item = 201051, slot = L['cloth']}), -- Tyrhold Slippers
+        Transmog({item = 201052, slot = L['cloth']}), -- Tyrhold Visage
+        Transmog({item = 201053, slot = L['cloth']}), -- Tyrhold Gloves
+        Transmog({item = 201054, slot = L['cloak']}), -- Tyrhold Drape
+        Transmog({item = 201056, slot = L['cloth']}), -- Tyrhold Sash
+        Transmog({item = 201455, slot = L['2h_sword']}), -- Tyrhold Broadsword
+        Transmog({item = 201456, slot = L['gun']}), -- Tyrhold Carbine
+        Transmog({item = 201457, slot = L['offhand']}), -- Tyrhold Relic
+        Transmog({item = 201458, slot = L['shield']}), -- Aegis of Tyrhold
+        Transmog({item = 201459, slot = L['1h_sword']}), -- Tyrhold Shortsword
+        Transmog({item = 201460, slot = L['2h_mace']}), -- Gavel of Tyrhold
+        Transmog({item = 201461, slot = L['staff']}), -- Tyrhold Pinnacle
         Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Item({item = 199068, quest = 70537}), -- Time-Lost Memo
@@ -1767,16 +1767,16 @@ map.nodes[61373139] = Vendor({
     rewards = {
         Mount({item = 192796, id = 1638, count = 20000}), -- Explorer's Stonehide Packbeast
         Spacer(), --
-        Transmog({item = 208456, slot = L['cosmetic'], count = 15000}), -- Archivist's Elegant Bag
-        Transmog({item = 212794, slot = L['cosmetic'], count = 15000}), -- Historian's Hefty Habersack
-        Transmog({item = 208452, slot = L['cosmetic'], count = 15000}), -- Historian's Dapper Cap
-        Transmog({item = 208547, slot = L['cosmetic'], count = 12000}), -- Archivist's Reading Spectacles
-        Transmog({item = 208546, slot = L['cosmetic'], count = 12000}), -- Archivist's Rose-Tinted Glasses
-        Transmog({item = 212637, slot = L['cosmetic'], count = 7000}), -- Historian's Striders
-        Transmog({item = 212636, slot = L['cosmetic'], count = 7000}), -- Historian's Trousers
-        Transmog({item = 212635, slot = L['cosmetic'], count = 5000}), -- Historian's Utility Belt
-        Transmog({item = 212634, slot = L['cosmetic'], count = 5000}), -- Historian's Fingerless Gloves
-        Transmog({item = 212633, slot = L['cosmetic'], count = 5000}), -- Historian's Fitted Vest
+        Transmog({item = 208456, slot = L['cloak'], count = 15000}), -- Archivist's Elegant Bag
+        Transmog({item = 212794, slot = L['cloak'], count = 15000}), -- Historian's Hefty Habersack
+        Transmog({item = 208452, count = 15000}), -- Historian's Dapper Cap
+        Transmog({item = 208547, count = 12000}), -- Archivist's Reading Spectacles
+        Transmog({item = 208546, count = 12000}), -- Archivist's Rose-Tinted Glasses
+        Transmog({item = 212637, count = 7000}), -- Historian's Striders
+        Transmog({item = 212636, count = 7000}), -- Historian's Trousers
+        Transmog({item = 212635, count = 5000}), -- Historian's Utility Belt
+        Transmog({item = 212634, count = 5000}), -- Historian's Fingerless Gloves
+        Transmog({item = 212633, count = 5000}), -- Historian's Fitted Vest
         Spacer(), --
         Transmog({item = 208458, slot = L['offhand'], count = 10000}), -- Archivist's Extravagant Lantern
         Transmog({item = 208450, slot = L['offhand'], count = 10000}), -- Coiled Archivist's Rope
@@ -1836,9 +1836,9 @@ local HearthstoneEvent = Class('HearthstoneEvent', Collectible, {
         Mount({item = 212522, id = 1959}), -- Compass Rose
         Pet({item = 212606, id = 4406}), -- Sarge
         Toy({item = 212337}), -- Stone of the Hearth
-        Transmog({item = 212607, type = L['cosmetic']}), -- Reno's Lucky Hat
-        Transmog({item = 212644, type = L['cosmetic']}), -- Taverner's Belt
-        Transmog({item = 212336, type = L['cosmetic']}), -- The Tavern's Tabard
+        Transmog({item = 212607}), -- Reno's Lucky Hat
+        Transmog({item = 212644}), -- Taverner's Belt
+        Transmog({item = 212336, slot = L['tabard']}), -- The Tavern's Tabard
         Item({item = 212335, note = L['bag']}) -- Collectors Carryall
     },
     IsEnabled = function() return ns.IsCalendarEventActive(1462) end
@@ -2015,16 +2015,16 @@ map.nodes[61373139] = Vendor({
     rewards = {
         Mount({item = 192796, id = 1638, count = 20000}), -- Explorer's Stonehide Packbeast
         Spacer(), --
-        Transmog({item = 208456, slot = L['cosmetic'], count = 15000}), -- Archivist's Elegant Bag
-        Transmog({item = 212794, slot = L['cosmetic'], count = 15000}), -- Historian's Hefty Habersack
-        Transmog({item = 208452, slot = L['cosmetic'], count = 15000}), -- Historian's Dapper Cap
-        Transmog({item = 208547, slot = L['cosmetic'], count = 12000}), -- Archivist's Reading Spectacles
-        Transmog({item = 208546, slot = L['cosmetic'], count = 12000}), -- Archivist's Rose-Tinted Glasses
-        Transmog({item = 212637, slot = L['cosmetic'], count = 7000}), -- Historian's Striders
-        Transmog({item = 212636, slot = L['cosmetic'], count = 7000}), -- Historian's Trousers
-        Transmog({item = 212635, slot = L['cosmetic'], count = 5000}), -- Historian's Utility Belt
-        Transmog({item = 212634, slot = L['cosmetic'], count = 5000}), -- Historian's Fingerless Gloves
-        Transmog({item = 212633, slot = L['cosmetic'], count = 5000}), -- Historian's Fitted Vest
+        Transmog({item = 208456, slot = L['cloak'], count = 15000}), -- Archivist's Elegant Bag
+        Transmog({item = 212794, slot = L['cloak'], count = 15000}), -- Historian's Hefty Habersack
+        Transmog({item = 208452, count = 15000}), -- Historian's Dapper Cap
+        Transmog({item = 208547, count = 12000}), -- Archivist's Reading Spectacles
+        Transmog({item = 208546, count = 12000}), -- Archivist's Rose-Tinted Glasses
+        Transmog({item = 212637, count = 7000}), -- Historian's Striders
+        Transmog({item = 212636, count = 7000}), -- Historian's Trousers
+        Transmog({item = 212635, count = 5000}), -- Historian's Utility Belt
+        Transmog({item = 212634, count = 5000}), -- Historian's Fingerless Gloves
+        Transmog({item = 212633, count = 5000}), -- Historian's Fitted Vest
         Spacer(), --
         Transmog({item = 208458, slot = L['offhand'], count = 10000}), -- Archivist's Extravagant Lantern
         Transmog({item = 208450, slot = L['offhand'], count = 10000}), -- Coiled Archivist's Rope
@@ -2056,49 +2056,14 @@ local Xiulan = Class('Xiulan', Vendor, {
         Mount({item = 211084, id = 1944, count = 1200000}), -- Gold Resonating Crystal
         Spacer(), --
         Appearance({item = 211300, count = 200000}), -- Arsenal: Whispering Temple Blades
-        Transmog({
-            item = 211099,
-            type = L['shield'],
-            note = L['cosmetic'],
-            count = 100000
-        }), -- Gilded Scarab Bulwark
-        Transmog({
-            item = 211096,
-            type = L['gun'],
-            note = L['cosmetic'],
-            count = 100000
-        }), -- Gold-Plated Witchhunter's Carbine
-        Transmog({
-            item = 211294,
-            type = L['polearm'],
-            note = L['cosmetic'],
-            count = 100000
-        }), -- Marauder King's Body Carver
-        Transmog({
-            item = 211097,
-            type = L['2h_axe'],
-            note = L['cosmetic'],
-            count = 90000
-        }), -- Gilded Crown Splitter
-        Transmog({
-            item = 211159,
-            type = L['shield'],
-            note = L['cosmetic'],
-            count = 80000
-        }), -- Royal Witch Doctor's Guard
-        Transmog({
-            item = 211145,
-            type = L['cloak'],
-            note = L['cosmetic'],
-            count = 80000
-        }), -- Royal Witch Doctor's Trophies
-        Transmog({
-            item = 211295,
-            type = L['plate'],
-            note = L['cosmetic'],
-            count = 75000
-        }), -- Wrathful Crusader's Helm
-        Transmog({item = 211259, note = L['cosmetic'], count = 75000}) -- Regal Gryphon Rider's Headgear
+        Transmog({item = 211099, slot = L['shield'], count = 100000}), -- Gilded Scarab Bulwark
+        Transmog({item = 211096, slot = L['gun'], count = 100000}), -- Gold-Plated Witchhunter's Carbine
+        Transmog({item = 211294, slot = L['polearm'], count = 100000}), -- Marauder King's Body Carver
+        Transmog({item = 211097, slot = L['2h_axe'], count = 90000}), -- Gilded Crown Splitter
+        Transmog({item = 211159, slot = L['shield'], count = 80000}), -- Royal Witch Doctor's Guard
+        Transmog({item = 211145, slot = L['cloak'], count = 80000}), -- Royal Witch Doctor's Trophies
+        Transmog({item = 211295, slot = L['plate'], count = 75000}), -- Wrathful Crusader's Helm
+        Transmog({item = 211259, count = 75000}) -- Regal Gryphon Rider's Headgear
     }
 }) -- Ms. Xiulan <Madam Goya's Assistant>
 

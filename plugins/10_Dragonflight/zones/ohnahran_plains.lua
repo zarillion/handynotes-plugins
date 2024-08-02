@@ -868,20 +868,20 @@ local ClanChest = Class('ClanChest', ns.node.Node, {
     group = ns.groups.CLAN_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Transmog({item = 201024, slot = L['cosmetic']}), -- Nokhudon Mantle
-        Transmog({item = 201025, slot = L['cosmetic']}), -- Nokhudon Harness
-        Transmog({item = 201027, slot = L['cosmetic']}), -- Nokhudon Breeches
-        Transmog({item = 201028, slot = L['cosmetic']}), -- Nokhudon Boots
-        Transmog({item = 201029, slot = L['cosmetic']}), -- Nokhudon Hood
-        Transmog({item = 201030, slot = L['cosmetic']}), -- Nokhudon Grips
-        Transmog({item = 201031, slot = L['cosmetic']}), -- Nokhudon Cloak
-        Transmog({item = 201032, slot = L['cosmetic']}), -- Nokhudon Wraps
-        Transmog({item = 201034, slot = L['cosmetic']}), -- Nokhudon Girdle
-        Transmog({item = 201380, slot = L['cosmetic']}), -- Nokhud Hunter's Bow
-        Transmog({item = 201382, slot = L['cosmetic']}), -- Centaur Warglaives
-        Transmog({item = 201383, slot = L['cosmetic']}), -- Nokhud Stalker's Spear
-        Transmog({item = 201384, slot = L['cosmetic']}), -- Centaur Tracker's Javelin
-        Transmog({item = 201385, slot = L['cosmetic']}), -- Nokhud Centaur Warstaff
+        Transmog({item = 201024, slot = L['mail']}), -- Nokhudon Mantle
+        Transmog({item = 201025, slot = L['mail']}), -- Nokhudon Harness
+        Transmog({item = 201027, slot = L['mail']}), -- Nokhudon Breeches
+        Transmog({item = 201028, slot = L['mail']}), -- Nokhudon Boots
+        Transmog({item = 201029, slot = L['mail']}), -- Nokhudon Hood
+        Transmog({item = 201030, slot = L['mail']}), -- Nokhudon Grips
+        Transmog({item = 201031, slot = L['cloak']}), -- Nokhudon Cloak
+        Transmog({item = 201032, slot = L['mail']}), -- Nokhudon Wraps
+        Transmog({item = 201034, slot = L['mail']}), -- Nokhudon Girdle
+        Transmog({item = 201380, slot = L['bow']}), -- Nokhud Hunter's Bow
+        Transmog({item = 201382, slot = L['warglaive']}), -- Centaur Warglaives
+        Transmog({item = 201383, slot = L['polearm']}), -- Nokhud Stalker's Spear
+        Transmog({item = 201384, slot = L['polearm']}), -- Centaur Tracker's Javelin
+        Transmog({item = 201385, slot = L['staff']}), -- Nokhud Centaur Warstaff
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 200093}), -- Centaur Hunting Trophy
         Currency({id = 2003}) -- Dragon Isles Supplies
@@ -930,8 +930,8 @@ local LightningBoundChest = Class('LightningBoundChest', ns.node.Node, {
     group = ns.groups.LIGHTNING_BOUND_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Transmog({item = 201447, slot = L['cosmetic']}), -- Primal Revenant's Breezeblade
-        Transmog({item = 201448, slot = L['cosmetic']}), -- Primal Revenant's Windwall
+        Transmog({item = 201447, slot = L['1h_sword']}), -- Primal Revenant's Breezeblade
+        Transmog({item = 201448, slot = L['shield']}), -- Primal Revenant's Windwall
         Item({item = 199065, quest = 70534}), -- Sorrowful Letter
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Item({item = 192055}), -- Dragon Isles Artifact
@@ -1896,7 +1896,7 @@ map.nodes[24005600] = ElusiveCreature({
 
 map.nodes[81891730] = GrandHunt({
     mapID = map.id,
-    areaPOI = 7098,
+    areaPOI = 7053,
     criteria = 55677
 }) -- Northern Ohn'ahran Plains Hunt
 

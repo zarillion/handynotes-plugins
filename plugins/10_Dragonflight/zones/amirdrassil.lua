@@ -116,11 +116,16 @@ map.nodes[46507063] = Vendor({
     rewards = {
         Transmog({
             item = 210424,
-            slot = _G.INVTYPE_TABARD,
+            slot = L['tabard'],
             count = 250,
             faction = 'Alliance'
         }), -- Darnassian Tabard
-        Transmog({item = 210418, slot = L['cosmetic'], count = 250}), -- Darnassian Cloak
-        Transmog({item = 210415, slot = L['cosmetic'], count = 250}) -- Darnassian Moonsilver Spaulders
+        Transmog({
+            item = 210418,
+            slot = L['cloak'],
+            count = 250,
+            faction = 'Alliance'
+        }), -- Darnassian Cloak
+        Transmog({item = 210415, count = 250, faction = 'Alliance'}) -- Darnassian Moonsilver Spaulders
     }
 }) -- Moon Priestess Lasara

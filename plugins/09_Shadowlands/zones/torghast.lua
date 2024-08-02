@@ -35,23 +35,23 @@ map.nodes[53284528] = Node({
     icon = 3642306,
     scale = 1.5,
     rewards = {
-        Transmog({item = 187027, slot = L['cosmetic']}), -- Skoldus' Shoulder Skewers
-        Transmog({item = 187030, slot = L['cosmetic']}), -- Deathsworn Shoulderguards
-        Transmog({item = 187031, slot = L['cosmetic']}), -- Towering Mantle of the Maw
-        Transmog({item = 187032, slot = L['cosmetic']}), -- Spaulders of Prophetic Death
-        Transmog({item = 187038, slot = L['cosmetic']}), -- Shoulders of Vehement Slicing
-        Transmog({item = 187039, slot = L['cosmetic']}), -- Malleare's Stygian Pauldrons
-        Transmog({item = 187040, slot = L['cosmetic']}), -- Twin-Scythe Spaulders
-        Transmog({item = 187041, slot = L['cosmetic']}), -- Shoulders of Unbreakable Demise
-        Transmog({item = 187042, slot = L['cosmetic']}), -- Occultist's Ornamental Gorget
-        Transmog({item = 187043, slot = L['cosmetic']}), -- Spiked Citadel Shoulderguards
-        Transmog({item = 187044, slot = L['cosmetic']}), -- Deathbringer's Epaulettes
-        Transmog({item = 187045, slot = L['cosmetic']}), -- Veiled Tormentor's Mantle
-        Transmog({item = 187046, slot = L['cosmetic']}), -- Pauldrons of Immaculate Laceration
-        Transmog({item = 187096, slot = L['cosmetic']}), -- Adamant Vault Shoulderplates
-        Transmog({item = 188686, slot = L['cosmetic']}), -- Burnished Soul Restraint
-        Transmog({item = 188687, slot = L['cosmetic']}), -- Burnished Skull Crescent
-        Transmog({item = 188688, slot = L['cosmetic']}), -- Burnished Eye Crescent
+        Transmog({item = 187027}), -- Skoldus' Shoulder Skewers
+        Transmog({item = 187030}), -- Deathsworn Shoulderguards
+        Transmog({item = 187031}), -- Towering Mantle of the Maw
+        Transmog({item = 187032}), -- Spaulders of Prophetic Death
+        Transmog({item = 187038}), -- Shoulders of Vehement Slicing
+        Transmog({item = 187039}), -- Malleare's Stygian Pauldrons
+        Transmog({item = 187040}), -- Twin-Scythe Spaulders
+        Transmog({item = 187041}), -- Shoulders of Unbreakable Demise
+        Transmog({item = 187042}), -- Occultist's Ornamental Gorget
+        Transmog({item = 187043}), -- Spiked Citadel Shoulderguards
+        Transmog({item = 187044}), -- Deathbringer's Epaulettes
+        Transmog({item = 187045}), -- Veiled Tormentor's Mantle
+        Transmog({item = 187046}), -- Pauldrons of Immaculate Laceration
+        Transmog({item = 187096}), -- Adamant Vault Shoulderplates
+        Transmog({item = 188686, slot = L['cloak']}), -- Burnished Soul Restraint
+        Transmog({item = 188687, slot = L['cloak']}), -- Burnished Skull Crescent
+        Transmog({item = 188688, slot = L['cloak']}), -- Burnished Eye Crescent
         Spacer(), Toy({item = 187075}), -- Box of Rattling Chains
         Spacer(), Section(L['torghast_soulshape_note']),
         Item({item = 189977, quest = 65509, covenant = NIGHTFAE}), -- Bat Soul
@@ -71,20 +71,20 @@ map.nodes[57284528] = Node({
     icon = 3642306,
     scale = 1.5,
     rewards = {
-        Transmog({item = 187034, slot = L['cosmetic']}), -- Gilded Agony Cage
-        Transmog({item = 187082, slot = L['cosmetic']}), -- Gilded Skull Crescent
-        Transmog({item = 187083, slot = L['cosmetic']}), -- Gilded Eye Crescent
-        Transmog({item = 187085, slot = L['cosmetic']}), -- Sterling Shoulder Skewers
-        Transmog({item = 187086, slot = L['cosmetic']}), -- Deathsworn's Sterling Shoulderguards
-        Transmog({item = 187087, slot = L['cosmetic']}), -- Sterling Impaler's Mantle
-        Transmog({item = 187088, slot = L['cosmetic']}), -- Sterling Skullwing Shoulders
-        Transmog({item = 187089, slot = L['cosmetic']}), -- Sterling Blade-Tipped Spaulders
-        Transmog({item = 187090, slot = L['cosmetic']}), -- Sterling Wingblade Pauldrons
-        Transmog({item = 187095, slot = L['cosmetic']}), -- Sterling Spiked Pauldrons
-        Transmog({item = 187098, slot = L['cosmetic']}), -- Sterling Twin-Scythe Shoulders
-        Transmog({item = 187099, slot = L['cosmetic']}), -- Sterling Fortress Spaulders
-        Transmog({item = 187100, slot = L['cosmetic']}), -- Sterling Ornamental Mantle
-        Transmog({item = 187101, slot = L['cosmetic']}) -- Sterling Shoulder-Shields
+        Transmog({item = 187034, slot = L['cloak']}), -- Gilded Agony Cage
+        Transmog({item = 187082, slot = L['cloak']}), -- Gilded Skull Crescent
+        Transmog({item = 187083, slot = L['cloak']}), -- Gilded Eye Crescent
+        Transmog({item = 187085}), -- Sterling Shoulder Skewers
+        Transmog({item = 187086}), -- Deathsworn's Sterling Shoulderguards
+        Transmog({item = 187087}), -- Sterling Impaler's Mantle
+        Transmog({item = 187088}), -- Sterling Skullwing Shoulders
+        Transmog({item = 187089}), -- Sterling Blade-Tipped Spaulders
+        Transmog({item = 187090}), -- Sterling Wingblade Pauldrons
+        Transmog({item = 187095}), -- Sterling Spiked Pauldrons
+        Transmog({item = 187098}), -- Sterling Twin-Scythe Shoulders
+        Transmog({item = 187099}), -- Sterling Fortress Spaulders
+        Transmog({item = 187100}), -- Sterling Ornamental Mantle
+        Transmog({item = 187101}) -- Sterling Shoulder-Shields
     }
 })
 
@@ -362,14 +362,15 @@ map.nodes[62947482] = Node({
     scale = 1.5,
     requires = ns.requirement.GarrisonTalent(1788),
     rewards = {
-        Transmog({item = 187081, slot = L['cosmetic']}), -- Blackflame Skull Crescent
-        Transmog({item = 187093, slot = L['cosmetic']}), -- Gilded Ornamental Mantle
-        Transmog({item = 187092, slot = L['cosmetic']}), -- Gilded Shoulder-Shields
-        Transmog({item = 187094, slot = L['cosmetic']}), -- Gilded Spike Fortresses
-        Transmog({item = 187091, slot = L['cosmetic']}), -- Gilded Twin-Scythe Shoulders
-        Transmog({item = 187084, slot = L['cosmetic']}), -- Jailer's Eye Crescent
-        Transmog({item = 187025, slot = L['cosmetic']}), -- Painbringer's Back-Prison
-        Spacer(), Pet({item = 186549, id = 3130}), -- Gilded Darknight
+        Transmog({item = 187081, slot = L['cloak']}), -- Blackflame Skull Crescent
+        Transmog({item = 187084, slot = L['cloak']}), -- Jailer's Eye Crescent
+        Transmog({item = 187025, slot = L['cloak']}), -- Painbringer's Back-Prison
+        Transmog({item = 187093}), -- Gilded Ornamental Mantle
+        Transmog({item = 187092}), -- Gilded Shoulder-Shields
+        Transmog({item = 187094}), -- Gilded Spike Fortresses
+        Transmog({item = 187091}), -- Gilded Twin-Scythe Shoulders
+        Spacer(), --
+        Pet({item = 186549, id = 3130}), -- Gilded Darknight
         Toy({item = 187417}), -- Adamant Vaults Cell
         Item({item = 187148, quest = 64347}), -- Death-Bound Shard
         Item({item = 185049, quest = 63605, covenant = NIGHTFAE}), -- Sauolisk Soul
