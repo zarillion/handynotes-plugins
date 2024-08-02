@@ -187,7 +187,7 @@ function Addon:OnInitialize()
         if not ns.expansion then
             error('Expansion not set: ' .. ADDON_NAME)
         end
-        local expansion_name = EJ_GetTierInfo(ns.expansion)
+        local expansion_name = _G['EXPANSION_NAME' .. (ns.expansion - 1)]
         ns.plugin_name = 'HandyNotes: ' .. expansion_name
         ns.options.name = ('%02d - '):format(ns.expansion) .. expansion_name
     end)

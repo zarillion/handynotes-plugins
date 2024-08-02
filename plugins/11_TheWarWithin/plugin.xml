@@ -1,0 +1,7 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+  <Script file="common.lua"/>
+  <Script file="zones\azj_kahet.lua"/>
+  <Script file="zones\hallowfall.lua"/>
+  <Script file="zones\isle_of_dorn.lua"/>
+  <Script file="zones\ringing_deeps.lua"/>
+</Ui>

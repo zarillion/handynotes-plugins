@@ -1,18 +1,27 @@
 {
     "[lua]": {
         "editor.defaultFormatter": "Koihik.vscode-lua-format",
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
     },
     "[xml]": {
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
     },
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
     "files.eol": "\n",
-    "files.exclude": { "release/": true },
+    "files.exclude": {
+        "**/__pycache__/": true
+    },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.watcherExclude": { "release/**": true },
     "lua.preferLuaCheckErrors": true,
-    "lua.targetVersion": "5.3",
-    "vscode-lua-format.binaryPath": ".vscode/lua-format-wrapper"
+    "lua.targetVersion": "5.1",
+    "vscode-lua-format.binaryPath": ".vscode/lua-format-wrapper",
+    "python.analysis.extraPaths": [
+        "./scripts"
+    ]
 }

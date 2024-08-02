@@ -35,6 +35,8 @@ local Circle = ns.poi.Circle
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local ItemStatus = ns.tooltip.ItemStatus
+
 local DC = ns.DRAGON_CUSTOMIZATIONS
 
 -------------------------------------------------------------------------------
@@ -1075,27 +1077,10 @@ local RecipeRat = Class('RecipeRat', Collectible, {
 }) -- Recipe Rat
 
 function RecipeRat.getters:note()
-    local function status(id, itemsNeed, itemsNeedString)
-        local itemsHave = GetItemCount(id, true);
-        if ns.PlayerHasItem(id, itemsNeed) then
-            return ns.status.Green(itemsHave .. '/' .. itemsNeedString)
-        else
-            return ns.status.Red(itemsHave .. '/' .. itemsNeedString)
-        end
-    end
-
-    local function getString(id)
-        local s = '??????'
-        return s:sub(1, #tostring(GetItemCount(id))) -- 1/? or 26/?? or 159/???
-    end
-
-    local note = L['recipe_rat_note_1'] .. '\n\n'
-    note = note .. status(202252, 1, '1') .. ' ' .. L['recipe_rat_note_2'] ..
-               '\n\n'
-    note = note .. status(204340, 30, '30') .. ' ' .. L['recipe_rat_note_3'] ..
-               '\n\n'
-    note = note .. status(3927, 1, getString(3927)) .. ' ' ..
-               L['recipe_rat_note_4']
+    local note = L['recipe_rat_note_1']
+    note = note .. ItemStatus(202252, 1, L['recipe_rat_note_2'])
+    note = note .. ItemStatus(204340, 30, L['recipe_rat_note_3'])
+    note = note .. ItemStatus(3927, '?', L['recipe_rat_note_4'])
     return note
 end
 
@@ -1116,7 +1101,7 @@ local MossyMammoth = Class('MossyMammoth', Collectible, {
 }) -- Mossy Mammoth
 
 function MossyMammoth.getters:note()
-    local function HasItem(id) return GetItemCount(id, true) > 0 end
+    local function HasItem(id) return C_Item.GetItemCount(id, true) > 0 end
 
     local function HasMount(id)
         return select(11, C_MountJournal.GetMountInfoByID(id))

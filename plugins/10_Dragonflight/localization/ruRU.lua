@@ -623,17 +623,17 @@ L['new_perspective_note'] = 'Сделайте снимок с помощью С�
 L['options_icons_new_perspective'] = '{achievement:16634}'
 L['options_icons_new_perspective_desc'] = 'Живописные места для достижения {achievement:16634}.'
 
-L['fringe_benefits_note'] = nil
+L['fringe_benefits_note'] = 'Выполните 8 ежедневных заданий, чтобы получить достижение.'
 L['options_icons_fringe_benefits'] = '{achievement:19507}'
-L['options_icons_fringe_benefits_desc'] = nil
+L['options_icons_fringe_benefits_desc'] = 'Отобразить локацию, где выполняются ежедневные задания для достижения {achievement:19507}.'
 
 L['little_scales_daycare_note'] = 'Вы должны сделать линейку заданий в течение нескольких дней, начиная с {quest:72664} у {npc:197478}, чтобы заработать это достижение и питомца.'
 L['options_icons_whelp'] = '{achievement:18384}'
-L['options_icons_whelp_desc'] = nil
+L['options_icons_whelp_desc'] = 'Отобразить локацию, где выполняются ежедневные задания для достижения {achievement:18384}.'
 
 L['ruby_feast_gourmand'] = 'Каждый день случайно приглашенный шеф-повар подает разные блюда и напитки.'
 L['options_icons_ruby_feast_gourmand'] = '{achievement:16556}'
-L['options_icons_ruby_feast_gourmand_desc'] = nil
+L['options_icons_ruby_feast_gourmand_desc'] = 'Отобразить локацию, где выполняются ежедневные задания для достижения {achievement:16556}.'
 
 L['sorotis_note'] = 'Обменяйте {item:199906} на репутацию c {faction:2510}.'
 L['lillian_brightmoon_note'] = 'Обменять {item:201412} на репутацию с {faction:2507}.'

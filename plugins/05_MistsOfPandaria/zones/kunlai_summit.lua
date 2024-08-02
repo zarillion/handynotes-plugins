@@ -161,7 +161,7 @@ map.nodes[36667984] = Rare({
     }
 }) -- Ski'thik
 
-map.nodes[73807740] = Rare({
+map.nodes[74147879] = Rare({
     id = 50769,
     note = L['multiple_spawns'],
     rewards = {
@@ -177,7 +177,7 @@ map.nodes[73807740] = Rare({
         Transmog({item = 87620, slot = L['plate']}), -- Bracers of the Frozen Summit
         Transmog({item = 87621, slot = L['plate']}) -- Wristguards of Great Fortune
     },
-    pois = {POI({74407920, 73207640})}
+    pois = {POI({74407920, 73207640, 73807740})}
 }) -- Zai the Outcast
 
 -------------------------------------------------------------------------------

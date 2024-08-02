@@ -993,7 +993,7 @@ end
 local Flag = Class('Flag', Collectible, {
     icon = 1723999,
     label = L['dragonscale_expedition_flag'], -- Dragonscale Expedition Flag
-    rlabel = ns.status.LightBlue('+250 ' .. select(1, GetFactionInfoByID(2507))), -- Dragonscale Expedition
+    rlabel = ns.tooltip.ReputationGain(250, 2507), -- Dragonscale Expedition
     group = ns.groups.FLAG,
     requires = {
         ns.requirement.Reputation(2507, 6, true), -- Dragonscale Expedition
@@ -1849,11 +1849,11 @@ local GRAND_HUNT_AREA_POIS = {
     [7095] = 'Eastern Azure Span Hunt',
     [7096] = 'Southern Azure Span Hunt',
     [7097] = 'Southern Thaldrazus Hunt',
-    [7098] = 'Northern Ohnahran Plains Hunt',
+    [7053] = 'Northern Ohnahran Plains Hunt',
     [7099] = 'Northern Thaldraszus Hunt',
     [7342] = 'Grand Hunts (Ohnahran Plains',
-    [7343] = 'Grand Hunts (Thaldraszus)',
-    [7344] = 'Grand Hunts (The Waking Shore)',
+    [7343] = 'Grand Hunts (The Waking Shore)',
+    [7344] = 'Grand Hunts (Thaldraszus)',
     [7345] = 'Grand Hunts (The Azure Span)'
 }
 
@@ -1868,7 +1868,7 @@ local GrandHunt = Class('GrandHunt', Collectible, {
     icon = 237377,
     group = ns.groups.GRAND_HUNTS,
     IsEnabled = function(self)
-        local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
+        local activePOIs = C_AreaPoiInfo.GetEventsForMap(self.mapID)
         for a = 1, #activePOIs do
             if activePOIs[a] == self.areaPOI then return false end
         end
@@ -1913,7 +1913,7 @@ end
 
 ns.node.GrandHunt = GrandHunt
 
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
+hooksecurefunc(AreaPOIEventPinMixin, 'TryShowTooltip', function(self)
     if self and self.areaPoiID then
         local mapID = self:GetMap().mapID
         local group = ns.groups.GRAND_HUNTS

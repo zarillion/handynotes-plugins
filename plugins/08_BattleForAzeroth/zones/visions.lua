@@ -231,10 +231,10 @@ stormwind.nodes[43018320] = CHEST3
 stormwind.nodes[44658694] = CHEST3
 stormwind.nodes[47478888] = CHEST3
 stormwind.nodes[50169002] = CHEST3
-stormwind.nodes[54048542] = CHEST3
+stormwind.nodes[54388540] = CHEST3
 
 -- Old Town
-stormwind.nodes[72056202] = CHEST3
+stormwind.nodes[72516226] = CHEST3
 stormwind.nodes[73565625] = CHEST3
 stormwind.nodes[75286476] = CHEST3
 stormwind.nodes[76475374] = Clone(CHEST3, {note = L['inside_building']})
@@ -249,12 +249,12 @@ stormwind.nodes[58405510] = Crystal({note = L['c_on_small_hill']})
 -- Trade District
 stormwind.nodes[60406880] = Crystal({note = L['c_alley_corner']})
 stormwind.nodes[62007690] = Crystal({note = L['c_behind_mailbox']})
-stormwind.nodes[66107570] = Crystal({note = L['c_behind_cart']})
+stormwind.nodes[66737643] = Crystal({note = L['c_behind_cart']})
 stormwind.nodes[69007310] = Crystal({note = L['c_left_inquisitor']})
 
 -- Dwarven District
 stormwind.nodes[62703700] = Crystal({note = L['c_forge_corner']})
-stormwind.nodes[63404170] = Crystal()
+stormwind.nodes[62814226] = Crystal()
 stormwind.nodes[64603090] = Crystal({note = L['c_behind_boxes']})
 stormwind.nodes[67304470] = Crystal({note = L['c_forge_corner']})
 
@@ -262,11 +262,11 @@ stormwind.nodes[67304470] = Crystal({note = L['c_forge_corner']})
 stormwind.nodes[44208790] = Crystal({note = L['c_walkway_corner']})
 stormwind.nodes[47408160] = Crystal({note = L['c_behind_house_counter']})
 stormwind.nodes[47708940] = Crystal({note = L['c_walkway_platform']})
-stormwind.nodes[52408340] = Crystal({note = L['c_behind_house_counter']})
+stormwind.nodes[52338295] = Crystal({note = L['c_behind_house_counter']})
 
 -- Old Town
 stormwind.nodes[74605920] = Crystal({note = L['c_behind_boxes']})
-stormwind.nodes[75605340] = Crystal({note = L['c_bar_upper']})
+stormwind.nodes[76655261] = Crystal({note = L['c_bar_upper']})
 stormwind.nodes[75606460] = Crystal({note = L['c_behind_mailbox']})
 stormwind.nodes[76506850] = Crystal({note = L['c_behind_stables']})
 

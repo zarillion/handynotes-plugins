@@ -1747,7 +1747,7 @@ local Brendormi = Class('Brendormi', Vendor, {
 }) -- Brendormi <Field Primal Researcher>
 
 function Brendormi.getters:note()
-    local item = GetItemCount(202039, true) -- Essence of the Storm
+    local item = C_Item.GetItemCount(202039, true) -- Essence of the Storm
     local currency = C_CurrencyInfo.GetCurrencyInfo(2118).quantity -- Elemental Overflow
     local note = L['brendormi_note_start'] .. '\n\n'
     note = note .. format(L['brendormi_note_item'], item) .. '\n'
