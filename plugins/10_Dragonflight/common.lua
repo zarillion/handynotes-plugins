@@ -481,6 +481,12 @@ ns.groups.GOGGLE_WOBBLE = Group('goggle_wobble', 133023, {
     achievement = 19791
 })
 
+ns.groups.JUST_ONE_MORE_THING = Group('just_one_more_thing', 1411833, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 19792
+})
+
 -------------------------------------------------------------------------------
 --------------------------------- ELITE RARES ---------------------------------
 -------------------------------------------------------------------------------
@@ -2056,3 +2062,16 @@ local GoggleWobble = Class('GoggleWobble', Collectible, {
 }) -- Goggle Wobble
 
 ns.node.GoggleWobble = GoggleWobble
+
+-------------------------------------------------------------------------------
+----------------------------- JUST ONE MORE THING -----------------------------
+-------------------------------------------------------------------------------
+
+local JustOneMoreThing = Class('JustOneMoreThing', Collectible, {
+    questCount = true,
+    icon = 1411833,
+    note = L['just_one_more_thing_note'],
+    group = ns.groups.JUST_ONE_MORE_THING
+}) -- Just One More Thing
+
+ns.node.JustOneMoreThing = JustOneMoreThing

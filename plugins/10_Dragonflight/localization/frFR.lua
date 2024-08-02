@@ -190,13 +190,17 @@ L['options_icons_rich_soil'] = 'Sol riche'
 L['options_icons_rich_soil_desc'] = 'Afficher les emplacements des {object:Sols riches}.'
 
 L['information_stuffed_clue'] = 'Indice riche en informations'
-L['clued_in_note'] = 'Les {npc:210079} apparaissent lors de l\'événement {note:La grande fouille} et lors des 3 expéditions {wq:Recherche : ...}.'
+L['clued_in_note'] = 'Les {npc:210079} apparaissent lors de l\'événement {note:La grande fouille} et lors des expéditions {wq:Recherche : ...}.'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = 'Afficher les emplacements des {npc:210079} pour le haut-fait {achievement:19787}.'
 
-L['goggle_wobble_note'] = '{emote:/danser} avec {npc:207763} pendant la suite de quêtes d\'introduction ou lors des 3 expéditions {wq:Bidulodivination : ...} en portant les {item:202247}.'
+L['goggle_wobble_note'] = '{emote:/danser} avec {npc:207763} pendant la suite de quêtes d\'introduction ou lors des expéditions {wq:Bidulodivination : ...} en portant les {item:202247}.'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Afficher les emplacements de {npc:207763} pour le haut-fait {achievement:19791}.'
+
+L['just_one_more_thing_note'] = nil
+L['options_icons_just_one_more_thing'] = nil
+L['options_icons_just_one_more_thing_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -462,6 +466,12 @@ L['untranslated_tome'] = 'Tome non traduit'
 L['untranslated_tome_note'] = 'Dans le bâtiment dont l\'entrée se trouve sous le pont.'
 L['mysterious_boot'] = 'Botte mystérieuse'
 L['mysterious_boot_note'] = 'A l\'étage supérieur.'
+L['decaying_fishing_bucket'] = nil
+L['decaying_fishing_bucket_note'] = nil
+L['forgotten_fishing_pole'] = nil
+L['forgotten_fishing_pole_note'] = nil
+L['overgrown_fishing_bench'] = nil
+L['overgrown_fishing_bench_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -855,6 +865,11 @@ L['box_of_rocks_note'] = 'Les {object:Boîtes de pierres} peuvent être trouvée
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Afficher les emplacements possibles des {object:Boîtes de pierres} pour le haut-fait {achievement:18559}.'
 
+L['drakonid_painting'] = nil
+L['emptied_hourglass'] = nil
+L['rusted_signal_horn'] = nil
+L['rusted_signal_horn_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
@@ -928,6 +943,11 @@ L['djaradin_scroll'] = 'Parchemin djaradin'
 L['forgotten_incense'] = 'Encens oublié'
 L['forgotten_incense_note'] = '{note:Difficile à atteindre en raison des bordures de la quête.}'
 L['historied_heirloom'] = 'Objet à l\'histoire riche'
+L['rusted_dirt_pale'] = 'Seau de terre rouillé'
+L['rusted_dirt_pale_note'] = '{note:Disparaît après que vous ayez cliqué sur les autres {object:Indices riches en informations} dans cette zone de quête.}'
+L['niffen_pickaxe'] = 'Pioche flairane'
+L['chipped_grub_pot'] = 'Marmite à boustiff ébéchée'
+L['chipped_grub_pot_note'] = 'Au sommet de la tour.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

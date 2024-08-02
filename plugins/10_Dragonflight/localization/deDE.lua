@@ -197,6 +197,10 @@ L['goggle_wobble_note'] = 'Tanze {emote:/tanzen} mit {npc:207763} während der E
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Zeigt die Positionen von {npc:207763} für den Erfolg {achievement:19791} an.'
 
+L['just_one_more_thing_note'] = nil
+L['options_icons_just_one_more_thing'] = nil
+L['options_icons_just_one_more_thing_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -461,6 +465,12 @@ L['untranslated_tome'] = 'Unübersetzter Foliant'
 L['untranslated_tome_note'] = 'In dem Gebäude mit dem Eingang unterhalb der Brücke.'
 L['mysterious_boot'] = 'Mysteriöser Stiefel'
 L['mysterious_boot_note'] = 'Im oberen Stockwerk.'
+L['decaying_fishing_bucket'] = nil
+L['decaying_fishing_bucket_note'] = nil
+L['forgotten_fishing_pole'] = nil
+L['forgotten_fishing_pole_note'] = nil
+L['overgrown_fishing_bench'] = nil
+L['overgrown_fishing_bench_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -858,6 +868,11 @@ L['box_of_rocks_note'] = '{object:Kasten mit Steinen} kann in {location:Die Küs
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Zeigt die möglichen Positionen von {object:Kasten mit Steinen} für den Erfolg {achievement:18559} an.'
 
+L['drakonid_painting'] = nil
+L['emptied_hourglass'] = nil
+L['rusted_signal_horn'] = nil
+L['rusted_signal_horn_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
@@ -931,6 +946,11 @@ L['djaradin_scroll'] = 'Schriftrolle der Djaradin'
 L['forgotten_incense'] = 'Vergessenes Räucherwerk'
 L['forgotten_incense_note'] = '{note:Aufgrund der Questgrenzen schwer zu erreichen.}'
 L['historied_heirloom'] = 'Historisches Erbstück'
+L['rusted_dirt_pale'] = nil
+L['rusted_dirt_pale_note'] = nil
+L['niffen_pickaxe'] = nil
+L['chipped_grub_pot'] = nil
+L['chipped_grub_pot_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

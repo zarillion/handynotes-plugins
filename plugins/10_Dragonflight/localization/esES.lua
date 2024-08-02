@@ -189,13 +189,17 @@ L['options_icons_rich_soil'] = 'Terreno Rico'
 L['options_icons_rich_soil_desc'] = 'Muestra dónde hay {object:Terreno Rico}.'
 
 L['information_stuffed_clue'] = 'Pista Rebosante de Información'
-L['clued_in_note'] = 'La {npc:210079} aparece durante el evento {note:La Gran Excavación} y las 3 misiones del mundo {wq:Investigación: ...}.'
+L['clued_in_note'] = 'La {npc:210079} aparece durante el evento {note:La Gran Excavación} y las misiones del mundo {wq:Investigación: ...}.'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = 'Muestra dónde están las {npc:210079} para el logro {achievement:19787}.'
 
-L['goggle_wobble_note'] = 'Teclea la emoción {emote:/bailar} a {npc:207763} durante la línea de misiones introductorias o durantes las 3 misiones del mundo {wq:Tecnoadivinación ...} mientras usas {item:202247}.'
+L['goggle_wobble_note'] = 'Teclea la emoción {emote:/bailar} a {npc:207763} durante la línea de misiones introductorias o durantes las misiones del mundo {wq:Tecnoadivinación ...} mientras usas {item:202247}.'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Muestra dónde está {npc:207763} para el logro {achievement:19791}.'
+
+L['just_one_more_thing_note'] = 'Tienes que completar cualquier misión del mundo {wq:Investigación: ...} tres veces para conseguir el criterio correspondiente.'
+L['options_icons_just_one_more_thing'] = '{achievement:19792}'
+L['options_icons_just_one_more_thing_desc'] = 'Muestra el progreso para cada criterio del logro {achievement:19792}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -461,6 +465,12 @@ L['untranslated_tome'] = 'Tomo sin Traducir'
 L['untranslated_tome_note'] = 'En el edificio con la entrada bajo del puente.'
 L['mysterious_boot'] = 'Botas Misteriosas'
 L['mysterious_boot_note'] = 'En el piso superior.'
+L['decaying_fishing_bucket'] = 'Cubo de Pescar en Descomposición'
+L['decaying_fishing_bucket_note'] = 'En el piso superior de la torre.'
+L['forgotten_fishing_pole'] = 'Caña de Pescar olvidada'
+L['forgotten_fishing_pole_note'] = 'A nivel de suelo.'
+L['overgrown_fishing_bench'] = 'Banco de Pesca Cubierto de Maleza'
+L['overgrown_fishing_bench_note'] = 'Una roca cubierta de maleza. Difícil de ver.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -857,6 +867,11 @@ L['box_of_rocks_note'] = 'Las {object:Caja de Piedras} pueden encontrarse a lo l
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Muestra dónde pueden estar las {object:Caja de Piedras} para el logro {achievement:18559}.'
 
+L['drakonid_painting'] = 'Pintora Dracónida'
+L['emptied_hourglass'] = 'Reloj de Arena Vaciado'
+L['rusted_signal_horn'] = 'Cuerno de Señalización Oxidado'
+L['rusted_signal_horn_note'] = 'En el último piso.'
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
@@ -930,6 +945,11 @@ L['djaradin_scroll'] = 'Pergamino Djaradin'
 L['forgotten_incense'] = 'Incienso Olvidado'
 L['forgotten_incense_note'] = '{note:Difícil de alcanzar debido a los límites de la misión.}'
 L['historied_heirloom'] = 'Reliquia Histórica'
+L['rusted_dirt_pale'] = 'Tierra Pálida y Oxidada'
+L['rusted_dirt_pale_note'] = '{note:Desaparece después de hacer click en los otros objetos {object:Pista Rebosante de Información} de este lugar.}'
+L['niffen_pickaxe'] = 'Piqueta de Niffen'
+L['chipped_grub_pot'] = 'Caldero de Manduca Partido'
+L['chipped_grub_pot_note'] = 'En lo alto de la torre.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

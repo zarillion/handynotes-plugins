@@ -189,13 +189,17 @@ L['options_icons_rich_soil'] = 'Rich Soil'
 L['options_icons_rich_soil_desc'] = 'Display locations for {object:Rich Soil}.'
 
 L['information_stuffed_clue'] = 'Information-Stuffed Clue'
-L['clued_in_note'] = 'The {npc:210079} spawn during {note:the Big Dig} event and the 3 world quests {wq:Research: ...}.'
+L['clued_in_note'] = 'The {npc:210079} spawn during {note:the Big Dig} event and the world quests {wq:Research: ...}.'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = 'Display {npc:210079} locations for {achievement:19787} achievement.'
 
-L['goggle_wobble_note'] = '{emote:/dance} with {npc:207763} during the intro quest line or the 3 world quests {wq:Technoscrying: ...} while wearing {item:202247}.'
+L['goggle_wobble_note'] = '{emote:/dance} with {npc:207763} during the intro quest line or the world quests {wq:Technoscrying: ...} while wearing {item:202247}.'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Display {npc:207763} locations for {achievement:19791} achievement.'
+
+L['just_one_more_thing_note'] = 'Have to complete any world quest {wq:Research: ...} three times.'
+L['options_icons_just_one_more_thing'] = '{achievement:19792}'
+L['options_icons_just_one_more_thing_desc'] = 'Display progress for each criteria for {achievement:19792}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -461,6 +465,12 @@ L['untranslated_tome'] = 'Untranslated Tome'
 L['untranslated_tome_note'] = 'In the building with the entrance below the bridge.'
 L['mysterious_boot'] = 'Mysterious Boot'
 L['mysterious_boot_note'] = 'Upper floor.'
+L['decaying_fishing_bucket'] = 'Decaying Fishing Bucket'
+L['decaying_fishing_bucket_note'] = 'On the top floor of the tower.'
+L['forgotten_fishing_pole'] = 'Forgotten Fishing Pole'
+L['forgotten_fishing_pole_note'] = 'On the ground level.'
+L['overgrown_fishing_bench'] = 'Overgrown Fishing Bench'
+L['overgrown_fishing_bench_note'] = 'An overgrown rock, hard to see.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -857,6 +867,11 @@ L['box_of_rocks_note'] = '{object:Box of Rocks} can be found around {location:Th
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Show possible {object:Box of Rocks} locations for {achievement:18559}.'
 
+L['drakonid_painting'] = 'Drakonid Painting'
+L['emptied_hourglass'] = 'Emptied Hourglass'
+L['rusted_signal_horn'] = 'Rusted Signal Horn'
+L['rusted_signal_horn_note'] = 'On the top floor.'
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
@@ -930,6 +945,11 @@ L['djaradin_scroll'] = 'Djaradin Scroll'
 L['forgotten_incense'] = 'Forgotten Incense'
 L['forgotten_incense_note'] = '{note:Hard to reach due to the quest boundaries.}'
 L['historied_heirloom'] = 'Historied Heirloom'
+L['rusted_dirt_pale'] = 'Rusted Dirt Pale'
+L['rusted_dirt_pale_note'] = '{note:Dispearing after clicking the other {object:Information-Stuffed Clues} objects in this site.}'
+L['niffen_pickaxe'] = 'Niffen Pickaxe'
+L['chipped_grub_pot'] = 'Chipped Grub Pot'
+L['chipped_grub_pot_note'] = 'On the top of the tower.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

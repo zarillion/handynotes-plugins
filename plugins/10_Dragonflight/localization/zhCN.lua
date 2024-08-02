@@ -189,13 +189,17 @@ L['options_icons_rich_soil'] = '肥沃的土壤'
 L['options_icons_rich_soil_desc'] = '显示 {object:肥沃的土壤} 的位置。'
 
 L['information_stuffed_clue'] = '满载信息的线索'
-L['clued_in_note'] = '{npc:210079} 于事件 {note:盛大发掘}，以及3个世界任务 {wq:研究：……} 期间刷新。'
+L['clued_in_note'] = '{npc:210079} 于事件 {note:盛大发掘}，以及世界任务 {wq:研究：……} 期间刷新。'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = '显示成就 {achievement:19787} 中 {npc:210079} 的位置。'
 
 L['goggle_wobble_note'] = '在引导任务线或世界任务 {wq:科技占卜：……} 期间，穿戴 {item:202247} 的同时与 {npc:207763} {emote:/跳舞}({emote:/dance})。'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = '显示成就 {achievement:19791} 中 {npc:207763} 的位置。'
+
+L['just_one_more_thing_note'] = '需要完成任一世界任务 {wq:研究：……} 3次。'
+L['options_icons_just_one_more_thing'] = '{achievement:19792}'
+L['options_icons_just_one_more_thing_desc'] = '显示 {achievement:19792} 的成就子项进度。'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -461,6 +465,12 @@ L['untranslated_tome'] = '未翻译的魔典'
 L['untranslated_tome_note'] = '在建筑里，入口位于桥下。'
 L['mysterious_boot'] = '神秘的靴子'
 L['mysterious_boot_note'] = '在上层。'
+L['decaying_fishing_bucket'] = '腐烂鱼桶'
+L['decaying_fishing_bucket_note'] = '在塔的最顶层。'
+L['forgotten_fishing_pole'] = '被遗忘的鱼竿'
+L['forgotten_fishing_pole_note'] = '在最底层。'
+L['overgrown_fishing_bench'] = '长满杂草的钓鱼椅'
+L['overgrown_fishing_bench_note'] = '覆满青苔的岩石，不大显眼。'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -857,6 +867,11 @@ L['box_of_rocks_note'] = '{object:一箱岩石} 可以在 {location:觉醒海岸
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = '显示 {achievement:18559} 成就中 {object:一箱岩石} 可能的位置。'
 
+L['drakonid_painting'] = '龙人绘画'
+L['emptied_hourglass'] = '空荡荡的沙漏'
+L['rusted_signal_horn'] = '生锈的传信号角'
+L['rusted_signal_horn_note'] = '在顶层。'
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
@@ -930,6 +945,11 @@ L['djaradin_scroll'] = '贾拉丁卷轴'
 L['forgotten_incense'] = '被遗忘的熏香'
 L['forgotten_incense_note'] = '{note:由于任务边界的问题难以到达。}'
 L['historied_heirloom'] = '历史传家宝'
+L['rusted_dirt_pale'] = '灰色锈尘'
+L['rusted_dirt_pale_note'] = '{note:在点击本区域的其他{object:满载信息的线索}后会消失。}'
+L['niffen_pickaxe'] = '鼹鼠人矿锄'
+L['chipped_grub_pot'] = '有缺口的虫锅'
+L['chipped_grub_pot_note'] = '在塔顶。'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

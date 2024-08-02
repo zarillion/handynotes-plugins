@@ -197,6 +197,10 @@ L['goggle_wobble_note'] = nil
 L['options_icons_goggle_wobble'] = nil
 L['options_icons_goggle_wobble_desc'] = nil
 
+L['just_one_more_thing_note'] = nil
+L['options_icons_just_one_more_thing'] = nil
+L['options_icons_just_one_more_thing_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -434,6 +438,12 @@ L['untranslated_tome'] = nil
 L['untranslated_tome_note'] = nil
 L['mysterious_boot'] = nil
 L['mysterious_boot_note'] = nil
+L['decaying_fishing_bucket'] = nil
+L['decaying_fishing_bucket_note'] = nil
+L['forgotten_fishing_pole'] = nil
+L['forgotten_fishing_pole_note'] = nil
+L['overgrown_fishing_bench'] = nil
+L['overgrown_fishing_bench_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -793,6 +803,11 @@ L['box_of_rocks_note'] = nil
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = nil
 
+L['drakonid_painting'] = nil
+L['emptied_hourglass'] = nil
+L['rusted_signal_horn'] = nil
+L['rusted_signal_horn_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
@@ -866,6 +881,11 @@ L['djaradin_scroll'] = nil
 L['forgotten_incense'] = nil
 L['forgotten_incense_note'] = nil
 L['historied_heirloom'] = nil
+L['rusted_dirt_pale'] = nil
+L['rusted_dirt_pale_note'] = nil
+L['niffen_pickaxe'] = nil
+L['chipped_grub_pot'] = nil
+L['chipped_grub_pot_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

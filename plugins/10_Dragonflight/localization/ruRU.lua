@@ -198,6 +198,10 @@ L['goggle_wobble_note'] = '{emote:/танец} с {npc:207763} во время �
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Показать {npc:207763} места для достижения {achievement:19791}.'
 
+L['just_one_more_thing_note'] = nil
+L['options_icons_just_one_more_thing'] = nil
+L['options_icons_just_one_more_thing_desc'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
 -------------------------------------------------------------------------------
@@ -463,6 +467,12 @@ L['untranslated_tome'] = 'Непереведенная книга'
 L['untranslated_tome_note'] = 'В здании со входом под мостом.'
 L['mysterious_boot'] = 'Таинственный сапог'
 L['mysterious_boot_note'] = 'Верхний этаж.'
+L['decaying_fishing_bucket'] = nil
+L['decaying_fishing_bucket_note'] = nil
+L['forgotten_fishing_pole'] = nil
+L['forgotten_fishing_pole_note'] = nil
+L['overgrown_fishing_bench'] = nil
+L['overgrown_fishing_bench_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -858,6 +868,11 @@ L['box_of_rocks_note'] = '{object:Ящики с камнями} можно на�
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Показать возможные местоположения {object:Ящиков с камнями} для {achievement:18559}.'
 
+L['drakonid_painting'] = nil
+L['emptied_hourglass'] = nil
+L['rusted_signal_horn'] = nil
+L['rusted_signal_horn_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
@@ -931,6 +946,11 @@ L['djaradin_scroll'] = 'Свиток джарадинов'
 L['forgotten_incense'] = 'Забытые благовония'
 L['forgotten_incense_note'] = '{note:Труднодоступен из-за границ задания.}'
 L['historied_heirloom'] = 'Историческая реликвия'
+L['rusted_dirt_pale'] = nil
+L['rusted_dirt_pale_note'] = nil
+L['niffen_pickaxe'] = nil
+L['chipped_grub_pot'] = nil
+L['chipped_grub_pot_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
