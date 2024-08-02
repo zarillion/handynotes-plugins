@@ -161,6 +161,8 @@ L['shadowflame_leatherworking_table_label'] = '暗焰製皮工作臺'
 L['shadowflame_leatherworking_table_note'] = '當製造以下圖樣時需要:\n{spell:406275}'
 L['shadowflame_incantation_table_label'] = '暗焰附魔桌'
 L['shadowflame_incantation_table_note'] = '當製造以下圖樣時需要:\n{spell:405076}'
+L['altar_of_decay_label'] = nil
+L['altar_of_decay_note'] = nil
 L['azure_loom_label'] = '蒼藍織布機'
 L['azure_loom_note'] = '當製造以下圖樣時需要:\n{spell:376556}'
 L['temporal_loom_label'] = '時光織布機'
@@ -537,6 +539,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = '顯示 {achievement:16574} 成就所需的夢境守衛位置.'
 
 L['khadin_note'] = '使用 {item:191784} 交換專業知識.'
+L['khadin_prof_note'] = '還需投入 %d 點 {currency:%d} 才能點滿 {spell:%d} 專業樹.'
 L['the_great_swog_note'] = '使用 {item:199338}, {item:199339} 和 {item:199340} 來交換 {item:202102}.'
 L['hunt_instructor_basku_note'] = '用 {item:200093} 交換 {faction:2503} 聲望'
 L['elder_yusa_note'] = '選取 {npc:192818} 並使用 {emote:/hungry} 來取得烹飪食譜.'
@@ -668,7 +671,7 @@ L['naszuro_thaldraszus_peak'] = '在山的第二高峰上.'
 L['naszuro_temporal_conflux'] = '在龍雕像的頭上.'
 
 L['revival_catalyst_label'] = '重生育籃控制臺'
-L['revival_catalyst_note'] = '將非套裝裝備轉換為對應裝等語部位的套裝部件.'
+L['revival_catalyst_note'] = '將非套裝裝備轉換為對應裝等語部位的套裝部件.\n\n{currency:2912}: %d/%d'
 
 L['provisioner_aristta_note'] = '用 {currency:2657} 交換塑型和一隻座騎.'
 
@@ -850,7 +853,7 @@ L['naszuro_ruby_lifeshrine'] = '在龍雕像爪子之下.'
 L['naszuro_dragonheart_outpost'] = '在樹的枝幹間.'
 
 L['box_of_rocks_label'] = '一盒石頭'
-L['box_of_rocks_note'] = '{object:一盒石頭} 可以在 {location:甦醒海岸} 附近, {location:扎拉萊克洞穴} 裡面或是從拍賣場購買.'
+L['box_of_rocks_note'] = '{object:一盒石頭} 可以在 {location:甦醒海岸} 全境, 或是 {location:禁忌之境} 的 {location:澤斯克拉密庫} 裡面找到, 也可以從拍賣場購買.'
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = '顯示成就 {achievement:18559} 所需的 {object:一盒石頭} 可能的位置.'
 

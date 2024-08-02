@@ -59,6 +59,8 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 
 local map = Map({id = 2024, settings = true})
 local tra = Map({id = 2262, settings = false}) -- Traitor's Rest
+local bhh = Map({id = 2096, settings = false}) -- Brackenhide Hollow
+local bhd = Map({id = 2106, settings = false}) -- Brackenhide Hollow - Den of Decay
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -1261,6 +1263,7 @@ map.nodes[58925475] = TuskarrChest({note = L['in_water']})
 map.nodes[59006670] = TuskarrChest()
 map.nodes[59235652] = TuskarrChest()
 map.nodes[60505900] = TuskarrChest()
+map.nodes[45815613] = TuskarrChest()
 
 -------------------------------------------------------------------------------
 ----------------------------- DECAY COVERED CHEST -----------------------------
@@ -1324,6 +1327,7 @@ map.nodes[35603410] = DecayCoveredChest()
 map.nodes[35904660] = DecayCoveredChest()
 map.nodes[58204140] = DecayCoveredChest()
 map.nodes[58504270] = DecayCoveredChest()
+map.nodes[57514132] = DecayCoveredChest()
 
 -------------------------------------------------------------------------------
 ---------------------------------- REED CHEST ---------------------------------
@@ -1836,8 +1840,6 @@ map.nodes[44035954] = RichSoil()
 ----------------------------- THE VEGETARIAN DIET -----------------------------
 -------------------------------------------------------------------------------
 
-local bhh = ns.maps[2096] or Map({id = 2096, settings = false})
-
 local MeatStorage = Class('MeatStorage', Collectible, {
     label = L['meat_storage_label'],
     icon = 4635249,
@@ -2168,27 +2170,25 @@ map.nodes[58512618] = Collectible({
 
 ------------------------------- CRAFTING TABLES -------------------------------
 
--- 2096	Brackenhide Hollow - Brackenhide Hollow
--- 2106	Brackenhide Hollow - Den of Decay
--- local denofdecay = Map({id = 2106, settings = false}) -- Den of Decay
--- denofdecay.nodes[63703852] = ns.node.Node({
---     -- dungeonLevel = 2,
---     -- type = "table",
---     label = L["altar_of_decay_label"],
---     icon = 4554436,
---     note = L['altar_of_decay_note'],
---     IsEnabled = function(self) -- Leatherworking, Alchemy
---         if ns.PlayerHasProfession(165) or ns.PlayerHasProfession(171) then return true
---         else return false end
---         return ns.node.Item.IsEnabled(self)
---     end
--- }) -- The Altar of Decay
+local AlterOfDecay = Class('AlterOfDecay', Node, {
+    label = L['altar_of_decay_label'],
+    icon = 4554436,
+    note = L['altar_of_decay_note'],
+    IsEnabled = function(self) -- Leatherworking, Alchemy
+        local lw = ns.PlayerHasProfession(165)
+        local al = ns.PlayerHasProfession(171)
+        if not lw and not al then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- The Altar of Decay
+
+bhh.nodes[80224812] = AlterOfDecay()
+bhd.nodes[63703852] = AlterOfDecay()
 
 map.nodes[38376074] = Node({
     label = L['azure_loom_label'],
     icon = 4549303,
     note = L['azure_loom_note'],
-    requires = FyrakkAssault,
     IsEnabled = function(self) -- Tailoring
         if not ns.PlayerHasProfession(197) then return false end
         return ns.node.Item.IsEnabled(self)

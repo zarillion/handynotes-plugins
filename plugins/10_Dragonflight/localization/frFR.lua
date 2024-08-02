@@ -162,6 +162,8 @@ L['shadowflame_leatherworking_table_label'] = 'Table de travail du cuir d’ombr
 L['shadowflame_leatherworking_table_note'] = 'Requis pour la fabrication de la recette :\n{spell:406275}'
 L['shadowflame_incantation_table_label'] = 'Table d’incantation d’ombreflamme'
 L['shadowflame_incantation_table_note'] = 'Requis pour la fabrication de la recette :\n{spell:405076}'
+L['altar_of_decay_label'] = nil
+L['altar_of_decay_note'] = nil
 L['azure_loom_label'] = 'Métier à tisser d’azur'
 L['azure_loom_note'] = 'Requis pour la fabrication de la recette :\n{spell:376556}'
 L['temporal_loom_label'] = 'Métier à tisser temporel'
@@ -538,6 +540,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêves pour {achievement:16574}'
 
 L['khadin_note'] = 'Échangez les {item:191784} contre de la connaissance de métiers.'
+L['khadin_prof_note'] = nil
 L['the_great_swog_note'] = 'Échangez des {item:199338}, {item:199339} et {item:199340} contre des {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Échangez vos {item:200093} pour obtenir de la réputation avec les {faction:2503}.'
 L['elder_yusa_note'] = 'Ciblez l\'{npc:192818} et utilisez l\'emote {emote:/faim} pour obtenir la recette de cuisine.'
@@ -669,7 +672,7 @@ L['naszuro_thaldraszus_peak'] = 'Sur un pic intermédiaire de la montagne.'
 L['naszuro_temporal_conflux'] = 'Sur la tête de la statue du dragon.'
 
 L['revival_catalyst_label'] = 'Catalyseur de Renouveau'
-L['revival_catalyst_note'] = 'Transforme des pièces d\'armures ne faisant pas partie d\'un ensemble en une nouvelle pièce d’ensemble du même niveau.'
+L['revival_catalyst_note'] = 'Transforme des pièces d\'armures ne faisant pas partie d\'un ensemble en une nouvelle pièce d’ensemble du même niveau.\n\n{currency:2912}: %d/%d'
 
 L['provisioner_aristta_note'] = 'Échangez vos {currency:2657} contre des objets de transmogrification et une monture.'
 

@@ -492,7 +492,7 @@ map.nodes[32333935] = Treasure({
     quest = 73410,
     note = L['seething_cache_treasure_note'],
     rewards = {
-        Achievement({id = 17786, criteria = 59221}), -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59220}), -- Treasures of Zaralek Cavern
         Mount({item = 192779, id = 1623}) -- Seething Slug
     },
     pois = {
@@ -632,6 +632,7 @@ map.nodes[32355045] = RitualOffering({fgroup = 'ritual52', quest = 73552})
 map.nodes[32614416] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[33103990] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[35145225] = RitualOffering({fgroup = 'ritual52', quest = 73552})
+map.nodes[35304181] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[36034454] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[36395236] = RitualOffering({fgroup = 'ritual52', quest = 73552})
 map.nodes[38174991] = RitualOffering({fgroup = 'ritual48', quest = 73548})

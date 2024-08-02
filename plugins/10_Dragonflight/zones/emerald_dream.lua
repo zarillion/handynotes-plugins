@@ -397,6 +397,7 @@ local Talthonei = Class('Talthonei', Rare, {
 map.nodes[34775492] = Talthonei({sublabel = L['talthonei_ashwisper_wq_note']})
 map.nodes[35132264] = Talthonei()
 map.nodes[36922240] = Talthonei()
+map.nodes[59134750] = Talthonei()
 map.nodes[59204360] = Talthonei() -- wowhead
 map.nodes[61426741] = Talthonei()
 map.nodes[61604500] = Talthonei() -- wowhead
@@ -441,14 +442,13 @@ map.nodes[22743226] = Rare({
 local Raszageth = Class('Raszageth', Rare, {
     id = 209912,
     quest = 77859,
-    vignette = 5808,
     fgroup = 'raszageth'
     -- note = L['raszageths_note'],
     -- rlabel = ns.status.LightBlue('+50 ' .. L['rep']), -- NOT confirm yet
     -- rewards = {}
 }) -- Raszageth's Last Breath
 
-map.nodes[24203240] = Raszageth() -- wowhead coords
+map.nodes[24203240] = Raszageth({vignette = 5808}) -- wowhead coords
 map.nodes[26402800] = Raszageth() -- wowhead coords
 map.nodes[39965108] = Raszageth()
 map.nodes[46203560] = Raszageth() -- wowhead coords
@@ -461,14 +461,13 @@ map.nodes[67606620] = Raszageth() -- wowhead coords
 local Amalgamation = Class('Amalgamation', Rare, {
     id = 209915,
     quest = 77856,
-    vignette = 5807, -- Coagulating Dreams
     fgroup = 'amalgamation'
     -- note = L['amalgamation_note'],
     -- rlabel = ns.status.LightBlue('+50 ' .. L['rep']), -- NOT confirm yet
     -- rewards = {}
 }) -- Amalgamation of Dreams
 
-map.nodes[39615386] = Amalgamation()
+map.nodes[39615386] = Amalgamation({vignette = 5807})
 map.nodes[41202620] = Amalgamation() -- Review
 map.nodes[48404880] = Amalgamation() -- wowhead coords
 map.nodes[51805740] = Amalgamation() -- wowhead coords
@@ -477,6 +476,18 @@ map.nodes[58806700] = Amalgamation()
 map.nodes[59005860] = Amalgamation() -- wowhead coords
 map.nodes[62805200] = Amalgamation() -- wowhead coords
 map.nodes[63806380] = Amalgamation() -- wowhead coords
+
+---------------------------------- WORLD BOSS ---------------------------------
+
+map.nodes[39465371] = Rare({
+    id = 209574,
+    quest = 76367,
+    rewards = {
+        DG.Guardian.HibernatingRunebear,
+        Transmog({item = 210433, type = L['cosmetic']}), -- Visage of Aurostor
+        DC.FlourishingWhimsydrake.SunriseScales
+    }
+}) -- Aurostor
 
 ---------------------------------- ZONE DROPS ---------------------------------
 
@@ -1598,6 +1609,7 @@ map.nodes[39002520] = WarSupply({fgroup = 'supply_emerald_dream'})
 map.nodes[47202180] = WarSupply({fgroup = 'supply_emerald_dream'})
 map.nodes[52703340] = WarSupply({fgroup = 'supply_emerald_dream'})
 map.nodes[62206172] = WarSupply({fgroup = 'supply_emerald_dream'})
+map.nodes[47984506] = WarSupply({fgroup = 'supply_emerald_dream'})
 
 -------------------------------------------------------------------------------
 ---------------------------- EMERALD DREAM SAFARI -----------------------------
@@ -1908,6 +1920,7 @@ local Athainne = Class('Athainne', NPC, {
     icon = 960685,
     class = 'HUNTER',
     IsEnabled = function(self)
+        if self.class and self.class ~= ns.class then return false end
         local spawn = 'nighttime'
         local hour, _ = GetGameTime()
         if hour >= 5 and hour < 19 then spawn = 'daytime' end
@@ -2041,7 +2054,7 @@ map.nodes[58305820] = NPC({
     }
 }) -- Sul'raka
 
--------------------- DEAMON HUNTER WARGLAIVES: ALARA'SHINU --------------------
+--------------------- DEMON HUNTER WARGLAIVES: ALARA'SHINU --------------------
 
 local Alarashinu = Class('Alarashinu', Collectible, {
     icon = 5061798,

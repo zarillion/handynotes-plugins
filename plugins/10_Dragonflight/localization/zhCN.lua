@@ -161,6 +161,8 @@ L['shadowflame_leatherworking_table_label'] = '暗影烈焰制皮桌'
 L['shadowflame_leatherworking_table_note'] = '制作如下配方时需要:\n{spell:406275}'
 L['shadowflame_incantation_table_label'] = '暗影烈焰法咒桌'
 L['shadowflame_incantation_table_note'] = '制作如下配方时需要:\n{spell:405076}'
+L['altar_of_decay_label'] = '腐朽祭坛'
+L['altar_of_decay_note'] = '制作如下配方时需要:\n{spell:110423}: \n腐朽图样\n腐朽注能材料\n\n{spell:264211}: \n毒素药水\n毒素瓶剂\n{spell:405879}'
 L['azure_loom_label'] = '碧蓝织布机'
 L['azure_loom_note'] = '制作如下配方时需要:\n{spell:376556}'
 L['temporal_loom_label'] = '时光织布机'
@@ -537,6 +539,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境防御者的位置。'
 
 L['khadin_note'] = '将 {item:191784} 换成专业知识。'
+L['khadin_prof_note'] = '还需投入 %d 点 {currency:%d} 才能点满 {spell:%d} 专业树。'
 L['the_great_swog_note'] = '将 {item:199338}、{item:199339} 和 {item:199340} 换成 {item:202102}。'
 L['hunt_instructor_basku_note'] = '用 {item:200093} 换取 {faction:2503} 声望。'
 L['elder_yusa_note'] = '目标为 {npc:192818} 并 {emote:/饿}，{emote:/hungry} 获得烹饪配方。'
@@ -668,7 +671,7 @@ L['naszuro_thaldraszus_peak'] = '第二高的山峰上。'
 L['naszuro_temporal_conflux'] = '在龙雕像的头上。'
 
 L['revival_catalyst_label'] = '复苏化生'
-L['revival_catalyst_note'] = '将非套装装备转换为同等物品等级和装备槽套装装备。'
+L['revival_catalyst_note'] = '将非套装装备转换为同等物品等级和装备槽套装装备。\n\n{currency:2912}: %d/%d'
 
 L['provisioner_aristta_note'] = '用 {currency:2657} 兑换幻化和坐骑。'
 
@@ -850,7 +853,7 @@ L['naszuro_ruby_lifeshrine'] = '龙雕像爪子的下面。'
 L['naszuro_dragonheart_outpost'] = '在树的树枝上。'
 
 L['box_of_rocks_label'] = '一箱岩石'
-L['box_of_rocks_note'] = '{object:一箱岩石} 可以在 {location:觉醒海岸} 周围的 {location:兹斯克拉宝库} 内找到，或者从拍卖行购买。'
+L['box_of_rocks_note'] = '{object:一箱岩石} 可以在 {location:觉醒海岸} 整个地区，或者{location:禁忌离岛} 的 {location:兹斯克拉宝库} 内找到，也可以从拍卖行购买。'
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = '显示 {achievement:18559} 成就中 {object:一箱岩石} 可能的位置。'
 
@@ -1042,7 +1045,7 @@ L['slumbering_somnowl_note_e'] = '将 {item:210566} 和 {item:194864} 组成 {it
 
 L['thaelishar_vendor_note'] = '用金币来购买德鲁伊印记。'
 L['silent_mark_label'] = '繁梦峭壁'
-L['silent_mark_note'] = '对目标动物引导，使印记与其形态协调，直至获得 {spell:426910}。{note:需要协调10多只动物。}\n\n用 {item:210764} 引导 {npc:210892}。\n\n用 {item:210767} 引导 {npc:211347}、{npc:211283} 或 {npc:210894}。\n\n用 {item:210755} 引导 {npc:210594}。\n\n用 {item:210766} 引导 {npc:209494}。'
+L['silent_mark_note'] = '对目标动物引导，使印记与其形态协调，直至获得 {spell:426910}。{note:需要协调10多只动物。}\n\n用 {item:210764} 引导 {npc:210892}。\n\n用 {item:210767} 引导 {npc:211347}、{npc:211283} 或 {npc:210894}。\n\n用 {item:210755} 引导 {npc:210594}。\n\n用 {item:210766} 引导 {npc:209494}，{npc:212028}，或 {npc:212024}。'
 
 L['amirdrassil'] = '阿梅达希尔，梦境之愿'
 L['prismatic_location'] = '在团队副本 {location:阿梅达希尔，梦境之愿} 内。'
