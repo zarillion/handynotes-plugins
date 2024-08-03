@@ -165,14 +165,6 @@ ns.options = {
                     order = 11,
                     width = 'full'
                 },
-                show_rep_rewards = {
-                    type = 'toggle',
-                    arg = 'show_rep_rewards',
-                    name = L['options_rep_rewards'],
-                    desc = L['options_rep_rewards_desc'],
-                    order = 11,
-                    width = 'full'
-                },
                 show_toy_rewards = {
                     type = 'toggle',
                     arg = 'show_toy_rewards',
