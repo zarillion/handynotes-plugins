@@ -197,6 +197,22 @@ ns.options = {
                     order = 12,
                     width = 'full'
                 },
+                show_rep_rewards = {
+                    type = 'toggle',
+                    arg = 'show_rep_rewards',
+                    name = L['options_rep_rewards'],
+                    desc = L['options_rep_rewards_desc'],
+                    order = 13,
+                    width = 'full'
+                },
+                show_claimed_rep = {
+                    type = 'toggle',
+                    arg = 'show_claimed_rep',
+                    name = L['show_claimed_rep'],
+                    desc = L['show_claimed_rep_desc'],
+                    order = 14,
+                    width = 'full'
+                },
                 VisibilityHeader = {
                     type = 'header',
                     name = L['options_visibility_settings'],

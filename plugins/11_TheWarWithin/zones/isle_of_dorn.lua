@@ -20,6 +20,7 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Reputation = ns.reward.Reputation
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -56,8 +57,12 @@ map.nodes[41077616] = Rare({ -- get path
 
 map.nodes[55762753] = Rare({
     id = 221128,
-    quest = nil,
-    rewards = {Achievement({id = 40435, criteria = 68224})}
+    quest = 81920, -- 84036
+    rewards = {
+        Achievement({id = 40435, criteria = 68224}),
+        Reputation({id = 2590, gain = 150, quest = 84036})
+    }
+
 }) -- Clawbreaker K'zithix
 
 map.nodes[47946014] = Rare({
