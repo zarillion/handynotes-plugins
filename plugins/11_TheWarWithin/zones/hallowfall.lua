@@ -43,6 +43,7 @@ map.nodes[15004000] = Rare({
         Mount({item = 223315, id = 2192}),
         Achievement({id = 40851, criteria = 69716})
     },
+--  quest = 81763
     pois = {
         POI({
             25825754, 32673962, 37207191, 37744585, 38382474, 42733133,
@@ -58,15 +59,16 @@ map.nodes[15004000] = Rare({
 --     rewards = {Achievement({id = 40851, criteria = 69718})}
 -- }) -- Brineslash
 
--- map.nodes[10002000] = Rare({
---     id = 206514,
---     quest = 82558,
---     rewards = {Achievement({id = 40851, criteria = 69720})}
--- }) -- Crazed Cabbage Smacker
+map.nodes[65052965] = Rare({
+    id = 206514,
+    quest = 82558, -- 84052
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
+    rewards = {Achievement({id = 40851, criteria = 69720})}
+}) -- Crazed Cabbage Smacker
 
 map.nodes[67552316] = Rare({
     id = 214757,
-    quest = 82560,
+    quest = 82560, -- ???
     note = L['croakit_note'],
     rewards = {Achievement({id = 40851, criteria = 69722})},
     pois = {POI({65802355})}
@@ -81,7 +83,7 @@ map.nodes[63643205] = Rare({
 
 map.nodes[44744241] = Rare({
     id = 221753,
-    quest = 81880,
+    quest = 81880, -- One Time Kill
     note = L['deathtide_note'],
     rewards = {Achievement({id = 40851, criteria = 69717})},
     pois = {
@@ -94,7 +96,7 @@ map.nodes[44744241] = Rare({
 
 map.nodes[72116435] = Rare({
     id = 218458,
-    quest = 80011,
+    quest = 80011, -- One Time Kill
     rewards = {
         Achievement({id = 40851, criteria = 69703}),
         Transmog({item = 223394, type = L['plate']}) -- Deepfiend Pauldrons
@@ -107,21 +109,21 @@ map.nodes[63931977] = Rare({
     rewards = {Achievement({id = 40851, criteria = 69724})}
 }) -- Duskshadow
 
--- map.nodes[22002000] = Rare({
---     id = nil,
---     quest = 82564,
---     rewards = {Achievement({id = 40851, criteria = 69727})}
--- }) -- Finclaw Bloodtide
+map.nodes[62011683] = Rare({
+    id = 207780,
+    quest = 82564, -- ???
+    rewards = {Achievement({id = 40851, criteria = 69727})}
+}) -- Finclaw Bloodtide
 
 map.nodes[36807187] = Rare({
     id = 221767,
-    quest = 81881,
+    quest = 81881, -- One Time Kill
     rewards = {Achievement({id = 40851, criteria = 69707})}
 }) -- Funglour
 
 map.nodes[36905469] = Rare({
     id = 221551,
-    quest = 81761,
+    quest = 81761, -- One Time Kill
     rewards = {Achievement({id = 40851, criteria = 69706})},
     pois = {
         Path({
@@ -158,7 +160,7 @@ map.nodes[33122687] = Rare({
 
 map.nodes[57046433] = Rare({
     id = 218426,
-    quest = 80006,
+    quest = 80006, -- One Time Kill
     rewards = {
         Achievement({id = 40851, criteria = 69704}),
         Transmog({item = 223379, type = L['plate']}) -- Nerubian Weaver's Chestplate
@@ -177,13 +179,13 @@ map.nodes[23005922] = Rare({
 
 map.nodes[63402880] = Rare({
     id = 206203,
-    quest = 82557,
+    quest = 82557, -- ???
     rewards = {Achievement({id = 40851, criteria = 69719})}
 }) -- Moth'ethk
 
 map.nodes[52132681] = Rare({
     id = 218452, -- 218455 Lost Cache
-    quest = 80010,
+    quest = 80010, -- One Time Kill
     rewards = {
         Achievement({id = 40851, criteria = 69705}),
         Transmog({item = 223383, type = L['plate']}) -- Murkshade Handguards
@@ -199,7 +201,7 @@ map.nodes[61981331] = Rare({ -- patrols
 
 -- map.nodes[12002200] = Rare({
 --     id = nil,
---     quest = 82563,
+--     quest = 82563, -- ???
 --     rewards = {Achievement({id = 40851, criteria = 69725})}
 -- }) -- Parasidious
 
@@ -211,8 +213,8 @@ map.nodes[57304857] = Rare({
 }) -- Pride of Beledar
 
 map.nodes[59702107] = Rare({
-    id = 207826,
-    quest = 82566,
+    id = 207826, -- Multiple spawn points 61933187
+    quest = 82566, --- 84058
     rewards = {Achievement({id = 40851, criteria = 69726})}
 }) -- Ravageant
 
@@ -253,6 +255,7 @@ map.nodes[44011637] = Rare({
 map.nodes[56486899] = Rare({
     id = 218444,
     quest = 80009, -- 84061
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40851, criteria = 69708})}
 }) -- The Taskmaker
 
@@ -522,7 +525,7 @@ map.nodes[76765382] = Treasure({ -- review, was not there when i looked
 }) -- Spore-covered Coffer
 
 map.nodes[63990612] = Treasure({
-    quest = nil, -- no quest triggered
+    quest = 80687,
     label = L['coral_fused_clam'],
     note = L['coral_fused_clam_note'],
     pois = {

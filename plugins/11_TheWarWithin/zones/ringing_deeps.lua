@@ -37,23 +37,24 @@ local map = Map({id = 2214, settings = true})
 
 map.nodes[52591991] = Rare({
     id = 220265,
-    quest = 81674,
+    quest = 81674, -- 84046
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69634})}
 }) -- Automaxor
 
 local Aquellion = Class('Aquellion', Rare, {
     id = 220274,
-    quest = 80557,
+    quest = 80557, -- One time kill
     fgroup = 'aquellion',
     rewards = {Achievement({id = 40837, criteria = 69625})}
 }) -- Aquellion
 
 map.nodes[55087053] = Aquellion()
-map.nodes[49556618] = Aquellion()
+map.nodes[49556618] = Aquellion() -- seen spawn here
 
 map.nodes[66232975] = Rare({ -- flyes around
     id = 220276,
-    quest = 80505,
+    quest = 80505, -- One time kill
     rewards = {
         Achievement({id = 40837, criteria = 69623}),
         Transmog({item = 223363, slot = L['leather']}) -- Flying Kobold's Seatbelt
@@ -62,11 +63,12 @@ map.nodes[66232975] = Rare({ -- flyes around
 
 map.nodes[41371692] = Rare({ -- review, multiple locations?
     id = 220267,
-    quest = 81562, -- 84044  81564?
+    quest = 81562, -- 84044
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69632})}
 }) -- Charmonger
 
-map.nodes[57883810] = Rare({
+map.nodes[57903813] = Rare({
     id = 220266,
     quest = 81511, -- 84045
     rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
@@ -76,31 +78,42 @@ map.nodes[57883810] = Rare({
 map.nodes[50994631] = Rare({
     id = 220269,
     quest = 80560, -- 84042
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69630})}
 }) -- Cragmund
 
 map.nodes[66636887] = Rare({
     id = 220272,
-    quest = 81566,
+    quest = 81566, -- One time kill
     note = L['in_small_cave'],
     rewards = {Achievement({id = 40837, criteria = 69627})}
 }) -- Deathbound Husk
 
-map.nodes[67045265] = Rare({ -- review
+map.nodes[67045265] = Rare({
     id = 218393,
-    quest = 80003,
+    quest = 80003, -- 84050
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69640})}
 }) -- Disturbed Earthgorger
 
 map.nodes[53000880] = Rare({ -- review 53801800
     id = 220286,
-    quest = 80536,
-    rewards = {Achievement({id = 40837, criteria = 69636})}
+    quest = 80536, -- One Time Kill
+    rewards = {Achievement({id = 40837, criteria = 69636})},
+    pois = {
+        Path({
+            53000880, 44381099, 45741770, 53302261, 55770933, 53000880
+        })
+    },
+    rewards = {
+        Transmog({item = 221507, slot = L['cloak']}) -- Earth Golem's Wrap
+    }
 }) -- Deepflayer Broodmother
 
-map.nodes[65354950] = Rare({ -- review
+map.nodes[65354950] = Rare({
     id = 221199,
-    quest = 81648,
+    quest = 81648, -- 84048
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69639})}
 }) -- Hungerer of the Deeps
 
@@ -113,7 +126,7 @@ map.nodes[47064697] = Rare({
 
 map.nodes[42773508] = Rare({
     id = 220275,
-    quest = 80547,
+    quest = 80547, -- One Time Kill
     rewards = {
         Achievement({id = 40837, criteria = 69624}),
         Transmog({item = 223355, slot = L['leather']}) -- Waterskipper's Leggings
@@ -128,16 +141,17 @@ map.nodes[74002000] = Rare({ -- review
 
 map.nodes[57015473] = Rare({
     id = 220273,
-    quest = 81563,
+    quest = 81563, -- One time kill
     rewards = {
         Achievement({id = 40837, criteria = 69626}),
         Transmog({item = 223404, slot = L['leather']}) -- Corrupted Earthen Cuffs
     }
 }) -- Rampaging Blight
 
-map.nodes[66214622] = Rare({ -- review
+map.nodes[66214622] = Rare({
     id = 221217,
-    quest = 81652,
+    quest = 81652, -- 84049 (rep based on pattern) 83405?? not sure why 3 triggered
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69638})},
     pois = {
         Path({

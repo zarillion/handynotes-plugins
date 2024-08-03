@@ -38,7 +38,7 @@ local cotl = Map({id = 2216, settings = true}) -- City of Threads - Lower
 
 map.nodes[46383875] = Rare({
     id = 216031,
-    quest = 81695,
+    quest = 81695, -- One Time Kill
     rewards = {
         Achievement({id = 40840, criteria = 69651}),
         Transmog({item = 223389, type = L['plate']}) -- Legplates of Dark Hunger
@@ -47,7 +47,7 @@ map.nodes[46383875] = Rare({
 
 map.nodes[37924284] = Rare({
     id = 214151,
-    quest = 78905,
+    quest = 78905, -- One Time Kill
     rewards = {Achievement({id = 40840, criteria = 69654})}
 }) -- Ahg'zagall
 
@@ -64,14 +64,25 @@ map.nodes[70722147] = Rare({
 cot.nodes[30755599] = Rare({
     id = 216038,
     quest = 81634, -- 84069
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69657})},
     parent = map.id
 }) -- The Groundskeeper (Chitin Hulk)
 
 map.nodes[64560668] = Rare({
     id = 222624,
-    quest = 82077, -- 84081 review, triggered both quests
-    rewards = {Achievement({id = 40840, criteria = 69669})}
+    quest = 82077, -- 84081
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
+    rewards = {Achievement({id = 40840, criteria = 69669})},
+    pois = {
+        Path({
+            64500582, 64650782
+        })
+    }
 }) -- Deepcrawler Tx'kesh
 
 map.nodes[58036210] = Rare({
@@ -85,13 +96,16 @@ map.nodes[58036210] = Rare({
 
 map.nodes[61232730] = Rare({
     id = 216041,
-    quest = 81699,
+    quest = 81699, -- One Time Kill
     rewards = {Achievement({id = 40840, criteria = 69655})}
 }) -- Grik'ik
 
 akl.nodes[65198283] = Rare({
     id = 216050,
-    quest = 82036,
+    quest = 82036, -- 84079
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69667})},
     pois = {
         Path({
@@ -104,16 +118,23 @@ akl.nodes[65198283] = Rare({
 
 akl.nodes[67438318] = Rare({
     id = 216048,
-    quest = 82034,
+    quest = 82034, -- 84077
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69665})},
     parent = map.id
 }) -- Jix'ak the Crazed
 
 map.nodes[62400703] = Rare({ -- renamed by Blizzard?
     id = 216052,
-    quest = 82078,
+    quest = 82078, -- 84082
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69670})},
     pois = {Path({62870495, 62610615, 62400703, 62070804, 61830851, 61160787})}
+
 }) -- Kaheti Bladeguard
 
 map.nodes[63152530] = Rare({
@@ -161,7 +182,7 @@ map.nodes[69986923] = Rare({
 
 map.nodes[43863678] = Rare({
     id = 216032, -- 221032 Rhak'ik
-    quest = 81694,
+    quest = 81694, -- One Time Kill
     rewards = {Achievement({id = 40840, criteria = 69653})},
     pois = {
         Path({
@@ -174,7 +195,10 @@ map.nodes[43863678] = Rare({
 
 akl.nodes[61918962] = Rare({
     id = 216049,
-    quest = 82035,
+    quest = 82035, -- 84078
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     location = L['in_small_cave'],
     rewards = {Achievement({id = 40840, criteria = 69666})},
     parent = map.id,
@@ -193,13 +217,16 @@ map.nodes[76585780] = Rare({
 
 map.nodes[64590352] = Rare({
     id = 216051,
-    quest = 82037,
+    quest = 82037, -- 84080
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69668})}
 }) -- Umbraclaw Matra
 
 map.nodes[34694110] = Rare({
     id = 216037,
-    quest = 81700,
+    quest = 81700, -- One Time Kill
     rewards = {
         Achievement({id = 40840, criteria = 69656}),
         Transmog({item = 223405, type = L['plate']}) -- Vilewing Visor
@@ -227,13 +254,16 @@ cotl.nodes[67525826] = Rare({
 map.nodes[63479504] = Rare({
     id = 216047,
     location = L['in_cave'],
-    quest = 82290,
+    quest = 82290, -- One Time Kill
+    rewards = {
+        Transmog({item = 221247, type = L['crossbow']}) -- Cavernous Critter Shooter
+    },
     pois = {POI({65309350})} -- Entrance
 }) -- The One Left
 
 map.nodes[62816618] = Rare({
     id = 216046,
-    quest = 82289,
+    quest = 82289, -- No rep
     rewards = {ns.reward.Item({item = 225952, quest = 83627})} -- starts the questchain to get the Siesbarg mount.
 }) -- Tka'ktath
 
@@ -296,6 +326,9 @@ map.nodes[54525081] = Treasure({
 map.nodes[67482754] = Treasure({
     quest = 82719,
     -- parent = map.id,
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40828, criteria = 69647})},
     pois = {POI({65422765})}
 }) -- Silk-spun Supplies
