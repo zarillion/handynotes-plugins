@@ -200,7 +200,6 @@ L['options_rep_rewards'] = 'Show rep rewards'
 L['options_rep_rewards_desc'] = 'Display reputation rewards in tooltips and track their collected status'
 L['show_claimed_rep'] = 'Show claimed Reps'
 L['show_claimed_rep_desc'] = 'Show reputation rewards which have already been claimed by your warband'
-
 L['options_toy_rewards'] = 'Show toy rewards'
 L['options_toy_rewards_desc'] = 'Display toy rewards in tooltips and track their collected status.'
 L['options_transmog_rewards'] = 'Show transmog rewards'
