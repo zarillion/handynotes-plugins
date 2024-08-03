@@ -162,8 +162,8 @@ L['shadowflame_leatherworking_table_label'] = 'Table de travail du cuir d’ombr
 L['shadowflame_leatherworking_table_note'] = 'Requis pour la fabrication de la recette :\n{spell:406275}'
 L['shadowflame_incantation_table_label'] = 'Table d’incantation d’ombreflamme'
 L['shadowflame_incantation_table_note'] = 'Requis pour la fabrication de la recette :\n{spell:405076}'
-L['altar_of_decay_label'] = nil
-L['altar_of_decay_note'] = nil
+L['altar_of_decay_label'] = 'Autel de la putréfaction'
+L['altar_of_decay_note'] = 'Requis lors de la fabrication de ces recettes :\n{spell:110423} : \nPatrons putréfiés\nComposants imprégnés de putréfaction\n\n{spell:264211} : \nPotions toxiques\nFlasques toxiques\n{spell:405879}'
 L['azure_loom_label'] = 'Métier à tisser d’azur'
 L['azure_loom_note'] = 'Requis pour la fabrication de la recette :\n{spell:376556}'
 L['temporal_loom_label'] = 'Métier à tisser temporel'
@@ -198,9 +198,9 @@ L['goggle_wobble_note'] = '{emote:/danser} avec {npc:207763} pendant la suite de
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Afficher les emplacements de {npc:207763} pour le haut-fait {achievement:19791}.'
 
-L['just_one_more_thing_note'] = nil
-L['options_icons_just_one_more_thing'] = nil
-L['options_icons_just_one_more_thing_desc'] = nil
+L['just_one_more_thing_note'] = 'Vous devez terminer trois fois n\'importe quelle expédition {wq:Recherche : ...}.'
+L['options_icons_just_one_more_thing'] = '{achievement:19792}'
+L['options_icons_just_one_more_thing_desc'] = 'Afficher la progression pour chaque critère du faut-fait {achievement:19792}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -466,12 +466,12 @@ L['untranslated_tome'] = 'Tome non traduit'
 L['untranslated_tome_note'] = 'Dans le bâtiment dont l\'entrée se trouve sous le pont.'
 L['mysterious_boot'] = 'Botte mystérieuse'
 L['mysterious_boot_note'] = 'A l\'étage supérieur.'
-L['decaying_fishing_bucket'] = nil
-L['decaying_fishing_bucket_note'] = nil
-L['forgotten_fishing_pole'] = nil
-L['forgotten_fishing_pole_note'] = nil
-L['overgrown_fishing_bench'] = nil
-L['overgrown_fishing_bench_note'] = nil
+L['decaying_fishing_bucket'] = 'Seau de poisson en putréfaction'
+L['decaying_fishing_bucket_note'] = 'Au dernier étage de la tour.'
+L['forgotten_fishing_pole'] = 'Canne à pêche oubliée'
+L['forgotten_fishing_pole_note'] = 'Au rez-de-chaussée.'
+L['overgrown_fishing_bench'] = 'Banc de pêche recouvert de végétation'
+L['overgrown_fishing_bench_note'] = 'Sur un rocher envahi par la végétation, difficile à voir.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -550,7 +550,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêves pour {achievement:16574}'
 
 L['khadin_note'] = 'Échangez les {item:191784} contre de la connaissance de métiers.'
-L['khadin_prof_note'] = nil
+L['khadin_prof_note'] = 'Gagnez %d {currency:%d} supplémentaires pour maximiser l\'arbre du métier {spell:%d}.'
 L['the_great_swog_note'] = 'Échangez des {item:199338}, {item:199339} et {item:199340} contre des {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Échangez vos {item:200093} pour obtenir de la réputation avec les {faction:2503}.'
 L['elder_yusa_note'] = 'Ciblez l\'{npc:192818} et utilisez l\'emote {emote:/faim} pour obtenir la recette de cuisine.'
@@ -865,10 +865,10 @@ L['box_of_rocks_note'] = 'Les {object:Boîtes de pierres} peuvent être trouvée
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Afficher les emplacements possibles des {object:Boîtes de pierres} pour le haut-fait {achievement:18559}.'
 
-L['drakonid_painting'] = nil
-L['emptied_hourglass'] = nil
-L['rusted_signal_horn'] = nil
-L['rusted_signal_horn_note'] = nil
+L['drakonid_painting'] = 'Tableau drakônide'
+L['emptied_hourglass'] = 'Sablier vide'
+L['rusted_signal_horn'] = 'Cor d’alarme rouillé'
+L['rusted_signal_horn_note'] = 'Au dernier étage.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
