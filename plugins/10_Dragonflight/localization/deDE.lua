@@ -161,8 +161,8 @@ L['shadowflame_leatherworking_table_label'] = 'Schattenflammenlederverarbeitungs
 L['shadowflame_leatherworking_table_note'] = 'Erforderlich für die Herstellung des Rezepts:\n{spell:406275}'
 L['shadowflame_incantation_table_label'] = 'Schattenflammenzauberformeltisch'
 L['shadowflame_incantation_table_note'] = 'Erforderlich für die Herstellung des Rezepts:\n{spell:405076}'
-L['altar_of_decay_label'] = nil
-L['altar_of_decay_note'] = nil
+L['altar_of_decay_label'] = 'Altar des Verfalls'
+L['altar_of_decay_note'] = 'Erforderlich für die Herstellung der Rezepte:\n{spell:110423}:\nVerfallene Muster\nVerfall-angereicherte Reagenzien\n\n{spell:264211}:\nToxische Tränke\nToxische Phiolen\n{spell:405879}'
 L['azure_loom_label'] = 'Azurblauer Webrahmen'
 L['azure_loom_note'] = 'Erforderlich für die Herstellung des Rezepts:\n{spell:376556}'
 L['temporal_loom_label'] = 'Temporalwebrahmen'
@@ -197,9 +197,9 @@ L['goggle_wobble_note'] = 'Tanze {emote:/tanzen} mit {npc:207763} während der E
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Zeigt die Positionen von {npc:207763} für den Erfolg {achievement:19791} an.'
 
-L['just_one_more_thing_note'] = nil
-L['options_icons_just_one_more_thing'] = nil
-L['options_icons_just_one_more_thing_desc'] = nil
+L['just_one_more_thing_note'] = 'Du musst eine beliebige {wq:Forschung: ...} Weltquest dreimal abschließen.'
+L['options_icons_just_one_more_thing'] = '{achievement:19792}'
+L['options_icons_just_one_more_thing_desc'] = 'Zeigt die Positionen der Weltquests für den Erfolg {achievement:19792} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -465,12 +465,12 @@ L['untranslated_tome'] = 'Unübersetzter Foliant'
 L['untranslated_tome_note'] = 'In dem Gebäude mit dem Eingang unterhalb der Brücke.'
 L['mysterious_boot'] = 'Mysteriöser Stiefel'
 L['mysterious_boot_note'] = 'Im oberen Stockwerk.'
-L['decaying_fishing_bucket'] = nil
-L['decaying_fishing_bucket_note'] = nil
-L['forgotten_fishing_pole'] = nil
-L['forgotten_fishing_pole_note'] = nil
-L['overgrown_fishing_bench'] = nil
-L['overgrown_fishing_bench_note'] = nil
+L['decaying_fishing_bucket'] = 'Vergessener Fischeimer'
+L['decaying_fishing_bucket_note'] = 'Auf der obersten Ebene des Turms.'
+L['forgotten_fishing_pole'] = 'Vergessene Angelrute'
+L['forgotten_fishing_pole_note'] = 'Auf der untersten Ebene.'
+L['overgrown_fishing_bench'] = 'Überwucherte Fischbank'
+L['overgrown_fishing_bench_note'] = 'Ein zugewachsener Felsen, schwer zu erkennen.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -549,7 +549,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinnen für den Erfolg {achievement:16574} an.'
 
 L['khadin_note'] = 'Tausche {item:191784} gegen Berufswissen ein.'
-L['khadin_prof_note'] = nil
+L['khadin_prof_note'] = 'Verdiene weitere %d {currency:%d}, um den Berufstalentbaum für {spell:%d} zu vervollständigen.'
 L['the_great_swog_note'] = 'Tausche {item:199338}, {item:199339} oder {item:199340} gegen die jeweiligen Flunkschatzbeutel ein.'
 L['hunt_instructor_basku_note'] = 'Tausche {item:200093} gegen Ruf bei den {faction:2503} ein.'
 L['elder_yusa_note'] = 'Visiere {npc:192818} an und benutze den Chatbefehl {emote:/hunger}, um das Rezept zu erhalten.'
@@ -868,10 +868,10 @@ L['box_of_rocks_note'] = '{object:Kasten mit Steinen} kann in {location:Die Küs
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Zeigt die möglichen Positionen von {object:Kasten mit Steinen} für den Erfolg {achievement:18559} an.'
 
-L['drakonid_painting'] = nil
-L['emptied_hourglass'] = nil
-L['rusted_signal_horn'] = nil
-L['rusted_signal_horn_note'] = nil
+L['drakonid_painting'] = 'Drakonidengemälde'
+L['emptied_hourglass'] = 'Geleertes Stundenglas'
+L['rusted_signal_horn'] = 'Rostiges Signalhorn'
+L['rusted_signal_horn_note'] = 'Auf der obersten Ebene.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
@@ -946,11 +946,11 @@ L['djaradin_scroll'] = 'Schriftrolle der Djaradin'
 L['forgotten_incense'] = 'Vergessenes Räucherwerk'
 L['forgotten_incense_note'] = '{note:Aufgrund der Questgrenzen schwer zu erreichen.}'
 L['historied_heirloom'] = 'Historisches Erbstück'
-L['rusted_dirt_pale'] = nil
-L['rusted_dirt_pale_note'] = nil
-L['niffen_pickaxe'] = nil
-L['chipped_grub_pot'] = nil
-L['chipped_grub_pot_note'] = nil
+L['rusted_dirt_pale'] = 'Rostiger dreckiger Pfahl'
+L['rusted_dirt_pale_note'] = nil -- review
+L['niffen_pickaxe'] = 'Niffenspitzhacke'
+L['chipped_grub_pot'] = 'Gesprungener Essenstopf'
+L['chipped_grub_pot_note'] = 'Oben auf dem Turm.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
