@@ -92,6 +92,7 @@ map.nodes[66636887] = Rare({
 map.nodes[67045265] = Rare({
     id = 218393,
     quest = 80003, -- 84050
+    note = L['disturbed_earthgorger_note'],
     rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69640})}
 }) -- Disturbed Earthgorger
@@ -99,9 +100,10 @@ map.nodes[67045265] = Rare({
 map.nodes[53000880] = Rare({ -- review 53801800
     id = 220286,
     quest = 80536, -- One Time Kill
+    note = L['deepflayer_broodmother_note'],
     rewards = {Achievement({id = 40837, criteria = 69636})},
     pois = {
-        Path({
+        Path({ -- needs a bit of refinement for the path difficult to get without steady flying
             53000880, 44381099, 45741770, 53302261, 55770933, 53000880
         })
     },
@@ -171,7 +173,7 @@ map.nodes[47621217] = Rare({
 map.nodes[71654630] = Rare({
     id = 220268,
     quest = 80574, -- 84043
-    note = L['in_cave'], -- kill the root of trungal npc:220615
+    note = L['trungal_note'],
     rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69631})},
     pois = {POI({72844447})} -- Entrance

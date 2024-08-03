@@ -54,6 +54,7 @@ map.nodes[37924284] = Rare({
 map.nodes[70722147] = Rare({
     id = 216042,
     quest = 81704, -- 84073
+    note = L['in_small_cave'],
     -- ReputationGain(50, 2601), -- The Weaver
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier
@@ -97,6 +98,7 @@ map.nodes[58036210] = Rare({
 map.nodes[61232730] = Rare({
     id = 216041,
     quest = 81699, -- One Time Kill
+    note = L['in_building'],
     rewards = {Achievement({id = 40840, criteria = 69655})}
 }) -- Grik'ik
 
@@ -208,6 +210,7 @@ akl.nodes[61918962] = Rare({
 map.nodes[76585780] = Rare({
     id = 216034,
     quest = 81703, -- 84072
+    location = L['in_small_cave'],
     -- ReputationGain(50, 2601), -- The Weaver
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier
@@ -264,6 +267,7 @@ map.nodes[63479504] = Rare({
 map.nodes[62816618] = Rare({
     id = 216046,
     quest = 82289, -- No rep
+    note = L['tkaktath_note'],
     rewards = {ns.reward.Item({item = 225952, quest = 83627})} -- starts the questchain to get the Siesbarg mount.
 }) -- Tka'ktath
 

@@ -79,6 +79,10 @@ L['alfritha_location'] = nil
 L['gundrig_location'] = nil
 L['sathilga_location'] = nil
 
+L['trungal_note'] = nil
+L['disturbed_earthgorger_note'] = nil
+L['deepflayer_broodmother_note'] = nil
+
 L['gnawbles_ruby_vendor_note'] = [[Sammle {item:212493} aus {object:Disturbed Earth} und bringe sie zu {npc:225166}.
 
 Sobald du 10 Beiträge geleistet hast oder insgesamt 50 {item:212493} beigesteuert hast erhältst du 1x {item:224642}.

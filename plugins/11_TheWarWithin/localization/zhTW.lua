@@ -78,6 +78,10 @@ L['alfritha_location'] = nil
 L['gundrig_location'] = nil
 L['sathilga_location'] = nil
 
+L['trungal_note'] = nil
+L['disturbed_earthgorger_note'] = nil
+L['deepflayer_broodmother_note'] = nil
+
 L['gnawbles_ruby_vendor_note'] = nil
 L['options_icons_disturbed_dirt'] = nil
 L['options_icons_disturbed_dirt_desc'] = nil

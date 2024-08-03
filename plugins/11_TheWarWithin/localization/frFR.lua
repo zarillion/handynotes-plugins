@@ -79,6 +79,10 @@ L['alfritha_location'] = nil
 L['gundrig_location'] = nil
 L['sathilga_location'] = nil
 
+L['trungal_note'] = nil
+L['disturbed_earthgorger_note'] = nil
+L['deepflayer_broodmother_note'] = nil
+
 L['gnawbles_ruby_vendor_note'] = [[Récupérez des {item:212493} à partir des {object:Terres retournées} et apportez-les à {npc:225166}.
 
 Lorsque vous aurez effectué 10 contributions ou contribué un total de 50x {item:212493}, vous recevrez 1x {item:224642}.

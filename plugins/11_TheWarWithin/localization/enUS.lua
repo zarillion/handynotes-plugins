@@ -78,6 +78,10 @@ L['alfritha_location'] = 'PH'
 L['gundrig_location'] = 'PH'
 L['sathilga_location'] = 'PH'
 
+L['trungal_note'] = 'Kill the {npc:220615} that spawn around the enterance and down in the cave to spawn Trungal.'
+L['disturbed_earthgorger_note'] = 'Use the extra action spell to {spell:437003} the ground 3 times to spawn.'
+L['deepflayer_broodmother_note'] = 'Flies around high up.'
+
 L['gnawbles_ruby_vendor_note'] = [[Gather {item:212493} from {object:Disturbed Earth} and bring it to {npc:225166}.
 
 Once you've done 10 contributions or contributed a total of 50x {item:212493} you will receive 1x {item:224642}.
@@ -183,3 +187,5 @@ L['generals_scouting_shadecaster_location'] = 'PH'
 
 L['concealed_contraband'] = 'Concealed Contraband'
 L['trapped_trove_note'] = 'In a building that hangs from the ceiling. Avoid the spiderwebs on the floor.'
+
+L['tkaktath_note'] = 'Starts a quest chain to get the {item:224150} mount'
