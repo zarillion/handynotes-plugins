@@ -171,12 +171,12 @@ Necesitarás combinar {item:220122} {dot:Blue} y {item:220124} {dot:Green} para 
 {note:Requiere ser nivel 80 para cogerla.} ]]
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
-L['options_icons_mereldar_menace_desc'] = nil
+L['options_icons_mereldar_menace_desc'] = 'Muestra dónde están los objtivos del logro {achievement:40151}.'
 
-L['mereldar_menace_note'] = nil
-L['light_and_flame_location'] = nil
-L['lamplighter_doorway_location'] = nil
-L['barracks_doorway_location'] = nil
+L['mereldar_menace_note'] = 'Interactúa con la {object:Piedra Arrojadiza} y lánzala a los objetivos.'
+L['light_and_flame_location'] = 'Apunta hacia {npc:218472} al este de la {object:Piedra Arrojadiza}.'
+L['lamplighter_doorway_location'] = 'Apunta a la entrada del edificio al este.'
+L['barracks_doorway_location'] = 'Apunta a la puerta de la tienda roja y dorada al oeste.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
