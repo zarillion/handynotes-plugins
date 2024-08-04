@@ -770,14 +770,14 @@ map.nodes[69274372] = MissingLynx({
     rewards = {Achievement({id = 40625, criteria = 69002})}
 }) -- Iggy
 
-map.nodes[18001800] = MissingLynx({
+map.nodes[63182936] = MissingLynx({
     location = L['nightclaw_location'],
     rewards = {Achievement({id = 40625, criteria = 69003})}
 }) -- Nightclaw
 
 map.nodes[63792932] = MissingLynx({
     location = L['purrlock_location'],
-    rewards = {Achievement({id = 40625, criteria = 69004})}
+    rewards = {Achievement({id = 40625, criteria = 69004})} -- review (criteria is for Fuzzy but tracks Fuzzy)
 }) -- Purrlock
 
 map.nodes[63262811] = MissingLynx({
@@ -792,7 +792,7 @@ map.nodes[61193054] = MissingLynx({
 
 map.nodes[64441857] = MissingLynx({
     location = L['fuzzy_location'],
-    rewards = {Achievement({id = 40625, criteria = 69007})}
+    rewards = {Achievement({id = 40625, criteria = 69007})} -- review (criteria is for Fuzzy but tracks Purrlock)
 }) -- Fuzzy
 
 map.nodes[64441857] = MissingLynx({
