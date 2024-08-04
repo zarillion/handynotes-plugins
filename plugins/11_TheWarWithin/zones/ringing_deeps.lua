@@ -102,9 +102,10 @@ map.nodes[53000880] = Rare({ -- review
     quest = 80536, -- review -- need rep quest id if triggered (no rep was trigged on first kill but quest reset)
     note = L['deepflayer_broodmother_note'],
     pois = {
-        Path({ -- needs a bit of refinement for the path difficult to get without steady flying
-            53000880, 44381099, 45741770, 53302261, 55770933, 53000880
-        })
+        Path(
+            { -- needs a bit of refinement for the path difficult to get without steady flying
+                53000880, 44381099, 45741770, 53302261, 55770933, 53000880
+            })
     },
     rewards = {
         Achievement({id = 40837, criteria = 69636}),

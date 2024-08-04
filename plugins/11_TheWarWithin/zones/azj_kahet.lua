@@ -79,11 +79,7 @@ map.nodes[64560668] = Rare({
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69669})},
-    pois = {
-        Path({
-            64500582, 64650782
-        })
-    }
+    pois = {Path({64500582, 64650782})}
 }) -- Deepcrawler Tx'kesh
 
 map.nodes[58036210] = Rare({

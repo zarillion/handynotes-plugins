@@ -43,7 +43,7 @@ map.nodes[15004000] = Rare({
         Mount({item = 223315, id = 2192}),
         Achievement({id = 40851, criteria = 69716})
     },
---    quest = 81763, -- triggered this on kill
+    --    quest = 81763, -- triggered this on kill
     pois = {
         POI({
             25825754, 32673962, 37207191, 37744585, 38382474, 42733133,
