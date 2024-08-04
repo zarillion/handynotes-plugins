@@ -175,3 +175,5 @@ L['generals_scouting_shadecaster_location'] = nil
 
 L['concealed_contraband'] = '숨겨진 밀수품'
 L['trapped_trove_note'] = nil
+
+L['tkaktath_note'] = nil

@@ -257,7 +257,7 @@ cotl.nodes[67525826] = Rare({
 map.nodes[63479504] = Rare({
     id = 216047,
     location = L['in_cave'],
-    quest = 82290, -- One Time Kill
+    quest = 82290, -- review -- need rep quest id if triggered (none triggered on first kill, maybe no rep/bug)
     rewards = {
         Transmog({item = 221247, type = L['crossbow']}) -- Cavernous Critter Shooter
     },
@@ -294,7 +294,7 @@ map.nodes[67459072] = Treasure({
     rewards = {Achievement({id = 40828, criteria = 69646})}
 }) -- Disturbed Soil
 
-map.nodes[38783722] = Treasure({ -- review
+map.nodes[38783722] = Treasure({
     quest = 82722,
     rewards = {Achievement({id = 40828, criteria = 69650})}
 }) -- Missing Scout's Pack

@@ -187,3 +187,5 @@ L['generals_scouting_shadecaster_location'] = nil
 
 L['concealed_contraband'] = 'Contrabando Oculto'
 L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'
+
+L['tkaktath_note'] = nil

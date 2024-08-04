@@ -195,7 +195,7 @@ map.nodes[57122241] = Rare({
 map.nodes[30905239] = Rare({
     id = 219284,
     label = L['violet_hold_prisoner'],
-    quest = {82203, 82204, 82205},
+    quest = {82203, 82204, 82205}, -- No Rep
     questCount = true,
     rewards = {
         Achievement({

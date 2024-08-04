@@ -97,17 +97,17 @@ map.nodes[67045265] = Rare({
     rewards = {Achievement({id = 40837, criteria = 69640})}
 }) -- Disturbed Earthgorger
 
-map.nodes[53000880] = Rare({ -- review 53801800
+map.nodes[53000880] = Rare({ -- review
     id = 220286,
-    quest = 80536, -- One Time Kill
+    quest = 80536, -- review -- need rep quest id if triggered (no rep was trigged on first kill but quest reset)
     note = L['deepflayer_broodmother_note'],
-    rewards = {Achievement({id = 40837, criteria = 69636})},
     pois = {
         Path({ -- needs a bit of refinement for the path difficult to get without steady flying
             53000880, 44381099, 45741770, 53302261, 55770933, 53000880
         })
     },
     rewards = {
+        Achievement({id = 40837, criteria = 69636}),
         Transmog({item = 221507, slot = L['cloak']}) -- Earth Golem's Wrap
     }
 }) -- Deepflayer Broodmother
@@ -137,7 +137,7 @@ map.nodes[42773508] = Rare({
 
 map.nodes[74002000] = Rare({ -- review
     id = 220285,
-    quest = 81633,
+    quest = 81633, -- review -- need rep quest id if triggered
     rewards = {Achievement({id = 40837, criteria = 69637})}
 }) -- Lurker of the Deeps
 
@@ -300,7 +300,7 @@ map.nodes[64286527] = PT.Leatherworking({quest = 83901, id = 226327}) -- Earthen
 map.nodes[49422755] = PT.Mining({quest = 83908, id = 226334}) -- Earthen Excavator's Shovel
 map.nodes[66266624] = PT.Mining({quest = 83909, id = 226335}) -- Regenerating Ore
 map.nodes[47302833] = PT.Skinning({quest = 83916, id = 226342}) -- Artisan's Drawing Knife
-map.nodes[65696190] = PT.Skinning({quest = 83917, id = 226343}) -- Fungarian's Rich Tannin -- review
+map.nodes[65696190] = PT.Skinning({quest = 83917, id = 226343}) -- Fungarian's Rich Tannin
 map.nodes[48823286] = PT.Tailoring({
     quest = 83924,
     id = 226350,
