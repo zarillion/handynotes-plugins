@@ -128,6 +128,7 @@ L['biblo_book_07_location'] = 'A l\'intérieur du bâtiment, sur la table derri�
 L['biblo_book_08_location'] = 'A l\'intérieur des ruines.'
 L['biblo_book_09_location'] = 'A l\'intérieur de la grande tente, derrière la table de commandement.'
 L['biblo_book_10_location'] = 'A l\'intérieur des quartiers du capitaine à bord du navire {location:Le Brise-Aube}.'
+L['biblo_book_11_location'] = nil
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
 L['options_icons_lost_and_found_desc'] = 'Afficher les emplacements des souvenirs perdus pour le haut-fait {achievement:40618}.'

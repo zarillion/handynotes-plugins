@@ -125,6 +125,7 @@ L['biblo_book_07_location'] = nil
 L['biblo_book_08_location'] = nil
 L['biblo_book_09_location'] = nil
 L['biblo_book_10_location'] = nil
+L['biblo_book_11_location'] = nil
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
 L['options_icons_lost_and_found_desc'] = 'Zeigt die Positionen der Andenken für den Erfolg {achievement:40618} an.'

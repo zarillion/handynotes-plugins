@@ -127,6 +127,7 @@ L['biblo_book_07_location'] = 'Dentro del edificio en la mesa de detrás de {npc
 L['biblo_book_08_location'] = 'Dentro de las ruinas.'
 L['biblo_book_09_location'] = 'Dentro de la gran carpa detrás de la mesa de guerra.'
 L['biblo_book_10_location'] = 'En las habitaciones del capitán a bordo de {location:El Rompealbas}.'
+L['biblo_book_11_location'] = nil
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
 L['options_icons_lost_and_found_desc'] = 'Muestra dónde están todos los recuerdos del logro {achievement:40618}.'
