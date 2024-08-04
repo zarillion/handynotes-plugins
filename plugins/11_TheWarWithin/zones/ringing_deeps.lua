@@ -102,10 +102,10 @@ map.nodes[53000880] = Rare({ -- review
     quest = 80536, -- review -- need rep quest id if triggered (no rep was trigged on first kill but quest reset)
     note = L['deepflayer_broodmother_note'],
     pois = {
-        Path(
-            { -- needs a bit of refinement for the path difficult to get without steady flying
-                53000880, 44381099, 45741770, 53302261, 55770933, 53000880
-            })
+        Path({
+            53000880, 49040974, 46751191, 44871082, 44150911, 41540943,
+            45001210, 45741770, 53302261, 56010925, 53000880
+        })
     },
     rewards = {
         Achievement({id = 40837, criteria = 69636}),
@@ -359,32 +359,32 @@ local BustedConsole = Class('BustedConsole', Collectible, {
     note = L['not_so_quick_fix_note']
 })
 
-map.nodes[74001400] = BustedConsole({
+map.nodes[45304640] = BustedConsole({
     location = L['water_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68658})}
 }) -- Water Console
 
-map.nodes[76001400] = BustedConsole({
+map.nodes[59049339] = BustedConsole({
     location = L['abyssal_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68659})}
 }) -- Abyssal Console
 
-map.nodes[78001400] = BustedConsole({
+map.nodes[63696115] = BustedConsole({
     location = L['taelloch_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68660})}
 }) -- Taelloch Console
 
-map.nodes[80001400] = BustedConsole({
+map.nodes[69064879] = BustedConsole({
     location = L['obsidian_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68661})}
 }) -- Obsidian Console
 
-map.nodes[82001400] = BustedConsole({
+map.nodes[56382253] = BustedConsole({
     location = L['lost_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68662})}
 }) -- Lost Console
 
-map.nodes[84001400] = BustedConsole({
+map.nodes[46291411] = BustedConsole({
     location = L['earthen_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68663})}
 }) -- Earthen Console
@@ -409,17 +409,17 @@ map.nodes[48932593] = MachineSpeakerNote({
     rewards = {Achievement({id = 40628, criteria = 68992})}
 }) -- Notes On The Machine Speakers: Fragment II
 
-map.nodes[76001600] = MachineSpeakerNote({ -- review
+map.nodes[51071448] = MachineSpeakerNote({
     location = L['fragment_III_location'],
     rewards = {Achievement({id = 40628, criteria = 68993})}
 }) -- Notes On The Machine Speakers: Fragment III
 
-map.nodes[78001600] = MachineSpeakerNote({ -- review
+map.nodes[39892099] = MachineSpeakerNote({
     location = L['fragment_IV_location'],
     rewards = {Achievement({id = 40628, criteria = 68994})}
 }) -- Notes On The Machine Speakers: Fragment IV
 
-map.nodes[80001600] = MachineSpeakerNote({ -- review
+map.nodes[63695878] = MachineSpeakerNote({
     location = L['fragment_V_location'],
     rewards = {Achievement({id = 40628, criteria = 68995})}
 }) -- Notes On The Machine Speakers: Fragment V
