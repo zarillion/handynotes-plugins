@@ -78,9 +78,9 @@ L['alfritha_location'] = nil
 L['gundrig_location'] = nil
 L['sathilga_location'] = nil
 
-L['trungal_note'] = nil
-L['disturbed_earthgorger_note'] = nil
-L['deepflayer_broodmother_note'] = nil
+L['trungal_note'] = 'Mata a {npc:220615} que aparece alrededor de la entrada y abajo en la cueva para hacer aparecer a Trungal.'
+L['disturbed_earthgorger_note'] = 'Usa el hechizo de acción extra para hacer {spell:437003} en el suelo 3 veces para hacerlo aparecer.'
+L['deepflayer_broodmother_note'] = 'Vuela muy alto.'
 
 L['gnawbles_ruby_vendor_note'] = [[Recolecta {item:212493} de la {object:Tierra Perturbada} para dárselo a {npc:225166}.
 
@@ -188,4 +188,4 @@ L['generals_scouting_shadecaster_location'] = nil
 L['concealed_contraband'] = 'Contrabando Oculto'
 L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'
 
-L['tkaktath_note'] = nil
+L['tkaktath_note'] = 'Comienza una cadena de misiones para conseguir la montura {item:224150}.'
