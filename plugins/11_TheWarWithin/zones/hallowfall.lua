@@ -840,6 +840,89 @@ map.nodes[25723845] = LoreObject({
 }) -- Captain's Chest
 
 -------------------------------------------------------------------------------
+------------------------- ACHIEVEMENT: MERELDAR MENACE ------------------------
+-------------------------------------------------------------------------------
+
+local MereldarMenace = Class('mereldar_menace', Collectible, {
+    icon = 135232,
+    group = ns.groups.MERELDAR_MENACE,
+    note = L['mereldar_menace_note']
+})
+
+map.nodes[41845564] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67121})},
+    pois = {
+        POI({41895552}) -- Throwing stone
+    }
+}) -- Orphanage Window
+
+map.nodes[42545551] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67122})},
+    pois = {
+        POI({41895552}) -- Throwing stone
+    }
+}) -- Notice Board
+
+map.nodes[42455439] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67123})},
+    pois = {
+        POI({41895552}) -- Throwing stone
+    }
+}) -- Food Stall
+
+map.nodes[42355491] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67124})},
+    pois = {
+        POI({41895552}) -- Throwing stone
+    }
+}) -- Fountain
+
+map.nodes[42295439] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67125})},
+    pois = {
+        POI({41895552}) -- Throwing stone
+    }
+}) -- Spice Stall
+
+map.nodes[42975268] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67126})},
+    location = L['light_and_flame_location'],
+    pois = {
+        POI({42265254}) -- Throwing stone
+    }
+}) -- Light and Flame
+
+map.nodes[43025235] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67127})},
+    location = L['lamplighter_doorway_location'],
+    pois = {
+        POI({42265254}) -- Throwing stone
+    }
+}) -- Lamplighter Doorway
+
+map.nodes[41325296] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67128})},
+    location = L['barracks_doorway_location'],
+    pois = {
+        POI({42265254}) -- Throwing stone
+    }
+}) -- Barracks Doorway
+
+map.nodes[43505078] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67129})},
+    pois = {
+        POI({44245123}) -- Throwing stone
+    }
+}) -- Holy Oil
+
+map.nodes[44685177] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67130})},
+    pois = {
+        POI({44245123}) -- Throwing stone
+    }
+}) -- Airship Drafting Board
+
+-------------------------------------------------------------------------------
 -------------------------------- DISTURBED DIRT -------------------------------
 -------------------------------------------------------------------------------
 
@@ -875,39 +958,3 @@ map.nodes[44147539] = DisturbedDirt()
 map.nodes[44537632] = DisturbedDirt()
 map.nodes[44947610] = DisturbedDirt()
 
--------------------------------------------------------------------------------
-------------------------- ACHIEVEMENT: MERELDAR MENACE ------------------------
--------------------------------------------------------------------------------
-
--- local BadExample = Class('BadExample', ns.node.Collectible, {icon = 135232})
-
--- These are just speculations, dont know where to get the stone to test it.
--- Probably because i am stuck at the Campaign Questline
-
--- map.nodes[43505077] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67219})}
--- }) -- Holy Oil -- according to wowhead wowhead.com/beta/npc=223557
-
--- map.nodes[41815599] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67121})}
--- }) -- Orphanage Window
-
--- map.nodes[42465440] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67123})}
--- }) -- Food Stall
-
--- map.nodes[42355490] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67124})}
--- }) -- Fountain
-
--- map.nodes[42295441] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67125})}
--- }) -- Spice Stall
-
--- map.nodes[42965270] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67126})}
--- }) -- Light and Flame
-
--- map.nodes[44075423] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67130})}
--- }) -- Airship Drafting Board

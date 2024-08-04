@@ -159,6 +159,14 @@ L['gobbo_location'] = nil
 L['croakit_note'] = nil
 L['deathtide_note'] = nil
 
+L['options_icons_mereldar_menace'] = '{achievement:40151}'
+L['options_icons_mereldar_menace_desc'] = nil
+
+L['mereldar_menace_note'] = nil
+L['light_and_flame_location'] = nil
+L['lamplighter_doorway_location'] = nil
+L['barracks_doorway_location'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

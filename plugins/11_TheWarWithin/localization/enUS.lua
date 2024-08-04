@@ -170,6 +170,14 @@ You need to combine {item:220122} {dot:Blue} and {item:220124} {dot:Green} to ge
 
 {note:You need to be level 80 to pick them up.} ]] -- from wowhead, needs to be reviewed
 
+L['options_icons_mereldar_menace'] = '{achievement:40151}'
+L['options_icons_mereldar_menace_desc'] = 'Display target locations for {achievement:40151}.'
+
+L['mereldar_menace_note'] = 'Interact with {object:Throwing Stone} and throw it at the targets.'
+L['light_and_flame_location'] = 'Aim towards the {npc:218472} east of the {object:Throwing Stone}.'
+L['lamplighter_doorway_location'] = 'Aim at the doorway of the building to the east.'
+L['barracks_doorway_location'] = 'Aim at the doorwat of the red and gold tent to the west.'
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

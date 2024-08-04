@@ -171,6 +171,14 @@ Vous devez combiner l'{item:220122} {dot:Blue} et le {item:220124} {dot:Green} p
 
 {note:Vous devez être de niveau 80 pour les ramasser.} ]]
 
+L['options_icons_mereldar_menace'] = '{achievement:40151}'
+L['options_icons_mereldar_menace_desc'] = nil
+
+L['mereldar_menace_note'] = nil
+L['light_and_flame_location'] = nil
+L['lamplighter_doorway_location'] = nil
+L['barracks_doorway_location'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

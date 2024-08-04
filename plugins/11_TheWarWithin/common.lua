@@ -60,6 +60,12 @@ ns.groups.MISSING_LYNX = Group('missing_lynx', 5689905, {
     achievement = 40625
 })
 
+ns.groups.MERELDAR_MENACE = Group('mereldar_menace', 135232, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40151
+})
+
 ns.groups.NOT_SO_QUICK_FIX = Group('not_so_quick_fix', 134067, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
