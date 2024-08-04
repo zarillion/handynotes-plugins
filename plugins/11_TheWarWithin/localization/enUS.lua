@@ -114,19 +114,20 @@ L['coral_fused_clam_note'] = [[Loot {item:218354} from the {object:Clammer's Kit
 {note:Requires level 80 to pick up.}
 ]] -- from wowhead, needs to be reviewed
 
-L['options_icons_biblio_archivist'] = '{achievement:40622}'
-L['options_icons_biblio_archivist_desc'] = 'Display book locations for {achievement:40622}.'
+L['options_icons_biblo_archivist'] = '{achievement:40622}'
+L['options_icons_biblo_archivist_desc'] = 'Display book locations for {achievement:40622}.'
 
-L['biblio_book_01_location'] = 'Inside the building on the table behind {npc:222811}.'
-L['biblio_book_02_location'] = 'Inside the building on a table by the door.'
-L['biblio_book_03_location'] = 'In the stable with all of the {npc:217606}.'
-L['biblio_book_04_location'] = 'On the center of the bridge.'
-L['biblio_book_05_location'] = 'On the beach below the airship.'
-L['biblio_book_06_location'] = 'Inside the building in a bookshelf on the back wall.'
-L['biblio_book_07_location'] = 'Inside the building on the table behind the {npc:206096}.'
-L['biblio_book_08_location'] = 'Inside the ruins.'
-L['biblio_book_09_location'] = 'Inside the large tent behind the wartable.'
-L['biblio_book_10_location'] = 'In the captain\'s quarters aboard {location:The Dawnbreaker}.'
+L['biblo_book_01_location'] = 'Inside the building on the table behind {npc:222811}.'
+L['biblo_book_02_location'] = 'Inside the building on a table by the door.'
+L['biblo_book_03_location'] = 'In the stable with all of the {npc:217606}.'
+L['biblo_book_04_location'] = 'On the center of the bridge.'
+L['biblo_book_05_location'] = 'On the beach below the airship.'
+L['biblo_book_06_location'] = 'Inside the building in a bookshelf on the back wall.'
+L['biblo_book_07_location'] = 'Inside the building on the table behind the {npc:206096}.'
+L['biblo_book_08_location'] = 'Inside the ruins.'
+L['biblo_book_09_location'] = 'Inside the large tent behind the wartable.'
+L['biblo_book_10_location'] = 'In the captain\'s quarters aboard {location:The Dawnbreaker}.'
+L['biblo_book_11_location'] = 'Inside the buiding on a table.'
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
 L['options_icons_lost_and_found_desc'] = 'Display momento locations for {achievement:40618}.'

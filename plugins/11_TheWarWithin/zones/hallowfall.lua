@@ -612,61 +612,66 @@ map.nodes[57616460] = SkyridingGlyph({
 }) -- Tenir's Ascent
 
 -------------------------------------------------------------------------------
------------------------- ACHIEVEMENT: BIBLIO ARCHIVIST ------------------------
+------------------------ ACHIEVEMENT: BIBLO ARCHIVIST ------------------------
 -------------------------------------------------------------------------------
 
-local BiblioBook = Class('BiblioBook', Collectible,
-    {icon = 5341597, group = ns.groups.BIBLIO_ARCHIVIST})
+local BibloBook = Class('BibloBook', Collectible,
+    {icon = 5341597, group = ns.groups.BIBLO_ARCHIVIST})
 
-map.nodes[48153959] = BiblioBook({
-    location = L['biblio_book_01_location'],
+map.nodes[48153959] = BibloBook({
+    location = L['biblo_book_01_location'],
     rewards = {Achievement({id = 40622, criteria = 68954})}
 }) -- The Big Book of Arathi Idioms
 
-map.nodes[43884991] = BiblioBook({
-    location = L['biblio_book_02_location'],
+map.nodes[43884991] = BibloBook({
+    location = L['biblo_book_02_location'],
     rewards = {Achievement({id = 40622, criteria = 68955})}
 }) -- 500 Dishes Using Cave Fish and Mushrooms
 
-map.nodes[69344394] = BiblioBook({
-    location = L['biblio_book_03_location'],
+map.nodes[69344394] = BibloBook({
+    location = L['biblo_book_03_location'],
     rewards = {Achievement({id = 40622, criteria = 68957})}
 }) -- Care and Feeding of the Imperial Lynx
 
-map.nodes[68684159] = BiblioBook({
-    location = L['biblio_book_04_location'],
+map.nodes[68684159] = BibloBook({
+    location = L['biblo_book_04_location'],
     rewards = {Achievement({id = 40622, criteria = 68958})}
 }) -- Light's Gambit Playbook
 
-map.nodes[57595180] = BiblioBook({
-    location = L['biblio_book_05_location'],
+map.nodes[57825183] = BibloBook({
+    location = L['biblo_book_05_location'],
     rewards = {Achievement({id = 40622, criteria = 68960})}
 }) -- From the Depths They Come
 
-map.nodes[48756471] = BiblioBook({
-    location = L['biblio_book_06_location'],
+map.nodes[48756471] = BibloBook({
+    location = L['biblo_book_06_location'],
     rewards = {Achievement({id = 40622, criteria = 68961})}
 }) -- Palawltar's Codex of Dimensional Structure
 
-map.nodes[64182812] = BiblioBook({
-    location = L['biblio_book_07_location'],
+map.nodes[64182812] = BibloBook({
+    location = L['biblo_book_07_location'],
     rewards = {Achievement({id = 40622, criteria = 68963})}
 }) -- Shadow Curfew Guidelines
 
-map.nodes[59802203] = BiblioBook({
-    location = L['biblio_book_08_location'],
+map.nodes[59802203] = BibloBook({
+    location = L['biblo_book_08_location'],
     rewards = {Achievement({id = 40622, criteria = 68965})}
 }) -- Shadow Curfew Journal
 
-map.nodes[70225684] = BiblioBook({
-    location = L['biblio_book_09_location'],
+map.nodes[70225684] = BibloBook({
+    location = L['biblo_book_09_location'],
     rewards = {Achievement({id = 40622, criteria = 68967})}
 }) -- The Song of Renilash
 
-map.nodes[56586518] = BiblioBook({
-    location = L['biblio_book_10_location'],
+map.nodes[56586518] = BibloBook({
+    location = L['biblo_book_10_location'],
     rewards = {Achievement({id = 40622, criteria = 68968})}
 }) -- Beledar - The Emperor's Vision
+
+map.nodes[52635999] = BibloBook({
+    location = L['biblo_book_11_location'],
+    rewards = {Achievement({id = 40622, criteria = 69729})}
+}) -- Lightspark Grade Book
 
 -------------------------------------------------------------------------------
 ------------------------- ACHIEVEMENT: LOST AND FOUND -------------------------

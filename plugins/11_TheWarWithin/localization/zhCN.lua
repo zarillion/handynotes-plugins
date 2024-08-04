@@ -107,19 +107,19 @@ L['smugglers_treasure_location'] = nil
 L['coral_fused_clam'] = nil
 L['coral_fused_clam_note'] = nil
 
-L['options_icons_biblio_archivist'] = nil
-L['options_icons_biblio_archivist_desc'] = nil
+L['options_icons_biblo_archivist'] = nil
+L['options_icons_biblo_archivist_desc'] = nil
 
-L['biblio_book_01_location'] = nil
-L['biblio_book_02_location'] = nil
-L['biblio_book_03_location'] = nil
-L['biblio_book_04_location'] = nil
-L['biblio_book_05_location'] = nil
-L['biblio_book_06_location'] = nil
-L['biblio_book_07_location'] = nil
-L['biblio_book_08_location'] = nil
-L['biblio_book_09_location'] = nil
-L['biblio_book_10_location'] = nil
+L['biblo_book_01_location'] = nil
+L['biblo_book_02_location'] = nil
+L['biblo_book_03_location'] = nil
+L['biblo_book_04_location'] = nil
+L['biblo_book_05_location'] = nil
+L['biblo_book_06_location'] = nil
+L['biblo_book_07_location'] = nil
+L['biblo_book_08_location'] = nil
+L['biblo_book_09_location'] = nil
+L['biblo_book_10_location'] = nil
 
 L['options_icons_lost_and_found'] = nil
 L['options_icons_lost_and_found_desc'] = nil

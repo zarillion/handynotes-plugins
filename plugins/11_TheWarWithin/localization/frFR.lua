@@ -115,19 +115,19 @@ L['coral_fused_clam_note'] = [[Récupérez le {item:218354} à partir du {object
 {note:Vous devez être de niveau 80 pour le ramasser.}
 ]]
 
-L['options_icons_biblio_archivist'] = '{achievement:40622}'
-L['options_icons_biblio_archivist_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40622}.'
+L['options_icons_biblo_archivist'] = '{achievement:40622}'
+L['options_icons_biblo_archivist_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40622}.'
 
-L['biblio_book_01_location'] = 'A l\'intérieur du bâtiment, sur la table derrière {npc:222811}.'
-L['biblio_book_02_location'] = 'A l\'intérieur du bâtiment, sur une table près de la porte.'
-L['biblio_book_03_location'] = 'Dans l\'écurie pleine de {npc:217606}.'
-L['biblio_book_04_location'] = 'Au milieu du pont.'
-L['biblio_book_05_location'] = 'Sur la plage en contrebas du dirigeable.'
-L['biblio_book_06_location'] = 'A l\'intérieur du bâtiment, sur une étagère située contre le mur du fond.'
-L['biblio_book_07_location'] = 'A l\'intérieur du bâtiment, sur la table derrière le {npc:206096}.'
-L['biblio_book_08_location'] = 'A l\'intérieur des ruines.'
-L['biblio_book_09_location'] = 'A l\'intérieur de la grande tente, derrière la table de commandement.'
-L['biblio_book_10_location'] = 'A l\'intérieur des quartiers du capitaine à bord du navire {location:Le Brise-Aube}.'
+L['biblo_book_01_location'] = 'A l\'intérieur du bâtiment, sur la table derrière {npc:222811}.'
+L['biblo_book_02_location'] = 'A l\'intérieur du bâtiment, sur une table près de la porte.'
+L['biblo_book_03_location'] = 'Dans l\'écurie pleine de {npc:217606}.'
+L['biblo_book_04_location'] = 'Au milieu du pont.'
+L['biblo_book_05_location'] = 'Sur la plage en contrebas du dirigeable.'
+L['biblo_book_06_location'] = 'A l\'intérieur du bâtiment, sur une étagère située contre le mur du fond.'
+L['biblo_book_07_location'] = 'A l\'intérieur du bâtiment, sur la table derrière le {npc:206096}.'
+L['biblo_book_08_location'] = 'A l\'intérieur des ruines.'
+L['biblo_book_09_location'] = 'A l\'intérieur de la grande tente, derrière la table de commandement.'
+L['biblo_book_10_location'] = 'A l\'intérieur des quartiers du capitaine à bord du navire {location:Le Brise-Aube}.'
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
 L['options_icons_lost_and_found_desc'] = 'Afficher les emplacements des souvenirs perdus pour le haut-fait {achievement:40618}.'

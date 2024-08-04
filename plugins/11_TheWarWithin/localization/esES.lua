@@ -114,19 +114,19 @@ L['coral_fused_clam_note'] = [[Despoja una {item:218354} del {object:Equipo de M
 {note:Requiere ser nivel 80 para cogerla.}
 ]]
 
-L['options_icons_biblio_archivist'] = '{achievement:40622}'
-L['options_icons_biblio_archivist_desc'] = 'Muestra dónde están los libros del logro {achievement:40622}.'
+L['options_icons_biblo_archivist'] = '{achievement:40622}'
+L['options_icons_biblo_archivist_desc'] = 'Muestra dónde están los libros del logro {achievement:40622}.'
 
-L['biblio_book_01_location'] = 'Dentro del edificio en la mesa de detrás de {npc:222811}.'
-L['biblio_book_02_location'] = 'Dentro del edificio sobre una mesa junto a la puerta..'
-L['biblio_book_03_location'] = 'En el establo con todos los {npc:217606}.'
-L['biblio_book_04_location'] = 'En el centro del puente.'
-L['biblio_book_05_location'] = 'En la playa debajo del dirigible.'
-L['biblio_book_06_location'] = 'Dentro del edificio en una estantería de la pared trasera.'
-L['biblio_book_07_location'] = 'Dentro del edificio en la mesa de detrás de {npc:206096}.'
-L['biblio_book_08_location'] = 'Dentro de las ruinas.'
-L['biblio_book_09_location'] = 'Dentro de la gran carpa detrás de la mesa de guerra.'
-L['biblio_book_10_location'] = 'En las habitaciones del capitán a bordo de {location:El Rompealbas}.'
+L['biblo_book_01_location'] = 'Dentro del edificio en la mesa de detrás de {npc:222811}.'
+L['biblo_book_02_location'] = 'Dentro del edificio sobre una mesa junto a la puerta..'
+L['biblo_book_03_location'] = 'En el establo con todos los {npc:217606}.'
+L['biblo_book_04_location'] = 'En el centro del puente.'
+L['biblo_book_05_location'] = 'En la playa debajo del dirigible.'
+L['biblo_book_06_location'] = 'Dentro del edificio en una estantería de la pared trasera.'
+L['biblo_book_07_location'] = 'Dentro del edificio en la mesa de detrás de {npc:206096}.'
+L['biblo_book_08_location'] = 'Dentro de las ruinas.'
+L['biblo_book_09_location'] = 'Dentro de la gran carpa detrás de la mesa de guerra.'
+L['biblo_book_10_location'] = 'En las habitaciones del capitán a bordo de {location:El Rompealbas}.'
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
 L['options_icons_lost_and_found_desc'] = 'Muestra dónde están todos los recuerdos del logro {achievement:40618}.'

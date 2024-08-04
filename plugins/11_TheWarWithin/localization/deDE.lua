@@ -112,19 +112,19 @@ L['smugglers_treasure_location'] = nil
 L['coral_fused_clam'] = nil
 L['coral_fused_clam_note'] = nil
 
-L['options_icons_biblio_archivist'] = '{achievement:40622}'
-L['options_icons_biblio_archivist_desc'] = 'Zeigt die Positionen der Bücher für den Erfolg {achievement:40622} an.'
+L['options_icons_biblo_archivist'] = '{achievement:40622}'
+L['options_icons_biblo_archivist_desc'] = 'Zeigt die Positionen der Bücher für den Erfolg {achievement:40622} an.'
 
-L['biblio_book_01_location'] = nil
-L['biblio_book_02_location'] = nil
-L['biblio_book_03_location'] = nil
-L['biblio_book_04_location'] = nil
-L['biblio_book_05_location'] = nil
-L['biblio_book_06_location'] = nil
-L['biblio_book_07_location'] = nil
-L['biblio_book_08_location'] = nil
-L['biblio_book_09_location'] = nil
-L['biblio_book_10_location'] = nil
+L['biblo_book_01_location'] = nil
+L['biblo_book_02_location'] = nil
+L['biblo_book_03_location'] = nil
+L['biblo_book_04_location'] = nil
+L['biblo_book_05_location'] = nil
+L['biblo_book_06_location'] = nil
+L['biblo_book_07_location'] = nil
+L['biblo_book_08_location'] = nil
+L['biblo_book_09_location'] = nil
+L['biblo_book_10_location'] = nil
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
 L['options_icons_lost_and_found_desc'] = 'Zeigt die Positionen der Andenken für den Erfolg {achievement:40618} an.'
