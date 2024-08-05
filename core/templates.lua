@@ -241,6 +241,18 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
         })
     elseif level == 2 then
         if L_UIDROPDOWNMENU_MENU_VALUE == 'achievements' then
+            if not ns:GetOpt('show_achievements_rewards') then
+                LibDD:UIDropDownMenu_AddButton({
+                    text = 'Achievement Reward Tracking is off, therefore most Nodes will be hidden!\n',
+                    isNotRadio = true,
+                    notCheckable = true,
+                    notClickable = true,
+                    keepShownOnClick = true,
+                    -- hasArrow = true,
+                    -- value = 'rewards'
+                },level)
+                LibDD:UIDropDownMenu_AddSeparator(level)
+            end
             for i, group in ipairs(map.groups) do
                 if group.type == ns.group_types.ACHIEVEMENT and
                     group:IsEnabled() and group:HasEnabledNodes(map) then
@@ -249,7 +261,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             end
         elseif L_UIDROPDOWNMENU_MENU_VALUE == 'rewards' then
             for i, type in ipairs({
-                'manuscript', 'mount', 'pet', 'recipe', 'toy', 'transmog',
+                'achievements', 'manuscript', 'mount', 'pet', 'recipe', 'toy', 'transmog',
                 'all_transmog'
             }) do
                 LibDD:UIDropDownMenu_AddButton({

@@ -187,6 +187,8 @@ L['options_restore_hidden_nodes_desc'] = '使用右击菜单恢复全部隐藏�
 
 L['options_rewards_settings'] = '奖励'
 L['options_reward_types'] = '显示奖励类型'
+L['options_achievements_rewards'] = nil
+L['options_achievements_rewards_desc'] = nil
 L['options_manuscript_rewards'] = '显示观龙者手稿奖励'
 L['options_manuscript_rewards_desc'] = '在提示中显示龙观察者手稿奖励并跟踪其收集状态。'
 L['options_mount_rewards'] = '显示坐骑奖励'
