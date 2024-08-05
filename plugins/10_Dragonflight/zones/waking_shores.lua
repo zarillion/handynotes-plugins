@@ -2352,6 +2352,25 @@ map.nodes[54606584] = RichSoil()
 map.nodes[55875764] = RichSoil()
 map.nodes[59456104] = RichSoil()
 map.nodes[60645668] = RichSoil()
+-------------------------------------------------------------------------------
+---------------------------------- CLUED IN -----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[56434294] = ns.node.CluedIn({
+    label = L['drakonid_painting'],
+    quest = 76911 -- Research: Drakonid of Waking Shores
+})
+
+map.nodes[56814222] = ns.node.CluedIn({
+    label = L['emptied_hourglass'],
+    quest = 76911
+})
+
+map.nodes[57014632] = ns.node.CluedIn({
+    label = L['rusted_signal_horn'],
+    quest = 76911,
+    location = L['rusted_signal_horn_note']
+})
 
 -------------------------------------------------------------------------------
 -------------------------------- GOGGLE WOBBLE --------------------------------
@@ -2360,6 +2379,15 @@ map.nodes[60645668] = RichSoil()
 map.nodes[56374394] = ns.node.GoggleWobble({
     rewards = {Achievement({id = 19791, criteria = 65406})}
 })
+
+-------------------------------------------------------------------------------
+----------------------------- JUST ONE MORE THING -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[57004400] = ns.node.JustOneMoreThing({
+    quest = {79610, 79609, 79608},
+    rewards = {Achievement({id = 19792, criteria = 65412})} -- Concord Observatory
+}) -- Research: Drakonid of Waking Shores -- 76911
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
@@ -2697,5 +2725,12 @@ map.nodes[47308270] = Collectible({
         Item({item = 213202, quest = 79550}) -- A Tiny Explorer's Hat
     }
 }) -- Explorer Pepe
+
+------------------------------------------------------------------------------
+--------------------------------- DREAMSURGE ---------------------------------
+------------------------------------------------------------------------------
+
+map.nodes[58446784] = ns.node.Celestine()
+map.nodes[41197748] = ns.node.RenewedMagmammoth()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

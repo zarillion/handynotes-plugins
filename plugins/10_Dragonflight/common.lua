@@ -481,6 +481,12 @@ ns.groups.GOGGLE_WOBBLE = Group('goggle_wobble', 133023, {
     achievement = 19791
 })
 
+ns.groups.JUST_ONE_MORE_THING = Group('just_one_more_thing', 1411833, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 19792
+})
+
 -------------------------------------------------------------------------------
 --------------------------------- ELITE RARES ---------------------------------
 -------------------------------------------------------------------------------
@@ -1994,6 +2000,7 @@ ns.node.Celestine = Celestine
 local RenewedMagmammoth = Class('RenewedMagmammoth', Collectible, {
     label = '{item:192807}',
     icon = 4034837,
+    vignette = 5751,
     sublabel = L['dreamsurge_sublabel'],
     rewards = {
         Mount({item = 192807, id = 1645}) -- Renewed Magmammoth
@@ -2055,3 +2062,16 @@ local GoggleWobble = Class('GoggleWobble', Collectible, {
 }) -- Goggle Wobble
 
 ns.node.GoggleWobble = GoggleWobble
+
+-------------------------------------------------------------------------------
+----------------------------- JUST ONE MORE THING -----------------------------
+-------------------------------------------------------------------------------
+
+local JustOneMoreThing = Class('JustOneMoreThing', Collectible, {
+    questCount = true,
+    icon = 1411833,
+    note = L['just_one_more_thing_note'],
+    group = ns.groups.JUST_ONE_MORE_THING
+}) -- Just One More Thing
+
+ns.node.JustOneMoreThing = JustOneMoreThing

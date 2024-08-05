@@ -161,6 +161,8 @@ L['shadowflame_leatherworking_table_label'] = nil
 L['shadowflame_leatherworking_table_note'] = nil
 L['shadowflame_incantation_table_label'] = nil
 L['shadowflame_incantation_table_note'] = nil
+L['altar_of_decay_label'] = nil
+L['altar_of_decay_note'] = nil
 L['azure_loom_label'] = nil
 L['azure_loom_note'] = nil
 L['temporal_loom_label'] = nil
@@ -194,6 +196,10 @@ L['options_icons_clued_in_desc'] = nil
 L['goggle_wobble_note'] = nil
 L['options_icons_goggle_wobble'] = nil
 L['options_icons_goggle_wobble_desc'] = nil
+
+L['just_one_more_thing_note'] = nil
+L['options_icons_just_one_more_thing'] = nil
+L['options_icons_just_one_more_thing_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -432,6 +438,12 @@ L['untranslated_tome'] = nil
 L['untranslated_tome_note'] = nil
 L['mysterious_boot'] = nil
 L['mysterious_boot_note'] = nil
+L['decaying_fishing_bucket'] = nil
+L['decaying_fishing_bucket_note'] = nil
+L['forgotten_fishing_pole'] = nil
+L['forgotten_fishing_pole_note'] = nil
+L['overgrown_fishing_bench'] = nil
+L['overgrown_fishing_bench_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -510,6 +522,7 @@ L['options_icons_dreamguard'] = nil
 L['options_icons_dreamguard_desc'] = '{achievement:16574} 업적을 위한 꿈수호병 위치를 표시합니다.'
 
 L['khadin_note'] = '{item:191784}을 교환하여 전문기술 지식을 습득합니다'
+L['khadin_prof_note'] = nil
 L['the_great_swog_note'] = '{item:199338}, {item:199339}, {item:199340}을 교환하여 {item:202102}를 얻습니다.'
 L['hunt_instructor_basku_note'] = '{item:200093}을 반납하여 {faction:2503} 평판을 획득합니다.'
 L['elder_yusa_note'] = nil
@@ -790,6 +803,11 @@ L['box_of_rocks_note'] = nil
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = nil
 
+L['drakonid_painting'] = nil
+L['emptied_hourglass'] = nil
+L['rusted_signal_horn'] = nil
+L['rusted_signal_horn_note'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
@@ -863,6 +881,11 @@ L['djaradin_scroll'] = nil
 L['forgotten_incense'] = nil
 L['forgotten_incense_note'] = nil
 L['historied_heirloom'] = nil
+L['rusted_dirt_pale'] = nil
+L['rusted_dirt_pale_note'] = nil
+L['niffen_pickaxe'] = nil
+L['chipped_grub_pot'] = nil
+L['chipped_grub_pot_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

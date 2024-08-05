@@ -82,7 +82,7 @@ L['higher_dimensional_learning_note'] = 'Purchase {item:129276} from {npc:107376
 L['higher_dimensional_learning_disclaimer'] = '{note:Teleporting to a book location does not guarentee the book will spawn. You may need to wait or check back later.}'
 
 L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
-L['options_icons_higher_dimensional_learning_desc'] = 'Display book locations for {achievement:11175}'
+L['options_icons_higher_dimensional_learning_desc'] = 'Display book locations for {achievement:11175} achievement.'
 
 -------------------------------------------------------------------------------
 -------------------------------- BROKEN SHORE ---------------------------------
@@ -91,7 +91,7 @@ L['options_icons_higher_dimensional_learning_desc'] = 'Display book locations fo
 L['bringing_home_the_beacon_note'] = 'While under {npc:127264}, you will be buffed with {spell:240640}.\n\nKill demons to loot various |cFFFFFD00Sentinax Beacons|r.'
 
 L['options_icons_bringing_home_the_beacon'] = '{achievement:11802}'
-L['options_icons_bringing_home_the_beacon_desc'] = 'Display {npc:127264} locations for {achievement:11802}'
+L['options_icons_bringing_home_the_beacon_desc'] = 'Display {npc:127264} locations for {achievement:11802} achievement.'
 
 L['hidden_wyrmtongue_cache_label'] = 'Hidden Wyrmtongue Cache'
 L['in_horde_ship'] = 'In the crashed Horde airship.'
@@ -201,7 +201,7 @@ L['worgen_stalkers'] = 'Worgen Stalkers'
 L['varenne_note'] = 'I must get back to my cooking!'
 L['master_tamer_flummox_note'] = 'Flummox no need pets! Flummox eats them NOW!'
 L['aulier_note'] = 'Let\'s begin your lesson in humility.'
-L['myonix_note'] = '{bug:Currently bugged, needs a relog to show the credit towards {achievement:11265}}'
+L['myonix_note'] = '{bug:Currently bugged, needs a relog to show the credit towards {achievement:11265} achievement.}'
 L['arcanist_lylandre_note'] = 'To attack her you must remove the barriers by clicking on the crystals.'
 L['gorgroth_note'] = 'Use the {object:Portal Key} to summon {npc:110832}.'
 L['inside_temple_of_faladora'] = 'Inside the {location:Temple of Fal\'adora}.'

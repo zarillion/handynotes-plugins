@@ -78,7 +78,7 @@ L['large_lunker_sighting'] = 'Large Lunker Sighting'
 L['large_lunker_sighting_note'] = 'Use 5x {item:194701} to summon either a {npc:192919} or a rare.'
 
 L['options_icons_legendary_album'] = '{achievement:16570}'
-L['options_icons_legendary_album_desc'] = 'Display legendary character locations for {achievement:16570}.'
+L['options_icons_legendary_album_desc'] = 'Display legendary character locations for {achievement:16570} achievement.'
 
 L['signal_transmitter_label'] = 'Wyrmhole Generator Signal Transmitter'
 L['signal_transmitter_note'] = '{note:Requires 10 points in Mechanical Mind\nRequires 30 points in Novelties.}\n\nInteract with the {object:Deactivated Signal Transmitter} to allow for teleportation to this location.'
@@ -128,7 +128,7 @@ L['options_icons_grand_hunts_desc'] = 'Display locations and rewards for {object
 
 L['ancient_stone_label'] = 'Ancient Stone'
 L['options_icons_ancient_stones'] = '{achievement:17560}'
-L['options_icons_ancient_stones_desc'] = 'Display {object:Ancient Stone} locations for {achievement:17560}.'
+L['options_icons_ancient_stones_desc'] = 'Display {object:Ancient Stone} locations for {achievement:17560} achievement.'
 
 L['reed_chest'] = 'Reed Chest'
 L['options_icons_reed_chest'] = 'Reed Chest'
@@ -161,6 +161,8 @@ L['shadowflame_leatherworking_table_label'] = 'Shadowflame Leatherworking Table'
 L['shadowflame_leatherworking_table_note'] = 'Required when crafting this recipe:\n{spell:406275}'
 L['shadowflame_incantation_table_label'] = 'Shadowflame Incantation Table'
 L['shadowflame_incantation_table_note'] = 'Required when crafting this recipe:\n{spell:405076}'
+L['altar_of_decay_label'] = 'The Altar of Decay'
+L['altar_of_decay_note'] = 'Required when crafting these recipes:\n{spell:110423}: \nDecayed Patterns\nDecay-Infused reagents\n\n{spell:264211}: \nToxic potions\nToxic phials\n{spell:405879}'
 L['azure_loom_label'] = 'Azure Loom'
 L['azure_loom_note'] = 'Required when crafting this recipe:\n{spell:376556}'
 L['temporal_loom_label'] = 'Temporal Loom'
@@ -187,13 +189,17 @@ L['options_icons_rich_soil'] = 'Rich Soil'
 L['options_icons_rich_soil_desc'] = 'Display locations for {object:Rich Soil}.'
 
 L['information_stuffed_clue'] = 'Information-Stuffed Clue'
-L['clued_in_note'] = 'The {npc:210079} spawn during {note:the Big Dig} event and the 3 world quests {wq:Research: ...}.'
+L['clued_in_note'] = 'The {npc:210079} spawn during {note:the Big Dig} event and the world quests {wq:Research: ...}.'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = 'Display {npc:210079} locations for {achievement:19787} achievement.'
 
-L['goggle_wobble_note'] = '{emote:/dance} with {npc:207763} during the intro quest line or the 3 world quests {wq:Technoscrying: ...} while wearing {item:202247}.'
+L['goggle_wobble_note'] = '{emote:/dance} with {npc:207763} during the intro quest line or the world quests {wq:Technoscrying: ...} while wearing {item:202247}.'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Display {npc:207763} locations for {achievement:19791} achievement.'
+
+L['just_one_more_thing_note'] = 'Have to complete any world quest {wq:Research: ...} three times.'
+L['options_icons_just_one_more_thing'] = '{achievement:19792}'
+L['options_icons_just_one_more_thing_desc'] = 'Display progress for each criteria for {achievement:19792} achievement.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -313,7 +319,7 @@ L['naszuro_hudsons_rock'] = 'On top of the small rocky hill.'
 L['ferry_to_iskaara'] = 'Boat to Iskaara'
 
 L['options_icons_vegetarian_diet'] = '{achievement:16762}'
-L['options_icons_vegetarian_diet_desc'] = 'Display {object:Meat Storage} locations for {achievement:16762}.'
+L['options_icons_vegetarian_diet_desc'] = 'Display {object:Meat Storage} locations for {achievement:16762} achievement.'
 
 L['meat_storage_label'] = 'Meat Storage'
 L['meat_storage_note'] = 'After freeing all 12 {npc:186766} from {object:Meat Storage} inside of {location:Brackenhide Hollow} you will recieve mail from {npc:196267} containing the {item:200631}.'
@@ -432,17 +438,17 @@ L['vrykul_tome_label'] = 'Vrykul Tome'
 L['library_note'] = 'Open the {object:%s} and loot the {item:%s}.'
 
 L['options_icons_librarian_of_the_reach'] = '{achievement:17530}'
-L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530}. {note:Some books are in {location:Zskera Vaults}}.'
+L['options_icons_librarian_of_the_reach_desc'] = 'Display book locations for {achievement:17530} achievement. {note:Some books are in {location:Zskera Vaults}}.'
 
 L['dracthyr_runestone_label'] = 'Dracthyr Runestone'
 L['scroll_hunter_suffix'] = 'treasures found from Sealed Scrolls'
 L['scroll_hunter_note'] = 'Collect sealed scrolls from various rares and treasured around {location:The Forbidden Reach}.\n\nBreaking open a {item:%s} will reveal an X on the map which will offer a {item:%s} which provides reputation for {faction:%s}.'
 
 L['options_icons_scroll_hunter'] = '{achievement:17532}'
-L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532}.'
+L['options_icons_scroll_hunter_desc'] = 'Display scroll reward locations for {achievement:17532} achievement.'
 
 L['options_icons_scalecommander_item'] = '{achievement:17315}'
-L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achievement:17315}. {note:Some item are in {location:Zskera Vaults}}.'
+L['options_icons_scalecommander_item_desc'] = 'Display item locations for {achievement:17315} achievement. {note:Some item are in {location:Zskera Vaults}}.'
 
 L['spellsworn_gateway'] = 'Spellsworn Gateway'
 L['gemstone_of_return'] = 'Gemstone of Return'
@@ -459,6 +465,12 @@ L['untranslated_tome'] = 'Untranslated Tome'
 L['untranslated_tome_note'] = 'In the building with the entrance below the bridge.'
 L['mysterious_boot'] = 'Mysterious Boot'
 L['mysterious_boot_note'] = 'Upper floor.'
+L['decaying_fishing_bucket'] = 'Decaying Fishing Bucket'
+L['decaying_fishing_bucket_note'] = 'On the top floor of the tower.'
+L['forgotten_fishing_pole'] = 'Forgotten Fishing Pole'
+L['forgotten_fishing_pole_note'] = 'On the ground level.'
+L['overgrown_fishing_bench'] = 'Overgrown Fishing Bench'
+L['overgrown_fishing_bench_note'] = 'An overgrown rock, hard to see.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -537,6 +549,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Display dreamguard locations for the {achievement:16574} achievement.'
 
 L['khadin_note'] = 'Exchange {item:191784} for profession knowledge.'
+L['khadin_prof_note'] = 'Earn %d more {currency:%d}s to max out {spell:%d} profession tree.'
 L['the_great_swog_note'] = 'Exchange {item:199338}, {item:199339} and {item:199340} for {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Exchange {item:200093} for {faction:2503} reputation.'
 L['elder_yusa_note'] = 'Target {npc:192818} and {emote:/hungry} to obtain the cooking recipe.'
@@ -547,7 +560,7 @@ L['quackers_spawn'] = 'Next you need to catch a duck near the nest with the {ite
 
 L['knew_you_nokhud_do_it_note'] = '{note:All 3 items are unique and have a 30 minute timer.}\n\nCollect {item:200184}, {item:200194}, and {item:200196} from various {npc:185357s}, {npc:185353s}, and {npc:185168s} around {location:Nokhudon Hold}.\n\nCombine them to create {item:200201} and use it to speak with {npc:197884} to begin the training course.\n\nUse your |cFFFFFD00Extra Action Button|r to complete it and earn your achievement.\n\n{note:Completing the achievement while in a raid during an Elemental Storm makes farming the items much easier.}'
 L['options_icons_nokhud_do_it'] = '{achievement:16583}'
-L['options_icons_nokhud_do_it_desc'] = 'Display helpful information for completing {achievement:16583}.'
+L['options_icons_nokhud_do_it_desc'] = 'Display helpful information for completing {achievement:16583} achievement.'
 
 L['chest_of_the_flood'] = 'Chest of the Flood'
 
@@ -606,7 +619,7 @@ L['pt_smith_draconic_flux_note'] = 'Inside a building.'
 L['pt_tailor_ancient_dragonweave_bolt_note'] = 'Click on the {object:Ancient Dragonweave Loom} to complete a minigame where you connect the spools of thread to the center gem.'
 L['pt_tailor_miniature_bronze_dragonflight_banner_note'] = 'Small banner inside a pile of sand.'
 
-L['picante_pomfruit_cake_note'] = '{item:200904} is not always available so check back daily. While you are there, be sure to sample the 3 available dishes to complete {achievement:16556} as well.'
+L['picante_pomfruit_cake_note'] = '{item:200904} is not always available so check back daily. While you are there, be sure to sample the 3 available dishes to complete {achievement:16556} achievement as well.'
 L['icecrown_bleu_note'] = 'Purchase from {npc:196729} {title:<Cheesemonger>} in {location:The Artisan\'s Market}.'
 L['dreamwarding_dripbrew_note'] = 'Purchase from {npc:197872} {title:<Caffeinomancer>} at {location:The Late Night Lab}.'
 L['arcanostabilized_provisions_note'] = 'Purchase from {npc:198831} {title:<Head Chef>} at the {location:Temporal Conflux} in the {location:Primalist Future}.'
@@ -668,7 +681,7 @@ L['naszuro_thaldraszus_peak'] = 'On a secondary peak of the mountain.'
 L['naszuro_temporal_conflux'] = 'On the head of the dragon statue.'
 
 L['revival_catalyst_label'] = 'Revival Catalyst'
-L['revival_catalyst_note'] = 'Convert non-tier gear into an equivalent item level and gear slot Tier piece.'
+L['revival_catalyst_note'] = 'Convert non-tier gear into an equivalent item level and gear slot Tier piece.\n\n{currency:2912}: %d/%d'
 
 L['provisioner_aristta_note'] = 'Exchange {currency:2657} for transmogs and a mount.'
 
@@ -852,7 +865,12 @@ L['naszuro_dragonheart_outpost'] = 'In the branches of the tree.'
 L['box_of_rocks_label'] = 'Box of Rocks'
 L['box_of_rocks_note'] = '{object:Box of Rocks} can be found around {location:The Waking Shore}, within {location:Zskera Vaults}, or purchased from the auction house.'
 L['options_icons_many_boxes'] = '{achievement:18559}'
-L['options_icons_many_boxes_desc'] = 'Show possible {object:Box of Rocks} locations for {achievement:18559}.'
+L['options_icons_many_boxes_desc'] = 'Show possible {object:Box of Rocks} locations for {achievement:18559} achievement.'
+
+L['drakonid_painting'] = 'Drakonid Painting'
+L['emptied_hourglass'] = 'Emptied Hourglass'
+L['rusted_signal_horn'] = 'Rusted Signal Horn'
+L['rusted_signal_horn_note'] = 'On the top floor.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
@@ -927,6 +945,11 @@ L['djaradin_scroll'] = 'Djaradin Scroll'
 L['forgotten_incense'] = 'Forgotten Incense'
 L['forgotten_incense_note'] = '{note:Hard to reach due to the quest boundaries.}'
 L['historied_heirloom'] = 'Historied Heirloom'
+L['rusted_dirt_pale'] = 'Rusted Dirt Pale'
+L['rusted_dirt_pale_note'] = '{note:Dispearing after clicking the other {object:Information-Stuffed Clues} objects in this site.}'
+L['niffen_pickaxe'] = 'Niffen Pickaxe'
+L['chipped_grub_pot'] = 'Chipped Grub Pot'
+L['chipped_grub_pot_note'] = 'On the top of the tower.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
@@ -989,7 +1012,7 @@ Quality of the contributed {object:Dreamseed} defines the kind of reward:
 ]]
 L['dreamseed_cache'] = 'Dreamseed Cache'
 L['options_icons_dream_of_seeds'] = '{achievement:19013}'
-L['options_icons_dream_of_seeds_desc'] = 'Display {object:Dreamseed Soil} locations for {achievement:19013}.'
+L['options_icons_dream_of_seeds_desc'] = 'Display {object:Dreamseed Soil} locations for {achievement:19013} achievement.'
 L['the_seeds_i_sow_suffix'] = 'seeds to the Emerald Bounty contributed'
 
 L['bloom_man_group_suffix'] = 'times the Feral Overflow power used'
@@ -998,10 +1021,10 @@ L['dreamfruit_label'] = 'Dreamfruit'
 L['dreamfruit_note_1'] = 'Appears when the {location:Superbloom} event begins. The event start on every full hour.'
 L['dreamfruit_note_2'] = 'Appears after the first stop of the {location:Superbloom} event. The event start on every full hour near {location:Amirdrassil}.'
 L['options_icons_dreamfruit'] = '{achievement:19310}'
-L['options_icons_dreamfruit_desc'] = 'Display Dreamfruit locations for {achievement:19310}.'
+L['options_icons_dreamfruit_desc'] = 'Display Dreamfruit locations for {achievement:19310} achievement.'
 
 L['options_icons_moonkin_hatchling'] = '{achievement:19293}'
-L['options_icons_moonkin_hatchling_desc'] = 'Display moonkin hatchling locations for {achievement:19293}.'
+L['options_icons_moonkin_hatchling_desc'] = 'Display moonkin hatchling locations for {achievement:19293} achievement.'
 L['moonkin_hatchling_note'] = 'Requires Worldquest {wq:Claws for Concern} to be active.'
 
 L['druid_glyphs_label'] = 'Druid Glyphs'

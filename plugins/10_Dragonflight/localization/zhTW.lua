@@ -161,6 +161,8 @@ L['shadowflame_leatherworking_table_label'] = '暗焰製皮工作臺'
 L['shadowflame_leatherworking_table_note'] = '當製造以下圖樣時需要:\n{spell:406275}'
 L['shadowflame_incantation_table_label'] = '暗焰附魔桌'
 L['shadowflame_incantation_table_note'] = '當製造以下圖樣時需要:\n{spell:405076}'
+L['altar_of_decay_label'] = nil
+L['altar_of_decay_note'] = nil
 L['azure_loom_label'] = '蒼藍織布機'
 L['azure_loom_note'] = '當製造以下圖樣時需要:\n{spell:376556}'
 L['temporal_loom_label'] = '時光織布機'
@@ -194,6 +196,10 @@ L['options_icons_clued_in_desc'] = '顯示成就 {achievement:19787} 所需的 {
 L['goggle_wobble_note'] = '在引導任務線或是3個世界任務 {wq:高科技占測...} 時戴著 {item:202247} 和 {npc:207763} {emote:/dance}.'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = '顯示成就 {achievement:19791} 所需的 {npc:207763} 位置.'
+
+L['just_one_more_thing_note'] = nil
+L['options_icons_just_one_more_thing'] = nil
+L['options_icons_just_one_more_thing_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -458,7 +464,14 @@ L['sun_bleached_vase'] = nil
 L['untranslated_tome'] = nil
 L['untranslated_tome_note'] = '在入口在橋下的建築內.'
 L['mysterious_boot'] = nil
+
 L['mysterious_boot_note'] = '上層.'
+L['decaying_fishing_bucket'] = nil
+L['decaying_fishing_bucket_note'] = nil
+L['forgotten_fishing_pole'] = nil
+L['forgotten_fishing_pole_note'] = nil
+L['overgrown_fishing_bench'] = nil
+L['overgrown_fishing_bench_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -537,6 +550,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = '顯示 {achievement:16574} 成就所需的夢境守衛位置.'
 
 L['khadin_note'] = '使用 {item:191784} 交換專業知識.'
+L['khadin_prof_note'] = '還需投入 %d 點 {currency:%d} 才能點滿 {spell:%d} 專業樹.'
 L['the_great_swog_note'] = '使用 {item:199338}, {item:199339} 和 {item:199340} 來交換 {item:202102}.'
 L['hunt_instructor_basku_note'] = '用 {item:200093} 交換 {faction:2503} 聲望'
 L['elder_yusa_note'] = '選取 {npc:192818} 並使用 {emote:/hungry} 來取得烹飪食譜.'
@@ -668,7 +682,7 @@ L['naszuro_thaldraszus_peak'] = '在山的第二高峰上.'
 L['naszuro_temporal_conflux'] = '在龍雕像的頭上.'
 
 L['revival_catalyst_label'] = '重生育籃控制臺'
-L['revival_catalyst_note'] = '將非套裝裝備轉換為對應裝等語部位的套裝部件.'
+L['revival_catalyst_note'] = '將非套裝裝備轉換為對應裝等語部位的套裝部件.\n\n{currency:2912}: %d/%d'
 
 L['provisioner_aristta_note'] = '用 {currency:2657} 交換塑型和一隻座騎.'
 
@@ -850,9 +864,14 @@ L['naszuro_ruby_lifeshrine'] = '在龍雕像爪子之下.'
 L['naszuro_dragonheart_outpost'] = '在樹的枝幹間.'
 
 L['box_of_rocks_label'] = '一盒石頭'
-L['box_of_rocks_note'] = '{object:一盒石頭} 可以在 {location:甦醒海岸} 附近, {location:扎拉萊克洞穴} 裡面或是從拍賣場購買.'
+L['box_of_rocks_note'] = '{object:一盒石頭} 可以在 {location:甦醒海岸} 全境, 或是 {location:禁忌之境} 的 {location:澤斯克拉密庫} 裡面找到, 也可以從拍賣場購買.'
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = '顯示成就 {achievement:18559} 所需的 {object:一盒石頭} 可能的位置.'
+
+L['drakonid_painting'] = nil
+L['emptied_hourglass'] = nil
+L['rusted_signal_horn'] = nil
+L['rusted_signal_horn_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
@@ -927,6 +946,11 @@ L['djaradin_scroll'] = '加拉登卷軸'
 L['forgotten_incense'] = '被遺忘的薰香'
 L['forgotten_incense_note'] = '{note:因為任務邊界的關係很難到達.}'
 L['historied_heirloom'] = '歷史悠久的傳家寶'
+L['rusted_dirt_pale'] = nil
+L['rusted_dirt_pale_note'] = nil
+L['niffen_pickaxe'] = nil
+L['chipped_grub_pot'] = nil
+L['chipped_grub_pot_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------

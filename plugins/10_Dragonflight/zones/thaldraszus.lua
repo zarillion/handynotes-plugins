@@ -80,7 +80,7 @@ map.nodes[59075874] = RareElite({
     pois = {POI({60755543, 60736211, 59225648, 59266104})} -- Titanic Reactors
 }) -- Ancient Protector
 
-map.nodes[61507360] = Rare({
+map.nodes[61636958] = Rare({
     id = 193220,
     vignette = 5193,
     quest = 73987,
@@ -1704,6 +1704,7 @@ val.nodes[13005740] = Collectible({
 ------------------------------------------------------------------------------
 
 map.nodes[51134337] = ns.node.Celestine()
+map.nodes[61792619] = ns.node.RenewedMagmammoth()
 
 -------------------------------------------------------------------------------
 ---------------------------------- RICH SOIL ----------------------------------
@@ -1712,6 +1713,9 @@ map.nodes[51134337] = ns.node.Celestine()
 map.nodes[71007200] = RichSoil()
 map.nodes[49366061] = RichSoil()
 map.nodes[32406920] = RichSoil()
+map.nodes[46235962] = RichSoil()
+map.nodes[63238021] = RichSoil()
+map.nodes[34687230] = RichSoil()
 
 -------------------------------------------------------------------------------
 ----------------------------------- VENDORS -----------------------------------
@@ -1916,11 +1920,20 @@ map.nodes[54648589] = Collectible({
 
 -------------------------------------------------------------------------------
 
-map.nodes[59735374] = ns.node.Node({
+local Catalyst = Class('Catalyst', ns.node.Node, {
     label = L['revival_catalyst_label'],
-    icon = 1394953, -- use new season icon
-    note = L['revival_catalyst_note']
+    icon = 348536 -- Season 4
 }) -- Revival Catalyst
+
+function Catalyst.getters:note()
+    local currencyInfo = C_CurrencyInfo.GetCurrencyInfo(2912) -- Season 4
+    local q = currencyInfo.quantity
+    local m = currencyInfo.maxQuantity
+    local note = format(L['revival_catalyst_note'], q, m)
+    return note
+end
+
+map.nodes[59735374] = Catalyst()
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 

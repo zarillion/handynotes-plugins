@@ -492,7 +492,7 @@ map.nodes[32333935] = Treasure({
     quest = 73410,
     note = L['seething_cache_treasure_note'],
     rewards = {
-        Achievement({id = 17786, criteria = 59221}), -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59220}), -- Treasures of Zaralek Cavern
         Mount({item = 192779, id = 1623}) -- Seething Slug
     },
     pois = {
@@ -632,6 +632,7 @@ map.nodes[32355045] = RitualOffering({fgroup = 'ritual52', quest = 73552})
 map.nodes[32614416] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[33103990] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[35145225] = RitualOffering({fgroup = 'ritual52', quest = 73552})
+map.nodes[35304181] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[36034454] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[36395236] = RitualOffering({fgroup = 'ritual52', quest = 73552})
 map.nodes[38174991] = RitualOffering({fgroup = 'ritual48', quest = 73548})
@@ -1156,6 +1157,24 @@ map.nodes[41844525] = ns.node.CluedIn({
     quest = 76734
 })
 
+map.nodes[45935148] = ns.node.CluedIn({
+    label = L['rusted_dirt_pale'],
+    quest = 76739, -- Research: Niffen of Zaralek Cavern
+    location = L['rusted_dirt_pale_note']
+})
+
+map.nodes[49084529] = ns.node.CluedIn({
+    label = L['niffen_pickaxe'],
+    quest = 76739,
+    location = L['forgotten_incense_note']
+})
+
+map.nodes[47684926] = ns.node.CluedIn({
+    label = L['chipped_grub_pot'],
+    quest = 76739,
+    location = L['chipped_grub_pot_note'] .. '\n' .. L['rusted_dirt_pale_note']
+})
+
 -------------------------------------------------------------------------------
 -------------------------------- GOGGLE WOBBLE --------------------------------
 -------------------------------------------------------------------------------
@@ -1163,6 +1182,20 @@ map.nodes[41844525] = ns.node.CluedIn({
 map.nodes[38134985] = ns.node.GoggleWobble({
     rewards = {Achievement({id = 19791, criteria = 65404})}
 })
+
+-------------------------------------------------------------------------------
+----------------------------- JUST ONE MORE THING -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[40185717] = ns.node.JustOneMoreThing({
+    quest = {79604, 79603, 79602},
+    rewards = {Achievement({id = 19792, criteria = 65410})} -- Igira's Watch
+}) -- Research: Djaradin of Zaralek Cavern -- 76734
+
+map.nodes[49004900] = ns.node.JustOneMoreThing({
+    quest = {79607, 79606, 79605},
+    rewards = {Achievement({id = 19792, criteria = 65411})} -- Gaze of Neltharion
+}) -- Research: Niffen of Zaralek Cavern -- 76739
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
