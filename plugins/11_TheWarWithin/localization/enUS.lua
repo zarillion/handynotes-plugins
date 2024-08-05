@@ -197,7 +197,7 @@ L['generals_scouting_shadecaster_location'] = 'PH'
 L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = 'Display book locations for {achievement:40542} achievement.'
 
-L['smelling_history_note'] = 'Buy {item:225784} from {npc:218192} for 500 {currency:3056}.'
+L['smelling_history_note'] = 'Buy {item:225784} from {npc:218192} for 500x {currency:3056}.'
 
 L['concealed_contraband'] = 'Concealed Contraband'
 L['trapped_trove_note'] = 'In a building that hangs from the ceiling. Avoid the spiderwebs on the floor.'
