@@ -260,7 +260,7 @@ L['carved_in_stone_41861'] = 'At the destroyed pillar.'
 L['carved_in_stone_41862'] = 'At the destroyed wall, in front of the huge pillar.'
 L['carved_in_stone_42116'] = 'At a pillar next to {npc:126126}.'
 L['options_icons_carved_in_stone'] = '{achievement:13024}'
-L['options_icons_carved_in_stone_desc'] = 'Display pictograph locations for {achievement:13024}.'
+L['options_icons_carved_in_stone_desc'] = 'Display pictograph locations for {achievement:13024} achievement.'
 
 L['hoppin_sad_53419'] = 'Behind two trees under a huge root.'
 L['hoppin_sad_53420'] = 'In the ruins.'
