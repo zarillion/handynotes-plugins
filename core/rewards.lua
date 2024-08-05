@@ -643,7 +643,7 @@ local Reputation = Class('Reputation', Reward,
 function Reputation:GetText()
     local text = ns.api.GetFactionInfoByID(self.id)
     if self.gain then text = ('+%d %s'):format(self.gain, text) end
-    text = ns.color.LightBlue(text) .. ' (' .. self.type .. ')'
+    text = ns.color.LightBlue(text .. ' Reputation')
 
     return text
 end
@@ -651,15 +651,22 @@ end
 function Reputation:IsEnabled()
     if not Reward.IsEnabled(self) then return false end
     if self.quest then
-        if C_Reputation.IsAccountWideReputation(self.id) then
-            return not C_QuestLog.IsQuestFlaggedCompletedOnAccount(self.quest)
-        else
-            return not C_QuestLog.IsQuestFlaggedCompleted(self.quest)
-        end
+        if not ns:GetOpt('show_claimed_rep') then return false end
     end
     return true
 end
 
+function Reputation:GetStatus()
+    if self.quest then
+        if C_Reputation.IsAccountWideReputation(self.id) then
+            return C_QuestLog.IsQuestFlaggedCompletedOnAccount(self.quest) and
+                       Green(L['claimed']) or Red(L['notclaimed'])
+        else
+            return C_QuestLog.IsQuestFlaggedCompleted(self.quest) and
+                       Green(L['claimed']) or Red(L['notclaimed'])
+        end
+    end
+end
 -------------------------------------------------------------------------------
 
 ns.reward = {

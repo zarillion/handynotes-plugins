@@ -58,6 +58,8 @@ L['hard'] = '어려움'
 
 L['completed'] = '완료'
 L['incomplete'] = '미완료'
+L['claimed'] = nil
+L['notclaimed'] = nil
 L['known'] = '확인'
 L['missing'] = '미확인'
 L['unobtainable'] = '획득불가'
@@ -196,6 +198,8 @@ L['options_recipe_rewards'] = nil
 L['options_recipe_rewards_desc'] = nil
 L['options_rep_rewards'] = nil
 L['options_rep_rewards_desc'] = nil
+L['show_claimed_rep'] = nil
+L['show_claimed_rep_desc'] = nil
 L['options_toy_rewards'] = '장난감 보상 표시'
 L['options_toy_rewards_desc'] = '장난감 보상을 툴팁에 표시하고 수집 진행상황을 추적합니다'
 L['options_transmog_rewards'] = '형상변환 보상 표시'
