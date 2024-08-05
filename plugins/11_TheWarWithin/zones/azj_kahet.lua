@@ -592,6 +592,72 @@ map.nodes[71126233] = LoreObject({
 }) -- Weathered Shadecaster
 
 -------------------------------------------------------------------------------
+--------------------- ACHIEVEMENT: SMELLING HISTORY ---------------------
+-------------------------------------------------------------------------------
+
+local SmellingHistory = Class('smelling_history', Collectible, {
+    icon = 4549130,
+    group = ns.groups.SMELLING_HISTORY,
+    note = L['smelling_history_note']
+}) -- POI (45541297 in cot for Siesbarg)
+
+cot.nodes[27715460] = SmellingHistory({
+    parent = map.id,
+    rewards = {Achievement({id = 40542, criteria = 68818})}
+}) -- Strands of Memory in the building on the counter
+
+map.nodes[08002400] = SmellingHistory({ -- review
+    rewards = {Achievement({id = 40542, criteria = 68971})}
+}) -- Ethos of War, Part 1 (scroll)
+
+map.nodes[10002400] = SmellingHistory({ -- review
+    rewards = {Achievement({id = 40542, criteria = 68980})}
+}) -- Ethos of War, Part 2 (scroll)
+
+map.nodes[48852400] = SmellingHistory({
+    rewards = {Achievement({id = 40542, criteria = 68981})}
+}) -- Ethos of War, Part 3 -- scroll on the table in the building
+
+map.nodes[43252555] = SmellingHistory({
+    rewards = {Achievement({id = 40542, criteria = 68982})}
+}) -- Ethos of War, Part 4 - scroll on the table in the building
+
+cot.nodes[38263555] = SmellingHistory({
+    parent = map.id,
+    rewards = {Achievement({id = 40542, criteria = 68984})}
+}) -- Queen Xekatha -- in building on the bed
+
+cot.nodes[37103275] = SmellingHistory({
+    parent = map.id,
+    rewards = {Achievement({id = 40542, criteria = 68985})}
+}) -- Queen Anub'izek -- in building on top of a pile of books
+
+cot.nodes[38423227] = SmellingHistory({
+    parent = map.id,
+    rewards = {Achievement({id = 40542, criteria = 68986})}
+}) -- Queen Zaltra -- in building on table next to bed
+
+map.nodes[12002400] = SmellingHistory({ -- review
+    rewards = {Achievement({id = 40542, criteria = 68987})}
+}) -- Treatise on Forms: Sages (book)
+
+cot.nodes[38543774] = SmellingHistory({
+    parent = map.id,
+    rewards = {Achievement({id = 40542, criteria = 68988})}
+}) -- Treatise on Forms: Skitterlings -- in the building on a bench
+
+map.nodes[14002400] = SmellingHistory({ -- review
+    rewards = {Achievement({id = 40542, criteria = 69446})}
+}) -- Treatise on Forms: Lords (book)
+
+cot.nodes[77984103] = SmellingHistory({
+    parent = map.id,
+    rewards = {Achievement({id = 40542, criteria = 69447})}
+}) -- Treatise on Forms: Ascended -- in the building on a table
+
+-- Queen Neferess 36462490
+
+-------------------------------------------------------------------------------
 -------------------------------- DISTURBED DIRT -------------------------------
 -------------------------------------------------------------------------------
 

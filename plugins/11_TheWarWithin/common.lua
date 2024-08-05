@@ -42,6 +42,12 @@ ns.groups.ITSY_BITSY_SPIDER = Group('itsy_bitsy_spider', 5793405, {
     achievement = 40624
 })
 
+ns.groups.SMELLING_HISTORY = Group('smelling_history', 4549130, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40542
+})
+
 ns.groups.KHAZ_ALGAR_LORE_HUNTER = Group('khaz_algar_lore_hunter', 4419344, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

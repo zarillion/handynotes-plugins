@@ -182,6 +182,11 @@ L['thimble_location'] = nil
 L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
+L['options_icons_smelling_history'] = '{achievement:40542}'
+L['options_icons_smelling_history_desc'] = nil
+
+L['smelling_history_note'] = nil
+
 L['concealed_contraband'] = '숨겨진 밀수품'
 L['trapped_trove_note'] = nil
 
