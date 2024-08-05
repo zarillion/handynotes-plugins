@@ -114,8 +114,8 @@ L['coral_fused_clam_note'] = [[Loot {item:218354} from the {object:Clammer's Kit
 {note:Requires level 80 to pick up.}
 ]] -- from wowhead, needs to be reviewed
 
-L['options_icons_biblio_archivist'] = '{achievement:40622}'
-L['options_icons_biblio_archivist_desc'] = 'Display book locations for {achievement:40622} achievement.'
+L['options_icons_biblo_archivist'] = '{achievement:40622}'
+L['options_icons_biblo_archivist_desc'] = 'Display book locations for {achievement:40622} achievement.'
 
 L['biblo_book_01_location'] = 'Inside the building on the table behind {npc:222811}.'
 L['biblo_book_02_location'] = 'Inside the building on a table by the door.'
