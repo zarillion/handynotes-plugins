@@ -14,7 +14,7 @@ L['burning_blade_cache_treasure'] = 'Burning Blade Cache'
 L['multiple_spawn_note'] = 'Can spawn in multiple locations.'
 
 L['options_icons_pepe'] = '{achievement:10053}'
-L['options_icons_pepe_desc'] = 'Display costume locations for {achievement:10053}'
+L['options_icons_pepe_desc'] = 'Display costume locations for {achievement:10053} achievement.'
 
 L['squirrels_note'] = 'You must use the emote {emote:/love} on critters not battle pets.'
 L['options_icons_squirrels'] = '{achievement:14728}'
@@ -97,11 +97,11 @@ L['shadow_hunter_rala_follower_note'] = 'Complete {quest:34348} to recruit him a
 L['gronnstalker_rokash_follower_note'] = 'Complete {quest:32981} to recruit him as a follower.'
 
 L['options_icons_writing_in_the_snow'] = '{achievement:9531}'
-L['options_icons_writing_in_the_snow_desc'] = 'Display the locations of {object:Tattered Journal Page} for {achievement:9531}'
+L['options_icons_writing_in_the_snow_desc'] = 'Display the locations of {object:Tattered Journal Page} for {achievement:9531} achievement.'
 L['options_icons_breaker_of_chains'] = '{achievement:9533}'
-L['options_icons_breaker_of_chains_desc'] = 'Display the locations of {npc:82680} and {object:Prisoner Cage} for {achievement:9533}'
+L['options_icons_breaker_of_chains_desc'] = 'Display the locations of {npc:82680} and {object:Prisoner Cage} for {achievement:9533} achievement.'
 L['options_icons_delectable_ogre_delicacies'] = '{achievement:9534}'
-L['options_icons_delectable_ogre_delicacies_desc'] = 'Display the locations of delicacies for {achievement:9534}'
+L['options_icons_delectable_ogre_delicacies_desc'] = 'Display the locations of delicacies for {achievement:9534} achievement.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- GORGROND ----------------------------------
@@ -151,13 +151,13 @@ L['tormmok_follower_note'] = 'First appears as ' .. ns.color.Red('Hostile') .. '
 L['blook_follower_note'] = 'Talk to him, fight him, beat him, then talk to him again to recruit him as a follower'
 
 L['options_icons_attack_plans'] = '{achievement:9656}'
-L['options_icons_attack_plans_desc'] = 'Display the locations of {object:Iron Horde Attack Orders} for {achievement:9656}.'
+L['options_icons_attack_plans_desc'] = 'Display the locations of {object:Iron Horde Attack Orders} for {achievement:9656} achievement.'
 L['options_icons_ancient_no_more'] = '{achievement:9678}'
-L['options_icons_ancient_no_more_desc'] = 'Display rare locations for {achievement:9678}'
+L['options_icons_ancient_no_more_desc'] = 'Display rare locations for {achievement:9678} achievement.'
 L['options_icons_fight_the_power'] = '{achievement:9655}'
-L['options_icons_fight_the_power_desc'] = 'Display rare locations for {achievement:9655}'
+L['options_icons_fight_the_power_desc'] = 'Display rare locations for {achievement:9655} achievement.'
 L['options_icons_prove_your_strength'] = '{achievement:9402}'
-L['options_icons_prove_your_strength_desc'] = 'Display drop locations for {achievement:9402}'
+L['options_icons_prove_your_strength_desc'] = 'Display drop locations for {achievement:9402} achievement.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAGRAND ----------------------------------
@@ -252,7 +252,7 @@ L['warsong_relics'] = 'Against a fence outside a hut'
 L['stolen_draenei_tome'] = 'Can spawn in multiple locations on top of towers'
 L['dirt_mound'] = 'Kill {npc:86659} to spawn a {npc:87280} on the floor nearby. Click the totem to receive {spell:174572}. You can now dig up nearby {npc:87530} to find items.'
 
-L['stable_master_note'] = 'Talk to {npc:Stablemaster} to receive a mount-in-training whistle.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUse the whistle to summon your mount-in-training and kill the target.\n\n{achievement:9539} requires {item:118469} from a {location:Level 2 Stables}.\n{achievement:9540} requires {item:118470} from a {location:Level 3 Stables}.'
+L['stable_master_note'] = 'Talk to {npc:Stablemaster} to receive a mount-in-training whistle.\n\n{item:119441}\n{item:119442}\n{item:119443}\n{item:119444}\n{item:119445}\n{item:119446}\n\nUse the whistle to summon your mount-in-training and kill the target.\n\n{achievement:9539} achievement requires {item:118469} from a {location:Level 2 Stables}.\n{achievement:9540} achievement requires {item:118470} from a {location:Level 3 Stables}.'
 
 L['making_the_cut_note'] = 'While {npc:88210} is available kill 15 {npc:88207} around {location:The Ring of Blood}. Once 15 have been killed {npc:88210} will become targetable.\n\n{yell:Not bad for a bunch of worthless pukes! Come face Krud when you ready to die!}'
 
@@ -268,19 +268,19 @@ You can gather the items before going to him.
 ]]
 
 L['options_icons_broke_back_precipice'] = '{achievement:9571}'
-L['options_icons_broke_back_precipice_desc'] = 'Display rare locations for {achievement:9571}'
+L['options_icons_broke_back_precipice_desc'] = 'Display rare locations for {achievement:9571} achievement.'
 L['options_icons_steamwheedle'] = '{achievement:9472}'
-L['options_icons_steamwheedle_desc'] = 'Display farm location for {achievement:9472}'
+L['options_icons_steamwheedle_desc'] = 'Display farm location for {achievement:9472} achievement.'
 L['options_icons_finding_your_waystones'] = '{achievement:9497}'
-L['options_icons_finding_your_waystones_desc'] = 'Display farm location for {achievement:9497}'
+L['options_icons_finding_your_waystones_desc'] = 'Display farm location for {achievement:9497} achievement.'
 L['options_icons_song_of_silence'] = '{achievement:9541}'
-L['options_icons_song_of_silence_desc'] = 'Display rare locations for {achievement:9541}'
+L['options_icons_song_of_silence_desc'] = 'Display rare locations for {achievement:9541} achievement.'
 L['options_icons_buried_treasures'] = '{achievement:9548}'
-L['options_icons_buried_treasures_desc'] = 'Display item locations for {achievement:9548}'
+L['options_icons_buried_treasures_desc'] = 'Display item locations for {achievement:9548} achievement.'
 L['options_icons_the_stable_master'] = '{achievement:9539} and {achievement:9540}'
-L['options_icons_the_stable_master_desc'] = 'Display target locations for {achievement:9539} and {achievement:9540}'
+L['options_icons_the_stable_master_desc'] = 'Display target locations for {achievement:9539} and {achievement:9540} achievements.'
 L['options_icons_making_the_cut'] = '{achievement:9617}'
-L['options_icons_making_the_cut_desc'] = 'Display {npc:88207} locations for {achievement:9617}'
+L['options_icons_making_the_cut_desc'] = 'Display {npc:88207} locations for {achievement:9617} achievement.'
 
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------
@@ -334,7 +334,7 @@ L['you_have_been_rylakinated_note'] = 'Must complete {quest:34355}.\n\nCollect {
 L['artificer_romuul_follower_note'] = 'Complete the crystal defense event to recruit him as a follower'
 
 L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
-L['options_icons_you_have_been_rylakinated_desc'] = 'Display {npc:85357} locations for {achievement:9481}'
+L['options_icons_you_have_been_rylakinated_desc'] = 'Display {npc:85357} locations for {achievement:9481} achievement.'
 
 -------------------------------------------------------------------------------
 ------------------------------- SPIRES OF ARAK --------------------------------
@@ -417,9 +417,9 @@ L['options_icons_offering_desc'] = 'Display item locations of {object:Offering t
 L['options_icons_shrines_of_terokk'] = 'Shrines of Terokk'
 L['options_icons_shrines_of_terokk_desc'] = 'Display locations for {object:Shrines of Terokk}.'
 L['options_icons_would_you_like_a_pamplet'] = '{achievement:9432}'
-L['options_icons_would_you_like_a_pamplet_desc'] = 'Display item locations for {achievement:9432}.'
+L['options_icons_would_you_like_a_pamplet_desc'] = 'Display item locations for {achievement:9432} achievement.'
 L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
-L['options_icons_king_of_the_monsters_desc'] = 'Display rare locations for {achievement:9601}.'
+L['options_icons_king_of_the_monsters_desc'] = 'Display rare locations for {achievement:9601} achievement.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ TALADOR ----------------------------------
@@ -504,9 +504,9 @@ Turn each quest into {npc:86949} at {location:Khadgar's Tower} in {location:Tala
 ]]
 
 L['options_icons_cut_off_the_head'] = '{achievement:9633}'
-L['options_icons_cut_off_the_head_desc'] = 'Display rare locations for {achievement:9633}'
+L['options_icons_cut_off_the_head_desc'] = 'Display rare locations for {achievement:9633} achievement.'
 L['options_icons_wingmen'] = '{achievement:9499}'
-L['options_icons_wingmen_desc'] = 'Display farm locations for {achievement:9499}'
+L['options_icons_wingmen_desc'] = 'Display farm locations for {achievement:9499} achievement.'
 
 -------------------------------------------------------------------------------
 --------------------------------- TANAAN JUNGLE -------------------------------
@@ -516,7 +516,7 @@ L['deathtalon_note'] = '{yell:Shadow Lord Iskar yells: Behind the veil, all you 
 L['doomroller_note'] = '{yell:Siegemaster Mar\'tak yells: Hah-ha! Trample their corpses!}'
 L['terrorfist_note'] = '{yell:Frogan yells: A massive gronnling is heading for Rangari Refuge! We are going to require some assistance!}'
 L['vengeance_note'] = '{yell:Tyrant Velhari yells: Insects deserve to be crushed!}'
-L['iron_armada_note'] = 'This toy is also buyable on AH and is required for {achievement:10353}.'
+L['iron_armada_note'] = 'This toy is also buyable on AH and is required for {achievement:10353} achievement.'
 L['commander_kraggoth_note'] = 'At the top of the north-east tower.'
 L['grannok_note'] = 'At the top of the south-east tower.'
 L['szirek_the_twisted_note'] = 'Capture the East Strongpoint to summon this rare.'
