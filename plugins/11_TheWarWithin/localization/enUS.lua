@@ -11,7 +11,7 @@ L['options_icons_skyriding_glyph'] = 'Skyriding Glyphs'
 L['options_icons_skyriding_glyph_desc'] = 'Display the location of all skyriding glyphs.'
 
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
-L['options_icons_khaz_algar_lore_hunter_desc'] = 'Display lore object locations for {achievement:40762}.'
+L['options_icons_khaz_algar_lore_hunter_desc'] = 'Display lore object locations for {achievement:40762} achievement.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
@@ -32,7 +32,7 @@ L['turtles_thanks_2_note'] = 'Hand in 1x {item:222533} (can be fished from {obje
 L['turtles_thanks_3_note'] = 'Meet the {npc:223338} in {location:Dornogal} and speak with her to reveal the treasure.'
 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
-L['options_icons_flat_earthen_desc'] = 'Display location for {achievement:40606}.'
+L['options_icons_flat_earthen_desc'] = 'Display location for {achievement:40606} achievement.'
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
@@ -42,7 +42,7 @@ L['forgotten_treasure_note'] = 'Open {object:Buried Treasure}s nearby to get the
 L['kaja_cola_machine_note'] = 'Purchase drinks in the following order: Bluesberry Blast > Orange O-pocalypse > Oyster Outbreak > Mangoro Madness.'
 
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
-L['options_icons_not_so_quick_fix_desc'] = 'Display console locations for {achievement:40473}.'
+L['options_icons_not_so_quick_fix_desc'] = 'Display console locations for {achievement:40473} achievement.'
 
 L['not_so_quick_fix_note'] = 'Repair the busted earthen console.'
 L['water_console_location'] = 'Next to the stairs.'
@@ -53,7 +53,7 @@ L['lost_console_location'] = 'In an alcove.'
 L['earthen_console_location'] = 'PH'
 
 L['options_icons_notable_machines'] = '{achievement:40628}'
-L['options_icons_notable_machines_desc'] = 'Display note locations for {achievement:40628}.'
+L['options_icons_notable_machines_desc'] = 'Display note locations for {achievement:40628} achievement.'
 
 L['notable_machines_note'] = 'Read the note.'
 L['fragment_I_location'] = 'On the ground.'
@@ -64,7 +64,7 @@ L['fragment_V_location'] = 'On the archway at the top of the stairs.'
 L['fragment_VI_location'] = 'On the ground, next to the street light.'
 
 L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
-L['options_icons_rocked_to_sleep_desc'] = 'Display plaque locations for {achievement:40504}.'
+L['options_icons_rocked_to_sleep_desc'] = 'Display plaque locations for {achievement:40504} achievement.'
 
 L['rocked_to_sleep_note'] = 'Read the plaque of the inert earthen.'
 L['attwogaz_location'] = 'On a ledge.'
@@ -115,7 +115,7 @@ L['coral_fused_clam_note'] = [[Loot {item:218354} from the {object:Clammer's Kit
 ]] -- from wowhead, needs to be reviewed
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
-L['options_icons_biblo_archivist_desc'] = 'Display book locations for {achievement:40622}.'
+L['options_icons_biblo_archivist_desc'] = 'Display book locations for {achievement:40622} achievement.'
 
 L['biblo_book_01_location'] = 'Inside the building on the table behind {npc:222811}.'
 L['biblo_book_02_location'] = 'Inside the building on a table by the door.'
@@ -130,7 +130,7 @@ L['biblo_book_10_location'] = 'In the captain\'s quarters aboard {location:The D
 L['biblo_book_11_location'] = 'Inside the buiding on a table.'
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
-L['options_icons_lost_and_found_desc'] = 'Display momento locations for {achievement:40618}.'
+L['options_icons_lost_and_found_desc'] = 'Display momento locations for {achievement:40618} achievement.'
 
 L['lost_and_found_note'] = 'PH'
 L['broken_bracelet_location'] = 'PH'
@@ -144,7 +144,7 @@ L['dented_spear_location'] = 'PH'
 L['filigreed_cleric_location'] = 'PH'
 
 L['options_icons_missing_lynx'] = '{achievement:40625}'
-L['options_icons_missing_lynx_desc'] = 'Display lynx locations for {achievement:40625}.'
+L['options_icons_missing_lynx_desc'] = 'Display lynx locations for {achievement:40625} achievement.'
 
 L['missing_lynx_note'] = 'Pet the ferocious warcat.'
 L['magpie_location'] = 'On the ground next to the banner.'
@@ -171,7 +171,7 @@ You need to combine {item:220122} {dot:Blue} and {item:220124} {dot:Green} to ge
 {note:You need to be level 80 to pick them up.} ]] -- from wowhead, needs to be reviewed
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
-L['options_icons_mereldar_menace_desc'] = 'Display target locations for {achievement:40151}.'
+L['options_icons_mereldar_menace_desc'] = 'Display target locations for {achievement:40151} achievement.'
 
 L['mereldar_menace_note'] = 'Interact with {object:Throwing Stone} and throw it at the targets.'
 L['light_and_flame_location'] = 'Aim towards the {npc:218472} east of the {object:Throwing Stone}.'
@@ -183,7 +183,7 @@ L['barracks_doorway_location'] = 'Aim at the doorwat of the red and gold tent to
 -------------------------------------------------------------------------------
 
 L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
-L['options_icons_itsy_bitsy_spider_desc'] = 'Display weave-rat locations for {achievement:40624}.'
+L['options_icons_itsy_bitsy_spider_desc'] = 'Display weave-rat locations for {achievement:40624} achievement.'
 
 L['itsy_bitsy_spider_note'] = 'Wave ({emote:/wave}) to the weave-rat.'
 L['webster_location'] = 'PH'
