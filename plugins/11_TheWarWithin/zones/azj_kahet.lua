@@ -606,13 +606,14 @@ cot.nodes[27715460] = SmellingHistory({
     rewards = {Achievement({id = 40542, criteria = 68818})}
 }) -- Strands of Memory in the building on the counter
 
-map.nodes[08002400] = SmellingHistory({ -- review
+map.nodes[62963117] = SmellingHistory({
     rewards = {Achievement({id = 40542, criteria = 68971})}
-}) -- Ethos of War, Part 1 (scroll)
+}) -- Ethos of War, Part 1 (scroll) on a chest
 
-map.nodes[10002400] = SmellingHistory({ -- review
-    rewards = {Achievement({id = 40542, criteria = 68980})}
-}) -- Ethos of War, Part 2 (scroll)
+map.nodes[66693128] = SmellingHistory({
+    rewards = {Achievement({id = 40542, criteria = 68980})},
+    pois = {POI({65422765})}
+}) -- Ethos of War, Part 2 (scroll) on tha table. go through the tunnel enterance to get to the area
 
 map.nodes[48852400] = SmellingHistory({
     rewards = {Achievement({id = 40542, criteria = 68981})}
@@ -637,7 +638,7 @@ cot.nodes[38423227] = SmellingHistory({
     rewards = {Achievement({id = 40542, criteria = 68986})}
 }) -- Queen Zaltra -- in building on table next to bed
 
-map.nodes[12002400] = SmellingHistory({ -- review
+map.nodes[08002400] = SmellingHistory({ -- review
     rewards = {Achievement({id = 40542, criteria = 68987})}
 }) -- Treatise on Forms: Sages (book)
 
@@ -646,9 +647,11 @@ cot.nodes[38543774] = SmellingHistory({
     rewards = {Achievement({id = 40542, criteria = 68988})}
 }) -- Treatise on Forms: Skitterlings -- in the building on a bench
 
-map.nodes[14002400] = SmellingHistory({ -- review
-    rewards = {Achievement({id = 40542, criteria = 69446})}
-}) -- Treatise on Forms: Lords (book)
+cot.nodes[23645107] = SmellingHistory({
+    parent = map.id,
+    rewards = {Achievement({id = 40542, criteria = 69446})},
+    pois = {POI({26115141})}
+}) -- Treatise on Forms: Lords (book) --poi 26115141 enterance to room above the fountain
 
 cot.nodes[77984103] = SmellingHistory({
     parent = map.id,
