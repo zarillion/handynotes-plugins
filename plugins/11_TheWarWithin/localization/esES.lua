@@ -198,6 +198,18 @@ L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = 'Muestra dónde están los libros del logro {achievement:40542}.'
 
 L['smelling_history_note'] = 'Compra la {item:225784} de {npc:218192} por 500x {currency:3056}.'
+L['smelling_history_1_location'] = nil
+L['smelling_history_2_location'] = nil
+L['smelling_history_3_location'] = nil
+L['smelling_history_4_location'] = nil
+L['smelling_history_5_location'] = nil
+L['smelling_history_6_location'] = nil
+L['smelling_history_7_location'] = nil
+L['smelling_history_8_location'] = nil
+L['smelling_history_9_location'] = nil
+L['smelling_history_10_location'] = nil
+L['smelling_history_11_location'] = nil
+L['smelling_history_12_location'] = nil
 
 L['concealed_contraband'] = 'Contrabando Oculto'
 L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'

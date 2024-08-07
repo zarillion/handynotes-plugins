@@ -187,6 +187,18 @@ L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = nil
 
 L['smelling_history_note'] = nil
+L['smelling_history_1_location'] = nil
+L['smelling_history_2_location'] = nil
+L['smelling_history_3_location'] = nil
+L['smelling_history_4_location'] = nil
+L['smelling_history_5_location'] = nil
+L['smelling_history_6_location'] = nil
+L['smelling_history_7_location'] = nil
+L['smelling_history_8_location'] = nil
+L['smelling_history_9_location'] = nil
+L['smelling_history_10_location'] = nil
+L['smelling_history_11_location'] = nil
+L['smelling_history_12_location'] = nil
 
 L['concealed_contraband'] = 'Скрытая контрабанда'
 L['trapped_trove_note'] = nil

@@ -158,7 +158,7 @@ L['purrlock_location'] = 'Light the {object:Light\'s Blooming Keyflame} nearby. 
 L['shadowpouncer_location'] = 'Light the {object:Light\'s Blooming Keyflame} nearby. Requires 20x {item:206350}.'
 L['miral_murder_mittens_location'] = 'Outside.'
 L['fuzzy_location'] = 'On the ground near the {object:Lesser Keyflame}.'
-L['furball_location'] = 'In the ruined building.'
+L['furball_location'] = 'Inside the ruined building.'
 L['dander_location'] = 'Outside.'
 L['gobbo_location'] = 'Inside the building on the bed.'
 
@@ -176,7 +176,7 @@ L['options_icons_mereldar_menace_desc'] = 'Display target locations for {achieve
 L['mereldar_menace_note'] = 'Interact with {object:Throwing Stone} and throw it at the targets.'
 L['light_and_flame_location'] = 'Aim towards the {npc:218472} east of the {object:Throwing Stone}.'
 L['lamplighter_doorway_location'] = 'Aim at the doorway of the building to the east.'
-L['barracks_doorway_location'] = 'Aim at the doorwat of the red and gold tent to the west.'
+L['barracks_doorway_location'] = 'Aim at the doorway of the red and gold tent to the west.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
@@ -198,6 +198,18 @@ L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = 'Display book locations for {achievement:40542} achievement.'
 
 L['smelling_history_note'] = 'Buy {item:225784} from {npc:218192} for 500x {currency:3056}.'
+L['smelling_history_1_location'] = 'Inside the building on the counter.'
+L['smelling_history_2_location'] = 'The scroll is on a chest.'
+L['smelling_history_3_location'] = 'The scroll is on a table.'
+L['smelling_history_4_location'] = 'Inside the building on a table.'
+L['smelling_history_5_location'] = 'Inside the building on a table.'
+L['smelling_history_6_location'] = 'On the bed on the south side of the room.'
+L['smelling_history_7_location'] = 'On top of a pile of books.'
+L['smelling_history_8_location'] = 'On the table next to the bed on the north side of the room.'
+L['smelling_history_9_location'] = 'PH'
+L['smelling_history_10_location'] = 'On a bench.'
+L['smelling_history_11_location'] = 'Book is on a table next to the bed. Entrance is above the fountain.'
+L['smelling_history_12_location'] = 'Inside the building on a table.'
 
 L['concealed_contraband'] = 'Concealed Contraband'
 L['trapped_trove_note'] = 'In a building that hangs from the ceiling. Avoid the spiderwebs on the floor.'

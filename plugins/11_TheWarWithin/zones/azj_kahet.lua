@@ -599,64 +599,87 @@ local SmellingHistory = Class('smelling_history', Collectible, {
     icon = 4549130,
     group = ns.groups.SMELLING_HISTORY,
     note = L['smelling_history_note']
-}) -- POI (45541297 in cot for Siesbarg)
+})
+
+cot.nodes[45291254] = SmellingHistory({
+    parent = map.id,
+    id = 218192,
+    icon = 134713,
+    rewards = {Achievement({id = 40542})}
+}) -- Siesbarg
 
 cot.nodes[27715460] = SmellingHistory({
     parent = map.id,
+    location = L['smelling_history_1_location'],
     rewards = {Achievement({id = 40542, criteria = 68818})}
-}) -- Strands of Memory in the building on the counter
+}) -- Strands of Memory
 
 map.nodes[62963117] = SmellingHistory({
+    location = L['smelling_history_2_location'],
     rewards = {Achievement({id = 40542, criteria = 68971})}
-}) -- Ethos of War, Part 1 (scroll) on a chest
+}) -- Ethos of War, Part 1
 
 map.nodes[66693128] = SmellingHistory({
+    location = L['smelling_history_3_location'],
     rewards = {Achievement({id = 40542, criteria = 68980})},
     pois = {POI({65422765})}
-}) -- Ethos of War, Part 2 (scroll) on tha table. go through the tunnel enterance to get to the area
+}) -- Ethos of War, Part 2
 
 map.nodes[48852400] = SmellingHistory({
+    location = L['smelling_history_4_location'],
     rewards = {Achievement({id = 40542, criteria = 68981})}
-}) -- Ethos of War, Part 3 -- scroll on the table in the building
+}) -- Ethos of War, Part 3
 
 map.nodes[43252555] = SmellingHistory({
+    location = L['smelling_history_5_location'],
     rewards = {Achievement({id = 40542, criteria = 68982})}
-}) -- Ethos of War, Part 4 - scroll on the table in the building
+}) -- Ethos of War, Part 4
 
 cot.nodes[38263555] = SmellingHistory({
     parent = map.id,
-    rewards = {Achievement({id = 40542, criteria = 68984})}
-}) -- Queen Xekatha -- in building on the bed
+    location = L['smelling_history_6_location'],
+    rewards = {Achievement({id = 40542, criteria = 68984})},
+    pois = {POI({40743385})}
+}) -- Queen Xekatha
 
 cot.nodes[37103275] = SmellingHistory({
     parent = map.id,
-    rewards = {Achievement({id = 40542, criteria = 68985})}
-}) -- Queen Anub'izek -- in building on top of a pile of books
+    location = L['smelling_history_7_location'],
+    rewards = {Achievement({id = 40542, criteria = 68985})},
+    pois = {POI({40743385})}
+}) -- Queen Anub'izek
 
 cot.nodes[38423227] = SmellingHistory({
     parent = map.id,
-    rewards = {Achievement({id = 40542, criteria = 68986})}
-}) -- Queen Zaltra -- in building on table next to bed
+    location = L['smelling_history_8_location'],
+    rewards = {Achievement({id = 40542, criteria = 68986})},
+    pois = {POI({40743385})}
+}) -- Queen Zaltra
 
 map.nodes[08002400] = SmellingHistory({ -- review
+    location = L['smelling_history_9_location'],
     rewards = {Achievement({id = 40542, criteria = 68987})}
-}) -- Treatise on Forms: Sages (book)
+}) -- Treatise on Forms: Sages
 
 cot.nodes[38543774] = SmellingHistory({
     parent = map.id,
-    rewards = {Achievement({id = 40542, criteria = 68988})}
-}) -- Treatise on Forms: Skitterlings -- in the building on a bench
+    location = L['smelling_history_10_location'],
+    rewards = {Achievement({id = 40542, criteria = 68988})},
+    pois = {POI({40173874})}
+}) -- Treatise on Forms: Skitterlings
 
 cot.nodes[23645107] = SmellingHistory({
     parent = map.id,
+    location = L['smelling_history_11_location'],
     rewards = {Achievement({id = 40542, criteria = 69446})},
     pois = {POI({26115141})}
-}) -- Treatise on Forms: Lords (book) --poi 26115141 enterance to room above the fountain
+}) -- Treatise on Forms: Lords
 
 cot.nodes[77984103] = SmellingHistory({
     parent = map.id,
+    location = L['smelling_history_12_location'],
     rewards = {Achievement({id = 40542, criteria = 69447})}
-}) -- Treatise on Forms: Ascended -- in the building on a table
+}) -- Treatise on Forms: Ascended
 
 -- Queen Neferess 36462490
 
