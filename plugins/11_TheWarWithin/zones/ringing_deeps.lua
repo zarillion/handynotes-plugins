@@ -176,7 +176,10 @@ map.nodes[71654630] = Rare({
     quest = 80574, -- 84043
     note = L['trungal_note'],
     rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40837, criteria = 69631})},
+    rewards = {
+        Achievement({id = 40837, criteria = 69631}),
+        Transmog({item = 221228, slot = L['cloth']})
+    },
     pois = {POI({72844447})} -- Entrance
 }) -- Trungal
 
