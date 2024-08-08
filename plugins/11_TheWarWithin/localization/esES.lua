@@ -132,16 +132,16 @@ L['biblo_book_11_location'] = 'Dentro del edificio sobre una mesa.'
 L['options_icons_lost_and_found'] = '{achievement:40618}'
 L['options_icons_lost_and_found_desc'] = 'Muestra dónde están todos los recuerdos del logro {achievement:40618}.'
 
-L['lost_and_found_note'] = nil
-L['broken_bracelet_location'] = nil
-L['stuffed_lynx_toy_location'] = nil
-L['tarnished_compass_location'] = nil
-L['sturdy_locket_location'] = nil
-L['wooden_figure_location'] = nil
-L['calcified_journal_location'] = nil
-L['ivory_tinderbox_location'] = nil
-L['dented_spear_location'] = nil
-L['filigreed_cleric_location'] = nil
+L['lost_and_found_note'] = 'Progresa en la cadena de misiones Recuerdos del Cielo que empieza con {quest:80673} que te da ({dot:Blue}) {npc:220718} para desbloquear las misiones requeridas. {note:Las misiones se desbloquean semanalmente}.\n\nCada semana se han de completar 3 recuerdos, hasta completar la misión {quest:80678}.'
+L['broken_bracelet_location'] = 'Entrega {item:219810} a {npc:215527}.'
+L['stuffed_lynx_toy_location'] = 'Entrega {item:219809} a {npc:218486}.'
+L['tarnished_compass_location'] = 'Entrega {item:219524} a {object:Ubicación de la Ofrenda de Tumba}.'
+L['sturdy_locket_location'] = 'Entrega {item:224274} a {npc:220859}.'
+L['wooden_figure_location'] = 'Entrega {item:224273} a {npc:217609}.'
+L['calcified_journal_location'] = 'Entrega {item:224272} a {npc:222813}.'
+L['ivory_tinderbox_location'] = 'Entrega {item:224266} a {npc:226051}.'
+L['dented_spear_location'] = 'Entrega {item:224267} a {npc:213145}.'
+L['filigreed_cleric_location'] = 'Entrega {item:224268} a {npc:217813}.'
 
 L['options_icons_missing_lynx'] = '{achievement:40625}'
 L['options_icons_missing_lynx_desc'] = 'Muestra dónde están los linces del logro {achievement:40625}.'
