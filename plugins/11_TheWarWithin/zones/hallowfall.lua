@@ -677,56 +677,64 @@ map.nodes[52635999] = BibloBook({
 ------------------------- ACHIEVEMENT: LOST AND FOUND -------------------------
 -------------------------------------------------------------------------------
 
--- [60486020] Maera Ashyld
-
 local Momento = Class('Momento', Collectible, {
     icon = 4635200,
     group = ns.groups.LOST_AND_FOUND,
-    note = L['lost_and_found_note']
+    note = L['lost_and_found_note'],
+    pois = {POI({60486018})}
 })
 
-map.nodes[06001600] = Momento({
+map.nodes[65463222] = Momento({
     location = L['broken_bracelet_location'],
+    requires = ns.requirement.Quest(80678),
     rewards = {Achievement({id = 40618, criteria = 68932})}
 }) -- Broken Bracelet
 
-map.nodes[08001600] = Momento({
+map.nodes[43285542] = Momento({
     location = L['stuffed_lynx_toy_location'],
+    requires = ns.requirement.Quest(80678),
     rewards = {Achievement({id = 40618, criteria = 68933})}
 }) -- Stuffed Lynx Toy
 
-map.nodes[10001600] = Momento({
+map.nodes[43465171] = Momento({
     location = L['tarnished_compass_location'],
+    requires = ns.requirement.Quest(80678),
     rewards = {Achievement({id = 40618, criteria = 68934})}
 }) -- Tarnished Compass
 
-map.nodes[12001600] = Momento({
+map.nodes[43204979] = Momento({
     location = L['sturdy_locket_location'],
+    requires = ns.requirement.Quest(82813, 'Time Borrowed'),
     rewards = {Achievement({id = 40618, criteria = 68935})}
 }) -- Sturdy Locket
 
-map.nodes[14001600] = Momento({
+map.nodes[69264384] = Momento({
     location = L['wooden_figure_location'],
+    requires = ns.requirement.Quest(82813, 'Time Borrowed'),
     rewards = {Achievement({id = 40618, criteria = 68937})}
 }) -- Wooden Figure
 
-map.nodes[16001600] = Momento({
+map.nodes[48423888] = Momento({
     location = L['calcified_journal_location'],
+    requires = ns.requirement.Quest(82813, 'Time Borrowed'),
     rewards = {Achievement({id = 40618, criteria = 68940})}
 }) -- Calcified Journal
 
-map.nodes[18001600] = Momento({
+map.nodes[41643474] = Momento({
     location = L['ivory_tinderbox_location'],
+    requires = ns.requirement.Quest(82810),
     rewards = {Achievement({id = 40618, criteria = 68942})}
 }) -- Ivory Tinderbox
 
-map.nodes[20001600] = Momento({
+map.nodes[42355502] = Momento({
     location = L['dented_spear_location'],
+    requires = ns.requirement.Quest(82810),
     rewards = {Achievement({id = 40618, criteria = 68943})}
 }) -- Dented Spear
 
-map.nodes[22001600] = Momento({
+map.nodes[43974970] = Momento({
     location = L['filigreed_cleric_location'],
+    requires = ns.requirement.Quest(82810),
     rewards = {Achievement({id = 40618, criteria = 68945})}
 }) -- Filigreed Cleric
 
