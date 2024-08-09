@@ -79,6 +79,10 @@ L['alfritha_location'] = nil
 L['gundrig_location'] = nil
 L['sathilga_location'] = nil
 
+L['trungal_note'] = nil
+L['disturbed_earthgorger_note'] = nil
+L['deepflayer_broodmother_note'] = nil
+
 L['gnawbles_ruby_vendor_note'] = [[Récupérez des {item:212493} à partir des {object:Terres retournées} et apportez-les à {npc:225166}.
 
 Lorsque vous aurez effectué 10 contributions ou contribué un total de 50x {item:212493}, vous recevrez 1x {item:224642}.
@@ -111,19 +115,20 @@ L['coral_fused_clam_note'] = [[Récupérez le {item:218354} à partir du {object
 {note:Vous devez être de niveau 80 pour le ramasser.}
 ]]
 
-L['options_icons_biblio_archivist'] = '{achievement:40622}'
-L['options_icons_biblio_archivist_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40622}.'
+L['options_icons_biblo_archivist'] = '{achievement:40622}'
+L['options_icons_biblo_archivist_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40622}.'
 
-L['biblio_book_01_location'] = 'A l\'intérieur du bâtiment, sur la table derrière {npc:222811}.'
-L['biblio_book_02_location'] = 'A l\'intérieur du bâtiment, sur une table près de la porte.'
-L['biblio_book_03_location'] = 'Dans l\'écurie pleine de {npc:217606}.'
-L['biblio_book_04_location'] = 'Au milieu du pont.'
-L['biblio_book_05_location'] = 'Sur la plage en contrebas du dirigeable.'
-L['biblio_book_06_location'] = 'A l\'intérieur du bâtiment, sur une étagère située contre le mur du fond.'
-L['biblio_book_07_location'] = 'A l\'intérieur du bâtiment, sur la table derrière le {npc:206096}.'
-L['biblio_book_08_location'] = 'A l\'intérieur des ruines.'
-L['biblio_book_09_location'] = 'A l\'intérieur de la grande tente, derrière la table de commandement.'
-L['biblio_book_10_location'] = 'A l\'intérieur des quartiers du capitaine à bord du navire {location:Le Brise-Aube}.'
+L['biblo_book_01_location'] = 'A l\'intérieur du bâtiment, sur la table derrière {npc:222811}.'
+L['biblo_book_02_location'] = 'A l\'intérieur du bâtiment, sur une table près de la porte.'
+L['biblo_book_03_location'] = 'Dans l\'écurie pleine de {npc:217606}.'
+L['biblo_book_04_location'] = 'Au milieu du pont.'
+L['biblo_book_05_location'] = 'Sur la plage en contrebas du dirigeable.'
+L['biblo_book_06_location'] = 'A l\'intérieur du bâtiment, sur une étagère située contre le mur du fond.'
+L['biblo_book_07_location'] = 'A l\'intérieur du bâtiment, sur la table derrière le {npc:206096}.'
+L['biblo_book_08_location'] = 'A l\'intérieur des ruines.'
+L['biblo_book_09_location'] = 'A l\'intérieur de la grande tente, derrière la table de commandement.'
+L['biblo_book_10_location'] = 'A l\'intérieur des quartiers du capitaine à bord du navire {location:Le Brise-Aube}.'
+L['biblo_book_11_location'] = nil
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
 L['options_icons_lost_and_found_desc'] = 'Afficher les emplacements des souvenirs perdus pour le haut-fait {achievement:40618}.'
@@ -166,6 +171,14 @@ Vous devez combiner l'{item:220122} {dot:Blue} et le {item:220124} {dot:Green} p
 
 {note:Vous devez être de niveau 80 pour les ramasser.} ]]
 
+L['options_icons_mereldar_menace'] = '{achievement:40151}'
+L['options_icons_mereldar_menace_desc'] = nil
+
+L['mereldar_menace_note'] = nil
+L['light_and_flame_location'] = nil
+L['lamplighter_doorway_location'] = nil
+L['barracks_doorway_location'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
@@ -182,5 +195,25 @@ L['thimble_location'] = nil
 L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
+L['options_icons_smelling_history'] = '{achievement:40542}'
+L['options_icons_smelling_history_desc'] = nil
+
+L['smelling_history_note'] = nil
+L['smelling_history_1_location'] = nil
+L['smelling_history_2_location'] = nil
+L['smelling_history_3_location'] = nil
+L['smelling_history_4_location'] = nil
+L['smelling_history_5_location'] = nil
+L['smelling_history_6_location'] = nil
+L['smelling_history_7_location'] = nil
+L['smelling_history_8_location'] = nil
+L['smelling_history_9_location'] = nil
+L['smelling_history_10_location'] = nil
+L['smelling_history_11_location'] = nil
+L['smelling_history_12_location'] = nil
+
+L['memory_cache_note'] = nil
 L['concealed_contraband'] = 'Contrebande dissimulée'
 L['trapped_trove_note'] = 'Dans un bâtiment suspendu au plafond. Évitez les toiles d\'araignées au sol.'
+
+L['tkaktath_note'] = nil

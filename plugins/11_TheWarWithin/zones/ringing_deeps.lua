@@ -37,23 +37,24 @@ local map = Map({id = 2214, settings = true})
 
 map.nodes[52591991] = Rare({
     id = 220265,
-    quest = 81674,
+    quest = 81674, -- 84046
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69634})}
 }) -- Automaxor
 
 local Aquellion = Class('Aquellion', Rare, {
     id = 220274,
-    quest = 80557,
+    quest = 80557, -- One time kill
     fgroup = 'aquellion',
     rewards = {Achievement({id = 40837, criteria = 69625})}
 }) -- Aquellion
 
 map.nodes[55087053] = Aquellion()
-map.nodes[49556618] = Aquellion()
+map.nodes[49556618] = Aquellion() -- seen spawn here
 
 map.nodes[66232975] = Rare({ -- flyes around
     id = 220276,
-    quest = 80505,
+    quest = 80505, -- One time kill
     rewards = {
         Achievement({id = 40837, criteria = 69623}),
         Transmog({item = 223363, slot = L['leather']}) -- Flying Kobold's Seatbelt
@@ -62,11 +63,12 @@ map.nodes[66232975] = Rare({ -- flyes around
 
 map.nodes[41371692] = Rare({ -- review, multiple locations?
     id = 220267,
-    quest = 81562, -- 84044  81564?
+    quest = 81562, -- 84044
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69632})}
 }) -- Charmonger
 
-map.nodes[57883810] = Rare({
+map.nodes[57903813] = Rare({
     id = 220266,
     quest = 81511, -- 84045
     rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
@@ -76,31 +78,45 @@ map.nodes[57883810] = Rare({
 map.nodes[50994631] = Rare({
     id = 220269,
     quest = 80560, -- 84042
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69630})}
 }) -- Cragmund
 
 map.nodes[66636887] = Rare({
     id = 220272,
-    quest = 81566,
+    quest = 81566, -- One time kill
     note = L['in_small_cave'],
     rewards = {Achievement({id = 40837, criteria = 69627})}
 }) -- Deathbound Husk
 
-map.nodes[67045265] = Rare({ -- review
+map.nodes[67045265] = Rare({
     id = 218393,
-    quest = 80003,
+    quest = 80003, -- 84050
+    note = L['disturbed_earthgorger_note'],
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69640})}
 }) -- Disturbed Earthgorger
 
-map.nodes[53000880] = Rare({ -- review 53801800
+map.nodes[53000880] = Rare({ -- review
     id = 220286,
-    quest = 80536,
-    rewards = {Achievement({id = 40837, criteria = 69636})}
+    quest = 80536, -- review -- need rep quest id if triggered (no rep was trigged on first kill but quest reset)
+    note = L['deepflayer_broodmother_note'],
+    pois = {
+        Path({
+            53000880, 49040974, 46751191, 44871082, 44150911, 41540943,
+            45001210, 45741770, 53302261, 56010925, 53000880
+        })
+    },
+    rewards = {
+        Achievement({id = 40837, criteria = 69636}),
+        Transmog({item = 221507, slot = L['cloak']}) -- Earth Golem's Wrap
+    }
 }) -- Deepflayer Broodmother
 
-map.nodes[65354950] = Rare({ -- review
+map.nodes[65354950] = Rare({
     id = 221199,
-    quest = 81648,
+    quest = 81648, -- 84048
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69639})}
 }) -- Hungerer of the Deeps
 
@@ -113,7 +129,7 @@ map.nodes[47064697] = Rare({
 
 map.nodes[42773508] = Rare({
     id = 220275,
-    quest = 80547,
+    quest = 80547, -- One Time Kill
     rewards = {
         Achievement({id = 40837, criteria = 69624}),
         Transmog({item = 223355, slot = L['leather']}) -- Waterskipper's Leggings
@@ -122,22 +138,23 @@ map.nodes[42773508] = Rare({
 
 map.nodes[74002000] = Rare({ -- review
     id = 220285,
-    quest = 81633,
+    quest = 81633, -- review -- need rep quest id if triggered
     rewards = {Achievement({id = 40837, criteria = 69637})}
 }) -- Lurker of the Deeps
 
 map.nodes[57015473] = Rare({
     id = 220273,
-    quest = 81563,
+    quest = 81563, -- One time kill
     rewards = {
         Achievement({id = 40837, criteria = 69626}),
         Transmog({item = 223404, slot = L['leather']}) -- Corrupted Earthen Cuffs
     }
 }) -- Rampaging Blight
 
-map.nodes[66214622] = Rare({ -- review
+map.nodes[66214622] = Rare({
     id = 221217,
-    quest = 81652,
+    quest = 81652, -- 84049 (rep based on pattern) 83405?? not sure why 3 triggered
+    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {Achievement({id = 40837, criteria = 69638})},
     pois = {
         Path({
@@ -157,9 +174,12 @@ map.nodes[47621217] = Rare({
 map.nodes[71654630] = Rare({
     id = 220268,
     quest = 80574, -- 84043
-    note = L['in_cave'], -- kill the root of trungal npc:220615
+    note = L['trungal_note'],
     rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40837, criteria = 69631})},
+    rewards = {
+        Achievement({id = 40837, criteria = 69631}),
+        Transmog({item = 221228, slot = L['cloth']})
+    },
     pois = {POI({72844447})} -- Entrance
 }) -- Trungal
 
@@ -284,7 +304,7 @@ map.nodes[64286527] = PT.Leatherworking({quest = 83901, id = 226327}) -- Earthen
 map.nodes[49422755] = PT.Mining({quest = 83908, id = 226334}) -- Earthen Excavator's Shovel
 map.nodes[66266624] = PT.Mining({quest = 83909, id = 226335}) -- Regenerating Ore
 map.nodes[47302833] = PT.Skinning({quest = 83916, id = 226342}) -- Artisan's Drawing Knife
-map.nodes[65696190] = PT.Skinning({quest = 83917, id = 226343}) -- Fungarian's Rich Tannin -- review
+map.nodes[65696190] = PT.Skinning({quest = 83917, id = 226343}) -- Fungarian's Rich Tannin
 map.nodes[48823286] = PT.Tailoring({
     quest = 83924,
     id = 226350,
@@ -342,32 +362,32 @@ local BustedConsole = Class('BustedConsole', Collectible, {
     note = L['not_so_quick_fix_note']
 })
 
-map.nodes[74001400] = BustedConsole({
+map.nodes[45304640] = BustedConsole({
     location = L['water_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68658})}
 }) -- Water Console
 
-map.nodes[76001400] = BustedConsole({
+map.nodes[59049339] = BustedConsole({
     location = L['abyssal_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68659})}
 }) -- Abyssal Console
 
-map.nodes[78001400] = BustedConsole({
+map.nodes[63696115] = BustedConsole({
     location = L['taelloch_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68660})}
 }) -- Taelloch Console
 
-map.nodes[80001400] = BustedConsole({
+map.nodes[69064879] = BustedConsole({
     location = L['obsidian_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68661})}
 }) -- Obsidian Console
 
-map.nodes[82001400] = BustedConsole({
+map.nodes[56382253] = BustedConsole({
     location = L['lost_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68662})}
 }) -- Lost Console
 
-map.nodes[84001400] = BustedConsole({
+map.nodes[46291411] = BustedConsole({
     location = L['earthen_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68663})}
 }) -- Earthen Console
@@ -392,17 +412,17 @@ map.nodes[48932593] = MachineSpeakerNote({
     rewards = {Achievement({id = 40628, criteria = 68992})}
 }) -- Notes On The Machine Speakers: Fragment II
 
-map.nodes[76001600] = MachineSpeakerNote({ -- review
+map.nodes[51071448] = MachineSpeakerNote({
     location = L['fragment_III_location'],
     rewards = {Achievement({id = 40628, criteria = 68993})}
 }) -- Notes On The Machine Speakers: Fragment III
 
-map.nodes[78001600] = MachineSpeakerNote({ -- review
+map.nodes[39892099] = MachineSpeakerNote({
     location = L['fragment_IV_location'],
     rewards = {Achievement({id = 40628, criteria = 68994})}
 }) -- Notes On The Machine Speakers: Fragment IV
 
-map.nodes[80001600] = MachineSpeakerNote({ -- review
+map.nodes[63695878] = MachineSpeakerNote({
     location = L['fragment_V_location'],
     rewards = {Achievement({id = 40628, criteria = 68995})}
 }) -- Notes On The Machine Speakers: Fragment V

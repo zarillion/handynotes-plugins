@@ -38,7 +38,7 @@ local cotl = Map({id = 2216, settings = true}) -- City of Threads - Lower
 
 map.nodes[46383875] = Rare({
     id = 216031,
-    quest = 81695,
+    quest = 81695, -- One Time Kill
     rewards = {
         Achievement({id = 40840, criteria = 69651}),
         Transmog({item = 223389, type = L['plate']}) -- Legplates of Dark Hunger
@@ -47,13 +47,14 @@ map.nodes[46383875] = Rare({
 
 map.nodes[37924284] = Rare({
     id = 214151,
-    quest = 78905,
+    quest = 78905, -- One Time Kill
     rewards = {Achievement({id = 40840, criteria = 69654})}
 }) -- Ahg'zagall
 
 map.nodes[70722147] = Rare({
     id = 216042,
     quest = 81704, -- 84073
+    note = L['in_small_cave'],
     -- ReputationGain(50, 2601), -- The Weaver
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier
@@ -64,14 +65,21 @@ map.nodes[70722147] = Rare({
 cot.nodes[30755599] = Rare({
     id = 216038,
     quest = 81634, -- 84069
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69657})},
     parent = map.id
 }) -- The Groundskeeper (Chitin Hulk)
 
 map.nodes[64560668] = Rare({
     id = 222624,
-    quest = 82077, -- 84081 review, triggered both quests
-    rewards = {Achievement({id = 40840, criteria = 69669})}
+    quest = 82077, -- 84081
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
+    rewards = {Achievement({id = 40840, criteria = 69669})},
+    pois = {Path({64500582, 64650782})}
 }) -- Deepcrawler Tx'kesh
 
 map.nodes[58036210] = Rare({
@@ -85,13 +93,17 @@ map.nodes[58036210] = Rare({
 
 map.nodes[61232730] = Rare({
     id = 216041,
-    quest = 81699,
+    quest = 81699, -- One Time Kill
+    note = L['in_building'],
     rewards = {Achievement({id = 40840, criteria = 69655})}
 }) -- Grik'ik
 
 akl.nodes[65198283] = Rare({
     id = 216050,
-    quest = 82036,
+    quest = 82036, -- 84079
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69667})},
     pois = {
         Path({
@@ -104,16 +116,23 @@ akl.nodes[65198283] = Rare({
 
 akl.nodes[67438318] = Rare({
     id = 216048,
-    quest = 82034,
+    quest = 82034, -- 84077
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69665})},
     parent = map.id
 }) -- Jix'ak the Crazed
 
 map.nodes[62400703] = Rare({ -- renamed by Blizzard?
     id = 216052,
-    quest = 82078,
+    quest = 82078, -- 84082
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69670})},
     pois = {Path({62870495, 62610615, 62400703, 62070804, 61830851, 61160787})}
+
 }) -- Kaheti Bladeguard
 
 map.nodes[63152530] = Rare({
@@ -161,7 +180,7 @@ map.nodes[69986923] = Rare({
 
 map.nodes[43863678] = Rare({
     id = 216032, -- 221032 Rhak'ik
-    quest = 81694,
+    quest = 81694, -- One Time Kill
     rewards = {Achievement({id = 40840, criteria = 69653})},
     pois = {
         Path({
@@ -174,7 +193,10 @@ map.nodes[43863678] = Rare({
 
 akl.nodes[61918962] = Rare({
     id = 216049,
-    quest = 82035,
+    quest = 82035, -- 84078
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     location = L['in_small_cave'],
     rewards = {Achievement({id = 40840, criteria = 69666})},
     parent = map.id,
@@ -184,6 +206,7 @@ akl.nodes[61918962] = Rare({
 map.nodes[76585780] = Rare({
     id = 216034,
     quest = 81703, -- 84072
+    location = L['in_small_cave'],
     -- ReputationGain(50, 2601), -- The Weaver
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier
@@ -193,13 +216,16 @@ map.nodes[76585780] = Rare({
 
 map.nodes[64590352] = Rare({
     id = 216051,
-    quest = 82037,
+    quest = 82037, -- 84080
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40840, criteria = 69668})}
 }) -- Umbraclaw Matra
 
 map.nodes[34694110] = Rare({
     id = 216037,
-    quest = 81700,
+    quest = 81700, -- One Time Kill
     rewards = {
         Achievement({id = 40840, criteria = 69656}),
         Transmog({item = 223405, type = L['plate']}) -- Vilewing Visor
@@ -227,13 +253,17 @@ cotl.nodes[67525826] = Rare({
 map.nodes[63479504] = Rare({
     id = 216047,
     location = L['in_cave'],
-    quest = 82290,
+    quest = 82290, -- review -- need rep quest id if triggered (none triggered on first kill, maybe no rep/bug)
+    rewards = {
+        Transmog({item = 221247, type = L['crossbow']}) -- Cavernous Critter Shooter
+    },
     pois = {POI({65309350})} -- Entrance
 }) -- The One Left
 
 map.nodes[62816618] = Rare({
     id = 216046,
-    quest = 82289,
+    quest = 82289, -- No rep
+    note = L['tkaktath_note'],
     rewards = {ns.reward.Item({item = 225952, quest = 83627})} -- starts the questchain to get the Siesbarg mount.
 }) -- Tka'ktath
 
@@ -244,13 +274,15 @@ map.nodes[62816618] = Rare({
 akl.nodes[62728795] = Treasure({
     quest = 82520,
     parent = map.id,
+    note = L['memory_cache_note'],
     -- ReputationGain(50, 2601), -- The Weaver
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40828, criteria = 1}), -- duplicated criteria id 69615
         Pet({item = 225544, id = 4599}) -- Mind Slurp
-    }
+    },
+    pois = {POI({61498384, 62338363, 63478590, 65238877})}
 }) -- Memory Cache
 -- I'm not sure if the treasure was called Corrupted Memory or Memory Cache. The Treasure was guarded by a mob called Corrupted memory.
 -- No Achievement criteria was triggered, looks like all Azj Kahet treasure Achievements are bugged
@@ -260,7 +292,7 @@ map.nodes[67459072] = Treasure({
     rewards = {Achievement({id = 40828, criteria = 69646})}
 }) -- Disturbed Soil
 
-map.nodes[38783722] = Treasure({ -- review
+map.nodes[38783722] = Treasure({
     quest = 82722,
     rewards = {Achievement({id = 40828, criteria = 69650})}
 }) -- Missing Scout's Pack
@@ -296,6 +328,9 @@ map.nodes[54525081] = Treasure({
 map.nodes[67482754] = Treasure({
     quest = 82719,
     -- parent = map.id,
+    -- ReputationGain(50, 2601), -- The Weaver
+    -- ReputationGain(50, 2605), -- The General
+    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {Achievement({id = 40828, criteria = 69647})},
     pois = {POI({65422765})}
 }) -- Silk-spun Supplies
@@ -566,6 +601,98 @@ map.nodes[71126233] = LoreObject({
     -- ReputationGain(85, 2607), -- The Vizier
     rewards = {Achievement({id = 40762, criteria = 69384})}
 }) -- Weathered Shadecaster
+
+-------------------------------------------------------------------------------
+--------------------- ACHIEVEMENT: SMELLING HISTORY ---------------------
+-------------------------------------------------------------------------------
+
+local SmellingHistory = Class('smelling_history', Collectible, {
+    icon = 4549130,
+    group = ns.groups.SMELLING_HISTORY,
+    note = L['smelling_history_note']
+})
+
+cot.nodes[45291254] = SmellingHistory({
+    parent = map.id,
+    id = 218192,
+    icon = 134713,
+    rewards = {Achievement({id = 40542})}
+}) -- Siesbarg
+
+cot.nodes[27715460] = SmellingHistory({
+    parent = map.id,
+    location = L['smelling_history_1_location'],
+    rewards = {Achievement({id = 40542, criteria = 68818})}
+}) -- Strands of Memory
+
+map.nodes[62963117] = SmellingHistory({
+    location = L['smelling_history_2_location'],
+    rewards = {Achievement({id = 40542, criteria = 68971})}
+}) -- Ethos of War, Part 1
+
+map.nodes[66693128] = SmellingHistory({
+    location = L['smelling_history_3_location'],
+    rewards = {Achievement({id = 40542, criteria = 68980})},
+    pois = {POI({65422765})}
+}) -- Ethos of War, Part 2
+
+map.nodes[48852400] = SmellingHistory({
+    location = L['smelling_history_4_location'],
+    rewards = {Achievement({id = 40542, criteria = 68981})}
+}) -- Ethos of War, Part 3
+
+map.nodes[43252555] = SmellingHistory({
+    location = L['smelling_history_5_location'],
+    rewards = {Achievement({id = 40542, criteria = 68982})}
+}) -- Ethos of War, Part 4
+
+cot.nodes[38263555] = SmellingHistory({
+    parent = map.id,
+    location = L['smelling_history_6_location'],
+    rewards = {Achievement({id = 40542, criteria = 68984})},
+    pois = {POI({40743385})}
+}) -- Queen Xekatha
+
+cot.nodes[37103275] = SmellingHistory({
+    parent = map.id,
+    location = L['smelling_history_7_location'],
+    rewards = {Achievement({id = 40542, criteria = 68985})},
+    pois = {POI({40743385})}
+}) -- Queen Anub'izek
+
+cot.nodes[38423227] = SmellingHistory({
+    parent = map.id,
+    location = L['smelling_history_8_location'],
+    rewards = {Achievement({id = 40542, criteria = 68986})},
+    pois = {POI({40743385})}
+}) -- Queen Zaltra
+
+map.nodes[08002400] = SmellingHistory({ -- review
+    location = L['smelling_history_9_location'],
+    rewards = {Achievement({id = 40542, criteria = 68987})}
+}) -- Treatise on Forms: Sages
+
+cot.nodes[38543774] = SmellingHistory({
+    parent = map.id,
+    location = L['smelling_history_10_location'],
+    rewards = {Achievement({id = 40542, criteria = 68988})},
+    pois = {POI({40173874})}
+}) -- Treatise on Forms: Skitterlings
+
+cot.nodes[23645107] = SmellingHistory({
+    parent = map.id,
+    location = L['smelling_history_11_location'],
+    rewards = {Achievement({id = 40542, criteria = 69446})},
+    pois = {POI({26115141})}
+}) -- Treatise on Forms: Lords
+
+cot.nodes[77984103] = SmellingHistory({
+    parent = map.id,
+    location = L['smelling_history_12_location'],
+    rewards = {Achievement({id = 40542, criteria = 69447})}
+}) -- Treatise on Forms: Ascended
+
+-- Queen Neferess 36462490
 
 -------------------------------------------------------------------------------
 -------------------------------- DISTURBED DIRT -------------------------------
