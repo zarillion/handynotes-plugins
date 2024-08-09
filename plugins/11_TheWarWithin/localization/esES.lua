@@ -211,7 +211,7 @@ L['smelling_history_10_location'] = 'En un banco.'
 L['smelling_history_11_location'] = 'El libro está en una mesa junto a la cama. La entrada está encima de la fuente.'
 L['smelling_history_12_location'] = 'Dentro del edificio, en una mesa.'
 
-L['memory_cache_note'] = nil
+L['memory_cache_note'] = 'Consigue {spell:420847} de un ({dot:Blue}) {object:Extractor de Almacenaje} cercano. Después mata la {npc:223908} para conseguir la {item:223870} que abrirá el {object:Alijo de Recuerdos}.'
 L['concealed_contraband'] = 'Contrabando Oculto'
 L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'
 
