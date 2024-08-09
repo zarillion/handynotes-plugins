@@ -204,6 +204,7 @@ L['smelling_history_10_location'] = nil
 L['smelling_history_11_location'] = nil
 L['smelling_history_12_location'] = nil
 
+L['memory_cache_note'] = nil
 L['concealed_contraband'] = 'Versteckte Schmuggelware'
 L['trapped_trove_note'] = 'In einem Gebäude das von der Decke hängt. Vermeide die Spinnweben am Boden.'
 

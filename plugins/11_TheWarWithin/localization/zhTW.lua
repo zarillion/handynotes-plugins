@@ -199,6 +199,7 @@ L['smelling_history_10_location'] = nil
 L['smelling_history_11_location'] = nil
 L['smelling_history_12_location'] = nil
 
+L['memory_cache_note'] = nil
 L['concealed_contraband'] = '隱藏的違禁品'
 L['trapped_trove_note'] = nil
 
