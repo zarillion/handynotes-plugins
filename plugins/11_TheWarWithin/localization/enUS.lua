@@ -130,7 +130,7 @@ L['biblo_book_10_location'] = 'In the captain\'s quarters aboard {location:The D
 L['biblo_book_11_location'] = 'Inside the buiding on a table.'
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
-L['options_icons_lost_and_found_desc'] = 'Display momento locations for {achievement:40618} achievement.'
+L['options_icons_lost_and_found_desc'] = 'Display memento locations for {achievement:40618} achievement.'
 
 L['lost_and_found_note'] = 'Progress the Memories of the Sky storyline starting with the quest {quest:80673} from ({dot:Blue}) {npc:220718}. {note:The quests unlock weekly}.\n\n3 mementos can be completed each week, until complete the quest {quest:82813}.'
 L['broken_bracelet_location'] = 'Hand in the item {item:219810} to {npc:215527}.'
