@@ -201,6 +201,7 @@ L['smelling_history_11_location'] = nil
 L['smelling_history_12_location'] = nil
 
 L['memory_cache_note'] = nil
+L['niffen_stash_note'] = 'Расположен под мостом.'
 L['concealed_contraband'] = 'Скрытая контрабанда'
 L['trapped_trove_note'] = nil
 

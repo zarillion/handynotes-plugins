@@ -319,6 +319,7 @@ map.nodes[49554370] = Treasure({
 
 map.nodes[54525081] = Treasure({
     quest = 82721,
+    note = L['niffen_stash_note'],
     -- ReputationGain(50, 2601), -- The Weaver
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier

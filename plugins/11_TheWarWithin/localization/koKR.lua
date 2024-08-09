@@ -200,6 +200,7 @@ L['smelling_history_11_location'] = nil
 L['smelling_history_12_location'] = nil
 
 L['memory_cache_note'] = nil
+L['niffen_stash_note'] = nil
 L['concealed_contraband'] = '숨겨진 밀수품'
 L['trapped_trove_note'] = nil
 
