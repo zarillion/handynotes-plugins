@@ -411,11 +411,11 @@ L['neltharions_toolkit_note'] = [[1. 从 {location:兹斯克拉宝库} 中收集
 
 2. 前往{location:觉醒海岸} 的 {location:焖燃栖地}。
 
-3. 在 {npc:193310} 旁边的洞穴中找到 {object:损坏的界门}。
+3. 在 {npc:193310} 旁边的洞穴中找到 {object:坏掉的界门}。
 
-4. 修复 {object:损坏的界门}。{note:这可能需要点击几下。}
+4. 修复 {object:坏掉的界门}。{note:这可能需要点击几下。}
 
-5. 传送到 {location:兹斯克拉宝库} 内的隐藏房间。击杀 {npc:200375} 和 {npc:203639} 然后打开 {object:黑曜石大宝箱} 领取战利品！]]
+5. 传送到 {location:兹斯克拉宝库} 内的隐藏房间。击杀 {npc:200375} 和 {npc:203639} 然后打开 {object:辉煌的黑曜石宝箱} 领取战利品！]]
 
 L['recipe_rat_note_1'] = '与 {location:兹斯克拉宝库} 中的 {npc:202982} 交谈，{item:202252} 会进入包内。'
 L['recipe_rat_note_2'] = '与 {item:202252} 互动以收到 {item:204340}。{note:（5分钟冷却时间）}'
