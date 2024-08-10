@@ -199,6 +199,10 @@ L['smelling_history_10_location'] = nil
 L['smelling_history_11_location'] = nil
 L['smelling_history_12_location'] = nil
 
+L['options_icons_skittershaw_spin'] = '{achievement:40727}'
+L['options_icons_skittershaw_spin_desc'] = nil
+L['skittershaw_spin_note'] = nil
+
 L['memory_cache_note'] = nil
 L['niffen_stash_note'] = '在桥的下面。'
 L['concealed_contraband'] = '隐匿违禁品'

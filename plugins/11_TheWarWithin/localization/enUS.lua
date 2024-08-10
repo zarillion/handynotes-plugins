@@ -211,6 +211,10 @@ L['smelling_history_10_location'] = 'On a bench.'
 L['smelling_history_11_location'] = 'Book is on a table next to the bed. Entrance is above the fountain.'
 L['smelling_history_12_location'] = 'Inside the building on a table.'
 
+L['options_icons_skittershaw_spin'] = '{achievement:40727}'
+L['options_icons_skittershaw_spin_desc'] = 'Display Skittershaw route locations for {achievement:40727} achievement.'
+L['skittershaw_spin_note'] = 'Ride the {npc:224973} for a full lap around the district.\n\nThe {npc:224973} will stop at the {dot:Red} points along the route.'
+
 L['memory_cache_note'] = 'Get {spell:420847} from a nearby ({dot:Blue}) {object:Extractor Storage}. After kill the {npc:223908} to get the {item:223870} to open the {object:Memory Cache}.'
 L['niffen_stash_note'] = 'Located under the bridge.'
 L['concealed_contraband'] = 'Concealed Contraband'

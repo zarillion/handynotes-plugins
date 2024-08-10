@@ -547,11 +547,12 @@ map.nodes[55106876] = ItsyBitsySpider({
         }) -- confirmed
     }
 }) -- Thimble
+-- npc:224887 npc:224889 npc:224893 npc:224895 npc:220568 npc:224892(226225114-cot) npc:224891(69898267 cot)
 
 map.nodes[06001200] = ItsyBitsySpider({
     location = L['webster_location'],
     rewards = {Achievement({id = 40624, criteria = 68972})}
-}) -- Webster
+}) -- Webster npc:227217( 39386541 (Cot))
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------
@@ -685,6 +686,32 @@ cot.nodes[77984103] = SmellingHistory({
 }) -- Treatise on Forms: Ascended
 
 -- Queen Neferess 36462490
+
+-------------------------------------------------------------------------------
+--------------------- ACHIEVEMENT: SMELLING HISTORY ---------------------
+-------------------------------------------------------------------------------
+
+local SkittershawSpin = Class('skittershaw_spin', Collectible, {
+    icon = 879828,
+    group = ns.groups.SKITTERSHAW_SPIN,
+    note = L['skittershaw_spin_note']
+})
+
+cot.nodes[65255720] = SkittershawSpin({
+    id = 224973,
+    parent = map.id,
+    rewards = {Achievement({id = 40727, criteria = 0, oneline = true})},
+    pois = {
+        Path({
+            65255720, 64115525, 64755380, 69504950, 71384995, 71444996,
+            73505020, 75805200, 76465505, 77805880, 77886180, 75926357,
+            76306680, 73306980, 70996716, 68546474, 68506430, 66006000, 65255720
+        }), POI({
+            points = {65255720, 71384995, 76445491, 75926358, 70996716},
+            color = 'Red'
+        })
+    }
+})
 
 -------------------------------------------------------------------------------
 -------------------------------- DISTURBED DIRT -------------------------------
