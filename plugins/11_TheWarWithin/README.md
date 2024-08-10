@@ -61,13 +61,13 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Lore books for the [Biblo Archivist](https://www.wowhead.com/achievement=40622) achievement.
 * Mementos for the [Lost and Found](https://www.wowhead.com/achievement=40618) achievement.
 * Ferocious warcats for the [The Missing Lynx](https://www.wowhead.com/achievement=40625) achievement.
-* Targets for the [Mereldar Menance](https://www.wowhead.com/achievement=40151) acheivement.
+* Targets for the [Mereldar Menance](https://www.wowhead.com/achievement=40151) achievement.
 
 ### Azj-Kahet
 
 * Weave-rats for the [Itsy Bitsy Spider](https://www.wowhead.com/achievement=40624) achievement.
-* Books for the [Smelling History](https://www.wowhead.com/achievement=40542) acheivement.
-* Skittershaw route for the [Skittershaw Spin](https://www.wowhead.com/achievement=40727) acheivement.
+* Books for the [Smelling History](https://www.wowhead.com/achievement=40542) achievement.
+* Skittershaw route for the [Skittershaw Spin](https://www.wowhead.com/achievement=40727) achievement.
 
 ## Localization
 
