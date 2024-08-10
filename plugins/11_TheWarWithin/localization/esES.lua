@@ -212,8 +212,8 @@ L['smelling_history_11_location'] = 'El libro está en una mesa junto a la cama.
 L['smelling_history_12_location'] = 'Dentro del edificio, en una mesa.'
 
 L['options_icons_skittershaw_spin'] = '{achievement:40727}'
-L['options_icons_skittershaw_spin_desc'] = nil
-L['skittershaw_spin_note'] = nil
+L['options_icons_skittershaw_spin_desc'] = 'Muestra las rutas de los correteadores para el logro {achievement:40727}.'
+L['skittershaw_spin_note'] = 'Conduce el {npc:224973} durante una vuelta completa alrededor del distrito.\n\nEl {npc:224973} se parará en los puntos {dot:Red} a lo largo de la ruta.'
 
 L['memory_cache_note'] = 'Consigue {spell:420847} de un ({dot:Blue}) {object:Extractor de Almacenaje} cercano. Después mata la {npc:223908} para conseguir la {item:223870} que abrirá el {object:Alijo de Recuerdos}.'
 L['niffen_stash_note'] = 'Está debajo del puente.'
