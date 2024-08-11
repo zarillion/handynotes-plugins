@@ -46,7 +46,13 @@ local Aquellion = Class('Aquellion', Rare, {
     id = 220274,
     quest = 80557, -- One time kill
     fgroup = 'aquellion',
-    rewards = {Achievement({id = 40837, criteria = 69625})}
+    rewards = {
+        Achievement({id = 40837, criteria = 69625}),
+        Transmog({item = 223371, slot = L['cloth']}), -- Slippers of Shallow Waters
+        Transmog({item = 223373, slot = L['leather']}), -- Treads of Shallow Waters
+        Transmog({item = 223372, slot = L['mail']}), -- Sabatons of Shallow Waters
+        Transmog({item = 223340, slot = L['plate']}) -- Footguards of Shallow Waters
+    }
 }) -- Aquellion
 
 map.nodes[55087053] = Aquellion()
@@ -57,7 +63,8 @@ map.nodes[66232975] = Rare({ -- flyes around
     quest = 80505, -- One time kill
     rewards = {
         Achievement({id = 40837, criteria = 69623}),
-        Transmog({item = 223363, slot = L['leather']}) -- Flying Kobold's Seatbelt
+        Transmog({item = 223363, slot = L['leather']}), -- Flying Kobold's Seatbelt
+        Transmog({item = 223360, slot = L['plate']}) -- Flying Kobold's Seatbelt
     }
 }) -- Candleflyer Captain
 
@@ -72,14 +79,20 @@ map.nodes[57903813] = Rare({
     id = 220266,
     quest = 81511, -- 84045
     rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40837, criteria = 69633})}
+    rewards = {
+        Achievement({id = 40837, criteria = 69633}),
+        Transmog({item = 221226, slot = L['plate']}) -- Voidtouched Waistguard
+    }
 }) -- Coalesced Monstrosity
 
 map.nodes[50994631] = Rare({
     id = 220269,
     quest = 80560, -- 84042
     rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40837, criteria = 69630})}
+    rewards = {
+        Achievement({id = 40837, criteria = 69630}),
+        Transmog({item = 221205, slot = L['cloth']}) -- Vest of the River
+    }
 }) -- Cragmund
 
 map.nodes[66636887] = Rare({
@@ -132,7 +145,10 @@ map.nodes[42773508] = Rare({
     quest = 80547, -- One Time Kill
     rewards = {
         Achievement({id = 40837, criteria = 69624}),
-        Transmog({item = 223355, slot = L['leather']}) -- Waterskipper's Leggings
+        Transmog({item = 223353, slot = L['cloth']}), -- Waterskipper's Trousers
+        Transmog({item = 223355, slot = L['leather']}), -- Waterskipper's Leggings
+        Transmog({item = 223354, slot = L['mail']}), -- Waterskipper's Chain Leggings
+        Transmog({item = 223352, slot = L['plate']}) -- Waterskipper's Legplates
     }
 }) -- King Splash
 
@@ -147,7 +163,10 @@ map.nodes[57015473] = Rare({
     quest = 81563, -- One time kill
     rewards = {
         Achievement({id = 40837, criteria = 69626}),
-        Transmog({item = 223404, slot = L['leather']}) -- Corrupted Earthen Cuffs
+        Transmog({item = 223401, slot = L['cloth']}), -- Corrupted Earthen Wristwraps
+        Transmog({item = 223404, slot = L['leather']}), -- Corrupted Earthen Cuffs
+        Transmog({item = 223403, slot = L['mail']}), -- Corrupted Earthen Binds
+        Transmog({item = 223402, slot = L['plate']}) -- Corrupted Earthen Wristguards
     }
 }) -- Rampaging Blight
 
@@ -168,7 +187,11 @@ map.nodes[47621217] = Rare({
     id = 220271,
     quest = 80507, -- 84040
     rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40837, criteria = 69628})}
+    rewards = {
+        Achievement({id = 40837, criteria = 69628}),
+        Transmog({item = 221242, slot = L['plate']}) -- Forgeborn Helm
+
+    }
 }) -- Terror of the Forge
 
 map.nodes[71654630] = Rare({
@@ -178,7 +201,7 @@ map.nodes[71654630] = Rare({
     rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {
         Achievement({id = 40837, criteria = 69631}),
-        Transmog({item = 221228, slot = L['cloth']})
+        Transmog({item = 221228, slot = L['cloth']}) -- Infested Fungal Wristwraps
     },
     pois = {POI({72844447})} -- Entrance
 }) -- Trungal
@@ -187,7 +210,10 @@ map.nodes[52032657] = Rare({
     id = 220270,
     quest = 80506, -- 84041
     rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40837, criteria = 69629})}
+    rewards = {
+        Achievement({id = 40837, criteria = 69629}),
+        Transmog({item = 221220, slot = L['leather']}) -- Basilisk Scale Pauldrons
+    }
 }) -- Zilthara
 
 -------------------------------------------------------------------------------

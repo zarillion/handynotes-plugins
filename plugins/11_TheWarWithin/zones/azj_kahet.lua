@@ -41,6 +41,9 @@ map.nodes[46383875] = Rare({
     quest = 81695, -- One Time Kill
     rewards = {
         Achievement({id = 40840, criteria = 69651}),
+        Transmog({item = 223390, type = L['cloth']}), -- Leggings of Dark Hunger
+        Transmog({item = 223392, type = L['leather']}), -- Trousers of Dark Hunger
+        Transmog({item = 223391, type = L['mail']}), -- Legguards of Dark Hunger
         Transmog({item = 223389, type = L['plate']}) -- Legplates of Dark Hunger
     }
 }) -- Abyssal Devourer
@@ -96,7 +99,7 @@ map.nodes[61232730] = Rare({
     quest = 81699, -- One Time Kill
     note = L['in_building'],
     rewards = {Achievement({id = 40840, criteria = 69655})}
-}) -- Grik'ik
+}) -- Webspeaker Grik'ik
 
 akl.nodes[65198283] = Rare({
     id = 216050,
@@ -228,6 +231,9 @@ map.nodes[34694110] = Rare({
     quest = 81700, -- One Time Kill
     rewards = {
         Achievement({id = 40840, criteria = 69656}),
+        Transmog({item = 223386, type = L['cloth']}), -- Vilewing Crown
+        Transmog({item = 223388, type = L['leather']}), -- Vilewing Cap
+        Transmog({item = 223387, type = L['mail']}), -- Vilewing Chain Helm
         Transmog({item = 223405, type = L['plate']}) -- Vilewing Visor
     },
     pois = {

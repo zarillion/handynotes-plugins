@@ -165,7 +165,7 @@ map.nodes[57046433] = Rare({
         Achievement({id = 40851, criteria = 69704}),
         Transmog({item = 223379, type = L['plate']}) -- Nerubian Weaver's Chestplate
     }
-}) -- Ixlorb the Weaver
+}) -- Ixlorb the Spinner
 
 map.nodes[23005922] = Rare({
     id = 221534,
@@ -188,6 +188,9 @@ map.nodes[52132681] = Rare({
     quest = 80010, -- One Time Kill
     rewards = {
         Achievement({id = 40851, criteria = 69705}),
+        Transmog({item = 223384, type = L['cloth']}), -- Murkshade Gloves
+        Transmog({item = 223382, type = L['leather']}), -- Murkshade Grips
+        Transmog({item = 223385, type = L['mail']}), -- Murkshade Gauntlets
         Transmog({item = 223383, type = L['plate']}) -- Murkshade Handguards
     }
 }) -- Murkshade
