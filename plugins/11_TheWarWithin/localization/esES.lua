@@ -49,8 +49,8 @@ L['water_console_location'] = 'Junto a las escaleras.'
 L['abyssal_console_location'] = 'En una alcoba.'
 L['taelloch_console_location'] = 'Entre los barriles de un puente.'
 L['obsidian_console_location'] = nil
-L['lost_console_location'] = nil
-L['earthen_console_location'] = 'En una alcoba.'
+L['lost_console_location'] = 'En una alcoba.'
+L['earthen_console_location'] = nil
 
 L['options_icons_notable_machines'] = '{achievement:40628}'
 L['options_icons_notable_machines_desc'] = 'Muestra dónde están las notas del logro {achievement:40628}.'
@@ -185,7 +185,7 @@ L['barracks_doorway_location'] = 'Apunta a la puerta de la tienda roja y dorada 
 L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = 'Muestra dónde están las tejerratas del logro {achievement:40624}.'
 
-L['itsy_bitsy_spider_note'] = nil
+L['itsy_bitsy_spider_note'] = 'Teclea la emoción ({emote:/saludar}) a la tejerrata.'
 L['webster_location'] = nil
 L['spindle_location'] = nil
 L['swift_location'] = nil
