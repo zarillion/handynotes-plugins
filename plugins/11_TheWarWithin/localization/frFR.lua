@@ -196,9 +196,9 @@ L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
 L['options_icons_smelling_history'] = '{achievement:40542}'
-L['options_icons_smelling_history_desc'] = 'Afficher les emplacements des livres pour la haut-fait {achievement:40542}.'
+L['options_icons_smelling_history_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40542}.'
 
-L['smelling_history_note'] = nil
+L['smelling_history_note'] = 'Achetez une {item:225784} à {npc:218192} contre 500x {currency:3056}.'
 L['smelling_history_1_location'] = 'A l\'intérieur du bâtiment, sur le comptoir.'
 L['smelling_history_2_location'] = 'Le parchemin se trouve sur un coffre.'
 L['smelling_history_3_location'] = 'Le parchemin est posé sur une table.'
