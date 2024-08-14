@@ -78,6 +78,10 @@ L['alfritha_location'] = nil
 L['gundrig_location'] = nil
 L['sathilga_location'] = nil
 
+L['trungal_note'] = nil
+L['disturbed_earthgorger_note'] = nil
+L['deepflayer_broodmother_note'] = nil
+
 L['gnawbles_ruby_vendor_note'] = nil
 L['options_icons_disturbed_dirt'] = nil
 L['options_icons_disturbed_dirt_desc'] = nil
@@ -103,19 +107,20 @@ L['smugglers_treasure_location'] = nil
 L['coral_fused_clam'] = nil
 L['coral_fused_clam_note'] = nil
 
-L['options_icons_biblio_archivist'] = nil
-L['options_icons_biblio_archivist_desc'] = nil
+L['options_icons_biblo_archivist'] = nil
+L['options_icons_biblo_archivist_desc'] = nil
 
-L['biblio_book_01_location'] = nil
-L['biblio_book_02_location'] = nil
-L['biblio_book_03_location'] = nil
-L['biblio_book_04_location'] = nil
-L['biblio_book_05_location'] = nil
-L['biblio_book_06_location'] = nil
-L['biblio_book_07_location'] = nil
-L['biblio_book_08_location'] = nil
-L['biblio_book_09_location'] = nil
-L['biblio_book_10_location'] = nil
+L['biblo_book_01_location'] = nil
+L['biblo_book_02_location'] = nil
+L['biblo_book_03_location'] = nil
+L['biblo_book_04_location'] = nil
+L['biblo_book_05_location'] = nil
+L['biblo_book_06_location'] = nil
+L['biblo_book_07_location'] = nil
+L['biblo_book_08_location'] = nil
+L['biblo_book_09_location'] = nil
+L['biblo_book_10_location'] = nil
+L['biblo_book_11_location'] = nil
 
 L['options_icons_lost_and_found'] = nil
 L['options_icons_lost_and_found_desc'] = nil
@@ -153,6 +158,14 @@ L['gobbo_location'] = nil
 L['croakit_note'] = nil
 L['deathtide_note'] = nil
 
+L['options_icons_mereldar_menace'] = '{achievement:40151}'
+L['options_icons_mereldar_menace_desc'] = nil
+
+L['mereldar_menace_note'] = nil
+L['light_and_flame_location'] = nil
+L['lamplighter_doorway_location'] = nil
+L['barracks_doorway_location'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
@@ -169,5 +182,30 @@ L['thimble_location'] = nil
 L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
+L['options_icons_smelling_history'] = '{achievement:40542}'
+L['options_icons_smelling_history_desc'] = nil
+
+L['smelling_history_note'] = nil
+L['smelling_history_1_location'] = nil
+L['smelling_history_2_location'] = nil
+L['smelling_history_3_location'] = nil
+L['smelling_history_4_location'] = nil
+L['smelling_history_5_location'] = nil
+L['smelling_history_6_location'] = nil
+L['smelling_history_7_location'] = nil
+L['smelling_history_8_location'] = nil
+L['smelling_history_9_location'] = nil
+L['smelling_history_10_location'] = nil
+L['smelling_history_11_location'] = nil
+L['smelling_history_12_location'] = nil
+
+L['options_icons_skittershaw_spin'] = '{achievement:40727}'
+L['options_icons_skittershaw_spin_desc'] = nil
+L['skittershaw_spin_note'] = nil
+
+L['memory_cache_note'] = nil
+L['niffen_stash_note'] = '在桥的下面。'
 L['concealed_contraband'] = '隐匿违禁品'
 L['trapped_trove_note'] = nil
+
+L['tkaktath_note'] = nil

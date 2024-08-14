@@ -43,6 +43,7 @@ map.nodes[15004000] = Rare({
         Mount({item = 223315, id = 2192}),
         Achievement({id = 40851, criteria = 69716})
     },
+    --    quest = 81763, -- triggered this on kill
     pois = {
         POI({
             25825754, 32673962, 37207191, 37744585, 38382474, 42733133,
@@ -54,19 +55,20 @@ map.nodes[15004000] = Rare({
 
 -- map.nodes[08002000] = Rare({
 --     id = 220159,
---     quest = 80486,
+--     quest = 80486, review -- need rep quest id if triggered
 --     rewards = {Achievement({id = 40851, criteria = 69718})}
 -- }) -- Brineslash
 
--- map.nodes[10002000] = Rare({
---     id = 206514,
---     quest = 82558,
---     rewards = {Achievement({id = 40851, criteria = 69720})}
--- }) -- Crazed Cabbage Smacker
+map.nodes[65052965] = Rare({
+    id = 206514,
+    quest = 82558, -- 84052
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
+    rewards = {Achievement({id = 40851, criteria = 69720})}
+}) -- Crazed Cabbage Smacker
 
 map.nodes[67552316] = Rare({
     id = 214757,
-    quest = 82560,
+    quest = 82560, -- review -- need rep quest id if triggered
     note = L['croakit_note'],
     rewards = {Achievement({id = 40851, criteria = 69722})},
     pois = {POI({65802355})}
@@ -81,7 +83,7 @@ map.nodes[63643205] = Rare({
 
 map.nodes[44744241] = Rare({
     id = 221753,
-    quest = 81880,
+    quest = 81880, -- No Rep
     note = L['deathtide_note'],
     rewards = {Achievement({id = 40851, criteria = 69717})},
     pois = {
@@ -94,7 +96,7 @@ map.nodes[44744241] = Rare({
 
 map.nodes[72116435] = Rare({
     id = 218458,
-    quest = 80011,
+    quest = 80011, -- One Time Kill
     rewards = {
         Achievement({id = 40851, criteria = 69703}),
         Transmog({item = 223394, type = L['plate']}) -- Deepfiend Pauldrons
@@ -103,25 +105,25 @@ map.nodes[72116435] = Rare({
 
 map.nodes[63931977] = Rare({
     id = 221179,
-    quest = 82562,
+    quest = 82562, -- review -- need rep quest id if triggered
     rewards = {Achievement({id = 40851, criteria = 69724})}
 }) -- Duskshadow
 
--- map.nodes[22002000] = Rare({
---     id = nil,
---     quest = 82564,
---     rewards = {Achievement({id = 40851, criteria = 69727})}
--- }) -- Finclaw Bloodtide
+map.nodes[62011683] = Rare({
+    id = 207780,
+    quest = 82564, -- review -- need rep quest id if triggered
+    rewards = {Achievement({id = 40851, criteria = 69727})}
+}) -- Finclaw Bloodtide
 
 map.nodes[36807187] = Rare({
     id = 221767,
-    quest = 81881,
+    quest = 81881, -- One Time Kill
     rewards = {Achievement({id = 40851, criteria = 69707})}
 }) -- Funglour
 
 map.nodes[36905469] = Rare({
     id = 221551,
-    quest = 81761,
+    quest = 81761, -- One Time Kill
     rewards = {Achievement({id = 40851, criteria = 69706})},
     pois = {
         Path({
@@ -158,12 +160,12 @@ map.nodes[33122687] = Rare({
 
 map.nodes[57046433] = Rare({
     id = 218426,
-    quest = 80006,
+    quest = 80006, -- One Time Kill
     rewards = {
         Achievement({id = 40851, criteria = 69704}),
         Transmog({item = 223379, type = L['plate']}) -- Nerubian Weaver's Chestplate
     }
-}) -- Ixlorb the Weaver
+}) -- Ixlorb the Spinner
 
 map.nodes[23005922] = Rare({
     id = 221534,
@@ -177,15 +179,18 @@ map.nodes[23005922] = Rare({
 
 map.nodes[63402880] = Rare({
     id = 206203,
-    quest = 82557,
+    quest = 82557, -- review -- need rep quest id if triggered
     rewards = {Achievement({id = 40851, criteria = 69719})}
 }) -- Moth'ethk
 
 map.nodes[52132681] = Rare({
     id = 218452, -- 218455 Lost Cache
-    quest = 80010,
+    quest = 80010, -- One Time Kill
     rewards = {
         Achievement({id = 40851, criteria = 69705}),
+        Transmog({item = 223384, type = L['cloth']}), -- Murkshade Gloves
+        Transmog({item = 223382, type = L['leather']}), -- Murkshade Grips
+        Transmog({item = 223385, type = L['mail']}), -- Murkshade Gauntlets
         Transmog({item = 223383, type = L['plate']}) -- Murkshade Handguards
     }
 }) -- Murkshade
@@ -199,7 +204,7 @@ map.nodes[61981331] = Rare({ -- patrols
 
 -- map.nodes[12002200] = Rare({
 --     id = nil,
---     quest = 82563,
+--     quest = 82563, -- review -- need rep quest id if triggered
 --     rewards = {Achievement({id = 40851, criteria = 69725})}
 -- }) -- Parasidious
 
@@ -211,8 +216,8 @@ map.nodes[57304857] = Rare({
 }) -- Pride of Beledar
 
 map.nodes[59702107] = Rare({
-    id = 207826,
-    quest = 82566,
+    id = 207826, -- Multiple spawn points 61933187
+    quest = 82566, --- 84058
     rewards = {Achievement({id = 40851, criteria = 69726})}
 }) -- Ravageant
 
@@ -253,6 +258,7 @@ map.nodes[44011637] = Rare({
 map.nodes[56486899] = Rare({
     id = 218444,
     quest = 80009, -- 84061
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40851, criteria = 69708})}
 }) -- The Taskmaker
 
@@ -522,7 +528,7 @@ map.nodes[76765382] = Treasure({ -- review, was not there when i looked
 }) -- Spore-covered Coffer
 
 map.nodes[63990612] = Treasure({
-    quest = nil, -- no quest triggered
+    quest = 80687,
     label = L['coral_fused_clam'],
     note = L['coral_fused_clam_note'],
     pois = {
@@ -609,116 +615,129 @@ map.nodes[57616460] = SkyridingGlyph({
 }) -- Tenir's Ascent
 
 -------------------------------------------------------------------------------
------------------------- ACHIEVEMENT: BIBLIO ARCHIVIST ------------------------
+------------------------ ACHIEVEMENT: BIBLO ARCHIVIST ------------------------
 -------------------------------------------------------------------------------
 
-local BiblioBook = Class('BiblioBook', Collectible,
-    {icon = 5341597, group = ns.groups.BIBLIO_ARCHIVIST})
+local BibloBook = Class('BibloBook', Collectible,
+    {icon = 5341597, group = ns.groups.BIBLO_ARCHIVIST})
 
-map.nodes[48153959] = BiblioBook({
-    location = L['biblio_book_01_location'],
+map.nodes[48153959] = BibloBook({
+    location = L['biblo_book_01_location'],
     rewards = {Achievement({id = 40622, criteria = 68954})}
 }) -- The Big Book of Arathi Idioms
 
-map.nodes[43884991] = BiblioBook({
-    location = L['biblio_book_02_location'],
+map.nodes[43884991] = BibloBook({
+    location = L['biblo_book_02_location'],
     rewards = {Achievement({id = 40622, criteria = 68955})}
 }) -- 500 Dishes Using Cave Fish and Mushrooms
 
-map.nodes[69344394] = BiblioBook({
-    location = L['biblio_book_03_location'],
+map.nodes[69344394] = BibloBook({
+    location = L['biblo_book_03_location'],
     rewards = {Achievement({id = 40622, criteria = 68957})}
 }) -- Care and Feeding of the Imperial Lynx
 
-map.nodes[68684159] = BiblioBook({
-    location = L['biblio_book_04_location'],
+map.nodes[68684159] = BibloBook({
+    location = L['biblo_book_04_location'],
     rewards = {Achievement({id = 40622, criteria = 68958})}
 }) -- Light's Gambit Playbook
 
-map.nodes[57595180] = BiblioBook({
-    location = L['biblio_book_05_location'],
+map.nodes[57825183] = BibloBook({
+    location = L['biblo_book_05_location'],
     rewards = {Achievement({id = 40622, criteria = 68960})}
 }) -- From the Depths They Come
 
-map.nodes[48756471] = BiblioBook({
-    location = L['biblio_book_06_location'],
+map.nodes[48756471] = BibloBook({
+    location = L['biblo_book_06_location'],
     rewards = {Achievement({id = 40622, criteria = 68961})}
 }) -- Palawltar's Codex of Dimensional Structure
 
-map.nodes[64182812] = BiblioBook({
-    location = L['biblio_book_07_location'],
+map.nodes[64182812] = BibloBook({
+    location = L['biblo_book_07_location'],
     rewards = {Achievement({id = 40622, criteria = 68963})}
 }) -- Shadow Curfew Guidelines
 
-map.nodes[59802203] = BiblioBook({
-    location = L['biblio_book_08_location'],
+map.nodes[59802203] = BibloBook({
+    location = L['biblo_book_08_location'],
     rewards = {Achievement({id = 40622, criteria = 68965})}
 }) -- Shadow Curfew Journal
 
-map.nodes[70225684] = BiblioBook({
-    location = L['biblio_book_09_location'],
+map.nodes[70225684] = BibloBook({
+    location = L['biblo_book_09_location'],
     rewards = {Achievement({id = 40622, criteria = 68967})}
 }) -- The Song of Renilash
 
-map.nodes[56586518] = BiblioBook({
-    location = L['biblio_book_10_location'],
+map.nodes[56586518] = BibloBook({
+    location = L['biblo_book_10_location'],
     rewards = {Achievement({id = 40622, criteria = 68968})}
 }) -- Beledar - The Emperor's Vision
+
+map.nodes[52635999] = BibloBook({
+    location = L['biblo_book_11_location'],
+    rewards = {Achievement({id = 40622, criteria = 69729})}
+}) -- Lightspark Grade Book
 
 -------------------------------------------------------------------------------
 ------------------------- ACHIEVEMENT: LOST AND FOUND -------------------------
 -------------------------------------------------------------------------------
 
--- [60486020] Maera Ashyld
-
 local Momento = Class('Momento', Collectible, {
     icon = 4635200,
     group = ns.groups.LOST_AND_FOUND,
-    note = L['lost_and_found_note']
+    note = L['lost_and_found_note'],
+    pois = {POI({60486018})}
 })
 
-map.nodes[06001600] = Momento({
+map.nodes[65463222] = Momento({
     location = L['broken_bracelet_location'],
+    requires = ns.requirement.Quest(80678),
     rewards = {Achievement({id = 40618, criteria = 68932})}
 }) -- Broken Bracelet
 
-map.nodes[08001600] = Momento({
+map.nodes[43285542] = Momento({
     location = L['stuffed_lynx_toy_location'],
+    requires = ns.requirement.Quest(80678),
     rewards = {Achievement({id = 40618, criteria = 68933})}
 }) -- Stuffed Lynx Toy
 
-map.nodes[10001600] = Momento({
+map.nodes[43465171] = Momento({
     location = L['tarnished_compass_location'],
+    requires = ns.requirement.Quest(80678),
     rewards = {Achievement({id = 40618, criteria = 68934})}
 }) -- Tarnished Compass
 
-map.nodes[12001600] = Momento({
+map.nodes[43204979] = Momento({
     location = L['sturdy_locket_location'],
+    requires = ns.requirement.Quest(82813, 'Time Borrowed'),
     rewards = {Achievement({id = 40618, criteria = 68935})}
 }) -- Sturdy Locket
 
-map.nodes[14001600] = Momento({
+map.nodes[69264384] = Momento({
     location = L['wooden_figure_location'],
+    requires = ns.requirement.Quest(82813, 'Time Borrowed'),
     rewards = {Achievement({id = 40618, criteria = 68937})}
 }) -- Wooden Figure
 
-map.nodes[16001600] = Momento({
+map.nodes[48423888] = Momento({
     location = L['calcified_journal_location'],
+    requires = ns.requirement.Quest(82813, 'Time Borrowed'),
     rewards = {Achievement({id = 40618, criteria = 68940})}
 }) -- Calcified Journal
 
-map.nodes[18001600] = Momento({
+map.nodes[41643474] = Momento({
     location = L['ivory_tinderbox_location'],
+    requires = ns.requirement.Quest(82810),
     rewards = {Achievement({id = 40618, criteria = 68942})}
 }) -- Ivory Tinderbox
 
-map.nodes[20001600] = Momento({
+map.nodes[42355502] = Momento({
     location = L['dented_spear_location'],
+    requires = ns.requirement.Quest(82810),
     rewards = {Achievement({id = 40618, criteria = 68943})}
 }) -- Dented Spear
 
-map.nodes[22001600] = Momento({
+map.nodes[43974970] = Momento({
     location = L['filigreed_cleric_location'],
+    requires = ns.requirement.Quest(82810),
     rewards = {Achievement({id = 40618, criteria = 68945})}
 }) -- Filigreed Cleric
 
@@ -762,14 +781,14 @@ map.nodes[69274372] = MissingLynx({
     rewards = {Achievement({id = 40625, criteria = 69002})}
 }) -- Iggy
 
-map.nodes[18001800] = MissingLynx({
+map.nodes[63182936] = MissingLynx({
     location = L['nightclaw_location'],
     rewards = {Achievement({id = 40625, criteria = 69003})}
 }) -- Nightclaw
 
 map.nodes[63792932] = MissingLynx({
     location = L['purrlock_location'],
-    rewards = {Achievement({id = 40625, criteria = 69004})}
+    rewards = {Achievement({id = 40625, criteria = 69004})} -- review (criteria is for Fuzzy but tracks Fuzzy)
 }) -- Purrlock
 
 map.nodes[63262811] = MissingLynx({
@@ -784,7 +803,7 @@ map.nodes[61193054] = MissingLynx({
 
 map.nodes[64441857] = MissingLynx({
     location = L['fuzzy_location'],
-    rewards = {Achievement({id = 40625, criteria = 69007})}
+    rewards = {Achievement({id = 40625, criteria = 69007})} -- review (criteria is for Fuzzy but tracks Purrlock)
 }) -- Fuzzy
 
 map.nodes[64441857] = MissingLynx({
@@ -832,6 +851,89 @@ map.nodes[25723845] = LoreObject({
 }) -- Captain's Chest
 
 -------------------------------------------------------------------------------
+------------------------- ACHIEVEMENT: MERELDAR MENACE ------------------------
+-------------------------------------------------------------------------------
+
+local MereldarMenace = Class('mereldar_menace', Collectible, {
+    icon = 135232,
+    group = ns.groups.MERELDAR_MENACE,
+    note = L['mereldar_menace_note']
+})
+
+map.nodes[41845564] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67121})},
+    pois = {
+        POI({41895552}) -- Throwing stone
+    }
+}) -- Orphanage Window
+
+map.nodes[42545551] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67122})},
+    pois = {
+        POI({41895552}) -- Throwing stone
+    }
+}) -- Notice Board
+
+map.nodes[42455439] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67123})},
+    pois = {
+        POI({41895552}) -- Throwing stone
+    }
+}) -- Food Stall
+
+map.nodes[42355491] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67124})},
+    pois = {
+        POI({41895552}) -- Throwing stone
+    }
+}) -- Fountain
+
+map.nodes[42295439] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67125})},
+    pois = {
+        POI({41895552}) -- Throwing stone
+    }
+}) -- Spice Stall
+
+map.nodes[42975268] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67126})},
+    location = L['light_and_flame_location'],
+    pois = {
+        POI({42265254}) -- Throwing stone
+    }
+}) -- Light and Flame
+
+map.nodes[43025235] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67127})},
+    location = L['lamplighter_doorway_location'],
+    pois = {
+        POI({42265254}) -- Throwing stone
+    }
+}) -- Lamplighter Doorway
+
+map.nodes[41325296] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67128})},
+    location = L['barracks_doorway_location'],
+    pois = {
+        POI({42265254}) -- Throwing stone
+    }
+}) -- Barracks Doorway
+
+map.nodes[43505078] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67129})},
+    pois = {
+        POI({44245123}) -- Throwing stone
+    }
+}) -- Holy Oil
+
+map.nodes[44685177] = MereldarMenace({
+    rewards = {Achievement({id = 40151, criteria = 67130})},
+    pois = {
+        POI({44245123}) -- Throwing stone
+    }
+}) -- Airship Drafting Board
+
+-------------------------------------------------------------------------------
 -------------------------------- DISTURBED DIRT -------------------------------
 -------------------------------------------------------------------------------
 
@@ -867,39 +969,3 @@ map.nodes[44147539] = DisturbedDirt()
 map.nodes[44537632] = DisturbedDirt()
 map.nodes[44947610] = DisturbedDirt()
 
--------------------------------------------------------------------------------
-------------------------- ACHIEVEMENT: MERELDAR MENACE ------------------------
--------------------------------------------------------------------------------
-
--- local BadExample = Class('BadExample', ns.node.Collectible, {icon = 135232})
-
--- These are just speculations, dont know where to get the stone to test it.
--- Probably because i am stuck at the Campaign Questline
-
--- map.nodes[43505077] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67219})}
--- }) -- Holy Oil -- according to wowhead wowhead.com/beta/npc=223557
-
--- map.nodes[41815599] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67121})}
--- }) -- Orphanage Window
-
--- map.nodes[42465440] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67123})}
--- }) -- Food Stall
-
--- map.nodes[42355490] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67124})}
--- }) -- Fountain
-
--- map.nodes[42295441] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67125})}
--- }) -- Spice Stall
-
--- map.nodes[42965270] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67126})}
--- }) -- Light and Flame
-
--- map.nodes[44075423] = BadExample({
---     rewards = {Achievement({id = 40151, criteria = 67130})}
--- }) -- Airship Drafting Board

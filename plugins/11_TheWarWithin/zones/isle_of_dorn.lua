@@ -37,7 +37,7 @@ local dor = Map({id = 2339, settings = true}) -- Dornogal
 
 map.nodes[23335817] = Rare({
     id = 219281,
-    quest = 82196,
+    quest = 82196, -- suspect One Time Kill
     note = L['alunira_note'],
     rewards = {
         Achievement({id = 40435, criteria = 68225}),
@@ -47,26 +47,39 @@ map.nodes[23335817] = Rare({
 
 map.nodes[41077616] = Rare({ -- get path
     id = 219264,
-    quest = 81893,
+    quest = 81893, -- One Time Kill
     rewards = {
         Achievement({id = 40435, criteria = 68214}),
-        Transmog({item = 223351, slot = L['leather']}) -- Wolf Packleader's Hood
+        Transmog({item = 223349, slot = L['cloth']}), -- Wolf Packleader's Cowl
+        Transmog({item = 223351, slot = L['leather']}), -- Wolf Packleader's Hood
+        Transmog({item = 223350, slot = L['mail']}), -- Wolf Packleader's Helm
+        Transmog({item = 223370, slot = L['plate']}) -- Wolf Packleader's Visor
+    },
+    pois = {
+        Path({
+            41407593, 42067630, 42457672, 42437726, 41327767, 40897738,
+            40627685, 40927619, 41407593
+        })
     }
 }) -- Bloodmaw
 
 map.nodes[55762753] = Rare({
     id = 221128,
-    quest = 81920,
+    quest = 81920, -- 84036
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40435, criteria = 68224})}
 }) -- Clawbreaker K'zithix
 
 map.nodes[47946014] = Rare({
     id = 219265,
-    quest = 81895,
+    quest = 81895, -- One Time Kill
     note = L['in_cave'], -- more like a mine
     rewards = {
         Achievement({id = 40435, criteria = 68215}),
-        Transmog({item = 223345, slot = L['leather']}) -- Viper's Stone Grips
+        Transmog({item = 223347, slot = L['cloth']}), -- Viper's Stone Mitts
+        Transmog({item = 223345, slot = L['leather']}), -- Viper's Stone Grips
+        Transmog({item = 223348, slot = L['mail']}), -- Viper's Stone Gauntlets
+        Transmog({item = 223346, slot = L['plate']}) -- Viper's Stone Handguards
     },
     pois = {
         POI({45936001, 46206206, 47726173}) -- Entries
@@ -75,28 +88,39 @@ map.nodes[47946014] = Rare({
 
 map.nodes[25784503] = Rare({
     id = 219266,
-    quest = 81907,
-    rewards = {Achievement({id = 40435, criteria = 68218})}
+    quest = 81907, -- 84029
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
+    rewards = {
+        Achievement({id = 40435, criteria = 68218}),
+        Transmog({item = 221208, slot = L['leather']}) -- Unseen Cutthroat's Tunic
+    }
 }) -- Escaped Cutthroat
 
 map.nodes[63984054] = Rare({ -- get path
     id = 219279,
-    quest = 81905, -- 84034 ?
+    quest = 81905, -- 84034
     rlabel = ReputationGain(150, 2590), -- Council of Dornogal
-    rewards = {Achievement({id = 40435, criteria = 68223})}
-    -- pois = {Path({})}
+    rewards = {
+        Achievement({id = 40435, criteria = 68223}),
+        Transmog({item = 221244, slot = L['mail']}) -- Flamekeeper's Footpads
+    }
 }) -- Flamekeeper Graz
 
 map.nodes[53527998] = Rare({
     id = 219268,
-    quest = 81899,
+    quest = 81899, -- 84028
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40435, criteria = 68217})}
 }) -- Gar'loc
 
 map.nodes[48212701] = Rare({
     id = 219270,
-    quest = 81902,
-    rewards = {Achievement({id = 40435, criteria = 68220})}
+    quest = 81902, -- 84031
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
+    rewards = {
+        Achievement({id = 40435, criteria = 68220}),
+        Transmog({item = 221210, slot = L['plate']}) -- Grips of the Earth
+    }
 }) -- Kronolith, Might of the Mountain
 
 map.nodes[73004009] = Rare({
@@ -110,12 +134,16 @@ map.nodes[50876975] = Rare({
     id = 219267,
     quest = 81897, -- 84026
     rlabel = ReputationGain(150, 2590), -- Council of Dornogal
-    rewards = {Achievement({id = 40435, criteria = 68216})}
+    rewards = {
+        Achievement({id = 40435, criteria = 68216}),
+        Transmog({item = 221213, slot = L['cloth']}), -- Shawl of the Plagued
+        Transmog({item = 221247, slot = L['crossbow']}) -- Cavernous Critter Shooter
+    }
 }) -- Plaguehart
 
 map.nodes[35657489] = Rare({ -- get path
     id = 213115,
-    quest = 78619,
+    quest = 78619, -- One Time Kill
     rewards = {
         Achievement({id = 40435, criteria = 68210}), --
         Transmog({item = 223367, slot = L['leather']}) -- Cuffs of the Titancap
@@ -133,22 +161,29 @@ map.nodes[35657489] = Rare({ -- get path
 
 map.nodes[62776842] = Rare({
     id = 217534,
-    quest = 79685,
+    quest = 79685, -- One Time Kill
     rewards = {Achievement({id = 40435, criteria = 68211})}
 }) -- Sandres the Relicbearer
 
 map.nodes[74422804] = Rare({
     id = 219278,
-    quest = 81903,
-    rewards = {Achievement({id = 40435, criteria = 68221})}
+    quest = 81903, -- 84032
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
+    rewards = {
+        Achievement({id = 40435, criteria = 68221}),
+        Transmog({item = 221224, slot = L['plate']})
+    }
 }) -- Shallowshell the Clacker
 
 map.nodes[58776068] = Rare({
     id = 219262,
-    quest = 81892,
+    quest = 81892, -- One Time Kill
     rewards = {
         Achievement({id = 40435, criteria = 68212}),
-        Transmog({item = 223356, slot = L['leather']}) -- Shoulderpads of the Steamsurger
+        Transmog({item = 223358, slot = L['cloth']}), -- Mantle of the Steamsurger
+        Transmog({item = 223356, slot = L['leather']}), -- Shoulderpads of the Steamsurger
+        Transmog({item = 223359, slot = L['mail']}), -- Spaulders of the Steamsurger
+        Transmog({item = 223357, slot = L['plate']}) -- Spaulders of the Steamsurger
     }
 }) -- Springbubble
 
@@ -161,29 +196,34 @@ map.nodes[69853850] = Rare({
 
 map.nodes[56891601] = Rare({
     id = 219269,
-    quest = 81901,
+    quest = 81901, -- 84030
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40435, criteria = 68219})},
     pois = {Path({56891601, 57401625, 57761653})}
 }) -- Tempest Lord Incarnus
 
-map.nodes[72913794] = Rare({ -- get path
+map.nodes[72913794] = Rare({
     id = 221126,
     quest = 81923, -- 84037
     rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     rewards = {Achievement({id = 40435, criteria = 68229})},
-    pois = {Path({73823883})}
+    pois = {Path({73823883, 73463864, 71373784})}
 }) -- Tephratennae
 
 map.nodes[57122241] = Rare({
     id = 219271,
-    quest = 81904,
-    rewards = {Achievement({id = 40435, criteria = 68222})}
+    quest = 81904, -- 84033
+    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
+    rewards = {
+        Achievement({id = 40435, criteria = 68222}),
+        Transmog({item = 221219, slot = L['leather']}) -- Silkwing Trousers
+    }
 }) -- Twice-Stinger the Wretched
 
 map.nodes[30905239] = Rare({
     id = 219284,
     label = L['violet_hold_prisoner'],
-    quest = {82203, 82204, 82205},
+    quest = {82203, 82204, 82205}, -- No Rep
     questCount = true,
     rewards = {
         Achievement({
@@ -194,16 +234,24 @@ map.nodes[30905239] = Rare({
                 {id = 68226, quest = 82203} -- Zovex
             }
         }), --
-        Transmog({item = 226117, type = L['offhand']}) -- Dalaran Guardian's Arcanotool
+        Transmog({item = 226111, type = L['staff']}), -- Arakkoan Ritual Staff
+        Transmog({item = 226112, type = L['1h_sword']}), -- Rotfist Flesh Carver
+        Transmog({item = 226113, type = L['1h_sword']}), -- Kereke's Flourishing Sabre
+        Transmog({item = 226117, type = L['offhand']}), -- Dalaran Guardian's Arcanotool
+        Transmog({item = 226118, type = L['fist']}), -- Arcane Prisoner's Puncher
+        Transmog({item = 226119, type = L['crossbow']}) -- Arcane Sharpshooter's Crossbow
     }
 }) -- Violet Hold Prisoner (Kereke, Rotfist, Zovex)
 
 map.nodes[56833477] = Rare({
     id = 219263,
-    quest = 81894,
+    quest = 81894, -- One Time Kill
     rewards = {
         Achievement({id = 40435, criteria = 68213}),
-        Transmog({item = 223344, slot = L['leather']}) -- Warphorn's Resilient Vest
+        Transmog({item = 223341, slot = L['cloth']}), -- Warphorn's Resilient Mane
+        Transmog({item = 223344, slot = L['leather']}), -- Warphorn's Resilient Vest
+        Transmog({item = 223343, slot = L['mail']}), -- Warphorn's Resilient Chainmail
+        Transmog({item = 223342, slot = L['plate']}) -- Warphorn's Resilient Chestplate
     },
     pois = {
         Path({

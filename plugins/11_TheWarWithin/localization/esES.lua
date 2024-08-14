@@ -45,38 +45,42 @@ L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Muestra dónde están las consolas del logro {achievement:40473}.'
 
 L['not_so_quick_fix_note'] = 'Repara la consolas terránea estropeada.'
-L['water_console_location'] = nil
-L['abyssal_console_location'] = nil
-L['taelloch_console_location'] = nil
+L['water_console_location'] = 'Junto a las escaleras.'
+L['abyssal_console_location'] = 'En una alcoba.'
+L['taelloch_console_location'] = 'Entre los barriles de un puente.'
 L['obsidian_console_location'] = nil
-L['lost_console_location'] = nil
+L['lost_console_location'] = 'En una alcoba.'
 L['earthen_console_location'] = nil
 
 L['options_icons_notable_machines'] = '{achievement:40628}'
 L['options_icons_notable_machines_desc'] = 'Muestra dónde están las notas del logro {achievement:40628}.'
 
 L['notable_machines_note'] = 'Lee la nota.'
-L['fragment_I_location'] = nil
-L['fragment_II_location'] = nil
-L['fragment_III_location'] = nil
-L['fragment_IV_location'] = nil
-L['fragment_V_location'] = nil
-L['fragment_VI_location'] = nil
+L['fragment_I_location'] = 'En el suelo.'
+L['fragment_II_location'] = 'En una cornisa.'
+L['fragment_III_location'] = 'Encima del edificio.'
+L['fragment_IV_location'] = 'En lo alto de la torre de madera.'
+L['fragment_V_location'] = 'En el arco en lo alto de las escaleras.'
+L['fragment_VI_location'] = 'En el suelo, al lado de la farola.'
 
 L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
 L['options_icons_rocked_to_sleep_desc'] = 'Muestra dónde están las placas del logro {achievement:40504}.'
 
 L['rocked_to_sleep_note'] = 'Lee la placa del terráneo inerte.'
-L['attwogaz_location'] = nil
-L['halthaz_location'] = nil
-L['krattdaz_location'] = nil
-L['uisgaz_location'] = nil
-L['venedaz_location'] = nil
-L['merunth_location'] = nil
-L['varerko_location'] = nil
-L['alfritha_location'] = nil
-L['gundrig_location'] = nil
-L['sathilga_location'] = nil
+L['attwogaz_location'] = 'En una cornisa.'
+L['halthaz_location'] = 'En una cornisa en la base del pilar.'
+L['krattdaz_location'] = 'En una cornisa entre dos cascadas.'
+L['uisgaz_location'] = 'En una cornisa.'
+L['venedaz_location'] = 'En una plataforma junto a la tubería.'
+L['merunth_location'] = 'En la tubería encima de las escaleras.'
+L['varerko_location'] = 'En una cornisa.'
+L['alfritha_location'] = 'Sentado al borde del acantilado.'
+L['gundrig_location'] = 'Sentado encima de una cornisa.'
+L['sathilga_location'] = 'En una cornisa cerca de un edificio de máquinas mineras de tierra.'
+
+L['trungal_note'] = 'Mata a {npc:220615} que aparece alrededor de la entrada y abajo en la cueva para hacer aparecer a Trungal.'
+L['disturbed_earthgorger_note'] = 'Usa el hechizo de acción extra para hacer {spell:437003} en el suelo 3 veces para hacerlo aparecer.'
+L['deepflayer_broodmother_note'] = 'Vuela muy alto.'
 
 L['gnawbles_ruby_vendor_note'] = [[Recolecta {item:212493} de la {object:Tierra Perturbada} para dárselo a {npc:225166}.
 
@@ -110,52 +114,53 @@ L['coral_fused_clam_note'] = [[Despoja una {item:218354} del {object:Equipo de M
 {note:Requiere ser nivel 80 para cogerla.}
 ]]
 
-L['options_icons_biblio_archivist'] = '{achievement:40622}'
-L['options_icons_biblio_archivist_desc'] = 'Muestra dónde están los libros del logro {achievement:40622}.'
+L['options_icons_biblo_archivist'] = '{achievement:40622}'
+L['options_icons_biblo_archivist_desc'] = 'Muestra dónde están los libros del logro {achievement:40622}.'
 
-L['biblio_book_01_location'] = 'Dentro del edificio en la mesa de detrás de {npc:222811}.'
-L['biblio_book_02_location'] = 'Dentro del edificio sobre una mesa junto a la puerta..'
-L['biblio_book_03_location'] = 'En el establo con todos los {npc:217606}.'
-L['biblio_book_04_location'] = 'En el centro del puente.'
-L['biblio_book_05_location'] = 'En la playa debajo del dirigible.'
-L['biblio_book_06_location'] = 'Dentro del edificio en una estantería de la pared trasera.'
-L['biblio_book_07_location'] = 'Dentro del edificio en la mesa de detrás de {npc:206096}.'
-L['biblio_book_08_location'] = 'Dentro de las ruinas.'
-L['biblio_book_09_location'] = 'Dentro de la gran carpa detrás de la mesa de guerra.'
-L['biblio_book_10_location'] = 'En las habitaciones del capitán a bordo de {location:El Rompealbas}.'
+L['biblo_book_01_location'] = 'Dentro del edificio en la mesa de detrás de {npc:222811}.'
+L['biblo_book_02_location'] = 'Dentro del edificio sobre una mesa junto a la puerta..'
+L['biblo_book_03_location'] = 'En el establo con todos los {npc:217606}.'
+L['biblo_book_04_location'] = 'En el centro del puente.'
+L['biblo_book_05_location'] = 'En la playa debajo del dirigible.'
+L['biblo_book_06_location'] = 'Dentro del edificio en una estantería de la pared trasera.'
+L['biblo_book_07_location'] = 'Dentro del edificio en la mesa de detrás de {npc:206096}.'
+L['biblo_book_08_location'] = 'Dentro de las ruinas.'
+L['biblo_book_09_location'] = 'Dentro de la gran carpa detrás de la mesa de guerra.'
+L['biblo_book_10_location'] = 'En las habitaciones del capitán a bordo de {location:El Rompealbas}.'
+L['biblo_book_11_location'] = 'Dentro del edificio sobre una mesa.'
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
 L['options_icons_lost_and_found_desc'] = 'Muestra dónde están todos los recuerdos del logro {achievement:40618}.'
 
-L['lost_and_found_note'] = nil
-L['broken_bracelet_location'] = nil
-L['stuffed_lynx_toy_location'] = nil
-L['tarnished_compass_location'] = nil
-L['sturdy_locket_location'] = nil
-L['wooden_figure_location'] = nil
-L['calcified_journal_location'] = nil
-L['ivory_tinderbox_location'] = nil
-L['dented_spear_location'] = nil
-L['filigreed_cleric_location'] = nil
+L['lost_and_found_note'] = 'Progresa en la cadena de misiones Recuerdos del Cielo que empieza con {quest:80673} que te da ({dot:Blue}) {npc:220718}. {note:Las misiones se desbloquean semanalmente}.\n\nCada semana se han de completar 3 recuerdos, hasta completar la misión {quest:80678}.'
+L['broken_bracelet_location'] = 'Entrega {item:219810} a {npc:215527}.'
+L['stuffed_lynx_toy_location'] = 'Entrega {item:219809} a {npc:218486}.'
+L['tarnished_compass_location'] = 'Entrega {item:219524} a {object:Ubicación de la Ofrenda de Tumba}.'
+L['sturdy_locket_location'] = 'Entrega {item:224274} a {npc:220859}.'
+L['wooden_figure_location'] = 'Entrega {item:224273} a {npc:217609}.'
+L['calcified_journal_location'] = 'Entrega {item:224272} a {npc:222813}.'
+L['ivory_tinderbox_location'] = 'Entrega {item:224266} a {npc:226051}.'
+L['dented_spear_location'] = 'Entrega {item:224267} a {npc:213145}.'
+L['filigreed_cleric_location'] = 'Entrega {item:224268} a {npc:217813}.'
 
 L['options_icons_missing_lynx'] = '{achievement:40625}'
 L['options_icons_missing_lynx_desc'] = 'Muestra dónde están los linces del logro {achievement:40625}.'
 
-L['missing_lynx_note'] = nil
-L['magpie_location'] = nil
-L['evan_location'] = nil
-L['emery_location'] = nil
-L['jinx_location'] = nil
-L['moog_location'] = nil
-L['iggy_location'] = nil
-L['nightclaw_location'] = nil
-L['purrlock_location'] = nil
-L['shadowpouncer_location'] = nil
-L['miral_murder_mittens_location'] = nil
-L['fuzzy_location'] = nil
-L['furball_location'] = nil
-L['dander_location'] = nil
-L['gobbo_location'] = nil
+L['missing_lynx_note'] = 'Acaricia al gato guerrero feroz.'
+L['magpie_location'] = 'En el suelo junto a la bandera.'
+L['evan_location'] = 'Dentro del edificio.'
+L['emery_location'] = 'Dentro del edificio.'
+L['jinx_location'] = 'Dentro del edificio.'
+L['moog_location'] = 'Dentro del edificio.'
+L['iggy_location'] = 'Dentro del edificio.'
+L['nightclaw_location'] = 'Enciende la {object:Llave Ardiente Inferior} cercana. Requiere 3x {item:206350}.'
+L['purrlock_location'] = 'Enciende la {object:Floración de la Llave Ardiente Inferior} cercana. Requiere 20x {item:206350}.'
+L['shadowpouncer_location'] = 'Enciende la {object:Floración de la Llave Ardiente Inferior} cercana. Requiere 20x {item:206350}.'
+L['miral_murder_mittens_location'] = 'Afuera.'
+L['fuzzy_location'] = 'En el suelo cerca de la {object:Llave Ardiente Inferior}.'
+L['furball_location'] = 'Dentro del edificio en ruinas.'
+L['dander_location'] = 'Afuera.'
+L['gobbo_location'] = 'Dentro del edificio encima de la cama.'
 
 L['croakit_note'] = [[Para atacar a {npc:214757} primero tienes que pescar 10x {item:211474} del agua cercana.
 
@@ -165,6 +170,14 @@ Necesitarás combinar {item:220122} {dot:Blue} y {item:220124} {dot:Green} para 
 
 {note:Requiere ser nivel 80 para cogerla.} ]]
 
+L['options_icons_mereldar_menace'] = '{achievement:40151}'
+L['options_icons_mereldar_menace_desc'] = 'Muestra dónde están los objtivos del logro {achievement:40151}.'
+
+L['mereldar_menace_note'] = 'Interactúa con la {object:Piedra Arrojadiza} y lánzala a los objetivos.'
+L['light_and_flame_location'] = 'Apunta hacia {npc:218472} al este de la {object:Piedra Arrojadiza}.'
+L['lamplighter_doorway_location'] = 'Apunta a la entrada del edificio al este.'
+L['barracks_doorway_location'] = 'Apunta a la puerta de la tienda roja y dorada al oeste.'
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
@@ -172,7 +185,7 @@ Necesitarás combinar {item:220122} {dot:Blue} y {item:220124} {dot:Green} para 
 L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = 'Muestra dónde están las tejerratas del logro {achievement:40624}.'
 
-L['itsy_bitsy_spider_note'] = nil
+L['itsy_bitsy_spider_note'] = 'Teclea la emoción ({emote:/saludar}) a la tejerrata.'
 L['webster_location'] = nil
 L['spindle_location'] = nil
 L['swift_location'] = nil
@@ -181,5 +194,30 @@ L['thimble_location'] = nil
 L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
+L['options_icons_smelling_history'] = '{achievement:40542}'
+L['options_icons_smelling_history_desc'] = 'Muestra dónde están los libros del logro {achievement:40542}.'
+
+L['smelling_history_note'] = 'Compra la {item:225784} de {npc:218192} por 500x {currency:3056}.'
+L['smelling_history_1_location'] = 'Dentro del edificio, en el mostrador.'
+L['smelling_history_2_location'] = 'El pergamino está en un cofre.'
+L['smelling_history_3_location'] = 'El pergamino está en una mesa.'
+L['smelling_history_4_location'] = 'Dentro del edificio, en una mesa.'
+L['smelling_history_5_location'] = 'Dentro del edificio, en una mesa.'
+L['smelling_history_6_location'] = 'En la cama del lado sur de la habitación.'
+L['smelling_history_7_location'] = 'Encima de una pila de libros.'
+L['smelling_history_8_location'] = 'En la mesa junto a la cama en el lado norte de la habitación.'
+L['smelling_history_9_location'] = nil
+L['smelling_history_10_location'] = 'En un banco.'
+L['smelling_history_11_location'] = 'El libro está en una mesa junto a la cama. La entrada está encima de la fuente.'
+L['smelling_history_12_location'] = 'Dentro del edificio, en una mesa.'
+
+L['options_icons_skittershaw_spin'] = '{achievement:40727}'
+L['options_icons_skittershaw_spin_desc'] = 'Muestra las rutas de los correteadores para el logro {achievement:40727}.'
+L['skittershaw_spin_note'] = 'Conduce el {npc:224973} durante una vuelta completa alrededor del distrito.\n\nEl {npc:224973} se parará en los puntos {dot:Red} a lo largo de la ruta.'
+
+L['memory_cache_note'] = 'Consigue {spell:420847} de un ({dot:Blue}) {object:Extractor de Almacenaje} cercano. Después mata la {npc:223908} para conseguir la {item:223870} que abrirá el {object:Alijo de Recuerdos}.'
+L['niffen_stash_note'] = 'Está debajo del puente.'
 L['concealed_contraband'] = 'Contrabando Oculto'
 L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'
+
+L['tkaktath_note'] = 'Comienza una cadena de misiones para conseguir la montura {item:224150}.'

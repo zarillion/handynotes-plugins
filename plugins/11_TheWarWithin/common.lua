@@ -24,7 +24,7 @@ ns.groups.SKYRIDING_GLYPH = Group('skyriding_glyph', 4728198, {
 
 -------------------------------------------------------------------------------
 
-ns.groups.BIBLIO_ARCHIVIST = Group('biblio_archivist', 5341597, {
+ns.groups.BIBLO_ARCHIVIST = Group('biblo_archivist', 5341597, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
     achievement = 40622
@@ -40,6 +40,18 @@ ns.groups.ITSY_BITSY_SPIDER = Group('itsy_bitsy_spider', 5793405, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
     achievement = 40624
+})
+
+ns.groups.SKITTERSHAW_SPIN = Group('skittershaw_spin', 879828, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40727
+})
+
+ns.groups.SMELLING_HISTORY = Group('smelling_history', 4549130, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40542
 })
 
 ns.groups.KHAZ_ALGAR_LORE_HUNTER = Group('khaz_algar_lore_hunter', 4419344, {
@@ -58,6 +70,12 @@ ns.groups.MISSING_LYNX = Group('missing_lynx', 5689905, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
     achievement = 40625
+})
+
+ns.groups.MERELDAR_MENACE = Group('mereldar_menace', 135232, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40151
 })
 
 ns.groups.NOT_SO_QUICK_FIX = Group('not_so_quick_fix', 134067, {
