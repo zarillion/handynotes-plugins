@@ -21,7 +21,6 @@ local Mount = ns.reward.Mount
 local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
-local Reputation = ns.reward.Reputation
 
 local ItemStatus = ns.tooltip.ItemStatus
 local ReputationGain = ns.tooltip.ReputationGain

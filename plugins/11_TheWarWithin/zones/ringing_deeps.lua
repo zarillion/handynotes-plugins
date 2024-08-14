@@ -21,7 +21,6 @@ local Item = ns.reward.Item
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
-local Reputation = ns.reward.Reputation
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
