@@ -58,9 +58,9 @@ L['hard'] = 'Сложный'
 
 L['completed'] = 'Получено'
 L['incomplete'] = 'Незавершенно'
-L['known'] = 'Известно'
 L['claimed'] = nil
 L['notclaimed'] = nil
+L['known'] = 'Известно'
 L['missing'] = 'Отсутствует'
 L['unobtainable'] = 'Недоступно'
 L['unlearnable'] = 'Не поддается изучению'
