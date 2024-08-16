@@ -534,7 +534,7 @@ map.nodes[63990612] = Treasure({
     pois = {
         POI({61890609}) -- Clammer's Kit - Requires level 80 -- q80687
     }
-}) -- Coral Fused Clam
+}) -- Coral-Fused Clam
 
 -- map.nodes[56091454] = Treasure({
 --     quest = 81518,

@@ -39,7 +39,7 @@ L['options_icons_flat_earthen_desc'] = 'Display location for {achievement:40606}
 -------------------------------------------------------------------------------
 
 L['forgotten_treasure_note'] = 'Open {object:Buried Treasure}s nearby to get the {item:217960}.'
-L['kaja_cola_machine_note'] = 'Purchase drinks in the following order: Bluesberry Blast > Orange O-pocalypse > Oyster Outbreak > Mangoro Madness.'
+L['kaja_cola_machine_note'] = 'Purchase drinks in the following order: {item:223741} > {item:223743} > {item:223744} > {item:223742}.'
 
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Display console locations for {achievement:40473} achievement.'
@@ -78,7 +78,7 @@ L['alfritha_location'] = 'Sitting on the edge of the cliff.'
 L['gundrig_location'] = 'Sitting on top of a ledge.'
 L['sathilga_location'] = 'On a ledge near an Earthen mining machine building.'
 
-L['trungal_note'] = 'Kill the {npc:220615} that spawn around the entrance and down in the cave to spawn Trungal.'
+L['trungal_note'] = 'Kill the {npc:220615} that spawn around the entrance and down in the cave to spawn.'
 L['disturbed_earthgorger_note'] = 'Use the extra action spell to {spell:437003} the ground 3 times to spawn.'
 L['deepflayer_broodmother_note'] = 'Flies around high up.'
 
@@ -95,7 +95,7 @@ L['options_icons_disturbed_dirt_desc'] = 'Display locations of {object:Disturbed
 -------------------------------------------------------------------------------
 
 L['arathi_loremaster_note'] = 'Speak with {npc:221630} within {location:Mereldar} and answer several questions correctly to receive {item:225659}.\n\nAnswers can be found within books located around {location:Hallowfall}.'
-L['caesper_note'] = 'Purchase {item:225238} from ({dot:Blue}) {npc:217645} in {location:Dunelle\'s Kindess}, {location:Hallowfall}.\n\nFeed it to {npc:225948} and follow him to the treasure.'
+L['caesper_note'] = 'Purchase {item:225238} from ({dot:Blue}) {npc:217645} in {location:Dunelle\'s Kindness}, {location:Hallowfall}.\n\nFeed it to {npc:225948} and follow him to the treasure.'
 L['dark_ritual_note'] = 'Interact with the {object:Dark Ritual} and defeat all the {npc:226059}, {npc:226052}, and {npc:226062} to loot the {object:Shadowed Essence}.'
 L['illuminated_footlocker_note'] = 'Catch 5x falling {spell:442389} from the {npc:220703} to receive {spell:442529} and reveal the {object:Illuminated Footlocker}.'
 L['illusive_kobyss_lure_note'] = 'Combine all 4 items to create {item:225641}:'
@@ -108,7 +108,7 @@ L['lost_necklace_note'] = 'Loot the {object:Lost Momento} on the edge of the shr
 L['priory_satchel_location'] = 'Loot the {object:Windswept Satchel} hanging from the corner of the {location:Priory of the Sacred Flame} cathedral.'
 L['smugglers_treasure_note'] = 'Loot the required {item:225335} from the ({dot:Blue}) {npc:226025} below the cliff.'
 L['smugglers_treasure_location'] = 'High on the cliff between several rocks.'
-L['coral_fused_clam'] = 'Coral Fused Clam'
+L['coral_fused_clam'] = 'Coral-Fused Clam'
 L['coral_fused_clam_note'] = [[Loot {item:218354} from the {object:Clammer's Kit} to open the Clam.
 
 {note:Requires level 80 to pick up.}
