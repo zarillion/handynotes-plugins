@@ -78,7 +78,7 @@ L['alfritha_location'] = 'Sentado al borde del acantilado.'
 L['gundrig_location'] = 'Sentado encima de una cornisa.'
 L['sathilga_location'] = 'En una cornisa cerca de un edificio de máquinas mineras de tierra.'
 
-L['trungal_note'] = 'Mata a {npc:220615} que aparece alrededor de la entrada y abajo en la cueva para hacer aparecer a Trungal.'
+L['trungal_note'] = 'Mata a {npc:220615} que aparece alrededor de la entrada y aparecerá abajo en la cueva.'
 L['disturbed_earthgorger_note'] = 'Usa el hechizo de acción extra para hacer {spell:437003} en el suelo 3 veces para hacerlo aparecer.'
 L['deepflayer_broodmother_note'] = 'Vuela muy alto.'
 
