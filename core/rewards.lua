@@ -673,9 +673,7 @@ function Reputation:IsObtainable()
 end
 
 function Reputation:IsObtained()
-    if self.quest then
-        if self:IsObtainable() then return false end
-    end
+    if self.quest then if self:IsObtainable() then return false end end
     return true
 end
 -------------------------------------------------------------------------------
