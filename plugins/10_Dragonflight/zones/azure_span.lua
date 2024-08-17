@@ -226,7 +226,7 @@ map.nodes[27214490] = Rare({
     }
 }) -- Dragonhunter Gorund
 
-map.nodes[50043631] = Rare({
+map.nodes[49283861] = Rare({
     id = 193691,
     vignette = 5475,
     quest = 72254,
@@ -2250,7 +2250,7 @@ map.nodes[32663964] = ns.node.RenewedMagmammoth()
 
 -------------------------------- TUSKARR PEPE ---------------------------------
 
-map.nodes[12904860] = Collectible({
+map.nodes[12994859] = Collectible({
     label = L['tuskarr_pepe_label'],
     note = L['tuskarr_pepe_note'],
     icon = 1044996,

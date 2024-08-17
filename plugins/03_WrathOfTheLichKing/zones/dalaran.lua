@@ -69,7 +69,7 @@ map.nodes[46784001] = HigherLearning({
     rewards = HigherLearning_Rewards(7243)
 }) -- The Schools of Arcane Magic - Transmutation
 
-map.nodes[22405470] = HigherLearning({
+map.nodes[24355372] = HigherLearning({
     label = '{npc:90430}',
     note = L['higher_learning_vargoth'],
     requires = {ns.requirement.Achievement(1956), ns.requirement.Toy(43824)},
@@ -93,3 +93,14 @@ map.nodes[60704817] = Collectible({
     note = L['dalaran_sewers'],
     rewards = {Achievement({id = 2556, criteria = 5})}
 }) -- Underbelly Rat
+
+-------------------------------------------------------------------------------
+
+map.nodes[53696641] = Collectible({
+    icon = 133785,
+    label = '{achievement:2096}}',
+    note = L['coinmaster_note'],
+    rewards = {
+        Achievement({id = 2096, criteria = {7486, 7487, 7488}}) -- The Coin Master
+    }
+}) -- The Coin Master

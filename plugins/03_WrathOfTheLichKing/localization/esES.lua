@@ -22,3 +22,5 @@ L['higher_learning_6'] = 'Encima de una caja de la esquina.'
 L['higher_learning_7'] = 'En la estantería del piso superior.'
 L['higher_learning_8'] = 'En la estantería del piso inferior.'
 L['higher_learning_vargoth'] = 'Tras leer los 8 libros, recibirás {item:43824} por correo al teleportarte a los {location:Aposentos del Archimago Vargoth}.\nHabla con el {npc:90430} para conseguir la mascota.'
+
+L['coinmaster_note'] = nil
