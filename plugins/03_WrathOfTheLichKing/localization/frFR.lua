@@ -24,4 +24,4 @@ L['higher_learning_7'] = 'En haut, dans l\'étagère.'
 L['higher_learning_8'] = 'En bas, dans la bibliothèque.'
 L['higher_learning_vargoth'] = 'Après avoir lu les 8 livres, vous recevrez {item:43824} par courrier pour vous téléporter à {location:La retraite de l’archimage Vargoth}.\nParlez à l\'{npc:90430} pour obtenir la mascotte.'
 
-L['coinmaster_note'] = nil
+L['coinmaster_note'] = 'Pêchez toutes les pièces se trouvant dans la fontaine de Dalaran.'
