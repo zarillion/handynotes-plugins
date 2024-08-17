@@ -650,9 +650,10 @@ end
 
 function Reputation:IsEnabled()
     if not Reward.IsEnabled(self) then return false end
-    if self.quest then
-        if not ns:GetOpt('show_claimed_rep') then return false end
-    end
+
+    if self.quest and self:GetStatus() == Green(L['claimed']) and
+        not ns:GetOpt('show_claimed_rep') then return false end
+
     return true
 end
 
