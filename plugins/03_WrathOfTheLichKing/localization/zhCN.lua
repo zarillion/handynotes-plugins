@@ -23,4 +23,4 @@ L['higher_learning_7'] = '在楼上的书架上。'
 L['higher_learning_8'] = '在楼下的书架上。'
 L['higher_learning_vargoth'] = '读完所有8本书后，将通过邮件收到 {item:43824}，使用后传送到 {location:大法师瓦格斯的居所}。\n与 {npc:90430} 交谈获得宠物。'
 
-L['coinmaster_note'] = nil
+L['coinmaster_note'] = '从达拉然的喷泉钓起所有硬币。'
