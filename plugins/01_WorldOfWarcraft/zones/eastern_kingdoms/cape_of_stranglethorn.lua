@@ -214,7 +214,6 @@ map.nodes[10001000] = ns.node.Dragonrace({
     }
 }) -- Booty Bay Blast
 
-
 map.nodes[33103780] = ns.node.ScavengerPool(3873)
 map.nodes[33203060] = ns.node.ScavengerPool(3873)
 map.nodes[34804030] = ns.node.ScavengerPool(3873)
