@@ -266,3 +266,23 @@ map.nodes[28106328] = ns.node.Dragonrace({
         Achievement({id = 17720, criteria = 9, oneline = true}) -- reverse gold
     }
 }) -- Desolace Drift
+
+map.nodes[21807080] = ns.node.ScavengerPool(3875)
+map.nodes[25007410] = ns.node.ScavengerPool(3875)
+map.nodes[25208000] = ns.node.ScavengerPool(3875)
+map.nodes[34504170] = ns.node.ScavengerPool(3875)
+map.nodes[36003550] = ns.node.ScavengerPool(3875)
+map.nodes[36202770] = ns.node.ScavengerPool(3875)
+map.nodes[39802170] = ns.node.ScavengerPool(3875)
+map.nodes[42002150] = ns.node.ScavengerPool(3875)
+map.nodes[42605200] = ns.node.ScavengerPool(3875)
+map.nodes[42801650] = ns.node.ScavengerPool(3875)
+map.nodes[43708030] = ns.node.ScavengerPool(3875)
+map.nodes[45205470] = ns.node.ScavengerPool(3875)
+map.nodes[46201450] = ns.node.ScavengerPool(3875)
+map.nodes[62403530] = ns.node.ScavengerPool(3875)
+map.nodes[63904480] = ns.node.ScavengerPool(3875)
+map.nodes[66004010] = ns.node.ScavengerPool(3875)
+map.nodes[70007840] = ns.node.ScavengerPool(3875)
+map.nodes[73107630] = ns.node.ScavengerPool(3875)
+map.nodes[73306890] = ns.node.ScavengerPool(3875)

@@ -229,3 +229,23 @@ map.nodes[49803080] = Safari.StripeTailedScorpid({
         })
     }
 }) -- Stripe-Tailed Scorpid
+
+map.nodes[48408580] = ns.node.ScavengerPool(3876)
+map.nodes[50609140] = ns.node.ScavengerPool(3876)
+map.nodes[53303330] = ns.node.ScavengerPool(3876)
+map.nodes[53603920] = ns.node.ScavengerPool(3876)
+map.nodes[53609550] = ns.node.ScavengerPool(3876)
+map.nodes[54002660] = ns.node.ScavengerPool(3876)
+map.nodes[55304360] = ns.node.ScavengerPool(3876)
+map.nodes[56609200] = ns.node.ScavengerPool(3876)
+map.nodes[58504400] = ns.node.ScavengerPool(3876)
+map.nodes[59408640] = ns.node.ScavengerPool(3876)
+map.nodes[59907980] = ns.node.ScavengerPool(3876)
+map.nodes[62604290] = ns.node.ScavengerPool(3876)
+map.nodes[63606210] = ns.node.ScavengerPool(3876)
+map.nodes[64705920] = ns.node.ScavengerPool(3876)
+map.nodes[67405660] = ns.node.ScavengerPool(3876)
+map.nodes[67704050] = ns.node.ScavengerPool(3876)
+map.nodes[71205330] = ns.node.ScavengerPool(3876)
+map.nodes[72004330] = ns.node.ScavengerPool(3876)
+map.nodes[73004850] = ns.node.ScavengerPool(3876)

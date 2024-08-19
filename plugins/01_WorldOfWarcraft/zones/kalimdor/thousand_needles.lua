@@ -81,3 +81,10 @@ map.nodes[09731735] = ns.node.Dragonrace({
         Achievement({id = 17720, criteria = 12, oneline = true}) -- reverse gold
     }
 }) -- Thousand Needles Thread
+
+map.nodes[76807530] = ns.node.ScavengerPool(3876)
+map.nodes[79207040] = ns.node.ScavengerPool(3876)
+map.nodes[80407330] = ns.node.ScavengerPool(3876)
+map.nodes[89607720] = ns.node.ScavengerPool(3876)
+map.nodes[90007350] = ns.node.ScavengerPool(3876)
+map.nodes[92707120] = ns.node.ScavengerPool(3876)

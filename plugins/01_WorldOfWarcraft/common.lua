@@ -1257,3 +1257,17 @@ hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
 
     GameTooltip:Show()
 end)
+
+-------------------------------------------------------------------------------
+-------------------------- THE SCAVENGER ACHIEVEMENT --------------------------
+-------------------------------------------------------------------------------
+
+local ScavengerPool = ns.Class('scavengerpool', ns.node.Collectible,
+    {icon = 132765})
+
+function ScavengerPool:Initialize(criteria)
+    ns.node.Collectible.Initialize(self)
+    self.rewards = {Achievement({id = 1257, criteria = criteria})}
+end
+
+ns.node.ScavengerPool = ScavengerPool

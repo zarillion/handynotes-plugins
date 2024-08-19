@@ -117,3 +117,19 @@ map.nodes[10001000] = ns.node.Dragonrace({
         Achievement({id = 18574, criteria = 9, oneline = true}) -- reverse gold
     }
 }) -- Blasted Lands Bolt
+
+map.nodes[43209080] = ns.node.ScavengerPool(3876)
+map.nodes[46708850] = ns.node.ScavengerPool(3876)
+map.nodes[52708480] = ns.node.ScavengerPool(3876)
+map.nodes[57508420] = ns.node.ScavengerPool(3876)
+map.nodes[61508480] = ns.node.ScavengerPool(3876)
+map.nodes[68007960] = ns.node.ScavengerPool(3876)
+map.nodes[69303590] = ns.node.ScavengerPool(3876)
+map.nodes[69504030] = ns.node.ScavengerPool(3876)
+map.nodes[69802970] = ns.node.ScavengerPool(3876)
+map.nodes[70902360] = ns.node.ScavengerPool(3876)
+map.nodes[71207550] = ns.node.ScavengerPool(3876)
+map.nodes[72104380] = ns.node.ScavengerPool(3876)
+map.nodes[72106230] = ns.node.ScavengerPool(3876)
+map.nodes[72106950] = ns.node.ScavengerPool(3876)
+map.nodes[73802110] = ns.node.ScavengerPool(3876)

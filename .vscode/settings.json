@@ -20,7 +20,7 @@
     "files.watcherExclude": { "release/**": true },
     "lua.preferLuaCheckErrors": true,
     "lua.targetVersion": "5.1",
-    "vscode-lua-format.binaryPath": ".vscode/lua-format-wrapper",
+    // "vscode-lua-format.binaryPath": ".vscode/lua-format-wrapper",
     "python.analysis.extraPaths": [
         "./scripts"
     ]

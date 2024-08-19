@@ -81,3 +81,17 @@ map.nodes[49606940] = Safari.Toad({
         })
     }
 }) -- Toad
+
+map.nodes[55101490] = ns.node.ScavengerPool(3875)
+map.nodes[56906130] = ns.node.ScavengerPool(3875)
+map.nodes[58601760] = ns.node.ScavengerPool(3875)
+map.nodes[59705680] = ns.node.ScavengerPool(3875)
+map.nodes[59806310] = ns.node.ScavengerPool(3875)
+map.nodes[60604460] = ns.node.ScavengerPool(3875)
+map.nodes[61302710] = ns.node.ScavengerPool(3875)
+map.nodes[62606660] = ns.node.ScavengerPool(3875)
+map.nodes[63405140] = ns.node.ScavengerPool(3875)
+map.nodes[63703630] = ns.node.ScavengerPool(3875)
+map.nodes[67805660] = ns.node.ScavengerPool(3875)
+map.nodes[69304560] = ns.node.ScavengerPool(3875)
+map.nodes[72005350] = ns.node.ScavengerPool(3875)

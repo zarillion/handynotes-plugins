@@ -119,3 +119,16 @@ map.nodes[64125436] = ns.node.Dragonrace({
         Achievement({id = 17720, criteria = 12, oneline = true}) -- reverse gold
     }
 }) -- Feralas Ruins Ramble
+
+map.nodes[24304670] = ns.node.ScavengerPool(3875)
+map.nodes[29105570] = ns.node.ScavengerPool(3875)
+map.nodes[29404110] = ns.node.ScavengerPool(3875)
+map.nodes[33104540] = ns.node.ScavengerPool(3875)
+map.nodes[33805200] = ns.node.ScavengerPool(3875)
+map.nodes[36303570] = ns.node.ScavengerPool(3875)
+map.nodes[40403740] = ns.node.ScavengerPool(3875)
+map.nodes[44104520] = ns.node.ScavengerPool(3875)
+map.nodes[44304030] = ns.node.ScavengerPool(3875)
+map.nodes[44405260] = ns.node.ScavengerPool(3875)
+map.nodes[46505760] = ns.node.ScavengerPool(3875)
+map.nodes[47005260] = ns.node.ScavengerPool(3875)
