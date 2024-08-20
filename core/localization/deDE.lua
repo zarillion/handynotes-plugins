@@ -58,6 +58,8 @@ L['hard'] = 'Schwer'
 
 L['completed'] = 'Abgeschlossen'
 L['incomplete'] = 'Unvollständig'
+L['claimed'] = nil
+L['notclaimed'] = nil
 L['known'] = 'Bekannt'
 L['missing'] = 'Fehlt'
 L['unobtainable'] = 'Nicht erhältlich'
@@ -196,6 +198,8 @@ L['options_recipe_rewards'] = 'Zeige Rezeptbelohnungen'
 L['options_recipe_rewards_desc'] = 'Zeige Rezeptbelohnungen für bekannte Berufe in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_rep_rewards'] = 'Zeige Rufbelohnungen'
 L['options_rep_rewards_desc'] = 'Zeige Rufbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
+L['show_claimed_rep'] = nil
+L['show_claimed_rep_desc'] = nil
 L['options_toy_rewards'] = 'Zeige Spielzeugbelohnungen'
 L['options_toy_rewards_desc'] = 'Zeige Spielzeugbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_transmog_rewards'] = 'Zeige Vorlagenbelohnungen'

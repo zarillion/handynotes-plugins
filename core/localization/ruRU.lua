@@ -58,6 +58,8 @@ L['hard'] = 'Сложный'
 
 L['completed'] = 'Получено'
 L['incomplete'] = 'Незавершенно'
+L['claimed'] = nil
+L['notclaimed'] = nil
 L['known'] = 'Известно'
 L['missing'] = 'Отсутствует'
 L['unobtainable'] = 'Недоступно'
@@ -196,6 +198,8 @@ L['options_recipe_rewards'] = 'Показать награды с рецепта
 L['options_recipe_rewards_desc'] = 'Отображение наград с рецептами во всплывающих подсказках и отслеживание их собранного статуса.'
 L['options_rep_rewards'] = nil
 L['options_rep_rewards_desc'] = nil
+L['show_claimed_rep'] = nil
+L['show_claimed_rep_desc'] = nil
 L['options_toy_rewards'] = 'Показать игрушки'
 L['options_toy_rewards_desc'] = 'Отображать игрушки во всплывающих подсказках и отслеживание их статуса.'
 L['options_transmog_rewards'] = 'Показать трансмогрификацию'

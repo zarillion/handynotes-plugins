@@ -58,6 +58,8 @@ L['hard'] = '困難'
 
 L['completed'] = '已完成'
 L['incomplete'] = '未完成'
+L['claimed'] = nil
+L['notclaimed'] = nil
 L['known'] = '已獲得'
 L['missing'] = '未獲得'
 L['unobtainable'] = '無法獲得'
@@ -196,6 +198,8 @@ L['options_recipe_rewards'] = '顯示配方獎勵'
 L['options_recipe_rewards_desc'] = '在提示顯示配方獎勵並追蹤收集狀態'
 L['options_rep_rewards'] = nil
 L['options_rep_rewards_desc'] = nil
+L['show_claimed_rep'] = nil
+L['show_claimed_rep_desc'] = nil
 L['options_toy_rewards'] = '顯示玩具獎勵'
 L['options_toy_rewards_desc'] = '在提示顯示玩具獎勵並追蹤收集狀態'
 L['options_transmog_rewards'] = '顯示塑形獎勵'

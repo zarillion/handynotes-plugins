@@ -58,6 +58,8 @@ L['hard'] = 'Difícil'
 
 L['completed'] = 'Terminado'
 L['incomplete'] = 'Incompleto'
+L['claimed'] = nil
+L['notclaimed'] = nil
 L['known'] = 'Conocido'
 L['missing'] = 'Desconocido'
 L['unobtainable'] = 'No se puede obtener'
@@ -196,6 +198,8 @@ L['options_recipe_rewards'] = nil
 L['options_recipe_rewards_desc'] = nil
 L['options_rep_rewards'] = nil
 L['options_rep_rewards_desc'] = nil
+L['show_claimed_rep'] = nil
+L['show_claimed_rep_desc'] = nil
 L['options_toy_rewards'] = nil
 L['options_toy_rewards_desc'] = nil
 L['options_transmog_rewards'] = nil
