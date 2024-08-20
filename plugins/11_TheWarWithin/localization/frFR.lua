@@ -149,9 +149,9 @@ L['options_icons_missing_lynx_desc'] = 'Afficher les emplacements des lynx pour 
 
 L['missing_lynx_note'] = 'Caressez le féroce félin de guerre.'
 L['magpie_location'] = 'Au sol, à côté de la bannière.'
-L['nightclaw_location'] = 'Allumez la {object:Flammeclé inférieure} à proximité. Requiert 3x {item:206350}.'
-L['purrlock_location'] = 'Allumez la {object:Flammeclé de la Floraison lumineuse} à proximité. Requiert 20x {item:206350}.'
-L['shadowpouncer_location'] = 'Allumez la {object:Flammeclé de la Floraison lumineuse} à proximité. Requiert 20x {item:206350}.'
+L['nightclaw_location'] = 'Allumez la {object:Flammeclé inférieure} à proximité.'
+L['purrlock_location'] = 'Allumez la {object:Flammeclé de la Floraison lumineuse} à proximité.'
+L['shadowpouncer_location'] = 'Allumez la {object:Flammeclé de la Floraison lumineuse} à proximité.'
 L['miral_murder_mittens_location'] = 'À l\'extérieur.'
 L['fuzzy_location'] = 'Au sol, près d\'une {object:Flammeclé inférieure}.'
 L['furball_location'] = 'À l\'intérieur du bâtiment en ruine.'
