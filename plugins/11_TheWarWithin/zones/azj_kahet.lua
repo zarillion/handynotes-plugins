@@ -611,7 +611,7 @@ map.nodes[71126233] = LoreObject({
 }) -- Weathered Shadecaster
 
 -------------------------------------------------------------------------------
---------------------- ACHIEVEMENT: SMELLING HISTORY ---------------------
+--------------------- ACHIEVEMENT: SMELLING HISTORY ---------------------------
 -------------------------------------------------------------------------------
 
 local SmellingHistory = Class('smelling_history', Collectible, {
@@ -703,7 +703,7 @@ cot.nodes[77984103] = SmellingHistory({
 -- Queen Neferess 36462490
 
 -------------------------------------------------------------------------------
---------------------- ACHIEVEMENT: SMELLING HISTORY ---------------------
+--------------------- ACHIEVEMENT: SKITTERSHAW SPIN ---------------------------
 -------------------------------------------------------------------------------
 
 local SkittershawSpin = Class('skittershaw_spin', Collectible, {
@@ -714,7 +714,6 @@ local SkittershawSpin = Class('skittershaw_spin', Collectible, {
 
 cot.nodes[65255720] = SkittershawSpin({
     id = 224973,
-    parent = map.id,
     rewards = {Achievement({id = 40727, criteria = 0, oneline = true})},
     pois = {
         Path({
@@ -725,6 +724,20 @@ cot.nodes[65255720] = SkittershawSpin({
             points = {65255720, 71384995, 76445491, 75926358, 70996716},
             color = 'Red'
         })
+    },
+    parent = {
+        id = map.id,
+        pois = {
+            Path({
+                54098498, 53698430, 53918379, 55578229, 56238245, 56258245,
+                56978254, 57778316, 58008423, 58468553, 58498658, 57818720,
+                57948832, 56908937, 56098845, 55248761, 55228745, 54358595,
+                54098498
+            }), POI({
+                points = {54098498, 56238245, 57998418, 57818720, 56098845},
+                color = 'Red'
+            })
+        }
     }
 })
 
