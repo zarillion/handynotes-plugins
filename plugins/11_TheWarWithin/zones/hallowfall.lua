@@ -757,41 +757,44 @@ map.nodes[60426022] = MissingLynx({
 }) -- Magpie
 
 map.nodes[42695384] = MissingLynx({
-    location = L['evan_location'],
+    location = L['in_building'],
     rewards = {Achievement({id = 40625, criteria = 68998})}
 }) -- Evan
 
 map.nodes[42735388] = MissingLynx({
-    location = L['emery_location'],
+    location = L['in_building'],
     rewards = {Achievement({id = 40625, criteria = 68999})}
 }) -- Emery
 
 map.nodes[42305381] = MissingLynx({
-    location = L['jinx_location'],
+    location = L['in_building'],
     rewards = {Achievement({id = 40625, criteria = 69000})}
 }) -- Jinx
 
 map.nodes[69274362] = MissingLynx({
-    location = L['moog_location'],
+    location = L['in_building'],
     rewards = {Achievement({id = 40625, criteria = 69001})}
 }) -- Moog
 
 map.nodes[69274372] = MissingLynx({
-    location = L['iggy_location'],
+    location = L['in_building'],
     rewards = {Achievement({id = 40625, criteria = 69002})}
 }) -- Iggy
 
 map.nodes[63182936] = MissingLynx({
+    requires = ns.requirement.Item(206350, 3), -- Radiant Remnant
     location = L['nightclaw_location'],
     rewards = {Achievement({id = 40625, criteria = 69003})}
 }) -- Nightclaw
 
 map.nodes[63792932] = MissingLynx({
+    requires = ns.requirement.Item(206350, 20), -- Radiant Remnant
     location = L['purrlock_location'],
     rewards = {Achievement({id = 40625, criteria = 69004})} -- review (criteria is for Fuzzy but tracks Fuzzy)
 }) -- Purrlock
 
 map.nodes[63262811] = MissingLynx({
+    requires = ns.requirement.Item(206350, 20), -- Radiant Remnant
     location = L['shadowpouncer_location'],
     rewards = {Achievement({id = 40625, criteria = 69005})}
 }) -- Shadowpouncer

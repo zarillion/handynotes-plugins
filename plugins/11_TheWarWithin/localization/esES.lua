@@ -148,11 +148,6 @@ L['options_icons_missing_lynx_desc'] = 'Muestra dónde están los linces del log
 
 L['missing_lynx_note'] = 'Acaricia al gato guerrero feroz.'
 L['magpie_location'] = 'En el suelo junto a la bandera.'
-L['evan_location'] = 'Dentro del edificio.'
-L['emery_location'] = 'Dentro del edificio.'
-L['jinx_location'] = 'Dentro del edificio.'
-L['moog_location'] = 'Dentro del edificio.'
-L['iggy_location'] = 'Dentro del edificio.'
 L['nightclaw_location'] = 'Enciende la {object:Llave Ardiente Inferior} cercana. Requiere 3x {item:206350}.'
 L['purrlock_location'] = 'Enciende la {object:Floración de la Llave Ardiente Inferior} cercana. Requiere 20x {item:206350}.'
 L['shadowpouncer_location'] = 'Enciende la {object:Floración de la Llave Ardiente Inferior} cercana. Requiere 20x {item:206350}.'

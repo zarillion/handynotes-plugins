@@ -141,11 +141,6 @@ L['options_icons_missing_lynx_desc'] = nil
 
 L['missing_lynx_note'] = nil
 L['magpie_location'] = nil
-L['evan_location'] = nil
-L['emery_location'] = nil
-L['jinx_location'] = nil
-L['moog_location'] = nil
-L['iggy_location'] = nil
 L['nightclaw_location'] = nil
 L['purrlock_location'] = nil
 L['shadowpouncer_location'] = nil

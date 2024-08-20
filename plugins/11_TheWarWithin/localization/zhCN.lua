@@ -148,11 +148,6 @@ L['options_icons_missing_lynx_desc'] = '显示 {achievement:40625} 成就中山�
 
 L['missing_lynx_note'] = '抚摸凶猛的作战大猫。'
 L['magpie_location'] = '在牌子旁边的地面上。'
-L['evan_location'] = '在建筑物内。'
-L['emery_location'] = '在建筑物内。'
-L['jinx_location'] = '在建筑物内。'
-L['moog_location'] = '在建筑物内。'
-L['iggy_location'] = '在建筑物内。'
 L['nightclaw_location'] = '点亮附近的 {object:小型钥焰}。需要3个 {item:206350}。'
 L['purrlock_location'] = '点亮附近的 {object:圣光之荣钥焰}。需要20个 {item:206350}。'
 L['shadowpouncer_location'] = '点亮附近的 {object:圣光之荣钥焰}。需要20个 {item:206350}。'

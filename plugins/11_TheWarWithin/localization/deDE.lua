@@ -146,11 +146,6 @@ L['options_icons_missing_lynx_desc'] = 'Zeigt die Positionen der Kriegskatzen f√
 
 L['missing_lynx_note'] = 'Streichle die wilde Kriegskatze.'
 L['magpie_location'] = nil
-L['evan_location'] = nil
-L['emery_location'] = nil
-L['jinx_location'] = nil
-L['moog_location'] = nil
-L['iggy_location'] = nil
 L['nightclaw_location'] = nil
 L['purrlock_location'] = nil
 L['shadowpouncer_location'] = nil
