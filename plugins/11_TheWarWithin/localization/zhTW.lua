@@ -200,7 +200,6 @@ L['skittershaw_spin_note'] = nil
 
 L['memory_cache_note'] = nil
 L['niffen_stash_note'] = '在橋的下面。'
-L['concealed_contraband'] = '隱藏的違禁品'
 L['trapped_trove_note'] = nil
 
 L['tkaktath_note'] = nil

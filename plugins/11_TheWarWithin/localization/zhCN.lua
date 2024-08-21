@@ -212,7 +212,6 @@ L['skittershaw_spin_note'] = '骑乘 {npc:224973} 绕区域一圈。\n\n{npc:224
 
 L['memory_cache_note'] = '从附近的（{dot:Blue}）{object:提取器存储} 获取 {spell:420847}。击杀 {npc:223908} 后获取 {item:223870} 以打开 {object:记忆箱子}。'
 L['niffen_stash_note'] = '在桥下。'
-L['concealed_contraband'] = '隐匿违禁品'
 L['trapped_trove_note'] = '在从天花板垂下的建筑物中。避开地板上的蜘蛛网。'
 
 L['tkaktath_note'] = '开始任务链以获取 {item:224150} 坐骑。'

@@ -212,7 +212,6 @@ L['skittershaw_spin_note'] = 'Conduce el {npc:224973} durante una vuelta complet
 
 L['memory_cache_note'] = 'Consigue {spell:420847} de un ({dot:Blue}) {object:Extractor de Almacenaje} cercano. Después mata la {npc:223908} para conseguir la {item:223870} que abrirá el {object:Alijo de Recuerdos}.'
 L['niffen_stash_note'] = 'Está debajo del puente.'
-L['concealed_contraband'] = 'Contrabando Oculto'
 L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'
 
 L['tkaktath_note'] = 'Comienza una cadena de misiones para conseguir la montura {item:224150}.'

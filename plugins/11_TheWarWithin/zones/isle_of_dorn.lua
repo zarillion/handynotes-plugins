@@ -438,11 +438,11 @@ dor.nodes[58283026] = TurtlesThanks({
 --     rewards = {Achievement({id = 40434, criteria = nil})}
 -- }) -- Earthen Coffer
 
-map.nodes[73693706] = Treasure({ -- 51166732 second spawn
-    lable = L['elemental_geode_label'],
-    quest = nil,
-    note = L['in_small_cave']
-}) -- Elemental Geode
+-- map.nodes[73693706] = Treasure({ -- 51166732 second spawn
+--    lable = L['elemental_geode_label'],
+--    quest = nil,
+--    note = L['in_small_cave']
+-- }) -- Elemental Geode
 
 -- map.nodes[63804310] = Treasure({
 --     quest = nil,

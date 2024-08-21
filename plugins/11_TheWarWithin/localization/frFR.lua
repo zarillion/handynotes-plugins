@@ -213,7 +213,6 @@ L['skittershaw_spin_note'] = 'Chevauchez la {npc:224973} et faites un tour compl
 
 L['memory_cache_note'] = 'Obtenez le buff {spell:420847} à partir d\'une ({dot:Blue}) {object:Remise de l\'extracteur} proche. Tuez le {npc:223908} pour obtenir la {item:223870} permettant d\'ouvrir la {object:Cache de souvenirs}.'
 L['niffen_stash_note'] = 'Situé sous le pont.'
-L['concealed_contraband'] = 'Contrebande dissimulée'
 L['trapped_trove_note'] = 'Dans un bâtiment suspendu au plafond. Évitez les toiles d\'araignées au sol.'
 
 L['tkaktath_note'] = 'Démarre une suite de quêtes pour obtenir la monture {item:224150}.'

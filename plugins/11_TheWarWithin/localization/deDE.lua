@@ -205,7 +205,6 @@ L['skittershaw_spin_note'] = 'Fahre mit dem {npc:224973} eine ganze Runde um den
 
 L['memory_cache_note'] = 'Erhalte {spell:420847} von einem {object:Extractor Storage} ({dot:Blue}) in der Nähe. After kill the {npc:223908} to get the {item:223870} to open the {object:Memory Cache}.' -- review WHAT?
 L['niffen_stash_note'] = 'Befindet sich unter der Brücke.'
-L['concealed_contraband'] = 'Versteckte Schmuggelware'
 L['trapped_trove_note'] = 'In einem Gebäude das von der Decke hängt. Vermeide die Spinnweben am Boden.'
 
 L['tkaktath_note'] = 'Startet eine Questreihe, um das Reittier {item:224150} zu erhalten.'

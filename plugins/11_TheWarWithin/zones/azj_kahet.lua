@@ -259,7 +259,7 @@ cotl.nodes[67525826] = Rare({
 map.nodes[63479504] = Rare({
     id = 216047,
     location = L['in_cave'],
-    quest = 82290, -- review -- need rep quest id if triggered (none triggered on first kill, maybe no rep/bug)
+    quest = 82290, -- 85167
     rewards = {
         Transmog({item = 221247, type = L['crossbow']}) -- Cavernous Critter Shooter
     },
@@ -268,7 +268,7 @@ map.nodes[63479504] = Rare({
 
 map.nodes[62816618] = Rare({
     id = 216046,
-    quest = 82289, -- No rep
+    quest = 82289, -- 85166
     note = L['tkaktath_note'],
     rewards = {ns.reward.Item({item = 225952, quest = 83627})} -- starts the questchain to get the Siesbarg mount.
 }) -- Tka'ktath
@@ -285,13 +285,11 @@ akl.nodes[62728795] = Treasure({
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
-        Achievement({id = 40828, criteria = 1}), -- duplicated criteria id 69615
+        Achievement({id = 40828, criteria = 69615}),
         Pet({item = 225544, id = 4599}) -- Mind Slurp
     },
     pois = {POI({61498384, 62338363, 63478590, 65238877})}
 }) -- Memory Cache
--- I'm not sure if the treasure was called Corrupted Memory or Memory Cache. The Treasure was guarded by a mob called Corrupted memory.
--- No Achievement criteria was triggered, looks like all Azj Kahet treasure Achievements are bugged
 
 map.nodes[67459072] = Treasure({
     quest = 82718,
@@ -302,12 +300,6 @@ map.nodes[38783722] = Treasure({
     quest = 82722,
     rewards = {Achievement({id = 40828, criteria = 69650})}
 }) -- Missing Scout's Pack
-
-map.nodes[12002000] = Treasure({ -- review
-    quest = nil,
-    parent = map.id,
-    rewards = {Achievement({id = 40828, criteria = 2})} -- duplicated criteria id 69615
-}) -- Memory Cache
 
 cot.nodes[31642077] = Treasure({
     quest = 82720,
@@ -370,11 +362,11 @@ map.nodes[78613320] = Treasure({
 -- 72663967 Crimson Thread - 223902
 
 map.nodes[34056102] = Treasure({
-    label = L['concealed_contraband'],
+    quest = 82525,
     -- ReputationGain(50, 2601), -- The Weaver
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier
-    quest = 82525
+    rewards = {Achievement({id = 40828, criteria = 70381})}
 }) -- Concealed Contraband -- Web Cocoon
 
 -------------------------------------------------------------------------------
