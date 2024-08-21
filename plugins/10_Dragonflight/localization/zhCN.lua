@@ -1044,6 +1044,7 @@ L['mbc_vial_k'] = '卡利姆多'
 L['mbc_vial_n'] = '诺森德'
 L['mbc_vial_o'] = '外域'
 
+L['mbc_vial_b_location'] = '萨斯塔拉盆地'
 L['mbc_vial_d_location'] = '星落哨站'
 L['mbc_vial_e_location'] = '黎明森林'
 L['mbc_vial_k_location'] = '怒风兽穴'

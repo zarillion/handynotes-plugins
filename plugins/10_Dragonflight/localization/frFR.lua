@@ -1042,6 +1042,7 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'O'
 
+L['mbc_vial_b_location'] = 'Bassin de Thas’talah'
 L['mbc_vial_d_location'] = 'Avant-poste de Pluie-d’Étoiles'
 L['mbc_vial_e_location'] = 'Bosquet crépusculaire'
 L['mbc_vial_k_location'] = 'Refuge des saisons de Malfurion'

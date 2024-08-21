@@ -1045,6 +1045,7 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'O'
 
+L['mbc_vial_b_location'] = '薩斯塔拉盆地'
 L['mbc_vial_d_location'] = '墜星哨站'
 L['mbc_vial_e_location'] = '暮光森林'
 L['mbc_vial_k_location'] = '怒風獸穴'

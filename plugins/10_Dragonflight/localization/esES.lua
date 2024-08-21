@@ -1043,6 +1043,7 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'R'
 L['mbc_vial_o'] = 'T'
 
+L['mbc_vial_b_location'] = 'Cuenca de Thas\'talah'
 L['mbc_vial_d_location'] = 'Avanzada Estrella Fugaz'
 L['mbc_vial_e_location'] = 'Arboleda del Crepúsculo'
 L['mbc_vial_k_location'] = 'Túmulo de Tempestira'

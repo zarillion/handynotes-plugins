@@ -1045,6 +1045,7 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'O'
 
+L['mbc_vial_b_location'] = 'Низина Тас\'тала'
 L['mbc_vial_d_location'] = 'Застава Падающих Звезд'
 L['mbc_vial_e_location'] = 'Сумеречная роща'
 L['mbc_vial_k_location'] = 'Кельи Малфуриона'

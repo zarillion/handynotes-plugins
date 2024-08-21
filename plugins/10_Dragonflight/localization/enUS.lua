@@ -1044,6 +1044,7 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'O'
 
+L['mbc_vial_b_location'] = 'Thas\'talah Basin'
 L['mbc_vial_d_location'] = 'Starfall Outpost'
 L['mbc_vial_e_location'] = 'Twilight Grove'
 L['mbc_vial_k_location'] = 'Stormrage Barrow Den'

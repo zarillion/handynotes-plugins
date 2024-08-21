@@ -1384,7 +1384,7 @@ map.nodes[54507698] = SlumberingSomnowl({
 -------------------- DRUID GLYPH: MOON-BLESSED DREAMSABER ---------------------
 
 local Dragonblight = ns.maps[115] or Map({id = 115, settings = true})
-local Dreamgrove = ns.maps[747] or Map({id = 747, settings = true})
+local Valsharah = ns.maps[641] or Map({id = 641, settings = true})
 local Duskwood = ns.maps[47] or Map({id = 47, settings = true})
 local Moonglade = ns.maps[80] or Map({id = 80, settings = true})
 local ShadowmoonValley = ns.maps[539] or Map({id = 539, settings = true})
@@ -1442,10 +1442,10 @@ local EMPTY_VIALS = {
         vialFilledID = 210879
     },
     [6] = {
-        coordinates = 35162469,
-        location = C_Map.GetMapInfo(Dreamgrove.id).name,
-        map = Dreamgrove,
-        parent = {619, 641}, -- Broken Isles, Val'Sharah
+        coordinates = 45046828,
+        location = L['mbc_vial_b_location'],
+        map = Valsharah,
+        parent = {619}, -- Broken Isles
         parentMapID = 619,
         rlabel = L['mbc_vial_b'],
         vialEmptyID = 210840,

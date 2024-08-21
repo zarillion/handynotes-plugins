@@ -1045,6 +1045,7 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'O' -- review not yet translated
 
+L['mbc_vial_b_location'] = 'Das Becken von Thas\'talah'
 L['mbc_vial_d_location'] = 'Außenposten Sternenfall'
 L['mbc_vial_e_location'] = 'Zwielichtshain'
 L['mbc_vial_k_location'] = 'Sturmgrimms Grabhügel'
