@@ -38,7 +38,7 @@ In addition to the plugin settings menu found under *Interface > Addons > HandyN
 
 This plugin adds information to the map for the following zones:
 
-* Patch 11.0.0 - The Isle of Dorn, The Ringing Deeps, Hallowfall, Azj-Kahet
+* Patch 11.0 - The Isle of Dorn, The Ringing Deeps, Hallowfall, Azj-Kahet
 
 In addition to rares, treasures and pet battles, this plugin also adds the following expansion or zone-specific items.
 
