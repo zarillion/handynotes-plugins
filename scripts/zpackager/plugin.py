@@ -10,6 +10,7 @@ class Plugin(BaseModel):
     dir: str
     name: str
     curse: int | None
+    wago: str | None
     wowi: int | None
     enabled: bool
 

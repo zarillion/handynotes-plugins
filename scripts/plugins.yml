@@ -45,24 +45,28 @@ plugins:
   - dir: 08_BattleForAzeroth
     name: HandyNotes_BattleForAzeroth
     curse: 413922
+    wago: kGr08g6y
     wowi: 25829
     enabled: true
 
   - dir: 09_Shadowlands
     name: HandyNotes_Shadowlands
     curse: 363739
+    wago: XrNkJBGa
     wowi: 25828
     enabled: true
 
   - dir: 10_Dragonflight
     name: HandyNotes_Dragonflight
     curse: 605372
+    wago: 4N2mYmGL
     wowi: 26409
     enabled: true
 
   - dir: 11_TheWarWithin
     name: HandyNotes_TheWarWithin
     curse: 932955
+    wago: EGPXLeG1
     wowi: 26753
     enabled: true
 
