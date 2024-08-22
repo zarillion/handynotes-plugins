@@ -3,42 +3,49 @@ plugins:
   - dir: 01_WorldOfWarcraft
     name: HandyNotes_WorldOfWarcraft
     curse: 413932
+    wago: null
     wowi: null
     enabled: true
 
   - dir: 02_TheBurningCrusade
     name: HandyNotes_TheBurningCrusade
     curse: 413928
+    wago: null
     wowi: null
     enabled: true
 
   - dir: 03_WrathOfTheLichKing
     name: HandyNotes_WrathOfTheLichKing
     curse: 413927
+    wago: null
     wowi: null
     enabled: true
 
   - dir: 04_Cataclysm
     name: HandyNotes_Cataclysm
     curse: 413926
+    wago: null
     wowi: null
     enabled: true
 
   - dir: 05_MistsOfPandaria
     name: HandyNotes_MistsOfPandaria
     curse: 413925
+    wago: null
     wowi: null
     enabled: true
 
   - dir: 06_WarlordsOfDraenor
     name: HandyNotes_WarlordsOfDraenor
     curse: 413924
+    wago: null
     wowi: null
     enabled: true
 
   - dir: 07_Legion
     name: HandyNotes_Legion
     curse: 413923
+    wago: null
     wowi: null
     enabled: true
 
@@ -73,11 +80,13 @@ plugins:
   - dir: 12_Midnight
     name: HandyNotes_Midnight
     curse: 932956
+    wago: null
     wowi: null
     enabled: false
 
   - dir: 13_TheLastTitan
     name: HandyNotes_TheLastTitan
     curse: 932958
+    wago: null
     wowi: null
     enabled: false
