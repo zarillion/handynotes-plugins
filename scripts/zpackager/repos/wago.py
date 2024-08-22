@@ -1,6 +1,7 @@
 from pathlib import Path
 import json
 
+from requests import HTTPError
 import requests
 
 from ..git import ReleaseTag
@@ -12,7 +13,7 @@ WAGO_API = "https://addons.wago.io/api"
 # https://addons.wago.io/api/data/game (version must be in this list)
 
 
-def upload_to_wago(plugin: Plugin, tag: ReleaseTag, zip: Path, token: str):
+def upload_to_wago(plugin: Plugin, tag: ReleaseTag, zip: Path, token: str) -> bool:
     print("Uploading to Wago.io ... ")
 
     metadata = (
@@ -27,7 +28,7 @@ def upload_to_wago(plugin: Plugin, tag: ReleaseTag, zip: Path, token: str):
         ),
     )
 
-    requests.post(
+    response = requests.post(
         f"{WAGO_API}/projects/{plugin.wago}/version",
         headers={
             "Authorization": f"Bearer {token}",
@@ -37,4 +38,12 @@ def upload_to_wago(plugin: Plugin, tag: ReleaseTag, zip: Path, token: str):
             "metadata": metadata,
             "file": open(zip, "rb"),
         },
-    ).raise_for_status()
+    )
+
+    try:
+        response.raise_for_status()
+    except HTTPError as err:
+        print(f"Failed to upload: {err}")
+        return False
+
+    return True

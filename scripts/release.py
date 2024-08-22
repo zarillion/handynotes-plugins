@@ -66,21 +66,23 @@ def main(
         plugins = [Plugin(**p) for p in yaml.safe_load(f.read())["plugins"]]
 
     released = set()
+    success: list[bool] = []
 
     for plugin in filtered_plugins(plugins, tag):
         zip = create_release_zip(plugin, tag)
 
         if plugin.curse:
-            upload_to_curseforge(plugin, tag, zip, curse_token)
+            success.append(upload_to_curseforge(plugin, tag, zip, curse_token))
         if plugin.wago:
-            upload_to_wago(plugin, tag, zip, wago_token)
+            success.append(upload_to_wago(plugin, tag, zip, wago_token))
         if plugin.wowi:
-            upload_to_wowinterface(plugin, tag, zip, wowi_token)
+            success.append(upload_to_wowinterface(plugin, tag, zip, wowi_token))
 
         print(f"Released: {plugin.name}-{tag}")
         released.add(zip)
 
-    upload_as_github_release(tag, released, github_token)
+    success.append(upload_as_github_release(tag, released, github_token))
+    return 0 if all(success) else 1
 
 
 if __name__ == "__main__":

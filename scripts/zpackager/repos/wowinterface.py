@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from requests import HTTPError
 import requests
 
 from ..git import ReleaseTag
@@ -9,8 +10,11 @@ from ..plugin import Plugin
 WOWI_API = "https://api.wowinterface.com/addons"
 
 
-def upload_to_wowinterface(plugin: Plugin, tag: ReleaseTag, zip: Path, token: str):
+def upload_to_wowinterface(
+    plugin: Plugin, tag: ReleaseTag, zip: Path, token: str
+) -> bool:
     print("Uploading to WoWInterface ...")
+
     response = requests.post(
         f"{WOWI_API}/update",
         headers={"x-api-token": token},
@@ -22,4 +26,11 @@ def upload_to_wowinterface(plugin: Plugin, tag: ReleaseTag, zip: Path, token: st
             "updatefile": open(zip, "rb"),
         },
     )
-    response.raise_for_status()
+
+    try:
+        response.raise_for_status()
+    except HTTPError as err:
+        print(f"Failed to upload: {err}")
+        return False
+
+    return True

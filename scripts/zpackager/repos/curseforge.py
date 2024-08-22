@@ -1,6 +1,7 @@
 from pathlib import Path
 import json
 
+from requests import HTTPError
 import requests
 
 from ..git import ReleaseTag
@@ -20,7 +21,9 @@ def get_cf_version_id(plugin: Plugin, token: str) -> int:
     raise ValueError(f"Unknown interface version: {wow_version}")
 
 
-def upload_to_curseforge(plugin: Plugin, tag: ReleaseTag, zip: Path, token: str):
+def upload_to_curseforge(
+    plugin: Plugin, tag: ReleaseTag, zip: Path, token: str
+) -> bool:
     print("Uploading to CurseForge ... ")
 
     metadata = (
@@ -39,6 +42,7 @@ def upload_to_curseforge(plugin: Plugin, tag: ReleaseTag, zip: Path, token: str)
         ),
     )
 
+    # XXX: Is it possible to automatically upload the README.md file here?
     response = requests.post(
         f"{CURSEFORGE_API}/projects/{plugin.curse}/upload-file",
         headers={"X-Api-Token": token},
@@ -46,7 +50,12 @@ def upload_to_curseforge(plugin: Plugin, tag: ReleaseTag, zip: Path, token: str)
             "metadata": metadata,
             "file": open(zip, "rb"),
         },
-    )  # resp.json() == {'id': \d+}
-    response.raise_for_status()
+    )
 
-    # XXX: Is it possible to automatically upload the README.md file here?
+    try:
+        response.raise_for_status()
+    except HTTPError as err:
+        print(f"Failed to upload: {err}")
+        return False
+
+    return True
