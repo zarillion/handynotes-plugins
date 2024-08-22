@@ -5,7 +5,7 @@
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3
-## SavedVariables: HandyNotes_BurningCrusadeDB
+## SavedVariables: HandyNotes_TheBurningCrusadeDB
 ## IconTexture: 630783
 
 embeds.xml

@@ -6,8 +6,8 @@ plugins:
     wowi: null
     enabled: true
 
-  - dir: 02_BurningCrusade
-    name: HandyNotes_BurningCrusade
+  - dir: 02_TheBurningCrusade
+    name: HandyNotes_TheBurningCrusade
     curse: 413928
     wowi: null
     enabled: true
