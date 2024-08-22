@@ -6,6 +6,14 @@
 
 Rare mobs are listed as skulls on your map. If the skull is blue colored, that means you still need a collectible reward from that rare. If the rare has multiple spawn points, shares a spawn with common mobs or has a path, hovering over the skull will indicate all the points of interest or paths. Left-clicking on the skull will stick the points of interested on the map and minimap as you travel.
 
+### Treasures & Collectibles
+
+Locations and solutions for treasures are displayed on the map, along with the achievement they are associated with and any rewards they contain. Each treasure icon will disappear once it has been looted. The locations of mounts, pets and other collectibles found in the open world are also noted.
+
+### Battle Pets and Trainers
+
+The locations of all pet trainers and creature battles are marked on the map. Any achievements associated with defeating that creature or trainer will appear in the tooltip.
+
 ### Waypoints
 
 Right-clicking a node to bring up its context menu. From this menu you can:
@@ -30,13 +38,17 @@ In addition to the plugin settings menu found under *Interface > Addons > HandyN
 
 This plugin adds information to the map for the following zones:
 
-* Patch 2.0 - Blade's Edge Mountains, Hellfire Peninsula, Nagrand, Netherstorm, Shadowmoon valley, Terokkar Forest, Zangermarsh
+* Patch 2.0 - Blade's Edge Mountains, Hellfire Peninsula, Nagrand, Netherstorm, Shadowmoon valley, Terokkar Forest, Zangarmarsh
 
 In addition to rares, this plugin also adds the following expansion or zone-specific items.
 
 ### Shadowmoon Valley
 
 * Netherwing Egg locations for [On Wings of Nether](https://www.wowhead.com/achievement=898/on-wings-of-nether) achievement.
+
+### Zangarmarsh
+
+* Junk pool locations for the [The Scavenger](https://www.wowhead.com/achievement=1257/the-scavenger) achievement.
 
 ## Localization
 
