@@ -18,6 +18,7 @@ local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -68,7 +69,7 @@ map.nodes[66232975] = Rare({ -- flyes around
     }
 }) -- Candleflyer Captain
 
-map.nodes[41371692] = Rare({ -- review, multiple locations?
+map.nodes[41371692] = Rare({
     id = 220267,
     quest = 81562, -- 84044
     rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
@@ -110,9 +111,9 @@ map.nodes[67045265] = Rare({
     rewards = {Achievement({id = 40837, criteria = 69640})}
 }) -- Disturbed Earthgorger
 
-map.nodes[53000880] = Rare({ -- review
+map.nodes[53000880] = Rare({
     id = 220286,
-    quest = 80536, -- review -- need rep quest id if triggered (no rep was trigged on first kill but quest reset)
+    quest = 80536, -- 85162
     note = L['deepflayer_broodmother_note'],
     pois = {
         Path({
@@ -155,7 +156,10 @@ map.nodes[42773508] = Rare({
 map.nodes[74002000] = Rare({ -- review
     id = 220285,
     quest = 81633, -- review -- need rep quest id if triggered
-    rewards = {Achievement({id = 40837, criteria = 69637})}
+    rewards = {
+        Achievement({id = 40837, criteria = 69637}),
+        Mount({item = 223501, id = 2205}) -- Ol' Mole Rufus
+    }
 }) -- Lurker of the Deeps
 
 map.nodes[57015473] = Rare({

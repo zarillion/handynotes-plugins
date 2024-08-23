@@ -200,7 +200,6 @@ L['skittershaw_spin_note'] = nil
 
 L['memory_cache_note'] = nil
 L['niffen_stash_note'] = nil
-L['concealed_contraband'] = '숨겨진 밀수품'
 L['trapped_trove_note'] = nil
 
 L['tkaktath_note'] = nil

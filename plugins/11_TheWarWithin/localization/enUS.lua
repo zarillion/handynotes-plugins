@@ -212,7 +212,6 @@ L['skittershaw_spin_note'] = 'Ride the {npc:224973} for a full lap around the di
 
 L['memory_cache_note'] = 'Get {spell:420847} from a nearby ({dot:Blue}) {object:Extractor Storage}. After kill the {npc:223908} to get the {item:223870} to open the {object:Memory Cache}.'
 L['niffen_stash_note'] = 'Located under the bridge.'
-L['concealed_contraband'] = 'Concealed Contraband'
 L['trapped_trove_note'] = 'In a building that hangs from the ceiling. Avoid the spiderwebs on the floor.'
 
 L['tkaktath_note'] = 'Starts a quest chain to get the {item:224150} mount.'

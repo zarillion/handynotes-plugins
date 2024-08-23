@@ -39,11 +39,11 @@ local map = Map({id = 2215, settings = true})
 
 map.nodes[15004000] = Rare({
     id = 207802,
+    quest = 81763, -- 85164
     rewards = {
         Mount({item = 223315, id = 2192}),
         Achievement({id = 40851, criteria = 69716})
     },
-    --    quest = 81763, -- triggered this on kill
     pois = {
         POI({
             25825754, 32673962, 37207191, 37744585, 38382474, 42733133,
@@ -68,7 +68,7 @@ map.nodes[65052965] = Rare({
 
 map.nodes[67552316] = Rare({
     id = 214757,
-    quest = 82560, -- review -- need rep quest id if triggered
+    quest = 82560, -- 84054
     note = L['croakit_note'],
     rewards = {Achievement({id = 40851, criteria = 69722})},
     pois = {POI({65802355})}
@@ -83,7 +83,7 @@ map.nodes[63643205] = Rare({
 
 map.nodes[44744241] = Rare({
     id = 221753,
-    quest = 81880, -- No Rep
+    quest = 81880, -- 85165
     note = L['deathtide_note'],
     rewards = {Achievement({id = 40851, criteria = 69717})},
     pois = {
@@ -105,13 +105,13 @@ map.nodes[72116435] = Rare({
 
 map.nodes[63931977] = Rare({
     id = 221179,
-    quest = 82562, -- review -- need rep quest id if triggered
+    quest = 82562, -- 84056
     rewards = {Achievement({id = 40851, criteria = 69724})}
 }) -- Duskshadow
 
 map.nodes[62011683] = Rare({
     id = 207780,
-    quest = 82564, -- review -- need rep quest id if triggered
+    quest = 82564, -- 84059
     rewards = {Achievement({id = 40851, criteria = 69727})}
 }) -- Finclaw Bloodtide
 
@@ -179,7 +179,7 @@ map.nodes[23005922] = Rare({
 
 map.nodes[63402880] = Rare({
     id = 206203,
-    quest = 82557, -- review -- need rep quest id if triggered
+    quest = 82557, -- 84051
     rewards = {Achievement({id = 40851, criteria = 69719})}
 }) -- Moth'ethk
 
@@ -707,19 +707,19 @@ map.nodes[43465171] = Momento({
 
 map.nodes[43204979] = Momento({
     location = L['sturdy_locket_location'],
-    requires = ns.requirement.Quest(82813, 'Time Borrowed'),
+    requires = ns.requirement.Quest(82813),
     rewards = {Achievement({id = 40618, criteria = 68935})}
 }) -- Sturdy Locket
 
 map.nodes[69264384] = Momento({
     location = L['wooden_figure_location'],
-    requires = ns.requirement.Quest(82813, 'Time Borrowed'),
+    requires = ns.requirement.Quest(82813),
     rewards = {Achievement({id = 40618, criteria = 68937})}
 }) -- Wooden Figure
 
 map.nodes[48423888] = Momento({
     location = L['calcified_journal_location'],
-    requires = ns.requirement.Quest(82813, 'Time Borrowed'),
+    requires = ns.requirement.Quest(82813),
     rewards = {Achievement({id = 40618, criteria = 68940})}
 }) -- Calcified Journal
 

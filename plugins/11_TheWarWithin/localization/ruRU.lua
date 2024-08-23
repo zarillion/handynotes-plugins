@@ -201,7 +201,6 @@ L['skittershaw_spin_note'] = nil
 
 L['memory_cache_note'] = nil
 L['niffen_stash_note'] = 'Расположен под мостом.'
-L['concealed_contraband'] = 'Скрытая контрабанда'
 L['trapped_trove_note'] = nil
 
 L['tkaktath_note'] = nil
