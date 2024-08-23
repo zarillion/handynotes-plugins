@@ -87,8 +87,8 @@ L['gnawbles_ruby_vendor_note'] = [[Gather {item:212493} from {object:Disturbed E
 Once you've done 10 contributions or contributed a total of 50x {item:212493} you will receive 1x {item:224642}.
 
 Each item costs 1x {item:224642}.]]
-L['options_icons_disturbed_dirt'] = 'Disturbed Dirt'
-L['options_icons_disturbed_dirt_desc'] = 'Display locations of {object:Disturbed Dirt}.'
+L['options_icons_disturbed_earth'] = 'Disturbed Earth'
+L['options_icons_disturbed_earth_desc'] = 'Display locations of {object:Disturbed Earth}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------

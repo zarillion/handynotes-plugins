@@ -87,8 +87,8 @@ L['gnawbles_ruby_vendor_note'] = [[Recolecta {item:212493} de la {object:Tierra 
 Una vez que hayas hecho 10 contribuciones o hayas contribuido con un total de 50x {item:212493} recibirás 1x {item:224642}.
 
 Cada objeto cuesta 1x {item:224642}.]]
-L['options_icons_disturbed_dirt'] = 'Tierra Revuelta'
-L['options_icons_disturbed_dirt_desc'] = 'Muestra dónde están las {object:Tierra Revuelta}.'
+L['options_icons_disturbed_earth'] = 'Tierra Revuelta'
+L['options_icons_disturbed_earth_desc'] = 'Muestra dónde están las {object:Tierra Revuelta}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------

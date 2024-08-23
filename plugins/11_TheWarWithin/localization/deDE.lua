@@ -83,13 +83,13 @@ L['trungal_note'] = 'Töte die {npc:220615}, die um den Eingang und unten in der
 L['disturbed_earthgorger_note'] = 'Benutze den Extra-Aktionsbutton, um 3 Mal auf den Boden zu {spell:437003}, um den seltenen Gegner erscheinen zu lassen.'
 L['deepflayer_broodmother_note'] = 'Fliegt hoch oben umher.'
 
-L['gnawbles_ruby_vendor_note'] = [[Sammle {item:212493} aus {object:Disturbed Earth} und bringe sie zu {npc:225166}.
+L['gnawbles_ruby_vendor_note'] = [[Sammle {item:212493} aus {object:Aufgewühlte Erde} und bringe sie zu {npc:225166}.
 
 Sobald du 10 Beiträge geleistet hast oder insgesamt 50 {item:212493} beigesteuert hast erhältst du 1x {item:224642}.
 
 Jeder Gegenstand kostet 1 {item:224642}.]] -- review
-L['options_icons_disturbed_dirt'] = 'Disturbed Dirt' -- review
-L['options_icons_disturbed_dirt_desc'] = 'Zeigt die Positionen von {object:Disturbed Dirt}.' -- review
+L['options_icons_disturbed_earth'] = 'Aufgewühlte Erde'
+L['options_icons_disturbed_earth_desc'] = 'Zeigt die Positionen von {object:Aufgewühlte Erde} an.'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------

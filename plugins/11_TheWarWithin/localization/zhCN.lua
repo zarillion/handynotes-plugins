@@ -87,8 +87,8 @@ L['gnawbles_ruby_vendor_note'] = [[从 {object:翻动过的土地} 收集 {item:
 一旦完成了10次贡献或总共贡献了50次 {item:212493}，将收到 {item:224642}。
 
 每件物品花费1个 {item:224642}。]]
-L['options_icons_disturbed_dirt'] = '翻动过的土地'
-L['options_icons_disturbed_dirt_desc'] = '显示 {object:翻动过的土地} 的位置。'
+L['options_icons_disturbed_earth'] = '翻动过的土地'
+L['options_icons_disturbed_earth_desc'] = '显示 {object:翻动过的土地} 的位置。'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------

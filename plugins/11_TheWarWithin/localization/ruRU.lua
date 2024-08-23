@@ -84,8 +84,8 @@ L['disturbed_earthgorger_note'] = nil
 L['deepflayer_broodmother_note'] = nil
 
 L['gnawbles_ruby_vendor_note'] = nil
-L['options_icons_disturbed_dirt'] = nil
-L['options_icons_disturbed_dirt_desc'] = nil
+L['options_icons_disturbed_earth'] = nil
+L['options_icons_disturbed_earth_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------

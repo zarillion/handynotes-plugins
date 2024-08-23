@@ -88,8 +88,8 @@ L['gnawbles_ruby_vendor_note'] = [[Récupérez des {item:212493} à partir des {
 Lorsque vous aurez effectué 10 contributions ou contribué un total de 50x {item:212493}, vous recevrez 1x {item:224642}.
 
 Chaque objet coûte 1x {item:224642}.]]
-L['options_icons_disturbed_dirt'] = 'Terre retournée'
-L['options_icons_disturbed_dirt_desc'] = 'Afficher les emplacements des {object:Terres retournées}.'
+L['options_icons_disturbed_earth'] = 'Terre retournée'
+L['options_icons_disturbed_earth_desc'] = 'Afficher les emplacements des {object:Terres retournées}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------

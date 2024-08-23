@@ -102,7 +102,7 @@ ns.groups.ROCKED_TO_SLEEP = Group('rocked_to_sleep', 5788303, {
 --     achievement = 40194
 -- })
 
-ns.groups.DISTURBED_DIRT = Group('disturbed_dirt', 132386, {
+ns.groups.DISTURBED_EARTH = Group('disturbed_earth', 132386, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -188,17 +188,17 @@ end
 -------------------------------- DISTURBED DIRT -------------------------------
 -------------------------------------------------------------------------------
 
-ns.node.DisturbedDirt = Class('Disturbed_dirt', ns.node.Collectible, {
+ns.node.DisturbedEarth = Class('Disturbed_earth', ns.node.Collectible, {
     icon = 132386,
     scale = 0.7,
-    label = '{npc:206978}', -- review
-    group = ns.groups.DISTURBED_DIRT,
+    label = '{npc:213440}',
+    group = ns.groups.DISTURBED_EARTH,
     requires = {ns.requirement.Reputation(2594, 2, true)}, -- Assembly of the Deeps Renown 2
     rewards = {
         ns.reward.Item({item = 212493}), -- Odd Glob of Wax
         ns.reward.Achievement({id = 40585, criteria = {id = 1, qty = true}}) -- Super Size Snuffling
     }
-}) -- Disturbed Dirt - Not on Minimap but quite visible from some distance
+}) -- Disturbed Earth - Not on Minimap but quite visible from some distance
 -- first loot triggered quest 84543 probably not relevant
 
 -------------------------------------------------------------------------------
