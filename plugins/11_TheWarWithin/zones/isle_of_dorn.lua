@@ -224,6 +224,27 @@ map.nodes[30905239] = Rare({
     id = 219284,
     label = L['violet_hold_prisoner'],
     quest = {82203, 82204, 82205}, -- No Rep () kere gave 150 rep on first kill (85160)
+    questCount = true,
+    rewards = {
+        Achievement({
+            id = 40435,
+            criteria = {
+                {id = 68227, quest = 82204}, -- Kereke
+                {id = 68228, quest = 82205}, -- Rotfist
+                {id = 68226, quest = 82203} -- Zovex
+            }
+        }), --
+        Transmog({item = 226111, type = L['staff']}), -- Arakkoan Ritual Staff
+        Transmog({item = 226112, type = L['1h_sword']}), -- Rotfist Flesh Carver
+        Transmog({item = 226113, type = L['1h_sword']}), -- Kereke's Flourishing Sabre
+        Transmog({item = 226117, type = L['offhand']}), -- Dalaran Guardian's Arcanotool
+        Transmog({item = 226118, type = L['fist']}), -- Arcane Prisoner's Puncher
+        Transmog({item = 226119, type = L['crossbow']}) -- Arcane Sharpshooter's Crossbow
+    }
+}) -- Violet Hold Prisoner (Kereke, Rotfist, Zovex)
+map.nodes[56833477] = Rare({
+    id = 219263,
+    quest = 81894, -- One Time Kill
     rewards = {
         Achievement({id = 40435, criteria = 68213}),
         Transmog({item = 223341, slot = L['cloth']}), -- Warphorn's Resilient Mane
