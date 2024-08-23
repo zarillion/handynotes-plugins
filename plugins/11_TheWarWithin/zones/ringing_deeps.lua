@@ -143,7 +143,7 @@ map.nodes[47064697] = Rare({
 
 map.nodes[42773508] = Rare({
     id = 220275,
-    quest = 80547, -- One Time Kill
+    quest = 80547, -- One Time Kill (gives 150 rep on first kill)
     rewards = {
         Achievement({id = 40837, criteria = 69624}),
         Transmog({item = 223353, slot = L['cloth']}), -- Waterskipper's Trousers
@@ -153,12 +153,19 @@ map.nodes[42773508] = Rare({
     }
 }) -- King Splash
 
-map.nodes[74002000] = Rare({ -- review
+map.nodes[60887668] = Rare({
     id = 220285,
-    quest = 81633, -- review -- need rep quest id if triggered
+    quest = 81633, -- 85163
+    note = L['lurker_note'],
     rewards = {
         Achievement({id = 40837, criteria = 69637}),
         Mount({item = 223501, id = 2205}) -- Ol' Mole Rufus
+    },
+    pois = {
+        POI({
+            points = {49460881, 53902529, 57622357, 62844464, 59059239},
+            color = 'Red'
+        })
     }
 }) -- Lurker of the Deeps
 

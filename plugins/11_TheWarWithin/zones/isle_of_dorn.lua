@@ -47,7 +47,7 @@ map.nodes[23335817] = Rare({
 
 map.nodes[41077616] = Rare({ -- get path
     id = 219264,
-    quest = 81893, -- One Time Kill
+    quest = 81893, -- One Time Kill (gives 150 rep on first kill)
     rewards = {
         Achievement({id = 40435, criteria = 68214}),
         Transmog({item = 223349, slot = L['cloth']}), -- Wolf Packleader's Cowl
@@ -223,7 +223,7 @@ map.nodes[57122241] = Rare({
 map.nodes[30905239] = Rare({
     id = 219284,
     label = L['violet_hold_prisoner'],
-    quest = {82203, 82204, 82205}, -- No Rep
+    quest = {82203, 82204, 82205}, -- No Rep () kere gave 150 rep on first kill (85160)
     questCount = true,
     rewards = {
         Achievement({

@@ -82,6 +82,7 @@ L['sathilga_location'] = 'Sur une corniche près d\'une machine minière Terrest
 L['trungal_note'] = 'Tuez la {npc:220615} qui apparaît autour de l\'entrée et au fond de la grotte pour faire apparaître Trungal.'
 L['disturbed_earthgorger_note'] = 'Utilisez le bouton d\'action supplémentaire pour effectuer un {spell:437003} du sol 3 fois et le faire apparaître.'
 L['deepflayer_broodmother_note'] = 'Vole en hauteur.'
+L['lurker_note'] = nil
 
 L['gnawbles_ruby_vendor_note'] = [[Récupérez des {item:212493} à partir des {object:Terres retournées} et apportez-les à {npc:225166}.
 
