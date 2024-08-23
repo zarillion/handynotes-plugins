@@ -242,6 +242,7 @@ map.nodes[30905239] = Rare({
         Transmog({item = 226119, type = L['crossbow']}) -- Arcane Sharpshooter's Crossbow
     }
 }) -- Violet Hold Prisoner (Kereke, Rotfist, Zovex)
+
 map.nodes[56833477] = Rare({
     id = 219263,
     quest = 81894, -- One Time Kill
