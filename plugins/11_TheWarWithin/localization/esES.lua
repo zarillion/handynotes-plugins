@@ -81,7 +81,7 @@ L['sathilga_location'] = 'En una cornisa cerca de un edificio de máquinas miner
 L['trungal_note'] = 'Mata a {npc:220615} que aparece alrededor de la entrada y aparecerá abajo en la cueva.'
 L['disturbed_earthgorger_note'] = 'Usa el hechizo de acción extra para hacer {spell:437003} en el suelo 3 veces para hacerlo aparecer.'
 L['deepflayer_broodmother_note'] = 'Vuela muy alto.'
-L['lurker_note'] = nil
+L['lurker_note'] = '{note:Requiere 5 jugadores para hacerlo aparecer.}\n\nActiva las 5 {dot:Red}{object:Palanca Inadvertida} en menos de 10 segundos para hacerlo aparecer.\nVerás un mensaje para toda la zona cuando se active correctamente.'
 
 L['gnawbles_ruby_vendor_note'] = [[Recolecta {item:212493} de la {object:Tierra Perturbada} para dárselo a {npc:225166}.
 
