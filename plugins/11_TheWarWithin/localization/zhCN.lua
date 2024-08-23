@@ -46,10 +46,10 @@ L['options_icons_not_so_quick_fix_desc'] = '显示 {achievement:40473} 成就中
 
 L['not_so_quick_fix_note'] = '修复坏掉的土灵控制台。'
 L['water_console_location'] = '在楼梯旁边。'
-L['abyssal_console_location'] = '在壁龛里。'
+L['abyssal_console_location'] = '在小屋里。'
 L['taelloch_console_location'] = '在桶之间的条上。'
 L['obsidian_console_location'] = '占位符'
-L['lost_console_location'] = '在壁龛里。'
+L['lost_console_location'] = '在小屋里。'
 L['earthen_console_location'] = '占位符'
 
 L['options_icons_notable_machines'] = '{achievement:40628}'
