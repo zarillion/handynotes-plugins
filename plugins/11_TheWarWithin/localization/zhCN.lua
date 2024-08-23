@@ -81,6 +81,7 @@ L['sathilga_location'] = '在土灵采矿机械建筑物附近的崖边上。'
 L['trungal_note'] = '击杀在入口周围和洞穴下方出现的 {npc:220615} 后出现。'
 L['disturbed_earthgorger_note'] = '使用额外动作法术 {spell:437003} 对地面使用3次后出现。'
 L['deepflayer_broodmother_note'] = '在高空飞来飞去。'
+L['lurker_note'] = nil
 
 L['gnawbles_ruby_vendor_note'] = [[从 {object:翻动过的土地} 收集 {item:212493} 并将其带给 {npc:225166}。
 

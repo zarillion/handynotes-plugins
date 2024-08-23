@@ -81,6 +81,7 @@ L['sathilga_location'] = 'On a ledge near an Earthen mining machine building.'
 L['trungal_note'] = 'Kill the {npc:220615} that spawn around the entrance and down in the cave to spawn.'
 L['disturbed_earthgorger_note'] = 'Use the extra action spell to {spell:437003} the ground 3 times to spawn.'
 L['deepflayer_broodmother_note'] = 'Flies around high up.'
+L['lurker_note'] = '{note:Requires 5 players to spawn}\n\nActivate the 5 {dot:Red}{object:Inconspicuous Lever} within 10 seconds of each other to spawn.\nYou will see a zone wide message when successfully triggered.'
 
 L['gnawbles_ruby_vendor_note'] = [[Gather {item:212493} from {object:Disturbed Earth} and bring it to {npc:225166}.
 

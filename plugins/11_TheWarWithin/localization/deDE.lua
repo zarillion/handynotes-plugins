@@ -82,6 +82,7 @@ L['sathilga_location'] = 'Auf einem Felsvorsprung in der Nähe eines irdenen Ber
 L['trungal_note'] = 'Töte die {npc:220615}, die um den Eingang und unten in der Höhle erscheinen, um den seltenen Gegner erscheinen zu lassen.'
 L['disturbed_earthgorger_note'] = 'Benutze den Extra-Aktionsbutton, um 3 Mal auf den Boden zu {spell:437003}, um den seltenen Gegner erscheinen zu lassen.'
 L['deepflayer_broodmother_note'] = 'Fliegt hoch oben umher.'
+L['lurker_note'] = nil
 
 L['gnawbles_ruby_vendor_note'] = [[Sammle {item:212493} aus {object:Aufgewühlte Erde} und bringe sie zu {npc:225166}.
 
