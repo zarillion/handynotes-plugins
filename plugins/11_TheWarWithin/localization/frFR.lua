@@ -82,7 +82,7 @@ L['sathilga_location'] = 'Sur une corniche près d\'une machine minière Terrest
 L['trungal_note'] = 'Tuez la {npc:220615} qui apparaît autour de l\'entrée et au fond de la grotte pour faire apparaître Trungal.'
 L['disturbed_earthgorger_note'] = 'Utilisez le bouton d\'action supplémentaire pour effectuer un {spell:437003} du sol 3 fois et le faire apparaître.'
 L['deepflayer_broodmother_note'] = 'Vole en hauteur.'
-L['lurker_note'] = nil
+L['lurker_note'] = '{note:5 joueurs sont nécessaires pour le faire apparaître}\n\nActivez les 5 {dot:Red}{object:Leviers anodins} à moins de 10 secondes l\'un de l\'autre pour le faire apparaître.\nVous verrez un message dans le chat de la zone lorsque l\'activation aura réussie.'
 
 L['gnawbles_ruby_vendor_note'] = [[Récupérez des {item:212493} à partir des {object:Terres retournées} et apportez-les à {npc:225166}.
 
