@@ -59,7 +59,7 @@ L['notable_machines_note'] = '阅读记事。'
 L['fragment_I_location'] = '在地面上。'
 L['fragment_II_location'] = '在崖边上。'
 L['fragment_III_location'] = '在建筑物顶上。'
-L['fragment_IV_location'] = '在高高的木塔上（建议使用稳定飞行来获得它）。'
+L['fragment_IV_location'] = '在高高的木塔上（建议使用稳定飞行来获得）。'
 L['fragment_V_location'] = '在楼梯顶端的拱门上。'
 L['fragment_VI_location'] = '在地面上，路灯旁边。'
 
