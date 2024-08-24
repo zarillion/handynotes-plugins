@@ -1,3 +1,7 @@
+# v69
+
+* If you enjoyed our Shadowlands plugin, grab our [War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within) plugin!
+
 # v58
 
 * Added tooltip rendering enhancements.

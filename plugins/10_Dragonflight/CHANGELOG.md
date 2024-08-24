@@ -1,3 +1,7 @@
+# v69
+
+* If you enjoyed our Dragonflight plugin, grab our [War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within) plugin!
+
 # v46
 
 * Added *many* missing dragon riding appearances and transmogs.
