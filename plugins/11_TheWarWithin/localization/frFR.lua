@@ -177,9 +177,9 @@ L['lamplighter_doorway_location'] = 'Visez la porte du bâtiment à l\'est.'
 L['barracks_doorway_location'] = 'Visez la porte de la tente rouge et or à l\'ouest.'
 
 L['options_icons_beacon_of_hope'] = '{achievement:40308}'
-L['options_icons_beacon_of_hope_desc'] = nil
+L['options_icons_beacon_of_hope_desc'] = 'Afficher les emplacements des flammeclés inférieures pour le haut fait {achievement:40308}.'
 
-L['beacon_of_hope_note'] = nil
+L['beacon_of_hope_note'] = 'Donnez des {item:206350} pour allumer les flammeclés inférieures et achever les quêtes suivantes.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
