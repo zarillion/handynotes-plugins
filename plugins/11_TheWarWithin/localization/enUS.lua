@@ -91,6 +91,9 @@ Each item costs 1x {item:224642}.]]
 L['options_icons_disturbed_earth'] = 'Disturbed Earth'
 L['options_icons_disturbed_earth_desc'] = 'Display locations of {object:Disturbed Earth}.'
 
+L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
+L['options_icons_gobblin_with_glublurp_desc'] = 'Display locations for {achievement:40614} achievement.'
+L['gobblin_with_glublurp_note'] = 'Click on a {dot:Blue}{object:Glimmering Crystal} to gain {spell:456739}, then catch a {npc:227138} flying in the ' .. ns.color.Orange('Orange Circle') .. ' and bring it back to {npc:227132}.\n\n(Steady Flying is recommended to get this).'
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

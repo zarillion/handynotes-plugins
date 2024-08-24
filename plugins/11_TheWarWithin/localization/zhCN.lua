@@ -91,6 +91,10 @@ L['gnawbles_ruby_vendor_note'] = [[从 {object:翻动过的土地} 收集 {item:
 L['options_icons_disturbed_earth'] = '翻动过的土地'
 L['options_icons_disturbed_earth_desc'] = '显示 {object:翻动过的土地} 的位置。'
 
+L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
+L['options_icons_gobblin_with_glublurp_desc'] = nil
+L['gobblin_with_glublurp_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

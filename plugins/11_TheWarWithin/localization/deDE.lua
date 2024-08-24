@@ -92,6 +92,10 @@ Jeder Gegenstand kostet 1 {item:224642}.]]
 L['options_icons_disturbed_earth'] = 'Aufgewühlte Erde'
 L['options_icons_disturbed_earth_desc'] = 'Zeigt die Positionen von {object:Aufgewühlte Erde} an.'
 
+L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
+L['options_icons_gobblin_with_glublurp_desc'] = nil
+L['gobblin_with_glublurp_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

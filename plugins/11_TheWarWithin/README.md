@@ -71,6 +71,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Earthen consoles for the [Not So Quick Fix](https://www.wowhead.com/achievement=40473) achievement.
 * Note fragments for the [Notable Machines](https://www.wowhead.com/achievement=40628) achievement.
 * Plaques for the [Rocked to Sleep](https://www.wowhead.com/achievement=40504) achievement.
+* Glulgurp and Ethereal Glimmerling locations for [Gobblin' with Glublurp](https://www.wowhead.com/achievement=40614) achievement.
 
 ### Hallowfall
 

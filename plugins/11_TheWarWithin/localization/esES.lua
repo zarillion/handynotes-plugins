@@ -91,6 +91,10 @@ Cada objeto cuesta 1x {item:224642}.]]
 L['options_icons_disturbed_earth'] = 'Tierra Revuelta'
 L['options_icons_disturbed_earth_desc'] = 'Muestra dónde están las {object:Tierra Revuelta}.'
 
+L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
+L['options_icons_gobblin_with_glublurp_desc'] = nil
+L['gobblin_with_glublurp_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
