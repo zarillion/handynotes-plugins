@@ -568,7 +568,7 @@ map.nodes[48583175] = InertEarthen({
 }) -- Venedaz
 
 -------------------------------------------------------------------------------
------------------------- ACHIEVEMENT: ROCKED TO SLEEP -------------------------
+--------------------- ACHIEVEMENT: GOBBLIN' WITH GLUBLURP ---------------------
 -------------------------------------------------------------------------------
 
 local GobblinWithGlublurp = Class('gobblin_with_glublurp', Collectible, {
@@ -577,12 +577,12 @@ local GobblinWithGlublurp = Class('gobblin_with_glublurp', Collectible, {
 
 })
 
-map.nodes[44035002] = GobblinWithGlublurp({
+map.nodes[44315026] = GobblinWithGlublurp({
     id = 227132,
     rewards = {Achievement({id = 40614, criteria = 68929})},
     note = L['gobblin_with_glublurp_note'],
     pois = {
-        POI({60004141, 62004207}),
+        POI({59964103, 61924254, color = 'Red'}),
         Path({color = 'Orange', Circle({origin = 57903351, radius = 1.25})})
     }
 }) -- Glublurp
