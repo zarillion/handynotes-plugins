@@ -102,7 +102,7 @@ L['illuminated_footlocker_note'] = 'Consigue 5x {spell:442389} que caen de {npc:
 L['illusive_kobyss_lure_note'] = 'Combina los 4 objetos para crear {item:225641}:'
 L['sunless_lure_location'] = 'Se despoja de {npc:215653} en la {location:Playa del Sol Ausente}.'
 L['murkfin_lure_location'] = 'Se despoja de {npc:213622} en {location:Reclamación de Velhan}. Están camuflados y has de usar {npc:215623} como cebo.'
-L['hungering_shimmerfin_location'] = 'Se despoja de {npc:215243} en el {location:Charco Hambriento}. Están camuflados y has de usar {npc:215623} como cebo.'
+L['hungering_shimmerfin_location'] = 'Se despoja de {npc:215243} en el {location:Charco Hambriento}. Están camuflados y has de usar {npc:219210} como cebo.'
 L['ragefin_necrostaff_location'] = 'Se despoja de {npc:213406} en las {location:Tierras de Veneración}.'
 L['jewel_of_the_cliffs_location'] = 'Extremadamente alto en el muro de piedra.'
 L['lost_necklace_note'] = 'Despoja el {object:Recuerdo Perdido} en el borde del santuario.'
@@ -165,6 +165,7 @@ L['deathtide_note'] = [[Para invocarlo tienes que usar una {item:220123} en el {
 Necesitarás combinar {item:220122} {dot:Blue} y {item:220124} {dot:Green} para conseguir la {item:220123}.
 
 {note:Requiere ser nivel 80 para cogerla.} ]]
+L['murkshade_note'] = nil
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = 'Muestra dónde están los objtivos del logro {achievement:40151}.'

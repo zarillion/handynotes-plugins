@@ -124,7 +124,14 @@ map.nodes[36807187] = Rare({
 map.nodes[36905469] = Rare({
     id = 221551,
     quest = 81761, -- One Time Kill
-    rewards = {Achievement({id = 40851, criteria = 69706})},
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
+    rewards = {
+        Achievement({id = 40851, criteria = 69706}),
+        Transmog({item = 223397, slot = L['plate']}), -- Abyssal Hunter's Girdle
+        Transmog({item = 223399, slot = L['mail']}), -- Abyssal Hunter's Chain
+        Transmog({item = 223400, slot = L['leather']}), -- Abyssal Hunter's Cinch
+        Transmog({item = 223398, slot = L['cloth']}) -- Abyssal Hunter's Sash
+    },
     pois = {
         Path({
             36905469, 36905429, 36855379, 36735331, 36555288, 36345249,
@@ -163,7 +170,10 @@ map.nodes[57046433] = Rare({
     quest = 80006, -- One Time Kill
     rewards = {
         Achievement({id = 40851, criteria = 69704}),
-        Transmog({item = 223379, type = L['plate']}) -- Nerubian Weaver's Chestplate
+        Transmog({item = 223379, type = L['plate']}), -- Nerubian Weaver's Chestplate
+        Transmog({item = 223380, type = L['mail']}), -- Nerubian Weaver's Chainmail
+        Transmog({item = 223381, type = L['leather']}), -- Nerubian Weaver's Vest
+        Transmog({item = 223374, type = L['cloth']}) -- Nerubian Weaver's Gown
     }
 }) -- Ixlorb the Spinner
 
@@ -177,15 +187,17 @@ map.nodes[23005922] = Rare({
     }
 }) -- Lytfang the Lost
 
-map.nodes[63402880] = Rare({
+map.nodes[63452854] = Rare({
     id = 206203,
     quest = 82557, -- 84051
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40851, criteria = 69719})}
 }) -- Moth'ethk
 
 map.nodes[52132681] = Rare({
     id = 218452, -- 218455 Lost Cache
     quest = 80010, -- One Time Kill
+    note = L['murkshade_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69705}),
         Transmog({item = 223384, type = L['cloth']}), -- Murkshade Gloves
@@ -327,7 +339,7 @@ map.nodes[41795827] = Treasure({
         Recipe({item = 225639, profession = 185}) -- Recipe: Exquisitely Eviscerated Muscle
     },
     pois = {
-        POI({69254397}), -- Torran Dellain
+        POI({69254397, color = 'Blue'}), -- Torran Dellain
         Path({Circle({origin = 69254397, radius = 2})})
     }
 }) -- Caesper
@@ -410,6 +422,7 @@ map.nodes[34965465] = IllusiveKobyssLure({
 map.nodes[55726960] = Treasure({
     quest = 81971,
     location = L['jewel_of_the_cliffs_location'],
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69697}), --
         Item({item = 224580}) -- Massive Sapphire Chunk
@@ -507,7 +520,7 @@ map.nodes[45944513] = Treasure({
     -- hidden quests after talking to the captains: 82012, 82024, 82025, 82026
 }) -- Sky-Captains' Sunken Cache
 
-map.nodes[55145185] = Treasure({
+map.nodes[55135193] = Treasure({
     quest = 83273,
     requires = ns.requirement.Item(225335), -- Smuggler's Key
     location = L['smugglers_treasure_location'],
@@ -517,7 +530,7 @@ map.nodes[55145185] = Treasure({
         Achievement({id = 40848, criteria = 69693}), --
         Item({item = 226021}) -- Jar of Pickels
     },
-    pois = {POI({55425164})} -- Dead Arathi
+    pois = {POI({55425164, color = 'Blue'})} -- Dead Arathi
 }) -- Smuggler's Treasure
 
 map.nodes[76765382] = Treasure({ -- review, was not there when i looked
@@ -552,7 +565,7 @@ map.nodes[41665584] = PT.Alchemy({quest = 83845, id = 226270}) -- Sanctified Mor
 map.nodes[47586106] = PT.Blacksmithing({quest = 83852, id = 226280}) -- Holy Flame Forge
 map.nodes[44065559] = PT.Blacksmithing({quest = 83853, id = 226281}) -- Radiant Tongs
 map.nodes[40067055] = PT.Enchanting({quest = 83862, id = 226288}) -- Essence of Holy Fire
-map.nodes[42632725] = PT.Enchanting({quest = 83868, id = 226289}) -- Enchanted Arathi Scroll
+map.nodes[48586450] = PT.Enchanting({quest = 83863, id = 226289}) -- Enchanted Arathi Scroll
 map.nodes[46316135] = PT.Engineering({quest = 83870, id = 226296}) -- Holy Firework Dud
 map.nodes[41634893] = PT.Engineering({quest = 83871, id = 226297}) -- Arathi Safety Gloves
 map.nodes[47786330] = PT.Herbalism({quest = 83878, id = 226304}) -- Arathi Garden Trowel
@@ -782,19 +795,17 @@ map.nodes[69274372] = MissingLynx({
 }) -- Iggy
 
 map.nodes[63182936] = MissingLynx({
-    requires = ns.requirement.Item(206350, 3), -- Radiant Remnant
     location = L['nightclaw_location'],
     rewards = {Achievement({id = 40625, criteria = 69003})}
 }) -- Nightclaw
 
-map.nodes[63792932] = MissingLynx({
-    requires = ns.requirement.Item(206350, 20), -- Radiant Remnant
+map.nodes[63792962] = MissingLynx({
+    label = '{npc:215606}',
     location = L['purrlock_location'],
-    rewards = {Achievement({id = 40625, criteria = 69004})} -- review (criteria is for Fuzzy but tracks Fuzzy)
+    rewards = {Achievement({id = 40625, criteria = 9})} -- review (criteria id is bugged)
 }) -- Purrlock
 
 map.nodes[63262811] = MissingLynx({
-    requires = ns.requirement.Item(206350, 20), -- Radiant Remnant
     location = L['shadowpouncer_location'],
     rewards = {Achievement({id = 40625, criteria = 69005})}
 }) -- Shadowpouncer
@@ -804,9 +815,9 @@ map.nodes[61193054] = MissingLynx({
     rewards = {Achievement({id = 40625, criteria = 69006})}
 }) -- Miral Murder-Mittens
 
-map.nodes[64441857] = MissingLynx({
+map.nodes[64271887] = MissingLynx({
     location = L['fuzzy_location'],
-    rewards = {Achievement({id = 40625, criteria = 69007})} -- review (criteria is for Fuzzy but tracks Purrlock)
+    rewards = {Achievement({id = 40625, criteria = 69007})} -- review (criteria id is bugged)
 }) -- Fuzzy
 
 map.nodes[64441857] = MissingLynx({
@@ -829,12 +840,12 @@ map.nodes[42145371] = MissingLynx({
 -------------------------------------------------------------------------------
 
 map.nodes[62214557] = LoreObject({
-    -- rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
+    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40762, criteria = 69383})}
 }) -- A Scout's Journal
 
 map.nodes[71433667] = LoreObject({
-    -- rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
+    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40762, criteria = 69382})}
 }) -- A Tattered Note
 
@@ -844,12 +855,12 @@ map.nodes[78244041] = LoreObject({
 }) -- A Weathered Tome
 
 map.nodes[25085371] = LoreObject({
-    -- rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
+    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40762, criteria = 69380})}
 }) -- A Worn Down Book
 
 map.nodes[25723845] = LoreObject({
-    -- rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
+    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40762, criteria = 69379})}
 }) -- Captain's Chest
 

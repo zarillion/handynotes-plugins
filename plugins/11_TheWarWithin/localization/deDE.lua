@@ -19,7 +19,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Zeigt die Positionen der Gesch
 -------------------------------------------------------------------------------
 
 L['alunira_note'] = 'Sammle 10x {item:224025} und kombiniere diese zu einem {item:224026}, um den Schwächungszauber {spell:451570} zu entfernen.'
-L['violet_hold_prisoner'] = nil
+L['violet_hold_prisoner'] = 'Gefangener der Violetten Festung'
 
 L['elemental_geode_label'] = nil
 L['magical_treasure_chest_note'] = 'Schubse {npc:223104} zurück ins Wasser und sammle dann 5x {npc:223159s} in der Nähe.'
@@ -28,9 +28,9 @@ L['mushroom_cap_note'] = 'Sammle eine {object:Holzwurzelkappe} in dem nahegelege
 L['mysterious_orb_note'] = 'Bringe die {object:Elementarperle} zurück zu {npc:222847}.'
 L['thaks_treasure_note'] = 'Sprich mit {npc:223227} und folge ihm.'
 L['trees_treasure_note'] = 'Sprich mit {npc:222940}, um den {item:224185} zu erhalten. Führe 6x {npc:224548} ({dot:Green}), die sich überall auf der {location:Insel von Dorn} befinden, zurück zu {npc:222940}. Wenn du alle Krabben zurückgeführt hast, gehe in die Höhle zu {npc:222940} zurück und sprich mit ihr.'
-L['turtles_thanks_1_note'] = nil
-L['turtles_thanks_2_note'] = nil
-L['turtles_thanks_3_note'] = nil
+L['turtles_thanks_1_note'] = 'Biete 5x {item:220143} an (kann in dem Schwarm {object:Ruhige Oberflächenwellen} geangelt oder im Auktionshaus gekauft werden). {note:Verlasse das Gebiet und kehre sofort zurück, um den nächsten Fisch anzubieten.}'
+L['turtles_thanks_2_note'] = 'Biete 1x {item:222533} an (kann in den Schwärmen {object:Glimmerbecken}, {object:Schwärender Fäulnisteich}, {object:Energieerfüllter Sekretfleck} geangelt oder im Auktionshaus gekauft werden).'
+L['turtles_thanks_3_note'] = 'Treffe dich mit der {npc:223338} in {location:Dornogal} und spreche mit ihr, um den Schatz zu enthüllen.'
 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Zeigt die Position für den Erfolg {achievement:40606} an.'
@@ -40,28 +40,28 @@ L['options_icons_flat_earthen_desc'] = 'Zeigt die Position für den Erfolg {achi
 -------------------------------------------------------------------------------
 
 L['forgotten_treasure_note'] = 'Öffne die {object:Vergrabener Schatz} Truhen in der Nähe, um {item:217960} zu erhalten.'
-L['kaja_cola_machine_note'] = 'Kaufe die Getränke in der folgenden Reihenfolge: Bluesberry Blast > Orange O-pocalypse > Austernausbruch > Mangorowahnsinn.' -- review
+L['kaja_cola_machine_note'] = 'Kaufe die Getränke in der folgenden Reihenfolge: Bluesberry Blast > Orange O-pocalypse > Austernausbruch > Mangorowahnsinn.'
 
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Zeigt die Positionen der Konsolen für den Erfolg {achievement:40473} an.'
 
 L['not_so_quick_fix_note'] = 'Repariere die defekte Konsole der Irdenen.'
-L['water_console_location'] = 'Neben den Treppen.'
+L['water_console_location'] = 'Neben der Treppe.'
 L['abyssal_console_location'] = nil
-L['taelloch_console_location'] = 'Auf einer Brücke zwischen den Fässern.'
+L['taelloch_console_location'] = 'Auf der Brücke zwischen den Fässern.'
 L['obsidian_console_location'] = nil
-L['lost_console_location'] = nil
+L['lost_console_location'] = 'Im Eingang der eingestürzten Mine.'
 L['earthen_console_location'] = nil
 
 L['options_icons_notable_machines'] = '{achievement:40628}'
 L['options_icons_notable_machines_desc'] = 'Zeigt die Positionen der Notizen für den Erfolg {achievement:40628} an.'
 
 L['notable_machines_note'] = 'Lese die Notiz.'
-L['fragment_I_location'] = 'Auf dem Boden.'
+L['fragment_I_location'] = 'An der Kante des Stützpfeilers.'
 L['fragment_II_location'] = 'Auf einem Felsvorsprung.'
-L['fragment_III_location'] = 'Oben auf dem Gebäude.'
-L['fragment_IV_location'] = 'Hoch oben auf dem Holzturnm (stetiges Fliegen wird empfohlen, um dies zu erreichen).' -- review
-L['fragment_V_location'] = 'Auf dem Torbogen am oberen Ende der Treppe.' -- review
+L['fragment_III_location'] = 'Auf dem Dach des Gebäudes.'
+L['fragment_IV_location'] = 'Hoch oben auf einem Balken des Holzgerüsts (statisches Fliegen wird empfohlen, um dies zu erreichen).'
+L['fragment_V_location'] = 'Auf dem Torbogen.'
 L['fragment_VI_location'] = 'Auf dem Boden, neben der Straßenlaterne.'
 
 L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
@@ -77,18 +77,18 @@ L['merunth_location'] = 'Auf dem Rohr über der Treppe.'
 L['varerko_location'] = 'Auf einem Felsvorsprung.'
 L['alfritha_location'] = 'Am Rande der Klippe sitzend.'
 L['gundrig_location'] = 'Auf einem Felsvorsprung sitzend.'
-L['sathilga_location'] = 'Auf einem Felsvorsprung in der Nähe eines irdenen Bergbaumaschinengebäudes.' -- review
+L['sathilga_location'] = 'Auf einem Felsvorsprung in der Nähe einer irdenen Bergbaumaschine.'
 
-L['trungal_note'] = 'Töte die {npc:220615}, die um den Eingang und unten in der Höhle erscheinen, um den seltenen Gegner erscheinen zu lassen.'
+L['trungal_note'] = 'Töte die {npc:220615} am Eingang und unten in der Höhle, um den seltenen Gegner erscheinen zu lassen.'
 L['disturbed_earthgorger_note'] = 'Benutze den Extra-Aktionsbutton, um 3 Mal auf den Boden zu {spell:437003}, um den seltenen Gegner erscheinen zu lassen.'
 L['deepflayer_broodmother_note'] = 'Fliegt hoch oben umher.'
-L['lurker_note'] = nil
+L['lurker_note'] = '{note:Benötigt min. 5 Spieler.}\n\nAktiviere fünf {object:Unverdächtiger Hebel} ({dot:Red}) innerhalb von 10 Sekunden, um den seltenen Gegner erscheinen zu lassen. Bei erfolgreicher Beschwörung wird eine zonenweite Meldung ausgegeben.'
 
-L['gnawbles_ruby_vendor_note'] = [[Sammle {item:212493} aus {object:Aufgewühlte Erde} und bringe sie zu {npc:225166}.
+L['gnawbles_ruby_vendor_note'] = [[Sammle {item:212493} aus {object:Aufgewühlte Erde} und bringe diese zu {npc:225166}.
 
-Sobald du 10 Beiträge geleistet hast oder insgesamt 50 {item:212493} beigesteuert hast erhältst du 1x {item:224642}.
+Sobald du 50 {item:212493} (10 Beiträge) beigesteuert hast erhältst du 1x {item:224642}.
 
-Jeder Gegenstand kostet 1 {item:224642}.]] -- review
+Jeder Gegenstand kostet 1 {item:224642}.]]
 L['options_icons_disturbed_earth'] = 'Aufgewühlte Erde'
 L['options_icons_disturbed_earth_desc'] = 'Zeigt die Positionen von {object:Aufgewühlte Erde} an.'
 
@@ -96,36 +96,36 @@ L['options_icons_disturbed_earth_desc'] = 'Zeigt die Positionen von {object:Aufg
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
-L['arathi_loremaster_note'] = 'Sprich mit {npc:221630} in {location:Mereldar} und beantworte mehrere Fragen richtig, um {item:225659} zu erhalten.\n\nDie Antworten findest du in den Büchern, die sich in der Nähe von {location:Hallowfall} befinden.'
-L['caesper_note'] = 'Kaufe {item:225238} von ({dot:Blue}) {npc:217645} in {location:Dunelle\'s Kindness}, {location:Hallowfall}.\n\nFüttere {npc:225948} damit und folge ihm zum Schatz.' -- review
-L['dark_ritual_note'] = 'Interagiere mit {object:Dark Ritual} und besiege alle {npc:226059}, {npc:226052} und {npc:226062}, um eine {object:Shadowed Essence} zu erhalten.' -- review
+L['arathi_loremaster_note'] = 'Sprich mit {npc:221630} in {location:Mereldar} und beantworte mehrere Fragen richtig, um die {item:225659} zu erhalten.\n\nDie Antworten findest du in den Büchern, die in ganz {location:Heilsturz} verteilt sind.'
+L['caesper_note'] = 'Kaufe 1x {item:225238} von ({dot:Blue}) {npc:217645} in {location:Dunelles Güte}, {location:Hallowfall}.\n\nFüttere {npc:225948} damit und folge ihm zum Schatz.'
+L['dark_ritual_note'] = 'Interagiere mit dem Buch {object:Dunkles Ritual} und besiege alle erscheinenden Gegner, um eine {object:Schattige Essenz} zu erhalten.'
 L['illuminated_footlocker_note'] = 'Fange 5x fallende {spell:442389} von einer {npc:220703}, um {spell:442529} zu erhalten und den Schatz zu enthüllen.'
 L['illusive_kobyss_lure_note'] = 'Kombiniere alle vier Gegenstände, um {item:225641} herzustellen:'
-L['sunless_lure_location'] = 'Kann von {npc:215653} in {location:Sunless Strand} geplündert werden.'
-L['murkfin_lure_location'] = 'Kann von {npc:213622} in {location:Velhan\'s Claim} geplündert werden. They are camouflaged and use an {npc:215623} as bait.'
-L['hungering_shimmerfin_location'] = 'Kann von {npc:215243} in {location:The Hungering Pool} geplündert werden. They are camouflaged and use an {npc:215623} as bait.'
-L['ragefin_necrostaff_location'] = 'Kann von {npc:213406} in {location:Veneration Grounds} geplündert werden.'
-L['jewel_of_the_cliffs_location'] = 'Extremely high up in the stone wall.'
-L['lost_necklace_note'] = 'Loot the {object:Lost Momento} on the edge of the shrine.'
-L['priory_satchel_location'] = 'Loot the {object:Windswept Satchel} hanging from the corner of the {location:Priory of the Sacred Flame} cathedral.'
-L['smugglers_treasure_note'] = 'Loot the required {item:225335} from the ({dot:Blue}) {npc:226025} below the cliff.'
-L['smugglers_treasure_location'] = 'High on the cliff between several rocks.'
+L['sunless_lure_location'] = 'Kann von {npc:215653} am {location:Sonnenloser Strand} geplündert werden.'
+L['murkfin_lure_location'] = 'Kann von {npc:213622} in {location:Velhans Geltung} geplündert werden. Diese benutzen einen {npc:215623} als Köder.'
+L['hungering_shimmerfin_location'] = 'Kann von {npc:215243} in {location:Der Lauernde Strudel} geplündert werden. Diese benutzen einen {npc:219210} als Köder.'
+L['ragefin_necrostaff_location'] = 'Kann von {npc:213406} in {location:Ehrengründe} geplündert werden.'
+L['jewel_of_the_cliffs_location'] = 'Weit oben in einem kleinen Loch des Felsens.'
+L['lost_necklace_note'] = 'Plündere ein {object:Verlorenes Andenken} von der Kante des Schreins.'
+L['priory_satchel_location'] = 'Hängt an der Kante der Kathedrale.'
+L['smugglers_treasure_note'] = 'Plündere den {item:225335} von der Leiche des {npc:226025} ({dot:Blue}) unterhalb der Klippe.'
+L['smugglers_treasure_location'] = 'Oben auf der Klippe zwischen mehreren Felsen.'
 L['coral_fused_clam'] = nil
 L['coral_fused_clam_note'] = nil
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
 L['options_icons_biblo_archivist_desc'] = 'Zeigt die Positionen der Bücher für den Erfolg {achievement:40622} an.'
 
-L['biblo_book_01_location'] = 'Im Gebäude auf dem Tisch hinter {npc:222811}.' -- review
+L['biblo_book_01_location'] = 'Im Gebäude auf dem Tisch.'
 L['biblo_book_02_location'] = 'Im Gebäude auf dem Tisch an der Tür.'
-L['biblo_book_03_location'] = 'In dem Stall mit all den {npc:217606}.' -- review
+L['biblo_book_03_location'] = 'Im Gebäude.'
 L['biblo_book_04_location'] = 'In der Mitte der Brücke.'
 L['biblo_book_05_location'] = 'Am Strand unterhalb des Luftschiffs.'
 L['biblo_book_06_location'] = 'Im Gebäude in einem Bücherregal an der hinteren Wand.'
-L['biblo_book_07_location'] = 'Im Gebäude auf dem Tisch hinter {npc:206096}.' -- review
-L['biblo_book_08_location'] = 'Innerhalb der Ruinen.'
-L['biblo_book_09_location'] = 'In dem großen Zelt hinter dem Kriegstisch.' -- review
-L['biblo_book_10_location'] = 'Im Quartier des Kapitäns an Bord {location:The Dawnbreaker}.' -- review
+L['biblo_book_07_location'] = 'Im Gebäude auf dem Tisch.'
+L['biblo_book_08_location'] = 'Im zerstörten Gebäude.'
+L['biblo_book_09_location'] = 'Im Zelt auf dem Tisch.'
+L['biblo_book_10_location'] = 'Im Quartier des Kapitäns an Bord des Schiffs.'
 L['biblo_book_11_location'] = 'Im Gebäude auf dem Tisch.'
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
@@ -147,25 +147,26 @@ L['options_icons_missing_lynx_desc'] = 'Zeigt die Positionen der Kriegskatzen f�
 
 L['missing_lynx_note'] = 'Streichle die wilde Kriegskatze.'
 L['magpie_location'] = 'Auf dem Boden neben der Fahne.'
-L['nightclaw_location'] = 'Entfache die {object:Lesser Keyflame} in der Nähe.' -- review
-L['purrlock_location'] = 'Entfache die {object:Light\'s Blooming Keyflame} in der Nähe.' -- review
-L['shadowpouncer_location'] = 'Entfache die {object:Light\'s Blooming Keyflame} in der Nähe.' -- review
+L['nightclaw_location'] = 'Entfache die {npc:Lesser Keyflame} in der Nähe.' -- review
+L['purrlock_location'] = 'Die {npc:229127} in der Nähe muss entfacht sein.'
+L['shadowpouncer_location'] = 'Die {npc:229127} in der Nähe muss entfacht sein.'
 L['miral_murder_mittens_location'] = 'Draußen.'
-L['fuzzy_location'] = 'Auf dem Boden in der Nähe der {object:Lesser Keyflame}.' -- review
+L['fuzzy_location'] = 'Vor dem zerstörten Gebäude.'
 L['furball_location'] = 'Im zerstörten Gebäude.'
 L['dander_location'] = 'Draußen.'
 L['gobbo_location'] = 'Im Gebäude auf dem Bett.'
 
 L['croakit_note'] = nil
 L['deathtide_note'] = nil
+L['murkshade_note'] = 'Interagiere mit {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = 'Zeigt die Positionen der Ziele für den Erfolg {achievement:40151} an.'
 
-L['mereldar_menace_note'] = 'Interagiere mit {object:Throwing Stone} und wirf diesen auf die Ziele.' -- review
-L['light_and_flame_location'] = 'Ziele auf {npc:218472} östlich des {object:Throwing Stone}.' -- review
-L['lamplighter_doorway_location'] = 'Ziele sie auf den Eingang des Gebäudes im Osten.'
-L['barracks_doorway_location'] = 'Ziele auf den Eingang des rot-goldenen Zeltes im Westen.' -- review
+L['mereldar_menace_note'] = 'Hebe den {object:Wurfstein} auf und werfe diesen auf die Ziele.'
+L['light_and_flame_location'] = 'Ziele auf {npc:218472} östlich des {object:Wurfstein}.'
+L['lamplighter_doorway_location'] = 'Ziele auf den Eingang des Gebäudes im Osten.'
+L['barracks_doorway_location'] = 'Ziele auf den Eingang des rot-goldenen Zeltes im Westen.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------

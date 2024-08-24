@@ -102,7 +102,7 @@ L['illuminated_footlocker_note'] = '从 {npc:220703} 处接住5个掉落的 {spe
 L['illusive_kobyss_lure_note'] = '组合全部4个物品制造 {item:225641}：'
 L['sunless_lure_location'] = '由 {location:无晖之滨} 的 {npc:215653} 掉落。'
 L['murkfin_lure_location'] = '由 {location:威尔汉之征} 的 {npc:213622} 掉落。它们伪装起来并使用 {npc:215623} 作为诱饵。'
-L['hungering_shimmerfin_location'] = '由 {location:饥寒之池} 的 {npc:215243} 掉落。它们伪装起来并使用 {npc:215623} 作为诱饵。'
+L['hungering_shimmerfin_location'] = '由 {location:饥寒之池} 的 {npc:215243} 掉落。它们伪装起来并使用 {npc:219210} 作为诱饵。'
 L['ragefin_necrostaff_location'] = '由 {location:崇圣之地} 的 {npc:213406} 掉落。'
 L['jewel_of_the_cliffs_location'] = '在石墙上极高的地方。'
 L['lost_necklace_note'] = '拾取神龛边缘的 {object:失落的纪念物}。'
@@ -165,6 +165,7 @@ L['deathtide_note'] = [[要召唤他，必须在 {object:不祥祭坛} 上使用
 需要结合 {item:220122} {dot:Blue} 和 {item:220124} {dot:Green} 来获得 {item:220123}。
 
 {note:需要达到80级才能拾取它们。} ]] -- from wowhead, needs to be reviewed
+L['murkshade_note'] = nil
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = '显示 {achievement:40151} 成就中的目标位置。'

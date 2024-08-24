@@ -102,7 +102,7 @@ L['illuminated_footlocker_note'] = 'Catch 5x falling {spell:442389} from the {np
 L['illusive_kobyss_lure_note'] = 'Combine all 4 items to create {item:225641}:'
 L['sunless_lure_location'] = 'Dropped by {npc:215653} on the {location:Sunless Strand}.'
 L['murkfin_lure_location'] = 'Dropped by {npc:213622} on {location:Velhan\'s Claim}. They are camouflaged and use an {npc:215623} as bait.'
-L['hungering_shimmerfin_location'] = 'Dropped by {npc:215243} in {location:The Hungering Pool}. They are camouflaged and use an {npc:215623} as bait.'
+L['hungering_shimmerfin_location'] = 'Dropped by {npc:215243} in {location:The Hungering Pool}. They are camouflaged and use an {npc:219210} as bait.'
 L['ragefin_necrostaff_location'] = 'Dropped by {npc:213406} at the {location:Veneration Grounds}.'
 L['jewel_of_the_cliffs_location'] = 'Extremely high up in the stone wall.'
 L['lost_necklace_note'] = 'Loot the {object:Lost Momento} on the edge of the shrine.'
@@ -126,7 +126,7 @@ L['biblo_book_05_location'] = 'On the beach below the airship.'
 L['biblo_book_06_location'] = 'Inside the building in a bookshelf on the back wall.'
 L['biblo_book_07_location'] = 'Inside the building on the table behind the {npc:206096}.'
 L['biblo_book_08_location'] = 'Inside the ruins.'
-L['biblo_book_09_location'] = 'Inside the large tent behind the wartable.'
+L['biblo_book_09_location'] = 'Inside the large tent on the table.'
 L['biblo_book_10_location'] = 'In the captain\'s quarters aboard {location:The Dawnbreaker}.'
 L['biblo_book_11_location'] = 'Inside the building on a table.'
 
@@ -165,6 +165,7 @@ L['deathtide_note'] = [[To summon him you must use {item:220123} on the {object:
 You need to combine {item:220122} {dot:Blue} and {item:220124} {dot:Green} to get {item:220123}.
 
 {note:You need to be level 80 to pick them up.} ]] -- from wowhead, needs to be reviewed
+L['murkshade_note'] = 'Interact with the {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = 'Display target locations for {achievement:40151} achievement.'

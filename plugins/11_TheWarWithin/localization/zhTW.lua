@@ -153,6 +153,7 @@ L['gobbo_location'] = nil
 
 L['croakit_note'] = nil
 L['deathtide_note'] = nil
+L['murkshade_note'] = nil
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = nil

@@ -103,7 +103,7 @@ L['illuminated_footlocker_note'] = 'Attrapez 5x {spell:442389} chutant depuis la
 L['illusive_kobyss_lure_note'] = 'Combinez les 4 objets pour créer l\'{item:225641} :'
 L['sunless_lure_location'] = 'Obtenu sur les {npc:215653} à la {location:Grève Sans-Soleil}.'
 L['murkfin_lure_location'] = 'Obtenu sur les {npc:213622} à la {location:Prétention de Velhan}. Ils sont camouflés et utilisent un {npc:215623} comme appât.'
-L['hungering_shimmerfin_location'] = 'Obtenu sur les {npc:215243} au {location:Bassin Dévorant}. Ils sont camouflés et utilisent un {npc:215623} comme appât.'
+L['hungering_shimmerfin_location'] = 'Obtenu sur les {npc:215243} au {location:Bassin Dévorant}. Ils sont camouflés et utilisent un {npc:219210} comme appât.'
 L['ragefin_necrostaff_location'] = 'Obtenu sur les {npc:213406} au {location:Terrain d\'Adulation}.'
 L['jewel_of_the_cliffs_location'] = 'Très haut, dans la paroi de pierre.'
 L['lost_necklace_note'] = 'Récupérez le {object:Souvenir perdu} sur le bord du sanctuaire.'
@@ -166,6 +166,7 @@ L['deathtide_note'] = [[Pour l'invoquer, vous devez utiliser l'{item:220123} sur
 Vous devez combiner l'{item:220122} {dot:Blue} et le {item:220124} {dot:Green} pour obtenir l'{item:220123}.
 
 {note:Vous devez être de niveau 80 pour les ramasser.} ]]
+L['murkshade_note'] = nil
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = 'Afficher les emplacements des cibles pour le haut-fait {achievement:40151}.'
