@@ -176,9 +176,9 @@ L['lamplighter_doorway_location'] = '瞄准东边建筑物的门口。'
 L['barracks_doorway_location'] = '瞄准西边红色和金色帐篷的门口。'
 
 L['options_icons_beacon_of_hope'] = '{achievement:40308}'
-L['options_icons_beacon_of_hope_desc'] = nil
+L['options_icons_beacon_of_hope_desc'] = '显示 {achievement:40308} 成就中小型钥焰的位置。'
 
-L['beacon_of_hope_note'] = nil
+L['beacon_of_hope_note'] = '捐献 {item:206350} 来点亮小型钥焰并完成接下来的任务。'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
