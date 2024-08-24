@@ -175,6 +175,11 @@ L['light_and_flame_location'] = 'Aim towards the {npc:218472} east of the {objec
 L['lamplighter_doorway_location'] = 'Aim at the doorway of the building to the east.'
 L['barracks_doorway_location'] = 'Aim at the doorway of the red and gold tent to the west.'
 
+L['options_icons_beacon_of_hope'] = '{achievement:40308}'
+L['options_icons_beacon_of_hope_desc'] = 'Display lesser keyflame locations for the {achievement:40308} achievement.'
+
+L['beacon_of_hope_note'] = 'Contribute {item:206350} to light lesser keyflames and complete the following quests.'
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

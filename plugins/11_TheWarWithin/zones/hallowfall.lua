@@ -983,3 +983,111 @@ map.nodes[44147539] = DisturbedEarth()
 map.nodes[44537632] = DisturbedEarth()
 map.nodes[44947610] = DisturbedEarth()
 
+-------------------------------------------------------------------------------
+------------------------- ACHIEVEMENT: BEACON OF HOPE -------------------------
+-------------------------------------------------------------------------------
+
+local BeaconOfHope = Class('beacon_of_hope', Collectible, {
+    icon = 135922,
+    group = ns.groups.BEACON_OF_HOPE,
+    note = L['beacon_of_hope_note']
+})
+
+-- TODO: Add Missing criterias
+-- {id = 67677}, -- Blossoming Delight
+-- {id = 67679}, -- Seeds of Salvation
+-- {id = 67680}, -- Tater Trawl
+
+map.nodes[65392809] = BeaconOfHope({
+    rewards = {
+        Achievement({
+            id = 40308,
+            criteria = {
+                {id = 67681} -- Right Between the Gyro-Optics
+            }
+        })
+    }
+})
+
+map.nodes[63322942] = BeaconOfHope({
+    rewards = {
+        Achievement({
+            id = 40308,
+            criteria = {
+                {id = 67684}, -- Web of Manipulation
+                {id = 67685} -- Supply the Effort
+            }
+        })
+    }
+})
+
+map.nodes[64553057] = BeaconOfHope({
+    rewards = {
+        Achievement({
+            id = 40308,
+            criteria = {
+                {id = 67682}, -- Lost in Shadows
+                {id = 67683} -- Sporadic Growth
+            }
+        })
+    }
+})
+
+map.nodes[63643363] = BeaconOfHope({
+    rewards = {
+        Achievement({
+            id = 40308,
+            criteria = {
+                {id = 67673}, -- Harvest Havoc
+                {id = 67674} -- Squashing the Threat
+            }
+        })
+    }
+})
+
+map.nodes[64423093] = BeaconOfHope({
+    rewards = {
+        Achievement({
+            id = 40308,
+            criteria = {
+                {id = 67676}, -- The Sweet Eclipse
+                {id = 67675} -- Shadows of Flavor
+            }
+        })
+    }
+})
+
+map.nodes[65822443] = BeaconOfHope({
+    rewards = {
+        Achievement({
+            id = 40308,
+            criteria = {
+                {id = 67672}, -- Hose It Down
+                {id = 67671} -- Chew On That
+            }
+        })
+    }
+})
+
+map.nodes[64371873] = BeaconOfHope({
+    rewards = {
+        Achievement({
+            id = 40308,
+            criteria = {
+                {id = 67669}, -- Lizard Looters
+                {id = 67670} -- Glow in the Dark
+            }
+        })
+    }
+})
+
+map.nodes[61501747] = BeaconOfHope({
+    rewards = {
+        Achievement({
+            id = 40308,
+            criteria = {
+                {id = 67668} -- Crab Grab
+            }
+        })
+    }
+})

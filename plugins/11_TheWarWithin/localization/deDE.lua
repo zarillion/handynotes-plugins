@@ -168,6 +168,11 @@ L['light_and_flame_location'] = 'Ziele auf {npc:218472} östlich des {object:Wur
 L['lamplighter_doorway_location'] = 'Ziele auf den Eingang des Gebäudes im Osten.'
 L['barracks_doorway_location'] = 'Ziele auf den Eingang des rot-goldenen Zeltes im Westen.'
 
+L['options_icons_beacon_of_hope'] = '{achievement:40308}'
+L['options_icons_beacon_of_hope_desc'] = 'Zeigt die Positionen der kleinen Schlüsselflammen für den Erfolg {achievement:40308} an.'
+
+L['beacon_of_hope_note'] = 'Steuert {item:206350} bei, um kleinere Schlüsselflammen zu entzünden und die folgenden Quests abzuschließen. '
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

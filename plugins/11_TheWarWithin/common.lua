@@ -30,6 +30,12 @@ ns.groups.BIBLO_ARCHIVIST = Group('biblo_archivist', 5341597, {
     achievement = 40622
 })
 
+ns.groups.BEACON_OF_HOPE = Group('beacon_of_hope', 135922, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40308
+})
+
 ns.groups.FLAT_EARTHEN = Group('flat_earthen', 4620670, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

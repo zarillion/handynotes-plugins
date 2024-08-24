@@ -175,6 +175,11 @@ L['light_and_flame_location'] = '瞄准 {object:掷出石子} 东边的 {npc:218
 L['lamplighter_doorway_location'] = '瞄准东边建筑物的门口。'
 L['barracks_doorway_location'] = '瞄准西边红色和金色帐篷的门口。'
 
+L['options_icons_beacon_of_hope'] = '{achievement:40308}'
+L['options_icons_beacon_of_hope_desc'] = nil
+
+L['beacon_of_hope_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

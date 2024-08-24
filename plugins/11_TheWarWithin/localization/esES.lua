@@ -175,6 +175,11 @@ L['light_and_flame_location'] = 'Apunta hacia {npc:218472} al este de la {object
 L['lamplighter_doorway_location'] = 'Apunta a la entrada del edificio al este.'
 L['barracks_doorway_location'] = 'Apunta a la puerta de la tienda roja y dorada al oeste.'
 
+L['options_icons_beacon_of_hope'] = '{achievement:40308}'
+L['options_icons_beacon_of_hope_desc'] = nil
+
+L['beacon_of_hope_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
