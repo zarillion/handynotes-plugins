@@ -127,7 +127,7 @@ L['biblo_book_05_location'] = 'Sur la plage en contrebas du dirigeable.'
 L['biblo_book_06_location'] = 'A l\'intérieur du bâtiment, sur une étagère située contre le mur du fond.'
 L['biblo_book_07_location'] = 'A l\'intérieur du bâtiment, sur la table derrière le {npc:206096}.'
 L['biblo_book_08_location'] = 'A l\'intérieur des ruines.'
-L['biblo_book_09_location'] = 'A l\'intérieur de la grande tente, derrière la table de commandement.'
+L['biblo_book_09_location'] = 'A l\'intérieur de la grande tente, sur la table.'
 L['biblo_book_10_location'] = 'A l\'intérieur des quartiers du capitaine à bord du navire {location:Le Brise-Aube}.'
 L['biblo_book_11_location'] = 'A l\'intérieur du bâtiment sur une table.'
 
@@ -166,7 +166,7 @@ L['deathtide_note'] = [[Pour l'invoquer, vous devez utiliser l'{item:220123} sur
 Vous devez combiner l'{item:220122} {dot:Blue} et le {item:220124} {dot:Green} pour obtenir l'{item:220123}.
 
 {note:Vous devez être de niveau 80 pour les ramasser.} ]]
-L['murkshade_note'] = nil
+L['murkshade_note'] = 'Interagissez avec la {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = 'Afficher les emplacements des cibles pour le haut-fait {achievement:40151}.'
