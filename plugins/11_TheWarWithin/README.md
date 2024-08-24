@@ -1,5 +1,7 @@
 **The [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin for The War Within expansion. It will add the locations and rewards for rare mobs, battle pets, treasures and other miscellaneous points of interest to the map.**
 
+![](https://media.forgecdn.net/attachments/949/33/banner-war-within.png)
+
 ## Related Plugins
 
 * [HandyNotes: Kalimdor & Eastern Kingdoms](https://www.curseforge.com/wow/addons/handynotes-kalimdor-eastern-kingdoms)
