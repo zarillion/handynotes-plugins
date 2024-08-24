@@ -126,7 +126,7 @@ L['biblo_book_05_location'] = 'En la playa debajo del dirigible.'
 L['biblo_book_06_location'] = 'Dentro del edificio en una estantería de la pared trasera.'
 L['biblo_book_07_location'] = 'Dentro del edificio en la mesa de detrás de {npc:206096}.'
 L['biblo_book_08_location'] = 'Dentro de las ruinas.'
-L['biblo_book_09_location'] = 'Dentro de la gran carpa detrás de la mesa de guerra.'
+L['biblo_book_09_location'] = 'Dentro de la gran carpa en la mesa de guerra.'
 L['biblo_book_10_location'] = 'En las habitaciones del capitán a bordo de {location:El Rompealbas}.'
 L['biblo_book_11_location'] = 'Dentro del edificio sobre una mesa.'
 
@@ -165,7 +165,7 @@ L['deathtide_note'] = [[Para invocarlo tienes que usar una {item:220123} en el {
 Necesitarás combinar {item:220122} {dot:Blue} y {item:220124} {dot:Green} para conseguir la {item:220123}.
 
 {note:Requiere ser nivel 80 para cogerla.} ]]
-L['murkshade_note'] = nil
+L['murkshade_note'] = 'Interactúa con {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = 'Muestra dónde están los objtivos del logro {achievement:40151}.'
