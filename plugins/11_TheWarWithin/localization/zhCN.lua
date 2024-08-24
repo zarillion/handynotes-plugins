@@ -126,7 +126,7 @@ L['biblo_book_05_location'] = '在飞艇下面的海滩上。'
 L['biblo_book_06_location'] = '在建筑物内后墙的书架上。'
 L['biblo_book_07_location'] = '在建筑物内 {npc:206096} 后面的桌子上。'
 L['biblo_book_08_location'] = '在废墟内。'
-L['biblo_book_09_location'] = '在战桌后面的大帐篷内。'
+L['biblo_book_09_location'] = '在大帐篷内桌子上。'
 L['biblo_book_10_location'] = '在 {location:破晨号} 上的船长舱内。'
 L['biblo_book_11_location'] = '在建筑物内的桌子上。'
 
@@ -165,7 +165,7 @@ L['deathtide_note'] = [[要召唤他，必须在 {object:不祥祭坛} 上使用
 需要结合 {item:220122} {dot:Blue} 和 {item:220124} {dot:Green} 来获得 {item:220123}。
 
 {note:需要达到80级才能拾取它们。} ]] -- from wowhead, needs to be reviewed
-L['murkshade_note'] = nil
+L['murkshade_note'] = '与 {npc:218455} 互动。'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = '显示 {achievement:40151} 成就中的目标位置。'
