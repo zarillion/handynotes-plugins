@@ -176,9 +176,9 @@ L['lamplighter_doorway_location'] = 'Apunta a la entrada del edificio al este.'
 L['barracks_doorway_location'] = 'Apunta a la puerta de la tienda roja y dorada al oeste.'
 
 L['options_icons_beacon_of_hope'] = '{achievement:40308}'
-L['options_icons_beacon_of_hope_desc'] = nil
+L['options_icons_beacon_of_hope_desc'] = 'Muestra dónde están las llaves ardientes inferiores para el logro {achievement:40308}.'
 
-L['beacon_of_hope_note'] = nil
+L['beacon_of_hope_note'] = 'Contribuye con {item:206350} para encender las llaves ardientes inferiores y completar las misiones siguientes.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
