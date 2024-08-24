@@ -370,6 +370,36 @@ map.nodes[34056102] = Treasure({
 }) -- Concealed Contraband -- Web Cocoon
 
 -------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+cotl.nodes[61263699] = ns.node.PetBattle({
+    id = 223443,
+    parent = {cot.id, map.id},
+    rewards = {
+        Achievement({id = 40153, criteria = 67138, oneline = true}), -- Battle on Khaz Algar
+        ns.reward.Spacer(),
+        Achievement({id = 40154, criteria = 67142, oneline = true}), -- Aquatic Battler of Khaz Algar
+        Achievement({id = 40155, criteria = 67146, oneline = true}), -- Beast Battler of Khaz Algar
+        Achievement({id = 40156, criteria = 67150, oneline = true}), -- Critter Battler of Khaz Algar
+        Achievement({id = 40157, criteria = 67154, oneline = true}), -- Dragonkin Battler of Khaz Algar
+        Achievement({id = 40158, criteria = 67158, oneline = true}), -- Elemental Battler of Khaz Algar
+        Achievement({id = 40161, criteria = 67162, oneline = true}), -- Flying Battler of Khaz Algar
+        Achievement({id = 40162, criteria = 67165, oneline = true}), -- Humanoid Battler of Khaz Algar
+        Achievement({id = 40163, criteria = 67169, oneline = true}), -- Magic Battler of Khaz Algar
+        Achievement({id = 40164, criteria = 67173, oneline = true}), -- Mechanical Battler of Khaz Algar
+        Achievement({id = 40165, criteria = 67177, oneline = true}) -- Undead Battler of Khaz Algar
+    }
+}) -- Collector Dyna
+
+map.nodes[53093158] = ns.node.PetBattle({
+    id = 223406,
+    rewards = {
+        Achievement({id = 40153, criteria = 67134, oneline = true}) -- Battle on Khaz Algar
+    }
+}) -- Zaedu
+
+-------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 

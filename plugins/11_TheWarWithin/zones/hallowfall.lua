@@ -557,6 +557,35 @@ map.nodes[63990612] = Treasure({
 -- }) -- Fisherman's Pouch
 
 -------------------------------------------------------------------------------
+--------------------------------- BATTLE PETS ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[52436278] = ns.node.PetBattle({
+    id = 223442,
+    rewards = {
+        Achievement({id = 40153, criteria = 67137, oneline = true}), -- Battle on Khaz Algar
+        ns.reward.Spacer(),
+        Achievement({id = 40154, criteria = 67141, oneline = true}), -- Aquatic Battler of Khaz Algar
+        Achievement({id = 40155, criteria = 67145, oneline = true}), -- Beast Battler of Khaz Algar
+        Achievement({id = 40156, criteria = 67149, oneline = true}), -- Critter Battler of Khaz Algar
+        Achievement({id = 40157, criteria = 67153, oneline = true}), -- Dragonkin Battler of Khaz Algar
+        Achievement({id = 40158, criteria = 67157, oneline = true}), -- Elemental Battler of Khaz Algar
+        Achievement({id = 40161, criteria = 67161, oneline = true}), -- Flying Battler of Khaz Algar
+        Achievement({id = 40162, criteria = 67164, oneline = true}), -- Humanoid Battler of Khaz Algar
+        Achievement({id = 40163, criteria = 67168, oneline = true}), -- Magic Battler of Khaz Algar
+        Achievement({id = 40164, criteria = 67172, oneline = true}), -- Mechanical Battler of Khaz Algar
+        Achievement({id = 40165, criteria = 67176, oneline = true}) -- Undead Battler of Khaz Algar
+    }
+}) -- Kyrie
+
+map.nodes[61066899] = ns.node.PetBattle({
+    id = 223409,
+    rewards = {
+        Achievement({id = 40153, criteria = 67133, oneline = true}) -- Battle on Khaz Algar
+    }
+}) -- Guttergunk
+
+-------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
