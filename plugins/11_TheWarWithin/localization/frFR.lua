@@ -93,8 +93,8 @@ L['options_icons_disturbed_earth'] = 'Terre retournée'
 L['options_icons_disturbed_earth_desc'] = 'Afficher les emplacements des {object:Terres retournées}.'
 
 L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
-L['options_icons_gobblin_with_glublurp_desc'] = nil
-L['gobblin_with_glublurp_note'] = nil
+L['options_icons_gobblin_with_glublurp_desc'] = 'Afficher les emplacements liés au haut-fait {achievement:40614}.'
+L['gobblin_with_glublurp_note'] = 'Cliquez sur un {dot:Blue}{object:Cristal scintillant} pour obtenir la {spell:456739}, puis attrapez un {npc:227138} volant dans le ' .. ns.color.Orange('Cercle orange') .. ' et rapportez le à {npc:227132}.\n\n(Le Vol Régulier est recommandé pour l\'obenir plus facilement).'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
