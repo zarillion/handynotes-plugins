@@ -92,6 +92,10 @@ Jeder Gegenstand kostet 1 {item:224642}.]]
 L['options_icons_disturbed_earth'] = 'Aufgewühlte Erde'
 L['options_icons_disturbed_earth_desc'] = 'Zeigt die Positionen von {object:Aufgewühlte Erde} an.'
 
+L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
+L['options_icons_gobblin_with_glublurp_desc'] = 'Zeigt die Position für den Erfolg {achievement:40614} an.'
+L['gobblin_with_glublurp_note'] = 'Klicke einen {object:Funkelnder Kristall} ({dot:Red}) an, um den Stärkungszauber {spell:456739} zu erhalten. Fange damit einen {npc:227138} bei dem kleinen Teich (' .. ns.color.Orange('Orangener Kreis') .. ') und bringe diesen zu {npc:227132}.\n\n(statisches Fliegen wird empfohlen, um dies zu erreichen).'
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

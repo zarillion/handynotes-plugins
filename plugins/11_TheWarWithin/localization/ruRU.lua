@@ -88,6 +88,10 @@ L['gnawbles_ruby_vendor_note'] = nil
 L['options_icons_disturbed_earth'] = nil
 L['options_icons_disturbed_earth_desc'] = nil
 
+L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
+L['options_icons_gobblin_with_glublurp_desc'] = nil
+L['gobblin_with_glublurp_note'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

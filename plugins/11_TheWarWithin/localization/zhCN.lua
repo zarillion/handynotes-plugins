@@ -91,6 +91,10 @@ L['gnawbles_ruby_vendor_note'] = [[从 {object:翻动过的土地} 收集 {item:
 L['options_icons_disturbed_earth'] = '翻动过的土地'
 L['options_icons_disturbed_earth_desc'] = '显示 {object:翻动过的土地} 的位置。'
 
+L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
+L['options_icons_gobblin_with_glublurp_desc'] = '显示 {achievement:40614} 成就中的位置。'
+L['gobblin_with_glublurp_note'] = '点击一个 {dot:Red}{object:烁光水晶} 来获得 {spell:456739}。抓获一个飞在 ' .. ns.color.Orange('橙圈') .. ' 的 {npc:227138} 并把它带回给 {npc:227132}。\n\n（建议使用稳定飞行来获得）。'
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

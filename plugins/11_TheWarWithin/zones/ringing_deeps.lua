@@ -25,6 +25,7 @@ local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
+local Circle = ns.poi.Circle
 
 local ReputationGain = ns.tooltip.ReputationGain
 
@@ -565,6 +566,26 @@ map.nodes[48583175] = InertEarthen({
     location = L['venedaz_location'],
     rewards = {Achievement({id = 40504, criteria = 68687})}
 }) -- Venedaz
+
+-------------------------------------------------------------------------------
+--------------------- ACHIEVEMENT: GOBBLIN' WITH GLUBLURP ---------------------
+-------------------------------------------------------------------------------
+
+local GobblinWithGlublurp = Class('gobblin_with_glublurp', Collectible, {
+    icon = 5763494,
+    group = ns.groups.GOBBLIN_WITH_GLUBLURP
+
+})
+
+map.nodes[44315026] = GobblinWithGlublurp({
+    id = 227132,
+    rewards = {Achievement({id = 40614, criteria = 68929})},
+    note = L['gobblin_with_glublurp_note'],
+    pois = {
+        POI({59964103, 61924254, color = 'Red'}),
+        Path({color = 'Orange', Circle({origin = 57903351, radius = 1.25})})
+    }
+}) -- Glublurp
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------

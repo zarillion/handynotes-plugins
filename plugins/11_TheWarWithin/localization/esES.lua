@@ -91,6 +91,10 @@ Cada objeto cuesta 1x {item:224642}.]]
 L['options_icons_disturbed_earth'] = 'Tierra Revuelta'
 L['options_icons_disturbed_earth_desc'] = 'Muestra dónde están las {object:Tierra Revuelta}.'
 
+L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
+L['options_icons_gobblin_with_glublurp_desc'] = 'Muestra los lugares para el logro {achievement:40614}.'
+L['gobblin_with_glublurp_note'] = 'Haz Click en un {dot:Red}{object:Cristal Trémulo} para ganar {spell:456739}. Coge una {npc:227138} volando en el ' .. ns.color.Orange('Círculo Naranja') .. ' y llévasela a {npc:227132}.\n\n(Se recomienda Vuelo Constante para conseguilo).'
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

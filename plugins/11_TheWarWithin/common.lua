@@ -102,6 +102,12 @@ ns.groups.ROCKED_TO_SLEEP = Group('rocked_to_sleep', 5788303, {
     achievement = 40504
 })
 
+ns.groups.GOBBLIN_WITH_GLUBLURP = Group('gobblin_with_glublurp', 5763494, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40614
+})
+
 -- ns.groups.SAFARI = Group('safari', 4048818, {
 --     defaults = ns.GROUP_HIDDEN,
 --     type = ns.group_types.ACHIEVEMENT,
