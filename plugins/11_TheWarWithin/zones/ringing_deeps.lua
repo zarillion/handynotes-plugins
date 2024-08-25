@@ -453,7 +453,6 @@ map.nodes[63696115] = BustedConsole({
 }) -- Taelloch Console
 
 map.nodes[69064879] = BustedConsole({
-    location = L['obsidian_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68661})}
 }) -- Obsidian Console
 
@@ -463,7 +462,6 @@ map.nodes[56382253] = BustedConsole({
 }) -- Lost Console
 
 map.nodes[46291411] = BustedConsole({
-    location = L['earthen_console_location'],
     rewards = {Achievement({id = 40473, criteria = 68663})}
 }) -- Earthen Console
 

@@ -49,9 +49,7 @@ L['not_so_quick_fix_note'] = 'Réparez la console terrestre cassée.'
 L['water_console_location'] = 'A côté de l\'escalier.'
 L['abyssal_console_location'] = 'Dans une alcôve.'
 L['taelloch_console_location'] = 'Sur un pont entre les tonneaux.'
-L['obsidian_console_location'] = nil
 L['lost_console_location'] = 'Dans une alcôve.'
-L['earthen_console_location'] = nil
 
 L['options_icons_notable_machines'] = '{achievement:40628}'
 L['options_icons_notable_machines_desc'] = 'Afficher les emplacements des notes pour le haut-fait {achievement:40628}.'

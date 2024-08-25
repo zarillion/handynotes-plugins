@@ -48,9 +48,7 @@ L['not_so_quick_fix_note'] = 'Repara la consolas terránea estropeada.'
 L['water_console_location'] = 'Junto a las escaleras.'
 L['abyssal_console_location'] = 'En una alcoba.'
 L['taelloch_console_location'] = 'Entre los barriles de un puente.'
-L['obsidian_console_location'] = nil
 L['lost_console_location'] = 'En una alcoba.'
-L['earthen_console_location'] = nil
 
 L['options_icons_notable_machines'] = '{achievement:40628}'
 L['options_icons_notable_machines_desc'] = 'Muestra dónde están las notas del logro {achievement:40628}.'

@@ -48,9 +48,7 @@ L['not_so_quick_fix_note'] = nil
 L['water_console_location'] = nil
 L['abyssal_console_location'] = nil
 L['taelloch_console_location'] = nil
-L['obsidian_console_location'] = nil
 L['lost_console_location'] = nil
-L['earthen_console_location'] = nil
 
 L['options_icons_notable_machines'] = '{achievement:40628}'
 L['options_icons_notable_machines_desc'] = '顯示成就 {achievement:40628} 所需的筆記位置.'

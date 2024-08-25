@@ -49,9 +49,7 @@ L['not_so_quick_fix_note'] = 'Repariere die defekte Konsole der Irdenen.'
 L['water_console_location'] = 'Neben der Treppe.'
 L['abyssal_console_location'] = nil
 L['taelloch_console_location'] = 'Auf der Brücke zwischen den Fässern.'
-L['obsidian_console_location'] = nil
 L['lost_console_location'] = 'Im Eingang der eingestürzten Mine.'
-L['earthen_console_location'] = nil
 
 L['options_icons_notable_machines'] = '{achievement:40628}'
 L['options_icons_notable_machines_desc'] = 'Zeigt die Positionen der Notizen für den Erfolg {achievement:40628} an.'
