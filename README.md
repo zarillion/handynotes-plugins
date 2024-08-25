@@ -20,12 +20,12 @@ Join our Discord server to discuss features and translations: https://discord.gg
 
 This repository hosts *all* of our HandyNotes plugins. Since they all share the same core code and features, it made sense to keep them in a single repository instead of individual ones. This means the repository cannot be cloned directly into your addons directory; the files won't be in the places WoW expects.
 
-> We recommend using [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/about) to work on the project. It makes it *much* easier to install the Python and Lua language dependencies needed to install, lint and test the project. See this [wiki page](https://github.com/zarillion/handynotes-plugins/wiki/Installing-with-WSL) for more information
+> We recommend using a [dev container](https://containers.dev/) to work on the project. It makes it *much* easier to setup the dependencies needed to install, lint and test the project. See this [wiki page](https://github.com/zarillion/handynotes-plugins/wiki/Setup-with-Dev-Container) for more information
 
 The `install.py` script can be used to install your clone of this repository into your `Interface/AddOns` directory. It will create symbolic links to directories and files in the source tree for each plugin. After installation, a `/reload` is all that is needed after editing a file to see the changes reflected in game.
 
 ```
-~/handynotes-plugins$ python scripts/install.py --help
+~/handynotes-plugins$ python3 scripts/install.py --help
 usage: install.py [-h] [-c] [-u] Path\To\Interface\AddOns
 
 Install all HandyNotes plugins defined in this project for development.
@@ -49,14 +49,14 @@ Documentation for the core modules can be found on the [HandyNotes Plugins Docum
 
 ## Development Options
 
-Once installed, development-only options can be enabled in each *individual* plugin by running an in-game script command. For example, to enable the development features and options for **HandyNotes: Dragonflight**:
+Once installed, development-only options can be enabled in each *individual* plugin by running an in-game script command. For example, to enable the development features and options for **HandyNotes: The War Within**:
 
 ```
-/script HandyNotes_DragonflightDB.profiles.Default.development = true
+/script HandyNotes_TheWarWithinDB.profiles.Default.development = true
 /reload
 ```
 
-You should then see additional development options at the bottom of the Dragonflight plugin settings panel. The following development options are available:
+You should then see additional development options at the bottom of the TheWarWithin plugin settings panel. The following development options are available:
 
 Option | Description
 ------ | -----------
@@ -87,7 +87,7 @@ Sometimes you `/reload` before remembering to grab a quest ID out of the chat wi
 When "Debug Quest IDs" is enabled, all quest ID state changes are recorded between sessions. This can be accessed after a reload with:
 
 ```
-/run HandyNotes_DragonflightQuestHistory()
+/run HandyNotes_TheWarWithinQuestHistory()
 20:59:37 :: 61588 :: true => false
 20:59:37 :: 60774 :: true => false
 20:57:15 :: 58327 :: false => true
@@ -103,7 +103,7 @@ When "Debug Quest IDs" is enabled, all quest ID state changes are recorded betwe
 By default the 10 most recent quest changes are displayed. The number of quests printed can be changed by passing the `count` parameter, up to the maximum of 100 stored quest changes.
 
 ```
-/run HandyNotes_DragonflightQuestHistory(5)
+/run HandyNotes_TheWarWithinQuestHistory(5)
 20:59:37 :: 61588 :: true => false
 20:59:37 :: 60774 :: true => false
 20:57:15 :: 58327 :: false => true
