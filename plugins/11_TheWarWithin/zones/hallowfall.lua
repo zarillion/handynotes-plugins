@@ -465,12 +465,16 @@ map.nodes[30233875] = Treasure({
 
 map.nodes[45944513] = Treasure({
     quest = 82005,
+    location = L['in_water'],
+    note = L['sky_captains_sunken_cache_note'],
     rewards = {
-        Achievement({id = 40848, criteria = 69700}), Toy({item = 224554})
+        Achievement({id = 40848, criteria = 69700}), --
+        Toy({item = 224554}) -- Silver Linin' Scepter
     },
     pois = {
         Path({
             color = 'Green',
+            quest = 82012,
             points = {
                 50285167, 51255187, 52245197, 53275188, 54235171, 55115155,
                 56055131, 56855106, 57785082, 58705052, 59655013, 60654982,
@@ -483,9 +487,11 @@ map.nodes[45944513] = Treasure({
                 43643960, 43574073, 43594183, 43774286, 44074387, 44454486,
                 44824577, 45204669, 45634760, 46134845, 46674913, 47304976,
                 47955033, 48605083, 49395131, 50285167
-            } -- Sky-Captain Dornald
-        }), Path({
+            }
+        }), -- Sky-Captain Dornald
+        Path({
             color = 'Yellow',
+            quest = 82024,
             points = {
                 49245744, 49365640, 49535553, 49615452, 49755337, 49715233,
                 49445133, 49025041, 48524957, 47974878, 47424805, 46834738,
@@ -501,7 +507,8 @@ map.nodes[45944513] = Treasure({
             }
         }), -- Sky-Captain Clarmonte
         Path({
-            color = 'Blue',
+            color = 'Orange',
+            quest = 82026,
             points = {
                 53482382, 53772273, 54022179, 54302070, 54541971, 54771878,
                 54971791, 55241702, 55471615, 55521503, 55371398, 55171293,
@@ -517,6 +524,7 @@ map.nodes[45944513] = Treasure({
         }), -- Sky-Captain Onaro
         Path({
             color = 'Red',
+            quest = 82025,
             points = {
                 41954204, 41204260, 40264305, 39344337, 38384359, 37434363,
                 36434356, 35434348, 34494339, 33554319, 32624282, 31664252,
@@ -532,8 +540,6 @@ map.nodes[45944513] = Treasure({
             }
         }) -- Sky-Captain Aerthin
     }
-    -- you might have to talk to 4 Sky-Captains on flying boats to unlock this treasure
-    -- hidden quests after talking to the captains: 82012, 82024, 82025, 82026
 }) -- Sky-Captains' Sunken Cache
 
 map.nodes[55135193] = Treasure({

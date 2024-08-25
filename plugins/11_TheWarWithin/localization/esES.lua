@@ -105,6 +105,7 @@ L['dark_ritual_note'] = 'Interactúa con el {object:Ritual Oscuro} y derrota a {
 L['illuminated_footlocker_note'] = 'Consigue 5x {spell:442389} que caen de {npc:220703} para conseguir {spell:442529} y descubrir el {object:Baúl Iluminado}.'
 L['illusive_kobyss_lure_note'] = 'Combina los 4 objetos para crear {item:225641}:'
 L['sunless_lure_location'] = 'Se despoja de {npc:215653} en la {location:Playa del Sol Ausente}.'
+L['sky_captains_sunken_cache_note'] = nil
 L['murkfin_lure_location'] = 'Se despoja de {npc:213622} en {location:Reclamación de Velhan}. Están camuflados y has de usar {npc:215623} como cebo.'
 L['hungering_shimmerfin_location'] = 'Se despoja de {npc:215243} en el {location:Charco Hambriento}. Están camuflados y has de usar {npc:219210} como cebo.'
 L['ragefin_necrostaff_location'] = 'Se despoja de {npc:213406} en las {location:Tierras de Veneración}.'

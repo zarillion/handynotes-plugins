@@ -106,6 +106,14 @@ L['dark_ritual_note'] = 'Interagiere mit dem Buch {object:Dunkles Ritual} und be
 L['illuminated_footlocker_note'] = 'Fange 5x fallende {spell:442389} von einer {npc:220703}, um {spell:442529} zu erhalten und den Schatz zu enthüllen.'
 L['illusive_kobyss_lure_note'] = 'Kombiniere alle vier Gegenstände, um {item:225641} herzustellen:'
 L['sunless_lure_location'] = 'Kann von {npc:215653} am {location:Sonnenloser Strand} geplündert werden.'
+L['sky_captains_sunken_cache_note'] = [[
+Spreche mit vier verschiedenen Himmelskapitänen auf ihren Luftschiffen, um den Schatz zu enthüllen.
+
+{npc:222333} ({dot:Green}) fliegt gegen den Uhrzeigersinn.
+{npc:222311} ({dot:Yellow}) fliegt gegen den Uhrzeigersinn.
+{npc:222323} ({dot:Red}) fliegt im Uhrzeigersinn.
+{npc:222337} ({dot:Orange}) fliegt gegen den Uhrzeigersinn.
+]]
 L['murkfin_lure_location'] = 'Kann von {npc:213622} in {location:Velhans Geltung} geplündert werden. Diese benutzen einen {npc:215623} als Köder.'
 L['hungering_shimmerfin_location'] = 'Kann von {npc:215243} in {location:Der Lauernde Strudel} geplündert werden. Diese benutzen einen {npc:219210} als Köder.'
 L['ragefin_necrostaff_location'] = 'Kann von {npc:213406} in {location:Ehrengründe} geplündert werden.'

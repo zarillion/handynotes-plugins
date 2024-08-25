@@ -106,6 +106,7 @@ L['dark_ritual_note'] = 'Interagissez avec le {object:Rituel des ténèbres} et 
 L['illuminated_footlocker_note'] = 'Attrapez 5x {spell:442389} chutant depuis la {npc:220703} pour recevoir l\'{spell:442529} et faire apparaître la {object:Cantine illuminée}.'
 L['illusive_kobyss_lure_note'] = 'Combinez les 4 objets pour créer l\'{item:225641} :'
 L['sunless_lure_location'] = 'Obtenu sur les {npc:215653} à la {location:Grève Sans-Soleil}.'
+L['sky_captains_sunken_cache_note'] = nil
 L['murkfin_lure_location'] = 'Obtenu sur les {npc:213622} à la {location:Prétention de Velhan}. Ils sont camouflés et utilisent un {npc:215623} comme appât.'
 L['hungering_shimmerfin_location'] = 'Obtenu sur les {npc:215243} au {location:Bassin Dévorant}. Ils sont camouflés et utilisent un {npc:219210} comme appât.'
 L['ragefin_necrostaff_location'] = 'Obtenu sur les {npc:213406} au {location:Terrain d\'Adulation}.'

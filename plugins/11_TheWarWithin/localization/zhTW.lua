@@ -101,6 +101,7 @@ L['dark_ritual_note'] = nil
 L['illuminated_footlocker_note'] = nil
 L['illusive_kobyss_lure_note'] = nil
 L['sunless_lure_location'] = nil
+L['sky_captains_sunken_cache_note'] = nil
 L['murkfin_lure_location'] = nil
 L['hungering_shimmerfin_location'] = nil
 L['ragefin_necrostaff_location'] = nil

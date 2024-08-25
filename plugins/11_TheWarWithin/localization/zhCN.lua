@@ -105,6 +105,7 @@ L['dark_ritual_note'] = '与 {object:黑暗仪式} 互动并击败所有 {npc:22
 L['illuminated_footlocker_note'] = '从 {npc:220703} 处接住5个掉落的 {spell:442389} 以获得 {spell:442529} 并发现 {object:光耀提箱}。'
 L['illusive_kobyss_lure_note'] = '组合全部4个物品制造 {item:225641}：'
 L['sunless_lure_location'] = '由 {location:无晖之滨} 的 {npc:215653} 掉落。'
+L['sky_captains_sunken_cache_note'] = nil
 L['murkfin_lure_location'] = '由 {location:威尔汉之征} 的 {npc:213622} 掉落。它们伪装起来并使用 {npc:215623} 作为诱饵。'
 L['hungering_shimmerfin_location'] = '由 {location:饥寒之池} 的 {npc:215243} 掉落。它们伪装起来并使用 {npc:219210} 作为诱饵。'
 L['ragefin_necrostaff_location'] = '由 {location:崇圣之地} 的 {npc:213406} 掉落。'
