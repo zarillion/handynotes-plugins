@@ -203,10 +203,10 @@ L['options_transmog_rewards'] = 'Mostrar recompensas de transfiguraciones'
 L['options_transmog_rewards_desc'] = 'Muestra las recompensas de transfiguraciones en las notas y rastrea el estado de si ha sido aprendida.'
 L['options_all_transmog_rewards'] = 'Mostrar las recompensas de transfiguraciones que no pueden conseguirse'
 L['options_all_transmog_rewards_desc'] = 'Muestra las recompensas de transfiguraciones conseguibles por otras clases.'
-L['options_rep_rewards'] = nil
-L['options_rep_rewards_desc'] = nil
-L['options_rep_show_claimed'] = nil
-L['options_rep_show_claimed_desc'] = nil
+L['options_rep_rewards'] = 'Mostrar recompensas de reputaciones'
+L['options_rep_rewards_desc'] = 'Muestra las recompensas de reputaciones en las notas y rastrea el estado de si ha sido conseguida.'
+L['options_rep_show_claimed'] = 'Mostrar recompensas de reputación reclamadas'
+L['options_rep_show_claimed_desc'] = 'Muestra las recompensas de reputaciones que ya hayan sido reclamdas por tu banda guerrera.'
 
 L['options_icons_misc_desc'] = 'Muestra dónde están los nodos sin categoría.'
 L['options_icons_misc'] = 'Miscelánea'
