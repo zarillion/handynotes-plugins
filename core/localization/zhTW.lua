@@ -59,6 +59,8 @@ L['hard'] = '困難'
 
 L['completed'] = '已完成'
 L['incomplete'] = '未完成'
+L['claimed'] = nil
+L['notclaimed'] = nil
 L['known'] = '已獲得'
 L['missing'] = '未獲得'
 L['unobtainable'] = '無法獲得'
@@ -201,6 +203,10 @@ L['options_transmog_rewards'] = '顯示塑形獎勵'
 L['options_transmog_rewards_desc'] = '在提示顯示塑型獎勵並追蹤收集狀態'
 L['options_all_transmog_rewards'] = '顯示無法取得的塑形獎勵'
 L['options_all_transmog_rewards_desc'] = '顯示其他職業可以取得的塑形獎勵'
+L['options_rep_rewards'] = nil
+L['options_rep_rewards_desc'] = nil
+L['options_rep_show_claimed'] = nil
+L['options_rep_show_claimed_desc'] = nil
 
 L['options_icons_misc_desc'] = '顯示其他節點的位置。'
 L['options_icons_misc'] = '其他'

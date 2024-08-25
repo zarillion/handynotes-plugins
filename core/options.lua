@@ -32,6 +32,8 @@ ns.optionDefaults = {
         show_toy_rewards = true,
         show_transmog_rewards = true,
         show_all_transmog_rewards = false,
+        show_rep_rewards = true,
+        show_claimed_rep = true,
 
         -- development
         development = false,
@@ -187,6 +189,22 @@ ns.options = {
                     name = L['options_all_transmog_rewards'],
                     desc = L['options_all_transmog_rewards_desc'],
                     order = 12,
+                    width = 'full'
+                },
+                show_rep_rewards = {
+                    type = 'toggle',
+                    arg = 'show_rep_rewards',
+                    name = L['options_rep_rewards'],
+                    desc = L['options_rep_rewards_desc'],
+                    order = 13,
+                    width = 'full'
+                },
+                show_claimed_rep = {
+                    type = 'toggle',
+                    arg = 'show_claimed_rep',
+                    name = L['options_rep_show_claimed'],
+                    desc = L['options_rep_show_claimed_desc'],
+                    order = 14,
                     width = 'full'
                 },
                 VisibilityHeader = {

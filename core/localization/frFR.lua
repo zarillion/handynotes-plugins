@@ -59,6 +59,8 @@ L['hard'] = 'Difficile'
 
 L['completed'] = 'Complété'
 L['incomplete'] = 'Incomplet'
+L['claimed'] = 'Réclamé'
+L['notclaimed'] = 'Non réclamé'
 L['known'] = 'Connu'
 L['missing'] = 'Inconnu'
 L['unobtainable'] = 'Introuvable'
@@ -201,6 +203,10 @@ L['options_transmog_rewards'] = 'Afficher les transmos en récompense'
 L['options_transmog_rewards_desc'] = 'Afficher les transmos en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_all_transmog_rewards'] = 'Afficher les transmos plus obtenables en récompense'
 L['options_all_transmog_rewards_desc'] = 'Afficher les transmos en récompenses pouvant être obtenus par d\'autres classes.'
+L['options_rep_rewards'] = nil
+L['options_rep_rewards_desc'] = nil
+L['options_rep_show_claimed'] = nil
+L['options_rep_show_claimed_desc'] = nil
 
 L['options_icons_misc_desc'] = 'Afficher les emplacements des nœuds divers'
 L['options_icons_misc'] = 'Divers'

@@ -59,6 +59,8 @@ L['hard'] = 'Schwer'
 
 L['completed'] = 'Abgeschlossen'
 L['incomplete'] = 'Unvollständig'
+L['claimed'] = nil
+L['notclaimed'] = nil
 L['known'] = 'Bekannt'
 L['missing'] = 'Fehlt'
 L['unobtainable'] = 'Nicht erhältlich'
@@ -201,6 +203,10 @@ L['options_transmog_rewards'] = 'Zeige Vorlagenbelohnungen'
 L['options_transmog_rewards_desc'] = 'Zeige Vorlagenbelohnungen für Waffen und Rüstungen in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_all_transmog_rewards'] = 'Zeige nicht erhältliche Vorlagenbelohnungen'
 L['options_all_transmog_rewards_desc'] = 'Zeigt Vorlagenbelohnungen an, die nur für andere Klassen erhältlich sind.'
+L['options_rep_rewards'] = 'Zeige Rufbelohnungen'
+L['options_rep_rewards_desc'] = 'Zeige Rufbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
+L['options_rep_show_claimed'] = nil
+L['options_rep_show_claimed_desc'] = nil
 
 L['options_icons_misc_desc'] = 'Zeigt die Positionen von anderen nicht kategorisierten Punkten an.'
 L['options_icons_misc'] = 'Sonstiges'

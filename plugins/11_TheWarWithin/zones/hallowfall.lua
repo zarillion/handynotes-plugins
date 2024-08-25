@@ -21,9 +21,9 @@ local Mount = ns.reward.Mount
 local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Reputation = ns.reward.Reputation
 
 local ItemStatus = ns.tooltip.ItemStatus
-local ReputationGain = ns.tooltip.ReputationGain
 
 local POI = ns.poi.POI
 local Path = ns.poi.Path
@@ -41,8 +41,9 @@ map.nodes[15004000] = Rare({
     id = 207802,
     quest = 81763, -- 85164
     rewards = {
+        Achievement({id = 40851, criteria = 69716}),
         Mount({item = 223315, id = 2192}),
-        Achievement({id = 40851, criteria = 69716})
+        Reputation({id = 2570, gain = 150, quest = 85164})
     },
     pois = {
         POI({
@@ -63,30 +64,40 @@ map.nodes[15004000] = Rare({
 map.nodes[65052965] = Rare({
     id = 206514,
     quest = 82558, -- 84052
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69720})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69720}),
+        Reputation({id = 2570, gain = 150, quest = 84052})
+    }
 }) -- Crazed Cabbage Smacker
 
 map.nodes[67552316] = Rare({
     id = 214757,
     quest = 82560, -- 84054
     note = L['croakit_note'],
-    rewards = {Achievement({id = 40851, criteria = 69722})},
+    rewards = {
+        Achievement({id = 40851, criteria = 69722}),
+        Reputation({id = 2570, gain = 150, quest = 84054})
+    },
     pois = {POI({65802355})}
 }) -- Croakit
 
 map.nodes[63643205] = Rare({
     id = 206184,
     quest = 82559, -- 84053
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69721})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69721}),
+        Reputation({id = 2570, gain = 150, quest = 84053})
+    }
 }) -- Deathpetal
 
 map.nodes[44744241] = Rare({
     id = 221753,
     quest = 81880, -- 85165
     note = L['deathtide_note'],
-    rewards = {Achievement({id = 40851, criteria = 69717})},
+    rewards = {
+        Achievement({id = 40851, criteria = 69717}),
+        Reputation({id = 2570, gain = 150, quest = 85165})
+    },
     pois = {
         POI({48001668, color = 'Green'}), -- Jar of Mucus
         POI({
@@ -100,6 +111,7 @@ map.nodes[72116435] = Rare({
     quest = 80011, -- One Time Kill
     rewards = {
         Achievement({id = 40851, criteria = 69703}),
+        Reputation({id = 2570, gain = 150, quest = 80011}),
         Transmog({item = 223394, type = L['plate']}) -- Deepfiend Pauldrons
     }
 }) -- Deepfiend Azellix
@@ -107,28 +119,36 @@ map.nodes[72116435] = Rare({
 map.nodes[63931977] = Rare({
     id = 221179,
     quest = 82562, -- 84056
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69724})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69724}),
+        Reputation({id = 2570, gain = 150, quest = 84056})
+    }
 }) -- Duskshadow
 
 map.nodes[62011683] = Rare({
     id = 207780,
     quest = 82564, -- 84059
-    rewards = {Achievement({id = 40851, criteria = 69727})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69727}),
+        Reputation({id = 2570, gain = 150, quest = 84059})
+    }
 }) -- Finclaw Bloodtide
 
 map.nodes[36807187] = Rare({
     id = 221767,
     quest = 81881, -- One Time Kill
-    rewards = {Achievement({id = 40851, criteria = 69707})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69707}),
+        Reputation({id = 2570, gain = 150, quest = 81881})
+    }
 }) -- Funglour
 
 map.nodes[36905469] = Rare({
     id = 221551,
     quest = 81761, -- One Time Kill
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69706}),
+        Reputation({id = 2570, gain = 150, quest = 81761}),
         Transmog({item = 223397, slot = L['plate']}), -- Abyssal Hunter's Girdle
         Transmog({item = 223399, slot = L['mail']}), -- Abyssal Hunter's Chain
         Transmog({item = 223400, slot = L['leather']}), -- Abyssal Hunter's Cinch
@@ -153,8 +173,10 @@ map.nodes[36905469] = Rare({
 map.nodes[33122687] = Rare({
     id = 221668,
     quest = 81836, -- 84065
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69712})},
+    rewards = {
+        Achievement({id = 40851, criteria = 69712}),
+        Reputation({id = 2570, gain = 150, quest = 84065})
+    },
     pois = {
         Path({
             20005108, 21234999, 22614911, 23814796, 24974684, 26234575,
@@ -172,6 +194,7 @@ map.nodes[57046433] = Rare({
     quest = 80006, -- One Time Kill
     rewards = {
         Achievement({id = 40851, criteria = 69704}),
+        Reputation({id = 2570, gain = 150, quest = 80006}),
         Transmog({item = 223379, type = L['plate']}), -- Nerubian Weaver's Chestplate
         Transmog({item = 223380, type = L['mail']}), -- Nerubian Weaver's Chainmail
         Transmog({item = 223381, type = L['leather']}), -- Nerubian Weaver's Vest
@@ -182,9 +205,9 @@ map.nodes[57046433] = Rare({
 map.nodes[23005922] = Rare({
     id = 221534,
     quest = 81756, -- 84063
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69710}),
+        Reputation({id = 2570, gain = 150, quest = 84063}),
         Transmog({item = 221207, type = L['mail']}) -- Den Mother's Chestpiece
     }
 }) -- Lytfang the Lost
@@ -192,8 +215,10 @@ map.nodes[23005922] = Rare({
 map.nodes[63452854] = Rare({
     id = 206203,
     quest = 82557, -- 84051
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69719})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69719}),
+        Reputation({id = 2570, gain = 150, quest = 84051})
+    }
 }) -- Moth'ethk
 
 map.nodes[52132681] = Rare({
@@ -202,6 +227,7 @@ map.nodes[52132681] = Rare({
     note = L['murkshade_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69705}),
+        Reputation({id = 2570, gain = 150, quest = 80010}),
         Transmog({item = 223384, type = L['cloth']}), -- Murkshade Gloves
         Transmog({item = 223382, type = L['leather']}), -- Murkshade Grips
         Transmog({item = 223385, type = L['mail']}), -- Murkshade Gauntlets
@@ -212,8 +238,10 @@ map.nodes[52132681] = Rare({
 map.nodes[61981331] = Rare({ -- patrols
     id = 220771,
     quest = 82565, -- 84060
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69728})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69728}),
+        Reputation({id = 2570, gain = 150, quest = 84060})
+    }
 }) -- Murkspike
 
 -- map.nodes[12002200] = Rare({
@@ -225,36 +253,45 @@ map.nodes[61981331] = Rare({ -- patrols
 map.nodes[57304857] = Rare({
     id = 221786,
     quest = 81882, -- 84068
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69715})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69715}),
+        Reputation({id = 2570, gain = 150, quest = 84068})
+    }
 }) -- Pride of Beledar
 
 map.nodes[59702107] = Rare({
     id = 207826, -- Multiple spawn points 61933187
     quest = 82566, --- 84058
-    rewards = {Achievement({id = 40851, criteria = 69726})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69726}),
+        Reputation({id = 2570, gain = 150, quest = 84058})
+    }
 }) -- Ravageant
 
 map.nodes[35943547] = Rare({
     id = 221708,
     quest = 81853, -- 84067
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69714})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69714}),
+        Reputation({id = 2570, gain = 150, quest = 84067})
+    }
 }) -- Sir Alastair Purefire
 
 map.nodes[73405259] = Rare({
     id = 215805,
     quest = 79271, -- 84062
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69709})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69709}),
+        Reputation({id = 2570, gain = 150, quest = 84062})
+    }
 }) -- Sloshmuck
 
-map.nodes[43602994] = Rare({
+map.nodes[42703134] = Rare({
     id = 221690,
     quest = 81849, -- 84066
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69713}),
+        Reputation({id = 2570, gain = 150, quest = 84066}),
         Transmog({item = 221246, type = L['staff']}) -- Fierce Beast Staff
     }
 }) -- Strength of Beledar
@@ -262,9 +299,9 @@ map.nodes[43602994] = Rare({
 map.nodes[44011637] = Rare({
     id = 221648,
     quest = 81791, -- 84064
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69711}),
+        Reputation({id = 2570, gain = 150, quest = 84064}),
         Transmog({item = 221229, type = L['plate']}) -- Perchfather's Cuffs
     }
 }) -- The Perchfather
@@ -272,15 +309,19 @@ map.nodes[44011637] = Rare({
 map.nodes[56486899] = Rare({
     id = 218444,
     quest = 80009, -- 84061
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69708})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69708}),
+        Reputation({id = 2570, gain = 150, quest = 84061})
+    }
 }) -- The Taskmaker
 
 map.nodes[66432411] = Rare({
     id = 207803,
     quest = 82561, -- 84055
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69723})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69723}),
+        Reputation({id = 2570, gain = 150, quest = 84055})
+    }
 }) -- Toadstomper
 
 map.nodes[63782057] = Rare({
@@ -318,7 +359,7 @@ map.nodes[40035112] = Treasure({
     note = L['arathi_loremaster_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69695}), --
-        Toy({item = 225659}) -- Arathi Book Collection
+        Reputation({id = 2570, gain = 150, quest = 83298}), Toy({item = 225659}) -- Arathi Book Collection
     },
     pois = {
         POI({48756471}), Path({Circle({origin = 48756471, radius = 2})}), -- Palawltar's Codez of Dimensional Structure -- q83309
@@ -335,9 +376,9 @@ map.nodes[40035112] = Treasure({
 map.nodes[41795827] = Treasure({
     quest = 83263,
     note = L['caesper_note'],
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69692}),
+        Reputation({id = 2570, gain = 150, quest = 83263}),
         Recipe({item = 225639, profession = 185}) -- Recipe: Exquisitely Eviscerated Muscle
     },
     pois = {
@@ -350,9 +391,9 @@ map.nodes[59525966] = Treasure({
     quest = 83284,
     location = L['in_cave'],
     note = L['dark_ritual_note'],
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69694}),
+        Reputation({id = 2570, gain = 150, quest = 83284}),
         Item({item = 225693, note = L['trinket']}) -- Shadowed Essence
     },
     pois = {
@@ -364,10 +405,9 @@ map.nodes[58382715] = Treasure({
     quest = 81468,
     location = L['in_small_cave'],
     note = L['illuminated_footlocker_note'],
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69701}), --
-        Toy({item = 224552}) -- Cave Spelunker's Torch
+        Reputation({id = 2570, gain = 150, quest = 81468}), Toy({item = 224552}) -- Cave Spelunker's Torch
     },
     pois = {POI({57642740})} -- Entrance
 }) -- Illuminated Footlocker
@@ -378,7 +418,7 @@ local IllusiveKobyssLure = Class('IllusiveKobyssLure', Treasure, {
     fgroup = 'illusive_kobyss_lure',
     rewards = {
         Achievement({id = 40848, criteria = 69696}), --
-        Toy({item = 225641}) -- Illusive Kobyss Lure
+        Reputation({id = 2570, gain = 150, quest = 83299}), Toy({item = 225641}) -- Illusive Kobyss Lure
     }
 }) -- Illusive Kobyss Lure
 
@@ -439,9 +479,9 @@ map.nodes[34965465] = IllusiveKobyssLure({
 map.nodes[55726960] = Treasure({
     quest = 81971,
     location = L['jewel_of_the_cliffs_location'],
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69697}), --
+        Reputation({id = 2570, gain = 150, quest = 81971}),
         Item({item = 224580}) -- Massive Sapphire Chunk
     }
 }) -- Jewel of the Cliffs
@@ -451,6 +491,7 @@ map.nodes[50071385] = Treasure({
     note = L['lost_necklace_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69699}),
+        Reputation({id = 2570, gain = 150, quest = 81978}),
         Item({item = 224575, note = L['neck']}) -- Lightbearer's Pendant
     }
 }) -- Lost Necklace
@@ -460,17 +501,16 @@ map.nodes[30233875] = Treasure({
     location = L['priory_satchel_location'],
     rewards = {
         Achievement({id = 40848, criteria = 69698}),
+        Reputation({id = 2570, gain = 150, quest = 81972}),
         Item({item = 224578, note = L['bag']}) -- Arathor Courier's Satchel
     }
 }) -- Priory Satchel
 
 map.nodes[45944513] = Treasure({
     quest = 82005,
-    location = L['in_water'],
-    note = L['sky_captains_sunken_cache_note'],
     rewards = {
-        Achievement({id = 40848, criteria = 69700}), --
-        Toy({item = 224554}) -- Silver Linin' Scepter
+        Achievement({id = 40848, criteria = 69700}),
+        Reputation({id = 2570, gain = 150, quest = 82005}), Toy({item = 224554})
     },
     pois = {
         Path({
@@ -547,10 +587,10 @@ map.nodes[55135193] = Treasure({
     quest = 83273,
     requires = ns.requirement.Item(225335), -- Smuggler's Key
     location = L['smugglers_treasure_location'],
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     note = L['smugglers_treasure_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69693}), --
+        Reputation({id = 2570, gain = 150, quest = 83273}),
         Item({item = 226021}) -- Jar of Pickels
     },
     pois = {POI({55425164, color = 'Blue'})} -- Dead Arathi
@@ -559,8 +599,10 @@ map.nodes[55135193] = Treasure({
 map.nodes[76765382] = Treasure({ -- review, was not there when i looked
     quest = 79275,
     location = L['in_cave'],
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40848, criteria = 69702})},
+    rewards = {
+        Achievement({id = 40848, criteria = 69702}),
+        Reputation({id = 2570, gain = 150, quest = 79275})
+    },
     pois = {POI({76105390})} -- Entrance
 }) -- Spore-covered Coffer
 
@@ -894,28 +936,38 @@ map.nodes[42145371] = MissingLynx({
 -------------------------------------------------------------------------------
 
 map.nodes[62214557] = LoreObject({
-    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40762, criteria = 69383})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69383}),
+        Reputation({id = 2570, gain = 250})
+    }
 }) -- A Scout's Journal
 
 map.nodes[71433667] = LoreObject({
-    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40762, criteria = 69382})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69382}),
+        Reputation({id = 2570, gain = 250})
+    }
 }) -- A Tattered Note
 
 map.nodes[78244041] = LoreObject({
-    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40762, criteria = 69381})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69381}),
+        Reputation({id = 2570, gain = 250})
+    }
 }) -- A Weathered Tome
 
 map.nodes[25085371] = LoreObject({
-    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40762, criteria = 69380})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69380}),
+        Reputation({id = 2570, gain = 250})
+    }
 }) -- A Worn Down Book
 
 map.nodes[25723845] = LoreObject({
-    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40762, criteria = 69379})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69379}),
+        Reputation({id = 2570, gain = 250})
+    }
 }) -- Captain's Chest
 
 -------------------------------------------------------------------------------

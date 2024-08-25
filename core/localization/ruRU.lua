@@ -59,6 +59,8 @@ L['hard'] = 'Сложный'
 
 L['completed'] = 'Получено'
 L['incomplete'] = 'Незавершенно'
+L['claimed'] = nil
+L['notclaimed'] = nil
 L['known'] = 'Известно'
 L['missing'] = 'Отсутствует'
 L['unobtainable'] = 'Недоступно'
@@ -201,6 +203,10 @@ L['options_transmog_rewards'] = 'Показать трансмогрификац
 L['options_transmog_rewards_desc'] = 'Отображать трансмогрификацию во всплывающих подсказках и отслеживать их статус.'
 L['options_all_transmog_rewards'] = 'Показать недоступные награды за трансмогрификацию'
 L['options_all_transmog_rewards_desc'] = 'Показать награды за трансмогрификацию, доступные другим классам.'
+L['options_rep_rewards'] = nil
+L['options_rep_rewards_desc'] = nil
+L['options_rep_show_claimed'] = nil
+L['options_rep_show_claimed_desc'] = nil
 
 L['options_icons_misc_desc'] = 'Отображение местоположения других разных точек.'
 L['options_icons_misc'] = 'Разное'
