@@ -293,7 +293,7 @@ akl.nodes[62728795] = Treasure({
         Pet({item = 225544, id = 4599}) -- Mind Slurp
     },
     pois = {
-        POI({pois = {61498384, 62338363, 63478590, 65238877}, color = 'Red'})
+        POI({points = {61498384, 62338363, 63478590, 65238877}, color = 'Red'})
     }
 }) -- Memory Cache
 
