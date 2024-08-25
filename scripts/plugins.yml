@@ -3,50 +3,50 @@ plugins:
   - dir: 01_WorldOfWarcraft
     name: HandyNotes_WorldOfWarcraft
     curse: 413932
-    wago: null
-    wowi: null
+    wago: E6gL8OK1
+    wowi: 26818
     enabled: true
 
   - dir: 02_TheBurningCrusade
     name: HandyNotes_TheBurningCrusade
     curse: 413928
-    wago: null
-    wowi: null
+    wago: QKyw0eN7
+    wowi: 26817
     enabled: true
 
   - dir: 03_WrathOfTheLichKing
     name: HandyNotes_WrathOfTheLichKing
     curse: 413927
-    wago: null
-    wowi: null
+    wago: 96E7WYGg
+    wowi: 26816
     enabled: true
 
   - dir: 04_Cataclysm
     name: HandyNotes_Cataclysm
     curse: 413926
-    wago: null
-    wowi: null
+    wago: kNMdeRGz
+    wowi: 26815
     enabled: true
 
   - dir: 05_MistsOfPandaria
     name: HandyNotes_MistsOfPandaria
     curse: 413925
-    wago: null
-    wowi: null
+    wago: jK8X9qKy
+    wowi: 26814
     enabled: true
 
   - dir: 06_WarlordsOfDraenor
     name: HandyNotes_WarlordsOfDraenor
     curse: 413924
-    wago: null
-    wowi: null
+    wago: 96doB7NO
+    wowi: 26813
     enabled: true
 
   - dir: 07_Legion
     name: HandyNotes_Legion
     curse: 413923
-    wago: null
-    wowi: null
+    wago: Q6aEPY6W
+    wowi: 26812
     enabled: true
 
   - dir: 08_BattleForAzeroth
