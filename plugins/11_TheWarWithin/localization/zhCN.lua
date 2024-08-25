@@ -138,7 +138,7 @@ L['biblo_book_11_location'] = '在建筑物内的桌子上。'
 L['options_icons_lost_and_found'] = '{achievement:40618}'
 L['options_icons_lost_and_found_desc'] = '显示 {achievement:40618} 成就中纪念物的位置。'
 
-L['lost_and_found_note'] = '从（{dot:Blue}）{npc:220718} 的任务 {quest:80673} 开始推进苍穹之忆故事线。{note:任务每周解锁}。\n\n每周可以完成3个纪念物，直到完成任务 {quest:82813}。'
+L['lost_and_found_note'] = '从（{dot:Red}）{npc:220718} 的任务 {quest:80673} 开始推进苍穹之忆故事线。{note:任务每周解锁}。\n\n每周可以完成3个纪念物，直到完成任务 {quest:82813}。'
 L['broken_bracelet_location'] = '将物品 {item:219810} 交给 {npc:215527}。'
 L['stuffed_lynx_toy_location'] = '将物品 {item:219809} 交给 {npc:218486}。'
 L['tarnished_compass_location'] = '将物品 {item:219524} 交给 {object:墓祭地点}。'

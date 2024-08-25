@@ -57,7 +57,7 @@ map.nodes[37924284] = Rare({
 map.nodes[70722147] = Rare({
     id = 216042,
     quest = 81704, -- 84073
-    note = L['in_small_cave'],
+    note = L['in_waterfall_cave'],
     -- ReputationGain(50, 2601), -- The Weaver
     -- ReputationGain(50, 2605), -- The General
     -- ReputationGain(50, 2607), -- The Vizier
@@ -98,7 +98,10 @@ map.nodes[61232730] = Rare({
     id = 216041,
     quest = 81699, -- One Time Kill
     note = L['in_building'],
-    rewards = {Achievement({id = 40840, criteria = 69655})}
+    rewards = {
+        Achievement({id = 40840, criteria = 69655}),
+        Transmog({item = 223369, slot = L['back']}) -- Webspeaker's Spiritual Cloak
+    }
 }) -- Webspeaker Grik'ik
 
 akl.nodes[65198283] = Rare({
@@ -312,7 +315,10 @@ cot.nodes[31642077] = Treasure({
 
 map.nodes[49554370] = Treasure({
     quest = 82529,
-    rewards = {Achievement({id = 40828, criteria = 69645})}
+    rewards = {
+        Achievement({id = 40828, criteria = 69645}),
+        Pet({item = 221760, id = 4513}) -- Bonedrinker
+    }
 }) -- Nest Egg
 
 map.nodes[54525081] = Treasure({

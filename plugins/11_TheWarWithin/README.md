@@ -79,6 +79,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Mementos for the [Lost and Found](https://www.wowhead.com/achievement=40618) achievement.
 * Ferocious warcats for the [The Missing Lynx](https://www.wowhead.com/achievement=40625) achievement.
 * Targets for the [Mereldar Menance](https://www.wowhead.com/achievement=40151) achievement.
+* Lesser Keyflames for the [Beacon of Hope](https://www.wowhead.com/achievement=40308) achievement.
 
 ### Azj-Kahet
 

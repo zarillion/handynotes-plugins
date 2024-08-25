@@ -107,6 +107,7 @@ map.nodes[72116435] = Rare({
 map.nodes[63931977] = Rare({
     id = 221179,
     quest = 82562, -- 84056
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40851, criteria = 69724})}
 }) -- Duskshadow
 
@@ -248,7 +249,7 @@ map.nodes[73405259] = Rare({
     rewards = {Achievement({id = 40851, criteria = 69709})}
 }) -- Sloshmuck
 
-map.nodes[42703134] = Rare({
+map.nodes[43602994] = Rare({
     id = 221690,
     quest = 81849, -- 84066
     rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
@@ -558,6 +559,7 @@ map.nodes[55135193] = Treasure({
 map.nodes[76765382] = Treasure({ -- review, was not there when i looked
     quest = 79275,
     location = L['in_cave'],
+    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {Achievement({id = 40848, criteria = 69702})},
     pois = {POI({76105390})} -- Entrance
 }) -- Spore-covered Coffer
@@ -748,60 +750,60 @@ local Momento = Class('Momento', Collectible, {
     icon = 4635200,
     group = ns.groups.LOST_AND_FOUND,
     note = L['lost_and_found_note'],
-    pois = {POI({60486018})}
+    pois = {POI({60486018, color = 'Red'})} -- Maera Ashyld
 })
 
 map.nodes[65463222] = Momento({
     location = L['broken_bracelet_location'],
-    requires = ns.requirement.Quest(80678),
+    requires = ns.requirement.Quest(80678), -- Time Lost
     rewards = {Achievement({id = 40618, criteria = 68932})}
 }) -- Broken Bracelet
 
 map.nodes[43285542] = Momento({
     location = L['stuffed_lynx_toy_location'],
-    requires = ns.requirement.Quest(80678),
+    requires = ns.requirement.Quest(80678), -- Time Lost
     rewards = {Achievement({id = 40618, criteria = 68933})}
 }) -- Stuffed Lynx Toy
 
 map.nodes[43465171] = Momento({
     location = L['tarnished_compass_location'],
-    requires = ns.requirement.Quest(80678),
+    requires = ns.requirement.Quest(80678), -- Time Lost
     rewards = {Achievement({id = 40618, criteria = 68934})}
 }) -- Tarnished Compass
 
 map.nodes[43204979] = Momento({
     location = L['sturdy_locket_location'],
-    requires = ns.requirement.Quest(82813),
+    requires = ns.requirement.Quest(82813), -- Time Borrowed
     rewards = {Achievement({id = 40618, criteria = 68935})}
 }) -- Sturdy Locket
 
 map.nodes[69264384] = Momento({
     location = L['wooden_figure_location'],
-    requires = ns.requirement.Quest(82813),
+    requires = ns.requirement.Quest(82813), -- Time Borrowed
     rewards = {Achievement({id = 40618, criteria = 68937})}
 }) -- Wooden Figure
 
 map.nodes[48423888] = Momento({
     location = L['calcified_journal_location'],
-    requires = ns.requirement.Quest(82813),
+    requires = ns.requirement.Quest(82813), -- Time Borrowed
     rewards = {Achievement({id = 40618, criteria = 68940})}
 }) -- Calcified Journal
 
 map.nodes[41643474] = Momento({
     location = L['ivory_tinderbox_location'],
-    requires = ns.requirement.Quest(82810),
+    requires = ns.requirement.Quest(82810), -- Time Found
     rewards = {Achievement({id = 40618, criteria = 68942})}
 }) -- Ivory Tinderbox
 
 map.nodes[42355502] = Momento({
     location = L['dented_spear_location'],
-    requires = ns.requirement.Quest(82810),
+    requires = ns.requirement.Quest(82810), -- Time Found
     rewards = {Achievement({id = 40618, criteria = 68943})}
 }) -- Dented Spear
 
 map.nodes[43974970] = Momento({
     location = L['filigreed_cleric_location'],
-    requires = ns.requirement.Quest(82810),
+    requires = ns.requirement.Quest(82810), -- Time Found
     rewards = {Achievement({id = 40618, criteria = 68945})}
 }) -- Filigreed Cleric
 
@@ -846,6 +848,7 @@ map.nodes[69274372] = MissingLynx({
 }) -- Iggy
 
 map.nodes[63182936] = MissingLynx({
+    requires = ns.requirement.Item(206350, 3), -- Radiant Remnant
     location = L['nightclaw_location'],
     rewards = {Achievement({id = 40625, criteria = 69003})}
 }) -- Nightclaw

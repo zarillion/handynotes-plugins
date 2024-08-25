@@ -139,7 +139,7 @@ L['biblo_book_11_location'] = 'A l\'intérieur du bâtiment sur une table.'
 L['options_icons_lost_and_found'] = '{achievement:40618}'
 L['options_icons_lost_and_found_desc'] = 'Afficher les emplacements des souvenirs perdus pour le haut-fait {achievement:40618}.'
 
-L['lost_and_found_note'] = 'Progressez dans le chapitre d\'histoire Les souvenirs du ciel commençant par la quête {quest:80673} donnée par ({dot:Blue}) {npc:220718}. {note:Les quêtes se débloquent chaque semaine}.\n\n3 souvenirs peuvent être complétés chaque semaine, jusqu\'à ce que vous terminiez la quête {quest:82813}.'
+L['lost_and_found_note'] = 'Progressez dans le chapitre d\'histoire Les souvenirs du ciel commençant par la quête {quest:80673} donnée par ({dot:Red}) {npc:220718}. {note:Les quêtes se débloquent chaque semaine}.\n\n3 souvenirs peuvent être complétés chaque semaine, jusqu\'à ce que vous terminiez la quête {quest:82813}.'
 L['broken_bracelet_location'] = 'Apportez le {item:219810} à {npc:215527}.'
 L['stuffed_lynx_toy_location'] = 'Apportez le {item:219809} à {npc:218486}.'
 L['tarnished_compass_location'] = 'Apportez la {item:219524} au {object:Lieu d\'offrande funéraire}.'
