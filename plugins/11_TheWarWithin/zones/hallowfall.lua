@@ -436,7 +436,7 @@ map.nodes[34965465] = IllusiveKobyssLure({
     pois = {Path({Circle({origin = 34965465, radius = 1.5})})}
 }) -- Ragefin Necrostaff
 
-map.nodes[55726960] = Treasure({
+map.nodes[55796954] = Treasure({
     quest = 81971,
     location = L['jewel_of_the_cliffs_location'],
     rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
@@ -569,7 +569,7 @@ map.nodes[63990612] = Treasure({
     label = L['coral_fused_clam'],
     note = L['coral_fused_clam_note'],
     pois = {
-        POI({61890609}) -- Clammer's Kit - Requires level 80 -- q80687
+        POI({61890609}) -- Clammer's Kit
     }
 }) -- Coral-Fused Clam
 
