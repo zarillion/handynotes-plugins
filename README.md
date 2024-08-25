@@ -1,13 +1,20 @@
-
 # HandyNotes Plugins
 
 Join our Discord server to discuss features and translations: https://discord.gg/EXCcmYW
 
 ![](https://github.com/zarillion/handynotes-plugins/workflows/Automated%20Build/badge.svg)
 
+* [HandyNotes: Kalimdor & Eastern Kingdoms](https://www.curseforge.com/wow/addons/handynotes-kalimdor-eastern-kingdoms)
+* [HandyNotes: The Burning Crusade](https://www.curseforge.com/wow/addons/handynotes-the-burning-crusade)
+* [HandyNotes: Wrath of the Lich King](https://www.curseforge.com/wow/addons/handynotes-wrath-of-the-lich-king)
+* [HandyNotes: Cataclysm](https://www.curseforge.com/wow/addons/handynotes-cataclysm)
+* [HandyNotes: Mists of Pandaria](https://www.curseforge.com/wow/addons/handynotes-mists-of-pandaria)
+* [HandyNotes: Warlords of Draenor](https://www.curseforge.com/wow/addons/handynotes-warlords-of-draenor)
+* [HandyNotes: Legion](https://www.curseforge.com/wow/addons/handynotes-legion)
 * [HandyNotes: Battle for Azeroth](https://www.curseforge.com/wow/addons/handynotes-battle-for-azeroth)
 * [HandyNotes: Shadowlands](https://www.curseforge.com/wow/addons/handynotes-shadowlands)
 * [HandyNotes: Dragonflight](https://www.curseforge.com/wow/addons/handynotes-dragonflight)
+* [HandyNotes: The War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within)
 
 ## Development Setup
 
