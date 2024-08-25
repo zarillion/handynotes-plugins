@@ -207,16 +207,16 @@ L['scampering_weave_rat_location'] = '占位符'
 L['generals_scouting_shadecaster_location'] = '占位符'
 
 L['options_icons_bookworm'] = '{achievement:40629}'
-L['options_icons_bookworm_desc'] = nil
+L['options_icons_bookworm_desc'] = '显示 {achievement:40629} 成就中书籍的位置。'
 
 L['nerubian_potion_note'] = '以500个 {currency:3056} 从 {npc:218192} 购买 {item:225784}。'
-L['bookworm_note'] = nil
-L['bookworm_1_location'] = nil
+L['bookworm_note'] = '{note:还可以使用 {item:225784} 完成 {achievement:40542} 成就。}'
+L['bookworm_1_location'] = '在小洞窟入口处。'
 
 L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = '显示 {achievement:40542} 成就中书籍的位置。'
 
-L['smelling_history_note'] = nil
+L['smelling_history_note'] = '{note:还可以使用 {item:225784} 完成 {achievement:40629} 成就。}'
 L['smelling_history_1_location'] = '在建筑物内的柜台上。'
 L['smelling_history_2_location'] = '卷轴在一个箱子上。'
 L['smelling_history_3_location'] = '卷轴在桌子上。'
@@ -225,7 +225,7 @@ L['smelling_history_5_location'] = '在建筑物内的桌子上。'
 L['smelling_history_6_location'] = '在房间南侧的床上。'
 L['smelling_history_7_location'] = '在一堆书的上面。'
 L['smelling_history_8_location'] = '在房间北边床边的桌子上。'
-L['smelling_history_9_location'] = '占位符'
+L['smelling_history_9_location'] = '在桌子后面，在 {npc:226024} 旁边。'
 L['smelling_history_10_location'] = '在长凳上。'
 L['smelling_history_11_location'] = '书在床边的桌子上。入口在喷泉上方。'
 L['smelling_history_12_location'] = '在建筑物内的桌子上。'
