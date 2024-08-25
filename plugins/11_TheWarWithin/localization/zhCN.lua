@@ -182,8 +182,8 @@ L['murkshade_note'] = '与 {npc:218455} 互动。'
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = '显示 {achievement:40151} 成就中的目标位置。'
 
-L['mereldar_menace_note'] = '与 {object:掷出石子} 互动并将其扔向目标。'
-L['light_and_flame_location'] = '瞄准 {object:掷出石子} 东边的 {npc:218472}。'
+L['mereldar_menace_note'] = '与 {object:飞掷之石} 互动并将其扔向目标。'
+L['light_and_flame_location'] = '{object:飞掷之石} 瞄准东边的 {npc:218472}。'
 L['lamplighter_doorway_location'] = '瞄准东边建筑物的门口。'
 L['barracks_doorway_location'] = '瞄准西边红色和金色帐篷的门口。'
 
