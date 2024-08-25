@@ -206,10 +206,17 @@ L['thimble_location'] = nil
 L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
+L['options_icons_bookworm'] = '{achievement:40629}'
+L['options_icons_bookworm_desc'] = nil
+
+L['bookworm_note'] = nil
+L['nerubian_potion_note'] = 'Compra la {item:225784} de {npc:218192} por 500x {currency:3056}.'
+L['bookworm_1_location'] = nil
+
 L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = 'Muestra dónde están los libros del logro {achievement:40542}.'
 
-L['smelling_history_note'] = 'Compra la {item:225784} de {npc:218192} por 500x {currency:3056}.'
+L['smelling_history_note'] = nil
 L['smelling_history_1_location'] = 'Dentro del edificio, en el mostrador.'
 L['smelling_history_2_location'] = 'El pergamino está en un cofre.'
 L['smelling_history_3_location'] = 'El pergamino está en una mesa.'

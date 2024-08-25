@@ -206,10 +206,17 @@ L['thimble_location'] = '占位符'
 L['scampering_weave_rat_location'] = '占位符'
 L['generals_scouting_shadecaster_location'] = '占位符'
 
+L['options_icons_bookworm'] = '{achievement:40629}'
+L['options_icons_bookworm_desc'] = nil
+
+L['nerubian_potion_note'] = '以500个 {currency:3056} 从 {npc:218192} 购买 {item:225784}。'
+L['bookworm_note'] = nil
+L['bookworm_1_location'] = nil
+
 L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = '显示 {achievement:40542} 成就中书籍的位置。'
 
-L['smelling_history_note'] = '以500个 {currency:3056} 从 {npc:218192} 购买 {item:225784}。'
+L['smelling_history_note'] = nil
 L['smelling_history_1_location'] = '在建筑物内的柜台上。'
 L['smelling_history_2_location'] = '卷轴在一个箱子上。'
 L['smelling_history_3_location'] = '卷轴在桌子上。'

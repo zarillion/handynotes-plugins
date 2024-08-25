@@ -187,6 +187,13 @@ L['thimble_location'] = nil
 L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
+L['options_icons_bookworm'] = '{achievement:40629}'
+L['options_icons_bookworm_desc'] = nil
+
+L['nerubian_potion_note'] = nil
+L['bookworm_note'] = nil
+L['bookworm_1_location'] = nil
+
 L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = '顯示成就 {achievement:40542} 所需的書籍位置.'
 
