@@ -207,16 +207,16 @@ L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
 L['options_icons_bookworm'] = '{achievement:40629}'
-L['options_icons_bookworm_desc'] = nil
+L['options_icons_bookworm_desc'] = 'Muestra dónde están los libros para el logro {achievement:40629}.'
 
-L['nerubian_potion_note'] = 'Compra la {item:225784} de {npc:218192} por 500x {currency:3056}.'
-L['bookworm_note'] = nil
-L['bookworm_1_location'] = nil
+L['nerubian_potion_note'] = 'Compra la {item:225784} ({note:el buff dura 10 minutos}) de {npc:218192} por 500x {currency:3056}.'
+L['bookworm_note'] = '{note:También puedes completar el logro {achievement:40542} con la {item:225784}.}'
+L['bookworm_1_location'] = 'En la entrada de la cueva pequeña.'
 
 L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = 'Muestra dónde están los libros del logro {achievement:40542}.'
 
-L['smelling_history_note'] = nil
+L['smelling_history_note'] = '{note:También puedes completar el logro {achievement:40629} con la {item:225784}.}'
 L['smelling_history_1_location'] = 'Dentro del edificio, en el mostrador.'
 L['smelling_history_2_location'] = 'El pergamino está en un cofre.'
 L['smelling_history_3_location'] = 'El pergamino está en una mesa.'
@@ -225,7 +225,7 @@ L['smelling_history_5_location'] = 'Dentro del edificio, en una mesa.'
 L['smelling_history_6_location'] = 'En la cama del lado sur de la habitación.'
 L['smelling_history_7_location'] = 'Encima de una pila de libros.'
 L['smelling_history_8_location'] = 'En la mesa junto a la cama en el lado norte de la habitación.'
-L['smelling_history_9_location'] = nil
+L['smelling_history_9_location'] = 'Detrás del escritorio inclinado al lado de {npc:226024}.'
 L['smelling_history_10_location'] = 'En un banco.'
 L['smelling_history_11_location'] = 'El libro está en una mesa junto a la cama. La entrada está encima de la fuente.'
 L['smelling_history_12_location'] = 'Dentro del edificio, en una mesa.'
