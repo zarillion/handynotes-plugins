@@ -209,8 +209,8 @@ L['generals_scouting_shadecaster_location'] = nil
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = nil
 
-L['bookworm_note'] = nil
 L['nerubian_potion_note'] = 'Compra la {item:225784} de {npc:218192} por 500x {currency:3056}.'
+L['bookworm_note'] = nil
 L['bookworm_1_location'] = nil
 
 L['options_icons_smelling_history'] = '{achievement:40542}'
