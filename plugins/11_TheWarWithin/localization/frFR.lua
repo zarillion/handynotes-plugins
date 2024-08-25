@@ -235,7 +235,7 @@ L['options_icons_skittershaw_spin'] = '{achievement:40727}'
 L['options_icons_skittershaw_spin_desc'] = 'Afficher l\'itinéraire de la Trotteuse pour le haut-fait {achievement:40727}.'
 L['skittershaw_spin_note'] = 'Chevauchez la {npc:224973} et faites un tour complet du quartier.\n\nLa {npc:224973} s\'arrêtera à ces emplacements {dot:Red} le long du trajet.'
 
-L['memory_cache_note'] = 'Obtenez le buff {spell:420847} à partir d\'une ({dot:Blue}) {object:Remise de l\'extracteur} proche. Tuez le {npc:223908} pour obtenir la {item:223870} permettant d\'ouvrir la {object:Cache de souvenirs}.'
+L['memory_cache_note'] = 'Obtenez le buff {spell:420847} à partir d\'une ({dot:Red}) {object:Remise de l\'extracteur} proche. Tuez le {npc:223908} pour obtenir la {item:223870} permettant d\'ouvrir la {object:Cache de souvenirs}.'
 L['niffen_stash_note'] = 'Situé sous le pont.'
 L['trapped_trove_note'] = 'Dans un bâtiment suspendu au plafond. Évitez les toiles d\'araignées au sol.'
 

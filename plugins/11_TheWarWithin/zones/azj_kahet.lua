@@ -283,6 +283,7 @@ map.nodes[62816618] = Rare({
 akl.nodes[62728795] = Treasure({
     quest = 82520,
     parent = map.id,
+    requires = ns.requirement.Item(223870), -- Cache Key
     note = L['memory_cache_note'],
     -- ReputationGain(50, 2601), -- The Weaver
     -- ReputationGain(50, 2605), -- The General
@@ -291,7 +292,9 @@ akl.nodes[62728795] = Treasure({
         Achievement({id = 40828, criteria = 69615}),
         Pet({item = 225544, id = 4599}) -- Mind Slurp
     },
-    pois = {POI({61498384, 62338363, 63478590, 65238877})}
+    pois = {
+        POI({pois = {61498384, 62338363, 63478590, 65238877}, color = 'Red'})
+    }
 }) -- Memory Cache
 
 map.nodes[67459072] = Treasure({
