@@ -106,7 +106,7 @@ L['illuminated_footlocker_note'] = '从 {npc:220703} 处接住5个掉落的 {spe
 L['illusive_kobyss_lure_note'] = '组合全部4个物品制造 {item:225641}：'
 L['sunless_lure_location'] = '由 {location:无晖之滨} 的 {npc:215653} 掉落。'
 L['sky_captains_sunken_cache_note'] = [[
-与四位不同的天空队长在他们的飞艇上交谈以揭示宝藏。
+与四位不同的天空船长在他们的飞艇上交谈以揭示宝藏。
 
 {npc:222333}（{dot:Green}）逆时针飞行。
 {npc:222311}（{dot:Yellow}）逆时针飞行。
