@@ -736,6 +736,7 @@ cot.nodes[38423227] = SmellingHistory({
 }) -- Queen Zaltra
 
 cot.nodes[38203910] = SmellingHistory({
+    parent = map.id,
     location = L['smelling_history_9_location'],
     rewards = {Achievement({id = 40542, criteria = 68987})},
     pois = {POI({40173874})}
