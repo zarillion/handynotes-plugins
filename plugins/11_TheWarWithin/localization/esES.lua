@@ -120,10 +120,7 @@ L['priory_satchel_location'] = 'Despoja {object:Windswept Satchel} colgando de l
 L['smugglers_treasure_note'] = 'Despoja la {item:225335} requerida desde ({dot:Blue}) {npc:226025} debajo del acantilado.'
 L['smugglers_treasure_location'] = 'En lo alto del acantilado entre varias rocas.'
 L['coral_fused_clam'] = 'Almeja Incrustada de Coral'
-L['coral_fused_clam_note'] = [[Despoja una {item:218354} del {object:Equipo de Mariscador} para abrir la Almeja.
-
-{note:Requiere ser nivel 80 para cogerla.}
-]]
+L['coral_fused_clam_note'] = 'Despoja una {item:218354} del {object:Equipo de Mariscador} para abrir la Almeja.'
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
 L['options_icons_biblo_archivist_desc'] = 'Muestra dónde están los libros del logro {achievement:40622}.'
@@ -168,13 +165,12 @@ L['furball_location'] = 'Dentro del edificio en ruinas.'
 L['dander_location'] = 'Afuera.'
 L['gobbo_location'] = 'Dentro del edificio encima de la cama.'
 
+L['beledars_spawn_note'] = 'Este raro aparece en uno de muchos sitios a intérvalos fijos.\n\nSiguiente aparición en:\n{note:%s (%s)}'
 L['croakit_note'] = [[Para atacar a {npc:214757} primero tienes que pescar 10x {item:211474} del agua cercana.
 
 Una vez los tengas todos ve a {npc:214757} y échaselos.]]
 L['deathtide_note'] = [[Para invocarlo tienes que usar una {item:220123} en el {object:Altar Agorero}.
-Necesitarás combinar {item:220122} {dot:Blue} y {item:220124} {dot:Green} para conseguir la {item:220123}.
-
-{note:Requiere ser nivel 80 para cogerla.} ]]
+Necesitarás combinar {item:220122} {dot:Blue} y {item:220124} {dot:Green} para conseguir la {item:220123}.]]
 L['murkshade_note'] = 'Interactúa con {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
@@ -189,6 +185,8 @@ L['options_icons_beacon_of_hope'] = '{achievement:40308}'
 L['options_icons_beacon_of_hope_desc'] = 'Muestra dónde están las llaves ardientes inferiores para el logro {achievement:40308}.'
 
 L['beacon_of_hope_note'] = 'Contribuye con {item:206350} para encender las llaves ardientes inferiores y completar las misiones siguientes.'
+
+L['parasidious_note'] = 'Para hacer aparecer a este raro necesitarás comprar unos {item:206670} al {npc:206533} (activa la {object:Llave Ardiente Inferior} para hacer que aparezca) e ir al {location:Paraje Alzaocaso} y sacar las {npc:206870}. A medida que las saques, una vid saldrá disparada de ti hacia un {object:Túmulo Revuelto} y crecerá/cambiará hasta que eventualmente aparezca el raro.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
@@ -207,16 +205,16 @@ L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
 L['options_icons_bookworm'] = '{achievement:40629}'
-L['options_icons_bookworm_desc'] = nil
+L['options_icons_bookworm_desc'] = 'Muestra dónde están los libros para el logro {achievement:40629}.'
 
-L['nerubian_potion_note'] = 'Compra la {item:225784} de {npc:218192} por 500x {currency:3056}.'
-L['bookworm_note'] = nil
-L['bookworm_1_location'] = nil
+L['nerubian_potion_note'] = 'Compra la {item:225784} ({note:el buff dura 10 minutos}) de {npc:218192} por 500x {currency:3056}.'
+L['bookworm_note'] = '{note:También puedes completar el logro {achievement:40542} con la {item:225784}.}'
+L['bookworm_1_location'] = 'En la entrada de la cueva pequeña.'
 
 L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = 'Muestra dónde están los libros del logro {achievement:40542}.'
 
-L['smelling_history_note'] = nil
+L['smelling_history_note'] = '{note:También puedes completar el logro {achievement:40629} con la {item:225784}.}'
 L['smelling_history_1_location'] = 'Dentro del edificio, en el mostrador.'
 L['smelling_history_2_location'] = 'El pergamino está en un cofre.'
 L['smelling_history_3_location'] = 'El pergamino está en una mesa.'
@@ -225,7 +223,7 @@ L['smelling_history_5_location'] = 'Dentro del edificio, en una mesa.'
 L['smelling_history_6_location'] = 'En la cama del lado sur de la habitación.'
 L['smelling_history_7_location'] = 'Encima de una pila de libros.'
 L['smelling_history_8_location'] = 'En la mesa junto a la cama en el lado norte de la habitación.'
-L['smelling_history_9_location'] = nil
+L['smelling_history_9_location'] = 'Detrás del escritorio inclinado al lado de {npc:226024}.'
 L['smelling_history_10_location'] = 'En un banco.'
 L['smelling_history_11_location'] = 'El libro está en una mesa junto a la cama. La entrada está encima de la fuente.'
 L['smelling_history_12_location'] = 'Dentro del edificio, en una mesa.'

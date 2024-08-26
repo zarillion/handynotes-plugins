@@ -77,6 +77,7 @@ read_globals = {
     'GetProfessionInfo',
     'GetProfessions',
     'GetQuestObjectiveInfo',
+    'GetQuestResetTime',
     'GetServerTime',
     'GetSpellInfo', -- 10.2.7
     'GetText',

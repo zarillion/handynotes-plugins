@@ -154,6 +154,7 @@ L['furball_location'] = nil
 L['dander_location'] = nil
 L['gobbo_location'] = nil
 
+L['beledars_spawn_note'] = nil
 L['croakit_note'] = nil
 L['deathtide_note'] = nil
 L['murkshade_note'] = nil
@@ -170,6 +171,8 @@ L['options_icons_beacon_of_hope'] = '{achievement:40308}'
 L['options_icons_beacon_of_hope_desc'] = nil
 
 L['beacon_of_hope_note'] = nil
+
+L['parasidious_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------

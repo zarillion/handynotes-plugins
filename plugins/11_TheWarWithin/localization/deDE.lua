@@ -166,6 +166,7 @@ L['furball_location'] = 'Im zerstörten Gebäude.'
 L['dander_location'] = 'Draußen.'
 L['gobbo_location'] = 'Im Gebäude auf dem Bett.'
 
+L['beledars_spawn_note'] = 'Dieser Gegner erscheint an einem von mehreren Positionen in einem festgelegten Intervall.\n\nNächstes erscheinen:\n{note:%s (%s)}'
 L['croakit_note'] = nil
 L['deathtide_note'] = nil
 L['murkshade_note'] = 'Interagiere mit {npc:218455}.'
@@ -182,6 +183,8 @@ L['options_icons_beacon_of_hope'] = '{achievement:40308}'
 L['options_icons_beacon_of_hope_desc'] = 'Zeigt die Positionen der kleinen Schlüsselflammen für den Erfolg {achievement:40308} an.'
 
 L['beacon_of_hope_note'] = 'Steuert {item:206350} bei, um kleinere Schlüsselflammen zu entzünden und die folgenden Quests abzuschließen. '
+
+L['parasidious_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------

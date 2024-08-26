@@ -37,7 +37,7 @@ local map = Map({id = 2215, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[15004000] = Rare({
+local BeledarsSpawn = Class('ProfessionRare', Rare, {
     id = 207802,
     quest = 81763, -- 85164
     rewards = {
@@ -55,6 +55,28 @@ map.nodes[15004000] = Rare({
     }
 }) -- Beledar's Spawn
 
+function BeledarsSpawn.getters:note()
+    local timeFormat =
+        ns:GetOpt('use_standard_time') and L['time_format_12hrs'] or
+            L['time_format_24hrs']
+
+    local timeLeft = (GetQuestResetTime() + 3660) % 10800
+    local nextSpawn = timeLeft + time()
+
+    local spawnsIn = timeLeft <= 60 and L['now'] or
+                         SecondsToTime(timeLeft, true, true)
+
+    local color = ns.color.Orange
+    if timeLeft < 1800 then color = ns.color.Yellow end -- 30 mins
+    if timeLeft < 600 then color = ns.color.Green end -- 10 mins
+    spawnsIn = color(spawnsIn)
+
+    return format(L['beledars_spawn_note'], spawnsIn,
+        date(timeFormat, nextSpawn))
+end
+
+map.nodes[15004000] = BeledarsSpawn()
+
 -- map.nodes[08002000] = Rare({
 --     id = 220159,
 --     quest = 80486, review -- need rep quest id if triggered
@@ -66,7 +88,10 @@ map.nodes[65052965] = Rare({
     quest = 82558, -- 84052
     rewards = {
         Achievement({id = 40851, criteria = 69720}),
-        Reputation({id = 2570, gain = 150, quest = 84052})
+        Reputation({id = 2570, gain = 150, quest = 84052}),
+        Transmog({item = 223935, type = L['cloth']}), -- Cabbage Harvester's Pantaloons
+        Transmog({item = 223928, type = L['plate']}), -- Crop Cutter's Gauntlets
+        Transmog({item = 221238, type = L['staff']}) -- Pillar of Constructs
     }
 }) -- Crazed Cabbage Smacker
 
@@ -76,7 +101,11 @@ map.nodes[67552316] = Rare({
     note = L['croakit_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69722}),
-        Reputation({id = 2570, gain = 150, quest = 84054})
+        Reputation({id = 2570, gain = 150, quest = 84054}),
+        Transmog({item = 223938, type = L['leather']}), -- Marsh Hopper's Spaulders
+        Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
+        Transmog({item = 221246, type = L['staff']}), -- Fierce Beast Staff
+        Transmog({item = 221247, type = L['crossbow']}) -- Cavernous Critter Shooter
     },
     pois = {POI({65802355})}
 }) -- Croakit
@@ -86,7 +115,10 @@ map.nodes[63643205] = Rare({
     quest = 82559, -- 84053
     rewards = {
         Achievement({id = 40851, criteria = 69721}),
-        Reputation({id = 2570, gain = 150, quest = 84053})
+        Reputation({id = 2570, gain = 150, quest = 84053}),
+        Transmog({item = 223927, type = L['leather']}), -- Vinewrapped Leather Tunic
+        Transmog({item = 221253, type = L['fist']}), -- Cultivator's Plant Puncher
+        Transmog({item = 221250, type = L['1h_sword']}) -- Creeping Lasher Machete
     }
 }) -- Deathpetal
 
@@ -96,7 +128,8 @@ map.nodes[44744241] = Rare({
     note = L['deathtide_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69717}),
-        Reputation({id = 2570, gain = 150, quest = 85165})
+        Reputation({id = 2570, gain = 150, quest = 85165}),
+        Transmog({item = 225997, type = L['cosmetic']}) -- Earthen Adventurer's Spaulders
     },
     pois = {
         POI({48001668, color = 'Green'}), -- Jar of Mucus
@@ -112,7 +145,10 @@ map.nodes[72116435] = Rare({
     rewards = {
         Achievement({id = 40851, criteria = 69703}),
         Reputation({id = 2570, gain = 150, quest = 80011}),
-        Transmog({item = 223394, type = L['plate']}) -- Deepfiend Pauldrons
+        Transmog({item = 223394, type = L['plate']}), -- Deepfiend Pauldrons
+        Transmog({item = 223393, type = L['leather']}), -- Deepfiend Spaulders
+        Transmog({item = 223396, type = L['mail']}), -- Deepfiend Shoulder Shells
+        Transmog({item = 223395, type = L['cloth']}) -- Deepfiend Shoulderpads
     }
 }) -- Deepfiend Azellix
 
@@ -121,7 +157,10 @@ map.nodes[63931977] = Rare({
     quest = 82562, -- 84056
     rewards = {
         Achievement({id = 40851, criteria = 69724}),
-        Reputation({id = 2570, gain = 150, quest = 84056})
+        Reputation({id = 2570, gain = 150, quest = 84056}),
+        Transmog({item = 223936, type = L['mail']}), -- Shadow Bog Trousers
+        Transmog({item = 223918, type = L['gun']}), -- Specter Stalker's Shotgun
+        Transmog({item = 223919, type = L['1h_mace']}) -- Abducted Lawman's Gavel
     }
 }) -- Duskshadow
 
@@ -130,7 +169,8 @@ map.nodes[62011683] = Rare({
     quest = 82564, -- 84059
     rewards = {
         Achievement({id = 40851, criteria = 69727}),
-        Reputation({id = 2570, gain = 150, quest = 84059})
+        Reputation({id = 2570, gain = 150, quest = 84059}),
+        Transmog({item = 223925, type = L['plate']}) -- Blood Hungerer's Chestplate
     }
 }) -- Finclaw Bloodtide
 
@@ -175,7 +215,10 @@ map.nodes[33122687] = Rare({
     quest = 81836, -- 84065
     rewards = {
         Achievement({id = 40851, criteria = 69712}),
-        Reputation({id = 2570, gain = 150, quest = 84065})
+        Reputation({id = 2570, gain = 150, quest = 84065}),
+        Transmog({item = 221211, type = L['cloth']}), -- Grasp of the Shallows
+        Transmog({item = 221248, type = L['1h_axe']}), -- Deep Terror Carver
+        Transmog({item = 221255, type = L['dagger']}) -- Sharpened Scalepiercer
     },
     pois = {
         Path({
@@ -208,7 +251,10 @@ map.nodes[23005922] = Rare({
     rewards = {
         Achievement({id = 40851, criteria = 69710}),
         Reputation({id = 2570, gain = 150, quest = 84063}),
-        Transmog({item = 221207, type = L['mail']}) -- Den Mother's Chestpiece
+        Transmog({item = 221207, type = L['mail']}), -- Den Mother's Chestpiece
+        Transmog({item = 221246, type = L['staff']}), -- Fierce Beast Staff
+        Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
+        Transmog({item = 221247, type = L['crossbow']}) -- Cavernous Critter Shooter
     }
 }) -- Lytfang the Lost
 
@@ -217,7 +263,10 @@ map.nodes[63452854] = Rare({
     quest = 82557, -- 84051
     rewards = {
         Achievement({id = 40851, criteria = 69719}),
-        Reputation({id = 2570, gain = 150, quest = 84051})
+        Reputation({id = 2570, gain = 150, quest = 84051}),
+        Transmog({item = 223924, type = L['cloth']}), -- Chitin-Inscribed Vest
+        Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
+        Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
     }
 }) -- Moth'ethk
 
@@ -240,22 +289,35 @@ map.nodes[61981331] = Rare({ -- patrols
     quest = 82565, -- 84060
     rewards = {
         Achievement({id = 40851, criteria = 69728}),
-        Reputation({id = 2570, gain = 150, quest = 84060})
+        Reputation({id = 2570, gain = 150, quest = 84060}),
+        Transmog({item = 223934, type = L['plate']}), -- Makrura's Foreboding Legplates
+        Transmog({item = 221248, type = L['1h_axe']}), -- Deep Terror Carver
+        Transmog({item = 221255, type = L['dagger']}) -- Sharpened Scalepiercer
     }
 }) -- Murkspike
 
--- map.nodes[12002200] = Rare({
---     id = nil,
---     quest = 82563, -- review -- need rep quest id if triggered
---     rewards = {Achievement({id = 40851, criteria = 69725})}
--- }) -- Parasidious
+map.nodes[61803220] = Rare({
+    id = 206977,
+    quest = 82563, -- review -- need rep quest id if triggered
+    note = L['parasidious_note'], -- review, text from wowhead comment
+    rewards = {
+        Achievement({id = 40851, criteria = 69725}),
+        Transmog({item = 223940, type = L['mail']}), -- Deranged Fungarian's Epaulets
+        Transmog({item = 221520, type = L['1h_sword']}) -- Creeping Lasher Machete
+    }
+}) -- Parasidious
 
 map.nodes[57304857] = Rare({
     id = 221786,
     quest = 81882, -- 84068
     rewards = {
         Achievement({id = 40851, criteria = 69715}),
-        Reputation({id = 2570, gain = 150, quest = 84068})
+        Reputation({id = 2570, gain = 150, quest = 84068}),
+        Transmog({item = 221225, type = L['cloth']}), -- Benevolent Hornstag Cinch
+        Transmog({item = 223007, type = L['polearm']}), -- Lance of Beledar's Pride
+        Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
+        Transmog({item = 221247, type = L['crossbow']}), -- Cavernous Critter Shooter
+        Transmog({item = 221246, type = L['staff']}) -- Fierce Beast Staff
     }
 }) -- Pride of Beledar
 
@@ -264,7 +326,10 @@ map.nodes[59702107] = Rare({
     quest = 82566, --- 84058
     rewards = {
         Achievement({id = 40851, criteria = 69726}),
-        Reputation({id = 2570, gain = 150, quest = 84058})
+        Reputation({id = 2570, gain = 150, quest = 84058}),
+        Transmog({item = 223932, type = L['mail']}), -- Scarab's Carapace Cap
+        Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
+        Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
     }
 }) -- Ravageant
 
@@ -273,7 +338,9 @@ map.nodes[35943547] = Rare({
     quest = 81853, -- 84067
     rewards = {
         Achievement({id = 40851, criteria = 69714}),
-        Reputation({id = 2570, gain = 150, quest = 84067})
+        Reputation({id = 2570, gain = 150, quest = 84067}),
+        Transmog({item = 221245, type = L['leather']}), -- Righteous Path Treads
+        Transmog({item = 221241, type = L['dagger']}) -- Priestly Agent's Knife
     }
 }) -- Sir Alastair Purefire
 
@@ -282,7 +349,10 @@ map.nodes[73405259] = Rare({
     quest = 79271, -- 84062
     rewards = {
         Achievement({id = 40851, criteria = 69709}),
-        Reputation({id = 2570, gain = 150, quest = 84062})
+        Reputation({id = 2570, gain = 150, quest = 84062}),
+        Transmog({item = 221223, type = L['mail']}), -- Bog Beast Mantle
+        Transmog({item = 221253, type = L['fist']}), -- Cultivator's Plant Puncher
+        Transmog({item = 221520, type = L['1h_sword']}) -- Creeping Lasher Machete
     }
 }) -- Sloshmuck
 
@@ -292,6 +362,10 @@ map.nodes[42703134] = Rare({
     rewards = {
         Achievement({id = 40851, criteria = 69713}),
         Reputation({id = 2570, gain = 150, quest = 84066}),
+        Transmog({item = 221216, type = L['plate']}), -- Bruin Strength Legplates
+        Transmog({item = 221508, type = L['cloak']}), -- Pelt of Beledar's Strength
+        Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
+        Transmog({item = 221247, type = L['crossbow']}), -- Cavernous Critter Shooter
         Transmog({item = 221246, type = L['staff']}) -- Fierce Beast Staff
     }
 }) -- Strength of Beledar
@@ -302,7 +376,10 @@ map.nodes[44011637] = Rare({
     rewards = {
         Achievement({id = 40851, criteria = 69711}),
         Reputation({id = 2570, gain = 150, quest = 84064}),
-        Transmog({item = 221229, type = L['plate']}) -- Perchfather's Cuffs
+        Transmog({item = 221229, type = L['plate']}), -- Perchfather's Cuffs
+        Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
+        Transmog({item = 221247, type = L['crossbow']}), -- Cavernous Critter Shooter
+        Transmog({item = 221246, type = L['staff']}) -- Fierce Beast Staff
     }
 }) -- The Perchfather
 
@@ -311,7 +388,10 @@ map.nodes[56486899] = Rare({
     quest = 80009, -- 84061
     rewards = {
         Achievement({id = 40851, criteria = 69708}),
-        Reputation({id = 2570, gain = 150, quest = 84061})
+        Reputation({id = 2570, gain = 150, quest = 84061}),
+        Transmog({item = 221215, type = L['leather']}), -- Taskmaster's Mining Cap
+        Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
+        Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
     }
 }) -- The Taskmaker
 
@@ -320,7 +400,9 @@ map.nodes[66432411] = Rare({
     quest = 82561, -- 84055
     rewards = {
         Achievement({id = 40851, criteria = 69723}),
-        Reputation({id = 2570, gain = 150, quest = 84055})
+        Reputation({id = 2570, gain = 150, quest = 84055}),
+        Transmog({item = 223933, type = L['leather']}), -- Slime Goliath's Cap
+        Transmog({item = 223920, type = L['shield']}) -- Slime Deflecting Stopper
     }
 }) -- Toadstomper
 
