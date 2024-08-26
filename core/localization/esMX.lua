@@ -59,6 +59,8 @@ L['hard'] = 'Difícil'
 
 L['completed'] = 'Terminado'
 L['incomplete'] = 'Incompleto'
+L['claimed'] = nil
+L['unclaimed'] = nil
 L['known'] = 'Conocido'
 L['missing'] = 'Desconocido'
 L['unobtainable'] = 'No se puede obtener'
@@ -201,6 +203,10 @@ L['options_transmog_rewards'] = nil
 L['options_transmog_rewards_desc'] = nil
 L['options_all_transmog_rewards'] = nil
 L['options_all_transmog_rewards_desc'] = nil
+L['options_rep_rewards'] = nil
+L['options_rep_rewards_desc'] = nil
+L['options_claimed_rep_rewards'] = nil
+L['options_claimed_rep_rewards_desc'] = nil
 
 L['options_icons_misc_desc'] = nil
 L['options_icons_misc'] = 'Miscelánea'

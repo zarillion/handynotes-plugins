@@ -19,11 +19,10 @@ local Achievement = ns.reward.Achievement
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Reputation = ns.reward.Reputation
 
 local POI = ns.poi.POI
 local Path = ns.poi.Path
-
-local ReputationGain = ns.tooltip.ReputationGain
 
 -------------------------------------------------------------------------------
 
@@ -41,6 +40,9 @@ map.nodes[46383875] = Rare({
     quest = 81695, -- One Time Kill
     rewards = {
         Achievement({id = 40840, criteria = 69651}),
+        Reputation({id = 2601, gain = 50, quest = 81695}),
+        Reputation({id = 2605, gain = 50, quest = 81695}),
+        Reputation({id = 2607, gain = 50, quest = 81695}),
         Transmog({item = 223390, type = L['cloth']}), -- Leggings of Dark Hunger
         Transmog({item = 223392, type = L['leather']}), -- Trousers of Dark Hunger
         Transmog({item = 223391, type = L['mail']}), -- Legguards of Dark Hunger
@@ -51,18 +53,23 @@ map.nodes[46383875] = Rare({
 map.nodes[37924284] = Rare({
     id = 214151,
     quest = 78905, -- One Time Kill
-    rewards = {Achievement({id = 40840, criteria = 69654})}
+    rewards = {
+        Achievement({id = 40840, criteria = 69654}),
+        Reputation({id = 2601, gain = 50, quest = 78905}),
+        Reputation({id = 2605, gain = 50, quest = 78905}),
+        Reputation({id = 2607, gain = 50, quest = 78905})
+    }
 }) -- Ahg'zagall
 
 map.nodes[70722147] = Rare({
     id = 216042,
     quest = 81704, -- 84073
     note = L['in_waterfall_cave'],
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40840, criteria = 69661}),
+        Reputation({id = 2601, gain = 50, quest = 84073}),
+        Reputation({id = 2605, gain = 50, quest = 84073}),
+        Reputation({id = 2607, gain = 50, quest = 84073}),
         Transmog({item = 221212, type = L['mail']}), -- Death Burrower Handguards
         Transmog({item = 221237, type = L['offhand']}) -- Lamentable Vagrant's Lantern
     },
@@ -72,11 +79,11 @@ map.nodes[70722147] = Rare({
 cot.nodes[30755599] = Rare({
     id = 216038,
     quest = 81634, -- 84069
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40840, criteria = 69657}),
+        Reputation({id = 2601, gain = 50, quest = 84069}),
+        Reputation({id = 2605, gain = 50, quest = 84069}),
+        Reputation({id = 2607, gain = 50, quest = 84069}),
         Transmog({item = 221214, type = L['mail']}), -- Chitin Chain Headpiece
         Transmog({item = 221240, type = L['1h_sword']}), -- Nerubian Stagshell Gouger
         Transmog({item = 221252, type = L['2h_sword']}) -- Nerubian Slayer's Claymore
@@ -87,11 +94,11 @@ cot.nodes[30755599] = Rare({
 map.nodes[64560668] = Rare({
     id = 222624,
     quest = 82077, -- 84081
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40840, criteria = 69669}),
+        Reputation({id = 2601, gain = 50, quest = 84081}),
+        Reputation({id = 2605, gain = 50, quest = 84081}),
+        Reputation({id = 2607, gain = 50, quest = 84081}),
         Transmog({item = 223923, type = L['plate']}), -- Gilded Cryptlord's Sabatons
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
         Transmog({item = 223915, type = L['dagger']}) -- Nerubian Orator's Stiletto
@@ -102,11 +109,11 @@ map.nodes[64560668] = Rare({
 map.nodes[58036210] = Rare({
     id = 216045,
     quest = 81707, -- 84076
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40840, criteria = 69664}),
+        Reputation({id = 2601, gain = 50, quest = 84076}),
+        Reputation({id = 2605, gain = 50, quest = 84076}),
+        Reputation({id = 2607, gain = 50, quest = 84076}),
         Transmog({item = 221243, type = L['cloth']}), -- Slippers of Delirium
         Transmog({item = 221255, type = L['dagger']}), -- Sharpened Scalepiercer
         Transmog({item = 221248, type = L['1h_axe']}) -- Deep Terror Carver
@@ -119,6 +126,9 @@ map.nodes[61232730] = Rare({
     note = L['in_building'],
     rewards = {
         Achievement({id = 40840, criteria = 69655}),
+        Reputation({id = 2601, gain = 50, quest = 81699}),
+        Reputation({id = 2605, gain = 50, quest = 81699}),
+        Reputation({id = 2607, gain = 50, quest = 81699}),
         Transmog({item = 223369, slot = L['back']}) -- Webspeaker's Spiritual Cloak
     }
 }) -- Webspeaker Grik'ik
@@ -126,11 +136,11 @@ map.nodes[61232730] = Rare({
 akl.nodes[65198283] = Rare({
     id = 216050,
     quest = 82036, -- 84079
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40840, criteria = 69667}),
+        Reputation({id = 2601, gain = 50, quest = 84079}),
+        Reputation({id = 2605, gain = 50, quest = 84079}),
+        Reputation({id = 2607, gain = 50, quest = 84079}),
         Transmog({item = 223941, type = L['plate']}), -- Nerubian Cultivator's Girdle
         Transmog({item = 223915, type = L['dagger']}) -- Nerubian Orator's Stiletto
     },
@@ -146,11 +156,11 @@ akl.nodes[65198283] = Rare({
 akl.nodes[67438318] = Rare({
     id = 216048,
     quest = 82034, -- 84077
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40840, criteria = 69665}),
+        Reputation({id = 2601, gain = 50, quest = 84077}),
+        Reputation({id = 2605, gain = 50, quest = 84077}),
+        Reputation({id = 2607, gain = 50, quest = 84077}),
         Transmog({item = 223950, type = L['leather']}), -- Corruption Sifter's Treads
         Transmog({item = 223917, type = L['cloak']}) -- Nerubian Covert's Cloak
     },
@@ -160,11 +170,11 @@ akl.nodes[67438318] = Rare({
 map.nodes[62400703] = Rare({ -- renamed by Blizzard?
     id = 216052,
     quest = 82078, -- 84082
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40840, criteria = 69670}),
+        Reputation({id = 2601, gain = 50, quest = 84082}),
+        Reputation({id = 2605, gain = 50, quest = 84082}),
+        Reputation({id = 2607, gain = 50, quest = 84082}),
         Transmog({item = 223939, type = L['cloth']}), -- Esteemed Nerubian's Mantle
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
         Transmog({item = 223915, type = L['dagger']}) -- Nerubian Orator's Stiletto
@@ -176,11 +186,11 @@ map.nodes[62400703] = Rare({ -- renamed by Blizzard?
 map.nodes[63152530] = Rare({
     id = 221327,
     quest = 81702, -- 84071
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40840, criteria = 69659}),
+        Reputation({id = 2601, gain = 50, quest = 84071}),
+        Reputation({id = 2605, gain = 50, quest = 84071}),
+        Reputation({id = 2607, gain = 50, quest = 84071}),
         Transmog({item = 221206, type = L['plate']}), -- Reinforced Chitin Chestpiece
         Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
         Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
@@ -197,11 +207,11 @@ map.nodes[63152530] = Rare({
 map.nodes[66496197] = Rare({
     id = 216044,
     quest = 81706, -- 84075
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40840, criteria = 69663}),
+        Reputation({id = 2601, gain = 50, quest = 84075}),
+        Reputation({id = 2605, gain = 50, quest = 84075}),
+        Reputation({id = 2607, gain = 50, quest = 84075}),
         Transmog({item = 221217, type = L['cloth']}), -- Nerubian Bomber's Leggings
         Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
         Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
@@ -220,11 +230,11 @@ map.nodes[66496197] = Rare({
 map.nodes[69986923] = Rare({
     id = 216043,
     quest = 81705, -- 84074
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40840, criteria = 69662}),
+        Reputation({id = 2601, gain = 50, quest = 84074}),
+        Reputation({id = 2605, gain = 50, quest = 84074}),
+        Reputation({id = 2607, gain = 50, quest = 84074}),
         Transmog({item = 221227, type = L['leather']}), -- Monstrous Fungal Cord
         Transmog({item = 221253, type = L['fist']}), -- Cultivator's Plant Puncher
         Transmog({item = 221250, type = L['1h_sword']}) -- Creeping Lasher Machete
@@ -236,6 +246,9 @@ map.nodes[43863678] = Rare({
     quest = 81694, -- One Time Kill
     rewards = {
         Achievement({id = 40840, criteria = 69653}),
+        Reputation({id = 2601, gain = 50, quest = 81694}),
+        Reputation({id = 2605, gain = 50, quest = 81694}),
+        Reputation({id = 2607, gain = 50, quest = 81694}),
         Transmog({item = 223378, type = L['cloth']}), -- Footguards of the Nerubian Twins
         Transmog({item = 223407, type = L['cloth']}), -- Sabatons of the Nerubian Twins
         Transmog({item = 223408, type = L['cloth']}), -- Treads of the Nerubian Twins
@@ -253,13 +266,13 @@ map.nodes[43863678] = Rare({
 akl.nodes[61918962] = Rare({
     id = 216049,
     quest = 82035, -- 84078
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 40840, criteria = 69666}),
-        Transmog({item = 223931, type = L['cloth']}) -- Black Blood Cowl
+        Reputation({id = 2601, gain = 50, quest = 84078}),
+        Reputation({id = 2605, gain = 50, quest = 84078}),
+        Reputation({id = 2607, gain = 50, quest = 84078}),
+        Transmog({item = 223931, type = L['cloth']})
     },
     parent = map.id,
     pois = {POI({63418984})} -- Entrance
@@ -269,11 +282,11 @@ map.nodes[76585780] = Rare({
     id = 216034,
     quest = 81703, -- 84072
     location = L['in_small_cave'],
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40840, criteria = 69660}),
+        Reputation({id = 2601, gain = 50, quest = 84072}),
+        Reputation({id = 2605, gain = 50, quest = 84072}),
+        Reputation({id = 2607, gain = 50, quest = 84072}),
         Transmog({item = 221231, type = L['leather']}) -- Steam-Powered Wristwatch
     },
     pois = {POI({77485899})} -- Entrance
@@ -282,11 +295,11 @@ map.nodes[76585780] = Rare({
 map.nodes[64590352] = Rare({
     id = 216051,
     quest = 82037, -- 84080
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40840, criteria = 69668}),
+        Reputation({id = 2601, gain = 50, quest = 84080}),
+        Reputation({id = 2605, gain = 50, quest = 84080}),
+        Reputation({id = 2607, gain = 50, quest = 84080}),
         Transmog({item = 223930, type = L['mail']}), -- Monstrous Chain Pincers
         Transmog({item = 221240, type = L['1h_sword']}), -- Nerubian Stagshell Gouger
         Transmog({item = 221252, type = L['2h_sword']}) -- Nerubian Slayer's Claymore
@@ -298,6 +311,9 @@ map.nodes[34694110] = Rare({
     quest = 81700, -- One Time Kill
     rewards = {
         Achievement({id = 40840, criteria = 69656}),
+        Reputation({id = 2601, gain = 50, quest = 81700}),
+        Reputation({id = 2605, gain = 50, quest = 81700}),
+        Reputation({id = 2607, gain = 50, quest = 81700}),
         Transmog({item = 223386, type = L['cloth']}), -- Vilewing Crown
         Transmog({item = 223388, type = L['leather']}), -- Vilewing Cap
         Transmog({item = 223387, type = L['mail']}), -- Vilewing Chain Helm
@@ -314,12 +330,12 @@ map.nodes[34694110] = Rare({
 cotl.nodes[67525826] = Rare({
     id = 216039,
     quest = 81701, -- 84070
-    parent = {map.id, cot.id}, -- ?
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
+    parent = {map.id, cot.id},
     rewards = {
         Achievement({id = 40840, criteria = 69658}),
+        Reputation({id = 2601, gain = 50, quest = 84070}),
+        Reputation({id = 2605, gain = 50, quest = 84070}),
+        Reputation({id = 2607, gain = 50, quest = 84070}),
         Transmog({item = 221221, type = L['plate']}), -- Venomous Lurker's Greathelm
         Transmog({item = 221506, type = L['cloak']}) -- Arachnid's Web-Sown Guise
     }
@@ -332,6 +348,9 @@ map.nodes[63479504] = Rare({
     location = L['in_cave'],
     quest = 82290, -- 85167
     rewards = {
+        Reputation({id = 2601, gain = 50, quest = 85167}),
+        Reputation({id = 2605, gain = 50, quest = 85167}),
+        Reputation({id = 2607, gain = 50, quest = 85167}),
         Transmog({item = 221247, type = L['crossbow']}) -- Cavernous Critter Shooter
     },
     pois = {POI({65309350})} -- Entrance
@@ -341,7 +360,12 @@ map.nodes[62816618] = Rare({
     id = 216046,
     quest = 82289, -- 85166
     note = L['tkaktath_note'],
-    rewards = {ns.reward.Item({item = 225952, quest = 83627})} -- starts the questchain to get the Siesbarg mount.
+    rewards = {
+        Reputation({id = 2601, gain = 50, quest = 85166}),
+        Reputation({id = 2605, gain = 50, quest = 85166}),
+        Reputation({id = 2607, gain = 50, quest = 85166}),
+        ns.reward.Item({item = 225952, quest = 83627})
+    } -- starts the questchain to get the Siesbarg mount.
 }) -- Tka'ktath
 
 -------------------------------------------------------------------------------
@@ -353,11 +377,11 @@ akl.nodes[62728795] = Treasure({
     parent = map.id,
     requires = ns.requirement.Item(223870), -- Cache Key
     note = L['memory_cache_note'],
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
         Achievement({id = 40828, criteria = 69615}),
+        Reputation({id = 2601, gain = 50, quest = 82520}),
+        Reputation({id = 2605, gain = 50, quest = 82520}),
+        Reputation({id = 2607, gain = 50, quest = 82520}),
         Pet({item = 225544, id = 4599}) -- Mind Slurp
     },
     pois = {
@@ -367,27 +391,42 @@ akl.nodes[62728795] = Treasure({
 
 map.nodes[67459072] = Treasure({
     quest = 82718,
-    rewards = {Achievement({id = 40828, criteria = 69646})}
+    rewards = {
+        Achievement({id = 40828, criteria = 69646}),
+        Reputation({id = 2601, gain = 50, quest = 82718}),
+        Reputation({id = 2605, gain = 50, quest = 82718}),
+        Reputation({id = 2607, gain = 50, quest = 82718})
+    }
 }) -- Disturbed Soil
 
 map.nodes[38783722] = Treasure({
     quest = 82722,
-    rewards = {Achievement({id = 40828, criteria = 69650})}
+    rewards = {
+        Achievement({id = 40828, criteria = 69650}),
+        Reputation({id = 2601, gain = 50, quest = 82722}),
+        Reputation({id = 2605, gain = 50, quest = 82722}),
+        Reputation({id = 2607, gain = 50, quest = 82722})
+    }
 }) -- Missing Scout's Pack
 
 cot.nodes[31642077] = Treasure({
     quest = 82720,
     parent = map.id,
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
-    rewards = {Achievement({id = 40828, criteria = 69648})}
+    rewards = {
+        Achievement({id = 40828, criteria = 69648}),
+        Reputation({id = 2601, gain = 50, quest = 82720}),
+        Reputation({id = 2605, gain = 50, quest = 82720}),
+        Reputation({id = 2607, gain = 50, quest = 82720})
+    }
 }) -- Nerubian Offerings
 
 map.nodes[49554370] = Treasure({
     quest = 82529,
     rewards = {
         Achievement({id = 40828, criteria = 69645}),
+        Reputation({id = 2601, gain = 50, quest = 82529}),
+        Reputation({id = 2605, gain = 50, quest = 82529}),
+        Reputation({id = 2607, gain = 50, quest = 82529}),
         Pet({item = 221760, id = 4513}) -- Bonedrinker
     }
 }) -- Nest Egg
@@ -395,19 +434,22 @@ map.nodes[49554370] = Treasure({
 map.nodes[54525081] = Treasure({
     quest = 82721,
     note = L['niffen_stash_note'],
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
-    rewards = {Achievement({id = 40828, criteria = 69649})}
+    rewards = {
+        Achievement({id = 40828, criteria = 69649}),
+        Reputation({id = 2601, gain = 50, quest = 82721}),
+        Reputation({id = 2605, gain = 50, quest = 82721}),
+        Reputation({id = 2607, gain = 50, quest = 82721})
+    }
 }) -- Niffen Stash
 
 map.nodes[67482754] = Treasure({
     quest = 82719,
-    -- parent = map.id,
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
-    rewards = {Achievement({id = 40828, criteria = 69647})},
+    rewards = {
+        Achievement({id = 40828, criteria = 69647}),
+        Reputation({id = 2601, gain = 50, quest = 82719}),
+        Reputation({id = 2605, gain = 50, quest = 82719}),
+        Reputation({id = 2607, gain = 50, quest = 82719})
+    },
     pois = {POI({65422765})}
 }) -- Silk-spun Supplies
 
@@ -417,18 +459,20 @@ cot.nodes[67397441] = Treasure({
     note = L['trapped_trove_note'],
     rewards = {
         Achievement({id = 40828, criteria = 69644}),
+        Reputation({id = 2601, gain = 50, quest = 82727}),
+        Reputation({id = 2605, gain = 50, quest = 82727}),
+        Reputation({id = 2607, gain = 50, quest = 82727}),
         Pet({item = 222966, id = 4473}) -- Spinner
     }
 }) -- Trapped Trove
 
 map.nodes[78613320] = Treasure({
     quest = 82527,
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
     rewards = {
-        Achievement({id = 40828, criteria = 69643}), --
-        Toy({item = 225347}) -- Web-Vandal's Spinning Wheel
+        Achievement({id = 40828, criteria = 69643}),
+        Reputation({id = 2601, gain = 50, quest = 82527}),
+        Reputation({id = 2605, gain = 50, quest = 82527}),
+        Reputation({id = 2607, gain = 50, quest = 82527}), Toy({item = 225347}) -- Web-Vandal's Spinning Wheel
     },
     pois = {POI({74794285, 74183770, 72663967})}
 }) -- Weaving Supplies
@@ -440,10 +484,12 @@ map.nodes[78613320] = Treasure({
 
 map.nodes[34056102] = Treasure({
     quest = 82525,
-    -- ReputationGain(50, 2601), -- The Weaver
-    -- ReputationGain(50, 2605), -- The General
-    -- ReputationGain(50, 2607), -- The Vizier
-    rewards = {Achievement({id = 40828, criteria = 70381})}
+    rewards = {
+        Achievement({id = 40828, criteria = 70381}),
+        Reputation({id = 2601, gain = 50, quest = 82525}),
+        Reputation({id = 2605, gain = 50, quest = 82525}),
+        Reputation({id = 2607, gain = 50, quest = 82525})
+    }
 }) -- Concealed Contraband -- Web Cocoon
 
 -------------------------------------------------------------------------------
@@ -700,40 +746,45 @@ map.nodes[06001200] = ItsyBitsySpider({
 -------------------------------------------------------------------------------
 
 cot.nodes[77557018] = LoreObject({
-    rlabel = ReputationGain(85, 2601), -- The Weaver
-    -- ReputationGain(85, 2605), -- The General
-    -- ReputationGain(85, 2607), -- The Vizier
     parent = map.id,
-    rewards = {Achievement({id = 40762, criteria = 69385})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69385}),
+        Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
+        Reputation({id = 2607, gain = 85})
+    }
 }) -- Forgotten Shadecaster
 
 map.nodes[75443325] = LoreObject({
-    rlabel = ReputationGain(85, 2601), -- The Weaver
-    -- ReputationGain(85, 2605), -- The General
-    -- ReputationGain(85, 2607), -- The Vizier
-    rewards = {Achievement({id = 40762, criteria = 69387})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69387}),
+        Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
+        Reputation({id = 2607, gain = 85})
+    }
 }) -- Kah'teht
 
 map.nodes[54071889] = LoreObject({
-    rlabel = ReputationGain(85, 2601), -- The Weaver
-    -- ReputationGain(85, 2605), -- The General
-    -- ReputationGain(85, 2607), -- The Vizier
-    rewards = {Achievement({id = 40762, criteria = 69388})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69388}),
+        Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
+        Reputation({id = 2607, gain = 85})
+    }
 }) -- Mad Nerubian
 
 cot.nodes[08533058] = LoreObject({
-    rlabel = ReputationGain(85, 2601), -- The Weaver
-    -- ReputationGain(85, 2605), -- The General
-    -- ReputationGain(85, 2607), -- The Vizier
     parent = map.id,
-    rewards = {Achievement({id = 40762, criteria = 69386})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69386}),
+        Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
+        Reputation({id = 2607, gain = 85})
+    }
 }) -- Neglected Shadecaster
 
 map.nodes[71126233] = LoreObject({
-    rlabel = ReputationGain(85, 2601), -- The Weaver
-    -- ReputationGain(85, 2605), -- The General
-    -- ReputationGain(85, 2607), -- The Vizier
-    rewards = {Achievement({id = 40762, criteria = 69384})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69384}),
+        Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
+        Reputation({id = 2607, gain = 85})
+    }
 }) -- Weathered Shadecaster
 
 -------------------------------------------------------------------------------
