@@ -25,14 +25,16 @@ ns.optionDefaults = {
         show_notes = true,
 
         -- rewards
-        show_manuscript_rewards = true,
+        show_rep_rewards = true,
         show_mount_rewards = true,
         show_pet_rewards = true,
         show_recipe_rewards = true,
         show_toy_rewards = true,
         show_transmog_rewards = true,
+        show_manuscript_rewards = true, -- dragonflight only
+
+        -- reward options
         show_all_transmog_rewards = false,
-        show_rep_rewards = true,
         show_claimed_rep_rewards = true,
 
         -- development
