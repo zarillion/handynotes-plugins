@@ -25,8 +25,6 @@ local Reputation = ns.reward.Reputation
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
-local ReputationGain = ns.tooltip.ReputationGain
-
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2248, settings = true})
@@ -370,7 +368,6 @@ map.nodes[55006564] = Treasure({ -- more Boskroot Cap locations ?
         83245 -- looted
     },
     -- vignette = 6209,
-    rlabel = ReputationGain(150, 2590), -- Council of Dornogal
     note = L['mushroom_cap_note'],
     rewards = {
         Achievement({id = 40434, criteria = 68202}),
