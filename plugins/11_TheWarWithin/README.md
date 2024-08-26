@@ -65,6 +65,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 ### The Isle of Dorn
 
 * Forgegrounds Press for the [Flat Earthen](https://www.wowhead.com/achievement=40606) achievement.
+* [Sizzling Cinderpollen](https://www.wowhead.com/item=225557) farm location for the [Soaring Meaderbee](https://www.wowhead.com/item=223153) mount.
 
 ### The Ringing Deeps
 
@@ -75,6 +76,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 ### Hallowfall
 
+* [Beledar's Spawn](https://www.wowhead.com/npc=207802) with a timer for the [Beledar's Spawn](https://www.wowhead.com/item=223315) mount.
 * Lore books for the [Biblo Archivist](https://www.wowhead.com/achievement=40622) achievement.
 * Mementos for the [Lost and Found](https://www.wowhead.com/achievement=40618) achievement.
 * Ferocious warcats for the [The Missing Lynx](https://www.wowhead.com/achievement=40625) achievement.

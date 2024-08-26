@@ -129,7 +129,7 @@ map.nodes[44744241] = Rare({
     rewards = {
         Achievement({id = 40851, criteria = 69717}),
         Reputation({id = 2570, gain = 150, quest = 85165}),
-        Transmog({item = 225997, type = L['cosmetic']}) -- Earthen Adventurer's Spaulders
+        Transmog({item = 225997}) -- Earthen Adventurer's Spaulders
     },
     pois = {
         POI({48001668, color = 'Green'}), -- Jar of Mucus
@@ -1180,6 +1180,7 @@ map.nodes[44947610] = DisturbedEarth()
 local BeaconOfHope = Class('beacon_of_hope', Collectible, {
     icon = 135922,
     group = ns.groups.BEACON_OF_HOPE,
+    requires = ns.requirement.Item(206350, 3), -- Radiant Remnant
     note = L['beacon_of_hope_note']
 })
 

@@ -18,10 +18,12 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
 
+local Circle = ns.poi.Circle
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -697,3 +699,14 @@ dor.nodes[50006188] = ns.node.Collectible({
     rewards = {Achievement({id = 40606, criteria = 0})},
     parent = map.id
 }) -- Flat Earthen
+
+map.nodes[74334530] = ns.node.Collectible({
+    icon = 5633720,
+    label = '{npc:226205}',
+    note = L['cendvin_note'],
+    rewards = {
+        Mount({item = 223153, id = 2165, note = '900x {item:225557}'}), -- Reins of the Soaring Meaderbee
+        Recipe({item = 228424, profession = 185}) -- Recipe: Cinder Nectar
+    },
+    pois = {Path({Circle({origin = 71423755, radius = 3.5})})} -- Sizzling Cinderpollen farm
+}) -- Cendvin

@@ -32,6 +32,8 @@ L['turtles_thanks_1_note'] = 'Biete 5x {item:220143} an (kann in dem Schwarm {ob
 L['turtles_thanks_2_note'] = 'Biete 1x {item:222533} an (kann in den Schwärmen {object:Glimmerbecken}, {object:Schwärender Fäulnisteich}, {object:Energieerfüllter Sekretfleck} geangelt oder im Auktionshaus gekauft werden).'
 L['turtles_thanks_3_note'] = 'Treffe dich mit der {npc:223338} in {location:Dornogal} und spreche mit ihr, um den Schatz zu enthüllen.'
 
+L['cendvin_note'] = 'Plündere 900x {item:225557} in {location:Aschenholtz} von Elitegegnern, um das Reittier {item:223153} von {npc:226205} kaufen zu können.'
+
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Zeigt die Position für den Erfolg {achievement:40606} an.'
 
