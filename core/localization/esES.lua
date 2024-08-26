@@ -155,6 +155,8 @@ L['options_open_settings_panel'] = 'Abrir el Panel de Preferencias...'
 L['options_open_world_map'] = 'Abrir el Mapa del Mundo'
 L['options_open_world_map_desc'] = 'Abre esta zona en el mapa del mundo.'
 
+L['achievement_rewards_off_note'] = 'El Seguimiento de Recompensas para Logros está desactivado, por lo tanto, ¡la mayoría de los nodos estarán ocultos!\n'
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = 'Configuración de Iconos'
@@ -187,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = 'Vuelve a mostrar todos los nodos ocult
 
 L['options_rewards_settings'] = 'Recompensas'
 L['options_reward_types'] = 'Mostrar tipos de recompensas'
+L['options_achievement_rewards'] = 'Mostrar recompensas de logros'
+L['options_achievement_rewards_desc'] = 'Muestra las recompensas de logros en las notas y rastrea el estado de si ha sido conseguida.'
 L['options_manuscript_rewards'] = 'Mostrar las recompensas de los manuscritos de dracovigía'
 L['options_manuscript_rewards_desc'] = 'Muestra las recompensas de los manuscritos de dracovigía en las descripciones y sigue si ya lo has coleccionado.'
 L['options_mount_rewards'] = 'Mostrar recompensas de monturas'

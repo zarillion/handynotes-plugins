@@ -155,6 +155,8 @@ L['options_open_settings_panel'] = '打開設定面板…'
 L['options_open_world_map'] = '打開世界地圖'
 L['options_open_world_map_desc'] = '在世界地圖中開啟此區域'
 
+L['achievement_rewards_off_note'] = nil
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = '圖示設定'
@@ -187,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = '恢復所有使用右鍵選單隱藏�
 
 L['options_rewards_settings'] = '獎勵'
 L['options_reward_types'] = '顯示獎勵類型'
+L['options_achievement_rewards'] = nil
+L['options_achievement_rewards_desc'] = nil
 L['options_manuscript_rewards'] = nil
 L['options_manuscript_rewards_desc'] = nil
 L['options_mount_rewards'] = '顯示坐騎獎勵'

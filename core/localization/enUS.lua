@@ -155,6 +155,8 @@ L['options_open_settings_panel'] = 'Open Settings Panel ...'
 L['options_open_world_map'] = 'Open World Map'
 L['options_open_world_map_desc'] = 'Open this zone in the world map.'
 
+L['achievement_rewards_off_note'] = 'Achievement Reward Tracking is off, therefore most Nodes will be hidden!\n'
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = 'Icon Settings'
@@ -187,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = 'Restore all nodes hidden using the rig
 
 L['options_rewards_settings'] = 'Rewards'
 L['options_reward_types'] = 'Show reward types'
+L['options_achievement_rewards'] = 'Show Achievement rewards'
+L['options_achievement_rewards_desc'] = 'Display achievement rewards in tooltips and track their collected status.'
 L['options_manuscript_rewards'] = 'Show drakewatcher manuscript rewards'
 L['options_manuscript_rewards_desc'] = 'Display drakewatcher manuscript rewards in tooltips and track their collected status.'
 L['options_mount_rewards'] = 'Show mount rewards'

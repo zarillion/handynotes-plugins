@@ -155,6 +155,8 @@ L['options_open_settings_panel'] = 'Открыть панель настроек
 L['options_open_world_map'] = 'Карта открытого мира'
 L['options_open_world_map_desc'] = 'Открыть эту локацию на карте мира.'
 
+L['achievement_rewards_off_note'] = nil
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = 'Настройки значков'
@@ -187,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = 'Восстановите все скр
 
 L['options_rewards_settings'] = 'Награды'
 L['options_reward_types'] = 'Показать типы наград'
+L['options_achievement_rewards'] = nil
+L['options_achievement_rewards_desc'] = nil
 L['options_manuscript_rewards'] = nil
 L['options_manuscript_rewards_desc'] = nil
 L['options_mount_rewards'] = 'Показать маунтов'

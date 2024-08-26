@@ -155,6 +155,8 @@ L['options_open_settings_panel'] = nil
 L['options_open_world_map'] = nil
 L['options_open_world_map_desc'] = nil
 
+L['achievement_rewards_off_note'] = nil
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = 'Configuración de Íconos'
@@ -187,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = nil
 
 L['options_rewards_settings'] = nil
 L['options_reward_types'] = nil
+L['options_achievement_rewards'] = nil
+L['options_achievement_rewards_desc'] = nil
 L['options_manuscript_rewards'] = nil
 L['options_manuscript_rewards_desc'] = nil
 L['options_mount_rewards'] = nil

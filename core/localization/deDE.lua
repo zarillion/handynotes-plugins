@@ -155,6 +155,8 @@ L['options_open_settings_panel'] = 'Einstellungsmenü öffnen ...'
 L['options_open_world_map'] = 'Weltkarte öffnen'
 L['options_open_world_map_desc'] = 'Öffnet diese Zone auf der Weltkarte.'
 
+L['achievement_rewards_off_note'] = 'Erfolgsbelohnungen werden nicht angezeigt, die meisten Punkte sind deshalb versteckt.\n' -- @Dathwada please review
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = 'Symboleinstellungen'
@@ -187,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = 'Stellt alle Punkte wieder her, die üb
 
 L['options_rewards_settings'] = 'Belohnungen'
 L['options_reward_types'] = 'Zeige Belohnungstypen'
+L['options_achievement_rewards'] = 'Zeige Erfolgsbelohnungen'
+L['options_achievement_rewards_desc'] = 'Zeige Erfolgsbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_manuscript_rewards'] = 'Zeige Drachenwächtermanuskriptbelohnungen'
 L['options_manuscript_rewards_desc'] = 'Zeige Drachenwächtermanuskriptbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
 L['options_mount_rewards'] = 'Zeige Reittierbelohnungen'

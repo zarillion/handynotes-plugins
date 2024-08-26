@@ -161,7 +161,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
 
     if level == 1 then
         local current_group_type = nil
-        local achievements_menu_added = false
+        local achievement_menu_added = false
         for i, group in ipairs(map.groups) do
 
             -- Add a separator each time the group type changes
@@ -172,7 +172,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
 
             if group:IsEnabled() and group:HasEnabledNodes(map) then
                 if group.type == ns.group_types.ACHIEVEMENT and
-                    not achievements_menu_added then
+                    not achievement_menu_added then
                     LibDD:UIDropDownMenu_AddButton({
                         text = ns.GetIconLink(236671, 12, 1, 0) .. '  ' ..
                             ACHIEVEMENTS,
@@ -182,7 +182,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                         hasArrow = true,
                         value = 'achievements'
                     })
-                    achievements_menu_added = true
+                    achievement_menu_added = true
                 elseif group.type ~= ns.group_types.ACHIEVEMENT then
                     self:AddGroupButton(group, 1)
                 end
@@ -241,6 +241,18 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
         })
     elseif level == 2 then
         if L_UIDROPDOWNMENU_MENU_VALUE == 'achievements' then
+            if not ns:GetOpt('show_achievement_rewards') then
+                LibDD:UIDropDownMenu_AddButton({
+                    text = L['achievement_rewards_off_note'],
+                    isNotRadio = true,
+                    notCheckable = true,
+                    notClickable = true,
+                    keepShownOnClick = true
+                    -- hasArrow = true,
+                    -- value = 'rewards'
+                }, level)
+                LibDD:UIDropDownMenu_AddSeparator(level)
+            end
             for i, group in ipairs(map.groups) do
                 if group.type == ns.group_types.ACHIEVEMENT and
                     group:IsEnabled() and group:HasEnabledNodes(map) then
@@ -249,8 +261,8 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             end
         elseif L_UIDROPDOWNMENU_MENU_VALUE == 'rewards' then
             for i, type in ipairs({
-                'manuscript', 'mount', 'pet', 'recipe', 'toy', 'transmog',
-                'all_transmog'
+                'achievement', 'manuscript', 'mount', 'pet', 'recipe', 'toy',
+                'transmog', 'all_transmog'
             }) do
                 LibDD:UIDropDownMenu_AddButton({
                     text = L['options_' .. type .. '_rewards'],

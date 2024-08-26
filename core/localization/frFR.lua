@@ -155,6 +155,8 @@ L['options_open_settings_panel'] = 'Ouvrir le panneau de configuration'
 L['options_open_world_map'] = 'Ouvrir la carte du monde'
 L['options_open_world_map_desc'] = 'Ouvrir cette zone dans la carte du monde' -- Need review
 
+L['achievement_rewards_off_note'] = 'Le suivi des récompenses de haut-faits est désactivé, par conséquent, la plupart des éléments seront cachés !\n'
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = 'Paramètres des Icônes'
@@ -187,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = 'Restaure tous les nœuds cachés en ut
 
 L['options_rewards_settings'] = 'Récompenses'
 L['options_reward_types'] = 'Afficher les types de récompenses'
+L['options_achievement_rewards'] = 'Afficher les récompenses des haut-faits'
+L['options_achievement_rewards_desc'] = 'Afficher les récompenses des haut-faits dans les infobulles et suivre l\'état de leur acquisition.'
 L['options_manuscript_rewards'] = 'Montrer les Manuscrits guette-drake en récompenses'
 L['options_manuscript_rewards_desc'] = 'Afficher les Manuscrits guette-drake en récompenses dans les infobulles et suivre l\'état de leur acquisition.'
 L['options_mount_rewards'] = 'Afficher les montures en récompense'

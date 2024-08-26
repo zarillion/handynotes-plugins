@@ -155,6 +155,8 @@ L['options_open_settings_panel'] = '설정창 열기'
 L['options_open_world_map'] = '세계지도 열기'
 L['options_open_world_map_desc'] = '세계지도에서 이 지역을 엽니다.'
 
+L['achievement_rewards_off_note'] = nil
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = '아이콘 설정'
@@ -187,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = '우클릭 메뉴에서 숨긴 지점 �
 
 L['options_rewards_settings'] = '보상'
 L['options_reward_types'] = '보상 종류 표시'
+L['options_achievement_rewards'] = nil
+L['options_achievement_rewards_desc'] = nil
 L['options_manuscript_rewards'] = nil
 L['options_manuscript_rewards_desc'] = nil
 L['options_mount_rewards'] = '탈것 보상 표시'

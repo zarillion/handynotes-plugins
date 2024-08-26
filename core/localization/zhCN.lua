@@ -155,6 +155,8 @@ L['options_open_settings_panel'] = '打开设置面板…'
 L['options_open_world_map'] = '打开世界地图'
 L['options_open_world_map_desc'] = '打开此区域世界地图。'
 
+L['achievement_rewards_off_note'] = nil
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = '图标设置'
@@ -187,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = '使用右击菜单恢复全部隐藏�
 
 L['options_rewards_settings'] = '奖励'
 L['options_reward_types'] = '显示奖励类型'
+L['options_achievement_rewards'] = nil
+L['options_achievement_rewards_desc'] = nil
 L['options_manuscript_rewards'] = '显示观龙者手稿奖励'
 L['options_manuscript_rewards_desc'] = '在提示中显示龙观察者手稿奖励并跟踪其收集状态。'
 L['options_mount_rewards'] = '显示坐骑奖励'
