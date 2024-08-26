@@ -511,7 +511,7 @@ cot.nodes[50233085] = PT.Inscription({
     parent = map.id
 }) -- Venomancer's Ink Well
 cot.nodes[47831954] = PT.Jewelcrafting({
-    quest = 89896,
+    quest = 83896,
     id = 226322,
     parent = map.id
 }) -- Ritual Caster's Crystal
