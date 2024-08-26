@@ -650,6 +650,7 @@ function Reputation:GetText()
     local text = ns.api.GetFactionInfoByID(self.id)
     if self.gain then text = ('+%d %s'):format(self.gain, text) end
     text = ns.color.LightBlue(text) .. ' (' .. self.type .. ')'
+    if self.note then text = text .. ' (' .. ns.RenderLinks(self.note) .. ')' end
     return text
 end
 
@@ -661,6 +662,7 @@ function Reputation:IsEnabled()
 
     return true
 end
+function Reputation:Prepare() ns.PrepareLinks(self.note) end
 
 function Reputation:GetStatus()
     if not self.quest then return end
