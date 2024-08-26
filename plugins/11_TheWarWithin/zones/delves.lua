@@ -21,7 +21,6 @@ local ecm = Map({id = 2680, settings = false}) -- Earthcrawl Mines
 local mmc = Map({id = 2679, settings = false}) -- Mycomancer Cavern
 local tdp = Map({id = 2684, settings = false}) -- The Dread Pit
 local tww = Map({id = 2683, settings = false}) -- The Waterworks
-
 local tsw = Map({id = 2688, settings = false}) -- The Sprial Weave
 local tsh = Map({id = 2687, settings = false}) -- The Sinkhole
 local fol = Map({id = 2664, settings = false}) -- Fungal Folly
@@ -424,29 +423,25 @@ ski.nodes[66331480] = SturdyChest({
 nfs.nodes[70584444] = SturdyChest({
     achievementID = 40809,
     location = L['on_the_plant'],
-    quest = 83670,
-    rlabel = ns.status.Gray('1/4')
+    quest = 83670
 }) -- Sturdy Chest 1
 
 nfs.nodes[51905539] = SturdyChest({
     achievementID = 40809,
     location = L['in_water'],
-    quest = nil, ------------------------------------ TODO: I MISSED THIS QUEST
-    rlabel = ns.status.Gray('2/4')
+    quest = nil ------------------------------------ TODO: I MISSED THIS QUEST
 }) -- Sturdy Chest 2
 
 nfs.nodes[38887406] = SturdyChest({
     achievementID = 40809,
     location = L['in_building'],
-    quest = 83454,
-    rlabel = ns.status.Gray('3/4')
+    quest = 83454
 }) -- Sturdy Chest 3
 
 nfs.nodes[40203704] = SturdyChest({
     achievementID = 40809,
     location = L['sturdy_chest_ship_jump'],
     quest = 83701,
-    rlabel = ns.status.Gray('3/4'),
     pois = {
         POI({38554822}), -- jump point
         Path({38554822, 38494360}) -- jump path
@@ -484,3 +479,111 @@ tra.nodes[35315839] = SturdyChest({
     -- quest = nil,
     rlabel = ns.status.Gray('4/4')
 }) -- Sturdy Chest 4
+
+-------------------------------------------------------------------------------
+-------------------------- DELVE REWARDS (AREAPOIS) ---------------------------
+-------------------------------------------------------------------------------
+
+local maps = {
+    ns.maps[2214], -- Ringing Deeps
+    ns.maps[2215], -- Hallowfall
+    ns.maps[2248], -- Isle of Dorn
+    ns.maps[2255], -- Azj-Kahet - Upper
+    ns.maps[2256] -- Azj-Kahet - Lower
+}
+
+for _, m in pairs(maps) do
+    m.groups[#m.groups + 1] = ns.groups.DELVE_REWARDS
+    m.groups[ns.groups.DELVE_REWARDS] = true
+end
+
+local DELVE_REWARDS = {
+    [7863] = { -- Earthcrawl Mines
+        Achievement({
+            id = 40806,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40527, criteria = {68758, 68759, 68760}})
+    },
+    [7864] = { -- Fungal Folly
+        Achievement({
+            id = 40803,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40525, criteria = {68752, 68753, 68754}})
+    },
+    [7865] = { -- Kriegval's Rest
+        Achievement({
+            id = 40807,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40526, criteria = {68755, 68756, 68757}})
+    },
+    [7866] = { -- The Waterworks
+        Achievement({
+            id = 40816,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40528, criteria = {68761, 68762, 68763}})
+    },
+    [7867] = { -- The Dread Pit
+        Achievement({
+            id = 40812,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40529, criteria = {68764, 68765, 68766}})
+    },
+    [7868] = { -- Nightfall Sanctum
+        Achievement({
+            id = 40809,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40530, criteria = {68767, 68768, 68769}})
+    },
+    [7869] = { -- Mycomancer Cavern
+        Achievement({
+            id = 40808,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40531, criteria = {68770, 68771, 68772}})
+    },
+    [7870] = { -- The Sinkhole
+        Achievement({
+            id = 40813,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40532, criteria = {68773, 68774, 68775}})
+    },
+    [7871] = { -- Skittering Berach
+        Achievement({
+            id = 40810,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40533, criteria = {68776, 68777, 68778}})
+    },
+    [7872] = { -- The Underkeep
+        Achievement({
+            id = 40815,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40534, criteria = {68779, 68780, 68781, 68782}})
+    },
+    [7873] = { -- Tek-Rethan Abyss
+        Achievement({
+            id = 40811,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40535, criteria = {68783, 68784, 68785}})
+    },
+    [7874] = { -- The Spiral Weave
+        Achievement({
+            id = 40814,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40536, criteria = {68786, 68787, 68788}})
+    }
+}
+
+hooksecurefunc(DelveEntrancePinMixin, 'OnMouseEnter', function(self)
+    if not DELVE_REWARDS[self.areaPoiID] then return end
+    local mapID = self:GetMap().mapID
+    local group = ns.groups.DELVE_REWARDS
+    if group:GetDisplay(mapID) then
+        GameTooltip:AddLine(' ')
+        local rewards = DELVE_REWARDS[self.areaPoiID]
+        for _, reward in pairs(rewards) do
+            if reward and reward:IsEnabled() then
+                reward:Render(GameTooltip)
+            end
+        end
+        GameTooltip:Show()
+    end
+end)
