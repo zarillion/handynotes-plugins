@@ -120,10 +120,7 @@ L['priory_satchel_location'] = '拾取悬挂在 {location:圣焰隐修院} 教�
 L['smugglers_treasure_note'] = '从悬崖下方的（{dot:Blue}）{npc:226025} 拾取所需的 {item:225335}。'
 L['smugglers_treasure_location'] = '在悬崖高处几块岩石之间。'
 L['coral_fused_clam'] = '珊瑚包裹蛤蜊'
-L['coral_fused_clam_note'] = [[从 {object:捕蛤者的工具} 中拾取 {item:218354} 来打开蛤蜊。
-
-{note:需要80级才能拾取。}
-]] -- from wowhead, needs to be reviewed
+L['coral_fused_clam_note'] = '从 {object:捕蛤者的工具} 中拾取 {item:218354} 来打开蛤蜊。'
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
 L['options_icons_biblo_archivist_desc'] = '显示 {achievement:40622} 成就中书籍的位置。'
@@ -168,14 +165,12 @@ L['furball_location'] = '在废墟建筑内。'
 L['dander_location'] = '在外面。'
 L['gobbo_location'] = '在建筑内的床上。'
 
-L['beledars_spawn_note'] = nil
+L['beledars_spawn_note'] = '此稀有会以固定的时间间隔在多个位置之一出现。\n\n下次出现：\n{note:%s（%s）}'
 L['croakit_note'] = [[要攻击 {npc:214757}，必须先从附近的水中钓出10个 {item:211474}。
 
 收集完所有鱼后，去找 {npc:214757} 并把它们扔给他。]] -- from wowhead, needs to be confirmed.
 L['deathtide_note'] = [[要召唤他，必须在 {object:不祥祭坛} 上使用 {item:220123}。
-需要结合 {item:220122} {dot:Blue} 和 {item:220124} {dot:Green} 来获得 {item:220123}。
-
-{note:需要达到80级才能拾取它们。} ]] -- from wowhead, needs to be reviewed
+需要结合 {item:220122} {dot:Blue} 和 {item:220124} {dot:Green} 来获得 {item:220123}。]]
 L['murkshade_note'] = '与 {npc:218455} 互动。'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
@@ -191,7 +186,7 @@ L['options_icons_beacon_of_hope_desc'] = '显示 {achievement:40308} 成就中�
 
 L['beacon_of_hope_note'] = '捐献 {item:206350} 来点亮小型钥焰并完成接下来的任务。'
 
-L['parasidious_note'] = nil
+L['parasidious_note'] = '要出现此稀有，需要从 {npc:206533} 购买 {item:206670}（激活 {object:小型钥焰} 使其出现），然后前往 {location:暮升辽原} 并拉动 {npc:206870}。当拉动它时，一根藤蔓会从身上射出并到达 {object:翻动过的泥土}，它会生长/变化，直到稀有物品最终出现。' -- from wowhead, needs to be reviewed
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
