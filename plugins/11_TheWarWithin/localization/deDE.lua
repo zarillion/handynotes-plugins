@@ -7,6 +7,9 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = nil
+L['options_icons_delve_rewards_desc'] = nil
+
 L['skyriding_glyph'] = 'Glyphe des Himmelsreitens'
 L['options_icons_skyriding_glyph'] = 'Glyphen des Himmelsreitens'
 L['options_icons_skyriding_glyph_desc'] = 'Zeigt die Positionen aller Glyphen des Himmelsreitens an.'

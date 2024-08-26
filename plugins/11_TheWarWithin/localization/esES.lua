@@ -6,6 +6,9 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = nil
+L['options_icons_delve_rewards_desc'] = nil
+
 L['skyriding_glyph'] = 'Glifo de Surcacielos'
 L['options_icons_skyriding_glyph'] = 'Glifos de Surcacielos'
 L['options_icons_skyriding_glyph_desc'] = 'Muestra dónde están los glifos de surcacielos.'

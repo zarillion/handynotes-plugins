@@ -6,6 +6,9 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = nil
+L['options_icons_delve_rewards_desc'] = nil
+
 L['skyriding_glyph'] = '天空騎術雕紋'
 L['options_icons_skyriding_glyph'] = '天空騎術雕紋'
 L['options_icons_skyriding_glyph_desc'] = '顯示所有天空騎術雕紋的位置.'
