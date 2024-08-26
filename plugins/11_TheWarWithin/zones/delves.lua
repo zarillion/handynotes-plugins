@@ -163,7 +163,7 @@ ecm.nodes[43572716] = SturdyChest({
 
 ecm.nodes[32743966] = SturdyChest({
     achievementID = 40806,
-    quest = nil ------------------------------------ TODO: I MISSED THIS QUEST
+    quest = nil -- TODO: I MISSED THIS QUEST
 }) -- Sturdy Chest 3
 
 ecm.nodes[36163308] = SturdyChest({
