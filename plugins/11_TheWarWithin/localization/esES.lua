@@ -120,10 +120,7 @@ L['priory_satchel_location'] = 'Despoja {object:Windswept Satchel} colgando de l
 L['smugglers_treasure_note'] = 'Despoja la {item:225335} requerida desde ({dot:Blue}) {npc:226025} debajo del acantilado.'
 L['smugglers_treasure_location'] = 'En lo alto del acantilado entre varias rocas.'
 L['coral_fused_clam'] = 'Almeja Incrustada de Coral'
-L['coral_fused_clam_note'] = [[Despoja una {item:218354} del {object:Equipo de Mariscador} para abrir la Almeja.
-
-{note:Requiere ser nivel 80 para cogerla.}
-]]
+L['coral_fused_clam_note'] = 'Despoja una {item:218354} del {object:Equipo de Mariscador} para abrir la Almeja.'
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
 L['options_icons_biblo_archivist_desc'] = 'Muestra dónde están los libros del logro {achievement:40622}.'
@@ -172,9 +169,7 @@ L['croakit_note'] = [[Para atacar a {npc:214757} primero tienes que pescar 10x {
 
 Una vez los tengas todos ve a {npc:214757} y échaselos.]]
 L['deathtide_note'] = [[Para invocarlo tienes que usar una {item:220123} en el {object:Altar Agorero}.
-Necesitarás combinar {item:220122} {dot:Blue} y {item:220124} {dot:Green} para conseguir la {item:220123}.
-
-{note:Requiere ser nivel 80 para cogerla.} ]]
+Necesitarás combinar {item:220122} {dot:Blue} y {item:220124} {dot:Green} para conseguir la {item:220123}.]]
 L['murkshade_note'] = 'Interactúa con {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
@@ -190,7 +185,7 @@ L['options_icons_beacon_of_hope_desc'] = 'Muestra dónde están las llaves ardie
 
 L['beacon_of_hope_note'] = 'Contribuye con {item:206350} para encender las llaves ardientes inferiores y completar las misiones siguientes.'
 
-L['parasidious_note'] = nil
+L['parasidious_note'] = 'Para hacer aparecer a este raro necesitarás comprar unos {item:206670} al {npc:206533} (activa la {object:Llave Ardiente Inferior} para hacer que aparezca) e ir al {location:Paraje Alzaocaso} y sacar las {npc:206870}. A medida que las saques, una vid saldrá disparada de ti hacia un {object:Túmulo Revuelto} y crecerá/cambiará hasta que eventualmente aparezca el raro.' -- from wowhead, needs to be reviewed
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
