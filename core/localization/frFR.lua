@@ -154,6 +154,8 @@ L['options_open_settings_panel'] = 'Ouvrir le panneau de configuration'
 L['options_open_world_map'] = 'Ouvrir la carte du monde'
 L['options_open_world_map_desc'] = 'Ouvrir cette zone dans la carte du monde' -- Need review
 
+L['achievement_rewards_off_note'] = nil
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = 'Paramètres des Icônes'

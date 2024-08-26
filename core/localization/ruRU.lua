@@ -154,6 +154,8 @@ L['options_open_settings_panel'] = 'Открыть панель настроек
 L['options_open_world_map'] = 'Карта открытого мира'
 L['options_open_world_map_desc'] = 'Открыть эту локацию на карте мира.'
 
+L['achievement_rewards_off_note'] = nil
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = 'Настройки значков'

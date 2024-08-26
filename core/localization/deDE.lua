@@ -154,6 +154,8 @@ L['options_open_settings_panel'] = 'Einstellungsmenü öffnen ...'
 L['options_open_world_map'] = 'Weltkarte öffnen'
 L['options_open_world_map_desc'] = 'Öffnet diese Zone auf der Weltkarte.'
 
+L['achievement_rewards_off_note'] = 'Erfolgsbelohnungen werden nicht angezeigt, die meisten Punkte sind deshalb versteckt.\n' -- @Dathwada please review
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = 'Symboleinstellungen'

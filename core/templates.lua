@@ -243,7 +243,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
         if L_UIDROPDOWNMENU_MENU_VALUE == 'achievements' then
             if not ns:GetOpt('show_achievement_rewards') then
                 LibDD:UIDropDownMenu_AddButton({
-                    text = 'Achievement Reward Tracking is off, therefore most Nodes will be hidden!\n',
+                    text = L['achievement_rewards_off_note'],
                     isNotRadio = true,
                     notCheckable = true,
                     notClickable = true,

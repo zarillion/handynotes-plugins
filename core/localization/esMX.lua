@@ -154,6 +154,8 @@ L['options_open_settings_panel'] = nil
 L['options_open_world_map'] = nil
 L['options_open_world_map_desc'] = nil
 
+L['achievement_rewards_off_note'] = nil
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = 'Configuración de Íconos'

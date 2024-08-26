@@ -154,6 +154,8 @@ L['options_open_settings_panel'] = '打开设置面板…'
 L['options_open_world_map'] = '打开世界地图'
 L['options_open_world_map_desc'] = '打开此区域世界地图。'
 
+L['achievement_rewards_off_note'] = nil
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = '图标设置'

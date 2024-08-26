@@ -154,6 +154,8 @@ L['options_open_settings_panel'] = '설정창 열기'
 L['options_open_world_map'] = '세계지도 열기'
 L['options_open_world_map_desc'] = '세계지도에서 이 지역을 엽니다.'
 
+L['achievement_rewards_off_note'] = nil
+
 ------------------------------------ ICONS ------------------------------------
 
 L['options_icon_settings'] = '아이콘 설정'
