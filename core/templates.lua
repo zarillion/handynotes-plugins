@@ -247,10 +247,10 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                     isNotRadio = true,
                     notCheckable = true,
                     notClickable = true,
-                    keepShownOnClick = true,
+                    keepShownOnClick = true
                     -- hasArrow = true,
                     -- value = 'rewards'
-                },level)
+                }, level)
                 LibDD:UIDropDownMenu_AddSeparator(level)
             end
             for i, group in ipairs(map.groups) do
@@ -261,8 +261,8 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             end
         elseif L_UIDROPDOWNMENU_MENU_VALUE == 'rewards' then
             for i, type in ipairs({
-                'achievement', 'manuscript', 'mount', 'pet', 'recipe', 'toy', 'transmog',
-                'all_transmog'
+                'achievement', 'manuscript', 'mount', 'pet', 'recipe', 'toy',
+                'transmog', 'all_transmog'
             }) do
                 LibDD:UIDropDownMenu_AddButton({
                     text = L['options_' .. type .. '_rewards'],
