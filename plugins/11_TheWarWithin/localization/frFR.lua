@@ -121,10 +121,7 @@ L['priory_satchel_location'] = 'Récupérez la {object:Besace balayée par le ve
 L['smugglers_treasure_note'] = 'Récupérez la {item:225335} nécessaire sur l\'({dot:Blue}) {npc:226025} en contrebas de la falaise.'
 L['smugglers_treasure_location'] = 'En haut de la falaise, entre plusieurs rochers.'
 L['coral_fused_clam'] = 'Palourde à corail fusionné'
-L['coral_fused_clam_note'] = [[Récupérez le {item:218354} à partir du {object:Kit de palourdier} pour ouvrir la Palourde.
-
-{note:Vous devez être de niveau 80 pour le ramasser.}
-]]
+L['coral_fused_clam_note'] = 'Récupérez le {item:218354} à partir du {object:Kit de palourdier} pour ouvrir la Palourde.'
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
 L['options_icons_biblo_archivist_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40622}.'
@@ -173,9 +170,7 @@ L['croakit_note'] = [[Pour attaquer {npc:214757}, vous devez d'abord pêcher 10x
 
 Une fois que vous avez tous les poissons, allez vers {npc:214757} et lancez-les-lui.]]
 L['deathtide_note'] = [[Pour l'invoquer, vous devez utiliser l'{item:220123} sur l'{object:Autel menaçant}.
-Vous devez combiner l'{item:220122} {dot:Blue} et le {item:220124} {dot:Green} pour obtenir l'{item:220123}.
-
-{note:Vous devez être de niveau 80 pour les ramasser.} ]]
+Vous devez combiner l'{item:220122} {dot:Blue} et le {item:220124} {dot:Green} pour obtenir l'{item:220123}.]]
 L['murkshade_note'] = 'Interagissez avec la {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
@@ -191,7 +186,7 @@ L['options_icons_beacon_of_hope_desc'] = 'Afficher les emplacements des flammecl
 
 L['beacon_of_hope_note'] = 'Donnez des {item:206350} pour allumer les flammeclés inférieures et achever les quêtes suivantes.'
 
-L['parasidious_note'] = nil
+L['parasidious_note'] = 'Pour faire apparaître ce rare, vous devrez acheter des {item:206670} au {npc:206533} (activez la {object:Flammeclé inférieure} pour le faire apparaître), puis allez à la {location:Terre du Crépuscule} et tirez sur les {npc:206870}. En tirant, une vigne jaillira de vous jusqu\'à la {object:Terre retournée} et elle grandira/changera jusqu\'à ce que le rare apparaisse.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
@@ -210,16 +205,16 @@ L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
 L['options_icons_bookworm'] = '{achievement:40629}'
-L['options_icons_bookworm_desc'] = nil
+L['options_icons_bookworm_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40629}.'
 
-L['nerubian_potion_note'] = 'Achetez une {item:225784} à {npc:218192} contre 500x {currency:3056}.'
-L['bookworm_note'] = nil
-L['bookworm_1_location'] = nil
+L['nerubian_potion_note'] = 'Achetez une {item:225784} ({note:l\'effet dure 10 minutes}) à {npc:218192} contre 500x {currency:3056}.'
+L['bookworm_note'] = '{note:Vous pouvez également obtenir le haut-fait {achievement:40542} avec la {item:225784}.}'
+L['bookworm_1_location'] = 'À l\'entrée de la petite grotte.'
 
 L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40542}.'
 
-L['smelling_history_note'] = nil
+L['smelling_history_note'] = '{note:Vous pouvez également obtenir le haut-fait {achievement:40629} avec la {item:225784}.}'
 L['smelling_history_1_location'] = 'A l\'intérieur du bâtiment, sur le comptoir.'
 L['smelling_history_2_location'] = 'Le parchemin se trouve sur un coffre.'
 L['smelling_history_3_location'] = 'Le parchemin est posé sur une table.'
@@ -228,7 +223,7 @@ L['smelling_history_5_location'] = 'À l\'intérieur du bâtiment, sur une table
 L['smelling_history_6_location'] = 'Sur le lit situé au sud de la salle.'
 L['smelling_history_7_location'] = 'Sur une pile de livres.'
 L['smelling_history_8_location'] = 'Sur la table à côté du lit, au nord de la salle.'
-L['smelling_history_9_location'] = nil
+L['smelling_history_9_location'] = 'Derrière le bureau, adossé à celui-ci, juste à côté de {npc:226024}.'
 L['smelling_history_10_location'] = 'Sur un banc.'
 L['smelling_history_11_location'] = 'Le livre est sur une table à côté du lit. L\'entrée se trouve au-dessus de la fontaine.'
 L['smelling_history_12_location'] = 'À l\'intérieur du bâtiment, sur une table.'
