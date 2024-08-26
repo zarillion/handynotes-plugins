@@ -17,7 +17,7 @@ local Path = ns.poi.Path
 
 local kvr = Map({id = 2681, settings = false}) -- Kriegval's Rest
 local tuk = Map({id = 2690, settings = false}) -- The Underkeep
-local ecm = Map({id = 2680, settings = false}) -- Earthcrawl Mines
+local ecm = Map({id = 2269, settings = false}) -- Earthcrawl Mines
 local mmc = Map({id = 2679, settings = false}) -- Mycomancer Cavern
 local tdp = Map({id = 2684, settings = false}) -- The Dread Pit
 local tww = Map({id = 2683, settings = false}) -- The Waterworks
@@ -49,6 +49,7 @@ L['on_the_plant'] = 'On the plant.'
 
 -- THESE LOCATION NOTES WILL PROBABLY BE UNIQUE AND USED ONLY ONCE.
 L['sturdy_chest_ship_jump'] = 'Jump down from the skyship.'
+L['sturdy_chest_crane'] = 'On the crane. Jump from the upper level.'
 
 -- LuaFormatter on
 
@@ -152,37 +153,32 @@ tuk.nodes[72128833] = SturdyChest({
 
 ecm.nodes[45341525] = SturdyChest({
     achievementID = 40806,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('1/5')
+    quest = 83440
 }) -- Sturdy Chest 1
 
 ecm.nodes[43572716] = SturdyChest({
     achievementID = 40806,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('2/5')
+    quest = 83438
 }) -- Sturdy Chest 2
 
 ecm.nodes[32743966] = SturdyChest({
     achievementID = 40806,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('3/5')
+    quest = nil ------------------------------------ TODO: I MISSED THIS QUEST
 }) -- Sturdy Chest 3
 
 ecm.nodes[36163308] = SturdyChest({
     achievementID = 40806,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('4/5')
+    location = L['sturdy_chest_crane'],
+    quest = 83441,
+    pois = {
+        POI({34523427}), -- jump point
+        Path({34523427, 35393357}) -- jump path
+    }
 }) -- Sturdy Chest 4
 
 ecm.nodes[53558214] = SturdyChest({
     achievementID = 40806,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('5/5')
+    quest = 83438
 }) -- Sturdy Chest 5
 
 -------------------------------------------------------------------------------
