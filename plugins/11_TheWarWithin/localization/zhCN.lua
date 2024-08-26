@@ -168,6 +168,7 @@ L['furball_location'] = '在废墟建筑内。'
 L['dander_location'] = '在外面。'
 L['gobbo_location'] = '在建筑内的床上。'
 
+L['beledars_spawn_note'] = nil
 L['croakit_note'] = [[要攻击 {npc:214757}，必须先从附近的水中钓出10个 {item:211474}。
 
 收集完所有鱼后，去找 {npc:214757} 并把它们扔给他。]] -- from wowhead, needs to be confirmed.

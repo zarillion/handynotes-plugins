@@ -165,6 +165,7 @@ L['furball_location'] = 'Inside the ruined building.'
 L['dander_location'] = 'Outside.'
 L['gobbo_location'] = 'Inside the building on the bed.'
 
+L['beledars_spawn_note'] = 'This rare spawns at one of several locations at a fixed interval.\n\nNext spawn in:\n{note:%s (%s)}'
 L['croakit_note'] = [[To attack {npc:214757} you must first fish 10x {item:211474} from the water nearby.
 
 Once you have all the fish go to {npc:214757} and toss them to him.]] -- from wowhead, needs to be confirmed.

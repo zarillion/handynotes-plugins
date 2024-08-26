@@ -166,6 +166,7 @@ L['furball_location'] = 'Im zerstörten Gebäude.'
 L['dander_location'] = 'Draußen.'
 L['gobbo_location'] = 'Im Gebäude auf dem Bett.'
 
+L['beledars_spawn_note'] = 'Dieser Gegner erscheint an einem von mehreren Positionen in einem festgelegten Intervall.\n\nNächstes erscheinen:\n{note:%s (%s)}'
 L['croakit_note'] = nil
 L['deathtide_note'] = nil
 L['murkshade_note'] = 'Interagiere mit {npc:218455}.'

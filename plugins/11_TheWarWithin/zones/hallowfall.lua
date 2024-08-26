@@ -37,12 +37,12 @@ local map = Map({id = 2215, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[15004000] = Rare({
+local BeledarsSpawn = Class('ProfessionRare', Rare, {
     id = 207802,
     quest = 81763, -- 85164
     rewards = {
-        Mount({item = 223315, id = 2192}),
-        Achievement({id = 40851, criteria = 69716})
+        Achievement({id = 40851, criteria = 69716}),
+        Mount({item = 223315, id = 2192})
     },
     pois = {
         POI({
@@ -53,6 +53,28 @@ map.nodes[15004000] = Rare({
         })
     }
 }) -- Beledar's Spawn
+
+function BeledarsSpawn.getters:note()
+    local timeFormat =
+        ns:GetOpt('use_standard_time') and L['time_format_12hrs'] or
+            L['time_format_24hrs']
+
+    local timeLeft = (GetQuestResetTime() + 3660) % 10800
+    local nextSpawn = timeLeft + time()
+
+    local spawnsIn = timeLeft <= 60 and L['now'] or
+                         SecondsToTime(timeLeft, true, true)
+
+    local color = ns.color.Orange
+    if timeLeft < 1800 then color = ns.color.Yellow end -- 30 mins
+    if timeLeft < 600 then color = ns.color.Green end -- 10 mins
+    spawnsIn = color(spawnsIn)
+
+    return format(L['beledars_spawn_note'], spawnsIn,
+        date(timeFormat, nextSpawn))
+end
+
+map.nodes[15004000] = BeledarsSpawn()
 
 -- map.nodes[08002000] = Rare({
 --     id = 220159,

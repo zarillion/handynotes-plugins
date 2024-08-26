@@ -165,6 +165,7 @@ L['furball_location'] = 'Dentro del edificio en ruinas.'
 L['dander_location'] = 'Afuera.'
 L['gobbo_location'] = 'Dentro del edificio encima de la cama.'
 
+L['beledars_spawn_note'] = nil
 L['croakit_note'] = [[Para atacar a {npc:214757} primero tienes que pescar 10x {item:211474} del agua cercana.
 
 Una vez los tengas todos ve a {npc:214757} y échaselos.]]
