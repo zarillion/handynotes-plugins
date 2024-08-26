@@ -185,7 +185,7 @@ L['options_icons_beacon_of_hope_desc'] = 'Muestra dónde están las llaves ardie
 
 L['beacon_of_hope_note'] = 'Contribuye con {item:206350} para encender las llaves ardientes inferiores y completar las misiones siguientes.'
 
-L['parasidious_note'] = 'Para hacer aparecer a este raro necesitarás comprar unos {item:206670} al {npc:206533} (activa la {object:Llave Ardiente Inferior} para hacer que aparezca) e ir al {location:Paraje Alzaocaso} y sacar las {npc:206870}. A medida que las saques, una vid saldrá disparada de ti hacia un {object:Túmulo Revuelto} y crecerá/cambiará hasta que eventualmente aparezca el raro.' -- from wowhead, needs to be reviewed
+L['parasidious_note'] = 'Para hacer aparecer a este raro necesitarás comprar unos {item:206670} al {npc:206533} (activa la {object:Llave Ardiente Inferior} para hacer que aparezca) e ir al {location:Paraje Alzaocaso} y sacar las {npc:206870}. A medida que las saques, una vid saldrá disparada de ti hacia un {object:Túmulo Revuelto} y crecerá/cambiará hasta que eventualmente aparezca el raro.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
