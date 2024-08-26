@@ -59,10 +59,10 @@ L['hard'] = '困难'
 
 L['completed'] = '已完成'
 L['incomplete'] = '未完成'
-L['claimed'] = nil
-L['unclaimed'] = nil
-L['known'] = '已获得'
-L['missing'] = '未获得'
+L['claimed'] = '已获得'
+L['unclaimed'] = '未获得'
+L['known'] = '已知'
+L['missing'] = '缺少'
 L['unobtainable'] = '无法获得'
 L['unlearnable'] = '无法解锁'
 L['defeated'] = '已击杀'

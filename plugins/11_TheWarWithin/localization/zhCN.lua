@@ -31,7 +31,7 @@ L['turtles_thanks_1_note'] = '交出5个 {item:220143}（可从 {object:平静�
 L['turtles_thanks_2_note'] = '交出1个 {item:222533}（可从 {object:浮光之池}，{object:溃烂的腐臭之池}，{object:Infused Ichor Spill} 鱼点钓鱼或从拍卖行购买）。'
 L['turtles_thanks_3_note'] = '在 {location:多恩诺嘉尔} 与 {npc:223338} 会面并与她交谈以发现宝藏。'
 
-L['cendvin_note'] = nil
+L['cendvin_note'] = '在 {location:烬燧荒原} 从精英怪物那里获得900个 {item:225557} 之后从 {npc:226205} 购买 {item:223153} 坐骑。'
 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = '显示 {achievement:40606} 成就中的位置。'
