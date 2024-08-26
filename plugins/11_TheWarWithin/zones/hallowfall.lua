@@ -354,21 +354,23 @@ map.nodes[56486899] = Rare({
     id = 218444,
     quest = 80009, -- 84061
     rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69708}),
-Transmog({item = 221215, type = L['leather']}), -- Taskmaster's Mining Cap
-Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
+    rewards = {
+        Achievement({id = 40851, criteria = 69708}),
+        Transmog({item = 221215, type = L['leather']}), -- Taskmaster's Mining Cap
+        Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
         Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
-}
+    }
 }) -- The Taskmaker
 
 map.nodes[66432411] = Rare({
     id = 207803,
     quest = 82561, -- 84055
     rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69723}),
-Transmog({item = 223933, type = L['leather']}), -- Slime Goliath's Cap
-Transmog({item = 223920, type = L['shield']}), -- Slime Deflecting Stopper
-}
+    rewards = {
+        Achievement({id = 40851, criteria = 69723}),
+        Transmog({item = 223933, type = L['leather']}), -- Slime Goliath's Cap
+        Transmog({item = 223920, type = L['shield']}) -- Slime Deflecting Stopper
+    }
 }) -- Toadstomper
 
 map.nodes[63782057] = Rare({
