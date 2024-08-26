@@ -186,7 +186,7 @@ L['options_icons_beacon_of_hope_desc'] = '显示 {achievement:40308} 成就中�
 
 L['beacon_of_hope_note'] = '捐献 {item:206350} 来点亮小型钥焰并完成接下来的任务。'
 
-L['parasidious_note'] = '要出现此稀有，需要从 {npc:206533} 购买 {item:206670}（激活 {object:小型钥焰} 使其出现），然后前往 {location:暮升辽原} 并拉动 {npc:206870}。当拉动它时，一根藤蔓会从身上射出并到达 {object:翻动过的泥土}，它会生长/变化，直到稀有最终出现。' -- from wowhead, needs to be reviewed
+L['parasidious_note'] = '要出现此稀有，需要从 {npc:206533} 购买 {item:206670}（激活 {object:小型钥焰} 使其出现），然后前往 {location:暮升辽原} 并拉动 {npc:206870}。当拉动它们时，一根藤蔓会从身上射出并到达 {npc:206978}，它会生长/变化，直到稀有最终出现。' -- from wowhead, needs to be reviewed
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------

@@ -186,7 +186,7 @@ L['options_icons_beacon_of_hope_desc'] = 'Display lesser keyflame locations for 
 
 L['beacon_of_hope_note'] = 'Contribute {item:206350} to light lesser keyflames and complete the following quests.'
 
-L['parasidious_note'] = 'To spawn this rare you\'ll need to buy {item:206670} from {npc:206533} (activate the {object:Lesser Keyflame} to make him appear) then go to the {location:Duskrise Acreage} and pull the {npc:206870}. As you pull them, a vine will shoot out of you to the {object:Disturbed Dirt} and it will grow/change until the rare eventually spawns.' -- from wowhead, needs to be reviewed
+L['parasidious_note'] = 'To spawn this rare you\'ll need to buy {item:206670} from {npc:206533} (activate the {object:Lesser Keyflame} to make him appear) then go to the {location:Duskrise Acreage} and pull the {npc:206870}. As you pull them, a vine will shoot out of you to the {npc:206978} and it will grow/change until the rare eventually spawns.' -- from wowhead, needs to be reviewed
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
