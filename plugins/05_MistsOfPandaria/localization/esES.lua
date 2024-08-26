@@ -1,8 +1,7 @@
--- Spanish Translation by (EU) Krovikan-Minahonda
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
-
+-- Spanish Translation by (EU) Krovikan-Minahonda
 -------------------------------------------------------------------------------
 -------------------------------- TIMELESS ISLE --------------------------------
 -------------------------------------------------------------------------------
@@ -136,6 +135,7 @@ L['abandoned_crate_of_goods_note'] = 'Contiene unos 103 de Oro.'
 
 L['cache_of_pilfered_goods'] = 'Alijo de Bienes Trincados'
 L['virmen_treasure_cache'] = 'Alijo del Tesoro Mur'
+L['mysterious_fruit_pile'] = 'Montón de Fruta Misteriosa'
 
 -------------------------------------------------------------------------------
 ------------------------------- Isle of Thunder -------------------------------

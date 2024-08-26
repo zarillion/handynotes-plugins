@@ -11,11 +11,11 @@ local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
+local Vendor = ns.node.Vendor
 
 local AncientStone = ns.node.AncientStone
 local Disturbeddirt = ns.node.Disturbeddirt
 local Dragonglyph = ns.node.Dragonglyph
-local Dragonrace = ns.node.Dragonrace
 local ElementalStorm = ns.node.ElementalStorm
 local ElusiveCreature = ns.node.ElusiveCreature
 local Flag = ns.node.Flag
@@ -26,25 +26,30 @@ local MagicBoundChest = ns.node.MagicBoundChest
 local PM = ns.node.ProfessionMasters
 local PrettyNeat = ns.node.PrettyNeat
 local PT = ns.node.ProfessionTreasures
-local Rare14h = ns.node.Rare14h
 local RareElite = ns.node.RareElite
+local RichSoil = ns.node.RichSoil
 local Safari = ns.node.Safari
 local Scoutpack = ns.node.Scoutpack
 local SignalTransmitter = ns.node.SignalTransmitter
 local Squirrel = ns.node.Squirrel
 local TuskarrTacklebox = ns.node.TuskarrTacklebox
+local WarSupply = ns.node.WarSupply
 
 local Achievement = ns.reward.Achievement
+local Appearance = ns.reward.Appearance
 local Currency = ns.reward.Currency
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
+
+local QuestStatus = ns.tooltip.QuestStatus
 
 local DC = ns.DRAGON_CUSTOMIZATIONS
 
@@ -55,15 +60,12 @@ local val = Map({id = 2112, settings = false}) -- Valdrakken
 local tpf = Map({id = 2085, settings = false}) -- The Primalist Future
 
 -------------------------------------------------------------------------------
-
--- war supplies 41974893
-
--------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[59075874] = RareElite({
     id = 193664,
+    vignette = 5236,
     quest = 74055,
     note = L['ancient_protector_note'],
     rewards = {
@@ -78,10 +80,11 @@ map.nodes[59075874] = RareElite({
     pois = {POI({60755543, 60736211, 59225648, 59266104})} -- Titanic Reactors
 }) -- Ancient Protector
 
-map.nodes[59847057] = Rare14h({
+map.nodes[61636958] = Rare({
     id = 193220,
+    vignette = 5193,
     quest = 73987,
-    rotationID = 25,
+    interval = ns.Intervals.Interval14h({id = 25}),
     rewards = {
         Achievement({id = 16679, criteria = 56149}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -95,14 +98,46 @@ map.nodes[59847057] = Rare14h({
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
         DC.WindborneVelocidrake.SpikedBack, DC.HighlandDrake.StripedPattern,
-        DC.HighlandDrake.ManedHead
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Broodweaver Araznae
 
+map.nodes[40807465] = Rare({
+    id = 193243,
+    quest = 72834,
+    rewards = {
+        Transmog({item = 200165, slot = L['shield']}), -- Aegis of Scales
+        Transmog({item = 200682, slot = L['plate']}), -- Hardened Scale Shoulderguards
+        Transmog({item = 200228, slot = L['mail']}), -- Protoscale Pauldrons
+        DC.RenewedProtoDrake.ClubTail, DC.CliffsideWylderdrake.HeavyHorns
+    },
+    pois = {
+        Path({
+            40807465, 38667537, 37447542, 36727565, 36507640, 37237792,
+            38137912, 38707939, 39277942, 39567930, 39687884, 39507767,
+            39477697, 39667648, 39947653, 40107680, 40497778, 40237878,
+            40037911, 39747932, 39367896, 39147837, 39097697, 39747530,
+            40387463, 40807465
+        })
+    }
+}) -- Acrosoth
+
+map.nodes[59807060] = Rare({
+    id = 205865,
+    quest = 76170,
+    rewards = {
+        Transmog({item = 208168, slot = L['1h_sword']}), -- Black Blade of K'tanth
+        Transmog({item = 208172, slot = L['staff']}), -- Bloodstained Runecrook
+        Transmog({item = 208170, slot = L['2h_axe']}) -- Runeaxe of the Last Resistance
+    }
+}) -- Zal'kir the Chosen
+
 map.nodes[44886910] = Rare({
     id = 193658,
+    vignette = 5235,
     quest = 74060,
-    note = L['in_cave'] .. ' ' .. L['corrupted_proto_dragon_note'],
+    location = L['in_cave'],
+    note = L['corrupted_proto_dragon_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56156}),
         Transmog({item = 200166, slot = L['offhand']}), -- Corrupted Drake Horn
@@ -116,11 +151,10 @@ map.nodes[44886910] = Rare({
     pois = {POI({44616780})} -- Entrance
 }) -- Corrupted Proto-Dragon
 
-local CRAGGRAVATEDELEMENTAL = Rare({
+map.nodes[45458518] = Rare({
     id = 193663,
+    vignette = 5237,
     quest = 74061,
-    fgroup = 'craggravated',
-    focusable = true,
     rewards = {
         Achievement({id = 16679, criteria = 56154}),
         Transmog({item = 200298, slot = L['plate']}), -- Stoneshaped Greatbelt
@@ -131,13 +165,11 @@ local CRAGGRAVATEDELEMENTAL = Rare({
     }
 }) -- Craggravated Elemental
 
-map.nodes[45458518] = CRAGGRAVATEDELEMENTAL
-map.nodes[52746732] = CRAGGRAVATEDELEMENTAL
-
-map.nodes[47675115] = Rare14h({
+map.nodes[47675115] = Rare({
     id = 193234,
+    vignette = 5198,
     quest = 73990,
-    rotationID = 6,
+    interval = ns.Intervals.Interval14h({id = 6}),
     rewards = {
         Achievement({id = 16446, criteria = 55398, note = L['pretty_neat_note']}),
         Achievement({id = 16679, criteria = 56147}),
@@ -145,13 +177,14 @@ map.nodes[47675115] = Rare14h({
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
-        DC.HighlandDrake.ToothyMouth, DC.CliffsideWylderdrake.HeadMane,
-        DC.HighlandDrake.ManedHead
+        DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.ImpalerHorns,
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Eldoren the Reborn
 
 map.nodes[53374092] = Rare({
     id = 193125,
+    vignette = nil,
     quest = 73878,
     rewards = {
         Achievement({id = 16679, criteria = 56138}),
@@ -163,22 +196,26 @@ map.nodes[53374092] = Rare({
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        Toy({item = 200249}) -- Mage's Chewed Wand
+        Toy({item = 200249}), -- Mage's Chewed Wand
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Goremaul the Gluttonous
 
 map.nodes[59128380] = Rare({
     id = 193126,
+    vignette = nil,
     quest = 73881,
     rewards = {
         Achievement({id = 16679, criteria = 56135}),
-        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200126, slot = L['cloak']}), -- Mantle of Copious Chronologies
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Toy({item = 200148}), -- A Collection Of Me
-        DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
+        DC.CliffsideWylderdrake.NarrowStripesPattern,
+        DC.HighlandDrake.StagHorns, DC.RenewedProtoDrake.ImpalerHorns,
+        DC.HighlandDrake.ToothyMouth
     },
     pois = {
         Path({
@@ -193,26 +230,29 @@ map.nodes[59128380] = Rare({
 
 map.nodes[62298177] = Rare({
     id = 193241,
+    vignette = 5203,
     quest = 74066,
     note = L['lord_epochbrgl_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56157}),
         Transmog({item = 200185, slot = L['leather']}), -- Grips of the Everflowing Ocean
-        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200126, slot = L['cloak']}), -- Mantle of Copious Chronologies
         Transmog({item = 200151, slot = L['1h_sword']}), -- Seamist Blade
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
         Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
         Toy({item = 200148}), -- A Collection Of Me
         DC.CliffsideWylderdrake.NarrowStripesPattern,
-        DC.HighlandDrake.StagHorns, DC.CliffsideWylderdrake.FinnedNeck
+        DC.HighlandDrake.StagHorns, DC.CliffsideWylderdrake.FinnedNeck,
+        DC.WindborneVelocidrake.LargeHeadFin
     },
     pois = {POI({61708120})} -- Entrance
 }) -- Lord Epochbrgl
 
-map.nodes[52895903] = Rare14h({
+map.nodes[52895903] = Rare({
     id = 193246,
+    vignette = 5204,
     quest = 74013,
-    rotationID = 12,
+    interval = ns.Intervals.Interval14h({id = 12}),
     rewards = {
         Achievement({id = 16679, criteria = 56141}),
         Transmog({item = 200257, slot = L['2h_mace']}), -- Decay Infused Branch
@@ -228,8 +268,9 @@ map.nodes[52895903] = Rare14h({
 
 map.nodes[59806100] = Rare({
     id = 193688,
+    vignette = 5248,
     quest = 74020,
-    -- rotationID = 7, -- wait for blizz fix.
+    -- interval = ns.Intervals.Interval14h({id = 7}), -- wait for blizz fix.
     rewards = {
         Achievement({id = 16679, criteria = 56140}),
         Transmog({item = 200146, slot = L['1h_mace']}), -- Phenran's Discordant Smasher
@@ -243,14 +284,15 @@ map.nodes[59806100] = Rare({
     }
 }) -- Phenran
 
-map.nodes[57218420] = Rare14h({
+map.nodes[57218420] = Rare({
     id = 193210,
+    vignette = 5192,
     quest = 74021,
-    rotationID = 0,
+    interval = ns.Intervals.Interval14h({id = 0}),
     rewards = {
         Achievement({id = 16679, criteria = 56142}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
-        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200126, slot = L['cloak']}), -- Mantle of Copious Chronologies
         Toy({item = 200148}), -- A Collection Of Me
         DC.CliffsideWylderdrake.NarrowStripesPattern, DC.HighlandDrake.StagHorns
     }
@@ -258,6 +300,7 @@ map.nodes[57218420] = Rare14h({
 
 map.nodes[37967903] = Rare({
     id = 193130,
+    vignette = 5479,
     quest = 73889,
     rewards = {
         Achievement({id = 16679, criteria = 56137}), --
@@ -275,6 +318,7 @@ map.nodes[37967903] = Rare({
 
 map.nodes[50404840] = Rare({
     id = 193143,
+    vignette = 5180,
     quest = 73892,
     rewards = {
         Achievement({id = 16679, criteria = 56133}), --
@@ -297,10 +341,11 @@ map.nodes[50404840] = Rare({
     }
 }) -- Razk'vex the Untamed
 
-map.nodes[40087014] = Rare14h({
+map.nodes[40087014] = Rare({
     id = 193240,
+    vignette = 5201,
     quest = 74024,
-    rotationID = 4,
+    interval = ns.Intervals.Interval14h({id = 4}),
     rewards = {
         Achievement({id = 16679, criteria = 56148}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -317,10 +362,11 @@ map.nodes[40087014] = Rare14h({
     }
 }) -- Riverwalker Tamopo
 
-map.nodes[50005180] = Rare14h({
+map.nodes[50005180] = Rare({
     id = 193666,
+    vignette = 5238,
     quest = 74025,
-    rotationID = 10,
+    interval = ns.Intervals.Interval14h({id = 10}),
     rewards = {
         Achievement({id = 16679, criteria = 56151}),
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -335,15 +381,16 @@ map.nodes[50005180] = Rare14h({
     }
 }) -- Rokmur
 
-map.nodes[37607780] = Rare14h({
+map.nodes[37607780] = Rare({
     id = 193176,
+    vignette = 5185,
     quest = 74029,
-    rotationID = 18,
-    cave = true,
+    interval = ns.Intervals.Interval14h({id = 18}),
+    location = L['in_cave'],
     rewards = {
         Achievement({id = 16679, criteria = 56150}),
         Transmog({item = 200202, slot = L['mail']}), -- Tomorrow's Chains
-        Transmog({item = 200126, slot = L['cloth']}), -- Mantle of Copious Chronologies
+        Transmog({item = 200126, slot = L['cloak']}), -- Mantle of Copious Chronologies
         Transmog({item = 200306, slot = L['cloak']}), -- Tempest Shawl
         Transmog({item = 200314, slot = L['cloth']}), -- Skyspeaker's Envelope
         Toy({item = 200148}), -- A Collection Of Me
@@ -354,13 +401,16 @@ map.nodes[37607780] = Rare14h({
     pois = {POI({38507640})} -- Cave entrance
 }) -- Sandana the Tempest
 
-map.nodes[47207895] = Rare14h({
+map.nodes[47207895] = Rare({
     id = 193258,
+    vignette = 5207,
     quest = 74035,
-    rotationID = 21,
+    interval = ns.Intervals.Interval14h({id = 21}),
     rewards = {
         Achievement({id = 16679, criteria = 56144}),
-        Transmog({item = 200139, slot = L['bow']}) -- Tempest Arc
+        Transmog({item = 200139, slot = L['bow']}), -- Tempest Arc
+        DC.RenewedProtoDrake.PurpleHair, DC.WindborneVelocidrake.SweptHorns,
+        DC.WindborneVelocidrake.FeatheryHead
     },
     pois = {
         Path({
@@ -372,6 +422,7 @@ map.nodes[47207895] = Rare14h({
 
 map.nodes[38466826] = Rare({
     id = 191305,
+    vignette = 5439,
     quest = 74085,
     note = L['the_great_shellkhan_note'],
     rewards = {
@@ -392,8 +443,10 @@ map.nodes[38466826] = Rare({
 
 map.nodes[46267317] = Rare({
     id = 183984,
+    vignette = 4958,
     quest = 74086,
-    note = L['in_cave'] .. ' ' .. L['weeping_vilomah_note'],
+    location = L['in_cave'],
+    note = L['weeping_vilomah_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56153}),
         Transmog({item = 200214, slot = L['mail']}), -- Grasp of the Weeping Widow
@@ -407,11 +460,12 @@ map.nodes[46267317] = Rare({
     pois = {POI({47547180})} -- Cave entrance
 }) -- The Weeping Vilomah
 
-map.nodes[35027001] = Rare14h({
+map.nodes[35027001] = Rare({
     id = 193146,
+    vignette = 5431,
     quest = 74036,
-    rotationID = 15,
-    cave = true,
+    interval = ns.Intervals.Interval14h({id = 15}),
+    location = L['in_cave'],
     rewards = {
         Achievement({id = 16679, criteria = 56146}),
         Transmog({item = 200291, slot = L['leather']}), -- Waterlogged Racing Grips
@@ -422,6 +476,7 @@ map.nodes[35027001] = Rare14h({
 
 map.nodes[47884976] = Rare({
     id = 193161,
+    vignette = 5177,
     quest = 74089,
     note = L['woofang_note'],
     rewards = {
@@ -439,6 +494,7 @@ map.nodes[47884976] = Rare({
 
 map.nodes[57366540] = Rare({
     id = 197411,
+    vignette = nil,
     quest = 74057,
     label = L['large_lunker_sighting'],
     note = L['large_lunker_sighting_note'],
@@ -457,6 +513,7 @@ map.nodes[57366540] = Rare({
 
 map.nodes[55647727] = Rare({
     id = 193229,
+    vignette = 5196,
     quest = 72814,
     rewards = {
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
@@ -467,13 +524,13 @@ map.nodes[55647727] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
-        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane,
-        Item({item = 198048}) -- Titan Training Matrix I
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Henlare
 
 map.nodes[36757287] = Rare({
     id = 193273,
+    vignette = 5437,
     quest = 72842,
     rewards = {
         Achievement({id = 16446, criteria = 55399, note = L['pretty_neat_note']}),
@@ -485,12 +542,13 @@ map.nodes[36757287] = Rare({
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Toy({item = 200249}), -- Mage's Chewed Wand
-        Item({item = 198048}) -- Titan Training Matrix I
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
     }
 }) -- Liskron the Dazzling
 
 map.nodes[36798556] = Rare({
     id = 193668,
+    vignette = 5239,
     quest = 72813,
     rewards = {
         Transmog({item = 200182, slot = L['cloak']}), -- Riveted Drape
@@ -499,8 +557,7 @@ map.nodes[36798556] = Rare({
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
         Toy({item = 200198}), -- Primalist Prison
         DC.WindborneVelocidrake.ClusterHorns, DC.RenewedProtoDrake.ImpalerHorns,
-        DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.HeavyHorns,
-        Item({item = 198048}) -- Titan Training Matrix I
+        DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.HeavyHorns
     }
 }) -- Lookout Mordren
 
@@ -510,6 +567,7 @@ map.nodes[36798556] = Rare({
 
 tpf.nodes[48421722] = Rare({
     id = 201562,
+    vignette = 5567,
     quest = 74556,
     rewards = {
         Transmog({item = 203669, slot = L['leather']}), -- Chillwing Leggings
@@ -521,6 +579,7 @@ tpf.nodes[48421722] = Rare({
 
 tpf.nodes[61813142] = Rare({
     id = 201542,
+    vignette = 5565,
     quest = 74558,
     rewards = {
         Transmog({item = 203667, slot = L['cloth']}), -- Frostclaw's Spellfingers
@@ -530,17 +589,20 @@ tpf.nodes[61813142] = Rare({
 
 tpf.nodes[53536521] = Rare({
     id = 201543,
+    vignette = 5566,
     quest = 74554,
     rewards = {
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
         Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
-        Transmog({item = 201447, slot = L['cosmetic']}) -- Primal Revenant's Breezeblade
+        Transmog({item = 201447, slot = L['1h_sword']}), -- Primal Revenant's Breezeblade
+        DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek
     }
 }) -- Avalantus
 
 tpf.nodes[46884248] = Rare({
     id = 201545,
+    vignette = 5568,
     quest = 74553,
     rewards = {
         Transmog({item = 203668, slot = L['mail']}), -- Earhshaping Grips
@@ -551,6 +613,41 @@ tpf.nodes[46884248] = Rare({
     }
 }) -- Shapemaster Za'lani
 
+-- Tyrhold (10.0.5)
+map.nodes[59766226] = Rare({
+    id = 201550,
+    vignette = {5563, 5880},
+    quest = 74565,
+    rewards = {
+        Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
+        Transmog({item = 200299, slot = L['1h_sword']}), -- Strange Clockwork Gladius
+        DC.HighlandDrake.CrestedBrow
+    }
+}) -- Overloading Defense Matrix
+
+map.nodes[59525659] = Rare({
+    id = 201552,
+    vignette = {5562, 5881},
+    quest = 74566,
+    rewards = {
+        Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
+        Transmog({item = 200299, slot = L['1h_sword']}), -- Strange Clockwork Gladius
+        Transmog({item = 203665, slot = L['mail']}), -- Stonetongues Hood
+        DC.HighlandDrake.CrestedBrow
+    }
+}) -- Overseer Stonetongue
+
+map.nodes[61736079] = Rare({
+    id = 201549,
+    vignette = {5564, 5879},
+    quest = 74561,
+    rewards = {
+        Transmog({item = 200259, slot = L['shield']}), -- Forest Dweller's Shield
+        Transmog({item = 200267, slot = L['plate']}), -- Reinforced Garden Tenders
+        Transmog({item = 203666, slot = L['leather']}), -- Vinelashed Bracers
+        DC.RenewedProtoDrake.SnubSnout, DC.HighlandDrake.TanHorns
+    }
+}) -- Morlash
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
@@ -587,7 +684,7 @@ map.nodes[33967695] = Treasure({
     },
     rewards = {
         Achievement({id = 16301, criteria = 54810}), -- Treasures of Thaldraszus
-        Item({item = 169951, note = '3x'}) -- Broken Hourglass
+        Item({item = 169951, count = 3}) -- Broken Hourglass
     }
 }) -- Cracked Hourglass
 
@@ -605,14 +702,14 @@ map.nodes[58168007] = Treasure({
     requires = ns.requirement.Quest(70538, '{item:199069}'), -- Yennu's Map
     rewards = {
         Achievement({id = 16301, criteria = 54811}), -- Treasures of Thaldraszus
-        Item({item = 200827, note = '5x'}) -- Weathered Sculpture
+        Item({item = 200827, count = 5}) -- Weathered Sculpture
     },
     pois = {POI({54937543})} -- Yennu's Map
 }) -- Sandy Wooden Duck (Sand Pile)
 
 map.nodes[64851655] = Treasure({
     quest = 70610,
-    note = L['in_cave'],
+    location = L['in_cave'],
     rewards = {
         Achievement({id = 16301, criteria = 54814}), Item({item = 193036}) -- Left-Handed Magnifying Glass
     }
@@ -623,7 +720,7 @@ map.nodes[64851655] = Treasure({
 map.nodes[52458361] = Treasure({
     quest = 72355,
     label = '{npc:198604}',
-    note = L['in_cave'],
+    location = L['in_cave'],
     requires = ns.requirement.Profession(186), -- Mining
     rewards = {
         Pet({item = 201463, id = 3415}) -- Cubbly
@@ -646,11 +743,10 @@ tpf.nodes[28002590] = ns.node.ElementalChest({
     quest = 71995,
     parent = map.id,
     label = L['chest_of_the_elements'],
-    note = L['in_cave'],
+    location = L['in_cave'],
     rewards = {
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 199906}), -- Centaur Hunting Trophy
-        Item({item = 190454}), -- Primal Chaos
         Transmog({item = 201443, slot = L['shield']}), -- Primal Revenant's Icewall
         Transmog({item = 201444, slot = L['1h_sword']}) -- Primal Revenant's Earthblade
     },
@@ -707,22 +803,21 @@ local TitanChest = Class('TitanChest', ns.node.Node, {
     group = ns.groups.TITAN_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Item({item = 190454}), -- Primal Chaos
-        Transmog({item = 201048, slot = L['cosmetic']}), -- Tyrhold Epaulets
-        Transmog({item = 201049, slot = L['cosmetic']}), -- Tyrhold Robe
-        Transmog({item = 201050, slot = L['cosmetic']}), -- Tyrhold Leggings
-        Transmog({item = 201051, slot = L['cosmetic']}), -- Tyrhold Slippers
-        Transmog({item = 201052, slot = L['cosmetic']}), -- Tyrhold Visage
-        Transmog({item = 201053, slot = L['cosmetic']}), -- Tyrhold Gloves
-        Transmog({item = 201054, slot = L['cosmetic']}), -- Tyrhold Drape
-        Transmog({item = 201056, slot = L['cosmetic']}), -- Tyrhold Sash
-        Transmog({item = 201455, slot = L['cosmetic']}), -- Tyrhold Broadsword
-        Transmog({item = 201456, slot = L['cosmetic']}), -- Tyrhold Carbine
-        Transmog({item = 201457, slot = L['cosmetic']}), -- Tyrhold Relic
-        Transmog({item = 201458, slot = L['cosmetic']}), -- Aegis of Tyrhold
-        Transmog({item = 201459, slot = L['cosmetic']}), -- Tyrhold Shortsword
-        Transmog({item = 201460, slot = L['cosmetic']}), -- Gavel of Tyrhold
-        Transmog({item = 201461, slot = L['cosmetic']}), -- Tyrhold Pinnacle
+        Transmog({item = 201048, slot = L['cloth']}), -- Tyrhold Epaulets
+        Transmog({item = 201049, slot = L['cloth']}), -- Tyrhold Robe
+        Transmog({item = 201050, slot = L['cloth']}), -- Tyrhold Leggings
+        Transmog({item = 201051, slot = L['cloth']}), -- Tyrhold Slippers
+        Transmog({item = 201052, slot = L['cloth']}), -- Tyrhold Visage
+        Transmog({item = 201053, slot = L['cloth']}), -- Tyrhold Gloves
+        Transmog({item = 201054, slot = L['cloak']}), -- Tyrhold Drape
+        Transmog({item = 201056, slot = L['cloth']}), -- Tyrhold Sash
+        Transmog({item = 201455, slot = L['2h_sword']}), -- Tyrhold Broadsword
+        Transmog({item = 201456, slot = L['gun']}), -- Tyrhold Carbine
+        Transmog({item = 201457, slot = L['offhand']}), -- Tyrhold Relic
+        Transmog({item = 201458, slot = L['shield']}), -- Aegis of Tyrhold
+        Transmog({item = 201459, slot = L['1h_sword']}), -- Tyrhold Shortsword
+        Transmog({item = 201460, slot = L['2h_mace']}), -- Gavel of Tyrhold
+        Transmog({item = 201461, slot = L['staff']}), -- Tyrhold Pinnacle
         Item({item = 199061, quest = 70527}), -- A Guide to Rare Fish
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Item({item = 199068, quest = 70537}), -- Time-Lost Memo
@@ -769,6 +864,21 @@ map.nodes[55206290] = ns.node.FrostboundChest()
 map.nodes[56206450] = ns.node.FrostboundChest()
 
 -------------------------------------------------------------------------------
+------------------------------ WAR SUPPLY CHESTS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[37337483] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[41974893] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[43806980] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[49405770] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[50105870] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[53903600] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[57385384] = WarSupply({fgroup = 'supply_thaldraszus'}) -- bug: dispear on openning
+map.nodes[59606171] = WarSupply({fgroup = 'supply_thaldraszus'}) -- bug: dispear on openning
+map.nodes[61903070] = WarSupply({fgroup = 'supply_thaldraszus'})
+map.nodes[64605970] = WarSupply({fgroup = 'supply_thaldraszus'})
+
+-------------------------------------------------------------------------------
 --------------------------------- BATTLE PETS ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -808,6 +918,20 @@ map.nodes[56274924] = PetBattle({
     }
 }) -- Setimothes
 
+map.nodes[60645974] = PetBattle({
+    id = 202452,
+    rewards = {
+        Achievement({id = 17406, criteria = 58215}) -- Battle on the Dragon Isles II
+    }
+}) -- Right Twice a Day
+
+map.nodes[55974053] = PetBattle({
+    id = 202458,
+    rewards = {
+        Achievement({id = 17406, criteria = 58219}) -- Battle on the Dragon Isles II
+    }
+}) -- They're Full of Stars
+
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
@@ -834,6 +958,13 @@ map.nodes[56304120] = PT.Inscription({
     id = 198659,
     quest = 70264,
     note = L['pt_script_forgetful_apprentices_tome_note']
+}) -- Forgetful Apprentice's Tome
+
+map.nodes[47104007] = PT.Inscription({
+    id = 198659,
+    quest = 70248,
+    note = L['pt_script_forgetful_apprentices_tome_algethera_note'],
+    pois = {POI({49844031})}
 }) -- Forgetful Apprentice's Tome
 
 map.nodes[56803050] = PT.Leatherworking({
@@ -892,8 +1023,8 @@ map.nodes[61437687] = PM.Mining({
     quest = 70258,
     note = L['pm_mining_bridgette_holdug'],
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2035, note = '10'}) -- Dragon Isles Mining Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2035, count = '10'}) -- Dragon Isles Mining Knowledge
     }
 }) -- Bridgette Holdug
 
@@ -903,8 +1034,8 @@ val.nodes[27894576] = PM.Tailoring({
     note = L['pm_tailor_elysa_raywinder'],
     parent = map.id,
     rewards = {
-        Item({item = 190456, note = '25'}), -- Artisan's Mettle
-        Currency({id = 2026, note = '5'}) -- Dragon Isles Tailoring Knowledge
+        Item({item = 190456, count = '25'}), -- Artisan's Mettle
+        Currency({id = 2026, count = '5'}) -- Dragon Isles Tailoring Knowledge
     }
 }) -- Elysa Raywinder
 
@@ -986,22 +1117,34 @@ map.nodes[39768205] = Disturbeddirt()
 map.nodes[46767747] = Disturbeddirt()
 map.nodes[49514830] = Disturbeddirt()
 map.nodes[49894474] = Disturbeddirt()
+map.nodes[53335123] = Disturbeddirt()
 map.nodes[53398748] = Disturbeddirt()
 map.nodes[53997921] = Disturbeddirt()
+map.nodes[54067537] = Disturbeddirt()
 map.nodes[54273978] = Disturbeddirt()
 map.nodes[54433376] = Disturbeddirt()
+map.nodes[55227461] = Disturbeddirt()
 map.nodes[55588459] = Disturbeddirt()
 map.nodes[55756743] = Disturbeddirt()
 map.nodes[55918384] = Disturbeddirt()
+map.nodes[56005307] = Disturbeddirt()
 map.nodes[56957403] = Disturbeddirt()
+map.nodes[57118079] = Disturbeddirt()
+map.nodes[57458105] = Disturbeddirt()
 map.nodes[59532835] = Disturbeddirt()
+map.nodes[59547954] = Disturbeddirt()
 map.nodes[62226638] = Disturbeddirt()
 map.nodes[62296972] = Disturbeddirt()
+map.nodes[62697948] = Disturbeddirt()
+map.nodes[53495975] = Disturbeddirt()
+map.nodes[56808092] = Disturbeddirt()
+map.nodes[61057953] = Disturbeddirt()
 
 -------------------------------------------------------------------------------
 -------------------------- EXPEDITION SCOUT'S PACKS ---------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[23716080] = Scoutpack()
 map.nodes[35517551] = Scoutpack()
 map.nodes[35628576] = Scoutpack()
 map.nodes[36798245] = Scoutpack()
@@ -1011,11 +1154,15 @@ map.nodes[38806831] = Scoutpack()
 map.nodes[40148559] = Scoutpack()
 map.nodes[40498368] = Scoutpack()
 map.nodes[41234798] = Scoutpack()
+map.nodes[41234798] = Scoutpack()
 map.nodes[47428021] = Scoutpack()
+map.nodes[48185655] = Scoutpack()
 map.nodes[49047926] = Scoutpack()
 map.nodes[50098074] = Scoutpack()
 map.nodes[50844623] = Scoutpack()
+map.nodes[52587680] = Scoutpack({location = L['in_small_cave']})
 map.nodes[52758333] = Scoutpack()
+map.nodes[54205535] = Scoutpack()
 map.nodes[54837958] = Scoutpack()
 map.nodes[55413167] = Scoutpack()
 map.nodes[55456797] = Scoutpack()
@@ -1025,6 +1172,8 @@ map.nodes[56063178] = Scoutpack()
 map.nodes[57128078] = Scoutpack()
 map.nodes[57468106] = Scoutpack()
 map.nodes[58046702] = Scoutpack()
+map.nodes[58436454] = Scoutpack()
+map.nodes[58975754] = Scoutpack()
 map.nodes[59198794] = Scoutpack()
 map.nodes[59496912] = Scoutpack()
 map.nodes[59547955] = Scoutpack()
@@ -1036,7 +1185,7 @@ map.nodes[65548193] = Scoutpack()
 -------------------------------------------------------------------------------
 
 map.nodes[35107050] = MagicBoundChest({
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
     pois = {POI({34926940})}
 })
 map.nodes[42606660] = MagicBoundChest({
@@ -1044,10 +1193,10 @@ map.nodes[42606660] = MagicBoundChest({
         ns.requirement.Reputation(2507, 16, true),
         ns.requirement.Profession(186)
     },
-    note = L['in_small_cave']
+    location = L['in_small_cave']
 })
 map.nodes[42907900] = MagicBoundChest({
-    note = L['in_cave'],
+    location = L['in_cave'],
     pois = {POI({40957754})}
 })
 map.nodes[50205200] = MagicBoundChest({
@@ -1055,23 +1204,23 @@ map.nodes[50205200] = MagicBoundChest({
         ns.requirement.Reputation(2507, 16, true),
         ns.requirement.Profession(186)
     },
-    note = L['in_small_cave']
+    location = L['in_small_cave']
 })
 map.nodes[53005690] = MagicBoundChest()
-map.nodes[54108390] = MagicBoundChest({note = L['in_small_cave']})
+map.nodes[54108390] = MagicBoundChest({location = L['in_small_cave']})
 map.nodes[54803270] = MagicBoundChest({
     requires = {
         ns.requirement.Reputation(2507, 16, true),
         ns.requirement.Profession(186)
     },
-    note = L['in_small_cave']
+    location = L['in_small_cave']
 })
 map.nodes[58606750] = MagicBoundChest({
-    note = L['in_cave'],
+    location = L['in_cave'],
     pois = {POI({56916717})}
 })
 map.nodes[61305400] = MagicBoundChest({
-    note = L['in_cave'],
+    location = L['in_cave'],
     pois = {POI({59755371})}
 })
 map.nodes[62207180] = MagicBoundChest()
@@ -1107,118 +1256,6 @@ map.nodes[57208248] = TuskarrTacklebox()
 map.nodes[57948485] = TuskarrTacklebox()
 map.nodes[57998401] = TuskarrTacklebox()
 map.nodes[58548017] = TuskarrTacklebox()
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[57777501] = Dragonrace({
-    label = '{quest:67095}',
-    normal = {2080, 52, 49},
-    advanced = {2081, 45, 40},
-    reverse = {2194, 46, 41},
-    rewards = {
-        Achievement({id = 15924, criteria = 1, oneline = true}), -- normal bronze
-        Achievement({id = 15925, criteria = 1, oneline = true}), -- normal silver
-        Achievement({id = 15926, criteria = 1, oneline = true}), -- normal gold
-        Achievement({id = 15936, criteria = 1, oneline = true}), -- advanced bronze
-        Achievement({id = 15937, criteria = 1, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 1, oneline = true}), -- advanced gold
-        Achievement({id = 17204, criteria = 1, oneline = true}), -- reverse bronze
-        Achievement({id = 17205, criteria = 1, oneline = true}), -- reverse silver
-        Achievement({id = 17206, criteria = 1, oneline = true}) -- reverse gold
-    }
-}) -- Flowing Forest Flight
-
-map.nodes[57236690] = Dragonrace({
-    label = '{quest:69957}',
-    normal = {2092, 84, 81},
-    advanced = {2093, 80, 75},
-    reverse = {2195, 64, 59},
-    rewards = {
-        Achievement({id = 15924, criteria = 2, oneline = true}), -- normal bronze
-        Achievement({id = 15925, criteria = 2, oneline = true}), -- normal silver
-        Achievement({id = 15926, criteria = 2, oneline = true}), -- normal gold
-        Achievement({id = 15936, criteria = 2, oneline = true}), -- advanced bronze
-        Achievement({id = 15937, criteria = 2, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 2, oneline = true}), -- advanced gold
-        Achievement({id = 17204, criteria = 2, oneline = true}), -- reverse bronze
-        Achievement({id = 17205, criteria = 2, oneline = true}), -- reverse silver
-        Achievement({id = 17206, criteria = 2, oneline = true}) -- reverse gold
-    }
-}) -- Tyrhold Trial
-
-map.nodes[37654893] = Dragonrace({
-    label = '{quest:70051}',
-    normal = {2096, 72, 69},
-    advanced = {2097, 71, 66},
-    reverse = {2196, 74, 69},
-    rewards = {
-        Achievement({id = 15924, criteria = 3, oneline = true}), -- normal bronze
-        Achievement({id = 15925, criteria = 3, oneline = true}), -- normal silver
-        Achievement({id = 15926, criteria = 3, oneline = true}), -- normal gold
-        Achievement({id = 15936, criteria = 3, oneline = true}), -- advanced bronze
-        Achievement({id = 15937, criteria = 3, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 3, oneline = true}), -- advanced gold
-        Achievement({id = 17204, criteria = 3, oneline = true}), -- reverse bronze
-        Achievement({id = 17205, criteria = 3, oneline = true}), -- reverse silver
-        Achievement({id = 17206, criteria = 3, oneline = true}) -- reverse gold
-    }
-}) -- Cliffside Circuit
-
-map.nodes[60294159] = Dragonrace({
-    label = '{quest:70059}',
-    normal = {2098, 57, 54},
-    advanced = {2099, 57, 52},
-    reverse = {2197, 58, 53},
-    rewards = {
-        Achievement({id = 15924, criteria = 4, oneline = true}), -- normal bronze
-        Achievement({id = 15925, criteria = 4, oneline = true}), -- normal silver
-        Achievement({id = 15926, criteria = 4, oneline = true}), -- normal gold
-        Achievement({id = 15936, criteria = 4, oneline = true}), -- advanced bronze
-        Achievement({id = 15937, criteria = 4, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 4, oneline = true}), -- advanced gold
-        Achievement({id = 17204, criteria = 4, oneline = true}), -- reverse bronze
-        Achievement({id = 17205, criteria = 4, oneline = true}), -- reverse silver
-        Achievement({id = 17206, criteria = 4, oneline = true}) -- reverse gold
-    }
-}) -- Academy Ascent
-
-map.nodes[39517619] = Dragonrace({
-    label = '{quest:70157}',
-    normal = {2101, 64, 61},
-    advanced = {2102, 59, 54},
-    reverse = {2198, 62, 57},
-    rewards = {
-        Achievement({id = 15924, criteria = 5, oneline = true}), -- normal bronze
-        Achievement({id = 15925, criteria = 5, oneline = true}), -- normal silver
-        Achievement({id = 15926, criteria = 5, oneline = true}), -- normal gold
-        Achievement({id = 15936, criteria = 5, oneline = true}), -- advanced bronze
-        Achievement({id = 15937, criteria = 5, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 5, oneline = true}), -- advanced gold
-        Achievement({id = 17204, criteria = 5, oneline = true}), -- reverse bronze
-        Achievement({id = 17205, criteria = 5, oneline = true}), -- reverse silver
-        Achievement({id = 17206, criteria = 5, oneline = true}) -- reverse gold
-    }
-}) -- Garden Gallivant
-
-map.nodes[58053361] = Dragonrace({
-    label = '{quest:70161}',
-    normal = {2103, 53, 50},
-    advanced = {2104, 50, 45},
-    reverse = {2199, 52, 47},
-    rewards = {
-        Achievement({id = 15924, criteria = 6, oneline = true}), -- normal bronze
-        Achievement({id = 15925, criteria = 6, oneline = true}), -- normal silver
-        Achievement({id = 15926, criteria = 6, oneline = true}), -- normal gold
-        Achievement({id = 15936, criteria = 6, oneline = true}), -- advanced bronze
-        Achievement({id = 15937, criteria = 6, oneline = true}), -- advanced silver
-        Achievement({id = 15938, criteria = 6, oneline = true}), -- advanced gold
-        Achievement({id = 17204, criteria = 6, oneline = true}), -- reverse bronze
-        Achievement({id = 17205, criteria = 6, oneline = true}), -- reverse silver
-        Achievement({id = 17206, criteria = 6, oneline = true}) -- reverse gold
-    }
-}) -- Caverns Criss-Cross
 
 -------------------------------------------------------------------------------
 --------------------- TO ALL THE SQUIRRELS HIDDEN TIL NOW ---------------------
@@ -1528,49 +1565,29 @@ tpf.nodes[57404187] = ElementalStorm({
     areaPOIs = {7241, 7242, 7243, 7244}
 }) -- Elemental Storm: Primalist Tomorrow
 
--- ELEMENTAL STORM VENDOR -----------------------------------------------------
-
-local Mythressa = Class('Mythressa', NPC, {
-    id = 196516,
-    icon = 538566,
-    group = ns.groups.ELEMENTAL_STORM,
-    parent = map.id,
-    rewards = {
-        Achievement({id = 16502}), -- Storming the Runway
-        Pet({item = 200173, id = 3287, note = 'x1000'}), -- Ghostflame
-        Pet({item = 200114, id = 3382, note = 'x1000'}), -- Stormie
-        Mount({item = 192775, id = 1622, note = 'x2000'}) -- Stormhide Salamanther
-    }
-}) -- Mythressa <Apprentice Primal Researcher>
-
-function Mythressa.getters:note()
-    local noteStart = L['elemental_storm_mythressa_note_start']
-    local currency = C_CurrencyInfo.GetCurrencyInfo(2118).quantity -- Elemental Overflow
-    local noteEnd = format(L['elemental_storm_mythressa_note_end'], currency)
-    return noteStart .. '\n\n' .. noteEnd
-end
-
-val.nodes[38113773] = Mythressa()
-
 -------------------------------------------------------------------------------
 ------------------------------ ELUSIVE CREATURES ------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[56007100] = ElusiveCreature({
     label = '{npc:195518}',
+    quest = 74231,
     rewards = {
         Item({item = 193224}), -- Lustrous Scaled Hide
         Item({item = 193215}), -- Adamant Scales
-        Item({item = 193255}) -- Pristine Vorquin Horn
+        Item({item = 193255}), -- Pristine Vorquin Horn
+        Achievement({id = 18833, criteria = 61479}) -- Elusive Legends of the Dragon Isles
     }
 }) -- Elusive Cliffdweller Vorquin
 
 map.nodes[48005100] = ElusiveCreature({
     label = '{npc:195472}',
+    quest = 74189,
     rewards = {
         Item({item = 193218}), -- Dense Hide
         Item({item = 193211}), -- Resilient Leather
-        Item({item = 193254}) -- Rockfang Leather
+        Item({item = 193254}), -- Rockfang Leather
+        Achievement({id = 18833, criteria = 61476}) -- Elusive Legends of the Dragon Isles
     }
 }) -- Elusive Ferocious Titanfang
 
@@ -1624,16 +1641,30 @@ val.nodes[57048156] = AncientStone({
 }) -- Valdrakken
 
 -------------------------------------------------------------------------------
--------------------------------- MISCELLANEOUS --------------------------------
+------------------------------ MISC ACHIEVEMENTS ------------------------------
 -------------------------------------------------------------------------------
 
----------------- ACHIEVEMENT: GREAT GOURMAND OF THE RUBY FEAST ----------------
+map.nodes[52198159] = Collectible({
+    icon = 4630470,
+    label = '{achievement:19507}',
+    note = L['fringe_benefits_note'],
+    group = ns.groups.FRINGE_BENEFITS,
+    rewards = {
+        Achievement({
+            id = 19507,
+            criteria = {
+                64642, 64643, 64644, 64645, 64646, 64647, 64648, 64649, 64650,
+                64651, 64654, 60757, 64657, 64658, 64659, 64660
+            }
+        })
+    }
+}) -- Fringe Benefits
 
 val.nodes[61261096] = Collectible({
     icon = 629060,
-    parent = map.id,
     label = '{achievement:16556}',
     note = L['ruby_feast_gourmand'] .. '\n\n' .. L['rumiastrasza_note'],
+    group = ns.groups.RUBY_FEAST_GOURMAND,
     rewards = {
         Achievement({
             id = 16556,
@@ -1646,6 +1677,184 @@ val.nodes[61261096] = Collectible({
     }
 }) -- Great Gourmand of the Ruby Feast
 
+val.nodes[13005740] = Collectible({
+    icon = 4719556,
+    label = '{achievement:18384}',
+    note = L['little_scales_daycare_note'],
+    group = ns.groups.WHELP,
+    requires = {
+        ns.requirement.Quest(72664), -- Eggs in Abundance
+        ns.requirement.Quest(72665), -- Whelptender's Wisdom
+        ns.requirement.Quest(72666) -- Daycare Director Agapanthus
+    },
+    rewards = {
+        Achievement({
+            id = 18384,
+            criteria = {
+                60132, 60133, 60134, 60135, 60136, 60137, 60138, 60139, 60140,
+                60141, 60142, 60143, 60144, 60145, 60146, 60147
+            }
+        }), -- Whelp, There It Is
+        Pet({item = 205165, id = 3555}) -- Axel
+    }
+}) -- Whelp, There It Is
+
+------------------------------------------------------------------------------
+--------------------------------- DREAMSURGE ---------------------------------
+------------------------------------------------------------------------------
+
+map.nodes[51134337] = ns.node.Celestine()
+map.nodes[61792619] = ns.node.RenewedMagmammoth()
+
+-------------------------------------------------------------------------------
+---------------------------------- RICH SOIL ----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[71007200] = RichSoil()
+map.nodes[49366061] = RichSoil()
+map.nodes[32406920] = RichSoil()
+map.nodes[46235962] = RichSoil()
+map.nodes[63238021] = RichSoil()
+map.nodes[34687230] = RichSoil()
+
+-------------------------------------------------------------------------------
+----------------------------------- VENDORS -----------------------------------
+-------------------------------------------------------------------------------
+
+local Mythressa = Class('Mythressa', Vendor, {
+    id = 196516,
+    parent = map.id,
+    rewards = {
+        Achievement({id = 16502}), -- Storming the Runway
+        Pet({item = 200173, id = 3287, count = 1000}), -- Ghostflame
+        Pet({item = 200114, id = 3382, count = 1000}), -- Stormie
+        Mount({item = 192775, id = 1622, count = 2000}) -- Stormhide Salamanther
+    }
+}) -- Mythressa <Apprentice Primal Researcher>
+
+function Mythressa.getters:note()
+    local noteStart = L['elemental_storm_mythressa_note_start']
+    local currency = C_CurrencyInfo.GetCurrencyInfo(2118).quantity -- Elemental Overflow
+    local noteEnd = format(L['elemental_storm_mythressa_note_end'], currency)
+    return noteStart .. '\n\n' .. noteEnd
+end
+
+val.nodes[38113773] = Mythressa()
+
+local Brendormi = Class('Brendormi', Vendor, {
+    id = 199425,
+    rewards = {
+        Toy({item = 202020}), -- Chasing Storm
+        Pet({item = 193855, id = 3334}), -- Time-Lost Vorquin
+        Mount({item = 192800, id = 1478}) -- Skyskin Hornstrider
+    }
+}) -- Brendormi <Field Primal Researcher>
+
+function Brendormi.getters:note()
+    local item = C_Item.GetItemCount(202039, true) -- Essence of the Storm
+    local currency = C_CurrencyInfo.GetCurrencyInfo(2118).quantity -- Elemental Overflow
+    local note = L['brendormi_note_start'] .. '\n\n'
+    note = note .. format(L['brendormi_note_item'], item) .. '\n'
+    note = note .. format(L['brendormi_note_currency'], currency) .. '\n'
+    return note
+end
+
+tpf.nodes[61244679] = Brendormi()
+
+map.nodes[61373139] = Vendor({
+    id = 209192,
+    note = L['provisioner_aristta_note'],
+    rewards = {
+        Mount({item = 192796, id = 1638, count = 20000}), -- Explorer's Stonehide Packbeast
+        Spacer(), --
+        Transmog({item = 208456, slot = L['cloak'], count = 15000}), -- Archivist's Elegant Bag
+        Transmog({item = 212794, slot = L['cloak'], count = 15000}), -- Historian's Hefty Habersack
+        Transmog({item = 208452, count = 15000}), -- Historian's Dapper Cap
+        Transmog({item = 208547, count = 12000}), -- Archivist's Reading Spectacles
+        Transmog({item = 208546, count = 12000}), -- Archivist's Rose-Tinted Glasses
+        Transmog({item = 212637, count = 7000}), -- Historian's Striders
+        Transmog({item = 212636, count = 7000}), -- Historian's Trousers
+        Transmog({item = 212635, count = 5000}), -- Historian's Utility Belt
+        Transmog({item = 212634, count = 5000}), -- Historian's Fingerless Gloves
+        Transmog({item = 212633, count = 5000}), -- Historian's Fitted Vest
+        Spacer(), --
+        Transmog({item = 208458, slot = L['offhand'], count = 10000}), -- Archivist's Extravagant Lantern
+        Transmog({item = 208450, slot = L['offhand'], count = 10000}), -- Coiled Archivist's Rope
+        Transmog({item = 213276, slot = L['1h_mace'], count = 10000}), -- Archivist's Magnifying Mace
+        Transmog({item = 208455, slot = L['1h_mace'], count = 10000}), -- Archivist's Sturdy Hook
+        Transmog({item = 208453, slot = L['1h_mace'], count = 10000}), -- Archivist's Super Scooper
+        Transmog({item = 213275, slot = L['1h_sword'], count = 10000}), -- Archivist's Rockpuller
+        Transmog({item = 208454, slot = L['1h_axe'], count = 10000}), -- Archivist's Mining Pick
+        Transmog({item = 212870, slot = L['dagger'], count = 10000}), -- Archivist's Stone Chisel
+        Transmog({item = 213274, slot = L['staff'], count = 10000}), -- Archivist's Pathfinder
+        Transmog({item = 208459, slot = L['2h_mace'], count = 10000}), -- Archivist's Improvised Cudgel
+        Transmog({item = 208457, slot = L['2h_mace'], count = 10000}), -- Archivist's Spelunking Torch
+        Transmog({
+            item = 212941,
+            slot = L['gun'],
+            count = 10000,
+            note = _G.ITEM_ACCOUNTBOUND
+        }) -- Archivist's "Light Touch"
+    }
+}) -- Provisioner Aristta
+
+-------------------------------------------------------------------------------
+----------------------- HEARTHSTONE'S 10TH ANNIVERSARY ------------------------
+-------------------------------------------------------------------------------
+
+local HearthstoneEvent = Class('HearthstoneEvent', Collectible, {
+    label = L['ominous_portal_label'],
+    icon = 1061040,
+    note = L['ominous_portal_note'],
+    rewards = {
+        Achievement({
+            id = 19724,
+            criteria = {
+                65343, -- Abomination
+                66032, -- Alley Cat
+                65340, -- Ancient of Lore
+                65335, -- Arcane Explosion
+                65341, -- Arcane Golem
+                65334, -- Arcane Shot
+                65338, -- Baron Geddon
+                65337, -- Blessing of Kings
+                65329, -- Cairne Bloodhoof
+                65330, -- Charged Devilsaur
+                65345, -- Chillwind Yeti
+                65336, -- Forbidden Words
+                65344, -- Grove Tender
+                65370, -- Hand of Protection
+                65339, -- Hogger
+                65332, -- Jive, Insect!
+                65333, -- Preparation
+                65328, -- Pyroblast
+                65342, -- Righteousness
+                65347, -- Scarlet Crusader
+                65346 -- Shadow Word: Ruin
+            }
+        }), -- Hearthstone Card Collection
+        Mount({item = 212522, id = 1959}), -- Compass Rose
+        Pet({item = 212606, id = 4406}), -- Sarge
+        Toy({item = 212337}), -- Stone of the Hearth
+        Transmog({item = 212607}), -- Reno's Lucky Hat
+        Transmog({item = 212644}), -- Taverner's Belt
+        Transmog({item = 212336, slot = L['tabard']}), -- The Tavern's Tabard
+        Item({item = 212335, note = L['bag']}) -- Collectors Carryall
+    },
+    IsEnabled = function() return ns.IsCalendarEventActive(1462) end
+}) -- Heathstone Event
+
+local stormwind = ns.maps[84] or Map({id = 84, settings = false})
+local durotar = ns.maps[1] or Map({id = 1, settings = false})
+
+val.nodes[62556761] = HearthstoneEvent({parent = map.id})
+stormwind.nodes[34002100] = HearthstoneEvent()
+durotar.nodes[53101620] = HearthstoneEvent()
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
+
 val.nodes[43757494] = Collectible({
     icon = 4048815,
     parent = map.id,
@@ -1656,6 +1865,75 @@ val.nodes[43757494] = Collectible({
     },
     rewards = {Pet({item = 193571, id = 3303})}
 }) -- Mallard Ducklin
+
+map.nodes[40474531] = Collectible({
+    id = 197346,
+    quest = 72060,
+    icon = 1500916,
+    note = L['living_mud_mask_note'],
+    rewards = {Pet({item = 200872, id = 3405})}
+}) -- Pet: Living Mud Mask
+
+---------------------------- PET: MOTE OF NASZ'URO ----------------------------
+
+map.nodes[62711323] = ns.node.MoteOfNaszuro({
+    quest = 76189,
+    note = L['naszuro_veiled_ossuary']
+}) -- Veiled Ossuary
+
+map.nodes[61234074] = ns.node.MoteOfNaszuro({
+    quest = 76190,
+    note = L['naszuro_algethar_academy']
+}) -- Algeth'ar Academy
+
+map.nodes[72885505] = ns.node.MoteOfNaszuro({
+    quest = 76191,
+    note = L['naszuro_vault_of_the_incarnates']
+}) -- Vault of the Incarnates
+
+map.nodes[70876985] = ns.node.MoteOfNaszuro({
+    quest = 76192,
+    note = L['naszuro_thaldraszus_peak']
+}) -- Thaldraszus Peak
+
+map.nodes[62618507] = ns.node.MoteOfNaszuro({
+    quest = 76193,
+    note = L['naszuro_temporal_conflux']
+}) -- Temporal Conflux
+
+---------------------- TOY: INVESTI-GATOR'S POCKETWATCH -----------------------
+
+map.nodes[54648589] = Collectible({
+    id = 201664,
+    icon = 134376,
+    note = format('%s\n\n%s\n\n%s', L['investigators_pocketwatch_note_a'],
+        L['investigators_pocketwatch_note_b'],
+        L['investigators_pocketwatch_note_c']),
+    rewards = {
+        Toy({item = 206993}) -- Investi-gator's Pocketwatch
+    },
+    pois = {
+        POI({52158140, color = 'Green'}), -- Melly Teletone
+        POI({52138151, color = 'Blue'}) -- Bartender Bob
+    }
+}) -- Temporal Investi-gator
+
+-------------------------------------------------------------------------------
+
+local Catalyst = Class('Catalyst', ns.node.Node, {
+    label = L['revival_catalyst_label'],
+    icon = 348536 -- Season 4
+}) -- Revival Catalyst
+
+function Catalyst.getters:note()
+    local currencyInfo = C_CurrencyInfo.GetCurrencyInfo(2912) -- Season 4
+    local q = currencyInfo.quantity
+    local m = currencyInfo.maxQuantity
+    local note = format(L['revival_catalyst_note'], q, m)
+    return note
+end
+
+map.nodes[59735374] = Catalyst()
 
 ----------------------------- MISCELLANEOUS NPCs ------------------------------
 
@@ -1670,22 +1948,14 @@ local Rumiastrasza = Class('Rumiastrasza', Collectible, {
 }) -- Rumiastrasza
 
 function Rumiastrasza.getters:note()
-    local function status(questID, questLeg)
-        if C_QuestLog.IsQuestFlaggedCompleted(questID) then
-            return ns.status.Green(questLeg)
-        else
-            return ns.status.Red(questLeg)
-        end
-    end
-
     local note = L['hoard_of_draconic_delicacies_note_start'] .. '\n'
-    note = note .. '\n' .. status(67047, 1) .. ' {quest:67047}' -- Warm Away These Shivers
-    note = note .. '\n' .. status(67063, 2) .. ' {quest:67063}' -- 10,000 Years Of Roasting
-    note = note .. '\n' .. status(67064, 3) .. ' {quest:67064}' -- Rambling Delight
-    note = note .. '\n' .. status(67065, 4) .. ' {quest:67065}' -- Future Fresh Fungi
-    note = note .. '\n' .. status(67066, 5) .. ' {quest:67066}' -- Delights To Delve For
-    note = note .. '\n' .. status(67067, 6) .. ' {quest:67067}' -- Navigating The Leapmaize
-    note = note .. '\n' .. status(67068, 7) .. ' {quest:67068}' -- Anything But A Breeze
+    note = note .. QuestStatus(67047, 1, '{quest:67047}') -- Warm Away These Shivers
+    note = note .. QuestStatus(67063, 2, '{quest:67063}') -- 10,000 Years Of Roasting
+    note = note .. QuestStatus(67064, 3, '{quest:67064}') -- Rambling Delight
+    note = note .. QuestStatus(67065, 4, '{quest:67065}') -- Future Fresh Fungi
+    note = note .. QuestStatus(67066, 5, '{quest:67066}') -- Delights To Delve For
+    note = note .. QuestStatus(67067, 6, '{quest:67067}') -- Navigating The Leapmaize
+    note = note .. QuestStatus(67068, 7, '{quest:67068}') -- Anything But A Breeze
     return note .. '\n\n' .. L['hoard_of_draconic_delicacies_note_end']
 end
 
@@ -1705,25 +1975,98 @@ val.nodes[35182459] = NPC({
     parent = map.id
 }) -- Lillian Brightmoon (Dragonscale Expedition Reputation)
 
-local Brendormi = Class('Brendormi', Collectible, {
-    id = 199425,
-    icon = 135990,
+---------------------------- SPECIAL WORKING TABLE-----------------------------
+
+map.nodes[60918021] = ns.node.Node({
+    label = L['temporal_loom_label'],
+    icon = 4549302,
+    note = L['temporal_loom_note'],
+    IsEnabled = function(self) -- Tailoring
+        if not ns.PlayerHasProfession(197) then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- Temporal Loom
+
+---------------- PORTAL TO CENTRAL ENCAMPMENT - EMERALD DREAM -----------------
+
+val.nodes[62685732] = ns.node.Node({
+    label = '{spell:370368}',
+    sublabel = '{spell:429034}',
+    icon = 'portal_gn',
+    scale = 2.0
+})
+
+--------------------------------- DRAGON PEPE ---------------------------------
+
+val.nodes[50505290] = Collectible({
+    label = L['dragon_pepe_label'],
+    note = L['dragon_pepe_note'],
+    icon = 1044996,
     rewards = {
-        Toy({item = 202020}), -- Chasing Storm
-        Pet({item = 193855, id = 3334}), -- Time-Lost Vorquin
-        Mount({item = 192800, id = 1478}) -- Skyskin Hornstrider
+        Item({item = 213181, quest = 79547}) -- A Tiny Dragon Goblet
     }
-}) -- Brendormi <Field Primal Researcher>
+}) -- Dragon Pepe
 
-function Brendormi.getters:note()
-    local item = GetItemCount(202039, true) -- Essence of the Storm
-    local currency = C_CurrencyInfo.GetCurrencyInfo(2118).quantity -- Elemental Overflow
-    local note = L['brendormi_note_start'] .. '\n\n'
-    note = note .. format(L['brendormi_note_item'], item) .. '\n'
-    note = note .. format(L['brendormi_note_currency'], currency) .. '\n'
-    return note
-end
+----------------------------- PROVISIONER ARISTTA -----------------------------
 
-tpf.nodes[61244679] = Brendormi()
+map.nodes[61373139] = Vendor({
+    id = 209192,
+    note = L['provisioner_aristta_note'],
+    rewards = {
+        Mount({item = 192796, id = 1638, count = 20000}), -- Explorer's Stonehide Packbeast
+        Spacer(), --
+        Transmog({item = 208456, slot = L['cloak'], count = 15000}), -- Archivist's Elegant Bag
+        Transmog({item = 212794, slot = L['cloak'], count = 15000}), -- Historian's Hefty Habersack
+        Transmog({item = 208452, count = 15000}), -- Historian's Dapper Cap
+        Transmog({item = 208547, count = 12000}), -- Archivist's Reading Spectacles
+        Transmog({item = 208546, count = 12000}), -- Archivist's Rose-Tinted Glasses
+        Transmog({item = 212637, count = 7000}), -- Historian's Striders
+        Transmog({item = 212636, count = 7000}), -- Historian's Trousers
+        Transmog({item = 212635, count = 5000}), -- Historian's Utility Belt
+        Transmog({item = 212634, count = 5000}), -- Historian's Fingerless Gloves
+        Transmog({item = 212633, count = 5000}), -- Historian's Fitted Vest
+        Spacer(), --
+        Transmog({item = 208458, slot = L['offhand'], count = 10000}), -- Archivist's Extravagant Lantern
+        Transmog({item = 208450, slot = L['offhand'], count = 10000}), -- Coiled Archivist's Rope
+        Transmog({item = 213276, slot = L['1h_mace'], count = 10000}), -- Archivist's Magnifying Mace
+        Transmog({item = 208455, slot = L['1h_mace'], count = 10000}), -- Archivist's Sturdy Hook
+        Transmog({item = 208453, slot = L['1h_mace'], count = 10000}), -- Archivist's Super Scooper
+        Transmog({item = 213275, slot = L['1h_sword'], count = 10000}), -- Archivist's Rockpuller
+        Transmog({item = 208454, slot = L['1h_axe'], count = 10000}), -- Archivist's Mining Pick
+        Transmog({item = 212870, slot = L['dagger'], count = 10000}), -- Archivist's Stone Chisel
+        Transmog({item = 213274, slot = L['staff'], count = 10000}), -- Archivist's Pathfinder
+        Transmog({item = 208459, slot = L['2h_mace'], count = 10000}), -- Archivist's Improvised Cudgel
+        Transmog({item = 208457, slot = L['2h_mace'], count = 10000}), -- Archivist's Spelunking Torch
+        Transmog({
+            item = 212941,
+            slot = L['gun'],
+            count = 10000,
+            note = _G.ITEM_ACCOUNTBOUND
+        }) -- Archivist's "Light Touch"
+    }
+}) -- Provisioner Aristta
+
+--------------------------------- Ms. Xiulan ----------------------------------
+
+local Xiulan = Class('Xiulan', Vendor, {
+    id = 189644,
+    parent = map.id,
+    note = L['end_of_august'],
+    rewards = {
+        Mount({item = 211084, id = 1944, count = 1200000}), -- Gold Resonating Crystal
+        Spacer(), --
+        Appearance({item = 211300, count = 200000}), -- Arsenal: Whispering Temple Blades
+        Transmog({item = 211099, slot = L['shield'], count = 100000}), -- Gilded Scarab Bulwark
+        Transmog({item = 211096, slot = L['gun'], count = 100000}), -- Gold-Plated Witchhunter's Carbine
+        Transmog({item = 211294, slot = L['polearm'], count = 100000}), -- Marauder King's Body Carver
+        Transmog({item = 211097, slot = L['2h_axe'], count = 90000}), -- Gilded Crown Splitter
+        Transmog({item = 211159, slot = L['shield'], count = 80000}), -- Royal Witch Doctor's Guard
+        Transmog({item = 211145, slot = L['cloak'], count = 80000}), -- Royal Witch Doctor's Trophies
+        Transmog({item = 211295, slot = L['plate'], count = 75000}), -- Wrathful Crusader's Helm
+        Transmog({item = 211259, count = 75000}) -- Regal Gryphon Rider's Headgear
+    }
+}) -- Ms. Xiulan <Madam Goya's Assistant>
+
+val.nodes[19215029] = Xiulan()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

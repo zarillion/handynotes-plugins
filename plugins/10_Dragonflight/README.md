@@ -1,4 +1,18 @@
-**A [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin for the Dragonflight expansion. It will add the locations and rewards for rare mobs, battle pets, treasures and other miscellaneous points of interest to the map.**
+**The [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin for the Dragonflight expansion. It will add the locations and rewards for rare mobs, battle pets, treasures and other miscellaneous points of interest to the map.**
+
+## Related Plugins
+
+* [HandyNotes: Kalimdor & Eastern Kingdoms](https://www.curseforge.com/wow/addons/handynotes-kalimdor-eastern-kingdoms)
+* [HandyNotes: The Burning Crusade](https://www.curseforge.com/wow/addons/handynotes-the-burning-crusade)
+* [HandyNotes: Wrath of the Lich King](https://www.curseforge.com/wow/addons/handynotes-wrath-of-the-lich-king)
+* [HandyNotes: Cataclysm](https://www.curseforge.com/wow/addons/handynotes-cataclysm)
+* [HandyNotes: Mists of Pandaria](https://www.curseforge.com/wow/addons/handynotes-mists-of-pandaria)
+* [HandyNotes: Warlords of Draenor](https://www.curseforge.com/wow/addons/handynotes-warlords-of-draenor)
+* [HandyNotes: Legion](https://www.curseforge.com/wow/addons/handynotes-legion)
+* [HandyNotes: Battle for Azeroth](https://www.curseforge.com/wow/addons/handynotes-battle-for-azeroth)
+* [HandyNotes: Shadowlands](https://www.curseforge.com/wow/addons/handynotes-shadowlands)
+* **[HandyNotes: Dragonflight](https://www.curseforge.com/wow/addons/handynotes-dragonflight)**
+* [HandyNotes: The War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within)
 
 ## Global Features
 
@@ -41,6 +55,7 @@ This plugin adds information to the map for the following zones:
 * Patch 10.0.0 - Azure Span, Ohn'ahran Plains, Thaldraszus, Waking Shores
 * Patch 10.0.7 - The Forbidden Reach
 * Patch 10.1.0 - Zaralek Cavern
+* Patch 10.2.0 - Emerald Dream
 
 In addition to rares, treasures and pet battles, this plugin also adds the following expansion or zone-specific items.
 
@@ -99,6 +114,16 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 * Dragon Glyphs for the [Zaralek Cavern Glyph Hunter](https://www.wowhead.com/achievement=18150) achievement.
 * Ancient Stones for the [Ancient Stones of Zaralek](https://www.wowhead.com/achievement=17567) achievement.
+* Critter locations for the [To All the Squirrels Burrowed Beneath](https://www.wowhead.com/achievement=18361/to-all-the-squirrels-burrowed-beneath) achievement.
+
+### Emerald Dream
+
+* Dragon Glyphs for the [Emerald Dream Glyph Hunter](https://wowhead.com/achievement=19306) achievement.
+* Race locations for the [Emerald Dream Racing Completionist](https://wowhead.com/achievement=19118) family of achievements.
+* Moonkin Hatchlings for the [Friends In Feathers](https://www.wowhead.com/achievement=19293) achievement.
+* Dreamseed Soils for the [I Dream of Seeds](https://www.wowhead.com/achievement=19013) achievement.
+* Dreamfruits for the [Fruit of the Bloom](https://www.wowhead.com/achievement=19310) achievement.
+* Profession-specific treasure locations which grant knowledge for your crafting specializations.
 
 ## Localization
 

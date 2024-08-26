@@ -5,6 +5,8 @@ local ADDON_NAME, ns = ...
 
 local Safari = ns.node.Safari
 
+local Achievement = ns.reward.Achievement
+
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -189,3 +191,59 @@ map.nodes[42607260] = Safari.WharfRat({
         })
     }
 }) -- Wharf Rat
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = '{quest:76515}',
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        Achievement({id = 18566, criteria = 11, oneline = true}), -- normal bronze
+        Achievement({id = 18567, criteria = 11, oneline = true}), -- normal silver
+        Achievement({id = 18568, criteria = 11, oneline = true}), -- normal gold
+        Achievement({id = 18569, criteria = 11, oneline = true}), -- advanced bronze
+        Achievement({id = 18570, criteria = 11, oneline = true}), -- advanced silver
+        Achievement({id = 18571, criteria = 11, oneline = true}), -- advanced gold
+        Achievement({id = 18572, criteria = 11, oneline = true}), -- reverse bronze
+        Achievement({id = 18573, criteria = 11, oneline = true}), -- reverse silver
+        Achievement({id = 18574, criteria = 11, oneline = true}) -- reverse gold
+    }
+}) -- Booty Bay Blast
+
+map.nodes[33103780] = ns.node.ScavengerPool(3873)
+map.nodes[33203060] = ns.node.ScavengerPool(3873)
+map.nodes[34804030] = ns.node.ScavengerPool(3873)
+map.nodes[35202500] = ns.node.ScavengerPool(3873)
+map.nodes[35405140] = ns.node.ScavengerPool(3873)
+map.nodes[36104440] = ns.node.ScavengerPool(3873)
+map.nodes[37605550] = ns.node.ScavengerPool(3873)
+map.nodes[37802870] = ns.node.ScavengerPool(3873)
+map.nodes[39303960] = ns.node.ScavengerPool(3873)
+map.nodes[40202500] = ns.node.ScavengerPool(3873)
+map.nodes[40206500] = ns.node.ScavengerPool(3873)
+map.nodes[40401880] = ns.node.ScavengerPool(3873)
+map.nodes[40406150] = ns.node.ScavengerPool(3873)
+map.nodes[40901330] = ns.node.ScavengerPool(3873)
+map.nodes[41805780] = ns.node.ScavengerPool(3873)
+map.nodes[41908290] = ns.node.ScavengerPool(3873)
+map.nodes[43004730] = ns.node.ScavengerPool(3873)
+map.nodes[43705350] = ns.node.ScavengerPool(3873)
+map.nodes[44300890] = ns.node.ScavengerPool(3873)
+map.nodes[45408400] = ns.node.ScavengerPool(3873)
+map.nodes[48008170] = ns.node.ScavengerPool(3873)
+map.nodes[49200710] = ns.node.ScavengerPool(3873)
+map.nodes[49807940] = ns.node.ScavengerPool(3873)
+map.nodes[51107470] = ns.node.ScavengerPool(3873)
+map.nodes[52307060] = ns.node.ScavengerPool(3873)
+map.nodes[52806600] = ns.node.ScavengerPool(3873)
+map.nodes[55506310] = ns.node.ScavengerPool(3873)
+map.nodes[56805840] = ns.node.ScavengerPool(3873)
+map.nodes[57205390] = ns.node.ScavengerPool(3873)
+map.nodes[58405060] = ns.node.ScavengerPool(3873)
+map.nodes[60204620] = ns.node.ScavengerPool(3873)
+map.nodes[63304560] = ns.node.ScavengerPool(3873)
+map.nodes[64204110] = ns.node.ScavengerPool(3873)

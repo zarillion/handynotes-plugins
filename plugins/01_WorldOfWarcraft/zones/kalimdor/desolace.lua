@@ -6,6 +6,8 @@ local L = ns.locale
 
 local Safari = ns.node.Safari
 
+local Achievement = ns.reward.Achievement
+
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -242,3 +244,45 @@ wickedgrotto.nodes[28005140] = Safari.TopazShaleHatchling({
         })
     }
 }) -- Topaz Shale Hatchling
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[28106328] = ns.node.Dragonrace({
+    label = '{quest:75409}',
+    normal = {2320, 80, 75},
+    advanced = {2350, 80, 75},
+    reverse = {2380, 75, 70},
+    rewards = {
+        Achievement({id = 17712, criteria = 9, oneline = true}), -- normal bronze
+        Achievement({id = 17713, criteria = 9, oneline = true}), -- normal silver
+        Achievement({id = 17714, criteria = 9, oneline = true}), -- normal gold
+        Achievement({id = 17715, criteria = 9, oneline = true}), -- advanced bronze
+        Achievement({id = 17716, criteria = 9, oneline = true}), -- advanced silver
+        Achievement({id = 17717, criteria = 9, oneline = true}), -- advanced gold
+        Achievement({id = 17718, criteria = 9, oneline = true}), -- reverse bronze
+        Achievement({id = 17719, criteria = 9, oneline = true}), -- reverse silver
+        Achievement({id = 17720, criteria = 9, oneline = true}) -- reverse gold
+    }
+}) -- Desolace Drift
+
+map.nodes[21807080] = ns.node.ScavengerPool(3875)
+map.nodes[25007410] = ns.node.ScavengerPool(3875)
+map.nodes[25208000] = ns.node.ScavengerPool(3875)
+map.nodes[34504170] = ns.node.ScavengerPool(3875)
+map.nodes[36003550] = ns.node.ScavengerPool(3875)
+map.nodes[36202770] = ns.node.ScavengerPool(3875)
+map.nodes[39802170] = ns.node.ScavengerPool(3875)
+map.nodes[42002150] = ns.node.ScavengerPool(3875)
+map.nodes[42605200] = ns.node.ScavengerPool(3875)
+map.nodes[42801650] = ns.node.ScavengerPool(3875)
+map.nodes[43708030] = ns.node.ScavengerPool(3875)
+map.nodes[45205470] = ns.node.ScavengerPool(3875)
+map.nodes[46201450] = ns.node.ScavengerPool(3875)
+map.nodes[62403530] = ns.node.ScavengerPool(3875)
+map.nodes[63904480] = ns.node.ScavengerPool(3875)
+map.nodes[66004010] = ns.node.ScavengerPool(3875)
+map.nodes[70007840] = ns.node.ScavengerPool(3875)
+map.nodes[73107630] = ns.node.ScavengerPool(3875)
+map.nodes[73306890] = ns.node.ScavengerPool(3875)

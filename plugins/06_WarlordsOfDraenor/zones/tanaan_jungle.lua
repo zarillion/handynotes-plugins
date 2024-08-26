@@ -1330,7 +1330,7 @@ map.nodes[46904440] = Treasure({
             criteria = {
                 {id = 1, qty = true, suffix = L['treasures_discovered']}
             }
-        }), Transmog({item = 128218, slot = L['cosmetic']}) -- Fel-Proof Goggles
+        }), Transmog({item = 128218}) -- Fel-Proof Goggles
     }
 }) -- Fel-Drenched Satchel
 

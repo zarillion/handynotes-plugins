@@ -1,3 +1,21 @@
+# v69
+
+* If you enjoyed our Shadowlands plugin, grab our [War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within) plugin!
+
+# v58
+
+* Added tooltip rendering enhancements.
+* Update TOC for 10.2
+
+# v57
+
+* Added a change to prevent WorldMapPinMixin taint.
+
+# v56
+
+* Fixed an error where EJ_GetTierInfo was called too early in the load process.
+* Updated TOC for 10.1.0
+
 # v55
 
 * Added improvements from the Dragonflight plugin.

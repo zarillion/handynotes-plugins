@@ -2047,3 +2047,25 @@ map.nodes[47438855] = Collectible({
     note = L['venaris_fate_note'],
     rewards = {Toy({item = 192485})} -- Stored Wisdom Device
 })
+
+-------------------------------------------------------------------------------
+--------------------------- ENLIGHTENED HEARTHSTONE ---------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[47505640] = Collectible({
+    label = L['ponderers_portal_label'],
+    icon = 3950360,
+    note = L['ponderers_portal_note'],
+    requires = ns.requirement.Toy(190177), -- Sphere of Enlightened Cogitation
+    rewards = {Toy({item = 190196})}, -- Enlightened Hearthstone
+    pois = {
+        POI({
+            47505000, -- North Platform
+            49605150, -- Northeast Platform
+            45505170, -- Northwest Platform
+            49605520, -- Southeast Platform
+            45505520, -- Southwest Platform
+            47505690 -- South Platform
+        })
+    }
+}) -- Ponderer's Portal

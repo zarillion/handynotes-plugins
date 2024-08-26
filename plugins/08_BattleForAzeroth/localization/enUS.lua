@@ -38,6 +38,11 @@ L['dilbert_mcclint_note'] = 'Hey there, name\'s {npc:140461}, Infestation Manage
 L['fizzie_spark_note'] = 'You think your pets have a chance against my Azerite infused team? You wish!'
 L['michael_skarn_note'] = 'Just remember as we start this battle, you asked for this.'
 
+L['cursed_hunter_label'] = 'Cursed Animals'
+L['cursed_hunter_note'] = 'Kill one of every type of cursed animal to earn the achievement.'
+L['options_icons_cursed_hunter_desc'] = 'Display animal locations for the {achievement:13094} achievement.'
+L['options_icons_cursed_hunter'] = '{achievement:13094}'
+
 L['drust_facts_note'] = 'Read all of the steles to earn the achievement.'
 L['stele_forest_note'] = 'Inside {location:Ulfar\'s Den}.'
 L['options_icons_drust_facts_desc'] = 'Display stele locations for the {achievement:13064} achievement.'
@@ -255,7 +260,7 @@ L['carved_in_stone_41861'] = 'At the destroyed pillar.'
 L['carved_in_stone_41862'] = 'At the destroyed wall, in front of the huge pillar.'
 L['carved_in_stone_42116'] = 'At a pillar next to {npc:126126}.'
 L['options_icons_carved_in_stone'] = '{achievement:13024}'
-L['options_icons_carved_in_stone_desc'] = 'Display pictograph locations for {achievement:13024}.'
+L['options_icons_carved_in_stone_desc'] = 'Display pictograph locations for {achievement:13024} achievement.'
 
 L['hoppin_sad_53419'] = 'Behind two trees under a huge root.'
 L['hoppin_sad_53420'] = 'In the ruins.'

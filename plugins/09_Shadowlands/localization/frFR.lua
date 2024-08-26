@@ -1114,3 +1114,10 @@ L['options_icons_mawsworn_supply_cache'] = 'Coffres de fournitures antreliges'
 L['options_icons_mawsworn_supply_cache_desc'] = 'Afficher les emplacements possibles des {object:Coffres de fournitures antreliges}.'
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Emplacements des Automas sans noyaux pour le haut-fait {achievement:15542}.'
+
+L['ponderers_portal_label'] = 'Portail de cogitation'
+L['ponderers_portal_note'] = [[La {item:190196} peut être trouvée grâce à la {item:190177}, qui peut être obtenue dans les {item:187780}, la cache de Parangon pour la réputation {faction:Les Éclairés}.
+
+{note:Le portail peut être fouillé par n'importe quel joueur une fois que l'emote apparaît dans le chat de la zone, et pas seulement par ceux qui ont ouvert le portail.}
+
+Pour ouvrir le portail, six joueurs devront se placer sur les piliers hexagonaux entourant le bassin d'eau sous la {location:Forge des Limbes} au centre de {location:Zereth Mortis} et utiliser la {item:190177}. Il doit y avoir un joueur sur chaque pilier.]]

@@ -166,7 +166,7 @@ map.nodes[65808610] = Treasure({
 map.nodes[53905840] = Treasure({
     label = '{item:86517}',
     note = L['multiple_spawns'],
-    quest = 31426,
+    quest = 31424,
     rewards = {
         Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
         Item({item = 86517})

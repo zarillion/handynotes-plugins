@@ -34,3 +34,14 @@ for name, color in pairs(ns.COLORS) do
         return string.format('(|c%s%s|r)', color, t)
     end
 end
+
+-- Get ARGB values from HEX Colors
+ns.getARGB = function(color, mul)
+    local c = ns.COLORS[color] or 'FFFF00FF'
+    local argb = {}
+    for k, v in pairs({c:match('(%x%x)(%x%x)(%x%x)(%x%x)')}) do
+        argb[k] = tonumber(v, 16) / 255 * (mul or 1)
+    end
+    local _, r, g, b = unpack(argb)
+    return r, g, b
+end

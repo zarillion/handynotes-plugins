@@ -199,11 +199,12 @@ end
 ----------------------------------- CURRENCY ----------------------------------
 -------------------------------------------------------------------------------
 
-local Currency = Class('Currency', Reward)
+local Currency = Class('Currency', Reward, {type = L['currency']})
 
 function Currency:GetText()
     local info = C_CurrencyInfo.GetCurrencyInfo(self.id)
     local text = C_CurrencyInfo.GetCurrencyLink(self.id, 0)
+    text = text .. ' (' .. self.type .. ')'
     if self.note then -- additional info
         text = text .. ' (' .. self.note .. ')'
     end
@@ -294,8 +295,14 @@ end
 
 function Item:GetText()
     local text = self.itemLink
-    if self.type then -- mount, pet, toy, etc
+    if self.isCosmetic then
+        local type = self.type and ', ' .. self.type or ''
+        text = text .. ' (' .. L['cosmetic'] .. type .. ')'
+    elseif self.type then -- mount, pet, toy, etc
         text = text .. ' (' .. self.type .. ')'
+    end
+    if self.count then
+        text = text .. string.format(' (%sx)', BreakUpLargeNumbers(self.count))
     end
     if self.note then -- additional info
         text = text .. ' (' .. ns.RenderLinks(self.note, true) .. ')'
@@ -330,6 +337,13 @@ function Heirloom:GetStatus()
     local collected = C_Heirloom.PlayerHasHeirloom(self.item)
     return collected and Green(L['known']) or Red(L['missing'])
 end
+
+-------------------------------------------------------------------------------
+---------------------------------- MANUSCRIPT ---------------------------------
+-------------------------------------------------------------------------------
+
+local Manuscript = Class('Manuscript', Item,
+    {display_option = 'show_manuscript_rewards'})
 
 -------------------------------------------------------------------------------
 ------------------------------------ MOUNT ------------------------------------
@@ -430,8 +444,8 @@ function Recipe:Initialize(attrs)
 end
 
 -- Tooltip Documentation:
--- https://wowpedia.fandom.com/wiki/Patch_10.0.2/API_changes
--- https://wowpedia.fandom.com/wiki/Patch_10.1.0/API_changes
+-- https://warcraft.wiki.gg/wiki/Patch_10.0.2/API_changes
+-- https://warcraft.wiki.gg/wiki/Patch_10.1.0/API_changes
 function Recipe:IsObtained()
     local info = C_TooltipInfo.GetItemByID(self.item)
     if info then
@@ -508,6 +522,31 @@ function Toy:GetStatus()
 end
 
 -------------------------------------------------------------------------------
+---------------------------------- APPEARANCE ---------------------------------
+-------------------------------------------------------------------------------
+
+-- Ensemble, Arsenal, Illusion
+
+local Appearance = Class('Appearance', Item, {
+    display_option = 'show_transmog_rewards',
+    type = _G.APPEARANCE_LABEL
+})
+
+function Appearance:IsObtained()
+    local KnownLineType = Enum.TooltipDataLineType.RestrictedSpellKnown
+    local info = C_TooltipInfo.GetItemByID(self.item)
+    if info then
+        for _, line in ipairs(info.lines) do
+            if line.type == KnownLineType then return true end
+        end
+    end
+    return false
+end
+function Appearance:GetStatus()
+    return self:IsObtained() and Green(L['known']) or Red(L['missing'])
+end
+
+-------------------------------------------------------------------------------
 ---------------------------------- TRANSMOG -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -527,8 +566,9 @@ function Transmog:Prepare()
     Item.Prepare(self)
     local sourceID = select(2, CTC.GetItemInfo(self.item))
     if sourceID then CTC.PlayerCanCollectSource(sourceID) end
-    GetItemSpecInfo(self.item)
+    C_Item.GetItemSpecInfo(self.item)
     CTC.PlayerHasTransmog(self.item)
+    self.isCosmetic = C_Item.IsCosmeticItem(self.item)
 end
 
 function Transmog:IsEnabled()
@@ -567,11 +607,10 @@ function Transmog:IsObtainable()
     if not Item.IsObtainable(self) then return false end
     -- Cosmetic cloaks do not behave well with the GetItemSpecInfo() function.
     -- They return an empty table even though you can get the item to drop.
-    local _, _, _, ilvl, _, _, _, _, equipLoc = GetItemInfo(self.item)
-    if not (ilvl == 1 and equipLoc == 'INVTYPE_CLOAK' and self.slot ==
-        L['cosmetic']) then
+    local _, _, _, ilvl, _, _, _, _, equipLoc = C_Item.GetItemInfo(self.item)
+    if not (ilvl == 1 and equipLoc == 'INVTYPE_CLOAK' and self.isCosmetic) then
         -- Verify the item drops for any of the players specs
-        local specs = GetItemSpecInfo(self.item)
+        local specs = C_Item.GetItemSpecInfo(self.item)
         if type(specs) == 'table' and #specs == 0 then return false end
     end
     return true
@@ -601,6 +640,50 @@ function Transmog:GetStatus()
 end
 
 -------------------------------------------------------------------------------
+--------------------------------- REPUTATION ----------------------------------
+-------------------------------------------------------------------------------
+
+local Reputation = Class('Reputation', Reward,
+    {display_option = 'show_rep_rewards', type = L['rep']})
+
+function Reputation:GetText()
+    local text = ns.api.GetFactionInfoByID(self.id)
+    if self.gain then text = ('+%d %s'):format(self.gain, text) end
+    text = ns.color.LightBlue(text) .. ' (' .. self.type .. ')'
+    if self.note then text = text .. ' (' .. ns.RenderLinks(self.note) .. ')' end
+    return text
+end
+
+function Reputation:IsEnabled()
+    if not Reward.IsEnabled(self) then return false end
+    if self:IsObtained() and not ns:GetOpt('show_claimed_rep_rewards') then
+        return false
+    end
+
+    return true
+end
+function Reputation:Prepare() ns.PrepareLinks(self.note) end
+
+function Reputation:GetStatus()
+    if not self.quest then return end
+    return self:IsObtainable() and Red(L['unclaimed']) or Green(L['claimed'])
+end
+
+function Reputation:IsObtainable()
+    if not self.quest then return true end
+    if C_Reputation.IsAccountWideReputation(self.id) then
+        return not C_QuestLog.IsQuestFlaggedCompletedOnAccount(self.quest)
+    else
+        return not C_QuestLog.IsQuestFlaggedCompleted(self.quest)
+    end
+end
+
+function Reputation:IsObtained()
+    if self.quest and self:IsObtainable() then return false end
+    return true
+end
+
+-------------------------------------------------------------------------------
 
 ns.reward = {
     Reward = Reward,
@@ -611,6 +694,7 @@ ns.reward = {
     Follower = Follower,
     Item = Item,
     Heirloom = Heirloom,
+    Manuscript = Manuscript,
     Mount = Mount,
     Pet = Pet,
     Quest = Quest,
@@ -618,5 +702,7 @@ ns.reward = {
     Spell = Spell,
     Title = Title,
     Toy = Toy,
-    Transmog = Transmog
+    Appearance = Appearance,
+    Transmog = Transmog,
+    Reputation = Reputation
 }

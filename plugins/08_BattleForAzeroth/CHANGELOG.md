@@ -1,3 +1,22 @@
+# v69
+
+* If you enjoyed our BfA plugin, grab our [War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within) plugin!
+
+# v18
+
+* Added tooltip rendering enhancements.
+* Update TOC for 10.2
+
+# v17
+
+* Added a change to prevent WorldMapPinMixin taint.
+* Added the Cursed Game Hunter achievement (thanks dgodfrey!)
+
+# v16
+
+* Fixed an error where EJ_GetTierInfo was called too early in the load process.
+* Updated TOC for 10.1.0
+
 # v15
 
 * Added improvements from the Dragonflight plugin.

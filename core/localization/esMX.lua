@@ -12,6 +12,7 @@ L['leather'] = 'Cuero'
 L['mail'] = 'Malla'
 L['plate'] = 'Placas'
 L['cosmetic'] = nil
+L['tabard'] = nil
 
 L['1h_mace'] = '1m Maza'
 L['1h_sword'] = '1m Espada'
@@ -44,32 +45,22 @@ L['activation_unknown'] = nil
 L['requirement_not_found'] = nil
 L['multiple_spawns'] = nil
 L['shared_drops'] = nil
+L['zone_drops_label'] = nil
+L['zone_drops_note'] = nil
 
-L['Requires'] = nil
+L['requires'] = nil
 L['ranked_research'] = nil
 
 L['focus'] = nil
 L['retrieving'] = 'Recuperando el enlace del elemento ...'
-L['in_cave'] = 'En una cueva.'
-L['in_small_cave'] = 'En una cueva pequeña.'
-L['in_water_cave'] = 'En una cueva submarina.'
-L['in_waterfall_cave'] = nil
-L['in_water'] = 'Bajo el agua.'
-L['hourly'] = nil
-L['daily'] = nil
-L['weekly'] = 'Semanal'
+
 L['normal'] = 'Normal'
 L['hard'] = 'Difícil'
-L['heirloom'] = nil
-L['mount'] = 'Montura'
-L['pet'] = 'Mascota'
-L['recipe'] = nil
-L['spell'] = nil
-L['title'] = nil
-L['toy'] = 'Juguete'
-L['rep'] = nil
+
 L['completed'] = 'Terminado'
 L['incomplete'] = 'Incompleto'
+L['claimed'] = nil
+L['unclaimed'] = nil
 L['known'] = 'Conocido'
 L['missing'] = 'Desconocido'
 L['unobtainable'] = 'No se puede obtener'
@@ -77,14 +68,66 @@ L['unlearnable'] = 'No se puede aprender'
 L['defeated'] = nil
 L['undefeated'] = nil
 L['elite'] = nil
+L['quest'] = nil
+L['quest_repeatable'] = nil
+L['achievement'] = nil
 
+---------------------------------- LOCATION -----------------------------------
+L['in_cave'] = 'En una cueva.'
+L['in_small_cave'] = 'En una cueva pequeña.'
+L['in_water_cave'] = 'En una cueva submarina.'
+L['in_waterfall_cave'] = nil
+L['in_water'] = 'Bajo el agua.'
+L['in_building'] = nil
+
+------------------------------------ TIME -------------------------------------
+L['hourly'] = nil
+L['daily'] = nil
+L['weekly'] = 'Semanal'
+
+L['time_format_12hrs'] = '%I:%M %p - %d/%m heure locale'
+L['time_format_24hrs'] = '%H:%M - %d/%m heure locale'
+
+----------------------------------- REWARDS -----------------------------------
+L['heirloom'] = nil
+L['item'] = nil
+L['mount'] = 'Montura'
+L['pet'] = 'Mascota'
+L['recipe'] = nil
+L['spell'] = nil
+L['title'] = nil
+L['toy'] = 'Juguete'
+L['currency'] = nil
+L['rep'] = nil
+
+---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = nil
 L['follower_type_champion'] = nil
 L['follower_type_companion'] = nil
 
+--------------------------------- REPUTATION ----------------------------------
 L['rep_honored'] = nil
 L['rep_revered'] = nil
 L['rep_exalted'] = nil
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+L['dr_your_best_time'] = nil
+L['dr_your_target_time'] = nil
+L['dr_best_time'] = nil
+L['dr_target_time'] = nil
+L['dr_normal'] = nil
+L['dr_advanced'] = nil
+L['dr_reverse'] = nil
+L['dr_challenge'] = nil
+L['dr_reverse_challenge'] = nil
+L['dr_storm_race'] = nil
+L['dr_bronze'] = nil
+L['dr_vendor_note'] = nil
+L['options_icons_dragonrace'] = nil
+L['options_icons_dragonrace_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -146,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = nil
 
 L['options_rewards_settings'] = nil
 L['options_reward_types'] = nil
+L['options_manuscript_rewards'] = nil
+L['options_manuscript_rewards_desc'] = nil
 L['options_mount_rewards'] = nil
 L['options_mount_rewards_desc'] = nil
 L['options_pet_rewards'] = nil
@@ -158,6 +203,10 @@ L['options_transmog_rewards'] = nil
 L['options_transmog_rewards_desc'] = nil
 L['options_all_transmog_rewards'] = nil
 L['options_all_transmog_rewards_desc'] = nil
+L['options_rep_rewards'] = nil
+L['options_rep_rewards_desc'] = nil
+L['options_claimed_rep_rewards'] = nil
+L['options_claimed_rep_rewards_desc'] = nil
 
 L['options_icons_misc_desc'] = nil
 L['options_icons_misc'] = 'Miscelánea'
@@ -167,6 +216,8 @@ L['options_icons_rares_desc'] = 'Mostrar los lugares de los NPCs raros.'
 L['options_icons_rares'] = 'Raros'
 L['options_icons_treasures_desc'] = nil
 L['options_icons_treasures'] = 'Tesoros'
+L['options_icons_vendors_desc'] = nil
+L['options_icons_vendors'] = nil
 
 ------------------------------------ FOCUS ------------------------------------
 

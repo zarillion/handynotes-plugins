@@ -35,6 +35,11 @@ L['dilbert_mcclint_note'] = 'Tag auch, {npc:140461}, Befallsbekämpfung. Immer s
 L['fizzie_spark_note'] = 'Denkt Ihr, dass Eure Haustiere gegen mein azeritdurchströmtes Team eine Chance haben? Das hättet Ihr wohl gerne!'
 L['michael_skarn_note'] = 'Bevor wir loslegen... Vergesst nicht, dass Ihr das so wolltet!'
 
+L['cursed_hunter_label'] = 'Verfluchtes Tier'
+L['cursed_hunter_note'] = 'Töte ein verfluchtes Tier von jedem Typ.'
+L['options_icons_cursed_hunter_desc'] = 'Zeigt die möglichen Positionen der verfluchten Tiere für den Erfolg {achievement:13094} an.'
+L['options_icons_cursed_hunter'] = '{achievement:13094}'
+
 L['drust_facts_note'] = 'Lies alle Druststelen, um den Erfolg zu erringen.'
 L['stele_forest_note'] = 'In Ulfars Höhle.'
 L['options_icons_drust_facts_desc'] = 'Zeigt die Druststelen für den Erfolg {achievement:13064} an.'

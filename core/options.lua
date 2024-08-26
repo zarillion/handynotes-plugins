@@ -25,12 +25,17 @@ ns.optionDefaults = {
         show_notes = true,
 
         -- rewards
+        show_rep_rewards = true,
         show_mount_rewards = true,
         show_pet_rewards = true,
         show_recipe_rewards = true,
         show_toy_rewards = true,
         show_transmog_rewards = true,
+        show_manuscript_rewards = true, -- dragonflight only
+
+        -- reward options
         show_all_transmog_rewards = false,
+        show_claimed_rep_rewards = true,
 
         -- development
         development = false,
@@ -106,6 +111,7 @@ ns.options = {
                     set = function(info, v)
                         ns:SetOpt(info.arg, v)
                         ns.world_map_button:Refresh()
+                        LibStub('Krowi_WorldMapButtons-1.4').SetPoints()
                     end,
                     order = 2,
                     width = 'full'
@@ -130,6 +136,14 @@ ns.options = {
                     type = 'header',
                     name = L['options_rewards_settings'],
                     order = 10
+                },
+                show_manuscript_rewards = {
+                    type = 'toggle',
+                    arg = 'show_manuscript_rewards',
+                    name = L['options_manuscript_rewards'],
+                    desc = L['options_manuscript_rewards_desc'],
+                    order = 11,
+                    width = 'full'
                 },
                 show_mount_rewards = {
                     type = 'toggle',
@@ -177,6 +191,22 @@ ns.options = {
                     name = L['options_all_transmog_rewards'],
                     desc = L['options_all_transmog_rewards_desc'],
                     order = 12,
+                    width = 'full'
+                },
+                show_rep_rewards = {
+                    type = 'toggle',
+                    arg = 'show_rep_rewards',
+                    name = L['options_rep_rewards'],
+                    desc = L['options_rep_rewards_desc'],
+                    order = 13,
+                    width = 'full'
+                },
+                show_claimed_rep = {
+                    type = 'toggle',
+                    arg = 'show_claimed_rep_rewards',
+                    name = L['options_claimed_rep_rewards'],
+                    desc = L['options_claimed_rep_rewards_desc'],
+                    order = 14,
                     width = 'full'
                 },
                 VisibilityHeader = {

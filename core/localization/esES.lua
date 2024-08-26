@@ -1,8 +1,7 @@
--- Spanish Translation by (EU) Krovikan-Minahonda
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
-
+-- Spanish Translation by Krovikan EU-Minahonda
 -------------------------------------------------------------------------------
 ------------------------------------ GEAR -------------------------------------
 -------------------------------------------------------------------------------
@@ -13,6 +12,7 @@ L['leather'] = 'Cuero'
 L['mail'] = 'Malla'
 L['plate'] = 'Placas'
 L['cosmetic'] = 'Cosmético'
+L['tabard'] = 'Tabardo'
 
 L['1h_mace'] = 'Maza'
 L['1h_sword'] = 'Espada'
@@ -45,32 +45,22 @@ L['activation_unknown'] = '¡Activación desconocida!'
 L['requirement_not_found'] = '¡Requerimiento de localización desconocido!'
 L['multiple_spawns'] = 'Puede aparecer en varios sitios.'
 L['shared_drops'] = 'Botín Compartido'
+L['zone_drops_label'] = 'Zonas de Caídas'
+L['zone_drops_note'] = 'Los objetos listados debajo los pueden soltar varios enemigos en esta zona.'
 
-L['Requires'] = 'Requiere'
+L['requires'] = 'Requiere'
 L['ranked_research'] = '%s (Rango %d/%d)'
 
 L['focus'] = 'Foco'
 L['retrieving'] = 'Recuperando el enlace del elemento ...'
-L['in_cave'] = 'En una cueva.'
-L['in_small_cave'] = 'En una cueva pequeña.'
-L['in_water_cave'] = 'En una cueva submarina.'
-L['in_waterfall_cave'] = 'En una cueva detrás de una cascada.'
-L['in_water'] = 'Bajo el agua.'
-L['hourly'] = 'Horaria'
-L['daily'] = 'Diaria'
-L['weekly'] = 'Semanal'
+
 L['normal'] = 'Normal'
 L['hard'] = 'Difícil'
-L['heirloom'] = 'Reliquia'
-L['mount'] = 'Montura'
-L['pet'] = 'Mascota'
-L['recipe'] = 'Receta'
-L['spell'] = 'Hechizo'
-L['title'] = 'Título'
-L['toy'] = 'Juguete'
-L['rep'] = 'Reputación'
+
 L['completed'] = 'Terminado'
 L['incomplete'] = 'Incompleto'
+L['claimed'] = 'Reclamado'
+L['unclaimed'] = 'No Reclamado'
 L['known'] = 'Conocido'
 L['missing'] = 'Desconocido'
 L['unobtainable'] = 'No se puede obtener'
@@ -78,14 +68,66 @@ L['unlearnable'] = 'No se puede aprender'
 L['defeated'] = 'Derrotado'
 L['undefeated'] = 'Sin derrotar'
 L['elite'] = 'Élite'
+L['quest'] = 'Misión'
+L['quest_repeatable'] = 'Misión Repetible'
+L['achievement'] = 'Logro'
 
+---------------------------------- LOCATION -----------------------------------
+L['in_cave'] = 'En una cueva.'
+L['in_small_cave'] = 'En una cueva pequeña.'
+L['in_water_cave'] = 'En una cueva submarina.'
+L['in_waterfall_cave'] = 'En una cueva detrás de una cascada.'
+L['in_water'] = 'Bajo el agua.'
+L['in_building'] = 'En el edificio.'
+
+------------------------------------ TIME -------------------------------------
+L['hourly'] = 'Horaria'
+L['daily'] = 'Diaria'
+L['weekly'] = 'Semanal'
+
+L['time_format_12hrs'] = '%I:%M %p - %d/%m Hora local'
+L['time_format_24hrs'] = '%H:%M - %d/%m Hora local'
+
+----------------------------------- REWARDS -----------------------------------
+L['heirloom'] = 'Reliquia'
+L['item'] = 'Objeto'
+L['mount'] = 'Montura'
+L['pet'] = 'Mascota'
+L['recipe'] = 'Receta'
+L['spell'] = 'Hechizo'
+L['title'] = 'Título'
+L['toy'] = 'Juguete'
+L['currency'] = 'Moneda'
+L['rep'] = 'Reputación'
+
+---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = 'Seguidor'
 L['follower_type_champion'] = 'Campeón'
 L['follower_type_companion'] = 'Compañero'
 
+--------------------------------- REPUTATION ----------------------------------
 L['rep_honored'] = 'Honorable'
 L['rep_revered'] = 'Reverenciado'
 L['rep_exalted'] = 'Exaltado'
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+L['dr_your_best_time'] = 'Tu mejor tiempo:'
+L['dr_your_target_time'] = 'Tu mejor tiempo:'
+L['dr_best_time'] = ' - %s: %.3fs'
+L['dr_target_time'] = ' - %s: %ss / %ss'
+L['dr_normal'] = 'Normal'
+L['dr_advanced'] = 'Avanzado'
+L['dr_reverse'] = 'Inverso'
+L['dr_challenge'] = 'Desafío'
+L['dr_reverse_challenge'] = 'Desafío Inverso'
+L['dr_storm_race'] = 'Carrera de la Tormenta'
+L['dr_bronze'] = 'Acaba la carrera para conseguir el ' .. ns.color.Bronze('Bronce') .. '.'
+L['dr_vendor_note'] = 'Intercambia {currency:2588} por manuscritos de dracovigía y transfiguraciones.'
+L['options_icons_dragonrace'] = 'Carreras de Dragones'
+L['options_icons_dragonrace_desc'] = 'Muestra dónde están todas las Carreras de Dragones de la zona.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -147,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = 'Vuelve a mostrar todos los nodos ocult
 
 L['options_rewards_settings'] = 'Recompensas'
 L['options_reward_types'] = 'Mostrar tipos de recompensas'
+L['options_manuscript_rewards'] = 'Mostrar las recompensas de los manuscritos de dracovigía'
+L['options_manuscript_rewards_desc'] = 'Muestra las recompensas de los manuscritos de dracovigía en las descripciones y sigue si ya lo has coleccionado.'
 L['options_mount_rewards'] = 'Mostrar recompensas de monturas'
 L['options_mount_rewards_desc'] = 'Muestra las recompensas de monturas en las notas y rastrea el estado de si ha sido aprendida.'
 L['options_pet_rewards'] = 'Mostrar recompensas de mascotas'
@@ -159,6 +203,10 @@ L['options_transmog_rewards'] = 'Mostrar recompensas de transfiguraciones'
 L['options_transmog_rewards_desc'] = 'Muestra las recompensas de transfiguraciones en las notas y rastrea el estado de si ha sido aprendida.'
 L['options_all_transmog_rewards'] = 'Mostrar las recompensas de transfiguraciones que no pueden conseguirse'
 L['options_all_transmog_rewards_desc'] = 'Muestra las recompensas de transfiguraciones conseguibles por otras clases.'
+L['options_rep_rewards'] = 'Mostrar recompensas de reputaciones'
+L['options_rep_rewards_desc'] = 'Muestra las recompensas de reputaciones en las notas y rastrea el estado de si ha sido conseguida.'
+L['options_claimed_rep_rewards'] = 'Mostrar recompensas de reputación reclamadas'
+L['options_claimed_rep_rewards_desc'] = 'Muestra las recompensas de reputaciones que ya hayan sido reclamadas por tu banda guerrera.'
 
 L['options_icons_misc_desc'] = 'Muestra dónde están los nodos sin categoría.'
 L['options_icons_misc'] = 'Miscelánea'
@@ -168,6 +216,8 @@ L['options_icons_rares_desc'] = 'Muestra dónde están los NPC raros.'
 L['options_icons_rares'] = 'Raros'
 L['options_icons_treasures_desc'] = 'Muestra dónde están los tesoros ocultos.'
 L['options_icons_treasures'] = 'Tesoros'
+L['options_icons_vendors_desc'] = 'Muestra dónde están los vendedores.'
+L['options_icons_vendors'] = 'Vendedores'
 
 ---------------------------------- FOCUS ---------------------------------
 
@@ -181,11 +231,11 @@ L['options_reset_poi_colors_desc'] = 'Establece los colores de encima a sus valo
 
 ---------------------------------- TOOLTIP ---------------------------------
 
-L['options_tooltip_settings'] = 'Tooltip'
+L['options_tooltip_settings'] = 'Descripción'
 L['options_toggle_show_loot'] = 'Mostrar el botín'
-L['options_toggle_show_loot_desc'] = 'Muestra la información de botín al tooltip'
+L['options_toggle_show_loot_desc'] = 'Muestra la información de botín en la descripción'
 L['options_toggle_show_notes'] = 'Mostrar las Notas'
-L['options_toggle_show_notes_desc'] = 'Agrega las notas útiles al tooltip cuando esté disponible'
+L['options_toggle_show_notes_desc'] = 'Agrega las notas útiles en la descripción cuando esté disponible'
 L['options_toggle_use_standard_time'] = 'Usar Reloj de 12-Horas'
 L['options_toggle_use_standard_time_desc'] = 'Usa el reloj de 12-horas (ej: 8:00 PM) en lugar del reloj de 24-horas (ej: 20:00) en las descripciones.'
 

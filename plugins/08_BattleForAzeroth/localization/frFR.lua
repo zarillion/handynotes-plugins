@@ -39,6 +39,11 @@ L['dilbert_mcclint_note'] = 'Salut à vous. Moi, c’est {npc:140461}, expert en
 L['fizzie_spark_note'] = 'Vous croyez vraiment que vos familiers ont la moindre chance contre mon équipe imprégnée d’azérite ? Dans vos rêves !'
 L['michael_skarn_note'] = 'Souvenez-vous juste qu\'au moment où nous entamons cette bataille, vous l\'avez voulu.'
 
+L['cursed_hunter_label'] = 'Animaux maudits'
+L['cursed_hunter_note'] = 'Tuez un animal maudit de chaque type pour obtenir ce haut fait.'
+L['options_icons_cursed_hunter_desc'] = 'Afficher les emplacements des animaux pour le haut-fait {achievement:13094}.'
+L['options_icons_cursed_hunter'] = '{achievement:13094}'
+
 L['drust_facts_note'] = 'Lisez toutes les stèles pour obtenir le haut-fait.'
 L['stele_forest_note'] = 'Dans la {location:Tanière d\'Ulfar}.'
 L['options_icons_drust_facts_desc'] = 'Afficher les emplacements des stèles pour le haut-fait {achievement:13064}.'

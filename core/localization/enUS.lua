@@ -12,6 +12,7 @@ L['leather'] = 'Leather'
 L['mail'] = 'Mail'
 L['plate'] = 'Plate'
 L['cosmetic'] = 'Cosmetic'
+L['tabard'] = 'Tabard'
 
 L['1h_mace'] = '1h Mace'
 L['1h_sword'] = '1h Sword'
@@ -44,32 +45,22 @@ L['activation_unknown'] = 'Activation unknown!'
 L['requirement_not_found'] = 'Requirement location unknown!'
 L['multiple_spawns'] = 'Can appear in multiple locations.'
 L['shared_drops'] = 'Shared Drops'
+L['zone_drops_label'] = 'Zone Drops'
+L['zone_drops_note'] = 'The items listed below can be dropped by several mobs in this zone.'
 
-L['Requires'] = 'Requires'
+L['requires'] = 'Requires'
 L['ranked_research'] = '%s (Rank %d/%d)'
 
 L['focus'] = 'Focus'
 L['retrieving'] = 'Retrieving item link ...'
-L['in_cave'] = 'In a cave.'
-L['in_small_cave'] = 'In a small cave.'
-L['in_water_cave'] = 'In an underwater cave.'
-L['in_waterfall_cave'] = 'In a cave behind a waterfall.'
-L['in_water'] = 'In the water.'
-L['hourly'] = 'Hourly'
-L['daily'] = 'Daily'
-L['weekly'] = 'Weekly'
+
 L['normal'] = 'Normal'
 L['hard'] = 'Hard'
-L['heirloom'] = 'Heirloom'
-L['mount'] = 'Mount'
-L['pet'] = 'Pet'
-L['recipe'] = 'Recipe'
-L['spell'] = 'Spell'
-L['title'] = 'Title'
-L['toy'] = 'Toy'
-L['rep'] = 'Rep'
+
 L['completed'] = 'Completed'
 L['incomplete'] = 'Incomplete'
+L['claimed'] = 'Claimed'
+L['unclaimed'] = 'Unclaimed'
 L['known'] = 'Known'
 L['missing'] = 'Missing'
 L['unobtainable'] = 'Unobtainable'
@@ -77,14 +68,66 @@ L['unlearnable'] = 'Unlearnable'
 L['defeated'] = 'Defeated'
 L['undefeated'] = 'Undefeated'
 L['elite'] = 'Elite'
+L['quest'] = 'Quest'
+L['quest_repeatable'] = 'Repeatable Quest'
+L['achievement'] = 'Achievement'
 
+---------------------------------- LOCATION -----------------------------------
+L['in_cave'] = 'In a cave.'
+L['in_small_cave'] = 'In a small cave.'
+L['in_water_cave'] = 'In an underwater cave.'
+L['in_waterfall_cave'] = 'In a cave behind a waterfall.'
+L['in_water'] = 'In the water.'
+L['in_building'] = 'In the building.'
+
+------------------------------------ TIME -------------------------------------
+L['hourly'] = 'Hourly'
+L['daily'] = 'Daily'
+L['weekly'] = 'Weekly'
+
+L['time_format_12hrs'] = '%B %d - %I:%M %p local time'
+L['time_format_24hrs'] = '%B %d - %H:%M local time'
+
+----------------------------------- REWARDS -----------------------------------
+L['heirloom'] = 'Heirloom'
+L['item'] = 'Item'
+L['mount'] = 'Mount'
+L['pet'] = 'Pet'
+L['recipe'] = 'Recipe'
+L['spell'] = 'Spell'
+L['title'] = 'Title'
+L['toy'] = 'Toy'
+L['currency'] = 'Currency'
+L['rep'] = 'Rep'
+
+---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = 'Follower'
 L['follower_type_champion'] = 'Champion'
 L['follower_type_companion'] = 'Companion'
 
+--------------------------------- REPUTATION ----------------------------------
 L['rep_honored'] = 'Honored'
 L['rep_revered'] = 'Revered'
 L['rep_exalted'] = 'Exalted'
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+L['dr_your_best_time'] = 'Your best time:'
+L['dr_your_target_time'] = 'Target time:'
+L['dr_best_time'] = ' - %s: %.3fs'
+L['dr_target_time'] = ' - %s: %ss / %ss'
+L['dr_normal'] = 'Normal'
+L['dr_advanced'] = 'Advanced'
+L['dr_reverse'] = 'Reverse'
+L['dr_challenge'] = 'Challenge'
+L['dr_reverse_challenge'] = 'Reverse Challenge'
+L['dr_storm_race'] = 'Storm Race'
+L['dr_bronze'] = 'Finish the race to get ' .. ns.color.Bronze('Bronze') .. '.'
+L['dr_vendor_note'] = 'Exchange {currency:2588} for drakewatcher manuscripts and transmog.'
+L['options_icons_dragonrace'] = 'Dragonriding Races'
+L['options_icons_dragonrace_desc'] = 'Display all race locations for the zone.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -146,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = 'Restore all nodes hidden using the rig
 
 L['options_rewards_settings'] = 'Rewards'
 L['options_reward_types'] = 'Show reward types'
+L['options_manuscript_rewards'] = 'Show drakewatcher manuscript rewards'
+L['options_manuscript_rewards_desc'] = 'Display drakewatcher manuscript rewards in tooltips and track their collected status.'
 L['options_mount_rewards'] = 'Show mount rewards'
 L['options_mount_rewards_desc'] = 'Display mount rewards in tooltips and track their collected status.'
 L['options_pet_rewards'] = 'Show pet rewards'
@@ -158,6 +203,10 @@ L['options_transmog_rewards'] = 'Show transmog rewards'
 L['options_transmog_rewards_desc'] = 'Display transmog rewards in tooltips and track their collected status.'
 L['options_all_transmog_rewards'] = 'Show unobtainable transmog rewards'
 L['options_all_transmog_rewards_desc'] = 'Display transmog rewards obtainable by other classes.'
+L['options_rep_rewards'] = 'Show reputation rewards'
+L['options_rep_rewards_desc'] = 'Display reputation rewards in tooltips and track their collected status.'
+L['options_claimed_rep_rewards'] = 'Show claimed reputation rewards'
+L['options_claimed_rep_rewards_desc'] = 'Show reputation rewards which have already been claimed by your warband.'
 
 L['options_icons_misc_desc'] = 'Display locations of other miscellaneous nodes.'
 L['options_icons_misc'] = 'Miscellaneous'
@@ -167,6 +216,8 @@ L['options_icons_rares_desc'] = 'Display locations of rare NPCs.'
 L['options_icons_rares'] = 'Rares'
 L['options_icons_treasures_desc'] = 'Display locations of hidden treasures.'
 L['options_icons_treasures'] = 'Treasures'
+L['options_icons_vendors_desc'] = 'Display locations for vendors.'
+L['options_icons_vendors'] = 'Vendors'
 
 ------------------------------------ FOCUS ------------------------------------
 

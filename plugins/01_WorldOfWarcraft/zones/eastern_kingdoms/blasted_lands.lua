@@ -7,6 +7,7 @@ local Map = ns.Map
 
 local Safari = ns.node.Safari
 
+local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
@@ -94,3 +95,41 @@ map.nodes[59806040] = Safari.Scorpling({
 map.nodes[45407960] = Safari.Spider({
     pois = {POI({39407460, 45407960, 61606540})}
 }) -- Spider
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[10001000] = ns.node.Dragonrace({
+    label = '{quest:76469}',
+    -- normal = {nil, nil, nil},
+    -- advanced = {nil, nil, nil},
+    -- reverse = {nil, nil, nil},
+    rewards = {
+        Achievement({id = 18566, criteria = 9, oneline = true}), -- normal bronze
+        Achievement({id = 18567, criteria = 9, oneline = true}), -- normal silver
+        Achievement({id = 18568, criteria = 9, oneline = true}), -- normal gold
+        Achievement({id = 18569, criteria = 9, oneline = true}), -- advanced bronze
+        Achievement({id = 18570, criteria = 9, oneline = true}), -- advanced silver
+        Achievement({id = 18571, criteria = 9, oneline = true}), -- advanced gold
+        Achievement({id = 18572, criteria = 9, oneline = true}), -- reverse bronze
+        Achievement({id = 18573, criteria = 9, oneline = true}), -- reverse silver
+        Achievement({id = 18574, criteria = 9, oneline = true}) -- reverse gold
+    }
+}) -- Blasted Lands Bolt
+
+map.nodes[43209080] = ns.node.ScavengerPool(3876)
+map.nodes[46708850] = ns.node.ScavengerPool(3876)
+map.nodes[52708480] = ns.node.ScavengerPool(3876)
+map.nodes[57508420] = ns.node.ScavengerPool(3876)
+map.nodes[61508480] = ns.node.ScavengerPool(3876)
+map.nodes[68007960] = ns.node.ScavengerPool(3876)
+map.nodes[69303590] = ns.node.ScavengerPool(3876)
+map.nodes[69504030] = ns.node.ScavengerPool(3876)
+map.nodes[69802970] = ns.node.ScavengerPool(3876)
+map.nodes[70902360] = ns.node.ScavengerPool(3876)
+map.nodes[71207550] = ns.node.ScavengerPool(3876)
+map.nodes[72104380] = ns.node.ScavengerPool(3876)
+map.nodes[72106230] = ns.node.ScavengerPool(3876)
+map.nodes[72106950] = ns.node.ScavengerPool(3876)
+map.nodes[73802110] = ns.node.ScavengerPool(3876)

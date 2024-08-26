@@ -1,10 +1,9 @@
--- Spanish Translation by (EU) Krovikan-Minahonda
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
 
 local Gold = ns.color.Gold
-
+-- Spanish Translation by (EU) Krovikan-Minahonda
 -------------------------------------------------------------------------------
 ------------------------------- ANTORAN WASTES --------------------------------
 -------------------------------------------------------------------------------
@@ -116,7 +115,7 @@ Los Portales harán aparecer Enemigos Élite que tienen una probabilidad más al
 -------------------------------------------------------------------------------
 
 -- Midnight tz per region: US=>PST, KR=>KST, EU=>CET, TW=>CST, CN=>CST
-local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()]
+local tz = ({'PST', 'KST', 'CET', 'CST', 'CST'})[GetCurrentRegion()] or UNKNOWN
 
 L['sheddles_chest'] = 'Cofre de Sheddle'
 L['shoe_shine_kit_note'] = 'Cada noche del Sábado al Domingo a medianoche (' .. tz .. ') {npc:97003} soltará su cofre en el suelo unas horas y se irá.'

@@ -1,0 +1,19 @@
+{
+    "name": "Zar HandyNotes Plugins",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "github.vscode-github-actions",
+                "Koihik.vscode-lua-format",
+                "ms-python.python",
+                "stanzilla.vscode-wow-toc",
+                "trixnz.vscode-lua"
+            ]
+        }
+    }
+}

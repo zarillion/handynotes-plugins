@@ -12,6 +12,7 @@ L['leather'] = '가죽'
 L['mail'] = '사슬'
 L['plate'] = '판금'
 L['cosmetic'] = '장식'
+L['tabard'] = '겉옷'
 
 L['1h_mace'] = '한손 둔기'
 L['1h_sword'] = '한손 도검'
@@ -44,32 +45,22 @@ L['activation_unknown'] = '활성화 방법 알려지지 않음!'
 L['requirement_not_found'] = '요구사항 위치 불명!'
 L['multiple_spawns'] = '생성 위치가 여러 곳입니다.'
 L['shared_drops'] = nil
+L['zone_drops_label'] = nil
+L['zone_drops_note'] = nil
 
-L['Requires'] = '요구사항'
+L['requires'] = '요구사항'
 L['ranked_research'] = '%s (연구단계 %d/%d)'
 
 L['focus'] = '고정'
 L['retrieving'] = '아이템 링크 가져오는 중...'
-L['in_cave'] = '동굴 안에 있음.'
-L['in_small_cave'] = '작은 동굴 안에 있음.'
-L['in_water_cave'] = '수중 동굴 안에 있음.'
-L['in_waterfall_cave'] = '폭포 뒤 동굴 안에 있음.'
-L['in_water'] = '물 속에 있음.'
-L['hourly'] = '한시간단위'
-L['daily'] = '일간'
-L['weekly'] = '주간'
+
 L['normal'] = '보통'
 L['hard'] = '어려움'
-L['heirloom'] = '유산'
-L['mount'] = '탈것'
-L['pet'] = '애완동물'
-L['recipe'] = nil
-L['spell'] = '주문'
-L['title'] = '칭호'
-L['toy'] = '장난감'
-L['rep'] = '평판'
+
 L['completed'] = '완료'
 L['incomplete'] = '미완료'
+L['claimed'] = nil
+L['unclaimed'] = nil
 L['known'] = '확인'
 L['missing'] = '미확인'
 L['unobtainable'] = '획득불가'
@@ -77,14 +68,66 @@ L['unlearnable'] = '습득불가'
 L['defeated'] = '처치함'
 L['undefeated'] = '처치하지 않음'
 L['elite'] = '정예'
+L['quest'] = nil
+L['quest_repeatable'] = nil
+L['achievement'] = nil
 
+---------------------------------- LOCATION -----------------------------------
+L['in_cave'] = '동굴 안에 있음.'
+L['in_small_cave'] = '작은 동굴 안에 있음.'
+L['in_water_cave'] = '수중 동굴 안에 있음.'
+L['in_waterfall_cave'] = '폭포 뒤 동굴 안에 있음.'
+L['in_water'] = '물 속에 있음.'
+L['in_building'] = nil
+
+------------------------------------ TIME -------------------------------------
+L['hourly'] = '한시간단위'
+L['daily'] = '일간'
+L['weekly'] = '주간'
+
+L['time_format_12hrs'] = nil
+L['time_format_24hrs'] = nil
+
+----------------------------------- REWARDS -----------------------------------
+L['heirloom'] = '유산'
+L['item'] = nil
+L['mount'] = '탈것'
+L['pet'] = '애완동물'
+L['recipe'] = nil
+L['spell'] = '주문'
+L['title'] = '칭호'
+L['toy'] = '장난감'
+L['currency'] = nil
+L['rep'] = '평판'
+
+---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = '추종자'
 L['follower_type_champion'] = '영웅'
 L['follower_type_companion'] = '동료'
 
+--------------------------------- REPUTATION ----------------------------------
 L['rep_honored'] = nil
 L['rep_revered'] = nil
 L['rep_exalted'] = nil
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+L['dr_your_best_time'] = nil
+L['dr_your_target_time'] = nil
+L['dr_best_time'] = ' - %s: %.3fs'
+L['dr_target_time'] = ' - %s: %ss / %ss'
+L['dr_normal'] = nil
+L['dr_advanced'] = nil
+L['dr_reverse'] = nil
+L['dr_challenge'] = nil
+L['dr_reverse_challenge'] = nil
+L['dr_storm_race'] = nil
+L['dr_bronze'] = '경주를 완주하고 ' .. ns.color.Bronze('동메달') .. '을 획득하세요.'
+L['dr_vendor_note'] = nil
+L['options_icons_dragonrace'] = '용 조련술 경주'
+L['options_icons_dragonrace_desc'] = '용 조련술 경주 위치를 표시합니다.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -146,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = '우클릭 메뉴에서 숨긴 지점 �
 
 L['options_rewards_settings'] = '보상'
 L['options_reward_types'] = '보상 종류 표시'
+L['options_manuscript_rewards'] = nil
+L['options_manuscript_rewards_desc'] = nil
 L['options_mount_rewards'] = '탈것 보상 표시'
 L['options_mount_rewards_desc'] = '탈것 보상을 툴팁에 표시하고 수집 진행상황을 추적합니다'
 L['options_pet_rewards'] = '애완동물 보상 표시'
@@ -158,6 +203,10 @@ L['options_transmog_rewards'] = '형상변환 보상 표시'
 L['options_transmog_rewards_desc'] = '형상변환 보상을 툴팁에 표시하고 수집 진행상황을 추적합니다'
 L['options_all_transmog_rewards'] = '획득 불가 형상변환 보상 표시'
 L['options_all_transmog_rewards_desc'] = '타직업으로만 수집가능한 형상변환 보상을 표시합니다'
+L['options_rep_rewards'] = nil
+L['options_rep_rewards_desc'] = nil
+L['options_claimed_rep_rewards'] = nil
+L['options_claimed_rep_rewards_desc'] = nil
 
 L['options_icons_misc_desc'] = '기타 위치 정보 표시'
 L['options_icons_misc'] = '기타'
@@ -167,6 +216,8 @@ L['options_icons_rares_desc'] = '희귀몹 위치 표시'
 L['options_icons_rares'] = '희귀몹'
 L['options_icons_treasures_desc'] = '숨겨진 보물 위치 표시'
 L['options_icons_treasures'] = '보물'
+L['options_icons_vendors_desc'] = nil
+L['options_icons_vendors'] = nil
 
 ------------------------------------ FOCUS ------------------------------------
 

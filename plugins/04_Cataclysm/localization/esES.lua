@@ -1,8 +1,7 @@
--- Spanish Translation by (EU) Krovikan-Minahonda
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
-
+-- Spanish Translation by (EU) Krovikan-Minahonda
 -------------------------------------------------------------------------------
 ----------------------------------- COMMON ------------------------------------
 -------------------------------------------------------------------------------
@@ -35,7 +34,7 @@ Para avanzar en la Fase 4b necesitarás 150x {currency:416} para poder hacer la 
 
 Conseguirás {currency:416} en las misiones diarias.
 ]]
-L['hyjal_phase5_note'] = 'Para avanzar en la Fase 5 necesitarás completar las misiones {quest:29215} y {quest:29182}.' -- review
+L['hyjal_phase5_note'] = 'Para avanzar en la Fase 5 necesitarás completar las misiones {quest:29215} y {quest:29182}.'
 
 L['portal_molten_front'] = 'Portal al Frente de Magma'
 L['portal_mount_hyjal'] = 'Portal al Monte Hyjal'
@@ -82,7 +81,7 @@ L['gang_war_note'] = 'Gana un duelo en el {location:Nidal de Sethria} durante la
 L['death_from_above_note'] = [[
 Bombardea a {title:Señor del Fuego} cuando estés haciendo la misión diaria {daily:29290}.
 
-{note: Sólo hay 3 {title:Señor del Fuego} activos al mismo tiempo. Para completar el logro más rápido no devuelvas la misión y regresa al día siguiente.}
+{note:Sólo hay 3 {title:Señor del Fuego} activos al mismo tiempo. Para completar el logro más rápido no devuelvas la misión y regresa al día siguiente.}
 ]]
 L['flamewaker_sentinel_note'] = 'Usa la {item:137663} para bajar su vida y así te lance {spell:98369}. Esquiva todos los disparos y mátalo.'
 L['flamewaker_shaman_note'] = 'Usa la {item:137663} para bajar su vida. Espera a que se mate él mismo.'

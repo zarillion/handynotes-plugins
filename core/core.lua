@@ -49,7 +49,7 @@ local function InitializeDropdownMenu(level, mapID, coord)
             end
         }, level)
 
-        if select(2, IsAddOnLoaded('TomTom')) then
+        if select(2, C_AddOns.IsAddOnLoaded('TomTom')) then
             -- Add spacer before TomTom section
             LibDD:UIDropDownMenu_AddButton(spacer, level)
             -- Add waypoint to TomoTom for single node
@@ -187,13 +187,16 @@ function Addon:OnInitialize()
         if not ns.expansion then
             error('Expansion not set: ' .. ADDON_NAME)
         end
-        local expansion_name = EJ_GetTierInfo(ns.expansion)
+        local expansion_name = _G['EXPANSION_NAME' .. (ns.expansion - 1)]
         ns.plugin_name = 'HandyNotes: ' .. expansion_name
         ns.options.name = ('%02d - '):format(ns.expansion) .. expansion_name
     end)
 
     -- Add global groups to settings panel
     ns.CreateGlobalGroupOptions()
+
+    -- Update calendar events
+    ns.UpdateActiveCalendarEvents()
 
     -- Add quick-toggle menu button to top-right corner of world map
     local template = ADDON_NAME .. 'WorldMapOptionsButtonTemplate'

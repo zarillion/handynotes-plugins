@@ -10,30 +10,23 @@ jobs:
     name: Lint & Test
     runs-on: ubuntu-latest
     env:
-      lua-version: 5.3
+      lua-version: 5.1
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      - name: Install lua
-        uses: leafo/gh-actions-lua@v8.0.0
-        with:
-          luaVersion: ${{ env.lua-version }}
-
-      - name: Install luarocks v3
+      - name: Install lua ${{ env.lua-version }} & luarocks
         run: |
-          wget https://luarocks.org/releases/luarocks-3.7.0.tar.gz
-          tar zxpf luarocks-3.7.0.tar.gz
-          cd luarocks-3.7.0
-          ./configure && make && sudo make install
+          sudo apt update
+          sudo apt install lua${{ env.lua-version }} luarocks
 
       # The lua-format library takes a while to compile, so we cache it
       # Update the YYYYMMDD component of the cache key if you want to force an update
       - name: Cache/restore ~/.luarocks directory
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: ~/.luarocks
-          key: ${{ runner.os }}-cache-lua-rocks-${{ env.lua-version }}-20220515
+          key: ${{ runner.os }}-cache-lua-rocks-${{ env.lua-version }}-20240606
 
       - name: Install luacheck
         run: |

@@ -135,6 +135,7 @@ L['abandoned_crate_of_goods_note'] = '包含约103金币。'
 
 L['cache_of_pilfered_goods'] = '一箱被偷的货物'
 L['virmen_treasure_cache'] = '兔妖宝箱'
+L['mysterious_fruit_pile'] = '神秘水果盆'
 
 -------------------------------------------------------------------------------
 ------------------------------- Isle of Thunder -------------------------------

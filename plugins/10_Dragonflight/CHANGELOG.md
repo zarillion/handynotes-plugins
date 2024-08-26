@@ -1,3 +1,121 @@
+# v69
+
+* If you enjoyed our Dragonflight plugin, grab our [War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within) plugin!
+
+# v46
+
+* Added *many* missing dragon riding appearances and transmogs.
+* Added a new category of nodes for vendors!
+* Added new night-elf transmog items in Amirdrassil.
+* Added new Pepe appearances.
+* Added rewards for "The Big Dig".
+* Updated Dragonrace times in Zaralek Cavern.
+* Updated Keen-eyed Cian route. His rare node is now on his spawn point.
+* Updated Moonkin hatchling coords.
+* Updated TOC for 10.2.5
+
+# v45
+
+* Added a new icon for zone-wide drops.
+* Removed some less useful drop information.
+* Updated rare loot drops and misc rewards in the emerald dream.
+* Updated the superbloom reward tooltips.
+
+# v44
+
+* Added portal to Emerald Dream.
+* Added the Pale Slumbertooth pet.
+* Added three Superbloom achievements.
+* Fixed the quest id for the Petrified Hope treasure.
+* Updated rares, treasures and rewards.
+
+# v43
+
+* Added content for Guardians of the Dream.
+  * Added new rares, treasures, battle pets, dragon glyphs and races.
+  * Added Dreamfruit locations.
+  * Added druid glyph locations.
+  * Added Emerald Bounty locations.
+  * Added hatchling locations for Friends in Feathers.
+  * Added Moonblessed Claw locations.
+  * Added new profession treasures.
+  * Added Somnut locations.
+  * Added the Ochre Dreamtalon mount.
+  * Added the seedbloom and dream energy vendors.
+* Added challenge and reverse challenge races.
+* Added Eastern Kingdoms cup races.
+* Added many missing dragonrace timings.
+* Added missing elusive creature data.
+* Added numerous missing rares and rewards.
+* Added requirements to Fyrakk Assaults.
+* Added Rostrum of Transformation nodes.
+* Added storm race rewards.
+* Added tooltip rendering enhancements.
+* Added Warcraft Rumble toys.
+* Update TOC for 10.2
+
+# v42
+
+* Added Dreamsurge rewards.
+* Added Elusive Skinning Bait creatures.
+* Added pet battles for the Battle on the Dragon Isles II achievement.
+* Added rewards from the Fyrakk Assault.
+* Added Secrets of Azeroth nodes across the world for all 15 secrets!
+* Added some prep-work for future Dragonracing cups.
+* Added The Gift of Cheese achievement.
+* Added the Many Boxes, Many Rockses achievement.
+* Added the Revival Catalyst.
+* Fixed a conflict with RareScanner tooltips.
+* Removed some spawn info that wasn't always correct.
+* Updated some Kalimdor Cup values.
+
+# v41
+
+* Fixed an incorrect ID for Windborne Velocidrake: Exposed Finned Back.
+* Added a change to prevent WorldMapPinMixin taint.
+* Added Tripletath the Lost rare in the Forbidden Reach.
+* Added Zal'kir the Chosen rare in Thaldraszus.
+* Added Smelly Treasure Chest locations in Thaldraszus.
+* Dragonriding race updates.
+
+# v40
+
+* Added "Many Boxes, Many Rockses" achievement.
+* Added "Whelp, There It Is" achievement.
+* Added Kalimdor dragon races.
+* Added more dirt and scout pack locations.
+* Update TOC for 10.1.5
+
+# v39
+
+* Added a status label for Zaralek zone events.
+* Added ferry information.
+* Added more Disturbed Dirt and Scout Pack locations.
+* Added Soupervisor achievement info.
+* Added the Mote of Nasz'uro pet.
+* Fixed a spawn-interval related error.
+* Removed Primal Chaos from reward listings.
+* Updates for multiple rares.
+
+# v38
+
+* Added Zaralek zone event locations.
+* Fixed a Lua error in the KR and TW regions.
+* Fixed Skornak location and rewards.
+
+# v37
+
+* Added battle pet trainer locations.
+* Added missing quest ids for profession treasures.
+* Added more Ritual Offering and Smelly Trash Pile locations.
+* Added POIs for the Old Trunk treasure.
+* Added reward info to the rare vignettes when they are active.
+* Added the Living Mud Mask, Bugbiter Tortoise and Lord Stantley pets.
+* Fixed a bug that preventing the Siege on Dragonbane Keep icon from appearing.
+* Moved Ritual Offerings to their own display group.
+* Removed bugged indicator from Fealty's Reward.
+* Updated rewards, notes and locations for multiple rares and treasures.
+
 # v36
 
 * Added rares, treasures, achievements and misc NPCs and mounts for Zaralek Cavern!

@@ -22,3 +22,5 @@ L['higher_learning_6'] = 'Up on the crate in the corner.'
 L['higher_learning_7'] = 'Upstairs in the bookshelf.'
 L['higher_learning_8'] = 'Downstairs in the bookshelf.'
 L['higher_learning_vargoth'] = 'After reading all 8 books, you will receive {item:43824} by mail to teleport to {location:Archmage Vargoth\'s Retreat}.\nTalk to {npc:90430} to get the pet.'
+
+L['coinmaster_note'] = 'Fish up all coins from the Dalaran fountain.'

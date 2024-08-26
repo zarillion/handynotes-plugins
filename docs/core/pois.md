@@ -21,7 +21,7 @@ POI({color = 'Red', points = {41176055, 41526214, 41995819, 43565838}})
 ```
 
 A POI can have just a table of coordinates, those will be marked by a dot. The color is by default blue and can be changed by the user through the settings.
-POIs can also have folloing properties:
+POIs can also have following properties:
 
 ### Required Properties <!-- omit from toc -->
 

@@ -12,6 +12,7 @@ L['leather'] = 'Cuir'
 L['mail'] = 'Mailles'
 L['plate'] = 'Plaques'
 L['cosmetic'] = 'Cosmétique'
+L['tabard'] = 'Tabard'
 
 L['1h_mace'] = '1m Masse'
 L['1h_sword'] = '1m Epée'
@@ -43,33 +44,23 @@ L['trinket'] = 'Bijou'
 L['activation_unknown'] = 'Activation inconnue'
 L['requirement_not_found'] = 'Emplacement requis inconnu'
 L['multiple_spawns'] = 'Peut apparaître à plusieurs endroits.'
-L['shared_drops'] = 'Drop partagé'
+L['shared_drops'] = 'Butins partagés'
+L['zone_drops_label'] = 'Butins mondiaux'
+L['zone_drops_note'] = 'Les objets listés ci-dessous peuvent être trouvés sur plusieurs monstres de cette zone.'
 
-L['Requires'] = 'Requiert'
+L['requires'] = 'Requiert'
 L['ranked_research'] = '%s (Rang %d/%d)'
 
 L['focus'] = 'Focus'
 L['retrieving'] = 'Récupérer le lien de l\'article...'
-L['in_cave'] = 'Dans une grotte.'
-L['in_small_cave'] = 'Dans une petite grotte.'
-L['in_water_cave'] = 'Dans une grotte sous-marine.'
-L['in_waterfall_cave'] = 'Dans une grotte derrière une cascade.'
-L['in_water'] = 'Dans l\'eau.'
-L['hourly'] = 'Une fois par heure' -- Need review
-L['daily'] = 'Quotidiennement'
-L['weekly'] = 'Hebdomadaire'
+
 L['normal'] = 'Normal'
 L['hard'] = 'Difficile'
-L['heirloom'] = 'Héritage'
-L['mount'] = 'Monture'
-L['pet'] = 'Animal de Compagnie'
-L['recipe'] = 'Recette'
-L['spell'] = 'Sort'
-L['title'] = 'Titre'
-L['toy'] = 'Jouet'
-L['rep'] = 'Rep'
+
 L['completed'] = 'Complété'
 L['incomplete'] = 'Incomplet'
+L['claimed'] = 'Réclamé'
+L['unclaimed'] = 'Non réclamé'
 L['known'] = 'Connu'
 L['missing'] = 'Inconnu'
 L['unobtainable'] = 'Introuvable'
@@ -77,14 +68,66 @@ L['unlearnable'] = 'Non Apprenable'
 L['defeated'] = 'Vaincu'
 L['undefeated'] = 'Invaincu'
 L['elite'] = 'Élite'
+L['quest'] = 'Quête'
+L['quest_repeatable'] = 'Quête répétable'
+L['achievement'] = 'Haut-Fait'
 
+---------------------------------- LOCATION -----------------------------------
+L['in_cave'] = 'Dans une grotte.'
+L['in_small_cave'] = 'Dans une petite grotte.'
+L['in_water_cave'] = 'Dans une grotte sous-marine.'
+L['in_waterfall_cave'] = 'Dans une grotte derrière une cascade.'
+L['in_water'] = 'Dans l\'eau.'
+L['in_building'] = 'A l\'intérieur du bâtiment.'
+
+------------------------------------ TIME -------------------------------------
+L['hourly'] = 'Une fois par heure'
+L['daily'] = 'Quotidiennement'
+L['weekly'] = 'Hebdomadaire'
+
+L['time_format_12hrs'] = '%I:%M %p - %d/%m heure locale'
+L['time_format_24hrs'] = '%H:%M - %d/%m heure locale'
+
+----------------------------------- REWARDS -----------------------------------
+L['heirloom'] = 'Héritage'
+L['item'] = 'Objet'
+L['mount'] = 'Monture'
+L['pet'] = 'Animal de Compagnie'
+L['recipe'] = 'Recette'
+L['spell'] = 'Sort'
+L['title'] = 'Titre'
+L['toy'] = 'Jouet'
+L['currency'] = 'Monnaie'
+L['rep'] = 'Rep'
+
+---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = 'Sujet'
 L['follower_type_champion'] = 'Champion'
 L['follower_type_companion'] = 'Compagnon'
 
+--------------------------------- REPUTATION ----------------------------------
 L['rep_honored'] = 'Honoré'
 L['rep_revered'] = 'Révéré'
 L['rep_exalted'] = 'Exalté'
+
+-------------------------------------------------------------------------------
+--------------------------------- DRAGONRACES ---------------------------------
+-------------------------------------------------------------------------------
+
+L['dr_your_best_time'] = 'Votre meilleur temps :'
+L['dr_your_target_time'] = 'Temps imparti :'
+L['dr_best_time'] = ' - %s: %.3fs'
+L['dr_target_time'] = ' - %s: %ss / %ss'
+L['dr_normal'] = 'Normal'
+L['dr_advanced'] = 'Avancé'
+L['dr_reverse'] = 'Inversé'
+L['dr_challenge'] = 'Défi'
+L['dr_reverse_challenge'] = 'Défi inversé'
+L['dr_storm_race'] = 'Course des tempêtes'
+L['dr_bronze'] = 'Terminez la course pour obtenir ' .. ns.color.Bronze('Bronze') .. '.'
+L['dr_vendor_note'] = 'Échangez vos {currency:2588} contre des manuscrits guette-drake et des objets de transmogrification.'
+L['options_icons_dragonrace'] = 'Courses du Vol à dos de dragon'
+L['options_icons_dragonrace_desc'] = 'Afficher les emplacements de toutes les courses dans la zone.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -146,6 +189,8 @@ L['options_restore_hidden_nodes_desc'] = 'Restaure tous les nœuds cachés en ut
 
 L['options_rewards_settings'] = 'Récompenses'
 L['options_reward_types'] = 'Afficher les types de récompenses'
+L['options_manuscript_rewards'] = 'Montrer les Manuscrits guette-drake en récompenses'
+L['options_manuscript_rewards_desc'] = 'Afficher les Manuscrits guette-drake en récompenses dans les infobulles et suivre l\'état de leur acquisition.'
 L['options_mount_rewards'] = 'Afficher les montures en récompense'
 L['options_mount_rewards_desc'] = 'Afficher les montures en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_pet_rewards'] = 'Afficher les familiers en récompense'
@@ -158,6 +203,10 @@ L['options_transmog_rewards'] = 'Afficher les transmos en récompense'
 L['options_transmog_rewards_desc'] = 'Afficher les transmos en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_all_transmog_rewards'] = 'Afficher les transmos plus obtenables en récompense'
 L['options_all_transmog_rewards_desc'] = 'Afficher les transmos en récompenses pouvant être obtenus par d\'autres classes.'
+L['options_rep_rewards'] = nil
+L['options_rep_rewards_desc'] = nil
+L['options_claimed_rep_rewards'] = nil
+L['options_claimed_rep_rewards_desc'] = nil
 
 L['options_icons_misc_desc'] = 'Afficher les emplacements des nœuds divers'
 L['options_icons_misc'] = 'Divers'
@@ -167,6 +216,8 @@ L['options_icons_rares_desc'] = 'Afficher les emplacements des PNJ rares.'
 L['options_icons_rares'] = 'Rares'
 L['options_icons_treasures_desc'] = 'Afficher les emplacements des trésors cachés'
 L['options_icons_treasures'] = 'Trésors'
+L['options_icons_vendors_desc'] = 'Afficher les emplacements des vendeurs.'
+L['options_icons_vendors'] = 'Vendeurs'
 
 ------------------------------------ FOCUS ------------------------------------
 

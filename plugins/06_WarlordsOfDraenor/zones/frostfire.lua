@@ -692,7 +692,7 @@ map.nodes[50161868] = Treasure({
 map.nodes[36253226] = Treasure({
     quest = 34649,
     label = L['smoldering_true_iron_deposit_treasure'],
-    note = L['Requires'] .. ' {spell:2575}',
+    note = L['requires'] .. ' {spell:2575}',
     rewards = {
         Achievement({
             id = 9728,

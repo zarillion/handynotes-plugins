@@ -243,6 +243,12 @@ map.nodes[92003900] = Treasure({
     rewards = {Item({item = 87524})}
 }) -- Boat-Building Instructions
 
+map.nodes[52076376] = Treasure({
+    quest = 37246,
+    label = L['mysterious_fruit_pile'],
+    rewards = {Item({item = 110505})} -- Mesmerizing Fruit Hat
+}) -- Mysterious Fruit Pile
+
 -------------------------------------------------------------------------------
 --------------------------------- LOREWALKER ----------------------------------
 -------------------------------------------------------------------------------

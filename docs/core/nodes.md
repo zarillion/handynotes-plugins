@@ -120,11 +120,11 @@ map.nodes[58085381] = ns.node.Collectible({
     scale = 1.3
     note = L['ponzo_note'],
     rewards = {
-        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, 'x55'),
-        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, 'x55'),
-        DC.SetNote(DC.WindingSlitherdrake.CurledNose, 'x55'),
-        Pet({item = 205120, id = 3537, note = 'x85'}), -- Thimblerig
-        Mount({item = 205209, id = 1736, note = 'x170'}) -- Boulder Hauler
+        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, '55x'),
+        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, '55x'),
+        DC.SetNote(DC.WindingSlitherdrake.CurledNose, '55x'),
+        Pet({item = 205120, id = 3537, note = '85x'}), -- Thimblerig
+        Mount({item = 205209, id = 1736, note = '170x'}) -- Boulder Hauler
     }
 }) -- Ponzo <Barterer Extraordinaire>
 ```
@@ -138,7 +138,7 @@ map.nodes[58085381] = ns.node.Collectible({
 - `item` (int)
   - The `itemID` for the colectible. This will be used for the `label` property.
 
-Please note that the label for `ns.node.Collectible` can also come from the critiera for the first listed [achievement](rewards.html#achievement) in `rewards`.
+Please note that the label for `ns.node.Collectible` can also come from the criteria for the first listed [achievement](rewards.html#achievement) in `rewards`.
 
 ---
 
@@ -387,4 +387,4 @@ It is highly recommended that you add the `quest` property to rares and use the 
 - `quest` (int)
   - The `questID` used to track a the collected treasure.
 
-Please note that by default the label for `ns.node.Treasure` comes from the critiera for the first listed [achievement](rewards.html#achievement) in `rewards`.
+Please note that by default the label for `ns.node.Treasure` comes from the criteria for the first listed [achievement](rewards.html#achievement) in `rewards`.

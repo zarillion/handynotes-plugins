@@ -344,7 +344,7 @@ map.nodes[45866629] = Treasure({
         Achievement({
             id = 9728,
             criteria = {id = 1, qty = true, suffix = L['treasures_discovered']}
-        }), Transmog({item = 117981, slot = L['offhand']})
+        }), Transmog({item = 117981, slot = L['shield']})
     }
 }) -- Fragment of Oshu'gun
 
@@ -1099,7 +1099,7 @@ map.nodes[37233899] = SteamwheedleRare({
 ----------------------------- BROKE BACK PRECIPICE ----------------------------
 -------------------------------------------------------------------------------
 
-local BrokeBackPrecipiceRare = Class('BrokeBackPrecipiceRare', Collectible {
+local BrokeBackPrecipiceRare = Class('BrokeBackPrecipiceRare', Collectible, {
     icon = 'peg_rd',
     scale = 1.5,
     group = ns.groups.BROKE_BACK_PRECIPICE
