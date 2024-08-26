@@ -62,6 +62,7 @@ L['incomplete'] = 'Incompleto'
 L['known'] = 'Conocido'
 L['missing'] = 'Desconocido'
 L['unobtainable'] = 'No se puede obtener'
+L['unusable'] = nil
 L['unlearnable'] = 'No se puede aprender'
 L['defeated'] = 'Derrotado'
 L['undefeated'] = 'Sin derrotar'

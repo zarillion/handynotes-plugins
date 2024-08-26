@@ -632,7 +632,7 @@ function Transmog:GetStatus()
         if not self:IsLearnable() then
             status = Orange(L['unlearnable'])
         elseif not self:IsObtainable() then
-            status = Orange(L['unobtainable'])
+            status = Orange(L['unusable'])
         end
     end
 

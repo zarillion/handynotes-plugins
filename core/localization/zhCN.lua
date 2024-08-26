@@ -62,6 +62,7 @@ L['incomplete'] = '未完成'
 L['known'] = '已获得'
 L['missing'] = '未获得'
 L['unobtainable'] = '无法获得'
+L['unusable'] = nil
 L['unlearnable'] = '无法解锁'
 L['defeated'] = '已击杀'
 L['undefeated'] = '未击杀'
