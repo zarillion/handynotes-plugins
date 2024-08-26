@@ -264,7 +264,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
 
             -- Only show manuscripts for the dragonflight plugin. A bit hacky, maybe
             -- we can find a better way to do this in the future.
-            if ADDON_NAME == "HandyNotes_Dragonflight" then
+            if ADDON_NAME == 'HandyNotes_Dragonflight' then
                 LibDD:UIDropDownMenu_AddButton({
                     text = L['options_manuscript_rewards'],
                     isNotRadio = true,

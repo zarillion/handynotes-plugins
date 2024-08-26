@@ -676,7 +676,6 @@ function Reputation:IsObtainable()
     else
         return not C_QuestLog.IsQuestFlaggedCompleted(self.quest)
     end
-    return true
 end
 
 function Reputation:IsObtained()
