@@ -17,6 +17,12 @@ ns.expansion = 11
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
+ns.groups.DELVE_REWARDS = Group('delve_rewards', 4203076, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    HasEnabledNodes = function() return true end
+})
+
 ns.groups.SKYRIDING_GLYPH = Group('skyriding_glyph', 4728198, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
