@@ -15,6 +15,7 @@
 - [Title](#title)
 - [Toy](#toy)
 - [Transmog](#transmog)
+- [Reputation](#reputation)
 
 All rewards are accessible via `ns.reward`
 
@@ -284,3 +285,22 @@ Transmog({item = item_id, slot = L[slot_locale]})
 * `slot` (string) ([*Locale*](localizations.html))
   * Should always be set to mark the Item Type (leather, 1h_sword, cloak, cosmetic, etc.)
   * Important for cosmetic cloaks.
+
+---
+
+## Reputation
+
+### Example:
+```lua
+Reputation({id = 2590, gain = 150, quest = 84036, note = 'Example Note'})
+```
+
+### Properties
+* `id` (int) (*required*)
+  * The [FactionID](https://www.wowhead.com/factions) of the faction the reputation is for, The FactionID is in the url for each factions page.
+* `gain` (int) (*required*)
+  * Amount of Reputation gained.
+* `quest` (int)
+  *  If a quest id is added the `GetStatus()` function checks if the player has completed the quest and sets `status` to `Green(L['claimed'])` or `Red(L['unclaimed'])`
+* `note` (string)
+  * Optional note at the end of the reward item.
