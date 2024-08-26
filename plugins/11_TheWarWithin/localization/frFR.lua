@@ -32,6 +32,8 @@ L['turtles_thanks_1_note'] = 'Apportez 5x {item:220143} (à pêcher dans les {ob
 L['turtles_thanks_2_note'] = 'Apportez 1x {item:222533} (à pêcher dans les {object:Bassin scintillant}, {object:Bassin de pourriture purulente}, {object:Éclaboussure d\'ichor imprégné} ou à acheter à l\'hôtel des ventes).'
 L['turtles_thanks_3_note'] = 'Rencontrez la {npc:223338} à {location:Dornogal} et parlez-lui pour faire apparaître le trésor.'
 
+L['cendvin_note'] = nil
+
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:40606}.'
 

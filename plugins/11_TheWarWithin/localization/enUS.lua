@@ -31,6 +31,8 @@ L['turtles_thanks_1_note'] = 'Hand in 5x {item:220143} (can be fished from {obje
 L['turtles_thanks_2_note'] = 'Hand in 1x {item:222533} (can be fished from {object:Glimmerpool}, {object:Festering Rotpool}, {object:Infused Ichor Spill} pool or bought from the auction house).'
 L['turtles_thanks_3_note'] = 'Meet the {npc:223338} in {location:Dornogal} and speak with her to reveal the treasure.'
 
+L['cendvin_note'] = 'Farm 900x {item:225557} in {location:Cinderwold} from elite mobs to buy the {item:223153} mount from {npc:226205}.'
+
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Display location for {achievement:40606} achievement.'
 

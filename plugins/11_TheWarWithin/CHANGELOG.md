@@ -1,10 +1,11 @@
 # v75
 
 * Added a note and a timer for Beledar's Spawn.
+* Added the Soaring Meaderbee mount in Isle of Dorn.
 
 # v74
 
-* Updated Rare Rewards in Hallowfall and Azj-Kahet
+* Updated Rare Rewards in Hallowfall and Azj-Kahet.
 
 # v61
 
