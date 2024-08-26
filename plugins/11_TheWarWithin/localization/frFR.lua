@@ -191,6 +191,8 @@ L['options_icons_beacon_of_hope_desc'] = 'Afficher les emplacements des flammecl
 
 L['beacon_of_hope_note'] = 'Donnez des {item:206350} pour allumer les flammeclés inférieures et achever les quêtes suivantes.'
 
+L['parasidious_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

@@ -120,10 +120,7 @@ L['priory_satchel_location'] = 'Loot the {object:Windswept Satchel} hanging from
 L['smugglers_treasure_note'] = 'Loot the required {item:225335} from the ({dot:Blue}) {npc:226025} below the cliff.'
 L['smugglers_treasure_location'] = 'High on the cliff between several rocks.'
 L['coral_fused_clam'] = 'Coral-Fused Clam'
-L['coral_fused_clam_note'] = [[Loot {item:218354} from the {object:Clammer's Kit} to open the Clam.
-
-{note:Requires level 80 to pick up.}
-]] -- from wowhead, needs to be reviewed
+L['coral_fused_clam_note'] = 'Loot {item:218354} from the {object:Clammer\'s Kit} to open the Clam.'
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
 L['options_icons_biblo_archivist_desc'] = 'Display book locations for {achievement:40622} achievement.'
@@ -172,9 +169,7 @@ L['croakit_note'] = [[To attack {npc:214757} you must first fish 10x {item:21147
 
 Once you have all the fish go to {npc:214757} and toss them to him.]] -- from wowhead, needs to be confirmed.
 L['deathtide_note'] = [[To summon him you must use {item:220123} on the {object:Ominous Altar}.
-You need to combine {item:220122} {dot:Blue} and {item:220124} {dot:Green} to get {item:220123}.
-
-{note:You need to be level 80 to pick them up.} ]] -- from wowhead, needs to be reviewed
+You need to combine {item:220122} {dot:Blue} and {item:220124} {dot:Green} to get {item:220123}.]]
 L['murkshade_note'] = 'Interact with the {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
@@ -189,6 +184,8 @@ L['options_icons_beacon_of_hope'] = '{achievement:40308}'
 L['options_icons_beacon_of_hope_desc'] = 'Display lesser keyflame locations for the {achievement:40308} achievement.'
 
 L['beacon_of_hope_note'] = 'Contribute {item:206350} to light lesser keyflames and complete the following quests.'
+
+L['parasidious_note'] = 'To spawn this rare you\'ll need to buy {item:206670} from {npc:206533} (activate the lesser keyflame to make him appear) then go to the Duskrise Acreage and pull the {npc:206870}, as you pull them a vine will shoot out of you to the Disturbed Dirt and it will grow/change until the rare eventually spawns.' -- from wowhead, needs to be reviewed
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------

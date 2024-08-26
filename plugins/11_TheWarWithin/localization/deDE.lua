@@ -183,6 +183,8 @@ L['options_icons_beacon_of_hope_desc'] = 'Zeigt die Positionen der kleinen Schl�
 
 L['beacon_of_hope_note'] = 'Steuert {item:206350} bei, um kleinere Schlüsselflammen zu entzünden und die folgenden Quests abzuschließen. '
 
+L['parasidious_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

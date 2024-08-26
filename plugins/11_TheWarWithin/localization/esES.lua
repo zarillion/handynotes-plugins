@@ -190,6 +190,8 @@ L['options_icons_beacon_of_hope_desc'] = 'Muestra dónde están las llaves ardie
 
 L['beacon_of_hope_note'] = 'Contribuye con {item:206350} para encender las llaves ardientes inferiores y completar las misiones siguientes.'
 
+L['parasidious_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
