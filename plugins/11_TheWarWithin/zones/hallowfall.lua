@@ -1156,6 +1156,7 @@ map.nodes[44947610] = DisturbedEarth()
 local BeaconOfHope = Class('beacon_of_hope', Collectible, {
     icon = 135922,
     group = ns.groups.BEACON_OF_HOPE,
+    requires = ns.requirement.Item(206350, 3), -- Radiant Remnant
     note = L['beacon_of_hope_note']
 })
 
