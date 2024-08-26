@@ -508,6 +508,8 @@ map.nodes[30233875] = Treasure({
 
 map.nodes[45944513] = Treasure({
     quest = 82005,
+    location = L['in_water'],
+    note = L['sky_captains_sunken_cache_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69700}),
         Reputation({id = 2570, gain = 150, quest = 82005}), Toy({item = 224554})

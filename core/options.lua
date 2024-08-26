@@ -33,7 +33,7 @@ ns.optionDefaults = {
         show_transmog_rewards = true,
         show_all_transmog_rewards = false,
         show_rep_rewards = true,
-        show_claimed_rep = true,
+        show_claimed_rep_rewards = true,
 
         -- development
         development = false,
@@ -201,9 +201,9 @@ ns.options = {
                 },
                 show_claimed_rep = {
                     type = 'toggle',
-                    arg = 'show_claimed_rep',
-                    name = L['options_rep_show_claimed'],
-                    desc = L['options_rep_show_claimed_desc'],
+                    arg = 'show_claimed_rep_rewards',
+                    name = L['options_claimed_rep_rewards'],
+                    desc = L['options_claimed_rep_rewards_desc'],
                     order = 14,
                     width = 'full'
                 },
