@@ -166,7 +166,7 @@ L['furball_location'] = 'À l\'intérieur du bâtiment en ruine.'
 L['dander_location'] = 'À l\'extérieur.'
 L['gobbo_location'] = 'À l\'intérieur du bâtiment, sur le lit.'
 
-L['beledars_spawn_note'] = nil
+L['beledars_spawn_note'] = 'Ce rare apparaît à un de ces endroits à intervalle fixe.\n\nProchaine apparition dans:\n{note:%s (%s)}'
 L['croakit_note'] = [[Pour attaquer {npc:214757}, vous devez d'abord pêcher 10x {item:211474} dans l'eau à proximité.
 
 Une fois que vous avez tous les poissons, allez vers {npc:214757} et lancez-les-lui.]]
