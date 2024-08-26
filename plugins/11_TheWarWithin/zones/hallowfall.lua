@@ -126,7 +126,7 @@ map.nodes[44744241] = Rare({
     note = L['deathtide_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69717}),
-        Transmog({item = 225997, type = L['cosmetic']}) -- Earthen Adventurer's Spaulders
+        Transmog({item = 225997}) -- Earthen Adventurer's Spaulders
     },
     pois = {
         POI({48001668, color = 'Green'}), -- Jar of Mucus
