@@ -663,25 +663,22 @@ function Reputation:IsEnabled()
 end
 
 function Reputation:GetStatus()
-    if self.quest then
-        return self:IsObtainable() and Red(L['unclaimed']) or
-                   Green(L['claimed'])
-    end
+    if not self.quest then return end
+    return self:IsObtainable() and Red(L['unclaimed']) or Green(L['claimed'])
 end
 
 function Reputation:IsObtainable()
-    if self.quest then
-        if C_Reputation.IsAccountWideReputation(self.id) then
-            return not C_QuestLog.IsQuestFlaggedCompletedOnAccount(self.quest)
-        else
-            return not C_QuestLog.IsQuestFlaggedCompleted(self.quest)
-        end
+    if not self.quest then return true end
+    if C_Reputation.IsAccountWideReputation(self.id) then
+        return not C_QuestLog.IsQuestFlaggedCompletedOnAccount(self.quest)
+    else
+        return not C_QuestLog.IsQuestFlaggedCompleted(self.quest)
     end
     return true
 end
 
 function Reputation:IsObtained()
-    if self.quest then if self:IsObtainable() then return false end end
+    if self.quest and self:IsObtainable() then return false end
     return true
 end
 
