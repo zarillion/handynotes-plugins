@@ -3,6 +3,7 @@
 * Added the achievement [No Harm Ever Came From Reading A Book](https://www.wowhead.com/achievement=40632) (Azj-Kahet).
 * Added the achievement [The Unseeming](https://www.wowhead.com/achievement=40633) (Azj-Kahet).
 * Added the achievement [You Can't Hang With Us](https://www.wowhead.com/achievement=40634) (Azj-Kahet).
+* Added the achievement [To All the Slimes I Love](https://www.wowhead.com/achievement=40475) (The Ringing Deeps).
 * Updated Rare Rewards in Isle of Dorn and Ringing Deeps.
 * Fix location for Leatherworking profession treasure - Earthen Lacing Tools
 

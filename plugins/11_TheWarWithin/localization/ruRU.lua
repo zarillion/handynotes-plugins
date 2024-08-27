@@ -96,6 +96,10 @@ L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
 L['options_icons_gobblin_with_glublurp_desc'] = nil
 L['gobblin_with_glublurp_note'] = nil
 
+L['critter_love_note'] = nil
+L['options_icons_critter_love'] = nil
+L['options_icons_critter_love_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

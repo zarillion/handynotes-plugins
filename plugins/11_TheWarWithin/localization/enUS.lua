@@ -99,6 +99,10 @@ L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
 L['options_icons_gobblin_with_glublurp_desc'] = 'Display locations for {achievement:40614} achievement.'
 L['gobblin_with_glublurp_note'] = 'Click on a {dot:Red}{object:Glimmering Crystal} to gain {spell:456739}. Catch a {npc:227138} flying in the ' .. ns.color.Orange('Orange Circle') .. ' and bring it to {npc:227132}.\n\n(Steady Flying is recommended to get this).'
 
+L['critter_love_note'] = 'You must use the emote {emote:/love} on critters, not battle pets.'
+L['options_icons_critter_love'] = '{achievement:40475}'
+L['options_icons_critter_love_desc'] = 'Display critter locations for {achievement:40475} achievement.'
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

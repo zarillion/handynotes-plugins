@@ -748,3 +748,41 @@ map.nodes[66733837] = DisturbedEarth()
 map.nodes[67753931] = DisturbedEarth()
 map.nodes[67794830] = DisturbedEarth()
 map.nodes[75624339] = DisturbedEarth() -- ?
+
+-------------------------------------------------------------------------------
+-------------------- ACHIEVEMENT: To All the Slimes I Love --------------------
+-------------------------------------------------------------------------------
+
+local CritterLove = Class('CritterLove', Collectible, {
+    group = ns.groups.CRITTER_LOVE,
+    icon = 3459801,
+    note = L['critter_love_note']
+})
+
+function CritterLove:Initialize(id)
+    Collectible.Initialize(self)
+    self.criteria = id
+end
+
+function CritterLove.getters:rewards()
+    return {Achievement({id = 40475, criteria = self.criteria})}
+end
+
+map.nodes[57486764] = CritterLove(68670) -- Spring Mole
+map.nodes[51281543] = CritterLove(68673) -- Snake
+map.nodes[64533238] = CritterLove(68674) -- Lightdarter
+map.nodes[52855473] = CritterLove(68676) -- Tiny Sporbit
+map.nodes[42011638] = CritterLove(68677) -- Dustcrawler Beetle
+map.nodes[60319221] = CritterLove(68675) -- Mass of Worms
+map.nodes[58796861] = CritterLove(68731) -- Grottoscale Hatchling
+map.nodes[54672992] = CritterLove(68729) -- Crackcreeper
+map.nodes[48501257] = CritterLove(68730) -- Lava Slug
+map.nodes[45781352] = CritterLove(68732) -- Earthenwork Stoneskitterer
+map.nodes[72853965] = CritterLove(68733) -- Cavern Skiplet
+map.nodes[57306574] = CritterLove(68734) -- Moss Sludglet
+map.nodes[42011638] = CritterLove(68747) -- Cavern Mote
+map.nodes[61963027] = CritterLove(68748) -- Stumblegrub
+map.nodes[54413473] = CritterLove(69805) -- Darkgrotto Hopper
+map.nodes[67013878] = CritterLove(68749) -- Oozeling
+map.nodes[59404592] = CritterLove(68750) -- Pebble Scarab
+map.nodes[42421437] = CritterLove(68751) -- Rock Snail

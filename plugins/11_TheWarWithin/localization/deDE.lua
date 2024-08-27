@@ -100,6 +100,10 @@ L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
 L['options_icons_gobblin_with_glublurp_desc'] = 'Zeigt die Position für den Erfolg {achievement:40614} an.'
 L['gobblin_with_glublurp_note'] = 'Klicke einen {object:Funkelnder Kristall} ({dot:Red}) an, um den Stärkungszauber {spell:456739} zu erhalten. Fange damit einen {npc:227138} bei dem kleinen Teich (' .. ns.color.Orange('Orangener Kreis') .. ') und bringe diesen zu {npc:227132}.\n\n(statisches Fliegen wird empfohlen, um dies zu erreichen).'
 
+L['critter_love_note'] = 'Du musst das Emote {emote:/liebe} auf Kleintiere anwenden (KEINE Kampfhaustiere).'
+L['options_icons_critter_love'] = '{achievement:40475}'
+L['options_icons_critter_love_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:40475} an.'
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
