@@ -262,7 +262,7 @@ map.nodes[30905239] = Rare({
         Transmog({item = 226114, type = L['polearm'], note = '{npc:222378}'}), -- Windslicer's Lance
         Transmog({item = 226112, type = L['1h_sword'], note = '{npc:222380}'}), -- Rotfist Flesh Carver
         Transmog({item = 226115, type = L['2h_axe'], note = '{npc:222380}'}), -- Contaminating Cleaver
-        Transmog({item = 226116, type = L['cosmetic'], note = '{npc:222380}'}), -- Coagulating Phlegm Churner
+        Transmog({item = 226116, note = '{npc:222380}'}), -- Coagulating Phlegm Churner
         Transmog({item = 226117, type = L['offhand'], note = '{npc:219284}'}), -- Dalaran Guardian's Arcanotool
         Transmog({item = 226118, type = L['fist'], note = '{npc:219284}'}), -- Arcane Prisoner's Puncher
         Transmog({item = 226119, type = L['crossbow'], note = '{npc:219284}'}) -- Arcane Sharpshooter's Crossbow

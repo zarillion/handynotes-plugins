@@ -319,6 +319,9 @@ Uses [Item](#item) as its base class, all properties from Item can be used here 
 
 ```lua
 Transmog({item = item_id, slot = L[slot_locale]})
+
+-- for cosmetic items
+Transmog({item = item_id})
 ```
 
 ### Properties <!-- omit from toc -->
