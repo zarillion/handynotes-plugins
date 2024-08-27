@@ -237,9 +237,20 @@ L['options_icons_skittershaw_spin_desc'] = 'Zeigt die Position des Krabblertaxis
 L['skittershaw_spin_note'] = 'Fahre mit dem {npc:224973} eine ganze Runde um den Distrikt.\n\nDas {npc:224973} hält an verschiedenen Stellen ({dot:Red}) entlang der Runde.'
 
 L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
-L['options_icons_no_harm_from_reading_desc'] = nil
-L['no_harm_from_reading_note'] = nil
-L['another_you_4_note'] = nil
+L['options_icons_no_harm_from_reading_desc'] = 'Display {npc:227421} locations for the {achievement:40632} achievement.'
+L['no_harm_from_reading_note'] = [[
+Gehe in die Höhle ({dot:Yellow}) zur Wand mit den drei Spinnen ({dot:Red}).
+Klettere die Wand hoch und springe in das Loch.
+
+Lese das Buch {object:Fleischiger Foliant}, um vier {npc:227421} erscheinen zu lassen, die dann verschwinden.
+
+Die vier {npc:227421} erscheinen in {location:Azj-Kahet} an verschiedenen Orten.
+
+Spüre diese auf und spreche mit ihnen, um sie zurück zu schicken.
+
+Sobald du alle vier {npc:227421} gefunden hast, gehen zurück zum Buch {object:Fleischiger Foliant} und spreche mit einem der vier {npc:227421}.
+]]
+L['another_you_4_note'] = 'Läuft im {location:Nest der Weberin} herum.'
 
 L['memory_cache_note'] = 'Hole dir den Schwächungszauber {spell:420847} von einem {object:Extraktor} ({dot:Red}) in der Nähe und töte dann die {npc:223908} vor der Kiste, um den {item:223870} zu erhalten.'
 L['niffen_stash_note'] = 'Befindet sich unter der Brücke.'

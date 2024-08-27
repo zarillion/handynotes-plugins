@@ -939,7 +939,7 @@ cotl.nodes[68195603] = NoHarmFromReading({
     rewards = {Achievement({id = 40632, criteria = 0, oneline = true})},
     pois = {
         POI({
-            points = {72035705}, -- Cave enterance
+            points = {72035705}, -- Cave entrance
             color = 'Yellow'
         }), POI({
             points = {66735661}, -- Spider Wall
@@ -951,7 +951,7 @@ cotl.nodes[68195603] = NoHarmFromReading({
             id = cot.id,
             pois = {
                 POI({
-                    points = {72035705}, -- Cave enterance
+                    points = {72035705}, -- Cave entrance
                     color = 'Yellow'
                 })
             }
@@ -959,7 +959,7 @@ cotl.nodes[68195603] = NoHarmFromReading({
             id = map.id,
             pois = {
                 POI({
-                    points = {56468493}, -- Cave enterance
+                    points = {56468493}, -- Cave entrance
                     color = 'Yellow'
                 })
             }
@@ -967,25 +967,25 @@ cotl.nodes[68195603] = NoHarmFromReading({
     }
 })
 
-map.nodes[24205274] = NoHarmFromReading({ -- Another You 1
+map.nodes[24205274] = NoHarmFromReading({
     id = 227421,
     quest = 83744,
     questDeps = 83741
-})
+}) -- Another You 1
 
-map.nodes[58692012] = NoHarmFromReading({ -- Another You 2
+map.nodes[58692012] = NoHarmFromReading({
     id = 227421,
     quest = 83745,
     questDeps = 83741
-})
+}) -- Another You 2
 
-map.nodes[78896056] = NoHarmFromReading({ -- Another You 3
+map.nodes[78896056] = NoHarmFromReading({
     id = 227421,
     quest = 83746,
     questDeps = 83741
-})
+}) -- Another You 3
 
-map.nodes[56874401] = NoHarmFromReading({ -- Another You 4
+map.nodes[56874401] = NoHarmFromReading({
     id = 227421,
     note = L['another_you_4_note'],
     quest = 83747,
@@ -998,7 +998,7 @@ map.nodes[56874401] = NoHarmFromReading({ -- Another You 4
             }
         })
     }
-})
+}) -- Another You 4
 
 -------------------------------------------------------------------------------
 -------------------------- ACHIEVEMENT: THE UNSEEMING -------------------------

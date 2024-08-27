@@ -246,7 +246,7 @@ The {npc:227421} will then disappear and reappear around the map.
 
 Track down each {npc:227421} and interact with them to return them back to the {object:Fleshy Grimoire}.
 
-Once you have found all 4 {npc:227421}, head back to the {object:Fleshy Grimoire} and talk to the {npc:227421}
+Once you have found all 4 {npc:227421}, head back to the {object:Fleshy Grimoire} and talk to the {npc:227421}.
 ]]
 L['another_you_4_note'] = 'Patrols along the marked path.'
 
