@@ -100,9 +100,9 @@ L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
 L['options_icons_gobblin_with_glublurp_desc'] = 'Afficher les emplacements liés au haut-fait {achievement:40614}.'
 L['gobblin_with_glublurp_note'] = 'Cliquez sur un {dot:Red}{object:Cristal scintillant} pour obtenir la {spell:456739}, puis attrapez un {npc:227138} volant dans le ' .. ns.color.Orange('Cercle orange') .. ' et rapportez le à {npc:227132}.\n\n(Le Vol Régulier est recommandé pour l\'obenir plus facilement).'
 
-L['critter_love_note'] = nil
-L['options_icons_critter_love'] = nil
-L['options_icons_critter_love_desc'] = nil
+L['critter_love_note'] = 'Vous devez utiliser l\'émote {emote:/amour} sur les bestioles, pas sur les familiers de combat.'
+L['options_icons_critter_love'] = '{achievement:40475}'
+L['options_icons_critter_love_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:40475}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
