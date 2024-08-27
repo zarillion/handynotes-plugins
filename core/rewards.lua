@@ -650,7 +650,9 @@ function Reputation:GetText()
     local text = ns.api.GetFactionInfoByID(self.id)
     if self.gain then text = ('+%d %s'):format(self.gain, text) end
     text = ns.color.LightBlue(text) .. ' (' .. self.type .. ')'
-    if self.note then text = text .. ' (' .. ns.RenderLinks(self.note) .. ')' end
+    if self.note then
+        text = text .. ' (' .. ns.RenderLinks(self.note, true) .. ')'
+    end
     return text
 end
 
