@@ -20,7 +20,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Muestra dónde están los obje
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
-L['alunira_note'] = 'Recoge 10x {item:224025} y combínalos en un {item:224026} para quitarle {spell:451570}.'
+L['alunira_note'] = 'Recoge 10x {item:224025} de los enemigos de la {location:Isla de Dorn} y combínalos en un {item:224026} para quitarle {spell:451570}.'
 L['violet_hold_prisoner'] = 'Prisionero del Bastión Violeta'
 
 L['elemental_geode_label'] = 'Geoda Elemental'
@@ -33,7 +33,7 @@ L['trees_treasure_note'] = 'Habla con {npc:222940} para conseguir {item:224185}.
 L['turtles_thanks_1_note'] = 'Entrega 5x {item:220143} (puede ser pescado de bancos {object:Onda calmada} o comprados en la casa de subastas). {note:Deja la zona y vuelve inmediatamente para entregar el siguiente pez.}'
 L['turtles_thanks_2_note'] = 'Entrega 1x {item:222533} (puede ser pescado de bancos {object:Lagoluz}, {object:Charco de Putrefacción Purulenta}, {object:Vertido de Ícor Imbuido} o comprados en la casa de subastas).'
 L['turtles_thanks_3_note'] = 'Alimenta a {npc:223338} en {location:Dornogal} y habla con ella para revelar el tesoro.'
-L['web_wrapped_axe_note'] = nil
+L['web_wrapped_axe_note'] = 'En el primer piso.\n\n{note:Reaparece cada 1-2 horas.}'
 
 L['cendvin_note'] = 'Consigue 900x {item:225557} en {location:Foldeceniza} de los enemigos élite para comprar la montura {item:223153} a {npc:226205}.'
 
@@ -172,11 +172,13 @@ L['dander_location'] = 'Afuera.'
 L['gobbo_location'] = 'Dentro del edificio encima de la cama.'
 
 L['beledars_spawn_note'] = 'Este raro aparece en uno de muchos sitios a intérvalos fijos.\n\nSiguiente aparición en:\n{note:%s (%s)}'
-L['croakit_note'] = [[Para atacar a {npc:214757} primero tienes que pescar 10x {item:211474} del agua cercana.
+L['croakit_note'] = 'Pesca 10x {item:211474} de un {object:Banco de Mero Sombraceguera} cercano (o cómpralos en la casa de subastas) y lánzaselos para poder atacar al raro.'
+
+
+[[Para atacar a {npc:214757} primero tienes que pescar 10x {item:211474} del agua cercana.
 
 Una vez los tengas todos ve a {npc:214757} y échaselos.]]
-L['deathtide_note'] = [[Para invocarlo tienes que usar una {item:220123} en el {object:Altar Agorero}.
-Necesitarás combinar {item:220122} {dot:Red} y {item:220124} {dot:Green} para conseguir la {item:220123}.]]
+L['deathtide_note'] = 'Consigue {item:220122} {dot:Red} y {item:220124} {dot:Green}. Combínalos para crear la {item:220123} y poder invocar el raro en el {object:Altar Agorero}.'
 L['murkshade_note'] = 'Interactúa con {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
@@ -192,7 +194,7 @@ L['options_icons_beacon_of_hope_desc'] = 'Muestra dónde están las llaves ardie
 
 L['beacon_of_hope_note'] = 'Contribuye con {item:206350} para encender las llaves ardientes inferiores y completar las misiones siguientes.'
 
-L['parasidious_note'] = 'Para hacer aparecer a este raro necesitarás comprar unos {item:206670} al {npc:206533} (activa la {object:Llave Ardiente Inferior} para hacer que aparezca) e ir al {location:Paraje Alzaocaso} y sacar las {npc:206870}. A medida que las saques, una vid saldrá disparada de ti hacia un {object:Túmulo Revuelto} y crecerá/cambiará hasta que eventualmente aparezca el raro.'
+L['parasidious_note'] = 'Compra unos {item:206670} al {npc:206533} (enciende la {object:Llave Ardiente Inferior} para hacer que aparezca) e ir al {location:Paraje Alzaocaso} y sacar {npc:206870} hasta que aparezca el raro. {note: Sólo aparece si hay un {npc:206978} donde estás}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
@@ -213,7 +215,7 @@ L['generals_scouting_shadecaster_location'] = nil
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Muestra dónde están los libros para el logro {achievement:40629}.'
 
-L['nerubian_potion_note'] = 'Compra la {item:225784} ({note:el buff dura 10 minutos}) de {npc:218192} por 500x {currency:3056}.'
+L['nerubian_potion_note'] = 'Compra una {item:225784} ({note:el buff dura 10 minutos}) de {npc:218192} por 500x {currency:3056}.'
 L['bookworm_note'] = '{note:También puedes completar el logro {achievement:40542} con la {item:225784}.}'
 L['bookworm_1_location'] = 'En la entrada de la cueva pequeña.'
 
