@@ -19,7 +19,7 @@ local kvr = Map({id = 2681, settings = false}) -- Kriegval's Rest
 local tuk = Map({id = 2690, settings = false}) -- The Underkeep
 local ecm = Map({id = 2269, settings = false}) -- Earthcrawl Mines
 local mmc = Map({id = 2679, settings = false}) -- Mycomancer Cavern
-local tdp = Map({id = 2684, settings = false}) -- The Dread Pit
+local tdp = Map({id = 2302, settings = false}) -- The Dread Pit
 local tww = Map({id = 2683, settings = false}) -- The Waterworks
 local tsw = Map({id = 2688, settings = false}) -- The Sprial Weave
 local tsh = Map({id = 2687, settings = false}) -- The Sinkhole
@@ -151,15 +151,9 @@ tuk.nodes[72128833] = SturdyChest({
 ------------------------------ EARTHCRAWL MINES -------------------------------
 -------------------------------------------------------------------------------
 
-ecm.nodes[45341525] = SturdyChest({
-    achievementID = 40806,
-    quest = 83440
-}) -- Sturdy Chest 1
+ecm.nodes[45341525] = SturdyChest({achievementID = 40806, quest = 83440}) -- Sturdy Chest 1
 
-ecm.nodes[43572716] = SturdyChest({
-    achievementID = 40806,
-    quest = 83438
-}) -- Sturdy Chest 2
+ecm.nodes[43572716] = SturdyChest({achievementID = 40806, quest = 83438}) -- Sturdy Chest 2
 
 ecm.nodes[32743966] = SturdyChest({
     achievementID = 40806,
@@ -176,10 +170,7 @@ ecm.nodes[36163308] = SturdyChest({
     }
 }) -- Sturdy Chest 4
 
-ecm.nodes[53558214] = SturdyChest({
-    achievementID = 40806,
-    quest = 83438
-}) -- Sturdy Chest 5
+ecm.nodes[53558214] = SturdyChest({achievementID = 40806, quest = 83438}) -- Sturdy Chest 5
 
 -------------------------------------------------------------------------------
 ------------------------------ MYOMANCER CAVERN -------------------------------
@@ -217,33 +208,13 @@ mmc.nodes[40666161] = SturdyChest({
 -------------------------------- THE DREAD PIT --------------------------------
 -------------------------------------------------------------------------------
 
-tdp.nodes[40594578] = SturdyChest({
-    achievementID = 40812,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('1/4')
-}) -- Sturdy Chest 1
+tdp.nodes[40594578] = SturdyChest({achievementID = 40812, quest = 83677}) -- Sturdy Chest 1
 
-tdp.nodes[57305610] = SturdyChest({
-    achievementID = 40812,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('2/4')
-}) -- Sturdy Chest 2
+tdp.nodes[57305610] = SturdyChest({achievementID = 40812, quest = 83658}) -- Sturdy Chest 2
 
-tdp.nodes[58322779] = SturdyChest({
-    achievementID = 40812,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('3/4')
-}) -- Sturdy Chest 3
+tdp.nodes[58322779] = SturdyChest({achievementID = 40812, quest = 83678}) -- Sturdy Chest 3
 
-tdp.nodes[36061721] = SturdyChest({
-    achievementID = 40812,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('4/4')
-}) -- Sturdy Chest 4
+tdp.nodes[36061721] = SturdyChest({achievementID = 40812, quest = 83659}) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
 ------------------------------- THE WATERWORKS --------------------------------
