@@ -254,15 +254,18 @@ map.nodes[30905239] = Rare({
                 {id = 68226, quest = 82203} -- Zovex
             }
         }), --
-        Reputation({id = 2590, gain = 150, quest = 85159, note = '{npc:219284}'}),
         Reputation({id = 2590, gain = 150, quest = 85160, note = '{npc:222378}'}),
         Reputation({id = 2590, gain = 150, quest = 85161, note = '{npc:222380}'}),
-        Transmog({item = 226111, type = L['staff']}), -- Arakkoan Ritual Staff
-        Transmog({item = 226112, type = L['1h_sword']}), -- Rotfist Flesh Carver
-        Transmog({item = 226113, type = L['1h_sword']}), -- Kereke's Flourishing Sabre
-        Transmog({item = 226117, type = L['offhand']}), -- Dalaran Guardian's Arcanotool
-        Transmog({item = 226118, type = L['fist']}), -- Arcane Prisoner's Puncher
-        Transmog({item = 226119, type = L['crossbow']}) -- Arcane Sharpshooter's Crossbow
+        Reputation({id = 2590, gain = 150, quest = 85159, note = '{npc:219284}'}),
+        Transmog({item = 226111, type = L['staff'], note = '{npc:222378}'}), -- Arakkoan Ritual Staff
+        Transmog({item = 226113, type = L['1h_sword'], note = '{npc:222378}'}), -- Kereke's Flourishing Sabre
+        Transmog({item = 226114, type = L['polearm'], note = '{npc:222378}'}), -- Windslicer's Lance
+        Transmog({item = 226112, type = L['1h_sword'], note = '{npc:222380}'}), -- Rotfist Flesh Carver
+        Transmog({item = 226115, type = L['2h_axe'], note = '{npc:222380}'}), -- Contaminating Cleaver
+        Transmog({item = 226116, type = L['cosmetic'], note = '{npc:222380}'}), -- Coagulating Phlegm Churner
+        Transmog({item = 226117, type = L['offhand'], note = '{npc:219284}'}), -- Dalaran Guardian's Arcanotool
+        Transmog({item = 226118, type = L['fist'], note = '{npc:219284}'}), -- Arcane Prisoner's Puncher
+        Transmog({item = 226119, type = L['crossbow'], note = '{npc:219284}'}) -- Arcane Sharpshooter's Crossbow
     }
 }) -- Violet Hold Prisoner (Kereke, Rotfist, Zovex)
 
