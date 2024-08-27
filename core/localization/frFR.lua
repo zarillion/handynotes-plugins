@@ -203,10 +203,10 @@ L['options_transmog_rewards'] = 'Afficher les transmos en récompense'
 L['options_transmog_rewards_desc'] = 'Afficher les transmos en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_all_transmog_rewards'] = 'Afficher les transmos plus obtenables en récompense'
 L['options_all_transmog_rewards_desc'] = 'Afficher les transmos en récompenses pouvant être obtenus par d\'autres classes.'
-L['options_rep_rewards'] = nil
-L['options_rep_rewards_desc'] = nil
-L['options_claimed_rep_rewards'] = nil
-L['options_claimed_rep_rewards_desc'] = nil
+L['options_rep_rewards'] = 'Afficher les récompenses de réputation'
+L['options_rep_rewards_desc'] = 'Afficher les récompenses de réputation dans les infobulles et suivre l\'état de leur acquisition.'
+L['options_claimed_rep_rewards'] = 'Afficher les récompenses de réputation réclamées'
+L['options_claimed_rep_rewards_desc'] = 'Afficher les récompenses de réputation qui ont déjà été réclamées par votre bataillon.'
 
 L['options_icons_misc_desc'] = 'Afficher les emplacements des nœuds divers'
 L['options_icons_misc'] = 'Divers'
