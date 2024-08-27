@@ -472,7 +472,8 @@ map.nodes[78613320] = Treasure({
         Achievement({id = 40828, criteria = 69643}),
         Reputation({id = 2601, gain = 50, quest = 82527}),
         Reputation({id = 2605, gain = 50, quest = 82527}),
-        Reputation({id = 2607, gain = 50, quest = 82527}), Toy({item = 225347}) -- Web-Vandal's Spinning Wheel
+        Reputation({id = 2607, gain = 50, quest = 82527}), --
+        Toy({item = 225347}) -- Web-Vandal's Spinning Wheel
     },
     pois = {POI({74794285, 74183770, 72663967})}
 }) -- Weaving Supplies
@@ -653,7 +654,7 @@ map.nodes[57575733] = SkyridingGlyph({
     rewards = {Achievement({id = 40705, criteria = 69273})}
 }) -- Silken Ward
 
-map.nodes[70562516] = SkyridingGlyph({ -- review
+map.nodes[70562516] = SkyridingGlyph({
     rewards = {Achievement({id = 40705, criteria = 69274})}
 }) -- Trickling Abyss
 

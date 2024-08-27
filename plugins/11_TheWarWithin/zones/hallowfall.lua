@@ -327,8 +327,8 @@ map.nodes[57304857] = Rare({
     }
 }) -- Pride of Beledar
 
-map.nodes[59702107] = Rare({
-    id = 207826, -- Multiple spawn points 61933187
+map.nodes[61943197] = Rare({
+    id = 207826,
     quest = 82566, --- 84058
     rewards = {
         Achievement({id = 40851, criteria = 69726}),
@@ -362,7 +362,7 @@ map.nodes[73405259] = Rare({
     }
 }) -- Sloshmuck
 
-map.nodes[42703134] = Rare({
+map.nodes[43602994] = Rare({
     id = 221690,
     quest = 81849, -- 84066
     rewards = {
@@ -447,7 +447,8 @@ map.nodes[40035112] = Treasure({
     note = L['arathi_loremaster_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69695}), --
-        Reputation({id = 2570, gain = 150, quest = 83298}), Toy({item = 225659}) -- Arathi Book Collection
+        Reputation({id = 2570, gain = 150, quest = 83298}), --
+        Toy({item = 225659}) -- Arathi Book Collection
     },
     pois = {
         POI({48756471}), Path({Circle({origin = 48756471, radius = 2})}), -- Palawltar's Codez of Dimensional Structure -- q83309
@@ -495,7 +496,8 @@ map.nodes[58382715] = Treasure({
     note = L['illuminated_footlocker_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69701}), --
-        Reputation({id = 2570, gain = 150, quest = 81468}), Toy({item = 224552}) -- Cave Spelunker's Torch
+        Reputation({id = 2570, gain = 150, quest = 81468}), --
+        Toy({item = 224552}) -- Cave Spelunker's Torch
     },
     pois = {POI({57642740})} -- Entrance
 }) -- Illuminated Footlocker
@@ -506,7 +508,8 @@ local IllusiveKobyssLure = Class('IllusiveKobyssLure', Treasure, {
     fgroup = 'illusive_kobyss_lure',
     rewards = {
         Achievement({id = 40848, criteria = 69696}), --
-        Reputation({id = 2570, gain = 150, quest = 83299}), Toy({item = 225641}) -- Illusive Kobyss Lure
+        Reputation({id = 2570, gain = 150, quest = 83299}), --
+        Toy({item = 225641}) -- Illusive Kobyss Lure
     }
 }) -- Illusive Kobyss Lure
 
@@ -600,7 +603,8 @@ map.nodes[45944513] = Treasure({
     note = L['sky_captains_sunken_cache_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69700}),
-        Reputation({id = 2570, gain = 150, quest = 82005}), Toy({item = 224554})
+        Reputation({id = 2570, gain = 150, quest = 82005}), --
+        Toy({item = 224554}) -- Silver Linin' Scepter
     },
     pois = {
         Path({

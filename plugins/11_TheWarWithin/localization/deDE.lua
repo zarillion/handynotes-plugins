@@ -18,7 +18,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Zeigt die Positionen der Gesch
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
-L['alunira_note'] = 'Sammle 10x {item:224025} und kombiniere diese zu einem {item:224026}, um den Schwächungszauber {spell:451570} zu entfernen.'
+L['alunira_note'] = 'Sammle 10x {item:224025} von Gegnern auf der {location:Insel fon Dorn} und kombiniere diese zu einem {item:224026}, um den Schwächungszauber {spell:451570} zu entfernen.'
 L['violet_hold_prisoner'] = 'Gefangener der Violetten Festung'
 
 L['elemental_geode_label'] = nil
@@ -49,7 +49,7 @@ L['options_icons_not_so_quick_fix_desc'] = 'Zeigt die Positionen der Konsolen f�
 
 L['not_so_quick_fix_note'] = 'Repariere die defekte Konsole der Irdenen.'
 L['water_console_location'] = 'Neben der Treppe.'
-L['abyssal_console_location'] = nil
+L['abyssal_console_location'] = 'In einer Nische.'
 L['taelloch_console_location'] = 'Auf der Brücke zwischen den Fässern.'
 L['lost_console_location'] = 'Im Eingang der eingestürzten Mine.'
 
@@ -169,7 +169,7 @@ L['dander_location'] = 'Draußen.'
 L['gobbo_location'] = 'Im Gebäude auf dem Bett.'
 
 L['beledars_spawn_note'] = 'Dieser Gegner erscheint an einem von mehreren Positionen in einem festgelegten Intervall.\n\nNächstes erscheinen:\n{note:%s (%s)}'
-L['croakit_note'] = nil
+L['croakit_note'] = 'Angle 10x {item:211474} aus einem {object:Schwarm schattenblinder Barsche} in der Nähe (oder kaufe diese im Auktionshaus) und wirf sie ihm zu, damit der seltene Gegner angreifbar wird.'
 L['deathtide_note'] = 'Sammle eine {item:220122} ({dot:Red}) und ein {item:220124} ({dot:Green}). Kombiniere diese zu {item:220123}, um damit den seltenen Gegner am {object:Ominöser Altar} zu beschwören.'
 L['murkshade_note'] = 'Interagiere mit {npc:218455}.'
 

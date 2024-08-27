@@ -425,7 +425,8 @@ map.nodes[48513004] = Treasure({
     note = L['in_small_cave'] .. '\n\n' .. L['trees_treasure_note'],
     rewards = {
         Achievement({id = 40434, criteria = 68197}),
-        Reputation({id = 2590, gain = 150, quest = 83242}), Toy({item = 224585}) -- Hanna's Locket
+        Reputation({id = 2590, gain = 150, quest = 83242}), --
+        Toy({item = 224585}) -- Hanna's Locket
     },
     pois = {
         POI({48683103}), -- Entrance

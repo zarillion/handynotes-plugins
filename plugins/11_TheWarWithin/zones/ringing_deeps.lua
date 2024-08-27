@@ -320,7 +320,8 @@ map.nodes[50485349] = Treasure({ -- lvl 71
     note = L['forgotten_treasure_note'],
     rewards = {
         Achievement({id = 40724, criteria = 69313}),
-        Reputation({id = 2594, gain = 150, quest = 80485}), Toy({item = 224783}) -- Sovereign's Finery Chest
+        Reputation({id = 2594, gain = 150, quest = 80485}), --
+        Toy({item = 224783}) -- Sovereign's Finery Chest
     },
     pois = {POI({52065314})} -- Entrance
 }) -- Forgotten Treasure
