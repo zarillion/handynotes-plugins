@@ -258,9 +258,9 @@ L['trapped_trove_note'] = 'Dans un bâtiment suspendu au plafond. Évitez les to
 L['tkaktath_note'] = 'Démarre une suite de quêtes pour obtenir la monture {item:224150}.'
 
 L['options_icons_the_unseeming'] = '{achievement:40633}'
-L['options_icons_the_unseeming_desc'] = nil
-L['the_unseeming_note'] = nil
+L['options_icons_the_unseeming_desc'] = 'Afficher l\'emplacement du haut-fait {achievement:40633}.'
+L['the_unseeming_note'] = 'Restez dans le bassin jusqu\'à ce que vous ayez 100x charges de {spell:420847}.'
 
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
-L['options_icons_you_cant_hang_with_us_desc'] = nil
-L['you_cant_hang_with_us_note'] = nil
+L['options_icons_you_cant_hang_with_us_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:40634}.'
+L['you_cant_hang_with_us_note'] = 'Trouvez une {npc:220986} avec l\'effet {spell:434734}, si vous vous tenez près d\'elle, elle vous appliquera l\'affaiblissement {spell:443190} (1 minute) ({note:Ne l\'attaquez pas !}). Trouvez un {npc:225408} pour obtenir 10x charges de {spell:454666}.'
