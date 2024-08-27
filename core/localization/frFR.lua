@@ -81,6 +81,7 @@ L['in_water'] = 'Dans l\'eau.'
 L['in_building'] = 'A l\'intérieur du bâtiment.'
 
 ------------------------------------ TIME -------------------------------------
+L['now'] = 'Maintenant'
 L['hourly'] = 'Une fois par heure'
 L['daily'] = 'Quotidiennement'
 L['weekly'] = 'Hebdomadaire'
