@@ -1004,7 +1004,7 @@ map.nodes[56874401] = NoHarmFromReading({
 -------------------------- ACHIEVEMENT: THE UNSEEMING -------------------------
 -------------------------------------------------------------------------------
 
-cot.nodes[62848495] = Collectible({
+map.nodes[62848495] = Collectible({
     icon = 1386549,
     label = '{achievement:40633}',
     note = L['the_unseeming_note'],
@@ -1016,17 +1016,23 @@ cot.nodes[62848495] = Collectible({
 --------------------- ACHIEVEMENT: YOU CAN'T HANG WITH US ---------------------
 -------------------------------------------------------------------------------
 
-cot.nodes[71484785] = Collectible({
+cot.nodes[53622079] = Collectible({
     icon = 237431,
     label = '{achievement:40634}',
     note = L['you_cant_hang_with_us_note'],
     group = ns.groups.YOU_CANT_HANG_WITH_US,
     parent = {
         id = map.id,
-        pois = {Path({Circle({origin = 49398151, radius = 10})})}
+        pois = {
+            Path({Circle({origin = 50047228, radius = 3.5})}),
+            Path({Circle({origin = 54397843, radius = 2.5})})
+        }
     },
     rewards = {Achievement({id = 40634})},
-    pois = {Path({Circle({origin = 51794724, radius = 25})})}
+    pois = {
+        Path({Circle({origin = 53622079, radius = 10})}),
+        Path({Circle({origin = 66123842, radius = 7.4})})
+    }
 })
 
 -------------------------------------------------------------------------------

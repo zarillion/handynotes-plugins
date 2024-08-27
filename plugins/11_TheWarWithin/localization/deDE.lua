@@ -268,4 +268,4 @@ L['the_unseeming_note'] = 'Stelle dich in die Pfütze bis du 100x Stapel {spell:
 
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Zeigt die Positionen für den Erfolg {achievement:40634} an.'
-L['you_cant_hang_with_us_note'] = 'Finde einen {npc:220986} mit dem Stärkungszauber {spell:434734} und stelle dich in seine Nähe, um den Schwächungszauber {spell:443190} (1 Minute) zu erhalten. ({note:Greife ihn nicht an!}). Finde einen {npc:225408}, um 10x Stapel des Schwächungszauber {spell:454666} zu erhalten.'
+L['you_cant_hang_with_us_note'] = 'Finde einen {npc:211816} mit dem Stärkungszauber {spell:434734} und greife ihn an, um den Schwächungszauber {spell:443190} (1 Minute) zu erhalten. Ein {npc:225408} ({note:Töte ihn nicht!}) wird sich einmischen und den Schwächungszauber {spell:454666} auf dir stapeln. Bei 10 Stapeln wirst du gewaltsam aus der Stadt entfernt.'

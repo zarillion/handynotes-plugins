@@ -266,4 +266,4 @@ L['the_unseeming_note'] = 'Stand in the pool until you have 100x stacks {spell:4
 
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Display locations for the {achievement:40634} achievement.'
-L['you_cant_hang_with_us_note'] = 'Find a {npc:220986} with the {spell:434734} buff, if you stand close to him he will give you the {spell:443190} debuff (1 minute) ({note:Do not attack him!}). Find a {npc:225408} to get 10x stacks of {spell:454666}.'
+L['you_cant_hang_with_us_note'] = 'Find a {npc:211816} with the {spell:434734} buff and attack him, to get the {spell:443190} debuff (1 minute). A {npc:225408} ({note:Do not kill him!}) will interfere and stack the {spell:454666} debuff on you. At 10 stacks, you will be forcibly removed from the City.'
