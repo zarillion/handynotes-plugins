@@ -249,6 +249,7 @@ Una vez que hayas caído, interactúa con el {object:Grimorio Carnoso} cercano p
 {npc:227421} desaparecerá y reaparecerá en el mapa.
 
 Localiza cada {npc:227421} e interactúa para hacerles volver al {object:Grimorio Carnoso}.
+
 Una vez todos devueltos, regresa al {object:Grimorio Carnoso} y habla con {npc:227421}.
 ]]
 L['another_you_4_note'] = 'Patrulla por la ruta marcada.'
