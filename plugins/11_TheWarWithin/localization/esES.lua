@@ -99,9 +99,9 @@ L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
 L['options_icons_gobblin_with_glublurp_desc'] = 'Muestra los lugares para el logro {achievement:40614}.'
 L['gobblin_with_glublurp_note'] = 'Haz Click en un {dot:Red}{object:Cristal Trémulo} para ganar {spell:456739}. Coge una {npc:227138} volando en el ' .. ns.color.Orange('Círculo Naranja') .. ' y llévasela a {npc:227132}.\n\n(Se recomienda Vuelo Constante para conseguilo).'
 
-L['critter_love_note'] = nil
-L['options_icons_critter_love'] = nil
-L['options_icons_critter_love_desc'] = nil
+L['critter_love_note'] = 'Tiene que teclear la emoción {emote:/amor} en alimañas, no en mascotas de batalla.'
+L['options_icons_critter_love'] = '{achievement:40475}'
+L['options_icons_critter_love_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:40475}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
@@ -240,9 +240,18 @@ L['options_icons_skittershaw_spin_desc'] = 'Muestra las rutas de los correteador
 L['skittershaw_spin_note'] = 'Conduce el {npc:224973} durante una vuelta completa alrededor del distrito.\n\nEl {npc:224973} se parará en los puntos {dot:Red} a lo largo de la ruta.'
 
 L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
-L['options_icons_no_harm_from_reading_desc'] = nil
-L['no_harm_from_reading_note'] = nil
-L['another_you_4_note'] = nil
+L['options_icons_no_harm_from_reading_desc'] = 'Muestra dónde están {npc:227421} para el logro {achievement:40632}.'
+L['no_harm_from_reading_note'] = [[
+Entra en la cueva ({dot:Yellow}). Dirígete a ({dot:Red}), sube por la pared donde se encuentran las 3 arañas y entra por el agujero que hay detrás de la araña de la parte superior.
+
+Una vez que hayas caído, interactúa con el {object:Grimorio Carnoso} cercano para hacer aparecer 4 {npc:227421}.
+
+{npc:227421} desaparecerá y reaparecerá en el mapa.
+
+Localiza cada {npc:227421} e interactúa para hacerles volver al {object:Grimorio Carnoso}.
+Una vez todos devueltos, regresa al {object:Grimorio Carnoso} y habla con {npc:227421}.
+]]
+L['another_you_4_note'] = 'Patrulla por la ruta marcada.'
 
 L['memory_cache_note'] = 'Consigue {spell:420847} de un ({dot:Red}) {object:Extractor de Almacenaje} cercano. Después mata la {npc:223908} para conseguir la {item:223870} que abrirá el {object:Alijo de Recuerdos}.'
 L['niffen_stash_note'] = 'Está debajo del puente.'
@@ -251,9 +260,9 @@ L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telara
 L['tkaktath_note'] = 'Comienza una cadena de misiones para conseguir la montura {item:224150}.'
 
 L['options_icons_the_unseeming'] = '{achievement:40633}'
-L['options_icons_the_unseeming_desc'] = nil
-L['the_unseeming_note'] = nil
+L['options_icons_the_unseeming_desc'] = 'Muestra dónde ir para el logro {achievement:40633}.'
+L['the_unseeming_note'] = 'Párate en el agua hasta que acumules 100x {spell:420847}.'
 
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
-L['options_icons_you_cant_hang_with_us_desc'] = nil
-L['you_cant_hang_with_us_note'] = nil
+L['options_icons_you_cant_hang_with_us_desc'] = 'Muestra dónde ir para el logro {achievement:40634}.'
+L['you_cant_hang_with_us_note'] = 'Busca un {npc:211816} con el buff {spell:434734} y atácale para conseguir el debuff {spell:443190} (1 minuto de duración). Un {npc:225408} ({note:¡No le mates!}) interferirá y te echará el debuff {spell:454666}. Con 10 acumulaciones, serás expulsado por la fuerza de la Ciudad.'
