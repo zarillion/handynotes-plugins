@@ -6,6 +6,7 @@
 * Added the achievement [To All the Slimes I Love](https://www.wowhead.com/achievement=40475) (The Ringing Deeps).
 * Updated Rare Rewards in Isle of Dorn and Ringing Deeps.
 * Fix location for Leatherworking profession treasure - Earthen Lacing Tools
+* Localization updates: deDE, esES, frFR, zhCN, zhTW
 
 # v76
 
