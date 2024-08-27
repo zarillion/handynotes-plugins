@@ -558,7 +558,7 @@ dor.nodes[34845219] = PT.Jewelcrafting({
     id = 226317,
     parent = map.id
 }) -- Earthen Gem Pliers
-dor.nodes[59242352] = PT.Leatherworking({
+dor.nodes[68252334] = PT.Leatherworking({
     quest = 83898,
     id = 226324,
     parent = map.id
