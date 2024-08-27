@@ -20,7 +20,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = '显示 {achievement:40762} 成
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
-L['alunira_note'] = '收集10个 {item:224025} 并组合成 {item:224026} 以移除她的 {spell:451570}。'
+L['alunira_note'] = '从 {location:多恩岛} 的怪物收集10个 {item:224025} 并组合成 {item:224026} 以移除她的 {spell:451570}。'
 L['violet_hold_prisoner'] = '紫罗兰监狱囚犯'
 
 L['elemental_geode_label'] = '元素晶簇'
@@ -30,8 +30,8 @@ L['mushroom_cap_note'] = '在附近的森林中收集一个 {object:薮根伞菇
 L['mysterious_orb_note'] = '将 {object:元素珍珠} 带回给 {npc:222847}。'
 L['thaks_treasure_note'] = '与 {npc:223227} 交谈并跟随他。'
 L['trees_treasure_note'] = '与 {npc:222940} 交谈，获得 {item:224185}。引导6个 {npc:224548}（{dot:Green}）绕过 {location:多恩岛} 返回 {npc:222940}。将所有螃蟹引导回来后，返回洞穴中的 {npc:222940} 并与她交谈。'
-L['turtles_thanks_1_note'] = '交出5个 {item:220143}（可从 {object:平静的浮面涟漪} 鱼点钓鱼或从拍卖行购买）。{note:离开该区域并立即返回交出下一条鱼。}'
-L['turtles_thanks_2_note'] = '交出1个 {item:222533}（可从 {object:浮光之池}，{object:溃烂的腐臭之池}，{object:Infused Ichor Spill} 鱼点钓鱼或从拍卖行购买）。'
+L['turtles_thanks_1_note'] = '交出5个 {item:220143}（可从 {object:平静的浮面涟漪} 渔点钓鱼或从拍卖行购买）。{note:离开该区域并立即返回交出下一条鱼。}'
+L['turtles_thanks_2_note'] = '交出1个 {item:222533}（可从 {object:浮光之池}，{object:溃烂的腐臭之池}，{object:飞溅的注能脓液} 渔点钓鱼或从拍卖行购买）。'
 L['turtles_thanks_3_note'] = '在 {location:多恩诺嘉尔} 与 {npc:223338} 会面并与她交谈以发现宝藏。'
 L['web_wrapped_axe_note'] = '在一楼。\n\n{note:有1-2小时的刷新时间。}'
 
@@ -172,11 +172,8 @@ L['dander_location'] = '在外面。'
 L['gobbo_location'] = '在建筑内的床上。'
 
 L['beledars_spawn_note'] = '此稀有会以固定的时间间隔在多个位置之一出现。\n\n下次出现：\n{note:%s（%s）}'
-L['croakit_note'] = [[要攻击 {npc:214757}，必须先从附近的水中钓出10个 {item:211474}。
-
-收集完所有鱼后，去找 {npc:214757} 并把它们扔给他。]] -- from wowhead, needs to be confirmed.
-L['deathtide_note'] = [[要召唤他，必须在 {object:不祥祭坛} 上使用 {item:220123}。
-需要结合 {item:220122} {dot:Red} 和 {item:220124} {dot:Green} 来获得 {item:220123}。]]
+L['croakit_note'] = '从附近的 {object:影盲石斑鱼群} 钓起10个 {item:211474}（或者从拍卖行购买）然后把它们扔给它，使稀有可被攻击。'
+L['deathtide_note'] = '收集一个 {item:220122} {dot:Red} 和一个 {item:220124} {dot:Green}。将它们组合成 {item:220123}，在 {object:不祥祭坛} 召唤稀有物品。'
 L['murkshade_note'] = '与 {npc:218455} 互动。'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'

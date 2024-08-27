@@ -358,7 +358,7 @@ map.nodes[73405259] = Rare({
         Reputation({id = 2570, gain = 150, quest = 84062}),
         Transmog({item = 221223, type = L['mail']}), -- Bog Beast Mantle
         Transmog({item = 221253, type = L['fist']}), -- Cultivator's Plant Puncher
-        Transmog({item = 221520, type = L['1h_sword']}) -- Creeping Lasher Machete
+        Transmog({item = 221250, type = L['1h_sword']}) -- Creeping Lasher Machete
     }
 }) -- Sloshmuck
 
