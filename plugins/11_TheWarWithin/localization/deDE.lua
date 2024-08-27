@@ -236,6 +236,11 @@ L['options_icons_skittershaw_spin'] = '{achievement:40727}'
 L['options_icons_skittershaw_spin_desc'] = 'Zeigt die Position des Krabblertaxis für den Erfolg {achievement:40727} an.'
 L['skittershaw_spin_note'] = 'Fahre mit dem {npc:224973} eine ganze Runde um den Distrikt.\n\nDas {npc:224973} hält an verschiedenen Stellen ({dot:Red}) entlang der Runde.'
 
+L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
+L['options_icons_no_harm_from_reading_desc'] = nil
+L['no_harm_from_reading_note'] = nil
+L['another_you_4_note'] = nil
+
 L['memory_cache_note'] = 'Hole dir den Schwächungszauber {spell:420847} von einem {object:Extraktor} ({dot:Red}) in der Nähe und töte dann die {npc:223908} vor der Kiste, um den {item:223870} zu erhalten.'
 L['niffen_stash_note'] = 'Befindet sich unter der Brücke.'
 L['trapped_trove_note'] = 'In einem Gebäude das von der Decke hängt. Vermeide die Spinnweben am Boden.'

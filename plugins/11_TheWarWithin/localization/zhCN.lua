@@ -235,6 +235,11 @@ L['options_icons_skittershaw_spin'] = '{achievement:40727}'
 L['options_icons_skittershaw_spin_desc'] = '显示 {achievement:40727} 成就中虫车路线位置。'
 L['skittershaw_spin_note'] = '骑乘 {npc:224973} 绕区域一圈。\n\n{npc:224973} 将在路线上的 {dot:Red} 点处停止。'
 
+L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
+L['options_icons_no_harm_from_reading_desc'] = nil
+L['no_harm_from_reading_note'] = nil
+L['another_you_4_note'] = nil
+
 L['memory_cache_note'] = '从附近的（{dot:Red}）{object:提取器存储} 获取 {spell:420847}。击杀 {npc:223908} 后获取 {item:223870} 以打开 {object:记忆箱子}。'
 L['niffen_stash_note'] = '在桥下。'
 L['trapped_trove_note'] = '在从天花板垂下的建筑物中。避开地板上的蜘蛛网。'

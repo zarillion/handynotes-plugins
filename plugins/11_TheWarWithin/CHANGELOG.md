@@ -2,6 +2,7 @@
 
 * Fix location for Leatherworking profession treasure - Earthen Lacing Tools
 * Updated Rare Rewards in Isle of Dorn and Ringing Deeps.
+* Add information for No Harm Ever Came From Reading A Book achievement in Azj-Kahet.
 
 # v76
 

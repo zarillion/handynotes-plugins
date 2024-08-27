@@ -923,6 +923,81 @@ cot.nodes[65255720] = SkittershawSpin({
     }
 })
 
+-----------------------------------------------------------------------------------------------------
+--------------------- ACHIEVEMENT: NO HARM EVER CAME FROM READING A BOOK  ---------------------------
+-----------------------------------------------------------------------------------------------------
+
+local NoHarmFromReading = Class('no_harm_from_reading', Collectible, {
+    icon = 463284,
+    group = ns.groups.NO_HARM_FROM_READING
+})
+
+cotl.nodes[68195603] = NoHarmFromReading({
+    label = '{achievement:40632}',
+    note = L['no_harm_from_reading_note'],
+    rewards = {Achievement({id = 40632, criteria = 0, oneline = true})},
+    pois = {
+        POI({
+            points = {72035705}, -- Cave enterance
+            color = 'Yellow'
+        }), POI({
+            points = {66735661}, -- Spider Wall
+            color = 'Red'
+        })
+    },
+    parent = {
+        {
+            id = cot.id,
+            pois = {
+                POI({
+                    points = {72035705}, -- Cave enterance
+                    color = 'Yellow'
+                })
+            }
+        }, {
+            id = map.id,
+            pois = {
+                POI({
+                    points = {56468493}, -- Cave enterance
+                    color = 'Yellow'
+                })
+            }
+        }
+    }
+})
+
+map.nodes[24205274] = NoHarmFromReading({ -- Another You 1
+    id = 227421,
+    quest = 83744,
+    questDeps = 83741
+})
+
+map.nodes[58692012] = NoHarmFromReading({ -- Another You 2
+    id = 227421,
+    quest = 83745,
+    questDeps = 83741
+})
+
+map.nodes[78896056] = NoHarmFromReading({ -- Another You 3
+    id = 227421,
+    quest = 83746,
+    questDeps = 83741
+})
+
+map.nodes[56874401] = NoHarmFromReading({ -- Another You 4
+    id = 227421,
+    note = L['another_you_4_note'],
+    quest = 83747,
+    questDeps = 83741,
+    pois = {
+        Path({
+            points = {
+                57414429, 57324406, 57164432, 56874401, 56604340, 56514327,
+                56344326, 56264336, 56694303
+            }
+        })
+    }
+})
 -------------------------------------------------------------------------------
 -------------------------------- DISTURBED DIRT -------------------------------
 -------------------------------------------------------------------------------

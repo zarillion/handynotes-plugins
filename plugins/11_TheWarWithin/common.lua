@@ -71,6 +71,12 @@ ns.groups.SMELLING_HISTORY = Group('smelling_history', 4549130, {
     achievement = 40542
 })
 
+ns.groups.NO_HARM_FROM_READING = Group('no_harm_from_reading', 463284, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40632
+})
+
 ns.groups.KHAZ_ALGAR_LORE_HUNTER = Group('khaz_algar_lore_hunter', 4419344, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

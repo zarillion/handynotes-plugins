@@ -235,6 +235,21 @@ L['options_icons_skittershaw_spin'] = '{achievement:40727}'
 L['options_icons_skittershaw_spin_desc'] = 'Display Skittershaw route locations for {achievement:40727} achievement.'
 L['skittershaw_spin_note'] = 'Ride the {npc:224973} for a full lap around the district.\n\nThe {npc:224973} will stop at the {dot:Red} points along the route.'
 
+L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
+L['options_icons_no_harm_from_reading_desc'] = 'Display {npc:227421} locations for {achievement:40632} achievement.'
+L['no_harm_from_reading_note'] = [[
+Enter the ({dot:Yellow}) Cave, and head to the ({dot:Red}) and climb the wall where the 3 spiders are located and enter the hole behind the spider at the top.
+
+Once you have fallen through interact with the nearby {object:Fleshy Grimoire} to spawn the 4 {npc:227421}.
+
+The {npc:227421} will then disappear and reappear around the map.
+
+Track down each {npc:227421} and interact with them to return them back to the {object:Fleshy Grimoire}.
+
+Once you have found all 4 {npc:227421}, head back to the {object:Fleshy Grimoire} and talk to the {npc:227421}
+]]
+L['another_you_4_note'] = 'Patrols along the marked path.'
+
 L['memory_cache_note'] = 'Get {spell:420847} from a nearby ({dot:Red}) {object:Extractor Storage}. After kill the {npc:223908} to get the {item:223870} to open the {object:Memory Cache}.'
 L['niffen_stash_note'] = 'Located under the bridge.'
 L['trapped_trove_note'] = 'In a building that hangs from the ceiling. Avoid the spiderwebs on the floor.'

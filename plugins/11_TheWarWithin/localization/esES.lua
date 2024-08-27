@@ -235,6 +235,11 @@ L['options_icons_skittershaw_spin'] = '{achievement:40727}'
 L['options_icons_skittershaw_spin_desc'] = 'Muestra las rutas de los correteadores para el logro {achievement:40727}.'
 L['skittershaw_spin_note'] = 'Conduce el {npc:224973} durante una vuelta completa alrededor del distrito.\n\nEl {npc:224973} se parará en los puntos {dot:Red} a lo largo de la ruta.'
 
+L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
+L['options_icons_no_harm_from_reading_desc'] = nil
+L['no_harm_from_reading_note'] = nil
+L['another_you_4_note'] = nil
+
 L['memory_cache_note'] = 'Consigue {spell:420847} de un ({dot:Red}) {object:Extractor de Almacenaje} cercano. Después mata la {npc:223908} para conseguir la {item:223870} que abrirá el {object:Alijo de Recuerdos}.'
 L['niffen_stash_note'] = 'Está debajo del puente.'
 L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'

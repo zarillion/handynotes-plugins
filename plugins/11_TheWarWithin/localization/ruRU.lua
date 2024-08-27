@@ -225,6 +225,11 @@ L['options_icons_skittershaw_spin'] = '{achievement:40727}'
 L['options_icons_skittershaw_spin_desc'] = nil
 L['skittershaw_spin_note'] = nil
 
+L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
+L['options_icons_no_harm_from_reading_desc'] = nil
+L['no_harm_from_reading_note'] = nil
+L['another_you_4_note'] = nil
+
 L['memory_cache_note'] = nil
 L['niffen_stash_note'] = 'Расположен под мостом.'
 L['trapped_trove_note'] = nil

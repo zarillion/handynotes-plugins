@@ -31,7 +31,7 @@ L['mysterious_orb_note'] = '帶著底下的 {object:元素珍珠} 回去找 {npc
 L['thaks_treasure_note'] = '和 {npc:223227} 說話並跟著他.'
 L['trees_treasure_note'] = '和 {npc:222940} 說話來取得 {item:224185}. 引導多恩島上的 6x {npc:224548} ({dot:Green}) 回到 {npc:222940}. 當你引導所有的螃蟹回去後, 回到山洞內和 {npc:222940} 說話.'
 L['turtles_thanks_1_note'] = '繳交 5x {item:220143} (可以從 {object:平靜水面漣漪} 魚群釣到, 或是從拍賣場購買). {note:離開此區域再馬上回來可以再交下條魚.}'
-L['turtles_thanks_2_note'] =  '繳交 1x {item:222533} (可以從 {object:微光水池}, {object:膿瘡腐池}, {object:倒翻的灌注膿液} 等魚群釣到, 或是從拍賣場購買).'
+L['turtles_thanks_2_note'] = '繳交 1x {item:222533} (可以從 {object:微光水池}, {object:膿瘡腐池}, {object:倒翻的灌注膿液} 等魚群釣到, 或是從拍賣場購買).'
 L['turtles_thanks_3_note'] = '在 {location:多恩諾加} 找到 {npc:223338} 並和他說話來接露寶藏.'
 L['web_wrapped_axe_note'] = '在一樓.\n\n{note:重生時間1-2小時.}'
 
@@ -230,6 +230,11 @@ L['smelling_history_12_location'] = nil
 L['options_icons_skittershaw_spin'] = '{achievement:40727}'
 L['options_icons_skittershaw_spin_desc'] = '顯示成就 {achievement:40727} 飛掠拉車路線位置.'
 L['skittershaw_spin_note'] = nil
+
+L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
+L['options_icons_no_harm_from_reading_desc'] = nil
+L['no_harm_from_reading_note'] = nil
+L['another_you_4_note'] = nil
 
 L['memory_cache_note'] = '從附近 {spell:420847} from a nearby ({dot:Blue}) {object:Extractor Storage}. After kill the {npc:223908} to get the {item:223870} to open the {object:記憶寶箱}.'
 L['niffen_stash_note'] = '在橋的下面。'

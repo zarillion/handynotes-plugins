@@ -88,6 +88,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Weave-rats for the [Itsy Bitsy Spider](https://www.wowhead.com/achievement=40624) achievement.
 * Books for the [Smelling History](https://www.wowhead.com/achievement=40542) achievement.
 * Skittershaw route for the [Skittershaw Spin](https://www.wowhead.com/achievement=40727) achievement.
+* Another You locations for the [No Harm Ever Came From Reading A Book](https://www.wowhead.com/achievement=40632) achievement.
 
 ## Localization
 
