@@ -109,7 +109,7 @@ L['caesper_note'] = 'Achetez un {item:225238} à ({dot:Blue}) {npc:217645} situ�
 L['dark_ritual_note'] = 'Interagissez avec le {object:Rituel des ténèbres} et battez toutes les {npc:226059}, {npc:226052}, et {npc:226062} pour récupérer l\' {object:Essence ombreuse}.'
 L['illuminated_footlocker_note'] = 'Attrapez 5x {spell:442389} chutant depuis la {npc:220703} pour recevoir l\'{spell:442529} et faire apparaître la {object:Cantine illuminée}.'
 L['illusive_kobyss_lure_note'] = 'Combinez les 4 objets pour créer l\'{item:225641} :'
-L['sunless_lure_location'] = 'Obtenu sur les {npc:215653} à la {location:Grève Sans-Soleil}.'
+L['sunless_lure_location'] = 'Obtenu sur les {npc:215653} à la {location:Grève Sans-Soleil}. Ils sont camouflés et utilisent un {npc:215623} comme appât.'
 L['sky_captains_sunken_cache_note'] = [[
 Parlez à quatre Capitaines des cieux différents à bord de leurs dirigeables pour révéler le trésor.
 
@@ -237,9 +237,19 @@ L['options_icons_skittershaw_spin_desc'] = 'Afficher l\'itinéraire de la Trotte
 L['skittershaw_spin_note'] = 'Chevauchez la {npc:224973} et faites un tour complet du quartier.\n\nLa {npc:224973} s\'arrêtera à ces emplacements {dot:Red} le long du trajet.'
 
 L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
-L['options_icons_no_harm_from_reading_desc'] = nil
-L['no_harm_from_reading_note'] = nil
-L['another_you_4_note'] = nil
+L['options_icons_no_harm_from_reading_desc'] = 'Afficher les emplacements des {npc:227421} pour le haut-fait {achievement:40632}.'
+L['no_harm_from_reading_note'] = [[
+Entrez dans la grotte ({dot:Yellow}) et dirigez-vous vers l'emplacement ({dot:Red}), escaladez le mur où se trouvent les 3 araignées, puis entrez dans le trou derrière l'araignée au sommet.
+
+Une fois que vous êtes passé à travers, interagissez avec le {object:Grimoire en chair} à proximité pour faire apparaître les 4 {npc:227421}.
+
+Les {npc:227421} disparaîtront alors et réapparaîtront à différents endroits de la zone.
+
+Retrouvez chaque {npc:227421} et interagissez avec eux pour les renvoyer vers le {object:Grimoire en chair}.
+
+Une fois que vous avez trouvé les 4 {npc:227421}, retournez au {object:Grimoire en chair} et parlez à {npc:227421}.
+]]
+L['another_you_4_note'] = 'Patrouille le long du chemin indiqué.'
 
 L['memory_cache_note'] = 'Obtenez le buff {spell:420847} à partir d\'une ({dot:Red}) {object:Remise de l\'extracteur} proche. Tuez le {npc:223908} pour obtenir la {item:223870} permettant d\'ouvrir la {object:Cache de souvenirs}.'
 L['niffen_stash_note'] = 'Situé sous le pont.'
