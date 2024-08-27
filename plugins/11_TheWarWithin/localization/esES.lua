@@ -10,6 +10,9 @@ L['skyriding_glyph'] = 'Glifo de Surcacielos'
 L['options_icons_skyriding_glyph'] = 'Glifos de Surcacielos'
 L['options_icons_skyriding_glyph_desc'] = 'Muestra dónde están los glifos de surcacielos.'
 
+L['options_icons_profession_treasures'] = 'Tesoros de Profesión'
+L['options_icons_profession_treasures_desc'] = 'Muestra dónde están los tesoros que garantizan conocimiento de profesión.'
+
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = 'Muestra dónde están los objetos históricos del logro {achievement:40762}.'
 

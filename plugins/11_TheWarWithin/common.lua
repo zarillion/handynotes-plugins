@@ -17,6 +17,11 @@ ns.expansion = 11
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
+ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.SKYRIDING_GLYPH = Group('skyriding_glyph', 4728198, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION

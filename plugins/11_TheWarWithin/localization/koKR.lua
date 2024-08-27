@@ -10,6 +10,9 @@ L['skyriding_glyph'] = nil
 L['options_icons_skyriding_glyph'] = nil
 L['options_icons_skyriding_glyph_desc'] = nil
 
+L['options_icons_profession_treasures'] = '전문기술 보물'
+L['options_icons_profession_treasures_desc'] = '전문기술 관련 지식을 습득할 수 있는 보물 위치를 표시합니다.'
+
 L['options_icons_khaz_algar_lore_hunter'] = nil
 L['options_icons_khaz_algar_lore_hunter_desc'] = nil
 

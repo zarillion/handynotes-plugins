@@ -1,3 +1,12 @@
+# v76
+
+* Professional treasures now have their own group.
+* Updated some rares:
+    * Notes for Deathtide and Parasidious (Hallowfall)
+    * Location for Strength of Beledar and Ravageant (Hallowfall)
+    * Rewards for Violet Hold Prisoners (Kereke, Rotfist, Zovex) (Isle of Dorn)
+* Updated localizations (deDE, zhCN)
+
 # v75
 
 * Added a note and a timer for Beledar's Spawn.

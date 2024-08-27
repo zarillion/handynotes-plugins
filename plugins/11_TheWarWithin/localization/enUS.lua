@@ -10,6 +10,9 @@ L['skyriding_glyph'] = 'Skyriding Glyph'
 L['options_icons_skyriding_glyph'] = 'Skyriding Glyphs'
 L['options_icons_skyriding_glyph_desc'] = 'Display the location of all skyriding glyphs.'
 
+L['options_icons_profession_treasures'] = 'Profession Treasures'
+L['options_icons_profession_treasures_desc'] = 'Display locations of treasures which grant profession knowledge.'
+
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = 'Display lore object locations for {achievement:40762} achievement.'
 

@@ -11,6 +11,9 @@ L['skyriding_glyph'] = 'Glyphe des Himmelsreitens'
 L['options_icons_skyriding_glyph'] = 'Glyphen des Himmelsreitens'
 L['options_icons_skyriding_glyph_desc'] = 'Zeigt die Positionen aller Glyphen des Himmelsreitens an.'
 
+L['options_icons_profession_treasures'] = 'Schätze für Berufe'
+L['options_icons_profession_treasures_desc'] = 'Zeigt die Positionen der Schätze, die für deinen Beruf Wissen gewähren.'
+
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = 'Zeigt die Positionen der Geschichtsobjekte für den Erfolg {achievement:40762} an.'
 
