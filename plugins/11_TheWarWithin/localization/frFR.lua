@@ -267,4 +267,4 @@ L['the_unseeming_note'] = 'Restez dans le bassin jusqu\'à ce que vous ayez 100x
 
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:40634}.'
-L['you_cant_hang_with_us_note'] = 'Trouvez une {npc:220986} avec l\'effet {spell:434734}, si vous vous tenez près d\'elle, elle vous appliquera l\'affaiblissement {spell:443190} (1 minute) ({note:Ne l\'attaquez pas !}). Trouvez un {npc:225408} pour obtenir 10x charges de {spell:454666}.'
+L['you_cant_hang_with_us_note'] = 'Trouvez une {npc:211816} avec l\'effet {spell:434734} et attaquez-la pour obtenir l\'affaiblissement {spell:443190} (1 minute). Un {npc:225408} interviendra ({note:Ne le tuez pas !}) et vous appliquera des charges de l\'affaiblissement {spell:454666}. À 10 charges, vous serez expulsé de force de la Cité.'
