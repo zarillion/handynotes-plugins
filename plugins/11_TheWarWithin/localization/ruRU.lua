@@ -235,3 +235,7 @@ L['niffen_stash_note'] = 'Расположен под мостом.'
 L['trapped_trove_note'] = nil
 
 L['tkaktath_note'] = nil
+
+L['options_icons_the_unseeming'] = '{achievement:40633}'
+L['options_icons_the_unseeming_desc'] = nil
+L['the_unseeming_note'] = nil

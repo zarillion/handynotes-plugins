@@ -136,6 +136,12 @@ ns.groups.SMELLING_HISTORY = Group('smelling_history', 4549130, {
     achievement = 40542
 })
 
+ns.groups.THE_UNSEEMING = Group('the_unseeming', 1386549, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40633
+})
+
 -------------------------------------------------------------------------------
 ---------------------------- KHAZ ALGAR LORE HUNTER ---------------------------
 -------------------------------------------------------------------------------

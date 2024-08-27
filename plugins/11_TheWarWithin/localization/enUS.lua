@@ -255,3 +255,7 @@ L['niffen_stash_note'] = 'Located under the bridge.'
 L['trapped_trove_note'] = 'In a building that hangs from the ceiling. Avoid the spiderwebs on the floor.'
 
 L['tkaktath_note'] = 'Starts a quest chain to get the {item:224150} mount.'
+
+L['options_icons_the_unseeming'] = '{achievement:40633}'
+L['options_icons_the_unseeming_desc'] = 'Display location for the {achievement:40633} achievement.'
+L['the_unseeming_note'] = 'Stand in the pool until you have 100x stacks {spell:420847}.'

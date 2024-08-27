@@ -256,3 +256,7 @@ L['niffen_stash_note'] = 'Situé sous le pont.'
 L['trapped_trove_note'] = 'Dans un bâtiment suspendu au plafond. Évitez les toiles d\'araignées au sol.'
 
 L['tkaktath_note'] = 'Démarre une suite de quêtes pour obtenir la monture {item:224150}.'
+
+L['options_icons_the_unseeming'] = '{achievement:40633}'
+L['options_icons_the_unseeming_desc'] = nil
+L['the_unseeming_note'] = nil

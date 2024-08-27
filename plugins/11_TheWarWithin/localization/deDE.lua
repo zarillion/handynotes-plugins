@@ -246,3 +246,7 @@ L['niffen_stash_note'] = 'Befindet sich unter der Brücke.'
 L['trapped_trove_note'] = 'In einem Gebäude das von der Decke hängt. Vermeide die Spinnweben am Boden.'
 
 L['tkaktath_note'] = 'Startet eine Questreihe, um das Reittier {item:224150} zu erhalten.'
+
+L['options_icons_the_unseeming'] = '{achievement:40633}'
+L['options_icons_the_unseeming_desc'] = 'Zeigt die Position für den Erfolg {achievement:40633} an.'
+L['the_unseeming_note'] = 'Stelle dich in die Pfütze bis du 100x Stapel {spell:420847} hast.'

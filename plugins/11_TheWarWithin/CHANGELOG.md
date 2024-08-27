@@ -1,8 +1,9 @@
 # v77
 
-* Fix location for Leatherworking profession treasure - Earthen Lacing Tools
+* Added the achievement [The Unseeming](https://www.wowhead.com/achievement=40633) (Azj-Kahet).
 * Updated Rare Rewards in Isle of Dorn and Ringing Deeps.
 * Add information for No Harm Ever Came From Reading A Book achievement in Azj-Kahet.
+* Fix location for Leatherworking profession treasure - Earthen Lacing Tools
 
 # v76
 

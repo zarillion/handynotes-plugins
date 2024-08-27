@@ -89,6 +89,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Books for the [Smelling History](https://www.wowhead.com/achievement=40542) achievement.
 * Skittershaw route for the [Skittershaw Spin](https://www.wowhead.com/achievement=40727) achievement.
 * Another You locations for the [No Harm Ever Came From Reading A Book](https://www.wowhead.com/achievement=40632) achievement.
+* Location for the [The Unseeming](https://www.wowhead.com/achievement=40633) achievement.
 
 ## Localization
 

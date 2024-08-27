@@ -245,3 +245,7 @@ L['niffen_stash_note'] = 'Está debajo del puente.'
 L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'
 
 L['tkaktath_note'] = 'Comienza una cadena de misiones para conseguir la montura {item:224150}.'
+
+L['options_icons_the_unseeming'] = '{achievement:40633}'
+L['options_icons_the_unseeming_desc'] = nil
+L['the_unseeming_note'] = nil

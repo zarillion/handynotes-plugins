@@ -245,3 +245,7 @@ L['niffen_stash_note'] = '在桥下。'
 L['trapped_trove_note'] = '在从天花板垂下的建筑物中。避开地板上的蜘蛛网。'
 
 L['tkaktath_note'] = '开始任务链以获取 {item:224150} 坐骑。'
+
+L['options_icons_the_unseeming'] = '{achievement:40633}'
+L['options_icons_the_unseeming_desc'] = nil
+L['the_unseeming_note'] = nil
