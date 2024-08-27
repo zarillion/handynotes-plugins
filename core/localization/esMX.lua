@@ -81,6 +81,7 @@ L['in_water'] = 'Bajo el agua.'
 L['in_building'] = nil
 
 ------------------------------------ TIME -------------------------------------
+L['now'] = 'Ahora'
 L['hourly'] = nil
 L['daily'] = nil
 L['weekly'] = 'Semanal'
