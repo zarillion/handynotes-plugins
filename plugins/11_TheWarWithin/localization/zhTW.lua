@@ -33,6 +33,7 @@ L['trees_treasure_note'] = '和 {npc:222940} 說話來取得 {item:224185}. 引�
 L['turtles_thanks_1_note'] = nil
 L['turtles_thanks_2_note'] = nil
 L['turtles_thanks_3_note'] = nil
+L['web_wrapped_axe_note'] = nil
 
 L['cendvin_note'] = nil
 

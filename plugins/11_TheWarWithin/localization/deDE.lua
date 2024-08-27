@@ -34,6 +34,7 @@ L['trees_treasure_note'] = 'Sprich mit {npc:222940}, um den {item:224185} zu erh
 L['turtles_thanks_1_note'] = 'Biete 5x {item:220143} an (kann in dem Schwarm {object:Ruhige Oberflächenwellen} geangelt oder im Auktionshaus gekauft werden). {note:Verlasse das Gebiet und kehre sofort zurück, um den nächsten Fisch anzubieten.}'
 L['turtles_thanks_2_note'] = 'Biete 1x {item:222533} an (kann in den Schwärmen {object:Glimmerbecken}, {object:Schwärender Fäulnisteich}, {object:Energieerfüllter Sekretfleck} geangelt oder im Auktionshaus gekauft werden).'
 L['turtles_thanks_3_note'] = 'Treffe dich mit der {npc:223338} in {location:Dornogal} und spreche mit ihr, um den Schatz zu enthüllen.'
+L['web_wrapped_axe_note'] = nil
 
 L['cendvin_note'] = 'Plündere 900x {item:225557} in {location:Aschenholtz} von Elitegegnern, um das Reittier {item:223153} von {npc:226205} kaufen zu können.'
 

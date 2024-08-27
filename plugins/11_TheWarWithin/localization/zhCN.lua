@@ -33,6 +33,7 @@ L['trees_treasure_note'] = '与 {npc:222940} 交谈，获得 {item:224185}。引
 L['turtles_thanks_1_note'] = '交出5个 {item:220143}（可从 {object:平静的浮面涟漪} 鱼点钓鱼或从拍卖行购买）。{note:离开该区域并立即返回交出下一条鱼。}'
 L['turtles_thanks_2_note'] = '交出1个 {item:222533}（可从 {object:浮光之池}，{object:溃烂的腐臭之池}，{object:Infused Ichor Spill} 鱼点钓鱼或从拍卖行购买）。'
 L['turtles_thanks_3_note'] = '在 {location:多恩诺嘉尔} 与 {npc:223338} 会面并与她交谈以发现宝藏。'
+L['web_wrapped_axe_note'] = '在一楼。\n\n{note:有1-2小时的刷新时间。}'
 
 L['cendvin_note'] = '在 {location:烬燧荒原} 从精英怪物那里获得900个 {item:225557} 之后从 {npc:226205} 购买 {item:223153} 坐骑。'
 
