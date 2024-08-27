@@ -250,3 +250,7 @@ L['tkaktath_note'] = 'Startet eine Questreihe, um das Reittier {item:224150} zu 
 L['options_icons_the_unseeming'] = '{achievement:40633}'
 L['options_icons_the_unseeming_desc'] = 'Zeigt die Position für den Erfolg {achievement:40633} an.'
 L['the_unseeming_note'] = 'Stelle dich in die Pfütze bis du 100x Stapel {spell:420847} hast.'
+
+L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
+L['options_icons_you_cant_hang_with_us_desc'] = 'Zeigt die Positionen für den Erfolg {achievement:40634} an.'
+L['you_cant_hang_with_us_note'] = 'Finde einen {npc:220986} mit dem Stärkungszauber {spell:434734} und stelle dich in seine Nähe, um den Schwächungszauber {spell:443190} (1 Minute) zu erhalten. ({note:Greife ihn nicht an!}). Finde einen {npc:225408}, um 10x Stapel des Schwächungszauber {spell:454666} zu erhalten.'

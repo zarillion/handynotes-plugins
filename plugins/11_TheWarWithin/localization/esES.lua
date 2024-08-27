@@ -249,3 +249,7 @@ L['tkaktath_note'] = 'Comienza una cadena de misiones para conseguir la montura 
 L['options_icons_the_unseeming'] = '{achievement:40633}'
 L['options_icons_the_unseeming_desc'] = nil
 L['the_unseeming_note'] = nil
+
+L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
+L['options_icons_you_cant_hang_with_us_desc'] = nil
+L['you_cant_hang_with_us_note'] = nil

@@ -90,6 +90,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Skittershaw route for the [Skittershaw Spin](https://www.wowhead.com/achievement=40727) achievement.
 * Another You locations for the [No Harm Ever Came From Reading A Book](https://www.wowhead.com/achievement=40632) achievement.
 * Location for the [The Unseeming](https://www.wowhead.com/achievement=40633) achievement.
+* Location for the [You Can't Hang With Us](https://www.wowhead.com/achievement=40634) achievement.
 
 ## Localization
 

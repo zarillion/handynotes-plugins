@@ -1,6 +1,7 @@
 # v77
 
 * Added the achievement [The Unseeming](https://www.wowhead.com/achievement=40633) (Azj-Kahet).
+* Added the achievement [You Can't Hang With Us](https://www.wowhead.com/achievement=40634) (Azj-Kahet).
 * Updated Rare Rewards in Isle of Dorn and Ringing Deeps.
 * Add information for No Harm Ever Came From Reading A Book achievement in Azj-Kahet.
 * Fix location for Leatherworking profession treasure - Earthen Lacing Tools

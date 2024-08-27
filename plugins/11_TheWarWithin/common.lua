@@ -142,6 +142,12 @@ ns.groups.THE_UNSEEMING = Group('the_unseeming', 1386549, {
     achievement = 40633
 })
 
+ns.groups.YOU_CANT_HANG_WITH_US = Group('you_cant_hang_with_us', 5763494, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40634
+})
+
 -------------------------------------------------------------------------------
 ---------------------------- KHAZ ALGAR LORE HUNTER ---------------------------
 -------------------------------------------------------------------------------

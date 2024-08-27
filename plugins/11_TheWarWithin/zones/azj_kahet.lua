@@ -21,6 +21,7 @@ local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
 
+local Circle = ns.poi.Circle
 local POI = ns.poi.POI
 local Path = ns.poi.Path
 
@@ -1009,6 +1010,23 @@ cot.nodes[62848495] = Collectible({
     note = L['the_unseeming_note'],
     group = ns.groups.THE_UNSEEMING,
     rewards = {Achievement({id = 40633})}
+})
+
+-------------------------------------------------------------------------------
+--------------------- ACHIEVEMENT: YOU CAN'T HANG WITH US ---------------------
+-------------------------------------------------------------------------------
+
+cot.nodes[71484785] = Collectible({
+    icon = 237431,
+    label = '{achievement:40634}',
+    note = L['you_cant_hang_with_us_note'],
+    group = ns.groups.YOU_CANT_HANG_WITH_US,
+    parent = {
+        id = map.id,
+        pois = {Path({Circle({origin = 49398151, radius = 10})})}
+    },
+    rewards = {Achievement({id = 40634})},
+    pois = {Path({Circle({origin = 51794724, radius = 25})})}
 })
 
 -------------------------------------------------------------------------------
