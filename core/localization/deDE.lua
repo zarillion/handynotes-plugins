@@ -59,8 +59,8 @@ L['hard'] = 'Schwer'
 
 L['completed'] = 'Abgeschlossen'
 L['incomplete'] = 'Unvollständig'
-L['claimed'] = nil
-L['unclaimed'] = nil
+L['claimed'] = 'Erhalten'
+L['unclaimed'] = 'Fehlt'
 L['known'] = 'Bekannt'
 L['missing'] = 'Fehlt'
 L['unobtainable'] = 'Nicht erhältlich'
@@ -205,8 +205,8 @@ L['options_all_transmog_rewards'] = 'Zeige nicht erhältliche Vorlagenbelohnunge
 L['options_all_transmog_rewards_desc'] = 'Zeigt Vorlagenbelohnungen an, die nur für andere Klassen erhältlich sind.'
 L['options_rep_rewards'] = 'Zeige Rufbelohnungen'
 L['options_rep_rewards_desc'] = 'Zeige Rufbelohnungen in Tooltips an und verfolge ihren Sammlungsstatus.'
-L['options_claimed_rep_rewards'] = nil
-L['options_claimed_rep_rewards_desc'] = nil
+L['options_claimed_rep_rewards'] = 'Zeige erhaltene Rufbelohnungen'
+L['options_claimed_rep_rewards_desc'] = 'Zeigt Rufbelohnungen an, die bereits von deiner Kriegsmeute erhalten wurden.'
 
 L['options_icons_misc_desc'] = 'Zeigt die Positionen von anderen nicht kategorisierten Punkten an.'
 L['options_icons_misc'] = 'Sonstiges'
