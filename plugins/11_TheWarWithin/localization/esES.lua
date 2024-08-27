@@ -173,11 +173,6 @@ L['gobbo_location'] = 'Dentro del edificio encima de la cama.'
 
 L['beledars_spawn_note'] = 'Este raro aparece en uno de muchos sitios a intérvalos fijos.\n\nSiguiente aparición en:\n{note:%s (%s)}'
 L['croakit_note'] = 'Pesca 10x {item:211474} de un {object:Banco de Mero Sombraceguera} cercano (o cómpralos en la casa de subastas) y lánzaselos para poder atacar al raro.'
-
-
-[[Para atacar a {npc:214757} primero tienes que pescar 10x {item:211474} del agua cercana.
-
-Una vez los tengas todos ve a {npc:214757} y échaselos.]]
 L['deathtide_note'] = 'Consigue {item:220122} {dot:Red} y {item:220124} {dot:Green}. Combínalos para crear la {item:220123} y poder invocar el raro en el {object:Altar Agorero}.'
 L['murkshade_note'] = 'Interactúa con {npc:218455}.'
 
