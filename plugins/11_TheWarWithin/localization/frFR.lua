@@ -21,7 +21,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Afficher les emplacements des 
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
-L['alunira_note'] = 'Récupérez 10x {item:224025} et combinez-les en un {item:224026} pour retirer son {spell:451570}.'
+L['alunira_note'] = 'Récupérez 10x {item:224025} sur des monstres de {location:L\'île de Dorn} et combinez-les en un {item:224026} pour retirer son {spell:451570}.'
 L['violet_hold_prisoner'] = 'Prisonnier du Fort Pourpre'
 
 L['elemental_geode_label'] = 'Géode élémentaire'
@@ -34,7 +34,7 @@ L['trees_treasure_note'] = 'Parlez à {npc:222940} pour obtenir une {item:224185
 L['turtles_thanks_1_note'] = 'Apportez 5x {item:220143} (à pêcher dans les {object:Clapotis de surface calme} ou à acheter à l\'hôtel des ventes). {note:Quittez la zone et revenez aussitôt pour donner le poisson suivant}.'
 L['turtles_thanks_2_note'] = 'Apportez 1x {item:222533} (à pêcher dans les {object:Bassin scintillant}, {object:Bassin de pourriture purulente}, {object:Éclaboussure d\'ichor imprégné} ou à acheter à l\'hôtel des ventes).'
 L['turtles_thanks_3_note'] = 'Rencontrez la {npc:223338} à {location:Dornogal} et parlez-lui pour faire apparaître le trésor.'
-L['web_wrapped_axe_note'] = nil
+L['web_wrapped_axe_note'] = 'On the first floor.\n\n{note:A un temps de réapparition de 1 à 2 heures.}'
 
 L['cendvin_note'] = 'Obtenez 900x {item:225557} sur les monstres élites à {location:Braiselande} pour acheter la monture {item:223153} à {npc:226205}.'
 
@@ -173,11 +173,8 @@ L['dander_location'] = 'À l\'extérieur.'
 L['gobbo_location'] = 'À l\'intérieur du bâtiment, sur le lit.'
 
 L['beledars_spawn_note'] = 'Ce rare apparaît à un de ces endroits à intervalle fixe.\n\nProchaine apparition dans:\n{note:%s (%s)}'
-L['croakit_note'] = [[Pour attaquer {npc:214757}, vous devez d'abord pêcher 10x {item:211474} dans l'eau à proximité.
-
-Une fois que vous avez tous les poissons, allez vers {npc:214757} et lancez-les-lui.]]
-L['deathtide_note'] = [[Pour l'invoquer, vous devez utiliser l'{item:220123} sur l'{object:Autel menaçant}.
-Vous devez combiner l'{item:220122} {dot:Red} et le {item:220124} {dot:Green} pour obtenir l'{item:220123}.]]
+L['croakit_note'] = 'Pêchez 10x {item:211474} au sein du {object:Banc de mérous sombrœil} proche (ou achetez-les à l\'hôtel des ventes) et lancez-les vers lui pour le rendre attaquable.'
+L['deathtide_note'] = 'Récupérez une {item:220122} {dot:Red} et un {item:220124} {dot:Green}. Combinez-les en l\'{item:220123} utilisée pour invoquer le rare à l\'{object:Autel menaçant}.'
 L['murkshade_note'] = 'Interagissez avec la {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
@@ -193,7 +190,7 @@ L['options_icons_beacon_of_hope_desc'] = 'Afficher les emplacements des flammecl
 
 L['beacon_of_hope_note'] = 'Donnez des {item:206350} pour allumer les flammeclés inférieures et achever les quêtes suivantes.'
 
-L['parasidious_note'] = 'Pour faire apparaître ce rare, vous devrez acheter des {item:206670} au {npc:206533} (activez la {object:Flammeclé inférieure} pour le faire apparaître), puis allez à la {location:Terre du Crépuscule} et tirez sur les {npc:206870}. En tirant, une vigne jaillira de vous jusqu\'à la {object:Terre retournée} et elle grandira/changera jusqu\'à ce que le rare apparaisse.'
+L['parasidious_note'] = 'Achetez 1x {item:206670} au {npc:206533} (allumez la {object:flammeclé inférieure} pour le faire apparaître), allez ensuite à la {location:Terre du Crépuscule} et tirez sur les {npc:206870} jusqu\'à ce que le rare apparaisse. {note: Il n\'apparaît que si la {npc:206978} se trouve à cet endroit}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
