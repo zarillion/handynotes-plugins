@@ -271,7 +271,7 @@ map.nodes[52032657] = Rare({
     rewards = {
         Achievement({id = 40837, criteria = 69629}),
         Reputation({id = 2594, gain = 150, quest = 84041}),
-        Transmog({item = 221220, slot = L['leather']}) -- Basilisk Scale Pauldrons
+        Transmog({item = 221220, slot = L['leather']}), -- Basilisk Scale Pauldrons
         Transmog({item = 221246, slot = L['staff']}), -- Fierce Beast Staff
         Transmog({item = 221247, slot = L['crossbow']}), -- Cavernous Critter Shooter
         Transmog({item = 221251, slot = L['2h_axe']}) -- Bestial Underground Cleaver
