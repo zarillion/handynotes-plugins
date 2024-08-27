@@ -1,3 +1,7 @@
+# v77
+
+* Fix location for Leatherworking profession treasure - Earthen Lacing Tools
+
 # v76
 
 * Professional treasures now have their own group.
