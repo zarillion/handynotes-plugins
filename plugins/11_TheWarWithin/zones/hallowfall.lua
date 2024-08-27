@@ -300,15 +300,17 @@ map.nodes[61981331] = Rare({ -- patrols
     }
 }) -- Murkspike
 
-map.nodes[61803220] = Rare({
+map.nodes[61613277] = Rare({
     id = 206977,
-    quest = 82563, -- review -- need rep quest id if triggered
-    note = L['parasidious_note'], -- review, text from wowhead comment
+    quest = 82563,
+    note = L['parasidious_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69725}),
-        Transmog({item = 223940, type = L['mail']}), -- Deranged Fungarian's Epaulets
-        Transmog({item = 221520, type = L['1h_sword']}) -- Creeping Lasher Machete
-    }
+        Reputation({id = 2570, gain = 150, quest = 84057}),
+        Transmog({item = 223940, type = L['mail']}), -- Deranged Fungarian's Epaulets -- review later
+        Transmog({item = 221250, type = L['1h_sword']}) -- Creeping Lasher Machete
+    },
+    pois = {POI({64463107})} -- Chef Dinaire
 }) -- Parasidious
 
 map.nodes[57304857] = Rare({
