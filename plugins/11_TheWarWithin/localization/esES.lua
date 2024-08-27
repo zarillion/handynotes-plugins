@@ -172,7 +172,7 @@ L['croakit_note'] = [[Para atacar a {npc:214757} primero tienes que pescar 10x {
 
 Una vez los tengas todos ve a {npc:214757} y échaselos.]]
 L['deathtide_note'] = [[Para invocarlo tienes que usar una {item:220123} en el {object:Altar Agorero}.
-Necesitarás combinar {item:220122} {dot:Blue} y {item:220124} {dot:Green} para conseguir la {item:220123}.]]
+Necesitarás combinar {item:220122} {dot:Red} y {item:220124} {dot:Green} para conseguir la {item:220123}.]]
 L['murkshade_note'] = 'Interactúa con {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'

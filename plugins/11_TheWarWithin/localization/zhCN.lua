@@ -172,7 +172,7 @@ L['croakit_note'] = [[要攻击 {npc:214757}，必须先从附近的水中钓出
 
 收集完所有鱼后，去找 {npc:214757} 并把它们扔给他。]] -- from wowhead, needs to be confirmed.
 L['deathtide_note'] = [[要召唤他，必须在 {object:不祥祭坛} 上使用 {item:220123}。
-需要结合 {item:220122} {dot:Blue} 和 {item:220124} {dot:Green} 来获得 {item:220123}。]]
+需要结合 {item:220122} {dot:Red} 和 {item:220124} {dot:Green} 来获得 {item:220123}。]]
 L['murkshade_note'] = '与 {npc:218455} 互动。'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'

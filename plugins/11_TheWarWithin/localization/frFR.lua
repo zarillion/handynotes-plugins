@@ -173,7 +173,7 @@ L['croakit_note'] = [[Pour attaquer {npc:214757}, vous devez d'abord pêcher 10x
 
 Une fois que vous avez tous les poissons, allez vers {npc:214757} et lancez-les-lui.]]
 L['deathtide_note'] = [[Pour l'invoquer, vous devez utiliser l'{item:220123} sur l'{object:Autel menaçant}.
-Vous devez combiner l'{item:220122} {dot:Blue} et le {item:220124} {dot:Green} pour obtenir l'{item:220123}.]]
+Vous devez combiner l'{item:220122} {dot:Red} et le {item:220124} {dot:Green} pour obtenir l'{item:220123}.]]
 L['murkshade_note'] = 'Interagissez avec la {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'

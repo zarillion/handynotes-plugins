@@ -132,9 +132,13 @@ map.nodes[44744241] = Rare({
         Transmog({item = 225997}) -- Earthen Adventurer's Spaulders
     },
     pois = {
-        POI({48001668, color = 'Green'}), -- Jar of Mucus
+        POI({points = {48001668, 48805020}, color = 'Green'}), -- Jar of Mucus
         POI({
-            28925120, 34185782, 34365357, 43451413, 50094966, 53771913, 55142344
+            points = {
+                28925120, 34185782, 34365357, 43451413, 50094966, 53771913,
+                55142344, 52385016
+            },
+            color = 'Red'
         }) -- Offering of Pure Water
     }
 }) -- Deathtide
