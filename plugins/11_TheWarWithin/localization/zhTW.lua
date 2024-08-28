@@ -35,7 +35,7 @@ L['turtles_thanks_2_note'] = '繳交 1x {item:222533} (可以從 {object:微光�
 L['turtles_thanks_3_note'] = '在 {location:多恩諾加} 找到 {npc:223338} 並和他說話來接露寶藏.'
 L['web_wrapped_axe_note'] = '在一樓.\n\n{note:重生時間1-2小時.}'
 
-L['cendvin_note'] = '在 {location:森德文} 的菁英怪農 900x {item:225557} 來從 {npc:226205} 購買 {item:223153} 坐騎.'
+L['cendvin_note'] = '在 {location:火渣林} 的菁英怪農 900x {item:225557} 來從 {npc:226205} 購買 {item:223153} 坐騎.'
 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = '顯示成就 {achievement:40606} 的位置.'
@@ -48,60 +48,64 @@ L['forgotten_treasure_note'] = '開啟附近的 {object:地底藏寶} 來取得 
 L['kaja_cola_machine_note'] = '以下列順序購買飲料 {item:223741} > {item:223743} > {item:223744} > {item:223742}.'
 
 L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
-L['options_icons_i_only_need_one_trip_desc'] = nil
-L['i_only_need_one_trip_note'] = nil
+L['options_icons_i_only_need_one_trip_desc'] = '顯示成就 {achievement:40623} 所需位置.'
+L['i_only_need_one_trip_note'] = '在世界任務 {wq:Courier Mission: Ore Recovery} 一次存入10個礦石'
 
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = '顯示成就 {achievement:40473} 所需的控制臺位置.'
 
-L['not_so_quick_fix_note'] = nil
-L['water_console_location'] = nil
-L['abyssal_console_location'] = nil
-L['taelloch_console_location'] = nil
-L['lost_console_location'] = nil
+L['not_so_quick_fix_note'] = '修復損壞的土靈控制臺'
+L['water_console_location'] = '在階梯旁.'
+L['abyssal_console_location'] = '在一個凹室內.'
+L['taelloch_console_location'] = '在橋上的兩個桶子間'
+L['lost_console_location'] = '在一個凹室內.'
 
 L['options_icons_notable_machines'] = '{achievement:40628}'
 L['options_icons_notable_machines_desc'] = '顯示成就 {achievement:40628} 所需的筆記位置.'
 
-L['notable_machines_note'] = nil
-L['fragment_I_location'] = nil
-L['fragment_II_location'] = nil
-L['fragment_III_location'] = nil
-L['fragment_IV_location'] = nil
-L['fragment_V_location'] = nil
-L['fragment_VI_location'] = nil
+L['notable_machines_note'] = '閱讀筆記.'
+L['fragment_I_location'] = '在地上.'
+L['fragment_II_location'] = '在岩架上.'
+L['fragment_III_location'] = '在建築頂端.'
+L['fragment_IV_location'] = '在木頭塔上 (推薦使用穩速飛行來取得).'
+L['fragment_V_location'] = '在階梯頂端的拱門上方.'
+L['fragment_VI_location'] = '在地上, 路燈旁邊.'
 
 L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
 L['options_icons_rocked_to_sleep_desc'] = '顯示成就 {achievement:40504} 顯示成就 {achievement:40504} 所需的名牌位置.'
 
-L['rocked_to_sleep_note'] = nil
-L['attwogaz_location'] = nil
-L['halthaz_location'] = nil
-L['krattdaz_location'] = nil
-L['uisgaz_location'] = nil
-L['venedaz_location'] = nil
-L['merunth_location'] = nil
-L['varerko_location'] = nil
-L['alfritha_location'] = nil
-L['gundrig_location'] = nil
-L['sathilga_location'] = nil
+L['rocked_to_sleep_note'] = '閱讀靜滯土靈的名牌'
+L['attwogaz_location'] = '在岩架上.'
+L['halthaz_location'] = '在柱子地基的岩架上.'
+L['krattdaz_location'] = '在兩個瀑布間岩架上.'
+L['uisgaz_location'] = '在岩架上.'
+L['venedaz_location'] = '在管線旁的平台上.'
+L['merunth_location'] = '在階梯上方的管線上.'
+L['varerko_location'] = '在岩架上.'
+L['alfritha_location'] = '坐在峭壁邊緣.'
+L['gundrig_location'] = '坐在岩架頂端.'
+L['sathilga_location'] = '在岩架上. 靠近土靈挖掘機建築旁.'
 
 L['trungal_note'] = '殺掉從山洞入口到內部的 {npc:220615} 來刷新.'
-L['disturbed_earthgorger_note'] = nil
-L['deepflayer_broodmother_note'] = nil
+L['disturbed_earthgorger_note'] = '使用額外動作技能 {spell:437003} 地板3次來刷新.'
+L['deepflayer_broodmother_note'] = '在高處飛行'
 L['lurker_note'] = '{note:需要5個玩家以召喚}\n\n在10秒內啟動5個 {dot:Red}{object:不顯眼的控制桿} 來召喚稀有.\n當成功啟動時你會看到區域性的廣播.'
 
-L['gnawbles_ruby_vendor_note'] = nil
+L['gnawbles_ruby_vendor_note'] = [[從 {object:受打擾的土地} 收集 {item:212493} 並交給 {npc:225166}.
+
+當你捐獻10次或是總共捐獻 50x {item:212493} 你會收到 1x {item:224642}.
+
+每個物品價值 1x {item:224642}.]]
 L['options_icons_disturbed_earth'] = '受打擾的土地'
 L['options_icons_disturbed_earth_desc'] = '顯示 {object:受打擾的土地} 的位置.'
 
 L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
-L['options_icons_gobblin_with_glublurp_desc'] = nil
-L['gobblin_with_glublurp_note'] = nil
+L['options_icons_gobblin_with_glublurp_desc'] = '顯示成就 {achievement:40614} 的位置.'
+L['gobblin_with_glublurp_note'] = '點擊一個 {dot:Red}{object:微光水晶} 來取得 {spell:456739}. 抓住一個在' .. ns.color.Orange('橘色圓圈') .. '飛行的 {npc:227138} 並帶回去給 {npc:227132}.\n\n(推薦使用穩速飛行來取得).'
 
-L['critter_love_note'] = nil
-L['options_icons_critter_love'] = nil
-L['options_icons_critter_love_desc'] = nil
+L['critter_love_note'] = '你必須要對小動物而不是戰寵使用表情 {emote:/love}.'
+L['options_icons_critter_love'] = '{achievement:40475}'
+L['options_icons_critter_love_desc'] = '顯示成就 {achievement:40475} 所需的小動物位置.'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
