@@ -200,6 +200,8 @@ L['beacon_of_hope_note'] = 'Donnez des {item:206350} pour allumer les flammeclé
 
 L['parasidious_note'] = 'Achetez 1x {item:206670} au {npc:206533} (allumez la {object:flammeclé inférieure} pour le faire apparaître), allez ensuite à la {location:Terre du Crépuscule} et tirez sur les {npc:206870} jusqu\'à ce que le rare apparaisse. {note: Il n\'apparaît que si la {npc:206978} se trouve à cet endroit}.'
 
+L['flamegards_hope_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

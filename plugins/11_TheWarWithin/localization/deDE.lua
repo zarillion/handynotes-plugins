@@ -200,6 +200,8 @@ L['beacon_of_hope_note'] = 'Steuert {item:206350} bei, um kleinere Schlüsselfla
 
 L['parasidious_note'] = 'Kaufe 1x {item:206670} von {npc:206533} (entfache die {object:Kleine Schlüsselflamme}, damit dieser erscheint). Gehe zum {location:Dämmerhöhenacker} und ziehe an {npc:206870} bis der seltene Gegner erscheint. {note: Kann nur erscheinen, wenn {npc:206978} an dieser Position ist.}'
 
+L['flamegards_hope_note'] = 'Hilf {npc:213319} 20 Tage lang die {npc:verletzten Soldaten} zu heilen.\n\nDu kannst auch einen {spell:372009} oder {item:211878} nutzen, wenn deine Klasse nicht heilen kann.'
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

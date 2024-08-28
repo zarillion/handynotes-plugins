@@ -1,6 +1,7 @@
 # v79
 
 * Added more criteria for the achievement [Beacon of Hope](https://www.wowhead.com/achievement=40308) (Hallowfall).
+* Added the achievement [Flamegard's Hope](https://www.wowhead.com/achievement=20594)
 * Fixed Earthshatter Lance item ID from Cragmund (The Ringing Deeps).
 * Fixed Tempest Lord Incarnus rewards (Isle of Dorn).
 

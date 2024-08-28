@@ -199,6 +199,8 @@ L['beacon_of_hope_note'] = 'Contribuye con {item:206350} para encender las llave
 
 L['parasidious_note'] = 'Compra unos {item:206670} al {npc:206533} (enciende la {object:Llave Ardiente Inferior} para hacer que aparezca) e ir al {location:Paraje Alzaocaso} y sacar {npc:206870} hasta que aparezca el raro. {note: Sólo aparece si hay un {npc:206978} donde estás}.'
 
+L['flamegards_hope_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
