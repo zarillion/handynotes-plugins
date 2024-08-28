@@ -387,25 +387,24 @@ ski.nodes[66331480] = SturdyChest({
 ------------------------------ NIGHTFALL SANCTUM ------------------------------
 -------------------------------------------------------------------------------
 
-nfs.nodes[70584444] = SturdyChest({
+nfs.nodes[70934454] = SturdyChest({
     achievementID = 40809,
     location = L['on_the_plant'],
     quest = 83670
 }) -- Sturdy Chest 1
 
-nfs.nodes[51905539] = SturdyChest({
+nfs.nodes[77783613] = SturdyChest({
     achievementID = 40809,
-    location = L['in_water'],
     quest = nil ------------------------------------ TODO: I MISSED THIS QUEST
 }) -- Sturdy Chest 2
 
-nfs.nodes[38887406] = SturdyChest({
+nfs.nodes[39147437] = SturdyChest({
     achievementID = 40809,
     location = L['in_building'],
     quest = 83454
 }) -- Sturdy Chest 3
 
-nfs.nodes[40203704] = SturdyChest({
+nfs.nodes[40023667] = SturdyChest({
     achievementID = 40809,
     location = L['sturdy_chest_ship_jump'],
     quest = 83701,
