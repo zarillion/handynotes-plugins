@@ -49,8 +49,8 @@ L['forgotten_treasure_note'] = 'Ouvrez les {object:Trésor enfoui} à proximité
 L['kaja_cola_machine_note'] = 'Achetez les boissons dans l\'ordre suivant : Dynamyrtille > O-pocalypse d\'orange > Fulgur\'huître > Mangomanie.'
 
 L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
-L['options_icons_i_only_need_one_trip_desc'] = nil
-L['i_only_need_one_trip_note'] = nil
+L['options_icons_i_only_need_one_trip_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:40623}.'
+L['i_only_need_one_trip_note'] = 'Déposez les 10 minerais en une seule fois pendant l\'expédition {wq:Mission de messagerie : récupération de minerai}.'
 
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Afficher les emplacements des consoles pour le haut-fait {achievement:40473}.'
