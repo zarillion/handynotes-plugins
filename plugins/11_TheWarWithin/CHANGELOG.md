@@ -4,6 +4,7 @@
 * Added the achievement [Flamegard's Hope](https://www.wowhead.com/achievement=20594)
 * Fixed Earthshatter Lance item ID from Cragmund (The Ringing Deeps).
 * Fixed Tempest Lord Incarnus rewards (Isle of Dorn).
+* Fixed Dustcrawler Beetle coords for the achievement [To All the Slimes I Love](https://www.wowhead.com/achievement=40475) (The Ringing Deeps).
 * Localization updates: deDE, esES, frFR, zhCN, zhTW
 
 # v78
