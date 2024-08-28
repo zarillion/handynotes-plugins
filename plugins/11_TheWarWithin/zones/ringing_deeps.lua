@@ -106,7 +106,7 @@ map.nodes[50994631] = Rare({
         Reputation({id = 2594, gain = 150, quest = 84042}),
         Transmog({item = 221205, slot = L['cloth']}), -- Vest of the River
         Transmog({item = 221507, slot = L['cloak']}), -- Earth Golem's Wrap
-        Transmog({item = 221554, slot = L['polearm']}) -- Earthshatter Lance
+        Transmog({item = 221254, slot = L['polearm']}) -- Earthshatter Lance
     }
 }) -- Cragmund
 

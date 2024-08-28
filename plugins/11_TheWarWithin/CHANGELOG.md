@@ -1,6 +1,7 @@
 # v79
 
 * Added more criteria for the achievement [Beacon of Hope](https://www.wowhead.com/achievement=40308).
+* Fixed Earthshatter Lance item ID from Cragmund.
 
 # v78
 
