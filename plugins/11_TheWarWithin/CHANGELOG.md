@@ -2,6 +2,7 @@
 
 * Added the achievement [I Only Need One Trip](https://www.wowhead.com/achievement=40623) (The Ringing Deeps).
 * Update Beledar's Spawn location to prevent it from overlapping with addons
+* Localization updates: deDE, esES, frFR, zhCN
 
 # v77
 
