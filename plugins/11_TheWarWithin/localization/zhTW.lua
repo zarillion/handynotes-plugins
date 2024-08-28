@@ -47,6 +47,10 @@ L['options_icons_flat_earthen_desc'] = '顯示成就 {achievement:40606} 的位�
 L['forgotten_treasure_note'] = '開啟附近的 {object:地底藏寶} 來取得 {item:217960}.'
 L['kaja_cola_machine_note'] = '以下列順序購買飲料 {item:223741} > {item:223743} > {item:223744} > {item:223742}.'
 
+L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
+L['options_icons_i_only_need_one_trip_desc'] = nil
+L['i_only_need_one_trip_note'] = nil
+
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = '顯示成就 {achievement:40473} 所需的控制臺位置.'
 

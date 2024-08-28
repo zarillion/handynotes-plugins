@@ -73,6 +73,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Note fragments for the [Notable Machines](https://www.wowhead.com/achievement=40628) achievement.
 * Plaques for the [Rocked to Sleep](https://www.wowhead.com/achievement=40504) achievement.
 * Glulgurp and Ethereal Glimmerling locations for [Gobblin' with Glublurp](https://www.wowhead.com/achievement=40614) achievement.
+* Location for the [I Only Need One Trip](https://www.wowhead.com/achievement=40623) achievement.
 
 ### Hallowfall
 

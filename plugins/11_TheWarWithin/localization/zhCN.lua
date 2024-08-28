@@ -47,6 +47,10 @@ L['options_icons_flat_earthen_desc'] = '显示 {achievement:40606} 成就中的�
 L['forgotten_treasure_note'] = '打开附近 {object:埋藏的宝藏} 获得 {item:217960}。'
 L['kaja_cola_machine_note'] = '按以下顺序购买饮品：{item:223741} > {item:223743} > {item:223744} > {item:223742}。'
 
+L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
+L['options_icons_i_only_need_one_trip_desc'] = nil
+L['i_only_need_one_trip_note'] = nil
+
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = '显示 {achievement:40473} 成就中控制台位置。'
 

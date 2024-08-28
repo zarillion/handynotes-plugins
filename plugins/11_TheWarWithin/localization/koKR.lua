@@ -47,6 +47,10 @@ L['options_icons_flat_earthen_desc'] = nil
 L['forgotten_treasure_note'] = nil
 L['kaja_cola_machine_note'] = nil
 
+L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
+L['options_icons_i_only_need_one_trip_desc'] = nil
+L['i_only_need_one_trip_note'] = nil
+
 L['options_icons_not_so_quick_fix'] = nil
 L['options_icons_not_so_quick_fix_desc'] = nil
 

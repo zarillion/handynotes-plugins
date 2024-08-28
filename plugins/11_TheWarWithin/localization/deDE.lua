@@ -48,6 +48,10 @@ L['options_icons_flat_earthen_desc'] = 'Zeigt die Position für den Erfolg {achi
 L['forgotten_treasure_note'] = 'Öffne die {object:Vergrabener Schatz} Truhen in der Nähe, um {item:217960} zu erhalten.'
 L['kaja_cola_machine_note'] = 'Kaufe die Getränke in der folgenden Reihenfolge: Bluesberry Blast > Orange O-pocalypse > Austernausbruch > Mangorowahnsinn.'
 
+L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
+L['options_icons_i_only_need_one_trip_desc'] = 'Zeigt die Position für den Erfolg {achievement:40623} an.'
+L['i_only_need_one_trip_note'] = 'Liefere alle 10 Erzbrocken in der Weltquest {wq:Kuriermission Erzsammlung} auf einmal ab.'
+
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Zeigt die Positionen der Konsolen für den Erfolg {achievement:40473} an.'
 

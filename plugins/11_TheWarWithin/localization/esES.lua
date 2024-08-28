@@ -47,6 +47,10 @@ L['options_icons_flat_earthen_desc'] = 'Muestra los sitios para el logro {achiev
 L['forgotten_treasure_note'] = 'Abre los {object:Tesoro Enterrado} cercanos para conseguir la {item:217960}.'
 L['kaja_cola_machine_note'] = 'Compra bebidas en el orden siguiente: {item:223741} > {item:223743} > {item:223744} > {item:223742}.'
 
+L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
+L['options_icons_i_only_need_one_trip_desc'] = nil
+L['i_only_need_one_trip_note'] = nil
+
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Muestra dónde están las consolas del logro {achievement:40473}.'
 

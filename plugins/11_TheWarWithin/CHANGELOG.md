@@ -1,3 +1,8 @@
+# v78
+
+* Added the achievement [I Only Need One Trip](https://www.wowhead.com/achievement=40623) (The Ringing Deeps).
+* Update Beledar's Spawn location to prevent it from overlapping with addons
+
 # v77
 
 * Added the achievement [No Harm Ever Came From Reading A Book](https://www.wowhead.com/achievement=40632) (Azj-Kahet).

@@ -47,6 +47,10 @@ L['options_icons_flat_earthen_desc'] = 'Display location for {achievement:40606}
 L['forgotten_treasure_note'] = 'Open {object:Buried Treasure}s nearby to get the {item:217960}.'
 L['kaja_cola_machine_note'] = 'Purchase drinks in the following order: {item:223741} > {item:223743} > {item:223744} > {item:223742}.'
 
+L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
+L['options_icons_i_only_need_one_trip_desc'] = 'Display location for the {achievement:40623} achievement.'
+L['i_only_need_one_trip_note'] = 'Deposit all 10 ore at once in the {wq:Courier Mission: Ore Recovery} world quest.'
+
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Display console locations for {achievement:40473} achievement.'
 
