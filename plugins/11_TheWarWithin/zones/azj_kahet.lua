@@ -1004,12 +1004,13 @@ map.nodes[56874401] = NoHarmFromReading({
 -------------------------- ACHIEVEMENT: THE UNSEEMING -------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[62848495] = Collectible({
+akl.nodes[62848495] = Collectible({
     icon = 1386549,
     label = '{achievement:40633}',
     note = L['the_unseeming_note'],
     group = ns.groups.THE_UNSEEMING,
-    rewards = {Achievement({id = 40633})}
+    rewards = {Achievement({id = 40633})},
+    parent = map.id
 })
 
 -------------------------------------------------------------------------------
