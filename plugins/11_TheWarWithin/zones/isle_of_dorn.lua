@@ -237,8 +237,8 @@ map.nodes[56891601] = Rare({
     rewards = {
         Achievement({id = 40435, criteria = 68219}),
         Reputation({id = 2590, gain = 150, quest = 84030}),
-        Transmog({item = 22, slot = L['']}), -- Storm Bindings
-        Transmog({item = 22, slot = L['']}) -- Stormbreaker's Shield
+        Transmog({item = 221230, slot = L['mail']}), -- Storm Bindings
+        Transmog({item = 221236, slot = L['shield']}) -- Stormbreaker's Shield
     },
     pois = {Path({56891601, 57401625, 57761653})}
 }) -- Tempest Lord Incarnus
