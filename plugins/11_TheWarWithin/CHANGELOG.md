@@ -1,3 +1,7 @@
+# v79
+
+* Added more criteria for the achievement [Beacon of Hope](https://www.wowhead.com/achievement=40308).
+
 # v78
 
 * Added the achievement [I Only Need One Trip](https://www.wowhead.com/achievement=40623) (The Ringing Deeps).
