@@ -75,7 +75,7 @@ function BeledarsSpawn.getters:note()
         date(timeFormat, nextSpawn))
 end
 
-map.nodes[15004000] = BeledarsSpawn()
+map.nodes[25004500] = BeledarsSpawn()
 
 -- map.nodes[08002000] = Rare({
 --     id = 220159,
