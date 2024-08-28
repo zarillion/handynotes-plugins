@@ -4,12 +4,13 @@
 * Added the achievement [Flamegard's Hope](https://www.wowhead.com/achievement=20594)
 * Fixed Earthshatter Lance item ID from Cragmund (The Ringing Deeps).
 * Fixed Tempest Lord Incarnus rewards (Isle of Dorn).
+* Localization updates: deDE, esES, frFR, zhCN, zhTW
 
 # v78
 
 * Added the achievement [I Only Need One Trip](https://www.wowhead.com/achievement=40623) (The Ringing Deeps).
 * Update Beledar's Spawn location to prevent it from overlapping with addons
-* Localization updates: deDE, esES, frFR, zhCN
+* Localization updates: deDE, esES, frFR, zhCN, zhTW
 
 # v77
 
