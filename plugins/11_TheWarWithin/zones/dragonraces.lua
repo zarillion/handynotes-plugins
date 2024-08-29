@@ -17,6 +17,7 @@ local RingingDeeps = ns.maps[2214]
 local Hallowfall = ns.maps[2215]
 local AzjKahet = ns.maps[2255]
 
+local Dornogal = ns.maps[2339]
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
@@ -149,15 +150,16 @@ end
 -------------------------------- TWW ---------------------------------
 -------------------------------------------------------------------------------
 
-IsleOfDorn.nodes[10101010] = Dragonrace({
+Dornogal.nodes[43471165] = Dragonrace({
     label = '{quest:81799}',
+    parent = IsleOfDorn,
     normal = {2923, 0, 0},
     advanced = {2929, 0, 0},
     reverse = {2935, 0, 0},
     rewards = IsleOfDorn_Rewards(1)
 }) -- Dornogal Drift
 
-IsleOfDorn.nodes[38604340] = Dragonrace({
+IsleOfDorn.nodes[38574346] = Dragonrace({
     label = '{quest:81802}',
     normal = {2924, 0, 0},
     advanced = {2930, 0, 0},
@@ -165,7 +167,7 @@ IsleOfDorn.nodes[38604340] = Dragonrace({
     rewards = IsleOfDorn_Rewards(2)
 }) -- Storm's Watch Survey
 
-IsleOfDorn.nodes[53406420] = Dragonrace({
+IsleOfDorn.nodes[53486421] = Dragonrace({
     label = '{quest:81803}',
     normal = {2925, 0, 0},
     advanced = {2931, 0, 0},
@@ -189,7 +191,7 @@ IsleOfDorn.nodes[58332485] = Dragonrace({
     rewards = IsleOfDorn_Rewards(5)
 }) -- Thunderhead Trail
 
-IsleOfDorn.nodes[10101010] = Dragonrace({
+IsleOfDorn.nodes[32937483] = Dragonrace({
     label = '{quest:81806}',
     normal = {2928, 0, 0},
     advanced = {2934, 0, 0},
