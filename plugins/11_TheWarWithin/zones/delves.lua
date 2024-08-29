@@ -443,87 +443,125 @@ for _, m in pairs(maps) do
 end
 
 local DELVE_REWARDS = {
-    [7863] = { -- Earthcrawl Mines
-        Achievement({
-            id = 40806,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40527, criteria = {68758, 68759, 68760}})
-    },
-    [7864] = { -- Fungal Folly
-        Achievement({
-            id = 40803,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40525, criteria = {68752, 68753, 68754}})
-    },
-    [7865] = { -- Kriegval's Rest -- Bountiful: 7781
-        Achievement({
-            id = 40807,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40526, criteria = {68755, 68756, 68757}})
-    },
-    [7866] = { -- The Waterworks -- Bountiful: 7782
-        Achievement({
-            id = 40816,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40528, criteria = {68761, 68762, 68763}})
-    },
-    [7867] = { -- The Dread Pit
-        Achievement({
-            id = 40812,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40529, criteria = {68764, 68765, 68766}})
-    },
-    [7868] = { -- Nightfall Sanctum
-        Achievement({
-            id = 40809,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40530, criteria = {68767, 68768, 68769}})
-    },
-    [7869] = { -- Mycomancer Cavern -- Bountiful: 7780
+    -- FUNGARIAN DELVES -------------------------------------------------------
+    ['mycomancer_cavern'] = {
         Achievement({
             id = 40808,
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40531, criteria = {68770, 68771, 68772}})
+        }), Achievement({id = 40531, criteria = {68770, 68771, 68772}}),
+        Achievement({id = 40445, oneline = true}) -- Sporesweeper
     },
-    [7870] = { -- The Sinkhole
+    ['fungal_folly'] = {
+        Achievement({
+            id = 40803,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40525, criteria = {68752, 68753, 68754}}),
+        Achievement({id = 40445, oneline = true}) -- Sporesweeper
+    },
+    -- KOBOLD DELVES ----------------------------------------------------------
+    ['kriegvals_rest'] = {
+        Achievement({
+            id = 40807,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40526, criteria = {68755, 68756, 68757}}),
+        Achievement({id = 40446, oneline = true}) -- I TAKE Candle!
+    },
+    ['the_waterworks'] = {
+        Achievement({
+            id = 40816,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40528, criteria = {68761, 68762, 68763}}),
+        Achievement({id = 40446, oneline = true}) -- I TAKE Candle!
+    },
+    -- KOBYSS DELVES ----------------------------------------------------------
+    ['the_sinkhole'] = {
         Achievement({
             id = 40813,
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40532, criteria = {68773, 68774, 68775}})
+        }), Achievement({id = 40532, criteria = {68773, 68774, 68775}}),
+        Achievement({id = 40452, oneline = true}) -- Just Keep Swimming
     },
-    [7871] = { -- Skittering Berach
-        Achievement({
-            id = 40810,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40533, criteria = {68776, 68777, 68778}})
-    },
-    [7872] = { -- The Underkeep
-        Achievement({
-            id = 40815,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40534, criteria = {68779, 68780, 68781, 68782}})
-    },
-    [7873] = { -- Tek-Rethan Abyss -- Bountiful: 7784
+    ['tek_rethan_abyss'] = {
         Achievement({
             id = 40811,
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40535, criteria = {68783, 68784, 68785}})
+        }), Achievement({id = 40535, criteria = {68783, 68784, 68785}}),
+        Achievement({id = 40452, oneline = true}) -- Just Keep Swimming
     },
-    [7874] = { -- The Spiral Weave
+    -- NERUBIAN DELVES --------------------------------------------------------
+    ['earthcrawl_mines'] = {
+        Achievement({
+            id = 40806,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40527, criteria = {68758, 68759, 68760}}),
+        Achievement({id = 40453, oneline = true}) -- Spider Sense
+    },
+    ['the_dread_pit'] = {
+        Achievement({
+            id = 40812,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40529, criteria = {68764, 68765, 68766}}),
+        Achievement({id = 40453, oneline = true}) -- Spider Sense
+    },
+    ['the_spiral_weave'] = {
         Achievement({
             id = 40814,
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40536, criteria = {68786, 68787, 68788}})
+        }), Achievement({id = 40536, criteria = {68786, 68787, 68788}}),
+        Achievement({id = 40453, oneline = true}) -- Spider Sense
+    },
+    ['the_underkeep'] = {
+        Achievement({
+            id = 40815,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40534, criteria = {68779, 68780, 68781, 68782}}),
+        Achievement({id = 40453, oneline = true}) -- Spider Sense
+    },
+    -- ORDER OF THE NIGHT DELVES ----------------------------------------------
+    ['nightfall_sanctum'] = {
+        Achievement({
+            id = 40809,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40530, criteria = {68767, 68768, 68769}}),
+        Achievement({id = 40454, oneline = true}) -- Daystormer
+    },
+    ['skittering_breach'] = {
+        Achievement({
+            id = 40810,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 40533, criteria = {68776, 68777, 68778}}),
+        Achievement({id = 40454, oneline = true}) -- Daystormer
     }
 }
 
+local DELVE_AREA_POIS = {
+    -- NORMAL DELVES ----------------------------------------------------------
+    [7863] = DELVE_REWARDS['earthcrawl_mines'],
+    [7864] = DELVE_REWARDS['fungal_folly'],
+    [7865] = DELVE_REWARDS['kriegvals_rest'],
+    [7866] = DELVE_REWARDS['the_waterworks'],
+    [7867] = DELVE_REWARDS['the_dread_pit'],
+    [7868] = DELVE_REWARDS['nightfall_sanctum'],
+    [7869] = DELVE_REWARDS['mycomancer_cavern'],
+    [7870] = DELVE_REWARDS['the_sinkhole'],
+    [7871] = DELVE_REWARDS['skittering_breach'],
+    [7872] = DELVE_REWARDS['the_underkeep'],
+    [7873] = DELVE_REWARDS['tek_rethan_abyss'],
+    [7874] = DELVE_REWARDS['the_spiral_weave'],
+    -- BOUNTIFUL DELVES -------------------------------------------------------
+    [7780] = DELVE_REWARDS['mycomancer_cavern'],
+    [7781] = DELVE_REWARDS['kriegvals_rest'],
+    [7782] = DELVE_REWARDS['the_waterworks'],
+    [7784] = DELVE_REWARDS['tek_rethan_abyss']
+}
+
 hooksecurefunc(DelveEntrancePinMixin, 'OnMouseEnter', function(self)
-    if not DELVE_REWARDS[self.areaPoiID] then return end
+    if not DELVE_AREA_POIS[self.areaPoiID] then return end
     local mapID = self:GetMap().mapID
     local group = ns.groups.DELVE_REWARDS
     if group:GetDisplay(mapID) then
         GameTooltip:AddLine(' ')
-        local rewards = DELVE_REWARDS[self.areaPoiID]
+        local rewards = DELVE_AREA_POIS[self.areaPoiID]
         for _, reward in pairs(rewards) do
             if reward and reward:IsEnabled() then
                 reward:Render(GameTooltip)
