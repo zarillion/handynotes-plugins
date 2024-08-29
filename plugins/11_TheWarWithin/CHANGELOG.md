@@ -1,3 +1,7 @@
+# v80
+
+* Localization updates: zhTW
+
 # v79
 
 * Added more criteria for the achievement [Beacon of Hope](https://www.wowhead.com/achievement=40308) (Hallowfall).
