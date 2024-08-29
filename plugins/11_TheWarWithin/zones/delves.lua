@@ -15,7 +15,7 @@ local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 
-local kvr = Map({id = 2681, settings = false}) -- Kriegval's Rest
+local kvr = Map({id = 2250, settings = false}) -- Kriegval's Rest
 local tuk = Map({id = 2690, settings = false}) -- The Underkeep
 local ecm = Map({id = 2269, settings = false}) -- Earthcrawl Mines
 local mmc = Map({id = 2679, settings = false}) -- Mycomancer Cavern
@@ -23,7 +23,7 @@ local tdp = Map({id = 2302, settings = false}) -- The Dread Pit
 local tww = Map({id = 2251, settings = false}) -- The Waterworks
 local tsw = Map({id = 2347, settings = false}) -- The Sprial Weave
 local tsh = Map({id = 2687, settings = false}) -- The Sinkhole
-local fol = Map({id = 2664, settings = false}) -- Fungal Folly
+local fol = Map({id = 2249, settings = false}) -- Fungal Folly
 local ski = Map({id = 2685, settings = false}) -- Skittering Breach
 local nfs = Map({id = 2277, settings = false}) -- Nightfall Sanctum
 local tra = Map({id = 2689, settings = false}) -- Tak-Rethan Abyss
@@ -48,6 +48,10 @@ L['sturdy_chest_disclaimer'] = '{note:May not be available during the current st
 L['on_the_plant'] = 'On the plant.'
 
 -- THESE LOCATION NOTES WILL PROBABLY BE UNIQUE AND USED ONLY ONCE.
+L['fol_chest_1_location'] = 'On the rock under the mushrooms in the bushes.'
+L['fol_chest_3_location'] = 'At the bottom of the waterfall.'
+L['fol_use_mushrooms'] = 'Jump on the mushrooms along the path.'
+L['kvr_chest_2_location'] = 'On top of the wooden scaffold.'
 L['sturdy_chest_ship_jump'] = 'Jump down from the skyship.'
 L['sturdy_chest_crane'] = 'On the crane. Jump from the upper level.'
 L['sturdy_chest_beam'] = 'High up on the beam.'
@@ -90,32 +94,22 @@ local SturdyChest = Class('SturdyChest', Collectible, {
 ------------------------------- KRIEGVAL'S REST -------------------------------
 -------------------------------------------------------------------------------
 
-kvr.nodes[46472000] = SturdyChest({
+kvr.nodes[46251972] = SturdyChest({
     achievementID = 40807,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('1/4')
+    quest = nil -- TODO: I MISSED THIS QUEST
 }) -- Sturdy Chest 1
 
-kvr.nodes[62105315] = SturdyChest({
+kvr.nodes[62135285] = SturdyChest({
     achievementID = 40807,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('2/4')
+    location = L['kvr_chest_2_location'],
+    quest = 83698
 }) -- Sturdy Chest 2
 
-kvr.nodes[74406953] = SturdyChest({
-    achievementID = 40807,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('3/4')
-}) -- Sturdy Chest 3
+kvr.nodes[74467020] = SturdyChest({achievementID = 40807, quest = 83683}) -- Sturdy Chest 3
 
-kvr.nodes[69508531] = SturdyChest({
+kvr.nodes[69958519] = SturdyChest({
     achievementID = 40807,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('4/4')
+    quest = nil -- TODO: I MISSED THIS QUEST
 }) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
@@ -295,39 +289,44 @@ tsh.nodes[48646947] = SturdyChest({
 -------------------------------- FUNGAL FOLLY ---------------------------------
 -------------------------------------------------------------------------------
 
-fol.nodes[58384691] = SturdyChest({
+fol.nodes[58784691] = SturdyChest({
     achievementID = 40803,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('1/5')
+    location = L['fol_chest_1_location'],
+    quest = nil -- TODO: I MISSED THIS QUEST
 }) -- Sturdy Chest 1
 
-fol.nodes[32977397] = SturdyChest({
+fol.nodes[32747411] = SturdyChest({
     achievementID = 40803,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('2/5')
+    location = L['fol_use_mushrooms'],
+    quest = nil, -- TODO: I MISSED THIS QUEST
+    pois = {Path({34516795, 33106726, 30986856, 30937054, 32747411})}
 }) -- Sturdy Chest 2
 
-fol.nodes[34416533] = SturdyChest({
+fol.nodes[34456569] = SturdyChest({
     achievementID = 40803,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('3/5')
+    location = L['fol_chest_3_location'],
+    quest = 83689
 }) -- Sturdy Chest 3
 
-fol.nodes[49343576] = SturdyChest({
+fol.nodes[49583598] = SturdyChest({
     achievementID = 40803,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('4/5')
+    location = L['in_water'],
+    quest = 83452,
+    rewards = {
+        ns.reward.Toy({item = 225556}) -- Ancient Construct
+    }
 }) -- Sturdy Chest 4
 
-fol.nodes[35642007] = SturdyChest({
+fol.nodes[53334138] = SturdyChest({
     achievementID = 40803,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('5/5')
+    location = L['fol_use_mushrooms'],
+    quest = 83690,
+    rlabel = ns.status.Gray('5/5'),
+    pois = {
+        Path({
+            57845665, 55845497, 53845005, 53244437, 55674511, 55744326, 53334138
+        })
+    }
 }) -- Sturdy Chest 5
 
 -------------------------------------------------------------------------------
@@ -456,13 +455,13 @@ local DELVE_REWARDS = {
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
         }), Achievement({id = 40525, criteria = {68752, 68753, 68754}})
     },
-    [7865] = { -- Kriegval's Rest
+    [7865] = { -- Kriegval's Rest -- Bountiful: 7781
         Achievement({
             id = 40807,
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
         }), Achievement({id = 40526, criteria = {68755, 68756, 68757}})
     },
-    [7866] = { -- The Waterworks
+    [7866] = { -- The Waterworks -- Bountiful: 7782
         Achievement({
             id = 40816,
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
@@ -480,7 +479,7 @@ local DELVE_REWARDS = {
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
         }), Achievement({id = 40530, criteria = {68767, 68768, 68769}})
     },
-    [7869] = { -- Mycomancer Cavern
+    [7869] = { -- Mycomancer Cavern -- Bountiful: 7780
         Achievement({
             id = 40808,
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
@@ -504,7 +503,7 @@ local DELVE_REWARDS = {
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
         }), Achievement({id = 40534, criteria = {68779, 68780, 68781, 68782}})
     },
-    [7873] = { -- Tek-Rethan Abyss
+    [7873] = { -- Tek-Rethan Abyss -- Bountiful: 7784
         Achievement({
             id = 40811,
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
