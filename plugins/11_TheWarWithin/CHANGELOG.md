@@ -1,6 +1,6 @@
 # v80
 
-* Localization updates: frFR, zhTW
+* Localization updates: deDE, frFR, zhTW
 
 # v79
 

@@ -34,7 +34,7 @@ L['trees_treasure_note'] = 'Sprich mit {npc:222940}, um den {item:224185} zu erh
 L['turtles_thanks_1_note'] = 'Biete 5x {item:220143} an (kann in dem Schwarm {object:Ruhige Oberflächenwellen} geangelt oder im Auktionshaus gekauft werden). {note:Verlasse das Gebiet und kehre sofort zurück, um den nächsten Fisch anzubieten.}'
 L['turtles_thanks_2_note'] = 'Biete 1x {item:222533} an (kann in den Schwärmen {object:Glimmerbecken}, {object:Schwärender Fäulnisteich}, {object:Energieerfüllter Sekretfleck} geangelt oder im Auktionshaus gekauft werden).'
 L['turtles_thanks_3_note'] = 'Treffe dich mit der {npc:223338} in {location:Dornogal} und spreche mit ihr, um den Schatz zu enthüllen.'
-L['web_wrapped_axe_note'] = nil
+L['web_wrapped_axe_note'] = 'In der ersten Etage.\n\n{note:Erscheint erst wieder nach 1 bis 2 Stunden.}'
 
 L['cendvin_note'] = 'Plündere 900x {item:225557} in {location:Aschenholtz} von Elitegegnern, um das Reittier {item:223153} von {npc:226205} kaufen zu können.'
 
@@ -134,8 +134,8 @@ L['lost_necklace_note'] = 'Plündere ein {object:Verlorenes Andenken} von der Ka
 L['priory_satchel_location'] = 'Hängt an der Kante der Kathedrale.'
 L['smugglers_treasure_note'] = 'Plündere den {item:225335} von der Leiche des {npc:226025} ({dot:Blue}) unterhalb der Klippe.'
 L['smugglers_treasure_location'] = 'Oben auf der Klippe zwischen mehreren Felsen.'
-L['coral_fused_clam'] = nil
-L['coral_fused_clam_note'] = nil
+L['coral_fused_clam'] = 'Korallenverschmolzene Muschel'
+L['coral_fused_clam_note'] = 'Plündere den {item:218354} aus dem {object:Set des Muschelfischers}, um die Muschel zu öffnen.'
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
 L['options_icons_biblo_archivist_desc'] = 'Zeigt die Positionen der Bücher für den Erfolg {achievement:40622} an.'
@@ -196,7 +196,7 @@ L['barracks_doorway_location'] = 'Ziele auf den Eingang des rot-goldenen Zeltes 
 L['options_icons_beacon_of_hope'] = '{achievement:40308}'
 L['options_icons_beacon_of_hope_desc'] = 'Zeigt die Positionen der kleinen Schlüsselflammen für den Erfolg {achievement:40308} an.'
 
-L['beacon_of_hope_note'] = 'Steuert {item:206350} bei, um kleinere Schlüsselflammen zu entzünden und die folgenden Quests abzuschließen. '
+L['beacon_of_hope_note'] = 'Steuere {item:206350} bei, um kleinere Schlüsselflammen zu entzünden und die folgenden Quests abzuschließen. '
 
 L['parasidious_note'] = 'Kaufe 1x {item:206670} von {npc:206533} (entfache die {object:Kleine Schlüsselflamme}, damit dieser erscheint). Gehe zum {location:Dämmerhöhenacker} und ziehe an {npc:206870} bis der seltene Gegner erscheint. {note: Kann nur erscheinen, wenn {npc:206978} an dieser Position ist.}'
 
@@ -263,7 +263,7 @@ Sobald du alle vier {npc:227421} gefunden hast, gehen zurück zum Buch {object:F
 L['another_you_4_note'] = 'Läuft im {location:Nest der Weberin} herum.'
 
 L['memory_cache_note'] = 'Hole dir den Schwächungszauber {spell:420847} von einem {object:Extraktor} ({dot:Red}) in der Nähe und töte dann die {npc:223908} vor der Kiste, um den {item:223870} zu erhalten.'
-L['niffen_stash_note'] = 'Befindet sich unter der Brücke.'
+L['niffen_stash_note'] = 'Hängt unter der Brücke.'
 L['trapped_trove_note'] = 'In einem Gebäude das von der Decke hängt. Vermeide die Spinnweben am Boden.'
 
 L['tkaktath_note'] = 'Startet eine Questreihe, um das Reittier {item:224150} zu erhalten.'
