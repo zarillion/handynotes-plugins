@@ -239,6 +239,9 @@ L['options_toggle_show_notes'] = '顯示註記'
 L['options_toggle_show_notes_desc'] = '在可用的工具提示中加入有用的註記'
 L['options_toggle_use_standard_time'] = '使用12小時制'
 L['options_toggle_use_standard_time_desc'] = '在提示使用12小時制 (例. 8:00 PM) 而不是24小時制 (例. 20:00).'
+L['options_toggle_show_npc_id'] = nil
+L['options_toggle_show_npc_id_desc'] = nil
+L['options_show_npc_id_text'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 
