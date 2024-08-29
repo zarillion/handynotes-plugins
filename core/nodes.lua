@@ -304,7 +304,8 @@ function Node:Render(tooltip, focusable)
 
     -- optional display NPC ID
     if ns:GetOpt('show_npc_id') and self.id then
-        tooltip:AddLine(L['options_show_npc_id_text'] .. tostring(self.id), 1, 1, 1)
+        tooltip:AddLine(L['options_show_npc_id_text'] .. tostring(self.id), 1,
+            1, 1)
     end
 
     -- display item, spell or other requirements

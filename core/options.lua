@@ -346,7 +346,7 @@ ns.options = {
                     name = L['options_toggle_show_npc_id'],
                     desc = L['options_toggle_show_npc_id_desc'],
                     order = 44
-                },
+                }
             }
         },
         GlobalTab = {
