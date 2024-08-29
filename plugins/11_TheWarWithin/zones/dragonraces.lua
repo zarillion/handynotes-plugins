@@ -151,7 +151,7 @@ end
 -------------------------------------------------------------------------------
 
 Dornogal.nodes[43471165] = Dragonrace({
-    label = '{quest:81799}',
+    label = '{quest:80219}',
     parent = IsleOfDorn,
     normal = {2923, 0, 0},
     advanced = {2929, 0, 0},
@@ -160,7 +160,7 @@ Dornogal.nodes[43471165] = Dragonrace({
 }) -- Dornogal Drift
 
 IsleOfDorn.nodes[38574346] = Dragonrace({
-    label = '{quest:81802}',
+    label = '{quest:80220}',
     normal = {2924, 0, 0},
     advanced = {2930, 0, 0},
     reverse = {2936, 0, 0},
@@ -168,7 +168,7 @@ IsleOfDorn.nodes[38574346] = Dragonrace({
 }) -- Storm's Watch Survey
 
 IsleOfDorn.nodes[53486421] = Dragonrace({
-    label = '{quest:81803}',
+    label = '{quest:80221}',
     normal = {2925, 0, 0},
     advanced = {2931, 0, 0},
     reverse = {2937, 0, 0},
@@ -176,7 +176,7 @@ IsleOfDorn.nodes[53486421] = Dragonrace({
 }) -- Basin Bypass
 
 IsleOfDorn.nodes[62164601] = Dragonrace({
-    label = '{quest:81804}',
+    label = '{quest:80222}',
     normal = {2926, 0, 0},
     advanced = {2932, 0, 0},
     reverse = {2938, 0, 0},
@@ -184,7 +184,7 @@ IsleOfDorn.nodes[62164601] = Dragonrace({
 }) -- The Wold Ways
 
 IsleOfDorn.nodes[58332485] = Dragonrace({
-    label = '{quest:81805}',
+    label = '{quest:80223}',
     normal = {2927, 0, 0},
     advanced = {2933, 0, 0},
     reverse = {2939, 0, 0},
@@ -192,7 +192,7 @@ IsleOfDorn.nodes[58332485] = Dragonrace({
 }) -- Thunderhead Trail
 
 IsleOfDorn.nodes[32937483] = Dragonrace({
-    label = '{quest:81806}',
+    label = '{quest:80224}',
     normal = {2928, 0, 0},
     advanced = {2934, 0, 0},
     reverse = {2940, 0, 0},
@@ -200,7 +200,7 @@ IsleOfDorn.nodes[32937483] = Dragonrace({
 }) -- Orecreg's Doglegs
 
 RingingDeeps.nodes[10101010] = Dragonrace({
-    label = '{quest:81807}',
+    label = '{quest:80237}',
     normal = {2941, 0, 0},
     advanced = {2947, 0, 0},
     reverse = {2953, 0, 0},
@@ -208,7 +208,7 @@ RingingDeeps.nodes[10101010] = Dragonrace({
 }) -- Earthenworks Weave
 
 RingingDeeps.nodes[10101010] = Dragonrace({
-    label = '{quest:81808}',
+    label = '{quest:80238}',
     normal = {2942, 0, 0},
     advanced = {2948, 0, 0},
     reverse = {2954, 0, 0},
@@ -216,7 +216,7 @@ RingingDeeps.nodes[10101010] = Dragonrace({
 }) -- Ringing Deeps Ramble
 
 RingingDeeps.nodes[10101010] = Dragonrace({
-    label = '{quest:81810}',
+    label = '{quest:80239}',
     normal = {2943, 0, 0},
     advanced = {2949, 0, 0},
     reverse = {2955, 0, 0},
@@ -224,7 +224,7 @@ RingingDeeps.nodes[10101010] = Dragonrace({
 }) -- Chittering Concourse
 
 RingingDeeps.nodes[10101010] = Dragonrace({
-    label = '{quest:81811}',
+    label = '{quest:80240}',
     normal = {2944, 0, 0},
     advanced = {2950, 0, 0},
     reverse = {2956, 0, 0},
@@ -232,7 +232,7 @@ RingingDeeps.nodes[10101010] = Dragonrace({
 }) -- Cataract River Cruise
 
 RingingDeeps.nodes[10101010] = Dragonrace({
-    label = '{quest:81812}',
+    label = '{quest:80242}',
     normal = {2945, 0, 0},
     advanced = {2951, 0, 0},
     reverse = {2957, 0, 0},
@@ -240,7 +240,7 @@ RingingDeeps.nodes[10101010] = Dragonrace({
 }) -- Taelloch Twist
 
 RingingDeeps.nodes[10101010] = Dragonrace({
-    label = '{quest:81813}',
+    label = '{quest:80243}',
     normal = {2946, 0, 0},
     advanced = {2952, 0, 0},
     reverse = {2958, 0, 0},
@@ -248,7 +248,7 @@ RingingDeeps.nodes[10101010] = Dragonrace({
 }) -- Opportunity Point Amble
 
 Hallowfall.nodes[10101010] = Dragonrace({
-    label = '{quest:81815}',
+    label = '{quest:80256}',
     normal = {2959, 0, 0},
     advanced = {2965, 0, 0},
     reverse = {2971, 0, 0},
@@ -256,7 +256,7 @@ Hallowfall.nodes[10101010] = Dragonrace({
 }) -- Dunelle's Detour
 
 Hallowfall.nodes[10101010] = Dragonrace({
-    label = '{quest:81816}',
+    label = '{quest:80257}',
     normal = {2960, 0, 0},
     advanced = {2966, 0, 0},
     reverse = {2972, 0, 0},
@@ -264,7 +264,7 @@ Hallowfall.nodes[10101010] = Dragonrace({
 }) -- Tenir's Traversal
 
 Hallowfall.nodes[10101010] = Dragonrace({
-    label = '{quest:81818}',
+    label = '{quest:80258}',
     normal = {2961, 0, 0},
     advanced = {2967, 0, 0},
     reverse = {2973, 0, 0},
@@ -272,7 +272,7 @@ Hallowfall.nodes[10101010] = Dragonrace({
 }) -- Light's Redoubt Descent
 
 Hallowfall.nodes[10101010] = Dragonrace({
-    label = '{quest:81819}',
+    label = '{quest:80259}',
     normal = {2962, 0, 0},
     advanced = {2968, 0, 0},
     reverse = {2974, 0, 0},
@@ -280,7 +280,7 @@ Hallowfall.nodes[10101010] = Dragonrace({
 }) -- Stillstone Slalom
 
 Hallowfall.nodes[10101010] = Dragonrace({
-    label = '{quest:81822}',
+    label = '{quest:80260}',
     normal = {2963, 0, 0},
     advanced = {2969, 0, 0},
     reverse = {2975, 0, 0},
@@ -288,7 +288,7 @@ Hallowfall.nodes[10101010] = Dragonrace({
 }) -- Mereldar Meander
 
 Hallowfall.nodes[10101010] = Dragonrace({
-    label = '{quest:81823}',
+    label = '{quest:80261}',
     normal = {2964, 0, 0},
     advanced = {2970, 0, 0},
     reverse = {2976, 0, 0},
@@ -296,7 +296,7 @@ Hallowfall.nodes[10101010] = Dragonrace({
 }) -- Velhan's Venture
 
 AzjKahet.nodes[10101010] = Dragonrace({
-    label = '{quest:81825}',
+    label = '{quest:80278}',
     normal = {40361, 0, 0},
     advanced = {40364, 0, 0},
     reverse = {40367, 0, 0},
@@ -304,7 +304,7 @@ AzjKahet.nodes[10101010] = Dragonrace({
 }) -- Maddening Deep Dip
 
 AzjKahet.nodes[10101010] = Dragonrace({
-    label = '{quest:81824}',
+    label = '{quest:80277}',
     normal = {40361, 0, 0},
     advanced = {40364, 0, 0},
     reverse = {40367, 0, 0},
@@ -312,7 +312,7 @@ AzjKahet.nodes[10101010] = Dragonrace({
 }) -- City of Threads Twist
 
 AzjKahet.nodes[10101010] = Dragonrace({
-    label = '{quest:81827}',
+    label = '{quest:80279}',
     normal = {40361, 0, 0},
     advanced = {40364, 0, 0},
     reverse = {40367, 0, 0},
@@ -320,7 +320,7 @@ AzjKahet.nodes[10101010] = Dragonrace({
 }) -- The Weaver's Wing
 
 AzjKahet.nodes[10101010] = Dragonrace({
-    label = '{quest:81828}',
+    label = '{quest:80280}',
     normal = {40361, 0, 0},
     advanced = {40364, 0, 0},
     reverse = {40367, 0, 0},
@@ -328,7 +328,7 @@ AzjKahet.nodes[10101010] = Dragonrace({
 }) -- Rak-Ahat Rush
 
 AzjKahet.nodes[10101010] = Dragonrace({
-    label = '{quest:81829}',
+    label = '{quest:80281}',
     normal = {40361, 0, 0},
     advanced = {40364, 0, 0},
     reverse = {40367, 0, 0},
@@ -336,7 +336,7 @@ AzjKahet.nodes[10101010] = Dragonrace({
 }) -- Pit Plunge
 
 AzjKahet.nodes[10101010] = Dragonrace({
-    label = '{quest:81831}',
+    label = '{quest:80282}',
     normal = {40361, 0, 0},
     advanced = {40364, 0, 0},
     reverse = {40367, 0, 0},
