@@ -149,93 +149,37 @@ end
 -------------------------------- TWW ---------------------------------
 -------------------------------------------------------------------------------
 
-Hallowfall.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2959, 0, 0},
-    advanced = {2965, 0, 0},
-    reverse = {2971, 0, 0},
-    rewards = Hallowfall_Rewards(1)
-}) -- Dunelle's Detour
-
-Hallowfall.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2963, 0, 0},
-    advanced = {2969, 0, 0},
-    reverse = {2975, 0, 0},
-    rewards = Hallowfall_Rewards(5)
-}) -- Mereldar Meander
-
-Hallowfall.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2960, 0, 0},
-    advanced = {2966, 0, 0},
-    reverse = {2972, 0, 0},
-    rewards = Hallowfall_Rewards(2)
-}) -- Tenir's Traversal
-
-Hallowfall.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2961, 0, 0},
-    advanced = {2967, 0, 0},
-    reverse = {2973, 0, 0},
-    rewards = Hallowfall_Rewards(3)
-}) -- Light's Redoubt Descent
-
-Hallowfall.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2964, 0, 0},
-    advanced = {2970, 0, 0},
-    reverse = {2976, 0, 0},
-    rewards = Hallowfall_Rewards(6)
-}) -- Velhan's Venture
-
-Hallowfall.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2962, 0, 0},
-    advanced = {2968, 0, 0},
-    reverse = {2974, 0, 0},
-    rewards = Hallowfall_Rewards(4)
-}) -- Stillstone Slalom
-
 IsleOfDorn.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2926, 0, 0},
-    advanced = {2932, 0, 0},
-    reverse = {2938, 0, 0},
-    rewards = IsleOfDorn_Rewards(4)
-}) -- The Wold Ways
-
-IsleOfDorn.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2925, 0, 0},
-    advanced = {2931, 0, 0},
-    reverse = {2937, 0, 0},
-    rewards = IsleOfDorn_Rewards(3)
-}) -- Basin Bypass
-
-IsleOfDorn.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2924, 0, 0},
-    advanced = {2930, 0, 0},
-    reverse = {2936, 0, 0},
-    rewards = IsleOfDorn_Rewards(2)
-}) -- Storm's Watch Survey
-
-IsleOfDorn.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
+    label = '{quest:81799}',
     normal = {2923, 0, 0},
     advanced = {2929, 0, 0},
     reverse = {2935, 0, 0},
     rewards = IsleOfDorn_Rewards(1)
 }) -- Dornogal Drift
 
-IsleOfDorn.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2928, 0, 0},
-    advanced = {2934, 0, 0},
-    reverse = {2940, 0, 0},
-    rewards = IsleOfDorn_Rewards(6)
-}) -- Orecreg's Doglegs
+IsleOfDorn.nodes[38604340] = Dragonrace({
+    label = '{quest:81802}',
+    normal = {2924, 0, 0},
+    advanced = {2930, 0, 0},
+    reverse = {2936, 0, 0},
+    rewards = IsleOfDorn_Rewards(2)
+}) -- Storm's Watch Survey
+
+IsleOfDorn.nodes[53406420] = Dragonrace({
+    label = '{quest:81803}',
+    normal = {2925, 0, 0},
+    advanced = {2931, 0, 0},
+    reverse = {2937, 0, 0},
+    rewards = IsleOfDorn_Rewards(3)
+}) -- Basin Bypass
+
+IsleOfDorn.nodes[62164601] = Dragonrace({
+    label = '{quest:81804}',
+    normal = {2926, 0, 0},
+    advanced = {2932, 0, 0},
+    reverse = {2938, 0, 0},
+    rewards = IsleOfDorn_Rewards(4)
+}) -- The Wold Ways
 
 IsleOfDorn.nodes[58332485] = Dragonrace({
     label = '{quest:81805}',
@@ -245,64 +189,16 @@ IsleOfDorn.nodes[58332485] = Dragonrace({
     rewards = IsleOfDorn_Rewards(5)
 }) -- Thunderhead Trail
 
-AzjKahet.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {40361, 0, 0},
-    advanced = {40364, 0, 0},
-    reverse = {40367, 0, 0},
-    rewards = AzjKahet_Rewards(5)
-}) -- Pit Plunge
-
-AzjKahet.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {40361, 0, 0},
-    advanced = {40364, 0, 0},
-    reverse = {40367, 0, 0},
-    rewards = AzjKahet_Rewards(4)
-}) -- Rak-Ahat Rush
-
-AzjKahet.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {40361, 0, 0},
-    advanced = {40364, 0, 0},
-    reverse = {40367, 0, 0},
-    rewards = AzjKahet_Rewards(3)
-}) -- The Weaver's Wing
-
-AzjKahet.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {40361, 0, 0},
-    advanced = {40364, 0, 0},
-    reverse = {40367, 0, 0},
-    rewards = AzjKahet_Rewards(6)
-}) -- Siegehold Scuttle
-
-AzjKahet.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {40361, 0, 0},
-    advanced = {40364, 0, 0},
-    reverse = {40367, 0, 0},
-    rewards = AzjKahet_Rewards(2)
-}) -- City of Threads Twist
-
-AzjKahet.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {40361, 0, 0},
-    advanced = {40364, 0, 0},
-    reverse = {40367, 0, 0},
-    rewards = AzjKahet_Rewards(1)
-}) -- Maddening Deep Dip
+IsleOfDorn.nodes[10101010] = Dragonrace({
+    label = '{quest:81806}',
+    normal = {2928, 0, 0},
+    advanced = {2934, 0, 0},
+    reverse = {2940, 0, 0},
+    rewards = IsleOfDorn_Rewards(6)
+}) -- Orecreg's Doglegs
 
 RingingDeeps.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2942, 0, 0},
-    advanced = {2948, 0, 0},
-    reverse = {2954, 0, 0},
-    rewards = RingingDeeps_Rewards(2)
-}) -- Ringing Deeps Ramble
-
-RingingDeeps.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
+    label = '{quest:81807}',
     normal = {2941, 0, 0},
     advanced = {2947, 0, 0},
     reverse = {2953, 0, 0},
@@ -310,23 +206,23 @@ RingingDeeps.nodes[10101010] = Dragonrace({
 }) -- Earthenworks Weave
 
 RingingDeeps.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2945, 0, 0},
-    advanced = {2951, 0, 0},
-    reverse = {2957, 0, 0},
-    rewards = RingingDeeps_Rewards(5)
-}) -- Taelloch Twist
+    label = '{quest:81808}',
+    normal = {2942, 0, 0},
+    advanced = {2948, 0, 0},
+    reverse = {2954, 0, 0},
+    rewards = RingingDeeps_Rewards(2)
+}) -- Ringing Deeps Ramble
 
 RingingDeeps.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2946, 0, 0},
-    advanced = {2952, 0, 0},
-    reverse = {2958, 0, 0},
-    rewards = RingingDeeps_Rewards(6)
-}) -- Opportunity Point Amble
+    label = '{quest:81810}',
+    normal = {2943, 0, 0},
+    advanced = {2949, 0, 0},
+    reverse = {2955, 0, 0},
+    rewards = RingingDeeps_Rewards(3)
+}) -- Chittering Concourse
 
 RingingDeeps.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
+    label = '{quest:81811}',
     normal = {2944, 0, 0},
     advanced = {2950, 0, 0},
     reverse = {2956, 0, 0},
@@ -334,9 +230,113 @@ RingingDeeps.nodes[10101010] = Dragonrace({
 }) -- Cataract River Cruise
 
 RingingDeeps.nodes[10101010] = Dragonrace({
-    label = '{quest:XXXXX}',
-    normal = {2943, 0, 0},
-    advanced = {2949, 0, 0},
-    reverse = {2955, 0, 0},
-    rewards = RingingDeeps_Rewards(3)
-}) -- Chittering Concourse
+    label = '{quest:81812}',
+    normal = {2945, 0, 0},
+    advanced = {2951, 0, 0},
+    reverse = {2957, 0, 0},
+    rewards = RingingDeeps_Rewards(5)
+}) -- Taelloch Twist
+
+RingingDeeps.nodes[10101010] = Dragonrace({
+    label = '{quest:81813}',
+    normal = {2946, 0, 0},
+    advanced = {2952, 0, 0},
+    reverse = {2958, 0, 0},
+    rewards = RingingDeeps_Rewards(6)
+}) -- Opportunity Point Amble
+
+Hallowfall.nodes[10101010] = Dragonrace({
+    label = '{quest:81815}',
+    normal = {2959, 0, 0},
+    advanced = {2965, 0, 0},
+    reverse = {2971, 0, 0},
+    rewards = Hallowfall_Rewards(1)
+}) -- Dunelle's Detour
+
+Hallowfall.nodes[10101010] = Dragonrace({
+    label = '{quest:81816}',
+    normal = {2960, 0, 0},
+    advanced = {2966, 0, 0},
+    reverse = {2972, 0, 0},
+    rewards = Hallowfall_Rewards(2)
+}) -- Tenir's Traversal
+
+Hallowfall.nodes[10101010] = Dragonrace({
+    label = '{quest:81818}',
+    normal = {2961, 0, 0},
+    advanced = {2967, 0, 0},
+    reverse = {2973, 0, 0},
+    rewards = Hallowfall_Rewards(3)
+}) -- Light's Redoubt Descent
+
+Hallowfall.nodes[10101010] = Dragonrace({
+    label = '{quest:81819}',
+    normal = {2962, 0, 0},
+    advanced = {2968, 0, 0},
+    reverse = {2974, 0, 0},
+    rewards = Hallowfall_Rewards(4)
+}) -- Stillstone Slalom
+
+Hallowfall.nodes[10101010] = Dragonrace({
+    label = '{quest:81822}',
+    normal = {2963, 0, 0},
+    advanced = {2969, 0, 0},
+    reverse = {2975, 0, 0},
+    rewards = Hallowfall_Rewards(5)
+}) -- Mereldar Meander
+
+Hallowfall.nodes[10101010] = Dragonrace({
+    label = '{quest:81823}',
+    normal = {2964, 0, 0},
+    advanced = {2970, 0, 0},
+    reverse = {2976, 0, 0},
+    rewards = Hallowfall_Rewards(6)
+}) -- Velhan's Venture
+
+AzjKahet.nodes[10101010] = Dragonrace({
+    label = '{quest:81825}',
+    normal = {40361, 0, 0},
+    advanced = {40364, 0, 0},
+    reverse = {40367, 0, 0},
+    rewards = AzjKahet_Rewards(1)
+}) -- Maddening Deep Dip
+
+AzjKahet.nodes[10101010] = Dragonrace({
+    label = '{quest:81824}',
+    normal = {40361, 0, 0},
+    advanced = {40364, 0, 0},
+    reverse = {40367, 0, 0},
+    rewards = AzjKahet_Rewards(2)
+}) -- City of Threads Twist
+
+AzjKahet.nodes[10101010] = Dragonrace({
+    label = '{quest:81827}',
+    normal = {40361, 0, 0},
+    advanced = {40364, 0, 0},
+    reverse = {40367, 0, 0},
+    rewards = AzjKahet_Rewards(3)
+}) -- The Weaver's Wing
+
+AzjKahet.nodes[10101010] = Dragonrace({
+    label = '{quest:81828}',
+    normal = {40361, 0, 0},
+    advanced = {40364, 0, 0},
+    reverse = {40367, 0, 0},
+    rewards = AzjKahet_Rewards(4)
+}) -- Rak-Ahat Rush
+
+AzjKahet.nodes[10101010] = Dragonrace({
+    label = '{quest:81829}',
+    normal = {40361, 0, 0},
+    advanced = {40364, 0, 0},
+    reverse = {40367, 0, 0},
+    rewards = AzjKahet_Rewards(5)
+}) -- Pit Plunge
+
+AzjKahet.nodes[10101010] = Dragonrace({
+    label = '{quest:81831}',
+    normal = {40361, 0, 0},
+    advanced = {40364, 0, 0},
+    reverse = {40367, 0, 0},
+    rewards = AzjKahet_Rewards(6)
+}) -- Siegehold Scuttle
