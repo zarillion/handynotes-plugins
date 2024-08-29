@@ -159,6 +159,10 @@ ns.groups.CRITTER_LOVE = Group('critter_love', 3459801, {
     achievement = 40475
 })
 
+ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
 -------------------------------------------------------------------------------
 ---------------------------- KHAZ ALGAR LORE HUNTER ---------------------------
 -------------------------------------------------------------------------------
@@ -252,6 +256,7 @@ ns.node.DisturbedEarth = Class('Disturbed_earth', ns.node.Collectible, {
     }
 }) -- Disturbed Earth - Not on Minimap but quite visible from some distance
 -- first loot triggered quest 84543 probably not relevant
+
 
 -------------------------------------------------------------------------------
 ------------------------------ KHAZ ALGAR SAFARI ------------------------------
