@@ -1,6 +1,6 @@
 # v80
 
-* Localization updates: zhTW
+* Localization updates: frFR, zhTW
 
 # v79
 
