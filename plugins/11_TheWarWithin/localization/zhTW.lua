@@ -49,7 +49,7 @@ L['kaja_cola_machine_note'] = '以下列順序購買飲料 {item:223741} > {item
 
 L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
 L['options_icons_i_only_need_one_trip_desc'] = '顯示成就 {achievement:40623} 所需位置.'
-L['i_only_need_one_trip_note'] = '在世界任務 {wq:Courier Mission: Ore Recovery} 一次存入10個礦石'
+L['i_only_need_one_trip_note'] = '在世界任務 {wq:信差任務: 回收礦石} 一次繳交10個礦石.'
 
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = '顯示成就 {achievement:40473} 所需的控制臺位置.'
