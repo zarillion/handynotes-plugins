@@ -29,7 +29,7 @@ local DRAGONRIDING_RACE_TYPES = {
     [2] = {type = 'advanced', label = L['dr_advanced']},
     [3] = {type = 'reverse', label = L['dr_reverse']},
     [4] = {type = 'challenge', label = L['dr_challenge']},
-    [5] = {type = 'reverseChallenge', label = L['dr_reverse_challenge']},
+    [5] = {type = 'reverseChallenge', label = L['dr_reverse_challenge']}
 }
 
 local function CanAddRace() return true end
@@ -76,7 +76,7 @@ function Dragonrace.getters:note()
     end
     return txt .. '\n\n' .. L['dr_bronze']
 end
-]]--
+]] --
 
 -------------------------------------------------------------------------------
 -------------------------------- REWARDS ---------------------------------
@@ -149,95 +149,93 @@ end
 -------------------------------- TWW ---------------------------------
 -------------------------------------------------------------------------------
 
-
-
-Hallowfall.nodes[50505050] = Dragonrace({
+Hallowfall.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2959, 0, 0},
     advanced = {2965, 0, 0},
     reverse = {2971, 0, 0},
     rewards = Hallowfall_Rewards(1)
-    }) -- Dunelle's Detour
+}) -- Dunelle's Detour
 
-Hallowfall.nodes[50505050] = Dragonrace({
+Hallowfall.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2963, 0, 0},
     advanced = {2969, 0, 0},
     reverse = {2975, 0, 0},
     rewards = Hallowfall_Rewards(5)
-    }) -- Mereldar Meander
+}) -- Mereldar Meander
 
-Hallowfall.nodes[50505050] = Dragonrace({
+Hallowfall.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2960, 0, 0},
     advanced = {2966, 0, 0},
     reverse = {2972, 0, 0},
     rewards = Hallowfall_Rewards(2)
-    }) -- Tenir's Traversal
+}) -- Tenir's Traversal
 
-Hallowfall.nodes[50505050] = Dragonrace({
+Hallowfall.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2961, 0, 0},
     advanced = {2967, 0, 0},
     reverse = {2973, 0, 0},
     rewards = Hallowfall_Rewards(3)
-    }) -- Light's Redoubt Descent
+}) -- Light's Redoubt Descent
 
-Hallowfall.nodes[50505050] = Dragonrace({
+Hallowfall.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2964, 0, 0},
     advanced = {2970, 0, 0},
     reverse = {2976, 0, 0},
     rewards = Hallowfall_Rewards(6)
-    }) -- Velhan's Venture
+}) -- Velhan's Venture
 
-Hallowfall.nodes[50505050] = Dragonrace({
+Hallowfall.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2962, 0, 0},
     advanced = {2968, 0, 0},
     reverse = {2974, 0, 0},
     rewards = Hallowfall_Rewards(4)
-    }) -- Stillstone Slalom
+}) -- Stillstone Slalom
 
-IsleOfDorn.nodes[50505050] = Dragonrace({
+IsleOfDorn.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2926, 0, 0},
     advanced = {2932, 0, 0},
     reverse = {2938, 0, 0},
     rewards = IsleOfDorn_Rewards(4)
-    }) -- The Wold Ways
+}) -- The Wold Ways
 
-IsleOfDorn.nodes[50505050] = Dragonrace({
+IsleOfDorn.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2925, 0, 0},
     advanced = {2931, 0, 0},
     reverse = {2937, 0, 0},
     rewards = IsleOfDorn_Rewards(3)
-    }) -- Basin Bypass
+}) -- Basin Bypass
 
-IsleOfDorn.nodes[50505050] = Dragonrace({
+IsleOfDorn.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2924, 0, 0},
     advanced = {2930, 0, 0},
     reverse = {2936, 0, 0},
     rewards = IsleOfDorn_Rewards(2)
-    }) -- Storm's Watch Survey
+}) -- Storm's Watch Survey
 
-IsleOfDorn.nodes[50505050] = Dragonrace({
+IsleOfDorn.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2923, 0, 0},
     advanced = {2929, 0, 0},
     reverse = {2935, 0, 0},
     rewards = IsleOfDorn_Rewards(1)
-    }) -- Dornogal Drift
+}) -- Dornogal Drift
 
-IsleOfDorn.nodes[50505050] = Dragonrace({
+IsleOfDorn.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2928, 0, 0},
     advanced = {2934, 0, 0},
     reverse = {2940, 0, 0},
     rewards = IsleOfDorn_Rewards(6)
-    }) -- Orecreg's Doglegs
+}) -- Orecreg's Doglegs
 
 IsleOfDorn.nodes[58332485] = Dragonrace({
     label = '{quest:81805}',
@@ -245,100 +243,100 @@ IsleOfDorn.nodes[58332485] = Dragonrace({
     advanced = {2933, 0, 0},
     reverse = {2939, 0, 0},
     rewards = IsleOfDorn_Rewards(5)
-    }) -- Thunderhead Trail
+}) -- Thunderhead Trail
 
-AzjKahet.nodes[50505050] = Dragonrace({
+AzjKahet.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {40361, 0, 0},
     advanced = {40364, 0, 0},
     reverse = {40367, 0, 0},
     rewards = AzjKahet_Rewards(5)
-    }) -- Pit Plunge
+}) -- Pit Plunge
 
-AzjKahet.nodes[50505050] = Dragonrace({
+AzjKahet.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {40361, 0, 0},
     advanced = {40364, 0, 0},
     reverse = {40367, 0, 0},
     rewards = AzjKahet_Rewards(4)
-    }) -- Rak-Ahat Rush
+}) -- Rak-Ahat Rush
 
-AzjKahet.nodes[50505050] = Dragonrace({
+AzjKahet.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {40361, 0, 0},
     advanced = {40364, 0, 0},
     reverse = {40367, 0, 0},
     rewards = AzjKahet_Rewards(3)
-    }) -- The Weaver's Wing
+}) -- The Weaver's Wing
 
-AzjKahet.nodes[50505050] = Dragonrace({
+AzjKahet.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {40361, 0, 0},
     advanced = {40364, 0, 0},
     reverse = {40367, 0, 0},
     rewards = AzjKahet_Rewards(6)
-    }) -- Siegehold Scuttle
+}) -- Siegehold Scuttle
 
-AzjKahet.nodes[50505050] = Dragonrace({
+AzjKahet.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {40361, 0, 0},
     advanced = {40364, 0, 0},
     reverse = {40367, 0, 0},
     rewards = AzjKahet_Rewards(2)
-    }) -- City of Threads Twist
+}) -- City of Threads Twist
 
-AzjKahet.nodes[50505050] = Dragonrace({
+AzjKahet.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {40361, 0, 0},
     advanced = {40364, 0, 0},
     reverse = {40367, 0, 0},
     rewards = AzjKahet_Rewards(1)
-    }) -- Maddening Deep Dip
+}) -- Maddening Deep Dip
 
-RingingDeeps.nodes[50505050] = Dragonrace({
+RingingDeeps.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2942, 0, 0},
     advanced = {2948, 0, 0},
     reverse = {2954, 0, 0},
     rewards = RingingDeeps_Rewards(2)
-    }) -- Ringing Deeps Ramble
+}) -- Ringing Deeps Ramble
 
-RingingDeeps.nodes[50505050] = Dragonrace({
+RingingDeeps.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2941, 0, 0},
     advanced = {2947, 0, 0},
     reverse = {2953, 0, 0},
     rewards = RingingDeeps_Rewards(1)
-    }) -- Earthenworks Weave
+}) -- Earthenworks Weave
 
-RingingDeeps.nodes[50505050] = Dragonrace({
+RingingDeeps.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2945, 0, 0},
     advanced = {2951, 0, 0},
     reverse = {2957, 0, 0},
     rewards = RingingDeeps_Rewards(5)
-    }) -- Taelloch Twist
+}) -- Taelloch Twist
 
-RingingDeeps.nodes[50505050] = Dragonrace({
+RingingDeeps.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2946, 0, 0},
     advanced = {2952, 0, 0},
     reverse = {2958, 0, 0},
     rewards = RingingDeeps_Rewards(6)
-    }) -- Opportunity Point Amble
+}) -- Opportunity Point Amble
 
-RingingDeeps.nodes[50505050] = Dragonrace({
+RingingDeeps.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2944, 0, 0},
     advanced = {2950, 0, 0},
     reverse = {2956, 0, 0},
     rewards = RingingDeeps_Rewards(4)
-    }) -- Cataract River Cruise
+}) -- Cataract River Cruise
 
-RingingDeeps.nodes[50505050] = Dragonrace({
+RingingDeeps.nodes[10101010] = Dragonrace({
     label = '{quest:XXXXX}',
     normal = {2943, 0, 0},
     advanced = {2949, 0, 0},
     reverse = {2955, 0, 0},
     rewards = RingingDeeps_Rewards(3)
-    }) -- Chittering Concourse
+}) -- Chittering Concourse

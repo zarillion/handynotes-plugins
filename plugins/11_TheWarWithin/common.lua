@@ -257,7 +257,6 @@ ns.node.DisturbedEarth = Class('Disturbed_earth', ns.node.Collectible, {
 }) -- Disturbed Earth - Not on Minimap but quite visible from some distance
 -- first loot triggered quest 84543 probably not relevant
 
-
 -------------------------------------------------------------------------------
 ------------------------------ KHAZ ALGAR SAFARI ------------------------------
 -------------------------------------------------------------------------------
