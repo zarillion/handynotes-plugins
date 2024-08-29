@@ -20,8 +20,8 @@ local tuk = Map({id = 2690, settings = false}) -- The Underkeep
 local ecm = Map({id = 2269, settings = false}) -- Earthcrawl Mines
 local mmc = Map({id = 2679, settings = false}) -- Mycomancer Cavern
 local tdp = Map({id = 2302, settings = false}) -- The Dread Pit
-local tww = Map({id = 2683, settings = false}) -- The Waterworks
-local tsw = Map({id = 2688, settings = false}) -- The Sprial Weave
+local tww = Map({id = 2251, settings = false}) -- The Waterworks
+local tsw = Map({id = 2347, settings = false}) -- The Sprial Weave
 local tsh = Map({id = 2687, settings = false}) -- The Sinkhole
 local fol = Map({id = 2664, settings = false}) -- Fungal Folly
 local ski = Map({id = 2685, settings = false}) -- Skittering Breach
@@ -50,6 +50,9 @@ L['on_the_plant'] = 'On the plant.'
 -- THESE LOCATION NOTES WILL PROBABLY BE UNIQUE AND USED ONLY ONCE.
 L['sturdy_chest_ship_jump'] = 'Jump down from the skyship.'
 L['sturdy_chest_crane'] = 'On the crane. Jump from the upper level.'
+L['sturdy_chest_beam'] = 'High up on the beam.'
+L['sturdy_chest_pillar'] = 'High up on a pillar near the dropdown to the treasure room'
+L['sturdy_chest_pillar_2'] = 'High up on a beam. Drop down from the pillar near the other chest.'
 
 -- LuaFormatter on
 
@@ -220,64 +223,40 @@ tdp.nodes[36061721] = SturdyChest({achievementID = 40812, quest = 83659}) -- Stu
 ------------------------------- THE WATERWORKS --------------------------------
 -------------------------------------------------------------------------------
 
-tww.nodes[49962425] = SturdyChest({
-    achievementID = 40816,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('1/4')
-}) -- Sturdy Chest 1
+tww.nodes[49892459] = SturdyChest({achievementID = 40816, quest = 83684}) -- Sturdy Chest 1
 
-tww.nodes[44453848] = SturdyChest({
+tww.nodes[44363821] = SturdyChest({
     achievementID = 40816,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('2/4')
+    location = L['in_water'],
+    quest = 83650
 }) -- Sturdy Chest 2
 
-tww.nodes[47855336] = SturdyChest({
-    achievementID = 40816,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('3/4')
-}) -- Sturdy Chest 3
+tww.nodes[47925350] = SturdyChest({achievementID = 40816, quest = 83667}) -- Sturdy Chest 3
 
-tww.nodes[49647937] = SturdyChest({
-    achievementID = 40816,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('4/4')
-}) -- Sturdy Chest 4
+tww.nodes[49587916] = SturdyChest({achievementID = 40816, quest = 83456}) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
 ------------------------------ THE SPIRAL WEAVE ------------------------------
 -------------------------------------------------------------------------------
 
-tsw.nodes[50334578] = SturdyChest({
-    achievementID = 40814,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('1/4')
-}) -- Sturdy Chest 1
+tsw.nodes[50044631] = SturdyChest({achievementID = 40814, quest = 83649}) -- Sturdy Chest 1
 
-tsw.nodes[36421114] = SturdyChest({
+tsw.nodes[36331051] = SturdyChest({
     achievementID = 40814,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('2/4')
+    location = L['sturdy_chest_beam'],
+    quest = 83661
 }) -- Sturdy Chest 2
 
-tsw.nodes[46074625] = SturdyChest({
+tsw.nodes[46004644] = SturdyChest({
     achievementID = 40814,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('3/4')
+    location = L['sturdy_chest_pillar'],
+    quest = 83681
 }) -- Sturdy Chest 3
 
-tsw.nodes[42404777] = SturdyChest({
+tsw.nodes[42334786] = SturdyChest({
     achievementID = 40814,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('4/4')
+    location = L['sturdy_chest_pillar_2'],
+    quest = 83662
 }) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
@@ -395,7 +374,8 @@ nfs.nodes[70934454] = SturdyChest({
 
 nfs.nodes[77783613] = SturdyChest({
     achievementID = 40809,
-    quest = nil ------------------------------------ TODO: I MISSED THIS QUEST
+    note = L['sturdy_chest_disclaimer'],
+    quest = 83688
 }) -- Sturdy Chest 2
 
 nfs.nodes[39147437] = SturdyChest({
