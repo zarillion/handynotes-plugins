@@ -34,7 +34,7 @@ L['trees_treasure_note'] = 'Parlez à {npc:222940} pour obtenir une {item:224185
 L['turtles_thanks_1_note'] = 'Apportez 5x {item:220143} (à pêcher dans les {object:Clapotis de surface calme} ou à acheter à l\'hôtel des ventes). {note:Quittez la zone et revenez aussitôt pour donner le poisson suivant}.'
 L['turtles_thanks_2_note'] = 'Apportez 1x {item:222533} (à pêcher dans les {object:Bassin scintillant}, {object:Bassin de pourriture purulente}, {object:Éclaboussure d\'ichor imprégné} ou à acheter à l\'hôtel des ventes).'
 L['turtles_thanks_3_note'] = 'Rencontrez la {npc:223338} à {location:Dornogal} et parlez-lui pour faire apparaître le trésor.'
-L['web_wrapped_axe_note'] = 'On the first floor.\n\n{note:A un temps de réapparition de 1 à 2 heures.}'
+L['web_wrapped_axe_note'] = 'Au premier étage.\n\n{note:A un temps de réapparition de 1 à 2 heures.}'
 
 L['cendvin_note'] = 'Obtenez 900x {item:225557} sur les monstres élites à {location:Braiselande} pour acheter la monture {item:223153} à {npc:226205}.'
 
