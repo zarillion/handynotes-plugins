@@ -220,7 +220,7 @@ L['generals_scouting_shadecaster_location'] = 'PH'
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Display book locations for the {achievement:40629} achievement.'
 
-L['nerubian_potion_note'] = 'Purchase a {item:225784} ({note:buff lasts 10 minutes}) from {npc:218192} for 500x {currency:3056}.'
+L['nerubian_potion_note'] = 'Purchase a {item:225784} ({note:buff lasts 10 minutes}) from {npc:218192} for 33x {currency:3056}.'
 L['bookworm_note'] = '{note:You can also complete the achievement {achievement:40542} with the {item:225784}.}'
 L['bookworm_1_location'] = 'At the entrance of the small cave.'
 

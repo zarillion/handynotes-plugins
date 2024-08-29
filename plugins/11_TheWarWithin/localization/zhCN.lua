@@ -220,7 +220,7 @@ L['generals_scouting_shadecaster_location'] = '占位符'
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = '显示 {achievement:40629} 成就中书籍的位置。'
 
-L['nerubian_potion_note'] = '以500个 {currency:3056} 从 {npc:218192} 购买 {item:225784}。'
+L['nerubian_potion_note'] = '以33个 {currency:3056} 从 {npc:218192} 购买 {item:225784}。'
 L['bookworm_note'] = '{note:还可以使用 {item:225784} 完成 {achievement:40542} 成就。}'
 L['bookworm_1_location'] = '在小洞窟入口处。'
 

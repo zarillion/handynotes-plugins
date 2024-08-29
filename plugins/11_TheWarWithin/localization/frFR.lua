@@ -221,7 +221,7 @@ L['generals_scouting_shadecaster_location'] = nil
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40629}.'
 
-L['nerubian_potion_note'] = 'Achetez une {item:225784} ({note:l\'effet dure 10 minutes}) à {npc:218192} contre 500x {currency:3056}.'
+L['nerubian_potion_note'] = 'Achetez une {item:225784} ({note:l\'effet dure 10 minutes}) à {npc:218192} contre 33x {currency:3056}.'
 L['bookworm_note'] = '{note:Vous pouvez également obtenir le haut-fait {achievement:40542} avec la {item:225784}.}'
 L['bookworm_1_location'] = 'À l\'entrée de la petite grotte.'
 

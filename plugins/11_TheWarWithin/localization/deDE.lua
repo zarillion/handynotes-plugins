@@ -221,7 +221,7 @@ L['generals_scouting_shadecaster_location'] = nil
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Zeigt die Positionen von Büchern für den Erfolg {achievement:40629} an.'
 
-L['nerubian_potion_note'] = 'Um die Bücher lesen zu können, benötigst du einen {item:225784} ({note:Buff hält 10 Minuten an}). Diesen kannst du von {npc:218192} für 500x {currency:3056} kaufen.'
+L['nerubian_potion_note'] = 'Um die Bücher lesen zu können, benötigst du einen {item:225784} ({note:Buff hält 10 Minuten an}). Diesen kannst du von {npc:218192} für 33x {currency:3056} kaufen.'
 L['bookworm_note'] = '{note:Du kannst gleichzeitig den Erfolg {achievement:40542} mit dem {item:225784} erringen.}'
 L['bookworm_1_location'] = 'Am Eingang der kleinen Höhle.'
 

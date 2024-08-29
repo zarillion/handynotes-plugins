@@ -220,7 +220,7 @@ L['generals_scouting_shadecaster_location'] = nil
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Muestra dónde están los libros para el logro {achievement:40629}.'
 
-L['nerubian_potion_note'] = 'Compra una {item:225784} ({note:el buff dura 10 minutos}) de {npc:218192} por 500x {currency:3056}.'
+L['nerubian_potion_note'] = 'Compra una {item:225784} ({note:el buff dura 10 minutos}) de {npc:218192} por 33x {currency:3056}.'
 L['bookworm_note'] = '{note:También puedes completar el logro {achievement:40542} con la {item:225784}.}'
 L['bookworm_1_location'] = 'En la entrada de la cueva pequeña.'
 
