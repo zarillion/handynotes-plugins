@@ -1,3 +1,7 @@
+# v82
+
+* Localization updates: zhCN
+
 # v81
 
 * Added dragon riding races for each Khaz Algar zone.
