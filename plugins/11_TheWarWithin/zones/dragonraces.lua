@@ -33,8 +33,6 @@ local DRAGONRIDING_RACE_TYPES = {
     [5] = {type = 'reverseChallenge', label = L['dr_reverse_challenge']}
 }
 
-local function CanAddRace() return true end
-
 function Dragonrace.getters:sublabel()
     local note = L['dr_best_time']
     local txt = L['dr_your_best_time']
@@ -45,9 +43,8 @@ function Dragonrace.getters:sublabel()
             local time = currencyID and
                              C_CurrencyInfo.GetCurrencyInfo(currencyID).quantity or
                              0
-            if CanAddRace(race.type) then
-                txt = txt .. '\n' .. format(note, label, time / 1000)
-            end
+
+            txt = txt .. '\n' .. format(note, label, time / 1000)
         end
     end
     return txt
@@ -70,9 +67,8 @@ function Dragonrace.getters:note()
             if self[race.type][3] then
                 gTime = Gold(self[race.type][3])
             end
-            if CanAddRace(race.type) then
-                txt = txt .. '\n' .. format(note, label, sTime, gTime)
-            end
+
+            txt = txt .. '\n' .. format(note, label, sTime, gTime)
         end
     end
     return txt .. '\n\n' .. L['dr_bronze']
