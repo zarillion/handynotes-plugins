@@ -22,7 +22,7 @@ local mmc = Map({id = 2679, settings = false}) -- Mycomancer Cavern
 local tdp = Map({id = 2302, settings = false}) -- The Dread Pit
 local tww = Map({id = 2251, settings = false}) -- The Waterworks
 local tsw = Map({id = 2347, settings = false}) -- The Sprial Weave
-local tsh = Map({id = 2687, settings = false}) -- The Sinkhole
+local tsh = Map({id = 2301, settings = false}) -- The Sinkhole
 local fol = Map({id = 2249, settings = false}) -- Fungal Folly
 local ski = Map({id = 2310, settings = false}) -- Skittering Breach (Old Rituals/2310)
 local nfs = Map({id = 2277, settings = false}) -- Nightfall Sanctum
@@ -256,31 +256,31 @@ tsw.nodes[42334786] = SturdyChest({
 -------------------------------- THE SINKHOLE ---------------------------------
 -------------------------------------------------------------------------------
 
-tsh.nodes[52331421] = SturdyChest({
+tsh.nodes[52221334] = SturdyChest({
     achievementID = 40813,
     -- location = nil,
-    -- quest = nil,
+    quest = 83453,
     rlabel = ns.status.Gray('1/4')
 }) -- Sturdy Chest 1
 
-tsh.nodes[43156082] = SturdyChest({
+tsh.nodes[43496066] = SturdyChest({
     achievementID = 40813,
     -- location = nil,
-    -- quest = nil,
+    quest = 83668,
     rlabel = ns.status.Gray('2/4')
 }) -- Sturdy Chest 2
 
-tsh.nodes[72626093] = SturdyChest({
+tsh.nodes[72586118] = SturdyChest({
     achievementID = 40813,
     -- location = nil,
-    -- quest = nil,
+    -- quest = 83700,
     rlabel = ns.status.Gray('3/4')
 }) -- Sturdy Chest 3
 
-tsh.nodes[48646947] = SturdyChest({
+tsh.nodes[48446923] = SturdyChest({
     achievementID = 40813,
     -- location = nil,
-    -- quest = nil,
+    quest = 83685,
     rlabel = ns.status.Gray('4/4')
 }) -- Sturdy Chest 4
 
