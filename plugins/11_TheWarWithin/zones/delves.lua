@@ -292,13 +292,13 @@ tsh.nodes[48646947] = SturdyChest({
 fol.nodes[58784691] = SturdyChest({
     achievementID = 40803,
     location = L['fol_chest_1_location'],
-    quest = nil -- TODO: I MISSED THIS QUEST
+    quest = 83702
 }) -- Sturdy Chest 1
 
 fol.nodes[32747411] = SturdyChest({
     achievementID = 40803,
     location = L['fol_use_mushrooms'],
-    quest = nil, -- TODO: I MISSED THIS QUEST
+    quest = 83671,
     pois = {Path({34516795, 33106726, 30986856, 30937054, 32747411})}
 }) -- Sturdy Chest 2
 
@@ -321,7 +321,6 @@ fol.nodes[53334138] = SturdyChest({
     achievementID = 40803,
     location = L['fol_use_mushrooms'],
     quest = 83690,
-    rlabel = ns.status.Gray('5/5'),
     pois = {
         Path({
             57845665, 55845497, 53845005, 53244437, 55674511, 55744326, 53334138
