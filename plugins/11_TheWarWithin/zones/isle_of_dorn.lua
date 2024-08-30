@@ -122,7 +122,8 @@ map.nodes[53527998] = Rare({
         Achievement({id = 40435, criteria = 68217}),
         Reputation({id = 2590, gain = 150, quest = 84028}),
         Transmog({item = 221248, type = L['1h_axe']}), -- Deep Terror Carver
-        Transmog({item = 221255, type = L['dagger']}) -- Sharpened Scalepiercer
+        Transmog({item = 221255, type = L['dagger']}), -- Sharpened Scalepiercer
+        Transmog({item = 221222, type = L['cloth']}) -- Water-Imbued Spaulders
     }
 }) -- Gar'loc
 

@@ -47,10 +47,9 @@ map.nodes[52591991] = Rare({
     }
 }) -- Automaxor
 
-local Aquellion = Class('Aquellion', Rare, {
+map.nodes[49556618] = Rare({
     id = 220274,
     quest = 80557, -- One time kill
-    fgroup = 'aquellion',
     rewards = {
         Achievement({id = 40837, criteria = 69625}),
         Reputation({id = 2594, gain = 150, quest = 80557}),
@@ -60,9 +59,6 @@ local Aquellion = Class('Aquellion', Rare, {
         Transmog({item = 223340, slot = L['plate']}) -- Footguards of Shallow Waters
     }
 }) -- Aquellion
-
-map.nodes[55087053] = Aquellion()
-map.nodes[49556618] = Aquellion() -- seen spawn here
 
 map.nodes[66232975] = Rare({ -- flyes around
     id = 220276,

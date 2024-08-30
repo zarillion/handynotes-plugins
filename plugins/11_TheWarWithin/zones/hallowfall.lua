@@ -37,7 +37,7 @@ local map = Map({id = 2215, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-local BeledarsSpawn = Class('ProfessionRare', Rare, {
+local BeledarsSpawn = Class('BeledarsSpawn', Rare, {
     id = 207802,
     quest = 81763, -- 85164
     rewards = {
@@ -129,7 +129,8 @@ map.nodes[44744241] = Rare({
     rewards = {
         Achievement({id = 40851, criteria = 69717}),
         Reputation({id = 2570, gain = 150, quest = 85165}),
-        Transmog({item = 225997}) -- Earthen Adventurer's Spaulders
+        Transmog({item = 225997}), -- Earthen Adventurer's Spaulders
+        Transmog({item = 223920, type = L['shield']}) -- Slime Deflecting Stopper
     },
     pois = {
         POI({points = {48001668, 48805020}, color = 'Green'}), -- Jar of Mucus
@@ -174,6 +175,8 @@ map.nodes[62011683] = Rare({
     rewards = {
         Achievement({id = 40851, criteria = 69727}),
         Reputation({id = 2570, gain = 150, quest = 84059}),
+        Transmog({item = 221248, type = L['1h_axe']}), -- Deep Terror Carver
+        Transmog({item = 221255, type = L['dagger']}), -- Sharpened Scalepiercer
         Transmog({item = 223925, type = L['plate']}) -- Blood Hungerer's Chestplate
     }
 }) -- Finclaw Bloodtide
@@ -307,8 +310,9 @@ map.nodes[61613277] = Rare({
     rewards = {
         Achievement({id = 40851, criteria = 69725}),
         Reputation({id = 2570, gain = 150, quest = 84057}),
-        Transmog({item = 223940, type = L['mail']}), -- Deranged Fungarian's Epaulets -- review later
-        Transmog({item = 221250, type = L['1h_sword']}) -- Creeping Lasher Machete
+        Transmog({item = 223940, type = L['mail']}), -- Deranged Fungarian's Epaulets
+        Transmog({item = 221250, type = L['1h_sword']}), -- Creeping Lasher Machete
+        Transmog({item = 221253, type = L['fist']}) -- Cultivator's Plant Puncher
     },
     pois = {POI({64463107})} -- Chef Dinaire
 }) -- Parasidious
@@ -703,6 +707,7 @@ map.nodes[76765382] = Treasure({ -- review, was not there when i looked
 map.nodes[63990612] = Treasure({
     quest = 80687,
     label = L['coral_fused_clam'],
+    requires = ns.requirement.Item(218354), -- Clammer's Pry Bar
     note = L['coral_fused_clam_note'],
     pois = {
         POI({61890609}) -- Clammer's Kit - Requires level 80 -- q80687
