@@ -24,7 +24,7 @@ local tww = Map({id = 2251, settings = false}) -- The Waterworks
 local tsw = Map({id = 2347, settings = false}) -- The Sprial Weave
 local tsh = Map({id = 2687, settings = false}) -- The Sinkhole
 local fol = Map({id = 2249, settings = false}) -- Fungal Folly
-local ski = Map({id = 2685, settings = false}) -- Skittering Breach
+local ski = Map({id = 2310, settings = false}) -- Skittering Breach (Old Rituals/2310)
 local nfs = Map({id = 2277, settings = false}) -- Nightfall Sanctum
 local tra = Map({id = 2689, settings = false}) -- Tak-Rethan Abyss
 
@@ -332,31 +332,31 @@ fol.nodes[53334138] = SturdyChest({
 ------------------------------ SKITTERING BREACH ------------------------------
 -------------------------------------------------------------------------------
 
-ski.nodes[50956518] = SturdyChest({
+ski.nodes[50746583] = SturdyChest({
     achievementID = 40810,
-    -- location = nil,
-    -- quest = nil,
+    -- location = in building,
+    quest = 83679,
     rlabel = ns.status.Gray('1/4')
 }) -- Sturdy Chest 1
 
-ski.nodes[26952720] = SturdyChest({
+ski.nodes[27422648] = SturdyChest({
     achievementID = 40810,
     -- location = nil,
-    -- quest = nil,
+    quest = 83660,
     rlabel = ns.status.Gray('2/4')
 }) -- Sturdy Chest 2
 
-ski.nodes[55862416] = SturdyChest({
+ski.nodes[56062413] = SturdyChest({
     achievementID = 40810,
-    -- location = nil,
-    -- quest = nil,
+    -- location = on ledge,
+    quest = 83696,
     rlabel = ns.status.Gray('3/4')
 }) -- Sturdy Chest 3
 
-ski.nodes[66331480] = SturdyChest({
+ski.nodes[66801480] = SturdyChest({
     achievementID = 40810,
-    -- location = nil,
-    -- quest = nil,
+    -- location = in a bush,
+    quest = 83680,
     rlabel = ns.status.Gray('4/4')
 }) -- Sturdy Chest 4
 
