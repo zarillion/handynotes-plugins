@@ -130,7 +130,7 @@ map.nodes[61232730] = Rare({
         Reputation({id = 2601, gain = 50, quest = 81699}),
         Reputation({id = 2605, gain = 50, quest = 81699}),
         Reputation({id = 2607, gain = 50, quest = 81699}),
-        Transmog({item = 223369, slot = L['back']}) -- Webspeaker's Spiritual Cloak
+        Transmog({item = 223369, slot = L['cloak']}) -- Webspeaker's Spiritual Cloak
     }
 }) -- Webspeaker Grik'ik
 
@@ -930,13 +930,13 @@ cot.nodes[65255720] = SkittershawSpin({
 
 local NoHarmFromReading = Class('no_harm_from_reading', Collectible, {
     icon = 463284,
-    group = ns.groups.NO_HARM_FROM_READING
+    group = ns.groups.NO_HARM_FROM_READING,
+    rewards = {Achievement({id = 40632, criteria = 0, oneline = true})}
 })
 
 cotl.nodes[68195603] = NoHarmFromReading({
     label = '{achievement:40632}',
     note = L['no_harm_from_reading_note'],
-    rewards = {Achievement({id = 40632, criteria = 0, oneline = true})},
     pois = {
         POI({
             points = {72035705}, -- Cave entrance

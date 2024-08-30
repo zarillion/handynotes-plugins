@@ -1,5 +1,6 @@
 # v82
 
+* Fixed Another You not showing up after reading the book for the achievement [No Harm Ever Came From Reading A Book](https://www.wowhead.com/achievement=40632) (Azj-Kahet)
 * Localization updates: zhCN
 
 # v81
