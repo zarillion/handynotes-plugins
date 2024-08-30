@@ -248,7 +248,7 @@ L['skittershaw_spin_note'] = '骑乘 {npc:224973} 绕区域一圈。\n\n{npc:224
 L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
 L['options_icons_no_harm_from_reading_desc'] = '显示 {achievement:40632} 成就中 NPC {npc:227421} 的位置。'
 L['no_harm_from_reading_note'] = [[
-进入（{dot:Yellow}）洞穴，前往（{dot:Red），爬上3只蜘蛛所在的墙壁，然后进入顶部蜘蛛后面的洞。
+进入（{dot:Yellow}）洞穴，前往（{dot:Red}），爬上3只蜘蛛所在的墙壁，然后进入顶部蜘蛛后面的洞。
 
 掉下去后，与附近的 {object:血肉魔典} 互动，出现4个 {npc:227421}。
 
