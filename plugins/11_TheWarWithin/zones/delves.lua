@@ -544,11 +544,20 @@ local DELVE_AREA_POIS = {
     [7872] = DELVE_REWARDS['the_underkeep'],
     [7873] = DELVE_REWARDS['tek_rethan_abyss'],
     [7874] = DELVE_REWARDS['the_spiral_weave'],
+    --[7875] = DELVE_REWARDS['zekvirs_lair']
     -- BOUNTIFUL DELVES -------------------------------------------------------
+    [7779] = DELVE_REWARDS['fungal_folly'],
     [7780] = DELVE_REWARDS['mycomancer_cavern'],
     [7781] = DELVE_REWARDS['kriegvals_rest'],
     [7782] = DELVE_REWARDS['the_waterworks'],
-    [7784] = DELVE_REWARDS['tek_rethan_abyss']
+    [7783] = DELVE_REWARDS['the_sinkhole'],
+    [7784] = DELVE_REWARDS['tek_rethan_abyss'],
+    [7785] = DELVE_REWARDS['nightfall_sanctum'],
+    [7786] = DELVE_REWARDS['the_underkeep'],
+    [7787] = DELVE_REWARDS['earthcrawl_mines'],
+    [7788] = DELVE_REWARDS['the_dread_pit'],
+    [7789] = DELVE_REWARDS['skittering_breach'],
+    [7790] = DELVE_REWARDS['the_spiral_weave']
 }
 
 hooksecurefunc(DelveEntrancePinMixin, 'OnMouseEnter', function(self)
