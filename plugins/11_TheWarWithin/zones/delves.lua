@@ -93,14 +93,14 @@ tuk.nodes[35893463] = SturdyChest({
 tuk.nodes[63723223] = SturdyChest({
     achievementID = 40815,
     note = L['tuk_chest_2_note'],
-    -- quest = nil,
+    quest = 83682,
     rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2
 
 tuk.nodes[38946882] = SturdyChest({
     achievementID = 40815,
     note = L['tuk_chest_3_note'],
-    -- quest = nil,
+    quest = 83663,
     rlabel = ns.status.Gray('#3')
 }) -- Sturdy Chest 3
 
