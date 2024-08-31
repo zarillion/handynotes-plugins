@@ -216,3 +216,27 @@ L['niffen_stash_note'] = '在橋的下面。'
 L['trapped_trove_note'] = nil
 
 L['tkaktath_note'] = nil
+
+-------------------------------------------------------------------------------
+----------------------------------- DELVES ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sturdy_chest'] = nil
+L['sturdy_chest_suffix'] = nil
+L['ecm_chest_3_location'] = nil
+L['fol_chest_1_location'] = nil
+L['fol_chest_3_location'] = nil
+L['fol_use_mushrooms'] = nil
+L['kvr_chest_2_location'] = nil
+L['nfs_chest_2_location'] = nil
+L['nfs_chest_3_location'] = nil
+L['nfs_chest_4_location'] = nil
+L['ski_chest_3_location'] = nil
+L['tra_chest_2_location'] = nil
+L['tsw_chest_2_location'] = nil
+L['tsw_chest_2_note'] = nil
+L['tsw_chest_3_location'] = nil
+L['tsw_chest_4_location'] = nil
+L['tuk_chest_1_note'] = nil
+L['tuk_chest_2_note'] = nil
+L['tuk_chest_3_note'] = nil

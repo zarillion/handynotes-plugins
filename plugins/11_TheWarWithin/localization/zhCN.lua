@@ -235,3 +235,27 @@ L['niffen_stash_note'] = '在桥下。'
 L['trapped_trove_note'] = '在从天花板垂下的建筑物中。避开地板上的蜘蛛网。'
 
 L['tkaktath_note'] = '开始任务链以获取 {item:224150} 坐骑。'
+
+-------------------------------------------------------------------------------
+----------------------------------- DELVES ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sturdy_chest'] = nil
+L['sturdy_chest_suffix'] = nil
+L['ecm_chest_3_location'] = nil
+L['fol_chest_1_location'] = nil
+L['fol_chest_3_location'] = nil
+L['fol_use_mushrooms'] = nil
+L['kvr_chest_2_location'] = nil
+L['nfs_chest_2_location'] = nil
+L['nfs_chest_3_location'] = nil
+L['nfs_chest_4_location'] = nil
+L['ski_chest_3_location'] = nil
+L['tra_chest_2_location'] = nil
+L['tsw_chest_2_location'] = nil
+L['tsw_chest_2_note'] = nil
+L['tsw_chest_3_location'] = nil
+L['tsw_chest_4_location'] = nil
+L['tuk_chest_1_note'] = nil
+L['tuk_chest_2_note'] = nil
+L['tuk_chest_3_note'] = nil

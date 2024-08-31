@@ -235,3 +235,27 @@ L['niffen_stash_note'] = 'Está debajo del puente.'
 L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'
 
 L['tkaktath_note'] = 'Comienza una cadena de misiones para conseguir la montura {item:224150}.'
+
+-------------------------------------------------------------------------------
+----------------------------------- DELVES ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sturdy_chest'] = nil
+L['sturdy_chest_suffix'] = nil
+L['ecm_chest_3_location'] = nil
+L['fol_chest_1_location'] = nil
+L['fol_chest_3_location'] = nil
+L['fol_use_mushrooms'] = nil
+L['kvr_chest_2_location'] = nil
+L['nfs_chest_2_location'] = nil
+L['nfs_chest_3_location'] = nil
+L['nfs_chest_4_location'] = nil
+L['ski_chest_3_location'] = nil
+L['tra_chest_2_location'] = nil
+L['tsw_chest_2_location'] = nil
+L['tsw_chest_2_note'] = nil
+L['tsw_chest_3_location'] = nil
+L['tsw_chest_4_location'] = nil
+L['tuk_chest_1_note'] = nil
+L['tuk_chest_2_note'] = nil
+L['tuk_chest_3_note'] = nil

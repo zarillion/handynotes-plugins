@@ -235,3 +235,28 @@ L['niffen_stash_note'] = 'Located under the bridge.'
 L['trapped_trove_note'] = 'In a building that hangs from the ceiling. Avoid the spiderwebs on the floor.'
 
 L['tkaktath_note'] = 'Starts a quest chain to get the {item:224150} mount.'
+
+-------------------------------------------------------------------------------
+----------------------------------- DELVES ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sturdy_chest'] = 'Sturdy Chest'
+L['sturdy_chest_suffix'] = 'Sturdy Chest found'
+
+L['ecm_chest_3_location'] = 'On the crane. Jump from the upper level.'
+L['fol_chest_1_location'] = 'On the rock under the mushrooms in the bushes.'
+L['fol_chest_3_location'] = 'At the bottom of the waterfall.'
+L['fol_use_mushrooms'] = 'Jump on the mushrooms along the path.'
+L['kvr_chest_2_location'] = 'On top of the wooden scaffold.'
+L['nfs_chest_2_location'] = 'On the plant.'
+L['nfs_chest_3_location'] = 'Inside the building.'
+L['nfs_chest_4_location'] = 'Jump down from the skyship.'
+L['ski_chest_3_location'] = 'Inside the building.'
+L['tra_chest_2_location'] = 'On top of the coral.'
+L['tsw_chest_2_location'] = 'High up on the beam.'
+L['tsw_chest_2_note'] = '{note:Only available in the "From the Weaver with Love" story variant.}'
+L['tsw_chest_3_location'] = 'High up on a pillar near the dropdown to the treasure room'
+L['tsw_chest_4_location'] = 'High up on a beam. Drop down from the pillar near the other chest.'
+L['tuk_chest_1_note'] = 'Behind the Statue.'
+L['tuk_chest_2_note'] = '{note:Only available in the "Torture Victims" story variant.}'
+L['tuk_chest_3_note'] = '{note:Only available in the "Weaver Rescue" story variant.}'

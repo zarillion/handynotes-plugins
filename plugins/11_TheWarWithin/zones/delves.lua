@@ -6,7 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local Collectible = ns.node.Collectible
+local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 
@@ -21,58 +21,16 @@ local ecm = Map({id = 2269, settings = false}) -- Earthcrawl Mines
 local mmc = Map({id = 2312, settings = false}) -- Mycomancer Cavern
 local tdp = Map({id = 2302, settings = false}) -- The Dread Pit
 local tww = Map({id = 2251, settings = false}) -- The Waterworks
-local tsw = Map({id = 2347, settings = false}) -- The Sprial Weave
+local tsw = Map({id = 2347, settings = false}) -- The Spiral Weave
 local tsh = Map({id = 2301, settings = false}) -- The Sinkhole
 local fol = Map({id = 2249, settings = false}) -- Fungal Folly
-local ski = Map({id = 2310, settings = false}) -- Skittering Breach (Old Rituals/2310)
+local ski = Map({id = 2310, settings = false}) -- Skittering Breach
 local nfs = Map({id = 2277, settings = false}) -- Nightfall Sanctum
 local tra = Map({id = 2259, settings = false}) -- Tak-Rethan Abyss
 
 -------------------------------------------------------------------------------
 
--- THESE WILL EVENTUALLY BE MOVED TO THE ENGLISH LOCALIZATION FILE ONCE
--- EVERYTHING HAS BEEN CORRECTLY FIGURED OUT. THEY JUST LIVE HERE FOR EASY
--- ACCESS WHEN UPDATING THE NODES.
-
--- LuaFormatter off
-L['options_icons_sturdy_chest'] = '{achievement:40506}'
-L['options_icons_sturdy_chest_desc'] = 'Display {object:Sturdy Chest} locations for {achievement:40506}.'
-
-L['sturdy_chest'] = 'Sturdy Chest'
-L['sturdy_chest_suffix'] = 'Sturdy Chest found'
-L['sturdy_chest_disclaimer'] = '{note:May not be available during the current story variant in this delve.}'
-
--- THESE LOCATION NOTES WILL PROBABLY BE SHARED. NO REASON TO TRANSLATE A UNIQUE
--- LOCATION NOTE FOR EACH STURDY CHEST NODE. I JUST DON'T KNOW WHICH ALL WILL BE
--- USED YET.
-L['on_the_plant'] = 'On the plant.'
-
--- THESE LOCATION NOTES WILL PROBABLY BE UNIQUE AND USED ONLY ONCE.
-L['fol_chest_1_location'] = 'On the rock under the mushrooms in the bushes.'
-L['fol_chest_3_location'] = 'At the bottom of the waterfall.'
-L['fol_use_mushrooms'] = 'Jump on the mushrooms along the path.'
-L['kvr_chest_2_location'] = 'On top of the wooden scaffold.'
-L['sturdy_chest_ship_jump'] = 'Jump down from the skyship.'
-L['sturdy_chest_crane'] = 'On the crane. Jump from the upper level.'
-L['sturdy_chest_beam'] = 'High up on the beam.'
-L['sturdy_chest_pillar'] = 'High up on a pillar near the dropdown to the treasure room'
-L['sturdy_chest_pillar_2'] = 'High up on a beam. Drop down from the pillar near the other chest.'
-L['tra_chest_2_location'] = 'On top of the coral.'
-L['tuk_chest_1_note'] = 'Behind the Statue.'
-
--- LuaFormatter on
-
--- THIS NEEDS TO BE MOVED TO COMMON.LUA ONCE ALL NODES ARE FINALIZED.
-ns.groups.STURDY_CHEST = ns.Group('sturdy_chest', 4203076, {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT,
-    achievement = 40506
-})
-
--------------------------------------------------------------------------------
-
-local SturdyChest = Class('SturdyChest', Collectible, {
-    group = ns.groups.STURDY_CHEST,
+local SturdyChest = Class('SturdyChest', Treasure, {
     icon = 'chest_yw',
     label = L['sturdy_chest'],
     scale = 1.25,
@@ -96,75 +54,100 @@ local SturdyChest = Class('SturdyChest', Collectible, {
 ------------------------------- KRIEGVAL'S REST -------------------------------
 -------------------------------------------------------------------------------
 
-kvr.nodes[46251972] = SturdyChest({achievementID = 40807, quest = 83665}) -- Sturdy Chest 1
+kvr.nodes[46251972] = SturdyChest({
+    achievementID = 40807,
+    quest = 83665,
+    rlabel = ns.status.Gray('#1')
+}) -- Sturdy Chest 1
 
 kvr.nodes[62135285] = SturdyChest({
     achievementID = 40807,
     location = L['kvr_chest_2_location'],
-    quest = 83698
+    quest = 83698,
+    rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2
 
-kvr.nodes[74467020] = SturdyChest({achievementID = 40807, quest = 83683}) -- Sturdy Chest 3
+kvr.nodes[74467020] = SturdyChest({
+    achievementID = 40807,
+    quest = 83683,
+    rlabel = ns.status.Gray('#3')
+}) -- Sturdy Chest 3
 
-kvr.nodes[69958519] = SturdyChest({achievementID = 40807, quest = 83666}) -- Sturdy Chest 4
+kvr.nodes[69958519] = SturdyChest({
+    achievementID = 40807,
+    quest = 83666,
+    rlabel = ns.status.Gray('#4')
+}) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
 -------------------------------- THE UNDERKEEP --------------------------------
 -------------------------------------------------------------------------------
 
--- Chest 2 and 3 were not reachable in scenario 'Evolved Research'
-
 tuk.nodes[35893463] = SturdyChest({
     achievementID = 40815,
     location = L['tuk_chest_1_note'],
     quest = 83664,
-    rlabel = ns.status.Gray('1/4')
+    rlabel = ns.status.Gray('#1')
 }) -- Sturdy Chest 1
 
 tuk.nodes[63723223] = SturdyChest({
     achievementID = 40815,
-    -- location = nil,
+    note = L['tuk_chest_2_note'],
     -- quest = nil,
-    rlabel = ns.status.Gray('2/4')
+    rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2
 
 tuk.nodes[38946882] = SturdyChest({
     achievementID = 40815,
-    -- location = nil,
+    note = L['tuk_chest_3_note'],
     -- quest = nil,
-    rlabel = ns.status.Gray('3/4')
+    rlabel = ns.status.Gray('#3')
 }) -- Sturdy Chest 3
 
 tuk.nodes[72128904] = SturdyChest({
     achievementID = 40815,
     quest = 83697,
-    rlabel = ns.status.Gray('4/4')
+    rlabel = ns.status.Gray('#4')
 }) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
 ------------------------------ EARTHCRAWL MINES -------------------------------
 -------------------------------------------------------------------------------
 
-ecm.nodes[45341525] = SturdyChest({achievementID = 40806, quest = 83440}) -- Sturdy Chest 1
-
-ecm.nodes[43572716] = SturdyChest({achievementID = 40806, quest = 83438}) -- Sturdy Chest 2
-
-ecm.nodes[32743966] = SturdyChest({
+ecm.nodes[45341525] = SturdyChest({
     achievementID = 40806,
-    quest = nil -- TODO: I MISSED THIS QUEST
-}) -- Sturdy Chest 3
+    quest = 83440,
+    rlabel = ns.status.Gray('#1')
+}) -- Sturdy Chest 1
+
+ecm.nodes[43572716] = SturdyChest({
+    achievementID = 40806,
+    quest = 83438,
+    rlabel = ns.status.Gray('#2')
+}) -- Sturdy Chest 2
 
 ecm.nodes[36163308] = SturdyChest({
     achievementID = 40806,
-    location = L['sturdy_chest_crane'],
+    location = L['ecm_chest_3_location'],
     quest = 83441,
+    rlabel = ns.status.Gray('#3'),
     pois = {
         POI({34523427}), -- jump point
         Path({34523427, 35393357}) -- jump path
     }
+}) -- Sturdy Chest 3
+
+ecm.nodes[32743966] = SturdyChest({
+    achievementID = 40806,
+    quest = 83451,
+    rlabel = ns.status.Gray('#4')
 }) -- Sturdy Chest 4
 
-ecm.nodes[53558214] = SturdyChest({achievementID = 40806, quest = 83438}) -- Sturdy Chest 5
+ecm.nodes[53558214] = SturdyChest({
+    achievementID = 40806,
+    quest = 83439,
+    rlabel = ns.status.Gray('#5')
+}) -- Sturdy Chest 5
 
 -------------------------------------------------------------------------------
 ------------------------------ MYOMANCER CAVERN -------------------------------
@@ -172,84 +155,115 @@ ecm.nodes[53558214] = SturdyChest({achievementID = 40806, quest = 83438}) -- Stu
 
 mmc.nodes[49662155] = SturdyChest({
     achievementID = 40808,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('1/4')
+    quest = 83652,
+    rlabel = ns.status.Gray('#1')
 }) -- Sturdy Chest 1
 
 mmc.nodes[63224544] = SturdyChest({
     achievementID = 40808,
-    -- location = nil, -- in the water
     quest = 83691,
-    rlabel = ns.status.Gray('2/4')
+    rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2
 
 mmc.nodes[68914096] = SturdyChest({
     achievementID = 40808,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('3/4')
+    quest = 83455,
+    rlabel = ns.status.Gray('#3')
 }) -- Sturdy Chest 3
 
 mmc.nodes[40666161] = SturdyChest({
     achievementID = 40808,
-    -- location = nil,
-    -- quest = nil,
-    rlabel = ns.status.Gray('4/4')
+    quest = 83672,
+    rlabel = ns.status.Gray('#4')
 }) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
 -------------------------------- THE DREAD PIT --------------------------------
 -------------------------------------------------------------------------------
 
-tdp.nodes[41074551] = SturdyChest({achievementID = 40812, quest = 83677}) -- Sturdy Chest 1
+tdp.nodes[41074551] = SturdyChest({
+    achievementID = 40812,
+    quest = 83677,
+    rlabel = ns.status.Gray('#1')
+}) -- Sturdy Chest 1
 
-tdp.nodes[57495613] = SturdyChest({achievementID = 40812, quest = 83658}) -- Sturdy Chest 2
+tdp.nodes[57495613] = SturdyChest({
+    achievementID = 40812,
+    quest = 83658,
+    rlabel = ns.status.Gray('#2')
+}) -- Sturdy Chest 2
 
-tdp.nodes[57782765] = SturdyChest({achievementID = 40812, quest = 83678}) -- Sturdy Chest 3
+tdp.nodes[57782765] = SturdyChest({
+    achievementID = 40812,
+    quest = 83678,
+    rlabel = ns.status.Gray('#3')
+}) -- Sturdy Chest 3
 
-tdp.nodes[36281662] = SturdyChest({achievementID = 40812, quest = 83659}) -- Sturdy Chest 4
+tdp.nodes[36281662] = SturdyChest({
+    achievementID = 40812,
+    quest = 83659,
+    rlabel = ns.status.Gray('#4')
+}) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
 ------------------------------- THE WATERWORKS --------------------------------
 -------------------------------------------------------------------------------
 
-tww.nodes[49892459] = SturdyChest({achievementID = 40816, quest = 83684}) -- Sturdy Chest 1
+tww.nodes[49892459] = SturdyChest({
+    achievementID = 40816,
+    quest = 83684,
+    rlabel = ns.status.Gray('#1')
+}) -- Sturdy Chest 1
 
 tww.nodes[44363821] = SturdyChest({
     achievementID = 40816,
     location = L['in_water'],
-    quest = 83650
+    quest = 83650,
+    rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2
 
-tww.nodes[47925350] = SturdyChest({achievementID = 40816, quest = 83667}) -- Sturdy Chest 3
+tww.nodes[47925350] = SturdyChest({
+    achievementID = 40816,
+    quest = 83667,
+    rlabel = ns.status.Gray('#3')
+}) -- Sturdy Chest 3
 
-tww.nodes[49587916] = SturdyChest({achievementID = 40816, quest = 83456}) -- Sturdy Chest 4
+tww.nodes[49587916] = SturdyChest({
+    achievementID = 40816,
+    quest = 83456,
+    rlabel = ns.status.Gray('#4')
+}) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
 ------------------------------ THE SPIRAL WEAVE ------------------------------
 -------------------------------------------------------------------------------
 
--- Chest 2 was not reachable in scenario 'Tortured Hostages'
-
-tsw.nodes[50044631] = SturdyChest({achievementID = 40814, quest = 83649}) -- Sturdy Chest 1
+tsw.nodes[50044631] = SturdyChest({
+    achievementID = 40814,
+    quest = 83649,
+    rlabel = ns.status.Gray('#1')
+}) -- Sturdy Chest 1
 
 tsw.nodes[36331051] = SturdyChest({
     achievementID = 40814,
-    location = L['sturdy_chest_beam'],
-    quest = 83661
+    note = L['tsw_chest_2_note'],
+    location = L['tsw_chest_2_location'],
+    quest = 83661,
+    rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2
 
 tsw.nodes[46004644] = SturdyChest({
     achievementID = 40814,
-    location = L['sturdy_chest_pillar'],
-    quest = 83681
+    location = L['tsw_chest_3_location'],
+    quest = 83681,
+    rlabel = ns.status.Gray('#3')
 }) -- Sturdy Chest 3
 
 tsw.nodes[42334786] = SturdyChest({
     achievementID = 40814,
-    location = L['sturdy_chest_pillar_2'],
-    quest = 83662
+    location = L['tsw_chest_4_location'],
+    quest = 83662,
+    rlabel = ns.status.Gray('#4')
 }) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
@@ -258,30 +272,26 @@ tsw.nodes[42334786] = SturdyChest({
 
 tsh.nodes[52221334] = SturdyChest({
     achievementID = 40813,
-    -- location = nil,
     quest = 83453,
-    rlabel = ns.status.Gray('1/4')
+    rlabel = ns.status.Gray('#1')
 }) -- Sturdy Chest 1
 
 tsh.nodes[43496066] = SturdyChest({
     achievementID = 40813,
-    -- location = nil,
     quest = 83668,
-    rlabel = ns.status.Gray('2/4')
+    rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2
 
 tsh.nodes[72586118] = SturdyChest({
     achievementID = 40813,
-    -- location = nil,
-    -- quest = 83700,
-    rlabel = ns.status.Gray('3/4')
+    quest = 83700,
+    rlabel = ns.status.Gray('#3')
 }) -- Sturdy Chest 3
 
 tsh.nodes[48446923] = SturdyChest({
     achievementID = 40813,
-    -- location = nil,
     quest = 83685,
-    rlabel = ns.status.Gray('4/4')
+    rlabel = ns.status.Gray('#4')
 }) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
@@ -291,26 +301,30 @@ tsh.nodes[48446923] = SturdyChest({
 fol.nodes[58784691] = SturdyChest({
     achievementID = 40803,
     location = L['fol_chest_1_location'],
-    quest = 83702
+    quest = 83702,
+    rlabel = ns.status.Gray('#1')
 }) -- Sturdy Chest 1
 
 fol.nodes[32747411] = SturdyChest({
     achievementID = 40803,
     location = L['fol_use_mushrooms'],
     quest = 83671,
+    rlabel = ns.status.Gray('#2'),
     pois = {Path({34516795, 33106726, 30986856, 30937054, 32747411})}
 }) -- Sturdy Chest 2
 
 fol.nodes[34456569] = SturdyChest({
     achievementID = 40803,
     location = L['fol_chest_3_location'],
-    quest = 83689
+    quest = 83689,
+    rlabel = ns.status.Gray('#3')
 }) -- Sturdy Chest 3
 
 fol.nodes[49583598] = SturdyChest({
     achievementID = 40803,
     location = L['in_water'],
     quest = 83452,
+    rlabel = ns.status.Gray('#4'),
     rewards = {
         ns.reward.Toy({item = 225556}) -- Ancient Construct
     }
@@ -320,6 +334,7 @@ fol.nodes[53334138] = SturdyChest({
     achievementID = 40803,
     location = L['fol_use_mushrooms'],
     quest = 83690,
+    rlabel = ns.status.Gray('#5'),
     pois = {
         Path({
             57845665, 55845497, 53845005, 53244437, 55674511, 55744326, 53334138
@@ -333,58 +348,58 @@ fol.nodes[53334138] = SturdyChest({
 
 ski.nodes[50746583] = SturdyChest({
     achievementID = 40810,
-    -- location = in building,
     quest = 83679,
-    rlabel = ns.status.Gray('1/4')
+    rlabel = ns.status.Gray('#1')
 }) -- Sturdy Chest 1
 
 ski.nodes[27422648] = SturdyChest({
     achievementID = 40810,
-    -- location = nil,
     quest = 83660,
-    rlabel = ns.status.Gray('2/4')
+    rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2
 
 ski.nodes[56062413] = SturdyChest({
     achievementID = 40810,
-    -- location = on ledge,
+    location = L['ski_chest_3_location'],
     quest = 83696,
-    rlabel = ns.status.Gray('3/4')
+    rlabel = ns.status.Gray('#3')
 }) -- Sturdy Chest 3
 
 ski.nodes[66801480] = SturdyChest({
     achievementID = 40810,
-    -- location = in a bush,
     quest = 83680,
-    rlabel = ns.status.Gray('4/4')
+    rlabel = ns.status.Gray('#4')
 }) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
 ------------------------------ NIGHTFALL SANCTUM ------------------------------
 -------------------------------------------------------------------------------
 
-nfs.nodes[70934454] = SturdyChest({
-    achievementID = 40809,
-    location = L['on_the_plant'],
-    quest = 83670
-}) -- Sturdy Chest 1
-
 nfs.nodes[77783613] = SturdyChest({
     achievementID = 40809,
-    note = L['sturdy_chest_disclaimer'],
-    quest = 83688
+    quest = 83688,
+    rlabel = ns.status.Gray('#1')
+}) -- Sturdy Chest 1
+
+nfs.nodes[70934454] = SturdyChest({
+    achievementID = 40809,
+    location = L['nfs_chest_2_location'],
+    quest = 83670,
+    rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2
 
 nfs.nodes[39147437] = SturdyChest({
     achievementID = 40809,
-    location = L['in_building'],
-    quest = 83454
+    location = L['nfs_chest_3_location'],
+    quest = 83454,
+    rlabel = ns.status.Gray('#3')
 }) -- Sturdy Chest 3
 
 nfs.nodes[40023667] = SturdyChest({
     achievementID = 40809,
-    location = L['sturdy_chest_ship_jump'],
+    location = L['nfs_chest_4_location'],
     quest = 83701,
+    rlabel = ns.status.Gray('#4'),
     pois = {
         POI({38554822}), -- jump point
         Path({38554822, 38494360}) -- jump path
@@ -397,28 +412,27 @@ nfs.nodes[40023667] = SturdyChest({
 
 tra.nodes[59732483] = SturdyChest({
     achievementID = 40811,
-    -- location = nil,
     quest = 83651,
-    rlabel = ns.status.Gray('1/4')
+    rlabel = ns.status.Gray('#1')
 }) -- Sturdy Chest 1
 
 tra.nodes[64734930] = SturdyChest({
     achievementID = 40811,
-    location = L['tra_chest_2'],
+    location = L['tra_chest_2_location'],
     quest = 83686,
-    rlabel = ns.status.Gray('2/4')
+    rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2
 
 tra.nodes[44784979] = SturdyChest({
     achievementID = 40811,
     quest = 83687,
-    rlabel = ns.status.Gray('3/4')
+    rlabel = ns.status.Gray('#3')
 }) -- Sturdy Chest 3
 
 tra.nodes[35135863] = SturdyChest({
     achievementID = 40811,
     quest = 83669,
-    rlabel = ns.status.Gray('4/4')
+    rlabel = ns.status.Gray('#4')
 }) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
@@ -544,7 +558,7 @@ local DELVE_AREA_POIS = {
     [7872] = DELVE_REWARDS['the_underkeep'],
     [7873] = DELVE_REWARDS['tek_rethan_abyss'],
     [7874] = DELVE_REWARDS['the_spiral_weave'],
-    --[7875] = DELVE_REWARDS['zekvirs_lair']
+    -- [7875] = DELVE_REWARDS['zekvirs_lair']
     -- BOUNTIFUL DELVES -------------------------------------------------------
     [7779] = DELVE_REWARDS['fungal_folly'],
     [7780] = DELVE_REWARDS['mycomancer_cavern'],
