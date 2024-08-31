@@ -93,6 +93,7 @@ tuk.nodes[35893463] = SturdyChest({
 tuk.nodes[63723223] = SturdyChest({
     achievementID = 40815,
     note = L['tuk_chest_2_note'],
+    -- requires = scenarioID:2429 Runaway Evolution and scenarioID:?? Torture Victims
     quest = 83682,
     rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2
@@ -100,6 +101,7 @@ tuk.nodes[63723223] = SturdyChest({
 tuk.nodes[38946882] = SturdyChest({
     achievementID = 40815,
     note = L['tuk_chest_3_note'],
+    -- requires = scenarioID:2429 Runaway Evolution and scenarioID:?? Weaver Rescue
     quest = 83663,
     rlabel = ns.status.Gray('#3')
 }) -- Sturdy Chest 3
@@ -248,6 +250,7 @@ tsw.nodes[36331051] = SturdyChest({
     achievementID = 40814,
     note = L['tsw_chest_2_note'],
     location = L['tsw_chest_2_location'],
+    -- requires = scenarioID:2403 From the Weaver with Love
     quest = 83661,
     rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2
@@ -263,7 +266,8 @@ tsw.nodes[42334786] = SturdyChest({
     achievementID = 40814,
     location = L['tsw_chest_4_location'],
     quest = 83662,
-    rlabel = ns.status.Gray('#4')
+    rlabel = ns.status.Gray('#4'),
+    pois = {Path({47714549, 42334786})}
 }) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------

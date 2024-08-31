@@ -299,5 +299,5 @@ L['tsw_chest_2_note'] = '{note:Only available in the "From the Weaver with Love"
 L['tsw_chest_3_location'] = 'High up on a pillar near the dropdown to the treasure room.'
 L['tsw_chest_4_location'] = 'High up on a beam. Drop down from the pillar near the other chest.'
 L['tuk_chest_1_note'] = 'Behind the Statue.'
-L['tuk_chest_2_note'] = '{note:Only available in the "Torture Victims" story variant.}'
-L['tuk_chest_3_note'] = '{note:Only available in the "Weaver Rescue" story variant.}'
+L['tuk_chest_2_note'] = '{note:Only available in the "Runaway Evolution" and "Torture Victims" story variants.}'
+L['tuk_chest_3_note'] = '{note:Only available in the "Runaway Evolution" and "Weaver Rescue" story variants.}'

@@ -7,8 +7,8 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_delve_rewards'] = nil
-L['options_icons_delve_rewards_desc'] = nil
+L['options_icons_delve_rewards'] = 'Tiefen'
+L['options_icons_delve_rewards_desc'] = 'Zeigt die Belohnungen im Tooltip der {location:Tiefe} an.'
 
 L['skyriding_glyph'] = 'Glyphe des Himmelsreitens'
 L['options_icons_skyriding_glyph'] = 'Glyphen des Himmelsreitens'
@@ -283,23 +283,23 @@ L['you_cant_hang_with_us_note'] = 'Finde einen {npc:211816} mit dem Stärkungsza
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
-L['sturdy_chest'] = nil
-L['sturdy_chest_suffix'] = nil
+L['sturdy_chest'] = 'Robuste Truhe'
+L['sturdy_chest_suffix'] = 'robuste Truhen geöffnet'
 
-L['ecm_chest_3_location'] = nil
-L['fol_chest_1_location'] = nil
-L['fol_chest_3_location'] = nil
-L['fol_use_mushrooms'] = nil
-L['kvr_chest_2_location'] = nil
-L['nfs_chest_2_location'] = nil
-L['nfs_chest_3_location'] = nil
-L['nfs_chest_4_location'] = nil
-L['ski_chest_3_location'] = nil
-L['tra_chest_2_location'] = nil
-L['tsw_chest_2_location'] = nil
-L['tsw_chest_2_note'] = nil
-L['tsw_chest_3_location'] = nil
-L['tsw_chest_4_location'] = nil
-L['tuk_chest_1_note'] = nil
-L['tuk_chest_2_note'] = nil
-L['tuk_chest_3_note'] = nil
+L['ecm_chest_3_location'] = 'Auf dem Kran. Springe von der oberen Ebene runter.'
+L['fol_chest_1_location'] = 'Auf dem Felsen unter den Pilzen im Gebüsch.'
+L['fol_chest_3_location'] = 'Unten am Wasserfall.'
+L['fol_use_mushrooms'] = 'Springe auf den Pilzen entlang des Weges.'
+L['kvr_chest_2_location'] = 'Auf dem Holzgerüst.'
+L['nfs_chest_2_location'] = 'Auf der Pflanze.'
+L['nfs_chest_3_location'] = 'Im Gebäude'
+L['nfs_chest_4_location'] = 'Springe vom Himmelsschiff runter.'
+L['ski_chest_3_location'] = 'Im Gebäude'
+L['tra_chest_2_location'] = 'Oben in der Koralle.'
+L['tsw_chest_2_location'] = 'Oben auf dem Balken.'
+L['tsw_chest_2_note'] = '{note:Nur in der Geschichtenvariantion "Alles Liebe von der Weberin" verfügbar.}'
+L['tsw_chest_3_location'] = 'Oben auf der Säule in der Nähe des Absprungs in die Schatzkammer.'
+L['tsw_chest_4_location'] = 'Oben auf dem Balken. Springe von der Säule runter, auf der die andere Truhe steht.'
+L['tuk_chest_1_note'] = 'Hinter der Statue.'
+L['tuk_chest_2_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Folteropfer" verfügbar.}'
+L['tuk_chest_3_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Weberrettung" verfügbar.}'
