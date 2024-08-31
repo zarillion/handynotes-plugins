@@ -300,5 +300,5 @@ L['tsw_chest_2_note'] = '{note:Disponible uniquement pendant la variante de l’
 L['tsw_chest_3_location'] = 'En haut d\'un pilier, près du passage vers la salle du trésor.'
 L['tsw_chest_4_location'] = 'En haut d\'une poutre. Descendez du pilier près de l\'autre coffre.'
 L['tuk_chest_1_note'] = 'Derrière la statue.'
-L['tuk_chest_2_note'] = '{note:Disponible uniquement pendant la variante de l’histoire "Victimes de tortures".}'
-L['tuk_chest_3_note'] = '{note:Disponible uniquement pendant la variante de l’histoire "Sauvetage de tisserande".}'
+L['tuk_chest_2_note'] = '{note:Disponible uniquement pendant les variantes d’histoires "Évolution incontrôlable" et "Victimes de tortures".}'
+L['tuk_chest_3_note'] = '{note:Disponible uniquement pendant les variantes d’histoires "Évolution incontrôlable" et "Sauvetage de tisserande".}'
