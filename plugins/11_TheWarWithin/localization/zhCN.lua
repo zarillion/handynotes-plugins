@@ -281,23 +281,23 @@ L['you_cant_hang_with_us_note'] = '找到一个带有 {spell:434734} 增益效�
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
-L['sturdy_chest'] = nil
-L['sturdy_chest_suffix'] = nil
+L['sturdy_chest'] = '坚固宝箱'
+L['sturdy_chest_suffix'] = '已找到坚固宝箱'
 
-L['ecm_chest_3_location'] = nil
-L['fol_chest_1_location'] = nil
-L['fol_chest_3_location'] = nil
-L['fol_use_mushrooms'] = nil
-L['kvr_chest_2_location'] = nil
-L['nfs_chest_2_location'] = nil
-L['nfs_chest_3_location'] = nil
-L['nfs_chest_4_location'] = nil
-L['ski_chest_3_location'] = nil
-L['tra_chest_2_location'] = nil
-L['tsw_chest_2_location'] = nil
-L['tsw_chest_2_note'] = nil
-L['tsw_chest_3_location'] = nil
-L['tsw_chest_4_location'] = nil
-L['tuk_chest_1_note'] = nil
-L['tuk_chest_2_note'] = nil
-L['tuk_chest_3_note'] = nil
+L['ecm_chest_3_location'] = '在起重机上。从上层跳下。'
+L['fol_chest_1_location'] = '在灌木丛中蘑菇下的岩石上。'
+L['fol_chest_3_location'] = '在瀑布底部。'
+L['fol_use_mushrooms'] = '跳上小路旁的蘑菇。'
+L['kvr_chest_2_location'] = '在木制脚手架顶部。'
+L['nfs_chest_2_location'] = '在植物上。'
+L['nfs_chest_3_location'] = '在建筑物内。'
+L['nfs_chest_4_location'] = '从飞船上跳下。'
+L['ski_chest_3_location'] = '在建筑物内。'
+L['tra_chest_2_location'] = '在珊瑚的顶部。'
+L['tsw_chest_2_location'] = '在横梁上。'
+L['tsw_chest_2_note'] = '{note:仅在“纺丝者爱的问候”故事变种。}'
+L['tsw_chest_3_location'] = '在通往宝藏室的下拉栏附近的柱子上。'
+L['tsw_chest_4_location'] = '在横梁上。从另一个宝箱附近的柱子上掉下来。'
+L['tuk_chest_1_note'] = '雕像后面。'
+L['tuk_chest_2_note'] = '{note:仅在“煎熬受害者”故事变种。}'
+L['tuk_chest_3_note'] = '{note:仅在“纺丝者救援”故事变种。}'
