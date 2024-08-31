@@ -58,6 +58,12 @@ ns.groups.BOOKWORM = Group('bookworm', 4549129, {
     achievement = 40629
 })
 
+ns.groups.FLAMEGARDS_HOPE = Group('flamegards_hope', 463526, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 20594
+})
+
 ns.groups.FLAT_EARTHEN = Group('flat_earthen', 4620670, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

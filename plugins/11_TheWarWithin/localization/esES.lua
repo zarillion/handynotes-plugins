@@ -202,6 +202,8 @@ L['beacon_of_hope_note'] = 'Contribuye con {item:206350} para encender las llave
 
 L['parasidious_note'] = 'Compra unos {item:206670} al {npc:206533} (enciende la {object:Llave Ardiente Inferior} para hacer que aparezca) e ir al {location:Paraje Alzaocaso} y sacar {npc:206870} hasta que aparezca el raro. {note: Sólo aparece si hay un {npc:206978} donde estás}.'
 
+L['options_icons_flamegards_hope'] = '{achievement:20594}'
+L['options_icons_flamegards_hope_desc'] = nil
 L['flamegards_hope_note'] = 'Ayuda a {npc:213319} durante 20 Días curando las {npc:220225}.\n\nTambién puedes usar una {spell:372009} o una {item:211878} si tu clase no puede curar.'
 
 -------------------------------------------------------------------------------

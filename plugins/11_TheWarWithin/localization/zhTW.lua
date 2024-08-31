@@ -202,6 +202,8 @@ L['beacon_of_hope_note'] = '捐獻  {item:206350} 到低階鑰炎並完成下列
 
 L['parasidious_note'] = nil
 
+L['options_icons_flamegards_hope'] = '{achievement:20594}'
+L['options_icons_flamegards_hope_desc'] = nil
 L['flamegards_hope_note'] = nil
 
 -------------------------------------------------------------------------------

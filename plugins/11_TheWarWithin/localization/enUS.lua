@@ -202,6 +202,8 @@ L['beacon_of_hope_note'] = 'Contribute {item:206350} to light lesser keyflames a
 
 L['parasidious_note'] = 'Purchase 1x {item:206670} from {npc:206533} (light up the {object:Lesser Keyflame} to spawn him) then go to the {location:Duskrise Acreage} and pull {npc:206870} until the rare spawns. {note: Only spawns if the {npc:206978} is in this location}.'
 
+L['options_icons_flamegards_hope'] = '{achievement:20594}'
+L['options_icons_flamegards_hope_desc'] = 'Display location for the {achievement:20594} achievement.'
 L['flamegards_hope_note'] = 'Help out {npc:213319} for 20 Days healing the {npc:220225s}.\n\nYou can also use a {spell:372009} or {item:211878} if your class can\'t heal.'
 
 -------------------------------------------------------------------------------

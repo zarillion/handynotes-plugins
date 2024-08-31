@@ -1307,5 +1307,6 @@ map.nodes[43205177] = Collectible({
     quest = 79081,
     label = '{achievement:20594}',
     note = L['flamegards_hope_note'],
+    group = ns.groups.FLAMEGARDS_HOPE,
     rewards = {Achievement({id = 20594, criteria = {id = 1, qty = true}})}
 })
