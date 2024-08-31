@@ -1,3 +1,8 @@
+# v83
+
+* Added Sturdy Chest locations to delves!
+* Added delves reward information to delve tooltips on the world map via "Delve Rewards" option.
+
 # v82
 
 * Updated Rare Rewards in all zones.
