@@ -299,5 +299,5 @@ L['tsw_chest_2_note'] = '{note:Sólo disponible en la variante de la historia "D
 L['tsw_chest_3_location'] = 'En lo alto de un pilar cerca del menú desplegable de la sala del tesoro.'
 L['tsw_chest_4_location'] = 'En lo alto de una viga. Bájate del pilar cerca del otro cofre.'
 L['tuk_chest_1_note'] = 'Detrás de la estatua.'
-L['tuk_chest_2_note'] = '{note:Sólo disponible en la variante de la historia "Víctimas de Tortura".}'
-L['tuk_chest_3_note'] = '{note:Sólo disponible en la variante de la historia "Rescate de la Tejedora".}'
+L['tuk_chest_2_note'] = '{note:Sólo disponible en las variantes de la historia "Evolución Incontrolable" y "Víctimas de Tortura".}'
+L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia "Evolución Incontrolable" y "Rescate de la Tejedora".}'
