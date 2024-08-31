@@ -1,3 +1,7 @@
+# v84
+
+* Localization updates: deDE, esES, frFR, zhCN
+
 # v83
 
 * Added Sturdy Chest locations to delves!
