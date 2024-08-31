@@ -282,23 +282,23 @@ L['you_cant_hang_with_us_note'] = 'Trouvez une {npc:211816} avec l\'effet {spell
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
-L['sturdy_chest'] = nil
-L['sturdy_chest_suffix'] = nil
+L['sturdy_chest'] = 'Coffre solide'
+L['sturdy_chest_suffix'] = 'Coffre solide trouvé'
 
-L['ecm_chest_3_location'] = nil
-L['fol_chest_1_location'] = nil
-L['fol_chest_3_location'] = nil
-L['fol_use_mushrooms'] = nil
-L['kvr_chest_2_location'] = nil
-L['nfs_chest_2_location'] = nil
-L['nfs_chest_3_location'] = nil
-L['nfs_chest_4_location'] = nil
-L['ski_chest_3_location'] = nil
-L['tra_chest_2_location'] = nil
-L['tsw_chest_2_location'] = nil
-L['tsw_chest_2_note'] = nil
-L['tsw_chest_3_location'] = nil
-L['tsw_chest_4_location'] = nil
-L['tuk_chest_1_note'] = nil
-L['tuk_chest_2_note'] = nil
-L['tuk_chest_3_note'] = nil
+L['ecm_chest_3_location'] = 'Sur la grue. Sautez du palier supérieur.'
+L['fol_chest_1_location'] = 'Sur le rocher sous les champignons dans les buissons.'
+L['fol_chest_3_location'] = 'Au pied de la cascade.'
+L['fol_use_mushrooms'] = 'Sautez sur les champignons le long du chemin.'
+L['kvr_chest_2_location'] = 'En haut de l\'échafaudage en bois.'
+L['nfs_chest_2_location'] = 'Sur la plante.'
+L['nfs_chest_3_location'] = 'À l\'intérieur du bâtiment.'
+L['nfs_chest_4_location'] = 'Sautez du dirigeable.'
+L['ski_chest_3_location'] = 'À l\'intérieur du bâtiment.'
+L['tra_chest_2_location'] = 'Sur le corail.'
+L['tsw_chest_2_location'] = 'En haut de la poutre.'
+L['tsw_chest_2_note'] = '{note:Disponible uniquement pendant la variante de l’histoire "Avec les compliments de la Tisserande".}'
+L['tsw_chest_3_location'] = 'En haut d\'un pilier, près du passage vers la salle du trésor.'
+L['tsw_chest_4_location'] = 'En haut d\'une poutre. Descendez du pilier près de l\'autre coffre.'
+L['tuk_chest_1_note'] = 'Derrière la statue.'
+L['tuk_chest_2_note'] = '{note:Disponible uniquement pendant la variante de l’histoire "Victimes de tortures".}'
+L['tuk_chest_3_note'] = '{note:Disponible uniquement pendant la variante de l’histoire "Sauvetage de tisserande".}'
