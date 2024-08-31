@@ -1,3 +1,7 @@
+# v85
+
+* Localization updates: esES, frFR
+
 # v84
 
 * Fix Quest ID for Inscription profession treasure Runic Scroll in Ringing Deeps
