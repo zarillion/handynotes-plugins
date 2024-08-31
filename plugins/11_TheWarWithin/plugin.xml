@@ -5,5 +5,6 @@
   <Script file="zones\hallowfall.lua"/>
   <Script file="zones\isle_of_dorn.lua"/>
   <Script file="zones\ringing_deeps.lua"/>
+  <Script file="zones\delves.lua"/>
   <Script file="zones\dragonraces.lua"/>
 </Ui>

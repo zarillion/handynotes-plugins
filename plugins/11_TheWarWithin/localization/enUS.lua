@@ -6,6 +6,9 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = 'Delve Rewards'
+L['options_icons_delve_rewards_desc'] = 'Display {location:Delve} rewards on tooltips.'
+
 L['skyriding_glyph'] = 'Skyriding Glyph'
 L['options_icons_skyriding_glyph'] = 'Skyriding Glyphs'
 L['options_icons_skyriding_glyph_desc'] = 'Display the location of all skyriding glyphs.'
@@ -273,3 +276,28 @@ L['the_unseeming_note'] = 'Stand in the pool until you have 100x stacks {spell:4
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Display locations for the {achievement:40634} achievement.'
 L['you_cant_hang_with_us_note'] = 'Find a {npc:211816} with the {spell:434734} buff and attack him, to get the {spell:443190} debuff (1 minute). A {npc:225408} ({note:Do not kill him!}) will interfere and stack the {spell:454666} debuff on you. At 10 stacks, you will be forcibly removed from the City.'
+
+-------------------------------------------------------------------------------
+----------------------------------- DELVES ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sturdy_chest'] = 'Sturdy Chest'
+L['sturdy_chest_suffix'] = 'Sturdy Chest found'
+
+L['ecm_chest_3_location'] = 'On the crane. Jump from the upper level.'
+L['fol_chest_1_location'] = 'On the rock under the mushrooms in the bushes.'
+L['fol_chest_3_location'] = 'At the bottom of the waterfall.'
+L['fol_use_mushrooms'] = 'Jump on the mushrooms along the path.'
+L['kvr_chest_2_location'] = 'On top of the wooden scaffold.'
+L['nfs_chest_2_location'] = 'On the plant.'
+L['nfs_chest_3_location'] = 'Inside the building.'
+L['nfs_chest_4_location'] = 'Jump down from the skyship.'
+L['ski_chest_3_location'] = 'Inside the building.'
+L['tra_chest_2_location'] = 'On top of the coral.'
+L['tsw_chest_2_location'] = 'High up on the beam.'
+L['tsw_chest_2_note'] = '{note:Only available in the "From the Weaver with Love" story variant.}'
+L['tsw_chest_3_location'] = 'High up on a pillar near the dropdown to the treasure room'
+L['tsw_chest_4_location'] = 'High up on a beam. Drop down from the pillar near the other chest.'
+L['tuk_chest_1_note'] = 'Behind the Statue.'
+L['tuk_chest_2_note'] = '{note:Only available in the "Torture Victims" story variant.}'
+L['tuk_chest_3_note'] = '{note:Only available in the "Weaver Rescue" story variant.}'
