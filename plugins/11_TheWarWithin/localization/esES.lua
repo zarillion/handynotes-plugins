@@ -13,6 +13,9 @@ L['skyriding_glyph'] = 'Glifo de Surcacielos'
 L['options_icons_skyriding_glyph'] = 'Glifos de Surcacielos'
 L['options_icons_skyriding_glyph_desc'] = 'Muestra dónde están los glifos de surcacielos.'
 
+L['options_icons_profession_treasures'] = 'Tesoros de Profesión'
+L['options_icons_profession_treasures_desc'] = 'Muestra dónde están los tesoros que garantizan conocimiento de profesión.'
+
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = 'Muestra dónde están los objetos históricos del logro {achievement:40762}.'
 
@@ -20,7 +23,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Muestra dónde están los obje
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
-L['alunira_note'] = 'Recoge 10x {item:224025} y combínalos en un {item:224026} para quitarle {spell:451570}.'
+L['alunira_note'] = 'Recoge 10x {item:224025} de los enemigos de la {location:Isla de Dorn} y combínalos en un {item:224026} para quitarle {spell:451570}.'
 L['violet_hold_prisoner'] = 'Prisionero del Bastión Violeta'
 
 L['elemental_geode_label'] = 'Geoda Elemental'
@@ -33,6 +36,9 @@ L['trees_treasure_note'] = 'Habla con {npc:222940} para conseguir {item:224185}.
 L['turtles_thanks_1_note'] = 'Entrega 5x {item:220143} (puede ser pescado de bancos {object:Onda calmada} o comprados en la casa de subastas). {note:Deja la zona y vuelve inmediatamente para entregar el siguiente pez.}'
 L['turtles_thanks_2_note'] = 'Entrega 1x {item:222533} (puede ser pescado de bancos {object:Lagoluz}, {object:Charco de Putrefacción Purulenta}, {object:Vertido de Ícor Imbuido} o comprados en la casa de subastas).'
 L['turtles_thanks_3_note'] = 'Alimenta a {npc:223338} en {location:Dornogal} y habla con ella para revelar el tesoro.'
+L['web_wrapped_axe_note'] = 'En el primer piso.\n\n{note:Reaparece cada 1-2 horas.}'
+
+L['cendvin_note'] = 'Consigue 900x {item:225557} en {location:Foldeceniza} de los enemigos élite para comprar la montura {item:223153} a {npc:226205}.'
 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Muestra los sitios para el logro {achievement:40606}.'
@@ -43,6 +49,10 @@ L['options_icons_flat_earthen_desc'] = 'Muestra los sitios para el logro {achiev
 
 L['forgotten_treasure_note'] = 'Abre los {object:Tesoro Enterrado} cercanos para conseguir la {item:217960}.'
 L['kaja_cola_machine_note'] = 'Compra bebidas en el orden siguiente: {item:223741} > {item:223743} > {item:223744} > {item:223742}.'
+
+L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
+L['options_icons_i_only_need_one_trip_desc'] = 'Muestra dónde ir para hacer el logro {achievement:40623}.'
+L['i_only_need_one_trip_note'] = 'Deposita 10 menas a la vez en la misión del mundo {wq:Misión de mensajero: Recuperación de menas}.'
 
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Muestra dónde están las consolas del logro {achievement:40473}.'
@@ -96,6 +106,10 @@ L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
 L['options_icons_gobblin_with_glublurp_desc'] = 'Muestra los lugares para el logro {achievement:40614}.'
 L['gobblin_with_glublurp_note'] = 'Haz Click en un {dot:Red}{object:Cristal Trémulo} para ganar {spell:456739}. Coge una {npc:227138} volando en el ' .. ns.color.Orange('Círculo Naranja') .. ' y llévasela a {npc:227132}.\n\n(Se recomienda Vuelo Constante para conseguilo).'
 
+L['critter_love_note'] = 'Tiene que teclear la emoción {emote:/amor} en alimañas, no en mascotas de batalla.'
+L['options_icons_critter_love'] = '{achievement:40475}'
+L['options_icons_critter_love_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:40475}.'
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
@@ -123,10 +137,7 @@ L['priory_satchel_location'] = 'Despoja {object:Windswept Satchel} colgando de l
 L['smugglers_treasure_note'] = 'Despoja la {item:225335} requerida desde ({dot:Blue}) {npc:226025} debajo del acantilado.'
 L['smugglers_treasure_location'] = 'En lo alto del acantilado entre varias rocas.'
 L['coral_fused_clam'] = 'Almeja Incrustada de Coral'
-L['coral_fused_clam_note'] = [[Despoja una {item:218354} del {object:Equipo de Mariscador} para abrir la Almeja.
-
-{note:Requiere ser nivel 80 para cogerla.}
-]]
+L['coral_fused_clam_note'] = 'Despoja una {item:218354} del {object:Equipo de Mariscador} para abrir la Almeja.'
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
 L['options_icons_biblo_archivist_desc'] = 'Muestra dónde están los libros del logro {achievement:40622}.'
@@ -171,13 +182,9 @@ L['furball_location'] = 'Dentro del edificio en ruinas.'
 L['dander_location'] = 'Afuera.'
 L['gobbo_location'] = 'Dentro del edificio encima de la cama.'
 
-L['croakit_note'] = [[Para atacar a {npc:214757} primero tienes que pescar 10x {item:211474} del agua cercana.
-
-Una vez los tengas todos ve a {npc:214757} y échaselos.]]
-L['deathtide_note'] = [[Para invocarlo tienes que usar una {item:220123} en el {object:Altar Agorero}.
-Necesitarás combinar {item:220122} {dot:Blue} y {item:220124} {dot:Green} para conseguir la {item:220123}.
-
-{note:Requiere ser nivel 80 para cogerla.} ]]
+L['beledars_spawn_note'] = 'Este raro aparece en uno de muchos sitios a intérvalos fijos.\n\nSiguiente aparición en:\n{note:%s (%s)}'
+L['croakit_note'] = 'Pesca 10x {item:211474} de un {object:Banco de Mero Sombraceguera} cercano (o cómpralos en la casa de subastas) y lánzaselos para poder atacar al raro.'
+L['deathtide_note'] = 'Consigue {item:220122} {dot:Red} y {item:220124} {dot:Green}. Combínalos para crear la {item:220123} y poder invocar el raro en el {object:Altar Agorero}.'
 L['murkshade_note'] = 'Interactúa con {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
@@ -192,6 +199,10 @@ L['options_icons_beacon_of_hope'] = '{achievement:40308}'
 L['options_icons_beacon_of_hope_desc'] = 'Muestra dónde están las llaves ardientes inferiores para el logro {achievement:40308}.'
 
 L['beacon_of_hope_note'] = 'Contribuye con {item:206350} para encender las llaves ardientes inferiores y completar las misiones siguientes.'
+
+L['parasidious_note'] = 'Compra unos {item:206670} al {npc:206533} (enciende la {object:Llave Ardiente Inferior} para hacer que aparezca) e ir al {location:Paraje Alzaocaso} y sacar {npc:206870} hasta que aparezca el raro. {note: Sólo aparece si hay un {npc:206978} donde estás}.'
+
+L['flamegards_hope_note'] = 'Ayuda a {npc:213319} durante 20 Días curando las {npc:220225}.\n\nTambién puedes usar una {spell:372009} o una {item:211878} si tu clase no puede curar.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
@@ -209,10 +220,17 @@ L['thimble_location'] = nil
 L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
+L['options_icons_bookworm'] = '{achievement:40629}'
+L['options_icons_bookworm_desc'] = 'Muestra dónde están los libros para el logro {achievement:40629}.'
+
+L['nerubian_potion_note'] = 'Compra una {item:225784} ({note:el buff dura 10 minutos}) de {npc:218192} por 33x {currency:3056}.'
+L['bookworm_note'] = '{note:También puedes completar el logro {achievement:40542} con la {item:225784}.}'
+L['bookworm_1_location'] = 'En la entrada de la cueva pequeña.'
+
 L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = 'Muestra dónde están los libros del logro {achievement:40542}.'
 
-L['smelling_history_note'] = 'Compra la {item:225784} de {npc:218192} por 500x {currency:3056}.'
+L['smelling_history_note'] = '{note:También puedes completar el logro {achievement:40629} con la {item:225784}.}'
 L['smelling_history_1_location'] = 'Dentro del edificio, en el mostrador.'
 L['smelling_history_2_location'] = 'El pergamino está en un cofre.'
 L['smelling_history_3_location'] = 'El pergamino está en una mesa.'
@@ -221,7 +239,7 @@ L['smelling_history_5_location'] = 'Dentro del edificio, en una mesa.'
 L['smelling_history_6_location'] = 'En la cama del lado sur de la habitación.'
 L['smelling_history_7_location'] = 'Encima de una pila de libros.'
 L['smelling_history_8_location'] = 'En la mesa junto a la cama en el lado norte de la habitación.'
-L['smelling_history_9_location'] = nil
+L['smelling_history_9_location'] = 'Detrás del escritorio inclinado al lado de {npc:226024}.'
 L['smelling_history_10_location'] = 'En un banco.'
 L['smelling_history_11_location'] = 'El libro está en una mesa junto a la cama. La entrada está encima de la fuente.'
 L['smelling_history_12_location'] = 'Dentro del edificio, en una mesa.'
@@ -230,11 +248,34 @@ L['options_icons_skittershaw_spin'] = '{achievement:40727}'
 L['options_icons_skittershaw_spin_desc'] = 'Muestra las rutas de los correteadores para el logro {achievement:40727}.'
 L['skittershaw_spin_note'] = 'Conduce el {npc:224973} durante una vuelta completa alrededor del distrito.\n\nEl {npc:224973} se parará en los puntos {dot:Red} a lo largo de la ruta.'
 
-L['memory_cache_note'] = 'Consigue {spell:420847} de un ({dot:Blue}) {object:Extractor de Almacenaje} cercano. Después mata la {npc:223908} para conseguir la {item:223870} que abrirá el {object:Alijo de Recuerdos}.'
+L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
+L['options_icons_no_harm_from_reading_desc'] = 'Muestra dónde están {npc:227421} para el logro {achievement:40632}.'
+L['no_harm_from_reading_note'] = [[
+Entra en la cueva ({dot:Yellow}). Dirígete a ({dot:Red}), sube por la pared donde se encuentran las 3 arañas y entra por el agujero que hay detrás de la araña de la parte superior.
+
+Una vez que hayas caído, interactúa con el {object:Grimorio Carnoso} cercano para hacer aparecer 4 {npc:227421}.
+
+{npc:227421} desaparecerá y reaparecerá en el mapa.
+
+Localiza cada {npc:227421} e interactúa para hacerles volver al {object:Grimorio Carnoso}.
+
+Una vez todos devueltos, regresa al {object:Grimorio Carnoso} y habla con {npc:227421}.
+]]
+L['another_you_4_note'] = 'Patrulla por la ruta marcada.'
+
+L['memory_cache_note'] = 'Consigue {spell:420847} de un ({dot:Red}) {object:Extractor de Almacenaje} cercano. Después mata la {npc:223908} para conseguir la {item:223870} que abrirá el {object:Alijo de Recuerdos}.'
 L['niffen_stash_note'] = 'Está debajo del puente.'
 L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'
 
 L['tkaktath_note'] = 'Comienza una cadena de misiones para conseguir la montura {item:224150}.'
+
+L['options_icons_the_unseeming'] = '{achievement:40633}'
+L['options_icons_the_unseeming_desc'] = 'Muestra dónde ir para el logro {achievement:40633}.'
+L['the_unseeming_note'] = 'Párate en el agua hasta que acumules 100x {spell:420847}.'
+
+L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
+L['options_icons_you_cant_hang_with_us_desc'] = 'Muestra dónde ir para el logro {achievement:40634}.'
+L['you_cant_hang_with_us_note'] = 'Busca un {npc:211816} con el buff {spell:434734} y atácale para conseguir el debuff {spell:443190} (1 minuto de duración). Un {npc:225408} ({note:¡No le mates!}) interferirá y te echará el debuff {spell:454666}. Con 10 acumulaciones, serás expulsado por la fuerza de la Ciudad.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
@@ -242,6 +283,7 @@ L['tkaktath_note'] = 'Comienza una cadena de misiones para conseguir la montura 
 
 L['sturdy_chest'] = nil
 L['sturdy_chest_suffix'] = nil
+
 L['ecm_chest_3_location'] = nil
 L['fol_chest_1_location'] = nil
 L['fol_chest_3_location'] = nil

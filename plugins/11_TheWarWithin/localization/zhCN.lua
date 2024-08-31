@@ -13,6 +13,9 @@ L['skyriding_glyph'] = '驭空术魔符'
 L['options_icons_skyriding_glyph'] = '驭空术魔符'
 L['options_icons_skyriding_glyph_desc'] = '显示全部驭空术魔符的位置。'
 
+L['options_icons_profession_treasures'] = '专业宝藏'
+L['options_icons_profession_treasures_desc'] = '显示给予专业知识的宝藏位置。'
+
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = '显示 {achievement:40762} 成就中剧情物品的位置。'
 
@@ -20,7 +23,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = '显示 {achievement:40762} 成
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
-L['alunira_note'] = '收集10个 {item:224025} 并组合成 {item:224026} 以移除她的 {spell:451570}。'
+L['alunira_note'] = '从 {location:多恩岛} 的怪物收集10个 {item:224025} 并组合成 {item:224026} 以移除她的 {spell:451570}。'
 L['violet_hold_prisoner'] = '紫罗兰监狱囚犯'
 
 L['elemental_geode_label'] = '元素晶簇'
@@ -30,9 +33,12 @@ L['mushroom_cap_note'] = '在附近的森林中收集一个 {object:薮根伞菇
 L['mysterious_orb_note'] = '将 {object:元素珍珠} 带回给 {npc:222847}。'
 L['thaks_treasure_note'] = '与 {npc:223227} 交谈并跟随他。'
 L['trees_treasure_note'] = '与 {npc:222940} 交谈，获得 {item:224185}。引导6个 {npc:224548}（{dot:Green}）绕过 {location:多恩岛} 返回 {npc:222940}。将所有螃蟹引导回来后，返回洞穴中的 {npc:222940} 并与她交谈。'
-L['turtles_thanks_1_note'] = '交出5个 {item:220143}（可从 {object:平静的浮面涟漪} 鱼点钓鱼或从拍卖行购买）。{note:离开该区域并立即返回交出下一条鱼。}'
-L['turtles_thanks_2_note'] = '交出1个 {item:222533}（可从 {object:浮光之池}，{object:溃烂的腐臭之池}，{object:Infused Ichor Spill} 鱼点钓鱼或从拍卖行购买）。'
+L['turtles_thanks_1_note'] = '交出5个 {item:220143}（可从 {object:平静的浮面涟漪} 渔点钓鱼或从拍卖行购买）。{note:离开该区域并立即返回交出下一条鱼。}'
+L['turtles_thanks_2_note'] = '交出1个 {item:222533}（可从 {object:浮光之池}，{object:溃烂的腐臭之池}，{object:飞溅的注能脓液} 渔点钓鱼或从拍卖行购买）。'
 L['turtles_thanks_3_note'] = '在 {location:多恩诺嘉尔} 与 {npc:223338} 会面并与她交谈以发现宝藏。'
+L['web_wrapped_axe_note'] = '在一楼。\n\n{note:有1-2小时的刷新时间。}'
+
+L['cendvin_note'] = '在 {location:烬燧荒原} 从精英怪物那里获得900个 {item:225557} 之后从 {npc:226205} 购买 {item:223153} 坐骑。'
 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = '显示 {achievement:40606} 成就中的位置。'
@@ -43,6 +49,10 @@ L['options_icons_flat_earthen_desc'] = '显示 {achievement:40606} 成就中的�
 
 L['forgotten_treasure_note'] = '打开附近 {object:埋藏的宝藏} 获得 {item:217960}。'
 L['kaja_cola_machine_note'] = '按以下顺序购买饮品：{item:223741} > {item:223743} > {item:223744} > {item:223742}。'
+
+L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
+L['options_icons_i_only_need_one_trip_desc'] = '显示 {achievement:40623} 成就中的位置。'
+L['i_only_need_one_trip_note'] = '在{wq:信使任务：矿石回收} 世界任务中一次性存放全部10个矿石。'
 
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = '显示 {achievement:40473} 成就中控制台位置。'
@@ -96,6 +106,10 @@ L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
 L['options_icons_gobblin_with_glublurp_desc'] = '显示 {achievement:40614} 成就中的位置。'
 L['gobblin_with_glublurp_note'] = '点击一个 {dot:Red}{object:烁光水晶} 来获得 {spell:456739}。抓获一个飞在 ' .. ns.color.Orange('橙圈') .. ' 的 {npc:227138} 并把它带回给 {npc:227132}。\n\n（建议使用稳定飞行来获得）。'
 
+L['critter_love_note'] = '必须对小动物使用表情 {emote:/爱}、{emote:/love}，而不是战斗宠物。'
+L['options_icons_critter_love'] = '{achievement:40475}'
+L['options_icons_critter_love_desc'] = '显示 {achievement:40475} 成就中小动物的位置。'
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
@@ -105,7 +119,7 @@ L['caesper_note'] = '从 {location:陨圣峪} {location:度耐尔之仁} 的（{
 L['dark_ritual_note'] = '与 {object:黑暗仪式} 互动并击败所有 {npc:226059}、{npc:226052} 和 {npc:226062} 以拾取 {object:缀影精华}。'
 L['illuminated_footlocker_note'] = '从 {npc:220703} 处接住5个掉落的 {spell:442389} 以获得 {spell:442529} 并发现 {object:光耀提箱}。'
 L['illusive_kobyss_lure_note'] = '组合全部4个物品制造 {item:225641}：'
-L['sunless_lure_location'] = '由 {location:无晖之滨} 的 {npc:215653} 掉落。'
+L['sunless_lure_location'] = '由 {location:无晖之滨} 的 {npc:215653} 掉落。它们伪装起来并使用 {npc:215623} 作为诱饵。'
 L['sky_captains_sunken_cache_note'] = [[
 与四位不同的天空船长在他们的飞艇上交谈以揭示宝藏。
 
@@ -123,10 +137,7 @@ L['priory_satchel_location'] = '拾取悬挂在 {location:圣焰隐修院} 教�
 L['smugglers_treasure_note'] = '从悬崖下方的（{dot:Blue}）{npc:226025} 拾取所需的 {item:225335}。'
 L['smugglers_treasure_location'] = '在悬崖高处几块岩石之间。'
 L['coral_fused_clam'] = '珊瑚包裹蛤蜊'
-L['coral_fused_clam_note'] = [[从 {object:捕蛤者的工具} 中拾取 {item:218354} 来打开蛤蜊。
-
-{note:需要80级才能拾取。}
-]] -- from wowhead, needs to be reviewed
+L['coral_fused_clam_note'] = '从 {object:捕蛤者的工具} 中拾取 {item:218354} 来打开蛤蜊。'
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
 L['options_icons_biblo_archivist_desc'] = '显示 {achievement:40622} 成就中书籍的位置。'
@@ -171,13 +182,9 @@ L['furball_location'] = '在废墟建筑内。'
 L['dander_location'] = '在外面。'
 L['gobbo_location'] = '在建筑内的床上。'
 
-L['croakit_note'] = [[要攻击 {npc:214757}，必须先从附近的水中钓出10个 {item:211474}。
-
-收集完所有鱼后，去找 {npc:214757} 并把它们扔给他。]] -- from wowhead, needs to be confirmed.
-L['deathtide_note'] = [[要召唤他，必须在 {object:不祥祭坛} 上使用 {item:220123}。
-需要结合 {item:220122} {dot:Blue} 和 {item:220124} {dot:Green} 来获得 {item:220123}。
-
-{note:需要达到80级才能拾取它们。} ]] -- from wowhead, needs to be reviewed
+L['beledars_spawn_note'] = '此稀有会以固定的时间间隔在多个位置之一出现。\n\n下次出现：\n{note:%s（%s）}'
+L['croakit_note'] = '从附近的 {object:影盲石斑鱼群} 钓起10个 {item:211474}（或者从拍卖行购买）然后把它们扔给它，使稀有可被攻击。'
+L['deathtide_note'] = '收集一个 {item:220122} {dot:Red} 和一个 {item:220124} {dot:Green}。将它们组合成 {item:220123}，在 {object:不祥祭坛} 召唤稀有。'
 L['murkshade_note'] = '与 {npc:218455} 互动。'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
@@ -192,6 +199,10 @@ L['options_icons_beacon_of_hope'] = '{achievement:40308}'
 L['options_icons_beacon_of_hope_desc'] = '显示 {achievement:40308} 成就中小型钥焰的位置。'
 
 L['beacon_of_hope_note'] = '捐献 {item:206350} 来点亮小型钥焰并完成接下来的任务。'
+
+L['parasidious_note'] = '要出现此稀有，需要从 {npc:206533} 购买 {item:206670}（激活 {object:小型钥焰} 使其出现），然后前往 {location:暮升辽原} 并拉动 {npc:206870}。当拉动它们时，一根藤蔓会从身上射出并到达 {npc:206978}，它会生长/变化，直到稀有最终出现。' -- from wowhead, needs to be reviewed
+
+L['flamegards_hope_note'] = '帮助 {npc:213319} 治疗 {npc:220225} 20天。\n\n如果当前职业无法治疗，可以使用 {spell:372009} 或 {item:211878}。'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
@@ -209,10 +220,17 @@ L['thimble_location'] = '占位符'
 L['scampering_weave_rat_location'] = '占位符'
 L['generals_scouting_shadecaster_location'] = '占位符'
 
+L['options_icons_bookworm'] = '{achievement:40629}'
+L['options_icons_bookworm_desc'] = '显示 {achievement:40629} 成就中书籍的位置。'
+
+L['nerubian_potion_note'] = '以33个 {currency:3056} 从 {npc:218192} 购买 {item:225784}。'
+L['bookworm_note'] = '{note:还可以使用 {item:225784} 完成 {achievement:40542} 成就。}'
+L['bookworm_1_location'] = '在小洞窟入口处。'
+
 L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = '显示 {achievement:40542} 成就中书籍的位置。'
 
-L['smelling_history_note'] = '以500个 {currency:3056} 从 {npc:218192} 购买 {item:225784}。'
+L['smelling_history_note'] = '{note:还可以使用 {item:225784} 完成 {achievement:40629} 成就。}'
 L['smelling_history_1_location'] = '在建筑物内的柜台上。'
 L['smelling_history_2_location'] = '卷轴在一个箱子上。'
 L['smelling_history_3_location'] = '卷轴在桌子上。'
@@ -221,7 +239,7 @@ L['smelling_history_5_location'] = '在建筑物内的桌子上。'
 L['smelling_history_6_location'] = '在房间南侧的床上。'
 L['smelling_history_7_location'] = '在一堆书的上面。'
 L['smelling_history_8_location'] = '在房间北边床边的桌子上。'
-L['smelling_history_9_location'] = '占位符'
+L['smelling_history_9_location'] = '在桌子后面，在 {npc:226024} 旁边。'
 L['smelling_history_10_location'] = '在长凳上。'
 L['smelling_history_11_location'] = '书在床边的桌子上。入口在喷泉上方。'
 L['smelling_history_12_location'] = '在建筑物内的桌子上。'
@@ -230,11 +248,34 @@ L['options_icons_skittershaw_spin'] = '{achievement:40727}'
 L['options_icons_skittershaw_spin_desc'] = '显示 {achievement:40727} 成就中虫车路线位置。'
 L['skittershaw_spin_note'] = '骑乘 {npc:224973} 绕区域一圈。\n\n{npc:224973} 将在路线上的 {dot:Red} 点处停止。'
 
-L['memory_cache_note'] = '从附近的（{dot:Blue}）{object:提取器存储} 获取 {spell:420847}。击杀 {npc:223908} 后获取 {item:223870} 以打开 {object:记忆箱子}。'
+L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
+L['options_icons_no_harm_from_reading_desc'] = '显示 {achievement:40632} 成就中 NPC {npc:227421} 的位置。'
+L['no_harm_from_reading_note'] = [[
+进入（{dot:Yellow}）洞穴，前往（{dot:Red}），爬上3只蜘蛛所在的墙壁，然后进入顶部蜘蛛后面的洞。
+
+掉下去后，与附近的 {object:血肉魔典} 互动，出现4个 {npc:227421}。
+
+{npc:227421} 随后会消失，然后重新出现在地图周围。
+
+追踪每个 {npc:227421} 并与他们互动，将他们送回 {object:血肉魔典}。
+
+找到所有4个 {npc:227421} 后，返回 {object:血肉魔典} 并与 {npc:227421} 交谈。
+]]
+L['another_you_4_note'] = '沿着标记的路径巡逻。'
+
+L['memory_cache_note'] = '从附近的（{dot:Red}）{object:提取器存储} 获取 {spell:420847}。击杀 {npc:223908} 后获取 {item:223870} 以打开 {object:记忆箱子}。'
 L['niffen_stash_note'] = '在桥下。'
 L['trapped_trove_note'] = '在从天花板垂下的建筑物中。避开地板上的蜘蛛网。'
 
 L['tkaktath_note'] = '开始任务链以获取 {item:224150} 坐骑。'
+
+L['options_icons_the_unseeming'] = '{achievement:40633}'
+L['options_icons_the_unseeming_desc'] = '显示 {achievement:40633} 成就中的位置。'
+L['the_unseeming_note'] = '站在池子里直到有100层堆叠 {spell:420847}。'
+
+L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
+L['options_icons_you_cant_hang_with_us_desc'] = '显示 {achievement:40634} 成就中的位置。'
+L['you_cant_hang_with_us_note'] = '找到一个带有 {spell:434734} 增益效果的 {npc:211816} 并攻击他，会给你 {spell:443190} 负面效果（1分钟）。（{note:不要击杀他！}）会干扰并叠加 {spell:454666} 负面效果在身上。叠加至10层时，将被强制驱逐出城。'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
@@ -242,6 +283,7 @@ L['tkaktath_note'] = '开始任务链以获取 {item:224150} 坐骑。'
 
 L['sturdy_chest'] = nil
 L['sturdy_chest_suffix'] = nil
+
 L['ecm_chest_3_location'] = nil
 L['fol_chest_1_location'] = nil
 L['fol_chest_3_location'] = nil

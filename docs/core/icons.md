@@ -1,17 +1,33 @@
-# Functions
+# Functions <!-- omit from toc -->
 
 * `ns.GetIconPath(name)`
-  * todo
-* `ns.GetIconLink(name, size, offsetX, offsetY)`
-  * todo
+  * returns the path to the Icon texture
+  * `ns.GetIconPath('chest_bk') -> 'ICONS\chest_bk.blp'`
 * `ns.GetGlowPath(name)`
-  * todo
+  * returns the path to the Glow texture
+  * `ns.GetGlowPath('chest_bk') -> 'GLOWS\chest_bk.blp'`
+* `ns.GetIconLink(name, size, offsetX, offsetY)`
+  * returns the Text Link to be displayed as inline text. [Wowpedia](https://wowpedia.fandom.com/wiki/UI_escape_sequences#Textures)
+  * `ns.GetIconLink('chest_bk')` -> `|TICONS\chest_bk.blp:0:0|t`
+  * `ns.GetIconLink('chest_bk',0,4,8)` -> `|TICONS\chest_bk.blp:0:0:4:8|t`
 
-# Icons
-A list of icons
+# Icons <!-- omit from toc -->
+
+- [Chests](#chests)
+- [Crystals](#crystals)
+- [Flight Points](#flight-points)
+- [Horseshoes](#horseshoes)
+- [Pet Battle Paws](#pet-battle-paws)
+- [Pegs](#pegs)
+- [Portals](#portals)
+- [Quests](#quests)
+- [Skulls](#skulls)
+- [Miscellaneous Icons](#miscellaneous-icons)
+
 
 ## Chests
-|                   | Icon                                                       | name             |
+
+| Name              | Icon                                                       | name in code     |
 |-------------------|------------------------------------------------------------|------------------|
 | Chest Black       | ![chest_bk](../assets/png/icons/chest_black.png)           | `'chest_bk'`     |
 | Chest Blue        | ![chest_bl](../assets/png/icons/chest_blue.png)            | `'chest_bl'`     |
@@ -31,42 +47,48 @@ A list of icons
 | Star Chest Yellow | ![star_chest_y](../assets/png/icons/star_chest_yellow.png) | `'star_chest_y'` |
 
 ## Crystals
-|                | Icon                                                 | name          |
+
+| Name           | Icon                                                 | name in code  |
 |----------------|------------------------------------------------------|---------------|
 | Crystal Blue   | ![crystal_b](../assets/png/icons/crystal_blue.png)   | `'crystal_b'` |
 | Crystal Orange | ![crystal_o](../assets/png/icons/crystal_orange.png) | `'crystal_o'` |
 | Crystal Purple | ![crystal_p](../assets/png/icons/crystal_purple.png) | `'crystal_p'` |
 
 ## Flight Points
-|                     | Icon                                                           | name               |
+
+| Name                | Icon                                                           | name in code       |
 |---------------------|----------------------------------------------------------------|--------------------|
 | Flight Point Gray   | ![flight_point_g](../assets/png/icons/flight_point_gray.png)   | `'flight_point_g'` |
 | Flight Point Yellow | ![flight_point_y](../assets/png/icons/flight_point_yellow.png) | `'flight_point_y'` |
 
 ## Horseshoes
-|                  | Icon                                                     | name            |
+
+| Name             | Icon                                                     | name in code    |
 |------------------|----------------------------------------------------------|-----------------|
 | Horseshoe Black  | ![horseshoe_b](../assets/png/icons/horseshoe_black.png)  | `'horseshoe_b'` |
 | Horseshoe Gray   | ![horseshoe_g](../assets/png/icons/horseshoe_gray.png)   | `'horseshoe_g'` |
 | Horseshoe Orange | ![horseshoe_o](../assets/png/icons/horseshoe_orange.png) | `'horseshoe_o'` |
 
 ## Pet Battle Paws
-|            | Icon                                         | name      |
-|------------|----------------------------------------------|-----------|
-| Paw Green  | ![paw_g](../assets/png/icons/paw_green.png)  | `'paw_g'` |
-| Paw Yellow | ![paw_y](../assets/png/icons/paw_yellow.png) | `'paw_y'` |
+
+| Name       | Icon                                         | name in code |
+|------------|----------------------------------------------|--------------|
+| Paw Green  | ![paw_g](../assets/png/icons/paw_green.png)  | `'paw_g'`    |
+| Paw Yellow | ![paw_y](../assets/png/icons/paw_yellow.png) | `'paw_y'`.   |
 
 ## Pegs
-|            | Icon                                          | name       |
-|------------|-----------------------------------------------|------------|
-| Peg Blue   | ![peg_bl](../assets/png/icons/peg_blue.png)   | `'peg_bl'` |
-| Peg Black  | ![peg_bk](../assets/png/icons/peg_black.png)  | `'peg_bk'` |
-| Peg Green  | ![peg_gn](../assets/png/icons/peg_green.png)  | `'peg_gn'` |
-| Peg Red    | ![peg_rd](../assets/png/icons/peg_red.png)    | `'peg_rd'` |
-| Peg Yellow | ![peg_yw](../assets/png/icons/peg_yellow.png) | `'peg_yw'` |
+
+| Name       | Icon                                          | name in code |
+|------------|-----------------------------------------------|--------------|
+| Peg Blue   | ![peg_bl](../assets/png/icons/peg_blue.png)   | `'peg_bl'`   |
+| Peg Black  | ![peg_bk](../assets/png/icons/peg_black.png)  | `'peg_bk'`   |
+| Peg Green  | ![peg_gn](../assets/png/icons/peg_green.png)  | `'peg_gn'`   |
+| Peg Red    | ![peg_rd](../assets/png/icons/peg_red.png)    | `'peg_rd'`   |
+| Peg Yellow | ![peg_yw](../assets/png/icons/peg_yellow.png) | `'peg_yw'`   |
 
 ## Portals
-|               | Icon                                                | name          |
+
+| Name          | Icon                                                | name in code  |
 |---------------|-----------------------------------------------------|---------------|
 | Portal Blue   | ![portal_bl](../assets/png/icons/portal_blue.png)   | `'portal_bl'` |
 | Portal Gray   | ![portal_gy](../assets/png/icons/portal_gray.png)   | `'portal_gy'` |
@@ -75,7 +97,8 @@ A list of icons
 | Portal Red    | ![portal_rd](../assets/png/icons/portal_red.png)    | `'portal_rd'` |
 
 ## Quests
-|                        | Icon                                                        | name            |
+
+| Name                   | Icon                                                        | name in code    |
 |------------------------|-------------------------------------------------------------|-----------------|
 | Quest available Blue   | ![quest_ab](../assets/png/icons/quest_available_blue.png)   | `'quest_ab'`    |
 | Quest available Green  | ![quest_ag](../assets/png/icons/quest_available_green.png)  | `'quest_ag'`    |
@@ -84,7 +107,8 @@ A list of icons
 | world_quest            | ![world_quest](../assets/png/icons/world_quest.png)         | `'world_quest'` |
 
 ## Skulls
-|                  | Icon                                                      | name             |
+
+| Name             | Icon                                                      | name in code     |
 |------------------|-----------------------------------------------------------|------------------|
 | Skull Blue       | ![skull_b](../assets/png/icons/skull_blue.png)            | `'skull_b'`      |
 | Skull White      | ![skull_w](../assets/png/icons/skull_white.png)           | `'skull_w'`      |
@@ -92,7 +116,8 @@ A list of icons
 | Star Skull White | ![star_skull_w](../assets/png/icons/star_skull_white.png) | `'star_skull_w'` |
 
 ## Miscellaneous Icons
-|                   | Icon                                                        | name                |
+
+| Name              | Icon                                                        | name in code        |
 |-------------------|-------------------------------------------------------------|---------------------|
 | Alliance          | ![alliance](../assets/png/icons/alliance.png)               | `'alliance'`        |
 | Horde             | ![horde](../assets/png/icons/horde.png)                     | `'horde'`           |

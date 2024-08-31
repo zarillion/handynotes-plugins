@@ -22,12 +22,11 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Reputation = ns.reward.Reputation
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 local Circle = ns.poi.Circle
-
-local ReputationGain = ns.tooltip.ReputationGain
 
 -------------------------------------------------------------------------------
 
@@ -40,16 +39,20 @@ local map = Map({id = 2214, settings = true})
 map.nodes[52591991] = Rare({
     id = 220265,
     quest = 81674, -- 84046
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40837, criteria = 69634})}
+    rewards = {
+        Achievement({id = 40837, criteria = 69634}),
+        Reputation({id = 2594, gain = 150, quest = 84046}),
+        Transmog({item = 221218, slot = L['mail']}), -- Reinforced Construct's Greaves
+        Transmog({item = 221238, slot = L['staff']}) -- Pillar of Constructs
+    }
 }) -- Automaxor
 
-local Aquellion = Class('Aquellion', Rare, {
+map.nodes[49556618] = Rare({
     id = 220274,
     quest = 80557, -- One time kill
-    fgroup = 'aquellion',
     rewards = {
         Achievement({id = 40837, criteria = 69625}),
+        Reputation({id = 2594, gain = 150, quest = 80557}),
         Transmog({item = 223371, slot = L['cloth']}), -- Slippers of Shallow Waters
         Transmog({item = 223373, slot = L['leather']}), -- Treads of Shallow Waters
         Transmog({item = 223372, slot = L['mail']}), -- Sabatons of Shallow Waters
@@ -57,33 +60,36 @@ local Aquellion = Class('Aquellion', Rare, {
     }
 }) -- Aquellion
 
-map.nodes[55087053] = Aquellion()
-map.nodes[49556618] = Aquellion() -- seen spawn here
-
 map.nodes[66232975] = Rare({ -- flyes around
     id = 220276,
     quest = 80505, -- One time kill
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {
         Achievement({id = 40837, criteria = 69623}),
+        Reputation({id = 2594, gain = 150, quest = 80505}),
+        Transmog({item = 223360, slot = L['plate']}), -- Flying Kobold's Seatbelt
         Transmog({item = 223363, slot = L['leather']}), -- Flying Kobold's Seatbelt
-        Transmog({item = 223360, slot = L['plate']}) -- Flying Kobold's Seatbelt
+        Transmog({item = 223362, slot = L['mail']}), -- Flying Kobold's Seatbelt
+        Transmog({item = 223361, slot = L['cloth']}) -- Flying Kobold's Seatbelt
     }
 }) -- Candleflyer Captain
 
 map.nodes[41371692] = Rare({
     id = 220267,
     quest = 81562, -- 84044
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40837, criteria = 69632})}
+    rewards = {
+        Achievement({id = 40837, criteria = 69632}),
+        Reputation({id = 2594, gain = 150, quest = 84044}),
+        Transmog({item = 221209, slot = L['leather']}), -- Flame Trader's Gloves
+        Transmog({item = 221249, slot = L['1h_mace']}) -- Kobold Rodent Squasher
+    }
 }) -- Charmonger
 
 map.nodes[57903813] = Rare({
     id = 220266,
     quest = 81511, -- 84045
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {
         Achievement({id = 40837, criteria = 69633}),
+        Reputation({id = 2594, gain = 150, quest = 84045}),
         Transmog({item = 221226, slot = L['plate']}) -- Voidtouched Waistguard
     }
 }) -- Coalesced Monstrosity
@@ -91,10 +97,12 @@ map.nodes[57903813] = Rare({
 map.nodes[50994631] = Rare({
     id = 220269,
     quest = 80560, -- 84042
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {
         Achievement({id = 40837, criteria = 69630}),
-        Transmog({item = 221205, slot = L['cloth']}) -- Vest of the River
+        Reputation({id = 2594, gain = 150, quest = 84042}),
+        Transmog({item = 221205, slot = L['cloth']}), -- Vest of the River
+        Transmog({item = 221507, slot = L['cloak']}), -- Earth Golem's Wrap
+        Transmog({item = 221254, slot = L['polearm']}) -- Earthshatter Lance
     }
 }) -- Cragmund
 
@@ -102,16 +110,23 @@ map.nodes[66636887] = Rare({
     id = 220272,
     quest = 81566, -- One time kill
     note = L['in_small_cave'],
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40837, criteria = 69627})}
+    rewards = {
+        Achievement({id = 40837, criteria = 69627}),
+        Reputation({id = 2594, gain = 150, quest = 81566})
+    }
 }) -- Deathbound Husk
 
 map.nodes[67045265] = Rare({
     id = 218393,
     quest = 80003, -- 84050
     note = L['disturbed_earthgorger_note'],
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40837, criteria = 69640})}
+    rewards = {
+        Achievement({id = 40837, criteria = 69640}),
+        Reputation({id = 2594, gain = 150, quest = 84050}),
+        Transmog({item = 223926, slot = L['mail']}), -- Earthgorger's Chain Bib
+        Transmog({item = 223943, slot = L['leather']}), -- Cord of the Earthbreaker
+        Transmog({item = 221237, slot = L['offhand']}) -- Lamentable Vagrant's Lantern
+    }
 }) -- Disturbed Earthgorger
 
 map.nodes[53000880] = Rare({
@@ -126,22 +141,35 @@ map.nodes[53000880] = Rare({
     },
     rewards = {
         Achievement({id = 40837, criteria = 69636}),
-        Transmog({item = 221507, slot = L['cloak']}) -- Earth Golem's Wrap
+        Reputation({id = 2594, gain = 150, quest = 85162}),
+        Transmog({item = 221254, slot = L['polearm']}), -- Earthshatter Lance
+        Transmog({item = 221507, slot = L['cloak']}), -- Earth Golem's Wrap
+        Transmog({item = 225999, slot = L['tabard']}) -- Earthen Adventurer's Tabard
     }
 }) -- Deepflayer Broodmother
 
 map.nodes[65354950] = Rare({
     id = 221199,
     quest = 81648, -- 84048
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40837, criteria = 69639})}
+    rewards = {
+        Achievement({id = 40837, criteria = 69639}),
+        Reputation({id = 2594, gain = 150, quest = 84048}),
+        Transmog({item = 223949, slot = L['mail']}), -- Dark Depth Stompers
+        Transmog({item = 221248, slot = L['1h_axe']}), -- Deep Terror Carver
+        Transmog({item = 221255, slot = L['dagger']}) -- Sharpened Scalepiercer
+    }
 }) -- Hungerer of the Deeps
 
 map.nodes[47064697] = Rare({
     id = 220287,
     quest = 81485, -- 84047
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40837, criteria = 69635})}
+    rewards = {
+        Achievement({id = 40837, criteria = 69635}),
+        Reputation({id = 2594, gain = 150, quest = 84047}),
+        Transmog({item = 221204, slot = L['plate']}), -- Spore Giant's Stompers
+        Transmog({item = 221250, slot = L['1h_sword']}), -- Creeping Lasher Machete
+        Transmog({item = 221253, slot = L['fist']}) -- Cultivator's Plant Puncher
+    }
 }) -- Kelpmire
 
 map.nodes[42773508] = Rare({
@@ -149,6 +177,7 @@ map.nodes[42773508] = Rare({
     quest = 80547, -- One Time Kill (gives 150 rep on first kill)
     rewards = {
         Achievement({id = 40837, criteria = 69624}),
+        Reputation({id = 2594, gain = 150, quest = 80547}),
         Transmog({item = 223353, slot = L['cloth']}), -- Waterskipper's Trousers
         Transmog({item = 223355, slot = L['leather']}), -- Waterskipper's Leggings
         Transmog({item = 223354, slot = L['mail']}), -- Waterskipper's Chain Leggings
@@ -162,7 +191,10 @@ map.nodes[60887668] = Rare({
     note = L['lurker_note'],
     rewards = {
         Achievement({id = 40837, criteria = 69637}),
-        Mount({item = 223501, id = 2205}) -- Ol' Mole Rufus
+        Mount({item = 223501, id = 2205}), -- Ol' Mole Rufus
+        Reputation({id = 2594, gain = 150, quest = 85163}),
+        Transmog({item = 221255, slot = L['dagger']}), -- Sharpened Scalepiercer
+        Transmog({item = 221248, slot = L['1h_axe']}) -- Deep Terror Carver
     },
     pois = {
         POI({
@@ -177,6 +209,7 @@ map.nodes[57015473] = Rare({
     quest = 81563, -- One time kill
     rewards = {
         Achievement({id = 40837, criteria = 69626}),
+        Reputation({id = 2594, gain = 150, quest = 81563}),
         Transmog({item = 223401, slot = L['cloth']}), -- Corrupted Earthen Wristwraps
         Transmog({item = 223404, slot = L['leather']}), -- Corrupted Earthen Cuffs
         Transmog({item = 223403, slot = L['mail']}), -- Corrupted Earthen Binds
@@ -186,9 +219,14 @@ map.nodes[57015473] = Rare({
 
 map.nodes[66214622] = Rare({
     id = 221217,
-    quest = 81652, -- 84049 (rep based on pattern) 83405?? not sure why 3 triggered
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40837, criteria = 69638})},
+    quest = 81652, -- 84049
+    rewards = {
+        Achievement({id = 40837, criteria = 69638}),
+        Reputation({id = 2594, gain = 150, quest = 84049}),
+        Transmog({item = 223942, slot = L['cloth']}), -- Spore-Encrusted Ribbon
+        Transmog({item = 223919, slot = L['1h_mace']}), -- Abducted Lawman's Gavel
+        Transmog({item = 223918, slot = L['gun']}) -- Specter Stalker's Shotgun
+    },
     pois = {
         Path({
             65424760, 66214622, 67714621, 68464746, 68644916, 68195135,
@@ -200,11 +238,12 @@ map.nodes[66214622] = Rare({
 map.nodes[47621217] = Rare({
     id = 220271,
     quest = 80507, -- 84040
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {
         Achievement({id = 40837, criteria = 69628}),
-        Transmog({item = 221242, slot = L['plate']}) -- Forgeborn Helm
-
+        Reputation({id = 2594, gain = 150, quest = 84040}),
+        Transmog({item = 221242, slot = L['plate']}), -- Forgeborn Helm
+        Transmog({item = 221248, slot = L['1h_axe']}), -- Deep Terror Carver
+        Transmog({item = 221255, slot = L['dagger']}) -- Sharpened Scalepiercer
     }
 }) -- Terror of the Forge
 
@@ -212,10 +251,12 @@ map.nodes[71654630] = Rare({
     id = 220268,
     quest = 80574, -- 84043
     note = L['trungal_note'],
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {
         Achievement({id = 40837, criteria = 69631}),
-        Transmog({item = 221228, slot = L['cloth']}) -- Infested Fungal Wristwraps
+        Reputation({id = 2594, gain = 150, quest = 84043}),
+        Transmog({item = 221228, slot = L['cloth']}), -- Infested Fungal Wristwraps
+        Transmog({item = 221253, slot = L['fist']}), -- Cultivator's Plant Puncher
+        Transmog({item = 221250, slot = L['1h_sword']}) -- Creeping Lasher Machete
     },
     pois = {POI({72844447})} -- Entrance
 }) -- Trungal
@@ -223,10 +264,13 @@ map.nodes[71654630] = Rare({
 map.nodes[52032657] = Rare({
     id = 220270,
     quest = 80506, -- 84041
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {
         Achievement({id = 40837, criteria = 69629}),
-        Transmog({item = 221220, slot = L['leather']}) -- Basilisk Scale Pauldrons
+        Reputation({id = 2594, gain = 150, quest = 84041}),
+        Transmog({item = 221220, slot = L['leather']}), -- Basilisk Scale Pauldrons
+        Transmog({item = 221246, slot = L['staff']}), -- Fierce Beast Staff
+        Transmog({item = 221247, slot = L['crossbow']}), -- Cavernous Critter Shooter
+        Transmog({item = 221251, slot = L['2h_axe']}) -- Bestial Underground Cleaver
     }
 }) -- Zilthara
 
@@ -236,18 +280,25 @@ map.nodes[52032657] = Rare({
 
 map.nodes[63086311] = Treasure({ -- lvl 71
     quest = 82230,
-    rewards = {Achievement({id = 40724, criteria = 69281})}
+    rewards = {
+        Achievement({id = 40724, criteria = 69281}),
+        Reputation({id = 2594, gain = 150, quest = 82230})
+    }
 }) -- Cursed Pickaxe
 
 map.nodes[45511745] = Treasure({ -- lvl 71
     quest = 82239,
-    rewards = {Achievement({id = 40724, criteria = 69283})}
+    rewards = {
+        Achievement({id = 40724, criteria = 69283}),
+        Reputation({id = 2594, gain = 150, quest = 82239})
+    }
 }) -- Discarded Toolbox
 
 map.nodes[48254896] = Treasure({ -- lvl 71
     quest = 82820,
     rewards = {
         Achievement({id = 40724, criteria = 69311}),
+        Reputation({id = 2594, gain = 150, quest = 82820}),
         Pet({item = 221548, id = 4536}) -- Blightbud
     }
 }) -- Dislodged Blockage (Blocked Intake)
@@ -259,8 +310,10 @@ map.nodes[49053163] = Treasure({ -- Inside the Inn
         ns.requirement.Item(223880), ns.requirement.Item(223881),
         ns.requirement.Item(223882)
     },
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40724, criteria = 69312})},
+    rewards = {
+        Achievement({id = 40724, criteria = 69312}),
+        Reputation({id = 2594, gain = 150, quest = 82464})
+    },
     pois = {
         POI({47673217}), -- Entrance
         POI({
@@ -279,6 +332,7 @@ map.nodes[59016438] = Treasure({
     note = L['kaja_cola_machine_note'],
     rewards = {
         Achievement({id = 40724, criteria = 69308}),
+        Reputation({id = 2594, gain = 150, quest = 82819}),
         Item({item = 220774, note = L['bag']}) -- Goblin Mini Fridge
     }
 }) -- Kaja'Cola Machine
@@ -290,9 +344,10 @@ map.nodes[50485349] = Treasure({ -- lvl 71
     },
     location = L['in_waterfall_cave'],
     note = L['forgotten_treasure_note'],
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
     rewards = {
-        Achievement({id = 40724, criteria = 69313}), Toy({item = 224783}) -- Sovereign's Finery Chest
+        Achievement({id = 40724, criteria = 69313}),
+        Reputation({id = 2594, gain = 150, quest = 80485}), --
+        Toy({item = 224783}) -- Sovereign's Finery Chest
     },
     pois = {POI({52065314})} -- Entrance
 }) -- Forgotten Treasure
@@ -300,8 +355,10 @@ map.nodes[50485349] = Treasure({ -- lvl 71
 map.nodes[55391385] = Treasure({ -- lvl 71
     quest = 82235,
     note = L['in_small_cave'],
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40724, criteria = 69282})},
+    rewards = {
+        Achievement({id = 40724, criteria = 69282}),
+        Reputation({id = 2594, gain = 150, quest = 82235})
+    },
     pois = {POI({54681421})} -- Entrance
 }) -- Munderut's Forgotten Stash
 
@@ -309,21 +366,26 @@ map.nodes[58933027] = Treasure({ -- lvl 71
     quest = 82818,
     rewards = {
         Achievement({id = 40724, criteria = 69307}),
+        Reputation({id = 2594, gain = 150, quest = 82818}),
         Pet({item = 224439, id = 4470}) -- Oop'lajax
     }
 }) -- Scary Dark Chest
 
 map.nodes[66203341] = Treasure({ -- lvl 71
     quest = 83030,
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40724, criteria = 69304})}
+    rewards = {
+        Achievement({id = 40724, criteria = 69304}),
+        Reputation({id = 2594, gain = 150, quest = 83030})
+    }
 }) -- Waterlogged Refuse
 
 map.nodes[68863883] = Treasure({ -- lvl 71
     quest = 79308,
     note = L['in_small_cave'],
-    rlabel = ReputationGain(150, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40724, criteria = 69280})},
+    rewards = {
+        Achievement({id = 40724, criteria = 69280}),
+        Reputation({id = 2594, gain = 150, quest = 79308})
+    },
     pois = {POI({68714072})} -- Entrance
 }) -- Webbed Knapsack
 
@@ -426,6 +488,18 @@ map.nodes[46941006] = SkyridingGlyph({
 map.nodes[46445175] = SkyridingGlyph({
     rewards = {Achievement({id = 40703, criteria = 69254})}
 }) -- The Waterworks
+
+-------------------------------------------------------------------------------
+---------------------- ACHIEVEMENT: I ONLY NEED ONE TRIP ----------------------
+-------------------------------------------------------------------------------
+
+map.nodes[61516421] = Collectible({
+    icon = 236316,
+    label = '{achievement:40623}',
+    note = L['i_only_need_one_trip_note'],
+    group = ns.groups.I_ONLY_NEED_ONE_TRIP,
+    rewards = {Achievement({id = 40623})}
+})
 
 -------------------------------------------------------------------------------
 ------------------------ ACHIEVEMENT: NOT SO QUICK FIX ------------------------
@@ -590,30 +664,78 @@ map.nodes[44315026] = GobblinWithGlublurp({
 -------------------------------------------------------------------------------
 
 map.nodes[39311739] = LoreObject({
-    rlabel = ReputationGain(250, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40762, criteria = 69374})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69374}),
+        Reputation({id = 2594, gain = 250})
+    }
 }) -- A Skull on a Sign
 
 map.nodes[64945614] = LoreObject({
-    rlabel = ReputationGain(250, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40762, criteria = 69378})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69378}),
+        Reputation({id = 2594, gain = 250})
+    }
 }) -- Kobold Warning Sign
 
 map.nodes[51477241] = LoreObject({
-    rlabel = ReputationGain(250, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40762, criteria = 69376})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69376}),
+        Reputation({id = 2594, gain = 250})
+    }
 }) -- Submerged Sign
 
 map.nodes[71364240] = LoreObject({
-    rlabel = ReputationGain(250, 2594), -- The Assembly of the Deeps
-    rewards = {Achievement({id = 40762, criteria = 69375})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69375}),
+        Reputation({id = 2594, gain = 250})
+    }
 }) -- Warning: Collapsed Tunnel
 
 map.nodes[50215826] = LoreObject({
-    rlabel = ReputationGain(250, 2594), -- The Assembly of the Deeps
     note = L['in_small_cave'],
-    rewards = {Achievement({id = 40762, criteria = 69377})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69377}),
+        Reputation({id = 2594, gain = 250})
+    }
 }) -- Wax-Drenched Sign
+
+-------------------------------------------------------------------------------
+-------------------- ACHIEVEMENT: TO ALL THE SLIMES I LOVE --------------------
+-------------------------------------------------------------------------------
+
+local CritterLove = Class('CritterLove', Collectible, {
+    group = ns.groups.CRITTER_LOVE,
+    icon = 3459801,
+    note = L['critter_love_note']
+})
+
+function CritterLove:Initialize(id)
+    Collectible.Initialize(self)
+    self.criteria = id
+end
+
+function CritterLove.getters:rewards()
+    return {Achievement({id = 40475, criteria = self.criteria})}
+end
+
+map.nodes[57486764] = CritterLove(68670) -- Spring Mole
+map.nodes[51281543] = CritterLove(68673) -- Snake
+map.nodes[64533238] = CritterLove(68674) -- Lightdarter
+map.nodes[52855473] = CritterLove(68676) -- Tiny Sporbit
+map.nodes[63463980] = CritterLove(68677) -- Dustcrawler Beetle
+map.nodes[60319221] = CritterLove(68675) -- Mass of Worms
+map.nodes[58796861] = CritterLove(68731) -- Grottoscale Hatchling
+map.nodes[54672992] = CritterLove(68729) -- Crackcreeper
+map.nodes[48501257] = CritterLove(68730) -- Lava Slug
+map.nodes[45781352] = CritterLove(68732) -- Earthenwork Stoneskitterer
+map.nodes[72853965] = CritterLove(68733) -- Cavern Skiplet
+map.nodes[57306574] = CritterLove(68734) -- Moss Sludglet
+map.nodes[42011638] = CritterLove(68747) -- Cavern Mote
+map.nodes[61963027] = CritterLove(68748) -- Stumblegrub
+map.nodes[54413473] = CritterLove(69805) -- Darkgrotto Hopper
+map.nodes[67013878] = CritterLove(68749) -- Oozeling
+map.nodes[59404592] = CritterLove(68750) -- Pebble Scarab
+map.nodes[42421437] = CritterLove(68751) -- Rock Snail
 
 -------------------------------------------------------------------------------
 -------------------------------- DISTURBED DIRT -------------------------------

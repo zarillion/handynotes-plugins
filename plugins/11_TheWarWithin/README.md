@@ -65,6 +65,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 ### The Isle of Dorn
 
 * Forgegrounds Press for the [Flat Earthen](https://www.wowhead.com/achievement=40606) achievement.
+* [Sizzling Cinderpollen](https://www.wowhead.com/item=225557) farm location for the [Soaring Meaderbee](https://www.wowhead.com/item=223153) mount.
 
 ### The Ringing Deeps
 
@@ -72,9 +73,11 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Note fragments for the [Notable Machines](https://www.wowhead.com/achievement=40628) achievement.
 * Plaques for the [Rocked to Sleep](https://www.wowhead.com/achievement=40504) achievement.
 * Glulgurp and Ethereal Glimmerling locations for [Gobblin' with Glublurp](https://www.wowhead.com/achievement=40614) achievement.
+* Location for the [I Only Need One Trip](https://www.wowhead.com/achievement=40623) achievement.
 
 ### Hallowfall
 
+* [Beledar's Spawn](https://www.wowhead.com/npc=207802) with a timer for the [Beledar's Spawn](https://www.wowhead.com/item=223315) mount.
 * Lore books for the [Biblo Archivist](https://www.wowhead.com/achievement=40622) achievement.
 * Mementos for the [Lost and Found](https://www.wowhead.com/achievement=40618) achievement.
 * Ferocious warcats for the [The Missing Lynx](https://www.wowhead.com/achievement=40625) achievement.
@@ -86,6 +89,9 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Weave-rats for the [Itsy Bitsy Spider](https://www.wowhead.com/achievement=40624) achievement.
 * Books for the [Smelling History](https://www.wowhead.com/achievement=40542) achievement.
 * Skittershaw route for the [Skittershaw Spin](https://www.wowhead.com/achievement=40727) achievement.
+* Another You locations for the [No Harm Ever Came From Reading A Book](https://www.wowhead.com/achievement=40632) achievement.
+* Location for the [The Unseeming](https://www.wowhead.com/achievement=40633) achievement.
+* Location for the [You Can't Hang With Us](https://www.wowhead.com/achievement=40634) achievement.
 
 ## Localization
 

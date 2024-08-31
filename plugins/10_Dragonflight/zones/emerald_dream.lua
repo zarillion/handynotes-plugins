@@ -483,8 +483,8 @@ map.nodes[39465371] = Rare({
     id = 209574,
     quest = 76367,
     rewards = {
-        DG.Guardian.HibernatingRunebear,
-        Transmog({item = 210433, type = L['cosmetic']}), -- Visage of Aurostor
+        Transmog({item = 210433}), -- Visage of Aurostor
+        DG.Guardian.HibernatingRunebear, --
         DC.FlourishingWhimsydrake.SunriseScales
     }
 }) -- Aurostor

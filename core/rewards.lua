@@ -640,6 +640,52 @@ function Transmog:GetStatus()
 end
 
 -------------------------------------------------------------------------------
+--------------------------------- REPUTATION ----------------------------------
+-------------------------------------------------------------------------------
+
+local Reputation = Class('Reputation', Reward,
+    {display_option = 'show_rep_rewards', type = L['rep']})
+
+function Reputation:GetText()
+    local text = ns.api.GetFactionInfoByID(self.id)
+    if self.gain then text = ('+%d %s'):format(self.gain, text) end
+    text = ns.color.LightBlue(text) .. ' (' .. self.type .. ')'
+    if self.note then
+        text = text .. ' (' .. ns.RenderLinks(self.note, true) .. ')'
+    end
+    return text
+end
+
+function Reputation:IsEnabled()
+    if not Reward.IsEnabled(self) then return false end
+    if self:IsObtained() and not ns:GetOpt('show_claimed_rep_rewards') then
+        return false
+    end
+
+    return true
+end
+function Reputation:Prepare() ns.PrepareLinks(self.note) end
+
+function Reputation:GetStatus()
+    if not self.quest then return end
+    return self:IsObtainable() and Red(L['unclaimed']) or Green(L['claimed'])
+end
+
+function Reputation:IsObtainable()
+    if not self.quest then return true end
+    if C_Reputation.IsAccountWideReputation(self.id) then
+        return not C_QuestLog.IsQuestFlaggedCompletedOnAccount(self.quest)
+    else
+        return not C_QuestLog.IsQuestFlaggedCompleted(self.quest)
+    end
+end
+
+function Reputation:IsObtained()
+    if self.quest and self:IsObtainable() then return false end
+    return true
+end
+
+-------------------------------------------------------------------------------
 
 ns.reward = {
     Reward = Reward,
@@ -659,5 +705,6 @@ ns.reward = {
     Title = Title,
     Toy = Toy,
     Appearance = Appearance,
-    Transmog = Transmog
+    Transmog = Transmog,
+    Reputation = Reputation
 }

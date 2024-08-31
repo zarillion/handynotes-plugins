@@ -59,6 +59,8 @@ L['hard'] = 'Difícil'
 
 L['completed'] = 'Terminado'
 L['incomplete'] = 'Incompleto'
+L['claimed'] = 'Reclamado'
+L['unclaimed'] = 'No Reclamado'
 L['known'] = 'Conocido'
 L['missing'] = 'Desconocido'
 L['unobtainable'] = 'No se puede obtener'
@@ -79,6 +81,7 @@ L['in_water'] = 'Bajo el agua.'
 L['in_building'] = 'En el edificio.'
 
 ------------------------------------ TIME -------------------------------------
+L['now'] = 'Ahora'
 L['hourly'] = 'Horaria'
 L['daily'] = 'Diaria'
 L['weekly'] = 'Semanal'
@@ -188,7 +191,7 @@ L['options_restore_hidden_nodes_desc'] = 'Vuelve a mostrar todos los nodos ocult
 L['options_rewards_settings'] = 'Recompensas'
 L['options_reward_types'] = 'Mostrar tipos de recompensas'
 L['options_manuscript_rewards'] = 'Mostrar las recompensas de los manuscritos de dracovigía'
-L['options_manuscript_rewards_desc'] = 'Muestra las recompensas de los manuscritos de dracovigía en los tooltips y sigue si ya lo has coleccionado.'
+L['options_manuscript_rewards_desc'] = 'Muestra las recompensas de los manuscritos de dracovigía en las descripciones y sigue si ya lo has coleccionado.'
 L['options_mount_rewards'] = 'Mostrar recompensas de monturas'
 L['options_mount_rewards_desc'] = 'Muestra las recompensas de monturas en las notas y rastrea el estado de si ha sido aprendida.'
 L['options_pet_rewards'] = 'Mostrar recompensas de mascotas'
@@ -201,6 +204,10 @@ L['options_transmog_rewards'] = 'Mostrar recompensas de transfiguraciones'
 L['options_transmog_rewards_desc'] = 'Muestra las recompensas de transfiguraciones en las notas y rastrea el estado de si ha sido aprendida.'
 L['options_all_transmog_rewards'] = 'Mostrar las recompensas de transfiguraciones que no pueden conseguirse'
 L['options_all_transmog_rewards_desc'] = 'Muestra las recompensas de transfiguraciones conseguibles por otras clases.'
+L['options_rep_rewards'] = 'Mostrar recompensas de reputaciones'
+L['options_rep_rewards_desc'] = 'Muestra las recompensas de reputaciones en las notas y rastrea el estado de si ha sido conseguida.'
+L['options_claimed_rep_rewards'] = 'Mostrar recompensas de reputación reclamadas'
+L['options_claimed_rep_rewards_desc'] = 'Muestra las recompensas de reputaciones que ya hayan sido reclamadas por tu banda guerrera.'
 
 L['options_icons_misc_desc'] = 'Muestra dónde están los nodos sin categoría.'
 L['options_icons_misc'] = 'Miscelánea'
@@ -225,11 +232,11 @@ L['options_reset_poi_colors_desc'] = 'Establece los colores de encima a sus valo
 
 ---------------------------------- TOOLTIP ---------------------------------
 
-L['options_tooltip_settings'] = 'Tooltip'
+L['options_tooltip_settings'] = 'Descripción'
 L['options_toggle_show_loot'] = 'Mostrar el botín'
-L['options_toggle_show_loot_desc'] = 'Muestra la información de botín al tooltip'
+L['options_toggle_show_loot_desc'] = 'Muestra la información de botín en la descripción'
 L['options_toggle_show_notes'] = 'Mostrar las Notas'
-L['options_toggle_show_notes_desc'] = 'Agrega las notas útiles al tooltip cuando esté disponible'
+L['options_toggle_show_notes_desc'] = 'Agrega las notas útiles en la descripción cuando esté disponible'
 L['options_toggle_use_standard_time'] = 'Usar Reloj de 12-Horas'
 L['options_toggle_use_standard_time_desc'] = 'Usa el reloj de 12-horas (ej: 8:00 PM) en lugar del reloj de 24-horas (ej: 20:00) en las descripciones.'
 

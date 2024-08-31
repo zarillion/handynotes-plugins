@@ -249,8 +249,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             end
         elseif L_UIDROPDOWNMENU_MENU_VALUE == 'rewards' then
             for i, type in ipairs({
-                'manuscript', 'mount', 'pet', 'recipe', 'toy', 'transmog',
-                'all_transmog'
+                'rep', 'mount', 'pet', 'recipe', 'toy', 'transmog'
             }) do
                 LibDD:UIDropDownMenu_AddButton({
                     text = L['options_' .. type .. '_rewards'],
@@ -262,6 +261,41 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                     end
                 }, 2)
             end
+
+            -- Only show manuscripts for the dragonflight plugin. A bit hacky, maybe
+            -- we can find a better way to do this in the future.
+            if ADDON_NAME == 'HandyNotes_Dragonflight' then
+                LibDD:UIDropDownMenu_AddButton({
+                    text = L['options_manuscript_rewards'],
+                    isNotRadio = true,
+                    keepShownOnClick = true,
+                    checked = ns:GetOpt('show_manuscript_rewards'),
+                    func = function(button, option)
+                        ns:SetOpt('show_manuscript_rewards', button.checked)
+                    end
+                }, 2)
+            end
+
+            -- Additional options tweaking the behavior of the above filters
+            LibDD:UIDropDownMenu_AddSeparator(2)
+            LibDD:UIDropDownMenu_AddButton({
+                text = L['options_all_transmog_rewards'],
+                isNotRadio = true,
+                keepShownOnClick = true,
+                checked = ns:GetOpt('show_all_transmog_rewards'),
+                func = function(button, option)
+                    ns:SetOpt('show_all_transmog_rewards', button.checked)
+                end
+            }, 2)
+            LibDD:UIDropDownMenu_AddButton({
+                text = L['options_claimed_rep_rewards'],
+                isNotRadio = true,
+                keepShownOnClick = true,
+                checked = ns:GetOpt('show_claimed_rep_rewards'),
+                func = function(button, option)
+                    ns:SetOpt('show_claimed_rep_rewards', button.checked)
+                end
+            }, 2)
         else
             -- add opacity/scale menu for non-achievements
             self:AddGroupOptions(L_UIDROPDOWNMENU_MENU_VALUE, 2)

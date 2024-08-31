@@ -14,6 +14,9 @@ L['skyriding_glyph'] = 'Glyphe des Himmelsreitens'
 L['options_icons_skyriding_glyph'] = 'Glyphen des Himmelsreitens'
 L['options_icons_skyriding_glyph_desc'] = 'Zeigt die Positionen aller Glyphen des Himmelsreitens an.'
 
+L['options_icons_profession_treasures'] = 'Schätze für Berufe'
+L['options_icons_profession_treasures_desc'] = 'Zeigt die Positionen der Schätze, die für deinen Beruf Wissen gewähren.'
+
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = 'Zeigt die Positionen der Geschichtsobjekte für den Erfolg {achievement:40762} an.'
 
@@ -21,7 +24,7 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Zeigt die Positionen der Gesch
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
-L['alunira_note'] = 'Sammle 10x {item:224025} und kombiniere diese zu einem {item:224026}, um den Schwächungszauber {spell:451570} zu entfernen.'
+L['alunira_note'] = 'Sammle 10x {item:224025} von Gegnern auf der {location:Insel fon Dorn} und kombiniere diese zu einem {item:224026}, um den Schwächungszauber {spell:451570} zu entfernen.'
 L['violet_hold_prisoner'] = 'Gefangener der Violetten Festung'
 
 L['elemental_geode_label'] = nil
@@ -34,6 +37,9 @@ L['trees_treasure_note'] = 'Sprich mit {npc:222940}, um den {item:224185} zu erh
 L['turtles_thanks_1_note'] = 'Biete 5x {item:220143} an (kann in dem Schwarm {object:Ruhige Oberflächenwellen} geangelt oder im Auktionshaus gekauft werden). {note:Verlasse das Gebiet und kehre sofort zurück, um den nächsten Fisch anzubieten.}'
 L['turtles_thanks_2_note'] = 'Biete 1x {item:222533} an (kann in den Schwärmen {object:Glimmerbecken}, {object:Schwärender Fäulnisteich}, {object:Energieerfüllter Sekretfleck} geangelt oder im Auktionshaus gekauft werden).'
 L['turtles_thanks_3_note'] = 'Treffe dich mit der {npc:223338} in {location:Dornogal} und spreche mit ihr, um den Schatz zu enthüllen.'
+L['web_wrapped_axe_note'] = 'In der ersten Etage.\n\n{note:Erscheint erst wieder nach 1 bis 2 Stunden.}'
+
+L['cendvin_note'] = 'Plündere 900x {item:225557} in {location:Aschenholtz} von Elitegegnern, um das Reittier {item:223153} von {npc:226205} kaufen zu können.'
 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Zeigt die Position für den Erfolg {achievement:40606} an.'
@@ -45,12 +51,16 @@ L['options_icons_flat_earthen_desc'] = 'Zeigt die Position für den Erfolg {achi
 L['forgotten_treasure_note'] = 'Öffne die {object:Vergrabener Schatz} Truhen in der Nähe, um {item:217960} zu erhalten.'
 L['kaja_cola_machine_note'] = 'Kaufe die Getränke in der folgenden Reihenfolge: Bluesberry Blast > Orange O-pocalypse > Austernausbruch > Mangorowahnsinn.'
 
+L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
+L['options_icons_i_only_need_one_trip_desc'] = 'Zeigt die Position für den Erfolg {achievement:40623} an.'
+L['i_only_need_one_trip_note'] = 'Liefere alle 10 Erzbrocken in der Weltquest {wq:Kuriermission Erzsammlung} auf einmal ab.'
+
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
 L['options_icons_not_so_quick_fix_desc'] = 'Zeigt die Positionen der Konsolen für den Erfolg {achievement:40473} an.'
 
 L['not_so_quick_fix_note'] = 'Repariere die defekte Konsole der Irdenen.'
 L['water_console_location'] = 'Neben der Treppe.'
-L['abyssal_console_location'] = nil
+L['abyssal_console_location'] = 'In einer Nische.'
 L['taelloch_console_location'] = 'Auf der Brücke zwischen den Fässern.'
 L['lost_console_location'] = 'Im Eingang der eingestürzten Mine.'
 
@@ -97,6 +107,10 @@ L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
 L['options_icons_gobblin_with_glublurp_desc'] = 'Zeigt die Position für den Erfolg {achievement:40614} an.'
 L['gobblin_with_glublurp_note'] = 'Klicke einen {object:Funkelnder Kristall} ({dot:Red}) an, um den Stärkungszauber {spell:456739} zu erhalten. Fange damit einen {npc:227138} bei dem kleinen Teich (' .. ns.color.Orange('Orangener Kreis') .. ') und bringe diesen zu {npc:227132}.\n\n(statisches Fliegen wird empfohlen, um dies zu erreichen).'
 
+L['critter_love_note'] = 'Du musst das Emote {emote:/liebe} auf Kleintiere anwenden (KEINE Kampfhaustiere).'
+L['options_icons_critter_love'] = '{achievement:40475}'
+L['options_icons_critter_love_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:40475} an.'
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
@@ -123,8 +137,8 @@ L['lost_necklace_note'] = 'Plündere ein {object:Verlorenes Andenken} von der Ka
 L['priory_satchel_location'] = 'Hängt an der Kante der Kathedrale.'
 L['smugglers_treasure_note'] = 'Plündere den {item:225335} von der Leiche des {npc:226025} ({dot:Blue}) unterhalb der Klippe.'
 L['smugglers_treasure_location'] = 'Oben auf der Klippe zwischen mehreren Felsen.'
-L['coral_fused_clam'] = nil
-L['coral_fused_clam_note'] = nil
+L['coral_fused_clam'] = 'Korallenverschmolzene Muschel'
+L['coral_fused_clam_note'] = 'Plündere den {item:218354} aus dem {object:Set des Muschelfischers}, um die Muschel zu öffnen.'
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
 L['options_icons_biblo_archivist_desc'] = 'Zeigt die Positionen der Bücher für den Erfolg {achievement:40622} an.'
@@ -169,8 +183,9 @@ L['furball_location'] = 'Im zerstörten Gebäude.'
 L['dander_location'] = 'Draußen.'
 L['gobbo_location'] = 'Im Gebäude auf dem Bett.'
 
-L['croakit_note'] = nil
-L['deathtide_note'] = nil
+L['beledars_spawn_note'] = 'Dieser Gegner erscheint an einem von mehreren Positionen in einem festgelegten Intervall.\n\nNächstes erscheinen:\n{note:%s (%s)}'
+L['croakit_note'] = 'Angle 10x {item:211474} aus einem {object:Schwarm schattenblinder Barsche} in der Nähe (oder kaufe diese im Auktionshaus) und wirf sie ihm zu, damit der seltene Gegner angreifbar wird.'
+L['deathtide_note'] = 'Sammle eine {item:220122} ({dot:Red}) und ein {item:220124} ({dot:Green}). Kombiniere diese zu {item:220123}, um damit den seltenen Gegner am {object:Ominöser Altar} zu beschwören.'
 L['murkshade_note'] = 'Interagiere mit {npc:218455}.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
@@ -184,7 +199,11 @@ L['barracks_doorway_location'] = 'Ziele auf den Eingang des rot-goldenen Zeltes 
 L['options_icons_beacon_of_hope'] = '{achievement:40308}'
 L['options_icons_beacon_of_hope_desc'] = 'Zeigt die Positionen der kleinen Schlüsselflammen für den Erfolg {achievement:40308} an.'
 
-L['beacon_of_hope_note'] = 'Steuert {item:206350} bei, um kleinere Schlüsselflammen zu entzünden und die folgenden Quests abzuschließen. '
+L['beacon_of_hope_note'] = 'Steuere {item:206350} bei, um kleinere Schlüsselflammen zu entzünden und die folgenden Quests abzuschließen. '
+
+L['parasidious_note'] = 'Kaufe 1x {item:206670} von {npc:206533} (entfache die {object:Kleine Schlüsselflamme}, damit dieser erscheint). Gehe zum {location:Dämmerhöhenacker} und ziehe an {npc:206870} bis der seltene Gegner erscheint. {note: Kann nur erscheinen, wenn {npc:206978} an dieser Position ist.}'
+
+L['flamegards_hope_note'] = 'Hilf {npc:213319} 20 Tage lang die {npc:verletzten Soldaten} zu heilen.\n\nDu kannst auch einen {spell:372009} oder {item:211878} nutzen, wenn deine Klasse nicht heilen kann.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
@@ -202,32 +221,63 @@ L['thimble_location'] = nil
 L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
+L['options_icons_bookworm'] = '{achievement:40629}'
+L['options_icons_bookworm_desc'] = 'Zeigt die Positionen von Büchern für den Erfolg {achievement:40629} an.'
+
+L['nerubian_potion_note'] = 'Um die Bücher lesen zu können, benötigst du einen {item:225784} ({note:Buff hält 10 Minuten an}). Diesen kannst du von {npc:218192} für 33x {currency:3056} kaufen.'
+L['bookworm_note'] = '{note:Du kannst gleichzeitig den Erfolg {achievement:40542} mit dem {item:225784} erringen.}'
+L['bookworm_1_location'] = 'Am Eingang der kleinen Höhle.'
+
 L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = 'Zeigt die Positionen von Büchern für den Erfolg {achievement:40542} an.'
 
-L['smelling_history_note'] = 'Kaufe {item:225784} von {npc:218192} für 500x {currency:3056}.' -- review
-L['smelling_history_1_location'] = 'Im Gebäude auf dem Tresen.'
+L['smelling_history_note'] = '{note:Du kannst gleichzeitig den Erfolg {achievement:40629} mit dem {item:225784} erringen.}'
+L['smelling_history_1_location'] = 'Im Gebäude auf dem Tisch.'
 L['smelling_history_2_location'] = 'Auf einer Truhe.'
-L['smelling_history_3_location'] = 'Auf einem Tisch.'
+L['smelling_history_3_location'] = 'In einer kleinen Höhle auf einem Tisch.'
 L['smelling_history_4_location'] = 'Im Gebäude auf einem Tisch.'
 L['smelling_history_5_location'] = 'Im Gebäude auf einem Tisch.'
-L['smelling_history_6_location'] = 'Auf dem Bett an der Südseite des Zimmers.'
-L['smelling_history_7_location'] = 'Auf auf einem Stapel von Büchern.'
-L['smelling_history_8_location'] = 'Auf dem Tisch neben dem Bett an der Nordseite des Zimmers.'
-L['smelling_history_9_location'] = nil
-L['smelling_history_10_location'] = 'Auf einer Bank.'
-L['smelling_history_11_location'] = 'Das Buch liegt auf einem Tisch neben dem Bett. Der Eingang befindet sich oberhalb des Brunnens.'
+L['smelling_history_6_location'] = 'Im Gebäude auf dem Bett an der Südseite des Zimmers.'
+L['smelling_history_7_location'] = 'Im Gebäude auf auf dem Bücherstapel.'
+L['smelling_history_8_location'] = 'Im Gebäude auf dem Tisch neben dem Bett an der Nordseite des Zimmers.'
+L['smelling_history_9_location'] = 'Im Gebäude, von hinten angelehnt an den Tisch von {npc:226024}.'
+L['smelling_history_10_location'] = 'Im Gebäude auf der Bank.'
+L['smelling_history_11_location'] = 'Im Gebäude auf dem Tisch neben dem Bett. Der Eingang befindet sich oberhalb des Brunnens.'
 L['smelling_history_12_location'] = 'Im Gebäude auf einem Tisch.'
 
 L['options_icons_skittershaw_spin'] = '{achievement:40727}'
 L['options_icons_skittershaw_spin_desc'] = 'Zeigt die Position des Krabblertaxis für den Erfolg {achievement:40727} an.'
 L['skittershaw_spin_note'] = 'Fahre mit dem {npc:224973} eine ganze Runde um den Distrikt.\n\nDas {npc:224973} hält an verschiedenen Stellen ({dot:Red}) entlang der Runde.'
 
-L['memory_cache_note'] = 'Erhalte {spell:420847} von einem {object:Extractor Storage} ({dot:Blue}) in der Nähe. After kill the {npc:223908} to get the {item:223870} to open the {object:Memory Cache}.' -- review WHAT?
-L['niffen_stash_note'] = 'Befindet sich unter der Brücke.'
+L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
+L['options_icons_no_harm_from_reading_desc'] = 'Display {npc:227421} locations for the {achievement:40632} achievement.'
+L['no_harm_from_reading_note'] = [[
+Gehe in die Höhle ({dot:Yellow}) zur Wand mit den drei Spinnen ({dot:Red}).
+Klettere die Wand hoch und springe in das Loch.
+
+Lese das Buch {object:Fleischiger Foliant}, um vier {npc:227421} erscheinen zu lassen, die dann verschwinden.
+
+Die vier {npc:227421} erscheinen in {location:Azj-Kahet} an verschiedenen Orten.
+
+Spüre diese auf und spreche mit ihnen, um sie zurück zu schicken.
+
+Sobald du alle vier {npc:227421} gefunden hast, gehen zurück zum Buch {object:Fleischiger Foliant} und spreche mit einem der vier {npc:227421}.
+]]
+L['another_you_4_note'] = 'Läuft im {location:Nest der Weberin} herum.'
+
+L['memory_cache_note'] = 'Hole dir den Schwächungszauber {spell:420847} von einem {object:Extraktor} ({dot:Red}) in der Nähe und töte dann die {npc:223908} vor der Kiste, um den {item:223870} zu erhalten.'
+L['niffen_stash_note'] = 'Hängt unter der Brücke.'
 L['trapped_trove_note'] = 'In einem Gebäude das von der Decke hängt. Vermeide die Spinnweben am Boden.'
 
 L['tkaktath_note'] = 'Startet eine Questreihe, um das Reittier {item:224150} zu erhalten.'
+
+L['options_icons_the_unseeming'] = '{achievement:40633}'
+L['options_icons_the_unseeming_desc'] = 'Zeigt die Position für den Erfolg {achievement:40633} an.'
+L['the_unseeming_note'] = 'Stelle dich in die Pfütze bis du 100x Stapel {spell:420847} hast.'
+
+L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
+L['options_icons_you_cant_hang_with_us_desc'] = 'Zeigt die Positionen für den Erfolg {achievement:40634} an.'
+L['you_cant_hang_with_us_note'] = 'Finde einen {npc:211816} mit dem Stärkungszauber {spell:434734} und greife ihn an, um den Schwächungszauber {spell:443190} (1 Minute) zu erhalten. Ein {npc:225408} ({note:Töte ihn nicht!}) wird sich einmischen und den Schwächungszauber {spell:454666} auf dir stapeln. Bei 10 Stapeln wirst du gewaltsam aus der Stadt entfernt.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
@@ -235,6 +285,7 @@ L['tkaktath_note'] = 'Startet eine Questreihe, um das Reittier {item:224150} zu 
 
 L['sturdy_chest'] = nil
 L['sturdy_chest_suffix'] = nil
+
 L['ecm_chest_3_location'] = nil
 L['fol_chest_1_location'] = nil
 L['fol_chest_3_location'] = nil

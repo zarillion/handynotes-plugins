@@ -21,9 +21,9 @@ local Mount = ns.reward.Mount
 local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Reputation = ns.reward.Reputation
 
 local ItemStatus = ns.tooltip.ItemStatus
-local ReputationGain = ns.tooltip.ReputationGain
 
 local POI = ns.poi.POI
 local Path = ns.poi.Path
@@ -37,12 +37,13 @@ local map = Map({id = 2215, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[15004000] = Rare({
+local BeledarsSpawn = Class('BeledarsSpawn', Rare, {
     id = 207802,
     quest = 81763, -- 85164
     rewards = {
+        Achievement({id = 40851, criteria = 69716}),
         Mount({item = 223315, id = 2192}),
-        Achievement({id = 40851, criteria = 69716})
+        Reputation({id = 2570, gain = 150, quest = 85164})
     },
     pois = {
         POI({
@@ -54,6 +55,28 @@ map.nodes[15004000] = Rare({
     }
 }) -- Beledar's Spawn
 
+function BeledarsSpawn.getters:note()
+    local timeFormat =
+        ns:GetOpt('use_standard_time') and L['time_format_12hrs'] or
+            L['time_format_24hrs']
+
+    local timeLeft = (GetQuestResetTime() + 3660) % 10800
+    local nextSpawn = timeLeft + time()
+
+    local spawnsIn = timeLeft <= 60 and L['now'] or
+                         SecondsToTime(timeLeft, true, true)
+
+    local color = ns.color.Orange
+    if timeLeft < 1800 then color = ns.color.Yellow end -- 30 mins
+    if timeLeft < 600 then color = ns.color.Green end -- 10 mins
+    spawnsIn = color(spawnsIn)
+
+    return format(L['beledars_spawn_note'], spawnsIn,
+        date(timeFormat, nextSpawn))
+end
+
+map.nodes[25004500] = BeledarsSpawn()
+
 -- map.nodes[08002000] = Rare({
 --     id = 220159,
 --     quest = 80486, review -- need rep quest id if triggered
@@ -63,34 +86,60 @@ map.nodes[15004000] = Rare({
 map.nodes[65052965] = Rare({
     id = 206514,
     quest = 82558, -- 84052
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69720})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69720}),
+        Reputation({id = 2570, gain = 150, quest = 84052}),
+        Transmog({item = 223935, type = L['cloth']}), -- Cabbage Harvester's Pantaloons
+        Transmog({item = 223928, type = L['plate']}), -- Crop Cutter's Gauntlets
+        Transmog({item = 221238, type = L['staff']}) -- Pillar of Constructs
+    }
 }) -- Crazed Cabbage Smacker
 
 map.nodes[67552316] = Rare({
     id = 214757,
     quest = 82560, -- 84054
     note = L['croakit_note'],
-    rewards = {Achievement({id = 40851, criteria = 69722})},
+    rewards = {
+        Achievement({id = 40851, criteria = 69722}),
+        Reputation({id = 2570, gain = 150, quest = 84054}),
+        Transmog({item = 223938, type = L['leather']}), -- Marsh Hopper's Spaulders
+        Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
+        Transmog({item = 221246, type = L['staff']}), -- Fierce Beast Staff
+        Transmog({item = 221247, type = L['crossbow']}) -- Cavernous Critter Shooter
+    },
     pois = {POI({65802355})}
 }) -- Croakit
 
 map.nodes[63643205] = Rare({
     id = 206184,
     quest = 82559, -- 84053
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69721})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69721}),
+        Reputation({id = 2570, gain = 150, quest = 84053}),
+        Transmog({item = 223927, type = L['leather']}), -- Vinewrapped Leather Tunic
+        Transmog({item = 221253, type = L['fist']}), -- Cultivator's Plant Puncher
+        Transmog({item = 221250, type = L['1h_sword']}) -- Creeping Lasher Machete
+    }
 }) -- Deathpetal
 
 map.nodes[44744241] = Rare({
     id = 221753,
     quest = 81880, -- 85165
     note = L['deathtide_note'],
-    rewards = {Achievement({id = 40851, criteria = 69717})},
+    rewards = {
+        Achievement({id = 40851, criteria = 69717}),
+        Reputation({id = 2570, gain = 150, quest = 85165}),
+        Transmog({item = 225997}), -- Earthen Adventurer's Spaulders
+        Transmog({item = 223920, type = L['shield']}) -- Slime Deflecting Stopper
+    },
     pois = {
-        POI({48001668, color = 'Green'}), -- Jar of Mucus
+        POI({points = {48001668, 48805020}, color = 'Green'}), -- Jar of Mucus
         POI({
-            28925120, 34185782, 34365357, 43451413, 50094966, 53771913, 55142344
+            points = {
+                28925120, 34185782, 34365357, 43451413, 50094966, 53771913,
+                55142344, 52385016
+            },
+            color = 'Red'
         }) -- Offering of Pure Water
     }
 }) -- Deathtide
@@ -100,35 +149,53 @@ map.nodes[72116435] = Rare({
     quest = 80011, -- One Time Kill
     rewards = {
         Achievement({id = 40851, criteria = 69703}),
-        Transmog({item = 223394, type = L['plate']}) -- Deepfiend Pauldrons
+        Reputation({id = 2570, gain = 150, quest = 80011}),
+        Transmog({item = 223394, type = L['plate']}), -- Deepfiend Pauldrons
+        Transmog({item = 223393, type = L['leather']}), -- Deepfiend Spaulders
+        Transmog({item = 223396, type = L['mail']}), -- Deepfiend Shoulder Shells
+        Transmog({item = 223395, type = L['cloth']}) -- Deepfiend Shoulderpads
     }
 }) -- Deepfiend Azellix
 
 map.nodes[63931977] = Rare({
     id = 221179,
     quest = 82562, -- 84056
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69724})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69724}),
+        Reputation({id = 2570, gain = 150, quest = 84056}),
+        Transmog({item = 223936, type = L['mail']}), -- Shadow Bog Trousers
+        Transmog({item = 223918, type = L['gun']}), -- Specter Stalker's Shotgun
+        Transmog({item = 223919, type = L['1h_mace']}) -- Abducted Lawman's Gavel
+    }
 }) -- Duskshadow
 
 map.nodes[62011683] = Rare({
     id = 207780,
     quest = 82564, -- 84059
-    rewards = {Achievement({id = 40851, criteria = 69727})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69727}),
+        Reputation({id = 2570, gain = 150, quest = 84059}),
+        Transmog({item = 221248, type = L['1h_axe']}), -- Deep Terror Carver
+        Transmog({item = 221255, type = L['dagger']}), -- Sharpened Scalepiercer
+        Transmog({item = 223925, type = L['plate']}) -- Blood Hungerer's Chestplate
+    }
 }) -- Finclaw Bloodtide
 
 map.nodes[36807187] = Rare({
     id = 221767,
     quest = 81881, -- One Time Kill
-    rewards = {Achievement({id = 40851, criteria = 69707})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69707}),
+        Reputation({id = 2570, gain = 150, quest = 81881})
+    }
 }) -- Funglour
 
 map.nodes[36905469] = Rare({
     id = 221551,
     quest = 81761, -- One Time Kill
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69706}),
+        Reputation({id = 2570, gain = 150, quest = 81761}),
         Transmog({item = 223397, slot = L['plate']}), -- Abyssal Hunter's Girdle
         Transmog({item = 223399, slot = L['mail']}), -- Abyssal Hunter's Chain
         Transmog({item = 223400, slot = L['leather']}), -- Abyssal Hunter's Cinch
@@ -153,8 +220,13 @@ map.nodes[36905469] = Rare({
 map.nodes[33122687] = Rare({
     id = 221668,
     quest = 81836, -- 84065
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69712})},
+    rewards = {
+        Achievement({id = 40851, criteria = 69712}),
+        Reputation({id = 2570, gain = 150, quest = 84065}),
+        Transmog({item = 221211, type = L['cloth']}), -- Grasp of the Shallows
+        Transmog({item = 221248, type = L['1h_axe']}), -- Deep Terror Carver
+        Transmog({item = 221255, type = L['dagger']}) -- Sharpened Scalepiercer
+    },
     pois = {
         Path({
             20005108, 21234999, 22614911, 23814796, 24974684, 26234575,
@@ -172,6 +244,7 @@ map.nodes[57046433] = Rare({
     quest = 80006, -- One Time Kill
     rewards = {
         Achievement({id = 40851, criteria = 69704}),
+        Reputation({id = 2570, gain = 150, quest = 80006}),
         Transmog({item = 223379, type = L['plate']}), -- Nerubian Weaver's Chestplate
         Transmog({item = 223380, type = L['mail']}), -- Nerubian Weaver's Chainmail
         Transmog({item = 223381, type = L['leather']}), -- Nerubian Weaver's Vest
@@ -182,18 +255,26 @@ map.nodes[57046433] = Rare({
 map.nodes[23005922] = Rare({
     id = 221534,
     quest = 81756, -- 84063
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69710}),
-        Transmog({item = 221207, type = L['mail']}) -- Den Mother's Chestpiece
+        Reputation({id = 2570, gain = 150, quest = 84063}),
+        Transmog({item = 221207, type = L['mail']}), -- Den Mother's Chestpiece
+        Transmog({item = 221246, type = L['staff']}), -- Fierce Beast Staff
+        Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
+        Transmog({item = 221247, type = L['crossbow']}) -- Cavernous Critter Shooter
     }
 }) -- Lytfang the Lost
 
 map.nodes[63452854] = Rare({
     id = 206203,
     quest = 82557, -- 84051
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69719})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69719}),
+        Reputation({id = 2570, gain = 150, quest = 84051}),
+        Transmog({item = 223924, type = L['cloth']}), -- Chitin-Inscribed Vest
+        Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
+        Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
+    }
 }) -- Moth'ethk
 
 map.nodes[52132681] = Rare({
@@ -202,6 +283,7 @@ map.nodes[52132681] = Rare({
     note = L['murkshade_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69705}),
+        Reputation({id = 2570, gain = 150, quest = 80010}),
         Transmog({item = 223384, type = L['cloth']}), -- Murkshade Gloves
         Transmog({item = 223382, type = L['leather']}), -- Murkshade Grips
         Transmog({item = 223385, type = L['mail']}), -- Murkshade Gauntlets
@@ -212,49 +294,88 @@ map.nodes[52132681] = Rare({
 map.nodes[61981331] = Rare({ -- patrols
     id = 220771,
     quest = 82565, -- 84060
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69728})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69728}),
+        Reputation({id = 2570, gain = 150, quest = 84060}),
+        Transmog({item = 223934, type = L['plate']}), -- Makrura's Foreboding Legplates
+        Transmog({item = 221248, type = L['1h_axe']}), -- Deep Terror Carver
+        Transmog({item = 221255, type = L['dagger']}) -- Sharpened Scalepiercer
+    }
 }) -- Murkspike
 
--- map.nodes[12002200] = Rare({
---     id = nil,
---     quest = 82563, -- review -- need rep quest id if triggered
---     rewards = {Achievement({id = 40851, criteria = 69725})}
--- }) -- Parasidious
+map.nodes[61613277] = Rare({
+    id = 206977,
+    quest = 82563,
+    note = L['parasidious_note'],
+    rewards = {
+        Achievement({id = 40851, criteria = 69725}),
+        Reputation({id = 2570, gain = 150, quest = 84057}),
+        Transmog({item = 223940, type = L['mail']}), -- Deranged Fungarian's Epaulets
+        Transmog({item = 221250, type = L['1h_sword']}), -- Creeping Lasher Machete
+        Transmog({item = 221253, type = L['fist']}) -- Cultivator's Plant Puncher
+    },
+    pois = {POI({64463107})} -- Chef Dinaire
+}) -- Parasidious
 
 map.nodes[57304857] = Rare({
     id = 221786,
     quest = 81882, -- 84068
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69715})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69715}),
+        Reputation({id = 2570, gain = 150, quest = 84068}),
+        Transmog({item = 221225, type = L['cloth']}), -- Benevolent Hornstag Cinch
+        Transmog({item = 223007, type = L['polearm']}), -- Lance of Beledar's Pride
+        Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
+        Transmog({item = 221247, type = L['crossbow']}), -- Cavernous Critter Shooter
+        Transmog({item = 221246, type = L['staff']}) -- Fierce Beast Staff
+    }
 }) -- Pride of Beledar
 
-map.nodes[59702107] = Rare({
-    id = 207826, -- Multiple spawn points 61933187
+map.nodes[61943197] = Rare({
+    id = 207826,
     quest = 82566, --- 84058
-    rewards = {Achievement({id = 40851, criteria = 69726})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69726}),
+        Reputation({id = 2570, gain = 150, quest = 84058}),
+        Transmog({item = 223932, type = L['mail']}), -- Scarab's Carapace Cap
+        Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
+        Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
+    }
 }) -- Ravageant
 
 map.nodes[35943547] = Rare({
     id = 221708,
     quest = 81853, -- 84067
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69714})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69714}),
+        Reputation({id = 2570, gain = 150, quest = 84067}),
+        Transmog({item = 221245, type = L['leather']}), -- Righteous Path Treads
+        Transmog({item = 221241, type = L['dagger']}) -- Priestly Agent's Knife
+    }
 }) -- Sir Alastair Purefire
 
 map.nodes[73405259] = Rare({
     id = 215805,
     quest = 79271, -- 84062
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69709})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69709}),
+        Reputation({id = 2570, gain = 150, quest = 84062}),
+        Transmog({item = 221223, type = L['mail']}), -- Bog Beast Mantle
+        Transmog({item = 221253, type = L['fist']}), -- Cultivator's Plant Puncher
+        Transmog({item = 221250, type = L['1h_sword']}) -- Creeping Lasher Machete
+    }
 }) -- Sloshmuck
 
 map.nodes[43602994] = Rare({
     id = 221690,
     quest = 81849, -- 84066
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69713}),
+        Reputation({id = 2570, gain = 150, quest = 84066}),
+        Transmog({item = 221216, type = L['plate']}), -- Bruin Strength Legplates
+        Transmog({item = 221508, type = L['cloak']}), -- Pelt of Beledar's Strength
+        Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
+        Transmog({item = 221247, type = L['crossbow']}), -- Cavernous Critter Shooter
         Transmog({item = 221246, type = L['staff']}) -- Fierce Beast Staff
     }
 }) -- Strength of Beledar
@@ -262,25 +383,37 @@ map.nodes[43602994] = Rare({
 map.nodes[44011637] = Rare({
     id = 221648,
     quest = 81791, -- 84064
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40851, criteria = 69711}),
-        Transmog({item = 221229, type = L['plate']}) -- Perchfather's Cuffs
+        Reputation({id = 2570, gain = 150, quest = 84064}),
+        Transmog({item = 221229, type = L['plate']}), -- Perchfather's Cuffs
+        Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
+        Transmog({item = 221247, type = L['crossbow']}), -- Cavernous Critter Shooter
+        Transmog({item = 221246, type = L['staff']}) -- Fierce Beast Staff
     }
 }) -- The Perchfather
 
 map.nodes[56486899] = Rare({
     id = 218444,
     quest = 80009, -- 84061
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69708})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69708}),
+        Reputation({id = 2570, gain = 150, quest = 84061}),
+        Transmog({item = 221215, type = L['leather']}), -- Taskmaster's Mining Cap
+        Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
+        Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
+    }
 }) -- The Taskmaker
 
 map.nodes[66432411] = Rare({
     id = 207803,
     quest = 82561, -- 84055
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40851, criteria = 69723})}
+    rewards = {
+        Achievement({id = 40851, criteria = 69723}),
+        Reputation({id = 2570, gain = 150, quest = 84055}),
+        Transmog({item = 223933, type = L['leather']}), -- Slime Goliath's Cap
+        Transmog({item = 223920, type = L['shield']}) -- Slime Deflecting Stopper
+    }
 }) -- Toadstomper
 
 map.nodes[63782057] = Rare({
@@ -318,6 +451,7 @@ map.nodes[40035112] = Treasure({
     note = L['arathi_loremaster_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69695}), --
+        Reputation({id = 2570, gain = 150, quest = 83298}), --
         Toy({item = 225659}) -- Arathi Book Collection
     },
     pois = {
@@ -335,9 +469,9 @@ map.nodes[40035112] = Treasure({
 map.nodes[41795827] = Treasure({
     quest = 83263,
     note = L['caesper_note'],
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69692}),
+        Reputation({id = 2570, gain = 150, quest = 83263}),
         Recipe({item = 225639, profession = 185}) -- Recipe: Exquisitely Eviscerated Muscle
     },
     pois = {
@@ -350,9 +484,9 @@ map.nodes[59525966] = Treasure({
     quest = 83284,
     location = L['in_cave'],
     note = L['dark_ritual_note'],
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69694}),
+        Reputation({id = 2570, gain = 150, quest = 83284}),
         Item({item = 225693, note = L['trinket']}) -- Shadowed Essence
     },
     pois = {
@@ -364,9 +498,9 @@ map.nodes[58382715] = Treasure({
     quest = 81468,
     location = L['in_small_cave'],
     note = L['illuminated_footlocker_note'],
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69701}), --
+        Reputation({id = 2570, gain = 150, quest = 81468}), --
         Toy({item = 224552}) -- Cave Spelunker's Torch
     },
     pois = {POI({57642740})} -- Entrance
@@ -378,6 +512,7 @@ local IllusiveKobyssLure = Class('IllusiveKobyssLure', Treasure, {
     fgroup = 'illusive_kobyss_lure',
     rewards = {
         Achievement({id = 40848, criteria = 69696}), --
+        Reputation({id = 2570, gain = 150, quest = 83299}), --
         Toy({item = 225641}) -- Illusive Kobyss Lure
     }
 }) -- Illusive Kobyss Lure
@@ -439,9 +574,9 @@ map.nodes[34965465] = IllusiveKobyssLure({
 map.nodes[55796954] = Treasure({
     quest = 81971,
     location = L['jewel_of_the_cliffs_location'],
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     rewards = {
         Achievement({id = 40848, criteria = 69697}), --
+        Reputation({id = 2570, gain = 150, quest = 81971}),
         Item({item = 224580}) -- Massive Sapphire Chunk
     }
 }) -- Jewel of the Cliffs
@@ -451,6 +586,7 @@ map.nodes[50071385] = Treasure({
     note = L['lost_necklace_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69699}),
+        Reputation({id = 2570, gain = 150, quest = 81978}),
         Item({item = 224575, note = L['neck']}) -- Lightbearer's Pendant
     }
 }) -- Lost Necklace
@@ -460,6 +596,7 @@ map.nodes[30233875] = Treasure({
     location = L['priory_satchel_location'],
     rewards = {
         Achievement({id = 40848, criteria = 69698}),
+        Reputation({id = 2570, gain = 150, quest = 81972}),
         Item({item = 224578, note = L['bag']}) -- Arathor Courier's Satchel
     }
 }) -- Priory Satchel
@@ -469,7 +606,8 @@ map.nodes[45944513] = Treasure({
     location = L['in_water'],
     note = L['sky_captains_sunken_cache_note'],
     rewards = {
-        Achievement({id = 40848, criteria = 69700}), --
+        Achievement({id = 40848, criteria = 69700}),
+        Reputation({id = 2570, gain = 150, quest = 82005}), --
         Toy({item = 224554}) -- Silver Linin' Scepter
     },
     pois = {
@@ -547,10 +685,10 @@ map.nodes[55135193] = Treasure({
     quest = 83273,
     requires = ns.requirement.Item(225335), -- Smuggler's Key
     location = L['smugglers_treasure_location'],
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
     note = L['smugglers_treasure_note'],
     rewards = {
         Achievement({id = 40848, criteria = 69693}), --
+        Reputation({id = 2570, gain = 150, quest = 83273}),
         Item({item = 226021}) -- Jar of Pickels
     },
     pois = {POI({55425164, color = 'Blue'})} -- Dead Arathi
@@ -559,14 +697,17 @@ map.nodes[55135193] = Treasure({
 map.nodes[76765382] = Treasure({ -- review, was not there when i looked
     quest = 79275,
     location = L['in_cave'],
-    rlabel = ReputationGain(150, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40848, criteria = 69702})},
+    rewards = {
+        Achievement({id = 40848, criteria = 69702}),
+        Reputation({id = 2570, gain = 150, quest = 79275})
+    },
     pois = {POI({76105390})} -- Entrance
 }) -- Spore-covered Coffer
 
 map.nodes[63990612] = Treasure({
     quest = 80687,
     label = L['coral_fused_clam'],
+    requires = ns.requirement.Item(218354), -- Clammer's Pry Bar
     note = L['coral_fused_clam_note'],
     pois = {
         POI({61890609}) -- Clammer's Kit
@@ -894,28 +1035,38 @@ map.nodes[42145371] = MissingLynx({
 -------------------------------------------------------------------------------
 
 map.nodes[62214557] = LoreObject({
-    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40762, criteria = 69383})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69383}),
+        Reputation({id = 2570, gain = 250})
+    }
 }) -- A Scout's Journal
 
 map.nodes[71433667] = LoreObject({
-    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40762, criteria = 69382})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69382}),
+        Reputation({id = 2570, gain = 250})
+    }
 }) -- A Tattered Note
 
 map.nodes[78244041] = LoreObject({
-    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40762, criteria = 69381})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69381}),
+        Reputation({id = 2570, gain = 250})
+    }
 }) -- A Weathered Tome
 
 map.nodes[25085371] = LoreObject({
-    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40762, criteria = 69380})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69380}),
+        Reputation({id = 2570, gain = 250})
+    }
 }) -- A Worn Down Book
 
 map.nodes[25723845] = LoreObject({
-    rlabel = ReputationGain(250, 2570), -- Hallowfall Arathi
-    rewards = {Achievement({id = 40762, criteria = 69379})}
+    rewards = {
+        Achievement({id = 40762, criteria = 69379}),
+        Reputation({id = 2570, gain = 250})
+    }
 }) -- Captain's Chest
 
 -------------------------------------------------------------------------------
@@ -1044,19 +1195,20 @@ map.nodes[44947610] = DisturbedEarth()
 local BeaconOfHope = Class('beacon_of_hope', Collectible, {
     icon = 135922,
     group = ns.groups.BEACON_OF_HOPE,
+    requires = ns.requirement.Item(206350, 3), -- Radiant Remnant
     note = L['beacon_of_hope_note']
 })
 
 -- TODO: Add Missing criterias
 -- {id = 67677}, -- Blossoming Delight
--- {id = 67679}, -- Seeds of Salvation
--- {id = 67680}, -- Tater Trawl
 
 map.nodes[65392809] = BeaconOfHope({
     rewards = {
         Achievement({
             id = 40308,
             criteria = {
+                {id = 67679}, -- Seeds of Salvation
+                {id = 67680}, -- Tater Trawl
                 {id = 67681} -- Right Between the Gyro-Optics
             }
         })
@@ -1144,4 +1296,16 @@ map.nodes[61501747] = BeaconOfHope({
             }
         })
     }
+})
+
+-------------------------------------------------------------------------------
+------------------------ ACHIEVEMENT: FLAMEGARD'S HOPE ------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[43205177] = Collectible({
+    icon = 463526,
+    quest = 79081,
+    label = '{achievement:20594}',
+    note = L['flamegards_hope_note'],
+    rewards = {Achievement({id = 20594, criteria = {id = 1, qty = true}})}
 })
