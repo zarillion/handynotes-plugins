@@ -281,23 +281,23 @@ L['you_cant_hang_with_us_note'] = 'Busca un {npc:211816} con el buff {spell:4347
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
-L['sturdy_chest'] = nil
-L['sturdy_chest_suffix'] = nil
+L['sturdy_chest'] = 'Cofre Robusto'
+L['sturdy_chest_suffix'] = 'Cofre robusto encontrado'
 
-L['ecm_chest_3_location'] = nil
-L['fol_chest_1_location'] = nil
-L['fol_chest_3_location'] = nil
-L['fol_use_mushrooms'] = nil
-L['kvr_chest_2_location'] = nil
-L['nfs_chest_2_location'] = nil
-L['nfs_chest_3_location'] = nil
-L['nfs_chest_4_location'] = nil
-L['ski_chest_3_location'] = nil
-L['tra_chest_2_location'] = nil
-L['tsw_chest_2_location'] = nil
-L['tsw_chest_2_note'] = nil
-L['tsw_chest_3_location'] = nil
-L['tsw_chest_4_location'] = nil
-L['tuk_chest_1_note'] = nil
-L['tuk_chest_2_note'] = nil
-L['tuk_chest_3_note'] = nil
+L['ecm_chest_3_location'] = 'En la grúa. Salta desde el nivel superior.'
+L['fol_chest_1_location'] = 'En la roca bajo las setas de los arbustos.'
+L['fol_chest_3_location'] = 'Al pie de la cascada.'
+L['fol_use_mushrooms'] = 'Salta sobre las setas a lo largo del camino.'
+L['kvr_chest_2_location'] = 'Encima del andamio de madera.'
+L['nfs_chest_2_location'] = 'En la planta.'
+L['nfs_chest_3_location'] = 'Dentro del edificio.'
+L['nfs_chest_4_location'] = 'Salta desde la nave voladora.'
+L['ski_chest_3_location'] = 'Dentro del edificio.'
+L['tra_chest_2_location'] = 'Encima del coral.'
+L['tsw_chest_2_location'] = 'En lo alto de la viga.'
+L['tsw_chest_2_note'] = '{note:Sólo disponible en la variante de la historia "De la Tejedora con Amor".}'
+L['tsw_chest_3_location'] = 'En lo alto de un pilar cerca del menú desplegable de la sala del tesoro.'
+L['tsw_chest_4_location'] = 'En lo alto de una viga. Bájate del pilar cerca del otro cofre.'
+L['tuk_chest_1_note'] = 'Detrás de la estatua.'
+L['tuk_chest_2_note'] = '{note:Sólo disponible en la variante de la historia "Víctimas de Tortura".}'
+L['tuk_chest_3_note'] = '{note:Sólo disponible en la variante de la historia "Rescate de la Tejedora".}'
