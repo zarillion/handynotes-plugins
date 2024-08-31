@@ -18,7 +18,7 @@ local Path = ns.poi.Path
 local kvr = Map({id = 2250, settings = false}) -- Kriegval's Rest
 local tuk = Map({id = 2299, settings = false}) -- The Underkeep
 local ecm = Map({id = 2269, settings = false}) -- Earthcrawl Mines
-local mmc = Map({id = 2679, settings = false}) -- Mycomancer Cavern
+local mmc = Map({id = 2312, settings = false}) -- Mycomancer Cavern
 local tdp = Map({id = 2302, settings = false}) -- The Dread Pit
 local tww = Map({id = 2251, settings = false}) -- The Waterworks
 local tsw = Map({id = 2347, settings = false}) -- The Sprial Weave
@@ -179,8 +179,8 @@ mmc.nodes[49662155] = SturdyChest({
 
 mmc.nodes[63224544] = SturdyChest({
     achievementID = 40808,
-    -- location = nil,
-    -- quest = nil,
+    -- location = nil, -- in the water
+    quest = 83691,
     rlabel = ns.status.Gray('2/4')
 }) -- Sturdy Chest 2
 
