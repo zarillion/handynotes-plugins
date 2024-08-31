@@ -1,7 +1,7 @@
 # v85
 
 * Moved [Flamegard's Hope](https://www.wowhead.com/achievement=20594) into the achievement display group. (Hallowfall)
-* Localization updates: esES, frFR
+* Localization updates: deDE, esES, frFR
 
 # v84
 
