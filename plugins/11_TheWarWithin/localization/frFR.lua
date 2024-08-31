@@ -204,7 +204,7 @@ L['beacon_of_hope_note'] = 'Donnez des {item:206350} pour allumer les flammeclé
 L['parasidious_note'] = 'Achetez 1x {item:206670} au {npc:206533} (allumez la {object:flammeclé inférieure} pour le faire apparaître), allez ensuite à la {location:Terre du Crépuscule} et tirez sur les {npc:206870} jusqu\'à ce que le rare apparaisse. {note: Il n\'apparaît que si la {npc:206978} se trouve à cet endroit}.'
 
 L['options_icons_flamegards_hope'] = '{achievement:20594}'
-L['options_icons_flamegards_hope_desc'] = nil
+L['options_icons_flamegards_hope_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:20594}.'
 L['flamegards_hope_note'] = 'Aidez {npc:213319} à soigner les {npc:220225} pendant 20 jours.\n\nVous pouvez également utiliser un {spell:372009} ou une {item:211878} si votre classe ne peut pas soigner.'
 
 -------------------------------------------------------------------------------
