@@ -241,7 +241,6 @@ L['options_toggle_use_standard_time'] = nil
 L['options_toggle_use_standard_time_desc'] = nil
 L['options_toggle_show_npc_id'] = nil
 L['options_toggle_show_npc_id_desc'] = nil
-L['options_show_npc_id_text'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

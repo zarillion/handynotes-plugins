@@ -241,7 +241,6 @@ L['options_toggle_use_standard_time'] = 'Utiliser l\'horloge de 12 heures'
 L['options_toggle_use_standard_time_desc'] = 'Utiliser l\'horloge de 12 heures (ex : 8:00 PM) à la place de l\'horloge de 24 heures (ex : 20:00) dans les infobulles.'
 L['options_toggle_show_npc_id'] = nil
 L['options_toggle_show_npc_id_desc'] = nil
-L['options_show_npc_id_text'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

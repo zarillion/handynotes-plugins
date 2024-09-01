@@ -241,7 +241,6 @@ L['options_toggle_use_standard_time'] = '使用12小时时钟'
 L['options_toggle_use_standard_time_desc'] = '在提示中使用12小时时钟（如：8:00 PM）而不是24小时时钟（如：20:00）。'
 L['options_toggle_show_npc_id'] = nil
 L['options_toggle_show_npc_id_desc'] = nil
-L['options_show_npc_id_text'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

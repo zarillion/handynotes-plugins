@@ -302,12 +302,6 @@ function Node:Render(tooltip, focusable)
         tooltip:AddLine(ns.RenderLinks(self.sublabel, true), 1, 1, 1)
     end
 
-    -- optional display NPC ID
-    if ns:GetOpt('show_npc_id') and self.id then
-        tooltip:AddLine(L['options_show_npc_id_text'] .. tostring(self.id), 1,
-            1, 1)
-    end
-
     -- display item, spell or other requirements
     if self.requires then
         for i, req in ipairs(self.requires) do
@@ -521,6 +515,14 @@ local Rare = Class('Rare', NPC, {scale = 1.2, group = ns.groups.RARE})
 
 function Rare.getters:icon() return
     self:IsCollected() and 'skull_w' or 'skull_b' end
+
+function Rare.getters:label()
+    local label = NPC.getters.label(self)
+    if ns:GetOpt('show_npc_id') then
+        label = label .. ' (' .. ns.color.White(self.id) .. ')'
+    end
+    return label
+end
 
 function Rare:IsEnabled()
     if ns:GetOpt('hide_done_rares') and self:IsCollected() then return false end

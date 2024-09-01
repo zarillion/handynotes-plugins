@@ -241,7 +241,6 @@ L['options_toggle_use_standard_time'] = 'Verwende das 12-Stunden-Format'
 L['options_toggle_use_standard_time_desc'] = 'Zeigt die Uhrzeit im 12-Stunden-Format (z.B.: 8:00 PM) anstelle des 24-Stunden-Formates (z.B.: 20:00) in Tooltips an.'
 L['options_toggle_show_npc_id'] = nil
 L['options_toggle_show_npc_id_desc'] = nil
-L['options_show_npc_id_text'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 
