@@ -43,7 +43,7 @@ map.nodes[23335817] = Rare({
     note = L['alunira_note'],
     rewards = {
         Achievement({id = 40435, criteria = 68225}),
-        Reputation({id = 2590, gain = 150, quest = 82196}),
+        Reputation({id = 2590, gain = 150, quest = 85158}),
         Mount({item = 223270, id = 2176}) -- Alunira
     }
 }) -- Alunira
