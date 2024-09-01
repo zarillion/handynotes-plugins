@@ -1,6 +1,6 @@
 # v86
 
-* PLACEHOLDER
+* Added Faithful Dog treasure in the Isle of Dorn.
 
 # v85
 
