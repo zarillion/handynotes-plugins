@@ -38,7 +38,7 @@ L['turtles_thanks_2_note'] = 'Entrega 1x {item:222533} (puede ser pescado de ban
 L['turtles_thanks_3_note'] = 'Alimenta a {npc:223338} en {location:Dornogal} y habla con ella para revelar el tesoro.'
 L['web_wrapped_axe_note'] = 'En el primer piso.\n\n{note:Reaparece cada 1-2 horas.}'
 L['faithful_dog_note'] = [[
-1. Encuentra al {npc:59533} en las coordenadas 42.40 50.00 en el {locations:Valle de los Cuatro Vientos} en {location:Pandaria} y completa la misión {quest:30526}.
+1. Encuentra al {npc:59533} en {location:Los Cultivosas Florecientes} en el {locations:Valle de los Cuatro Vientos} en {location:Pandaria} y completa la misión {quest:30526}.
 2. Construye el {object:Jardín de Hierbas} en tu {location:Ciudadela} en {location:Draenor}.
 3. Encuentra un {item:147420} en {location:Dalaran} ({location:Islas Abruptas}) y habla con {npc:87553} en el {location:Jardín de Hierbas} de tu {location:Ciudadela}.
 El {npc:87553} estará ahora en {location:Monturas Exóticas} en {location:Dalaran}.
