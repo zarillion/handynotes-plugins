@@ -241,6 +241,8 @@ L['options_toggle_show_notes'] = 'Mostrar las Notas'
 L['options_toggle_show_notes_desc'] = 'Agrega las notas útiles en la descripción cuando esté disponible'
 L['options_toggle_use_standard_time'] = 'Usar Reloj de 12-Horas'
 L['options_toggle_use_standard_time_desc'] = 'Usa el reloj de 12-horas (ej: 8:00 PM) en lugar del reloj de 24-horas (ej: 20:00) en las descripciones.'
+L['options_toggle_show_npc_id'] = 'Mostrar el ID del NPC'
+L['options_toggle_show_npc_id_desc'] = 'Muestra el ID de los NPC para usarlo en addons de búsqueda de raros.'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

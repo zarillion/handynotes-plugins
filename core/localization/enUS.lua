@@ -241,6 +241,8 @@ L['options_toggle_show_notes'] = 'Show Notes'
 L['options_toggle_show_notes_desc'] = 'Add helpful notes to the tooltip where available'
 L['options_toggle_use_standard_time'] = 'Use 12-Hour Clock'
 L['options_toggle_use_standard_time_desc'] = 'Use 12-hour clock (ex: 8:00 PM) instead of 24-hour clock (ex: 20:00) in tooltips.'
+L['options_toggle_show_npc_id'] = 'Show NPC ID'
+L['options_toggle_show_npc_id_desc'] = 'Show the NPC\'s ID for use in rare-scanning addons.'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

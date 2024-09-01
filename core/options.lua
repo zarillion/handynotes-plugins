@@ -24,6 +24,7 @@ ns.optionDefaults = {
         -- tooltip
         show_loot = true,
         show_notes = true,
+        show_npc_id = false,
 
         -- rewards
         show_rep_rewards = true,
@@ -347,6 +348,13 @@ ns.options = {
                     name = L['options_toggle_use_standard_time'],
                     desc = L['options_toggle_use_standard_time_desc'],
                     order = 43
+                },
+                show_npc_id = {
+                    type = 'toggle',
+                    arg = 'show_npc_id',
+                    name = L['options_toggle_show_npc_id'],
+                    desc = L['options_toggle_show_npc_id_desc'],
+                    order = 44
                 }
             }
         },

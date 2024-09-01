@@ -516,6 +516,14 @@ local Rare = Class('Rare', NPC, {scale = 1.2, group = ns.groups.RARE})
 function Rare.getters:icon() return
     self:IsCollected() and 'skull_w' or 'skull_b' end
 
+function Rare.getters:label()
+    local label = NPC.getters.label(self)
+    if ns:GetOpt('show_npc_id') then
+        label = label .. ' (' .. ns.color.White(self.id) .. ')'
+    end
+    return label
+end
+
 function Rare:IsEnabled()
     if ns:GetOpt('hide_done_rares') and self:IsCollected() then return false end
     return NPC.IsEnabled(self)
