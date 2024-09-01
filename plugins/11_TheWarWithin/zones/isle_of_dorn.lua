@@ -43,7 +43,7 @@ map.nodes[23335817] = Rare({
     note = L['alunira_note'],
     rewards = {
         Achievement({id = 40435, criteria = 68225}),
-        Reputation({id = 2590, gain = 150, quest = 82196}),
+        Reputation({id = 2590, gain = 150, quest = 85158}),
         Mount({item = 223270, id = 2176}) -- Alunira
     }
 }) -- Alunira
@@ -122,7 +122,8 @@ map.nodes[53527998] = Rare({
         Achievement({id = 40435, criteria = 68217}),
         Reputation({id = 2590, gain = 150, quest = 84028}),
         Transmog({item = 221248, type = L['1h_axe']}), -- Deep Terror Carver
-        Transmog({item = 221255, type = L['dagger']}) -- Sharpened Scalepiercer
+        Transmog({item = 221255, type = L['dagger']}), -- Sharpened Scalepiercer
+        Transmog({item = 221222, type = L['cloth']}) -- Water-Imbued Spaulders
     }
 }) -- Gar'loc
 
@@ -496,6 +497,17 @@ dor.nodes[58283026] = TurtlesThanks({
     -- vignette = 6246
     note = L['turtles_thanks_3_note']
 })
+
+map.nodes[31445130] = Treasure({
+    quest = 83094,
+    label = '{npc:225537}',
+    requires = {
+        ns.requirement.Reputation(1272, 33600, false, true),
+        ns.requirement.Quest(30526)
+    },
+    note = L['faithful_dog_note'],
+    rewards = {Pet({item = 224766, id = 4596})}
+}) -- Faithful Dog
 
 -------------------------------------------------------------------------------
 

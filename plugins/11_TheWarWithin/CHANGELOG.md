@@ -1,6 +1,37 @@
+# v86
+
+* Added Faithful Dog treasure in the Isle of Dorn.
+* Add rep quest for Alunira in Isle of Dorn
+* Localization updates: esES, frFR, zhCN
+
+# v85
+
+* Moved [Flamegard's Hope](https://www.wowhead.com/achievement=20594) into the achievement display group. (Hallowfall)
+* Localization updates: deDE, esES, frFR, zhCN
+
+# v84
+
+* Fix Quest ID for Inscription profession treasure Runic Scroll in Ringing Deeps
+* Localization updates: deDE, enUS, esES, frFR, zhCN, zhTW
+
+# v83
+
+* Added Sturdy Chest locations to delves!
+* Added delves reward information to delve tooltips on the world map via "Delve Rewards" option.
+
+# v82
+
+* Updated Rare Rewards in all zones.
+* Fixed Another You not showing up after reading the book for the achievement [No Harm Ever Came From Reading A Book](https://www.wowhead.com/achievement=40632) (Azj-Kahet)
+* Localization updates: zhCN
+
+# v81
+
+* Added dragon riding races for each Khaz Algar zone.
+
 # v80
 
-* Localization updates: zhTW
+* Localization updates: deDE, esES, frFR, zhCN, zhTW
 
 # v79
 

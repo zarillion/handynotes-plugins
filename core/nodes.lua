@@ -549,6 +549,13 @@ function Treasure.getters:label()
     return UNKNOWN
 end
 
+function Treasure:IsEnabled()
+    if ns:GetOpt('hide_done_treasures') and self:IsCollected() then
+        return false
+    end
+    return Node.IsEnabled(self)
+end
+
 -------------------------------------------------------------------------------
 ----------------------------------- VENDOR ------------------------------------
 -------------------------------------------------------------------------------

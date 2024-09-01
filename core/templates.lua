@@ -217,6 +217,15 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             end
         })
         LibDD:UIDropDownMenu_AddButton({
+            text = L['options_toggle_hide_done_treasure'],
+            isNotRadio = true,
+            keepShownOnClick = true,
+            checked = ns:GetOpt('hide_done_treasures'),
+            func = function(button, option)
+                ns:SetOpt('hide_done_treasures', button.checked)
+            end
+        })
+        LibDD:UIDropDownMenu_AddButton({
             text = L['options_toggle_use_char_achieves'],
             isNotRadio = true,
             keepShownOnClick = true,

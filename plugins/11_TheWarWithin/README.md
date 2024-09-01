@@ -61,6 +61,9 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 ### Khaz Algar
 
 * Lore objects for the [Khaz Algar Lore Hunter](https://www.wowhead.com/achievement=40762) achievement.
+* Skyriding Race locations for the [Khaz Algar Completionist: Gold](https://www.wowhead.com/achievement=40354) family of achievements.
+* Sturdy Chests inside delves for the [Leave No Treasure Unfound](https://www.wowhead.com/achievement=40506) achievement.
+* Option to display Delve-related achievements in the tooltips of Delves on the world map.
 
 ### The Isle of Dorn
 
@@ -83,6 +86,7 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 * Ferocious warcats for the [The Missing Lynx](https://www.wowhead.com/achievement=40625) achievement.
 * Targets for the [Mereldar Menance](https://www.wowhead.com/achievement=40151) achievement.
 * Lesser Keyflames for the [Beacon of Hope](https://www.wowhead.com/achievement=40308) achievement.
+* Arathi Infirmary for the [Flamegard's Hope](https://www.wowhead.com/achievement=20594) achievement.
 
 ### Azj-Kahet
 

@@ -147,6 +147,14 @@ local function RenderLinks(str, nameOnly)
                 if nameOnly then return name end
                 return ns.color.Spell('|T' .. icon .. ':0|t [' .. name .. ']')
             end
+        elseif type == 'map' then
+            local name = C_Map.GetMapInfo(id).name
+            if nameOnly then return name end
+            return ns.color.Yellow(name)
+        elseif type == 'area' then
+            local name = C_Map.GetAreaInfo(id)
+            if nameOnly then return name end
+            return ns.color.Yellow(name)
         end
         return type .. '+' .. id
     end)
@@ -155,7 +163,9 @@ local function RenderLinks(str, nameOnly)
         local result = str:gsub('{(%l+):([^{}]+)}', function(type, text)
             if type == 'bug' then return ns.color.Red(text) end
             if type == 'emote' then return ns.color.Orange(text) end
-            if type == 'location' then return ns.color.Yellow(text) end
+            if type == 'location' or type == 'map' or type == 'area' then
+                return ns.color.Yellow(text)
+            end
             if type == 'note' then return ns.color.Orange(text) end
             if type == 'object' then return ns.color.Yellow(text) end
             if type == 'title' then return ns.color.Yellow(text) end
@@ -269,6 +279,20 @@ local function AsIDTable(value)
 end
 
 -------------------------------------------------------------------------------
+---------------------------- REPUTATION FORMATTER -----------------------------
+-------------------------------------------------------------------------------
+
+local REP_LEVELS = {3000, 6000, 12000, 21000}
+
+local function FormatReputation(amount)
+    for i, v in ipairs(REP_LEVELS) do
+        if amount < v then return amount .. '/' .. v end
+        amount = amount - v
+    end
+    return tostring(amount) -- shouldn't get here
+end
+
+-------------------------------------------------------------------------------
 
 ns.AsIDTable = AsIDTable
 ns.AsTable = AsTable
@@ -281,3 +305,4 @@ ns.PlayerHasProfession = PlayerHasProfession
 ns.PrepareLinks = PrepareLinks
 ns.RenderLinks = RenderLinks
 ns.UpdateActiveCalendarEvents = UpdateActiveCalendarEvents
+ns.FormatReputation = FormatReputation

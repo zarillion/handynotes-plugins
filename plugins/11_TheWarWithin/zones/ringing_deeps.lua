@@ -47,10 +47,9 @@ map.nodes[52591991] = Rare({
     }
 }) -- Automaxor
 
-local Aquellion = Class('Aquellion', Rare, {
+map.nodes[49556618] = Rare({
     id = 220274,
     quest = 80557, -- One time kill
-    fgroup = 'aquellion',
     rewards = {
         Achievement({id = 40837, criteria = 69625}),
         Reputation({id = 2594, gain = 150, quest = 80557}),
@@ -60,9 +59,6 @@ local Aquellion = Class('Aquellion', Rare, {
         Transmog({item = 223340, slot = L['plate']}) -- Footguards of Shallow Waters
     }
 }) -- Aquellion
-
-map.nodes[55087053] = Aquellion()
-map.nodes[49556618] = Aquellion() -- seen spawn here
 
 map.nodes[66232975] = Rare({ -- flyes around
     id = 220276,
@@ -434,7 +430,7 @@ map.nodes[44612213] = PT.Enchanting({quest = 83860, id = 226286}) -- Soot-Coated
 map.nodes[67186590] = PT.Enchanting({quest = 83861, id = 226287}) -- Animated Enchanting Dust1
 map.nodes[42632725] = PT.Engineering({quest = 83868, id = 226294}) -- Inert Mining Bomb
 map.nodes[64495875] = PT.Engineering({quest = 83869, id = 226295}) -- Earthen Construct Blueprints
-map.nodes[48563432] = PT.Inscription({quest = 83883, id = 226310}) -- Runic Scroll
+map.nodes[48563432] = PT.Inscription({quest = 83884, id = 226310}) -- Runic Scroll
 map.nodes[62465801] = PT.Inscription({quest = 83885, id = 226311}) -- Blue Earthen Pigment
 map.nodes[48243504] = PT.Herbalism({quest = 83876, id = 226302}) -- Earthen Digging Fork
 map.nodes[52916581] = PT.Herbalism({quest = 83877, id = 226303}) -- Fungarian Slicer's Knife

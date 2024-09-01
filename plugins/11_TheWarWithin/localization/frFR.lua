@@ -7,6 +7,9 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = 'Récompenses des Gouffres'
+L['options_icons_delve_rewards_desc'] = 'Afficher les récompenses des {location:Gouffres} dans les infobulles.'
+
 L['skyriding_glyph'] = 'Glyphe de vol dynamique'
 L['options_icons_skyriding_glyph'] = 'Glyphes de vol dynamique'
 L['options_icons_skyriding_glyph_desc'] = 'Afficher les emplacements des glyphes de vol dynamique.'
@@ -34,7 +37,14 @@ L['trees_treasure_note'] = 'Parlez à {npc:222940} pour obtenir une {item:224185
 L['turtles_thanks_1_note'] = 'Apportez 5x {item:220143} (à pêcher dans les {object:Clapotis de surface calme} ou à acheter à l\'hôtel des ventes). {note:Quittez la zone et revenez aussitôt pour donner le poisson suivant}.'
 L['turtles_thanks_2_note'] = 'Apportez 1x {item:222533} (à pêcher dans les {object:Bassin scintillant}, {object:Bassin de pourriture purulente}, {object:Éclaboussure d\'ichor imprégné} ou à acheter à l\'hôtel des ventes).'
 L['turtles_thanks_3_note'] = 'Rencontrez la {npc:223338} à {location:Dornogal} et parlez-lui pour faire apparaître le trésor.'
-L['web_wrapped_axe_note'] = 'On the first floor.\n\n{note:A un temps de réapparition de 1 à 2 heures.}'
+L['web_wrapped_axe_note'] = 'Au premier étage.\n\n{note:A un temps de réapparition de 1 à 2 heures.}'
+L['faithful_dog_note'] = [[
+1. Trouvez le {npc:59533} aux coordonnées 42.40 50.00 à {map:376} dans la {map:424} et terminez {quest:30526}.
+2. Construisez le {object:Jardin des simples} dans votre {area:7490} en {map:572}.
+3. Trouvez un {item:147420} à {map:619} {map:627}, puis parlez avec le {npc:87553} dans le {object:Jardin des simples} de votre {area:7490}.
+Le {npc:87553} sera maintenant situé à la {location:Ménagerie magique} à {map:627}.
+4. Interagissez avec la {object:Gamelle pour chien partiellement enterrée} sur l'{map:2248}, puis parlez avec le {npc:87553} pour recevoir la mascotte.
+]]
 
 L['cendvin_note'] = 'Obtenez 900x {item:225557} sur les monstres élites à {location:Braiselande} pour acheter la monture {item:223153} à {npc:226205}.'
 
@@ -200,6 +210,8 @@ L['beacon_of_hope_note'] = 'Donnez des {item:206350} pour allumer les flammeclé
 
 L['parasidious_note'] = 'Achetez 1x {item:206670} au {npc:206533} (allumez la {object:flammeclé inférieure} pour le faire apparaître), allez ensuite à la {location:Terre du Crépuscule} et tirez sur les {npc:206870} jusqu\'à ce que le rare apparaisse. {note: Il n\'apparaît que si la {npc:206978} se trouve à cet endroit}.'
 
+L['options_icons_flamegards_hope'] = '{achievement:20594}'
+L['options_icons_flamegards_hope_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:20594}.'
 L['flamegards_hope_note'] = 'Aidez {npc:213319} à soigner les {npc:220225} pendant 20 jours.\n\nVous pouvez également utiliser un {spell:372009} ou une {item:211878} si votre classe ne peut pas soigner.'
 
 -------------------------------------------------------------------------------
@@ -221,7 +233,7 @@ L['generals_scouting_shadecaster_location'] = nil
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40629}.'
 
-L['nerubian_potion_note'] = 'Achetez une {item:225784} ({note:l\'effet dure 10 minutes}) à {npc:218192} contre 500x {currency:3056}.'
+L['nerubian_potion_note'] = 'Achetez une {item:225784} ({note:l\'effet dure 10 minutes}) à {npc:218192} contre 33x {currency:3056}.'
 L['bookworm_note'] = '{note:Vous pouvez également obtenir le haut-fait {achievement:40542} avec la {item:225784}.}'
 L['bookworm_1_location'] = 'À l\'entrée de la petite grotte.'
 
@@ -274,3 +286,28 @@ L['the_unseeming_note'] = 'Restez dans le bassin jusqu\'à ce que vous ayez 100x
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:40634}.'
 L['you_cant_hang_with_us_note'] = 'Trouvez une {npc:211816} avec l\'effet {spell:434734} et attaquez-la pour obtenir l\'affaiblissement {spell:443190} (1 minute). Un {npc:225408} interviendra ({note:Ne le tuez pas !}) et vous appliquera des charges de l\'affaiblissement {spell:454666}. À 10 charges, vous serez expulsé de force de la Cité.'
+
+-------------------------------------------------------------------------------
+----------------------------------- DELVES ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sturdy_chest'] = 'Coffre solide'
+L['sturdy_chest_suffix'] = 'Coffre solide trouvé'
+
+L['ecm_chest_3_location'] = 'Sur la grue. Sautez du palier supérieur.'
+L['fol_chest_1_location'] = 'Sur le rocher sous les champignons dans les buissons.'
+L['fol_chest_3_location'] = 'Au pied de la cascade.'
+L['fol_use_mushrooms'] = 'Sautez sur les champignons le long du chemin.'
+L['kvr_chest_2_location'] = 'En haut de l\'échafaudage en bois.'
+L['nfs_chest_2_location'] = 'Sur la plante.'
+L['nfs_chest_3_location'] = 'À l\'intérieur du bâtiment.'
+L['nfs_chest_4_location'] = 'Sautez du dirigeable.'
+L['ski_chest_3_location'] = 'À l\'intérieur du bâtiment.'
+L['tra_chest_2_location'] = 'Sur le corail.'
+L['tsw_chest_2_location'] = 'En haut de la poutre.'
+L['tsw_chest_2_note'] = '{note:Disponible uniquement pendant la variante de l’histoire "Avec les compliments de la Tisserande".}'
+L['tsw_chest_3_location'] = 'En haut d\'un pilier, près du passage vers la salle du trésor.'
+L['tsw_chest_4_location'] = 'En haut d\'une poutre. Descendez du pilier près de l\'autre coffre.'
+L['tuk_chest_1_note'] = 'Derrière la statue.'
+L['tuk_chest_2_note'] = '{note:Disponible uniquement pendant les variantes d’histoires "Évolution incontrôlable" et "Victimes de tortures".}'
+L['tuk_chest_3_note'] = '{note:Disponible uniquement pendant les variantes d’histoires "Évolution incontrôlable" et "Sauvetage de tisserande".}'

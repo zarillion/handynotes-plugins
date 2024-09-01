@@ -14,6 +14,7 @@ ns.optionDefaults = {
 
         -- visibility
         hide_done_rares = false,
+        hide_done_treasures = false,
         hide_minimap = false,
         maximized_enlarged = true,
         show_completed_nodes = false,
@@ -231,12 +232,20 @@ ns.options = {
                     order = 22,
                     width = 'full'
                 },
+                hide_done_treasure = {
+                    type = 'toggle',
+                    arg = 'hide_done_treasures',
+                    name = L['options_toggle_hide_done_treasure'],
+                    desc = L['options_toggle_hide_done_treasure_desc'],
+                    order = 23,
+                    width = 'full'
+                },
                 hide_minimap = {
                     type = 'toggle',
                     arg = 'hide_minimap',
                     name = L['options_toggle_hide_minimap'],
                     desc = L['options_toggle_hide_minimap_desc'],
-                    order = 23,
+                    order = 24,
                     width = 'full'
                 },
                 use_char_achieves = {
@@ -244,14 +253,14 @@ ns.options = {
                     arg = 'use_char_achieves',
                     name = L['options_toggle_use_char_achieves'],
                     desc = L['options_toggle_use_char_achieves_desc'],
-                    order = 24,
+                    order = 25,
                     width = 'full'
                 },
                 restore_all_nodes = {
                     type = 'execute',
                     name = L['options_restore_hidden_nodes'],
                     desc = L['options_restore_hidden_nodes_desc'],
-                    order = 25,
+                    order = 26,
                     width = 'full',
                     func = function()
                         wipe(ns.addon.db.char)

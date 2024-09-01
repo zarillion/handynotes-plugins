@@ -6,6 +6,9 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = '探究獎勵'
+L['options_icons_delve_rewards_desc'] = '在提示顯示 {location:探究} 的獎勵.'
+
 L['skyriding_glyph'] = '天空騎術雕紋'
 L['options_icons_skyriding_glyph'] = '天空騎術雕紋'
 L['options_icons_skyriding_glyph_desc'] = '顯示所有天空騎術雕紋的位置.'
@@ -34,6 +37,7 @@ L['turtles_thanks_1_note'] = '繳交 5x {item:220143} (可以從 {object:平靜�
 L['turtles_thanks_2_note'] = '繳交 1x {item:222533} (可以從 {object:微光水池}, {object:膿瘡腐池}, {object:倒翻的灌注膿液} 等魚群釣到, 或是從拍賣場購買).'
 L['turtles_thanks_3_note'] = '在 {location:多恩諾加} 找到 {npc:223338} 並和他說話來接露寶藏.'
 L['web_wrapped_axe_note'] = '在一樓.\n\n{note:重生時間1-2小時.}'
+L['faithful_dog_note'] = nil
 
 L['cendvin_note'] = '在 {location:火渣林} 的菁英怪農 900x {item:225557} 來從 {npc:226205} 購買 {item:223153} 坐騎.'
 
@@ -187,18 +191,20 @@ L['murkshade_note'] = nil
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = '顯示成就 {achievement:40151} 所需的目標位置.'
 
-L['mereldar_menace_note'] = nil
-L['light_and_flame_location'] = nil
-L['lamplighter_doorway_location'] = nil
-L['barracks_doorway_location'] = nil
+L['mereldar_menace_note'] = '和 {object:投擲石頭} 互動並對目標丟石頭.'
+L['light_and_flame_location'] = '瞄準 {object:投擲石頭} 東邊的 {npc:218472}.'
+L['lamplighter_doorway_location'] = '瞄準東方的建築門口.'
+L['barracks_doorway_location'] = '瞄準西方金紅帳篷的門框上方.'
 
 L['options_icons_beacon_of_hope'] = '{achievement:40308}'
-L['options_icons_beacon_of_hope_desc'] = nil
+L['options_icons_beacon_of_hope_desc'] = '顯示成就 {achievement:40308} 所需的低階鑰炎位置.'
 
-L['beacon_of_hope_note'] = nil
+L['beacon_of_hope_note'] = '捐獻  {item:206350} 到低階鑰炎並完成下列的任務.'
 
 L['parasidious_note'] = nil
 
+L['options_icons_flamegards_hope'] = '{achievement:20594}'
+L['options_icons_flamegards_hope_desc'] = nil
 L['flamegards_hope_note'] = nil
 
 -------------------------------------------------------------------------------
@@ -218,7 +224,7 @@ L['scampering_weave_rat_location'] = nil
 L['generals_scouting_shadecaster_location'] = nil
 
 L['options_icons_bookworm'] = '{achievement:40629}'
-L['options_icons_bookworm_desc'] = nil
+L['options_icons_bookworm_desc'] = '顯示成就 {achievement:40629} 所需的書籍位置.'
 
 L['nerubian_potion_note'] = nil
 L['bookworm_note'] = nil
@@ -243,10 +249,10 @@ L['smelling_history_12_location'] = nil
 
 L['options_icons_skittershaw_spin'] = '{achievement:40727}'
 L['options_icons_skittershaw_spin_desc'] = '顯示成就 {achievement:40727} 飛掠拉車路線位置.'
-L['skittershaw_spin_note'] = nil
+L['skittershaw_spin_note'] = '在這區搭乘 {npc:224973} 一整圈.\n\n{npc:224973} 會停留在 {dot:Red} 位置.'
 
 L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
-L['options_icons_no_harm_from_reading_desc'] = nil
+L['options_icons_no_harm_from_reading_desc'] = '顯示成就 {achievement:40632} 所需的 {npc:227421} 位置.'
 L['no_harm_from_reading_note'] = nil
 L['another_you_4_note'] = nil
 
@@ -254,12 +260,37 @@ L['memory_cache_note'] = '從附近 {spell:420847} from a nearby ({dot:Blue}) {o
 L['niffen_stash_note'] = '在橋的下面。'
 L['trapped_trove_note'] = nil
 
-L['tkaktath_note'] = nil
+L['tkaktath_note'] = '開始取得坐騎 {item:224150} 的任務線.'
 
 L['options_icons_the_unseeming'] = '{achievement:40633}'
-L['options_icons_the_unseeming_desc'] = nil
-L['the_unseeming_note'] = nil
+L['options_icons_the_unseeming_desc'] = '顯示成就 {achievement:40633} 的位置.'
+L['the_unseeming_note'] = '站在池子內直到你有100層的 {spell:420847}.'
 
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
-L['options_icons_you_cant_hang_with_us_desc'] = nil
+L['options_icons_you_cant_hang_with_us_desc'] = '顯示成就 {achievement:40634} 的位置.'
 L['you_cant_hang_with_us_note'] = nil
+
+-------------------------------------------------------------------------------
+----------------------------------- DELVES ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sturdy_chest'] = nil
+L['sturdy_chest_suffix'] = nil
+
+L['ecm_chest_3_location'] = nil
+L['fol_chest_1_location'] = nil
+L['fol_chest_3_location'] = nil
+L['fol_use_mushrooms'] = nil
+L['kvr_chest_2_location'] = nil
+L['nfs_chest_2_location'] = nil
+L['nfs_chest_3_location'] = nil
+L['nfs_chest_4_location'] = nil
+L['ski_chest_3_location'] = nil
+L['tra_chest_2_location'] = nil
+L['tsw_chest_2_location'] = nil
+L['tsw_chest_2_note'] = nil
+L['tsw_chest_3_location'] = nil
+L['tsw_chest_4_location'] = nil
+L['tuk_chest_1_note'] = nil
+L['tuk_chest_2_note'] = nil
+L['tuk_chest_3_note'] = nil

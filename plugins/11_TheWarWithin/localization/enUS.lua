@@ -6,6 +6,9 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = 'Delve Rewards'
+L['options_icons_delve_rewards_desc'] = 'Display {location:Delve} rewards on tooltips.'
+
 L['skyriding_glyph'] = 'Skyriding Glyph'
 L['options_icons_skyriding_glyph'] = 'Skyriding Glyphs'
 L['options_icons_skyriding_glyph_desc'] = 'Display the location of all skyriding glyphs.'
@@ -34,6 +37,13 @@ L['turtles_thanks_1_note'] = 'Hand in 5x {item:220143} (can be fished from {obje
 L['turtles_thanks_2_note'] = 'Hand in 1x {item:222533} (can be fished from {object:Glimmerpool}, {object:Festering Rotpool}, {object:Infused Ichor Spill} pool or bought from the auction house).'
 L['turtles_thanks_3_note'] = 'Meet the {npc:223338} in {location:Dornogal} and speak with her to reveal the treasure.'
 L['web_wrapped_axe_note'] = 'On the first floor.\n\n{note:Have 1-2 Hours spawn time.}'
+L['faithful_dog_note'] = [[
+1. Find the {npc:59533} in {location:The Heartland} in {map:376} in {map:424} and complete {quest:30526}.
+2. Build the {object:Herb Garden} in your {area:7490} in {map:572}.
+3. Find a {item:147420} in the {map:619} {map:627} then talk with {npc:87553} in your {area:7490} {object:Herb Garden}.
+The {npc:87553} will now be at the {location:Magical Menagerie} in {map:627}
+4. Interact with the {object:Half-Buried Dog Bowl} in {map:2248} then speak with {npc:87553} to receive the pet.
+]]
 
 L['cendvin_note'] = 'Farm 900x {item:225557} in {location:Cinderwold} from elite mobs to purchase the {item:223153} mount from {npc:226205}.'
 
@@ -199,6 +209,8 @@ L['beacon_of_hope_note'] = 'Contribute {item:206350} to light lesser keyflames a
 
 L['parasidious_note'] = 'Purchase 1x {item:206670} from {npc:206533} (light up the {object:Lesser Keyflame} to spawn him) then go to the {location:Duskrise Acreage} and pull {npc:206870} until the rare spawns. {note: Only spawns if the {npc:206978} is in this location}.'
 
+L['options_icons_flamegards_hope'] = '{achievement:20594}'
+L['options_icons_flamegards_hope_desc'] = 'Display location for the {achievement:20594} achievement.'
 L['flamegards_hope_note'] = 'Help out {npc:213319} for 20 Days healing the {npc:220225s}.\n\nYou can also use a {spell:372009} or {item:211878} if your class can\'t heal.'
 
 -------------------------------------------------------------------------------
@@ -220,7 +232,7 @@ L['generals_scouting_shadecaster_location'] = 'PH'
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Display book locations for the {achievement:40629} achievement.'
 
-L['nerubian_potion_note'] = 'Purchase a {item:225784} ({note:buff lasts 10 minutes}) from {npc:218192} for 500x {currency:3056}.'
+L['nerubian_potion_note'] = 'Purchase a {item:225784} ({note:buff lasts 10 minutes}) from {npc:218192} for 33x {currency:3056}.'
 L['bookworm_note'] = '{note:You can also complete the achievement {achievement:40542} with the {item:225784}.}'
 L['bookworm_1_location'] = 'At the entrance of the small cave.'
 
@@ -273,3 +285,28 @@ L['the_unseeming_note'] = 'Stand in the pool until you have 100x stacks {spell:4
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Display locations for the {achievement:40634} achievement.'
 L['you_cant_hang_with_us_note'] = 'Find a {npc:211816} with the {spell:434734} buff and attack him, to get the {spell:443190} debuff (1 minute). A {npc:225408} ({note:Do not kill him!}) will interfere and stack the {spell:454666} debuff on you. At 10 stacks, you will be forcibly removed from the City.'
+
+-------------------------------------------------------------------------------
+----------------------------------- DELVES ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sturdy_chest'] = 'Sturdy Chest'
+L['sturdy_chest_suffix'] = 'Sturdy Chest found'
+
+L['ecm_chest_3_location'] = 'On the crane. Jump from the upper level.'
+L['fol_chest_1_location'] = 'On the rock under the mushrooms in the bushes.'
+L['fol_chest_3_location'] = 'At the bottom of the waterfall.'
+L['fol_use_mushrooms'] = 'Jump on the mushrooms along the path.'
+L['kvr_chest_2_location'] = 'On top of the wooden scaffold.'
+L['nfs_chest_2_location'] = 'On the plant.'
+L['nfs_chest_3_location'] = 'Inside the building.'
+L['nfs_chest_4_location'] = 'Jump down from the skyship.'
+L['ski_chest_3_location'] = 'Inside the building.'
+L['tra_chest_2_location'] = 'On top of the coral.'
+L['tsw_chest_2_location'] = 'High up on the beam.'
+L['tsw_chest_2_note'] = '{note:Only available in the "From the Weaver with Love" story variant.}'
+L['tsw_chest_3_location'] = 'High up on a pillar near the dropdown to the treasure room.'
+L['tsw_chest_4_location'] = 'High up on a beam. Drop down from the pillar near the other chest.'
+L['tuk_chest_1_note'] = 'Behind the Statue.'
+L['tuk_chest_2_note'] = '{note:Only available in the "Runaway Evolution" and "Torture Victims" story variants.}'
+L['tuk_chest_3_note'] = '{note:Only available in the "Runaway Evolution" and "Weaver Rescue" story variants.}'

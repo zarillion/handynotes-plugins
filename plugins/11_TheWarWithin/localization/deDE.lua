@@ -7,6 +7,9 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = 'Tiefen'
+L['options_icons_delve_rewards_desc'] = 'Zeigt die Belohnungen im Tooltip der {location:Tiefe} an.'
+
 L['skyriding_glyph'] = 'Glyphe des Himmelsreitens'
 L['options_icons_skyriding_glyph'] = 'Glyphen des Himmelsreitens'
 L['options_icons_skyriding_glyph_desc'] = 'Zeigt die Positionen aller Glyphen des Himmelsreitens an.'
@@ -34,7 +37,8 @@ L['trees_treasure_note'] = 'Sprich mit {npc:222940}, um den {item:224185} zu erh
 L['turtles_thanks_1_note'] = 'Biete 5x {item:220143} an (kann in dem Schwarm {object:Ruhige Oberflächenwellen} geangelt oder im Auktionshaus gekauft werden). {note:Verlasse das Gebiet und kehre sofort zurück, um den nächsten Fisch anzubieten.}'
 L['turtles_thanks_2_note'] = 'Biete 1x {item:222533} an (kann in den Schwärmen {object:Glimmerbecken}, {object:Schwärender Fäulnisteich}, {object:Energieerfüllter Sekretfleck} geangelt oder im Auktionshaus gekauft werden).'
 L['turtles_thanks_3_note'] = 'Treffe dich mit der {npc:223338} in {location:Dornogal} und spreche mit ihr, um den Schatz zu enthüllen.'
-L['web_wrapped_axe_note'] = nil
+L['web_wrapped_axe_note'] = 'In der ersten Etage.\n\n{note:Erscheint erst wieder nach 1 bis 2 Stunden.}'
+L['faithful_dog_note'] = nil
 
 L['cendvin_note'] = 'Plündere 900x {item:225557} in {location:Aschenholtz} von Elitegegnern, um das Reittier {item:223153} von {npc:226205} kaufen zu können.'
 
@@ -134,8 +138,8 @@ L['lost_necklace_note'] = 'Plündere ein {object:Verlorenes Andenken} von der Ka
 L['priory_satchel_location'] = 'Hängt an der Kante der Kathedrale.'
 L['smugglers_treasure_note'] = 'Plündere den {item:225335} von der Leiche des {npc:226025} ({dot:Blue}) unterhalb der Klippe.'
 L['smugglers_treasure_location'] = 'Oben auf der Klippe zwischen mehreren Felsen.'
-L['coral_fused_clam'] = nil
-L['coral_fused_clam_note'] = nil
+L['coral_fused_clam'] = 'Korallenverschmolzene Muschel'
+L['coral_fused_clam_note'] = 'Plündere den {item:218354} aus dem {object:Set des Muschelfischers}, um die Muschel zu öffnen.'
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
 L['options_icons_biblo_archivist_desc'] = 'Zeigt die Positionen der Bücher für den Erfolg {achievement:40622} an.'
@@ -196,10 +200,12 @@ L['barracks_doorway_location'] = 'Ziele auf den Eingang des rot-goldenen Zeltes 
 L['options_icons_beacon_of_hope'] = '{achievement:40308}'
 L['options_icons_beacon_of_hope_desc'] = 'Zeigt die Positionen der kleinen Schlüsselflammen für den Erfolg {achievement:40308} an.'
 
-L['beacon_of_hope_note'] = 'Steuert {item:206350} bei, um kleinere Schlüsselflammen zu entzünden und die folgenden Quests abzuschließen. '
+L['beacon_of_hope_note'] = 'Steuere {item:206350} bei, um kleinere Schlüsselflammen zu entzünden und die folgenden Quests abzuschließen. '
 
 L['parasidious_note'] = 'Kaufe 1x {item:206670} von {npc:206533} (entfache die {object:Kleine Schlüsselflamme}, damit dieser erscheint). Gehe zum {location:Dämmerhöhenacker} und ziehe an {npc:206870} bis der seltene Gegner erscheint. {note: Kann nur erscheinen, wenn {npc:206978} an dieser Position ist.}'
 
+L['options_icons_flamegards_hope'] = '{achievement:20594}'
+L['options_icons_flamegards_hope_desc'] = 'Zeigt die Position für den Erfolg {achievement:20594} an.'
 L['flamegards_hope_note'] = 'Hilf {npc:213319} 20 Tage lang die {npc:verletzten Soldaten} zu heilen.\n\nDu kannst auch einen {spell:372009} oder {item:211878} nutzen, wenn deine Klasse nicht heilen kann.'
 
 -------------------------------------------------------------------------------
@@ -221,7 +227,7 @@ L['generals_scouting_shadecaster_location'] = nil
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Zeigt die Positionen von Büchern für den Erfolg {achievement:40629} an.'
 
-L['nerubian_potion_note'] = 'Um die Bücher lesen zu können, benötigst du einen {item:225784} ({note:Buff hält 10 Minuten an}). Diesen kannst du von {npc:218192} für 500x {currency:3056} kaufen.'
+L['nerubian_potion_note'] = 'Um die Bücher lesen zu können, benötigst du einen {item:225784} ({note:Buff hält 10 Minuten an}). Diesen kannst du von {npc:218192} für 33x {currency:3056} kaufen.'
 L['bookworm_note'] = '{note:Du kannst gleichzeitig den Erfolg {achievement:40542} mit dem {item:225784} erringen.}'
 L['bookworm_1_location'] = 'Am Eingang der kleinen Höhle.'
 
@@ -263,7 +269,7 @@ Sobald du alle vier {npc:227421} gefunden hast, gehen zurück zum Buch {object:F
 L['another_you_4_note'] = 'Läuft im {location:Nest der Weberin} herum.'
 
 L['memory_cache_note'] = 'Hole dir den Schwächungszauber {spell:420847} von einem {object:Extraktor} ({dot:Red}) in der Nähe und töte dann die {npc:223908} vor der Kiste, um den {item:223870} zu erhalten.'
-L['niffen_stash_note'] = 'Befindet sich unter der Brücke.'
+L['niffen_stash_note'] = 'Hängt unter der Brücke.'
 L['trapped_trove_note'] = 'In einem Gebäude das von der Decke hängt. Vermeide die Spinnweben am Boden.'
 
 L['tkaktath_note'] = 'Startet eine Questreihe, um das Reittier {item:224150} zu erhalten.'
@@ -275,3 +281,28 @@ L['the_unseeming_note'] = 'Stelle dich in die Pfütze bis du 100x Stapel {spell:
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Zeigt die Positionen für den Erfolg {achievement:40634} an.'
 L['you_cant_hang_with_us_note'] = 'Finde einen {npc:211816} mit dem Stärkungszauber {spell:434734} und greife ihn an, um den Schwächungszauber {spell:443190} (1 Minute) zu erhalten. Ein {npc:225408} ({note:Töte ihn nicht!}) wird sich einmischen und den Schwächungszauber {spell:454666} auf dir stapeln. Bei 10 Stapeln wirst du gewaltsam aus der Stadt entfernt.'
+
+-------------------------------------------------------------------------------
+----------------------------------- DELVES ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sturdy_chest'] = 'Robuste Truhe'
+L['sturdy_chest_suffix'] = 'robuste Truhen geöffnet'
+
+L['ecm_chest_3_location'] = 'Auf dem Kran. Springe von der oberen Ebene runter.'
+L['fol_chest_1_location'] = 'Auf dem Felsen unter den Pilzen im Gebüsch.'
+L['fol_chest_3_location'] = 'Unten am Wasserfall.'
+L['fol_use_mushrooms'] = 'Springe auf den Pilzen entlang des Weges.'
+L['kvr_chest_2_location'] = 'Auf dem Holzgerüst.'
+L['nfs_chest_2_location'] = 'Auf der Pflanze.'
+L['nfs_chest_3_location'] = 'Im Gebäude'
+L['nfs_chest_4_location'] = 'Springe vom Himmelsschiff runter.'
+L['ski_chest_3_location'] = 'Im Gebäude'
+L['tra_chest_2_location'] = 'Oben in der Koralle.'
+L['tsw_chest_2_location'] = 'Oben auf dem Balken.'
+L['tsw_chest_2_note'] = '{note:Nur in der Geschichtenvariantion "Alles Liebe von der Weberin" verfügbar.}'
+L['tsw_chest_3_location'] = 'Oben auf der Säule in der Nähe des Absprungs in die Schatzkammer.'
+L['tsw_chest_4_location'] = 'Oben auf dem Balken. Springe von der Säule runter, auf der die andere Truhe steht.'
+L['tuk_chest_1_note'] = 'Hinter der Statue.'
+L['tuk_chest_2_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Folteropfer" verfügbar.}'
+L['tuk_chest_3_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Weberrettung" verfügbar.}'

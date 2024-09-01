@@ -17,6 +17,12 @@ ns.expansion = 11
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
+ns.groups.DELVE_REWARDS = Group('delve_rewards', 4203076, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    HasEnabledNodes = function() return true end
+})
+
 ns.groups.DISTURBED_EARTH = Group('disturbed_earth', 132386, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -50,6 +56,12 @@ ns.groups.BOOKWORM = Group('bookworm', 4549129, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
     achievement = 40629
+})
+
+ns.groups.FLAMEGARDS_HOPE = Group('flamegards_hope', 463526, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 20594
 })
 
 ns.groups.FLAT_EARTHEN = Group('flat_earthen', 4620670, {
@@ -159,6 +171,10 @@ ns.groups.CRITTER_LOVE = Group('critter_love', 3459801, {
     achievement = 40475
 })
 
+ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
 -------------------------------------------------------------------------------
 ---------------------------- KHAZ ALGAR LORE HUNTER ---------------------------
 -------------------------------------------------------------------------------

@@ -6,6 +6,9 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = 'Recompensas de Profundidades'
+L['options_icons_delve_rewards_desc'] = 'Muestra dónde hay recompensas de {location:Profundidades} en las descripciones.'
+
 L['skyriding_glyph'] = 'Glifo de Surcacielos'
 L['options_icons_skyriding_glyph'] = 'Glifos de Surcacielos'
 L['options_icons_skyriding_glyph_desc'] = 'Muestra dónde están los glifos de surcacielos.'
@@ -34,7 +37,13 @@ L['turtles_thanks_1_note'] = 'Entrega 5x {item:220143} (puede ser pescado de ban
 L['turtles_thanks_2_note'] = 'Entrega 1x {item:222533} (puede ser pescado de bancos {object:Lagoluz}, {object:Charco de Putrefacción Purulenta}, {object:Vertido de Ícor Imbuido} o comprados en la casa de subastas).'
 L['turtles_thanks_3_note'] = 'Alimenta a {npc:223338} en {location:Dornogal} y habla con ella para revelar el tesoro.'
 L['web_wrapped_axe_note'] = 'En el primer piso.\n\n{note:Reaparece cada 1-2 horas.}'
-
+L['faithful_dog_note'] = [[
+1. Encuentra al {npc:59533} en {location:Los Cultivos Florecientes} en el {locations:Valle de los Cuatro Vientos} en {location:Pandaria} y completa la misión {quest:30526}.
+2. Construye el {object:Jardín de Hierbas} en tu {location:Ciudadela} en {location:Draenor}.
+3. Encuentra un {item:147420} en {location:Dalaran} ({location:Islas Abruptas}) y habla con {npc:87553} en el {location:Jardín de Hierbas} de tu {location:Ciudadela}.
+El {npc:87553} estará ahora en {location:Monturas Exóticas} en {location:Dalaran}.
+4. Interactúa con el {object:Cuenco de Perro Semienterrado} en {location:Isla de Dorn} y habla con {npc:87553} para conseguir la mascota.
+]]
 L['cendvin_note'] = 'Consigue 900x {item:225557} en {location:Foldeceniza} de los enemigos élite para comprar la montura {item:223153} a {npc:226205}.'
 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
@@ -199,6 +208,8 @@ L['beacon_of_hope_note'] = 'Contribuye con {item:206350} para encender las llave
 
 L['parasidious_note'] = 'Compra unos {item:206670} al {npc:206533} (enciende la {object:Llave Ardiente Inferior} para hacer que aparezca) e ir al {location:Paraje Alzaocaso} y sacar {npc:206870} hasta que aparezca el raro. {note: Sólo aparece si hay un {npc:206978} donde estás}.'
 
+L['options_icons_flamegards_hope'] = '{achievement:20594}'
+L['options_icons_flamegards_hope_desc'] = 'Muestra los sitios para hacer el logro {achievement:20594}.'
 L['flamegards_hope_note'] = 'Ayuda a {npc:213319} durante 20 Días curando las {npc:220225}.\n\nTambién puedes usar una {spell:372009} o una {item:211878} si tu clase no puede curar.'
 
 -------------------------------------------------------------------------------
@@ -220,7 +231,7 @@ L['generals_scouting_shadecaster_location'] = nil
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Muestra dónde están los libros para el logro {achievement:40629}.'
 
-L['nerubian_potion_note'] = 'Compra una {item:225784} ({note:el buff dura 10 minutos}) de {npc:218192} por 500x {currency:3056}.'
+L['nerubian_potion_note'] = 'Compra una {item:225784} ({note:el buff dura 10 minutos}) de {npc:218192} por 33x {currency:3056}.'
 L['bookworm_note'] = '{note:También puedes completar el logro {achievement:40542} con la {item:225784}.}'
 L['bookworm_1_location'] = 'En la entrada de la cueva pequeña.'
 
@@ -273,3 +284,28 @@ L['the_unseeming_note'] = 'Párate en el agua hasta que acumules 100x {spell:420
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Muestra dónde ir para el logro {achievement:40634}.'
 L['you_cant_hang_with_us_note'] = 'Busca un {npc:211816} con el buff {spell:434734} y atácale para conseguir el debuff {spell:443190} (1 minuto de duración). Un {npc:225408} ({note:¡No le mates!}) interferirá y te echará el debuff {spell:454666}. Con 10 acumulaciones, serás expulsado por la fuerza de la Ciudad.'
+
+-------------------------------------------------------------------------------
+----------------------------------- DELVES ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sturdy_chest'] = 'Cofre Robusto'
+L['sturdy_chest_suffix'] = 'Cofre robusto encontrado'
+
+L['ecm_chest_3_location'] = 'En la grúa. Salta desde el nivel superior.'
+L['fol_chest_1_location'] = 'En la roca bajo las setas de los arbustos.'
+L['fol_chest_3_location'] = 'Al pie de la cascada.'
+L['fol_use_mushrooms'] = 'Salta sobre las setas a lo largo del camino.'
+L['kvr_chest_2_location'] = 'Encima del andamio de madera.'
+L['nfs_chest_2_location'] = 'En la planta.'
+L['nfs_chest_3_location'] = 'Dentro del edificio.'
+L['nfs_chest_4_location'] = 'Salta desde la nave voladora.'
+L['ski_chest_3_location'] = 'Dentro del edificio.'
+L['tra_chest_2_location'] = 'Encima del coral.'
+L['tsw_chest_2_location'] = 'En lo alto de la viga.'
+L['tsw_chest_2_note'] = '{note:Sólo disponible en la variante de la historia "De la Tejedora con Amor".}'
+L['tsw_chest_3_location'] = 'En lo alto de un pilar cerca del menú desplegable de la sala del tesoro.'
+L['tsw_chest_4_location'] = 'En lo alto de una viga. Bájate del pilar cerca del otro cofre.'
+L['tuk_chest_1_note'] = 'Detrás de la estatua.'
+L['tuk_chest_2_note'] = '{note:Sólo disponible en las variantes de la historia "Evolución Incontrolable" y "Víctimas de Tortura".}'
+L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia "Evolución Incontrolable" y "Rescate de la Tejedora".}'
