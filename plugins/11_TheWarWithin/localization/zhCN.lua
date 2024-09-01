@@ -37,6 +37,13 @@ L['turtles_thanks_1_note'] = '交出5个 {item:220143}（可从 {object:平静�
 L['turtles_thanks_2_note'] = '交出1个 {item:222533}（可从 {object:浮光之池}，{object:溃烂的腐臭之池}，{object:飞溅的注能脓液} 渔点钓鱼或从拍卖行购买）。'
 L['turtles_thanks_3_note'] = '在 {location:多恩诺嘉尔} 与 {npc:223338} 会面并与她交谈以发现宝藏。'
 L['web_wrapped_axe_note'] = '在一楼。\n\n{note:有1-2小时的刷新时间。}'
+L['faithful_dog_note'] = [[
+1. 在 {map:424} 的 {map:376} 的 {location:汇风岭} 处找到 {npc:59533} 并完成 {quest:30526}。
+2. 在 {map:572} 的 {area:7490} 中建造 {object:药圃}。
+3. 在 {map:619} {map:627} 中找到 {item:147420}，然后与 {area:7490} {object:药圃} 中的 {npc:87553} 交谈。
+{npc:87553} 现在位于 {map:627} 的 {location:魔法动物店}
+4. 与 {map:2248} 中的 {object:半埋的狗食盆} 互动，然后与 {npc:87553} 交谈以获取宠物。
+]]
 
 L['cendvin_note'] = '在 {location:烬燧荒原} 从精英怪物那里获得900个 {item:225557} 之后从 {npc:226205} 购买 {item:223153} 坐骑。'
 
