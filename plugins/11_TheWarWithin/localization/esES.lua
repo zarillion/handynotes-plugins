@@ -37,8 +37,14 @@ L['turtles_thanks_1_note'] = 'Entrega 5x {item:220143} (puede ser pescado de ban
 L['turtles_thanks_2_note'] = 'Entrega 1x {item:222533} (puede ser pescado de bancos {object:Lagoluz}, {object:Charco de Putrefacción Purulenta}, {object:Vertido de Ícor Imbuido} o comprados en la casa de subastas).'
 L['turtles_thanks_3_note'] = 'Alimenta a {npc:223338} en {location:Dornogal} y habla con ella para revelar el tesoro.'
 L['web_wrapped_axe_note'] = 'En el primer piso.\n\n{note:Reaparece cada 1-2 horas.}'
-L['faithful_dog_note'] = nil
+L['faithful_dog_note'] = [[{note:Requiere 12600/21000 Reverenciado con {faction:1272} para poder empezar la cadena de misiones.}
 
+1. Encuentra al {npc:59533} en las coordenadas 42.40 50.00 en {map:376} de {map:424} y completa {quest:30526}.
+2. Construye el {object:Jardín de Hierbas} en tu {area:7490} en {map:572}.
+3. Encuentra un {item:147420} en {map:619} {map:627} y habla con {npc:87553} en tu {area:7490} {object:Jardín de Hierbas}.
+El {npc:87553} estará ahora en {location:Magical Menagerie} en {map:627}.
+4. Interactúa con el {object:Cuenco de Perro Semienterrado} en {map:2248} y habla con {npc:87553} para conseguir la mascota.
+]] -- REVIEW!!!
 L['cendvin_note'] = 'Consigue 900x {item:225557} en {location:Foldeceniza} de los enemigos élite para comprar la montura {item:223153} a {npc:226205}.'
 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
