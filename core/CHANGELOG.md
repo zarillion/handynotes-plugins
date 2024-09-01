@@ -1,6 +1,6 @@
 # v86
 
-* PLACEHOLDER
+* Added new render links functionality for map and area ids
 
 # v1
 
