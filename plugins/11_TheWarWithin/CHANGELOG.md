@@ -1,6 +1,8 @@
 # v86
 
-* PLACEHOLDER
+* Added new render links functionality for map and area ids.
+* Added new option for hiding treasure if all rewards are known.
+* Localization updates: esES, frFR
 
 # v85
 
