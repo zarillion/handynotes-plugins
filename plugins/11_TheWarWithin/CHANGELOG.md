@@ -1,8 +1,6 @@
 # v86
 
 * Added Faithful Dog treasure in the Isle of Dorn.
-* Added new render links functionality for map and area ids.
-* Added new option for hiding treasure if all rewards are known.
 * Add rep quest for Alunira in Isle of Dorn
 * Localization updates: esES, frFR, zhCN
 
