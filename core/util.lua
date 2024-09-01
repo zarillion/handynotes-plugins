@@ -279,6 +279,20 @@ local function AsIDTable(value)
 end
 
 -------------------------------------------------------------------------------
+---------------------------- REPUTATION FORMATTER -----------------------------
+-------------------------------------------------------------------------------
+
+local REP_LEVELS = {3000, 6000, 12000, 21000}
+
+local function FormatReputation(amount)
+    for i, v in ipairs(REP_LEVELS) do
+        if amount < v then return amount .. '/' .. v end
+        amount = amount - v
+    end
+    return tostring(amount) -- shouldn't get here
+end
+
+-------------------------------------------------------------------------------
 
 ns.AsIDTable = AsIDTable
 ns.AsTable = AsTable
@@ -291,3 +305,4 @@ ns.PlayerHasProfession = PlayerHasProfession
 ns.PrepareLinks = PrepareLinks
 ns.RenderLinks = RenderLinks
 ns.UpdateActiveCalendarEvents = UpdateActiveCalendarEvents
+ns.FormatReputation = FormatReputation
