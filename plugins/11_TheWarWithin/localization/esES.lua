@@ -37,6 +37,7 @@ L['turtles_thanks_1_note'] = 'Entrega 5x {item:220143} (puede ser pescado de ban
 L['turtles_thanks_2_note'] = 'Entrega 1x {item:222533} (puede ser pescado de bancos {object:Lagoluz}, {object:Charco de Putrefacción Purulenta}, {object:Vertido de Ícor Imbuido} o comprados en la casa de subastas).'
 L['turtles_thanks_3_note'] = 'Alimenta a {npc:223338} en {location:Dornogal} y habla con ella para revelar el tesoro.'
 L['web_wrapped_axe_note'] = 'En el primer piso.\n\n{note:Reaparece cada 1-2 horas.}'
+L['faithful_dog_note'] = nil
 
 L['cendvin_note'] = 'Consigue 900x {item:225557} en {location:Foldeceniza} de los enemigos élite para comprar la montura {item:223153} a {npc:226205}.'
 

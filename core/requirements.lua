@@ -164,8 +164,9 @@ function Quest:IsMet() return C_QuestLog.IsQuestFlaggedCompleted(self.id) end
 local Reputation = Class('Reputation', Requirement)
 
 -- @todo will cause problems when requiring lower / negative reputations. Maybe add comparison as optional parameter with default value '>='.
-function Reputation:Initialize(id, level, isRenown)
-    self.id, self.level, self.isRenown = id, level, isRenown
+function Reputation:Initialize(id, level, isRenown, amount)
+    self.id, self.level, self.isRenown, self.amount = id, level, isRenown,
+        amount
 end
 
 function Reputation:GetText()
@@ -179,6 +180,10 @@ function Reputation:GetText()
 end
 
 function Reputation:IsMet()
+    if self.amount then
+        local repAmount = select(6, ns.api.GetFactionInfoByID(self.id))
+        return repAmount >= self.amount
+    end
     local standingID = self.isRenown and
                            C_MajorFactions.GetCurrentRenownLevel(self.id) or
                            select(3, ns.api.GetFactionInfoByID(self.id))

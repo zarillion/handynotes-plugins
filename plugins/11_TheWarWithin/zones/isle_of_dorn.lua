@@ -498,6 +498,16 @@ dor.nodes[58283026] = TurtlesThanks({
     note = L['turtles_thanks_3_note']
 })
 
+map.nodes[31445130] = Treasure({
+    quest = 83094,
+    label = '{npc:225537}',
+    requires = {
+        ns.requirement.Reputation(1272, 7, false, 33600),
+        ns.requirement.Quest(30526)
+    },
+    note = L['faithful_dog_note'],
+    rewards = {Pet({item = 224766, id = 4596})}
+}) -- Faithful Dog
 -------------------------------------------------------------------------------
 
 -- map.nodes[61901680] = Treasure({

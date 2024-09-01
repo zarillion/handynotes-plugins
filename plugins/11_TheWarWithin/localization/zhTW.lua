@@ -37,6 +37,7 @@ L['turtles_thanks_1_note'] = '繳交 5x {item:220143} (可以從 {object:平靜�
 L['turtles_thanks_2_note'] = '繳交 1x {item:222533} (可以從 {object:微光水池}, {object:膿瘡腐池}, {object:倒翻的灌注膿液} 等魚群釣到, 或是從拍賣場購買).'
 L['turtles_thanks_3_note'] = '在 {location:多恩諾加} 找到 {npc:223338} 並和他說話來接露寶藏.'
 L['web_wrapped_axe_note'] = '在一樓.\n\n{note:重生時間1-2小時.}'
+L['faithful_dog_note'] = nil
 
 L['cendvin_note'] = '在 {location:火渣林} 的菁英怪農 900x {item:225557} 來從 {npc:226205} 購買 {item:223153} 坐騎.'
 
