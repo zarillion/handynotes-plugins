@@ -38,7 +38,7 @@ L['turtles_thanks_2_note'] = 'Hand in 1x {item:222533} (can be fished from {obje
 L['turtles_thanks_3_note'] = 'Meet the {npc:223338} in {location:Dornogal} and speak with her to reveal the treasure.'
 L['web_wrapped_axe_note'] = 'On the first floor.\n\n{note:Have 1-2 Hours spawn time.}'
 L['faithful_dog_note'] = [[
-1. Find the {npc:59533} at 42.40 50.00 in {map:376} in {map:424} and complete {quest:30526}.
+1. Find the {npc:59533} in {location:Heartland} in {map:376} in {map:424} and complete {quest:30526}.
 2. Build the {object:Herb Garden} in your {area:7490} in {map:572}.
 3. Find a {item:147420} in the {map:619} {map:627} then talk with {npc:87553} in your {area:7490} {object:Herb Garden}.
 The {npc:87553} will now be at the {location:Magical Menagerie} in {map:627}
