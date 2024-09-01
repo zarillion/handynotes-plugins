@@ -719,10 +719,13 @@ map.nodes[55626318] = BonusBoss({
 pitu.nodes[41767921] = BonusBoss({
     id = 172524,
     quest = 62211,
-    note = L['nexus_cave_anguish_upper'],
+    note = L['in_cave'] .. ' ' .. L['nexus_cave_anguish_upper'],
     rewards = {
         Achievement({id = 14660, criteria = 49491}),
         Transmog({item = 186240, slot = L['cloak']}) -- Broodmotherhide Cloak
+    },
+    pois = {
+        POI({54407920}) -- Cave entrance
     },
     parent = map.id
 }) -- Skittering Broodmother
