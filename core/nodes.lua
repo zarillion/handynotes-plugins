@@ -542,7 +542,7 @@ function Treasure.getters:label()
 end
 
 function Treasure:IsEnabled()
-    if ns:GetOpt('hide_done_treasures') and true then return false end
+    if ns:GetOpt('hide_done_treasures') and self:IsCollected() then return false end
     return Collectible.IsEnabled(self)
 end
 -------------------------------------------------------------------------------
