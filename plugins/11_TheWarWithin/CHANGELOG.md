@@ -86,7 +86,3 @@
 # v61
 
 Initial release.
-
-
-* Updated Treasures.
-  * Note for Concealed Contraband (Azj-Kahet)
