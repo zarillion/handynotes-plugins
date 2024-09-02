@@ -332,7 +332,7 @@ map.nodes[56833477] = Rare({
 map.nodes[59122348] = Treasure({ -- You may have to wait until it spawns.
     quest = 82715,
     -- vignette = 6293,
-    note = L['in_building'] .. '' .. L['web_wrapped_axe_note'],
+    note = L['in_building'] .. ' ' .. L['web_wrapped_axe_note'],
     rewards = {
         Achievement({id = 40434, criteria = 68209}),
         Reputation({id = 2590, gain = 150, quest = 82715}),
