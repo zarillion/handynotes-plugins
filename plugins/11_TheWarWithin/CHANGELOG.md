@@ -1,6 +1,6 @@
 # v87
 
-* Localization updates: enUS, zhCN
+* Localization updates: deDE, enUS, esES, frFr, zhCN
 
 # v86
 
