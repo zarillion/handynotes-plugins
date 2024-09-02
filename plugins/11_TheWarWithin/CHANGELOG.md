@@ -1,3 +1,7 @@
+# v88
+
+* Localization updates: zhCN
+
 # v87
 
 * Localization updates: deDE, enUS, esES, frFr, zhCN
