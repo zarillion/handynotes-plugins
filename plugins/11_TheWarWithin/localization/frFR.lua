@@ -43,7 +43,7 @@ L['faithful_dog_note'] = [[
 2. Construisez le {object:Jardin des simples} dans votre {area:7490} en {map:572}.
 3. Trouvez un {item:147420} à {map:619} {map:627}, puis parlez avec le {npc:87553} dans le {object:Jardin des simples} de votre {area:7490}.
 Le {npc:87553} sera maintenant situé à la {location:Ménagerie magique} à {map:627}.
-4. Interagissez avec la {object:Gamelle pour chien partiellement enterrée} sur l'{map:2248}, puis parlez avec le {npc:87553} pour recevoir la mascotte.
+4. Interagissez avec la {object:Gamelle pour chien partiellement enterrée} sur l'{map:2248}, puis caressez le {npc:87553} pour recevoir la mascotte.
 ]]
 
 L['cendvin_note'] = 'Obtenez 900x {item:225557} sur les monstres élites à {location:Braiselande} pour acheter la monture {item:223153} à {npc:226205}.'
