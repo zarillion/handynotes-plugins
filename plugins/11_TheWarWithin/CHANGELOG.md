@@ -1,3 +1,7 @@
+# v87
+
+* Localization updates: frFR, zhCN
+
 # v86
 
 * Added Faithful Dog treasure in the Isle of Dorn.
