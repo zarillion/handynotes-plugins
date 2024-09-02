@@ -1,5 +1,6 @@
 # v87
-Updated core localizations (deDE, frFR, zhCN)
+
+* Updated core localizations: deDE, frFR, zhCN
 
 # v86
 
