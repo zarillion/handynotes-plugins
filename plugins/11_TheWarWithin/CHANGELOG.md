@@ -1,6 +1,6 @@
 # v87
 
-* Localization updates: frFR, zhCN
+* Localization updates: enUS, zhCN
 
 # v86
 
@@ -86,3 +86,7 @@
 # v61
 
 Initial release.
+
+
+* Updated Treasures.
+  * Note for Concealed Contraband (Azj-Kahet)

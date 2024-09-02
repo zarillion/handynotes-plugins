@@ -42,7 +42,7 @@ L['faithful_dog_note'] = [[
 2. Build the {object:Herb Garden} in your {area:7490} in {map:572}.
 3. Find a {item:147420} in the {map:619} {map:627} then talk with {npc:87553} in your {area:7490} {object:Herb Garden}.
 The {npc:87553} will now be at the {location:Magical Menagerie} in {map:627}
-4. Interact with the {object:Half-Buried Dog Bowl} in {map:2248} then speak with {npc:87553} to receive the pet.
+4. Interact with the {object:Half-Buried Dog Bowl} in {map:2248} then pet the {npc:87553} to receive the pet.
 ]]
 
 L['cendvin_note'] = 'Farm 900x {item:225557} in {location:Cinderwold} from elite mobs to purchase the {item:223153} mount from {npc:226205}.'

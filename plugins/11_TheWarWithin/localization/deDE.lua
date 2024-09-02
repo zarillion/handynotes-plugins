@@ -38,7 +38,14 @@ L['turtles_thanks_1_note'] = 'Biete 5x {item:220143} an (kann in dem Schwarm {ob
 L['turtles_thanks_2_note'] = 'Biete 1x {item:222533} an (kann in den Schwärmen {object:Glimmerbecken}, {object:Schwärender Fäulnisteich}, {object:Energieerfüllter Sekretfleck} geangelt oder im Auktionshaus gekauft werden).'
 L['turtles_thanks_3_note'] = 'Treffe dich mit der {npc:223338} in {location:Dornogal} und spreche mit ihr, um den Schatz zu enthüllen.'
 L['web_wrapped_axe_note'] = 'In der ersten Etage.\n\n{note:Erscheint erst wieder nach 1 bis 2 Stunden.}'
-L['faithful_dog_note'] = nil
+L['faithful_dog_note'] = [[
+1. Schließe die Quest {quest:30526} von {npc:59533} in {location:Das Kernland} ({map:424}, {map:376}) ab.
+2. Baue den {object:Kräutergarten} in deiner {area:7490} in {map:572}.
+3. Find ein {item:147420} auf den Straßen in {map:627} ({map:619}).
+4. Spreche mit dem {npc:87553} im {object:Kräutergarten} deiner {area:7490}.
+Der {npc:87553} erscheit jetzt in {location:Die Magische Menagerie} ({map:619}, {map:627})
+4. Interagiere mit {object:Halb vergrabener Hundenapf} am Strand der {map:2248} und streichel den {npc:87553}, um dein Haustier zu erhalten.
+]]
 
 L['cendvin_note'] = 'Plündere 900x {item:225557} in {location:Aschenholtz} von Elitegegnern, um das Reittier {item:223153} von {npc:226205} kaufen zu können.'
 
