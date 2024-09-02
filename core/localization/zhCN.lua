@@ -241,8 +241,8 @@ L['options_toggle_show_notes'] = '显示注释'
 L['options_toggle_show_notes_desc'] = '在提示中添加注释'
 L['options_toggle_use_standard_time'] = '使用12小时时钟'
 L['options_toggle_use_standard_time_desc'] = '在提示中使用12小时时钟（如：8:00 PM）而不是24小时时钟（如：20:00）。'
-L['options_toggle_show_npc_id'] = nil
-L['options_toggle_show_npc_id_desc'] = nil
+L['options_toggle_show_npc_id'] = '显示 NPC ID'
+L['options_toggle_show_npc_id_desc'] = '显示 NPC ID 以供稀有扫描插件使用。'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 
