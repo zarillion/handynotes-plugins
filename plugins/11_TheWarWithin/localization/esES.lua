@@ -42,7 +42,7 @@ L['faithful_dog_note'] = [[
 2. Construye el {object:Jardín de Hierbas} en tu {location:Ciudadela} en {location:Draenor}.
 3. Encuentra un {item:147420} en {location:Dalaran} ({location:Islas Abruptas}) y habla con {npc:87553} en el {location:Jardín de Hierbas} de tu {location:Ciudadela}.
 El {npc:87553} estará ahora en {location:Monturas Exóticas} en {location:Dalaran}.
-4. Interactúa con el {object:Cuenco de Perro Semienterrado} en {location:Isla de Dorn} y habla con {npc:87553} para conseguir la mascota.
+4. Interactúa con el {object:Cuenco de Perro Semienterrado} en {location:Isla de Dorn} y acaricia el {npc:87553} para conseguir la mascota.
 ]]
 L['cendvin_note'] = 'Consigue 900x {item:225557} en {location:Foldeceniza} de los enemigos élite para comprar la montura {item:223153} a {npc:226205}.'
 
