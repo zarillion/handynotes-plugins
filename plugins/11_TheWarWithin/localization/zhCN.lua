@@ -42,7 +42,7 @@ L['faithful_dog_note'] = [[
 2. 在 {map:572} 的 {area:7490} 中建造 {object:药圃}。
 3. 在 {map:619} {map:627} 中找到 {item:147420}，然后与 {area:7490} {object:药圃} 中的 {npc:87553} 交谈。
 {npc:87553} 现在位于 {map:627} 的 {location:魔法动物店}
-4. 与 {map:2248} 中的 {object:半埋的狗碗} 互动，然后与 {npc:87553} 交谈获取宠物。
+4. 与 {map:2248} 中的 {object:半埋的狗碗} 互动，然后抚摸 {npc:87553} 获取宠物。
 ]]
 
 L['cendvin_note'] = '在 {location:烬燧荒原} 从精英怪物那里获得900个 {item:225557} 之后从 {npc:226205} 购买 {item:223153} 坐骑。'
