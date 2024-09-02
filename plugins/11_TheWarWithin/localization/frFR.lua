@@ -39,9 +39,9 @@ L['turtles_thanks_2_note'] = 'Apportez 1x {item:222533} (à pêcher dans les {ob
 L['turtles_thanks_3_note'] = 'Rencontrez la {npc:223338} à {location:Dornogal} et parlez-lui pour faire apparaître le trésor.'
 L['web_wrapped_axe_note'] = 'Au premier étage.\n\n{note:A un temps de réapparition de 1 à 2 heures.}'
 L['faithful_dog_note'] = [[
-1. Trouvez le {npc:59533} aux coordonnées 42.40 50.00 à {map:376} dans la {map:424} et terminez {quest:30526}.
+1. Trouvez le {npc:59533} aux coordonnées 42.40 50.00 à la {map:376} en {map:424} et terminez {quest:30526}.
 2. Construisez le {object:Jardin des simples} dans votre {area:7490} en {map:572}.
-3. Trouvez un {item:147420} à {map:619} {map:627}, puis parlez avec le {npc:87553} dans le {object:Jardin des simples} de votre {area:7490}.
+3. Trouvez un {item:147420} à {map:627} ({map:619}), puis parlez avec le {npc:87553} dans le {object:Jardin des simples} de votre {area:7490}.
 Le {npc:87553} sera maintenant situé à la {location:Ménagerie magique} à {map:627}.
 4. Interagissez avec la {object:Gamelle pour chien partiellement enterrée} sur l'{map:2248}, puis caressez le {npc:87553} pour recevoir la mascotte.
 ]]
