@@ -1926,12 +1926,12 @@ hooksecurefunc(AreaPOIEventPinMixin, 'TryShowTooltip', function(self)
         if GRAND_HUNT_AREA_POIS[self.areaPoiID] then
             if group:GetDisplay(mapID) then
                 if ns:GetOpt('show_loot') then
-                    GameTooltip:AddLine(' ')
                     for i, reward in ipairs(GRAND_HUNT_BAG_REWARDS) do
                         if reward:IsEnabled() then
                             reward:Render(GameTooltip)
                         end
                     end
+                    GameTooltip:AddLine(' ')
                 end
                 GameTooltip:Show()
             end

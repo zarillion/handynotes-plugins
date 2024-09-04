@@ -2244,7 +2244,7 @@ local SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS = {
 local SIEGE_ON_DRAGONBANE_KEEP_REWARDS = {
     Achievement({id = 16411}), -- Siege on Dragonbane Keep: Home Sweet Home
     Toy({item = 200116}), -- Everlasting Horn of Lavaswimming
-    ns.reward.Spacer(), Item({item = 192055}) -- Dragon Isles Artifact
+    Item({item = 192055}) -- Dragon Isles Artifact
 }
 
 map.nodes[30287005] = Collectible({
@@ -2276,12 +2276,12 @@ hooksecurefunc(AreaPOIEventPinMixin, 'TryShowTooltip', function(self)
         if SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS[self.areaPoiID] then
             if group:GetDisplay(mapID) then
                 if ns:GetOpt('show_loot') then
-                    GameTooltip:AddLine(' ')
                     for i, reward in ipairs(SIEGE_ON_DRAGONBANE_KEEP_REWARDS) do
                         if reward:IsEnabled() then
                             reward:Render(GameTooltip)
                         end
                     end
+                    GameTooltip:AddLine(' ')
                 end
                 GameTooltip:Show()
             end
