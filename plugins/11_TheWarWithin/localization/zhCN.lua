@@ -143,7 +143,7 @@ L['lost_necklace_note'] = '拾取神龛边缘的 {object:失落的纪念物}。'
 L['priory_satchel_location'] = '拾取悬挂在 {location:圣焰隐修院} 教堂角落的 {object:啸风之袋}。'
 L['smugglers_treasure_note'] = '从悬崖下方的（{dot:Blue}）{npc:226025} 拾取所需的 {item:225335}。'
 L['smugglers_treasure_location'] = '在悬崖高处几块岩石之间。'
-L['coral_fused_clam'] = '珊瑚包裹蛤蜊'
+L['coral_fused_clam'] = '被珊瑚包裹的蛤蜊'
 L['coral_fused_clam_note'] = '从 {object:捕蛤者的工具} 中拾取 {item:218354} 来打开蛤蜊。'
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
