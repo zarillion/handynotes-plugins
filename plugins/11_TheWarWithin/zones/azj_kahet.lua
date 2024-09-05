@@ -498,12 +498,15 @@ map.nodes[78613320] = Treasure({
 
 map.nodes[34056102] = Treasure({
     quest = 82525,
+    location = L['in_small_cave'],
+    note = L['concealed_contraband_note'],
     rewards = {
         Achievement({id = 40828, criteria = 70381}),
         Reputation({id = 2601, gain = 50, quest = 82525}),
         Reputation({id = 2605, gain = 50, quest = 82525}),
         Reputation({id = 2607, gain = 50, quest = 82525})
-    }
+    },
+    pois = {POI({33756045})}
 }) -- Concealed Contraband -- Web Cocoon
 
 -------------------------------------------------------------------------------

@@ -271,6 +271,7 @@ Una vez todos devueltos, regresa al {object:Grimorio Carnoso} y habla con {npc:2
 ]]
 L['another_you_4_note'] = 'Patrulla por la ruta marcada.'
 
+L['concealed_contraband_note'] = nil
 L['memory_cache_note'] = 'Consigue {spell:420847} de un ({dot:Red}) {object:Extractor de Almacenaje} cercano. Después mata la {npc:223908} para conseguir la {item:223870} que abrirá el {object:Alijo de Recuerdos}.'
 L['niffen_stash_note'] = 'Está debajo del puente.'
 L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'

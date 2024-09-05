@@ -275,6 +275,7 @@ Sobald du alle vier {npc:227421} gefunden hast, gehen zurück zum Buch {object:F
 ]]
 L['another_you_4_note'] = 'Läuft im {location:Nest der Weberin} herum.'
 
+L['concealed_contraband_note'] = 'Entferne den {object:Netzkokon}, um den Schatz zu enthüllen.'
 L['memory_cache_note'] = 'Hole dir den Schwächungszauber {spell:420847} von einem {object:Extraktor} ({dot:Red}) in der Nähe und töte dann die {npc:223908} vor der Kiste, um den {item:223870} zu erhalten.'
 L['niffen_stash_note'] = 'Hängt unter der Brücke.'
 L['trapped_trove_note'] = 'In einem Gebäude das von der Decke hängt. Vermeide die Spinnweben am Boden.'

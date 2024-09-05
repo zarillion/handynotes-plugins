@@ -273,6 +273,7 @@ Une fois que vous avez trouvé les 4 {npc:227421}, retournez au {object:Grimoire
 ]]
 L['another_you_4_note'] = 'Patrouille le long du chemin indiqué.'
 
+L['concealed_contraband_note'] = nil
 L['memory_cache_note'] = 'Obtenez le buff {spell:420847} à partir d\'une ({dot:Red}) {object:Remise de l\'extracteur} proche. Tuez le {npc:223908} pour obtenir la {item:223870} permettant d\'ouvrir la {object:Cache de souvenirs}.'
 L['niffen_stash_note'] = 'Situé sous le pont.'
 L['trapped_trove_note'] = 'Dans un bâtiment suspendu au plafond. Évitez les toiles d\'araignées au sol.'
