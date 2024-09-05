@@ -191,6 +191,7 @@ L['options_restore_hidden_nodes'] = 'Restore hidden nodes'
 L['options_restore_hidden_nodes_desc'] = 'Restore all nodes hidden using the right-click context menu.'
 
 L['options_rewards_settings'] = 'Rewards'
+L['options_reward_behaviors_settings'] = 'Reward Behaviors'
 L['options_reward_types'] = 'Show reward types'
 L['options_manuscript_rewards'] = 'Show drakewatcher manuscript rewards'
 L['options_manuscript_rewards_desc'] = 'Display drakewatcher manuscript rewards in tooltips and track their collected status.'
