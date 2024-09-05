@@ -1,3 +1,7 @@
+# v90
+
+* Localization updates: zhCN
+
 # v88
 
 * Localization updates: zhCN
