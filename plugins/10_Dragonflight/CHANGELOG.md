@@ -1,3 +1,7 @@
+# v89
+
+* Fixed tooltip spacing in Dragonbane and Grand Hunt tooltips.
+
 # v69
 
 * If you enjoyed our Dragonflight plugin, grab our [War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within) plugin!
