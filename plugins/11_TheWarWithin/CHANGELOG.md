@@ -1,7 +1,7 @@
 # v90
 
 * Updated Concealed Contraband (Treasure) (Azj-Kahet)
-* Localization updates: zhCN
+* Localization updates: deDE, esES, frFR, zhCN
 
 # v88
 
