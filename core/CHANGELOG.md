@@ -1,3 +1,8 @@
+# v89
+
+* Updated reward toggles in main menu to match dropdown menu.
+* Hide manuscript toggle for expansions other than Dragonflight.
+
 # v87
 
 * Updated core localizations: deDE, frFR, zhCN
