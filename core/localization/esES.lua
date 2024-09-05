@@ -191,7 +191,7 @@ L['options_restore_hidden_nodes'] = 'Restaurar los nodos ocultos'
 L['options_restore_hidden_nodes_desc'] = 'Vuelve a mostrar todos los nodos ocultos usando el menú contextual con click derecho.'
 
 L['options_rewards_settings'] = 'Recompensas'
-L['options_reward_behaviors_settings'] = nil
+L['options_reward_behaviors_settings'] = 'Comportamiento de las Recompensas'
 L['options_reward_types'] = 'Mostrar tipos de recompensas'
 L['options_manuscript_rewards'] = 'Mostrar las recompensas de los manuscritos de dracovigía'
 L['options_manuscript_rewards_desc'] = 'Muestra las recompensas de los manuscritos de dracovigía en las descripciones y sigue si ya lo has coleccionado.'
