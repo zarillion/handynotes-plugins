@@ -106,10 +106,13 @@ Return the "collected" status of this node. A node is collected if all
 associated rewards have been obtained (achievements, toys, pets, mounts).
 --]]
 
-function Node:IsCollected()
+function Node:IsCollected(type)
     for reward in self:IterateRewards() do
-        if reward:IsEnabled() and reward:IsObtainable() and
-            not reward:IsObtained() then return false end
+        if (not type or ns.IsInstance(reward, type)) and reward:IsEnabled() then
+            if reward:IsObtainable() and not reward:IsObtained() then
+                return false
+            end
+        end
     end
     return true
 end
@@ -513,8 +516,15 @@ end
 
 local Rare = Class('Rare', NPC, {scale = 1.2, group = ns.groups.RARE})
 
-function Rare.getters:icon() return
-    self:IsCollected() and 'skull_w' or 'skull_b' end
+function Rare.getters:icon()
+    if self:IsCollected() then
+        return 'skull_w'
+    elseif not self:IsCollected(ns.reward.Reputation) then
+        return 'skull_p'
+    else
+        return 'skull_b'
+    end
+end
 
 function Rare.getters:label()
     local label = NPC.getters.label(self)

@@ -1,3 +1,8 @@
+# v92
+
+* Rares with uncollected reputation will now appear as purple skulls. This option only
+  takes effect when "Reputation rewards" are toggled on.
+
 # v90
 
 * Updated core localizations: deDE, esES, frFr, zhCN

@@ -66,6 +66,7 @@ ns.icons = { -- name => path
     quest_ay = {Icon('quest_available_yellow'), Glow('quest_available')},
 
     skull_b = {Icon('skull_blue'), Glow('skull')},
+    skull_p = {Icon('skull_purple'), Glow('skull')},
     skull_w = {Icon('skull_white'), Glow('skull')},
 
     star_chest_b = {Icon('star_chest_blue'), Glow('star_chest')},
