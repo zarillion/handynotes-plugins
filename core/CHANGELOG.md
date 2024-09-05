@@ -1,6 +1,6 @@
 # v90
 
-* Updated core localizations: esES, zhCN
+* Updated core localizations: esES, frFr, zhCN
 
 # v89
 
