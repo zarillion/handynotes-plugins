@@ -44,6 +44,7 @@ L['faithful_dog_note'] = [[
 El {npc:87553} estará ahora en {location:Monturas Exóticas} en {location:Dalaran}.
 4. Interactúa con el {object:Cuenco de Perro Semienterrado} en {location:Isla de Dorn} y acaricia el {npc:87553} para conseguir la mascota.
 ]]
+
 L['cendvin_note'] = 'Consigue 900x {item:225557} en {location:Foldeceniza} de los enemigos élite para comprar la montura {item:223153} a {npc:226205}.'
 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
@@ -271,7 +272,7 @@ Una vez todos devueltos, regresa al {object:Grimorio Carnoso} y habla con {npc:2
 ]]
 L['another_you_4_note'] = 'Patrulla por la ruta marcada.'
 
-L['concealed_contraband_note'] = nil
+L['concealed_contraband_note'] = 'Quita la {object:Crisálida de Telaraña} del Tesoro para verlo.'
 L['memory_cache_note'] = 'Consigue {spell:420847} de un ({dot:Red}) {object:Extractor de Almacenaje} cercano. Después mata la {npc:223908} para conseguir la {item:223870} que abrirá el {object:Alijo de Recuerdos}.'
 L['niffen_stash_note'] = 'Está debajo del puente.'
 L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'
