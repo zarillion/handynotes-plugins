@@ -1,3 +1,7 @@
+# v90
+
+* Updated core localizations: esES, zhCN
+
 # v89
 
 * Updated reward toggles in main menu to match dropdown menu.
