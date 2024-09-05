@@ -191,7 +191,7 @@ L['options_restore_hidden_nodes'] = 'Restaurer les nœuds cachés'
 L['options_restore_hidden_nodes_desc'] = 'Restaure tous les nœuds cachés en utilisant le clic droit du menu contextuel' -- Need review
 
 L['options_rewards_settings'] = 'Récompenses'
-L['options_reward_behaviors_settings'] = nil
+L['options_reward_behaviors_settings'] = 'Comportements des récompenses'
 L['options_reward_types'] = 'Afficher les types de récompenses'
 L['options_manuscript_rewards'] = 'Montrer les Manuscrits guette-drake en récompenses'
 L['options_manuscript_rewards_desc'] = 'Afficher les Manuscrits guette-drake en récompenses dans les infobulles et suivre l\'état de leur acquisition.'
