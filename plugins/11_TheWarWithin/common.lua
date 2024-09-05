@@ -256,7 +256,7 @@ end
 -------------------------------- DISTURBED DIRT -------------------------------
 -------------------------------------------------------------------------------
 
-ns.node.DisturbedEarth = Class('Disturbed_earth', ns.node.Collectible, {
+ns.node.DisturbedEarth = Class('Disturbed_earth', ns.node.Node, {
     icon = 132386,
     scale = 0.7,
     label = '{npc:213440}',
