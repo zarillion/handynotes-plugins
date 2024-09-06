@@ -1,10 +1,13 @@
 # v93
 
-* Localization updates: esES, frFR, zhCN
+* Added a note for rares that will spawn during the "Spread the Light" event.
+* Removed the achievement [Khaz Algar Lore Hunter](https://www.wowhead.com/achievement=40762).
+  * This achievement will be added again when Blizzard reactivates it.
+* Localization updates: deDE, esES, frFR, zhCN.
 
 # v91
 
-Fixed Disturbed Earth not showing up.
+* Fixed Disturbed Earth not showing up.
 
 # v90
 
