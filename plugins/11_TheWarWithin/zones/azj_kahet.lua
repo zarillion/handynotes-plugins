@@ -74,7 +74,7 @@ map.nodes[70722147] = Rare({
         Transmog({item = 221212, type = L['mail']}), -- Death Burrower Handguards
         Transmog({item = 221237, type = L['offhand']}) -- Lamentable Vagrant's Lantern
     },
-    pois = {POI({70102201})} -- Entrance
+    pois = {POI({70102201, label = 'Entrance'})} -- Entrance
 }) -- Cha'tak
 
 cot.nodes[30755599] = Rare({
@@ -282,7 +282,7 @@ akl.nodes[61918962] = Rare({
         Transmog({item = 223931, type = L['cloth']})
     },
     parent = map.id,
-    pois = {POI({63418984})} -- Entrance
+    pois = {POI({63418984, label = 'Entrance'})} -- Entrance
 }) -- The Oozekhan
 
 map.nodes[76585780] = Rare({
@@ -296,7 +296,7 @@ map.nodes[76585780] = Rare({
         Reputation({id = 2607, gain = 50, quest = 84072}),
         Transmog({item = 221231, type = L['leather']}) -- Steam-Powered Wristwatch
     },
-    pois = {POI({77485899})} -- Entrance
+    pois = {POI({77485899, label = 'Entrance'})} -- Entrance
 }) -- The XT-Minecrusher 8700
 
 map.nodes[64590352] = Rare({
@@ -364,7 +364,7 @@ map.nodes[63479504] = Rare({
         Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
         Transmog({item = 225998, type = L['cloak']}) -- Earthen Adventurer's Cloak
     },
-    pois = {POI({65309350})} -- Entrance
+    pois = {POI({65309350, label = 'Entrance'})} -- Entrance
 }) -- The One Left
 
 map.nodes[62816618] = Rare({
@@ -380,6 +380,20 @@ map.nodes[62816618] = Rare({
         ns.reward.Item({item = 225952, quest = 83627})
     } -- starts the questchain to get the Siesbarg mount.
 }) -- Tka'ktath
+
+map.nodes[83602340] = Rare({
+    id = 193664,
+    label = 'TEST-NODE 1',
+    quest = nil,
+    note = 'This is just a test node for the poi update.',
+    pois = {
+        POI({83601740, label = 'label 1', note = 'note 1'}),
+        POI({89602340, label = 'label 2', note = 'note 2'}),
+        POI({83602940, label = 'label 3', note = 'note 3'}),
+        POI({77602340, label = 'label 4 {item:211259}', note = 'note 4 {item:211259}'}),
+        Path({83602340, 86402610, 87703310, 85003750, 87603500})
+    } -- Test Node
+})
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -954,7 +968,7 @@ cotl.nodes[68195603] = NoHarmFromReading({
     note = L['no_harm_from_reading_note'],
     pois = {
         POI({
-            points = {72035705}, -- Cave entrance
+            points = {72035705, label = 'Entrance'}, -- Cave entrance
             color = 'Yellow'
         }), POI({
             points = {66735661}, -- Spider Wall
@@ -966,7 +980,7 @@ cotl.nodes[68195603] = NoHarmFromReading({
             id = cot.id,
             pois = {
                 POI({
-                    points = {72035705}, -- Cave entrance
+                    points = {72035705, label = 'Entrance'}, -- Cave entrance
                     color = 'Yellow'
                 })
             }
@@ -974,7 +988,7 @@ cotl.nodes[68195603] = NoHarmFromReading({
             id = map.id,
             pois = {
                 POI({
-                    points = {56468493}, -- Cave entrance
+                    points = {56468493, label = 'Entrance'}, -- Cave entrance
                     color = 'Yellow'
                 })
             }

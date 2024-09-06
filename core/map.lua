@@ -397,6 +397,10 @@ function WorldMapPinMixin:OnAcquired(poi, ...)
     local _, _, w, h = self:GetParent():GetRect()
     self.parentWidth = w
     self.parentHeight = h
+
+    self.label = poi.label
+    self.note = poi.note
+
     if (w and h) then
         local x, y = poi:Draw(self, ...)
         self:ApplyCurrentScale()
@@ -417,6 +421,35 @@ function WorldMapPinMixin:ApplyFrameLevel()
     MapCanvasPinMixin.ApplyFrameLevel(self)
     self:SetFrameLevel(self:GetFrameLevel() + self.frameOffset)
 end
+
+function WorldMapPinMixin:OnMouseEnter()
+    if self.label then
+        local x, y = self:GetCenter();
+        local parentX, parentY = self:GetParent():GetCenter();
+        if (x > parentX) then
+            GameTooltip:SetOwner(self, 'ANCHOR_LEFT');
+        else
+            GameTooltip:SetOwner(self, 'ANCHOR_RIGHT');
+        end
+
+        ns.PrepareLinks(self.label)
+        ns.PrepareLinks(self.note)
+
+        C_Timer.After(0, function()
+            -- label
+            GameTooltip:SetText(ns.RenderLinks(self.label, true))
+
+            -- note
+            if self.note and ns:GetOpt('show_notes') then
+                GameTooltip:AddLine(ns.RenderLinks(self.note), 1, 1, 1, true)
+            end
+
+            GameTooltip:Show()
+        end)
+    end
+end
+
+function WorldMapPinMixin:OnMouseLeave() GameTooltip:Hide() end
 
 -------------------------------------------------------------------------------
 ------------------------------ HANDYNOTES HOOKS -------------------------------
