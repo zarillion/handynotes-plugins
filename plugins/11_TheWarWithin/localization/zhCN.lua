@@ -19,6 +19,9 @@ L['options_icons_profession_treasures_desc'] = '显示给予专业知识的宝�
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = '显示 {achievement:40762} 成就中剧情物品的位置。'
 
+L['options_icons_flight_master'] = '{achievement:40430}'
+L['options_icons_flight_master_desc'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------

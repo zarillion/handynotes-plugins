@@ -19,6 +19,9 @@ L['options_icons_profession_treasures_desc'] = '顯示會給予專業技能知�
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = '顯示成就 {achievement:40762} 所需的知識位置.'
 
+L['options_icons_flight_master'] = '{achievement:40430}'
+L['options_icons_flight_master_desc'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
