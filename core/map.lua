@@ -295,6 +295,10 @@ end
 function MinimapPinMixin:OnAcquired(poi, ...)
     local mapID = HBD:GetPlayerZone()
     local x, y = poi:Draw(self, ...)
+
+    self.label = poi.label
+    self.note = poi.note
+
     if GetCVar('rotateMinimap') == '1' then self:UpdateRotation() end
     HBDPins:AddMinimapIconMap(MinimapPinsKey, self, mapID, x, y, true)
 end
@@ -312,6 +316,35 @@ function MinimapPinMixin:UpdateRotation()
     if self.rotation == nil or self.provider.facing == nil then return end
     self.texture:SetRotation(self.rotation + math.pi * 2 - self.provider.facing)
 end
+
+function MinimapPinMixin:OnMouseEnter()
+    if self.label then
+        local x, _ = self:GetCenter()
+        local parentX, _ = self:GetParent():GetCenter()
+        if (x > parentX) then
+            GameTooltip:SetOwner(self, 'ANCHOR_LEFT')
+        else
+            GameTooltip:SetOwner(self, 'ANCHOR_RIGHT')
+        end
+
+        ns.PrepareLinks(self.label)
+        ns.PrepareLinks(self.note)
+
+        C_Timer.After(0, function()
+            -- label
+            GameTooltip:SetText(ns.RenderLinks(self.label, true))
+
+            -- note
+            if self.note and ns:GetOpt('show_notes') then
+                GameTooltip:AddLine(ns.RenderLinks(self.note), 1, 1, 1, true)
+            end
+
+            GameTooltip:Show()
+        end)
+    end
+end
+
+function MinimapPinMixin:OnMouseLeave() GameTooltip:Hide() end
 
 MinimapDataProvider:SetScript('OnUpdate', function()
     if GetCVar('rotateMinimap') == '1' then MinimapDataProvider:OnUpdate() end
@@ -424,12 +457,12 @@ end
 
 function WorldMapPinMixin:OnMouseEnter()
     if self.label then
-        local x, _ = self:GetCenter();
-        local parentX, _ = self:GetParent():GetCenter();
+        local x, _ = self:GetCenter()
+        local parentX, _ = self:GetParent():GetCenter()
         if (x > parentX) then
-            GameTooltip:SetOwner(self, 'ANCHOR_LEFT');
+            GameTooltip:SetOwner(self, 'ANCHOR_LEFT')
         else
-            GameTooltip:SetOwner(self, 'ANCHOR_RIGHT');
+            GameTooltip:SetOwner(self, 'ANCHOR_RIGHT')
         end
 
         ns.PrepareLinks(self.label)
