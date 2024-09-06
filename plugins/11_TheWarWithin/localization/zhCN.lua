@@ -35,7 +35,7 @@ L['thaks_treasure_note'] = '与 {npc:223227} 交谈并跟随他。'
 L['trees_treasure_note'] = '与 {npc:222940} 交谈，获得 {item:224185}。引导6个 {npc:224548}（{dot:Green}）绕过 {location:多恩岛} 返回 {npc:222940}。将所有螃蟹引导回来后，返回洞穴中的 {npc:222940} 并与她交谈。'
 L['turtles_thanks_1_note'] = '交出5个 {item:220143}（可从 {object:平静的浮面涟漪} 渔点钓鱼或从拍卖行购买）。{note:离开该区域并立即返回交出下一条鱼。}'
 L['turtles_thanks_2_note'] = '交出1个 {item:222533}（可从 {object:浮光之池}，{object:溃烂的腐臭之池}，{object:飞溅的注能脓液} 渔点钓鱼或从拍卖行购买）。'
-L['turtles_thanks_3_note'] = '在 {location:多恩诺嘉尔} 与 {npc:223338} 会面并与她交谈以发现宝藏。'
+L['turtles_thanks_3_note'] = '在 {location:多恩诺嘉尔} 与 {npc:223338} 会面并与她交谈以揭示宝藏。'
 L['web_wrapped_axe_note'] = '在一楼。\n\n{note:有1-2小时的刷新时间。}'
 L['faithful_dog_note'] = [[
 1. 在 {map:424} 的 {map:376} 的 {location:汇风岭} 处找到 {npc:59533} 并完成 {quest:30526}。
@@ -272,7 +272,7 @@ L['no_harm_from_reading_note'] = [[
 ]]
 L['another_you_4_note'] = '沿着标记的路径巡逻。'
 
-L['concealed_contraband_note'] = nil
+L['concealed_contraband_note'] = '移除 {object:网茧} 后揭示宝藏。'
 L['memory_cache_note'] = '从附近的（{dot:Red}）{object:提取器存储} 获取 {spell:420847}。击杀 {npc:223908} 后获取 {item:223870} 以打开 {object:记忆箱子}。'
 L['niffen_stash_note'] = '在桥下。'
 L['trapped_trove_note'] = '在从天花板垂下的建筑物中。避开地板上的蜘蛛网。'
