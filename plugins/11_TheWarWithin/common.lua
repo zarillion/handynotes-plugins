@@ -87,11 +87,11 @@ ns.groups.I_ONLY_NEED_ONE_TRIP = Group('i_only_need_one_trip', 236316, {
     achievement = 40623
 })
 
-ns.groups.KHAZ_ALGAR_LORE_HUNTER = Group('khaz_algar_lore_hunter', 4419344, {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.ACHIEVEMENT,
-    achievement = 40762
-})
+-- ns.groups.KHAZ_ALGAR_LORE_HUNTER = Group('khaz_algar_lore_hunter', 4419344, {
+--     defaults = ns.GROUP_HIDDEN,
+--     type = ns.group_types.ACHIEVEMENT,
+--     achievement = 40762
+-- })
 
 ns.groups.LOST_AND_FOUND = Group('lost_and_found', 4635200, {
     defaults = ns.GROUP_HIDDEN,
@@ -178,14 +178,14 @@ ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
 -------------------------------------------------------------------------------
 ---------------------------- KHAZ ALGAR LORE HUNTER ---------------------------
 -------------------------------------------------------------------------------
---[[
-local LoreObject = Class('LoreObject', Collectible, {
-    icon = 4419344,
-    group = ns.groups.KHAZ_ALGAR_LORE_HUNTER
-})
 
-ns.node.LoreObject = LoreObject
-]]
+-- local LoreObject = Class('LoreObject', Collectible, {
+--     icon = 4419344,
+--     group = ns.groups.KHAZ_ALGAR_LORE_HUNTER
+-- })
+
+-- ns.node.LoreObject = LoreObject
+
 -------------------------------------------------------------------------------
 ------------------------------- SKYRIDING GLYPH -------------------------------
 -------------------------------------------------------------------------------
