@@ -1,3 +1,7 @@
+# v93
+
+* Localization updates: esES, frFR, zhCN
+
 # v91
 
 Fixed Disturbed Earth not showing up.
