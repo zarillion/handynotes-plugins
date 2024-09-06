@@ -86,6 +86,7 @@ map.nodes[25004500] = BeledarsSpawn()
 map.nodes[65052965] = Rare({
     id = 206514,
     quest = 82558, -- 84052
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69720}),
         Reputation({id = 2570, gain = 150, quest = 84052}),
@@ -113,6 +114,7 @@ map.nodes[67552316] = Rare({
 map.nodes[63643205] = Rare({
     id = 206184,
     quest = 82559, -- 84053
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69721}),
         Reputation({id = 2570, gain = 150, quest = 84053}),
@@ -160,6 +162,7 @@ map.nodes[72116435] = Rare({
 map.nodes[63931977] = Rare({
     id = 221179,
     quest = 82562, -- 84056
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69724}),
         Reputation({id = 2570, gain = 150, quest = 84056}),
@@ -172,6 +175,7 @@ map.nodes[63931977] = Rare({
 map.nodes[62011683] = Rare({
     id = 207780,
     quest = 82564, -- 84059
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69727}),
         Reputation({id = 2570, gain = 150, quest = 84059}),
@@ -268,6 +272,7 @@ map.nodes[23005922] = Rare({
 map.nodes[63452854] = Rare({
     id = 206203,
     quest = 82557, -- 84051
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69719}),
         Reputation({id = 2570, gain = 150, quest = 84051}),
@@ -294,6 +299,7 @@ map.nodes[52132681] = Rare({
 map.nodes[61981331] = Rare({ -- patrols
     id = 220771,
     quest = 82565, -- 84060
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69728}),
         Reputation({id = 2570, gain = 150, quest = 84060}),
@@ -334,6 +340,7 @@ map.nodes[57304857] = Rare({
 map.nodes[61943197] = Rare({
     id = 207826,
     quest = 82566, --- 84058
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69726}),
         Reputation({id = 2570, gain = 150, quest = 84058}),
@@ -408,6 +415,7 @@ map.nodes[56486899] = Rare({
 map.nodes[66432411] = Rare({
     id = 207803,
     quest = 82561, -- 84055
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69723}),
         Reputation({id = 2570, gain = 150, quest = 84055}),

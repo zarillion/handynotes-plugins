@@ -194,6 +194,7 @@ L['beledars_spawn_note'] = 'Ce rare apparaît à un de ces endroits à intervall
 L['croakit_note'] = 'Pêchez 10x {item:211474} au sein du {object:Banc de mérous sombrœil} proche (ou achetez-les à l\'hôtel des ventes) et lancez-les vers lui pour le rendre attaquable.'
 L['deathtide_note'] = 'Récupérez une {item:220122} {dot:Red} et un {item:220124} {dot:Green}. Combinez-les en l\'{item:220123} utilisée pour invoquer le rare à l\'{object:Autel menaçant}.'
 L['murkshade_note'] = 'Interagissez avec la {npc:218455}.'
+L['spreading_the_light_rares_note'] = nil
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = 'Afficher les emplacements des cibles pour le haut-fait {achievement:40151}.'

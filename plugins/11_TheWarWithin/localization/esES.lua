@@ -193,6 +193,7 @@ L['beledars_spawn_note'] = 'Este raro aparece en uno de muchos sitios a intérva
 L['croakit_note'] = 'Pesca 10x {item:211474} de un {object:Banco de Mero Sombraceguera} cercano (o cómpralos en la casa de subastas) y lánzaselos para poder atacar al raro.'
 L['deathtide_note'] = 'Consigue {item:220122} {dot:Red} y {item:220124} {dot:Green}. Combínalos para crear la {item:220123} y poder invocar el raro en el {object:Altar Agorero}.'
 L['murkshade_note'] = 'Interactúa con {npc:218455}.'
+L['spreading_the_light_rares_note'] = nil
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = 'Muestra dónde están los objtivos del logro {achievement:40151}.'

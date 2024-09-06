@@ -193,6 +193,7 @@ L['beledars_spawn_note'] = 'This rare spawns at one of several locations at a fi
 L['croakit_note'] = 'Fish up 10x {item:211474} from a nearby {object:Shadowblind Grouper School} (or purchase from the auction house) and throw them to him to make the rare attackable.'
 L['deathtide_note'] = 'Collect an {item:220122} {dot:Red} and a {item:220124} {dot:Green}. Combine them to {item:220123} to summon the rare at the {object:Ominous Altar}.'
 L['murkshade_note'] = 'Interact with the {npc:218455}.'
+L['spreading_the_light_rares_note'] = 'Rare spawns after the lit {object:Keyflame} at the current location is extinguished.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = 'Display target locations for {achievement:40151} achievement.'

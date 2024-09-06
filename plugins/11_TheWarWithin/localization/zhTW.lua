@@ -187,6 +187,7 @@ L['beledars_spawn_note'] = nil
 L['croakit_note'] = nil
 L['deathtide_note'] = nil
 L['murkshade_note'] = nil
+L['spreading_the_light_rares_note'] = nil
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = '顯示成就 {achievement:40151} 所需的目標位置.'

@@ -193,6 +193,7 @@ L['beledars_spawn_note'] = '此稀有会以固定的时间间隔在多个位置�
 L['croakit_note'] = '从附近的 {object:影盲石斑鱼群} 钓起10个 {item:211474}（或者从拍卖行购买）然后把它们扔给它，使稀有可被攻击。'
 L['deathtide_note'] = '收集一个 {item:220122} {dot:Red} 和一个 {item:220124} {dot:Green}。将它们组合成 {item:220123}，在 {object:不祥祭坛} 召唤稀有。'
 L['murkshade_note'] = '与 {npc:218455} 互动。'
+L['spreading_the_light_rares_note'] = '当前位置点燃的 {object:钥焰} 熄灭后稀有出现。'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = '显示 {achievement:40151} 成就中的目标位置。'
