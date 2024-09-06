@@ -424,8 +424,8 @@ end
 
 function WorldMapPinMixin:OnMouseEnter()
     if self.label then
-        local x, y = self:GetCenter();
-        local parentX, parentY = self:GetParent():GetCenter();
+        local x, _ = self:GetCenter();
+        local parentX, _ = self:GetParent():GetCenter();
         if (x > parentX) then
             GameTooltip:SetOwner(self, 'ANCHOR_LEFT');
         else
