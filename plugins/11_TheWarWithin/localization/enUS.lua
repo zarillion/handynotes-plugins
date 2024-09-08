@@ -288,6 +288,8 @@ L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Display locations for the {achievement:40634} achievement.'
 L['you_cant_hang_with_us_note'] = 'Find a {npc:211816} with the {spell:434734} buff and attack him, to get the {spell:443190} debuff (1 minute). A {npc:225408} ({note:Do not kill him!}) will interfere and stack the {spell:454666} debuff on you. At 10 stacks, you will be forcibly removed from the City.'
 
+L['kej_pet_vendor_note'] = 'Each pet has a limited stock and costs 2,250 {currency:3056}.\n\n{note:Estimated respawn time is 3-4 hours for each pet item at any vendor.}'
+
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------

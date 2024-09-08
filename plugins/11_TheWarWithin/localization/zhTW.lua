@@ -272,6 +272,8 @@ L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = '顯示成就 {achievement:40634} 的位置.'
 L['you_cant_hang_with_us_note'] = nil
 
+L['kej_pet_vendor_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
