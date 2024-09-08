@@ -288,8 +288,7 @@ L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Muestra dónde ir para el logro {achievement:40634}.'
 L['you_cant_hang_with_us_note'] = 'Busca un {npc:211816} con el buff {spell:434734} y atácale para conseguir el debuff {spell:443190} (1 minuto de duración). Un {npc:225408} ({note:¡No le mates!}) interferirá y te echará el debuff {spell:454666}. Con 10 acumulaciones, serás expulsado por la fuerza de la Ciudad.'
 
-L['kej_pet_vendor_note'] = nil
-
+L['kej_pet_vendor_note'] = 'Hay una cantidad limitada de cada mascota y cuesta 2.250x {currency:3056}.\n\n{note:El tiempo de reaparición estimado es 3-4 horas para cada objeto de mascota en todos los vendedores.}'
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
