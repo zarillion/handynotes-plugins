@@ -1,3 +1,7 @@
+# v95
+
+* Localization updates: zhCN
+
 # v94
 
 * Localization updates: deDE, esES, frFR
