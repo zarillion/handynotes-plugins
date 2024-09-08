@@ -1,6 +1,6 @@
 # v94
 
-* Localization updates: esES, frFR
+* Localization updates: deDE, esES, frFR
 
 # v93
 
