@@ -1,3 +1,7 @@
+# v94
+
+* Localization updates: esES, frFR
+
 # v93
 
 * Added a note for rares that will spawn during the "Spread the Light" event.
