@@ -289,7 +289,7 @@ L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:40634}.'
 L['you_cant_hang_with_us_note'] = 'Trouvez une {npc:211816} avec l\'effet {spell:434734} et attaquez-la pour obtenir l\'affaiblissement {spell:443190} (1 minute). Un {npc:225408} interviendra ({note:Ne le tuez pas !}) et vous appliquera des charges de l\'affaiblissement {spell:454666}. À 10 charges, vous serez expulsé de force de la Cité.'
 
-L['kej_pet_vendor_note'] = 'Chaque mascotte est limitée en stock et coûte 2 250 {currency:3056}.\n\n{note:Le temps de réapparition estimé est de 3 à 4 heures pour chaque mascotte auprès de n\'importe quel vendeur.}'
+L['kej_pet_vendor_note'] = 'Chaque mascotte est limitée en stock et coûte 2250x {currency:3056}.\n\n{note:Le temps de réapparition estimé est de 3 à 4 heures pour chaque mascotte auprès de n\'importe quel vendeur.}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
