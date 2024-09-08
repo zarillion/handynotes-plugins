@@ -288,7 +288,7 @@ L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = '显示 {achievement:40634} 成就中的位置。'
 L['you_cant_hang_with_us_note'] = '找到一个带有 {spell:434734} 增益效果的 {npc:211816} 并攻击他，会给你 {spell:443190} 负面效果（1分钟）。（{note:不要击杀他！}）会干扰并叠加 {spell:454666} 负面效果在身上。叠加至10层时，将被强制驱逐出城。'
 
-L['kej_pet_vendor_note'] = nil
+L['kej_pet_vendor_note'] = '每只宠物的库存有限，价格为2,250个 {currency:3056}。\n\n{note:任意商人的每个宠物物品的预计刷新时间为3-4小时。}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
