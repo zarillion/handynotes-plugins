@@ -216,6 +216,13 @@ L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = 'Zeigt die Position für den Erfolg {achievement:20594} an.'
 L['flamegards_hope_note'] = 'Hilf {npc:213319} 20 Tage lang die {npc:verletzten Soldaten} zu heilen.\n\nDu kannst auch einen {spell:372009} oder {item:211878} nutzen, wenn deine Klasse nicht heilen kann.'
 
+L['hallowfall_sparkfly_label'] = nil
+L['hallowfall_sparkfly_note'] = nil
+
+L['nightfarm_growthling_note'] = nil
+
+L['thunder_lynx_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

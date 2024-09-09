@@ -1,3 +1,7 @@
+# v96
+
+* Add hidden treasure pets to Hallowfall ( Hallowed Glowfly, Nightfarm Growthling, and Thunder)
+
 # v95
 
 * Localization updates: zhCN

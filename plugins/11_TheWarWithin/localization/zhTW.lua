@@ -208,6 +208,13 @@ L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = nil
 L['flamegards_hope_note'] = nil
 
+L['hallowfall_sparkfly_label'] = nil
+L['hallowfall_sparkfly_note'] = nil
+
+L['nightfarm_growthling_note'] = nil
+
+L['thunder_lynx_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

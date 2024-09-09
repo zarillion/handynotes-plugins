@@ -18,10 +18,11 @@ local SkyridingGlyph = ns.node.SkyridingGlyph
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
+local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Reputation = ns.reward.Reputation
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
-local Reputation = ns.reward.Reputation
 
 local ItemStatus = ns.tooltip.ItemStatus
 
@@ -1318,3 +1319,64 @@ map.nodes[43205177] = Collectible({
     group = ns.groups.FLAMEGARDS_HOPE,
     rewards = {Achievement({id = 20594, criteria = {id = 1, qty = true}})}
 })
+
+-------------------------------------------------------------------------------
+---------------------------- PET: HALLOWED GLOWFLY ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[65762440] = Collectible({
+    label = L['hallowfall_sparkfly_label'],
+    icon = 5771176,
+    note = L['hallowfall_sparkfly_note'],
+    rewards = {
+        Pet({item = 220771, id = 4467}) -- Hallowed Glowfly
+    },
+    pois = {
+        POI({
+            65802510, 66702410, 66732700, 67162701, 67202631, 67572416,
+            66862343, 66812530
+        })
+    }
+}) -- Hallowfall Sparkfly
+
+-------------------------------------------------------------------------------
+-------------------------- PET: NIGHTFORM GROWTHLING --------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[64593069] = Collectible({
+    label = '{item:221546}',
+    icon = 2027888,
+    note = L['nightfarm_growthling_note'],
+    rewards = {
+        Pet({item = 221546, id = 4534}) -- Nightfarm Growthling
+    },
+    pois = {POI({63403105, 63002941, 65163340, 64103150})}
+}) -- Nightfarm Growthling
+
+-------------------------------------------------------------------------------
+-------------------------------- PET: THUNDER ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[64451882] = Collectible({
+    label = '{item:220782}',
+    icon = 5648285,
+    note = L['thunder_lynx_note'],
+    -- quest = 82006, -- triggered after following all dialog
+    rewards = {
+        Pet({item = 220782, id = 4462}) -- Thunder
+    },
+    pois = {
+        POI({points = {66311569}, color = 'Blue'}), -- Beef
+        POI({points = {65951863}, color = 'Blue'}), -- Cave entrance to Beef
+        Path({
+            points = {
+                65951863, 66111857, 66231823, 66311781, 66281722, 66311569
+            },
+            color = 'Blue'
+        }), -- Cave path to Beef
+        POI({points = {63901970}, color = 'Green'}), -- Beans
+        POI({points = {61982078}, color = 'Orange'}), -- Thunder
+        POI({points = {66702100}, color = 'Red'}) -- Cap'n Elaena
+
+    }
+}) -- Thunder

@@ -214,6 +214,13 @@ L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = '显示 {achievement:20594} 成就中的位置。'
 L['flamegards_hope_note'] = '帮助 {npc:213319} 治疗 {npc:220225} 20天。\n\n如果当前职业无法治疗，可以使用 {spell:372009} 或 {item:211878}。'
 
+L['hallowfall_sparkfly_label'] = nil
+L['hallowfall_sparkfly_note'] = nil
+
+L['nightfarm_growthling_note'] = nil
+
+L['thunder_lynx_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

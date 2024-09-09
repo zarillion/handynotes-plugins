@@ -214,6 +214,13 @@ L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = 'Muestra los sitios para hacer el logro {achievement:20594}.'
 L['flamegards_hope_note'] = 'Ayuda a {npc:213319} durante 20 Días curando las {npc:220225}.\n\nTambién puedes usar una {spell:372009} o una {item:211878} si tu clase no puede curar.'
 
+L['hallowfall_sparkfly_label'] = nil
+L['hallowfall_sparkfly_note'] = nil
+
+L['nightfarm_growthling_note'] = nil
+
+L['thunder_lynx_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

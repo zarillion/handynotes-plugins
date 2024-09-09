@@ -215,6 +215,13 @@ L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:20594}.'
 L['flamegards_hope_note'] = 'Aidez {npc:213319} à soigner les {npc:220225} pendant 20 jours.\n\nVous pouvez également utiliser un {spell:372009} ou une {item:211878} si votre classe ne peut pas soigner.'
 
+L['hallowfall_sparkfly_label'] = nil
+L['hallowfall_sparkfly_note'] = nil
+
+L['nightfarm_growthling_note'] = nil
+
+L['thunder_lynx_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
