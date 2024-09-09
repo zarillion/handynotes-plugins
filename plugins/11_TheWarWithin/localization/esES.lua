@@ -277,6 +277,8 @@ Una vez que hayas caído, interactúa con el {object:Grimorio Carnoso} cercano p
 Localiza cada {npc:227421} e interactúa para hacerles volver al {object:Grimorio Carnoso}.
 
 Una vez todos devueltos, regresa al {object:Grimorio Carnoso} y habla con {npc:227421}.
+
+{note:Requiere pasar por el punto de vuelo para hacer aparecer a {npc:227421}.}
 ]]
 L['another_you_4_note'] = 'Patrulla por la ruta marcada.'
 
