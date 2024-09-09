@@ -214,12 +214,12 @@ L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = 'Muestra los sitios para hacer el logro {achievement:20594}.'
 L['flamegards_hope_note'] = 'Ayuda a {npc:213319} durante 20 Días curando las {npc:220225}.\n\nTambién puedes usar una {spell:372009} o una {item:211878} si tu clase no puede curar.'
 
-L['hallowfall_sparkfly_label'] = nil
-L['hallowfall_sparkfly_note'] = nil
+L['hallowfall_sparkfly_label'] = 'Chispa vuelo de Santificación'
+L['hallowfall_sparkfly_note'] = 'Usa 3x {item:206350} en la {object:Llave ardiente inferior} de la {location:Charca Piedraserena} para invocar a {npc:215956}.\n\nCompra un {item:218107} para conseguir 2x {item:206350} y úsalos para encontrar el {npc:222308} cercano hasta que aparezca el {object:Chispa vuelo de Santificación}.'
 
-L['nightfarm_growthling_note'] = nil
+L['nightfarm_growthling_note'] = 'Usa 3x {item:206350} en la {object:Llave ardiente inferior} de {location:Campo Vibratorio} para invocar a {npc:208186}.\n\nCompra un {item:219148} para conseguir 2x {item:206350} y usálos para encontrar el {item:221546}.'
 
-L['thunder_lynx_note'] = nil
+L['thunder_lynx_note'] = '1. Usa 3x {item:206350} en la {object:Llave ardiente inferior} de la {location:Mina Antorcha} para invocar a {npc:212419}.\n\n2. Habla con {npc:212419} y sigue todas las líneas de diálogo hasta que consigas la misión {quest:82007}.\n\n3. Localiza cada cría de lince: {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}), y {npc:222374} ({dot:Red}).\n\n{note:Asegúrate de empezar la misión {quest:76169} al mismo tiempo que consigas la {item:219198} o usa un objeto similar como la {item:219148}. Necesitarás una luz para conseguir a {npc:222373} dentro de la {location:Cueva Sombrafría}.}\n\n4. Rescata todos los gatitos lince y regresa con {npc:212419}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
