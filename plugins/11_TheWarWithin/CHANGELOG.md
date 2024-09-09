@@ -1,6 +1,7 @@
 # v95
 
-* Add hidden treasure pets to Hallowfall ( Hallowed Glowfly, Nightfarm Growthling, and Thunder)
+* Add hidden treasure pets to Hallowfall (Hallowed Glowfly, Nightfarm Growthling, and Thunder)
+* Add Kej vendor pets to Azj-Kahet (Bean, Fringe, and Itchbite) 
 * Localization updates: esES, frFR, zhCN
 
 # v94
