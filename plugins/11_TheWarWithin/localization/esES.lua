@@ -266,7 +266,7 @@ L['options_icons_skittershaw_spin_desc'] = 'Muestra las rutas de los correteador
 L['skittershaw_spin_note'] = 'Conduce el {npc:224973} durante una vuelta completa alrededor del distrito.\n\nEl {npc:224973} se parará en los puntos {dot:Red} a lo largo de la ruta.'
 
 L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
-L['options_icons_no_harm_from_reading_desc'] = 'Muestra dónde están {npc:227421} para el logro {achievement:40632}.'
+L['options_icons_no_harm_from_reading_desc'] = 'Muestra dónde están los {npc:227421} para el logro {achievement:40632}.'
 L['no_harm_from_reading_note'] = [[
 Entra en la cueva ({dot:Yellow}). Dirígete a ({dot:Red}), sube por la pared donde se encuentran las 3 arañas y entra por el agujero que hay detrás de la araña de la parte superior.
 
@@ -274,14 +274,14 @@ Una vez que hayas caído, interactúa con el {object:Grimorio Carnoso} cercano p
 
 {npc:227421} desaparecerá y reaparecerá en el mapa.
 
-Localiza cada {npc:227421} e interactúa para hacerles volver al {object:Grimorio Carnoso}.
+Localiza cada {npc:227421} e interactúa para hacerles volver al {object:Grimorio carnoso}.
 
-Una vez todos devueltos, regresa al {object:Grimorio Carnoso} y habla con {npc:227421}.
+Una vez todos devueltos, regresa al {object:Grimorio carnoso} y habla con tu {npc:227421}.
 ]]
 L['another_you_4_note'] = 'Patrulla por la ruta marcada.'
 
-L['concealed_contraband_note'] = 'Quita la {object:Crisálida de Telaraña} del Tesoro para verlo.'
-L['memory_cache_note'] = 'Consigue {spell:420847} de un ({dot:Red}) {object:Extractor de Almacenaje} cercano. Después mata la {npc:223908} para conseguir la {item:223870} que abrirá el {object:Alijo de Recuerdos}.'
+L['concealed_contraband_note'] = 'Quita la {object:Crisálida de telaraña} del Tesoro para verlo.'
+L['memory_cache_note'] = 'Consigue {spell:420847} del ({dot:Red}) {object:Almacenaje de extractores} cercano. Después mata la {npc:223908} para conseguir la {item:223870} que abrirá el {object:Alijo de recuerdos}.'
 L['niffen_stash_note'] = 'Está debajo del puente.'
 L['trapped_trove_note'] = 'En un edificio que cuelga del techo. Evita las telarañas del suelo.'
 
@@ -296,11 +296,12 @@ L['options_icons_you_cant_hang_with_us_desc'] = 'Muestra dónde ir para el logro
 L['you_cant_hang_with_us_note'] = 'Busca un {npc:211816} con el buff {spell:434734} y atácale para conseguir el debuff {spell:443190} (1 minuto de duración). Un {npc:225408} ({note:¡No le mates!}) interferirá y te echará el debuff {spell:454666}. Con 10 acumulaciones, serás expulsado por la fuerza de la Ciudad.'
 
 L['kej_pet_vendor_note'] = 'Hay una cantidad limitada de cada mascota y cuesta 2.250x {currency:3056}.\n\n{note:El tiempo de reaparición estimado es 3-4 horas para cada objeto de mascota en todos los vendedores.}'
+
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
-L['sturdy_chest'] = 'Cofre Robusto'
+L['sturdy_chest'] = 'Cofre robusto'
 L['sturdy_chest_suffix'] = 'Cofre robusto encontrado'
 
 L['ecm_chest_3_location'] = 'En la grúa. Salta desde el nivel superior.'
