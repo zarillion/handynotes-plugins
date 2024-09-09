@@ -278,7 +278,7 @@ Track down each {npc:227421} and interact with them to return them back to the {
 
 Once you have found all 4 {npc:227421}, head back to the {object:Fleshy Grimoire} and talk to the {npc:227421}.
 
-Need to discovered the flight waypoint first before {npc:227421} will be spawns.
+Requires passing through the flight point to spawn {NPC:227421}
 ]]
 L['another_you_4_note'] = 'Patrols along the marked path.'
 
