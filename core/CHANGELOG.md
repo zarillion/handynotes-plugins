@@ -1,3 +1,7 @@
+# v95
+
+* Updated core localizations: zhTW
+
 # v92
 
 * Rares with uncollected reputation will now appear as purple skulls. This option only
