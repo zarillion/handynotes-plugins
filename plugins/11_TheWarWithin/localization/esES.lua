@@ -165,7 +165,7 @@ L['biblo_book_10_location'] = 'En las habitaciones del capitán a bordo del {loc
 L['biblo_book_11_location'] = 'Dentro del edificio sobre una mesa.'
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
-L['options_icons_lost_and_found_desc'] = 'Muestra dónde están todos los recuerdos del logro {achievement:40618}.'
+L['options_icons_lost_and_found_desc'] = 'Muestra dónde están los recuerdos del logro {achievement:40618}.'
 
 L['lost_and_found_note'] = 'Progresa en la cadena de misiones Recuerdos del Cielo que empieza con la misión {quest:80673} que te da ({dot:Red}) {npc:220718}. {note:Las misiones se desbloquean semanalmente}.\n\nCada semana se han de completar 3 recuerdos, hasta completar la misión {quest:80678}.'
 L['broken_bracelet_location'] = 'Entrega {item:219810} a {npc:215527}.'
