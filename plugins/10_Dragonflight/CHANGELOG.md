@@ -1,3 +1,7 @@
+# v97
+
+* Localization updates: zhTW
+
 # v96
 
 * Localization updates: esES
