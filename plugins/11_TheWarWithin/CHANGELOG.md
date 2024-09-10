@@ -1,8 +1,12 @@
+# v97
+
+* Localization updates: zhTW
+
 # v96
 
 * Add flight master locations for the achievement [Khaz Algar Flight Master](https://www.wowhead.com/achievement=40430/khaz-algar-flight-master)
 * Update location note for Chest 3 in The Skittering Breach Delve.
-* Localization updates: deDE, esES, frFR, zhCN, zhTW
+* Localization updates: deDE, esES, frFR, zhCN
 
 # v95
 
