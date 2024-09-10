@@ -1,3 +1,7 @@
+# v96
+
+* Localization updates: esES
+
 # v89
 
 * Fixed tooltip spacing in Dragonbane and Grand Hunt tooltips.
