@@ -1,7 +1,7 @@
 # v96
 
 * Add flight master locations for the achievement [Khaz Algar Flight Master](https://www.wowhead.com/achievement=40430/khaz-algar-flight-master)
-* Localization updates: esES, frFR, zhCN
+* Localization updates: deDE, esES, frFR, zhCN
 
 # v95
 
