@@ -20,6 +20,9 @@ L['options_icons_profession_treasures_desc'] = 'Afficher les emplacements des tr
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:40762}.'
 
+L['options_icons_flight_master'] = '{achievement:40430}'
+L['options_icons_flight_master_desc'] = 'Afficher les emplacements des {npc:Maîtres de vol} pour le haut-fait {achievement:40430}.'
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------

@@ -12,6 +12,7 @@ local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
+local FlightMaster = ns.node.FlightMaster
 -- local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
@@ -1319,6 +1320,42 @@ map.nodes[43205177] = Collectible({
     group = ns.groups.FLAMEGARDS_HOPE,
     rewards = {Achievement({id = 20594, criteria = {id = 1, qty = true}})}
 })
+
+-------------------------------------------------------------------------------
+-------------------- ACHIEVEMENT: KHAZ ALGAR FLIGHT MASTER --------------------
+-------------------------------------------------------------------------------
+
+map.nodes[40457130] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68182})}
+}) -- Light's Redoubt
+
+map.nodes[41143365] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68186})}
+}) -- Priory of the Sacred Flame
+
+map.nodes[41575260] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68185})}
+}) -- Mereldar
+
+map.nodes[48394071] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68187})}
+}) -- Lorel's Crossing
+
+map.nodes[52866134] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68181})}
+}) -- Lightspark
+
+map.nodes[61343100] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68188})}
+}) -- Hillhelm Family Farm
+
+map.nodes[67484452] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68180})}
+}) -- Dunelle's Kindness
+
+map.nodes[71365648] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68189})}
+}) -- The Aegis Wall
 
 -------------------------------------------------------------------------------
 ---------------------------- PET: HALLOWED GLOWFLY ----------------------------

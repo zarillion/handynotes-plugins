@@ -13,6 +13,7 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
 
+local FlightMaster = ns.node.FlightMaster
 -- local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
@@ -794,3 +795,23 @@ map.nodes[66733837] = DisturbedEarth()
 map.nodes[67753931] = DisturbedEarth()
 map.nodes[67794830] = DisturbedEarth()
 map.nodes[75624339] = DisturbedEarth() -- ?
+
+-------------------------------------------------------------------------------
+-------------------- ACHIEVEMENT: KHAZ ALGAR FLIGHT MASTER --------------------
+-------------------------------------------------------------------------------
+
+map.nodes[46873337] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68190})}
+}) -- Gundargaz
+
+map.nodes[58166405] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68184})}
+}) -- Camp Murroch
+
+map.nodes[61444793] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68191})}
+}) -- Shadowvein Point
+
+map.nodes[64717808] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68183})}
+}) -- Opportunity Point

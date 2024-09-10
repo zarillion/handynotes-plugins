@@ -19,6 +19,9 @@ L['options_icons_profession_treasures_desc'] = 'Muestra dónde están los tesoro
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = 'Muestra dónde están los objetos históricos del logro {achievement:40762}.'
 
+L['options_icons_flight_master'] = '{achievement:40430}'
+L['options_icons_flight_master_desc'] = 'Muestra los {npc:Maestro de Vuelo} para el logro {achievement:40430}.'
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------

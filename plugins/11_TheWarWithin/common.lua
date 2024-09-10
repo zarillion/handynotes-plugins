@@ -70,6 +70,12 @@ ns.groups.FLAT_EARTHEN = Group('flat_earthen', 4620670, {
     achievement = 40606
 })
 
+ns.groups.FLIGHT_MASTER = Group('flight_master', 'flight_point_y', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40430
+})
+
 ns.groups.GOBBLIN_WITH_GLUBLURP = Group('gobblin_with_glublurp', 5763494, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -268,6 +274,18 @@ ns.node.DisturbedEarth = Class('Disturbed_earth', ns.node.Node, {
     }
 }) -- Disturbed Earth - Not on Minimap but quite visible from some distance
 -- first loot triggered quest 84543 probably not relevant
+
+-------------------------------------------------------------------------------
+-------------------- ACHIEVEMENT: KHAZ ALGAR FLIGHT MASTER --------------------
+-------------------------------------------------------------------------------
+
+local FlightMaster = Class('FlightMaster', Collectible, {
+    icon = 'flight_point_y',
+    scale = 2,
+    group = ns.groups.FLIGHT_MASTER
+}) -- Flight Point
+
+ns.node.FlightMaster = FlightMaster
 
 -------------------------------------------------------------------------------
 ------------------------------ KHAZ ALGAR SAFARI ------------------------------

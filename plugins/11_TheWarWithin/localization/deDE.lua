@@ -20,6 +20,9 @@ L['options_icons_profession_treasures_desc'] = 'Zeigt die Positionen der Schätz
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = 'Zeigt die Positionen der Geschichtsobjekte für den Erfolg {achievement:40762} an.'
 
+L['options_icons_flight_master'] = '{achievement:40430}'
+L['options_icons_flight_master_desc'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
