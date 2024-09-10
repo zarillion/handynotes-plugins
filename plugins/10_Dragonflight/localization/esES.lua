@@ -1140,9 +1140,9 @@ L['soa_01_golden_chalice_note'] = 'Coloca el {item:208056} en el {location:Tesor
 
 -- Secrets of Azeroth: Clue 2
 L['soa_02_rlabel'] = '(Pista 2)'
-L['soa_02_kathos_note'] = 'Habla con {npc:206864} para conseguir la {item:207105}.\n\nDásela a {npc:186448} de {location:Iskaara} en {location:Las Tierras Azures}.'
+L['soa_02_kathos_note'] = 'Habla con {npc:206864} para conseguir la {item:207105}.\n\nDásela a {npc:186448} en {location:Iskaara} de {location:Las Tierras Azures}.'
 L['soa_02_shomko_note_a'] = 'Habla con el {npc:186448} para conseguir la {item:207580}.'
-L['soa_02_shomko_note_b'] = 'Colócala en la {object:Lanza Ceremonial} de las {location:Ruinas Tralladón} en la {location:Tundra Boreal} de {location:Rasganorte}.'
+L['soa_02_shomko_note_b'] = 'Colócala en la {object:Lanza ceremonial} en las {location:Ruinas Tralladón} de la {location:Tundra Boreal} de {location:Rasganorte}.'
 L['soa_02_shomko_note_c'] = '{note:Aségurate de quedarte y matar al {npc:208182} para conseguir el {item:207594}.}'
 
 -- Secrets of Azeroth: Clue 3
@@ -1155,47 +1155,47 @@ L['soa_03_fangli_hoot_note_e'] = 'Combina los objetos para conseguir {item:20782
 L['soa_03_fangli_clue_label'] = 'Pista de Fangli'
 L['soa_03_fangli_clue'] = 'Cerca de una cascada en el {location:Enclave Emeralda}.'
 L['soa_03_erugosa_note_a'] = 'Habla con {npc:185556} para conseguir la {item:208416}. Necesitarás conseguir los siguientes objetos para ella:'
-L['soa_03_erugosa_note_b'] = 'Compra 5x {item:198441} a {npc:194152} de {location:Avanzada Pasoleño} en las {location:Llanuras de Ohn\'ahra}.'
-L['soa_03_erugosa_note_c'] = 'Compra 5x {item:201419} a {npc:196729} de {location:Valdrakken} en {location:Thaldraszus}.'
-L['soa_03_erugosa_note_d'] = 'Compra 5x {item:205693} a {npc:204371} de {location:Loamm} en la {location:Caverna Zaralek}.'
+L['soa_03_erugosa_note_b'] = 'Compra 5x {item:198441} a {npc:194152} en la {location:Avanzada Pasoleño} de las {location:Llanuras de Ohn\'ahra}.'
+L['soa_03_erugosa_note_c'] = 'Compra 5x {item:201419} a {npc:196729} en {location:Valdrakken} de {location:Thaldraszus}.'
+L['soa_03_erugosa_note_d'] = 'Compra 5x {item:205693} a {npc:204371} en {location:Loamm} de la {location:Caverna Zaralek}.'
 L['soa_03_clinkyclick_note_a'] = 'Habla con {npc:185548} para conseguir {item:207814}. Necesitarás:'
-L['soa_03_clinkyclick_note_b'] = 'Recibir 10x {item:207956} de {npc:185556} en {location:El Carnero Asado} en {location:Valdrakken}.'
+L['soa_03_clinkyclick_note_b'] = 'Recibir 10x {item:207956} de {npc:185556} en {location:El Carnero Asado} de {location:Valdrakken}.'
 L['soa_03_gryffin_note_a'] = 'Habla con {npc:197781} para conseguir {item:207813}. Necesitarás:'
-L['soa_03_gryffin_note_b'] = 'Despoja 1x {item:207812} matando {npc:191451} del {location:Filo de la Cascada} en {location:Valdrakken}.'
+L['soa_03_gryffin_note_b'] = 'Despoja 1x {item:207812} matando {npc:191451} en el {location:Filo de la Cascada} de {location:Valdrakken}.'
 L['soa_03_shakey_note_a'] = 'Habla con {npc:198586} para conseguir {item:207816}.'
-L['soa_03_shakey_note_b'] = 'Paga la cuenta del bar de {npc:198586} %s del {location:Tesoro del Dragón} en {location:Valdrakken}.'
-L['soa_03_shakey_note_c'] = 'Entra en el {location:Tesoro del Dragón} a través de la entrada secreta tecleando en el chat la emoción {emote:/arrodillarse} en la {object:Estatua Extraña} en la parte trasera de {location:El Carnero Asado}.'
+L['soa_03_shakey_note_b'] = 'Paga la cuenta del bar de {npc:198586} %s en el {location:Tesoro del Dragón} de {location:Valdrakken}.'
+L['soa_03_shakey_note_c'] = 'Entra en el {location:Tesoro del Dragón} a través de la entrada secreta tecleando en el chat la emoción {emote:/arrodillarse} en la {object:Estatua extraña} en la parte trasera de {location:El Carnero Asado}.'
 
 -- Secrets of Azeroth: Clue 4
 L['soa_04_rlabel'] = '(Pista 4)'
-L['soa_04_locker_label'] = 'Armario de Ecologista'
-L['soa_04_sazsel_note_a'] = 'Despoja el {item:208130} de dentro del {object:Armario de Ecologista} en el piso superior de {location:El Carnero Asado} y llévaselo a {npc:208620} en {location:Valdrakken}.'
+L['soa_04_locker_label'] = 'Armario de conservacionista'
+L['soa_04_sazsel_note_a'] = 'Despoja el {item:208130} de dentro del {object:Armario de conservacionista} en el piso superior de {location:El Carnero Asado} y llévaselo a {npc:208620} en {location:Valdrakken}.'
 L['soa_04_sazsel_note_b'] = 'Una vez tasado el estandarte, vuelve al armario y devuélvelo. Ahora ve a hablar con {npc:207697}.'
 
 -- Secrets of Azeroth: Clue 5
 L['soa_05_rlabel'] = '(Pista 5)'
-L['soa_05_torch_of_pyrreth_note_a'] = 'Activa las 3 {object:Palanca Antigua} que hay alrededor del {location:Invernadero de la Protectora} en las {location:Orillas del Despertar} para descubrir la {item:208135}.'
+L['soa_05_torch_of_pyrreth_note_a'] = 'Activa las 3 {object:Palanca antigua} que hay alrededor del {location:Invernadero de la Protectora} en las {location:Orillas del Despertar} para descubrir la {item:208135}.'
 L['soa_05_torch_of_pyrreth_note_b'] = 'Una vez la tengas devuélvela a la {npc:206864} de {location:El Carnero Asado} en {location:Valdrakken}.'
-L['soa_05_torch_of_pyrreth_note_c'] = 'Usa tu {item:208092} para conseguir el buff {spell:419127}. Ahora puedes descubrir el {npc:209011} dónde aparece una {object:Caja Encantada}.'
-L['soa_05_ancient_lever_label'] = 'Palanca Antigua'
+L['soa_05_torch_of_pyrreth_note_c'] = 'Usa tu {item:208092} para conseguir el buff {spell:419127}. Ahora puedes descubrir el {npc:209011} dónde aparece una {object:Caja encantada}.'
+L['soa_05_ancient_lever_label'] = 'Palanca antigua'
 L['soa_05_ancient_lever_note_a'] = 'En la parte trasera del edificio en ruinas detrás de {npc:195915}.'
 L['soa_05_ancient_lever_note_b'] = 'Dentro de la torre en ruinas.'
 L['soa_05_ancient_lever_note_c'] = 'Dentro del edificio cerca de {npc:186823} y {npc:186825}.'
-L['soa_05_enchanted_box_label'] = 'Caja Encantada'
+L['soa_05_enchanted_box_label'] = 'Caja encantada'
 
 -- Secrets of Azeroth: Clue 6
 L['soa_06_rlabel'] = '(Pista 6)'
-L['soa_06_unvieled_tablet_label'] = 'Tablilla Desvelada'
+L['soa_06_unvieled_tablet_label'] = 'Tablilla desvelada'
 L['soa_06_unvieled_tablet_note_a'] = 'Habla con {npc:207696} para completar la misión {quest:77284} y conseguir {item:208137}.\n\nEntonces viaja a {location:Vakthros} en {location:Las Tierras Azures}.'
-L['soa_06_unvieled_tablet_note_b'] = 'Usa la {item:208092} en la base del pilón de {location:Vakthros} en {location:Las Tierras Azures} para revelar la {object:Tablilla Desvelada}.'
+L['soa_06_unvieled_tablet_note_b'] = 'Usa la {item:208092} en la base del pilón de {location:Vakthros} en {location:Las Tierras Azures} para revelar la {object:Tablilla desvelada}.'
 L['soa_06_unvieled_tablet_note_c'] = 'Despoja el {item:208143} y devuélvelo a {npc:207696} en {location:Valdrakken} para completar el secreto.'
 
 -- Secrets of Azeroth: Clue 7
 L['soa_07_rlabel'] = '(Pista 7)'
-L['soa_07_brazier_label'] = 'Blandón de Incienso Antiguo'
-L['soa_07_brazier_note_a'] = 'Habla con {npc:185562} para completar la misión {quest:77303} y conseguir {item:208144}.\n\nVes a las {location:Llanuras de Ohn\'ahra} a {location:Kurgans Eternos}.'
-L['soa_07_brazier_note_b'] = 'Usa la {item:208135} para encender el {object:Blandón de Incienso Antiguo} dentro del túmulo funerario.'
-L['soa_07_idol_note'] = 'Despoja el {item:207730} junto al {object:Blandón de Incienso Antiguo} y devuélvelo a {location:Valdrakken}.'
+L['soa_07_brazier_label'] = 'Blandón de incienso antiguo'
+L['soa_07_brazier_note_a'] = 'Habla con {npc:185562} para completar la misión {quest:77303} y conseguir {item:208144}.\n\nVes a las {location:Llanuras de Ohn\'ahra} en {location:Kurgans Eternos}.'
+L['soa_07_brazier_note_b'] = 'Usa la {item:208135} para encender el {object:Blandón de incienso antiguo} dentro del túmulo funerario.'
+L['soa_07_idol_note'] = 'Despoja el {item:207730} junto al {object:Blandón de incienso antiguo} y devuélvelo a {location:Valdrakken}.'
 
 -- Secrets of Azeroth: Clue 8
 L['soa_08_rlabel'] = '(Pista 8)'
@@ -1208,10 +1208,10 @@ L['soa_08_tl_fragment_location_c'] = 'En el fondo de un río pequeño.'
 -- Secrets of Azeroth: Clue 9
 L['soa_09_rlabel'] = '(Pista 9)'
 L['soa_09_bobby_note'] = 'Habla con {npc:207696} para empezar la misión {quest:77653}. Entrega la misión al {npc:195769} para conseguir {item:208486}.\n\nEntonces viaja al {location:Claro Nemoroso} en las {location:Llanuras Ohn\'ahra}.'
-L['soa_09_hastily_scrawled_stone_label'] = 'Tablilla Inscrita con Prisas'
-L['soa_09_hastily_scrawled_stone_note'] = 'Usa la {item:208092} para descubrir la {object:Tablilla Inscrita con Prisas} e ir junto al {object:Molde de Llave Antiguo}.'
-L['soa_09_ancient_key_mold_label'] = 'Molde de Llave Antiguo'
-L['soa_09_ancient_key_mold_note'] = 'Despoja el {object:Molde de Llave Antiguo} para conseguir el {item:208827} que empezará la misión {quest:77822}.\n\nDevuélvelo al {npc:195769} en {location:Valdrakken}.'
+L['soa_09_hastily_scrawled_stone_label'] = 'Piedra inscrita con prisas'
+L['soa_09_hastily_scrawled_stone_note'] = 'Usa la {item:208092} para descubrir la {object:Piedra inscrita con prisas} e ir junto al {object:Molde de llave antiguo}.'
+L['soa_09_ancient_key_mold_label'] = 'Molde de llave antiguo'
+L['soa_09_ancient_key_mold_note'] = 'Despoja el {object:Molde de llave antiguo} para conseguir el {item:208827} que empezará la misión {quest:77822}.\n\nDevuélvelo al {npc:195769} en {location:Valdrakken}.'
 
 -- Secrets of Azeroth: Clue 10
 L['soa_10_rlabel'] = '(Pista 10)'
@@ -1223,15 +1223,15 @@ L['soa_10_weaponsmith_koref_note'] = 'Habla con {npc:210837} y comienza la misi�
 -- Secrets of Azeroth: Clue 11
 L['soa_11_rlabel'] = '(Pista 11)'
 L['soa_11_rlabel_optional'] = '(Pista 11 - Opcional)'
-L['soa_11_kathos_note'] = 'Habla con {npc:206864} y te dará {item:208852}. Ves a {npc:195543} en las {location:Llanuras de Ohn\'ahra} para preguntarle acerca del Estandarte.'
-L['soa_11_sansok_khan_note'] = 'Pregunta a {npc:195543} cómo enterrar adecuadamente a {npc:Ishtar Rethon}, el cazador al que le pertenecía.\n\nRecibirás el {item:209061} y se te pedirá que busques a {npc:191391} en {location:Puesto del Pinar}.'
+L['soa_11_kathos_note'] = 'Habla con {npc:206864} y te dará {item:208852}. Ves a {npc:195543} en las {location:Llanuras de Ohn\'ahra} para preguntarle acerca del estandarte.'
+L['soa_11_sansok_khan_note'] = 'Pregunta a {npc:195543} cómo enterrar adecuadamente a {npc:Ishtar Rethon}, el cazador al que le pertenecía.\n\nRecibirás el {item:209061} y se te pedirá que busques a {npc:191391} en el {location:Puesto del Pinar}.'
 L['soa_11_jhara_note'] = 'Habla con {npc:191391}, la tabernera. Ella te dará {item:208857}, la pista para este secreto.'
-L['soa_11_marker_1_label'] = 'Primer Marcador'
-L['soa_11_marker_2_label'] = 'Segundo Marcador'
-L['soa_11_marker_3_label'] = 'Tercer Marcador'
-L['soa_11_marker_4_label'] = 'Cuarto Marcador'
+L['soa_11_marker_1_label'] = 'Primer marcador'
+L['soa_11_marker_2_label'] = 'Segundo marcador'
+L['soa_11_marker_3_label'] = 'Tercer marcador'
+L['soa_11_marker_4_label'] = 'Cuarto marcador'
 L['soa_11_marker_4_note'] = 'Dentro del túmulo funerario.'
-L['soa_11_marker_5_label'] = 'Quinto Marcador'
+L['soa_11_marker_5_label'] = 'Quinto marcador'
 L['soa_11_marker_5_note'] = 'Si está activa la misión {wq:Víctimas de Telarañas} debe ser completada antes usando la {item:208092} para quemar las telarañas y revelar la pista.'
 L['soa_11_burial_banner_note'] = 'Aventúrate a las profundidades de la cueva y llega al piso superior una vez que encuentres una rampa. Al final del último piso encontrarás un lugar para depositar el {item:208852}.'
 
@@ -1243,25 +1243,25 @@ L['soa_12_ancient_tome_note'] = 'Busca por los tomos con tu {item:207730} hasta 
 -- Secrets of Azeroth: Clue 13
 L['soa_13_rlabel'] = '(Pista 13)'
 L['soa_13_bobby_note'] = 'Habla con {npc:207696} para comenzar la misión {quest:77928}.'
-L['soa_13_great_place_a_label'] = 'Factura de Venta de la Casa de Subastas'
+L['soa_13_great_place_a_label'] = 'Factura de la casa de subastas'
 L['soa_13_great_place_a_note'] = 'En una pila de cajas dentro de la entrada de la {location:Casa de Subastas}.'
-L['soa_13_great_place_b_label'] = 'Recepción del Depósito del Vacío'
+L['soa_13_great_place_b_label'] = 'Recibo del depósito del Vacío'
 L['soa_13_great_place_b_note'] = 'En una pila de cajas en el edificio del Transfigurador y el Depósito del Vacío.'
-L['soa_13_great_place_c_label'] = 'Recepción del Jardín de Suministros'
+L['soa_13_great_place_c_label'] = 'Recibo de suministros de jardinería'
 L['soa_13_great_place_c_note'] = 'En un edificio pequeño con dos {npc:197035} discutiendo.'
-L['soa_13_great_place_d_label'] = 'Notas del Investigador'
+L['soa_13_great_place_d_label'] = 'Notas del investigador'
 L['soa_13_great_place_d_note'] = 'Dentro de un edificio pequeño cerca de unos libros.'
-L['soa_13_great_place_e_label'] = 'Nota Garabateada Deprisa'
+L['soa_13_great_place_e_label'] = 'Nota garabateada deprisa'
 L['soa_13_great_place_e_note'] = 'Detrás del puesto del vendedor en el {location:Mercado de los Artesanos}.'
 L['soa_13_great_place_f_label'] = 'Nota para Kritha'
 L['soa_13_great_place_f_note'] = 'En una caja dentro del {location:Tesoro del Dragón}.\n\nNecesitas teclear la emoción {emote:/reverencia} a la {npc:189827} en el {location:Carnero Asado} para entrar en el bar secreto.'
 
 -- Secrets of Azeroth: Clue 14
 L['soa_14_rlabel'] = '(Pista 14)'
-L['soa_14_tithris_note'] = 'Habla con {npc:185562} quien te dará {item:208942}. Entonces ve a la {location:Cima de Embozo de Tormenta} en {location:Thaldraszus}.'
-L['soa_14_buried_object_label'] = 'Objeto Enterrado (%d)'
-L['soa_14_tablet_label'] = 'Tablilla con Inscripciones Titánicas (%d)'
-L['soa_14_tablet_note'] = 'Usa la {item:208092} para revelar las {object:Tablilla con Inscripciones Titánicas}. Sigue las coordenadas del {item:206696} para llegar al {object:Objeto Enterrado} y desenterrar la {item:209795}.'
+L['soa_14_tithris_note'] = 'Habla con {npc:185562} quien te dará {item:208942}. Entonces ve a la {location:Cima de Embozo de Tormenta} de {location:Thaldraszus}.'
+L['soa_14_buried_object_label'] = 'Objeto enterrado (%d)'
+L['soa_14_tablet_label'] = 'Tablilla con inscripciones titánicas (%d)'
+L['soa_14_tablet_note'] = 'Usa la {item:208092} para revelar las {object:Tablilla con inscripciones titánicas}. Sigue las coordenadas del {item:206696} para llegar al {object:Objeto enterrado} y desenterrar la {item:209795}.'
 
 -- Secrets of Azeroth: Clue 15
 L['soa_15_rlabel'] = '(Pista 15)'
@@ -1270,11 +1270,11 @@ L['soa_15_tyrhold_statue_label'] = 'Estatua de Tyrhold'
 L['soa_15_tyrhold_statue_note'] = 'Acércate a la Estatua de Tyrhold con la {item:208092} y canaliza hasta que el orbe reluzca de color rojo brillante.'
 L['soa_15_tyrhold_forge_label'] = 'Forja de Tyrhold'
 L['soa_15_tyrhold_forge_note'] = 'Acércate a la forja en el centro de {location:Tyrhold} para conseguir el buff {spell:423792}.'
-L['soa_15_broken_urn_note'] = 'Despoja la {object:Urna Rota} para conseguir {item:%d}.'
+L['soa_15_broken_urn_note'] = 'Despoja la {object:Urna rota} para conseguir {item:%d}.'
 L['soa_15_broken_urn_location'] = 'Está en el nivel %d de {location:Tyrhold}.'
-L['soa_15_titan_power_relay_label'] = 'Titan Power Relay'
-L['soa_15_tpr_note'] = 'Inserta {item:%d} dentro del {object:Repetidor de Poder Titánico}.'
-L['soa_15_orb_label'] = 'Ubicación de Orbe'
+L['soa_15_titan_power_relay_label'] = 'Repetidor de poder titánico'
+L['soa_15_tpr_note'] = 'Inserta {item:%d} dentro del {object:Repetidor de poder titánico}.'
+L['soa_15_orb_label'] = 'Ubicación de orbe'
 L['soa_15_orb_location'] = 'Encima de {location:Tyrhold}.'
 L['soa_15_orb_note'] = [[
 Acepta la misión {quest:77977} e inspecciona el orbe para invocar a {npc:210674} y a {npc:210675}. Derrótales para conseguir el {item:209555}.
@@ -1284,21 +1284,21 @@ Despoja el cofre y devuelve el {item:209555} a {npc:206864} quien apareció cerc
 ]]
 
 -- Community Rumor Mill
-L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de Porquería Blanda}.'
+L['buried_satchel_note'] = 'Despoja {item:208142} de un {object:Montículo de porquería blanda}.'
 L['buried_satchel_sublabel'] = '{note:Esto no es un localización de {item:208142}.}'
 
-L['bs_epl_location'] = 'Detrás del edificio en {location:Cruce de Corin}.'
-L['bs_fel_location'] = 'Bajo el agua en el centro de {location:Cascadas del Veneno}.'
-L['bs_tho_location'] = 'En una cueva bajo el agua llamada {location:Campamento Pezuña Quebrada}.'
-L['bs_smv_location'] = 'Dentro del árbol hueco en {location:Pico Sauce Lunar}.'
-L['bs_net_location'] = 'En {location:Forja de Maná B\'naar} de {location:Tormenta Abisal} en {location:Terrallende}.\n\n{note:Necesitarás 3 jugadores para canalizar la {item:208092} en los cristales cercanos para hacer aparecer el {object:Montículo de Porquería Blanda}.}'
+L['bs_epl_location'] = 'Detrás del edificio en el {location:Cruce de Corin}.'
+L['bs_fel_location'] = 'Bajo el agua en el centro de las {location:Cascadas del Veneno}.'
+L['bs_tho_location'] = 'En una cueva llamada {location:Campamento Pezuña Quebrada} bajo el agua .'
+L['bs_smv_location'] = 'Dentro del árbol hueco en el {location:Pico Sauce Lunar}.'
+L['bs_net_location'] = 'En la {location:Forja de Maná B\'naar} de {location:Tormenta Abisal} en {location:Terrallende}.\n\n{note:Necesitarás 3 jugadores para canalizar la {item:208092} en los cristales cercanos para hacer aparecer el {object:Montículo de porquería blanda}.}'
 L['bs_vfw_location'] = 'En la cima de la cascada dorada y dentro de la boca la estatua de un {npc:129151}.'
-L['bs_tas_location'] = 'Usa la {item:208135} para derretir el {npc:96438} y hacer aparecer el {object:Montículo de Porquería Blanda}.'
+L['bs_tas_location'] = 'Usa la {item:208135} para derretir el {npc:96438} y hacer aparecer el {object:Montículo de porquería blanda}.'
 L['bs_dbt_location'] = 'Debajo de la gran garra esquelética del {location:%s}.'
 L['bs_bar_location'] = 'En la cima de la montaña.'
 L['bs_nag_location'] = 'En una isla flotante muy por encima del {location:Lago Sol Celeste}.'
 L['bs_gri_location'] = 'Habla con {npc:%s} para dar un paseo en tronco desde el {location:Aserradero Cielo Azul} hasta {location:Bahía Ventura}. Cuando comiences el paseo recibirás el buff {spell:423942}.\n\n{note:Tienes que tener el buff {spell:423942} para poder ver la bolsa.}'
-L['bs_hmt_location'] = 'Encima del {location:Pico de Monte Alto} cerca del {object:Papiro Deteriorado}.'
+L['bs_hmt_location'] = 'Encima del {location:Pico de Monte Alto} cerca del {object:Papiro deteriorado}.'
 L['bs_wpl_location'] = 'Entre el carro y el torreón de {location:Castel Darrow}.'
 L['bs_tli_location'] = 'En el suelo, en el centro de la arena.'
 L['bs_tir_location'] = 'En lo alto de la montaña con vistas a {location:Fuerte Libre}.'
@@ -1307,14 +1307,14 @@ L['bs_emerald_dragonshrine'] = 'Santuario de Dragones Esmeralda'
 L['bs_bronze_dragonshrine'] = 'Santuario de Dragones Bronce'
 
 L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
-L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secrets of Azeroth}.'
+L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para el logro {location:Secretos de Azeroth}.'
 
 -- Mimiron's Jumpjets Mount
-L['soa_mjj_list_note'] = 'Recoge las 3 piezas y ensámblalas en la {object:Forja Arcana Potenciada} para conseguir los {item:210022}:'
+L['soa_mjj_list_note'] = 'Recoge las 3 piezas y ensámblalas en la {object:Forja arcana potenciada} para conseguir los {item:210022}:'
 L['soa_mjj_part1_note'] = 'Necesitas a 2 jugadores más para que canalicen junto a ti sus {item:208092} a los braseros para invocar a {npc:210398}. Al despojarlo soltará la {item:208984}.'
 L['soa_mjj_part2_note'] = [[{note:Necesitaréis ser al menos 4 personas para esta pieza.}
 
-En {location:Bosque de Troncoferro}, tendrás que buscar un {npc:210417} gigante y una {object:Pieza del Propulsor de Mimiron} para usar. Puedes usar la {object:Pieza del Propulsor de Mimiron} para subirte en el elemental y usar su habilidad {spell:423412} para absorber a las personas dentro, o correr cerca del elemental (pero no lo suficientemente cerca como para que te alcance su área de acción, ya que te empuja hacia atrás) para que la persona que lo pilote pueda absorberte.
+En el {location:Bosque de Troncoferro}, tendrás que buscar un {npc:210417} gigante y una {object:Pieza del propulsor de Mimiron} para usar. Puedes usar la {object:Pieza del propulsor de Mimiron} para subirte en el elemental y usar su habilidad {spell:423412} para absorber a las personas dentro, o correr cerca del elemental (pero no lo suficientemente cerca como para que te alcance su área de acción, ya que te empuja hacia atrás) para que la persona que lo pilote pueda absorberte.
 
 Una vez el elemental absorbe 4 personas dentro, explotará y soltará la {item:209781}. Cualquiera que esté cerca podrá despojarla.]]
 L['soa_mjj_part3_note'] = 'La {item:209055} estará esperándote enfrente del {object:Portal Oscuro} en {location:Las Tierras Devastadas}. Ten cuidado con los {npc:23082} y los NPCs de la zona, ya que se necesita canalizar durante 12 segundos para despojar la pieza.'
@@ -1323,8 +1323,8 @@ L['soa_mjj_part3_note'] = 'La {item:209055} estará esperándote enfrente del {o
 ------------------------------- WARCRAFT RUMBLE -------------------------------
 -------------------------------------------------------------------------------
 
-L['rumble_coin_bag'] = 'Bolsa de Monedas de Warcraft Rumble'
-L['rumble_foil_bag'] = 'Caja de Brillos de Warcraft Rumble'
+L['rumble_coin_bag'] = 'Bolsa de monedas de Warcraft Rumble'
+L['rumble_foil_bag'] = 'Caja de brillos de Warcraft Rumble'
 L['rumble_both_bags'] = 'Moneda de Warcraft Rumble y Brillos de Warcraft Rumble'
 L['warcraft_rumble_machine'] = 'Máquina de Warcraft Rumble'
 
@@ -1335,12 +1335,12 @@ L['wr_sto_foil_01'] = 'Cerca de una pila de bolas de cañón.'
 L['wr_sto_foil_02'] = 'Cerca de la rampa que baja a los muelles.'
 L['wr_tas_both_01'] = 'Detrás de un árbol con vistas a la {location:Cala del Ballenero}.'
 L['wr_tas_foil_01'] = 'Cerca de un árbol enorme roto.'
-L['wr_tha_both_01'] = 'En una isla flotante cerca de {location:Reserva de Tyrhold}.'
+L['wr_tha_both_01'] = 'En una isla flotante cerca de la {location:Reserva de Tyrhold}.'
 L['wr_tha_foil_01'] = 'Encima de un jarrón gigante.'
 L['wr_tws_both_01'] = 'En lo alto de la torre de piedra con vistas al agua.'
 L['wr_tws_foil_01'] = 'Encima de una montaña con vistas a la lava.'
 L['wr_tws_foil_02'] = 'En una torre pequeña de piedra con vistas al agua.'
-L['wr_val_coin_01'] = 'En el primer piso de {location:El Carnero Asado} cerca del {object:Horno de Cocina}.'
+L['wr_val_coin_01'] = 'En el primer piso de {location:El Carnero Asado} cerca del {object:Horno de cocina}.'
 L['wr_val_foil_01'] = 'En la cama del segundo piso de {location:El Carnero Asado}.'
 L['wr_val_machine'] = 'En el segundo piso de {location:El Carnero Asado}.'
 L['wr_org_coin_01'] = 'En el segundo piso de {location:El Colmillo Roto}.'
@@ -1348,21 +1348,21 @@ L['wr_org_foil_01'] = 'Tras la {location:Casa de Subastas}.'
 L['wr_dur_foil_01'] = 'Detrás de unas cajas de suministros.'
 
 L['options_icons_warcraft_rumble'] = 'Warcraft Rumble'
-L['options_icons_warcraft_rumble_desc'] = 'Muestra dónde están las {object:Bolsa de Monedas de Warcraft Rumble} y {object:Caja de Brillos de Warcraft Rumble} vinculadas a la campaña promocional de {object:Warcraft Rumble}.'
+L['options_icons_warcraft_rumble_desc'] = 'Muestra dónde están las {object:Bolsa de monedas de Warcraft Rumble} y {object:Caja de brillos de Warcraft Rumble} vinculadas a la campaña promocional de {object:Warcraft Rumble}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- AMIRDRASSIL ---------------------------------
 -------------------------------------------------------------------------------
 
-L['kaldorei_backpack_label'] = 'Mochila Kaldorei'
-L['kaldorei_bag_label'] = 'Bolsa Kaldorei'
-L['kaldorei_bedroll_label'] = 'Saco de Dormir Kaldorei'
-L['kaldorei_dagger_label'] = 'Daga Kaldorei'
-L['kaldorei_horn_label'] = 'Cuerno Kaldorei'
-L['kaldorei_moon_bow_label'] = 'Arco Lunar Kaldorei'
-L['kaldorei_shield_label'] = 'Escudo Kaldorei'
-L['kaldorei_spear_label'] = 'Lanza Kaldorei'
-L['kaldorei_spyglass_label'] = 'Catalejo Kaldorei'
+L['kaldorei_backpack_label'] = 'Mochila kaldorei'
+L['kaldorei_bag_label'] = 'Bolsa kaldorei'
+L['kaldorei_bedroll_label'] = 'Saco de dormir kaldorei'
+L['kaldorei_dagger_label'] = 'Daga kaldorei'
+L['kaldorei_horn_label'] = 'Cuerno kaldorei'
+L['kaldorei_moon_bow_label'] = 'Arco lunar kaldorei'
+L['kaldorei_shield_label'] = 'Escudo kaldorei'
+L['kaldorei_spear_label'] = 'Lanza kaldorei'
+L['kaldorei_spyglass_label'] = 'Catalejo kaldorei'
 
 L['blue_kaldorei_backpack_note'] = 'Encima de una caja en la tienda del puerto de {location:Belanaar}.'
 L['blue_kaldorei_bedroll_note'] = 'Detrás de la mesa cerca del pozo de la luna.'
@@ -1373,7 +1373,7 @@ L['night_elven_bow_note'] = 'Apoyado contra el estante de armas del {location:Re
 L['night_elven_horn_note'] = 'En una caja en la parte superior de la {location:Atalaya del Alba} cerca de {npc:216752}.'
 L['night_elven_shield_note'] = 'Apoyado contra una caja cerca del instructor de minería {npc:216269}.'
 L['night_elven_signal_note'] = 'Colgando de un blandón encima de las escaleras.'
-L['night_elven_spear_note'] = 'Apoyado contra la pared de {location:Cámara Afilada}.'
+L['night_elven_spear_note'] = 'Apoyado contra la pared de la {location:Cámara Afilada}.'
 L['violet_kaldorei_pouch_note'] = 'Cerca de la parte inferior del arco detrás del pozo de la luna.'
 
 L['moon_priestess_lasara_note'] = 'Intercambia {currency:2003} por transfiguraciones.'
