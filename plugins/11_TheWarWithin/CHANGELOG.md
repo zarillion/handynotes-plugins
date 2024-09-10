@@ -1,6 +1,24 @@
+# v95
+
+* Add hidden treasure pets to Hallowfall (Hallowed Glowfly, Nightfarm Growthling, and Thunder)
+* Add Kej vendor pets to Azj-Kahet (Bean, Fringe, and Itchbite)
+* Fixed Delve tooltip spacing.
+* Localization updates: deDE, esES, frFR, zhCN
+
+# v94
+
+* Localization updates: deDE, esES, frFR
+
+# v93
+
+* Added a note for rares that will spawn during the "Spread the Light" event.
+* Removed the achievement [Khaz Algar Lore Hunter](https://www.wowhead.com/achievement=40762).
+  * This achievement will be added again when Blizzard reactivates it.
+* Localization updates: deDE, esES, frFR, zhCN.
+
 # v91
 
-Fixed Disturbed Earth not showing up.
+* Fixed Disturbed Earth not showing up.
 
 # v90
 

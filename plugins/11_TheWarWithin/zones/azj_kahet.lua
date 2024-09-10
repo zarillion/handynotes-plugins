@@ -13,7 +13,7 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local FlightMaster = ns.node.FlightMaster
-local LoreObject = ns.node.LoreObject
+-- local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
@@ -763,47 +763,47 @@ map.nodes[06001200] = ItsyBitsySpider({
 --------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------
 -------------------------------------------------------------------------------
 
-cot.nodes[77557018] = LoreObject({
-    parent = map.id,
-    rewards = {
-        Achievement({id = 40762, criteria = 69385}),
-        Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
-        Reputation({id = 2607, gain = 85})
-    }
-}) -- Forgotten Shadecaster
+-- cot.nodes[77557018] = LoreObject({
+--     parent = map.id,
+--     rewards = {
+--         Achievement({id = 40762, criteria = 69385}),
+--         Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
+--         Reputation({id = 2607, gain = 85})
+--     }
+-- }) -- Forgotten Shadecaster
 
-map.nodes[75443325] = LoreObject({
-    rewards = {
-        Achievement({id = 40762, criteria = 69387}),
-        Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
-        Reputation({id = 2607, gain = 85})
-    }
-}) -- Kah'teht
+-- map.nodes[75443325] = LoreObject({
+--     rewards = {
+--         Achievement({id = 40762, criteria = 69387}),
+--         Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
+--         Reputation({id = 2607, gain = 85})
+--     }
+-- }) -- Kah'teht
 
-map.nodes[54071889] = LoreObject({
-    rewards = {
-        Achievement({id = 40762, criteria = 69388}),
-        Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
-        Reputation({id = 2607, gain = 85})
-    }
-}) -- Mad Nerubian
+-- map.nodes[54071889] = LoreObject({
+--     rewards = {
+--         Achievement({id = 40762, criteria = 69388}),
+--         Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
+--         Reputation({id = 2607, gain = 85})
+--     }
+-- }) -- Mad Nerubian
 
-cot.nodes[08533058] = LoreObject({
-    parent = map.id,
-    rewards = {
-        Achievement({id = 40762, criteria = 69386}),
-        Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
-        Reputation({id = 2607, gain = 85})
-    }
-}) -- Neglected Shadecaster
+-- cot.nodes[08533058] = LoreObject({
+--     parent = map.id,
+--     rewards = {
+--         Achievement({id = 40762, criteria = 69386}),
+--         Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
+--         Reputation({id = 2607, gain = 85})
+--     }
+-- }) -- Neglected Shadecaster
 
-map.nodes[71126233] = LoreObject({
-    rewards = {
-        Achievement({id = 40762, criteria = 69384}),
-        Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
-        Reputation({id = 2607, gain = 85})
-    }
-}) -- Weathered Shadecaster
+-- map.nodes[71126233] = LoreObject({
+--     rewards = {
+--         Achievement({id = 40762, criteria = 69384}),
+--         Reputation({id = 2601, gain = 85}), Reputation({id = 2605, gain = 85}),
+--         Reputation({id = 2607, gain = 85})
+--     }
+-- }) -- Weathered Shadecaster
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: SMELLING HISTORY ---------------------------
@@ -1116,3 +1116,65 @@ map.nodes[60001869] = FlightMaster({
 map.nodes[76846444] = FlightMaster({
     rewards = {Achievement({id = 40430, criteria = 68179})}
 }) -- Mmari
+
+-------------------------------------------------------------------------------
+---------------------- PET: BEAN (FRESHLY WEBBED KEBAB) -----------------------
+-------------------------------------------------------------------------------
+
+local KejPetVendor = Class('KejPetVendor', ns.node.Vendor, {
+    note = L['kej_pet_vendor_note'],
+    fgroup = 'kej_pet_vendor'
+}) -- Kej Pet Vendor
+
+cot.nodes[50472651] = KejPetVendor({
+    id = 218198,
+    rewards = {
+        Pet({item = 221850, id = 4464, note = '{npc:222202}'}) -- Bean
+    }
+}) -- Pelefien
+
+cot.nodes[49042650] = KejPetVendor({
+    id = 218197,
+    rewards = {
+        Pet({item = 221850, id = 4464, note = '{npc:222202}'}) -- Bean
+    }
+}) -- Kurth
+
+cot.nodes[49302664] = KejPetVendor({
+    id = 218199,
+    rewards = {
+        Pet({item = 221850, id = 4464, note = '{npc:222202}'}) -- Bean
+    }
+}) -- Kram'an
+
+cot.nodes[49752616] = KejPetVendor({
+    id = 218200,
+    rewards = {
+        Pet({item = 221850, id = 4464, note = '{npc:222202}'}) -- Bean
+    }
+}) -- Yaggi
+
+cot.nodes[44961666] = KejPetVendor({
+    id = 218209,
+    rewards = {
+        Pet({item = 221850, id = 4464, note = '{npc:222202}'}), -- Bean
+        Pet({item = 222973, id = 4492}), -- Fringe
+        Pet({item = 222968, id = 4476}) -- Itchbite
+    }
+}) -- Tyro Uwe
+
+cot.nodes[44201715] = KejPetVendor({
+    id = 218207,
+    rewards = {
+        Pet({item = 222973, id = 4492}), -- Fringe
+        Pet({item = 222968, id = 4476}) -- Itchbite
+    }
+}) -- Clutchmother Marntiq
+
+cot.nodes[46282915] = KejPetVendor({
+    id = 218224,
+    rewards = {
+        Pet({item = 222973, id = 4492}), -- Fringe
+        Pet({item = 222968, id = 4476}) -- Itchbite
+    }
+}) -- "Calmest" Gobbu

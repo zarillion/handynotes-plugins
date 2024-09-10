@@ -13,16 +13,17 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local FlightMaster = ns.node.FlightMaster
-local LoreObject = ns.node.LoreObject
+-- local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
+local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Reputation = ns.reward.Reputation
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
-local Reputation = ns.reward.Reputation
 
 local ItemStatus = ns.tooltip.ItemStatus
 
@@ -87,6 +88,7 @@ map.nodes[25004500] = BeledarsSpawn()
 map.nodes[65052965] = Rare({
     id = 206514,
     quest = 82558, -- 84052
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69720}),
         Reputation({id = 2570, gain = 150, quest = 84052}),
@@ -114,6 +116,7 @@ map.nodes[67552316] = Rare({
 map.nodes[63643205] = Rare({
     id = 206184,
     quest = 82559, -- 84053
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69721}),
         Reputation({id = 2570, gain = 150, quest = 84053}),
@@ -161,6 +164,7 @@ map.nodes[72116435] = Rare({
 map.nodes[63931977] = Rare({
     id = 221179,
     quest = 82562, -- 84056
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69724}),
         Reputation({id = 2570, gain = 150, quest = 84056}),
@@ -173,6 +177,7 @@ map.nodes[63931977] = Rare({
 map.nodes[62011683] = Rare({
     id = 207780,
     quest = 82564, -- 84059
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69727}),
         Reputation({id = 2570, gain = 150, quest = 84059}),
@@ -269,6 +274,7 @@ map.nodes[23005922] = Rare({
 map.nodes[63452854] = Rare({
     id = 206203,
     quest = 82557, -- 84051
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69719}),
         Reputation({id = 2570, gain = 150, quest = 84051}),
@@ -295,6 +301,7 @@ map.nodes[52132681] = Rare({
 map.nodes[61981331] = Rare({ -- patrols
     id = 220771,
     quest = 82565, -- 84060
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69728}),
         Reputation({id = 2570, gain = 150, quest = 84060}),
@@ -335,6 +342,7 @@ map.nodes[57304857] = Rare({
 map.nodes[61943197] = Rare({
     id = 207826,
     quest = 82566, --- 84058
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69726}),
         Reputation({id = 2570, gain = 150, quest = 84058}),
@@ -409,6 +417,7 @@ map.nodes[56486899] = Rare({
 map.nodes[66432411] = Rare({
     id = 207803,
     quest = 82561, -- 84055
+    note = L['spreading_the_light_rares_note'],
     rewards = {
         Achievement({id = 40851, criteria = 69723}),
         Reputation({id = 2570, gain = 150, quest = 84055}),
@@ -1035,40 +1044,40 @@ map.nodes[42145371] = MissingLynx({
 --------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------
 -------------------------------------------------------------------------------
 
-map.nodes[62214557] = LoreObject({
-    rewards = {
-        Achievement({id = 40762, criteria = 69383}),
-        Reputation({id = 2570, gain = 250})
-    }
-}) -- A Scout's Journal
+-- map.nodes[62214557] = LoreObject({
+--     rewards = {
+--         Achievement({id = 40762, criteria = 69383}),
+--         Reputation({id = 2570, gain = 250})
+--     }
+-- }) -- A Scout's Journal
 
-map.nodes[71433667] = LoreObject({
-    rewards = {
-        Achievement({id = 40762, criteria = 69382}),
-        Reputation({id = 2570, gain = 250})
-    }
-}) -- A Tattered Note
+-- map.nodes[71433667] = LoreObject({
+--     rewards = {
+--         Achievement({id = 40762, criteria = 69382}),
+--         Reputation({id = 2570, gain = 250})
+--     }
+-- }) -- A Tattered Note
 
-map.nodes[78244041] = LoreObject({
-    rewards = {
-        Achievement({id = 40762, criteria = 69381}),
-        Reputation({id = 2570, gain = 250})
-    }
-}) -- A Weathered Tome
+-- map.nodes[78244041] = LoreObject({
+--     rewards = {
+--         Achievement({id = 40762, criteria = 69381}),
+--         Reputation({id = 2570, gain = 250})
+--     }
+-- }) -- A Weathered Tome
 
-map.nodes[25085371] = LoreObject({
-    rewards = {
-        Achievement({id = 40762, criteria = 69380}),
-        Reputation({id = 2570, gain = 250})
-    }
-}) -- A Worn Down Book
+-- map.nodes[25085371] = LoreObject({
+--     rewards = {
+--         Achievement({id = 40762, criteria = 69380}),
+--         Reputation({id = 2570, gain = 250})
+--     }
+-- }) -- A Worn Down Book
 
-map.nodes[25723845] = LoreObject({
-    rewards = {
-        Achievement({id = 40762, criteria = 69379}),
-        Reputation({id = 2570, gain = 250})
-    }
-}) -- Captain's Chest
+-- map.nodes[25723845] = LoreObject({
+--     rewards = {
+--         Achievement({id = 40762, criteria = 69379}),
+--         Reputation({id = 2570, gain = 250})
+--     }
+-- }) -- Captain's Chest
 
 -------------------------------------------------------------------------------
 ------------------------- ACHIEVEMENT: MERELDAR MENACE ------------------------
@@ -1347,3 +1356,64 @@ map.nodes[67484452] = FlightMaster({
 map.nodes[71365648] = FlightMaster({
     rewards = {Achievement({id = 40430, criteria = 68189})}
 }) -- The Aegis Wall
+
+-------------------------------------------------------------------------------
+---------------------------- PET: HALLOWED GLOWFLY ----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[65762440] = Collectible({
+    label = L['hallowfall_sparkfly_label'],
+    icon = 5771176,
+    note = L['hallowfall_sparkfly_note'],
+    rewards = {
+        Pet({item = 220771, id = 4467}) -- Hallowed Glowfly
+    },
+    pois = {
+        POI({
+            65802510, 66702410, 66732700, 67162701, 67202631, 67572416,
+            66862343, 66812530
+        })
+    }
+}) -- Hallowfall Sparkfly
+
+-------------------------------------------------------------------------------
+-------------------------- PET: NIGHTFORM GROWTHLING --------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[64593069] = Collectible({
+    label = '{item:221546}',
+    icon = 2027888,
+    note = L['nightfarm_growthling_note'],
+    rewards = {
+        Pet({item = 221546, id = 4534}) -- Nightfarm Growthling
+    },
+    pois = {POI({63403105, 63002941, 65163340, 64103150})}
+}) -- Nightfarm Growthling
+
+-------------------------------------------------------------------------------
+-------------------------------- PET: THUNDER ---------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[64451882] = Collectible({
+    label = '{item:220782}',
+    icon = 5648285,
+    note = L['thunder_lynx_note'],
+    -- quest = 82006, -- triggered after following all dialog
+    rewards = {
+        Pet({item = 220782, id = 4462}) -- Thunder
+    },
+    pois = {
+        POI({points = {66311569}, color = 'Blue'}), -- Beef
+        POI({points = {65951863}, color = 'Blue'}), -- Cave entrance to Beef
+        Path({
+            points = {
+                65951863, 66111857, 66231823, 66311781, 66281722, 66311569
+            },
+            color = 'Blue'
+        }), -- Cave path to Beef
+        POI({points = {63901970}, color = 'Green'}), -- Beans
+        POI({points = {61982078}, color = 'Orange'}), -- Thunder
+        POI({points = {66702100}, color = 'Red'}) -- Cap'n Elaena
+
+    }
+}) -- Thunder

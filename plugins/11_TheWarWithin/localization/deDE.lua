@@ -198,6 +198,7 @@ L['beledars_spawn_note'] = 'Dieser Gegner erscheint an einem von mehreren Positi
 L['croakit_note'] = 'Angle 10x {item:211474} aus einem {object:Schwarm schattenblinder Barsche} in der Nähe (oder kaufe diese im Auktionshaus) und wirf sie ihm zu, damit der seltene Gegner angreifbar wird.'
 L['deathtide_note'] = 'Sammle eine {item:220122} ({dot:Red}) und ein {item:220124} ({dot:Green}). Kombiniere diese zu {item:220123}, um damit den seltenen Gegner am {object:Ominöser Altar} zu beschwören.'
 L['murkshade_note'] = 'Interagiere mit {npc:218455}.'
+L['spreading_the_light_rares_note'] = 'Dieser seltene Gegner erscheint nachdem die {object:Schlüsselflamme} an dieser Position erloschen ist.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = 'Zeigt die Positionen der Ziele für den Erfolg {achievement:40151} an.'
@@ -210,13 +211,20 @@ L['barracks_doorway_location'] = 'Ziele auf den Eingang des rot-goldenen Zeltes 
 L['options_icons_beacon_of_hope'] = '{achievement:40308}'
 L['options_icons_beacon_of_hope_desc'] = 'Zeigt die Positionen der kleinen Schlüsselflammen für den Erfolg {achievement:40308} an.'
 
-L['beacon_of_hope_note'] = 'Steuere {item:206350} bei, um kleinere Schlüsselflammen zu entzünden und die folgenden Quests abzuschließen. '
+L['beacon_of_hope_note'] = 'Steuere {item:206350} bei, um kleinere Schlüsselflammen zu entzünden und die folgenden Quests abzuschließen.'
 
 L['parasidious_note'] = 'Kaufe 1x {item:206670} von {npc:206533} (entfache die {object:Kleine Schlüsselflamme}, damit dieser erscheint). Gehe zum {location:Dämmerhöhenacker} und ziehe an {npc:206870} bis der seltene Gegner erscheint. {note: Kann nur erscheinen, wenn {npc:206978} an dieser Position ist.}'
 
 L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = 'Zeigt die Position für den Erfolg {achievement:20594} an.'
 L['flamegards_hope_note'] = 'Hilf {npc:213319} 20 Tage lang die {npc:verletzten Soldaten} zu heilen.\n\nDu kannst auch einen {spell:372009} oder {item:211878} nutzen, wenn deine Klasse nicht heilen kann.'
+
+L['hallowfall_sparkfly_label'] = 'Heilsturzfunkenflieger'
+L['hallowfall_sparkfly_note'] = 'Entfache mit 3x {item:206350} die {object:Kleine Schlüsselflamme} im {location:Stillsteintümpel}, damit {npc:215956} erscheint.\n\nKaufe ein {item:218107} für 2x {item:206350} und benutze dieses, um {npc:222308} in der Nähe aufzudecken, bis ein {object:Heilsturzfunkenflieger} erscheint.'
+
+L['nightfarm_growthling_note'] = 'Entfache mit 3x {item:206350} die {object:Kleine Schlüsselflamme} in {location:Das Surrende Feld}, damit {npc:208186} erscheint.\n\nKaufe eine {item:219148} für 2x {item:206350} und benutze diese, bis ein {item:221546} erscheint.'
+
+L['thunder_lynx_note'] = '1. Entfache mit 3x {item:206350} die {object:Kleine Schlüsselflamme} in {location:Fackelscheinmine}, damit {npc:212419} erscheint.\n\n2. Spreche mit {npc:212419}, damit du die Quest {quest:82007} erhalten kannst.\n\n3. Finde die Luchswelpen: {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}) und {npc:222374} ({dot:Red}).\n\n{note:Starte gleichzeitig die Quest {quest:76169}, um eine {item:219198} zu erhalten oder benutze einen vergleichbaren Gegenstand, wie die {item:219148}. Du brauchst eine Fackel, um {npc:222373} in der {location:Kaltschattenhöhle} zu finden.}\n\n4. Rette alle Luchswelpen und kehre dann zu {npc:212419} zurück.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
@@ -292,6 +300,8 @@ L['the_unseeming_note'] = 'Stelle dich in die Pfütze bis du 100x Stapel {spell:
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Zeigt die Positionen für den Erfolg {achievement:40634} an.'
 L['you_cant_hang_with_us_note'] = 'Finde einen {npc:211816} mit dem Stärkungszauber {spell:434734} und greife ihn an, um den Schwächungszauber {spell:443190} (1 Minute) zu erhalten. Ein {npc:225408} ({note:Töte ihn nicht!}) wird sich einmischen und den Schwächungszauber {spell:454666} auf dir stapeln. Bei 10 Stapeln wirst du gewaltsam aus der Stadt entfernt.'
+
+L['kej_pet_vendor_note'] = 'Jedes Haustier hat einen begrenzten Bestand und kostet 2.250x {currency:3056}.\n\n{note:Es kann 3 bis 4 Stunden dauern, bis eines dieser Haustiere wieder beim Händler verfügbar ist.}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------

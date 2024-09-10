@@ -197,6 +197,7 @@ L['beledars_spawn_note'] = 'Ce rare apparaît à un de ces endroits à intervall
 L['croakit_note'] = 'Pêchez 10x {item:211474} au sein du {object:Banc de mérous sombrœil} proche (ou achetez-les à l\'hôtel des ventes) et lancez-les vers lui pour le rendre attaquable.'
 L['deathtide_note'] = 'Récupérez une {item:220122} {dot:Red} et un {item:220124} {dot:Green}. Combinez-les en l\'{item:220123} utilisée pour invoquer le rare à l\'{object:Autel menaçant}.'
 L['murkshade_note'] = 'Interagissez avec la {npc:218455}.'
+L['spreading_the_light_rares_note'] = 'Le monstre rare apparaît lorsque la {object:Flammeclé} allumée à cet endroit s\'éteint.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = 'Afficher les emplacements des cibles pour le haut-fait {achievement:40151}.'
@@ -216,6 +217,13 @@ L['parasidious_note'] = 'Achetez 1x {item:206670} au {npc:206533} (allumez la {o
 L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:20594}.'
 L['flamegards_hope_note'] = 'Aidez {npc:213319} à soigner les {npc:220225} pendant 20 jours.\n\nVous pouvez également utiliser un {spell:372009} ou une {item:211878} si votre classe ne peut pas soigner.'
+
+L['hallowfall_sparkfly_label'] = 'Mouchétincelle de Sainte-Chute'
+L['hallowfall_sparkfly_note'] = 'Utilisez 3x {item:206350} pour allumer la {object:Flammeclé inférieure} à l\'{location:Étang de Roche-Tranquille} pour faire apparaître {npc:215956}.\n\nAchetez une {item:218107} contre 2x {item:206350} et utilisez-la pour faire apparaître les {npc:222308} à proximité jusqu\'à ce que la {object:Mouchétincelle de Sainte-Chute} apparaisse.'
+
+L['nightfarm_growthling_note'] = 'Utilisez 3x {item:206350} pour allumer la {object:Flammeclé inférieure} au {location:Champ Bourdonnant} pour faire apparaître {npc:208186}.\n\nAchetez une {item:219148} contre 2x {item:206350} et utilisez-la pour faire apparaître le {item:221546}.'
+
+L['thunder_lynx_note'] = '1. Utilisez 3x {item:206350} pour allumer la {object:Flammeclé inférieure} à la {location:Mine Torche-Vive} pour faire apparaître {npc:212419}.\n\n2. Parlez à {npc:212419} et écoutez toutes les lignes de dialogue supplémentaires pour révéler {quest:82007}.\n\n3. Trouvez chaque bébé lynx : {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}), et {npc:222374} ({dot:Red}).\n\n{note:Assurez-vous de commencer {quest:76169} au même moment pour recevoir la {item:219198} ou utilisez un objet similaire tel qu\'une {item:219148}. Vous aurez besoin de lumière pour faire apparaître {npc:222373} dans la {location:Grotte d’Ombre-Froid}.}\n\n4. Sauvez chaque jeune lynx et retournez auprès d\'{npc:212419}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
@@ -290,6 +298,8 @@ L['the_unseeming_note'] = 'Restez dans le bassin jusqu\'à ce que vous ayez 100x
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:40634}.'
 L['you_cant_hang_with_us_note'] = 'Trouvez une {npc:211816} avec l\'effet {spell:434734} et attaquez-la pour obtenir l\'affaiblissement {spell:443190} (1 minute). Un {npc:225408} interviendra ({note:Ne le tuez pas !}) et vous appliquera des charges de l\'affaiblissement {spell:454666}. À 10 charges, vous serez expulsé de force de la Cité.'
+
+L['kej_pet_vendor_note'] = 'Chaque mascotte est limitée en stock et coûte 2250x {currency:3056}.\n\n{note:Le temps de réapparition estimé est de 3 à 4 heures pour chaque mascotte auprès de n\'importe quel vendeur.}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------

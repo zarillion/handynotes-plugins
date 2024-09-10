@@ -190,6 +190,7 @@ L['beledars_spawn_note'] = nil
 L['croakit_note'] = nil
 L['deathtide_note'] = nil
 L['murkshade_note'] = nil
+L['spreading_the_light_rares_note'] = nil
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = '顯示成就 {achievement:40151} 所需的目標位置.'
@@ -209,6 +210,13 @@ L['parasidious_note'] = nil
 L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = nil
 L['flamegards_hope_note'] = nil
+
+L['hallowfall_sparkfly_label'] = nil
+L['hallowfall_sparkfly_note'] = nil
+
+L['nightfarm_growthling_note'] = nil
+
+L['thunder_lynx_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
@@ -273,6 +281,8 @@ L['the_unseeming_note'] = '站在池子內直到你有100層的 {spell:420847}.'
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = '顯示成就 {achievement:40634} 的位置.'
 L['you_cant_hang_with_us_note'] = nil
+
+L['kej_pet_vendor_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------

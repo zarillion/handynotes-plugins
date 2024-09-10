@@ -196,6 +196,7 @@ L['beledars_spawn_note'] = 'This rare spawns at one of several locations at a fi
 L['croakit_note'] = 'Fish up 10x {item:211474} from a nearby {object:Shadowblind Grouper School} (or purchase from the auction house) and throw them to him to make the rare attackable.'
 L['deathtide_note'] = 'Collect an {item:220122} {dot:Red} and a {item:220124} {dot:Green}. Combine them to {item:220123} to summon the rare at the {object:Ominous Altar}.'
 L['murkshade_note'] = 'Interact with the {npc:218455}.'
+L['spreading_the_light_rares_note'] = 'Rare spawns after the lit {object:Keyflame} at the current location is extinguished.'
 
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = 'Display target locations for {achievement:40151} achievement.'
@@ -215,6 +216,13 @@ L['parasidious_note'] = 'Purchase 1x {item:206670} from {npc:206533} (light up t
 L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = 'Display location for the {achievement:20594} achievement.'
 L['flamegards_hope_note'] = 'Help out {npc:213319} for 20 Days healing the {npc:220225s}.\n\nYou can also use a {spell:372009} or {item:211878} if your class can\'t heal.'
+
+L['hallowfall_sparkfly_label'] = 'Hallowfall Sparkfly'
+L['hallowfall_sparkfly_note'] = 'Use 3x {item:206350} at the {object:Lesser Keyflame} in {location:Stillstone Pond} to summon {npc:215956}.\n\nPurchase {item:218107} for 2x {item:206350} and use it to reveal {npc:222308} nearby until {object:Hallowfall Sparkfly} appears.'
+
+L['nightfarm_growthling_note'] = 'Use 3x {item:206350} at the {object:Lesser Keyflame} in {location:The Whirring Field} to summon {npc:208186}.\n\nPurchase {item:219148} for 2x {item:206350} and use it to reveal {item:221546}.'
+
+L['thunder_lynx_note'] = '1. Use 3x {item:206350} at the {object:Lesser Keyflame} in {location:Torchlight Mine} to summon {npc:212419}.\n\n2. Speak with {npc:212419} and follow all extra dialog prompts to reveal {quest:82007}.\n\n3. Locate each baby lynx: {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}), and {npc:222374} ({dot:Red}).\n\n{note:Be sure to start {quest:76169} at the same to to receive {item:219198} or use a similar item such as {item:219148}. You\'ll need a light to reveal {npc:222373} within {location:Coldshadow Cave}.}\n\n4. Rescue each lynx kitten and return to {npc:212419}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
@@ -289,6 +297,8 @@ L['the_unseeming_note'] = 'Stand in the pool until you have 100x stacks {spell:4
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Display locations for the {achievement:40634} achievement.'
 L['you_cant_hang_with_us_note'] = 'Find a {npc:211816} with the {spell:434734} buff and attack him, to get the {spell:443190} debuff (1 minute). A {npc:225408} ({note:Do not kill him!}) will interfere and stack the {spell:454666} debuff on you. At 10 stacks, you will be forcibly removed from the City.'
+
+L['kej_pet_vendor_note'] = 'Each pet has a limited stock and costs 2,250x {currency:3056}.\n\n{note:Estimated respawn time is 3-4 hours for each pet item at any vendor.}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
