@@ -1,3 +1,7 @@
+# v96
+
+* Add flight master locations for the achievement [Khaz Algar Flight Master](https://www.wowhead.com/achievement=40430/khaz-algar-flight-master)
+
 # v95
 
 * Add hidden treasure pets to Hallowfall (Hallowed Glowfly, Nightfarm Growthling, and Thunder)
