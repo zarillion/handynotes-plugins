@@ -238,7 +238,6 @@ L['swift_location'] = 'PH'
 L['rumurh_location'] = 'PH'
 L['thimble_location'] = 'PH'
 L['scampering_weave_rat_location'] = 'PH'
-L['generals_scouting_shadecaster_location'] = 'PH'
 
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Display book locations for the {achievement:40629} achievement.'

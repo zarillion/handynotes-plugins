@@ -1,6 +1,7 @@
 # v97
 
 * Localization updates: zhTW
+* Remove General's Scouting Shadecaster from the [Itsy Bitsy Spider](https://www.wowhead.com/achievement=40624/itsy-bitsy-spider) Achievement in Azj-Kahet
 
 # v96
 

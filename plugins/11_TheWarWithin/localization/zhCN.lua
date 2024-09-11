@@ -238,7 +238,6 @@ L['swift_location'] = '占位符'
 L['rumurh_location'] = '占位符'
 L['thimble_location'] = '占位符'
 L['scampering_weave_rat_location'] = '占位符'
-L['generals_scouting_shadecaster_location'] = '占位符'
 
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = '显示 {achievement:40629} 成就中书籍的位置。'

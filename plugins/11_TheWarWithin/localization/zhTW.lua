@@ -238,7 +238,6 @@ L['swift_location'] = nil
 L['rumurh_location'] = nil
 L['thimble_location'] = nil
 L['scampering_weave_rat_location'] = nil
-L['generals_scouting_shadecaster_location'] = nil
 
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = '顯示成就 {achievement:40629} 所需的書籍位置.'

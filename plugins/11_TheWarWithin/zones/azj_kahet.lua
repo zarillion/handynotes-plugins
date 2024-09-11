@@ -689,11 +689,6 @@ local ItsyBitsySpider = Class('ItsyBitsySpider', Collectible, {
     note = L['itsy_bitsy_spider_note']
 })
 
-map.nodes[18001200] = ItsyBitsySpider({
-    location = L['generals_scouting_shadecaster_location'],
-    rewards = {Achievement({id = 40624, criteria = 68979})}
-}) -- General's Scouting Shadecaster
-
 map.nodes[55022662] = ItsyBitsySpider({
     location = L['rumurh_location'],
     rewards = {Achievement({id = 40624, criteria = 68976})}
