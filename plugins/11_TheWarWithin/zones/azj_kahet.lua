@@ -12,6 +12,7 @@ local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
+local FlightMaster = ns.node.FlightMaster
 -- local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
@@ -1086,6 +1087,35 @@ map.nodes[39834688] = DisturbedEarth()
 -- LCoT 55704782 - 224197 Ru'murh - 82644
 -- CoT 54833455 - 224198 Ru'murh - No Quest
 -- CoT 77845369 - 224196 Ru'murh - No Quest
+
+-------------------------------------------------------------------------------
+-------------------- ACHIEVEMENT: KHAZ ALGAR FLIGHT MASTER --------------------
+-------------------------------------------------------------------------------
+
+cot.nodes[54024434] = FlightMaster({
+    parent = map.id,
+    rewards = {Achievement({id = 40430, criteria = 68176})}
+}) -- The Burrows
+
+map.nodes[23155114] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68175})}
+}) -- Wildcamp Or'lay
+
+map.nodes[44476750] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68177})}
+}) -- Wildcamp Ul'ar
+
+map.nodes[56894700] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68174})}
+}) -- Weaver's Lair
+
+map.nodes[60001869] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68178})}
+}) -- Faerin's Advance
+
+map.nodes[76846444] = FlightMaster({
+    rewards = {Achievement({id = 40430, criteria = 68179})}
+}) -- Mmari
 
 -------------------------------------------------------------------------------
 ---------------------- PET: BEAN (FRESHLY WEBBED KEBAB) -----------------------

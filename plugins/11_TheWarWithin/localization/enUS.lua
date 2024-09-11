@@ -19,6 +19,9 @@ L['options_icons_profession_treasures_desc'] = 'Display locations of treasures w
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = 'Display lore object locations for {achievement:40762} achievement.'
 
+L['options_icons_flight_master'] = '{achievement:40430}'
+L['options_icons_flight_master_desc'] = 'Display {npc:Flight Master} locations for {achievement:40430}.'
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
@@ -314,7 +317,7 @@ L['kvr_chest_2_location'] = 'On top of the wooden scaffold.'
 L['nfs_chest_2_location'] = 'On the plant.'
 L['nfs_chest_3_location'] = 'Inside the building.'
 L['nfs_chest_4_location'] = 'Jump down from the skyship.'
-L['ski_chest_3_location'] = 'Inside the building.'
+L['ski_chest_3_location'] = 'On a ledge.'
 L['tra_chest_2_location'] = 'On top of the coral.'
 L['tsw_chest_2_location'] = 'High up on the beam.'
 L['tsw_chest_2_note'] = '{note:Only available in the "From the Weaver with Love" story variant.}'

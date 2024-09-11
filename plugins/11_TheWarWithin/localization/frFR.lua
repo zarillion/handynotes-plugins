@@ -20,6 +20,9 @@ L['options_icons_profession_treasures_desc'] = 'Afficher les emplacements des tr
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:40762}.'
 
+L['options_icons_flight_master'] = '{achievement:40430}'
+L['options_icons_flight_master_desc'] = 'Afficher les emplacements des {npc:Maîtres de vol} pour le haut-fait {achievement:40430}.'
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
@@ -215,12 +218,12 @@ L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:20594}.'
 L['flamegards_hope_note'] = 'Aidez {npc:213319} à soigner les {npc:220225} pendant 20 jours.\n\nVous pouvez également utiliser un {spell:372009} ou une {item:211878} si votre classe ne peut pas soigner.'
 
-L['hallowfall_sparkfly_label'] = nil
-L['hallowfall_sparkfly_note'] = nil
+L['hallowfall_sparkfly_label'] = 'Mouchétincelle de Sainte-Chute'
+L['hallowfall_sparkfly_note'] = 'Utilisez 3x {item:206350} pour allumer la {object:Flammeclé inférieure} à l\'{location:Étang de Roche-Tranquille} pour faire apparaître {npc:215956}.\n\nAchetez une {item:218107} contre 2x {item:206350} et utilisez-la pour faire apparaître les {npc:222308} à proximité jusqu\'à ce que la {object:Mouchétincelle de Sainte-Chute} apparaisse.'
 
-L['nightfarm_growthling_note'] = nil
+L['nightfarm_growthling_note'] = 'Utilisez 3x {item:206350} pour allumer la {object:Flammeclé inférieure} au {location:Champ Bourdonnant} pour faire apparaître {npc:208186}.\n\nAchetez une {item:219148} contre 2x {item:206350} et utilisez-la pour faire apparaître le {item:221546}.'
 
-L['thunder_lynx_note'] = nil
+L['thunder_lynx_note'] = '1. Utilisez 3x {item:206350} pour allumer la {object:Flammeclé inférieure} à la {location:Mine Torche-Vive} pour faire apparaître {npc:212419}.\n\n2. Parlez à {npc:212419} et écoutez toutes les lignes de dialogue supplémentaires pour révéler {quest:82007}.\n\n3. Trouvez chaque bébé lynx : {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}), et {npc:222374} ({dot:Red}).\n\n{note:Assurez-vous de commencer {quest:76169} au même moment pour recevoir la {item:219198} ou utilisez un objet similaire tel qu\'une {item:219148}. Vous aurez besoin de lumière pour faire apparaître {npc:222373} dans la {location:Grotte d’Ombre-Froid}.}\n\n4. Sauvez chaque jeune lynx et retournez auprès d\'{npc:212419}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
@@ -313,7 +316,7 @@ L['kvr_chest_2_location'] = 'En haut de l\'échafaudage en bois.'
 L['nfs_chest_2_location'] = 'Sur la plante.'
 L['nfs_chest_3_location'] = 'À l\'intérieur du bâtiment.'
 L['nfs_chest_4_location'] = 'Sautez du dirigeable.'
-L['ski_chest_3_location'] = 'À l\'intérieur du bâtiment.'
+L['ski_chest_3_location'] = 'Sur un rebord.'
 L['tra_chest_2_location'] = 'Sur le corail.'
 L['tsw_chest_2_location'] = 'En haut de la poutre.'
 L['tsw_chest_2_note'] = '{note:Disponible uniquement pendant la variante de l’histoire "Avec les compliments de la Tisserande".}'

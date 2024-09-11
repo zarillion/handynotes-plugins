@@ -19,6 +19,9 @@ L['options_icons_profession_treasures_desc'] = '显示给予专业知识的宝�
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = '显示 {achievement:40762} 成就中剧情物品的位置。'
 
+L['options_icons_flight_master'] = '{achievement:40430}'
+L['options_icons_flight_master_desc'] = '显示 {achievement:40430} 成就中 {npc:飞行管理员} 的位置。'
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
@@ -314,7 +317,7 @@ L['kvr_chest_2_location'] = '在木制脚手架顶部。'
 L['nfs_chest_2_location'] = '在植物上。'
 L['nfs_chest_3_location'] = '在建筑物内。'
 L['nfs_chest_4_location'] = '从飞船上跳下。'
-L['ski_chest_3_location'] = '在建筑物内。'
+L['ski_chest_3_location'] = '在崖边上。'
 L['tra_chest_2_location'] = '在珊瑚的顶部。'
 L['tsw_chest_2_location'] = '在横梁上。'
 L['tsw_chest_2_note'] = '{note:仅在“纺丝者爱的问候”故事变种。}'
