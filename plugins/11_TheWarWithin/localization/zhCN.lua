@@ -286,7 +286,7 @@ L['concealed_contraband_note'] = '移除 {object:网茧} 后揭示宝藏。'
 L['memory_cache_note'] = '从附近的（{dot:Red}）{object:提取器存储} 获取 {spell:420847}。击杀 {npc:223908} 后获取 {item:223870} 以打开 {object:记忆箱子}。'
 L['niffen_stash_note'] = '在桥下。'
 L['trapped_trove_note'] = '在从天花板垂下的建筑物中。避开地板上的蜘蛛网。'
-L['weaving_supplies_note'] = nil
+L['weaving_supplies_note'] = '从附近的平台收集丝绸碎片来打开宝藏。\n\n{item:223901}（{dot:Purple}）\n{item:223903}（{dot:Yellow}）\n{item:223902}（{dot:Red}）'
 
 L['tkaktath_note'] = '开始任务链以获取 {item:224150} 坐骑。'
 
