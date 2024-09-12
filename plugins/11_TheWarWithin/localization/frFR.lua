@@ -287,7 +287,7 @@ L['concealed_contraband_note'] = 'Retirez le {object:Cocon de toile} du trésor 
 L['memory_cache_note'] = 'Obtenez le buff {spell:420847} à partir d\'une ({dot:Red}) {object:Remise de l\'extracteur} proche. Tuez le {npc:223908} pour obtenir la {item:223870} permettant d\'ouvrir la {object:Cache de souvenirs}.'
 L['niffen_stash_note'] = 'Situé sous le pont.'
 L['trapped_trove_note'] = 'Dans un bâtiment suspendu au plafond. Évitez les toiles d\'araignées au sol.'
-L['weaving_supplies_note'] = nil
+L['weaving_supplies_note'] = 'Ramassez les lambeaux de soie sur la plate-forme à proximité pour ouvrir le trésor.\n\n{item:223901} ({dot:Purple})\n{item:223903} ({dot:Yellow})\n{item:223902} ({dot:Red})'
 
 L['tkaktath_note'] = 'Démarre une suite de quêtes pour obtenir la monture {item:224150}.'
 
