@@ -27,9 +27,10 @@ local Transmog = ns.reward.Transmog
 
 local ItemStatus = ns.tooltip.ItemStatus
 
-local POI = ns.poi.POI
-local Path = ns.poi.Path
 local Circle = ns.poi.Circle
+local Entrance = ns.poi.Entrance
+local Path = ns.poi.Path
+local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
@@ -137,13 +138,18 @@ map.nodes[44744241] = Rare({
         Transmog({item = 223920, type = L['shield']}) -- Slime Deflecting Stopper
     },
     pois = {
-        POI({points = {48001668, 48805020}, color = 'Green'}), -- Jar of Mucus
         POI({
+            label = '{item:220124}',
+            color = 'Green',
+            points = {48001668, 48805020}
+        }), -- Jar of Mucus
+        POI({
+            label = '{item:220122}',
+            color = 'Red',
             points = {
                 28925120, 34185782, 34365357, 43451413, 50094966, 53771913,
                 55142344, 52385016
-            },
-            color = 'Red'
+            }
         }) -- Offering of Pure Water
     }
 }) -- Deathtide
@@ -322,7 +328,7 @@ map.nodes[61613277] = Rare({
         Transmog({item = 221250, type = L['1h_sword']}), -- Creeping Lasher Machete
         Transmog({item = 221253, type = L['fist']}) -- Cultivator's Plant Puncher
     },
-    pois = {POI({64463107})} -- Chef Dinaire
+    pois = {POI({64463107, label = '{npc:206533}'})} -- Chef Dinaire
 }) -- Parasidious
 
 map.nodes[57304857] = Rare({
@@ -485,7 +491,7 @@ map.nodes[41795827] = Treasure({
         Recipe({item = 225639, profession = 185}) -- Recipe: Exquisitely Eviscerated Muscle
     },
     pois = {
-        POI({69254397, color = 'Blue'}), -- Torran Dellain
+        POI({69254397, label = '{npc:217645}', color = 'Blue'}), -- Torran Dellain
         Path({Circle({origin = 69254397, radius = 2})})
     }
 }) -- Caesper
@@ -500,7 +506,7 @@ map.nodes[59525966] = Treasure({
         Item({item = 225693, note = L['trinket']}) -- Shadowed Essence
     },
     pois = {
-        POI({59656067}) -- Entrance
+        Entrance({59656067}) -- Entrance
     }
 }) -- Dark Ritual
 
@@ -513,7 +519,7 @@ map.nodes[58382715] = Treasure({
         Reputation({id = 2570, gain = 150, quest = 81468}), --
         Toy({item = 224552}) -- Cave Spelunker's Torch
     },
-    pois = {POI({57642740})} -- Entrance
+    pois = {Entrance({57642740})} -- Entrance
 }) -- Illuminated Footlocker
 
 local IllusiveKobyssLure = Class('IllusiveKobyssLure', Treasure, {
@@ -701,7 +707,7 @@ map.nodes[55135193] = Treasure({
         Reputation({id = 2570, gain = 150, quest = 83273}),
         Item({item = 226021}) -- Jar of Pickels
     },
-    pois = {POI({55425164, color = 'Blue'})} -- Dead Arathi
+    pois = {POI({55425164, label='{npc:226025}', color = 'Blue'})} -- Dead Arathi
 }) -- Smuggler's Treasure
 
 map.nodes[76765382] = Treasure({ -- review, was not there when i looked
@@ -711,7 +717,7 @@ map.nodes[76765382] = Treasure({ -- review, was not there when i looked
         Achievement({id = 40848, criteria = 69702}),
         Reputation({id = 2570, gain = 150, quest = 79275})
     },
-    pois = {POI({76105390})} -- Entrance
+    pois = {Entrance({76105390})} -- Entrance
 }) -- Spore-covered Coffer
 
 map.nodes[63990612] = Treasure({
@@ -901,7 +907,7 @@ local Momento = Class('Momento', Collectible, {
     icon = 4635200,
     group = ns.groups.LOST_AND_FOUND,
     note = L['lost_and_found_note'],
-    pois = {POI({60486018, color = 'Red'})} -- Maera Ashyld
+    pois = {POI({60486018, label = '{npc:220718}', color = 'Red'})} -- Maera Ashyld
 })
 
 map.nodes[65463222] = Momento({
