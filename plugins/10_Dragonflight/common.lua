@@ -1399,7 +1399,8 @@ local Interval = Class('Interval', ns.Interval, {
 })
 
 ns.Intervals.Interval14h = Class('Interval14h', Interval, {
-    initial = {eu = 1676237400, us = 1677335400, cn = 1676255400, tw = 1675701000}, -- initial spawn time of the first rare to calculate other rares
+    initial = {eu = 1676237400, us = 1677335400, cn = 1676255400, tw = 1675701000},
+    -- initial spawn time of the first rare to calculate other rares
     offset = 1800, -- time between rares
     interval = 50400, -- inverval of a single rare
     yellow = 14400,
