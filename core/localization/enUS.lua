@@ -48,6 +48,8 @@ L['shared_drops'] = 'Shared Drops'
 L['zone_drops_label'] = 'Zone Drops'
 L['zone_drops_note'] = 'The items listed below can be dropped by several mobs in this zone.'
 
+L['poi_entrance_label'] = 'Entrance'
+
 L['requires'] = 'Requires'
 L['ranked_research'] = '%s (Rank %d/%d)'
 

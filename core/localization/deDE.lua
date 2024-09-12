@@ -48,6 +48,8 @@ L['shared_drops'] = 'Geteilte Beute'
 L['zone_drops_label'] = 'Zonenbeute'
 L['zone_drops_note'] = 'Die unten aufgeführten Gegenstände können von mehreren Gegnern in dieser Zone fallen gelassen werden.'
 
+L['poi_entrance_label'] = 'Eingang'
+
 L['requires'] = 'Benötigt'
 L['ranked_research'] = '%s (Rang %d/%d)'
 

@@ -322,6 +322,18 @@ function Arrow:Draw(pin, type, xy1, xy2)
 end
 
 -------------------------------------------------------------------------------
+----------------------------------- ENTRANCE ----------------------------------
+-------------------------------------------------------------------------------
+
+local Entrance = Class('Line', POI)
+
+function Entrance:Initialize(attrs)
+    POI.Initialize(self, attrs)
+
+    self.label = ns.locale['poi_entrance_label']
+end
+
+-------------------------------------------------------------------------------
 
 ns.poi = {
     POI = POI,
@@ -330,5 +342,6 @@ ns.poi = {
     Circle = Circle,
     Square = Square,
     Line = Line,
-    Arrow = Arrow
+    Arrow = Arrow,
+    Entrance = Entrance
 }
