@@ -20,6 +20,9 @@ L['options_icons_profession_treasures_desc'] = 'Afficher les emplacements des tr
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
 L['options_icons_khaz_algar_lore_hunter_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:40762}.'
 
+L['options_icons_flight_master'] = '{achievement:40430}'
+L['options_icons_flight_master_desc'] = 'Afficher les emplacements des {npc:Maîtres de vol} pour le haut-fait {achievement:40430}.'
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
@@ -215,6 +218,13 @@ L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:20594}.'
 L['flamegards_hope_note'] = 'Aidez {npc:213319} à soigner les {npc:220225} pendant 20 jours.\n\nVous pouvez également utiliser un {spell:372009} ou une {item:211878} si votre classe ne peut pas soigner.'
 
+L['hallowfall_sparkfly_label'] = 'Mouchétincelle de Sainte-Chute'
+L['hallowfall_sparkfly_note'] = 'Utilisez 3x {item:206350} pour allumer la {object:Flammeclé inférieure} à l\'{location:Étang de Roche-Tranquille} pour faire apparaître {npc:215956}.\n\nAchetez une {item:218107} contre 2x {item:206350} et utilisez-la pour faire apparaître les {npc:222308} à proximité jusqu\'à ce que la {object:Mouchétincelle de Sainte-Chute} apparaisse.'
+
+L['nightfarm_growthling_note'] = 'Utilisez 3x {item:206350} pour allumer la {object:Flammeclé inférieure} au {location:Champ Bourdonnant} pour faire apparaître {npc:208186}.\n\nAchetez une {item:219148} contre 2x {item:206350} et utilisez-la pour faire apparaître le {item:221546}.'
+
+L['thunder_lynx_note'] = '1. Utilisez 3x {item:206350} pour allumer la {object:Flammeclé inférieure} à la {location:Mine Torche-Vive} pour faire apparaître {npc:212419}.\n\n2. Parlez à {npc:212419} et écoutez toutes les lignes de dialogue supplémentaires pour révéler {quest:82007}.\n\n3. Trouvez chaque bébé lynx : {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}), et {npc:222374} ({dot:Red}).\n\n{note:Assurez-vous de commencer {quest:76169} au même moment pour recevoir la {item:219198} ou utilisez un objet similaire tel qu\'une {item:219148}. Vous aurez besoin de lumière pour faire apparaître {npc:222373} dans la {location:Grotte d’Ombre-Froid}.}\n\n4. Sauvez chaque jeune lynx et retournez auprès d\'{npc:212419}.'
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
@@ -229,7 +239,6 @@ L['swift_location'] = nil
 L['rumurh_location'] = nil
 L['thimble_location'] = nil
 L['scampering_weave_rat_location'] = nil
-L['generals_scouting_shadecaster_location'] = nil
 
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40629}.'
@@ -278,6 +287,7 @@ L['concealed_contraband_note'] = 'Retirez le {object:Cocon de toile} du trésor 
 L['memory_cache_note'] = 'Obtenez le buff {spell:420847} à partir d\'une ({dot:Red}) {object:Remise de l\'extracteur} proche. Tuez le {npc:223908} pour obtenir la {item:223870} permettant d\'ouvrir la {object:Cache de souvenirs}.'
 L['niffen_stash_note'] = 'Situé sous le pont.'
 L['trapped_trove_note'] = 'Dans un bâtiment suspendu au plafond. Évitez les toiles d\'araignées au sol.'
+L['weaving_supplies_note'] = 'Ramassez les lambeaux de soie sur la plate-forme à proximité pour ouvrir le trésor.\n\n{item:223901} ({dot:Purple})\n{item:223903} ({dot:Yellow})\n{item:223902} ({dot:Red})'
 
 L['tkaktath_note'] = 'Démarre une suite de quêtes pour obtenir la monture {item:224150}.'
 
@@ -288,6 +298,8 @@ L['the_unseeming_note'] = 'Restez dans le bassin jusqu\'à ce que vous ayez 100x
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:40634}.'
 L['you_cant_hang_with_us_note'] = 'Trouvez une {npc:211816} avec l\'effet {spell:434734} et attaquez-la pour obtenir l\'affaiblissement {spell:443190} (1 minute). Un {npc:225408} interviendra ({note:Ne le tuez pas !}) et vous appliquera des charges de l\'affaiblissement {spell:454666}. À 10 charges, vous serez expulsé de force de la Cité.'
+
+L['kej_pet_vendor_note'] = 'Chaque mascotte est limitée en stock et coûte 2250x {currency:3056}.\n\n{note:Le temps de réapparition estimé est de 3 à 4 heures pour chaque mascotte auprès de n\'importe quel vendeur.}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
@@ -304,7 +316,7 @@ L['kvr_chest_2_location'] = 'En haut de l\'échafaudage en bois.'
 L['nfs_chest_2_location'] = 'Sur la plante.'
 L['nfs_chest_3_location'] = 'À l\'intérieur du bâtiment.'
 L['nfs_chest_4_location'] = 'Sautez du dirigeable.'
-L['ski_chest_3_location'] = 'À l\'intérieur du bâtiment.'
+L['ski_chest_3_location'] = 'Sur un rebord.'
 L['tra_chest_2_location'] = 'Sur le corail.'
 L['tsw_chest_2_location'] = 'En haut de la poutre.'
 L['tsw_chest_2_note'] = '{note:Disponible uniquement pendant la variante de l’histoire "Avec les compliments de la Tisserande".}'

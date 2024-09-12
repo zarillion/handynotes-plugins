@@ -1108,8 +1108,8 @@ L['thornbeast_disclaimer'] = '{note:提醒, 每種野獸類型有獨特的 {item
 L['thorn_laden_heart_note_1'] = '從 {location:翡翠夢境} 裡的任意 {npc:雄鹿}, {npc:夢刃豹} 或 {npc:熊} 拾取一個 {item:209860}.'
 L['thorn_laden_heart_note_2'] = '當你有一個 {item:209860} 後, 到 {location:庫爾提拉斯} 的 {location:佐司瓦} 找一隻母鹿 {npc:140044}.'
 
-L['athainne_note_1'] = '{note:{npc:140044} 晚上時會和 {npc:129771} 一起移動, 白天時會在 {locatuon:烏爾法洞穴} 內休息.}\n\n要求 {npc:140044} 使用 {item:209860} 製造 {item:209863}.'
-L['athainne_note_2'] = '當你和 {npc:140044} 說話並取得 {item:209863} 後, 到 {locatuon:烏爾法洞穴} 找 {npc:141159} 求助.'
+L['athainne_note_1'] = '{note:{npc:140044} 晚上時會和 {npc:129771} 一起移動, 白天時會在 {location:烏爾法洞穴} 內休息.}\n\n要求 {npc:140044} 使用 {item:209860} 製造 {item:209863}.'
+L['athainne_note_2'] = '當你和 {npc:140044} 說話並取得 {item:209863} 後, 到 {location:烏爾法洞穴} 找 {npc:141159} 求助.'
 
 L['ulfar_note_1'] = '要求 {npc:149386} 使用 {item:209863} 製造 {item:209866}.'
 L['ulfar_note_2'] = '當你有了 {item:209866}, 回到 {location:翡翠夢境} 找到一個適合轉化儀式的目標.'

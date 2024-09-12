@@ -1,3 +1,7 @@
+# v98
+
+* Localization updates: esES
+
 # v69
 
 * If you enjoyed our BfA plugin, grab our [War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within) plugin!

@@ -1,3 +1,7 @@
+# v97
+
+* Localization updates: esES
+
 # v86
 
 * Added cave POI for Skittering Broodmother.

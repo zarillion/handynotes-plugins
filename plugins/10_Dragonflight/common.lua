@@ -1399,7 +1399,12 @@ local Interval = Class('Interval', ns.Interval, {
 })
 
 ns.Intervals.Interval14h = Class('Interval14h', Interval, {
-    initial = {eu = 1676237400, us = 1677335400, tw = 1675701000}, -- initial spawn time of the first rare to calculate other rares
+    initial = {
+        eu = 1676237400,
+        us = 1677335400,
+        cn = 1676255400,
+        tw = 1675701000
+    }, -- initial spawn time of the first rare to calculate other rares
     offset = 1800, -- time between rares
     interval = 50400, -- inverval of a single rare
     yellow = 14400,
@@ -1408,7 +1413,12 @@ ns.Intervals.Interval14h = Class('Interval14h', Interval, {
 })
 
 ns.Intervals.BrackenhideInterval = Class('BrackenhideInterval', Interval, {
-    initial = {us = 1672531800, eu = 1672531200, tw = 1677162000},
+    initial = {
+        us = 1672531800,
+        eu = 1672531200,
+        cn = 1672560600,
+        tw = 1677162000
+    },
     offset = 600,
     interval = 2400,
     yellow = 1200,
@@ -1417,7 +1427,12 @@ ns.Intervals.BrackenhideInterval = Class('BrackenhideInterval', Interval, {
 })
 
 ns.Intervals.FeastInterval = Class('FeastInterval', Interval, {
-    initial = {us = 1677164400, eu = 1677168000, tw = 1677166200},
+    initial = {
+        us = 1677164400,
+        eu = 1677168000,
+        cn = 1677193200,
+        tw = 1677166200
+    },
     offset = 5400,
     interval = 5400,
     id = 0,
@@ -1427,7 +1442,12 @@ ns.Intervals.FeastInterval = Class('FeastInterval', Interval, {
 })
 
 ns.Intervals.AylaagCampInterval = Class('AylaagCampInterval', Interval, {
-    initial = {us = 1677456000, eu = 1677502800, tw = 1677571200},
+    initial = {
+        us = 1677456000,
+        eu = 1677502800,
+        cn = 1726171200,
+        tw = 1677571200
+    },
     offset = 270000,
     interval = 810000,
     id = 0,
