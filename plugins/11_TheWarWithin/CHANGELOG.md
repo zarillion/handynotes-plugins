@@ -1,6 +1,7 @@
 # v98
 
 * Update note for Weavers Supplies treasure in Azj-Kahet
+* Localization updates: esES, frFR, zhCN
 
 # v97
 
