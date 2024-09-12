@@ -4,6 +4,7 @@
 local ADDON_NAME, ns = ...
 local Class = ns.Class
 local HBD = LibStub('HereBeDragons-2.0')
+local L = ns.locale
 
 local ARROW = 'Interface\\AddOns\\' .. ADDON_NAME .. '\\core\\artwork\\arrow'
 local CIRCLE = 'Interface\\AddOns\\' .. ADDON_NAME .. '\\core\\artwork\\circle'
@@ -330,7 +331,7 @@ local Entrance = Class('Line', POI)
 function Entrance:Initialize(attrs)
     POI.Initialize(self, attrs)
 
-    self.label = ns.locale['poi_entrance_label']
+    self.label = L['poi_entrance_label']
 end
 
 -------------------------------------------------------------------------------
