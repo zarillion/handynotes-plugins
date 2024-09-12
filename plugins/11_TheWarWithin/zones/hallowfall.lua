@@ -707,7 +707,7 @@ map.nodes[55135193] = Treasure({
         Reputation({id = 2570, gain = 150, quest = 83273}),
         Item({item = 226021}) -- Jar of Pickels
     },
-    pois = {POI({55425164, label='{npc:226025}', color = 'Blue'})} -- Dead Arathi
+    pois = {POI({55425164, label = '{npc:226025}', color = 'Blue'})} -- Dead Arathi
 }) -- Smuggler's Treasure
 
 map.nodes[76765382] = Treasure({ -- review, was not there when i looked
