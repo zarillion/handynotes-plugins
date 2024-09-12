@@ -482,6 +482,7 @@ cot.nodes[67397441] = Treasure({
 
 map.nodes[78613320] = Treasure({
     quest = 82527,
+    note = L['weaving_supplies_note'],
     rewards = {
         Achievement({id = 40828, criteria = 69643}),
         Reputation({id = 2601, gain = 50, quest = 82527}),
@@ -489,13 +490,12 @@ map.nodes[78613320] = Treasure({
         Reputation({id = 2607, gain = 50, quest = 82527}), --
         Toy({item = 225347}) -- Web-Vandal's Spinning Wheel
     },
-    pois = {POI({74794285, 74183770, 72663967})}
+    pois = {
+        POI({74794285, color = 'Purple'}), -- Violet Silk Scrap
+        POI({74183770, color = 'Yellow'}), -- Gold Silk Scrap
+        POI({72663967, color = 'Red'}) -- Crimson Silk Scrap
+    }
 }) -- Weaving Supplies
--- TODO: write a note:
--- You need to collect Hints from Silk Scraps/Threads before you can open the treasure.
--- 74794285 Violet Thread - Item 223901
--- 74183770 Gold Thread - 223903
--- 72663967 Crimson Thread - 223902
 
 map.nodes[34056102] = Treasure({
     quest = 82525,

@@ -276,6 +276,7 @@ L['concealed_contraband_note'] = nil
 L['memory_cache_note'] = '從附近的 ({dot:Red}) {object:吸取器儲藏室} 獲得 {spell:420847}. 殺掉 {npc:223908} 後取得 {item:223870} 來開啟 {object:記憶寶箱}.'
 L['niffen_stash_note'] = '在橋的下面。'
 L['trapped_trove_note'] = nil
+L['weaving_supplies_note'] = nil
 
 L['tkaktath_note'] = '開始取得坐騎 {item:224150} 的任務線.'
 

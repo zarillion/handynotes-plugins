@@ -1,3 +1,7 @@
+# v98
+
+* Update note for Weavers Supplies treasure in Azj-Kahet
+
 # v97
 
 * Remove General's Scouting Shadecaster from the [Itsy Bitsy Spider](https://www.wowhead.com/achievement=40624/itsy-bitsy-spider) Achievement in Azj-Kahet
