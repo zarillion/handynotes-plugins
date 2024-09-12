@@ -232,7 +232,6 @@ L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = 'Display weave-rat locations for {achievement:40624} achievement.'
 
 L['itsy_bitsy_spider_note'] = 'Wave ({emote:/wave}) to the weave-rat.'
-L['webster_location'] = 'PH'
 L['spindle_location'] = 'PH'
 L['swift_location'] = 'PH'
 L['rumurh_location'] = 'PH'

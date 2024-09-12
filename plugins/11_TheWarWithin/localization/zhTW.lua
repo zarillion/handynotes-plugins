@@ -232,7 +232,6 @@ L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = '顯示成就 {achievement:40624} 所需的小織蛛位置.'
 
 L['itsy_bitsy_spider_note'] = '向小織蛛揮手 ({emote:/wave}).'
-L['webster_location'] = nil
 L['spindle_location'] = nil
 L['swift_location'] = nil
 L['rumurh_location'] = nil

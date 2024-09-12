@@ -749,10 +749,10 @@ map.nodes[55106876] = ItsyBitsySpider({
 }) -- Thimble
 -- npc:224887 npc:224889 npc:224893 npc:224895 npc:220568 npc:224892(226225114-cot) npc:224891(69898267 cot)
 
-map.nodes[06001200] = ItsyBitsySpider({
-    location = L['webster_location'],
-    rewards = {Achievement({id = 40624, criteria = 68972})}
-}) -- Webster npc:227217( 39386541 (Cot))
+cot.nodes[39386540] = ItsyBitsySpider({
+    rewards = {Achievement({id = 40624, criteria = 68972})},
+    parent = map.id
+}) -- Webster
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------

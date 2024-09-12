@@ -232,7 +232,6 @@ L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = 'Muestra dónde están las tejerratas del logro {achievement:40624}.'
 
 L['itsy_bitsy_spider_note'] = 'Teclea la emoción ({emote:/saludar}) a la tejerrata.'
-L['webster_location'] = nil
 L['spindle_location'] = nil
 L['swift_location'] = nil
 L['rumurh_location'] = nil

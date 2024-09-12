@@ -233,7 +233,6 @@ L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = 'Afficher les emplacements des tisse-rats pour le haut-fait {achievement:40624}.'
 
 L['itsy_bitsy_spider_note'] = 'Faites signe ({emote:/signe}) au tisse-rat.'
-L['webster_location'] = nil
 L['spindle_location'] = nil
 L['swift_location'] = nil
 L['rumurh_location'] = nil

@@ -234,7 +234,6 @@ L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = 'Zeigt die Positionen der Webratten für den Erfolg {achievement:40624} an.'
 
 L['itsy_bitsy_spider_note'] = 'Winke ({emote:/winken}) der Webratte zu.'
-L['webster_location'] = nil
 L['spindle_location'] = nil
 L['swift_location'] = nil
 L['rumurh_location'] = nil

@@ -232,7 +232,6 @@ L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = '显示 {achievement:40624} 成就中纺崽的位置。'
 
 L['itsy_bitsy_spider_note'] = '向纺崽招手（{emote:/招手}、{emote:/wave}）。'
-L['webster_location'] = '占位符'
 L['spindle_location'] = '占位符'
 L['swift_location'] = '占位符'
 L['rumurh_location'] = '占位符'

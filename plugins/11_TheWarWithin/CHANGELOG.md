@@ -1,6 +1,7 @@
 # v98
 
 * Update note for Weavers Supplies treasure in Azj-Kahet
+* Updated location of Webster for [Itsy Bitsy Spider](https://www.wowhead.com/achievement=40624/itsy-bitsy-spider) Achievement in Azj-Kahet
 * Localization updates: deDE, esES, frFR, zhCN
 
 # v97
