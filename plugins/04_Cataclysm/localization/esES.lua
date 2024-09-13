@@ -9,21 +9,21 @@ if not L then return end
 L['change_map'] = 'Cambiar mapa'
 
 L['options_icons_safari'] = 'Safari de Kalimdor / Reinos del Este'
-L['options_icons_safari_desc'] = 'Muestra dónde están  las mascotas de combate para los logros {achievement:6585} y {achievement:6586}.'
+L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para los logros {achievement:6585} y {achievement:6586}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- MOUNT HYJAL ---------------------------------
 -------------------------------------------------------------------------------
 
-L['hyjal_phase0'] = 'Fase 0 - Pre Invasión'
+L['hyjal_phase0'] = 'Fase 0 - Pre invasión'
 L['hyjal_phase1'] = 'Fase 1 - Invasión'
 L['hyjal_phase2'] = 'Fase 2 - El Santuario de Malorne'
 L['hyjal_phase3'] = 'Fase 3 - El Frente de Magma'
-L['hyjal_phase4a'] = 'Fase 4a - Zona de los Druidas de la Garfa'
-L['hyjal_phase4b'] = 'Fase 4b - Zona de las Celadoras de las Sombras'
-L['hyjal_phase5'] = 'Fase 5 - El Recrecimiento'
+L['hyjal_phase4a'] = 'Fase 4a - Zona de los druidas de la Garfa'
+L['hyjal_phase4b'] = 'Fase 4b - Zona de las celadoras de las Sombras'
+L['hyjal_phase5'] = 'Fase 5 - El recrecimiento'
 
-L['hyjal_phase1_note'] = 'Completa misiones en el {location:Monte Hyjal} hasta conseguir la misión {quest:29389}. Esta cadena de misiones comenzará la Fase de Invasión.'
+L['hyjal_phase1_note'] = 'Completa misiones en el {location:Monte Hyjal} hasta conseguir la misión {quest:29389}. Esta cadena de misiones comenzará la Fase de invasión.'
 L['hyjal_phase2_note'] = 'Para avanzar en la Fase 2 necesitarás 10x {currency:416} para poder hacer la misión {quest:29198}.\n\nConseguirás {currency:416} en las misiones diarias.'
 L['hyjal_phase3_note'] = 'Para avanzar en la Fase 3 necesitarás 15x {currency:416} para poder hacer la misión {quest:29201}.\n\nConseguirás {currency:416} en las misiones diarias.'
 L['hyjal_phase4_note'] = [[
@@ -61,7 +61,7 @@ L['fiery_lords_note'] = 'Sólo hay un {title:Señor} al mismo tiempo. Tras matar
 L['have_we_met_note'] = [[
 Al llegar al {location:Nidal de Sethria} te ayudará un grupo de guerreros élite con la misión diaria.
 
-Teclea la emoción {emote:/saludando} para saludar a los NPC que se requieren.
+Teclea {emote:/saludando} para saludar a los NPC que se requieren.
 ]]
 
 L['ludicrous_speed_note'] = [[
@@ -111,28 +111,28 @@ L['fungal_frenzy_note'] = [[
 Sufre los efectos de {spell:83803}, {spell:83805}, {spell:83747} y {spell:83804} simultáneamente.
 
 {dot:Bronze} {spell:83747}
-Seta marrón-rojizo con borde blanco.
+Champiñón marrón-rojizo con borde blanco.
 Te encoje.
 
 {dot:Red} {spell:83803}
-Seta roja y grande. Junto al agua.
+Champiñón roja y grande. Junto al agua.
 Te rodea con una niebla roja. Aumenta el daño infligido.
 
 {dot:Blue} {spell:83805}
-Seta azul con borde blanco.
+Champiñón azul con borde blanco.
 Te hace correr más rápido.
 
 {dot:LightBlue} {spell:83804}
-Seta lila con puntos rosas.
-Recoge esta seta la última. Sólo te lanzará al aire y no tendrás ningún buff.
+Champiñón lila con puntos rosas.
+Recoge este champiñón el último. Sólo te lanzará al aire y no tendrás ningún buff.
 
-{note:Las setas sólo se pueden encontrar durante la misión {daily:27050}.
-Todas las setas se muestran como {object:Seta Carmesí}.}
+{note:Los champiñónes sólo se pueden encontrar durante la misión {daily:27050}.
+Todos los champiñónes se muestran como {object:Brote de champiñón carmesí}.}
 ]]
 L['rock_lover_note'] = 'No te acerques al {npc:44258}.'
 
 L['options_icons_broodmother_desc'] = 'Muestra dónde está la misión para el logro {achievement:5447}.'
-L['options_icons_fungal_frenzy_desc'] = 'Muestra dónde están las setas para el logro {achievement:5450}.'
+L['options_icons_fungal_frenzy_desc'] = 'Muestra dónde están los champiñónes para el logro {achievement:5450}.'
 L['options_icons_fungalophobia_desc'] = 'Muestra dónde está la misión para el logro {achievement:5445}.'
 L['options_icons_glop_family_desc'] = 'Muestra dónde está la misión para el logro {achievement:5446}.'
 L['options_icons_rock_lover_desc'] = 'Muestra dónde está y el camino a {npc:49956} para el logro {achievement:5449}.'
