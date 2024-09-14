@@ -318,30 +318,7 @@ function MinimapPinMixin:UpdateRotation()
 end
 
 function MinimapPinMixin:OnMouseEnter()
-    if self.label then
-        local x, _ = self:GetCenter()
-        local parentX, _ = self:GetParent():GetCenter()
-        if (x > parentX) then
-            GameTooltip:SetOwner(self, 'ANCHOR_LEFT')
-        else
-            GameTooltip:SetOwner(self, 'ANCHOR_RIGHT')
-        end
-
-        ns.PrepareLinks(self.label)
-        ns.PrepareLinks(self.note)
-
-        C_Timer.After(0, function()
-            -- label
-            GameTooltip:SetText(ns.RenderLinks(self.label, true))
-
-            -- note
-            if self.note and ns:GetOpt('show_notes') then
-                GameTooltip:AddLine(ns.RenderLinks(self.note), 1, 1, 1, true)
-            end
-
-            GameTooltip:Show()
-        end)
-    end
+    if self.label then ns.tooltip.RenderPinTooltip(self) end
 end
 
 function MinimapPinMixin:OnMouseLeave() GameTooltip:Hide() end
@@ -456,30 +433,7 @@ function WorldMapPinMixin:ApplyFrameLevel()
 end
 
 function WorldMapPinMixin:OnMouseEnter()
-    if self.label then
-        local x, _ = self:GetCenter()
-        local parentX, _ = self:GetParent():GetCenter()
-        if (x > parentX) then
-            GameTooltip:SetOwner(self, 'ANCHOR_LEFT')
-        else
-            GameTooltip:SetOwner(self, 'ANCHOR_RIGHT')
-        end
-
-        ns.PrepareLinks(self.label)
-        ns.PrepareLinks(self.note)
-
-        C_Timer.After(0, function()
-            -- label
-            GameTooltip:SetText(ns.RenderLinks(self.label, true))
-
-            -- note
-            if self.note and ns:GetOpt('show_notes') then
-                GameTooltip:AddLine(ns.RenderLinks(self.note), 1, 1, 1, true)
-            end
-
-            GameTooltip:Show()
-        end)
-    end
+    if self.label then ns.tooltip.RenderPinTooltip(self) end
 end
 
 function WorldMapPinMixin:OnMouseLeave() GameTooltip:Hide() end
