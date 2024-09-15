@@ -3,7 +3,9 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 local Class = ns.Class
+local L = ns.locale
 local HBD = LibStub('HereBeDragons-2.0')
+local LibDD = LibStub:GetLibrary('LibUIDropDownMenu-4.0')
 
 local ARROW = 'Interface\\AddOns\\' .. ADDON_NAME .. '\\core\\artwork\\arrow'
 local CIRCLE = 'Interface\\AddOns\\' .. ADDON_NAME .. '\\core\\artwork\\circle'
@@ -100,6 +102,61 @@ function POI:Draw(pin, xy)
     t:SetTexture(self.icon and ns.GetIconPath(self.icon) or CIRCLE)
     t:SetVertexColor(r, g, b, a)
     pin:SetSize(size, size)
+
+    pin:SetScript('OnMouseDown', function(self, button)
+
+        local DropdownMenu = LibDD:Create_UIDropDownMenu(ADDON_NAME ..
+                                                             'DropdownMenu')
+        DropdownMenu.displayMode = 'MENU'
+
+        local function InitializeDropdownMenu(level, mapID, coord)
+            if not level then return end
+
+            if (level == 1) then
+                LibDD:UIDropDownMenu_AddButton({
+                    text = ns.plugin_name,
+                    isTitle = 1,
+                    notCheckable = 1
+                }, level)
+                LibDD:UIDropDownMenu_AddButton({
+                    text = L['context_menu_set_waypoint'],
+                    notCheckable = 1,
+                    disabled = not C_Map.CanSetUserWaypointOnMap(mapID),
+                    func = function(button)
+                        local x, y = HandyNotes:getXY(coord)
+                        C_Map.SetUserWaypoint(
+                            UiMapPoint.CreateFromCoordinates(mapID, x, y))
+                        C_SuperTrack.SetSuperTrackedUserWaypoint(true)
+                    end
+                }, level)
+                if select(2, C_AddOns.IsAddOnLoaded('TomTom')) then
+                    LibDD:UIDropDownMenu_AddButton({
+                        text = L['context_menu_add_tomtom'],
+                        notCheckable = 1,
+                        func = function(button)
+                            ns.tomtom.AddSingleWaypoint({label = 'Waypoint'},
+                                mapID, coord)
+                            TomTom:SetClosestWaypoint(false)
+                        end
+                    }, level)
+                end
+                LibDD:UIDropDownMenu_AddButton({
+                    text = CLOSE,
+                    notCheckable = 1,
+                    func = function()
+                        LibDD:CloseDropDownMenus()
+                    end
+                }, level)
+            end
+        end
+
+        if button == 'RightButton' then
+            DropdownMenu.initialize = function(_, level)
+                InitializeDropdownMenu(level, pin:GetMap().mapID, xy)
+            end
+            LibDD:ToggleDropDownMenu(1, nil, DropdownMenu, self, 0, 0)
+        end
+    end)
 
     -- if self.label or self.note then
     --     pin:SetScript('OnEnter', function()
