@@ -114,6 +114,7 @@ read_globals = {
     -- WoW UI Frames & Mixins
     'AreaPOIPinMixin',
     'AreaPOIEventPinMixin',
+    'CreateAtlasMarkup',
     'DelveEntrancePinMixin',
     'EncounterJournalPinMixin',
     'GameMenuFrame',
