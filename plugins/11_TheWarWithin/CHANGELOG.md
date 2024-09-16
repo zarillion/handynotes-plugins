@@ -1,5 +1,6 @@
 # v99
 
+* Added Aradan Stormrook Spirit Beast for BM Hunters in the Isle of Dorn
 * Localization updates: esES, frFR, zhCN
 
 # v98
