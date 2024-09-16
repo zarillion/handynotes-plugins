@@ -789,9 +789,9 @@ local stormriderBarracks = ns.maps[2318] or Map({id = 2318, settings = false})
 
 local Aradan = Class('Aradan', ns.node.Node, {
     label = '{item:220770}',
-    rlabel = CreateAtlasMarkup('GarrMission_ClassIcon-Hunter'),
     icon = 5357845,
     class = 'HUNTER',
+    requires = ns.requirement.Specialization(253), -- Beast Mastery
     -- LuaFormatter off
     note = format('%s\n\n%s\n\n%s\n\n%s\n\n%s\n\n%s\n\n%s',
         L['aradan_note_start'],
