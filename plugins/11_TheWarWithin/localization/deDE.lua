@@ -55,13 +55,13 @@ L['cendvin_note'] = 'Plündere 900x {item:225557} in {location:Aschenholtz} von 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Zeigt die Position für den Erfolg {achievement:40606} an.'
 
-L['aradan_note_start'] = nil
-L['aradan_note_step_1'] = nil
-L['aradan_note_step_2'] = nil
-L['aradan_note_step_3'] = nil
-L['aradan_note_step_4'] = nil
-L['aradan_note_step_5'] = nil
-L['aradan_note_end'] = nil
+L['aradan_note_start'] = '{npc:213428} befindet sich auf der {location:Insel von Dorn} in {location:Dornogal} im Dungeon {location:Die Brutstätte}.\n\n{note:{npc:213428} kann auch in einem Anhängerdungeon gezähmt werden.}'
+L['aradan_note_step_1'] = '1. Sammle den {item:220770} aus den tiefen Gewässern außerhalb der {location:Insel von Dorn}.'
+L['aradan_note_step_2'] = '2. Betrete den Dungeon {location:Die Brutstätte} und besiege {npc:209230} ({dot:Blue}).'
+L['aradan_note_step_3'] = '3. Springe den Schacht runter ({dot:Red}) und laufen die Treppe hoch, von der {npc:215967} erscheint.'
+L['aradan_note_step_4'] = '4. Laufe zur Klippe und benutze den {item:220770} während du {npc:213428} anvisierst.'
+L['aradan_note_step_5'] = '5. {npc:213428} wird den Hammer erkennen und fliegt herunter, so dass du ihn zähmen kannst.'
+L['aradan_note_end'] = '{note:{item:220770} wird bei Benutzung nicht verbraucht, so dass du alle 5 Varianten zähmen oder einem anderen Jäger helfen kannst.}'
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
@@ -325,7 +325,7 @@ L['kvr_chest_2_location'] = 'Auf dem Holzgerüst.'
 L['nfs_chest_2_location'] = 'Auf der Pflanze.'
 L['nfs_chest_3_location'] = 'Im Gebäude'
 L['nfs_chest_4_location'] = 'Springe vom Himmelsschiff runter.'
-L['ski_chest_3_location'] = 'Auf einem Felsvorsprung.'
+L['ski_chest_3_location'] = 'Außerhalb des Gebäudes am Rand.'
 L['tra_chest_2_location'] = 'Oben in der Koralle.'
 L['tsw_chest_2_location'] = 'Oben auf dem Balken.'
 L['tsw_chest_2_note'] = '{note:Nur in der Geschichtenvariantion "Alles Liebe von der Weberin" verfügbar.}'
