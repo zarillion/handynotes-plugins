@@ -6,6 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local DisturbedEarth = ns.node.DisturbedEarth
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
@@ -759,7 +760,7 @@ map.nodes[67484330] = FlightMaster({
 
 -------------------------------------------------------------------------------
 
-dor.nodes[50006188] = ns.node.Collectible({
+dor.nodes[50006188] = Collectible({
     icon = 4620670,
     label = '{achievement:40606}',
     group = ns.groups.FLAT_EARTHEN,
@@ -767,7 +768,7 @@ dor.nodes[50006188] = ns.node.Collectible({
     parent = map.id
 }) -- Flat Earthen
 
-map.nodes[74334530] = ns.node.Collectible({
+map.nodes[74334530] = Collectible({
     icon = 5633720,
     label = '{npc:226205}',
     note = L['cendvin_note'],
@@ -777,3 +778,75 @@ map.nodes[74334530] = ns.node.Collectible({
     },
     pois = {Path({Circle({origin = 71423755, radius = 3.5})})} -- Sizzling Cinderpollen farm
 }) -- Cendvin
+
+-------------------------------------------------------------------------------
+----------------------- ARADAN: STORMROOK SPIRIT BEAST ------------------------
+-------------------------------------------------------------------------------
+
+local rookeryLanding = ns.maps[2315] or Map({id = 2315, settings = false})
+local stormsRoost = ns.maps[2316] or Map({id = 2316, settings = false})
+local stormriderBarracks = ns.maps[2318] or Map({id = 2318, settings = false})
+
+local Aradan = Class('Aradan', ns.node.Node, {
+    label = '{item:220770}',
+    icon = 5357845,
+    -- LuaFormatter off
+    note = format('%s\n\n%s\n\n%s\n\n%s\n\n%s\n\n%s\n\n%s',
+        L['aradan_note_start'],
+        L['aradan_note_step_1'],
+        L['aradan_note_step_2'],
+        L['aradan_note_step_3'],
+        L['aradan_note_step_4'],
+        L['aradan_note_step_5'],
+        L['aradan_note_end']),
+    -- LuaFormatter on
+    rewards = {
+        Item({item = 220770, note = L['item'], bag = true}) -- Void-Scarred Warhammer
+    }
+}) -- Void-Scarred Warhammer
+
+map.nodes[29063621] = Aradan() -- Step 1
+
+rookeryLanding.nodes[82424706] = Aradan({fgroup = 'aradan'}) -- Step 2
+
+stormsRoost.nodes[50005900] = Aradan({
+    pois = {
+        Path({points = {Circle({origin = 50005000, radius = 9})}, color = 'Red'})
+    }
+}) -- Step 3
+
+stormriderBarracks.nodes[55523425] = Aradan({
+    pois = {
+        Path({points = {Circle({origin = 44882511, radius = 3})}, color = 'Red'}), -- Storm Rookery
+        Path({
+            points = {44882986, 44883425, 55523425, 55522654, 61562654},
+            color = 'Red'
+        }), -- Storm Rookery >> Rookery Landing
+        Path({points = {Circle({origin = 64732654, radius = 3})}, color = 'Red'}) -- Rookery Landing
+
+    }
+}) -- Step 3
+
+rookeryLanding.nodes[12481399] = Aradan({
+    fgroup = 'aradan',
+    pois = {
+        Path({points = {82424706, 13504706}, color = 'Blue'}), -- Entrance >> Storm's Roost
+        Path({
+            points = {Circle({origin = 10334706, radius = 3})},
+            color = 'Blue'
+        }), -- Storm's Roost
+        --
+        Path({
+            points = {Circle({origin = 18344724, radius = 3})},
+            color = 'Green'
+        }), -- Stormrider Barracks
+        Path({
+            points = {18344249, 18343085, 12483085, 12481874},
+            color = 'Green'
+        }), -- Stormrider Barraks >> Targeting
+        Path({
+            points = {Circle({origin = 12481399, radius = 3})},
+            color = 'Green'
+        }) -- Targeting
+    }
+}) -- Step 4

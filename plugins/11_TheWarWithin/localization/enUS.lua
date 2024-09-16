@@ -53,6 +53,14 @@ L['cendvin_note'] = 'Farm 900x {item:225557} in {location:Cinderwold} from elite
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Display location for {achievement:40606} achievement.'
 
+L['aradan_note_start'] = '{npc:213428} can be found in the dungeon {location:The Rookery} in {location:Dornogal} in the {location:Isle of Dorn}.\n\n{note:{npc:213428} can be tamed while in Follower Dungeon mode.}'
+L['aradan_note_step_1'] = '1. Collect {item:220770} from the deep in the water outside of {location:Isle of Dorn.}'
+L['aradan_note_step_2'] = '2. ({dot:Blue}) Enter {location:The Rookery} and defeat {npc:209230}.'
+L['aradan_note_step_3'] = '3. ({dot:Red}) Jump down the shaft then run up the stairs from where {npc:215967} spawns.'
+L['aradan_note_step_4'] = '4. ({dot:Green}) Run to the edge of the cliff and use the {item:220770} while targeting {npc:213428}.'
+L['aradan_note_step_5'] = '5. {npc:213428} will recognize the hammer and fly down, allowing you to tame him'
+L['aradan_note_end'] = '{note:{item:220770} is not consumed on use so you can tame all 5 model variations or help a fellow hunter.}'
+
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------

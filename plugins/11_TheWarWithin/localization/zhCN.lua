@@ -53,6 +53,14 @@ L['cendvin_note'] = '在 {location:烬燧荒原} 从精英怪物那里获得900�
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = '显示 {achievement:40606} 成就中的位置。'
 
+L['aradan_note_start'] = nil
+L['aradan_note_step_1'] = nil
+L['aradan_note_step_2'] = nil
+L['aradan_note_step_3'] = nil
+L['aradan_note_step_4'] = nil
+L['aradan_note_step_5'] = nil
+L['aradan_note_end'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------

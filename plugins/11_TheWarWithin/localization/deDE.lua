@@ -55,6 +55,14 @@ L['cendvin_note'] = 'Plündere 900x {item:225557} in {location:Aschenholtz} von 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Zeigt die Position für den Erfolg {achievement:40606} an.'
 
+L['aradan_note_start'] = nil
+L['aradan_note_step_1'] = nil
+L['aradan_note_step_2'] = nil
+L['aradan_note_step_3'] = nil
+L['aradan_note_step_4'] = nil
+L['aradan_note_step_5'] = nil
+L['aradan_note_end'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------
