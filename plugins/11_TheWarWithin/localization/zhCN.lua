@@ -53,13 +53,13 @@ L['cendvin_note'] = '在 {location:烬燧荒原} 从精英怪物那里获得900�
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = '显示 {achievement:40606} 成就中的位置。'
 
-L['aradan_note_start'] = nil
-L['aradan_note_step_1'] = nil
-L['aradan_note_step_2'] = nil
-L['aradan_note_step_3'] = nil
-L['aradan_note_step_4'] = nil
-L['aradan_note_step_5'] = nil
-L['aradan_note_end'] = nil
+L['aradan_note_start'] = '{npc:213428} 可以在 {location:多恩岛} 的 {location:多恩诺嘉尔} 地下城 {location:驭雷栖巢} 中找到。\n\n{note:{npc:213428} 可以在追随者地下城模式下被驯服。}'
+L['aradan_note_step_1'] = '1. 从 {location:多恩岛} 外的深水中收集 {item:220770}。'
+L['aradan_note_step_2'] = '2.（{dot:Blue}）进入 {location:驭雷栖巢} 并击败 {npc:209230}。'
+L['aradan_note_step_3'] = '3.（{dot:Red}）跳下竖井然后跑上 {npc:215967} 出现处的楼梯。'
+L['aradan_note_step_4'] = '4.（{dot:Green}）跑到悬崖边并使用 {item:220770}，同时瞄准 {npc:213428}。'
+L['aradan_note_step_5'] = '5. {npc:213428} 会认出锤子并飞下来，让你驯服它。'
+L['aradan_note_end'] = '{note:{item:220770} 在使用时不会被消耗，因此可以驯服所有5种模型变体或帮助同伴猎人。}'
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
