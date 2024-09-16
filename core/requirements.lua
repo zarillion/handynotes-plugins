@@ -207,6 +207,23 @@ end
 function Spell:IsMet() return C_UnitAuras.GetPlayerAuraBySpellID(self.id) ~= nil end
 
 -------------------------------------------------------------------------------
+------------------------------- Specialization --------------------------------
+-------------------------------------------------------------------------------
+
+local Specialization = Class('Specialization', Requirement,
+    {type = _G['SPECIALIZATION']})
+
+function Specialization:Initialize(id)
+    self.id = id
+    self.text = select(2, GetSpecializationInfoByID(self.id))
+end
+
+function Specialization:IsMet()
+    local specID = GetSpecializationInfo(GetSpecialization())
+    return specID == self.id
+end
+
+-------------------------------------------------------------------------------
 ------------------------------------- TOY -------------------------------------
 -------------------------------------------------------------------------------
 
@@ -237,6 +254,7 @@ ns.requirement = {
     Quest = Quest,
     Reputation = Reputation,
     Requirement = Requirement,
+    Specialization = Specialization,
     Spell = Spell,
     Toy = Toy,
     WarMode = WarMode
