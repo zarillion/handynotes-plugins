@@ -54,13 +54,13 @@ L['cendvin_note'] = 'Obtenez 900x {item:225557} sur les monstres élites à {loc
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:40606}.'
 
-L['aradan_note_start'] = nil
-L['aradan_note_step_1'] = nil
-L['aradan_note_step_2'] = nil
-L['aradan_note_step_3'] = nil
-L['aradan_note_step_4'] = nil
-L['aradan_note_step_5'] = nil
-L['aradan_note_end'] = nil
+L['aradan_note_start'] = '{npc:213428} se trouve dans le donjon {location:La colonie} à {location:Dornogal} sur l\'{location:Île de Dorn}.\n\n{note:{npc:213428} peut être dompté en mode Donjon avec sujets.}'
+L['aradan_note_step_1'] = '1. Récupérez le {item:220770} dans les profondeurs marines au large de l\'{location:Île de Dorn}.'
+L['aradan_note_step_2'] = '2. ({dot:Blue}) Entrez dans {location:La colonie} et vainquez {npc:209230}.'
+L['aradan_note_step_3'] = '3. ({dot:Red}) Descendez dans le puits puis montez les escaliers d\'où le {npc:215967} apparaît.'
+L['aradan_note_step_4'] = '4. ({dot:Green}) Allez jusqu\'au bord de la falaise et utilisez le {item:220770} tout en ciblant {npc:213428}.'
+L['aradan_note_step_5'] = '5. {npc:213428} reconnaîtra le marteau et atterrira, ce qui vous permettra de le dompter.'
+L['aradan_note_end'] = '{note:Le {item:220770} reste intact après utilisation, ce qui vous permet d\'apprivoiser les 5 variantes existantes ou d\'aider un autre chasseur.}'
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
