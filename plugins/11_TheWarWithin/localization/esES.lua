@@ -53,13 +53,13 @@ L['cendvin_note'] = 'Consigue 900x {item:225557} en {location:Foldeceniza} de lo
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Muestra los sitios para el logro {achievement:40606}.'
 
-L['aradan_note_start'] = nil
-L['aradan_note_step_1'] = nil
-L['aradan_note_step_2'] = nil
-L['aradan_note_step_3'] = nil
-L['aradan_note_step_4'] = nil
-L['aradan_note_step_5'] = nil
-L['aradan_note_end'] = nil
+L['aradan_note_start'] = '{npc:213428} se puede encontrar en la mazmorra {location:El Grajero} en {location:Dornogal} de la {location:Isla de Dorn}.\n\n{note:{npc:213428} puede ser domesticado en el modo Mazmorra de seguidores.}'
+L['aradan_note_step_1'] = '1. Recoge el {item:220770} de las profundidades del agua fuera de la {location:Isle of Dorn.}'
+L['aradan_note_step_2'] = '2. ({dot:Blue}) Entra en {location:El Grajero} y derrota a {npc:209230}.'
+L['aradan_note_step_3'] = '3. ({dot:Red}) Salta por el pozo y luego sube corriendo las escaleras desde donde aparece {npc:215967}.'
+L['aradan_note_step_4'] = '4. ({dot:Green}) Corre hasta el borde del acantilado y usa el {item:220770} mientras señalas a {npc:213428}.'
+L['aradan_note_step_5'] = '5. {npc:213428} reconocerá el martillo y descenderá abajo, permitiendo que lo domestiques.'
+L['aradan_note_end'] = '{note:El {item:220770} no se consume al usarlo para que puedas domesticar las 5 variaciones de modelos o ayudar a un compañero cazador.}'
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
