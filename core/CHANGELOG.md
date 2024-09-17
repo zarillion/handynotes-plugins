@@ -1,5 +1,6 @@
 # v100
 
+* Added new requirement type for specializations.
 * Updated core localizations: esES
 
 # v95

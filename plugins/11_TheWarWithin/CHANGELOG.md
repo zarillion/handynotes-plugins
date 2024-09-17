@@ -1,3 +1,7 @@
+# v100
+
+* Updated the Beast Mastery requirement display for Aradan.
+
 # v99
 
 * Added Aradan Stormrook Spirit Beast for BM Hunters in the Isle of Dorn
