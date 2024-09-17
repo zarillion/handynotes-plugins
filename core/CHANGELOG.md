@@ -1,7 +1,3 @@
-# v100
-
-* Updated core localizations: esES
-
 # v95
 
 * Updated core localizations: zhTW
