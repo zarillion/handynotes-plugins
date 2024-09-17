@@ -190,10 +190,10 @@ L['options_toggle_per_map_settings_desc'] = 'Aplicar opciones, escalado y opacid
 L['options_restore_hidden_nodes'] = 'Restaurar los nodos ocultos'
 L['options_restore_hidden_nodes_desc'] = 'Vuelve a mostrar todos los nodos ocultos usando el menú contextual con click derecho.'
 
-L['show_class_locked_nodes'] = 'Mostrar nodos de clase bloqueados'
-L['show_class_locked_nodes_desc'] = 'Mostrar nodos que requieren una clase diferente a la del personaje activo.'
-L['show_class_locked_rewards'] = 'Mostrar recompensas de clase bloqueadas'
-L['show_class_locked_rewards_desc'] = 'Mostrar recompensas que requieren una clase diferente a la del personaje activo.'
+L['ignore_class_restrictions'] = nil
+L['ignore_class_restrictions_desc'] = nil
+L['ignore_faction_restrictions'] = nil
+L['ignore_faction_restrictions_desc'] = nil
 
 L['options_rewards_settings'] = 'Recompensas'
 L['options_reward_behaviors_settings'] = 'Comportamiento de las Recompensas'

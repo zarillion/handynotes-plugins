@@ -80,7 +80,7 @@ ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
 ns.groups.DRUID_GLYPH = Group('druid_glyph', 625999, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION,
-    IsEnabled = function() return ns.class == 'DRUID' end
+    class = 'DRUID'
 })
 
 ns.groups.EASTERN_KINGDOMS_CUP = Group('dragonrace', 1100022, {

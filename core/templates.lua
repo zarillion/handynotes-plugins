@@ -235,15 +235,23 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             end
         })
         LibDD:UIDropDownMenu_AddButton({
-            text = L['show_class_locked_nodes'],
+            text = L['ignore_class_restrictions'],
             isNotRadio = true,
             keepShownOnClick = true,
-            checked = ns:GetOpt('show_class_locked_nodes'),
+            checked = ns:GetOpt('ignore_class_restrictions'),
             func = function(button, option)
-                ns:SetOpt('show_class_locked_nodes', button.checked)
+                ns:SetOpt('ignore_class_restrictions', button.checked)
             end
         })
-
+        LibDD:UIDropDownMenu_AddButton({
+            text = L['ignore_faction_restrictions'],
+            isNotRadio = true,
+            keepShownOnClick = true,
+            checked = ns:GetOpt('ignore_faction_restrictions'),
+            func = function(button, option)
+                ns:SetOpt('ignore_faction_restrictions', button.checked)
+            end
+        })
         LibDD:UIDropDownMenu_AddSeparator()
         LibDD:UIDropDownMenu_AddButton({
             text = L['options_open_settings_panel'],
@@ -279,16 +287,6 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                     end
                 }, 2)
             end
-
-            LibDD:UIDropDownMenu_AddButton({
-                text = L['show_class_locked_rewards'],
-                isNotRadio = true,
-                keepShownOnClick = true,
-                checked = ns:GetOpt('show_class_locked_rewards'),
-                func = function(button, option)
-                    ns:SetOpt('show_class_locked_rewards', button.checked)
-                end
-            }, 2)
 
             -- Only show manuscripts for the dragonflight plugin. A bit hacky, maybe
             -- we can find a better way to do this in the future.

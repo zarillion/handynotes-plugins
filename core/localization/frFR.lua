@@ -190,10 +190,10 @@ L['options_toggle_per_map_settings_desc'] = 'Appliquez les paramètres de permut
 L['options_restore_hidden_nodes'] = 'Restaurer les nœuds cachés'
 L['options_restore_hidden_nodes_desc'] = 'Restaure tous les nœuds cachés en utilisant le clic droit du menu contextuel' -- Need review
 
-L['show_class_locked_nodes'] = nil
-L['show_class_locked_nodes_desc'] = nil
-L['show_class_locked_rewards'] = nil
-L['show_class_locked_rewards_desc'] = nil
+L['ignore_class_restrictions'] = nil
+L['ignore_class_restrictions_desc'] = nil
+L['ignore_faction_restrictions'] = nil
+L['ignore_faction_restrictions_desc'] = nil
 
 L['options_rewards_settings'] = 'Récompenses'
 L['options_reward_behaviors_settings'] = 'Comportements des récompenses'

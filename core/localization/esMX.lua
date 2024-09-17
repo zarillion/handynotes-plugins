@@ -190,10 +190,10 @@ L['options_toggle_per_map_settings_desc'] = nil
 L['options_restore_hidden_nodes'] = nil
 L['options_restore_hidden_nodes_desc'] = nil
 
-L['show_class_locked_nodes'] = nil
-L['show_class_locked_nodes_desc'] = nil
-L['show_class_locked_rewards'] = nil
-L['show_class_locked_rewards_desc'] = nil
+L['ignore_class_restrictions'] = nil
+L['ignore_class_restrictions_desc'] = nil
+L['ignore_faction_restrictions'] = nil
+L['ignore_faction_restrictions_desc'] = nil
 
 L['options_rewards_settings'] = nil
 L['options_reward_behaviors_settings'] = nil

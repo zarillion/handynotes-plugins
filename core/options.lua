@@ -189,20 +189,12 @@ ns.options = {
                     order = 16,
                     width = 'full'
                 },
-                show_class_locked_rewards = {
-                    type = 'toggle',
-                    arg = 'show_class_locked_rewards',
-                    name = L['show_class_locked_rewards'],
-                    desc = L['show_class_locked_rewards_desc'],
-                    order = 16,
-                    width = 'full'
-                },
                 show_manuscript_rewards = {
                     type = 'toggle',
                     arg = 'show_manuscript_rewards',
                     name = L['options_manuscript_rewards'],
                     desc = L['options_manuscript_rewards_desc'],
-                    order = 18,
+                    order = 17,
                     width = 'full',
                     hidden = function()
                         return ADDON_NAME ~= 'HandyNotes_Dragonflight'
@@ -274,19 +266,27 @@ ns.options = {
                     order = 35,
                     width = 'full'
                 },
-                show_class_locked_nodes = {
+                ignore_class_restrictions = {
                     type = 'toggle',
-                    arg = 'show_class_locked_nodes',
-                    name = L['show_class_locked_nodes'],
-                    desc = L['show_class_locked_nodes_desc'],
+                    arg = 'ignore_class_restrictions',
+                    name = L['ignore_class_restrictions'],
+                    desc = L['ignore_class_restrictions_desc'],
                     order = 36,
+                    width = 'full'
+                },
+                ignore_faction_restrictions = {
+                    type = 'toggle',
+                    arg = 'ignore_faction_restrictions',
+                    name = L['ignore_faction_restrictions'],
+                    desc = L['ignore_faction_restrictions_desc'],
+                    order = 37,
                     width = 'full'
                 },
                 restore_all_nodes = {
                     type = 'execute',
                     name = L['options_restore_hidden_nodes'],
                     desc = L['options_restore_hidden_nodes_desc'],
-                    order = 37,
+                    order = 38,
                     width = 'full',
                     func = function()
                         wipe(ns.addon.db.char)

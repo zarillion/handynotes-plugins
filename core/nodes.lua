@@ -162,7 +162,7 @@ function Node:IsEnabled()
     end
 
     if self.class then
-        if ns:GetOpt('show_class_locked_nodes') then return true end
+        if ns:GetOpt('ignore_class_restrictions') then return true end
         if self.class ~= ns.class then return false end
     end
 
