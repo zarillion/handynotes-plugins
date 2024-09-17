@@ -234,6 +234,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                 ns:SetOpt('use_char_achieves', button.checked)
             end
         })
+        LibDD:UIDropDownMenu_AddSeparator()
         LibDD:UIDropDownMenu_AddButton({
             text = L['ignore_class_restrictions'],
             isNotRadio = true,

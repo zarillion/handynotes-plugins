@@ -266,12 +266,17 @@ ns.options = {
                     order = 35,
                     width = 'full'
                 },
+                IgnoreHeader = {
+                    type = 'header',
+                    name = '',
+                    order = 36
+                },
                 ignore_class_restrictions = {
                     type = 'toggle',
                     arg = 'ignore_class_restrictions',
                     name = L['ignore_class_restrictions'],
                     desc = L['ignore_class_restrictions_desc'],
-                    order = 36,
+                    order = 37,
                     width = 'full'
                 },
                 ignore_faction_restrictions = {
@@ -279,14 +284,14 @@ ns.options = {
                     arg = 'ignore_faction_restrictions',
                     name = L['ignore_faction_restrictions'],
                     desc = L['ignore_faction_restrictions_desc'],
-                    order = 37,
+                    order = 38,
                     width = 'full'
                 },
                 restore_all_nodes = {
                     type = 'execute',
                     name = L['options_restore_hidden_nodes'],
                     desc = L['options_restore_hidden_nodes_desc'],
-                    order = 38,
+                    order = 39,
                     width = 'full',
                     func = function()
                         wipe(ns.addon.db.char)
