@@ -266,11 +266,7 @@ ns.options = {
                     order = 35,
                     width = 'full'
                 },
-                IgnoreHeader = {
-                    type = 'header',
-                    name = '',
-                    order = 36
-                },
+                IgnoreHeader = {type = 'header', name = '', order = 36},
                 ignore_class_restrictions = {
                     type = 'toggle',
                     arg = 'ignore_class_restrictions',
