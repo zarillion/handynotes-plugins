@@ -190,6 +190,11 @@ L['options_toggle_per_map_settings_desc'] = 'Apply toggle, scale and opacity set
 L['options_restore_hidden_nodes'] = 'Restore hidden nodes'
 L['options_restore_hidden_nodes_desc'] = 'Restore all nodes hidden using the right-click context menu.'
 
+L['show_class_locked_nodes'] = 'Show class-locked nodes'
+L['show_class_locked_nodes_desc'] = 'Show nodes that require a different class than the active character.'
+L['show_class_locked_rewards'] = 'Show class-locked rewards'
+L['show_class_locked_rewards_desc'] = 'Show rewards that require a different class than the active character.'
+
 L['options_rewards_settings'] = 'Rewards'
 L['options_reward_behaviors_settings'] = 'Reward Behaviors'
 L['options_reward_types'] = 'Show reward types'

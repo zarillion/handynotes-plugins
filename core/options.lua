@@ -20,6 +20,7 @@ ns.optionDefaults = {
         show_completed_nodes = false,
         use_char_achieves = false,
         per_map_settings = false,
+        display_class_locked_nodes = false,
 
         -- tooltip
         show_loot = true,
@@ -34,6 +35,7 @@ ns.optionDefaults = {
         show_toy_rewards = true,
         show_transmog_rewards = true,
         show_manuscript_rewards = true, -- dragonflight only
+        show_class_locked_rewards = false,
 
         -- reward options
         show_all_transmog_rewards = false,
@@ -187,12 +189,20 @@ ns.options = {
                     order = 16,
                     width = 'full'
                 },
+                show_class_locked_rewards = {
+                    type = 'toggle',
+                    arg = 'show_class_locked_rewards',
+                    name = L['show_class_locked_rewards'],
+                    desc = L['show_class_locked_rewards_desc'],
+                    order = 16,
+                    width = 'full'
+                },
                 show_manuscript_rewards = {
                     type = 'toggle',
                     arg = 'show_manuscript_rewards',
                     name = L['options_manuscript_rewards'],
                     desc = L['options_manuscript_rewards_desc'],
-                    order = 17,
+                    order = 18,
                     width = 'full',
                     hidden = function()
                         return ADDON_NAME ~= 'HandyNotes_Dragonflight'
@@ -264,11 +274,19 @@ ns.options = {
                     order = 35,
                     width = 'full'
                 },
+                show_class_locked_nodes = {
+                    type = 'toggle',
+                    arg = 'show_class_locked_nodes',
+                    name = L['show_class_locked_nodes'],
+                    desc = L['show_class_locked_nodes_desc'],
+                    order = 36,
+                    width = 'full'
+                },
                 restore_all_nodes = {
                     type = 'execute',
                     name = L['options_restore_hidden_nodes'],
                     desc = L['options_restore_hidden_nodes_desc'],
-                    order = 36,
+                    order = 37,
                     width = 'full',
                     func = function()
                         wipe(ns.addon.db.char)

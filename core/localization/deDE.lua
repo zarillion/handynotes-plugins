@@ -190,6 +190,11 @@ L['options_toggle_per_map_settings_desc'] = 'Die Einstellungen zum Anzeigen/Ausb
 L['options_restore_hidden_nodes'] = 'Versteckte Punkte wiederherstellen'
 L['options_restore_hidden_nodes_desc'] = 'Stellt alle Punkte wieder her, die über das Kontextmenü versteckt wurden.'
 
+L['show_class_locked_nodes'] = nil
+L['show_class_locked_nodes_desc'] = nil
+L['show_class_locked_rewards'] = nil
+L['show_class_locked_rewards_desc'] = nil
+
 L['options_rewards_settings'] = 'Belohnungen'
 L['options_reward_behaviors_settings'] = 'Verhalten von Belohnungen'
 L['options_reward_types'] = 'Zeige Belohnungstypen'

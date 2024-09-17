@@ -161,7 +161,10 @@ function Node:IsEnabled()
         if self:IsCompleted() then return false end
     end
 
-    if self.class and self.class ~= ns.class then return false end
+    if self.class then
+        if ns:GetOpt('show_class_locked_nodes') then return true end
+        if self.class ~= ns.class then return false end
+    end
 
     return true
 end

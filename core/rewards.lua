@@ -30,11 +30,16 @@ function Reward:Initialize(attrs)
 end
 
 function Reward:IsEnabled()
-    if self.class and self.class ~= ns.class then return false end
     if self.faction and self.faction ~= ns.faction then return false end
     if self.display_option and not ns:GetOpt(self.display_option) then
         return false
     end
+
+    if self.class then
+        if ns:GetOpt('show_class_locked_rewards') then return true end
+        if self.class ~= ns.class then return false end
+    end
+
     return true
 end
 

@@ -234,6 +234,15 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                 ns:SetOpt('use_char_achieves', button.checked)
             end
         })
+        LibDD:UIDropDownMenu_AddButton({
+            text = L['show_class_locked_nodes'],
+            isNotRadio = true,
+            keepShownOnClick = true,
+            checked = ns:GetOpt('show_class_locked_nodes'),
+            func = function(button, option)
+                ns:SetOpt('show_class_locked_nodes', button.checked)
+            end
+        })
 
         LibDD:UIDropDownMenu_AddSeparator()
         LibDD:UIDropDownMenu_AddButton({
@@ -270,6 +279,16 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                     end
                 }, 2)
             end
+
+            LibDD:UIDropDownMenu_AddButton({
+                text = L['show_class_locked_rewards'],
+                isNotRadio = true,
+                keepShownOnClick = true,
+                checked = ns:GetOpt('show_class_locked_rewards'),
+                func = function(button, option)
+                    ns:SetOpt('show_class_locked_rewards', button.checked)
+                end
+            }, 2)
 
             -- Only show manuscripts for the dragonflight plugin. A bit hacky, maybe
             -- we can find a better way to do this in the future.
