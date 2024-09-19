@@ -1,3 +1,7 @@
+# v101
+
+* Added the last criteria "Blossoming Delight" for the achievement [Beacon of Hope](https://www.wowhead.com/achievement=40308) (Hallowfall).
+
 # v100
 
 * Updated the Beast Mastery requirement display for Aradan.

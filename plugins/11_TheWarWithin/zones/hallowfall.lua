@@ -1209,9 +1209,6 @@ local BeaconOfHope = Class('beacon_of_hope', Collectible, {
     note = L['beacon_of_hope_note']
 })
 
--- TODO: Add Missing criterias
--- {id = 67677}, -- Blossoming Delight
-
 map.nodes[65392809] = BeaconOfHope({
     rewards = {
         Achievement({
@@ -1267,7 +1264,8 @@ map.nodes[64423093] = BeaconOfHope({
             id = 40308,
             criteria = {
                 {id = 67676}, -- The Sweet Eclipse
-                {id = 67675} -- Shadows of Flavor
+                {id = 67675}, -- Shadows of Flavor
+                {id = 67677} -- Blossoming Delight
             }
         })
     }
