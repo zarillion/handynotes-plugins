@@ -491,7 +491,7 @@ map.nodes[41795827] = Treasure({
         Recipe({item = 225639, profession = 185}) -- Recipe: Exquisitely Eviscerated Muscle
     },
     pois = {
-        POI({69254397, label = '{npc:217645}', color = 'Blue'}), -- Torran Dellain
+        POI({label = '{npc:217645}', color = 'Blue', points = {69254397}}), -- Torran Dellain
         Path({Circle({origin = 69254397, radius = 2})})
     }
 }) -- Caesper
@@ -1409,17 +1409,16 @@ map.nodes[64451882] = Collectible({
         Pet({item = 220782, id = 4462}) -- Thunder
     },
     pois = {
-        POI({points = {66311569}, color = 'Blue'}), -- Beef
-        POI({points = {65951863}, color = 'Blue'}), -- Cave entrance to Beef
+        POI({label = '{npc:222373}', points = {66311569}, color = 'Blue'}), -- Beef
+        Entrance({points = {65951863}, color = 'Blue'}), -- Cave entrance to Beef
         Path({
             points = {
                 65951863, 66111857, 66231823, 66311781, 66281722, 66311569
             },
             color = 'Blue'
         }), -- Cave path to Beef
-        POI({points = {63901970}, color = 'Green'}), -- Beans
-        POI({points = {61982078}, color = 'Orange'}), -- Thunder
-        POI({points = {66702100}, color = 'Red'}) -- Cap'n Elaena
-
+        POI({label = '{npc:222372}', points = {63901970}, color = 'Green'}), -- Beans
+        POI({label = '{npc:222375}', points = {61982078}, color = 'Orange'}), -- Thunder
+        POI({label = '{npc:222374}', points = {66702100}, color = 'Red'}) -- Cap'n Elaena
     }
 }) -- Thunder

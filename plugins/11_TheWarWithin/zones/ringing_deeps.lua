@@ -319,13 +319,11 @@ map.nodes[49053163] = Treasure({ -- Inside the Inn
     },
     pois = {
         Entrance({47673217}), -- Entrance
-        POI({ -- TODO
-            57302200, -- Amethyst
-            68205320, -- Diamond
-            57404940, -- Ruby
-            62506300, -- Topaz
-            59103800 -- Emerald
-        })
+        POI({label = '{item:223880}', points = {57302200}}), -- Amethyst
+        POI({label = '{item:223882}', points = {68205320}}), -- Diamond
+        POI({label = '{item:223878}', points = {57404940}}), -- Ruby
+        POI({label = '{item:223879}', points = {62506300}}), -- Topaz
+        POI({label = '{item:223881}', points = {59103800}}) -- Emerald
     }
 }) -- Dusty Prospector's Chest
 
@@ -657,7 +655,11 @@ map.nodes[44315026] = GobblinWithGlublurp({
     rewards = {Achievement({id = 40614, criteria = 68929})},
     note = L['gobblin_with_glublurp_note'],
     pois = {
-        POI({59964103, 61924254, color = 'Red'}), -- Glimmering Crystal
+        POI({
+            label = '{item:225930}',
+            color = 'Red',
+            points = {59964103, 61924254}
+        }), -- Glimmering Crystal
         Path({color = 'Orange', Circle({origin = 57903351, radius = 1.25})})
     }
 }) -- Glublurp

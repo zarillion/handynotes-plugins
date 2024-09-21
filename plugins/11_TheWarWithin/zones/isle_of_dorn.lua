@@ -470,42 +470,42 @@ map.nodes[48513004] = Treasure({
         Entrance({48683103}), -- Entrance
         POI({
             label = '{npc:224548}',
-            note = 'TODO',
+            note = L['trees_treasure_crab_1_note'],
             color = 'Green',
             quest = 82755,
             points = {19735843}
         }), -- Pearlescent Shellcrab
         POI({
             label = '{npc:224548}',
-            note = 'TODO',
+            note = L['trees_treasure_crab_2_note'],
             color = 'Green',
             quest = 82756,
             points = {38264202}
         }), -- Pearlescent Shellcrab / Up in the Tree
         POI({
             label = '{npc:224548}',
-            note = 'TODO',
+            note = L['trees_treasure_crab_3_note'],
             color = 'Green',
             quest = 82754,
             points = {41852701}
         }), -- Pearlescent Shellcrab
         POI({
             label = '{npc:224548}',
-            note = 'TODO',
+            note = L['trees_treasure_crab_4_note'],
             color = 'Green',
             quest = 82751,
             points = {50717057}
         }), -- Pearlescent Shellcrab / under a root
         POI({
             label = '{npc:224548}',
-            note = 'TODO',
+            note = L['trees_treasure_crab_5_note'],
             quest = 82753,
             color = 'Green',
             points = {70771999}
         }), -- Pearlescent Shellcrab
         POI({
             label = '{npc:224548}',
-            note = 'TODO',
+            note = L['trees_treasure_crab_6_note'],
             quest = 82752,
             color = 'Green',
             points = {74924939}
