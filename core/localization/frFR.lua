@@ -48,7 +48,7 @@ L['shared_drops'] = 'Butins partagés'
 L['zone_drops_label'] = 'Butins mondiaux'
 L['zone_drops_note'] = 'Les objets listés ci-dessous peuvent être trouvés sur plusieurs monstres de cette zone.'
 
-L['poi_entrance_label'] = nil
+L['poi_entrance_label'] = 'Entrée'
 
 L['requires'] = 'Requiert'
 L['ranked_research'] = '%s (Rang %d/%d)'
