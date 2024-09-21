@@ -1,3 +1,7 @@
+# v101
+
+* Added a feature that POIs can have tooltips.
+
 # v100
 
 * Added new requirement type for specializations.

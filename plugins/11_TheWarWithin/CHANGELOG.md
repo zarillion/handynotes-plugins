@@ -1,5 +1,6 @@
 # v101
 
+* Added POI tooltips.
 * Added the last criteria "Blossoming Delight" for the achievement [Beacon of Hope](https://www.wowhead.com/achievement=40308) (Hallowfall).
 * Localization updates: deDE, esES
 
