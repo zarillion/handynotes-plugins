@@ -383,38 +383,6 @@ map.nodes[62816618] = Rare({
     } -- starts the questchain to get the Siesbarg mount.
 }) -- Tka'ktath
 
-map.nodes[63602340] = Rare({
-    id = 193664,
-    label = 'TEST-NODE 1',
-    quest = nil,
-    note = 'This is just a test node for the poi update.',
-    pois = {
-        POI({63602040, label = 'label 1', note = 'note 1'}),
-        POI({66602340, label = 'label 2', note = 'note 2'}),
-        POI({63602740, label = 'label 3', note = 'note 3'}),
-        POI({60602340, label = 'l4 {item:211259}', note = 'n4 {item:211259}'}),
-        Path({63602340, 66152701, 65703310}), --
-        Path({
-            points = {63602340, 61182598, 56702710},
-            label = 'I\'m a happy Path',
-            note = 'note path'
-        })
-    } -- Test Node
-})
-
-map.nodes[53602340] = Rare({
-    id = 193664,
-    label = 'TEST-NODE 2',
-    quest = nil,
-    note = 'This is just a second test node for the poi update.',
-    pois = {
-        POI({53602040, label = 'label 1'}), --
-        POI({56602340}), --
-        POI({53602640}), --
-        POI({50602340, label = 'label 4', note = 'note 4'})
-    } -- Test Node
-})
-
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
