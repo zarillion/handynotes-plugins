@@ -25,9 +25,10 @@ local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
 
+local Circle = ns.poi.Circle
+local Entrance = ns.poi.Entrance
 local Path = ns.poi.Path
 local POI = ns.poi.POI
-local Circle = ns.poi.Circle
 
 -------------------------------------------------------------------------------
 
@@ -199,6 +200,7 @@ map.nodes[60887668] = Rare({
     },
     pois = {
         POI({
+            label = '{npc:191865}',
             points = {49460881, 53902529, 57622357, 62844464, 59059239},
             color = 'Red'
         })
@@ -259,7 +261,7 @@ map.nodes[71654630] = Rare({
         Transmog({item = 221253, slot = L['fist']}), -- Cultivator's Plant Puncher
         Transmog({item = 221250, slot = L['1h_sword']}) -- Creeping Lasher Machete
     },
-    pois = {POI({72844447})} -- Entrance
+    pois = {Entrance({72844447})} -- Entrance
 }) -- Trungal
 
 map.nodes[52032657] = Rare({
@@ -316,14 +318,12 @@ map.nodes[49053163] = Treasure({ -- Inside the Inn
         Reputation({id = 2594, gain = 150, quest = 82464})
     },
     pois = {
-        POI({47673217}), -- Entrance
-        POI({
-            57302200, -- Amethyst
-            68205320, -- Diamond
-            57404940, -- Ruby
-            62506300, -- Topaz
-            59103800 -- Emerald
-        })
+        Entrance({47673217}), -- Entrance
+        POI({label = '{item:223880}', points = {57302200}}), -- Amethyst
+        POI({label = '{item:223882}', points = {68205320}}), -- Diamond
+        POI({label = '{item:223878}', points = {57404940}}), -- Ruby
+        POI({label = '{item:223879}', points = {62506300}}), -- Topaz
+        POI({label = '{item:223881}', points = {59103800}}) -- Emerald
     }
 }) -- Dusty Prospector's Chest
 
@@ -350,7 +350,7 @@ map.nodes[50485349] = Treasure({ -- lvl 71
         Reputation({id = 2594, gain = 150, quest = 80485}), --
         Toy({item = 224783}) -- Sovereign's Finery Chest
     },
-    pois = {POI({52065314})} -- Entrance
+    pois = {Entrance({52065314})} -- Entrance
 }) -- Forgotten Treasure
 
 map.nodes[55391385] = Treasure({ -- lvl 71
@@ -360,7 +360,7 @@ map.nodes[55391385] = Treasure({ -- lvl 71
         Achievement({id = 40724, criteria = 69282}),
         Reputation({id = 2594, gain = 150, quest = 82235})
     },
-    pois = {POI({54681421})} -- Entrance
+    pois = {Entrance({54681421})} -- Entrance
 }) -- Munderut's Forgotten Stash
 
 map.nodes[58933027] = Treasure({ -- lvl 71
@@ -387,7 +387,7 @@ map.nodes[68863883] = Treasure({ -- lvl 71
         Achievement({id = 40724, criteria = 69280}),
         Reputation({id = 2594, gain = 150, quest = 79308})
     },
-    pois = {POI({68714072})} -- Entrance
+    pois = {Entrance({68714072})} -- Entrance
 }) -- Webbed Knapsack
 
 -------------------------------------------------------------------------------
@@ -446,7 +446,7 @@ map.nodes[65696190] = PT.Skinning({quest = 83917, id = 226343}) -- Fungarian's R
 map.nodes[48823286] = PT.Tailoring({
     quest = 83924,
     id = 226350,
-    pois = {POI({47703216})} -- Entrance
+    pois = {Entrance({47703216})} -- Entrance
 }) -- Runed Earthen Pins
 map.nodes[64156033] = PT.Tailoring({quest = 83925, id = 226351}) -- Earthen Stitcher's Snips
 
@@ -655,7 +655,11 @@ map.nodes[44315026] = GobblinWithGlublurp({
     rewards = {Achievement({id = 40614, criteria = 68929})},
     note = L['gobblin_with_glublurp_note'],
     pois = {
-        POI({59964103, 61924254, color = 'Red'}),
+        POI({
+            label = '{item:225930}',
+            color = 'Red',
+            points = {59964103, 61924254}
+        }), -- Glimmering Crystal
         Path({color = 'Orange', Circle({origin = 57903351, radius = 1.25})})
     }
 }) -- Glublurp

@@ -23,8 +23,9 @@ local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
 
 local Circle = ns.poi.Circle
-local POI = ns.poi.POI
+local Entrance = ns.poi.Entrance
 local Path = ns.poi.Path
+local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
@@ -75,7 +76,7 @@ map.nodes[70722147] = Rare({
         Transmog({item = 221212, type = L['mail']}), -- Death Burrower Handguards
         Transmog({item = 221237, type = L['offhand']}) -- Lamentable Vagrant's Lantern
     },
-    pois = {POI({70102201})} -- Entrance
+    pois = {Entrance({70102201})} -- Entrance
 }) -- Cha'tak
 
 cot.nodes[30755599] = Rare({
@@ -283,7 +284,7 @@ akl.nodes[61918962] = Rare({
         Transmog({item = 223931, type = L['cloth']})
     },
     parent = map.id,
-    pois = {POI({63418984})} -- Entrance
+    pois = {Entrance({63418984})} -- Entrance
 }) -- The Oozekhan
 
 map.nodes[76585780] = Rare({
@@ -297,7 +298,7 @@ map.nodes[76585780] = Rare({
         Reputation({id = 2607, gain = 50, quest = 84072}),
         Transmog({item = 221231, type = L['leather']}) -- Steam-Powered Wristwatch
     },
-    pois = {POI({77485899})} -- Entrance
+    pois = {Entrance({77485899})} -- Entrance
 }) -- The XT-Minecrusher 8700
 
 map.nodes[64590352] = Rare({
@@ -365,7 +366,7 @@ map.nodes[63479504] = Rare({
         Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
         Transmog({item = 225998, type = L['cloak']}) -- Earthen Adventurer's Cloak
     },
-    pois = {POI({65309350})} -- Entrance
+    pois = {Entrance({65309350})} -- Entrance
 }) -- The One Left
 
 map.nodes[62816618] = Rare({
@@ -458,13 +459,14 @@ map.nodes[54525081] = Treasure({
 
 map.nodes[67482754] = Treasure({
     quest = 82719,
+    note = L['in_small_cave'],
     rewards = {
         Achievement({id = 40828, criteria = 69647}),
         Reputation({id = 2601, gain = 50, quest = 82719}),
         Reputation({id = 2605, gain = 50, quest = 82719}),
         Reputation({id = 2607, gain = 50, quest = 82719})
     },
-    pois = {POI({65422765})}
+    pois = {Entrance({65422765, 64712965})}
 }) -- Silk-spun Supplies
 
 cot.nodes[67397441] = Treasure({
@@ -491,9 +493,9 @@ map.nodes[78613320] = Treasure({
         Toy({item = 225347}) -- Web-Vandal's Spinning Wheel
     },
     pois = {
-        POI({74794285, color = 'Purple'}), -- Violet Silk Scrap
-        POI({74183770, color = 'Yellow'}), -- Gold Silk Scrap
-        POI({72663967, color = 'Red'}) -- Crimson Silk Scrap
+        POI({74794285, color = 'Purple', label = '{item:223901}'}), -- Violet Silk Scrap
+        POI({72663967, color = 'Red', label = '{item:223902}'}), -- Crimson Silk Scrap
+        POI({74183770, color = 'Yellow', label = '{item:223903}'}) -- Gold Silk Scrap
     }
 }) -- Weaving Supplies
 
@@ -507,7 +509,7 @@ map.nodes[34056102] = Treasure({
         Reputation({id = 2605, gain = 50, quest = 82525}),
         Reputation({id = 2607, gain = 50, quest = 82525})
     },
-    pois = {POI({33756045})}
+    pois = {Entrance({33756045})}
 }) -- Concealed Contraband -- Web Cocoon
 
 -------------------------------------------------------------------------------
@@ -611,7 +613,7 @@ local Bookworm = Class('bookworm', Collectible, {
     group = ns.groups.BOOKWORM,
     requires = ns.requirement.Spell(456122), -- Polymorphic Translation: Nerubian
     note = L['nerubian_potion_note'] .. '\n\n' .. L['bookworm_note'],
-    pois = {POI({47166941, color = 'Red'})} -- Siesbarg
+    pois = {POI({47166941, label = '{npc:218192}', color = 'Red'})} -- Siesbarg
 })
 
 map.nodes[40103980] = Bookworm({
@@ -833,7 +835,7 @@ map.nodes[62963117] = SmellingHistory({
 map.nodes[66693128] = SmellingHistory({
     location = L['smelling_history_3_location'],
     rewards = {Achievement({id = 40542, criteria = 68980})},
-    pois = {POI({65422765, 64712965})}
+    pois = {Entrance({65422765, 64712965})}
 }) -- Ethos of War, Part 2
 
 map.nodes[48852400] = SmellingHistory({
@@ -850,42 +852,42 @@ cot.nodes[38263555] = SmellingHistory({
     parent = map.id,
     location = L['smelling_history_6_location'],
     rewards = {Achievement({id = 40542, criteria = 68984})},
-    pois = {POI({40743385})}
+    pois = {Entrance({40743385})}
 }) -- Queen Xekatha
 
 cot.nodes[37103275] = SmellingHistory({
     parent = map.id,
     location = L['smelling_history_7_location'],
     rewards = {Achievement({id = 40542, criteria = 68985})},
-    pois = {POI({40743385})}
+    pois = {Entrance({40743385})}
 }) -- Queen Anub'izek
 
 cot.nodes[38423227] = SmellingHistory({
     parent = map.id,
     location = L['smelling_history_8_location'],
     rewards = {Achievement({id = 40542, criteria = 68986})},
-    pois = {POI({40743385})}
+    pois = {Entrance({40743385})}
 }) -- Queen Zaltra
 
 cot.nodes[38203910] = SmellingHistory({
     parent = map.id,
     location = L['smelling_history_9_location'],
     rewards = {Achievement({id = 40542, criteria = 68987})},
-    pois = {POI({40173874})}
+    pois = {Entrance({40173874})}
 }) -- Treatise on Forms: Sages
 
 cot.nodes[38543774] = SmellingHistory({
     parent = map.id,
     location = L['smelling_history_10_location'],
     rewards = {Achievement({id = 40542, criteria = 68988})},
-    pois = {POI({40173874})}
+    pois = {Entrance({40173874})}
 }) -- Treatise on Forms: Skitterlings
 
 cot.nodes[23645107] = SmellingHistory({
     parent = map.id,
     location = L['smelling_history_11_location'],
     rewards = {Achievement({id = 40542, criteria = 69446})},
-    pois = {POI({26115141})}
+    pois = {Entrance({26115141})}
 }) -- Treatise on Forms: Lords
 
 cot.nodes[77984103] = SmellingHistory({
@@ -949,30 +951,19 @@ cotl.nodes[68195603] = NoHarmFromReading({
     label = '{achievement:40632}',
     note = L['no_harm_from_reading_note'],
     pois = {
-        POI({
-            points = {72035705}, -- Cave entrance
-            color = 'Yellow'
-        }), POI({
-            points = {66735661}, -- Spider Wall
-            color = 'Red'
-        })
+        Entrance({points = {72035705}, color = 'Yellow'}), -- Cave entrance
+        POI({points = {66735661}, color = 'Red'}) -- Spider Wall
     },
     parent = {
         {
             id = cot.id,
             pois = {
-                POI({
-                    points = {72035705}, -- Cave entrance
-                    color = 'Yellow'
-                })
+                Entrance({points = {72035705}, color = 'Yellow'}) -- Cave entrance
             }
         }, {
             id = map.id,
             pois = {
-                POI({
-                    points = {56468493}, -- Cave entrance
-                    color = 'Yellow'
-                })
+                Entrance({points = {56468493}, color = 'Yellow'}) -- Cave entrance
             }
         }
     }

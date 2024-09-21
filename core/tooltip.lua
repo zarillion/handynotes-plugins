@@ -39,8 +39,34 @@ local function ReputationGain(value, factionID)
     return ns.status.LightBlue('+' .. value .. ' ' .. factionName)
 end
 
+local function RenderPinTooltip(pin)
+    local x, _ = pin:GetCenter()
+    local parentX, _ = pin:GetParent():GetCenter()
+    if (x > parentX) then
+        GameTooltip:SetOwner(pin, 'ANCHOR_LEFT')
+    else
+        GameTooltip:SetOwner(pin, 'ANCHOR_RIGHT')
+    end
+
+    ns.PrepareLinks(pin.label)
+    ns.PrepareLinks(pin.note)
+
+    C_Timer.After(0, function()
+        -- label
+        GameTooltip:SetText(ns.RenderLinks(pin.label, true))
+
+        -- note
+        if pin.note and ns:GetOpt('show_notes') then
+            GameTooltip:AddLine(ns.RenderLinks(pin.note), 1, 1, 1, true)
+        end
+
+        GameTooltip:Show()
+    end)
+end
+
 ns.tooltip = {
     ItemStatus = ItemStatus,
     QuestStatus = QuestStatus,
-    ReputationGain = ReputationGain
+    ReputationGain = ReputationGain,
+    RenderPinTooltip = RenderPinTooltip
 }

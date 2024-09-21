@@ -48,6 +48,8 @@ L['shared_drops'] = nil
 L['zone_drops_label'] = nil
 L['zone_drops_note'] = nil
 
+L['poi_entrance_label'] = nil
+
 L['requires'] = '요구사항'
 L['ranked_research'] = '%s (연구단계 %d/%d)'
 

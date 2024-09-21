@@ -27,6 +27,7 @@ local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
 local Circle = ns.poi.Circle
+local Entrance = ns.poi.Entrance
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -91,7 +92,7 @@ map.nodes[47946014] = Rare({
         Transmog({item = 223346, slot = L['plate']}) -- Viper's Stone Handguards
     },
     pois = {
-        POI({45936001, 46206206, 47726173}) -- Entries
+        Entrance({45936001, 46206206, 47726173}) -- Entries
     }
 }) -- Emperor Pitfang
 
@@ -394,7 +395,7 @@ map.nodes[59732868] = Treasure({ -- 59602460, 59102708  follow {npc:222963}
 
     },
     pois = {
-        POI({59602460, 59102708, 59732868}), -- Lost Mosswool
+        POI({label = '{npc:222956}', points = {59602460, 59102708, 59732868}}), -- Lost Mosswool
         Path({59602460, 59102708, 59732868}) -- Walking Path
     }
 }) -- Mosswool Flower (Lost Mosswool)
@@ -412,7 +413,12 @@ map.nodes[55006564] = Treasure({ -- more Boskroot Cap locations ?
         Reputation({id = 2590, gain = 150, quest = 83245})
     },
     pois = {
-        POI({51837032, 52326982, 52466780, 52687038, 52346737, 52646562}) -- Boskroot Caps
+        POI({
+            label = '{item:221550}',
+            points = {
+                51837032, 52326982, 52466780, 52687038, 52346737, 52646562
+            }
+        }) -- Boskroot Caps
     }
 }) -- Mushroom Cap (U'llwort The Self-Exiled)
 
@@ -425,7 +431,7 @@ map.nodes[53951920] = Treasure({
         Reputation({id = 2590, gain = 150, quest = 83244})
     },
     pois = {
-        POI({53081855}) -- Elemental Pearl {item:221504}
+        POI({label = '{item:221504}', points = {53081855}}) -- Elemental Pearl
     }
 }) -- Mysterious Orb (Weary Water Elemental)
 
@@ -438,7 +444,7 @@ map.nodes[48896087] = Treasure({ -- You may have to wait until it spawns.
         Reputation({id = 2590, gain = 150, quest = 82326})
     },
     pois = {
-        POI({45936001, 46206206, 47726173}) -- Entries
+        Entrance({45936001, 46206206, 47726173}) -- Entries
     }
 }) -- Shimmering Opal Lily
 
@@ -462,13 +468,49 @@ map.nodes[48513004] = Treasure({
         Toy({item = 224585}) -- Hanna's Locket
     },
     pois = {
-        POI({48683103}), -- Entrance
-        POI({19735843, quest = 82755, color = 'Green'}), -- Pearlescent Shellcrab
-        POI({38264202, quest = 82756, color = 'Green'}), -- Pearlescent Shellcrab / Up in the Tree
-        POI({41852701, quest = 82754, color = 'Green'}), -- Pearlescent Shellcrab
-        POI({50717057, quest = 82751, color = 'Green'}), -- Pearlescent Shellcrab / under a root
-        POI({70771999, quest = 82753, color = 'Green'}), -- Pearlescent Shellcrab
-        POI({74924939, quest = 82752, color = 'Green'}) -- Pearlescent Shellcrab / on a root
+        Entrance({48683103}), -- Entrance
+        POI({
+            label = '{npc:224548}',
+            note = L['trees_treasure_crab_1_note'],
+            color = 'Green',
+            quest = 82755,
+            points = {19735843}
+        }), -- Pearlescent Shellcrab
+        POI({
+            label = '{npc:224548}',
+            note = L['trees_treasure_crab_2_note'],
+            color = 'Green',
+            quest = 82756,
+            points = {38264202}
+        }), -- Pearlescent Shellcrab / Up in the Tree
+        POI({
+            label = '{npc:224548}',
+            note = L['trees_treasure_crab_3_note'],
+            color = 'Green',
+            quest = 82754,
+            points = {41852701}
+        }), -- Pearlescent Shellcrab
+        POI({
+            label = '{npc:224548}',
+            note = L['trees_treasure_crab_4_note'],
+            color = 'Green',
+            quest = 82751,
+            points = {50717057}
+        }), -- Pearlescent Shellcrab / under a root
+        POI({
+            label = '{npc:224548}',
+            note = L['trees_treasure_crab_5_note'],
+            quest = 82753,
+            color = 'Green',
+            points = {70771999}
+        }), -- Pearlescent Shellcrab
+        POI({
+            label = '{npc:224548}',
+            note = L['trees_treasure_crab_6_note'],
+            quest = 82752,
+            color = 'Green',
+            points = {74924939}
+        }) -- Pearlescent Shellcrab / on a root
     }
 }) -- Tree's Treasure (Pearlescent Shellcrab)
 

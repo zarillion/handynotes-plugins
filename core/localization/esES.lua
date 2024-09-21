@@ -48,6 +48,8 @@ L['shared_drops'] = 'Botín compartido'
 L['zone_drops_label'] = 'Zonas de caídas'
 L['zone_drops_note'] = 'Los objetos listados debajo los pueden soltar varios enemigos en esta zona.'
 
+L['poi_entrance_label'] = 'Entrada'
+
 L['requires'] = 'Requiere'
 L['ranked_research'] = '%s (Rango %d/%d)'
 

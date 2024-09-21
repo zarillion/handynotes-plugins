@@ -295,6 +295,10 @@ end
 function MinimapPinMixin:OnAcquired(poi, ...)
     local mapID = HBD:GetPlayerZone()
     local x, y = poi:Draw(self, ...)
+
+    self.label = poi.label
+    self.note = poi.note
+
     if GetCVar('rotateMinimap') == '1' then self:UpdateRotation() end
     HBDPins:AddMinimapIconMap(MinimapPinsKey, self, mapID, x, y, true)
 end
@@ -312,6 +316,12 @@ function MinimapPinMixin:UpdateRotation()
     if self.rotation == nil or self.provider.facing == nil then return end
     self.texture:SetRotation(self.rotation + math.pi * 2 - self.provider.facing)
 end
+
+function MinimapPinMixin:OnMouseEnter()
+    if self.label then ns.tooltip.RenderPinTooltip(self) end
+end
+
+function MinimapPinMixin:OnMouseLeave() GameTooltip:Hide() end
 
 MinimapDataProvider:SetScript('OnUpdate', function()
     if GetCVar('rotateMinimap') == '1' then MinimapDataProvider:OnUpdate() end
@@ -397,6 +407,10 @@ function WorldMapPinMixin:OnAcquired(poi, ...)
     local _, _, w, h = self:GetParent():GetRect()
     self.parentWidth = w
     self.parentHeight = h
+
+    self.label = poi.label
+    self.note = poi.note
+
     if (w and h) then
         local x, y = poi:Draw(self, ...)
         self:ApplyCurrentScale()
@@ -417,6 +431,12 @@ function WorldMapPinMixin:ApplyFrameLevel()
     MapCanvasPinMixin.ApplyFrameLevel(self)
     self:SetFrameLevel(self:GetFrameLevel() + self.frameOffset)
 end
+
+function WorldMapPinMixin:OnMouseEnter()
+    if self.label then ns.tooltip.RenderPinTooltip(self) end
+end
+
+function WorldMapPinMixin:OnMouseLeave() GameTooltip:Hide() end
 
 -------------------------------------------------------------------------------
 ------------------------------ HANDYNOTES HOOKS -------------------------------

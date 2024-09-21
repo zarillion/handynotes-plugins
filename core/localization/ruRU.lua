@@ -48,6 +48,8 @@ L['shared_drops'] = 'Общий дроп'
 L['zone_drops_label'] = 'Добыча в локации'
 L['zone_drops_note'] = 'Перечисленные ниже предметы могут быть получены от нескольких монстров в этой локации.'
 
+L['poi_entrance_label'] = nil
+
 L['requires'] = 'Требуется'
 L['ranked_research'] = '%s (Ранг %d/%d)'
 

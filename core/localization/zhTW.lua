@@ -48,6 +48,8 @@ L['shared_drops'] = '共享掉落'
 L['zone_drops_label'] = '區域掉落'
 L['zone_drops_note'] = '下列的物品會由此區域的數個怪物掉落.'
 
+L['poi_entrance_label'] = nil
+
 L['requires'] = '需要'
 L['ranked_research'] = '%s (等級 %d/%d)'
 
