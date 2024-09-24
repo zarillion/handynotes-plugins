@@ -692,12 +692,10 @@ local ItsyBitsySpider = Class('ItsyBitsySpider', Collectible, {
 })
 
 map.nodes[55022662] = ItsyBitsySpider({
-    location = L['rumurh_location'],
     rewards = {Achievement({id = 40624, criteria = 68976})}
 }) -- Ru'murh
 
 cot.nodes[50311591] = ItsyBitsySpider({
-    location = L['scampering_weave_rat_location'],
     rewards = {Achievement({id = 40624, criteria = 68978})},
     pois = {
         Path({
@@ -718,25 +716,17 @@ cot.nodes[50311591] = ItsyBitsySpider({
     }
 }) -- Scampering Weave-Rat
 
-map.nodes[08001200] = ItsyBitsySpider({
-    location = L['spindle_location'],
+map.nodes[55644395] = ItsyBitsySpider({
     rewards = {Achievement({id = 40624, criteria = 68973})},
     pois = {
         POI({
             63003300, 48405640, 48405660, 63003300, 45606000, 46205900,
             46605900, 56204820
-        }), -- review - just copied from wowhead
-        POI({55644395, color = 'Red'})
+        }) -- review - just copied from wowhead
     }
 }) -- Spindle
 
-map.nodes[10001200] = ItsyBitsySpider({
-    location = L['swift_location'],
-    rewards = {Achievement({id = 40624, criteria = 68974})}
-}) -- Swift
-
 map.nodes[55106876] = ItsyBitsySpider({
-    location = L['thimble_location'],
     rewards = {Achievement({id = 40624, criteria = 68977})},
     pois = {
         POI({31604740, 55607100, 60601760}), -- review - just copied from wowhead
@@ -755,6 +745,10 @@ cot.nodes[39386540] = ItsyBitsySpider({
     rewards = {Achievement({id = 40624, criteria = 68972})},
     parent = map.id
 }) -- Webster
+
+map.nodes[56344316] = ItsyBitsySpider({
+    rewards = {Achievement({id = 40624, criteria = 3236})}
+}) -- Bobbin
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------

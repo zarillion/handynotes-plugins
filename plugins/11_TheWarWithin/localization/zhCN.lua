@@ -245,12 +245,7 @@ L['thunder_lynx_note'] = '1. 在 {location:炬光矿脉} 的 {object:小型钥�
 L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = '显示 {achievement:40624} 成就中纺崽的位置。'
 
-L['itsy_bitsy_spider_note'] = '向纺崽招手（{emote:/招手}、{emote:/wave}）。'
-L['spindle_location'] = '占位符'
-L['swift_location'] = '占位符'
-L['rumurh_location'] = '占位符'
-L['thimble_location'] = '占位符'
-L['scampering_weave_rat_location'] = '占位符'
+L['itsy_bitsy_spider_note'] = '向纺崽招手（{emote:/招手}、{emote:/wave}）。' -- REVIEW
 
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = '显示 {achievement:40629} 成就中书籍的位置。'

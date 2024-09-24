@@ -245,12 +245,7 @@ L['thunder_lynx_note'] = nil
 L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = '顯示成就 {achievement:40624} 所需的小織蛛位置.'
 
-L['itsy_bitsy_spider_note'] = '向小織蛛揮手 ({emote:/wave}).'
-L['spindle_location'] = nil
-L['swift_location'] = nil
-L['rumurh_location'] = nil
-L['thimble_location'] = nil
-L['scampering_weave_rat_location'] = nil
+L['itsy_bitsy_spider_note'] = '向小織蛛揮手 ({emote:/wave}).' -- REVIEW
 
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = '顯示成就 {achievement:40629} 所需的書籍位置.'

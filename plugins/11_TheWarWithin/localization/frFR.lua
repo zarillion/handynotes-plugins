@@ -246,12 +246,7 @@ L['thunder_lynx_note'] = '1. Utilisez 3x {item:206350} pour allumer la {object:F
 L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = 'Afficher les emplacements des tisse-rats pour le haut-fait {achievement:40624}.'
 
-L['itsy_bitsy_spider_note'] = 'Faites signe ({emote:/signe}) au tisse-rat.'
-L['spindle_location'] = nil
-L['swift_location'] = nil
-L['rumurh_location'] = nil
-L['thimble_location'] = nil
-L['scampering_weave_rat_location'] = nil
+L['itsy_bitsy_spider_note'] = '{emote:/signe} au tisse-rat.' -- REVIEW
 
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:40629}.'

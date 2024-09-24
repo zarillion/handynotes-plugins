@@ -245,12 +245,7 @@ L['thunder_lynx_note'] = '1. Use 3x {item:206350} at the {object:Lesser Keyflame
 L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = 'Display weave-rat locations for {achievement:40624} achievement.'
 
-L['itsy_bitsy_spider_note'] = 'Wave ({emote:/wave}) to the weave-rat.'
-L['spindle_location'] = 'PH'
-L['swift_location'] = 'PH'
-L['rumurh_location'] = 'PH'
-L['thimble_location'] = 'PH'
-L['scampering_weave_rat_location'] = 'PH'
+L['itsy_bitsy_spider_note'] = '{emote:/wave} to the {npc:weave-rat}.'
 
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Display book locations for the {achievement:40629} achievement.'
