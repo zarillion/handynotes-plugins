@@ -245,7 +245,7 @@ L['thunder_lynx_note'] = '1. Usa 3x {item:206350} en la {object:Llave ardiente i
 L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = 'Muestra dónde están las tejerratas del logro {achievement:40624}.'
 
-L['itsy_bitsy_spider_note'] = '{emote:/saludar} a la tejerrata.' -- REVIEW
+L['itsy_bitsy_spider_note'] = 'Teclea {emote:/saludar} en la tejerrata.'
 
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Muestra dónde están los libros para el logro {achievement:40629}.'
