@@ -52,11 +52,13 @@ end
 -- Override to hide this group in the UI under certain circumstances
 function Group:IsEnabled()
 
+    -- Check faction
     if self.faction then
         if ns:GetOpt('ignore_faction_restrictions') then return true end
         if self.faction ~= ns.faction then return false end
     end
 
+    -- Check class
     if self.class then
         if ns:GetOpt('ignore_class_restrictions') then return true end
         if self.class ~= ns.class then return false end
