@@ -225,7 +225,7 @@ L['options_icons_beacon_of_hope_desc'] = '显示 {achievement:40308} 成就中�
 
 L['beacon_of_hope_note'] = '捐献 {item:206350} 来点亮小型钥焰并完成接下来的任务。'
 
-L['parasidious_note'] = '要出现此稀有，需要从 {npc:206533} 购买 {item:206670}（激活 {object:小型钥焰} 使其出现），然后前往 {location:暮升辽原} 并拉动 {npc:206870}。当拉动它们时，一根藤蔓会从身上射出并到达 {npc:206978}，它会生长/变化，直到稀有最终出现。' -- from wowhead, needs to be reviewed
+L['parasidious_note'] = '从 {npc:206533} 购买 {item:206670}（激活 {object:小型钥焰} 使其出现），然后前往 {location:暮升辽原} 并拉动 {npc:206870}。当拉动它们时，一根藤蔓会从身上射出并到达 {npc:206978}，它会生长/变化，直到稀有最终出现。'
 
 L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = '显示 {achievement:20594} 成就中的位置。'
@@ -245,7 +245,7 @@ L['thunder_lynx_note'] = '1. 在 {location:炬光矿脉} 的 {object:小型钥�
 L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
 L['options_icons_itsy_bitsy_spider_desc'] = '显示 {achievement:40624} 成就中纺崽的位置。'
 
-L['itsy_bitsy_spider_note'] = '向纺崽招手（{emote:/招手}、{emote:/wave}）。' -- REVIEW
+L['itsy_bitsy_spider_note'] = '向 {npc:纺崽} 招手（{emote:/招手}、{emote:/wave}）。'
 
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = '显示 {achievement:40629} 成就中书籍的位置。'
