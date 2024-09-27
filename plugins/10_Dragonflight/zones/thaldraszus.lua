@@ -1841,13 +1841,13 @@ local HearthstoneEvent = Class('HearthstoneEvent', Collectible, {
         Transmog({item = 212336, slot = L['tabard']}), -- The Tavern's Tabard
         Item({item = 212335, note = L['bag']}) -- Collectors Carryall
     },
-    IsEnabled = function() return ns.IsCalendarEventActive(1462) end
+    IsEnabled = function() return ns.IsCalendarEventActive(1578) end
 }) -- Heathstone Event
 
 local stormwind = ns.maps[84] or Map({id = 84, settings = false})
 local durotar = ns.maps[1] or Map({id = 1, settings = false})
 
-val.nodes[62556761] = HearthstoneEvent({parent = map.id})
+-- val.nodes[62556761] = HearthstoneEvent({parent = map.id})
 stormwind.nodes[34002100] = HearthstoneEvent()
 durotar.nodes[53101620] = HearthstoneEvent()
 
