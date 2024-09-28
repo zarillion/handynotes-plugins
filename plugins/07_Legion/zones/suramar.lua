@@ -31,7 +31,7 @@ local falanaar_tunnels = Map({id = 685, settings = true})
 
 map.nodes[42078013] = Rare({
     id = 109954,
-    quest = 43348, -- needs to be checked
+    quest = 43348,
     rewards = {
         Achievement({id = 11265, criteria = 33353}) -- Adventurer of Suramar
     }
@@ -39,7 +39,7 @@ map.nodes[42078013] = Rare({
 
 map.nodes[49677898] = Rare({
     id = 111007,
-    quest = 43602, -- 43603 -- needs to be ckecked
+    quest = 43603,
     rewards = {
         Achievement({id = 11265, criteria = 33364}) -- Adventurer of Suramar
     }
