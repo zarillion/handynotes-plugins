@@ -60,7 +60,7 @@ L['cendvin_note'] = 'Obtenez 900x {item:225557} sur les monstres élites à {loc
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Afficher l\'emplacement pour le haut-fait {achievement:40606}.'
 
-L['tome_of_polymorph_mosswool'] = nil
+L['tome_of_polymorph_mosswool'] = 'Entrez dans le tunnel et continuez jusqu\'au {location:Salon de Fagotin}.\n\nAcceptez {quest:84438} donnée par {npc:229128} pour recevoir le {item:227710}.'
 
 L['aradan_note_start'] = '{npc:213428} se trouve dans le donjon {location:La colonie} à {location:Dornogal} sur l\'{location:Île de Dorn}.\n\n{note:{npc:213428} peut être dompté en mode Donjon avec sujets.}'
 L['aradan_note_step_1'] = '1. Récupérez le {item:220770} dans les profondeurs marines au large de l\'{location:Île de Dorn}.'
