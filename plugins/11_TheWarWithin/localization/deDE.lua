@@ -61,6 +61,8 @@ L['cendvin_note'] = 'Plündere 900x {item:225557} in {location:Aschenholtz} von 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Zeigt die Position für den Erfolg {achievement:40606} an.'
 
+L['tome_of_polymorph_mosswool'] = nil
+
 L['aradan_note_start'] = '{npc:213428} befindet sich auf der {location:Insel von Dorn} in {location:Dornogal} im Dungeon {location:Die Brutstätte}.\n\n{note:{npc:213428} kann auch in einem Anhängerdungeon gezähmt werden.}'
 L['aradan_note_step_1'] = '1. Sammle den {item:220770} aus den tiefen Gewässern außerhalb der {location:Insel von Dorn}.'
 L['aradan_note_step_2'] = '2. Betrete den Dungeon {location:Die Brutstätte} und besiege {npc:209230} ({dot:Blue}).'

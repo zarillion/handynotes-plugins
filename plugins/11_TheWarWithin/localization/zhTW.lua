@@ -59,6 +59,8 @@ L['cendvin_note'] = '在 {location:火渣林} 的菁英怪農 900x {item:225557}
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = '顯示成就 {achievement:40606} 的位置.'
 
+L['tome_of_polymorph_mosswool'] = nil
+
 L['aradan_note_start'] = nil
 L['aradan_note_step_1'] = nil
 L['aradan_note_step_2'] = nil

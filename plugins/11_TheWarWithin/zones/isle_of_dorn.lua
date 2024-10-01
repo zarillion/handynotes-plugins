@@ -801,6 +801,8 @@ map.nodes[67484330] = FlightMaster({
 }) -- Durgaz Cabin
 
 -------------------------------------------------------------------------------
+-------------------------- ACHIEVEMENT: FLAT EARTHEN --------------------------
+-------------------------------------------------------------------------------
 
 dor.nodes[50006188] = Collectible({
     icon = 4620670,
@@ -809,6 +811,12 @@ dor.nodes[50006188] = Collectible({
     rewards = {Achievement({id = 40606, criteria = 0})},
     parent = map.id
 }) -- Flat Earthen
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
+
+------------------------ SIZZLING CINDERPOLLEN REWARDS ------------------------
 
 map.nodes[74334530] = Collectible({
     icon = 5633720,
@@ -821,9 +829,18 @@ map.nodes[74334530] = Collectible({
     pois = {Path({Circle({origin = 71423755, radius = 3.5})})} -- Sizzling Cinderpollen farm
 }) -- Cendvin
 
--------------------------------------------------------------------------------
+------------------------- TOME OF POLYMORPH: MOSSWOOL -------------------------
+
+dor.nodes[61800540] = Collectible({
+    label = '{item:227710}',
+    icon = 133739,
+    note = L['tome_of_polymorph_mosswool'],
+    class = 'MAGE',
+    rewards = {Item({item = 227710})}, -- Tome of Polymorph: Mosswool
+    pois = {POI({58700650})} -- Entrance
+}) -- Tome of Polymorph: Mosswool
+
 ----------------------- ARADAN: STORMROOK SPIRIT BEAST ------------------------
--------------------------------------------------------------------------------
 
 local rookeryLanding = ns.maps[2315] or Map({id = 2315, settings = false})
 local stormsRoost = ns.maps[2316] or Map({id = 2316, settings = false})
