@@ -59,7 +59,7 @@ L['cendvin_note'] = 'Consigue 900x {item:225557} en {location:Foldeceniza} de lo
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Muestra los sitios para el logro {achievement:40606}.'
 
-L['tome_of_polymorph_mosswool'] = 'Entra en el túnel y avanza hasta el {location:The Kindling Parlor}.\n\nAcepta la misión {quest:84438} que te da {npc:229128} para conseguir el {item:227710}.' -- REVIEW location
+L['tome_of_polymorph_mosswool'] = 'Entra en el túnel y avanza hasta {location:El Salón de la Llama}.\n\nAcepta la misión {quest:84438} que te da {npc:229128} para conseguir el {item:227710}.'
 
 L['aradan_note_start'] = '{npc:213428} se puede encontrar en la mazmorra {location:El Grajero} en {location:Dornogal} de la {location:Isla de Dorn}.\n\n{note:{npc:213428} puede ser domesticado en el modo Mazmorra de seguidores.}'
 L['aradan_note_step_1'] = '1. Recoge el {item:220770} de las profundidades del agua fuera de la {location:Isle of Dorn.}'
