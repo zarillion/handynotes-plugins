@@ -59,7 +59,7 @@ L['cendvin_note'] = '在 {location:烬燧荒原} 从精英怪物那里获得900�
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = '显示 {achievement:40606} 成就中的位置。'
 
-L['tome_of_polymorph_mosswool'] = nil
+L['tome_of_polymorph_mosswool'] = '进入隧道并继续前往 {location:燃火之厅}。\n\n接受来自 {npc:229128} 的 {quest:84438} 获得 {item:227710}。'
 
 L['aradan_note_start'] = '{npc:213428} 可以在 {location:多恩岛} 的 {location:多恩诺嘉尔} 地下城 {location:驭雷栖巢} 中找到。\n\n{note:{npc:213428} 可以在追随者地下城模式下被驯服。}'
 L['aradan_note_step_1'] = '1. 从 {location:多恩岛} 外的深水中收集 {item:220770}。'

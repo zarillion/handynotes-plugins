@@ -1,6 +1,6 @@
 # v103
 
-* Localization updates: esES, frFR
+* Localization updates: esES, frFR, zhCN
 
 # v102
 
