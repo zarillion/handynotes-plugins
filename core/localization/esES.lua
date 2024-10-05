@@ -192,6 +192,11 @@ L['options_toggle_per_map_settings_desc'] = 'Aplicar opciones, escalado y opacid
 L['options_restore_hidden_nodes'] = 'Restaurar los nodos ocultos'
 L['options_restore_hidden_nodes_desc'] = 'Vuelve a mostrar todos los nodos ocultos usando el menú contextual con click derecho.'
 
+L['ignore_class_restrictions'] = 'Ignorar las restricciones de clase'
+L['ignore_class_restrictions_desc'] = 'Mostrar grupos, nodos y recompensas que requieren una clase diferente a la del personaje activo.'
+L['ignore_faction_restrictions'] = 'Ignorar las restricciones de facción'
+L['ignore_faction_restrictions_desc'] = 'Mostrar grupos, nodos y recompensas que requieren la facción contraria.'
+
 L['options_rewards_settings'] = 'Recompensas'
 L['options_reward_behaviors_settings'] = 'Comportamiento de las recompensas'
 L['options_reward_types'] = 'Mostrar tipos de recompensas'

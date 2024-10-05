@@ -20,6 +20,7 @@ ns.optionDefaults = {
         show_completed_nodes = false,
         use_char_achieves = false,
         per_map_settings = false,
+        display_class_locked_nodes = false,
 
         -- tooltip
         show_loot = true,
@@ -34,6 +35,7 @@ ns.optionDefaults = {
         show_toy_rewards = true,
         show_transmog_rewards = true,
         show_manuscript_rewards = true, -- dragonflight only
+        show_class_locked_rewards = false,
 
         -- reward options
         show_all_transmog_rewards = false,
@@ -264,11 +266,28 @@ ns.options = {
                     order = 35,
                     width = 'full'
                 },
+                IgnoreHeader = {type = 'header', name = '', order = 36},
+                ignore_class_restrictions = {
+                    type = 'toggle',
+                    arg = 'ignore_class_restrictions',
+                    name = L['ignore_class_restrictions'],
+                    desc = L['ignore_class_restrictions_desc'],
+                    order = 37,
+                    width = 'full'
+                },
+                ignore_faction_restrictions = {
+                    type = 'toggle',
+                    arg = 'ignore_faction_restrictions',
+                    name = L['ignore_faction_restrictions'],
+                    desc = L['ignore_faction_restrictions_desc'],
+                    order = 38,
+                    width = 'full'
+                },
                 restore_all_nodes = {
                     type = 'execute',
                     name = L['options_restore_hidden_nodes'],
                     desc = L['options_restore_hidden_nodes_desc'],
-                    order = 36,
+                    order = 39,
                     width = 'full',
                     func = function()
                         wipe(ns.addon.db.char)

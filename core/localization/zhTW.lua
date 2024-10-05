@@ -192,6 +192,11 @@ L['options_toggle_per_map_settings_desc'] = '只使用各個地圖各自獨立�
 L['options_restore_hidden_nodes'] = '恢復隱藏的節點'
 L['options_restore_hidden_nodes_desc'] = '恢復所有使用右鍵選單隱藏的節點.'
 
+L['ignore_class_restrictions'] = nil
+L['ignore_class_restrictions_desc'] = nil
+L['ignore_faction_restrictions'] = nil
+L['ignore_faction_restrictions_desc'] = nil
+
 L['options_rewards_settings'] = '獎勵'
 L['options_reward_behaviors_settings'] = '獎勵行為'
 L['options_reward_types'] = '顯示獎勵類型'

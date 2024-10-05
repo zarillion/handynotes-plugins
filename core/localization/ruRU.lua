@@ -192,6 +192,11 @@ L['options_toggle_per_map_settings_desc'] = 'Применяйте настрой
 L['options_restore_hidden_nodes'] = 'Восстановить скрытые места'
 L['options_restore_hidden_nodes_desc'] = 'Восстановите все скрытые места, используя контекстное меню, вызываемое правой кнопкой мыши.'
 
+L['ignore_class_restrictions'] = nil
+L['ignore_class_restrictions_desc'] = nil
+L['ignore_faction_restrictions'] = nil
+L['ignore_faction_restrictions_desc'] = nil
+
 L['options_rewards_settings'] = 'Награды'
 L['options_reward_behaviors_settings'] = nil
 L['options_reward_types'] = 'Показать типы наград'

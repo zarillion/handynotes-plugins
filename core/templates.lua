@@ -234,7 +234,25 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                 ns:SetOpt('use_char_achieves', button.checked)
             end
         })
-
+        LibDD:UIDropDownMenu_AddSeparator()
+        LibDD:UIDropDownMenu_AddButton({
+            text = L['ignore_class_restrictions'],
+            isNotRadio = true,
+            keepShownOnClick = true,
+            checked = ns:GetOpt('ignore_class_restrictions'),
+            func = function(button, option)
+                ns:SetOpt('ignore_class_restrictions', button.checked)
+            end
+        })
+        LibDD:UIDropDownMenu_AddButton({
+            text = L['ignore_faction_restrictions'],
+            isNotRadio = true,
+            keepShownOnClick = true,
+            checked = ns:GetOpt('ignore_faction_restrictions'),
+            func = function(button, option)
+                ns:SetOpt('ignore_faction_restrictions', button.checked)
+            end
+        })
         LibDD:UIDropDownMenu_AddSeparator()
         LibDD:UIDropDownMenu_AddButton({
             text = L['options_open_settings_panel'],
