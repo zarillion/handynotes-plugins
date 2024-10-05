@@ -1,3 +1,8 @@
+# v102
+
+* Add toggle for faction restrictions
+* Add toggle for class restrictions
+
 # v101
 
 * Added a feature that POIs can have tooltips.
