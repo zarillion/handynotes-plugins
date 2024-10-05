@@ -1,3 +1,7 @@
+# v104
+
+* Localization updates: zhTW
+
 # v103
 
 * Localization updates: esES, frFR, zhCN

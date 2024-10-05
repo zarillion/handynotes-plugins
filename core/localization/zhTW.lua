@@ -48,7 +48,7 @@ L['shared_drops'] = '共享掉落'
 L['zone_drops_label'] = '區域掉落'
 L['zone_drops_note'] = '下列的物品會由此區域的數個怪物掉落.'
 
-L['poi_entrance_label'] = nil
+L['poi_entrance_label'] = '入口'
 
 L['requires'] = '需要'
 L['ranked_research'] = '%s (等級 %d/%d)'
@@ -192,10 +192,10 @@ L['options_toggle_per_map_settings_desc'] = '只使用各個地圖各自獨立�
 L['options_restore_hidden_nodes'] = '恢復隱藏的節點'
 L['options_restore_hidden_nodes_desc'] = '恢復所有使用右鍵選單隱藏的節點.'
 
-L['ignore_class_restrictions'] = nil
-L['ignore_class_restrictions_desc'] = nil
-L['ignore_faction_restrictions'] = nil
-L['ignore_faction_restrictions_desc'] = nil
+L['ignore_class_restrictions'] = '忽略職業限制'
+L['ignore_class_restrictions_desc'] = '顯示需要非當前角色職業的群組, 節點和獎勵.'
+L['ignore_faction_restrictions'] = '忽略陣營限制'
+L['ignore_faction_restrictions_desc'] = '顯示需要對方陣營的群組, 節點和獎勵.'
 
 L['options_rewards_settings'] = '獎勵'
 L['options_reward_behaviors_settings'] = '獎勵行為'
