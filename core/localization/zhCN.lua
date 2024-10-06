@@ -192,10 +192,10 @@ L['options_toggle_per_map_settings_desc'] = '应用切换，缩放和透明度�
 L['options_restore_hidden_nodes'] = '恢复隐藏项'
 L['options_restore_hidden_nodes_desc'] = '使用右击菜单恢复全部隐藏项。'
 
-L['ignore_class_restrictions'] = nil
-L['ignore_class_restrictions_desc'] = nil
-L['ignore_faction_restrictions'] = nil
-L['ignore_faction_restrictions_desc'] = nil
+L['ignore_class_restrictions'] = '忽略职业限制'
+L['ignore_class_restrictions_desc'] = '显示需要与当前角色不同职业的组、项和奖励。'
+L['ignore_faction_restrictions'] = '忽略阵营限制'
+L['ignore_faction_restrictions_desc'] = '显示需要对立阵营的组、项和奖励。'
 
 L['options_rewards_settings'] = '奖励'
 L['options_reward_behaviors_settings'] = '奖励行为'
