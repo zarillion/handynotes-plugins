@@ -1,9 +1,5 @@
 # v104
 
-* Updated core localizations: zhTW
-
-# v102
-
 * Add toggle for faction restrictions
 * Add toggle for class restrictions
 
