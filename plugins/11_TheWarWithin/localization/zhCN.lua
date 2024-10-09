@@ -311,9 +311,9 @@ L['you_cant_hang_with_us_note'] = '找到一个带有 {spell:434734} 增益效�
 L['kej_pet_vendor_note'] = '每只宠物的库存有限，价格为2,250个 {currency:3056}。\n\n{note:任意商人的每个宠物物品的预计刷新时间为3-4小时。}'
 
 L['options_icons_back_to_the_wall'] = '{achievement:40620}'
-L['options_icons_back_to_the_wall_desc'] = nil
-L['arathi_prisoner_suffix'] = nil
-L['arathi_prisoner_note'] = nil
+L['options_icons_back_to_the_wall_desc'] = '显示 {achievement:40620} 成就中 {npc:222119} 的位置。'
+L['arathi_prisoner_suffix'] = '已营救阿拉希囚犯'
+L['arathi_prisoner_note'] = '在 {wq:特别任务：些许治愈} 期间释放被蛛网包裹的 {npc:222119}。'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
