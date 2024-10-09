@@ -310,6 +310,11 @@ L['you_cant_hang_with_us_note'] = 'Busca un {npc:211816} con el buff {spell:4347
 
 L['kej_pet_vendor_note'] = 'Hay una cantidad limitada de cada mascota y cuesta 2.250x {currency:3056}.\n\n{note:El tiempo de reaparición estimado es 3-4 horas para cada objeto de mascota en todos los vendedores.}'
 
+L['options_icons_back_to_the_wall'] = '{achievement:40620}'
+L['options_icons_back_to_the_wall_desc'] = nil
+L['arathi_prisoner_suffix'] = nil
+L['arathi_prisoner_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------

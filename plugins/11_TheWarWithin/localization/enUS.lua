@@ -310,6 +310,11 @@ L['you_cant_hang_with_us_note'] = 'Find a {npc:211816} with the {spell:434734} b
 
 L['kej_pet_vendor_note'] = 'Each pet has a limited stock and costs 2,250x {currency:3056}.\n\n{note:Estimated respawn time is 3-4 hours for each pet item at any vendor.}'
 
+L['options_icons_back_to_the_wall'] = '{achievement:40620}'
+L['options_icons_back_to_the_wall_desc'] = 'Display {npc:222119} locations for {achievement:40620}.'
+L['arathi_prisoner_suffix'] = 'Arathi prisoners saved'
+L['arathi_prisoner_note'] = 'Free webbed-wrapped {npc:222119} during the {wq:Special Assignment: A Pound of Cure}.'
+
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------

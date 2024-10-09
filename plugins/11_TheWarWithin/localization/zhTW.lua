@@ -300,6 +300,11 @@ L['you_cant_hang_with_us_note'] = nil
 
 L['kej_pet_vendor_note'] = nil
 
+L['options_icons_back_to_the_wall'] = '{achievement:40620}'
+L['options_icons_back_to_the_wall_desc'] = nil
+L['arathi_prisoner_suffix'] = nil
+L['arathi_prisoner_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------

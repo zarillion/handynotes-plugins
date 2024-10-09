@@ -313,6 +313,11 @@ L['you_cant_hang_with_us_note'] = 'Finde einen {npc:211816} mit dem Stärkungsza
 
 L['kej_pet_vendor_note'] = 'Jedes Haustier hat einen begrenzten Bestand und kostet 2.250x {currency:3056}.\n\n{note:Es kann 3 bis 4 Stunden dauern, bis eines dieser Haustiere wieder beim Händler verfügbar ist.}'
 
+L['options_icons_back_to_the_wall'] = '{achievement:40620}'
+L['options_icons_back_to_the_wall_desc'] = nil
+L['arathi_prisoner_suffix'] = nil
+L['arathi_prisoner_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------

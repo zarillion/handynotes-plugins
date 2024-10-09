@@ -1098,6 +1098,46 @@ map.nodes[76846444] = FlightMaster({
 }) -- Mmari
 
 -------------------------------------------------------------------------------
+------------------------ ACHIEVEMENT: BACK TO THE WALL ------------------------
+-------------------------------------------------------------------------------
+
+local ArathiPrisoner = Class('ArathiPrisoner', Collectible, {
+    label = '{npc:222119}',
+    icon = 'peg_yw',
+    scale = 1.5,
+    note = L['arathi_prisoner_note'],
+    group = ns.groups.BACK_TO_THE_WALL,
+    rewards = {
+        Achievement({
+            id = 40620,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['arathi_prisoner_suffix']
+            }
+        })
+    }
+})
+
+map.nodes[65901335] = ArathiPrisoner()
+map.nodes[64951100] = ArathiPrisoner()
+map.nodes[65101058] = ArathiPrisoner()
+map.nodes[64241006] = ArathiPrisoner()
+map.nodes[65080784] = ArathiPrisoner()
+map.nodes[64880760] = ArathiPrisoner()
+map.nodes[64720438] = ArathiPrisoner()
+map.nodes[64740440] = ArathiPrisoner()
+map.nodes[61690791] = ArathiPrisoner()
+map.nodes[60280928] = ArathiPrisoner()
+map.nodes[60270939] = ArathiPrisoner()
+map.nodes[62000428] = ArathiPrisoner()
+map.nodes[61210398] = ArathiPrisoner()
+map.nodes[48465780] = ArathiPrisoner()
+map.nodes[63060098] = ArathiPrisoner()
+map.nodes[63800073] = ArathiPrisoner()
+map.nodes[63880010] = ArathiPrisoner()
+
+-------------------------------------------------------------------------------
 ---------------------- PET: BEAN (FRESHLY WEBBED KEBAB) -----------------------
 -------------------------------------------------------------------------------
 

@@ -40,6 +40,12 @@ ns.groups.SKYRIDING_GLYPH = Group('skyriding_glyph', 4728198, {
 
 -------------------------------------------------------------------------------
 
+ns.groups.BACK_TO_THE_WALL = Group('back_to_the_wall', 236681, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40620
+})
+
 ns.groups.BEACON_OF_HOPE = Group('beacon_of_hope', 135922, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
