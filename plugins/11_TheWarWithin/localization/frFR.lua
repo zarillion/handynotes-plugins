@@ -312,9 +312,9 @@ L['you_cant_hang_with_us_note'] = 'Trouvez une {npc:211816} avec l\'effet {spell
 L['kej_pet_vendor_note'] = 'Chaque mascotte est limitée en stock et coûte 2250x {currency:3056}.\n\n{note:Le temps de réapparition estimé est de 3 à 4 heures pour chaque mascotte auprès de n\'importe quel vendeur.}'
 
 L['options_icons_back_to_the_wall'] = '{achievement:40620}'
-L['options_icons_back_to_the_wall_desc'] = nil
-L['arathi_prisoner_suffix'] = nil
-L['arathi_prisoner_note'] = nil
+L['options_icons_back_to_the_wall_desc'] = 'Afficher les emplacements des {npc:222119} pour le haut-fait {achievement:40620}.'
+L['arathi_prisoner_suffix'] = 'Prisonniers arathi sauvés'
+L['arathi_prisoner_note'] = 'Libérez les {npc:222119} enveloppés de toiles pendant l\'expédition {wq:Mission spéciale : une livre de remède}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
