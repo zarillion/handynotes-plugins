@@ -1,3 +1,7 @@
+# v106
+
+* Localization updates: deDE
+
 # v105
 
 * Add Arathi Prisoner locations for the achievement [Back to the Wall](https://www.wowhead.com/achievement=40620/back-to-the-wall)

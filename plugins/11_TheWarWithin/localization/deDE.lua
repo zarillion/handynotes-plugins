@@ -280,7 +280,7 @@ L['options_icons_skittershaw_spin_desc'] = 'Zeigt die Position des Krabblertaxis
 L['skittershaw_spin_note'] = 'Fahre mit dem {npc:224973} eine ganze Runde um den Distrikt.\n\nDas {npc:224973} hält an verschiedenen Stellen ({dot:Red}) entlang der Runde.'
 
 L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
-L['options_icons_no_harm_from_reading_desc'] = 'Display {npc:227421} locations for the {achievement:40632} achievement.'
+L['options_icons_no_harm_from_reading_desc'] = 'Zeigt die Positionen von {npc:227421} für den Erfolg {achievement:40632} an.'
 L['no_harm_from_reading_note'] = [[
 Gehe in die Höhle ({dot:Yellow}) zur Wand mit den drei Spinnen ({dot:Red}).
 Klettere die Wand hoch und springe in das Loch.
@@ -314,9 +314,9 @@ L['you_cant_hang_with_us_note'] = 'Finde einen {npc:211816} mit dem Stärkungsza
 L['kej_pet_vendor_note'] = 'Jedes Haustier hat einen begrenzten Bestand und kostet 2.250x {currency:3056}.\n\n{note:Es kann 3 bis 4 Stunden dauern, bis eines dieser Haustiere wieder beim Händler verfügbar ist.}'
 
 L['options_icons_back_to_the_wall'] = '{achievement:40620}'
-L['options_icons_back_to_the_wall_desc'] = nil
-L['arathi_prisoner_suffix'] = nil
-L['arathi_prisoner_note'] = nil
+L['options_icons_back_to_the_wall_desc'] = 'Zeigt die Positionen von {npc:222119} für den Erfolg {achievement:40620} an.'
+L['arathi_prisoner_suffix'] = 'gefangene Arathi gerettet'
+L['arathi_prisoner_note'] = 'Rette {npc:222119} aus Spinnennetzen während der Weltquest {wq:Spezialauftrag: Besser als Nachsicht}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
