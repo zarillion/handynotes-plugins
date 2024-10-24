@@ -136,6 +136,12 @@ L['critter_love_note'] = '必须对小动物使用表情 {emote:/爱}、{emote:/
 L['options_icons_critter_love'] = '{achievement:40475}'
 L['options_icons_critter_love_desc'] = '显示 {achievement:40475} 成就中小动物的位置。'
 
+L['for_the_collective_note'] = nil
+L['for_the_collective_suffix'] = nil
+L['for_the_collective_location'] = nil
+L['options_icons_for_the_collective'] = '{achievement:40630}'
+L['options_icons_for_the_collective_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

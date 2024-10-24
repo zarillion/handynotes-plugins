@@ -136,6 +136,12 @@ L['critter_love_note'] = 'Tienes que teclear la emoción {emote:/amor} en alima�
 L['options_icons_critter_love'] = '{achievement:40475}'
 L['options_icons_critter_love_desc'] = 'Muestra dónde están las alimañas para el logro {achievement:40475}.'
 
+L['for_the_collective_note'] = nil
+L['for_the_collective_suffix'] = nil
+L['for_the_collective_location'] = nil
+L['options_icons_for_the_collective'] = '{achievement:40630}'
+L['options_icons_for_the_collective_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

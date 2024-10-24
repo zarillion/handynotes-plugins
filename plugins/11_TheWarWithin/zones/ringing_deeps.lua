@@ -819,3 +819,33 @@ map.nodes[61444793] = FlightMaster({
 map.nodes[64717808] = FlightMaster({
     rewards = {Achievement({id = 40430, criteria = 68183})}
 }) -- Opportunity Point
+
+-------------------------------------------------------------------------------
+----------------------- ACHIEVEMENT: FOR THE COLLECTIVE -----------------------
+-------------------------------------------------------------------------------
+
+local ReclamationMachinist = Class('ReclamationMachinist', Collectible, {
+    label = '{npc:228056}',
+    icon = 'peg_yw',
+    scale = 1.5,
+    group = ns.groups.FOR_THE_COLLECTIVE,
+    note = L['for_the_collective_note'],
+    rewards = {
+        Achievement({
+            id = 40630,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['for_the_collective_suffix']
+            }
+        })
+    }
+}) -- Reclamation Machinist
+
+map.nodes[63596298] = ReclamationMachinist()
+map.nodes[64026395] = ReclamationMachinist()
+map.nodes[66896425] = ReclamationMachinist()
+map.nodes[64276487] = ReclamationMachinist({
+    location = L['for_the_collective_location'],
+    pois = {POI({64866448})} -- Wood Plank
+})

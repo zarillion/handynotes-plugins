@@ -137,6 +137,12 @@ L['critter_love_note'] = 'Vous devez utiliser l\'émote {emote:/amour} sur les b
 L['options_icons_critter_love'] = '{achievement:40475}'
 L['options_icons_critter_love_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:40475}.'
 
+L['for_the_collective_note'] = nil
+L['for_the_collective_suffix'] = nil
+L['for_the_collective_location'] = nil
+L['options_icons_for_the_collective'] = '{achievement:40630}'
+L['options_icons_for_the_collective_desc'] = nil
+
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------

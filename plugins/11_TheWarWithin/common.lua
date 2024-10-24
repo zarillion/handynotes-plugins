@@ -82,6 +82,12 @@ ns.groups.FLIGHT_MASTER = Group('flight_master', 'flight_point_y', {
     achievement = 40430
 })
 
+ns.groups.FOR_THE_COLLECTIVE = Group('for_the_collective', 975747, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40630
+})
+
 ns.groups.GOBBLIN_WITH_GLUBLURP = Group('gobblin_with_glublurp', 5763494, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
