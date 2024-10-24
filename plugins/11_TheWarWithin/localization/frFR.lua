@@ -137,11 +137,11 @@ L['critter_love_note'] = 'Vous devez utiliser l\'émote {emote:/amour} sur les b
 L['options_icons_critter_love'] = '{achievement:40475}'
 L['options_icons_critter_love_desc'] = 'Afficher les emplacements des bestioles pour le haut-fait {achievement:40475}.'
 
-L['for_the_collective_note'] = nil
-L['for_the_collective_suffix'] = nil
-L['for_the_collective_location'] = nil
+L['for_the_collective_note'] = 'Requiert l\'expédition {wq:Mission de messagerie : récupération de minerai}\n\nContribuez jusqu\'à 20x {npc:224281} à chaque {npc:228056}.\n\n{note:La progression des contributions est commune au serveur et se réinitialise au bout de 2 heures.}'
+L['for_the_collective_suffix'] = 'minerai contribué'
+L['for_the_collective_location'] = 'Sur le toit du bâtiment. Utilisez la {npc:Planche en bois} à proximité pour construire une rampe.'
 L['options_icons_for_the_collective'] = '{achievement:40630}'
-L['options_icons_for_the_collective_desc'] = nil
+L['options_icons_for_the_collective_desc'] = 'Afficher les emplacements des {npc:228056} pour le haut-fait {achievement:40630}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
