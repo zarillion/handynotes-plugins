@@ -136,11 +136,11 @@ L['critter_love_note'] = '必须对小动物使用表情 {emote:/爱}、{emote:/
 L['options_icons_critter_love'] = '{achievement:40475}'
 L['options_icons_critter_love_desc'] = '显示 {achievement:40475} 成就中小动物的位置。'
 
-L['for_the_collective_note'] = nil
-L['for_the_collective_suffix'] = nil
-L['for_the_collective_location'] = nil
+L['for_the_collective_note'] = '需要 {wq:信使任务：矿石回收}\n\n捐赠总计20个 {npc:224281} 给每个 {npc:228056}。\n\n{note:捐赠进度账号共享并2小时之后重置。}'
+L['for_the_collective_suffix'] = '捐赠矿石'
+L['for_the_collective_location'] = '在建筑物顶部。使用附近的 {object:木板} 造一个斜坡。'
 L['options_icons_for_the_collective'] = '{achievement:40630}'
-L['options_icons_for_the_collective_desc'] = nil
+L['options_icons_for_the_collective_desc'] = '显示 {achievement:40630} 成就中 {npc:228056} 的位置。'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------

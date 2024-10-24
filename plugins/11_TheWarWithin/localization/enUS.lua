@@ -138,7 +138,7 @@ L['options_icons_critter_love_desc'] = 'Display critter locations for {achieveme
 
 L['for_the_collective_note'] = 'Requires {wq:Courier Mission: Ore Recovery}\n\nContribute up to 20x {npc:224281} at each {npc:228056}.\n\n{note:Contribution progress is realm-wide and resets after 2 hours.}'
 L['for_the_collective_suffix'] = 'ore contributed'
-L['for_the_collective_location'] = 'On top of the building. Use the nearby {npc:Wooden Plank} to build a ramp.'
+L['for_the_collective_location'] = 'On top of the building. Use the nearby {object:Wooden Plank} to build a ramp.'
 L['options_icons_for_the_collective'] = '{achievement:40630}'
 L['options_icons_for_the_collective_desc'] = 'Display {npc:228056} locations for {achievement:40630}.'
 

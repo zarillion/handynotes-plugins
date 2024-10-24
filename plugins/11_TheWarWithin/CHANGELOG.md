@@ -1,7 +1,7 @@
 v106
 
 * Add Reclamation Machinist locations for the achievement [For the Collective](https://www.wowhead.com/achievement=40630/for-the-collective)
-* Localization updates: deDE, frFR
+* Localization updates: deDE, frFR, zhCN
 
 # v105
 
