@@ -61,7 +61,7 @@ L['cendvin_note'] = 'Plündere 900x {item:225557} in {location:Aschenholtz} von 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Zeigt die Position für den Erfolg {achievement:40606} an.'
 
-L['tome_of_polymorph_mosswool'] = nil
+L['tome_of_polymorph_mosswool'] = 'Betrette den Tunnel und gehe zum {location:Der Zundersalon}.\n\nNimm die Quest {quest:84438} von {npc:229128} an, um den {item:227710} zu erhalten.'
 
 L['aradan_note_start'] = '{npc:213428} befindet sich auf der {location:Insel von Dorn} in {location:Dornogal} im Dungeon {location:Die Brutstätte}.\n\n{note:{npc:213428} kann auch in einem Anhängerdungeon gezähmt werden.}'
 L['aradan_note_step_1'] = '1. Sammle den {item:220770} aus den tiefen Gewässern außerhalb der {location:Insel von Dorn}.'
@@ -138,11 +138,11 @@ L['critter_love_note'] = 'Du musst das Emote {emote:/liebe} auf Kleintiere anwen
 L['options_icons_critter_love'] = '{achievement:40475}'
 L['options_icons_critter_love_desc'] = 'Zeigt die Positionen der Kleintiere für den Erfolg {achievement:40475} an.'
 
-L['for_the_collective_note'] = nil
-L['for_the_collective_suffix'] = nil
-L['for_the_collective_location'] = nil
+L['for_the_collective_note'] = 'Benötigt die Weltquest {wq:Kuriermission: Erzsammlung}.\n\nSteuere bis zu 20x {npc:224281} bei jeder {npc:228056} bei.\n\n{note:Der Fortschritt ist Realmweit und wird nach 2 Stunden zurückgesetzt.}'
+L['for_the_collective_suffix'] = 'Erz beigesteuert'
+L['for_the_collective_location'] = 'Oben auf dem Gebäude. Benutze die {npc:Holzplanke} in der Nähe, um eine Rampe zu bauen.'
 L['options_icons_for_the_collective'] = '{achievement:40630}'
-L['options_icons_for_the_collective_desc'] = nil
+L['options_icons_for_the_collective_desc'] = 'Zeigt die Positionen von {npc:228056} für den Erfolg {achievement:40630} an.'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
