@@ -351,13 +351,13 @@ L['tuk_chest_3_note'] = '{note:Disponible uniquement pendant les variantes d’h
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_secrets_of_azeroth'] = nil
-L['options_icons_secrets_of_azeroth_desc'] = nil
+L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
+L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indices pour les {location:Secrets d\'Azeroth}.'
 
-L['alyx_kickoff_note'] = nil
+L['alyx_kickoff_note'] = 'Parlez à {npc:226683} pour activer les nouvelles énigmes des Secrets d\'Azeroth.'
 
-L['celebration_crates_label'] = nil
-L['celebration_crates_note'] = nil
+L['celebration_crates_label'] = 'Caisses d’anniversaire'
+L['celebration_crates_note'] = 'Trouvez et rapportez toutes les {object:Caisses d’anniversaire} cachées à travers {location:Azeroth}.'
 
-L['1_soggy_celebration_crate_note'] = nil
-L['2_hazy_celebration_crate_note'] = nil
+L['1_soggy_celebration_crate_note'] = 'Achetez un {item:225996} à {npc:143029} ({dot:Blue}) au {location:Barboteur} et donnez-le à {npc:189119} pour faire apparaître la {item:226200}.'
+L['2_hazy_celebration_crate_note'] = 'Tant que vous êtes en vie, repérez la zone où la lumière verte brille. {note:Cependant, vous devez être mort pour faire apparaître la {item:232263}.}'
