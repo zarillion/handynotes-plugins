@@ -335,3 +335,18 @@ L['tsw_chest_4_location'] = '在橫樑上. 從有其他箱子的柱子往下.'
 L['tuk_chest_1_note'] = '在雕像後方.'
 L['tuk_chest_2_note'] = '{note:只能在 "逃跑者進化" 和 "折磨受害者" 故事劇情取得.}'
 L['tuk_chest_3_note'] = '{note:只能在 "逃跑者進化" 和 "織絲者救援" 故事劇情取得.}'
+
+-------------------------------------------------------------------------------
+----------------------------- SECRETS OF AZEROTH ------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_secrets_of_azeroth'] = nil
+L['options_icons_secrets_of_azeroth_desc'] = nil
+
+L['alyx_kickoff_note'] = nil
+
+L['celebration_crates_label'] = nil
+L['celebration_crates_note'] = nil
+
+L['1_soggy_celebration_crate_note'] = nil
+L['2_hazy_celebration_crate_note'] = nil

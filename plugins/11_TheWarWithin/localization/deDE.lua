@@ -348,3 +348,18 @@ L['tsw_chest_4_location'] = 'Oben auf dem Balken. Springe von der Säule runter,
 L['tuk_chest_1_note'] = 'Hinter der Statue.'
 L['tuk_chest_2_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Folteropfer" verfügbar.}'
 L['tuk_chest_3_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Weberrettung" verfügbar.}'
+
+-------------------------------------------------------------------------------
+----------------------------- SECRETS OF AZEROTH ------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_secrets_of_azeroth'] = nil
+L['options_icons_secrets_of_azeroth_desc'] = nil
+
+L['alyx_kickoff_note'] = nil
+
+L['celebration_crates_label'] = nil
+L['celebration_crates_note'] = nil
+
+L['1_soggy_celebration_crate_note'] = nil
+L['2_hazy_celebration_crate_note'] = nil

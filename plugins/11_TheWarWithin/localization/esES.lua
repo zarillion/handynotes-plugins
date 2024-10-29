@@ -345,3 +345,18 @@ L['tsw_chest_4_location'] = 'En lo alto de una viga. Bájate del pilar cerca del
 L['tuk_chest_1_note'] = 'Detrás de la estatua.'
 L['tuk_chest_2_note'] = '{note:Sólo disponible en las variantes de la historia "Evolución Incontrolable" y "Víctimas de Tortura".}'
 L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia "Evolución Incontrolable" y "Rescate de la Tejedora".}'
+
+-------------------------------------------------------------------------------
+----------------------------- SECRETS OF AZEROTH ------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_secrets_of_azeroth'] = nil
+L['options_icons_secrets_of_azeroth_desc'] = nil
+
+L['alyx_kickoff_note'] = nil
+
+L['celebration_crates_label'] = nil
+L['celebration_crates_note'] = nil
+
+L['1_soggy_celebration_crate_note'] = nil
+L['2_hazy_celebration_crate_note'] = nil

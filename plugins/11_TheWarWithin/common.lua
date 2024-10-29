@@ -159,6 +159,11 @@ ns.groups.ROCKED_TO_SLEEP = Group('rocked_to_sleep', 5788303, {
 --     achievement = 40194
 -- })
 
+ns.groups.SECRETS_OF_AZEROTH = Group('secrets_of_azeroth', 'peg_gn', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.SKITTERSHAW_SPIN = Group('skittershaw_spin', 879828, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

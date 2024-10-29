@@ -345,3 +345,18 @@ L['tsw_chest_4_location'] = '在横梁上。从另一个宝箱附近的柱子上
 L['tuk_chest_1_note'] = '雕像后面。'
 L['tuk_chest_2_note'] = '{note:仅在“逃亡的进化体”和“煎熬受害者”故事变种。}'
 L['tuk_chest_3_note'] = '{note:仅在“逃亡的进化体”和“纺丝者救援”故事变种。}'
+
+-------------------------------------------------------------------------------
+----------------------------- SECRETS OF AZEROTH ------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_secrets_of_azeroth'] = nil
+L['options_icons_secrets_of_azeroth_desc'] = nil
+
+L['alyx_kickoff_note'] = nil
+
+L['celebration_crates_label'] = nil
+L['celebration_crates_note'] = nil
+
+L['1_soggy_celebration_crate_note'] = nil
+L['2_hazy_celebration_crate_note'] = nil
