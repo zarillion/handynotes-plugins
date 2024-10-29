@@ -350,13 +350,13 @@ L['tuk_chest_3_note'] = '{note:仅在“逃亡的进化体”和“纺丝者救�
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_secrets_of_azeroth'] = nil
-L['options_icons_secrets_of_azeroth_desc'] = nil
+L['options_icons_secrets_of_azeroth'] = '艾泽拉斯之秘'
+L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之秘} 线索的位置。'
 
-L['alyx_kickoff_note'] = nil
+L['alyx_kickoff_note'] = '与 {npc:226683} 交谈以启用新的艾泽拉斯之秘谜题。'
 
-L['celebration_crates_label'] = nil
-L['celebration_crates_note'] = nil
+L['celebration_crates_label'] = '庆典箱子'
+L['celebration_crates_note'] = '找到并交还隐藏在 {location:艾泽拉斯} 中的所有 {object:庆典箱子}。'
 
-L['1_soggy_celebration_crate_note'] = nil
-L['2_hazy_celebration_crate_note'] = nil
+L['1_soggy_celebration_crate_note'] = '从 {location:深潜酒吧} 的 {npc:143029}（{dot:Blue}）购买 {item:225996} 并将其交给 {npc:189119} 以揭示 {item:226200}。'
+L['2_hazy_celebration_crate_note'] = '活着的时候，寻找发出绿光的区域。{note:但是，必须死了才能揭示 {item:232263}。}'
