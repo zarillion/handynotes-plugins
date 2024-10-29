@@ -350,13 +350,13 @@ L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia 
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_secrets_of_azeroth'] = nil
-L['options_icons_secrets_of_azeroth_desc'] = nil
+L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
+L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas para los {location:Secretos de Azeroth}.'
 
-L['alyx_kickoff_note'] = nil
+L['alyx_kickoff_note'] = 'Habla con {npc:226683} para activar los nuevos puzzles de los Secretos de Azeroth.'
 
-L['celebration_crates_label'] = nil
-L['celebration_crates_note'] = nil
+L['celebration_crates_label'] = 'Cajones de celebración'
+L['celebration_crates_note'] = 'Busca y devuelve todos los {object:Cajones de celebración} escondidos a lo largo de {location:Azeroth}.'
 
-L['1_soggy_celebration_crate_note'] = nil
-L['2_hazy_celebration_crate_note'] = nil
+L['1_soggy_celebration_crate_note'] = 'Cómprale un {item:225996} a {npc:143029} ({dot:Blue}) en el {location:Bar Zambullida} y dáselo a {npc:189119} para descubrir el {item:226200}.'
+L['2_hazy_celebration_crate_note'] = 'Mientras estés vivo, busca el área con luz verde brillante. {note:Aunque debes estar muerto para descubrir el {item:232263}.}'
