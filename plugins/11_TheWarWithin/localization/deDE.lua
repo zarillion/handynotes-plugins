@@ -353,13 +353,13 @@ L['tuk_chest_3_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersev
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_secrets_of_azeroth'] = nil
-L['options_icons_secrets_of_azeroth_desc'] = nil
+L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
+L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Positionen für die {location:Geheimnisse von Azeroth} an.'
 
-L['alyx_kickoff_note'] = nil
+L['alyx_kickoff_note'] = 'Spreche mit {npc:226683}, um die neuen {location:Geheimnisse von Azeroth} freizuschalten.'
 
-L['celebration_crates_label'] = nil
-L['celebration_crates_note'] = nil
+L['celebration_crates_label'] = 'Feierkiste'
+L['celebration_crates_note'] = 'Finde und bringe alle {object:Feierkisten} zurück, die in ganz {location:Azeroth} versteckt sind.'
 
-L['1_soggy_celebration_crate_note'] = nil
-L['2_hazy_celebration_crate_note'] = nil
+L['1_soggy_celebration_crate_note'] = 'Kaufe ein {item:225996} von {npc:143029} ({dot:Blue}) in {location:The Dive Bar} und gib dieses {npc:189119}, um {item:226200} auszudecken.'
+L['2_hazy_celebration_crate_note'] = 'Du musst jedoch tot sein, um die {item:232263} öffnen zu können.}'

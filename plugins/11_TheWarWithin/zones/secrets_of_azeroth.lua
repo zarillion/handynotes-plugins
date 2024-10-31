@@ -82,7 +82,7 @@ tanaris.nodes[63025024] = SecretOfAzeroth({
 zuldazar.nodes[54235421] = SecretOfAzeroth({
     label = '{item:226200}',
     note = L['1_soggy_celebration_crate_note'],
-    pois = {POI({54275451})}, -- Nikto
+    pois = {POI({54275451, color='Blue'})}, -- Nikto
     quest = CRATES[1].quest,
     questDeps = START_QUEST,
     rewards = {Item({item = 226200, quest = CRATES[1].quest})},
