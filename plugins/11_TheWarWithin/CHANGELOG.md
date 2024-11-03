@@ -1,4 +1,4 @@
-v106
+# v106
 
 * Added Reclamation Machinist locations for the achievement [For the Collective](https://www.wowhead.com/achievement=40630/for-the-collective)
 * Fixed [Tome of Polymorph: Mosswool](https://www.wowhead.com/item=227710) for mages. (This should now be displayed in Dornogal)
