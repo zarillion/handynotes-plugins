@@ -1,3 +1,7 @@
+#107
+
+* Localization updates: esES, frFR, zhCN
+
 # v106
 
 * Added Reclamation Machinist locations for the achievement [For the Collective](https://www.wowhead.com/achievement=40630/for-the-collective)
