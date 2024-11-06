@@ -350,3 +350,5 @@ L['celebration_crates_note'] = nil
 
 L['1_soggy_celebration_crate_note'] = nil
 L['2_hazy_celebration_crate_note'] = nil
+L['3_dirt_caked_celebration_crate_note'] = nil
+L['5_battered_celebration_crate'] = nil
