@@ -49,7 +49,7 @@ local CELEBRATION_CRATES = {
         map = desolace,
         note = L['2_hazy_celebration_crate_note'],
         parentMapID = 12, -- Kalimdor
-        quest = 85574, -- ![Hazy Celebration Crate]
+        quest = 85574 -- ![Hazy Celebration Crate]
     },
     [3] = {
         coordinates = 22608370,
@@ -100,7 +100,7 @@ tanaris.nodes[63025024] = SecretOfAzeroth({
 
 for num, crate in ipairs(CELEBRATION_CRATES) do
     crate.map.nodes[crate.coordinates] = SecretOfAzeroth({
-        label = format('{item:%d}',crate.item),
+        label = format('{item:%d}', crate.item),
         note = crate.note,
         pois = crate.pois or nil,
         quest = crate.quest,
