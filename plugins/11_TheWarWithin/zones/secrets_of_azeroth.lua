@@ -22,6 +22,7 @@ local tanaris = ns.maps[71] or Map({id = 71, settings = false})
 local zuldazar = ns.maps[862] or Map({id = 862, settings = false})
 local desolace = ns.maps[66] or Map({id = 66, settings = false})
 local deadwindPass = ns.maps[42] or Map({id = 42, settings = false})
+local thousandNeedles = ns.maps[64] or Map({id = 64, settings = false})
 local azsuna = ns.maps[630] or Map({id = 630, settings = true})
 local howlingFjord = ns.maps[117] or Map({id = 117, settings = true})
 
@@ -71,9 +72,20 @@ local CELEBRATION_CRATES = {
         coordinates = 66002220,
         item = 228767,
         map = azsuna,
-        note = '',
+        note = format(L['4_sandy_celebration_crate'],
+            GetCoinTextureString(5000000)),
+        pois = {
+            POI({65604880}), -- Ending
+            Path({
+                66002220, 65402340, 65202380, 64402620, 63602780, 63402880,
+                63202980, 63403120, 63403320, 64203500, 65203640, 65603680,
+                66203940, 66404040, 66604300, 66604500, 66404660, 65804820,
+                65604880
+            })
+        },
         parentMapID = 619, -- Broken Isles
-        quest = 84624 -- ![Sandy Celebration Crate]
+        quest = 84624, -- ![Sandy Celebration Crate]
+        requires = ns.requirement.Item(228768) -- Water-Resistant Receipt
     },
     [5] = {
         coordinates = 29400636,
@@ -105,6 +117,7 @@ for num, crate in ipairs(CELEBRATION_CRATES) do
         pois = crate.pois or nil,
         quest = crate.quest,
         questDeps = START_QUEST,
+        requires = crate.requires or nil,
         rewards = {Item({item = crate.item, quest = crate.quest})},
         rlabel = ns.status.Gray(format('#%d', num))
     })
@@ -132,3 +145,17 @@ function CrateList.getters:note()
 end
 
 tanaris.nodes[66644537] = CrateList()
+
+--------------------- WATER-RESISTANT RECEIPT (CRATE #4) ----------------------
+
+thousandNeedles.nodes[64938438] = SecretOfAzeroth({
+    label = '{item:228768}',
+    note = L['water_resistant_receipt_note'],
+    pois = {
+        POI({66028651}), -- Entrance
+        Path({66028651, 65678567, 65038493, 64938438})
+    },
+    rewards = {
+        Item({item = 228768, bag = true}) -- Water-Resistant Receipt
+    }
+})

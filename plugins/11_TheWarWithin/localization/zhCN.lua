@@ -361,4 +361,7 @@ L['celebration_crates_note'] = '找到并交还隐藏在 {location:艾泽拉斯}
 L['1_soggy_celebration_crate_note'] = '从 {location:深潜酒吧} 的 {npc:143029}（{dot:Blue}）购买 {item:225996} 并将其交给 {npc:189119} 以揭示 {item:226200}。'
 L['2_hazy_celebration_crate_note'] = '活着的时候，寻找发出绿光的区域。{note:但是，必须死了才能揭示 {item:232263}。}'
 L['3_dirt_caked_celebration_crate_note'] = nil
+L['4_sandy_celebration_crate'] = nil
 L['5_battered_celebration_crate'] = nil
+
+L['water_resistant_receipt_note'] = nil

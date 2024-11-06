@@ -64,6 +64,7 @@ read_globals = {
     'GetAchievementInfo',
     'GetAchievementLink',
     'GetAchievementNumCriteria',
+    'GetCoinTextureString',
     'GetContainerItemID',
     'GetContainerItemInfo',
     'GetContainerNumSlots',

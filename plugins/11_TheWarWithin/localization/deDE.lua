@@ -364,4 +364,7 @@ L['celebration_crates_note'] = 'Finde und bringe alle {object:Feierkisten} zurü
 L['1_soggy_celebration_crate_note'] = 'Kaufe ein {item:225996} von {npc:143029} ({dot:Blue}) in {location:The Dive Bar} und gib dieses {npc:189119}, um {item:226200} auszudecken.'
 L['2_hazy_celebration_crate_note'] = 'Du musst jedoch tot sein, um die {item:232263} öffnen zu können.}'
 L['3_dirt_caked_celebration_crate_note'] = nil
+L['4_sandy_celebration_crate'] = nil
 L['5_battered_celebration_crate'] = nil
+
+L['water_resistant_receipt_note'] = nil

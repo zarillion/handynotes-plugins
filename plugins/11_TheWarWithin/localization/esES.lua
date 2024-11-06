@@ -361,4 +361,7 @@ L['celebration_crates_note'] = 'Busca y devuelve todos los {object:Cajones de ce
 L['1_soggy_celebration_crate_note'] = 'Cómprale un {item:225996} a {npc:143029} ({dot:Blue}) en el {location:Bar Zambullida} y dáselo a {npc:189119} para descubrir el {item:226200}.'
 L['2_hazy_celebration_crate_note'] = 'Mientras estés vivo, busca el área con luz verde brillante. {note:Aunque debes estar muerto para descubrir el {item:232263}.}'
 L['3_dirt_caked_celebration_crate_note'] = nil
+L['4_sandy_celebration_crate'] = nil
 L['5_battered_celebration_crate'] = nil
+
+L['water_resistant_receipt_note'] = nil
