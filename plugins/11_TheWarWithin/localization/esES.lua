@@ -360,8 +360,8 @@ L['celebration_crates_note'] = 'Busca y devuelve todos los {object:Cajones de ce
 
 L['1_soggy_celebration_crate_note'] = 'Cómprale un {item:225996} a {npc:143029} ({dot:Blue}) en el {location:Bar Zambullida} y dáselo a {npc:189119} para descubrir el {item:226200}.'
 L['2_hazy_celebration_crate_note'] = 'Mientras estés vivo, busca el área con luz verde brillante. {note:Aunque debes estar muerto para descubrir el {item:232263}.}'
-L['3_dirt_caked_celebration_crate_note'] = nil
-L['4_sandy_celebration_crate'] = nil
-L['5_battered_celebration_crate'] = nil
+L['3_dirt_caked_celebration_crate_note'] = '{note:NO necesitas recoger la {item:228321} del tablero de llamadas cerca de {npc:226683} para este cajón.}.\n\n1. Entra en la {location:Cripta olvidada} tras {location:Karazhan}.\n\n2. Baja por las escaleras, a través del {location:Pozo de los olvidados}, baja la rampa del {location:Paseo del mendigo}, y al siguiente nivel de la {location:Cripta olvidada}.\n\n3. Gira a la derecha y sigue el túnel a través del {location:Paseo del mendigo}.\n\n4. Cruza la gran sala diagonalmente hacia {location:El revés de los pecadores}.\n\n5. Sigue recto a través del agua dentro del {location:Pantano de la desesperación} para coger el {item:228322}.'
+L['4_sandy_celebration_crate'] = '1. Recoge el {item:228768} de la {location:Excavación Sumergida} en {location:Las Mil Agujas} de {location:Kalimdor}.\n\n2. Encuentra a {npc:91079} deambulando por la carretera del este en {location:Azsuna}.\n\n3. Compra un {item:228767} por %s.'
+L['5_battered_celebration_crate'] = 'Contra las rocas de la cueva cerca del {npc:24026}.'
 
-L['water_resistant_receipt_note'] = nil
+L['water_resistant_receipt_note'] = '1. Entra en el túnel lleno de {npc:47390}, gira a la derecha, y recoge el {item:228768} de detrás de la tubería.\n\n2. Encuentra a {npc:91079} en {location:Azsuna} de las {location:Islas Abruptas}.'
