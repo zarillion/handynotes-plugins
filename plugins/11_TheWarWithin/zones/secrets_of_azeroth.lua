@@ -27,12 +27,31 @@ local azsuna = ns.maps[630] or Map({id = 630, settings = true})
 local howlingFjord = ns.maps[117] or Map({id = 117, settings = true})
 
 -------------------------------------------------------------------------------
+--------------------------- SECRETS OF AZEROTH NODE ---------------------------
+-------------------------------------------------------------------------------
 
 local SecretOfAzeroth = Class('SecretOfAzeroth', Node, {
     icon = 'peg_gn',
     scale = 1.5,
     group = ns.groups.SECRETS_OF_AZEROTH
 }) -- Secret of Azeroth
+
+-------------------------------------------------------------------------------
+------------------------------- ALYX START NODE -------------------------------
+-------------------------------------------------------------------------------
+
+local START_QUEST = 84617
+
+tanaris.nodes[63025024] = SecretOfAzeroth({
+    label = '{npc:226683}',
+    note = L['alyx_kickoff_note'],
+    quest = START_QUEST,
+    requires = ns.requirement.Quest(84521) -- ![Thoughtful Pursuits]
+}) -- Alyx
+
+-------------------------------------------------------------------------------
+----------------------------- CELEBRATION CRATES ------------------------------
+-------------------------------------------------------------------------------
 
 local CELEBRATION_CRATES = {
     [1] = {
@@ -97,19 +116,6 @@ local CELEBRATION_CRATES = {
     }
 }
 
-------------------------------- ALYX START NODE -------------------------------
-
-local START_QUEST = 84617
-
-tanaris.nodes[63025024] = SecretOfAzeroth({
-    label = '{npc:226683}',
-    note = L['alyx_kickoff_note'],
-    quest = START_QUEST,
-    requires = ns.requirement.Quest(84521) -- ![Thoughtful Pursuits]
-}) -- Alyx
-
---------------------------------- CRATE NODES ---------------------------------
-
 for num, crate in ipairs(CELEBRATION_CRATES) do
     crate.map.nodes[crate.coordinates] = SecretOfAzeroth({
         label = format('{item:%d}', crate.item),
@@ -123,7 +129,25 @@ for num, crate in ipairs(CELEBRATION_CRATES) do
     })
 end
 
-------------------------------- CRATE LIST NODE -------------------------------
+-------------------------------------------------------------------------------
+--------------------- WATER-RESISTANT RECEIPT (CRATE #4) ----------------------
+-------------------------------------------------------------------------------
+
+thousandNeedles.nodes[64938438] = SecretOfAzeroth({
+    label = '{item:228768}',
+    note = L['water_resistant_receipt_note'],
+    pois = {
+        POI({66028651}), -- Entrance
+        Path({66028651, 65678567, 65038493, 64938438})
+    },
+    rewards = {
+        Item({item = 228768, bag = true}) -- Water-Resistant Receipt
+    }
+}) -- Water-Resistant Receipt
+
+-------------------------------------------------------------------------------
+--------------------------- CELEBRATION CRATE LIST ----------------------------
+-------------------------------------------------------------------------------
 
 local CrateList = Class('CrateList', SecretOfAzeroth, {
     label = L['celebration_crates_label'],
@@ -145,17 +169,3 @@ function CrateList.getters:note()
 end
 
 tanaris.nodes[66644537] = CrateList()
-
---------------------- WATER-RESISTANT RECEIPT (CRATE #4) ----------------------
-
-thousandNeedles.nodes[64938438] = SecretOfAzeroth({
-    label = '{item:228768}',
-    note = L['water_resistant_receipt_note'],
-    pois = {
-        POI({66028651}), -- Entrance
-        Path({66028651, 65678567, 65038493, 64938438})
-    },
-    rewards = {
-        Item({item = 228768, bag = true}) -- Water-Resistant Receipt
-    }
-})
