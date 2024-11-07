@@ -363,5 +363,6 @@ L['2_hazy_celebration_crate_note'] = '活着的时候，寻找发出绿光的区
 L['3_dirt_caked_celebration_crate_note'] = '{note:无需从 {npc:226683} 附近的公告板上收集此箱子的 {item:228321}。}\n\n1. 进入 {location:卡拉赞} 后面的 {location:被遗忘的墓穴}。\n\n2. 走下楼梯，穿过 {location:遗忘之井}，走下 {location:乞丐行道} 的斜坡，进入 {location:被遗忘的墓穴} 的下一层。\n\n3. 右转并沿着隧道穿过 {location:乞丐行道}。\n\n4. 穿过大房间，朝着 {location:倒吊深渊} 走去。\n\n5. 径直穿过水面，进入 {location:绝望泥沼} 拿取 {item:228322}。'
 L['4_sandy_celebration_crate'] = '1. 从 {location:卡利姆多} 的 {location:千针石林} {location:沉没的挖掘场} 收集 {item:228768}。\n\n2. 在 {location:阿苏纳} 的东边道路上找到游荡的 {npc:91079}。\n\n3. 花费 %s 购买 {item:228767}。'
 L['5_battered_celebration_crate'] = '靠在 {npc:24026} 附近洞穴的岩石上。'
+L['6_waterlogged_celebration_crate'] = nil
 
 L['water_resistant_receipt_note'] = '1. 进入充满 {npc:47390} 的隧道，右转从管道后面的 {object:防水的销售收据} 中收集 {item:228768}。\n\n2. 在 {location:破碎群岛} 的 {location:阿苏纳} 找到 {npc:91079}。'

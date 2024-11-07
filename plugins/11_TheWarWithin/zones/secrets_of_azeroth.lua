@@ -113,6 +113,14 @@ local CELEBRATION_CRATES = {
         note = L['5_battered_celebration_crate'],
         parentMapID = 113, -- Northrend
         quest = 83931 -- ![Battered Celebration Crate]
+    },
+    [6] = {
+        coordinates = 69186860,
+        item = 228212,
+        map = tanaris,
+        note = L['6_waterlogged_celebration_crate'],
+        parentMapID = 12, -- Kalimdor,
+        quest = 84426 -- ![Waterlogged Celebration Crate]
     }
 }
 
