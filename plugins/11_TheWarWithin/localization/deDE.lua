@@ -363,9 +363,9 @@ L['celebration_crates_note'] = 'Finde und bringe alle {object:Feierkisten} zurü
 
 L['1_soggy_celebration_crate_note'] = 'Kaufe ein {item:225996} von {npc:143029} ({dot:Blue}) in {location:The Dive Bar} und gib dieses {npc:189119}, um {item:226200} auszudecken.'
 L['2_hazy_celebration_crate_note'] = 'Du musst jedoch tot sein, um die {item:232263} öffnen zu können.}'
-L['3_dirt_caked_celebration_crate_note'] = nil
-L['4_sandy_celebration_crate'] = nil
-L['5_battered_celebration_crate'] = nil
-L['6_waterlogged_celebration_crate'] = nil
+L['3_dirt_caked_celebration_crate_note'] = '{note:Du musst die {item:228321} von der Anschlagtafel bei {npc:226683} für diese Kiste NICHT sammeln.}\n\n1. Betrete {location:Die Vergessene Krypta} hinter {location:Karazhan}.\n\n2. Laufe die Treppen herunter dann durch den {location:Brunnen der Vergessenen} und die {location:Bettlergasse} entlang.\n\n3. Gehe nach rechts in den Eingang zur {location:Bettlergasse} und folge dem Tunnel.\n\n4. Durchquere den großen Raum diagonal in Richtung des Wassers.\n\n5. Schwimme durch das Wasser zu {location:Der Sumpf der Verzweiflung}.'
+L['4_sandy_celebration_crate'] = '1. Sammle {item:228768} in eine Höhle der {location:Versunkene Ausgrabungsstätte} ({location:Kalimdor}, {location:Tausend Nadeln}).\n\n2. Kaufe {item:228767} von {npc:91079} für %s. {note:Lauft den östlichen Weg entlang}.'
+L['5_battered_celebration_crate'] = 'An den Felsen der Höhle in der Nähe von {npc:24026}.'
+L['6_waterlogged_celebration_crate'] = 'Unterwasser auf der zweiten Ebene des Gebäudes hinter einem Bett.\n\n{note:Berühre den Aufzug nicht, dabei kann derzeit das Spiel abstürzen.}'
 
-L['water_resistant_receipt_note'] = nil
+L['water_resistant_receipt_note'] = '1. Betrete die Höhle, gehe nach rechts und hebe den {item:228768} hinter dem Rohr auf.\n\n2. Finde {npc:91079} in {location:Azsuna} in the {location:Die Verheerten Inseln}.'

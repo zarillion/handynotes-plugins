@@ -11,6 +11,7 @@ local Node = ns.node.Node
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 
+local Entrance = ns.poi.Entrance
 local POI = ns.poi.POI
 local Path = ns.poi.Path
 
@@ -77,7 +78,7 @@ local CELEBRATION_CRATES = {
         map = deadwindPass,
         note = L['3_dirt_caked_celebration_crate_note'],
         pois = {
-            POI({39837346}), -- Entrance
+            Entrance({39837346}), --
             Path({
                 39837346, 39817208, 38697210, 38717323, 37397338, 35657427,
                 33627288, 33387274, 33257072, 34897036, 36067181, 36337388,
@@ -92,7 +93,7 @@ local CELEBRATION_CRATES = {
         item = 228767,
         map = azsuna,
         note = format(L['4_sandy_celebration_crate'],
-            GetCoinTextureString(5000000)),
+            C_CurrencyInfo.GetCoinTextureString(5000000)),
         pois = {
             POI({65604880}), -- Ending
             Path({
@@ -145,7 +146,7 @@ thousandNeedles.nodes[64938438] = SecretOfAzeroth({
     label = '{item:228768}',
     note = L['water_resistant_receipt_note'],
     pois = {
-        POI({66028651}), -- Entrance
+        Entrance({66028651}), --
         Path({66028651, 65678567, 65038493, 64938438})
     },
     rewards = {
