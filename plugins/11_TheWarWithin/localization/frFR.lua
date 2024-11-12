@@ -365,6 +365,6 @@ L['3_dirt_caked_celebration_crate_note'] = '{note:Vous n\'avez PAS besoin de ré
 L['4_sandy_celebration_crate'] = '1. Ramassez le {item:228768} situé au {location:Site de fouilles englouti} aux {location:Mille pointes} en {location:Kalimdor}.\n\n2. Trouvez le {npc:91079} errant le long de la route à l\'est à {location:Azsuna}.\n\n3. Achetez la {item:228767} pour %s.'
 L['5_battered_celebration_crate'] = 'Près des rochers de la grotte et des {npc:24026}.'
 L['6_waterlogged_celebration_crate'] = 'Sous l\'eau, au deuxième étage du bâtiment Gnome.\n\n{note:Ne touchez pas à l\'ascenseur. Actuellement, il provoque un crash de votre jeu.}'
-L['7_charred_celebration_crate'] = nil
+L['7_charred_celebration_crate'] = 'Située à la base du trampoline au {location:Bosquet Sifflant}.'
 
 L['water_resistant_receipt_note'] = '1. Entrez dans le tunnel rempli de {npc:47390}, tournez à droite et récupérez le {item:228768} à partir du {object:Récépissé de vente imperméable} derrière le tuyau.\n\n2. Trouvez le {npc:91079} à {location:Azsuna} sur les {location:Îles Brisées}.'

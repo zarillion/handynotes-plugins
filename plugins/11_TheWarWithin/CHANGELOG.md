@@ -1,6 +1,6 @@
 # v108
 
-* Localization updates: esES
+* Localization updates: esES, frFR
 
 # v107
 
