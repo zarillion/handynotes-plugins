@@ -1,6 +1,6 @@
 # v108
 
-* Localization updates: deDE, esES, frFR
+* Localization updates: deDE, esES, frFR, zhCN
 
 # v107
 
