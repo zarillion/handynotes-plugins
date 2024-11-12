@@ -364,5 +364,6 @@ L['3_dirt_caked_celebration_crate_note'] = '{note:You do NOT need to collect the
 L['4_sandy_celebration_crate'] = '1. Collect the {item:228768} from the {location:Sunken Dig Site} in {location:Thousand Needles} in {location:Kalimdor}.\n\n2. Find {npc:91079} wandering along the eastern road in {location:Azsuna}.\n\n3. Purchase {item:228767} for %s.'
 L['5_battered_celebration_crate'] = 'Against the rocks of the cave near the {npc:24026}.'
 L['6_waterlogged_celebration_crate'] = 'Underwater on the second floor of the Gnomish building.\n\n{note:Do not touch the elevator. Currently it will crash your game.}'
+L['7_charred_celebration_crate'] = 'Tucked at the base of the trampoline in the {location:Whistling Grove}.'
 
 L['water_resistant_receipt_note'] = '1. Enter the tunnel filled with {npc:47390}, turn right, and collect the {item:228768} from the {object:Water-Resistant Receipt of Sale} behind the pipe.\n\n2. Find {npc:91079} in {location:Azsuna} in the {location:Broken Isles}.'

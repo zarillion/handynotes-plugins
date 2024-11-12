@@ -364,5 +364,6 @@ L['3_dirt_caked_celebration_crate_note'] = '{note:NO necesitas recoger la {item:
 L['4_sandy_celebration_crate'] = '1. Recoge el {item:228768} de la {location:Excavación Sumergida} en {location:Las Mil Agujas} de {location:Kalimdor}.\n\n2. Encuentra a {npc:91079} deambulando por la carretera del este en {location:Azsuna}.\n\n3. Compra un {item:228767} por %s.'
 L['5_battered_celebration_crate'] = 'Contra las rocas de la cueva cerca del {npc:24026}.'
 L['6_waterlogged_celebration_crate'] = 'Bajo el agua en el segundo piso del edificio gnómico.\n\n{note:No toques el ascensor. Actualmente bloqueará el juego.}'
+L['7_charred_celebration_crate'] = nil
 
 L['water_resistant_receipt_note'] = '1. Entra en el túnel lleno de {npc:47390}, gira a la derecha, y recoge el {item:228768} de detrás de la tubería.\n\n2. Encuentra a {npc:91079} en {location:Azsuna} de las {location:Islas Abruptas}.'

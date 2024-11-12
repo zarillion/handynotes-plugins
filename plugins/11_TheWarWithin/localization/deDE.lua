@@ -367,5 +367,6 @@ L['3_dirt_caked_celebration_crate_note'] = '{note:Du musst die {item:228321} von
 L['4_sandy_celebration_crate'] = '1. Sammle {item:228768} in eine Höhle der {location:Versunkene Ausgrabungsstätte} ({location:Kalimdor}, {location:Tausend Nadeln}).\n\n2. Kaufe {item:228767} von {npc:91079} für %s. {note:Lauft den östlichen Weg entlang}.'
 L['5_battered_celebration_crate'] = 'An den Felsen der Höhle in der Nähe von {npc:24026}.'
 L['6_waterlogged_celebration_crate'] = 'Unterwasser auf der zweiten Ebene des Gebäudes hinter einem Bett.\n\n{note:Berühre den Aufzug nicht, dabei kann derzeit das Spiel abstürzen.}'
+L['7_charred_celebration_crate'] = nil
 
 L['water_resistant_receipt_note'] = '1. Betrete die Höhle, gehe nach rechts und hebe den {item:228768} hinter dem Rohr auf.\n\n2. Finde {npc:91079} in {location:Azsuna} in the {location:Die Verheerten Inseln}.'

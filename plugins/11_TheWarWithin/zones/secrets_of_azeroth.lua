@@ -26,6 +26,7 @@ local deadwindPass = ns.maps[42] or Map({id = 42, settings = false})
 local thousandNeedles = ns.maps[64] or Map({id = 64, settings = false})
 local azsuna = ns.maps[630] or Map({id = 630, settings = true})
 local howlingFjord = ns.maps[117] or Map({id = 117, settings = true})
+local mountHyjal = ns.maps[198] or Map({id = 198, settings = false})
 
 -------------------------------------------------------------------------------
 --------------------------- SECRETS OF AZEROTH NODE ---------------------------
@@ -122,6 +123,14 @@ local CELEBRATION_CRATES = {
         note = L['6_waterlogged_celebration_crate'],
         parentMapID = 12, -- Kalimdor,
         quest = 84426 -- ![Waterlogged Celebration Crate]
+    },
+    [7] = {
+        coordinates = 13573345,
+        item = 228976,
+        map = mountHyjal,
+        note = L['7_charred_celebration_crate'],
+        parentMapID = 12, -- Kalimdor
+        quest = 84767 -- ![Charred Celebration Crate]
     }
 }
 
