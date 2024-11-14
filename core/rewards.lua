@@ -207,6 +207,26 @@ function Achievement:GetLines()
 end
 
 -------------------------------------------------------------------------------
+------------------------------------ BUFF -------------------------------------
+-------------------------------------------------------------------------------
+
+local Buff = Class('Buff', Reward, {type = L['buff']})
+
+function Buff:Initialize(attrs)
+    if attrs then for k, v in pairs(attrs) do self[k] = v end end
+end
+
+function Buff:GetText()
+    local text = ns.RenderLinks(string.format('{spell:%d}', self.id))
+    return text .. ' (' .. self.type .. ')'
+end
+
+function Buff:GetStatus()
+    local collected = C_UnitAuras.GetPlayerAuraBySpellID(self.id)
+    return collected and Green(L['known']) or Red(L['missing'])
+end
+
+-------------------------------------------------------------------------------
 ----------------------------------- CURRENCY ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -703,6 +723,7 @@ ns.reward = {
     Section = Section,
     Spacer = Spacer,
     Achievement = Achievement,
+    Buff = Buff,
     Currency = Currency,
     Follower = Follower,
     Item = Item,

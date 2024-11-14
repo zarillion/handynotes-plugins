@@ -102,6 +102,7 @@ L['title'] = '头衔'
 L['toy'] = '玩具'
 L['currency'] = '货币'
 L['rep'] = '声望'
+L['buff'] = nil
 
 ---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = '追随者'
