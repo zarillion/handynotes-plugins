@@ -170,6 +170,7 @@ thousandNeedles.nodes[64938438] = SecretOfAzeroth({
         Entrance({66028651}), --
         Path({66028651, 65678567, 65038493, 64938438})
     },
+    quest = CELEBRATION_CRATES[4].quest,
     rewards = {
         Item({item = 228768, bag = true}) -- Water-Resistant Receipt
     }
