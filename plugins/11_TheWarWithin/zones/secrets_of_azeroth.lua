@@ -9,6 +9,7 @@ local Map = ns.Map
 local Node = ns.node.Node
 
 local Achievement = ns.reward.Achievement
+local Buff = ns.reward.Buff
 local Item = ns.reward.Item
 
 local Entrance = ns.poi.Entrance
@@ -27,6 +28,8 @@ local thousandNeedles = ns.maps[64] or Map({id = 64, settings = false})
 local azsuna = ns.maps[630] or Map({id = 630, settings = true})
 local howlingFjord = ns.maps[117] or Map({id = 117, settings = true})
 local mountHyjal = ns.maps[198] or Map({id = 198, settings = false})
+local feralas = ns.maps[69] or Map({id = 69, settings = false})
+local ashenvale = ns.maps[63] or Map({id = 63, settings = false})
 
 -------------------------------------------------------------------------------
 --------------------------- SECRETS OF AZEROTH NODE ---------------------------
@@ -131,6 +134,15 @@ local CELEBRATION_CRATES = {
         note = L['7_charred_celebration_crate'],
         parentMapID = 12, -- Kalimdor
         quest = 84767 -- ![Charred Celebration Crate]
+    },
+    [8] = {
+        coordinates = 60423540,
+        item = 231886,
+        map = feralas,
+        note = L['8_mildewed_celebration_crate'],
+        parentMapID = 12, -- Kalimdor
+        quest = 85523, -- ![Mildewed Celebration Crate]
+        requires = ns.requirement.Spell(463368) -- Potion of Truth
     }
 }
 
@@ -162,6 +174,19 @@ thousandNeedles.nodes[64938438] = SecretOfAzeroth({
         Item({item = 228768, bag = true}) -- Water-Resistant Receipt
     }
 }) -- Water-Resistant Receipt
+
+-------------------------------------------------------------------------------
+------------------------- POTION OF TRUTH (CRATE #8) --------------------------
+-------------------------------------------------------------------------------
+
+ashenvale.nodes[47903840] = SecretOfAzeroth({
+    label = '{spell:463368}',
+    note = L['8_mildewed_celebration_crate'],
+    quest = CELEBRATION_CRATES[8].quest,
+    rewards = {
+        Buff({id = 463368}) -- Potion of Truth
+    }
+}) -- Potion of Truth
 
 -------------------------------------------------------------------------------
 --------------------------- CELEBRATION CRATE LIST ----------------------------
