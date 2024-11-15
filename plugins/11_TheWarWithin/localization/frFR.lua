@@ -367,6 +367,6 @@ L['5_battered_celebration_crate'] = 'Près des rochers de la grotte et des {npc:
 L['6_waterlogged_celebration_crate'] = 'Sous l\'eau, au deuxième étage du bâtiment Gnome.\n\n{note:Ne touchez pas à l\'ascenseur. Actuellement, il provoque un crash de votre jeu.}'
 L['7_charred_celebration_crate'] = 'Située à la base du trampoline au {location:Bosquet Sifflant}.'
 L['8_mildewed_celebration_crate'] = '1. Trouvez et buvez la {object:Potion de vérité} derrière le {npc:34295} au sommet du {location:Pic-Tonnerre} à {location:Orneval}.\n\n2. Récupérez la {object:Caisse d\'anniversaire moisie} située dans {location:Hache-tripes} à {location:Feralas}.\n\n{note:La {spell:463368} ne dure que 30 minutes. Vous devrez voler directement jusqu\'à {location:Feralas}. Changer de continent, emprunter des portails ou utiliser votre {item:6948} supprimera le buff.}'
-L['9_crystalized_celebration_crate'] = nil
+L['9_crystalized_celebration_crate'] = 'A l\'intérieur d\'{location:Oshu\'gun} à {location:Nagrand}.'
 
 L['water_resistant_receipt_note'] = '1. Entrez dans le tunnel rempli de {npc:47390}, tournez à droite et récupérez le {item:228768} à partir du {object:Récépissé de vente imperméable} derrière le tuyau.\n\n2. Trouvez le {npc:91079} à {location:Azsuna} sur les {location:Îles Brisées}.'
