@@ -366,5 +366,6 @@ L['5_battered_celebration_crate'] = 'Against the rocks of the cave near the {npc
 L['6_waterlogged_celebration_crate'] = 'Underwater on the second floor of the Gnomish building.\n\n{note:Do not touch the elevator. Currently it will crash your game.}'
 L['7_charred_celebration_crate'] = 'Tucked at the base of the trampoline in the {location:Whistling Grove}.'
 L['8_mildewed_celebration_crate'] = '1. Find and drink the {object:Potion of Truth} behind {npc:34295} on top of {location:Thunder Peak} in {location:Ashenvale}.\n\n2. Loot the {object:Mildewed Celebration Crate} in {location:Dire Maul} in {location:Feralas}.\n\n{note:The {spell:463368} only lasts 30 minutes. You must manually fly to {location:Feralas}. Changing continents, taking portals, or using your {item:6948} will remove the buff.}'
+L['9_crystalized_celebration_crate'] = 'Inside of {location:Oshu\'gun} in {location:Nagrand}.'
 
 L['water_resistant_receipt_note'] = '1. Enter the tunnel filled with {npc:47390}, turn right, and collect the {item:228768} from the {object:Water-Resistant Receipt of Sale} behind the pipe.\n\n2. Find {npc:91079} in {location:Azsuna} in the {location:Broken Isles}.'

@@ -30,6 +30,7 @@ local howlingFjord = ns.maps[117] or Map({id = 117, settings = true})
 local mountHyjal = ns.maps[198] or Map({id = 198, settings = false})
 local feralas = ns.maps[69] or Map({id = 69, settings = false})
 local ashenvale = ns.maps[63] or Map({id = 63, settings = false})
+local nagrand = ns.maps[107] or Map({id = 107, settings = false})
 
 -------------------------------------------------------------------------------
 --------------------------- SECRETS OF AZEROTH NODE ---------------------------
@@ -143,6 +144,15 @@ local CELEBRATION_CRATES = {
         parentMapID = 12, -- Kalimdor
         quest = 85523, -- ![Mildewed Celebration Crate]
         requires = ns.requirement.Spell(463368) -- Potion of Truth
+    },
+    [9] = {
+        coordinates = 35277473,
+        item = 228983,
+        map = nagrand,
+        note = L['9_crystalized_celebration_crate'],
+        parentMapID = 101, -- Outland
+        quest = 84773, -- ![Crystalized Celebration Crate]
+        pois = {Entrance({35856720})}
     }
 }
 

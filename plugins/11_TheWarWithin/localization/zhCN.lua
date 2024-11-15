@@ -366,5 +366,6 @@ L['5_battered_celebration_crate'] = '靠在 {npc:24026} 附近洞穴的岩石上
 L['6_waterlogged_celebration_crate'] = '位于侏儒建筑二楼的水下。\n\n{note:不要触碰电梯。当前它会导致游戏崩溃。}'
 L['7_charred_celebration_crate'] = '藏在 {location:呼啸林地} 的蹦床底部。'
 L['8_mildewed_celebration_crate'] = nil
+L['9_crystalized_celebration_crate'] = nil
 
 L['water_resistant_receipt_note'] = '1. 进入充满 {npc:47390} 的隧道，右转从管道后面的 {object:防水的销售收据} 中收集 {item:228768}。\n\n2. 在 {location:破碎群岛} 的 {location:阿苏纳} 找到 {npc:91079}。'
