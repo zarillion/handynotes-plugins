@@ -368,7 +368,7 @@ L['6_waterlogged_celebration_crate'] = 'Sous l\'eau, au deuxième étage du bât
 L['7_charred_celebration_crate'] = 'Située à la base du trampoline au {location:Bosquet Sifflant}.'
 L['8_mildewed_celebration_crate'] = '1. Trouvez et buvez la {object:Potion de vérité} derrière le {npc:34295} au sommet du {location:Pic-Tonnerre} à {location:Orneval}.\n\n2. Récupérez la {object:Caisse d\'anniversaire moisie} située dans {location:Hache-tripes} à {location:Feralas}.\n\n{note:La {spell:463368} ne dure que 30 minutes. Vous devrez voler directement jusqu\'à {location:Feralas}. Changer de continent, emprunter des portails ou utiliser votre {item:6948} supprimera le buff.}'
 L['9_crystalized_celebration_crate'] = 'A l\'intérieur d\'{location:Oshu\'gun} à {location:Nagrand}.'
-L['10_surprisingly_pristine_celebration_crate'] = nil
+L['10_surprisingly_pristine_celebration_crate'] = '1. Ramassez les {item:228772} dans la grotte à {location:Ahn\'Qiraj} en {location:Kalimdor}.\n\n2. Placez les {item:228772} près de la {object:Tombe sans nom} à {location:Tornheim} sur les {location:Îles Brisées}.'
 
 L['water_resistant_receipt_note'] = '1. Entrez dans le tunnel rempli de {npc:47390}, tournez à droite et récupérez le {item:228768} à partir du {object:Récépissé de vente imperméable} derrière le tuyau.\n\n2. Trouvez le {npc:91079} à {location:Azsuna} sur les {location:Îles Brisées}.'
-L['mysterious_bones_note'] = nil
+L['mysterious_bones_note'] = 'Ramassez les {item:228772} cachés derrière {npc:71533} dans la grotte.\n\nUtilisez une mascotte de type canin tel que le {item:136925} ou {item:49912} pour déterrer les os.'
