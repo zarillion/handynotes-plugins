@@ -31,6 +31,8 @@ local mountHyjal = ns.maps[198] or Map({id = 198, settings = false})
 local feralas = ns.maps[69] or Map({id = 69, settings = false})
 local ashenvale = ns.maps[63] or Map({id = 63, settings = false})
 local nagrand = ns.maps[107] or Map({id = 107, settings = false})
+local ahnQiraj = ns.maps[327] or Map({id = 327, settings = false})
+local stormheim = ns.maps[634] or Map({id = 634, settings = false})
 
 -------------------------------------------------------------------------------
 --------------------------- SECRETS OF AZEROTH NODE ---------------------------
@@ -38,7 +40,7 @@ local nagrand = ns.maps[107] or Map({id = 107, settings = false})
 
 local SecretOfAzeroth = Class('SecretOfAzeroth', Node, {
     icon = 'peg_gn',
-    scale = 1.5,
+    scale = 2,
     group = ns.groups.SECRETS_OF_AZEROTH
 }) -- Secret of Azeroth
 
@@ -153,6 +155,14 @@ local CELEBRATION_CRATES = {
         parentMapID = 101, -- Outland
         quest = 84773, -- ![Crystalized Celebration Crate]
         pois = {Entrance({35856720})}
+    },
+    [10] = {
+        coordinates = 37344769,
+        item = 228770,
+        map = stormheim,
+        note = L['10_surprisingly_pristine_celebration_crate'],
+        parentMapID = 619, -- Broken Isles
+        quest = 84625 -- ![Surprisingly Pristine Celebration Crate]
     }
 }
 
@@ -198,6 +208,20 @@ ashenvale.nodes[47903840] = SecretOfAzeroth({
         Buff({id = 463368}) -- Potion of Truth
     }
 }) -- Potion of Truth
+
+-------------------------------------------------------------------------------
+------------------------ MYSTERIOUS BONES (CRATE #10) -------------------------
+-------------------------------------------------------------------------------
+
+ahnQiraj.nodes[44559008] = SecretOfAzeroth({
+    label = '{item:228772}',
+    note = L['mysterious_bones_note'],
+    quest = CELEBRATION_CRATES[10].quest,
+    pois = {Entrance({42039268})}, -- Entrance
+    rewards = {
+        Item({item = 228772, bag = true}) -- Mysterious Bones
+    }
+}) -- Mysterious Bones
 
 -------------------------------------------------------------------------------
 --------------------------- CELEBRATION CRATE LIST ----------------------------

@@ -367,5 +367,7 @@ L['6_waterlogged_celebration_crate'] = '位于侏儒建筑二楼的水下。\n\n
 L['7_charred_celebration_crate'] = '藏在 {location:呼啸林地} 的蹦床底部。'
 L['8_mildewed_celebration_crate'] = '1. 在 {location:灰谷} 的 {location:雷鸣峰} 顶部的 {npc:34295} 后面找到并喝下 {object:真相药水}。\n\n2. 在 {location:菲拉斯} 的 {location:厄运之槌} 中拾取 {object:发霉的庆典箱子}。\n\n{note:{spell:463368} 仅持续30分钟。必须手动飞往 {location:菲拉斯}。更改大陆、使用传送门或使用 {item:6948} 将移除该增益效果。}'
 L['9_crystalized_celebration_crate'] = '在 {location:纳格兰} 的 {location:沃舒古} 内。'
+L['10_surprisingly_pristine_celebration_crate'] = nil
 
 L['water_resistant_receipt_note'] = '1. 进入充满 {npc:47390} 的隧道，右转从管道后面的 {object:防水的销售收据} 中收集 {item:228768}。\n\n2. 在 {location:破碎群岛} 的 {location:阿苏纳} 找到 {npc:91079}。'
+L['mysterious_bones_note'] = nil
