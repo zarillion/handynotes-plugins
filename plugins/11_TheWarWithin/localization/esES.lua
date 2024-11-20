@@ -388,3 +388,6 @@ L['unfinished_note'] = 'En una cueva pequeña del {location:Paso Andahondo} rode
 L['hastily_scrawled_note'] = 'En lo alto de la cornisa que domina la {location:Ciudad Tejida}.\n\n{note:Siguiente lugar:} {location:Santificación}'
 L['water_resistant_note'] = 'En el centro de un lago escondido en lo alto del acantilado entre {location:Azj-Kahet} y {location:Santificación}.\n\n{note:Siguiente lugar:} {location:Avance de Faerin} en {location:Azj-Kahet}'
 L['peculiar_gem_note'] = 'Ves por la entrada del agujero oculto dentro de la cueva hasta {location:Pilar-Nido Vosh}.\n\n{note:El agujero está escondido contra la pared y requiere un salto inteligente.}\n\nAcércate a {npc:233550} y ella escapará dejando caer la {item:228938}.\n\n{note:Siguiente lugar:}\nSi {bug:no tienes} la {item:44124} ves al {location:Cráter de Un\'Goro} en {location:Kalimdor}.\n\nSi |cFF00FF00do|r tiens la {item:44124} ves al {location:Paso de la Muerte} en los {location:Reinos del Este}.'
+
+L['karazhan_catacombs_label'] = nil
+L['karazhan_catacombs_entrance_note'] = nil

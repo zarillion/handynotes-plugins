@@ -19,6 +19,7 @@ local dornogal = ns.maps[2339] or Map({id = 2339, settings = false})
 local azjKahet = ns.maps[2255] or Map({id = 2255, settings = false})
 local cityOfThreads = ns.maps[2213] or Map({id = 2213, settings = true})
 local hallowfall = ns.maps[2215] or Map({id = 2215, settings = true})
+local deadwindPass = ns.maps[42] or Map({id = 42, settings = true})
 
 -------------------------------------------------------------------------------
 
@@ -86,3 +87,16 @@ azjKahet.nodes[56381746] = RattsRevenge({
     rewards = {Item({item = 228938, bag = true})}, -- Peculiar Gem
     rlabel = ns.status.Gray('5/5')
 }) -- Peculiar Gem
+
+-------------------------------------------------------------------------------
+------------------- KARAZHAN CATACOMBS - INSTANCE ENTRANCE --------------------
+-------------------------------------------------------------------------------
+
+deadwindPass.nodes[46766907] = RattsRevenge({
+    label = L['karazhan_catacombs_label'],
+    note = L['karazhan_catacombs_entrance_note'],
+    requires = {
+        ns.requirement.Toy(208092), -- Torch of Pyrreth
+        ns.requirement.Item(44124) -- Peculiar Key
+    }
+}) -- Karazhan Catacombs

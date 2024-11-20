@@ -388,3 +388,6 @@ L['unfinished_note'] = nil
 L['hastily_scrawled_note'] = nil
 L['water_resistant_note'] = nil
 L['peculiar_gem_note'] = nil
+
+L['karazhan_catacombs_label'] = nil
+L['karazhan_catacombs_entrance_note'] = nil
