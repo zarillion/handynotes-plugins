@@ -370,21 +370,21 @@ L['9_crystalized_celebration_crate'] = 'Dentro de {location:Oshu\'gun} en {locat
 L['10_surprisingly_pristine_celebration_crate'] = '1. Recoge los {item:228772} de dentro de la cueva de {location:Ahn\'Qiraj} en {location:Kalimdor}.\n\n2. Coloca los {item:228772} en la {object:Tumba sin nombre} de {location:Stormheim} en las {location:Islas Abruptas}.'
 
 L['water_resistant_receipt_note'] = '1. Entra en el túnel lleno de {npc:47390}, gira a la derecha, y recoge el {item:228768} de detrás de la tubería.\n\n2. Encuentra a {npc:91079} en {location:Azsuna} de las {location:Islas Abruptas}.'
-L['mysterious_bones_note'] = nil
+L['mysterious_bones_note'] = 'Coge los {item:228772} ocultos detrás de {npc:71533} dentro de la cueva.\n\nUsa una mascota de combate perro como {item:136925} o {item:49912} para desenterrar los huesos.'
 
 -------------------------------------------------------------------------------
 ------------------------------- RATT'S REVENGE --------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_ratts_revenge'] = nil
-L['options_icons_ratts_revenge_desc'] = nil
+L['options_icons_ratts_revenge'] = '{achievement:40967}'
+L['options_icons_ratts_revenge_desc'] = 'Muestra los lugares secretos para el logro {achievement:40967}.'
 
 -- INERT PECULIAR KEY
-L['inert_peculiar_key_note'] = nil
+L['inert_peculiar_key_note'] = 'Escondida dentro del tronco de un gran árbol sagrado detrás de la caja.\n\n{note:Siguiente lugar:}\nSi {bug:no tienes} la {item:228938} ves a {location:Dornogal} en {location:Khaz Algar}.\n\nSi |cFF00FF00do|r tienes la {item:228938} ves al {location:Paso de la Muerte} en los {location:Reinos del Este}.'
 
 -- PECULIAR GEM
-L['carefully_penned_note'] = nil
-L['unfinished_note'] = nil
-L['hastily_scrawled_note'] = nil
-L['water_resistant_note'] = nil
-L['peculiar_gem_note'] = nil
+L['carefully_penned_note'] = 'Habla con un {npc:230042} mientras llevas el título {title:Detective} para recibir la misión {quest:84684}.\n\n{note:Siguiente lugar:} {location:Azj-Kahet}'
+L['unfinished_note'] = 'En una cueva pequeña del {location:Paso Andahondo} rodeada por un anillo de {npc:229596}.\n\n{note:Siguiente lugar:} {location:Ciudad Tejida}'
+L['hastily_scrawled_note'] = 'En lo alto de la cornisa que domina la {location:Ciudad Tejida}.\n\n{note:Siguiente lugar:} {location:Santificación}'
+L['water_resistant_note'] = 'En el centro de un lago escondido en lo alto del acantilado entre {location:Azj-Kahet} y {location:Santificación}.\n\n{note:Siguiente lugar:} {location:Avance de Faerin} en {location:Azj-Kahet}'
+L['peculiar_gem_note'] = 'Ves por la entrada del agujero oculto dentro de la cueva hasta {location:Pilar-Nido Vosh}.\n\n{note:El agujero está escondido contra la pared y requiere un salto inteligente.}\n\nAcércate a {npc:233550} y ella escapará dejando caer la {item:228938}.\n\n{note:Siguiente lugar:}\nSi {bug:no tienes} la {item:44124} ves al {location:Cráter de Un\'Goro} en {location:Kalimdor}.\n\nSi |cFF00FF00do|r tiens la {item:44124} ves al {location:Paso de la Muerte} en los {location:Reinos del Este}.'
