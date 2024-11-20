@@ -377,15 +377,15 @@ L['mysterious_bones_note'] = 'Ramassez les {item:228772} cachés derrière {npc:
 ------------------------------- RATT'S REVENGE --------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_ratts_revenge'] = nil
-L['options_icons_ratts_revenge_desc'] = nil
+L['options_icons_ratts_revenge'] = '{achievement:40967}'
+L['options_icons_ratts_revenge_desc'] = 'Afficher les emplacements des énigmes pour le haut-fait {achievement:40967}.'
 
 -- INERT PECULIAR KEY
-L['inert_peculiar_key_note'] = nil
+L['inert_peculiar_key_note'] = 'Cachée dans le tronc d\'un grand arbre derrière la caisse.\n\n{note:Lieu suivant :}\nSi vous {bug:n\'avez pas} la {item:228938}, allez à {location:Dornogal} à {location:Khaz Algar}.\n\nSi vous |cFF00FF00avez|r la {item:228938}, allez au {location:Défilé de Deuillevent} dans les {location:Royaumes de l\'Est}.'
 
 -- PECULIAR GEM
-L['carefully_penned_note'] = nil
-L['unfinished_note'] = nil
-L['hastily_scrawled_note'] = nil
-L['water_resistant_note'] = nil
-L['peculiar_gem_note'] = nil
+L['carefully_penned_note'] = 'Parlez à la {npc:230042} en portant le titre {title:Inspecteur} pour recevoir la quête {quest:84684}.\n\n{note:Lieu suivant :} {location:Azj-Kahet}'
+L['unfinished_note'] = 'Dans une petite grotte au {location:Défilé des Marche-Fonds}, au milieu d\'un groupe de {npc:229596}.\n\n{note:Lieu suivant :} {location:Cité des Fils}'
+L['hastily_scrawled_note'] = 'En haut de la corniche surplombant la {location:Cité des Fils}.\n\n{note:Lieu suivant :} {location:Sainte-Chute}'
+L['water_resistant_note'] = 'Au centre d\'un lac caché en haut de la falaise entre {location:Azj-Kahet} et {location:Sainte-Chute}.\n\n{note:Lieu suivant :} {location:l\'Avancée de Faerin} à {location:Azj-Kahet}'
+L['peculiar_gem_note'] = 'Descendez par le trou dissimulé dans la grotte jusqu\'au {location:Nid du pilier Vosh}.\n\n{note:Le trou est caché contre la paroi et nécessite quelques sauts précis.}\n\nApprochez-vous de {npc:233550} et elle s\'enfuira en laissant tomber la {item:228938}.\n\n{note:Lieu suivant :}\nSi vous {bug:n\'avez pas} la {item:44124}, allez au {location:Cratère d\'Un\'Goro} en {location:Kalimdor}.\n\nSi vous |cFF00FF00avez|r la {item:44124}, allez au {location:Défilé de Deuillevent} dans les {location:Royaumes de l’Est}.'
