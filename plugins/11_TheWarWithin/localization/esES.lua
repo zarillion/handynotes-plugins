@@ -380,14 +380,14 @@ L['options_icons_ratts_revenge'] = '{achievement:40967}'
 L['options_icons_ratts_revenge_desc'] = 'Muestra los lugares secretos para el logro {achievement:40967}.'
 
 -- INERT PECULIAR KEY
-L['inert_peculiar_key_note'] = 'Escondida dentro del tronco de un gran árbol sagrado detrás de la caja.\n\n{note:Siguiente lugar:}\nSi {bug:no tienes} la {item:228938} ves a {location:Dornogal} en {location:Khaz Algar}.\n\nSi |cFF00FF00do|r tienes la {item:228938} ves al {location:Paso de la Muerte} en los {location:Reinos del Este}.'
+L['inert_peculiar_key_note'] = 'Escondida dentro del tronco de un gran árbol sagrado detrás de la caja.\n\n{note:Siguiente lugar:}\nSi {bug:no tienes} la {item:228938} ves a {location:Dornogal} en {location:Khaz Algar}.\n\nSi |cFF00FF00tienes|r la {item:228938} ves al {location:Paso de la Muerte} en los {location:Reinos del Este}.'
 
 -- PECULIAR GEM
 L['carefully_penned_note'] = 'Habla con un {npc:230042} mientras llevas el título {title:Detective} para recibir la misión {quest:84684}.\n\n{note:Siguiente lugar:} {location:Azj-Kahet}'
 L['unfinished_note'] = 'En una cueva pequeña del {location:Paso Andahondo} rodeada por un anillo de {npc:229596}.\n\n{note:Siguiente lugar:} {location:Ciudad Tejida}'
 L['hastily_scrawled_note'] = 'En lo alto de la cornisa que domina la {location:Ciudad Tejida}.\n\n{note:Siguiente lugar:} {location:Santificación}'
 L['water_resistant_note'] = 'En el centro de un lago escondido en lo alto del acantilado entre {location:Azj-Kahet} y {location:Santificación}.\n\n{note:Siguiente lugar:} {location:Avance de Faerin} en {location:Azj-Kahet}'
-L['peculiar_gem_note'] = 'Ves por la entrada del agujero oculto dentro de la cueva hasta {location:Pilar-Nido Vosh}.\n\n{note:El agujero está escondido contra la pared y requiere un salto inteligente.}\n\nAcércate a {npc:233550} y ella escapará dejando caer la {item:228938}.\n\n{note:Siguiente lugar:}\nSi {bug:no tienes} la {item:228941} ves al {location:Cráter de Un\'Goro} en {location:Kalimdor}.\n\nSi |cFF00FF00do|r tienes la {item:228941} ves al {location:Paso de la Muerte} en los {location:Reinos del Este}.'
+L['peculiar_gem_note'] = 'Ves por la entrada del agujero oculto dentro de la cueva hasta {location:Pilar-Nido Vosh}.\n\n{note:El agujero está escondido contra la pared y requiere un salto inteligente.}\n\nAcércate a {npc:233550} y ella escapará dejando caer la {item:228938}.\n\n{note:Siguiente lugar:}\nSi {bug:no tienes} la {item:228941} ves al {location:Cráter de Un\'Goro} en {location:Kalimdor}.\n\nSi |cFF00FF00tienes|r la {item:228941} ves al {location:Paso de la Muerte} en los {location:Reinos del Este}.'
 
 L['karazhan_catacombs_label'] = 'Catacumbas de Karazhan'
 L['karazhan_catacombs_entrance_note'] = 'Coge la {item:44124} comenzando en el {location:Cráter de Un\'Goro} en {location:Kalimdor}\n\nCoge la {item:228938} comenzando en {location:Dornogal} en {location:Khaz Algar}\n\nCombina la gema y la llave para crear la {item:44124}.\n\nCon la {item:44124} en tu mochila y la {item:208092} activa, acércate a la puerta para revelar una entrada de instancia roja.'
