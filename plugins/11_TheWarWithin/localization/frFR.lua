@@ -390,5 +390,5 @@ L['hastily_scrawled_note'] = 'En haut de la corniche surplombant la {location:Ci
 L['water_resistant_note'] = 'Au centre d\'un lac caché en haut de la falaise entre {location:Azj-Kahet} et {location:Sainte-Chute}.\n\n{note:Lieu suivant :} {location:l\'Avancée de Faerin} à {location:Azj-Kahet}'
 L['peculiar_gem_note'] = 'Descendez par le trou dissimulé dans la grotte jusqu\'au {location:Nid du pilier Vosh}.\n\n{note:Le trou est caché contre la paroi et nécessite quelques sauts précis.}\n\nApprochez-vous de {npc:233550} et elle s\'enfuira en laissant tomber la {item:228938}.\n\n{note:Lieu suivant :}\nSi vous {bug:n\'avez pas} la {item:44124}, allez au {location:Cratère d\'Un\'Goro} en {location:Kalimdor}.\n\nSi vous |cFF00FF00avez|r la {item:44124}, allez au {location:Défilé de Deuillevent} dans les {location:Royaumes de l’Est}.'
 
-L['karazhan_catacombs_label'] = nil
-L['karazhan_catacombs_entrance_note'] = nil
+L['karazhan_catacombs_label'] = 'Catacombes de Karazhan'
+L['karazhan_catacombs_entrance_note'] = 'Récupérez la {item:44124} en partant du {location:Cratère d\'Un\'Goro} en {location:Kalimdor}\n\nRécupérez la {item:228938} en partant de {location:Dornogal} en {location:Khaz Algar}\n\nCombinez la gemme et la clé pour obtenir la {item:44124}.\n\nUne fois la {item:44124} dans vos sacs et la {item:208092} active, approchez de la porte pour révéler une entrée d\'instance rouge.'
