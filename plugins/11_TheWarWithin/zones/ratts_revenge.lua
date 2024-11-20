@@ -34,10 +34,10 @@ local RattsRevenge = Class('RattsRevenge', Node, {
 -------------------------------------------------------------------------------
 
 ungoroCrater.nodes[44550798] = RattsRevenge({
-    label = '{item:44124}',
+    label = '{item:228941}',
     note = L['inert_peculiar_key_note'],
     requires = ns.requirement.Toy(208092), -- Torch of Pyrreth
-    rewards = {Item({item = 44124, bag = true})} -- Inert Peculiar Key
+    rewards = {Item({item = 228941, bag = true})} -- Inert Peculiar Key
 }) -- Inert Peculiar Key
 
 -------------------------------------------------------------------------------
