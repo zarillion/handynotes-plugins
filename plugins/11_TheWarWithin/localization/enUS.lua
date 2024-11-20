@@ -371,3 +371,20 @@ L['10_surprisingly_pristine_celebration_crate'] = '1. Collect the {item:228772} 
 
 L['water_resistant_receipt_note'] = '1. Enter the tunnel filled with {npc:47390}, turn right, and collect the {item:228768} from the {object:Water-Resistant Receipt of Sale} behind the pipe.\n\n2. Find {npc:91079} in {location:Azsuna} in the {location:Broken Isles}.'
 L['mysterious_bones_note'] = 'Collect the {item:228772} hidden behind {npc:71533} within the cave.\n\nUse a dog battle pet such as {item:136925} or {item:49912} to dig up the bones.'
+
+-------------------------------------------------------------------------------
+------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_ratts_revenge'] = '{achievement:40967}'
+L['options_icons_ratts_revenge_desc'] = 'Display secret locations for {achievement:40967}.'
+
+-- INERT PECULIAR KEY
+L['inert_peculiar_key_note'] = 'Hidden within the trunk of large hallow tree behind the crate.\n\n{note:Next Location:}\nIf you {bug:do not} have {item:228938} go to {location:Dornogal} in {location:Khaz Algar}.\n\nIf you |cFF00FF00do|r have the {item:228938} go to {location: Deadwind Pass} in {location:Eastern Kingdoms}.'
+
+-- PECULIAR GEM
+L['carefully_penned_note'] = 'Talk with the {npc:230042} while wearing the {title:Detective} title to receive {quest:84684}.\n\n{note:Next Location:} {location:Azj-Kahet}'
+L['unfinished_note'] = 'In a small cave in {location:Deepwalker Pass} surrounded by a ring of {npc:229596}.\n\n{note:Next Location:} {location:City of Threads}'
+L['hastily_scrawled_note'] = 'High up on the ledge overlooking the {location:City of Threads}.\n\n{note:Next Location:} {location:Hallowfall}'
+L['water_resistant_note'] = 'In the center of a hidden lake high up in the cliff between {location:Azj-Kahet} and {location:Hallowfall}.\n\n{note:Next Location:} {location:Faerin\'s Advance} in {location:Azj-Kahet}'
+L['peculiar_gem_note'] = 'Take the hidden hole entrance within the cave down to {location:Pillar-nest Vosh}.\n\n{note:The hole is hidden against the wall and requires some clever jumping.}\n\nApproach {npc:233550} and she will run away dropping the {item:228938}.\n\n{note:Next Location:}\nIf you {bug:do not} have {item:44124} go to {location:Un\'Goro Crater} in {location:Kalimdor}.\n\nIf you |cFF00FF00do|r have the {item:44124} go to {location: Deadwind Pass} in {location:Eastern Kingdoms}.'

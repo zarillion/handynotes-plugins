@@ -372,3 +372,20 @@ L['10_surprisingly_pristine_celebration_crate'] = '1. Ramassez les {item:228772}
 
 L['water_resistant_receipt_note'] = '1. Entrez dans le tunnel rempli de {npc:47390}, tournez à droite et récupérez le {item:228768} à partir du {object:Récépissé de vente imperméable} derrière le tuyau.\n\n2. Trouvez le {npc:91079} à {location:Azsuna} sur les {location:Îles Brisées}.'
 L['mysterious_bones_note'] = 'Ramassez les {item:228772} cachés derrière {npc:71533} dans la grotte.\n\nUtilisez une mascotte de type canin tel que le {item:136925} ou {item:49912} pour déterrer les os.'
+
+-------------------------------------------------------------------------------
+------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_ratts_revenge'] = nil
+L['options_icons_ratts_revenge_desc'] = nil
+
+-- INERT PECULIAR KEY
+L['inert_peculiar_key_note'] = nil
+
+-- PECULIAR GEM
+L['carefully_penned_note'] = nil
+L['unfinished_note'] = nil
+L['hastily_scrawled_note'] = nil
+L['water_resistant_note'] = nil
+L['peculiar_gem_note'] = nil

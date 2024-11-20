@@ -374,3 +374,20 @@ L['10_surprisingly_pristine_celebration_crate'] = '1. Sammle {item:228772} in ei
 
 L['water_resistant_receipt_note'] = '1. Betrete die Höhle, gehe nach rechts und hebe den {item:228768} hinter dem Rohr auf.\n\n2. Finde {npc:91079} in {location:Azsuna} in the {location:Die Verheerten Inseln}.'
 L['mysterious_bones_note'] = 'In einer Höhle.\n\nLass einen deiner Hunde (z. B. {item:136925} oder {item:49912}) die Knochen ausgraben und sammle diese dann ein.'
+
+-------------------------------------------------------------------------------
+------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_ratts_revenge'] = nil
+L['options_icons_ratts_revenge_desc'] = nil
+
+-- INERT PECULIAR KEY
+L['inert_peculiar_key_note'] = nil
+
+-- PECULIAR GEM
+L['carefully_penned_note'] = nil
+L['unfinished_note'] = nil
+L['hastily_scrawled_note'] = nil
+L['water_resistant_note'] = nil
+L['peculiar_gem_note'] = nil

@@ -371,3 +371,20 @@ L['10_surprisingly_pristine_celebration_crate'] = nil
 
 L['water_resistant_receipt_note'] = '1. 进入充满 {npc:47390} 的隧道，右转从管道后面的 {object:防水的销售收据} 中收集 {item:228768}。\n\n2. 在 {location:破碎群岛} 的 {location:阿苏纳} 找到 {npc:91079}。'
 L['mysterious_bones_note'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_ratts_revenge'] = nil
+L['options_icons_ratts_revenge_desc'] = nil
+
+-- INERT PECULIAR KEY
+L['inert_peculiar_key_note'] = nil
+
+-- PECULIAR GEM
+L['carefully_penned_note'] = nil
+L['unfinished_note'] = nil
+L['hastily_scrawled_note'] = nil
+L['water_resistant_note'] = nil
+L['peculiar_gem_note'] = nil

@@ -371,3 +371,20 @@ L['10_surprisingly_pristine_celebration_crate'] = '1. Recoge los {item:228772} d
 
 L['water_resistant_receipt_note'] = '1. Entra en el túnel lleno de {npc:47390}, gira a la derecha, y recoge el {item:228768} de detrás de la tubería.\n\n2. Encuentra a {npc:91079} en {location:Azsuna} de las {location:Islas Abruptas}.'
 L['mysterious_bones_note'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_ratts_revenge'] = nil
+L['options_icons_ratts_revenge_desc'] = nil
+
+-- INERT PECULIAR KEY
+L['inert_peculiar_key_note'] = nil
+
+-- PECULIAR GEM
+L['carefully_penned_note'] = nil
+L['unfinished_note'] = nil
+L['hastily_scrawled_note'] = nil
+L['water_resistant_note'] = nil
+L['peculiar_gem_note'] = nil
