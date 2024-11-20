@@ -8,4 +8,5 @@
   <Script file="zones\delves.lua"/>
   <Script file="zones\dragonraces.lua"/>
   <Script file="zones\secrets_of_azeroth.lua"/>
+  <Script file="zones\ratts_revenge.lua"/>
 </Ui>
