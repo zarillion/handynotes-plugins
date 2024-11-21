@@ -28,6 +28,8 @@ local deadwindPass = ns.maps[42] or Map({id = 42, settings = true})
 
 -------------------------------------------------------------------------------
 
+local TORCH = ns.requirement.Toy(208092) -- Torch of Pyrreth
+
 local RattsRevenge = Class('RattsRevenge', Node, {
     icon = 'peg_rd',
     scale = 2,
@@ -41,7 +43,7 @@ local RattsRevenge = Class('RattsRevenge', Node, {
 ungoroCrater.nodes[44550798] = RattsRevenge({
     label = '{item:228941}',
     note = L['inert_peculiar_key_note'],
-    requires = ns.requirement.Toy(208092), -- Torch of Pyrreth
+    requires = TORCH, -- Torch of Pyrreth
     rewards = {Item({item = 228941, bag = true})} -- Inert Peculiar Key
 }) -- Inert Peculiar Key
 
@@ -101,7 +103,7 @@ deadwindPass.nodes[46766907] = RattsRevenge({
     label = L['karazhan_catacombs_label'],
     note = L['karazhan_catacombs_entrance_note'],
     requires = {
-        ns.requirement.Toy(208092), -- Torch of Pyrreth
+        TORCH, -- Torch of Pyrreth
         ns.requirement.Item(44124) -- Peculiar Key
     }
 }) -- Karazhan Catacombs
