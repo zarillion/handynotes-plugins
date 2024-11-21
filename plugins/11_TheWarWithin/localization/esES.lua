@@ -368,7 +368,7 @@ L['7_charred_celebration_crate'] = 'Escondido en la base del trampolín en la {l
 L['8_mildewed_celebration_crate'] = '1. Encuentra y bébete la {object:Poción de la verdad} detrás de {npc:34295} en lo alto de {location:Pico del Trueno} en {location:Vallefresno}.\n\n2. Despoja el {object:Cajón de celebración mohoso} en {location:La Masacre} de {location:Feralas}.\n\n{note:La {spell:463368} sólo dura 30 minutos. Debes volar manualmente a {location:Feralas}. Cambiar de continentes, coger portales, o usar tu {item:6948} eliminará el buff.}'
 L['9_crystalized_celebration_crate'] = 'Dentro de {location:Oshu\'gun} en {location:Nagrand}.'
 L['10_surprisingly_pristine_celebration_crate'] = '1. Recoge los {item:228772} de dentro de la cueva de {location:Ahn\'Qiraj} en {location:Kalimdor}.\n\n2. Coloca los {item:228772} en la {object:Tumba sin nombre} de {location:Stormheim} en las {location:Islas Abruptas}.'
-L['11_ghostly_celebration_crate'] = 'Yendo al {location:Trono del Prelado}, a la derecha del portal.'
+L['11_ghostly_celebration_crate'] = 'Encima del {location:Trono del Prelado}, a la derecha del portal.'
 
 L['water_resistant_receipt_note'] = '1. Entra en el túnel lleno de {npc:47390}, gira a la derecha, y recoge el {item:228768} de detrás de la tubería.\n\n2. Encuentra a {npc:91079} en {location:Azsuna} de las {location:Islas Abruptas}.'
 L['mysterious_bones_note'] = 'Coge los {item:228772} ocultos detrás de {npc:71533} dentro de la cueva.\n\nUsa una mascota de combate perro como {item:136925} o {item:49912} para desenterrar los huesos.'
