@@ -394,6 +394,6 @@ L['karazhan_catacombs_entrance_note'] = 'Collect the {item:44124} starting in {l
 
 L['love_orb_label'] = 'Orb 1 - Love'
 L['love_orb_note'] = 'Use the {item:208092} at each location involving {npc:228249} and gain 1 of 3 stacks of {spell:153715}.'
-L['love_orb_locations'] = '1. {location:Northern Barrens} in {location:Kalimdor}\n2. {location:Outland} in {location:Draenor}\n3. {location:Maldraxxus} in {location:The Shadowlands}'
+L['love_orb_locations'] = '1. {location:Northern Barrens} in {location:Kalimdor}\n2. {location:Nagrand} in {location:Draenor}\n3. {location:Maldraxxus} in {location:The Shadowlands}'
 L['humble_monument'] = 'Humble Monument'
 L['olgra_location'] = '{note:Location changes based on the completion of {quest:35170}.}'
