@@ -1,6 +1,7 @@
 # v109
 
 * All Celebration Crate locations for the Guest Relations secret
+* Localization updates: deDE, esES, frFR, zhCN
 
 # v108
 
