@@ -368,7 +368,7 @@ L['7_charred_celebration_crate'] = 'Tucked at the base of the trampoline in the 
 L['8_mildewed_celebration_crate'] = '1. Find and drink the {object:Potion of Truth} behind {npc:34295} on top of {location:Thunder Peak} in {location:Ashenvale}.\n\n2. Loot the {object:Mildewed Celebration Crate} in {location:Dire Maul} in {location:Feralas}.\n\n{note:The {spell:463368} only lasts 30 minutes. You must manually fly to {location:Feralas}. Changing continents, taking portals, or using your {item:6948} will remove the buff.}'
 L['9_crystalized_celebration_crate'] = 'Inside of {location:Oshu\'gun} in {location:Nagrand}.'
 L['10_surprisingly_pristine_celebration_crate'] = '1. Collect the {item:228772} from within the cave in {location:Ahn\'Qiraj} in {location:Kalimdor}.\n\n2. Place the {item:228772} at the {object:Unmarked Grave} in {location:Stormheim} in the {location:Broken Isles}.'
-L['11_ghostly_celebration_crate'] = 'On the of the {location:Seat of the Primus} to the right of the portal.'
+L['11_ghostly_celebration_crate'] = 'On top of the {location:Seat of the Primus} to the right of the portal.'
 
 L['water_resistant_receipt_note'] = '1. Enter the tunnel filled with {npc:47390}, turn right, and collect the {item:228768} from the {object:Water-Resistant Receipt of Sale} behind the pipe.\n\n2. Find {npc:91079} in {location:Azsuna} in the {location:Broken Isles}.'
 L['mysterious_bones_note'] = 'Collect the {item:228772} hidden behind {npc:71533} within the cave.\n\nUse a dog battle pet such as {item:136925} or {item:49912} to dig up the bones.'
