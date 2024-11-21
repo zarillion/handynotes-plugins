@@ -384,10 +384,10 @@ L['inert_peculiar_key_note'] = '藏在板条箱后面巨大的中空树干里。
 
 -- PECULIAR GEM
 L['carefully_penned_note'] = '佩戴 {title:侦探} 头衔与 {npc:230042} 交谈以接受 {quest:84684}。\n\n{note:下一个位置：}{location:艾基-卡赫特}'
-L['unfinished_note'] = '在 {location:逆风小径} 的一个小洞穴中，周围是一圈 {npc:229596}。\n\n{note:下一个位置：}{location:千丝之城}'
+L['unfinished_note'] = '在 {location:渊行者小径} 的一个小洞穴中，周围是一圈 {npc:229596}。\n\n{note:下一个位置：}{location:千丝之城}'
 L['hastily_scrawled_note'] = '在能高高俯瞰 {location:千丝之城} 的岩壁上。\n\n{note:下一个位置：}{location:陨圣峪}'
 L['water_resistant_note'] = '在 {location:艾基-卡赫特} 和 {location:陨圣峪} 之间悬崖高处的隐秘湖泊中心。\n\n{note:下一个位置：}{location:艾基-卡赫特} 的 {location:菲琳之迈}'
-L['peculiar_gem_note'] = '穿过山洞内隐藏的洞口，到达 {location:诺斯柱巢}。\n\n{note:洞口隐藏在墙壁上，需要巧妙跳跃。}\n\n接近 {npc:233550}，她会逃跑并丢下 {item:228938}。\n\n{note:下一个位置：}\n如果 {bug:*没有*} {item:228941}，请前往 {location:卡利姆多} 的 {location:安戈洛环形山}。\n\n如果 |cFF00FF00有|r {item:228941}，请前往 {location:东部王国} 的 {location:逆风小径}。'
+L['peculiar_gem_note'] = '穿过山洞内隐藏的洞口，到达 {location:沃什柱巢}。\n\n{note:洞口隐藏在墙壁上，需要巧妙跳跃。}\n\n接近 {npc:233550}，她会逃跑并丢下 {item:228938}。\n\n{note:下一个位置：}\n如果 {bug:*没有*} {item:228941}，请前往 {location:卡利姆多} 的 {location:安戈洛环形山}。\n\n如果 |cFF00FF00有|r {item:228941}，请前往 {location:东部王国} 的 {location:逆风小径}。'
 
 L['karazhan_catacombs_label'] = '卡拉赞墓穴'
-L['karazhan_catacombs_entrance_note'] = '从 {location:卡利姆多} 的 {location:安格洛环形山} 收集 {item:44124}\n\n从 {location:卡兹阿加} 的 {location:多恩诺加尔} 收集 {item:228938}\n\n将宝石和钥匙组合成 {item:44124}。\n\n将 {item:44124} 放入包中并激活 {item:208092}，接近大门即可看到一个红色的副本入口。'
+L['karazhan_catacombs_entrance_note'] = '从 {location:卡利姆多} 的 {location:安格洛环形山} 开始收集 {item:44124}\n\n从 {location:卡兹阿加} 的 {location:多恩诺加尔} 开始收集 {item:228938}\n\n将宝石和钥匙组合成 {item:44124}。\n\n将 {item:44124} 放入包中并激活 {item:208092}，接近大门即可看到一个红色的副本入口。'
