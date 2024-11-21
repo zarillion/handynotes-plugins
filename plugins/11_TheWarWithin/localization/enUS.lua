@@ -391,3 +391,7 @@ L['peculiar_gem_note'] = 'Take the hidden hole entrance within the cave down to 
 
 L['karazhan_catacombs_label'] = 'Karazhan Catacombs'
 L['karazhan_catacombs_entrance_note'] = 'Collect the {item:44124} starting in {location:Un\'Goro Crater} in {location:Kalimdor}\n\nCollect the {item:228938} starting in {location:Dornogal} in {location:Khaz Algar}\n\nCombine the gem and the key to form the {item:44124}.\n\nWith the {item:44124} in your bag and the {item:208092} active approach the gate to reveal a red instance entrance.'
+
+L['love_orb_note'] = 'Use the {item:208092} at each location involving {npc:228249} and gain 1 of 3 stacks of {spell:153715}.'
+L['humble_monument'] = 'Humble Monument'
+L['olgra_location'] = '{note:Location changes based on the completion of {quest:35170}.}'

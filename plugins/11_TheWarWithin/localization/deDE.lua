@@ -394,3 +394,7 @@ L['peculiar_gem_note'] = nil
 
 L['karazhan_catacombs_label'] = nil
 L['karazhan_catacombs_entrance_note'] = nil
+
+L['love_orb_note'] = nil
+L['humble_monument'] = nil
+L['olgra_location'] = nil

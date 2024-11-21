@@ -391,3 +391,7 @@ L['peculiar_gem_note'] = '穿过山洞内隐藏的洞口，到达 {location:沃�
 
 L['karazhan_catacombs_label'] = '卡拉赞墓穴'
 L['karazhan_catacombs_entrance_note'] = '从 {location:卡利姆多} 的 {location:安格洛环形山} 开始收集 {item:44124}\n\n从 {location:卡兹阿加} 的 {location:多恩诺加尔} 开始收集 {item:228938}\n\n将宝石和钥匙组合成 {item:44124}。\n\n将 {item:44124} 放入包中并激活 {item:208092}，接近大门即可看到一个红色的副本入口。'
+
+L['love_orb_note'] = nil
+L['humble_monument'] = nil
+L['olgra_location'] = nil

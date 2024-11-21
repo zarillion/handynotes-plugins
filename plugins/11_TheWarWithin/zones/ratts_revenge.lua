@@ -8,6 +8,7 @@ local Map = ns.Map
 
 local Node = ns.node.Node
 
+local Buff = ns.reward.Buff
 local Item = ns.reward.Item
 
 local Entrance = ns.poi.Entrance
@@ -25,6 +26,11 @@ local hallowfall = ns.maps[2215] or Map({id = 2215, settings = true})
 
 -- KARAZHAN CATACOMBS
 local deadwindPass = ns.maps[42] or Map({id = 42, settings = true})
+
+-- 1 O'CLOCK ORB - LOVE
+local northernBarrens = ns.maps[10] or Map({id = 10, settings = false})
+local draenorNagrand = ns.maps[550] or Map({id = 550, settings = false})
+local maldraxxus = ns.maps[1536] or Map({id = 1536, settings = false})
 
 -------------------------------------------------------------------------------
 
@@ -107,3 +113,41 @@ deadwindPass.nodes[46766907] = RattsRevenge({
         ns.requirement.Item(44124) -- Peculiar Key
     }
 }) -- Karazhan Catacombs
+
+-------------------------------------------------------------------------------
+---------------------------- 1 O'CLOCK ORB - LOVE -----------------------------
+-------------------------------------------------------------------------------
+
+northernBarrens.nodes[55004020] = RattsRevenge({
+    label = L['humble_monument'],
+    note = L['love_orb_note'],
+    quest = 84676, -- hidden
+    requires = TORCH, -- Torch of Pyrreth
+    rewards = {Buff({id = 153715, stacks = 3})} -- A Touch of Their Love
+}) -- Humble Monument
+
+draenorNagrand.nodes[74203750] = RattsRevenge({
+    label = '{npc:82688}',
+    location = L['olgra_location'],
+    note = L['love_orb_note'],
+    quest = 84676, -- hidden
+    requires = TORCH, -- Torch of Pyrreth
+    rewards = {Buff({id = 153715, stacks = 3})} -- A Touch of Their Love
+}) -- Olgra
+
+draenorNagrand.nodes[49204800] = RattsRevenge({
+    label = '{npc:82692}',
+    location = L['olgra_location'],
+    note = L['love_orb_note'],
+    quest = 84676, -- hidden
+    requires = TORCH, -- Torch of Pyrreth
+    rewards = {Buff({id = 153715, stacks = 3})} -- A Touch of Their Love
+}) -- Olgra
+
+maldraxxus.nodes[27306130] = RattsRevenge({
+    label = '{npc:175815}',
+    note = L['love_orb_note'],
+    quest = 84676, -- hidden
+    requires = TORCH, -- Torch of Pyrreth
+    rewards = {Buff({id = 153715, stacks = 3})} -- A Touch of Their Love
+}) -- Decimator Olgra

@@ -391,3 +391,7 @@ L['peculiar_gem_note'] = 'Ves por la entrada del agujero oculto dentro de la cue
 
 L['karazhan_catacombs_label'] = 'Catacumbas de Karazhan'
 L['karazhan_catacombs_entrance_note'] = 'Coge la {item:44124} comenzando en el {location:Cráter de Un\'Goro} en {location:Kalimdor}\n\nCoge la {item:228938} comenzando en {location:Dornogal} en {location:Khaz Algar}\n\nCombina la gema y la llave para crear la {item:44124}.\n\nCon la {item:44124} en tu mochila y la {item:208092} activa, acércate a la puerta para revelar una entrada de instancia roja.'
+
+L['love_orb_note'] = nil
+L['humble_monument'] = nil
+L['olgra_location'] = nil
