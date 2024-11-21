@@ -14,11 +14,16 @@ local Entrance = ns.poi.Entrance
 
 -------------------------------------------------------------------------------
 
+-- INERT PECULIAR KEY
 local ungoroCrater = ns.maps[78] or Map({id = 78, settings = false})
+
+-- PECULIAR GEM
 local dornogal = ns.maps[2339] or Map({id = 2339, settings = false})
 local azjKahet = ns.maps[2255] or Map({id = 2255, settings = false})
 local cityOfThreads = ns.maps[2213] or Map({id = 2213, settings = true})
 local hallowfall = ns.maps[2215] or Map({id = 2215, settings = true})
+
+-- KARAZHAN CATACOMBS
 local deadwindPass = ns.maps[42] or Map({id = 42, settings = true})
 
 -------------------------------------------------------------------------------
