@@ -222,8 +222,14 @@ function Buff:GetText()
 end
 
 function Buff:GetStatus()
-    local collected = C_UnitAuras.GetPlayerAuraBySpellID(self.id)
-    return collected and Green(L['known']) or Red(L['missing'])
+    local stacks = self.stacks or 1
+    local aura = C_UnitAuras.GetPlayerAuraBySpellID(self.id)
+    if aura then
+        local applications = aura.applications
+        local status = applications .. '/' .. stacks
+        return (applications >= stacks) and Green(status) or Red(status)
+    end
+    return Red('0/' .. stacks)
 end
 
 -------------------------------------------------------------------------------
