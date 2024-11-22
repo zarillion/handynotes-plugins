@@ -6,8 +6,6 @@ if not L then return end
 ----------------------------------- COMMON ------------------------------------
 -------------------------------------------------------------------------------
 
-L['change_map'] = 'Cambiar mapa'
-
 L['options_icons_safari'] = 'Safari de Kalimdor / Reinos del Este'
 L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para los logros {achievement:6585} y {achievement:6586}.'
 

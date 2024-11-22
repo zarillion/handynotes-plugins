@@ -259,5 +259,3 @@ L['general_pet_tamer_note'] = '{note:Only appears when the corresponding world q
 
 L['options_icons_safari'] = '{achievement:11233}'
 L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:11233} achievement.'
-
-L['change_map'] = 'Change map'

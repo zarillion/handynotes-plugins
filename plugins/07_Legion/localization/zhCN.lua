@@ -262,5 +262,3 @@ L['general_pet_tamer_note'] = '{note:相对应的世界任务激活时才会出�
 
 L['options_icons_safari'] = '{achievement:11233}'
 L['options_icons_safari_desc'] = '显示 {achievement:11233} 成就中战斗宠物的位置。'
-
-L['change_map'] = '更改地图'

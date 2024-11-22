@@ -259,5 +259,3 @@ L['general_pet_tamer_note'] = '{note:Sólo aparece cuando la misión del mundo p
 
 L['options_icons_safari'] = '{achievement:11233}'
 L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:11233}.'
-
-L['change_map'] = 'Cambiar de mapa'

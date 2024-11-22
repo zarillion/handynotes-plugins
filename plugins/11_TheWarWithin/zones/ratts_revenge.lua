@@ -113,10 +113,12 @@ azjKahet.nodes[56381746] = RattsRevenge({
 deadwindPass.nodes[46766907] = RattsRevenge({
     label = L['karazhan_catacombs_label'],
     note = L['karazhan_catacombs_entrance_note'],
+    OnClick = function() WorldMapFrame:SetMapID(karazhanCatacombs.id) end,
     requires = {
         TORCH, -- Torch of Pyrreth
         ns.requirement.Item(44124) -- Peculiar Key
-    }
+    },
+    clabel = L['change_map']
 }) -- Karazhan Catacombs
 
 -------------------------------------------------------------------------------

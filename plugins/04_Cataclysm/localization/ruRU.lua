@@ -6,8 +6,6 @@ if not L then return end
 ----------------------------------- COMMON ------------------------------------
 -------------------------------------------------------------------------------
 
-L['change_map'] = nil
-
 L['options_icons_safari'] = nil
 L['options_icons_safari_desc'] = nil
 
