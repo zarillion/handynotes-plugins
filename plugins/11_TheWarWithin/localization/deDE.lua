@@ -149,7 +149,7 @@ L['options_icons_for_the_collective_desc'] = 'Zeigt die Positionen von {npc:2280
 -------------------------------------------------------------------------------
 
 L['arathi_loremaster_note'] = 'Sprich mit {npc:221630} in {location:Mereldar} und beantworte mehrere Fragen richtig, um die {item:225659} zu erhalten.\n\nDie Antworten findest du in den Büchern, die in ganz {location:Heilsturz} verteilt sind.'
-L['caesper_note'] = 'Kaufe 1x {item:225238} von ({dot:Blue}) {npc:217645} in {location:Dunelles Güte}, {location:Hallowfall}.\n\nFüttere {npc:225948} damit und folge ihm zum Schatz.'
+L['caesper_note'] = 'Kaufe 1x {item:225238} von ({dot:Blue}) {npc:217645} in {location:Dunelles Güte}, {location:Heilsturz}.\n\nFüttere {npc:225948} damit und folge ihm zum Schatz.'
 L['dark_ritual_note'] = 'Interagiere mit dem Buch {object:Dunkles Ritual} und besiege alle erscheinenden Gegner, um eine {object:Schattige Essenz} zu erhalten.'
 L['illuminated_footlocker_note'] = 'Fange 5x fallenden {spell:442389} von der {npc:220703}, um {spell:442529} zu erhalten und den Schatz zu enthüllen.'
 L['illusive_kobyss_lure_note'] = 'Kombiniere alle vier Gegenstände, um {item:225641} herzustellen:'
@@ -371,7 +371,7 @@ L['7_charred_celebration_crate'] = 'Neben dem Trampolin.'
 L['8_mildewed_celebration_crate'] = '1. Finde und trinke den {object:Trank der Wahrheit} auf der Spitze des {location:Donnergipfel}s im {location:Eschental}.\n\n2. Plündere die {object:Verschimmelte Feierkiste} in {location:Düsterbruch} in {location:Feralas}.\n\n{note:Der Stärkungszauber {spell:463368} hält 30 Minuten lang an. Du musst selber nach {location:Feralas} fliegen, da der Stärkungszauber entfernt wird, wenn du den Kontinent wechelst, ein Portal nimmst oder den {item:6948} benutzt.}'
 L['9_crystalized_celebration_crate'] = 'Innerhalb von {location:Oshu\'gun} in {location:Nagrand}.'
 L['10_surprisingly_pristine_celebration_crate'] = '1. Sammle {item:228772} in einer Höhle in {location:Ahn\'Qiraj: Das Gefallene Königreich} ({location:Kalimdor}).\n\n2. Vergrabe die Knochen im {object:Nicht gekennzeichnetes Grab} in {location:Sturmheim} ({location:Die Verheerten Inseln}).'
-L['11_ghostly_celebration_crate'] = nil
+L['11_ghostly_celebration_crate'] = 'Auf dem Gebäude des {location:Sitz des Primus} rechts neben dem Portal.'
 
 L['water_resistant_receipt_note'] = '1. Betrete die Höhle, gehe nach rechts und hebe den {item:228768} hinter dem Rohr auf.\n\n2. Finde {npc:91079} in {location:Azsuna} in the {location:Die Verheerten Inseln}.'
 L['mysterious_bones_note'] = 'In einer Höhle.\n\nLass einen deiner Hunde (z. B. {item:136925} oder {item:49912}) die Knochen ausgraben und sammle diese dann ein.'
@@ -380,22 +380,22 @@ L['mysterious_bones_note'] = 'In einer Höhle.\n\nLass einen deiner Hunde (z. B.
 ------------------------------- RATT'S REVENGE --------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_ratts_revenge'] = nil
-L['options_icons_ratts_revenge_desc'] = nil
+L['options_icons_ratts_revenge'] = '{achievement:40967}'
+L['options_icons_ratts_revenge_desc'] = 'Zeigt die Positionen für den Erfolg {achievement:40967} an.'
 
 -- INERT PECULIAR KEY
-L['inert_peculiar_key_note'] = nil
+L['inert_peculiar_key_note'] = 'Im großen hohlen Baumstamm hinter der Kiste versteckt.\n\n{note:Nächster Ort:}\nWenn du den {item:228938} {bug:NICHT BESITZT} gehe nach {location:Dornogal} ({location:Khaz Algar}, {location:Insel von Dorn}).\n\nWenn du den {item:228938} |cFF00FF00BESITZT|r gehe zum {location:Gebirgspass der Totenwinde} in {location:Die Östlichen Königreiche}.'
 
 -- PECULIAR GEM
-L['carefully_penned_note'] = nil
-L['unfinished_note'] = nil
-L['hastily_scrawled_note'] = nil
-L['water_resistant_note'] = nil
-L['peculiar_gem_note'] = nil
+L['carefully_penned_note'] = 'Spreche mit {npc:230042} während du den Titel {title:Detektiv} trägst, um die Quest {quest:84684} zu erhalten.\n\n{note:Nächster Ort:} {location:Azj-Kahet}'
+L['unfinished_note'] = 'In einer kleinen Höhle im {location:Deepwalker Pass} surrounded by a ring of {npc:229596}.\n\n{note:Nächster Ort:} {location:Stadt der Fäden}'
+L['hastily_scrawled_note'] = 'An einer Felskante über der {location:Stadt der Fäden}.\n\n{note:Nächster Ort:} {location:Heilsturz}'
+L['water_resistant_note'] = 'In einer kleinen Höhle im Teich zwischen {location:Azj-Kahet} und {location:Heilsturz}.\n\n{note:Nächster Ort:} {location:Faerins Vorstoss} ({location:Azj-Kahet})'
+L['peculiar_gem_note'] = 'Springe ein Loch in der Höhle des {location:Stütznest Vosh} runter.\n\n{note:Das Loch ist an der Wand versteckt und erfordert einige geschickte Sprünge.}\n\nNähere dich {npc:233550} und sie wird flüchten und den {item:228938} hinterlassen.\n\n{note:Nächster Ort:}\nWenn du den {item:228941} {bug:NICHT BESITZT} gehe zum {location:Krater von Un\'Goro} ({location:Kalimdor}).\n\nWenn du den {item:228941} |cFF00FF00BESITZT|r gehe zum {location:Gebirgspass der Totenwinde} ({location:Die Östlichen Königreiche}).'
 
 -- KARAZHAN CATACOMBS
-L['karazhan_catacombs_label'] = nil
-L['karazhan_catacombs_entrance_note'] = nil
+L['karazhan_catacombs_label'] = 'Die Katakomben von Karazhan'
+L['karazhan_catacombs_entrance_note'] = 'Sammle den {item:44124} im {location:Krater von Un\'Goro} ({location:Kalimdor})\n\nSammle den {item:228938} beginnend in {location:Dornogal} ({location:Khaz Algar}, {location:Insel von Dorn})\n\nKombiniere den Schlüssel und Edelstein, um den {item:44124} zu erhalten.\n\nMit dem {item:44124} in deinen Taschen und der {item:208092} aktiv nähere dich dem Gitter, um einen roten Instanzeingang zu offenbaren.'
 
 -- ORB 1
 L['orb_1_label'] = nil
