@@ -403,7 +403,7 @@ L['olgra_location'] = '{note:Hay cambios de ubicación según la finalización d
 
 -- ORB 2
 L['orb_2_label'] = 'Orbe 2'
-L['orb_2_note'] = '{note:Tienes que estar en la fase de {location:Battle for Azeroth} del {location:Valle de la Flor Eterna}.}\n\nEspera junto a {npc:153297} usando uno de los siguientes regalos de {npc:147393}:\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\nInvoca al {item:49912} usando uno de los siguientes disfraces:\n\n{item:229413}\n{item:116812}\n\nEscribe {emote:/rezar} y espera a recibir la {item:53156}.\n\nVuelve a las {location:Catacumbas de Karazhan} y usa la llave para abrir ambas puertas en la sala con la fuente.'
+L['orb_2_note'] = '{note:Tienes que estar en la fase de {location:Battle for Azeroth} del {location:Valle de la Flor Eterna}.}\n\nEspera junto a {npc:153297} usando uno de los siguientes regalos de {npc:147393}:\n\n{item:168123}\n{item:175140}\n{item:168004}\n\nInvoca al {item:49912} usando uno de los siguientes disfraces:\n\n{item:229413}\n{item:116812}\n\nEscribe {emote:/rezar} y espera a recibir la {item:53156}.\n\nVuelve a las {location:Catacumbas de Karazhan} y usa la llave para abrir ambas puertas en la sala con la fuente.'
 
 -- ORB 3
 L['orb_3_label'] = 'Orbe 3'
@@ -427,7 +427,7 @@ L['code_machine_note_8'] = 'Introduce el código y abre el {object:Cofre cifrado
 
 L['slot_machine_label'] = '"¿Te sientes afortunado?" Tragaperras'
 L['slot_machine_note_a'] = 'Consigue cinco objetos de la suerte y después introduce el código:\n\n'
-L['slot_machine_note_b'] = '{npc:108533} en {location:Ventormenta}:\n'
+L['slot_machine_note_b'] = '{npc:2795} en {location:Ventormenta}:\n'
 L['slot_machine_note_c'] = '{npc:219197} en {location:Dornogal}:\n'
 L['slot_machine_note_d'] = '{npc:186650} en {location:Llanuras de Ohn\'ahra}\n'
 L['slot_machine_note_e'] = '{object:Código}: 777, 77777 o 7777777'
