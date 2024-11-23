@@ -403,33 +403,33 @@ L['humble_monument'] = 'Humble monument'
 L['olgra_location'] = '{note:L\'emplacement change en fonction de la réalisation de la quête {quest:35170}.}'
 
 -- ORB 2
-L['pray_orb_label'] = nil
-L['pray_orb_note'] = nil
+L['pray_orb_label'] = 'Orbe 2 - Prière'
+L['pray_orb_note'] = '{note:Vous devez être dans la version du {location:Val de l’Éternel printemps} lié à l\'extension {location:Battle for Azeroth}.}\n\nPlacez-vous à côté du {npc:153297} en utilisant l\'un des dons de {npc:147393} suivants :\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\nInvoquez {item:49912} et utilisez l\'un des costumes suivants :\n\n{item:229413}\n{item:116812}\n\nTapez {emote:/prier} et attendez de recevoir la {item:53156}.\n\nRetournez aux {location:Catacombes de Karazhan} et utilisez la clé pour ouvrir les deux portes dans la pièce avec la fontaine.'
 
 -- ORB 3
-L['hate_orb_label'] = nil
+L['hate_orb_label'] = 'Orbe 3 - Haine'
 
-L['astral_soup_label'] = nil
-L['astral_chest_label'] = nil
-L['astral_rewards_note'] = nil
+L['astral_soup_label'] = 'Soupe astrale'
+L['astral_chest_label'] = 'Coffre astral'
+L['astral_rewards_note'] = 'Pêchez dans la {object:Soupe astrale} pour recevoir la {item:228965}.\n\nUtilisez la {item:228965} pour ouvrir le {object:Coffre astral} et recevoir les {item:228966}.\n\nVous pouvez maintenant récupérer des {item:228967} sur les machines situées dans les {location:Catacombes de Karazhan}.'
 
-L['decryption_machine_label'] = nil
-L['decryption_console_label'] = nil
-L['rubensteins_console'] = nil
+L['decryption_machine_label'] = 'Machine de décryptage'
+L['decryption_console_label'] = 'Console de décryptage'
+L['rubensteins_console'] = 'Console de Rubenstein'
 
-L['code_machine_note_1'] = nil
-L['code_machine_note_2'] = nil
-L['code_machine_note_3'] = nil
-L['code_machine_note_4'] = nil
-L['code_machine_note_5'] = nil
-L['code_machine_note_6'] = nil
-L['code_machine_note_7'] = nil
-L['code_machine_note_8'] = nil
+L['code_machine_note_1'] = 'Entrez le code et ouvrez la {object:Propriété de l\'ancien Ko\'nani} pour recevoir un {item:228967}.\n\n{object:Code}: 88224646'
+L['code_machine_note_2'] = 'Entrez le code et ouvrez le {object:Coffre codé} pour recevoir un {item:228967}.\n\n{object:Code}: 10638'
+L['code_machine_note_3'] = 'Entrez le code et ouvrez le {object:Coffre codé} pour recevoir un {item:228967}.\n\n{object:Code}: 5661'
+L['code_machine_note_4'] = 'Entrez le code et ouvrez le {object:Coffre-fort de Rubenstein} pour recevoir un {item:228967}.\n\n{object:Code}: 52233'
+L['code_machine_note_5'] = 'Entrez le code et ouvrez le {object:Coffre codé} pour recevoir un {item:228967}.\n\n{object:Code}: 51567'
+L['code_machine_note_6'] = 'Entrez le code et ouvrez le {object:Coffre codé} pour recevoir un {item:228967}.\n\n{object:Code}: 115'
+L['code_machine_note_7'] = 'Entrez le code et ouvrez le {object:Boite à secret codée} pour recevoir un {item:228967}.\n\n{object:Code}: 17112317'
+L['code_machine_note_8'] = 'Entrez le code et ouvrez le {object:Coffre codé} pour recevoir un {item:228967}.\n\n{object:Code}: 19019'
 
-L['slot_machine_label'] = nil
-L['slot_machine_note_a'] = nil
-L['slot_machine_note_b'] = nil
-L['slot_machine_note_c'] = nil
-L['slot_machine_note_d'] = nil
-L['slot_machine_note_e'] = nil
-L['slot_machine_vendor_note'] = nil
+L['slot_machine_label'] = 'Machine à sous « en veine ? »'
+L['slot_machine_note_a'] = 'Rassemblez cinq objets porte-bonheur et entrez le code :\n\n'
+L['slot_machine_note_b'] = '{npc:108533} à {location:Hurlevent} :\n'
+L['slot_machine_note_c'] = '{npc:219197} à {location:Dornogal}:\n'
+L['slot_machine_note_d'] = 'La {npc:186650} dans les {location:Plaines d’Ohn’ahra}\n'
+L['slot_machine_note_e'] = '{object:Code}: 777, 77777 ou 7777777'
+L['slot_machine_vendor_note'] = 'Achetez ces objets pour la {object:Machine à sous « en veine ? »}.'
