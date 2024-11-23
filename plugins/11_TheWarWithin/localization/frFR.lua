@@ -390,14 +390,45 @@ L['hastily_scrawled_note'] = 'En haut de la corniche surplombant la {location:Ci
 L['water_resistant_note'] = 'Au centre d\'un lac caché en haut de la falaise entre {location:Azj-Kahet} et {location:Sainte-Chute}.\n\n{note:Lieu suivant :} {location:l\'Avancée de Faerin} à {location:Azj-Kahet}'
 L['peculiar_gem_note'] = 'Descendez par le trou dissimulé dans la grotte jusqu\'au {location:Nid du pilier Vosh}.\n\n{note:Le trou est caché contre la paroi et nécessite quelques sauts précis.}\n\nApprochez-vous de {npc:233550} et elle s\'enfuira en laissant tomber la {item:228938}.\n\n{note:Lieu suivant :}\nSi vous {bug:n\'avez pas} la {item:228941}, allez au {location:Cratère d\'Un\'Goro} en {location:Kalimdor}.\n\nSi vous |cFF00FF00avez|r la {item:228941}, allez au {location:Défilé de Deuillevent} dans les {location:Royaumes de l’Est}.'
 
+-- KARAZHAN CATACOMBS
 L['karazhan_catacombs_label'] = 'Catacombes de Karazhan'
 L['karazhan_catacombs_entrance_note'] = 'Récupérez la {item:44124} en partant du {location:Cratère d\'Un\'Goro} en {location:Kalimdor}\n\nRécupérez la {item:228938} en partant de {location:Dornogal} en {location:Khaz Algar}\n\nCombinez la gemme et la clé pour obtenir la {item:44124}.\n\nUne fois la {item:44124} dans vos sacs et la {item:208092} active, approchez de la porte pour révéler une entrée d\'instance rouge.'
 
+-- ORB 1
 L['love_orb_label'] = 'Orbe 1 - Amour'
 L['love_orb_note'] = 'Utilisez la {item:208092} à chaque endroit lié à {npc:228249} pour obtenir 1 des 3 charges du buff {spell:153715}.'
 L['love_orb_locations'] = '1. {location:Tarides du Nord} en {location:Kalimdor}\n2. {location:Nagrand} en {location:Draenor}\n3. {location:Maldraxxus} en {location:Ombreterre}'
 L['humble_monument'] = 'Humble monument'
 L['olgra_location'] = '{note:L\'emplacement change en fonction de la réalisation de la quête {quest:35170}.}'
 
+-- ORB 2
 L['pray_orb_label'] = nil
 L['pray_orb_note'] = nil
+
+-- ORB 3
+L['hate_orb_label'] = nil
+
+L['astral_soup_label'] = nil
+L['astral_chest_label'] = nil
+L['astral_rewards_note'] = nil
+
+L['decryption_machine_label'] = nil
+L['decryption_console_label'] = nil
+L['rubensteins_console'] = nil
+
+L['code_machine_note_1'] = nil
+L['code_machine_note_2'] = nil
+L['code_machine_note_3'] = nil
+L['code_machine_note_4'] = nil
+L['code_machine_note_5'] = nil
+L['code_machine_note_6'] = nil
+L['code_machine_note_7'] = nil
+L['code_machine_note_8'] = nil
+
+L['slot_machine_label'] = nil
+L['slot_machine_note_a'] = nil
+L['slot_machine_note_b'] = nil
+L['slot_machine_note_c'] = nil
+L['slot_machine_note_d'] = nil
+L['slot_machine_note_e'] = nil
+L['slot_machine_vendor_note'] = nil
