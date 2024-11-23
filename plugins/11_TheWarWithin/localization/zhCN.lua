@@ -368,7 +368,7 @@ L['7_charred_celebration_crate'] = '藏在 {location:呼啸林地} 的蹦床底�
 L['8_mildewed_celebration_crate'] = '1. 在 {location:灰谷} 的 {location:雷鸣峰} 顶部的 {npc:34295} 后面找到并喝下 {object:真相药水}。\n\n2. 在 {location:菲拉斯} 的 {location:厄运之槌} 中拾取 {object:发霉的庆典箱子}。\n\n{note:{spell:463368} 仅持续30分钟。必须手动飞往 {location:菲拉斯}。更改大陆、使用传送门或使用 {item:6948} 将移除该增益效果。}'
 L['9_crystalized_celebration_crate'] = '在 {location:纳格兰} 的 {location:沃舒古} 内。'
 L['10_surprisingly_pristine_celebration_crate'] = '1. 从 {location:卡利姆多} 的 {location:安其拉} 洞穴中收集 {item:228772}。\n\n2. 将 {item:228772} 放置在 {location:破碎群岛} 的 {location:风暴峡湾} 的 {object:无标记的坟墓} 处。'
-L['11_ghostly_celebration_crate'] = nil
+L['11_ghostly_celebration_crate'] = '位于传送门右侧的 {location:兵主之座} 顶部。'
 
 L['water_resistant_receipt_note'] = '1. 进入充满 {npc:47390} 的隧道，右转从管道后面的 {object:防水的销售收据} 中收集 {item:228768}。\n\n2. 在 {location:破碎群岛} 的 {location:阿苏纳} 找到 {npc:91079}。'
 L['mysterious_bones_note'] = '收集洞穴中隐藏在 {npc:71533} 后面的 {item:228772}。\n\n使用狗类战斗宠物（例如 {item:136925} 或 {item:49912}）挖出骨头。'
@@ -402,33 +402,33 @@ L['humble_monument'] = '不起眼的纪念碑'
 L['olgra_location'] = '{note:位置根据 {quest:35170} 的完成情况而改变。}'
 
 -- ORB 2
-L['pray_orb_label'] = nil
-L['pray_orb_note'] = nil
+L['pray_orb_label'] = '2号球 - 祈祷'
+L['pray_orb_note'] = '{note:必须位于 {location:争霸艾泽拉斯} 的 {location:锦绣谷} 阶段。}\n\n站在 {npc:153297} 旁边，按顺序使用 {npc:147393} 的以下礼物：\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\n按顺序使用以下服饰召唤 {item:49912}：\n\n{item:229413}\n{item:116812}\n\n输入 {emote:/pray}、{emote:/pray} 表情并等待得到 {item:53156}。\n\n返回 {location:卡拉赞墓穴} 并使用钥匙打开带有喷泉的房间的两扇门。'
 
 -- ORB 3
-L['hate_orb_label'] = nil
+L['hate_orb_label'] = '3号球 - 憎恨'
 
-L['astral_soup_label'] = nil
-L['astral_chest_label'] = nil
-L['astral_rewards_note'] = nil
+L['astral_soup_label'] = '星界暖汤'
+L['astral_chest_label'] = '星界宝箱'
+L['astral_rewards_note'] = '去 {object:星界暖汤} 钓鱼以获得 {item:228965}。\n\n使用 {item:228965} 打开 {object:星界宝箱} 并获得 {item:228966}。\n\n现在可以从 {location:卡拉赞墓穴} 周围的机器收集 {item:228967}。'
 
-L['decryption_machine_label'] = nil
-L['decryption_console_label'] = nil
-L['rubensteins_console'] = nil
+L['decryption_machine_label'] = '解码机器'
+L['decryption_console_label'] = '解码控制台'
+L['rubensteins_console'] = '鲁布斯坦的控制台'
 
-L['code_machine_note_1'] = nil
-L['code_machine_note_2'] = nil
-L['code_machine_note_3'] = nil
-L['code_machine_note_4'] = nil
-L['code_machine_note_5'] = nil
-L['code_machine_note_6'] = nil
-L['code_machine_note_7'] = nil
-L['code_machine_note_8'] = nil
+L['code_machine_note_1'] = '输入代码并打开 {object:长者库纳尼的财产} 得到 {item:228967}。\n\n{object:代码}：88224646'
+L['code_machine_note_2'] = '输入代码并打开 {object:加密箱子} 获得 {item:228967}。\n\n{object:代码}：10638'
+L['code_machine_note_3'] = '输入代码并打开 {object:加密箱子} 获得 {item:228967}。\n\n{object:代码}：5661'
+L['code_machine_note_4'] = '输入代码并打开 {object:鲁布斯坦的保险箱} 获得 {item:228967}。\n\n{object:代码}：52233'
+L['code_machine_note_5'] = '输入代码并打开 {object:加密箱子} 获得 {item:228967}。\n\n{object:代码}：51567'
+L['code_machine_note_6'] = '输入代码并打开 {object:加密箱子} 获得 {item:228967}。\n\n{object:代码}：115'
+L['code_machine_note_7'] = '输入代码并打开 {object:加密拼图盒} 获得 {item:228967}。\n\n{object:代码}：17112317'
+L['code_machine_note_8'] = '输入代码并打开 {object:加密箱子} 获得 {item:228967}。\n\n{object:代码}：19019'
 
-L['slot_machine_label'] = nil
-L['slot_machine_note_a'] = nil
-L['slot_machine_note_b'] = nil
-L['slot_machine_note_c'] = nil
-L['slot_machine_note_d'] = nil
-L['slot_machine_note_e'] = nil
-L['slot_machine_vendor_note'] = nil
+L['slot_machine_label'] = '“感觉运气不错？”老虎机'
+L['slot_machine_note_a'] = '收集五个幸运物品然后输入代码：\n\n'
+L['slot_machine_note_b'] = '{location:暴风城} 的 {npc:108533}：\n'
+L['slot_machine_note_c'] = '{location:多恩诺加尔} 的 {npc:219197}：\n'
+L['slot_machine_note_d'] = '{location:欧恩哈拉平原} 的 {npc:186650}\n'
+L['slot_machine_note_e'] = '{object:代码}：777、77777 或 7777777'
+L['slot_machine_vendor_note'] = '为 {object:“感觉运气不错？”老虎机} 购买这些物品。'
