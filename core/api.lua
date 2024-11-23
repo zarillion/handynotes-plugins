@@ -14,7 +14,7 @@ local GetFactionInfoByID = GetFactionInfoByID or function(factionID)
     if fi then
         return fi.name, fi.description, fi.reaction,
             fi.currentReactionThreshold, fi.nextReactionThreshold,
-            fi.currentStanding, fi.atWarWith, fi.canToggleAtWar, fi.isheader,
+            fi.currentStanding, fi.atWarWith, fi.canToggleAtWar, fi.isHeader,
             fi.isCollapsed, nil, fi.isWatched, fi.isChild, fi.factionID,
             fi.hasBonusRepGain, nil,
             -- the following is only available with Patch 11.0 and above
