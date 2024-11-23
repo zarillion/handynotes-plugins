@@ -404,7 +404,7 @@ L['olgra_location'] = '{note:L\'emplacement change en fonction de la réalisatio
 
 -- ORB 2
 L['orb_2_label'] = 'Orbe 2'
-L['orb_2_note'] = '{note:Vous devez être dans la version du {location:Val de l’Éternel printemps} lié à l\'extension {location:Battle for Azeroth}.}\n\nPlacez-vous à côté du {npc:153297} en utilisant l\'un des dons de {npc:147393} suivants :\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\nInvoquez {item:49912} et utilisez l\'un des costumes suivants :\n\n{item:229413}\n{item:116812}\n\nTapez {emote:/prier} et attendez de recevoir la {item:53156}.\n\nRetournez aux {location:Catacombes de Karazhan} et utilisez la clé pour ouvrir les deux portes dans la pièce avec la fontaine.'
+L['orb_2_note'] = '{note:Vous devez être dans la version du {location:Val de l’Éternel printemps} lié à l\'extension {location:Battle for Azeroth}.}\n\nPlacez-vous à côté du {npc:153297} en utilisant l\'un des dons de {npc:147393} suivants :\n\n{item:168123}\n{item:175140}\n{item:168004}\n\nInvoquez {item:49912} et utilisez l\'un des costumes suivants :\n\n{item:229413}\n{item:116812}\n\nTapez {emote:/prier} et attendez de recevoir la {item:53156}.\n\nRetournez aux {location:Catacombes de Karazhan} et utilisez la clé pour ouvrir les deux portes dans la pièce avec la fontaine.'
 
 -- ORB 3
 L['orb_3_label'] = 'Orbe 3'
@@ -428,12 +428,12 @@ L['code_machine_note_8'] = 'Entrez le code et ouvrez le {object:Coffre codé} po
 
 L['slot_machine_label'] = 'Machine à sous « en veine ? »'
 L['slot_machine_note_a'] = 'Rassemblez cinq objets porte-bonheur et entrez le code :\n\n'
-L['slot_machine_note_b'] = '{npc:108533} à {location:Hurlevent} :\n'
+L['slot_machine_note_b'] = '{npc:2795} à {location:Hurlevent} :\n'
 L['slot_machine_note_c'] = '{npc:219197} à {location:Dornogal}:\n'
 L['slot_machine_note_d'] = 'La {npc:186650} dans les {location:Plaines d’Ohn’ahra}\n'
 L['slot_machine_note_e'] = '{object:Code}: 777, 77777 ou 7777777'
 L['slot_machine_vendor_note'] = 'Achetez ces objets pour la {object:Machine à sous « en veine ? »}.'
 
 -- ORB 4
-L['pointless_treasure_salesman_location'] = nil
-L['pointless_treasure_salesman_note'] = nil
+L['pointless_treasure_salesman_location'] = 'Caché dans la statue gobeline au {location:Cap Janeiro}.'
+L['pointless_treasure_salesman_note'] = 'Achetez la {item:228996} :'
