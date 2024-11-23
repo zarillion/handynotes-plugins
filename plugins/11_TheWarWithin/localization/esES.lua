@@ -402,33 +402,33 @@ L['humble_monument'] = 'Monumento humilde'
 L['olgra_location'] = '{note:Hay cambios de ubicación según la finalización de la misión {quest:35170}.}'
 
 -- ORB 2
-L['pray_orb_label'] = nil
-L['pray_orb_note'] = nil
+L['pray_orb_label'] = 'Orbe 2 - Rezo'
+L['pray_orb_note'] = '{note:Tienes que estar en la fase de {location:Battle for Azeroth} del {location:Valle de la Flor Eterna}.}\n\nEspera junto a {npc:153297} usando uno de los siguientes regalos de {npc:147393}:\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\nInvoca al {item:49912} usando uno de los siguientes disfraces:\n\n{item:229413}\n{item:116812}\n\nEscribe {emote:/rezar} y espera a recibir la {item:53156}.\n\nVuelve a las {location:Catacumbas de Karazhan} y usa la llave para abrir ambas puertas en la sala con la fuente.'
 
 -- ORB 3
-L['hate_orb_label'] = nil
+L['hate_orb_label'] = 'Orbe 3 - Odio'
 
-L['astral_soup_label'] = nil
-L['astral_chest_label'] = nil
-L['astral_rewards_note'] = nil
+L['astral_soup_label'] = 'Sopa astral'
+L['astral_chest_label'] = 'Cofre astral'
+L['astral_rewards_note'] = 'Ves a pescar en la {object:Sopa astral} para recibir la {item:228965}.\n\nUsa la {item:228965} para abrir el {object:Cofre astral} y conseguir las {item:228966}.\n\nAhora puedes recoger {item:228967} de las máquinas a lo largo de las {location:Catacumbas de Karazhan}.'
 
-L['decryption_machine_label'] = nil
-L['decryption_console_label'] = nil
-L['rubensteins_console'] = nil
+L['decryption_machine_label'] = 'Máquina de descifrado'
+L['decryption_console_label'] = 'Consola de descifrado'
+L['rubensteins_console'] = 'Consola de Rubenstein'
 
-L['code_machine_note_1'] = nil
-L['code_machine_note_2'] = nil
-L['code_machine_note_3'] = nil
-L['code_machine_note_4'] = nil
-L['code_machine_note_5'] = nil
-L['code_machine_note_6'] = nil
-L['code_machine_note_7'] = nil
-L['code_machine_note_8'] = nil
+L['code_machine_note_1'] = 'Introduce el código y abre la {object:Propiedad del Ancestro Ko\'nani} para conseguir una {item:228967}.\n\n{object:Código}: 88224646'
+L['code_machine_note_2'] = 'Introduce el código y abre el {object:Cofre cifrado} para conseguir una {item:228967}.\n\n{object:Código}: 10638'
+L['code_machine_note_3'] = 'Introduce el código y abre el {object:Cofre cifrado} para conseguir una {item:228967}.\n\n{object:Código}: 5661'
+L['code_machine_note_4'] = 'Introduce el código y abre la {object:Caja fuerte de Rubenstein} para conseguir una {item:228967}.\n\n{object:Código}: 52233'
+L['code_machine_note_5'] = 'Introduce el código y abre el {object:Cofre cifrado} para conseguir una {item:228967}.\n\n{object:Código}: 51567'
+L['code_machine_note_6'] = 'Introduce el código y abre el {object:Cofre cifrado} para conseguir una {item:228967}.\n\n{object:Código}: 115'
+L['code_machine_note_7'] = 'Introduce el código y abre la {object:Caja de rompecabezas cifrada} para conseguir una {item:228967}.\n\n{object:Código}: 17112317'
+L['code_machine_note_8'] = 'Introduce el código y abre el {object:Cofre cifrado} para conseguir una {item:228967}.\n\n{object:Código}: 19019'
 
-L['slot_machine_label'] = nil
-L['slot_machine_note_a'] = nil
-L['slot_machine_note_b'] = nil
-L['slot_machine_note_c'] = nil
-L['slot_machine_note_d'] = nil
-L['slot_machine_note_e'] = nil
-L['slot_machine_vendor_note'] = nil
+L['slot_machine_label'] = '"¿Te sientes afortunado?" Tragaperras'
+L['slot_machine_note_a'] = 'Consigue cinco objetos de la suerte y después introduce el código:\n\n'
+L['slot_machine_note_b'] = '{npc:108533} en {location:Ventormenta}:\n'
+L['slot_machine_note_c'] = '{npc:219197} en {location:Dornogal}:\n'
+L['slot_machine_note_d'] = '{npc:186650} en {location:Llanuras de Ohn\'ahra}\n'
+L['slot_machine_note_e'] = '{object:Código}: 777, 77777 o 7777777'
+L['slot_machine_vendor_note'] = 'Compra estos objetos para {object:"¿Te sientes afortunado?" Tragaperras}.'
