@@ -406,7 +406,7 @@ L['orb_2_label'] = '2号球'
 L['orb_2_note'] = '{note:必须位于 {location:争霸艾泽拉斯} 的 {location:锦绣谷} 阶段。}\n\n站在 {npc:153297} 旁边，使用 {npc:147393} 的以下礼物任意一个：\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\n使用以下服装任意一个召唤 {item:49912}：\n\n{item:229413}\n{item:116812}\n\n输入 {emote:/祈祷}、{emote:/pray} 表情并等待得到 {item:53156}。\n\n返回 {location:卡拉赞墓穴} 并使用钥匙打开带有喷泉的房间的两扇门。'
 
 -- ORB 3
-L['orb_3_label'] = nil
+L['orb_3_label'] = '3号球'
 
 L['astral_soup_label'] = '星界暖汤'
 L['astral_chest_label'] = '星界宝箱'
@@ -416,23 +416,23 @@ L['decryption_machine_label'] = '解码机器'
 L['decryption_console_label'] = '解码控制台'
 L['rubensteins_console'] = '鲁布斯坦的控制台'
 
-L['code_machine_note_1'] = '输入代码并打开 {object:长者库纳尼的财产} 得到 {item:228967}。\n\n{object:代码}：88224646'
-L['code_machine_note_2'] = '输入代码并打开 {object:加密箱子} 获得 {item:228967}。\n\n{object:代码}：10638'
-L['code_machine_note_3'] = '输入代码并打开 {object:加密箱子} 获得 {item:228967}。\n\n{object:代码}：5661'
+L['code_machine_note_1'] = '输入代码并打开 {object:“长者库纳尼的财物”} 得到 {item:228967}。\n\n{object:代码}：88224646'
+L['code_machine_note_2'] = '输入代码并打开 {object:加密的宝箱} 获得 {item:228967}。\n\n{object:代码}：10638'
+L['code_machine_note_3'] = '输入代码并打开 {object:加密的宝箱} 获得 {item:228967}。\n\n{object:代码}：5661'
 L['code_machine_note_4'] = '输入代码并打开 {object:鲁布斯坦的保险箱} 获得 {item:228967}。\n\n{object:代码}：52233'
-L['code_machine_note_5'] = '输入代码并打开 {object:加密箱子} 获得 {item:228967}。\n\n{object:代码}：51567'
-L['code_machine_note_6'] = '输入代码并打开 {object:加密箱子} 获得 {item:228967}。\n\n{object:代码}：115'
-L['code_machine_note_7'] = '输入代码并打开 {object:加密拼图盒} 获得 {item:228967}。\n\n{object:代码}：17112317'
-L['code_machine_note_8'] = '输入代码并打开 {object:加密箱子} 获得 {item:228967}。\n\n{object:代码}：19019'
+L['code_machine_note_5'] = '输入代码并打开 {object:加密的宝箱} 获得 {item:228967}。\n\n{object:代码}：51567'
+L['code_machine_note_6'] = '输入代码并打开 {object:加密的宝箱} 获得 {item:228967}。\n\n{object:代码}：115'
+L['code_machine_note_7'] = '输入代码并打开 {object:加密机关盒} 获得 {item:228967}。\n\n{object:代码}：17112317'
+L['code_machine_note_8'] = '输入代码并打开 {object:加密的宝箱} 获得 {item:228967}。\n\n{object:代码}：19019'
 
-L['slot_machine_label'] = '“感觉运气不错？”老虎机'
+L['slot_machine_label'] = '“试试手气！”游戏机'
 L['slot_machine_note_a'] = '收集五个幸运物品然后输入代码：\n\n'
-L['slot_machine_note_b'] = '{location:暴风城} 的 {npc:108533}：\n'
+L['slot_machine_note_b'] = '{location:暴风城} 的 {npc:2795}：\n'
 L['slot_machine_note_c'] = '{location:多恩诺加尔} 的 {npc:219197}：\n'
 L['slot_machine_note_d'] = '{location:欧恩哈拉平原} 的 {npc:186650}\n'
 L['slot_machine_note_e'] = '{object:代码}：777、77777 或 7777777'
-L['slot_machine_vendor_note'] = '为 {object:“感觉运气不错？”老虎机} 购买这些物品。'
+L['slot_machine_vendor_note'] = '为 {object:“试试手气！”游戏机} 购买这些物品。'
 
 -- ORB 4
-L['pointless_treasure_salesman_location'] = nil
-L['pointless_treasure_salesman_note'] = nil
+L['pointless_treasure_salesman_location'] = '隐藏于 {location:加尼罗哨站} 的哥布林雕像内。'
+L['pointless_treasure_salesman_note'] = '购买 {item:228996}：'

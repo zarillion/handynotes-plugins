@@ -302,8 +302,8 @@ end
 
 karazhanCatacombs.nodes[63792841] = SlotMachine()
 
-stormwind.nodes[28692781] = RattsRevenge({
-    label = '{npc:108533}',
+stormwind.nodes[72805880] = RattsRevenge({
+    label = '{npc:2795}',
     note = L['slot_machine_vendor_note'],
     quest = 84786, -- hidden
     rewards = {

@@ -427,7 +427,7 @@ L['code_machine_note_8'] = 'Enter the code and open the {object:Encrypted Chest}
 
 L['slot_machine_label'] = '"Feeling Lucky?" Slot Machine'
 L['slot_machine_note_a'] = 'Collect five of the lucky items then enter the code:\n\n'
-L['slot_machine_note_b'] = '{npc:108533} in {location:Stormwind}:\n'
+L['slot_machine_note_b'] = '{npc:2795} in {location:Stormwind}:\n'
 L['slot_machine_note_c'] = '{npc:219197} in {location:Dornogal}:\n'
 L['slot_machine_note_d'] = '{npc:186650} in {location:Ohn\'ahran Plains}\n'
 L['slot_machine_note_e'] = '{object:Code}: 777, 77777 or 7777777'
