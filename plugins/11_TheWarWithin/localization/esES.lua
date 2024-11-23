@@ -434,5 +434,5 @@ L['slot_machine_note_e'] = '{object:Código}: 777, 77777 o 7777777'
 L['slot_machine_vendor_note'] = 'Compra estos objetos para {object:"¿Te sientes afortunado?" Tragaperras}.'
 
 -- ORB 4
-L['pointless_treasure_salesman_location'] = nil
-L['pointless_treasure_salesman_note'] = nil
+L['pointless_treasure_salesman_location'] = 'Escondido dentro de la estatua del duende en {location:Cayo de Janeiro}.'
+L['pointless_treasure_salesman_note'] = 'Compra la {item:228996}:'
