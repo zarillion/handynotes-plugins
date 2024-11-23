@@ -369,6 +369,14 @@ map.nodes[63479504] = Rare({
     pois = {Entrance({65309350})} -- Entrance
 }) -- The One Left
 
+local BloodVial = Class('BloodVial', ns.reward.Item, {item = 225952})
+
+function BloodVial:GetStatus()
+    local collected = select(11, C_MountJournal.GetMountInfoByID(2222))
+    return collected and ns.status.Green(L['known']) or
+               ns.status.Red(L['missing'])
+end
+
 map.nodes[62816618] = Rare({
     id = 216046,
     quest = 82289, -- 85166
@@ -379,7 +387,7 @@ map.nodes[62816618] = Rare({
         Reputation({id = 2607, gain = 50, quest = 85166}),
         Transmog({item = 221240, type = L['1h_sword']}), -- Nerubian Stagshell Gouger
         Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
-        ns.reward.Item({item = 225952, quest = 83627})
+        BloodVial()
     } -- starts the questchain to get the Siesbarg mount.
 }) -- Tka'ktath
 
