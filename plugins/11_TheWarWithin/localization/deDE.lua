@@ -400,3 +400,6 @@ L['love_orb_note'] = nil
 L['love_orb_locations'] = nil
 L['humble_monument'] = nil
 L['olgra_location'] = nil
+
+L['pray_orb_label'] = nil
+L['pray_orb_note'] = nil

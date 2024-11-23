@@ -397,3 +397,6 @@ L['love_orb_note'] = '在每个涉及 {npc:228249} 的位置使用 {item:208092}
 L['love_orb_locations'] = '1. {location:卡利姆多} 的 {location:北贫瘠之地}\n2. {location:德拉诺} 的 {location:纳格兰}\n3. {location:暗影界} 的 {location:玛卓克萨斯}'
 L['humble_monument'] = '不起眼的纪念碑'
 L['olgra_location'] = '{note:位置根据 {quest:35170} 的完成情况而改变。}'
+
+L['pray_orb_label'] = nil
+L['pray_orb_note'] = nil

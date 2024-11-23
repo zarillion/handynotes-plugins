@@ -398,3 +398,6 @@ L['love_orb_note'] = 'Utilisez la {item:208092} à chaque endroit lié à {npc:2
 L['love_orb_locations'] = '1. {location:Tarides du Nord} en {location:Kalimdor}\n2. {location:Nagrand} en {location:Draenor}\n3. {location:Maldraxxus} en {location:Ombreterre}'
 L['humble_monument'] = 'Humble monument'
 L['olgra_location'] = '{note:L\'emplacement change en fonction de la réalisation de la quête {quest:35170}.}'
+
+L['pray_orb_label'] = nil
+L['pray_orb_note'] = nil

@@ -37,6 +37,9 @@ local northernBarrens = ns.maps[10] or Map({id = 10, settings = false})
 local draenorNagrand = ns.maps[550] or Map({id = 550, settings = false})
 local maldraxxus = ns.maps[1536] or Map({id = 1536, settings = false})
 
+-- 2 O'CLOCK ORB - PRAY
+local valeOfEternalBlossoms = ns.maps[390] or Map({id = 390, settings = false})
+
 -------------------------------------------------------------------------------
 
 local TORCH = ns.requirement.Toy(208092) -- Torch of Pyrreth
@@ -132,11 +135,17 @@ function Orb.getters:rlabel()
     return completed and Green(L['completed']) or Red(L['incomplete'])
 end
 
-karazhanCatacombs.nodes[69722192] = Orb({
+karazhanCatacombs.nodes[50001500] = Orb({
     label = L['love_orb_label'],
     note = L['love_orb_note'] .. '\n\n' .. L['love_orb_locations'],
     quest = 84676 -- hidden
 }) -- Orb 1
+
+karazhanCatacombs.nodes[50001800] = Orb({
+    label = L['pray_orb_label'],
+    note = L['pray_orb_note'],
+    quest = 84677 -- hidden
+}) -- Orb 2
 
 -------------------------------------------------------------------------------
 ---------------------------- 1 O'CLOCK ORB - LOVE -----------------------------
@@ -175,3 +184,14 @@ maldraxxus.nodes[27306130] = RattsRevenge({
     requires = TORCH, -- Torch of Pyrreth
     rewards = {Buff({id = 153715, stacks = 3})} -- A Touch of Their Love
 }) -- Decimator Olgra
+
+-------------------------------------------------------------------------------
+---------------------------- 2 O'CLOCK ORB - PRAY -----------------------------
+-------------------------------------------------------------------------------
+
+valeOfEternalBlossoms.nodes[83183011] = RattsRevenge({
+    label = '{npc:153297}',
+    note = L['pray_orb_note'],
+    quest = 84677, -- hidden
+    rewards = {Item({item = 53156, bag = true})} -- Key of Shadows
+}) -- Ny'alotha Obelisk

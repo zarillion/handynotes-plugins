@@ -397,3 +397,6 @@ L['love_orb_note'] = 'Use the {item:208092} at each location involving {npc:2282
 L['love_orb_locations'] = '1. {location:Northern Barrens} in {location:Kalimdor}\n2. {location:Nagrand} in {location:Draenor}\n3. {location:Maldraxxus} in {location:The Shadowlands}'
 L['humble_monument'] = 'Humble Monument'
 L['olgra_location'] = '{note:Location changes based on the completion of {quest:35170}.}'
+
+L['pray_orb_label'] = 'Orb 2 - Pray'
+L['pray_orb_note'] = '{note:You must be in the {location:Battle for Azeroth} phase of {location:Vale of Eternal Blossoms}.}\n\nStand next to the {npc:153297} using one of the following gifts of {npc:147393}:\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\nSummon {item:49912} using one of the following costumes:\n\n{item:229413}\n{item:116812}\n\nType {emote:/pray} and wait to receive the {item:53156}.\n\nReturn to the {location:Karazhan Catacombs} and use the key to open both doors in the room with the fountain.'

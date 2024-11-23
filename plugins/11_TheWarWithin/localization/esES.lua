@@ -397,3 +397,6 @@ L['love_orb_note'] = 'Usa la {item:208092} en cada lugar en el que esté involuc
 L['love_orb_locations'] = '1. {location:Los Baldíos del Norte} en {location:Kalimdor}\n2. {location:Nagrand} en {location:Draenor}\n3. {location:Maldraxxus} en {location:Tierras Sombrías}'
 L['humble_monument'] = 'Monumento humilde'
 L['olgra_location'] = '{note:Hay cambios de ubicación según la finalización de la misión {quest:35170}.}'
+
+L['pray_orb_label'] = nil
+L['pray_orb_note'] = nil
