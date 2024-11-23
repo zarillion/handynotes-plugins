@@ -6,8 +6,6 @@ if not L then return end
 ----------------------------------- COMMON ------------------------------------
 -------------------------------------------------------------------------------
 
-L['change_map'] = 'Karte wechseln'
-
 L['options_icons_safari'] = 'Auf Safari in Kalimdor / den Östlichen Königreichen'
 L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für die Erfolge {achievement:6585} und {achievement:6586} an.'
 

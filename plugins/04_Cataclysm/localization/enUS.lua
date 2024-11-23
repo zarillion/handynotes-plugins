@@ -6,8 +6,6 @@ if not L then return end
 ----------------------------------- COMMON ------------------------------------
 -------------------------------------------------------------------------------
 
-L['change_map'] = 'Change map'
-
 L['options_icons_safari'] = 'Kalimdor / Eastern Kingdoms Safari'
 L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:6585} and {achievement:6586} achievements.'
 

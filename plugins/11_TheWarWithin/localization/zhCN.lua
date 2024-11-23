@@ -372,3 +372,63 @@ L['11_ghostly_celebration_crate'] = nil
 
 L['water_resistant_receipt_note'] = '1. 进入充满 {npc:47390} 的隧道，右转从管道后面的 {object:防水的销售收据} 中收集 {item:228768}。\n\n2. 在 {location:破碎群岛} 的 {location:阿苏纳} 找到 {npc:91079}。'
 L['mysterious_bones_note'] = '收集洞穴中隐藏在 {npc:71533} 后面的 {item:228772}。\n\n使用狗类战斗宠物（例如 {item:136925} 或 {item:49912}）挖出骨头。'
+
+-------------------------------------------------------------------------------
+------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_ratts_revenge'] = '{achievement:40967}'
+L['options_icons_ratts_revenge_desc'] = '显示 {achievement:40967} 成就中秘密的位置。'
+
+-- INERT PECULIAR KEY
+L['inert_peculiar_key_note'] = '藏在板条箱后面巨大的中空树干里。\n\n{note:下一个位置：}\n如果 {bug:*没有*} {item:228938}，请前往 {location:卡兹阿加} 的 {location:多恩诺加尔}。\n\n如果 |cFF00FF00*有*|r {item:228938}，请前往 {location:东部王国} 的 {location:逆风小径}。'
+
+-- PECULIAR GEM
+L['carefully_penned_note'] = '佩戴 {title:侦探} 头衔与 {npc:230042} 交谈以接受 {quest:84684}。\n\n{note:下一个位置：}{location:艾基-卡赫特}'
+L['unfinished_note'] = '在 {location:渊行者小径} 的一个小洞穴中，周围是一圈 {npc:229596}。\n\n{note:下一个位置：}{location:千丝之城}'
+L['hastily_scrawled_note'] = '在能高高俯瞰 {location:千丝之城} 的岩壁上。\n\n{note:下一个位置：}{location:陨圣峪}'
+L['water_resistant_note'] = '在 {location:艾基-卡赫特} 和 {location:陨圣峪} 之间悬崖高处的隐秘湖泊中心。\n\n{note:下一个位置：}{location:艾基-卡赫特} 的 {location:菲琳之迈}'
+L['peculiar_gem_note'] = '穿过山洞内隐藏的洞口，到达 {location:沃什柱巢}。\n\n{note:洞口隐藏在墙壁上，需要巧妙跳跃。}\n\n接近 {npc:233550}，她会逃跑并丢下 {item:228938}。\n\n{note:下一个位置：}\n如果 {bug:*没有*} {item:228941}，请前往 {location:卡利姆多} 的 {location:安戈洛环形山}。\n\n如果 |cFF00FF00有|r {item:228941}，请前往 {location:东部王国} 的 {location:逆风小径}。'
+
+-- KARAZHAN CATACOMBS
+L['karazhan_catacombs_label'] = '卡拉赞墓穴'
+L['karazhan_catacombs_entrance_note'] = '从 {location:卡利姆多} 的 {location:安格洛环形山} 开始收集 {item:44124}\n\n从 {location:卡兹阿加} 的 {location:多恩诺加尔} 开始收集 {item:228938}\n\n将宝石和钥匙组合成 {item:44124}。\n\n将 {item:44124} 放入包中并激活 {item:208092}，接近大门即可看到一个红色的副本入口。'
+
+-- ORB 1
+L['love_orb_label'] = '1号球 - 爱'
+L['love_orb_note'] = '在每个涉及 {npc:228249} 的位置使用 {item:208092}，获得3层 {spell:153715} 中的1层。'
+L['love_orb_locations'] = '1. {location:卡利姆多} 的 {location:北贫瘠之地}\n2. {location:德拉诺} 的 {location:纳格兰}\n3. {location:暗影界} 的 {location:玛卓克萨斯}'
+L['humble_monument'] = '不起眼的纪念碑'
+L['olgra_location'] = '{note:位置根据 {quest:35170} 的完成情况而改变。}'
+
+-- ORB 2
+L['pray_orb_label'] = nil
+L['pray_orb_note'] = nil
+
+-- ORB 3
+L['hate_orb_label'] = nil
+
+L['astral_soup_label'] = nil
+L['astral_chest_label'] = nil
+L['astral_rewards_note'] = nil
+
+L['decryption_machine_label'] = nil
+L['decryption_console_label'] = nil
+L['rubensteins_console'] = nil
+
+L['code_machine_note_1'] = nil
+L['code_machine_note_2'] = nil
+L['code_machine_note_3'] = nil
+L['code_machine_note_4'] = nil
+L['code_machine_note_5'] = nil
+L['code_machine_note_6'] = nil
+L['code_machine_note_7'] = nil
+L['code_machine_note_8'] = nil
+
+L['slot_machine_label'] = nil
+L['slot_machine_note_a'] = nil
+L['slot_machine_note_b'] = nil
+L['slot_machine_note_c'] = nil
+L['slot_machine_note_d'] = nil
+L['slot_machine_note_e'] = nil
+L['slot_machine_vendor_note'] = nil

@@ -1,5 +1,7 @@
-# v109
+# v110
+* Add puzzles 3 of 12 for Ratt's Revenge - Incognitro, the Indecipherable Felcycle
 
+# v109
 * All Celebration Crate locations for the Guest Relations secret
 * Localization updates: deDE, esES, frFR, zhCN
 

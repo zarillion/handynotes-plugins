@@ -372,3 +372,63 @@ L['11_ghostly_celebration_crate'] = 'Encima del {location:Trono del Prelado}, a 
 
 L['water_resistant_receipt_note'] = '1. Entra en el túnel lleno de {npc:47390}, gira a la derecha, y recoge el {item:228768} de detrás de la tubería.\n\n2. Encuentra a {npc:91079} en {location:Azsuna} de las {location:Islas Abruptas}.'
 L['mysterious_bones_note'] = 'Coge los {item:228772} ocultos detrás de {npc:71533} dentro de la cueva.\n\nUsa una mascota de combate perro como {item:136925} o {item:49912} para desenterrar los huesos.'
+
+-------------------------------------------------------------------------------
+------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_ratts_revenge'] = '{achievement:40967}'
+L['options_icons_ratts_revenge_desc'] = 'Muestra los lugares secretos para el logro {achievement:40967}.'
+
+-- INERT PECULIAR KEY
+L['inert_peculiar_key_note'] = 'Escondida dentro del tronco de un gran árbol sagrado detrás de la caja.\n\n{note:Siguiente lugar:}\nSi {bug:no tienes} la {item:228938} ves a {location:Dornogal} en {location:Khaz Algar}.\n\nSi |cFF00FF00tienes|r la {item:228938} ves al {location:Paso de la Muerte} en los {location:Reinos del Este}.'
+
+-- PECULIAR GEM
+L['carefully_penned_note'] = 'Habla con un {npc:230042} mientras llevas el título {title:Detective} para recibir la misión {quest:84684}.\n\n{note:Siguiente lugar:} {location:Azj-Kahet}'
+L['unfinished_note'] = 'En una cueva pequeña del {location:Paso Andahondo} rodeada por un anillo de {npc:229596}.\n\n{note:Siguiente lugar:} {location:Ciudad Tejida}'
+L['hastily_scrawled_note'] = 'En lo alto de la cornisa que domina la {location:Ciudad Tejida}.\n\n{note:Siguiente lugar:} {location:Santificación}'
+L['water_resistant_note'] = 'En el centro de un lago escondido en lo alto del acantilado entre {location:Azj-Kahet} y {location:Santificación}.\n\n{note:Siguiente lugar:} {location:Avance de Faerin} en {location:Azj-Kahet}'
+L['peculiar_gem_note'] = 'Ves por la entrada del agujero oculto dentro de la cueva hasta {location:Pilar-Nido Vosh}.\n\n{note:El agujero está escondido contra la pared y requiere un salto inteligente.}\n\nAcércate a {npc:233550} y ella escapará dejando caer la {item:228938}.\n\n{note:Siguiente lugar:}\nSi {bug:no tienes} la {item:228941} ves al {location:Cráter de Un\'Goro} en {location:Kalimdor}.\n\nSi |cFF00FF00tienes|r la {item:228941} ves al {location:Paso de la Muerte} en los {location:Reinos del Este}.'
+
+-- KARAZHAN CATACOMBS
+L['karazhan_catacombs_label'] = 'Catacumbas de Karazhan'
+L['karazhan_catacombs_entrance_note'] = 'Coge la {item:44124} comenzando en el {location:Cráter de Un\'Goro} en {location:Kalimdor}\n\nCoge la {item:228938} comenzando en {location:Dornogal} en {location:Khaz Algar}\n\nCombina la gema y la llave para crear la {item:44124}.\n\nCon la {item:44124} en tu mochila y la {item:208092} activa, acércate a la puerta para revelar una entrada de instancia roja.'
+
+-- ORB 1
+L['love_orb_label'] = 'Orbe 1 - Amor'
+L['love_orb_note'] = 'Usa la {item:208092} en cada lugar en el que esté involucrado {npc:228249} y gana 1 de 3 acumulaciones de {spell:153715}.'
+L['love_orb_locations'] = '1. {location:Los Baldíos del Norte} en {location:Kalimdor}\n2. {location:Nagrand} en {location:Draenor}\n3. {location:Maldraxxus} en {location:Tierras Sombrías}'
+L['humble_monument'] = 'Monumento humilde'
+L['olgra_location'] = '{note:Hay cambios de ubicación según la finalización de la misión {quest:35170}.}'
+
+-- ORB 2
+L['pray_orb_label'] = nil
+L['pray_orb_note'] = nil
+
+-- ORB 3
+L['hate_orb_label'] = nil
+
+L['astral_soup_label'] = nil
+L['astral_chest_label'] = nil
+L['astral_rewards_note'] = nil
+
+L['decryption_machine_label'] = nil
+L['decryption_console_label'] = nil
+L['rubensteins_console'] = nil
+
+L['code_machine_note_1'] = nil
+L['code_machine_note_2'] = nil
+L['code_machine_note_3'] = nil
+L['code_machine_note_4'] = nil
+L['code_machine_note_5'] = nil
+L['code_machine_note_6'] = nil
+L['code_machine_note_7'] = nil
+L['code_machine_note_8'] = nil
+
+L['slot_machine_label'] = nil
+L['slot_machine_note_a'] = nil
+L['slot_machine_note_b'] = nil
+L['slot_machine_note_c'] = nil
+L['slot_machine_note_d'] = nil
+L['slot_machine_note_e'] = nil
+L['slot_machine_vendor_note'] = nil

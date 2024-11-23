@@ -49,6 +49,7 @@ L['zone_drops_label'] = 'Butins mondiaux'
 L['zone_drops_note'] = 'Les objets listés ci-dessous peuvent être trouvés sur plusieurs monstres de cette zone.'
 
 L['poi_entrance_label'] = 'Entrée'
+L['change_map'] = 'Changer la carte'
 
 L['requires'] = 'Requiert'
 L['ranked_research'] = '%s (Rang %d/%d)'

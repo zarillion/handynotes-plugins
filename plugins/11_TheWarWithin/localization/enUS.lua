@@ -372,3 +372,63 @@ L['11_ghostly_celebration_crate'] = 'On top of the {location:Seat of the Primus}
 
 L['water_resistant_receipt_note'] = '1. Enter the tunnel filled with {npc:47390}, turn right, and collect the {item:228768} from the {object:Water-Resistant Receipt of Sale} behind the pipe.\n\n2. Find {npc:91079} in {location:Azsuna} in the {location:Broken Isles}.'
 L['mysterious_bones_note'] = 'Collect the {item:228772} hidden behind {npc:71533} within the cave.\n\nUse a dog battle pet such as {item:136925} or {item:49912} to dig up the bones.'
+
+-------------------------------------------------------------------------------
+------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_ratts_revenge'] = '{achievement:40967}'
+L['options_icons_ratts_revenge_desc'] = 'Display secret locations for {achievement:40967}.'
+
+-- INERT PECULIAR KEY
+L['inert_peculiar_key_note'] = 'Hidden within the trunk of large hallow tree behind the crate.\n\n{note:Next Location:}\nIf you {bug:do not} have {item:228938} go to {location:Dornogal} in {location:Khaz Algar}.\n\nIf you |cFF00FF00do|r have the {item:228938} go to {location:Deadwind Pass} in {location:Eastern Kingdoms}.'
+
+-- PECULIAR GEM
+L['carefully_penned_note'] = 'Talk with the {npc:230042} while wearing the {title:Detective} title to receive {quest:84684}.\n\n{note:Next Location:} {location:Azj-Kahet}'
+L['unfinished_note'] = 'In a small cave in {location:Deepwalker Pass} surrounded by a ring of {npc:229596}.\n\n{note:Next Location:} {location:City of Threads}'
+L['hastily_scrawled_note'] = 'High up on the ledge overlooking the {location:City of Threads}.\n\n{note:Next Location:} {location:Hallowfall}'
+L['water_resistant_note'] = 'In the center of a hidden lake high up in the cliff between {location:Azj-Kahet} and {location:Hallowfall}.\n\n{note:Next Location:} {location:Faerin\'s Advance} in {location:Azj-Kahet}'
+L['peculiar_gem_note'] = 'Take the hidden hole entrance within the cave down to {location:Pillar-nest Vosh}.\n\n{note:The hole is hidden against the wall and requires some clever jumping.}\n\nApproach {npc:233550} and she will run away dropping the {item:228938}.\n\n{note:Next Location:}\nIf you {bug:do not} have {item:228941} go to {location:Un\'Goro Crater} in {location:Kalimdor}.\n\nIf you |cFF00FF00do|r have the {item:228941} go to {location:Deadwind Pass} in {location:Eastern Kingdoms}.'
+
+-- KARAZHAN CATACOMBS
+L['karazhan_catacombs_label'] = 'Karazhan Catacombs'
+L['karazhan_catacombs_entrance_note'] = 'Collect the {item:44124} starting in {location:Un\'Goro Crater} in {location:Kalimdor}\n\nCollect the {item:228938} starting in {location:Dornogal} in {location:Khaz Algar}\n\nCombine the gem and the key to form the {item:44124}.\n\nWith the {item:44124} in your bag and the {item:208092} active approach the gate to reveal a red instance entrance.'
+
+-- ORB 1
+L['love_orb_label'] = 'Orb 1 - Love'
+L['love_orb_note'] = 'Use the {item:208092} at each location involving {npc:228249} and gain 1 of 3 stacks of {spell:153715}.'
+L['love_orb_locations'] = '1. {location:Northern Barrens} in {location:Kalimdor}\n2. {location:Nagrand} in {location:Draenor}\n3. {location:Maldraxxus} in {location:The Shadowlands}'
+L['humble_monument'] = 'Humble Monument'
+L['olgra_location'] = '{note:Location changes based on the completion of {quest:35170}.}'
+
+-- ORB 2
+L['pray_orb_label'] = 'Orb 2 - Pray'
+L['pray_orb_note'] = '{note:You must be in the {location:Battle for Azeroth} phase of {location:Vale of Eternal Blossoms}.}\n\nStand next to the {npc:153297} using one of the following gifts of {npc:147393}:\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\nSummon {item:49912} using one of the following costumes:\n\n{item:229413}\n{item:116812}\n\nType {emote:/pray} and wait to receive the {item:53156}.\n\nReturn to the {location:Karazhan Catacombs} and use the key to open both doors in the room with the fountain.'
+
+-- ORB 3
+L['hate_orb_label'] = 'Orb 3 - Hate'
+
+L['astral_soup_label'] = 'Astral Soup'
+L['astral_chest_label'] = 'Astral Chest'
+L['astral_rewards_note'] = 'Go fishing in the {object:Astral Soup} to receive the {item:228965}.\n\nUse the {item:228965} to open the {object:Astral Chest} and recieve the {item:228966}.\n\nYou may now collect {item:228967} from machines around {location:Karazhan Catacombs}.'
+
+L['decryption_machine_label'] = 'Decryption Machine'
+L['decryption_console_label'] = 'Decryption Console'
+L['rubensteins_console'] = 'Rubenstein\'s Console'
+
+L['code_machine_note_1'] = 'Enter the code and open the {object:Property of Elder Ko\'nani} to recieve a {item:228967}.\n\n{object:Code}: 88224646'
+L['code_machine_note_2'] = 'Enter the code and open the {object:Encrypted Chest} to recieve a {item:228967}.\n\n{object:Code}: 10638'
+L['code_machine_note_3'] = 'Enter the code and open the {object:Encrypted Chest} to recieve a {item:228967}.\n\n{object:Code}: 5661'
+L['code_machine_note_4'] = 'Enter the code and open {object:Rubenstein\'s Safe} to recieve a {item:228967}.\n\n{object:Code}: 52233'
+L['code_machine_note_5'] = 'Enter the code and open the {object:Encrypted Chest} to recieve a {item:228967}.\n\n{object:Code}: 51567'
+L['code_machine_note_6'] = 'Enter the code and open the {object:Encrypted Chest} to recieve a {item:228967}.\n\n{object:Code}: 115'
+L['code_machine_note_7'] = 'Enter the code and open the {object:Encrypted Puzzle Box} to recieve a {item:228967}.\n\n{object:Code}: 17112317'
+L['code_machine_note_8'] = 'Enter the code and open the {object:Encrypted Chest} to recieve a {item:228967}.\n\n{object:Code}: 19019'
+
+L['slot_machine_label'] = '"Feeling Lucky?" Slot Machine'
+L['slot_machine_note_a'] = 'Collect five of the lucky items then enter the code:\n\n'
+L['slot_machine_note_b'] = '{npc:108533} in {location:Stormwind}:\n'
+L['slot_machine_note_c'] = '{npc:219197} in {location:Dornogal}:\n'
+L['slot_machine_note_d'] = '{npc:186650} in {location:Ohn\'ahran Plains}\n'
+L['slot_machine_note_e'] = '{object:Code}: 777, 77777 or 7777777'
+L['slot_machine_vendor_note'] = 'Purchase these items for the {object:"Feeling Lucky?" Slot Machine}.'

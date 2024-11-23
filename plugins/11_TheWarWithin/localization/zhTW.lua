@@ -362,3 +362,63 @@ L['11_ghostly_celebration_crate'] = nil
 
 L['water_resistant_receipt_note'] = nil
 L['mysterious_bones_note'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_ratts_revenge'] = nil
+L['options_icons_ratts_revenge_desc'] = nil
+
+-- INERT PECULIAR KEY
+L['inert_peculiar_key_note'] = nil
+
+-- PECULIAR GEM
+L['carefully_penned_note'] = nil
+L['unfinished_note'] = nil
+L['hastily_scrawled_note'] = nil
+L['water_resistant_note'] = nil
+L['peculiar_gem_note'] = nil
+
+-- KARAZHAN CATACOMBS
+L['karazhan_catacombs_label'] = nil
+L['karazhan_catacombs_entrance_note'] = nil
+
+-- ORB 1
+L['love_orb_label'] = nil
+L['love_orb_note'] = nil
+L['love_orb_locations'] = nil
+L['humble_monument'] = nil
+L['olgra_location'] = nil
+
+-- ORB 2
+L['pray_orb_label'] = nil
+L['pray_orb_note'] = nil
+
+-- ORB 3
+L['hate_orb_label'] = nil
+
+L['astral_soup_label'] = nil
+L['astral_chest_label'] = nil
+L['astral_rewards_note'] = nil
+
+L['decryption_machine_label'] = nil
+L['decryption_console_label'] = nil
+L['rubensteins_console'] = nil
+
+L['code_machine_note_1'] = nil
+L['code_machine_note_2'] = nil
+L['code_machine_note_3'] = nil
+L['code_machine_note_4'] = nil
+L['code_machine_note_5'] = nil
+L['code_machine_note_6'] = nil
+L['code_machine_note_7'] = nil
+L['code_machine_note_8'] = nil
+
+L['slot_machine_label'] = nil
+L['slot_machine_note_a'] = nil
+L['slot_machine_note_b'] = nil
+L['slot_machine_note_c'] = nil
+L['slot_machine_note_d'] = nil
+L['slot_machine_note_e'] = nil
+L['slot_machine_vendor_note'] = nil
