@@ -44,6 +44,7 @@ local valeOfEternalBlossoms = ns.maps[390] or Map({id = 390, settings = false})
 
 -- 3 O'CLOCK ORB
 local stormwind = ns.maps[84] or Map({id = 84, settings = false})
+local ohn = ns.maps[2023] or Map({id = 2023, settings = false})
 
 -- 4 O'CLOCK ORB
 local capeOfStranglethorn = ns.maps[210] or Map({id = 210, settings = false})
@@ -322,6 +323,15 @@ dornogal.nodes[62555095] = RattsRevenge({
         Item({item = 202046, bag = true}) -- Lucky Tortollan Charm
     }
 }) -- Griftah
+
+ohn.nodes[84402500] = RattsRevenge({
+    label = '{npc:186650}',
+    note = L['slot_machine_vendor_note'],
+    quest = 84786, -- hidden
+    rewards = {
+        Item({item = 198400, bag = true}) -- Lucky Horseshoe
+    }
+}) -- Farrier Roscha
 
 -------------------------------------------------------------------------------
 -------------------------------- 4 O'CLOCK ORB --------------------------------
