@@ -432,3 +432,7 @@ L['slot_machine_note_c'] = '{npc:219197} en {location:Dornogal}:\n'
 L['slot_machine_note_d'] = '{npc:186650} en {location:Llanuras de Ohn\'ahra}\n'
 L['slot_machine_note_e'] = '{object:Código}: 777, 77777 o 7777777'
 L['slot_machine_vendor_note'] = 'Compra estos objetos para {object:"¿Te sientes afortunado?" Tragaperras}.'
+
+-- ORB 4
+L['pointless_treasure_salesman_location'] = nil
+L['pointless_treasure_salesman_note'] = nil

@@ -432,3 +432,7 @@ L['slot_machine_note_c'] = '{npc:219197} in {location:Dornogal}:\n'
 L['slot_machine_note_d'] = '{npc:186650} in {location:Ohn\'ahran Plains}\n'
 L['slot_machine_note_e'] = '{object:Code}: 777, 77777 or 7777777'
 L['slot_machine_vendor_note'] = 'Purchase these items for the {object:"Feeling Lucky?" Slot Machine}.'
+
+-- ORB 4
+L['pointless_treasure_salesman_location'] = 'Hidden within the goblin statue at {location:Janeiro\'s Point}.'
+L['pointless_treasure_salesman_note'] = 'Purchase the {item:228996}:'

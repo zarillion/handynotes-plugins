@@ -45,6 +45,9 @@ local valeOfEternalBlossoms = ns.maps[390] or Map({id = 390, settings = false})
 -- 3 O'CLOCK ORB
 local stormwind = ns.maps[84] or Map({id = 84, settings = false})
 
+-- 4 O'CLOCK ORB
+local capeOfStranglethorn = ns.maps[210] or Map({id = 210, settings = false})
+
 -------------------------------------------------------------------------------
 
 local TORCH = ns.requirement.Toy(208092) -- Torch of Pyrreth
@@ -319,6 +322,26 @@ dornogal.nodes[62555095] = RattsRevenge({
         Item({item = 202046, bag = true}) -- Lucky Tortollan Charm
     }
 }) -- Griftah
+
+-------------------------------------------------------------------------------
+-------------------------------- 4 O'CLOCK ORB --------------------------------
+-------------------------------------------------------------------------------
+
+local PointlessTreasureSalesman = Class('PointlessTreasureSalesman',
+    RattsRevenge, {
+        label = '{npc:230310}',
+        location = L['pointless_treasure_salesman_location'],
+        rewards = {Item({item = 228996, bag = true})}
+    }) -- Pointless Treasure Salesman
+
+function PointlessTreasureSalesman.getters:note()
+    local note = L['pointless_treasure_salesman_note']
+    note = note .. ItemStatus(228967, 9, '{item:228967}')
+    note = note .. ItemStatus(228995, 1, '{item:228995}')
+    return note
+end
+
+capeOfStranglethorn.nodes[35566346] = PointlessTreasureSalesman()
 
 -------------------------------------------------------------------------------
 --------------------------- KARAZHAN CATACOMB ORBS ----------------------------

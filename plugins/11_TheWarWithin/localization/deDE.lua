@@ -435,3 +435,7 @@ L['slot_machine_note_c'] = nil
 L['slot_machine_note_d'] = nil
 L['slot_machine_note_e'] = nil
 L['slot_machine_vendor_note'] = nil
+
+-- ORB 4
+L['pointless_treasure_salesman_location'] = nil
+L['pointless_treasure_salesman_note'] = nil

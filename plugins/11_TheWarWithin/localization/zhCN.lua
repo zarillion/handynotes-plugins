@@ -436,3 +436,7 @@ L['slot_machine_note_c'] = '{location:多恩诺加尔} 的 {npc:219197}：\n'
 L['slot_machine_note_d'] = '{location:欧恩哈拉平原} 的 {npc:186650}\n'
 L['slot_machine_note_e'] = '{object:代码}：777、77777 或 7777777'
 L['slot_machine_vendor_note'] = '为 {object:“感觉运气不错？”老虎机} 购买这些物品。'
+
+-- ORB 4
+L['pointless_treasure_salesman_location'] = nil
+L['pointless_treasure_salesman_note'] = nil
