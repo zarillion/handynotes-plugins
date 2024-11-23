@@ -33,6 +33,7 @@ local ashenvale = ns.maps[63] or Map({id = 63, settings = false})
 local nagrand = ns.maps[107] or Map({id = 107, settings = false})
 local ahnQiraj = ns.maps[327] or Map({id = 327, settings = false})
 local stormheim = ns.maps[634] or Map({id = 634, settings = false})
+local maldraxxus = ns.maps[1536] or Map({id = 1536, settings = true})
 
 -------------------------------------------------------------------------------
 --------------------------- SECRETS OF AZEROTH NODE ---------------------------
@@ -163,6 +164,14 @@ local CELEBRATION_CRATES = {
         note = L['10_surprisingly_pristine_celebration_crate'],
         parentMapID = 619, -- Broken Isles
         quest = 84625 -- ![Surprisingly Pristine Celebration Crate]
+    },
+    [11] = {
+        coordinates = 49997381,
+        item = 229367,
+        map = maldraxxus,
+        note = L['11_ghostly_celebration_crate'],
+        parentMapID = 1550, -- Shadowlands
+        quest = 84909 -- ![Ghostly Celebration Crate]
     }
 }
 
