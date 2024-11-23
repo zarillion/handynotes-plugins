@@ -34,15 +34,15 @@ local hallowfall = ns.maps[2215] or Map({id = 2215, settings = false})
 local deadwindPass = ns.maps[42] or Map({id = 42, settings = false})
 local karazhanCatacombs = ns.maps[46] or Map({id = 46, settings = false})
 
--- 1 O'CLOCK ORB - LOVE
+-- 1 O'CLOCK ORB
 local northernBarrens = ns.maps[10] or Map({id = 10, settings = false})
 local draenorNagrand = ns.maps[550] or Map({id = 550, settings = false})
 local maldraxxus = ns.maps[1536] or Map({id = 1536, settings = false})
 
--- 2 O'CLOCK ORB - PRAY
+-- 2 O'CLOCK ORB
 local valeOfEternalBlossoms = ns.maps[390] or Map({id = 390, settings = false})
 
--- 3 O'CLOCK ORB - HATE
+-- 3 O'CLOCK ORB
 local stormwind = ns.maps[84] or Map({id = 84, settings = false})
 
 -------------------------------------------------------------------------------
@@ -130,12 +130,12 @@ deadwindPass.nodes[46766907] = RattsRevenge({
 }) -- Karazhan Catacombs
 
 -------------------------------------------------------------------------------
----------------------------- 1 O'CLOCK ORB - LOVE -----------------------------
+-------------------------------- 1 O'CLOCK ORB --------------------------------
 -------------------------------------------------------------------------------
 
 northernBarrens.nodes[55004020] = RattsRevenge({
     label = L['humble_monument'],
-    note = L['love_orb_note'],
+    note = L['orb_1_note'],
     quest = 84676, -- hidden
     requires = TORCH, -- Torch of Pyrreth
     rewards = {Buff({id = 153715, stacks = 3})} -- A Touch of Their Love
@@ -144,7 +144,7 @@ northernBarrens.nodes[55004020] = RattsRevenge({
 draenorNagrand.nodes[74203750] = RattsRevenge({
     label = '{npc:82688}',
     location = L['olgra_location'],
-    note = L['love_orb_note'],
+    note = L['orb_1_note'],
     quest = 84676, -- hidden
     requires = TORCH, -- Torch of Pyrreth
     rewards = {Buff({id = 153715, stacks = 3})} -- A Touch of Their Love
@@ -153,7 +153,7 @@ draenorNagrand.nodes[74203750] = RattsRevenge({
 draenorNagrand.nodes[49204800] = RattsRevenge({
     label = '{npc:82692}',
     location = L['olgra_location'],
-    note = L['love_orb_note'],
+    note = L['orb_1_note'],
     quest = 84676, -- hidden
     requires = TORCH, -- Torch of Pyrreth
     rewards = {Buff({id = 153715, stacks = 3})} -- A Touch of Their Love
@@ -161,25 +161,25 @@ draenorNagrand.nodes[49204800] = RattsRevenge({
 
 maldraxxus.nodes[27306130] = RattsRevenge({
     label = '{npc:175815}',
-    note = L['love_orb_note'],
+    note = L['orb_1_note'],
     quest = 84676, -- hidden
     requires = TORCH, -- Torch of Pyrreth
     rewards = {Buff({id = 153715, stacks = 3})} -- A Touch of Their Love
 }) -- Decimator Olgra
 
 -------------------------------------------------------------------------------
----------------------------- 2 O'CLOCK ORB - PRAY -----------------------------
+-------------------------------- 2 O'CLOCK ORB --------------------------------
 -------------------------------------------------------------------------------
 
 valeOfEternalBlossoms.nodes[83183011] = RattsRevenge({
     label = '{npc:153297}',
-    note = L['pray_orb_note'],
+    note = L['orb_2_note'],
     quest = 84677, -- hidden
     rewards = {Item({item = 53156, bag = true})} -- Key of Shadows
 }) -- Ny'alotha Obelisk
 
 -------------------------------------------------------------------------------
----------------------------- 3 O'CLOCK ORB - HATE -----------------------------
+-------------------------------- 3 O'CLOCK ORB --------------------------------
 -------------------------------------------------------------------------------
 
 local CODE_MACHINES = {
@@ -332,19 +332,19 @@ function Orb.getters:rlabel()
 end
 
 karazhanCatacombs.nodes[50001500] = Orb({
-    label = L['love_orb_label'],
-    note = L['love_orb_note'] .. '\n\n' .. L['love_orb_locations'],
+    label = L['orb_1_label'],
+    note = L['orb_1_note'] .. '\n\n' .. L['orb_1_locations'],
     quest = 84676 -- hidden
 }) -- Orb 1
 
 karazhanCatacombs.nodes[50001900] = Orb({
-    label = L['pray_orb_label'],
-    note = L['pray_orb_note'],
+    label = L['orb_2_label'],
+    note = L['orb_2_note'],
     quest = 84677 -- hidden
 }) -- Orb 2
 
 karazhanCatacombs.nodes[50002300] = Orb({
-    label = L['hate_orb_label'],
+    label = L['orb_3_label'],
     note = L['astral_rewards_note'],
     quest = HATE_QUESTS -- hidden
 }) -- Orb 3

@@ -395,18 +395,18 @@ L['karazhan_catacombs_label'] = 'Catacumbas de Karazhan'
 L['karazhan_catacombs_entrance_note'] = 'Coge la {item:44124} comenzando en el {location:Cráter de Un\'Goro} en {location:Kalimdor}\n\nCoge la {item:228938} comenzando en {location:Dornogal} en {location:Khaz Algar}\n\nCombina la gema y la llave para crear la {item:44124}.\n\nCon la {item:44124} en tu mochila y la {item:208092} activa, acércate a la puerta para revelar una entrada de instancia roja.'
 
 -- ORB 1
-L['love_orb_label'] = 'Orbe 1 - Amor'
-L['love_orb_note'] = 'Usa la {item:208092} en cada lugar en el que esté involucrado {npc:228249} y gana 1 de 3 acumulaciones de {spell:153715}.'
-L['love_orb_locations'] = '1. {location:Los Baldíos del Norte} en {location:Kalimdor}\n2. {location:Nagrand} en {location:Draenor}\n3. {location:Maldraxxus} en {location:Tierras Sombrías}'
+L['orb_1_label'] = 'Orbe 1'
+L['orb_1_note'] = 'Usa la {item:208092} en cada lugar en el que esté involucrado {npc:228249} y gana 1 de 3 acumulaciones de {spell:153715}.'
+L['orb_1_locations'] = '1. {location:Los Baldíos del Norte} en {location:Kalimdor}\n2. {location:Nagrand} en {location:Draenor}\n3. {location:Maldraxxus} en {location:Tierras Sombrías}'
 L['humble_monument'] = 'Monumento humilde'
 L['olgra_location'] = '{note:Hay cambios de ubicación según la finalización de la misión {quest:35170}.}'
 
 -- ORB 2
-L['pray_orb_label'] = 'Orbe 2 - Rezo'
-L['pray_orb_note'] = '{note:Tienes que estar en la fase de {location:Battle for Azeroth} del {location:Valle de la Flor Eterna}.}\n\nEspera junto a {npc:153297} usando uno de los siguientes regalos de {npc:147393}:\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\nInvoca al {item:49912} usando uno de los siguientes disfraces:\n\n{item:229413}\n{item:116812}\n\nEscribe {emote:/rezar} y espera a recibir la {item:53156}.\n\nVuelve a las {location:Catacumbas de Karazhan} y usa la llave para abrir ambas puertas en la sala con la fuente.'
+L['orb_2_label'] = 'Orbe 2'
+L['orb_2_note'] = '{note:Tienes que estar en la fase de {location:Battle for Azeroth} del {location:Valle de la Flor Eterna}.}\n\nEspera junto a {npc:153297} usando uno de los siguientes regalos de {npc:147393}:\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\nInvoca al {item:49912} usando uno de los siguientes disfraces:\n\n{item:229413}\n{item:116812}\n\nEscribe {emote:/rezar} y espera a recibir la {item:53156}.\n\nVuelve a las {location:Catacumbas de Karazhan} y usa la llave para abrir ambas puertas en la sala con la fuente.'
 
 -- ORB 3
-L['hate_orb_label'] = 'Orbe 3 - Odio'
+L['orb_3_label'] = 'Orbe 3'
 
 L['astral_soup_label'] = 'Sopa astral'
 L['astral_chest_label'] = 'Cofre astral'

@@ -395,18 +395,18 @@ L['karazhan_catacombs_label'] = 'Karazhan Catacombs'
 L['karazhan_catacombs_entrance_note'] = 'Collect the {item:44124} starting in {location:Un\'Goro Crater} in {location:Kalimdor}\n\nCollect the {item:228938} starting in {location:Dornogal} in {location:Khaz Algar}\n\nCombine the gem and the key to form the {item:44124}.\n\nWith the {item:44124} in your bag and the {item:208092} active approach the gate to reveal a red instance entrance.'
 
 -- ORB 1
-L['love_orb_label'] = 'Orb 1 - Love'
-L['love_orb_note'] = 'Use the {item:208092} at each location involving {npc:228249} and gain 1 of 3 stacks of {spell:153715}.'
-L['love_orb_locations'] = '1. {location:Northern Barrens} in {location:Kalimdor}\n2. {location:Nagrand} in {location:Draenor}\n3. {location:Maldraxxus} in {location:The Shadowlands}'
+L['orb_1_label'] = 'Orb 1'
+L['orb_1_note'] = 'Use the {item:208092} at each location involving {npc:228249} and gain 1 of 3 stacks of {spell:153715}.'
+L['orb_1_locations'] = '1. {location:Northern Barrens} in {location:Kalimdor}\n2. {location:Nagrand} in {location:Draenor}\n3. {location:Maldraxxus} in {location:The Shadowlands}'
 L['humble_monument'] = 'Humble Monument'
 L['olgra_location'] = '{note:Location changes based on the completion of {quest:35170}.}'
 
 -- ORB 2
-L['pray_orb_label'] = 'Orb 2 - Pray'
-L['pray_orb_note'] = '{note:You must be in the {location:Battle for Azeroth} phase of {location:Vale of Eternal Blossoms}.}\n\nStand next to the {npc:153297} using one of the following gifts of {npc:147393}:\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\nSummon {item:49912} using one of the following costumes:\n\n{item:229413}\n{item:116812}\n\nType {emote:/pray} and wait to receive the {item:53156}.\n\nReturn to the {location:Karazhan Catacombs} and use the key to open both doors in the room with the fountain.'
+L['orb_2_label'] = 'Orb 2'
+L['orb_2_note'] = '{note:You must be in the {location:Battle for Azeroth} phase of {location:Vale of Eternal Blossoms}.}\n\nStand next to the {npc:153297} using one of the following gifts of {npc:147393}:\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\nSummon {item:49912} using one of the following costumes:\n\n{item:229413}\n{item:116812}\n\nType {emote:/pray} and wait to receive the {item:53156}.\n\nReturn to the {location:Karazhan Catacombs} and use the key to open both doors in the room with the fountain.'
 
 -- ORB 3
-L['hate_orb_label'] = 'Orb 3 - Hate'
+L['orb_3_label'] = 'Orb 3'
 
 L['astral_soup_label'] = 'Astral Soup'
 L['astral_chest_label'] = 'Astral Chest'

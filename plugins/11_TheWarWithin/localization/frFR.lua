@@ -396,18 +396,18 @@ L['karazhan_catacombs_label'] = 'Catacombes de Karazhan'
 L['karazhan_catacombs_entrance_note'] = 'Récupérez la {item:44124} en partant du {location:Cratère d\'Un\'Goro} en {location:Kalimdor}\n\nRécupérez la {item:228938} en partant de {location:Dornogal} en {location:Khaz Algar}\n\nCombinez la gemme et la clé pour obtenir la {item:44124}.\n\nUne fois la {item:44124} dans vos sacs et la {item:208092} active, approchez de la porte pour révéler une entrée d\'instance rouge.'
 
 -- ORB 1
-L['love_orb_label'] = 'Orbe 1 - Amour'
-L['love_orb_note'] = 'Utilisez la {item:208092} à chaque endroit lié à {npc:228249} pour obtenir 1 des 3 charges du buff {spell:153715}.'
-L['love_orb_locations'] = '1. {location:Tarides du Nord} en {location:Kalimdor}\n2. {location:Nagrand} en {location:Draenor}\n3. {location:Maldraxxus} en {location:Ombreterre}'
+L['orb_1_label'] = 'Orbe 1'
+L['orb_1_note'] = 'Utilisez la {item:208092} à chaque endroit lié à {npc:228249} pour obtenir 1 des 3 charges du buff {spell:153715}.'
+L['orb_1_locations'] = '1. {location:Tarides du Nord} en {location:Kalimdor}\n2. {location:Nagrand} en {location:Draenor}\n3. {location:Maldraxxus} en {location:Ombreterre}'
 L['humble_monument'] = 'Humble monument'
 L['olgra_location'] = '{note:L\'emplacement change en fonction de la réalisation de la quête {quest:35170}.}'
 
 -- ORB 2
-L['pray_orb_label'] = 'Orbe 2 - Prière'
-L['pray_orb_note'] = '{note:Vous devez être dans la version du {location:Val de l’Éternel printemps} lié à l\'extension {location:Battle for Azeroth}.}\n\nPlacez-vous à côté du {npc:153297} en utilisant l\'un des dons de {npc:147393} suivants :\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\nInvoquez {item:49912} et utilisez l\'un des costumes suivants :\n\n{item:229413}\n{item:116812}\n\nTapez {emote:/prier} et attendez de recevoir la {item:53156}.\n\nRetournez aux {location:Catacombes de Karazhan} et utilisez la clé pour ouvrir les deux portes dans la pièce avec la fontaine.'
+L['orb_2_label'] = 'Orbe 2'
+L['orb_2_note'] = '{note:Vous devez être dans la version du {location:Val de l’Éternel printemps} lié à l\'extension {location:Battle for Azeroth}.}\n\nPlacez-vous à côté du {npc:153297} en utilisant l\'un des dons de {npc:147393} suivants :\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\nInvoquez {item:49912} et utilisez l\'un des costumes suivants :\n\n{item:229413}\n{item:116812}\n\nTapez {emote:/prier} et attendez de recevoir la {item:53156}.\n\nRetournez aux {location:Catacombes de Karazhan} et utilisez la clé pour ouvrir les deux portes dans la pièce avec la fontaine.'
 
 -- ORB 3
-L['hate_orb_label'] = 'Orbe 3 - Haine'
+L['orb_3_label'] = 'Orbe 3'
 
 L['astral_soup_label'] = 'Soupe astrale'
 L['astral_chest_label'] = 'Coffre astral'

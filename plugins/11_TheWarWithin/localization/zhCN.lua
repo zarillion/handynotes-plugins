@@ -395,18 +395,22 @@ L['karazhan_catacombs_label'] = '卡拉赞墓穴'
 L['karazhan_catacombs_entrance_note'] = '从 {location:卡利姆多} 的 {location:安格洛环形山} 开始收集 {item:44124}\n\n从 {location:卡兹阿加} 的 {location:多恩诺加尔} 开始收集 {item:228938}\n\n将宝石和钥匙组合成 {item:44124}。\n\n将 {item:44124} 放入包中并激活 {item:208092}，接近大门即可看到一个红色的副本入口。'
 
 -- ORB 1
-L['love_orb_label'] = '1号球 - 爱'
-L['love_orb_note'] = '在每个涉及 {npc:228249} 的位置使用 {item:208092}，获得3层 {spell:153715} 中的1层。'
-L['love_orb_locations'] = '1. {location:卡利姆多} 的 {location:北贫瘠之地}\n2. {location:德拉诺} 的 {location:纳格兰}\n3. {location:暗影界} 的 {location:玛卓克萨斯}'
+L['orb_1_label'] = '1号球'
+L['orb_1_note'] = '在每个涉及 {npc:228249} 的位置使用 {item:208092}，获得3层 {spell:153715} 中的1层。'
+L['orb_1_locations'] = '1. {location:卡利姆多} 的 {location:北贫瘠之地}\n2. {location:德拉诺} 的 {location:纳格兰}\n3. {location:暗影界} 的 {location:玛卓克萨斯}'
 L['humble_monument'] = '不起眼的纪念碑'
 L['olgra_location'] = '{note:位置根据 {quest:35170} 的完成情况而改变。}'
 
 -- ORB 2
-L['pray_orb_label'] = '2号球 - 祈祷'
+L['pray_orb_label'] = '2号球'
 L['pray_orb_note'] = '{note:必须位于 {location:争霸艾泽拉斯} 的 {location:锦绣谷} 阶段。}\n\n站在 {npc:153297} 旁边，按顺序使用 {npc:147393} 的以下礼物：\n\n{item:168123}\n{item:175140}\n{spell:285061}\n\n按顺序使用以下服饰召唤 {item:49912}：\n\n{item:229413}\n{item:116812}\n\n输入 {emote:/pray}、{emote:/pray} 表情并等待得到 {item:53156}。\n\n返回 {location:卡拉赞墓穴} 并使用钥匙打开带有喷泉的房间的两扇门。'
 
 -- ORB 3
-L['hate_orb_label'] = '3号球 - 憎恨'
+L['hate_2_label'] = '3号球'
+L['orb_2_note'] = nil
+
+-- ORB 3
+L['orb_3_label'] = nil
 
 L['astral_soup_label'] = '星界暖汤'
 L['astral_chest_label'] = '星界宝箱'

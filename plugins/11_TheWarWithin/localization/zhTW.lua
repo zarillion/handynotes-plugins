@@ -385,18 +385,18 @@ L['karazhan_catacombs_label'] = nil
 L['karazhan_catacombs_entrance_note'] = nil
 
 -- ORB 1
-L['love_orb_label'] = nil
-L['love_orb_note'] = nil
-L['love_orb_locations'] = nil
+L['orb_1_label'] = nil
+L['orb_1_note'] = nil
+L['orb_1_locations'] = nil
 L['humble_monument'] = nil
 L['olgra_location'] = nil
 
 -- ORB 2
-L['pray_orb_label'] = nil
-L['pray_orb_note'] = nil
+L['orb_2_label'] = nil
+L['orb_2_note'] = nil
 
 -- ORB 3
-L['hate_orb_label'] = nil
+L['orb_3_label'] = nil
 
 L['astral_soup_label'] = nil
 L['astral_chest_label'] = nil
