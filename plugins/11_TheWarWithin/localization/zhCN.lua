@@ -381,7 +381,7 @@ L['options_icons_ratts_revenge'] = '{achievement:40967}'
 L['options_icons_ratts_revenge_desc'] = '显示 {achievement:40967} 成就中秘密的位置。'
 
 -- INERT PECULIAR KEY
-L['inert_peculiar_key_note'] = '藏在板条箱后面巨大的中空树干里。\n\n{note:下一个位置：}\n如果 {bug:*没有*} {item:228938}，请前往 {location:卡兹阿加} 的 {location:多恩诺加尔}。\n\n如果 |cFF00FF00*有*|r {item:228938}，请前往 {location:东部王国} 的 {location:逆风小径}。'
+L['inert_peculiar_key_note'] = '藏在巨大的中空树干里板条箱后面。\n\n{note:下一个位置：}\n如果 {bug:*没有*} {item:228938}，请前往 {location:卡兹阿加} 的 {location:多恩诺加尔}。\n\n如果 |cFF00FF00*有*|r {item:228938}，请前往 {location:东部王国} 的 {location:逆风小径}。'
 
 -- PECULIAR GEM
 L['carefully_penned_note'] = '佩戴 {title:侦探} 头衔与 {npc:230042} 交谈以接受 {quest:84684}。\n\n{note:下一个位置：}{location:艾基-卡赫特}'
@@ -403,14 +403,14 @@ L['olgra_location'] = '{note:位置根据 {quest:35170} 的完成情况而改变
 
 -- ORB 2
 L['orb_2_label'] = '2号球'
-L['orb_2_note'] = '{note:必须位于 {location:争霸艾泽拉斯} 的 {location:锦绣谷} 阶段。}\n\n站在 {npc:153297} 旁边，使用 {npc:147393} 的以下礼物任意一个：\n\n{item:168123}\n{item:175140}\n{item:168004}\n\n使用以下服装任意一个召唤 {item:49912}：\n\n{item:229413}\n{item:116812}\n\n输入 {emote:/祈祷}、{emote:/pray} 表情并等待得到 {item:53156}。\n\n返回 {location:卡拉赞墓穴} 并使用钥匙打开带有喷泉的房间的两扇门。'
+L['orb_2_note'] = '{note:必须位于 {location:争霸艾泽拉斯} 的 {location:锦绣谷} 阶段。}\n\n站在 {npc:153297} 旁边，使用 {npc:147393} 的以下礼物任意一个：\n\n{item:168123}\n{item:175140}\n{item:168004}\n\n召唤 {item:49912} 并使用以下服装任意一个：\n\n{item:229413}\n{item:116812}\n\n输入 {emote:/祈祷}、{emote:/pray} 表情并等待得到 {item:53156}。\n\n返回 {location:卡拉赞墓穴} 并使用钥匙打开带有喷泉的房间的两扇门。'
 
 -- ORB 3
 L['orb_3_label'] = '3号球'
 
 L['astral_soup_label'] = '星界暖汤'
 L['astral_chest_label'] = '星界宝箱'
-L['astral_rewards_note'] = '去 {object:星界暖汤} 钓鱼以获得 {item:228965}。\n\n使用 {item:228965} 打开 {object:星界宝箱} 并获得 {item:228966}。\n\n现在可以从 {location:卡拉赞墓穴} 周围的机器收集 {item:228967}。'
+L['astral_rewards_note'] = '在 {object:星界暖汤} 钓鱼获得 {item:228965}。\n\n使用 {item:228965} 打开 {object:星界宝箱} 并获得 {item:228966}。\n\n现在可以从 {location:卡拉赞墓穴} 周围的机器收集 {item:228967}。'
 
 L['decryption_machine_label'] = '解码机器'
 L['decryption_console_label'] = '解码控制台'
@@ -434,5 +434,5 @@ L['slot_machine_note_e'] = '{object:代码}：777、77777 或 7777777'
 L['slot_machine_vendor_note'] = '为 {object:“试试手气！”游戏机} 购买这些物品。'
 
 -- ORB 4
-L['pointless_treasure_salesman_location'] = '隐藏于 {location:加尼罗哨站} 的哥布林雕像内。'
+L['pointless_treasure_salesman_location'] = '隐藏在 {location:加尼罗哨站} 的地精雕像内。'
 L['pointless_treasure_salesman_note'] = '购买 {item:228996}：'
