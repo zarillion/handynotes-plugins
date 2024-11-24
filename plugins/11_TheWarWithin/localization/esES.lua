@@ -381,7 +381,7 @@ L['options_icons_ratts_revenge'] = '{achievement:40967}'
 L['options_icons_ratts_revenge_desc'] = 'Muestra los lugares secretos para el logro {achievement:40967}.'
 
 -- INERT PECULIAR KEY
-L['inert_peculiar_key_note'] = 'Escondida dentro del tronco de un gran árbol sagrado detrás de la caja.\n\n{note:Siguiente lugar:}\nSi {bug:no tienes} la {item:228938} ves a {location:Dornogal} en {location:Khaz Algar}.\n\nSi |cFF00FF00tienes|r la {item:228938} ves al {location:Paso de la Muerte} en los {location:Reinos del Este}.'
+L['inert_peculiar_key_note'] = 'Escondida dentro del tronco de un gran árbol hueco detrás de la caja.\n\n{note:Siguiente lugar:}\nSi {bug:no tienes} la {item:228938} ves a {location:Dornogal} en {location:Khaz Algar}.\n\nSi |cFF00FF00tienes|r la {item:228938} ves al {location:Paso de la Muerte} en los {location:Reinos del Este}.'
 
 -- PECULIAR GEM
 L['carefully_penned_note'] = 'Habla con un {npc:230042} mientras llevas el título {title:Detective} para recibir la misión {quest:84684}.\n\n{note:Siguiente lugar:} {location:Azj-Kahet}'
