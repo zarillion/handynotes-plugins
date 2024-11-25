@@ -434,15 +434,15 @@ L['slot_machine_note_e'] = '{object:Código}: 777, 77777 o 7777777'
 L['slot_machine_vendor_note'] = 'Compra estos objetos para {object:"¿Te sientes afortunado?" Tragaperras}.'
 
 -- ORB 4
-L['orb_4_label'] = nil
-L['vashti_note'] = nil
-L['uthers_tomb_label'] = nil
-L['uthers_tomb_note'] = nil
+L['orb_4_label'] = 'Orbe 4'
+L['vashti_note'] = 'Compra un {item:228987} a {npc:91079} por %s.'
+L['uthers_tomb_label'] = 'Tumba de Uther'
+L['uthers_tomb_note'] = 'Invoca un {npc:231482} en la {location:Tumba de Uther} en las {location:Tierras de la Peste del Oeste}.\n\nUsa un {item:228987} vendido por {npc:91079} en {location:Azsuna} o si tienes un brujo usa {spell:342601}.\n\nUna vez mueras y resucites, lee el graffiti escondido.\n\n{note:El graffiti permanecerá mientras el {npc:231482} siga vivo, ¡así que no lo mates!}'
 
 -- ORB 5
-L['orb_5_label'] = nil
-L['jeremy_feasel_note'] = nil
-L['zarhym_note'] = nil
+L['orb_5_label'] = 'Orbe 5'
+L['jeremy_feasel_note'] = '{npc:232048} está escondido en la {location:Caverna de los Espíritus Perdidos} de la {location:Isla Intemporal}.\n\nDerrota a {npc:232048} en una batalla de mascotas usando sólo mascotas de secretos pasados.%s\n\nUna vez le ganes, completa la misión {quest:84781} para recibir {item:228995}.\n\nAhora puedes visitar {npc:230310} en {location:Bahía del Botín}.'
+L['zarhym_note'] = 'Habla con {npc:71876} dentro de la cueva para entrar en el reino espiritual.'
 L['pointless_treasure_salesman_location'] = 'Escondido dentro de la estatua del duende en {location:Cayo de Janeiro}.'
 L['pointless_treasure_salesman_note'] = 'Compra la {item:228996}:'
 
