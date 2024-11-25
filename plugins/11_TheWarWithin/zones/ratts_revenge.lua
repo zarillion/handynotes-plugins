@@ -387,18 +387,18 @@ local JeremyFeasel = Class('JeremyFeasel', RattsRevenge, {
 function JeremyFeasel.getters:note()
     local note = '\n\n'
     -- LuaFormatter off
-    note = note .. PetStatus(2352, 'x', '{npc:141941}') .. '\n' -- Baa'l
-    note = note .. PetStatus(2442, 'x', '{npc:143730}') .. '\n' -- Bumbles
-    note = note .. PetStatus(2888, 'x', '{npc:169514}') .. '\n' -- Glimr
-    note = note .. PetStatus(3107, 'x', '{npc:179140}') .. '\n' -- Gurgl
-    note = note .. PetStatus(2795, 'x', '{npc:159783}') .. '\n' -- Jenafur
-    note = note .. PetStatus(3553, 'x', '{npc:204367}') .. '\n' -- Nelthara
-    note = note .. PetStatus(3359, 'x', '{npc:192343}') .. '\n' -- Snowclaw Cub
-    note = note .. PetStatus(3342, 'x', '{npc:191381}') .. '\n' -- Spyragos
-    note = note .. PetStatus(382,  'x', '{npc:61087}' ) .. '\n' -- Sun Darter Hatchling
-    note = note .. PetStatus(2198, 'x', '{npc:139770}') .. '\n' -- Taptaf
-    note = note .. PetStatus(1073, 'x', '{npc:16445}' ) .. '\n' -- Terky
-    note = note .. PetStatus(2411, 'x', '{npc:143189}')         -- Wicker Pup
+    note = note .. PetStatus(2352, 'x', '{pet:2352}') .. '\n' -- Baa'l
+    note = note .. PetStatus(2442, 'x', '{pet:2442}') .. '\n' -- Bumbles
+    note = note .. PetStatus(2888, 'x', '{pet:2888}') .. '\n' -- Glimr
+    note = note .. PetStatus(3107, 'x', '{pet:3107}') .. '\n' -- Gurgl
+    note = note .. PetStatus(2795, 'x', '{pet:2795}') .. '\n' -- Jenafur
+    note = note .. PetStatus(3553, 'x', '{pet:3553}') .. '\n' -- Nelthara
+    note = note .. PetStatus(3359, 'x', '{pet:3359}') .. '\n' -- Snowclaw Cub
+    note = note .. PetStatus(3342, 'x', '{pet:3342}') .. '\n' -- Spyragos
+    note = note .. PetStatus(382,  'x', '{pet:382}' ) .. '\n' -- Sun Darter Hatchling
+    note = note .. PetStatus(2198, 'x', '{pet:2198}') .. '\n' -- Taptaf
+    note = note .. PetStatus(1073, 'x', '{pet:1073}') .. '\n' -- Terky
+    note = note .. PetStatus(2411, 'x', '{pet:2411}')         -- Wicker Pup
     -- LuaFormatter on
     return format(L['jeremy_feasel_note'], note)
 end
