@@ -104,7 +104,7 @@ L['toy'] = 'Jouet'
 L['currency'] = 'Monnaie'
 L['rep'] = 'Rep'
 L['buff'] = 'Amélioration'
-L['transmog'] = nil
+L['transmog'] = 'Transmogrification'
 
 ---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = 'Sujet'
