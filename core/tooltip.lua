@@ -21,6 +21,17 @@ local function ItemStatus(itemID, numNeed, note, spacer)
     return txt
 end
 
+local function PetStatus(petID, identifier, note)
+    local txt = ''
+    if select(1, C_PetJournal.GetNumCollectedInfo(petID)) > 0 then
+        txt = txt .. ns.status.Green(identifier)
+    else
+        txt = txt .. ns.status.Red(identifier)
+    end
+    if note then txt = txt .. ' ' .. note end
+    return txt
+end
+
 local function QuestStatus(questID, identifier, note, spacer)
     local txt = '\n'
     if C_QuestLog.IsQuestFlaggedCompleted(questID) then
@@ -66,6 +77,7 @@ end
 
 ns.tooltip = {
     ItemStatus = ItemStatus,
+    PetStatus = PetStatus,
     QuestStatus = QuestStatus,
     ReputationGain = ReputationGain,
     RenderPinTooltip = RenderPinTooltip
