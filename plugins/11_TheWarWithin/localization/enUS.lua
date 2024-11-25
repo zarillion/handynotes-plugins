@@ -434,5 +434,14 @@ L['slot_machine_note_e'] = '{object:Code}: 777, 77777 or 7777777'
 L['slot_machine_vendor_note'] = 'Purchase these items for the {object:"Feeling Lucky?" Slot Machine}.'
 
 -- ORB 4
+L['orb_4_label'] = 'Orb 4'
+L['vashti_note'] = 'Purchase {item:228987} from {npc:91079} for %s.'
+L['uthers_tomb_label'] = 'Uther\'s Tomb'
+L['uthers_tomb_note'] = 'Summon a {npc:231482} to {location:Uther\'s Tomb} in the {location:Western Plaguelands}.\n\nUse a {item:228987} sold by {npc:91079} in {location:Azsuna} or have a Warlock use {spell:342601}.\n\nOnce you die and resurrect, read the hidden graffiti.\n\n{note:The graffiti will remain as long as the {npc:231482} stays alive, so do not kill it!}'
+
+-- ORB 5
+L['orb_5_label'] = 'Orb 5'
+L['jeremy_feasel_note'] = '{npc:232048} is hidden in the {location:Cave of Lost Spirits} in the {location:Timeless Isles}.\n\nDefeat {npc:232048} in a pet battle using only battle pets from past secrets.%s\n\nOnce you win, complete {quest:84781} to receive the {item:228995}.\n\nYou can now visit the {npc:230310} in {location:Booty Bay}.'
+L['zarhym_note'] = 'Speak with {npc:71876} within the cave to enter the spirit realm.'
 L['pointless_treasure_salesman_location'] = 'Hidden within the goblin statue at {location:Janeiro\'s Point}.'
 L['pointless_treasure_salesman_note'] = 'Purchase the {item:228996}:'

@@ -435,5 +435,14 @@ L['slot_machine_note_e'] = '{object:Code}: 777, 77777 ou 7777777'
 L['slot_machine_vendor_note'] = 'Achetez ces objets pour la {object:Machine à sous « en veine ? »}.'
 
 -- ORB 4
+L['orb_4_label'] = nil
+L['vashti_note'] = nil
+L['uthers_tomb_label'] = nil
+L['uthers_tomb_note'] = nil
+
+-- ORB 5
+L['orb_5_label'] = nil
+L['jeremy_feasel_note'] = nil
+L['zarhym_note'] = nil
 L['pointless_treasure_salesman_location'] = 'Caché dans la statue gobeline au {location:Cap Janeiro}.'
 L['pointless_treasure_salesman_note'] = 'Achetez la {item:228996} :'

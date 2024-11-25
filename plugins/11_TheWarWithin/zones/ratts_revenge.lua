@@ -51,6 +51,11 @@ local stormwind = ns.maps[84] or Map({id = 84, settings = false})
 local ohn = ns.maps[2023] or Map({id = 2023, settings = false})
 
 -- 4 O'CLOCK ORB
+local azsuna = ns.maps[630] or Map({id = 630, settings = false})
+local westernPlaguelands = ns.maps[22] or Map({id = 22, settings = false})
+
+-- 5 O'CLOCK ORB
+local timelessIsle = ns.maps[555] or Map({id = 555, settings = false})
 local capeOfStranglethorn = ns.maps[210] or Map({id = 210, settings = false})
 
 -------------------------------------------------------------------------------
@@ -341,10 +346,59 @@ ohn.nodes[84402500] = RattsRevenge({
 -------------------------------- 4 O'CLOCK ORB --------------------------------
 -------------------------------------------------------------------------------
 
+azsuna.nodes[65604880] = RattsRevenge({
+    label = '{npc:91079}',
+    note = format(L['vashti_note'], C_CurrencyInfo.GetCoinTextureString(50000)),
+    pois = {
+        POI({66002220}), -- Ending
+        Path({
+            66002220, 65402340, 65202380, 64402620, 63602780, 63402880,
+            63202980, 63403120, 63403320, 64203500, 65203640, 65603680,
+            66203940, 66404040, 66604300, 66604500, 66404660, 65804820, 65604880
+        })
+    },
+    quest = 84780, -- hidden
+    rewards = {Item({item = 228987, bag = true})} -- Scroll of Fel Binding
+}) -- Vashti the Wandering Merchant
+
+westernPlaguelands.nodes[52048304] = RattsRevenge({
+    label = L['uthers_tomb_label'],
+    note = L['uthers_tomb_note'],
+    quest = 84780 -- hidden
+}) -- Uther's Tomb
+
+-------------------------------------------------------------------------------
+-------------------------------- 5 O'CLOCK ORB --------------------------------
+-------------------------------------------------------------------------------
+
+local JeremyFeasel = Class('JeremyFeasel', RattsRevenge, {
+    label = '{npc:232048}',
+    location = L['zarhym_note'],
+    parent = 554, -- Timeless Isle
+    pois = {Entrance({43074129})},
+    quest = nil, -- hidden
+    rewards = {Item({item = 228995, quest = 84781})} -- Golden Muffin
+}) -- Jeremy Feasel
+
+function JeremyFeasel.getters:note()
+    local petList = ''
+    return format(L['jeremy_feasel_note'], petList)
+end
+
+timelessIsle.nodes[39673916] = JeremyFeasel()
+
+timelessIsle.nodes[53575687] = RattsRevenge({
+    label = '{npc:71876}',
+    note = L['zarhym_note'],
+    parent = 554, -- Timeless Isle
+    quest = nil -- hidden
+}) -- Zarhym
+
 local PointlessTreasureSalesman = Class('PointlessTreasureSalesman',
     RattsRevenge, {
         label = '{npc:230310}',
         location = L['pointless_treasure_salesman_location'],
+        quest = nil, -- hidden
         rewards = {Item({item = 228996, bag = true})}
     }) -- Pointless Treasure Salesman
 

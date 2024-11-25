@@ -424,5 +424,14 @@ L['slot_machine_note_e'] = nil
 L['slot_machine_vendor_note'] = nil
 
 -- ORB 4
+L['orb_4_label'] = nil
+L['vashti_note'] = nil
+L['uthers_tomb_label'] = nil
+L['uthers_tomb_note'] = nil
+
+-- ORB 5
+L['orb_5_label'] = nil
+L['jeremy_feasel_note'] = nil
+L['zarhym_note'] = nil
 L['pointless_treasure_salesman_location'] = nil
 L['pointless_treasure_salesman_note'] = nil
