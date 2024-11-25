@@ -448,6 +448,7 @@ L['pointless_treasure_salesman_location'] = 'Caché dans la statue gobeline au {
 L['pointless_treasure_salesman_note'] = 'Achetez la {item:228996} :'
 
 -- ORB 6
+L['orb_6_label'] = nil
 L['blood_altar_label'] = nil
 L['corrupt_altar_label'] = nil
 L['lust_altar_label'] = nil

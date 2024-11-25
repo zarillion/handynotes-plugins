@@ -416,7 +416,6 @@ local PointlessTreasureSalesman = Class('PointlessTreasureSalesman',
     RattsRevenge, {
         label = '{npc:230310}',
         location = L['pointless_treasure_salesman_location'],
-        quest = 84781, -- ![Master of Secrets]
         rewards = {Item({item = 228996, bag = true})}
     }) -- Pointless Treasure Salesman
 
@@ -438,7 +437,7 @@ northernStranglethorn.nodes[77084631] = RattsRevenge({
     label = L['blood_altar_label'],
     note = L['altar_note'] .. '\n\n' ..
         format(L['blood_altar_note'], L['mount'], L['pet'], L['toy']),
-    quest = nil, -- hidden
+    quest = 64809, -- hidden
     requires = TORCH -- Torch of Pyrreth
 }) -- Blood Altar
 
@@ -457,7 +456,7 @@ northernStranglethorn.nodes[77054488] = RattsRevenge({
     label = L['lust_altar_label'],
     note = L['altar_note'] .. '\n\n' ..
         format(L['lust_altar_note'], L['pet'], L['toy'], L['transmog']),
-    quest = nil, -- hidden
+    quest = 84808, -- hidden
     requires = TORCH -- Torch of Pyrreth
 }) -- Lust Altar
 
@@ -475,14 +474,14 @@ northernStranglethorn.nodes[78144631] = RattsRevenge({
     label = L['void_altar_label'],
     note = L['altar_note'] .. '\n\n' ..
         format(L['void_altar_note'], L['pet'], L['toy'], L['transmog']),
-    quest = nil, -- hidden
+    quest = 84810, -- hidden
     requires = TORCH -- Torch of Pyrreth
 }) -- Void Altar
 
 northernStranglethorn.nodes[78104770] = RattsRevenge({
     label = L['chest_of_acquisitions_label'],
     note = L['chest_of_acquisitions_note'],
-    quest = nil, -- hidden
+    quest = 84811, -- hidden
     requires = ns.requirement.Spell(463749), -- Starry-Eyed Goggles
     rewards = {Item({item = 229007, bag = true})} -- Ancient Shaman Blood
 }) -- Chest of Acquisitions
@@ -552,7 +551,7 @@ local ORBS = {
     [1] = {
         label = L['orb_6_label'],
         note = L['chest_of_acquisitions_note'],
-        quest = 99999 -- hiden
+        quest = 84811 -- hidden
     }
 }
 

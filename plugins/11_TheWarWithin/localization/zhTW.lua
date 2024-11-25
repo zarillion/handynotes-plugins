@@ -447,6 +447,7 @@ L['pointless_treasure_salesman_location'] = nil
 L['pointless_treasure_salesman_note'] = nil
 
 -- ORB 6
+L['orb_6_label'] = nil
 L['blood_altar_label'] = nil
 L['corrupt_altar_label'] = nil
 L['lust_altar_label'] = nil

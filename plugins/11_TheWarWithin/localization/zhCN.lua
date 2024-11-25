@@ -447,6 +447,7 @@ L['pointless_treasure_salesman_location'] = '隐藏在 {location:加尼罗哨站
 L['pointless_treasure_salesman_note'] = '购买 {item:228996}：'
 
 -- ORB 6
+L['orb_6_label'] = nil
 L['blood_altar_label'] = nil
 L['corrupt_altar_label'] = nil
 L['lust_altar_label'] = nil

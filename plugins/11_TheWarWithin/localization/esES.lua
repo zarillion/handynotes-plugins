@@ -447,6 +447,7 @@ L['pointless_treasure_salesman_location'] = 'Escondido dentro de la estatua del 
 L['pointless_treasure_salesman_note'] = 'Compra la {item:228996}:'
 
 -- ORB 6
+L['orb_6_label'] = nil
 L['blood_altar_label'] = 'Altar de Sangre'
 L['corrupt_altar_label'] = 'Altar de la Corrupción'
 L['lust_altar_label'] = 'Altar de la Lujuria'
