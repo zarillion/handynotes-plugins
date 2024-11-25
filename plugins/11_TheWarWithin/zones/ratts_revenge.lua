@@ -376,7 +376,7 @@ local JeremyFeasel = Class('JeremyFeasel', RattsRevenge, {
     location = L['zarhym_note'],
     parent = 554, -- Timeless Isle
     pois = {Entrance({43074129})},
-    quest = nil, -- hidden
+    quest = quest = 84781 -- ![Master of Secrets]
     rewards = {Item({item = 228995, quest = 84781})} -- Golden Muffin
 }) -- Jeremy Feasel
 
@@ -391,14 +391,14 @@ timelessIsle.nodes[53575687] = RattsRevenge({
     label = '{npc:71876}',
     note = L['zarhym_note'],
     parent = 554, -- Timeless Isle
-    quest = nil -- hidden
+    quest = quest = 84781 -- ![Master of Secrets]
 }) -- Zarhym
 
 local PointlessTreasureSalesman = Class('PointlessTreasureSalesman',
     RattsRevenge, {
         label = '{npc:230310}',
         location = L['pointless_treasure_salesman_location'],
-        quest = nil, -- hidden
+        quest = quest = 84781 -- ![Master of Secrets]
         rewards = {Item({item = 228996, bag = true})}
     }) -- Pointless Treasure Salesman
 
@@ -471,7 +471,7 @@ local ORBS = {
     [2] = {
         label = L['orb_5_label'],
         note = format(L['jeremy_feasel_note'], ''),
-        quest = 99999 -- hidden
+        quest = 84781 -- ![Master of Secrets]
     }
 }
 
