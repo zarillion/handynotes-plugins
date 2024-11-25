@@ -155,6 +155,10 @@ local function RenderLinks(str, nameOnly)
             local name = C_Map.GetAreaInfo(id)
             if nameOnly then return name end
             return ns.color.Yellow(name)
+        elseif type == 'pet' then
+            local name, icon = C_PetJournal.GetPetInfoBySpeciesID(id)
+            return ns.GetIconLink(icon, 12) ..
+                       ns.color.Green(' [' .. name .. ']')
         end
         return type .. '+' .. id
     end)
