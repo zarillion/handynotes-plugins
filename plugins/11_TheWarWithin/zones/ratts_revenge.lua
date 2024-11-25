@@ -423,47 +423,62 @@ local function getPoiCoordinates()
     return Circle({origin = 68552465, radius = 2.25, segments = 12})
 end
 
-local OrbNode = Class('OrbNode', RattsRevenge, {icon = 'peg_yw'})
+local OrbNode = Class('OrbNode', RattsRevenge)
 
 function OrbNode.getters:rlabel()
-    local function isCompleted()
-        if not self.quest then return false end
-        for i, quest in ipairs(self.quest) do
-            if not C_QuestLog.IsQuestFlaggedCompleted(quest) then
-                return false
-            end
+    if not self.quest then return Red(L['incomplete']) end
+    for i, quest in ipairs(self.quest) do
+        if not C_QuestLog.IsQuestFlaggedCompleted(quest) then
+            return Red(L['incomplete'])
         end
-        return true
     end
+    return Green(L['completed'])
+end
 
-    return isCompleted() and Green(L['completed']) or Red(L['incomplete'])
+function OrbNode.getters:icon()
+    if not self.quest then return 'peg_rd' end
+    for i, quest in ipairs(self.quest) do
+        if not C_QuestLog.IsQuestFlaggedCompleted(quest) then
+            return 'peg_rd'
+        end
+    end
+    return 'peg_gn'
 end
 
 function OrbNode:IsCompleted() return false end
 
 local ORBS = {
-    [1] = {
+    [6] = {
         label = L['orb_1_label'],
         note = L['orb_1_note'] .. '\n\n' .. L['orb_1_locations'],
         quest = 84676 -- hidden
     },
-    [2] = {
+    [5] = {
         label = L['orb_2_label'],
         note = L['orb_2_note'],
         quest = 84677 -- hidden
     },
-    [3] = {
+    [4] = {
         label = L['orb_3_label'],
         note = L['astral_rewards_note'],
         quest = HATE_QUESTS -- hidden
+    },
+    [3] = {
+        label = L['orb_4_label'],
+        note = L['uthers_tomb_note'],
+        quest = 84780 -- hidden
+    },
+    [2] = {
+        label = L['orb_5_label'],
+        note = format(L['jeremy_feasel_note'], ''),
+        quest = 99999 -- hidden
     }
 }
 
 for i = 1, 12 do
     local orb = ORBS[i]
-    local index = ((i + 2) % 12) + 1
-    local coordinates = select(index, getOrbCoordinates())
-    local poi = select(index, getPoiCoordinates())
+    local coordinates = select(i, getOrbCoordinates())
+    local poi = select(i, getPoiCoordinates())
     if orb then
         karazhanCatacombs.nodes[coordinates] = OrbNode({
             label = orb.label,
