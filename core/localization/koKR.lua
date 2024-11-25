@@ -104,6 +104,7 @@ L['toy'] = '장난감'
 L['currency'] = nil
 L['rep'] = '평판'
 L['buff'] = nil
+L['transmog'] = nil
 
 ---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = '추종자'
