@@ -17,6 +17,10 @@ local Gray = ns.status.Gray
 local Green = ns.status.Green
 local Red = ns.status.Red
 
+local Circle = ns.poi.Circle
+local Path = ns.poi.Path
+local POI = ns.poi.POI
+
 local ItemStatus = ns.tooltip.ItemStatus
 
 -------------------------------------------------------------------------------
@@ -357,27 +361,67 @@ capeOfStranglethorn.nodes[35566346] = PointlessTreasureSalesman()
 --------------------------- KARAZHAN CATACOMB ORBS ----------------------------
 -------------------------------------------------------------------------------
 
-local Orb = Class('Orb', RattsRevenge, {icon = 'peg_yw'})
-
-function Orb.getters:rlabel()
-    local completed = C_QuestLog.IsQuestFlaggedCompleted(self.quest[1])
-    return completed and Green(L['completed']) or Red(L['incomplete'])
+local function getOrbCoordinates()
+    return Circle({origin = 85002465, radius = 5, segments = 12})
 end
 
-karazhanCatacombs.nodes[50001500] = Orb({
-    label = L['orb_1_label'],
-    note = L['orb_1_note'] .. '\n\n' .. L['orb_1_locations'],
-    quest = 84676 -- hidden
-}) -- Orb 1
+local function getPoiCoordinates()
+    return Circle({origin = 68552465, radius = 2.25, segments = 12})
+end
 
-karazhanCatacombs.nodes[50001900] = Orb({
-    label = L['orb_2_label'],
-    note = L['orb_2_note'],
-    quest = 84677 -- hidden
-}) -- Orb 2
+local OrbNode = Class('OrbNode', RattsRevenge, {icon = 'peg_yw'})
 
-karazhanCatacombs.nodes[50002300] = Orb({
-    label = L['orb_3_label'],
-    note = L['astral_rewards_note'],
-    quest = HATE_QUESTS -- hidden
-}) -- Orb 3
+function OrbNode.getters:rlabel()
+    local function isCompleted()
+        if not self.quest then return false end
+        for i, quest in ipairs(self.quest) do
+            if not C_QuestLog.IsQuestFlaggedCompleted(quest) then
+                return false
+            end
+        end
+        return true
+    end
+
+    return isCompleted() and Green(L['completed']) or Red(L['incomplete'])
+end
+
+function OrbNode:IsCompleted() return false end
+
+local ORBS = {
+    [1] = {
+        label = L['orb_1_label'],
+        note = L['orb_1_note'] .. '\n\n' .. L['orb_1_locations'],
+        quest = 84676 -- hidden
+    },
+    [2] = {
+        label = L['orb_2_label'],
+        note = L['orb_2_note'],
+        quest = 84677 -- hidden
+    },
+    [3] = {
+        label = L['orb_3_label'],
+        note = L['astral_rewards_note'],
+        quest = HATE_QUESTS -- hidden
+    }
+}
+
+for i = 1, 12 do
+    local orb = ORBS[i]
+    local index = ((i + 2) % 12) + 1
+    local coordinates = select(index, getOrbCoordinates())
+    local poi = select(index, getPoiCoordinates())
+    if orb then
+        karazhanCatacombs.nodes[coordinates] = OrbNode({
+            label = orb.label,
+            note = orb.note,
+            quest = orb.quest,
+            pois = {POI({poi}), Path({coordinates, poi})}
+        })
+    else
+        karazhanCatacombs.nodes[coordinates] = OrbNode({
+            icon = 'peg_bk',
+            pois = {POI({poi}), Path({coordinates, poi})}
+        })
+
+    end
+end
