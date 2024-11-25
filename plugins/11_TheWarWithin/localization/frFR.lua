@@ -448,24 +448,24 @@ L['pointless_treasure_salesman_location'] = 'Caché dans la statue gobeline au {
 L['pointless_treasure_salesman_note'] = 'Achetez la {item:228996} :'
 
 -- ORB 6
-L['orb_6_label'] = nil
-L['blood_altar_label'] = nil
-L['corrupt_altar_label'] = nil
-L['lust_altar_label'] = nil
-L['sin_altar_label'] = nil
-L['void_altar_label'] = nil
+L['orb_6_label'] = 'Orbe 6'
+L['blood_altar_label'] = 'Autel de Sang'
+L['corrupt_altar_label'] = 'Autel Corrompu'
+L['lust_altar_label'] = 'Autel de Luxure'
+L['sin_altar_label'] = 'Autel du Vice'
+L['void_altar_label'] = 'Autel du Vide'
 
-L['altar_note'] = nil
-L['blood_altar_note'] = nil
-L['corrupt_altar_note'] = nil
-L['lust_altar_note'] = nil
-L['sin_altar_note'] = nil
-L['void_altar_note'] = nil
+L['altar_note'] = 'Utilisez la {item:208092} pour invoquer l\'esprit. Utilisez certaines montures, mascottes, jouets ou transmogrifications pour l\'apaiser :'
+L['blood_altar_note'] = '{object:%s} : N\'importe quelle monture dont le nom comporte "Sang".\n\n{object:%s} : N\'importe quelle mascotte dont le nom comporte "Sang".\n\n{object:%s} : {item:127709}'
+L['corrupt_altar_note'] = '{object:%s} : N\'importe quelle monture dont le nom comporte "Corrompu".\n\n{object:%s} : N\'importe quelle mascotte dont le nom comporte "Corrompu".\n\n{object:%s} : {item:116067}\n\n{object:%s} : N\'importe quelle cape ayant la même apparence que la {item:86316}'
+L['lust_altar_note'] = '{object:%s} : {pet:1628}\n\n{object:%s} : {item:129211}\n\n{object:%s} : Personnage nu sans équipement ou bien sous l\'effet du {item:119092}'
+L['sin_altar_note'] = '{object:%s} : {pet:2966}\n\n{object:%s} : {item:183986}\n\n{object:%s} : N\'importe quelle apparence de cape transmogrifiable comprenant le nom "Stèle du vice"'
+L['void_altar_note'] = '{object:%s} : {pet:1234}, {pet:2434}, ou {pet:4543}\n\n{object:%s} : {item:119003} et {item:174830}\n\n{object:%s} : N\'importe quelle cape ayant la même apparence que la {item:24252}'
 
-L['chest_of_acquisitions_label'] = nil
-L['chest_of_acquisitions_note'] = nil
+L['chest_of_acquisitions_label'] = 'Coffre des acquisitions'
+L['chest_of_acquisitions_note'] = '1. Apaisez tous les esprits présents aux autels de {location:Zul\'Gurub} en {location:Strangleronce septentrionale}.\n\n2. Equipez vos {item:228966} et fouillez le {object:Coffre des acquisitions} pour obtenir le {item:229007}.'
 
 -- Orb 7
-L['orb_7_label'] = nil
-L['owl_of_the_watchers_label'] = nil
-L['owl_of_the_watchers_note'] = nil
+L['orb_7_label'] = 'Orbe 7'
+L['owl_of_the_watchers_label'] = 'Hibou des guetteurs'
+L['owl_of_the_watchers_note'] = '{note:Seules 3 statues sont actives à la fois.}\n\nPlacez-vous près d\'une statue active avec votre {pet:1716} invoqué pour obtenir les 4 améliorations :\n\n{spell:225049}\n{spell:225038}\n{spell:223160}\n{spell:225059}.\n\nUne fois que votre {pet:1716} a été renforcé, entrez dans le donjon {location:Caveau des Gardiennes}.'
