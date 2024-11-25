@@ -463,3 +463,8 @@ L['void_altar_note'] = '{object:%s}: {pet:1234}, {pet:2434}, or {pet:4543}\n\n{o
 
 L['chest_of_acquisitions_label'] = 'Chest of Acquisitions'
 L['chest_of_acquisitions_note'] = '1. Appease all the spirits at the altars in {location:Zul\'Gurub} in {location:Northern Stranglethorn}.\n\n2. Equip the {item:228966} and loot the {object:Chest of Acquisitions} to receive the {item:229007}.'
+
+-- Orb 7
+L['orb_7_label'] = 'Orb 7'
+L['owl_of_the_watchers_label'] = 'Owl of the Watchers'
+L['owl_of_the_watchers_note'] = '{note:Only 3 statues are active at one time.}\n\nStand near an active statue with your {pet:1716} summoned to collect all 4 buffs:\n\n{spell:225049}\n{spell:225038}\n{spell:223160}\n{spell:225059}.\n\nOnce your {pet:1716} is empowered, enter the {location:Vault of the Wardens} dungeon.'

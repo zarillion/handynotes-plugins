@@ -487,6 +487,27 @@ northernStranglethorn.nodes[78104770] = RattsRevenge({
 }) -- Chest of Acquisitions
 
 -------------------------------------------------------------------------------
+-------------------------------- 7 O'CLOCK ORB --------------------------------
+-------------------------------------------------------------------------------
+
+local OwlOfTheWatchers = Class('OwlOfTheWatchers', RattsRevenge, {
+    label = L['owl_of_the_watchers_label'],
+    note = L['owl_of_the_watchers_note'],
+    quest = nil, -- hidden
+    requires = ns.requirement.Pet(1716) -- Fledgling Warden Owl
+}) -- Owl of the Watchers
+
+azsuna.nodes[44187241] = OwlOfTheWatchers()
+azsuna.nodes[40547315] = OwlOfTheWatchers()
+azsuna.nodes[40527519] = OwlOfTheWatchers()
+azsuna.nodes[37108216] = OwlOfTheWatchers()
+azsuna.nodes[43248530] = OwlOfTheWatchers()
+azsuna.nodes[43668751] = OwlOfTheWatchers()
+azsuna.nodes[50459167] = OwlOfTheWatchers()
+azsuna.nodes[47488474] = OwlOfTheWatchers()
+azsuna.nodes[45978406] = OwlOfTheWatchers()
+
+-------------------------------------------------------------------------------
 --------------------------- KARAZHAN CATACOMB ORBS ----------------------------
 -------------------------------------------------------------------------------
 
@@ -552,6 +573,11 @@ local ORBS = {
         label = L['orb_6_label'],
         note = L['chest_of_acquisitions_note'],
         quest = 84811 -- hidden
+    },
+    [12] = {
+        label = L['orb_7_label'],
+        note = '{bug:PH}',
+        quest = 99999 -- hidden
     }
 }
 

@@ -463,3 +463,8 @@ L['void_altar_note'] = nil
 
 L['chest_of_acquisitions_label'] = nil
 L['chest_of_acquisitions_note'] = nil
+
+-- Orb 7
+L['orb_7_label'] = nil
+L['owl_of_the_watchers_label'] = nil
+L['owl_of_the_watchers_note'] = nil
