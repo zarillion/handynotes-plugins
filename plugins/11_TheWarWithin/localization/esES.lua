@@ -447,13 +447,13 @@ L['pointless_treasure_salesman_location'] = 'Escondido dentro de la estatua del 
 L['pointless_treasure_salesman_note'] = 'Compra la {item:228996}:'
 
 -- ORB 6
-L['blood_altar_label'] = nil
-L['corrupt_altar_label'] = nil
-L['lust_altar_label'] = nil
-L['sin_altar_label'] = nil
-L['void_altar_label'] = nil
+L['blood_altar_label'] = 'Altar de Sangre'
+L['corrupt_altar_label'] = 'Altar de la Corrupción'
+L['lust_altar_label'] = 'Altar de la Lujuria'
+L['sin_altar_label'] = 'Altar del Pecado'
+L['void_altar_label'] = 'Altar del Vacío'
 
-L['altar_note'] = nil
+L['altar_note'] = 'Usa la {item:208092} para invocar al espíritu. Equípate ciertas monturas, mascotas, juguetes o transfiguraciones para apaciguarlo:'
 L['blood_altar_note'] = nil
 L['corrupt_altar_note'] = nil
 L['lust_altar_note'] = nil
