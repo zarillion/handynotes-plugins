@@ -445,3 +445,20 @@ L['jeremy_feasel_note'] = nil
 L['zarhym_note'] = nil
 L['pointless_treasure_salesman_location'] = '隐藏在 {location:加尼罗哨站} 的地精雕像内。'
 L['pointless_treasure_salesman_note'] = '购买 {item:228996}：'
+
+-- ORB 6
+L['blood_altar_label'] = nil
+L['corrupt_altar_label'] = nil
+L['lust_altar_label'] = nil
+L['sin_altar_label'] = nil
+L['void_altar_label'] = nil
+
+L['altar_note'] = nil
+L['blood_altar_note'] = nil
+L['corrupt_altar_note'] = nil
+L['lust_altar_note'] = nil
+L['sin_altar_note'] = nil
+L['void_altar_note'] = nil
+
+L['chest_of_acquisitions_label'] = nil
+L['chest_of_acquisitions_note'] = nil

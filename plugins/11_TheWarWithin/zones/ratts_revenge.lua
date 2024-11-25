@@ -59,6 +59,9 @@ local westernPlaguelands = ns.maps[22] or Map({id = 22, settings = false})
 local timelessIsle = ns.maps[555] or Map({id = 555, settings = false})
 local capeOfStranglethorn = ns.maps[210] or Map({id = 210, settings = false})
 
+-- 6 O'CLOCK ORB
+local northernStranglethorn = ns.maps[50] or Map({id = 50, settings = false})
+
 -------------------------------------------------------------------------------
 
 local TORCH = ns.requirement.Toy(208092) -- Torch of Pyrreth
@@ -427,6 +430,64 @@ end
 capeOfStranglethorn.nodes[35566346] = PointlessTreasureSalesman()
 
 -------------------------------------------------------------------------------
+-------------------------------- 6 O'CLOCK ORB --------------------------------
+-------------------------------------------------------------------------------
+
+northernStranglethorn.nodes[77084631] = RattsRevenge({
+    icon = 'peg_gn',
+    label = L['blood_altar_label'],
+    note = L['altar_note'] .. '\n\n' ..
+        format(L['blood_altar_note'], L['mount'], L['pet'], L['toy']),
+    quest = nil, -- hidden
+    requires = TORCH -- Torch of Pyrreth
+}) -- Blood Altar
+
+northernStranglethorn.nodes[77474393] = RattsRevenge({
+    icon = 'peg_gn',
+    label = L['corrupt_altar_label'],
+    note = L['altar_note'] .. '\n\n' ..
+        format(L['corrupt_altar_note'], L['mount'], L['pet'], L['toy'],
+            L['transmog']),
+    quest = 84807, -- hidden
+    requires = TORCH -- Torch of Pyrreth
+}) -- Corrupt Altar
+
+northernStranglethorn.nodes[77054488] = RattsRevenge({
+    icon = 'peg_gn',
+    label = L['lust_altar_label'],
+    note = L['altar_note'] .. '\n\n' ..
+        format(L['lust_altar_note'], L['pet'], L['toy'], L['transmog']),
+    quest = nil, -- hidden
+    requires = TORCH -- Torch of Pyrreth
+}) -- Lust Altar
+
+northernStranglethorn.nodes[78244399] = RattsRevenge({
+    icon = 'peg_gn',
+    label = L['sin_altar_label'],
+    note = L['altar_note'] .. '\n\n' ..
+        format(L['sin_altar_note'], L['pet'], L['toy'], L['transmog']),
+    quest = 84806, -- hidden
+    requires = TORCH -- Torch of Pyrreth
+}) -- Sin Altar
+
+northernStranglethorn.nodes[78144631] = RattsRevenge({
+    icon = 'peg_gn',
+    label = L['void_altar_label'],
+    note = L['altar_note'] .. '\n\n' ..
+        format(L['void_altar_note'], L['pet'], L['toy'], L['transmog']),
+    quest = nil, -- hidden
+    requires = TORCH -- Torch of Pyrreth
+}) -- Void Altar
+
+northernStranglethorn.nodes[78104770] = RattsRevenge({
+    label = L['chest_of_acquisitions_label'],
+    note = L['chest_of_acquisitions_note'],
+    quest = nil, -- hidden
+    requires = ns.requirement.Spell(463749), -- Starry-Eyed Goggles
+    rewards = {Item({item = 229007, bag = true})} -- Ancient Shaman Blood
+}) -- Chest of Acquisitions
+
+-------------------------------------------------------------------------------
 --------------------------- KARAZHAN CATACOMB ORBS ----------------------------
 -------------------------------------------------------------------------------
 
@@ -487,6 +548,11 @@ local ORBS = {
         label = L['orb_5_label'],
         note = format(L['jeremy_feasel_note'], ''),
         quest = 84781 -- ![Master of Secrets]
+    },
+    [1] = {
+        label = L['orb_6_label'],
+        note = L['chest_of_acquisitions_note'],
+        quest = 99999 -- hiden
     }
 }
 

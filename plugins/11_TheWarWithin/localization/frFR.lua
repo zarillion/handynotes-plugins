@@ -446,3 +446,20 @@ L['jeremy_feasel_note'] = '{npc:232048} est caché dans la {location:Caverne des
 L['zarhym_note'] = 'Parlez à {npc:71876} dans la grotte pour passer dans le monde des esprits.'
 L['pointless_treasure_salesman_location'] = 'Caché dans la statue gobeline au {location:Cap Janeiro}.'
 L['pointless_treasure_salesman_note'] = 'Achetez la {item:228996} :'
+
+-- ORB 6
+L['blood_altar_label'] = nil
+L['corrupt_altar_label'] = nil
+L['lust_altar_label'] = nil
+L['sin_altar_label'] = nil
+L['void_altar_label'] = nil
+
+L['altar_note'] = nil
+L['blood_altar_note'] = nil
+L['corrupt_altar_note'] = nil
+L['lust_altar_note'] = nil
+L['sin_altar_note'] = nil
+L['void_altar_note'] = nil
+
+L['chest_of_acquisitions_label'] = nil
+L['chest_of_acquisitions_note'] = nil

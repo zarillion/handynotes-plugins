@@ -445,3 +445,20 @@ L['jeremy_feasel_note'] = '{npc:232048} is hidden in the {location:Cave of Lost 
 L['zarhym_note'] = 'Speak with {npc:71876} within the cave to enter the spirit realm.'
 L['pointless_treasure_salesman_location'] = 'Hidden within the goblin statue at {location:Janeiro\'s Point}.'
 L['pointless_treasure_salesman_note'] = 'Purchase the {item:228996}:'
+
+-- ORB 6
+L['blood_altar_label'] = 'Blood Altar'
+L['corrupt_altar_label'] = 'Corrupt Altar'
+L['lust_altar_label'] = 'Lust Altar'
+L['sin_altar_label'] = 'Sin Altar'
+L['void_altar_label'] = 'Void Altar'
+
+L['altar_note'] = 'Use the {item:208092} to summon the spirit. Equip certain mounts, pets, toys or transmogs to appease it:'
+L['blood_altar_note'] = '{object:%s}: Any mount with "Blood" in the name.\n\n{object:%s}: Any pet with "Blood" in the name.\n\n{object:%s}: {item:127709}'
+L['corrupt_altar_note'] = '{object:%s}: Any mount with "Corrupt" in the name.\n\n{object:%s}: Any pet with "Corrupt" in the name.\n\n{object:%s}: {item:116067}\n\n{object:%s}: Any cloak with the same appearance as {item:86316}'
+L['lust_altar_note'] = '{object:%s}: {pet:1628}\n\n{object:%s}: {item:129211}\n\n{object:%s}: Completely naked or under the effects of {item:119092}'
+L['sin_altar_note'] = '{object:%s}: {pet:2966}\n\n{object:%s}: {item:183986}\n\n{object:%s}: Any Venthyr Sinstone cloak transmog'
+L['void_altar_note'] = '{object:%s}: {pet:1234}, {pet:2434}, or {pet:4543}\n\n{object:%s}: {item:119003} and {item:174830}\n\n{object:%s}: Any cloak with the same appearance as {item:24252}'
+
+L['chest_of_acquisitions_label'] = 'Chest of Acquisitions'
+L['chest_of_acquisitions_note'] = '1. Appease all the spirits at the altars in {location:Zul\'Gurub} in {location:Northern Stranglethorn}.\n\n2. Equip the {item:228966} and loot the {object:Chest of Acquisitions} to receive the {item:229007}.'
