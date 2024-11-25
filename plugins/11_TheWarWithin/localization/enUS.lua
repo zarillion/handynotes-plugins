@@ -441,7 +441,7 @@ L['uthers_tomb_note'] = 'Summon a {npc:231482} to {location:Uther\'s Tomb} in th
 
 -- ORB 5
 L['orb_5_label'] = 'Orb 5'
-L['jeremy_feasel_note'] = '{npc:232048} is hidden in the {location:Cave of Lost Spirits} in the {location:Timeless Isles}.\n\nDefeat {npc:232048} in a pet battle using only battle pets from past secrets.%s\n\nOnce you win, complete {quest:84781} to receive the {item:228995}.\n\nYou can now visit the {npc:230310} in {location:Booty Bay}.'
+L['jeremy_feasel_note'] = '{npc:232048} is hidden in the {location:Cavern of Lost Spirits} in the {location:Timeless Isle}.\n\nDefeat {npc:232048} in a pet battle using only battle pets from past secrets.%s\n\nOnce you win, complete {quest:84781} to receive the {item:228995}.\n\nYou can now visit the {npc:230310} in {location:Booty Bay}.'
 L['zarhym_note'] = 'Speak with {npc:71876} within the cave to enter the spirit realm.'
 L['pointless_treasure_salesman_location'] = 'Hidden within the goblin statue at {location:Janeiro\'s Point}.'
 L['pointless_treasure_salesman_note'] = 'Purchase the {item:228996}:'
