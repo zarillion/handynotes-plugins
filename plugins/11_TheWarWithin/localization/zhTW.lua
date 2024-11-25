@@ -285,8 +285,18 @@ L['skittershaw_spin_note'] = '在這區搭乘 {npc:224973} 一整圈.\n\n{npc:22
 
 L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
 L['options_icons_no_harm_from_reading_desc'] = '顯示成就 {achievement:40632} 所需的 {npc:227421} 位置.'
-L['no_harm_from_reading_note'] = nil
-L['another_you_4_note'] = nil
+L['no_harm_from_reading_note'] = [[
+進入洞窟 ({dot:Yellow}), 往 ({dot:Red}) 移動並爬上有三隻蜘蛛所在的牆上後跳下最上方蜘蛛後方的洞口.
+
+當你掉下來後, 和附近的 {object:血腥魔典} 互動來召喚4個 {npc:227421}.
+
+{npc:227421} 會消失並重新出現在地圖上.
+
+追蹤每個 {npc:227421} 並和他們互動來讓它們回到 {object:血腥魔典}.
+
+當你找到所有4個 {npc:227421} 後, 回到 {object:血腥魔典} 並和 {npc:227421} 交談.
+]]
+L['another_you_4_note'] = '在標記的路徑上巡邏.'
 
 L['concealed_contraband_note'] = nil
 L['memory_cache_note'] = '從附近的 ({dot:Red}) {object:吸取器儲藏室} 獲得 {spell:420847}. 殺掉 {npc:223908} 後取得 {item:223870} 來開啟 {object:記憶寶箱}.'
@@ -307,9 +317,9 @@ L['you_cant_hang_with_us_note'] = nil
 L['kej_pet_vendor_note'] = nil
 
 L['options_icons_back_to_the_wall'] = '{achievement:40620}'
-L['options_icons_back_to_the_wall_desc'] = nil
-L['arathi_prisoner_suffix'] = nil
-L['arathi_prisoner_note'] = nil
+L['options_icons_back_to_the_wall_desc'] = '顯示成就 {achievement:40620} 所需的 {npc:222119} 的位置.'
+L['arathi_prisoner_suffix'] = '阿拉希俘虜已拯救'
+L['arathi_prisoner_note'] = '在 {wq:特殊任務: A Pound of Cure} 中釋放被網包住的 {npc:222119}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
@@ -340,13 +350,13 @@ L['tuk_chest_3_note'] = '{note:只能在 "逃跑者進化" 和 "織絲者救援"
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_secrets_of_azeroth'] = nil
-L['options_icons_secrets_of_azeroth_desc'] = nil
+L['options_icons_secrets_of_azeroth'] = '艾澤拉斯祕聞'
+L['options_icons_secrets_of_azeroth_desc'] = '顯示 {location:艾澤拉斯祕聞} 的位置.'
 
-L['alyx_kickoff_note'] = nil
+L['alyx_kickoff_note'] = '和 {npc:226683} 說話來啟動新的艾澤拉斯祕聞謎題.'
 
-L['celebration_crates_label'] = nil
-L['celebration_crates_note'] = nil
+L['celebration_crates_label'] = '節慶木箱'
+L['celebration_crates_note'] = '在 {location:艾澤拉斯} 找到並返還所有的 {object:節慶木箱}.'
 
 L['1_soggy_celebration_crate_note'] = nil
 L['2_hazy_celebration_crate_note'] = nil
