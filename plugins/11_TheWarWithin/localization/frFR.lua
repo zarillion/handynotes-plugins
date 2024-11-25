@@ -435,14 +435,14 @@ L['slot_machine_note_e'] = '{object:Code}: 777, 77777 ou 7777777'
 L['slot_machine_vendor_note'] = 'Achetez ces objets pour la {object:Machine à sous « en veine ? »}.'
 
 -- ORB 4
-L['orb_4_label'] = nil
-L['vashti_note'] = nil
-L['uthers_tomb_label'] = nil
-L['uthers_tomb_note'] = nil
+L['orb_4_label'] = 'Orbe 4'
+L['vashti_note'] = 'Achetez un {item:228987} au {npc:91079} contre %s.'
+L['uthers_tomb_label'] = 'Tombeau d’Uther'
+L['uthers_tomb_note'] = 'Invoquez un {npc:231482} au {location:Tombeau d\'Uther} dans les {location:Maleterres de l\'ouest}.\n\nUtilisez un {item:228987} vendu par le {npc:91079} à {location:Azsuna} ou demandez à un Démoniste d\'utiliser {spell:342601}.\n\nUne fois mort puis revenu à la vie, lisez les graffitis cachés.\n\n{note:Les graffitis resteront tant que le {npc:231482} sera en vie, ne le tuez donc pas !}'
 
 -- ORB 5
-L['orb_5_label'] = nil
-L['jeremy_feasel_note'] = nil
-L['zarhym_note'] = nil
+L['orb_5_label'] = 'Orbe 5'
+L['jeremy_feasel_note'] = '{npc:232048} est caché dans la {location:Caverne des Esprits perdus} sur l\'{location:île du Temps figé}.\n\nBattez {npc:232048} dans un combat de mascottes en utilisant uniquement les mascottes des secrets passés.%s\n\nUne fois que vous avez gagné, terminez la quête {quest:84781} pour recevoir le {item:228995}.\n\nVous pouvez désormais rendre visite au {npc:230310} à {location:Baie-du-Butin}.'
+L['zarhym_note'] = 'Parlez à {npc:71876} dans la grotte pour passer dans le monde des esprits.'
 L['pointless_treasure_salesman_location'] = 'Caché dans la statue gobeline au {location:Cap Janeiro}.'
 L['pointless_treasure_salesman_note'] = 'Achetez la {item:228996} :'
