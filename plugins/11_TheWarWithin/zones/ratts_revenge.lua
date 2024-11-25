@@ -22,6 +22,7 @@ local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 local ItemStatus = ns.tooltip.ItemStatus
+local PetStatus = ns.tooltip.PetStatus
 
 -------------------------------------------------------------------------------
 
@@ -381,8 +382,22 @@ local JeremyFeasel = Class('JeremyFeasel', RattsRevenge, {
 }) -- Jeremy Feasel
 
 function JeremyFeasel.getters:note()
-    local petList = ''
-    return format(L['jeremy_feasel_note'], petList)
+    local note = '\n\n'
+    -- LuaFormatter off
+    note = note .. PetStatus(2352, 'x', '{npc:141941}') .. '\n' -- Baa'l
+    note = note .. PetStatus(2442, 'x', '{npc:143730}') .. '\n' -- Bumbles
+    note = note .. PetStatus(2888, 'x', '{npc:169514}') .. '\n' -- Glimr
+    note = note .. PetStatus(3107, 'x', '{npc:179140}') .. '\n' -- Gurgl
+    note = note .. PetStatus(2795, 'x', '{npc:159783}') .. '\n' -- Jenafur
+    note = note .. PetStatus(3553, 'x', '{npc:204367}') .. '\n' -- Nelthara
+    note = note .. PetStatus(3359, 'x', '{npc:192343}') .. '\n' -- Snowclaw Cub
+    note = note .. PetStatus(3342, 'x', '{npc:191381}') .. '\n' -- Spyragos
+    note = note .. PetStatus(382,  'x', '{npc:61087}' ) .. '\n' -- Sun Darter Hatchling
+    note = note .. PetStatus(2198, 'x', '{npc:139770}') .. '\n' -- Taptaf
+    note = note .. PetStatus(1073, 'x', '{npc:16445}' ) .. '\n' -- Terky
+    note = note .. PetStatus(2411, 'x', '{npc:143189}')         -- Wicker Pup
+    -- LuaFormatter on
+    return format(L['jeremy_feasel_note'], note)
 end
 
 timelessIsle.nodes[39673916] = JeremyFeasel()
