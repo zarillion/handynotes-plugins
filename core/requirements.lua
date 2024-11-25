@@ -122,6 +122,19 @@ end
 function Item:IsMet() return ns.PlayerHasItem(self.id, self.count) end
 
 -------------------------------------------------------------------------------
+------------------------------------- PET -------------------------------------
+-------------------------------------------------------------------------------
+
+local Pet = Class('Pet', Requirement, {type = L['pet']})
+
+function Pet:Initialize(id)
+    self.id = id
+    self.text = select(1, C_PetJournal.GetPetInfoBySpeciesID(self.id))
+end
+
+function Pet:IsMet() return C_PetJournal.GetNumCollectedInfo(self.id) > 0 end
+
+-------------------------------------------------------------------------------
 --------------------------------- PROFESSION ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -250,6 +263,7 @@ ns.requirement = {
     GarrisonTalent = GarrisonTalent,
     GarrisonTalentRank = GarrisonTalentRank,
     Item = Item,
+    Pet = Pet,
     Profession = Profession,
     Quest = Quest,
     Reputation = Reputation,
