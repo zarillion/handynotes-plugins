@@ -466,5 +466,11 @@ L['chest_of_acquisitions_note'] = '1. 安抚 {location:北荆棘谷} 的 {locati
 
 -- Orb 7
 L['orb_7_label'] = '7号球'
+L['orb_7_summary'] = nil
+
+L['marin_bladewing_note'] = nil
 L['owl_of_the_watchers_label'] = '看守者猫头鹰'
 L['owl_of_the_watchers_note'] = '{note:每次只能激活3个雕像。\n\n站在激活的雕像附近，召唤出 {pet:1716} 来收集全部4个增益：\n\n{spell:225049}\n{spell:225038}\n{spell:223160}\n{spell:225059}。\n\n一旦 {pet:1716} 获得强化，即可进入 {location:守望者地窟} 地下城。'
+
+L['sentry_statue_note'] = nil
+L['sentry_note'] = nil

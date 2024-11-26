@@ -10,6 +10,7 @@ local Node = ns.node.Node
 
 local Buff = ns.reward.Buff
 local Item = ns.reward.Item
+local Pet = ns.reward.Pet
 
 local Entrance = ns.poi.Entrance
 
@@ -490,10 +491,20 @@ northernStranglethorn.nodes[78104770] = RattsRevenge({
 -------------------------------- 7 O'CLOCK ORB --------------------------------
 -------------------------------------------------------------------------------
 
+azsuna.nodes[48207380] = RattsRevenge({
+    label = '{npc:107379}',
+    note = format(L['marin_bladewing_note'],
+        C_CurrencyInfo.GetCoinTextureString(5000000),
+        ns.color.Green(L['rep_revered'])),
+    quest = 84823, -- hidden
+    rewards = {Pet({item = 136898, id = 1716})} -- Fledgling Warden Owl
+}) -- Marin Bladewing
+
 local OwlOfTheWatchers = Class('OwlOfTheWatchers', RattsRevenge, {
+    icon = 'peg_yw',
     label = L['owl_of_the_watchers_label'],
     note = L['owl_of_the_watchers_note'],
-    quest = nil, -- hidden
+    quest = 84823, -- hidden
     requires = ns.requirement.Pet(1716) -- Fledgling Warden Owl
 }) -- Owl of the Watchers
 
@@ -506,6 +517,24 @@ azsuna.nodes[43668751] = OwlOfTheWatchers()
 azsuna.nodes[50459167] = OwlOfTheWatchers()
 azsuna.nodes[47488474] = OwlOfTheWatchers()
 azsuna.nodes[45978406] = OwlOfTheWatchers()
+
+local theWardensCourt = ns.maps[710] or Map({id = 710, settings = false})
+local vaultOfTheWardens = ns.maps[711] or Map({id = 711, settings = false})
+
+theWardensCourt.nodes[18907747] = RattsRevenge({
+    label = '{item:229046}',
+    note = L['sentry_statue_note'],
+    pois = {Entrance({21807747})},
+    quest = 84823, -- hidden
+    rewards = {Item({item = 229046, bag = true})} -- Sentry Statue
+}) -- Chamber of Night
+
+vaultOfTheWardens.nodes[60694836] = RattsRevenge({
+    label = '{npc:109300}',
+    note = L['sentry_note'],
+    quest = 84823, -- hidden
+    rewards = {Item({item = 229054, bag = true})} -- Warden's Mirror
+}) -- Sentry
 
 -------------------------------------------------------------------------------
 --------------------------- KARAZHAN CATACOMB ORBS ----------------------------
@@ -576,8 +605,8 @@ local ORBS = {
     },
     [12] = {
         label = L['orb_7_label'],
-        note = '{bug:PH}',
-        quest = 99999 -- hidden
+        note = L['orb_7_summary'],
+        quest = 84823 -- hidden
     }
 }
 

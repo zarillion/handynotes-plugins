@@ -467,5 +467,11 @@ L['chest_of_acquisitions_note'] = '1. Apaisez tous les esprits présents aux aut
 
 -- Orb 7
 L['orb_7_label'] = 'Orbe 7'
+L['orb_7_summary'] = nil
+
+L['marin_bladewing_note'] = nil
 L['owl_of_the_watchers_label'] = 'Hibou des guetteurs'
 L['owl_of_the_watchers_note'] = '{note:Seules 3 statues sont actives à la fois.}\n\nPlacez-vous près d\'une statue active avec votre {pet:1716} invoqué pour obtenir les 4 améliorations :\n\n{spell:225049}\n{spell:225038}\n{spell:223160}\n{spell:225059}.\n\nUne fois que votre {pet:1716} a été renforcé, entrez dans le donjon {location:Caveau des Gardiennes}.'
+
+L['sentry_statue_note'] = nil
+L['sentry_note'] = nil

@@ -466,5 +466,11 @@ L['chest_of_acquisitions_note'] = nil
 
 -- Orb 7
 L['orb_7_label'] = nil
+L['orb_7_summary'] = nil
+
+L['marin_bladewing_note'] = nil
 L['owl_of_the_watchers_label'] = nil
 L['owl_of_the_watchers_note'] = nil
+
+L['sentry_statue_note'] = nil
+L['sentry_note'] = nil
