@@ -447,7 +447,7 @@ L['pointless_treasure_salesman_location'] = 'Escondido dentro de la estatua del 
 L['pointless_treasure_salesman_note'] = 'Compra la {item:228996}:'
 
 -- ORB 6
-L['orb_6_label'] = nil
+L['orb_6_label'] = 'Orbe 6'
 L['blood_altar_label'] = 'Altar de Sangre'
 L['corrupt_altar_label'] = 'Altar de la Corrupción'
 L['lust_altar_label'] = 'Altar de la Lujuria'
@@ -465,7 +465,7 @@ L['chest_of_acquisitions_label'] = nil
 L['chest_of_acquisitions_note'] = nil
 
 -- Orb 7
-L['orb_7_label'] = nil
+L['orb_7_label'] = 'Orbe 7'
 L['orb_7_summary'] = nil
 
 L['marin_bladewing_note'] = nil
@@ -474,3 +474,18 @@ L['owl_of_the_watchers_note'] = nil
 
 L['sentry_statue_note'] = nil
 L['sentry_note'] = nil
+
+-- Orb 8
+L['orb_8_label'] = 'Orbe 8'
+
+-- Orb 9
+L['orb_9_label'] = 'Orbe 9'
+
+-- Orb 10
+L['orb_10_label'] = 'Orbe 10'
+
+-- Orb 11
+L['orb_11_label'] = 'Orbe 11'
+
+-- Orb 12
+L['orb_12_label'] = 'Orbe 12'

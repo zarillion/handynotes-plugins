@@ -474,3 +474,18 @@ L['owl_of_the_watchers_note'] = '{note:Only 3 statues are active at one time.}\n
 
 L['sentry_statue_note'] = '1. Defeat {npc:95885} to open the secret room within the {location:Chamber of Night}.\n\n2. Defeat the remaining bosses including {npc:95888}.\n\n3. Bring the {spell:204481} back to the secret room along with your {pet:1716} to spawn the {item:229046}.\n\n4. Bring the {item:229046} to {npc:95887} room.'
 L['sentry_note'] = '1. Place the {item:229046} here at the entrance to spawn a {npc:109300}.\n\n2. Interact with the {npc:109300} to begin the puzzle. The goal is to lower all {npc:98082} into the floor.\n\n3. Once complete, loot the {object:Treasure of the Wardens} to recieve the {item:229054}.'
+
+-- Orb 8
+L['orb_8_label'] = 'Orb 8'
+
+-- Orb 9
+L['orb_9_label'] = 'Orb 9'
+
+-- Orb 10
+L['orb_10_label'] = 'Orb 10'
+
+-- Orb 11
+L['orb_11_label'] = 'Orb 11'
+
+-- Orb 12
+L['orb_12_label'] = 'Orb 12'

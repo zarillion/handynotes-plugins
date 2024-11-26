@@ -477,3 +477,18 @@ L['owl_of_the_watchers_note'] = nil
 
 L['sentry_statue_note'] = nil
 L['sentry_note'] = nil
+
+-- Orb 8
+L['orb_8_label'] = nil
+
+-- Orb 9
+L['orb_9_label'] = nil
+
+-- Orb 10
+L['orb_10_label'] = nil
+
+-- Orb 11
+L['orb_11_label'] = nil
+
+-- Orb 12
+L['orb_12_label'] = nil

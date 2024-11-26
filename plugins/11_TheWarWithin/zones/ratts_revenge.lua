@@ -608,6 +608,31 @@ local ORBS = {
         label = L['orb_7_label'],
         note = L['orb_7_summary'],
         quest = 84823 -- hidden
+    },
+    [11] = {
+        label = L['orb_8_label'],
+        note = UNKNOWN,
+        quest = 99999 -- hidden
+    },
+    [10] = {
+        label = L['orb_9_label'],
+        note = UNKNOWN,
+        quest = 99999 -- hidden
+    },
+    [9] = {
+        label = L['orb_10_label'],
+        note = UNKNOWN,
+        quest = 99999 -- hidden
+    },
+    [8] = {
+        label = L['orb_11_label'],
+        note = UNKNOWN,
+        quest = 99999 -- hidden
+    },
+    [7] = {
+        label = L['orb_12_label'],
+        note = UNKNOWN,
+        quest = 99999 -- hidden
     }
 }
 
@@ -615,18 +640,10 @@ for i = 1, 12 do
     local orb = ORBS[i]
     local coordinates = select(i, getOrbCoordinates())
     local poi = select(i, getPoiCoordinates())
-    if orb then
-        karazhanCatacombs.nodes[coordinates] = OrbNode({
-            label = orb.label,
-            note = orb.note,
-            quest = orb.quest,
-            pois = {POI({poi}), Path({coordinates, poi})}
-        })
-    else
-        karazhanCatacombs.nodes[coordinates] = OrbNode({
-            icon = 'peg_bk',
-            pois = {POI({poi}), Path({coordinates, poi})}
-        })
-
-    end
+    karazhanCatacombs.nodes[coordinates] = OrbNode({
+        label = orb.label,
+        note = orb.note,
+        quest = orb.quest,
+        pois = {POI({poi}), Path({coordinates, poi})}
+    })
 end

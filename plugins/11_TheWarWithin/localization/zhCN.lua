@@ -474,3 +474,18 @@ L['owl_of_the_watchers_note'] = '{note:每次只能激活3个雕像。\n\n站在
 
 L['sentry_statue_note'] = nil
 L['sentry_note'] = nil
+
+-- Orb 8
+L['orb_8_label'] = '8号球'
+
+-- Orb 9
+L['orb_9_label'] = '9号球'
+
+-- Orb 10
+L['orb_10_label'] = '10号球'
+
+-- Orb 11
+L['orb_11_label'] = '11号球'
+
+-- Orb 12
+L['orb_12_label'] = '12号球'

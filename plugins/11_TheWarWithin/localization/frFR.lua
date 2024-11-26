@@ -475,3 +475,18 @@ L['owl_of_the_watchers_note'] = '{note:Seules 3 statues sont actives à la fois.
 
 L['sentry_statue_note'] = nil
 L['sentry_note'] = nil
+
+-- Orb 8
+L['orb_8_label'] = 'Orbe 8'
+
+-- Orb 9
+L['orb_9_label'] = 'Orbe 9'
+
+-- Orb 10
+L['orb_10_label'] = 'Orbe 10'
+
+-- Orb 11
+L['orb_11_label'] = 'Orbe 11'
+
+-- Orb 12
+L['orb_12_label'] = 'Orbe 12'
