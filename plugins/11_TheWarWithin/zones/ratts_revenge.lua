@@ -812,7 +812,7 @@ local ORBS = {
     [11] = {
         label = L['orb_8_label'],
         note = L['enigma_machine_note'],
-        quest = 84837, -- hidden
+        quest = 84837 -- hidden
     },
     [10] = {
         label = L['orb_9_label'],
