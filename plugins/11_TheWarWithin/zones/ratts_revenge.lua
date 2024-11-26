@@ -359,7 +359,7 @@ ohn.nodes[84402500] = RattsRevenge({
 
 azsuna.nodes[65604880] = RattsRevenge({
     label = '{npc:91079}',
-    note = format(L['vashti_note'], C_CurrencyInfo.GetCoinTextureString(50000)),
+    note = format(L['vashti_note'], C_CurrencyInfo.GetCoinTextureString(5000000)),
     pois = {
         POI({66002220}), -- Ending
         Path({
