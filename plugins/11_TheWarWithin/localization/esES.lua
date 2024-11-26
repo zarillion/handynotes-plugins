@@ -449,31 +449,31 @@ L['pointless_treasure_salesman_note'] = 'Compra la {item:228996}:'
 -- ORB 6
 L['orb_6_label'] = 'Orbe 6'
 L['blood_altar_label'] = 'Altar de Sangre'
-L['corrupt_altar_label'] = 'Altar de la Corrupción'
+L['corrupt_altar_label'] = 'Altar Corrupto'
 L['lust_altar_label'] = 'Altar de la Lujuria'
 L['sin_altar_label'] = 'Altar del Pecado'
 L['void_altar_label'] = 'Altar del Vacío'
 
-L['altar_note'] = 'Usa la {item:208092} para invocar al espíritu. Equípate ciertas monturas, mascotas, juguetes o transfiguraciones para apaciguarlo:'
-L['blood_altar_note'] = nil
-L['corrupt_altar_note'] = nil
-L['lust_altar_note'] = nil
-L['sin_altar_note'] = nil
-L['void_altar_note'] = nil
+L['altar_note'] = 'Usa la {item:208092} para invocar al espíritu. Equípate ciertas monturas, mascotas, juguetes o transfiguraciones para calmarlo:'
+L['blood_altar_note'] = '{object:%s}: Cualquier montura con "Sangre" en el nombre.\n\n{object:%s}: Cualquier mascota de duelo con "Sangre" en el nombre.\n\n{object:%s}: {item:127709}'
+L['corrupt_altar_note'] = '{object:%s}: Cualquier montura con "Corrupto" en el nombre.\n\n{object:%s}: Cualquier mascota de duelo con "Corrupto" en el nombre.\n\n{object:%s}: {item:116067}\n\n{object:%s}: Cualquier capa con la misma transfiguración de la {item:86316}'
+L['lust_altar_note'] = '{object:%s}: {pet:1628}\n\n{object:%s}: {item:129211}\n\n{object:%s}: Completamente desnudo o bajo los efectos de la {item:119092}'
+L['sin_altar_note'] = '{object:%s}: {pet:2966}\n\n{object:%s}: {item:183986}\n\n{object:%s}: Cualquier capa con la transfiguración de una piedra del pecado Venthyr'
+L['void_altar_note'] = '{object:%s}: {pet:1234}, {pet:2434}, or {pet:4543}\n\n{object:%s}: {item:119003} and {item:174830}\n\n{object:%s}: Cualquier capa con la misma transfiguración de la {item:24252}'
 
-L['chest_of_acquisitions_label'] = nil
-L['chest_of_acquisitions_note'] = nil
+L['chest_of_acquisitions_label'] = 'Cofre de adquisiciones'
+L['chest_of_acquisitions_note'] = '1. Calma a todos los espíritus en los altares de {location:Zul\'Gurub} en {location:Norte de la Vega de Tuercespina}.\n\n2. Equípate las {item:228966} y despoja el {object:Cofre de adquisiciones} para recibir la {item:229007}.'
 
 -- Orb 7
 L['orb_7_label'] = 'Orbe 7'
-L['orb_7_summary'] = nil
+L['orb_7_summary'] = '1. Comienza en la {location:Isla de los Vigías} en {location:Azsuna}.\n\n2. Potencia tu {pet:1716} con las varias estatuas de {object:Búho de los Vigías} alrededor de la isla.\n\n3. Entra en la mazmorra {location:Cámara de las Celadoras} y derrota los bosses para revelar el secreto {item:229046}.\n\n4. Usa la {item:229046} para comenzar un desafiante rompecabezas de lógica y finalmente descubrir un cofre que contiene el {item:229054}.'
 
-L['marin_bladewing_note'] = nil
-L['owl_of_the_watchers_label'] = nil
-L['owl_of_the_watchers_note'] = nil
+L['marin_bladewing_note'] = 'Compra {pet:1716} a {npc:107379} por %s tras llegar a %s con {faction:1894} o en la {location:Casa de Subastas}.'
+L['owl_of_the_watchers_label'] = 'Búho de los Vigías'
+L['owl_of_the_watchers_note'] = '{note:Sólo hay 3 estatuas activas a la vez.}\n\nQuédate quieto cerca de una estatua activa con tu {pet:1716} invocada para conseguir los 4 buffs:\n\n{spell:225049}\n{spell:225038}\n{spell:223160}\n{spell:225059}.\n\nUna vez tu {pet:1716} esté potenciada, entra en la mazmorra {location:Cámara de las Celadoras}.'
 
-L['sentry_statue_note'] = nil
-L['sentry_note'] = nil
+L['sentry_statue_note'] = '1. Derrota a {npc:95885} para abrir la habitación secreta dentro de la {location:Cámara de la Noche}.\n\n2. Derrota a los bosses restantes, incluida {npc:95888}.\n\n3. Lleva la {spell:204481} de vuelta a la habitación secreta junto a tu {pet:1716} para hacer aparecer la {item:229046}.\n\n4. Lleva la {item:229046} a la sala de {npc:95887}.'
+L['sentry_note'] = '1. Coloca la {item:229046} aquí en la entrada para hacer aparecer a una {npc:109300}.\n\n2. Interactúa con la {npc:109300} para comenzar el puzzle. El objetivo es bajar todas las {npc:98082} al suelo.\n\n3. Una vez completado, despoja el {object:Tesoro de las Celadoras} para conseguir el {item:229054}.'
 
 -- Orb 8
 L['orb_8_label'] = 'Orbe 8'
@@ -481,20 +481,20 @@ L['orb_8_label'] = 'Orbe 8'
 L['enigma_machine_label'] = nil
 L['enigma_machine_note'] = nil
 
-L['lock_statue_note'] = nil
-L['lock_platform_note'] = nil
+L['lock_statue_note'] = 'Arrastra esta estatua a una plataforma.'
+L['lock_platform_note'] = 'Arrastra estatuas a esta plataforma.'
 
-L['platform_1_label'] = nil
-L['platform_2_label'] = nil
-L['platform_3_label'] = nil
-L['platform_4_label'] = nil
-L['platform_5_label'] = nil
-L['platform_6_label'] = nil
-L['platform_7_label'] = nil
+L['platform_1_label'] = 'Plataforma 1'
+L['platform_2_label'] = 'Plataforma 2'
+L['platform_3_label'] = 'Plataforma 3'
+L['platform_4_label'] = 'Plataforma 4'
+L['platform_5_label'] = 'Plataforma 5'
+L['platform_6_label'] = 'Plataforma 6'
+L['platform_7_label'] = 'Plataforma 7'
 
-L['rats_label'] = nil
-L['lock_label'] = nil
-L['code_label'] = nil
+L['rats_label'] = 'Ratas'
+L['lock_label'] = 'Bloqueo %d'
+L['code_label'] = '%d en la %s'
 
 -- Orb 9
 L['orb_9_label'] = 'Orbe 9'
