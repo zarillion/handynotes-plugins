@@ -466,35 +466,35 @@ L['chest_of_acquisitions_note'] = '1. 安抚 {location:北荆棘谷} 的 {locati
 
 -- Orb 7
 L['orb_7_label'] = '7号球'
-L['orb_7_summary'] = nil
+L['orb_7_summary'] = '从 {location:阿苏纳} 的 {location:守望岛} 开始。\n\n2. 使用岛上各式各样的 {object:看守者猫头鹰} 雕像增强您的 {pet:1716} 的能力。\n\n3. 进入 {location:守望者地窟} 并击败首领以揭开秘密 {item:229046}。\n\n4. 使用 {item:229046} 开始具有挑战性的逻辑谜题并最终揭开一个装有 {item:229054} 的宝箱。'
 
-L['marin_bladewing_note'] = nil
+L['marin_bladewing_note'] = '与 {faction:1894} 到达 %s 后，从 {npc:107379} 处以 %s 购买 {pet:1716}，或者从 {location:拍卖行} 购买。'
 L['owl_of_the_watchers_label'] = '看守者猫头鹰'
 L['owl_of_the_watchers_note'] = '{note:每次只能激活3个雕像。\n\n站在激活的雕像附近，召唤出 {pet:1716} 来收集全部4个增益：\n\n{spell:225049}\n{spell:225038}\n{spell:223160}\n{spell:225059}。\n\n一旦 {pet:1716} 获得强化，即可进入 {location:守望者地窟} 地下城。'
 
-L['sentry_statue_note'] = nil
-L['sentry_note'] = nil
+L['sentry_statue_note'] = '1. 击败 {npc:95885} 以打开 {location:暗夜大厅} 内的秘密房间。\n\n2. 击败其余首领，包括 {npc:95888}。\n\n3. 将 {spell:204481} 和 {pet:1716} 带回秘密房间将出现 {item:229046}。\n\n4. 将 {item:229046} 带到 {npc:95887} 房间。'
+L['sentry_note'] = '1. 将 {item:229046} 放在入口处将出现 {npc:109300}。\n\n2. 与 {npc:109300} 互动以开始解谜。目标是将所有 {npc:98082} 放入地板。\n\n3. 完成后，拾取 {object:守望者宝箱} 获得 {item:229054}。'
 
 -- Orb 8
 L['orb_8_label'] = '8号球'
 
-L['enigma_machine_label'] = nil
-L['enigma_machine_note'] = nil
+L['enigma_machine_label'] = '谜之机械'
+L['enigma_machine_note'] = '1. 将 {item:229007} 和 {item:229054} 插入 {object:谜之机械}。\n\n2. 单击“开始”，然后单击“提交”。您现在必须解锁7个隐藏的锁。\n\n3. 通过计算副本中的每个 {npc:230596}、将正确数量的雕像拖到正确的平台上并再次单击“提交”来解锁锁。\n\n{note:建议杀死每个 {npc:230599}，但不计算，以防止他们站在平台上。}' -- DO NOT TRANSLATE. NOT FINISHED YET.
 
-L['lock_statue_note'] = nil
-L['lock_platform_note'] = nil
+L['lock_statue_note'] = '拖拽此雕像到一个平台。'
+L['lock_platform_note'] = '拖拽雕像到此平台。'
 
-L['platform_1_label'] = nil
-L['platform_2_label'] = nil
-L['platform_3_label'] = nil
-L['platform_4_label'] = nil
-L['platform_5_label'] = nil
-L['platform_6_label'] = nil
-L['platform_7_label'] = nil
+L['platform_1_label'] = '平台1'
+L['platform_2_label'] = '平台2'
+L['platform_3_label'] = '平台3'
+L['platform_4_label'] = '平台4'
+L['platform_5_label'] = '平台5'
+L['platform_6_label'] = '平台6'
+L['platform_7_label'] = '平台7'
 
-L['rats_label'] = nil
-L['lock_label'] = nil
-L['code_label'] = nil
+L['rats_label'] = '老鼠'
+L['lock_label'] = '锁定 %d'
+L['code_label'] = '%d 于 %s'
 
 -- Orb 9
 L['orb_9_label'] = '9号球'

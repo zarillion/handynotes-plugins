@@ -466,7 +466,7 @@ L['chest_of_acquisitions_note'] = '1. Appease all the spirits at the altars in {
 
 -- Orb 7
 L['orb_7_label'] = 'Orb 7'
-L['orb_7_summary'] = '1. Begin at on the {location:Isle of Watcher} in {location:Azsuna}.\n\n2. Empower your {pet:1716} with the various {object:Owl of the Watchers} statues around the island.\n\n3. Enter the {location:Vault of the Wardens} and defeat the bosses to reveal a secret {item:229046}.\n\n4. Use the {item:229046} to begin a challenging logic puzzle and ultimately reveal a chest containing the {item:229054}.'
+L['orb_7_summary'] = '1. Begin at on the {location:Isle of the Watchers} in {location:Azsuna}.\n\n2. Empower your {pet:1716} with the various {object:Owl of the Watchers} statues around the island.\n\n3. Enter the {location:Vault of the Wardens} and defeat the bosses to reveal a secret {item:229046}.\n\n4. Use the {item:229046} to begin a challenging logic puzzle and ultimately reveal a chest containing the {item:229054}.'
 
 L['marin_bladewing_note'] = 'Purchase the {pet:1716} from {npc:107379} for %s after reaching %s with {faction:1894} or from the {location:Auction House}.'
 L['owl_of_the_watchers_label'] = 'Owl of the Watchers'
