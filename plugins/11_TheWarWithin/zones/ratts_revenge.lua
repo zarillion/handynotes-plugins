@@ -711,6 +711,7 @@ for x = 1, 8 do
         karazhanCatacombs.nodes[coordinates] = RattsRevenge({
             icon = nodeInfo.icon,
             label = nodeInfo.label,
+            minimap = false,
             quest = 84837, -- hidden
             questDeps = {
                 84829, -- Ancient Shaman Blood
