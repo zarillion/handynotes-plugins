@@ -434,37 +434,37 @@ L['slot_machine_note_e'] = '{object:代码}：777、77777 或 7777777'
 L['slot_machine_vendor_note'] = '为 {object:“试试手气！”游戏机} 购买这些物品。'
 
 -- ORB 4
-L['orb_4_label'] = nil
-L['vashti_note'] = nil
-L['uthers_tomb_label'] = nil
-L['uthers_tomb_note'] = nil
+L['orb_4_label'] = '4号球'
+L['vashti_note'] = '从 {npc:91079} 购买 {item:228987}，花费 %s。'
+L['uthers_tomb_label'] = '乌瑟尔之墓'
+L['uthers_tomb_note'] = '在 {location:西瘟疫之地} 的 {location:乌瑟尔之墓} 召唤一个 {npc:11859}。\n\n使用 {location:阿苏纳} 的 {npc:91079} 出售的 {item:228987} 或让术士使用 {spell:342601}。\n\n一旦你死亡并复活，请阅读隐藏的涂鸦。\n\n{note:只要 {npc:11859} 活着，涂鸦就会一直存在，所以不要杀死它！}'
 
 -- ORB 5
-L['orb_5_label'] = nil
-L['jeremy_feasel_note'] = nil
-L['zarhym_note'] = nil
-L['pointless_treasure_salesman_location'] = '隐藏在 {location:加尼罗哨站} 的地精雕像内。'
+L['orb_5_label'] = '5号球'
+L['jeremy_feasel_note'] = '{npc:232048} 隐藏在 {location:永恒岛} 的 {location:孤魂岩洞} 中。\n\n仅使用来自过去解密的战斗宠物在宠物战斗中击败 {npc:232048}。%s\n\n获胜后，完成 {quest:84781} 以获得 {item:228995}。\n\n现在可以去找 {location:藏宝海湾} 的 {npc:230310}。'
+L['zarhym_note'] = '与洞穴内的 {npc:71876} 交谈，进入灵魂位面。
+L['pointless_treasure_salesman_location'] = '隐藏于 {location:加尼罗哨站} 的地精雕像内。'
 L['pointless_treasure_salesman_note'] = '购买 {item:228996}：'
 
 -- ORB 6
-L['orb_6_label'] = nil
-L['blood_altar_label'] = nil
-L['corrupt_altar_label'] = nil
-L['lust_altar_label'] = nil
-L['sin_altar_label'] = nil
-L['void_altar_label'] = nil
+L['orb_6_label'] = '6号球'
+L['blood_altar_label'] = '鲜血祭坛'
+L['corrupt_altar_label'] = '腐蚀祭坛'
+L['lust_altar_label'] = '欲望祭坛'
+L['sin_altar_label'] = '原罪祭坛'
+L['void_altar_label'] = '虚空祭坛'
 
-L['altar_note'] = nil
-L['blood_altar_note'] = nil
-L['corrupt_altar_note'] = nil
-L['lust_altar_note'] = nil
-L['sin_altar_note'] = nil
-L['void_altar_note'] = nil
+L['altar_note'] = '使用 {item:208092} 召唤灵魂。装备某些坐骑、宠物、玩具或幻化来安抚它：'
+L['blood_altar_note'] = '{object:%s}：名称中带有“血”的任何坐骑。\n\n{object:%s}：名称中带有“血”的任何宠物。\n\n{object:%s}：{item:127709}'
+L['corrupt_altar_note'] = '{object:%s}：任何名称中带有“堕落或腐化”的坐骑。\n\n{object:%s}：任何名称中带有“堕落或腐化”的宠物。\n\n{object:%s}：{item:116067}\n\n{object:%s}：任何与 {item:86316} 外观相同的披风。'
+L['lust_altar_note'] = '{object:%s}：{pet:1628}\n\n{object:%s}：{item:129211}\n\n{object:%s}：完全赤裸或受到 {item:119092} 的影响'
+L['sin_altar_note'] = '{object:%s}：{pet:2966}\n\n{object:%s}：{item:183986}\n\n{object:%s}：任意温西尔罪碑披风幻化'
+L['void_altar_note'] = '{object:%s}：{pet:1234}，{pet:2434}，或 {pet:4543}\n\n{object:%s}：{item:119003} 和 {item:174830}\n\n{object:%s}：任何与 {item:24252} 外观相同的披风'
 
-L['chest_of_acquisitions_label'] = nil
-L['chest_of_acquisitions_note'] = nil
+L['chest_of_acquisitions_label'] = '收藏品宝箱'
+L['chest_of_acquisitions_note'] = '1. 安抚 {location:北荆棘谷} 的 {location:祖尔格拉布} 祭坛上的所有灵魂。\n\n2. 装备 {item:228966} 并拾取 {object:收藏品宝箱} 以获得 {item:229007}。'
 
 -- Orb 7
-L['orb_7_label'] = nil
-L['owl_of_the_watchers_label'] = nil
-L['owl_of_the_watchers_note'] = nil
+L['orb_7_label'] = '7号球'
+L['owl_of_the_watchers_label'] = '看守者猫头鹰'
+L['owl_of_the_watchers_note'] = '{note:每次只能激活3个雕像。\n\n站在激活的雕像附近，召唤出 {pet:1716} 来收集全部4个增益：\n\n{spell:225049}\n{spell:225038}\n{spell:223160}\n{spell:225059}。\n\n一旦 {pet:1716} 获得强化，即可进入 {location:守望者地窟} 地下城。'
