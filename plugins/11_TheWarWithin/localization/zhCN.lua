@@ -478,6 +478,9 @@ L['sentry_note'] = nil
 -- Orb 8
 L['orb_8_label'] = '8号球'
 
+L['enigma_machine_label'] = nil
+L['enigma_machine_note'] = nil
+
 -- Orb 9
 L['orb_9_label'] = '9号球'
 

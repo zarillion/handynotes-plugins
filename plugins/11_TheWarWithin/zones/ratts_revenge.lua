@@ -260,6 +260,7 @@ local HATE_QUESTS = {
 }
 
 karazhanCatacombs.nodes[51187830] = RattsRevenge({
+    icon = 'peg_bl',
     label = L['astral_soup_label'],
     note = L['astral_rewards_note'],
     quest = HATE_QUESTS, -- hidden
@@ -268,6 +269,7 @@ karazhanCatacombs.nodes[51187830] = RattsRevenge({
 }) -- Astral Soup
 
 karazhanCatacombs.nodes[48187996] = RattsRevenge({
+    icon = 'peg_bl',
     label = L['astral_chest_label'],
     note = L['astral_rewards_note'],
     quest = HATE_QUESTS, -- hidden
@@ -285,7 +287,7 @@ end
 
 for num, machine in ipairs(CODE_MACHINES) do
     karazhanCatacombs.nodes[machine.coordinates] = RattsRevenge({
-        icon = 'peg_gn',
+        icon = 'peg_yw',
         label = machine.label,
         note = machine.note,
         quest = machine.quest,
@@ -296,7 +298,7 @@ for num, machine in ipairs(CODE_MACHINES) do
 end
 
 local SlotMachine = Class('SlotMachine', RattsRevenge, {
-    icon = 'peg_gn',
+    icon = 'peg_yw',
     label = L['slot_machine_label'],
     quest = 84786, -- hidden
     requires = ns.requirement.Spell(463749), -- Starry-Eyed Goggles
@@ -538,6 +540,37 @@ vaultOfTheWardens.nodes[60694836] = RattsRevenge({
 }) -- Sentry
 
 -------------------------------------------------------------------------------
+-------------------------------- 8 O'CLOCK ORB --------------------------------
+-------------------------------------------------------------------------------
+
+karazhanCatacombs.nodes[59954259] = RattsRevenge({
+    icon = 'peg_bk',
+    label = L['enigma_machine_label'],
+    note = L['enigma_machine_note'],
+    quest = {
+        84829, -- Ancient Shaman Blood
+        84830, -- Warden's Mirror
+        99999
+    }
+}) -- Enigma Machine
+
+-------------------------------------------------------------------------------
+-------------------------------- 9 O'CLOCK ORB --------------------------------
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+------------------------------- 10 O'CLOCK ORB --------------------------------
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+------------------------------- 11 O'CLOCK ORB --------------------------------
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+------------------------------- 12 O'CLOCK ORB --------------------------------
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
 --------------------------- KARAZHAN CATACOMB ORBS ----------------------------
 -------------------------------------------------------------------------------
 
@@ -611,7 +644,7 @@ local ORBS = {
     },
     [11] = {
         label = L['orb_8_label'],
-        note = UNKNOWN,
+        note = L['enigma_machine_note'],
         quest = 99999 -- hidden
     },
     [10] = {
@@ -642,6 +675,7 @@ for i = 1, 12 do
     local poi = select(i, getPoiCoordinates())
     karazhanCatacombs.nodes[coordinates] = OrbNode({
         label = orb.label,
+        minimap = false,
         note = orb.note,
         quest = orb.quest,
         pois = {POI({poi}), Path({coordinates, poi})}

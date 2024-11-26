@@ -478,6 +478,9 @@ L['sentry_note'] = '1. Place the {item:229046} here at the entrance to spawn a {
 -- Orb 8
 L['orb_8_label'] = 'Orb 8'
 
+L['enigma_machine_label'] = 'Enigma Machine'
+L['enigma_machine_note'] = 'Insert the {item:229007} and {item:229054} into the {object:Enigma Machine}.' -- DO NOT TRANSLATE. NOT FINISHED YET.
+
 -- Orb 9
 L['orb_9_label'] = 'Orb 9'
 
