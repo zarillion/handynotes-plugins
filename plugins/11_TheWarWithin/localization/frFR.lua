@@ -485,13 +485,13 @@ L['enigma_machine_note'] = nil
 L['lock_statue_note'] = 'Déplacez cette statue jusqu\'à une plate-forme.'
 L['lock_platform_note'] = 'Déplacez des statues jusqu\'à cette plate-forme.'
 
-L['platform_1_label'] = 'Platforme 1'
-L['platform_2_label'] = 'Platforme 2'
-L['platform_3_label'] = 'Platforme 3'
-L['platform_4_label'] = 'Platforme 4'
-L['platform_5_label'] = 'Platforme 5'
-L['platform_6_label'] = 'Platforme 6'
-L['platform_7_label'] = 'Platforme 7'
+L['platform_1_label'] = 'Plateforme 1'
+L['platform_2_label'] = 'Plateforme 2'
+L['platform_3_label'] = 'Plateforme 3'
+L['platform_4_label'] = 'Plateforme 4'
+L['platform_5_label'] = 'Plateforme 5'
+L['platform_6_label'] = 'Plateforme 6'
+L['platform_7_label'] = 'Plateforme 7'
 
 -- Orb 9
 L['orb_9_label'] = 'Orbe 9'
