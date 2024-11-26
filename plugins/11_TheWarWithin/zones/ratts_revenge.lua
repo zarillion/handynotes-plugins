@@ -594,6 +594,132 @@ for _, platform in ipairs(PLATFORMS) do
     })
 end
 
+-- LuaFormatter off
+local RATS_TO_STATUES = {
+    {
+        {label = L['rats_label'], icon = 'peg_rd'},
+        {label = format(L['lock_label'], 1), icon = 'peg_bl'},
+        {label = format(L['lock_label'], 2), icon = 'peg_bl'},
+        {label = format(L['lock_label'], 3), icon = 'peg_bl'},
+        {label = format(L['lock_label'], 4), icon = 'peg_bl'},
+        {label = format(L['lock_label'], 5), icon = 'peg_bl'},
+        {label = format(L['lock_label'], 6), icon = 'peg_bl'},
+        {label = format(L['lock_label'], 7), icon = 'peg_bl'}
+    }, {
+        {label = '1', icon = 'peg_yw'},
+        {label = format(L['code_label'], 1, L['platform_1_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_2_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_3_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_4_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_5_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_6_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_7_label']), icon = 'peg_bk'}
+    }, {
+        {label = '2', icon = 'peg_yw'},
+        {label = format(L['code_label'], 1, L['platform_2_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_4_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_6_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_1_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_3_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_5_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_7_label']), icon = 'peg_bk'}
+    }, {
+        {label = '3', icon = 'peg_yw'},
+        {label = format(L['code_label'], 1, L['platform_3_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_6_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_2_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_5_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_1_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_4_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_1_label']), icon = 'peg_bk'}
+    }, {
+        {label = '4', icon = 'peg_yw'},
+        {label = format(L['code_label'], 1, L['platform_4_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_1_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_5_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_2_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_6_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_4_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_1_label']), icon = 'peg_bk'}
+    }, {
+        {label = '5', icon = 'peg_yw'},
+        {label = format(L['code_label'], 1, L['platform_5_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_3_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_1_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_6_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_5_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_3_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_1_label']), icon = 'peg_bk'}
+    }, {
+        {label = '6', icon = 'peg_yw'},
+        {label = format(L['code_label'], 1, L['platform_6_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_5_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_4_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_4_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_3_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_2_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_1_label']), icon = 'peg_bk'}
+    }, {
+        {label = '7', icon = 'peg_yw'},
+        {label = format(L['code_label'], 1, L['platform_7_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_7_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_1_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_1_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_1_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_2_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_2_label']), icon = 'peg_bk'}
+    }, {
+        {label = '8', icon = 'peg_yw'},
+        {label = format(L['code_label'], 2, L['platform_1_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_2_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_4_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_5_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_6_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_1_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_2_label']), icon = 'peg_bk'}
+    }, {
+        {label = '9', icon = 'peg_yw'},
+        {label = format(L['code_label'], 2, L['platform_2_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_4_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_7_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_2_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_5_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_7_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 1, L['platform_3_label']), icon = 'peg_bk'}
+    }, {
+        {label = '10', icon = 'peg_yw'},
+        {label = format(L['code_label'], 2, L['platform_3_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_6_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_3_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_6_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_3_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 3, L['platform_6_label']), icon = 'peg_bk'},
+        {label = format(L['code_label'], 2, L['platform_3_label']), icon = 'peg_bk'}
+    }
+}
+-- LuaFormatter on
+
+local xStart = 2600
+local yStart = 1500
+
+for x = 1, 8 do
+    for y = 1, 11 do
+        local nodeInfo = RATS_TO_STATUES[y][x]
+        local newX = tostring(xStart + ((x - 1) * 300))
+        local newY = tostring(yStart + ((y - 1) * 400))
+        local coordinates = tonumber(newX .. newY)
+        karazhanCatacombs.nodes[coordinates] = RattsRevenge({
+            icon = nodeInfo.icon,
+            label = nodeInfo.label,
+            quest = 84837, -- hidden
+            questDeps = {
+                84829, -- Ancient Shaman Blood
+                84830 -- Warden's Mirror
+            }
+        })
+    end
+end
+
 -------------------------------------------------------------------------------
 -------------------------------- 9 O'CLOCK ORB --------------------------------
 -------------------------------------------------------------------------------

@@ -492,6 +492,10 @@ L['platform_5_label'] = nil
 L['platform_6_label'] = nil
 L['platform_7_label'] = nil
 
+L['rats_label'] = nil
+L['lock_label'] = nil
+L['code_label'] = nil
+
 -- Orb 9
 L['orb_9_label'] = nil
 

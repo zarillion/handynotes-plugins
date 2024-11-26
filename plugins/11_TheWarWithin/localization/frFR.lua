@@ -493,6 +493,10 @@ L['platform_5_label'] = 'Plateforme 5'
 L['platform_6_label'] = 'Plateforme 6'
 L['platform_7_label'] = 'Plateforme 7'
 
+L['rats_label'] = nil
+L['lock_label'] = nil
+L['code_label'] = nil
+
 -- Orb 9
 L['orb_9_label'] = 'Orbe 9'
 

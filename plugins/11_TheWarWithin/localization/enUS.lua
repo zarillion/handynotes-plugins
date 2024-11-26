@@ -479,7 +479,7 @@ L['sentry_note'] = '1. Place the {item:229046} here at the entrance to spawn a {
 L['orb_8_label'] = 'Orb 8'
 
 L['enigma_machine_label'] = 'Enigma Machine'
-L['enigma_machine_note'] = '1. Insert the {item:229007} and {item:229054} into the {object:Enigma Machine}.\n\n2. Click Begin and then click Submit. You must now unlock 7 hidden locks.\n\n3. Unlock a lock by counting each {npc:230596} in the instance, dragging the correct amount of statues the the correct platform, and clicking Submit again.\n\nDo this process 7 times correctly to unlock a lock.\n\n{note:It is recommended to kill, but not count, each {npc:230599} to prevent them from standing on the platforms.}' -- DO NOT TRANSLATE. NOT FINISHED YET.
+L['enigma_machine_note'] = '1. Insert the {item:229007} and {item:229054} into the {object:Enigma Machine}.\n\n2. Click Begin and then click Submit. You must now unlock 7 hidden locks.\n\n3. Unlock a lock by counting each {npc:230596} in the instance, dragging the correct amount of statues the the correct platform, and clicking Submit again.\n\n{note:It is recommended to kill, but not count, each {npc:230599} to prevent them from standing on the platforms.}' -- DO NOT TRANSLATE. NOT FINISHED YET.
 
 L['lock_statue_note'] = 'Drag this statue to a platform.'
 L['lock_platform_note'] = 'Drag statues to this platform.'
@@ -491,6 +491,10 @@ L['platform_4_label'] = 'Platform 4'
 L['platform_5_label'] = 'Platform 5'
 L['platform_6_label'] = 'Platform 6'
 L['platform_7_label'] = 'Platform 7'
+
+L['rats_label'] = 'Rats'
+L['lock_label'] = 'Lock %d'
+L['code_label'] = '%d on %s'
 
 -- Orb 9
 L['orb_9_label'] = 'Orb 9'
