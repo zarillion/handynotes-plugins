@@ -63,6 +63,10 @@ local capeOfStranglethorn = ns.maps[210] or Map({id = 210, settings = false})
 -- 6 O'CLOCK ORB
 local northernStranglethorn = ns.maps[50] or Map({id = 50, settings = false})
 
+-- 7 O'CLOCK ORB
+local theWardensCourt = ns.maps[710] or Map({id = 710, settings = false})
+local vaultOfTheWardens = ns.maps[711] or Map({id = 711, settings = false})
+
 -------------------------------------------------------------------------------
 
 local TORCH = ns.requirement.Toy(208092) -- Torch of Pyrreth
@@ -517,9 +521,6 @@ azsuna.nodes[43668751] = OwlOfTheWatchers()
 azsuna.nodes[50459167] = OwlOfTheWatchers()
 azsuna.nodes[47488474] = OwlOfTheWatchers()
 azsuna.nodes[45978406] = OwlOfTheWatchers()
-
-local theWardensCourt = ns.maps[710] or Map({id = 710, settings = false})
-local vaultOfTheWardens = ns.maps[711] or Map({id = 711, settings = false})
 
 theWardensCourt.nodes[18907747] = RattsRevenge({
     label = '{item:229046}',
