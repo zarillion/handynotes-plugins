@@ -550,9 +550,49 @@ karazhanCatacombs.nodes[59954259] = RattsRevenge({
     quest = {
         84829, -- Ancient Shaman Blood
         84830, -- Warden's Mirror
-        99999
+        84837 -- hidden
     }
 }) -- Enigma Machine
+
+local Statue = Class('Statue', RattsRevenge, {
+    icon = 'peg_bl',
+    note = L['lock_statue_note'],
+    quest = 84837, -- hidden
+    questDeps = {
+        84829, -- Ancient Shaman Blood
+        84830 -- Warden's Mirror
+
+    }
+}) -- Statue
+
+karazhanCatacombs.nodes[43486500] = Statue({label = '{npc:230655}'}) -- Watcher Statue
+karazhanCatacombs.nodes[49527588] = Statue({label = '{npc:230652}'}) -- Nature Statue
+karazhanCatacombs.nodes[61154797] = Statue({label = '{npc:230654}'}) -- Greed Statue
+karazhanCatacombs.nodes[70307904] = Statue({label = '{npc:230657}'}) -- Rage Statue
+karazhanCatacombs.nodes[70603445] = Statue({label = '{npc:230653}'}) -- Guardian Statue
+
+local PLATFORMS = {
+    [1] = {coordinates = 71532016, label = L['platform_1_label']},
+    [2] = {coordinates = 68473435, label = L['platform_2_label']},
+    [3] = {coordinates = 73554291, label = L['platform_3_label']},
+    [4] = {coordinates = 68785101, label = L['platform_4_label']},
+    [5] = {coordinates = 73566535, label = L['platform_5_label']},
+    [6] = {coordinates = 60247171, label = L['platform_6_label']},
+    [7] = {coordinates = 47937902, label = L['platform_7_label']}
+}
+
+for _, platform in ipairs(PLATFORMS) do
+    karazhanCatacombs.nodes[platform.coordinates] = RattsRevenge({
+        icon = 'peg_rd',
+        label = platform.label,
+        note = L['lock_platform_note'],
+        quest = 84837, -- hidden
+        questDeps = {
+            84829, -- Ancient Shaman Blood
+            84830 -- Warden's Mirror
+        }
+    })
+end
 
 -------------------------------------------------------------------------------
 -------------------------------- 9 O'CLOCK ORB --------------------------------

@@ -481,6 +481,17 @@ L['orb_8_label'] = '8号球'
 L['enigma_machine_label'] = nil
 L['enigma_machine_note'] = nil
 
+L['lock_statue_note'] = nil
+L['lock_platform_note'] = nil
+
+L['platform_1_label'] = nil
+L['platform_2_label'] = nil
+L['platform_3_label'] = nil
+L['platform_4_label'] = nil
+L['platform_5_label'] = nil
+L['platform_6_label'] = nil
+L['platform_7_label'] = nil
+
 -- Orb 9
 L['orb_9_label'] = '9号球'
 
