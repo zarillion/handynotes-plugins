@@ -467,31 +467,31 @@ L['chest_of_acquisitions_note'] = '1. Apaisez tous les esprits présents aux aut
 
 -- Orb 7
 L['orb_7_label'] = 'Orbe 7'
-L['orb_7_summary'] = nil
+L['orb_7_summary'] = '1. Rendez-vous d\'abord sur l\'{location:île du Guet} à {location:Azsuna}.\n\n2. Renforcez votre {pet:1716} avec les différentes statues de {object:Hiboux des guetteurs} situées sur l\'île.\n\n3. Entrez dans le {location:Caveau des Gardiennes} et battez les boss pour révéler une {item:229046} secrète.\n\n4. Utilisez la {item:229046} pour commencer un puzzle de logique complexe et finalement faire apparaître un coffre contenant le {item:229054}.'
 
-L['marin_bladewing_note'] = nil
+L['marin_bladewing_note'] = 'Achetez le {pet:1716} à {npc:107379} contre %s après être devenu %s avec les {faction:1894}, ou bien à l\'{location:Hôtel des ventes}.'
 L['owl_of_the_watchers_label'] = 'Hibou des guetteurs'
-L['owl_of_the_watchers_note'] = '{note:Seules 3 statues sont actives à la fois.}\n\nPlacez-vous près d\'une statue active avec votre {pet:1716} invoqué pour obtenir les 4 améliorations :\n\n{spell:225049}\n{spell:225038}\n{spell:223160}\n{spell:225059}.\n\nUne fois que votre {pet:1716} a été renforcé, entrez dans le donjon {location:Caveau des Gardiennes}.'
+L['owl_of_the_watchers_note'] = '{note:Seules 3 statues sont actives à la fois.}\n\nPlacez-vous près d\'une statue active avec votre {pet:1716} invoqué pour obtenir les 4 améliorations :\n\n{spell:225049} {dot:Red}\n{spell:225038} {dot:Purple}\n{spell:223160} {dot:Green}\n{spell:225059} {dot:Blue}\n\nUne fois que votre {pet:1716} a été renforcé, entrez dans le donjon {location:Caveau des Gardiennes}.'
 
-L['sentry_statue_note'] = nil
-L['sentry_note'] = nil
+L['sentry_statue_note'] = '1. Vainquez {npc:95885} pour ouvrir la pièce secrète dans la {location:Chambre de la Nuit}.\n\n2. Vainquez les autres boss, y compris {npc:95888}.\n\n3. Ramenez la {spell:204481} et votre {pet:1716} dans la pièce secrète pour faire apparaître la {item:229046}.\n\n4. Apportez la {item:229046} dans la salle de {npc:95887}.'
+L['sentry_note'] = '1. Placez la {item:229046} ici à l\'entrée pour faire apparaître un {npc:109300}.\n\n2. Interagissez avec le {npc:109300} pour commencer le puzzle. Le but est de faire descendre tous les {npc:98082} dans le sol.\n\n3. Une fois terminé, fouillez le {object:Trésor des gardiens} pour recevoir le {item:229054}.'
 
 -- Orb 8
 L['orb_8_label'] = 'Orbe 8'
 
-L['enigma_machine_label'] = nil
+L['enigma_machine_label'] = 'Machine à énigme'
 L['enigma_machine_note'] = nil
 
-L['lock_statue_note'] = nil
-L['lock_platform_note'] = nil
+L['lock_statue_note'] = 'Déplacez cette statue jusqu\'à une plate-forme.'
+L['lock_platform_note'] = 'Déplacez des statues jusqu\'à cette plate-forme.'
 
-L['platform_1_label'] = nil
-L['platform_2_label'] = nil
-L['platform_3_label'] = nil
-L['platform_4_label'] = nil
-L['platform_5_label'] = nil
-L['platform_6_label'] = nil
-L['platform_7_label'] = nil
+L['platform_1_label'] = 'Platforme 1'
+L['platform_2_label'] = 'Platforme 2'
+L['platform_3_label'] = 'Platforme 3'
+L['platform_4_label'] = 'Platforme 4'
+L['platform_5_label'] = 'Platforme 5'
+L['platform_6_label'] = 'Platforme 6'
+L['platform_7_label'] = 'Platforme 7'
 
 -- Orb 9
 L['orb_9_label'] = 'Orbe 9'
