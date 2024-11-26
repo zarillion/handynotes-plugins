@@ -478,9 +478,8 @@ L['sentry_note'] = '1. Coloca la {item:229046} aquí en la entrada para hacer ap
 -- Orb 8
 L['orb_8_label'] = 'Orbe 8'
 
-L['enigma_machine_label'] = nil
-L['enigma_machine_note'] = nil
-
+L['enigma_machine_label'] = 'Máquina de enigmas'
+L['enigma_machine_note'] = '1. Inserta la {item:229007} y el {item:229054} dentro de la {object:Máquina de enigmas}.\n\n2. Haz click en Empezar y después click en Enviar. Debes abrir 7 cerraduras ocultas.\n\n3. Abre una cerradura contando cada {npc:230596} de la instancia, arrastrando la cantidad correcta de estatuas a la plataforma correcta, y haciendo click en Enviar de nuevo.\n\n{note:Se recomienda matar, pero no contar, cada {npc:230599} para evitar que se paren en las plataformas.}'
 L['lock_statue_note'] = 'Arrastra esta estatua a una plataforma.'
 L['lock_platform_note'] = 'Arrastra estatuas a esta plataforma.'
 
@@ -493,7 +492,7 @@ L['platform_6_label'] = 'Plataforma 6'
 L['platform_7_label'] = 'Plataforma 7'
 
 L['rats_label'] = 'Ratas'
-L['lock_label'] = 'Bloqueo %d'
+L['lock_label'] = 'Cerradura %d'
 L['code_label'] = '%d en la %s'
 
 -- Orb 9
