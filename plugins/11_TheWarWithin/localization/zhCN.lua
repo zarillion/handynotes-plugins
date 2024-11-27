@@ -461,7 +461,7 @@ L['lust_altar_note'] = '{object:%s}：{pet:1628}\n\n{object:%s}：{item:129211}\
 L['sin_altar_note'] = '{object:%s}：{pet:2966}\n\n{object:%s}：{item:183986}\n\n{object:%s}：任意温西尔罪碑披风幻化'
 L['void_altar_note'] = '{object:%s}：{pet:1234}，{pet:2434}，或 {pet:4543}\n\n{object:%s}：{item:119003} 和 {item:174830}\n\n{object:%s}：任何与 {item:24252} 外观相同的披风'
 
-L['chest_of_acquisitions_label'] = '收藏品宝箱'
+L['chest_of_acquisitions_label'] = '收获宝箱'
 L['chest_of_acquisitions_note'] = '1. 安抚 {location:北荆棘谷} 的 {location:祖尔格拉布} 祭坛上的所有灵魂。\n\n2. 装备 {item:228966} 并拾取 {object:收藏品宝箱} 以获得 {item:229007}。'
 
 -- Orb 7
