@@ -444,7 +444,7 @@ northernStranglethorn.nodes[77084631] = RattsRevenge({
     label = L['blood_altar_label'],
     note = L['altar_note'] .. '\n\n' ..
         format(L['blood_altar_note'], L['mount'], L['pet'], L['toy']),
-    quest = 64809, -- hidden
+    quest = 84809, -- hidden
     requires = TORCH -- Torch of Pyrreth
 }) -- Blood Altar
 
