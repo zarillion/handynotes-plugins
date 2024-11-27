@@ -470,7 +470,7 @@ L['orb_7_summary'] = '1. Begin at on the {location:Isle of the Watchers} in {loc
 
 L['marin_bladewing_note'] = 'Purchase the {pet:1716} from {npc:107379} for %s after reaching %s with {faction:1894} or from the {location:Auction House}.'
 L['owl_of_the_watchers_label'] = 'Owl of the Watchers'
-L['owl_of_the_watchers_note'] = '{note:Only 3 statues are active at one time.}\n\nStand near an active statue with your {pet:1716} summoned to collect all 4 buffs:\n\n{spell:225049} {dot:Red}\n{spell:225038} {dot:Purple}\n{spell:223160} {dot:Green}\n{spell:225059} {dot:Blue}\n\nOnce your {pet:1716} is empowered, enter the {location:Vault of the Wardens} dungeon.'
+L['owl_of_the_watchers_note'] = '{note:Only 3 statues are active at one time.}\n\nStand near an active statue with your {pet:1716} summoned to collect all 4 buffs:\n\n{spell:225049} {dot:Red}\n{spell:225038} {dot:Purple}\n{spell:223160} {dot:Green}\n{spell:225059} {dot:Blue}\n\nOnce your {pet:1716} is empowered,\n\n{note:{pet:1716} is followed by white smoke}\n\nEnter the {location:Vault of the Wardens} dungeon.'
 
 L['sentry_statue_note'] = '1. Defeat {npc:95885} to open the secret room within the {location:Chamber of Night}.\n\n2. Defeat the remaining bosses including {npc:95888}.\n\n3. Bring the {spell:204481} back to the secret room along with your {pet:1716} to spawn the {item:229046}.\n\n4. Bring the {item:229046} to {npc:95887} room.'
 L['sentry_note'] = '1. Place the {item:229046} here at the entrance to spawn a {npc:109300}.\n\n2. Interact with the {npc:109300} to begin the puzzle. The goal is to lower all {npc:98082} into the floor.\n\n3. Once complete, loot the {object:Treasure of the Wardens} to recieve the {item:229054}.'

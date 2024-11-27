@@ -468,12 +468,12 @@ L['chest_of_acquisitions_note'] = '1. 安抚 {location:北荆棘谷} 的 {locati
 L['orb_7_label'] = '7号球'
 L['orb_7_summary'] = '从 {location:阿苏纳} 的 {location:守望岛} 开始。\n\n2. 使用岛上各式各样的 {object:看守者猫头鹰} 雕像增强您的 {pet:1716} 的能力。\n\n3. 进入 {location:守望者地窟} 并击败首领以揭开秘密 {item:229046}。\n\n4. 使用 {item:229046} 开始具有挑战性的逻辑谜题并最终揭开一个装有 {item:229054} 的宝箱。'
 
-L['marin_bladewing_note'] = '与 {faction:1894} 到达 %s 后，从 {npc:107379} 处以 %s 购买 {pet:1716}，或者从 {location:拍卖行} 购买。'
+L['marin_bladewing_note'] = '与 {faction:1894} 到达 %2$s 后，从 {npc:107379} 处以 %1$s 购买 {pet:1716}，或者从 {location:拍卖行} 购买。'
 L['owl_of_the_watchers_label'] = '看守者猫头鹰'
-L['owl_of_the_watchers_note'] = '{note:每次只能激活3个雕像。\n\n站在激活的雕像附近，召唤出 {pet:1716} 来收集全部4个增益：\n\n{spell:225049}\n{spell:225038}\n{spell:223160}\n{spell:225059}。\n\n一旦 {pet:1716} 获得强化，即可进入 {location:守望者地窟} 地下城。'
+L['owl_of_the_watchers_note'] = '{note:每次只能激活3个雕像。}\n\n站在激活的雕像附近，召唤出 {pet:1716} 来收集全部4个增益：\n\n{spell:225049}\n{spell:225038}\n{spell:223160}\n{spell:225059}。\n\n一旦 {pet:1716} 获得强化，\n\n{note:{pet:1716} 被白色烟雾跟随}\n\n即可进入 {location:守望者地窟} 地下城。'
 
 L['sentry_statue_note'] = '1. 击败 {npc:95885} 以打开 {location:暗夜大厅} 内的秘密房间。\n\n2. 击败其余首领，包括 {npc:95888}。\n\n3. 将 {spell:204481} 和 {pet:1716} 带回秘密房间将出现 {item:229046}。\n\n4. 将 {item:229046} 带到 {npc:95887} 房间。'
-L['sentry_note'] = '1. 将 {item:229046} 放在入口处将出现 {npc:109300}。\n\n2. 与 {npc:109300} 互动以开始解谜。目标是将所有 {npc:98082} 放入地板。\n\n3. 完成后，拾取 {object:守望者宝箱} 获得 {item:229054}。'
+L['sentry_note'] = '1. 将 {item:229046} 放在入口处将出现 {npc:109300}。\n\n2. 与 {npc:109300} 互动以开始解谜。目标是将所有 {npc:98082} 放入地板。\n\n3. 完成后，拾取 {object:守望者的珍宝} 获得 {item:229054}。'
 
 -- Orb 8
 L['orb_8_label'] = '8号球'
