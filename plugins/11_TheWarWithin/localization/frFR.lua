@@ -471,7 +471,7 @@ L['orb_7_summary'] = '1. Rendez-vous d\'abord sur l\'{location:île du Guet} à 
 
 L['marin_bladewing_note'] = 'Achetez le {pet:1716} à {npc:107379} contre %s après être devenu %s avec les {faction:1894}, ou bien à l\'{location:Hôtel des ventes}.'
 L['owl_of_the_watchers_label'] = 'Hibou des guetteurs'
-L['owl_of_the_watchers_note'] = '{note:Seules 3 statues sont actives à la fois.}\n\nPlacez-vous près d\'une statue active avec votre {pet:1716} invoqué pour obtenir les 4 améliorations :\n\n{spell:225049} {dot:Red}\n{spell:225038} {dot:Purple}\n{spell:223160} {dot:Green}\n{spell:225059} {dot:Blue}\n\nUne fois que votre {pet:1716} a été renforcé, entrez dans le donjon {location:Caveau des Gardiennes}.'
+L['owl_of_the_watchers_note'] = '{note:Seules 3 statues sont actives à la fois.}\n\nPlacez-vous près d\'une statue active avec votre {pet:1716} invoqué pour obtenir les 4 améliorations :\n\n{spell:225049} {dot:Red}\n{spell:225038} {dot:Purple}\n{spell:223160} {dot:Green}\n{spell:225059} {dot:Blue}\n\nUne fois que votre {pet:1716} aura été renforcé ({note:Un effet blanc lumineux sera présent au-dessus de lui}), entrez dans le donjon {location:Caveau des Gardiennes}.'
 
 L['sentry_statue_note'] = '1. Vainquez {npc:95885} pour ouvrir la pièce secrète dans la {location:Chambre de la Nuit}.\n\n2. Vainquez les autres boss, y compris {npc:95888}.\n\n3. Ramenez la {spell:204481} et votre {pet:1716} dans la pièce secrète pour faire apparaître la {item:229046}.\n\n4. Apportez la {item:229046} dans la salle de {npc:95887}.'
 L['sentry_note'] = '1. Placez la {item:229046} ici à l\'entrée pour faire apparaître un {npc:109300}.\n\n2. Interagissez avec le {npc:109300} pour commencer le puzzle. Le but est de faire descendre tous les {npc:98082} dans le sol.\n\n3. Une fois terminé, fouillez le {object:Trésor des gardiens} pour recevoir le {item:229054}.'
@@ -480,7 +480,7 @@ L['sentry_note'] = '1. Placez la {item:229046} ici à l\'entrée pour faire appa
 L['orb_8_label'] = 'Orbe 8'
 
 L['enigma_machine_label'] = 'Machine à énigme'
-L['enigma_machine_note'] = nil
+L['enigma_machine_note'] = '1. Insérez le {item:229007} et le {item:229054} dans la {object:Machine à énigme}.\n\n2. Cliquez sur COMMENCER, puis sur ENVOYER. Vous devez maintenant débloquer 7 verrous cachés.\n\n3. Débloquez un verrou en comptant chaque {npc:230596} dans l\'instance, puis en déplaçant le bon nombre de statues sur la bonne plateforme, et enfin en cliquant à nouveau sur ENVOYER.\n\n{note:Il est recommandé de tuer, mais pas de compter, chaque {npc:230599} pour les empêcher de marcher sur les plateformes.}'
 
 L['lock_statue_note'] = 'Déplacez cette statue jusqu\'à une plate-forme.'
 L['lock_platform_note'] = 'Déplacez des statues jusqu\'à cette plate-forme.'
@@ -493,9 +493,9 @@ L['platform_5_label'] = 'Plateforme 5'
 L['platform_6_label'] = 'Plateforme 6'
 L['platform_7_label'] = 'Plateforme 7'
 
-L['rats_label'] = nil
-L['lock_label'] = nil
-L['code_label'] = nil
+L['rats_label'] = 'Rats'
+L['lock_label'] = 'Verrou %d'
+L['code_label'] = '%d sur %s'
 
 -- Orb 9
 L['orb_9_label'] = 'Orbe 9'
