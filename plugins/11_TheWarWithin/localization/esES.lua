@@ -470,7 +470,7 @@ L['orb_7_summary'] = '1. Comienza en la {location:Isla de los Vigías} en {locat
 
 L['marin_bladewing_note'] = 'Compra {pet:1716} a {npc:107379} por %s tras llegar a %s con {faction:1894} o en la {location:Casa de Subastas}.'
 L['owl_of_the_watchers_label'] = 'Búho de los Vigías'
-L['owl_of_the_watchers_note'] = '{note:Sólo hay 3 estatuas activas a la vez.}\n\nQuédate quieto cerca de una estatua activa con tu {pet:1716} invocada para conseguir los 4 buffs:\n\n{spell:225049}\n{spell:225038}\n{spell:223160}\n{spell:225059}.\n\nUna vez tu {pet:1716} esté potenciada, entra en la mazmorra {location:Cámara de las Celadoras}.'
+L['owl_of_the_watchers_note'] = '{note:Sólo hay 3 estatuas activas a la vez.}\n\nQuédate quieto cerca de una estatua activa con tu {pet:1716} invocada para conseguir los 4 buffs:\n\n{spell:225049}\n{spell:225038}\n{spell:223160}\n{spell:225059}.\n\nUna vez que tu {pet:1716} esté potenciada ({note:Aparecerá un efecto blanco brillante encima}), entra en la mazmorra {location:Cámara de las Celadoras}.'
 
 L['sentry_statue_note'] = '1. Derrota a {npc:95885} para abrir la habitación secreta dentro de la {location:Cámara de la Noche}.\n\n2. Derrota a los bosses restantes, incluida {npc:95888}.\n\n3. Lleva la {spell:204481} de vuelta a la habitación secreta junto a tu {pet:1716} para hacer aparecer la {item:229046}.\n\n4. Lleva la {item:229046} a la sala de {npc:95887}.'
 L['sentry_note'] = '1. Coloca la {item:229046} aquí en la entrada para hacer aparecer a una {npc:109300}.\n\n2. Interactúa con la {npc:109300} para comenzar el puzzle. El objetivo es bajar todas las {npc:98082} al suelo.\n\n3. Una vez completado, despoja el {object:Tesoro de las Celadoras} para conseguir el {item:229054}.'
