@@ -479,7 +479,7 @@ L['sentry_note'] = '1. 将 {item:229046} 放在入口处将出现 {npc:109300}�
 L['orb_8_label'] = '8号球'
 
 L['enigma_machine_label'] = '谜之机械'
-L['enigma_machine_note'] = '1. 将 {item:229007} 和 {item:229054} 插入 {object:谜之机械}。\n\n2. 单击“开始”，然后单击“提交”。您现在必须解锁7个隐藏的锁。\n\n3. 通过计算副本中的每个 {npc:230596}、将正确数量的雕像拖到正确的平台上并再次单击“提交”来解锁锁。\n\n{note:建议杀死每个 {npc:230599}，但不计算，以防止他们站在平台上。}' -- DO NOT TRANSLATE. NOT FINISHED YET.
+L['enigma_machine_note'] = '1. 将 {item:229007} 和 {item:229054} 插入 {object:谜之机械}。\n\n2. 单击“开始”，然后单击“提交”。您现在必须解锁7个隐藏的锁。\n\n3. 通过计算副本中的每个 {npc:230596}、将正确数量的雕像拖到正确的平台上并再次单击“提交”来解锁。\n\n{note:建议杀死每个 {npc:230599}，但不计算，以防止他们站在平台上。}' -- DO NOT TRANSLATE. NOT FINISHED YET.
 
 L['lock_statue_note'] = '拖拽此雕像到一个平台。'
 L['lock_platform_note'] = '拖拽雕像到此平台。'
@@ -494,7 +494,7 @@ L['platform_7_label'] = '平台7'
 
 L['rats_label'] = '老鼠'
 L['lock_label'] = '锁定 %d'
-L['code_label'] = '%d 于 %s'
+L['code_label'] = '将 %d 个雕像置于 %s'
 
 -- Orb 9
 L['orb_9_label'] = '9号球'
