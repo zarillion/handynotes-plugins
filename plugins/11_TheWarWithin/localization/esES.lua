@@ -360,7 +360,7 @@ L['thunderous_runekey_note'] = 'Requiere 5x {item:232605} encontrados en {note:c
 L['cyclonic_runekey_note'] = 'Botín de {npc:231357} en el {location:Fangal Aletamuerte} de la {location:Isla de la Sirena} durante una tormenta.'
 L['turbulent_runekey_note'] = 'Requiere 3x {item:234327} encontrados dispersos a lo largo de la {location:Isla de la Sirena} durante una tormenta.'
 
-L['turbulent_fragment_a'] = 'Behind the abandoned in, digging the garden.'
+L['turbulent_fragment_a'] = 'Detrás de la posada abandonada, cavando en el jardín.'
 L['turbulent_fragment_b'] = 'Dentro de una cueva en el {location:Hoyo Hediondo}.'
 L['turbulent_fragment_c'] = 'Dentro de la {location:Cueva del Espíritu Marcado}.'
 
