@@ -347,6 +347,26 @@ L['tuk_chest_2_note'] = '{note:Only available in the "Runaway Evolution" and "To
 L['tuk_chest_3_note'] = '{note:Only available in the "Runaway Evolution" and "Weaver Rescue" story variants.}'
 
 -------------------------------------------------------------------------------
+--------------------------------- SIREN ISLE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['soweezi_note'] = 'Exchange {currency:3090} for a mount, toy, pet, or transmog.'
+
+L['thrayir_note_start'] = 'Collect 5x runestone keys from around the {location:Siren Isle} and complete the ritual within {location:The Forgotten Vault} to recieve {item:232639}:'
+
+L['whirling_runekey_note'] = 'Drops from the {npc:231368} in the {location:The Forgotten Vault} during a storm.'
+L['torrential_runekey_note'] = 'Drops from any mob (normal, elite, or rare) on {location:Siren Isle} during a storm.'
+L['thunderous_runekey_note'] = 'Requires 5x {item:232605} found with {note:any} chest on the {location:Siren Isle}. {note:Does not require a storm}.'
+L['cyclonic_runekey_note'] = 'Drops from {npc:231357} in the {location:Deadfin Mire} on {location:Siren Isle} during a storm.'
+L['turbulent_runekey_note'] = 'Requires 3x {item:234327} found scattered around {location:Siren Isle} during a storm.'
+
+L['turbulent_fragment_a'] = 'Behind the abandoned in, digging the garden.'
+L['turbulent_fragment_b'] = 'Inside a cave in the {location:Rotting Hole}.'
+L['turbulent_fragment_c'] = 'Inside the {location:Spirit-Scarred Cave}.'
+
+L['pristmatic_snapdragon_note_start'] = 'Over the course of 8 days, help save the {npc:235216} in the {location:Flotsam Shoal} to recieve {item:233489}.\n\n{note:You can miss a day but there is no catch-up mechanic}.'
+
+-------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 

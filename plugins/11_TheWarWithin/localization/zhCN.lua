@@ -347,6 +347,26 @@ L['tuk_chest_2_note'] = '{note:仅在“逃亡的进化体”和“煎熬受害�
 L['tuk_chest_3_note'] = '{note:仅在“逃亡的进化体”和“纺丝者救援”故事变种。}'
 
 -------------------------------------------------------------------------------
+--------------------------------- SIREN ISLE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['soweezi_note'] = nil
+
+L['thrayir_note_start'] = nil
+
+L['whirling_runekey_note'] = nil
+L['torrential_runekey_note'] = nil
+L['thunderous_runekey_note'] = nil
+L['cyclonic_runekey_note'] = nil
+L['turbulent_runekey_note'] = nil
+
+L['turbulent_fragment_a'] = nil
+L['turbulent_fragment_b'] = nil
+L['turbulent_fragment_c'] = nil
+
+L['pristmatic_snapdragon_note_start'] = nil
+
+-------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 

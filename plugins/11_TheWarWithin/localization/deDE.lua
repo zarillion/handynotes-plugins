@@ -350,6 +350,26 @@ L['tuk_chest_2_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersev
 L['tuk_chest_3_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Weberrettung" verfügbar.}'
 
 -------------------------------------------------------------------------------
+--------------------------------- SIREN ISLE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['soweezi_note'] = nil
+
+L['thrayir_note_start'] = nil
+
+L['whirling_runekey_note'] = nil
+L['torrential_runekey_note'] = nil
+L['thunderous_runekey_note'] = nil
+L['cyclonic_runekey_note'] = nil
+L['turbulent_runekey_note'] = nil
+
+L['turbulent_fragment_a'] = nil
+L['turbulent_fragment_b'] = nil
+L['turbulent_fragment_c'] = nil
+
+L['pristmatic_snapdragon_note_start'] = nil
+
+-------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
