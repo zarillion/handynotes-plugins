@@ -362,7 +362,7 @@ L['turbulent_runekey_note'] = 'Requires 3x {item:234327} found scattered around 
 
 L['turbulent_fragment_a'] = 'Behind the abandoned in, digging the garden.'
 L['turbulent_fragment_b'] = 'Inside a cave in the {location:Rotting Hole}.'
-L['turbulent_fragment_c'] = 'Inside the {location:Spirit-Scarred Cave}.'
+L['turbulent_fragment_c'] = 'Inside the {location:Spirit Scarred Cave}.'
 
 L['pristmatic_snapdragon_note_start'] = 'Over the course of 8 days, help save the {npc:235216} in the {location:Flotsam Shoal} to recieve {item:233489}.\n\n{note:You can miss a day but there is no catch-up mechanic}.'
 
