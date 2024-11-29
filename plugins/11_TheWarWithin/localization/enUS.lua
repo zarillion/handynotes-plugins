@@ -360,7 +360,7 @@ L['thunderous_runekey_note'] = 'Requires 5x {item:232605} found with {note:any} 
 L['cyclonic_runekey_note'] = 'Drops from {npc:231357} in the {location:Deadfin Mire} on {location:Siren Isle} during a storm.'
 L['turbulent_runekey_note'] = 'Requires 3x {item:234327} found scattered around {location:Siren Isle} during a storm.'
 
-L['turbulent_fragment_a'] = 'Behind the abandoned in, digging the garden.'
+L['turbulent_fragment_a'] = 'Behind the abandoned inn, digging the garden.'
 L['turbulent_fragment_b'] = 'Inside a cave in the {location:Rotting Hole}.'
 L['turbulent_fragment_c'] = 'Inside the {location:Spirit Scarred Cave}.'
 
