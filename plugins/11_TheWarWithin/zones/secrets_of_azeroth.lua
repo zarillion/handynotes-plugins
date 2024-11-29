@@ -25,15 +25,15 @@ local zuldazar = ns.maps[862] or Map({id = 862, settings = false})
 local desolace = ns.maps[66] or Map({id = 66, settings = false})
 local deadwindPass = ns.maps[42] or Map({id = 42, settings = false})
 local thousandNeedles = ns.maps[64] or Map({id = 64, settings = false})
-local azsuna = ns.maps[630] or Map({id = 630, settings = true})
-local howlingFjord = ns.maps[117] or Map({id = 117, settings = true})
+local azsuna = ns.maps[630] or Map({id = 630, settings = false})
+local howlingFjord = ns.maps[117] or Map({id = 117, settings = false})
 local mountHyjal = ns.maps[198] or Map({id = 198, settings = false})
 local feralas = ns.maps[69] or Map({id = 69, settings = false})
 local ashenvale = ns.maps[63] or Map({id = 63, settings = false})
 local nagrand = ns.maps[107] or Map({id = 107, settings = false})
 local ahnQiraj = ns.maps[327] or Map({id = 327, settings = false})
 local stormheim = ns.maps[634] or Map({id = 634, settings = false})
-local maldraxxus = ns.maps[1536] or Map({id = 1536, settings = true})
+local maldraxxus = ns.maps[1536] or Map({id = 1536, settings = false})
 
 -------------------------------------------------------------------------------
 --------------------------- SECRETS OF AZEROTH NODE ---------------------------
