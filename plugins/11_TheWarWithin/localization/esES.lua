@@ -350,21 +350,21 @@ L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia 
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['soweezi_note'] = nil
+L['soweezi_note'] = 'Cambia {currency:3090} por una montura, juguete, mascota, o transfiguración.'
 
-L['thrayir_note_start'] = nil
+L['thrayir_note_start'] = 'Consigue 5x llaves de piedra rúnica alrededor de la {location:Isla de la Sirena} y completa el ritual dentro de la {location:Cámara Olvidada} para conseguir {item:232639}:'
 
-L['whirling_runekey_note'] = nil
-L['torrential_runekey_note'] = nil
-L['thunderous_runekey_note'] = nil
-L['cyclonic_runekey_note'] = nil
-L['turbulent_runekey_note'] = nil
+L['whirling_runekey_note'] = 'Botín de {npc:231368} en la {location:Cámara Olvidada} durante una tormenta.'
+L['torrential_runekey_note'] = 'Botín de cualquier enemigo (normal, élite, o raro) en la {location:Isla de la Sirena} durante una tormenta.'
+L['thunderous_runekey_note'] = 'Requiere 5x {item:232605} encontrados en {note:cualquier} cofre de la {location:Isla de la Sirena}. {note:No requiere una tormenta}.'
+L['cyclonic_runekey_note'] = 'Botín de {npc:231357} en el {location:Fangal Aletamuerte} de la {location:Isla de la Sirena} durante una tormenta.'
+L['turbulent_runekey_note'] = 'Requiere 3x {item:234327} encontrados dispersos a lo largo de la {location:Isla de la Sirena} durante una tormenta.'
 
-L['turbulent_fragment_a'] = nil
-L['turbulent_fragment_b'] = nil
-L['turbulent_fragment_c'] = nil
+L['turbulent_fragment_a'] = 'Behind the abandoned in, digging the garden.'
+L['turbulent_fragment_b'] = 'Dentro de una cueva en el {location:Hoyo Hediondo}.'
+L['turbulent_fragment_c'] = 'Dentro de la {location:Cueva del Espíritu Marcado}.'
 
-L['pristmatic_snapdragon_note_start'] = nil
+L['pristmatic_snapdragon_note_start'] = 'A lo largo de 8 días, ayuda a salvar a {npc:235216} en la {location:Marisma de Derrelicto} para conseguir {item:233489}.\n\n{note:Puedes perderte un día pero no hay ningún mecanismo de recuperación}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
