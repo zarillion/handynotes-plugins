@@ -18,7 +18,7 @@ local Mount = ns.reward.Mount
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
--- local Path = ns.poi.Path
+local Path = ns.poi.Path
 
 local Green = ns.status.Green
 local Red = ns.status.Red
@@ -62,12 +62,25 @@ map.nodes[53283383] = Rare({
 map.nodes[34151392] = Rare({
     id = 228155,
     quest = nil,
-    -- pois = {
-    --     Path({}) -- Flight path
-    -- },
     rewards = {Achievement({id = 41046, criteria = 70797})},
     vignette = 6529
 }) -- Grimgull
+
+map.nodes[67391919] = Rare({
+    id = 231090,
+    quest = nil,
+    pois = {
+        Path({
+            76241995, 75511800, 74101664, 73051749, 72921982, 73032219,
+            71802335, 70302341, 69142202, 69091982, 69791776, 71391725,
+            72411596, 71771429, 70201442, 68731541, 68361738, 67391919,
+            66232079, 65602290, 65262522, 65642720, 67092752, 68472696,
+            69972597, 71162428, 72392361, 73702462, 75262397, 76222240, 76242016
+        })
+    },
+    rewards = {Achievement({id = 41046, criteria = 70799})},
+    vignette = 6607
+}) -- Snacker
 
 map.nodes[46787812] = Rare({
     id = 228151,
