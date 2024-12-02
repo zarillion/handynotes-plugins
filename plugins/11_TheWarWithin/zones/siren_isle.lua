@@ -114,6 +114,15 @@ map.nodes[67557351] = Treasure({
     }
 }) -- Unsolved Amethyst Runelock (Rune-Sealed Coffer on minimap)
 
+map.nodes[36925304] = Treasure({
+    label = '{item:233955}',
+    location = L['in_cave'],
+    pois = {Entrance({42785666})},
+    rewards = {
+        Transmog({item = 233955, slot = L['2h_axe']}) -- Iron Mining Pick
+    }
+}) -- Iron Mining Pick
+
 -------------------------------------------------------------------------------
 ----------------------------------- VENDOR ------------------------------------
 -------------------------------------------------------------------------------
