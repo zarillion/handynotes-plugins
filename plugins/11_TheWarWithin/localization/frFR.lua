@@ -351,21 +351,21 @@ L['tuk_chest_3_note'] = '{note:Disponible uniquement pendant les variantes d’h
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['soweezi_note'] = nil
+L['soweezi_note'] = 'Échangez vos {currency:3090} contre une monture, un jouet, une mascotte ou des objets de transmogrification.'
 
-L['thrayir_note_start'] = nil
+L['thrayir_note_start'] = 'Récupérez 5 clés runiques dispersées sur l\'{location:Île aux Sirènes} et accomplissez le rituel dans {location:La chambre Oubliée} pour recevoir {item:232639} :'
 
-L['whirling_runekey_note'] = nil
-L['torrential_runekey_note'] = nil
-L['thunderous_runekey_note'] = nil
-L['cyclonic_runekey_note'] = nil
-L['turbulent_runekey_note'] = nil
+L['whirling_runekey_note'] = 'Lâchée par {npc:231368} dans {location:La chambre Oubliée} lors d\'une tempête.'
+L['torrential_runekey_note'] = 'Lâchée par n\'importe quel monstre (normal, élite ou rare) sur l\'{location:Île aux Sirènes} lors d\'une tempête.'
+L['thunderous_runekey_note'] = 'Nécessite 5x {item:232605} trouvés dans {note:n\'importe quel} coffre sur l\'{location:Île aux Sirènes}. {note:Ne nécessite pas de tempête}.'
+L['cyclonic_runekey_note'] = 'Lâchée par {npc:231357} dans le {location:Bourbier Nageffroi} sur l\'{location:Île aux Sirènes} lors d\'une tempête.'
+L['turbulent_runekey_note'] = 'Nécessite 3x {item:234327} dispersés sur l\'{location:Île aux Sirènes} lors d\'une tempête.'
 
-L['turbulent_fragment_a'] = nil
-L['turbulent_fragment_b'] = nil
-L['turbulent_fragment_c'] = nil
+L['turbulent_fragment_a'] = 'Derrière l\'auberge abandonnée, en fouillant le jardin.'
+L['turbulent_fragment_b'] = 'A l\'intérieur d\'une grotte dans le {location:Compostier}.'
+L['turbulent_fragment_c'] = 'A l\'intérieur de la {location:Grotte ravagée par les esprits}.'
 
-L['pristmatic_snapdragon_note_start'] = nil
+L['pristmatic_snapdragon_note_start'] = 'Pendant 8 jours, contribuez à sauver le {npc:235216} au {location:Brisants des Débris} pour recevoir le {item:233489}.\n\n{note:Vous pouvez manquer un jour mais il n\'y a pas de système de rattrapage}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
