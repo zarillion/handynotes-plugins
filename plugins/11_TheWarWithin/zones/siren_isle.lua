@@ -18,6 +18,7 @@ local Mount = ns.reward.Mount
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
+local Entrance = ns.poi.Entrance
 local Path = ns.poi.Path
 
 local Green = ns.status.Green
@@ -188,7 +189,11 @@ local TurbulentFragment = Class('TurbulentFragment', Collectible, {
 
 map.nodes[38195178] = TurbulentFragment({location = L['turbulent_fragment_a']})
 map.nodes[67087844] = TurbulentFragment({location = L['turbulent_fragment_b']})
-map.nodes[52393859] = TurbulentFragment({location = L['turbulent_fragment_c']})
+
+map.nodes[52393859] = TurbulentFragment({
+    location = L['turbulent_fragment_c'],
+    pois = {Entrance({50644142})}
+})
 
 ------------------------ MOUNT: PRISTMATIC SNAPDRAGON -------------------------
 
