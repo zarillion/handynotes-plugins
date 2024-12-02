@@ -36,22 +36,32 @@ local tfv = Map({id = 2375, settings = false}) -- The Forgotten Vault
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- Achievement({
---     id = 41046,
---     criteria = {
---         70791, -- Nerathor
---         70792, -- Gravesludge
---         70793, -- Stalagnarok
---         70794, -- Bloodbrine
---         70795, -- Shardsong
---         70798, -- Gunnlod the Sea-Drinker
---         70799, -- Snacker
---         70801, -- Coralweaver Calliso
---         70802, -- Siris the Sea Scorpion
---         70803, -- Chef Chum Platter
---         70804, -- Plank-Master Bluebelly
---     }
--- }) -- Clean Up on Isle Siren
+map.nodes[26206546] = Rare({
+    id = 229982,
+    location = L['in_cave'],
+    quest = nil,
+    pois = {Entrance({31756503})},
+    rewards = {Achievement({id = 41046, criteria = 70791})},
+    vignette = 6754
+}) -- Nerathor
+
+map.nodes[57726612] = Rare({
+    id = 228201,
+    location = L['in_cave'],
+    quest = nil,
+    pois = {Entrance({61477357})},
+    rewards = {Achievement({id = 41046, criteria = 70792})},
+    vignette = 6517
+}) -- Gravesludge
+
+map.nodes[37115497] = Rare({
+    id = 229992,
+    location = L['in_cave'],
+    quest = nil,
+    pois = {Entrance({42785666})},
+    rewards = {Achievement({id = 41046, criteria = 70793})},
+    vignette = 6610
+}) -- Stalagnarok
 
 -- map.nodes[00000000] = Rare({
 --     id = 228154,
