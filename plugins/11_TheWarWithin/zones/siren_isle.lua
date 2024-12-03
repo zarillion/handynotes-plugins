@@ -209,6 +209,15 @@ map.nodes[69984855] = Vendor({
 -------------------------------- MISCELLEANOUS --------------------------------
 -------------------------------------------------------------------------------
 
+local GrapplingHold = Class('GrapplingHold', Node, {
+    label = '{npc:233171}',
+    icon = 'peg_bk',
+    scale = 1.5
+}) -- Grappling Hold
+
+map.nodes[52592426] = GrapplingHold()
+map.nodes[50322016] = GrapplingHold()
+
 ---------------------- MOUNT: THRAYIR, EYES OF THE SIREN ----------------------
 
 local Thrayir = Class('Thrayir', Collectible, {
