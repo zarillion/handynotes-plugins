@@ -19,6 +19,7 @@ local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
+local Circle = ns.poi.Circle
 local Entrance = ns.poi.Entrance
 local Path = ns.poi.Path
 
@@ -64,6 +65,32 @@ local map = StormMap({id = 2369, settings = true})
 local tfv = StormMap({id = 2375, settings = false}) -- The Forgotten Vault
 
 -------------------------------------------------------------------------------
+--------------------------------- VAULT NODES ---------------------------------
+-------------------------------------------------------------------------------
+
+local tfv_parent = {
+    id = map.id,
+    pois = {
+        Entrance({45992076}), Path({Circle({origin = 45992076, radius = 2})})
+    }
+}
+
+local VaultRare = Class('VaultRare', Rare, {
+    location = L['within_the_forgotten_vault'],
+    parent = tfv_parent
+}) -- Vault Rare
+
+local VaultTreasure = Class('VaultTreasure', Treasure, {
+    location = L['within_the_forgotten_vault'],
+    parent = tfv_parent
+}) -- Vault Treasure
+
+local VaultCollectible = Class('VaultCollectible', Collectible, {
+    location = L['within_the_forgotten_vault'],
+    parent = tfv_parent
+}) -- Vault Collectible
+
+-------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
@@ -101,9 +128,9 @@ map.nodes[37115497] = Rare({
 --     vignette = 6530
 -- }) -- Bloodbrine
 
+tfv.nodes[28072475] = VaultRare({
     id = 227550,
     quest = nil,
-    parent = {id = map.id, pois = {Entrance({45992076})}},
     rewards = {Achievement({id = 41046, criteria = 70795})},
     vignette = 6666
 }) -- Shardsong
@@ -130,11 +157,9 @@ map.nodes[34151392] = Rare({
     vignette = 6529
 }) -- Grimgull
 
-tfv.nodes[66465635] = Rare({
+tfv.nodes[66465635] = VaultRare({
     id = 228159,
-    location = L['within_the_forgotten_vault'],
     quest = nil,
-    parent = {id = map.id, pois = {Entrance({45992076})}},
     rewards = {Achievement({id = 41046, criteria = 70798})},
     vignette = 6527
 }) -- Gunnlod the Sea-Drinker
@@ -221,10 +246,8 @@ map.nodes[33027359] = Rare({
     vignette = 6617
 }) -- Zek'ul the Shipbreaker
 
-tfv.nodes[37967648] = Rare({
+tfv.nodes[37967648] = VaultRare({
     id = 231368,
-    location = L['within_the_forgotten_vault'],
-    parent = {id = map.id, pois = {Entrance({45992076})}},
     quest = nil,
     rewards = {Item({item = 232571})}, -- Whirling Runekey
     storm = 1,
@@ -301,10 +324,8 @@ map.nodes[40284188] = Treasure({
     rewards = {Transmog({item = 233957, slot = L['offhand']})} -- Kul Tiran Lumberer's Hatchet
 }) -- Kul Tiran Lumberer's Hatchet
 
-tfv.nodes[26502340] = Treasure({
+tfv.nodes[26502340] = VaultTreasure({
     label = '{item:233834}',
-    location = L['within_the_forgotten_vault'],
-    parent = {id = map.id, pois = {Entrance({45992076})}},
     rewards = {Transmog({item = 233834, slot = L['dagger']})} -- Stone Carver's Scramseax
 }) -- Stone Carver's Scramseax
 
@@ -338,10 +359,8 @@ map.nodes[60726280] = Treasure({
 
 ------------------------------- MISC TREASURES --------------------------------
 
-tfv.nodes[32137944] = Treasure({
+tfv.nodes[32137944] = VaultTreasure({
     label = '{item:235017}',
-    location = L['within_the_forgotten_vault'],
-    parent = {id = map.id, pois = {Entrance({45992076})}},
     rewards = {Toy({item = 235017})} -- Glittering Vault Shard
 }) -- Glittering Vault Shard
 
@@ -393,11 +412,9 @@ map.nodes[55621466] = Node({
 
 ---------------------- MOUNT: THRAYIR, EYES OF THE SIREN ----------------------
 
-local Thrayir = Class('Thrayir', Collectible, {
+local Thrayir = Class('Thrayir', VaultCollectible, {
     icon = 897087,
     label = '{item:232639}',
-    location = L['within_the_forgotten_vault'],
-    parent = {id = map.id, pois = {Entrance({45992076})}},
     requires = {
         ns.requirement.Item(232571), -- whirling Runekey
         ns.requirement.Item(232572), -- Torrential Runekey
