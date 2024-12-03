@@ -71,12 +71,14 @@ map.nodes[37115497] = Rare({
 --     vignette = 6530
 -- }) -- Bloodbrine
 
--- map.nodes[00000000] = Rare({
---     id = 227550,
---     quest = nil,
---     rewards = {Achievement({id = 41046, criteria = 70795})},
---     vignette = 6666
--- }) -- Shardsong
+tfv.nodes[28072475] = Rare({
+    id = 227550,
+    location = L['within_the_forgotten_vault'],
+    quest = nil,
+    parent = {id = map.id, pois = {Entrance({45992076})}},
+    rewards = {Achievement({id = 41046, criteria = 70795})},
+    vignette = 6666
+}) -- Shardsong
 
 map.nodes[53283383] = Rare({
     id = 228601,
@@ -100,12 +102,14 @@ map.nodes[34151392] = Rare({
     vignette = 6529
 }) -- Grimgull
 
--- map.nodes[00000000] = Rare({
---     id = 228159,
---     quest = nil,
---     rewards = {Achievement({id = 41046, criteria = 70798})},
---     vignette = 6527
--- }) -- Gunnlod the Sea-Drinker
+tfv.nodes[66465635] = Rare({
+    id = 228159,
+    location = L['within_the_forgotten_vault'],
+    quest = nil,
+    parent = {id = map.id, pois = {Entrance({45992076})}},
+    rewards = {Achievement({id = 41046, criteria = 70798})},
+    vignette = 6527
+}) -- Gunnlod the Sea-Drinker
 
 map.nodes[67391919] = Rare({
     id = 231090,
@@ -222,6 +226,13 @@ map.nodes[40284188] = Treasure({
     rewards = {Transmog({item = 233957, slot = L['offhand']})} -- Kul Tiran Lumberer's Hatchet
 }) -- Kul Tiran Lumberer's Hatchet
 
+tfv.nodes[26502340] = Treasure({
+    label = '{item:233834}',
+    location = L['within_the_forgotten_vault'],
+    parent = {id = map.id, pois = {Entrance({45992076})}},
+    rewards = {Transmog({item = 233834, slot = L['dagger']})} -- Stone Carver's Scramseax
+}) -- Stone Carver's Scramseax
+
 ------------------- MYSTERIOUS BOOKS (NO REWARD / NO QUEST) -------------------
 
 map.nodes[39785249] = Treasure({
@@ -303,7 +314,8 @@ map.nodes[55621466] = Node({
 local Thrayir = Class('Thrayir', Collectible, {
     icon = 897087,
     label = '{item:232639}',
-    parent = map,
+    location = L['within_the_forgotten_vault'],
+    parent = {id = map.id, pois = {Entrance({45992076})}},
     requires = {
         ns.requirement.Spell(458069), -- Seafury Tempest
         ns.requirement.Item(232571), -- whirling Runekey

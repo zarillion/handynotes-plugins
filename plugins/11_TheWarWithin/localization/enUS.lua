@@ -350,6 +350,8 @@ L['tuk_chest_3_note'] = '{note:Only available in the "Runaway Evolution" and "We
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['within_the_forgotten_vault'] = 'Within {location:The Forgotten Vault}.'
+
 L['runed_storm_chest_label'] = 'Runed Storm Chest'
 L['runed_storm_chest_suffix'] = 'chests opened'
 L['runed_storm_chest_note'] = 'Follow the wind to a hidden {object:Runed Storm Chest} and reveal it with {spell:472051}.'

@@ -352,6 +352,7 @@ L['tuk_chest_3_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersev
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
+L['within_the_forgotten_vault'] = nil
 
 L['runed_storm_chest_label'] = nil
 L['runed_storm_chest_suffix'] = nil

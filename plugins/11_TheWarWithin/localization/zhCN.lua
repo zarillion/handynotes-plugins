@@ -350,6 +350,8 @@ L['tuk_chest_3_note'] = '{note:仅在“逃亡的进化体”和“纺丝者救�
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['within_the_forgotten_vault'] = nil
+
 L['runed_storm_chest_label'] = nil
 L['runed_storm_chest_suffix'] = nil
 L['runed_storm_chest_note'] = nil
