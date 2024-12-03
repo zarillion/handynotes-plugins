@@ -351,6 +351,9 @@ L['tuk_chest_3_note'] = '{note:Disponible uniquement pendant les variantes d’h
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['storm_required'] = nil
+L['slaughtershell_location'] = nil
+
 L['within_the_forgotten_vault'] = nil
 
 L['runed_storm_chest_label'] = nil

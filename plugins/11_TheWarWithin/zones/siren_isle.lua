@@ -438,13 +438,13 @@ local PristmaticSnapdragon = Class('PristmaticSnapdragon', Collectible, {
     label = '{npc:235216}',
     quest = {
         86482, -- ![A Lifeline]
-        86486, -- ![Hungry, Hungry Snapdragon] (daily)
-        86486, -- ![Hungry, Hungry Snapdragon] (daily)
+        86566, -- hidden
+        99999, -- hidden
         86483, -- ![Snap To It]
-        86486, -- ![Hungry, Hungry Snapdragon] (daily)
-        86486, -- ![Hungry, Hungry Snapdragon] (daily)
+        99999, -- hidden
+        99999, -- hidden
         86484, -- ![Temper Like A Tempest]
-        86486 -- ![Hungry, Hungry Snapdragon] (daily)
+        99999 -- hidden
     },
     requires = ns.requirement.Quest(84726), -- ![Uncovered Mysteries]
     rewards = {
@@ -466,10 +466,18 @@ function PristmaticSnapdragon.getters:label()
 end
 
 function PristmaticSnapdragon.getters:note()
+    local quest1 = format('{quest:%d}', self.quest[1])
+    local quest4 = format('{quest:%d}', self.quest[4])
+    local quest7 = format('{quest:%d}', self.quest[7])
     local note = L['pristmatic_snapdragon_note_start'] .. '\n'
-    for num, quest in ipairs(self.quest) do
-        note = note .. QuestStatus(quest, num, '{quest:' .. quest .. '}')
-    end
+    note = note .. QuestStatus(self.quest[1], 1, quest1)
+    note = note .. QuestStatus(self.quest[2], 2, '{quest:86486}')
+    note = note .. QuestStatus(self.quest[3], 3, '{quest:86486}')
+    note = note .. QuestStatus(self.quest[4], 4, quest4)
+    note = note .. QuestStatus(self.quest[5], 5, '{quest:86486}')
+    note = note .. QuestStatus(self.quest[6], 6, '{quest:86486}')
+    note = note .. QuestStatus(self.quest[7], 7, quest7)
+    note = note .. QuestStatus(self.quest[8], 8, '{quest:86486}')
     return note
 end
 

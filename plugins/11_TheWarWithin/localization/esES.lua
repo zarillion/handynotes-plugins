@@ -350,6 +350,9 @@ L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia 
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['storm_required'] = nil
+L['slaughtershell_location'] = nil
+
 L['within_the_forgotten_vault'] = 'Dentro de la {location:Cámara Olvidada}. Usa la {object:Tablilla canto} dentro de la {location:Hondonada Sacra} para entrar en la cámara.'
 
 L['runed_storm_chest_label'] = 'Cofre de tormenta rúnico'

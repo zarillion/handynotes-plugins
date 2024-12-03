@@ -350,6 +350,9 @@ L['tuk_chest_3_note'] = '{note:只能在 "逃跑者進化" 和 "織絲者救援"
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['storm_required'] = nil
+L['slaughtershell_location'] = nil
+
 L['within_the_forgotten_vault'] = nil
 
 L['runed_storm_chest_label'] = nil
