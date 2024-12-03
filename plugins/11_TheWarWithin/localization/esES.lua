@@ -350,8 +350,8 @@ L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia 
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['storm_required'] = nil
-L['slaughtershell_location'] = nil
+L['storm_required'] = 'Requiere una tormenta %s activa en la {location:Isla de la Sirena}.'
+L['slaughtershell_location'] = 'Deambula por toda la {location:Isla de la Sirena}.'
 
 L['within_the_forgotten_vault'] = 'Dentro de la {location:Cámara Olvidada}. Usa la {object:Tablilla canto} dentro de la {location:Hondonada Sacra} para entrar en la cámara.'
 
