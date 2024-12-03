@@ -175,12 +175,39 @@ map.nodes[63948729] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[67557351] = Treasure({
-    location = L['in_small_cave'], -- bejewelled puzzle but I only swap one purple gem and it solved
+------------------------------ RUNED STORM CHEST ------------------------------
+
+local RunedStormChest = Class('RunedStormChest', Collectible, {
+    icon = 'chest_yw',
+    scale = 1.5,
+    label = L['runed_storm_chest_label'],
+    note = L['runed_storm_chest_note'],
+    requires = ns.requirement.Quest(84726), -- ![Uncovered Mysteries]
     rewards = {
-        Transmog({item = 229026, type = L['leather']}) -- Earthen Deckhand's Bindings
+        Achievement({
+            id = 41131,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['runed_storm_chest_suffix']
+            }
+        })
     }
-}) -- Unsolved Amethyst Runelock (Rune-Sealed Coffer on minimap)
+}) -- Runed Storm Chest
+
+map.nodes[37327537] = RunedStormChest()
+map.nodes[60675264] = RunedStormChest()
+map.nodes[61944401] = RunedStormChest()
+map.nodes[59632015] = RunedStormChest()
+map.nodes[49201734] = RunedStormChest()
+map.nodes[39094415] = RunedStormChest()
+
+map.nodes[51523734] = RunedStormChest({
+    location = L['in_cave'],
+    pois = {Entrance({50594160})}
+})
+
+---------------------- TRANSMOG (PURPLE ITEMS IN WORLD) -----------------------
 
 map.nodes[36925304] = Treasure({
     label = '{item:233955}',
