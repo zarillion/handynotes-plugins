@@ -378,9 +378,9 @@ L['thunderous_runekey_note'] = 'Requires 5x {item:232605} found with {note:any} 
 L['cyclonic_runekey_note'] = 'Drops from {npc:231357} in the {location:Deadfin Mire} on {location:Siren Isle} during a storm.'
 L['turbulent_runekey_note'] = 'Requires 3x {item:234327} found scattered around {location:Siren Isle} during a storm.'
 
-L['turbulent_fragment_a'] = 'Behind the abandoned inn, digging the garden.'
-L['turbulent_fragment_b'] = 'Inside a cave in the {location:Rotting Hole}.'
-L['turbulent_fragment_c'] = 'Inside the {location:Spirit Scarred Cave}.'
+L['turbulent_fragment_a'] = 'Hidden in a {object:Dirt Pile} behind the {location:Salt and Shany} inn near the digging {npc:Kul Tiran} ghost.'
+L['turbulent_fragment_b'] = 'Loot the {object:Runic Fragment} in front of the cowering {npc:Kul Tiran} ghost inside a cave in the {location:Rotting Hole}.'
+L['turbulent_fragment_c'] = 'Loot the {object:Runic Fragment} held by the {npc:Kul Tiran} ghost inside the {location:Spirit Scarred Cave}.'
 
 L['pristmatic_snapdragon_note_start'] = 'Over the course of 8 days, help save the {npc:235216} in the {location:Flotsam Shoal} to recieve {item:233489}.\n\n{note:You can miss a day but there is no catch-up mechanic}.'
 
