@@ -303,4 +303,4 @@ function PristmaticSnapdragon.getters:note()
     return note
 end
 
-map.nodes[70003000] = PristmaticSnapdragon()
+map.nodes[71004862] = PristmaticSnapdragon()
