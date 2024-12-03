@@ -263,6 +263,13 @@ map.nodes[60726280] = Treasure({
 
 ------------------------------- MISC TREASURES --------------------------------
 
+tfv.nodes[32137944] = Treasure({
+    label = '{item:235017}',
+    location = L['within_the_forgotten_vault'],
+    parent = {id = map.id, pois = {Entrance({45992076})}},
+    rewards = {Toy({item = 235017})} -- Glittering Vault Shard
+}) -- Glittering Vault Shard
+
 map.nodes[67557351] = Treasure({
     location = L['in_small_cave'], -- bejewelled puzzle but I only swap one purple gem and it solved
     rewards = {Transmog({item = 229026, type = L['leather']})} -- Earthen Deckhand's Bindings
