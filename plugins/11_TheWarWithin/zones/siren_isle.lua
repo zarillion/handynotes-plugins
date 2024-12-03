@@ -254,12 +254,12 @@ tfv.nodes[37967648] = VaultRare({
     vignette = 6619
 }) -- Ksvir the Forgotten
 
--- map.nodes[00000000] = Rare({
---     id = 231353,
---     quest = nil,
---     requires = ns.requirement.Spell(458069), -- Seafury Tempest
---     vignette = 6615
--- }) -- Tempest Talon
+map.nodes[42976469] = Rare({
+    id = 231353,
+    quest = nil,
+    storm = 1,
+    vignette = 6615
+}) -- Tempest Talon
 
 map.nodes[50005000] = Rare({
     id = 228547,
