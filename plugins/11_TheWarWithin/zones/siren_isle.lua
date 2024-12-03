@@ -277,6 +277,7 @@ local PristmaticSnapdragon = Class('PristmaticSnapdragon', Collectible, {
         86484, -- ![Temper Like A Tempest]
         86486 -- ![Hungry, Hungry Snapdragon] (daily)
     },
+    requires = ns.requirement.Quest(84726), -- ![Uncovered Mysteries]
     rewards = {
         Mount({item = 233489, id = 2469}) -- Pristmatic Snapdragon
     }
