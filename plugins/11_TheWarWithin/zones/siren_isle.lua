@@ -261,12 +261,14 @@ tfv.nodes[37967648] = VaultRare({
 --     vignette = 6615
 -- }) -- Tempest Talon
 
--- map.nodes[00000000] = Rare({
---     id = 228547,
---     quest = nil,
---     requires = ns.requirement.Spell(458069), -- Seafury Tempest
---     vignette = 6524
--- }) -- Slaughtershell
+map.nodes[50005000] = Rare({
+    id = 228547,
+    location = L['slaughtershell_location'],
+    pois = {Path({Circle({origin = 50005000, radius = 25})})},
+    quest = nil,
+    storm = 1,
+    vignette = 6524
+}) -- Slaughtershell
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
