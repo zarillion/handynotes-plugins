@@ -350,21 +350,21 @@ L['tuk_chest_3_note'] = '{note:仅在“逃亡的进化体”和“纺丝者救�
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['soweezi_note'] = nil
+L['soweezi_note'] = '用 {currency:3090} 换取坐骑、玩具、宠物和幻化。'
 
-L['thrayir_note_start'] = nil
+L['thrayir_note_start'] = '从 {location:海妖岛} 周围收集5个符石钥匙，并完成 {location:被遗忘的宝库} 内的仪式以获得 {item:232639}：'
 
-L['whirling_runekey_note'] = nil
-L['torrential_runekey_note'] = nil
-L['thunderous_runekey_note'] = nil
-L['cyclonic_runekey_note'] = nil
-L['turbulent_runekey_note'] = nil
+L['whirling_runekey_note'] = '风暴期间 {location:被遗忘的宝库} 的 {npc:231368} 掉落。'
+L['torrential_runekey_note'] = '风暴期间 {location:海妖岛} 上的任何怪物（普通、精英或稀有）掉落。'
+L['thunderous_runekey_note'] = '需要在 {location:海妖岛} 上的 {note:任意} 箱子中找到5个 {item:232605}。{note:不需要风暴}。'
+L['cyclonic_runekey_note'] = '风暴期间 {location:海妖岛} 的 {location:亡鳍沼地} 中的 {npc:231357} 掉落。'
+L['turbulent_runekey_note'] = '需要在风暴期间 {location:海妖岛} 周围发现3个 {item:234327}。'
 
-L['turbulent_fragment_a'] = nil
-L['turbulent_fragment_b'] = nil
-L['turbulent_fragment_c'] = nil
+L['turbulent_fragment_a'] = '废弃旅馆后面，挖掘花园。'
+L['turbulent_fragment_b'] = '位于 {location:腐烂坑洞} 的一个洞穴内。'
+L['turbulent_fragment_c'] = '在 {location:魂裂洞穴} 内。'
 
-L['pristmatic_snapdragon_note_start'] = nil
+L['pristmatic_snapdragon_note_start'] = '在8天的时间里，帮助拯救 {location:漂流浅滩} 中的 {npc:235216} 以获得 {item:233489}。\n\n{note:可以错过，但没有追赶机制}。'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
