@@ -30,8 +30,38 @@ local QuestStatus = ns.tooltip.QuestStatus
 
 -------------------------------------------------------------------------------
 
-local map = Map({id = 2369, settings = true})
-local tfv = Map({id = 2375, settings = false}) -- The Forgotten Vault
+local function ProcessStorm(node)
+    if not node.storm then return end
+    if node._stormProcessed then return end
+
+    local icon = ns.GetIconLink(237589)
+    local spell = icon .. ' ' .. ns.color.White('[{spell:458069}]')
+    local sub = ns.color.Orange(format(L['storm_required'], spell))
+    node.sublabel = node.sublabel and sub .. '\n' .. node.sublabel or sub
+    if node.requires then node.sublabel = node.sublabel .. '\n\n' end
+    node._stormProcessed = true
+end
+
+local StormMap = Class('StormMap', Map)
+
+function StormMap:Prepare()
+    Map.Prepare(self)
+    for coord, node in pairs(self.nodes) do ProcessStorm(node) end
+
+    self.stormed = false
+    if C_UnitAuras.GetPlayerAuraBySpellID(458069) then self.stormed = true end
+end
+
+function StormMap:CanDisplay(node, coord, minimap)
+    if self.stormed and not node.storm then return false end
+    if not self.stormed and node.storm == 1 then return false end
+    return Map.CanDisplay(self, node, coord, minimap)
+end
+
+-------------------------------------------------------------------------------
+
+local map = StormMap({id = 2369, settings = true})
+local tfv = StormMap({id = 2375, settings = false}) -- The Forgotten Vault
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -71,9 +101,7 @@ map.nodes[37115497] = Rare({
 --     vignette = 6530
 -- }) -- Bloodbrine
 
-tfv.nodes[28072475] = Rare({
     id = 227550,
-    location = L['within_the_forgotten_vault'],
     quest = nil,
     parent = {id = map.id, pois = {Entrance({45992076})}},
     rewards = {Achievement({id = 41046, criteria = 70795})},
@@ -181,17 +209,15 @@ map.nodes[63948729] = Rare({
 map.nodes[55968404] = Rare({
     id = 231356,
     quest = nil,
-    requires = ns.requirement.Spell(458069), -- Seafury Tempest
+    storm = 1,
     vignette = 6616
 }) -- Brinebough
 
 map.nodes[33027359] = Rare({
     id = 231357,
     quest = nil,
-    requires = ns.requirement.Spell(458069), -- Seafury Tempest
-    rewards = {
-        Item({item = 232569}) -- Cyclonic Runekey
-    },
+    rewards = {Item({item = 232569})}, -- Cyclonic Runekey
+    storm = 1,
     vignette = 6617
 }) -- Zek'ul the Shipbreaker
 
@@ -200,10 +226,8 @@ tfv.nodes[37967648] = Rare({
     location = L['within_the_forgotten_vault'],
     parent = {id = map.id, pois = {Entrance({45992076})}},
     quest = nil,
-    requires = ns.requirement.Spell(458069), -- Seafury Tempest
-    rewards = {
-        Item({item = 232571}) -- Whirling Runekey
-    },
+    rewards = {Item({item = 232571})}, -- Whirling Runekey
+    storm = 1,
     vignette = 6619
 }) -- Ksvir the Forgotten
 
@@ -259,9 +283,9 @@ map.nodes[51523734] = RunedStormChest({
     pois = {Entrance({50594160})}
 })
 
-map.nodes[39965215] = RunedStormChest({
-    requires = ns.requirement.Spell(458069) -- Seafury Tempest
-})
+map.nodes[39965215] = RunedStormChest({storm = 1})
+map.nodes[42244737] = RunedStormChest({storm = 1})
+map.nodes[38924068] = RunedStormChest({storm = 1})
 
 ---------------------- TRANSMOG (PURPLE ITEMS IN WORLD) -----------------------
 
@@ -375,16 +399,14 @@ local Thrayir = Class('Thrayir', Collectible, {
     location = L['within_the_forgotten_vault'],
     parent = {id = map.id, pois = {Entrance({45992076})}},
     requires = {
-        ns.requirement.Spell(458069), -- Seafury Tempest
         ns.requirement.Item(232571), -- whirling Runekey
         ns.requirement.Item(232572), -- Torrential Runekey
         ns.requirement.Item(232573), -- Thunderous Runekey
         ns.requirement.Item(232569), -- Cyclonic Runekey
         ns.requirement.Item(232570) -- Turbulent Runekey
     },
-    rewards = {
-        Mount({item = 232639, id = 2322}) -- Thrayir, Eyes of the Siren
-    }
+    rewards = {Mount({item = 232639, id = 2322})}, -- Thrayir, Eyes of the Siren
+    storm = 2
 }) -- Thrayir, Eyes of the Siren
 
 function Thrayir.getters:note()
@@ -419,7 +441,7 @@ end
 local TurbulentFragment = Class('TurbulentFragment', Collectible, {
     icon = 1385913,
     label = '{item:234327}',
-    requires = ns.requirement.Spell(458069), -- Seafury Tempest
+    storm = 1,
     rewards = {TurbulentFragmentItem()}
 }) -- Turbulent Fragment
 
@@ -449,7 +471,8 @@ local PristmaticSnapdragon = Class('PristmaticSnapdragon', Collectible, {
     requires = ns.requirement.Quest(84726), -- ![Uncovered Mysteries]
     rewards = {
         Mount({item = 233489, id = 2469}) -- Pristmatic Snapdragon
-    }
+    },
+    storm = 2
 }) -- Pristmatic Snapdragon
 
 function PristmaticSnapdragon.getters:label()
