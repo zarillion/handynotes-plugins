@@ -207,6 +207,20 @@ tfv.nodes[37967648] = Rare({
     vignette = 6619
 }) -- Ksvir the Forgotten
 
+-- map.nodes[00000000] = Rare({
+--     id = 231353,
+--     quest = nil,
+--     requires = ns.requirement.Spell(458069), -- Seafury Tempest
+--     vignette = 6615
+-- }) -- Tempest Talon
+
+-- map.nodes[00000000] = Rare({
+--     id = 228547,
+--     quest = nil,
+--     requires = ns.requirement.Spell(458069), -- Seafury Tempest
+--     vignette = 6524
+-- }) -- Slaughtershell
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
