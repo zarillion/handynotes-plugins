@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local Node = ns.node.Node
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
@@ -215,6 +216,52 @@ map.nodes[36925304] = Treasure({
     pois = {Entrance({42785666})},
     rewards = {Transmog({item = 233955, slot = L['2h_axe']})} -- Iron Mining Pick
 }) -- Iron Mining Pick
+
+map.nodes[40284188] = Treasure({
+    label = '{item:233957}',
+    rewards = {Transmog({item = 233957, slot = L['offhand']})} -- Kul Tiran Lumberer's Hatchet
+}) -- Kul Tiran Lumberer's Hatchet
+
+------------------- MYSTERIOUS BOOKS (NO REWARD / NO QUEST) -------------------
+
+map.nodes[39785249] = Treasure({
+    label = L['mouldy_sea_ledger_label'],
+    location = L['mouldy_sea_ledger_location']
+}) -- Mouldy Sea Ledger
+
+map.nodes[39095103] = Treasure({
+    label = L['scholars_of_the_sea_label'],
+    location = L['scholars_of_the_sea_location']
+}) -- Scholars of the Sea: Siren Isle Synopsis
+
+------------ FLAME-BLESSED IRON QUEST ITEMS (GOLD ITEMS IN WORLD) -------------
+
+map.nodes[57937837] = Treasure({
+    label = '{item:232439}',
+    note = L['flame_blessed_iron_item'],
+    quest = 85716, -- ![Rune-Seared Spear]
+    rewards = {Item({item = 232439, quest = 85716})}
+}) -- Rune-Seared Spear
+
+map.nodes[60726280] = Treasure({
+    label = '{item:228665}',
+    note = L['flame_blessed_iron_item'],
+    quest = 84547, -- ![Redemption Guaranteed]
+    rewards = {Item({item = 228665, quest = 84547})}
+}) -- Empty Kaja'Cola
+
+------------------------------- MISC TREASURES --------------------------------
+
+map.nodes[67557351] = Treasure({
+    location = L['in_small_cave'], -- bejewelled puzzle but I only swap one purple gem and it solved
+    rewards = {Transmog({item = 229026, type = L['leather']})} -- Earthen Deckhand's Bindings
+}) -- Unsolved Amethyst Runelock (Rune-Sealed Coffer on minimap)
+
+map.nodes[74035329] = Treasure({
+    label = L['barnacle_encrusted_chest'],
+    location = L['in_water'],
+    quest = nil
+}) -- Barnacle-Encrusted Chest (empty?)
 
 -------------------------------------------------------------------------------
 ----------------------------------- VENDOR ------------------------------------

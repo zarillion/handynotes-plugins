@@ -351,7 +351,23 @@ L['tuk_chest_3_note'] = '{note:Disponible uniquement pendant les variantes d’h
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['runed_storm_chest_label'] = nil
+L['runed_storm_chest_suffix'] = nil
+L['runed_storm_chest_note'] = nil
+
+L['mouldy_sea_ledger_label'] = nil
+L['mouldy_sea_ledger_location'] = nil
+
+L['scholars_of_the_sea_label'] = nil
+L['scholars_of_the_sea_location'] = nil
+
+L['flame_blessed_iron_item'] = nil
+
+L['barnacle_encrusted_chest'] = nil
+
 L['soweezi_note'] = 'Échangez vos {currency:3090} contre une monture, un jouet, une mascotte ou des objets de transmogrification.'
+
+L['krolusk_burrow_label'] = nil
 
 L['thrayir_note_start'] = 'Récupérez 5 clés runiques dispersées sur l\'{location:Île aux Sirènes} et accomplissez le rituel dans {location:La chambre Oubliée} pour recevoir {item:232639} :'
 

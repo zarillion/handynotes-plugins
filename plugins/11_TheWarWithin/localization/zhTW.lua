@@ -349,8 +349,23 @@ L['tuk_chest_3_note'] = '{note:只能在 "逃跑者進化" 和 "織絲者救援"
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
+L['runed_storm_chest_label'] = nil
+L['runed_storm_chest_suffix'] = nil
+L['runed_storm_chest_note'] = nil
+
+L['mouldy_sea_ledger_label'] = nil
+L['mouldy_sea_ledger_location'] = nil
+
+L['scholars_of_the_sea_label'] = nil
+L['scholars_of_the_sea_location'] = nil
+
+L['flame_blessed_iron_item'] = nil
+
+L['barnacle_encrusted_chest'] = nil
 
 L['soweezi_note'] = nil
+
+L['krolusk_burrow_label'] = nil
 
 L['thrayir_note_start'] = nil
 

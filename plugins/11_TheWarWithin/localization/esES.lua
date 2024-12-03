@@ -350,7 +350,23 @@ L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia 
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['runed_storm_chest_label'] = nil
+L['runed_storm_chest_suffix'] = nil
+L['runed_storm_chest_note'] = nil
+
+L['mouldy_sea_ledger_label'] = nil
+L['mouldy_sea_ledger_location'] = nil
+
+L['scholars_of_the_sea_label'] = nil
+L['scholars_of_the_sea_location'] = nil
+
+L['flame_blessed_iron_item'] = nil
+
+L['barnacle_encrusted_chest'] = nil
+
 L['soweezi_note'] = 'Cambia {currency:3090} por una montura, juguete, mascota, o transfiguración.'
+
+L['krolusk_burrow_label'] = nil
 
 L['thrayir_note_start'] = 'Consigue 5x llaves de piedra rúnica alrededor de la {location:Isla de la Sirena} y completa el ritual dentro de la {location:Cámara Olvidada} para conseguir {item:232639}:'
 

@@ -350,7 +350,23 @@ L['tuk_chest_3_note'] = '{note:仅在“逃亡的进化体”和“纺丝者救�
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['runed_storm_chest_label'] = nil
+L['runed_storm_chest_suffix'] = nil
+L['runed_storm_chest_note'] = nil
+
+L['mouldy_sea_ledger_label'] = nil
+L['mouldy_sea_ledger_location'] = nil
+
+L['scholars_of_the_sea_label'] = nil
+L['scholars_of_the_sea_location'] = nil
+
+L['flame_blessed_iron_item'] = nil
+
+L['barnacle_encrusted_chest'] = nil
+
 L['soweezi_note'] = '用 {currency:3090} 换取坐骑、玩具、宠物和幻化。'
+
+L['krolusk_burrow_label'] = nil
 
 L['thrayir_note_start'] = '从 {location:海妖岛} 周围收集5个符石钥匙，并完成 {location:被遗忘的宝库} 内的仪式以获得 {item:232639}：'
 

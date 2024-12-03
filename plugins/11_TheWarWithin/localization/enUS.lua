@@ -350,7 +350,23 @@ L['tuk_chest_3_note'] = '{note:Only available in the "Runaway Evolution" and "We
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['runed_storm_chest_label'] = 'Runed Storm Chest'
+L['runed_storm_chest_suffix'] = 'chests opened'
+L['runed_storm_chest_note'] = 'Follow the wind to a hidden {object:Runed Storm Chest} and reveal it with {spell:472051}.'
+
+L['mouldy_sea_ledger_label'] = 'Mouldy Sea Ledger'
+L['mouldy_sea_ledger_location'] = 'On the floor of the {location:Salt and Shanty} inn near the fireplace.'
+
+L['scholars_of_the_sea_label'] = 'Scholars of the Sea: Siren Isle Synopsis'
+L['scholars_of_the_sea_location'] = 'On the second floor of the {location:Salt and Shanty} inn near the window.'
+
+L['flame_blessed_iron_item'] = 'Return this item for bonus {currency:3090}.'
+
+L['barnacle_encrusted_chest'] = 'Barnacle-Encrusted Chest'
+
 L['soweezi_note'] = 'Exchange {currency:3090} for a mount, toy, pet, or transmog.'
+
+L['krolusk_burrow_label'] = 'Krolusk Burrow'
 
 L['thrayir_note_start'] = 'Collect 5x runestone keys from around the {location:Siren Isle} and complete the ritual within {location:The Forgotten Vault} to recieve {item:232639}:'
 
