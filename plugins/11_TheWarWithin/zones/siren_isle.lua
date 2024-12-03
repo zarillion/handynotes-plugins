@@ -14,7 +14,7 @@ local Vendor = ns.node.Vendor
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
--- local Pet = ns.reward.Pet
+local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
@@ -200,8 +200,8 @@ map.nodes[69984855] = Vendor({
     note = L['soweezi_note'],
     rewards = {
         Mount({item = 233058, id = 2333, count = 10000}), -- Soweezi's Vintage Waveshredder
-        Toy({item = 234473, count = 750}) -- Soweezi's Comfy Lawn Chair
-        -- Pet({item = 234395, id = nil, count = 750}) -- Skitterbite
+        Toy({item = 234473, count = 750}), -- Soweezi's Comfy Lawn Chair
+        Pet({item = 234395, id = 4727, count = 750}) -- Skitterbite
     }
 }) -- Soweezi
 
