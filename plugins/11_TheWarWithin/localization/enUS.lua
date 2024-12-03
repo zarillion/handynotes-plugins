@@ -350,7 +350,7 @@ L['tuk_chest_3_note'] = '{note:Only available in the "Runaway Evolution" and "We
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['within_the_forgotten_vault'] = 'Within {location:The Forgotten Vault}.'
+L['within_the_forgotten_vault'] = 'Within {location:The Forgotten Vault}. Use the {object:Singing Tablet} within {location:The Sacred Hallow} to enter the vault.'
 
 L['runed_storm_chest_label'] = 'Runed Storm Chest'
 L['runed_storm_chest_suffix'] = 'chests opened'
