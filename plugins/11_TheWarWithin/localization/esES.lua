@@ -350,25 +350,25 @@ L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia 
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['within_the_forgotten_vault'] = nil
+L['within_the_forgotten_vault'] = 'Dentro de la {location:Cámara Olvidada}. Usa la {object:Tablilla canto} dentro de la {location:Hondonada Sacra} para entrar en la cámara.'
 
-L['runed_storm_chest_label'] = nil
-L['runed_storm_chest_suffix'] = nil
-L['runed_storm_chest_note'] = nil
+L['runed_storm_chest_label'] = 'Cofre de tormenta rúnico'
+L['runed_storm_chest_suffix'] = 'cofres abiertos'
+L['runed_storm_chest_note'] = 'Sigue el viento hasta un {object:Cofre de tormenta rúnico} escondido y revélalo con {spell:472051}.'
 
-L['mouldy_sea_ledger_label'] = nil
-L['mouldy_sea_ledger_location'] = nil
+L['mouldy_sea_ledger_label'] = 'Libro del mar mohoso'
+L['mouldy_sea_ledger_location'] = 'En el suelo de la posada {location:Sal y Chabolas} junto a la chimenea.'
 
-L['scholars_of_the_sea_label'] = nil
-L['scholars_of_the_sea_location'] = nil
+L['scholars_of_the_sea_label'] = 'Eruditos del Mar: La Isla de las Sirenas'
+L['scholars_of_the_sea_location'] = 'En el segundo piso de la posada {location:Sal y Chabolas} junto a la ventana.'
 
-L['flame_blessed_iron_item'] = nil
+L['flame_blessed_iron_item'] = 'Devuelve este objeto para {currency:3090} extra.'
 
-L['barnacle_encrusted_chest'] = nil
+L['barnacle_encrusted_chest'] = 'Cofre con incrustaciones de percebes'
 
 L['soweezi_note'] = 'Cambia {currency:3090} por una montura, juguete, mascota, o transfiguración.'
 
-L['krolusk_burrow_label'] = nil
+L['krolusk_burrow_label'] = 'Madriguera de Krolusk'
 
 L['thrayir_note_start'] = 'Consigue 5x llaves de piedra rúnica alrededor de la {location:Isla de la Sirena} y completa el ritual dentro de la {location:Cámara Olvidada} para conseguir {item:232639}:'
 
@@ -378,9 +378,9 @@ L['thunderous_runekey_note'] = 'Requiere 5x {item:232605} encontrados en {note:c
 L['cyclonic_runekey_note'] = 'Botín de {npc:231357} en el {location:Fangal Aletamuerte} de la {location:Isla de la Sirena} durante una tormenta.'
 L['turbulent_runekey_note'] = 'Requiere 3x {item:234327} encontrados dispersos a lo largo de la {location:Isla de la Sirena} durante una tormenta.'
 
-L['turbulent_fragment_a'] = 'Detrás de la posada abandonada, cavando en el jardín.'
-L['turbulent_fragment_b'] = 'Dentro de una cueva en el {location:Hoyo Hediondo}.'
-L['turbulent_fragment_c'] = 'Dentro de la {location:Cueva del Espíritu Marcado}.'
+L['turbulent_fragment_a'] = 'Escondido en un {object:Montón de tierra} detrás de la posada {location:Sal y Chabolas}, junto al fantasma {npc:Kul Tiran} cavando.'
+L['turbulent_fragment_b'] = 'Despoja el {object:Fragmento rúnico} frente a los fantasmas {npc:Kul Tiran} acobardados dentro de una cueva en el {location:Hoyo Hediondo}.'
+L['turbulent_fragment_c'] = 'Despoja el {object:Fragmento rúnico} retenido por el fantasma {npc:Kul Tiran} dentro de la {location:Cueva del Espíritu Marcado}.'
 
 L['pristmatic_snapdragon_note_start'] = 'A lo largo de 8 días, ayuda a salvar a {npc:235216} en la {location:Marisma de Derrelicto} para conseguir {item:233489}.\n\n{note:Puedes perderte un día pero no hay ningún mecanismo de recuperación}.'
 
