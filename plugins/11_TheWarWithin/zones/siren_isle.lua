@@ -177,6 +177,37 @@ map.nodes[63948729] = Rare({
 }) -- Asbjorn the Bloodsoaked
 
 -------------------------------------------------------------------------------
+
+map.nodes[55968404] = Rare({
+    id = 231356,
+    quest = nil,
+    requires = ns.requirement.Spell(458069), -- Seafury Tempest
+    vignette = 6616
+}) -- Brinebough
+
+map.nodes[33027359] = Rare({
+    id = 231357,
+    quest = nil,
+    requires = ns.requirement.Spell(458069), -- Seafury Tempest
+    rewards = {
+        Item({item = 232569}) -- Cyclonic Runekey
+    },
+    vignette = 6617
+}) -- Zek'ul the Shipbreaker
+
+tfv.nodes[37967648] = Rare({
+    id = 231368,
+    location = L['within_the_forgotten_vault'],
+    parent = {id = map.id, pois = {Entrance({45992076})}},
+    quest = nil,
+    requires = ns.requirement.Spell(458069), -- Seafury Tempest
+    rewards = {
+        Item({item = 232571}) -- Whirling Runekey
+    },
+    vignette = 6619
+}) -- Ksvir the Forgotten
+
+-------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
