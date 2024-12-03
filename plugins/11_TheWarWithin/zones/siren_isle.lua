@@ -213,9 +213,7 @@ map.nodes[36925304] = Treasure({
     label = '{item:233955}',
     location = L['in_cave'],
     pois = {Entrance({42785666})},
-    rewards = {
-        Transmog({item = 233955, slot = L['2h_axe']}) -- Iron Mining Pick
-    }
+    rewards = {Transmog({item = 233955, slot = L['2h_axe']})} -- Iron Mining Pick
 }) -- Iron Mining Pick
 
 -------------------------------------------------------------------------------
