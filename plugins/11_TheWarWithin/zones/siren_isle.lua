@@ -218,6 +218,14 @@ local GrapplingHold = Class('GrapplingHold', Node, {
 map.nodes[52592426] = GrapplingHold()
 map.nodes[50322016] = GrapplingHold()
 
+map.nodes[55621466] = Node({
+    icon = 'peg_rd',
+    label = L['krolusk_burrow_label'],
+    location = L['in_small_cave'],
+    scale = 1.5,
+    pois = {Entrance({56121287})}
+}) -- Krolusk Burrow
+
 ---------------------- MOUNT: THRAYIR, EYES OF THE SIREN ----------------------
 
 local Thrayir = Class('Thrayir', Collectible, {
