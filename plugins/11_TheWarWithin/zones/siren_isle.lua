@@ -340,11 +340,11 @@ local Thrayir = Class('Thrayir', Collectible, {
 
 function Thrayir.getters:note()
     local note = L['thrayir_note_start']
-    note = note .. ItemStatus(232571, 1, L['whirling_runekey_note']) -- whirling Runekey
-    note = note .. ItemStatus(232572, 1, L['torrential_runekey_note']) -- Torrential Runekey
-    note = note .. ItemStatus(232573, 1, L['thunderous_runekey_note']) -- Thunderous Runekey
-    note = note .. ItemStatus(232569, 1, L['cyclonic_runekey_note']) -- Cyclonic Runekey
-    note = note .. ItemStatus(232570, 1, L['turbulent_runekey_note']) -- Turbulent Runekey
+    note = note .. ItemStatus(232571, 1, '{item:232571}\n' .. L['whirling_runekey_note']) -- whirling Runekey
+    note = note .. ItemStatus(232572, 1, '{item:232572}\n' .. L['torrential_runekey_note']) -- Torrential Runekey
+    note = note .. ItemStatus(232573, 1, '{item:232573}\n' .. L['thunderous_runekey_note']) -- Thunderous Runekey
+    note = note .. ItemStatus(232569, 1, '{item:232569}\n' .. L['cyclonic_runekey_note']) -- Cyclonic Runekey
+    note = note .. ItemStatus(232570, 1, '{item:232570}\n' .. L['turbulent_runekey_note']) -- Turbulent Runekey
     return note
 end
 
