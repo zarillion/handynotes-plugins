@@ -201,11 +201,13 @@ local RunedStormChest = Class('RunedStormChest', Collectible, {
 }) -- Runed Storm Chest
 
 map.nodes[37327537] = RunedStormChest()
+map.nodes[39094415] = RunedStormChest()
+map.nodes[49201734] = RunedStormChest()
+map.nodes[52887066] = RunedStormChest()
+map.nodes[59632015] = RunedStormChest()
+map.nodes[59736908] = RunedStormChest()
 map.nodes[60675264] = RunedStormChest()
 map.nodes[61944401] = RunedStormChest()
-map.nodes[59632015] = RunedStormChest()
-map.nodes[49201734] = RunedStormChest()
-map.nodes[39094415] = RunedStormChest()
 
 map.nodes[51523734] = RunedStormChest({
     location = L['in_cave'],
