@@ -184,7 +184,7 @@ map.nodes[63948729] = Rare({
 
 local RunedStormChest = Class('RunedStormChest', Collectible, {
     icon = 'chest_yw',
-    scale = 1.5,
+    scale = 1.3,
     label = L['runed_storm_chest_label'],
     note = L['runed_storm_chest_note'],
     requires = ns.requirement.Quest(84726), -- ![Uncovered Mysteries]
