@@ -214,6 +214,10 @@ map.nodes[51523734] = RunedStormChest({
     pois = {Entrance({50594160})}
 })
 
+map.nodes[39965215] = RunedStormChest({
+    requires = ns.requirement.Spell(458069), -- Seafury Tempest
+})
+
 ---------------------- TRANSMOG (PURPLE ITEMS IN WORLD) -----------------------
 
 map.nodes[36925304] = Treasure({
