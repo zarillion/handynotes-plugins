@@ -350,6 +350,14 @@ L['tuk_chest_3_note'] = '{note:仅在“逃亡的进化体”和“纺丝者救�
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['the_drowned_lair_note'] = nil
+L['the_drain_note'] = nil
+L['shuddering_hollow_note'] = nil
+
+L['vykrul_sublabel'] = nil
+L['naga_sublabel'] = nil
+L['pirate_sublabel'] = nil
+
 L['storm_required'] = nil
 L['slaughtershell_location'] = nil
 

@@ -99,6 +99,7 @@ local VaultCollectible = Class('VaultCollectible', Collectible, {
 map.nodes[26206546] = Rare({
     id = 229982,
     location = L['in_cave'],
+    note = L['the_drowned_lair_note'],
     quest = nil,
     pois = {Entrance({31756503})},
     rewards = {Achievement({id = 41046, criteria = 70791})},
@@ -108,6 +109,7 @@ map.nodes[26206546] = Rare({
 map.nodes[57726612] = Rare({
     id = 228201,
     location = L['in_cave'],
+    note = L['the_drain_note'],
     quest = nil,
     pois = {Entrance({61477357})},
     rewards = {Achievement({id = 41046, criteria = 70792})},
@@ -117,6 +119,7 @@ map.nodes[57726612] = Rare({
 map.nodes[37115497] = Rare({
     id = 229992,
     location = L['in_cave'],
+    note = L['shuddering_hollow_note'],
     quest = nil,
     pois = {Entrance({42785666})},
     rewards = {Achievement({id = 41046, criteria = 70793})},
@@ -190,6 +193,7 @@ map.nodes[32457405] = Rare({
     id = 227545,
     quest = nil,
     rewards = {Achievement({id = 41046, criteria = 70805})},
+    sublabel = L['vykrul_sublabel'],
     vignette = 6525
 }) -- Ikir the Flotsurge
 
@@ -197,6 +201,7 @@ map.nodes[63948729] = Rare({
     id = 230137,
     quest = nil,
     rewards = {Achievement({id = 41046, criteria = 70806})},
+    sublabel = L['vykrul_sublabel'],
     vignette = 6590
 }) -- Asbjorn the Bloodsoaked
 
@@ -206,6 +211,7 @@ map.nodes[36147261] = Rare({
     id = 228154,
     quest = 84795,
     rewards = {Achievement({id = 41046, criteria = 70794})},
+    sublabel = L['naga_sublabel'],
     vignette = 6530
 }) -- Bloodbrine
 
@@ -213,6 +219,7 @@ map.nodes[61758953] = Rare({
     id = 229852,
     quest = nil,
     rewards = {Achievement({id = 41046, criteria = 70801})},
+    sublabel = L['naga_sublabel'],
     vignette = 6581
 }) -- Coralweaver Calliso
 
@@ -220,24 +227,29 @@ map.nodes[56068410] = Rare({
     id = 229853,
     quest = 84803,
     rewards = {Achievement({id = 41046, criteria = 70802})},
+    sublabel = L['naga_sublabel'],
     vignette = 6582
 }) -- Siris the Sea Scorpion
 
------------------------------------ UNKNOWN -----------------------------------
+----------------------------------- PIRATES -----------------------------------
 
--- map.nodes[00000000] = Rare({
---     id = 228583,
---     quest = nil,
---     rewards = {Achievement({id = 41046, criteria = 70803})},
---     vignette = 6580
--- }) -- Chef Chum Platter
+map.nodes[10001100] = Rare({
+    id = 228583,
+    note = ns.color.Red(UNKNOWN),
+    quest = nil,
+    rewards = {Achievement({id = 41046, criteria = 70803})},
+    sublabel = L['pirate_sublabel'],
+    vignette = 6580
+}) -- Chef Chum Platter
 
--- map.nodes[00000000] = Rare({
---     id = 228580,
---     quest = nil,
---     rewards = {Achievement({id = 41046, criteria = 70804})},
---     vignette = 6577
--- }) -- Plank-Master Bluebelly
+map.nodes[12001100] = Rare({
+    id = 228580,
+    note = ns.color.Red(UNKNOWN),
+    quest = nil,
+    rewards = {Achievement({id = 41046, criteria = 70804})},
+    sublabel = L['pirate_sublabel'],
+    vignette = 6577
+}) -- Plank-Master Bluebelly
 
 ------------------------------- SEAFURY TEMPEST -------------------------------
 

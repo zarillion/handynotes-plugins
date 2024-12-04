@@ -350,6 +350,14 @@ L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia 
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['the_drowned_lair_note'] = nil
+L['the_drain_note'] = nil
+L['shuddering_hollow_note'] = nil
+
+L['vykrul_sublabel'] = nil
+L['naga_sublabel'] = nil
+L['pirate_sublabel'] = nil
+
 L['storm_required'] = 'Requiere una tormenta %s activa en la {location:Isla de la Sirena}.'
 L['slaughtershell_location'] = 'Deambula por toda la {location:Isla de la Sirena}.'
 

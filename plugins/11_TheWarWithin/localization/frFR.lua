@@ -351,6 +351,14 @@ L['tuk_chest_3_note'] = '{note:Disponible uniquement pendant les variantes d’h
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['the_drowned_lair_note'] = nil
+L['the_drain_note'] = nil
+L['shuddering_hollow_note'] = nil
+
+L['vykrul_sublabel'] = nil
+L['naga_sublabel'] = nil
+L['pirate_sublabel'] = nil
+
 L['storm_required'] = 'Requiert une %s active sur l\'{location:Île aux Sirènes}.'
 L['slaughtershell_location'] = 'Parcourt la totalité de l\'{location:Île aux Sirènes}.'
 

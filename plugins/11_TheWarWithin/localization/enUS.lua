@@ -350,6 +350,14 @@ L['tuk_chest_3_note'] = '{note:Only available in the "Runaway Evolution" and "We
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['the_drowned_lair_note'] = 'Contribute {currency:3090} to {location:The Drowned Lair} at the {object:Siren Isle Comamand Map} to open this cave and spawn the rare.'
+L['the_drain_note'] = 'Contribute {currency:3090} to {location:The Drain} at the {object:Siren Isle Comamand Map} to open this cave and spawn the rare.'
+L['shuddering_hollow_note'] = 'Contribute {currency:3090} to {location:Shuddering Hollow} at the {object:Siren Isle Comamand Map} to open this cave and spawn the rare.'
+
+L['vykrul_sublabel'] = '{note:Only available with {npc:Bloodwake Vykrul} on the island.}'
+L['naga_sublabel'] = '{note:Only available with {npc:Naga} on the island.}'
+L['pirate_sublabel'] = '{note:Only available with {npc:pirates} on the island.}'
+
 L['storm_required'] = 'Requires active %s storm on {location:Siren Isle}.' -- %s becomes "(icon) [Seafury Tempest]"
 L['slaughtershell_location'] = 'Roams around the entire {location:Siren Isle}.'
 
