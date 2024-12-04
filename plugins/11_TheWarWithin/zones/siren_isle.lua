@@ -94,6 +94,8 @@ local VaultCollectible = Class('VaultCollectible', Collectible, {
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
+--------------------------------- EXCAVATION ----------------------------------
+
 map.nodes[26206546] = Rare({
     id = 229982,
     location = L['in_cave'],
@@ -121,19 +123,7 @@ map.nodes[37115497] = Rare({
     vignette = 6610
 }) -- Stalagnarok
 
--- map.nodes[00000000] = Rare({
---     id = 228154,
---     quest = nil,
---     rewards = {Achievement({id = 41046, criteria = 70794})},
---     vignette = 6530
--- }) -- Bloodbrine
-
-tfv.nodes[28072475] = VaultRare({
-    id = 227550,
-    quest = nil,
-    rewards = {Achievement({id = 41046, criteria = 70795})},
-    vignette = 6666
-}) -- Shardsong
+------------------------------- VYKRUL AND NAGA -------------------------------
 
 map.nodes[53283383] = Rare({
     id = 228601,
@@ -156,13 +146,6 @@ map.nodes[34151392] = Rare({
     rewards = {Achievement({id = 41046, criteria = 70797})},
     vignette = 6529
 }) -- Grimgull
-
-tfv.nodes[66465635] = VaultRare({
-    id = 228159,
-    quest = nil,
-    rewards = {Achievement({id = 41046, criteria = 70798})},
-    vignette = 6527
-}) -- Gunnlod the Sea-Drinker
 
 map.nodes[67391919] = Rare({
     id = 231090,
@@ -187,33 +170,21 @@ map.nodes[46787812] = Rare({
     vignette = 6526
 }) -- Wreckwater
 
--- map.nodes[00000000] = Rare({
---     id = 229852,
---     quest = nil,
---     rewards = {Achievement({id = 41046, criteria = 70801})},
---     vignette = 6581
--- }) -- Coralweaver Calliso
+tfv.nodes[66465635] = VaultRare({
+    id = 228159,
+    quest = nil,
+    rewards = {Achievement({id = 41046, criteria = 70798})},
+    vignette = 6527
+}) -- Gunnlod the Sea-Drinker
 
--- map.nodes[00000000] = Rare({
---     id = 229853,
---     quest = nil,
---     rewards = {Achievement({id = 41046, criteria = 70802})},
---     vignette = 6582
--- }) -- Siris the Sea Scorpion
+tfv.nodes[28072475] = VaultRare({
+    id = 227550,
+    quest = nil,
+    rewards = {Achievement({id = 41046, criteria = 70795})},
+    vignette = 6666
+}) -- Shardsong
 
--- map.nodes[00000000] = Rare({
---     id = 228583,
---     quest = nil,
---     rewards = {Achievement({id = 41046, criteria = 70803})},
---     vignette = 6580
--- }) -- Chef Chum Platter
-
--- map.nodes[00000000] = Rare({
---     id = 228580,
---     quest = nil,
---     rewards = {Achievement({id = 41046, criteria = 70804})},
---     vignette = 6577
--- }) -- Plank-Master Bluebelly
+----------------------------------- VYKRUL ------------------------------------
 
 map.nodes[32457405] = Rare({
     id = 227545,
@@ -229,7 +200,46 @@ map.nodes[63948729] = Rare({
     vignette = 6590
 }) -- Asbjorn the Bloodsoaked
 
--------------------------------------------------------------------------------
+------------------------------------ NAGA -------------------------------------
+
+map.nodes[36147261] = Rare({
+    id = 228154,
+    quest = 84795,
+    rewards = {Achievement({id = 41046, criteria = 70794})},
+    vignette = 6530
+}) -- Bloodbrine
+
+map.nodes[61758953] = Rare({
+    id = 229852,
+    quest = nil,
+    rewards = {Achievement({id = 41046, criteria = 70801})},
+    vignette = 6581
+}) -- Coralweaver Calliso
+
+map.nodes[56068410] = Rare({
+    id = 229853,
+    quest = 84803,
+    rewards = {Achievement({id = 41046, criteria = 70802})},
+    vignette = 6582
+}) -- Siris the Sea Scorpion
+
+----------------------------------- UNKNOWN -----------------------------------
+
+-- map.nodes[00000000] = Rare({
+--     id = 228583,
+--     quest = nil,
+--     rewards = {Achievement({id = 41046, criteria = 70803})},
+--     vignette = 6580
+-- }) -- Chef Chum Platter
+
+-- map.nodes[00000000] = Rare({
+--     id = 228580,
+--     quest = nil,
+--     rewards = {Achievement({id = 41046, criteria = 70804})},
+--     vignette = 6577
+-- }) -- Plank-Master Bluebelly
+
+------------------------------- SEAFURY TEMPEST -------------------------------
 
 map.nodes[55968404] = Rare({
     id = 231356,
