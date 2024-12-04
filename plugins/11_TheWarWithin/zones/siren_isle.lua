@@ -319,9 +319,16 @@ map.nodes[51523734] = RunedStormChest({
     pois = {Entrance({50594160})}
 })
 
+map.nodes[50211220] = RunedStormChest({
+    location = L['in_cave'],
+    pois = {Entrance({45992076})}
+})
+
 map.nodes[39965215] = RunedStormChest({storm = 1})
 map.nodes[42244737] = RunedStormChest({storm = 1})
 map.nodes[38924068] = RunedStormChest({storm = 1})
+map.nodes[38782007] = RunedStormChest({storm = 1})
+map.nodes[49297262] = RunedStormChest({storm = 1})
 
 ---------------------- TRANSMOG (PURPLE ITEMS IN WORLD) -----------------------
 
