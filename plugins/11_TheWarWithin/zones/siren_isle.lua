@@ -275,8 +275,8 @@ map.nodes[42976324] = Rare({
 map.nodes[50005000] = Rare({
     id = 228547,
     location = L['slaughtershell_location'],
-    pois = {Path({Circle({origin = 50005000, radius = 25})})},
-    quest = nil,
+    pois = {Path({Circle({origin = 50005000, radius = 28})})},
+    quest = 84798, -- hidden
     storm = 1,
     vignette = 6524
 }) -- Slaughtershell
