@@ -504,6 +504,13 @@ local TurbulentFragment = Class('TurbulentFragment', Collectible, {
     rewards = {TurbulentFragmentItem()}
 }) -- Turbulent Fragment
 
+function TurbulentFragment:IsCollected()
+    if ns.PlayerHasItem(234327, 3) then return true end -- Turbulent Fragment
+    if ns.PlayerHasItem(232570, 1) then return true end -- Turbulent Runekey
+    if select(11, C_MountJournal.GetMountInfoByID(2322)) then return true end -- Thrayir, Eyes of the Siren
+    return false
+end
+
 map.nodes[38195178] = TurbulentFragment({location = L['turbulent_fragment_a']})
 map.nodes[67087844] = TurbulentFragment({location = L['turbulent_fragment_b']})
 
