@@ -350,13 +350,13 @@ L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia 
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['the_drowned_lair_note'] = nil
-L['the_drain_note'] = nil
-L['shuddering_hollow_note'] = nil
+L['the_drowned_lair_note'] = 'Contribuye con {currency:3090} para la {location:Guarida Sumergida} en el {object:Mapa de mando de la Isla de la Sirena} para abrir esta cueva y hacer aparecer el raro.'
+L['the_drain_note'] = 'Contribuye con {currency:3090} para {location:El Sumidero} en el {object:Mapa de mando de la Isla de la Sirena} para abrir esta cueva y hacer aparecer el raro.'
+L['shuddering_hollow_note'] = 'Contribuye con {currency:3090} para la {location:Cuenca Estremecedora} en el {object:Mapa de mando de la Isla de la Sirena} para abrir esta cueva y hacer aparecer el raro.'
 
-L['vykrul_sublabel'] = nil
-L['naga_sublabel'] = nil
-L['pirate_sublabel'] = nil
+L['vykrul_sublabel'] = '{note:Sólo disponible con {npc:Vykrul Rastrosangre} disponible en la isla.}'
+L['naga_sublabel'] = '{note:Sólo disponible con {npc:Naga} en la isla.}'
+L['pirate_sublabel'] = '{note:Sólo disponible con {npc:pirates} en la isla.}'
 
 L['storm_required'] = 'Requiere una tormenta %s activa en la {location:Isla de la Sirena}.'
 L['slaughtershell_location'] = 'Deambula por toda la {location:Isla de la Sirena}.'
