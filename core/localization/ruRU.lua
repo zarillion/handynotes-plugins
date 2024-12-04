@@ -48,8 +48,8 @@ L['shared_drops'] = 'Общий дроп'
 L['zone_drops_label'] = 'Добыча в локации'
 L['zone_drops_note'] = 'Перечисленные ниже предметы могут быть получены от нескольких монстров в этой локации.'
 
-L['poi_entrance_label'] = nil
-L['change_map'] = nil
+L['poi_entrance_label'] = 'Вход'
+L['change_map'] = 'Изменить карту'
 
 L['requires'] = 'Требуется'
 L['ranked_research'] = '%s (Ранг %d/%d)'
@@ -60,10 +60,10 @@ L['retrieving'] = 'Получение ссылки на предмет ...'
 L['normal'] = 'Обычный'
 L['hard'] = 'Сложный'
 
-L['completed'] = 'Получено'
+L['completed'] = 'Завершено'
 L['incomplete'] = 'Незавершенно'
-L['claimed'] = nil
-L['unclaimed'] = nil
+L['claimed'] = 'Востребованный'
+L['unclaimed'] = 'Невостребованный'
 L['known'] = 'Известно'
 L['missing'] = 'Отсутствует'
 L['unobtainable'] = 'Недоступно'
@@ -103,8 +103,8 @@ L['title'] = 'Звание'
 L['toy'] = 'Игрушка'
 L['currency'] = 'Валюта'
 L['rep'] = 'Реп.'
-L['buff'] = nil
-L['transmog'] = nil
+L['buff'] = 'Бафф'
+L['transmog'] = 'Трансмог'
 
 ---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = 'Последователь'
@@ -182,8 +182,8 @@ L['options_show_completed_nodes'] = 'Показать завершеные'
 L['options_show_completed_nodes_desc'] = 'Показать все точки, даже если они уже были получены или завершены сегодня.'
 L['options_toggle_hide_done_rare'] = 'Скрыть редких монстров, если все награды получены'
 L['options_toggle_hide_done_rare_desc'] = 'Скрыть всех редких монстров, с которых получены все награды.'
-L['options_toggle_hide_done_treasure'] = nil
-L['options_toggle_hide_done_treasure_desc'] = nil
+L['options_toggle_hide_done_treasure'] = 'Скрыть сокровища, если все награды получены'
+L['options_toggle_hide_done_treasure_desc'] = 'Скрыть все сокровища, из которых получена вся добыча.'
 L['options_toggle_hide_minimap'] = 'Скрыть все значки на миникарте'
 L['options_toggle_hide_minimap_desc'] = 'Скрывает все иконки из этого аддона на миникарте и отображает их только на главной карте.'
 L['options_toggle_maximized_enlarged'] = 'Увеличивайте значки на увеличенной карте мира.'
@@ -195,10 +195,10 @@ L['options_toggle_per_map_settings_desc'] = 'Применяйте настрой
 L['options_restore_hidden_nodes'] = 'Восстановить скрытые места'
 L['options_restore_hidden_nodes_desc'] = 'Восстановите все скрытые места, используя контекстное меню, вызываемое правой кнопкой мыши.'
 
-L['ignore_class_restrictions'] = nil
-L['ignore_class_restrictions_desc'] = nil
-L['ignore_faction_restrictions'] = nil
-L['ignore_faction_restrictions_desc'] = nil
+L['ignore_class_restrictions'] = 'Игнорировать ограничения класса'
+L['ignore_class_restrictions_desc'] = 'Показывать награды, для которых требуется класс, отличный от класса активного персонажа.'
+L['ignore_faction_restrictions'] = 'Игнорировать ограничения фракции'
+L['ignore_faction_restrictions_desc'] = 'Показать награды, требующие противоположной фракции.'
 
 L['options_rewards_settings'] = 'Награды'
 L['options_reward_behaviors_settings'] = nil
