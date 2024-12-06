@@ -394,9 +394,9 @@ L['turbulent_fragment_b'] = 'Despoja el {object:Fragmento rúnico} frente a los 
 L['turbulent_fragment_c'] = 'Despoja el {object:Fragmento rúnico} retenido por el fantasma {npc:Kul Tiran} dentro de la {location:Cueva del Espíritu Marcado}.'
 
 L['prismatic_snapdragon_note_start'] = 'A lo largo de 8 días, ayuda a salvar a {npc:235216} en la {location:Marisma de Derrelicto} para conseguir {item:233489}.\n\n{note:Puedes perderte un día pero no hay ningún mecanismo de recuperación}.'
-L['prismatic_day'] = nil
+L['prismatic_day'] = 'Día %d'
 
-L['unsolved_amethyst_runelock'] = nil
+L['unsolved_amethyst_runelock'] = 'Bloqueo de runas amatista'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
