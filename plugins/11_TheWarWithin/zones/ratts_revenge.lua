@@ -725,9 +725,6 @@ end
 -------------------------------- 9 O'CLOCK ORB --------------------------------
 -------------------------------------------------------------------------------
 
-L['ak_decryption_console_note'] =
-    'Equip your {item:228966} to reveal a hidden platform.\n\nTarget the {npc:230383} and use the {item:228996} to reach it.' -- LEAVING THIS HERE FOR NOW
-
 azjKahet.nodes[56151797] = RattsRevenge({
     label = L['decryption_console_label'],
     note = L['ak_decryption_console_note'],

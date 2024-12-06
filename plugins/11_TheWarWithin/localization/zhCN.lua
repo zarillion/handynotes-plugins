@@ -499,6 +499,8 @@ L['code_label'] = '将 %d 个雕像置于 %s'
 -- Orb 9
 L['orb_9_label'] = '9号球'
 
+L['ak_decryption_console_note'] = nil
+
 -- Orb 10
 L['orb_10_label'] = '10号球'
 
