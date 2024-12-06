@@ -397,6 +397,8 @@ L['turbulent_fragment_c'] = 'Récupérez le {object:Fragment runique} détenu pa
 L['prismatic_snapdragon_note_start'] = 'Pendant 8 jours, contribuez à sauver le {npc:235216} au {location:Brisants des Débris} pour recevoir le {item:233489}.\n\n{note:Vous pouvez manquer un jour mais il n\'y a pas de système de rattrapage}.'
 L['prismatic_day'] = nil
 
+L['unsolved_amethyst_runelock'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------

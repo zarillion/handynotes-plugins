@@ -396,6 +396,8 @@ L['turbulent_fragment_c'] = 'Despoja el {object:Fragmento rúnico} retenido por 
 L['prismatic_snapdragon_note_start'] = 'A lo largo de 8 días, ayuda a salvar a {npc:235216} en la {location:Marisma de Derrelicto} para conseguir {item:233489}.\n\n{note:Puedes perderte un día pero no hay ningún mecanismo de recuperación}.'
 L['prismatic_day'] = nil
 
+L['unsolved_amethyst_runelock'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------

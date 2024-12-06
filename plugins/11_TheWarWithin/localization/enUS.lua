@@ -396,6 +396,8 @@ L['turbulent_fragment_c'] = 'Loot the {object:Runic Fragment} held by the {npc:K
 L['prismatic_snapdragon_note_start'] = 'Over the course of 8 days, help save the {npc:235216} in the {location:Flotsam Shoal} to recieve {item:233489}.\n\n{note:You can miss a day but there is no catch-up mechanic}.'
 L['prismatic_day'] = 'Day %d' -- "Day 1" or "Day 4" or "Day 7"
 
+L['unsolved_amethyst_runelock'] = 'Unsolved Amethyst Runelock'
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------

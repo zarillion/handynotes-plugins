@@ -420,9 +420,10 @@ tfv.nodes[32137944] = VaultTreasure({
 }) -- Glittering Vault Shard
 
 map.nodes[67557351] = Treasure({
-    location = L['in_small_cave'], -- bejewelled puzzle but I only swap one purple gem and it solved
+    label = L['unsolved_amethyst_runelock'],
+    location = L['in_small_cave'],
     rewards = {Transmog({item = 229026, type = L['leather']})} -- Earthen Deckhand's Bindings
-}) -- Unsolved Amethyst Runelock (Rune-Sealed Coffer on minimap)
+}) -- Unsolved Amethyst Runelock (Rune-Sealed Coffer)
 
 map.nodes[74035329] = Treasure({
     label = L['barnacle_encrusted_chest'],

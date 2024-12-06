@@ -396,6 +396,8 @@ L['turbulent_fragment_c'] = nil
 L['prismatic_snapdragon_note_start'] = nil
 L['prismatic_day'] = nil
 
+L['unsolved_amethyst_runelock'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
