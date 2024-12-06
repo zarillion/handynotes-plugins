@@ -393,7 +393,8 @@ L['turbulent_fragment_a'] = '废弃旅馆后面，挖掘花园。'
 L['turbulent_fragment_b'] = '位于 {location:腐烂坑洞} 的一个洞穴内。'
 L['turbulent_fragment_c'] = '在 {location:魂裂洞穴} 内。'
 
-L['pristmatic_snapdragon_note_start'] = '在8天的时间里，帮助拯救 {location:漂流浅滩} 中的 {npc:235216} 以获得 {item:233489}。\n\n{note:可以错过，但没有追赶机制}。'
+L['prismatic_snapdragon_note_start'] = '在8天的时间里，帮助拯救 {location:漂流浅滩} 中的 {npc:235216} 以获得 {item:233489}。\n\n{note:可以错过，但没有追赶机制}。'
+L['prismatic_day'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------

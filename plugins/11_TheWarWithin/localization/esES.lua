@@ -393,7 +393,8 @@ L['turbulent_fragment_a'] = 'Escondido en un {object:Montón de tierra} detrás 
 L['turbulent_fragment_b'] = 'Despoja el {object:Fragmento rúnico} frente a los fantasmas {npc:Kul Tiran} acobardados dentro de una cueva en el {location:Hoyo Hediondo}.'
 L['turbulent_fragment_c'] = 'Despoja el {object:Fragmento rúnico} retenido por el fantasma {npc:Kul Tiran} dentro de la {location:Cueva del Espíritu Marcado}.'
 
-L['pristmatic_snapdragon_note_start'] = 'A lo largo de 8 días, ayuda a salvar a {npc:235216} en la {location:Marisma de Derrelicto} para conseguir {item:233489}.\n\n{note:Puedes perderte un día pero no hay ningún mecanismo de recuperación}.'
+L['prismatic_snapdragon_note_start'] = 'A lo largo de 8 días, ayuda a salvar a {npc:235216} en la {location:Marisma de Derrelicto} para conseguir {item:233489}.\n\n{note:Puedes perderte un día pero no hay ningún mecanismo de recuperación}.'
+L['prismatic_day'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------

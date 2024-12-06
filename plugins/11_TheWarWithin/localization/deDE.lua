@@ -396,7 +396,8 @@ L['turbulent_fragment_a'] = nil
 L['turbulent_fragment_b'] = nil
 L['turbulent_fragment_c'] = nil
 
-L['pristmatic_snapdragon_note_start'] = nil
+L['prismatic_snapdragon_note_start'] = nil
+L['prismatic_day'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------

@@ -31,15 +31,27 @@ local QuestStatus = ns.tooltip.QuestStatus
 
 -------------------------------------------------------------------------------
 
+-- ------|-------------|-----------|---------------|
+-- storm | regular map | storm map | show sublabel |
+-- ------|-------------|-----------|---------------|
+--   1   |     NO      |    YES    |      YES      | Rares, Treasures, Fragments
+-- ------|-------------|-----------|---------------|
+--   2   |     YES     |    YES    |      YES      | Thrayir, Eyes of the Siren
+-- ------|-------------|-----------|---------------|
+--   3   |     YES     |    YES    |      NO       | Prismatic Snapdragon
+-- ------|-------------|-----------|---------------|
+
 local function ProcessStorm(node)
     if not node.storm then return end
     if node._stormProcessed then return end
 
-    local icon = ns.GetIconLink(237589)
-    local spell = icon .. ' ' .. ns.color.White('[{spell:458069}]')
-    local sub = ns.color.Orange(format(L['storm_required'], spell))
-    node.sublabel = node.sublabel and sub .. '\n' .. node.sublabel or sub
-    if node.requires then node.sublabel = node.sublabel .. '\n\n' end
+    if node.storm <= 2 then
+        local icon = ns.GetIconLink(237589)
+        local spell = icon .. ' ' .. ns.color.White('[{spell:458069}]')
+        local sub = ns.color.Orange(format(L['storm_required'], spell))
+        node.sublabel = node.sublabel and sub .. '\n' .. node.sublabel or sub
+        if node.requires then node.sublabel = node.sublabel .. '\n\n' end
+    end
     node._stormProcessed = true
 end
 
@@ -526,29 +538,24 @@ local PristmaticSnapdragon = Class('PristmaticSnapdragon', Collectible, {
     label = '{npc:235216}',
     quest = {
         86482, -- ![A Lifeline]
-        86566, -- hidden
-        99999, -- hidden
         86483, -- ![Snap To It]
-        99999, -- hidden
-        99999, -- hidden
-        86484, -- ![Temper Like A Tempest]
-        99999 -- hidden
+        86484 -- ![Temper Like A Tempest]
     },
     requires = ns.requirement.Quest(84726), -- ![Uncovered Mysteries]
     rewards = {
         Mount({item = 233489, id = 2469}) -- Pristmatic Snapdragon
     },
-    storm = 2
+    storm = 3
 }) -- Pristmatic Snapdragon
 
 function PristmaticSnapdragon.getters:label()
     if C_QuestLog.IsQuestFlaggedCompleted(self.quest[1]) then
         return '{npc:235237}' -- Growing Snapdragon Runt
     end
-    if C_QuestLog.IsQuestFlaggedCompleted(self.quest[4]) then
+    if C_QuestLog.IsQuestFlaggedCompleted(self.quest[2]) then
         return '{npc:235243}' -- Maturing Pristmatic Snapdragon
     end
-    if C_QuestLog.IsQuestFlaggedCompleted(self.quest[7]) then
+    if C_QuestLog.IsQuestFlaggedCompleted(self.quest[3]) then
         return '{npc:235250}' -- Mature Pristmatic Snapdragon
     end
     return '{npc:235216}' -- Starving Snapdragon Runt
@@ -556,17 +563,15 @@ end
 
 function PristmaticSnapdragon.getters:note()
     local quest1 = format('{quest:%d}', self.quest[1])
-    local quest4 = format('{quest:%d}', self.quest[4])
-    local quest7 = format('{quest:%d}', self.quest[7])
-    local note = L['pristmatic_snapdragon_note_start'] .. '\n'
-    note = note .. QuestStatus(self.quest[1], 1, quest1)
-    note = note .. QuestStatus(self.quest[2], 2, '{quest:86486}')
-    note = note .. QuestStatus(self.quest[3], 3, '{quest:86486}')
-    note = note .. QuestStatus(self.quest[4], 4, quest4)
-    note = note .. QuestStatus(self.quest[5], 5, '{quest:86486}')
-    note = note .. QuestStatus(self.quest[6], 6, '{quest:86486}')
-    note = note .. QuestStatus(self.quest[7], 7, quest7)
-    note = note .. QuestStatus(self.quest[8], 8, '{quest:86486}')
+    local quest2 = format('{quest:%d}', self.quest[2])
+    local quest3 = format('{quest:%d}', self.quest[3])
+    local day1 = format(L['prismatic_day'], 1)
+    local day4 = format(L['prismatic_day'], 4)
+    local day7 = format(L['prismatic_day'], 7)
+    local note = L['prismatic_snapdragon_note_start'] .. '\n'
+    note = note .. QuestStatus(self.quest[1], day1, quest1)
+    note = note .. QuestStatus(self.quest[2], day4, quest2)
+    note = note .. QuestStatus(self.quest[3], day7, quest3)
     return note
 end
 
