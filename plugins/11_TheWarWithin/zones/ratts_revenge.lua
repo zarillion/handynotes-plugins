@@ -11,6 +11,7 @@ local Node = ns.node.Node
 local Buff = ns.reward.Buff
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
+local Toy = ns.reward.Toy
 
 local Entrance = ns.poi.Entrance
 
@@ -273,7 +274,7 @@ karazhanCatacombs.nodes[48187996] = RattsRevenge({
     label = L['astral_chest_label'],
     note = L['astral_rewards_note'],
     quest = HATE_QUESTS, -- hidden
-    rewards = {Item({item = 228966, bag = true})}, -- Starry-Eyed Goggles
+    rewards = {Toy({item = 228966})}, -- Starry-Eyed Goggles
     requires = ns.requirement.Item(228965), -- Astral Key
     rlabel = Gray('2/2')
 }) -- Astral Chest
