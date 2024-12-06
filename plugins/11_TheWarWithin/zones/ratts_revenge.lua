@@ -655,14 +655,11 @@ local RATS_TO_STATUES = {
 }
 -- LuaFormatter on
 
-local xStart = 2600
-local yStart = 1500
-
-for x = 1, 8 do
+for x = 1, 4 do
     for y = 1, 11 do
         local nodeInfo = RATS_TO_STATUES[y][x]
-        local newX = tostring(xStart + ((x - 1) * 300))
-        local newY = tostring(yStart + ((y - 1) * 400))
+        local newX = tostring(2600 + ((x - 1) * 300))
+        local newY = tostring(1500 + ((y - 1) * 400))
         local coordinates = tonumber(newX .. newY)
         karazhanCatacombs.nodes[coordinates] = RattsRevenge({
             icon = nodeInfo.icon,
