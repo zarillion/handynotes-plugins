@@ -112,7 +112,6 @@ map.nodes[26206546] = Rare({
     id = 229982,
     location = L['in_cave'],
     note = L['the_drowned_lair_note'],
-    quest = nil,
     pois = {Entrance({31756503})},
     rewards = {Achievement({id = 41046, criteria = 70791})},
     vignette = 6754
@@ -122,7 +121,6 @@ map.nodes[57726612] = Rare({
     id = 228201,
     location = L['in_cave'],
     note = L['the_drain_note'],
-    quest = nil,
     pois = {Entrance({61477357})},
     rewards = {Achievement({id = 41046, criteria = 70792})},
     vignette = 6517
@@ -132,7 +130,6 @@ map.nodes[37115497] = Rare({
     id = 229992,
     location = L['in_cave'],
     note = L['shuddering_hollow_note'],
-    quest = nil,
     pois = {Entrance({42785666})},
     rewards = {Achievement({id = 41046, criteria = 70793})},
     vignette = 6610
@@ -142,14 +139,12 @@ map.nodes[37115497] = Rare({
 
 map.nodes[53283383] = Rare({
     id = 228601,
-    quest = nil,
     rewards = {Achievement({id = 41046, criteria = 70796})},
     vignette = 6531
 }) -- Ghostmaker
 
 map.nodes[34151392] = Rare({
     id = 228155,
-    quest = nil,
     pois = {
         Path({
             34551282, 36241108, 37531283, 36971549, 36381678, 36332003,
@@ -164,7 +159,6 @@ map.nodes[34151392] = Rare({
 
 map.nodes[67391919] = Rare({
     id = 231090,
-    quest = nil,
     pois = {
         Path({
             76241995, 75511800, 74101664, 73051749, 72921982, 73032219,
@@ -180,21 +174,18 @@ map.nodes[67391919] = Rare({
 
 map.nodes[46787812] = Rare({
     id = 228151,
-    quest = nil,
     rewards = {Achievement({id = 41046, criteria = 70800})},
     vignette = 6526
 }) -- Wreckwater
 
 tfv.nodes[66465635] = VaultRare({
     id = 228159,
-    quest = nil,
     rewards = {Achievement({id = 41046, criteria = 70798})},
     vignette = 6527
 }) -- Gunnlod the Sea-Drinker
 
 tfv.nodes[28072475] = VaultRare({
     id = 227550,
-    quest = nil,
     rewards = {Achievement({id = 41046, criteria = 70795})},
     vignette = 6666
 }) -- Shardsong
@@ -203,7 +194,6 @@ tfv.nodes[28072475] = VaultRare({
 
 map.nodes[32457405] = Rare({
     id = 227545,
-    quest = nil,
     rewards = {Achievement({id = 41046, criteria = 70805})},
     sublabel = L['vykrul_sublabel'],
     vignette = 6525
@@ -211,7 +201,6 @@ map.nodes[32457405] = Rare({
 
 map.nodes[63948729] = Rare({
     id = 230137,
-    quest = nil,
     rewards = {Achievement({id = 41046, criteria = 70806})},
     sublabel = L['vykrul_sublabel'],
     vignette = 6590
@@ -229,7 +218,6 @@ map.nodes[36147261] = Rare({
 
 map.nodes[61758953] = Rare({
     id = 229852,
-    quest = nil,
     rewards = {Achievement({id = 41046, criteria = 70801})},
     sublabel = L['naga_sublabel'],
     vignette = 6581
@@ -248,7 +236,6 @@ map.nodes[56068410] = Rare({
 map.nodes[10001100] = Rare({
     id = 228583,
     note = ns.color.Red(UNKNOWN),
-    quest = nil,
     rewards = {Achievement({id = 41046, criteria = 70803})},
     sublabel = L['pirate_sublabel'],
     vignette = 6580
@@ -257,7 +244,6 @@ map.nodes[10001100] = Rare({
 map.nodes[12001100] = Rare({
     id = 228580,
     note = ns.color.Red(UNKNOWN),
-    quest = nil,
     rewards = {Achievement({id = 41046, criteria = 70804})},
     sublabel = L['pirate_sublabel'],
     vignette = 6577
@@ -265,16 +251,10 @@ map.nodes[12001100] = Rare({
 
 ------------------------------- SEAFURY TEMPEST -------------------------------
 
-map.nodes[55968404] = Rare({
-    id = 231356,
-    quest = nil,
-    storm = 1,
-    vignette = 6616
-}) -- Brinebough
+map.nodes[55968404] = Rare({id = 231356, storm = 1, vignette = 6616}) -- Brinebough
 
 map.nodes[33027359] = Rare({
     id = 231357,
-    quest = nil,
     rewards = {Item({item = 232569})}, -- Cyclonic Runekey
     storm = 1,
     vignette = 6617
@@ -282,7 +262,6 @@ map.nodes[33027359] = Rare({
 
 tfv.nodes[37967648] = VaultRare({
     id = 231368,
-    quest = nil,
     rewards = {Item({item = 232571})}, -- Whirling Runekey
     storm = 1,
     vignette = 6619
@@ -301,7 +280,6 @@ map.nodes[42976324] = Rare({
             40316325, 40016158, 39446012, 38505913, 37455844
         })
     },
-    quest = nil,
     storm = 1,
     vignette = 6615
 }) -- Tempest Talon
@@ -427,8 +405,7 @@ map.nodes[67557351] = Treasure({
 
 map.nodes[74035329] = Treasure({
     label = L['barnacle_encrusted_chest'],
-    location = L['in_water'],
-    quest = nil
+    location = L['in_water']
 }) -- Barnacle-Encrusted Chest (empty?)
 
 -------------------------------------------------------------------------------
