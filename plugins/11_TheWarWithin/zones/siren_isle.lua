@@ -299,6 +299,20 @@ map.nodes[50005000] = Rare({
 
 ------------------------------ RUNED STORM CHEST ------------------------------
 
+local ThunderousFragmentItem = Class('TurbulentFragment', Item, {item = 232605})
+
+function ThunderousFragmentItem:GetStatus()
+    local count = C_Item.GetItemCount(self.item, true)
+    return count >= 5 and Green(count .. '/5') or Red(count .. '/5')
+end
+
+function ThunderousFragmentItem:IsObtained()
+    if ns.PlayerHasItem(232605, 5) then return true end -- Thunderous Fragment
+    if ns.PlayerHasItem(232573, 1) then return true end -- Thunderous Runekey
+    if select(11, C_MountJournal.GetMountInfoByID(2322)) then return true end -- Thrayir, Eyes of the Siren
+    return false
+end
+
 local RunedStormChest = Class('RunedStormChest', Collectible, {
     icon = 'chest_yw',
     scale = 1.3,
@@ -313,7 +327,7 @@ local RunedStormChest = Class('RunedStormChest', Collectible, {
                 qty = true,
                 suffix = L['runed_storm_chest_suffix']
             }
-        })
+        }), ThunderousFragmentItem() -- Thunderous Fragment
     }
 }) -- Runed Storm Chest
 
