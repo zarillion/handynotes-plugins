@@ -26,7 +26,6 @@ local Path = ns.poi.Path
 local Green = ns.status.Green
 local Red = ns.status.Red
 
-local ItemStatus = ns.tooltip.ItemStatus
 local QuestStatus = ns.tooltip.QuestStatus
 
 -------------------------------------------------------------------------------
@@ -483,34 +482,33 @@ map.nodes[55621466] = Node({
 local Thrayir = Class('Thrayir', VaultCollectible, {
     icon = 897087,
     label = '{item:232639}',
-    requires = {
-        ns.requirement.Item(232571), -- whirling Runekey
-        ns.requirement.Item(232572), -- Torrential Runekey
-        ns.requirement.Item(232573), -- Thunderous Runekey
-        ns.requirement.Item(232569), -- Cyclonic Runekey
-        ns.requirement.Item(232570) -- Turbulent Runekey
-    },
     rewards = {Mount({item = 232639, id = 2322})}, -- Thrayir, Eyes of the Siren
     storm = 2
 }) -- Thrayir, Eyes of the Siren
 
 function Thrayir.getters:note()
+    local function getStatus(runekeyQuest, runekeyItem)
+        local quest = C_QuestLog.IsQuestFlaggedCompleted(runekeyQuest)
+        if quest then return ns.status.Green('1/1') end
+        local item = ns.PlayerHasItem(runekeyItem, 1)
+        if item then return ns.status.Green('1/1') end
+        return ns.status.Red('0/1')
+    end
+
+    local runekeys = {
+        [232569] = {note = L['cyclonic_runekey_note'], quest = 99999},
+        [232570] = {note = L['turbulent_runekey_note'], quest = 85799},
+        [232571] = {note = L['whirling_runekey_note'], quest = 85802},
+        [232572] = {note = L['torrential_runekey_note'], quest = 99999},
+        [232573] = {note = L['thunderous_runekey_note'], quest = 99999}
+    }
+
     local note = L['thrayir_note_start']
-    note = note ..
-               ItemStatus(232571, 1,
-            '{item:232571}\n' .. L['whirling_runekey_note']) -- whirling Runekey
-    note = note ..
-               ItemStatus(232572, 1,
-            '{item:232572}\n' .. L['torrential_runekey_note']) -- Torrential Runekey
-    note = note ..
-               ItemStatus(232573, 1,
-            '{item:232573}\n' .. L['thunderous_runekey_note']) -- Thunderous Runekey
-    note = note ..
-               ItemStatus(232569, 1,
-            '{item:232569}\n' .. L['cyclonic_runekey_note']) -- Cyclonic Runekey
-    note = note ..
-               ItemStatus(232570, 1,
-            '{item:232570}\n' .. L['turbulent_runekey_note']) -- Turbulent Runekey
+    for item, runekey in pairs(runekeys) do
+        local str = '{item:' .. item .. '}\n' .. runekey.note
+        local status = getStatus(runekey.quest, item)
+        note = note .. '\n\n' .. status .. ' ' .. str
+    end
     return note
 end
 
@@ -533,6 +531,7 @@ local TurbulentFragment = Class('TurbulentFragment', Collectible, {
 function TurbulentFragment:IsCollected()
     if ns.PlayerHasItem(234327, 3) then return true end -- Turbulent Fragment
     if ns.PlayerHasItem(232570, 1) then return true end -- Turbulent Runekey
+    if C_QuestLog.IsQuestFlaggedCompleted(85799) then return true end -- Turbulent Runestone
     if select(11, C_MountJournal.GetMountInfoByID(2322)) then return true end -- Thrayir, Eyes of the Siren
     return false
 end
