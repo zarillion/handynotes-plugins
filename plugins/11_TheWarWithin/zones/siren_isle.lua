@@ -139,6 +139,7 @@ map.nodes[37115497] = Rare({
 
 map.nodes[53283383] = Rare({
     id = 228601,
+    quest = 84801, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70796})},
     vignette = 6531
 }) -- Ghostmaker
@@ -168,6 +169,7 @@ map.nodes[67391919] = Rare({
             69972597, 71162428, 72392361, 73702462, 75262397, 76222240, 76242016
         })
     },
+    quest = 86933, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70799})},
     vignette = 6607
 }) -- Snacker
@@ -180,12 +182,14 @@ map.nodes[46787812] = Rare({
 
 tfv.nodes[66465635] = VaultRare({
     id = 228159,
+    quest = 84797, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70798})},
     vignette = 6527
 }) -- Gunnlod the Sea-Drinker
 
 tfv.nodes[28072475] = VaultRare({
     id = 227550,
+    quest = 86779, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70795})},
     vignette = 6666
 }) -- Shardsong
@@ -251,7 +255,12 @@ map.nodes[12001100] = Rare({
 
 ------------------------------- SEAFURY TEMPEST -------------------------------
 
-map.nodes[55968404] = Rare({id = 231356, storm = 1, vignette = 6616}) -- Brinebough
+map.nodes[55968404] = Rare({
+    id = 231356,
+    storm = 1,
+    quest = 85404, -- hidden
+    vignette = 6616
+}) -- Brinebough
 
 map.nodes[33027359] = Rare({
     id = 231357,
@@ -262,6 +271,7 @@ map.nodes[33027359] = Rare({
 
 tfv.nodes[37967648] = VaultRare({
     id = 231368,
+    quest = 85406, -- hidden
     rewards = {Item({item = 232571})}, -- Whirling Runekey
     storm = 1,
     vignette = 6619
