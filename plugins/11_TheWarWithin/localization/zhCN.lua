@@ -551,6 +551,8 @@ L['code_label'] = '将 %d 个雕像置于 %s'
 -- Orb 9
 L['orb_9_label'] = '9号球'
 
+L['ak_decryption_console_note'] = '装备 {item:228966} 显示一个隐藏的平台。\n\n目标为 {npc:230383} 并使用 {item:228996} 到达那里。' -- still not solved. translate at your own risk
+
 -- Orb 10
 L['orb_10_label'] = '10号球'
 

@@ -450,43 +450,43 @@ L['karazhan_catacombs_label'] = 'Die Katakomben von Karazhan'
 L['karazhan_catacombs_entrance_note'] = 'Sammle den {item:44124} im {location:Krater von Un\'Goro} ({location:Kalimdor})\n\nSammle den {item:228938} beginnend in {location:Dornogal} ({location:Khaz Algar}, {location:Insel von Dorn})\n\nKombiniere den Schlüssel und Edelstein, um den {item:44124} zu erhalten.\n\nMit dem {item:44124} in deinen Taschen und der {item:208092} aktiv nähere dich dem Gitter, um einen roten Instanzeingang zu offenbaren.'
 
 -- ORB 1
-L['orb_1_label'] = nil
-L['orb_1_note'] = nil
-L['orb_1_locations'] = nil
-L['humble_monument'] = nil
-L['olgra_location'] = nil
+L['orb_1_label'] = 'Kugel 1'
+L['orb_1_note'] = 'Benutze die {item:208092} an jedem Ort mit {npc:228249}, um einen von drei Stapeln {spell:153715} zu erhalten.'
+L['orb_1_locations'] = '1. {location:Nördliches Brachland} in {location:Kalimdor}\n2. {location:Nagrand} in {location:Draenor}\n3. {location:Maldraxxus} in {location:Die Schattenlande}'
+L['humble_monument'] = 'Einfaches Denkmal'
+L['olgra_location'] = '{note:Die Position ändert sich je nach Abschluss der Quest {quest:35170}.}'
 
 -- ORB 2
-L['orb_2_label'] = nil
-L['orb_2_note'] = nil
+L['orb_2_label'] = 'Kugel 2'
+L['orb_2_note'] = '{note:Du musst dich in der {location:Battle for Azeroth} Phase des {location:Tal der Ewigen Blüten} befinden.}\n\nStelle dich neben den {npc:153297} using one of the following gifts of {npc:147393}:\n\n{item:168123}\n{item:175140}\n{item:168004}\n\nSummon {item:49912} and using one of the following costumes:\n\n{item:229413}\n{item:116812}\n\nType {emote:/pray} and wait to receive the {item:53156}.\n\n{note:Other players around completing the above steps you can also obtain {item:53156}.}\n\nReturn to the {location:Karazhan Catacombs} and use the key to open both doors in the room with the fountain.'
 
 -- ORB 3
-L['orb_3_label'] = nil
+L['orb_3_label'] = 'Kugel 3'
 
-L['astral_soup_label'] = nil
-L['astral_chest_label'] = nil
-L['astral_rewards_note'] = nil
+L['astral_soup_label'] = 'Astralsuppe'
+L['astral_chest_label'] = 'Astraltruhe'
+L['astral_rewards_note'] = 'Angle in der {object:Astralsuppe}, um den {item:228965} zu erhalten.\n\nBenutze den {item:228965}, um die {object:Astraltruhe} zu öffnen und eine {item:228966} zu erhalten.\n\nSammle 9x {item:228967} in den {location:Katakomben von Karazhan}.'
 
-L['decryption_machine_label'] = nil
-L['decryption_console_label'] = nil
-L['rubensteins_console'] = nil
+L['decryption_machine_label'] = 'Entschlüsselungskonsole' -- ???
+L['decryption_console_label'] = 'Entschlüsselungskonsole'
+L['rubensteins_console'] = 'Rubensteins Konsole'
 
-L['code_machine_note_1'] = nil
-L['code_machine_note_2'] = nil
-L['code_machine_note_3'] = nil
-L['code_machine_note_4'] = nil
-L['code_machine_note_5'] = nil
-L['code_machine_note_6'] = nil
-L['code_machine_note_7'] = nil
-L['code_machine_note_8'] = nil
+L['code_machine_note_1'] = 'Gibt den Code ein, um aus dem {object:Eigentum von Ältester Ko\'nani} ein {item:228967} zu erhalten.\n\n{object:Code}: 88224646'
+L['code_machine_note_2'] = 'Gibt den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 10638'
+L['code_machine_note_3'] = 'Gibt den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 5661'
+L['code_machine_note_4'] = 'Gibt den Code ein, um aus {object:Rubensteins Tresor} ein {item:228967} zu erhalten.\n\n{object:Code}: 52233'
+L['code_machine_note_5'] = 'Gibt den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 51567'
+L['code_machine_note_6'] = 'Gibt den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 115'
+L['code_machine_note_7'] = 'Gibt den Code ein, um aus der {object:Verschlüsselte Puzzlebox} ein {item:228967} zu erhalten.\n\n{object:Code}: 17112317'
+L['code_machine_note_8'] = 'Gibt den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 19019'
 
-L['slot_machine_label'] = nil
-L['slot_machine_note_a'] = nil
-L['slot_machine_note_b'] = nil
-L['slot_machine_note_c'] = nil
-L['slot_machine_note_d'] = nil
-L['slot_machine_note_e'] = nil
-L['slot_machine_vendor_note'] = nil
+L['slot_machine_label'] = '"Glück gefällig?"-Spielautomat'
+L['slot_machine_note_a'] = 'Kaufe fünf der Glücksgegenstände und gebe dann den Code ein:\n\n'
+L['slot_machine_note_b'] = '{npc:2795} in {location:Sturmwind}:\n{note:(Nur Allianz; Für Horde im AH zu kaufen)}\n'
+L['slot_machine_note_c'] = '{npc:219197} in {location:Dornogal}:\n'
+L['slot_machine_note_d'] = '{npc:186650} in {location:Ebenen von Ohn\'ahra}\n'
+L['slot_machine_note_e'] = '{object:Code}: 777, 77777 oder 7777777'
+L['slot_machine_vendor_note'] = 'Kaufe diese Gegenstände für den {object:"Glück gefällig?"-Spielautomat}.'
 
 -- ORB 4
 L['orb_4_label'] = nil
@@ -553,6 +553,8 @@ L['code_label'] = nil
 
 -- Orb 9
 L['orb_9_label'] = nil
+
+L['ak_decryption_console_note'] = nil
 
 -- Orb 10
 L['orb_10_label'] = nil

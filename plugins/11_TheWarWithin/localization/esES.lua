@@ -532,6 +532,7 @@ L['orb_8_label'] = 'Orbe 8'
 
 L['enigma_machine_label'] = 'Máquina de enigmas'
 L['enigma_machine_note'] = '1. Inserta la {item:229007} y el {item:229054} dentro de la {object:Máquina de enigmas}.\n\n2. Haz click en Empezar y después click en Enviar. Debes abrir 7 cerraduras ocultas.\n\n3. Abre una cerradura contando cada {npc:230596} de la instancia, arrastrando la cantidad correcta de estatuas a la plataforma correcta, y haciendo click en Enviar de nuevo.\n\n{note:Se recomienda matar, pero no contar, cada {npc:230599} para evitar que se paren en las plataformas.}'
+
 L['lock_statue_note'] = 'Arrastra esta estatua a una plataforma.'
 L['lock_platform_note'] = 'Arrastra estatuas a esta plataforma.'
 
@@ -549,6 +550,8 @@ L['code_label'] = '%d en la %s'
 
 -- Orb 9
 L['orb_9_label'] = 'Orbe 9'
+
+L['ak_decryption_console_note'] = 'Equípate tus {item:228966} para revelar una plataforma oculta.\n\nSeñala el {npc:230383} y usa las {item:228996} para alcanzarlo.'
 
 -- Orb 10
 L['orb_10_label'] = 'Orbe 10'

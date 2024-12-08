@@ -551,6 +551,8 @@ L['code_label'] = '%d on %s'
 -- Orb 9
 L['orb_9_label'] = 'Orb 9'
 
+L['ak_decryption_console_note'] = 'Equip your {item:228966} to reveal a hidden platform.\n\nTarget the {npc:230383} and use the {item:228996} to reach it.' -- still not solved. translate at your own risk
+
 -- Orb 10
 L['orb_10_label'] = 'Orb 10'
 
