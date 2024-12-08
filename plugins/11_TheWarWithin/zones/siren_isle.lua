@@ -528,7 +528,6 @@ map.nodes[52393859] = TurbulentFragment({
 
 local PristmaticSnapdragon = Class('PristmaticSnapdragon', Collectible, {
     icon = 2027958,
-    label = '{npc:235216}',
     quest = {
         86482, -- ![A Lifeline]
         86483, -- ![Snap To It]
