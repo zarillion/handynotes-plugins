@@ -366,6 +366,17 @@ map.nodes[42244737] = RunedStormChest({storm = 1})
 map.nodes[38924068] = RunedStormChest({storm = 1})
 map.nodes[38782007] = RunedStormChest({storm = 1})
 map.nodes[49297262] = RunedStormChest({storm = 1})
+map.nodes[63708514] = RunedStormChest({storm = 1})
+
+local VaultChest = Class('VaultChest', RunedStormChest, {
+    location = L['within_the_forgotten_vault'],
+    parent = tfv_parent
+})
+
+tfv.nodes[29207358] = VaultChest({storm = 1})
+tfv.nodes[44406609] = VaultChest({storm = 1})
+tfv.nodes[31792774] = VaultChest({storm = 1})
+tfv.nodes[64005061] = VaultChest({storm = 1})
 
 ---------------------- TRANSMOG (PURPLE ITEMS IN WORLD) -----------------------
 
