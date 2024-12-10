@@ -452,6 +452,11 @@ map.nodes[74035329] = Treasure({
     location = L['in_water']
 }) -- Barnacle-Encrusted Chest (empty?)
 
+map.nodes[62449084] = Treasure({
+    label = 'Blige Rat Supply Chest',
+    requires = ns.requirement.Item(228621) -- Bilge Rat Supply Key
+}) -- Bilge Rat Supply Chest
+
 -------------------------------------------------------------------------------
 ----------------------------------- VENDOR ------------------------------------
 -------------------------------------------------------------------------------
