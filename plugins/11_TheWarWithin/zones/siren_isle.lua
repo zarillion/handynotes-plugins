@@ -16,12 +16,13 @@ local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
-local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 local Circle = ns.poi.Circle
 local Entrance = ns.poi.Entrance
 local Path = ns.poi.Path
+local POI = ns.poi.POI
 
 local Green = ns.status.Green
 local Red = ns.status.Red
@@ -237,17 +238,24 @@ map.nodes[56068410] = Rare({
 
 ----------------------------------- PIRATES -----------------------------------
 
-map.nodes[10001100] = Rare({
+map.nodes[66128495] = Rare({
     id = 228583,
-    note = ns.color.Red(UNKNOWN),
+    quest = 84800, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70803})},
     sublabel = L['pirate_sublabel'],
     vignette = 6580
 }) -- Chef Chum Platter
 
-map.nodes[12001100] = Rare({
+map.nodes[60698921] = Rare({
     id = 228580,
-    note = ns.color.Red(UNKNOWN),
+    pois = {
+        Path({
+            60698921, 60148909, 59408870, 58728810, 58038777, 57288789,
+            56518793, 55738799, 54968770, 54398709, 54168604, 54068502,
+            53868257, 54188155
+        }), POI({54188155})
+    },
+    quest = 84799, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70804})},
     sublabel = L['pirate_sublabel'],
     vignette = 6577
