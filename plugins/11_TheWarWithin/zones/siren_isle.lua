@@ -153,6 +153,7 @@ map.nodes[34151392] = Rare({
             33891472, 33931299, 34551282
         })
     },
+    quest = 84796, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70797})},
     vignette = 6529
 }) -- Grimgull
@@ -342,13 +343,14 @@ local RunedStormChest = Class('RunedStormChest', Collectible, {
 
 map.nodes[37327537] = RunedStormChest()
 map.nodes[39094415] = RunedStormChest()
+map.nodes[42131643] = RunedStormChest()
 map.nodes[49201734] = RunedStormChest()
+map.nodes[51906550] = RunedStormChest()
 map.nodes[52887066] = RunedStormChest()
 map.nodes[59632015] = RunedStormChest()
 map.nodes[59736908] = RunedStormChest()
 map.nodes[60675264] = RunedStormChest()
 map.nodes[61944401] = RunedStormChest()
-map.nodes[51906550] = RunedStormChest()
 
 map.nodes[51523734] = RunedStormChest({
     location = L['in_cave'],
@@ -360,10 +362,10 @@ map.nodes[50211220] = RunedStormChest({
     pois = {Entrance({45992076})}
 })
 
+map.nodes[38782007] = RunedStormChest({storm = 1})
+map.nodes[38924068] = RunedStormChest({storm = 1})
 map.nodes[39965215] = RunedStormChest({storm = 1})
 map.nodes[42244737] = RunedStormChest({storm = 1})
-map.nodes[38924068] = RunedStormChest({storm = 1})
-map.nodes[38782007] = RunedStormChest({storm = 1})
 map.nodes[49297262] = RunedStormChest({storm = 1})
 map.nodes[63708514] = RunedStormChest({storm = 1})
 
