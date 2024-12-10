@@ -135,6 +135,28 @@ map.nodes[37115497] = Rare({
     vignette = 6610
 }) -- Stalagnarok
 
+local EXCAVATION_POIS = {
+    [8149] = 57726612, -- Gravesludge (The Drain)
+    [8150] = 37115497, -- Stalagnarok (Shuddering Halow)
+    [8152] = 26206546 -- Nerathor (The Drowned Lair)
+}
+
+hooksecurefunc(AreaPOIEventPinMixin, 'OnMouseEnter', function(self)
+    if not EXCAVATION_POIS[self.areaPoiID] then return end
+    local mapID = self:GetMap().mapID
+    local group = ns.groups.RARE
+    if group:GetDisplay(mapID) then
+        GameTooltip:AddLine(' ')
+        local rewards = map.nodes[EXCAVATION_POIS[self.areaPoiID]].rewards
+        for _, reward in pairs(rewards) do
+            if reward and reward:IsEnabled() then
+                reward:Render(GameTooltip)
+            end
+        end
+        GameTooltip:Show()
+    end
+end)
+
 ------------------------------- VYKRUL AND NAGA -------------------------------
 
 map.nodes[53283383] = Rare({
