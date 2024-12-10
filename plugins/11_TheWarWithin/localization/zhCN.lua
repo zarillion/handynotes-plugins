@@ -397,6 +397,7 @@ L['prismatic_snapdragon_note_start'] = '在8天的时间里，帮助拯救 {loca
 L['prismatic_day'] = nil
 
 L['unsolved_amethyst_runelock'] = nil
+L['bilge_rat_supply_chest'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------

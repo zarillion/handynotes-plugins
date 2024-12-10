@@ -400,6 +400,7 @@ L['prismatic_snapdragon_note_start'] = nil
 L['prismatic_day'] = nil
 
 L['unsolved_amethyst_runelock'] = nil
+L['bilge_rat_supply_chest'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
