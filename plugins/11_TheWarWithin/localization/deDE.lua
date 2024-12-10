@@ -437,38 +437,38 @@ L['slot_machine_note_e'] = '{object:Code}: 777, 77777 oder 7777777'
 L['slot_machine_vendor_note'] = 'Kaufe diese Gegenstände für den {object:"Glück gefällig?"-Spielautomat}.'
 
 -- ORB 4
-L['orb_4_label'] = nil
-L['vashti_note'] = nil
-L['uthers_tomb_label'] = nil
-L['uthers_tomb_note'] = nil
+L['orb_4_label'] = 'Kugel 4'
+L['vashti_note'] = 'Kaufe {item:228987} von {npc:91079} für %s.'
+L['uthers_tomb_label'] = 'Uthers Grabmal'
+L['uthers_tomb_note'] = 'Beschwöre eine {npc:231482} bei {location:Uthers Grabmal} ({location:Die Östlichen Königreiche}, {location:Westliche Pestländer}), damit verborgene Graffiti erscheinen, die du lesen musst.\n\nZum Beschwören einer {npc:231482} kaufe eine {item:228987} von {npc:91079} in {location:Azsuna} ({location:Die Verheerten Inseln}) ({note:Beim Benutzen der Schriftrolle wirst du sterben}) oder lass einen Hexenmeister seine Fähigkeit {spell:342601} benutzen.\n\n{note:Die verborgenen Graffiti bleiben solange sichtbar, wie die {npc:231482} am Leben ist, also töte diese nicht!}'
 
 -- ORB 5
-L['orb_5_label'] = nil
-L['jeremy_feasel_note'] = nil
-L['zarhym_note'] = nil
-L['pointless_treasure_salesman_location'] = nil
-L['pointless_treasure_salesman_note'] = nil
+L['orb_5_label'] = 'Kugel 5'
+L['jeremy_feasel_note'] = '{npc:232048} ist in der {location:Höhle der Verlorenen Geister} ({location:Pandaria}, {location:Zeitlose Insel}).\n\nBesiege {npc:232048} in einem Haustierkampf, bei dem du nur Haustiere von vorherigen Geheimnissen benutzt.%s\n\nSobald du gewonnen hast, schließe die Quest {quest:84781} ab, um {item:228995} zu erhalten.\n\nGehe dann zum {npc:230310} in {location:Beutebucht} ({location:Die Östlichen Königreiche}, {location:Schlingendorntal}) und kaufe das {item:228996}.'
+L['zarhym_note'] = 'Sprich mit {npc:71876} in der Höhle, um in die Geisterwelt zu gelangen.'
+L['pointless_treasure_salesman_location'] = 'Im inneren der Goblinstatue versteckt.'
+L['pointless_treasure_salesman_note'] = 'Kaufe das {item:228996}:'
 
 -- ORB 6
-L['orb_6_label'] = nil
-L['blood_altar_label'] = nil
-L['corrupt_altar_label'] = nil
-L['lust_altar_label'] = nil
-L['sin_altar_label'] = nil
-L['void_altar_label'] = nil
+L['orb_6_label'] = 'Kugel 6'
+L['blood_altar_label'] = 'Blood Altar'
+L['corrupt_altar_label'] = 'Corrupt Altar'
+L['lust_altar_label'] = 'Lust Altar'
+L['sin_altar_label'] = 'Sin Altar'
+L['void_altar_label'] = 'Void Altar'
 
-L['altar_note'] = nil
-L['blood_altar_note'] = nil
-L['corrupt_altar_note'] = nil
-L['lust_altar_note'] = nil
-L['sin_altar_note'] = nil
-L['void_altar_note'] = nil
+L['altar_note'] = 'Benutze die {item:208092}, um den Geist zu beschwören. Verwende bestimmte Reittiere, Haustiere, Spielzeuge oder Transmoggs, um den Geist zu besänftigen:'
+L['blood_altar_note'] = '{object:%s}: Ein Reittier mit "Blut" im Namen.\n\n{object:%s}: Ein Haustier mit "Blut" im Namen.\n\n{object:%s}: {item:127709}'
+L['corrupt_altar_note'] = '{object:%s}: Ein Reittier mit "Verderbt" im Namen.\n\n{object:%s}: Ein Haustier mit "Verderbt" im Namen.\n\n{object:%s}: {item:116067}\n\n{object:%s}: Ein Umhang mit der selben Vorlage wie {item:86316}.'
+L['lust_altar_note'] = '{object:%s}: {pet:1628}\n\n{object:%s}: {item:129211}\n\n{object:%s}: Komplett nackt oder unter dem Effekt von {item:119092}.'
+L['sin_altar_note'] = '{object:%s}: {pet:2966}\n\n{object:%s}: {item:183986}\n\n{object:%s}: Ein Venthyr-Sündenstein-Umhang.'
+L['void_altar_note'] = '{object:%s}: {pet:1234}, {pet:2434} oder {pet:4543}\n\n{object:%s}: {item:119003} oder {item:174830}\n\n{object:%s}: Ein Umhang mit der selben Vorlage wie {item:24252}'
 
-L['chest_of_acquisitions_label'] = nil
-L['chest_of_acquisitions_note'] = nil
+L['chest_of_acquisitions_label'] = 'Truhe der Aneignungen'
+L['chest_of_acquisitions_note'] = '1. Besänftige alle Geister an den Altären in {location:Zul\'Gurub} ({location:Die Östlichen Königreiche}, {location:Nördliches Schlingendorntal}).\n\n2. Verwende die {item:228966} und plündere die {object:Truhe der Aneignungen}, um {item:229007} zu erhalten.'
 
 -- Orb 7
-L['orb_7_label'] = nil
+L['orb_7_label'] = 'Kugel 7'
 L['orb_7_summary'] = nil
 
 L['marin_bladewing_note'] = nil
@@ -479,7 +479,7 @@ L['sentry_statue_note'] = nil
 L['sentry_note'] = nil
 
 -- Orb 8
-L['orb_8_label'] = nil
+L['orb_8_label'] = 'Kugel 8'
 
 L['enigma_machine_label'] = nil
 L['enigma_machine_note'] = nil
@@ -500,15 +500,15 @@ L['lock_label'] = nil
 L['code_label'] = nil
 
 -- Orb 9
-L['orb_9_label'] = nil
+L['orb_9_label'] = 'Kugel 9'
 
 L['ak_decryption_console_note'] = nil
 
 -- Orb 10
-L['orb_10_label'] = nil
+L['orb_10_label'] = 'Kugel 10'
 
 -- Orb 11
-L['orb_11_label'] = nil
+L['orb_11_label'] = 'Kugel 11'
 
 -- Orb 12
-L['orb_12_label'] = nil
+L['orb_12_label'] = 'Kugel 12'
