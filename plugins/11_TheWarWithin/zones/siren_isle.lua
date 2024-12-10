@@ -252,7 +252,7 @@ map.nodes[61758953] = Rare({
 
 map.nodes[56068410] = Rare({
     id = 229853,
-    quest = 84803,
+    quest = 84803, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70802})},
     sublabel = L['naga_sublabel'],
     vignette = 6582
@@ -467,12 +467,12 @@ map.nodes[67557351] = Treasure({
     label = L['unsolved_amethyst_runelock'],
     location = L['in_small_cave'],
     rewards = {Transmog({item = 229026, type = L['leather']})} -- Earthen Deckhand's Bindings
-}) -- Unsolved Amethyst Runelock (Rune-Sealed Coffer)
+}) -- Unsolved Amethyst Runelock
 
 map.nodes[74035329] = Treasure({
     label = L['barnacle_encrusted_chest'],
     location = L['in_water']
-}) -- Barnacle-Encrusted Chest (empty?)
+}) -- Barnacle-Encrusted Chest
 
 map.nodes[62449084] = Treasure({
     label = L['bilge_rat_supply_chest'],
