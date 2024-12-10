@@ -397,7 +397,7 @@ L['prismatic_snapdragon_note_start'] = 'A lo largo de 8 días, ayuda a salvar a 
 L['prismatic_day'] = 'Día %d'
 
 L['unsolved_amethyst_runelock'] = 'Bloqueo de runas amatista'
-L['bilge_rat_supply_chest'] = nil
+L['bilge_rat_supply_chest'] = 'Cofre de suministros de las Ratas de Pantoque'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
