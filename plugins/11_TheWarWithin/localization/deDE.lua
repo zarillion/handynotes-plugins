@@ -451,11 +451,11 @@ L['pointless_treasure_salesman_note'] = 'Kaufe das {item:228996}:'
 
 -- ORB 6
 L['orb_6_label'] = 'Kugel 6'
-L['blood_altar_label'] = 'Blood Altar'
-L['corrupt_altar_label'] = 'Corrupt Altar'
-L['lust_altar_label'] = 'Lust Altar'
-L['sin_altar_label'] = 'Sin Altar'
-L['void_altar_label'] = 'Void Altar'
+L['blood_altar_label'] = 'Altar des Blutes'
+L['corrupt_altar_label'] = 'Altar der Verderbtheit'
+L['lust_altar_label'] = 'Altar der Begierde'
+L['sin_altar_label'] = 'Altar der Sünde'
+L['void_altar_label'] = 'Altar der Leere'
 
 L['altar_note'] = 'Benutze die {item:208092}, um den Geist zu beschwören. Verwende bestimmte Reittiere, Haustiere, Spielzeuge oder Transmoggs, um den Geist zu besänftigen:'
 L['blood_altar_note'] = '{object:%s}: Ein Reittier mit "Blut" im Namen.\n\n{object:%s}: Ein Haustier mit "Blut" im Namen.\n\n{object:%s}: {item:127709}'
