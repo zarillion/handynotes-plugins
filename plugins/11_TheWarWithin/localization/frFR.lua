@@ -398,7 +398,7 @@ L['prismatic_snapdragon_note_start'] = 'Pendant 8 jours, contribuez à sauver le
 L['prismatic_day'] = 'Jour %d'
 
 L['unsolved_amethyst_runelock'] = 'Verrou runique en améthyste non résolu'
-L['bilge_rat_supply_chest'] = nil
+L['bilge_rat_supply_chest'] = 'Coffre de fournitures des Soutaillons'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
