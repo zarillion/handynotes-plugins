@@ -537,19 +537,21 @@ local Thrayir = Class('Thrayir', VaultCollectible, {
 
 function Thrayir.getters:note()
     local function getStatus(runekeyQuest, runekeyItem)
-        local quest = C_QuestLog.IsQuestFlaggedCompleted(runekeyQuest)
-        if quest then return ns.status.Green('1/1') end
+        if runekeyQuest then
+            local quest = C_QuestLog.IsQuestFlaggedCompleted(runekeyQuest)
+            if quest then return ns.status.Green('1/1') end
+        end
         local item = ns.PlayerHasItem(runekeyItem, 1)
         if item then return ns.status.Green('1/1') end
         return ns.status.Red('0/1')
     end
 
     local runekeys = {
-        [232569] = {note = L['cyclonic_runekey_note'], quest = 99999},
+        [232569] = {note = L['cyclonic_runekey_note'], quest = nil},
         [232570] = {note = L['turbulent_runekey_note'], quest = 85799},
         [232571] = {note = L['whirling_runekey_note'], quest = 85802},
-        [232572] = {note = L['torrential_runekey_note'], quest = 99999},
-        [232573] = {note = L['thunderous_runekey_note'], quest = 99999}
+        [232572] = {note = L['torrential_runekey_note'], quest = nil},
+        [232573] = {note = L['thunderous_runekey_note'], quest = nil}
     }
 
     local note = L['thrayir_note_start']
