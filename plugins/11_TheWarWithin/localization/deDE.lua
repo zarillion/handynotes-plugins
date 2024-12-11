@@ -366,6 +366,9 @@ L['slaughtershell_location'] = nil
 
 L['within_the_forgotten_vault'] = nil
 
+L['options_icons_runed_storm_chest'] = '{achievement:41131}'
+L['options_icons_runed_storm_chest_desc'] = nil
+
 L['runed_storm_chest_label'] = nil
 L['runed_storm_chest_suffix'] = nil
 L['runed_storm_chest_note'] = nil

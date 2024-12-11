@@ -346,78 +346,6 @@ map.nodes[50005000] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
------------------------------- RUNED STORM CHEST ------------------------------
-
-local ThunderousFragmentItem = Class('TurbulentFragment', Item, {item = 232605})
-
-function ThunderousFragmentItem:GetStatus()
-    local count = C_Item.GetItemCount(self.item, true)
-    return count >= 5 and Green(count .. '/5') or Red(count .. '/5')
-end
-
-function ThunderousFragmentItem:IsObtained()
-    if ns.PlayerHasItem(232605, 5) then return true end -- Thunderous Fragment
-    if ns.PlayerHasItem(232573, 1) then return true end -- Thunderous Runekey
-    if select(11, C_MountJournal.GetMountInfoByID(2322)) then return true end -- Thrayir, Eyes of the Siren
-    return false
-end
-
-local RunedStormChest = Class('RunedStormChest', Collectible, {
-    icon = 'chest_yw',
-    scale = 1.3,
-    label = L['runed_storm_chest_label'],
-    note = L['runed_storm_chest_note'],
-    requires = ns.requirement.Quest(84726), -- ![Uncovered Mysteries]
-    rewards = {
-        Achievement({
-            id = 41131,
-            criteria = {
-                id = 1,
-                qty = true,
-                suffix = L['runed_storm_chest_suffix']
-            }
-        }), ThunderousFragmentItem() -- Thunderous Fragment
-    }
-}) -- Runed Storm Chest
-
-map.nodes[37327537] = RunedStormChest()
-map.nodes[39094415] = RunedStormChest()
-map.nodes[42131643] = RunedStormChest()
-map.nodes[49201734] = RunedStormChest()
-map.nodes[51906550] = RunedStormChest()
-map.nodes[52887066] = RunedStormChest()
-map.nodes[59632015] = RunedStormChest()
-map.nodes[59736908] = RunedStormChest()
-map.nodes[60675264] = RunedStormChest()
-map.nodes[61944401] = RunedStormChest()
-
-map.nodes[51523734] = RunedStormChest({
-    location = L['in_cave'],
-    pois = {Entrance({50594160})}
-})
-
-map.nodes[50211220] = RunedStormChest({
-    location = L['in_cave'],
-    pois = {Entrance({45992076})}
-})
-
-map.nodes[38782007] = RunedStormChest({storm = 1})
-map.nodes[38924068] = RunedStormChest({storm = 1})
-map.nodes[39965215] = RunedStormChest({storm = 1})
-map.nodes[42244737] = RunedStormChest({storm = 1})
-map.nodes[49297262] = RunedStormChest({storm = 1})
-map.nodes[63708514] = RunedStormChest({storm = 1})
-
-local VaultChest = Class('VaultChest', RunedStormChest, {
-    location = L['within_the_forgotten_vault'],
-    parent = tfv_parent
-})
-
-tfv.nodes[29207358] = VaultChest({storm = 1})
-tfv.nodes[44406609] = VaultChest({storm = 1})
-tfv.nodes[31792774] = VaultChest({storm = 1})
-tfv.nodes[64005061] = VaultChest({storm = 1})
-
 ---------------------- TRANSMOG (PURPLE ITEMS IN WORLD) -----------------------
 
 map.nodes[36925304] = Treasure({
@@ -501,6 +429,81 @@ map.nodes[69984855] = Vendor({
         Pet({item = 234395, id = 4727, count = 750}) -- Skitterbite
     }
 }) -- Soweezi
+
+-------------------------------------------------------------------------------
+----------- ACHIEVEMENT: TREASURES OF THE STORM (RUNED STORM CHEST) -----------
+-------------------------------------------------------------------------------
+
+local ThunderousFragmentItem = Class('TurbulentFragment', Item, {item = 232605})
+
+function ThunderousFragmentItem:GetStatus()
+    local count = C_Item.GetItemCount(self.item, true)
+    return count >= 5 and Green(count .. '/5') or Red(count .. '/5')
+end
+
+function ThunderousFragmentItem:IsObtained()
+    if ns.PlayerHasItem(232605, 5) then return true end -- Thunderous Fragment
+    if ns.PlayerHasItem(232573, 1) then return true end -- Thunderous Runekey
+    if select(11, C_MountJournal.GetMountInfoByID(2322)) then return true end -- Thrayir, Eyes of the Siren
+    return false
+end
+
+local RunedStormChest = Class('RunedStormChest', Collectible, {
+    icon = 'chest_yw',
+    group = ns.groups.RUNED_STORM_CHEST,
+    scale = 1.3,
+    label = L['runed_storm_chest_label'],
+    note = L['runed_storm_chest_note'],
+    requires = ns.requirement.Quest(84726), -- ![Uncovered Mysteries]
+    rewards = {
+        Achievement({
+            id = 41131,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['runed_storm_chest_suffix']
+            }
+        }), ThunderousFragmentItem() -- Thunderous Fragment
+    }
+}) -- Runed Storm Chest
+
+map.nodes[37327537] = RunedStormChest()
+map.nodes[39094415] = RunedStormChest()
+map.nodes[42131643] = RunedStormChest()
+map.nodes[49201734] = RunedStormChest()
+map.nodes[51906550] = RunedStormChest()
+map.nodes[52887066] = RunedStormChest()
+map.nodes[59632015] = RunedStormChest()
+map.nodes[59736908] = RunedStormChest()
+map.nodes[60675264] = RunedStormChest()
+map.nodes[61944401] = RunedStormChest()
+
+map.nodes[51523734] = RunedStormChest({
+    location = L['in_cave'],
+    pois = {Entrance({50594160})}
+})
+
+map.nodes[50211220] = RunedStormChest({
+    location = L['in_cave'],
+    pois = {Entrance({45992076})}
+})
+
+map.nodes[38782007] = RunedStormChest({storm = 1})
+map.nodes[38924068] = RunedStormChest({storm = 1})
+map.nodes[39965215] = RunedStormChest({storm = 1})
+map.nodes[42244737] = RunedStormChest({storm = 1})
+map.nodes[49297262] = RunedStormChest({storm = 1})
+map.nodes[63708514] = RunedStormChest({storm = 1})
+
+local VaultChest = Class('VaultChest', RunedStormChest, {
+    location = L['within_the_forgotten_vault'],
+    parent = tfv_parent
+})
+
+tfv.nodes[29207358] = VaultChest({storm = 1})
+tfv.nodes[44406609] = VaultChest({storm = 1})
+tfv.nodes[31792774] = VaultChest({storm = 1})
+tfv.nodes[64005061] = VaultChest({storm = 1})
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLEANOUS --------------------------------

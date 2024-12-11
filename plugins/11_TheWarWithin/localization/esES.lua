@@ -363,6 +363,9 @@ L['slaughtershell_location'] = 'Deambula por toda la {location:Isla de la Sirena
 
 L['within_the_forgotten_vault'] = 'Dentro de la {location:Cámara Olvidada}. Usa la {object:Tablilla canto} dentro de la {location:Hondonada Sacra} para entrar en la cámara.'
 
+L['options_icons_runed_storm_chest'] = '{achievement:41131}'
+L['options_icons_runed_storm_chest_desc'] = nil
+
 L['runed_storm_chest_label'] = 'Cofre de tormenta rúnico'
 L['runed_storm_chest_suffix'] = 'cofres abiertos'
 L['runed_storm_chest_note'] = 'Sigue el viento hasta un {object:Cofre de tormenta rúnico} escondido y revélalo con {spell:472051}.'

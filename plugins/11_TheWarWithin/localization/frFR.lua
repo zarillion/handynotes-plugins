@@ -364,6 +364,9 @@ L['slaughtershell_location'] = 'Parcourt la totalité de l\'{location:Île aux S
 
 L['within_the_forgotten_vault'] = 'À l\'intérieur de {location:La chambre Oubliée}. Utilisez la {object:Tablette chantonnante} dans {location:Le creux Sacré} pour entrer dans le caveau'
 
+L['options_icons_runed_storm_chest'] = '{achievement:41131}'
+L['options_icons_runed_storm_chest_desc'] = nil
+
 L['runed_storm_chest_label'] = 'Cache de la tempête runique'
 L['runed_storm_chest_suffix'] = 'coffres ouverts'
 L['runed_storm_chest_note'] = 'Suivez le vent jusqu\'à une {object:Cache de la tempête runique} dissimulée et révélez-la avec l\'{spell:472051}.'

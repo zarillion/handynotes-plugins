@@ -158,6 +158,12 @@ ns.groups.ROCKED_TO_SLEEP = Group('rocked_to_sleep', 5788303, {
     achievement = 40504
 })
 
+ns.groups.RUNED_STORM_CHEST = Group('runed_storm_chest', 'chest_yw', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 41131
+})
+
 -- ns.groups.SAFARI = Group('safari', 4048818, {
 --     defaults = ns.GROUP_HIDDEN,
 --     type = ns.group_types.ACHIEVEMENT,
