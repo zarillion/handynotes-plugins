@@ -202,7 +202,7 @@ map.nodes[67391919] = Rare({
 
 map.nodes[46787812] = Rare({
     id = 228151,
-    quest = nil, -- hidden
+    quest = 84794, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70800})},
     vignette = 6526
 }) -- Wreckwater
