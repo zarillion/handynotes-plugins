@@ -368,7 +368,7 @@ L['options_icons_runed_storm_chest'] = '{achievement:41131}'
 L['options_icons_runed_storm_chest_desc'] = 'Afficher les emplacements des {object:Caches de la tempête runiques} pour le haut-fait {achievement:41131}.'
 
 L['runed_storm_chest_label'] = 'Cache de la tempête runique'
-L['runed_storm_chest_suffix'] = 'coffres ouverts'
+L['runed_storm_chest_suffix'] = 'caches ouvertes'
 L['runed_storm_chest_note'] = 'Suivez le vent jusqu\'à une {object:Cache de la tempête runique} dissimulée et révélez-la avec l\'{spell:472051}.'
 
 L['mouldy_sea_ledger_label'] = 'Registre maritime moisi'
