@@ -5,7 +5,6 @@ local ADDON_NAME, ns = ...
 
 local L = ns.locale
 local Class = ns.Class
-local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local Achievement = ns.reward.Achievement
