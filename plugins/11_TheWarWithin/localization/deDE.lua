@@ -350,6 +350,59 @@ L['tuk_chest_2_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersev
 L['tuk_chest_3_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Weberrettung" verfügbar.}'
 
 -------------------------------------------------------------------------------
+--------------------------------- SIREN ISLE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['the_drowned_lair_note'] = nil
+L['the_drain_note'] = nil
+L['shuddering_hollow_note'] = nil
+
+L['vykrul_sublabel'] = nil
+L['naga_sublabel'] = nil
+L['pirate_sublabel'] = nil
+
+L['storm_required'] = nil
+L['slaughtershell_location'] = nil
+
+L['within_the_forgotten_vault'] = nil
+
+L['runed_storm_chest_label'] = nil
+L['runed_storm_chest_suffix'] = nil
+L['runed_storm_chest_note'] = nil
+
+L['mouldy_sea_ledger_label'] = nil
+L['mouldy_sea_ledger_location'] = nil
+
+L['scholars_of_the_sea_label'] = nil
+L['scholars_of_the_sea_location'] = nil
+
+L['flame_blessed_iron_item'] = nil
+
+L['barnacle_encrusted_chest'] = nil
+
+L['soweezi_note'] = nil
+
+L['krolusk_burrow_label'] = nil
+
+L['thrayir_note_start'] = nil
+
+L['whirling_runekey_note'] = nil
+L['torrential_runekey_note'] = nil
+L['thunderous_runekey_note'] = nil
+L['cyclonic_runekey_note'] = nil
+L['turbulent_runekey_note'] = nil
+
+L['turbulent_fragment_a'] = nil
+L['turbulent_fragment_b'] = nil
+L['turbulent_fragment_c'] = nil
+
+L['prismatic_snapdragon_note_start'] = nil
+L['prismatic_day'] = nil
+
+L['unsolved_amethyst_runelock'] = nil
+L['bilge_rat_supply_chest'] = nil
+
+-------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 

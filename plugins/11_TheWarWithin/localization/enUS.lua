@@ -347,6 +347,59 @@ L['tuk_chest_2_note'] = '{note:Only available in the "Runaway Evolution" and "To
 L['tuk_chest_3_note'] = '{note:Only available in the "Runaway Evolution" and "Weaver Rescue" story variants.}'
 
 -------------------------------------------------------------------------------
+--------------------------------- SIREN ISLE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['the_drowned_lair_note'] = 'Contribute {currency:3090} to {location:The Drowned Lair} at the {object:Siren Isle Command Map} to open this cave and spawn the rare.'
+L['the_drain_note'] = 'Contribute {currency:3090} to {location:The Drain} at the {object:Siren Isle Command Map} to open this cave and spawn the rare.'
+L['shuddering_hollow_note'] = 'Contribute {currency:3090} to {location:Shuddering Hollow} at the {object:Siren Isle Command Map} to open this cave and spawn the rare.'
+
+L['vykrul_sublabel'] = '{note:Only available with {npc:Bloodwake Vykrul} on the island.}'
+L['naga_sublabel'] = '{note:Only available with {npc:Naga} on the island.}'
+L['pirate_sublabel'] = '{note:Only available with {npc:pirates} on the island.}'
+
+L['storm_required'] = 'Requires active %s storm on {location:Siren Isle}.' -- %s becomes "(icon) [Seafury Tempest]"
+L['slaughtershell_location'] = 'Roams around the entire {location:Siren Isle}.'
+
+L['within_the_forgotten_vault'] = 'Within {location:The Forgotten Vault}. Use the {object:Singing Tablet} within {location:The Sacred Hollow} to enter the vault.'
+
+L['runed_storm_chest_label'] = 'Runed Storm Chest'
+L['runed_storm_chest_suffix'] = 'chests opened'
+L['runed_storm_chest_note'] = 'Follow the wind to a hidden {object:Runed Storm Chest} and reveal it with {spell:472051}.'
+
+L['mouldy_sea_ledger_label'] = 'Mouldy Sea Ledger'
+L['mouldy_sea_ledger_location'] = 'On the floor of the {location:Salt and Shanty} inn near the fireplace.'
+
+L['scholars_of_the_sea_label'] = 'Scholars of the Sea: Siren Isle Synopsis'
+L['scholars_of_the_sea_location'] = 'On the second floor of the {location:Salt and Shanty} inn near the window.'
+
+L['flame_blessed_iron_item'] = 'Return this item for bonus {currency:3090}.'
+
+L['barnacle_encrusted_chest'] = 'Barnacle-Encrusted Chest'
+
+L['soweezi_note'] = 'Exchange {currency:3090} for a mount, toy, pet, or transmog.'
+
+L['krolusk_burrow_label'] = 'Krolusk Burrow'
+
+L['thrayir_note_start'] = 'Collect 5x runestone keys from around the {location:Siren Isle} and complete the ritual within {location:The Forgotten Vault} to recieve {item:232639}:'
+
+L['whirling_runekey_note'] = 'Drops from the {npc:231368} in the {location:The Forgotten Vault} during a storm.'
+L['torrential_runekey_note'] = 'Drops from any mob (normal, elite, or rare) on {location:Siren Isle} during a storm.'
+L['thunderous_runekey_note'] = 'Requires 5x {item:232605} found with {note:any} chest on the {location:Siren Isle}. {note:Does not require a storm}.'
+L['cyclonic_runekey_note'] = 'Drops from {npc:231357} in the {location:Deadfin Mire} on {location:Siren Isle} during a storm.'
+L['turbulent_runekey_note'] = 'Requires 3x {item:234327} found scattered around {location:Siren Isle} during a storm.'
+
+L['turbulent_fragment_a'] = 'Hidden in a {object:Dirt Pile} behind the {location:Salt and Shany} inn near the digging {npc:Kul Tiran} ghost.'
+L['turbulent_fragment_b'] = 'Loot the {object:Runic Fragment} in front of the cowering {npc:Kul Tiran} ghost inside a cave in the {location:Rotting Hole}.'
+L['turbulent_fragment_c'] = 'Loot the {object:Runic Fragment} held by the {npc:Kul Tiran} ghost inside the {location:Spirit Scarred Cave}.'
+
+L['prismatic_snapdragon_note_start'] = 'Over the course of 8 days, help save the {npc:235216} in the {location:Flotsam Shoal} to recieve {item:233489}.\n\n{note:You can miss a day but there is no catch-up mechanic}.'
+L['prismatic_day'] = 'Day %d' -- "Day 1" or "Day 4" or "Day 7"
+
+L['unsolved_amethyst_runelock'] = 'Unsolved Amethyst Runelock'
+L['bilge_rat_supply_chest'] = 'Bilge Rat Supply Chest'
+
+-------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
