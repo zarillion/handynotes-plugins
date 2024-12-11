@@ -364,11 +364,11 @@ L['slaughtershell_location'] = 'Roams around the entire {location:Siren Isle}.'
 L['within_the_forgotten_vault'] = 'Within {location:The Forgotten Vault}. Use the {object:Singing Tablet} within {location:The Sacred Hollow} to enter the vault.'
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
-L['options_icons_runed_storm_chest_desc'] = 'Display {object:Runed Storm Chest} locations for {achievement:41131}'
+L['options_icons_runed_storm_chest_desc'] = 'Display {object:Runed Storm Cache} locations for {achievement:41131}'
 
-L['runed_storm_chest_label'] = 'Runed Storm Chest'
-L['runed_storm_chest_suffix'] = 'chests opened'
-L['runed_storm_chest_note'] = 'Follow the wind to a hidden {object:Runed Storm Chest} and reveal it with {spell:472051}.'
+L['runed_storm_chest_label'] = 'Runed Storm Cache'
+L['runed_storm_chest_suffix'] = 'caches opened'
+L['runed_storm_chest_note'] = 'Follow the wind to a hidden {object:Runed Storm Cache} and reveal it with {spell:472051}.'
 
 L['mouldy_sea_ledger_label'] = 'Mouldy Sea Ledger'
 L['mouldy_sea_ledger_location'] = 'On the floor of the {location:Salt and Shanty} inn near the fireplace.'

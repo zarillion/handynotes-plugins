@@ -350,39 +350,39 @@ L['tuk_chest_3_note'] = '{note:仅在“逃亡的进化体”和“纺丝者救�
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['the_drowned_lair_note'] = nil
-L['the_drain_note'] = nil
-L['shuddering_hollow_note'] = nil
+L['the_drowned_lair_note'] = '向 {object:海妖岛指挥图} 上的 {location:沉沦之巢} 捐献 {currency:3090} 来打开这个洞穴并将出现稀有物品。'
+L['the_drain_note'] = '向 {object:海妖岛指挥图} 上的 {location:排水道} 捐献 {currency:3090} 来打开这个洞穴并将出现稀有物品。'
+L['shuddering_hollow_note'] = '向 {object:海妖岛指挥图} 上的 {location:战栗窟} 捐献 {currency:3090} 来打开这个洞穴并将出现稀有物品。'
 
-L['vykrul_sublabel'] = nil
-L['naga_sublabel'] = nil
-L['pirate_sublabel'] = nil
+L['vykrul_sublabel'] = '{note:仅在岛上有 {npc:赤潮维库人} 时可用。}'
+L['naga_sublabel'] = '{note:仅在岛上有 {npc:娜迦} 时可用。'
+L['pirate_sublabel'] = '{note:仅在岛上有 {npc:海盗} 时可用。}'
 
-L['storm_required'] = nil
-L['slaughtershell_location'] = nil
+L['storm_required'] = '需要在 {location:海妖岛} 上激活 %s 风暴。' -- %s becomes "(icon) [Seafury Tempest]"
+L['slaughtershell_location'] = '在整个 {location:海妖岛} 游荡。'
 
-L['within_the_forgotten_vault'] = nil
+L['within_the_forgotten_vault'] = '在 {location:被遗忘的宝库} 内。使用 {location:圣礼窟} 内的 {object:歌唱石板} 进入宝库。'
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
-L['options_icons_runed_storm_chest_desc'] = nil
+L['options_icons_runed_storm_chest_desc'] = '显示 {achievement:41131} 成就中 {object:符文风暴宝箱} 的位置。'
 
-L['runed_storm_chest_label'] = nil
-L['runed_storm_chest_suffix'] = nil
-L['runed_storm_chest_note'] = nil
+L['runed_storm_chest_label'] = '符文风暴宝箱'
+L['runed_storm_chest_suffix'] = '宝箱已打开'
+L['runed_storm_chest_note'] = '跟随风找到一个隐藏的 {object:符文风暴宝箱}，并用 {spell:472051} 揭示它。'
 
-L['mouldy_sea_ledger_label'] = nil
-L['mouldy_sea_ledger_location'] = nil
+L['mouldy_sea_ledger_label'] = '发霉的海上账簿'
+L['mouldy_sea_ledger_location'] = '在 {location:Salt and Shanty} 旅馆的地板上，靠近壁炉。'
 
-L['scholars_of_the_sea_label'] = nil
-L['scholars_of_the_sea_location'] = nil
+L['scholars_of_the_sea_label'] = 'Scholars of the Sea: Siren Isle Synopsis'
+L['scholars_of_the_sea_location'] = '在 {location:Salt and Shanty} 旅馆二楼靠近窗户的位置。'
 
-L['flame_blessed_iron_item'] = nil
+L['flame_blessed_iron_item'] = '带回此商品可获得奖励 {currency:3090}。'
 
-L['barnacle_encrusted_chest'] = nil
+L['barnacle_encrusted_chest'] = 'Barnacle-Encrusted Chest'
 
 L['soweezi_note'] = '用 {currency:3090} 换取坐骑、玩具、宠物和幻化。'
 
-L['krolusk_burrow_label'] = nil
+L['krolusk_burrow_label'] = 'Krolusk Burrow'
 
 L['thrayir_note_start'] = '从 {location:海妖岛} 周围收集5个符石钥匙，并完成 {location:被遗忘的宝库} 内的仪式以获得 {item:232639}：'
 
@@ -397,10 +397,10 @@ L['turbulent_fragment_b'] = '位于 {location:腐烂坑洞} 的一个洞穴内�
 L['turbulent_fragment_c'] = '在 {location:魂裂洞穴} 内。'
 
 L['prismatic_snapdragon_note_start'] = '在8天的时间里，帮助拯救 {location:漂流浅滩} 中的 {npc:235216} 以获得 {item:233489}。\n\n{note:可以错过，但没有追赶机制}。'
-L['prismatic_day'] = nil
+L['prismatic_day'] = '第%d天' -- "Day 1" or "Day 4" or "Day 7"
 
-L['unsolved_amethyst_runelock'] = nil
-L['bilge_rat_supply_chest'] = nil
+L['unsolved_amethyst_runelock'] = '未破解的紫晶符文锁'
+L['bilge_rat_supply_chest'] = '水鼠帮补给箱'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
