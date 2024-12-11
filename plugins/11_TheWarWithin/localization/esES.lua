@@ -366,7 +366,7 @@ L['within_the_forgotten_vault'] = 'Dentro de la {location:Cámara Olvidada}. Usa
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
 L['options_icons_runed_storm_chest_desc'] = 'Muestra dónde estan los {object:Alijo de tormenta con runas} para el logro {achievement:41131}.'
 L['runed_storm_chest_label'] = 'Alijo de tormenta con runas'
-L['runed_storm_chest_suffix'] = 'cofres abiertos'
+L['runed_storm_chest_suffix'] = 'alijos abiertos'
 L['runed_storm_chest_note'] = 'Sigue el viento hasta un {object:Alijo de tormenta con runas} escondido y revélalo con {spell:472051}.'
 
 L['mouldy_sea_ledger_label'] = 'Libro del mar mohoso'
