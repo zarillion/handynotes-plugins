@@ -364,7 +364,7 @@ L['slaughtershell_location'] = 'Roams around the entire {location:Siren Isle}.'
 L['within_the_forgotten_vault'] = 'Within {location:The Forgotten Vault}. Use the {object:Singing Tablet} within {location:The Sacred Hollow} to enter the vault.'
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
-L['options_icons_runed_storm_chest_desc'] = 'Display {object:Runed Storm Cache} locations for {achievement:41131}'
+L['options_icons_runed_storm_chest_desc'] = 'Display {object:Runed Storm Cache} locations for {achievement:41131}.'
 
 L['runed_storm_chest_label'] = 'Runed Storm Cache'
 L['runed_storm_chest_suffix'] = 'caches opened'
