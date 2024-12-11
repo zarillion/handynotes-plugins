@@ -73,8 +73,8 @@ end
 
 -------------------------------------------------------------------------------
 
-local map = StormMap({id = 2369, settings = true})
-local tfv = StormMap({id = 2375, settings = false}) -- The Forgotten Vault
+local map = StormMap({id = 2369, patch = 110007, settings = true})
+local tfv = StormMap({id = 2375, patch = 110007, settings = false}) -- The Forgotten Vault
 
 -------------------------------------------------------------------------------
 --------------------------------- VAULT NODES ---------------------------------
