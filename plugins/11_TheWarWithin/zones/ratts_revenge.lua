@@ -426,7 +426,7 @@ local PointlessTreasureSalesman = Class('PointlessTreasureSalesman',
     RattsRevenge, {
         label = '{npc:230310}',
         location = L['pointless_treasure_salesman_location'],
-        rewards = {Item({item = 228996, bag = true})}
+        rewards = {Item({item = 228996, bag = true})} -- Relic of Crystal Connections
     }) -- Pointless Treasure Salesman
 
 function PointlessTreasureSalesman.getters:note()
@@ -687,10 +687,13 @@ azjKahet.nodes[56151797] = RattsRevenge({
     pois = {Entrance({55121888})},
     quest = 84854, -- hidden
     questDeps = 84837, -- hidden
-    requires = ns.requirement.Spell(463749), -- Starry-Eyed Goggles
+    requires = {
+        ns.requirement.Spell(463749), -- Starry-Eyed Goggles
+        ns.requirement.Item(228996) -- Relic of Crystal Connections
+    },
     rewards = {
-        Achievement({id = 40967, criteria = 1}),
-        Mount({item = 229348, id = 2192})
+        Achievement({id = 40967, oneline = true}), -- Ratts' Revenge
+        Mount({item = 229348, id = 1943}) -- Incognitro
     }
 }) -- Decryption Console
 
@@ -751,12 +754,14 @@ local ORBS = {
     [5] = {
         label = L['orb_2_label'],
         note = L['orb_2_note'],
-        quest = 84677 -- hidden
+        quest = 84677, -- hidden
+        rewards = {Item({item = 53156, bag = true})} -- Key of Shadows
     },
     [4] = {
         label = L['orb_3_label'],
         note = L['astral_rewards_note'],
-        quest = HATE_QUESTS -- hidden
+        quest = HATE_QUESTS, -- hidden
+        rewards = {Toy({item = 228966})} -- Starry-Eyed Goggles
     },
     [3] = {
         label = L['orb_4_label'],
@@ -766,17 +771,20 @@ local ORBS = {
     [2] = {
         label = L['orb_5_label'],
         note = format(L['jeremy_feasel_note'], ''),
-        quest = 84781 -- ![Master of Secrets]
+        quest = 84781, -- ![Master of Secrets]
+        rewards = {Item({item = 228996, bag = true})} -- Relic of Crystal Connections
     },
     [1] = {
         label = L['orb_6_label'],
         note = L['chest_of_acquisitions_note'],
-        quest = 84811 -- hidden
+        quest = 84811, -- hidden
+        rewards = {Item({item = 229007, quest = 84811})} -- Ancient Shaman Blood
     },
     [12] = {
         label = L['orb_7_label'],
         note = L['orb_7_summary'],
-        quest = 84823 -- hidden
+        quest = 84823, -- hidden
+        rewards = {Item({item = 229054, quest = 84823})} -- Warden's Mirror
     },
     [11] = {
         label = L['orb_8_label'],
@@ -817,7 +825,8 @@ for i = 1, 12 do
         label = orb.label,
         minimap = false,
         note = orb.note,
+        pois = {POI({poi}), Path({coordinates, poi})},
         quest = orb.quest,
-        pois = {POI({poi}), Path({coordinates, poi})}
+        rewards = orb.rewards or nil
     })
 end
