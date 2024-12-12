@@ -1,3 +1,7 @@
+# v110
+
+* Localization updates: enUS, esES, zhCN
+
 # v97
 
 * Localization updates: zhTW
