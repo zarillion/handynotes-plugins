@@ -365,6 +365,7 @@ L['within_the_forgotten_vault'] = 'Dentro de la {location:Cámara Olvidada}. Usa
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
 L['options_icons_runed_storm_chest_desc'] = 'Muestra dónde estan los {object:Alijo de tormenta con runas} para el logro {achievement:41131}.'
+
 L['runed_storm_chest_label'] = 'Alijo de tormenta con runas'
 L['runed_storm_chest_suffix'] = 'alijos abiertos'
 L['runed_storm_chest_note'] = 'Sigue el viento hasta un {object:Alijo de tormenta con runas} escondido y revélalo con {spell:472051}.'
@@ -554,8 +555,8 @@ L['code_label'] = '%d en la %s'
 -- Orb 9
 L['orb_9_label'] = 'Orbe 9'
 
-L['orb_9_summary'] = nil
-L['ak_decryption_console_note'] = 'Equípate tus {item:228966} para revelar una plataforma oculta.\n\nSeñala el {npc:230383} y usa las {item:228996} para alcanzarlo.'
+L['orb_9_summary'] = 'Regresa a la entrada del agujero oculto dentro de la cueva hasta el {location:Pilar-Nido Vosh} de {location:Azj-Kahet}.'
+L['ak_decryption_console_note'] = 'Equípate tus {item:228966} para revelar una plataforma oculta.\n\nSeñala el {npc:230383} y usa las {item:228996} para alcanzarlo. Teclea \'84847078\' en la {object:Consola de descifrado} para desbloquear el {object:Cofre cifrado} y conseguir la montura que contiene.'
 
 -- Orb 10
 L['orb_10_label'] = 'Orbe 10'
