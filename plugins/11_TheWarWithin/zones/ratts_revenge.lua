@@ -786,6 +786,11 @@ local ORBS = {
     [10] = {
         label = L['orb_9_label'],
         note = L['ak_decryption_console_note'],
+        quest = 84854, -- hidden
+        rewards = {
+            Achievement({id = 40967, oneline = true}), -- Ratts' Revenge
+            Mount({item = 229348, id = 1943}) -- Incognitro
+        }
     },
     [9] = {
         label = L['orb_10_label'],
