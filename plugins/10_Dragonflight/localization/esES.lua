@@ -839,7 +839,7 @@ Lo vende {npc:88045} {dot:Gold} en las {location:Cumbres de Arak}. Si {npc:88045
 Necesitarás los siguientes objetos para comprarlo:]]
 L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nEs botín de {npc:52530} en el {location:Paseo en el tiempo: Tierras de Fuego}.'
 L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nSe pueden encontrar dentro de {object:Ollas}, alrededor de las {location:Cumbres de Arak}.'
-L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nEs un botín raro de los {npc:6520} y de las {npc:6521} que hay en el centro del {location:Cráter de Un\'Goro}. {dot:Gray}'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nEs un botín raro de los {npc:6520} y de las {npc:6521} que hay en el centro del {location:Cráter de Un\'Goro} {dot:Gray}.'
 L['phoenix_wishwing_smoldering_ash'] = [[
 %s {item:199080}
 
