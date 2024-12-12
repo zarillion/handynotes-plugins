@@ -555,7 +555,8 @@ L['code_label'] = '%d on %s'
 -- Orb 9
 L['orb_9_label'] = 'Orb 9'
 
-L['ak_decryption_console_note'] = 'Equip your {item:228966} to reveal a hidden platform.\n\nTarget the {npc:230383} and use the {item:228996} to reach it.' -- still not solved. translate at your own risk
+L['orb_9_summary'] = 'Back to the hidden hole entrance within the cave down to {location:Pillar-nest Vosh} in {location:Azj-Kahet}.'
+L['ak_decryption_console_note'] = 'Equip your {item:228966} to reveal a hidden platform.\n\nTarget the {npc:230383} and use the {item:228996} to reach it. Enter \'84847078\' in the {object:Decryption Console} to unlock the {object:Encrypted Chest} and get the mount from it.'
 
 -- Orb 10
 L['orb_10_label'] = 'Orb 10'

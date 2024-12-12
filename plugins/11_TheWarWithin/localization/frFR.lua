@@ -556,6 +556,7 @@ L['code_label'] = '%d sur %s'
 -- Orb 9
 L['orb_9_label'] = 'Orbe 9'
 
+L['orb_9_summary'] = nil
 L['ak_decryption_console_note'] = nil
 
 -- Orb 10

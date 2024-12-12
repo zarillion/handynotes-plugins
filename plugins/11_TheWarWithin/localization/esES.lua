@@ -554,6 +554,7 @@ L['code_label'] = '%d en la %s'
 -- Orb 9
 L['orb_9_label'] = 'Orbe 9'
 
+L['orb_9_summary'] = nil
 L['ak_decryption_console_note'] = 'Equípate tus {item:228966} para revelar una plataforma oculta.\n\nSeñala el {npc:230383} y usa las {item:228996} para alcanzarlo.'
 
 -- Orb 10

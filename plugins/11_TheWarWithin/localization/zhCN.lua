@@ -444,7 +444,7 @@ L['carefully_penned_note'] = '佩戴 {title:侦探} 头衔与 {npc:230042} 交�
 L['unfinished_note'] = '在 {location:渊行者小径} 的一个小洞穴中，周围是一圈 {npc:229596}。\n\n{note:下一个位置：}{location:千丝之城}'
 L['hastily_scrawled_note'] = '在能高高俯瞰 {location:千丝之城} 的岩壁上。\n\n{note:下一个位置：}{location:陨圣峪}'
 L['water_resistant_note'] = '在 {location:艾基-卡赫特} 和 {location:陨圣峪} 之间悬崖高处的隐秘湖泊中心。\n\n{note:下一个位置：}{location:艾基-卡赫特} 的 {location:菲琳之迈}'
-L['peculiar_gem_note'] = '穿过山洞内隐藏的洞口，到达 {location:沃什柱巢}。\n\n{note:洞口隐藏在墙壁上，需要巧妙跳跃。}\n\n接近 {npc:233550}，她会逃跑并丢下 {item:228938}。\n\n{note:下一个位置：}\n如果 {bug:*没有*} {item:228941}，请前往 {location:卡利姆多} 的 {location:安戈洛环形山}。\n\n如果 |cFF00FF00有|r {item:228941}，请前往 {location:东部王国} 的 {location:逆风小径}。'
+L['peculiar_gem_note'] = '到达 {location:沃什柱巢}，穿过山洞内隐藏的洞口。\n\n{note:洞口隐藏在墙壁上，需要巧妙跳跃。}\n\n接近 {npc:233550}，她会逃跑并丢下 {item:228938}。\n\n{note:下一个位置：}\n如果 {bug:*没有*} {item:228941}，请前往 {location:卡利姆多} 的 {location:安戈洛环形山}。\n\n如果 |cFF00FF00有|r {item:228941}，请前往 {location:东部王国} 的 {location:逆风小径}。'
 
 -- KARAZHAN CATACOMBS
 L['karazhan_catacombs_label'] = '卡拉赞墓穴'
@@ -522,7 +522,7 @@ L['chest_of_acquisitions_note'] = '1. 安抚 {location:北荆棘谷} 的 {locati
 
 -- Orb 7
 L['orb_7_label'] = '7号球'
-L['orb_7_summary'] = '从 {location:阿苏纳} 的 {location:守望岛} 开始。\n\n2. 使用岛上各式各样的 {object:看守者猫头鹰} 雕像增强您的 {pet:1716} 的能力。\n\n3. 进入 {location:守望者地窟} 并击败首领以揭开秘密 {item:229046}。\n\n4. 使用 {item:229046} 开始具有挑战性的逻辑谜题并最终揭开一个装有 {item:229054} 的宝箱。'
+L['orb_7_summary'] = '1. 从 {location:阿苏纳} 的 {location:守望岛} 开始。\n\n2. 使用岛上各式各样的 {object:看守者猫头鹰} 雕像增强您的 {pet:1716} 的能力。\n\n3. 进入 {location:守望者地窟} 并击败首领以揭开秘密 {item:229046}。\n\n4. 使用 {item:229046} 开始具有挑战性的逻辑谜题并最终揭开一个装有 {item:229054} 的宝箱。'
 
 L['marin_bladewing_note'] = '与 {faction:1894} 到达 %2$s 后，从 {npc:107379} 处以 %1$s 购买 {pet:1716}，或者从 {location:拍卖行} 购买。'
 L['owl_of_the_watchers_label'] = '看守者猫头鹰'
@@ -555,7 +555,8 @@ L['code_label'] = '将 %d 个雕像置于 %s'
 -- Orb 9
 L['orb_9_label'] = '9号球'
 
-L['ak_decryption_console_note'] = '装备 {item:228966} 显示一个隐藏的平台。\n\n目标为 {npc:230383} 并使用 {item:228996} 到达那里。' -- still not solved. translate at your own risk
+L['orb_9_summary'] = '回到 {location:艾基-卡赫特} 的 {location:沃什柱巢}，穿过山洞内隐藏的洞口。'
+L['ak_decryption_console_note'] = '装备 {item:228966} 显示一个隐藏的平台。\n\n目标为 {npc:230383} 并使用 {item:228996} 到达那里。在 {object:解码控制台} 输入“84847078”解锁 {object:加密的宝箱} 从中获得坐骑。'
 
 -- Orb 10
 L['orb_10_label'] = '10号球'

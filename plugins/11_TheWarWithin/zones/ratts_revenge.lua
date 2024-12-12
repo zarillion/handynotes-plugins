@@ -8,8 +8,10 @@ local Map = ns.Map
 
 local Node = ns.node.Node
 
+local Achievement = ns.reward.Achievement
 local Buff = ns.reward.Buff
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 
@@ -683,8 +685,13 @@ azjKahet.nodes[56151797] = RattsRevenge({
     label = L['decryption_console_label'],
     note = L['ak_decryption_console_note'],
     pois = {Entrance({55121888})},
+    quest = 84854, -- hidden
     questDeps = 84837, -- hidden
-    requires = ns.requirement.Spell(463749) -- Starry-Eyed Goggles
+    requires = ns.requirement.Spell(463749), -- Starry-Eyed Goggles
+    rewards = {
+        Achievement({id = 40967, criteria = 1}),
+        Mount({item = 229348, id = 2192})
+    }
 }) -- Decryption Console
 
 -------------------------------------------------------------------------------
@@ -778,8 +785,8 @@ local ORBS = {
     },
     [10] = {
         label = L['orb_9_label'],
-        note = UNKNOWN,
-        quest = 99999 -- hidden
+        note = L['orb_9_summary'] .. '\n\n' .. L['ak_decryption_console_note'],
+        quest = 84854 -- hidden
     },
     [9] = {
         label = L['orb_10_label'],
