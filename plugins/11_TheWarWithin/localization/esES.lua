@@ -555,7 +555,6 @@ L['code_label'] = '%d en la %s'
 -- Orb 9
 L['orb_9_label'] = 'Orbe 9'
 
-L['orb_9_summary'] = 'Regresa a la entrada del agujero oculto dentro de la cueva hasta el {location:Pilar-Nido Vosh} de {location:Azj-Kahet}.'
 L['ak_decryption_console_note'] = 'Equípate tus {item:228966} para revelar una plataforma oculta.\n\nSeñala el {npc:230383} y usa las {item:228996} para alcanzarlo. Teclea \'84847078\' en la {object:Consola de descifrado} para desbloquear el {object:Cofre cifrado} y conseguir la montura que contiene.'
 
 -- Orb 10

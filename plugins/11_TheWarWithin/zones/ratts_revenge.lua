@@ -785,8 +785,7 @@ local ORBS = {
     },
     [10] = {
         label = L['orb_9_label'],
-        note = L['orb_9_summary'] .. '\n\n' .. L['ak_decryption_console_note'],
-        quest = 84854 -- hidden
+        note = L['ak_decryption_console_note'],
     },
     [9] = {
         label = L['orb_10_label'],

@@ -555,7 +555,6 @@ L['code_label'] = '将 %d 个雕像置于 %s'
 -- Orb 9
 L['orb_9_label'] = '9号球'
 
-L['orb_9_summary'] = '回到 {location:艾基-卡赫特} 的 {location:沃什柱巢}，穿过山洞内隐藏的洞口。'
 L['ak_decryption_console_note'] = '装备 {item:228966} 显示一个隐藏的平台。\n\n目标为 {npc:230383} 并使用 {item:228996} 到达那里。在 {object:解码控制台} 输入“84847078”解锁 {object:加密的宝箱} 从中获得坐骑。'
 
 -- Orb 10
