@@ -837,7 +837,7 @@ L['phoenix_wishwing_talisman'] = [[
 
 这是位于 {location:阿兰卡峰林} 的 {npc:88045} {dot:Gold} 出售。如果 {npc:88045} 不在，完成任务 {quest:35010} 就能见到他。
 需要以下物品才能购买：]]
-L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\n从 {location:火焰之地时光漫游} 的 {npc:52530} 掉落'
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\n从 {location:火焰之地时光漫游} 的 {npc:52530} 掉落。'
 L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\n可以在 {object:烹锅} 中找到，位于 {location:阿兰卡峰林} 附近。'
 L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\n位于 {location:安戈洛环形山} {dot:Gray} 中心的 {npc:6520} 和 {npc:6521} 少量掉落。'
 L['phoenix_wishwing_smoldering_ash'] = [[
@@ -902,7 +902,7 @@ L['nal_kskol_reliquary_label'] = '纳·克斯寇圣物匣'
 L['nal_kskol_reliquary_note'] = '使用 {object:圣物匣开启控制台} 并解开拼图以打开 {object:纳·克斯寇圣物匣}。'
 
 L['busted_wyrmhole_generator_note'] = '从 {object:坏掉的龙洞发生器} 一起拾取的 {item:205954}。\n使用后为 {item:198156} 解锁 {location:查拉雷克洞窟} 的虫洞选项。'
-L['molten_scoutbot_note'] = '打开 {object:熔火斥候机器人} 并拾取 {item:204855}.'
+L['molten_scoutbot_note'] = '打开 {object:熔火斥候机器人} 并拾取 {item:204855}。'
 L['bolts_and_brass_note'] = '打开 {object:螺栓和黄铜} 并拾取 {item:204850}。'
 
 L['sniffen_sage_suffix'] = '找到特殊物品'

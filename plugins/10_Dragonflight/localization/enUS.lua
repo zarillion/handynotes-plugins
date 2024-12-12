@@ -837,9 +837,9 @@ L['phoenix_wishwing_talisman'] = [[
 
 This is sold by {npc:88045} {dot:Gold} in {location:Spires of Arak}. If {npc:88045} is not present, complete the quest {quest:35010} to be able to see him.
 You need following Items to buy it:]]
-L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nDrops from {npc:52530} in {location:Firelands Timewalking}'
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\nDrops from {npc:52530} in {location:Firelands Timewalking}.'
 L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\nCan be found within {object:Cookpots}, located around {location:Spires of Arak}.'
-L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nDrops rarely from {npc:6520} and {npc:6521} at the center of {location:Un\'Goro Crater} {dot:Gray}'
+L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\nDrops rarely from {npc:6520} and {npc:6521} at the center of {location:Un\'Goro Crater} {dot:Gray}.'
 L['phoenix_wishwing_smoldering_ash'] = [[
 %s {item:199080}
 
