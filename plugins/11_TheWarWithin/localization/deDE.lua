@@ -525,14 +525,14 @@ L['chest_of_acquisitions_note'] = '1. Besänftige alle Geister an den Altären i
 
 -- Orb 7
 L['orb_7_label'] = 'Kugel 7'
-L['orb_7_summary'] = nil
+L['orb_7_summary'] = '1. Gehe zur {location:Die Insel der Behüter} ({location:Die Verheerten Inseln}, {location:Azsuna}).\n\n2. Ermächtige dein {pet:1716} Haustier mit verschiedenen Stärkungszaubern von einer {object:Eule der Behüter}-Statue.\n\n3. Betrete den Dungeon {location:Das Verlies der Wächterinnen} und besiege die Bosse, um eine geheime {item:229046} zu enthüllen.\n\n4. Benutze die {item:229046}, um ein Rätsel zu beginnen, bei dem du einen {item:229054} erhältst.'
 
-L['marin_bladewing_note'] = nil
-L['owl_of_the_watchers_label'] = nil
-L['owl_of_the_watchers_note'] = nil
+L['marin_bladewing_note'] = 'Kaufe ein {pet:1716} von {npc:107379} für %s nach dem erreichen von %s bei den {faction:1894} oder im {location:Auktionshaus}.'
+L['owl_of_the_watchers_label'] = 'Eule der Behüter'
+L['owl_of_the_watchers_note'] = '{note:Nur 3 Statuen sind gleichzeitg aktiv.}\n\nStelle dich neben eine aktive Statue mit deinem beschworenen {pet:1716}, um jeweils einen der vier Stärkungszauber einmal zu erhalten:\n\n{spell:225049} {dot:Red}\n{spell:225038} {dot:Purple}\n{spell:223160} {dot:Green}\n{spell:225059} {dot:Blue}\n\nWenn dein {pet:1716} ermächtigt ist, wird es von {note:einer weißen Rauchwolke verfolgt}.\n\nBetrete den Dungeon {location:Das Verlies der Wächterinnen}.'
 
-L['sentry_statue_note'] = nil
-L['sentry_note'] = nil
+L['sentry_statue_note'] = '1. Besiege {npc:95885}, um diesen geheimen Raum in der {location:Die Kammer der Nacht} zu öffnen.\n\n2. Besiege alle anderen Bosse.\n\n3. Bringe {spell:204481} vom Endboss {npc:95888} zu diesem geheimen Raum mit deinem {pet:1716}, damit eine {item:229046} erscheint.\n\n4. Bringe die {item:229046} zum Bossraum von {npc:95887}.'
+L['sentry_note'] = '1. Platziere die {item:229046} hier beim Eingang, um den {npc:109300} erscheinen zu lassen.\n\n2. Interagiere mit dem {npc:109300}, um das Rätsel zu beginnen. Das Ziel ist es, dass jede {npc:98082} im Boden verschwunden ist.\n\n3. Plündere den {object:Schatz der Wächter}, um den {item:229054} zu erhalten.'
 
 -- Orb 8
 L['orb_8_label'] = 'Kugel 8'
