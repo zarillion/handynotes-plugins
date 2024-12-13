@@ -556,4 +556,4 @@ L['code_label'] = '%d sur %s'
 -- Orb 9
 L['orb_9_label'] = 'Orbe 9'
 
-L['ak_decryption_console_note'] = nil
+L['ak_decryption_console_note'] = 'Retournez à l\'entrée du trou caché dans la grotte du {location:Nid du pilier Vosh} à {location:Azj-Kahet}.\n\nÉquipez vos {item:228966} pour faire apparaître une plateforme cachée.\n\nCiblez le {npc:230383} et utilisez la {item:228996} pour accéder à la plateforme. Entrez le code et ouvrez le {object:Coffre codé} pour recevoir les {item:229348}.\n\n{object:Code}: 84847078'
