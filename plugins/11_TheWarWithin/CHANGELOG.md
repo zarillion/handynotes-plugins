@@ -1,5 +1,6 @@
 # v110
 
+* Puzzles 1-12 for Ratt's Revenge - Incognitro, the Indecipherable Felcycle
 * Localization updates: deDE, esES, frFR, zhCN
 
 # v109
