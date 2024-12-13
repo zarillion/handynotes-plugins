@@ -556,12 +556,3 @@ L['code_label'] = '%d on %s'
 L['orb_9_label'] = 'Orb 9'
 
 L['ak_decryption_console_note'] = nil
-
--- Orb 10
-L['orb_10_label'] = 'Orb 10'
-
--- Orb 11
-L['orb_11_label'] = 'Orb 11'
-
--- Orb 12
-L['orb_12_label'] = 'Orb 12'

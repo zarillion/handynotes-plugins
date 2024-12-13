@@ -799,34 +799,21 @@ local ORBS = {
             Achievement({id = 40967, oneline = true}), -- Ratts' Revenge
             Mount({item = 229348, id = 1943}) -- Incognitro
         }
-    },
-    [9] = {
-        label = L['orb_10_label'],
-        note = UNKNOWN,
-        quest = 99999 -- hidden
-    },
-    [8] = {
-        label = L['orb_11_label'],
-        note = UNKNOWN,
-        quest = 99999 -- hidden
-    },
-    [7] = {
-        label = L['orb_12_label'],
-        note = UNKNOWN,
-        quest = 99999 -- hidden
     }
 }
 
 for i = 1, 12 do
     local orb = ORBS[i]
-    local coordinates = select(i, getOrbCoordinates())
-    local poi = select(i, getPoiCoordinates())
-    karazhanCatacombs.nodes[coordinates] = OrbNode({
-        label = orb.label,
-        minimap = false,
-        note = orb.note,
-        pois = {POI({poi}), Path({coordinates, poi})},
-        quest = orb.quest,
-        rewards = orb.rewards or nil
-    })
+    if orb then
+        local coordinates = select(i, getOrbCoordinates())
+        local poi = select(i, getPoiCoordinates())
+        karazhanCatacombs.nodes[coordinates] = OrbNode({
+            label = orb.label,
+            minimap = false,
+            note = orb.note,
+            pois = {POI({poi}), Path({coordinates, poi})},
+            quest = orb.quest,
+            rewards = orb.rewards or nil
+        })
+    end
 end

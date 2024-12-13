@@ -556,12 +556,3 @@ L['code_label'] = '%d en la %s'
 L['orb_9_label'] = 'Orbe 9'
 
 L['ak_decryption_console_note'] = 'Regresa a la entrada del agujero oculto dentro de la cueva hasta el {location:Pilar-Nido Vosh} de {location:Azj-Kahet}.\n\nEquípate tus {item:228966} para revelar una plataforma oculta.\n\nSeñala el {npc:230383} y usa las {item:228996} para alcanzar la plataforma. Teclea el código y abre el {object:Cofre cifrado} para recibir las {item:229348}.\n\n{object:Código}: 84847078'
-
--- Orb 10
-L['orb_10_label'] = 'Orbe 10'
-
--- Orb 11
-L['orb_11_label'] = 'Orbe 11'
-
--- Orb 12
-L['orb_12_label'] = 'Orbe 12'

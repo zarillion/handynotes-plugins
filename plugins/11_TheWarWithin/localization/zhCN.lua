@@ -556,12 +556,3 @@ L['code_label'] = '将 %d 个雕像置于 %s'
 L['orb_9_label'] = '9号球'
 
 L['ak_decryption_console_note'] = '回到隐藏的洞穴，入口位于 {location:艾基-卡赫特} 的 {location:沃什柱巢} 洞穴内。\n\n装备 {item:228966} 将揭示一个隐藏的平台。\n\n目标为 {npc:230383} 并使用 {item:228996} 到达那里。输入密码解锁并打开 {object:加密的宝箱} 从中获得 {item:229348}。\n\n{object:密码}：84847078'
-
--- Orb 10
-L['orb_10_label'] = '10号球'
-
--- Orb 11
-L['orb_11_label'] = '11号球'
-
--- Orb 12
-L['orb_12_label'] = '12号球'
