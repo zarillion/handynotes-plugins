@@ -353,25 +353,25 @@ L['tuk_chest_3_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersev
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['the_drowned_lair_note'] = nil
-L['the_drain_note'] = nil
-L['shuddering_hollow_note'] = nil
+L['the_drowned_lair_note'] = 'Steuere {currency:3090} dem {location:Der Versunkene Hort} an der {object:Sireneninsel-Befehlskarte} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.' -- review
+L['the_drain_note'] = 'Steuere {currency:3090} dem {location:Der Abfluss} an der {object:Sireneninsel-Befehlskarte} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.' -- review
+L['shuddering_hollow_note'] = 'Steuere {currency:3090} der {location:Schauderhöhle} an der {object:Sireneninsel-Befehlskarte} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.' -- review
 
-L['vykrul_sublabel'] = nil
-L['naga_sublabel'] = nil
-L['pirate_sublabel'] = nil
+L['vykrul_sublabel'] = '{note:Nur verfügbar, wenn {npc:Bloodwake Vykrul} auf der Insel sind.}' -- review
+L['naga_sublabel'] = '{note:Nur verfügbar, wenn {npc:Naga} auf der Insel sind.}' -- review
+L['pirate_sublabel'] = '{note:Nur verfügbar, wenn {npc:Piraten} auf der Insel sind.}' -- review
 
-L['storm_required'] = nil
-L['slaughtershell_location'] = nil
+L['storm_required'] = 'Benötigt ein aktives %s auf der {location:Sireneninsel}.'
+L['slaughtershell_location'] = 'Wandert auf der gesamten {location:Sireneninsel} umher.'
 
-L['within_the_forgotten_vault'] = nil
+L['within_the_forgotten_vault'] = 'In {location:Die Vergessene Kammer}. Benutze das {object:Singing Tablet} in {location:Die Heilige Höhle}, um die Kammer zu betreten.' -- review
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
-L['options_icons_runed_storm_chest_desc'] = nil
+L['options_icons_runed_storm_chest_desc'] = 'Zeigt die Positionen von {object:Runenverzierte Sturmtruhe} für den Erfolg {achievement:41131} an.'
 
-L['runed_storm_chest_label'] = nil
-L['runed_storm_chest_suffix'] = nil
-L['runed_storm_chest_note'] = nil
+L['runed_storm_chest_label'] = 'Runenverzierte Sturmtruhe'
+L['runed_storm_chest_suffix'] = 'Truhen geöffnet'
+L['runed_storm_chest_note'] = 'Folge dem Wind zu einer versteckten {object:Runenverzierte Sturmtruhe} und offenbare diese mit dem {spell:472051}.'
 
 L['mouldy_sea_ledger_label'] = nil
 L['mouldy_sea_ledger_location'] = nil
@@ -379,28 +379,28 @@ L['mouldy_sea_ledger_location'] = nil
 L['scholars_of_the_sea_label'] = nil
 L['scholars_of_the_sea_location'] = nil
 
-L['flame_blessed_iron_item'] = nil
+L['flame_blessed_iron_item'] = 'Bringe diesen Gegenstand für Bonus {currency:3090} zurück.'
 
 L['barnacle_encrusted_chest'] = nil
 
-L['soweezi_note'] = nil
+L['soweezi_note'] = 'Tausche {currency:3090} gegen ein Reittier, ein Haustier, ein Spielzeug oder Ausrüstungsvorlagen ein.'
 
 L['krolusk_burrow_label'] = nil
 
-L['thrayir_note_start'] = nil
+L['thrayir_note_start'] = 'Sammle 5x Runenschlüssel auf der {location:Sireneninsel} und schließe das Ritual in {location:Die Vergessene Kammer} ab, um das Reittier {item:232639} zu erhalten:'
 
-L['whirling_runekey_note'] = nil
-L['torrential_runekey_note'] = nil
-L['thunderous_runekey_note'] = nil
-L['cyclonic_runekey_note'] = nil
-L['turbulent_runekey_note'] = nil
+L['whirling_runekey_note'] = 'Kann von {npc:231368} in {location:Die Vergessene Kammer} während eines Unwetters geplündert werden.'
+L['torrential_runekey_note'] = 'Kann von allen Gegnern auf der {location:Sireneninsel} während eines Unwetters geplündert werden.'
+L['thunderous_runekey_note'] = 'Benötigt 5x {item:232605}, die in {note:jegliche} Truhen auf der {location:Sireneninsel} gefunden werden können. {note:Benötigt kein Unwetter}.'
+L['cyclonic_runekey_note'] = 'Kann von {npc:231357} im {location:Totfinnenmorast} auf der {location:Sireneninsel} während eines Unwetters geplündert werden.'
+L['turbulent_runekey_note'] = 'Benötigt 3x {item:234327}, die während eines Unwetters auf der ganzen {location:Sireneninsel} verstreut gefunden werden können.'
 
-L['turbulent_fragment_a'] = nil
-L['turbulent_fragment_b'] = nil
-L['turbulent_fragment_c'] = nil
+L['turbulent_fragment_a'] = 'In einem {object:Dirt Pile} hinter dem Gasthaus {location:Salt and Shany} in der Nähe des grabenden Geistes versteckt.' -- review
+L['turbulent_fragment_b'] = 'Plündere das {object:Runic Fragment} vor dem kauernden Geist in einer Höhle in {location:Das Verrottende Loch}.' -- review
+L['turbulent_fragment_c'] = 'Plündere das {object:Runic Fragment}, das der Geist in der {location:Geisternarbenhöhle} in seiner Hand hält.' -- review
 
-L['prismatic_snapdragon_note_start'] = nil
-L['prismatic_day'] = nil
+L['prismatic_snapdragon_note_start'] = 'Helfe im Verlauf von 8 Tagen das {npc:235216} zu retten, um das Reittier {item:233489} zu erhalten.\n\n{note:Du kannst einen Tag verpassen, aber es gibt keine Aufholmechanik}.'
+L['prismatic_day'] = 'Tag %d'
 
 L['unsolved_amethyst_runelock'] = nil
 L['bilge_rat_supply_chest'] = nil
