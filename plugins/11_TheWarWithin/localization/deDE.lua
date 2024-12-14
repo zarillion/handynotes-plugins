@@ -537,25 +537,25 @@ L['sentry_note'] = '1. Platziere die {item:229046} hier beim Eingang, um den {np
 -- Orb 8
 L['orb_8_label'] = 'Kugel 8'
 
-L['enigma_machine_label'] = nil
-L['enigma_machine_note'] = nil
+L['enigma_machine_label'] = 'Rätselmaschine'
+L['enigma_machine_note'] = '1. Interagiere mit der {object:Rätselmaschine}, fülle den arkanen Katalysator mit dem {item:229007} auf und setze den {item:229054} in die Lichtbox ein.\n\n2. Betätige den "START"-Hebel und dann den "EINGABE"-Hebel der Maschine.\n\n3. Sperre drei mal einen verstecken Mechanismus auf, indem du zählst, wie oft die {npc:230596} in diesem Dungeon vorhandenen ist. {note:(Die {npc:230599} zählen NICHT dazu.)} Ziehe je nach Anzahl der Ratten die korrekte Anzahl an Statuen zu einer Plattform und betätige dann den "EINGABE"-Hebel erneut.\n\n{note:Es wird empfohlen alle Ratten ({npc:230599} und {npc:230596}) zu töten, um diese davon abzuhalten, ausversehen auf die Plattformen zu laufen und diese damit zu aktiveren.}'
 
-L['lock_statue_note'] = nil
-L['lock_platform_note'] = nil
+L['lock_statue_note'] = 'Ziehe diese Statue zu einer Plattform.'
+L['lock_platform_note'] = 'Ziehe Statuen zu dieser Plattform je nach dem wie oft die {npc:230596} in diesem Dungeon vorkommt.'
 
-L['platform_1_label'] = nil
-L['platform_2_label'] = nil
-L['platform_3_label'] = nil
-L['platform_4_label'] = nil
-L['platform_5_label'] = nil
-L['platform_6_label'] = nil
-L['platform_7_label'] = nil
+L['platform_1_label'] = 'Plattform 1'
+L['platform_2_label'] = 'Plattform 2'
+L['platform_3_label'] = 'Plattform 3'
+L['platform_4_label'] = 'Plattform 4'
+L['platform_5_label'] = 'Plattform 5'
+L['platform_6_label'] = 'Plattform 6'
+L['platform_7_label'] = 'Plattform 7'
 
-L['rats_label'] = nil
-L['lock_label'] = nil
-L['code_label'] = nil
+L['rats_label'] = 'Ratten'
+L['lock_label'] = 'Mechanismus %d'
+L['code_label'] = '%d zu %s'
 
 -- Orb 9
 L['orb_9_label'] = 'Kugel 9'
 
-L['ak_decryption_console_note'] = nil
+L['ak_decryption_console_note'] = 'Zurück in der versteckten Höhle im {location:Stütznest Vosh} in {location:Azj-Kahet}.\n\nSetze deine {item:228966} auf, um eine versteckte Plattform zu offenbaren.\n\nVisiere den {npc:230383} an und verwende das {item:228996}, um die Plattform zu erreichen. Gibt den Code ein und öffne die {object:Verschlüsselte Truhe}, um das Reittier {item:229348} zu erhalten.\n\n{object:Code}: 84847078'
