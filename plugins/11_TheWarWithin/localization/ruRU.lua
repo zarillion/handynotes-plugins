@@ -6,21 +6,21 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_delve_rewards'] = 'Delve Rewards'
-L['options_icons_delve_rewards_desc'] = 'Display {location:Delve} rewards on tooltips.'
+L['options_icons_delve_rewards'] = 'Награды в Вылазках'
+L['options_icons_delve_rewards_desc'] = 'Отображать награды в подсказках {location:Вылазки}.'
 
-L['skyriding_glyph'] = 'Skyriding Glyph'
-L['options_icons_skyriding_glyph'] = 'Skyriding Glyphs'
-L['options_icons_skyriding_glyph_desc'] = 'Display the location of all skyriding glyphs.'
+L['skyriding_glyph'] = 'Символы высшего пилотажа'
+L['options_icons_skyriding_glyph'] = 'Символы высшего пилотажа'
+L['options_icons_skyriding_glyph_desc'] = 'Отображение местоположения всех символов высшего пилотажа.'
 
-L['options_icons_profession_treasures'] = 'Profession Treasures'
-L['options_icons_profession_treasures_desc'] = 'Display locations of treasures which grant profession knowledge.'
+L['options_icons_profession_treasures'] = 'Сокровища профессии'
+L['options_icons_profession_treasures_desc'] = 'Показать местоположение сокровищ, дающих знания к профессиям.'
 
 L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
-L['options_icons_khaz_algar_lore_hunter_desc'] = 'Display lore object locations for {achievement:40762} achievement.'
+L['options_icons_khaz_algar_lore_hunter_desc'] = 'Отображение местоположений предметов для достижения {achievement:40762}.'
 
 L['options_icons_flight_master'] = '{achievement:40430}'
-L['options_icons_flight_master_desc'] = 'Display {npc:Flight Master} locations for {achievement:40430}.'
+L['options_icons_flight_master_desc'] = 'Показать местоположения {npc:Распорядителей Полета} для {achievement:40430}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
