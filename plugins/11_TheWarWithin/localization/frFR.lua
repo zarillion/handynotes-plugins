@@ -536,7 +536,7 @@ L['sentry_note'] = '1. Placez la {item:229046} ici à l\'entrée pour faire appa
 L['orb_8_label'] = 'Orbe 8'
 
 L['enigma_machine_label'] = 'Machine à énigme'
-L['enigma_machine_note'] = '1. Insérez le {item:229007} et le {item:229054} dans la {object:Machine à énigme}.\n\n2. Cliquez sur COMMENCER, puis sur ENVOYER. Vous devez maintenant débloquer 7 verrous cachés.\n\n3. Débloquez un verrou en comptant chaque {npc:230596} dans l\'instance, puis en déplaçant le bon nombre de statues sur la bonne plateforme, et enfin en cliquant à nouveau sur ENVOYER.\n\n{note:Il est recommandé de tuer, mais pas de compter, chaque {npc:230599} pour les empêcher de marcher sur les plateformes.}'
+L['enigma_machine_note'] = '1. Insérez le {item:229007} et le {item:229054} dans la {object:Machine à énigme}.\n\n2. Cliquez sur COMMENCER, puis sur ENVOYER. Vous devez maintenant débloquer 3 verrous cachés.\n\n3. Débloquez un verrou en comptant chaque {npc:230596} dans l\'instance, puis en déplaçant le bon nombre de statues sur la bonne plateforme, et enfin en cliquant à nouveau sur ENVOYER.\n\n{note:Il est recommandé de tuer, mais pas de compter, chaque {npc:230599} pour les empêcher de marcher sur les plateformes.}'
 
 L['lock_statue_note'] = 'Déplacez cette statue jusqu\'à une plate-forme.'
 L['lock_platform_note'] = 'Déplacez des statues jusqu\'à cette plate-forme.'
