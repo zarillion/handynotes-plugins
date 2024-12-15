@@ -460,7 +460,7 @@ L['olgra_location'] = '{note:L\'emplacement change en fonction de la réalisatio
 
 -- ORB 2
 L['orb_2_label'] = 'Orbe 2'
-L['orb_2_note'] = '{note:Vous devez être dans la version du {location:Val de l’Éternel printemps} lié à l\'extension {location:Battle for Azeroth}.}\n\nPlacez-vous à côté du {npc:153297} en utilisant l\'un des dons de {npc:147393} suivants :\n\n{item:168123}\n{item:175140}\n{item:168004}\n\nInvoquez {item:49912} et utilisez l\'un des costumes suivants :\n\n{item:229413}\n{item:116812}\n\nTapez {emote:/prier} et attendez de recevoir la {item:53156}.\n\nRetournez aux {location:Catacombes de Karazhan} et utilisez la clé pour ouvrir les deux portes dans la pièce avec la fontaine.'
+L['orb_2_note'] = 'Placez-vous à côté du {npc:153297} en utilisant l\'un des dons de {npc:147393} suivants :\n\n{item:168123}\n{item:175140}\n{item:168004}\n\nInvoquez {item:49912} et utilisez l\'un des costumes suivants :\n\n{item:229413}\n{item:116812}\n\nTapez {emote:/prier} et attendez de recevoir la {item:53156}.\n\nRetournez aux {location:Catacombes de Karazhan} et utilisez la clé pour ouvrir les deux portes dans la pièce avec la fontaine.'
 
 -- ORB 3
 L['orb_3_label'] = 'Orbe 3'

@@ -462,7 +462,7 @@ L['olgra_location'] = '{note:Die Position ändert sich je nach Abschluss der Que
 
 -- ORB 2
 L['orb_2_label'] = 'Kugel 2'
-L['orb_2_note'] = '{note:Du musst dich in der {location:Battle for Azeroth} Phase des {location:Tal der Ewigen Blüten} befinden.}\n\nStelle dich neben den {npc:153297} using one of the following gifts of {npc:147393}:\n\n{item:168123}\n{item:175140}\n{item:168004}\n\nSummon {item:49912} and using one of the following costumes:\n\n{item:229413}\n{item:116812}\n\nType {emote:/pray} and wait to receive the {item:53156}.\n\n{note:Other players around completing the above steps you can also obtain {item:53156}.}\n\nReturn to the {location:Karazhan Catacombs} and use the key to open both doors in the room with the fountain.'
+L['orb_2_note'] = 'Stelle dich neben den {npc:153297} using one of the following gifts of {npc:147393}:\n\n{item:168123}\n{item:175140}\n{item:168004}\n\nSummon {item:49912} and using one of the following costumes:\n\n{item:229413}\n{item:116812}\n\nType {emote:/pray} and wait to receive the {item:53156}.\n\n{note:Other players around completing the above steps you can also obtain {item:53156}.}\n\nReturn to the {location:Karazhan Catacombs} and use the key to open both doors in the room with the fountain.'
 
 -- ORB 3
 L['orb_3_label'] = 'Kugel 3'
