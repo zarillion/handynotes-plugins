@@ -459,7 +459,7 @@ L['olgra_location'] = '{note:位置根据 {quest:35170} 的完成情况而改变
 
 -- ORB 2
 L['orb_2_label'] = '2号球'
-L['orb_2_note'] = '{note:必须位于 {location:争霸艾泽拉斯} 的 {location:锦绣谷} 阶段。}\n\n站在 {npc:153297} 旁边，使用 {npc:147393} 的以下礼物任意一个：\n\n{item:168123}\n{item:175140}\n{item:168004}\n\n召唤 {item:49912} 并使用以下服装任意一个：\n\n{item:229413}\n{item:116812}\n\n输入 {emote:/祈祷}、{emote:/pray} 表情并等待得到 {item:53156}。\n\n{note:周围的其他玩家完成以上步骤也可获得 {item:53156}。}\n\n返回 {location:卡拉赞墓穴} 并使用钥匙打开带有喷泉的房间的两扇门。'
+L['orb_2_note'] = '站在 {npc:153297} 旁边，使用 {npc:147393} 的以下礼物任意一个：\n\n{item:168123}\n{item:175140}\n{item:168004}\n\n召唤 {item:49912} 并使用以下服装任意一个：\n\n{item:229413}\n{item:116812}\n\n输入 {emote:/祈祷}、{emote:/pray} 表情并等待得到 {item:53156}。\n\n{note:周围的其他玩家完成以上步骤也可获得 {item:53156}。}\n\n返回 {location:卡拉赞墓穴} 并使用钥匙打开带有喷泉的房间的两扇门。'
 
 -- ORB 3
 L['orb_3_label'] = '3号球'
