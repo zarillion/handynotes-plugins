@@ -54,10 +54,10 @@ L['faithful_dog_note'] = [[
 4. Взаимодействуйте с {object:Полузакопанной собачьей миской} на {map:2248}, затем погладьте {npc:87553}, чтобы получить питомца.
 ]]
 
-L['cendvin_note'] = 'Farm 900x {item:225557} in {location:Cinderwold} from elite mobs to purchase the {item:223153} mount from {npc:226205}.'
+L['cendvin_note'] = 'Соберите 900x {item:225557} в {location:Пепловольде} с элитных монстров, чтобы купить средство передвижения {item:223153} у {npc:226205}.'
 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
-L['options_icons_flat_earthen_desc'] = 'Display location for {achievement:40606} achievement.'
+L['options_icons_flat_earthen_desc'] = 'Отображение местоположения для достижения {achievement:40606}.'
 
 L['tome_of_polymorph_mosswool'] = 'Enter the tunnel and continue to {location:The Kindling Parlor}.\n\nAccept {quest:84438} from {npc:229128} to receive the {item:227710}.'
 
