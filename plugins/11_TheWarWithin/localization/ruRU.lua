@@ -42,16 +42,16 @@ L['trees_treasure_crab_3_note'] = 'Под деревом.'
 L['trees_treasure_crab_4_note'] = 'Под корнем дерева.'
 L['trees_treasure_crab_5_note'] = 'На выступе.'
 L['trees_treasure_crab_6_note'] = 'На корне дерева.'
-L['turtles_thanks_1_note'] = 'Сдайте 5x {item:220143} (можно выловить в {object:Тихая рябь} или купить на аукционе). {note:Покиньте это место и немедленно вернитесь, чтобы сдать следующую рыбу.}'
-L['turtles_thanks_2_note'] = 'Hand in 1x {item:222533} (can be fished from {object:Glimmerpool}, {object:Festering Rotpool}, {object:Infused Ichor Spill} pool or bought from the auction house).'
-L['turtles_thanks_3_note'] = 'Meet the {npc:223338} in {location:Dornogal} and speak with her to reveal the treasure.'
-L['web_wrapped_axe_note'] = 'On the first floor.\n\n{note:Have 1-2 Hours spawn time.}'
+L['turtles_thanks_1_note'] = 'Сдайте 5x {item:220143} (можно выловить в {object:Тихой рябе} или купить на аукционе). {note:Покиньте это место и немедленно вернитесь, чтобы сдать следующую рыбу.}'
+L['turtles_thanks_2_note'] = 'Сдайте 1 предмет {item:222533} (можно выловить в {object:Мерцающем омуте}, {object:Пагубном омуте гнили}, {object:Пятне насыщенного гноя} или купить на аукционе).'
+L['turtles_thanks_3_note'] = 'Встретьтесь с {npc:223338} в {location:Дорногале} и поговорите с ней, чтобы узнать о сокровище.'
+L['web_wrapped_axe_note'] = 'На первом этаже.\n\n{note:Время появления 1-2 часа.}'
 L['faithful_dog_note'] = [[
-1. Find the {npc:59533} in {location:The Heartland} in {map:376} in {map:424} and complete {quest:30526}.
-2. Build the {object:Herb Garden} in your {area:7490} in {map:572}.
-3. Find a {item:147420} in the {map:619} {map:627} then talk with {npc:87553} in your {area:7490} {object:Herb Garden}.
-The {npc:87553} will now be at the {location:Magical Menagerie} in {map:627}
-4. Interact with the {object:Half-Buried Dog Bowl} in {map:2248} then pet the {npc:87553} to receive the pet.
+1. Найдите {npc:59533} в {location:Плодородных землях} на {map:376} в {map:424} и выполните {quest:30526}.
+2. Постройте {object:Травяной сад} в вашем {area:7490} на {map:572}.
+3. Найдите {item:147420} на {map:619} {map:627}, затем поговорите с {npc:87553} в вашем {area:7490} {object:Травяном саду}.
+{npc:87553} теперь будет в {location:Волшебный зверинец} на {map:627}
+4. Взаимодействуйте с {object:Полузакопанной собачьей миской} на {map:2248}, затем погладьте {npc:87553}, чтобы получить питомца.
 ]]
 
 L['cendvin_note'] = 'Farm 900x {item:225557} in {location:Cinderwold} from elite mobs to purchase the {item:223153} mount from {npc:226205}.'
