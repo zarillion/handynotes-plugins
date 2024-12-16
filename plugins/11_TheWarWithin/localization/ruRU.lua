@@ -61,7 +61,7 @@ L['options_icons_flat_earthen_desc'] = 'Отображение местопол�
 
 L['tome_of_polymorph_mosswool'] = 'Enter the tunnel and continue to {location:The Kindling Parlor}.\n\nAccept {quest:84438} from {npc:229128} to receive the {item:227710}.'
 
-L['aradan_note_start'] = '{npc:213428} can be found in the dungeon {location:The Rookery} in {location:Dornogal} in the {location:Isle of Dorn}.\n\n{note:{npc:213428} can be tamed while in Follower Dungeon mode.}'
+L['aradan_note_start'] = '{npc:213428} можно найти в подземелье {location:Гнездовье} в {location:Дорногале} на {location:Острове Дорн}.\n\n{note:{npc:213428} можно приручить в режиме Подземелья с соратниками.}'
 L['aradan_note_step_1'] = '1. Collect {item:220770} from the deep in the water outside of {location:Isle of Dorn.}'
 L['aradan_note_step_2'] = '2. ({dot:Blue}) Enter {location:The Rookery} and defeat {npc:209230}.'
 L['aradan_note_step_3'] = '3. ({dot:Red}) Jump down the shaft then run up the stairs from where {npc:215967} spawns.'
