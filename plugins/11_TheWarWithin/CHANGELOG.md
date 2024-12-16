@@ -1,6 +1,16 @@
 # v110
 
+* 10.0.7 Siren Isle
+  * All rare locations
+  * Many treasure locations
+  * Some vendor locations
+  * Runed Storm Cache locations for [Treasures of the Storm](https://www.wowhead.com/ptr/achievement=41131/treasures-of-the-storm)
+  * Mount information for Thrayir, Eyes of the Siren and Pristmatic Snapdragon
 * Puzzles 1-12 for Ratt's Revenge - Incognitro, the Indecipherable Felcycle
+* Add Worldsoul Memory locations
+  * [A Series of Echoes](https://www.wowhead.com/achievement=40252/a-series-of-echoes)
+  * [Fragments of Memories](https://www.wowhead.com/achievement=40314/fragments-of-memories)
+  * [Echoes of Danger](https://www.wowhead.com/achievement=40222/echoes-of-danger)
 * Localization updates: deDE, esES, frFR, ruRU, zhCN
 
 # v109
