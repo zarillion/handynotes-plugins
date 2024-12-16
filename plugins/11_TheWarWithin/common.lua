@@ -9,6 +9,8 @@ local Group = ns.Group
 
 local Collectible = ns.node.Collectible
 
+local Achievement = ns.reward.Achievement
+
 -------------------------------------------------------------------------------
 
 ns.expansion = 11
@@ -39,6 +41,11 @@ ns.groups.RATTS_REVENGE = Group('ratts_revenge', 5370377, {
 })
 
 ns.groups.SKYRIDING_GLYPH = Group('skyriding_glyph', 4728198, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+ns.groups.WORLDSOUL_MEMORIES = Group('worldsoul_memories', 2967105, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
 })
@@ -314,6 +321,153 @@ local FlightMaster = Class('FlightMaster', Collectible, {
 }) -- Flight Point
 
 ns.node.FlightMaster = FlightMaster
+
+-------------------------------------------------------------------------------
+----------------------------- WORLDSOUL MEMORIES ------------------------------
+-------------------------------------------------------------------------------
+
+local WORLDSOUL_REWARDS = {
+    [7833] = {
+        Achievement({id = 40252, criteria = 67594}), -- Descendants of Distant Waters
+        Achievement({id = 40314, criteria = 68241}), -- Echoing Fragment: Hallowfall
+        Achievement({
+            id = 40222,
+            criteria = {
+                67512, -- Hand of Azshara
+                67513, -- Zaniga the Tracker
+                67514, -- Ankoan Champion Utaari
+                67515, -- Gurl the Feaster
+                67516 -- Utmoth the Tidetwister
+            }
+        }) -- Echoes of Danger
+    },
+    [7834] = {
+        Achievement({id = 40252, criteria = 67593}), -- Reign of The Old Gods
+        Achievement({id = 40314, criteria = 68241}), -- Echoing Fragment: Hallowfall
+        Achievement({
+            id = 40222,
+            criteria = {
+                67509, -- Aqu'yinra
+                67510, -- S'toth The Insatiable
+                67507, -- Bor'zal the Lurking
+                67508, -- Yor'sith
+                67511 -- Venox
+            }
+        }) -- Echoes of Danger
+    },
+    [7835] = {
+        Achievement({id = 40252, criteria = 67595}), -- Elemental Fury
+        Achievement({id = 40314, criteria = 68257}), -- Echoing Fragment: The Ringing Deeps
+        Achievement({
+            id = 40222,
+            criteria = {
+                67523, -- Flame Viscerator Ignes
+                67524, -- Oremex Flamebreaker
+                67525, -- Earthfury Cragshar
+                67526, -- Deepwalker Cavelord
+                67527 -- Crateron
+            }
+        }) -- Echoes of Danger
+    },
+    [7836] = {
+        Achievement({id = 40252, criteria = 67596}), -- Primal Predators
+        Achievement({id = 40314, criteria = 68257}), -- Echoing Fragment: The Ringing Deeps
+        Achievement({
+            id = 40222,
+            criteria = {
+                67517, -- Kiji the Stomper
+                67518, -- Clawmother Tengi
+                67519, -- Nalo'xic
+                67520, -- Pterrordaxus
+                67521 -- Tor'go
+            }
+        }) -- Echoes of Danger
+    },
+    [7837] = {
+        Achievement({id = 40252, criteria = 67589}), -- Ancient Explorers
+        Achievement({id = 40314, criteria = 68256}), -- Echoing Fragment: Isle of Dorn
+        Achievement({
+            id = 40222,
+            criteria = {
+                67528, -- Stormlord Kao'dar
+                67529, -- Toaka the Explorer
+                67530, -- Conqueror Or'sosh
+                67531, -- Wavecrasher Jurvak
+                67532 -- Warmonger Ogli
+            }
+        }) -- Echoes of Danger
+    },
+    [7838] = {
+        Achievement({id = 40252, criteria = 67590}), -- The Worldcarvers
+        Achievement({id = 40314, criteria = 68256}), -- Echoing Fragment: Isle of Dorn
+        Achievement({
+            id = 40222,
+            criteria = {
+                67534, -- Gong'tze the Riverhewer
+                67535, -- First Blade Grimskarn
+                -- 0, -- Zeeben and Zillix
+                67540, -- Talinhet
+                67541 -- Temaya
+            }
+        }) -- Echoes of Danger
+    },
+    [7839] = {
+        Achievement({id = 40252, criteria = 67591}), -- Old Gods Forsaken
+        Achievement({id = 40314, criteria = 68258}), -- Echoing Fragment: Azj-Kahet
+        Achievement({
+            id = 40222,
+            criteria = {
+                67544, -- The Rebellious Queen
+                67545, -- Vin'ris the Corruptor
+                67546, -- Vil'vim the Mindtwister
+                67547, -- Spiz'na the Traitor
+                67548 -- Yoh'nath the Ender
+            }
+        }) -- Echoes of Danger
+    },
+    [7840] = {
+        Achievement({id = 40252, criteria = 67592}), -- A Wounded Soul
+        Achievement({id = 40314, criteria = 68258}), -- Echoing Fragment: Azj-Kahet
+        Achievement({
+            id = 40222,
+            criteria = {
+                67549, -- Azerite Manifestation
+                67550, -- Shard of Gorribal
+                67552, -- Widowcore
+                -- 0, -- Dregbile and Soulboil
+                67553 -- Heartsear
+            }
+        }) -- Echoes of Danger
+    }
+}
+
+local WorldsoulMemory = Class('WorldsoulMemory', Collectible, {
+    icon = 2967105,
+    group = ns.groups.WORLDSOUL_MEMORIES
+}) -- Worldsoul Memory
+
+function WorldsoulMemory.getters:rewards()
+    return WORLDSOUL_REWARDS[self.areaPoiID]
+end
+
+ns.node.WorldsoulMemory = WorldsoulMemory
+
+hooksecurefunc(AreaPOIEventPinMixin, 'OnMouseEnter', function(self)
+    if not self.areaPoiID then return end
+    if not WORLDSOUL_REWARDS[self.areaPoiID] then return end
+    local mapID = self:GetMap().mapID
+    local group = ns.groups.WORLDSOUL_MEMORIES
+    if group:GetDisplay(mapID) then
+        local rewards = WORLDSOUL_REWARDS[self.areaPoiID]
+        for _, reward in pairs(rewards) do
+            if reward and reward:IsEnabled() then
+                reward:Render(GameTooltip)
+            end
+        end
+        GameTooltip:AddLine(' ')
+        GameTooltip:Show()
+    end
+end)
 
 -------------------------------------------------------------------------------
 ------------------------------ KHAZ ALGAR SAFARI ------------------------------

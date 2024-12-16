@@ -1420,3 +1420,10 @@ map.nodes[64451882] = Collectible({
         POI({label = '{npc:222374}', points = {66702100}, color = 'Red'}) -- Cap'n Elaena
     }
 }) -- Thunder
+
+-------------------------------------------------------------------------------
+----------------------------- WORLDSOUL MEMORIES ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[46902323] = ns.node.WorldsoulMemory({areaPoiID = 7833}) -- Descendants of Distant Waters
+map.nodes[60586768] = ns.node.WorldsoulMemory({areaPoiID = 7834}) -- Reign of the Old Gods

@@ -1206,3 +1206,13 @@ cot.nodes[46282915] = KejPetVendor({
         Pet({item = 222968, id = 4476}) -- Itchbite
     }
 }) -- "Calmest" Gobbu
+
+-------------------------------------------------------------------------------
+----------------------------- WORLDSOUL MEMORIES ------------------------------
+-------------------------------------------------------------------------------
+
+cotl.nodes[21004545] = ns.node.WorldsoulMemory({
+    areaPoiID = 7839,
+    parent = map.id
+}) -- Old Gods Forsaken
+map.nodes[65865232] = ns.node.WorldsoulMemory({areaPoiID = 7840}) -- A Wounded Soul

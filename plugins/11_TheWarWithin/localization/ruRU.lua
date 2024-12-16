@@ -22,6 +22,9 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Отображение мес�
 L['options_icons_flight_master'] = '{achievement:40430}'
 L['options_icons_flight_master_desc'] = 'Показать местоположения {npc:Распорядителей Полета} для {achievement:40430}.'
 
+L['options_icons_worldsoul_memories'] = nil
+L['options_icons_worldsoul_memories_desc'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------

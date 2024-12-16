@@ -849,3 +849,10 @@ map.nodes[64276487] = ReclamationMachinist({
     location = L['for_the_collective_location'],
     pois = {POI({64866448})} -- Wood Plank
 })
+
+-------------------------------------------------------------------------------
+----------------------------- WORLDSOUL MEMORIES ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[43561070] = ns.node.WorldsoulMemory({areaPoiID = 7835}) -- Elemental Fury
+map.nodes[59347000] = ns.node.WorldsoulMemory({areaPoiID = 7836}) -- Primal Predators

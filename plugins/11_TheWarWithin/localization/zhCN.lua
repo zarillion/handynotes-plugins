@@ -22,6 +22,9 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = '显示 {achievement:40762} 成
 L['options_icons_flight_master'] = '{achievement:40430}'
 L['options_icons_flight_master_desc'] = '显示 {achievement:40430} 成就中 {npc:飞行管理员} 的位置。'
 
+L['options_icons_worldsoul_memories'] = nil
+L['options_icons_worldsoul_memories_desc'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------

@@ -22,6 +22,9 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Display lore object locations 
 L['options_icons_flight_master'] = '{achievement:40430}'
 L['options_icons_flight_master_desc'] = 'Display {npc:Flight Master} locations for {achievement:40430}.'
 
+L['options_icons_worldsoul_memories'] = 'Worldsoul Memories'
+L['options_icons_worldsoul_memories_desc'] = 'Display rewards for {object:Worldsoul Memories}.'
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
