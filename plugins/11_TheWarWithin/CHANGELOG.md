@@ -1,6 +1,6 @@
 # v110
 
-* 10.0.7 Siren Isle
+* 11.0.7 Siren Isle
   * All rare locations
   * Many treasure locations
   * Some vendor locations
