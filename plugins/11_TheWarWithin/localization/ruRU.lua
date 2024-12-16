@@ -59,15 +59,15 @@ L['cendvin_note'] = 'Соберите 900x {item:225557} в {location:Пепло
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Отображение местоположения для достижения {achievement:40606}.'
 
-L['tome_of_polymorph_mosswool'] = 'Enter the tunnel and continue to {location:The Kindling Parlor}.\n\nAccept {quest:84438} from {npc:229128} to receive the {item:227710}.'
+L['tome_of_polymorph_mosswool'] = 'Enter the tunnel and continue to {location:The Kindling Parlor}.\n\nПримите {quest:84438} от {npc:229128}, чтобы получить {item:227710}.'
 
 L['aradan_note_start'] = '{npc:213428} можно найти в подземелье {location:Гнездовье} в {location:Дорногале} на {location:Острове Дорн}.\n\n{note:{npc:213428} можно приручить в режиме Подземелья с соратниками.}'
-L['aradan_note_step_1'] = '1. Collect {item:220770} from the deep in the water outside of {location:Isle of Dorn.}'
-L['aradan_note_step_2'] = '2. ({dot:Blue}) Enter {location:The Rookery} and defeat {npc:209230}.'
-L['aradan_note_step_3'] = '3. ({dot:Red}) Jump down the shaft then run up the stairs from where {npc:215967} spawns.'
-L['aradan_note_step_4'] = '4. ({dot:Green}) Run to the edge of the cliff and use the {item:220770} while targeting {npc:213428}.'
-L['aradan_note_step_5'] = '5. {npc:213428} will recognize the hammer and fly down, allowing you to tame him.'
-L['aradan_note_end'] = '{note:{item:220770} is not consumed on use so you can tame all 5 model variations or help a fellow hunter.}'
+L['aradan_note_step_1'] = '1. Соберите {item:220770} из глубин вод за пределами {location:Острова Дорн.}'
+L['aradan_note_step_2'] = '2. ({dot:Blue}) Войдите в {location:Гнездовье} и победите {npc:209230}.'
+L['aradan_note_step_3'] = '3. ({dot:Red}) Спрыгните в шахту, затем бегите вверх по лестнице, откуда появляется {npc:215967}.'
+L['aradan_note_step_4'] = '4. ({dot:Green}) Подбегите к краю обрыва и используйте {item:220770}, взяв в цель {npc:213428}.'
+L['aradan_note_step_5'] = '5. {npc:213428} узнает молот и полетит вниз, позволяя вам приручить его.'
+L['aradan_note_end'] = '{note:{item:220770} не расходуется при использовании, так что вы можете приручить все 5 вариаций модели или помочь товарищу-охотнику.}'
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
