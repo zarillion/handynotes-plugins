@@ -22,8 +22,8 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Muestra dónde están los obje
 L['options_icons_flight_master'] = '{achievement:40430}'
 L['options_icons_flight_master_desc'] = 'Muestra los {npc:Maestro de Vuelo} para el logro {achievement:40430}.'
 
-L['options_icons_worldsoul_memories'] = nil
-L['options_icons_worldsoul_memories_desc'] = nil
+L['options_icons_worldsoul_memories'] = 'Recuerdos del alma-mundo'
+L['options_icons_worldsoul_memories_desc'] = 'Muestra las recompensas para  {object:Recuerdos del alma-mundo}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
