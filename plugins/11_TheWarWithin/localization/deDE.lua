@@ -23,8 +23,8 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Zeigt die Positionen der Gesch
 L['options_icons_flight_master'] = '{achievement:40430}'
 L['options_icons_flight_master_desc'] = 'Zeigt die Positionen der {npc:Flugmeister} für den Erfolg {achievement:40430} an.'
 
-L['options_icons_worldsoul_memories'] = nil
-L['options_icons_worldsoul_memories_desc'] = nil
+L['options_icons_worldsoul_memories'] = 'Weltenseelenerinnerung'
+L['options_icons_worldsoul_memories_desc'] = 'Zeigt die Positionen der {object:Weltenseelenerinnerungen} an.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
