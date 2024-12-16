@@ -73,24 +73,24 @@ L['aradan_note_end'] = '{note:{item:220770} не расходуется при �
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------
 
-L['forgotten_treasure_note'] = 'Open {object:Buried Treasure}s nearby to get the {item:217960}.'
-L['kaja_cola_machine_note'] = 'Purchase drinks in the following order: {item:223741} > {item:223743} > {item:223744} > {item:223742}.'
+L['forgotten_treasure_note'] = 'Откройте {object:Зарытое сокровище} поблизости, чтобы получить {item:217960}.'
+L['kaja_cola_machine_note'] = 'Приобретайте напитки в следующем порядке: {item:223741} > {item:223743} > {item:223744} > {item:223742}.'
 
 L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
-L['options_icons_i_only_need_one_trip_desc'] = 'Display location for the {achievement:40623} achievement.'
-L['i_only_need_one_trip_note'] = 'Deposit all 10 ore at once in the {wq:Courier Mission: Ore Recovery} world quest.'
+L['options_icons_i_only_need_one_trip_desc'] = 'Отображение местоположения для достижения {achievement:40623}.'
+L['i_only_need_one_trip_note'] = 'Внесите 10 руды одновременно в локальном задании {wq:Миссия по доставке: поиски руды}.'
 
 L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
-L['options_icons_not_so_quick_fix_desc'] = 'Display console locations for {achievement:40473} achievement.'
+L['options_icons_not_so_quick_fix_desc'] = 'Отображение расположения консолей для достижения {achievement:40473}.'
 
-L['not_so_quick_fix_note'] = 'Repair the busted earthen console.'
-L['water_console_location'] = 'Next to the stairs.'
-L['abyssal_console_location'] = 'In an alcove.'
-L['taelloch_console_location'] = 'On a bridge between the barrels.'
-L['lost_console_location'] = 'In an alcove.'
+L['not_so_quick_fix_note'] = 'Ремонт сломанной земляной консоли.'
+L['water_console_location'] = 'Рядом с лестницей.'
+L['abyssal_console_location'] = 'В нише.'
+L['taelloch_console_location'] = 'На мосту между бочками.'
+L['lost_console_location'] = 'В нише.'
 
 L['options_icons_notable_machines'] = '{achievement:40628}'
-L['options_icons_notable_machines_desc'] = 'Display note locations for {achievement:40628} achievement.'
+L['options_icons_notable_machines_desc'] = 'Показать расположение заметок для достижения {achievement:40628}.'
 
 L['notable_machines_note'] = 'Read the note.'
 L['fragment_I_location'] = 'On the ground.'
