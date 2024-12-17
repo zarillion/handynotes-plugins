@@ -7,7 +7,7 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['options_icons_delve_rewards'] = '地下堡奖励'
-L['options_icons_delve_rewards_desc'] = '在提示中显示 {location:地下堡} 奖励。'
+L['options_icons_delve_rewards_desc'] = '在提示中显示 {location:地下堡} 的奖励。'
 
 L['skyriding_glyph'] = '驭空术魔符'
 L['options_icons_skyriding_glyph'] = '驭空术魔符'
@@ -22,8 +22,8 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = '显示 {achievement:40762} 成
 L['options_icons_flight_master'] = '{achievement:40430}'
 L['options_icons_flight_master_desc'] = '显示 {achievement:40430} 成就中 {npc:飞行管理员} 的位置。'
 
-L['options_icons_worldsoul_memories'] = nil
-L['options_icons_worldsoul_memories_desc'] = nil
+L['options_icons_worldsoul_memories'] = '世界之魂的回忆'
+L['options_icons_worldsoul_memories_desc'] = '显示 {object:世界之魂的回忆} 的奖励。'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
