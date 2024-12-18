@@ -383,8 +383,8 @@ L['soweezi_note'] = 'Échangez vos {currency:3090} contre une monture, un jouet,
 L['thrayir_note_start'] = 'Récupérez 5 clés runiques dispersées sur l\'{location:Île aux Sirènes} et accomplissez le rituel dans {location:La chambre Oubliée} pour recevoir {item:232639} :'
 
 L['whirling_runekey_note'] = 'Lâchée par {npc:231368} dans {location:La chambre Oubliée} lors d\'une tempête.'
-L['torrential_runekey_note'] = 'Lâchée par n\'importe quel monstre (normal, élite ou rare) sur l\'{location:Île aux Sirènes} lors d\'une tempête.'
-L['thunderous_runekey_note'] = 'Nécessite 5x {item:232605} trouvés dans {note:n\'importe quel} coffre sur l\'{location:Île aux Sirènes}. {note:Ne nécessite pas de tempête}.'
+L['torrential_runekey_note'] = 'Nécessite 7x {item:234328} lâchés par {note:n\'importe quel} monstre (normal, élite ou rare) sur l\'{location:Île aux Sirènes} lors d\'une {spell:458069}.'
+L['thunderous_runekey_note'] = 'Nécessite 5x {item:232605} trouvés dans {note:n\'importe quel} coffre sur l\'{location:Île aux Sirènes}. {note:Ne nécessite pas de {spell:458069}}.'
 L['cyclonic_runekey_note'] = 'Lâchée par {npc:231357} dans le {location:Bourbier Nageffroi} sur l\'{location:Île aux Sirènes} lors d\'une tempête.'
 L['turbulent_runekey_note'] = 'Nécessite 3x {item:234327} dispersés sur l\'{location:Île aux Sirènes} lors d\'une tempête.'
 
@@ -403,7 +403,7 @@ L['pris_quest_4'] = 'Un ami loyal'
 L['unsolved_amethyst_runelock'] = 'Verrou runique en améthyste non résolu'
 L['bilge_rat_supply_chest'] = 'Coffre de fournitures des Soutaillons'
 
-L['stone_carvers_scamseax_note'] = nil
+L['stone_carvers_scamseax_note'] = 'Ramassez une {object:Citrine radieuse} ({dot:Yellow}) pour bénéficier de l\'amélioration {spell:1216785} pendant 2 minutes, ce qui vous permet de récupérer le {item:233834}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
