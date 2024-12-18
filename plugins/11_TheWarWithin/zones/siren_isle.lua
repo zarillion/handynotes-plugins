@@ -301,7 +301,7 @@ map.nodes[55968404] = Rare({
 
 map.nodes[33027359] = Rare({
     id = 231357,
-    quest = nil, -- hidden
+    quest = 85405, -- hidden, also 85113 (on kill)
     rewards = {Item({item = 232569})}, -- Cyclonic Runekey
     storm = 1,
     vignette = 6617
