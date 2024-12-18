@@ -382,8 +382,8 @@ L['soweezi_note'] = 'Cambia {currency:3090} por una montura, juguete, mascota, o
 L['thrayir_note_start'] = 'Consigue 5x llaves de piedra rúnica alrededor de la {location:Isla de la Sirena} y completa el ritual dentro de la {location:Cámara Olvidada} para conseguir {item:232639}:'
 
 L['whirling_runekey_note'] = 'Botín de {npc:231368} en la {location:Cámara Olvidada} durante una tormenta.'
-L['torrential_runekey_note'] = 'Botín de cualquier enemigo (normal, élite, o raro) en la {location:Isla de la Sirena} durante una tormenta.'
-L['thunderous_runekey_note'] = 'Requiere 5x {item:232605} encontrados en {note:cualquier} cofre de la {location:Isla de la Sirena}. {note:No requiere una tormenta}.'
+L['torrential_runekey_note'] = 'Requiere 7x {item:234328} que deja caer cualquier enemigo (normal, élite, o raro) en la {location:Isla de la Sirena} durante una {spell:458069}.'
+L['thunderous_runekey_note'] = 'Requiere 5x {item:232605} encontrados en {note:cualquier} cofre de la {location:Isla de la Sirena}. {note:No requiere una {spell:458069}}.'
 L['cyclonic_runekey_note'] = 'Botín de {npc:231357} en el {location:Fangal Aletamuerte} de la {location:Isla de la Sirena} durante una tormenta.'
 L['turbulent_runekey_note'] = 'Requiere 3x {item:234327} encontrados dispersos a lo largo de la {location:Isla de la Sirena} durante una tormenta.'
 
@@ -391,18 +391,18 @@ L['turbulent_fragment_a'] = 'Escondido en un {object:Montón de tierra} detrás 
 L['turbulent_fragment_b'] = 'Despoja el {object:Fragmento rúnico} frente a los fantasmas {npc:Kul Tiran} acobardados dentro de una cueva en el {location:Hoyo Hediondo}.'
 L['turbulent_fragment_c'] = 'Despoja el {object:Fragmento rúnico} retenido por el fantasma {npc:Kul Tiran} dentro de la {location:Cueva del Espíritu Marcado}.'
 
-L['prismatic_snapdragon_note_start'] = 'A lo largo de 8 días, ayuda a salvar a {npc:235216} en la {location:Marisma de Derrelicto} para conseguir {item:233489}.\n\n{note:Puedes perderte un día pero no hay ningún mecanismo de recuperación}.'
+L['prismatic_snapdragon_note_start'] = 'A lo largo de 10 días, ayuda a salvar a {npc:235216} en la {location:Marisma de Derrelicto} para conseguir {item:233489}.\n\n{note:Puedes perderte un día pero no hay ningún mecanismo de recuperación}.'
 L['prismatic_day'] = 'Día %d'
 
-L['pris_quest_1'] = nil -- https://www.wowhead.com/quest=86482/a-lifeline
-L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
-L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
-L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
+L['pris_quest_1'] = 'Líneas de vida'
+L['pris_quest_2'] = 'Vive la vida al máximo'
+L['pris_quest_3'] = 'Temperamental como una tempestad'
+L['pris_quest_4'] = 'Un amigo leal'
 
 L['unsolved_amethyst_runelock'] = 'Bloqueo de runas amatista'
 L['bilge_rat_supply_chest'] = 'Cofre de suministros de las Ratas de Pantoque'
 
-L['stone_carvers_scamseax_note'] = nil
+L['stone_carvers_scamseax_note'] = 'Recoge un {object:Citrino radiante} ({dot:Yellow}) para recibir el buff {spell:1216785} durante 2 minutos que permitirá despojar {item:233834}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
@@ -431,7 +431,7 @@ L['11_ghostly_celebration_crate'] = 'Encima del {location:Trono del Prelado}, a 
 L['water_resistant_receipt_note'] = '1. Entra en el túnel lleno de {npc:47390}, gira a la derecha, y recoge el {item:228768} de detrás de la tubería.\n\n2. Encuentra a {npc:91079} en {location:Azsuna} de las {location:Islas Abruptas}.'
 L['mysterious_bones_note'] = 'Coge los {item:228772} ocultos detrás de {npc:71533} dentro de la cueva.\n\nUsa una mascota de combate perro como {item:136925} o {item:49912} para desenterrar los huesos.'
 
-L['crates_found'] = nil
+L['crates_found'] = 'cajones encontrados'
 
 -------------------------------------------------------------------------------
 ------------------------------- RATT'S REVENGE --------------------------------
