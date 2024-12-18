@@ -394,6 +394,11 @@ L['turbulent_fragment_c'] = nil
 L['prismatic_snapdragon_note_start'] = nil
 L['prismatic_day'] = nil
 
+L['pris_quest_1'] = nil -- https://www.wowhead.com/quest=86482/a-lifeline
+L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
+L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
+L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
+
 L['unsolved_amethyst_runelock'] = nil
 L['bilge_rat_supply_chest'] = nil
 

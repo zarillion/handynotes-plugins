@@ -394,6 +394,11 @@ L['turbulent_fragment_c'] = '在 {location:魂裂洞穴} 内。'
 L['prismatic_snapdragon_note_start'] = '在8天的时间里，帮助拯救 {location:漂流浅滩} 中的 {npc:235216} 以获得 {item:233489}。\n\n{note:可以错过，但没有追赶机制}。'
 L['prismatic_day'] = '第%d天' -- "Day 1" or "Day 4" or "Day 7"
 
+L['pris_quest_1'] = nil -- https://www.wowhead.com/quest=86482/a-lifeline
+L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
+L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
+L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
+
 L['unsolved_amethyst_runelock'] = '未破解的紫晶符文锁'
 L['bilge_rat_supply_chest'] = '水鼠帮补给箱'
 

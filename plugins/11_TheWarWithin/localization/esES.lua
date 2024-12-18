@@ -394,6 +394,11 @@ L['turbulent_fragment_c'] = 'Despoja el {object:Fragmento rúnico} retenido por 
 L['prismatic_snapdragon_note_start'] = 'A lo largo de 8 días, ayuda a salvar a {npc:235216} en la {location:Marisma de Derrelicto} para conseguir {item:233489}.\n\n{note:Puedes perderte un día pero no hay ningún mecanismo de recuperación}.'
 L['prismatic_day'] = 'Día %d'
 
+L['pris_quest_1'] = nil -- https://www.wowhead.com/quest=86482/a-lifeline
+L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
+L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
+L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
+
 L['unsolved_amethyst_runelock'] = 'Bloqueo de runas amatista'
 L['bilge_rat_supply_chest'] = 'Cofre de suministros de las Ratas de Pantoque'
 

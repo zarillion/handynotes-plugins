@@ -391,8 +391,13 @@ L['turbulent_fragment_a'] = 'Hidden in a {object:Dirt Pile} behind the {location
 L['turbulent_fragment_b'] = 'Loot the {object:Runic Fragment} in front of the cowering {npc:Kul Tiran} ghost inside a cave in the {location:Rotting Hole}.'
 L['turbulent_fragment_c'] = 'Loot the {object:Runic Fragment} held by the {npc:Kul Tiran} ghost inside the {location:Spirit Scarred Cave}.'
 
-L['prismatic_snapdragon_note_start'] = 'Over the course of 8 days, help save the {npc:235216} in the {location:Flotsam Shoal} to recieve {item:233489}.\n\n{note:You can miss a day but there is no catch-up mechanic}.'
+L['prismatic_snapdragon_note_start'] = 'Over the course of 10 days, help save the {npc:235216} in the {location:Flotsam Shoal} to recieve {item:233489}.\n\n{note:You can miss a day but there is no catch-up mechanic}.'
 L['prismatic_day'] = 'Day %d' -- "Day 1" or "Day 4" or "Day 7"
+
+L['pris_quest_1'] = 'A Lifeline' -- 86482
+L['pris_quest_2'] = 'Snap To It' -- 86483
+L['pris_quest_3'] = 'Temper Like A Tempest' -- 86484
+L['pris_quest_4'] = 'A Loyal Friend' -- 86485
 
 L['unsolved_amethyst_runelock'] = 'Unsolved Amethyst Runelock'
 L['bilge_rat_supply_chest'] = 'Bilge Rat Supply Chest'

@@ -397,6 +397,11 @@ L['turbulent_fragment_c'] = 'Plündere das {object:Runic Fragment}, das der Geis
 L['prismatic_snapdragon_note_start'] = 'Helfe im Verlauf von 8 Tagen das {npc:235216} zu retten, um das Reittier {item:233489} zu erhalten.\n\n{note:Du kannst einen Tag verpassen, aber es gibt keine Aufholmechanik}.'
 L['prismatic_day'] = 'Tag %d'
 
+L['pris_quest_1'] = nil -- https://www.wowhead.com/quest=86482/a-lifeline
+L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
+L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
+L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
+
 L['unsolved_amethyst_runelock'] = nil
 L['bilge_rat_supply_chest'] = nil
 

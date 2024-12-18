@@ -394,6 +394,11 @@ L['turbulent_fragment_c'] = 'Loot the {object:Runic Fragment} held by the {npc:K
 L['prismatic_snapdragon_note_start'] = 'Over the course of 8 days, help save the {npc:235216} in the {location:Flotsam Shoal} to recieve {item:233489}.\n\n{note:You can miss a day but there is no catch-up mechanic}.'
 L['prismatic_day'] = 'Day %d' -- "Day 1" or "Day 4" or "Day 7"
 
+L['pris_quest_1'] = nil -- https://www.wowhead.com/quest=86482/a-lifeline
+L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
+L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
+L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
+
 L['unsolved_amethyst_runelock'] = 'Unsolved Amethyst Runelock'
 L['bilge_rat_supply_chest'] = 'Bilge Rat Supply Chest'
 

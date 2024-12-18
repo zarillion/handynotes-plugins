@@ -577,7 +577,8 @@ local PristmaticSnapdragon = Class('PristmaticSnapdragon', Collectible, {
     quest = {
         86482, -- ![A Lifeline]
         86483, -- ![Snap To It]
-        86484 -- ![Temper Like A Tempest]
+        86484, -- ![Temper Like A Tempest]
+        86485 -- ![A Loyal Friend]
     },
     requires = ns.requirement.Quest(84726), -- ![Uncovered Mysteries]
     rewards = {
@@ -600,16 +601,25 @@ function PristmaticSnapdragon.getters:label()
 end
 
 function PristmaticSnapdragon.getters:note()
-    local quest1 = format('{quest:%d}', self.quest[1])
-    local quest2 = format('{quest:%d}', self.quest[2])
-    local quest3 = format('{quest:%d}', self.quest[3])
+    local function getText(questName)
+        local icon = ns.GetIconLink('quest_ay', 12)
+        local name = ns.color.Yellow('[' .. questName .. ']')
+        return icon .. name
+    end
+
+    local quest1 = getText(L['pris_quest_1'])
+    local quest2 = getText(L['pris_quest_2'])
+    local quest3 = getText(L['pris_quest_3'])
+    local quest4 = getText(L['pris_quest_4'])
     local day1 = format(L['prismatic_day'], 1)
     local day4 = format(L['prismatic_day'], 4)
     local day7 = format(L['prismatic_day'], 7)
+    local day10 = format(L['prismatic_day'], 10)
     local note = L['prismatic_snapdragon_note_start'] .. '\n'
     note = note .. QuestStatus(self.quest[1], day1, quest1)
     note = note .. QuestStatus(self.quest[2], day4, quest2)
     note = note .. QuestStatus(self.quest[3], day7, quest3)
+    note = note .. QuestStatus(self.quest[4], day10, quest4)
     return note
 end
 
