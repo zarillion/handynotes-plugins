@@ -356,18 +356,18 @@ L['tuk_chest_3_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersev
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['the_drowned_lair_note'] = 'Steuere {currency:3090} dem {location:Der Versunkene Hort} an der {object:Sireneninsel-Befehlskarte} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.' -- review
-L['the_drain_note'] = 'Steuere {currency:3090} dem {location:Der Abfluss} an der {object:Sireneninsel-Befehlskarte} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.' -- review
-L['shuddering_hollow_note'] = 'Steuere {currency:3090} der {location:Schauderhöhle} an der {object:Sireneninsel-Befehlskarte} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.' -- review
+L['the_drowned_lair_note'] = 'Steuere {currency:3090} dem {location:Versunkener Hort} an der {object:Schlachtkarte der Sireneninsel} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.'
+L['the_drain_note'] = 'Steuere {currency:3090} dem {location:Abfluss} an der {object:Schlachtkarte der Sireneninsel} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.'
+L['shuddering_hollow_note'] = 'Steuere {currency:3090} der {location:Schauderhöhle} an der {object:Schlachtkarte der Sireneninsel} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.'
 
-L['vrykul_sublabel'] = '{note:Nur verfügbar, wenn {npc:Bloodwake Vykrul} auf der Insel sind.}' -- review
-L['naga_sublabel'] = '{note:Nur verfügbar, wenn {npc:Naga} auf der Insel sind.}' -- review
-L['pirate_sublabel'] = '{note:Nur verfügbar, wenn {npc:Piraten} auf der Insel sind.}' -- review
+L['vrykul_sublabel'] = '{note:Nur verfügbar, wenn sich {npc:Vrykul der Blutgischt} auf der Insel befinden.}'
+L['naga_sublabel'] = '{note:Nur verfügbar, wenn sich {npc:Naga} auf der Insel befinden.}' -- review
+L['pirate_sublabel'] = '{note:Nur verfügbar, wenn sich {npc:Piraten} auf der Insel befinden.}' -- review
 
 L['storm_required'] = 'Benötigt ein aktives %s auf der {location:Sireneninsel}.'
 L['slaughtershell_location'] = 'Wandert auf der gesamten {location:Sireneninsel} umher.'
 
-L['within_the_forgotten_vault'] = nil -- 'In {location:Die Vergessene Kammer}. Benutze das {object:Singing Tablet} in {location:Die Heilige Höhle}, um die Kammer zu betreten.' -- review
+L['within_the_forgotten_vault'] = 'Benutze die {object:Singende Tafel} in {location:Die Heilige Höhle}, um {location:Die Vergessene Kammer} zu betreten.\n\nDie Kammer enthält ein Reittier, ein Spielzeug, Schätze und {npc:231368}.'
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
 L['options_icons_runed_storm_chest_desc'] = 'Zeigt die Positionen von {object:Runenverzierte Sturmtruhe} für den Erfolg {achievement:41131} an.'
@@ -394,10 +394,10 @@ L['turbulent_fragment_a'] = 'In einem {object:Dirt Pile} hinter dem Gasthaus {lo
 L['turbulent_fragment_b'] = 'Plündere das {object:Runic Fragment} vor dem kauernden Geist in einer Höhle in {location:Das Verrottende Loch}.' -- review
 L['turbulent_fragment_c'] = 'Plündere das {object:Runic Fragment}, das der Geist in der {location:Geisternarbenhöhle} in seiner Hand hält.' -- review
 
-L['prismatic_snapdragon_note_start'] = 'Helfe im Verlauf von 8 Tagen das {npc:235216} zu retten, um das Reittier {item:233489} zu erhalten.\n\n{note:Du kannst einen Tag verpassen, aber es gibt keine Aufholmechanik}.'
+L['prismatic_snapdragon_note_start'] = 'Helfe im Verlauf von 10 Tagen das {npc:235216} zu retten, um das Reittier {item:233489} zu erhalten.\n\n{note:Du kannst einen Tag verpassen, aber es gibt keine Aufholmechanik}.'
 L['prismatic_day'] = 'Tag %d'
 
-L['pris_quest_1'] = nil -- https://www.wowhead.com/quest=86482/a-lifeline
+L['pris_quest_1'] = 'Ein Rettungsanker' -- https://www.wowhead.com/quest=86482/a-lifeline
 L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
 L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
 L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
