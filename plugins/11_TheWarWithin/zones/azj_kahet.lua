@@ -1211,8 +1211,9 @@ cot.nodes[46282915] = KejPetVendor({
 ----------------------------- WORLDSOUL MEMORIES ------------------------------
 -------------------------------------------------------------------------------
 
-cotl.nodes[21004545] = ns.node.WorldsoulMemory({
+cot.nodes[21074547] = ns.node.WorldsoulMemory({
     areaPoiID = 7839,
     parent = map.id
 }) -- Old Gods Forsaken
+
 map.nodes[65865232] = ns.node.WorldsoulMemory({areaPoiID = 7840}) -- A Wounded Soul
