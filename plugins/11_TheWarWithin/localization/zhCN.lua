@@ -402,7 +402,7 @@ L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-frien
 L['unsolved_amethyst_runelock'] = '未破解的紫晶符文锁'
 L['bilge_rat_supply_chest'] = '水鼠帮补给箱'
 
-L['stone_carvers_scamseax_note'] = '收集 {object:Radiant Citrine}（{dot:Yellow}）以获得 {spell:1216785} 增益，持续2分钟，可以拾取 {item:233834}。'
+L['stone_carvers_scamseax_note'] = '收集 {object:光耀黄水晶}（{dot:Yellow}）以获得 {spell:1216785} 增益，持续2分钟，可以拾取 {item:233834}。'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
