@@ -431,6 +431,8 @@ L['11_ghostly_celebration_crate'] = 'Encima del {location:Trono del Prelado}, a 
 L['water_resistant_receipt_note'] = '1. Entra en el túnel lleno de {npc:47390}, gira a la derecha, y recoge el {item:228768} de detrás de la tubería.\n\n2. Encuentra a {npc:91079} en {location:Azsuna} de las {location:Islas Abruptas}.'
 L['mysterious_bones_note'] = 'Coge los {item:228772} ocultos detrás de {npc:71533} dentro de la cueva.\n\nUsa una mascota de combate perro como {item:136925} o {item:49912} para desenterrar los huesos.'
 
+L['crates_found'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- RATT'S REVENGE --------------------------------
 -------------------------------------------------------------------------------

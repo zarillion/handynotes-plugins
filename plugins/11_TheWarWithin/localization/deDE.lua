@@ -434,6 +434,8 @@ L['11_ghostly_celebration_crate'] = 'Auf dem Gebäude des {location:Sitz des Pri
 L['water_resistant_receipt_note'] = '1. Betrete die Höhle, gehe nach rechts und hebe den {item:228768} hinter dem Rohr auf.\n\n2. Finde {npc:91079} in {location:Azsuna} in the {location:Die Verheerten Inseln}.'
 L['mysterious_bones_note'] = 'In einer Höhle.\n\nLass einen deiner Hunde (z. B. {item:136925} oder {item:49912}) die Knochen ausgraben und sammle diese dann ein.'
 
+L['crates_found'] = nil
+
 -------------------------------------------------------------------------------
 ------------------------------- RATT'S REVENGE --------------------------------
 -------------------------------------------------------------------------------

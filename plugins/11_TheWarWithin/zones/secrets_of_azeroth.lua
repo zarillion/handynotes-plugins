@@ -6,7 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
-local Node = ns.node.Node
+local Collectible = ns.node.Collectible
 
 local Achievement = ns.reward.Achievement
 local Buff = ns.reward.Buff
@@ -39,7 +39,7 @@ local maldraxxus = ns.maps[1536] or Map({id = 1536, settings = false})
 --------------------------- SECRETS OF AZEROTH NODE ---------------------------
 -------------------------------------------------------------------------------
 
-local SecretOfAzeroth = Class('SecretOfAzeroth', Node, {
+local SecretOfAzeroth = Class('SecretOfAzeroth', Collectible, {
     icon = 'peg_gn',
     scale = 2,
     group = ns.groups.SECRETS_OF_AZEROTH
@@ -240,7 +240,10 @@ local CrateList = Class('CrateList', SecretOfAzeroth, {
     label = L['celebration_crates_label'],
     questDeps = START_QUEST,
     rewards = {
-        Achievement({id = 40979, criteria = {qty = true, id = 1}}) -- No Crate Left Behind
+        Achievement({
+            id = 40979,
+            criteria = {qty = true, id = 1, suffix = L['crates_found']}
+        }) -- No Crate Left Behind
     }
 })
 

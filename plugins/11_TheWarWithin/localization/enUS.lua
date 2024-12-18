@@ -431,6 +431,8 @@ L['11_ghostly_celebration_crate'] = 'On top of the {location:Seat of the Primus}
 L['water_resistant_receipt_note'] = '1. Enter the tunnel filled with {npc:47390}, turn right, and collect the {item:228768} from the {object:Water-Resistant Receipt of Sale} behind the pipe.\n\n2. Find {npc:91079} in {location:Azsuna} in the {location:Broken Isles}.'
 L['mysterious_bones_note'] = 'Collect the {item:228772} hidden behind {npc:71533} within the cave.\n\nUse a dog battle pet such as {item:136925} or {item:49912} to dig up the bones.'
 
+L['crates_found'] = 'crates found'
+
 -------------------------------------------------------------------------------
 ------------------------------- RATT'S REVENGE --------------------------------
 -------------------------------------------------------------------------------
