@@ -229,7 +229,7 @@ map.nodes[32457405] = Rare({
 
 map.nodes[63948729] = Rare({
     id = 230137,
-    quest = nil, -- hidden
+    quest = 84805, -- hidden, also 84840 (on kill)
     rewards = {Achievement({id = 41046, criteria = 70806})},
     sublabel = L['vykrul_sublabel'],
     vignette = 6590
