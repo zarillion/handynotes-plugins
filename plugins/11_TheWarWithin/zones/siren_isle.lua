@@ -328,7 +328,7 @@ map.nodes[42976324] = Rare({
             40316325, 40016158, 39446012, 38505913, 37455844
         })
     },
-    quest = nil, -- hidden
+    quest = 85403, -- hidden
     storm = 1,
     vignette = 6615
 }) -- Tempest Talon
