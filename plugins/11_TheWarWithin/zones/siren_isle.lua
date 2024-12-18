@@ -367,7 +367,13 @@ map.nodes[40284188] = Treasure({
 
 tfv.nodes[26502340] = Treasure({
     label = '{item:233834}',
-    rewards = {Transmog({item = 233834, slot = L['dagger']})} -- Stone Carver's Scramseax
+    note = L['stone_carvers_scamseax_note'],
+    quest = 86732, -- hidden
+    requires = ns.requirement.Spell(1216785), -- Glittering Vault Shard
+    rewards = {Transmog({item = 233834, slot = L['dagger']})}, -- Stone Carver's Scramseax
+    pois = {
+        POI({points = {28037055, 32197949, 35487877}, color = 'Yellow'}) -- Radiant Citrine
+    }
 }) -- Stone Carver's Scramseax
 
 ------------ FLAME-BLESSED IRON QUEST ITEMS (GOLD ITEMS IN WORLD) -------------

@@ -402,6 +402,8 @@ L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-frien
 L['unsolved_amethyst_runelock'] = 'Unsolved Amethyst Runelock'
 L['bilge_rat_supply_chest'] = 'Bilge Rat Supply Chest'
 
+L['stone_carvers_scamseax_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------

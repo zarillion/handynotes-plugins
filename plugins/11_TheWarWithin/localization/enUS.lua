@@ -402,6 +402,8 @@ L['pris_quest_4'] = 'A Loyal Friend' -- 86485
 L['unsolved_amethyst_runelock'] = 'Unsolved Amethyst Runelock'
 L['bilge_rat_supply_chest'] = 'Bilge Rat Supply Chest'
 
+L['stone_carvers_scamseax_note'] = 'Collect a {object:Radiant Citrine} ({dot:Yellow}) to recieve the {spell:1216785} buff for 2 minutes allowing you to loot the {item:233834}.'
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
