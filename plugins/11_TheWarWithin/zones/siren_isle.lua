@@ -477,6 +477,7 @@ map.nodes[57548578] = RunedStormChest()
 map.nodes[59632015] = RunedStormChest()
 map.nodes[59736908] = RunedStormChest()
 map.nodes[60675264] = RunedStormChest()
+map.nodes[61076286] = RunedStormChest()
 map.nodes[61944401] = RunedStormChest()
 map.nodes[67956202] = RunedStormChest()
 
