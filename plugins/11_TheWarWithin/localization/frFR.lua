@@ -365,7 +365,7 @@ L['pirate_sublabel'] = '{note:Uniquement disponible lorsque des {npc:Pirates} so
 L['storm_required'] = 'Requiert une %s active sur l\'{location:Île aux Sirènes}.'
 L['slaughtershell_location'] = 'Parcourt la totalité de l\'{location:Île aux Sirènes}.'
 
-L['within_the_forgotten_vault'] = nil -- 'À l\'intérieur de {location:La chambre Oubliée}. Utilisez la {object:Tablette chantonnante} dans {location:Le creux Sacré} pour entrer dans le caveau'
+L['within_the_forgotten_vault'] = 'Utilisez la {object:Tablette chantonnante} dans {location:Le creux Sacré} pour entrer dans le caveau.\n\nLa chambre contient des trésors, un jouet, une monture et {npc:231368}.'
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
 L['options_icons_runed_storm_chest_desc'] = 'Afficher les emplacements des {object:Caches de la tempête runiques} pour le haut-fait {achievement:41131}.'
@@ -392,13 +392,13 @@ L['turbulent_fragment_a'] = 'Caché dans un {object:Tas de terre} derrière l\'a
 L['turbulent_fragment_b'] = 'Récupérez le {object:Fragment runique} près du {npc:Kultirassien} fantôme recroquevillé se trouvant dans une grotte au {location:Compostier}.'
 L['turbulent_fragment_c'] = 'Récupérez le {object:Fragment runique} détenu par le {npc:Kultirassien} fantôme à l\'intérieur de la {location:Grotte ravagée par les esprits}.'
 
-L['prismatic_snapdragon_note_start'] = 'Pendant 8 jours, contribuez à sauver le {npc:235216} au {location:Brisants des Débris} pour recevoir le {item:233489}.\n\n{note:Vous pouvez manquer un jour mais il n\'y a pas de système de rattrapage}.'
+L['prismatic_snapdragon_note_start'] = 'Pendant 10 jours, contribuez à sauver le {npc:235216} au {location:Brisants des Débris} pour recevoir le {item:233489}.\n\n{note:Vous pouvez manquer un jour mais il n\'y a pas de système de rattrapage}.'
 L['prismatic_day'] = 'Jour %d'
 
-L['pris_quest_1'] = nil -- https://www.wowhead.com/quest=86482/a-lifeline
-L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
-L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
-L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
+L['pris_quest_1'] = 'Une planche de salut'
+L['pris_quest_2'] = 'Mordre la vie à pleines dents'
+L['pris_quest_3'] = 'Tempête prodigue'
+L['pris_quest_4'] = 'Un ami loyal'
 
 L['unsolved_amethyst_runelock'] = 'Verrou runique en améthyste non résolu'
 L['bilge_rat_supply_chest'] = 'Coffre de fournitures des Soutaillons'
