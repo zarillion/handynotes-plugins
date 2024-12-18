@@ -403,6 +403,7 @@ tfv.nodes[32137944] = VaultTreasure({
 map.nodes[67557351] = Treasure({
     label = L['unsolved_amethyst_runelock'],
     location = L['in_small_cave'],
+    quest = 84839, -- hidden, also 84792 (on solve)
     rewards = {Transmog({item = 229026, type = L['leather']})} -- Earthen Deckhand's Bindings
 }) -- Unsolved Amethyst Runelock
 
