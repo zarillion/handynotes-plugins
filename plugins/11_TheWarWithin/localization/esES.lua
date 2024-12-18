@@ -364,7 +364,7 @@ L['pirate_sublabel'] = '{note:Sólo disponible con {npc:pirates} en la isla.}'
 L['storm_required'] = 'Requiere una tormenta %s activa en la {location:Isla de la Sirena}.'
 L['slaughtershell_location'] = 'Deambula por toda la {location:Isla de la Sirena}.'
 
-L['within_the_forgotten_vault'] = 'Dentro de la {location:Cámara Olvidada}. Usa la {object:Tablilla canto} dentro de la {location:Hondonada Sacra} para entrar en la cámara.'
+L['within_the_forgotten_vault'] = nil -- 'Dentro de la {location:Cámara Olvidada}. Usa la {object:Tablilla canto} dentro de la {location:Hondonada Sacra} para entrar en la cámara.'
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
 L['options_icons_runed_storm_chest_desc'] = 'Muestra dónde estan los {object:Alijo de tormenta con runas} para el logro {achievement:41131}.'

@@ -367,7 +367,7 @@ L['pirate_sublabel'] = '{note:Nur verfügbar, wenn {npc:Piraten} auf der Insel s
 L['storm_required'] = 'Benötigt ein aktives %s auf der {location:Sireneninsel}.'
 L['slaughtershell_location'] = 'Wandert auf der gesamten {location:Sireneninsel} umher.'
 
-L['within_the_forgotten_vault'] = 'In {location:Die Vergessene Kammer}. Benutze das {object:Singing Tablet} in {location:Die Heilige Höhle}, um die Kammer zu betreten.' -- review
+L['within_the_forgotten_vault'] = nil -- 'In {location:Die Vergessene Kammer}. Benutze das {object:Singing Tablet} in {location:Die Heilige Höhle}, um die Kammer zu betreten.' -- review
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
 L['options_icons_runed_storm_chest_desc'] = 'Zeigt die Positionen von {object:Runenverzierte Sturmtruhe} für den Erfolg {achievement:41131} an.'

@@ -7,7 +7,6 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
-local Node = ns.node.Node
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
@@ -36,7 +35,7 @@ local QuestStatus = ns.tooltip.QuestStatus
 -- ------|-------------|-----------|---------------|
 --   1   |     NO      |    YES    |      YES      | Rares, Treasures, Fragments
 -- ------|-------------|-----------|---------------|
---   2   |     YES     |    YES    |      YES      | Thrayir, Eyes of the Siren
+--   2   |     YES     |    YES    |      YES      | Thrayir, Eyes of the Siren, Runed Treasure Cache
 -- ------|-------------|-----------|---------------|
 --   3   |     YES     |    YES    |      NO       | Prismatic Snapdragon
 -- ------|-------------|-----------|---------------|
@@ -77,30 +76,27 @@ local map = StormMap({id = 2369, patch = 110007, settings = true})
 local tfv = StormMap({id = 2375, patch = 110007, settings = false}) -- The Forgotten Vault
 
 -------------------------------------------------------------------------------
---------------------------------- VAULT NODES ---------------------------------
+----------------------------- THE FORGOTTEN VAULT -----------------------------
 -------------------------------------------------------------------------------
 
-local tfv_parent = {
-    id = map.id,
-    pois = {
-        Entrance({45992076}), Path({Circle({origin = 45992076, radius = 2})})
-    }
-}
-
-local VaultRare = Class('VaultRare', Rare, {
-    location = L['within_the_forgotten_vault'],
-    parent = tfv_parent
-}) -- Vault Rare
-
-local VaultTreasure = Class('VaultTreasure', Treasure, {
-    location = L['within_the_forgotten_vault'],
-    parent = tfv_parent
-}) -- Vault Treasure
-
-local VaultCollectible = Class('VaultCollectible', Collectible, {
-    location = L['within_the_forgotten_vault'],
-    parent = tfv_parent
-}) -- Vault Collectible
+map.nodes[45992076] = Collectible({
+    icon = 'peg_yw',
+    scale = 2,
+    label = C_Map.GetMapInfo(tfv.id).name,
+    note = L['within_the_forgotten_vault'],
+    OnClick = function() WorldMapFrame:SetMapID(tfv.id) end,
+    rewards = {
+        Achievement({
+            id = 41046,
+            criteria = {
+                70798, -- Gunnlod the Sea-Drinker
+                70795 -- Shardsong
+            }
+        }), Toy({item = 235017}), -- Glittering Vault Shard
+        Mount({item = 232639, id = 2322}) -- Thrayir, Eyes of the Siren
+    },
+    clabel = L['change_map']
+}) -- The Forgotten Vault
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -207,14 +203,14 @@ map.nodes[46787812] = Rare({
     vignette = 6526
 }) -- Wreckwater
 
-tfv.nodes[66465635] = VaultRare({
+tfv.nodes[66465635] = Rare({
     id = 228159,
     quest = 84797, -- hidden, also 85956 (on kill)
     rewards = {Achievement({id = 41046, criteria = 70798})},
     vignette = 6527
 }) -- Gunnlod the Sea-Drinker
 
-tfv.nodes[28072475] = VaultRare({
+tfv.nodes[28072475] = Rare({
     id = 227550,
     quest = 86779, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70795})},
@@ -307,7 +303,7 @@ map.nodes[33027359] = Rare({
     vignette = 6617
 }) -- Zek'ul the Shipbreaker
 
-tfv.nodes[37967648] = VaultRare({
+tfv.nodes[37967648] = Rare({
     id = 231368,
     quest = 85406, -- hidden
     rewards = {Item({item = 232571})}, -- Whirling Runekey
@@ -360,7 +356,7 @@ map.nodes[40284188] = Treasure({
     rewards = {Transmog({item = 233957, slot = L['offhand']})} -- Kul Tiran Lumberer's Hatchet
 }) -- Kul Tiran Lumberer's Hatchet
 
-tfv.nodes[26502340] = VaultTreasure({
+tfv.nodes[26502340] = Treasure({
     label = '{item:233834}',
     rewards = {Transmog({item = 233834, slot = L['dagger']})} -- Stone Carver's Scramseax
 }) -- Stone Carver's Scramseax
@@ -383,8 +379,9 @@ map.nodes[60726280] = Treasure({
 
 ------------------------------- MISC TREASURES --------------------------------
 
-tfv.nodes[32137944] = VaultTreasure({
+tfv.nodes[32137944] = Collectible({
     label = '{item:235017}',
+    icon = 4631319,
     rewards = {Toy({item = 235017})} -- Glittering Vault Shard
 }) -- Glittering Vault Shard
 
@@ -500,7 +497,7 @@ tfv.nodes[64005061] = RunedStormChest({storm = 2})
 
 ---------------------- MOUNT: THRAYIR, EYES OF THE SIREN ----------------------
 
-local Thrayir = Class('Thrayir', VaultCollectible, {
+local Thrayir = Class('Thrayir', Collectible, {
     icon = 897087,
     label = '{item:232639}',
     rewards = {Mount({item = 232639, id = 2322})}, -- Thrayir, Eyes of the Siren

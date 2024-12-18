@@ -364,7 +364,7 @@ L['pirate_sublabel'] = '{note:仅在岛上有 {npc:海盗} 时可用。}'
 L['storm_required'] = '需要在 {location:海妖岛} 上激活 %s 风暴。' -- %s becomes "(icon) [Seafury Tempest]"
 L['slaughtershell_location'] = '在整个 {location:海妖岛} 游荡。'
 
-L['within_the_forgotten_vault'] = '在 {location:被遗忘的宝库} 内。使用 {location:圣礼窟} 内的 {object:歌唱石板} 进入宝库。'
+L['within_the_forgotten_vault'] = nil -- '在 {location:被遗忘的宝库} 内。使用 {location:圣礼窟} 内的 {object:歌唱石板} 进入宝库。'
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
 L['options_icons_runed_storm_chest_desc'] = '显示 {achievement:41131} 成就中 {object:符文风暴宝箱} 的位置。'

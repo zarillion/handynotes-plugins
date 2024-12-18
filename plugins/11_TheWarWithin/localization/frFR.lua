@@ -365,7 +365,7 @@ L['pirate_sublabel'] = '{note:Uniquement disponible lorsque des {npc:Pirates} so
 L['storm_required'] = 'Requiert une %s active sur l\'{location:Île aux Sirènes}.'
 L['slaughtershell_location'] = 'Parcourt la totalité de l\'{location:Île aux Sirènes}.'
 
-L['within_the_forgotten_vault'] = 'À l\'intérieur de {location:La chambre Oubliée}. Utilisez la {object:Tablette chantonnante} dans {location:Le creux Sacré} pour entrer dans le caveau'
+L['within_the_forgotten_vault'] = nil -- 'À l\'intérieur de {location:La chambre Oubliée}. Utilisez la {object:Tablette chantonnante} dans {location:Le creux Sacré} pour entrer dans le caveau'
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
 L['options_icons_runed_storm_chest_desc'] = 'Afficher les emplacements des {object:Caches de la tempête runiques} pour le haut-fait {achievement:41131}.'

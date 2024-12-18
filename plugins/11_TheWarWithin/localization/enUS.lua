@@ -364,7 +364,7 @@ L['pirate_sublabel'] = '{note:Only available with {npc:pirates} on the island.}'
 L['storm_required'] = 'Requires active %s storm on {location:Siren Isle}.' -- %s becomes "(icon) [Seafury Tempest]"
 L['slaughtershell_location'] = 'Roams around the entire {location:Siren Isle}.'
 
-L['within_the_forgotten_vault'] = 'Within {location:The Forgotten Vault}. Use the {object:Singing Tablet} within {location:The Sacred Hollow} to enter the vault.'
+L['within_the_forgotten_vault'] = 'Use the {object:Singing Tablet} within {location:The Sacred Hollow} to enter the vault.\n\nThe vault contains treasures, a toy, a mount, and {npc:231368}.'
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
 L['options_icons_runed_storm_chest_desc'] = 'Display {object:Runed Storm Cache} locations for {achievement:41131}.'
