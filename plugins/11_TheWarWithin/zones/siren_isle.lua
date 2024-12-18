@@ -123,7 +123,7 @@ map.nodes[57726612] = Rare({
     location = L['in_cave'],
     note = L['the_drain_note'],
     pois = {Entrance({61477357})},
-    quest = nil, -- hidden
+    quest = 85669, -- hidden, also 85937, not 85753 ![The Drain]
     rewards = {Achievement({id = 41046, criteria = 70792})},
     vignette = 6517
 }) -- Gravesludge
