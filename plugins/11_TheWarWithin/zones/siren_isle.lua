@@ -221,7 +221,7 @@ tfv.nodes[28072475] = Rare({
 
 map.nodes[32457405] = Rare({
     id = 227545,
-    quest = nil, -- hidden
+    quest = 84792, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70805})},
     sublabel = L['vykrul_sublabel'],
     vignette = 6525
