@@ -206,14 +206,20 @@ map.nodes[46787812] = Rare({
 tfv.nodes[66465635] = Rare({
     id = 228159,
     quest = 84797, -- hidden, also 85956 (on kill)
-    rewards = {Achievement({id = 41046, criteria = 70798})},
+    rewards = {
+        Achievement({id = 41046, criteria = 70798}), --
+        Toy({item = 235017}) -- Glittering Vault Shard
+    },
     vignette = 6527
 }) -- Gunnlod the Sea-Drinker
 
 tfv.nodes[28072475] = Rare({
     id = 227550,
     quest = 86779, -- hidden
-    rewards = {Achievement({id = 41046, criteria = 70795})},
+    rewards = {
+        Achievement({id = 41046, criteria = 70795}), --
+        Toy({item = 235017}) -- Glittering Vault Shard
+    },
     vignette = 6666
 }) -- Shardsong
 
@@ -306,7 +312,10 @@ map.nodes[33027359] = Rare({
 tfv.nodes[37967648] = Rare({
     id = 231368,
     quest = 85406, -- hidden
-    rewards = {Item({item = 232571})}, -- Whirling Runekey
+    rewards = {
+        Toy({item = 235017}), -- Glittering Vault Shard
+        Item({item = 232571}) -- Whirling Runekey
+    },
     storm = 1,
     vignette = 6619
 }) -- Ksvir the Forgotten
@@ -378,12 +387,6 @@ map.nodes[60726280] = Treasure({
 }) -- Empty Kaja'Cola
 
 ------------------------------- MISC TREASURES --------------------------------
-
-tfv.nodes[32137944] = Collectible({
-    label = '{item:235017}',
-    icon = 4631319,
-    rewards = {Toy({item = 235017})} -- Glittering Vault Shard
-}) -- Glittering Vault Shard
 
 map.nodes[67557351] = Treasure({
     label = L['unsolved_amethyst_runelock'],
