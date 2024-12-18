@@ -432,7 +432,7 @@ L['11_ghostly_celebration_crate'] = 'Au sommet du {location:Siège du Primat} à
 L['water_resistant_receipt_note'] = '1. Entrez dans le tunnel rempli de {npc:47390}, tournez à droite et récupérez le {item:228768} à partir du {object:Récépissé de vente imperméable} derrière le tuyau.\n\n2. Trouvez le {npc:91079} à {location:Azsuna} sur les {location:Îles Brisées}.'
 L['mysterious_bones_note'] = 'Ramassez les {item:228772} cachés derrière {npc:71533} dans la grotte.\n\nUtilisez une mascotte de type canin tel que le {item:136925} ou {item:49912} pour déterrer les os.'
 
-L['crates_found'] = nil
+L['crates_found'] = 'caisses trouvées'
 
 -------------------------------------------------------------------------------
 ------------------------------- RATT'S REVENGE --------------------------------
