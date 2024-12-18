@@ -13,7 +13,7 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local FlightMaster = ns.node.FlightMaster
--- local LoreObject = ns.node.LoreObject
+local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
@@ -706,41 +706,41 @@ map.nodes[71904721] = SkyridingGlyph({
 --------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[37295254] = LoreObject({
---     note = L['in_water'],
---     rewards = {
---         Achievement({id = 40762, criteria = 69369}),
---         Reputation({id = 2590, gain = 250})
---     }
--- }) -- Galan's Edict
+map.nodes[37295254] = LoreObject({
+    note = L['in_water'],
+    rewards = {
+        Achievement({id = 40762, criteria = 69369}),
+        Reputation({id = 2590, gain = 250})
+    }
+}) -- Galan's Edict
 
--- map.nodes[44083014] = LoreObject({
---     rewards = {
---         Achievement({id = 40762, criteria = 69371}),
---         Reputation({id = 2590, gain = 250})
---     }
--- }) -- Stone of The Unbound
+map.nodes[44083014] = LoreObject({
+    rewards = {
+        Achievement({id = 40762, criteria = 69371}),
+        Reputation({id = 2590, gain = 250})
+    }
+}) -- Stone of The Unbound
 
--- map.nodes[78132785] = LoreObject({
---     rewards = {
---         Achievement({id = 40762, criteria = 69370}),
---         Reputation({id = 2590, gain = 250})
---     }
--- }) -- Titan Console
+map.nodes[78132785] = LoreObject({
+    rewards = {
+        Achievement({id = 40762, criteria = 69370}),
+        Reputation({id = 2590, gain = 250})
+    }
+}) -- Titan Console
 
--- map.nodes[57222001] = LoreObject({
---     rewards = {
---         Achievement({id = 40762, criteria = 69372}),
---         Reputation({id = 2590, gain = 250})
---     }
--- }) -- Watcher of the North
+map.nodes[57222001] = LoreObject({
+    rewards = {
+        Achievement({id = 40762, criteria = 69372}),
+        Reputation({id = 2590, gain = 250})
+    }
+}) -- Watcher of the North
 
--- map.nodes[42128025] = LoreObject({
---     rewards = {
---         Achievement({id = 40762, criteria = 69373}),
---         Reputation({id = 2590, gain = 250})
---     }
--- }) -- Watcher of the South
+map.nodes[42128025] = LoreObject({
+    rewards = {
+        Achievement({id = 40762, criteria = 69373}),
+        Reputation({id = 2590, gain = 250})
+    }
+}) -- Watcher of the South
 
 -------------------------------------------------------------------------------
 -------------------------------- DISTURBED DIRT -------------------------------

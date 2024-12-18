@@ -14,7 +14,7 @@ local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
 
 local FlightMaster = ns.node.FlightMaster
--- local LoreObject = ns.node.LoreObject
+local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
@@ -668,41 +668,41 @@ map.nodes[44315026] = GobblinWithGlublurp({
 --------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[39311739] = LoreObject({
---     rewards = {
---         Achievement({id = 40762, criteria = 69374}),
---         Reputation({id = 2594, gain = 250})
---     }
--- }) -- A Skull on a Sign
+map.nodes[39311739] = LoreObject({
+    rewards = {
+        Achievement({id = 40762, criteria = 69374}),
+        Reputation({id = 2594, gain = 250})
+    }
+}) -- A Skull on a Sign
 
--- map.nodes[64945614] = LoreObject({
---     rewards = {
---         Achievement({id = 40762, criteria = 69378}),
---         Reputation({id = 2594, gain = 250})
---     }
--- }) -- Kobold Warning Sign
+map.nodes[64945614] = LoreObject({
+    rewards = {
+        Achievement({id = 40762, criteria = 69378}),
+        Reputation({id = 2594, gain = 250})
+    }
+}) -- Kobold Warning Sign
 
--- map.nodes[51477241] = LoreObject({
---     rewards = {
---         Achievement({id = 40762, criteria = 69376}),
---         Reputation({id = 2594, gain = 250})
---     }
--- }) -- Submerged Sign
+map.nodes[51477241] = LoreObject({
+    rewards = {
+        Achievement({id = 40762, criteria = 69376}),
+        Reputation({id = 2594, gain = 250})
+    }
+}) -- Submerged Sign
 
--- map.nodes[71364240] = LoreObject({
---     rewards = {
---         Achievement({id = 40762, criteria = 69375}),
---         Reputation({id = 2594, gain = 250})
---     }
--- }) -- Warning: Collapsed Tunnel
+map.nodes[71364240] = LoreObject({
+    rewards = {
+        Achievement({id = 40762, criteria = 69375}),
+        Reputation({id = 2594, gain = 250})
+    }
+}) -- Warning: Collapsed Tunnel
 
--- map.nodes[50215826] = LoreObject({
---     note = L['in_small_cave'],
---     rewards = {
---         Achievement({id = 40762, criteria = 69377}),
---         Reputation({id = 2594, gain = 250})
---     }
--- }) -- Wax-Drenched Sign
+map.nodes[50215826] = LoreObject({
+    note = L['in_small_cave'],
+    rewards = {
+        Achievement({id = 40762, criteria = 69377}),
+        Reputation({id = 2594, gain = 250})
+    }
+}) -- Wax-Drenched Sign
 
 -------------------------------------------------------------------------------
 -------------------- ACHIEVEMENT: TO ALL THE SLIMES I LOVE --------------------

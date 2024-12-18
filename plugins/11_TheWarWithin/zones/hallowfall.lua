@@ -13,7 +13,7 @@ local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local FlightMaster = ns.node.FlightMaster
--- local LoreObject = ns.node.LoreObject
+local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
@@ -1050,40 +1050,40 @@ map.nodes[42145371] = MissingLynx({
 --------------------- ACHIEVEMENT: KHAZ ALGAR LORE HUNTER ---------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[62214557] = LoreObject({
---     rewards = {
---         Achievement({id = 40762, criteria = 69383}),
---         Reputation({id = 2570, gain = 250})
---     }
--- }) -- A Scout's Journal
+map.nodes[62214557] = LoreObject({
+    rewards = {
+        Achievement({id = 40762, criteria = 69383}),
+        Reputation({id = 2570, gain = 250})
+    }
+}) -- A Scout's Journal
 
--- map.nodes[71433667] = LoreObject({
---     rewards = {
---         Achievement({id = 40762, criteria = 69382}),
---         Reputation({id = 2570, gain = 250})
---     }
--- }) -- A Tattered Note
+map.nodes[71433667] = LoreObject({
+    rewards = {
+        Achievement({id = 40762, criteria = 69382}),
+        Reputation({id = 2570, gain = 250})
+    }
+}) -- A Tattered Note
 
--- map.nodes[78244041] = LoreObject({
---     rewards = {
---         Achievement({id = 40762, criteria = 69381}),
---         Reputation({id = 2570, gain = 250})
---     }
--- }) -- A Weathered Tome
+map.nodes[78244041] = LoreObject({
+    rewards = {
+        Achievement({id = 40762, criteria = 69381}),
+        Reputation({id = 2570, gain = 250})
+    }
+}) -- A Weathered Tome
 
--- map.nodes[25085371] = LoreObject({
---     rewards = {
---         Achievement({id = 40762, criteria = 69380}),
---         Reputation({id = 2570, gain = 250})
---     }
--- }) -- A Worn Down Book
+map.nodes[25085371] = LoreObject({
+    rewards = {
+        Achievement({id = 40762, criteria = 69380}),
+        Reputation({id = 2570, gain = 250})
+    }
+}) -- A Worn Down Book
 
--- map.nodes[25723845] = LoreObject({
---     rewards = {
---         Achievement({id = 40762, criteria = 69379}),
---         Reputation({id = 2570, gain = 250})
---     }
--- }) -- Captain's Chest
+map.nodes[25723845] = LoreObject({
+    rewards = {
+        Achievement({id = 40762, criteria = 69379}),
+        Reputation({id = 2570, gain = 250})
+    }
+}) -- Captain's Chest
 
 -------------------------------------------------------------------------------
 ------------------------- ACHIEVEMENT: MERELDAR MENACE ------------------------
