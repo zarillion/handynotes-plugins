@@ -373,19 +373,11 @@ L['runed_storm_chest_label'] = 'Alijo de tormenta con runas'
 L['runed_storm_chest_suffix'] = 'alijos abiertos'
 L['runed_storm_chest_note'] = 'Sigue el viento hasta un {object:Alijo de tormenta con runas} escondido y revélalo con {spell:472051}.'
 
-L['mouldy_sea_ledger_label'] = 'Libro del mar mohoso'
-L['mouldy_sea_ledger_location'] = 'En el suelo de la posada {location:Sal y Chabolas} junto a la chimenea.'
-
-L['scholars_of_the_sea_label'] = 'Eruditos del Mar: La Isla de las Sirenas'
-L['scholars_of_the_sea_location'] = 'En el segundo piso de la posada {location:Sal y Chabolas} junto a la ventana.'
-
 L['flame_blessed_iron_item'] = 'Devuelve este objeto para {currency:3090} extra.'
 
 L['barnacle_encrusted_chest'] = 'Cofre con incrustaciones de percebes'
 
 L['soweezi_note'] = 'Cambia {currency:3090} por una montura, juguete, mascota, o transfiguración.'
-
-L['krolusk_burrow_label'] = 'Madriguera de Krolusk'
 
 L['thrayir_note_start'] = 'Consigue 5x llaves de piedra rúnica alrededor de la {location:Isla de la Sirena} y completa el ritual dentro de la {location:Cámara Olvidada} para conseguir {item:232639}:'
 

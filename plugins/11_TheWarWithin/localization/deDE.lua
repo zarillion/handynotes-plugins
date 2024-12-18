@@ -376,19 +376,11 @@ L['runed_storm_chest_label'] = 'Runenverzierte Sturmtruhe'
 L['runed_storm_chest_suffix'] = 'Truhen geöffnet'
 L['runed_storm_chest_note'] = 'Folge dem Wind zu einer versteckten {object:Runenverzierte Sturmtruhe} und offenbare diese mit dem {spell:472051}.'
 
-L['mouldy_sea_ledger_label'] = nil
-L['mouldy_sea_ledger_location'] = nil
-
-L['scholars_of_the_sea_label'] = nil
-L['scholars_of_the_sea_location'] = nil
-
 L['flame_blessed_iron_item'] = 'Bringe diesen Gegenstand für Bonus {currency:3090} zurück.'
 
 L['barnacle_encrusted_chest'] = nil
 
 L['soweezi_note'] = 'Tausche {currency:3090} gegen ein Reittier, ein Haustier, ein Spielzeug oder Ausrüstungsvorlagen ein.'
-
-L['krolusk_burrow_label'] = nil
 
 L['thrayir_note_start'] = 'Sammle 5x Runenschlüssel auf der {location:Sireneninsel} und schließe das Ritual in {location:Die Vergessene Kammer} ab, um das Reittier {item:232639} zu erhalten:'
 

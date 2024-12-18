@@ -365,18 +365,6 @@ tfv.nodes[26502340] = VaultTreasure({
     rewards = {Transmog({item = 233834, slot = L['dagger']})} -- Stone Carver's Scramseax
 }) -- Stone Carver's Scramseax
 
-------------------- MYSTERIOUS BOOKS (NO REWARD / NO QUEST) -------------------
-
-map.nodes[39785249] = Treasure({
-    label = L['mouldy_sea_ledger_label'],
-    location = L['mouldy_sea_ledger_location']
-}) -- Mouldy Sea Ledger
-
-map.nodes[39095103] = Treasure({
-    label = L['scholars_of_the_sea_label'],
-    location = L['scholars_of_the_sea_location']
-}) -- Scholars of the Sea: Siren Isle Synopsis
-
 ------------ FLAME-BLESSED IRON QUEST ITEMS (GOLD ITEMS IN WORLD) -------------
 
 map.nodes[57937837] = Treasure({
@@ -512,23 +500,6 @@ tfv.nodes[64005061] = VaultChest({storm = 1})
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLEANOUS --------------------------------
 -------------------------------------------------------------------------------
-
-local GrapplingHold = Class('GrapplingHold', Node, {
-    label = '{npc:233171}',
-    icon = 'peg_bk',
-    scale = 1.5
-}) -- Grappling Hold
-
-map.nodes[52592426] = GrapplingHold()
-map.nodes[50322016] = GrapplingHold()
-
-map.nodes[55621466] = Node({
-    icon = 'peg_rd',
-    label = L['krolusk_burrow_label'],
-    location = L['in_small_cave'],
-    scale = 1.5,
-    pois = {Entrance({56121287})}
-}) -- Krolusk Burrow
 
 ---------------------- MOUNT: THRAYIR, EYES OF THE SIREN ----------------------
 

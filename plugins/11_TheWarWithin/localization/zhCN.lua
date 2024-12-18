@@ -373,19 +373,11 @@ L['runed_storm_chest_label'] = '符文风暴宝箱'
 L['runed_storm_chest_suffix'] = '宝箱已打开'
 L['runed_storm_chest_note'] = '跟随风找到一个隐藏的 {object:符文风暴宝箱}，并用 {spell:472051} 揭示它。'
 
-L['mouldy_sea_ledger_label'] = '发霉的海上账簿'
-L['mouldy_sea_ledger_location'] = '在 {location:Salt and Shanty} 旅馆的地板上，靠近壁炉。'
-
-L['scholars_of_the_sea_label'] = 'Scholars of the Sea: Siren Isle Synopsis'
-L['scholars_of_the_sea_location'] = '在 {location:Salt and Shanty} 旅馆二楼靠近窗户的位置。'
-
 L['flame_blessed_iron_item'] = '带回此商品可获得奖励 {currency:3090}。'
 
 L['barnacle_encrusted_chest'] = 'Barnacle-Encrusted Chest'
 
 L['soweezi_note'] = '用 {currency:3090} 换取坐骑、玩具、宠物和幻化。'
-
-L['krolusk_burrow_label'] = 'Krolusk Burrow'
 
 L['thrayir_note_start'] = '从 {location:海妖岛} 周围收集5个符石钥匙，并完成 {location:被遗忘的宝库} 内的仪式以获得 {item:232639}：'
 

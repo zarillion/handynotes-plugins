@@ -374,19 +374,11 @@ L['runed_storm_chest_label'] = 'Cache de la tempête runique'
 L['runed_storm_chest_suffix'] = 'caches ouvertes'
 L['runed_storm_chest_note'] = 'Suivez le vent jusqu\'à une {object:Cache de la tempête runique} dissimulée et révélez-la avec l\'{spell:472051}.'
 
-L['mouldy_sea_ledger_label'] = 'Registre maritime moisi'
-L['mouldy_sea_ledger_location'] = 'Sur le sol de l\'auberge {location:Le Bloc de sel}, près de la cheminée.'
-
-L['scholars_of_the_sea_label'] = 'Érudits de la mer : synopsis de l\'île aux Sirènes'
-L['scholars_of_the_sea_location'] = 'Au premier étage de l\'auberge {location:Le Bloc de sel}, près de la fenêtre.'
-
 L['flame_blessed_iron_item'] = 'Rapportez cet objet pour obtenir des {currency:3090} supplémentaires.'
 
 L['barnacle_encrusted_chest'] = 'Coffre incrustré de bigorneaux'
 
 L['soweezi_note'] = 'Échangez vos {currency:3090} contre une monture, un jouet, une mascotte ou des objets de transmogrification.'
-
-L['krolusk_burrow_label'] = 'Terrier de krolusk'
 
 L['thrayir_note_start'] = 'Récupérez 5 clés runiques dispersées sur l\'{location:Île aux Sirènes} et accomplissez le rituel dans {location:La chambre Oubliée} pour recevoir {item:232639} :'
 
