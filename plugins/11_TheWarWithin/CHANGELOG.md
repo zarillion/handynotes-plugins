@@ -1,3 +1,19 @@
+# v111
+
+* 11.0.7 Siren Isle
+  * Add missing quests for several rares
+  * Add missing quests for several treasures
+  * Add additional Runed Storm Cache locations
+  * Update Glittering Vault Shard toy
+  * Update Prismatic Snapdragon mount
+  * Update Thrayir, Eyes of the Siren mount
+  * Update The Forgotten Vault nodes 
+  * Remove unnecessary treasurse
+* Restore the achievement [Khaz Algar Lore Hunter](https://www.wowhead.com/achievement=40762)
+* Adjust Worldsoul Memory location
+* Update Celebration Crate tracking for the Guest Relations secret
+* Localization updates: deDE, frFR
+
 # v110
 
 * 11.0.7 Siren Isle
