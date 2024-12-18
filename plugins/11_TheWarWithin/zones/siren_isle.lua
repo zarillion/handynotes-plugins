@@ -209,7 +209,7 @@ map.nodes[46787812] = Rare({
 
 tfv.nodes[66465635] = VaultRare({
     id = 228159,
-    quest = 84797, -- hidden
+    quest = 84797, -- hidden, also 85956 (on kill)
     rewards = {Achievement({id = 41046, criteria = 70798})},
     vignette = 6527
 }) -- Gunnlod the Sea-Drinker
