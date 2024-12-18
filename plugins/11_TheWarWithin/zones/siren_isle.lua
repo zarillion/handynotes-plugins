@@ -362,6 +362,7 @@ map.nodes[36925304] = Treasure({
 
 map.nodes[40284188] = Treasure({
     label = '{item:233957}',
+    quest = 86764, -- hidden
     rewards = {Transmog({item = 233957, slot = L['offhand']})} -- Kul Tiran Lumberer's Hatchet
 }) -- Kul Tiran Lumberer's Hatchet
 
