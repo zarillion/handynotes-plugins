@@ -438,7 +438,7 @@ function ThunderousFragmentItem:IsObtained()
 end
 
 local RunedStormChest = Class('RunedStormChest', Collectible, {
-    icon = 'chest_yw',
+    icon = 'chest_rd',
     group = ns.groups.RUNED_STORM_CHEST,
     scale = 1.3,
     label = L['runed_storm_chest_label'],
@@ -460,8 +460,10 @@ map.nodes[37327537] = RunedStormChest()
 map.nodes[39094415] = RunedStormChest()
 map.nodes[42131643] = RunedStormChest()
 map.nodes[49201734] = RunedStormChest()
+map.nodes[49667597] = RunedStormChest()
 map.nodes[51906550] = RunedStormChest()
 map.nodes[52887066] = RunedStormChest()
+map.nodes[57548578] = RunedStormChest()
 map.nodes[59632015] = RunedStormChest()
 map.nodes[59736908] = RunedStormChest()
 map.nodes[60675264] = RunedStormChest()
@@ -487,15 +489,10 @@ map.nodes[45096265] = RunedStormChest({storm = 1})
 map.nodes[49297262] = RunedStormChest({storm = 1})
 map.nodes[63708514] = RunedStormChest({storm = 1})
 
-local VaultChest = Class('VaultChest', RunedStormChest, {
-    location = L['within_the_forgotten_vault'],
-    parent = tfv_parent
-})
-
-tfv.nodes[29207358] = VaultChest({storm = 1})
-tfv.nodes[44406609] = VaultChest({storm = 1})
-tfv.nodes[31792774] = VaultChest({storm = 1})
-tfv.nodes[64005061] = VaultChest({storm = 1})
+tfv.nodes[29207358] = RunedStormChest({storm = 2})
+tfv.nodes[31792774] = RunedStormChest({storm = 2})
+tfv.nodes[44406609] = RunedStormChest({storm = 2})
+tfv.nodes[64005061] = RunedStormChest({storm = 2})
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLEANOUS --------------------------------
