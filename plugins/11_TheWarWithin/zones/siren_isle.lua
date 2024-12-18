@@ -133,7 +133,7 @@ map.nodes[37115497] = Rare({
     location = L['in_cave'],
     note = L['shuddering_hollow_note'],
     pois = {Entrance({42785666})},
-    quest = nil, -- hidden
+    quest = 85437, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70793})},
     vignette = 6610
 }) -- Stalagnarok
