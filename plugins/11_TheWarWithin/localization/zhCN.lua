@@ -364,7 +364,7 @@ L['pirate_sublabel'] = '{note:仅在岛上有 {npc:海盗} 时可用。}'
 L['storm_required'] = '需要在 {location:海妖岛} 上激活 %s 风暴。' -- %s becomes "(icon) [Seafury Tempest]"
 L['slaughtershell_location'] = '在整个 {location:海妖岛} 游荡。'
 
-L['within_the_forgotten_vault'] = nil -- '在 {location:被遗忘的宝库} 内。使用 {location:圣礼窟} 内的 {object:歌唱石板} 进入宝库。'
+L['within_the_forgotten_vault'] = '使用 {location:圣礼窟} 内的 {object:歌唱石板} 进入宝库。\n\n宝库包含宝藏、玩具、坐骑以及 {npc:231368}。'
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
 L['options_icons_runed_storm_chest_desc'] = '显示 {achievement:41131} 成就中 {object:符文风暴宝箱} 的位置。'
@@ -382,8 +382,8 @@ L['soweezi_note'] = '用 {currency:3090} 换取坐骑、玩具、宠物和幻化
 L['thrayir_note_start'] = '从 {location:海妖岛} 周围收集5个符石钥匙，并完成 {location:被遗忘的宝库} 内的仪式以获得 {item:232639}：'
 
 L['whirling_runekey_note'] = '风暴期间 {location:被遗忘的宝库} 的 {npc:231368} 掉落。'
-L['torrential_runekey_note'] = '风暴期间 {location:海妖岛} 上的任何怪物（普通、精英或稀有）掉落。'
-L['thunderous_runekey_note'] = '需要在 {location:海妖岛} 上的 {note:任意} 箱子中找到5个 {item:232605}。{note:不需要风暴}。'
+L['torrential_runekey_note'] = '需要7个 {item:234328}，在 {spell:458069} 期间从 {location:海妖岛} 上的 {note:任意} 怪物（普通、精英、或稀有）掉落。'
+L['thunderous_runekey_note'] = '需要5个 {item:232605}，在 {location:海妖岛} 上的 {note:任意} 箱子中找到。{note:不需要 {spell:458069}}。'
 L['cyclonic_runekey_note'] = '风暴期间 {location:海妖岛} 的 {location:亡鳍沼地} 中的 {npc:231357} 掉落。'
 L['turbulent_runekey_note'] = '需要在风暴期间 {location:海妖岛} 周围发现3个 {item:234327}。'
 
@@ -391,7 +391,7 @@ L['turbulent_fragment_a'] = '废弃旅馆后面，挖掘花园。'
 L['turbulent_fragment_b'] = '位于 {location:腐烂坑洞} 的一个洞穴内。'
 L['turbulent_fragment_c'] = '在 {location:魂裂洞穴} 内。'
 
-L['prismatic_snapdragon_note_start'] = '在8天的时间里，帮助拯救 {location:漂流浅滩} 中的 {npc:235216} 以获得 {item:233489}。\n\n{note:可以错过，但没有追赶机制}。'
+L['prismatic_snapdragon_note_start'] = '在10天的时间里，帮助拯救 {location:漂流浅滩} 中的 {npc:235216} 以获得 {item:233489}。\n\n{note:可以错过，但没有追赶机制}。'
 L['prismatic_day'] = '第%d天' -- "Day 1" or "Day 4" or "Day 7"
 
 L['pris_quest_1'] = nil -- https://www.wowhead.com/quest=86482/a-lifeline
@@ -402,7 +402,7 @@ L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-frien
 L['unsolved_amethyst_runelock'] = '未破解的紫晶符文锁'
 L['bilge_rat_supply_chest'] = '水鼠帮补给箱'
 
-L['stone_carvers_scamseax_note'] = nil
+L['stone_carvers_scamseax_note'] = '收集 {object:Radiant Citrine}（{dot:Yellow}）以获得 {spell:1216785} 增益，持续2分钟，可以拾取 {item:233834}。'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
@@ -431,7 +431,7 @@ L['11_ghostly_celebration_crate'] = '位于 {location:兵主之座} 顶部传送
 L['water_resistant_receipt_note'] = '1. 进入充满 {npc:47390} 的隧道，右转从管道后面的 {object:防水的销售收据} 中收集 {item:228768}。\n\n2. 在 {location:破碎群岛} 的 {location:阿苏纳} 找到 {npc:91079}。'
 L['mysterious_bones_note'] = '收集洞穴中隐藏在 {npc:71533} 后面的 {item:228772}。\n\n使用狗类战斗宠物（例如 {item:136925} 或 {item:49912}）挖出骨头。'
 
-L['crates_found'] = nil
+L['crates_found'] = '已找到箱子'
 
 -------------------------------------------------------------------------------
 ------------------------------- RATT'S REVENGE --------------------------------
