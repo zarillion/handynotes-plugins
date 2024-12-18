@@ -382,8 +382,8 @@ L['soweezi_note'] = 'Exchange {currency:3090} for a mount, toy, pet, or transmog
 L['thrayir_note_start'] = 'Collect 5x runestone keys from around the {location:Siren Isle} and complete the ritual within {location:The Forgotten Vault} to recieve {item:232639}:'
 
 L['whirling_runekey_note'] = 'Drops from the {npc:231368} in the {location:The Forgotten Vault} during a storm.'
-L['torrential_runekey_note'] = 'Drops from any mob (normal, elite, or rare) on {location:Siren Isle} during a storm.'
-L['thunderous_runekey_note'] = 'Requires 5x {item:232605} found with {note:any} chest on the {location:Siren Isle}. {note:Does not require a storm}.'
+L['torrential_runekey_note'] = 'Requires 7x {item:234328} dropped from {note:any} mob (normal, elite, or rare) on {location:Siren Isle} during {spell:458069}.'
+L['thunderous_runekey_note'] = 'Requires 5x {item:232605} found with {note:any} chest on the {location:Siren Isle}. {note:Does not require a {spell:458069}}.'
 L['cyclonic_runekey_note'] = 'Drops from {npc:231357} in the {location:Deadfin Mire} on {location:Siren Isle} during a storm.'
 L['turbulent_runekey_note'] = 'Requires 3x {item:234327} found scattered around {location:Siren Isle} during a storm.'
 
