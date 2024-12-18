@@ -223,7 +223,7 @@ map.nodes[32457405] = Rare({
     id = 227545,
     quest = 84792, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70805})},
-    sublabel = L['vykrul_sublabel'],
+    sublabel = L['vrykul_sublabel'],
     vignette = 6525
 }) -- Ikir the Flotsurge
 
@@ -231,7 +231,7 @@ map.nodes[63948729] = Rare({
     id = 230137,
     quest = 84805, -- hidden, also 84840 (on kill)
     rewards = {Achievement({id = 41046, criteria = 70806})},
-    sublabel = L['vykrul_sublabel'],
+    sublabel = L['vrykul_sublabel'],
     vignette = 6590
 }) -- Asbjorn the Bloodsoaked
 

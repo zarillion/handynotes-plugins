@@ -360,7 +360,7 @@ L['the_drowned_lair_note'] = 'Steuere {currency:3090} dem {location:Der Versunke
 L['the_drain_note'] = 'Steuere {currency:3090} dem {location:Der Abfluss} an der {object:Sireneninsel-Befehlskarte} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.' -- review
 L['shuddering_hollow_note'] = 'Steuere {currency:3090} der {location:Schauderhöhle} an der {object:Sireneninsel-Befehlskarte} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.' -- review
 
-L['vykrul_sublabel'] = '{note:Nur verfügbar, wenn {npc:Bloodwake Vykrul} auf der Insel sind.}' -- review
+L['vrykul_sublabel'] = '{note:Nur verfügbar, wenn {npc:Bloodwake Vykrul} auf der Insel sind.}' -- review
 L['naga_sublabel'] = '{note:Nur verfügbar, wenn {npc:Naga} auf der Insel sind.}' -- review
 L['pirate_sublabel'] = '{note:Nur verfügbar, wenn {npc:Piraten} auf der Insel sind.}' -- review
 

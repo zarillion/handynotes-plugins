@@ -357,7 +357,7 @@ L['the_drowned_lair_note'] = 'Contribute {currency:3090} to {location:The Drowne
 L['the_drain_note'] = 'Contribute {currency:3090} to {location:The Drain} at the {object:Siren Isle Command Map} to open this cave and spawn the rare.'
 L['shuddering_hollow_note'] = 'Contribute {currency:3090} to {location:Shuddering Hollow} at the {object:Siren Isle Command Map} to open this cave and spawn the rare.'
 
-L['vykrul_sublabel'] = '{note:Only available with {npc:Bloodwake Vykrul} on the island.}'
+L['vrykul_sublabel'] = '{note:Only available with {npc:Bloodwake Vykrul} on the island.}'
 L['naga_sublabel'] = '{note:Only available with {npc:Naga} on the island.}'
 L['pirate_sublabel'] = '{note:Only available with {npc:pirates} on the island.}'
 

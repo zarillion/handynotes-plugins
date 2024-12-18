@@ -358,7 +358,7 @@ L['the_drowned_lair_note'] = 'Contribuez à l\'événement {location:L\'antre En
 L['the_drain_note'] = 'Contribuez à l\'événement {location:La Vidange} sur la {object:Carte de commandement de l\'île aux Sirènes} grâce à vos {currency:3090} pour ouvrir cette grotte et faire apparaître le rare.'
 L['shuddering_hollow_note'] = 'Contribuez à l\'événement {location:Creux Frissonnant} sur la {object:Carte de commandement de l\'île aux Sirènes} grâce à vos {currency:3090} pour ouvrir cette grotte et faire apparaître le rare.'
 
-L['vykrul_sublabel'] = '{note:Uniquement disponible lorsque des {npc:Vrykuls sillage-de-sang} sont présents sur l\'île.}'
+L['vrykul_sublabel'] = '{note:Uniquement disponible lorsque des {npc:Vrykuls sillage-de-sang} sont présents sur l\'île.}'
 L['naga_sublabel'] = '{note:Uniquement disponible lorsque des {npc:Nagas} sont présents sur l\'île.}'
 L['pirate_sublabel'] = '{note:Uniquement disponible lorsque des {npc:Pirates} sont présents sur l\'île.}'
 
