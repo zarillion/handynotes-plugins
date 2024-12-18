@@ -113,7 +113,7 @@ map.nodes[26206546] = Rare({
     location = L['in_cave'],
     note = L['the_drowned_lair_note'],
     pois = {Entrance({31756503})},
-    quest = nil, -- hidden
+    quest = 85672, -- hidden, also 84874 also 85938, not 85760 ![The Drowned Lair]
     rewards = {Achievement({id = 41046, criteria = 70791})},
     vignette = 6754
 }) -- Nerathor
