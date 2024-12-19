@@ -644,7 +644,7 @@ map.nodes[39305424] = Collectible({
     icon = 4048816,
     label = '{item:233027}',
     note = L['marmaduke_note'],
-    quest = 866240, -- hidden
+    quest = 86240, -- hidden
     requires = ns.requirement.Quest(85573), -- ![Laid to Rest at Last]
     rewards = {Item({item = 233027, bag = true})} -- Well Loved Squeaky Toy
 }) -- Well Loved Squeaky Toy
@@ -654,7 +654,7 @@ map.nodes[52834591] = Collectible({
     icon = 5279603,
     label = '{npc:234365}',
     note = L['marmaduke_note'],
-    quest = 866240, -- hidden
+    quest = 86240, -- hidden
     requires = ns.requirement.Quest(85573) -- ![Laid to Rest at Last]
 }) -- Marmaduke (Item Turn In)
 
