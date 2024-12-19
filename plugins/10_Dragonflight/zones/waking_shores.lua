@@ -2550,6 +2550,7 @@ map.nodes[37104453] = TameMagmammoth() -- Smoldering Perch
 local wishwing = Class('wishwing', Collectible, {
     label = '{item:193373}',
     icon = 4007139,
+    quest = 72804,
     rewards = {
         Pet({item = 193373, id = 3292}) -- Phoenix Wishwing
     },
