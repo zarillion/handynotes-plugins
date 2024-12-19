@@ -394,7 +394,7 @@ L['turbulent_fragment_c'] = '在 {location:魂裂洞穴} 内。'
 L['prismatic_snapdragon_note_start'] = '在10天的时间里，帮助拯救 {location:漂流浅滩} 中的 {npc:235216} 以获得 {item:233489}。\n\n{note:可以错过，但没有追赶机制}。'
 L['prismatic_day'] = '第%d天' -- "Day 1" or "Day 4" or "Day 7"
 
-L['pris_quest_1'] = nil -- https://www.wowhead.com/quest=86482/a-lifeline
+L['pris_quest_1'] = '生命线' -- 86482
 L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
 L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
 L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
@@ -404,7 +404,7 @@ L['bilge_rat_supply_chest'] = '水鼠帮补给箱'
 
 L['stone_carvers_scamseax_note'] = '收集 {object:光耀黄水晶}（{dot:Yellow}）以获得 {spell:1216785} 增益，持续2分钟，可以拾取 {item:233834}。'
 
-L['marmaduke_note'] = nil
+L['marmaduke_note'] = '1. 从 {location:海歌船屋} 旅馆顶层收集 {item:233027} 并将其带给 {npc:234365}。\n\n{note:{npc:234365} 在悬崖和 {location:漂流浅滩} 之间巡逻。}\n\n2. 将玩具交给他后，返回 {location:漂流浅滩} 并完成 {quest:86261} 得到 {item:233056}。'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
