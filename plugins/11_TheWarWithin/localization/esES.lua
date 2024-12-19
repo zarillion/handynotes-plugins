@@ -364,7 +364,7 @@ L['pirate_sublabel'] = '{note:Sólo disponible con {npc:pirates} en la isla.}'
 L['storm_required'] = 'Requiere una tormenta %s activa en la {location:Isla de la Sirena}.'
 L['slaughtershell_location'] = 'Deambula por toda la {location:Isla de la Sirena}.'
 
-L['within_the_forgotten_vault'] = nil -- 'Dentro de la {location:Cámara Olvidada}. Usa la {object:Tablilla canto} dentro de la {location:Hondonada Sacra} para entrar en la cámara.'
+L['within_the_forgotten_vault'] = 'Usa la {object:Tablilla canto} dentro de la {location:Hondonada Sacra} para entrar en la cámara.\n\nLa cámara contiene tesoros, un juguete, una montura y a {npc:231368}.'
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
 L['options_icons_runed_storm_chest_desc'] = 'Muestra dónde estan los {object:Alijo de tormenta con runas} para el logro {achievement:41131}.'
@@ -384,7 +384,7 @@ L['thrayir_note_start'] = 'Consigue 5x llaves de piedra rúnica alrededor de la 
 L['whirling_runekey_note'] = 'Botín de {npc:231368} en la {location:Cámara Olvidada} durante una tormenta.'
 L['torrential_runekey_note'] = 'Requiere 7x {item:234328} que deja caer cualquier enemigo (normal, élite, o raro) en la {location:Isla de la Sirena} durante una {spell:458069}.'
 L['thunderous_runekey_note'] = 'Requiere 5x {item:232605} encontrados en {note:cualquier} cofre de la {location:Isla de la Sirena}. {note:No requiere una {spell:458069}}.'
-L['cyclonic_runekey_note'] = 'Botín de {npc:231357} en el {location:Fangal Aletamuerte} de la {location:Isla de la Sirena} durante una tormenta.'
+L['cyclonic_runekey_note'] = 'Botín de {npc:231357} en el {location:Fangal Aletamuerte} de la {location:Isla de la Sirena} durante una tormenta. O consíguela pescando cerca.'
 L['turbulent_runekey_note'] = 'Requiere 3x {item:234327} encontrados dispersos a lo largo de la {location:Isla de la Sirena} durante una tormenta.'
 
 L['turbulent_fragment_a'] = 'Escondido en un {object:Montón de tierra} detrás de la posada {location:Sal y Chabolas}, junto al fantasma {npc:Kul Tiran} cavando.'
@@ -404,7 +404,7 @@ L['bilge_rat_supply_chest'] = 'Cofre de suministros de las Ratas de Pantoque'
 
 L['stone_carvers_scamseax_note'] = 'Recoge un {object:Citrino radiante} ({dot:Yellow}) para recibir el buff {spell:1216785} durante 2 minutos que permitirá despojar {item:233834}.'
 
-L['marmaduke_note'] = nil
+L['marmaduke_note'] = '1. Recoge el {item:233027} del último piso de la posada {location:Sal y Chabolas} y llévalo a {npc:234365}.\n\n{note:{npc:234365} se pasea entre el acantilado y la {location:Marisma de Derrelicto}.}\n\n2. Tras darle el juguete, vuelve a la {location:Marisma de Derrelicto} y completa la misión {quest:86261} para conseguir {item:233056}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
