@@ -404,7 +404,7 @@ L['bilge_rat_supply_chest'] = '水鼠帮补给箱'
 
 L['stone_carvers_scamseax_note'] = '收集 {object:光耀黄水晶}（{dot:Yellow}）以获得 {spell:1216785} 增益，持续2分钟，可以拾取 {item:233834}。'
 
-L['marmaduke_note'] = '1. 从 {location:海歌船屋} 旅馆顶层收集 {item:233027} 并将其带给 {npc:234365}。\n\n{note:{npc:234365} 在悬崖和 {location:漂流浅滩} 之间巡逻。}\n\n2. 将玩具交给他后，返回 {location:漂流浅滩} 并完成 {quest:86261} 得到 {item:233056}。'
+L['marmaduke_note'] = '1. 从 {location:海歌船屋} 旅馆顶层收集 {item:233027} 并将其带给 {npc:234365}。\n\n{note:{npc:234365} 在悬崖和 {location:漂流浅滩} 之间巡逻。}\n\n2. 将玩具交给它后，返回 {location:漂流浅滩} 并完成 {quest:86261} 得到 {item:233056}。'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
