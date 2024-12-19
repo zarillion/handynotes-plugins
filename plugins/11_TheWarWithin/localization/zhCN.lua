@@ -384,12 +384,12 @@ L['thrayir_note_start'] = '从 {location:海妖岛} 周围收集5个符石钥匙
 L['whirling_runekey_note'] = '风暴期间 {location:被遗忘的宝库} 的 {npc:231368} 掉落。'
 L['torrential_runekey_note'] = '需要7个 {item:234328}，在 {spell:458069} 期间从 {location:海妖岛} 上的 {note:任意} 怪物（普通、精英、或稀有）掉落。'
 L['thunderous_runekey_note'] = '需要5个 {item:232605}，在 {location:海妖岛} 上的 {note:任意} 箱子中找到。{note:不需要 {spell:458069}}。'
-L['cyclonic_runekey_note'] = '风暴期间 {location:海妖岛} 的 {location:亡鳍沼地} 中的 {npc:231357} 掉落。'
+L['cyclonic_runekey_note'] = '风暴期间 {location:海妖岛} 的 {location:亡鳍沼地} 中的 {npc:231357} 掉落。或者从周围钓鱼获得。'
 L['turbulent_runekey_note'] = '需要在风暴期间 {location:海妖岛} 周围发现3个 {item:234327}。'
 
-L['turbulent_fragment_a'] = '废弃旅馆后面，挖掘花园。'
-L['turbulent_fragment_b'] = '位于 {location:腐烂坑洞} 的一个洞穴内。'
-L['turbulent_fragment_c'] = '在 {location:魂裂洞穴} 内。'
+L['turbulent_fragment_a'] = '隐藏在 {location:海歌船屋} 旅馆后面 {npc:库尔提拉斯人} 幽灵挖掘 {object:泥土堆} 附近。'
+L['turbulent_fragment_b'] = '在 {location:腐烂坑洞} 的洞穴中，拾取畏缩的 {npc:库尔提拉斯人} 幽灵前的 {npc:234934}。'
+L['turbulent_fragment_c'] = '拾取 {location:魂裂洞穴} 内的 {npc:库尔提拉斯人} 幽灵所持有的 {npc:234934}。'
 
 L['prismatic_snapdragon_note_start'] = '在10天的时间里，帮助拯救 {location:漂流浅滩} 中的 {npc:235216} 以获得 {item:233489}。\n\n{note:可以错过，但没有追赶机制}。'
 L['prismatic_day'] = '第%d天' -- "Day 1" or "Day 4" or "Day 7"
