@@ -404,6 +404,8 @@ L['bilge_rat_supply_chest'] = 'Bilge Rat Supply Chest'
 
 L['stone_carvers_scamseax_note'] = 'Collect a {object:Radiant Citrine} ({dot:Yellow}) to recieve the {spell:1216785} buff for 2 minutes allowing you to loot the {item:233834}.'
 
+L['marmaduke_note'] = '1. Collect the {item:233027} from the top floor of the {location:Salt and Shanty} inn and bring it to {npc:234365}.\n\n{note:{npc:234365} patrols between the cliff and the {location:Flotsam Shoal}.}\n\n2. After giving him the toy, head back to {location:Flotsam Shoal} and complete {quest:86261} to receive {item:233056}.'
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------

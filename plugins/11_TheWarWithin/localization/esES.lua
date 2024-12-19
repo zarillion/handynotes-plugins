@@ -404,6 +404,8 @@ L['bilge_rat_supply_chest'] = 'Cofre de suministros de las Ratas de Pantoque'
 
 L['stone_carvers_scamseax_note'] = 'Recoge un {object:Citrino radiante} ({dot:Yellow}) para recibir el buff {spell:1216785} durante 2 minutos que permitirá despojar {item:233834}.'
 
+L['marmaduke_note'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------

@@ -636,3 +636,38 @@ function PristmaticSnapdragon.getters:note()
 end
 
 map.nodes[71004862] = PristmaticSnapdragon()
+
+------------------------------- PET: MARMADUKE --------------------------------
+
+map.nodes[39305424] = Collectible({
+    fgroup = 'marmaduke',
+    icon = 4048816,
+    label = '{item:233027}',
+    note = L['marmaduke_note'],
+    quest = 866240, -- hidden
+    requires = ns.requirement.Quest(85573), -- ![Laid to Rest at Last]
+    rewards = {Item({item = 233027, bag = true})} -- Well Loved Squeaky Toy
+}) -- Well Loved Squeaky Toy
+
+map.nodes[52834591] = Collectible({
+    fgroup = 'marmaduke',
+    icon = 5279603,
+    label = '{npc:234365}',
+    note = L['marmaduke_note'],
+    quest = 866240, -- hidden
+    requires = ns.requirement.Quest(85573) -- ![Laid to Rest at Last]
+}) -- Marmaduke (Item Turn In)
+
+map.nodes[68324496] = Collectible({
+    fgroup = 'marmaduke',
+    icon = 5279603,
+    label = '{npc:234365}',
+    note = L['marmaduke_note'],
+    quest = 86261, -- ![Homeward Bound to Safer Shores]
+    requires = ns.requirement.Quest(85573), -- ![Laid to Rest at Last]
+    rewards = {Pet({item = 233056, id = 4708})}, -- Marmaduke
+    pois = {
+        Path({Circle({origin = 39305424, radius = 2})}), -- Well Loved Squeaky Toy
+        Path({Circle({origin = 52834591, radius = 2})}) -- Marmaduke (Item Turn In)
+    }
+}) -- Marmaduke (Quest Turn In)

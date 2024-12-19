@@ -1,6 +1,7 @@
 # v111
 
 * 11.0.7 Siren Isle
+  * Add Marmaduke pet
   * Add missing quests for several rares
   * Add missing quests for several treasures
   * Add additional Runed Storm Cache locations
