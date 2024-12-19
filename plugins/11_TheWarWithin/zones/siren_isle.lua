@@ -253,7 +253,7 @@ map.nodes[36147261] = Rare({
 
 map.nodes[61758953] = Rare({
     id = 229852,
-    quest = nil, -- hidden
+    quest = 84802, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70801})},
     sublabel = L['naga_sublabel'],
     vignette = 6581
@@ -534,11 +534,11 @@ function Thrayir.getters:note()
     end
 
     local runekeys = {
-        [232569] = {note = L['cyclonic_runekey_note'], quest = nil},
+        [232569] = {note = L['cyclonic_runekey_note'], quest = 85800},
         [232570] = {note = L['turbulent_runekey_note'], quest = 85799},
         [232571] = {note = L['whirling_runekey_note'], quest = 85802},
-        [232572] = {note = L['torrential_runekey_note'], quest = nil},
-        [232573] = {note = L['thunderous_runekey_note'], quest = nil}
+        [232572] = {note = L['torrential_runekey_note'], quest = 85801},
+        [232573] = {note = L['thunderous_runekey_note'], quest = 85803}
     }
 
     local note = L['thrayir_note_start']
