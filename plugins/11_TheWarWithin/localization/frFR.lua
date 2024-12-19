@@ -385,7 +385,7 @@ L['thrayir_note_start'] = 'Récupérez 5 clés runiques dispersées sur l\'{loca
 L['whirling_runekey_note'] = 'Lâchée par {npc:231368} dans {location:La chambre Oubliée} lors d\'une tempête.'
 L['torrential_runekey_note'] = 'Nécessite 7x {item:234328} lâchés par {note:n\'importe quel} monstre (normal, élite ou rare) sur l\'{location:Île aux Sirènes} lors d\'une {spell:458069}.'
 L['thunderous_runekey_note'] = 'Nécessite 5x {item:232605} trouvés dans {note:n\'importe quel} coffre sur l\'{location:Île aux Sirènes}. {note:Ne nécessite pas de {spell:458069}}.'
-L['cyclonic_runekey_note'] = 'Lâchée par {npc:231357} dans le {location:Bourbier Nageffroi} sur l\'{location:Île aux Sirènes} lors d\'une tempête.'
+L['cyclonic_runekey_note'] = 'Lâchée par {npc:231357} dans le {location:Bourbier Nageffroi} sur l\'{location:Île aux Sirènes} lors d\'une tempête. Vous pouvez également l\'obtenir en pêchant à proximité.'
 L['turbulent_runekey_note'] = 'Nécessite 3x {item:234327} dispersés sur l\'{location:Île aux Sirènes} lors d\'une tempête.'
 
 L['turbulent_fragment_a'] = 'Caché dans un {object:Tas de terre} derrière l\'auberge {location:Le Bloc de sel} près du {npc:Kultirassien} fantôme en train de creuser.'
