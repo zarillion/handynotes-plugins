@@ -358,7 +358,7 @@ L['the_drain_note'] = '向 {object:海妖岛指挥图} 上的 {location:排水�
 L['shuddering_hollow_note'] = '向 {object:海妖岛指挥图} 上的 {location:战栗窟} 捐献 {currency:3090} 来打开这个洞穴并将出现稀有物品。'
 
 L['vrykul_sublabel'] = '{note:仅在岛上有 {npc:赤潮维库人} 时可用。}'
-L['naga_sublabel'] = '{note:仅在岛上有 {npc:娜迦} 时可用。'
+L['naga_sublabel'] = '{note:仅在岛上有 {npc:娜迦} 时可用。}'
 L['pirate_sublabel'] = '{note:仅在岛上有 {npc:海盗} 时可用。}'
 
 L['storm_required'] = '需要在 {location:海妖岛} 上激活 %s 风暴。' -- %s becomes "(icon) [Seafury Tempest]"
