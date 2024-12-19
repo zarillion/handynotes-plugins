@@ -406,7 +406,7 @@ map.nodes[74035329] = Treasure({
     label = L['barnacle_encrusted_chest'],
     location = L['in_water'],
     quest = 86765, -- hidden
-    rewards = {Transmog({item = 233910, slot = L['head']})} -- Salt-Stained Sweatcap
+    rewards = {Transmog({item = 233910})} -- Salt-Stained Sweatcap
 }) -- Barnacle-Encrusted Chest
 
 map.nodes[62449084] = Treasure({
