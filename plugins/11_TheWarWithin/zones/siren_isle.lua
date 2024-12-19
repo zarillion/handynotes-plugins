@@ -80,6 +80,7 @@ local tfv = StormMap({id = 2375, patch = 110007, settings = false}) -- The Forgo
 -------------------------------------------------------------------------------
 
 map.nodes[45992076] = Collectible({
+    clabel = L['change_map'],
     icon = 'peg_yw',
     scale = 2,
     label = C_Map.GetMapInfo(tfv.id).name,
@@ -95,7 +96,7 @@ map.nodes[45992076] = Collectible({
         }), Toy({item = 235017}), -- Glittering Vault Shard
         Mount({item = 232639, id = 2322}) -- Thrayir, Eyes of the Siren
     },
-    clabel = L['change_map']
+    storm = 3
 }) -- The Forgotten Vault
 
 -------------------------------------------------------------------------------
