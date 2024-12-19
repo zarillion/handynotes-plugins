@@ -375,7 +375,7 @@ L['runed_storm_chest_note'] = '跟随风找到一个隐藏的 {object:符文风�
 
 L['flame_blessed_iron_item'] = '带回此商品可获得奖励 {currency:3090}。'
 
-L['barnacle_encrusted_chest'] = 'Barnacle-Encrusted Chest'
+L['barnacle_encrusted_chest'] = '长满藤壶的宝箱'
 
 L['soweezi_note'] = '用 {currency:3090} 换取坐骑、玩具、宠物和幻化。'
 
