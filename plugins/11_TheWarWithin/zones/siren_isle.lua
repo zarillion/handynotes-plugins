@@ -560,7 +560,7 @@ function TurbulentFragmentItem:GetStatus()
     return count >= 3 and Green(count .. '/3') or Red(count .. '/3')
 end
 
-local TurbulentFragment = Class('TurbulentFragment', Collectible, {
+local TurbulentFragment = Class('TurbulentFragment', ns.node.Node, {
     icon = 1385913,
     label = '{item:234327}',
     storm = 1,
