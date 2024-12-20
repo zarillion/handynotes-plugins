@@ -375,7 +375,7 @@ L['runed_storm_chest_note'] = '跟著風來找到隱藏的 {object:符文風暴�
 
 L['flame_blessed_iron_item'] = '繳回這個物品來取得獎勵的 {currency:3090}.'
 
-L['barnacle_encrusted_chest'] = nil
+L['barnacle_encrusted_chest'] = '嵌滿藤壺的箱子'
 
 L['soweezi_note'] = '使用 {currency:3090} 交換1個坐騎, 玩具, 戰寵和塑形.'
 
@@ -399,7 +399,7 @@ L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
 L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
 L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
 
-L['unsolved_amethyst_runelock'] = nil
+L['unsolved_amethyst_runelock'] = '未解的紫晶符文鎖'
 L['bilge_rat_supply_chest'] = nil
 
 L['stone_carvers_scamseax_note'] = '收集一個 {object:璀璨黃水晶} ({dot:Yellow}) 來獲得2分鐘的增益 {spell:1216785} 以允許你拾取 {item:233834}.'
