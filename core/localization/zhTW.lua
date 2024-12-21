@@ -49,7 +49,7 @@ L['zone_drops_label'] = '區域掉落'
 L['zone_drops_note'] = '下列的物品會由此區域的數個怪物掉落.'
 
 L['poi_entrance_label'] = '入口'
-L['change_map'] = nil
+L['change_map'] = '切換地圖'
 
 L['requires'] = '需要'
 L['ranked_research'] = '%s (等級 %d/%d)'
@@ -103,8 +103,8 @@ L['title'] = '稱號'
 L['toy'] = '玩具'
 L['currency'] = '通貨'
 L['rep'] = '聲望'
-L['buff'] = nil
-L['transmog'] = nil
+L['buff'] = '增益'
+L['transmog'] = '塑型'
 
 ---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = '追隨者'
