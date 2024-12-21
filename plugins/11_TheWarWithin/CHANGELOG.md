@@ -13,7 +13,7 @@
 * Restore the achievement [Khaz Algar Lore Hunter](https://www.wowhead.com/achievement=40762)
 * Adjust Worldsoul Memory location
 * Update Celebration Crate tracking for the Guest Relations secret
-* Localization updates: deDE, esES, frFR, zhCN, zhTW
+* Localization updates: deDE, esES, frFR, ruRU, zhCN, zhTW
 
 # v110
 
