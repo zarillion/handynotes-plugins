@@ -387,9 +387,9 @@ L['thunderous_runekey_note'] = '需要在 {location:海妖島} 由 {note:任何}
 L['cyclonic_runekey_note'] = '在風暴時由 {location:海妖島} 上的 {location:亡鰭爛泥} 的 {npc:231357} 掉落. 或是從附近釣魚得到.'
 L['turbulent_runekey_note'] = '需要3個在風暴時散佈在 {location:海妖島} 上的 {item:234327}.'
 
-L['turbulent_fragment_a'] = '藏在 {location:鹽與船歌小屋} 旅館後方的 {object:Dirt Pile} 內, 靠近正在挖掘的 {npc:庫爾提拉斯人} 鬼魂.'
-L['turbulent_fragment_b'] = '在 {location:腐臭坑洞} 的山洞內蹲著的 {npc:庫爾提拉斯人} 鬼魂前拾取 {object:Runic Fragment}.'
-L['turbulent_fragment_c'] = '拾取在 {location:靈痕洞穴} 內的 {npc:庫爾提拉斯人} 鬼魂握著的 {object:Runic Fragment}.'
+L['turbulent_fragment_a'] = '藏在 {location:鹽與船歌小屋} 旅館後方的 {npc:235134} 內, 靠近正在挖掘的 {npc:庫爾提拉斯人} 鬼魂.'
+L['turbulent_fragment_b'] = '在 {location:腐臭坑洞} 的山洞內蹲著的 {npc:庫爾提拉斯人} 鬼魂前拾取 {npc:234934}.'
+L['turbulent_fragment_c'] = '拾取在 {location:靈痕洞穴} 內的 {npc:庫爾提拉斯人} 鬼魂握著的 {npc:234934}.'
 
 L['prismatic_snapdragon_note_start'] = '在10天的過程中, 幫助拯救在 {location:漂流物淺灘} 的 {npc:235216} 來取得  {item:233489}.\n\n{note:你可以錯過天數但是沒有追趕機制}.'
 L['prismatic_day'] = '第 %d 天'
