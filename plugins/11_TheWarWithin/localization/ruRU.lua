@@ -99,7 +99,7 @@ L['notable_machines_note'] = 'Прочитать заметку.'
 L['fragment_I_location'] = 'На земле.'
 L['fragment_II_location'] = 'На выступе.'
 L['fragment_III_location'] = 'На крыше здания.'
-L['fragment_IV_location'] = 'High up on the wooden tower (Steady Flying is recommended to get this).'
+L['fragment_IV_location'] = 'Высоко на деревянной башне (для этого рекомендуется использовать Спокойный Полет).'
 L['fragment_V_location'] = 'На арке наверху лестницы.'
 L['fragment_VI_location'] = 'На земле, рядом с уличным фонарем.'
 
