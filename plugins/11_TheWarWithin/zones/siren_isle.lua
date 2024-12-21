@@ -444,7 +444,7 @@ end
 function ThunderousFragmentItem:IsObtained()
     if ns.PlayerHasItem(232605, 5) then return true end -- Thunderous Fragment
     if ns.PlayerHasItem(232573, 1) then return true end -- Thunderous Runekey
-    if select(11, C_MountJournal.GetMountInfoByID(2322)) then return true end -- Thrayir, Eyes of the Siren
+    if C_QuestLog.IsQuestFlaggedCompleted(85803) then return true end -- hidden
     return false
 end
 
