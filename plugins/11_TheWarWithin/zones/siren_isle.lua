@@ -356,6 +356,7 @@ map.nodes[50005000] = Rare({
 
 map.nodes[36925304] = Treasure({
     label = '{item:233955}',
+    quest = 87446, -- hidden
     location = L['in_cave'],
     pois = {Entrance({42785666})},
     rewards = {Transmog({item = 233955, slot = L['2h_axe']})} -- Iron Mining Pick
