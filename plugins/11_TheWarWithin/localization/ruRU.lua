@@ -156,12 +156,12 @@ L['illuminated_footlocker_note'] = 'Catch 5x falling {spell:442389} from the {np
 L['illusive_kobyss_lure_note'] = 'Combine all 4 items to create {item:225641}:'
 L['sunless_lure_location'] = 'Dropped by {npc:215653} on the {location:Sunless Strand}. They are camouflaged and use an {npc:215623} as bait.'
 L['sky_captains_sunken_cache_note'] = [[
-Speak with four different Sky-Captains on their airships to reveal the treasure.
+Поговорите с четырьмя разными Небесными Капитанами на их воздушных кораблях, чтобы узнать, где находится сокровище.
 
-{npc:222333} ({dot:Green}) flies counterclockwise.
-{npc:222311} ({dot:Yellow}) flies counterclockwise.
-{npc:222323} ({dot:Red}) flies clockwise.
-{npc:222337} ({dot:Orange}) flies counterclockwise.
+{npc:222333} ({dot:Green}) летит против часовой стрелки.
+{npc:222311} ({dot:Yellow}) летит против часовой стрелки.
+{npc:222323} ({dot:Red}) летит по часовой стрелке.
+{npc:222337} ({dot:Orange}) летит против часовой стрелки.
 ]]
 L['murkfin_lure_location'] = 'Dropped by {npc:213622} on {location:Velhan\'s Claim}. They are camouflaged and use an {npc:215623} as bait.'
 L['hungering_shimmerfin_location'] = 'Dropped by {npc:215243} in {location:The Hungering Pool}. They are camouflaged and use an {npc:219210} as bait.'
@@ -175,22 +175,22 @@ L['coral_fused_clam'] = 'Coral-Fused Clam'
 L['coral_fused_clam_note'] = 'Loot {item:218354} from the {object:Clammer\'s Kit} to open the Clam.'
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
-L['options_icons_biblo_archivist_desc'] = 'Display book locations for {achievement:40622} achievement.'
+L['options_icons_biblo_archivist_desc'] = 'Показать расположение книг для достижения {achievement:40622}.'
 
-L['biblo_book_01_location'] = 'Inside the building on the table behind {npc:222811}.'
-L['biblo_book_02_location'] = 'Inside the building on a table by the door.'
-L['biblo_book_03_location'] = 'In the stable with all of the {npc:217606}.'
-L['biblo_book_04_location'] = 'On the center of the bridge.'
-L['biblo_book_05_location'] = 'On the beach below the airship.'
-L['biblo_book_06_location'] = 'Inside the building in a bookshelf on the back wall.'
-L['biblo_book_07_location'] = 'Inside the building on the table behind the {npc:206096}.'
-L['biblo_book_08_location'] = 'Inside the ruins.'
-L['biblo_book_09_location'] = 'Inside the large tent on the table.'
-L['biblo_book_10_location'] = 'In the captain\'s quarters aboard {location:The Dawnbreaker}.'
-L['biblo_book_11_location'] = 'Inside the building on a table.'
+L['biblo_book_01_location'] = 'Внутри здания на столе позади {npc:222811}.'
+L['biblo_book_02_location'] = 'Внутри здания на столе у ​​двери.'
+L['biblo_book_03_location'] = 'В конюшне со всеми {npc:217606}.'
+L['biblo_book_04_location'] = 'В центре моста.'
+L['biblo_book_05_location'] = 'На пляже под дирижаблем.'
+L['biblo_book_06_location'] = 'Внутри здания на книжной полке на задней стене.'
+L['biblo_book_07_location'] = 'Внутри здания на столе позади {npc:206096}.'
+L['biblo_book_08_location'] = 'Внутри руин.'
+L['biblo_book_09_location'] = 'Внутри большой палатки на столе.'
+L['biblo_book_10_location'] = 'В каюте капитана на борту {location:Сияющего Рассвета}.'
+L['biblo_book_11_location'] = 'Внутри здания на столе.'
 
 L['options_icons_lost_and_found'] = '{achievement:40618}'
-L['options_icons_lost_and_found_desc'] = 'Display memento locations for {achievement:40618} achievement.'
+L['options_icons_lost_and_found_desc'] = 'Показать расположение памятных вещей для достижения {achievement:40618}.'
 
 L['lost_and_found_note'] = 'Progress the Memories of the Sky storyline starting with the quest {quest:80673} from ({dot:Red}) {npc:220718}. {note:The quests unlock weekly}.\n\n3 mementos can be completed each week, until complete the quest {quest:82813}.'
 L['broken_bracelet_location'] = 'Hand in the item {item:219810} to {npc:215527}.'
@@ -546,13 +546,13 @@ L['enigma_machine_note'] = '1. Insert the {item:229007} and {item:229054} into t
 L['lock_statue_note'] = 'Drag this statue to a platform.'
 L['lock_platform_note'] = 'Drag statues to this platform.'
 
-L['platform_1_label'] = 'Platform 1'
-L['platform_2_label'] = 'Platform 2'
-L['platform_3_label'] = 'Platform 3'
-L['platform_4_label'] = 'Platform 4'
-L['platform_5_label'] = 'Platform 5'
-L['platform_6_label'] = 'Platform 6'
-L['platform_7_label'] = 'Platform 7'
+L['platform_1_label'] = 'Платформа 1'
+L['platform_2_label'] = 'Платформа 2'
+L['platform_3_label'] = 'Платформа 3'
+L['platform_4_label'] = 'Платформа 4'
+L['platform_5_label'] = 'Платформа 5'
+L['platform_6_label'] = 'Платформа 6'
+L['platform_7_label'] = 'Платформа 7'
 
 L['rats_label'] = 'Rats'
 L['lock_label'] = 'Lock %d'
