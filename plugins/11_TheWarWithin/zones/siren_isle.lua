@@ -498,6 +498,7 @@ map.nodes[38782007] = RunedStormChest({storm = 1})
 map.nodes[38924068] = RunedStormChest({storm = 1})
 map.nodes[39965215] = RunedStormChest({storm = 1})
 map.nodes[42244737] = RunedStormChest({storm = 1})
+map.nodes[44087329] = RunedStormChest({storm = 1})
 map.nodes[45096265] = RunedStormChest({storm = 1})
 map.nodes[49297262] = RunedStormChest({storm = 1})
 map.nodes[51564836] = RunedStormChest({storm = 1})
@@ -505,6 +506,12 @@ map.nodes[55596719] = RunedStormChest({storm = 1})
 map.nodes[56555508] = RunedStormChest({storm = 1})
 map.nodes[61964466] = RunedStormChest({storm = 1})
 map.nodes[63708514] = RunedStormChest({storm = 1})
+
+map.nodes[67317820] = RunedStormChest({
+    storm = 1,
+    location = L['in_small_cave'],
+    pois = {Entrance({66227823})}
+})
 
 tfv.nodes[29207358] = RunedStormChest({storm = 2})
 tfv.nodes[31792774] = RunedStormChest({storm = 2})
