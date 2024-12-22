@@ -568,4 +568,4 @@ L['ak_decryption_console_note'] = 'Regresa a la entrada del agujero oculto dentr
 -------------------------------------------------------------------------------
 
 L['options_icons_between_the_lines'] = '{achievement:41588}'
-L['options_icons_between_the_lines_desc'] = nil
+L['options_icons_between_the_lines_desc'] = 'Muestra dónde están los libros para el logro {achievement:41588}.'
