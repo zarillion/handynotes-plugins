@@ -106,7 +106,7 @@ L['fragment_VI_location'] = 'На земле, рядом с уличным фо�
 L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
 L['options_icons_rocked_to_sleep_desc'] = 'Показать расположение табличек для достижения {achievement:40504}.'
 
-L['rocked_to_sleep_note'] = 'Read the plaque of the inert earthen.'
+L['rocked_to_sleep_note'] = 'Прочитайте табличку неподвижного земельника.'
 L['attwogaz_location'] = 'На выступе.'
 L['halthaz_location'] = 'На выступе у основания столба.'
 L['krattdaz_location'] = 'На уступе между двумя водопадами.'
@@ -116,7 +116,7 @@ L['merunth_location'] = 'На трубе над лестницей.'
 L['varerko_location'] = 'На выступе.'
 L['alfritha_location'] = 'Сидит на краю обрыва.'
 L['gundrig_location'] = 'Сидит на вершине уступа.'
-L['sathilga_location'] = 'On a ledge near an Earthen mining machine building.'
+L['sathilga_location'] = 'На уступе возле горнодобывающей машины земельников.'
 
 L['trungal_note'] = 'Kill the {npc:220615} that spawn around the entrance and down in the cave to spawn.'
 L['disturbed_earthgorger_note'] = 'Use the extra action spell to {spell:437003} the ground 3 times to spawn.'
