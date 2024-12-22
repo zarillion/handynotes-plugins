@@ -159,6 +159,12 @@ ns.groups.NOTABLE_MACHINES = Group('notable_machines', 1506451, {
     achievement = 40628
 })
 
+ns.groups.BETWEEN_THE_LINES = Group('between_the_lines', 4549129, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 41588
+})
+
 ns.groups.ROCKED_TO_SLEEP = Group('rocked_to_sleep', 5788303, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

@@ -562,3 +562,10 @@ L['code_label'] = '%d on %s'
 L['orb_9_label'] = 'Orb 9'
 
 L['ak_decryption_console_note'] = 'Back to the hidden hole, entrance within the cave down to {location:Pillar-nest Vosh} in {location:Azj-Kahet}.\n\nEquip your {item:228966} to reveal a hidden platform.\n\nTarget the {npc:230383} and use the {item:228996} to reach platform. Enter the code and open the {object:Encrypted Chest} to recieve the {item:229348}.\n\n{object:Code}: 84847078'
+
+-------------------------------------------------------------------------------
+---------------------------------- UNDERMINE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_between_the_lines'] = '{achievement:41588}'
+L['options_icons_between_the_lines_desc'] = 'Display the book locations for {achievement:41588}.'

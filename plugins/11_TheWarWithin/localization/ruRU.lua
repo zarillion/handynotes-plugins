@@ -562,3 +562,10 @@ L['code_label'] = '%d on %s'
 L['orb_9_label'] = 'Orb 9'
 
 L['ak_decryption_console_note'] = nil
+
+-------------------------------------------------------------------------------
+---------------------------------- UNDERMINE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_between_the_lines'] = '{achievement:41588}'
+L['options_icons_between_the_lines_desc'] = nil
