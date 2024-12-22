@@ -184,6 +184,96 @@ map.nodes[00000000] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 1}) -- Treasures of Undermine
+    }
+}) -- Unexploded Fireworks
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 2}) -- Treasures of Undermine
+    }
+}) -- Suspicious Book
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 3}) -- Treasures of Undermine
+    }
+}) -- Fireworks Hat
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 4}) -- Treasures of Undermine
+    }
+}) -- Exploded Plunger
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 5}) -- Treasures of Undermine
+    }
+}) -- Blackened Dice
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 6}) -- Treasures of Undermine
+    }
+}) -- Lonely Tub
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 7}) -- Treasures of Undermine
+    }
+}) -- Potent Potable
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 8}) -- Treasures of Undermine
+    }
+}) -- Abandoned Toolbox
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 9}) -- Treasures of Undermine
+    }
+}) -- Papa's Prized Putter
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 10}) -- Treasures of Undermine
+    }
+}) -- Unsupervised Takeout
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 11}) -- Treasures of Undermine
+    }
+}) -- Particularly Nice Lamp
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 12}) -- Treasures of Undermine
+    }
+}) -- Uncracked Cold Ones
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 13}) -- Treasures of Undermine
+    }
+}) -- Marooned Floatmingo
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 14}) -- Treasures of Undermine
+    }
+}) -- Trick Deck of Cards
+
+map.nodes[00000000] = Treasure({
+    rewards = {
+        Achievement({id = 41217, criteria = 15}) -- Treasures of Undermine
+    }
+}) -- Crumpled Schematics
+
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLEANOUS --------------------------------
 -------------------------------------------------------------------------------
