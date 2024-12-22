@@ -132,8 +132,8 @@ L['options_icons_disturbed_earth'] = 'Потревоженная земля'
 L['options_icons_disturbed_earth_desc'] = 'Показать местоположения {object:Потревоженной земли}.'
 
 L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
-L['options_icons_gobblin_with_glublurp_desc'] = 'Display locations for {achievement:40614} achievement.'
-L['gobblin_with_glublurp_note'] = 'Click on a {dot:Red}{object:Glimmering Crystal} to gain {spell:456739}. Catch a {npc:227138} flying in the ' .. ns.color.Orange('Orange Circle') .. ' and bring it to {npc:227132}.\n\n(Steady Flying is recommended to get this).'
+L['options_icons_gobblin_with_glublurp_desc'] = 'Показать местоположения для достижения {achievement:40614}.'
+L['gobblin_with_glublurp_note'] = 'Нажмите на {dot:Red}{object:Сияющий кристалл} чтобы получить {spell:456739}. Поймайте {npc:227138}, летящего в ' .. ns.color.Orange('Оранжевом круге') .. ' и довести его до {npc:227132}.\n\n(Для этого рекомендуется использовать Спокойные Полеты).'
 
 L['critter_love_note'] = 'You must use the emote {emote:/love} on critters, not battle pets.'
 L['options_icons_critter_love'] = '{achievement:40475}'
