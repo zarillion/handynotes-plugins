@@ -234,15 +234,15 @@ L['barracks_doorway_location'] = 'Aim at the doorway of the red and gold tent to
 L['options_icons_beacon_of_hope'] = '{achievement:40308}'
 L['options_icons_beacon_of_hope_desc'] = 'Display lesser keyflame locations for the {achievement:40308} achievement.'
 
-L['beacon_of_hope_note'] = 'Contribute {item:206350} to light lesser keyflames and complete the following quests.'
+L['beacon_of_hope_note'] = 'Внесите вклад {item:206350}, чтобы зажечь малые ключевые огни и выполнить следующие задания.'
 
 L['parasidious_note'] = 'Purchase 1x {item:206670} from {npc:206533} (light up the {object:Lesser Keyflame} to spawn him) then go to the {location:Duskrise Acreage} and pull {npc:206870} until the rare spawns. {note: Only spawns if the {npc:206978} is in this location}.'
 
 L['options_icons_flamegards_hope'] = '{achievement:20594}'
-L['options_icons_flamegards_hope_desc'] = 'Display location for the {achievement:20594} achievement.'
-L['flamegards_hope_note'] = 'Help out {npc:213319} for 20 Days healing the {npc:220225s}.\n\nYou can also use a {spell:372009} or {item:211878} if your class can\'t heal.'
+L['options_icons_flamegards_hope_desc'] = 'Отображение местоположения для достижения {achievement:20594}.'
+L['flamegards_hope_note'] = 'Помогайте {npc:213319} в течении 20 дней исцелять {npc:220225}.\n\nВы также можете использовать {spell:372009} или {item:211878}, если ваш класс не может лечить.'
 
-L['hallowfall_sparkfly_label'] = 'Hallowfall Sparkfly'
+L['hallowfall_sparkfly_label'] = 'Искромуха Тайносводья'
 L['hallowfall_sparkfly_note'] = 'Use 3x {item:206350} at the {object:Lesser Keyflame} in {location:Stillstone Pond} to summon {npc:215956}.\n\nPurchase {item:218107} for 2x {item:206350} and use it to reveal {npc:222308} nearby until {object:Hallowfall Sparkfly} appears.'
 
 L['nightfarm_growthling_note'] = 'Use 3x {item:206350} at the {object:Lesser Keyflame} in {location:The Whirring Field} to summon {npc:208186}.\n\nPurchase {item:219148} for 2x {item:206350} and use it to reveal {item:221546}.'
@@ -328,16 +328,16 @@ L['arathi_prisoner_note'] = 'Free webbed-wrapped {npc:222119} during the {wq:Spe
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
-L['sturdy_chest'] = 'Sturdy Chest'
-L['sturdy_chest_suffix'] = 'Sturdy Chest found'
+L['sturdy_chest'] = 'Прочный сундук'
+L['sturdy_chest_suffix'] = 'Найден прочный сундук'
 
-L['ecm_chest_3_location'] = 'On the crane. Jump from the upper level.'
-L['fol_chest_1_location'] = 'On the rock under the mushrooms in the bushes.'
-L['fol_chest_3_location'] = 'At the bottom of the waterfall.'
-L['fol_use_mushrooms'] = 'Jump on the mushrooms along the path.'
-L['kvr_chest_2_location'] = 'On top of the wooden scaffold.'
+L['ecm_chest_3_location'] = 'На кране. Прыжок с верхнего уровня.'
+L['fol_chest_1_location'] = 'На камне под грибами в кустах.'
+L['fol_chest_3_location'] = 'У подножия водопада.'
+L['fol_use_mushrooms'] = 'Прыгай по грибам вдоль тропинки.'
+L['kvr_chest_2_location'] = 'На вершине деревянных лесов.'
 L['nfs_chest_2_location'] = 'On the plant.'
-L['nfs_chest_3_location'] = 'Inside the building.'
+L['nfs_chest_3_location'] = 'Внутри здания.'
 L['nfs_chest_4_location'] = 'Jump down from the skyship.'
 L['ski_chest_3_location'] = 'On a ledge.'
 L['tra_chest_2_location'] = 'On top of the coral.'
