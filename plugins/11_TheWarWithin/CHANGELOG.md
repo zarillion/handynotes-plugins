@@ -1,3 +1,7 @@
+# v112
+
+* Localization updates: ruRU, zhCN
+
 # v111
 
 * 11.0.7 Siren Isle
