@@ -395,9 +395,9 @@ L['prismatic_snapdragon_note_start'] = '在10天的时间里，帮助拯救 {loc
 L['prismatic_day'] = '第%d天' -- "Day 1" or "Day 4" or "Day 7"
 
 L['pris_quest_1'] = '生命线' -- 86482
-L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
-L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
-L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
+L['pris_quest_2'] = '速战速决' -- 86483
+L['pris_quest_3'] = 'Temper Like A Tempest' -- 86484
+L['pris_quest_4'] = 'A Loyal Friend' -- 86485
 
 L['unsolved_amethyst_runelock'] = '未破解的紫晶符文锁'
 L['bilge_rat_supply_chest'] = '水鼠帮补给箱'
