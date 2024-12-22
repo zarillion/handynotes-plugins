@@ -151,10 +151,10 @@ L['options_icons_for_the_collective_desc'] = 'Показать {npc:228056} в �
 
 L['arathi_loremaster_note'] = 'Speak with {npc:221630} within {location:Mereldar} and answer several questions correctly to receive {item:225659}.\n\nAnswers can be found within books located around {location:Hallowfall}.'
 L['caesper_note'] = 'Purchase {item:225238} from ({dot:Blue}) {npc:217645} in {location:Dunelle\'s Kindness}, {location:Hallowfall}.\n\nFeed it to {npc:225948} and follow him to the treasure.'
-L['dark_ritual_note'] = 'Interact with the {object:Dark Ritual} and defeat all the {npc:226059}, {npc:226052}, and {npc:226062} to loot the {object:Shadowed Essence}.'
-L['illuminated_footlocker_note'] = 'Catch 5x falling {spell:442389} from the {npc:220703} to receive {spell:442529} and reveal the {object:Illuminated Footlocker}.'
-L['illusive_kobyss_lure_note'] = 'Combine all 4 items to create {item:225641}:'
-L['sunless_lure_location'] = 'Dropped by {npc:215653} on the {location:Sunless Strand}. They are camouflaged and use an {npc:215623} as bait.'
+L['dark_ritual_note'] = 'Взаимодействуйте с {object:Темным ритуалом} и победите всех {npc:226059}, {npc:226052} и {npc:226062}, чтобы получить {object:Затененную сущность}.'
+L['illuminated_footlocker_note'] = 'Поймайте 5 падающих {spell:442389} из {npc:220703}, чтобы получить {spell:442529} и открыть {object:Сияющий сундук}.'
+L['illusive_kobyss_lure_note'] = 'Объедините все 4 предмета, чтобы создать {item:225641}:'
+L['sunless_lure_location'] = 'Dropped by {npc:215653} on the {location:Sunless Strand}. Они замаскированы и используют {npc:215623} в качестве приманки.'
 L['sky_captains_sunken_cache_note'] = [[
 Поговорите с четырьмя разными Небесными Капитанами на их воздушных кораблях, чтобы узнать, где находится сокровище.
 
