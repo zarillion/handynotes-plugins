@@ -62,7 +62,7 @@ L['cendvin_note'] = 'Соберите 900x {item:225557} в {location:Пепло
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Отображение местоположения для достижения {achievement:40606}.'
 
-L['tome_of_polymorph_mosswool'] = 'Enter the tunnel and continue to {location:The Kindling Parlor}.\n\nПримите {quest:84438} от {npc:229128}, чтобы получить {item:227710}.'
+L['tome_of_polymorph_mosswool'] = 'Войдите в туннель и продолжайте движение {location:The Kindling Parlor}.\n\nПримите {quest:84438} от {npc:229128}, чтобы получить {item:227710}.'
 
 L['aradan_note_start'] = '{npc:213428} можно найти в подземелье {location:Гнездовье} в {location:Дорногале} на {location:Острове Дорн}.\n\n{note:{npc:213428} можно приручить в режиме Подземелья с соратниками.}'
 L['aradan_note_step_1'] = '1. Соберите {item:220770} из глубин вод за пределами {location:Острова Дорн.}'
@@ -118,18 +118,18 @@ L['alfritha_location'] = 'Сидит на краю обрыва.'
 L['gundrig_location'] = 'Сидит на вершине уступа.'
 L['sathilga_location'] = 'На уступе возле горнодобывающей машины земельников.'
 
-L['trungal_note'] = 'Kill the {npc:220615} that spawn around the entrance and down in the cave to spawn.'
-L['disturbed_earthgorger_note'] = 'Use the extra action spell to {spell:437003} the ground 3 times to spawn.'
-L['deepflayer_broodmother_note'] = 'Flies around high up.'
-L['lurker_note'] = '{note:Requires 5 players to spawn}\n\nActivate the 5 {dot:Red}{object:Inconspicuous Lever} within 10 seconds of each other to spawn.\nYou will see a zone wide message when successfully triggered.'
+L['trungal_note'] = 'Убейте {npc:220615}, которые появляются вокруг входа и внизу пещеры, чтобы появился редкий монстр.'
+L['disturbed_earthgorger_note'] = 'Используйте заклинание дополнительного действия, чтобы {spell:437003} коснуться земли 3 раза, чтобы появиться редкий монстр.'
+L['deepflayer_broodmother_note'] = 'Летает высоко-высоко.'
+L['lurker_note'] = '{note:Для появления требуется 5 игроков}\n\nАктивировать 5 {dot:Red}{object:Неприметных рычагов} в пределах 10 секунд, чтобы появился редкий монстр.\nПри успешном срабатывании вы увидите сообщение для всей зоны.'
 
-L['gnawbles_ruby_vendor_note'] = [[Gather {item:212493} from {object:Disturbed Earth} and bring it to {npc:225166}.
+L['gnawbles_ruby_vendor_note'] = [[Соберите {item:212493} из {object:Потревоженной земли} и отнесите его {npc:225166}.
 
-Once you've done 10 contributions or contributed a total of 50x {item:212493} you will receive 1x {item:224642}.
+После того, как вы сделаете 10 взносов или внесете в общей сложности 50x {item:212493}, вы получите 1x {item:224642}.
 
-Each item costs 1x {item:224642}.]]
-L['options_icons_disturbed_earth'] = 'Disturbed Earth'
-L['options_icons_disturbed_earth_desc'] = 'Display locations of {object:Disturbed Earth}.'
+Каждый предмет стоит 1x {item:224642}.]]
+L['options_icons_disturbed_earth'] = 'Потревоженная земля'
+L['options_icons_disturbed_earth_desc'] = 'Показать местоположения {object:Потревоженной земли}.'
 
 L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
 L['options_icons_gobblin_with_glublurp_desc'] = 'Display locations for {achievement:40614} achievement.'
