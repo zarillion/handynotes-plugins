@@ -135,9 +135,9 @@ L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
 L['options_icons_gobblin_with_glublurp_desc'] = 'Показать местоположения для достижения {achievement:40614}.'
 L['gobblin_with_glublurp_note'] = 'Нажмите на {dot:Red}{object:Сияющий кристалл} чтобы получить {spell:456739}. Поймайте {npc:227138}, летящего в ' .. ns.color.Orange('Оранжевом круге') .. ' и довести его до {npc:227132}.\n\n(Для этого рекомендуется использовать Спокойные Полеты).'
 
-L['critter_love_note'] = 'You must use the emote {emote:/love} on critters, not battle pets.'
+L['critter_love_note'] = 'Вы должны использовать эмоцию {emote:/любовь} на зверьках, а не на боевых питомцах.'
 L['options_icons_critter_love'] = '{achievement:40475}'
-L['options_icons_critter_love_desc'] = 'Display critter locations for {achievement:40475} achievement.'
+L['options_icons_critter_love_desc'] = 'Показать местоположение существ для достижения {achievement:40475}.'
 
 L['for_the_collective_note'] = 'Требуется {wq:Миссия по доставке: поиски руды}\n\nВносите до 20x {npc:224281} в каждый {npc:228056}.\n\n{note:Прогресс вклада распространяется на всю область и сбрасывается через 2 часа.}'
 L['for_the_collective_suffix'] = 'внесенная руда'
@@ -163,16 +163,16 @@ L['sky_captains_sunken_cache_note'] = [[
 {npc:222323} ({dot:Red}) летит по часовой стрелке.
 {npc:222337} ({dot:Orange}) летит против часовой стрелки.
 ]]
-L['murkfin_lure_location'] = 'Dropped by {npc:213622} on {location:Velhan\'s Claim}. They are camouflaged and use an {npc:215623} as bait.'
-L['hungering_shimmerfin_location'] = 'Dropped by {npc:215243} in {location:The Hungering Pool}. They are camouflaged and use an {npc:219210} as bait.'
-L['ragefin_necrostaff_location'] = 'Dropped by {npc:213406} at the {location:Veneration Grounds}.'
-L['jewel_of_the_cliffs_location'] = 'Extremely high up in the stone wall.'
-L['lost_necklace_note'] = 'Loot the {object:Lost Momento} on the edge of the shrine.'
-L['priory_satchel_location'] = 'Loot the {object:Windswept Satchel} hanging from the corner of the {location:Priory of the Sacred Flame} cathedral.'
-L['smugglers_treasure_note'] = 'Loot the required {item:225335} from the ({dot:Blue}) {npc:226025} below the cliff.'
-L['smugglers_treasure_location'] = 'High on the cliff between several rocks.'
-L['coral_fused_clam'] = 'Coral-Fused Clam'
-L['coral_fused_clam_note'] = 'Loot {item:218354} from the {object:Clammer\'s Kit} to open the Clam.'
+L['murkfin_lure_location'] = 'Падает с {npc:213622} в {location:уделе Велхана}. Они замаскированы и используют {npc:215623} в качестве приманки.'
+L['hungering_shimmerfin_location'] = 'Падает из {npc:215243} в {location:Алчущем омуте}. Они замаскированы и используют {npc:219210} в качестве приманки.'
+L['ragefin_necrostaff_location'] = 'Падает с {npc:213406} в {location:Землях Преклонения}.'
+L['jewel_of_the_cliffs_location'] = 'Очень высоко в каменной стене.'
+L['lost_necklace_note'] = 'Найдите {object:Потерянный памятный предмет} на краю святилища.'
+L['priory_satchel_location'] = 'Возьмите {object:Обветренный мешочек}, висящий на углу собора {location:Приорат Священного Пламени}.'
+L['smugglers_treasure_note'] = 'Возьмите нужный {item:225335} из ({dot:Blue}) {npc:226025} под скалой.'
+L['smugglers_treasure_location'] = 'Высоко на скале между несколькими скалами.'
+L['coral_fused_clam'] = 'Покрытый кораллами моллюск'
+L['coral_fused_clam_note'] = 'Возьмите {item:218354} из {object:Набора собирателя моллюсков}, чтобы открыть моллюска.'
 
 L['options_icons_biblo_archivist'] = '{achievement:40622}'
 L['options_icons_biblo_archivist_desc'] = 'Показать расположение книг для достижения {achievement:40622}.'
