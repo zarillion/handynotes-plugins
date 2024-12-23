@@ -254,12 +254,12 @@ L['thunder_lynx_note'] = '1. Use 3x {item:206350} at the {object:Lesser Keyflame
 -------------------------------------------------------------------------------
 
 L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
-L['options_icons_itsy_bitsy_spider_desc'] = 'Display weave-rat locations for {achievement:40624} achievement.'
+L['options_icons_itsy_bitsy_spider_desc'] = 'Показать местоположение плетенышей для достижения {achievement:40624}.'
 
-L['itsy_bitsy_spider_note'] = '{emote:/wave} to the {npc:weave-rat}.'
+L['itsy_bitsy_spider_note'] = '{emote:/помахать} {npc:плетенышам}.'
 
 L['options_icons_bookworm'] = '{achievement:40629}'
-L['options_icons_bookworm_desc'] = 'Display book locations for the {achievement:40629} achievement.'
+L['options_icons_bookworm_desc'] = 'Показать расположение книг для достижения {achievement:40629}.'
 
 L['nerubian_potion_note'] = 'Purchase a {item:225784} ({note:buff lasts 10 minutes}) from {npc:218192} for 33x {currency:3056}.'
 L['bookworm_note'] = '{note:You can also complete the achievement {achievement:40542} with the {item:225784}.}'
@@ -269,18 +269,18 @@ L['options_icons_smelling_history'] = '{achievement:40542}'
 L['options_icons_smelling_history_desc'] = 'Display book locations for {achievement:40542} achievement.'
 
 L['smelling_history_note'] = '{note:You can also complete the achievement {achievement:40629} with the {item:225784}.}'
-L['smelling_history_1_location'] = 'Inside the building on the counter.'
-L['smelling_history_2_location'] = 'The scroll is on a chest.'
-L['smelling_history_3_location'] = 'The scroll is on a table.'
-L['smelling_history_4_location'] = 'Inside the building on a table.'
-L['smelling_history_5_location'] = 'Inside the building on a table.'
-L['smelling_history_6_location'] = 'On the bed on the south side of the room.'
-L['smelling_history_7_location'] = 'On top of a pile of books.'
-L['smelling_history_8_location'] = 'On the table next to the bed on the north side of the room.'
-L['smelling_history_9_location'] = 'Behind the desk leaning against it right next to {npc:226024}.'
-L['smelling_history_10_location'] = 'On a bench.'
-L['smelling_history_11_location'] = 'Book is on a table next to the bed. Entrance is above the fountain.'
-L['smelling_history_12_location'] = 'Inside the building on a table.'
+L['smelling_history_1_location'] = 'Внутри здания на прилавке.'
+L['smelling_history_2_location'] = 'Свиток находится на сундуке.'
+L['smelling_history_3_location'] = 'Свиток лежит на столе.'
+L['smelling_history_4_location'] = 'Внутри здания на столе.'
+L['smelling_history_5_location'] = 'Внутри здания на столе.'
+L['smelling_history_6_location'] = 'На кровати на южной стороне комнаты.'
+L['smelling_history_7_location'] = 'На вершине стопки книг.'
+L['smelling_history_8_location'] = 'На столе рядом с кроватью в северной части комнаты.'
+L['smelling_history_9_location'] = 'За столом, прислонившись к нему, прямо рядом с {npc:226024}.'
+L['smelling_history_10_location'] = 'На скамейке.'
+L['smelling_history_11_location'] = 'Книга на столике возле кровати. Вход над фонтаном.'
+L['smelling_history_12_location'] = 'Внутри здания на столе.'
 
 L['options_icons_skittershaw_spin'] = '{achievement:40727}'
 L['options_icons_skittershaw_spin_desc'] = 'Display Skittershaw route locations for {achievement:40727} achievement.'
@@ -303,8 +303,8 @@ L['another_you_4_note'] = 'Patrols along the marked path.'
 
 L['concealed_contraband_note'] = 'Remove the {object:Web Cocoon} from the Treasure to reveal it.'
 L['memory_cache_note'] = 'Get {spell:420847} from a nearby ({dot:Red}) {object:Extractor Storage}. After kill the {npc:223908} to get the {item:223870} to open the {object:Memory Cache}.'
-L['niffen_stash_note'] = 'Located under the bridge.'
-L['trapped_trove_note'] = 'In a building that hangs from the ceiling. Avoid the spiderwebs on the floor.'
+L['niffen_stash_note'] = 'Расположен под мостом.'
+L['trapped_trove_note'] = 'В здании, которое висит под потолком. Избегайте паутины на полу..'
 L['weaving_supplies_note'] = 'Collect silk scraps from the nearby platform to open the treasure.\n\n{item:223901} ({dot:Purple})\n{item:223903} ({dot:Yellow})\n{item:223902} ({dot:Red})'
 
 L['tkaktath_note'] = 'Starts a quest chain to get the {item:224150} mount.'
@@ -314,13 +314,13 @@ L['options_icons_the_unseeming_desc'] = 'Display location for the {achievement:4
 L['the_unseeming_note'] = 'Stand in the pool until you have 100x stacks {spell:420847}.'
 
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
-L['options_icons_you_cant_hang_with_us_desc'] = 'Display locations for the {achievement:40634} achievement.'
+L['options_icons_you_cant_hang_with_us_desc'] = 'Показать места для достижения {achievement:40634}.'
 L['you_cant_hang_with_us_note'] = 'Find a {npc:211816} with the {spell:434734} buff and attack him, to get the {spell:443190} debuff (1 minute). A {npc:225408} ({note:Do not kill him!}) will interfere and stack the {spell:454666} debuff on you. At 10 stacks, you will be forcibly removed from the City.'
 
 L['kej_pet_vendor_note'] = 'Each pet has a limited stock and costs 2,250x {currency:3056}.\n\n{note:Estimated respawn time is 3-4 hours for each pet item at any vendor.}'
 
 L['options_icons_back_to_the_wall'] = '{achievement:40620}'
-L['options_icons_back_to_the_wall_desc'] = 'Display {npc:222119} locations for {achievement:40620}.'
+L['options_icons_back_to_the_wall_desc'] = 'Показать {npc:222119} места для {achievement:40620}.'
 L['arathi_prisoner_suffix'] = 'Arathi prisoners saved'
 L['arathi_prisoner_note'] = 'Free webbed-wrapped {npc:222119} during the {wq:Special Assignment: A Pound of Cure}.'
 
