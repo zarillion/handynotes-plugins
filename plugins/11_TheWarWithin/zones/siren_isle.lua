@@ -427,6 +427,7 @@ map.nodes[74035329] = Treasure({
 
 map.nodes[62449084] = Treasure({
     label = L['bilge_rat_supply_chest'],
+    sublabel = L['pirate_sublabel'],
     requires = ns.requirement.Item(228621) -- Bilge Rat Supply Key
 }) -- Bilge Rat Supply Chest
 
