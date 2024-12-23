@@ -368,6 +368,20 @@ map.nodes[40284188] = Treasure({
     rewards = {Transmog({item = 233957, slot = L['offhand']})} -- Kul Tiran Lumberer's Hatchet
 }) -- Kul Tiran Lumberer's Hatchet
 
+map.nodes[39405340] = Treasure({
+    label = '{item:233831}',
+    quest = 86767, -- hidden
+    location = L['in_building'],
+    rewards = {Transmog({item = 233831, slot = L['dagger']})} -- Minnow's Favorite Blade
+}) -- Minnow's Favorite Blade
+
+map.nodes[41704600] = Treasure({
+    label = '{item:233916}',
+    quest = 86766, -- hidden
+    location = L['in_building'],
+    rewards = {Transmog({item = 233916})} -- Ashvane Issued Workboots
+}) -- Ashvane Issued Workboots
+
 tfv.nodes[26502340] = Treasure({
     label = '{item:233834}',
     note = L['stone_carvers_scamseax_note'],
