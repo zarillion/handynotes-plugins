@@ -226,13 +226,13 @@ L['spreading_the_light_rares_note'] = 'Редкий монстр появляе�
 L['options_icons_mereldar_menace'] = '{achievement:40151}'
 L['options_icons_mereldar_menace_desc'] = 'Показать местоположения для достижения {achievement:40151}.'
 
-L['mereldar_menace_note'] = 'Interact with {object:Throwing Stone} and throw it at the targets.'
-L['light_and_flame_location'] = 'Aim towards the {npc:218472} east of the {object:Throwing Stone}.'
-L['lamplighter_doorway_location'] = 'Aim at the doorway of the building to the east.'
-L['barracks_doorway_location'] = 'Aim at the doorway of the red and gold tent to the west.'
+L['mereldar_menace_note'] = 'Взаимодействуйте с {object:Метательным каменем} и бросайте его в цели.'
+L['light_and_flame_location'] = 'Направляйтесь к {npc:218472} к востоку от {object:Метательного каменя}.'
+L['lamplighter_doorway_location'] = 'Цельтесь в дверной проем здания на востоке.'
+L['barracks_doorway_location'] = 'Цельтесь в дверь красно-золотой палатки на западе.'
 
 L['options_icons_beacon_of_hope'] = '{achievement:40308}'
-L['options_icons_beacon_of_hope_desc'] = 'Display lesser keyflame locations for the {achievement:40308} achievement.'
+L['options_icons_beacon_of_hope_desc'] = 'Отображение малых ключевых огней для достижения {achievement:40308}.'
 
 L['beacon_of_hope_note'] = 'Внесите вклад {item:206350}, чтобы зажечь малые ключевые огни и выполнить следующие задания.'
 
