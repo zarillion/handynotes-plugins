@@ -565,3 +565,10 @@ L['code_label'] = '%d zu %s'
 L['orb_9_label'] = 'Kugel 9'
 
 L['ak_decryption_console_note'] = 'Zurück in der versteckten Höhle im {location:Stütznest Vosh} in {location:Azj-Kahet}.\n\nSetze deine {item:228966} auf, um eine versteckte Plattform zu offenbaren.\n\nVisiere den {npc:230383} an und verwende das {item:228996}, um die Plattform zu erreichen. Gibt den Code ein und öffne die {object:Verschlüsselte Truhe}, um das Reittier {item:229348} zu erhalten.\n\n{object:Code}: 84847078'
+
+-------------------------------------------------------------------------------
+---------------------------------- UNDERMINE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_between_the_lines'] = '{achievement:41588}'
+L['options_icons_between_the_lines_desc'] = nil
