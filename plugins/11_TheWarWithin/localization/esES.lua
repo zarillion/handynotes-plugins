@@ -358,7 +358,7 @@ L['the_drain_note'] = 'Contribuye con {currency:3090} para {location:El Sumidero
 L['shuddering_hollow_note'] = 'Contribuye con {currency:3090} para la {location:Cuenca Estremecedora} en el {object:Mapa de mando de la Isla de la Sirena} para abrir esta cueva y hacer aparecer el raro.'
 
 L['vrykul_sublabel'] = '{note:Sólo disponible con {npc:Vykrul Rastrosangre} en la isla.}'
-L['naga_sublabel'] = '{note:Sólo disponible con {npc:Naga} en la isla.}'
+L['naga_sublabel'] = '{note:Sólo disponible con {npc:nagas} en la isla.}'
 L['pirate_sublabel'] = '{note:Sólo disponible con {npc:piratas} en la isla.}'
 
 L['storm_required'] = 'Requiere una tormenta %s activa en la {location:Isla de la Sirena}.'
