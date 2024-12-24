@@ -396,7 +396,7 @@ L['prismatic_day'] = '第%d天' -- "Day 1" or "Day 4" or "Day 7"
 
 L['pris_quest_1'] = '生命线' -- 86482
 L['pris_quest_2'] = '速战速决' -- 86483
-L['pris_quest_3'] = 'Temper Like A Tempest' -- 86484
+L['pris_quest_3'] = '风卷残云' -- 86484
 L['pris_quest_4'] = 'A Loyal Friend' -- 86485
 
 L['unsolved_amethyst_runelock'] = '未破解的紫晶符文锁'
