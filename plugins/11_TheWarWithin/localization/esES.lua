@@ -359,7 +359,7 @@ L['shuddering_hollow_note'] = 'Contribuye con {currency:3090} para la {location:
 
 L['vrykul_sublabel'] = '{note:Sólo disponible con {npc:Vykrul Rastrosangre} en la isla.}'
 L['naga_sublabel'] = '{note:Sólo disponible con {npc:Naga} en la isla.}'
-L['pirate_sublabel'] = '{note:Sólo disponible con {npc:pirates} en la isla.}'
+L['pirate_sublabel'] = '{note:Sólo disponible con {npc:piratas} en la isla.}'
 
 L['storm_required'] = 'Requiere una tormenta %s activa en la {location:Isla de la Sirena}.'
 L['slaughtershell_location'] = 'Deambula por toda la {location:Isla de la Sirena}.'
