@@ -357,27 +357,27 @@ L['the_drowned_lair_note'] = 'Contribute {currency:3090} to {location:The Drowne
 L['the_drain_note'] = 'Contribute {currency:3090} to {location:The Drain} at the {object:Siren Isle Command Map} to open this cave and spawn the rare.'
 L['shuddering_hollow_note'] = 'Contribute {currency:3090} to {location:Shuddering Hollow} at the {object:Siren Isle Command Map} to open this cave and spawn the rare.'
 
-L['vrykul_sublabel'] = '{note:Only available with {npc:Bloodwake Vykrul} on the island.}'
-L['naga_sublabel'] = '{note:Only available with {npc:Naga} on the island.}'
-L['pirate_sublabel'] = '{note:Only available with {npc:pirates} on the island.}'
+L['vrykul_sublabel'] = '{note:Доступно только с вторжением {npc:врайкулов} на остров.}'
+L['naga_sublabel'] = '{note:Доступно только с вторжением {npc:наг} на остров.}'
+L['pirate_sublabel'] = '{note:Доступно только с вторжением {npc:пиратов} на остров.}'
 
-L['storm_required'] = 'Requires active %s storm on {location:Siren Isle}.' -- %s becomes "(icon) [Seafury Tempest]"
-L['slaughtershell_location'] = 'Roams around the entire {location:Siren Isle}.'
+L['storm_required'] = 'Требуется активный шторм %s на {location:Острове Сирен}.' -- %s becomes "(icon) [Seafury Tempest]"
+L['slaughtershell_location'] = 'Бродит по всему {location:Острову Сирен}.'
 
 L['within_the_forgotten_vault'] = nil
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
-L['options_icons_runed_storm_chest_desc'] = 'Display {object:Runed Storm Cache} locations for {achievement:41131}.'
+L['options_icons_runed_storm_chest_desc'] = 'Показать местоположения {object:Рунных сундуков бурь} для {achievement:41131}.'
 
-L['runed_storm_chest_label'] = 'Runed Storm Cache'
-L['runed_storm_chest_suffix'] = 'caches opened'
-L['runed_storm_chest_note'] = 'Follow the wind to a hidden {object:Runed Storm Cache} and reveal it with {spell:472051}.'
+L['runed_storm_chest_label'] = 'Рунный сундук бурь'
+L['runed_storm_chest_suffix'] = 'сундук открылся'
+L['runed_storm_chest_note'] = 'Следуйте за ветром к скрытому {object:Рунному сундуку бурь} и откройте его с помощью {spell:472051}.'
 
-L['flame_blessed_iron_item'] = 'Return this item for bonus {currency:3090}.'
+L['flame_blessed_iron_item'] = 'Верните этот предмет и получите {currency:3090}.'
 
-L['barnacle_encrusted_chest'] = 'Barnacle-Encrusted Chest'
+L['barnacle_encrusted_chest'] = 'Покрытый ракушками сундук'
 
-L['soweezi_note'] = 'Exchange {currency:3090} for a mount, toy, pet, or transmog.'
+L['soweezi_note'] = 'Обменяйте {currency:3090} на средства передвижения, игрушку, питомца или трансмогрификации.'
 
 L['thrayir_note_start'] = 'Collect 5x runestone keys from around the {location:Siren Isle} and complete the ritual within {location:The Forgotten Vault} to recieve {item:232639}:'
 
