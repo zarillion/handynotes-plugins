@@ -22,8 +22,8 @@ L['options_icons_khaz_algar_lore_hunter_desc'] = 'Отображение мес�
 L['options_icons_flight_master'] = '{achievement:40430}'
 L['options_icons_flight_master_desc'] = 'Показать местоположения {npc:Распорядителей Полета} для {achievement:40430}.'
 
-L['options_icons_worldsoul_memories'] = nil
-L['options_icons_worldsoul_memories_desc'] = nil
+L['options_icons_worldsoul_memories'] = 'Воспоминание души мира'
+L['options_icons_worldsoul_memories_desc'] = 'Показать награды за {object:Воспоминание души мира}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
@@ -301,28 +301,28 @@ Once you have found all 4 {npc:227421}, head back to the {object:Fleshy Grimoire
 ]]
 L['another_you_4_note'] = 'Patrols along the marked path.'
 
-L['concealed_contraband_note'] = 'Remove the {object:Web Cocoon} from the Treasure to reveal it.'
-L['memory_cache_note'] = 'Get {spell:420847} from a nearby ({dot:Red}) {object:Extractor Storage}. After kill the {npc:223908} to get the {item:223870} to open the {object:Memory Cache}.'
+L['concealed_contraband_note'] = 'Удалите {object:Кокон из паутины} из Сокровища, чтобы увидеть его.'
+L['memory_cache_note'] = 'Получите {spell:420847} из ближайшего ({dot:Red}) {object:Хранилища экстрактора}. После убейте {npc:223908}, чтобы получить {item:223870} и открыть {object:Хранилище памяти}.'
 L['niffen_stash_note'] = 'Расположен под мостом.'
 L['trapped_trove_note'] = 'В здании, которое висит под потолком. Избегайте паутины на полу..'
-L['weaving_supplies_note'] = 'Collect silk scraps from the nearby platform to open the treasure.\n\n{item:223901} ({dot:Purple})\n{item:223903} ({dot:Yellow})\n{item:223902} ({dot:Red})'
+L['weaving_supplies_note'] = 'Соберите лоскуты шелка с близлежащей платформы, чтобы открыть сокровище.\n\n{item:223901} ({dot:Purple})\n{item:223903} ({dot:Yellow})\n{item:223902} ({dot:Red})'
 
-L['tkaktath_note'] = 'Starts a quest chain to get the {item:224150} mount.'
+L['tkaktath_note'] = 'Начинает цепочку заданий, чтобы получить средство передвижения {item:224150}.'
 
 L['options_icons_the_unseeming'] = '{achievement:40633}'
-L['options_icons_the_unseeming_desc'] = 'Display location for the {achievement:40633} achievement.'
-L['the_unseeming_note'] = 'Stand in the pool until you have 100x stacks {spell:420847}.'
+L['options_icons_the_unseeming_desc'] = 'Отображение местоположения для достижения {achievement:40633}.'
+L['the_unseeming_note'] = 'Стойте в бассейне, пока не наберете 100x стаков {spell:420847}.'
 
 L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
 L['options_icons_you_cant_hang_with_us_desc'] = 'Показать места для достижения {achievement:40634}.'
-L['you_cant_hang_with_us_note'] = 'Find a {npc:211816} with the {spell:434734} buff and attack him, to get the {spell:443190} debuff (1 minute). A {npc:225408} ({note:Do not kill him!}) will interfere and stack the {spell:454666} debuff on you. At 10 stacks, you will be forcibly removed from the City.'
+L['you_cant_hang_with_us_note'] = 'Найдите {npc:211816} с баффом {spell:434734} и атакуйте его, чтобы получить дебафф {spell:443190} (1 минута). {npc:225408} ({note:Не убивайте его!}) вмешается и наложит на вас дебафф {spell:454666}. При накоплении 10 стаков вы будете принудительно выкинуты из города.'
 
-L['kej_pet_vendor_note'] = 'Each pet has a limited stock and costs 2,250x {currency:3056}.\n\n{note:Estimated respawn time is 3-4 hours for each pet item at any vendor.}'
+L['kej_pet_vendor_note'] = 'Количество питомцев ограничено, и его стоимость составляет 2250x {currency:3056}.\n\n{note:Расчетное время возрождения составляет 3-4 часа для каждого предмета для питомца у любого торговца.}'
 
 L['options_icons_back_to_the_wall'] = '{achievement:40620}'
 L['options_icons_back_to_the_wall_desc'] = 'Показать {npc:222119} места для {achievement:40620}.'
-L['arathi_prisoner_suffix'] = 'Arathi prisoners saved'
-L['arathi_prisoner_note'] = 'Free webbed-wrapped {npc:222119} during the {wq:Special Assignment: A Pound of Cure}.'
+L['arathi_prisoner_suffix'] = 'Спасены пленные Арати'
+L['arathi_prisoner_note'] = 'Освободить обернутого паутиной {npc:222119} во время {wq:Особое поручение: профилактика лучше лечения}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
