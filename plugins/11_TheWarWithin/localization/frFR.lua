@@ -377,6 +377,7 @@ L['runed_storm_chest_note'] = 'Suivez le vent jusqu\'à une {object:Cache de la 
 L['flame_blessed_iron_item'] = 'Rapportez cet objet pour obtenir des {currency:3090} supplémentaires.'
 
 L['barnacle_encrusted_chest'] = 'Coffre incrustré de bigorneaux'
+L['pilfered_earthen_chest'] = nil
 
 L['soweezi_note'] = 'Échangez vos {currency:3090} contre une monture, un jouet, une mascotte ou des objets de transmogrification.'
 

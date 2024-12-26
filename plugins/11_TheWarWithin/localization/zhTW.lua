@@ -376,6 +376,7 @@ L['runed_storm_chest_note'] = '跟著風來找到隱藏的 {object:符文風暴�
 L['flame_blessed_iron_item'] = '繳回這個物品來取得獎勵的 {currency:3090}.'
 
 L['barnacle_encrusted_chest'] = '嵌滿藤壺的箱子'
+L['pilfered_earthen_chest'] = nil
 
 L['soweezi_note'] = '使用 {currency:3090} 交換1個坐騎, 玩具, 戰寵和塑形.'
 

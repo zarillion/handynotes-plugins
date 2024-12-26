@@ -427,9 +427,18 @@ map.nodes[74035329] = Treasure({
 
 map.nodes[62449084] = Treasure({
     label = L['bilge_rat_supply_chest'],
+    quest = 84529, -- hidden
     sublabel = L['pirate_sublabel'],
     requires = ns.requirement.Item(228621) -- Bilge Rat Supply Key
 }) -- Bilge Rat Supply Chest
+
+map.nodes[68409440] = Treasure({
+    label = L['pilfered_earthen_chest'],
+    location = L['in_water'],
+    quest = 84527, -- hidden
+    sublabel = L['naga_sublabel'],
+    rewards = {Transmog({item = 229181})} -- Ordained Forge Maul
+}) -- Pilfered Earthen Chest
 
 -------------------------------------------------------------------------------
 ----------------------------------- VENDOR ------------------------------------

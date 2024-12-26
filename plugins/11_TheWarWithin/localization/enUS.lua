@@ -376,6 +376,7 @@ L['runed_storm_chest_note'] = 'Follow the wind to a hidden {object:Runed Storm C
 L['flame_blessed_iron_item'] = 'Return this item for bonus {currency:3090}.'
 
 L['barnacle_encrusted_chest'] = 'Barnacle-Encrusted Chest'
+L['pilfered_earthen_chest'] = 'Pilfered Earthen Chest'
 
 L['soweezi_note'] = 'Exchange {currency:3090} for a mount, toy, pet, or transmog.'
 

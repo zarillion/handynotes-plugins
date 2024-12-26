@@ -379,6 +379,7 @@ L['runed_storm_chest_note'] = 'Folge dem Wind zu einer versteckten {object:Runen
 L['flame_blessed_iron_item'] = 'Bringe diesen Gegenstand für Bonus {currency:3090} zurück.'
 
 L['barnacle_encrusted_chest'] = 'Seepockenverkrustete Truhe'
+L['pilfered_earthen_chest'] = nil
 
 L['soweezi_note'] = 'Tausche {currency:3090} gegen ein Reittier, ein Haustier, ein Spielzeug oder Ausrüstungsvorlagen ein.'
 
