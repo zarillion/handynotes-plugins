@@ -236,14 +236,14 @@ L['options_icons_beacon_of_hope_desc'] = 'Отображение малых кл
 
 L['beacon_of_hope_note'] = 'Внесите вклад {item:206350}, чтобы зажечь малые ключевые огни и выполнить следующие задания.'
 
-L['parasidious_note'] = 'Purchase 1x {item:206670} from {npc:206533} (light up the {object:Lesser Keyflame} to spawn him) then go to the {location:Duskrise Acreage} and pull {npc:206870} until the rare spawns. {note: Only spawns if the {npc:206978} is in this location}.'
+L['parasidious_note'] = 'Купите 1x {item:206670} у {npc:206533} (зажгите {object:Малый ключевой огонь}, чтобы вызвать его), затем идите на {location:подъем Сумерек} и тяните {npc:206870}, пока не появится редкий монстр. {note: Появляется только если {npc:206978} находится в этом месте}.'
 
 L['options_icons_flamegards_hope'] = '{achievement:20594}'
 L['options_icons_flamegards_hope_desc'] = 'Отображение местоположения для достижения {achievement:20594}.'
 L['flamegards_hope_note'] = 'Помогайте {npc:213319} в течении 20 дней исцелять {npc:220225}.\n\nВы также можете использовать {spell:372009} или {item:211878}, если ваш класс не может лечить.'
 
 L['hallowfall_sparkfly_label'] = 'Искромуха Тайносводья'
-L['hallowfall_sparkfly_note'] = 'Use 3x {item:206350} at the {object:Lesser Keyflame} in {location:Stillstone Pond} to summon {npc:215956}.\n\nPurchase {item:218107} for 2x {item:206350} and use it to reveal {npc:222308} nearby until {object:Hallowfall Sparkfly} appears.'
+L['hallowfall_sparkfly_note'] = 'Используйте 3x {item:206350} на {object:Малом ключевом огоне} в {location:пруду Тихих камней}, чтобы призвать {npc:215956}.\n\nКупите {item:218107} за 2x {item:206350} и используйте его, чтобы обнаружить {npc:222308} поблизости, пока не появится {object:Искромуха Тайносводья}.'
 
 L['nightfarm_growthling_note'] = 'Use 3x {item:206350} at the {object:Lesser Keyflame} in {location:The Whirring Field} to summon {npc:208186}.\n\nPurchase {item:219148} for 2x {item:206350} and use it to reveal {item:221546}.'
 
