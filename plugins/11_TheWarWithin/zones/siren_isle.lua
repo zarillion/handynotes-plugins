@@ -437,7 +437,7 @@ map.nodes[68409440] = Treasure({
     location = L['in_water'],
     quest = 84527, -- hidden
     sublabel = L['naga_sublabel'],
-    rewards = {Transmog({item = 229181})} -- Ordained Forge Maul
+    rewards = {Transmog({item = 229181, slot = L['2h_mace']})} -- Ordained Forge Maul
 }) -- Pilfered Earthen Chest
 
 -------------------------------------------------------------------------------
