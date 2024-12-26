@@ -376,7 +376,7 @@ L['runed_storm_chest_note'] = 'Sigue el viento hasta un {object:Alijo de torment
 L['flame_blessed_iron_item'] = 'Devuelve este objeto para {currency:3090} extra.'
 
 L['barnacle_encrusted_chest'] = 'Cofre con incrustaciones de percebes'
-L['pilfered_earthen_chest'] = nil
+L['pilfered_earthen_chest'] = 'Cofre terráneo birlado'
 
 L['soweezi_note'] = 'Cambia {currency:3090} por una montura, juguete, mascota, o transfiguración.'
 
