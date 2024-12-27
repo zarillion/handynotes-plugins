@@ -397,7 +397,7 @@ L['prismatic_day'] = '第 %d 天'
 
 L['pris_quest_1'] = '生命線' -- https://www.wowhead.com/quest=86482/a-lifeline
 L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
-L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
+L['pris_quest_3'] = '暴風壞脾氣' -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
 L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
 
 L['unsolved_amethyst_runelock'] = '未解的紫晶符文鎖'
