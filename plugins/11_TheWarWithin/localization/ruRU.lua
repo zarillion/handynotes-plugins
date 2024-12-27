@@ -347,8 +347,8 @@ L['tsw_chest_2_note'] = '{note:Доступно только в варианте
 L['tsw_chest_3_location'] = 'Высоко на колонне возле спуска в сокровищницу.'
 L['tsw_chest_4_location'] = 'Высоко на балке. Спрыгни со столба около другого сундука.'
 L['tuk_chest_1_note'] = 'За статуей.'
-L['tuk_chest_2_note'] = '{note:Only available in the "Runaway Evolution" and "Torture Victims" story variants.}'
-L['tuk_chest_3_note'] = '{note:Only available in the "Runaway Evolution" and "Weaver Rescue" story variants.}'
+L['tuk_chest_2_note'] = '{note:Доступно только в вариантах сюжета "Ошеломительная эволюция" и "Жертвы пыток".}'
+L['tuk_chest_3_note'] = '{note:Доступно только в вариантах сюжета "Ошеломительная эволюция" и "Спасение Прядильщицы".}'
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
