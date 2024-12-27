@@ -284,23 +284,23 @@ L['smelling_history_11_location'] = 'Книга на столике возле �
 L['smelling_history_12_location'] = 'Внутри здания на столе.'
 
 L['options_icons_skittershaw_spin'] = '{achievement:40727}'
-L['options_icons_skittershaw_spin_desc'] = 'Display Skittershaw route locations for {achievement:40727} achievement.'
-L['skittershaw_spin_note'] = 'Ride the {npc:224973} for a full lap around the district.\n\nThe {npc:224973} will stop at the {dot:Red} points along the route.'
+L['options_icons_skittershaw_spin_desc'] = 'Показать расположение маршрутов быстрохода для достижения {achievement:40727}.'
+L['skittershaw_spin_note'] = 'Прокатитесь на {npc:224973} по всему району.\n\n{npc:224973} остановится в точках {dot:Red} вдоль маршрута.'
 
 L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
-L['options_icons_no_harm_from_reading_desc'] = 'Display {npc:227421} locations for {achievement:40632} achievement.'
+L['options_icons_no_harm_from_reading_desc'] = 'Показать {npc:227421} для достижения {achievement:40632}.'
 L['no_harm_from_reading_note'] = [[
-Enter the ({dot:Yellow}) Cave, and head to the ({dot:Red}) and climb the wall where the 3 spiders are located and enter the hole behind the spider at the top.
+Войдите в ({dot:Yellow}) пещеру, направляйтесь в ({dot:Red}) и поднимитесь по стене, где находятся 3 паука, и войдите в отверстие позади паука наверху.
 
-Once you have fallen through interact with the nearby {object:Fleshy Grimoire} to spawn the 4 {npc:227421}.
+После того, как вы провалитесь, взаимодействуйте с ближайшим {object:Гримуаром плоти}, чтобы вызвать 4 {npc:227421}.
 
-The {npc:227421} will then disappear and reappear around the map.
+Затем {npc:227421} исчезнут и снова появится на карте.
 
-Track down each {npc:227421} and interact with them to return them back to the {object:Fleshy Grimoire}.
+Выследите каждого {npc:227421} и взаимодействуйте с ними, чтобы вернуть их обратно в {object:Гримуар плоти}.
 
-Once you have found all 4 {npc:227421}, head back to the {object:Fleshy Grimoire} and talk to the {npc:227421}.
+Как только вы найдете все 4 {npc:227421}, возвращайтесь к {object:Гримуару плоти} и поговорите с {npc:227421}.
 ]]
-L['another_you_4_note'] = 'Patrols along the marked path.'
+L['another_you_4_note'] = 'Патрули по обозначенному маршруту.'
 
 L['concealed_contraband_note'] = 'Удалите {object:Кокон из паутины} из Сокровища, чтобы увидеть его.'
 L['memory_cache_note'] = 'Получите {spell:420847} из ближайшего ({dot:Red}) {object:Хранилища экстрактора}. После убейте {npc:223908}, чтобы получить {item:223870} и открыть {object:Хранилище памяти}.'
