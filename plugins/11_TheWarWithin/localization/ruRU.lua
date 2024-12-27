@@ -262,14 +262,14 @@ L['itsy_bitsy_spider_note'] = '{emote:/помахать} {npc:плетеныша
 L['options_icons_bookworm'] = '{achievement:40629}'
 L['options_icons_bookworm_desc'] = 'Показать расположение книг для достижения {achievement:40629}.'
 
-L['nerubian_potion_note'] = 'Purchase a {item:225784} ({note:buff lasts 10 minutes}) from {npc:218192} for 33x {currency:3056}.'
-L['bookworm_note'] = '{note:You can also complete the achievement {achievement:40542} with the {item:225784}.}'
-L['bookworm_1_location'] = 'At the entrance of the small cave.'
+L['nerubian_potion_note'] = 'Купите {item:225784} ({note:бафф длится 10 минут}) у {npc:218192} за 33x {currency:3056}.'
+L['bookworm_note'] = '{note:Вы также можете выполнить достижение {achievement:40542} с помощью {item:225784}.}'
+L['bookworm_1_location'] = 'У входа в маленькую пещеру.'
 
 L['options_icons_smelling_history'] = '{achievement:40542}'
-L['options_icons_smelling_history_desc'] = 'Display book locations for {achievement:40542} achievement.'
+L['options_icons_smelling_history_desc'] = 'Показать расположение книг для достижения {achievement:40542}.'
 
-L['smelling_history_note'] = '{note:You can also complete the achievement {achievement:40629} with the {item:225784}.}'
+L['smelling_history_note'] = '{note:Вы также можете выполнить достижение {achievement:40629} с помощью {item:225784}.}'
 L['smelling_history_1_location'] = 'Внутри здания на прилавке.'
 L['smelling_history_2_location'] = 'Свиток находится на сундуке.'
 L['smelling_history_3_location'] = 'Свиток лежит на столе.'
