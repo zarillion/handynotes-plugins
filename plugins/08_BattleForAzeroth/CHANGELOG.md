@@ -1,3 +1,7 @@
+# v112
+
+* Remove [I Thought You Said They'd Be Rare?](https://www.wowhead.com/achievement=13691/i-thought-you-said-theyd-be-rare) achievement from some rares in Nazjatar
+
 # v98
 
 * Localization updates: esES
