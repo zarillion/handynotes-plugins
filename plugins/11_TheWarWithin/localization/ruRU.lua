@@ -401,8 +401,8 @@ L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
 L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
 L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
 
-L['unsolved_amethyst_runelock'] = 'Unsolved Amethyst Runelock'
-L['bilge_rat_supply_chest'] = 'Bilge Rat Supply Chest'
+L['unsolved_amethyst_runelock'] = 'Неразгаданный Аметистовый рунический замок'
+L['bilge_rat_supply_chest'] = 'Сундук с припасами братства Трюмных Крыс'
 
 L['stone_carvers_scamseax_note'] = nil
 
