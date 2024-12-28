@@ -354,9 +354,9 @@ L['tuk_chest_3_note'] = '{note:Доступно только в варианта
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['the_drowned_lair_note'] = 'Contribute {currency:3090} to {location:The Drowned Lair} at the {object:Siren Isle Command Map} to open this cave and spawn the rare.'
-L['the_drain_note'] = 'Contribute {currency:3090} to {location:The Drain} at the {object:Siren Isle Command Map} to open this cave and spawn the rare.'
-L['shuddering_hollow_note'] = 'Contribute {currency:3090} to {location:Shuddering Hollow} at the {object:Siren Isle Command Map} to open this cave and spawn the rare.'
+L['the_drowned_lair_note'] = 'Внесите {currency:3090} на раскопки {location:Затопленной берлоги} используя {object:Стратегическую карту острова Сирен}, чтобы открыть эту пещеру и призвать редкого монстра.'
+L['the_drain_note'] = 'Внесите {currency:3090} на раскопки {location:Стоков} используя {object:Стратегическую карту острова Сирен}, чтобы открыть эту пещеру и призвать редкого монстра.'
+L['shuddering_hollow_note'] = 'Внесите {currency:3090} на раскопки {location:Трясучей лощины} используя {object:Стратегическую карту острова Сирен}, чтобы открыть эту пещеру и призвать редкого монстра.'
 
 L['vrykul_sublabel'] = '{note:Доступно только с вторжением {npc:врайкулов} на остров.}'
 L['naga_sublabel'] = '{note:Доступно только с вторжением {npc:наг} на остров.}'
