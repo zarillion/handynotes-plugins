@@ -362,7 +362,7 @@ L['vrykul_sublabel'] = '{note:Доступно только с вторжени�
 L['naga_sublabel'] = '{note:Доступно только с вторжением {npc:наг} на остров.}'
 L['pirate_sublabel'] = '{note:Доступно только с вторжением {npc:пиратов} на остров.}'
 
-L['storm_required'] = 'Требуется активный шторм %s на {location:Острове Сирен}.' -- %s becomes "(icon) [Seafury Tempest]"
+L['storm_required'] = 'Требуется активная буря %s на {location:Острове Сирен}.' -- %s becomes "(icon) [Seafury Tempest]"
 L['slaughtershell_location'] = 'Бродит по всему {location:Острову Сирен}.'
 
 L['within_the_forgotten_vault'] = nil
@@ -396,7 +396,7 @@ L['turbulent_fragment_c'] = 'Loot the {object:Runic Fragment} held by the {npc:K
 L['prismatic_snapdragon_note_start'] = 'Over the course of 8 days, help save the {npc:235216} in the {location:Flotsam Shoal} to recieve {item:233489}.\n\n{note:You can miss a day but there is no catch-up mechanic}.'
 L['prismatic_day'] = 'Day %d' -- "Day 1" or "Day 4" or "Day 7"
 
-L['pris_quest_1'] = nil -- https://www.wowhead.com/quest=86482/a-lifeline
+L['pris_quest_1'] = 'Спасение диких животных' -- 86482
 L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
 L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
 L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
@@ -404,7 +404,7 @@ L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-frien
 L['unsolved_amethyst_runelock'] = 'Неразгаданный Аметистовый рунический замок'
 L['bilge_rat_supply_chest'] = 'Сундук с припасами братства Трюмных Крыс'
 
-L['stone_carvers_scamseax_note'] = nil
+L['stone_carvers_scamseax_note'] = 'Соберите {object:Сияющий цитрин} ({dot:Yellow}), чтобы получить бафф {spell:1216785} на 2 минуты, позволяющий вам добыть {item:233834}.'
 
 L['marmaduke_note'] = nil
 
