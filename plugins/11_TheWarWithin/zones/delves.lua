@@ -28,6 +28,9 @@ local ski = Map({id = 2310, settings = false}) -- Skittering Breach
 local nfs = Map({id = 2277, settings = false}) -- Nightfall Sanctum
 local tra = Map({id = 2259, settings = false}) -- Tak-Rethan Abyss
 
+local esn = Map({id = nil, settings = false}) -- Excavation Site 9
+local sss = Map({id = nil, settings = false}) -- Sidestreet Sluice
+
 -------------------------------------------------------------------------------
 
 local SturdyChest = Class('SturdyChest', Treasure, {
@@ -440,6 +443,54 @@ tra.nodes[35135863] = SturdyChest({
 }) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
+------------------------------ EXCAVATION SITE 9 ------------------------------
+-------------------------------------------------------------------------------
+
+esn.nodes[00000000] = SturdyChest({
+    achievementID = 41100,
+    rlabel = ns.status.Gray('#1')
+}) -- Sturdy Chest 1
+
+esn.nodes[00000000] = SturdyChest({
+    achievementID = 41100,
+    rlabel = ns.status.Gray('#2')
+}) -- Sturdy Chest 2
+
+esn.nodes[00000000] = SturdyChest({
+    achievementID = 41100,
+    rlabel = ns.status.Gray('#3')
+}) -- Sturdy Chest 3
+
+esn.nodes[00000000] = SturdyChest({
+    achievementID = 41100,
+    rlabel = ns.status.Gray('#4')
+}) -- Sturdy Chest 4
+
+-------------------------------------------------------------------------------
+------------------------------ SIDESTREET SLUICE ------------------------------
+-------------------------------------------------------------------------------
+
+sss.nodes[00000000] = SturdyChest({
+    achievementID = 41101,
+    rlabel = ns.status.Gray('#1')
+}) -- Sturdy Chest 1
+
+sss.nodes[00000000] = SturdyChest({
+    achievementID = 41101,
+    rlabel = ns.status.Gray('#2')
+}) -- Sturdy Chest 2
+
+sss.nodes[00000000] = SturdyChest({
+    achievementID = 41101,
+    rlabel = ns.status.Gray('#3')
+}) -- Sturdy Chest 3
+
+sss.nodes[00000000] = SturdyChest({
+    achievementID = 41101,
+    rlabel = ns.status.Gray('#4')
+}) -- Sturdy Chest 4
+
+-------------------------------------------------------------------------------
 -------------------------- DELVE REWARDS (AREAPOIS) ---------------------------
 -------------------------------------------------------------------------------
 
@@ -448,7 +499,8 @@ local maps = {
     ns.maps[2215], -- Hallowfall
     ns.maps[2248], -- Isle of Dorn
     ns.maps[2255], -- Azj-Kahet - Upper
-    ns.maps[2256] -- Azj-Kahet - Lower
+    ns.maps[2256], -- Azj-Kahet - Lower
+    ns.maps[nil] -- Undermine
 }
 
 for _, m in pairs(maps) do
@@ -545,7 +597,10 @@ local DELVE_REWARDS = {
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
         }), Achievement({id = 40533, criteria = {68776, 68777, 68778}}),
         Achievement({id = 40454, oneline = true}) -- Daystormer
-    }
+    },
+    ---------------------------------------------------------------------------
+    ['excavation_site_9'] = {Achievement({id = 41098, criteria = {1, 2, 3}})},
+    ['side_street_sluice'] = {Achievement({id = 41099, criteria = {1, 2, 3}})}
 }
 
 local DELVE_AREA_POIS = {
@@ -562,7 +617,8 @@ local DELVE_AREA_POIS = {
     [7872] = DELVE_REWARDS['the_underkeep'],
     [7873] = DELVE_REWARDS['tek_rethan_abyss'],
     [7874] = DELVE_REWARDS['the_spiral_weave'],
-    -- [7875] = DELVE_REWARDS['zekvirs_lair']
+    [9996] = DELVE_REWARDS['excavation_site_9'],
+    [9997] = DELVE_REWARDS['side_street_sluice'],
     -- BOUNTIFUL DELVES -------------------------------------------------------
     [7779] = DELVE_REWARDS['fungal_folly'],
     [7780] = DELVE_REWARDS['mycomancer_cavern'],
@@ -575,7 +631,9 @@ local DELVE_AREA_POIS = {
     [7787] = DELVE_REWARDS['earthcrawl_mines'],
     [7788] = DELVE_REWARDS['the_dread_pit'],
     [7789] = DELVE_REWARDS['skittering_breach'],
-    [7790] = DELVE_REWARDS['the_spiral_weave']
+    [7790] = DELVE_REWARDS['the_spiral_weave'],
+    [9998] = DELVE_REWARDS['excavation_site_9'],
+    [9999] = DELVE_REWARDS['side_street_sluice']
 }
 
 hooksecurefunc(DelveEntrancePinMixin, 'OnMouseEnter', function(self)
