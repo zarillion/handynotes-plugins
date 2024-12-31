@@ -427,6 +427,11 @@ map.nodes[74035329] = Treasure({
 
 map.nodes[62449084] = Treasure({
     label = L['bilge_rat_supply_chest'],
+    note = L['bilge_rat_supply_chest_note'],
+    pois = {
+        POI({59796910}), -- First Mate Shellshock
+        Path({59796910, 62449084})
+    },
     quest = 84529, -- hidden
     sublabel = L['pirate_sublabel'],
     requires = ns.requirement.Item(228621) -- Bilge Rat Supply Key

@@ -402,6 +402,7 @@ L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-frien
 
 L['unsolved_amethyst_runelock'] = '未解的紫晶符文鎖'
 L['bilge_rat_supply_chest'] = nil
+L['bilge_rat_supply_chest_note'] = nil
 
 L['stone_carvers_scamseax_note'] = '收集一個 {object:璀璨黃水晶} ({dot:Yellow}) 來獲得2分鐘的增益 {spell:1216785} 以允許你拾取 {item:233834}.'
 

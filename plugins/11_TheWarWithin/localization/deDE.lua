@@ -405,6 +405,7 @@ L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-frien
 
 L['unsolved_amethyst_runelock'] = 'Ungelöstes Amethystrunenschloss'
 L['bilge_rat_supply_chest'] = 'Vorratstruhe der Bilgeratten'
+L['bilge_rat_supply_chest_note'] = nil
 
 L['stone_carvers_scamseax_note'] = 'Sammle den {object:Strahlender Citrin} ({dot:Yellow}), um den Stärkungszauber {spell:1216785} (2 Minuten) zu erhalten, der es dir erlaubt die {item:233834} zu plündern.'
 

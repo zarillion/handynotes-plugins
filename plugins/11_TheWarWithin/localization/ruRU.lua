@@ -403,6 +403,7 @@ L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-frien
 
 L['unsolved_amethyst_runelock'] = 'Неразгаданный Аметистовый рунический замок'
 L['bilge_rat_supply_chest'] = 'Сундук с припасами братства Трюмных Крыс'
+L['bilge_rat_supply_chest_note'] = nil
 
 L['stone_carvers_scamseax_note'] = 'Соберите {object:Сияющий цитрин} ({dot:Yellow}), чтобы получить бафф {spell:1216785} на 2 минуты, позволяющий вам добыть {item:233834}.'
 
