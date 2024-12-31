@@ -403,7 +403,7 @@ L['pris_quest_4'] = 'Un ami loyal'
 
 L['unsolved_amethyst_runelock'] = 'Verrou runique en améthyste non résolu'
 L['bilge_rat_supply_chest'] = 'Coffre de fournitures des Soutaillons'
-L['bilge_rat_supply_chest_note'] = nil
+L['bilge_rat_supply_chest_note'] = 'Récupérez la {item:228621} lachée par le {npc:228582} non loin de là pour ouvrir le coffre.'
 
 L['stone_carvers_scamseax_note'] = 'Ramassez une {object:Citrine radieuse} ({dot:Yellow}) pour bénéficier de l\'amélioration {spell:1216785} pendant 2 minutes, ce qui vous permet de récupérer le {item:233834}.'
 
