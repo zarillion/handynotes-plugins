@@ -402,7 +402,7 @@ L['pris_quest_4'] = 'Un amigo leal'
 
 L['unsolved_amethyst_runelock'] = 'Bloqueo de runas amatista'
 L['bilge_rat_supply_chest'] = 'Cofre de suministros de las Ratas de Pantoque'
-L['bilge_rat_supply_chest_note'] = nil
+L['bilge_rat_supply_chest_note'] = 'Recoge la {item:228621} al matar el {npc:228582} cercano para abrir el cofre.'
 
 L['stone_carvers_scamseax_note'] = 'Recoge un {object:Citrino radiante} ({dot:Yellow}) para recibir el buff {spell:1216785} durante 2 minutos que permitirá despojar {item:233834}.'
 
