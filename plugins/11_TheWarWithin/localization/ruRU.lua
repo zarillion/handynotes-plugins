@@ -383,11 +383,11 @@ L['soweezi_note'] = 'Обменяйте {currency:3090} на средства п
 
 L['thrayir_note_start'] = 'Соберите 5 ключей из рунного камня по всему {location:Острову Сирен} и завершите ритуал в {location:Забытом хранилище}, чтобы получить {item:232639}:'
 
-L['whirling_runekey_note'] = 'Выпадает из {npc:231368} в {location:Забытом хранилище} во время бури.'
-L['torrential_runekey_note'] = 'Выпадает из любого монстра (обычного, элитного или редкого) на {location:Острове Сирен} во время бури.'
-L['thunderous_runekey_note'] = 'Требуется 5x {item:232605}, найденных в {note:любом} сундуке на {location:Острове Сирен}. {note:Не требует бури}.'
-L['cyclonic_runekey_note'] = 'Выпадает из {npc:231357} в {location:Топи Мертвого Плавника} на {location:Острове Сирен} во время бури. Или добудьте его с помощью рыбной ловли неподалеку.'
-L['turbulent_runekey_note'] = 'Требуется 3x {item:234327}, найденных разбросанными вокруг {location:Острова Сирен} во время бури.'
+L['whirling_runekey_note'] = 'Выпадает из {npc:231368} в {location:Забытом хранилище} во время {spell:458069}.'
+L['torrential_runekey_note'] = 'Требуется 7x {item:234328}, падают из {note:любого} монстра (обычного, элитного или редкого) на {location:Острове Сирен} во время {spell:458069}..'
+L['thunderous_runekey_note'] = 'Требуется 5x {item:232605}, найденных в {note:любом} сундуке на {location:Острове Сирен}. {note:Не требует {spell:458069}}.'
+L['cyclonic_runekey_note'] = 'Выпадает из {npc:231357} в {location:Топи Мертвого Плавника} на {location:Острове Сирен} во время {spell:458069}. Или добудьте его с помощью рыбной ловли неподалеку.'
+L['turbulent_runekey_note'] = 'Требуется 3x {item:234327}, найденных разбросанными вокруг {location:Острова Сирен} во время {spell:458069}.'
 
 L['turbulent_fragment_a'] = 'Hidden in a {object:Dirt Pile} behind the {location:Salt and Shany} inn near the digging {npc:Kul Tiran} ghost.'
 L['turbulent_fragment_b'] = 'Loot the {object:Runic Fragment} in front of the cowering {npc:Kul Tiran} ghost inside a cave in the {location:Rotting Hole}.'
