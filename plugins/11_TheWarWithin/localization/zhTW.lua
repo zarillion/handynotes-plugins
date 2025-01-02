@@ -398,11 +398,11 @@ L['prismatic_day'] = '第 %d 天'
 L['pris_quest_1'] = '生命線' -- https://www.wowhead.com/quest=86482/a-lifeline
 L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
 L['pris_quest_3'] = '暴風壞脾氣' -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
-L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
+L['pris_quest_4'] = '忠誠的朋友' -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
 
 L['unsolved_amethyst_runelock'] = '未解的紫晶符文鎖'
-L['bilge_rat_supply_chest'] = nil
-L['bilge_rat_supply_chest_note'] = nil
+L['bilge_rat_supply_chest'] = '污鼠會補給箱'
+L['bilge_rat_supply_chest_note'] = '從附近的 {npc:228582} 收集 {item:228621} 來打開箱子.'
 
 L['stone_carvers_scamseax_note'] = '收集一個 {object:璀璨黃水晶} ({dot:Yellow}) 來獲得2分鐘的增益 {spell:1216785} 以允許你拾取 {item:233834}.'
 
