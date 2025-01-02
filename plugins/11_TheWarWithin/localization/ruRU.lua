@@ -394,7 +394,7 @@ L['turbulent_fragment_b'] = 'Loot the {object:Runic Fragment} in front of the co
 L['turbulent_fragment_c'] = 'Loot the {object:Runic Fragment} held by the {npc:Kul Tiran} ghost inside the {location:Spirit Scarred Cave}.'
 
 L['prismatic_snapdragon_note_start'] = 'Over the course of 8 days, help save the {npc:235216} in the {location:Flotsam Shoal} to recieve {item:233489}.\n\n{note:You can miss a day but there is no catch-up mechanic}.'
-L['prismatic_day'] = 'Day %d' -- "Day 1" or "Day 4" or "Day 7"
+L['prismatic_day'] = 'День %d' -- "Day 1" or "Day 4" or "Day 7"
 
 L['pris_quest_1'] = 'Спасение диких животных' -- 86482
 L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
@@ -403,7 +403,7 @@ L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-frien
 
 L['unsolved_amethyst_runelock'] = 'Неразгаданный Аметистовый рунический замок'
 L['bilge_rat_supply_chest'] = 'Сундук с припасами братства Трюмных Крыс'
-L['bilge_rat_supply_chest_note'] = nil
+L['bilge_rat_supply_chest_note'] = 'Заберите {item:228621} у {npc:228582}, чтобы открыть сундук.'
 
 L['stone_carvers_scamseax_note'] = 'Соберите {object:Сияющий цитрин} ({dot:Yellow}), чтобы получить бафф {spell:1216785} на 2 минуты, позволяющий вам добыть {item:233834}.'
 
