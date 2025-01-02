@@ -393,7 +393,7 @@ L['turbulent_fragment_a'] = 'Hidden in a {object:Dirt Pile} behind the {location
 L['turbulent_fragment_b'] = 'Loot the {object:Runic Fragment} in front of the cowering {npc:Kul Tiran} ghost inside a cave in the {location:Rotting Hole}.'
 L['turbulent_fragment_c'] = 'Loot the {object:Runic Fragment} held by the {npc:Kul Tiran} ghost inside the {location:Spirit Scarred Cave}.'
 
-L['prismatic_snapdragon_note_start'] = 'Over the course of 8 days, help save the {npc:235216} in the {location:Flotsam Shoal} to recieve {item:233489}.\n\n{note:You can miss a day but there is no catch-up mechanic}.'
+L['prismatic_snapdragon_note_start'] = 'В течение 10 дней помогите спасти {npc:235216} на {location:Отмели Обломков}, чтобы получить {item:233489}.\n\n{note:Вы можете пропустить день, но нет механизма наверстывания упущенного}.'
 L['prismatic_day'] = 'День %d' -- "Day 1" or "Day 4" or "Day 7"
 
 L['pris_quest_1'] = 'Спасение диких животных' -- 86482
