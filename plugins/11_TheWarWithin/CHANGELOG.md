@@ -1,3 +1,7 @@
+# v113
+
+* Localization updates: ruRU, zhTW
+
 # v112
 
 * Localization updates: esES, frFR, ruRU, zhCN, zhTW
