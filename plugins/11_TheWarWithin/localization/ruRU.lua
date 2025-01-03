@@ -413,13 +413,13 @@ L['marmaduke_note'] = '1. Заберите {item:233027} с верхнего э�
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
-L['options_icons_secrets_of_azeroth_desc'] = 'Display clue locations for {location:Secrets of Azeroth}.'
+L['options_icons_secrets_of_azeroth'] = 'Тайны Азерота'
+L['options_icons_secrets_of_azeroth_desc'] = 'Показать расположение подсказок для {location:Тайн Азерота}.'
 
-L['alyx_kickoff_note'] = 'Speak with {npc:226683} to enable the new Secrets of Azeroth puzzles.'
+L['alyx_kickoff_note'] = 'Поговорите с {npc:226683}, чтобы активировать новые головоломки Тайн Азерота.'
 
-L['celebration_crates_label'] = 'Celebration Crates'
-L['celebration_crates_note'] = 'Find and return all {object:Celebration Crates} hidden throughout {location:Azeroth}.'
+L['celebration_crates_label'] = 'Ящики с праздника'
+L['celebration_crates_note'] = 'Найдите и верните все {object:Ящики с праздника}, спрятанные по всему {location:Азероту}.'
 
 L['1_soggy_celebration_crate_note'] = 'Purchase a {item:225996} from {npc:143029} ({dot:Blue}) at {location:The Dive Bar} and give it to {npc:189119} to reveal the {item:226200}.'
 L['2_hazy_celebration_crate_note'] = 'While alive, look for the area with glowing green light. {note:However, you must be dead to reveal the {item:232263}.}'
@@ -460,18 +460,18 @@ L['karazhan_catacombs_label'] = 'Karazhan Catacombs'
 L['karazhan_catacombs_entrance_note'] = 'Collect the {item:44124} starting in {location:Un\'Goro Crater} in {location:Kalimdor}\n\nCollect the {item:228938} starting in {location:Dornogal} in {location:Khaz Algar}\n\nCombine the gem and the key to form the {item:44124}.\n\nWith the {item:44124} in your bag and the {item:208092} active approach the gate to reveal a red instance entrance.'
 
 -- ORB 1
-L['orb_1_label'] = 'Orb 1'
+L['orb_1_label'] = 'Шар 1'
 L['orb_1_note'] = 'Use the {item:208092} at each location involving {npc:228249} and gain 1 of 3 stacks of {spell:153715}.'
 L['orb_1_locations'] = '1. {location:Northern Barrens} in {location:Kalimdor}\n2. {location:Nagrand} in {location:Draenor}\n3. {location:Maldraxxus} in {location:The Shadowlands}'
 L['humble_monument'] = 'Humble Monument'
 L['olgra_location'] = '{note:Location changes based on the completion of {quest:35170}.}'
 
 -- ORB 2
-L['orb_2_label'] = 'Orb 2'
+L['orb_2_label'] = 'Шар 2'
 L['orb_2_note'] = 'Stand next to the {npc:153297} using one of the following gifts of {npc:147393}:\n\n{item:168123}\n{item:175140}\n{item:168004}\n\nSummon {item:49912} and using one of the following costumes:\n\n{item:229413}\n{item:116812}\n\nType {emote:/pray} and wait to receive the {item:53156}.\n\n{note:Other players around completing the above steps you can also obtain {item:53156}.}\n\nReturn to the {location:Karazhan Catacombs} and use the key to open both doors in the room with the fountain.'
 
 -- ORB 3
-L['orb_3_label'] = 'Orb 3'
+L['orb_3_label'] = 'Шар 3'
 
 L['astral_soup_label'] = 'Astral Soup'
 L['astral_chest_label'] = 'Astral Chest'
@@ -499,20 +499,20 @@ L['slot_machine_note_e'] = '{object:Code}: 777, 77777 or 7777777'
 L['slot_machine_vendor_note'] = 'Purchase these items for the {object:"Feeling Lucky?" Slot Machine}.'
 
 -- ORB 4
-L['orb_4_label'] = 'Orb 4'
+L['orb_4_label'] = 'Шар 4'
 L['vashti_note'] = 'Purchase {item:228987} from {npc:91079} for %s.'
 L['uthers_tomb_label'] = 'Uther\'s Tomb'
 L['uthers_tomb_note'] = 'Summon a {npc:231482} to {location:Uther\'s Tomb} in the {location:Western Plaguelands}.\n\nUse a {item:228987} sold by {npc:91079} in {location:Azsuna} or have a Warlock use {spell:342601}.\n\nOnce you die and resurrect, read the hidden graffiti.\n\n{note:The graffiti will remain as long as the {npc:231482} stays alive, so do not kill it!}'
 
 -- ORB 5
-L['orb_5_label'] = 'Orb 5'
+L['orb_5_label'] = 'Шар 5'
 L['jeremy_feasel_note'] = '{npc:232048} is hidden in the {location:Cavern of Lost Spirits} in the {location:Timeless Isle}.\n\nDefeat {npc:232048} in a pet battle using only battle pets from past secrets.%s\n\nOnce you win, complete {quest:84781} to receive the {item:228995}.\n\nYou can now visit the {npc:230310} in {location:Booty Bay}.'
 L['zarhym_note'] = 'Speak with {npc:71876} within the cave to enter the spirit realm.'
 L['pointless_treasure_salesman_location'] = 'Hidden within the goblin statue at {location:Janeiro\'s Point}.'
 L['pointless_treasure_salesman_note'] = 'Purchase the {item:228996}:'
 
 -- ORB 6
-L['orb_6_label'] = 'Orb 6'
+L['orb_6_label'] = 'Шар 6'
 L['blood_altar_label'] = 'Blood Altar'
 L['corrupt_altar_label'] = 'Corrupt Altar'
 L['lust_altar_label'] = 'Lust Altar'
@@ -530,7 +530,7 @@ L['chest_of_acquisitions_label'] = 'Chest of Acquisitions'
 L['chest_of_acquisitions_note'] = '1. Appease all the spirits at the altars in {location:Zul\'Gurub} in {location:Northern Stranglethorn}.\n\n2. Equip the {item:228966} and loot the {object:Chest of Acquisitions} to receive the {item:229007}.'
 
 -- Orb 7
-L['orb_7_label'] = 'Orb 7'
+L['orb_7_label'] = 'Шар 7'
 L['orb_7_summary'] = '1. Begin at on the {location:Isle of the Watchers} in {location:Azsuna}.\n\n2. Empower your {pet:1716} with the various {object:Owl of the Watchers} statues around the island.\n\n3. Enter the {location:Vault of the Wardens} and defeat the bosses to reveal a secret {item:229046}.\n\n4. Use the {item:229046} to begin a challenging logic puzzle and ultimately reveal a chest containing the {item:229054}.'
 
 L['marin_bladewing_note'] = 'Purchase the {pet:1716} from {npc:107379} for %s after reaching %s with {faction:1894} or from the {location:Auction House}.'
@@ -541,7 +541,7 @@ L['sentry_statue_note'] = '1. Defeat {npc:95885} to open the secret room within 
 L['sentry_note'] = '1. Place the {item:229046} here at the entrance to spawn a {npc:109300}.\n\n2. Interact with the {npc:109300} to begin the puzzle. The goal is to lower all {npc:98082} into the floor.\n\n3. Once complete, loot the {object:Treasure of the Wardens} to recieve the {item:229054}.'
 
 -- Orb 8
-L['orb_8_label'] = 'Orb 8'
+L['orb_8_label'] = 'Шар 8'
 
 L['enigma_machine_label'] = 'Enigma Machine'
 L['enigma_machine_note'] = '1. Insert the {item:229007} and {item:229054} into the {object:Enigma Machine}.\n\n2. Click Begin and then click Submit. You must now unlock 7 hidden locks.\n\n3. Unlock a lock by counting each {npc:230596} in the instance, dragging the correct amount of statues to the correct platform, and clicking Submit again.\n\n{note:It is recommended to kill, but not count, each {npc:230599} to prevent them from standing on the platforms.}'
@@ -562,6 +562,6 @@ L['lock_label'] = 'Lock %d'
 L['code_label'] = '%d on %s'
 
 -- Orb 9
-L['orb_9_label'] = 'Orb 9'
+L['orb_9_label'] = 'Шар 9'
 
 L['ak_decryption_console_note'] = nil
