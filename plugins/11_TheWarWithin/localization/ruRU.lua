@@ -389,9 +389,9 @@ L['thunderous_runekey_note'] = 'Требуется 5x {item:232605}, найде�
 L['cyclonic_runekey_note'] = 'Выпадает из {npc:231357} в {location:Топи Мертвого Плавника} на {location:Острове Сирен} во время {spell:458069}. Или добудьте его с помощью рыбной ловли неподалеку.'
 L['turbulent_runekey_note'] = 'Требуется 3x {item:234327}, найденных разбросанными вокруг {location:Острова Сирен} во время {spell:458069}.'
 
-L['turbulent_fragment_a'] = 'Hidden in a {object:Dirt Pile} behind the {location:Salt and Shany} inn near the digging {npc:Kul Tiran} ghost.'
-L['turbulent_fragment_b'] = 'Loot the {object:Runic Fragment} in front of the cowering {npc:Kul Tiran} ghost inside a cave in the {location:Rotting Hole}.'
-L['turbulent_fragment_c'] = 'Loot the {object:Runic Fragment} held by the {npc:Kul Tiran} ghost inside the {location:Spirit Scarred Cave}.'
+L['turbulent_fragment_a'] = 'Спрятан в {object:Куче земли} за гостиницей {location:Соль и соул} рядом с копающим призраком {npc:Култирасца}.'
+L['turbulent_fragment_b'] = 'Заберите {object:Рунический фрагмент} у призрака {npc:Култирасца} внутри пещеры {location:Гнилая дыра}.'
+L['turbulent_fragment_c'] = 'Заберите {object:Рунический фрагмент} у призрака {npc:Култирасца} внутри пещеры {location:раненого духа}.'
 
 L['prismatic_snapdragon_note_start'] = 'В течение 10 дней помогите спасти {npc:235216} на {location:Отмели Обломков}, чтобы получить {item:233489}.\n\n{note:Вы можете пропустить день, но нет механизма наверстывания упущенного}.'
 L['prismatic_day'] = 'День %d' -- "Day 1" or "Day 4" or "Day 7"
