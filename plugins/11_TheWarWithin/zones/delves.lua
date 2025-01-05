@@ -617,8 +617,8 @@ local DELVE_AREA_POIS = {
     [7872] = DELVE_REWARDS['the_underkeep'],
     [7873] = DELVE_REWARDS['tek_rethan_abyss'],
     [7874] = DELVE_REWARDS['the_spiral_weave'],
-    [9996] = DELVE_REWARDS['excavation_site_9'],
-    [9997] = DELVE_REWARDS['side_street_sluice'],
+    [8143] = DELVE_REWARDS['excavation_site_9'],
+    [8140] = DELVE_REWARDS['side_street_sluice'],
     -- BOUNTIFUL DELVES -------------------------------------------------------
     [7779] = DELVE_REWARDS['fungal_folly'],
     [7780] = DELVE_REWARDS['mycomancer_cavern'],
@@ -632,7 +632,7 @@ local DELVE_AREA_POIS = {
     [7788] = DELVE_REWARDS['the_dread_pit'],
     [7789] = DELVE_REWARDS['skittering_breach'],
     [7790] = DELVE_REWARDS['the_spiral_weave'],
-    [9998] = DELVE_REWARDS['excavation_site_9'],
+    [8181] = DELVE_REWARDS['excavation_site_9'],
     [9999] = DELVE_REWARDS['side_street_sluice']
 }
 
