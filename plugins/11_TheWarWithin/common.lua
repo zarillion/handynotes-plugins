@@ -445,7 +445,7 @@ local WORLDSOUL_REWARDS = {
             }
         }) -- Echoes of Danger
     },
-    [9998] = {
+    [8200] = {
         Achievement({id = 41214, criteria = 1}), -- Early Cartel Wars
         Achievement({
             id = 41215,
@@ -463,7 +463,7 @@ local WORLDSOUL_REWARDS = {
             }
         }) -- Echoes of Deeper Dangers
     },
-    [9999] = {
+    [8201] = {
         Achievement({id = 41214, criteria = 2}), -- Kaja'mite Contact
         Achievement({
             id = 41215,

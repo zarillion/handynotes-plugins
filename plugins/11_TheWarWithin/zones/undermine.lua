@@ -315,8 +315,8 @@ map.nodes[00000000] = UndermineLoreBook({
 ----------------------------- WORLDSOUL MEMORIES ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[00000000] = ns.node.WorldsoulMemory({areaPoiID = 9998}) -- Early Cartel Wars
-map.nodes[00000000] = ns.node.WorldsoulMemory({areaPoiID = 9999}) -- Kaja'mite Contact
+map.nodes[00000000] = ns.node.WorldsoulMemory({areaPoiID = 8200}) -- Early Cartel Wars
+map.nodes[00000000] = ns.node.WorldsoulMemory({areaPoiID = 8201}) -- Kaja'mite Contact
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLEANOUS --------------------------------
