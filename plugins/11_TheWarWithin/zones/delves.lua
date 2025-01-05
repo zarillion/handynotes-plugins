@@ -28,8 +28,8 @@ local ski = Map({id = 2310, settings = false}) -- Skittering Breach
 local nfs = Map({id = 2277, settings = false}) -- Nightfall Sanctum
 local tra = Map({id = 2259, settings = false}) -- Tak-Rethan Abyss
 
-local esn = Map({id = nil, settings = false}) -- Excavation Site 9
-local sss = Map({id = nil, settings = false}) -- Sidestreet Sluice
+local esn = Map({id = 2815, settings = false}) -- Excavation Site 9
+local sss = Map({id = 2826, settings = false}) -- Sidestreet Sluice
 
 -------------------------------------------------------------------------------
 
