@@ -16,7 +16,7 @@ local IsleOfDorn = ns.maps[2248]
 local RingingDeeps = ns.maps[2214]
 local Hallowfall = ns.maps[2215]
 local AzjKahet = ns.maps[2255]
-local Undermine = ns.maps[9999]
+-- local Undermine = ns.maps[2346]
 
 local Dornogal = ns.maps[2339]
 
@@ -359,60 +359,60 @@ AzjKahet.nodes[40183220] = Dragonrace({
 
 -------------------------------- SKYROCKETING ---------------------------------
 
-Undermine.nodes[00000000] = Dragonrace({
-    label = '{quest:99999}',
-    normal = {0, 0, 0},
-    reverse = {0, 0, 0},
-    rewards = Undermine_Skyrocketing_Rewards(1, 2)
-}) -- Skyrocketing Sprint
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Skyrocketing_Rewards(1, 2)
+-- }) -- Skyrocketing Sprint
 
-Undermine.nodes[00000000] = Dragonrace({
-    label = '{quest:99999}',
-    normal = {0, 0, 0},
-    reverse = {0, 0, 0},
-    rewards = Undermine_Skyrocketing_Rewards(2, 4)
-}) -- The Heaps Leap
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Skyrocketing_Rewards(2, 4)
+-- }) -- The Heaps Leap
 
-Undermine.nodes[00000000] = Dragonrace({
-    label = '{quest:99999}',
-    normal = {0, 0, 0},
-    reverse = {0, 0, 0},
-    rewards = Undermine_Skyrocketing_Rewards(5, 6)
-}) -- Scrapshop Shot
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Skyrocketing_Rewards(5, 6)
+-- }) -- Scrapshop Shot
 
-Undermine.nodes[00000000] = Dragonrace({
-    label = '{quest:99999}',
-    normal = {0, 0, 0},
-    reverse = {0, 0, 0},
-    rewards = Undermine_Skyrocketing_Rewards(7, 8)
-}) -- Rags to Riches Rush
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Skyrocketing_Rewards(7, 8)
+-- }) -- Rags to Riches Rush
 
 -------------------------------- BREAKNECKING ---------------------------------
 
-Undermine.nodes[00000000] = Dragonrace({
-    label = '{quest:99999}',
-    normal = {0, 0, 0},
-    reverse = {0, 0, 0},
-    rewards = Undermine_Breaknecking_Rewards(1, 2)
-}) -- Breakneck Bolt
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Breaknecking_Rewards(1, 2)
+-- }) -- Breakneck Bolt
 
-Undermine.nodes[00000000] = Dragonrace({
-    label = '{quest:99999}',
-    normal = {0, 0, 0},
-    reverse = {0, 0, 0},
-    rewards = Undermine_Breaknecking_Rewards(3, 4)
-}) -- Junkyard Jaunt
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Breaknecking_Rewards(3, 4)
+-- }) -- Junkyard Jaunt
 
-Undermine.nodes[00000000] = Dragonrace({
-    label = '{quest:99999}',
-    normal = {0, 0, 0},
-    reverse = {0, 0, 0},
-    rewards = Undermine_Breaknecking_Rewards(5, 6)
-}) -- Casino Cruise
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Breaknecking_Rewards(5, 6)
+-- }) -- Casino Cruise
 
-Undermine.nodes[00000000] = Dragonrace({
-    label = '{quest:99999}',
-    normal = {0, 0, 0},
-    reverse = {0, 0, 0},
-    rewards = Undermine_Breaknecking_Rewards(7, 8)
-}) -- Sandy Scuttle
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Breaknecking_Rewards(7, 8)
+-- }) -- Sandy Scuttle
