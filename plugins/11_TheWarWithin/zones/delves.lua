@@ -637,14 +637,15 @@ local DELVE_AREA_POIS = {
 }
 
 hooksecurefunc(DelveEntrancePinMixin, 'OnMouseEnter', function(self)
-    if not DELVE_AREA_POIS[self.areaPoiID] then return end
+    local areaPoiID = self.poiInfo.areaPoiID
+    if not DELVE_AREA_POIS[areaPoiID] then return end
     local mapID = self:GetMap().mapID
     local group = ns.groups.DELVE_REWARDS
     if group:GetDisplay(mapID) then
         if (self.description == _G['DELVE_LABEL']) then
             GameTooltip:AddLine(' ')
         end
-        local rewards = DELVE_AREA_POIS[self.areaPoiID]
+        local rewards = DELVE_AREA_POIS[areaPoiID]
         for _, reward in pairs(rewards) do
             if reward and reward:IsEnabled() then
                 reward:Render(GameTooltip)
