@@ -446,13 +446,15 @@ tra.nodes[35135863] = SturdyChest({
 ------------------------------ EXCAVATION SITE 9 ------------------------------
 -------------------------------------------------------------------------------
 
-esn.nodes[00000000] = SturdyChest({
+esn.nodes[50906155] = SturdyChest({ -- Rowdy Rifts
     achievementID = 41100,
+    quest = nil,
     rlabel = ns.status.Gray('#1')
 }) -- Sturdy Chest 1
 
-esn.nodes[00000000] = SturdyChest({
+esn.nodes[57014680] = SturdyChest({ -- Rowdy Rifts
     achievementID = 41100,
+    quest = nil,
     rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2
 
