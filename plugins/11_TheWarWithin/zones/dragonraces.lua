@@ -118,31 +118,31 @@ local function AzjKahet_Rewards(a)
     return rewards
 end
 
-local function Undermine_Skyrocketing_Rewards(a, b)
-    local rewards = {
-        Achievement({id = 40936, criteria = a, oneline = true}), -- normal bronze
-        Achievement({id = 40937, criteria = a, oneline = true}), -- normal silver
-        Achievement({id = 40938, criteria = a, oneline = true}), -- normal gold
-        Achievement({id = 40936, criteria = b, oneline = true}), -- reverse bronze
-        Achievement({id = 40937, criteria = b, oneline = true}), -- reverse silver
-        Achievement({id = 40938, criteria = b, oneline = true}), -- reverse gold
-        Spacer()
-    }
-    return rewards
-end
+-- local function Undermine_Skyrocketing_Rewards(a, b)
+--     local rewards = {
+--         Achievement({id = 40936, criteria = a, oneline = true}), -- normal bronze
+--         Achievement({id = 40937, criteria = a, oneline = true}), -- normal silver
+--         Achievement({id = 40938, criteria = a, oneline = true}), -- normal gold
+--         Achievement({id = 40936, criteria = b, oneline = true}), -- reverse bronze
+--         Achievement({id = 40937, criteria = b, oneline = true}), -- reverse silver
+--         Achievement({id = 40938, criteria = b, oneline = true}), -- reverse gold
+--         Spacer()
+--     }
+--     return rewards
+-- end
 
-local function Undermine_Breaknecking_Rewards(a, b)
-    local rewards = {
-        Achievement({id = 41081, criteria = a, oneline = true}), -- normal bronze
-        Achievement({id = 41083, criteria = a, oneline = true}), -- normal silver
-        Achievement({id = 41084, criteria = a, oneline = true}), -- normal gold
-        Achievement({id = 41081, criteria = b, oneline = true}), -- reverse bronze
-        Achievement({id = 41083, criteria = b, oneline = true}), -- reverse silver
-        Achievement({id = 41084, criteria = b, oneline = true}), -- reverse gold
-        Spacer()
-    }
-    return rewards
-end
+-- local function Undermine_Breaknecking_Rewards(a, b)
+--     local rewards = {
+--         Achievement({id = 41081, criteria = a, oneline = true}), -- normal bronze
+--         Achievement({id = 41083, criteria = a, oneline = true}), -- normal silver
+--         Achievement({id = 41084, criteria = a, oneline = true}), -- normal gold
+--         Achievement({id = 41081, criteria = b, oneline = true}), -- reverse bronze
+--         Achievement({id = 41083, criteria = b, oneline = true}), -- reverse silver
+--         Achievement({id = 41084, criteria = b, oneline = true}), -- reverse gold
+--         Spacer()
+--     }
+--     return rewards
+-- end
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
