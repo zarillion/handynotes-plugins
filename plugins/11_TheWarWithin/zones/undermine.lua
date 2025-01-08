@@ -12,14 +12,14 @@ local Treasure = ns.node.Treasure
 -- local Vendor = ns.node.Vendor
 
 local Achievement = ns.reward.Achievement
--- local Item = ns.reward.Item
+local Item = ns.reward.Item
 -- local Mount = ns.reward.Mount
 -- local Pet = ns.reward.Pet
 -- local Toy = ns.reward.Toy
 -- local Transmog = ns.reward.Transmog
 
 -- local Circle = ns.poi.Circle
--- local Entrance = ns.poi.Entrance
+local Entrance = ns.poi.Entrance
 -- local Path = ns.poi.Path
 -- local POI = ns.poi.POI
 
@@ -28,6 +28,8 @@ local Achievement = ns.reward.Achievement
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2346, patch = 110100, settings = true}) -- Undermine
+
+local theRingingDeeps = ns.maps[2214]
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -184,95 +186,117 @@ local map = Map({id = 2346, patch = 110100, settings = true}) -- Undermine
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[00000000] = Treasure({
+map.nodes[48474307] = Treasure({
+    location = 'On the roof of {location:Tailgate Park}.',
+    quest = 85683,
     rewards = {
-        Achievement({id = 41217, criteria = 1}) -- Treasures of Undermine
+        Achievement({id = 41217, criteria = 71613}) -- Treasures of Undermine
     }
 }) -- Unexploded Fireworks
 
-map.nodes[00000000] = Treasure({
+map.nodes[49896613] = Treasure({
+    location = L['inside_building'],
+    quest = 85866,
     rewards = {
-        Achievement({id = 41217, criteria = 2}) -- Treasures of Undermine
+        Achievement({id = 41217, criteria = 71624}) -- Treasures of Undermine
     }
 }) -- Suspicious Book
 
-map.nodes[00000000] = Treasure({
-    rewards = {
-        Achievement({id = 41217, criteria = 3}) -- Treasures of Undermine
-    }
-}) -- Fireworks Hat
+-- map.nodes[00000000] = Treasure({
+--     rewards = {
+--         Achievement({id = 41217, criteria = 71614}) -- Treasures of Undermine
+--     }
+-- }) -- Fireworks Hat
 
-map.nodes[00000000] = Treasure({
-    rewards = {
-        Achievement({id = 41217, criteria = 4}) -- Treasures of Undermine
-    }
-}) -- Exploded Plunger
+-- map.nodes[00000000] = Treasure({
+--     rewards = {
+--         Achievement({id = 41217, criteria = 71615}) -- Treasures of Undermine
+--     }
+-- }) -- Exploded Plunger
 
-map.nodes[00000000] = Treasure({
-    rewards = {
-        Achievement({id = 41217, criteria = 5}) -- Treasures of Undermine
-    }
-}) -- Blackened Dice
+-- map.nodes[00000000] = Treasure({
+--     rewards = {
+--         Achievement({id = 41217, criteria = 71625}) -- Treasures of Undermine
+--     }
+-- }) -- Blackened Dice
 
-map.nodes[00000000] = Treasure({
-    rewards = {
-        Achievement({id = 41217, criteria = 6}) -- Treasures of Undermine
-    }
-}) -- Lonely Tub
+-- map.nodes[00000000] = Treasure({
+--     rewards = {
+--         Achievement({id = 41217, criteria = 71626}) -- Treasures of Undermine
+--     }
+-- }) -- Lonely Tub
 
-map.nodes[00000000] = Treasure({
-    rewards = {
-        Achievement({id = 41217, criteria = 7}) -- Treasures of Undermine
-    }
-}) -- Potent Potable
+-- map.nodes[00000000] = Treasure({
+--     rewards = {
+--         Achievement({id = 41217, criteria = 71627}) -- Treasures of Undermine
+--     }
+-- }) -- Potent Potable
 
-map.nodes[00000000] = Treasure({
+map.nodes[40852126] = Treasure({
+    location =
+        'High on the roof of {location:The Scrapshop}.\n\nFollow the stairs to the top.',
+    pois = {Entrance({39312588})}, -- Entrance
+    quest = 85422,
     rewards = {
-        Achievement({id = 41217, criteria = 8}) -- Treasures of Undermine
+        Achievement({id = 41217, criteria = 71628}) -- Treasures of Undermine
     }
 }) -- Abandoned Toolbox
 
-map.nodes[00000000] = Treasure({
-    rewards = {
-        Achievement({id = 41217, criteria = 9}) -- Treasures of Undermine
-    }
-}) -- Papa's Prized Putter
+-- map.nodes[00000000] = Treasure({
+--     rewards = {
+--         Achievement({id = 41217, criteria = 71629}) -- Treasures of Undermine
+--     }
+-- }) -- Papa's Prized Putter
 
-map.nodes[00000000] = Treasure({
+map.nodes[26864265] = Treasure({
+    quest = 85425,
     rewards = {
-        Achievement({id = 41217, criteria = 10}) -- Treasures of Undermine
+        Achievement({id = 41217, criteria = 71630}) -- Treasures of Undermine
     }
 }) -- Unsupervised Takeout
 
-map.nodes[00000000] = Treasure({
-    rewards = {
-        Achievement({id = 41217, criteria = 11}) -- Treasures of Undermine
-    }
-}) -- Particularly Nice Lamp
+-- map.nodes[00000000] = Treasure({
+--     rewards = {
+--         Achievement({id = 41217, criteria = 71631}) -- Treasures of Undermine
+--     }
+-- }) -- Particularly Nice Lamp
 
-map.nodes[00000000] = Treasure({
-    rewards = {
-        Achievement({id = 41217, criteria = 12}) -- Treasures of Undermine
-    }
-}) -- Uncracked Cold Ones
+-- map.nodes[00000000] = Treasure({
+--     rewards = {
+--         Achievement({id = 41217, criteria = 71632}) -- Treasures of Undermine
+--     }
+-- }) -- Uncracked Cold Ones
 
-map.nodes[00000000] = Treasure({
-    rewards = {
-        Achievement({id = 41217, criteria = 13}) -- Treasures of Undermine
-    }
-}) -- Marooned Floatmingo
+-- map.nodes[00000000] = Treasure({
+--     rewards = {
+--         Achievement({id = 41217, criteria = 71633}) -- Treasures of Undermine
+--     }
+-- }) -- Marooned Floatmingo
 
-map.nodes[00000000] = Treasure({
+map.nodes[43665154] = Treasure({
+    location =
+        'On the desk next to {npc:231045} inside {location:The Incontinental Hotel}.',
+    quest = 85496,
     rewards = {
-        Achievement({id = 41217, criteria = 14}) -- Treasures of Undermine
+        Achievement({id = 41217, criteria = 71634}) -- Treasures of Undermine
     }
 }) -- Trick Deck of Cards
 
-map.nodes[00000000] = Treasure({
+-- map.nodes[00000000] = Treasure({
+--     rewards = {
+--         Achievement({id = 41217, criteria = 71635}) -- Treasures of Undermine
+--     }
+-- }) -- Crumpled Schematics
+
+-------------------------------------------------------------------------------
+
+map.nodes[23804538] = Treasure({
+    label = 'Muff\'s Auto Locker',
+    quest = 85072,
     rewards = {
-        Achievement({id = 41217, criteria = 15}) -- Treasures of Undermine
+        Item({item = 234427}) -- Gorillion Fork
     }
-}) -- Crumpled Schematics
+}) -- Muff's Auto Locker
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: READ BETWEEN THE LINES ---------------------
