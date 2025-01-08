@@ -495,12 +495,13 @@ end
 ns.node.WorldsoulMemory = WorldsoulMemory
 
 hooksecurefunc(AreaPOIEventPinMixin, 'OnMouseEnter', function(self)
-    if not self.areaPoiID then return end
-    if not WORLDSOUL_REWARDS[self.areaPoiID] then return end
+    if not self.poiInfo then return end
+    local areaPoiID = self.poiInfo.areaPoiID
+    if not WORLDSOUL_REWARDS[areaPoiID] then return end
     local mapID = self:GetMap().mapID
     local group = ns.groups.WORLDSOUL_MEMORIES
     if group:GetDisplay(mapID) then
-        local rewards = WORLDSOUL_REWARDS[self.areaPoiID]
+        local rewards = WORLDSOUL_REWARDS[areaPoiID]
         for _, reward in pairs(rewards) do
             if reward and reward:IsEnabled() then
                 reward:Render(GameTooltip)
