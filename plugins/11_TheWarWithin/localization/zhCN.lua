@@ -417,7 +417,7 @@ L['options_icons_secrets_of_azeroth_desc'] = '显示 {location:艾泽拉斯之�
 
 L['alyx_kickoff_note'] = '与 {npc:226683} 交谈以启用新的艾泽拉斯之秘谜题。'
 
-L['celebration_crates_label'] = '庆典箱子'
+-- L['celebration_crates_label'] = '庆典箱子'
 L['celebration_crates_note'] = '找到并交还隐藏在 {location:艾泽拉斯} 中的所有 {object:庆典箱子}。'
 
 L['1_soggy_celebration_crate_note'] = '从 {location:深潜酒吧} 的 {npc:143029}（{dot:Blue}）购买 {item:225996} 并将其交给 {npc:189119} 以揭示 {item:226200}。'

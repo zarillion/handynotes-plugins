@@ -1,5 +1,6 @@
 # v113
 
+* Move Alyx (Guest Relations secret) from Tanaris to Dornogal
 * Localization updates: ruRU, zhTW
 
 # v112

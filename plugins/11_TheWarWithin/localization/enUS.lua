@@ -417,7 +417,7 @@ L['options_icons_secrets_of_azeroth_desc'] = 'Display clue locations for {locati
 
 L['alyx_kickoff_note'] = 'Speak with {npc:226683} to enable the new Secrets of Azeroth puzzles.'
 
-L['celebration_crates_label'] = 'Celebration Crates'
+-- L['celebration_crates_label'] = 'Celebration Crates'
 L['celebration_crates_note'] = 'Find and return all {object:Celebration Crates} hidden throughout {location:Azeroth}.'
 
 L['1_soggy_celebration_crate_note'] = 'Purchase a {item:225996} from {npc:143029} ({dot:Blue}) at {location:The Dive Bar} and give it to {npc:189119} to reveal the {item:226200}.'

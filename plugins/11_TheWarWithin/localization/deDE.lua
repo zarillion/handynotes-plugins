@@ -420,7 +420,7 @@ L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Positionen für die {loc
 
 L['alyx_kickoff_note'] = 'Spreche mit {npc:226683}, um die neuen {location:Geheimnisse von Azeroth} freizuschalten.'
 
-L['celebration_crates_label'] = 'Feierkiste'
+-- L['celebration_crates_label'] = 'Feierkiste'
 L['celebration_crates_note'] = 'Finde und bringe alle {object:Feierkisten} zurück, die in ganz {location:Azeroth} versteckt sind.'
 
 L['1_soggy_celebration_crate_note'] = 'Kaufe ein {item:225996} von {npc:143029} ({dot:Blue}) in {location:The Dive Bar} und gib dieses {npc:189119}, um {item:226200} auszudecken.'

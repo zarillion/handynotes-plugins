@@ -417,7 +417,7 @@ L['options_icons_secrets_of_azeroth_desc'] = '顯示 {location:艾澤拉斯祕�
 
 L['alyx_kickoff_note'] = '和 {npc:226683} 說話來啟動新的艾澤拉斯祕聞謎題.'
 
-L['celebration_crates_label'] = '節慶木箱'
+-- L['celebration_crates_label'] = '節慶木箱'
 L['celebration_crates_note'] = '在 {location:艾澤拉斯} 找到並返還所有的 {object:節慶木箱}.'
 
 L['1_soggy_celebration_crate_note'] = nil

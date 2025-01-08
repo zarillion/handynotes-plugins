@@ -418,7 +418,7 @@ L['options_icons_secrets_of_azeroth_desc'] = 'Afficher les emplacements des indi
 
 L['alyx_kickoff_note'] = 'Parlez à {npc:226683} pour activer les nouvelles énigmes des Secrets d\'Azeroth.'
 
-L['celebration_crates_label'] = 'Caisses d’anniversaire'
+-- L['celebration_crates_label'] = 'Caisses d’anniversaire'
 L['celebration_crates_note'] = 'Trouvez et rapportez toutes les {object:Caisses d’anniversaire} cachées à travers {location:Azeroth}.'
 
 L['1_soggy_celebration_crate_note'] = 'Achetez un {item:225996} à {npc:143029} ({dot:Blue}) au {location:Barboteur} et donnez-le à {npc:189119} pour faire apparaître la {item:226200}.'
