@@ -283,33 +283,35 @@ local UndermineLoreBook = Class('UndermineLoreBook', Collectible, {
     group = ns.groups.BETWEEN_THE_LINES
 })
 
-map.nodes[00000000] = UndermineLoreBook({
-    rewards = {Achievement({id = 41588, criteria = 1})}
+theRingingDeeps.nodes[77067315] = UndermineLoreBook({
+    quest = 86570,
+    rewards = {Achievement({id = 41588, criteria = 103107})}
 }) -- Rocket Drill Safety Manual
 
-map.nodes[00000000] = UndermineLoreBook({
-    rewards = {Achievement({id = 41588, criteria = 2})}
-}) -- A Threatening Letter
+-- map.nodes[00000000] = UndermineLoreBook({
+--     rewards = {Achievement({id = 41588, criteria = 103108})}
+-- }) -- A Threatening Letter
 
-map.nodes[00000000] = UndermineLoreBook({
-    rewards = {Achievement({id = 41588, criteria = 3})}
-}) -- First Half of Noggenfogger's Journal
+-- map.nodes[00000000] = UndermineLoreBook({
+--     rewards = {Achievement({id = 41588, criteria = 103106})}
+-- }) -- First Half of Noggenfogger's Journal
 
-map.nodes[00000000] = UndermineLoreBook({
-    rewards = {Achievement({id = 41588, criteria = 4})}
-}) -- Second Half of Noggenfogger's Journal
+-- map.nodes[00000000] = UndermineLoreBook({
+--     rewards = {Achievement({id = 41588, criteria = 103109})}
+-- }) -- Second Half of Noggenfogger's Journal
 
-map.nodes[00000000] = UndermineLoreBook({
-    rewards = {Achievement({id = 41588, criteria = 5})}
+theRingingDeeps.nodes[71419808] = UndermineLoreBook({
+    quest = 86569,
+    rewards = {Achievement({id = 41588, criteria = 103110})}
 }) -- Extractor Drill X-78 Safety Guide
 
-map.nodes[00000000] = UndermineLoreBook({
-    rewards = {Achievement({id = 41588, criteria = 6})}
-}) -- Gallywix's Notes
+-- map.nodes[00000000] = UndermineLoreBook({
+--     rewards = {Achievement({id = 41588, criteria = 103111})}
+-- }) -- Gallywix's Notes
 
-map.nodes[00000000] = UndermineLoreBook({
-    rewards = {Achievement({id = 41588, criteria = 7})}
-}) -- Misplaced Work Order
+-- map.nodes[00000000] = UndermineLoreBook({
+--     rewards = {Achievement({id = 41588, criteria = 103112})}
+-- }) -- Misplaced Work Order
 
 -------------------------------------------------------------------------------
 ----------------------------- WORLDSOUL MEMORIES ------------------------------
