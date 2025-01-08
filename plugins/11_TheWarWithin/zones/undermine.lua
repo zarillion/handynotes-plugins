@@ -3,7 +3,7 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 local Class = ns.Class
--- local L = ns.locale
+local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
@@ -316,7 +316,7 @@ map.nodes[00000000] = UndermineLoreBook({
 -------------------------------------------------------------------------------
 
 map.nodes[00000000] = ns.node.WorldsoulMemory({areaPoiID = 8200}) -- Early Cartel Wars
-map.nodes[00000000] = ns.node.WorldsoulMemory({areaPoiID = 8201}) -- Kaja'mite Contact
+map.nodes[58196864] = ns.node.WorldsoulMemory({areaPoiID = 8201}) -- Kaja'mite Contact
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLEANOUS --------------------------------
