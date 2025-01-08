@@ -633,7 +633,7 @@ local DELVE_AREA_POIS = {
     [7789] = DELVE_REWARDS['skittering_breach'],
     [7790] = DELVE_REWARDS['the_spiral_weave'],
     [8181] = DELVE_REWARDS['excavation_site_9'],
-    [9999] = DELVE_REWARDS['side_street_sluice']
+    -- [9999] = DELVE_REWARDS['side_street_sluice']
 }
 
 hooksecurefunc(DelveEntrancePinMixin, 'OnMouseEnter', function(self)
