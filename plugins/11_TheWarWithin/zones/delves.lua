@@ -28,7 +28,7 @@ local ski = Map({id = 2310, settings = false}) -- Skittering Breach
 local nfs = Map({id = 2277, settings = false}) -- Nightfall Sanctum
 local tra = Map({id = 2259, settings = false}) -- Tak-Rethan Abyss
 
-local esn = Map({id = 2815, settings = false}) -- Excavation Site 9
+local esn = Map({id = 2396, settings = false}) -- Excavation Site 9
 local sss = Map({id = 2826, settings = false}) -- Sidestreet Sluice
 
 -------------------------------------------------------------------------------
@@ -502,7 +502,7 @@ local maps = {
     ns.maps[2248], -- Isle of Dorn
     ns.maps[2255], -- Azj-Kahet - Upper
     ns.maps[2256], -- Azj-Kahet - Lower
-    ns.maps[nil] -- Undermine
+    ns.maps[2346] -- Undermine
 }
 
 for _, m in pairs(maps) do
