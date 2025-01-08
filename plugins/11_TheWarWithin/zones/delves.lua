@@ -599,8 +599,18 @@ local DELVE_REWARDS = {
         Achievement({id = 40454, oneline = true}) -- Daystormer
     },
     ---------------------------------------------------------------------------
-    ['excavation_site_9'] = {Achievement({id = 41098, criteria = {1, 2, 3}})},
-    ['side_street_sluice'] = {Achievement({id = 41099, criteria = {1, 2, 3}})}
+    ['excavation_site_9'] = {
+        Achievement({
+            id = 41100,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 41098, criteria = {70985, 70986, 70987}})
+    },
+    ['side_street_sluice'] = {
+        Achievement({
+            id = 41100,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 41099, criteria = {70988, 70989, 70990}})
+    }
 }
 
 local DELVE_AREA_POIS = {
