@@ -213,9 +213,14 @@ map.nodes[48474307] = Treasure({
     rewards = {Achievement({id = 41217, criteria = 71613})}
 }) -- Unexploded Fireworks
 
-map.nodes[49896613] = Treasure({
+map.nodes[49796566] = Treasure({
     location = L['in_building'],
-    quest = {85866},
+    note = L['suspicious_book_note'],
+    pois = {
+        POI({49896613, color = 'Red'}), -- first floor
+        POI({49536452, color = 'Green'}) -- second floor
+    },
+    quest = {85866, 85867, 85868},
     rewards = {Achievement({id = 41217, criteria = 71624})}
 }) -- Suspicious Book
 

@@ -1,4 +1,4 @@
-local ADDON_NAME, ns = ...
+L['suspicious_book_note'] = nillocal ADDON_NAME, ns = ...
 local L = ns.NewLocale('enUS')
 if not L then return end
 
@@ -574,6 +574,7 @@ L['inert_plunger_label'] = nil
 L['exploded_plunger_label'] = nil
 
 L['unexploded_fireworks_location'] = nil
+L['suspicious_book_note'] = nil
 L['fireworks_hat_note'] = nil
 L['blackened_dice_note'] = nil
 L['lonely_tub_note'] = nil

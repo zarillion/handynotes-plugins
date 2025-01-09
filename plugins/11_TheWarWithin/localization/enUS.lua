@@ -574,6 +574,7 @@ L['inert_plunger_label'] = 'Inert Plunger?'
 L['exploded_plunger_label'] = 'Exploded Plunger'
 
 L['unexploded_fireworks_location'] = 'On the roof of {location:Tailgate Park}.'
+L['suspicious_book_note'] = '1. {dot:Red} Hidden on a bookcase on the first floor. Attempt to collect it and it will fly to a new bookcase upstairs.\n\n2. {dot:Green} Hidden behind a bookcase on the second floor. Attempt to collect it and it will fly to the desk upstairs.\n\n3. On the desk on the third floor. Finally, collect the book!'
 L['fireworks_hat_note'] = 'Attempt to grab the hat causing it to fly from the rooftop and land here.'
 L['blackened_dice_note'] = 'Turn the nearby {object:Pipe Valve} to release the dice.'
 L['lonely_tub_note'] = 'Grab the nearby {object:Fire Extinguisher} ({dot:Blue}) to put out the flames on the {object:Lonely Tub}.'
