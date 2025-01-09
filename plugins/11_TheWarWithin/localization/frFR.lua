@@ -568,6 +568,8 @@ L['ak_decryption_console_note'] = 'Retournez à l\'entrée du trou caché dans l
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['in_sewer'] = nil
+
 L['inert_plunger_label'] = nil
 L['exploded_plunger_label'] = nil
 

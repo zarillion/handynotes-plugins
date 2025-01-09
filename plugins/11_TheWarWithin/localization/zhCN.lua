@@ -567,6 +567,8 @@ L['ak_decryption_console_note'] = '回到隐藏的洞穴，入口位于 {locatio
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['in_sewer'] = nil
+
 L['inert_plunger_label'] = nil
 L['exploded_plunger_label'] = nil
 

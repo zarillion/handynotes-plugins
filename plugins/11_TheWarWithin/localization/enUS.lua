@@ -567,6 +567,8 @@ L['ak_decryption_console_note'] = 'Back to the hidden hole, entrance within the 
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['in_sewer'] = 'Within the sewer. Use the nearby {object:Sewer Grate} to enter.'
+
 L['inert_plunger_label'] = 'Inert Plunger?'
 L['exploded_plunger_label'] = 'Exploded Plunger'
 

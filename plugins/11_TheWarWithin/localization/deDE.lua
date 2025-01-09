@@ -570,6 +570,8 @@ L['ak_decryption_console_note'] = 'Zurück in der versteckten Höhle im {locatio
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['in_sewer'] = nil
+
 L['inert_plunger_label'] = nil
 L['exploded_plunger_label'] = nil
 

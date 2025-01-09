@@ -7,12 +7,13 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
--- local Rare = ns.node.Rare
+local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
+local Reputation = ns.reward.Reputation
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -32,6 +33,33 @@ local theRingingDeeps = ns.maps[2214]
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
+-- Achievement({
+--     id = 41216,
+--     criteria = {
+--         71591, -- Scrap Beak
+--         , -- Ratspit
+--         71593, -- Tally Doublespeak
+--         71594, -- Slimesby
+--         71595, -- V.V. Goosworth
+--         , -- Thwack
+--         71597, -- S.A.L.
+--         71598, -- Nitro
+--         71599, -- Candy Stickemup
+--         , -- Grimewick
+--         71601, -- Swigs Farsight
+--         71602, -- Ephemeral Agent Lathyd
+--         71603, -- The Junk-Wall
+--         71604, -- Slugger the Smart
+--         71605, -- Chief Foreman Gutso
+--         71606, -- Flyboy Snooty
+--         71608, -- Aurumensis
+--         71609, -- Giovante
+--         71610, -- Scrapchewer
+--         71611, -- Volstrike the Charged
+--         71612, -- The Darkfuse Precipitant
+--     }
+-- }) -- Adventurer of Undermine
+
 -- map.nodes[00000000] = Rare({
 --     id = 230931,
 --     rewards = {
@@ -39,12 +67,15 @@ local theRingingDeeps = ns.maps[2214]
 --     }
 -- }) -- Scrap Beak
 
--- map.nodes[00000000] = Rare({
---     id = 230934,
---     rewards = {
---         Achievement({id = 41216, criteria = 2}) -- Adventurer of Undermine
---     }
--- }) -- Ratspit
+map.nodes[25243675] = Rare({
+    id = 230934,
+    location = L['in_sewer'],
+    quest = 84918,
+    rewards = {
+        Achievement({id = 41216, criteria = 71592}),
+        Reputation({id = 2653, gain = 20})
+    }
+}) -- Ratspit
 
 -- map.nodes[00000000] = Rare({
 --     id = 230940,
@@ -67,12 +98,14 @@ local theRingingDeeps = ns.maps[2214]
 --     }
 -- }) -- V.V. Goosworth
 
--- map.nodes[00000000] = Rare({
---     id = 230951,
---     rewards = {
---         Achievement({id = 41216, criteria = 6}) -- Adventurer of Undermine
---     }
--- }) -- Thwack
+map.nodes[54015023] = Rare({
+    id = 230951,
+    quest = 84921,
+    rewards = {
+        Achievement({id = 41216, criteria = 6}),
+        Reputation({id = 2653, gain = 20})
+    }
+}) -- Thwack
 
 -- map.nodes[00000000] = Rare({
 --     id = 230979,
@@ -95,12 +128,14 @@ local theRingingDeeps = ns.maps[2214]
 --     }
 -- }) -- Candy Stickemup
 
--- map.nodes[00000000] = Rare({
---     id = 231017,
---     rewards = {
---         Achievement({id = 41216, criteria = 10}) -- Adventurer of Undermine
---     }
--- }) -- Grimewick
+map.nodes[67333353] = Rare({
+    id = 231017,
+    quest = 84928,
+    rewards = {
+        Achievement({id = 41216, criteria = 71600}),
+        Reputation({id = 2653, gain = 20})
+    }
+}) -- Grimewick
 
 -- map.nodes[00000000] = Rare({
 --     id = 231288,
