@@ -34,13 +34,15 @@ local trd = ns.maps[2214]
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- map.nodes[00000000] = Rare({
---     id = 230931,
---     quest = nil,
---     rewards = {
---         Achievement({id = 41216, criteria = 71591})
---     }
--- }) -- Scrap Beak
+map.nodes[68508078] = Rare({
+    id = 230931,
+    quest = 84917,
+    rewards = {
+        Achievement({id = 41216, criteria = 71591}),
+        Reputation({id = 2653, gain = 20}),
+        Item({item = 234419}) -- Steamboil Mounting System
+    }
+}) -- Scrapbeak
 
 map.nodes[25243675] = Rare({
     id = 230934,
