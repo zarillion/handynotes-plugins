@@ -39,8 +39,7 @@ map.nodes[68508078] = Rare({
     quest = 84917,
     rewards = {
         Achievement({id = 41216, criteria = 71591}),
-        Reputation({id = 2653, gain = 20}),
-        Item({item = 234419}) -- Steamboil Mounting System
+        Reputation({id = 2653, gain = 20}), Item({item = 234419}) -- Steamboil Mounting System
     }
 }) -- Scrapbeak
 
@@ -117,13 +116,11 @@ map.nodes[67333353] = Rare({
     }
 }) -- Grimewick
 
--- map.nodes[00000000] = Rare({
---     id = 231288,
---     quest = nil,
---     rewards = {
---         Achievement({id = 41216, criteria = 71601})
---     }
--- }) -- Swigs Farsight
+map.nodes[41354357] = Rare({
+    id = 231288,
+    quest = nil,
+    rewards = {Achievement({id = 41216, criteria = 71601})}
+}) -- Swigs Farsight
 
 -- map.nodes[00000000] = Rare({
 --     id = 230746,
@@ -157,13 +154,12 @@ map.nodes[67333353] = Rare({
 --     }
 -- }) -- Chief Foreman Gutso
 
--- map.nodes[00000000] = Rare({
---     id = 230840,
---     quest = nil,
---     rewards = {
---         Achievement({id = 41216, criteria = 71606})
---     }
--- }) -- Flyboy Snooty
+map.nodes[60580989] = Rare({
+    id = 230840,
+    quest = nil,
+    rewards = {Achievement({id = 41216, criteria = 71606})},
+    vignette = 6597
+}) -- Flyboy Snooty
 
 -- map.nodes[00000000] = Rare({
 --     id = 234480,
