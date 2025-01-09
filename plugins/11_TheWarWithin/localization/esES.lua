@@ -567,26 +567,26 @@ L['ak_decryption_console_note'] = 'Regresa a la entrada del agujero oculto dentr
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['in_sewer'] = nil
+L['in_sewer'] = 'Dentro de la cloaca. Usa la {object:Rejilla de cloaca} cercana para entrar.'
 L['and_slimesby'] = 'y {npc:230947}'
 
-L['inert_plunger_label'] = nil
-L['exploded_plunger_label'] = nil
+L['inert_plunger_label'] = '¿Detonador inerte?'
+L['exploded_plunger_label'] = 'Detonador explotado'
 
-L['unexploded_fireworks_location'] = nil
-L['suspicious_book_note'] = nil
-L['fireworks_hat_note'] = nil
-L['blackened_dice_note'] = nil
-L['lonely_tub_note'] = nil
-L['impotent_potable_location'] = nil
-L['abandoned_toolbox_location'] = nil
-L['trick_deck_of_cards_location'] = nil
+L['unexploded_fireworks_location'] = 'En lo alto del {location:Parque Portón}.'
+L['suspicious_book_note'] = '1. {dot:Red} Escondido en una estantería en el primer piso. Intenta recogerlo y volará a una nueva estantería en el piso de arriba.\n\n2. {dot:Green} Escondido detrás de una estantería en el segundo piso. Intenta recogerlo y volará al escritorio de arriba.\n\n3. En el escritorio del tercer piso. Finalmente, recoge el libro.'
+L['fireworks_hat_note'] = 'Intenta agarrar el sombrero, lo que hace que vuele desde la azotea y aterrice aquí.'
+L['blackened_dice_note'] = 'Gira la {object:Válvula de tubería} cercana para soltar los dados.'
+L['lonely_tub_note'] = 'Agarra el {object:Extintor} cercano ({dot:Blue}) para apagar las llamas del {object:Tubo solitario}.'
+L['impotent_potable_location'] = 'Debajo del muelle al lado de {location:Fiesta Saqueo}'
+L['abandoned_toolbox_location'] = 'En lo alto del techo de la {location:Tienda de Chatarra}.\n\nSigue las escaleras hasta arriba.'
+L['trick_deck_of_cards_location'] = 'En el escritorio al lado de {npc:231045} dentro del {location:Hotel Incontinental}.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
-L['options_icons_nine_tenths_desc'] = nil
-L['muffs_auto_locker_label'] = nil
-L['muffs_auto_locker_note'] = nil
-L['muffs_auto_locker_suffix'] = nil
+L['options_icons_nine_tenths_desc'] = 'Muestra dónde están los {object:} para el logro {achievement:40948}.'
+L['muffs_auto_locker_label'] = 'Auto-Locker de Muff'
+L['muffs_auto_locker_note'] = 'Recoge las 5 piezas de Gorillion y completa la misión {quest:87406} para construir {item:232843}.'
+L['muffs_auto_locker_suffix'] = 'Auto-Lockers de Muff abiertos'
 
 L['options_icons_between_the_lines'] = '{achievement:41588}'
 L['options_icons_between_the_lines_desc'] = 'Muestra dónde están los libros para el logro {achievement:41588}.'
