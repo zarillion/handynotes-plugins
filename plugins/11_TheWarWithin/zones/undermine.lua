@@ -391,9 +391,10 @@ theRingingDeeps.nodes[71419808] = UndermineLoreBook({
 --     rewards = {Achievement({id = 41588, criteria = 103111})}
 -- }) -- Gallywix's Notes
 
--- map.nodes[00000000] = UndermineLoreBook({
---     rewards = {Achievement({id = 41588, criteria = 103112})}
--- }) -- Misplaced Work Order
+map.nodes[65611420] = UndermineLoreBook({
+    quest = 86568,
+    rewards = {Achievement({id = 41588, criteria = 103112})}
+}) -- Misplaced Work Order
 
 -------------------------------------------------------------------------------
 ----------------------------- WORLDSOUL MEMORIES ------------------------------
