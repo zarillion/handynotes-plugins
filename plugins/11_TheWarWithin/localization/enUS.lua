@@ -583,7 +583,7 @@ L['abandoned_toolbox_location'] = 'High on the roof of {location:The Scrapshop}.
 L['trick_deck_of_cards_location'] = 'On the desk next to {npc:231045} inside {location:The Incontinental Hotel}.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
-L['options_icons_nine_tenths_desc'] = 'Display all {object:} locations for {achievement:40948}.'
+L['options_icons_nine_tenths_desc'] = 'Display all {object:Muff\'s Auto-Locker} locations for {achievement:40948}.'
 L['muffs_auto_locker_label'] = 'Muff\'s Auto-Locker'
 L['muffs_auto_locker_note'] = 'Collect all 5x Gorillion pieces and complete {quest:87406} to build {item:232843}.'
 L['muffs_auto_locker_suffix'] = 'Muff\'s Auto-Lockers opened'
