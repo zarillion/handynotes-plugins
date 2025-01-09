@@ -582,13 +582,13 @@ L['impotent_potable_location'] = 'Debajo del muelle al lado de {location:Fiesta 
 L['abandoned_toolbox_location'] = 'En lo alto del techo de la {location:Tienda de Chatarra}.\n\nSigue las escaleras hasta arriba.'
 L['trick_deck_of_cards_location'] = 'En el escritorio al lado de {npc:231045} dentro del {location:Hotel Incontinental}.'
 
-L['ditty_fuzeboy_note'] = nil
+L['ditty_fuzeboy_note'] = 'Intercambia {item:234741} por mascotas.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
-L['options_icons_nine_tenths_desc'] = 'Muestra dónde están los {object:} para el logro {achievement:40948}.'
-L['muffs_auto_locker_label'] = 'Auto-Locker de Muff'
+L['options_icons_nine_tenths_desc'] = 'Muestra dónde están los {object:Cofre bloqueado de Muff} para el logro {achievement:40948}.'
+L['muffs_auto_locker_label'] = 'Cofre bloqueado de Muff'
 L['muffs_auto_locker_note'] = 'Recoge las 5 piezas de Gorillion y completa la misión {quest:87406} para construir {item:232843}.'
-L['muffs_auto_locker_suffix'] = 'Auto-Lockers de Muff abiertos'
+L['muffs_auto_locker_suffix'] = 'Cofres bloqueados de Muff abiertos'
 
 L['options_icons_between_the_lines'] = '{achievement:41588}'
 L['options_icons_between_the_lines_desc'] = 'Muestra dónde están los libros para el logro {achievement:41588}.'
