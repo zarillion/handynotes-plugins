@@ -567,5 +567,14 @@ L['ak_decryption_console_note'] = nil
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
+L['inert_plunger_label'] = nil
+L['exploded_plunger_label'] = nil
+
+L['unexploded_fireworks_location'] = nil
+L['fireworks_hat_note'] = nil
+L['lonely_tub_note'] = nil
+L['impotent_potable_location'] = nil
+L['abandoned_toolbox_location'] = nil
+L['trick_deck_of_cards_location'] = nil
 L['options_icons_between_the_lines'] = '{achievement:41588}'
 L['options_icons_between_the_lines_desc'] = nil

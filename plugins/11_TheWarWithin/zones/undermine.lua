@@ -184,7 +184,7 @@ local theRingingDeeps = ns.maps[2214]
 -------------------------------------------------------------------------------
 
 map.nodes[48474307] = Treasure({
-    location = 'On the roof of {location:Tailgate Park}.',
+    location = L['unexploded_fireworks_location'],
     quest = 85683,
     rewards = {
         Achievement({id = 41217, criteria = 71613}) -- Treasures of Undermine
@@ -192,24 +192,40 @@ map.nodes[48474307] = Treasure({
 }) -- Unexploded Fireworks
 
 map.nodes[49896613] = Treasure({
-    location = L['inside_building'],
+    location = L['in_building'],
     quest = 85866,
     rewards = {
         Achievement({id = 41217, criteria = 71624}) -- Treasures of Undermine
     }
 }) -- Suspicious Book
 
--- map.nodes[00000000] = Treasure({
---     rewards = {
---         Achievement({id = 41217, criteria = 71614}) -- Treasures of Undermine
---     }
--- }) -- Fireworks Hat
+map.nodes[56015171] = Treasure({
+    note = L['fireworks_hat_note'],
+    pois = {POI({57845269}), Path({57845269, 56015171})},
+    quest = {
+        85838, -- location 1
+        85839, -- location 2
+        85856 -- pickup
+    },
+    rewards = {
+        Achievement({id = 41217, criteria = 71614}) -- Treasures of Undermine
+    }
+}) -- Fireworks Hat
 
--- map.nodes[00000000] = Treasure({
---     rewards = {
---         Achievement({id = 41217, criteria = 71615}) -- Treasures of Undermine
---     }
--- }) -- Exploded Plunger
+local Plunger = Class('Plunger', Treasure, {
+    quest = 85698, -- Exploded Plunger
+    rewards = {
+        Achievement({id = 41217, criteria = 71615}) -- Treasures of Undermine
+    }
+}) -- Plunger
+
+function Plunger.getters:label()
+    local complete = C_QuestLog.IsQuestFlaggedCompleted(85694)
+    if complete then return L['exploded_plunger_label'] end
+    return L['inert_plunger_label']
+end
+
+map.nodes[49699025] = Plunger() -- Exploded Plunger
 
 -- map.nodes[00000000] = Treasure({
 --     rewards = {
@@ -217,21 +233,30 @@ map.nodes[49896613] = Treasure({
 --     }
 -- }) -- Blackened Dice
 
--- map.nodes[00000000] = Treasure({
---     rewards = {
---         Achievement({id = 41217, criteria = 71626}) -- Treasures of Undermine
---     }
--- }) -- Lonely Tub
+map.nodes[59351912] = Treasure({
+    note = L['lonely_tub_note'],
+    pois = {POI({58751798, color = 'Blue'})}, -- fire extinguisher
+    quest = {
+        85860, -- fire extinguished
+        85858
+    },
+    rewards = {
+        Achievement({id = 41217, criteria = 71626}), -- Treasures of Undermine
+        Transmog({item = 235279, slot = L['legs']}) -- Scorched Shorts
+    }
+}) -- Lonely Tub
 
--- map.nodes[00000000] = Treasure({
---     rewards = {
---         Achievement({id = 41217, criteria = 71627}) -- Treasures of Undermine
---     }
--- }) -- Potent Potable
+map.nodes[69652164] = Treasure({
+    location = L['impotent_potable_location'],
+    quest = 85426,
+    rewards = {
+        Achievement({id = 41217, criteria = 71627}), -- Treasures of Undermine
+        Item({item = 235230}) -- Impotant Potable
+    }
+}) -- Potent Potable
 
 map.nodes[40852126] = Treasure({
-    location =
-        'High on the roof of {location:The Scrapshop}.\n\nFollow the stairs to the top.',
+    location = L['abandoned_toolbox_location'],
     pois = {Entrance({39312588})}, -- Entrance
     quest = 85422,
     rewards = {
@@ -239,11 +264,13 @@ map.nodes[40852126] = Treasure({
     }
 }) -- Abandoned Toolbox
 
--- map.nodes[00000000] = Treasure({
---     rewards = {
---         Achievement({id = 41217, criteria = 71629}) -- Treasures of Undermine
---     }
--- }) -- Papa's Prized Putter
+map.nodes[74677988] = Treasure({
+    quest = 85424,
+    rewards = {
+        Achievement({id = 41217, criteria = 71629}), -- Treasures of Undermine
+        Transmog({item = 234821, slot = L['trinket']}) -- Papa's Prized Putter
+    }
+}) -- Papa's Prized Putter
 
 map.nodes[26864265] = Treasure({
     quest = 85425,
@@ -258,32 +285,37 @@ map.nodes[26864265] = Treasure({
 --     }
 -- }) -- Particularly Nice Lamp
 
--- map.nodes[00000000] = Treasure({
---     rewards = {
---         Achievement({id = 41217, criteria = 71632}) -- Treasures of Undermine
---     }
--- }) -- Uncracked Cold Ones
+map.nodes[53405272] = Treasure({
+    quest = 85495,
+    rewards = {
+        Achievement({id = 41217, criteria = 71632}), -- Treasures of Undermine
+        Toy({item = 234951}) -- Uncracked Cold Ones
+    }
+}) -- Uncracked Cold Ones
 
--- map.nodes[00000000] = Treasure({
---     rewards = {
---         Achievement({id = 41217, criteria = 71633}) -- Treasures of Undermine
---     }
--- }) -- Marooned Floatmingo
+map.nodes[63773219] = Treasure({
+    quest = 854894,
+    rewards = {
+        Achievement({id = 41217, criteria = 71633}), -- Treasures of Undermine
+        Item({item = 235273}) -- Distracting Floatmingo
+    }
+}) -- Marooned Floatmingo
 
 map.nodes[43665154] = Treasure({
-    location =
-        'On the desk next to {npc:231045} inside {location:The Incontinental Hotel}.',
+    location = L['trick_deck_of_cards_location'],
     quest = 85496,
     rewards = {
         Achievement({id = 41217, criteria = 71634}) -- Treasures of Undermine
     }
 }) -- Trick Deck of Cards
 
--- map.nodes[00000000] = Treasure({
---     rewards = {
---         Achievement({id = 41217, criteria = 71635}) -- Treasures of Undermine
---     }
--- }) -- Crumpled Schematics
+map.nodes[42308231] = Treasure({
+    location = L['in_building'],
+    quest = 86487,
+    rewards = {
+        Achievement({id = 41217, criteria = 71635}) -- Treasures of Undermine
+    }
+}) -- Crumpled Schematics
 
 -------------------------------------------------------------------------------
 
