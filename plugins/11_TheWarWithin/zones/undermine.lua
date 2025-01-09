@@ -419,6 +419,26 @@ map.nodes[65611420] = UndermineLoreBook({
 }) -- Misplaced Work Order
 
 -------------------------------------------------------------------------------
+---------------------- ACHIEVEMENT: THAT CAN-DO ATTITUDE ----------------------
+-------------------------------------------------------------------------------
+
+local DiscardedCan = Class('DiscardedCan', Collectible, {
+    group = ns.groups.CAN_DO_ATTITUDE,
+    icon = 236996,
+    label = L['discarded_can_label'],
+    note = L['discarded_can_note'],
+    rewards = {
+        Achievement({
+            id = 41589,
+            criteria = {id = 1, qty = true, suffix = L['discarded_can_suffix']}
+        })
+    }
+}) -- Discarded Can
+
+map.nodes[30674249] = DiscardedCan()
+map.nodes[31334208] = DiscardedCan()
+
+-------------------------------------------------------------------------------
 ----------------------------- WORLDSOUL MEMORIES ------------------------------
 -------------------------------------------------------------------------------
 
