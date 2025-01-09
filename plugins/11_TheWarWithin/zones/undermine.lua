@@ -10,6 +10,8 @@ local Collectible = ns.node.Collectible
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 
+local WorldsoulMemory = ns.node.WorldsoulMemory
+
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
@@ -26,8 +28,7 @@ local ItemStatus = ns.tooltip.ItemStatus
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2346, patch = 110100, settings = true}) -- Undermine
-
-local theRingingDeeps = ns.maps[2214]
+local trd = ns.maps[2214]
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -214,18 +215,14 @@ map.nodes[48474307] = Treasure({
 
 map.nodes[49896613] = Treasure({
     location = L['in_building'],
-    quest = 85866,
+    quest = {85866},
     rewards = {Achievement({id = 41217, criteria = 71624})}
 }) -- Suspicious Book
 
 map.nodes[56015171] = Treasure({
     note = L['fireworks_hat_note'],
     pois = {POI({57845269}), Path({57845269, 56015171})},
-    quest = {
-        85838, -- location 1
-        85839, -- location 2
-        85856 -- pickup
-    },
+    quest = {85838, 85839, 85856},
     rewards = {Achievement({id = 41217, criteria = 71614})}
 }) -- Fireworks Hat
 
@@ -240,7 +237,7 @@ function Plunger.getters:label()
     return L['inert_plunger_label']
 end
 
-map.nodes[49699025] = Plunger() -- Exploded Plunger
+map.nodes[49699025] = Plunger() -- (Inert Plunger?) Exploded Plunger
 
 map.nodes[38965963] = Treasure({
     note = L['blackened_dice_note'],
@@ -369,7 +366,7 @@ local UndermineLoreBook = Class('UndermineLoreBook', Collectible, {
     group = ns.groups.BETWEEN_THE_LINES
 })
 
-theRingingDeeps.nodes[77067315] = UndermineLoreBook({
+trd.nodes[77067315] = UndermineLoreBook({
     quest = 86570,
     rewards = {Achievement({id = 41588, criteria = 103107})}
 }) -- Rocket Drill Safety Manual
@@ -386,7 +383,7 @@ theRingingDeeps.nodes[77067315] = UndermineLoreBook({
 --     rewards = {Achievement({id = 41588, criteria = 103109})}
 -- }) -- Second Half of Noggenfogger's Journal
 
-theRingingDeeps.nodes[71419808] = UndermineLoreBook({
+trd.nodes[71419808] = UndermineLoreBook({
     quest = 86569,
     rewards = {Achievement({id = 41588, criteria = 103110})}
 }) -- Extractor Drill X-78 Safety Guide
@@ -404,8 +401,8 @@ map.nodes[65611420] = UndermineLoreBook({
 ----------------------------- WORLDSOUL MEMORIES ------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[43251438] = ns.node.WorldsoulMemory({areaPoiID = 8200}) -- Early Cartel Wars
-map.nodes[58196864] = ns.node.WorldsoulMemory({areaPoiID = 8201}) -- Kaja'mite Contact
+map.nodes[43251438] = WorldsoulMemory({areaPoiID = 8200}) -- Early Cartel Wars
+map.nodes[58196864] = WorldsoulMemory({areaPoiID = 8201}) -- Kaja'mite Contact
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLEANOUS --------------------------------
