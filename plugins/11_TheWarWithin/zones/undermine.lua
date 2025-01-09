@@ -38,11 +38,11 @@ local theRingingDeeps = ns.maps[2214]
 --     criteria = {
 --         71591, -- Scrap Beak
 --         , -- Ratspit
---         71593, -- Tally Doublespeak
+--         , -- Tally Doublespeak
 --         71594, -- Slimesby
 --         71595, -- V.V. Goosworth
 --         , -- Thwack
---         71597, -- S.A.L.
+--         , -- S.A.L.
 --         71598, -- Nitro
 --         71599, -- Candy Stickemup
 --         , -- Grimewick
@@ -77,12 +77,15 @@ map.nodes[25243675] = Rare({
     }
 }) -- Ratspit
 
--- map.nodes[00000000] = Rare({
---     id = 230940,
---     rewards = {
---         Achievement({id = 41216, criteria = 3}) -- Adventurer of Undermine
---     }
--- }) -- Tally Doublespeak
+map.nodes[37684448] = Rare({
+    id = 230940,
+    quest = 84919,
+    rewards = {
+        Achievement({id = 41216, criteria = 71593}),
+        Reputation({id = 2653, gain = 20}),
+        Item({item = 234420}) -- Handcrank Mounting System
+    }
+}) -- Tally Doublespeak
 
 -- map.nodes[00000000] = Rare({
 --     id = 230947,
@@ -102,17 +105,20 @@ map.nodes[54015023] = Rare({
     id = 230951,
     quest = 84921,
     rewards = {
-        Achievement({id = 41216, criteria = 6}),
+        Achievement({id = 41216, criteria = 71596}),
         Reputation({id = 2653, gain = 20})
     }
 }) -- Thwack
 
--- map.nodes[00000000] = Rare({
---     id = 230979,
---     rewards = {
---         Achievement({id = 41216, criteria = 7}) -- Adventurer of Undermine
---     }
--- }) -- S.A.L.
+map.nodes[41922563] = Rare({
+    id = 230979,
+    quest = 84922,
+    rewards = {
+        Achievement({id = 41216, criteria = 71597}),
+        Reputation({id = 2653, gain = 20}),
+        Item({item = 234381}) -- Handcrank Fuel Tank
+    }
+}) -- S.A.L.
 
 -- map.nodes[00000000] = Rare({
 --     id = 230995,
