@@ -318,14 +318,43 @@ map.nodes[42308231] = Treasure({
 }) -- Crumpled Schematics
 
 -------------------------------------------------------------------------------
+--------------------- ACHIEVEMENT: NINE-TENTHS OF THE LAW ---------------------
+-------------------------------------------------------------------------------
 
-map.nodes[23804538] = Treasure({
-    label = 'Muff\'s Auto Locker',
-    quest = 85072,
-    rewards = {
-        Item({item = 234427}) -- Gorillion Fork
+local MuffsAutoLocker = Class('MuffsAutoLocker', Collectible, {
+    icon = 2201832,
+    label = L['muffs_auto_locker_label'],
+    group = ns.groups.NINE_TENTHS
+}) -- Muff's Auto-Locker
+
+function MuffsAutoLocker.getters:note()
+    local note = L['muffs_auto_locker_note']
+    note = note .. ItemStatus(234427, 1, '{item:234427}') -- Gorillion Fork
+    note = note .. ItemStatus(234432, 1, '{item:234432}') -- Gorillion Engine
+    note = note .. ItemStatus(234433, 1, '{item:234433}') -- Gorillion Chasis
+    note = note .. ItemStatus(234430, 1, '{item:234430}') -- Gorillion Grease
+    note = note .. ItemStatus(234431, 1, '{item:234431}') -- Gorillion Batteries
+    return note
+end
+
+function MuffsAutoLocker.getters:rewards()
+    return {
+        Achievement({
+            id = 40948,
+            criteria = {
+                id = 1,
+                qty = true,
+                suffix = L['muffs_auto_locker_suffix']
+            }
+        }), Pet({item = 232843, id = 4642}) -- Gorillion
     }
-}) -- Muff's Auto Locker
+end
+
+map.nodes[23804538] = MuffsAutoLocker({quest = 85072}) -- Gorillion Fork
+map.nodes[56665546] = MuffsAutoLocker({quest = 85116}) -- Gorillion Engine
+map.nodes[34318285] = MuffsAutoLocker({quest = 85117}) -- Gorillion Chasis
+map.nodes[71458588] = MuffsAutoLocker({quest = 85114}) -- Gorillion Grease
+map.nodes[75142295] = MuffsAutoLocker({quest = 85115}) -- Gorillion Batteries
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: READ BETWEEN THE LINES ---------------------

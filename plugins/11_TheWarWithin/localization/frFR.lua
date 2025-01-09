@@ -577,5 +577,12 @@ L['lonely_tub_note'] = nil
 L['impotent_potable_location'] = nil
 L['abandoned_toolbox_location'] = nil
 L['trick_deck_of_cards_location'] = nil
+
+L['options_icons_nine_tenths'] = '{achievement:40948}'
+L['options_icons_nine_tenths_desc'] = nil
+L['muffs_auto_locker_label'] = nil
+L['muffs_auto_locker_note'] = nil
+L['muffs_auto_locker_suffix'] = nil
+
 L['options_icons_between_the_lines'] = '{achievement:41588}'
 L['options_icons_between_the_lines_desc'] = nil

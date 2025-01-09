@@ -576,5 +576,12 @@ L['lonely_tub_note'] = 'Grab the nearby {object:Fire Extinguisher} ({dot:Blue}) 
 L['impotent_potable_location'] = 'Below the dock next to the {location:Plunder Party}'
 L['abandoned_toolbox_location'] = 'High on the roof of {location:The Scrapshop}.\n\nFollow the stairs to the top.'
 L['trick_deck_of_cards_location'] = 'On the desk next to {npc:231045} inside {location:The Incontinental Hotel}.'
+
+L['options_icons_nine_tenths'] = '{achievement:40948}'
+L['options_icons_nine_tenths_desc'] = 'Display all {object:} locations for {achievement:40948}.'
+L['muffs_auto_locker_label'] = 'Muff\'s Auto-Locker'
+L['muffs_auto_locker_note'] = 'Collect all 5x Gorillion pieces and complete {quest:87406} to build {item:232843}.'
+L['muffs_auto_locker_suffix'] = 'Muff\'s Auto-Lockers opened'
+
 L['options_icons_between_the_lines'] = '{achievement:41588}'
 L['options_icons_between_the_lines_desc'] = 'Display the book locations for {achievement:41588}.'

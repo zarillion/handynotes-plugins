@@ -141,6 +141,12 @@ ns.groups.MISSING_LYNX = Group('missing_lynx', 5689905, {
     achievement = 40625
 })
 
+ns.groups.NINE_TENTHS = Group('nine_tenths', 2201832, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40948
+})
+
 ns.groups.NO_HARM_FROM_READING = Group('no_harm_from_reading', 463284, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
