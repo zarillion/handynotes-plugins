@@ -568,12 +568,14 @@ L['ak_decryption_console_note'] = 'Back to the hidden hole, entrance within the 
 -------------------------------------------------------------------------------
 
 L['in_sewer'] = 'Within the sewer. Use the nearby {object:Sewer Grate} to enter.'
+L['and_slimesby'] = 'and {npc:230947}'
 
 L['inert_plunger_label'] = 'Inert Plunger?'
 L['exploded_plunger_label'] = 'Exploded Plunger'
 
 L['unexploded_fireworks_location'] = 'On the roof of {location:Tailgate Park}.'
 L['fireworks_hat_note'] = 'Attempt to grab the hat causing it to fly from the rooftop and land here.'
+L['blackened_dice_note'] = 'Turn the nearby {object:Pipe Valve} to release the dice.'
 L['lonely_tub_note'] = 'Grab the nearby {object:Fire Extinguisher} ({dot:Blue}) to put out the flames on the {object:Lonely Tub}.'
 L['impotent_potable_location'] = 'Below the dock next to the {location:Plunder Party}'
 L['abandoned_toolbox_location'] = 'High on the roof of {location:The Scrapshop}.\n\nFollow the stairs to the top.'

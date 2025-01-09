@@ -568,12 +568,14 @@ L['ak_decryption_console_note'] = '回到隐藏的洞穴，入口位于 {locatio
 -------------------------------------------------------------------------------
 
 L['in_sewer'] = nil
+L['and_slimesby'] = nil
 
 L['inert_plunger_label'] = nil
 L['exploded_plunger_label'] = nil
 
 L['unexploded_fireworks_location'] = nil
 L['fireworks_hat_note'] = nil
+L['blackened_dice_note'] = nil
 L['lonely_tub_note'] = nil
 L['impotent_potable_location'] = nil
 L['abandoned_toolbox_location'] = nil

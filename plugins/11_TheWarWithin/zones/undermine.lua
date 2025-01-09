@@ -33,37 +33,11 @@ local theRingingDeeps = ns.maps[2214]
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
--- Achievement({
---     id = 41216,
---     criteria = {
---         71591, -- Scrap Beak
---         , -- Ratspit
---         , -- Tally Doublespeak
---         71594, -- Slimesby
---         71595, -- V.V. Goosworth
---         , -- Thwack
---         , -- S.A.L.
---         71598, -- Nitro
---         71599, -- Candy Stickemup
---         , -- Grimewick
---         71601, -- Swigs Farsight
---         71602, -- Ephemeral Agent Lathyd
---         71603, -- The Junk-Wall
---         71604, -- Slugger the Smart
---         71605, -- Chief Foreman Gutso
---         71606, -- Flyboy Snooty
---         71608, -- Aurumensis
---         71609, -- Giovante
---         71610, -- Scrapchewer
---         71611, -- Volstrike the Charged
---         71612, -- The Darkfuse Precipitant
---     }
--- }) -- Adventurer of Undermine
-
 -- map.nodes[00000000] = Rare({
 --     id = 230931,
+--     quest = nil,
 --     rewards = {
---         Achievement({id = 41216, criteria = 1}) -- Adventurer of Undermine
+--         Achievement({id = 41216, criteria = 71591})
 --     }
 -- }) -- Scrap Beak
 
@@ -82,24 +56,19 @@ map.nodes[37684448] = Rare({
     quest = 84919,
     rewards = {
         Achievement({id = 41216, criteria = 71593}),
-        Reputation({id = 2653, gain = 20}),
-        Item({item = 234420}) -- Handcrank Mounting System
+        Reputation({id = 2653, gain = 20}), Item({item = 234420}) -- Handcrank Mounting System
     }
 }) -- Tally Doublespeak
 
--- map.nodes[00000000] = Rare({
---     id = 230947,
---     rewards = {
---         Achievement({id = 41216, criteria = 4}) -- Adventurer of Undermine
---     }
--- }) -- Slimesby
-
--- map.nodes[00000000] = Rare({
---     id = 230946,
---     rewards = {
---         Achievement({id = 41216, criteria = 5}) -- Adventurer of Undermine
---     }
--- }) -- V.V. Goosworth
+map.nodes[36877815] = Rare({
+    id = 230946,
+    quest = 84920,
+    sublabel = L['and_slimesby'],
+    rewards = {
+        Achievement({id = 41216, criteria = {71595, 71594}}),
+        Reputation({id = 2653, gain = 20})
+    }
+}) -- V.V. Goosworth and Slimesby
 
 map.nodes[54015023] = Rare({
     id = 230951,
@@ -115,24 +84,26 @@ map.nodes[41922563] = Rare({
     quest = 84922,
     rewards = {
         Achievement({id = 41216, criteria = 71597}),
-        Reputation({id = 2653, gain = 20}),
-        Item({item = 234381}) -- Handcrank Fuel Tank
+        Reputation({id = 2653, gain = 20}), Item({item = 234381}) -- Handcrank Fuel Tank
     }
 }) -- S.A.L.
 
 -- map.nodes[00000000] = Rare({
 --     id = 230995,
+--     quest = nil,
 --     rewards = {
---         Achievement({id = 41216, criteria = 8}) -- Adventurer of Undermine
+--         Achievement({id = 41216, criteria = 71598})
 --     }
 -- }) -- Nitro
 
--- map.nodes[00000000] = Rare({
---     id = 231012,
---     rewards = {
---         Achievement({id = 41216, criteria = 9}) -- Adventurer of Undermine
---     }
--- }) -- Candy Stickemup
+map.nodes[42227735] = Rare({
+    id = 231012,
+    quest = 84927,
+    rewards = {
+        Achievement({id = 41216, criteria = 71599}),
+        Reputation({id = 2653, gain = 20})
+    }
+}) -- Candy Stickemup
 
 map.nodes[67333353] = Rare({
     id = 231017,
@@ -145,78 +116,89 @@ map.nodes[67333353] = Rare({
 
 -- map.nodes[00000000] = Rare({
 --     id = 231288,
+--     quest = nil,
 --     rewards = {
---         Achievement({id = 41216, criteria = 11}) -- Adventurer of Undermine
+--         Achievement({id = 41216, criteria = 71601})
 --     }
 -- }) -- Swigs Farsight
 
 -- map.nodes[00000000] = Rare({
 --     id = 230746,
+--     quest = nil,
 --     rewards = {
---         Achievement({id = 41216, criteria = 12}) -- Adventurer of Undermine
+--         Achievement({id = 41216, criteria = 71602})
 --     }
 -- }) -- Ephemeral Agent Lathyd
 
 -- map.nodes[00000000] = Rare({
 --     id = 230793,
+--     quest = nil,
 --     rewards = {
---         Achievement({id = 41216, criteria = 13}) -- Adventurer of Undermine
+--         Achievement({id = 41216, criteria = 71603})
 --     }
 -- }) -- The Junk-Wall
 
 -- map.nodes[00000000] = Rare({
 --     id = 230800,
+--     quest = nil,
 --     rewards = {
---         Achievement({id = 41216, criteria = 14}) -- Adventurer of Undermine
+--         Achievement({id = 41216, criteria = 71604})
 --     }
 -- }) -- Slugger the Smart
 
 -- map.nodes[00000000] = Rare({
 --     id = 230828,
+--     quest = nil,
 --     rewards = {
---         Achievement({id = 41216, criteria = 15}) -- Adventurer of Undermine
+--         Achievement({id = 41216, criteria = 71605})
 --     }
 -- }) -- Chief Foreman Gutso
 
 -- map.nodes[00000000] = Rare({
 --     id = 230840,
+--     quest = nil,
 --     rewards = {
---         Achievement({id = 41216, criteria = 16}) -- Adventurer of Undermine
+--         Achievement({id = 41216, criteria = 71606})
 --     }
 -- }) -- Flyboy Snooty
 
 -- map.nodes[00000000] = Rare({
 --     id = 234480,
+--     quest = nil,
 --     rewards = {
---         Achievement({id = 41216, criteria = 17}) -- Adventurer of Undermine
+--         Achievement({id = 41216, criteria = 71608})
 --     }
 -- }) -- Aurumensis
 
 -- map.nodes[00000000] = Rare({
 --     id = 234499,
+--     quest = nil,
 --     rewards = {
---         Achievement({id = 41216, criteria = 18}) -- Adventurer of Undermine
+--         Achievement({id = 41216, criteria = 71609})
 --     }
 -- }) -- Giovante
 
 -- map.nodes[00000000] = Rare({
 --     id = 233471,
+--     quest = nil,
 --     rewards = {
---         Achievement({id = 41216, criteria = 19}) -- Adventurer of Undermine
+--         Achievement({id = 41216, criteria = 71610})
 --     }
 -- }) -- Scrapchewer
 
 -- map.nodes[00000000] = Rare({
 --     id = 233472,
+--     quest = nil,
 --     rewards = {
---         Achievement({id = 41216, criteria = 20}) -- Adventurer of Undermine
+--         Achievement({id = 41216, criteria = 71611})
 --     }
 -- }) -- Volstrike the Charged
 
 -- map.nodes[00000000] = Rare({
 --     id = 231310,
+--     quest = nil,
 --     rewards = {
---         Achievement({id = 41216, criteria = 21}) -- Adventurer of Undermine
+--         Achievement({id = 41216, criteria = 71612})
 --     }
 -- }) -- The Darkfuse Precipitant
 
@@ -227,17 +209,13 @@ map.nodes[67333353] = Rare({
 map.nodes[48474307] = Treasure({
     location = L['unexploded_fireworks_location'],
     quest = 85683,
-    rewards = {
-        Achievement({id = 41217, criteria = 71613}) -- Treasures of Undermine
-    }
+    rewards = {Achievement({id = 41217, criteria = 71613})}
 }) -- Unexploded Fireworks
 
 map.nodes[49896613] = Treasure({
     location = L['in_building'],
     quest = 85866,
-    rewards = {
-        Achievement({id = 41217, criteria = 71624}) -- Treasures of Undermine
-    }
+    rewards = {Achievement({id = 41217, criteria = 71624})}
 }) -- Suspicious Book
 
 map.nodes[56015171] = Treasure({
@@ -248,16 +226,12 @@ map.nodes[56015171] = Treasure({
         85839, -- location 2
         85856 -- pickup
     },
-    rewards = {
-        Achievement({id = 41217, criteria = 71614}) -- Treasures of Undermine
-    }
+    rewards = {Achievement({id = 41217, criteria = 71614})}
 }) -- Fireworks Hat
 
 local Plunger = Class('Plunger', Treasure, {
     quest = 85698, -- Exploded Plunger
-    rewards = {
-        Achievement({id = 41217, criteria = 71615}) -- Treasures of Undermine
-    }
+    rewards = {Achievement({id = 41217, criteria = 71615})}
 }) -- Plunger
 
 function Plunger.getters:label()
@@ -268,21 +242,20 @@ end
 
 map.nodes[49699025] = Plunger() -- Exploded Plunger
 
--- map.nodes[00000000] = Treasure({
---     rewards = {
---         Achievement({id = 41217, criteria = 71625}) -- Treasures of Undermine
---     }
--- }) -- Blackened Dice
+map.nodes[38965963] = Treasure({
+    note = L['blackened_dice_note'],
+    quest = 85814,
+    rewards = {
+        Achievement({id = 41217, criteria = 71625}), Item({item = 235255}) -- Durable Dice
+    }
+}) -- Blackened Dice
 
 map.nodes[59351912] = Treasure({
     note = L['lonely_tub_note'],
-    pois = {POI({58751798, color = 'Blue'})}, -- fire extinguisher
-    quest = {
-        85860, -- fire extinguished
-        85858
-    },
+    pois = {POI({58751798, color = 'Blue'})},
+    quest = {85860, 85858},
     rewards = {
-        Achievement({id = 41217, criteria = 71626}), -- Treasures of Undermine
+        Achievement({id = 41217, criteria = 71626}),
         Transmog({item = 235279, slot = L['legs']}) -- Scorched Shorts
     }
 }) -- Lonely Tub
@@ -291,8 +264,7 @@ map.nodes[69652164] = Treasure({
     location = L['impotent_potable_location'],
     quest = 85426,
     rewards = {
-        Achievement({id = 41217, criteria = 71627}), -- Treasures of Undermine
-        Item({item = 235230}) -- Impotant Potable
+        Achievement({id = 41217, criteria = 71627}), Item({item = 235230}) -- Impotant Potable
     }
 }) -- Potent Potable
 
@@ -300,62 +272,53 @@ map.nodes[40852126] = Treasure({
     location = L['abandoned_toolbox_location'],
     pois = {Entrance({39312588})}, -- Entrance
     quest = 85422,
-    rewards = {
-        Achievement({id = 41217, criteria = 71628}) -- Treasures of Undermine
-    }
+    rewards = {Achievement({id = 41217, criteria = 71628})}
 }) -- Abandoned Toolbox
 
 map.nodes[74677988] = Treasure({
     quest = 85424,
     rewards = {
-        Achievement({id = 41217, criteria = 71629}), -- Treasures of Undermine
+        Achievement({id = 41217, criteria = 71629}),
         Transmog({item = 234821, slot = L['trinket']}) -- Papa's Prized Putter
     }
 }) -- Papa's Prized Putter
 
 map.nodes[26864265] = Treasure({
     quest = 85425,
-    rewards = {
-        Achievement({id = 41217, criteria = 71630}) -- Treasures of Undermine
-    }
+    rewards = {Achievement({id = 41217, criteria = 71630})}
 }) -- Unsupervised Takeout
 
--- map.nodes[00000000] = Treasure({
---     rewards = {
---         Achievement({id = 41217, criteria = 71631}) -- Treasures of Undermine
---     }
--- }) -- Particularly Nice Lamp
+map.nodes[39386103] = Treasure({
+    quest = 85492,
+    rewards = {
+        Achievement({id = 41217, criteria = 71631}), Item({item = 235221}) -- Paricularly Bright Lightbulb
+    }
+}) -- Particularly Nice Lamp
 
 map.nodes[53405272] = Treasure({
     quest = 85495,
     rewards = {
-        Achievement({id = 41217, criteria = 71632}), -- Treasures of Undermine
-        Toy({item = 234951}) -- Uncracked Cold Ones
+        Achievement({id = 41217, criteria = 71632}), Toy({item = 234951}) -- Uncracked Cold Ones
     }
 }) -- Uncracked Cold Ones
 
 map.nodes[63773219] = Treasure({
-    quest = 854894,
+    quest = nil,
     rewards = {
-        Achievement({id = 41217, criteria = 71633}), -- Treasures of Undermine
-        Item({item = 235273}) -- Distracting Floatmingo
+        Achievement({id = 41217, criteria = 71633}), Item({item = 235273}) -- Distracting Floatmingo
     }
 }) -- Marooned Floatmingo
 
 map.nodes[43665154] = Treasure({
     location = L['trick_deck_of_cards_location'],
     quest = 85496,
-    rewards = {
-        Achievement({id = 41217, criteria = 71634}) -- Treasures of Undermine
-    }
+    rewards = {Achievement({id = 41217, criteria = 71634})}
 }) -- Trick Deck of Cards
 
 map.nodes[42308231] = Treasure({
     location = L['in_building'],
     quest = 86487,
-    rewards = {
-        Achievement({id = 41217, criteria = 71635}) -- Treasures of Undermine
-    }
+    rewards = {Achievement({id = 41217, criteria = 71635})}
 }) -- Crumpled Schematics
 
 -------------------------------------------------------------------------------
