@@ -9,6 +9,7 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
+local Vendor = ns.node.Vendor
 
 local WorldsoulMemory = ns.node.WorldsoulMemory
 
@@ -320,6 +321,23 @@ map.nodes[42308231] = Treasure({
     quest = 86487,
     rewards = {Achievement({id = 41217, criteria = 71635})}
 }) -- Crumpled Schematics
+
+-------------------------------------------------------------------------------
+----------------------------------- VENDORS -----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[35384142] = Vendor({
+    id = 236411,
+    note = L['ditty_fuzeboy_note'],
+    rewards = {
+        Pet({item = 232850, id = 4649, count = 5}), -- Blackwater Kegmover
+        Pet({item = 232846, id = 4648, count = 5}), -- Steamwheedle Flunkie
+        Pet({item = 232849, id = 4650, count = 5}), -- venture Companyman
+        Pet({item = 232840, id = 4661, count = 5}), -- Mechagopher
+        Pet({item = 232841, id = 4644, count = 8}), -- Professor Punch
+        Pet({item = 232842, id = 4638, count = 10}) -- Crimson Mechasaur
+    }
+}) -- Ditty Fuzeboy
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: NINE-TENTHS OF THE LAW ---------------------

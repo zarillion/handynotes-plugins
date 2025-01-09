@@ -582,6 +582,8 @@ L['impotent_potable_location'] = 'Below the dock next to the {location:Plunder P
 L['abandoned_toolbox_location'] = 'High on the roof of {location:The Scrapshop}.\n\nFollow the stairs to the top.'
 L['trick_deck_of_cards_location'] = 'On the desk next to {npc:231045} inside {location:The Incontinental Hotel}.'
 
+L['ditty_fuzeboy_note'] = 'Exchange {item:234741} for pets.'
+
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Display all {object:Muff\'s Auto-Locker} locations for {achievement:40948}.'
 L['muffs_auto_locker_label'] = 'Muff\'s Auto-Locker'

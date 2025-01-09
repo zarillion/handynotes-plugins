@@ -582,6 +582,8 @@ L['impotent_potable_location'] = 'Debajo del muelle al lado de {location:Fiesta 
 L['abandoned_toolbox_location'] = 'En lo alto del techo de la {location:Tienda de Chatarra}.\n\nSigue las escaleras hasta arriba.'
 L['trick_deck_of_cards_location'] = 'En el escritorio al lado de {npc:231045} dentro del {location:Hotel Incontinental}.'
 
+L['ditty_fuzeboy_note'] = nil
+
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Muestra dónde están los {object:} para el logro {achievement:40948}.'
 L['muffs_auto_locker_label'] = 'Auto-Locker de Muff'
