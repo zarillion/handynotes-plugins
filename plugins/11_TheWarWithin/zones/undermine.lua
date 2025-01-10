@@ -147,13 +147,14 @@ map.nodes[63354975] = Rare({
     pois = {Path({63574989, 64085016, 64005291})}
 }) -- The Junk-Wall
 
--- map.nodes[00000000] = Rare({
---     id = 230800,
---     quest = 84895,
---     rewards = {
---         Achievement({id = 41216, criteria = 71604})
---     }
--- }) -- Slugger the Smart
+map.nodes[52354107] = Rare({
+    id = 230800,
+    quest = 84895,
+    rewards = {
+        Achievement({id = 41216, criteria = 71604}),
+        Reputation({id = 2653, gain = 50})
+    }
+}) -- Slugger the Smart
 
 map.nodes[58488643] = Rare({
     id = 230828,
@@ -447,6 +448,8 @@ local DiscardedCan = Class('DiscardedCan', Collectible, {
 map.nodes[30674249] = DiscardedCan()
 map.nodes[31334208] = DiscardedCan()
 map.nodes[28624761] = DiscardedCan()
+map.nodes[46374679] = DiscardedCan()
+map.nodes[52715868] = DiscardedCan()
 
 -------------------------------------------------------------------------------
 ----------------------------- WORLDSOUL MEMORIES ------------------------------

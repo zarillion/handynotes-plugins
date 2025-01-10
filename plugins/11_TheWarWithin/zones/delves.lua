@@ -474,8 +474,9 @@ esn.nodes[00000000] = SturdyChest({
 
 sss.nodes[00000000] = SturdyChest({
     achievementID = 41101,
+    quest = 86790,
     rlabel = ns.status.Gray('#1')
-}) -- Sturdy Chest 1
+}) -- Sturdy Chest 1 map:2420/The pits
 
 sss.nodes[00000000] = SturdyChest({
     achievementID = 41101,
@@ -487,10 +488,11 @@ sss.nodes[00000000] = SturdyChest({
     rlabel = ns.status.Gray('#3')
 }) -- Sturdy Chest 3
 
-sss.nodes[00000000] = SturdyChest({
+sss.nodes[61616581] = SturdyChest({
     achievementID = 41101,
+    quest = 86787,
     rlabel = ns.status.Gray('#4')
-}) -- Sturdy Chest 4
+}) -- Sturdy Chest 4 map:2420/The pits
 
 -------------------------------------------------------------------------------
 -------------------------- DELVE REWARDS (AREAPOIS) ---------------------------
