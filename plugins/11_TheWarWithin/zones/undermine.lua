@@ -78,7 +78,8 @@ map.nodes[54015023] = Rare({
     quest = 84921,
     rewards = {
         Achievement({id = 41216, criteria = 71596}),
-        Reputation({id = 2653, gain = 20})
+        Reputation({id = 2653, gain = 20}),
+        Item({item = 234420}) -- Handcrank Mounting System
     }
 }) -- Thwack
 
@@ -94,7 +95,11 @@ map.nodes[41922563] = Rare({
 map.nodes[46915565] = Rare({
     id = 230995,
     quest = 84926,
-    rewards = {Achievement({id = 41216, criteria = 71598})}
+    rewards = {
+        Achievement({id = 41216, criteria = 71598}),
+        Reputation({id = 2653, gain = 20}),
+        Transmog({item = 235324, slot = L['mail']}) -- scavengers-lost-bind
+    }
 }) -- Nitro
 
 map.nodes[42227735] = Rare({
