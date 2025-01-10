@@ -119,8 +119,11 @@ map.nodes[67333353] = Rare({
 
 map.nodes[41354357] = Rare({
     id = 231288,
-    quest = nil,
-    rewards = {Achievement({id = 41216, criteria = 71601})}
+    quest = 85004,
+    rewards = {
+        Achievement({id = 41216, criteria = 71601}),
+        Reputation({id = 2653, gain = 20})
+    }
 }) -- Swigs Farsight
 
 -- map.nodes[00000000] = Rare({
