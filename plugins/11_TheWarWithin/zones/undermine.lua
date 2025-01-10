@@ -78,8 +78,7 @@ map.nodes[54015023] = Rare({
     quest = 84921,
     rewards = {
         Achievement({id = 41216, criteria = 71596}),
-        Reputation({id = 2653, gain = 20}),
-        Item({item = 234420}) -- Handcrank Mounting System
+        Reputation({id = 2653, gain = 20}), Item({item = 234420}) -- Handcrank Mounting System
     }
 }) -- Thwack
 
