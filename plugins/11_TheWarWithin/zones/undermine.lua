@@ -446,6 +446,7 @@ local DiscardedCan = Class('DiscardedCan', Collectible, {
 
 map.nodes[30674249] = DiscardedCan()
 map.nodes[31334208] = DiscardedCan()
+map.nodes[28624761] = DiscardedCan()
 
 -------------------------------------------------------------------------------
 ----------------------------- WORLDSOUL MEMORIES ------------------------------
