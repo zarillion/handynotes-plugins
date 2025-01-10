@@ -429,12 +429,12 @@ L['5_battered_celebration_crate'] = 'Напротив скал пещеры ок
 L['6_waterlogged_celebration_crate'] = 'Под водой на втором этаже здания Гномов.\n\n{note:Не трогайте лифт. В настоящее время он выкидывает вас из игры.}'
 L['7_charred_celebration_crate'] = 'Спрятан у основания батута в {location:роще Трелей}.'
 L['8_mildewed_celebration_crate'] = '1. Найдите и выпейте {object:Зелье правды} позади {npc:34295} на вершине {location:Громовой вершины} в {location:Ясеневом лесу}.\n\n2. Найдите {object:Заплесневевший ящик с праздника} в {location:Забытом Городе} в {location:Фералас}.\n\n{note:{Spell:463368} длится всего 30 минут. Вам необходимо вручную лететь в {location:Фералас}. Смена континентов, использование порталов или использование вашего {item:6948} снимет бафф.}'
-L['9_crystalized_celebration_crate'] = 'Inside of {location:Oshu\'gun} in {location:Nagrand}.'
-L['10_surprisingly_pristine_celebration_crate'] = '1. Collect the {item:228772} from within the cave in {location:Ahn\'Qiraj} in {location:Kalimdor}.\n\n2. Place the {item:228772} at the {object:Unmarked Grave} in {location:Stormheim} in the {location:Broken Isles}.'
-L['11_ghostly_celebration_crate'] = 'On top of the {location:Seat of the Primus} to the right of the portal.'
+L['9_crystalized_celebration_crate'] = 'Внутри {location:Ошу\'гуна} в {location:Награнде}.'
+L['10_surprisingly_pristine_celebration_crate'] = '1. Соберите {item:228772} из пещеры в {location:Ан\'Киража} в {location:Калимдоре}.\n\n2. Поместите {item:228772} в {object:Безымянную могилу} в {location:Штормхейме} на {location:Расколотых островах}.'
+L['11_ghostly_celebration_crate'] = 'На вершине {location:Престола Примаса} справа от портала.'
 
-L['water_resistant_receipt_note'] = '1. Enter the tunnel filled with {npc:47390}, turn right, and collect the {item:228768} from the {object:Water-Resistant Receipt of Sale} behind the pipe.\n\n2. Find {npc:91079} in {location:Azsuna} in the {location:Broken Isles}.'
-L['mysterious_bones_note'] = 'Collect the {item:228772} hidden behind {npc:71533} within the cave.\n\nUse a dog battle pet such as {item:136925} or {item:49912} to dig up the bones.'
+L['water_resistant_receipt_note'] = '1. Войдите в туннель, заполненный {npc:47390}, поверните направо и заберите {item:228768} из {object:Водонепроницаемого товарного чека} за трубой.\n\n2. Найдите {npc:91079} в {location:Азсуне} на {location:Расколотых островах}.'
+L['mysterious_bones_note'] = 'Соберите {item:228772}, спрятанный за {npc:71533} в пещере.\n\nИспользуйте боевого питомца-собаку, например, {item:136925} или {item:49912}, чтобы выкопать кости.'
 
 L['crates_found'] = nil
 
