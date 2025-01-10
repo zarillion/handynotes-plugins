@@ -91,13 +91,11 @@ map.nodes[41922563] = Rare({
     }
 }) -- S.A.L.
 
--- map.nodes[00000000] = Rare({
---     id = 230995,
---     quest = nil,
---     rewards = {
---         Achievement({id = 41216, criteria = 71598})
---     }
--- }) -- Nitro
+map.nodes[46915565] = Rare({
+    id = 230995,
+    quest = 84926,
+    rewards = {Achievement({id = 41216, criteria = 71598})}
+}) -- Nitro
 
 map.nodes[42227735] = Rare({
     id = 231012,
@@ -126,41 +124,45 @@ map.nodes[41354357] = Rare({
     }
 }) -- Swigs Farsight
 
--- map.nodes[00000000] = Rare({
---     id = 230746,
---     quest = nil,
---     rewards = {
---         Achievement({id = 41216, criteria = 71602})
---     }
--- }) -- Ephemeral Agent Lathyd
+map.nodes[26516830] = Rare({
+    id = 230746,
+    quest = 84877,
+    rewards = {
+        Achievement({id = 41216, criteria = 71602}),
+        Reputation({id = 2653, gain = 50})
+    }
+}) -- Ephemeral Agent Lathyd
 
--- map.nodes[00000000] = Rare({
---     id = 230793,
---     quest = nil,
---     rewards = {
---         Achievement({id = 41216, criteria = 71603})
---     }
--- }) -- The Junk-Wall
+map.nodes[63354975] = Rare({
+    id = 230793,
+    quest = 84884,
+    rewards = {
+        Achievement({id = 41216, criteria = 71603}), Item({item = 234419}), -- steamboil mounting system
+        Reputation({id = 2653, gain = 50})
+    },
+    pois = {Path({63574989, 64085016, 64005291})}
+}) -- The Junk-Wall
 
 -- map.nodes[00000000] = Rare({
 --     id = 230800,
---     quest = nil,
+--     quest = 84895,
 --     rewards = {
 --         Achievement({id = 41216, criteria = 71604})
 --     }
 -- }) -- Slugger the Smart
 
--- map.nodes[00000000] = Rare({
---     id = 230828,
---     quest = nil,
---     rewards = {
---         Achievement({id = 41216, criteria = 71605})
---     }
--- }) -- Chief Foreman Gutso
+map.nodes[58488643] = Rare({
+    id = 230828,
+    quest = 84907,
+    rewards = {
+        Achievement({id = 41216, criteria = 71605}),
+        Reputation({id = 2653, gain = 50})
+    }
+}) -- Chief Foreman Gutso (patrols needs path)
 
 map.nodes[60580989] = Rare({
     id = 230840,
-    quest = nil,
+    quest = 84911,
     rewards = {Achievement({id = 41216, criteria = 71606})},
     vignette = 6597
 }) -- Flyboy Snooty
