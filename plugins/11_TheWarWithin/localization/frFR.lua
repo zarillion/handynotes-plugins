@@ -349,6 +349,7 @@ L['tsw_chest_4_location'] = 'En haut d\'une poutre. Descendez du pilier près de
 L['tuk_chest_1_note'] = 'Derrière la statue.'
 L['tuk_chest_2_note'] = '{note:Disponible uniquement pendant les variantes d’histoires "Évolution incontrôlable" et "Victimes de tortures".}'
 L['tuk_chest_3_note'] = '{note:Disponible uniquement pendant les variantes d’histoires "Évolution incontrôlable" et "Sauvetage de tisserande".}'
+L['sss_chest_2_location'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------

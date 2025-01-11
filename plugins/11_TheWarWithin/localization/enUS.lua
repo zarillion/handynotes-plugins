@@ -348,6 +348,7 @@ L['tsw_chest_4_location'] = 'High up on a beam. Drop down from the pillar near t
 L['tuk_chest_1_note'] = 'Behind the Statue.'
 L['tuk_chest_2_note'] = '{note:Only available in the "Runaway Evolution" and "Torture Victims" story variants.}'
 L['tuk_chest_3_note'] = '{note:Only available in the "Runaway Evolution" and "Weaver Rescue" story variants.}'
+L['sss_chest_2_location'] = 'Across the metal beam.'
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------

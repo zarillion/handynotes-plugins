@@ -29,7 +29,9 @@ local nfs = Map({id = 2277, settings = false}) -- Nightfall Sanctum
 local tra = Map({id = 2259, settings = false}) -- Tak-Rethan Abyss
 
 local esn = Map({id = 2396, settings = false}) -- Excavation Site 9
-local sss = Map({id = 2826, settings = false}) -- Sidestreet Sluice
+
+local sss_thePits = Map({id = 2420, settings = false}) -- Sidestreet Sluice - The Pits
+local sss_highDecks = Map({id = 2422, settings = false}) -- Sidestreet Sluice - The High Decks
 
 -------------------------------------------------------------------------------
 
@@ -446,17 +448,17 @@ tra.nodes[35135863] = SturdyChest({
 ------------------------------ EXCAVATION SITE 9 ------------------------------
 -------------------------------------------------------------------------------
 
-esn.nodes[50906155] = SturdyChest({ -- Rowdy Rifts
+esn.nodes[50906155] = SturdyChest({
     achievementID = 41100,
     quest = nil,
     rlabel = ns.status.Gray('#1')
-}) -- Sturdy Chest 1
+}) -- Sturdy Chest 1 -- Rowdy Rifts
 
-esn.nodes[57014680] = SturdyChest({ -- Rowdy Rifts
+esn.nodes[57014680] = SturdyChest({
     achievementID = 41100,
     quest = nil,
     rlabel = ns.status.Gray('#2')
-}) -- Sturdy Chest 2
+}) -- Sturdy Chest 2 -- Rowdy Rifts
 
 esn.nodes[00000000] = SturdyChest({
     achievementID = 41100,
@@ -472,27 +474,34 @@ esn.nodes[00000000] = SturdyChest({
 ------------------------------ SIDESTREET SLUICE ------------------------------
 -------------------------------------------------------------------------------
 
-sss.nodes[00000000] = SturdyChest({
+sss_thePits.nodes[33437316] = SturdyChest({
     achievementID = 41101,
     quest = 86790,
     rlabel = ns.status.Gray('#1')
-}) -- Sturdy Chest 1 map:2420/The pits
+}) -- Sturdy Chest 1 -- All That Glitters
 
-sss.nodes[00000000] = SturdyChest({
+sss_highDecks.nodes[77573947] = SturdyChest({
     achievementID = 41101,
+    location = L['sss_chest_2_location'],
+    pois = {
+        POI({72803794}), --
+        Path({72803794, 74303947, 77573947})
+    },
+    quest = 86789,
     rlabel = ns.status.Gray('#2')
-}) -- Sturdy Chest 2
+}) -- Sturdy Chest 2 -- All That Glitters
 
-sss.nodes[00000000] = SturdyChest({
-    achievementID = 41101,
-    rlabel = ns.status.Gray('#3')
-}) -- Sturdy Chest 3
-
-sss.nodes[61616581] = SturdyChest({
+sss_thePits.nodes[61616581] = SturdyChest({
     achievementID = 41101,
     quest = 86787,
+    rlabel = ns.status.Gray('#3')
+}) -- Sturdy Chest 3 -- All That Glitters
+
+sss_thePits.nodes[74447419] = SturdyChest({
+    achievementID = 41101,
+    quest = 86788,
     rlabel = ns.status.Gray('#4')
-}) -- Sturdy Chest 4 map:2420/The pits
+}) -- Sturdy Chest 4 -- All That Glitters
 
 -------------------------------------------------------------------------------
 -------------------------- DELVE REWARDS (AREAPOIS) ---------------------------

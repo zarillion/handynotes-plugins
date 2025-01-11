@@ -351,6 +351,7 @@ L['tsw_chest_4_location'] = 'Oben auf dem Balken. Springe von der Säule runter,
 L['tuk_chest_1_note'] = 'Hinter der Statue.'
 L['tuk_chest_2_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Folteropfer" verfügbar.}'
 L['tuk_chest_3_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Weberrettung" verfügbar.}'
+L['sss_chest_2_location'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
