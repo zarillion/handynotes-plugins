@@ -403,9 +403,11 @@ trd.nodes[77067315] = UndermineLoreBook({
 --     rewards = {Achievement({id = 41588, criteria = 103108})}
 -- }) -- A Threatening Letter
 
--- map.nodes[00000000] = UndermineLoreBook({
---     rewards = {Achievement({id = 41588, criteria = 103106})}
--- }) -- First Half of Noggenfogger's Journal
+map.nodes[39622690] = UndermineLoreBook({
+    location = L['in_sewer'],
+    quest = 86572,
+    rewards = {Achievement({id = 41588, criteria = 103106})}
+}) -- First Half of Noggenfogger's Journal
 
 -- map.nodes[00000000] = UndermineLoreBook({
 --     rewards = {Achievement({id = 41588, criteria = 103109})}
