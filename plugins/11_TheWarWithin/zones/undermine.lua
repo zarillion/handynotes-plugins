@@ -47,6 +47,7 @@ map.nodes[68508078] = Rare({
 map.nodes[25243675] = Rare({
     id = 230934,
     location = L['in_sewer'],
+    pois = {Entrance({25453498})},
     quest = 84918,
     rewards = {
         Achievement({id = 41216, criteria = 71592}),
@@ -313,8 +314,8 @@ map.nodes[53405272] = Treasure({
     }
 }) -- Uncracked Cold Ones
 
-map.nodes[63773219] = Treasure({
-    quest = nil,
+map.nodes[63813220] = Treasure({
+    quest = 85494,
     rewards = {
         Achievement({id = 41217, criteria = 71633}), Item({item = 235273}) -- Distracting Floatmingo
     }
