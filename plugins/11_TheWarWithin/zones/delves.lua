@@ -620,7 +620,7 @@ local DELVE_REWARDS = {
     },
     ['side_street_sluice'] = {
         Achievement({
-            id = 41100,
+            id = 41101,
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
         }), Achievement({id = 41099, criteria = {70988, 70989, 70990}})
     }
