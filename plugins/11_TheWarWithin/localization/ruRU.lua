@@ -446,18 +446,18 @@ L['options_icons_ratts_revenge'] = '{achievement:40967}'
 L['options_icons_ratts_revenge_desc'] = 'Показать секретные локации для {achievement:40967}.'
 
 -- INERT PECULIAR KEY
-L['inert_peculiar_key_note'] = 'Спрятанный в стволе большого полого дерева за ящиком.\n\n{note:Следующее местоположение:}\nЕсли у вас {bug:нет} есть {item:228938}, отправляйтесь в {location:Дорногал} в {location:Каз Алгар}.\n\nЕсли у вас |cFF00FF00есть|r {item:228938}, отправляйтесь в {location:Перевал Мертвого Ветра} в {location:Восточных королевствах}.'
+L['inert_peculiar_key_note'] = 'Спрятанный в стволе большого полого дерева за ящиком.\n\n{note:Следующее местоположение:}\nЕсли у вас {bug:нет} есть {item:228938}, отправляйтесь в {location:Дорногал} в {location:Каз Алгар}.\n\nЕсли у вас |cFF00FF00есть|r {item:228938}, отправляйтесь на {location:Перевал Мертвого Ветра} в {location:Восточных королевствах}.'
 
 -- PECULIAR GEM
 L['carefully_penned_note'] = 'Поговорите с {npc:230042}, использовав титул {title:Детектив}, чтобы получить {quest:84684}.\n\n{note:Следующее местоположение:} {location:Аз-Кахет}'
 L['unfinished_note'] = 'В небольшой пещере в {location:перевала Глубинных Скитальцев}, окруженной кольцом {npc:229596}.\n\n{note:Следующее местоположение:} {location:Город Нитей}'
 L['hastily_scrawled_note'] = 'Высоко на уступе с видом на {location:Город Нитей}.\n\n{note:Следующее местоположение:} {location:Тайносводье}'
 L['water_resistant_note'] = 'В центре скрытого озера высоко в скале между {location:Аз-Кахетом} и {location:Тайносводьем}.\n\n{note:Следующее местоположение:} {location:Передовая Ферин} в {location:Аз-Кахете}'
-L['peculiar_gem_note'] = 'Take the hidden hole entrance within the cave down to {location:Pillar-nest Vosh}.\n\n{note:The hole is hidden against the wall and requires some clever jumping.}\n\nApproach {npc:233550} and she will run away dropping the {item:228938}.\n\n{note:Next Location:}\nIf you {bug:do not} have {item:228941} go to {location:Un\'Goro Crater} in {location:Kalimdor}.\n\nIf you |cFF00FF00do|r have the {item:228941} go to {location:Deadwind Pass} in {location:Eastern Kingdoms}.'
+L['peculiar_gem_note'] = 'Пройдите через скрытый вход в пещеру вниз к {location:Столп-гнездо Вос}.\n\n{note:Дыра спрятана у стены и требует ловких прыжков..}\n\nПодойдите к {npc:233550}, и она убежит, уронив {item:228938}.\n\n{note:Следующее местоположение:}\nЕсли у вас {bug:нет} {item:228941} отправляйтесь в {location:Кратер Ун\'Горо} в {location:Калимдоре}.\n\nЕсли у вас |cFF00FF00есть|r {item:228941}, отправляйтесь на {location:Перевал Мертвого Ветра} в {location:Восточных королевствах}.'
 
 -- KARAZHAN CATACOMBS
-L['karazhan_catacombs_label'] = 'Karazhan Catacombs'
-L['karazhan_catacombs_entrance_note'] = 'Collect the {item:44124} starting in {location:Un\'Goro Crater} in {location:Kalimdor}\n\nCollect the {item:228938} starting in {location:Dornogal} in {location:Khaz Algar}\n\nCombine the gem and the key to form the {item:44124}.\n\nWith the {item:44124} in your bag and the {item:208092} active approach the gate to reveal a red instance entrance.'
+L['karazhan_catacombs_label'] = 'Катакомбы Каражана'
+L['karazhan_catacombs_entrance_note'] = 'Соберите {item:44124}, начиная с {location:Кратера Ун\'Горо} в {location:Калимдоре}\n\nСоберите {item:228938}, начиная с {location:Дорногала} в {location:Каз Алгаре}\n\nОбъедините камень и ключ, чтобы сформировать {item:44124}.\n\nС {item:44124} в сумке и активным {item:208092} подойдите к воротам, чтобы открыть красный вход в сценарий.'
 
 -- ORB 1
 L['orb_1_label'] = 'Шар 1'
