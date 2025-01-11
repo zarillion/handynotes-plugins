@@ -399,28 +399,39 @@ trd.nodes[77067315] = UndermineLoreBook({
     rewards = {Achievement({id = 41588, criteria = 103107})}
 }) -- Rocket Drill Safety Manual
 
--- map.nodes[00000000] = UndermineLoreBook({
---     rewards = {Achievement({id = 41588, criteria = 103108})}
--- }) -- A Threatening Letter
+map.nodes[27327075] = UndermineLoreBook({
+    location = L['a_threatening_letter_location'],
+    quest = 86567,
+    requires = ns.requirement.Quest(85780), -- ![Right Where We Want Him]
+    rewards = {Achievement({id = 41588, criteria = 103108})}
+}) -- A Threatening Letter
 
 map.nodes[39622690] = UndermineLoreBook({
     location = L['in_sewer'],
     quest = 86572,
+    requires = ns.requirement.Quest(85780), -- ![Right Where We Want Him]
     rewards = {Achievement({id = 41588, criteria = 103106})}
 }) -- First Half of Noggenfogger's Journal
 
--- map.nodes[00000000] = UndermineLoreBook({
---     rewards = {Achievement({id = 41588, criteria = 103109})}
--- }) -- Second Half of Noggenfogger's Journal
+map.nodes[32805895] = UndermineLoreBook({
+    location = L['in_sewer'],
+    quest = 86571,
+    requires = ns.requirement.Quest(85780), -- ![Right Where We Want Him]
+    rewards = {Achievement({id = 41588, criteria = 103109})}
+}) -- Second Half of Noggenfogger's Journal
 
 trd.nodes[71419808] = UndermineLoreBook({
     quest = 86569,
     rewards = {Achievement({id = 41588, criteria = 103110})}
 }) -- Extractor Drill X-78 Safety Guide
 
--- map.nodes[00000000] = UndermineLoreBook({
---     rewards = {Achievement({id = 41588, criteria = 103111})}
--- }) -- Gallywix's Notes
+map.nodes[60966439] = UndermineLoreBook({
+    location = L['gallywixs_notes_location'],
+    pois = {Entrance({58685937})},
+    quest = 86573,
+    requires = ns.requirement.Quest(85780), -- ![Right Where We Want Him]
+    rewards = {Achievement({id = 41588, criteria = 103111})}
+}) -- Gallywix's Notes
 
 map.nodes[65611420] = UndermineLoreBook({
     quest = 86568,

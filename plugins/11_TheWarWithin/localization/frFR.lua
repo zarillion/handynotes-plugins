@@ -594,6 +594,8 @@ L['muffs_auto_locker_suffix'] = nil
 
 L['options_icons_between_the_lines'] = '{achievement:41588}'
 L['options_icons_between_the_lines_desc'] = nil
+L['a_threatening_letter_location'] = nil
+L['gallywixs_notes_location'] = nil
 
 L['options_icons_can_do_attitude'] = '{achievement:41589}'
 L['options_icons_can_do_attitude_desc'] = nil
