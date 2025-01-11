@@ -443,16 +443,16 @@ L['crates_found'] = 'найдены ящики'
 -------------------------------------------------------------------------------
 
 L['options_icons_ratts_revenge'] = '{achievement:40967}'
-L['options_icons_ratts_revenge_desc'] = 'Display secret locations for {achievement:40967}.'
+L['options_icons_ratts_revenge_desc'] = 'Показать секретные локации для {achievement:40967}.'
 
 -- INERT PECULIAR KEY
-L['inert_peculiar_key_note'] = 'Hidden within the trunk of large hollow tree behind the crate.\n\n{note:Next Location:}\nIf you {bug:do not} have {item:228938} go to {location:Dornogal} in {location:Khaz Algar}.\n\nIf you |cFF00FF00do|r have the {item:228938} go to {location:Deadwind Pass} in {location:Eastern Kingdoms}.'
+L['inert_peculiar_key_note'] = 'Спрятанный в стволе большого полого дерева за ящиком.\n\n{note:Следующее местоположение:}\nЕсли у вас {bug:нет} есть {item:228938}, отправляйтесь в {location:Дорногал} в {location:Каз Алгар}.\n\nЕсли у вас |cFF00FF00есть|r {item:228938}, отправляйтесь в {location:Перевал Мертвого Ветра} в {location:Восточных королевствах}.'
 
 -- PECULIAR GEM
-L['carefully_penned_note'] = 'Talk with the {npc:230042} while wearing the {title:Detective} title to receive {quest:84684}.\n\n{note:Next Location:} {location:Azj-Kahet}'
-L['unfinished_note'] = 'In a small cave in {location:Deepwalker Pass} surrounded by a ring of {npc:229596}.\n\n{note:Next Location:} {location:City of Threads}'
-L['hastily_scrawled_note'] = 'High up on the ledge overlooking the {location:City of Threads}.\n\n{note:Next Location:} {location:Hallowfall}'
-L['water_resistant_note'] = 'In the center of a hidden lake high up in the cliff between {location:Azj-Kahet} and {location:Hallowfall}.\n\n{note:Next Location:} {location:Faerin\'s Advance} in {location:Azj-Kahet}'
+L['carefully_penned_note'] = 'Поговорите с {npc:230042}, использовав титул {title:Детектив}, чтобы получить {quest:84684}.\n\n{note:Следующее местоположение:} {location:Аз-Кахет}'
+L['unfinished_note'] = 'В небольшой пещере в {location:перевала Глубинных Скитальцев}, окруженной кольцом {npc:229596}.\n\n{note:Следующее местоположение:} {location:Город Нитей}'
+L['hastily_scrawled_note'] = 'Высоко на уступе с видом на {location:Город Нитей}.\n\n{note:Следующее местоположение:} {location:Тайносводье}'
+L['water_resistant_note'] = 'В центре скрытого озера высоко в скале между {location:Аз-Кахетом} и {location:Тайносводьем}.\n\n{note:Следующее местоположение:} {location:Передовая Ферин} в {location:Аз-Кахете}'
 L['peculiar_gem_note'] = 'Take the hidden hole entrance within the cave down to {location:Pillar-nest Vosh}.\n\n{note:The hole is hidden against the wall and requires some clever jumping.}\n\nApproach {npc:233550} and she will run away dropping the {item:228938}.\n\n{note:Next Location:}\nIf you {bug:do not} have {item:228941} go to {location:Un\'Goro Crater} in {location:Kalimdor}.\n\nIf you |cFF00FF00do|r have the {item:228941} go to {location:Deadwind Pass} in {location:Eastern Kingdoms}.'
 
 -- KARAZHAN CATACOMBS
