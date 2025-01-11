@@ -173,21 +173,17 @@ map.nodes[60580989] = Rare({
     vignette = 6597
 }) -- Flyboy Snooty
 
--- map.nodes[00000000] = Rare({
---     id = 234480,
---     quest = nil,
---     rewards = {
---         Achievement({id = 41216, criteria = 71608})
---     }
--- }) -- Aurumensis
+map.nodes[40002232] = Rare({
+    id = 234480,
+    quest = 86298,
+    rewards = {Achievement({id = 41216, criteria = 71608})}
+}) -- Aurumensis (possible wrong name in achievement) / M.A.G.N.O. (complete the magno-scapper 9000 event to summon)
 
--- map.nodes[00000000] = Rare({
---     id = 234499,
---     quest = nil,
---     rewards = {
---         Achievement({id = 41216, criteria = 71609})
---     }
--- }) -- Giovante
+map.nodes[32027652] = Rare({
+    id = 234499,
+    quest = 86307,
+    rewards = {Achievement({id = 41216, criteria = 71609})}
+}) -- Giovante (complete the noggenforger nuisance event to summon)
 
 -- map.nodes[00000000] = Rare({
 --     id = 233471,
