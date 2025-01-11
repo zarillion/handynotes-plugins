@@ -447,6 +447,7 @@ map.nodes[31334208] = DiscardedCan()
 map.nodes[28624761] = DiscardedCan()
 map.nodes[46374679] = DiscardedCan()
 map.nodes[52715868] = DiscardedCan()
+map.nodes[39172768] = DiscardedCan()
 
 -------------------------------------------------------------------------------
 ----------------------------- WORLDSOUL MEMORIES ------------------------------
