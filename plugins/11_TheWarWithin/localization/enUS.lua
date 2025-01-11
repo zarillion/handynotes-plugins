@@ -593,7 +593,7 @@ L['muffs_auto_locker_suffix'] = 'Muff\'s Auto-Lockers opened'
 
 L['options_icons_between_the_lines'] = '{achievement:41588}'
 L['options_icons_between_the_lines_desc'] = 'Display the book locations for {achievement:41588}.'
-L['a_threatening_letter_location'] = 'On the bottom floor of {location:Steamwheedle Labratories} beneath the staircase.'
+L['a_threatening_letter_location'] = 'On the bottom floor of {location:Steamwheedle Laboratories} beneath the staircase.'
 L['gallywixs_notes_location'] = 'On a table in the back of {location:The Hoardroom}.'
 
 L['options_icons_can_do_attitude'] = '{achievement:41589}'
