@@ -348,7 +348,7 @@ L['tsw_chest_4_location'] = 'En lo alto de una viga. Bájate del pilar cerca del
 L['tuk_chest_1_note'] = 'Detrás de la estatua.'
 L['tuk_chest_2_note'] = '{note:Sólo disponible en las variantes de la historia "Evolución Incontrolable" y "Víctimas de Tortura".}'
 L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia "Evolución Incontrolable" y "Rescate de la Tejedora".}'
-L['sss_chest_2_location'] = nil
+L['sss_chest_2_location'] = 'A través de la viga metálica.'
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
