@@ -586,7 +586,7 @@ L['abandoned_toolbox_location'] = 'En lo alto del techo de la {location:Tienda d
 L['trick_deck_of_cards_location'] = 'En el escritorio al lado de {npc:231045} dentro del {location:Hotel Incontinental}.'
 
 L['ditty_fuzeboy_note'] = 'Intercambia {item:234741} por mascotas.'
-L['angelo_rustbin_note'] = nil
+L['angelo_rustbin_note'] = 'Intercambia {currency:3220} por mascotas y las transfiguraciones {object:G-99 vertiginoso}.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Muestra dónde están los {object:Cofre bloqueado de Muff} para el logro {achievement:40948}.'
