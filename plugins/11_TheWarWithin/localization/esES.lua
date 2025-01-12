@@ -359,8 +359,8 @@ L['the_drain_note'] = 'Contribuye con {currency:3090} para {location:El Sumidero
 L['shuddering_hollow_note'] = 'Contribuye con {currency:3090} para la {location:Cuenca Estremecedora} en el {object:Mapa de mando de la Isla de la Sirena} para abrir esta cueva y hacer aparecer el raro.'
 
 L['vrykul_sublabel'] = '{note:Sólo disponible con {npc:Vykrul Rastrosangre} en la isla.}'
-L['naga_sublabel'] = '{note:Sólo disponible con {npc:Naga} en la isla.}'
-L['pirate_sublabel'] = '{note:Sólo disponible con {npc:pirates} en la isla.}'
+L['naga_sublabel'] = '{note:Sólo disponible con {npc:nagas} en la isla.}'
+L['pirate_sublabel'] = '{note:Sólo disponible con {npc:piratas} en la isla.}'
 
 L['storm_required'] = 'Requiere una tormenta %s activa en la {location:Isla de la Sirena}.'
 L['slaughtershell_location'] = 'Deambula por toda la {location:Isla de la Sirena}.'
@@ -377,6 +377,7 @@ L['runed_storm_chest_note'] = 'Sigue el viento hasta un {object:Alijo de torment
 L['flame_blessed_iron_item'] = 'Devuelve este objeto para {currency:3090} extra.'
 
 L['barnacle_encrusted_chest'] = 'Cofre con incrustaciones de percebes'
+L['pilfered_earthen_chest'] = 'Cofre terráneo birlado'
 
 L['soweezi_note'] = 'Cambia {currency:3090} por una montura, juguete, mascota, o transfiguración.'
 
@@ -402,6 +403,7 @@ L['pris_quest_4'] = 'Un amigo leal'
 
 L['unsolved_amethyst_runelock'] = 'Bloqueo de runas amatista'
 L['bilge_rat_supply_chest'] = 'Cofre de suministros de las Ratas de Pantoque'
+L['bilge_rat_supply_chest_note'] = 'Recoge la {item:228621} al matar el {npc:228582} cercano para abrir el cofre.'
 
 L['stone_carvers_scamseax_note'] = 'Recoge un {object:Citrino radiante} ({dot:Yellow}) para recibir el buff {spell:1216785} durante 2 minutos que permitirá despojar {item:233834}.'
 
@@ -416,7 +418,7 @@ L['options_icons_secrets_of_azeroth_desc'] = 'Muestra dónde están las pistas p
 
 L['alyx_kickoff_note'] = 'Habla con {npc:226683} para activar los nuevos puzzles de los Secretos de Azeroth.'
 
-L['celebration_crates_label'] = 'Cajones de celebración'
+-- L['celebration_crates_label'] = 'Cajones de celebración'
 L['celebration_crates_note'] = 'Busca y devuelve todos los {object:Cajones de celebración} escondidos a lo largo de {location:Azeroth}.'
 
 L['1_soggy_celebration_crate_note'] = 'Cómprale un {item:225996} a {npc:143029} ({dot:Blue}) en el {location:Bar Zambullida} y dáselo a {npc:189119} para descubrir el {item:226200}.'

@@ -377,6 +377,7 @@ L['runed_storm_chest_note'] = 'Follow the wind to a hidden {object:Runed Storm C
 L['flame_blessed_iron_item'] = 'Return this item for bonus {currency:3090}.'
 
 L['barnacle_encrusted_chest'] = 'Barnacle-Encrusted Chest'
+L['pilfered_earthen_chest'] = 'Pilfered Earthen Chest'
 
 L['soweezi_note'] = 'Exchange {currency:3090} for a mount, toy, pet, or transmog.'
 
@@ -402,6 +403,7 @@ L['pris_quest_4'] = 'A Loyal Friend' -- 86485
 
 L['unsolved_amethyst_runelock'] = 'Unsolved Amethyst Runelock'
 L['bilge_rat_supply_chest'] = 'Bilge Rat Supply Chest'
+L['bilge_rat_supply_chest_note'] = 'Collect the {item:228621} from {npc:228582} nearby to open the chest.'
 
 L['stone_carvers_scamseax_note'] = 'Collect a {object:Radiant Citrine} ({dot:Yellow}) to recieve the {spell:1216785} buff for 2 minutes allowing you to loot the {item:233834}.'
 
@@ -416,7 +418,7 @@ L['options_icons_secrets_of_azeroth_desc'] = 'Display clue locations for {locati
 
 L['alyx_kickoff_note'] = 'Speak with {npc:226683} to enable the new Secrets of Azeroth puzzles.'
 
-L['celebration_crates_label'] = 'Celebration Crates'
+-- L['celebration_crates_label'] = 'Celebration Crates'
 L['celebration_crates_note'] = 'Find and return all {object:Celebration Crates} hidden throughout {location:Azeroth}.'
 
 L['1_soggy_celebration_crate_note'] = 'Purchase a {item:225996} from {npc:143029} ({dot:Blue}) at {location:The Dive Bar} and give it to {npc:189119} to reveal the {item:226200}.'

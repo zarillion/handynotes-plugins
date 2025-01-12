@@ -356,6 +356,7 @@ map.nodes[50005000] = Rare({
 
 map.nodes[36925304] = Treasure({
     label = '{item:233955}',
+    quest = 87446, -- hidden
     location = L['in_cave'],
     pois = {Entrance({42785666})},
     rewards = {Transmog({item = 233955, slot = L['2h_axe']})} -- Iron Mining Pick
@@ -366,6 +367,20 @@ map.nodes[40284188] = Treasure({
     quest = 86764, -- hidden
     rewards = {Transmog({item = 233957, slot = L['offhand']})} -- Kul Tiran Lumberer's Hatchet
 }) -- Kul Tiran Lumberer's Hatchet
+
+map.nodes[39405340] = Treasure({
+    label = '{item:233831}',
+    quest = 86767, -- hidden
+    location = L['in_building'],
+    rewards = {Transmog({item = 233831, slot = L['dagger']})} -- Minnow's Favorite Blade
+}) -- Minnow's Favorite Blade
+
+map.nodes[41704600] = Treasure({
+    label = '{item:233916}',
+    quest = 86766, -- hidden
+    location = L['in_building'],
+    rewards = {Transmog({item = 233916})} -- Ashvane Issued Workboots
+}) -- Ashvane Issued Workboots
 
 tfv.nodes[26502340] = Treasure({
     label = '{item:233834}',
@@ -412,8 +427,23 @@ map.nodes[74035329] = Treasure({
 
 map.nodes[62449084] = Treasure({
     label = L['bilge_rat_supply_chest'],
+    note = L['bilge_rat_supply_chest_note'],
+    pois = {
+        POI({59796910}), -- First Mate Shellshock
+        Path({59796910, 62449084})
+    },
+    quest = 84529, -- hidden
+    sublabel = L['pirate_sublabel'],
     requires = ns.requirement.Item(228621) -- Bilge Rat Supply Key
 }) -- Bilge Rat Supply Chest
+
+map.nodes[68409440] = Treasure({
+    label = L['pilfered_earthen_chest'],
+    location = L['in_water'],
+    quest = 84527, -- hidden
+    sublabel = L['naga_sublabel'],
+    rewards = {Transmog({item = 229181, slot = L['2h_mace']})} -- Ordained Forge Maul
+}) -- Pilfered Earthen Chest
 
 -------------------------------------------------------------------------------
 ----------------------------------- VENDOR ------------------------------------
@@ -443,7 +473,7 @@ end
 function ThunderousFragmentItem:IsObtained()
     if ns.PlayerHasItem(232605, 5) then return true end -- Thunderous Fragment
     if ns.PlayerHasItem(232573, 1) then return true end -- Thunderous Runekey
-    if select(11, C_MountJournal.GetMountInfoByID(2322)) then return true end -- Thrayir, Eyes of the Siren
+    if C_QuestLog.IsQuestFlaggedCompleted(85803) then return true end -- hidden
     return false
 end
 
@@ -497,6 +527,7 @@ map.nodes[38782007] = RunedStormChest({storm = 1})
 map.nodes[38924068] = RunedStormChest({storm = 1})
 map.nodes[39965215] = RunedStormChest({storm = 1})
 map.nodes[42244737] = RunedStormChest({storm = 1})
+map.nodes[44087329] = RunedStormChest({storm = 1})
 map.nodes[45096265] = RunedStormChest({storm = 1})
 map.nodes[49297262] = RunedStormChest({storm = 1})
 map.nodes[51564836] = RunedStormChest({storm = 1})
@@ -504,6 +535,12 @@ map.nodes[55596719] = RunedStormChest({storm = 1})
 map.nodes[56555508] = RunedStormChest({storm = 1})
 map.nodes[61964466] = RunedStormChest({storm = 1})
 map.nodes[63708514] = RunedStormChest({storm = 1})
+
+map.nodes[67317820] = RunedStormChest({
+    storm = 1,
+    location = L['in_small_cave'],
+    pois = {Entrance({66227823})}
+})
 
 tfv.nodes[29207358] = RunedStormChest({storm = 2})
 tfv.nodes[31792774] = RunedStormChest({storm = 2})
@@ -560,7 +597,7 @@ function TurbulentFragmentItem:GetStatus()
     return count >= 3 and Green(count .. '/3') or Red(count .. '/3')
 end
 
-local TurbulentFragment = Class('TurbulentFragment', Collectible, {
+local TurbulentFragment = Class('TurbulentFragment', ns.node.Node, {
     icon = 1385913,
     label = '{item:234327}',
     storm = 1,

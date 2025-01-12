@@ -357,9 +357,9 @@ L['sss_chest_2_location'] = nil
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['the_drowned_lair_note'] = 'Steuere {currency:3090} dem {location:Versunkener Hort} an der {object:Schlachtkarte der Sireneninsel} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.'
-L['the_drain_note'] = 'Steuere {currency:3090} dem {location:Abfluss} an der {object:Schlachtkarte der Sireneninsel} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.'
-L['shuddering_hollow_note'] = 'Steuere {currency:3090} der {location:Schauderhöhle} an der {object:Schlachtkarte der Sireneninsel} bei, um diese Höhle zu öffnen und den seltenen Gegner erscheinen zu lassen.'
+L['the_drowned_lair_note'] = 'Steuere {currency:3090} dem {location:Versunkener Hort} an der {object:Schlachtkarte der Sireneninsel} bei, damit sich diese Höhle öffnet und der seltenen Gegner erscheint.'
+L['the_drain_note'] = 'Steuere {currency:3090} dem {location:Abfluss} an der {object:Schlachtkarte der Sireneninsel} bei, damit sich diese Höhle öffnet und der seltenen Gegner erscheint.'
+L['shuddering_hollow_note'] = 'Steuere {currency:3090} der {location:Schauderhöhle} an der {object:Schlachtkarte der Sireneninsel} bei, damit sich diese Höhle öffnet und der seltenen Gegner erscheint.'
 
 L['vrykul_sublabel'] = '{note:Nur verfügbar, wenn sich {npc:Vrykul der Blutgischt} auf der Insel befinden.}'
 L['naga_sublabel'] = '{note:Nur verfügbar, wenn sich {npc:Naga} auf der Insel befinden.}' -- review
@@ -379,21 +379,22 @@ L['runed_storm_chest_note'] = 'Folge dem Wind zu einer versteckten {object:Runen
 
 L['flame_blessed_iron_item'] = 'Bringe diesen Gegenstand für Bonus {currency:3090} zurück.'
 
-L['barnacle_encrusted_chest'] = nil
+L['barnacle_encrusted_chest'] = 'Seepockenverkrustete Truhe'
+L['pilfered_earthen_chest'] = nil
 
 L['soweezi_note'] = 'Tausche {currency:3090} gegen ein Reittier, ein Haustier, ein Spielzeug oder Ausrüstungsvorlagen ein.'
 
 L['thrayir_note_start'] = 'Sammle 5x Runenschlüssel auf der {location:Sireneninsel} und schließe das Ritual in {location:Die Vergessene Kammer} ab, um das Reittier {item:232639} zu erhalten:'
 
 L['whirling_runekey_note'] = 'Kann von {npc:231368} in {location:Die Vergessene Kammer} während eines Unwetters geplündert werden.'
-L['torrential_runekey_note'] = 'Kann von allen Gegnern auf der {location:Sireneninsel} während eines Unwetters geplündert werden.'
+L['torrential_runekey_note'] = 'Benötigt 7x {item:234328}, die von {note:jedem} Gegner auf der {location:Sireneninsel} während eines Unwetters geplündert werden können.'
 L['thunderous_runekey_note'] = 'Benötigt 5x {item:232605}, die in {note:jegliche} Truhen auf der {location:Sireneninsel} gefunden werden können. {note:Benötigt kein Unwetter}.'
-L['cyclonic_runekey_note'] = 'Kann von {npc:231357} im {location:Totfinnenmorast} auf der {location:Sireneninsel} während eines Unwetters geplündert werden.'
+L['cyclonic_runekey_note'] = 'Kann von {npc:231357} im {location:Totfinnenmorast} auf der {location:Sireneninsel} während eines Unwetters geplündert werden. Oder Angle es in der Nähe des seltenen Gegners im Meer.'
 L['turbulent_runekey_note'] = 'Benötigt 3x {item:234327}, die während eines Unwetters auf der ganzen {location:Sireneninsel} verstreut gefunden werden können.'
 
-L['turbulent_fragment_a'] = 'In einem {object:Dirt Pile} hinter dem Gasthaus {location:Salt and Shany} in der Nähe des grabenden Geistes versteckt.' -- review
-L['turbulent_fragment_b'] = 'Plündere das {object:Runic Fragment} vor dem kauernden Geist in einer Höhle in {location:Das Verrottende Loch}.' -- review
-L['turbulent_fragment_c'] = 'Plündere das {object:Runic Fragment}, das der Geist in der {location:Geisternarbenhöhle} in seiner Hand hält.' -- review
+L['turbulent_fragment_a'] = 'In einem {npc:235134} hinter dem {location:Salz & Seemannslied} Gasthaus vor dem grabenden Geist.'
+L['turbulent_fragment_b'] = 'Plündere das {npc:234934} vor dem kauernden Geist in einer Höhle in {location:Das Verrottende Loch}.'
+L['turbulent_fragment_c'] = 'Plündere das {npc:234934}, das der Geist in der {location:Geisternarbenhöhle} in seiner Hand hält.'
 
 L['prismatic_snapdragon_note_start'] = 'Helfe im Verlauf von 10 Tagen das {npc:235216} zu retten, um das Reittier {item:233489} zu erhalten.\n\n{note:Du kannst einen Tag verpassen, aber es gibt keine Aufholmechanik}.'
 L['prismatic_day'] = 'Tag %d'
@@ -403,12 +404,13 @@ L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
 L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
 L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
 
-L['unsolved_amethyst_runelock'] = nil
-L['bilge_rat_supply_chest'] = nil
+L['unsolved_amethyst_runelock'] = 'Ungelöstes Amethystrunenschloss'
+L['bilge_rat_supply_chest'] = 'Vorratstruhe der Bilgeratten'
+L['bilge_rat_supply_chest_note'] = nil
 
-L['stone_carvers_scamseax_note'] = nil
+L['stone_carvers_scamseax_note'] = 'Sammle den {object:Strahlender Citrin} ({dot:Yellow}), um den Stärkungszauber {spell:1216785} (2 Minuten) zu erhalten, der es dir erlaubt die {item:233834} zu plündern.'
 
-L['marmaduke_note'] = nil
+L['marmaduke_note'] = '1. Sammle das {item:233027} in der oberen Etage des {location:Salz & Seemannslied} Gasthauses und bringe es zu {npc:234365}.\n\n{note:{npc:234365} patrouilliert zwischen den Klippen und der {location:Treibgutbank}.}\n\n2. Nachdem du ihm das Spielzeug gegeben hast, gehe zurück zur {location:Treibgutbank} und schließe die Quest {quest:86261} ab, um das Haustier {item:233056} zu erhalten.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
@@ -419,7 +421,7 @@ L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Positionen für die {loc
 
 L['alyx_kickoff_note'] = 'Spreche mit {npc:226683}, um die neuen {location:Geheimnisse von Azeroth} freizuschalten.'
 
-L['celebration_crates_label'] = 'Feierkiste'
+-- L['celebration_crates_label'] = 'Feierkiste'
 L['celebration_crates_note'] = 'Finde und bringe alle {object:Feierkisten} zurück, die in ganz {location:Azeroth} versteckt sind.'
 
 L['1_soggy_celebration_crate_note'] = 'Kaufe ein {item:225996} von {npc:143029} ({dot:Blue}) in {location:The Dive Bar} und gib dieses {npc:189119}, um {item:226200} auszudecken.'
@@ -437,7 +439,7 @@ L['11_ghostly_celebration_crate'] = 'Auf dem Gebäude des {location:Sitz des Pri
 L['water_resistant_receipt_note'] = '1. Betrete die Höhle, gehe nach rechts und hebe den {item:228768} hinter dem Rohr auf.\n\n2. Finde {npc:91079} in {location:Azsuna} in the {location:Die Verheerten Inseln}.'
 L['mysterious_bones_note'] = 'In einer Höhle.\n\nLass einen deiner Hunde (z. B. {item:136925} oder {item:49912}) die Knochen ausgraben und sammle diese dann ein.'
 
-L['crates_found'] = nil
+L['crates_found'] = 'Feierkisten gefunden'
 
 -------------------------------------------------------------------------------
 ------------------------------- RATT'S REVENGE --------------------------------

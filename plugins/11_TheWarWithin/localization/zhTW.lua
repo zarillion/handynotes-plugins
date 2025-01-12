@@ -354,58 +354,60 @@ L['sss_chest_2_location'] = nil
 --------------------------------- SIREN ISLE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['the_drowned_lair_note'] = nil
-L['the_drain_note'] = nil
-L['shuddering_hollow_note'] = nil
+L['the_drowned_lair_note'] = '在 {object:海妖島指揮圖} 捐獻 {currency:3090} 給 {location:沉溺巢穴} 來開啟這個洞窟並刷新稀有.'
+L['the_drain_note'] = '在 {object:海妖島指揮圖} 捐獻 {currency:3090} 給 {location:排水之地} 來開啟這個洞窟並刷新稀有.'
+L['shuddering_hollow_note'] = '在 {object:海妖島指揮圖} 捐獻 {currency:3090} 給 {location:震顫窪地} 來開啟這個洞窟並刷新稀有.'
 
-L['vrykul_sublabel'] = nil
-L['naga_sublabel'] = nil
-L['pirate_sublabel'] = nil
+L['vrykul_sublabel'] = '{note:只有在 {npc:血喚維酷人} 在島上時會出現.}'
+L['naga_sublabel'] = '{note:只有在 {npc:納迦} 在島上時會出現.}'
+L['pirate_sublabel'] = '{note:只有在 {npc:海盜} 在島上時會出現.}'
 
-L['storm_required'] = nil
-L['slaughtershell_location'] = nil
+L['storm_required'] = '需要 %s 在 {location:海妖島} 上作用時.'
+L['slaughtershell_location'] = '在整個 {location:海妖島} 上閒逛.'
 
-L['within_the_forgotten_vault'] = nil
+L['within_the_forgotten_vault'] = '使用在 {location:聖谷} 內的 {object:歌唱石板} 來進入保險庫.\n\n保險庫內有寶藏,一個玩具, 一隻坐騎和 {npc:231368}.'
 
 L['options_icons_runed_storm_chest'] = '{achievement:41131}'
-L['options_icons_runed_storm_chest_desc'] = nil
+L['options_icons_runed_storm_chest_desc'] = '顯示成就 {achievement:41131} 所需的 {object:符文風暴儲藏箱} 位置.'
 
-L['runed_storm_chest_label'] = nil
-L['runed_storm_chest_suffix'] = nil
-L['runed_storm_chest_note'] = nil
+L['runed_storm_chest_label'] = '符文風暴儲藏箱'
+L['runed_storm_chest_suffix'] = '箱子已開啟'
+L['runed_storm_chest_note'] = '跟著風來找到隱藏的 {object:符文風暴儲藏箱} 並使用 {spell:472051} 來揭示他.'
 
-L['flame_blessed_iron_item'] = nil
+L['flame_blessed_iron_item'] = '繳回這個物品來取得獎勵的 {currency:3090}.'
 
-L['barnacle_encrusted_chest'] = nil
+L['barnacle_encrusted_chest'] = '嵌滿藤壺的箱子'
+L['pilfered_earthen_chest'] = nil
 
-L['soweezi_note'] = nil
+L['soweezi_note'] = '使用 {currency:3090} 交換1個坐騎, 玩具, 戰寵和塑形.'
 
-L['thrayir_note_start'] = nil
+L['thrayir_note_start'] = '從 {location:海妖島} 收集5個符文鑰匙並在 {location:遺忘保險庫} 內完成儀式來取得 {item:232639}.'
 
-L['whirling_runekey_note'] = nil
-L['torrential_runekey_note'] = nil
-L['thunderous_runekey_note'] = nil
-L['cyclonic_runekey_note'] = nil
-L['turbulent_runekey_note'] = nil
+L['whirling_runekey_note'] = '在風暴時從 {location:遺忘保險庫} 內的 {npc:231368} 掉落.'
+L['torrential_runekey_note'] = '需要在 {location:海妖島} 在 {spell:458069} 時由 {note:任何} 怪物 (普通, 菁英或稀有) 掉落的7個 {item:234328}.'
+L['thunderous_runekey_note'] = '需要在 {location:海妖島} 由 {note:任何} 箱子找到的5個 {item:232605}. {note:不需要 {spell:458069}}.'
+L['cyclonic_runekey_note'] = '在風暴時由 {location:海妖島} 上的 {location:亡鰭爛泥} 的 {npc:231357} 掉落. 或是從附近釣魚得到.'
+L['turbulent_runekey_note'] = '需要3個在風暴時散佈在 {location:海妖島} 上的 {item:234327}.'
 
-L['turbulent_fragment_a'] = nil
-L['turbulent_fragment_b'] = nil
-L['turbulent_fragment_c'] = nil
+L['turbulent_fragment_a'] = '藏在 {location:鹽與船歌小屋} 旅館後方的 {npc:235134} 內, 靠近正在挖掘的 {npc:庫爾提拉斯人} 鬼魂.'
+L['turbulent_fragment_b'] = '在 {location:腐臭坑洞} 的山洞內蹲著的 {npc:庫爾提拉斯人} 鬼魂前拾取 {npc:234934}.'
+L['turbulent_fragment_c'] = '拾取在 {location:靈痕洞穴} 內的 {npc:庫爾提拉斯人} 鬼魂握著的 {npc:234934}.'
 
-L['prismatic_snapdragon_note_start'] = nil
-L['prismatic_day'] = nil
+L['prismatic_snapdragon_note_start'] = '在10天的過程中, 幫助拯救在 {location:漂流物淺灘} 的 {npc:235216} 來取得  {item:233489}.\n\n{note:你可以錯過天數但是沒有追趕機制}.'
+L['prismatic_day'] = '第 %d 天'
 
-L['pris_quest_1'] = nil -- https://www.wowhead.com/quest=86482/a-lifeline
+L['pris_quest_1'] = '生命線' -- https://www.wowhead.com/quest=86482/a-lifeline
 L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
-L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
-L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
+L['pris_quest_3'] = '暴風壞脾氣' -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
+L['pris_quest_4'] = '忠誠的朋友' -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
 
-L['unsolved_amethyst_runelock'] = nil
-L['bilge_rat_supply_chest'] = nil
+L['unsolved_amethyst_runelock'] = '未解的紫晶符文鎖'
+L['bilge_rat_supply_chest'] = '污鼠會補給箱'
+L['bilge_rat_supply_chest_note'] = '從附近的 {npc:228582} 收集 {item:228621} 來打開箱子.'
 
-L['stone_carvers_scamseax_note'] = nil
+L['stone_carvers_scamseax_note'] = '收集一個 {object:璀璨黃水晶} ({dot:Yellow}) 來獲得2分鐘的增益 {spell:1216785} 以允許你拾取 {item:233834}.'
 
-L['marmaduke_note'] = nil
+L['marmaduke_note'] = '1.從 {location:鹽與船歌小屋} 旅館二樓收集 {item:233027} 並帶給 {npc:234365}.\n\n{note:{npc:234365}會在懸崖和 {location:漂流物淺灘} 之間巡邏.}\n\n2.在給他玩具後, 回到 {location:漂流物淺灘} 並完成 {quest:86261} 後取得 {item:233056}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
@@ -416,7 +418,7 @@ L['options_icons_secrets_of_azeroth_desc'] = '顯示 {location:艾澤拉斯祕�
 
 L['alyx_kickoff_note'] = '和 {npc:226683} 說話來啟動新的艾澤拉斯祕聞謎題.'
 
-L['celebration_crates_label'] = '節慶木箱'
+-- L['celebration_crates_label'] = '節慶木箱'
 L['celebration_crates_note'] = '在 {location:艾澤拉斯} 找到並返還所有的 {object:節慶木箱}.'
 
 L['1_soggy_celebration_crate_note'] = nil

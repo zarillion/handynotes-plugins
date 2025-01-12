@@ -1,3 +1,12 @@
+# v113
+
+* Move Alyx (Guest Relations secret) from Tanaris to Dornogal
+* Localization updates: ruRU, zhTW
+
+# v112
+
+* Localization updates: esES, frFR, ruRU, zhCN, zhTW
+
 # v111
 
 * 11.0.7 Siren Isle
@@ -13,7 +22,7 @@
 * Restore the achievement [Khaz Algar Lore Hunter](https://www.wowhead.com/achievement=40762)
 * Adjust Worldsoul Memory location
 * Update Celebration Crate tracking for the Guest Relations secret
-* Localization updates: deDE, esES, frFR, zhCN
+* Localization updates: deDE, esES, frFR, ruRU, zhCN, zhTW
 
 # v110
 

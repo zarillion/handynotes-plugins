@@ -71,6 +71,14 @@ local NilgCompleted = function(self)
     return Collectible.IsCompleted(self)
 end
 
+map.nodes[85502900] = ns.node.Node({
+    clabel = L['change_map'],
+    icon = 'peg_yw',
+    scale = 2,
+    label = C_Map.GetMapInfo(1911).name,
+    OnClick = function() WorldMapFrame:SetMapID(1911) end
+}) -- Torghast map
+
 -------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------
 -------------------------------------------------------------------------------
