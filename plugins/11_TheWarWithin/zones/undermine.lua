@@ -346,6 +346,16 @@ map.nodes[35384142] = Vendor({
     }
 }) -- Ditty Fuzeboy
 
+map.nodes[25743813] = Vendor({
+    id = 234776,
+    note = L['angelo_rustbin_note'],
+    rewards = {
+        Pet({item = 232858, id = 4655, count = 1}), -- Cruncher
+        Pet({item = 232859, id = 4653, count = 3}), -- Lab Rat
+        Item({item = 232986, count = 1}) -- GE86 Advance
+    }
+}) -- Angelo Rustbin
+
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: NINE-TENTHS OF THE LAW ---------------------
 -------------------------------------------------------------------------------

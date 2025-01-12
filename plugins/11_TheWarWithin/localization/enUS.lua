@@ -586,6 +586,7 @@ L['abandoned_toolbox_location'] = 'High on the roof of {location:The Scrapshop}.
 L['trick_deck_of_cards_location'] = 'On the desk next to {npc:231045} inside {location:The Incontinental Hotel}.'
 
 L['ditty_fuzeboy_note'] = 'Exchange {item:234741} for pets.'
+L['angelo_rustbin_note'] = 'Exchange {currency:3220} for pets and {object:G-99 Breakneck} customizations.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Display all {object:Muff\'s Auto-Locker} locations for {achievement:40948}.'
