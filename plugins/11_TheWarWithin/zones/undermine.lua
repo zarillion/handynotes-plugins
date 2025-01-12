@@ -444,7 +444,8 @@ map.nodes[65611420] = UndermineLoreBook({
 
 local DiscardedCan = Class('DiscardedCan', Collectible, {
     group = ns.groups.CAN_DO_ATTITUDE,
-    icon = 236996,
+    icon = 'peg_yw',
+    scale = 1.75,
     label = L['discarded_can_label'],
     note = L['discarded_can_note'],
     rewards = {
@@ -461,6 +462,12 @@ map.nodes[28624761] = DiscardedCan()
 map.nodes[46374679] = DiscardedCan()
 map.nodes[52715868] = DiscardedCan()
 map.nodes[39172768] = DiscardedCan()
+map.nodes[45098122] = DiscardedCan()
+map.nodes[41693493] = DiscardedCan()
+map.nodes[50373403] = DiscardedCan()
+map.nodes[46194131] = DiscardedCan()
+map.nodes[56563837] = DiscardedCan()
+map.nodes[56135245] = DiscardedCan()
 
 -------------------------------------------------------------------------------
 ----------------------------- WORLDSOUL MEMORIES ------------------------------
