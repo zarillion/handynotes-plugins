@@ -500,9 +500,9 @@ L['slot_machine_vendor_note'] = 'Купите эти товары для {object
 
 -- ORB 4
 L['orb_4_label'] = 'Шар 4'
-L['vashti_note'] = 'Purchase {item:228987} from {npc:91079} for %s.'
-L['uthers_tomb_label'] = 'Uther\'s Tomb'
-L['uthers_tomb_note'] = 'Summon a {npc:231482} to {location:Uther\'s Tomb} in the {location:Western Plaguelands}.\n\nUse a {item:228987} sold by {npc:91079} in {location:Azsuna} or have a Warlock use {spell:342601}.\n\nOnce you die and resurrect, read the hidden graffiti.\n\n{note:The graffiti will remain as long as the {npc:231482} stays alive, so do not kill it!}'
+L['vashti_note'] = 'Купите {item:228987} у {npc:91079} за %s.'
+L['uthers_tomb_label'] = 'Могила Утера'
+L['uthers_tomb_note'] = 'Призовите {npc:231482} на {location:Могиле Утера} в {location:Западных Чумных землях}.\n\nИспользуйте {item:228987}, который можно купить у {npc:91079} в {location:Азсуне}, или попросите чернокнижника использовать {spell:342601}.\n\nКогда умрешь и воскреснешь, прочитай скрытые граффити.\n\n{note:Граффити останется до тех пор, пока {npc:231482} жив, так что не убивайте его!}'
 
 -- ORB 5
 L['orb_5_label'] = 'Шар 5'
