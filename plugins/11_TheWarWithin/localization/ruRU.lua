@@ -473,9 +473,9 @@ L['orb_2_note'] = 'Встаньте рядом с {npc:153297}, использу
 -- ORB 3
 L['orb_3_label'] = 'Шар 3'
 
-L['astral_soup_label'] = 'Astral Soup'
-L['astral_chest_label'] = 'Astral Chest'
-L['astral_rewards_note'] = 'Go fishing in the {object:Astral Soup} to receive the {item:228965}.\n\nUse the {item:228965} to open the {object:Astral Chest} and recieve the {item:228966}.\n\nYou may now collect {item:228967} from machines around {location:Karazhan Catacombs}.'
+L['astral_soup_label'] = 'Астральный суп'
+L['astral_chest_label'] = 'Астральный сундук'
+L['astral_rewards_note'] = 'С помощью рыбной ловли в {object:Астральном супе}, нужно выловить {item:228965}.\n\nИспользуйте {item:228965}, чтобы открыть {object:Астральный сундук} и получить {item:228966}.\n\nТеперь вы можете собирать {item:228967} из машин в {location:Катакомбах Каражана}.'
 
 L['decryption_machine_label'] = 'Машина для расшифровки'
 L['decryption_console_label'] = 'Панель для расшифровки'
@@ -490,13 +490,13 @@ L['code_machine_note_6'] = 'Введите код и откройте {object:З
 L['code_machine_note_7'] = 'Введите код и откройте {object:Зашифрованную шкатулку с секретом} чтобы получить {item:228967}.\n\n{object:Код}: 17112317'
 L['code_machine_note_8'] = 'Введите код и откройте {object:Зашифрованный сундук} чтобы получить {item:228967}.\n\n{object:Код}: 19019'
 
-L['slot_machine_label'] = '"Feeling Lucky?" Slot Machine'
-L['slot_machine_note_a'] = 'Collect five of the lucky items then enter the code:\n\n'
-L['slot_machine_note_b'] = '{npc:2795} in {location:Stormwind}:\n'
-L['slot_machine_note_c'] = '{npc:219197} in {location:Dornogal}:\n'
-L['slot_machine_note_d'] = '{npc:186650} in {location:Ohn\'ahran Plains}\n'
-L['slot_machine_note_e'] = '{object:Code}: 777, 77777 or 7777777'
-L['slot_machine_vendor_note'] = 'Purchase these items for the {object:"Feeling Lucky?" Slot Machine}.'
+L['slot_machine_label'] = 'Игровой автомат "Хотите испытать удачу?"'
+L['slot_machine_note_a'] = 'Соберите пять счастливых предметов и введите код:\n\n'
+L['slot_machine_note_b'] = '{npc:2795} в {location:Штормграде}:\n'
+L['slot_machine_note_c'] = '{npc:219197} в {location:Дорногале}:\n'
+L['slot_machine_note_d'] = '{npc:186650} на {location:Равнинах Он\'ары}\n'
+L['slot_machine_note_e'] = '{object:Код}: 777, 77777 или 7777777'
+L['slot_machine_vendor_note'] = 'Купите эти товары для {object:Игрового автомата "Хотите испытать удачу?"}.'
 
 -- ORB 4
 L['orb_4_label'] = 'Шар 4'
