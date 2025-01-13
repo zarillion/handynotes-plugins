@@ -461,10 +461,10 @@ L['karazhan_catacombs_entrance_note'] = 'Соберите {item:44124}, начи
 
 -- ORB 1
 L['orb_1_label'] = 'Шар 1'
-L['orb_1_note'] = 'Use the {item:208092} at each location involving {npc:228249} and gain 1 of 3 stacks of {spell:153715}.'
-L['orb_1_locations'] = '1. {location:Northern Barrens} in {location:Kalimdor}\n2. {location:Nagrand} in {location:Draenor}\n3. {location:Maldraxxus} in {location:The Shadowlands}'
-L['humble_monument'] = 'Humble Monument'
-L['olgra_location'] = '{note:Location changes based on the completion of {quest:35170}.}'
+L['orb_1_note'] = 'Используйте {item:208092} в каждой локации, где есть {npc:228249}, и получите 1 из 3 стаков {spell:153715}.'
+L['orb_1_locations'] = '1. {location:Северные степи} в {location:Калимдоре}\n2. {location:Награнд} в {location:Дреноре}\n3. {location:Малдраксус} в {location:Темных Землях}'
+L['humble_monument'] = 'Скромный памятник'
+L['olgra_location'] = '{note:Местоположение меняется в зависимости от завершения {quest:35170}.}'
 
 -- ORB 2
 L['orb_2_label'] = 'Шар 2'
@@ -477,12 +477,12 @@ L['astral_soup_label'] = 'Astral Soup'
 L['astral_chest_label'] = 'Astral Chest'
 L['astral_rewards_note'] = 'Go fishing in the {object:Astral Soup} to receive the {item:228965}.\n\nUse the {item:228965} to open the {object:Astral Chest} and recieve the {item:228966}.\n\nYou may now collect {item:228967} from machines around {location:Karazhan Catacombs}.'
 
-L['decryption_machine_label'] = 'Decryption Machine'
-L['decryption_console_label'] = 'Decryption Console'
-L['rubensteins_console'] = 'Rubenstein\'s Console'
+L['decryption_machine_label'] = 'Машина для расшифровки'
+L['decryption_console_label'] = 'Панель для расшифровки'
+L['rubensteins_console'] = 'Панель Рубенштейна'
 
 L['code_machine_note_1'] = 'Введите код и откройте {object:Собственность старейшины Ко\'нани} чтобы получить {item:228967}.\n\n{object:Код}: 88224646'
-L['code_machine_note_2'] = 'Введите код и откройте the {object:Зашифрованный сундук} чтобы получить {item:228967}.\n\n{object:Код}: 10638'
+L['code_machine_note_2'] = 'Введите код и откройте {object:Зашифрованный сундук} чтобы получить {item:228967}.\n\n{object:Код}: 10638'
 L['code_machine_note_3'] = 'Введите код и откройте {object:Зашифрованный сундук} чтобы получить {item:228967}.\n\n{object:Код}: 5661'
 L['code_machine_note_4'] = 'Введите код и откройте {object:Сейф Рубенштейна} чтобы получить {item:228967}.\n\n{object:Код}: 52233'
 L['code_machine_note_5'] = 'Введите код и откройте {object:Зашифрованный сундук} чтобы получить {item:228967}.\n\n{object:Код}: 51567'
