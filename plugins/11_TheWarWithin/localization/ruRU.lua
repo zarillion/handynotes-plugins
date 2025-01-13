@@ -468,7 +468,7 @@ L['olgra_location'] = '{note:Местоположение меняется в з
 
 -- ORB 2
 L['orb_2_label'] = 'Шар 2'
-L['orb_2_note'] = 'Stand next to the {npc:153297} using one of the following gifts of {npc:147393}:\n\n{item:168123}\n{item:175140}\n{item:168004}\n\nSummon {item:49912} and using one of the following costumes:\n\n{item:229413}\n{item:116812}\n\nType {emote:/pray} and wait to receive the {item:53156}.\n\n{note:Other players around completing the above steps you can also obtain {item:53156}.}\n\nReturn to the {location:Karazhan Catacombs} and use the key to open both doors in the room with the fountain.'
+L['orb_2_note'] = 'Встаньте рядом с {npc:153297}, используя один из следующих даров {npc:147393}:\n\n{item:168123}\n{item:175140}\n{item:168004}\n\nВызовите {item:49912} и используйте один из следующих костюмов:\n\n{item:229413}\n{item:116812}\n\nПропишите {emote:/молиться} и ждите получения {item:53156}.\n\n{note:Другие игроки вокруг, выполнив вышеуказанные шаги, также могут получить {item:53156}.}\n\nВернитесь в {location:Катакомбы Каражана} и используйте ключ, чтобы открыть обе двери в комнате с фонтаном.'
 
 -- ORB 3
 L['orb_3_label'] = 'Шар 3'
