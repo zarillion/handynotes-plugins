@@ -349,7 +349,7 @@ L['tsw_chest_4_location'] = 'En haut d\'une poutre. Descendez du pilier près de
 L['tuk_chest_1_note'] = 'Derrière la statue.'
 L['tuk_chest_2_note'] = '{note:Disponible uniquement pendant les variantes d’histoires "Évolution incontrôlable" et "Victimes de tortures".}'
 L['tuk_chest_3_note'] = '{note:Disponible uniquement pendant les variantes d’histoires "Évolution incontrôlable" et "Sauvetage de tisserande".}'
-L['sss_chest_2_location'] = nil
+L['sss_chest_2_location'] = 'Sur la poutre métallique.'
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
@@ -571,37 +571,37 @@ L['ak_decryption_console_note'] = 'Retournez à l\'entrée du trou caché dans l
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['in_sewer'] = nil
-L['and_slimesby'] = nil
+L['in_sewer'] = 'Dans les égouts. Utilisez la {object:Grille d\'égout} à proximité pour y entrer.'
+L['and_slimesby'] = 'et {npc:230947}'
 
-L['inert_plunger_label'] = nil
-L['exploded_plunger_label'] = nil
+L['inert_plunger_label'] = 'Détonateur inerte ?'
+L['exploded_plunger_label'] = 'Détonateur usagé'
 
-L['unexploded_fireworks_location'] = nil
-L['suspicious_book_note'] = nil
-L['fireworks_hat_note'] = nil
-L['blackened_dice_note'] = nil
-L['lonely_tub_note'] = nil
-L['impotent_potable_location'] = nil
-L['abandoned_toolbox_location'] = nil
-L['trick_deck_of_cards_location'] = nil
+L['unexploded_fireworks_location'] = 'Sur le toit du {location:Parc des Raouts}.'
+L['suspicious_book_note'] = '1. {dot:Red} Caché sur une bibliothèque au premier étage. Essayez de le récupérer et il s\'envolera vers une autre bibliothèque au deuxième étage.\n\n2. {dot:Green} Caché derrière une bibliothèque au deuxième étage. Tentez de le récupérer et il s\'envolera vers le bureau au troisième étage.\n\n3. Sur le bureau au troisième étage. Enfin, récupérez le livre !'
+L['fireworks_hat_note'] = 'Tentez d\'attraper le chapeau pour le faire s\'envoler du toit et atterrir ici.'
+L['blackened_dice_note'] = 'Tournez la {object:Soupape de tuyau} à proximité pour libérer le dé.'
+L['lonely_tub_note'] = 'Saisissez l\'{object:Extincteur} ({dot:Blue}) à proximité pour éteindre les flammes sur la {object:Bassine isolée}.'
+L['impotent_potable_location'] = 'Sous le quai à côté de la {location:Pille-en-Fête}'
+L['abandoned_toolbox_location'] = 'Tout en haut sur le toit de la {location:Recyclerie}.\n\nSuivez les escaliers jusqu\'au sommet.'
+L['trick_deck_of_cards_location'] = 'Sur le bureau à côté de {npc:231045} à l\'intérieur de l\'{location:Hôtel Incontinental}.'
 
-L['ditty_fuzeboy_note'] = nil
-L['angelo_rustbin_note'] = nil
+L['ditty_fuzeboy_note'] = 'Échangez vos {item:234741} contre des mascottes.'
+L['angelo_rustbin_note'] = 'Échangez vos {currency:3220} contre des mascottes et des personnalisations pour votre {object:Casse-cou G-99}.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
-L['options_icons_nine_tenths_desc'] = nil
-L['muffs_auto_locker_label'] = nil
-L['muffs_auto_locker_note'] = nil
-L['muffs_auto_locker_suffix'] = nil
+L['options_icons_nine_tenths_desc'] = 'Afficher les emplacements des {object:Autovestiaires de Muff} pour le haut-fait {achievement:40948}.'
+L['muffs_auto_locker_label'] = 'Autovestiaire de Muff'
+L['muffs_auto_locker_note'] = 'Rassemblez les 5x parties du Gorillion et terminez {quest:87406} pour construire le {item:232843}.'
+L['muffs_auto_locker_suffix'] = 'Autovestiaires de Muff ouverts'
 
 L['options_icons_between_the_lines'] = '{achievement:41588}'
-L['options_icons_between_the_lines_desc'] = nil
-L['a_threatening_letter_location'] = nil
-L['gallywixs_notes_location'] = nil
+L['options_icons_between_the_lines_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:41588}.'
+L['a_threatening_letter_location'] = 'A l\'étage inférieur des {location:Laboratoires de Gentepression}, sous l\'escalier.'
+L['gallywixs_notes_location'] = 'Sur une table située au fond de la {location:Salle du Magot}.'
 
 L['options_icons_can_do_attitude'] = '{achievement:41589}'
-L['options_icons_can_do_attitude_desc'] = nil
+L['options_icons_can_do_attitude_desc'] = 'Afficher les emplacements des {npc:237103} pour le haut-fait {achievement:41589}.'
 L['discarded_can_label'] = '{npc:237103}'
-L['discarded_can_note'] = nil
-L['discarded_can_suffix'] = nil
+L['discarded_can_note'] = 'Donnez quelques coups de pied à la {npc:237103}.'
+L['discarded_can_suffix'] = 'canettes frappées'
