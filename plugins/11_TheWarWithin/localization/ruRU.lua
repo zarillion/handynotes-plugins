@@ -506,10 +506,10 @@ L['uthers_tomb_note'] = 'Призовите {npc:231482} на {location:Моги
 
 -- ORB 5
 L['orb_5_label'] = 'Шар 5'
-L['jeremy_feasel_note'] = '{npc:232048} is hidden in the {location:Cavern of Lost Spirits} in the {location:Timeless Isle}.\n\nDefeat {npc:232048} in a pet battle using only battle pets from past secrets.%s\n\nOnce you win, complete {quest:84781} to receive the {item:228995}.\n\nYou can now visit the {npc:230310} in {location:Booty Bay}.'
-L['zarhym_note'] = 'Speak with {npc:71876} within the cave to enter the spirit realm.'
-L['pointless_treasure_salesman_location'] = 'Hidden within the goblin statue at {location:Janeiro\'s Point}.'
-L['pointless_treasure_salesman_note'] = 'Purchase the {item:228996}:'
+L['jeremy_feasel_note'] = '{npc:232048} спрятан в {location:Пещере Заблудших Духов} на {location:Вневременном острове}.\n\nПобедите {npc:232048} в битве питомцев, используя только боевых питомцев из прошлых секретов.%s\n\nКак только вы победите, выполните {quest:84781}, чтобы получить {item:228995}.\n\nТеперь вы можете посетить {npc:230310} в {location:Пиратской Бухте}.'
+L['zarhym_note'] = 'Поговорите с {npc:71876} в пещере, чтобы войти в царство духов.'
+L['pointless_treasure_salesman_location'] = 'Спрятанный внутри статуи гоблина на {location:острове Жанейро}.'
+L['pointless_treasure_salesman_note'] = 'Купите {item:228996}:'
 
 -- ORB 6
 L['orb_6_label'] = 'Шар 6'
