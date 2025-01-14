@@ -605,6 +605,6 @@ L['discarded_can_label'] = '{npc:237103}'
 L['discarded_can_note'] = 'Patea la {npc:237103} unas cuantas veces.'
 L['discarded_can_suffix'] = 'latas pateadas'
 
-L['options_icons_scrap_rewards'] = 'S.C.R.A.P. Heaps' -- need trans
-L['options_icons_scrap_rewards_desc'] = 'Muestra las recompensas para {object:S.C.R.A.P. Heaps}.' -- need trans and article for object
-L['scrap_heap_suffix'] = 'S.C.R.A.P. tareas completadas' -- need check tareas/trabajos
+L['options_icons_scrap_rewards'] = 'Montón de C.H.A.T.A.R.R.A.'
+L['options_icons_scrap_rewards_desc'] = 'Muestra las recompensas para {object:Montón de C.H.A.T.A.R.R.A.}.'
+L['scrap_heap_suffix'] = 'C.H.A.T.A.R.R.A. trabajos completados'
