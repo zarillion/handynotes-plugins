@@ -604,3 +604,7 @@ L['options_icons_can_do_attitude_desc'] = 'Display {npc:237103} locations for {a
 L['discarded_can_label'] = '{npc:237103}'
 L['discarded_can_note'] = 'Kick the {npc:237103} a few times.'
 L['discarded_can_suffix'] = 'cans kicked'
+
+L['options_icons_scrap_rewards'] = 'S.C.R.A.P. Heaps'
+L['options_icons_scrap_rewards_desc'] = 'Display rewards for {object:S.C.R.A.P. Heaps}.'
+L['scrap_heap_suffix'] = 'S.C.R.A.P. jobs completed'

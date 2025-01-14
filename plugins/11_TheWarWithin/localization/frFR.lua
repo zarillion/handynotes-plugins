@@ -605,3 +605,7 @@ L['options_icons_can_do_attitude_desc'] = 'Afficher les emplacements des {npc:23
 L['discarded_can_label'] = '{npc:237103}'
 L['discarded_can_note'] = 'Donnez quelques coups de pied à la {npc:237103}.'
 L['discarded_can_suffix'] = 'canettes frappées'
+
+L['options_icons_scrap_rewards'] = nil
+L['options_icons_scrap_rewards_desc'] = nil
+L['scrap_heap_suffix'] = nil

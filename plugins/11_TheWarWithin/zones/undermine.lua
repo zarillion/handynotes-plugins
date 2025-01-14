@@ -357,6 +357,51 @@ map.nodes[25743813] = Vendor({
 }) -- Angelo Rustbin
 
 -------------------------------------------------------------------------------
+----------------------------- S.C.R.A.P. REWARDS ------------------------------
+-------------------------------------------------------------------------------
+
+local function GetScrapRewards(criteriaID)
+    return {
+        Achievement({id = 41593, criteria = criteriaID}), Achievement({
+            id = 41592,
+            criteria = {id = 1, qty = true, suffix = L['scrap_heap_suffix']}
+        }), Achievement({id = 41594, oneline = true})
+    }
+end
+
+local ScrapHeap = Class('ScrapHeap', Collectible, {
+    label = '{npc:234350}',
+    icon = 5768266,
+    group = ns.groups.SCRAP_REWARDS
+}) -- S.C.R.A.P. Heap
+
+function ScrapHeap.getters:rewards() return GetScrapRewards(self.criteriaID) end
+
+map.nodes[32012173] = ScrapHeap({criteriaID = 103181}) -- Hovel Hill (North)
+map.nodes[50426363] = ScrapHeap({criteriaID = 103184}) -- Venturewood
+map.nodes[69577652] = ScrapHeap({criteriaID = 103186}) -- Emerald Hills Golf Course
+
+hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
+    if self.vignetteID ~= 6687 and self.vignetteID ~= 6757 then return end
+    if not ns.groups.SCRAP_REWARDS:IsEnabled() then return end
+    local mapID = self:GetMap().mapID
+    local x = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).x
+    local y = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).y
+    local coordinates = HandyNotes:getCoord(x, y)
+    -- GameTooltip:AddLine('XY: ' .. coordinates, 1, 1, 1, true) -- dev
+    local node = map.nodes[coordinates]
+    if not node then return end
+    if ns:GetOpt('show_loot') then
+        local rewards = GetScrapRewards(node.criteriaID)
+        for i, reward in ipairs(rewards) do
+            if reward:IsEnabled() then reward:Render(GameTooltip) end
+        end
+        GameTooltip:AddLine(' ')
+    end
+    GameTooltip:Show()
+end)
+
+-------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: NINE-TENTHS OF THE LAW ---------------------
 -------------------------------------------------------------------------------
 

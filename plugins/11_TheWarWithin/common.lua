@@ -40,6 +40,11 @@ ns.groups.RATTS_REVENGE = Group('ratts_revenge', 5370377, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.SCRAP_REWARDS = ns.Group('scrap_rewards', 5768266, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.SKYRIDING_GLYPH = Group('skyriding_glyph', 4728198, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION

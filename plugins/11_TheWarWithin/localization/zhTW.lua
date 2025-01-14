@@ -604,3 +604,7 @@ L['options_icons_can_do_attitude_desc'] = nil
 L['discarded_can_label'] = '{npc:237103}'
 L['discarded_can_note'] = nil
 L['discarded_can_suffix'] = nil
+
+L['options_icons_scrap_rewards'] = nil
+L['options_icons_scrap_rewards_desc'] = nil
+L['scrap_heap_suffix'] = nil
