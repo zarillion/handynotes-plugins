@@ -564,4 +564,4 @@ L['code_label'] = '%d на %s'
 -- Orb 9
 L['orb_9_label'] = 'Шар 9'
 
-L['ak_decryption_console_note'] = 'Back to the hidden hole, entrance within the cave down to {location:Pillar-nest Vosh} in {location:Azj-Kahet}.\n\nEquip your {item:228966} to reveal a hidden platform.\n\nTarget the {npc:230383} and use the {item:228996} to reach platform. Enter the code and open the {object:Encrypted Chest} to recieve the {item:229348}.\n\n{object:Code}: 84847078'
+L['ak_decryption_console_note'] = 'Возвращаемся в скрытую пещеру, вход которой расположен в {location:Столп-гнездо Вос} в {location:Аз-Кахете}.\n\nЭкипируем {item:228966}, чтобы обнаружить скрытую платформу.\n\nВозьмите в цель {npc:230383} и используйте {item:228996}, чтобы достичь платформы. Введите код и откройте {object:Зашифрованный сундук}, чтобы получить {item:229348}.\n\n{object:Код}: 84847078'
