@@ -531,14 +531,14 @@ L['chest_of_acquisitions_note'] = '1. Умилостивить всех духо
 
 -- Orb 7
 L['orb_7_label'] = 'Шар 7'
-L['orb_7_summary'] = '1. Begin at on the {location:Isle of the Watchers} in {location:Azsuna}.\n\n2. Empower your {pet:1716} with the various {object:Owl of the Watchers} statues around the island.\n\n3. Enter the {location:Vault of the Wardens} and defeat the bosses to reveal a secret {item:229046}.\n\n4. Use the {item:229046} to begin a challenging logic puzzle and ultimately reveal a chest containing the {item:229054}.'
+L['orb_7_summary'] = '1. Отправляйтесь на {location:остров Стражей} в {location:Азсуне}.\n\n2. Расширьте возможности своего {pet:1716} с помощью различных статуи {object:Сов дозорных} вокруг острова.\n\n3. Войдите в {location:Казематы Стражей} и победите боссов, чтобы раскрыть секрет {item:229046}.\n\n4. Используйте {item:229046}, чтобы начать сложную логическую головоломку и в конечном итоге обнаружить сундук, содержащий {item:229054}.'
 
-L['marin_bladewing_note'] = 'Purchase the {pet:1716} from {npc:107379} for %s after reaching %s with {faction:1894} or from the {location:Auction House}.'
-L['owl_of_the_watchers_label'] = 'Owl of the Watchers'
-L['owl_of_the_watchers_note'] = '{note:Only 3 statues are active at one time.}\n\nStand near an active statue with your {pet:1716} summoned to collect all 4 buffs:\n\n{spell:225049} {dot:Red}\n{spell:225038} {dot:Purple}\n{spell:223160} {dot:Green}\n{spell:225059} {dot:Blue}\n\nOnce your {pet:1716} is empowered,\n\n{note:{pet:1716} is followed by white smoke}\n\nEnter the {location:Vault of the Wardens} dungeon.'
+L['marin_bladewing_note'] = 'Купите {pet:1716} у {npc:107379} за %s после достижения %s с {faction:1894} или на {location:Аукционе}.'
+L['owl_of_the_watchers_label'] = 'Сова дозорных'
+L['owl_of_the_watchers_note'] = '{note:Одновременно активны только 3 статуи.}\n\nВстаньте возле активной статуи с призванным {pet:1716}, чтобы собрать все 4 усиления:\n\n{spell:225049} {dot:Red}\n{spell:225038} {dot:Purple}\n{spell:223160} {dot:Green}\n{spell:225059} {dot:Blue}\n\nКак только ваш {pet:1716} получит новые возможности,\n\n{note:{pet:1716} сопровождается белым дымом}\n\nВойдите в подземелье {location:Казематы Стражей}.'
 
-L['sentry_statue_note'] = '1. Defeat {npc:95885} to open the secret room within the {location:Chamber of Night}.\n\n2. Defeat the remaining bosses including {npc:95888}.\n\n3. Bring the {spell:204481} back to the secret room along with your {pet:1716} to spawn the {item:229046}.\n\n4. Bring the {item:229046} to {npc:95887} room.'
-L['sentry_note'] = '1. Place the {item:229046} here at the entrance to spawn a {npc:109300}.\n\n2. Interact with the {npc:109300} to begin the puzzle. The goal is to lower all {npc:98082} into the floor.\n\n3. Once complete, loot the {object:Treasure of the Wardens} to recieve the {item:229054}.'
+L['sentry_statue_note'] = '1. Победите {npc:95885}, чтобы открыть секретную комнату в {location:Чертогах Ночи}.\n\n2. Победите оставшихся боссов, включая {npc:95888}.\n\n3. Принесите {spell:204481} обратно в секретную комнату вместе с вашим {pet:1716}, чтобы вызвать {item:229046}.\n\n4. Принесите {item:229046} в комнату {npc:95887}.'
+L['sentry_note'] = '1. Поместите {item:229046}, у входа, чтобы вызвать {npc:109300}.\n\n2. Взаимодействуйте с {npc:109300}, чтобы начать головоломку. Цель — опустить все {npc:98082} под пол.\n\n3. После завершения откройте {object:Сокровище Стражей}, чтобы получить {item:229054}.'
 
 -- Orb 8
 L['orb_8_label'] = 'Шар 8'
