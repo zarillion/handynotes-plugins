@@ -543,11 +543,11 @@ L['sentry_note'] = '1. Поместите {item:229046}, у входа, чтоб
 -- Orb 8
 L['orb_8_label'] = 'Шар 8'
 
-L['enigma_machine_label'] = 'Enigma Machine'
-L['enigma_machine_note'] = '1. Insert the {item:229007} and {item:229054} into the {object:Enigma Machine}.\n\n2. Click Begin and then click Submit. You must now unlock 7 hidden locks.\n\n3. Unlock a lock by counting each {npc:230596} in the instance, dragging the correct amount of statues to the correct platform, and clicking Submit again.\n\n{note:It is recommended to kill, but not count, each {npc:230599} to prevent them from standing on the platforms.}'
+L['enigma_machine_label'] = 'Загадочная машина'
+L['enigma_machine_note'] = '1. Вставьте {item:229007} и {item:229054} в {object:Загадочную машину}.\n\n2. Нажмите «Начать», а затем нажмите «Ввести». Теперь вам нужно разблокировать 3 скрытых замка.\n\n3. Разблокируйте замок, подсчитав количество {npc:230596} в сценарии, перетащив нужное количество статуй на нужную платформу и снова нажав «Ввести».\n\n{note:Рекомендуется убивать, но не подсчитывать, каждую {npc:230599}, чтобы они не стояли на платформах.}'
 
-L['lock_statue_note'] = 'Drag this statue to a platform.'
-L['lock_platform_note'] = 'Drag statues to this platform.'
+L['lock_statue_note'] = 'Перетащите эту статую на платформу.'
+L['lock_platform_note'] = 'Перетащите статуи на эту платформу.'
 
 L['platform_1_label'] = 'Платформа 1'
 L['platform_2_label'] = 'Платформа 2'
@@ -557,11 +557,11 @@ L['platform_5_label'] = 'Платформа 5'
 L['platform_6_label'] = 'Платформа 6'
 L['platform_7_label'] = 'Платформа 7'
 
-L['rats_label'] = 'Rats'
-L['lock_label'] = 'Lock %d'
-L['code_label'] = '%d on %s'
+L['rats_label'] = 'Крысы'
+L['lock_label'] = 'Замок %d'
+L['code_label'] = '%d на %s'
 
 -- Orb 9
 L['orb_9_label'] = 'Шар 9'
 
-L['ak_decryption_console_note'] = nil
+L['ak_decryption_console_note'] = 'Back to the hidden hole, entrance within the cave down to {location:Pillar-nest Vosh} in {location:Azj-Kahet}.\n\nEquip your {item:228966} to reveal a hidden platform.\n\nTarget the {npc:230383} and use the {item:228996} to reach platform. Enter the code and open the {object:Encrypted Chest} to recieve the {item:229348}.\n\n{object:Code}: 84847078'
