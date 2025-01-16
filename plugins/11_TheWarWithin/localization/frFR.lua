@@ -606,6 +606,6 @@ L['discarded_can_label'] = '{npc:237103}'
 L['discarded_can_note'] = 'Donnez quelques coups de pied à la {npc:237103}.'
 L['discarded_can_suffix'] = 'canettes frappées'
 
-L['options_icons_scrap_rewards'] = nil
-L['options_icons_scrap_rewards_desc'] = nil
-L['scrap_heap_suffix'] = nil
+L['options_icons_scrap_rewards'] = 'Tas de D.E.B.R.I.S.'
+L['options_icons_scrap_rewards_desc'] = 'Afficher les récompenses liées aux {object:Tas de D.E.B.R.I.S.}.'
+L['scrap_heap_suffix'] = 'Missions de D.E.B.R.I.S. terminées'
