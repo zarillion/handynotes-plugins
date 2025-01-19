@@ -30,8 +30,8 @@ local tra = Map({id = 2259, settings = false}) -- Tak-Rethan Abyss
 
 local esn = Map({id = 2396, settings = false}) -- Excavation Site 9
 
-local sss_thePits = Map({id = 2420, settings = false}) -- Sidestreet Sluice - The Pits
-local sss_highDecks = Map({id = 2422, settings = false}) -- Sidestreet Sluice - The High Decks
+local pit = Map({id = 2420, settings = false}) -- Sidestreet Sluice - The Pits
+local thd = Map({id = 2422, settings = false}) -- Sidestreet Sluice - The High Decks
 
 -------------------------------------------------------------------------------
 
@@ -474,13 +474,13 @@ esn.nodes[00000000] = SturdyChest({
 ------------------------------ SIDESTREET SLUICE ------------------------------
 -------------------------------------------------------------------------------
 
-sss_thePits.nodes[33437316] = SturdyChest({
+pit.nodes[33437316] = SturdyChest({
     achievementID = 41101,
     quest = 86790,
     rlabel = ns.status.Gray('#1')
 }) -- Sturdy Chest 1 -- All That Glitters
 
-sss_highDecks.nodes[77573947] = SturdyChest({
+thd.nodes[77573947] = SturdyChest({
     achievementID = 41101,
     location = L['sss_chest_2_location'],
     pois = {
@@ -491,13 +491,13 @@ sss_highDecks.nodes[77573947] = SturdyChest({
     rlabel = ns.status.Gray('#2')
 }) -- Sturdy Chest 2 -- All That Glitters
 
-sss_thePits.nodes[61616581] = SturdyChest({
+pit.nodes[61616581] = SturdyChest({
     achievementID = 41101,
     quest = 86787,
     rlabel = ns.status.Gray('#3')
 }) -- Sturdy Chest 3 -- All That Glitters
 
-sss_thePits.nodes[74447419] = SturdyChest({
+pit.nodes[74447419] = SturdyChest({
     achievementID = 41101,
     quest = 86788,
     rlabel = ns.status.Gray('#4')
@@ -655,8 +655,8 @@ local DELVE_AREA_POIS = {
     [7788] = DELVE_REWARDS['the_dread_pit'],
     [7789] = DELVE_REWARDS['skittering_breach'],
     [7790] = DELVE_REWARDS['the_spiral_weave'],
-    [8181] = DELVE_REWARDS['excavation_site_9']
-    -- [9999] = DELVE_REWARDS['side_street_sluice']
+    [8181] = DELVE_REWARDS['excavation_site_9'],
+    [8246] = DELVE_REWARDS['side_street_sluice']
 }
 
 hooksecurefunc(DelveEntrancePinMixin, 'OnMouseEnter', function(self)
