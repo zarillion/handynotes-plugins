@@ -29,7 +29,7 @@ local ItemStatus = ns.tooltip.ItemStatus
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2346, patch = 110100, settings = true}) -- Undermine
-local trd = ns.maps[2214]
+local trd = ns.maps[2214] -- The Ringing Deeps
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -39,8 +39,9 @@ map.nodes[68508078] = Rare({
     id = 230931,
     quest = 84917,
     rewards = {
-        Achievement({id = 41216, criteria = 71591}),
-        Reputation({id = 2653, gain = 20}), Item({item = 234419}) -- Steamboil Mounting System
+        Achievement({id = 41216, criteria = 71591}), --
+        Item({item = 234419}), -- Steamboil Mounting System
+        Reputation({id = 2653, gain = 20})
     }
 }) -- Scrapbeak
 
@@ -59,8 +60,9 @@ map.nodes[37684448] = Rare({
     id = 230940,
     quest = 84919,
     rewards = {
-        Achievement({id = 41216, criteria = 71593}),
-        Reputation({id = 2653, gain = 20}), Item({item = 234420}) -- Handcrank Mounting System
+        Achievement({id = 41216, criteria = 71593}), --
+        Item({item = 234420}), -- Handcrank Mounting System
+        Reputation({id = 2653, gain = 20})
     }
 }) -- Tally Doublespeak
 
@@ -78,8 +80,9 @@ map.nodes[54015023] = Rare({
     id = 230951,
     quest = 84921,
     rewards = {
-        Achievement({id = 41216, criteria = 71596}),
-        Reputation({id = 2653, gain = 20}), Item({item = 234420}) -- Handcrank Mounting System
+        Achievement({id = 41216, criteria = 71596}), --
+        Item({item = 234420}), -- Handcrank Mounting System
+        Reputation({id = 2653, gain = 20})
     }
 }) -- Thwack
 
@@ -87,8 +90,9 @@ map.nodes[41922563] = Rare({
     id = 230979,
     quest = 84922,
     rewards = {
-        Achievement({id = 41216, criteria = 71597}),
-        Reputation({id = 2653, gain = 20}), Item({item = 234381}) -- Handcrank Fuel Tank
+        Achievement({id = 41216, criteria = 71597}), --
+        Item({item = 234381}), -- Handcrank Fuel Tank
+        Reputation({id = 2653, gain = 20})
     }
 }) -- S.A.L.
 
@@ -97,8 +101,8 @@ map.nodes[46915565] = Rare({
     quest = 84926,
     rewards = {
         Achievement({id = 41216, criteria = 71598}),
-        Reputation({id = 2653, gain = 20}),
-        Transmog({item = 235324, slot = L['mail']}) -- scavengers-lost-bind
+        Transmog({item = 235324, slot = L['mail']}), -- Scavenger's Lost Bind
+        Reputation({id = 2653, gain = 20})
     }
 }) -- Nitro
 
@@ -142,7 +146,8 @@ map.nodes[63354975] = Rare({
     id = 230793,
     quest = 84884,
     rewards = {
-        Achievement({id = 41216, criteria = 71603}), Item({item = 234419}), -- steamboil mounting system
+        Achievement({id = 41216, criteria = 71603}), --
+        Item({item = 234419}), -- Steamboil Mounting System
         Reputation({id = 2653, gain = 50})
     },
     pois = {Path({63574989, 64085016, 64005291})}
@@ -196,9 +201,7 @@ map.nodes[32027652] = Rare({
 map.nodes[64162556] = Rare({
     id = 233472,
     quest = 86428,
-    rewards = {
-        Achievement({id = 41216, criteria = 71611})
-    }
+    rewards = {Achievement({id = 41216, criteria = 71611})}
 }) -- Volstrike the Charged
 
 -- map.nodes[00000000] = Rare({
@@ -223,8 +226,8 @@ map.nodes[49796566] = Treasure({
     location = L['in_building'],
     note = L['suspicious_book_note'],
     pois = {
-        POI({49896613, color = 'Red'}), -- first floor
-        POI({49536452, color = 'Green'}) -- second floor
+        POI({49896613, color = 'Red'}), -- First floor
+        POI({49536452, color = 'Green'}) -- Second floor
     },
     quest = {85866, 85867, 85868},
     rewards = {Achievement({id = 41217, criteria = 71624})}
@@ -248,13 +251,14 @@ function Plunger.getters:label()
     return L['inert_plunger_label']
 end
 
-map.nodes[49699025] = Plunger() -- (Inert Plunger?) Exploded Plunger
+map.nodes[49699025] = Plunger() -- Inert Plunger? / Exploded Plunger
 
 map.nodes[38965963] = Treasure({
     note = L['blackened_dice_note'],
     quest = 85814,
     rewards = {
-        Achievement({id = 41217, criteria = 71625}), Item({item = 235255}) -- Durable Dice
+        Achievement({id = 41217, criteria = 71625}), --
+        Item({item = 235255}) -- Durable Dice
     }
 }) -- Blackened Dice
 
@@ -272,7 +276,8 @@ map.nodes[69652164] = Treasure({
     location = L['impotent_potable_location'],
     quest = 85426,
     rewards = {
-        Achievement({id = 41217, criteria = 71627}), Item({item = 235230}) -- Impotant Potable
+        Achievement({id = 41217, criteria = 71627}), --
+        Item({item = 235230}) -- Impotant Potable
     }
 }) -- Potent Potable
 
@@ -299,21 +304,24 @@ map.nodes[26864265] = Treasure({
 map.nodes[39386103] = Treasure({
     quest = 85492,
     rewards = {
-        Achievement({id = 41217, criteria = 71631}), Item({item = 235221}) -- Paricularly Bright Lightbulb
+        Achievement({id = 41217, criteria = 71631}), --
+        Item({item = 235221}) -- Paricularly Bright Lightbulb
     }
 }) -- Particularly Nice Lamp
 
 map.nodes[53405272] = Treasure({
     quest = 85495,
     rewards = {
-        Achievement({id = 41217, criteria = 71632}), Toy({item = 234951}) -- Uncracked Cold Ones
+        Achievement({id = 41217, criteria = 71632}), --
+        Toy({item = 234951}) -- Uncracked Cold Ones
     }
 }) -- Uncracked Cold Ones
 
 map.nodes[63813220] = Treasure({
     quest = 85494,
     rewards = {
-        Achievement({id = 41217, criteria = 71633}), Item({item = 235273}) -- Distracting Floatmingo
+        Achievement({id = 41217, criteria = 71633}), --
+        Item({item = 235273}) -- Distracting Floatmingo
     }
 }) -- Marooned Floatmingo
 
@@ -362,10 +370,12 @@ map.nodes[25743813] = Vendor({
 
 local function GetScrapRewards(criteriaID)
     return {
-        Achievement({id = 41593, criteria = criteriaID}), Achievement({
+        Achievement({id = 41593, criteria = criteriaID}), -- Cleanin' the Streets
+        Achievement({
             id = 41592,
             criteria = {id = 1, qty = true, suffix = L['scrap_heap_suffix']}
-        }), Achievement({id = 41594, oneline = true})
+        }), -- Absolutely Zero Littering
+        Achievement({id = 41594, oneline = true})
     }
 end
 
@@ -378,13 +388,12 @@ local ScrapHeap = Class('ScrapHeap', Collectible, {
 function ScrapHeap.getters:rewards() return GetScrapRewards(self.criteriaID) end
 
 map.nodes[32012173] = ScrapHeap({criteriaID = 103181}) -- Hovel Hill (North)
+-- map.nodes[00000000] = ScrapHeap({criteriaID = 103182}) -- Hovel Hill (South)
 map.nodes[38658109] = ScrapHeap({criteriaID = 103183}) -- The Vatworks
 map.nodes[50426363] = ScrapHeap({criteriaID = 103184}) -- Venturewood
-map.nodes[67482929] = ScrapHeap({criteriaID = 103187}) -- Blackwater Marina
-map.nodes[69577652] = ScrapHeap({criteriaID = 103186}) -- Emerald Hills Golf Course
-
--- map.nodes[00000000] = ScrapHeap({criteriaID = 103182}) -- Hovel Hill (South)
 -- map.nodes[00000000] = ScrapHeap({criteriaID = 103185}) -- The Heaps
+map.nodes[69577652] = ScrapHeap({criteriaID = 103186}) -- Emerald Hills Golf Course
+map.nodes[67482929] = ScrapHeap({criteriaID = 103187}) -- Blackwater Marina
 
 hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
     if self.vignetteID ~= 6687 and self.vignetteID ~= 6757 then return end
@@ -512,7 +521,7 @@ local DiscardedCan = Class('DiscardedCan', Collectible, {
         Achievement({
             id = 41589,
             criteria = {id = 1, qty = true, suffix = L['discarded_can_suffix']}
-        })
+        }) -- That Can-Do Attitude
     }
 }) -- Discarded Can
 
@@ -536,7 +545,3 @@ map.nodes[56923313] = DiscardedCan()
 
 map.nodes[43251438] = WorldsoulMemory({areaPoiID = 8200}) -- Early Cartel Wars
 map.nodes[58196864] = WorldsoulMemory({areaPoiID = 8201}) -- Kaja'mite Contact
-
--------------------------------------------------------------------------------
--------------------------------- MISCELLEANOUS --------------------------------
--------------------------------------------------------------------------------
