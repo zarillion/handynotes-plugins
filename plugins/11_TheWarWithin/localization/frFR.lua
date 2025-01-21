@@ -571,7 +571,7 @@ L['ak_decryption_console_note'] = 'Retournez à l\'entrée du trou caché dans l
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['complete_quest'] = nil
+L['complete_quest'] = 'Terminez {quest:%d} pour l\'invoquer.'
 L['in_sewer'] = 'Dans les égouts. Utilisez la {object:Grille d\'égout} à proximité pour y entrer.'
 L['and_slimesby'] = 'et {npc:230947}'
 
