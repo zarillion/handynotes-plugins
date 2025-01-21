@@ -468,6 +468,7 @@ esn.nodes[33585917] = SturdyChest({
 
 esn.nodes[00000000] = SturdyChest({
     achievementID = 41100,
+    quest = nil,
     rlabel = ns.status.Gray('#4')
 }) -- Sturdy Chest 4
 

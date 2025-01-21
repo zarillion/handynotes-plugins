@@ -169,7 +169,7 @@ map.nodes[58488643] = Rare({
         Achievement({id = 41216, criteria = 71605}),
         Reputation({id = 2653, gain = 50})
     }
-}) -- Chief Foreman Gutso (patrols needs path)
+}) -- Chief Foreman Gutso
 
 map.nodes[60580989] = Rare({
     id = 230840,
@@ -180,18 +180,21 @@ map.nodes[60580989] = Rare({
 
 map.nodes[40002232] = Rare({
     id = 234480,
+    note = format(L['complete_quest'], 86414), -- ![Magno-Scrapper 9000]
     quest = 86298,
     rewards = {Achievement({id = 41216, criteria = 71608})}
-}) -- Aurumensis (possible wrong name in achievement) / M.A.G.N.O. (complete the magno-scapper 9000 event to summon)
+}) -- M.A.G.N.O.
 
 map.nodes[32027652] = Rare({
     id = 234499,
+    note = format(L['complete_quest'], 86390), -- ![Noggenfogger Nuisance]
     quest = 86307,
     rewards = {Achievement({id = 41216, criteria = 71609})}
-}) -- Giovante (complete the noggenforger nuisance event to summon)
+}) -- Giovante
 
 -- map.nodes[00000000] = Rare({
 --     id = 233471,
+--     note = format(L['complete_quest'], 86431), -- ![Scrapchewer]
 --     quest = 86431,
 --     rewards = {
 --         Achievement({id = 41216, criteria = 71610})
@@ -210,7 +213,7 @@ map.nodes[64162556] = Rare({
 --     rewards = {
 --         Achievement({id = 41216, criteria = 71612})
 --     }
--- }) -- The Darkfuse Precipitant
+-- }) -- Darkfuse Precipitant
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
