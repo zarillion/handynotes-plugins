@@ -193,13 +193,13 @@ map.nodes[32027652] = Rare({
 --     }
 -- }) -- Scrapchewer
 
--- map.nodes[00000000] = Rare({
---     id = 233472,
---     quest = 86428,
---     rewards = {
---         Achievement({id = 41216, criteria = 71611})
---     }
--- }) -- Volstrike the Charged
+map.nodes[64162556] = Rare({
+    id = 233472,
+    quest = 86428,
+    rewards = {
+        Achievement({id = 41216, criteria = 71611})
+    }
+}) -- Volstrike the Charged
 
 -- map.nodes[00000000] = Rare({
 --     id = 231310,
