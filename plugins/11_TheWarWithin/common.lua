@@ -463,38 +463,28 @@ local WORLDSOUL_REWARDS = {
         }) -- Echoes of Danger
     },
     [8200] = {
-        Achievement({id = 41214, criteria = 1}), -- Early Cartel Wars
+        Achievement({id = 41214, criteria = 71579}), -- Early Cartel Wars
         Achievement({
             id = 41215,
             criteria = {
-                1, -- Prototype Shredder Unit
-                2, -- Peet the Wheedler
-                3, -- Vynnie Samophlangus
-                4, -- Madam Colada
-                5, -- Mookcenary Captain Freg
-                6, -- Deep-King Grobrosh
-                7, -- Roxarix the Caveborer
-                8, -- Geomancer Keeri
-                9, -- Massive Kaja'mental
-                10 -- Taskmaster Zendu
+                71581, -- Prototype Shredder Unit
+                71582, -- Peet the Wheedler
+                71583, -- Vynnie Samophlangus
+                71584, -- Madam Colada
+                71585 -- Mookcenary Captain Freg
             }
         }) -- Echoes of Deeper Dangers
     },
     [8201] = {
-        Achievement({id = 41214, criteria = 2}), -- Kaja'mite Contact
+        Achievement({id = 41214, criteria = 71580}), -- Kaja'mite Contact
         Achievement({
             id = 41215,
             criteria = {
-                1, -- Prototype Shredder Unit
-                2, -- Peet the Wheedler
-                3, -- Vynnie Samophlangus
-                4, -- Madam Colada
-                5, -- Mookcenary Captain Freg
-                6, -- Deep-King Grobrosh
-                7, -- Roxarix the Caveborer
-                8, -- Geomancer Keeri
-                9, -- Massive Kaja'mental
-                10 -- Taskmaster Zendu
+                71586, -- Deep-King Grobrosh
+                71587, -- Roxarix the Caveborer
+                71588, -- Geomancer Keeri
+                71589, -- Massive Kaja'mental
+                71590 -- Taskmaster Zen
             }
         }) -- Echoes of Deeper Dangers
     }
