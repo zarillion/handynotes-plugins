@@ -516,18 +516,19 @@ local DiscardedCan = Class('DiscardedCan', Collectible, {
     }
 }) -- Discarded Can
 
+map.nodes[28624761] = DiscardedCan()
 map.nodes[30674249] = DiscardedCan()
 map.nodes[31334208] = DiscardedCan()
-map.nodes[28624761] = DiscardedCan()
-map.nodes[46374679] = DiscardedCan()
-map.nodes[52715868] = DiscardedCan()
 map.nodes[39172768] = DiscardedCan()
-map.nodes[45098122] = DiscardedCan()
 map.nodes[41693493] = DiscardedCan()
-map.nodes[50373403] = DiscardedCan()
+map.nodes[45098122] = DiscardedCan()
 map.nodes[46194131] = DiscardedCan()
-map.nodes[56563837] = DiscardedCan()
+map.nodes[46374679] = DiscardedCan()
+map.nodes[50373403] = DiscardedCan()
+map.nodes[52715868] = DiscardedCan()
 map.nodes[56135245] = DiscardedCan()
+map.nodes[56563837] = DiscardedCan()
+map.nodes[56923313] = DiscardedCan()
 
 -------------------------------------------------------------------------------
 ----------------------------- WORLDSOUL MEMORIES ------------------------------
