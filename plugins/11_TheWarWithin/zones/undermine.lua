@@ -391,7 +391,7 @@ local ScrapHeap = Class('ScrapHeap', Collectible, {
 function ScrapHeap.getters:rewards() return GetScrapRewards(self.criteriaID) end
 
 map.nodes[32012173] = ScrapHeap({criteriaID = 103181}) -- Hovel Hill (North)
--- map.nodes[00000000] = ScrapHeap({criteriaID = 103182}) -- Hovel Hill (South)
+map.nodes[36354508] = ScrapHeap({criteriaID = 103182}) -- Hovel Hill (South)
 map.nodes[38658109] = ScrapHeap({criteriaID = 103183}) -- The Vatworks
 map.nodes[50426363] = ScrapHeap({criteriaID = 103184}) -- Venturewood
 -- map.nodes[00000000] = ScrapHeap({criteriaID = 103185}) -- The Heaps
