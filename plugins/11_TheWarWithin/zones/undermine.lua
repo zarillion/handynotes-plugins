@@ -422,6 +422,14 @@ end)
 --------------------- ACHIEVEMENT: NINE-TENTHS OF THE LAW ---------------------
 -------------------------------------------------------------------------------
 
+local gorillion = {
+    [23804538] = {quest = 85072, item = 234427}, -- Gorillion Fork
+    [56665546] = {quest = 85116, item = 234432}, -- Gorillion Engine
+    [34318285] = {quest = 85117, item = 234433}, -- Gorillion Chasis
+    [71458588] = {quest = 85114, item = 234430}, -- Gorillion Grease
+    [75142295] = {quest = 85115, item = 234431} -- Gorillion Batteries
+}
+
 local MuffsAutoLocker = Class('MuffsAutoLocker', Collectible, {
     icon = 2201832,
     label = L['muffs_auto_locker_label'],
@@ -430,11 +438,9 @@ local MuffsAutoLocker = Class('MuffsAutoLocker', Collectible, {
 
 function MuffsAutoLocker.getters:note()
     local note = L['muffs_auto_locker_note']
-    note = note .. ItemStatus(234427, 1, '{item:234427}') -- Gorillion Fork
-    note = note .. ItemStatus(234432, 1, '{item:234432}') -- Gorillion Engine
-    note = note .. ItemStatus(234433, 1, '{item:234433}') -- Gorillion Chasis
-    note = note .. ItemStatus(234430, 1, '{item:234430}') -- Gorillion Grease
-    note = note .. ItemStatus(234431, 1, '{item:234431}') -- Gorillion Batteries
+    for _, part in pairs(gorillion) do
+        note = note .. ItemStatus(part.item, 1, format('{item:%d}', part.item))
+    end
     return note
 end
 
@@ -451,11 +457,9 @@ function MuffsAutoLocker.getters:rewards()
     }
 end
 
-map.nodes[23804538] = MuffsAutoLocker({quest = 85072}) -- Gorillion Fork
-map.nodes[56665546] = MuffsAutoLocker({quest = 85116}) -- Gorillion Engine
-map.nodes[34318285] = MuffsAutoLocker({quest = 85117}) -- Gorillion Chasis
-map.nodes[71458588] = MuffsAutoLocker({quest = 85114}) -- Gorillion Grease
-map.nodes[75142295] = MuffsAutoLocker({quest = 85115}) -- Gorillion Batteries
+for coords, part in pairs(gorillion) do
+    map.nodes[coords] = MuffsAutoLocker({quest = part.quest})
+end
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: READ BETWEEN THE LINES ---------------------
