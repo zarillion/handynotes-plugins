@@ -348,6 +348,7 @@ L['tsw_chest_4_location'] = 'En lo alto de una viga. Bájate del pilar cerca del
 L['tuk_chest_1_note'] = 'Detrás de la estatua.'
 L['tuk_chest_2_note'] = '{note:Sólo disponible en las variantes de la historia "Evolución Incontrolable" y "Víctimas de Tortura".}'
 L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia "Evolución Incontrolable" y "Rescate de la Tejedora".}'
+L['sss_chest_2_location'] = 'A través de la viga metálica.'
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
@@ -564,3 +565,47 @@ L['code_label'] = '%d en la %s'
 L['orb_9_label'] = 'Orbe 9'
 
 L['ak_decryption_console_note'] = 'Regresa a la entrada del agujero oculto dentro de la cueva hasta el {location:Pilar-Nido Vosh} de {location:Azj-Kahet}.\n\nEquípate tus {item:228966} para revelar una plataforma oculta.\n\nSeñala el {npc:230383} y usa las {item:228996} para alcanzar la plataforma. Teclea el código y abre el {object:Cofre cifrado} para recibir las {item:229348}.\n\n{object:Código}: 84847078'
+
+-------------------------------------------------------------------------------
+---------------------------------- UNDERMINE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['complete_quest'] = 'Completa la misión {quest:%d} para invocar.'
+L['in_sewer'] = 'Dentro de la cloaca. Usa la {object:Rejilla de cloaca} cercana para entrar.'
+L['and_slimesby'] = 'y {npc:230947}'
+
+L['inert_plunger_label'] = '¿Detonador inerte?'
+L['exploded_plunger_label'] = 'Detonador explotado'
+
+L['unexploded_fireworks_location'] = 'En lo alto del {location:Parque Portón}.'
+L['suspicious_book_note'] = '1. {dot:Red} Escondido en una estantería en el primer piso. Intenta recogerlo y volará a una nueva estantería en el piso de arriba.\n\n2. {dot:Green} Escondido detrás de una estantería en el segundo piso. Intenta recogerlo y volará al escritorio de arriba.\n\n3. En el escritorio del tercer piso. Finalmente, recoge el libro.'
+L['fireworks_hat_note'] = 'Intenta agarrar el sombrero, lo que hace que vuele desde la azotea y aterrice aquí.'
+L['blackened_dice_note'] = 'Gira la {object:Válvula de tubería} cercana para soltar los dados.'
+L['lonely_tub_note'] = 'Agarra el {object:Extintor} cercano ({dot:Blue}) para apagar las llamas del {object:Tubo solitario}.'
+L['impotent_potable_location'] = 'Debajo del muelle al lado de {location:Fiesta Saqueo}'
+L['abandoned_toolbox_location'] = 'En lo alto del techo de la {location:Tienda de Chatarra}.\n\nSigue las escaleras hasta arriba.'
+L['trick_deck_of_cards_location'] = 'En el escritorio al lado de {npc:231045} dentro del {location:Hotel Incontinental}.'
+
+L['ditty_fuzeboy_note'] = 'Intercambia {item:234741} por mascotas.'
+L['angelo_rustbin_note'] = 'Intercambia {currency:3220} por mascotas y las transfiguraciones {object:Rompecuellos G-99}.'
+
+L['options_icons_nine_tenths'] = '{achievement:40948}'
+L['options_icons_nine_tenths_desc'] = 'Muestra dónde están los {object:Cofre bloqueado de Muff} para el logro {achievement:40948}.'
+L['muffs_auto_locker_label'] = 'Cofre bloqueado de Muff'
+L['muffs_auto_locker_note'] = 'Recoge las 5 piezas de Gorillion y completa la misión {quest:87406} para construir {item:232843}.'
+L['muffs_auto_locker_suffix'] = 'Cofres bloqueados de Muff abiertos'
+
+L['options_icons_between_the_lines'] = '{achievement:41588}'
+L['options_icons_between_the_lines_desc'] = 'Muestra dónde están los libros para el logro {achievement:41588}.'
+L['a_threatening_letter_location'] = 'En el piso inferior de los {location:Laboratorios Bonvapor} debajo de la escalera.'
+L['gallywixs_notes_location'] = 'En una mesa en la parte trasera de la {location:Sala de Acopio}.'
+
+L['options_icons_can_do_attitude'] = '{achievement:41589}'
+L['options_icons_can_do_attitude_desc'] = 'Muestra dónde están las {npc:237103} para el logro {achievement:41589}.'
+L['discarded_can_label'] = '{npc:237103}'
+L['discarded_can_note'] = 'Patea la {npc:237103} unas cuantas veces.'
+L['discarded_can_suffix'] = 'latas pateadas'
+
+L['options_icons_scrap_rewards'] = 'Montón de C.H.A.T.A.R.R.A.'
+L['options_icons_scrap_rewards_desc'] = 'Muestra las recompensas para {object:Montón de C.H.A.T.A.R.R.A.}.'
+L['scrap_heap_suffix'] = 'C.H.A.T.A.R.R.A. trabajos completados'

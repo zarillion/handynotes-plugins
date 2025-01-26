@@ -348,6 +348,7 @@ L['tsw_chest_4_location'] = '在横梁上。从另一个宝箱附近的柱子上
 L['tuk_chest_1_note'] = '雕像后面。'
 L['tuk_chest_2_note'] = '{note:仅在“逃亡的进化体”和“煎熬受害者”故事变种。}'
 L['tuk_chest_3_note'] = '{note:仅在“逃亡的进化体”和“纺丝者救援”故事变种。}'
+L['sss_chest_2_location'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
@@ -564,3 +565,47 @@ L['code_label'] = '将 %d 个雕像置于 %s'
 L['orb_9_label'] = '9号球'
 
 L['ak_decryption_console_note'] = '回到隐藏的洞穴，入口位于 {location:艾基-卡赫特} 的 {location:沃什柱巢} 洞穴内。\n\n装备 {item:228966} 将揭示一个隐藏的平台。\n\n目标为 {npc:230383} 并使用 {item:228996} 到达那里。输入密码解锁并打开 {object:加密的宝箱} 从中获得 {item:229348}。\n\n{object:密码}：84847078'
+
+-------------------------------------------------------------------------------
+---------------------------------- UNDERMINE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['complete_quest'] = nil
+L['in_sewer'] = nil
+L['and_slimesby'] = nil
+
+L['inert_plunger_label'] = nil
+L['exploded_plunger_label'] = nil
+
+L['unexploded_fireworks_location'] = nil
+L['suspicious_book_note'] = nil
+L['fireworks_hat_note'] = nil
+L['blackened_dice_note'] = nil
+L['lonely_tub_note'] = nil
+L['impotent_potable_location'] = nil
+L['abandoned_toolbox_location'] = nil
+L['trick_deck_of_cards_location'] = nil
+
+L['ditty_fuzeboy_note'] = nil
+L['angelo_rustbin_note'] = nil
+
+L['options_icons_nine_tenths'] = '{achievement:40948}'
+L['options_icons_nine_tenths_desc'] = nil
+L['muffs_auto_locker_label'] = nil
+L['muffs_auto_locker_note'] = nil
+L['muffs_auto_locker_suffix'] = nil
+
+L['options_icons_between_the_lines'] = '{achievement:41588}'
+L['options_icons_between_the_lines_desc'] = nil
+L['a_threatening_letter_location'] = nil
+L['gallywixs_notes_location'] = nil
+
+L['options_icons_can_do_attitude'] = '{achievement:41589}'
+L['options_icons_can_do_attitude_desc'] = nil
+L['discarded_can_label'] = '{npc:237103}'
+L['discarded_can_note'] = nil
+L['discarded_can_suffix'] = nil
+
+L['options_icons_scrap_rewards'] = nil
+L['options_icons_scrap_rewards_desc'] = nil
+L['scrap_heap_suffix'] = nil
