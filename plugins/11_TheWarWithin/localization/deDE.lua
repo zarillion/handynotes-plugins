@@ -33,7 +33,7 @@ L['options_icons_worldsoul_memories_desc'] = 'Zeigt die Positionen der {object:W
 L['alunira_note'] = 'Sammle 10x {item:224025} von Gegnern auf der {location:Insel fon Dorn} und kombiniere diese zu einem {item:224026}, um den Schwächungszauber {spell:451570} zu entfernen.'
 L['violet_hold_prisoner'] = 'Gefangener der Violetten Festung'
 
-L['elemental_geode_label'] = nil
+L['elemental_geode_label'] = 'Elementargeode'
 L['magical_treasure_chest_note'] = 'Schubse {npc:223104} zurück ins Wasser und sammle dann 5x {npc:223159s} in der Nähe.'
 L['mosswool_flower_note'] = 'Berühre {npc:222956} und folge ihm.'
 L['mushroom_cap_note'] = 'Sammle eine {object:Holzwurzelkappe} in dem nahegelegenen Wald und bringe diese zu {npc:222894}.'
@@ -361,8 +361,8 @@ L['the_drain_note'] = 'Steuere {currency:3090} dem {location:Abfluss} an der {ob
 L['shuddering_hollow_note'] = 'Steuere {currency:3090} der {location:Schauderhöhle} an der {object:Schlachtkarte der Sireneninsel} bei, damit sich diese Höhle öffnet und der seltenen Gegner erscheint.'
 
 L['vrykul_sublabel'] = '{note:Nur verfügbar, wenn sich {npc:Vrykul der Blutgischt} auf der Insel befinden.}'
-L['naga_sublabel'] = '{note:Nur verfügbar, wenn sich {npc:Naga} auf der Insel befinden.}' -- review
-L['pirate_sublabel'] = '{note:Nur verfügbar, wenn sich {npc:Piraten} auf der Insel befinden.}' -- review
+L['naga_sublabel'] = '{note:Nur verfügbar, wenn sich {npc:Naga} auf der Insel befinden.}'
+L['pirate_sublabel'] = '{note:Nur verfügbar, wenn sich {npc:Piraten} auf der Insel befinden.}'
 
 L['storm_required'] = 'Benötigt ein aktives %s auf der {location:Sireneninsel}.'
 L['slaughtershell_location'] = 'Wandert auf der gesamten {location:Sireneninsel} umher.'
@@ -379,7 +379,7 @@ L['runed_storm_chest_note'] = 'Folge dem Wind zu einer versteckten {object:Runen
 L['flame_blessed_iron_item'] = 'Bringe diesen Gegenstand für Bonus {currency:3090} zurück.'
 
 L['barnacle_encrusted_chest'] = 'Seepockenverkrustete Truhe'
-L['pilfered_earthen_chest'] = nil
+L['pilfered_earthen_chest'] = 'Geplünderte Kiste der Irdenen'
 
 L['soweezi_note'] = 'Tausche {currency:3090} gegen ein Reittier, ein Haustier, ein Spielzeug oder Ausrüstungsvorlagen ein.'
 
@@ -399,13 +399,13 @@ L['prismatic_snapdragon_note_start'] = 'Helfe im Verlauf von 10 Tagen das {npc:2
 L['prismatic_day'] = 'Tag %d'
 
 L['pris_quest_1'] = 'Ein Rettungsanker' -- https://www.wowhead.com/quest=86482/a-lifeline
-L['pris_quest_2'] = nil -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
-L['pris_quest_3'] = nil -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
-L['pris_quest_4'] = nil -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
+L['pris_quest_2'] = 'Dann mal schnipp schnapp' -- https://www.wowhead.com/ptr/quest=86483/snap-to-it
+L['pris_quest_3'] = 'Das Temperament eines Unwetters' -- https://www.wowhead.com/ptr/quest=86484/temper-like-a-tempest
+L['pris_quest_4'] = 'Ein treuer Freund' -- https://www.wowhead.com/ptr/quest=86485/a-loyal-friend
 
 L['unsolved_amethyst_runelock'] = 'Ungelöstes Amethystrunenschloss'
 L['bilge_rat_supply_chest'] = 'Vorratstruhe der Bilgeratten'
-L['bilge_rat_supply_chest_note'] = nil
+L['bilge_rat_supply_chest_note'] = 'Plündere den {item:228621} von {npc:228582}, um die Truhe öffnen zu können.'
 
 L['stone_carvers_scamseax_note'] = 'Sammle den {object:Strahlender Citrin} ({dot:Yellow}), um den Stärkungszauber {spell:1216785} (2 Minuten) zu erhalten, der es dir erlaubt die {item:233834} zu plündern.'
 

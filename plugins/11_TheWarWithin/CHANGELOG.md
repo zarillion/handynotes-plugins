@@ -1,3 +1,7 @@
+# v114
+
+* Localization updates: deDE, esES
+
 # v113
 
 * Move Alyx (Guest Relations secret) from Tanaris to Dornogal
@@ -17,7 +21,7 @@
   * Update Glittering Vault Shard toy
   * Update Prismatic Snapdragon mount
   * Update Thrayir, Eyes of the Siren mount
-  * Update The Forgotten Vault nodes 
+  * Update The Forgotten Vault nodes
   * Remove unnecessary treasurse
 * Restore the achievement [Khaz Algar Lore Hunter](https://www.wowhead.com/achievement=40762)
 * Adjust Worldsoul Memory location
