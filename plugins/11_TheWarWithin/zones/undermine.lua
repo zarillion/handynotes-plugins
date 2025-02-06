@@ -192,14 +192,12 @@ map.nodes[32027652] = Rare({
     rewards = {Achievement({id = 41216, criteria = 71609})}
 }) -- Giovante
 
--- map.nodes[00000000] = Rare({
---     id = 233471,
---     note = format(L['complete_quest'], 86431), -- ![Scrapchewer]
---     quest = 86431,
---     rewards = {
---         Achievement({id = 41216, criteria = 71610})
---     }
--- }) -- Scrapchewer
+map.nodes[57207860] = Rare({
+    id = 233471,
+    note = format(L['complete_quest'], 86431), -- ![Scrapchewer]
+    quest = 86431,
+    rewards = {Achievement({id = 41216, criteria = 71610})}
+}) -- Scrapchewer
 
 map.nodes[64162556] = Rare({
     id = 233472,
