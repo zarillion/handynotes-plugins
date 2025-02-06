@@ -201,6 +201,7 @@ map.nodes[57207860] = Rare({
 
 map.nodes[64162556] = Rare({
     id = 233472,
+    note = format(L['complete_quest'], 86428), -- ![Voltstrike the Charged]
     quest = 86428,
     rewards = {Achievement({id = 41216, criteria = 71611})}
 }) -- Volstrike the Charged
