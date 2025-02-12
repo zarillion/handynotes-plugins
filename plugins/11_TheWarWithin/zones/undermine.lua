@@ -393,7 +393,7 @@ map.nodes[32012173] = ScrapHeap({criteriaID = 103181}) -- Hovel Hill (North)
 map.nodes[36354508] = ScrapHeap({criteriaID = 103182}) -- Hovel Hill (South)
 map.nodes[38658109] = ScrapHeap({criteriaID = 103183}) -- The Vatworks
 map.nodes[50426363] = ScrapHeap({criteriaID = 103184}) -- Venturewood
--- map.nodes[00000000] = ScrapHeap({criteriaID = 103185}) -- The Heaps
+map.nodes[52498333] = ScrapHeap({criteriaID = 103185}) -- The Heaps
 map.nodes[69577652] = ScrapHeap({criteriaID = 103186}) -- Emerald Hills Golf Course
 map.nodes[67482929] = ScrapHeap({criteriaID = 103187}) -- Blackwater Marina
 
@@ -404,7 +404,6 @@ hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
     local x = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).x
     local y = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).y
     local coordinates = HandyNotes:getCoord(x, y)
-    -- GameTooltip:AddLine('XY: ' .. coordinates, 1, 1, 1, true) -- dev
     local node = map.nodes[coordinates]
     if not node then return end
     if ns:GetOpt('show_loot') then
