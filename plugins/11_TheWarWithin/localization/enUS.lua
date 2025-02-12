@@ -348,6 +348,7 @@ L['tsw_chest_4_location'] = 'High up on a beam. Drop down from the pillar near t
 L['tuk_chest_1_note'] = 'Behind the Statue.'
 L['tuk_chest_2_note'] = '{note:Only available in the "Runaway Evolution" and "Torture Victims" story variants.}'
 L['tuk_chest_3_note'] = '{note:Only available in the "Runaway Evolution" and "Weaver Rescue" story variants.}'
+L['sss_chest_2_location'] = 'Across the metal beam.'
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
@@ -564,3 +565,47 @@ L['code_label'] = '%d on %s'
 L['orb_9_label'] = 'Orb 9'
 
 L['ak_decryption_console_note'] = 'Back to the hidden hole, entrance within the cave down to {location:Pillar-nest Vosh} in {location:Azj-Kahet}.\n\nEquip your {item:228966} to reveal a hidden platform.\n\nTarget the {npc:230383} and use the {item:228996} to reach platform. Enter the code and open the {object:Encrypted Chest} to recieve the {item:229348}.\n\n{object:Code}: 84847078'
+
+-------------------------------------------------------------------------------
+---------------------------------- UNDERMINE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['complete_quest'] = 'Complete {quest:%d} to summon.'
+L['in_sewer'] = 'Within the sewer. Use the nearby {object:Sewer Grate} to enter.'
+L['and_slimesby'] = 'and {npc:230947}'
+
+L['inert_plunger_label'] = 'Inert Plunger?'
+L['exploded_plunger_label'] = 'Exploded Plunger'
+
+L['unexploded_fireworks_location'] = 'On the roof of {location:Tailgate Park}.'
+L['suspicious_book_note'] = '1. {dot:Red} Hidden on a bookcase on the first floor. Attempt to collect it and it will fly to a new bookcase upstairs.\n\n2. {dot:Green} Hidden behind a bookcase on the second floor. Attempt to collect it and it will fly to the desk upstairs.\n\n3. On the desk on the third floor. Finally, collect the book!'
+L['fireworks_hat_note'] = 'Attempt to grab the hat causing it to fly from the rooftop and land here.'
+L['blackened_dice_note'] = 'Turn the nearby {object:Pipe Valve} to release the dice.'
+L['lonely_tub_note'] = 'Grab the nearby {object:Fire Extinguisher} ({dot:Blue}) to put out the flames on the {object:Lonely Tub}.'
+L['impotent_potable_location'] = 'Below the dock next to the {location:Plunder Party}'
+L['abandoned_toolbox_location'] = 'High on the roof of {location:The Scrapshop}.\n\nFollow the stairs to the top.'
+L['trick_deck_of_cards_location'] = 'On the desk next to {npc:231045} inside {location:The Incontinental Hotel}.'
+
+L['ditty_fuzeboy_note'] = 'Exchange {item:234741} for pets.'
+L['angelo_rustbin_note'] = 'Exchange {currency:3220} for pets and {object:G-99 Breakneck} customizations.'
+
+L['options_icons_nine_tenths'] = '{achievement:40948}'
+L['options_icons_nine_tenths_desc'] = 'Display all {object:Muff\'s Auto-Locker} locations for {achievement:40948}.'
+L['muffs_auto_locker_label'] = 'Muff\'s Auto-Locker'
+L['muffs_auto_locker_note'] = 'Collect all 5x Gorillion pieces and complete {quest:87406} to build {item:232843}.'
+L['muffs_auto_locker_suffix'] = 'Muff\'s Auto-Lockers opened'
+
+L['options_icons_between_the_lines'] = '{achievement:41588}'
+L['options_icons_between_the_lines_desc'] = 'Display the book locations for {achievement:41588}.'
+L['a_threatening_letter_location'] = 'On the bottom floor of {location:Steamwheedle Laboratories} beneath the staircase.'
+L['gallywixs_notes_location'] = 'On a table in the back of {location:The Hoardroom}.'
+
+L['options_icons_can_do_attitude'] = '{achievement:41589}'
+L['options_icons_can_do_attitude_desc'] = 'Display {npc:237103} locations for {achievement:41589}.'
+L['discarded_can_label'] = '{npc:237103}'
+L['discarded_can_note'] = 'Kick the {npc:237103} a few times.'
+L['discarded_can_suffix'] = 'cans kicked'
+
+L['options_icons_scrap_rewards'] = 'S.C.R.A.P. Heaps'
+L['options_icons_scrap_rewards_desc'] = 'Display rewards for {object:S.C.R.A.P. Heaps}.'
+L['scrap_heap_suffix'] = 'S.C.R.A.P. jobs completed'

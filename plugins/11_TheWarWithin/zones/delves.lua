@@ -28,6 +28,11 @@ local ski = Map({id = 2310, settings = false}) -- Skittering Breach
 local nfs = Map({id = 2277, settings = false}) -- Nightfall Sanctum
 local tra = Map({id = 2259, settings = false}) -- Tak-Rethan Abyss
 
+local esn = Map({id = 2396, settings = false}) -- Excavation Site 9
+
+local pit = Map({id = 2420, settings = false}) -- Sidestreet Sluice - The Pits
+local thd = Map({id = 2422, settings = false}) -- Sidestreet Sluice - The High Decks
+
 -------------------------------------------------------------------------------
 
 local SturdyChest = Class('SturdyChest', Treasure, {
@@ -440,6 +445,67 @@ tra.nodes[35135863] = SturdyChest({
 }) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
+------------------------------ EXCAVATION SITE 9 ------------------------------
+-------------------------------------------------------------------------------
+
+esn.nodes[50906155] = SturdyChest({
+    achievementID = 41100,
+    quest = nil,
+    rlabel = ns.status.Gray('#1')
+}) -- Sturdy Chest 1 -- Rowdy Rifts
+
+esn.nodes[57014680] = SturdyChest({
+    achievementID = 41100,
+    quest = nil,
+    rlabel = ns.status.Gray('#2')
+}) -- Sturdy Chest 2 -- Rowdy Rifts
+
+esn.nodes[33585917] = SturdyChest({
+    achievementID = 41100,
+    quest = 86346,
+    rlabel = ns.status.Gray('#3')
+}) -- Sturdy Chest 3 -- Lost Excavators (didn't see on Rowdy Rifts?)
+
+esn.nodes[00000000] = SturdyChest({
+    achievementID = 41100,
+    quest = nil,
+    rlabel = ns.status.Gray('#4')
+}) -- Sturdy Chest 4
+
+-------------------------------------------------------------------------------
+------------------------------ SIDESTREET SLUICE ------------------------------
+-------------------------------------------------------------------------------
+
+pit.nodes[33437316] = SturdyChest({
+    achievementID = 41101,
+    quest = 86790,
+    rlabel = ns.status.Gray('#1')
+}) -- Sturdy Chest 1 -- All That Glitters
+
+thd.nodes[77573947] = SturdyChest({
+    achievementID = 41101,
+    location = L['sss_chest_2_location'],
+    pois = {
+        POI({72803794}), --
+        Path({72803794, 74303947, 77573947})
+    },
+    quest = 86789,
+    rlabel = ns.status.Gray('#2')
+}) -- Sturdy Chest 2 -- All That Glitters
+
+pit.nodes[61616581] = SturdyChest({
+    achievementID = 41101,
+    quest = 86787,
+    rlabel = ns.status.Gray('#3')
+}) -- Sturdy Chest 3 -- All That Glitters
+
+pit.nodes[74447419] = SturdyChest({
+    achievementID = 41101,
+    quest = 86788,
+    rlabel = ns.status.Gray('#4')
+}) -- Sturdy Chest 4 -- All That Glitters
+
+-------------------------------------------------------------------------------
 -------------------------- DELVE REWARDS (AREAPOIS) ---------------------------
 -------------------------------------------------------------------------------
 
@@ -448,7 +514,8 @@ local maps = {
     ns.maps[2215], -- Hallowfall
     ns.maps[2248], -- Isle of Dorn
     ns.maps[2255], -- Azj-Kahet - Upper
-    ns.maps[2256] -- Azj-Kahet - Lower
+    ns.maps[2256], -- Azj-Kahet - Lower
+    ns.maps[2346] -- Undermine
 }
 
 for _, m in pairs(maps) do
@@ -545,6 +612,19 @@ local DELVE_REWARDS = {
             criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
         }), Achievement({id = 40533, criteria = {68776, 68777, 68778}}),
         Achievement({id = 40454, oneline = true}) -- Daystormer
+    },
+    ---------------------------------------------------------------------------
+    ['excavation_site_9'] = {
+        Achievement({
+            id = 41100,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 41098, criteria = {70985, 70986, 70987}})
+    },
+    ['side_street_sluice'] = {
+        Achievement({
+            id = 41101,
+            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
+        }), Achievement({id = 41099, criteria = {70988, 70989, 70990}})
     }
 }
 
@@ -562,7 +642,8 @@ local DELVE_AREA_POIS = {
     [7872] = DELVE_REWARDS['the_underkeep'],
     [7873] = DELVE_REWARDS['tek_rethan_abyss'],
     [7874] = DELVE_REWARDS['the_spiral_weave'],
-    -- [7875] = DELVE_REWARDS['zekvirs_lair']
+    [8143] = DELVE_REWARDS['excavation_site_9'],
+    [8140] = DELVE_REWARDS['side_street_sluice'],
     -- BOUNTIFUL DELVES -------------------------------------------------------
     [7779] = DELVE_REWARDS['fungal_folly'],
     [7780] = DELVE_REWARDS['mycomancer_cavern'],
@@ -575,18 +656,21 @@ local DELVE_AREA_POIS = {
     [7787] = DELVE_REWARDS['earthcrawl_mines'],
     [7788] = DELVE_REWARDS['the_dread_pit'],
     [7789] = DELVE_REWARDS['skittering_breach'],
-    [7790] = DELVE_REWARDS['the_spiral_weave']
+    [7790] = DELVE_REWARDS['the_spiral_weave'],
+    [8181] = DELVE_REWARDS['excavation_site_9'],
+    [8246] = DELVE_REWARDS['side_street_sluice']
 }
 
 hooksecurefunc(DelveEntrancePinMixin, 'OnMouseEnter', function(self)
-    if not DELVE_AREA_POIS[self.areaPoiID] then return end
+    local areaPoiID = self.poiInfo.areaPoiID
+    if not DELVE_AREA_POIS[areaPoiID] then return end
     local mapID = self:GetMap().mapID
     local group = ns.groups.DELVE_REWARDS
     if group:GetDisplay(mapID) then
         if (self.description == _G['DELVE_LABEL']) then
             GameTooltip:AddLine(' ')
         end
-        local rewards = DELVE_AREA_POIS[self.areaPoiID]
+        local rewards = DELVE_AREA_POIS[areaPoiID]
         for _, reward in pairs(rewards) do
             if reward and reward:IsEnabled() then
                 reward:Render(GameTooltip)
