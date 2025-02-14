@@ -16,8 +16,10 @@ local IsleOfDorn = ns.maps[2248]
 local RingingDeeps = ns.maps[2214]
 local Hallowfall = ns.maps[2215]
 local AzjKahet = ns.maps[2255]
+-- local Undermine = ns.maps[2346]
 
 local Dornogal = ns.maps[2339]
+
 -------------------------------------------------------------------------------
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
@@ -28,9 +30,7 @@ local Dragonrace = Class('DragonRace', Collectible,
 local DRAGONRIDING_RACE_TYPES = {
     [1] = {type = 'normal', label = L['dr_normal']},
     [2] = {type = 'advanced', label = L['dr_advanced']},
-    [3] = {type = 'reverse', label = L['dr_reverse']},
-    [4] = {type = 'challenge', label = L['dr_challenge']},
-    [5] = {type = 'reverseChallenge', label = L['dr_reverse_challenge']}
+    [3] = {type = 'reverse', label = L['dr_reverse']}
 }
 
 function Dragonrace.getters:sublabel()
@@ -50,100 +50,102 @@ function Dragonrace.getters:sublabel()
     return txt
 end
 
---[[
-function Dragonrace.getters:note()
-    local Silver = ns.color.Silver
-    local Gold = ns.color.Gold
-    local note = L['dr_target_time']
-    local txt = L['dr_your_target_time']
-    for _, race in ipairs(DRAGONRIDING_RACE_TYPES) do
-        if self[race.type] then
-            local label = race.label
-            local sTime = ns.color.Red('??')
-            if self[race.type][2] then
-                sTime = Silver(self[race.type][2])
-            end
-            local gTime = ns.color.Red('??')
-            if self[race.type][3] then
-                gTime = Gold(self[race.type][3])
-            end
-
-            txt = txt .. '\n' .. format(note, label, sTime, gTime)
-        end
-    end
-    return txt .. '\n\n' .. L['dr_bronze']
-end
-]] --
-
 -------------------------------------------------------------------------------
--------------------------------- REWARDS ---------------------------------
+----------------------------------- REWARDS -----------------------------------
 -------------------------------------------------------------------------------
 
-local function IsleOfDorn_Rewards(b) -- basic
+local function IsleOfDorn_Rewards(a)
     local rewards = {
-        Achievement({id = 40316, criteria = b, oneline = true}), -- normal bronze
-        Achievement({id = 40317, criteria = b, oneline = true}), -- normal silver
-        Achievement({id = 40318, criteria = b, oneline = true}), -- normal gold
-        Achievement({id = 40319, criteria = b, oneline = true}), -- advanced bronze
-        Achievement({id = 40320, criteria = b, oneline = true}), -- advanced silver
-        Achievement({id = 40321, criteria = b, oneline = true}), -- advanced gold
-        Achievement({id = 40322, criteria = b, oneline = true}), -- reverse bronze
-        Achievement({id = 40323, criteria = b, oneline = true}), -- reverse silver
-        Achievement({id = 40324, criteria = b, oneline = true}), -- reverse gold
+        Achievement({id = 40316, criteria = a, oneline = true}), -- normal bronze
+        Achievement({id = 40317, criteria = a, oneline = true}), -- normal silver
+        Achievement({id = 40318, criteria = a, oneline = true}), -- normal gold
+        Achievement({id = 40319, criteria = a, oneline = true}), -- advanced bronze
+        Achievement({id = 40320, criteria = a, oneline = true}), -- advanced silver
+        Achievement({id = 40321, criteria = a, oneline = true}), -- advanced gold
+        Achievement({id = 40322, criteria = a, oneline = true}), -- reverse bronze
+        Achievement({id = 40323, criteria = a, oneline = true}), -- reverse silver
+        Achievement({id = 40324, criteria = a, oneline = true}), -- reverse gold
         Spacer()
     }
     return rewards
 end
 
-local function RingingDeeps_Rewards(b) -- basic
+local function RingingDeeps_Rewards(a)
     local rewards = {
-        Achievement({id = 40325, criteria = b, oneline = true}), -- normal bronze
-        Achievement({id = 40326, criteria = b, oneline = true}), -- normal silver
-        Achievement({id = 40327, criteria = b, oneline = true}), -- normal gold
-        Achievement({id = 40328, criteria = b, oneline = true}), -- advanced bronze
-        Achievement({id = 40329, criteria = b, oneline = true}), -- advanced silver
-        Achievement({id = 40330, criteria = b, oneline = true}), -- advanced gold
-        Achievement({id = 40331, criteria = b, oneline = true}), -- reverse bronze
-        Achievement({id = 40332, criteria = b, oneline = true}), -- reverse silver
-        Achievement({id = 40333, criteria = b, oneline = true}), -- reverse gold
+        Achievement({id = 40325, criteria = a, oneline = true}), -- normal bronze
+        Achievement({id = 40326, criteria = a, oneline = true}), -- normal silver
+        Achievement({id = 40327, criteria = a, oneline = true}), -- normal gold
+        Achievement({id = 40328, criteria = a, oneline = true}), -- advanced bronze
+        Achievement({id = 40329, criteria = a, oneline = true}), -- advanced silver
+        Achievement({id = 40330, criteria = a, oneline = true}), -- advanced gold
+        Achievement({id = 40331, criteria = a, oneline = true}), -- reverse bronze
+        Achievement({id = 40332, criteria = a, oneline = true}), -- reverse silver
+        Achievement({id = 40333, criteria = a, oneline = true}), -- reverse gold
         Spacer()
     }
     return rewards
 end
 
-local function Hallowfall_Rewards(b) -- basic
+local function Hallowfall_Rewards(a)
     local rewards = {
-        Achievement({id = 40334, criteria = b, oneline = true}), -- normal bronze
-        Achievement({id = 40335, criteria = b, oneline = true}), -- normal silver
-        Achievement({id = 40336, criteria = b, oneline = true}), -- normal gold
-        Achievement({id = 40337, criteria = b, oneline = true}), -- advanced bronze
-        Achievement({id = 40338, criteria = b, oneline = true}), -- advanced silver
-        Achievement({id = 40339, criteria = b, oneline = true}), -- advanced gold
-        Achievement({id = 40340, criteria = b, oneline = true}), -- reverse bronze
-        Achievement({id = 40341, criteria = b, oneline = true}), -- reverse silver
-        Achievement({id = 40342, criteria = b, oneline = true}), -- reverse gold
+        Achievement({id = 40334, criteria = a, oneline = true}), -- normal bronze
+        Achievement({id = 40335, criteria = a, oneline = true}), -- normal silver
+        Achievement({id = 40336, criteria = a, oneline = true}), -- normal gold
+        Achievement({id = 40337, criteria = a, oneline = true}), -- advanced bronze
+        Achievement({id = 40338, criteria = a, oneline = true}), -- advanced silver
+        Achievement({id = 40339, criteria = a, oneline = true}), -- advanced gold
+        Achievement({id = 40340, criteria = a, oneline = true}), -- reverse bronze
+        Achievement({id = 40341, criteria = a, oneline = true}), -- reverse silver
+        Achievement({id = 40342, criteria = a, oneline = true}), -- reverse gold
         Spacer()
     }
     return rewards
 end
 
-local function AzjKahet_Rewards(b) -- basic
+local function AzjKahet_Rewards(a)
     local rewards = {
-        Achievement({id = 40343, criteria = b, oneline = true}), -- normal bronze
-        Achievement({id = 40344, criteria = b, oneline = true}), -- normal silver
-        Achievement({id = 40345, criteria = b, oneline = true}), -- normal gold
-        Achievement({id = 40346, criteria = b, oneline = true}), -- advanced bronze
-        Achievement({id = 40347, criteria = b, oneline = true}), -- advanced silver
-        Achievement({id = 40348, criteria = b, oneline = true}), -- advanced gold
-        Achievement({id = 40349, criteria = b, oneline = true}), -- reverse bronze
-        Achievement({id = 40350, criteria = b, oneline = true}), -- reverse silver
-        Achievement({id = 40351, criteria = b, oneline = true}), -- reverse gold
+        Achievement({id = 40343, criteria = a, oneline = true}), -- normal bronze
+        Achievement({id = 40344, criteria = a, oneline = true}), -- normal silver
+        Achievement({id = 40345, criteria = a, oneline = true}), -- normal gold
+        Achievement({id = 40346, criteria = a, oneline = true}), -- advanced bronze
+        Achievement({id = 40347, criteria = a, oneline = true}), -- advanced silver
+        Achievement({id = 40348, criteria = a, oneline = true}), -- advanced gold
+        Achievement({id = 40349, criteria = a, oneline = true}), -- reverse bronze
+        Achievement({id = 40350, criteria = a, oneline = true}), -- reverse silver
+        Achievement({id = 40351, criteria = a, oneline = true}), -- reverse gold
         Spacer()
     }
     return rewards
 end
+
+-- local function Undermine_Skyrocketing_Rewards(a, b)
+--     local rewards = {
+--         Achievement({id = 40936, criteria = a, oneline = true}), -- normal bronze
+--         Achievement({id = 40937, criteria = a, oneline = true}), -- normal silver
+--         Achievement({id = 40938, criteria = a, oneline = true}), -- normal gold
+--         Achievement({id = 40936, criteria = b, oneline = true}), -- reverse bronze
+--         Achievement({id = 40937, criteria = b, oneline = true}), -- reverse silver
+--         Achievement({id = 40938, criteria = b, oneline = true}), -- reverse gold
+--         Spacer()
+--     }
+--     return rewards
+-- end
+
+-- local function Undermine_Breaknecking_Rewards(a, b)
+--     local rewards = {
+--         Achievement({id = 41081, criteria = a, oneline = true}), -- normal bronze
+--         Achievement({id = 41083, criteria = a, oneline = true}), -- normal silver
+--         Achievement({id = 41084, criteria = a, oneline = true}), -- normal gold
+--         Achievement({id = 41081, criteria = b, oneline = true}), -- reverse bronze
+--         Achievement({id = 41083, criteria = b, oneline = true}), -- reverse silver
+--         Achievement({id = 41084, criteria = b, oneline = true}), -- reverse gold
+--         Spacer()
+--     }
+--     return rewards
+-- end
+
 -------------------------------------------------------------------------------
--------------------------------- TWW ---------------------------------
+-------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
 Dornogal.nodes[43471165] = Dragonrace({
@@ -195,7 +197,7 @@ IsleOfDorn.nodes[32937483] = Dragonrace({
     rewards = IsleOfDorn_Rewards(6)
 }) -- Orecreg's Doglegs
 
-RingingDeeps.nodes[40861131] = Dragonrace({
+RingingDeeps.nodes[36701131] = Dragonrace({
     label = '{quest:80237}',
     normal = {2941, 0, 0},
     advanced = {2947, 0, 0},
@@ -203,7 +205,11 @@ RingingDeeps.nodes[40861131] = Dragonrace({
     rewards = RingingDeeps_Rewards(1)
 }) -- Earthenworks Weave
 
-RingingDeeps.nodes[42232744] = Dragonrace({
+-------------------------------------------------------------------------------
+-------------------------------- RINGING DEEPS --------------------------------
+-------------------------------------------------------------------------------
+
+RingingDeeps.nodes[38072744] = Dragonrace({
     label = '{quest:80238}',
     normal = {2942, 0, 0},
     advanced = {2948, 0, 0},
@@ -211,7 +217,7 @@ RingingDeeps.nodes[42232744] = Dragonrace({
     rewards = RingingDeeps_Rewards(2)
 }) -- Ringing Deeps Ramble
 
-RingingDeeps.nodes[67913479] = Dragonrace({
+RingingDeeps.nodes[63753479] = Dragonrace({
     label = '{quest:80239}',
     normal = {2943, 0, 0},
     advanced = {2949, 0, 0},
@@ -219,7 +225,7 @@ RingingDeeps.nodes[67913479] = Dragonrace({
     rewards = RingingDeeps_Rewards(3)
 }) -- Chittering Concourse
 
-RingingDeeps.nodes[52474686] = Dragonrace({
+RingingDeeps.nodes[48314686] = Dragonrace({
     label = '{quest:80240}',
     normal = {2944, 0, 0},
     advanced = {2950, 0, 0},
@@ -227,7 +233,7 @@ RingingDeeps.nodes[52474686] = Dragonrace({
     rewards = RingingDeeps_Rewards(4)
 }) -- Cataract River Cruise
 
-RingingDeeps.nodes[66646868] = Dragonrace({
+RingingDeeps.nodes[62486868] = Dragonrace({
     label = '{quest:80242}',
     normal = {2945, 0, 0},
     advanced = {2951, 0, 0},
@@ -235,13 +241,17 @@ RingingDeeps.nodes[66646868] = Dragonrace({
     rewards = RingingDeeps_Rewards(5)
 }) -- Taelloch Twist
 
-RingingDeeps.nodes[63557513] = Dragonrace({
+RingingDeeps.nodes[59397513] = Dragonrace({
     label = '{quest:80243}',
     normal = {2946, 0, 0},
     advanced = {2952, 0, 0},
     reverse = {2958, 0, 0},
     rewards = RingingDeeps_Rewards(6)
 }) -- Opportunity Point Amble
+
+-------------------------------------------------------------------------------
+--------------------------------- HALLOWFALL ----------------------------------
+-------------------------------------------------------------------------------
 
 Hallowfall.nodes[72783842] = Dragonrace({
     label = '{quest:80256}',
@@ -291,6 +301,10 @@ Hallowfall.nodes[54131740] = Dragonrace({
     rewards = Hallowfall_Rewards(6)
 }) -- Velhan's Venture
 
+-------------------------------------------------------------------------------
+---------------------------------- AZJ-KAHET ----------------------------------
+-------------------------------------------------------------------------------
+
 AzjKahet.nodes[40756780] = Dragonrace({
     label = '{quest:80277}',
     normal = {2977, 0, 0},
@@ -338,3 +352,67 @@ AzjKahet.nodes[40183220] = Dragonrace({
     reverse = {2994, 0, 0},
     rewards = AzjKahet_Rewards(6)
 }) -- Siegehold Scuttle
+
+-------------------------------------------------------------------------------
+---------------------------------- UNDERMINE ----------------------------------
+-------------------------------------------------------------------------------
+
+-------------------------------- SKYROCKETING ---------------------------------
+
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Skyrocketing_Rewards(1, 2)
+-- }) -- Skyrocketing Sprint
+
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Skyrocketing_Rewards(2, 4)
+-- }) -- The Heaps Leap
+
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Skyrocketing_Rewards(5, 6)
+-- }) -- Scrapshop Shot
+
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Skyrocketing_Rewards(7, 8)
+-- }) -- Rags to Riches Rush
+
+-------------------------------- BREAKNECKING ---------------------------------
+
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Breaknecking_Rewards(1, 2)
+-- }) -- Breakneck Bolt
+
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Breaknecking_Rewards(3, 4)
+-- }) -- Junkyard Jaunt
+
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Breaknecking_Rewards(5, 6)
+-- }) -- Casino Cruise
+
+-- Undermine.nodes[00000000] = Dragonrace({
+--     label = '{quest:99999}',
+--     normal = {0, 0, 0},
+--     reverse = {0, 0, 0},
+--     rewards = Undermine_Breaknecking_Rewards(7, 8)
+-- }) -- Sandy Scuttle

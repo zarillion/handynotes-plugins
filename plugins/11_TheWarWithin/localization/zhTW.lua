@@ -348,6 +348,7 @@ L['tsw_chest_4_location'] = '在橫樑上. 從有其他箱子的柱子往下.'
 L['tuk_chest_1_note'] = '在雕像後方.'
 L['tuk_chest_2_note'] = '{note:只能在 "逃跑者進化" 和 "折磨受害者" 故事劇情取得.}'
 L['tuk_chest_3_note'] = '{note:只能在 "逃跑者進化" 和 "織絲者救援" 故事劇情取得.}'
+L['sss_chest_2_location'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
@@ -564,3 +565,47 @@ L['code_label'] = nil
 L['orb_9_label'] = nil
 
 L['ak_decryption_console_note'] = nil
+
+-------------------------------------------------------------------------------
+---------------------------------- UNDERMINE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['complete_quest'] = nil
+L['in_sewer'] = nil
+L['and_slimesby'] = nil
+
+L['inert_plunger_label'] = nil
+L['exploded_plunger_label'] = nil
+
+L['unexploded_fireworks_location'] = nil
+L['suspicious_book_note'] = nil
+L['fireworks_hat_note'] = nil
+L['blackened_dice_note'] = nil
+L['lonely_tub_note'] = nil
+L['impotent_potable_location'] = nil
+L['abandoned_toolbox_location'] = nil
+L['trick_deck_of_cards_location'] = nil
+
+L['ditty_fuzeboy_note'] = nil
+L['angelo_rustbin_note'] = nil
+
+L['options_icons_nine_tenths'] = '{achievement:40948}'
+L['options_icons_nine_tenths_desc'] = nil
+L['muffs_auto_locker_label'] = nil
+L['muffs_auto_locker_note'] = nil
+L['muffs_auto_locker_suffix'] = nil
+
+L['options_icons_between_the_lines'] = '{achievement:41588}'
+L['options_icons_between_the_lines_desc'] = nil
+L['a_threatening_letter_location'] = nil
+L['gallywixs_notes_location'] = nil
+
+L['options_icons_can_do_attitude'] = '{achievement:41589}'
+L['options_icons_can_do_attitude_desc'] = nil
+L['discarded_can_label'] = '{npc:237103}'
+L['discarded_can_note'] = nil
+L['discarded_can_suffix'] = nil
+
+L['options_icons_scrap_rewards'] = nil
+L['options_icons_scrap_rewards_desc'] = nil
+L['scrap_heap_suffix'] = nil
