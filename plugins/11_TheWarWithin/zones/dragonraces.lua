@@ -197,7 +197,7 @@ IsleOfDorn.nodes[32937483] = Dragonrace({
     rewards = IsleOfDorn_Rewards(6)
 }) -- Orecreg's Doglegs
 
-RingingDeeps.nodes[40861131] = Dragonrace({
+RingingDeeps.nodes[36701131] = Dragonrace({
     label = '{quest:80237}',
     normal = {2941, 0, 0},
     advanced = {2947, 0, 0},
@@ -209,7 +209,7 @@ RingingDeeps.nodes[40861131] = Dragonrace({
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------
 
-RingingDeeps.nodes[42232744] = Dragonrace({
+RingingDeeps.nodes[38072744] = Dragonrace({
     label = '{quest:80238}',
     normal = {2942, 0, 0},
     advanced = {2948, 0, 0},
@@ -217,7 +217,7 @@ RingingDeeps.nodes[42232744] = Dragonrace({
     rewards = RingingDeeps_Rewards(2)
 }) -- Ringing Deeps Ramble
 
-RingingDeeps.nodes[67913479] = Dragonrace({
+RingingDeeps.nodes[63753479] = Dragonrace({
     label = '{quest:80239}',
     normal = {2943, 0, 0},
     advanced = {2949, 0, 0},
@@ -225,7 +225,7 @@ RingingDeeps.nodes[67913479] = Dragonrace({
     rewards = RingingDeeps_Rewards(3)
 }) -- Chittering Concourse
 
-RingingDeeps.nodes[52474686] = Dragonrace({
+RingingDeeps.nodes[48314686] = Dragonrace({
     label = '{quest:80240}',
     normal = {2944, 0, 0},
     advanced = {2950, 0, 0},
@@ -233,7 +233,7 @@ RingingDeeps.nodes[52474686] = Dragonrace({
     rewards = RingingDeeps_Rewards(4)
 }) -- Cataract River Cruise
 
-RingingDeeps.nodes[66646868] = Dragonrace({
+RingingDeeps.nodes[62486868] = Dragonrace({
     label = '{quest:80242}',
     normal = {2945, 0, 0},
     advanced = {2951, 0, 0},
@@ -241,7 +241,7 @@ RingingDeeps.nodes[66646868] = Dragonrace({
     rewards = RingingDeeps_Rewards(5)
 }) -- Taelloch Twist
 
-RingingDeeps.nodes[63557513] = Dragonrace({
+RingingDeeps.nodes[59397513] = Dragonrace({
     label = '{quest:80243}',
     normal = {2946, 0, 0},
     advanced = {2952, 0, 0},
