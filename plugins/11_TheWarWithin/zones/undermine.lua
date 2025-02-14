@@ -468,7 +468,7 @@ local UndermineLoreBook = Class('UndermineLoreBook', Collectible, {
     group = ns.groups.BETWEEN_THE_LINES
 })
 
-trd.nodes[77067315] = UndermineLoreBook({
+trd.nodes[72907315] = UndermineLoreBook({
     quest = 86570,
     rewards = {Achievement({id = 41588, criteria = 103107})}
 }) -- Rocket Drill Safety Manual
@@ -494,7 +494,7 @@ map.nodes[32805895] = UndermineLoreBook({
     rewards = {Achievement({id = 41588, criteria = 103109})}
 }) -- Second Half of Noggenfogger's Journal
 
-trd.nodes[71419808] = UndermineLoreBook({
+trd.nodes[67259808] = UndermineLoreBook({
     quest = 86569,
     rewards = {Achievement({id = 41588, criteria = 103110})}
 }) -- Extractor Drill X-78 Safety Guide
