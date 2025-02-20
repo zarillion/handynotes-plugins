@@ -349,7 +349,7 @@ L['tsw_chest_4_location'] = 'Высоко на балке. Спрыгни со �
 L['tuk_chest_1_note'] = 'За статуей.'
 L['tuk_chest_2_note'] = '{note:Доступно только в вариантах сюжета "Ошеломительная эволюция" и "Жертвы пыток".}'
 L['tuk_chest_3_note'] = '{note:Доступно только в вариантах сюжета "Ошеломительная эволюция" и "Спасение Прядильщицы".}'
-L['sss_chest_2_location'] = nil
+L['sss_chest_2_location'] = 'По металлической балке.'
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
@@ -571,42 +571,42 @@ L['ak_decryption_console_note'] = 'Возвращаемся в скрытую п
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['complete_quest'] = nil
-L['in_sewer'] = nil
-L['and_slimesby'] = nil
+L['complete_quest'] = 'Выполните {quest:%d}, чтобы призвать.'
+L['in_sewer'] = 'Within the sewer. Use the nearby {object:Sewer Grate} to enter.'
+L['and_slimesby'] = 'и {npc:230947}'
 
-L['inert_plunger_label'] = nil
-L['exploded_plunger_label'] = nil
+L['inert_plunger_label'] = 'Inert Plunger?'
+L['exploded_plunger_label'] = 'Взорвавшийся поршень'
 
-L['unexploded_fireworks_location'] = nil
-L['suspicious_book_note'] = nil
-L['fireworks_hat_note'] = nil
-L['blackened_dice_note'] = nil
-L['lonely_tub_note'] = nil
-L['impotent_potable_location'] = nil
-L['abandoned_toolbox_location'] = nil
-L['trick_deck_of_cards_location'] = nil
+L['unexploded_fireworks_location'] = 'On the roof of {location:Tailgate Park}.'
+L['suspicious_book_note'] = '1. {dot:Red} Спрятан на книжном шкафу на первом этаже. Попытайтесь его подобрать, и он полетит на новый книжный шкаф наверху.\n\n2. {dot:Green} Спрятан за книжным шкафом на втором этаже. Попытайтесь его подобрать, и он полетит на стол наверху.\n\n3. На столе на третьем этаже. Наконец, заберите книгу!'
+L['fireworks_hat_note'] = 'Попытайтесь схватить шляпу, заставив ее улететь с крыши и приземлиться здесь.'
+L['blackened_dice_note'] = 'Turn the nearby {object:Pipe Valve} to release the dice.'
+L['lonely_tub_note'] = 'Grab the nearby {object:Fire Extinguisher} ({dot:Blue}) to put out the flames on the {object:Lonely Tub}.'
+L['impotent_potable_location'] = 'Below the dock next to the {location:Plunder Party}'
+L['abandoned_toolbox_location'] = 'Высоко на крыше {location:Хламовская}.\n\nСледуйте по лестнице наверх.'
+L['trick_deck_of_cards_location'] = 'On the desk next to {npc:231045} inside {location:The Incontinental Hotel}.'
 
-L['ditty_fuzeboy_note'] = nil
-L['angelo_rustbin_note'] = nil
+L['ditty_fuzeboy_note'] = 'Обмен {item:234741} на питомцев.'
+L['angelo_rustbin_note'] = 'Обменяйте {currency:3220} на питомцев и настройки к {object:Стремглав G-99}.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
-L['options_icons_nine_tenths_desc'] = nil
-L['muffs_auto_locker_label'] = nil
-L['muffs_auto_locker_note'] = nil
-L['muffs_auto_locker_suffix'] = nil
+L['options_icons_nine_tenths_desc'] = 'Показать все местоположения {object:Автозапирателей Недотепы} для {achievement:40948}.'
+L['muffs_auto_locker_label'] = 'Автозапиратель Недотепы'
+L['muffs_auto_locker_note'] = 'Соберите все 5 частей Гориллиона и выполните {quest:87406}, чтобы получить {item:232843}.'
+L['muffs_auto_locker_suffix'] = 'Автозапиратель Недотепы открыт'
 
 L['options_icons_between_the_lines'] = '{achievement:41588}'
-L['options_icons_between_the_lines_desc'] = nil
-L['a_threatening_letter_location'] = nil
-L['gallywixs_notes_location'] = nil
+L['options_icons_between_the_lines_desc'] = 'Показать расположение книг для {achievement:41588}.'
+L['a_threatening_letter_location'] = 'On the bottom floor of {location:Steamwheedle Laboratories} beneath the staircase.'
+L['gallywixs_notes_location'] = 'On a table in the back of {location:The Hoardroom}.'
 
 L['options_icons_can_do_attitude'] = '{achievement:41589}'
-L['options_icons_can_do_attitude_desc'] = nil
+L['options_icons_can_do_attitude_desc'] = 'Показать {npc:237103} местоположения для {achievement:41589}.'
 L['discarded_can_label'] = '{npc:237103}'
-L['discarded_can_note'] = nil
-L['discarded_can_suffix'] = nil
+L['discarded_can_note'] = 'Пните {npc:237103} несколько раз.'
+L['discarded_can_suffix'] = 'банки пнули'
 
-L['options_icons_scrap_rewards'] = nil
-L['options_icons_scrap_rewards_desc'] = nil
-L['scrap_heap_suffix'] = nil
+L['options_icons_scrap_rewards'] = 'Горы ХЛАМа'
+L['options_icons_scrap_rewards_desc'] = 'Показать награды за {object:Горы ХЛАМа}.'
+L['scrap_heap_suffix'] = 'Горы ХЛАМа завершены'
