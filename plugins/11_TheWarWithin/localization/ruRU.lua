@@ -572,7 +572,7 @@ L['ak_decryption_console_note'] = 'Возвращаемся в скрытую п
 -------------------------------------------------------------------------------
 
 L['complete_quest'] = 'Выполните {quest:%d}, чтобы призвать.'
-L['in_sewer'] = 'Within the sewer. Use the nearby {object:Sewer Grate} to enter.'
+L['in_sewer'] = 'В канализации. Используйте близлежащую {object:Канализационную решетку}, чтобы войти.'
 L['and_slimesby'] = 'и {npc:230947}'
 
 L['inert_plunger_label'] = 'Inert Plunger?'
@@ -598,8 +598,8 @@ L['muffs_auto_locker_suffix'] = 'Автозапиратель Недотепы �
 
 L['options_icons_between_the_lines'] = '{achievement:41588}'
 L['options_icons_between_the_lines_desc'] = 'Показать расположение книг для {achievement:41588}.'
-L['a_threatening_letter_location'] = 'On the bottom floor of {location:Steamwheedle Laboratories} beneath the staircase.'
-L['gallywixs_notes_location'] = 'On a table in the back of {location:The Hoardroom}.'
+L['a_threatening_letter_location'] = 'На нижнем этаже {location:Лаборатории Хитрой Шестеренки} под лестницей.'
+L['gallywixs_notes_location'] = 'На столе в задней части {location:Большого скопа}.'
 
 L['options_icons_can_do_attitude'] = '{achievement:41589}'
 L['options_icons_can_do_attitude_desc'] = 'Показать {npc:237103} местоположения для {achievement:41589}.'
