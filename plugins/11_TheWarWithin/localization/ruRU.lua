@@ -605,7 +605,7 @@ L['options_icons_can_do_attitude'] = '{achievement:41589}'
 L['options_icons_can_do_attitude_desc'] = 'Показать {npc:237103} местоположения для {achievement:41589}.'
 L['discarded_can_label'] = '{npc:237103}'
 L['discarded_can_note'] = 'Пните {npc:237103} несколько раз.'
-L['discarded_can_suffix'] = 'банки пнули'
+L['discarded_can_suffix'] = 'банок пнули'
 
 L['options_icons_scrap_rewards'] = 'Горы ХЛАМа'
 L['options_icons_scrap_rewards_desc'] = 'Показать награды за {object:Горы ХЛАМа}.'
