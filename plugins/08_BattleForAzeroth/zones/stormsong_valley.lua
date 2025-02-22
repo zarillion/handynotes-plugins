@@ -617,8 +617,6 @@ local honeyback = Class('Honeyback', NPC, {
     }
 })
 
-
-
 map.nodes[25667224] = honeyback()
 map.nodes[33053243] = honeyback()
 map.nodes[40936214] = honeyback()
