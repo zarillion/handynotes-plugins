@@ -571,8 +571,8 @@ L['ak_decryption_console_note'] = 'Retournez à l\'entrée du trou caché dans l
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['requires_ally'] = nil
-L['complete_event'] = nil
+L['requires_ally'] = '{note:Vous devez être allié à la faction |cFFFFFF00{faction:%d}|r.}'
+L['complete_event'] = 'Parlez au PNJ nommé {npc:%d} et terminez l\'événement pour l\'invoquer.'
 L['in_sewer'] = 'Dans les égouts. Utilisez la {object:Grille d\'égout} à proximité pour y entrer.'
 L['and_slimesby'] = 'et {npc:230947}'
 
