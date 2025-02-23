@@ -409,7 +409,8 @@ local function GetScrapRewards(criteriaID)
             id = 41592,
             criteria = {id = 1, qty = true, suffix = L['scrap_heap_suffix']}
         }), -- Absolutely Zero Littering
-        Achievement({id = 41594, oneline = true})
+        Achievement({id = 41594, oneline = true}),
+        Mount({item = 229953, id = 2291}) -- Salvaged Goblin Gazillionaire's Flying Machine
     }
 end
 
