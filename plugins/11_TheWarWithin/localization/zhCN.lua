@@ -570,7 +570,8 @@ L['ak_decryption_console_note'] = '回到隐藏的洞穴，入口位于 {locatio
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['complete_quest'] = '完成 {quest:%d} 以召唤。'
+L['requires_ally'] = nil
+L['complete_event'] = nil
 L['in_sewer'] = '在下水道内。使用附近的 {object:下水道栅栏} 进入。'
 L['and_slimesby'] = '和 {npc:230947}'
 

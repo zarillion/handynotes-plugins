@@ -573,7 +573,8 @@ L['ak_decryption_console_note'] = 'Zurück in der versteckten Höhle im {locatio
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['complete_quest'] = 'Schließe die Quest {quest:%d} ab, damit der seltenen Gegner erscheint.' -- review
+L['requires_ally'] = nil
+L['complete_event'] = nil
 L['in_sewer'] = 'In der Kanalisation. Betrete diese durch das {object:Kanalisationgitter} in der Nähe.'
 L['and_slimesby'] = 'und {npc:230947}'
 

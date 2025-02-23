@@ -15,6 +15,7 @@ local WorldsoulMemory = ns.node.WorldsoulMemory
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Reputation = ns.reward.Reputation
 local Toy = ns.reward.Toy
@@ -180,39 +181,70 @@ map.nodes[60580989] = Rare({
 
 map.nodes[40002232] = Rare({
     id = 234480,
-    note = format(L['complete_quest'], 86414), -- ![Magno-Scrapper 9000]
+    note = format(L['complete_event'], 234819), -- Ragzy Cashgrab
     quest = 86298,
-    rewards = {Achievement({id = 41216, criteria = 71608})}
+    requires = {
+        ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
+    },
+    rewards = {
+        Achievement({id = 41216, criteria = 71608}),
+        Transmog({item = 235318, slot = L['legs']}) -- Ironfang Plate Legguards
+    },
+    sublabel = format(L['requires_ally'], 2673) -- Bilgewater Cartel
 }) -- M.A.G.N.O.
 
 map.nodes[32027652] = Rare({
     id = 234499,
-    note = format(L['complete_quest'], 86390), -- ![Noggenfogger Nuisance]
+    note = format(L['complete_event'], 234751), -- Noggenfogger Recall Technician
     quest = 86307,
-    rewards = {Achievement({id = 41216, criteria = 71609})}
+    requires = {
+        ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
+    },
+    rewards = {Achievement({id = 41216, criteria = 71609})},
+    sublabel = format(L['requires_ally'], 2677) -- Steamwheedle Cartel
 }) -- Giovante
 
 map.nodes[57207860] = Rare({
     id = 233471,
-    note = format(L['complete_quest'], 86431), -- ![Scrapchewer]
+    note = format(L['complete_event'], 236035), -- Scrapminer Krazzik
     quest = 86431,
-    rewards = {Achievement({id = 41216, criteria = 71610})}
+    requires = {
+        ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
+    },
+    rewards = {
+        Achievement({id = 41216, criteria = 71610}),
+        Transmog({item = 235829, slot = L['helm']}) -- Welded Scrap Hood
+    },
+    sublabel = format(L['requires_ally'], 2671) -- Venture Company
 }) -- Scrapchewer
 
 map.nodes[64162556] = Rare({
     id = 233472,
-    note = format(L['complete_quest'], 86428), -- ![Voltstrike the Charged]
+    note = format(L['complete_event'], 234834), -- Boatwright Frankle
     quest = 86428,
-    rewards = {Achievement({id = 41216, criteria = 71611})}
+    requires = {
+        ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
+    },
+    rewards = {
+        Achievement({id = 41216, criteria = 71611}),
+        Transmog({item = 235827, slot = L['chest']}) -- Statically Charged Vest
+    },
+    sublabel = format(L['requires_ally'], 2675) -- Blackwater Cartel
 }) -- Volstrike the Charged
 
--- map.nodes[00000000] = Rare({
---     id = 231310,
---     quest = nil,
---     rewards = {
---         Achievement({id = 41216, criteria = 71612})
---     }
--- }) -- Darkfuse Precipitant
+map.nodes[40209190] = Rare({
+    id = 231310,
+    note = format(L['complete_event'], 231329), -- De-Pollution Station X1119
+    quest = nil,
+    requires = {
+        ns.requirement.Reputation(2653, 6, true), -- The Cartels of Undermine
+        ns.requirement.Item(229823) -- Canister of Darkfuse Solution
+    },
+    rewards = {
+        Achievement({id = 41216, criteria = 71612}),
+        Mount({item = 229955, id = 2293}) -- Darkfuse Spy-Eye
+    }
+}) -- Darkfuse Precipitant
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

@@ -570,7 +570,8 @@ L['ak_decryption_console_note'] = 'Back to the hidden hole, entrance within the 
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['complete_quest'] = 'Complete {quest:%d} to summon.'
+L['requires_ally'] = '{note:Must be allied with |cFFFFFF00{faction:%d}|r.}'
+L['complete_event'] = 'Speak with {npc:%d} and complete the event to summon.'
 L['in_sewer'] = 'Within the sewer. Use the nearby {object:Sewer Grate} to enter.'
 L['and_slimesby'] = 'and {npc:230947}'
 

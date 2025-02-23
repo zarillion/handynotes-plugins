@@ -570,7 +570,8 @@ L['ak_decryption_console_note'] = 'Regresa a la entrada del agujero oculto dentr
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['complete_quest'] = 'Completa la misión {quest:%d} para invocar.'
+L['requires_ally'] = nil
+L['complete_event'] = nil
 L['in_sewer'] = 'Dentro de la cloaca. Usa la {object:Rejilla de cloaca} cercana para entrar.'
 L['and_slimesby'] = 'y {npc:230947}'
 

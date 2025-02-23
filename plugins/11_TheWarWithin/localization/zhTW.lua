@@ -570,7 +570,8 @@ L['ak_decryption_console_note'] = nil
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['complete_quest'] = nil
+L['requires_ally'] = nil
+L['complete_event'] = nil
 L['in_sewer'] = nil
 L['and_slimesby'] = nil
 
