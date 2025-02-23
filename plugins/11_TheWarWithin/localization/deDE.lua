@@ -351,7 +351,7 @@ L['tsw_chest_4_location'] = 'Oben auf dem Balken. Springe von der Säule runter,
 L['tuk_chest_1_note'] = 'Hinter der Statue.'
 L['tuk_chest_2_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Folteropfer" verfügbar.}'
 L['tuk_chest_3_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Weberrettung" verfügbar.}'
-L['sss_chest_2_location'] = nil
+L['sss_chest_2_location'] = 'Über dem Metallträger.' -- review
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
@@ -573,8 +573,8 @@ L['ak_decryption_console_note'] = 'Zurück in der versteckten Höhle im {locatio
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['requires_ally'] = nil
-L['complete_event'] = nil
+L['requires_ally'] = '{note:Benötigt ein Bündnis mit |cFFFFFF00{faction:%d}|r.}' --review
+L['complete_event'] = 'Spreche mit {npc:%d} und schließe das Event ab, damit der seltene Gegner erscheint.'
 L['in_sewer'] = 'In der Kanalisation. Betrete diese durch das {object:Kanalisationgitter} in der Nähe.'
 L['and_slimesby'] = 'und {npc:230947}'
 
