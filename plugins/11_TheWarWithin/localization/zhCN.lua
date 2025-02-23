@@ -348,6 +348,7 @@ L['tsw_chest_4_location'] = '在横梁上。从另一个宝箱附近的柱子上
 L['tuk_chest_1_note'] = '雕像后面。'
 L['tuk_chest_2_note'] = '{note:仅在“逃亡的进化体”和“煎熬受害者”故事变种。}'
 L['tuk_chest_3_note'] = '{note:仅在“逃亡的进化体”和“纺丝者救援”故事变种。}'
+L['sss_chest_2_location'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
@@ -564,3 +565,47 @@ L['code_label'] = '将 %d 个雕像置于 %s'
 L['orb_9_label'] = '9号球'
 
 L['ak_decryption_console_note'] = '回到隐藏的洞穴，入口位于 {location:艾基-卡赫特} 的 {location:沃什柱巢} 洞穴内。\n\n装备 {item:228966} 将揭示一个隐藏的平台。\n\n目标为 {npc:230383} 并使用 {item:228996} 到达那里。输入密码解锁并打开 {object:加密的宝箱} 从中获得 {item:229348}。\n\n{object:密码}：84847078'
+
+-------------------------------------------------------------------------------
+---------------------------------- UNDERMINE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['complete_quest'] = '完成 {quest:%d} 以召唤。'
+L['in_sewer'] = '在下水道内。使用附近的 {object:下水道栅栏} 进入。'
+L['and_slimesby'] = '和 {npc:230947}'
+
+L['inert_plunger_label'] = '无力的马桶搋子？'
+L['exploded_plunger_label'] = '爆炸的马桶搋子'
+
+L['unexploded_fireworks_location'] = '在 {location:尾门公园} 的屋顶上。'
+L['suspicious_book_note'] = '1. {dot:Red} 隐藏在一楼的书架上。尝试收集它，它会飞到楼上的新书架上。\n\n2. {dot:Green} 隐藏在二楼的书架后面。尝试收集它，它会飞到楼上的桌子上。\n\n3. 在三楼的桌子上。最后，收集这本书！'
+L['fireworks_hat_note'] = '尝试抓住帽子，导致它从屋顶飞到这里。'
+L['blackened_dice_note'] = '转动附近的 {object:管道阀门} 以释放骰子。'
+L['lonely_tub_note'] = '拿起附近的 {object:灭火器}（{dot:Blue}）来扑灭 {object:孤独浴缸} 上的火焰。'
+L['impotent_potable_location'] = '在码头下方，靠近 {location:掠夺派对}'
+L['abandoned_toolbox_location'] = '在 {location:废品店} 的屋顶高处。\n\n跟随楼梯到顶部。'
+L['trick_deck_of_cards_location'] = '在 {location:大陆酒店} 内 {npc:231045} 旁边的桌子上。'
+
+L['ditty_fuzeboy_note'] = '用 {item:234741} 交换宠物。'
+L['angelo_rustbin_note'] = '用 {currency:3220} 交换宠物和 {object:G-99 极速} 自定义选项。'
+
+L['options_icons_nine_tenths'] = '{achievement:40948}'
+L['options_icons_nine_tenths_desc'] = '显示 {achievement:40948} 的所有 {object:马夫的自锁箱} 位置。'
+L['muffs_auto_locker_label'] = '马夫的自锁箱'
+L['muffs_auto_locker_note'] = '收集所有 5 个 Gorillion 部件并完成 {quest:87406} 以制作 {item:232843}。'
+L['muffs_auto_locker_suffix'] = '马夫的自锁箱已打开'
+
+L['options_icons_between_the_lines'] = '{achievement:41588}'
+L['options_icons_between_the_lines_desc'] = '显示 {achievement:41588} 的书籍位置。'
+L['a_threatening_letter_location'] = '在 {location:蒸汽轮实验室} 的底层楼梯下。'
+L['gallywixs_notes_location'] = '在 {location:藏宝室} 后面的桌子上。'
+
+L['options_icons_can_do_attitude'] = '{achievement:41589}'
+L['options_icons_can_do_attitude_desc'] = '显示 {achievement:41589} 的 {npc:237103} 位置。'
+L['discarded_can_label'] = '{npc:237103}'
+L['discarded_can_note'] = '踢几次 {npc:237103}。'
+L['discarded_can_suffix'] = '罐头被踢'
+
+L['options_icons_scrap_rewards'] = 'S.C.R.A.P. 堆'
+L['options_icons_scrap_rewards_desc'] = '显示 {object:S.C.R.A.P. 堆} 的奖励。'
+L['scrap_heap_suffix'] = 'S.C.R.A.P. 任务完成'

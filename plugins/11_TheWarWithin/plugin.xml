@@ -5,9 +5,10 @@
   <Script file="zones\hallowfall.lua"/>
   <Script file="zones\isle_of_dorn.lua"/>
   <Script file="zones\ringing_deeps.lua"/>
+  <Script file="zones\siren_isle.lua"/>
+  <Script file="zones\undermine.lua"/>
   <Script file="zones\delves.lua"/>
   <Script file="zones\dragonraces.lua"/>
   <Script file="zones\secrets_of_azeroth.lua"/>
   <Script file="zones\ratts_revenge.lua"/>
-  <Script file="zones\siren_isle.lua"/>
 </Ui>

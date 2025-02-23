@@ -40,6 +40,11 @@ ns.groups.RATTS_REVENGE = Group('ratts_revenge', 5370377, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.SCRAP_REWARDS = ns.Group('scrap_rewards', 5768266, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
 ns.groups.SKYRIDING_GLYPH = Group('skyriding_glyph', 4728198, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -123,6 +128,12 @@ ns.groups.KHAZ_ALGAR_LORE_HUNTER = Group('khaz_algar_lore_hunter', 4419344, {
     achievement = 40762
 })
 
+ns.groups.CAN_DO_ATTITUDE = Group('can_do_attitude', 236996, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 41589
+})
+
 ns.groups.LOST_AND_FOUND = Group('lost_and_found', 4635200, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -141,6 +152,12 @@ ns.groups.MISSING_LYNX = Group('missing_lynx', 5689905, {
     achievement = 40625
 })
 
+ns.groups.NINE_TENTHS = Group('nine_tenths', 2201832, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 40948
+})
+
 ns.groups.NO_HARM_FROM_READING = Group('no_harm_from_reading', 463284, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -157,6 +174,12 @@ ns.groups.NOTABLE_MACHINES = Group('notable_machines', 1506451, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
     achievement = 40628
+})
+
+ns.groups.BETWEEN_THE_LINES = Group('between_the_lines', 4549129, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 41588
 })
 
 ns.groups.ROCKED_TO_SLEEP = Group('rocked_to_sleep', 5788303, {
@@ -290,9 +313,6 @@ for _, profession in pairs(ns.professions) do
     end
 end
 
--- Herbalism
--- map.nodes[0000] = PT.Herbalism({quest = nil, id = 224265}) -- Deepgrove Rose -- Random Drop 5 per week
-
 -------------------------------------------------------------------------------
 -------------------------------- DISTURBED DIRT -------------------------------
 -------------------------------------------------------------------------------
@@ -305,10 +325,9 @@ ns.node.DisturbedEarth = Class('Disturbed_earth', ns.node.Node, {
     requires = {ns.requirement.Reputation(2594, 2, true)}, -- Assembly of the Deeps Renown 2
     rewards = {
         ns.reward.Item({item = 212493}), -- Odd Glob of Wax
-        ns.reward.Achievement({id = 40585, criteria = {id = 1, qty = true}}) -- Super Size Snuffling
+        Achievement({id = 40585, criteria = {id = 1, qty = true}}) -- Super Size Snuffling
     }
-}) -- Disturbed Earth - Not on Minimap but quite visible from some distance
--- first loot triggered quest 84543 probably not relevant
+}) -- Disturbed Earth
 
 -------------------------------------------------------------------------------
 -------------------- ACHIEVEMENT: KHAZ ALGAR FLIGHT MASTER --------------------
@@ -330,114 +349,50 @@ local WORLDSOUL_REWARDS = {
     [7833] = {
         Achievement({id = 40252, criteria = 67594}), -- Descendants of Distant Waters
         Achievement({id = 40314, criteria = 68241}), -- Echoing Fragment: Hallowfall
-        Achievement({
-            id = 40222,
-            criteria = {
-                67512, -- Hand of Azshara
-                67513, -- Zaniga the Tracker
-                67514, -- Ankoan Champion Utaari
-                67515, -- Gurl the Feaster
-                67516 -- Utmoth the Tidetwister
-            }
-        }) -- Echoes of Danger
+        Achievement({id = 40222, criteria = {67512, 67513, 67514, 67515, 67516}}) -- Echoes of Danger
     },
     [7834] = {
         Achievement({id = 40252, criteria = 67593}), -- Reign of The Old Gods
         Achievement({id = 40314, criteria = 68241}), -- Echoing Fragment: Hallowfall
-        Achievement({
-            id = 40222,
-            criteria = {
-                67509, -- Aqu'yinra
-                67510, -- S'toth The Insatiable
-                67507, -- Bor'zal the Lurking
-                67508, -- Yor'sith
-                67511 -- Venox
-            }
-        }) -- Echoes of Danger
+        Achievement({id = 40222, criteria = {67509, 67510, 67507, 67508, 67511}}) -- Echoes of Danger
     },
     [7835] = {
         Achievement({id = 40252, criteria = 67595}), -- Elemental Fury
         Achievement({id = 40314, criteria = 68257}), -- Echoing Fragment: The Ringing Deeps
-        Achievement({
-            id = 40222,
-            criteria = {
-                67523, -- Flame Viscerator Ignes
-                67524, -- Oremex Flamebreaker
-                67525, -- Earthfury Cragshar
-                67526, -- Deepwalker Cavelord
-                67527 -- Crateron
-            }
-        }) -- Echoes of Danger
+        Achievement({id = 40222, criteria = {67523, 67524, 67525, 67526, 67527}}) -- Echoes of Danger
     },
     [7836] = {
         Achievement({id = 40252, criteria = 67596}), -- Primal Predators
         Achievement({id = 40314, criteria = 68257}), -- Echoing Fragment: The Ringing Deeps
-        Achievement({
-            id = 40222,
-            criteria = {
-                67517, -- Kiji the Stomper
-                67518, -- Clawmother Tengi
-                67519, -- Nalo'xic
-                67520, -- Pterrordaxus
-                67521 -- Tor'go
-            }
-        }) -- Echoes of Danger
+        Achievement({id = 40222, criteria = {67517, 67518, 67519, 67520, 67521}}) -- Echoes of Danger
     },
     [7837] = {
         Achievement({id = 40252, criteria = 67589}), -- Ancient Explorers
         Achievement({id = 40314, criteria = 68256}), -- Echoing Fragment: Isle of Dorn
-        Achievement({
-            id = 40222,
-            criteria = {
-                67528, -- Stormlord Kao'dar
-                67529, -- Toaka the Explorer
-                67530, -- Conqueror Or'sosh
-                67531, -- Wavecrasher Jurvak
-                67532 -- Warmonger Ogli
-            }
-        }) -- Echoes of Danger
+        Achievement({id = 40222, criteria = {67528, 67529, 67530, 67531, 67532}}) -- Echoes of Danger
     },
     [7838] = {
         Achievement({id = 40252, criteria = 67590}), -- The Worldcarvers
         Achievement({id = 40314, criteria = 68256}), -- Echoing Fragment: Isle of Dorn
-        Achievement({
-            id = 40222,
-            criteria = {
-                67534, -- Gong'tze the Riverhewer
-                67535, -- First Blade Grimskarn
-                -- 0, -- Zeeben and Zillix
-                67540, -- Talinhet
-                67541 -- Temaya
-            }
-        }) -- Echoes of Danger
+        Achievement({id = 40222, criteria = {67534, 67535, 67540, 67541}}) -- Echoes of Danger
     },
     [7839] = {
         Achievement({id = 40252, criteria = 67591}), -- Old Gods Forsaken
         Achievement({id = 40314, criteria = 68258}), -- Echoing Fragment: Azj-Kahet
-        Achievement({
-            id = 40222,
-            criteria = {
-                67544, -- The Rebellious Queen
-                67545, -- Vin'ris the Corruptor
-                67546, -- Vil'vim the Mindtwister
-                67547, -- Spiz'na the Traitor
-                67548 -- Yoh'nath the Ender
-            }
-        }) -- Echoes of Danger
+        Achievement({id = 40222, criteria = {67544, 67545, 67546, 67547, 67548}}) -- Echoes of Danger
     },
     [7840] = {
         Achievement({id = 40252, criteria = 67592}), -- A Wounded Soul
         Achievement({id = 40314, criteria = 68258}), -- Echoing Fragment: Azj-Kahet
-        Achievement({
-            id = 40222,
-            criteria = {
-                67549, -- Azerite Manifestation
-                67550, -- Shard of Gorribal
-                67552, -- Widowcore
-                -- 0, -- Dregbile and Soulboil
-                67553 -- Heartsear
-            }
-        }) -- Echoes of Danger
+        Achievement({id = 40222, criteria = {67549, 67550, 67552, 67553}}) -- Echoes of Danger
+    },
+    [8200] = {
+        Achievement({id = 41214, criteria = 71579}), -- Early Cartel Wars
+        Achievement({id = 41215, criteria = {71581, 71582, 71583, 71584, 71585}}) -- Echoes of Deeper Dangers
+    },
+    [8201] = {
+        Achievement({id = 41214, criteria = 71580}), -- Kaja'mite Contact
+        Achievement({id = 41215, criteria = {71586, 71587, 71588, 71589, 71590}}) -- Echoes of Deeper Dangers
     }
 }
 
@@ -453,12 +408,13 @@ end
 ns.node.WorldsoulMemory = WorldsoulMemory
 
 hooksecurefunc(AreaPOIEventPinMixin, 'OnMouseEnter', function(self)
-    if not self.areaPoiID then return end
-    if not WORLDSOUL_REWARDS[self.areaPoiID] then return end
+    if not self.poiInfo then return end
+    local areaPoiID = self.poiInfo.areaPoiID
+    if not WORLDSOUL_REWARDS[areaPoiID] then return end
     local mapID = self:GetMap().mapID
     local group = ns.groups.WORLDSOUL_MEMORIES
     if group:GetDisplay(mapID) then
-        local rewards = WORLDSOUL_REWARDS[self.areaPoiID]
+        local rewards = WORLDSOUL_REWARDS[areaPoiID]
         for _, reward in pairs(rewards) do
             if reward and reward:IsEnabled() then
                 reward:Render(GameTooltip)
