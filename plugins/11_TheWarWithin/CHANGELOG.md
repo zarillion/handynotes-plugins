@@ -1,5 +1,15 @@
 # v114
 
+* 11.1 Undermine(d)
+  * All rare locations
+  * All treasure locations
+  * All vendor locations
+  * All S.C.R.A.P. reward locations
+  * All Worldsoul Memory locations
+  * All delve locations
+  * All locations for the achievement [Nine-Tenths of the Law](https://www.wowhead.com/achievement=40948)
+  * All locations for the achievement [Read Between The Lines](https://www.wowhead.com/achievement=41588)
+  * All locations for the achievement [That Can-Do Attitude](https://www.wowhead.com/achievement=41589)
 * Localization updates: deDE, esES, frFR, ruRU, zhCN
 
 # v113
