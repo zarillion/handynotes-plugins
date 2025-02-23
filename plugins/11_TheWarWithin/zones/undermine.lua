@@ -397,24 +397,8 @@ map.nodes[52498333] = ScrapHeap({criteriaID = 103185}) -- The Heaps
 map.nodes[69577652] = ScrapHeap({criteriaID = 103186}) -- Emerald Hills Golf Course
 map.nodes[67482929] = ScrapHeap({criteriaID = 103187}) -- Blackwater Marina
 
-hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
-    if self.vignetteID ~= 6687 and self.vignetteID ~= 6757 then return end
-    if not ns.groups.SCRAP_REWARDS:IsEnabled() then return end
-    local mapID = self:GetMap().mapID
-    local x = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).x
-    local y = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).y
-    local coordinates = HandyNotes:getCoord(x, y)
-    local node = map.nodes[coordinates]
-    if not node then return end
-    if ns:GetOpt('show_loot') then
-        local rewards = GetScrapRewards(node.criteriaID)
-        for i, reward in ipairs(rewards) do
-            if reward:IsEnabled() then reward:Render(GameTooltip) end
-        end
-        GameTooltip:AddLine(' ')
-    end
-    GameTooltip:Show()
-end)
+ns.tooltip.addRewardsToVignetteTooltip(map, ns.groups.SCRAP_REWARDS, 6687)
+ns.tooltip.addRewardsToVignetteTooltip(map, ns.groups.SCRAP_REWARDS, 6757)
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: NINE-TENTHS OF THE LAW ---------------------
