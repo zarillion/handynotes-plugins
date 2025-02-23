@@ -452,21 +452,21 @@ esn.nodes[50906155] = SturdyChest({
     achievementID = 41100,
     quest = nil,
     rlabel = ns.status.Gray('#1')
-}) -- Sturdy Chest 1 -- Rowdy Rifts
+}) -- Sturdy Chest 1
 
 esn.nodes[57014680] = SturdyChest({
     achievementID = 41100,
     quest = nil,
     rlabel = ns.status.Gray('#2')
-}) -- Sturdy Chest 2 -- Rowdy Rifts
+}) -- Sturdy Chest 2
 
 esn.nodes[33585917] = SturdyChest({
     achievementID = 41100,
     quest = 86346,
     rlabel = ns.status.Gray('#3')
-}) -- Sturdy Chest 3 -- Lost Excavators (didn't see on Rowdy Rifts?)
+}) -- Sturdy Chest 3
 
-esn.nodes[00000000] = SturdyChest({
+esn.nodes[73503950] = SturdyChest({
     achievementID = 41100,
     quest = nil,
     rlabel = ns.status.Gray('#4')
@@ -480,7 +480,7 @@ pit.nodes[33437316] = SturdyChest({
     achievementID = 41101,
     quest = 86790,
     rlabel = ns.status.Gray('#1')
-}) -- Sturdy Chest 1 -- All That Glitters
+}) -- Sturdy Chest 1
 
 thd.nodes[77573947] = SturdyChest({
     achievementID = 41101,
@@ -491,19 +491,19 @@ thd.nodes[77573947] = SturdyChest({
     },
     quest = 86789,
     rlabel = ns.status.Gray('#2')
-}) -- Sturdy Chest 2 -- All That Glitters
+}) -- Sturdy Chest 2
 
 pit.nodes[61616581] = SturdyChest({
     achievementID = 41101,
     quest = 86787,
     rlabel = ns.status.Gray('#3')
-}) -- Sturdy Chest 3 -- All That Glitters
+}) -- Sturdy Chest 3
 
 pit.nodes[74447419] = SturdyChest({
     achievementID = 41101,
     quest = 86788,
     rlabel = ns.status.Gray('#4')
-}) -- Sturdy Chest 4 -- All That Glitters
+}) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
 -------------------------- DELVE REWARDS (AREAPOIS) ---------------------------
