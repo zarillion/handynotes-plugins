@@ -1,6 +1,6 @@
 # v114
 
-* Localization updates: deDE, esES
+* Localization updates: deDE, esES, frFR, ruRU, zhCN
 
 # v113
 
