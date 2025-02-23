@@ -573,7 +573,7 @@ L['ak_decryption_console_note'] = 'Zurück in der versteckten Höhle im {locatio
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['requires_ally'] = '{note:Benötigt ein Bündnis mit |cFFFFFF00{faction:%d}|r.}' --review
+L['requires_ally'] = '{note:Benötigt ein Bündnis mit |cFFFFFF00{faction:%d}|r.}' -- review
 L['complete_event'] = 'Spreche mit {npc:%d} und schließe das Event ab, damit der seltene Gegner erscheint.'
 L['in_sewer'] = 'In der Kanalisation. Betrete diese durch das {object:Kanalisationgitter} in der Nähe.'
 L['and_slimesby'] = 'und {npc:230947}'
