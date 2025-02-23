@@ -570,8 +570,8 @@ L['ak_decryption_console_note'] = 'Regresa a la entrada del agujero oculto dentr
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['requires_ally'] = nil
-L['complete_event'] = nil
+L['requires_ally'] = '{note:Debes estar aliado con |cFFFFFF00{faction:%d}|r.}'
+L['complete_event'] = 'Habla con {npc:%d} y completa el evento para invocar.'
 L['in_sewer'] = 'Dentro de la cloaca. Usa la {object:Rejilla de cloaca} cercana para entrar.'
 L['and_slimesby'] = 'y {npc:230947}'
 
