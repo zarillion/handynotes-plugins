@@ -450,26 +450,30 @@ tra.nodes[35135863] = SturdyChest({
 
 esn.nodes[50906155] = SturdyChest({
     achievementID = 41100,
-    quest = nil,
+    quest = 86347,
     rlabel = ns.status.Gray('#1')
-}) -- Sturdy Chest 1
+}) -- Sturdy Chest 1 -- Rowdy Rifts
 
 esn.nodes[57014680] = SturdyChest({
     achievementID = 41100,
-    quest = nil,
+    quest = 86345,
     rlabel = ns.status.Gray('#2')
-}) -- Sturdy Chest 2
+}) -- Sturdy Chest 2 -- Rowdy Rifts
 
 esn.nodes[33585917] = SturdyChest({
     achievementID = 41100,
     quest = 86346,
     rlabel = ns.status.Gray('#3')
-}) -- Sturdy Chest 3
+}) -- Sturdy Chest 3 -- Lost Excavators (didn't see on Rowdy Rifts?)
 
-esn.nodes[73503950] = SturdyChest({
+esn.nodes[73363995] = SturdyChest({
     achievementID = 41100,
-    quest = nil,
-    rlabel = ns.status.Gray('#4')
+    quest = 86343,
+    rlabel = ns.status.Gray('#4'),
+    pois = {
+        POI({71953763, 73013890}), -- jump point
+        Path({71953763, 73013890}) -- jump path
+    }
 }) -- Sturdy Chest 4
 
 -------------------------------------------------------------------------------
