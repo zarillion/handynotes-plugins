@@ -188,7 +188,7 @@ map.nodes[40002232] = Rare({
     },
     rewards = {
         Achievement({id = 41216, criteria = 71608}),
-        Transmog({item = 235318, slot = L['legs']}) -- Ironfang Plate Legguards
+        Transmog({item = 235318, type = L['plate']}) -- Ironfang Plate Legguards
     },
     sublabel = format(L['requires_ally'], 2673) -- Bilgewater Cartel
 }) -- M.A.G.N.O.
@@ -213,7 +213,7 @@ map.nodes[57207860] = Rare({
     },
     rewards = {
         Achievement({id = 41216, criteria = 71610}),
-        Transmog({item = 235829, slot = L['helm']}) -- Welded Scrap Hood
+        Transmog({item = 235829, type = L['mail']}) -- Welded Scrap Hood
     },
     sublabel = format(L['requires_ally'], 2671) -- Venture Company
 }) -- Scrapchewer
@@ -227,7 +227,7 @@ map.nodes[64162556] = Rare({
     },
     rewards = {
         Achievement({id = 41216, criteria = 71611}),
-        Transmog({item = 235827, slot = L['chest']}) -- Statically Charged Vest
+        Transmog({item = 235827, type = L['leather']}) -- Statically Charged Vest
     },
     sublabel = format(L['requires_ally'], 2675) -- Blackwater Cartel
 }) -- Volstrike the Charged
