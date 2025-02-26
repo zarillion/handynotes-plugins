@@ -229,6 +229,12 @@ ns.groups.YOU_CANT_HANG_WITH_US = Group('you_cant_hang_with_us', 5763494, {
     achievement = 40634
 })
 
+ns.groups.YOURE_MY_FRIEND_NOW = Group('youre_my_friend_now', 6351952, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 41708
+})
+
 ns.groups.CRITTER_LOVE = Group('critter_love', 3459801, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,

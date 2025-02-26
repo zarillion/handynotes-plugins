@@ -530,6 +530,30 @@ map.nodes[65611420] = UndermineLoreBook({
 }) -- Misplaced Work Order
 
 -------------------------------------------------------------------------------
+--------------------- ACHIEVEMENT: YOU'RE MY FRIEND NOW -----------------------
+-------------------------------------------------------------------------------
+
+local YoureMyFriendNow = Class('youre_my_friend_now', Collectible, {
+    icon = 6351952,
+    group = ns.groups.YOURE_MY_FRIEND_NOW,
+    rewards = {
+        Achievement({id = 41708, criteria = {id = 1, qty = true}}) -- You're My Friend Now
+    }
+})
+
+map.nodes[43591131] = YoureMyFriendNow({id = 239250})
+map.nodes[28485579] = YoureMyFriendNow({
+    id = 239248,
+    note = L['rat_2nd_floor_trash_can']
+})
+map.nodes[35958563] = YoureMyFriendNow({
+    id = 239252,
+    note = L['rat_in_building_rail']
+})
+map.nodes[65268826] = YoureMyFriendNow({id = 239249})
+map.nodes[65864395] = YoureMyFriendNow({id = 239251})
+
+-------------------------------------------------------------------------------
 ---------------------- ACHIEVEMENT: THAT CAN-DO ATTITUDE ----------------------
 -------------------------------------------------------------------------------
 

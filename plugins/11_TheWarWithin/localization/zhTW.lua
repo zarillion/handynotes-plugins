@@ -610,3 +610,8 @@ L['discarded_can_suffix'] = nil
 L['options_icons_scrap_rewards'] = nil
 L['options_icons_scrap_rewards_desc'] = nil
 L['scrap_heap_suffix'] = nil
+
+L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
+L['options_icons_youre_my_friend_now_desc'] = nil
+L['rat_in_building_rail'] = nil
+L['rat_2nd_floor_trash_can'] = nil

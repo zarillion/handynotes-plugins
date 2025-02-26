@@ -610,3 +610,8 @@ L['discarded_can_suffix'] = '罐头被踢'
 L['options_icons_scrap_rewards'] = 'S.C.R.A.P. 堆'
 L['options_icons_scrap_rewards_desc'] = '显示 {object:S.C.R.A.P. 堆} 的奖励。'
 L['scrap_heap_suffix'] = 'S.C.R.A.P. 任务完成'
+
+L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
+L['options_icons_youre_my_friend_now_desc'] = nil
+L['rat_in_building_rail'] = nil
+L['rat_2nd_floor_trash_can'] = nil

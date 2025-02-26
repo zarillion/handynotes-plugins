@@ -613,3 +613,8 @@ L['discarded_can_suffix'] = 'Dosen herumgekickt'
 L['options_icons_scrap_rewards'] = 'S.C.H.R.O.T.T.-Haufen'
 L['options_icons_scrap_rewards_desc'] = 'Zeigt die Belohnungen für {object:S.C.H.R.O.T.T.-Haufen} an.' -- review
 L['scrap_heap_suffix'] = 'S.C.H.R.O.T.T.-Aufträge abgeschlossen.'
+
+L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
+L['options_icons_youre_my_friend_now_desc'] = nil
+L['rat_in_building_rail'] = nil
+L['rat_2nd_floor_trash_can'] = nil

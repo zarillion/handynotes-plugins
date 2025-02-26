@@ -611,3 +611,8 @@ L['discarded_can_suffix'] = 'банок пнули'
 L['options_icons_scrap_rewards'] = 'Горы ХЛАМа'
 L['options_icons_scrap_rewards_desc'] = 'Показать награды за {object:Горы ХЛАМа}.'
 L['scrap_heap_suffix'] = 'Горы ХЛАМа завершены'
+
+L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
+L['options_icons_youre_my_friend_now_desc'] = nil
+L['rat_in_building_rail'] = nil
+L['rat_2nd_floor_trash_can'] = nil

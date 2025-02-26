@@ -1,6 +1,7 @@
 # v115
 
 * .TOC updates.
+* Locations for the achievement [You're My Friend Now](https://www.wowhead.com/achievement=41708)
 * Localization updates: zhCN
 
 # v114
