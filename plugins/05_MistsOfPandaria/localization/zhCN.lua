@@ -44,8 +44,8 @@ L['skull_covered_chest'] = '嵌颅宝箱'
 L['smoldering_chest'] = '阴燃宝箱'
 L['sturdy_chest'] = '坚固宝箱'
 L['sturdy_chest_note'] = '攻击 {npc:73531} 被带到这里。'
-L['timeless_chest'] = nil
-L['timeless_chest_note'] = nil
+L['timeless_chest'] = '永恒宝箱'
+L['timeless_chest_note'] = '可以从 {npc:72007} 处用500个 {currency:777} 购买钥匙。'
 
 L['gleaming_treasure_satchel_note'] = '沿着船上的绳索行走，然后跳到挎包悬挂的那根杆子上。'
 L['gleaming_treasure_chest_note'] = '跳上柱子到达宝藏。'
