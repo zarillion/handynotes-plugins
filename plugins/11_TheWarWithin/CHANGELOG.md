@@ -1,3 +1,8 @@
+# v115
+
+* .TOC updates.
+* Localization updates: zhCN
+
 # v114
 
 * 11.1 Undermine(d)
