@@ -45,7 +45,7 @@ L['smoldering_chest'] = 'Smoldering Chest'
 L['sturdy_chest'] = 'Sturdy Chest'
 L['sturdy_chest_note'] = 'Hit a {npc:73531} to get carried here.'
 L['timeless_chest'] = 'Timeless Chest'
-L['timeless_chest_note'] = 'You can buy the Key from {npc:72007} for 500 {currency:777}.'
+L['timeless_chest_note'] = 'You can buy the Key from {npc:72007} for 500x {currency:777}.'
 
 L['gleaming_treasure_satchel_note'] = 'Walk on the ropes of the ship then jump on the pole where the satchel is hanging from.'
 L['gleaming_treasure_chest_note'] = 'Jump on the pillars to the treasure.'
