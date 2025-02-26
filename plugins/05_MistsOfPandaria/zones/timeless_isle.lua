@@ -487,11 +487,11 @@ map.nodes[37797773] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-local MossCoveredChest = Class('MossCoveredChest', Treasure)
-
-MossCoveredChest.label = L['moss_covered_chest']
-MossCoveredChest.icon = 'chest_gn'
-MossCoveredChest.rewards = {Achievement({id = 8729, criteria = 1})}
+local MossCoveredChest = Class('MossCoveredChest', Treasure, {
+    label = L['moss_covered_chest'],
+    icon = 'chest_gn',
+    rewards = {Achievement({id = 8729, criteria = 1})}
+})
 
 map.nodes[36703410] = MossCoveredChest({quest = 33170})
 map.nodes[25502720] = MossCoveredChest({quest = 33171})
@@ -550,36 +550,18 @@ map.nodes[47602760] = Treasure({
     }
 }) -- Blazing Chest
 
-map.nodes[28203520] = Treasure({
-    quest = 33204,
-    label = L['sturdy_chest'],
-    note = L['sturdy_chest_note'],
+local SturdyChest = Class('SturdyChest', Treasure {
     icon = 'chest_bn',
+    label = L['sturdy_chest'],
     rewards = {Achievement({id = 8729, criteria = 4})}
-}) -- Sturdy Chest
+})
 
-map.nodes[26806490] = Treasure({
-    quest = 33205,
-    label = L['sturdy_chest'],
-    note = L['sturdy_chest_note'],
-    icon = 'chest_bn',
-    rewards = {Achievement({id = 8729, criteria = 4})}
-}) -- Sturdy Chest
-
-map.nodes[64607040] = Treasure({
-    quest = 33206,
-    label = L['sturdy_chest'],
-    icon = 'chest_bn',
-    rewards = {Achievement({id = 8729, criteria = 4})}
-}) -- Sturdy Chest
-
-map.nodes[59204950] = Treasure({
-    quest = 33207,
-    label = L['sturdy_chest'],
-    note = L['spelurk_cave'],
-    icon = 'chest_bn',
-    rewards = {Achievement({id = 8729, criteria = 4})}
-}) -- Sturdy Chest
+map.nodes[28203520] =
+    SturdyChest({quest = 33204, note = L['sturdy_chest_note']}) -- Sturdy Chest
+map.nodes[26806490] =
+    SturdyChest({quest = 33205, note = L['sturdy_chest_note']}) -- Sturdy Chest
+map.nodes[64607040] = SturdyChest({quest = 33206}) -- Sturdy Chest
+map.nodes[59204950] = SturdyChest({quest = 33207, note = L['spelurk_cave']}) -- Sturdy Chest
 
 map.nodes[69503290] = Treasure({
     quest = 33208,
@@ -594,6 +576,13 @@ map.nodes[54007820] = Treasure({
     icon = 'chest_yw',
     rewards = {Achievement({id = 8729, criteria = 5})}
 }) -- Smoldering Chest
+
+map.nodes[59164040] = Treasure({
+    label = L['timeless_chest'],
+    note = L['timeless_chest_note'],
+    requires = ns.requirement.Item(101538),
+    rewards = {Pet({item = 104202, id = 1343})} -- Bonkers
+})
 
 -------------------------------------------------------------------------------
 --------------------------- EXTREME TREASURE HUNTER ---------------------------

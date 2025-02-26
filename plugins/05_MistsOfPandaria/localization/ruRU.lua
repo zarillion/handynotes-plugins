@@ -35,6 +35,8 @@ L['skull_covered_chest'] = nil
 L['smoldering_chest'] = nil
 L['sturdy_chest'] = nil
 L['sturdy_chest_note'] = nil
+L['timeless_chest'] = nil
+L['timeless_chest_note'] = nil
 
 L['gleaming_treasure_satchel_note'] = nil
 L['gleaming_treasure_chest_note'] = nil

@@ -15,7 +15,7 @@ L['zarhym_note'] = 'Einmal am Tag kann mit {npc:71876} gesprochen werden, um die
 
 L['archiereus_note'] = 'Kauf eine {item:103684} von {npc:73306}, um den seltenen Gegner zu beschwören.'
 L['chelon_note'] = 'Klicke den {object:Verdächtig leeren Panzer} an.'
-L['cranegnasher_note'] = 'Ziehe einen {npc:72095} aus dem Süden bis zu der Leiche eines Krachichs.'
+L['cranegnasher_note'] = 'Locke einen {npc:72095} aus dem Süden bis zu der Leiche eines Krachichs.'
 L['dread_ship_note'] = 'Plündere die {item:104115} von {npc:73279} und verwende diese beim {object:Verfluchten Grabstein}, um das {object:Schreckensschiff} zu beschwören.'
 L['emerald_gander_note'] = 'Töte {npc:72762} um den {location:Hof der Erhabenen} herum, bis das {npc:73158} erscheint.'
 L['evermaw_note'] = 'Schwimmt im Uhrzeigersinn um die gesamte Insel herum.'
@@ -45,6 +45,8 @@ L['skull_covered_chest'] = 'Totenkopftruhe'
 L['smoldering_chest'] = 'Schwelende Truhe'
 L['sturdy_chest'] = 'Robuste Truhe'
 L['sturdy_chest_note'] = 'Greife einen {npc:73531} an, um hierher getragen zu werden.'
+L['timeless_chest'] = 'Zeitlose Truhe'
+L['timeless_chest_note'] = 'Du kannst den Schlüssel bei {npc:72007} für 500 {currency:777} kaufen.'
 
 L['gleaming_treasure_satchel_note'] = 'Lauf auf den Seilen des Schiffs und spring dann auf den Mast, an dem der Schatzbeutel hängt.'
 L['gleaming_treasure_chest_note'] = 'Springe auf den Säulen zum Schatz.'
