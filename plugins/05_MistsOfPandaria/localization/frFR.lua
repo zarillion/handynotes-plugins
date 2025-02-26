@@ -45,8 +45,8 @@ L['skull_covered_chest'] = 'Coffre recouvert de crânes'
 L['smoldering_chest'] = 'Coffre fumant'
 L['sturdy_chest'] = 'Coffre solide'
 L['sturdy_chest_note'] = 'Frappez un {npc:73531} pour être transporté ici.'
-L['timeless_chest'] = nil
-L['timeless_chest_note'] = nil
+L['timeless_chest'] = 'Coffre intemporel'
+L['timeless_chest_note'] = 'Vous pouvez acheter la clé au {npc:72007} contre 500x {currency:777}.'
 
 L['gleaming_treasure_satchel_note'] = 'Marchez sur les cordes du bateau puis sautez sur le poteau où est suspendue la sacoche.'
 L['gleaming_treasure_chest_note'] = 'Sautez sur les piliers pour atteindre le trésor.'
