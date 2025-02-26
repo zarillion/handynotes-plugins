@@ -123,7 +123,8 @@ map.nodes[30603820] = Rare({
 }) -- Cournith Waterstrider
 
 map.nodes[56203520] = Rare({
-    id = 50768,
+    id = 50340,
+    note = L['multiple_spawns'],
     rewards = {
         Achievement({id = 7439, criteria = 21071}), -- Glorious!
         Transmog({item = 90725, slot = L['cloth']}), -- Gaarn's Leggings of Infestation
@@ -137,10 +138,10 @@ map.nodes[56203520] = Rare({
         Transmog({item = 87610, slot = L['mail']}), -- Deepwild Hunting Helm
         Transmog({item = 87611, slot = L['plate']}) -- Shen-zin Shell Headguard
     },
-    pois = {POI({53603880, 54003220})}
+    pois = {POI({53603880, 54003220, 56223798})}
 }) -- Gaarn the Toxic
 
-map.nodes[39402880] = Rare({
+map.nodes[39402893] = Rare({
     id = 50331,
     rewards = {
         Achievement({id = 7439, criteria = 21099}), -- Glorious!
@@ -174,8 +175,9 @@ map.nodes[67202300] = Rare({
     }
 }) -- Qu'nas
 
-map.nodes[39405520] = Rare({
+map.nodes[39335532] = Rare({
     id = 50816,
+    note = L['multiple_spawns'],
     rewards = {
         Achievement({id = 7439, criteria = 21085}), -- Glorious!
         Transmog({item = 90720, slot = L['leather']}), -- Silent Leggings of the Ghostpaw
@@ -209,7 +211,7 @@ map.nodes[52208880] = Rare({
     }
 }) -- Spriggin
 
-map.nodes[15603560] = Rare({
+map.nodes[15243489] = Rare({
     id = 50388,
     rewards = {
         Achievement({id = 7439, criteria = 21064}), -- Glorious!

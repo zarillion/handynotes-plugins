@@ -36,6 +36,7 @@ L['spelurk_note'] = [[
 如果找不到文物，可以使用 {item:70161}（或坐垫类玩具）在岩石前面。坐下，然后站起来直走进入。
 ]]
 L['zhugon_note'] = '当酿酒事件激活，击杀 {npc:71908} 并打破酒桶直到稀有出现。'
+L['garnia_note'] = nil
 
 L['blazing_chest'] = '炽燃宝箱'
 L['moss_covered_chest'] = '覆苔宝箱'

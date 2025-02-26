@@ -25,7 +25,7 @@ local guolai_halls = Map({id = 395, settings = true})
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[42606900] = Rare({
+map.nodes[42826924] = Rare({
     id = 50822,
     note = L['in_small_cave'],
     rewards = {
@@ -53,7 +53,7 @@ map.nodes[14005860] = Rare({
     }
 }) -- Kal'tik the Blight
 
-map.nodes[15003560] = Rare({
+map.nodes[15233522] = Rare({
     id = 50349,
     rewards = {
         Achievement({id = 7439, criteria = 21075}), -- Glorious!
@@ -66,7 +66,7 @@ map.nodes[15003560] = Rare({
     }
 }) -- Kang the Soul Thief
 
-map.nodes[31009160] = Rare({
+map.nodes[30809150] = Rare({
     id = 50840,
     rewards = {
         Achievement({id = 7439, criteria = 21054}), -- Glorious!
@@ -97,7 +97,7 @@ map.nodes[38605500] = Rare({
     }
 }) -- Moldo One-Eye
 
-map.nodes[69603080] = Rare({
+map.nodes[69403065] = Rare({
     id = 50780,
     rewards = {
         Achievement({id = 7439, criteria = 21061}), -- Glorious!
@@ -110,7 +110,7 @@ map.nodes[69603080] = Rare({
     }
 }) -- Sahn Tidehunter
 
-map.nodes[39802500] = Rare({
+map.nodes[39572514] = Rare({
     id = 50359,
     rewards = {
         Achievement({id = 7439, criteria = 21082}), -- Glorious!
@@ -123,7 +123,7 @@ map.nodes[39802500] = Rare({
     }
 }) -- Urgolax
 
-map.nodes[87804460] = Rare({
+map.nodes[88084433] = Rare({
     id = 50336,
     rewards = {
         Achievement({id = 7439, criteria = 21103}), -- Glorious!
@@ -136,42 +136,43 @@ map.nodes[87804460] = Rare({
     }
 }) -- Yorik Sharpeye
 
-map.nodes[35008960] = Rare({
+map.nodes[35038996] = Rare({
     id = 58778,
     rewards = {
         Achievement({id = 7317, criteria = 20521}) -- One Many Army
     }
 }) -- Aetha
 
-map.nodes[16804900] = Rare({
+map.nodes[16994858] = Rare({
     id = 58949,
     rewards = {
         Achievement({id = 7317, criteria = 20530}) -- One Many Army
     }
 }) -- Bai-Jin the Butcher
 
-map.nodes[28804280] = Rare({
+map.nodes[28694340] = Rare({
     id = 63695,
     rewards = {
         Achievement({id = 7317, criteria = 20524}) -- One Many Army
     }
 }) -- Baolai the Immolator
 
-map.nodes[4665900] = Rare({
+map.nodes[46746049] = Rare({
     id = 58768,
     rewards = {
         Achievement({id = 7317, criteria = 20517}) -- One Many Army
     }
 }) -- Cracklefang
 
-map.nodes[28605660] = Rare({
+map.nodes[28265585] = Rare({
     id = 63101,
     rewards = {
         Achievement({id = 7317, criteria = 20519}) -- One Many Army
     },
     pois = {
         Path({
-            26605140, 27605400, 28605660, 28605660, 30005720, 30605820, 30805980
+            30175791, 29535754, 29005711, 28595650, 28265585, 28075521,
+            27875453, 27635386, 27245318, 26885261, 26445208, 26355130
         })
     }
 }) -- General Temuja
@@ -190,7 +191,7 @@ map.nodes[06205860] = Rare({
     }
 }) -- Kri'chon
 
-map.nodes[66603980] = Rare({
+map.nodes[66503930] = Rare({
     id = 58771,
     rewards = {
         Achievement({id = 7317, criteria = 20522}) -- One Many Army
@@ -207,6 +208,7 @@ map.nodes[30607860] = Rare({
 
 map.nodes[47406560] = Rare({
     id = 58817,
+    note = L['in_small_cave'],
     rewards = {
         Achievement({id = 7317, criteria = 20523}) -- One Many Army
     }
@@ -219,7 +221,7 @@ map.nodes[37605100] = Rare({
     }
 }) -- Vicejaw
 
-map.nodes[08203400] = Rare({
+map.nodes[07933386] = Rare({
     id = 63977,
     rewards = {
         Achievement({id = 7317, criteria = 20532}) -- One Many Army

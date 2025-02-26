@@ -37,6 +37,7 @@ Pour pénétrer dans la grotte de {npc:71864}, trouvez l'un des artefacts perdus
 Si vous ne trouvez pas d'artefact, vous pouvez utiliser {item:70161} (ou d'autres jouets permettant de s'asseoir) juste devant les rochers. Asseyez-vous, puis levez-vous et avancez tout droit.
 ]]
 L['zhugon_note'] = 'Lorsque l\'événement de brassage est actif, tuez des {npc:71908s} et brisez des barils jusqu\'à ce que le rare apparaisse.'
+L['garnia_note'] = nil
 
 L['blazing_chest'] = 'Coffre flamboyant'
 L['moss_covered_chest'] = 'Coffre couvert de mousse'

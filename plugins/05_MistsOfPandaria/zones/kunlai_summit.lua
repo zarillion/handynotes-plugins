@@ -42,7 +42,7 @@ map.nodes[75116750] = Rare({
     }
 }) -- Zandalari Warbringer
 
-map.nodes[40804240] = Rare({
+map.nodes[40814263] = Rare({
     id = 50817,
     rewards = {
         Achievement({id = 7439, criteria = 21086}), -- Glorious!
@@ -59,7 +59,7 @@ map.nodes[40804240] = Rare({
     }
 }) -- Ahone the Wanderer
 
-map.nodes[55804340] = Rare({
+map.nodes[56064320] = Rare({
     id = 50341,
     rewards = {
         Achievement({id = 7439, criteria = 21072}), -- Glorious!
@@ -77,6 +77,7 @@ map.nodes[55804340] = Rare({
 
 map.nodes[57607500] = Rare({
     id = 50354,
+    note = L['multiple_spawns'],
     rewards = {
         Achievement({id = 7439, criteria = 21079}), -- Glorious!
         Toy({item = 86573}), -- Shard of Archstone
@@ -89,7 +90,8 @@ map.nodes[57607500] = Rare({
         Transmog({item = 87619, slot = L['plate']}), -- Terracotta Guardian's Bracer
         Transmog({item = 87620, slot = L['plate']}), -- Bracers of the Frozen Summit
         Transmog({item = 87621, slot = L['plate']}) -- Wristguards of Great Fortune
-    }
+    },
+    pois = {POI({59357376})}
 }) -- Havak
 
 map.nodes[50008060] = Rare({

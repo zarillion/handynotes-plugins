@@ -58,7 +58,7 @@ map.nodes[54202760] = Rare({
     }
 }) -- Zandalari Warscout
 
-map.nodes[33405080] = Rare({
+map.nodes[33555078] = Rare({
     id = 50750,
     rewards = {
         Achievement({id = 7439, criteria = 21055}), -- Glorious!
@@ -77,6 +77,7 @@ map.nodes[33405080] = Rare({
 
 map.nodes[53804560] = Rare({
     id = 51078,
+    note = L['multiple_spawns'],
     rewards = {
         Achievement({id = 7439, criteria = 21097}), -- Glorious!
         Transmog({item = 87652, slot = L['1h_mace']}), -- Ook-Breaker Mace
@@ -111,7 +112,7 @@ map.nodes[44007400] = Rare({
     pois = {Path({43607220, 43807320, 44007400, 44007500, 44007580})}
 }) -- Kor'nas Nightsavage
 
-map.nodes[39606260] = Rare({
+map.nodes[39526260] = Rare({
     id = 50363,
     rewards = {
         Achievement({id = 7439, criteria = 21062}), -- Glorious!
@@ -129,7 +130,7 @@ map.nodes[39606260] = Rare({
     }
 }) -- Krax'ik
 
-map.nodes[42603880] = Rare({
+map.nodes[42543885] = Rare({
     id = 50823,
     rewards = {
         Achievement({id = 7439, criteria = 21048}), -- Glorious!
@@ -149,6 +150,7 @@ map.nodes[42603880] = Rare({
 
 map.nodes[46601680] = Rare({
     id = 50350,
+    note = L['multiple_spawns'],
     rewards = {
         Achievement({id = 7439, criteria = 21076}), -- Glorious!
         Transmog({item = 87643, slot = L['2h_mace']}), -- Fangcracker Battlemace
@@ -166,8 +168,9 @@ map.nodes[46601680] = Rare({
     pois = {POI({40801520, 42601620, 42201760, 48001840, 48202060})}
 }) -- Morgrinn Crackfang
 
-map.nodes[64607420] = Rare({
+map.nodes[64437409] = Rare({
     id = 50782,
+    note = L['in_small_cave'],
     rewards = {
         Achievement({id = 7439, criteria = 21090}), -- Glorious!
         Transmog({item = 87650, slot = L['crossbow']}), -- Fishsticker Crossbow
@@ -184,7 +187,7 @@ map.nodes[64607420] = Rare({
     }
 }) -- Sarnak
 
-map.nodes[57407140] = Rare({
+map.nodes[57377169] = Rare({
     id = 50808,
     rewards = {
         Achievement({id = 7439, criteria = 21083}), -- Glorious!

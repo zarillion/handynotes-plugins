@@ -36,6 +36,7 @@ Para romper la barrera de entrada a la cueva del {npc:71864}, encuentra uno de l
 Si no puedes encontrar un artefacto, puedes usar la {item:70161} (u otro juguete para sentarse) justo enfrente de las rocas. Te sientas, y cuando te levantes camina recto hacia dentro.
 ]]
 L['zhugon_note'] = 'Cuando el evento de la cerveza esté activo, mata varios {npc:71908} y rompe barriles hasta que aparezca {npc:71919}.'
+L['garnia_note'] = 'Use a {npc:73531} to fly to the top of the mountain to kill {npc:73282}.\n\n{note:The {npc:73531} can be aggroed by using the {item:119083} or similar Toys without killing him.}'
 
 L['blazing_chest'] = 'Cofre llameante'
 L['moss_covered_chest'] = 'Cofre cubierto de musgo'
