@@ -740,7 +740,8 @@ local Mawshroom = Class('Mawshroom', Treasure, {
     note = L['invasive_mawshroom_note'],
     rlabel = ns.status.LightBlue(L['plus_research']),
     rewards = {
-        Item({item = 185963, quest = 63892}) -- Diviner's Rune Chit
+        Item({item = 185963, quest = 63892}), -- Diviner's Rune Chit
+        Mount({item = 186646, id = 1507}) -- Darkmaul
     }
 })
 
