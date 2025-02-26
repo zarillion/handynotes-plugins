@@ -570,8 +570,8 @@ L['ak_decryption_console_note'] = '回到隐藏的洞穴，入口位于 {locatio
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['requires_ally'] = nil
-L['complete_event'] = nil
+L['requires_ally'] = '{note:必须与 |cFFFFFF00{faction:%d}|r 结盟。}'
+L['complete_event'] = '与 {npc:%d} 交谈并完成事件以召唤。'
 L['in_sewer'] = '在下水道内。使用附近的 {object:下水道栅栏} 进入。'
 L['and_slimesby'] = '和 {npc:230947}'
 
