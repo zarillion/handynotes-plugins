@@ -613,6 +613,6 @@ L['options_icons_scrap_rewards_desc'] = 'Показать награды за {o
 L['scrap_heap_suffix'] = 'Горы ХЛАМа завершены'
 
 L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
-L['options_icons_youre_my_friend_now_desc'] = nil
-L['rat_in_building_rail'] = nil
-L['rat_2nd_floor_trash_can'] = nil
+L['options_icons_youre_my_friend_now_desc'] = 'Показать {npc:239248} места для {achievement:41708}.'
+L['rat_in_building_rail'] = 'Внутри здания на рельсах.'
+L['rat_2nd_floor_trash_can'] = 'Внутри здания на втором этаже на мусорном баке.'
