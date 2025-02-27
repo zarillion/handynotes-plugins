@@ -615,4 +615,3 @@ L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
 L['options_icons_youre_my_friend_now_desc'] = 'Display {npc:239248} locations for {achievement:41708}.'
 L['rat_in_building_rail'] = 'Inside the building on the rail.'
 L['rat_2nd_floor_trash_can'] = 'Inside the building on the second floor on the trash can.'
-
