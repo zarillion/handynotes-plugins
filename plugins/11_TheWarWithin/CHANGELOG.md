@@ -3,7 +3,7 @@
 * .TOC updates.
 * Locations for the achievement [You're My Friend Now](https://www.wowhead.com/achievement=41708)
 * Fixed the prerequisite Quest ID for [Read Between the Lines](https://www.wowhead.com/achievement=41588)
-* Localization updates: esES, frFR, ruRU, zhCN
+* Localization updates: deDE, esES, frFR, ruRU, zhCN
 
 # v114
 

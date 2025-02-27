@@ -351,7 +351,7 @@ L['tsw_chest_4_location'] = 'Oben auf dem Balken. Springe von der Säule runter,
 L['tuk_chest_1_note'] = 'Hinter der Statue.'
 L['tuk_chest_2_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Folteropfer" verfügbar.}'
 L['tuk_chest_3_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersevolution" und "Weberrettung" verfügbar.}'
-L['sss_chest_2_location'] = 'Über dem Metallträger.' -- review
+L['sss_chest_2_location'] = 'Auf dem Metallträger.'
 
 -------------------------------------------------------------------------------
 --------------------------------- SIREN ISLE ----------------------------------
@@ -573,7 +573,7 @@ L['ak_decryption_console_note'] = 'Zurück in der versteckten Höhle im {locatio
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
 
-L['requires_ally'] = '{note:Benötigt ein Bündnis mit |cFFFFFF00{faction:%d}|r.}' -- review
+L['requires_ally'] = '{note:Benötigt einen Vertrag mit |cFFFFFF00{faction:%d}|r.}'
 L['complete_event'] = 'Spreche mit {npc:%d} und schließe das Event ab, damit der seltene Gegner erscheint.'
 L['in_sewer'] = 'In der Kanalisation. Betrete diese durch das {object:Kanalisationgitter} in der Nähe.'
 L['and_slimesby'] = 'und {npc:230947}'
@@ -596,7 +596,7 @@ L['angelo_rustbin_note'] = 'Tausche {currency:3220} gegen Haustiere und {object:
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Zeigt die Positionen von {object:Muffs Selbstschließern} für den Erfolg {achievement:40948} an.'
 L['muffs_auto_locker_label'] = 'Muffs Selbstschließer'
-L['muffs_auto_locker_note'] = 'Sammle alle Gorillionteile und schließe die Quest {quest:87406} ab, um {item:232843} zu erhalten.' -- review
+L['muffs_auto_locker_note'] = 'Sammle alle Gorillionteile und schließe die Quest {quest:87406} ab, um {item:232843} zu erhalten.'
 L['muffs_auto_locker_suffix'] = 'Muffs Selbstschließer geöffnet'
 
 L['options_icons_between_the_lines'] = '{achievement:41588}'
@@ -611,10 +611,10 @@ L['discarded_can_note'] = 'Kick die {npc:237103} herum.'
 L['discarded_can_suffix'] = 'Dosen herumgekickt'
 
 L['options_icons_scrap_rewards'] = 'S.C.H.R.O.T.T.-Haufen'
-L['options_icons_scrap_rewards_desc'] = 'Zeigt die Belohnungen für {object:S.C.H.R.O.T.T.-Haufen} an.' -- review
+L['options_icons_scrap_rewards_desc'] = 'Zeigt die Belohnungen für {object:S.C.H.R.O.T.T.-Haufen} an.'
 L['scrap_heap_suffix'] = 'S.C.H.R.O.T.T.-Aufträge abgeschlossen.'
 
 L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
-L['options_icons_youre_my_friend_now_desc'] = nil
-L['rat_in_building_rail'] = nil
-L['rat_2nd_floor_trash_can'] = nil
+L['options_icons_youre_my_friend_now_desc'] = 'Zeigt die Positionen von {npc:239248} für den Erfolg {achievement:41708} an.'
+L['rat_in_building_rail'] = 'Im Gebäude auf dem Geländer.'
+L['rat_2nd_floor_trash_can'] = 'Im Gebäude im zweiten Stock auf einem Mülleimer.'
