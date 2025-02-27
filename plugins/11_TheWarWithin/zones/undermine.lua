@@ -493,21 +493,21 @@ trd.nodes[72907315] = UndermineLoreBook({
 map.nodes[27327075] = UndermineLoreBook({
     location = L['a_threatening_letter_location'],
     quest = 86567,
-    requires = ns.requirement.Quest(85780), -- ![Right Where We Want Him]
+    requires = ns.requirement.Quest(83130), -- ![Sour Victory]
     rewards = {Achievement({id = 41588, criteria = 103108})}
 }) -- A Threatening Letter
 
 map.nodes[39622690] = UndermineLoreBook({
     location = L['in_sewer'],
     quest = 86572,
-    requires = ns.requirement.Quest(85780), -- ![Right Where We Want Him]
+    requires = ns.requirement.Quest(83130), -- ![Sour Victory]
     rewards = {Achievement({id = 41588, criteria = 103106})}
 }) -- First Half of Noggenfogger's Journal
 
 map.nodes[32805895] = UndermineLoreBook({
     location = L['in_sewer'],
     quest = 86571,
-    requires = ns.requirement.Quest(85780), -- ![Right Where We Want Him]
+    requires = ns.requirement.Quest(83130), -- ![Sour Victory]
     rewards = {Achievement({id = 41588, criteria = 103109})}
 }) -- Second Half of Noggenfogger's Journal
 
@@ -520,7 +520,7 @@ map.nodes[60966439] = UndermineLoreBook({
     location = L['gallywixs_notes_location'],
     pois = {Entrance({58685937})},
     quest = 86573,
-    requires = ns.requirement.Quest(85780), -- ![Right Where We Want Him]
+    requires = ns.requirement.Quest(83130), -- ![Sour Victory]
     rewards = {Achievement({id = 41588, criteria = 103111})}
 }) -- Gallywix's Notes
 
