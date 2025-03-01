@@ -1,3 +1,7 @@
+# v116
+
+* Localization updates: ruRU
+
 # v115
 
 * .TOC updates.
