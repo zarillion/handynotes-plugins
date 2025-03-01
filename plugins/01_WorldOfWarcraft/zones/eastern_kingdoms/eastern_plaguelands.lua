@@ -2,8 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -12,6 +16,60 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 23, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[33604680] = Rare({
+    id = 10826,
+    rewards = {Transmog({item = 16039, type = L['2h_sword']})} -- Ta'Kierthan Songblade
+}) -- Lord Darkscythe
+
+map.nodes[35806200] = Rare({
+    id = 10817,
+    rewards = {Transmog({item = 7479, type = L['leather']})} -- Ranger Helm
+}) -- Duggan Wildhammer
+
+map.nodes[35602160] = Rare({
+    id = 10819,
+    rewards = {Transmog({item = 9970, type = L['plate']})} -- Embossed Plate Leggings
+}) -- Baron Bloodbane
+
+map.nodes[47602140] = Rare({
+    id = 10824,
+    rewards = {
+        Transmog({item = 7544, type = L['cloak']}), -- Champion's Cape
+        Transmog({item = 7531, type = L['leather']}), -- Cabalist Boots
+        Transmog({item = 7469, type = L['cloth']}) -- Regal Leggings
+    }
+}) -- Death-Hunter Hawkspear
+
+map.nodes[23807860] = Rare({
+    id = 51053,
+    note = 'in crypt?',
+    rewards = {Transmog({item = 7468, type = L['cloth']})} -- Regal Robe
+}) -- Quirix
+
+map.nodes[39405560] = Rare({
+    id = 50779,
+    rewards = {Transmog({item = 9919, type = L['cloak']})} -- Tracker's Cloak
+}) -- Sporeggon
+
+map.nodes[64001240] = Rare({
+    id = 10823,
+    rewards = {Transmog({item = 10089, type = L['plate']})} -- Gothic Sabatons
+}) -- Zul'Brin Warpbranch
+
+map.nodes[79003900] = Rare({
+    id = 10821,
+    rewards = {Transmog({item = 9928, type = L['mail']})} -- Brigade Breastplate
+}) -- Hed'mush the Rotting
+
+map.nodes[55206860] = Rare({
+    id = 1843,
+    rewards = {Transmog({item = 7544, type = L['cloak']})} -- Champion's Cape
+}) -- Foreman Jerris
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

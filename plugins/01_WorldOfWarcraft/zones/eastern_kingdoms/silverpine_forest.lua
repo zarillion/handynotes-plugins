@@ -2,8 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -12,6 +16,62 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 21, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[65802360] = Rare({
+    id = 1948,
+    rewards = {Transmog({item = 4445, type = L['1h_axe']})} -- Flesh Carver
+}) -- Snarlmane
+
+map.nodes[49206820] = Rare({
+    id = 50814,
+    rewards = {Transmog({item = 6554, type = L['leather']})} -- Bard's Gloves
+}) -- Corpsefeeder
+
+map.nodes[64004660] = Rare({
+    id = 50949,
+    rewards = {Transmog({item = 6541, type = L['cloth']})} -- Willow Gloves
+}) -- Finn's Gambit
+
+map.nodes[50206000] = Rare({
+    id = 47023,
+    rewards = {Transmog({item = 6577, type = L['mail']})} -- Defender Gauntlets
+}) -- Thule Ravenclaw
+
+map.nodes[50002940] = Rare({
+    id = 51026,
+    rewards = {
+        Transmog({item = 6337, type = L['mail']}), -- Infantry Leggings
+        Transmog({item = 6267, type = L['cloth']}), -- Disciple's Pants
+        Transmog({item = 6269, type = L['leather']}) -- Pioneer Trousers
+    }
+}) -- Gnath
+
+map.nodes[57403020] = Rare({
+    id = 2283,
+    rewards = {
+        Transmog({item = 5969, type = L['cloak']}), -- Regent's Cloak
+        Transmog({item = 6628, type = L['cloth']}) -- Raven's Claws
+    }
+}) -- Ravenclaw Regent
+
+map.nodes[47006940] = Rare({
+    id = 47012,
+    rewards = {Transmog({item = 6545, type = L['mail']})} -- Soldier's Armor
+}) -- Effritus
+
+map.nodes[48802540] = Rare({
+    id = 47003,
+    rewards = {Transmog({item = 6267, type = L['cloth']})} -- Disciple's Pants
+}) -- Bolgaff
+
+map.nodes[52802600] = Rare({
+    id = 46981,
+    rewards = {Transmog({item = 68757, type = L['leather']})} -- Imbued Pioneer Gloves
+}) -- Nightlash
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

@@ -4,7 +4,10 @@
 local ADDON_NAME, ns = ...
 local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -13,6 +16,53 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 25, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[43603880] = Rare({
+    id = 2452,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 3011, type = L['leather']}), -- Feathered Headdress
+        Transmog({item = 6331, type = L['dagger']}) -- Howling Blade
+    }
+}) -- Skhowl
+
+map.nodes[56805480] = Rare({
+    id = 51022,
+    rewards = {Transmog({item = 6578, type = L['mail']})} -- Defender Leggings
+}) -- Chordix
+
+map.nodes[51808680] = Rare({
+    id = 50967,
+    rewards = {Transmog({item = 9805, type = L['cloak']})} -- Superior Cloak
+}) -- Craw the Ravager
+
+map.nodes[63208580] = Rare({
+    id = 14275,
+    faction = 'Horde',
+    rewards = {
+        Transmog({item = 3053, type = L['mail']}), -- Humbert's Chestpiece
+        Transmog({item = 3693, type = L['unknown']}) -- Humbert's Sword
+    }
+}) -- Tamra Stormpike
+
+map.nodes[49401840] = Rare({
+    id = 2453,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 6327, type = L['2h_mace']}), -- The Pacifier
+        Transmog({item = 4810, type = L['leather']}), -- Boulder Pads
+        Transmog({item = 1678, type = L['mail']}) -- Black Ogre Kickers
+    }
+}) -- Lo'Grosh
+
+map.nodes[46807600] = Rare({
+    id = 50955,
+    rewards = {Transmog({item = 6578, type = L['mail']})} -- Defender Leggings
+}) -- Carcinak
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

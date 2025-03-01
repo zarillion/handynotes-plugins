@@ -2,10 +2,13 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -17,6 +20,61 @@ local map = ns.Map({id = 27, settings = true})
 local ironforge = ns.Map({id = 87, settings = true})
 local new_tinkertown = ns.Map({id = 469, settings = true})
 local coldridge_valley = ns.Map({id = 427, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[67805880] = Rare({
+    id = 1130,
+    rewards = {Transmog({item = 2069, type = L['leather']})} -- Black Bear Hide Vest
+}) -- Bjarn
+
+new_tinkertown.nodes[40804520] = Rare({
+    id = 8503,
+    parent = map.id,
+    rewards = {
+        Transmog({item = 10554, type = L['cloth']}), -- Foreman Pants
+        Transmog({item = 10553, type = L['cloth']}) -- Foreman Vest
+    }
+}) -- Gibblewilt
+
+new_tinkertown.nodes[67603580] = Rare({
+    id = 1132,
+    parent = map.id,
+    rewards = {
+        Transmog({item = 3224, type = L['cloth']}), -- Silver-Lined Bracers
+        Transmog({item = 1965, type = L['leather']}) -- White Wolf Gloves
+    }
+}) -- Timber
+
+new_tinkertown.nodes[12345678] = Rare({
+    id = 1260,
+    location = L['in_cave'],
+    parent = map.id,
+    rewards = {
+        Transmog({item = 2546, type = L['mail']}), -- Royal Frostmane Girdle
+        Transmog({item = 3223, type = L['1h_mace']}) -- Frostmane Scepter
+    }
+}) -- Great Father Arctikus
+
+map.nodes[35204960] = Rare({
+    id = 1137,
+    note = 'in the grizzled den cave',
+    rewards = {
+        Transmog({item = 3008, type = L['cloak']}), -- Wendigo Fur Cloak
+        Transmog({item = 3225, type = L['dagger']}) -- Bloodstained Knife
+    }
+}) -- Edan the Howler
+
+map.nodes[57003960] = Rare({
+    id = 1119,
+    note = 'in gol bolar qarry cave',
+    rewards = {
+        Transmog({item = 763, type = L['leather']}), -- Ice-Covered Bracers
+        Transmog({item = 2254, type = L['2h_mace']}) -- Icepane Warhammer
+    }
+}) -- Hammerspine
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

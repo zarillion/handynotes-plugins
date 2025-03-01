@@ -2,8 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -12,6 +16,43 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 56, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[48007460] = Rare({
+    id = 2090,
+    rewards = {
+        Transmog({item = 5750, type = L['mail']}), -- Warchief's Girdle
+        Transmog({item = 5749, type = L['2h_axe']}) -- Scythe Axe
+    }
+}) -- Ma'ruk Wyrmscale <Dragonmaw Warlord>
+
+map.nodes[69802920] = Rare({
+    id = 1140,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 6198, type = L['leather']}), -- Jurassic Wristguards
+        Transmog({item = 4463, type = L['cloth']}) -- Beaded Raptor Collar
+    }
+}) -- Razormaw Matriarch
+
+map.nodes[46806360] = Rare({
+    id = 1112,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 4444, type = L['shield']}) -- Black Husk Shield
+    }
+}) -- Leech Widow
+
+map.nodes[38604620] = Rare({
+    id = 2108,
+    rewards = {
+        Transmog({item = 6200, type = L['mail']}), -- Garneg's War Belt
+        Transmog({item = 3392, type = L['leather']}) -- Ringed Helm
+    }
+}) -- Garneg Charskull
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

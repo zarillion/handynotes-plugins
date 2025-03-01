@@ -2,11 +2,13 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local Map = ns.Map
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -14,7 +16,58 @@ local POI = ns.poi.POI
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({id = 32, settings = true})
+local map = ns.Map({id = 32, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[57802440] = Rare({
+    id = 50846,
+    rewards = {
+        Transmog({item = 9924, type = L['leather']}), -- Tracker's Tunic
+        Transmog({item = 10185, type = L['cloak']}) -- Swashbuckler's Cape
+    }
+}) -- Slavermaw
+
+map.nodes[66004620] = Rare({
+    id = 50948,
+    rewards = {
+        Transmog({item = 9937, type = L['cloth']}), -- Abjurer's Bands
+        Transmog({item = 10091, type = L['plate']}) -- Gothic Plate Leggings
+    }
+}) -- Crystalback
+
+map.nodes[38204440] = Rare({
+    id = 8283,
+    rewards = {Transmog({item = 10060, type = L['cloak']})} -- Duskwoven Cape
+}) -- Slave Master Blackheart
+
+map.nodes[71201780] = Rare({
+    id = 50876,
+    rewards = {
+        Transmog({item = 10201, type = L['plate']}), -- Overlord's Greaves
+        Transmog({item = 9962, type = L['mail']}) -- Warmonger's Greaves
+    }
+}) -- Avis
+
+map.nodes[35005200] = Rare({
+    id = 51010,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 9962, type = L['mail']}), -- Warmonger's Greaves
+        Transmog({item = 9945, type = L['cloth']}) -- Abjurer's Sash
+    }
+}) -- Snips
+
+map.nodes[18403880] = Rare({
+    id = 51002,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 7523, type = L['cloth']}), -- Gossamer Shoulderpads
+        Transmog({item = 10069, type = L['leather']}) -- Righteous Bracers
+    }
+}) -- Scorpoxx
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

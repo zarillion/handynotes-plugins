@@ -2,8 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -12,6 +16,64 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 14, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[68606660] = Rare({
+    id = 2606,
+    rewards = {
+        Transmog({item = 2622, type = L['cloth']}), -- Nimar's Tribal Headdress
+        Transmog({item = 5257, type = L['cloak']}) -- Dark Hooded Cape
+    }
+}) -- Nimar the Slayer
+
+map.nodes[15408880] = Rare({
+    id = 2779,
+    rewards = {
+        Transmog({item = 7484, type = L['leather']}), -- Ranger Wristguards
+        Transmog({item = 9878, type = L['cloth']}) -- Sorcerer Hat
+    }
+}) -- Prince Nazjak
+
+map.nodes[30206040] = Rare({
+    id = 51067,
+    rewards = {Transmog({item = 6611, type = L['cloth']})} -- Sage's Sash
+}) -- Glint
+
+map.nodes[56605660] = Rare({
+    id = 50940,
+    rewards = {Transmog({item = 9796, type = L['cloth']})} -- Ivycloth Mantle
+}) -- Swee
+
+map.nodes[24604480] = Rare({
+    id = 2603,
+    rewards = {Transmog({item = 5256, type = L['1h_mace']})} -- Kovork's Rattle
+}) -- Kovork
+
+map.nodes[27402780] = Rare({
+    id = 2600,
+    rewards = {
+        Transmog({item = 5181, type = L['cloak']}), -- Vibrant Silk Cape
+        Transmog({item = 5180, type = L['unknown']}) -- Necklace of Harmony
+    }
+}) -- Singer
+
+map.nodes[79602960] = Rare({
+    id = 2609,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 5743, type = L['unknown']}), -- Prismstone Ring
+        Transmog({item = 5742, type = L['dagger']}) -- Gemstone Dagger
+    }
+}) -- Geomancer Flintdagger
+
+map.nodes[62808100] = Rare({
+    id = 2605,
+    location = L['in_cave'],
+    rewards = {Transmog({item = 9904, type = L['mail']})} -- Jazeraint Pauldrons
+}) -- Zalas Witherbark
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

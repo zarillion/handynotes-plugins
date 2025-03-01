@@ -2,9 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local Map = ns.Map
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -12,9 +15,43 @@ local POI = ns.poi.POI
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({id = 57, settings = true})
-local darnassus = Map({id = 89, settings = true})
-local shadowglen = Map({id = 460, settings = true})
+local map = ns.Map({id = 57, settings = true})
+local darnassus = ns.Map({id = 89, settings = true})
+local shadowglen = ns.Map({id = 460, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[53004460] = Rare({
+    id = 14432,
+    location = L['in_cave'],
+    rewards = {Transmog({item = 18610, type = L['1h_sword']})} -- Keen Machete
+}) -- Threggil
+
+map.nodes[47204560] = Rare({
+    id = 2162,
+    location = L['in_small_cave'],
+    rewards = {
+        Transmog({item = 68745, type = L['leather']}), -- Imbued Primal Belt
+        Transmog({item = 68746, type = L['cloak']}) -- Imbued Primal Cape
+    }
+}) -- Agal
+
+map.nodes[65405160] = Rare({
+    id = 14428,
+    rewards = {Transmog({item = 18611, type = L['leather']})} -- Gnarlpine Leggings
+}) -- Uruson
+
+map.nodes[38803420] = Rare({
+    id = 14431,
+    rewards = {
+        Transmog({item = 5204, type = L['unknown']}), -- Bloodfeather Belt
+        Transmog({item = 18612, type = L['mail']}) -- Bloody Chain Boots
+    },
+    pois = {POI({37003040, 38803420, 39603740})}
+}) -- Fury Shelda
+
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
 -------------------------------------------------------------------------------

@@ -2,18 +2,77 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
+local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 48, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[12345678] = Rare({
+    id = 2476,
+    rewards = {
+        Transmog({item = 3563, type = L['cloth']}), -- Seafarer's Pantaloons
+        Transmog({item = 6197, type = L['leather']}) -- Loch Croc Hide Vest
+    }
+}) -- Gosh-Haldir
+
+map.nodes[25602940] = Rare({
+    id = 1425,
+    rewards = {
+        Transmog({item = 6195, type = L['mail']}), -- Wax-Polished Armor
+        Transmog({item = 2284, type = L['cloak']}) -- Rat Cloth Cloak
+    }
+}) -- Kubb
+
+map.nodes[70406460] = Rare({
+    id = 1398,
+    rewards = {
+        Transmog({item = 1215, type = L['leather']}), -- Support Girdle
+        Transmog({item = 1938, type = L['1h_mace']}) -- Block Mallet
+    }
+}) -- Boss Galgosh
+
+map.nodes[31007560] = Rare({
+    id = 1399,
+    rewards = {
+        Transmog({item = 2241, type = L['cloak']}), -- Desperado Cape
+        Transmog({item = 3571, type = L['2h_mace']}) -- Trogg Beater
+    }
+}) -- Magosh
+
+map.nodes[43604840] = Rare({
+    id = 45401,
+    rewards = {
+        Transmog({item = 9747, type = L['cloth']}), -- Simple Britches
+        Transmog({item = 9763, type = L['mail']}), -- Cadet Leggings
+        Transmog({item = 9756, type = L['leather']}) -- Nomad Trousers
+    },
+    pois = {Path({45403740, 43004360, 43604840, 44805260, 49605700})}
+}) -- Whitefin
+
+map.nodes[35601560] = Rare({
+    id = 45398,
+    rewards = {
+        Transmog({item = 9756, type = L['leather']}), -- Nomad Trousers
+        Transmog({item = 9747, type = L['cloth']}), -- Simple Britches
+        Transmog({item = 9763, type = L['mail']}) -- Cadet Leggings
+    }
+}) -- Grizlak
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

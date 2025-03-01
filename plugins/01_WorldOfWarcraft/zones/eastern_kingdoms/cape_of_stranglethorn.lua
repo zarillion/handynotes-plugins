@@ -2,10 +2,14 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
+local Toy = ns.reward.Toy
 
 local POI = ns.poi.POI
 
@@ -14,6 +18,29 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 210, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[67802560] = Rare({
+    id = 1552,
+    rewards = {
+        Transmog({item = 4478, type = L['mail']}), -- Iridescent Scale Leggings
+        Transmog({item = 1604, type = L['2h_sword']}) -- Chromatic Sword
+    }
+}) -- Scale Belly
+
+map.nodes[36406720] = Rare({
+    id = 108715,
+    location = L['in_water'],
+    rewards = {Toy({item = 138415})} -- Slightly-Chewed Insult Book
+}) -- Ol' Eary
+
+map.nodes[43604920] = Rare({
+    id = 2541,
+    rewards = {Transmog({item = 5028, type = L['offhand']})} -- Lord Sakrasis' Scepter
+}) -- Lord Sakrasis
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

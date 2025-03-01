@@ -2,10 +2,13 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 -- local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -14,6 +17,29 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 22, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[66205560] = Rare({
+    id = 50931,
+    rewards = {Transmog({item = 7418, slot = L['mail']})} -- Phalanx Breastplate
+}) -- Mange
+
+map.nodes[35805260] = Rare({
+    id = 50809,
+    rewards = {
+        Transmog({item = 7454, slot = L['mail']}), -- Knight's Breastplate
+        Transmog({item = 7440, slot = L['leather']}), -- Sentinel Trousers
+        Transmog({item = 9875, slot = L['cloth']}) -- Sorcerer Sash
+    }
+}) -- Heress
+
+map.nodes[62604720] = Rare({
+    id = 51031,
+    rewards = {Transmog({item = 9848, slot = L['cloth']})} -- Conjurer's Gloves
+}) -- Tracker
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
