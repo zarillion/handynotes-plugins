@@ -576,7 +576,7 @@ L['complete_event'] = 'Поговорите с {npc:%d} и завершите с
 L['in_sewer'] = 'В канализации. Используйте близлежащую {object:Канализационную решетку}, чтобы войти.'
 L['and_slimesby'] = 'и {npc:230947}'
 
-L['inert_plunger_label'] = 'Inert Plunger?'
+L['inert_plunger_label'] = 'Неподвижный поршень'
 L['exploded_plunger_label'] = 'Взорвавшийся поршень'
 
 L['unexploded_fireworks_location'] = 'На крыше {location:Заднего Парка}.'
