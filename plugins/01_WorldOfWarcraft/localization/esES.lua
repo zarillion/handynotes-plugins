@@ -16,9 +16,9 @@ L['options_icons_crazyforcats'] = '{achievement:8397}'
 L['options_icons_crazyforcats_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:8397}.'
 L['cfc_blacktabby'] = 'La {item:8491} se puede despojar de varios enemigos en las {location:Laderas de Trabalomas}.\n\nLos enemigos recomendados son el {npc:49116} (sólo para la Horda), el {npc:48017} o el {npc:2248}.\n\n{note:Posibilidades de caer de un 0,1%.}'
 
-L['in_crypt'] = nil
-L['shovelphlange_location'] = nil
-L['lower_floor'] = nil
+L['in_crypt'] = 'En la cripta.'
+L['shovelphlange_location'] = 'En la zona de entrada/cueva a Uldaman.'
+L['lower_floor'] = 'En el piso inferior.'
 
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------
