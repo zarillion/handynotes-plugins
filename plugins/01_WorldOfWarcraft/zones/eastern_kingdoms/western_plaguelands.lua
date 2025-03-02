@@ -36,7 +36,7 @@ map.nodes[35805260] = Rare({
     }
 }) -- Heress
 
-map.nodes[62604720] = Rare({
+map.nodes[62414723] = Rare({
     id = 51031,
     rewards = {Transmog({item = 9848, slot = L['cloth']})} -- Conjurer's Gloves
 }) -- Tracker

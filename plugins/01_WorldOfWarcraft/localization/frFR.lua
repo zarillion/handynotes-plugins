@@ -20,6 +20,7 @@ L['cfc_blacktabby'] = 'Le {item:8491} peut être récupéré sur différents enn
 L['in_crypt'] = 'Dans la crypte.'
 L['shovelphlange_location'] = 'Dans la grotte où se trouve l\'entrée d\'Uldaman.'
 L['lower_floor'] = 'A l\'étage inférieur.'
+L['bl_rare_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------

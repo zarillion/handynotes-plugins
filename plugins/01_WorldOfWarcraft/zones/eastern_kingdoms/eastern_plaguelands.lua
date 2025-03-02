@@ -23,20 +23,28 @@ local map = ns.Map({id = 23, settings = true})
 
 map.nodes[33604680] = Rare({
     id = 10826,
-    rewards = {Transmog({item = 16039, type = L['2h_sword']})} -- Ta'Kierthan Songblade
+    rewards = {Transmog({item = 16039, type = L['2h_sword']})}, -- Ta'Kierthan Songblade
+    pois = {
+        ns.poi.Path({
+            33204782, 33454847, 33994885, 34574922, 35244888, 35724838,
+            36154788, 36474717, 36914657, 37404611, 37424536, 37284470,
+            36924412, 36334364, 35654363, 35164408, 34994474, 34894541,
+            34424596, 33914642, 33394685, 33254750, 33234817, 33724863
+        })
+    }
 }) -- Lord Darkscythe
 
-map.nodes[35806200] = Rare({
+map.nodes[36026203] = Rare({
     id = 10817,
     rewards = {Transmog({item = 7479, type = L['leather']})} -- Ranger Helm
 }) -- Duggan Wildhammer
 
-map.nodes[35602160] = Rare({
+map.nodes[35652135] = Rare({
     id = 10819,
     rewards = {Transmog({item = 9970, type = L['plate']})} -- Embossed Plate Leggings
 }) -- Baron Bloodbane
 
-map.nodes[47602140] = Rare({
+map.nodes[47392128] = Rare({
     id = 10824,
     rewards = {
         Transmog({item = 7544, type = L['cloak']}), -- Champion's Cape
@@ -45,9 +53,9 @@ map.nodes[47602140] = Rare({
     }
 }) -- Death-Hunter Hawkspear
 
-map.nodes[23807860] = Rare({
+map.nodes[23497857] = Rare({
     id = 51053,
-    note = 'in crypt?',
+    note = L['in_crypt'],
     rewards = {Transmog({item = 7468, type = L['cloth']})} -- Regal Robe
 }) -- Quirix
 
@@ -56,7 +64,7 @@ map.nodes[39405560] = Rare({
     rewards = {Transmog({item = 9919, type = L['cloak']})} -- Tracker's Cloak
 }) -- Sporeggon
 
-map.nodes[64001240] = Rare({
+map.nodes[64141211] = Rare({
     id = 10823,
     rewards = {Transmog({item = 10089, type = L['plate']})} -- Gothic Sabatons
 }) -- Zul'Brin Warpbranch

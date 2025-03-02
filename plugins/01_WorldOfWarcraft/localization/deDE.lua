@@ -19,6 +19,7 @@ L['cfc_blacktabby'] = '{item:8491} kann von verschiedensten Gegnern im {location
 L['in_crypt'] = 'In der Krypta.'
 L['shovelphlange_location'] = 'Im Ausgrabungszentrum vor dem Uldaman Eingang.'
 L['lower_floor'] = 'In der unteren Etage.'
+L['bl_rare_note'] = 'Alle seltenen Gegner in {location:Verwüstete Lande} können entweder {item:8244} oder {item:10593} fallen lassen welche du bei {npc:7363} gegen Items eintauschen kannst.'
 
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------

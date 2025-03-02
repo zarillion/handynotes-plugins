@@ -24,6 +24,7 @@ local map = ns.Map({id = 95, settings = true})
 
 local Whitherlimb = Class('whitherlimb', Rare, {
     id = 22062,
+    fgroup = 'whitherlimb',
     rewards = {
         Transmog({item = 31270, type = L['wand']}), -- Banshee Rod
         Transmog({item = 31269, type = L['1h_mace']}), -- Ghoul Hammer
@@ -31,10 +32,10 @@ local Whitherlimb = Class('whitherlimb', Rare, {
     }
 }) -- Dr. Whitherlimb
 
-map.nodes[34604760] = Whitherlimb()
-map.nodes[40604960] = Whitherlimb()
-map.nodes[29608880] = Whitherlimb()
-map.nodes[35608960] = Whitherlimb()
+map.nodes[34314754] = Whitherlimb()
+map.nodes[40344988] = Whitherlimb()
+map.nodes[29268891] = Whitherlimb()
+map.nodes[35788914] = Whitherlimb()
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

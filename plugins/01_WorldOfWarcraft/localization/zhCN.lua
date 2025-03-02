@@ -19,6 +19,7 @@ L['cfc_blacktabby'] = '{item:8491} 可以从 {location:希尔斯布莱德丘陵}
 L['in_crypt'] = nil
 L['shovelphlange_location'] = nil
 L['lower_floor'] = nil
+L['bl_rare_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------

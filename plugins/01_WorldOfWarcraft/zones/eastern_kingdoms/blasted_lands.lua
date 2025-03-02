@@ -2,12 +2,14 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
 local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
@@ -21,6 +23,88 @@ local map = Map({id = 17, settings = true})
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
+
+map.nodes[48753194] = ns.node.Collectible({
+    id = 7363,
+    note = L['bl_rare_note'],
+    scale = 1.5,
+    icon = 132596,
+    rewards = {
+        Transmog({item = 13102, type = L['cloth']}), -- Cassandra's Grace
+        Transmog({item = 13009, type = L['leather']}), -- Cow King's Hide
+        Transmog({item = 13008, type = L['cloth']}), -- Dalewind Trousers
+        Transmog({item = 6660, type = L['dagger']}), -- Julie's Dagger
+        Transmog({item = 13144, type = L['cloth']}), -- Serenity Belt
+        Transmog({item = 13052, type = L['2h_sword']}), -- Warmonger
+        Transmog({item = 1203, type = L['shield']}), -- Aegis of Stormwind
+        Transmog({item = 13014, type = L['1h_axe']}), -- Axe of Rin'ji
+        Transmog({item = 13027, type = L['1h_mace']}), -- Bonesnapper
+        Transmog({item = 13122, type = L['cloak']}), -- Dark Phantom Cape
+        Transmog({item = 13120, type = L['leather']}), -- Deepfury Bracers
+        Transmog({item = 13018, type = L['2h_axe']}), -- Executioner's Cleaver
+        Transmog({item = 9433, type = L['cloth']}), -- Forgotten Wraps
+        Transmog({item = 13074, type = L['plate']}), -- Golem Shard Leggings
+        Transmog({item = 13139, type = L['gun']}), -- Guttbuster
+        Transmog({item = 13073, type = L['plate']}), -- Mugthol's Helm
+        Transmog({item = 13111, type = L['leather']}), -- Sandals of the Insurgent
+        Transmog({item = 754, type = L['1h_sword']}), -- Shortsword of Vengeance
+        Transmog({item = 13039, type = L['crossbow']}), -- Skull Splitting Crossbow
+        Transmog({item = 13059, type = L['polearm']}), -- Stoneraven
+        Transmog({item = 13134, type = L['mail']}), -- Belt of the Gladiator
+        Transmog({item = 8190, type = L['1h_sword']}), -- Hanzo Sword
+        Transmog({item = 4090, type = L['1h_mace']}), -- Mug O' Hurt
+        Transmog({item = 1607, type = L['staff']}), -- Soulkeeper
+        Transmog({item = 1721, type = L['1h_mace']}), -- Viking Warhammer
+        Transmog({item = 13109, type = L['cloak']}), -- Blackflame Cape
+        Transmog({item = 13046, type = L['2h_mace']}), -- Blanchard's Stout
+        Transmog({item = 13021, type = L['bow']}), -- Needle Threader
+        Transmog({item = 13065, type = L['wand']}), -- Wand of Allistarj
+        Transmog({item = 13112, type = L['leather']}), -- Winged Helm
+        Transmog({item = 13066, type = L['plate']}), -- Wyrmslayer Spaulders
+        Transmog({item = 13030, type = L['offhand']}), -- Basilisk Bone
+        Transmog({item = 13043, type = L['2h_sword']}), -- Blade of the Titans
+        Transmog({item = 13055, type = L['polearm']}), -- Bonechewer
+        Transmog({item = 2564, type = L['leather']}), -- Elven Spirit Claws
+        Transmog({item = 13022, type = L['bow']}), -- Gryphonwing Long Bow
+        Transmog({item = 13067, type = L['plate']}), -- Hydralick Armor
+        Transmog({item = 13035, type = L['1h_sword']}), -- Serpent Slicer
+        Transmog({item = 13125, type = L['mail']}), -- Elven Chain Boots
+        Transmog({item = 13076, type = L['plate']}), -- Giantslayer Bracers
+        Transmog({item = 13128, type = L['mail']}), -- High Bergg Helm
+        Transmog({item = 13082, type = L['shield']}), -- Mountainside Buckler
+        Transmog({item = 4091, type = L['dagger']}), -- Widowmaker
+        Transmog({item = 13126, type = L['mail']}), -- Battlecaller Gauntlets
+        Transmog({item = 1720, type = L['staff']}) -- Tanglewood Staff
+    }
+})
+
+local BLRare = Class('BLRare', ns.node.Rare, {
+    rewards = {
+        Item({item = 8244}), -- Flawless Draenethyst Sphere
+        Item({item = 10593}) -- Imperfect Draenethyst Fragment
+    },
+    IsCompleted = function() return map.nodes[48753194]:IsCompleted() end,
+    IsEnabled = function() return map.nodes[48753194]:IsEnabled() end
+}) -- Blasted Lands Rare
+
+map.nodes[73625527] = BLRare({id = 8298}) -- Akubar the Seer
+map.nodes[31087015] = BLRare({id = 45260}) -- Bkackleaf
+map.nodes[60697510] = BLRare({id = 45258}) -- Cassia the Slitherqueen
+map.nodes[47601460] = BLRare({id = 8301}) -- Clack the Reaver
+map.nodes[52582737] = BLRare({id = 8302}) -- Deatheye
+map.nodes[36982852] = BLRare({id = 8304}) -- Dreadscorn
+map.nodes[55604000] = BLRare({id = 8303}) -- Grunter
+map.nodes[46813939] = BLRare({id = 8297}) -- Magronos the Unyielding
+map.nodes[46402660] = BLRare({
+    id = 8296,
+    location = L['in_cave'],
+    pois = {POI({45103042})}
+}) -- Mojo the Twisted
+map.nodes[60482959] = BLRare({id = 45257}) -- Mordak Nightbender
+map.nodes[32184441] = BLRare({id = 45262}) -- Narixxus the Doombringer
+map.nodes[49313534] = BLRare({id = 8300}) -- Ravage
+map.nodes[62003660] = BLRare({id = 8299}) -- Spiteflayer
+map.nodes[52404920] = BLRare({id = 7846}) -- Teremus the Devourer
 
 map.nodes[33604960] = ns.node.AnniversaryRare({
     id = 121818,

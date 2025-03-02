@@ -19,6 +19,7 @@ L['cfc_blacktabby'] = 'La {item:8491} se puede despojar de varios enemigos en la
 L['in_crypt'] = 'En la cripta.'
 L['shovelphlange_location'] = 'En la cueva con la entrada a Uldaman.'
 L['lower_floor'] = 'En el piso inferior.'
+L['bl_rare_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------

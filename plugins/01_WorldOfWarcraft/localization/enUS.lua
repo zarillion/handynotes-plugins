@@ -19,6 +19,7 @@ L['cfc_blacktabby'] = '{item:8491} can be looted from various enemys in {locatio
 L['in_crypt'] = 'In the Crypt.'
 L['shovelphlange_location'] = 'In the entrance/cave area to Uldaman.'
 L['lower_floor'] = 'On the lower floor.'
+L['bl_rare_note'] = 'All rares in {location:Blasted Lands} can drop either {item:8244} or {item:10593} which you can exchange for items at {npc:7363}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------
