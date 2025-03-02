@@ -17,9 +17,9 @@ L['options_icons_crazyforcats'] = '{achievement:8397}'
 L['options_icons_crazyforcats_desc'] = 'Afficher les emplacements des familiers de combat pour le haut-fait {achievement:8397}.'
 L['cfc_blacktabby'] = 'Le {item:8491} peut être récupéré sur différents ennemis aux {location:Contreforts de Hautebrande}.\n\nLes ennemis recommandés sont {npc:49116} (Horde uniquement), {npc:48017} ou {npc:2248}.\n\n{note:Taux de loot en dessous de 0,1%.}'
 
-L['in_crypt'] = nil
-L['shovelphlange_location'] = nil
-L['lower_floor'] = nil
+L['in_crypt'] = 'Dans la crypte.'
+L['shovelphlange_location'] = 'Dans la grotte où se trouve l\'entrée d\'Uldaman.'
+L['lower_floor'] = 'A l\'étage inférieur.'
 
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------
