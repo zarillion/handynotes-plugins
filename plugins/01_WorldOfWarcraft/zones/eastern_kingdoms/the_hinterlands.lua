@@ -26,7 +26,7 @@ local map = ns.Map({id = 26, settings = true})
 map.nodes[64808160] = Rare({
     id = 8217,
     rewards = {
-        Transmog({item = 17050, type = L['cloth']}), -- Chan's Imperial Robes
+        Transmog({item = 17050, type = L['cloth']}) -- Chan's Imperial Robes
     }
 }) -- Mith'rethis the Enchanter
 

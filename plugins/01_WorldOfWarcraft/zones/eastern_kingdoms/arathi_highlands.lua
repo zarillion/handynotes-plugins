@@ -56,9 +56,7 @@ map.nodes[24104470] = Rare({
 
 map.nodes[27572777] = Rare({
     id = 2600,
-    rewards = {
-        Transmog({item = 5181, type = L['cloak']})
-    } -- Vibrant Silk Cape
+    rewards = {Transmog({item = 5181, type = L['cloak']})} -- Vibrant Silk Cape
 }) -- Singer
 
 map.nodes[79602960] = Rare({
