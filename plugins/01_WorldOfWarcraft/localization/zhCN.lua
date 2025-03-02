@@ -16,6 +16,10 @@ L['options_icons_crazyforcats'] = '{achievement:8397}'
 L['options_icons_crazyforcats_desc'] = '显示 {achievement:8397} 成就中战斗宠物的位置。'
 L['cfc_blacktabby'] = '{item:8491} 可以从 {location:希尔斯布莱德丘陵} 的各种敌人身上拾取。\n\n推荐的敌人是 {npc:49116}（仅限部落）、{npc:48017} 或 {npc:2248}。\n\n{note:掉率低于0.1%。}'
 
+L['in_crypt'] = nil
+L['shovelphlange_location'] = nil
+L['lower_floor'] = nil
+
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------
 -------------------------------------------------------------------------------

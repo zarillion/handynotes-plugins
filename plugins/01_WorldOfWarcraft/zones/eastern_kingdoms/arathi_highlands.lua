@@ -37,27 +37,28 @@ map.nodes[15408880] = Rare({
     }
 }) -- Prince Nazjak
 
-map.nodes[30206040] = Rare({
+map.nodes[30096133] = Rare({
     id = 51067,
     rewards = {Transmog({item = 6611, type = L['cloth']})} -- Sage's Sash
 }) -- Glint
 
-map.nodes[56605660] = Rare({
+map.nodes[56055698] = Rare({
     id = 50940,
     rewards = {Transmog({item = 9796, type = L['cloth']})} -- Ivycloth Mantle
 }) -- Swee
 
-map.nodes[24604480] = Rare({
+map.nodes[24104470] = Rare({
     id = 2603,
-    rewards = {Transmog({item = 5256, type = L['1h_mace']})} -- Kovork's Rattle
+    location = L['in_cave'],
+    rewards = {Transmog({item = 5256, type = L['1h_mace']})}, -- Kovork's Rattle
+    pois = {POI({28644534})}
 }) -- Kovork
 
-map.nodes[27402780] = Rare({
+map.nodes[27572777] = Rare({
     id = 2600,
     rewards = {
-        Transmog({item = 5181, type = L['cloak']}), -- Vibrant Silk Cape
-        Transmog({item = 5180, type = L['unknown']}) -- Necklace of Harmony
-    }
+        Transmog({item = 5181, type = L['cloak']})
+    } -- Vibrant Silk Cape
 }) -- Singer
 
 map.nodes[79602960] = Rare({
@@ -66,13 +67,15 @@ map.nodes[79602960] = Rare({
     rewards = {
         Transmog({item = 5743, type = L['unknown']}), -- Prismstone Ring
         Transmog({item = 5742, type = L['dagger']}) -- Gemstone Dagger
-    }
+    },
+    pois = {POI({78263678})}
 }) -- Geomancer Flintdagger
 
 map.nodes[62808100] = Rare({
     id = 2605,
     location = L['in_cave'],
-    rewards = {Transmog({item = 9904, type = L['mail']})} -- Jazeraint Pauldrons
+    rewards = {Transmog({item = 9904, type = L['mail']})}, -- Jazeraint Pauldrons
+    pois = {POI({63287765})}
 }) -- Zalas Witherbark
 
 -------------------------------------------------------------------------------

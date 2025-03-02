@@ -31,12 +31,12 @@ map.nodes[68603580] = Rare({
     }
 }) -- Rohh the Silent
 
-map.nodes[63806520] = Rare({
+map.nodes[63406590] = Rare({
     id = 52146,
     rewards = {Transmog({item = 3229, type = L['cloth']})} -- Tarantula Silk Sash
 }) -- Chitter
 
-map.nodes[38203580] = Rare({
+map.nodes[38003420] = Rare({
     id = 616,
     rewards = {Transmog({item = 3229, type = L['cloth']})} -- Tarantula Silk Sash
 }) -- Chatter

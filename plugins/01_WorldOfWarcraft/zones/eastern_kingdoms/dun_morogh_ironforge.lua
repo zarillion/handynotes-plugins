@@ -48,7 +48,7 @@ new_tinkertown.nodes[67603580] = Rare({
     }
 }) -- Timber
 
-new_tinkertown.nodes[12345678] = Rare({
+new_tinkertown.nodes[29806660] = Rare({
     id = 1260,
     location = L['in_cave'],
     parent = map.id,

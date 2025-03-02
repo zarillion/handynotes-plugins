@@ -16,6 +16,10 @@ L['options_icons_crazyforcats'] = '{achievement:8397}'
 L['options_icons_crazyforcats_desc'] = 'Display battle pet locations for the {achievement:8397} achievement.'
 L['cfc_blacktabby'] = '{item:8491} can be looted from various enemys in {location:Hillsbrad Foothills}.\n\nReccomended enemys are {npc:49116} (Horde only), {npc:48017} or {npc:2248}.\n\n{note:Drop chance under 0.1%.}'
 
+L['in_crypt'] = 'In the Crypt.'
+L['shovelphlange_location'] = 'In the entrance/cave area to Uldaman.'
+L['lower_floor'] = 'On the lower floor.'
+
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------
 -------------------------------------------------------------------------------

@@ -34,19 +34,20 @@ map.nodes[69802920] = Rare({
     location = L['in_cave'],
     rewards = {
         Transmog({item = 6198, type = L['leather']}), -- Jurassic Wristguards
-        Transmog({item = 4463, type = L['cloth']}) -- Beaded Raptor Collar
-    }
+        Transmog({item = 4463, type = L['cloth']}), -- Beaded Raptor Collar
+        ns.reward.Pet({item = 48124, id = 238}) -- Razormaw Hatchling
+    },
+    pois = {POI({69503560})}
 }) -- Razormaw Matriarch
 
 map.nodes[46806360] = Rare({
     id = 1112,
     location = L['in_cave'],
-    rewards = {
-        Transmog({item = 4444, type = L['shield']}) -- Black Husk Shield
-    }
+    rewards = {Transmog({item = 4444, type = L['shield']})}, -- Black Husk Shield
+    pois = {POI({52596282})}
 }) -- Leech Widow
 
-map.nodes[38604620] = Rare({
+map.nodes[38434603] = Rare({
     id = 2108,
     rewards = {
         Transmog({item = 6200, type = L['mail']}), -- Garneg's War Belt

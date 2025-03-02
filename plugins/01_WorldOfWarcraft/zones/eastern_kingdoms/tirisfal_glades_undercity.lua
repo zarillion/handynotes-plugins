@@ -23,7 +23,7 @@ local undercity = ns.Map({id = 90, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[56204260] = Rare({
+map.nodes[56124239] = Rare({
     id = 1944,
     rewards = {
         Transmog({item = 5975, type = L['leather']}), -- Ruffian Belt
@@ -31,7 +31,7 @@ map.nodes[56204260] = Rare({
     }
 }) -- Rot Hide Bruiser
 
-map.nodes[38005180] = Rare({
+map.nodes[34075212] = Rare({
     id = 1936,
     rewards = {
         Transmog({item = 4261, type = L['cloth']}), -- Solliden's Trousers
@@ -39,12 +39,12 @@ map.nodes[38005180] = Rare({
     }
 }) -- Farmer Solliden
 
-map.nodes[72602580] = Rare({
+map.nodes[72742587] = Rare({
     id = 1911,
     rewards = {Transmog({item = 4303, type = L['1h_mace']})} -- Cranial Thumper
 }) -- Deeb
 
-map.nodes[12345678] = Rare({
+map.nodes[35804300] = Rare({
     id = 1910,
     rewards = {Transmog({item = 4302, type = L['dagger']})} -- Small Green Dagger
 }) -- Muad

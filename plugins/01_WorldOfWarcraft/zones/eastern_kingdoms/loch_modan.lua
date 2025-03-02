@@ -23,7 +23,7 @@ local map = ns.Map({id = 48, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[12345678] = Rare({
+map.nodes[54605410] = Rare({
     id = 2476,
     rewards = {
         Transmog({item = 3563, type = L['cloth']}), -- Seafarer's Pantaloons
@@ -31,7 +31,7 @@ map.nodes[12345678] = Rare({
     }
 }) -- Gosh-Haldir
 
-map.nodes[25602940] = Rare({
+map.nodes[25103013] = Rare({
     id = 1425,
     rewards = {
         Transmog({item = 6195, type = L['mail']}), -- Wax-Polished Armor
@@ -39,15 +39,22 @@ map.nodes[25602940] = Rare({
     }
 }) -- Kubb
 
-map.nodes[70406460] = Rare({
+map.nodes[70356420] = Rare({
     id = 1398,
     rewards = {
         Transmog({item = 1215, type = L['leather']}), -- Support Girdle
         Transmog({item = 1938, type = L['1h_mace']}) -- Block Mallet
+    },
+    pois = {
+        Path({
+            68006598, 68766602, 69226666, 69526732, 70266755, 70696702,
+            70756629, 70696558, 70476494, 70356420, 70366353, 70316283,
+            70186209, 70146141, 70126060, 69815997, 68935975
+        })
     }
 }) -- Boss Galgosh
 
-map.nodes[31007560] = Rare({
+map.nodes[30677544] = Rare({
     id = 1399,
     rewards = {
         Transmog({item = 2241, type = L['cloak']}), -- Desperado Cape
@@ -65,7 +72,7 @@ map.nodes[43604840] = Rare({
     pois = {Path({45403740, 43004360, 43604840, 44805260, 49605700})}
 }) -- Whitefin
 
-map.nodes[35601560] = Rare({
+map.nodes[35801577] = Rare({
     id = 45398,
     rewards = {
         Transmog({item = 9756, type = L['leather']}), -- Nomad Trousers
