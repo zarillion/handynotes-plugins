@@ -20,7 +20,7 @@ L['cfc_blacktabby'] = 'Le {item:8491} peut être récupéré sur différents enn
 L['in_crypt'] = 'Dans la crypte.'
 L['shovelphlange_location'] = 'Dans la grotte où se trouve l\'entrée d\'Uldaman.'
 L['lower_floor'] = 'A l\'étage inférieur.'
-L['bl_rare_note'] = nil
+L['bl_rare_note'] = 'Tous les monstres rares dans les {location:Terres foudroyées} peuvent lacher soit des {item:8244}, soit des {item:10593} que vous pouvez échanger contre des objets auprès de {npc:7363}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------
