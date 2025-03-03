@@ -19,7 +19,7 @@ L['cfc_blacktabby'] = 'La {item:8491} se puede despojar de varios enemigos en la
 L['in_crypt'] = 'En la cripta.'
 L['shovelphlange_location'] = 'En la cueva con la entrada a Uldaman.'
 L['lower_floor'] = 'En el piso inferior.'
-L['bl_rare_note'] = nil
+L['bl_rare_note'] = 'Todos los raros de {location:Las Tierras Devastadas} pueden soltar tanto la {item:8244} como {item:10593} que puedes intercambiar por objetos de {npc:7363}.'
 
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------
