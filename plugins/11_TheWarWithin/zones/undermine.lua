@@ -430,8 +430,8 @@ map.nodes[52498333] = ScrapHeap({criteriaID = 103185}) -- The Heaps
 map.nodes[69577652] = ScrapHeap({criteriaID = 103186}) -- Emerald Hills Golf Course
 map.nodes[67482929] = ScrapHeap({criteriaID = 103187}) -- Blackwater Marina
 
-ns.tooltip.addRewardsToVignetteTooltip(map, ns.groups.SCRAP_REWARDS, 6687)
-ns.tooltip.addRewardsToVignetteTooltip(map, ns.groups.SCRAP_REWARDS, 6757)
+ns.hook.VignetteTooltip(ns.groups.SCRAP_REWARDS, 6687)
+ns.hook.VignetteTooltip(ns.groups.SCRAP_REWARDS, 6757)
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: NINE-TENTHS OF THE LAW ---------------------
