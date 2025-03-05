@@ -5,11 +5,13 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
+local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -20,6 +22,16 @@ local map = Map({id = 76, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[62607840] = Rare({
+    id = 6650,
+    rewards = {
+        Transmog({item = 17054, type = L['1h_sword']}) -- Joonho's Mercy
+    },
+    pois = {Path({59407760, 62607840, 63007960, 63608320})}
+}) -- General Fangferror
+
 -------------------------------------------------------------------------------
 
 map.nodes[48768382] = ns.node.AnniversaryRare({

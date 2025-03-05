@@ -2,10 +2,15 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 local Map = ns.Map
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
+local Transmog = ns.reward.Transmog
+
+local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -14,6 +19,43 @@ local POI = ns.poi.POI
 
 local map = Map({id = 7, settings = true})
 local thunderbluff = Map({id = 88, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[45604720] = Rare({
+    id = 3068,
+    rewards = {
+        Transmog({item = 4861, type = L['leather']}) -- Sleek Feathered Tunic
+    },
+    pois = {
+        Path({
+            45604720, 47604640, 49604360, 49804100, 47204060, 43604100,
+            42804620, 45604720
+        })
+    }
+}) -- Mazzranache
+
+map.nodes[55602440] = Rare({
+    id = 5807,
+    rewards = {
+        Transmog({item = 68746, type = L['cloak']}), -- Imbued Primal Cape
+        Transmog({item = 68745, type = L['leather']}), -- Imbued Primal Belt
+        Transmog({item = 17922, type = L['leather']}), -- Lionfur Armor
+        Transmog({item = 68743, type = L['cloak']}), -- Imbued Infantry Cloak
+        Transmog({item = 68744, type = L['cloak']}) -- Imbued Pioneer Cloak
+    }
+}) -- The Rake
+
+map.nodes[32602400] = Rare({
+    id = 5785,
+    rewards = {
+        Transmog({item = 4772, type = L['cloak']}), -- Warm Cloak
+        Transmog({item = 68756, type = L['cloak']}) -- Imbued Simple Cape
+    },
+    pois = {POI({53001180})}
+}) -- Sister Hatelash
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

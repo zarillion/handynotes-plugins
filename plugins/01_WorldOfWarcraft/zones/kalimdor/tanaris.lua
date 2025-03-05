@@ -5,6 +5,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Mount = ns.reward.Mount
@@ -12,6 +13,7 @@ local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
+local Path = ns.poi.Path
 local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
@@ -21,6 +23,35 @@ local map = Map({id = 71, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[38605300] = Rare({
+    id = 8201,
+    rewards = {
+        Transmog({item = 17055, type = L['1h_mace']}) -- Changuk Smasher
+    },
+    pois = {
+        Path({
+            40605840, 38405780, 38005600, 38605300, 39605060, 41204980,
+            42605280, 43205540
+        })
+    }
+}) -- Omgorn the Lost
+
+map.nodes[64601980] = Rare({
+    id = 44722,
+    rewards = {
+        Transmog({item = 9915, type = L['cloth']}), -- Royal Headband
+    }
+}) -- Twisted Reflection of Narain
+
+map.nodes[40802920] = Rare({
+    id = 8199,
+    rewards = {
+        Transmog({item = 9951, type = L['cloak']}), -- Chieftain's Cloak
+    }
+}) -- Warleader Krazzilak
+
 -------------------------------------------------------------------------------
 
 map.nodes[64405070] = ns.node.AnniversaryRare({

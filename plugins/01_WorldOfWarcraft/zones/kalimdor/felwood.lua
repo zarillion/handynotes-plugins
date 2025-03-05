@@ -2,10 +2,13 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -14,6 +17,63 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 77, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[43607560] = Rare({
+    id = 14344,
+    rewards = {
+        Transmog({item = 9948, type = L['leather']}), -- Chieftain's Boots
+        Transmog({item = 9922, type = L['leather']}) -- Tracker's Leggings
+    },
+    pois = {POI({46808200})}
+}) -- Mongress
+
+map.nodes[34805960] = Rare({
+    id = 50362,
+    rewards = {
+        Transmog({item = 9941, type = L['cloth']}) -- Abjurer's Mantle
+    }
+}) -- Blackbog the Fang
+
+map.nodes[38204560] = Rare({
+    id = 107596,
+    rewards = {
+        Transmog({item = 10070, type = L['leather']}), -- Righteous Armor
+        Transmog({item = 10381, type = L['plate']}) -- Commander's Girdle
+    }
+}) -- Grimrot
+
+map.nodes[38207260] = Rare({
+    id = 50925,
+    rewards = {
+        Transmog({item = 10092, type = L['plate']}), -- Gothic Plate Spaulders
+        Transmog({item = 9932, type = L['mail']}) -- Brigade Circlet
+    }
+}) -- Grovepaw
+
+map.nodes[49008840] = Rare({
+    id = 14342,
+    rewards = {
+        Transmog({item = 9923, type = L['leather']}) -- Tracker's Shoulderpads
+    }
+}) -- Ragepaw
+
+map.nodes[42204820] = Rare({
+    id = 51025,
+    rewards = {
+        Transmog({item = 10194, type = L['cloak']}) -- Crusader's Cloak
+    }
+}) -- Dilennaa
+
+map.nodes[41404200] = Rare({
+    id = 7137,
+    rewards = {
+        Transmog({item = 10201, type = L['plate']}) -- Overlord's Greaves
+    }
+}) -- Immolatus
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

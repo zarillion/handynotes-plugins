@@ -5,6 +5,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
@@ -19,6 +20,32 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = Map({id = 69, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[53606460] = Rare({
+    id = 90816,
+    rewards = {
+        Transmog({item = 7489, type = L['mail']}), -- Captain's Gauntlets
+        Transmog({item = 7475, type = L['cloth']}) -- Regal Cuffs
+    }
+}) -- Skystormer <The Unruly>
+
+map.nodes[49603060] = Rare({
+    id = 43488,
+    rewards = {
+        Transmog({item = 7407, type = L['leather']}), -- Infiltrator Armor
+    }
+}) -- Mordei the Earthrender
+
+map.nodes[49002080] = Rare({
+    id = 5345,
+    rewards = {
+        Transmog({item = 7461, type = L['mail']}), -- Knight's Bracers
+    }
+}) -- Diamond Head
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------

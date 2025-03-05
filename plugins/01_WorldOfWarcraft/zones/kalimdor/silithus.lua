@@ -2,10 +2,13 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -15,6 +18,74 @@ local POI = ns.poi.POI
 
 local map = ns.Map({id = 81, settings = true})
 local fallenkingdom = ns.Map({id = 327, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[67806680] = Rare({
+    id = 50743,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 10212, type = L['cloak']}), -- Elegant Cloak
+        Transmog({item = 10234, type = L['mail']}) -- Engraved Boots
+    }
+}) -- Manax
+
+map.nodes[44001720] = Rare({
+    id = 50742,
+    rewards = {
+        Transmog({item = 10277, type = L['plate']}), -- Emerald Gauntlets
+        Transmog({item = 10145, type = L['leather']}), -- Mighty Girdle
+        Transmog({item = 10188, type = L['leather']}) -- Swashbuckler's Leggings
+    }
+}) -- Qem
+
+map.nodes[54602660] = Rare({
+    id = 50744,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 10104, type = L['cloth']}), -- Councillor's Tunic
+        Transmog({item = 10156, type = L['mail']}), -- Mercurial Bracers
+        Transmog({item = 10159, type = L['cloak']}) -- Mercurial Cloak
+    }
+}) -- Qu'rik
+
+map.nodes[63608880] = Rare({
+    id = 50746,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 10145, type = L['leather']}), -- Mighty Girdle
+        Transmog({item = 10147, type = L['leather']}) -- Mighty Armsplints
+    }
+}) -- Bornix the Burrower
+
+map.nodes[42605660] = Rare({
+    id = 50745,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 10277, type = L['plate']}), -- Emerald Gauntlets
+        Transmog({item = 10216, type = L['cloth']}) -- Elegant Belt
+    }
+}) -- Losaj
+
+map.nodes[33005340] = Rare({
+    id = 50897,
+    rewards = {
+        Transmog({item = 10282, type = L['plate']}), -- Emerald Vambraces
+        Transmog({item = 10109, type = L['leather']}) -- Wanderer's Belt
+    }
+}) -- Ffexk the Dunestalker
+
+map.nodes[12345678] = Rare({
+    id = 14474,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 10057, type = L['cloth']}), -- Duskwoven Tunic
+        Transmog({item = 10234, type = L['mail']}) -- Engraved Boots
+    },
+    pois = {POI({32005000, 29705800})}
+}) -- Zora
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

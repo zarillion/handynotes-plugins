@@ -5,6 +5,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
@@ -22,6 +23,74 @@ local map = Map({id = 63, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[72607100] = Rare({
+    id = 3736,
+    faction = 'Alliance',
+    rewards = {
+        Transmog({item = 9781, type = L['leather']}) -- Bandit Pants
+    }
+}) -- Darkslayer Mordenthal
+
+map.nodes[53003760] = Rare({
+    id = 3792,
+    rewards = {
+        Transmog({item = 5753, type = L['leather']}), -- Ruffled Chaplet
+        Transmog({item = 9809, type = L['leather']}), -- Superior Tunic
+        Transmog({item = 14177, type = L['cloth']}) -- Watcher's Cuffs
+    },
+    pois = {POI({75207100, 75207100})}
+}) -- Terrowulf Packlord
+
+map.nodes[25202680] = Rare({
+    id = 10644,
+    rewards = {
+        Transmog({item = 6575, type = L['cloak']}), -- Defender Cloak
+        Transmog({item = 6587, type = L['leather']}) -- Scouting Trousers
+    },
+    pois = {POI({26201540})}
+}) -- Mist Howler
+
+map.nodes[12602980] = Rare({
+    id = 10559,
+    rewards = {
+        Transmog({item = 6576, type = L['mail']}), -- Defender Girdle
+        Transmog({item = 9781, type = L['leather']}), -- Bandit Pants
+        Transmog({item = 9812, type = L['cloak']}) -- Fortified Cloak
+    },
+    pois = {POI({15002420, 12001500})}
+}) -- Lady Vespia
+
+map.nodes[25206040] = Rare({
+    id = 3773,
+    rewards = {
+        Transmog({item = 6569, type = L['cloth']}) -- Shimmering Robe
+    }
+}) -- Akkrilus
+
+map.nodes[66605680] = Rare({
+    id = 10647,
+    rewards = {
+        Transmog({item = 6562, type = L['cloth']}) -- Shimmering Boots
+    },
+    pois = {POI({78604520, 81004920})}
+}) -- Prince Raze
+
+map.nodes[32002340] = Rare({
+    id = 3735,
+    rewards = {
+        Transmog({item = 9811, type = L['mail']}) -- Fortified Bracers
+    }
+}) -- Apothecary Falthis
+
+map.nodes[36603620] = Rare({
+    id = 10639,
+    rewards = {
+        Transmog({item = 9817, type = L['mail']}) -- Fortified Spaulders
+    }
+}) -- Rorgish Jowl
+
 -------------------------------------------------------------------------------
 
 map.nodes[93604000] = ns.node.AnniversaryRare({

@@ -2,8 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -12,6 +16,104 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 10, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[62204200] = Rare({
+    id = 3652,
+    location = 'wailing cavern',
+    rewards = {
+        Transmog({item = 5425, type = L['mail']}), -- RuneChain Girdle
+        Transmog({item = 5426, type = L['1h_axe']}) -- Serpent's Kiss
+    }
+}) -- Trigore the Lasher
+
+map.nodes[63206340] = Rare({
+    id = 5831,
+    rewards = {
+        Transmog({item = 6548, type = L['mail']}), -- Soldier's Girdle
+        Transmog({item = 6557, type = L['leather']}) -- Bard's Boots
+    }
+}) -- Swiftmane
+
+map.nodes[40607460] = Rare({
+    id = 3398,
+    rewards = {
+        Transmog({item = 5182, type = L['2h_sword']}), -- Shiver Blade
+        Transmog({item = 5183, type = L['offhand']}) -- Pulsating Hydra Heart
+    }
+}) -- Gesharahan
+
+map.nodes[63603660] = Rare({
+    id = 5842,
+    rewards = {
+        Transmog({item = 6266, type = L['cloth']}) -- Disciple's Vest
+    }
+}) -- Takk the Leaper
+
+map.nodes[45403300] = Rare({
+    id = 5865,
+    rewards = {
+        Transmog({item = 6266, type = L['cloth']}), -- Disciple's Vest
+        Transmog({item = 6268, type = L['leather']}) -- Pioneer Tunic
+    },
+    pois = {POI({45205280, 48805180})}
+}) -- Dishu
+
+map.nodes[78404080] = Rare({
+    id = 3672,
+    location = 'wailing cavern',
+    rewards = {
+        Transmog({item = 5423, type = L['2h_axe']}), -- Boahn's Fang
+        Transmog({item = 5422, type = L['leather']}) -- Brambleweed Leggings
+    },
+    pois = {POI({68205900, 74002560})}
+}) -- Boahn <Druid of the Fang>
+
+map.nodes[42203840] = Rare({
+    id = 3470,
+    rewards = {
+        Transmog({item = 5111, type = L['cloak']}), -- Rathorian's Cape
+        Transmog({item = 5112, type = L['dagger']}), -- Ritual Blade
+        Transmog({item = 6546, type = L['mail']}) -- Soldier's Leggings
+    }
+}) -- Rathorian
+
+map.nodes[40004560] = Rare({
+    id = 5837,
+    rewards = {
+        Transmog({item = 1355, type = L['cloak']}), -- Buckskin Cape
+        Transmog({item = 9763, type = L['mail']}), -- Cadet Leggings
+        Transmog({item = 9747, type = L['cloth']}) -- Simple Britches
+    },
+    pois = {POI({32004860, 32405300})}
+}) -- Stonearm
+
+map.nodes[58204960] = Rare({
+    id = 3270,
+    rewards = {
+        Transmog({item = 4768, type = L['cloth']}), -- Adept's Gloves
+        Transmog({item = 4771, type = L['cloak']}) -- Harvest Cloak
+    },
+    pois = {POI({56405160, 61605320})}
+}) -- Elder Mystic Razorsnout
+
+map.nodes[52207580] = Rare({
+    id = 5838,
+    rewards = {
+        Transmog({item = 7559, type = L['offhand']}) -- Runic Cane
+    },
+    pois = {POI({58607760, 57808220, 53808700, 51408380})}
+}) -- Brokespear
+
+map.nodes[25403320] = Rare({
+    id = 5830,
+    rewards = {
+        Transmog({item = 6553, type = L['leather']}), -- Bard's Trousers
+    }
+}) -- Sister Rathtalon
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

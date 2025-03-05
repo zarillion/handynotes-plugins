@@ -2,10 +2,13 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -14,6 +17,27 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 199, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[42004260] = Rare({
+    id = 5863,
+    rewards = {
+        Transmog({item = 1539, type = L['staff']}), -- Gnarled Hermit's Staff
+        Transmog({item = 6564, type = L['cloak']}), -- Shimmering Cloak
+    },
+    pois = {POI({42003780, 44204200})}
+}) -- Geopriest Gukk'rok
+
+map.nodes[47808860] = Rare({
+    id = 5849,
+    faction = 'Horde',
+    rewards = {
+        Transmog({item = 4785, type = L['cloth']}), -- Brimstone Belt
+    }
+}) -- Digger Flameforge <Excavation Specialist>
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
