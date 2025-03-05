@@ -111,7 +111,7 @@ map.nodes[52207580] = Rare({
 map.nodes[25403320] = Rare({
     id = 5830,
     rewards = {
-        Transmog({item = 6553, type = L['leather']}), -- Bard's Trousers
+        Transmog({item = 6553, type = L['leather']}) -- Bard's Trousers
     }
 }) -- Sister Rathtalon
 

@@ -36,14 +36,14 @@ map.nodes[53606460] = Rare({
 map.nodes[49603060] = Rare({
     id = 43488,
     rewards = {
-        Transmog({item = 7407, type = L['leather']}), -- Infiltrator Armor
+        Transmog({item = 7407, type = L['leather']}) -- Infiltrator Armor
     }
 }) -- Mordei the Earthrender
 
 map.nodes[49002080] = Rare({
     id = 5345,
     rewards = {
-        Transmog({item = 7461, type = L['mail']}), -- Knight's Bracers
+        Transmog({item = 7461, type = L['mail']}) -- Knight's Bracers
     }
 }) -- Diamond Head
 

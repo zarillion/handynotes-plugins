@@ -25,14 +25,14 @@ local map = ns.Map({id = 78, settings = true})
 map.nodes[32007860] = Rare({
     id = 6583,
     rewards = {
-        Transmog({item = 45052, type = L['leather']}), -- Gruffscale Leggings
+        Transmog({item = 45052, type = L['leather']}) -- Gruffscale Leggings
     }
 }) -- Gruff
 
 map.nodes[63001860] = Rare({
     id = 6585,
     rewards = {
-        Transmog({item = 10122, type = L['mail']}), -- Ornate Girdle
+        Transmog({item = 10122, type = L['mail']}) -- Ornate Girdle
     }
 }) -- Uhk'loc
 

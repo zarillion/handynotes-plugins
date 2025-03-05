@@ -41,14 +41,14 @@ map.nodes[38605300] = Rare({
 map.nodes[64601980] = Rare({
     id = 44722,
     rewards = {
-        Transmog({item = 9915, type = L['cloth']}), -- Royal Headband
+        Transmog({item = 9915, type = L['cloth']}) -- Royal Headband
     }
 }) -- Twisted Reflection of Narain
 
 map.nodes[40802920] = Rare({
     id = 8199,
     rewards = {
-        Transmog({item = 9951, type = L['cloak']}), -- Chieftain's Cloak
+        Transmog({item = 9951, type = L['cloak']}) -- Chieftain's Cloak
     }
 }) -- Warleader Krazzilak
 

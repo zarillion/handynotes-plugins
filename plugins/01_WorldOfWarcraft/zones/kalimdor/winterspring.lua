@@ -25,7 +25,7 @@ local map = ns.Map({id = 83, settings = true})
 map.nodes[66808360] = Rare({
     id = 50788,
     rewards = {
-        Transmog({item = 10198, type = L['mail']}), -- Crusader's Helm
+        Transmog({item = 10198, type = L['mail']}) -- Crusader's Helm
     }
 }) -- Quetzl
 

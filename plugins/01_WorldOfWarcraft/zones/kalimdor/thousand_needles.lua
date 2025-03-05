@@ -25,14 +25,14 @@ local map = ns.Map({id = 64, settings = true})
 map.nodes[70008540] = Rare({
     id = 4132,
     rewards = {
-        Transmog({item = 8224, type = L['1h_sword']}), -- Silithid Ripper
+        Transmog({item = 8224, type = L['1h_sword']}) -- Silithid Ripper
     }
 }) -- Krkk'kx
 
 map.nodes[61206760] = Rare({
     id = 5935,
     rewards = {
-        Transmog({item = 8223, type = L['1h_sword']}), -- Blade of the Basilisk
+        Transmog({item = 8223, type = L['1h_sword']}) -- Blade of the Basilisk
     }
 }) -- Ironeye the Invincible
 

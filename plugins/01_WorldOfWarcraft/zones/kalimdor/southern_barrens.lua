@@ -26,7 +26,7 @@ map.nodes[42004260] = Rare({
     id = 5863,
     rewards = {
         Transmog({item = 1539, type = L['staff']}), -- Gnarled Hermit's Staff
-        Transmog({item = 6564, type = L['cloak']}), -- Shimmering Cloak
+        Transmog({item = 6564, type = L['cloak']}) -- Shimmering Cloak
     },
     pois = {POI({42003780, 44204200})}
 }) -- Geopriest Gukk'rok
@@ -35,7 +35,7 @@ map.nodes[47808860] = Rare({
     id = 5849,
     faction = 'Horde',
     rewards = {
-        Transmog({item = 4785, type = L['cloth']}), -- Brimstone Belt
+        Transmog({item = 4785, type = L['cloth']}) -- Brimstone Belt
     }
 }) -- Digger Flameforge <Excavation Specialist>
 

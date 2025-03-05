@@ -43,7 +43,7 @@ map.nodes[38803420] = Rare({
 map.nodes[65605180] = Rare({
     id = 14428,
     rewards = {
-        Transmog({item = 18611, type = L['leather']}), -- Gnarlpine Leggings
+        Transmog({item = 18611, type = L['leather']}) -- Gnarlpine Leggings
     }
 }) -- Uruson
 

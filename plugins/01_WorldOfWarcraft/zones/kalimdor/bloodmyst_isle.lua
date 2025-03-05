@@ -26,7 +26,7 @@ map.nodes[14805460] = Rare({
     rewards = {
         Transmog({item = 31264, type = L['cloth']}), -- Silvermoon Robes
         Transmog({item = 31263, type = L['leather']}), -- Silvermoon Tunic
-        Transmog({item = 31256, type = L['mail']}), -- Silvermoon Armor
+        Transmog({item = 31256, type = L['mail']}) -- Silvermoon Armor
     }
 }) -- Fenissa the Assassin
 
