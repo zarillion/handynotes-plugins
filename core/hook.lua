@@ -9,9 +9,7 @@ local function renderRewards(rewards, spaceBefore, spaceAfter)
     if ns:GetOpt('show_loot') then
         if spaceBefore then GameTooltip:AddLine(' ') end
         for _, reward in ipairs(rewards) do
-            if reward:IsEnabled() then
-                reward:Render(GameTooltip)
-            end
+            if reward:IsEnabled() then reward:Render(GameTooltip) end
         end
         if spaceAfter then GameTooltip:AddLine(' ') end
     end
