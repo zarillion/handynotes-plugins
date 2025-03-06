@@ -5,7 +5,7 @@ local _, ns = ...
 
 -------------------------------------------------------------------------------
 
-local function renderRewards(rewards, spaceBefore, spaceAfter)
+local function renderTooltipRewards(rewards, spaceBefore, spaceAfter)
     if ns:GetOpt('show_loot') then
         if spaceBefore then GameTooltip:AddLine(' ') end
         for _, reward in ipairs(rewards) do
@@ -30,7 +30,7 @@ local function hookAreaPoiEventTooltip(group, areaPoiIDs)
         if not group:GetDisplay(mapID) then return end
         local rewards = areaPoiIDs[areaPoiID]
         if not rewards then return end
-        renderRewards(rewards, true, false)
+        renderTooltipRewards(rewards, true, false)
     end)
 end
 
@@ -84,7 +84,7 @@ local function hookVignetteTooltip(group, vignetteID)
         local coordinates = HandyNotes:getCoord(x, y)
         local rewards = ns.maps[mapID].nodes[coordinates].rewards
         if not rewards then return end
-        renderRewards(rewards, false, true)
+        renderTooltipRewards(rewards, false, true)
     end)
 end
 
