@@ -498,17 +498,4 @@ local WORLD_BOSS_REWARDS = {
     [861] = {Achievement({id = 8533})} -- Ordos, Fire-God of the Yaungol
 }
 
-hooksecurefunc(EncounterJournalPinMixin, 'OnMouseEnter', function(self)
-    if self and self.encounterID then
-        if WORLD_BOSS_REWARDS[self.encounterID] then
-            GameTooltip:AddLine(' ')
-            for i, reward in ipairs(WORLD_BOSS_REWARDS[self.encounterID]) do
-                if reward:IsEnabled() then
-                    reward:Render(GameTooltip)
-                end
-            end
-        end
-        -- GameTooltip:AddLine(self.encounterID) -- Debug to show the encounterID
-    end
-    GameTooltip:Show()
-end)
+ns.hook.EncounterJournalTooltip(WORLD_BOSS_REWARDS)
