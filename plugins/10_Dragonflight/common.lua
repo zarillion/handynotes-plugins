@@ -1865,28 +1865,28 @@ ns.node.MoteOfNaszuro = Class('MoteOfNaszuro', Collectible, {
 --------------------------------- GRAND HUNTS ---------------------------------
 -------------------------------------------------------------------------------
 
-local GRAND_HUNT_AREA_POIS = {
-    [7089] = 'Western Ohnahran Plains Hunt',
-    [7090] = 'Eastern Ohnahran Plains Hunt',
-    [7091] = 'Southern Waking Shore',
-    [7092] = 'Eastern Waking Shore',
-    [7093] = 'Northern Waking Shore',
-    [7094] = 'Western Azure Span Hunt',
-    [7095] = 'Eastern Azure Span Hunt',
-    [7096] = 'Southern Azure Span Hunt',
-    [7097] = 'Southern Thaldrazus Hunt',
-    [7053] = 'Northern Ohnahran Plains Hunt',
-    [7099] = 'Northern Thaldraszus Hunt',
-    [7342] = 'Grand Hunts (Ohnahran Plains',
-    [7343] = 'Grand Hunts (The Waking Shore)',
-    [7344] = 'Grand Hunts (Thaldraszus)',
-    [7345] = 'Grand Hunts (The Azure Span)'
-}
-
 local GRAND_HUNT_BAG_REWARDS = {
     Mount({item = 192791, id = 1635}), -- Plainswalker Bearer
     Pet({item = 200276, id = 3311}), -- Ohuna Companion
     Pet({item = 200290, id = 3325}) -- Bakar Companion
+}
+
+local GRAND_HUNT_AREA_POIS = {
+    [7089] = GRAND_HUNT_BAG_REWARDS, -- Western Ohnahran Plains Hunt
+    [7090] = GRAND_HUNT_BAG_REWARDS, -- Eastern Ohnahran Plains Hunt
+    [7091] = GRAND_HUNT_BAG_REWARDS, -- Southern Waking Shore
+    [7092] = GRAND_HUNT_BAG_REWARDS, -- Eastern Waking Shore
+    [7093] = GRAND_HUNT_BAG_REWARDS, -- Northern Waking Shore
+    [7094] = GRAND_HUNT_BAG_REWARDS, -- Western Azure Span Hunt
+    [7095] = GRAND_HUNT_BAG_REWARDS, -- Eastern Azure Span Hunt
+    [7096] = GRAND_HUNT_BAG_REWARDS, -- Southern Azure Span Hunt
+    [7097] = GRAND_HUNT_BAG_REWARDS, -- Southern Thaldrazus Hunt
+    [7053] = GRAND_HUNT_BAG_REWARDS, -- Northern Ohnahran Plains Hunt
+    [7099] = GRAND_HUNT_BAG_REWARDS, -- Northern Thaldraszus Hunt
+    [7342] = GRAND_HUNT_BAG_REWARDS, -- Grand Hunts (Ohnahran Plains
+    [7343] = GRAND_HUNT_BAG_REWARDS, -- Grand Hunts (The Waking Shore)
+    [7344] = GRAND_HUNT_BAG_REWARDS, -- Grand Hunts (Thaldraszus)
+    [7345] = GRAND_HUNT_BAG_REWARDS -- Grand Hunts (The Azure Span)
 }
 
 local GrandHunt = Class('GrandHunt', Collectible, {
@@ -1939,25 +1939,7 @@ end
 
 ns.node.GrandHunt = GrandHunt
 
-hooksecurefunc(AreaPOIEventPinMixin, 'TryShowTooltip', function(self)
-    if self and self.areaPoiID then
-        local mapID = self:GetMap().mapID
-        local group = ns.groups.GRAND_HUNTS
-        if GRAND_HUNT_AREA_POIS[self.areaPoiID] then
-            if group:GetDisplay(mapID) then
-                if ns:GetOpt('show_loot') then
-                    for i, reward in ipairs(GRAND_HUNT_BAG_REWARDS) do
-                        if reward:IsEnabled() then
-                            reward:Render(GameTooltip)
-                        end
-                    end
-                    GameTooltip:AddLine(' ')
-                end
-                GameTooltip:Show()
-            end
-        end
-    end
-end)
+ns.hook.AreaPoiEventTooltip(ns.groups.GRAND_HUNTS, GRAND_HUNT_AREA_POIS)
 
 ------------------------------------------------------------------------------
 --------------------------- RARE VIGNETTE TOOLTIPS ---------------------------
