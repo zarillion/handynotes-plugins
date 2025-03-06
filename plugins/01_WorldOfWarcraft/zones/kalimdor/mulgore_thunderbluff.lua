@@ -2,6 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
@@ -37,7 +38,7 @@ map.nodes[45604720] = Rare({
     }
 }) -- Mazzranache
 
-map.nodes[55602440] = Rare({
+map.nodes[55582442] = Rare({
     id = 5807,
     rewards = {
         Transmog({item = 68746, type = L['cloak']}), -- Imbued Primal Cape
@@ -45,17 +46,28 @@ map.nodes[55602440] = Rare({
         Transmog({item = 17922, type = L['leather']}), -- Lionfur Armor
         Transmog({item = 68743, type = L['cloak']}), -- Imbued Infantry Cloak
         Transmog({item = 68744, type = L['cloak']}) -- Imbued Pioneer Cloak
+    },
+    pois = {
+        Path({
+            55582442, 54942328, 54622189, 54402051, 53391964, 52602084,
+            51682175, 50452139, 49522224, 49632362, 49972493, 50512618,
+            50842749, 51382868, 52552929, 53413029, 54562964, 55212846,
+            55802726, 55812590, 55582442
+        })
     }
 }) -- The Rake
 
-map.nodes[32602400] = Rare({
+local Hatelash = Class('Hatelash', Rare, {
     id = 5785,
+    fgroup = 'hatelash',
     rewards = {
         Transmog({item = 4772, type = L['cloak']}), -- Warm Cloak
         Transmog({item = 68756, type = L['cloak']}) -- Imbued Simple Cape
-    },
-    pois = {POI({53001180})}
+    }
 }) -- Sister Hatelash
+
+map.nodes[32602400] = Hatelash()
+map.nodes[53001180] = Hatelash()
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

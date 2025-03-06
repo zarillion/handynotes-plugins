@@ -36,7 +36,7 @@ map.nodes[40804860] = Rare({
     }
 }) -- Strider Clutchmother
 
-map.nodes[44805660] = Rare({
+map.nodes[44815679] = Rare({
     id = 2184,
     rewards = {
         Transmog({item = 6550, type = L['mail']}) -- Soldier's Wristguards
@@ -51,7 +51,7 @@ map.nodes[44408300] = Rare({
     }
 }) -- Carnivous the Breaker
 
-map.nodes[40008300] = Rare({
+map.nodes[40078307] = Rare({
     id = 2192,
     rewards = {
         Transmog({item = 6552, type = L['leather']}), -- Bard's Tunic
@@ -59,7 +59,7 @@ map.nodes[40008300] = Rare({
     }
 }) -- Firecaller Radison
 
-map.nodes[34208360] = Rare({
+map.nodes[34078360] = Rare({
     id = 7017,
     rewards = {
         Transmog({item = 9788, type = L['mail']}), -- Raider's Belt

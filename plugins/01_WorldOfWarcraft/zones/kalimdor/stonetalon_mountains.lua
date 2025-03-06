@@ -37,9 +37,9 @@ map.nodes[55604480] = Rare({
     }
 }) -- Pridewing Patriarch
 
-map.nodes[44404920] = Rare({
+map.nodes[44494946] = Rare({
     id = 50874,
-    location = L['in_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Transmog({item = 6612, type = L['cloth']}) -- Sage's Boots
     }
@@ -52,7 +52,7 @@ map.nodes[50204120] = Rare({
     }
 }) -- Sorrow Wing
 
-map.nodes[40407160] = Rare({
+map.nodes[41207085] = Rare({
     id = 5930,
     rewards = {
         Transmog({item = 6607, type = L['leather']}), -- Dervish Leggings
@@ -90,14 +90,14 @@ map.nodes[54607480] = Rare({
     }
 }) -- Iriss the Widow
 
-map.nodes[49406560] = Rare({
+map.nodes[49206590] = Rare({
     id = 50812,
     rewards = {
         Transmog({item = 6612, type = L['cloth']}) -- Sage's Boots
     }
 }) -- Arae
 
-map.nodes[64604560] = Rare({
+map.nodes[64484572] = Rare({
     id = 5932,
     rewards = {
         Transmog({item = 6590, type = L['mail']}) -- Battleforge Boots
