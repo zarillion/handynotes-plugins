@@ -48,7 +48,22 @@ local function hookDelveEntranceTooltip(group, areaPoiIDs)
         if not group:GetDisplay(mapID) then return end
         local rewards = areaPoiIDs[areaPoiID]
         if not rewards then return end
-        renderRewards(rewards, true, false)
+        renderTooltipRewards(rewards, true, false)
+    end)
+end
+
+-------------------------------------------------------------------------------
+-------------------------- ENCOUNTER JOURNAL TOOLTIP --------------------------
+-------------------------------------------------------------------------------
+
+local function hookEncounterJournalTooltip(encounterIDs)
+    local encounterIDs = encounterIDs
+    hooksecurefunc(EncounterJournalPinMixin, 'OnMouseEnter', function(self)
+        local encounterID = self.encounterID
+        if not encounterIDs[encounterID] then return end
+        local rewards = encounterIDs[encounterID]
+        if not rewards then return end
+        renderTooltipRewards(rewards, true, false)
     end)
 end
 
@@ -78,5 +93,6 @@ end
 ns.hook = {
     AreaPoiEventTooltip = hookAreaPoiEventTooltip,
     DelveEntranceTooltip = hookDelveEntranceTooltip,
+    EncounterJournalTooltip = hookEncounterJournalTooltip,
     VignetteTooltip = hookVignetteTooltip
 }
