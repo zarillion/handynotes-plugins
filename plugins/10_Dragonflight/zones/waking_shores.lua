@@ -2235,16 +2235,16 @@ map.nodes[42788061] = GrandHunt({
 -------------------------- SIEGE ON DRAGONBANE KEEP ---------------------------
 -------------------------------------------------------------------------------
 
-local SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS = {
-    [7267] = 'Before Siege',
-    [7104] = 'During Siege',
-    [7413] = 'After Siege'
-}
-
 local SIEGE_ON_DRAGONBANE_KEEP_REWARDS = {
     Achievement({id = 16411}), -- Siege on Dragonbane Keep: Home Sweet Home
     Toy({item = 200116}), -- Everlasting Horn of Lavaswimming
     Item({item = 192055}) -- Dragon Isles Artifact
+}
+
+local SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS = {
+    [7267] = SIEGE_ON_DRAGONBANE_KEEP_REWARDS, -- Before Siege'
+    [7104] = SIEGE_ON_DRAGONBANE_KEEP_REWARDS, -- During Siege'
+    [7413] = SIEGE_ON_DRAGONBANE_KEEP_REWARDS -- After Siege
 }
 
 map.nodes[30287005] = Collectible({
@@ -2269,25 +2269,8 @@ map.nodes[30287005] = Collectible({
     end
 }) -- Siege on Dragonbane Keep
 
-hooksecurefunc(AreaPOIEventPinMixin, 'TryShowTooltip', function(self)
-    if self and self.areaPoiID then
-        local mapID = self:GetMap().mapID
-        local group = ns.groups.DRAGONBANE_SIEGE
-        if SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS[self.areaPoiID] then
-            if group:GetDisplay(mapID) then
-                if ns:GetOpt('show_loot') then
-                    for i, reward in ipairs(SIEGE_ON_DRAGONBANE_KEEP_REWARDS) do
-                        if reward:IsEnabled() then
-                            reward:Render(GameTooltip)
-                        end
-                    end
-                    GameTooltip:AddLine(' ')
-                end
-                GameTooltip:Show()
-            end
-        end
-    end
-end)
+ns.hook.AreaPoiEventTooltip(ns.groups.DRAGONBANE_SIEGE,
+    SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS)
 
 -------------------------------------------------------------------------------
 --------------------- ANCIENT STONES OF THE WAKING SHORE ----------------------
