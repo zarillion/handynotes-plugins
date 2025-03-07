@@ -21,7 +21,7 @@ L['in_crypt'] = 'Dans la crypte.'
 L['shovelphlange_location'] = 'Dans la grotte où se trouve l\'entrée d\'Uldaman.'
 L['lower_floor'] = 'A l\'étage inférieur.'
 L['bl_rare_note'] = 'Tous les monstres rares dans les {location:Terres foudroyées} peuvent lacher soit des {item:8244}, soit des {item:10593} que vous pouvez échanger contre des objets auprès de {npc:7363}.'
-L['takk_note'] = nil
+L['takk_note'] = 'Bondit littéralement d\'un endroit à l\'autre (dans le sens inverse des aiguilles d\'une montre)'
 
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------
