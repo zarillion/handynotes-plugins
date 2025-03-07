@@ -235,7 +235,7 @@ map.nodes[64162556] = Rare({
 map.nodes[40209190] = Rare({
     id = 231310,
     note = format(L['complete_event'], 231329), -- De-Pollution Station X1119
-    quest = nil,
+    quest = 90492,
     requires = {
         ns.requirement.Reputation(2653, 6, true), -- The Cartels of Undermine
         ns.requirement.Item(229823) -- Canister of Darkfuse Solution
