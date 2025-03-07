@@ -268,7 +268,7 @@ ns.node.Squirrel = Class('Squirrel', Collectible, {
 -------------------------------------------------------------------------------
 -- Adds Rewards to World Boss tooltips.
 
-local WORLD_BOSS_REWARDS = {
+local WORLD_BOSS_ENCOUNTER_IDS = {
     [1291] = {
         Achievement({id = 9423, criteria = 24768}), -- Goliaths of Gorgrond
         Achievement({id = 9838, criteria = 27652}) -- What A Strange, Interdimensional Trip It's Been
@@ -295,7 +295,7 @@ local WORLD_BOSS_REWARDS = {
     } -- Rukhmar
 }
 
-ns.hook.EncounterJournalTooltip(WORLD_BOSS_REWARDS)
+ns.hook.Encounter({encounterIDs = WORLD_BOSS_ENCOUNTER_IDS})
 
 ---------------- SHOW / HIDE POI DOT AT RUKHMAR SPAWN LOCATION ----------------
 

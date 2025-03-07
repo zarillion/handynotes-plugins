@@ -351,7 +351,7 @@ ns.node.FlightMaster = FlightMaster
 ----------------------------- WORLDSOUL MEMORIES ------------------------------
 -------------------------------------------------------------------------------
 
-local WORLDSOUL_REWARDS = {
+local WORLDSOUL_AREA_POIS = {
     [7833] = {
         Achievement({id = 40252, criteria = 67594}), -- Descendants of Distant Waters
         Achievement({id = 40314, criteria = 68241}), -- Echoing Fragment: Hallowfall
@@ -408,12 +408,15 @@ local WorldsoulMemory = Class('WorldsoulMemory', Collectible, {
 }) -- Worldsoul Memory
 
 function WorldsoulMemory.getters:rewards()
-    return WORLDSOUL_REWARDS[self.areaPoiID]
+    return WORLDSOUL_AREA_POIS[self.areaPoiID]
 end
 
 ns.node.WorldsoulMemory = WorldsoulMemory
 
-ns.hook.AreaPoiEventTooltip(ns.groups.WORLDSOUL_MEMORIES, WORLDSOUL_REWARDS)
+ns.hook.AreaPoiEvent({
+    group = ns.groups.WORLDSOUL_MEMORIES,
+    pois = WORLDSOUL_AREA_POIS
+})
 
 -------------------------------------------------------------------------------
 ------------------------------ KHAZ ALGAR SAFARI ------------------------------

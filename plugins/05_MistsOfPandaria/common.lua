@@ -438,7 +438,7 @@ ns.node.Lorewalker = Class('Lorewalker', Collectible,
 -------------------------------------------------------------------------------
 -- Adds Rewards to World Boss tooltips.
 
-local WORLD_BOSS_REWARDS = {
+local WORLD_BOSS_ENCOUNTER_IDS = {
     [691] = { -- Sha of Anger
         Achievement({id = 6480}), -- Settle Down, Bro
         Achievement({id = 6926, criteria = 19136}), -- Tranquil Master
@@ -498,4 +498,4 @@ local WORLD_BOSS_REWARDS = {
     [861] = {Achievement({id = 8533})} -- Ordos, Fire-God of the Yaungol
 }
 
-ns.hook.EncounterJournalTooltip(WORLD_BOSS_REWARDS)
+ns.hook.Encounter({encounterIDs = WORLD_BOSS_ENCOUNTER_IDS})

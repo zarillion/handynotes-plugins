@@ -141,7 +141,7 @@ local EXCAVATION_POIS = {
     [8152] = map.nodes[26206546].rewards -- Nerathor (The Drowned Lair)
 }
 
-ns.hook.AreaPoiEventTooltip(ns.groups.RARE, EXCAVATION_POIS)
+ns.hook.AreaPoiEvent({group = ns.groups.RARE, pois = EXCAVATION_POIS})
 
 ------------------------------- VYKRUL AND NAGA -------------------------------
 

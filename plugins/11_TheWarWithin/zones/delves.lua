@@ -665,4 +665,4 @@ local DELVE_AREA_POIS = {
     [8246] = DELVE_REWARDS['side_street_sluice']
 }
 
-ns.hook.DelveEntranceTooltip(ns.groups.DELVE_REWARDS, DELVE_AREA_POIS)
+ns.hook.Delve({group = ns.groups.DELVE_REWARDS, pois = DELVE_AREA_POIS})
