@@ -198,6 +198,9 @@ function Addon:OnInitialize()
     -- Update calendar events
     ns.UpdateActiveCalendarEvents()
 
+    -- Hook all BLizzard map pins for appending rewards to tooltips
+    ns.HookAllPOIS()
+
     -- Add quick-toggle menu button to top-right corner of world map
     local template = ADDON_NAME .. 'WorldMapOptionsButtonTemplate'
     ns.world_map_button = LibStub('Krowi_WorldMapButtons-1.4'):Add(template,

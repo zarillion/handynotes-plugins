@@ -351,7 +351,7 @@ ns.node.FlightMaster = FlightMaster
 ----------------------------- WORLDSOUL MEMORIES ------------------------------
 -------------------------------------------------------------------------------
 
-local WORLDSOUL_REWARDS = {
+local WORLDSOUL_AREA_POIS = {
     [7833] = {
         Achievement({id = 40252, criteria = 67594}), -- Descendants of Distant Waters
         Achievement({id = 40314, criteria = 68241}), -- Echoing Fragment: Hallowfall
@@ -408,28 +408,15 @@ local WorldsoulMemory = Class('WorldsoulMemory', Collectible, {
 }) -- Worldsoul Memory
 
 function WorldsoulMemory.getters:rewards()
-    return WORLDSOUL_REWARDS[self.areaPoiID]
+    return WORLDSOUL_AREA_POIS[self.areaPoiID]
 end
 
 ns.node.WorldsoulMemory = WorldsoulMemory
 
-hooksecurefunc(AreaPOIEventPinMixin, 'OnMouseEnter', function(self)
-    if not self.poiInfo then return end
-    local areaPoiID = self.poiInfo.areaPoiID
-    if not WORLDSOUL_REWARDS[areaPoiID] then return end
-    local mapID = self:GetMap().mapID
-    local group = ns.groups.WORLDSOUL_MEMORIES
-    if group:GetDisplay(mapID) then
-        local rewards = WORLDSOUL_REWARDS[areaPoiID]
-        for _, reward in pairs(rewards) do
-            if reward and reward:IsEnabled() then
-                reward:Render(GameTooltip)
-            end
-        end
-        GameTooltip:AddLine(' ')
-        GameTooltip:Show()
-    end
-end)
+ns.hook.AreaPoiEvent({
+    group = ns.groups.WORLDSOUL_MEMORIES,
+    pois = WORLDSOUL_AREA_POIS
+})
 
 -------------------------------------------------------------------------------
 ------------------------------ KHAZ ALGAR SAFARI ------------------------------
