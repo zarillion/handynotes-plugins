@@ -1,3 +1,7 @@
+# v117
+
+* Add Delve pets to tooltips
+
 # v116
 
 * Localization updates: ruRU
