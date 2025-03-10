@@ -9,6 +9,8 @@ local Map = ns.Map
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Pet = ns.reward.Pet
+local Spacer = ns.reward.Spacer
 
 local POI = ns.poi.POI
 local Path = ns.poi.Path
@@ -35,6 +37,12 @@ local thd = Map({id = 2422, settings = false}) -- Sidestreet Sluice - The High D
 
 -------------------------------------------------------------------------------
 
+local SturdyChestCriteria = {
+    id = 1,
+    qty = true,
+    suffix = L['sturdy_chest_suffix']
+}
+
 local SturdyChest = Class('SturdyChest', Treasure, {
     icon = 'chest_yw',
     label = L['sturdy_chest'],
@@ -44,11 +52,7 @@ local SturdyChest = Class('SturdyChest', Treasure, {
             return {
                 Achievement({
                     id = self.achievementID,
-                    criteria = {
-                        id = 1,
-                        qty = true,
-                        suffix = L['sturdy_chest_suffix']
-                    }
+                    criteria = SturdyChestCriteria
                 })
             }
         end
@@ -530,105 +534,113 @@ end
 local DELVE_REWARDS = {
     -- FUNGARIAN DELVES -------------------------------------------------------
     ['mycomancer_cavern'] = {
-        Achievement({
-            id = 40808,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40531, criteria = {68770, 68771, 68772}}),
-        Achievement({id = 40445, oneline = true}) -- Sporesweeper
+        Achievement({id = 40808, criteria = SturdyChestCriteria}), -- Mycomancer Cavern Discoveries
+        Achievement({id = 40531, criteria = {68770, 68771, 68772}}), -- Mycomancer Cavern Stories
+        Achievement({id = 40445, oneline = true}), -- Sporesweeper
+        Spacer(), --
+        Pet({item = 221820, id = 4537}), -- Chester
+        Pet({item = 225337, id = 4506}) -- Violet Sporbit
     },
     ['fungal_folly'] = {
-        Achievement({
-            id = 40803,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40525, criteria = {68752, 68753, 68754}}),
-        Achievement({id = 40445, oneline = true}) -- Sporesweeper
+        Achievement({id = 40803, criteria = SturdyChestCriteria}), -- Fungal Folly Discoveries
+        Achievement({id = 40525, criteria = {68752, 68753, 68754}}), -- Fungal Folly Stories
+        Achievement({id = 40445, oneline = true}), -- Sporesweeper
+        Spacer(), --
+        Pet({item = 221820, id = 4537}), -- Chester
+        Pet({item = 225337, id = 4506}) -- Violet Sporbit
     },
     -- KOBOLD DELVES ----------------------------------------------------------
     ['kriegvals_rest'] = {
-        Achievement({
-            id = 40807,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40526, criteria = {68755, 68756, 68757}}),
-        Achievement({id = 40446, oneline = true}) -- I TAKE Candle!
+        Achievement({id = 40807, criteria = SturdyChestCriteria}), -- Kriegval's Rest Discoveries
+        Achievement({id = 40526, criteria = {68755, 68756, 68757}}), -- Kriegval's Rest Stories
+        Achievement({id = 40446, oneline = true}), -- I TAKE Candle!
+        Spacer(), --
+        Pet({item = 221820, id = 4537}), -- Chester
+        Pet({item = 223624, id = 4575}) -- Sneef
     },
     ['the_waterworks'] = {
-        Achievement({
-            id = 40816,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40528, criteria = {68761, 68762, 68763}}),
-        Achievement({id = 40446, oneline = true}) -- I TAKE Candle!
+        Achievement({id = 40816, criteria = SturdyChestCriteria}), -- The Waterworks Discoveries
+        Achievement({id = 40528, criteria = {68761, 68762, 68763}}), -- The Waterworks Stories
+        Achievement({id = 40446, oneline = true}), -- I TAKE Candle!
+        Spacer(), --
+        Pet({item = 221820, id = 4537}), -- Chester
+        Pet({item = 223624, id = 4575}) -- Sneef
     },
     -- KOBYSS DELVES ----------------------------------------------------------
     ['the_sinkhole'] = {
-        Achievement({
-            id = 40813,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40532, criteria = {68773, 68774, 68775}}),
-        Achievement({id = 40452, oneline = true}) -- Just Keep Swimming
+        Achievement({id = 40813, criteria = SturdyChestCriteria}), -- The Sinkhole Discoveries
+        Achievement({id = 40532, criteria = {68773, 68774, 68775}}), -- The Sinkhole Stories
+        Achievement({id = 40452, oneline = true}), -- Just Keep Swimming
+        Spacer(), --
+        Pet({item = 221820, id = 4537}), -- Chester
+        Pet({item = 221496, id = 4496}) -- Wriggle
     },
     ['tek_rethan_abyss'] = {
-        Achievement({
-            id = 40811,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40535, criteria = {68783, 68784, 68785}}),
-        Achievement({id = 40452, oneline = true}) -- Just Keep Swimming
+        Achievement({id = 40811, criteria = SturdyChestCriteria}), -- Tek-Rethan Abyss Discoveries
+        Achievement({id = 40535, criteria = {68783, 68784, 68785}}), -- Tek-Rethan Abyss Stories
+        Achievement({id = 40452, oneline = true}), -- Just Keep Swimming
+        Spacer(), --
+        Pet({item = 221820, id = 4537}), -- Chester
+        Pet({item = 221496, id = 4496}) -- Wriggle
     },
     -- NERUBIAN DELVES --------------------------------------------------------
     ['earthcrawl_mines'] = {
-        Achievement({
-            id = 40806,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40527, criteria = {68758, 68759, 68760}}),
-        Achievement({id = 40453, oneline = true}) -- Spider Sense
+        Achievement({id = 40806, criteria = SturdyChestCriteria}), -- Earthcrawl Mines Discoveries
+        Achievement({id = 40527, criteria = {68758, 68759, 68760}}), -- Earthcrawl Mines Stories
+        Achievement({id = 40453, oneline = true}), -- Spider Sense
+        Spacer(), --
+        Pet({item = 221820, id = 4537}), -- Chester
+        Pet({item = 222971, id = 4489}) -- Bouncer
     },
     ['the_dread_pit'] = {
-        Achievement({
-            id = 40812,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40529, criteria = {68764, 68765, 68766}}),
-        Achievement({id = 40453, oneline = true}) -- Spider Sense
+        Achievement({id = 40812, criteria = SturdyChestCriteria}), -- The Dread Pit Discoveries
+        Achievement({id = 40529, criteria = {68764, 68765, 68766}}), -- The Dread Pit Stories
+        Achievement({id = 40453, oneline = true}), -- Spider Sense
+        Spacer(), --
+        Pet({item = 221820, id = 4537}), -- Chester
+        Pet({item = 222971, id = 4489}) -- Bouncer
     },
     ['the_spiral_weave'] = {
-        Achievement({
-            id = 40814,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40536, criteria = {68786, 68787, 68788}}),
-        Achievement({id = 40453, oneline = true}) -- Spider Sense
+        Achievement({id = 40814, criteria = SturdyChestCriteria}), -- The Spiral Weave Discoveries
+        Achievement({id = 40536, criteria = {68786, 68787, 68788}}), -- The Spiral Weave Stories
+        Achievement({id = 40453, oneline = true}), -- Spider Sense
+        Spacer(), --
+        Pet({item = 221820, id = 4537}), -- Chester
+        Pet({item = 222971, id = 4489}) -- Bouncer
     },
     ['the_underkeep'] = {
-        Achievement({
-            id = 40815,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40534, criteria = {68779, 68780, 68781, 68782}}),
-        Achievement({id = 40453, oneline = true}) -- Spider Sense
+        Achievement({id = 40815, criteria = SturdyChestCriteria}), -- The Underkeep Discoveries
+        Achievement({id = 40534, criteria = {68779, 68780, 68781, 68782}}), -- The Underkeep Stories
+        Achievement({id = 40453, oneline = true}), -- Spider Sense
+        Spacer(), --
+        Pet({item = 221820, id = 4537}), -- Chester
+        Pet({item = 222971, id = 4489}) -- Bouncer
     },
     -- ORDER OF THE NIGHT DELVES ----------------------------------------------
     ['nightfall_sanctum'] = {
-        Achievement({
-            id = 40809,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40530, criteria = {68767, 68768, 68769}}),
+        Achievement({id = 40809, criteria = SturdyChestCriteria}), -- Nightfall Sanctum Discoveries
+        Achievement({id = 40530, criteria = {68767, 68768, 68769}}), -- Nightfall Sanctum Stories
         Achievement({id = 40454, oneline = true}) -- Daystormer
     },
     ['skittering_breach'] = {
-        Achievement({
-            id = 40810,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 40533, criteria = {68776, 68777, 68778}}),
+        Achievement({id = 40810, criteria = SturdyChestCriteria}), -- Skittering Breach Discoveries
+        Achievement({id = 40533, criteria = {68776, 68777, 68778}}), -- Skittering Breach Stories
         Achievement({id = 40454, oneline = true}) -- Daystormer
     },
-    ---------------------------------------------------------------------------
+    -- GOBLIN DELVES ----------------------------------------------------------
     ['excavation_site_9'] = {
-        Achievement({
-            id = 41100,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 41098, criteria = {70985, 70986, 70987}})
+        Achievement({id = 41100, criteria = SturdyChestCriteria}), -- Excavation Site 9 Discoveries
+        Achievement({id = 41098, criteria = {70985, 70986, 70987}}), -- Excavation Site 9 Stories
+        Spacer(), --
+        Pet({item = 221820, id = 4537}), -- Chester
+        Pet({item = 232848, id = 4647}) -- Mr. DELVER
     },
-    ['side_street_sluice'] = {
-        Achievement({
-            id = 41101,
-            criteria = {id = 1, qty = true, suffix = L['sturdy_chest_suffix']}
-        }), Achievement({id = 41099, criteria = {70988, 70989, 70990}})
+    ['sidestreet_sluice'] = {
+        Achievement({id = 41101, criteria = SturdyChestCriteria}), -- Sidestreet Sluice Discoveries
+        Achievement({id = 41099, criteria = {70988, 70989, 70990}}), -- Sidestreet Sluice Stories
+        Spacer(), --
+        Pet({item = 221820, id = 4537}), -- Chester
+        Pet({item = 232848, id = 4647}) -- Mr. DELVER
     }
 }
 
@@ -647,7 +659,7 @@ local DELVE_AREA_POIS = {
     [7873] = DELVE_REWARDS['tek_rethan_abyss'],
     [7874] = DELVE_REWARDS['the_spiral_weave'],
     [8143] = DELVE_REWARDS['excavation_site_9'],
-    [8140] = DELVE_REWARDS['side_street_sluice'],
+    [8140] = DELVE_REWARDS['sidestreet_sluice'],
     -- BOUNTIFUL DELVES -------------------------------------------------------
     [7779] = DELVE_REWARDS['fungal_folly'],
     [7780] = DELVE_REWARDS['mycomancer_cavern'],
@@ -662,7 +674,7 @@ local DELVE_AREA_POIS = {
     [7789] = DELVE_REWARDS['skittering_breach'],
     [7790] = DELVE_REWARDS['the_spiral_weave'],
     [8181] = DELVE_REWARDS['excavation_site_9'],
-    [8246] = DELVE_REWARDS['side_street_sluice']
+    [8246] = DELVE_REWARDS['sidestreet_sluice']
 }
 
 hooksecurefunc(DelveEntrancePinMixin, 'OnMouseEnter', function(self)
