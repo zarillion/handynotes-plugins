@@ -2269,8 +2269,10 @@ map.nodes[30287005] = Collectible({
     end
 }) -- Siege on Dragonbane Keep
 
-ns.hook.AreaPoiEventTooltip(ns.groups.DRAGONBANE_SIEGE,
-    SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS)
+ns.hook.AreaPoiEvent({
+    group = ns.groups.DRAGONBANE_SIEGE,
+    pois = SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS
+})
 
 -------------------------------------------------------------------------------
 --------------------- ANCIENT STONES OF THE WAKING SHORE ----------------------

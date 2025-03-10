@@ -1939,7 +1939,10 @@ end
 
 ns.node.GrandHunt = GrandHunt
 
-ns.hook.AreaPoiEventTooltip(ns.groups.GRAND_HUNTS, GRAND_HUNT_AREA_POIS)
+ns.hook.AreaPoiEvent({
+    group = ns.groups.GRAND_HUNTS,
+    pois = GRAND_HUNT_AREA_POIS
+})
 
 ------------------------------------------------------------------------------
 --------------------------- RARE VIGNETTE TOOLTIPS ---------------------------
