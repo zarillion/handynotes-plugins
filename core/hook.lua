@@ -21,20 +21,18 @@ ns.hooks = {
 local HookInfo = Class('HookInfo', nil)
 
 function HookInfo:Initialize(attrs, rewards)
-    -- GROUP
-    self.group = attrs.group or nil
+    for k, v in pairs(attrs) do self[k] = v end
 
-    -- NOTE
-    self.showNote = attrs.showNote
-    if attrs.note then self.showNote = true end
-    self.note = attrs.note or nil
-    self.noteSpaceBefore = attrs.noteSpaceBefore
-    self.noteSpaceAfter = attrs.noteSpaceAfter
+    -- don't save ever table of poi rewards to each hook
+    self.pois = nil
+    -- instead use the rewards pulled out in the loop and save those intead
+    self.rewards = rewards
 
-    -- REWARDS
-    self.rewards = rewards or nil
-    self.rewardsSpaceBefore = attrs.rewardsSpaceBefore
-    self.rewardsSpaceAfter = attrs.rewardsSpaceAfter
+    -- assume if any of these are provided manually then we want to show them
+    if self.label then self.showLabel = true end
+    if self.sublabel then self.showSublabel = true end
+    if self.note then self.showNote = true end
+    if self.rewards then self.showRewards = true end
 end
 
 -------------------------------------------------------------------------------
@@ -42,9 +40,17 @@ end
 -------------------------------------------------------------------------------
 
 local Hook = Class('Hook', nil, {
+    showLabel = false,
+    --
+    showSublabel = false,
+    sublabelSpaceBefore = true,
+    sublabelSpaceAfter = false,
+    --
     showNote = false,
     noteSpaceBefore = true,
     noteSpaceAfter = false,
+    --
+    showRewards = true,
     rewardsSpaceBefore = false,
     rewardsSpaceAfter = false
 })
@@ -181,11 +187,41 @@ function Vignette:Initialize(attrs)
 end
 
 -------------------------------------------------------------------------------
+----------------------------- SKYRIDING AREA POI ------------------------------
+-------------------------------------------------------------------------------
+
+local SkyridingAreaPoi = Class('SkyridingAreaPoi', AreaPoi,
+    {showSublabel = true, showNote = true})
+
+-------------------------------------------------------------------------------
+----------------------------- SKYRIDING VIGNETTE ------------------------------
+-------------------------------------------------------------------------------
+
+local SkyridingVignette = Class('SkyridingVignette', Vignette, {
+    showLabel = true,
+    showSublabel = true,
+    showNote = true
+})
+
+-------------------------------------------------------------------------------
 ------------------------------- HOOKSECUREFUNC --------------------------------
 -------------------------------------------------------------------------------
 
 local function renderTooltip(hookInfo)
-    -- Add note to tooltip if provided and enabled
+
+    -- Add LABEL to tooltip if provide/enabled
+    if hookInfo.showLabel then
+        GameTooltip:SetText(ns.RenderLinks(hookInfo.label, true))
+    end
+
+    -- Add SUBLABEL to tooltip if provided/enabled
+    if hookInfo.showSublabel then
+        if hookInfo.showSublabel then GameTooltip:AddLine(' ') end
+        GameTooltip:AddLine(ns.RenderLinks(hookInfo.sublabel, true), 1, 1, 1)
+        if hookInfo.showSublabel then GameTooltip:AddLine(' ') end
+    end
+
+    -- Add NOTE to tooltip if provided/enabled
     if hookInfo.showNote then
         if ns:GetOpt('show_notes') then
             if hookInfo.rewardsSpaceBefore then
@@ -197,8 +233,9 @@ local function renderTooltip(hookInfo)
             end
         end
     end
-    -- Add rewards to tooltip if provided and enabled
-    if hookInfo.rewards then
+
+    -- Add REWARDS to tooltip if provided/enabled
+    if hookInfo.showRewards then
         if ns:GetOpt('show_loot') then
             if hookInfo.rewardsSpaceBefore then
                 GameTooltip:AddLine(' ')
@@ -213,6 +250,7 @@ local function renderTooltip(hookInfo)
             end
         end
     end
+
     GameTooltip:Show()
 end
 
@@ -254,15 +292,14 @@ local function HookAllPOIS()
         if not hookInfo then return end
         local mapID = self:GetMap().mapID
         if not hookInfo.group:GetDisplay(mapID) then return end
-
         local vignetteGUID = self.vignetteGUID
         local pos = C_VignetteInfo.GetVignettePosition(vignetteGUID, mapID)
         local coordinates = HandyNotes:getCoord(pos.x, pos.y)
         local node = ns.maps[mapID].nodes[coordinates]
-
-        hookInfo.rewards = node.rewards
+        hookInfo.label = node.label
+        hookInfo.sublabel = node.sublabel
         hookInfo.note = node.note
-
+        hookInfo.rewards = node.rewards
         renderTooltip(hookInfo)
     end)
 end
@@ -276,5 +313,8 @@ ns.hook = {
     AreaPoiEvent = AreaPoiEvent,
     Delve = Delve,
     Encounter = Encounter,
-    Vignette = Vignette
+    Vignette = Vignette,
+    --
+    SkyridingAreaPoi = SkyridingAreaPoi,
+    SkyridingVignette = SkyridingVignette
 }
