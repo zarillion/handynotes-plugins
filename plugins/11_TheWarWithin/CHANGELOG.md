@@ -2,6 +2,7 @@
 
 * Add Delve pets to tooltips
 * Add "Gold Fish" vendor for toys
+* Localization updates: esES, frFR
 
 # v116
 
