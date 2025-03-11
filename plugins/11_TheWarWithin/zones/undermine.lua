@@ -398,6 +398,16 @@ map.nodes[25743813] = Vendor({
     }
 }) -- Angelo Rustbin
 
+map.nodes[34097126] = Vendor({
+    id = 226994,
+    note = L['blair_bass_note'],
+    rewards = {
+        Toy({item = 237346, count = 5}), -- Artisan Beverage Goblet Bobber
+        Toy({item = 237347, count = 5}), -- Organically-Sourced Wellington Bobber
+        Toy({item = 237345, count = 5}) -- Limited Edition Rocket Bobber
+    }
+}) -- Blair Bass
+
 -------------------------------------------------------------------------------
 ----------------------------- S.C.R.A.P. REWARDS ------------------------------
 -------------------------------------------------------------------------------

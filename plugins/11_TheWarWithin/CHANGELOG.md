@@ -1,6 +1,7 @@
 # v117
 
 * Add Delve pets to tooltips
+* Add "Gold Fish" vendor for toys
 
 # v116
 

@@ -590,6 +590,7 @@ L['trick_deck_of_cards_location'] = 'Sur le bureau à côté de {npc:231045} à 
 
 L['ditty_fuzeboy_note'] = 'Échangez vos {item:234741} contre des mascottes.'
 L['angelo_rustbin_note'] = 'Échangez vos {currency:3220} contre des mascottes et des personnalisations pour votre {object:Casse-cou G-99}.'
+L['blair_bass_note'] = nil
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Afficher les emplacements des {object:Autovestiaires de Muff} pour le haut-fait {achievement:40948}.'

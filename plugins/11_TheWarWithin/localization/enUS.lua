@@ -589,6 +589,7 @@ L['trick_deck_of_cards_location'] = 'On the desk next to {npc:231045} inside {lo
 
 L['ditty_fuzeboy_note'] = 'Exchange {item:234741} for pets.'
 L['angelo_rustbin_note'] = 'Exchange {currency:3220} for pets and {object:G-99 Breakneck} customizations.'
+L['blair_bass_note'] = 'Exchange {item:227673} for toys.\n\n{item:227673} can be fished up from {object:Steamwheedle Runoff} pools.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Display all {object:Muff\'s Auto-Locker} locations for {achievement:40948}.'

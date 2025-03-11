@@ -592,6 +592,7 @@ L['trick_deck_of_cards_location'] = 'Auf dem Tisch neben {npc:231045} im {locati
 
 L['ditty_fuzeboy_note'] = 'Tausche {item:234741} gegen Haustiere ein.'
 L['angelo_rustbin_note'] = 'Tausche {currency:3220} gegen Haustiere und {object:99-G-Genickbrecher} Anpassungen ein.'
+L['blair_bass_note'] = nil
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Zeigt die Positionen von {object:Muffs Selbstschließern} für den Erfolg {achievement:40948} an.'

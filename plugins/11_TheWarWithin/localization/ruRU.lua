@@ -590,6 +590,7 @@ L['trick_deck_of_cards_location'] = 'На столе рядом с {npc:231045} 
 
 L['ditty_fuzeboy_note'] = 'Обмен {item:234741} на питомцев.'
 L['angelo_rustbin_note'] = 'Обменяйте {currency:3220} на питомцев и настройки к {object:Стремглав G-99}.'
+L['blair_bass_note'] = nil
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Показать все местоположения {object:Автозапирателей Недотепы} для {achievement:40948}.'
