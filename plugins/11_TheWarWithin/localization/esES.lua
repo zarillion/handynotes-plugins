@@ -587,20 +587,20 @@ L['impotent_potable_location'] = 'Debajo del muelle al lado de {location:Fiesta 
 L['abandoned_toolbox_location'] = 'En lo alto del techo de la {location:Tienda de Chatarra}.\n\nSigue las escaleras hasta arriba.'
 L['trick_deck_of_cards_location'] = 'En el escritorio al lado de {npc:231045} dentro del {location:Hotel Incontinental}.'
 
-L['breakneck_customization'] = nil
+L['breakneck_customization'] = 'Rompecuellos G-99'
 
 L['ditty_fuzeboy_note'] = 'Intercambia {item:234741} por mascotas.'
-L['angelo_rustbin_note'] = 'Intercambia {currency:3220} por mascotas y las transfiguraciones {object:Rompecuellos G-99}.'
+L['angelo_rustbin_note'] = 'Intercambia {currency:3218} por un juguete y la transfiguración {object:Rompecuellos G-99}.\n\n{note:Se puede conseguir {currency:3218} en cualquier momento pergo conseguir la {item:229810} requiere Renombre 14 con {faction:2653}.}'
 L['blair_bass_note'] = 'Intercambia {item:227673} por juguetes.\n\n{item:227673} se puede pescar en los bancos de peces {object:Escorrentía Bonvapor}.'
 L['greexit_coarsebub_note'] = 'Intercambia oro por transfiguraciones del cártel de goblins.\n\n{note:Los objetos disponibles para comprar son sólo los de tu cártel actual.}'
 
-L['quartermaster'] = nil
-L['quartermaster_note'] = nil
+L['quartermaster'] = 'Intendente %s'
+L['quartermaster_note'] = 'Intercambia {currency:2815} por una variedad de coleccionables.'
 
-L['rocco_razzboom_location'] = nil
-L['lab_assistant_laszly_location'] = nil
-L['boatswain_hardee_location'] = nil
-L['shrez_the_scrapper_location'] = nil
+L['rocco_razzboom_location'] = 'En el piso inferior de la {location:Tienda de Chatarra}.'
+L['lab_assistant_laszly_location'] = 'En el fondo de los {location:Laboratorios Bonvapor}.'
+L['boatswain_hardee_location'] = 'En el primer piso de la {location:Autoridad Portuaria}.'
+L['shrez_the_scrapper_location'] = 'En el primer piso de la {location:Plaza de la Aventura}.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Muestra dónde están los {object:Cofre bloqueado de Muff} para el logro {achievement:40948}.'
