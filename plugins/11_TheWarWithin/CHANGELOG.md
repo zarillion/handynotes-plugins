@@ -4,7 +4,7 @@
   * Add Delve pets to tooltips
   * Add "Gold Fish" vendor for toys
   * Add Goblin Cartel transmog vendor
-* Localization updates: esES, frFR
+* Localization updates: esES, frFR, zhCN
 
 # v116
 
