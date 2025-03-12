@@ -590,6 +590,7 @@ L['trick_deck_of_cards_location'] = '在 {location:洋际酒店} 内 {npc:231045
 L['ditty_fuzeboy_note'] = '用 {item:234741} 交换宠物。'
 L['angelo_rustbin_note'] = '用 {currency:3220} 交换宠物和 {object:G-99疾飙飞车} 自定义选项。'
 L['blair_bass_note'] = '用 {item:227673} 兑换玩具。\n\n{item:227673} 可以从 {object:热砂径流} 渔点中钓到。'
+L['greexit_coarsebub_note'] = nil
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = '显示 {achievement:40948} 的所有 {object:傻瓜式自动锁柜} 位置。'

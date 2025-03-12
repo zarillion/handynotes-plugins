@@ -590,6 +590,7 @@ L['trick_deck_of_cards_location'] = nil
 L['ditty_fuzeboy_note'] = nil
 L['angelo_rustbin_note'] = nil
 L['blair_bass_note'] = nil
+L['greexit_coarsebub_note'] = nil
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = nil

@@ -1,7 +1,9 @@
 # v117
 
-* Add Delve pets to tooltips
-* Add "Gold Fish" vendor for toys
+* Undermine
+  * Add Delve pets to tooltips
+  * Add "Gold Fish" vendor for toys
+  * Add Goblin Cartel transmog vendor
 * Localization updates: esES, frFR
 
 # v116
