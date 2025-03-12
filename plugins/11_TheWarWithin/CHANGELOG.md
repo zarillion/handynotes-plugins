@@ -4,6 +4,7 @@
   * Add Delve pets to tooltips
   * Add "Gold Fish" vendor for toys
   * Add Goblin Cartel transmog vendor
+  * Update Angelo Rustbin (Kaja'Cola vendor) note and rewards
 * Localization updates: esES, frFR, zhCN
 
 # v116

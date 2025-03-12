@@ -588,7 +588,7 @@ L['abandoned_toolbox_location'] = 'High on the roof of {location:The Scrapshop}.
 L['trick_deck_of_cards_location'] = 'On the desk next to {npc:231045} inside {location:The Incontinental Hotel}.'
 
 L['ditty_fuzeboy_note'] = 'Exchange {item:234741} for pets.'
-L['angelo_rustbin_note'] = 'Exchange {currency:3220} for pets and {object:G-99 Breakneck} customizations.'
+L['angelo_rustbin_note'] = 'Exchange {currency:3218} for a toy and a {object:G-99 Breakneck} customization.\n\nExchange {currency:3220} for pets.\n\n{note:Collecting {currency:3218} can done at any time but collecting {item:229810} requires {faction:2653} Renown 14.}'
 L['blair_bass_note'] = 'Exchange {item:227673} for toys.\n\n{item:227673} can be fished up from {object:Steamwheedle Runoff} pools.'
 L['greexit_coarsebub_note'] = 'Exchange gold for goblin cartel transmogs.\n\n{note:Only items associated with your current cartel are available to purchase.}'
 

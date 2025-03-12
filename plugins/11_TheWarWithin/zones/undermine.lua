@@ -394,9 +394,13 @@ map.nodes[25743813] = Vendor({
     id = 234776,
     note = L['angelo_rustbin_note'],
     rewards = {
+        Section('{currency:3218}'), -- Empty Kaja'Cola Can
+        Toy({item = 237382, count = 999}), -- Undermine Supply Crate
+        Item({item = 232986, count = 2000}), -- GE86 Advance
+        Spacer(), --
+        Section('{item:229810}'), -- Vintage Kaja'Cola Can
         Pet({item = 232858, id = 4655, count = 1}), -- Cruncher
-        Pet({item = 232859, id = 4653, count = 3}), -- Lab Rat
-        Item({item = 232986, count = 1}) -- GE86 Advance
+        Pet({item = 232859, id = 4653, count = 3}) -- Lab Rat
     }
 }) -- Angelo Rustbin
 
