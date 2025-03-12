@@ -398,7 +398,7 @@ map.nodes[25743813] = Vendor({
         Toy({item = 237382, count = 999}), -- Undermine Supply Crate
         Item({item = 232986, count = 2000}), -- GE86 Advance
         Spacer(), --
-        Section('{item:229810}'), -- Vintage Kaja'Cola Can
+        Section('{currency:3220}'), -- Vintage Kaja'Cola Can
         Pet({item = 232858, id = 4655, count = 1}), -- Cruncher
         Pet({item = 232859, id = 4653, count = 3}) -- Lab Rat
     }
