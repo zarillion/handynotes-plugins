@@ -590,7 +590,7 @@ L['trick_deck_of_cards_location'] = 'En el escritorio al lado de {npc:231045} de
 L['ditty_fuzeboy_note'] = 'Intercambia {item:234741} por mascotas.'
 L['angelo_rustbin_note'] = 'Intercambia {currency:3220} por mascotas y las transfiguraciones {object:Rompecuellos G-99}.'
 L['blair_bass_note'] = 'Intercambia {item:227673} por juguetes.\n\n{item:227673} se puede pescar en los bancos de peces {object:Escorrentía Bonvapor}.'
-L['greexit_coarsebub_note'] = nil
+L['greexit_coarsebub_note'] = 'Intercambia oro por transfiguraciones del cártel de goblins.\n\n{note:Los objetos disponibles para comprar son sólo los de tu cártel actual.}'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Muestra dónde están los {object:Cofre bloqueado de Muff} para el logro {achievement:40948}.'
