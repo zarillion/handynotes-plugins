@@ -598,7 +598,7 @@ L['quartermaster'] = '%s Quartermaster'
 L['quartermaster_note'] = 'Exchange {currency:2815} for a variety of collectibles.'
 
 L['rocco_razzboom_location'] = 'Bottom floor of {location:The Scrapshop}.'
-L['lab_assistant_laszly_location'] = 'Deep inside {location:Steamwheedle Labratories}.'
+L['lab_assistant_laszly_location'] = 'Deep inside {location:Steamwheedle Laboratories}.'
 L['boatswain_hardee_location'] = 'First floor of {location:Port Authority}.'
 L['shrez_the_scrapper_location'] = 'First floor of {location:Venture Plaza}.'
 
