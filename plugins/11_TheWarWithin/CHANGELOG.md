@@ -2,9 +2,14 @@
 
 * Undermine
   * Add Delve pets to tooltips
-  * Add "Gold Fish" vendor for toys
-  * Add Goblin Cartel transmog vendor
-  * Update Angelo Rustbin (Kaja'Cola vendor) note and rewards
+  * Add new vendor - Bilgewater quatermaster
+  * Add new vendor - Steamwheedle quatermaster
+  * Add new vendor - Blackwater quatermaster
+  * Add new vendor - Venture Company quatermaster
+  * Add new vendor - Darkfuse Solutions quatermaster
+  * Add new vendor - "Gold Fish" (bobber toys)
+  * Add new vendor - Goblin cartel transmog
+  * Update vendor - Angelo Rustbin (Kaja'Cola vendor) note and rewards
 * Localization updates: esES, frFR, zhCN
 
 # v116

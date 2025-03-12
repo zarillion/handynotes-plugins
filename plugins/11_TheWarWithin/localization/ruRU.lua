@@ -588,10 +588,20 @@ L['impotent_potable_location'] = 'Под доком рядом с {location:Ра
 L['abandoned_toolbox_location'] = 'Высоко на крыше {location:Хламовская}.\n\nСледуйте по лестнице наверх.'
 L['trick_deck_of_cards_location'] = 'На столе рядом с {npc:231045} внутри {location:гостиницы Неконтинентальной}.'
 
+L['breakneck_customization'] = nil
+
 L['ditty_fuzeboy_note'] = 'Обмен {item:234741} на питомцев.'
 L['angelo_rustbin_note'] = 'Обменяйте {currency:3220} на питомцев и настройки к {object:Стремглав G-99}.'
 L['blair_bass_note'] = nil
 L['greexit_coarsebub_note'] = nil
+
+L['quartermaster'] = nil
+L['quartermaster_note'] = nil
+
+L['rocco_razzboom_location'] = nil
+L['lab_assistant_laszly_location'] = nil
+L['boatswain_hardee_location'] = nil
+L['shrez_the_scrapper_location'] = nil
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Показать все местоположения {object:Автозапирателей Недотепы} для {achievement:40948}.'

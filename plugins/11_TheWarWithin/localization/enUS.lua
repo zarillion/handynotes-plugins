@@ -587,10 +587,20 @@ L['impotent_potable_location'] = 'Below the dock next to the {location:Plunder P
 L['abandoned_toolbox_location'] = 'High on the roof of {location:The Scrapshop}.\n\nFollow the stairs to the top.'
 L['trick_deck_of_cards_location'] = 'On the desk next to {npc:231045} inside {location:The Incontinental Hotel}.'
 
+L['breakneck_customization'] = 'G-99 Breakneck'
+
 L['ditty_fuzeboy_note'] = 'Exchange {item:234741} for pets.'
 L['angelo_rustbin_note'] = 'Exchange {currency:3218} for a toy and a {object:G-99 Breakneck} customization.\n\nExchange {currency:3220} for pets.\n\n{note:Collecting {currency:3218} can done at any time but collecting {item:229810} requires {faction:2653} Renown 14.}'
 L['blair_bass_note'] = 'Exchange {item:227673} for toys.\n\n{item:227673} can be fished up from {object:Steamwheedle Runoff} pools.'
 L['greexit_coarsebub_note'] = 'Exchange gold for goblin cartel transmogs.\n\n{note:Only items associated with your current cartel are available to purchase.}'
+
+L['quartermaster'] = '%s Quartermaster'
+L['quartermaster_note'] = 'Exchange {currency:2815} for a variety of collectibles.'
+
+L['rocco_razzboom_location'] = 'Bottom floor of {location:The Scrapshop}.'
+L['lab_assistant_laszly_location'] = 'Deep inside {location:Steamwheedle Labratories}.'
+L['boatswain_hardee_location'] = 'First floor of {location:Port Authority}.'
+L['shrez_the_scrapper_location'] = 'First floor of {location:Venture Plaza}.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Display all {object:Muff\'s Auto-Locker} locations for {achievement:40948}.'

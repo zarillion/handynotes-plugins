@@ -588,10 +588,20 @@ L['impotent_potable_location'] = 'Sous le quai à côté de la {location:Pille-e
 L['abandoned_toolbox_location'] = 'Tout en haut sur le toit de la {location:Recyclerie}.\n\nSuivez les escaliers jusqu\'au sommet.'
 L['trick_deck_of_cards_location'] = 'Sur le bureau à côté de {npc:231045} à l\'intérieur de l\'{location:Hôtel Incontinental}.'
 
+L['breakneck_customization'] = nil
+
 L['ditty_fuzeboy_note'] = 'Échangez vos {item:234741} contre des mascottes.'
 L['angelo_rustbin_note'] = 'Échangez vos {currency:3220} contre des mascottes et des personnalisations pour votre {object:Casse-cou G-99}.'
 L['blair_bass_note'] = 'Échangez vos {item:227673} contre des jouets.\n\nLes {item:227673} peuvent être pêchées dans les bancs de {object:Ruissellement de Gentepression}.'
 L['greexit_coarsebub_note'] = 'Échangez de l\'or contre des objets de transmogrification liés aux cartels gobelins.\n\n{note:Seuls les objets associés à votre cartel actuel sont disponibles à l\'achat.}'
+
+L['quartermaster'] = nil
+L['quartermaster_note'] = nil
+
+L['rocco_razzboom_location'] = nil
+L['lab_assistant_laszly_location'] = nil
+L['boatswain_hardee_location'] = nil
+L['shrez_the_scrapper_location'] = nil
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Afficher les emplacements des {object:Autovestiaires de Muff} pour le haut-fait {achievement:40948}.'

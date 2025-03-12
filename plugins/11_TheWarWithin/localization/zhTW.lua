@@ -587,10 +587,20 @@ L['impotent_potable_location'] = nil
 L['abandoned_toolbox_location'] = nil
 L['trick_deck_of_cards_location'] = nil
 
+L['breakneck_customization'] = nil
+
 L['ditty_fuzeboy_note'] = nil
 L['angelo_rustbin_note'] = nil
 L['blair_bass_note'] = nil
 L['greexit_coarsebub_note'] = nil
+
+L['quartermaster'] = nil
+L['quartermaster_note'] = nil
+
+L['rocco_razzboom_location'] = nil
+L['lab_assistant_laszly_location'] = nil
+L['boatswain_hardee_location'] = nil
+L['shrez_the_scrapper_location'] = nil
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = nil

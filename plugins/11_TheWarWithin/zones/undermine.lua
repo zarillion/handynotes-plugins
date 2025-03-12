@@ -377,6 +377,9 @@ map.nodes[42308231] = Treasure({
 ----------------------------------- VENDORS -----------------------------------
 -------------------------------------------------------------------------------
 
+local BreakneckCustomization = Class('BreakneckCustomization', Item,
+    {type = L['breakneck_customization']})
+
 map.nodes[35384142] = Vendor({
     id = 236411,
     note = L['ditty_fuzeboy_note'],
@@ -396,7 +399,7 @@ map.nodes[25743813] = Vendor({
     rewards = {
         Section('{currency:3218}'), -- Empty Kaja'Cola Can
         Toy({item = 237382, count = 999}), -- Undermine Supply Crate
-        Item({item = 232986, count = 2000}), -- GE86 Advance
+        BreakneckCustomization({item = 232986, count = 2000}), -- GE86 Advance
         Spacer(), --
         Section('{currency:3220}'), -- Vintage Kaja'Cola Can
         Pet({item = 232858, id = 4655, count = 1}), -- Cruncher
@@ -439,6 +442,85 @@ map.nodes[24606320] = Vendor({
         Transmog({item = 231738, count = 125}) -- Venture Co. Bruisers Tabard
     }
 }) -- Greexit Coarsebub
+
+------------------------ GOBLIN CARTEL QUARTERMASTERS -------------------------
+
+map.nodes[39152219] = Vendor({
+    id = 231406,
+    sublabel = format(L['quartermaster'], '{faction:2673}'),
+    location = L['rocco_razzboom_location'],
+    note = L['quartermaster_note'],
+    rewards = {
+        BreakneckCustomization({item = 236672}), -- The Ol' Low-and-Slow
+        Toy({item = 235670}), -- Bilgewater Cartel Banner
+        Pet({item = 232845, id = 4645}), -- Bilgewater Junkhauler
+        Toy({item = 235807}), -- Storefront-in-a-Box
+        Mount({item = 229935, id = 2272}), -- Crimson Armored Growler
+        Transmog({item = 231526}), -- Bilgewater Undermine Tabard
+        BreakneckCustomization({item = 235388}) -- Paint: Redlining Red
+    }
+}) -- Rocco Razzboom <Bilgewater Quartermaster>
+
+map.nodes[27127256] = Vendor({
+    id = 231408,
+    sublabel = format(L['quartermaster'], '{faction:2677}'),
+    location = L['lab_assistant_laszly_location'],
+    note = L['quartermaster_note'],
+    rewards = {
+        BreakneckCustomization({item = 236670}), -- Maniacle Melodies
+        Toy({item = 235669}), -- Steamwheedle Cartel Banner
+        Pet({item = 232853, id = 4632}), -- Eepy
+        Toy({item = 226373}), -- Everlasting Noggenfogger Elixer
+        Mount({item = 229956, id = 2294}), -- Mean Green Flying Machine
+        Transmog({item = 231527}), -- Steamwheedle Undermine Tabard
+        BreakneckCustomization({item = 235389}) -- Paint: Goblin Green
+    }
+}) -- Lab Assistant Laszly <Steamwheedle Quartermaster>
+
+map.nodes[63421673] = Vendor({
+    id = 231405,
+    sublabel = format(L['quartermaster'], '{faction:2675}'),
+    location = L['boatswain_hardee_location'],
+    note = L['quartermaster_note'],
+    rewards = {
+        BreakneckCustomization({item = 236671}), -- The Buzzer
+        Toy({item = 235671}), -- Blackwater Cartel Banner
+        Pet({item = 232839, id = 4637}), -- Wavebreaker Mechasaur
+        Toy({item = 235801}), -- Personal Fishing Barge
+        Mount({item = 229948, id = 2286}), -- Blackwater Shredder Deluxe Mk 2
+        Transmog({item = 231528}), -- Blackwater Undermine Tabard
+        BreakneckCustomization({item = 235390}) -- Paint: Body Roll Blue
+    }
+}) -- Boatswain Hardee <Blackwater Quartermaster>
+
+map.nodes[53297271] = Vendor({
+    id = 231407,
+    sublabel = format(L['quartermaster'], '{faction:2671}'),
+    location = L['shrez_the_scrapper_location'],
+    note = L['quartermaster_note'],
+    rewards = {
+        BreakneckCustomization({item = 236669}), -- The Whole Brass Band
+        Toy({item = 235672}), -- Venture Co. Banner
+        Pet({item = 232851, id = 4641}), -- Rocketfist
+        Toy({item = 235799}), -- Throwin' Sawblade
+        Mount({item = 229946, id = 2284}), -- Ocher Delivery Rocket
+        Transmog({item = 231542}), -- Venture Co. Undermine Tabard
+        BreakneckCustomization({item = 235391}) -- Paint: Yellow Cake Yellow
+    }
+}) -- Shredz the Scapper <Venture Quartermaster>
+
+map.nodes[30723890] = Vendor({
+    id = 231396,
+    sublabel = format(L['quartermaster'], '{faction:2669}'),
+    location = L['in_sewer'],
+    note = L['quartermaster_note'],
+    pois = {Entrance({29754112})},
+    rewards = {
+        Toy({item = 234950}), -- Atomic Regoblinator
+        Mount({item = 229950, id = 2287}), -- Darkfuse Demolisher
+        Transmog({item = 231550}) -- Darkfuse Lowdown Coat
+    }
+}) -- Sitch Lowdown <Darkfuse Solutions Quartermaster>
 
 -------------------------------------------------------------------------------
 ----------------------------- S.C.R.A.P. REWARDS ------------------------------

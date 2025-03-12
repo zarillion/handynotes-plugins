@@ -587,10 +587,20 @@ L['impotent_potable_location'] = '在码头下方，靠近 {location:谋财聚�
 L['abandoned_toolbox_location'] = '在 {location:废渣铺} 的屋顶高处。\n\n跟随楼梯到顶部。'
 L['trick_deck_of_cards_location'] = '在 {location:洋际酒店} 内 {npc:231045} 旁边的桌子上。'
 
+L['breakneck_customization'] = nil
+
 L['ditty_fuzeboy_note'] = '用 {item:234741} 交换宠物。'
 L['angelo_rustbin_note'] = '用 {currency:3220} 交换宠物和 {object:G-99疾飙飞车} 自定义选项。'
 L['blair_bass_note'] = '用 {item:227673} 兑换玩具。\n\n{item:227673} 可以从 {object:热砂径流} 渔点中钓到。'
 L['greexit_coarsebub_note'] = nil
+
+L['quartermaster'] = nil
+L['quartermaster_note'] = nil
+
+L['rocco_razzboom_location'] = nil
+L['lab_assistant_laszly_location'] = nil
+L['boatswain_hardee_location'] = nil
+L['shrez_the_scrapper_location'] = nil
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = '显示 {achievement:40948} 的所有 {object:傻瓜式自动锁柜} 位置。'
