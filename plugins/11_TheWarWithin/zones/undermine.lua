@@ -103,7 +103,8 @@ map.nodes[46915565] = Rare({
     id = 230995,
     quest = 84926,
     rewards = {
-        Achievement({id = 41216, criteria = 71598}), Transmog({item = 235324}), -- Scavenger's Lost Bind
+        Achievement({id = 41216, criteria = 71598}),
+        Transmog({item = 235324, slot = L['mail']}), -- Scavenger's Lost Bind
         Reputation({id = 2653, gain = 20})
     }
 }) -- Nitro
@@ -325,7 +326,8 @@ map.nodes[40852126] = Treasure({
 map.nodes[74677988] = Treasure({
     quest = 85424,
     rewards = {
-        Achievement({id = 41217, criteria = 71629}), Transmog({item = 234821}) -- Papa's Prized Putter
+        Achievement({id = 41217, criteria = 71629}),
+        Transmog({item = 234821, slot = L['trinket']}) -- Papa's Prized Putter
     }
 }) -- Papa's Prized Putter
 
