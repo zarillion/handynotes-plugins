@@ -53,6 +53,16 @@ map.nodes[41604060] = Dirkee
 map.nodes[41005160] = Dirkee
 map.nodes[37805860] = Dirkee
 
+local Skoll = Rare({
+    id = 35189,
+    fgroup = 'skoll',
+    rewards = {Transmog({item = 49227, type = L['dagger']})} -- Skoll's Fang
+}) -- Skoll
+
+map.nodes[27805080] = Skoll
+map.nodes[30206460] = Skoll
+map.nodes[46206480] = Skoll
+
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
 -------------------------------------------------------------------------------
