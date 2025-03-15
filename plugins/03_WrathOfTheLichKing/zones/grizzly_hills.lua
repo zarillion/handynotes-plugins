@@ -87,8 +87,7 @@ map.nodes[65003000] = Rare({
 
 map.nodes[31005580] = Rare({
     id = 38453,
-    rewards = {
-        Transmog({item = 51958, type = L['leather']})} -- Pristine Glowbear Pelt
+    rewards = Transmog({item = 51958, type = L['leather']}) -- Pristine Glowbear Pelt
 }) -- Arcturis
 
 -------------------------------------------------------------------------------
