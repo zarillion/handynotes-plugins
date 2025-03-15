@@ -714,3 +714,30 @@ map.nodes[56923313] = DiscardedCan()
 
 map.nodes[43251438] = WorldsoulMemory({areaPoiID = 8200}) -- Early Cartel Wars
 map.nodes[58196864] = WorldsoulMemory({areaPoiID = 8201}) -- Kaja'mite Contact
+
+-------------------------------------------------------------------------------
+-------------------------------- MISCELLANEOUS --------------------------------
+-------------------------------------------------------------------------------
+
+---------------------------- UNDERMINE UNDERSHIRT -----------------------------
+
+map.nodes[33085816] = Collectible({
+    label = L['sewer_cheese_label'],
+    icon = 'peg_bl',
+    scale = 2.0,
+    note = L['undermine_undershirt_note'],
+    rlabel = ns.status.Gray('#1'),
+    location = L['in_sewer'],
+    pois = {Entrance({33815756})},
+    rewards = {Transmog({item = 237130})} -- Undermine Undershirt
+}) -- Sewer Cheese
+
+map.nodes[63231691] = Collectible({
+    label = '{npc:237412}',
+    icon = 'peg_bl',
+    scale = 2.0,
+    note = L['undermine_undershirt_note'],
+    rlabel = ns.status.Gray('#2'),
+    requires = ns.requirement.Item(237129), -- Tarnished Undermine Real
+    rewards = {Transmog({item = 237130})} -- Undermine Undershirt
+}) -- Pix Xizzix

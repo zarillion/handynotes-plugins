@@ -628,3 +628,6 @@ L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
 L['options_icons_youre_my_friend_now_desc'] = 'Afficher les emplacements des {npc:239248} pour le haut-fait {achievement:41708}.'
 L['rat_in_building_rail'] = 'A l\'intérieur du bâtiment sur le rail.'
 L['rat_2nd_floor_trash_can'] = 'A l\'intérieur du bâtiment, au deuxième étage, sur la poubelle.'
+
+L['sewer_cheese_label'] = nil
+L['undermine_undershirt_note'] = nil

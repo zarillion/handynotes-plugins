@@ -2,6 +2,7 @@
 
 * Undermine
   * Add Delve pets to tooltips
+  * Add Undermine Undershirt secret reward
   * Add new vendor - Bilgewater quatermaster
   * Add new vendor - Steamwheedle quatermaster
   * Add new vendor - Blackwater quatermaster

@@ -627,3 +627,6 @@ L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
 L['options_icons_youre_my_friend_now_desc'] = 'Display {npc:239248} locations for {achievement:41708}.'
 L['rat_in_building_rail'] = 'Inside the building on the rail.'
 L['rat_2nd_floor_trash_can'] = 'Inside the building on the second floor on the trash can.'
+
+L['sewer_cheese_label'] = 'Sewer Cheese'
+L['undermine_undershirt_note'] = '1. Collect the {object:Sewer Cheese} from within the sewer below {location:The Vatworks} to receive the {spell:1221472} buff.\n\n2. Interact with the nearby {npc:238661} to trade your chese for a {item:237129}.\n\n3. Bring the {item:237129} to {npc:237412}, upstairs in the {location:Port Authority} building at {location:Blackwater Marina}, and exchange it for {item:237130}.'
