@@ -421,24 +421,24 @@ map.nodes[24606320] = Vendor({
     note = L['greexit_coarsebub_note'],
     rewards = {
         Section('{faction:2673}'), -- Bilgewater
-        Transmog({item = 231742, count = 50}), -- Bilgewater Bruisers Helm
-        Transmog({item = 231748, count = 25}), -- Bilgewater Bruisers Spaulders
-        Transmog({item = 231736, count = 125}), -- Bilgewater Bruisers Tabard
+        Transmog({item = 231742, count = 190}), -- Bilgewater Bruisers Helm
+        Transmog({item = 231748, count = 95}), -- Bilgewater Bruisers Spaulders
+        Transmog({item = 231736, count = 475}), -- Bilgewater Bruisers Tabard
         Spacer(), --
         Section('{faction:2677}'), -- Steamwheedle
-        Transmog({item = 231740, count = 50}), -- Steamwheedle Bruisers Helm
-        Transmog({item = 231747, count = 25}), -- Steamwheedle Bruisers Spaulders
-        Transmog({item = 231735, count = 125}), -- Steamwheedle Bruisers Tabard
+        Transmog({item = 231740, count = 190}), -- Steamwheedle Bruisers Helm
+        Transmog({item = 231747, count = 95}), -- Steamwheedle Bruisers Spaulders
+        Transmog({item = 231735, count = 475}), -- Steamwheedle Bruisers Tabard
         Spacer(), --
         Section('{faction:2675}'), -- Blackwater
-        Transmog({item = 231741, count = 50}), -- Blackwater Bruisers Helm
-        Transmog({item = 231746, count = 25}), -- Blackwater Bruisers Spaulders
-        Transmog({item = 231734, count = 125}), -- Blackwater Bruisers Tabard
+        Transmog({item = 231741, count = 190}), -- Blackwater Bruisers Helm
+        Transmog({item = 231746, count = 95}), -- Blackwater Bruisers Spaulders
+        Transmog({item = 231734, count = 475}), -- Blackwater Bruisers Tabard
         Spacer(), --
         Section('{faction:2671}'), -- Venture Company
-        Transmog({item = 231744, count = 50}), -- Venture Co. Bruisers Helm
-        Transmog({item = 231750, count = 25}), -- Venture Co. Bruisers Spaulders
-        Transmog({item = 231738, count = 125}) -- Venture Co. Bruisers Tabard
+        Transmog({item = 231744, count = 190}), -- Venture Co. Bruisers Helm
+        Transmog({item = 231750, count = 95}), -- Venture Co. Bruisers Spaulders
+        Transmog({item = 231738, count = 475}) -- Venture Co. Bruisers Tabard
     }
 }) -- Greexit Coarsebub
 
