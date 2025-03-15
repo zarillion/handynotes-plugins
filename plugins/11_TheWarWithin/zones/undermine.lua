@@ -398,7 +398,7 @@ map.nodes[25743813] = Vendor({
     rewards = {
         Section('{currency:3218}'), -- Empty Kaja'Cola Can
         Toy({item = 237382, count = 999}), -- Undermine Supply Crate
-        BreakneckCustomization({item = 232986, count = 2000}), -- GE86 Advance
+        BreakneckCustomization({item = 232986, count = 2000, quest = 85781}), -- GE86 Advance
         Spacer(), --
         Section('{currency:3220}'), -- Vintage Kaja'Cola Can
         Pet({item = 232858, id = 4655, count = 1}), -- Cruncher
@@ -450,13 +450,13 @@ map.nodes[39152219] = Vendor({
     location = L['rocco_razzboom_location'],
     note = L['quartermaster_note'],
     rewards = {
-        BreakneckCustomization({item = 236672}), -- The Ol' Low-and-Slow
+        BreakneckCustomization({item = 236672, quest = 85785}), -- The Ol' Low-and-Slow
         Toy({item = 235670}), -- Bilgewater Cartel Banner
         Pet({item = 232845, id = 4645}), -- Bilgewater Junkhauler
         Toy({item = 235807}), -- Storefront-in-a-Box
         Mount({item = 229935, id = 2272}), -- Crimson Armored Growler
         Transmog({item = 231526}), -- Bilgewater Undermine Tabard
-        BreakneckCustomization({item = 235388}) -- Paint: Redlining Red
+        BreakneckCustomization({item = 235388, quest = 86773}) -- Paint: Redlining Red
     }
 }) -- Rocco Razzboom <Bilgewater Quartermaster>
 
@@ -466,13 +466,13 @@ map.nodes[27127256] = Vendor({
     location = L['lab_assistant_laszly_location'],
     note = L['quartermaster_note'],
     rewards = {
-        BreakneckCustomization({item = 236670}), -- Maniacle Melodies
+        BreakneckCustomization({item = 236670, quest = 85787}), -- Maniacle Melodies
         Toy({item = 235669}), -- Steamwheedle Cartel Banner
         Pet({item = 232853, id = 4632}), -- Eepy
         Toy({item = 226373}), -- Everlasting Noggenfogger Elixer
         Mount({item = 229956, id = 2294}), -- Mean Green Flying Machine
         Transmog({item = 231527}), -- Steamwheedle Undermine Tabard
-        BreakneckCustomization({item = 235389}) -- Paint: Goblin Green
+        BreakneckCustomization({item = 235389, quest = 86772}) -- Paint: Goblin Green
     }
 }) -- Lab Assistant Laszly <Steamwheedle Quartermaster>
 
@@ -482,13 +482,13 @@ map.nodes[63421673] = Vendor({
     location = L['boatswain_hardee_location'],
     note = L['quartermaster_note'],
     rewards = {
-        BreakneckCustomization({item = 236671}), -- The Buzzer
+        BreakneckCustomization({item = 236671, quest = 85786}), -- The Buzzer
         Toy({item = 235671}), -- Blackwater Cartel Banner
         Pet({item = 232839, id = 4637}), -- Wavebreaker Mechasaur
         Toy({item = 235801}), -- Personal Fishing Barge
         Mount({item = 229948, id = 2286}), -- Blackwater Shredder Deluxe Mk 2
         Transmog({item = 231528}), -- Blackwater Undermine Tabard
-        BreakneckCustomization({item = 235390}) -- Paint: Body Roll Blue
+        BreakneckCustomization({item = 235390, quest = 86771}) -- Paint: Body Roll Blue
     }
 }) -- Boatswain Hardee <Blackwater Quartermaster>
 
@@ -498,13 +498,13 @@ map.nodes[53297271] = Vendor({
     location = L['shrez_the_scrapper_location'],
     note = L['quartermaster_note'],
     rewards = {
-        BreakneckCustomization({item = 236669}), -- The Whole Brass Band
+        BreakneckCustomization({item = 236669, quest = 85788}), -- The Whole Brass Band
         Toy({item = 235672}), -- Venture Co. Banner
         Pet({item = 232851, id = 4641}), -- Rocketfist
         Toy({item = 235799}), -- Throwin' Sawblade
         Mount({item = 229946, id = 2284}), -- Ocher Delivery Rocket
         Transmog({item = 231542}), -- Venture Co. Undermine Tabard
-        BreakneckCustomization({item = 235391}) -- Paint: Yellow Cake Yellow
+        BreakneckCustomization({item = 235391, quest = 86774}) -- Paint: Yellow Cake Yellow
     }
 }) -- Shredz the Scapper <Venture Quartermaster>
 
