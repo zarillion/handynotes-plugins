@@ -23,14 +23,22 @@ local map = Map({id = 119, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[58602220] = Rare({
+local LoqueNahak = Rare({
     id = 32517,
+    fgroup = 'loquenahak',
     rewards = {
         Achievement({id = 2257, criteria = 1}), -- Frostbitten
         Transmog({item = 44687, slot = L['cloak']})
-    },
-    pois = {POI({36003000, 21806880, 31206600, 51208140, 67007880, 71407160})}
+    }
 }) -- Loque'nahak <Mate of Har'koa>
+
+map.nodes[58602220] = LoqueNahak
+map.nodes[36003000] = LoqueNahak
+map.nodes[21806880] = LoqueNahak
+map.nodes[31206600] = LoqueNahak
+map.nodes[51208140] = LoqueNahak
+map.nodes[67007880] = LoqueNahak
+map.nodes[71407160] = LoqueNahak
 
 map.nodes[46805500] = Rare({
     id = 32481,
