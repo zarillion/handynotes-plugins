@@ -590,20 +590,21 @@ L['impotent_potable_location'] = 'Unterhalb des Stegs.'
 L['abandoned_toolbox_location'] = 'Ganz oben auf dem Dach des {location:Der Schrottladen}.\n\nNimm die Treppen nach oben.'
 L['trick_deck_of_cards_location'] = 'Auf dem Tisch neben {npc:231045} im {location:Hotel Inkontinental}.'
 
-L['breakneck_customization'] = nil
+L['breakneck_customization'] = '99-G-Genickbrecher'
 
 L['ditty_fuzeboy_note'] = 'Tausche {item:234741} gegen Haustiere ein.'
-L['angelo_rustbin_note'] = 'Tausche {currency:3220} gegen Haustiere und {object:99-G-Genickbrecher} Anpassungen ein.'
-L['blair_bass_note'] = nil
-L['greexit_coarsebub_note'] = nil
+L['angelo_rustbin_note'] = 'Tausche {currency:3218} gegen ein Spielzeug und eine {object:99-G-Genickbrecher} Anpassung ein.\n\nTausche {currency:3220} gegen Haustiere ein.\n\n{note:{currency:3218} kann jeder Zeit in {object:S.C.H.R.O.T.T-Haufen} gesammelt werden. {item:229810} benötigt Ruhmstufe 14 bei {faction:2653}.}'
 
-L['quartermaster'] = nil
-L['quartermaster_note'] = nil
+L['blair_bass_note'] = 'Tausche {item:227673} gegen Spielzeuge ein.\n\n{item:227673}e können in {object:Dampfdruckabfluss} Schwärmen geangelt werden.'
+L['greexit_coarsebub_note'] = 'Tausche Gold gegen Kartell-Ausrüstungsvorlagen.\n\n{note:Es können nur Gegenstände für das Kartell gekauft werden, bei dem du unter Vertrag stehst.}'
 
-L['rocco_razzboom_location'] = nil
-L['lab_assistant_laszly_location'] = nil
-L['boatswain_hardee_location'] = nil
-L['shrez_the_scrapper_location'] = nil
+L['quartermaster'] = '%s Rüstmeister'
+L['quartermaster_note'] = 'Tausche {currency:2815} gegen eine Vielzahl von Sammelobjekten ein.'
+
+L['rocco_razzboom_location'] = 'In der untere Etage des {location:Schrottladen}.'
+L['lab_assistant_laszly_location'] = 'Tief im {location:Dampfdrucklabore}.'
+L['boatswain_hardee_location'] = 'In der ersten Etage der {location:Hafenbehörde}.'
+L['shrez_the_scrapper_location'] = 'In der erste Etage des {location:Venturerondell}.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Zeigt die Positionen von {object:Muffs Selbstschließern} für den Erfolg {achievement:40948} an.'

@@ -10,7 +10,7 @@
   * Add new vendor - "Gold Fish" (bobber toys)
   * Add new vendor - Goblin cartel transmog
   * Update vendor - Angelo Rustbin (Kaja'Cola vendor) note and rewards
-* Localization updates: esES, frFR, zhCN
+* Localization updates: deDE, esES, frFR, zhCN
 
 # v116
 
