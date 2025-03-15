@@ -1733,12 +1733,6 @@ map.nodes[38453474] = GrandHunt({
 ------------------------------- COMMUNITY FEAST -------------------------------
 -------------------------------------------------------------------------------
 
-local COMMUNITY_FEAST_AREA_POIS = {
-    [7218] = 'Before Feast',
-    [7219] = 'During Feast',
-    [7220] = 'After Feast'
-}
-
 local COMMUNITY_FEAST_REWARDS = {
     Achievement({id = 16444}), -- Leftovers Revenge
     Achievement({
@@ -1752,6 +1746,12 @@ local COMMUNITY_FEAST_REWARDS = {
     ns.reward.Spacer(), Item({item = 200652}), -- Alchemical Flavor Pocket
     Item({item = 192055}), -- Dragon Isles Artifact
     Item({item = 200071}) -- Sacred Tuskarr Totem
+}
+
+local COMMUNITY_FEAST_AREA_POIS = {
+    [7218] = COMMUNITY_FEAST_REWARDS, -- Before Feast
+    [7219] = COMMUNITY_FEAST_REWARDS, -- During Feast
+    [7220] = COMMUNITY_FEAST_REWARDS -- After Feast
 }
 
 map.nodes[13524860] = Collectible({
@@ -1776,25 +1776,10 @@ map.nodes[13524860] = Collectible({
     end
 }) -- Community Feast
 
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
-    if self and self.areaPoiID then
-        local mapID = self:GetMap().mapID
-        local group = ns.groups.COMMUNITY_FEAST
-        if COMMUNITY_FEAST_AREA_POIS[self.areaPoiID] then
-            if group:GetDisplay(mapID) then
-                if ns:GetOpt('show_loot') then
-                    GameTooltip:AddLine(' ')
-                    for i, reward in ipairs(COMMUNITY_FEAST_REWARDS) do
-                        if reward:IsEnabled() then
-                            reward:Render(GameTooltip)
-                        end
-                    end
-                end
-                GameTooltip:Show()
-            end
-        end
-    end
-end)
+ns.hook.AreaPoiEvent({
+    group = ns.groups.COMMUNITY_FEAST,
+    pois = COMMUNITY_FEAST_AREA_POIS
+})
 
 -------------------------------------------------------------------------------
 ---------------------- ANCIENT STONES OF THE AZURE SPAN -----------------------
