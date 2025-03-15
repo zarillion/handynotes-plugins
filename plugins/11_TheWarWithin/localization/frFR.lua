@@ -629,5 +629,5 @@ L['options_icons_youre_my_friend_now_desc'] = 'Afficher les emplacements des {np
 L['rat_in_building_rail'] = 'A l\'intérieur du bâtiment sur le rail.'
 L['rat_2nd_floor_trash_can'] = 'A l\'intérieur du bâtiment, au deuxième étage, sur la poubelle.'
 
-L['sewer_cheese_label'] = nil
-L['undermine_undershirt_note'] = nil
+L['sewer_cheese_label'] = 'Fromage d’égout'
+L['undermine_undershirt_note'] = '1. Ramassez le {object:Fromage d’égout} dans les égouts situés sous la {location:Cuverie} pour recevoir le buff {spell:1221472}.\n\n2. Interagissez avec le {npc:238661} à proximité pour échanger votre fromage contre un {item:237129}.\n\n3.  Apportez le {item:237129} à {npc:237412}, à l\'étage de la {location:Capitainerie} à la {location:Marina des Flots noirs}, et échangez-le contre le {item:237130}.'
