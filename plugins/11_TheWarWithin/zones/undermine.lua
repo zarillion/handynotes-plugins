@@ -741,3 +741,21 @@ map.nodes[63231691] = Collectible({
     requires = ns.requirement.Item(237129), -- Tarnished Undermine Real
     rewards = {Transmog({item = 237130})} -- Undermine Undershirt
 }) -- Pix Xizzix
+
+------------------ RECIPE: AUTHENTIC UNDERMINE CLAM CHOWDER -------------------
+
+map.nodes[38058868] = Collectible({
+    label = L['undermine_clam_chowder_label'],
+    icon = 'peg_bl',
+    scale = 2.0,
+    location = L['undermine_clam_chowder_location'],
+    note = format(L['undermine_clam_chowder_note'],
+        C_CurrencyInfo.GetCoinTextureString(3000)),
+    requires = {
+        ns.requirement.Profession(185, 2548, 225), -- Classic Cooking 225
+        ns.requirement.Profession(185, 2873, 35) -- The War Within Cooking 35
+    },
+    rewards = {
+        ns.reward.Recipe({item = 235800, profession = 185}) -- Recipe:
+    }
+}) -- Authentic Undermine Clam Chowder

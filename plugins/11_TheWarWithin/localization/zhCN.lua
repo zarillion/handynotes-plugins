@@ -630,3 +630,7 @@ L['rat_2nd_floor_trash_can'] = '在建筑物二楼垃圾桶上。'
 
 L['sewer_cheese_label'] = nil
 L['undermine_undershirt_note'] = nil
+
+L['undermine_clam_chowder_label'] = nil
+L['undermine_clam_chowder_location'] = nil
+L['undermine_clam_chowder_note'] = nil
