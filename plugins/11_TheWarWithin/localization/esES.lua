@@ -628,9 +628,9 @@ L['options_icons_youre_my_friend_now_desc'] = 'Muestra dónde están las {npc:23
 L['rat_in_building_rail'] = 'En el riel dentro del edificio.'
 L['rat_2nd_floor_trash_can'] = 'En la papelera en el segundo piso dentro del edificio.'
 
-L['sewer_cheese_label'] = nil
-L['undermine_undershirt_note'] = nil
+L['sewer_cheese_label'] = 'Queso de cloaca'
+L['undermine_undershirt_note'] = '1. Recoge el {object:Queso de cloaca} de dentro de la alcantarilla que hay debajo de la {location:Estación de Vapor} para conseguir el buff {spell:1221472}.\n\n2. Interactúa con la {npc:238661} cercana para cambiar tu queso por un {item:237129}.\n\n3. Lleva el {item:237129} a {npc:237412}, en la parte superior del edificio de la {location:Autoridad Portuaria} en el {location:Puerto de Aguasnegras}. Cámbiaselo por una {item:237130}.'
 
-L['undermine_clam_chowder_label'] = nil
-L['undermine_clam_chowder_location'] = nil
-L['undermine_clam_chowder_note'] = nil
+L['undermine_clam_chowder_label'] = 'La guía de la auténtica cocina de Minahonda'
+L['undermine_clam_chowder_location'] = 'Encima de un estante detrás de {npc:226728} en el callejón de la {location:Estación de Vapor}.'
+L['undermine_clam_chowder_note'] = '1. Para conseguir esta receta, primero debes saber {item:16767} que se puede comprar en dos vendedores {object:Clásicos} por %s.\n\n{npc:54232} de {location:Bahía del Botín} en {location:El Cabo de Tuercespina}\n\n{npc:48060} de {location:El Diodo} en las {location:Tierras Inhóspitas}\n\n2. Una vez que sepas la vieja receta, abre {object:La guía de la auténtica cocina de Minahonda} y lee la última página. Anota la receta para conseguir la {item:235800}.'
