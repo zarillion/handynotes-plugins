@@ -628,9 +628,9 @@ L['options_icons_youre_my_friend_now_desc'] = '显示 {achievement:41708} 成就
 L['rat_in_building_rail'] = '在建筑物内的栏杆上。'
 L['rat_2nd_floor_trash_can'] = '在建筑物二楼垃圾桶上。'
 
-L['sewer_cheese_label'] = nil
-L['undermine_undershirt_note'] = nil
+L['sewer_cheese_label'] = '下水道奶酪'
+L['undermine_undershirt_note'] = '1. 从 {location:罐缸工坊} 下方的下水道中收集 {object:下水道奶酪}，以获得 {spell:1221472} 增益效果。\n\n2. 与附近的 {npc:238661} 互动，用奶酪交换一个 {item:237129}。\n\n3. 将 {item:237129} 带到 {location:黑水码头} 的 {location:港务局} 大楼楼上的 {npc:237412} 处，并交换为 {item:237130}。'
 
-L['undermine_clam_chowder_label'] = nil
-L['undermine_clam_chowder_location'] = nil
-L['undermine_clam_chowder_note'] = nil
+L['undermine_clam_chowder_label'] = '安德麦正宗烹饪法指南'
+L['undermine_clam_chowder_location'] = '在 {location:罐缸工坊} 的小巷中，{npc:226728} 后面的架子上。'
+L['undermine_clam_chowder_note'] = '1. 要收集此食谱，必须首先学会 {item:16767}，该食谱可以从两个 {object:旧世经典} 供应商处以 %s 的价格购买。\n\n{npc:54232} 位于 {location:荆棘谷海角} 的 {location:藏宝海湾}\n\n{npc:48060} 位于 {location:荒芜之地} 的 {location:熔光镇}\n\n2. 一旦学会了旧食谱，打开 {object:安德麦正宗烹饪法指南} 并阅读到最后一页。记下食谱以获得 {item:235800}。'
