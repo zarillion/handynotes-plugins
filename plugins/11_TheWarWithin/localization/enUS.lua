@@ -629,7 +629,7 @@ L['rat_in_building_rail'] = 'Inside the building on the rail.'
 L['rat_2nd_floor_trash_can'] = 'Inside the building on the second floor on the trash can.'
 
 L['sewer_cheese_label'] = 'Sewer Cheese'
-L['undermine_undershirt_note'] = '1. Collect the {object:Sewer Cheese} from within the sewer below {location:The Vatworks} to receive the {spell:1221472} buff.\n\n2. Interact with the nearby {npc:238661} to trade your chese for a {item:237129}.\n\n3. Bring the {item:237129} to {npc:237412}, upstairs in the {location:Port Authority} building at {location:Blackwater Marina}, and exchange it for {item:237130}.'
+L['undermine_undershirt_note'] = '1. Collect the {object:Sewer Cheese} from within the sewer below {location:The Vatworks} to receive the {spell:1221472} buff.\n\n2. Interact with the nearby {npc:238661} to trade your cheese for a {item:237129}.\n\n3. Bring the {item:237129} to {npc:237412}, upstairs in the {location:Port Authority} building at {location:Blackwater Marina}, and exchange it for {item:237130}.'
 
 L['undermine_clam_chowder_label'] = 'The Undermine Guide to Authentic Cooking'
 L['undermine_clam_chowder_location'] = 'On top of a shelf behind {npc:226728} in the alley in {location:The Vatworks}.'
