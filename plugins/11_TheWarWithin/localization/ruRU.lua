@@ -598,10 +598,10 @@ L['greexit_coarsebub_note'] = 'Обмен золота на трансмогри
 L['quartermaster'] = '%s Интендант'
 L['quartermaster_note'] = 'Обменяйте {currency:2815} на различные предметы коллекционирования.'
 
-L['rocco_razzboom_location'] = nil
-L['lab_assistant_laszly_location'] = nil
-L['boatswain_hardee_location'] = nil
-L['shrez_the_scrapper_location'] = nil
+L['rocco_razzboom_location'] = 'Нижний этаж в {location:Хламовской}.'
+L['lab_assistant_laszly_location'] = 'Глубоко внутри {location:лабораторий Хитрой Шестеренки}.'
+L['boatswain_hardee_location'] = 'Первый этаж {location:конторы начальника порта}.'
+L['shrez_the_scrapper_location'] = 'Первый этаж {location:площади Торговой компании}.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Показать все местоположения {object:Автозапирателей Недотепы} для {achievement:40948}.'
@@ -630,7 +630,7 @@ L['rat_in_building_rail'] = 'Внутри здания на рельсах.'
 L['rat_2nd_floor_trash_can'] = 'Внутри здания на втором этаже на мусорном баке.'
 
 L['sewer_cheese_label'] = 'Сточный сыр'
-L['undermine_undershirt_note'] = '1. Заберите {object:Сточный сыр} из канализации ниже {location:Котельной}, чтобы получить бафф {spell:1221472}.\n\n2. Взаимодействуйте с ближайшим {npc:238661}, чтобы обменять свой сыр на {item:237129}.\n\n3. Принесите {item:237129} {npc:237412} на втором этаже в здании {location:Портовой инспекции} в {location:Гавани Черноводья} и обменяйте его на {item:237130}.'
+L['undermine_undershirt_note'] = '1. Заберите {object:Сточный сыр} из канализации ниже {location:Котельной}, чтобы получить бафф {spell:1221472}.\n\n2. Взаимодействуйте с ближайшим {npc:238661}, чтобы обменять свой сыр на {item:237129}.\n\n3. Принесите {item:237129} {npc:237412} на втором этаже в здании {location:конторы начальника порта} в {location:Гавани Черноводья} и обменяйте его на {item:237130}.'
 
 L['undermine_clam_chowder_label'] = 'Кулинарная книга традиционных блюд Нижней Шахты'
 L['undermine_clam_chowder_location'] = 'На полке позади {npc:226728} в переулке в {location:Котельной}.'
