@@ -10,6 +10,7 @@ ns.hooks = {
     areapoi = {},
     areapoievent = {},
     delve = {},
+    dragonridingrace = {},
     encounter = {},
     vignette = {}
 }
@@ -18,21 +19,13 @@ ns.hooks = {
 ---------------------------------- HOOK INFO ----------------------------------
 -------------------------------------------------------------------------------
 
-local HookInfo = Class('HookInfo', nil)
+local HookInfo = Class('HookInfo')
 
-function HookInfo:Initialize(attrs, rewards)
-    for k, v in pairs(attrs) do self[k] = v end
+function HookInfo:Initialize(attrs)
+    if attrs then for k, v in pairs(attrs) do self[k] = v end end
 
-    -- don't save ever table of poi rewards to each hook
+    -- don't save the table of poi rewards to every hook
     self.pois = nil
-    -- instead use the rewards pulled out in the loop and save those intead
-    self.rewards = rewards
-
-    -- assume if any of these are provided manually then we want to show them
-    if self.label then self.showLabel = true end
-    if self.sublabel then self.showSublabel = true end
-    if self.note then self.showNote = true end
-    if self.rewards then self.showRewards = true end
 end
 
 -------------------------------------------------------------------------------
@@ -57,8 +50,11 @@ local Hook = Class('Hook', nil, {
 
 function Hook:Initialize(attrs)
     if attrs then for k, v in pairs(attrs) do self[k] = v end end
+end
 
-    if not self.type then error('Hooks must be initialized with a type!') end
+function Hook:AddHook(attrs)
+    if attrs then for k, v in pairs(attrs) do self[k] = v end end
+    return self
 end
 
 -------------------------------------------------------------------------------
@@ -73,16 +69,8 @@ local AreaPoi = Class('AreaPoi', Hook, {
 
 function AreaPoi:Initialize(attrs)
     Hook.Initialize(self, attrs)
-
-    if not self.group then error('group required for AreaPoi hooks') end
-    if not self.pois then error('pois required for AreaPoi hooks') end
-
     for id, rewards in pairs(self.pois) do
-        if ns.hooks.areapoi[id] then
-            error('areaPoiID already registered: ' .. id)
-        end
-
-        ns.hooks.areapoi[id] = HookInfo(self, rewards)
+        ns.hooks.areapoi[id] = self:AddHook({rewards = rewards})
     end
 end
 
@@ -98,16 +86,8 @@ local AreaPoiEvent = Class('AreaPoiEvent', Hook, {
 
 function AreaPoiEvent:Initialize(attrs)
     Hook.Initialize(self, attrs)
-
-    if not self.group then error('group required for AreaPoiEvent hooks') end
-    if not self.pois then error('pois required for AreaPoiEvent hooks') end
-
     for id, rewards in pairs(self.pois) do
-        if ns.hooks.areapoievent[id] then
-            error('areaPoiID already registered: ' .. id)
-        end
-
-        ns.hooks.areapoievent[id] = HookInfo(self, rewards)
+        ns.hooks.areapoievent[id] = self:AddHook({rewards = rewards})
     end
 end
 
@@ -123,16 +103,26 @@ local Delve = Class('Delve', Hook, {
 
 function Delve:Initialize(attrs)
     Hook.Initialize(self, attrs)
-
-    if not self.group then error('group required for Delve hooks') end
-    if not self.pois then error('pois required for Delve hooks') end
-
     for id, rewards in pairs(self.pois) do
-        if ns.hooks.delve[id] then
-            error('areaPoiID already registered: ' .. id)
-        end
+        ns.hooks.delve[id] = self:AddHook({rewards = rewards})
+    end
+end
 
-        ns.hooks.delve[id] = HookInfo(self, rewards)
+-------------------------------------------------------------------------------
+------------------------------ DRAGONRIDING RACE ------------------------------
+-------------------------------------------------------------------------------
+
+local DragonridingRace = Class('DragonridingRace', Hook, {
+    type = 'dragonridingrace',
+    showLabel = true,
+    rewardsSpaceBefore = true
+})
+
+function DragonridingRace:Initialize(attrs)
+    Hook.Initialize(self, attrs)
+    for id, coordinates in pairs(self.pois) do
+        ns.hooks.dragonridingrace[id] =
+            self:AddHook({coordinates = coordinates})
     end
 end
 
@@ -148,17 +138,8 @@ local Encounter = Class('Encounter', Hook, {
 
 function Encounter:Initialize(attrs)
     Hook.Initialize(self, attrs)
-
-    if not self.encounterIDs then
-        error('encounterIDs required for Encounter hooks')
-    end
-
     for id, rewards in pairs(self.encounterIDs) do
-        if ns.hooks.encounter[id] then
-            error('encounterID already registered' .. id)
-        end
-
-        ns.hooks.encounter[id] = HookInfo(self, rewards)
+        ns.hooks.encounter[id] = self:AddHook({rewards = rewards})
     end
 end
 
@@ -174,34 +155,15 @@ local Vignette = Class('Vignette', Hook, {
 
 function Vignette:Initialize(attrs)
     Hook.Initialize(self, attrs)
-
-    if not self.group then error('group required for Vignette hooks') end
-    if not self.vignetteID then
-        error('vignetteID requied for Vignette hooks')
+    if self.vignetteID then
+        ns.hooks.vignette[self.vignetteID] = self:AddHook()
     end
-    if ns.hooks.vignette[self.vignetteID] then
-        error('vignetteID already registered:' .. self.vignetteID)
+    if self.vignetteIDs then
+        for id, rewards in pairs(self.vignetteIDs) do
+            ns.hooks.vignette[id] = self:AddHook({rewards = rewards})
+        end
     end
-
-    ns.hooks.vignette[self.vignetteID] = HookInfo(self)
 end
-
--------------------------------------------------------------------------------
------------------------------ SKYRIDING AREA POI ------------------------------
--------------------------------------------------------------------------------
-
-local SkyridingAreaPoi = Class('SkyridingAreaPoi', AreaPoi,
-    {showSublabel = true, showNote = true})
-
--------------------------------------------------------------------------------
------------------------------ SKYRIDING VIGNETTE ------------------------------
--------------------------------------------------------------------------------
-
-local SkyridingVignette = Class('SkyridingVignette', Vignette, {
-    showLabel = true,
-    showSublabel = true,
-    showNote = true
-})
 
 -------------------------------------------------------------------------------
 ------------------------------- HOOKSECUREFUNC --------------------------------
@@ -279,6 +241,29 @@ local function HookAllPOIS()
         renderTooltip(hookInfo)
     end)
 
+    ---------------------------- DRAGONRIDING RACE ----------------------------
+    hooksecurefunc(DragonridingRacePinMixin, 'OnMouseEnter', function(self)
+        local hookInfo = ns.hooks.dragonridingrace[self.poiInfo.areaPoiID]
+        if not hookInfo then return end
+        local mapID = self:GetMap().mapID
+        if not hookInfo.group:GetDisplay(mapID) then return end
+        local coordinates = hookInfo.coordinates
+        local node = ns.maps[mapID].nodes[coordinates]
+        hookInfo.label = node.label
+        hookInfo.rewards = node.rewards
+
+        if self:GetCenter() > UIParent:GetCenter() then
+            GameTooltip:SetOwner(self, 'ANCHOR_LEFT')
+        else
+            GameTooltip:SetOwner(self, 'ANCHOR_RIGHT')
+        end
+
+        renderTooltip(hookInfo)
+    end)
+
+    hooksecurefunc(DragonridingRacePinMixin, 'OnMouseLeave',
+        function(self) GameTooltip:Hide() end)
+
     ------------------------ ENCOUNTER JOURNAL TOOLTIP ------------------------
     hooksecurefunc(EncounterJournalPinMixin, 'OnMouseEnter', function(self)
         local hookInfo = ns.hooks.encounter[self.encounterID]
@@ -296,8 +281,6 @@ local function HookAllPOIS()
         local pos = C_VignetteInfo.GetVignettePosition(vignetteGUID, mapID)
         local coordinates = HandyNotes:getCoord(pos.x, pos.y)
         local node = ns.maps[mapID].nodes[coordinates]
-        hookInfo.label = node.label
-        hookInfo.sublabel = node.sublabel
         hookInfo.note = node.note
         hookInfo.rewards = node.rewards
         renderTooltip(hookInfo)
@@ -312,9 +295,7 @@ ns.hook = {
     AreaPoi = AreaPoi,
     AreaPoiEvent = AreaPoiEvent,
     Delve = Delve,
+    DragonridingRace = DragonridingRace,
     Encounter = Encounter,
-    Vignette = Vignette,
-    --
-    SkyridingAreaPoi = SkyridingAreaPoi,
-    SkyridingVignette = SkyridingVignette
+    Vignette = Vignette
 }

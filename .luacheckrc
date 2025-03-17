@@ -121,6 +121,7 @@ read_globals = {
     'AreaPOIEventPinMixin',
     'CreateAtlasMarkup',
     'DelveEntrancePinMixin',
+    'DragonridingRacePinMixin',
     'EncounterJournalPinMixin',
     'GameMenuFrame',
     'GameTooltip',
