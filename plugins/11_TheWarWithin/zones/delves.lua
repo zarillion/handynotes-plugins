@@ -619,7 +619,7 @@ local DELVE_REWARDS = {
                 68782,
                 102974
             }
-        }) -- The Underkeep Stories
+        }), -- The Underkeep Stories
         Achievement({id = 40453, oneline = true}), -- Spider Sense
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
