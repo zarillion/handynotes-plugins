@@ -617,7 +617,7 @@ L['options_icons_youre_my_friend_now_desc'] = 'Afficher les emplacements des {np
 L['rat_in_building_rail'] = 'A l\'intérieur du bâtiment sur le rail.'
 L['rat_2nd_floor_trash_can'] = 'A l\'intérieur du bâtiment, au deuxième étage, sur la poubelle.'
 
-L['breakneck_race_note'] = nil
-L['upgrade_the_pozzik_standard'] = nil
-L['upgrade_22h_slicks'] = nil
-L['upgrade_turbo_handcrank'] = nil
+L['breakneck_race_note'] = 'Les améliorations suivantes du {object:G-99 Ventraterre} sont recommandées pour faciliter l\'obtention de l\'|cFFFFD700Or|r :\n\n%s\n\n%s\n\n%s'
+L['upgrade_the_pozzik_standard'] = '{item:232982} (Moteur) : Obtenez le |cFFCD7F32Bronze|r dans toutes les {object:courses effrénées} normales et inversées.'
+L['upgrade_22h_slicks'] = '{item:232985} (Roues) : Fabriquées par les ingénieurs et vendues à l\'hôtel des ventes.'
+L['upgrade_turbo_handcrank'] = '{item:232984} (Turbo) : Combinez les 5 pièces récupérées sur les monstres rares ou achetées à l\'hôtel des ventes.'
