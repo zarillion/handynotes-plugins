@@ -610,18 +610,16 @@ local DELVE_REWARDS = {
     },
     ['the_underkeep'] = {
         Achievement({id = 40815, criteria = SturdyChestCriteria}), -- The Underkeep Discoveries
-        Achievement(
-            {
-                id = 40534,
-                criteria = {
-                    68779,
-                    68780,
-                    68781,
-                    68782,
-                    102974
-                }
+        Achievement({
+            id = 40534,
+            criteria = {
+                68779,
+                68780,
+                68781,
+                68782,
+                102974
             }
-        ), -- The Underkeep Stories
+        }) -- The Underkeep Stories
         Achievement({id = 40453, oneline = true}), -- Spider Sense
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
