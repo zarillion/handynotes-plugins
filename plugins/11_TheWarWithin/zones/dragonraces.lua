@@ -8,7 +8,6 @@ local Class = ns.Class
 
 local Collectible = ns.node.Collectible
 local Achievement = ns.reward.Achievement
-local Spacer = ns.reward.Spacer
 
 -------------------------------------------------------------------------------
 
@@ -16,7 +15,7 @@ local IsleOfDorn = ns.maps[2248]
 local RingingDeeps = ns.maps[2214]
 local Hallowfall = ns.maps[2215]
 local AzjKahet = ns.maps[2255]
--- local Undermine = ns.maps[2346]
+local Undermine = ns.maps[2346]
 
 local Dornogal = ns.maps[2339]
 
@@ -34,6 +33,7 @@ local DRAGONRIDING_RACE_TYPES = {
 }
 
 function Dragonrace.getters:sublabel()
+    local hasRaceType = false
     local note = L['dr_best_time']
     local txt = L['dr_your_best_time']
     for _, race in ipairs(DRAGONRIDING_RACE_TYPES) do
@@ -45,9 +45,10 @@ function Dragonrace.getters:sublabel()
                              0
 
             txt = txt .. '\n' .. format(note, label, time / 1000)
+            hasRaceType = true
         end
     end
-    return txt
+    return hasRaceType and txt or nil
 end
 
 -------------------------------------------------------------------------------
@@ -64,8 +65,7 @@ local function IsleOfDorn_Rewards(a)
         Achievement({id = 40321, criteria = a, oneline = true}), -- advanced gold
         Achievement({id = 40322, criteria = a, oneline = true}), -- reverse bronze
         Achievement({id = 40323, criteria = a, oneline = true}), -- reverse silver
-        Achievement({id = 40324, criteria = a, oneline = true}), -- reverse gold
-        Spacer()
+        Achievement({id = 40324, criteria = a, oneline = true}) -- reverse gold
     }
     return rewards
 end
@@ -80,8 +80,7 @@ local function RingingDeeps_Rewards(a)
         Achievement({id = 40330, criteria = a, oneline = true}), -- advanced gold
         Achievement({id = 40331, criteria = a, oneline = true}), -- reverse bronze
         Achievement({id = 40332, criteria = a, oneline = true}), -- reverse silver
-        Achievement({id = 40333, criteria = a, oneline = true}), -- reverse gold
-        Spacer()
+        Achievement({id = 40333, criteria = a, oneline = true}) -- reverse gold
     }
     return rewards
 end
@@ -96,8 +95,7 @@ local function Hallowfall_Rewards(a)
         Achievement({id = 40339, criteria = a, oneline = true}), -- advanced gold
         Achievement({id = 40340, criteria = a, oneline = true}), -- reverse bronze
         Achievement({id = 40341, criteria = a, oneline = true}), -- reverse silver
-        Achievement({id = 40342, criteria = a, oneline = true}), -- reverse gold
-        Spacer()
+        Achievement({id = 40342, criteria = a, oneline = true}) -- reverse gold
     }
     return rewards
 end
@@ -112,37 +110,34 @@ local function AzjKahet_Rewards(a)
         Achievement({id = 40348, criteria = a, oneline = true}), -- advanced gold
         Achievement({id = 40349, criteria = a, oneline = true}), -- reverse bronze
         Achievement({id = 40350, criteria = a, oneline = true}), -- reverse silver
-        Achievement({id = 40351, criteria = a, oneline = true}), -- reverse gold
-        Spacer()
+        Achievement({id = 40351, criteria = a, oneline = true}) -- reverse gold
     }
     return rewards
 end
 
--- local function Undermine_Skyrocketing_Rewards(a, b)
---     local rewards = {
---         Achievement({id = 40936, criteria = a, oneline = true}), -- normal bronze
---         Achievement({id = 40937, criteria = a, oneline = true}), -- normal silver
---         Achievement({id = 40938, criteria = a, oneline = true}), -- normal gold
---         Achievement({id = 40936, criteria = b, oneline = true}), -- reverse bronze
---         Achievement({id = 40937, criteria = b, oneline = true}), -- reverse silver
---         Achievement({id = 40938, criteria = b, oneline = true}), -- reverse gold
---         Spacer()
---     }
---     return rewards
--- end
+local function Undermine_Skyrocketing_Rewards(a, b)
+    local rewards = {
+        Achievement({id = 40936, criteria = a, oneline = true}), -- normal bronze
+        Achievement({id = 40937, criteria = a, oneline = true}), -- normal silver
+        Achievement({id = 40938, criteria = a, oneline = true}), -- normal gold
+        Achievement({id = 40936, criteria = b, oneline = true}), -- reverse bronze
+        Achievement({id = 40937, criteria = b, oneline = true}), -- reverse silver
+        Achievement({id = 40938, criteria = b, oneline = true}) -- reverse gold
+    }
+    return rewards
+end
 
--- local function Undermine_Breaknecking_Rewards(a, b)
---     local rewards = {
---         Achievement({id = 41081, criteria = a, oneline = true}), -- normal bronze
---         Achievement({id = 41083, criteria = a, oneline = true}), -- normal silver
---         Achievement({id = 41084, criteria = a, oneline = true}), -- normal gold
---         Achievement({id = 41081, criteria = b, oneline = true}), -- reverse bronze
---         Achievement({id = 41083, criteria = b, oneline = true}), -- reverse silver
---         Achievement({id = 41084, criteria = b, oneline = true}), -- reverse gold
---         Spacer()
---     }
---     return rewards
--- end
+local function Undermine_Breaknecking_Rewards(a, b)
+    local rewards = {
+        Achievement({id = 41081, criteria = a, oneline = true}), -- normal bronze
+        Achievement({id = 41083, criteria = a, oneline = true}), -- normal silver
+        Achievement({id = 41084, criteria = a, oneline = true}), -- normal gold
+        Achievement({id = 41081, criteria = b, oneline = true}), -- reverse bronze
+        Achievement({id = 41083, criteria = b, oneline = true}), -- reverse silver
+        Achievement({id = 41084, criteria = b, oneline = true}) -- reverse gold
+    }
+    return rewards
+end
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
@@ -359,60 +354,68 @@ AzjKahet.nodes[40183220] = Dragonrace({
 
 -------------------------------- SKYROCKETING ---------------------------------
 
--- Undermine.nodes[00000000] = Dragonrace({
---     label = '{quest:99999}',
---     normal = {0, 0, 0},
---     reverse = {0, 0, 0},
---     rewards = Undermine_Skyrocketing_Rewards(1, 2)
--- }) -- Skyrocketing Sprint
+Undermine.nodes[39042868] = Dragonrace({
+    label = '{quest:85071}',
+    rewards = Undermine_Skyrocketing_Rewards(1, 2)
+}) -- Skyrocketing Sprint
 
--- Undermine.nodes[00000000] = Dragonrace({
---     label = '{quest:99999}',
---     normal = {0, 0, 0},
---     reverse = {0, 0, 0},
---     rewards = Undermine_Skyrocketing_Rewards(2, 4)
--- }) -- The Heaps Leap
+Undermine.nodes[33777624] = Dragonrace({
+    label = '{quest:85097}',
+    rewards = Undermine_Skyrocketing_Rewards(2, 4)
+}) -- The Heaps Leap
 
--- Undermine.nodes[00000000] = Dragonrace({
---     label = '{quest:99999}',
---     normal = {0, 0, 0},
---     reverse = {0, 0, 0},
---     rewards = Undermine_Skyrocketing_Rewards(5, 6)
--- }) -- Scrapshop Shot
+Undermine.nodes[39221136] = Dragonrace({
+    label = '{quest:85099}',
+    rewards = Undermine_Skyrocketing_Rewards(5, 6)
+}) -- Scrapshop Shot
 
--- Undermine.nodes[00000000] = Dragonrace({
---     label = '{quest:99999}',
---     normal = {0, 0, 0},
---     reverse = {0, 0, 0},
---     rewards = Undermine_Skyrocketing_Rewards(7, 8)
--- }) -- Rags to Riches Rush
+Undermine.nodes[25494212] = Dragonrace({
+    label = '{quest:85101}',
+    rewards = Undermine_Skyrocketing_Rewards(7, 8)
+}) -- Rags to Riches Rush
+
+local SKYROCKETING_POIS = {
+    [8144] = 39042868, -- Skyrocketing Sprint
+    [8145] = 33777624, -- The Heaps Leap
+    [8146] = 39221136, -- Scrapshop Shot
+    [8147] = 25494212 -- Rags to Riches Rush
+}
+
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    pois = SKYROCKETING_POIS
+})
 
 -------------------------------- BREAKNECKING ---------------------------------
 
--- Undermine.nodes[00000000] = Dragonrace({
---     label = '{quest:99999}',
---     normal = {0, 0, 0},
---     reverse = {0, 0, 0},
---     rewards = Undermine_Breaknecking_Rewards(1, 2)
--- }) -- Breakneck Bolt
+Undermine.nodes[26025299] = Dragonrace({
+    label = '{quest:85900}',
+    rewards = Undermine_Breaknecking_Rewards(1, 2)
+}) -- Breakneck Bolt
 
--- Undermine.nodes[00000000] = Dragonrace({
---     label = '{quest:99999}',
---     normal = {0, 0, 0},
---     reverse = {0, 0, 0},
---     rewards = Undermine_Breaknecking_Rewards(3, 4)
--- }) -- Junkyard Jaunt
+Undermine.nodes[43697800] = Dragonrace({
+    label = '{quest:85902}',
+    rewards = Undermine_Breaknecking_Rewards(3, 4)
+}) -- Junkyard Jaunt
 
--- Undermine.nodes[00000000] = Dragonrace({
---     label = '{quest:99999}',
---     normal = {0, 0, 0},
---     reverse = {0, 0, 0},
---     rewards = Undermine_Breaknecking_Rewards(5, 6)
--- }) -- Casino Cruise
+Undermine.nodes[39575371] = Dragonrace({
+    label = '{quest:85904}',
+    rewards = Undermine_Breaknecking_Rewards(5, 6)
+}) -- Casino Cruise
 
--- Undermine.nodes[00000000] = Dragonrace({
---     label = '{quest:99999}',
---     normal = {0, 0, 0},
---     reverse = {0, 0, 0},
---     rewards = Undermine_Breaknecking_Rewards(7, 8)
--- }) -- Sandy Scuttle
+Undermine.nodes[47604426] = Dragonrace({
+    label = '{quest:85906}',
+    rewards = Undermine_Breaknecking_Rewards(7, 8)
+}) -- Sandy Scuttle
+
+local BREAKNECKING_POIS = {
+    [8177] = 26025299, -- Breakneck Bolt
+    [8178] = 43697800, -- Junkyard Jaunt
+    [8179] = 39575371, -- Casino Cruise
+    [8180] = 47604426 -- Sandy Scuttle
+}
+
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    pois = BREAKNECKING_POIS
+})
