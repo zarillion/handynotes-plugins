@@ -543,7 +543,7 @@ local DELVE_REWARDS = {
     },
     ['fungal_folly'] = {
         Achievement({id = 40803, criteria = SturdyChestCriteria}), -- Fungal Folly Discoveries
-        Achievement({id = 40525, criteria = {68752, 68753, 68754}}), -- Fungal Folly Stories
+        Achievement({id = 40525, criteria = {68752, 68753, 68754, 102965}}), -- Fungal Folly Stories
         Achievement({id = 40445, oneline = true}), -- Sporesweeper
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
@@ -552,7 +552,7 @@ local DELVE_REWARDS = {
     -- KOBOLD DELVES ----------------------------------------------------------
     ['kriegvals_rest'] = {
         Achievement({id = 40807, criteria = SturdyChestCriteria}), -- Kriegval's Rest Discoveries
-        Achievement({id = 40526, criteria = {68755, 68756, 68757}}), -- Kriegval's Rest Stories
+        Achievement({id = 40526, criteria = {68755, 68756, 68757, 102967}}), -- Kriegval's Rest Stories
         Achievement({id = 40446, oneline = true}), -- I TAKE Candle!
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
@@ -560,7 +560,7 @@ local DELVE_REWARDS = {
     },
     ['the_waterworks'] = {
         Achievement({id = 40816, criteria = SturdyChestCriteria}), -- The Waterworks Discoveries
-        Achievement({id = 40528, criteria = {68761, 68762, 68763}}), -- The Waterworks Stories
+        Achievement({id = 40528, criteria = {68761, 68762, 68763, 102968}}), -- The Waterworks Stories
         Achievement({id = 40446, oneline = true}), -- I TAKE Candle!
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
@@ -569,7 +569,7 @@ local DELVE_REWARDS = {
     -- KOBYSS DELVES ----------------------------------------------------------
     ['the_sinkhole'] = {
         Achievement({id = 40813, criteria = SturdyChestCriteria}), -- The Sinkhole Discoveries
-        Achievement({id = 40532, criteria = {68773, 68774, 68775}}), -- The Sinkhole Stories
+        Achievement({id = 40532, criteria = {68773, 68774, 68775, 102970}}), -- The Sinkhole Stories
         Achievement({id = 40452, oneline = true}), -- Just Keep Swimming
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
@@ -577,7 +577,7 @@ local DELVE_REWARDS = {
     },
     ['tek_rethan_abyss'] = {
         Achievement({id = 40811, criteria = SturdyChestCriteria}), -- Tek-Rethan Abyss Discoveries
-        Achievement({id = 40535, criteria = {68783, 68784, 68785}}), -- Tek-Rethan Abyss Stories
+        Achievement({id = 40535, criteria = {68783, 68784, 68785, 102966}}), -- Tek-Rethan Abyss Stories
         Achievement({id = 40452, oneline = true}), -- Just Keep Swimming
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
@@ -586,7 +586,10 @@ local DELVE_REWARDS = {
     -- NERUBIAN DELVES --------------------------------------------------------
     ['earthcrawl_mines'] = {
         Achievement({id = 40806, criteria = SturdyChestCriteria}), -- Earthcrawl Mines Discoveries
-        Achievement({id = 40527, criteria = {68758, 68759, 68760}}), -- Earthcrawl Mines Stories
+        Achievement({
+            id = 40527,
+            criteria = {68758, 68759, 68760, 102963, 102964}
+        }), -- Earthcrawl Mines Stories
         Achievement({id = 40453, oneline = true}), -- Spider Sense
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
@@ -594,7 +597,7 @@ local DELVE_REWARDS = {
     },
     ['the_dread_pit'] = {
         Achievement({id = 40812, criteria = SturdyChestCriteria}), -- The Dread Pit Discoveries
-        Achievement({id = 40529, criteria = {68764, 68765, 68766}}), -- The Dread Pit Stories
+        Achievement({id = 40529, criteria = {68764, 68765, 68766, 102969}}), -- The Dread Pit Stories
         Achievement({id = 40453, oneline = true}), -- Spider Sense
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
@@ -602,7 +605,7 @@ local DELVE_REWARDS = {
     },
     ['the_spiral_weave'] = {
         Achievement({id = 40814, criteria = SturdyChestCriteria}), -- The Spiral Weave Discoveries
-        Achievement({id = 40536, criteria = {68786, 68787, 68788}}), -- The Spiral Weave Stories
+        Achievement({id = 40536, criteria = {68786, 68787, 68788, 102973}}), -- The Spiral Weave Stories
         Achievement({id = 40453, oneline = true}), -- Spider Sense
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
@@ -622,12 +625,12 @@ local DELVE_REWARDS = {
     -- ORDER OF THE NIGHT DELVES ----------------------------------------------
     ['nightfall_sanctum'] = {
         Achievement({id = 40809, criteria = SturdyChestCriteria}), -- Nightfall Sanctum Discoveries
-        Achievement({id = 40530, criteria = {68767, 68768, 68769}}), -- Nightfall Sanctum Stories
+        Achievement({id = 40530, criteria = {68767, 68768, 68769, 102975}}), -- Nightfall Sanctum Stories
         Achievement({id = 40454, oneline = true}) -- Daystormer
     },
     ['skittering_breach'] = {
         Achievement({id = 40810, criteria = SturdyChestCriteria}), -- Skittering Breach Discoveries
-        Achievement({id = 40533, criteria = {68776, 68777, 68778}}), -- Skittering Breach Stories
+        Achievement({id = 40533, criteria = {68776, 68777, 68778, 102972}}), -- Skittering Breach Stories
         Achievement({id = 40454, oneline = true}) -- Daystormer
     },
     -- GOBLIN DELVES ----------------------------------------------------------
