@@ -15,3 +15,10 @@ L['options_icons_safari_desc'] = '显示 {achievement:6587} 成就中战斗宠�
 
 L['options_icons_crazyforcats'] = '{achievement:8397}'
 L['options_icons_crazyforcats_desc'] = '显示 {achievement:8397} 成就中战斗宠物的位置。'
+
+-------------------------------------------------------------------------------
+--------------------------------- NETHERSTORM ---------------------------------
+-------------------------------------------------------------------------------
+
+L['lorhtander_note_manaforge'] = nil
+L['lorhtander_note_cave'] = nil

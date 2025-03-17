@@ -15,3 +15,10 @@ L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate 
 
 L['options_icons_crazyforcats'] = '{achievement:8397}'
 L['options_icons_crazyforcats_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:8397}.'
+
+-------------------------------------------------------------------------------
+--------------------------------- NETHERSTORM ---------------------------------
+-------------------------------------------------------------------------------
+
+L['lorhtander_note_manaforge'] = nil
+L['lorhtander_note_cave'] = nil

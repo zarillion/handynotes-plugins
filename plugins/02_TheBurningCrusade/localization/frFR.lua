@@ -15,3 +15,10 @@ L['options_icons_safari_desc'] = 'Afficher les emplacements des familiers de com
 
 L['options_icons_crazyforcats'] = '{achievement:8397}'
 L['options_icons_crazyforcats_desc'] = 'Afficher les emplacements des familiers de combat pour le haut-fait {achievement:8397}.'
+
+-------------------------------------------------------------------------------
+--------------------------------- NETHERSTORM ---------------------------------
+-------------------------------------------------------------------------------
+
+L['lorhtander_note_manaforge'] = nil
+L['lorhtander_note_cave'] = nil

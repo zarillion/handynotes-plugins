@@ -2,6 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local Map = ns.Map
 local L = ns.locale
 
@@ -64,7 +65,7 @@ map.nodes[73602900] = Rare({
     }
 }) -- Collidus the Warp-Watcher
 
-map.nodes[59604660] = Rare({
+local Kraator = Class('kraator', Rare, {
     id = 18696,
     rewards = {
         Achievement({id = 1312, criteria = 4515}), -- Bloody Rare
@@ -81,6 +82,8 @@ map.nodes[59604660] = Rare({
         })
     }
 }) -- Kraator
+
+map.nodes[59834686] = Kraator() -- confirmed
 
 -------------------------------------------------------------------------------
 ---------------------------- NETHERWING REP RELATED ---------------------------
