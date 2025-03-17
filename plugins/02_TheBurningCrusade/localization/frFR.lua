@@ -20,5 +20,5 @@ L['options_icons_crazyforcats_desc'] = 'Afficher les emplacements des familiers 
 --------------------------------- NETHERSTORM ---------------------------------
 -------------------------------------------------------------------------------
 
-L['lorhtander_note_manaforge'] = nil
-L['lorhtander_note_cave'] = nil
+L['lorhtander_note_manaforge'] = 'Peut se promener à l\'intérieur et autour de la Manaforge.'
+L['lorhtander_note_cave'] = 'Peut marcher à l\'intérieur de la grotte sous la Manaforge.'
