@@ -43,7 +43,6 @@ map.nodes[68508078] = Rare({
     quest = 84917,
     rewards = {
         Achievement({id = 41216, criteria = 71591}), --
-        Item({item = 234419}), -- Steamboil Mounting System
         Reputation({id = 2653, gain = 20})
     }
 }) -- Scrapbeak
@@ -64,7 +63,6 @@ map.nodes[37684448] = Rare({
     quest = 84919,
     rewards = {
         Achievement({id = 41216, criteria = 71593}), --
-        Item({item = 234420}), -- Handcrank Mounting System
         Reputation({id = 2653, gain = 20})
     }
 }) -- Tally Doublespeak
@@ -84,7 +82,6 @@ map.nodes[54015023] = Rare({
     quest = 84921,
     rewards = {
         Achievement({id = 41216, criteria = 71596}), --
-        Item({item = 234420}), -- Handcrank Mounting System
         Reputation({id = 2653, gain = 20})
     }
 }) -- Thwack
@@ -94,7 +91,6 @@ map.nodes[41922563] = Rare({
     quest = 84922,
     rewards = {
         Achievement({id = 41216, criteria = 71597}), --
-        Item({item = 234381}), -- Handcrank Fuel Tank
         Reputation({id = 2653, gain = 20})
     }
 }) -- S.A.L.
@@ -150,7 +146,6 @@ map.nodes[63354975] = Rare({
     quest = 84884,
     rewards = {
         Achievement({id = 41216, criteria = 71603}), --
-        Item({item = 234419}), -- Steamboil Mounting System
         Reputation({id = 2653, gain = 50})
     },
     pois = {Path({63574989, 64085016, 64005291})}
