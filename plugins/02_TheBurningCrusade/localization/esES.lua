@@ -20,5 +20,5 @@ L['options_icons_crazyforcats_desc'] = 'Muestra dónde están las mascotas de co
 --------------------------------- NETHERSTORM ---------------------------------
 -------------------------------------------------------------------------------
 
-L['lorhtander_note_manaforge'] = nil
-L['lorhtander_note_cave'] = nil
+L['lorhtander_note_manaforge'] = 'Puede caminar dentro y alrededor de la Forja de Maná.'
+L['lorhtander_note_cave'] = 'Puede caminar dentro de la cueva bajo la Forja de Maná.'
