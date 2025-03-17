@@ -616,3 +616,8 @@ L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
 L['options_icons_youre_my_friend_now_desc'] = 'Показать {npc:239248} места для {achievement:41708}.'
 L['rat_in_building_rail'] = 'Внутри здания на рельсах.'
 L['rat_2nd_floor_trash_can'] = 'Внутри здания на втором этаже на мусорном баке.'
+
+L['breakneck_race_note'] = nil
+L['upgrade_the_pozzik_standard'] = nil
+L['upgrade_22h_slicks'] = nil
+L['upgrade_turbo_handcrank'] = nil

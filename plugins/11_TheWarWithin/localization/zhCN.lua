@@ -615,3 +615,8 @@ L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
 L['options_icons_youre_my_friend_now_desc'] = '显示 {achievement:41708} 成就中 {npc:239248} 的位置。'
 L['rat_in_building_rail'] = '在建筑物内的栏杆上。'
 L['rat_2nd_floor_trash_can'] = '在建筑物二楼垃圾桶上。'
+
+L['breakneck_race_note'] = nil
+L['upgrade_the_pozzik_standard'] = nil
+L['upgrade_22h_slicks'] = nil
+L['upgrade_turbo_handcrank'] = nil

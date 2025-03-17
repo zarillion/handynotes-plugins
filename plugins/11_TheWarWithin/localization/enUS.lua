@@ -615,3 +615,8 @@ L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
 L['options_icons_youre_my_friend_now_desc'] = 'Display {npc:239248} locations for {achievement:41708}.'
 L['rat_in_building_rail'] = 'Inside the building on the rail.'
 L['rat_2nd_floor_trash_can'] = 'Inside the building on the second floor on the trash can.'
+
+L['breakneck_race_note'] = 'The following {object:G-99 Breakneck} upgrades are recommended to make earning |cFFFFD700Gold|r a little easier:\n\n%s\n\n%s\n\n%s'
+L['upgrade_the_pozzik_standard'] = '{item:232982} (Engine): Earn |cFFCD7F32Bronze|r in all normal and reverse {object:Breakneck} races.'
+L['upgrade_22h_slicks'] = '{item:232985} (Wheels): Crafted by engineers and sold on the auction house.'
+L['upgrade_turbo_handcrank'] = '{item:232984} (Turbo): Combine all 5 pieces collected from rares or the auction house.'

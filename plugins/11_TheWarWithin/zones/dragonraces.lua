@@ -388,22 +388,27 @@ ns.hook.DragonridingRace({
 
 -------------------------------- BREAKNECKING ---------------------------------
 
-Undermine.nodes[26025299] = Dragonrace({
+local BreakneckRace = Class('BreakneckRace', Dragonrace, {
+    note = format(L['breakneck_race_note'], L['upgrade_the_pozzik_standard'],
+        L['upgrade_22h_slicks'], L['upgrade_turbo_handcrank'])
+})
+
+Undermine.nodes[26025299] = BreakneckRace({
     label = '{quest:85900}',
     rewards = Undermine_Breaknecking_Rewards(1, 2)
 }) -- Breakneck Bolt
 
-Undermine.nodes[43697800] = Dragonrace({
+Undermine.nodes[43697800] = BreakneckRace({
     label = '{quest:85902}',
     rewards = Undermine_Breaknecking_Rewards(3, 4)
 }) -- Junkyard Jaunt
 
-Undermine.nodes[39575371] = Dragonrace({
+Undermine.nodes[39575371] = BreakneckRace({
     label = '{quest:85904}',
     rewards = Undermine_Breaknecking_Rewards(5, 6)
 }) -- Casino Cruise
 
-Undermine.nodes[47604426] = Dragonrace({
+Undermine.nodes[47604426] = BreakneckRace({
     label = '{quest:85906}',
     rewards = Undermine_Breaknecking_Rewards(7, 8)
 }) -- Sandy Scuttle
@@ -417,5 +422,6 @@ local BREAKNECKING_POIS = {
 
 ns.hook.DragonridingRace({
     group = ns.groups.DRAGONRACE,
+    showNote = true,
     pois = BREAKNECKING_POIS
 })
