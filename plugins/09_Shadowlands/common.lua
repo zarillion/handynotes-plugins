@@ -141,21 +141,6 @@ ns.hook.Vignette({
     rewardsSpaceAfter = false
 })
 
--- hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
---     if self and self.vignetteInfo and self.vignetteInfo.vignetteID then
---         local vignetteID = self.vignetteInfo.vignetteID
---         if VIGNETTES[vignetteID] then
---             GameTooltip:AddLine(' ')
---             for i, reward in ipairs(VIGNETTES[vignetteID]) do
---                 if reward:IsEnabled() then
---                     reward:Render(GameTooltip)
---                 end
---             end
---             GameTooltip:Show()
---         end
---     end
--- end)
-
 -------------------------------------------------------------------------------
 ---------------------------------- COVENANTS ----------------------------------
 -------------------------------------------------------------------------------

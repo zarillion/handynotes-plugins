@@ -1198,65 +1198,12 @@ local DRAGONRACE_POI = {
     -- [] = true --
 }
 
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
-    if not ns.groups.DRAGONRACE:IsEnabled() or
-        not DRAGONRACE_POI[self.areaPoiID] then return end
-    local mapID = self:GetMap().mapID
-    local group = ns.groups.DRAGONRACE
-
-    if not ns.maps[mapID] or not group:GetDisplay(mapID) then return end
-
-    local node = ns.maps[mapID].nodes[DRAGONRACE_POI[self.areaPoiID]]
-    if not node then return end
-
-    GameTooltip:AddLine(' ')
-    GameTooltip:AddLine(ns.RenderLinks(node.sublabel, true), 1, 1, 1)
-    if ns:GetOpt('show_notes') then
-        GameTooltip:AddLine(' ')
-        GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1, true)
-    end
-    if ns:GetOpt('show_loot') then
-        GameTooltip:AddLine(' ')
-        for i, reward in ipairs(node.rewards) do
-            if reward:IsEnabled() then reward:Render(GameTooltip) end
-        end
-    end
-
-    GameTooltip:Show()
-end)
-
-hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
-    if not ns.groups.DRAGONRACE:IsEnabled() or self.vignetteID ~= 5104 then
-        return
-    end
-
-    local mapID = self:GetMap().mapID
-    local group = ns.groups.DRAGONRACE
-    if not ns.maps[mapID] or not group:GetDisplay(mapID) then return end
-
-    local x = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).x
-    local y = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).y
-
-    GameTooltip:AddLine('XY ' .. HandyNotes:getCoord(x, y), 1, 1, 1, true) -- DEBUG
-
-    local node = ns.maps[mapID].nodes[HandyNotes:getCoord(x, y)]
-    if not node then return end
-
-    GameTooltip:SetText(ns.RenderLinks(node.label, true))
-    GameTooltip:AddLine(ns.RenderLinks(node.sublabel, true), 1, 1, 1)
-    if ns:GetOpt('show_notes') then
-        GameTooltip:AddLine(' ')
-        GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1, true)
-    end
-    if ns:GetOpt('show_loot') then
-        GameTooltip:AddLine(' ')
-        for i, reward in ipairs(node.rewards) do
-            if reward:IsEnabled() then reward:Render(GameTooltip) end
-        end
-    end
-
-    GameTooltip:Show()
-end)
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    pois = DRAGONRACE_POI,
+    showNote = true,
+    showSublabel = true
+})
 
 -------------------------------------------------------------------------------
 -------------------------- THE SCAVENGER ACHIEVEMENT --------------------------

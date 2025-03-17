@@ -250,7 +250,9 @@ local function HookAllPOIS()
         local coordinates = hookInfo.coordinates
         local node = ns.maps[mapID].nodes[coordinates]
         hookInfo.label = node.label
+        hookInfo.note = node.note
         hookInfo.rewards = node.rewards
+        hookInfo.sublabel = node.sublabel
 
         if self:GetCenter() > UIParent:GetCenter() then
             GameTooltip:SetOwner(self, 'ANCHOR_LEFT')
