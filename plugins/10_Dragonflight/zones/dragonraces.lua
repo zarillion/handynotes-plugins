@@ -267,6 +267,21 @@ AzureSpan.nodes[42275677] = Dragonrace({
     rewards = AzureSpan_Rewards(6, 11, 12)
 }) -- Archive Ambit
 
+local AZURE_SPAN_POIS = {
+    [7760] = 42275677, -- Archive Ambit
+    [7756] = 20952262, -- Azure Span Slalom
+    [7755] = 47914078, -- Azure Span Sprint
+    [7759] = 48473579, -- Frostland Flyover
+    [7758] = 16584937, -- Iskaara Tour
+    [7757] = 71292464 -- Vakthros Ascent
+}
+
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    showNote = true,
+    pois = AZURE_SPAN_POIS
+})
+
 ------------------------------- FORBIDDEN REACH -------------------------------
 
 local function ForbiddenReach_Rewards(b, c, r, s) -- basic, challenge, reverse challenge, storm race
@@ -357,6 +372,21 @@ ForbiddenReach.nodes[49426006] = Dragonrace({
     reverseChallenge = {2485, 63, 60},
     rewards = ForbiddenReach_Rewards(6, 11, 12)
 }) -- Forbidden Reach Rush
+
+local FORBIDDEN_REACH_POIS = {
+    [7769] = 63095195, -- Aerie Chasm Cruise
+    [7771] = 41361455, -- Caldera Coaster
+    [7772] = 49426006, -- Forbidden Reach Rush
+    [7768] = 31326573, -- Morqut Ascent
+    [7770] = 63658406, -- Southern Reach Route
+    [7767] = 76136563 -- Stormsunder Crater Circuit
+}
+
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    showNote = true,
+    pois = FORBIDDEN_REACH_POIS
+})
 
 ------------------------------- OHNAHRAN PLAINS -------------------------------
 
@@ -487,6 +517,22 @@ OhnahranPlains.nodes[43746678] = Dragonrace({
     }
 }) -- River Rapids Route
 
+local OHNAHRAN_PLAINS_POIS = {
+    [7751] = 25715508, -- Emerald Gardens Ascent
+    [7749] = 86263583, -- Fen Flythrough
+    [7753] = 59933555, -- Maruukai Dash
+    [7754] = 47487064, -- Mirror of the Sky Dash
+    [7750] = 80897220, -- Ravine River Run
+    [7752] = 43746678, -- River Rapids Route
+    [7748] = 63743051 -- Sundapple Copse Circuit
+}
+
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    showNote = true,
+    pois = OHNAHRAN_PLAINS_POIS
+})
+
 --------------------------------- THALDRASZUS ---------------------------------
 
 local function Thaldraszus_Rewards(b, c, r, s) -- basic, challenge, reverse challenge, storm race
@@ -574,6 +620,21 @@ Thaldraszus.nodes[58053361] = Dragonrace({
     reverseChallenge = {2473, 57, 54},
     rewards = Thaldraszus_Rewards(6, 11, 12)
 }) -- Caverns Criss-Cross
+
+local THALDRASZUS_POIS = {
+    [7764] = 60294159, -- Academy Ascent
+    [7766] = 58053361, -- Caverns Criss-Cross
+    [7763] = 37654893, -- Cliffside Circuit
+    [7761] = 57777501, -- Flowing Forest Flight
+    [7765] = 39517619, -- Garden Gallivant
+    [7762] = 57236690 -- Tyrhold Trial
+}
+
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    showNote = true,
+    pois = THALDRASZUS_POIS
+})
 
 -------------------------------- WAKING SHORES --------------------------------
 
@@ -721,6 +782,23 @@ WakingShores.nodes[42599445] = Dragonrace({
     }
 }) -- Wild Preserve Circuit
 
+local WAKING_SHORSE_POIS = {
+    [7744] = 23268430, -- Apex Canopy River Run
+    [7743] = 41976730, -- Emberflow Flight
+    [7741] = 62777400, -- Flashfrost Flyover
+    [7740] = 63327090, -- Ruby Lifeshrine Loop
+    [7745] = 55454113, -- Uktulut Coaster
+    [7747] = 42599445, -- Wild Preserve Circuit
+    [7742] = 47018558, -- Wild Preserve Slalom
+    [7746] = 73203393 -- Wingrest Roundabout
+}
+
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    showNote = true,
+    pois = WAKING_SHORSE_POIS
+})
+
 ------------------------------- ZARALEK CAVERN --------------------------------
 
 local function ZaralekCavern_Rewards(b, c, r, s) -- basic, challenge, reverse challenge, storm race
@@ -817,6 +895,21 @@ ZaralekCavern.nodes[51264667] = Dragonrace({
     rewards = ZaralekCavern_Rewards(6, 11, 12)
 }) -- Sulfur Sprint
 
+local ZARALEK_CAVERN_POIS = {
+    [7773] = 38756061, -- Crystal Circuit
+    [7774] = 39054999, -- Caldera Cruise
+    [7775] = 54502371, -- Brimstone Scramble
+    [7776] = 58724503, -- Shimmering Slalom
+    [7777] = 58155759, -- Loamm Roamm
+    [7778] = 51264667 -- Sulfur Sprint
+}
+
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    showNote = true,
+    pois = ZARALEK_CAVERN_POIS
+})
+
 -------------------------------- EMERALD DREAM --------------------------------
 
 local function EmeraldDream_Rewards(b, c, r) -- basic, challenge, reverse challenge
@@ -909,6 +1002,21 @@ EmeraldDream.nodes[32364825] = Dragonrace({
     reverseChallenge = {2705, 76, 73},
     rewards = EmeraldDream_Rewards(6, 6, 6)
 }) -- Emerald Amble
+
+local EMERALD_DREAM_POIS = {
+    [7903] = 59112881, -- Ysera Invitational
+    [7904] = 37184408, -- Smoldering Sprint
+    [7905] = 35165522, -- Viridescent Venture
+    [7906] = 69625262, -- Shoreline Switchback
+    [7907] = 62808812, -- Canopy Concours
+    [7908] = 32364825 -- Emerald Amble
+}
+
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    showNote = true,
+    pois = EMERALD_DREAM_POIS
+})
 
 -------------------------------------------------------------------------------
 ---------------------------------- KALIMDOR -----------------------------------
@@ -1089,6 +1197,29 @@ UngoroCrater.nodes[53379308] = KalimdorCup({
     areaPoiID = 7509
 }) -- Un'Goro Crater Circuit
 
+local KALIMDOR_POIS = {
+    [7494] = 58181079,
+    [7495] = 68836804,
+    [7496] = 56702790,
+    [7498] = 67202617,
+    [7499] = 37043058,
+    [7500] = 56906286,
+    [7501] = 66778681,
+    [7502] = 28106328,
+    [7503] = 41431300,
+    [7505] = 09731735,
+    [7506] = 64125435,
+    [7507] = 39548419,
+    [7508] = 55764218,
+    [7509] = 53379308
+}
+
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    showNote = true,
+    pois = KALIMDOR_POIS
+})
+
 -------------------------------------------------------------------------------
 ------------------------------- EASTERN KINGDOMS ------------------------------
 -------------------------------------------------------------------------------
@@ -1258,6 +1389,29 @@ RedridgeMountains.nodes[40822500] = EasternKingdomsCup({
     areaPoiID = 7584
 }) -- Redridge Rally
 
+local EASTERN_KINGDOMS_POIS = {
+    [7571] = 58611160,
+    [7572] = 46921391,
+    [7573] = 73244238,
+    [7574] = 34797786,
+    [7575] = 46227221,
+    [7576] = 64704879,
+    [7577] = {62691781, 70102655},
+    [7578] = 74133398,
+    [7579] = 62662616,
+    [7580] = 34753792,
+    [7581] = {37608240, 40417782},
+    [7582] = 67113676,
+    [7583] = 72892784,
+    [7584] = 40822500
+}
+
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    showNote = true,
+    pois = EASTERN_KINGDOMS_POIS
+})
+
 -------------------------------------------------------------------------------
 ----------------------------------- OUTLANDS ----------------------------------
 -------------------------------------------------------------------------------
@@ -1410,112 +1564,24 @@ Netherstorm.nodes[68894774] = OutlandCup({
     areaPoiID = 7595
 }) -- Tempest Keep Sweep
 
--------------------------------------------------------------------------------
----------------------------------- NORTHREND ----------------------------------
--------------------------------------------------------------------------------
+local OUTLAND_POIS = {
+    [7589] = 75514425,
+    [7590] = 36923719,
+    [7591] = 61032759,
+    [7592] = 58267599,
+    [7593] = {59810480, 32657707},
+    [7594] = 42256788,
+    [7595] = 68894774,
+    [7596] = {34813025, 71317061},
+    [7597] = 61734841,
+    [7598] = 51204193,
+    [7599] = 29472503,
+    [7600] = 67256586,
+    [7601] = 51014006
+}
 
--- local function Northrend_Rewards(c)
---     return {
---         Achievement({id = nil, criteria = c, oneline = true}), -- normal bronze
---         Achievement({id = nil, criteria = c, oneline = true}), -- normal silver
---         Achievement({id = nil, criteria = c, oneline = true}), -- normal gold
---         Achievement({id = nil, criteria = c, oneline = true}), -- advanced bronze
---         Achievement({id = nil, criteria = c, oneline = true}), -- advanced silver
---         Achievement({id = nil, criteria = c, oneline = true}), -- advanced gold
---         Achievement({id = nil, criteria = c, oneline = true}), -- reverse bronze
---         Achievement({id = nil, criteria = c, oneline = true}), -- reverse silver
---         Achievement({id = nil, criteria = c, oneline = true}) -- reverse gold
---     }
--- end
-
--------------------------------------------------------------------------------
------------------------------------ PANDARIA ----------------------------------
--------------------------------------------------------------------------------
-
--- local function Pandaria_Rewards(c)
---     return {
---         Achievement({id = nil, criteria = c, oneline = true}), -- normal bronze
---         Achievement({id = nil, criteria = c, oneline = true}), -- normal silver
---         Achievement({id = nil, criteria = c, oneline = true}), -- normal gold
---         Achievement({id = nil, criteria = c, oneline = true}), -- advanced bronze
---         Achievement({id = nil, criteria = c, oneline = true}), -- advanced silver
---         Achievement({id = nil, criteria = c, oneline = true}), -- advanced gold
---         Achievement({id = nil, criteria = c, oneline = true}), -- reverse bronze
---         Achievement({id = nil, criteria = c, oneline = true}), -- reverse silver
---         Achievement({id = nil, criteria = c, oneline = true}) -- reverse gold
---     }
--- end
-
--------------------------------------------------------------------------------
---------------------------------- BROKEN ISLES --------------------------------
--------------------------------------------------------------------------------
-
--- local function BrokenIsles_Rewards(c)
---     return {
---         Achievement({id = nil, criteria = c, oneline = true}), -- normal bronze
---         Achievement({id = nil, criteria = c, oneline = true}), -- normal silver
---         Achievement({id = nil, criteria = c, oneline = true}), -- normal gold
---         Achievement({id = nil, criteria = c, oneline = true}), -- advanced bronze
---         Achievement({id = nil, criteria = c, oneline = true}), -- advanced silver
---         Achievement({id = nil, criteria = c, oneline = true}), -- advanced gold
---         Achievement({id = nil, criteria = c, oneline = true}), -- reverse bronze
---         Achievement({id = nil, criteria = c, oneline = true}), -- reverse silver
---         Achievement({id = nil, criteria = c, oneline = true}) -- reverse gold
---     }
--- end
-
--------------------------------------------------------------------------------
----------------------------- VignettePinMixin Hook ----------------------------
--------------------------------------------------------------------------------
-
-hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
-    if self.vignetteID ~= 5104 then return end
-
-    local mapID = self:GetMap().mapID
-    local group = ns.groups.DRAGONRACE
-    if not ns.maps[mapID] or not group:GetDisplay(mapID) then return end
-
-    local x = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).x
-    local y = C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID).y
-    local node = ns.maps[mapID].nodes[HandyNotes:getCoord(x, y)]
-    if not node then return end
-
-    GameTooltip:SetText(ns.RenderLinks(node.label, true))
-    GameTooltip:AddLine(ns.RenderLinks(node.sublabel, true), 1, 1, 1)
-    if ns:GetOpt('show_notes') then
-        GameTooltip:AddLine(' ')
-        GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1, true)
-    end
-    if ns:GetOpt('show_loot') then node:RenderRewards(GameTooltip) end
-
-    GameTooltip:Show()
-end)
-
--------------------------------------------------------------------------------
----------------------------- AreaPOIPinMixin Hook -----------------------------
--------------------------------------------------------------------------------
-
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
-    -- local pos = C_AreaPoiInfo.GetAreaPOIInfo(WorldMapFrame:GetMapID(), self.areaPoiID).position
-    -- GameTooltip:AddLine(('\nXY: %.2f %.2f'):format(pos.x * 100, pos.y * 100)) -- Debug
-    local mapID = self:GetMap().mapID
-    local group = ns.groups.DRAGONRACE
-    local map = ns.maps[mapID]
-    if not map or not group:GetDisplay(mapID) then return end
-
-    for _, node in pairs(map.nodes) do
-        if node.areaPoiID and node.areaPoiID == self.areaPoiID then
-            GameTooltip:AddLine(' ')
-            GameTooltip:AddLine(ns.RenderLinks(node.sublabel, true), 1, 1, 1)
-            if ns:GetOpt('show_notes') then
-                GameTooltip:AddLine(' ')
-                GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1, true)
-            end
-            if ns:GetOpt('show_loot') then
-                node:RenderRewards(GameTooltip)
-            end
-        end
-    end
-
-    GameTooltip:Show()
-end)
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    showNote = true,
+    pois = OUTLAND_POIS
+})
