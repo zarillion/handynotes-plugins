@@ -616,7 +616,7 @@ L['options_icons_youre_my_friend_now_desc'] = 'Muestra dónde están las {npc:23
 L['rat_in_building_rail'] = 'En el riel dentro del edificio.'
 L['rat_2nd_floor_trash_can'] = 'En la papelera en el segundo piso dentro del edificio.'
 
-L['breakneck_race_note'] = nil
-L['upgrade_the_pozzik_standard'] = nil
-L['upgrade_22h_slicks'] = nil
-L['upgrade_turbo_handcrank'] = nil
+L['breakneck_race_note'] = 'Se recomienda hacer las siguientes mejoras al {object:Rompecuellos G-99} para conseguir el |cFFFFD700Oro|r algo más fácil:\n\n%s\n\n%s\n\n%s'
+L['upgrade_the_pozzik_standard'] = '{item:232982} (motor): Consigue el |cFFCD7F32Bronce|r en todas las carreras normales e inversas del {object:Rompecuellos}.'
+L['upgrade_22h_slicks'] = '{item:232985} (ruedas): Hechas por ingenieros y vendidas en la Casa de Subastas.'
+L['upgrade_turbo_handcrank'] = '{item:232984} (turbo): Combina las 5 piezas de los raros o de la Casa de Subastas.'
