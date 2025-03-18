@@ -21,4 +21,4 @@ L['options_icons_crazyforcats_desc'] = 'Display battle pet locations for the {ac
 -------------------------------------------------------------------------------
 
 L['lorhtander_note_manaforge'] = 'Can walk in and around the Manaforge.'
-L['lorhtander_note_cave'] = 'Can walk inside the cave under the Manaforger.'
+L['lorhtander_note_cave'] = 'Can walk inside the cave under the Manaforge.'

@@ -20,5 +20,5 @@ L['options_icons_crazyforcats_desc'] = '显示 {achievement:8397} 成就中战�
 --------------------------------- NETHERSTORM ---------------------------------
 -------------------------------------------------------------------------------
 
-L['lorhtander_note_manaforge'] = nil
-L['lorhtander_note_cave'] = nil
+L['lorhtander_note_manaforge'] = '可以在法力熔炉及其周围行走。'
+L['lorhtander_note_cave'] = '可以行走到法力熔炉下方的洞穴内。'
