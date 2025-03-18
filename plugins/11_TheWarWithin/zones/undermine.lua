@@ -484,7 +484,7 @@ map.nodes[35384142] = Vendor({
     rewards = {
         Pet({item = 232850, id = 4649, count = 5}), -- Blackwater Kegmover
         Pet({item = 232846, id = 4648, count = 5}), -- Steamwheedle Flunkie
-        Pet({item = 232849, id = 4650, count = 5}), -- venture Companyman
+        Pet({item = 232849, id = 4650, count = 5}), -- Venture Companyman
         Pet({item = 232840, id = 4661, count = 5}), -- Mechagopher
         Pet({item = 232841, id = 4644, count = 8}), -- Professor Punch
         Pet({item = 232842, id = 4638, count = 10}) -- Crimson Mechasaur
@@ -551,13 +551,16 @@ map.nodes[39152219] = Vendor({
     location = L['rocco_razzboom_location'],
     note = L['quartermaster_note'],
     rewards = {
+        Section(L['rep_honored']),
         BreakneckCustomization({item = 236672, quest = 85785}), -- The Ol' Low-and-Slow
         Toy({item = 235670}), -- Bilgewater Cartel Banner
-        Pet({item = 232845, id = 4645}), -- Bilgewater Junkhauler
+        Spacer(), Section(L['rep_revered']), --
         Toy({item = 235807}), -- Storefront-in-a-Box
-        Mount({item = 229935, id = 2272}), -- Crimson Armored Growler
+        Pet({item = 232845, id = 4645}), -- Bilgewater Junkhauler
+        Spacer(), Section(L['rep_exalted']),
+        BreakneckCustomization({item = 235388, quest = 86773}), -- Paint: Redlining Red
         Transmog({item = 231526}), -- Bilgewater Undermine Tabard
-        BreakneckCustomization({item = 235388, quest = 86773}) -- Paint: Redlining Red
+        Mount({item = 229935, id = 2272}) -- Crimson Armored Growler
     }
 }) -- Rocco Razzboom <Bilgewater Quartermaster>
 
@@ -567,13 +570,16 @@ map.nodes[27127256] = Vendor({
     location = L['lab_assistant_laszly_location'],
     note = L['quartermaster_note'],
     rewards = {
+        Section(L['rep_honored']),
         BreakneckCustomization({item = 236670, quest = 85787}), -- Maniacle Melodies
         Toy({item = 235669}), -- Steamwheedle Cartel Banner
-        Pet({item = 232853, id = 4632}), -- Eepy
+        Spacer(), Section(L['rep_revered']), --
         Toy({item = 226373}), -- Everlasting Noggenfogger Elixer
-        Mount({item = 229956, id = 2294}), -- Mean Green Flying Machine
+        Pet({item = 232853, id = 4632}), -- Eepy
+        Spacer(), Section(L['rep_exalted']),
+        BreakneckCustomization({item = 235389, quest = 86772}), -- Paint: Goblin Green
         Transmog({item = 231527}), -- Steamwheedle Undermine Tabard
-        BreakneckCustomization({item = 235389, quest = 86772}) -- Paint: Goblin Green
+        Mount({item = 229956, id = 2294}) -- Mean Green Flying Machine
     }
 }) -- Lab Assistant Laszly <Steamwheedle Quartermaster>
 
@@ -583,13 +589,16 @@ map.nodes[63421673] = Vendor({
     location = L['boatswain_hardee_location'],
     note = L['quartermaster_note'],
     rewards = {
+        Section(L['rep_honored']),
         BreakneckCustomization({item = 236671, quest = 85786}), -- The Buzzer
         Toy({item = 235671}), -- Blackwater Cartel Banner
-        Pet({item = 232839, id = 4637}), -- Wavebreaker Mechasaur
+        Spacer(), Section(L['rep_revered']), --
         Toy({item = 235801}), -- Personal Fishing Barge
-        Mount({item = 229948, id = 2286}), -- Blackwater Shredder Deluxe Mk 2
+        Pet({item = 232839, id = 4637}), -- Wavebreaker Mechasaur
+        Spacer(), Section(L['rep_exalted']),
+        BreakneckCustomization({item = 235390, quest = 86771}), -- Paint: Body Roll Blue
         Transmog({item = 231528}), -- Blackwater Undermine Tabard
-        BreakneckCustomization({item = 235390, quest = 86771}) -- Paint: Body Roll Blue
+        Mount({item = 229948, id = 2286}) -- Blackwater Shredder Deluxe Mk 2
     }
 }) -- Boatswain Hardee <Blackwater Quartermaster>
 
@@ -599,13 +608,16 @@ map.nodes[53297271] = Vendor({
     location = L['shrez_the_scrapper_location'],
     note = L['quartermaster_note'],
     rewards = {
+        Section(L['rep_honored']),
         BreakneckCustomization({item = 236669, quest = 85788}), -- The Whole Brass Band
         Toy({item = 235672}), -- Venture Co. Banner
-        Pet({item = 232851, id = 4641}), -- Rocketfist
+        Spacer(), Section(L['rep_revered']), --
         Toy({item = 235799}), -- Throwin' Sawblade
-        Mount({item = 229946, id = 2284}), -- Ocher Delivery Rocket
+        Pet({item = 232851, id = 4641}), -- Rocketfist
+        Spacer(), Section(L['rep_exalted']),
+        BreakneckCustomization({item = 235391, quest = 86774}), -- Paint: Yellow Cake Yellow
         Transmog({item = 231542}), -- Venture Co. Undermine Tabard
-        BreakneckCustomization({item = 235391, quest = 86774}) -- Paint: Yellow Cake Yellow
+        Mount({item = 229946, id = 2284}) -- Ocher Delivery Rocket
     }
 }) -- Shredz the Scapper <Venture Quartermaster>
 
@@ -616,8 +628,11 @@ map.nodes[30723890] = Vendor({
     note = L['quartermaster_note'],
     pois = {Entrance({29754112})},
     rewards = {
+        Section(L['rep_honored']), --
         Toy({item = 234950}), -- Atomic Regoblinator
+        Spacer(), Section(L['rep_revered']), --
         Mount({item = 229950, id = 2287}), -- Darkfuse Demolisher
+        Spacer(), Section(L['rep_exalted']), --
         Transmog({item = 231550}) -- Darkfuse Lowdown Coat
     }
 }) -- Sitch Lowdown <Darkfuse Solutions Quartermaster>
