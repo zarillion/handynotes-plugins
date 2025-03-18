@@ -67,7 +67,7 @@ map.nodes[88603980] = Rare({
 map.nodes[54628937] = ns.node.Treasure({
     label = '{item:22780}',
     quest = 39783,
-    location = L["in_water_cave"],
+    location = L['in_water_cave'],
     rewards = {ns.reward.Pet({id = 1073, item = 22780})},
     pois = {Path({54628936, 55008879, 55178830, 55778813})}
 }) -- White Murloc Egg
