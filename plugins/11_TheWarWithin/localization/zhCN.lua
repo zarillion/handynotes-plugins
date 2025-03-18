@@ -588,7 +588,7 @@ L['abandoned_toolbox_location'] = '在 {location:废品店} 的屋顶高处。\n
 L['trick_deck_of_cards_location'] = '在 {location:大陆酒店} 内 {npc:231045} 旁边的桌子上。'
 
 L['ditty_fuzeboy_note'] = '用 {item:234741} 交换宠物。'
-L['angelo_rustbin_note'] = '用 {currency:3220} 交换宠物和 {object:G-99 极速} 自定义选项。'
+L['angelo_rustbin_note'] = '用 {currency:3220} 交换宠物和 {object:G-99疾飙飞车} 自定义选项。'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = '显示 {achievement:40948} 的所有 {object:马夫的自锁箱} 位置。'
@@ -616,7 +616,7 @@ L['options_icons_youre_my_friend_now_desc'] = '显示 {achievement:41708} 成就
 L['rat_in_building_rail'] = '在建筑物内的栏杆上。'
 L['rat_2nd_floor_trash_can'] = '在建筑物二楼垃圾桶上。'
 
-L['breakneck_race_note'] = nil
-L['upgrade_the_pozzik_standard'] = nil
-L['upgrade_22h_slicks'] = nil
-L['upgrade_turbo_handcrank'] = nil
+L['breakneck_race_note'] = '以下推荐的 {object:G-99疾飙飞车} 升级可以让赚取 |cFFFFD700金币|r 变得更容易一些：\n\n%s\n\n%s\n\n%s'
+L['upgrade_the_pozzik_standard'] = '{item:232982}（引擎）：在所有普通和反向 {object:疾飙竞速} 比赛中获得 |cFFCD7F32铜牌|r。'
+L['upgrade_22h_slicks'] = '{item:232985}（轮胎）：由工程师制作并在拍卖行出售。'
+L['upgrade_turbo_handcrank'] = '{item:232984}（涡轮）：从稀有怪物或拍卖行收集并组合所有5个部件。'
