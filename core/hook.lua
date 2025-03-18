@@ -121,8 +121,9 @@ local DragonridingRace = Class('DragonridingRace', Hook, {
 function DragonridingRace:Initialize(attrs)
     Hook.Initialize(self, attrs)
     for id, coordinates in pairs(self.pois) do
-        ns.hooks.dragonridingrace[id] =
-            self:AddHook({coordinates = coordinates})
+        ns.hooks.dragonridingrace[id] = self:AddHook({
+            coordinates = ns.AsTable(coordinates)
+        })
     end
 end
 
@@ -248,19 +249,21 @@ local function HookAllPOIS()
         local mapID = self:GetMap().mapID
         if not hookInfo.group:GetDisplay(mapID) then return end
         local coordinates = hookInfo.coordinates
-        local node = ns.maps[mapID].nodes[coordinates]
-        hookInfo.label = node.label
-        hookInfo.note = node.note
-        hookInfo.rewards = node.rewards
-        hookInfo.sublabel = node.sublabel
-
-        if self:GetCenter() > UIParent:GetCenter() then
-            GameTooltip:SetOwner(self, 'ANCHOR_LEFT')
-        else
-            GameTooltip:SetOwner(self, 'ANCHOR_RIGHT')
+        for _, coords in pairs(coordinates) do
+            local node = ns.maps[mapID].nodes[coords]
+            if node then
+                hookInfo.label = node.label
+                hookInfo.note = node.note
+                hookInfo.rewards = node.rewards
+                hookInfo.sublabel = node.sublabel
+                if self:GetCenter() > UIParent:GetCenter() then
+                    GameTooltip:SetOwner(self, 'ANCHOR_LEFT')
+                else
+                    GameTooltip:SetOwner(self, 'ANCHOR_RIGHT')
+                end
+                renderTooltip(hookInfo)
+            end
         end
-
-        renderTooltip(hookInfo)
     end)
 
     hooksecurefunc(DragonridingRacePinMixin, 'OnMouseLeave',
