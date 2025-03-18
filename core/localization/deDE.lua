@@ -132,8 +132,8 @@ L['dr_reverse_challenge'] = 'Umgekehrte Herausforderung'
 L['dr_storm_race'] = 'Sturmrennen'
 L['dr_bronze'] = 'Beende das Rennen um ' .. ns.color.Bronze('Bronze') .. ' zu erhalten.'
 L['dr_vendor_note'] = 'Tausche {currency:2588} gegen Drachenwächtermanuskripte und Ausrüstungsvorlagen ein.'
-L['options_icons_dragonrace'] = 'Drachenrennen'
-L['options_icons_dragonrace_desc'] = 'Zeigt die Positionen der Drachenrennen an.'
+L['options_icons_dragonriding_race'] = 'Drachenrennen'
+L['options_icons_dragonriding_race_desc'] = 'Zeigt die Positionen der Drachenrennen an.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

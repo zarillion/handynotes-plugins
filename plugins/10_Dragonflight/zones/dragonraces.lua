@@ -6,7 +6,7 @@ local Map = ns.Map
 local L = ns.locale
 local Class = ns.Class
 
-local Collectible = ns.node.Collectible
+local DragonridingRace = ns.node.DragonridingRace
 local Vendor = ns.node.Vendor
 
 local Achievement = ns.reward.Achievement
@@ -34,70 +34,8 @@ local Valdrakken = ns.maps[2112] or Map({id = 2112, settings = true})
 --------------------------------- DRAGONRACES ---------------------------------
 -------------------------------------------------------------------------------
 
-local Dragonrace = Class('DragonRace', Collectible,
-    {icon = 1100022, group = ns.groups.DRAGONRACE})
-
-local DRAGONRIDING_RACE_TYPES = {
-    [1] = {type = 'normal', label = L['dr_normal']},
-    [2] = {type = 'advanced', label = L['dr_advanced']},
-    [3] = {type = 'reverse', label = L['dr_reverse']},
-    [4] = {type = 'challenge', label = L['dr_challenge']},
-    [5] = {type = 'reverseChallenge', label = L['dr_reverse_challenge']},
-    [6] = {type = 'stormRace', label = L['dr_storm_race']}
-}
-
-local function CanAddRace(raceType)
-    if raceType == 'stormRace' then
-        local unlocked = select(4, GetAchievementInfo(19027)) -- [Heroic Edition: Algarian Stormrider]
-        return unlocked and true or false
-    end
-    return true
-end
-
-function Dragonrace.getters:sublabel()
-    local note = L['dr_best_time']
-    local txt = L['dr_your_best_time']
-    for _, race in ipairs(DRAGONRIDING_RACE_TYPES) do
-        if self[race.type] then
-            local currencyID = self[race.type][1]
-            local label = race.label
-            local time = currencyID and
-                             C_CurrencyInfo.GetCurrencyInfo(currencyID).quantity or
-                             0
-            if CanAddRace(race.type) then
-                txt = txt .. '\n' .. format(note, label, time / 1000)
-            end
-        end
-    end
-    return txt
-end
-
-function Dragonrace.getters:note()
-    local Silver = ns.color.Silver
-    local Gold = ns.color.Gold
-    local note = L['dr_target_time']
-    local txt = L['dr_your_target_time']
-    for _, race in ipairs(DRAGONRIDING_RACE_TYPES) do
-        if self[race.type] then
-            local label = race.label
-            local sTime = ns.color.Red('??')
-            if self[race.type][2] then
-                sTime = Silver(self[race.type][2])
-            end
-            local gTime = ns.color.Red('??')
-            if self[race.type][3] then
-                gTime = Gold(self[race.type][3])
-            end
-            if CanAddRace(race.type) then
-                txt = txt .. '\n' .. format(note, label, sTime, gTime)
-            end
-        end
-    end
-    return txt .. '\n\n' .. L['dr_bronze']
-end
-
 local function AddStormRace(r, c)
-    if CanAddRace('stormRace') then
+    if DragonridingRace.CanAddRace('stormRace') then
         table.insert(r, Spacer())
         table.insert(r, Section(L['dr_storm_race']))
         table.insert(r, Achievement({id = 18928, criteria = c, oneline = true}))
@@ -206,7 +144,7 @@ local function AzureSpan_Rewards(b, c, r, s) -- basic, challenge, reverse challe
     return rewards
 end
 
-AzureSpan.nodes[47914078] = Dragonrace({
+AzureSpan.nodes[47914078] = DragonridingRace({
     label = '{quest:66946}',
     normal = {2074, 66, 63},
     advanced = {2075, 63, 58},
@@ -216,7 +154,7 @@ AzureSpan.nodes[47914078] = Dragonrace({
     rewards = AzureSpan_Rewards(1, 1, 2)
 }) -- Azure Span Sprint
 
-AzureSpan.nodes[20952262] = Dragonrace({
+AzureSpan.nodes[20952262] = DragonridingRace({
     label = '{quest:67002}',
     normal = {2076, 61, 58},
     advanced = {2077, 61, 56},
@@ -226,7 +164,7 @@ AzureSpan.nodes[20952262] = Dragonrace({
     rewards = AzureSpan_Rewards(2, 3, 4)
 }) -- Azure Span Slalom
 
-AzureSpan.nodes[71292464] = Dragonrace({
+AzureSpan.nodes[71292464] = DragonridingRace({
     label = '{quest:67031}',
     normal = {2078, 61, 58},
     advanced = {2079, 61, 56},
@@ -237,7 +175,7 @@ AzureSpan.nodes[71292464] = Dragonrace({
     rewards = AzureSpan_Rewards(3, 5, 6, 3)
 }) -- Vakthros Ascent
 
-AzureSpan.nodes[16584937] = Dragonrace({
+AzureSpan.nodes[16584937] = DragonridingRace({
     label = '{quest:67296}',
     normal = {2083, 78, 75},
     advanced = {2084, 75, 70},
@@ -247,7 +185,7 @@ AzureSpan.nodes[16584937] = Dragonrace({
     rewards = AzureSpan_Rewards(4, 7, 8)
 }) -- Iskaara Tour
 
-AzureSpan.nodes[48473579] = Dragonrace({
+AzureSpan.nodes[48473579] = DragonridingRace({
     label = '{quest:67565}',
     normal = {2085, 79, 76},
     advanced = {2086, 77, 72},
@@ -257,7 +195,7 @@ AzureSpan.nodes[48473579] = Dragonrace({
     rewards = AzureSpan_Rewards(5, 9, 10)
 }) -- Frostland Flyover
 
-AzureSpan.nodes[42275677] = Dragonrace({
+AzureSpan.nodes[42275677] = DragonridingRace({
     label = '{quest:67741}',
     normal = {2089, 94, 91},
     advanced = {2090, 86, 81},
@@ -277,8 +215,9 @@ local AZURE_SPAN_POIS = {
 }
 
 ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRACE,
+    group = ns.groups.DRAGONRIDING_RACE,
     showNote = true,
+    showSublabel = true,
     pois = AZURE_SPAN_POIS
 })
 
@@ -312,7 +251,7 @@ local function ForbiddenReach_Rewards(b, c, r, s) -- basic, challenge, reverse c
     return rewards
 end
 
-ForbiddenReach.nodes[76136563] = Dragonrace({
+ForbiddenReach.nodes[76136563] = DragonridingRace({
     label = '{quest:73017}',
     normal = {2201, 46, 43},
     advanced = {2207, 47, 42},
@@ -323,7 +262,7 @@ ForbiddenReach.nodes[76136563] = Dragonrace({
     rewards = ForbiddenReach_Rewards(1, 1, 2, 5)
 }) -- Stormsunder Crater Circuit
 
-ForbiddenReach.nodes[31326573] = Dragonrace({
+ForbiddenReach.nodes[31326573] = DragonridingRace({
     label = '{quest:73020}',
     normal = {2202, 55, 52},
     advanced = {2208, 54, 49},
@@ -333,7 +272,7 @@ ForbiddenReach.nodes[31326573] = Dragonrace({
     rewards = ForbiddenReach_Rewards(2, 3, 4)
 }) -- Morqut Ascent
 
-ForbiddenReach.nodes[63095195] = Dragonrace({
+ForbiddenReach.nodes[63095195] = DragonridingRace({
     label = '{quest:73025}',
     normal = {2203, 56, 53},
     advanced = {2209, 55, 50},
@@ -343,7 +282,7 @@ ForbiddenReach.nodes[63095195] = Dragonrace({
     rewards = ForbiddenReach_Rewards(3, 5, 6)
 }) -- Aerie Chasm Cruise
 
-ForbiddenReach.nodes[63658406] = Dragonrace({
+ForbiddenReach.nodes[63658406] = DragonridingRace({
     label = '{quest:73029}',
     normal = {2204, 73, 70},
     advanced = {2210, 73, 68},
@@ -353,7 +292,7 @@ ForbiddenReach.nodes[63658406] = Dragonrace({
     rewards = ForbiddenReach_Rewards(4, 7, 8)
 }) -- Southern Reach Route
 
-ForbiddenReach.nodes[41361455] = Dragonrace({
+ForbiddenReach.nodes[41361455] = DragonridingRace({
     label = '{quest:73033}',
     normal = {2205, 61, 58},
     advanced = {2211, 61, 58},
@@ -363,7 +302,7 @@ ForbiddenReach.nodes[41361455] = Dragonrace({
     rewards = ForbiddenReach_Rewards(5, 9, 10)
 }) -- Caldera Coaster
 
-ForbiddenReach.nodes[49426006] = Dragonrace({
+ForbiddenReach.nodes[49426006] = DragonridingRace({
     label = '{quest:73061}',
     normal = {2206, 62, 59},
     advanced = {2212, 61, 58},
@@ -383,8 +322,9 @@ local FORBIDDEN_REACH_POIS = {
 }
 
 ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRACE,
+    group = ns.groups.DRAGONRIDING_RACE,
     showNote = true,
+    showSublabel = true,
     pois = FORBIDDEN_REACH_POIS
 })
 
@@ -415,7 +355,7 @@ local function OhnahranPlains_Rewards(b, c, r, s) -- basic, challenge, reverse c
     return rewards
 end
 
-OhnahranPlains.nodes[63743051] = Dragonrace({
+OhnahranPlains.nodes[63743051] = DragonridingRace({
     label = '{quest:66835}',
     normal = {2060, 52, 44},
     advanced = {2061, 46, 41},
@@ -425,7 +365,7 @@ OhnahranPlains.nodes[63743051] = Dragonrace({
     rewards = OhnahranPlains_Rewards(1, 1, 2)
 }) -- Sundapple Copse Circuit
 
-OhnahranPlains.nodes[86263583] = Dragonrace({
+OhnahranPlains.nodes[86263583] = DragonridingRace({
     label = '{quest:66877}',
     normal = {2062, 51, 44},
     advanced = {2063, 46, 41},
@@ -436,7 +376,7 @@ OhnahranPlains.nodes[86263583] = Dragonrace({
     rewards = OhnahranPlains_Rewards(2, 3, 4, 2)
 }) -- Fen Flythrough
 
-OhnahranPlains.nodes[80897220] = Dragonrace({
+OhnahranPlains.nodes[80897220] = DragonridingRace({
     label = '{quest:66880}',
     normal = {2064, 52, 50},
     advanced = {2065, 52, 47},
@@ -446,7 +386,7 @@ OhnahranPlains.nodes[80897220] = Dragonrace({
     rewards = OhnahranPlains_Rewards(3, 5, 6)
 }) -- Ravine River Run
 
-OhnahranPlains.nodes[25715508] = Dragonrace({
+OhnahranPlains.nodes[25715508] = DragonridingRace({
     label = '{quest:66885}',
     normal = {2066, 66, 59},
     advanced = {2067, 60, 55},
@@ -456,7 +396,7 @@ OhnahranPlains.nodes[25715508] = Dragonrace({
     rewards = OhnahranPlains_Rewards(4, 7, 8)
 }) -- Emerald Garden Ascent
 
-OhnahranPlains.nodes[59933555] = Dragonrace({
+OhnahranPlains.nodes[59933555] = DragonridingRace({
     label = '{quest:66921}',
     normal = {2069, 28, 25},
     challenge = {2446, 27, 24},
@@ -472,7 +412,7 @@ OhnahranPlains.nodes[59933555] = Dragonrace({
     }
 }) -- Maruukai Dash
 
-OhnahranPlains.nodes[47487064] = Dragonrace({
+OhnahranPlains.nodes[47487064] = DragonridingRace({
     label = '{quest:66933}',
     normal = {2070, 29, 26},
     challenge = {2447, 30, 27},
@@ -488,7 +428,7 @@ OhnahranPlains.nodes[47487064] = Dragonrace({
     }
 }) -- Mirror of Sky Dash
 
-OhnahranPlains.nodes[43746678] = Dragonrace({
+OhnahranPlains.nodes[43746678] = DragonridingRace({
     label = '{quest:70710}',
     normal = {2119, 51, 46},
     advanced = {2120, 48, 43},
@@ -528,8 +468,9 @@ local OHNAHRAN_PLAINS_POIS = {
 }
 
 ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRACE,
+    group = ns.groups.DRAGONRIDING_RACE,
     showNote = true,
+    showSublabel = true,
     pois = OHNAHRAN_PLAINS_POIS
 })
 
@@ -560,7 +501,7 @@ local function Thaldraszus_Rewards(b, c, r, s) -- basic, challenge, reverse chal
     return rewards
 end
 
-Thaldraszus.nodes[57777501] = Dragonrace({
+Thaldraszus.nodes[57777501] = DragonridingRace({
     label = '{quest:67095}',
     normal = {2080, 52, 49},
     advanced = {2081, 45, 40},
@@ -570,7 +511,7 @@ Thaldraszus.nodes[57777501] = Dragonrace({
     rewards = Thaldraszus_Rewards(1, 1, 2)
 }) -- Flowing Forest Flight
 
-Thaldraszus.nodes[57236690] = Dragonrace({
+Thaldraszus.nodes[57236690] = DragonridingRace({
     label = '{quest:69957}',
     normal = {2092, 84, 81},
     advanced = {2093, 80, 75},
@@ -581,7 +522,7 @@ Thaldraszus.nodes[57236690] = Dragonrace({
     rewards = Thaldraszus_Rewards(2, 3, 4, 4)
 }) -- Tyrhold Trial
 
-Thaldraszus.nodes[37654893] = Dragonrace({
+Thaldraszus.nodes[37654893] = DragonridingRace({
     label = '{quest:70051}',
     normal = {2096, 72, 69},
     advanced = {2097, 71, 66},
@@ -591,7 +532,7 @@ Thaldraszus.nodes[37654893] = Dragonrace({
     rewards = Thaldraszus_Rewards(3, 5, 6)
 }) -- Cliffside Circuit
 
-Thaldraszus.nodes[60294159] = Dragonrace({
+Thaldraszus.nodes[60294159] = DragonridingRace({
     label = '{quest:70059}',
     normal = {2098, 57, 54},
     advanced = {2099, 57, 52},
@@ -601,7 +542,7 @@ Thaldraszus.nodes[60294159] = Dragonrace({
     rewards = Thaldraszus_Rewards(4, 7, 8)
 }) -- Academy Ascent
 
-Thaldraszus.nodes[39517619] = Dragonrace({
+Thaldraszus.nodes[39517619] = DragonridingRace({
     label = '{quest:70157}',
     normal = {2101, 64, 61},
     advanced = {2102, 59, 54},
@@ -611,7 +552,7 @@ Thaldraszus.nodes[39517619] = Dragonrace({
     rewards = Thaldraszus_Rewards(5, 9, 10)
 }) -- Garden Gallivant
 
-Thaldraszus.nodes[58053361] = Dragonrace({
+Thaldraszus.nodes[58053361] = DragonridingRace({
     label = '{quest:70161}',
     normal = {2103, 53, 50},
     advanced = {2104, 50, 45},
@@ -631,8 +572,9 @@ local THALDRASZUS_POIS = {
 }
 
 ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRACE,
+    group = ns.groups.DRAGONRIDING_RACE,
     showNote = true,
+    showSublabel = true,
     pois = THALDRASZUS_POIS
 })
 
@@ -663,7 +605,7 @@ local function WakingShores_Rewards(b, c, r, s) -- basic, challenge, reverse cha
     return rewards
 end
 
-WakingShores.nodes[63327090] = Dragonrace({
+WakingShores.nodes[63327090] = DragonridingRace({
     label = '{quest:66679}',
     normal = {2042, 66, 64},
     advanced = {2044, 57, 52},
@@ -674,7 +616,7 @@ WakingShores.nodes[63327090] = Dragonrace({
     rewards = WakingShores_Rewards(1, 1, 2, 1)
 }) -- Ruby Lifeshrine Loop
 
-WakingShores.nodes[47018558] = Dragonrace({
+WakingShores.nodes[47018558] = DragonridingRace({
     label = '{quest:66721}',
     normal = {2048, 45, 43},
     advanced = {2049, 45, 40},
@@ -703,7 +645,7 @@ WakingShores.nodes[47018558] = Dragonrace({
     }
 }) -- Wild Preserve Slalom
 
-WakingShores.nodes[41976730] = Dragonrace({
+WakingShores.nodes[41976730] = DragonridingRace({
     label = '{quest:66727}',
     normal = {2052, 53, 47},
     advanced = {2053, 49, 44},
@@ -713,7 +655,7 @@ WakingShores.nodes[41976730] = Dragonrace({
     rewards = WakingShores_Rewards(3, 5, 6)
 }) -- Emberflow Flight
 
-WakingShores.nodes[23268430] = Dragonrace({
+WakingShores.nodes[23268430] = DragonridingRace({
     label = '{quest:66732}',
     normal = {2054, 56, 48},
     advanced = {2055, 50, 45},
@@ -723,7 +665,7 @@ WakingShores.nodes[23268430] = Dragonrace({
     rewards = WakingShores_Rewards(4, 7, 8)
 }) -- Apex Canopy River Run
 
-WakingShores.nodes[55454113] = Dragonrace({
+WakingShores.nodes[55454113] = DragonridingRace({
     label = '{quest:66777}',
     normal = {2056, 48, 43},
     advanced = {2057, 45, 40},
@@ -733,7 +675,7 @@ WakingShores.nodes[55454113] = Dragonrace({
     rewards = WakingShores_Rewards(5, 9, 10)
 }) -- Uktulut Coaster
 
-WakingShores.nodes[73203393] = Dragonrace({
+WakingShores.nodes[73203393] = DragonridingRace({
     label = '{quest:66786}',
     normal = {2058, 56, 53},
     advanced = {2059, 58, 53},
@@ -743,7 +685,7 @@ WakingShores.nodes[73203393] = Dragonrace({
     rewards = WakingShores_Rewards(6, 11, 12)
 }) -- Wingrest Roundabout
 
-WakingShores.nodes[62777400] = Dragonrace({
+WakingShores.nodes[62777400] = DragonridingRace({
     label = '{quest:66710}',
     normal = {2046, 66, 63},
     advanced = {2047, 66, 61},
@@ -753,7 +695,7 @@ WakingShores.nodes[62777400] = Dragonrace({
     rewards = WakingShores_Rewards(7, 13, 14)
 }) -- Flashfrost Flyover
 
-WakingShores.nodes[42599445] = Dragonrace({
+WakingShores.nodes[42599445] = DragonridingRace({
     label = '{quest:66725}',
     normal = {2050, 43, 41},
     advanced = {2051, 43, 38},
@@ -794,8 +736,9 @@ local WAKING_SHORSE_POIS = {
 }
 
 ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRACE,
+    group = ns.groups.DRAGONRIDING_RACE,
     showNote = true,
+    showSublabel = true,
     pois = WAKING_SHORSE_POIS
 })
 
@@ -834,7 +777,7 @@ local function ZaralekCavern_Rewards(b, c, r, s) -- basic, challenge, reverse ch
     return rewards
 end
 
-ZaralekCavern.nodes[38756061] = Dragonrace({
+ZaralekCavern.nodes[38756061] = DragonridingRace({
     label = '{quest:74839}',
     normal = {2246, 68, 63},
     advanced = {2252, 60, 55},
@@ -845,7 +788,7 @@ ZaralekCavern.nodes[38756061] = Dragonrace({
     rewards = ZaralekCavern_Rewards(1, 1, 2, 6)
 }) -- Crystal Circuit
 
-ZaralekCavern.nodes[39054999] = Dragonrace({
+ZaralekCavern.nodes[39054999] = DragonridingRace({
     label = '{quest:74889}',
     normal = {2247, 80, 75},
     advanced = {2253, 73, 68},
@@ -855,7 +798,7 @@ ZaralekCavern.nodes[39054999] = Dragonrace({
     rewards = ZaralekCavern_Rewards(2, 3, 4)
 }) -- Caldera Cruise
 
-ZaralekCavern.nodes[54502371] = Dragonrace({
+ZaralekCavern.nodes[54502371] = DragonridingRace({
     label = '{quest:74939}',
     normal = {2248, 72, 69},
     advanced = {2254, 69, 64},
@@ -865,7 +808,7 @@ ZaralekCavern.nodes[54502371] = Dragonrace({
     rewards = ZaralekCavern_Rewards(3, 5, 6)
 }) -- Brimstone Scramble
 
-ZaralekCavern.nodes[58724503] = Dragonrace({
+ZaralekCavern.nodes[58724503] = DragonridingRace({
     label = '{quest:74951}',
     normal = {2249, 80, 75},
     advanced = {2255, 75, 70},
@@ -875,7 +818,7 @@ ZaralekCavern.nodes[58724503] = Dragonrace({
     rewards = ZaralekCavern_Rewards(4, 7, 8)
 }) -- Shimmering Slalom
 
-ZaralekCavern.nodes[58155759] = Dragonrace({
+ZaralekCavern.nodes[58155759] = DragonridingRace({
     label = '{quest:74972}',
     normal = {2250, 60, 55},
     advanced = {2256, 55, 50},
@@ -885,7 +828,7 @@ ZaralekCavern.nodes[58155759] = Dragonrace({
     rewards = ZaralekCavern_Rewards(5, 9, 10)
 }) -- Loamm Roamm
 
-ZaralekCavern.nodes[51264667] = Dragonrace({
+ZaralekCavern.nodes[51264667] = DragonridingRace({
     label = '{quest:75035}',
     normal = {2251, 67, 64},
     advanced = {2257, 62, 57},
@@ -905,8 +848,9 @@ local ZARALEK_CAVERN_POIS = {
 }
 
 ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRACE,
+    group = ns.groups.DRAGONRIDING_RACE,
     showNote = true,
+    showSublabel = true,
     pois = ZARALEK_CAVERN_POIS
 })
 
@@ -943,7 +887,7 @@ local function EmeraldDream_Rewards(b, c, r) -- basic, challenge, reverse challe
     }
 end
 
-EmeraldDream.nodes[59112881] = Dragonrace({
+EmeraldDream.nodes[59112881] = DragonridingRace({
     label = '{quest:77841}',
     normal = {2676, 103, 98},
     advanced = {2682, 90, 87},
@@ -953,7 +897,7 @@ EmeraldDream.nodes[59112881] = Dragonrace({
     rewards = EmeraldDream_Rewards(1, 1, 1)
 }) -- Ysera Invitational
 
-EmeraldDream.nodes[37184408] = Dragonrace({
+EmeraldDream.nodes[37184408] = DragonridingRace({
     label = '{quest:77983}',
     normal = {2677, 85, 80},
     advanced = {2683, 76, 73},
@@ -963,7 +907,7 @@ EmeraldDream.nodes[37184408] = Dragonrace({
     rewards = EmeraldDream_Rewards(2, 2, 2)
 }) -- Smoldering Sprint
 
-EmeraldDream.nodes[35165522] = Dragonrace({
+EmeraldDream.nodes[35165522] = DragonridingRace({
     label = '{quest:77996}',
     normal = {2678, 83, 78},
     advanced = {2684, 67, 64},
@@ -973,7 +917,7 @@ EmeraldDream.nodes[35165522] = Dragonrace({
     rewards = EmeraldDream_Rewards(3, 3, 3)
 }) -- Viridescent Venture
 
-EmeraldDream.nodes[69625262] = Dragonrace({
+EmeraldDream.nodes[69625262] = DragonridingRace({
     label = '{quest:78016}',
     normal = {2679, 78, 73},
     advanced = {2685, 66, 63},
@@ -983,7 +927,7 @@ EmeraldDream.nodes[69625262] = Dragonrace({
     rewards = EmeraldDream_Rewards(4, 4, 4)
 }) -- Shoreline Switchback
 
-EmeraldDream.nodes[62808812] = Dragonrace({
+EmeraldDream.nodes[62808812] = DragonridingRace({
     label = '{quest:78102}',
     normal = {2680, 110, 105},
     advanced = {2686, 96, 93},
@@ -993,7 +937,7 @@ EmeraldDream.nodes[62808812] = Dragonrace({
     rewards = EmeraldDream_Rewards(5, 5, 5)
 }) -- Canopy Concours
 
-EmeraldDream.nodes[32364825] = Dragonrace({
+EmeraldDream.nodes[32364825] = DragonridingRace({
     label = '{quest:78115}',
     normal = {2681, 89, 84},
     advanced = {2687, 73, 70},
@@ -1013,8 +957,9 @@ local EMERALD_DREAM_POIS = {
 }
 
 ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRACE,
+    group = ns.groups.DRAGONRIDING_RACE,
     showNote = true,
+    showSublabel = true,
     pois = EMERALD_DREAM_POIS
 })
 
@@ -1022,8 +967,7 @@ ns.hook.DragonridingRace({
 ---------------------------------- KALIMDOR -----------------------------------
 -------------------------------------------------------------------------------
 
-local KalimdorCup = Class('KalimdorCup', Dragonrace,
-    {parent = 12, group = ns.groups.KALIMDOR_CUP})
+local KalimdorCup = Class('KalimdorCup', DragonridingRace)
 
 local function Kalimdor_Rewards(c)
     return {
@@ -1045,8 +989,7 @@ Felwood.nodes[58181079] = KalimdorCup({
     normal = {2312, 75, 70},
     advanced = {2342, 66, 63},
     reverse = {2372, 65, 62},
-    rewards = Kalimdor_Rewards(1),
-    areaPoiID = 7494
+    rewards = Kalimdor_Rewards(1)
 }) -- Fel Flyover
 
 local Winterspring = ns.maps[83] or Map({id = 83, settings = true})
@@ -1055,8 +998,7 @@ Winterspring.nodes[68836804] = KalimdorCup({
     normal = {2313, 81, 76},
     advanced = {2343, 86, 73},
     reverse = {2373, 73, 70},
-    rewards = Kalimdor_Rewards(2),
-    areaPoiID = 7495
+    rewards = Kalimdor_Rewards(2)
 }) -- Winter Wander
 
 local Hyjal = ns.maps[198] or Map({id = 198, settings = true})
@@ -1065,8 +1007,7 @@ Hyjal.nodes[56702790] = KalimdorCup({
     normal = {2314, 50, 45},
     advanced = {2344, 46, 41},
     reverse = {2374, 46, 41},
-    rewards = Kalimdor_Rewards(3),
-    areaPoiID = 7496
+    rewards = Kalimdor_Rewards(3)
 }) -- Nordrassil Spiral
 
 Hyjal.nodes[21905420] = KalimdorCup({
@@ -1074,8 +1015,7 @@ Hyjal.nodes[21905420] = KalimdorCup({
     normal = {2315, 75, 70},
     advanced = {2345, 72, 69},
     reverse = {2375, 72, 67},
-    rewards = Kalimdor_Rewards(4),
-    areaPoiID = 7497
+    rewards = Kalimdor_Rewards(4)
 }) -- Hyjal Hotfoot
 
 local Azshara = ns.maps[76] or Map({id = 76, settings = true})
@@ -1084,8 +1024,7 @@ Azshara.nodes[67202617] = KalimdorCup({
     normal = {2316, 105, 100},
     advanced = {2346, 100, 94},
     reverse = {2376, 100, 94},
-    rewards = Kalimdor_Rewards(5),
-    areaPoiID = 7498
+    rewards = Kalimdor_Rewards(5)
 }) -- Rocketway Ride
 
 local Ashenvale = ns.maps[63] or Map({id = 63, settings = true})
@@ -1094,8 +1033,7 @@ Ashenvale.nodes[37043058] = KalimdorCup({
     normal = {2317, 69, 64},
     advanced = {2347, 64, 59},
     reverse = {2377, 64, 59},
-    rewards = Kalimdor_Rewards(6),
-    areaPoiID = 7499
+    rewards = Kalimdor_Rewards(6)
 }) -- Ashenvale Ambit
 
 local Durotar = ns.maps[1] or Map({id = 1, settings = true})
@@ -1104,8 +1042,7 @@ Durotar.nodes[56906286] = KalimdorCup({
     normal = {2318, 85, 80},
     advanced = {2348, 78, 73},
     reverse = {2378, 78, 73},
-    rewards = Kalimdor_Rewards(7),
-    areaPoiID = 7500
+    rewards = Kalimdor_Rewards(7)
 }) -- Durotar Tour
 
 local StonetalonMontains = ns.maps[65] or Map({id = 65, settings = true})
@@ -1114,8 +1051,7 @@ StonetalonMontains.nodes[66778681] = KalimdorCup({
     normal = {2319, 85, 80},
     advanced = {2349, 75, 70},
     reverse = {2379, 75, 70},
-    rewards = Kalimdor_Rewards(8),
-    areaPoiID = 7501
+    rewards = Kalimdor_Rewards(8)
 }) -- Webwinder Weave
 
 local Desolace = ns.maps[66] or Map({id = 66, settings = true})
@@ -1124,8 +1060,7 @@ Desolace.nodes[28106328] = KalimdorCup({
     normal = {2320, 80, 75},
     advanced = {2350, 80, 75},
     reverse = {2380, 75, 70},
-    rewards = Kalimdor_Rewards(9),
-    areaPoiID = 7502
+    rewards = Kalimdor_Rewards(9)
 }) -- Desolace Drift
 
 local SouthernBarrens = ns.maps[199] or Map({id = 199, settings = true})
@@ -1134,8 +1069,7 @@ SouthernBarrens.nodes[41431300] = KalimdorCup({
     normal = {2321, 53, 48},
     advanced = {2351, 48, 43},
     reverse = {2381, 49, 44},
-    rewards = Kalimdor_Rewards(10),
-    areaPoiID = 7503
+    rewards = Kalimdor_Rewards(10)
 }) -- Barrens Divide Dive
 
 SouthernBarrens.nodes[42809308] = KalimdorCup({
@@ -1143,8 +1077,7 @@ SouthernBarrens.nodes[42809308] = KalimdorCup({
     normal = {2322, 58, 53},
     advanced = {2352, 52, 47},
     reverse = {2382, 52, 47},
-    rewards = Kalimdor_Rewards(11),
-    areaPoiID = 7504
+    rewards = Kalimdor_Rewards(11)
 }) -- Razorfen Roundabout
 
 local ThousandNeedles = ns.maps[64] or Map({id = 64, settings = true})
@@ -1153,8 +1086,7 @@ ThousandNeedles.nodes[09731735] = KalimdorCup({
     normal = {2323, 92, 87},
     advanced = {2353, 82, 77},
     reverse = {2383, 82, 77},
-    rewards = Kalimdor_Rewards(12),
-    areaPoiID = 7505
+    rewards = Kalimdor_Rewards(12)
 }) -- Thousand Needles Thread
 
 local Feralas = ns.maps[69] or Map({id = 69, settings = true})
@@ -1163,8 +1095,7 @@ Feralas.nodes[64125435] = KalimdorCup({
     normal = {2324, 94, 89},
     advanced = {2354, 89, 84},
     reverse = {2384, 89, 84},
-    rewards = Kalimdor_Rewards(13),
-    areaPoiID = 7506
+    rewards = Kalimdor_Rewards(13)
 }) -- Feralas Ruins Ramble
 
 local Silithus = ns.maps[81] or Map({id = 81, settings = true})
@@ -1173,8 +1104,7 @@ Silithus.nodes[39548419] = KalimdorCup({
     normal = {2325, 80, 75},
     advanced = {2355, 71, 66},
     reverse = {2385, 74, 69},
-    rewards = Kalimdor_Rewards(14),
-    areaPoiID = 7507
+    rewards = Kalimdor_Rewards(14)
 }) -- Ahn'Qiraj Circuit
 
 local Uldum = ns.maps[249] or Map({id = 249, settings = true})
@@ -1183,8 +1113,7 @@ Uldum.nodes[55764218] = KalimdorCup({
     normal = {2326, 89, 84},
     advanced = {2356, 81, 76},
     reverse = {2386, 81, 76},
-    rewards = Kalimdor_Rewards(15),
-    areaPoiID = 7508
+    rewards = Kalimdor_Rewards(15)
 }) -- Uldum Tour
 
 local UngoroCrater = ns.maps[78] or Map({id = 78, settings = true})
@@ -1193,30 +1122,32 @@ UngoroCrater.nodes[53379308] = KalimdorCup({
     normal = {2327, 105, 100},
     advanced = {2357, 92, 87},
     reverse = {2387, 96, 91},
-    rewards = Kalimdor_Rewards(16),
-    areaPoiID = 7509
+    rewards = Kalimdor_Rewards(16)
 }) -- Un'Goro Crater Circuit
 
 local KALIMDOR_POIS = {
-    [7494] = 58181079,
-    [7495] = 68836804,
-    [7496] = 56702790,
-    [7498] = 67202617,
-    [7499] = 37043058,
-    [7500] = 56906286,
-    [7501] = 66778681,
-    [7502] = 28106328,
-    [7503] = 41431300,
-    [7505] = 09731735,
-    [7506] = 64125435,
-    [7507] = 39548419,
-    [7508] = 55764218,
-    [7509] = 53379308
+    [7494] = 58181079, -- Fel Flyover
+    [7495] = 68836804, -- Winter Wander
+    [7496] = 56702790, -- Nordrassil Spiral
+    [7497] = 21905420, -- Hyjal Hotfoot
+    [7498] = 67202617, -- Rocketway Ride
+    [7499] = 37043058, -- Ashenvale Ambit
+    [7500] = 56906286, -- Durotar Tour
+    [7501] = 66778681, -- Webwinder Weave
+    [7502] = 28106328, -- Desolace Drift
+    [7503] = 41431300, -- Barrens Divide Dive
+    [7504] = 42809308, -- Razorfen Roundabout
+    [7505] = 09731735, -- Thousand Needles Thread
+    [7506] = 64125435, -- Feralas Ruins Ramble
+    [7507] = 39548419, -- Ahn'Qiraj Circuit
+    [7508] = 55764218, -- Uldum Tour
+    [7509] = 53379308 -- Un'Goro Crater Circuit
 }
 
 ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRACE,
+    group = ns.groups.DRAGONRIDING_RACE,
     showNote = true,
+    showSublabel = true,
     pois = KALIMDOR_POIS
 })
 
@@ -1224,10 +1155,7 @@ ns.hook.DragonridingRace({
 ------------------------------- EASTERN KINGDOMS ------------------------------
 -------------------------------------------------------------------------------
 
-local EasternKingdomsCup = Class('EasternKingdomsCup', Dragonrace, {
-    parent = 13,
-    group = ns.groups.EASTERN_KINGDOMS_CUP
-})
+local EasternKingdomsCup = Class('EasternKingdomsCup', DragonridingRace)
 
 local function EasternKingdoms_Rewards(c)
     return {
@@ -1249,8 +1177,7 @@ Gilneas.nodes[58611160] = EasternKingdomsCup({
     normal = {2536, 83, 78},
     advanced = {2552, 77, 74},
     reverse = {2568, 77, 74},
-    rewards = EasternKingdoms_Rewards(1),
-    areaPoiID = 7571
+    rewards = EasternKingdoms_Rewards(1)
 }) -- Gilneas Gambit
 
 local LochModan = ns.maps[48] or Map({id = 48, settings = true})
@@ -1259,8 +1186,7 @@ LochModan.nodes[46921391] = EasternKingdomsCup({
     normal = {2537, 68, 63},
     advanced = {2553, 64, 61},
     reverse = {2569, 66, 63},
-    rewards = EasternKingdoms_Rewards(2),
-    areaPoiID = 7572
+    rewards = EasternKingdoms_Rewards(2)
 }) -- Loch Modan Loop
 
 local SearingGorge = ns.maps[32] or Map({id = 32, settings = true})
@@ -1269,8 +1195,7 @@ SearingGorge.nodes[73244238] = EasternKingdomsCup({
     normal = {2538, 57, 52},
     advanced = {2554, 49, 46},
     reverse = {2570, 46, 43},
-    rewards = EasternKingdoms_Rewards(3),
-    areaPoiID = 7573
+    rewards = EasternKingdoms_Rewards(3)
 }) -- Searing Slalom
 
 local TwilightHighlands = ns.maps[241] or Map({id = 241, settings = true})
@@ -1279,8 +1204,7 @@ TwilightHighlands.nodes[34797786] = EasternKingdomsCup({
     normal = {2539, 78, 73},
     advanced = {2555, 71, 68},
     reverse = {2571, 69, 66},
-    rewards = EasternKingdoms_Rewards(4),
-    areaPoiID = 7574
+    rewards = EasternKingdoms_Rewards(4)
 }) -- Twilight Terror
 
 local DeadwindPass = ns.maps[42] or Map({id = 42, settings = true})
@@ -1289,8 +1213,7 @@ DeadwindPass.nodes[46227221] = EasternKingdomsCup({
     normal = {2540, 65, 60},
     advanced = {2556, 62, 59},
     reverse = {2572, 62, 59},
-    rewards = EasternKingdoms_Rewards(5),
-    areaPoiID = 7575
+    rewards = EasternKingdoms_Rewards(5)
 }) -- Deadwind Derby
 
 local ElwynnForest = ns.maps[37] or Map({id = 37, settings = true})
@@ -1299,8 +1222,7 @@ ElwynnForest.nodes[64704879] = EasternKingdomsCup({
     normal = {2541, 78, 73},
     advanced = {2557, 69, 66},
     reverse = {2573, 66, 63},
-    rewards = EasternKingdoms_Rewards(6),
-    areaPoiID = 7576
+    rewards = EasternKingdoms_Rewards(6)
 }) -- Elwynn Forest Flash
 
 local StranglethornVale = ns.maps[224] or Map({id = 224, settings = true})
@@ -1310,8 +1232,7 @@ local GurubashiGala = EasternKingdomsCup({
     normal = {2542, 61, 56},
     advanced = {2558, 52, 49},
     reverse = {2574, 53, 50},
-    rewards = EasternKingdoms_Rewards(7),
-    areaPoiID = 7577
+    rewards = EasternKingdoms_Rewards(7)
 }) -- Gurubashi Gala
 
 NorthernStranglethorn.nodes[70102655] = GurubashiGala
@@ -1323,8 +1244,7 @@ DunMorogh.nodes[74133398] = EasternKingdomsCup({
     normal = {2543, 75, 70},
     advanced = {2559, 67, 64},
     reverse = {2575, 63, 60},
-    rewards = EasternKingdoms_Rewards(8),
-    areaPoiID = 7578
+    rewards = EasternKingdoms_Rewards(8)
 }) -- Ironforge Interceptor
 
 local BlastedLands = ns.maps[17] or Map({id = 17, settings = true})
@@ -1333,8 +1253,7 @@ BlastedLands.nodes[62662616] = EasternKingdomsCup({
     normal = {2544, 74, 69},
     advanced = {2560, 65, 62},
     reverse = {2576, 67, 64},
-    rewards = EasternKingdoms_Rewards(9),
-    areaPoiID = 7579
+    rewards = EasternKingdoms_Rewards(9)
 }) -- Blasted Lands Bolt
 
 local EasternPlaguelands = ns.maps[23] or Map({id = 23, settings = true})
@@ -1343,8 +1262,7 @@ EasternPlaguelands.nodes[34753792] = EasternKingdomsCup({
     normal = {2545, 68, 63},
     advanced = {2561, 56, 53},
     reverse = {2577, 61, 58},
-    rewards = EasternKingdoms_Rewards(10),
-    areaPoiID = 7580
+    rewards = EasternKingdoms_Rewards(10)
 }) -- Plaguelands Plunge
 
 local CapeOfStranglethorn = ns.maps[210] or Map({id = 210, settings = true})
@@ -1353,8 +1271,7 @@ local BootyBayBlast = EasternKingdomsCup({
     normal = {2546, 68, 63},
     advanced = {2562, 60, 57},
     reverse = {2578, 59, 56},
-    rewards = EasternKingdoms_Rewards(11),
-    areaPoiID = 7581
+    rewards = EasternKingdoms_Rewards(11)
 }) -- Booty Bay Blast
 
 CapeOfStranglethorn.nodes[40417782] = BootyBayBlast
@@ -1366,8 +1283,7 @@ Badlands.nodes[67113676] = EasternKingdomsCup({
     normal = {2547, 69, 64},
     advanced = {2563, 61, 58},
     reverse = {2579, 61, 58},
-    rewards = EasternKingdoms_Rewards(12),
-    areaPoiID = 7582
+    rewards = EasternKingdoms_Rewards(12)
 }) -- Fuselight Night Flight
 
 TwilightHighlands.nodes[72892784] = EasternKingdomsCup({
@@ -1375,8 +1291,7 @@ TwilightHighlands.nodes[72892784] = EasternKingdomsCup({
     normal = {2548, 76, 71},
     advanced = {2564, 67, 64},
     reverse = {2580, 65, 62},
-    rewards = EasternKingdoms_Rewards(13),
-    areaPoiID = 7583
+    rewards = EasternKingdoms_Rewards(13)
 }) -- Krazzworks Klash
 
 local RedridgeMountains = ns.maps[49] or Map({id = 49, settings = true})
@@ -1385,30 +1300,30 @@ RedridgeMountains.nodes[40822500] = EasternKingdomsCup({
     normal = {2549, 62, 57},
     advanced = {2565, 55, 52},
     reverse = {2581, 55, 52},
-    rewards = EasternKingdoms_Rewards(14),
-    areaPoiID = 7584
+    rewards = EasternKingdoms_Rewards(14)
 }) -- Redridge Rally
 
 local EASTERN_KINGDOMS_POIS = {
-    [7571] = 58611160,
-    [7572] = 46921391,
-    [7573] = 73244238,
-    [7574] = 34797786,
-    [7575] = 46227221,
-    [7576] = 64704879,
-    [7577] = {62691781, 70102655},
-    [7578] = 74133398,
-    [7579] = 62662616,
-    [7580] = 34753792,
-    [7581] = {37608240, 40417782},
-    [7582] = 67113676,
-    [7583] = 72892784,
-    [7584] = 40822500
+    [7571] = 58611160, -- Gilneas Gambit
+    [7572] = 46921391, -- Loch Modan Loop
+    [7573] = 73244238, -- Searing Slalom
+    [7574] = 34797786, -- Twilight Terror
+    [7575] = 46227221, -- Deadwind Derby
+    [7576] = 64704879, -- Elwynn Forest Flash
+    [7577] = {62691781, 70102655}, -- Gurubashi Gala
+    [7578] = 74133398, -- Ironforge Interceptor
+    [7579] = 62662616, -- Blasted Lands Bolt
+    [7580] = 34753792, -- Plaguelands Plunge
+    [7581] = {37608240, 40417782}, -- Booty Bay Blast
+    [7582] = 67113676, -- Fuselight Night Flight
+    [7583] = 72892784, -- Krazzworks Klash
+    [7584] = 40822500 -- Redridge Rally
 }
 
 ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRACE,
+    group = ns.groups.DRAGONRIDING_RACE,
     showNote = true,
+    showSublabel = true,
     pois = EASTERN_KINGDOMS_POIS
 })
 
@@ -1416,8 +1331,7 @@ ns.hook.DragonridingRace({
 ----------------------------------- OUTLANDS ----------------------------------
 -------------------------------------------------------------------------------
 
-local OutlandCup = Class('OutlandCup', Dragonrace,
-    {parent = 101, group = ns.groups.OUTLAND_CUP})
+local OutlandCup = Class('OutlandCup', DragonridingRace)
 
 local function Outland_Rewards(c)
     return {
@@ -1439,8 +1353,7 @@ HellfirePeninsula.nodes[75514425] = OutlandCup({
     normal = {2600, 80, 75},
     advanced = {2615, 76, 73},
     reverse = {2630, 75, 72},
-    rewards = Outland_Rewards(1),
-    areaPoiID = 7589
+    rewards = Outland_Rewards(1)
 }) -- Hellfire Hustle
 
 local Zangarmarsh = ns.maps[102] or Map({id = 102, settings = true})
@@ -1449,8 +1362,7 @@ Zangarmarsh.nodes[36923719] = OutlandCup({
     normal = {2601, 80, 75},
     advanced = {2616, 73, 70},
     reverse = {2631, 73, 70},
-    rewards = Outland_Rewards(2),
-    areaPoiID = 7590
+    rewards = Outland_Rewards(2)
 }) -- Coilfang Caper
 
 local BladesEdge = ns.maps[105] or Map({id = 105, settings = true})
@@ -1459,8 +1371,7 @@ BladesEdge.nodes[61032759] = OutlandCup({
     normal = {2602, 80, 75},
     advanced = {2617, 75, 72},
     reverse = {2632, 78, 75},
-    rewards = Outland_Rewards(3),
-    areaPoiID = 7591
+    rewards = Outland_Rewards(3)
 }) -- Blade's Edge Brawl
 
 local ShadowmoonValley = ns.maps[104] or Map({id = 104, settings = true})
@@ -1469,8 +1380,7 @@ ShadowmoonValley.nodes[61734841] = OutlandCup({
     normal = {2608, 75, 70},
     advanced = {2623, 66, 63},
     reverse = {2638, 66, 63},
-    rewards = Outland_Rewards(9),
-    areaPoiID = 7597
+    rewards = Outland_Rewards(9)
 }) -- Shadowmoon Slam
 
 ShadowmoonValley.nodes[51014006] = OutlandCup({
@@ -1478,8 +1388,7 @@ ShadowmoonValley.nodes[51014006] = OutlandCup({
     normal = {2612, 82, 77},
     advanced = {2627, 76, 73},
     reverse = {2642, 79, 76},
-    rewards = Outland_Rewards(13),
-    areaPoiID = 7601
+    rewards = Outland_Rewards(13)
 }) -- Fel Pit Fracas
 
 local Nagrand = ns.maps[107] or Map({id = 107, settings = true})
@@ -1488,8 +1397,7 @@ Nagrand.nodes[58267599] = OutlandCup({
     normal = {2603, 69, 64},
     advanced = {2618, 60, 57},
     reverse = {2633, 61, 58},
-    rewards = Outland_Rewards(4),
-    areaPoiID = 7592
+    rewards = Outland_Rewards(4)
 }) -- Telaar Tear
 
 Nagrand.nodes[29472503] = OutlandCup({
@@ -1497,8 +1405,7 @@ Nagrand.nodes[29472503] = OutlandCup({
     normal = {2610, 85, 80},
     advanced = {2625, 75, 72},
     reverse = {2640, 76, 73},
-    rewards = Outland_Rewards(11),
-    areaPoiID = 7599
+    rewards = Outland_Rewards(11)
 }) -- Warmaul Wingding
 
 local TerokkarForest = ns.maps[108] or Map({id = 108, settings = true})
@@ -1508,8 +1415,7 @@ local ShattrathCitySashay = OutlandCup({
     normal = {2607, 80, 75},
     advanced = {2622, 68, 65},
     reverse = {2637, 69, 66},
-    rewards = Outland_Rewards(8),
-    areaPoiID = 7596
+    rewards = Outland_Rewards(8)
 }) -- Shattrath City Sashay
 
 TerokkarForest.nodes[34813025] = ShattrathCitySashay
@@ -1520,8 +1426,7 @@ local RazorthornRiseRush = OutlandCup({
     normal = {2604, 72, 67},
     advanced = {2619, 57, 54},
     reverse = {2634, 57, 54},
-    rewards = Outland_Rewards(5),
-    areaPoiID = 7593
+    rewards = Outland_Rewards(5)
 }) -- Razorthorn Rise Rush
 
 TerokkarForest.nodes[59810480] = RazorthornRiseRush
@@ -1532,8 +1437,7 @@ TerokkarForest.nodes[42256788] = OutlandCup({
     normal = {2605, 78, 73},
     advanced = {2620, 73, 70},
     reverse = {2635, 73, 70},
-    rewards = Outland_Rewards(6),
-    areaPoiID = 7594
+    rewards = Outland_Rewards(6)
 }) -- Auchindoun Coaster
 
 TerokkarForest.nodes[67256586] = OutlandCup({
@@ -1541,8 +1445,7 @@ TerokkarForest.nodes[67256586] = OutlandCup({
     normal = {2611, 75, 70},
     advanced = {2626, 66, 63},
     reverse = {2641, 66, 63},
-    rewards = Outland_Rewards(12),
-    areaPoiID = 7600
+    rewards = Outland_Rewards(12)
 }) -- Skettis Scramble
 
 local Netherstorm = ns.maps[109] or Map({id = 109, settings = true})
@@ -1551,8 +1454,7 @@ Netherstorm.nodes[51204193] = OutlandCup({
     normal = {2609, 120, 115},
     advanced = {2624, 112, 109},
     reverse = {2639, 113, 110},
-    rewards = Outland_Rewards(10),
-    areaPoiID = 7598
+    rewards = Outland_Rewards(10)
 }) -- Eco-Dome Excursion
 
 Netherstorm.nodes[68894774] = OutlandCup({
@@ -1560,28 +1462,28 @@ Netherstorm.nodes[68894774] = OutlandCup({
     normal = {2606, 105, 100},
     advanced = {2621, 90, 87},
     reverse = {2636, 91, 88},
-    rewards = Outland_Rewards(7),
-    areaPoiID = 7595
+    rewards = Outland_Rewards(7)
 }) -- Tempest Keep Sweep
 
 local OUTLAND_POIS = {
-    [7589] = 75514425,
-    [7590] = 36923719,
-    [7591] = 61032759,
-    [7592] = 58267599,
-    [7593] = {59810480, 32657707},
-    [7594] = 42256788,
-    [7595] = 68894774,
-    [7596] = {34813025, 71317061},
-    [7597] = 61734841,
-    [7598] = 51204193,
-    [7599] = 29472503,
-    [7600] = 67256586,
-    [7601] = 51014006
+    [7589] = 75514425, -- Hellfire Hustle
+    [7590] = 36923719, -- Coilfang Caper
+    [7591] = 61032759, -- Blade's Edge Brawl
+    [7592] = 58267599, -- Telaar Tear
+    [7593] = {59810480, 32657707}, -- Razorthorn Rise Rush
+    [7594] = 42256788, -- Auchindoun Coaster
+    [7595] = 68894774, -- Tempest Keep Sweep
+    [7596] = {34813025, 71317061}, -- Shattrath City Sashay
+    [7597] = 61734841, -- Shadowmoon Slam
+    [7598] = 51204193, -- Eco-Dome Excursion
+    [7599] = 29472503, -- Warmaul Wingding
+    [7600] = 67256586, -- Skettis Scramble
+    [7601] = 51014006 -- Fel Pit Fracas
 }
 
 ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRACE,
+    group = ns.groups.DRAGONRIDING_RACE,
     showNote = true,
+    showSublabel = true,
     pois = OUTLAND_POIS
 })

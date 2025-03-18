@@ -235,6 +235,10 @@ map.nodes[45605280] = ns.node.CrazyForCats({
     }
 }) -- Black Tabby Cat
 
+-------------------------------------------------------------------------------
+-------------------------- THE SCAVENGER ACHIEVEMENT --------------------------
+-------------------------------------------------------------------------------
+
 map.nodes[28803040] = ns.node.ScavengerPool(3874)
 map.nodes[29608360] = ns.node.ScavengerPool(3874)
 map.nodes[31902970] = ns.node.ScavengerPool(3874)

@@ -22,17 +22,8 @@ ns.expansion = 1
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
-ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION,
-    IsEnabled = function(self)
-        if select(2, C_AddOns.IsAddOnLoaded('HandyNotes_Dragonflight')) then
-            return false
-        end
-        return Group.IsEnabled(self)
-    end
-})
 ns.groups.SAFARI = Group('safari', 4048818, {defaults = ns.GROUP_HIDDEN})
+
 ns.groups.CRAZYFORCATS = Group('crazyforcats', 656579,
     {defaults = ns.GROUP_HIDDEN})
 
@@ -1116,93 +1107,6 @@ ns.node.CrazyForCats = Class('CrazyForCats', Collectible,
 ns.groups.SECRETS_OF_ZULGURUB = ns.Group('secrets_of_zulgurub', 132528, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
-})
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-local Dragonrace = Class('DragonRace', Collectible,
-    {icon = 1100022, group = ns.groups.DRAGONRACE})
-
-function Dragonrace.getters:sublabel()
-    if self.normal then
-        local ntime = C_CurrencyInfo.GetCurrencyInfo(self.normal[1]).quantity
-        if self.advanced and self.reverse then
-            local atime = C_CurrencyInfo.GetCurrencyInfo(self.advanced[1])
-                              .quantity
-            local rtime = C_CurrencyInfo.GetCurrencyInfo(self.reverse[1])
-                              .quantity
-            return L['dr_best']:format(ntime / 1000, atime / 1000, rtime / 1000)
-        end
-        return L['dr_best_dash']:format(ntime / 1000)
-    end
-end
-
-function Dragonrace.getters:note()
-    if self.normal then
-        local silver = ns.color.Silver
-        local gold = ns.color.Gold
-
-        -- LuaFormatter off
-        if self.advanced and self.reverse then
-            return L['dr_note']:format(
-                silver(self.normal[2]),
-                gold(self.normal[3]),
-                silver(self.advanced[2]),
-                gold(self.advanced[3]),
-                silver(self.reverse[2]),
-                gold(self.reverse[3])
-            ) .. L['dr_bronze']
-        end
-
-        return L['dr_note_dash']:format(
-            silver(self.normal[2]),
-            gold(self.normal[3])
-        ) .. L['dr_bronze']
-        -- LuaFormatter on
-    end
-end
-
-ns.node.Dragonrace = Dragonrace
-
-local DRAGONRACE_POI = {
-    -- Kalimdor
-    [7494] = 58181079, -- Fel Flyby
-    [7495] = 68836804, -- Winter Wander
-    [7498] = 67202617, -- Rocketway Ride
-    [7499] = 37043058, -- Ashenvale Ambit
-    [7500] = 56906286, -- Durotar Tour
-    [7501] = 66778681, -- Webwinder Weave
-    [7502] = 28106328, -- Desolace Drift
-    [7503] = 41431300, -- Barrens Divide Dive
-    [7504] = 42809308, -- Razorfen Roundabout
-    [7505] = 09731735, -- Thousand Needles Thread
-    [7506] = 64125436, -- Feralas Ruins Ramble
-    [7507] = 39548419, -- Ahn'Qiraj Circuit
-    [7509] = 53379308 -- Un'Goro Crater Circuit
-    -- Eastern Kingdoms
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true, --
-    -- [] = true --
-    -- [] = true --
-}
-
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRACE,
-    pois = DRAGONRACE_POI,
-    showNote = true,
-    showSublabel = true
 })
 
 -------------------------------------------------------------------------------

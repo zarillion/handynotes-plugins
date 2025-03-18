@@ -241,10 +241,6 @@ ns.groups.CRITTER_LOVE = Group('critter_love', 3459801, {
     achievement = 40475
 })
 
-ns.groups.DRAGONRACE = Group('dragonrace', 1100022, {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION
-})
 -------------------------------------------------------------------------------
 ---------------------------- KHAZ ALGAR LORE HUNTER ---------------------------
 -------------------------------------------------------------------------------

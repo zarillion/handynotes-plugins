@@ -7,7 +7,6 @@ local L = ns.locale
 local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
@@ -267,25 +266,3 @@ stormwind.nodes[44215344] = ns.node.CrazyForCats({
         ns.reward.Pet({item = 8488, id = 45})
     }
 }) -- Lil Timmy - White Kitten
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[10001000] = ns.node.Dragonrace({
-    label = '{quest:76397}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
-    rewards = {
-        Achievement({id = 18566, criteria = 6, oneline = true}), -- normal bronze
-        Achievement({id = 18567, criteria = 6, oneline = true}), -- normal silver
-        Achievement({id = 18568, criteria = 6, oneline = true}), -- normal gold
-        Achievement({id = 18569, criteria = 6, oneline = true}), -- advanced bronze
-        Achievement({id = 18570, criteria = 6, oneline = true}), -- advanced silver
-        Achievement({id = 18571, criteria = 6, oneline = true}), -- advanced gold
-        Achievement({id = 18572, criteria = 6, oneline = true}), -- reverse bronze
-        Achievement({id = 18573, criteria = 6, oneline = true}), -- reverse silver
-        Achievement({id = 18574, criteria = 6, oneline = true}) -- reverse gold
-    }
-}) -- Elwynn Forest Flash

@@ -132,8 +132,8 @@ L['dr_reverse_challenge'] = 'Desafío inverso'
 L['dr_storm_race'] = 'Carrera de la tormenta'
 L['dr_bronze'] = 'Acaba la carrera para conseguir el ' .. ns.color.Bronze('Bronce') .. '.'
 L['dr_vendor_note'] = 'Intercambia {currency:2588} por manuscritos de dracovigía y transfiguraciones.'
-L['options_icons_dragonrace'] = 'Carreras de dragones'
-L['options_icons_dragonrace_desc'] = 'Muestra dónde están todas las Carreras de dragones de la zona.'
+L['options_icons_dragonriding_race'] = 'Carreras de dragones'
+L['options_icons_dragonriding_race_desc'] = 'Muestra dónde están todas las Carreras de dragones de la zona.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

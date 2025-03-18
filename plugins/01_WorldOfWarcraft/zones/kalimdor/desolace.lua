@@ -6,8 +6,6 @@ local L = ns.locale
 
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
-
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -246,26 +244,8 @@ wickedgrotto.nodes[28005140] = Safari.TopazShaleHatchling({
 }) -- Topaz Shale Hatchling
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+-------------------------- THE SCAVENGER ACHIEVEMENT --------------------------
 -------------------------------------------------------------------------------
-
-map.nodes[28106328] = ns.node.Dragonrace({
-    label = '{quest:75409}',
-    normal = {2320, 80, 75},
-    advanced = {2350, 80, 75},
-    reverse = {2380, 75, 70},
-    rewards = {
-        Achievement({id = 17712, criteria = 9, oneline = true}), -- normal bronze
-        Achievement({id = 17713, criteria = 9, oneline = true}), -- normal silver
-        Achievement({id = 17714, criteria = 9, oneline = true}), -- normal gold
-        Achievement({id = 17715, criteria = 9, oneline = true}), -- advanced bronze
-        Achievement({id = 17716, criteria = 9, oneline = true}), -- advanced silver
-        Achievement({id = 17717, criteria = 9, oneline = true}), -- advanced gold
-        Achievement({id = 17718, criteria = 9, oneline = true}), -- reverse bronze
-        Achievement({id = 17719, criteria = 9, oneline = true}), -- reverse silver
-        Achievement({id = 17720, criteria = 9, oneline = true}) -- reverse gold
-    }
-}) -- Desolace Drift
 
 map.nodes[21807080] = ns.node.ScavengerPool(3875)
 map.nodes[25007410] = ns.node.ScavengerPool(3875)
