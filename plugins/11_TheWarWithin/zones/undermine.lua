@@ -498,8 +498,10 @@ map.nodes[25743813] = Vendor({
         Section('{currency:3218}'), -- Empty Kaja'Cola Can
         Toy({item = 237382, count = 999}), -- Undermine Supply Crate
         BreakneckCustomization({item = 232986, count = 2000, quest = 85781}), -- GE86 Advance
-        Spacer(), --
-        Section('{currency:3220}'), -- Vintage Kaja'Cola Can
+        Spacer(), Section('{item:233557}'), -- Sifted Pile of Scrap
+        Pet({item = 232838, id = 4639}), -- Viridian Mechasaur
+        Mount({item = 229949, id = 2288}), -- Personalized Goblin S.C.R.A.P.per
+        Spacer(), Section('{currency:3220}'), -- Vintage Kaja'Cola Can
         Pet({item = 232858, id = 4655, count = 1}), -- Cruncher
         Pet({item = 232859, id = 4653, count = 3}) -- Lab Rat
     }
