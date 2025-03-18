@@ -632,6 +632,13 @@ local function GetScrapRewards(criteriaID)
             criteria = {id = 1, qty = true, suffix = L['scrap_heap_suffix']}
         }), -- Absolutely Zero Littering
         Achievement({id = 41594, oneline = true}),
+        Transmog({item = 236161, type = L['gun']}), -- Broiler Supreme 300
+        Transmog({item = 236178, type = L['bow']}), -- Gammy's Hand-Me-Down Bow
+        Transmog({item = 236181, type = L['1h_sword']}), -- Center-Stage Remover
+        Transmog({item = 236191, type = L['1h_mace']}), -- Mechanic's Best Motivator
+        Spacer(), Section('{npc:234621}'), -- Gallagio Garbage <Luxury Trash>
+        Transmog({item = 235821, type = L['mail']}), -- Pressed-Gold Pantaloons
+        Transmog({item = 235822, type = L['cloak']}), -- Coin-Woven Shawl
         Mount({item = 229953, id = 2291}) -- Salvaged Goblin Gazillionaire's Flying Machine
     }
 end
