@@ -43,7 +43,7 @@ map.nodes[68508078] = Rare({
     quest = 84917,
     rewards = {
         Achievement({id = 41216, criteria = 71591}),
-        Reputation({id = 2653, gain = 20}), Spacer(),
+        Reputation({id = 2653, gain = 20}),
         Transmog({item = 235301, slot = L['cloak']}), -- Drape of the Dazzling Feather
         Transmog({item = 235305, slot = L['cloth']}), -- Golfer's Truestrike Gloves
         Transmog({item = 235321, slot = L['mail']}) -- Feather-Spike Girdle
@@ -57,7 +57,7 @@ map.nodes[25243675] = Rare({
     quest = 84918,
     rewards = {
         Achievement({id = 41216, criteria = 71592}),
-        Reputation({id = 2653, gain = 20}), Spacer(),
+        Reputation({id = 2653, gain = 20}),
         Transmog({item = 235308, slot = L['cloth']}), -- Filthtread Boots
         Transmog({item = 235326, slot = L['leather']}) -- Ratspit's Heirloom Wristwraps
     }
@@ -68,7 +68,7 @@ map.nodes[37684448] = Rare({
     quest = 84919,
     rewards = {
         Achievement({id = 41216, criteria = 71593}),
-        Reputation({id = 2653, gain = 20}), Spacer(),
+        Reputation({id = 2653, gain = 20}),
         Transmog({item = 235328, slot = L['leather']}), -- Boots of the Silver Tongue
         Transmog({item = 235355, slot = L['staff']}), -- Gossi-blin's Baton
         Spacer(), Section(L['shared_drops']),
@@ -85,7 +85,7 @@ map.nodes[36877815] = Rare({
     sublabel = L['and_slimesby'],
     rewards = {
         Achievement({id = 41216, criteria = {71595, 71594}}),
-        Reputation({id = 2653, gain = 20}), Spacer(),
+        Reputation({id = 2653, gain = 20}),
         Transmog({item = 235306, slot = L['cloth']}), -- Ooze-fused Mantle
         Transmog({item = 235329, slot = L['leather']}), -- Cowl of Acidic Mire
         Spacer(), Section(L['shared_drops']),
@@ -101,7 +101,7 @@ map.nodes[54015023] = Rare({
     quest = 84921,
     rewards = {
         Achievement({id = 41216, criteria = 71596}),
-        Reputation({id = 2653, gain = 20}), Spacer(),
+        Reputation({id = 2653, gain = 20}),
         Transmog({item = 235317, slot = L['plate']}), -- Chestplate of the Ultimatum
         Transmog({item = 235353, slot = L['1h_axe']}), -- Debtsmasher Axe
         Spacer(), Section(L['shared_drops']),
@@ -117,7 +117,7 @@ map.nodes[41922563] = Rare({
     quest = 84922,
     rewards = {
         Achievement({id = 41216, criteria = 71597}),
-        Reputation({id = 2653, gain = 20}), Spacer(),
+        Reputation({id = 2653, gain = 20}),
         Transmog({item = 235356, slot = L['offhand']}), -- Sapper's Spark Reactor
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
@@ -132,7 +132,7 @@ map.nodes[46915565] = Rare({
     quest = 84926,
     rewards = {
         Achievement({id = 41216, criteria = 71598}),
-        Reputation({id = 2653, gain = 20}), Spacer(),
+        Reputation({id = 2653, gain = 20}),
         Transmog({item = 235318, slot = L['plate']}), -- Ironfang Plate Legguards
         Transmog({item = 235324, slot = L['mail']}), -- Scavenger's Lost Bind
         Transmog({item = 235325, slot = L['leather']}) -- Rusthide Gloves
@@ -144,7 +144,7 @@ map.nodes[42227735] = Rare({
     quest = 84927,
     rewards = {
         Achievement({id = 41216, criteria = 71599}),
-        Reputation({id = 2653, gain = 20}), Spacer(),
+        Reputation({id = 2653, gain = 20}),
         Transmog({item = 235304, slot = L['cloth']}), -- Gutter Rat Mask
         Transmog({item = 235348, slot = L['dagger']}), -- Back Alley Shank
         Spacer(), Section(L['shared_drops']),
@@ -160,7 +160,7 @@ map.nodes[67333353] = Rare({
     quest = 84928,
     rewards = {
         Achievement({id = 41216, criteria = 71600}),
-        Reputation({id = 2653, gain = 20}), Spacer(),
+        Reputation({id = 2653, gain = 20}),
         Transmog({item = 235319, slot = L['mail']}), -- Tidebomb Chestpiece
         Transmog({item = 235323, slot = L['mail']}) -- Blastshell Bracers
     }
@@ -171,7 +171,7 @@ map.nodes[41354357] = Rare({
     quest = 85004,
     rewards = {
         Achievement({id = 41216, criteria = 71601}),
-        Reputation({id = 2653, gain = 20}), Spacer(),
+        Reputation({id = 2653, gain = 20}),
         Transmog({item = 235307, slot = L['cloth']}), -- Smoketrail Belt
         Transmog({item = 235314, slot = L['plate']}), -- Knightrider's Steelfists
         Spacer(), Section(L['shared_drops']),
@@ -187,7 +187,7 @@ map.nodes[26516830] = Rare({
     quest = 84877,
     rewards = {
         Achievement({id = 41216, criteria = 71602}),
-        Reputation({id = 2653, gain = 50}), Spacer(),
+        Reputation({id = 2653, gain = 50}),
         Transmog({item = 235309, slot = L['cloth']}), -- Gloomshroud Robe
         Transmog({item = 235350, slot = L['1h_mace']}), -- Void-forged Cudgel
         Transmog({item = 235352, slot = L['wand']}) -- Netherflare Wand
@@ -199,7 +199,7 @@ map.nodes[63354975] = Rare({
     quest = 84884,
     rewards = {
         Achievement({id = 41216, criteria = 71603}),
-        Reputation({id = 2653, gain = 50}), Spacer(),
+        Reputation({id = 2653, gain = 50}),
         Transmog({item = 235313, slot = L['plate']}), -- Shockproof Helm
         Transmog({item = 235354, slot = L['polearm']}), -- Scrapblaster Lance
         Spacer(), Section(L['shared_drops']),
@@ -216,7 +216,7 @@ map.nodes[52354107] = Rare({
     quest = 84895,
     rewards = {
         Achievement({id = 41216, criteria = 71604}),
-        Reputation({id = 2653, gain = 20}), Spacer(),
+        Reputation({id = 2653, gain = 20}),
         Transmog({item = 235349, slot = L['1h_mace']}), -- Shadowfume Club
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
@@ -231,7 +231,7 @@ map.nodes[58488643] = Rare({
     quest = 84907,
     rewards = {
         Achievement({id = 41216, criteria = 71605}),
-        Reputation({id = 2653, gain = 50}), Spacer(),
+        Reputation({id = 2653, gain = 50}),
         Transmog({item = 235311, slot = L['plate']}), -- Rocket-Powered Shoulderguards
         Transmog({item = 235357, slot = L['shield']}), -- Bulletscar Barricade
         Spacer(), Section(L['shared_drops']),
