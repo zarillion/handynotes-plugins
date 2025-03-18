@@ -2,6 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local Map = ns.Map
 local L = ns.locale
 
@@ -12,8 +13,9 @@ local Squirrel = ns.node.Squirrel
 local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
-local POI = ns.poi.POI
+local Circle = ns.poi.Circle
 local Path = ns.poi.Path
+local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
@@ -23,14 +25,25 @@ local map = Map({id = 116, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[34614995] = Rare({
+local SeethingHate = Class('seethinghate', Rare, {
     id = 32429,
+    fgroup = 'seethinghate',
     rewards = {
         Achievement({id = 2257, criteria = 14}), -- Frostbitten
         Transmog({item = 44674, slot = L['cloth']}) -- Ichor-Stained Wraps
     },
     pois = {POI({40485098, 39654877, 38334966, 28174545, 26524685})}
 }) -- Seething Hate
+
+map.nodes[39454965] = SeethingHate({
+    pois = {Path({Circle({origin = 39454965, radius = 1.5})})}
+}) -- confirmed
+map.nodes[34204945] = SeethingHate({
+    pois = {Path({Circle({origin = 34204945, radius = 1})})}
+})
+map.nodes[27104605] = SeethingHate({
+    pois = {Path({Circle({origin = 27104605, radius = 1})})}
+})
 
 map.nodes[20205620] = Rare({
     id = 32422,
@@ -40,8 +53,9 @@ map.nodes[20205620] = Rare({
     },
     pois = {
         POI({28004180}), Path({
-            10203720, 11004200, 12204360, 13204660, 13405160, 12605400,
-            12205540, 13605420, 14605280, 15605020
+            12395509, 12555378, 13475273, 13185138, 12775006, 13014871,
+            13234739, 13074603, 12544479, 12044348, 11234235, 10824101,
+            10533969, 10633904
         }), Path({
             20205620, 21605760, 23005760, 24005680, 24005440, 25205620,
             26205640, 25205720, 24806000, 24005940
@@ -70,6 +84,11 @@ map.nodes[65003000] = Rare({
             })
     }
 }) -- Syreian the Bonecarver
+
+map.nodes[31005580] = Rare({
+    id = 38453,
+    rewards = Transmog({item = 51958, type = L['leather']}) -- Pristine Glowbear Pelt
+}) -- Arcturis
 
 -------------------------------------------------------------------------------
 ------------------- TO ALL THE SQUIRRELS WHO SHARED MY LIFE -------------------

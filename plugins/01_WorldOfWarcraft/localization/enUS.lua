@@ -20,6 +20,7 @@ L['in_crypt'] = 'In the Crypt.'
 L['shovelphlange_location'] = 'In the entrance/cave area to Uldaman.'
 L['lower_floor'] = 'On the lower floor.'
 L['bl_rare_note'] = 'All rares in {location:Blasted Lands} can drop either {item:8244} or {item:10593} which you can exchange for items at {npc:7363}.'
+L['takk_note'] = 'Literally Leaps from Spot to Spot (Counterclockwise)'
 
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------

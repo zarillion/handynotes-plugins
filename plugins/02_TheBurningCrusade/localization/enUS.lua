@@ -15,3 +15,10 @@ L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievem
 
 L['options_icons_crazyforcats'] = '{achievement:8397}'
 L['options_icons_crazyforcats_desc'] = 'Display battle pet locations for the {achievement:8397} achievement.'
+
+-------------------------------------------------------------------------------
+--------------------------------- NETHERSTORM ---------------------------------
+-------------------------------------------------------------------------------
+
+L['lorhtander_note_manaforge'] = 'Can walk in and around the Manaforge.'
+L['lorhtander_note_cave'] = 'Can walk inside the cave under the Manaforge.'

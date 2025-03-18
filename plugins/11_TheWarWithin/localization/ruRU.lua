@@ -588,8 +588,20 @@ L['impotent_potable_location'] = 'Под доком рядом с {location:Ра
 L['abandoned_toolbox_location'] = 'Высоко на крыше {location:Хламовская}.\n\nСледуйте по лестнице наверх.'
 L['trick_deck_of_cards_location'] = 'На столе рядом с {npc:231045} внутри {location:гостиницы Неконтинентальной}.'
 
+L['breakneck_customization'] = 'Стремглав G-99'
+
 L['ditty_fuzeboy_note'] = 'Обмен {item:234741} на питомцев.'
-L['angelo_rustbin_note'] = 'Обменяйте {currency:3220} на питомцев и настройки к {object:Стремглав G-99}.'
+L['angelo_rustbin_note'] = 'Обменяйте {currency:3218} на игрушку и кастомизацию к {object:Стремглаву G-99}.\n\nОбменяйте {currency:3220} на питомцев.\n\n{note:Сбор {currency:3218} можно осуществить в любое время, но сбор {item:229810} требует 14 уровня известности с {faction:2653}.}'
+L['blair_bass_note'] = 'Обменяйте {item:227673} на игрушки.\n\n{item:227673} можно выловить из {object:Сточной воды Хитрой Шестеренки}.'
+L['greexit_coarsebub_note'] = 'Обмен золота на трансмогрификации картеля гоблинов.\n\n{note:Для покупки доступны только предметы, связанные с вашим текущим картелем.}'
+
+L['quartermaster'] = '%s Интендант'
+L['quartermaster_note'] = 'Обменяйте {currency:2815} на различные предметы коллекционирования.'
+
+L['rocco_razzboom_location'] = 'Нижний этаж в {location:Хламовской}.'
+L['lab_assistant_laszly_location'] = 'Глубоко внутри {location:лабораторий Хитрой Шестеренки}.'
+L['boatswain_hardee_location'] = 'Первый этаж {location:конторы начальника порта}.'
+L['shrez_the_scrapper_location'] = 'Первый этаж {location:площади Торговой компании}.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Показать все местоположения {object:Автозапирателей Недотепы} для {achievement:40948}.'
@@ -616,6 +628,13 @@ L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
 L['options_icons_youre_my_friend_now_desc'] = 'Показать {npc:239248} места для {achievement:41708}.'
 L['rat_in_building_rail'] = 'Внутри здания на рельсах.'
 L['rat_2nd_floor_trash_can'] = 'Внутри здания на втором этаже на мусорном баке.'
+
+L['sewer_cheese_label'] = 'Сточный сыр'
+L['undermine_undershirt_note'] = '1. Заберите {object:Сточный сыр} из канализации ниже {location:Котельной}, чтобы получить бафф {spell:1221472}.\n\n2. Взаимодействуйте с ближайшим {npc:238661}, чтобы обменять свой сыр на {item:237129}.\n\n3. Принесите {item:237129} {npc:237412} на втором этаже в здании {location:конторы начальника порта} в {location:Гавани Черноводья} и обменяйте его на {item:237130}.'
+
+L['undermine_clam_chowder_label'] = 'Кулинарная книга традиционных блюд Нижней Шахты'
+L['undermine_clam_chowder_location'] = 'На полке позади {npc:226728} в переулке в {location:Котельной}.'
+L['undermine_clam_chowder_note'] = '1. Чтобы получить этот рецепт, вы должны сначала выучить {item:16767}, который можно купить у двух продавцов {object:Classic} за %s.\n\n{npc:54232} в {location:Пиратской Бухте} на {location:Мысе Тернистой долины}\n\n{npc:48060} в {location:Фюзель} в {location:Бесплодных землях}\n\n2. Как только вы изучите старый рецепт, откройте {object:Кулинарная книга традиционных блюд Нижней Шахты} и прочитайте до последней страницы. Выучите рецепт, чтобы получить {item:235800}.'
 
 L['breakneck_race_note'] = nil
 L['upgrade_the_pozzik_standard'] = nil

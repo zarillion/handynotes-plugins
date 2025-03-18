@@ -327,7 +327,7 @@ local SWELLING_TEAR = Rare({
     quest = {61001, 61046, 61047},
     questCount = true,
     note = L['swelling_tear_note'],
-    focusable = true,
+    fgroup = 'swelling_tear',
     rewards = {
         Achievement({
             id = 14307,

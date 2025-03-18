@@ -33,7 +33,7 @@ map.nodes[72607100] = Rare({
     }
 }) -- Darkslayer Mordenthal
 
-map.nodes[53003760] = Rare({
+map.nodes[53083751] = Rare({
     id = 3792,
     rewards = {
         Transmog({item = 5753, type = L['leather']}), -- Ruffled Chaplet
@@ -62,7 +62,7 @@ map.nodes[12602980] = Rare({
     pois = {POI({15002420, 12001500})}
 }) -- Lady Vespia
 
-map.nodes[25206040] = Rare({
+map.nodes[25146023] = Rare({
     id = 3773,
     rewards = {
         Transmog({item = 6569, type = L['cloth']}) -- Shimmering Robe
@@ -77,14 +77,15 @@ map.nodes[66605680] = Rare({
     pois = {POI({78604520, 81004920})}
 }) -- Prince Raze
 
-map.nodes[32002340] = Rare({
+map.nodes[31452235] = Rare({
     id = 3735,
+    faction = 'Alliance',
     rewards = {
         Transmog({item = 9811, type = L['mail']}) -- Fortified Bracers
     }
 }) -- Apothecary Falthis
 
-map.nodes[36603620] = Rare({
+map.nodes[3720390] = Rare({
     id = 10639,
     rewards = {
         Transmog({item = 9817, type = L['mail']}) -- Fortified Spaulders

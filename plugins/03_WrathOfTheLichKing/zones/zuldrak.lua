@@ -53,19 +53,21 @@ map.nodes[22007060] = Rare({
     }
 }) -- Griegen
 
-map.nodes[72002840] = Rare({
+local TerrorSpinner = Rare({
     id = 32475,
+    fgroup = 'terrorspinner',
     rewards = {
         Achievement({id = 2257, criteria = 8117}), -- Frostbitten
         Transmog({item = 44685, slot = L['mail']}) -- Calcified Web Spaulders
-    },
-    pois = {
-        POI({
-            71602240, 71802460, 70802980, 81603460, 80803640, 77804280,
-            76804360, 75206660, 74006600, 61603640, 60403560, 53203140, 52003280
-        })
     }
 }) -- Terror Spinner
+
+map.nodes[77204300] = TerrorSpinner -- position confirmed
+map.nodes[81253540] = TerrorSpinner
+map.nodes[71302905] = TerrorSpinner
+map.nodes[71802355] = TerrorSpinner
+map.nodes[60903620] = TerrorSpinner
+map.nodes[52453210] = TerrorSpinner
 
 -------------------------------------------------------------------------------
 ------------------- TO ALL THE SQUIRRELS WHO SHARED MY LIFE -------------------

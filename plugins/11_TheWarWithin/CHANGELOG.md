@@ -1,3 +1,19 @@
+# v117
+
+* Undermine
+  * Add Delve pets to tooltips
+  * Add Undermine Undershirt secret reward
+  * Add Authentic Undermine Clam Chowder secret recipe
+  * Add new vendor - Bilgewater quatermaster
+  * Add new vendor - Steamwheedle quatermaster
+  * Add new vendor - Blackwater quatermaster
+  * Add new vendor - Venture Company quatermaster
+  * Add new vendor - Darkfuse Solutions quatermaster
+  * Add new vendor - "Gold Fish" (bobber toys)
+  * Add new vendor - Goblin cartel transmog
+  * Update vendor - Angelo Rustbin (Kaja'Cola vendor) note and rewards
+* Localization updates: deDE, esES, frFR, zhCN
+
 # v116
 
 * Localization updates: ruRU

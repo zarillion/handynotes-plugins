@@ -587,8 +587,20 @@ L['impotent_potable_location'] = 'Debajo del muelle al lado de {location:Fiesta 
 L['abandoned_toolbox_location'] = 'En lo alto del techo de la {location:Tienda de Chatarra}.\n\nSigue las escaleras hasta arriba.'
 L['trick_deck_of_cards_location'] = 'En el escritorio al lado de {npc:231045} dentro del {location:Hotel Incontinental}.'
 
+L['breakneck_customization'] = 'Rompecuellos G-99'
+
 L['ditty_fuzeboy_note'] = 'Intercambia {item:234741} por mascotas.'
-L['angelo_rustbin_note'] = 'Intercambia {currency:3220} por mascotas y las transfiguraciones {object:Rompecuellos G-99}.'
+L['angelo_rustbin_note'] = 'Intercambia {currency:3218} por un juguete y la transfiguración {object:Rompecuellos G-99}. Intercambia {item:233557} por una oportunidad de conseguir una mascota y una montura.\n\nIntercambia {currency:3220} por mascotas.\n\n{note:Se puede conseguir {currency:3218} en cualquier momento, pero conseguir la {item:229810} requiere Renombre 14 con {faction:2653}.}'
+L['blair_bass_note'] = 'Intercambia {item:227673} por juguetes.\n\n{item:227673} se puede pescar en los bancos de peces {object:Escorrentía Bonvapor}.'
+L['greexit_coarsebub_note'] = 'Intercambia oro por transfiguraciones del cártel de goblins.\n\n{note:Los objetos disponibles para comprar son sólo los de tu cártel actual.}'
+
+L['quartermaster'] = 'Intendente %s'
+L['quartermaster_note'] = 'Intercambia {currency:2815} por una variedad de coleccionables.'
+
+L['rocco_razzboom_location'] = 'En el piso inferior de la {location:Tienda de Chatarra}.'
+L['lab_assistant_laszly_location'] = 'En el fondo de los {location:Laboratorios Bonvapor}.'
+L['boatswain_hardee_location'] = 'En el primer piso de la {location:Autoridad Portuaria}.'
+L['shrez_the_scrapper_location'] = 'En el primer piso de la {location:Plaza de la Aventura}.'
 
 L['options_icons_nine_tenths'] = '{achievement:40948}'
 L['options_icons_nine_tenths_desc'] = 'Muestra dónde están los {object:Cofre bloqueado de Muff} para el logro {achievement:40948}.'
@@ -615,6 +627,13 @@ L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
 L['options_icons_youre_my_friend_now_desc'] = 'Muestra dónde están las {npc:239248} para el logro {achievement:41708}.'
 L['rat_in_building_rail'] = 'En el riel dentro del edificio.'
 L['rat_2nd_floor_trash_can'] = 'En la papelera en el segundo piso dentro del edificio.'
+
+L['sewer_cheese_label'] = 'Queso de cloaca'
+L['undermine_undershirt_note'] = '1. Recoge el {object:Queso de cloaca} de dentro de la alcantarilla que hay debajo de la {location:Estación de Vapor} para conseguir el buff {spell:1221472}.\n\n2. Interactúa con la {npc:238661} cercana para cambiar tu queso por un {item:237129}.\n\n3. Lleva el {item:237129} a {npc:237412}, en la parte superior del edificio de la {location:Autoridad Portuaria} en el {location:Puerto de Aguasnegras}. Cámbiaselo por una {item:237130}.'
+
+L['undermine_clam_chowder_label'] = 'La guía de la auténtica cocina de Minahonda'
+L['undermine_clam_chowder_location'] = 'Encima de un estante detrás de {npc:226728} en el callejón de la {location:Estación de Vapor}.'
+L['undermine_clam_chowder_note'] = '1. Para conseguir esta receta, primero debes saber {item:16767} que se puede comprar en dos vendedores {object:Clásicos} por %s.\n\n{npc:54232} de {location:Bahía del Botín} en {location:El Cabo de Tuercespina}\n\n{npc:48060} de {location:El Diodo} en las {location:Tierras Inhóspitas}\n\n2. Una vez que sepas la vieja receta, abre {object:La guía de la auténtica cocina de Minahonda} y lee la última página. Anota la receta para conseguir la {item:235800}.'
 
 L['breakneck_race_note'] = 'Se recomienda hacer las siguientes mejoras al {object:Rompecuellos G-99} para conseguir el |cFFFFD700Oro|r algo más fácil:\n\n%s\n\n%s\n\n%s'
 L['upgrade_the_pozzik_standard'] = '{item:232982} (motor): Consigue el |cFFCD7F32Bronce|r en todas las carreras normales e inversas del {object:Rompecuellos}.'

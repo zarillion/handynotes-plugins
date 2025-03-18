@@ -2,6 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 
 local Rare = ns.node.Rare
@@ -10,6 +11,7 @@ local Safari = ns.node.Safari
 local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
+local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -22,14 +24,17 @@ local map = ns.Map({id = 77, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[43607560] = Rare({
+local Mongress = Class('Mongress', Rare, {
     id = 14344,
+    fgroup = 'mongress',
     rewards = {
         Transmog({item = 9948, type = L['leather']}), -- Chieftain's Boots
         Transmog({item = 9922, type = L['leather']}) -- Tracker's Leggings
-    },
-    pois = {POI({46808200})}
+    }
 }) -- Mongress
+
+map.nodes[43607560] = Mongress()
+map.nodes[46808200] = Mongress()
 
 map.nodes[34805960] = Rare({
     id = 50362,
@@ -63,6 +68,7 @@ map.nodes[49008840] = Rare({
 
 map.nodes[42204820] = Rare({
     id = 51025,
+    location = L['in_water'],
     rewards = {
         Transmog({item = 10194, type = L['cloak']}) -- Crusader's Cloak
     }
@@ -72,6 +78,16 @@ map.nodes[41404200] = Rare({
     id = 7137,
     rewards = {
         Transmog({item = 10201, type = L['plate']}) -- Overlord's Greaves
+    },
+    pois = {
+        Path({
+            42323607, 41893659, 41653724, 41483793, 41803856, 41933924,
+            41823989, 41634060, 41704125, 41564192, 41254250, 40824303,
+            40744370, 41254415, 41914408, 42564395, 42484327, 42254264,
+            42414198, 43074177, 43704155, 43764088, 43534022, 43643957,
+            43813888, 44483901, 45113878, 45803888, 46153950, 46064018,
+            45864083, 45794151, 45764219, 45354273, 44784310, 44124321
+        })
     }
 }) -- Immolatus
 

@@ -2,6 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local Map = ns.Map
 local L = ns.locale
 
@@ -36,19 +37,18 @@ map.nodes[24005400] = Rare({
     }
 }) -- Crazed Indu'le Survivor
 
-map.nodes[72207060] = Rare({
+local Daion = Class('daion', Rare, { -- ,
     id = 32417,
+    fgroup = 'daion',
     rewards = {
         Achievement({id = 2257, criteria = 12}), -- Scarlet Highlord Daion
         Transmog({item = 44671, slot = L['mail']}) -- Highlord's Padded Legguards
-    },
-    pois = {
-        POI({
-            72007400, 69007580, 86804160, 86003640, 88003660, 75602720,
-            72202560, 71202260
-        })
     }
 }) -- Scarlet Highlord Daion
+
+map.nodes[72007400] = Daion({pois = {POI({72207060, 69007580})}})
+map.nodes[86003640] = Daion({pois = {POI({86804160, 88003660})}})
+map.nodes[72202560] = Daion({pois = {POI({75602720, 71202260})}})
 
 map.nodes[53805920] = Rare({
     id = 32400,
