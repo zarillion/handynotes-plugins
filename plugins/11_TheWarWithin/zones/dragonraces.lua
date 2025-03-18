@@ -200,6 +200,21 @@ RingingDeeps.nodes[36701131] = Dragonrace({
     rewards = RingingDeeps_Rewards(1)
 }) -- Earthenworks Weave
 
+local ISLE_OF_DORN_POIS = {
+    [7793] = 43471165, -- Dornogal Drift
+    [7794] = 38574346, -- Storm's Watch Survey
+    [7795] = 53486421, -- Basin Bypass
+    [7796] = 62164601, -- The Wold Ways
+    [7797] = 58332485, -- Thunderhead Trail
+    [7798] = 32937483, -- Orecreg's Doglegs
+    [7799] = 36701131 -- Earthenworks Weave
+}
+
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    pois = ISLE_OF_DORN_POIS
+})
+
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------
@@ -243,6 +258,19 @@ RingingDeeps.nodes[59397513] = Dragonrace({
     reverse = {2958, 0, 0},
     rewards = RingingDeeps_Rewards(6)
 }) -- Opportunity Point Amble
+
+local RINGING_DEEPS_POIS = {
+    [7800] = 38072744, -- Ringing Deeps Ramble
+    [7801] = 63753479, -- Chittering Concourse
+    [7802] = 48314686, -- Cataract River Cruise
+    [7803] = 62486868, -- Taelloch Twist
+    [7804] = 59397513 -- Opportunity Point Amble
+}
+
+ns.hook.DragonridingRace({
+    group = ns.groups.DRAGONRACE,
+    pois = RINGING_DEEPS_POIS
+})
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
@@ -296,6 +324,17 @@ Hallowfall.nodes[54131740] = Dragonrace({
     rewards = Hallowfall_Rewards(6)
 }) -- Velhan's Venture
 
+local HALLOWFALL_POIS = {
+    [7805] = 72783842, -- Dunelle's Detour
+    [7806] = 59196894, -- Tenir's Traversal
+    [7807] = 41436725, -- Light's Redoubt Descent
+    [7808] = 60412602, -- Stillstone Slalom
+    [7809] = 38976136, -- Mereldar Meander
+    [7810] = 54131740 -- Velhan's Venture
+}
+
+ns.hook.DragonridingRace({group = ns.groups.DRAGONRACE, pois = HALLOWFALL_POIS})
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
@@ -348,6 +387,17 @@ AzjKahet.nodes[40183220] = Dragonrace({
     rewards = AzjKahet_Rewards(6)
 }) -- Siegehold Scuttle
 
+local AZJ_KAHET_POIS = {
+    [7811] = 40756780, -- City of Threads Twist
+    [7812] = 77927964, -- Maddening Deep Dip
+    [7813] = 52943618, -- The Weaver's Wing
+    [7814] = 71343636, -- Rak-Ahat Rush
+    [7815] = 23814835, -- Pit Plunge
+    [7816] = 40183220 -- Siegehold Scuttle
+}
+
+ns.hook.DragonridingRace({group = ns.groups.DRAGONRACE, pois = AZJ_KAHET_POIS})
+
 -------------------------------------------------------------------------------
 ---------------------------------- UNDERMINE ----------------------------------
 -------------------------------------------------------------------------------
@@ -389,8 +439,10 @@ ns.hook.DragonridingRace({
 -------------------------------- BREAKNECKING ---------------------------------
 
 local BreakneckRace = Class('BreakneckRace', Dragonrace, {
-    note = format(L['breakneck_race_note'], L['upgrade_the_pozzik_standard'],
-        L['upgrade_22h_slicks'], L['upgrade_turbo_handcrank'])
+    note = format(L['breakneck_race_note'], --
+    L['upgrade_the_pozzik_standard'], --
+    L['upgrade_22h_slicks'], --
+    L['upgrade_turbo_handcrank'])
 })
 
 Undermine.nodes[26025299] = BreakneckRace({
