@@ -590,7 +590,7 @@ L['trick_deck_of_cards_location'] = 'On the desk next to {npc:231045} inside {lo
 L['breakneck_customization'] = 'G-99 Breakneck'
 
 L['ditty_fuzeboy_note'] = 'Exchange {item:234741} for pets.'
-L['skedgit_cinderbangs_note'] = 'Exchange {item:234741} for mounts. \n\n{note:Can purchase from the auction house.}'
+L['skedgit_cinderbangs_note'] = 'Exchange {item:234741} for mounts.\n\n{note:Can purchase from the auction house.}'
 L['angelo_rustbin_note'] = 'Exchange {currency:3218} for a toy and a {object:G-99 Breakneck} customization. Exchange {item:233557} for a chance to receive pet and mount.\n\nExchange {currency:3220} for pets.\n\n{note:Collecting {currency:3218} can done at any time but collecting {item:229810} requires {faction:2653} Renown 14.}'
 L['blair_bass_note'] = 'Exchange {item:227673} for toys.\n\n{item:227673} can be fished up from {object:Steamwheedle Runoff} pools.'
 L['greexit_coarsebub_note'] = 'Exchange gold for goblin cartel transmogs.\n\n{note:Only items associated with your current cartel are available to purchase.}'
