@@ -590,6 +590,7 @@ L['trick_deck_of_cards_location'] = '在 {location:洋际酒店} 内 {npc:231045
 L['breakneck_customization'] = 'G-99疾飙飞车'
 
 L['ditty_fuzeboy_note'] = '用 {item:234741} 兑换宠物。'
+L['skedgit_cinderbangs_note'] = '用 {item:234741} 兑换坐骑。\n\n{note:可以从拍卖行购买。}'
 L['angelo_rustbin_note'] = '用 {currency:3218} 兑换玩具和一个 {object:G-99疾飙飞车} 自定义外观。兑换的 {item:233557} 有机会获得宠物和坐骑。\n\n用 {currency:3220} 兑换宠物。\n\n{note:收集 {currency:3218} 可以随时进行，但收集 {item:229810} 需要 {faction:2653} 名望达到14级。}'
 L['blair_bass_note'] = '用 {item:227673} 兑换玩具。\n\n{item:227673} 可以从 {object:热砂径流} 渔点中钓到。'
 L['greexit_coarsebub_note'] = '用金币兑换地精财阀幻化装备。\n\n{note:只能购买当前所属财阀相关的物品。}'

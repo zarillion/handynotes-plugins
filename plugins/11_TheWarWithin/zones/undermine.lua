@@ -489,7 +489,17 @@ map.nodes[35384142] = Vendor({
         Pet({item = 232841, id = 4644, count = 8}), -- Professor Punch
         Pet({item = 232842, id = 4638, count = 10}) -- Crimson Mechasaur
     }
-}) -- Ditty Fuzeboy
+}) -- Ditty Fuzeboy <Entertainment Supplier>
+
+map.nodes[43208280] = Vendor({
+    id = 228286,
+    note = L['skedgit_cinderbangs_note'],
+    rewards = {
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229954, id = 2292}) -- Margin Manipulator
+    }
+}) -- Skedgit Cinderbangs <Entrepreneur Inc.>
 
 map.nodes[25743813] = Vendor({
     id = 234776,
@@ -505,7 +515,7 @@ map.nodes[25743813] = Vendor({
         Pet({item = 232858, id = 4655, count = 1}), -- Cruncher
         Pet({item = 232859, id = 4653, count = 3}) -- Lab Rat
     }
-}) -- Angelo Rustbin
+}) -- Angelo Rustbin <S.C.R.A.P. Exchange>
 
 map.nodes[34097126] = Vendor({
     id = 226994,
@@ -515,7 +525,7 @@ map.nodes[34097126] = Vendor({
         Toy({item = 237347, count = 5}), -- Organically-Sourced Wellington Bobber
         Toy({item = 237345, count = 5}) -- Limited Edition Rocket Bobber
     }
-}) -- Blair Bass
+}) -- Blair Bass <"Gold" Fish Exchange>
 
 map.nodes[24606320] = Vendor({
     id = 236849,
@@ -541,7 +551,7 @@ map.nodes[24606320] = Vendor({
         Transmog({item = 231750, count = 95}), -- Venture Co. Bruisers Spaulders
         Transmog({item = 231738, count = 475}) -- Venture Co. Bruisers Tabard
     }
-}) -- Greexit Coarsebub
+}) -- Greexit Coarsebub <Discount Fashion>
 
 ------------------------ GOBLIN CARTEL QUARTERMASTERS -------------------------
 

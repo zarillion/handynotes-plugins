@@ -593,8 +593,8 @@ L['trick_deck_of_cards_location'] = 'Auf dem Tisch neben {npc:231045} im {locati
 L['breakneck_customization'] = '99-G-Genickbrecher'
 
 L['ditty_fuzeboy_note'] = 'Tausche {item:234741} gegen Haustiere ein.'
+L['skedgit_cinderbangs_note'] = nil
 L['angelo_rustbin_note'] = 'Tausche {currency:3218} gegen ein Spielzeug und eine {object:99-G-Genickbrecher} Anpassung ein.\n\nTausche {currency:3220} gegen Haustiere ein.\n\n{note:{currency:3218} kann jeder Zeit in {object:S.C.H.R.O.T.T-Haufen} gesammelt werden. {item:229810} benötigt Ruhmstufe 14 bei {faction:2653}.}'
-
 L['blair_bass_note'] = 'Tausche {item:227673} gegen Spielzeuge ein.\n\n{item:227673}e können in {object:Dampfdruckabfluss} Schwärmen geangelt werden.'
 L['greexit_coarsebub_note'] = 'Tausche Gold gegen Kartell-Ausrüstungsvorlagen.\n\n{note:Es können nur Gegenstände für das Kartell gekauft werden, bei dem du unter Vertrag stehst.}'
 
