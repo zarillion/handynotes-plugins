@@ -37,7 +37,7 @@ Um in {npc:71864s} Höhle zugelangen, finde eines der verlorenen Artefakte, die 
 Wenn du kein Artefakt finden kannst, verwende {item:70161} (oder andere Spielzeuge zum Hinsetzen) vor dem Felsgerümpel. Setz dich hin. Stehe wieder auf und geh in die Höhle.
 ]]
 L['zhugon_note'] = 'Wenn das Brauevent aktiv ist, töte {npc:71908} und zerbrich Fässer, bis der seltene Gegner erscheint.'
-
+L['garnia_note'] = 'Benutze einen {npc:73531}, um auf den Gipfel des Berges zu fliegen und {npc:73282} zu töten.'
 
 L['blazing_chest'] = 'Lodernde Truhe'
 L['moss_covered_chest'] = 'Moosüberwucherte Truhe'

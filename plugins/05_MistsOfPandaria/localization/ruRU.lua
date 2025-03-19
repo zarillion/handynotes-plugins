@@ -27,6 +27,7 @@ L['rattleskew_note'] = nil
 L['spelurk_cave'] = nil
 L['spelurk_note'] = nil
 L['zhugon_note'] = nil
+L['garnia_note'] = nil
 
 L['blazing_chest'] = nil
 L['moss_covered_chest'] = nil
