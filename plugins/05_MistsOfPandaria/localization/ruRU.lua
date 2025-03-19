@@ -27,14 +27,13 @@ L['rattleskew_note'] = nil
 L['spelurk_cave'] = nil
 L['spelurk_note'] = nil
 L['zhugon_note'] = nil
-L['garnia_note'] = nil
 
 L['blazing_chest'] = nil
 L['moss_covered_chest'] = nil
 L['skull_covered_chest'] = nil
 L['smoldering_chest'] = nil
 L['sturdy_chest'] = nil
-L['sturdy_chest_note'] = nil
+L['albatros_note'] = nil
 L['timeless_chest'] = nil
 L['timeless_chest_note'] = nil
 

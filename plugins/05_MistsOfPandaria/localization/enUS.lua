@@ -36,14 +36,14 @@ To break into {npc:71864}'s cave, find one of the lost artifacts scattered aroun
 If you cannot find an artifact, you can use {item:70161} (or other sitting toys) right in front of the rocks. Sit, then stand and walk straight in.
 ]]
 L['zhugon_note'] = 'When the brew event is active, kill {npc:71908s} and break barrels until the rare appears.'
-L['garnia_note'] = 'Use an {npc:73531} to fly to the top of the mountain to kill {npc:73282}.\n\n{note:The {npc:73531} can be aggroed by using the {item:119083} or similar Toys without killing him.}'
+L['garnia_note'] = 'Use an {npc:73531} to fly to the top of the mountain to kill {npc:73282}.'
 
 L['blazing_chest'] = 'Blazing Chest'
 L['moss_covered_chest'] = 'Moss-Covered Chest'
 L['skull_covered_chest'] = 'Skull-Covered Chest'
 L['smoldering_chest'] = 'Smoldering Chest'
 L['sturdy_chest'] = 'Sturdy Chest'
-L['sturdy_chest_note'] = 'Hit a {npc:73531} to get carried here.'
+L['albatros_note'] = 'Hit a {npc:73531} to get carried here.\n\n{note:The {npc:73531} can be aggroed by using the {item:119083} or similar Toys without killing him.}'
 L['timeless_chest'] = 'Timeless Chest'
 L['timeless_chest_note'] = 'You can buy the Key from {npc:72007} for 500x {currency:777}.'
 

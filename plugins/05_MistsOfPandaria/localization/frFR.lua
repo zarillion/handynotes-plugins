@@ -37,14 +37,14 @@ Pour pénétrer dans la grotte de {npc:71864}, trouvez l'un des artefacts perdus
 Si vous ne trouvez pas d'artefact, vous pouvez utiliser {item:70161} (ou d'autres jouets permettant de s'asseoir) juste devant les rochers. Asseyez-vous, puis levez-vous et avancez tout droit.
 ]]
 L['zhugon_note'] = 'Lorsque l\'événement de brassage est actif, tuez des {npc:71908s} et brisez des barils jusqu\'à ce que le rare apparaisse.'
-L['garnia_note'] = 'Servez-vous d\'un {npc:73531} pour voler jusqu\'au sommet de la montagne où vous trouverez {npc:73282}.\n\n{note:L\'{npc:73531} peut être engagé en combat en utilisant la {item:119083} ou un jouet similaire évitant de le tuer.}'
+L['garnia_note'] = 'Servez-vous d\'un {npc:73531} pour voler jusqu\'au sommet de la montagne où vous trouverez {npc:73282}.'
 
 L['blazing_chest'] = 'Coffre flamboyant'
 L['moss_covered_chest'] = 'Coffre couvert de mousse'
 L['skull_covered_chest'] = 'Coffre recouvert de crânes'
 L['smoldering_chest'] = 'Coffre fumant'
 L['sturdy_chest'] = 'Coffre solide'
-L['sturdy_chest_note'] = 'Frappez un {npc:73531} pour être transporté ici.'
+L['albatros_note'] = 'Frappez un {npc:73531} pour être transporté ici.\n\n{note:L\'{npc:73531} peut être engagé en combat en utilisant la {item:119083} ou un jouet similaire évitant de le tuer.}'
 L['timeless_chest'] = 'Coffre intemporel'
 L['timeless_chest_note'] = 'Vous pouvez acheter la clé au {npc:72007} contre 500x {currency:777}.'
 
