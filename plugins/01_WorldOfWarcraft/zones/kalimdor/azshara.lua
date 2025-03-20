@@ -8,7 +8,6 @@ local Map = ns.Map
 local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
@@ -185,25 +184,3 @@ map.nodes[66001440] = Safari.TwilightSpider({
         })
     }
 }) -- Twilight Spider
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[67202617] = ns.node.Dragonrace({
-    label = '{quest:75347}',
-    normal = {2316, 105, 100},
-    advanced = {2346, 100, 94},
-    reverse = {2376, 100, 94},
-    rewards = {
-        Achievement({id = 17712, criteria = 5, oneline = true}), -- normal bronze
-        Achievement({id = 17713, criteria = 5, oneline = true}), -- normal silver
-        Achievement({id = 17714, criteria = 5, oneline = true}), -- normal gold
-        Achievement({id = 17715, criteria = 5, oneline = true}), -- advanced bronze
-        Achievement({id = 17716, criteria = 5, oneline = true}), -- advanced silver
-        Achievement({id = 17717, criteria = 5, oneline = true}), -- advanced gold
-        Achievement({id = 17718, criteria = 5, oneline = true}), -- reverse bronze
-        Achievement({id = 17719, criteria = 5, oneline = true}), -- reverse silver
-        Achievement({id = 17720, criteria = 5, oneline = true}) -- reverse gold
-    }
-}) -- Rocketway Ride

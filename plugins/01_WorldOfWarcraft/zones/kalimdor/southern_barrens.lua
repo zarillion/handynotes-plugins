@@ -7,7 +7,6 @@ local L = ns.locale
 local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
@@ -143,43 +142,3 @@ map.nodes[45403540] = Safari.SmallFrog({
         })
     }
 }) -- Small Frog
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[41431300] = ns.node.Dragonrace({
-    label = '{quest:75412}',
-    normal = {2321, 53, 48},
-    advanced = {2351, 48, 43},
-    reverse = {2381, 49, 44},
-    rewards = {
-        Achievement({id = 17712, criteria = 10, oneline = true}), -- normal bronze
-        Achievement({id = 17713, criteria = 10, oneline = true}), -- normal silver
-        Achievement({id = 17714, criteria = 10, oneline = true}), -- normal gold
-        Achievement({id = 17715, criteria = 10, oneline = true}), -- advanced bronze
-        Achievement({id = 17716, criteria = 10, oneline = true}), -- advanced silver
-        Achievement({id = 17717, criteria = 10, oneline = true}), -- advanced gold
-        Achievement({id = 17718, criteria = 10, oneline = true}), -- reverse bronze
-        Achievement({id = 17719, criteria = 10, oneline = true}), -- reverse silver
-        Achievement({id = 17720, criteria = 10, oneline = true}) -- reverse gold
-    }
-}) -- Barrens Divide Dive
-
-map.nodes[42809308] = ns.node.Dragonrace({
-    label = '{quest:75437}',
-    normal = {2322, 58, 53},
-    advanced = {2352, 52, 47},
-    reverse = {2382, 52, 47},
-    rewards = {
-        Achievement({id = 17712, criteria = 11, oneline = true}), -- normal bronze
-        Achievement({id = 17713, criteria = 11, oneline = true}), -- normal silver
-        Achievement({id = 17714, criteria = 11, oneline = true}), -- normal gold
-        Achievement({id = 17715, criteria = 11, oneline = true}), -- advanced bronze
-        Achievement({id = 17716, criteria = 11, oneline = true}), -- advanced silver
-        Achievement({id = 17717, criteria = 11, oneline = true}), -- advanced gold
-        Achievement({id = 17718, criteria = 11, oneline = true}), -- reverse bronze
-        Achievement({id = 17719, criteria = 11, oneline = true}), -- reverse silver
-        Achievement({id = 17720, criteria = 11, oneline = true}) -- reverse gold
-    }
-}) -- Razorfen Roundabout

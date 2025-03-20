@@ -132,8 +132,8 @@ L['dr_reverse_challenge'] = '逆向挑戰'
 L['dr_storm_race'] = '風暴競速'
 L['dr_bronze'] = '完成賽事來取得 ' .. ns.color.Bronze('銅牌') .. '.'
 L['dr_vendor_note'] = '使用 {currency:2588} 交換飛龍觀察者手稿和塑型.'
-L['options_icons_dragonrace'] = '飛龍競速'
-L['options_icons_dragonrace_desc'] = '顯示區域內所有飛龍競速的位置.'
+L['options_icons_dragonriding_race'] = '飛龍競速'
+L['options_icons_dragonriding_race_desc'] = '顯示區域內所有飛龍競速的位置.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

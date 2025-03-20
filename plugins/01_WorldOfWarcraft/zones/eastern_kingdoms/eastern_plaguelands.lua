@@ -252,6 +252,10 @@ map.nodes[25206300] = Safari.InfectedSquirrel({
     }
 }) -- Infected Squirrel
 
+-------------------------------------------------------------------------------
+-------------------------- THE SCAVENGER ACHIEVEMENT --------------------------
+-------------------------------------------------------------------------------
+
 map.nodes[22501660] = ns.node.ScavengerPool(3876)
 map.nodes[26101550] = ns.node.ScavengerPool(3876)
 map.nodes[29601650] = ns.node.ScavengerPool(3876)

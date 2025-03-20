@@ -635,3 +635,8 @@ L['undermine_undershirt_note'] = '1. Collect the {object:Sewer Cheese} from with
 L['undermine_clam_chowder_label'] = 'The Undermine Guide to Authentic Cooking'
 L['undermine_clam_chowder_location'] = 'On top of a shelf behind {npc:226728} in the alley in {location:The Vatworks}.'
 L['undermine_clam_chowder_note'] = '1. To collect this recipe you must first know {item:16767} which can be purchased from two {object:Classic} vendors for %s.\n\n{npc:54232} at {location:Booty Bay} in {location:The Cape of Stranglethorn}\n\n{npc:48060} at {location:Fuselight} in {location:Badlands}\n\n2. Once you know the old recipe, open {object:The Undermine Guide to Authentic Cooking} and read to the last page. Jot down the recipe to recieve {item:235800}.'
+
+L['breakneck_race_note'] = 'The following {object:G-99 Breakneck} upgrades are recommended to make earning |cFFFFD700Gold|r a little easier:\n\n%s\n\n%s\n\n%s'
+L['upgrade_the_pozzik_standard'] = '{item:232982} (Engine): Earn |cFFCD7F32Bronze|r in all normal and reverse {object:Breakneck} races.'
+L['upgrade_22h_slicks'] = '{item:232985} (Wheels): Crafted by engineers and sold on the auction house.'
+L['upgrade_turbo_handcrank'] = '{item:232984} (Turbo): Combine all 5 pieces collected from rares or the auction house.'

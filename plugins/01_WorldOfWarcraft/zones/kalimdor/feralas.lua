@@ -8,7 +8,6 @@ local Map = ns.Map
 local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
 local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
 local Transmog = ns.reward.Transmog
@@ -126,26 +125,8 @@ map.nodes[54005360] = Safari.Squirrel({
 }) -- Squirrel
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+-------------------------- THE SCAVENGER ACHIEVEMENT --------------------------
 -------------------------------------------------------------------------------
-
-map.nodes[64125436] = ns.node.Dragonrace({
-    label = '{quest:75470}',
-    normal = {2323, 94, 89},
-    advanced = {2353, 88, 83},
-    reverse = {2383, 88, 83},
-    rewards = {
-        Achievement({id = 17712, criteria = 12, oneline = true}), -- normal bronze
-        Achievement({id = 17713, criteria = 12, oneline = true}), -- normal silver
-        Achievement({id = 17714, criteria = 12, oneline = true}), -- normal gold
-        Achievement({id = 17715, criteria = 12, oneline = true}), -- advanced bronze
-        Achievement({id = 17716, criteria = 12, oneline = true}), -- advanced silver
-        Achievement({id = 17717, criteria = 12, oneline = true}), -- advanced gold
-        Achievement({id = 17718, criteria = 12, oneline = true}), -- reverse bronze
-        Achievement({id = 17719, criteria = 12, oneline = true}), -- reverse silver
-        Achievement({id = 17720, criteria = 12, oneline = true}) -- reverse gold
-    }
-}) -- Feralas Ruins Ramble
 
 map.nodes[24304670] = ns.node.ScavengerPool(3875)
 map.nodes[29105570] = ns.node.ScavengerPool(3875)

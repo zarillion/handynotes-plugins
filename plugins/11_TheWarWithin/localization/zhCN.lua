@@ -635,3 +635,8 @@ L['undermine_undershirt_note'] = '1. 从 {location:罐缸工坊} 下方的下水
 L['undermine_clam_chowder_label'] = '安德麦正宗烹饪法指南'
 L['undermine_clam_chowder_location'] = '在 {location:罐缸工坊} 的小巷中，{npc:226728} 后面的架子上。'
 L['undermine_clam_chowder_note'] = '1. 要收集此食谱，必须首先学会 {item:16767}，该食谱可以从两个 {object:旧世经典} 供应商处以 %s 的价格购买。\n\n{npc:54232} 位于 {location:荆棘谷海角} 的 {location:藏宝海湾}\n\n{npc:48060} 位于 {location:荒芜之地} 的 {location:熔光镇}\n\n2. 一旦学会了旧食谱，打开 {object:安德麦正宗烹饪法指南} 并阅读到最后一页。记下食谱以获得 {item:235800}。'
+
+L['breakneck_race_note'] = '以下推荐的 {object:G-99疾飙飞车} 升级可以让赚取 |cFFFFD700金币|r 变得更容易一些：\n\n%s\n\n%s\n\n%s'
+L['upgrade_the_pozzik_standard'] = '{item:232982}（引擎）：在所有普通和反向 {object:疾飙竞速} 比赛中获得 |cFFCD7F32铜牌|r。'
+L['upgrade_22h_slicks'] = '{item:232985}（轮胎）：由工程师制作并在拍卖行出售。'
+L['upgrade_turbo_handcrank'] = '{item:232984}（涡轮）：从稀有怪物或拍卖行收集并组合所有5个部件。'

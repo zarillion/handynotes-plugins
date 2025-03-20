@@ -132,8 +132,8 @@ L['dr_reverse_challenge'] = nil
 L['dr_storm_race'] = nil
 L['dr_bronze'] = nil
 L['dr_vendor_note'] = nil
-L['options_icons_dragonrace'] = nil
-L['options_icons_dragonrace_desc'] = nil
+L['options_icons_dragonriding_race'] = nil
+L['options_icons_dragonriding_race_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

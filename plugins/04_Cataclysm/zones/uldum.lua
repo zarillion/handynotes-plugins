@@ -354,25 +354,3 @@ map.nodes[73407360] = Camel
 map.nodes[69905810] = Camel
 map.nodes[72004390] = Camel
 map.nodes[64703030] = Camel
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[55774218] = ns.node.Dragonrace({
-    label = '{quest:75481}',
-    normal = {2326, 89, 84},
-    advanced = {2356, 81, 76},
-    reverse = {2386, 81, 76},
-    rewards = {
-        Achievement({id = 17712, criteria = 15, oneline = true}), -- normal bronze
-        Achievement({id = 17713, criteria = 15, oneline = true}), -- normal silver
-        Achievement({id = 17714, criteria = 15, oneline = true}), -- normal gold
-        Achievement({id = 17715, criteria = 15, oneline = true}), -- advanced bronze
-        Achievement({id = 17716, criteria = 15, oneline = true}), -- advanced silver
-        Achievement({id = 17717, criteria = 15, oneline = true}), -- advanced gold
-        Achievement({id = 17718, criteria = 15, oneline = true}), -- reverse bronze
-        Achievement({id = 17719, criteria = 15, oneline = true}), -- reverse silver
-        Achievement({id = 17720, criteria = 15, oneline = true}) -- reverse gold
-    }
-}) -- Uldum Tour

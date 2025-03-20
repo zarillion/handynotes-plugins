@@ -19,6 +19,7 @@
   <Script file="templates.lua"/>
   <Script file="tomtom.lua"/>
   <Script file="pois.lua"/>
+  <Script file="hook.lua"/>
   <!-- Must be outside of core/ for dev purposes -->
   <Include file="..\templates.xml"/>
 </Ui>

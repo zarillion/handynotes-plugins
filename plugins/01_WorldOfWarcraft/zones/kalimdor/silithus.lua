@@ -7,7 +7,6 @@ local L = ns.locale
 local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
@@ -213,25 +212,3 @@ map.nodes[45403680] = Safari.SpikyLizard({
         })
     }
 }) -- Spiky Lizard
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[39548419] = ns.node.Dragonrace({
-    label = '{quest:75472}',
-    normal = {2325, 80, 75},
-    advanced = {2355, 71, 66},
-    reverse = {2385, 74, 69},
-    rewards = {
-        Achievement({id = 17712, criteria = 14, oneline = true}), -- normal bronze
-        Achievement({id = 17713, criteria = 14, oneline = true}), -- normal silver
-        Achievement({id = 17714, criteria = 14, oneline = true}), -- normal gold
-        Achievement({id = 17715, criteria = 14, oneline = true}), -- advanced bronze
-        Achievement({id = 17716, criteria = 14, oneline = true}), -- advanced silver
-        Achievement({id = 17717, criteria = 14, oneline = true}), -- advanced gold
-        Achievement({id = 17718, criteria = 14, oneline = true}), -- reverse bronze
-        Achievement({id = 17719, criteria = 14, oneline = true}), -- reverse silver
-        Achievement({id = 17720, criteria = 14, oneline = true}) -- reverse gold
-    }
-}) -- Ahn'Qiraj Circuit
