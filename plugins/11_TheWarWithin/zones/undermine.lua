@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local Node = ns.node.Node
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
@@ -14,6 +15,7 @@ local Vendor = ns.node.Vendor
 local WorldsoulMemory = ns.node.WorldsoulMemory
 
 local Achievement = ns.reward.Achievement
+local HunterPet = ns.reward.HunterPet
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
@@ -892,3 +894,34 @@ map.nodes[38058868] = Collectible({
         ns.reward.Recipe({item = 235800, profession = 185}) -- Recipe:
     }
 }) -- Authentic Undermine Clam Chowder
+
+--------------------------------- HUNTER PETS ---------------------------------
+
+local HunterPetNode = Class('HunterPetNode', Node,
+    {icon = 'peg_gn', scale = 2.0, class = 'HUNTER'})
+
+map.nodes[39801260] = HunterPetNode({
+    label = '{npc:226555}',
+    requires = ns.requirement.Quest(87008), -- ![Ad-Hoc Wedding Planner]
+    note = format(L['blazefeather_peacock_note'],
+        GetCoinTextureString(5000000000)),
+    rewards = {HunterPet({id = 226561, icon = 132200})} -- Blazefeather Peakcock
+}) -- Grelik Greaseguard <Exotic Beasts> (Blazefeather Peacock)
+
+map.nodes[28007080] = HunterPetNode({
+    label = '{npc:239325}',
+    note = L['radioactive_subject_note'],
+    rewards = {HunterPet({id = 239325, icon = 644001})} -- Radioactive Subject
+}) -- Radioactive Subject
+
+local zul = ns.maps[862] or Map({id = 862, settings = false})
+
+zul.nodes[17576104] = HunterPetNode({
+    label = '{npc:233938}',
+    note = L['george_the_big_pinch_note'],
+    rewards = {HunterPet({id = 233938, icon = 132186})}, -- George <The Big Pinch>
+    pois = {
+        POI({22845943, 21715939, 21526072, 20445985, 19156043}),
+        Path({22845943, 21715939, 21526072, 20445985, 19156043, 17576104})
+    }
+}) -- George <The Big Pinch>

@@ -635,3 +635,7 @@ L['undermine_undershirt_note'] = '1. 从 {location:罐缸工坊} 下方的下水
 L['undermine_clam_chowder_label'] = '安德麦正宗烹饪法指南'
 L['undermine_clam_chowder_location'] = '在 {location:罐缸工坊} 的小巷中，{npc:226728} 后面的架子上。'
 L['undermine_clam_chowder_note'] = '1. 要收集此食谱，必须首先学会 {item:16767}，该食谱可以从两个 {object:旧世经典} 供应商处以 %s 的价格购买。\n\n{npc:54232} 位于 {location:荆棘谷海角} 的 {location:藏宝海湾}\n\n{npc:48060} 位于 {location:荒芜之地} 的 {location:熔光镇}\n\n2. 一旦学会了旧食谱，打开 {object:安德麦正宗烹饪法指南} 并阅读到最后一页。记下食谱以获得 {item:235800}。'
+
+L['blazefeather_peacock_note'] = nil
+L['radioactive_subject_note'] = nil
+L['george_the_big_pinch_note'] = nil

@@ -635,3 +635,7 @@ L['undermine_undershirt_note'] = '1. Recoge el {object:Queso de cloaca} de dentr
 L['undermine_clam_chowder_label'] = 'La guía de la auténtica cocina de Minahonda'
 L['undermine_clam_chowder_location'] = 'Encima de un estante detrás de {npc:226728} en el callejón de la {location:Estación de Vapor}.'
 L['undermine_clam_chowder_note'] = '1. Para conseguir esta receta, primero debes saber {item:16767} que se puede comprar en dos vendedores {object:Clásicos} por %s.\n\n{npc:54232} de {location:Bahía del Botín} en {location:El Cabo de Tuercespina}\n\n{npc:48060} de {location:El Diodo} en las {location:Tierras Inhóspitas}\n\n2. Una vez que sepas la vieja receta, abre {object:La guía de la auténtica cocina de Minahonda} y lee la última página. Anota la receta para conseguir la {item:235800}.'
+
+L['blazefeather_peacock_note'] = nil
+L['radioactive_subject_note'] = nil
+L['george_the_big_pinch_note'] = nil

@@ -12,6 +12,12 @@
   * Add new vendor - "Gold Fish" (bobber toys)
   * Add new vendor - Goblin cartel transmog
   * Update vendor - Angelo Rustbin (Kaja'Cola vendor) note and rewards
+  * Add hunter pets
+      * Blazefeather Peacock
+      * Radioactive Subject
+* Zuldazar
+  * Add hunter pet
+      * George &lt;The Big Pinch&gt;
 * Localization updates: deDE, esES, frFR, zhCN
 
 # v116

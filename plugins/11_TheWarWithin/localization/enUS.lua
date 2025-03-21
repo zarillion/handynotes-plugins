@@ -635,3 +635,7 @@ L['undermine_undershirt_note'] = '1. Collect the {object:Sewer Cheese} from with
 L['undermine_clam_chowder_label'] = 'The Undermine Guide to Authentic Cooking'
 L['undermine_clam_chowder_location'] = 'On top of a shelf behind {npc:226728} in the alley in {location:The Vatworks}.'
 L['undermine_clam_chowder_note'] = '1. To collect this recipe you must first know {item:16767} which can be purchased from two {object:Classic} vendors for %s.\n\n{npc:54232} at {location:Booty Bay} in {location:The Cape of Stranglethorn}\n\n{npc:48060} at {location:Fuselight} in {location:Badlands}\n\n2. Once you know the old recipe, open {object:The Undermine Guide to Authentic Cooking} and read to the last page. Jot down the recipe to recieve {item:235800}.'
+
+L['blazefeather_peacock_note'] = 'After completing the {quest:83421} storyline, speak with {npc:226555} to pay %s to summon a trainable {npc:226561}.'
+L['radioactive_subject_note'] = 'Use nearby pipes and combination of {item:237276}, {item:109076}, {item:231099} or any other jumping puzzle tricks to reach the roof of the {location:Steamwheedle Labratories} building in {location:The Vatworks}.'
+L['george_the_big_pinch_note'] = 'Quickly click all 5 {npc:238189} to recieve {spell:1219679} and allow you to tame {npc:233938}.'

@@ -636,3 +636,7 @@ L['undermine_undershirt_note'] = '1. Ramassez le {object:Fromage d’égout} dan
 L['undermine_clam_chowder_label'] = 'Guide culinaire authentique de Terremine'
 L['undermine_clam_chowder_location'] = 'Sur une étagère derrière {npc:226728} dans la ruelle de la {location:Cuverie}.'
 L['undermine_clam_chowder_note'] = '1. Pour obtenir cette recette, vous devez d\'abord connaître {item:16767} qui peut être achetée auprès de deux vendeurs {object:Classiques} contre %s.\n\n{npc:54232} à {location:Baie-du-Butin} au {location:Cap Strangleronce}\n\n{npc:48060} à {location:Lumèche} dans les {location:Terres Ingrates}\n\n2. Une fois que vous connaissez l\'ancienne recette, ouvrez le {object:Guide culinaire authentique de Terremine} et lisez-le jusqu\'à la dernière page. Notez la recette pour recevoir {item:235800}.'
+
+L['blazefeather_peacock_note'] = nil
+L['radioactive_subject_note'] = nil
+L['george_the_big_pinch_note'] = nil
