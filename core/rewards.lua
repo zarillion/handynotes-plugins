@@ -115,6 +115,24 @@ function Spacer:IsEnabled() return true end
 function Spacer:Render(tooltip) tooltip:AddLine(' ') end
 
 -------------------------------------------------------------------------------
+--------------------------------- HUNTER PET ----------------------------------
+-------------------------------------------------------------------------------
+
+local HunterPet = Class('HunterPet', Reward, {type = L['hunter_pet']})
+
+function HunterPet:GetText()
+    local text = ('{npc:%d}'):format(self.id)
+    return Icon(self.icon) .. ns.RenderLinks(text) .. ' (' .. self.type .. ')'
+end
+
+function HunterPet:IsObtainable() return ns.class == 'HUNTER' end
+
+function HunterPet:GetStatus()
+    local status = Orange(L['unobtainable'])
+    return not self:IsObtainable() and status or nil
+end
+
+-------------------------------------------------------------------------------
 --------------------------------- ACHIEVEMENT ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -734,6 +752,7 @@ ns.reward = {
     Follower = Follower,
     Item = Item,
     Heirloom = Heirloom,
+    HunterPet = HunterPet,
     Manuscript = Manuscript,
     Mount = Mount,
     Pet = Pet,
