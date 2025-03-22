@@ -639,3 +639,6 @@ L['undermine_clam_chowder_note'] = '1. Para conseguir esta receta, primero debes
 L['blazefeather_peacock_note'] = 'Después de completar la serie de misiones {quest:83421}, habla con {npc:226555} para pagar %s por invocar un {npc:226561} entrenable.'
 L['radioactive_subject_note'] = 'Usa las tuberías cercanas y, combinando {item:237276}, {item:109076}, {item:231099} o cualquier otro truco de rompecabezas, salta al techo del edificio de los {location:Laboratorios Bonvapor} en {location:Estación de Vapor}.'
 L['george_the_big_pinch_note'] = 'Haz click rápidamente en los 5 {npc:238189} para conseguir {spell:1219679} que te permitirá domesticar {npc:233938}.'
+
+L['crumpled_schematic_note'] = nil
+L['crumpled_schematic_location'] = nil

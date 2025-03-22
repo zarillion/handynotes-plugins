@@ -19,6 +19,7 @@ local HunterPet = ns.reward.HunterPet
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Reputation = ns.reward.Reputation
 local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
@@ -925,3 +926,15 @@ zul.nodes[17576104] = HunterPetNode({
         Path({22845943, 21715939, 21526072, 20445985, 19156043, 17576104})
     }
 }) -- George <The Big Pinch>
+
+-------------- CRUMPLED SCHEMATIC: WORMHOLE GENERATOR: UNDERMINE --------------
+
+map.nodes[42508220] = Collectible({
+    label = '{item:235037}',
+    icon = 'peg_bl',
+    scale = 2.0,
+    requires = ns.requirement.Profession(202, 2875), -- Khaz Algar Engineering
+    location = L['crumpled_schematic_location'],
+    note = L['crumpled_schematic_note'],
+    rewards = {Recipe({item = 235037, profession = 202})}
+}) -- Crumpled Schematic

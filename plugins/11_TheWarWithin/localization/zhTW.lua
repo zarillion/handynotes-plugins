@@ -639,3 +639,6 @@ L['undermine_clam_chowder_note'] = nil
 L['blazefeather_peacock_note'] = nil
 L['radioactive_subject_note'] = nil
 L['george_the_big_pinch_note'] = nil
+
+L['crumpled_schematic_note'] = nil
+L['crumpled_schematic_location'] = nil
