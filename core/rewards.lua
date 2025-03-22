@@ -514,12 +514,16 @@ function Recipe:IsObtained()
 end
 
 function Recipe:GetStatus()
-    return self:IsObtained() and Green(L['known']) or Red(L['missing'])
-end
+    local collected = self:IsObtained()
+    local status = collected and Green(L['known']) or Red(L['missing'])
 
-function Recipe:IsEnabled()
-    if not Item.IsEnabled(self) then return false end
-    return ns.PlayerHasProfession(self.profession)
+    if not collected then
+        if not ns.PlayerHasProfession(self.profession) then
+            status = Orange(L['unlearnable'])
+        end
+    end
+
+    return status
 end
 
 -------------------------------------------------------------------------------
