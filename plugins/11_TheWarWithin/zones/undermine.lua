@@ -498,9 +498,9 @@ map.nodes[43208280] = Vendor({
     id = 228286,
     note = L['skedgit_cinderbangs_note'],
     rewards = {
-        Mount({item = 229941, id = 2283}), -- Innovation Investigator
-        Mount({item = 229952, id = 2290}), -- Asset Advocator
-        Mount({item = 229954, id = 2292}) -- Margin Manipulator
+        Mount({item = 229941, id = 2283, count = 25}), -- Innovation Investigator
+        Mount({item = 229952, id = 2290, count = 25}), -- Asset Advocator
+        Mount({item = 229954, id = 2292, count = 25}) -- Margin Manipulator
     }
 }) -- Skedgit Cinderbangs <Entrepreneur Inc.>
 
