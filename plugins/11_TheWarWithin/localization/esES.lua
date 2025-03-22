@@ -640,5 +640,5 @@ L['blazefeather_peacock_note'] = 'Después de completar la serie de misiones {qu
 L['radioactive_subject_note'] = 'Usa las tuberías cercanas y, combinando {item:237276}, {item:109076}, {item:231099} o cualquier otro truco de rompecabezas, salta al techo del edificio de los {location:Laboratorios Bonvapor} en {location:Estación de Vapor}.'
 L['george_the_big_pinch_note'] = 'Haz click rápidamente en los 5 {npc:238189} para conseguir {spell:1219679} que te permitirá domesticar {npc:233938}.'
 
-L['crumpled_schematic_note'] = nil
-L['crumpled_schematic_location'] = nil
+L['crumpled_schematic_note'] = 'Despoja los {object:Esquemas arrugados} para conseguir {item:235037}.\n\nUna vez despojado estará disponible para la compra en proveedores de suministros de ingeniería como {npc:219098} en {location:Dornogal}.'
+L['crumpled_schematic_location'] = 'Primer piso de un edificio entre la {location:Estación de Vapor} y las {location:Chatarrerías}.'
