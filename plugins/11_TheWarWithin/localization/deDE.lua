@@ -593,8 +593,8 @@ L['trick_deck_of_cards_location'] = 'Auf dem Tisch neben {npc:231045} im {locati
 L['breakneck_customization'] = '99-G-Genickbrecher'
 
 L['ditty_fuzeboy_note'] = 'Tausche {item:234741} gegen Haustiere ein.'
-L['skedgit_cinderbangs_note'] = nil
-L['angelo_rustbin_note'] = 'Tausche {currency:3218} gegen ein Spielzeug und eine {object:99-G-Genickbrecher} Anpassung ein.\n\nTausche {currency:3220} gegen Haustiere ein.\n\n{note:{currency:3218} kann jeder Zeit in {object:S.C.H.R.O.T.T-Haufen} gesammelt werden. {item:229810} benötigt Ruhmstufe 14 bei {faction:2653}.}'
+L['skedgit_cinderbangs_note'] = 'Tausche {item:234741} gegen Reittiere ein. \n\n{note:Reittiere können auch im Auktionshaus gekauft werden.}'
+L['angelo_rustbin_note'] = 'Tausche {currency:3218} gegen ein Spielzeug und eine {object:99-G-Genickbrecher} Anpassung ein.\nIn {item:233557} kann ein Reittier und ein Haustier enthalten sein.\n\nTausche {currency:3220} gegen Haustiere ein.\n\n{note:{currency:3218} kann jeder Zeit in {object:S.C.H.R.O.T.T-Haufen} gesammelt werden. {item:229810} benötigt Ruhmstufe 14 bei {faction:2653}.}'
 L['blair_bass_note'] = 'Tausche {item:227673} gegen Spielzeuge ein.\n\n{item:227673}e können in {object:Dampfdruckabfluss} Schwärmen geangelt werden.'
 L['greexit_coarsebub_note'] = 'Tausche Gold gegen Kartell-Ausrüstungsvorlagen.\n\n{note:Es können nur Gegenstände für das Kartell gekauft werden, bei dem du unter Vertrag stehst.}'
 
@@ -632,16 +632,16 @@ L['options_icons_youre_my_friend_now_desc'] = 'Zeigt die Positionen von {npc:239
 L['rat_in_building_rail'] = 'Im Gebäude auf dem Geländer.'
 L['rat_2nd_floor_trash_can'] = 'Im Gebäude im zweiten Stock auf einem Mülleimer.'
 
-L['sewer_cheese_label'] = nil
-L['undermine_undershirt_note'] = nil
+L['sewer_cheese_label'] = 'Kanalkäse'
+L['undermine_undershirt_note'] = '1. Sammle den {object:Kanalkäse} in der Kanalisation unter {location:Bottichwerke}, um den Stärkungszauber {spell:1221472} (60 Sekunden) zu erhalten.\n\n2. Interagiere mit {npc:238661} in der Nähe, um den Käse gegen {item:237129} zu tauschen.\n\n3. Sprich mit {npc:237412} in der oberen Etage der {location:Hafenbehörde} bei der {location:Marina der Schwarzmeer AG} und tausche den {item:237129} gegen ein {item:237130} ein.'
 
-L['undermine_clam_chowder_label'] = nil
-L['undermine_clam_chowder_location'] = nil
-L['undermine_clam_chowder_note'] = nil
+L['undermine_clam_chowder_label'] = 'Lorenhalls Ratgeber zu authentischer Küche'
+L['undermine_clam_chowder_location'] = 'In der Gasse auf einem Regal hinter {npc:226728}.'
+L['undermine_clam_chowder_note'] = '1. Um dieses Rezept zu erhalten, musst du zunächst das Rezept {item:16767} erlernen, welches bei zwei {object:Classic}-Händlern für %s gekaut werden kann.\n\n{npc:54232} in {location:Beutebucht} ({location:Die Östlichen Königreiche}, {location:Schlingendorntal})\n\n{npc:48060} in {location:Luntenbrand} ({location:Die Östlichen Königreiche}, {location:Ödland})\n\n2. Wenn du das "alte" Rezept erlernt hast, interagiere mit dem Buch {object:Lorenhalls Ratgeber zu authentischer Küche} und lese dir alle Seiten durch, um das Rezept {item:235800} zu erhalten.'
 
-L['blazefeather_peacock_note'] = nil
-L['radioactive_subject_note'] = nil
-L['george_the_big_pinch_note'] = nil
+L['blazefeather_peacock_note'] = 'Spreche nach Abschluss des {quest:83421} Geschichtsstrangs mit {npc:226555}, um für %s ein einen zähmbaren {npc:226561} zu beschwören.'
+L['radioactive_subject_note'] = 'Benutze nahegelegene Rohre und eine Kombination aus {item:237276}, {item:109076} und {item:231099} oder anderen Sprung-Puzzle-Tricks, um das Dach des {location:Dampfdrucklabore} Gebäudes zu erreichen.'
+L['george_the_big_pinch_note'] = 'Klicke schnell alle 5 {npc:238189} an, um den Stärkungszauber {spell:1219679} zu erhalten, der dir erlaubt {npc:233938} zu zähmen.'
 
-L['crumpled_schematic_note'] = nil
-L['crumpled_schematic_location'] = nil
+L['crumpled_schematic_note'] = 'Plündere den {object:Zusammengeknüllter Bauplan}, um {item:235037} zu erhalten.\n\n{note:Sobald du es geplündert hast, kann es auch bei Händlern für Ingenieurskunstbedarf wie {npc:219098} in {location:Dornogal} gekauft werden.}'
+L['crumpled_schematic_location'] = 'In der ersten Etage des Gebäudes.'

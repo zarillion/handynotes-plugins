@@ -104,8 +104,8 @@ L['toy'] = 'Spielzeug'
 L['currency'] = 'Währung'
 L['rep'] = 'Ruf'
 L['buff'] = 'Stärkungszauber'
-L['transmog'] = nil
-L['hunter_pet'] = nil
+L['transmog'] = 'Ausrüstungsvorlage'
+L['hunter_pet'] = 'Jäger Begleiter'
 
 ---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = 'Anhänger'
