@@ -642,3 +642,6 @@ L['george_the_big_pinch_note'] = '快速点击所有5个 {npc:238189} 以获得 
 
 L['crumpled_schematic_note'] = nil
 L['crumpled_schematic_location'] = nil
+
+L['skyrocketing_sprint'] = '冲天火箭疾行赛'
+L['unlock_skyrocketing_note'] = '解锁冲天火箭竞速的4个世界任务: \n{note:该角色须完成一次冲天火箭疾行赛}'

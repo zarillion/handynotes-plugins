@@ -642,3 +642,6 @@ L['george_the_big_pinch_note'] = 'Quickly click all 5 {npc:238189} to recieve {s
 
 L['crumpled_schematic_note'] = 'Loot the {object:Crumpled Schematics} to receive {item:235037}.\n\nOnce looted it will be available for purchase from engineering supply vendors such as {npc:219098} in {location:Dornogal}.'
 L['crumpled_schematic_location'] = 'First floor of a building between {location:The Vatworks} and {location:The Heaps}.'
+
+L['skyrocketing_sprint'] = 'Skyrocketing Sprint'
+L['unlock_skyrocketing_note'] = 'To unlock the 4 Skyrocketing Race world quests: \n{note:This character has to just complete Skyrocketing Sprint only once.}'
