@@ -895,7 +895,7 @@ map.nodes[38058868] = Collectible({
         ns.requirement.Profession(185, 2873, 35) -- The War Within Cooking 35
     },
     rewards = {
-        ns.reward.Recipe({item = 235800, profession = 185}) -- Recipe:
+        Recipe({item = 235800, profession = 185}) -- Recipe: Authentic Undermine Clam Chowder
     }
 }) -- Authentic Undermine Clam Chowder
 
@@ -939,5 +939,7 @@ map.nodes[42508220] = Collectible({
     requires = ns.requirement.Profession(202, 2875), -- Khaz Algar Engineering
     location = L['crumpled_schematic_location'],
     note = L['crumpled_schematic_note'],
-    rewards = {Recipe({item = 235037, profession = 202})}
+    rewards = {
+        Item({item = 235037, profession = 202, quest = 86630}) -- Crumpled Schematic: Wormhole Generator: Undermine
+    }
 }) -- Crumpled Schematic
