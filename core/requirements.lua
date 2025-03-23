@@ -157,18 +157,23 @@ function Profession:IsMet() return ns.PlayerHasProfession(self.skillID) end
 
 local Quest = Class('Quest', Requirement, {type = L['quest']})
 
-function Quest:Initialize(id, text, repeatable)
+function Quest:Initialize(id, text, repeatable, warband)
     self.id = id
     self.text = text
     self.type = repeatable and L['quest_repeatable'] or self.type
+    self.warband = warband
 end
 
 function Quest:GetText()
     local text = C_QuestLog.GetTitleForQuestID(self.id) or self.text or UNKNOWN
-    return ('%s (%s)'):format(text, self.type)
+    local types = self.warband and _G.ACCOUNT_QUEST_LABEL or self.type
+    return ('%s (%s)'):format(text, types)
 end
 
-function Quest:IsMet() return C_QuestLog.IsQuestFlaggedCompleted(self.id) end
+function Quest:IsMet()
+    return self.warband and C_QuestLog.IsQuestFlaggedCompletedOnAccount(self.id)
+    or C_QuestLog.IsQuestFlaggedCompleted(self.id)
+end
 
 -------------------------------------------------------------------------------
 --------------------------------- REPUTATION ----------------------------------
