@@ -446,7 +446,7 @@ L['options_icons_ratts_revenge'] = '{achievement:40967}'
 L['options_icons_ratts_revenge_desc'] = '显示 {achievement:40967} 成就中秘密的位置。'
 
 -- INERT PECULIAR KEY
-L['inert_peculiar_key_note'] = '藏在巨大的中空树干里板条箱后面。\n\n{note:下一个位置：}\n如果 {bug:*没有*} {item:228938}，请前往 {location:卡兹阿加} 的 {location:多恩诺加尔}。\n\n如果 |cFF00FF00*有*|r {item:228938}，请前往 {location:东部王国} 的 {location:逆风小径}。'
+L['inert_peculiar_key_note'] = '藏在巨大的中空树干里板条箱后面。\n\n{note:下一个位置：}\n如果 {bug:*没有*} {item:228938}，请前往 {location:卡兹阿加} 的 {location:多恩诺嘉尔}。\n\n如果 |cFF00FF00*有*|r {item:228938}，请前往 {location:东部王国} 的 {location:逆风小径}。'
 
 -- PECULIAR GEM
 L['carefully_penned_note'] = '佩戴 {title:侦探} 头衔与 {npc:230042} 交谈以接受 {quest:84684}。\n\n{note:下一个位置：}{location:艾基-卡赫特}'
@@ -457,7 +457,7 @@ L['peculiar_gem_note'] = '到达 {location:沃什柱巢}，穿过山洞内隐藏
 
 -- KARAZHAN CATACOMBS
 L['karazhan_catacombs_label'] = '卡拉赞墓穴'
-L['karazhan_catacombs_entrance_note'] = '从 {location:卡利姆多} 的 {location:安格洛环形山} 开始收集 {item:44124}\n\n从 {location:卡兹阿加} 的 {location:多恩诺加尔} 开始收集 {item:228938}\n\n将宝石和钥匙组合成 {item:44124}。\n\n将 {item:44124} 放入包中并激活 {item:208092}，接近大门即可看到一个红色的副本入口。'
+L['karazhan_catacombs_entrance_note'] = '从 {location:卡利姆多} 的 {location:安格洛环形山} 开始收集 {item:44124}\n\n从 {location:卡兹阿加} 的 {location:多恩诺嘉尔} 开始收集 {item:228938}\n\n将宝石和钥匙组合成 {item:44124}。\n\n将 {item:44124} 放入包中并激活 {item:208092}，接近大门即可看到一个红色的副本入口。'
 
 -- ORB 1
 L['orb_1_label'] = '1号球'
@@ -493,7 +493,7 @@ L['code_machine_note_8'] = '输入代码并打开 {object:加密的宝箱} 获�
 L['slot_machine_label'] = '“试试手气！”游戏机'
 L['slot_machine_note_a'] = '收集五个幸运物品然后输入代码：\n\n'
 L['slot_machine_note_b'] = '{location:暴风城} 的 {npc:2795}：\n'
-L['slot_machine_note_c'] = '{location:多恩诺加尔} 的 {npc:219197}：\n'
+L['slot_machine_note_c'] = '{location:多恩诺嘉尔} 的 {npc:219197}：\n'
 L['slot_machine_note_d'] = '{location:欧恩哈拉平原} 的 {npc:186650}\n'
 L['slot_machine_note_e'] = '{object:代码}：777、77777 或 7777777'
 L['slot_machine_vendor_note'] = '为 {object:“试试手气！”游戏机} 购买这些物品。'
@@ -640,5 +640,5 @@ L['blazefeather_peacock_note'] = '完成 {quest:83421} 任务线后，与 {npc:2
 L['radioactive_subject_note'] = '使用附近的管道和 {item:237276}、{item:109076}、{item:231099} 或其他跳跃谜题技巧，到达 {location:罐缸工坊} 的 {location:热砂试验室} 建筑屋顶。'
 L['george_the_big_pinch_note'] = '快速点击所有5个 {npc:238189} 以获得 {spell:1219679}，并允许驯服 {npc:233938}。'
 
-L['crumpled_schematic_note'] = nil
-L['crumpled_schematic_location'] = nil
+L['crumpled_schematic_note'] = '拾取 {object:皱巴巴的结构图} 以获得 {item:235037}。\n\n一旦拾取，可以从工程学供应商处购买，例如位于 {location:多恩诺嘉尔} 的 {npc:219098}。'
+L['crumpled_schematic_location'] = '位于 {location:罐缸工坊} 和 {location:锈废堆场} 之间的一栋建筑的一楼。'
