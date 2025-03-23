@@ -1,3 +1,7 @@
+# v118
+
+* Localization updates: zhCN
+
 # v117
 
 * Undermine
