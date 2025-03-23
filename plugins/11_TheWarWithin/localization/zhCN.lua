@@ -639,6 +639,3 @@ L['undermine_clam_chowder_note'] = '1. 要收集此食谱，必须首先学会 {
 L['blazefeather_peacock_note'] = '完成 {quest:83421} 任务线后，与 {npc:226555} 对话并支付 %s 以召唤一只可驯服的 {npc:226561}。'
 L['radioactive_subject_note'] = '使用附近的管道和 {item:237276}、{item:109076}、{item:231099} 或其他跳跃谜题技巧，到达 {location:罐缸工坊} 的 {location:热砂试验室} 建筑屋顶。'
 L['george_the_big_pinch_note'] = '快速点击所有5个 {npc:238189} 以获得 {spell:1219679}，并允许驯服 {npc:233938}。'
-
-L['crumpled_schematic_note'] = '拾取 {object:皱巴巴的结构图} 以获得 {item:235037}。\n\n一旦拾取，可以从工程学供应商处购买，例如位于 {location:多恩诺嘉尔} 的 {npc:219098}。'
-L['crumpled_schematic_location'] = '位于 {location:罐缸工坊} 和 {location:锈废堆场} 之间的一栋建筑的一楼。'

@@ -642,6 +642,3 @@ L['undermine_clam_chowder_note'] = '1. Um dieses Rezept zu erhalten, musst du zu
 L['blazefeather_peacock_note'] = 'Spreche nach Abschluss des {quest:83421} Geschichtsstrangs mit {npc:226555}, um für %s ein einen zähmbaren {npc:226561} zu beschwören.'
 L['radioactive_subject_note'] = 'Benutze nahegelegene Rohre und eine Kombination aus {item:237276}, {item:109076} und {item:231099} oder anderen Sprung-Puzzle-Tricks, um das Dach des {location:Dampfdrucklabore} Gebäudes zu erreichen.'
 L['george_the_big_pinch_note'] = 'Klicke schnell alle 5 {npc:238189} an, um den Stärkungszauber {spell:1219679} zu erhalten, der dir erlaubt {npc:233938} zu zähmen.'
-
-L['crumpled_schematic_note'] = 'Plündere den {object:Zusammengeknüllter Bauplan}, um {item:235037} zu erhalten.\n\n{note:Sobald du es geplündert hast, kann es auch bei Händlern für Ingenieurskunstbedarf wie {npc:219098} in {location:Dornogal} gekauft werden.}'
-L['crumpled_schematic_location'] = 'In der ersten Etage des Gebäudes.'

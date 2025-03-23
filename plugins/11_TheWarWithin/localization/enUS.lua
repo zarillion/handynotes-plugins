@@ -639,6 +639,3 @@ L['undermine_clam_chowder_note'] = '1. To collect this recipe you must first kno
 L['blazefeather_peacock_note'] = 'After completing the {quest:83421} storyline, speak with {npc:226555} to pay %s to summon a trainable {npc:226561}.'
 L['radioactive_subject_note'] = 'Use nearby pipes and combination of {item:237276}, {item:109076}, {item:231099} or any other jumping puzzle tricks to reach the roof of the {location:Steamwheedle Laboratories} building in {location:The Vatworks}.'
 L['george_the_big_pinch_note'] = 'Quickly click all 5 {npc:238189} to recieve {spell:1219679} and allow you to tame {npc:233938}.'
-
-L['crumpled_schematic_note'] = 'Loot the {object:Crumpled Schematics} to receive {item:235037}.\n\nOnce looted it will be available for purchase from engineering supply vendors such as {npc:219098} in {location:Dornogal}.'
-L['crumpled_schematic_location'] = 'First floor of a building between {location:The Vatworks} and {location:The Heaps}.'
