@@ -1545,26 +1545,7 @@ local ASSAULTS = {
     [KYRIAN.assault] = KYRIAN_ASSAULT_REWARDS
 }
 
-local assaultHandled = false
-
-hooksecurefunc(GameTooltip, 'Show', function(self)
-    if assaultHandled then return end
-    local owner = self:GetOwner()
-    if owner and owner.questID then
-        local rewards = ASSAULTS[owner.questID]
-        if rewards and #rewards > 0 then
-            for i, reward in ipairs(rewards) do
-                if reward:IsEnabled() then reward:Render(self) end
-            end
-            assaultHandled = true
-            self:AddLine(' ') -- add blank line after rewards
-            self:Show()
-        end
-    end
-end)
-
-hooksecurefunc(GameTooltip, 'ClearLines',
-    function(self) assaultHandled = false end)
+ns.hook.Legend({questIDs = ASSAULTS})
 
 -------------------------------------------------------------------------------
 

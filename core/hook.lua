@@ -10,8 +10,9 @@ ns.hooks = {
     areapoi = {},
     areapoievent = {},
     delve = {},
-    skyridingrace = {},
     encounter = {},
+    legend = {},
+    skyridingrace = {},
     vignette = {}
 }
 
@@ -122,6 +123,20 @@ function Encounter:Initialize(attrs)
     Hook.Initialize(self, attrs)
     for id, rewards in pairs(self.encounterIDs) do
         ns.hooks.encounter[id] = self:AddHook({rewards = rewards})
+    end
+end
+
+-------------------------------------------------------------------------------
+----------------------------------- LEGEND ------------------------------------
+-------------------------------------------------------------------------------
+
+local Legend =
+    Class('Legend', Hook, {type = 'legend', rewardsSpaceAfter = true})
+
+function Legend:Initialize(attrs)
+    Hook.Initialize(self, attrs)
+    for id, rewards in pairs(self.questIDs) do
+        ns.hooks.legend[id] = self:AddHook({rewards = rewards})
     end
 end
 
@@ -276,6 +291,22 @@ local function HookAllPOIS()
         renderTooltip(hookInfo)
     end)
 
+    ----------------------------- LEGEND TOOLTIP ------------------------------
+
+    local legendHandled = false
+
+    hooksecurefunc(LegendHighlightablePoiPinMixin, 'OnLegendPinMouseEnter',
+        function(self)
+            if legendHandled then return end
+            local hookInfo = ns.hooks.legend[self.questID]
+            if not hookInfo then return end
+            legendHandled = true
+            renderTooltip(hookInfo)
+        end)
+
+    hooksecurefunc(LegendHighlightablePoiPinMixin, 'OnLegendPinMouseLeave',
+        function(self) legendHandled = false end)
+
     -------------------------------- VIGNETTE ---------------------------------
     hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
         local hookInfo = ns.hooks.vignette[self.vignetteID]
@@ -300,7 +331,8 @@ ns.hook = {
     AreaPoi = AreaPoi,
     AreaPoiEvent = AreaPoiEvent,
     Delve = Delve,
-    SkyridingRace = SkyridingRace,
     Encounter = Encounter,
+    Legend = Legend,
+    SkyridingRace = SkyridingRace,
     Vignette = Vignette
 }

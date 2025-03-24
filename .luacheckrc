@@ -117,14 +117,15 @@ read_globals = {
     'Settings.OpenToCategory',
 
     -- WoW UI Frames & Mixins
-    'AreaPOIPinMixin',
     'AreaPOIEventPinMixin',
+    'AreaPOIPinMixin',
     'CreateAtlasMarkup',
     'DelveEntrancePinMixin',
     'DragonridingRacePinMixin',
     'EncounterJournalPinMixin',
     'GameMenuFrame',
     'GameTooltip',
+    'LegendHighlightablePoiPinMixin',
     'MapCanvasDataProviderMixin',
     'MapCanvasPinMixin',
     'Minimap',
