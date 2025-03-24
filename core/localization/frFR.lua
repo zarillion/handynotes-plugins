@@ -105,6 +105,7 @@ L['currency'] = 'Monnaie'
 L['rep'] = 'Rep'
 L['buff'] = 'Amélioration'
 L['transmog'] = 'Transmogrification'
+L['hunter_pet'] = 'Familier de chasseur'
 
 ---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = 'Sujet'

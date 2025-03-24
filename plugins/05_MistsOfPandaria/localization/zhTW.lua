@@ -34,7 +34,7 @@ L['moss_covered_chest'] = '長滿青苔的箱子'
 L['skull_covered_chest'] = '骨蓋寶箱'
 L['smoldering_chest'] = '悶燃寶箱'
 L['sturdy_chest'] = nil
-L['sturdy_chest_note'] = nil
+L['albatros_note'] = nil
 L['timeless_chest'] = nil
 L['timeless_chest_note'] = nil
 

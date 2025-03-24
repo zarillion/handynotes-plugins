@@ -37,14 +37,14 @@ Um in {npc:71864s} Höhle zugelangen, finde eines der verlorenen Artefakte, die 
 Wenn du kein Artefakt finden kannst, verwende {item:70161} (oder andere Spielzeuge zum Hinsetzen) vor dem Felsgerümpel. Setz dich hin. Stehe wieder auf und geh in die Höhle.
 ]]
 L['zhugon_note'] = 'Wenn das Brauevent aktiv ist, töte {npc:71908} und zerbrich Fässer, bis der seltene Gegner erscheint.'
-L['garnia_note'] = 'Benutze einen {npc:73531}, um auf den Gipfel des Berges zu fliegen und {npc:73282} zu töten.\n\n{note:Der {npc:73531} kann durch die Verwendung des {item:119083} oder ähnlicher Spielzeuge angegriffen werden, ohne ihn zu töten.}'
+L['garnia_note'] = 'Benutze einen {npc:73531}, um auf den Gipfel des Berges zu fliegen und {npc:73282} zu töten.'
 
 L['blazing_chest'] = 'Lodernde Truhe'
 L['moss_covered_chest'] = 'Moosüberwucherte Truhe'
 L['skull_covered_chest'] = 'Totenkopftruhe'
 L['smoldering_chest'] = 'Schwelende Truhe'
 L['sturdy_chest'] = 'Robuste Truhe'
-L['sturdy_chest_note'] = 'Greife einen {npc:73531} an, um hierher getragen zu werden.'
+L['albatros_note'] = 'Greife einen {npc:73531} an, um hierher getragen zu werden.\n\n{note:Der {npc:73531} kann durch die Verwendung des {item:119083} oder ähnlicher Spielzeuge angegriffen werden, ohne ihn zu töten.}'
 L['timeless_chest'] = 'Zeitlose Truhe'
 L['timeless_chest_note'] = 'Du kannst den Schlüssel bei {npc:72007} für 500 {currency:777} kaufen.'
 

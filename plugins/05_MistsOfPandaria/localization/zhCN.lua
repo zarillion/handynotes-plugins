@@ -36,14 +36,14 @@ L['spelurk_note'] = [[
 如果找不到文物，可以使用 {item:70161}（或坐垫类玩具）在岩石前面。坐下，然后站起来直走进入。
 ]]
 L['zhugon_note'] = '当酿酒事件激活，击杀 {npc:71908} 并打破酒桶直到稀有出现。'
-L['garnia_note'] = '使用 {npc:73531} 飞到山顶击杀 {npc:73282}。\n\n{note:可以通过使用 {item:119083} 或类似玩具来吸引 {npc:73531} 的仇恨，而无需击杀他。}'
+L['garnia_note'] = '使用 {npc:73531} 飞到山顶击杀 {npc:73282}。'
 
 L['blazing_chest'] = '炽燃宝箱'
 L['moss_covered_chest'] = '覆苔宝箱'
 L['skull_covered_chest'] = '嵌颅宝箱'
 L['smoldering_chest'] = '阴燃宝箱'
 L['sturdy_chest'] = '坚固宝箱'
-L['sturdy_chest_note'] = '攻击 {npc:73531} 被带到这里。'
+L['albatros_note'] = '攻击 {npc:73531} 被带到这里。\n\n{note:可以通过使用 {item:119083} 或类似玩具来吸引 {npc:73531} 的仇恨，而无需击杀他。}'
 L['timeless_chest'] = '永恒宝箱'
 L['timeless_chest_note'] = '可以从 {npc:72007} 处用500个 {currency:777} 购买钥匙。'
 

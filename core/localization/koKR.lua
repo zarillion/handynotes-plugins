@@ -105,6 +105,7 @@ L['currency'] = nil
 L['rep'] = '평판'
 L['buff'] = nil
 L['transmog'] = nil
+L['hunter_pet'] = nil
 
 ---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = '추종자'

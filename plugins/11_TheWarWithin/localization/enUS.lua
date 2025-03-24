@@ -590,6 +590,7 @@ L['trick_deck_of_cards_location'] = 'On the desk next to {npc:231045} inside {lo
 L['breakneck_customization'] = 'G-99 Breakneck'
 
 L['ditty_fuzeboy_note'] = 'Exchange {item:234741} for pets.'
+L['skedgit_cinderbangs_note'] = 'Exchange {item:234741} for mounts.\n\n{note:Mounts can be bought and sold from the auction house.}'
 L['angelo_rustbin_note'] = 'Exchange {currency:3218} for a toy and a {object:G-99 Breakneck} customization. Exchange {item:233557} for a chance to receive pet and mount.\n\nExchange {currency:3220} for pets.\n\n{note:Collecting {currency:3218} can done at any time but collecting {item:229810} requires {faction:2653} Renown 14.}'
 L['blair_bass_note'] = 'Exchange {item:227673} for toys.\n\n{item:227673} can be fished up from {object:Steamwheedle Runoff} pools.'
 L['greexit_coarsebub_note'] = 'Exchange gold for goblin cartel transmogs.\n\n{note:Only items associated with your current cartel are available to purchase.}'
@@ -639,3 +640,7 @@ L['breakneck_race_note'] = 'The following {object:G-99 Breakneck} upgrades are r
 L['upgrade_the_pozzik_standard'] = '{item:232982} (Engine): Earn |cFFCD7F32Bronze|r in all normal and reverse {object:Breakneck} races.'
 L['upgrade_22h_slicks'] = '{item:232985} (Wheels): Crafted by engineers and sold on the auction house.'
 L['upgrade_turbo_handcrank'] = '{item:232984} (Turbo): Combine all 5 pieces collected from rares or the auction house.'
+
+L['blazefeather_peacock_note'] = 'After completing the {quest:83421} storyline, speak with {npc:226555} to pay %s to summon a trainable {npc:226561}.'
+L['radioactive_subject_note'] = 'Use nearby pipes and combination of {item:237276}, {item:109076}, {item:231099} or any other jumping puzzle tricks to reach the roof of the {location:Steamwheedle Laboratories} building in {location:The Vatworks}.'
+L['george_the_big_pinch_note'] = 'Quickly click all 5 {npc:238189} to recieve {spell:1219679} and allow you to tame {npc:233938}.'

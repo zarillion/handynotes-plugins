@@ -590,6 +590,7 @@ L['trick_deck_of_cards_location'] = nil
 L['breakneck_customization'] = nil
 
 L['ditty_fuzeboy_note'] = nil
+L['skedgit_cinderbangs_note'] = nil
 L['angelo_rustbin_note'] = nil
 L['blair_bass_note'] = nil
 L['greexit_coarsebub_note'] = nil
@@ -639,3 +640,7 @@ L['breakneck_race_note'] = nil
 L['upgrade_the_pozzik_standard'] = nil
 L['upgrade_22h_slicks'] = nil
 L['upgrade_turbo_handcrank'] = nil
+
+L['blazefeather_peacock_note'] = nil
+L['radioactive_subject_note'] = nil
+L['george_the_big_pinch_note'] = nil

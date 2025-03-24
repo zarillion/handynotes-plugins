@@ -115,6 +115,24 @@ function Spacer:IsEnabled() return true end
 function Spacer:Render(tooltip) tooltip:AddLine(' ') end
 
 -------------------------------------------------------------------------------
+--------------------------------- HUNTER PET ----------------------------------
+-------------------------------------------------------------------------------
+
+local HunterPet = Class('HunterPet', Reward, {type = L['hunter_pet']})
+
+function HunterPet:GetText()
+    local text = ('{npc:%d}'):format(self.id)
+    return Icon(self.icon) .. ns.RenderLinks(text) .. ' (' .. self.type .. ')'
+end
+
+function HunterPet:IsObtainable() return ns.class == 'HUNTER' end
+
+function HunterPet:GetStatus()
+    local status = Orange(L['unobtainable'])
+    return not self:IsObtainable() and status or nil
+end
+
+-------------------------------------------------------------------------------
 --------------------------------- ACHIEVEMENT ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -324,6 +342,11 @@ end
 
 function Item:Prepare() ns.PrepareLinks(self.note) end
 
+function Item:IsEnabled()
+    if self.profession then return ns.PlayerHasProfession(self.profession) end
+    return true
+end
+
 function Item:IsObtained()
     if self.quest then return C_QuestLog.IsQuestFlaggedCompleted(self.quest) end
     if self.bag then return ns.PlayerHasItem(self.item) end
@@ -496,12 +519,16 @@ function Recipe:IsObtained()
 end
 
 function Recipe:GetStatus()
-    return self:IsObtained() and Green(L['known']) or Red(L['missing'])
-end
+    local collected = self:IsObtained()
+    local status = collected and Green(L['known']) or Red(L['missing'])
 
-function Recipe:IsEnabled()
-    if not Item.IsEnabled(self) then return false end
-    return ns.PlayerHasProfession(self.profession)
+    if not collected then
+        if not ns.PlayerHasProfession(self.profession) then
+            status = Orange(L['unlearnable'])
+        end
+    end
+
+    return status
 end
 
 -------------------------------------------------------------------------------
@@ -734,6 +761,7 @@ ns.reward = {
     Follower = Follower,
     Item = Item,
     Heirloom = Heirloom,
+    HunterPet = HunterPet,
     Manuscript = Manuscript,
     Mount = Mount,
     Pet = Pet,

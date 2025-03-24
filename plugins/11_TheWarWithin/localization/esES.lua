@@ -590,6 +590,7 @@ L['trick_deck_of_cards_location'] = 'En el escritorio al lado de {npc:231045} de
 L['breakneck_customization'] = 'Rompecuellos G-99'
 
 L['ditty_fuzeboy_note'] = 'Intercambia {item:234741} por mascotas.'
+L['skedgit_cinderbangs_note'] = 'Intercambia {item:234741} por monturas.\n\n{note:Las monturas se pueden comprar y vender en la Casa de Subastas.}'
 L['angelo_rustbin_note'] = 'Intercambia {currency:3218} por un juguete y la transfiguración {object:Rompecuellos G-99}. Intercambia {item:233557} por una oportunidad de conseguir una mascota y una montura.\n\nIntercambia {currency:3220} por mascotas.\n\n{note:Se puede conseguir {currency:3218} en cualquier momento, pero conseguir la {item:229810} requiere Renombre 14 con {faction:2653}.}'
 L['blair_bass_note'] = 'Intercambia {item:227673} por juguetes.\n\n{item:227673} se puede pescar en los bancos de peces {object:Escorrentía Bonvapor}.'
 L['greexit_coarsebub_note'] = 'Intercambia oro por transfiguraciones del cártel de goblins.\n\n{note:Los objetos disponibles para comprar son sólo los de tu cártel actual.}'
@@ -639,3 +640,7 @@ L['breakneck_race_note'] = 'Se recomienda hacer las siguientes mejoras al {objec
 L['upgrade_the_pozzik_standard'] = '{item:232982} (motor): Consigue el |cFFCD7F32Bronce|r en todas las carreras normales e inversas del {object:Rompecuellos}.'
 L['upgrade_22h_slicks'] = '{item:232985} (ruedas): Hechas por ingenieros y vendidas en la Casa de Subastas.'
 L['upgrade_turbo_handcrank'] = '{item:232984} (turbo): Combina las 5 piezas de los raros o de la Casa de Subastas.'
+
+L['blazefeather_peacock_note'] = 'Después de completar la serie de misiones {quest:83421}, habla con {npc:226555} para pagar %s por invocar un {npc:226561} entrenable.'
+L['radioactive_subject_note'] = 'Usa las tuberías cercanas y, combinando {item:237276}, {item:109076}, {item:231099} o cualquier otro truco de rompecabezas, salta al techo del edificio de los {location:Laboratorios Bonvapor} en {location:Estación de Vapor}.'
+L['george_the_big_pinch_note'] = 'Haz click rápidamente en los 5 {npc:238189} para conseguir {spell:1219679} que te permitirá domesticar {npc:233938}.'

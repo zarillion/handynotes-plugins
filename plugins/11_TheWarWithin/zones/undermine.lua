@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
+local Node = ns.node.Node
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
@@ -14,9 +15,11 @@ local Vendor = ns.node.Vendor
 local WorldsoulMemory = ns.node.WorldsoulMemory
 
 local Achievement = ns.reward.Achievement
+local HunterPet = ns.reward.HunterPet
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Recipe = ns.reward.Recipe
 local Reputation = ns.reward.Reputation
 local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
@@ -468,7 +471,10 @@ map.nodes[43665154] = Treasure({
 map.nodes[42308231] = Treasure({
     location = L['in_building'],
     quest = 86487,
-    rewards = {Achievement({id = 41217, criteria = 71635})}
+    rewards = {
+        Achievement({id = 41217, criteria = 71635}),
+        Item({item = 235037, quest = 86630, profession = 202}) -- Crumpled Schematic: Wormhole Generator: Undermine
+    }
 }) -- Crumpled Schematics
 
 -------------------------------------------------------------------------------
@@ -489,7 +495,17 @@ map.nodes[35384142] = Vendor({
         Pet({item = 232841, id = 4644, count = 8}), -- Professor Punch
         Pet({item = 232842, id = 4638, count = 10}) -- Crimson Mechasaur
     }
-}) -- Ditty Fuzeboy
+}) -- Ditty Fuzeboy <Entertainment Supplier>
+
+map.nodes[43208280] = Vendor({
+    id = 228286,
+    note = L['skedgit_cinderbangs_note'],
+    rewards = {
+        Mount({item = 229941, id = 2283, count = 25}), -- Innovation Investigator
+        Mount({item = 229952, id = 2290, count = 25}), -- Asset Advocator
+        Mount({item = 229954, id = 2292, count = 25}) -- Margin Manipulator
+    }
+}) -- Skedgit Cinderbangs <Entrepreneur Inc.>
 
 map.nodes[25743813] = Vendor({
     id = 234776,
@@ -505,7 +521,7 @@ map.nodes[25743813] = Vendor({
         Pet({item = 232858, id = 4655, count = 1}), -- Cruncher
         Pet({item = 232859, id = 4653, count = 3}) -- Lab Rat
     }
-}) -- Angelo Rustbin
+}) -- Angelo Rustbin <S.C.R.A.P. Exchange>
 
 map.nodes[34097126] = Vendor({
     id = 226994,
@@ -515,7 +531,7 @@ map.nodes[34097126] = Vendor({
         Toy({item = 237347, count = 5}), -- Organically-Sourced Wellington Bobber
         Toy({item = 237345, count = 5}) -- Limited Edition Rocket Bobber
     }
-}) -- Blair Bass
+}) -- Blair Bass <"Gold" Fish Exchange>
 
 map.nodes[24606320] = Vendor({
     id = 236849,
@@ -541,7 +557,7 @@ map.nodes[24606320] = Vendor({
         Transmog({item = 231750, count = 95}), -- Venture Co. Bruisers Spaulders
         Transmog({item = 231738, count = 475}) -- Venture Co. Bruisers Tabard
     }
-}) -- Greexit Coarsebub
+}) -- Greexit Coarsebub <Discount Fashion>
 
 ------------------------ GOBLIN CARTEL QUARTERMASTERS -------------------------
 
@@ -849,9 +865,12 @@ map.nodes[33085816] = Collectible({
     icon = 'peg_bl',
     scale = 2.0,
     note = L['undermine_undershirt_note'],
-    rlabel = ns.status.Gray('#1'),
+    rlabel = ns.status.Gray('#1, #2'),
     location = L['in_sewer'],
-    pois = {Entrance({33815756})},
+    pois = {
+        Entrance({33815756}),
+        POI({33615811, label = '{npc:238661}', color = 'Red'}) -- Hungry Rat
+    },
     rewards = {Transmog({item = 237130})} -- Undermine Undershirt
 }) -- Sewer Cheese
 
@@ -860,7 +879,7 @@ map.nodes[63231691] = Collectible({
     icon = 'peg_bl',
     scale = 2.0,
     note = L['undermine_undershirt_note'],
-    rlabel = ns.status.Gray('#2'),
+    rlabel = ns.status.Gray('#3'),
     requires = ns.requirement.Item(237129), -- Tarnished Undermine Real
     rewards = {Transmog({item = 237130})} -- Undermine Undershirt
 }) -- Pix Xizzix
@@ -879,6 +898,37 @@ map.nodes[38058868] = Collectible({
         ns.requirement.Profession(185, 2873, 35) -- The War Within Cooking 35
     },
     rewards = {
-        ns.reward.Recipe({item = 235800, profession = 185}) -- Recipe:
+        Recipe({item = 235800, profession = 185}) -- Recipe: Authentic Undermine Clam Chowder
     }
 }) -- Authentic Undermine Clam Chowder
+
+--------------------------------- HUNTER PETS ---------------------------------
+
+local HunterPetNode = Class('HunterPetNode', Node,
+    {icon = 'peg_gn', scale = 2.0, class = 'HUNTER'})
+
+map.nodes[39801260] = HunterPetNode({
+    label = '{npc:226555}',
+    requires = ns.requirement.Quest(87008), -- ![Ad-Hoc Wedding Planner]
+    note = format(L['blazefeather_peacock_note'],
+        GetCoinTextureString(5000000000)),
+    rewards = {HunterPet({id = 226561, icon = 132200})} -- Blazefeather Peakcock
+}) -- Grelik Greaseguard <Exotic Beasts> (Blazefeather Peacock)
+
+map.nodes[28007080] = HunterPetNode({
+    label = '{npc:239325}',
+    note = L['radioactive_subject_note'],
+    rewards = {HunterPet({id = 239325, icon = 644001})} -- Radioactive Subject
+}) -- Radioactive Subject
+
+local zul = ns.maps[862] or Map({id = 862, settings = false})
+
+zul.nodes[17576104] = HunterPetNode({
+    label = '{npc:233938}',
+    note = L['george_the_big_pinch_note'],
+    rewards = {HunterPet({id = 233938, icon = 132186})}, -- George <The Big Pinch>
+    pois = {
+        POI({22845943, 21715939, 21526072, 20445985, 19156043}),
+        Path({22845943, 21715939, 21526072, 20445985, 19156043, 17576104})
+    }
+}) -- George <The Big Pinch>
