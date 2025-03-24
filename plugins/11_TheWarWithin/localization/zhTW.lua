@@ -641,6 +641,6 @@ L['radioactive_subject_note'] = nil
 L['george_the_big_pinch_note'] = nil
 
 L['skyrocketing_sprint'] = '衝天火箭奔馳賽道'
-L['unlock_skyrocketing_note'] = nil
+L['unlock_skyrocketing_note'] = '{note:該角色須完成一次衝天火箭奔馳賽}\n解鎖衝天火箭競賽的4個世界任務: \n{wq:天空騎術競賽 - 衝天火箭奔馳賽}\n{wq:天空騎術競賽 - 垃圾場飛躍賽道}\n{wq:天空騎術競賽 - 廢料工坊彈射}\n{wq:天空騎術競賽 - 發家致富疾衝賽}'
 
 L['chett_suffix'] = 'C.H.E.T.T.清單'
