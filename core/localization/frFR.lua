@@ -133,7 +133,7 @@ L['sr_reverse_challenge'] = 'Défi inversé'
 L['sr_storm_race'] = 'Course des tempêtes'
 L['sr_bronze'] = 'Terminez la course pour obtenir ' .. ns.color.Bronze('Bronze') .. '.'
 L['sr_vendor_note'] = 'Échangez vos {currency:2588} contre des manuscrits guette-drake et des objets de transmogrification.'
-L['options_icons_skyriding_race'] = nil
+L['options_icons_skyriding_race'] = 'Courses de Vol dynamique'
 L['options_icons_skyriding_race_desc'] = 'Afficher les emplacements de toutes les courses dans la zone.'
 
 -------------------------------------------------------------------------------
