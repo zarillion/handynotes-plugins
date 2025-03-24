@@ -641,4 +641,6 @@ L['radioactive_subject_note'] = 'Use nearby pipes and combination of {item:23727
 L['george_the_big_pinch_note'] = 'Quickly click all 5 {npc:238189} to recieve {spell:1219679} and allow you to tame {npc:233938}.'
 
 L['skyrocketing_sprint'] = 'Skyrocketing Sprint'
-L['unlock_skyrocketing_note'] = 'To unlock the 4 Skyrocketing Race world quests: \n{note:This character has to just complete Skyrocketing Sprint only once.}'
+L['unlock_skyrocketing_note'] = '{note:This character has to just complete Skyrocketing Sprint only once.}\nTo unlock the 4 Skyrocketing Race world quests: \n{wq:Skyrider Racing - Skyrocketing Sprint}\n{wq:Skyrider Racing - The Heaps Leap}\n{wq:Skyrider Racing - Scrapshop Shot}\n{wq:Skyrider Racing - Rags to Riches Rush}'
+
+L['chett_suffix'] = 'C.H.E.T.T. List'

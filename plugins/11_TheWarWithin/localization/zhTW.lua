@@ -639,3 +639,8 @@ L['undermine_clam_chowder_note'] = nil
 L['blazefeather_peacock_note'] = nil
 L['radioactive_subject_note'] = nil
 L['george_the_big_pinch_note'] = nil
+
+L['skyrocketing_sprint'] = '衝天火箭奔馳賽道'
+L['unlock_skyrocketing_note'] = nil
+
+L['chett_suffix'] = 'C.H.E.T.T.清單'

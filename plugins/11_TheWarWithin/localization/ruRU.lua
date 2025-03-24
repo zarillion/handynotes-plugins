@@ -640,3 +640,8 @@ L['undermine_clam_chowder_note'] = '1. Чтобы получить этот ре
 L['blazefeather_peacock_note'] = nil
 L['radioactive_subject_note'] = nil
 L['george_the_big_pinch_note'] = nil
+
+L['skyrocketing_sprint'] = 'Турбоскоростной спринт'
+L['unlock_skyrocketing_note'] = nil -- \n{wq:Воздушные гонки – Турбоскоростной спринт}\n{wq:Воздушные гонки – Бросок по Хламовнику}\n{wq:Воздушные гонки – Пролет по Хламовской}\n{wq:Воздушные гонки – Рывок из грязи в князи}
+
+L['chett_suffix'] = 'Список КРОТ'

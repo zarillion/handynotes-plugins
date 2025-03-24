@@ -641,4 +641,6 @@ L['radioactive_subject_note'] = '使用附近的管道和 {item:237276}、{item:
 L['george_the_big_pinch_note'] = '快速点击所有5个 {npc:238189} 以获得 {spell:1219679}，并允许驯服 {npc:233938}。'
 
 L['skyrocketing_sprint'] = '冲天火箭疾行赛'
-L['unlock_skyrocketing_note'] = '解锁冲天火箭竞速的4个世界任务: \n{note:该角色须完成一次冲天火箭疾行赛}'
+L['unlock_skyrocketing_note'] = '{note:该角色须完成一次冲天火箭疾行赛}\n解锁冲天火箭竞速的4个世界任务: \n{wq:驭空竞速 - 冲天火箭疾行赛}\n{wq:驭空竞速 - 锈废堆场猛冲}\n{wq:驭空竞速 - 废渣铺疾射}\n{wq:驭空竞速 - 平步青云冲刺赛}'
+
+L['chett_suffix'] = 'C.H.E.T.T. 清单'

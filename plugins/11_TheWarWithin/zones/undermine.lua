@@ -838,7 +838,7 @@ local ChettList = Class('ChettList', Collectible,{
     rewards = {
         Achievement({
             id = 41629,
-            criteria = {id = 1, qty = true, suffix = '{item:236682}'}}), -- C.H.E.T.T.mate
+            criteria = {id = 1, qty = true, suffix = L['chett_suffix']}}), -- C.H.E.T.T.mate
         Transmog({item = 237900, slot = _G.BACKSLOT}), -- C.H.E.T.T. Pack
         Item({item = 236682, weekly = 87296}) -- C.H.E.T.T. List
     }
