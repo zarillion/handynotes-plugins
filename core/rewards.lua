@@ -342,6 +342,11 @@ end
 
 function Item:Prepare() ns.PrepareLinks(self.note) end
 
+function Item:IsEnabled()
+    if self.profession then return ns.PlayerHasProfession(self.profession) end
+    return true
+end
+
 function Item:IsObtained()
     if self.quest then return C_QuestLog.IsQuestFlaggedCompleted(self.quest) end
     if self.bag then return ns.PlayerHasItem(self.item) end
