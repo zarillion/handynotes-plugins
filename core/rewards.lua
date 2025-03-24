@@ -323,19 +323,35 @@ end
 
 local Item = Class('Item', Reward)
 
+local Cache = {}
+
 function Item:Initialize(attrs)
     Reward.Initialize(self, attrs)
 
     if not self.item then
         error('Item() reward requires an item id to be set')
     end
-    self.itemLink = L['retrieving']
-    self.itemIcon = 'Interface\\Icons\\Inv_misc_questionmark'
+
+    local item = Cache[self.item]
+    if item then
+        self.itemLink = item.link
+        self.itemIcon = item.icon
+    else
+        self.itemLink = L['retrieving']
+        self.itemIcon = 'Interface\\Icons\\Inv_misc_questionmark'
+        self:CacheItem()
+    end
+end
+
+function Item:CacheItem()
     local item = _G.Item:CreateFromItemID(self.item)
     if not item:IsItemEmpty() then
         item:ContinueOnItemLoad(function()
-            self.itemLink = item:GetItemLink()
-            self.itemIcon = item:GetItemIcon()
+            local itemLink = item:GetItemLink()
+            local itemIcon = item:GetItemIcon()
+            Cache[self.item] = {link = itemLink, icon = itemIcon}
+            self.itemLink = itemLink
+            self.itemIcon = itemIcon
         end)
     end
 end
