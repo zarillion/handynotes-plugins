@@ -4,7 +4,7 @@
 local ADDON_NAME, ns = ...
 local Map = ns.Map
 
-local DragonridingRace = ns.node.DragonridingRace
+local SkyridingRace = ns.node.SkyridingRace
 
 local Achievement = ns.reward.Achievement
 
@@ -37,7 +37,7 @@ local function Outland_Rewards(c)
     }
 end
 
-HellfirePeninsula.nodes[75514425] = DragonridingRace({
+HellfirePeninsula.nodes[75514425] = SkyridingRace({
     label = '{quest:77102}',
     normal = {2600, 80, 75},
     advanced = {2615, 76, 73},
@@ -45,7 +45,7 @@ HellfirePeninsula.nodes[75514425] = DragonridingRace({
     rewards = Outland_Rewards(1)
 }) -- Hellfire Hustle
 
-Zangarmarsh.nodes[36923719] = DragonridingRace({
+Zangarmarsh.nodes[36923719] = SkyridingRace({
     label = '{quest:77169}',
     normal = {2601, 80, 75},
     advanced = {2616, 73, 70},
@@ -53,7 +53,7 @@ Zangarmarsh.nodes[36923719] = DragonridingRace({
     rewards = Outland_Rewards(2)
 }) -- Coilfang Caper
 
-BladesEdge.nodes[61032759] = DragonridingRace({
+BladesEdge.nodes[61032759] = SkyridingRace({
     label = '{quest:77205}',
     normal = {2602, 80, 75},
     advanced = {2617, 75, 72},
@@ -61,7 +61,7 @@ BladesEdge.nodes[61032759] = DragonridingRace({
     rewards = Outland_Rewards(3)
 }) -- Blade's Edge Brawl
 
-ShadowmoonValley.nodes[61734841] = DragonridingRace({
+ShadowmoonValley.nodes[61734841] = SkyridingRace({
     label = '{quest:77346}',
     normal = {2608, 75, 70},
     advanced = {2623, 66, 63},
@@ -69,7 +69,7 @@ ShadowmoonValley.nodes[61734841] = DragonridingRace({
     rewards = Outland_Rewards(9)
 }) -- Shadowmoon Slam
 
-ShadowmoonValley.nodes[51014006] = DragonridingRace({
+ShadowmoonValley.nodes[51014006] = SkyridingRace({
     label = '{quest:77684}',
     normal = {2612, 82, 77},
     advanced = {2627, 76, 73},
@@ -77,7 +77,7 @@ ShadowmoonValley.nodes[51014006] = DragonridingRace({
     rewards = Outland_Rewards(13)
 }) -- Fel Pit Fracas
 
-Nagrand.nodes[58267599] = DragonridingRace({
+Nagrand.nodes[58267599] = SkyridingRace({
     label = '{quest:77238}',
     normal = {2603, 69, 64},
     advanced = {2618, 60, 57},
@@ -85,7 +85,7 @@ Nagrand.nodes[58267599] = DragonridingRace({
     rewards = Outland_Rewards(4)
 }) -- Telaar Tear
 
-Nagrand.nodes[29472503] = DragonridingRace({
+Nagrand.nodes[29472503] = SkyridingRace({
     label = '{quest:77589}',
     normal = {2610, 85, 80},
     advanced = {2625, 75, 72},
@@ -93,7 +93,7 @@ Nagrand.nodes[29472503] = DragonridingRace({
     rewards = Outland_Rewards(11)
 }) -- Warmaul Wingding
 
-local ShattrathCitySashay = DragonridingRace({
+local ShattrathCitySashay = SkyridingRace({
     label = '{quest:77322}',
     normal = {2607, 80, 75},
     advanced = {2622, 68, 65},
@@ -104,7 +104,7 @@ local ShattrathCitySashay = DragonridingRace({
 TerokkarForest.nodes[34813025] = ShattrathCitySashay
 Shattrath.nodes[71317061] = ShattrathCitySashay
 
-local RazorthornRiseRush = DragonridingRace({
+local RazorthornRiseRush = SkyridingRace({
     label = '{quest:77260}',
     normal = {2604, 72, 67},
     advanced = {2619, 57, 54},
@@ -115,7 +115,7 @@ local RazorthornRiseRush = DragonridingRace({
 TerokkarForest.nodes[59810480] = RazorthornRiseRush
 HellfirePeninsula.nodes[32657707] = RazorthornRiseRush
 
-TerokkarForest.nodes[42256788] = DragonridingRace({
+TerokkarForest.nodes[42256788] = SkyridingRace({
     label = '{quest:77264}',
     normal = {2605, 78, 73},
     advanced = {2620, 73, 70},
@@ -123,7 +123,7 @@ TerokkarForest.nodes[42256788] = DragonridingRace({
     rewards = Outland_Rewards(6)
 }) -- Auchindoun Coaster
 
-TerokkarForest.nodes[67256586] = DragonridingRace({
+TerokkarForest.nodes[67256586] = SkyridingRace({
     label = '{quest:77645}',
     normal = {2611, 75, 70},
     advanced = {2626, 66, 63},
@@ -131,7 +131,7 @@ TerokkarForest.nodes[67256586] = DragonridingRace({
     rewards = Outland_Rewards(12)
 }) -- Skettis Scramble
 
-Netherstorm.nodes[51204193] = DragonridingRace({
+Netherstorm.nodes[51204193] = SkyridingRace({
     label = '{quest:77398}',
     normal = {2609, 120, 115},
     advanced = {2624, 112, 109},
@@ -139,7 +139,7 @@ Netherstorm.nodes[51204193] = DragonridingRace({
     rewards = Outland_Rewards(10)
 }) -- Eco-Dome Excursion
 
-Netherstorm.nodes[68894774] = DragonridingRace({
+Netherstorm.nodes[68894774] = SkyridingRace({
     label = '{quest:77278}',
     normal = {2606, 105, 100},
     advanced = {2621, 90, 87},
@@ -163,8 +163,8 @@ local OUTLAND_POIS = {
     [7601] = 51014006 -- Fel Pit Fracas
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     pois = OUTLAND_POIS
 })

@@ -6,7 +6,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Class = ns.Class
 
-local DragonridingRace = ns.node.DragonridingRace
+local SkyridingRace = ns.node.SkyridingRace
 
 local Achievement = ns.reward.Achievement
 
@@ -39,7 +39,7 @@ local function IsleOfDorn_Rewards(a)
     return rewards
 end
 
-Dornogal.nodes[43471165] = DragonridingRace({
+Dornogal.nodes[43471165] = SkyridingRace({
     label = '{quest:80219}',
     parent = IsleOfDorn,
     normal = {2923, 0, 0},
@@ -48,7 +48,7 @@ Dornogal.nodes[43471165] = DragonridingRace({
     rewards = IsleOfDorn_Rewards(1)
 }) -- Dornogal Drift
 
-IsleOfDorn.nodes[38574346] = DragonridingRace({
+IsleOfDorn.nodes[38574346] = SkyridingRace({
     label = '{quest:80220}',
     normal = {2924, 0, 0},
     advanced = {2930, 0, 0},
@@ -56,7 +56,7 @@ IsleOfDorn.nodes[38574346] = DragonridingRace({
     rewards = IsleOfDorn_Rewards(2)
 }) -- Storm's Watch Survey
 
-IsleOfDorn.nodes[53486421] = DragonridingRace({
+IsleOfDorn.nodes[53486421] = SkyridingRace({
     label = '{quest:80221}',
     normal = {2925, 0, 0},
     advanced = {2931, 0, 0},
@@ -64,7 +64,7 @@ IsleOfDorn.nodes[53486421] = DragonridingRace({
     rewards = IsleOfDorn_Rewards(3)
 }) -- Basin Bypass
 
-IsleOfDorn.nodes[62164601] = DragonridingRace({
+IsleOfDorn.nodes[62164601] = SkyridingRace({
     label = '{quest:80222}',
     normal = {2926, 0, 0},
     advanced = {2932, 0, 0},
@@ -72,7 +72,7 @@ IsleOfDorn.nodes[62164601] = DragonridingRace({
     rewards = IsleOfDorn_Rewards(4)
 }) -- The Wold Ways
 
-IsleOfDorn.nodes[58332485] = DragonridingRace({
+IsleOfDorn.nodes[58332485] = SkyridingRace({
     label = '{quest:80223}',
     normal = {2927, 0, 0},
     advanced = {2933, 0, 0},
@@ -80,7 +80,7 @@ IsleOfDorn.nodes[58332485] = DragonridingRace({
     rewards = IsleOfDorn_Rewards(5)
 }) -- Thunderhead Trail
 
-IsleOfDorn.nodes[32937483] = DragonridingRace({
+IsleOfDorn.nodes[32937483] = SkyridingRace({
     label = '{quest:80224}',
     normal = {2928, 0, 0},
     advanced = {2934, 0, 0},
@@ -97,8 +97,8 @@ local ISLE_OF_DORN_POIS = {
     [7798] = 32937483 -- Orecreg's Doglegs
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     pois = ISLE_OF_DORN_POIS
 })
 
@@ -121,7 +121,7 @@ local function RingingDeeps_Rewards(a)
     return rewards
 end
 
-RingingDeeps.nodes[36701131] = DragonridingRace({
+RingingDeeps.nodes[36701131] = SkyridingRace({
     label = '{quest:80237}',
     normal = {2941, 0, 0},
     advanced = {2947, 0, 0},
@@ -129,7 +129,7 @@ RingingDeeps.nodes[36701131] = DragonridingRace({
     rewards = RingingDeeps_Rewards(1)
 }) -- Earthenworks Weave
 
-RingingDeeps.nodes[38072744] = DragonridingRace({
+RingingDeeps.nodes[38072744] = SkyridingRace({
     label = '{quest:80238}',
     normal = {2942, 0, 0},
     advanced = {2948, 0, 0},
@@ -137,7 +137,7 @@ RingingDeeps.nodes[38072744] = DragonridingRace({
     rewards = RingingDeeps_Rewards(2)
 }) -- Ringing Deeps Ramble
 
-RingingDeeps.nodes[63753479] = DragonridingRace({
+RingingDeeps.nodes[63753479] = SkyridingRace({
     label = '{quest:80239}',
     normal = {2943, 0, 0},
     advanced = {2949, 0, 0},
@@ -145,7 +145,7 @@ RingingDeeps.nodes[63753479] = DragonridingRace({
     rewards = RingingDeeps_Rewards(3)
 }) -- Chittering Concourse
 
-RingingDeeps.nodes[48314686] = DragonridingRace({
+RingingDeeps.nodes[48314686] = SkyridingRace({
     label = '{quest:80240}',
     normal = {2944, 0, 0},
     advanced = {2950, 0, 0},
@@ -153,7 +153,7 @@ RingingDeeps.nodes[48314686] = DragonridingRace({
     rewards = RingingDeeps_Rewards(4)
 }) -- Cataract River Cruise
 
-RingingDeeps.nodes[62486868] = DragonridingRace({
+RingingDeeps.nodes[62486868] = SkyridingRace({
     label = '{quest:80242}',
     normal = {2945, 0, 0},
     advanced = {2951, 0, 0},
@@ -161,7 +161,7 @@ RingingDeeps.nodes[62486868] = DragonridingRace({
     rewards = RingingDeeps_Rewards(5)
 }) -- Taelloch Twist
 
-RingingDeeps.nodes[59397513] = DragonridingRace({
+RingingDeeps.nodes[59397513] = SkyridingRace({
     label = '{quest:80243}',
     normal = {2946, 0, 0},
     advanced = {2952, 0, 0},
@@ -178,8 +178,8 @@ local RINGING_DEEPS_POIS = {
     [7804] = 59397513 -- Opportunity Point Amble
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     pois = RINGING_DEEPS_POIS
 })
 
@@ -202,7 +202,7 @@ local function Hallowfall_Rewards(a)
     return rewards
 end
 
-Hallowfall.nodes[72783842] = DragonridingRace({
+Hallowfall.nodes[72783842] = SkyridingRace({
     label = '{quest:80256}',
     normal = {2959, 0, 0},
     advanced = {2965, 0, 0},
@@ -210,7 +210,7 @@ Hallowfall.nodes[72783842] = DragonridingRace({
     rewards = Hallowfall_Rewards(1)
 }) -- Dunelle's Detour
 
-Hallowfall.nodes[59196894] = DragonridingRace({
+Hallowfall.nodes[59196894] = SkyridingRace({
     label = '{quest:80257}',
     normal = {2960, 0, 0},
     advanced = {2966, 0, 0},
@@ -218,7 +218,7 @@ Hallowfall.nodes[59196894] = DragonridingRace({
     rewards = Hallowfall_Rewards(2)
 }) -- Tenir's Traversal
 
-Hallowfall.nodes[41436725] = DragonridingRace({
+Hallowfall.nodes[41436725] = SkyridingRace({
     label = '{quest:80258}',
     normal = {2961, 0, 0},
     advanced = {2967, 0, 0},
@@ -226,7 +226,7 @@ Hallowfall.nodes[41436725] = DragonridingRace({
     rewards = Hallowfall_Rewards(3)
 }) -- Light's Redoubt Descent
 
-Hallowfall.nodes[60412602] = DragonridingRace({
+Hallowfall.nodes[60412602] = SkyridingRace({
     label = '{quest:80259}',
     normal = {2962, 0, 0},
     advanced = {2968, 0, 0},
@@ -234,7 +234,7 @@ Hallowfall.nodes[60412602] = DragonridingRace({
     rewards = Hallowfall_Rewards(4)
 }) -- Stillstone Slalom
 
-Hallowfall.nodes[38976136] = DragonridingRace({
+Hallowfall.nodes[38976136] = SkyridingRace({
     label = '{quest:80260}',
     normal = {2963, 0, 0},
     advanced = {2969, 0, 0},
@@ -242,7 +242,7 @@ Hallowfall.nodes[38976136] = DragonridingRace({
     rewards = Hallowfall_Rewards(5)
 }) -- Mereldar Meander
 
-Hallowfall.nodes[54131740] = DragonridingRace({
+Hallowfall.nodes[54131740] = SkyridingRace({
     label = '{quest:80261}',
     normal = {2964, 0, 0},
     advanced = {2970, 0, 0},
@@ -259,10 +259,8 @@ local HALLOWFALL_POIS = {
     [7810] = 54131740 -- Velhan's Venture
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
-    pois = HALLOWFALL_POIS
-})
+ns.hook
+    .SkyridingRace({group = ns.groups.SKYRIDING_RACE, pois = HALLOWFALL_POIS})
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
@@ -283,7 +281,7 @@ local function AzjKahet_Rewards(a)
     return rewards
 end
 
-AzjKahet.nodes[40756780] = DragonridingRace({
+AzjKahet.nodes[40756780] = SkyridingRace({
     label = '{quest:80277}',
     normal = {2977, 0, 0},
     advanced = {2983, 0, 0},
@@ -291,7 +289,7 @@ AzjKahet.nodes[40756780] = DragonridingRace({
     rewards = AzjKahet_Rewards(1)
 }) -- City of Threads Twist
 
-AzjKahet.nodes[77927964] = DragonridingRace({
+AzjKahet.nodes[77927964] = SkyridingRace({
     label = '{quest:80278}',
     normal = {2978, 0, 0},
     advanced = {2984, 0, 0},
@@ -299,7 +297,7 @@ AzjKahet.nodes[77927964] = DragonridingRace({
     rewards = AzjKahet_Rewards(2)
 }) -- Maddening Deep Dip
 
-AzjKahet.nodes[52943618] = DragonridingRace({
+AzjKahet.nodes[52943618] = SkyridingRace({
     label = '{quest:80279}',
     normal = {2979, 0, 0},
     advanced = {2985, 0, 0},
@@ -307,7 +305,7 @@ AzjKahet.nodes[52943618] = DragonridingRace({
     rewards = AzjKahet_Rewards(3)
 }) -- The Weaver's Wing
 
-AzjKahet.nodes[71343636] = DragonridingRace({
+AzjKahet.nodes[71343636] = SkyridingRace({
     label = '{quest:80280}',
     normal = {2980, 0, 0},
     advanced = {2986, 0, 0},
@@ -315,7 +313,7 @@ AzjKahet.nodes[71343636] = DragonridingRace({
     rewards = AzjKahet_Rewards(4)
 }) -- Rak-Ahat Rush
 
-AzjKahet.nodes[23814835] = DragonridingRace({
+AzjKahet.nodes[23814835] = SkyridingRace({
     label = '{quest:80281}',
     normal = {2981, 0, 0},
     advanced = {2987, 0, 0},
@@ -323,7 +321,7 @@ AzjKahet.nodes[23814835] = DragonridingRace({
     rewards = AzjKahet_Rewards(5)
 }) -- Pit Plunge
 
-AzjKahet.nodes[40183220] = DragonridingRace({
+AzjKahet.nodes[40183220] = SkyridingRace({
     label = '{quest:80282}',
     normal = {2982, 0, 0},
     advanced = {2988, 0, 0},
@@ -340,10 +338,7 @@ local AZJ_KAHET_POIS = {
     [7816] = 40183220 -- Siegehold Scuttle
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
-    pois = AZJ_KAHET_POIS
-})
+ns.hook.SkyridingRace({group = ns.groups.SKYRIDING_RACE, pois = AZJ_KAHET_POIS})
 
 -------------------------------------------------------------------------------
 ---------------------------------- UNDERMINE ----------------------------------
@@ -363,22 +358,22 @@ end
 
 -------------------------------- SKYROCKETING ---------------------------------
 
-Undermine.nodes[39042868] = DragonridingRace({
+Undermine.nodes[39042868] = SkyridingRace({
     label = '{quest:85071}',
     rewards = Undermine_Skyrocketing_Rewards(1, 2)
 }) -- Skyrocketing Sprint
 
-Undermine.nodes[33777624] = DragonridingRace({
+Undermine.nodes[33777624] = SkyridingRace({
     label = '{quest:85097}',
     rewards = Undermine_Skyrocketing_Rewards(2, 4)
 }) -- The Heaps Leap
 
-Undermine.nodes[39221136] = DragonridingRace({
+Undermine.nodes[39221136] = SkyridingRace({
     label = '{quest:85099}',
     rewards = Undermine_Skyrocketing_Rewards(5, 6)
 }) -- Scrapshop Shot
 
-Undermine.nodes[25494212] = DragonridingRace({
+Undermine.nodes[25494212] = SkyridingRace({
     label = '{quest:85101}',
     rewards = Undermine_Skyrocketing_Rewards(7, 8)
 }) -- Rags to Riches Rush
@@ -390,8 +385,8 @@ local SKYROCKETING_POIS = {
     [8147] = 25494212 -- Rags to Riches Rush
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     pois = SKYROCKETING_POIS
 })
 
@@ -409,7 +404,7 @@ local function Undermine_Breaknecking_Rewards(a, b)
     return rewards
 end
 
-local BreakneckRace = Class('BreakneckRace', DragonridingRace, {
+local BreakneckRace = Class('BreakneckRace', SkyridingRace, {
     note = format(L['breakneck_race_note'], --
     L['upgrade_the_pozzik_standard'], --
     L['upgrade_22h_slicks'], --
@@ -443,8 +438,8 @@ local BREAKNECKING_POIS = {
     [8180] = 47604426 -- Sandy Scuttle
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     pois = BREAKNECKING_POIS
 })

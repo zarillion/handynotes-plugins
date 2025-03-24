@@ -4,7 +4,7 @@
 local ADDON_NAME, ns = ...
 local Map = ns.Map
 
-local DragonridingRace = ns.node.DragonridingRace
+local SkyridingRace = ns.node.SkyridingRace
 
 local Achievement = ns.reward.Achievement
 
@@ -32,7 +32,7 @@ local function Kalimdor_Rewards(c)
     }
 end
 
-Hyjal.nodes[56702790] = DragonridingRace({
+Hyjal.nodes[56702790] = SkyridingRace({
     label = '{quest:75317}',
     normal = {2314, 50, 45},
     advanced = {2344, 46, 41},
@@ -40,7 +40,7 @@ Hyjal.nodes[56702790] = DragonridingRace({
     rewards = Kalimdor_Rewards(3)
 }) -- Nordrassil Spiral
 
-Hyjal.nodes[21905420] = DragonridingRace({
+Hyjal.nodes[21905420] = SkyridingRace({
     label = '{quest:75330}',
     normal = {2315, 75, 70},
     advanced = {2345, 72, 69},
@@ -48,7 +48,7 @@ Hyjal.nodes[21905420] = DragonridingRace({
     rewards = Kalimdor_Rewards(4)
 }) -- Hyjal Hotfoot
 
-Uldum.nodes[55764218] = DragonridingRace({
+Uldum.nodes[55764218] = SkyridingRace({
     label = '{quest:75481}',
     normal = {2326, 89, 84},
     advanced = {2356, 81, 76},
@@ -62,8 +62,8 @@ local KALIMDOR_POIS = {
     [7508] = 55764218 -- Uldum Tour
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     pois = KALIMDOR_POIS
 })
@@ -86,7 +86,7 @@ local function EasternKingdoms_Rewards(c)
     }
 end
 
-TwilightHighlands.nodes[34797786] = DragonridingRace({
+TwilightHighlands.nodes[34797786] = SkyridingRace({
     label = '{quest:76364}',
     normal = {2539, 78, 73},
     advanced = {2555, 71, 68},
@@ -94,7 +94,7 @@ TwilightHighlands.nodes[34797786] = DragonridingRace({
     rewards = EasternKingdoms_Rewards(4)
 }) -- Twilight Terror
 
-TwilightHighlands.nodes[72892784] = DragonridingRace({
+TwilightHighlands.nodes[72892784] = SkyridingRace({
     label = '{quest:76527}',
     normal = {2548, 76, 71},
     advanced = {2564, 67, 64},
@@ -107,8 +107,8 @@ local EASTERN_KINGDOMS_POIS = {
     [7583] = 72892784 -- Krazzworks Klash
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     pois = EASTERN_KINGDOMS_POIS
 })

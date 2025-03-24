@@ -117,23 +117,23 @@ L['rep_revered'] = 'Respektvoll'
 L['rep_exalted'] = 'Erfürchtig'
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+------------------------------- SKYRIDING RACES -------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_your_best_time'] = 'Deine beste Zeit:'
-L['dr_your_target_time'] = 'Vorgabezeit:'
-L['dr_best_time'] = ' - %s: %.3fs'
-L['dr_target_time'] = ' - %s: %ss / %ss'
-L['dr_normal'] = 'Normal'
-L['dr_advanced'] = 'Fortgeschritten'
-L['dr_reverse'] = 'Umgekehrt'
-L['dr_challenge'] = 'Herausforderung'
-L['dr_reverse_challenge'] = 'Umgekehrte Herausforderung'
-L['dr_storm_race'] = 'Sturmrennen'
-L['dr_bronze'] = 'Beende das Rennen um ' .. ns.color.Bronze('Bronze') .. ' zu erhalten.'
-L['dr_vendor_note'] = 'Tausche {currency:2588} gegen Drachenwächtermanuskripte und Ausrüstungsvorlagen ein.'
-L['options_icons_dragonriding_race'] = 'Drachenrennen'
-L['options_icons_dragonriding_race_desc'] = 'Zeigt die Positionen der Drachenrennen an.'
+L['sr_your_best_time'] = 'Deine beste Zeit:'
+L['sr_your_target_time'] = 'Vorgabezeit:'
+L['sr_best_time'] = ' - %s: %.3fs'
+L['sr_target_time'] = ' - %s: %ss / %ss'
+L['sr_normal'] = 'Normal'
+L['sr_advanced'] = 'Fortgeschritten'
+L['sr_reverse'] = 'Umgekehrt'
+L['sr_challenge'] = 'Herausforderung'
+L['sr_reverse_challenge'] = 'Umgekehrte Herausforderung'
+L['sr_storm_race'] = 'Sturmrennen'
+L['sr_bronze'] = 'Beende das Rennen um ' .. ns.color.Bronze('Bronze') .. ' zu erhalten.'
+L['sr_vendor_note'] = 'Tausche {currency:2588} gegen Drachenwächtermanuskripte und Ausrüstungsvorlagen ein.'
+L['options_icons_skyriding_race'] = nil
+L['options_icons_skyriding_race_desc'] = 'Zeigt die Positionen der Drachenrennen an.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

@@ -10,7 +10,7 @@
   <Script file="zones\waking_shores.lua"/>
   <Script file="zones\zaralek_cavern.lua"/>
   <!--  -->
-  <Script file="zones\dragonraces.lua"/>
+  <Script file="zones\skyriding_races.lua"/>
   <Script file="zones\secrets_of_azeroth.lua"/>
   <Script file="zones\warcraft_rumble.lua"/>
 </Ui>

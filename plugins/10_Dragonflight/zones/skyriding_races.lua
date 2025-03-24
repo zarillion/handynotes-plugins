@@ -6,7 +6,7 @@ local Map = ns.Map
 local L = ns.locale
 local Class = ns.Class
 
-local DragonridingRace = ns.node.DragonridingRace
+local SkyridingRace = ns.node.SkyridingRace
 local Vendor = ns.node.Vendor
 
 local Achievement = ns.reward.Achievement
@@ -35,9 +35,9 @@ local Valdrakken = ns.maps[2112] or Map({id = 2112, settings = true})
 -------------------------------------------------------------------------------
 
 local function AddStormRace(r, c)
-    if DragonridingRace.CanAddRace('stormRace') then
+    if SkyridingRace.CanAddRace('stormRace') then
         table.insert(r, Spacer())
-        table.insert(r, Section(L['dr_storm_race']))
+        table.insert(r, Section(L['sr_storm_race']))
         table.insert(r, Achievement({id = 18928, criteria = c, oneline = true}))
         table.insert(r, Achievement({id = 18929, criteria = c, oneline = true}))
         table.insert(r, Achievement({id = 18931, criteria = c, oneline = true}))
@@ -45,11 +45,11 @@ local function AddStormRace(r, c)
 end
 
 -------------------------------------------------------------------------------
----------------------------- DRAGONRIDING VENDORS -----------------------------
+------------------------------ SKYRIDING VENDORS ------------------------------
 -------------------------------------------------------------------------------
 
-local DragonridingVendor = Class('DragonridingVendor', Vendor, {
-    note = L['dr_vendor_note'],
+local SkyridingVendor = Class('SkyridingVendor', Vendor, {
+    note = L['sr_vendor_note'],
     rewards = {
         ns.reward.Toy({item = 212518, count = 40}), -- Vial of Endless Draconic Scales
         DC.SetCount(DC.WindborneVelocidrake.TealScales, 50),
@@ -87,19 +87,19 @@ local DragonridingVendor = Class('DragonridingVendor', Vendor, {
         Transmog({item = 211887, count = 15}), -- Outlandish Drake Racer's Boots
         Transmog({item = 211888, slot = L['cloak'], count = 5}) -- Outlandish Drake Racer's Scarf
     }
-}) -- Dragonriding Vendor
+}) -- Skyriding Vendor
 
-Orgimmar.nodes[52006000] = DragonridingVendor({
+Orgimmar.nodes[52006000] = SkyridingVendor({
     id = 212027, -- Dathendrash (Horde)
     faction = 'Horde'
 })
 
-Stormwind.nodes[59806620] = DragonridingVendor({
+Stormwind.nodes[59806620] = SkyridingVendor({
     id = 212027, -- Dathendrash (Alliance)
     faction = 'Alliance'
 })
 
-Valdrakken.nodes[27004760] = DragonridingVendor({
+Valdrakken.nodes[27004760] = SkyridingVendor({
     id = 206744 -- Maztha
 })
 
@@ -144,7 +144,7 @@ local function AzureSpan_Rewards(b, c, r, s) -- basic, challenge, reverse challe
     return rewards
 end
 
-AzureSpan.nodes[47914078] = DragonridingRace({
+AzureSpan.nodes[47914078] = SkyridingRace({
     label = '{quest:66946}',
     normal = {2074, 66, 63},
     advanced = {2075, 63, 58},
@@ -154,7 +154,7 @@ AzureSpan.nodes[47914078] = DragonridingRace({
     rewards = AzureSpan_Rewards(1, 1, 2)
 }) -- Azure Span Sprint
 
-AzureSpan.nodes[20952262] = DragonridingRace({
+AzureSpan.nodes[20952262] = SkyridingRace({
     label = '{quest:67002}',
     normal = {2076, 61, 58},
     advanced = {2077, 61, 56},
@@ -164,7 +164,7 @@ AzureSpan.nodes[20952262] = DragonridingRace({
     rewards = AzureSpan_Rewards(2, 3, 4)
 }) -- Azure Span Slalom
 
-AzureSpan.nodes[71292464] = DragonridingRace({
+AzureSpan.nodes[71292464] = SkyridingRace({
     label = '{quest:67031}',
     normal = {2078, 61, 58},
     advanced = {2079, 61, 56},
@@ -175,7 +175,7 @@ AzureSpan.nodes[71292464] = DragonridingRace({
     rewards = AzureSpan_Rewards(3, 5, 6, 3)
 }) -- Vakthros Ascent
 
-AzureSpan.nodes[16584937] = DragonridingRace({
+AzureSpan.nodes[16584937] = SkyridingRace({
     label = '{quest:67296}',
     normal = {2083, 78, 75},
     advanced = {2084, 75, 70},
@@ -185,7 +185,7 @@ AzureSpan.nodes[16584937] = DragonridingRace({
     rewards = AzureSpan_Rewards(4, 7, 8)
 }) -- Iskaara Tour
 
-AzureSpan.nodes[48473579] = DragonridingRace({
+AzureSpan.nodes[48473579] = SkyridingRace({
     label = '{quest:67565}',
     normal = {2085, 79, 76},
     advanced = {2086, 77, 72},
@@ -195,7 +195,7 @@ AzureSpan.nodes[48473579] = DragonridingRace({
     rewards = AzureSpan_Rewards(5, 9, 10)
 }) -- Frostland Flyover
 
-AzureSpan.nodes[42275677] = DragonridingRace({
+AzureSpan.nodes[42275677] = SkyridingRace({
     label = '{quest:67741}',
     normal = {2089, 94, 91},
     advanced = {2090, 86, 81},
@@ -214,8 +214,8 @@ local AZURE_SPAN_POIS = {
     [7757] = 71292464 -- Vakthros Ascent
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     showSublabel = true,
     pois = AZURE_SPAN_POIS
@@ -251,7 +251,7 @@ local function ForbiddenReach_Rewards(b, c, r, s) -- basic, challenge, reverse c
     return rewards
 end
 
-ForbiddenReach.nodes[76136563] = DragonridingRace({
+ForbiddenReach.nodes[76136563] = SkyridingRace({
     label = '{quest:73017}',
     normal = {2201, 46, 43},
     advanced = {2207, 47, 42},
@@ -262,7 +262,7 @@ ForbiddenReach.nodes[76136563] = DragonridingRace({
     rewards = ForbiddenReach_Rewards(1, 1, 2, 5)
 }) -- Stormsunder Crater Circuit
 
-ForbiddenReach.nodes[31326573] = DragonridingRace({
+ForbiddenReach.nodes[31326573] = SkyridingRace({
     label = '{quest:73020}',
     normal = {2202, 55, 52},
     advanced = {2208, 54, 49},
@@ -272,7 +272,7 @@ ForbiddenReach.nodes[31326573] = DragonridingRace({
     rewards = ForbiddenReach_Rewards(2, 3, 4)
 }) -- Morqut Ascent
 
-ForbiddenReach.nodes[63095195] = DragonridingRace({
+ForbiddenReach.nodes[63095195] = SkyridingRace({
     label = '{quest:73025}',
     normal = {2203, 56, 53},
     advanced = {2209, 55, 50},
@@ -282,7 +282,7 @@ ForbiddenReach.nodes[63095195] = DragonridingRace({
     rewards = ForbiddenReach_Rewards(3, 5, 6)
 }) -- Aerie Chasm Cruise
 
-ForbiddenReach.nodes[63658406] = DragonridingRace({
+ForbiddenReach.nodes[63658406] = SkyridingRace({
     label = '{quest:73029}',
     normal = {2204, 73, 70},
     advanced = {2210, 73, 68},
@@ -292,7 +292,7 @@ ForbiddenReach.nodes[63658406] = DragonridingRace({
     rewards = ForbiddenReach_Rewards(4, 7, 8)
 }) -- Southern Reach Route
 
-ForbiddenReach.nodes[41361455] = DragonridingRace({
+ForbiddenReach.nodes[41361455] = SkyridingRace({
     label = '{quest:73033}',
     normal = {2205, 61, 58},
     advanced = {2211, 61, 58},
@@ -302,7 +302,7 @@ ForbiddenReach.nodes[41361455] = DragonridingRace({
     rewards = ForbiddenReach_Rewards(5, 9, 10)
 }) -- Caldera Coaster
 
-ForbiddenReach.nodes[49426006] = DragonridingRace({
+ForbiddenReach.nodes[49426006] = SkyridingRace({
     label = '{quest:73061}',
     normal = {2206, 62, 59},
     advanced = {2212, 61, 58},
@@ -321,8 +321,8 @@ local FORBIDDEN_REACH_POIS = {
     [7767] = 76136563 -- Stormsunder Crater Circuit
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     showSublabel = true,
     pois = FORBIDDEN_REACH_POIS
@@ -355,7 +355,7 @@ local function OhnahranPlains_Rewards(b, c, r, s) -- basic, challenge, reverse c
     return rewards
 end
 
-OhnahranPlains.nodes[63743051] = DragonridingRace({
+OhnahranPlains.nodes[63743051] = SkyridingRace({
     label = '{quest:66835}',
     normal = {2060, 52, 44},
     advanced = {2061, 46, 41},
@@ -365,7 +365,7 @@ OhnahranPlains.nodes[63743051] = DragonridingRace({
     rewards = OhnahranPlains_Rewards(1, 1, 2)
 }) -- Sundapple Copse Circuit
 
-OhnahranPlains.nodes[86263583] = DragonridingRace({
+OhnahranPlains.nodes[86263583] = SkyridingRace({
     label = '{quest:66877}',
     normal = {2062, 51, 44},
     advanced = {2063, 46, 41},
@@ -376,7 +376,7 @@ OhnahranPlains.nodes[86263583] = DragonridingRace({
     rewards = OhnahranPlains_Rewards(2, 3, 4, 2)
 }) -- Fen Flythrough
 
-OhnahranPlains.nodes[80897220] = DragonridingRace({
+OhnahranPlains.nodes[80897220] = SkyridingRace({
     label = '{quest:66880}',
     normal = {2064, 52, 50},
     advanced = {2065, 52, 47},
@@ -386,7 +386,7 @@ OhnahranPlains.nodes[80897220] = DragonridingRace({
     rewards = OhnahranPlains_Rewards(3, 5, 6)
 }) -- Ravine River Run
 
-OhnahranPlains.nodes[25715508] = DragonridingRace({
+OhnahranPlains.nodes[25715508] = SkyridingRace({
     label = '{quest:66885}',
     normal = {2066, 66, 59},
     advanced = {2067, 60, 55},
@@ -396,7 +396,7 @@ OhnahranPlains.nodes[25715508] = DragonridingRace({
     rewards = OhnahranPlains_Rewards(4, 7, 8)
 }) -- Emerald Garden Ascent
 
-OhnahranPlains.nodes[59933555] = DragonridingRace({
+OhnahranPlains.nodes[59933555] = SkyridingRace({
     label = '{quest:66921}',
     normal = {2069, 28, 25},
     challenge = {2446, 27, 24},
@@ -412,7 +412,7 @@ OhnahranPlains.nodes[59933555] = DragonridingRace({
     }
 }) -- Maruukai Dash
 
-OhnahranPlains.nodes[47487064] = DragonridingRace({
+OhnahranPlains.nodes[47487064] = SkyridingRace({
     label = '{quest:66933}',
     normal = {2070, 29, 26},
     challenge = {2447, 30, 27},
@@ -428,7 +428,7 @@ OhnahranPlains.nodes[47487064] = DragonridingRace({
     }
 }) -- Mirror of Sky Dash
 
-OhnahranPlains.nodes[43746678] = DragonridingRace({
+OhnahranPlains.nodes[43746678] = SkyridingRace({
     label = '{quest:70710}',
     normal = {2119, 51, 46},
     advanced = {2120, 48, 43},
@@ -467,8 +467,8 @@ local OHNAHRAN_PLAINS_POIS = {
     [7748] = 63743051 -- Sundapple Copse Circuit
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     showSublabel = true,
     pois = OHNAHRAN_PLAINS_POIS
@@ -501,7 +501,7 @@ local function Thaldraszus_Rewards(b, c, r, s) -- basic, challenge, reverse chal
     return rewards
 end
 
-Thaldraszus.nodes[57777501] = DragonridingRace({
+Thaldraszus.nodes[57777501] = SkyridingRace({
     label = '{quest:67095}',
     normal = {2080, 52, 49},
     advanced = {2081, 45, 40},
@@ -511,7 +511,7 @@ Thaldraszus.nodes[57777501] = DragonridingRace({
     rewards = Thaldraszus_Rewards(1, 1, 2)
 }) -- Flowing Forest Flight
 
-Thaldraszus.nodes[57236690] = DragonridingRace({
+Thaldraszus.nodes[57236690] = SkyridingRace({
     label = '{quest:69957}',
     normal = {2092, 84, 81},
     advanced = {2093, 80, 75},
@@ -522,7 +522,7 @@ Thaldraszus.nodes[57236690] = DragonridingRace({
     rewards = Thaldraszus_Rewards(2, 3, 4, 4)
 }) -- Tyrhold Trial
 
-Thaldraszus.nodes[37654893] = DragonridingRace({
+Thaldraszus.nodes[37654893] = SkyridingRace({
     label = '{quest:70051}',
     normal = {2096, 72, 69},
     advanced = {2097, 71, 66},
@@ -532,7 +532,7 @@ Thaldraszus.nodes[37654893] = DragonridingRace({
     rewards = Thaldraszus_Rewards(3, 5, 6)
 }) -- Cliffside Circuit
 
-Thaldraszus.nodes[60294159] = DragonridingRace({
+Thaldraszus.nodes[60294159] = SkyridingRace({
     label = '{quest:70059}',
     normal = {2098, 57, 54},
     advanced = {2099, 57, 52},
@@ -542,7 +542,7 @@ Thaldraszus.nodes[60294159] = DragonridingRace({
     rewards = Thaldraszus_Rewards(4, 7, 8)
 }) -- Academy Ascent
 
-Thaldraszus.nodes[39517619] = DragonridingRace({
+Thaldraszus.nodes[39517619] = SkyridingRace({
     label = '{quest:70157}',
     normal = {2101, 64, 61},
     advanced = {2102, 59, 54},
@@ -552,7 +552,7 @@ Thaldraszus.nodes[39517619] = DragonridingRace({
     rewards = Thaldraszus_Rewards(5, 9, 10)
 }) -- Garden Gallivant
 
-Thaldraszus.nodes[58053361] = DragonridingRace({
+Thaldraszus.nodes[58053361] = SkyridingRace({
     label = '{quest:70161}',
     normal = {2103, 53, 50},
     advanced = {2104, 50, 45},
@@ -571,8 +571,8 @@ local THALDRASZUS_POIS = {
     [7762] = 57236690 -- Tyrhold Trial
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     showSublabel = true,
     pois = THALDRASZUS_POIS
@@ -605,7 +605,7 @@ local function WakingShores_Rewards(b, c, r, s) -- basic, challenge, reverse cha
     return rewards
 end
 
-WakingShores.nodes[63327090] = DragonridingRace({
+WakingShores.nodes[63327090] = SkyridingRace({
     label = '{quest:66679}',
     normal = {2042, 66, 64},
     advanced = {2044, 57, 52},
@@ -616,7 +616,7 @@ WakingShores.nodes[63327090] = DragonridingRace({
     rewards = WakingShores_Rewards(1, 1, 2, 1)
 }) -- Ruby Lifeshrine Loop
 
-WakingShores.nodes[47018558] = DragonridingRace({
+WakingShores.nodes[47018558] = SkyridingRace({
     label = '{quest:66721}',
     normal = {2048, 45, 43},
     advanced = {2049, 45, 40},
@@ -645,7 +645,7 @@ WakingShores.nodes[47018558] = DragonridingRace({
     }
 }) -- Wild Preserve Slalom
 
-WakingShores.nodes[41976730] = DragonridingRace({
+WakingShores.nodes[41976730] = SkyridingRace({
     label = '{quest:66727}',
     normal = {2052, 53, 47},
     advanced = {2053, 49, 44},
@@ -655,7 +655,7 @@ WakingShores.nodes[41976730] = DragonridingRace({
     rewards = WakingShores_Rewards(3, 5, 6)
 }) -- Emberflow Flight
 
-WakingShores.nodes[23268430] = DragonridingRace({
+WakingShores.nodes[23268430] = SkyridingRace({
     label = '{quest:66732}',
     normal = {2054, 56, 48},
     advanced = {2055, 50, 45},
@@ -665,7 +665,7 @@ WakingShores.nodes[23268430] = DragonridingRace({
     rewards = WakingShores_Rewards(4, 7, 8)
 }) -- Apex Canopy River Run
 
-WakingShores.nodes[55454113] = DragonridingRace({
+WakingShores.nodes[55454113] = SkyridingRace({
     label = '{quest:66777}',
     normal = {2056, 48, 43},
     advanced = {2057, 45, 40},
@@ -675,7 +675,7 @@ WakingShores.nodes[55454113] = DragonridingRace({
     rewards = WakingShores_Rewards(5, 9, 10)
 }) -- Uktulut Coaster
 
-WakingShores.nodes[73203393] = DragonridingRace({
+WakingShores.nodes[73203393] = SkyridingRace({
     label = '{quest:66786}',
     normal = {2058, 56, 53},
     advanced = {2059, 58, 53},
@@ -685,7 +685,7 @@ WakingShores.nodes[73203393] = DragonridingRace({
     rewards = WakingShores_Rewards(6, 11, 12)
 }) -- Wingrest Roundabout
 
-WakingShores.nodes[62777400] = DragonridingRace({
+WakingShores.nodes[62777400] = SkyridingRace({
     label = '{quest:66710}',
     normal = {2046, 66, 63},
     advanced = {2047, 66, 61},
@@ -695,7 +695,7 @@ WakingShores.nodes[62777400] = DragonridingRace({
     rewards = WakingShores_Rewards(7, 13, 14)
 }) -- Flashfrost Flyover
 
-WakingShores.nodes[42599445] = DragonridingRace({
+WakingShores.nodes[42599445] = SkyridingRace({
     label = '{quest:66725}',
     normal = {2050, 43, 41},
     advanced = {2051, 43, 38},
@@ -735,8 +735,8 @@ local WAKING_SHORSE_POIS = {
     [7746] = 73203393 -- Wingrest Roundabout
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     showSublabel = true,
     pois = WAKING_SHORSE_POIS
@@ -777,7 +777,7 @@ local function ZaralekCavern_Rewards(b, c, r, s) -- basic, challenge, reverse ch
     return rewards
 end
 
-ZaralekCavern.nodes[38756061] = DragonridingRace({
+ZaralekCavern.nodes[38756061] = SkyridingRace({
     label = '{quest:74839}',
     normal = {2246, 68, 63},
     advanced = {2252, 60, 55},
@@ -788,7 +788,7 @@ ZaralekCavern.nodes[38756061] = DragonridingRace({
     rewards = ZaralekCavern_Rewards(1, 1, 2, 6)
 }) -- Crystal Circuit
 
-ZaralekCavern.nodes[39054999] = DragonridingRace({
+ZaralekCavern.nodes[39054999] = SkyridingRace({
     label = '{quest:74889}',
     normal = {2247, 80, 75},
     advanced = {2253, 73, 68},
@@ -798,7 +798,7 @@ ZaralekCavern.nodes[39054999] = DragonridingRace({
     rewards = ZaralekCavern_Rewards(2, 3, 4)
 }) -- Caldera Cruise
 
-ZaralekCavern.nodes[54502371] = DragonridingRace({
+ZaralekCavern.nodes[54502371] = SkyridingRace({
     label = '{quest:74939}',
     normal = {2248, 72, 69},
     advanced = {2254, 69, 64},
@@ -808,7 +808,7 @@ ZaralekCavern.nodes[54502371] = DragonridingRace({
     rewards = ZaralekCavern_Rewards(3, 5, 6)
 }) -- Brimstone Scramble
 
-ZaralekCavern.nodes[58724503] = DragonridingRace({
+ZaralekCavern.nodes[58724503] = SkyridingRace({
     label = '{quest:74951}',
     normal = {2249, 80, 75},
     advanced = {2255, 75, 70},
@@ -818,7 +818,7 @@ ZaralekCavern.nodes[58724503] = DragonridingRace({
     rewards = ZaralekCavern_Rewards(4, 7, 8)
 }) -- Shimmering Slalom
 
-ZaralekCavern.nodes[58155759] = DragonridingRace({
+ZaralekCavern.nodes[58155759] = SkyridingRace({
     label = '{quest:74972}',
     normal = {2250, 60, 55},
     advanced = {2256, 55, 50},
@@ -828,7 +828,7 @@ ZaralekCavern.nodes[58155759] = DragonridingRace({
     rewards = ZaralekCavern_Rewards(5, 9, 10)
 }) -- Loamm Roamm
 
-ZaralekCavern.nodes[51264667] = DragonridingRace({
+ZaralekCavern.nodes[51264667] = SkyridingRace({
     label = '{quest:75035}',
     normal = {2251, 67, 64},
     advanced = {2257, 62, 57},
@@ -847,8 +847,8 @@ local ZARALEK_CAVERN_POIS = {
     [7778] = 51264667 -- Sulfur Sprint
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     showSublabel = true,
     pois = ZARALEK_CAVERN_POIS
@@ -887,7 +887,7 @@ local function EmeraldDream_Rewards(b, c, r) -- basic, challenge, reverse challe
     }
 end
 
-EmeraldDream.nodes[59112881] = DragonridingRace({
+EmeraldDream.nodes[59112881] = SkyridingRace({
     label = '{quest:77841}',
     normal = {2676, 103, 98},
     advanced = {2682, 90, 87},
@@ -897,7 +897,7 @@ EmeraldDream.nodes[59112881] = DragonridingRace({
     rewards = EmeraldDream_Rewards(1, 1, 1)
 }) -- Ysera Invitational
 
-EmeraldDream.nodes[37184408] = DragonridingRace({
+EmeraldDream.nodes[37184408] = SkyridingRace({
     label = '{quest:77983}',
     normal = {2677, 85, 80},
     advanced = {2683, 76, 73},
@@ -907,7 +907,7 @@ EmeraldDream.nodes[37184408] = DragonridingRace({
     rewards = EmeraldDream_Rewards(2, 2, 2)
 }) -- Smoldering Sprint
 
-EmeraldDream.nodes[35165522] = DragonridingRace({
+EmeraldDream.nodes[35165522] = SkyridingRace({
     label = '{quest:77996}',
     normal = {2678, 83, 78},
     advanced = {2684, 67, 64},
@@ -917,7 +917,7 @@ EmeraldDream.nodes[35165522] = DragonridingRace({
     rewards = EmeraldDream_Rewards(3, 3, 3)
 }) -- Viridescent Venture
 
-EmeraldDream.nodes[69625262] = DragonridingRace({
+EmeraldDream.nodes[69625262] = SkyridingRace({
     label = '{quest:78016}',
     normal = {2679, 78, 73},
     advanced = {2685, 66, 63},
@@ -927,7 +927,7 @@ EmeraldDream.nodes[69625262] = DragonridingRace({
     rewards = EmeraldDream_Rewards(4, 4, 4)
 }) -- Shoreline Switchback
 
-EmeraldDream.nodes[62808812] = DragonridingRace({
+EmeraldDream.nodes[62808812] = SkyridingRace({
     label = '{quest:78102}',
     normal = {2680, 110, 105},
     advanced = {2686, 96, 93},
@@ -937,7 +937,7 @@ EmeraldDream.nodes[62808812] = DragonridingRace({
     rewards = EmeraldDream_Rewards(5, 5, 5)
 }) -- Canopy Concours
 
-EmeraldDream.nodes[32364825] = DragonridingRace({
+EmeraldDream.nodes[32364825] = SkyridingRace({
     label = '{quest:78115}',
     normal = {2681, 89, 84},
     advanced = {2687, 73, 70},
@@ -956,8 +956,8 @@ local EMERALD_DREAM_POIS = {
     [7908] = 32364825 -- Emerald Amble
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     showSublabel = true,
     pois = EMERALD_DREAM_POIS
@@ -967,7 +967,7 @@ ns.hook.DragonridingRace({
 ---------------------------------- KALIMDOR -----------------------------------
 -------------------------------------------------------------------------------
 
-local KalimdorCup = Class('KalimdorCup', DragonridingRace)
+local KalimdorCup = Class('KalimdorCup', SkyridingRace)
 
 local function Kalimdor_Rewards(c)
     return {
@@ -1144,8 +1144,8 @@ local KALIMDOR_POIS = {
     [7509] = 53379308 -- Un'Goro Crater Circuit
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     showSublabel = true,
     pois = KALIMDOR_POIS
@@ -1155,7 +1155,7 @@ ns.hook.DragonridingRace({
 ------------------------------- EASTERN KINGDOMS ------------------------------
 -------------------------------------------------------------------------------
 
-local EasternKingdomsCup = Class('EasternKingdomsCup', DragonridingRace)
+local EasternKingdomsCup = Class('EasternKingdomsCup', SkyridingRace)
 
 local function EasternKingdoms_Rewards(c)
     return {
@@ -1320,8 +1320,8 @@ local EASTERN_KINGDOMS_POIS = {
     [7584] = 40822500 -- Redridge Rally
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     showSublabel = true,
     pois = EASTERN_KINGDOMS_POIS
@@ -1331,7 +1331,7 @@ ns.hook.DragonridingRace({
 ----------------------------------- OUTLANDS ----------------------------------
 -------------------------------------------------------------------------------
 
-local OutlandCup = Class('OutlandCup', DragonridingRace)
+local OutlandCup = Class('OutlandCup', SkyridingRace)
 
 local function Outland_Rewards(c)
     return {
@@ -1481,8 +1481,8 @@ local OUTLAND_POIS = {
     [7601] = 51014006 -- Fel Pit Fracas
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     showSublabel = true,
     pois = OUTLAND_POIS

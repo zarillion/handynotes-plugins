@@ -143,7 +143,7 @@ ns.groups = {
     VENDOR = Group('vendors', 'bag', {type = ns.group_types.STANDARD, order = 5}),
     MISC = Group('misc', 454046, {type = ns.group_types.STANDARD, order = 6}),
     ---------------------------------------------------------------------------
-    DRAGONRIDING_RACE = Group('dragonriding_race', 1100022, {
+    SKYRIDING_RACE = Group('skyriding_race', 1100022, {
         defaults = ns.GROUP_HIDDEN,
         type = ns.group_types.EXPANSION
     })

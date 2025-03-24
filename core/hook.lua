@@ -10,7 +10,7 @@ ns.hooks = {
     areapoi = {},
     areapoievent = {},
     delve = {},
-    dragonridingrace = {},
+    skyridingrace = {},
     encounter = {},
     vignette = {}
 }
@@ -109,25 +109,6 @@ function Delve:Initialize(attrs)
 end
 
 -------------------------------------------------------------------------------
------------------------------- DRAGONRIDING RACE ------------------------------
--------------------------------------------------------------------------------
-
-local DragonridingRace = Class('DragonridingRace', Hook, {
-    type = 'dragonridingrace',
-    showLabel = true,
-    rewardsSpaceBefore = true
-})
-
-function DragonridingRace:Initialize(attrs)
-    Hook.Initialize(self, attrs)
-    for id, coordinates in pairs(self.pois) do
-        ns.hooks.dragonridingrace[id] = self:AddHook({
-            coordinates = ns.AsTable(coordinates)
-        })
-    end
-end
-
--------------------------------------------------------------------------------
 ------------------------------ ENCOUNTER JOURNAL ------------------------------
 -------------------------------------------------------------------------------
 
@@ -141,6 +122,25 @@ function Encounter:Initialize(attrs)
     Hook.Initialize(self, attrs)
     for id, rewards in pairs(self.encounterIDs) do
         ns.hooks.encounter[id] = self:AddHook({rewards = rewards})
+    end
+end
+
+-------------------------------------------------------------------------------
+------------------------------- SKYRIDING RACE --------------------------------
+-------------------------------------------------------------------------------
+
+local SkyridingRace = Class('SkyridingRace', Hook, {
+    type = 'skyridingrace',
+    showLabel = true,
+    rewardsSpaceBefore = true
+})
+
+function SkyridingRace:Initialize(attrs)
+    Hook.Initialize(self, attrs)
+    for id, coordinates in pairs(self.pois) do
+        ns.hooks.skyridingrace[id] = self:AddHook({
+            coordinates = ns.AsTable(coordinates)
+        })
     end
 end
 
@@ -242,9 +242,9 @@ local function HookAllPOIS()
         renderTooltip(hookInfo)
     end)
 
-    ---------------------------- DRAGONRIDING RACE ----------------------------
+    ---------------------- DRAGONRIDING / SKYRIDING RACE ----------------------
     hooksecurefunc(DragonridingRacePinMixin, 'OnMouseEnter', function(self)
-        local hookInfo = ns.hooks.dragonridingrace[self.poiInfo.areaPoiID]
+        local hookInfo = ns.hooks.skyridingrace[self.poiInfo.areaPoiID]
         if not hookInfo then return end
         local mapID = self:GetMap().mapID
         if not hookInfo.group:GetDisplay(mapID) then return end
@@ -300,7 +300,7 @@ ns.hook = {
     AreaPoi = AreaPoi,
     AreaPoiEvent = AreaPoiEvent,
     Delve = Delve,
-    DragonridingRace = DragonridingRace,
+    SkyridingRace = SkyridingRace,
     Encounter = Encounter,
     Vignette = Vignette
 }

@@ -4,7 +4,7 @@
 local ADDON_NAME, ns = ...
 local Map = ns.Map
 
-local DragonridingRace = ns.node.DragonridingRace
+local SkyridingRace = ns.node.SkyridingRace
 
 local Achievement = ns.reward.Achievement
 
@@ -60,7 +60,7 @@ local function Kalimdor_Rewards(c)
     }
 end
 
-Felwood.nodes[58181079] = DragonridingRace({
+Felwood.nodes[58181079] = SkyridingRace({
     label = '{quest:75277}',
     normal = {2312, 75, 70},
     advanced = {2342, 66, 63},
@@ -68,7 +68,7 @@ Felwood.nodes[58181079] = DragonridingRace({
     rewards = Kalimdor_Rewards(1)
 }) -- Fel Flyover
 
-Winterspring.nodes[68836804] = DragonridingRace({
+Winterspring.nodes[68836804] = SkyridingRace({
     label = '{quest:75310}',
     normal = {2313, 81, 76},
     advanced = {2343, 86, 73},
@@ -76,7 +76,7 @@ Winterspring.nodes[68836804] = DragonridingRace({
     rewards = Kalimdor_Rewards(2)
 }) -- Winter Wander
 
-Hyjal.nodes[56702790] = DragonridingRace({
+Hyjal.nodes[56702790] = SkyridingRace({
     label = '{quest:75317}',
     normal = {2314, 50, 45},
     advanced = {2344, 46, 41},
@@ -84,7 +84,7 @@ Hyjal.nodes[56702790] = DragonridingRace({
     rewards = Kalimdor_Rewards(3)
 }) -- Nordrassil Spiral
 
-Hyjal.nodes[21905420] = DragonridingRace({
+Hyjal.nodes[21905420] = SkyridingRace({
     label = '{quest:75330}',
     normal = {2315, 75, 70},
     advanced = {2345, 72, 69},
@@ -92,7 +92,7 @@ Hyjal.nodes[21905420] = DragonridingRace({
     rewards = Kalimdor_Rewards(4)
 }) -- Hyjal Hotfoot
 
-Azshara.nodes[67202617] = DragonridingRace({
+Azshara.nodes[67202617] = SkyridingRace({
     label = '{quest:75347}',
     normal = {2316, 105, 100},
     advanced = {2346, 100, 94},
@@ -100,7 +100,7 @@ Azshara.nodes[67202617] = DragonridingRace({
     rewards = Kalimdor_Rewards(5)
 }) -- Rocketway Ride
 
-Ashenvale.nodes[37043058] = DragonridingRace({
+Ashenvale.nodes[37043058] = SkyridingRace({
     label = '{quest:75378}',
     normal = {2317, 69, 64},
     advanced = {2347, 64, 59},
@@ -108,7 +108,7 @@ Ashenvale.nodes[37043058] = DragonridingRace({
     rewards = Kalimdor_Rewards(6)
 }) -- Ashenvale Ambit
 
-Durotar.nodes[56906286] = DragonridingRace({
+Durotar.nodes[56906286] = SkyridingRace({
     label = '{quest:75385}',
     normal = {2318, 85, 80},
     advanced = {2348, 78, 73},
@@ -116,7 +116,7 @@ Durotar.nodes[56906286] = DragonridingRace({
     rewards = Kalimdor_Rewards(7)
 }) -- Durotar Tour
 
-StonetalonMontains.nodes[66778681] = DragonridingRace({
+StonetalonMontains.nodes[66778681] = SkyridingRace({
     label = '{quest:75394}',
     normal = {2319, 85, 80},
     advanced = {2349, 75, 70},
@@ -124,7 +124,7 @@ StonetalonMontains.nodes[66778681] = DragonridingRace({
     rewards = Kalimdor_Rewards(8)
 }) -- Webwinder Weave
 
-Desolace.nodes[28106328] = DragonridingRace({
+Desolace.nodes[28106328] = SkyridingRace({
     label = '{quest:75409}',
     normal = {2320, 80, 75},
     advanced = {2350, 80, 75},
@@ -132,7 +132,7 @@ Desolace.nodes[28106328] = DragonridingRace({
     rewards = Kalimdor_Rewards(9)
 }) -- Desolace Drift
 
-SouthernBarrens.nodes[41431300] = DragonridingRace({
+SouthernBarrens.nodes[41431300] = SkyridingRace({
     label = '{quest:75412}',
     normal = {2321, 53, 48},
     advanced = {2351, 48, 43},
@@ -140,7 +140,7 @@ SouthernBarrens.nodes[41431300] = DragonridingRace({
     rewards = Kalimdor_Rewards(10)
 }) -- Barrens Divide Dive
 
-SouthernBarrens.nodes[42809308] = DragonridingRace({
+SouthernBarrens.nodes[42809308] = SkyridingRace({
     label = '{quest:75437}',
     normal = {2322, 58, 53},
     advanced = {2352, 52, 47},
@@ -148,7 +148,7 @@ SouthernBarrens.nodes[42809308] = DragonridingRace({
     rewards = Kalimdor_Rewards(11)
 }) -- Razorfen Roundabout
 
-ThousandNeedles.nodes[09731735] = DragonridingRace({
+ThousandNeedles.nodes[09731735] = SkyridingRace({
     label = '{quest:75463}',
     normal = {2323, 92, 87},
     advanced = {2353, 82, 77},
@@ -156,7 +156,7 @@ ThousandNeedles.nodes[09731735] = DragonridingRace({
     rewards = Kalimdor_Rewards(12)
 }) -- Thousand Needles Thread
 
-Feralas.nodes[64125435] = DragonridingRace({
+Feralas.nodes[64125435] = SkyridingRace({
     label = '{quest:75468}',
     normal = {2324, 94, 89},
     advanced = {2354, 89, 84},
@@ -164,7 +164,7 @@ Feralas.nodes[64125435] = DragonridingRace({
     rewards = Kalimdor_Rewards(13)
 }) -- Feralas Ruins Ramble
 
-Silithus.nodes[39548419] = DragonridingRace({
+Silithus.nodes[39548419] = SkyridingRace({
     label = '{quest:75472}',
     normal = {2325, 80, 75},
     advanced = {2355, 71, 66},
@@ -172,7 +172,7 @@ Silithus.nodes[39548419] = DragonridingRace({
     rewards = Kalimdor_Rewards(14)
 }) -- Ahn'Qiraj Circuit
 
-Uldum.nodes[55764218] = DragonridingRace({
+Uldum.nodes[55764218] = SkyridingRace({
     label = '{quest:75481}',
     normal = {2326, 89, 84},
     advanced = {2356, 81, 76},
@@ -180,7 +180,7 @@ Uldum.nodes[55764218] = DragonridingRace({
     rewards = Kalimdor_Rewards(15)
 }) -- Uldum Tour
 
-UngoroCrater.nodes[53379308] = DragonridingRace({
+UngoroCrater.nodes[53379308] = SkyridingRace({
     label = '{quest:75485}',
     normal = {2327, 105, 100},
     advanced = {2357, 92, 87},
@@ -207,8 +207,8 @@ local KALIMDOR_POIS = {
     [7509] = 53379308 -- Un'Goro Crater Circuit
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     pois = KALIMDOR_POIS
 })
@@ -231,7 +231,7 @@ local function EasternKingdoms_Rewards(c)
     }
 end
 
-Gilneas.nodes[58611160] = DragonridingRace({
+Gilneas.nodes[58611160] = SkyridingRace({
     label = '{quest:76309}',
     normal = {2536, 83, 78},
     advanced = {2552, 77, 74},
@@ -239,7 +239,7 @@ Gilneas.nodes[58611160] = DragonridingRace({
     rewards = EasternKingdoms_Rewards(1)
 }) -- Gilneas Gambit
 
-LochModan.nodes[46921391] = DragonridingRace({
+LochModan.nodes[46921391] = SkyridingRace({
     label = '{quest:76339}',
     normal = {2537, 68, 63},
     advanced = {2553, 64, 61},
@@ -247,7 +247,7 @@ LochModan.nodes[46921391] = DragonridingRace({
     rewards = EasternKingdoms_Rewards(2)
 }) -- Loch Modan Loop
 
-SearingGorge.nodes[73244238] = DragonridingRace({
+SearingGorge.nodes[73244238] = SkyridingRace({
     label = '{quest:76357}',
     normal = {2538, 57, 52},
     advanced = {2554, 49, 46},
@@ -255,7 +255,7 @@ SearingGorge.nodes[73244238] = DragonridingRace({
     rewards = EasternKingdoms_Rewards(3)
 }) -- Searing Slalom
 
-TwilightHighlands.nodes[34797786] = DragonridingRace({
+TwilightHighlands.nodes[34797786] = SkyridingRace({
     label = '{quest:76364}',
     normal = {2539, 78, 73},
     advanced = {2555, 71, 68},
@@ -263,7 +263,7 @@ TwilightHighlands.nodes[34797786] = DragonridingRace({
     rewards = EasternKingdoms_Rewards(4)
 }) -- Twilight Terror
 
-DeadwindPass.nodes[46227221] = DragonridingRace({
+DeadwindPass.nodes[46227221] = SkyridingRace({
     label = '{quest:76380}',
     normal = {2540, 65, 60},
     advanced = {2556, 62, 59},
@@ -271,7 +271,7 @@ DeadwindPass.nodes[46227221] = DragonridingRace({
     rewards = EasternKingdoms_Rewards(5)
 }) -- Deadwind Derby
 
-ElwynnForest.nodes[64704879] = DragonridingRace({
+ElwynnForest.nodes[64704879] = SkyridingRace({
     label = '{quest:76397}',
     normal = {2541, 78, 73},
     advanced = {2557, 69, 66},
@@ -279,7 +279,7 @@ ElwynnForest.nodes[64704879] = DragonridingRace({
     rewards = EasternKingdoms_Rewards(6)
 }) -- Elwynn Forest Flash
 
-local GurubashiGala = DragonridingRace({
+local GurubashiGala = SkyridingRace({
     label = '{quest:76438}',
     normal = {2542, 61, 56},
     advanced = {2558, 52, 49},
@@ -290,7 +290,7 @@ local GurubashiGala = DragonridingRace({
 NorthernStranglethorn.nodes[70102655] = GurubashiGala
 StranglethornVale.nodes[62691781] = GurubashiGala
 
-DunMorogh.nodes[74133398] = DragonridingRace({
+DunMorogh.nodes[74133398] = SkyridingRace({
     label = '{quest:76445}',
     normal = {2543, 75, 70},
     advanced = {2559, 67, 64},
@@ -298,7 +298,7 @@ DunMorogh.nodes[74133398] = DragonridingRace({
     rewards = EasternKingdoms_Rewards(8)
 }) -- Ironforge Interceptor
 
-BlastedLands.nodes[62662616] = DragonridingRace({
+BlastedLands.nodes[62662616] = SkyridingRace({
     label = '{quest:76469}',
     normal = {2544, 74, 69},
     advanced = {2560, 65, 62},
@@ -306,7 +306,7 @@ BlastedLands.nodes[62662616] = DragonridingRace({
     rewards = EasternKingdoms_Rewards(9)
 }) -- Blasted Lands Bolt
 
-EasternPlaguelands.nodes[34753792] = DragonridingRace({
+EasternPlaguelands.nodes[34753792] = SkyridingRace({
     label = '{quest:76510}',
     normal = {2545, 68, 63},
     advanced = {2561, 56, 53},
@@ -314,7 +314,7 @@ EasternPlaguelands.nodes[34753792] = DragonridingRace({
     rewards = EasternKingdoms_Rewards(10)
 }) -- Plaguelands Plunge
 
-local BootyBayBlast = DragonridingRace({
+local BootyBayBlast = SkyridingRace({
     label = '{quest:76515}',
     normal = {2546, 68, 63},
     advanced = {2562, 60, 57},
@@ -325,7 +325,7 @@ local BootyBayBlast = DragonridingRace({
 CapeOfStranglethorn.nodes[40417782] = BootyBayBlast
 StranglethornVale.nodes[37608240] = BootyBayBlast
 
-Badlands.nodes[67113676] = DragonridingRace({
+Badlands.nodes[67113676] = SkyridingRace({
     label = '{quest:76523}',
     normal = {2547, 69, 64},
     advanced = {2563, 61, 58},
@@ -333,7 +333,7 @@ Badlands.nodes[67113676] = DragonridingRace({
     rewards = EasternKingdoms_Rewards(12)
 }) -- Fuselight Night Flight
 
-TwilightHighlands.nodes[72892784] = DragonridingRace({
+TwilightHighlands.nodes[72892784] = SkyridingRace({
     label = '{quest:76527}',
     normal = {2548, 76, 71},
     advanced = {2564, 67, 64},
@@ -341,7 +341,7 @@ TwilightHighlands.nodes[72892784] = DragonridingRace({
     rewards = EasternKingdoms_Rewards(13)
 }) -- Krazzworks Klash
 
-RedridgeMountains.nodes[40822500] = DragonridingRace({
+RedridgeMountains.nodes[40822500] = SkyridingRace({
     label = '{quest:76536}',
     normal = {2549, 62, 57},
     advanced = {2565, 55, 52},
@@ -366,8 +366,8 @@ local EASTERN_KINGDOMS_POIS = {
     [7584] = 40822500 -- Redridge Rally
 }
 
-ns.hook.DragonridingRace({
-    group = ns.groups.DRAGONRIDING_RACE,
+ns.hook.SkyridingRace({
+    group = ns.groups.SKYRIDING_RACE,
     showNote = true,
     pois = EASTERN_KINGDOMS_POIS
 })
