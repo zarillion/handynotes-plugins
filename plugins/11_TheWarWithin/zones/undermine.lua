@@ -518,7 +518,7 @@ map.nodes[42308231] = Treasure({
         Achievement({id = 41217, criteria = 71635}),
         Item({item = 235037, quest = 86630}) -- Crumpled Schematic: Wormhole Generator: Undermine
     }
-}) -- Crumpled Schematics -- Link: Supply Foreman Drezmol (isle_of_dorn.lua)
+}) -- Crumpled Schematics
 
 -------------------------------------------------------------------------------
 ----------------------------------- VENDORS -----------------------------------
@@ -1070,7 +1070,7 @@ map.nodes[38058868] = Collectible({
         ns.requirement.Profession(185, 2873, 35) -- The War Within Cooking 35
     },
     rewards = {
-        ns.reward.Recipe({item = 235800, profession = 185}) -- Recipe:
+        Recipe({item = 235800, profession = 185}) -- Recipe: Authentic Undermine Clam Chowder
     }
 }) -- Authentic Undermine Clam Chowder
 
@@ -1104,18 +1104,6 @@ zul.nodes[17576104] = HunterPetNode({
         Path({22845943, 21715939, 21526072, 20445985, 19156043, 17576104})
     }
 }) -- George <The Big Pinch>
-
--------------- CRUMPLED SCHEMATIC: WORMHOLE GENERATOR: UNDERMINE --------------
-
--- map.nodes[42508220] = Collectible({
---     label = '{item:235037}',
---     icon = 'peg_bl',
---     scale = 2.0,
---     requires = ns.requirement.Profession(202, 2875), -- Khaz Algar Engineering
---     location = L['crumpled_schematic_location'],
---     note = L['crumpled_schematic_note'],
---     rewards = {Recipe({item = 235037, profession = 202})}
--- }) -- Crumpled Schematic
 
 ------------------- UNLOCK SKYROCKETING RACES WORLD QUESTS --------------------
 
