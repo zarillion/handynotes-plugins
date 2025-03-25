@@ -49,7 +49,11 @@ map.nodes[68508078] = Rare({
         Reputation({id = 2653, gain = 20}),
         Transmog({item = 235301, slot = L['cloak']}), -- Drape of the Dazzling Feather
         Transmog({item = 235305, slot = L['cloth']}), -- Golfer's Truestrike Gloves
-        Transmog({item = 235321, slot = L['mail']}) -- Feather-Spike Girdle
+        Transmog({item = 235321, slot = L['mail']}), -- Feather-Spike Girdle
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
     }
 }) -- Scrapbeak
 
@@ -62,7 +66,11 @@ map.nodes[25243675] = Rare({
         Achievement({id = 41216, criteria = 71592}),
         Reputation({id = 2653, gain = 20}),
         Transmog({item = 235308, slot = L['cloth']}), -- Filthtread Boots
-        Transmog({item = 235326, slot = L['leather']}) -- Ratspit's Heirloom Wristwraps
+        Transmog({item = 235326, slot = L['leather']}), -- Ratspit's Heirloom Wristwraps
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
     }
 }) -- Ratspit
 
@@ -74,6 +82,10 @@ map.nodes[37684448] = Rare({
         Reputation({id = 2653, gain = 20}),
         Transmog({item = 235328, slot = L['leather']}), -- Boots of the Silver Tongue
         Transmog({item = 235355, slot = L['staff']}), -- Gossi-blin's Baton
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
@@ -91,6 +103,10 @@ map.nodes[36877815] = Rare({
         Reputation({id = 2653, gain = 20}),
         Transmog({item = 235306, slot = L['cloth']}), -- Ooze-fused Mantle
         Transmog({item = 235329, slot = L['leather']}), -- Cowl of Acidic Mire
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
@@ -107,6 +123,10 @@ map.nodes[54015023] = Rare({
         Reputation({id = 2653, gain = 20}),
         Transmog({item = 235317, slot = L['plate']}), -- Chestplate of the Ultimatum
         Transmog({item = 235353, slot = L['1h_axe']}), -- Debtsmasher Axe
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
@@ -122,6 +142,10 @@ map.nodes[41922563] = Rare({
         Achievement({id = 41216, criteria = 71597}),
         Reputation({id = 2653, gain = 20}),
         Transmog({item = 235356, slot = L['offhand']}), -- Sapper's Spark Reactor
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235315, slot = L['plate']}), -- Rocketstep Boots
@@ -138,7 +162,11 @@ map.nodes[46915565] = Rare({
         Reputation({id = 2653, gain = 20}),
         Transmog({item = 235318, slot = L['plate']}), -- Ironfang Plate Legguards
         Transmog({item = 235324, slot = L['mail']}), -- Scavenger's Lost Bind
-        Transmog({item = 235325, slot = L['leather']}) -- Rusthide Gloves
+        Transmog({item = 235325, slot = L['leather']}), -- Rusthide Gloves
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
     }
 }) -- Nitro
 
@@ -150,6 +178,10 @@ map.nodes[42227735] = Rare({
         Reputation({id = 2653, gain = 20}),
         Transmog({item = 235304, slot = L['cloth']}), -- Gutter Rat Mask
         Transmog({item = 235348, slot = L['dagger']}), -- Back Alley Shank
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
@@ -165,7 +197,11 @@ map.nodes[67333353] = Rare({
         Achievement({id = 41216, criteria = 71600}),
         Reputation({id = 2653, gain = 20}),
         Transmog({item = 235319, slot = L['mail']}), -- Tidebomb Chestpiece
-        Transmog({item = 235323, slot = L['mail']}) -- Blastshell Bracers
+        Transmog({item = 235323, slot = L['mail']}), -- Blastshell Bracers
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
     }
 }) -- Grimewick
 
@@ -177,6 +213,10 @@ map.nodes[41354357] = Rare({
         Reputation({id = 2653, gain = 20}),
         Transmog({item = 235307, slot = L['cloth']}), -- Smoketrail Belt
         Transmog({item = 235314, slot = L['plate']}), -- Knightrider's Steelfists
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
@@ -193,7 +233,11 @@ map.nodes[26516830] = Rare({
         Reputation({id = 2653, gain = 50}),
         Transmog({item = 235309, slot = L['cloth']}), -- Gloomshroud Robe
         Transmog({item = 235350, slot = L['1h_mace']}), -- Void-forged Cudgel
-        Transmog({item = 235352, slot = L['wand']}) -- Netherflare Wand
+        Transmog({item = 235352, slot = L['wand']}), -- Netherflare Wand
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
     }
 }) -- Ephemeral Agent Lathyd
 
@@ -205,6 +249,10 @@ map.nodes[63354975] = Rare({
         Reputation({id = 2653, gain = 50}),
         Transmog({item = 235313, slot = L['plate']}), -- Shockproof Helm
         Transmog({item = 235354, slot = L['polearm']}), -- Scrapblaster Lance
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235315, slot = L['plate']}), -- Rocketstep Boots
@@ -221,6 +269,10 @@ map.nodes[52354107] = Rare({
         Achievement({id = 41216, criteria = 71604}),
         Reputation({id = 2653, gain = 20}),
         Transmog({item = 235349, slot = L['1h_mace']}), -- Shadowfume Club
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
@@ -237,6 +289,10 @@ map.nodes[58488643] = Rare({
         Reputation({id = 2653, gain = 50}),
         Transmog({item = 235311, slot = L['plate']}), -- Rocket-Powered Shoulderguards
         Transmog({item = 235357, slot = L['shield']}), -- Bulletscar Barricade
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235315, slot = L['plate']}), -- Rocketstep Boots
@@ -252,6 +308,10 @@ map.nodes[60580989] = Rare({
         Achievement({id = 41216, criteria = 71606}),
         Transmog({item = 235312, slot = L['plate']}), -- Snooty's Aviator Bindings
         Transmog({item = 235316, slot = L['plate']}), -- Whirly-Giggle Windwhir Wrap
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235315, slot = L['plate']}), -- Rocketstep Boots
@@ -272,6 +332,10 @@ map.nodes[40002232] = Rare({
         Achievement({id = 41216, criteria = 71608}),
         Transmog({item = 235835, type = L['cloak']}), -- Braided Wire Wrap
         Transmog({item = 235836, type = L['2h_sword']}), -- Gas-Powered Chainblade
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235315, slot = L['plate']}), -- Rocketstep Boots
@@ -292,6 +356,10 @@ map.nodes[32027652] = Rare({
         Achievement({id = 41216, criteria = 71609}),
         Transmog({item = 235823, type = L['leather']}), -- Scrap-Plated Pants
         Transmog({item = 235824, type = L['gun']}), -- Flame Sputterer
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
         Spacer(), Section(L['shared_drops']),
         Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
@@ -312,7 +380,11 @@ map.nodes[57207860] = Rare({
         Achievement({id = 41216, criteria = 71610}),
         Transmog({item = 235829, type = L['mail']}), -- Welded Scrap Hood
         Transmog({item = 235830, type = L['mail']}), -- Unstable Missilecaps
-        Transmog({item = 235831, type = L['1h_sword']}) -- Battery-Powered Longshank
+        Transmog({item = 235831, type = L['1h_sword']}), -- Battery-Powered Longshank
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
     },
     sublabel = format(L['requires_ally'], 2671) -- Venture Company
 }) -- Scrapchewer
@@ -328,10 +400,14 @@ map.nodes[64162556] = Rare({
         Achievement({id = 41216, criteria = 71611}),
         Transmog({item = 235826, type = L['cloth']}), -- Electric Wristrags
         Transmog({item = 235827, type = L['leather']}), -- Statically Charged Vest
-        Transmog({item = 235828, type = L['staff']}) -- Electrocution Warning
+        Transmog({item = 235828, type = L['staff']}), -- Electrocution Warning
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
     },
     sublabel = format(L['requires_ally'], 2675) -- Blackwater Cartel
-}) -- Volstrike the Charged
+}) -- Voltstrike the Charged
 
 map.nodes[40209190] = Rare({
     id = 231310,
@@ -346,7 +422,11 @@ map.nodes[40209190] = Rare({
         Transmog({item = 235832, type = L['cloak']}), -- Oil-Splattered Cloak
         Transmog({item = 235833, type = L['polearm']}), -- Serrated Slickgrip
         Transmog({item = 235834, type = L['warglaive']}), -- Rocketgrip Turboslicer
-        Mount({item = 229955, id = 2293}) -- Darkfuse Spy-Eye
+        Mount({item = 229955, id = 2293}), -- Darkfuse Spy-Eye
+        Spacer(), Section(L['miscellaneous_mechanica']),
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
     }
 }) -- Darkfuse Precipitant
 
@@ -672,6 +752,9 @@ local function GetScrapRewards(criteriaID)
         Spacer(), Section('{npc:234621}'), -- Gallagio Garbage <Luxury Trash>
         Transmog({item = 235821, type = L['mail']}), -- Pressed-Gold Pantaloons
         Transmog({item = 235822, type = L['cloak']}), -- Coin-Woven Shawl
+        Mount({item = 229954, id = 2292}), -- Margin Manipulator
+        Mount({item = 229952, id = 2290}), -- Asset Advocator
+        Mount({item = 229941, id = 2283}), -- Innovation Investigator
         Mount({item = 229953, id = 2291}) -- Salvaged Goblin Gazillionaire's Flying Machine
     }
 end
