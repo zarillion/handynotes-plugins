@@ -659,7 +659,7 @@ local DELVE_REWARDS = {
         Achievement({id = 40454, oneline = true}), -- Daystormer
         Achievement({id = 41110, criteria = {71062}}), -- Algari Delver Damage Dealer III
         Achievement({id = 41112, criteria = {71090}}), -- Algari Delver Healer III
-        Achievement({id = 41114, criteria = {71118}}), -- Algari Delver Tank  III
+        Achievement({id = 41114, criteria = {71118}}) -- Algari Delver Tank  III
     },
     ['skittering_breach'] = {
         Achievement({id = 40810, criteria = SturdyChestCriteria}), -- Skittering Breach Discoveries
@@ -667,7 +667,7 @@ local DELVE_REWARDS = {
         Achievement({id = 40454, oneline = true}), -- Daystormer
         Achievement({id = 41110, criteria = {71063}}), -- Algari Delver Damage Dealer III
         Achievement({id = 41112, criteria = {71091}}), -- Algari Delver Healer III
-        Achievement({id = 41114, criteria = {71119}}), -- Algari Delver Tank  III
+        Achievement({id = 41114, criteria = {71119}}) -- Algari Delver Tank  III
     },
     -- GOBLIN DELVES ----------------------------------------------------------
     ['excavation_site_9'] = {
