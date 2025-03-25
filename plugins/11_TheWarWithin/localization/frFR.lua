@@ -458,7 +458,7 @@ L['peculiar_gem_note'] = 'Descendez par le trou dissimulé dans la grotte jusqu\
 
 -- KARAZHAN CATACOMBS
 L['karazhan_catacombs_label'] = 'Catacombes de Karazhan'
-L['karazhan_catacombs_entrance_note'] = 'Récupérez la {item:44124} en partant du {location:Cratère d\'Un\'Goro} en {location:Kalimdor}\n\nRécupérez la {item:228938} en partant de {location:Dornogal} en {location:Khaz Algar}\n\nCombinez la gemme et la clé pour obtenir la {item:44124}.\n\nUne fois la {item:44124} dans vos sacs et la {item:208092} active, approchez de la porte pour révéler une entrée d\'instance rouge.'
+L['karazhan_catacombs_entrance_note'] = 'Récupérez la {item:228941} en partant du {location:Cratère d\'Un\'Goro} en {location:Kalimdor}\n\nRécupérez la {item:228938} en partant de {location:Dornogal} en {location:Khaz Algar}\n\nCombinez la gemme et la clé pour obtenir la {item:44124}.\n\nUne fois la {item:44124} dans vos sacs et la {item:208092} active, approchez de la porte pour révéler une entrée d\'instance rouge.'
 
 -- ORB 1
 L['orb_1_label'] = 'Orbe 1'

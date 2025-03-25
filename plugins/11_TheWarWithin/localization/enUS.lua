@@ -457,7 +457,7 @@ L['peculiar_gem_note'] = 'Take the hidden hole entrance within the cave down to 
 
 -- KARAZHAN CATACOMBS
 L['karazhan_catacombs_label'] = 'Karazhan Catacombs'
-L['karazhan_catacombs_entrance_note'] = 'Collect the {item:44124} starting in {location:Un\'Goro Crater} in {location:Kalimdor}\n\nCollect the {item:228938} starting in {location:Dornogal} in {location:Khaz Algar}\n\nCombine the gem and the key to form the {item:44124}.\n\nWith the {item:44124} in your bag and the {item:208092} active approach the gate to reveal a red instance entrance.'
+L['karazhan_catacombs_entrance_note'] = 'Collect the {item:228941} starting in {location:Un\'Goro Crater} in {location:Kalimdor}\n\nCollect the {item:228938} starting in {location:Dornogal} in {location:Khaz Algar}\n\nCombine the gem and the key to form the {item:44124}.\n\nWith the {item:44124} in your bag and the {item:208092} active approach the gate to reveal a red instance entrance.'
 
 -- ORB 1
 L['orb_1_label'] = 'Orb 1'

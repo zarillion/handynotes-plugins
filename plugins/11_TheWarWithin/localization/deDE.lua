@@ -460,7 +460,7 @@ L['peculiar_gem_note'] = 'Springe ein Loch in der Höhle des {location:Stütznes
 
 -- KARAZHAN CATACOMBS
 L['karazhan_catacombs_label'] = 'Die Katakomben von Karazhan'
-L['karazhan_catacombs_entrance_note'] = 'Sammle den {item:44124} im {location:Krater von Un\'Goro} ({location:Kalimdor})\n\nSammle den {item:228938} beginnend in {location:Dornogal} ({location:Khaz Algar}, {location:Insel von Dorn})\n\nKombiniere den Schlüssel und Edelstein, um den {item:44124} zu erhalten.\n\nMit dem {item:44124} in deinen Taschen und der {item:208092} aktiv nähere dich dem Gitter, um einen roten Instanzeingang zu offenbaren.'
+L['karazhan_catacombs_entrance_note'] = 'Sammle den {item:228941} im {location:Krater von Un\'Goro} ({location:Kalimdor})\n\nSammle den {item:228938} beginnend in {location:Dornogal} ({location:Khaz Algar}, {location:Insel von Dorn})\n\nKombiniere den Schlüssel und Edelstein, um den {item:44124} zu erhalten.\n\nMit dem {item:44124} in deinen Taschen und der {item:208092} aktiv nähere dich dem Gitter, um einen roten Instanzeingang zu offenbaren.'
 
 -- ORB 1
 L['orb_1_label'] = 'Kugel 1'
