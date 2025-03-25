@@ -87,6 +87,7 @@ local RattsRevenge = Class('RattsRevenge', Node, {
 ungoroCrater.nodes[44550798] = RattsRevenge({
     label = '{item:228941}',
     note = L['inert_peculiar_key_note'],
+    quest = 84676, -- hidden 1 O'clock Orb finished
     requires = TORCH, -- Torch of Pyrreth
     rewards = {Item({item = 228941, bag = true})} -- Inert Peculiar Key
 }) -- Inert Peculiar Key

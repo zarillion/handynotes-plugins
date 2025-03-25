@@ -517,7 +517,7 @@ map.nodes[42308231] = Treasure({
     quest = 86487,
     rewards = {
         Achievement({id = 41217, criteria = 71635}),
-        Item({item = 235037, quest = 86630}) -- Crumpled Schematic: Wormhole Generator: Undermine
+        Item({item = 235037, quest = 86630, profession = 202}) -- Crumpled Schematic: Wormhole Generator: Undermine
     }
 }) -- Crumpled Schematics
 
