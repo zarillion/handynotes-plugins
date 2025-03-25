@@ -136,26 +136,12 @@ map.nodes[37115497] = Rare({
 }) -- Stalagnarok
 
 local EXCAVATION_POIS = {
-    [8149] = 57726612, -- Gravesludge (The Drain)
-    [8150] = 37115497, -- Stalagnarok (Shuddering Halow)
-    [8152] = 26206546 -- Nerathor (The Drowned Lair)
+    [8149] = map.nodes[57726612].rewards, -- Gravesludge (The Drain)
+    [8150] = map.nodes[37115497].rewards, -- Stalagnarok (Shuddering Halow)
+    [8152] = map.nodes[26206546].rewards -- Nerathor (The Drowned Lair)
 }
 
-hooksecurefunc(AreaPOIEventPinMixin, 'OnMouseEnter', function(self)
-    if not EXCAVATION_POIS[self.areaPoiID] then return end
-    local mapID = self:GetMap().mapID
-    local group = ns.groups.RARE
-    if group:GetDisplay(mapID) then
-        GameTooltip:AddLine(' ')
-        local rewards = map.nodes[EXCAVATION_POIS[self.areaPoiID]].rewards
-        for _, reward in pairs(rewards) do
-            if reward and reward:IsEnabled() then
-                reward:Render(GameTooltip)
-            end
-        end
-        GameTooltip:Show()
-    end
-end)
+ns.hook.AreaPoiEvent({group = ns.groups.RARE, pois = EXCAVATION_POIS})
 
 ------------------------------- VYKRUL AND NAGA -------------------------------
 

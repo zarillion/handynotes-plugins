@@ -7,4 +7,6 @@
   <Script file="zones\shadowmoon_valley.lua"/>
   <Script file="zones\terokkar_forest.lua"/>
   <Script file="zones\zangarmarsh.lua"/>
+  <!-- -->
+  <Script file="zones\skyriding_races.lua"/>
 </Ui>

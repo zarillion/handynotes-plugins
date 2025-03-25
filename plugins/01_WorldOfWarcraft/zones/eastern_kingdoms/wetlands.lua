@@ -123,6 +123,10 @@ map.nodes[51603580] = Safari.WaterSnake({
     }
 }) -- Water Snake
 
+-------------------------------------------------------------------------------
+-------------------------- THE SCAVENGER ACHIEVEMENT --------------------------
+-------------------------------------------------------------------------------
+
 map.nodes[05906210] = ns.node.ScavengerPool(3874)
 map.nodes[07205590] = ns.node.ScavengerPool(3874)
 map.nodes[08005920] = ns.node.ScavengerPool(3874)

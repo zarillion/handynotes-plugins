@@ -637,6 +637,11 @@ L['undermine_clam_chowder_label'] = 'Guide culinaire authentique de Terremine'
 L['undermine_clam_chowder_location'] = 'Sur une étagère derrière {npc:226728} dans la ruelle de la {location:Cuverie}.'
 L['undermine_clam_chowder_note'] = '1. Pour obtenir cette recette, vous devez d\'abord connaître {item:16767} qui peut être achetée auprès de deux vendeurs {object:Classiques} contre %s.\n\n{npc:54232} à {location:Baie-du-Butin} au {location:Cap Strangleronce}\n\n{npc:48060} à {location:Lumèche} dans les {location:Terres Ingrates}\n\n2. Une fois que vous connaissez l\'ancienne recette, ouvrez le {object:Guide culinaire authentique de Terremine} et lisez-le jusqu\'à la dernière page. Notez la recette pour recevoir {item:235800}.'
 
+L['breakneck_race_note'] = 'Les améliorations suivantes du {object:G-99 Ventraterre} sont recommandées pour faciliter l\'obtention de l\'|cFFFFD700Or|r :\n\n%s\n\n%s\n\n%s'
+L['upgrade_the_pozzik_standard'] = '{item:232982} (Moteur) : Obtenez le |cFFCD7F32Bronze|r dans toutes les {object:courses effrénées} normales et inversées.'
+L['upgrade_22h_slicks'] = '{item:232985} (Roues) : Fabriquées par les ingénieurs et vendues à l\'hôtel des ventes.'
+L['upgrade_turbo_handcrank'] = '{item:232984} (Turbo) : Combinez les 5 pièces récupérées sur les monstres rares ou achetées à l\'hôtel des ventes.'
+
 L['blazefeather_peacock_note'] = 'Après avoir terminé la suite de quêtes {quest:83421}, parlez à {npc:226555} et payez-le %s pour invoquer un {npc:226561} domptable.'
 L['radioactive_subject_note'] = 'Utilisez les tuyaux à proximité, aidez-vous des objets {item:237276}, {item:109076}, {item:231099} ou de toute autre technique de saut pour atteindre le toit du bâtiment des {location:Laboratoires de Gentepression} à la {location:Cuverie}.'
 L['george_the_big_pinch_note'] = 'Cliquez rapidement sur les 5 {npc:238189} pour recevoir le buff {spell:1219679} et ainsi pouvoir dompter {npc:233938}.'

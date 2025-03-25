@@ -636,6 +636,11 @@ L['undermine_clam_chowder_label'] = nil
 L['undermine_clam_chowder_location'] = nil
 L['undermine_clam_chowder_note'] = nil
 
+L['breakneck_race_note'] = nil
+L['upgrade_the_pozzik_standard'] = nil
+L['upgrade_22h_slicks'] = nil
+L['upgrade_turbo_handcrank'] = nil
+
 L['blazefeather_peacock_note'] = nil
 L['radioactive_subject_note'] = nil
 L['george_the_big_pinch_note'] = nil

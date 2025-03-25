@@ -118,23 +118,23 @@ L['rep_revered'] = nil
 L['rep_exalted'] = nil
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+------------------------------- SKYRIDING RACES -------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_your_best_time'] = nil
-L['dr_your_target_time'] = nil
-L['dr_best_time'] = nil
-L['dr_target_time'] = nil
-L['dr_normal'] = nil
-L['dr_advanced'] = nil
-L['dr_reverse'] = nil
-L['dr_challenge'] = nil
-L['dr_reverse_challenge'] = nil
-L['dr_storm_race'] = nil
-L['dr_bronze'] = nil
-L['dr_vendor_note'] = nil
-L['options_icons_dragonrace'] = nil
-L['options_icons_dragonrace_desc'] = nil
+L['sr_your_best_time'] = nil
+L['sr_your_target_time'] = nil
+L['sr_best_time'] = nil
+L['sr_target_time'] = nil
+L['sr_normal'] = nil
+L['sr_advanced'] = nil
+L['sr_reverse'] = nil
+L['sr_challenge'] = nil
+L['sr_reverse_challenge'] = nil
+L['sr_storm_race'] = nil
+L['sr_bronze'] = nil
+L['sr_vendor_note'] = nil
+L['options_icons_skyriding_race'] = nil
+L['options_icons_skyriding_race_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

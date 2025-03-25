@@ -814,28 +814,11 @@ local FroststoneVaultPrimalStorm = Class('FroststoneVaultPrimalStorm',
 
 map.nodes[60103875] = FroststoneVaultPrimalStorm()
 
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
-    if self and self.areaPoiID then
-        local mapID = self:GetMap().mapID
-        local group = ns.groups.FROSTSTONE_VAULT_STORM
-        if FSV_PS[self.areaPoiID] and group:GetDisplay(mapID) then
-            local rewards = FSV_PS[self.areaPoiID]
-            ns.PrepareLinks(L['gooey_snailemental_note'])
-            if ns:GetOpt('show_notes') then
-                local note = ns.RenderLinks(L['gooey_snailemental_note'])
-                GameTooltip:AddLine(' ')
-                GameTooltip:AddLine(note)
-            end
-            GameTooltip:AddLine(' ')
-            for i, reward in ipairs(rewards) do
-                if reward:IsEnabled() then
-                    reward:Render(GameTooltip)
-                end
-            end
-            GameTooltip:Show()
-        end
-    end
-end)
+ns.hook.AreaPoi({
+    group = ns.groups.FROSTSTONE_VAULT_STORM,
+    pois = FSV_PS,
+    note = L['gooey_snailemental_note']
+})
 
 -------------------------------------------------------------------------------
 ------------------------------- SMALL TREASURES -------------------------------
@@ -1029,22 +1012,10 @@ map.nodes[29265268] = Collectible({
     }
 }) -- Zskera Vaults
 
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
-    if self and self.areaPoiID then
-        local mapID = self:GetMap().mapID
-        local group = ns.groups.ZSKERA_VAULTS
-        if self.areaPoiID == 7414 and group:GetDisplay(mapID) then
-            local rewards = ZSKERA_VAULTS_REWARDS
-            GameTooltip:AddLine(' ')
-            for i, reward in ipairs(rewards) do
-                if reward:IsEnabled() then
-                    reward:Render(GameTooltip)
-                end
-            end
-            GameTooltip:Show()
-        end
-    end
-end)
+ns.hook.AreaPoi({
+    group = ns.groups.ZSKERA_VAULTS,
+    pois = {[7414] = ZSKERA_VAULTS_REWARDS}
+})
 
 ------------------------ RENEWED PROTO-DRAKE: ANTLERS -------------------------
 
