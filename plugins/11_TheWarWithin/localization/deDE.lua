@@ -647,3 +647,26 @@ L['skyrocketing_sprint'] = 'Raketenrennen'
 L['unlock_skyrocketing_note'] = nil -- \n{wq:Drachenreiterrennen - Raketenrennen}\n{wq:Drachenreiterrennen - Haldenhüpfer}\n{wq:Drachenreiterrennen - Schrottladenchance}\n{wq:Drachenreiterrennen - Tellerwäschertriumph}
 
 L['chett_suffix'] = 'C.H.E.T.T.-Liste'
+L['chett_exchange_1'] = nil
+L['chett_exchange_2a'] = nil
+L['chett_exchange_2b'] = nil
+L['chett_exchange_2_requirement'] = nil
+L['chett_complete'] = nil
+L['chett_extra'] = nil
+L['chett_available'] = nil
+L['chett_ongoing'] = nil
+L['chett_submit'] = nil
+
+L['side_with_a_cartel'] = nil
+L['ship_right'] = nil
+L['reclaimed_scrap'] = nil
+L['side_gig'] = nil
+L['war_mode_violence'] = nil
+L['go_fish'] = nil
+L['gotta_catch_at_least_a_few'] = nil
+L['rare_rivals'] = nil
+L['clean_the_sidestreets'] = nil
+L['time_to_vacate'] = nil
+L['desire_to_drive'] = nil
+L['kaja_cruising'] = nil
+L['garbage_day'] = nil

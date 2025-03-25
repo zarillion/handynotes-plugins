@@ -644,3 +644,26 @@ L['skyrocketing_sprint'] = '衝天火箭奔馳賽道'
 L['unlock_skyrocketing_note'] = '{note:該角色須完成一次衝天火箭奔馳賽}\n解鎖衝天火箭競賽的4個世界任務: \n{wq:天空騎術競賽 - 衝天火箭奔馳賽}\n{wq:天空騎術競賽 - 垃圾場飛躍賽道}\n{wq:天空騎術競賽 - 廢料工坊彈射}\n{wq:天空騎術競賽 - 發家致富疾衝賽}'
 
 L['chett_suffix'] = 'C.H.E.T.T.清單'
+L['chett_exchange_1'] = nil
+L['chett_exchange_2a'] = nil
+L['chett_exchange_2b'] = nil
+L['chett_exchange_2_requirement'] = nil
+L['chett_complete'] = nil
+L['chett_extra'] = nil
+L['chett_available'] = nil
+L['chett_ongoing'] = nil
+L['chett_submit'] = nil
+
+L['side_with_a_cartel'] = nil
+L['ship_right'] = nil
+L['reclaimed_scrap'] = nil
+L['side_gig'] = nil
+L['war_mode_violence'] = nil
+L['go_fish'] = nil
+L['gotta_catch_at_least_a_few'] = nil
+L['rare_rivals'] = nil
+L['clean_the_sidestreets'] = nil
+L['time_to_vacate'] = nil
+L['desire_to_drive'] = nil
+L['kaja_cruising'] = nil
+L['garbage_day'] = nil

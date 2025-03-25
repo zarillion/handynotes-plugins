@@ -268,25 +268,26 @@ map.nodes[60580989] = Rare({
 
 -------------------------------- CHOSEN CARTEL --------------------------------
 
-local function ChosenCartel()
-    local cartels = { -- {quest, faction, currency, finders-fee}
-        {84951,2673,3169,236764}, -- [1] Bilgewater Cartel
-        {84952,2677,3173,236689}, -- [2] Steamwheedle Cartel
-        {84954,2675,3171,236763}, -- [3] Blackwater Cartel
-        {84953,2671,3175,236765}, -- [4] Venture Company
-        -- {nil,nil,3221,nil}, -- [5] Goblin Cartels Reputation
-    }
-    if not C_QuestLog.IsQuestFlaggedCompleted(84948) -- Contract Work
-    then return nil end
-    for i = 1, #cartels do
-        if C_QuestLog.IsQuestFlaggedCompleted(cartels[i][1])
-        then return cartels[i][2]
-        end
-    end
-    return nil
-end
--- -- Reputation() how to deal with {id = nil}
+-- local function ChosenCartel()
+--     local cartels = { -- {[1]quest, [2]faction, [3]currency, [4]finders-fee}
+--         {84951,2673,3169,236764}, -- Bilgewater Cartel
+--         {84952,2677,3173,236689}, -- Steamwheedle Cartel
+--         {84954,2675,3171,236763}, -- Blackwater Cartel
+--         {84953,2671,3176,236765}, -- Venture Company
+--         -- {nil,nil,3221,nil}, -- Goblin Cartels Reputation
+--     }
+--     if not C_QuestLog.IsQuestFlaggedCompleted(84948) -- Contract Work
+--     then return nil end
+--     for i = 1, #cartels do
+--         if C_QuestLog.IsQuestFlaggedCompleted(cartels[i][1])
+--         then return cartels[i]
+--         end
+--     end
+--     return {nil,nil,3221,nil}
+-- end
+
 -- local cartel = ChosenCartel()
+
 -------------------------------------------------------------------------------
 
 map.nodes[40002232] = Rare({
@@ -809,32 +810,17 @@ map.nodes[15852496] = ShippingHandling()
 -------------------------------------------------------------------------------
 ----------------------------- C.H.E.T.T. REWARDS ------------------------------
 -------------------------------------------------------------------------------
--- 87296 -- C.H.E.T.T. (weekly)
 
--- 86915 -- "Side with a Cartel"
--- 86917 -- "Ship Right"
--- 86918 -- "Reclaimed Scrap"
--- 86919 -- "Side Gig"
--- 86920 -- "War Mode Violence"
--- 86923 -- "Go Fish"
--- 86924 -- "Gotta Catch at Least a Few"
--- 87302 -- "Rare Rivals"
--- 87303 -- "Clean the Sidestreets"
--- 87304 -- "Time to Vacate"
--- 87305 -- "Desire to D.R.I.V.E."
--- 87306 -- "Kaja Cruising"
--- 87307 -- "Garbage Day"
-
--- C_QuestLog.IsOnQuest()
--- C_QuestLog.IsQuestFlaggedCompleted()
-
-local ChettList = Class('ChettList', Collectible,{
+local Chett = Class('Chett', Collectible,{
     id = 238029,
     requires = {
         ns.requirement.Reputation(2653, 13, true), -- The Cartels of Undermine
-        ns.requirement.Quest(87374, _, _, true), -- ![C.H.E.T.T.ing In] (warband)
+        ns.requirement.Quest(87374, _, _, true) -- ![C.H.E.T.T.ing In] (warband)
     },
-    icon = 134391,
+    icon = 134391
+})  -- C.H.E.T.T.
+
+map.nodes[43415050] = Chett({
     rewards = {
         Achievement({
             id = 41629,
@@ -842,30 +828,92 @@ local ChettList = Class('ChettList', Collectible,{
         Transmog({item = 237900, slot = _G.BACKSLOT}), -- C.H.E.T.T. Pack
         Item({item = 236682, weekly = 87296}) -- C.H.E.T.T. List
     }
-})  -- C.H.E.T.T.
+})
 
--- '{item:236682}' -- C.H.E.T.T. List
--- '{item:235053}' -- Completed C.H.E.T.T. List
--- '{item:236668}' -- C.H.E.T.T. Card
+local ChettList = Class('ChettList', Node, {
+    label = '{item:235053}',
+    requires = {
+        ns.requirement.Reputation(2653, 13, true), -- The Cartels of Undermine
+        ns.requirement.Quest(87374, _, _, true) -- ![C.H.E.T.T.ing In] (warband)
+    },
+    icon = 134391,
+    scale = 1.5
+}) -- C.H.E.T.T. List
 
--- function ChettList.getters:note()
---     local note = ''
---     if ns.PlayerHasItem(235053)
---     then note = note .. L['chett_is_ready']
---     elseif not ns.PlayerHasItem(236682) and C_QuestLog.IsQuestFlaggedCompleted(87296)
---     then note = note .. L['chett_no_more']
---         if ns.PlayerHasItem(236668, 40) then note = note .. L['chett_once_more'] end
---     elseif not ns.PlayerHasItem(236682) and not C_QuestLog.IsQuestFlaggedCompleted(87296)
---     then note = note .. L['chett_available']
---     elseif ns.PlayerHasItem(236682)
---     then note = note .. L['chett_on_going']
---     end
---     return note
--- end
+function ChettList.getters:note()
+    local note = ''
+    if not ns.PlayerHasItem(235053) then
+        if C_QuestLog.IsQuestFlaggedCompleted(87296) then
+            note = note .. L['chett_complete']
+            .. ns.tooltip.ItemStatus(236668, 40, L['chett_extra'])
+        else note = note .. L['chett_available']
+        end
+    elseif ns.PlayerHasItem(235053) then
+        local function ChettStatus()
+            local quests = {
+                {86915, L['side_with_a_cartel']},
+                {86917, L['ship_right']},
+                {86918, L['reclaimed_scrap']},
+                {86919, L['side_gig']},
+                {86920, L['war_mode_violence']},
+                {86923, L['go_fish']},
+                {86924, L['gotta_catch_at_least_a_few']},
+                {87302, L['rare_rivals']},
+                {87303, L['clean_the_sidestreets']},
+                {87304, L['time_to_vacate']},
+                {87305, L['desire_to_drive']},
+                {87306, L['kaja_cruising']},
+                {87307, L['garbage_day']}
+                }
+            local complete, ready, total = 0, 0, 0
+            local list = ''
+            for i = 1, #quests do
+                if C_QuestLog.IsQuestFlaggedCompleted(quests[i][1]) then
+                    complete = complete + 1
+                    list = list .. '\n' .. ns.status.Green(L['completed'])
+                    .. ' ' .. quests[i][2]
+                end
+                if C_QuestLog.IsOnQuest(quests[i][1]) then
+                    if C_QuestLog.ReadyForTurnIn(quests[i][1]) then 
+                        ready = ready + 1
+                        list = list .. '\n' .. ns.status.Orange(L['completed'])
+                        .. ' ' .. quests[i][2]
+                    else
+                        list = list .. '\n' .. ns.status.Red(L['incomplete'])
+                        .. ' ' .. quests[i][2]
+                    end
+                end
+                total = complete + ready
+            end
+            return complete, total, list
+        end 
+        local complete, total, list = ChettStatus()
+        if complete >= 4 then
+            note = note .. L['chett_exchange_1']
+            if not GetAchievementInfo(41627).completed then
+                note = note .. L['chett_exchange_2_requirement']
+            elseif C_QuestLog.IsQuestFlaggedCompleted(84951) then
+                note = note .. format(L['chett_exchange_2a'], 3169, 236764, 2673)
+            elseif C_QuestLog.IsQuestFlaggedCompleted(84952) then
+                note = note .. format(L['chett_exchange_2a'], 3173, 236689, 2677)
+            elseif C_QuestLog.IsQuestFlaggedCompleted(84953) then
+                note = note .. format(L['chett_exchange_2a'], 3176, 236765, 2671)
+            elseif C_QuestLog.IsQuestFlaggedCompleted(84954) then
+                note = note .. format(L['chett_exchange_2a'], 3171, 236763, 2675)
+            else note = note .. L['chett_exchange_2b']
+            end
+        elseif total >= 4 then
+            note = note .. ns.status.Green(total .. '/4') .. L['chett_ongoing']
+            .. L['chett_submit']
+        elseif total < 4 then
+            note = note .. ns.status.Red(total .. '/4') .. L['chett_ongoing']
+            .. list
+        end
+    end
+    return note
+end
 
-map.nodes[43415050] = ChettList()
-
--- L['chett_is_ready'] = 'Bring {item:235053} back to {npc:238029} to receive 250 {currency:3008}.\n Or go to the quartermaster of the Cartel you have your weekly contract with and exchange your list for a Finder\'s Fee (e.g. Finder\'s Fee Finder\'s Fee) that will reward 500 reputation with your aligned Cartel.'
+map.nodes[15851996] = ChettList()
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: NINE-TENTHS OF THE LAW ---------------------
@@ -1107,14 +1155,15 @@ zul.nodes[17576104] = HunterPetNode({
 
 ------------------- UNLOCK SKYROCKETING RACES WORLD QUESTS --------------------
 
-local UnlockSkyrocketing = Class('UnlockSkyrocketing', ns.node.Node, {
+local UnlockSkyrocketing = Class('UnlockSkyrocketing', Node, {
     icon = 'peg_rd',
     scale = 2.0,
     label = L['skyrocketing_sprint'],
     note = L['unlock_skyrocketing_note'],
     vignette = 6760,
     pois = {Entrance({39912882})},
-    IsEnabled = function() return not C_CurrencyInfo.GetCurrencyInfo(3119).discovered end -- 11 Z6 R1 Easy
+    IsEnabled = function()
+        return not C_CurrencyInfo.GetCurrencyInfo(3119).discovered end -- 11 Z6 R1 Easy
 }) --  probably a bug which may be fixed in the future by blizzard
 
 map.nodes[39052870] = UnlockSkyrocketing()
