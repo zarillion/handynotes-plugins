@@ -133,8 +133,8 @@ L['sr_reverse_challenge'] = '反向挑战'
 L['sr_storm_race'] = '风雷之速'
 L['sr_bronze'] = '完成竞速获得 ' .. ns.color.Bronze('青铜') .. '。'
 L['sr_vendor_note'] = '用 {currency:2588} 兑换观龙者手稿和幻化。'
-L['options_icons_skyriding_race'] = nil
-L['options_icons_skyriding_race_desc'] = '显示区域内全部驭龙竞速的位置。'
+L['options_icons_skyriding_race'] = '驭空术竞速'
+L['options_icons_skyriding_race_desc'] = '显示区域内全部驭空术竞速的位置。'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
