@@ -53,7 +53,7 @@ map.nodes[68508078] = Rare({
         Spacer(), Section(L['miscellaneous_mechanica']),
         Mount({item = 229954, id = 2292}), -- Margin Manipulator
         Mount({item = 229952, id = 2290}), -- Asset Advocator
-        Mount({item = 229941, id = 2283}), -- Innovation Investigator
+        Mount({item = 229941, id = 2283}) -- Innovation Investigator
     }
 }) -- Scrapbeak
 
@@ -70,7 +70,7 @@ map.nodes[25243675] = Rare({
         Spacer(), Section(L['miscellaneous_mechanica']),
         Mount({item = 229954, id = 2292}), -- Margin Manipulator
         Mount({item = 229952, id = 2290}), -- Asset Advocator
-        Mount({item = 229941, id = 2283}), -- Innovation Investigator
+        Mount({item = 229941, id = 2283}) -- Innovation Investigator
     }
 }) -- Ratspit
 
@@ -166,7 +166,7 @@ map.nodes[46915565] = Rare({
         Spacer(), Section(L['miscellaneous_mechanica']),
         Mount({item = 229954, id = 2292}), -- Margin Manipulator
         Mount({item = 229952, id = 2290}), -- Asset Advocator
-        Mount({item = 229941, id = 2283}), -- Innovation Investigator
+        Mount({item = 229941, id = 2283}) -- Innovation Investigator
     }
 }) -- Nitro
 
@@ -201,7 +201,7 @@ map.nodes[67333353] = Rare({
         Spacer(), Section(L['miscellaneous_mechanica']),
         Mount({item = 229954, id = 2292}), -- Margin Manipulator
         Mount({item = 229952, id = 2290}), -- Asset Advocator
-        Mount({item = 229941, id = 2283}), -- Innovation Investigator
+        Mount({item = 229941, id = 2283}) -- Innovation Investigator
     }
 }) -- Grimewick
 
@@ -237,7 +237,7 @@ map.nodes[26516830] = Rare({
         Spacer(), Section(L['miscellaneous_mechanica']),
         Mount({item = 229954, id = 2292}), -- Margin Manipulator
         Mount({item = 229952, id = 2290}), -- Asset Advocator
-        Mount({item = 229941, id = 2283}), -- Innovation Investigator
+        Mount({item = 229941, id = 2283}) -- Innovation Investigator
     }
 }) -- Ephemeral Agent Lathyd
 
@@ -384,7 +384,7 @@ map.nodes[57207860] = Rare({
         Spacer(), Section(L['miscellaneous_mechanica']),
         Mount({item = 229954, id = 2292}), -- Margin Manipulator
         Mount({item = 229952, id = 2290}), -- Asset Advocator
-        Mount({item = 229941, id = 2283}), -- Innovation Investigator
+        Mount({item = 229941, id = 2283}) -- Innovation Investigator
     },
     sublabel = format(L['requires_ally'], 2671) -- Venture Company
 }) -- Scrapchewer
@@ -404,7 +404,7 @@ map.nodes[64162556] = Rare({
         Spacer(), Section(L['miscellaneous_mechanica']),
         Mount({item = 229954, id = 2292}), -- Margin Manipulator
         Mount({item = 229952, id = 2290}), -- Asset Advocator
-        Mount({item = 229941, id = 2283}), -- Innovation Investigator
+        Mount({item = 229941, id = 2283}) -- Innovation Investigator
     },
     sublabel = format(L['requires_ally'], 2675) -- Blackwater Cartel
 }) -- Voltstrike the Charged
@@ -426,7 +426,7 @@ map.nodes[40209190] = Rare({
         Spacer(), Section(L['miscellaneous_mechanica']),
         Mount({item = 229954, id = 2292}), -- Margin Manipulator
         Mount({item = 229952, id = 2290}), -- Asset Advocator
-        Mount({item = 229941, id = 2283}), -- Innovation Investigator
+        Mount({item = 229941, id = 2283}) -- Innovation Investigator
     }
 }) -- Darkfuse Precipitant
 
