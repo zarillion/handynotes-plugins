@@ -537,6 +537,9 @@ local DELVE_REWARDS = {
         Achievement({id = 40808, criteria = SturdyChestCriteria}), -- Mycomancer Cavern Discoveries
         Achievement({id = 40531, criteria = {68770, 68771, 68772}}), -- Mycomancer Cavern Stories
         Achievement({id = 40445, oneline = true}), -- Sporesweeper
+        Achievement({id = 41110, criteria = {71061}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71089}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71117}}), -- Algari Delver Tank  III
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
         Pet({item = 225337, id = 4506}) -- Violet Sporbit
@@ -545,6 +548,9 @@ local DELVE_REWARDS = {
         Achievement({id = 40803, criteria = SturdyChestCriteria}), -- Fungal Folly Discoveries
         Achievement({id = 40525, criteria = {68752, 68753, 68754, 102965}}), -- Fungal Folly Stories
         Achievement({id = 40445, oneline = true}), -- Sporesweeper
+        Achievement({id = 41110, criteria = {71059}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71087}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71115}}), -- Algari Delver Tank  III
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
         Pet({item = 225337, id = 4506}) -- Violet Sporbit
@@ -554,6 +560,9 @@ local DELVE_REWARDS = {
         Achievement({id = 40807, criteria = SturdyChestCriteria}), -- Kriegval's Rest Discoveries
         Achievement({id = 40526, criteria = {68755, 68756, 68757, 102967}}), -- Kriegval's Rest Stories
         Achievement({id = 40446, oneline = true}), -- I TAKE Candle!
+        Achievement({id = 41110, criteria = {71060}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71088}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71116}}), -- Algari Delver Tank  III
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
         Pet({item = 223624, id = 4575}) -- Sneef
@@ -562,6 +571,9 @@ local DELVE_REWARDS = {
         Achievement({id = 40816, criteria = SturdyChestCriteria}), -- The Waterworks Discoveries
         Achievement({id = 40528, criteria = {68761, 68762, 68763, 102968}}), -- The Waterworks Stories
         Achievement({id = 40446, oneline = true}), -- I TAKE Candle!
+        Achievement({id = 41110, criteria = {71069}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71097}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71125}}), -- Algari Delver Tank  III
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
         Pet({item = 223624, id = 4575}) -- Sneef
@@ -571,6 +583,9 @@ local DELVE_REWARDS = {
         Achievement({id = 40813, criteria = SturdyChestCriteria}), -- The Sinkhole Discoveries
         Achievement({id = 40532, criteria = {68773, 68774, 68775, 102970}}), -- The Sinkhole Stories
         Achievement({id = 40452, oneline = true}), -- Just Keep Swimming
+        Achievement({id = 41110, criteria = {71066}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71094}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71122}}), -- Algari Delver Tank  III
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
         Pet({item = 221496, id = 4496}) -- Wriggle
@@ -579,6 +594,9 @@ local DELVE_REWARDS = {
         Achievement({id = 40811, criteria = SturdyChestCriteria}), -- Tek-Rethan Abyss Discoveries
         Achievement({id = 40535, criteria = {68783, 68784, 68785, 102966}}), -- Tek-Rethan Abyss Stories
         Achievement({id = 40452, oneline = true}), -- Just Keep Swimming
+        Achievement({id = 41110, criteria = {71064}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71092}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71120}}), -- Algari Delver Tank  III
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
         Pet({item = 221496, id = 4496}) -- Wriggle
@@ -591,6 +609,9 @@ local DELVE_REWARDS = {
             criteria = {68758, 68759, 68760, 102963, 102964}
         }), -- Earthcrawl Mines Stories
         Achievement({id = 40453, oneline = true}), -- Spider Sense
+        Achievement({id = 41110, criteria = {71058}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71086}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71114}}), -- Algari Delver Tank  III
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
         Pet({item = 222971, id = 4489}) -- Bouncer
@@ -599,6 +620,9 @@ local DELVE_REWARDS = {
         Achievement({id = 40812, criteria = SturdyChestCriteria}), -- The Dread Pit Discoveries
         Achievement({id = 40529, criteria = {68764, 68765, 68766, 102969}}), -- The Dread Pit Stories
         Achievement({id = 40453, oneline = true}), -- Spider Sense
+        Achievement({id = 41110, criteria = {71065}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71093}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71121}}), -- Algari Delver Tank  III
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
         Pet({item = 222971, id = 4489}) -- Bouncer
@@ -607,6 +631,9 @@ local DELVE_REWARDS = {
         Achievement({id = 40814, criteria = SturdyChestCriteria}), -- The Spiral Weave Discoveries
         Achievement({id = 40536, criteria = {68786, 68787, 68788, 102973}}), -- The Spiral Weave Stories
         Achievement({id = 40453, oneline = true}), -- Spider Sense
+        Achievement({id = 41110, criteria = {71067}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71095}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71123}}), -- Algari Delver Tank  III
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
         Pet({item = 222971, id = 4489}) -- Bouncer
@@ -618,6 +645,9 @@ local DELVE_REWARDS = {
             criteria = {68779, 68780, 68781, 68782, 102974}
         }), -- The Underkeep Stories
         Achievement({id = 40453, oneline = true}), -- Spider Sense
+        Achievement({id = 41110, criteria = {71068}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71096}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71124}}), -- Algari Delver Tank  III
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
         Pet({item = 222971, id = 4489}) -- Bouncer
@@ -626,17 +656,26 @@ local DELVE_REWARDS = {
     ['nightfall_sanctum'] = {
         Achievement({id = 40809, criteria = SturdyChestCriteria}), -- Nightfall Sanctum Discoveries
         Achievement({id = 40530, criteria = {68767, 68768, 68769, 102975}}), -- Nightfall Sanctum Stories
-        Achievement({id = 40454, oneline = true}) -- Daystormer
+        Achievement({id = 40454, oneline = true}), -- Daystormer
+        Achievement({id = 41110, criteria = {71062}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71090}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71118}}), -- Algari Delver Tank  III
     },
     ['skittering_breach'] = {
         Achievement({id = 40810, criteria = SturdyChestCriteria}), -- Skittering Breach Discoveries
         Achievement({id = 40533, criteria = {68776, 68777, 68778, 102972}}), -- Skittering Breach Stories
-        Achievement({id = 40454, oneline = true}) -- Daystormer
+        Achievement({id = 40454, oneline = true}), -- Daystormer
+        Achievement({id = 41110, criteria = {71063}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71091}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71119}}), -- Algari Delver Tank  III
     },
     -- GOBLIN DELVES ----------------------------------------------------------
     ['excavation_site_9'] = {
         Achievement({id = 41100, criteria = SturdyChestCriteria}), -- Excavation Site 9 Discoveries
         Achievement({id = 41098, criteria = {70985, 70986, 70987}}), -- Excavation Site 9 Stories
+        Achievement({id = 41110, criteria = {71071}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71099}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71127}}), -- Algari Delver Tank  III
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
         Pet({item = 232848, id = 4647}) -- Mr. DELVER
@@ -644,6 +683,9 @@ local DELVE_REWARDS = {
     ['sidestreet_sluice'] = {
         Achievement({id = 41101, criteria = SturdyChestCriteria}), -- Sidestreet Sluice Discoveries
         Achievement({id = 41099, criteria = {70988, 70989, 70990}}), -- Sidestreet Sluice Stories
+        Achievement({id = 41110, criteria = {71070}}), -- Algari Delver Damage Dealer III
+        Achievement({id = 41112, criteria = {71098}}), -- Algari Delver Healer III
+        Achievement({id = 41114, criteria = {71126}}), -- Algari Delver Tank  III
         Spacer(), --
         Pet({item = 221820, id = 4537}), -- Chester
         Pet({item = 232848, id = 4647}) -- Mr. DELVER
