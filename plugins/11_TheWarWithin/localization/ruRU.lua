@@ -637,11 +637,11 @@ L['undermine_clam_chowder_label'] = 'Кулинарная книга тради�
 L['undermine_clam_chowder_location'] = 'На полке позади {npc:226728} в переулке в {location:Котельной}.'
 L['undermine_clam_chowder_note'] = '1. Чтобы получить этот рецепт, вы должны сначала выучить {item:16767}, который можно купить у двух продавцов {object:Classic} за %s.\n\n{npc:54232} в {location:Пиратской Бухте} на {location:Мысе Тернистой долины}\n\n{npc:48060} в {location:Фюзель} в {location:Бесплодных землях}\n\n2. Как только вы изучите старый рецепт, откройте {object:Кулинарная книга традиционных блюд Нижней Шахты} и прочитайте до последней страницы. Выучите рецепт, чтобы получить {item:235800}.'
 
-L['breakneck_race_note'] = nil
-L['upgrade_the_pozzik_standard'] = nil
-L['upgrade_22h_slicks'] = nil
-L['upgrade_turbo_handcrank'] = nil
+L['breakneck_race_note'] = 'Следующие улучшения {object:Стремглава G-99} рекомендуются для того, чтобы немного облегчить получения |cFFFFD700Золота|r:\n\n%s\n\n%s\n\n%s'
+L['upgrade_the_pozzik_standard'] = '{item:232982} (Двигатель): Заработайте |cFFCD7F32Бронзу|r во всех обычных и обратных гонках {object:Стремглава}.'
+L['upgrade_22h_slicks'] = '{item:232985} (Колеса): Изготавливаются инженерами и продаются на аукционе.'
+L['upgrade_turbo_handcrank'] = '{item:232984} (Ускорение): Объедините все 5 предметов, собранных из редких монстров или на аукционе.'
 
-L['blazefeather_peacock_note'] = nil
-L['radioactive_subject_note'] = nil
-L['george_the_big_pinch_note'] = nil
+L['blazefeather_peacock_note'] = 'After completing the {quest:83421} storyline, speak with {npc:226555} to pay %s to summon a trainable {npc:226561}.'
+L['radioactive_subject_note'] = 'Use nearby pipes and combination of {item:237276}, {item:109076}, {item:231099} or any other jumping puzzle tricks to reach the roof of the {location:Steamwheedle Laboratories} building in {location:The Vatworks}.'
+L['george_the_big_pinch_note'] = 'Quickly click all 5 {npc:238189} to recieve {spell:1219679} and allow you to tame {npc:233938}.'
