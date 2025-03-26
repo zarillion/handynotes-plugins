@@ -825,7 +825,7 @@ map.nodes[43415050] = Collectible({
         Transmog({item = 237900, slot = _G.BACKSLOT}), -- C.H.E.T.T. Pack
         Item({item = 236682, weekly = 87296}) -- C.H.E.T.T. List
     }
-})  -- C.H.E.T.T.
+}) -- C.H.E.T.T.
 
 local ChettList = Class('ChettList', Node, {
     label = '{item:235053}',
