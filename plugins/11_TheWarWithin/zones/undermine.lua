@@ -610,7 +610,7 @@ map.nodes[24606320] = Vendor({
 
 map.nodes[43845082] = Vendor({
     id = 231409,
-    sublabel =  format(L['quartermaster'], '{faction:2653}'), -- The Cartels of Undermine
+    sublabel = format(L['quartermaster'], '{faction:2653}'), -- The Cartels of Undermine
     rewards = {
         Recipe({item = 232535, profession = 773}), -- Technique: Contract: The Cartels of Undermine
         Recipe({item = 233022, profession = 773}), -- Technique: Vantus Rune: Liberation of Undermine
@@ -788,7 +788,6 @@ ns.tooltip.addRewardsToVignetteTooltip(map, ns.groups.SCRAP_REWARDS, 6700) -- Ga
 ------------------------ SHIPPING AND HANDLING REWARDS ------------------------
 -------------------------------------------------------------------------------
 
-
 local ShippingHandling = Class('ShippingHandling', Collectible, {
     label = '{spell:1222389}', -- Shipping & Handling: Job Streak
     icon = 132764,
@@ -797,7 +796,7 @@ local ShippingHandling = Class('ShippingHandling', Collectible, {
         Pet({item = 232847, id = 4646}), -- Personal-Use Sapper (86298)
         Pet({item = 232852, id = 4636}), -- Mutt (86302)
         Mount({item = 229947, id = 2303}), -- Violet Goblin Shredder (86300)
-        Transmog({item = 231556, slot = _G.CHESTSLOT}), -- Breakneck Cabbie's Coat (86299)
+        Transmog({item = 231556, slot = _G.CHESTSLOT}) -- Breakneck Cabbie's Coat (86299)
     }
 }) -- Shipping & Handling 10/10 rewards
 
@@ -821,7 +820,8 @@ map.nodes[43415050] = Collectible({
     rewards = {
         Achievement({
             id = 41629,
-            criteria = {id = 1, qty = true, suffix = L['chett_suffix']}}), -- C.H.E.T.T.mate
+            criteria = {id = 1, qty = true, suffix = L['chett_suffix']}
+        }), -- C.H.E.T.T.mate
         Transmog({item = 237900, slot = _G.BACKSLOT}), -- C.H.E.T.T. Pack
         Item({item = 236682, weekly = 87296}) -- C.H.E.T.T. List
     }
@@ -841,70 +841,72 @@ function ChettList.getters:note()
     local note = ''
     if not ns.PlayerHasItem(235053) then
         if C_QuestLog.IsQuestFlaggedCompleted(87296) then
-            note = note .. L['chett_complete']
-            .. ns.tooltip.ItemStatus(236668, 40, L['chett_extra'])
-        else note = note .. L['chett_available']
+            note = note .. L['chett_complete'] ..
+                       ns.tooltip.ItemStatus(236668, 40, L['chett_extra'])
+        else
+            note = note .. L['chett_available']
         end
     elseif ns.PlayerHasItem(235053) then
         local function ChettStatus()
             local quests = {
-                {86915, L['side_with_a_cartel']},
-                {86917, L['ship_right']},
-                {86918, L['reclaimed_scrap']},
-                {86919, L['side_gig']},
-                {86920, L['war_mode_violence']},
-                {86923, L['go_fish']},
+                {86915, L['side_with_a_cartel']}, {86917, L['ship_right']},
+                {86918, L['reclaimed_scrap']}, {86919, L['side_gig']},
+                {86920, L['war_mode_violence']}, {86923, L['go_fish']},
                 {86924, L['gotta_catch_at_least_a_few']},
-                {87302, L['rare_rivals']},
-                {87303, L['clean_the_sidestreets']},
-                {87304, L['time_to_vacate']},
-                {87305, L['desire_to_drive']},
-                {87306, L['kaja_cruising']},
-                {87307, L['garbage_day']}
-                }
+                {87302, L['rare_rivals']}, {87303, L['clean_the_sidestreets']},
+                {87304, L['time_to_vacate']}, {87305, L['desire_to_drive']},
+                {87306, L['kaja_cruising']}, {87307, L['garbage_day']}
+            }
             local complete, ready, total = 0, 0, 0
             local list = ''
             for i = 1, #quests do
                 if C_QuestLog.IsQuestFlaggedCompleted(quests[i][1]) then
                     complete = complete + 1
-                    list = list .. '\n' .. ns.status.Green(L['completed'])
-                    .. ' ' .. quests[i][2]
+                    list = list .. '\n' .. ns.status.Green(L['completed']) ..
+                               ' ' .. quests[i][2]
                 end
                 if C_QuestLog.IsOnQuest(quests[i][1]) then
-                    if C_QuestLog.ReadyForTurnIn(quests[i][1]) then 
+                    if C_QuestLog.ReadyForTurnIn(quests[i][1]) then
                         ready = ready + 1
-                        list = list .. '\n' .. ns.status.Orange(L['completed'])
-                        .. ' ' .. quests[i][2]
+                        list =
+                            list .. '\n' .. ns.status.Orange(L['completed']) ..
+                                ' ' .. quests[i][2]
                     else
-                        list = list .. '\n' .. ns.status.Red(L['incomplete'])
-                        .. ' ' .. quests[i][2]
+                        list = list .. '\n' .. ns.status.Red(L['incomplete']) ..
+                                   ' ' .. quests[i][2]
                     end
                 end
                 total = complete + ready
             end
             return complete, total, list
-        end 
+        end
         local complete, total, list = ChettStatus()
         if complete >= 4 then
             note = note .. L['chett_exchange_1']
             if not GetAchievementInfo(41627).completed then
                 note = note .. L['chett_exchange_2_requirement']
             elseif C_QuestLog.IsQuestFlaggedCompleted(84951) then
-                note = note .. format(L['chett_exchange_2a'], 3169, 236764, 2673)
+                note = note ..
+                           format(L['chett_exchange_2a'], 3169, 236764, 2673)
             elseif C_QuestLog.IsQuestFlaggedCompleted(84952) then
-                note = note .. format(L['chett_exchange_2a'], 3173, 236689, 2677)
+                note = note ..
+                           format(L['chett_exchange_2a'], 3173, 236689, 2677)
             elseif C_QuestLog.IsQuestFlaggedCompleted(84953) then
-                note = note .. format(L['chett_exchange_2a'], 3176, 236765, 2671)
+                note = note ..
+                           format(L['chett_exchange_2a'], 3176, 236765, 2671)
             elseif C_QuestLog.IsQuestFlaggedCompleted(84954) then
-                note = note .. format(L['chett_exchange_2a'], 3171, 236763, 2675)
-            else note = note .. L['chett_exchange_2b']
+                note = note ..
+                           format(L['chett_exchange_2a'], 3171, 236763, 2675)
+            else
+                note = note .. L['chett_exchange_2b']
             end
         elseif total >= 4 then
-            note = note .. ns.status.Green(total .. '/4') .. L['chett_ongoing']
-            .. L['chett_submit']
+            note =
+                note .. ns.status.Green(total .. '/4') .. L['chett_ongoing'] ..
+                    L['chett_submit']
         elseif total < 4 then
-            note = note .. ns.status.Red(total .. '/4') .. L['chett_ongoing']
-            .. list
+            note = note .. ns.status.Red(total .. '/4') .. L['chett_ongoing'] ..
+                       list
         end
     end
     return note
@@ -1160,7 +1162,8 @@ local UnlockSkyrocketing = Class('UnlockSkyrocketing', Node, {
     vignette = 6760,
     pois = {Entrance({39912882})},
     IsEnabled = function()
-        return not C_CurrencyInfo.GetCurrencyInfo(3119).discovered end -- 11 Z6 R1 Easy
+        return not C_CurrencyInfo.GetCurrencyInfo(3119).discovered
+    end -- 11 Z6 R1 Easy
 }) --  probably a bug which may be fixed in the future by blizzard
 
 map.nodes[39052870] = UnlockSkyrocketing()
