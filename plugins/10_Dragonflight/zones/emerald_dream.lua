@@ -1002,27 +1002,11 @@ map.nodes[63035284] = EmeraldBounty({criteriaID = 62031}) -- Singing Weedling
 map.nodes[63504710] = EmeraldBounty({criteriaID = 62032}) -- Fuzzy Licorice
 map.nodes[63966484] = EmeraldBounty({criteriaID = 62030}) -- Dragon's Daffodil
 
-hooksecurefunc(VignettePinMixin, 'DisplayNormalTooltip', function(self)
-    if self.vignetteID ~= 5971 then return end
-
-    local mapID = self:GetMap().mapID
-    local group = ns.groups.DREAM_OF_SEEDS
-    if not ns.maps[mapID] or not group:GetDisplay(mapID) then return end
-
-    local x, y =
-        C_VignetteInfo.GetVignettePosition(self.vignetteGUID, mapID):GetXY()
-    local node = ns.maps[mapID].nodes[HandyNotes:getCoord(x, y)]
-    if not node then return end
-
-    -- GameTooltip:AddLine(node.requires, true, 1, 1, 1)
-    if ns:GetOpt('show_notes') then
-        GameTooltip:AddLine(' ')
-        GameTooltip:AddLine(ns.RenderLinks(node.note), 1, 1, 1, true)
-    end
-    if ns:GetOpt('show_loot') then node:RenderRewards(GameTooltip) end
-
-    GameTooltip:Show()
-end)
+ns.hook.Vignette({
+    group = ns.groups.DREAM_OF_SEEDS,
+    showNote = true,
+    vignetteID = 5971
+})
 
 -------------------------------------------------------------------------------
 --------------------------------- SUPERBLOOM ----------------------------------

@@ -550,6 +550,86 @@ function Rare:IsEnabled()
 end
 
 -------------------------------------------------------------------------------
+------------------------------- SKYRIDING RACE --------------------------------
+-------------------------------------------------------------------------------
+
+local SkyridingRace = Class('SkyridingRace', Collectible,
+    {icon = 1100022, group = ns.groups.SKYRIDING_RACE})
+
+local SKYRIDING_RACE_TYPES = {
+    [1] = {type = 'normal', label = L['sr_normal']},
+    [2] = {type = 'advanced', label = L['sr_advanced']},
+    [3] = {type = 'reverse', label = L['sr_reverse']},
+    [4] = {type = 'challenge', label = L['sr_challenge']},
+    [5] = {type = 'reverseChallenge', label = L['sr_reverse_challenge']},
+    [6] = {type = 'stormRace', label = L['sr_storm_race']}
+}
+
+-- DRAGONFLIGHT ONLY: Storm Races were unlocked once a player had the
+-- Algarian Stormrider mount from [Heroic Edition: Algarian Stormrider]
+function SkyridingRace.CanAddRace(raceType)
+    if raceType == 'stormRace' then
+        local unlocked = select(4, GetAchievementInfo(19027))
+        return unlocked and true or false
+    end
+    return true
+end
+
+function SkyridingRace.getters:sublabel()
+    local hasRaceType = false
+    local note = L['sr_best_time']
+    local txt = L['sr_your_best_time']
+    for _, race in ipairs(SKYRIDING_RACE_TYPES) do
+        if self[race.type] then
+            local currencyID = self[race.type][1]
+            local label = race.label
+            local time = currencyID and
+                             C_CurrencyInfo.GetCurrencyInfo(currencyID).quantity or
+                             0
+
+            txt = txt .. '\n' .. format(note, label, time / 1000)
+            hasRaceType = true
+        end
+    end
+    return hasRaceType and txt or nil
+end
+
+function SkyridingRace.getters:note()
+    local hasRaceType = false
+    local Silver = ns.color.Silver
+    local Gold = ns.color.Gold
+    local note = L['sr_target_time']
+    local txt = L['sr_your_target_time']
+    for _, race in ipairs(SKYRIDING_RACE_TYPES) do
+        if self[race.type] then
+            local label = race.label
+            -- SILVER
+            local hasSilverTime = false
+            local sTime = self[race.type][2]
+            if sTime ~= nil and sTime ~= 0 then
+                sTime = Silver(sTime)
+                hasSilverTime = true
+            end
+            -- GOLD
+            local hasGoldTime = false
+            local gTime = self[race.type][3]
+            if gTime ~= nil and gTime ~= 0 then
+                gTime = Gold(gTime)
+                hasGoldTime = true
+            end
+            if hasSilverTime and hasGoldTime then
+                if self.CanAddRace(race.type) then
+                    txt = txt .. '\n' .. format(note, label, sTime, gTime)
+                    hasRaceType = true
+                end
+            end
+        end
+    end
+    txt = txt .. '\n\n' .. L['sr_bronze']
+    return hasRaceType and txt or nil
+end
+
+-------------------------------------------------------------------------------
 ---------------------------------- TREASURE -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -645,6 +725,7 @@ end
 
 ns.node = {
     Collectible = Collectible,
+    SkyridingRace = SkyridingRace,
     Intro = Intro,
     Item = Item,
     Node = Node,

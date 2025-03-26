@@ -7,7 +7,6 @@ local L = ns.locale
 local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 
@@ -220,26 +219,8 @@ map.nodes[42607260] = Safari.WharfRat({
 }) -- Wharf Rat
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+-------------------------- THE SCAVENGER ACHIEVEMENT --------------------------
 -------------------------------------------------------------------------------
-
-map.nodes[10001000] = ns.node.Dragonrace({
-    label = '{quest:76515}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
-    rewards = {
-        Achievement({id = 18566, criteria = 11, oneline = true}), -- normal bronze
-        Achievement({id = 18567, criteria = 11, oneline = true}), -- normal silver
-        Achievement({id = 18568, criteria = 11, oneline = true}), -- normal gold
-        Achievement({id = 18569, criteria = 11, oneline = true}), -- advanced bronze
-        Achievement({id = 18570, criteria = 11, oneline = true}), -- advanced silver
-        Achievement({id = 18571, criteria = 11, oneline = true}), -- advanced gold
-        Achievement({id = 18572, criteria = 11, oneline = true}), -- reverse bronze
-        Achievement({id = 18573, criteria = 11, oneline = true}), -- reverse silver
-        Achievement({id = 18574, criteria = 11, oneline = true}) -- reverse gold
-    }
-}) -- Booty Bay Blast
 
 map.nodes[33103780] = ns.node.ScavengerPool(3873)
 map.nodes[33203060] = ns.node.ScavengerPool(3873)

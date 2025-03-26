@@ -629,7 +629,7 @@ map.nodes[43845082] = Vendor({
         -- Knowledge({item = 232502, profession = 197, quest = 85745}), -- Undermine Treatise on Tailoring
         Transmog({item = 231743, slot = _G.HEADSLOT}), -- Undermine Enforcer's Helmet
         Transmog({item = 231749, slot = _G.SHOULDERSLOT}), -- Undermine Enforcer's Spikes
-        Transmog({item = 232515, slot = _G.BACKSLOT}), --
+        Transmog({item = 232515, slot = _G.BACKSLOT}), -- Experimental Goblin Jetpack
         Mount({item = 229936, id = 2277}), -- Violet Armored Growler
         Mount({item = 229944, id = 2280}), -- The Topskimmer Special
         BreakneckCustomization({item = 232981, quest = 85776}) -- GNZ Airmaster 9000
@@ -674,7 +674,7 @@ map.nodes[27127256] = Vendor({
         Transmog({item = 231527}), -- Steamwheedle Undermine Tabard
         Mount({item = 229956, id = 2294}), -- Mean Green Flying Machine
         Spacer(), Section('{item:237134}'), -- Steamwheedle Trove (paragon reputation reward)
-        Mount({item = 229943, id = 2281}) -- Steamwheedle Supplier --(no exist in game for now)
+        Mount({item = 229943, id = 2281}) -- Steamwheedle Supplier
     }
 }) -- Lab Assistant Laszly <Steamwheedle Quartermaster>
 
@@ -780,9 +780,9 @@ map.nodes[52498333] = ScrapHeap({criteriaID = 103185}) -- The Heaps
 map.nodes[69577652] = ScrapHeap({criteriaID = 103186}) -- Emerald Hills Golf Course
 map.nodes[67482929] = ScrapHeap({criteriaID = 103187}) -- Blackwater Marina
 
-ns.tooltip.addRewardsToVignetteTooltip(map, ns.groups.SCRAP_REWARDS, 6687)
-ns.tooltip.addRewardsToVignetteTooltip(map, ns.groups.SCRAP_REWARDS, 6757)
-ns.tooltip.addRewardsToVignetteTooltip(map, ns.groups.SCRAP_REWARDS, 6700) -- Gallagio Garbage
+ns.hook.Vignette({group = ns.groups.SCRAP_REWARDS, vignetteID = 6687})
+ns.hook.Vignette({group = ns.groups.SCRAP_REWARDS, vignetteID = 6757})
+ns.hook.Vignette({group = ns.groups.SCRAP_REWARDS, vignetteID = 6700}) -- Gallagio Garbage
 
 -------------------------------------------------------------------------------
 ------------------------ SHIPPING AND HANDLING REWARDS ------------------------

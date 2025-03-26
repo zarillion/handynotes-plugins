@@ -118,23 +118,23 @@ L['rep_revered'] = '崇敬'
 L['rep_exalted'] = '崇拜'
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+------------------------------- SKYRIDING RACES -------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_your_best_time'] = '你的最快時間：'
-L['dr_your_target_time'] = '目標時間：'
-L['dr_best_time'] = ' - %s: %.3fs'
-L['dr_target_time'] = ' - %s: %ss / %ss'
-L['dr_normal'] = '普通'
-L['dr_advanced'] = '進階'
-L['dr_reverse'] = '逆向'
-L['dr_challenge'] = '挑戰'
-L['dr_reverse_challenge'] = '逆向挑戰'
-L['dr_storm_race'] = '風暴競速'
-L['dr_bronze'] = '完成賽事來取得 ' .. ns.color.Bronze('銅牌') .. '.'
-L['dr_vendor_note'] = '使用 {currency:2588} 交換飛龍觀察者手稿和塑型.'
-L['options_icons_dragonrace'] = '飛龍競速'
-L['options_icons_dragonrace_desc'] = '顯示區域內所有飛龍競速的位置.'
+L['sr_your_best_time'] = '你的最快時間：'
+L['sr_your_target_time'] = '目標時間：'
+L['sr_best_time'] = ' - %s: %.3fs'
+L['sr_target_time'] = ' - %s: %ss / %ss'
+L['sr_normal'] = '普通'
+L['sr_advanced'] = '進階'
+L['sr_reverse'] = '逆向'
+L['sr_challenge'] = '挑戰'
+L['sr_reverse_challenge'] = '逆向挑戰'
+L['sr_storm_race'] = '風暴競速'
+L['sr_bronze'] = '完成賽事來取得 ' .. ns.color.Bronze('銅牌') .. '.'
+L['sr_vendor_note'] = '使用 {currency:2588} 交換飛龍觀察者手稿和塑型.'
+L['options_icons_skyriding_race'] = nil
+L['options_icons_skyriding_race_desc'] = '顯示區域內所有飛龍競速的位置.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

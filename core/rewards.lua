@@ -343,6 +343,7 @@ end
 function Item:Prepare() ns.PrepareLinks(self.note) end
 
 function Item:IsEnabled()
+    if not Reward.IsEnabled(self) then return false end
     if self.profession then return ns.PlayerHasProfession(self.profession) end
     return true
 end

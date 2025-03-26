@@ -118,23 +118,23 @@ L['rep_revered'] = 'Révéré'
 L['rep_exalted'] = 'Exalté'
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+------------------------------- SKYRIDING RACES -------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_your_best_time'] = 'Votre meilleur temps :'
-L['dr_your_target_time'] = 'Temps imparti :'
-L['dr_best_time'] = ' - %s: %.3fs'
-L['dr_target_time'] = ' - %s: %ss / %ss'
-L['dr_normal'] = 'Normal'
-L['dr_advanced'] = 'Avancé'
-L['dr_reverse'] = 'Inversé'
-L['dr_challenge'] = 'Défi'
-L['dr_reverse_challenge'] = 'Défi inversé'
-L['dr_storm_race'] = 'Course des tempêtes'
-L['dr_bronze'] = 'Terminez la course pour obtenir ' .. ns.color.Bronze('Bronze') .. '.'
-L['dr_vendor_note'] = 'Échangez vos {currency:2588} contre des manuscrits guette-drake et des objets de transmogrification.'
-L['options_icons_dragonrace'] = 'Courses du Vol à dos de dragon'
-L['options_icons_dragonrace_desc'] = 'Afficher les emplacements de toutes les courses dans la zone.'
+L['sr_your_best_time'] = 'Votre meilleur temps :'
+L['sr_your_target_time'] = 'Temps imparti :'
+L['sr_best_time'] = ' - %s: %.3fs'
+L['sr_target_time'] = ' - %s: %ss / %ss'
+L['sr_normal'] = 'Normal'
+L['sr_advanced'] = 'Avancé'
+L['sr_reverse'] = 'Inversé'
+L['sr_challenge'] = 'Défi'
+L['sr_reverse_challenge'] = 'Défi inversé'
+L['sr_storm_race'] = 'Course des tempêtes'
+L['sr_bronze'] = 'Terminez la course pour obtenir ' .. ns.color.Bronze('Bronze') .. '.'
+L['sr_vendor_note'] = 'Échangez vos {currency:2588} contre des manuscrits guette-drake et des objets de transmogrification.'
+L['options_icons_skyriding_race'] = 'Courses de Vol dynamique'
+L['options_icons_skyriding_race_desc'] = 'Afficher les emplacements de toutes les courses dans la zone.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------

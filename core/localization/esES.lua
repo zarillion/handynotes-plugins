@@ -118,23 +118,23 @@ L['rep_revered'] = 'Reverenciado'
 L['rep_exalted'] = 'Exaltado'
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+------------------------------- SKYRIDING RACES -------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_your_best_time'] = 'Tu mejor tiempo:'
-L['dr_your_target_time'] = 'Tu mejor tiempo:'
-L['dr_best_time'] = ' - %s: %.3fs'
-L['dr_target_time'] = ' - %s: %ss / %ss'
-L['dr_normal'] = 'Normal'
-L['dr_advanced'] = 'Avanzado'
-L['dr_reverse'] = 'Inverso'
-L['dr_challenge'] = 'Desafío'
-L['dr_reverse_challenge'] = 'Desafío inverso'
-L['dr_storm_race'] = 'Carrera de la tormenta'
-L['dr_bronze'] = 'Acaba la carrera para conseguir el ' .. ns.color.Bronze('Bronce') .. '.'
-L['dr_vendor_note'] = 'Intercambia {currency:2588} por manuscritos de dracovigía y transfiguraciones.'
-L['options_icons_dragonrace'] = 'Carreras de dragones'
-L['options_icons_dragonrace_desc'] = 'Muestra dónde están todas las Carreras de dragones de la zona.'
+L['sr_your_best_time'] = 'Tu mejor tiempo:'
+L['sr_your_target_time'] = 'Tu mejor tiempo:'
+L['sr_best_time'] = ' - %s: %.3fs'
+L['sr_target_time'] = ' - %s: %ss / %ss'
+L['sr_normal'] = 'Normal'
+L['sr_advanced'] = 'Avanzado'
+L['sr_reverse'] = 'Inverso'
+L['sr_challenge'] = 'Desafío'
+L['sr_reverse_challenge'] = 'Desafío inverso'
+L['sr_storm_race'] = 'Carrera de la tormenta'
+L['sr_bronze'] = 'Acaba la carrera para conseguir el ' .. ns.color.Bronze('Bronce') .. '.'
+L['sr_vendor_note'] = 'Intercambia {currency:2588} por manuscritos de dracovigía y transfiguraciones.'
+L['options_icons_skyriding_race'] = 'Carreras de surcacielos'
+L['options_icons_skyriding_race_desc'] = 'Muestra dónde están todas las Carreras de surcacielos de la zona.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
