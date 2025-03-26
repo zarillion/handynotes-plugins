@@ -642,6 +642,6 @@ L['upgrade_the_pozzik_standard'] = '{item:232982} (Двигатель): Зара
 L['upgrade_22h_slicks'] = '{item:232985} (Колеса): Изготавливаются инженерами и продаются на аукционе.'
 L['upgrade_turbo_handcrank'] = '{item:232984} (Ускорение): Объедините все 5 предметов, собранных из редких монстров или на аукционе.'
 
-L['blazefeather_peacock_note'] = 'After completing the {quest:83421} storyline, speak with {npc:226555} to pay %s to summon a trainable {npc:226561}.'
-L['radioactive_subject_note'] = 'Use nearby pipes and combination of {item:237276}, {item:109076}, {item:231099} or any other jumping puzzle tricks to reach the roof of the {location:Steamwheedle Laboratories} building in {location:The Vatworks}.'
-L['george_the_big_pinch_note'] = 'Quickly click all 5 {npc:238189} to recieve {spell:1219679} and allow you to tame {npc:233938}.'
+L['blazefeather_peacock_note'] = 'После завершения сюжетной линии {quest:83421} поговорите с {npc:226555}, чтобы заплатить %s за призыв {npc:226561}.'
+L['radioactive_subject_note'] = 'Используйте ближайшие трубы и комбинацию {item:237276}, {item:109076}, {item:231099} или любые другие трюки с прыжками, чтобы добраться до крыши здания {location:Лаборатории Хитрой Шестеренки} в {location:Котельной}.'
+L['george_the_big_pinch_note'] = 'Быстро щелкните по всем 5 {npc:238189}, чтобы получить {spell:1219679} и приручить {npc:233938}.'
