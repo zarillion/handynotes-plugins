@@ -569,7 +569,7 @@ map.nodes[25743813] = Vendor({
 
 map.nodes[34097126] = Vendor({
     id = 226994,
-    requires = ns.requirement.Quest(83542, _, _, true), -- ![Quick Gills for Gold Now] (warband)
+    requires = ns.requirement.Quest(83542, nil, nil, true), -- ![Quick Gills for Gold Now] (warband)
     note = L['blair_bass_note'],
     rewards = {
         Toy({item = 237346, count = 5}), -- Artisan Beverage Goblet Bobber
@@ -724,7 +724,7 @@ map.nodes[30723890] = Vendor({
     id = 231396,
     sublabel = format(L['quartermaster'], '{faction:2669}'),
     location = L['in_sewer'],
-    requires = ns.requirement.Quest(86961, _, _, true), -- ![Diversified Investments] (warband)
+    requires = ns.requirement.Quest(86961, nil, nil, true), -- ![Diversified Investments] (warband)
     note = L['quartermaster_note'],
     pois = {Entrance({29754112})},
     rewards = {
@@ -811,16 +811,13 @@ map.nodes[15852496] = ShippingHandling()
 ----------------------------- C.H.E.T.T. REWARDS ------------------------------
 -------------------------------------------------------------------------------
 
-local Chett = Class('Chett', Collectible,{
+map.nodes[43415050] = Collectible({
     id = 238029,
     requires = {
         ns.requirement.Reputation(2653, 13, true), -- The Cartels of Undermine
-        ns.requirement.Quest(87374, _, _, true) -- ![C.H.E.T.T.ing In] (warband)
+        ns.requirement.Quest(87374, nil, nil, true) -- ![C.H.E.T.T.ing In] (warband)
     },
-    icon = 134391
-})  -- C.H.E.T.T.
-
-map.nodes[43415050] = Chett({
+    icon = 134391,
     rewards = {
         Achievement({
             id = 41629,
@@ -828,13 +825,13 @@ map.nodes[43415050] = Chett({
         Transmog({item = 237900, slot = _G.BACKSLOT}), -- C.H.E.T.T. Pack
         Item({item = 236682, weekly = 87296}) -- C.H.E.T.T. List
     }
-})
+})  -- C.H.E.T.T.
 
 local ChettList = Class('ChettList', Node, {
     label = '{item:235053}',
     requires = {
         ns.requirement.Reputation(2653, 13, true), -- The Cartels of Undermine
-        ns.requirement.Quest(87374, _, _, true) -- ![C.H.E.T.T.ing In] (warband)
+        ns.requirement.Quest(87374, nil, nil, true) -- ![C.H.E.T.T.ing In] (warband)
     },
     icon = 134391,
     scale = 1.5
