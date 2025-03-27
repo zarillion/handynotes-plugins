@@ -828,7 +828,7 @@ map.nodes[43415050] = Collectible({
 })  -- C.H.E.T.T.
 
 local ChettList = Class('ChettList', Node, {
-    label = '{item:235053}',
+    label = '{item:236682}',
     requires = {
         ns.requirement.Reputation(2653, 13, true), -- The Cartels of Undermine
         ns.requirement.Quest(87374, nil, nil, true) -- ![C.H.E.T.T.ing In] (warband)
