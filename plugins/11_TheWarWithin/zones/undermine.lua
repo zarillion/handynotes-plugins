@@ -304,7 +304,7 @@ map.nodes[32027652] = Rare({
 map.nodes[57207860] = Rare({
     id = 233471,
     note = format(L['complete_event'], 236035), -- Scrapminer Krazzik
-    quest = 86431,
+    quest = 85778,
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
     },
@@ -320,7 +320,7 @@ map.nodes[57207860] = Rare({
 map.nodes[64162556] = Rare({
     id = 233472,
     note = format(L['complete_event'], 234834), -- Boatwright Frankle
-    quest = 86428,
+    quest = 85777,
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
     },
