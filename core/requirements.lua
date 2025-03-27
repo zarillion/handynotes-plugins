@@ -171,8 +171,9 @@ function Quest:GetText()
 end
 
 function Quest:IsMet()
-    return self.warband and C_QuestLog.IsQuestFlaggedCompletedOnAccount(self.id)
-    or C_QuestLog.IsQuestFlaggedCompleted(self.id)
+    return
+        self.warband and C_QuestLog.IsQuestFlaggedCompletedOnAccount(self.id) or
+            C_QuestLog.IsQuestFlaggedCompleted(self.id)
 end
 
 -------------------------------------------------------------------------------
