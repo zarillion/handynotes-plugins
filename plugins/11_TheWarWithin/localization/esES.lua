@@ -649,9 +649,9 @@ L['skyrocketing_sprint'] = 'Esprint fulminante'
 L['unlock_skyrocketing_note'] = '{note:Este personaje tiene que completar Esprint fulminante sólo una vez.}\nPara desbloquear las 4 misiones del mundo de Carreras fulminates: \n{wq:Carreras de surcacielos - Esprint fulminante}\n{wq:Carreras de surcacielos - Paseo chatarrero}\n{wq:Carreras de surcacielos - Rally de la chatarra}\n{wq:Carreras de surcacielos - Recorrido del ricachón}
 
 L['chett_suffix'] = 'Lista de la T.C.E.H.T.'
-L['chett_exchange_1'] = 'Elige por qué quieres intercambiar la {item:235053}.\n\n #1. ' .. ns.color.LightBlue('250') .. ' {currency:3008}.\n (Llévasela a {npc:238029}).\n\n #2. '
-L['chett_exchange_2a'] = ns.color.LightBlue('500') .. ' {currency:%d} de reputación.\n (Compra {item:%d} del intendente de {faction:%d})\n'
-L['chett_exchange_2b'] = ns.color.LightBlue('500') .. ' de reputación con el Cártel alineado\n ( {note:¡Ponte del lado de un Cártel primero esta semana!})\n'
+L['chett_exchange_1'] = 'Elige por qué quieres intercambiar la {item:235053}.\n\n #1. ' .. ns.color.LightBlue('250x') .. ' {currency:3008}.\n (Llévasela a {npc:238029}).\n\n #2. '
+L['chett_exchange_2a'] = ns.color.LightBlue('500x') .. ' {currency:%d} de reputación.\n (Compra {item:%d} del intendente de {faction:%d})\n'
+L['chett_exchange_2b'] = ns.color.LightBlue('500x') .. ' de reputación con el Cártel alineado\n ( {note:¡Ponte del lado de un Cártel primero esta semana!})\n'
 L['chett_exchange_2_requirement'] = ' {note:Requiere el logro {achievement:41627} (Completa dos veces la opción #1) para desbloquear la opción #2}\n'
 L['chett_complete'] = '{note:La {item:236682} de esta semana ha sido completada.}\n'
 L['chett_extra'] = 'Intercambia 40x {item:236668} por una {item:236682} extra.\n'
