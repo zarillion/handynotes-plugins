@@ -16,6 +16,14 @@ ns.hooks = {
     vignette = {}
 }
 
+ns.hooks.Add = function(hook, group, pois)
+    for id, rewards in pairs(pois) do
+        ns.hooks[hook][id] = {rewards = rewards, group = group}
+    end
+end
+
+ns.DELVE_AREA_POIS = ns.DELVE_AREA_POIS or {}
+
 -------------------------------------------------------------------------------
 ---------------------------------- HOOK INFO ----------------------------------
 -------------------------------------------------------------------------------
@@ -55,6 +63,7 @@ end
 
 function Hook:AddHook(attrs)
     if attrs then for k, v in pairs(attrs) do self[k] = v end end
+    -- self.pois = nil
     return self
 end
 
@@ -102,12 +111,9 @@ local Delve = Class('Delve', Hook, {
     rewardsSpaceAfter = false
 })
 
-function Delve:Initialize(attrs)
-    Hook.Initialize(self, attrs)
-    for id, rewards in pairs(self.pois) do
-        ns.hooks.delve[id] = self:AddHook({rewards = rewards})
-    end
-end
+-- function Delve:Initialize(attrs)
+--     Hook.Initialize(self, attrs)
+-- end
 
 -------------------------------------------------------------------------------
 ------------------------------ ENCOUNTER JOURNAL ------------------------------
@@ -185,48 +191,34 @@ end
 ------------------------------- HOOKSECUREFUNC --------------------------------
 -------------------------------------------------------------------------------
 
-local function renderTooltip(hookInfo)
+local function renderTooltip(POI)
 
-    -- Add LABEL to tooltip if provide/enabled
-    if hookInfo.showLabel then
-        GameTooltip:SetText(ns.RenderLinks(hookInfo.label, true))
+    -- Add LABEL to tooltip if provided/enabled
+    if POI.showLabel then
+        GameTooltip:SetText(ns.RenderLinks(POI.label, true))
     end
 
     -- Add SUBLABEL to tooltip if provided/enabled
-    if hookInfo.showSublabel then
-        if hookInfo.showSublabel then GameTooltip:AddLine(' ') end
-        GameTooltip:AddLine(ns.RenderLinks(hookInfo.sublabel, true), 1, 1, 1)
-        if hookInfo.showSublabel then GameTooltip:AddLine(' ') end
+    if POI.showSublabel and POI.sublabel then
+        GameTooltip:AddLine(' ')
+        GameTooltip:AddLine(ns.RenderLinks(POI.sublabel, true), 1, 1, 1)
+        GameTooltip:AddLine(' ')
     end
 
     -- Add NOTE to tooltip if provided/enabled
-    if hookInfo.showNote then
-        if ns:GetOpt('show_notes') then
-            if hookInfo.rewardsSpaceBefore then
-                GameTooltip:AddLine(' ')
-            end
-            GameTooltip:AddLine(ns.RenderLinks(hookInfo.note), 1, 1, 1, true)
-            if hookInfo.rewardsSpaceAfter then
-                GameTooltip:AddLine(' ')
-            end
-        end
+    if POI.showNote and POI.note and ns:GetOpt('show_notes') then
+        if POI.rewardsSpaceBefore then GameTooltip:AddLine(' ') end
+        GameTooltip:AddLine(ns.RenderLinks(POI.note), 1, 1, 1, true)
+        if POI.rewardsSpaceAfter then GameTooltip:AddLine(' ') end
     end
 
     -- Add REWARDS to tooltip if provided/enabled
-    if hookInfo.showRewards then
-        if ns:GetOpt('show_loot') then
-            if hookInfo.rewardsSpaceBefore then
-                GameTooltip:AddLine(' ')
-            end
-            for _, reward in ipairs(hookInfo.rewards) do
-                if reward:IsEnabled() then
-                    reward:Render(GameTooltip)
-                end
-            end
-            if hookInfo.rewardsSpaceAfter then
-                GameTooltip:AddLine(' ')
-            end
+    if POI.showRewards and POI.rewards and ns:GetOpt('show_loot') then
+        if POI.rewardsSpaceBefore then GameTooltip:AddLine(' ') end
+        for _, reward in ipairs(POI.rewards) do
+            if reward:IsEnabled() then reward:Render(GameTooltip) end
         end
+        if POI.rewardsSpaceAfter then GameTooltip:AddLine(' ') end
     end
 
     GameTooltip:Show()
@@ -251,8 +243,14 @@ local function HookAllPOIS()
 
     ----------------------------- DELVE ENTRANCE ------------------------------
     hooksecurefunc(DelveEntrancePinMixin, 'OnMouseEnter', function(self)
-        local hookInfo = ns.hooks.delve[self.poiInfo.areaPoiID]
-        if not hookInfo then return end
+        local areaPoiID = self.poiInfo.areaPoiID
+        local poi = ns.hooks.delve[areaPoiID]
+        if not poi then return end
+
+        local hookInfo = Delve({rewards = poi.rewards, group = poi.group})
+
+        -- local hookInfo = ns.hooks.delve[areaPoiID]
+        -- if not hookInfo then return end
         if not hookInfo.group:GetDisplay(self:GetMap().mapID) then return end
         renderTooltip(hookInfo)
     end)

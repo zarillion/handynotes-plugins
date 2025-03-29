@@ -725,4 +725,4 @@ local DELVE_AREA_POIS = {
     [8246] = DELVE_REWARDS['sidestreet_sluice']
 }
 
-ns.hook.Delve({group = ns.groups.DELVE_REWARDS, pois = DELVE_AREA_POIS})
+ns.hooks.Add('delve', ns.groups.DELVE_REWARDS, DELVE_AREA_POIS)
