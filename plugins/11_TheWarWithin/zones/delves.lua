@@ -692,6 +692,7 @@ local DELVE_REWARDS = {
     }
 }
 
+
 local DELVE_AREA_POIS = {
     -- NORMAL DELVES ----------------------------------------------------------
     [7863] = DELVE_REWARDS['earthcrawl_mines'],
@@ -725,4 +726,4 @@ local DELVE_AREA_POIS = {
     [8246] = DELVE_REWARDS['sidestreet_sluice']
 }
 
-ns.hooks.Add('delve', ns.groups.DELVE_REWARDS, DELVE_AREA_POIS)
+ns.hooks.delve.Add(ns.groups.DELVE_REWARDS, DELVE_AREA_POIS)

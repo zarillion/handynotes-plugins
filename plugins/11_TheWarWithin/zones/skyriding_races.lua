@@ -89,18 +89,15 @@ IsleOfDorn.nodes[32937483] = SkyridingRace({
 }) -- Orecreg's Doglegs
 
 local ISLE_OF_DORN_POIS = {
-    [7793] = 43471165, -- Dornogal Drift
-    [7794] = 38574346, -- Storm's Watch Survey
-    [7795] = 53486421, -- Basin Bypass
-    [7796] = 62164601, -- The Wold Ways
-    [7797] = 58332485, -- Thunderhead Trail
-    [7798] = 32937483 -- Orecreg's Doglegs
+    [7793] = Dornogal.nodes[43471165], -- Dornogal Drift
+    [7794] = IsleOfDorn.nodes[38574346], -- Storm's Watch Survey
+    [7795] = IsleOfDorn.nodes[53486421], -- Basin Bypass
+    [7796] = IsleOfDorn.nodes[62164601], -- The Wold Ways
+    [7797] = IsleOfDorn.nodes[58332485], -- Thunderhead Trail
+    [7798] = IsleOfDorn.nodes[32937483] -- Orecreg's Doglegs
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    pois = ISLE_OF_DORN_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, ISLE_OF_DORN_POIS)
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
@@ -170,18 +167,15 @@ RingingDeeps.nodes[59397513] = SkyridingRace({
 }) -- Opportunity Point Amble
 
 local RINGING_DEEPS_POIS = {
-    [7799] = 36701131, -- Earthenworks Weave
-    [7800] = 38072744, -- Ringing Deeps Ramble
-    [7801] = 63753479, -- Chittering Concourse
-    [7802] = 48314686, -- Cataract River Cruise
-    [7803] = 62486868, -- Taelloch Twist
-    [7804] = 59397513 -- Opportunity Point Amble
+    [7799] = RingingDeeps.nodes[36701131], -- Earthenworks Weave
+    [7800] = RingingDeeps.nodes[38072744], -- Ringing Deeps Ramble
+    [7801] = RingingDeeps.nodes[63753479], -- Chittering Concourse
+    [7802] = RingingDeeps.nodes[48314686], -- Cataract River Cruise
+    [7803] = RingingDeeps.nodes[62486868], -- Taelloch Twist
+    [7804] = RingingDeeps.nodes[59397513] -- Opportunity Point Amble
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    pois = RINGING_DEEPS_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, RINGING_DEEPS_POIS)
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
@@ -251,24 +245,23 @@ Hallowfall.nodes[54131740] = SkyridingRace({
 }) -- Velhan's Venture
 
 local HALLOWFALL_POIS = {
-    [7805] = 72783842, -- Dunelle's Detour
-    [7806] = 59196894, -- Tenir's Traversal
-    [7807] = 41436725, -- Light's Redoubt Descent
-    [7808] = 60412602, -- Stillstone Slalom
-    [7809] = 38976136, -- Mereldar Meander
-    [7810] = 54131740 -- Velhan's Venture
+    [7805] = Hallowfall.nodes[72783842], -- Dunelle's Detour
+    [7806] = Hallowfall.nodes[59196894], -- Tenir's Traversal
+    [7807] = Hallowfall.nodes[41436725], -- Light's Redoubt Descent
+    [7808] = Hallowfall.nodes[60412602], -- Stillstone Slalom
+    [7809] = Hallowfall.nodes[38976136], -- Mereldar Meander
+    [7810] = Hallowfall.nodes[54131740] -- Velhan's Venture
 }
 
-ns.hook
-    .SkyridingRace({group = ns.groups.SKYRIDING_RACE, pois = HALLOWFALL_POIS})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, HALLOWFALL_POIS)
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
 
 local function AzjKahet_Rewards(a)
-    local rewards = {
-        Achievement({id = 40343, criteria = a, oneline = true}), -- normal bronze
+    return {
+        Achievement({id = 40343, criteria = a, oneline = false}), -- normal bronze
         Achievement({id = 40344, criteria = a, oneline = true}), -- normal silver
         Achievement({id = 40345, criteria = a, oneline = true}), -- normal gold
         Achievement({id = 40346, criteria = a, oneline = true}), -- advanced bronze
@@ -278,7 +271,6 @@ local function AzjKahet_Rewards(a)
         Achievement({id = 40350, criteria = a, oneline = true}), -- reverse silver
         Achievement({id = 40351, criteria = a, oneline = true}) -- reverse gold
     }
-    return rewards
 end
 
 AzjKahet.nodes[40756780] = SkyridingRace({
@@ -330,15 +322,15 @@ AzjKahet.nodes[40183220] = SkyridingRace({
 }) -- Siegehold Scuttle
 
 local AZJ_KAHET_POIS = {
-    [7811] = 40756780, -- City of Threads Twist
-    [7812] = 77927964, -- Maddening Deep Dip
-    [7813] = 52943618, -- The Weaver's Wing
-    [7814] = 71343636, -- Rak-Ahat Rush
-    [7815] = 23814835, -- Pit Plunge
-    [7816] = 40183220 -- Siegehold Scuttle
+    [7811] = AzjKahet.nodes[40756780], -- City of Threads Twist
+    [7812] = AzjKahet.nodes[77927964], -- Maddening Deep Dip
+    [7813] = AzjKahet.nodes[52943618], -- The Weaver's Wing
+    [7814] = AzjKahet.nodes[71343636], -- Rak-Ahat Rush
+    [7815] = AzjKahet.nodes[23814835], -- Pit Plunge
+    [7816] = AzjKahet.nodes[40183220] -- Siegehold Scuttle
 }
 
-ns.hook.SkyridingRace({group = ns.groups.SKYRIDING_RACE, pois = AZJ_KAHET_POIS})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, AZJ_KAHET_POIS)
 
 -------------------------------------------------------------------------------
 ---------------------------------- UNDERMINE ----------------------------------
@@ -379,16 +371,13 @@ Undermine.nodes[25494212] = SkyridingRace({
 }) -- Rags to Riches Rush
 
 local SKYROCKETING_POIS = {
-    [8144] = 39042868, -- Skyrocketing Sprint
-    [8145] = 33777624, -- The Heaps Leap
-    [8146] = 39221136, -- Scrapshop Shot
-    [8147] = 25494212 -- Rags to Riches Rush
+    [8144] = Undermine.nodes[39042868], -- Skyrocketing Sprint
+    [8145] = Undermine.nodes[33777624], -- The Heaps Leap
+    [8146] = Undermine.nodes[39221136], -- Scrapshop Shot
+    [8147] = Undermine.nodes[25494212] -- Rags to Riches Rush
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    pois = SKYROCKETING_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, SKYROCKETING_POIS)
 
 -------------------------------- BREAKNECKING ---------------------------------
 
@@ -432,14 +421,11 @@ Undermine.nodes[47604426] = BreakneckRace({
 }) -- Sandy Scuttle
 
 local BREAKNECKING_POIS = {
-    [8177] = 26025299, -- Breakneck Bolt
-    [8178] = 43697800, -- Junkyard Jaunt
-    [8179] = 39575371, -- Casino Cruise
-    [8180] = 47604426 -- Sandy Scuttle
+    [8177] = Undermine.nodes[26025299], -- Breakneck Bolt
+    [8178] = Undermine.nodes[43697800], -- Junkyard Jaunt
+    [8179] = Undermine.nodes[39575371], -- Casino Cruise
+    [8180] = Undermine.nodes[47604426] -- Sandy Scuttle
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    pois = BREAKNECKING_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, BREAKNECKING_POIS,
+    {showNote = true})
