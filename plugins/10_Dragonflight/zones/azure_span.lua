@@ -1777,10 +1777,6 @@ map.nodes[13524860] = Collectible({
 }) -- Community Feast
 
 ns.hooks.areapoievent.Add(ns.groups.COMMUNITY_FEAST, COMMUNITY_FEAST_AREA_POIS)
--- ns.hook.AreaPoiEvent({
---     group = ns.groups.COMMUNITY_FEAST,
---     pois = COMMUNITY_FEAST_AREA_POIS
--- })
 
 -------------------------------------------------------------------------------
 ---------------------- ANCIENT STONES OF THE AZURE SPAN -----------------------

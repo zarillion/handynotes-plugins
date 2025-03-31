@@ -38,11 +38,6 @@ function Hook:Initialize(attrs)
     if attrs then for k, v in pairs(attrs) do self[k] = v end end
 end
 
-function Hook:AddHook(attrs)
-    if attrs then for k, v in pairs(attrs) do self[k] = v end end
-    return self
-end
-
 for type, hookTable in pairs(ns.hooks) do
     hookTable.Add = function(group, pois, options)
         for id, poi in pairs(pois) do
@@ -190,11 +185,9 @@ end
 
 local function renderTooltip(self, POI)
 
-    print(POI.showLabel, POI.showSublabel, POI.showNote, POI.showRewards)
     -- Add LABEL to tooltip if provided/enabled
     if POI.showLabel then
         GameTooltip:SetText(ns.RenderLinks(POI.label, true))
-        print('Label: ', POI.label)
     end
 
     -- Add SUBLABEL to tooltip if provided/enabled
@@ -202,7 +195,6 @@ local function renderTooltip(self, POI)
         GameTooltip:AddLine(' ')
         GameTooltip:AddLine(ns.RenderLinks(POI.sublabel, true), 1, 1, 1)
         GameTooltip:AddLine(' ')
-        print('Sublabel: ', POI.sublabel)
     end
 
     -- Add NOTE to tooltip if provided/enabled
@@ -210,7 +202,6 @@ local function renderTooltip(self, POI)
         if POI.rewardsSpaceBefore then GameTooltip:AddLine(' ') end
         GameTooltip:AddLine(ns.RenderLinks(POI.note), 1, 1, 1, true)
         if POI.rewardsSpaceAfter then GameTooltip:AddLine(' ') end
-        print('Note: ', POI.note)
     end
 
     -- Add REWARDS to tooltip if provided/enabled
@@ -220,7 +211,6 @@ local function renderTooltip(self, POI)
             if reward:IsEnabled() then reward:Render(GameTooltip) end
         end
         if POI.rewardsSpaceAfter then GameTooltip:AddLine(' ') end
-        print('Rewards: ', POI.rewards)
     end
 
     GameTooltip:Show()
@@ -228,18 +218,17 @@ end
 
 local function HookAllPOIS()
     --------------------------------- AREA POI --------------------------------
+
     hooksecurefunc(AreaPOIPinMixin, 'OnMouseEnter', function(self)
         local type = 'areapoi'
         local poi = ns.hooks[type][self.poiInfo.areaPoiID]
         if not poi then return end
 
         local hookInfo = Hook({
-            type = type, -- is it even needed?
             rewardsSpaceBefore = true,
             rewardsSpaceAfter = false,
             rewards = poi.rewards,
             group = poi.group
-
         })
 
         if not hookInfo.group:GetDisplay(self:GetMap().mapID) then return end
@@ -247,13 +236,12 @@ local function HookAllPOIS()
     end)
 
     ----------------------------- AREA POI EVENT ------------------------------
+
     hooksecurefunc(AreaPOIEventPinMixin, 'OnMouseEnter', function(self)
-        local type = 'areapoievent'
-        local poi = ns.hooks[type][self.poiInfo.areaPoiID]
+        local poi = ns.hooks['areapoievent'][self.poiInfo.areaPoiID]
         if not poi then return end
 
         local hookInfo = Hook({
-            type = type,
             rewardsSpaceBefore = true,
             rewardsSpaceAfter = true,
             rewards = poi.rewards,
@@ -265,33 +253,38 @@ local function HookAllPOIS()
     end)
 
     ----------------------------- DELVE ENTRANCE ------------------------------
+
     hooksecurefunc(DelveEntrancePinMixin, 'OnMouseEnter', function(self)
-        local type = 'delve'
-        local poi = ns.hooks[type][self.poiInfo.areaPoiID]
+        local poi = ns.hooks['delve'][self.poiInfo.areaPoiID]
         if not poi then return end
 
-        poi.rewardsSpaceBefore = true
-        poi.rewardsSpaceAfter = false
+        local hookInfo = Hook({
+            rewardsSpaceBefore = true,
+            rewardsSpaceAfter = false,
+            rewards = poi.rewards,
+            group = poi.group
+        })
 
-        if not poi.group:GetDisplay(self:GetMap().mapID) then return end
+        if not hookInfo.group:GetDisplay(self:GetMap().mapID) then return end
         for k, v in pairs(poi) do print(k, v) end
-        renderTooltip(self, poi)
+        renderTooltip(self, hookInfo)
     end)
 
     ---------------------- DRAGONRIDING / SKYRIDING RACE ----------------------
+
     hooksecurefunc(DragonridingRacePinMixin, 'OnMouseEnter', function(self)
         local poitype = 'skyridingrace'
         local poi = ns.hooks[poitype][self.poiInfo.areaPoiID]
         if not poi then return end
 
-        poi.showLabel = true
-        poi.showSublabel = true
-        poi.showNote = true
-        -- poi.showRewards = true
-        poi.rewardsSpaceBefore = true
-        poi.rewardsSpaceAfter = false
+        local hookInfo = Hook({
+            showLabel = true,
+            rewardsSpaceBefore = true,
+            rewards = poi.rewards,
+            group = poi.group
+        })
 
-        if not poi.group:GetDisplay(self:GetMap().mapID) then return end
+        if not hookInfo.group:GetDisplay(self:GetMap().mapID) then return end
 
         if self:GetCenter() > UIParent:GetCenter() then
             GameTooltip:SetOwner(self, 'ANCHOR_LEFT')
@@ -299,7 +292,7 @@ local function HookAllPOIS()
             GameTooltip:SetOwner(self, 'ANCHOR_RIGHT')
         end
 
-        renderTooltip(self, poi)
+        renderTooltip(self, hookInfo)
         GameTooltip:Show()
     end)
 
@@ -308,32 +301,39 @@ local function HookAllPOIS()
 
     hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
         if self.vignetteID ~= 5104 then return end -- Bronze Timekeeper
-
         local mapID = self:GetMap().mapID
-        local vignetteGUID = self.vignetteGUID
-        local pos = C_VignetteInfo.GetVignettePosition(vignetteGUID, mapID)
-        local coordinates = HandyNotes:getCoord(pos.x, pos.y)
-        for id, race in pairs(ns.hooks.skyridingrace) do
-            if ns.IsInstance(race, Hook) then
-                local race_coordinates = HandyNotes:getCoord(race.x, race.y)
-                -- if race_coordinates == coordinates then
-                -- ns.hooks.skyridingrace[k].showLabel = true
-                -- ns.hooks.skyridingrace[k].showSublabel = true
-                -- ns.hooks.skyridingrace[k].showNote = true
-                -- ns.hooks.skyridingrace[k].rewardsSpaceBefore = true
-                -- ns.hooks.skyridingrace[k].rewardsSpaceAfter = false
-                -- renderTooltip(self, ns.hooks.skyridingrace[id])
-                -- break
-                -- end
-            end
-        end
+        local x, y = self:GetPosition()
+
+        local coords = HandyNotes:getCoord(x, y)
+
+        local map = ns.maps[mapID]
+        local node = map and map.nodes[coords]
+
+        if not node then return end
+
+        local hookInfo = Hook({
+            showLabel = true,
+            rewardsSpaceBefore = true,
+            rewards = node.rewards,
+            group = node.group or node.group[1]
+        })
+
+        if not hookInfo.group:GetDisplay(mapID) then return end
+        renderTooltip(self, hookInfo)
     end)
 
     ------------------------ ENCOUNTER JOURNAL TOOLTIP ------------------------
+
     hooksecurefunc(EncounterJournalPinMixin, 'OnMouseEnter', function(self)
-        local hookInfo = ns.hooks.encounter[self.encounterID]
-        if not hookInfo then return end
-        renderTooltip(hookInfo)
+        local poi = ns.hooks.encounter[self.encounterID]
+        if not poi then return end
+
+        local hookInfo = Hook({
+            rewardsSpaceBefore = true,
+            rewardsSpaceAfter = false,
+            rewards = poi.rewards
+        })
+        renderTooltip(self, hookInfo)
     end)
 
     ----------------------------- LEGEND TOOLTIP ------------------------------
@@ -343,8 +343,14 @@ local function HookAllPOIS()
     hooksecurefunc(LegendHighlightablePoiPinMixin, 'OnLegendPinMouseEnter',
         function(self)
             if legendHandled then return end
-            local hookInfo = ns.hooks.legend[self.questID]
-            if not hookInfo then return end
+            local poi = ns.hooks.legend[self.questID]
+            if not poi then return end
+
+            local hookInfo = Hook({
+                rewardsSpaceAfter = true,
+                rewards = poi.rewards
+            })
+
             legendHandled = true
             renderTooltip(hookInfo)
         end)
@@ -353,7 +359,8 @@ local function HookAllPOIS()
         function(self) legendHandled = false end)
 
     -------------------------------- VIGNETTE ---------------------------------
-    hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
+
+    hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self) -- TODO
         local hookInfo = ns.hooks.vignette[self.vignetteID]
         if not hookInfo then return end
         local mapID = self:GetMap().mapID
