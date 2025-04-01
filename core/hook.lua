@@ -38,6 +38,11 @@ function Hook:Initialize(attrs)
     if attrs then for k, v in pairs(attrs) do self[k] = v end end
 end
 
+function Hook:AddHook(attrs)
+    if attrs then for k, v in pairs(attrs) do self[k] = v end end
+    return self
+end -- just for now to prevent lua error on Vignettes
+
 for type, hookTable in pairs(ns.hooks) do
     hookTable.Add = function(group, pois, options)
         for id, poi in pairs(pois) do
@@ -186,15 +191,15 @@ end
 local function renderTooltip(self, POI)
 
     -- Add LABEL to tooltip if provided/enabled
-    if POI.showLabel then
+    if POI.showLabel and POI.label then
         GameTooltip:SetText(ns.RenderLinks(POI.label, true))
     end
 
     -- Add SUBLABEL to tooltip if provided/enabled
     if POI.showSublabel and POI.sublabel then
-        GameTooltip:AddLine(' ')
+        if POI.sublabelSpaceBefore then GameTooltip:AddLine(' ') end
         GameTooltip:AddLine(ns.RenderLinks(POI.sublabel, true), 1, 1, 1)
-        GameTooltip:AddLine(' ')
+        if POI.sublabelSpaceAfter then GameTooltip:AddLine(' ') end
     end
 
     -- Add NOTE to tooltip if provided/enabled
@@ -279,7 +284,14 @@ local function HookAllPOIS()
 
         local hookInfo = Hook({
             showLabel = true,
+            showSublabel = true,
+            showNote = true,
+            sublabelSpaceBefore = false,
             rewardsSpaceBefore = true,
+            --
+            label = poi.label,
+            note = poi.note,
+            sublabel = poi.sublabel,
             rewards = poi.rewards,
             group = poi.group
         })
@@ -313,9 +325,16 @@ local function HookAllPOIS()
 
         local hookInfo = Hook({
             showLabel = true,
+            showSublabel = true,
+            showNote = true,
+            sublabelSpaceBefore = false,
             rewardsSpaceBefore = true,
+            --
+            label = node.label,
+            note = node.note,
+            sublabel = node.sublabel,
             rewards = node.rewards,
-            group = node.group or node.group[1]
+            group = node.group[1]
         })
 
         if not hookInfo.group:GetDisplay(mapID) then return end
@@ -346,10 +365,8 @@ local function HookAllPOIS()
             local poi = ns.hooks.legend[self.questID]
             if not poi then return end
 
-            local hookInfo = Hook({
-                rewardsSpaceAfter = true,
-                rewards = poi.rewards
-            })
+            local hookInfo =
+                Hook({rewardsSpaceAfter = true, rewards = poi.rewards})
 
             legendHandled = true
             renderTooltip(hookInfo)
