@@ -65,104 +65,6 @@ for type, hookTable in pairs(ns.hooks) do
 end
 
 -------------------------------------------------------------------------------
----------------------------------- AREA POI -----------------------------------
--------------------------------------------------------------------------------
-
-local AreaPoi = Class('AreaPoi', Hook, {
-    type = 'areapoi',
-    rewardsSpaceBefore = true,
-    rewardsSpaceAfter = false
-})
-
-function AreaPoi:Initialize(attrs)
-    Hook.Initialize(self, attrs)
-    for id, rewards in pairs(self.pois) do
-        ns.hooks.areapoi[id] = self:AddHook({rewards = rewards})
-    end
-end
-
--------------------------------------------------------------------------------
-------------------------------- AREA POI EVENT --------------------------------
--------------------------------------------------------------------------------
-
-local AreaPoiEvent = Class('AreaPoiEvent', Hook, {
-    type = 'areapoievent',
-    rewardsSpaceBefore = true,
-    rewardsSpaceAfter = true
-})
-
-function AreaPoiEvent:Initialize(attrs)
-    Hook.Initialize(self, attrs)
-    for id, rewards in pairs(self.pois) do
-        ns.hooks.areapoievent[id] = self:AddHook({rewards = rewards})
-    end
-end
-
--------------------------------------------------------------------------------
-------------------------------- DELVE ENTRANCE --------------------------------
--------------------------------------------------------------------------------
-
-local Delve = Class('Delve', Hook, {
-    type = 'delve',
-    rewardsSpaceBefore = true,
-    rewardsSpaceAfter = false
-})
-
--- function Delve:Initialize(attrs)
---     Hook.Initialize(self, attrs)
--- end
-
--------------------------------------------------------------------------------
------------------------------- ENCOUNTER JOURNAL ------------------------------
--------------------------------------------------------------------------------
-
-local Encounter = Class('Encounter', Hook, {
-    type = 'enounter',
-    rewardsSpaceBefore = true,
-    rewardsSpaceAfter = false
-})
-
-function Encounter:Initialize(attrs)
-    Hook.Initialize(self, attrs)
-    for id, rewards in pairs(self.encounterIDs) do
-        ns.hooks.encounter[id] = self:AddHook({rewards = rewards})
-    end
-end
-
--------------------------------------------------------------------------------
------------------------------------ LEGEND ------------------------------------
--------------------------------------------------------------------------------
-
-local Legend =
-    Class('Legend', Hook, {type = 'legend', rewardsSpaceAfter = true})
-
-function Legend:Initialize(attrs)
-    Hook.Initialize(self, attrs)
-    for id, rewards in pairs(self.questIDs) do
-        ns.hooks.legend[id] = self:AddHook({rewards = rewards})
-    end
-end
-
--------------------------------------------------------------------------------
-------------------------------- SKYRIDING RACE --------------------------------
--------------------------------------------------------------------------------
-
-local SkyridingRace = Class('SkyridingRace', Hook, {
-    type = 'skyridingrace',
-    showLabel = true,
-    rewardsSpaceBefore = true
-})
-
-function SkyridingRace:Initialize(attrs)
-    Hook.Initialize(self, attrs)
-    for id, coordinates in pairs(self.pois) do
-        ns.hooks.skyridingrace[id] = self:AddHook({
-            coordinates = ns.AsTable(coordinates)
-        })
-    end
-end
-
--------------------------------------------------------------------------------
 ---------------------------------- VIGNETTE -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -189,6 +91,8 @@ end
 -------------------------------------------------------------------------------
 
 local function renderTooltip(self, POI)
+
+    if POI.group and not POI.group:GetDisplay(self:GetMap().mapID) then return end
 
     -- Add LABEL to tooltip if provided/enabled
     if POI.showLabel and POI.label then
@@ -236,7 +140,6 @@ local function HookAllPOIS()
             group = poi.group
         })
 
-        if not hookInfo.group:GetDisplay(self:GetMap().mapID) then return end
         renderTooltip(self, hookInfo)
     end)
 
@@ -253,7 +156,6 @@ local function HookAllPOIS()
             group = poi.group
         })
 
-        if not hookInfo.group:GetDisplay(self:GetMap().mapID) then return end
         renderTooltip(self, hookInfo)
     end)
 
@@ -270,8 +172,6 @@ local function HookAllPOIS()
             group = poi.group
         })
 
-        if not hookInfo.group:GetDisplay(self:GetMap().mapID) then return end
-        for k, v in pairs(poi) do print(k, v) end
         renderTooltip(self, hookInfo)
     end)
 
@@ -296,8 +196,6 @@ local function HookAllPOIS()
             group = poi.group
         })
 
-        if not hookInfo.group:GetDisplay(self:GetMap().mapID) then return end
-
         if self:GetCenter() > UIParent:GetCenter() then
             GameTooltip:SetOwner(self, 'ANCHOR_LEFT')
         else
@@ -305,7 +203,6 @@ local function HookAllPOIS()
         end
 
         renderTooltip(self, hookInfo)
-        GameTooltip:Show()
     end)
 
     hooksecurefunc(DragonridingRacePinMixin, 'OnMouseLeave',
@@ -337,7 +234,6 @@ local function HookAllPOIS()
             group = node.group[1]
         })
 
-        if not hookInfo.group:GetDisplay(mapID) then return end
         renderTooltip(self, hookInfo)
     end)
 
@@ -352,6 +248,7 @@ local function HookAllPOIS()
             rewardsSpaceAfter = false,
             rewards = poi.rewards
         })
+
         renderTooltip(self, hookInfo)
     end)
 
@@ -369,7 +266,8 @@ local function HookAllPOIS()
                 Hook({rewardsSpaceAfter = true, rewards = poi.rewards})
 
             legendHandled = true
-            renderTooltip(hookInfo)
+
+            renderTooltip(self, hookInfo)
         end)
 
     hooksecurefunc(LegendHighlightablePoiPinMixin, 'OnLegendPinMouseLeave',
@@ -397,11 +295,5 @@ end
 ns.HookAllPOIS = HookAllPOIS
 
 ns.hook = {
-    AreaPoi = AreaPoi,
-    AreaPoiEvent = AreaPoiEvent,
-    Delve = Delve,
-    Encounter = Encounter,
-    Legend = Legend,
-    SkyridingRace = SkyridingRace,
     Vignette = Vignette
 }
