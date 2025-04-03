@@ -673,3 +673,12 @@ L['time_to_vacate'] = 'Время эвакуации'
 L['desire_to_drive'] = 'Рвение к РАЗГОНу'
 L['kaja_cruising'] = 'Каджа-коллекция'
 L['garbage_day'] = 'Сбор мусора'
+
+L['scrap_exchange'] = 'Обмен ХЛАМа'
+L['paint_job_colors'] = 'Цвет'
+L['engine_options'] = 'Двигатель'
+L['wheel_options'] = 'Колеса'
+L['turbo_options'] = 'Турбоускоритель'
+L['horn_options'] = nil
+
+L['rep_paragon'] = 'Идеал'

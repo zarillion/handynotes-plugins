@@ -672,3 +672,12 @@ L['time_to_vacate'] = '清场时间'
 L['desire_to_drive'] = '驾驶的渴望'
 L['kaja_cruising'] = '卡亚巡游'
 L['garbage_day'] = '垃圾清理日'
+
+L['scrap_exchange'] = '废品交易'
+L['paint_job_colors'] = '漆料'
+L['engine_options'] = '引擎'
+L['wheel_options'] = '轮胎'
+L['turbo_options'] = '涡轮'
+L['horn_options'] = '喇叭'
+
+L['rep_paragon'] = '典范'

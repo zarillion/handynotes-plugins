@@ -673,3 +673,12 @@ L['time_to_vacate'] = 'L’heure de partir'
 L['desire_to_drive'] = 'Envie de V.R.O.U.M.'
 L['kaja_cruising'] = 'Prospection de Kaja'
 L['garbage_day'] = 'Müllentsorgung'
+
+L['scrap_exchange'] = 'Echange de D.E.B.R.I.S.'
+L['paint_job_colors'] = 'Peinture'
+L['engine_options'] = 'Moteur'
+L['wheel_options'] = 'Roues'
+L['turbo_options'] = 'Turbo'
+L['horn_options'] = 'Klaxon'
+
+L['rep_paragon'] = 'Parangon'

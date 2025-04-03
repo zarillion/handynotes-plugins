@@ -672,3 +672,12 @@ L['time_to_vacate'] = 'Time to Vacate'
 L['desire_to_drive'] = 'Desire to D.R.I.V.E.'
 L['kaja_cruising'] = 'Kaja Cruising'
 L['garbage_day'] = 'Garbage Day'
+
+L['scrap_exchange'] = 'S.C.R.A.P. Exchange'
+L['paint_job_colors'] = 'Paint'
+L['engine_options'] = 'Engine'
+L['wheel_options'] = 'Wheels'
+L['turbo_options'] = 'Turbo'
+L['horn_options'] = 'Horn'
+
+L['rep_paragon'] = 'Paragon'

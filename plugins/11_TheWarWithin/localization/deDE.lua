@@ -675,3 +675,12 @@ L['time_to_vacate'] = 'Zeit zu räumen'
 L['desire_to_drive'] = 'F.A.H.R.E.N.-Gefahr'
 L['kaja_cruising'] = 'Kaja\'cruisen'
 L['garbage_day'] = 'Müllentsorgung'
+
+L['scrap_exchange'] = 'S.C.H.R.O.T.T.-Tausch'
+L['paint_job_colors'] = 'Farbe'
+L['engine_options'] = 'Motor'
+L['wheel_options'] = 'Räder'
+L['turbo_options'] = 'Turbo'
+L['horn_options'] = 'Hupe'
+
+L['rep_paragon'] = 'Huldigend'
