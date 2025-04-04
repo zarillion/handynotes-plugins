@@ -293,7 +293,7 @@ map.nodes[60580989] = Rare({
 map.nodes[40002232] = Rare({
     id = 234480,
     note = format(L['complete_event'], 234819), -- Ragzy Cashgrab
-    quest = 90488, -- 86298
+    quest = 86298,
     vignette = 6689,
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
@@ -301,7 +301,6 @@ map.nodes[40002232] = Rare({
     rewards = {
         Achievement({id = 41216, criteria = 71608}),
         Reputation({id = 2653, gain = 100, quest = 86298}), -- The Cartels of Undermine
-        -- Reputation({id = cartel, gain = 150, quest = 86298}), -- Aligned Cartel
         Transmog({item = 235835, type = L['cloak']}), -- Braided Wire Wrap
         Transmog({item = 235836, type = L['2h_sword']}), -- Gas-Powered Chainblade
         Spacer(), Section(L['shared_drops']),
@@ -316,7 +315,7 @@ map.nodes[40002232] = Rare({
 map.nodes[32027652] = Rare({
     id = 234499,
     note = format(L['complete_event'], 234751), -- Noggenfogger Recall Technician
-    quest = 90489, -- 86307
+    quest = 86307,
     vignette = {6710, 6694},
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
@@ -324,7 +323,6 @@ map.nodes[32027652] = Rare({
     rewards = {
         Achievement({id = 41216, criteria = 71609}),
         Reputation({id = 2653, gain = 100, quest = 86307}), -- The Cartels of Undermine
-        -- Reputation({id = cartel, gain = 150, quest = 86307}), -- Aligned Cartel
         Transmog({item = 235823, type = L['leather']}), -- Scrap-Plated Pants
         Transmog({item = 235824, type = L['gun']}), -- Flame Sputterer
         Spacer(), Section(L['shared_drops']),
@@ -339,7 +337,7 @@ map.nodes[32027652] = Rare({
 map.nodes[57207860] = Rare({
     id = 233471,
     note = format(L['complete_event'], 236035), -- Scrapminer Krazzik
-    quest = 90491, -- 85778
+    quest = 85778,
     vignette = {6667, 6752},
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
@@ -347,7 +345,6 @@ map.nodes[57207860] = Rare({
     rewards = {
         Achievement({id = 41216, criteria = 71610}),
         Reputation({id = 2653, gain = 100, quest = 85778}), -- The Cartels of Undermine
-        -- Reputation({id = cartel, gain = 150, quest = 85778}), -- Aligned Cartel
         Transmog({item = 235829, type = L['mail']}), -- Welded Scrap Hood
         Transmog({item = 235830, type = L['mail']}), -- Unstable Missilecaps
         Transmog({item = 235831, type = L['1h_sword']}) -- Battery-Powered Longshank
@@ -358,7 +355,7 @@ map.nodes[57207860] = Rare({
 map.nodes[64162556] = Rare({
     id = 233472,
     note = format(L['complete_event'], 234834), -- Boatwright Frankle
-    quest = 90490, -- 85777
+    quest = 85777,
     vignette = {6668, 6753},
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
@@ -366,7 +363,6 @@ map.nodes[64162556] = Rare({
     rewards = {
         Achievement({id = 41216, criteria = 71611}),
         Reputation({id = 2653, gain = 100, quest = 85777}), -- The Cartels of Undermine
-        -- Reputation({id = cartel, gain = 150, quest = 85777}), -- Aligned Cartel
         Transmog({item = 235826, type = L['cloth']}), -- Electric Wristrags
         Transmog({item = 235827, type = L['leather']}), -- Statically Charged Vest
         Transmog({item = 235828, type = L['staff']}) -- Electrocution Warning
@@ -377,7 +373,7 @@ map.nodes[64162556] = Rare({
 map.nodes[40209190] = Rare({
     id = 231310,
     note = format(L['complete_event'], 231329), -- De-Pollution Station X1119
-    quest = 90492, -- 85010
+    quest = 90492,
     vignette = {6613, 6614},
     requires = {
         ns.requirement.Reputation(2653, 6, true), -- The Cartels of Undermine
@@ -386,7 +382,6 @@ map.nodes[40209190] = Rare({
     rewards = {
         Achievement({id = 41216, criteria = 71612}),
         Reputation({id = 2653, gain = 100, quest = 85010}), -- The Cartels of Undermine
-        -- Reputation({id = cartel, gain = 150, quest = 85010}), -- Aligned Cartel
         Transmog({item = 235832, type = L['cloak']}), -- Oil-Splattered Cloak
         Transmog({item = 235833, type = L['polearm']}), -- Serrated Slickgrip
         Transmog({item = 235834, type = L['warglaive']}), -- Rocketgrip Turboslicer
@@ -473,7 +468,7 @@ map.nodes[74677988] = Treasure({
     quest = 85424,
     rewards = {
         Achievement({id = 41217, criteria = 71629}),
-        Item({item = 234821, type = L['trinket']}) -- Papa's Prized Putter
+        Item({item = 234821, note = L['trinket']}) -- Papa's Prized Putter
     }
 }) -- Papa's Prized Putter
 
@@ -757,7 +752,7 @@ local function GetScrapRewards(criteriaID)
         Transmog({item = 236181, type = L['1h_sword']}), -- Center-Stage Remover
         Transmog({item = 236191, type = L['1h_mace']}), -- Mechanic's Best Motivator
         Spacer(), Section('{npc:234621}'), -- Gallagio Garbage <Luxury Trash>
-        Reputation({id = 2653, gain = 20, quest = 87007}),
+        Reputation({id = 2653, gain = 20, quest = 87007}), -- The Cartels of Undermine
         Transmog({item = 235821, type = L['mail']}), -- Pressed-Gold Pantaloons
         Transmog({item = 235822, type = L['cloak']}), -- Coin-Woven Shawl
         Transmog({item = 235854, type = L['cosmetic']}), -- Gold-Inlaid Jetpack
@@ -794,7 +789,7 @@ local ShippingHandling = Class('ShippingHandling', Collectible, {
     icon = 132764,
     scale = 1.5,
     rewards = {
-        Pet({item = 232847, id = 4646}), -- Personal-Use Sapper (86298)
+        Pet({item = 232847, id = 4646}), -- Personal-Use Sapper (86303)
         Pet({item = 232852, id = 4636}), -- Mutt (86302)
         Mount({item = 229947, id = 2303}), -- Violet Goblin Shredder (86300)
         Transmog({item = 231556, slot = _G.CHESTSLOT}) -- Breakneck Cabbie's Coat (86299)
@@ -1090,6 +1085,7 @@ local DiscardedCan = Class('DiscardedCan', Collectible, {
 map.nodes[28624761] = DiscardedCan()
 map.nodes[30674249] = DiscardedCan()
 map.nodes[31334208] = DiscardedCan()
+map.nodes[35874872] = DiscardedCan()
 map.nodes[39172768] = DiscardedCan()
 map.nodes[41693493] = DiscardedCan()
 map.nodes[45098122] = DiscardedCan()
@@ -1100,6 +1096,9 @@ map.nodes[52715868] = DiscardedCan()
 map.nodes[56135245] = DiscardedCan()
 map.nodes[56563837] = DiscardedCan()
 map.nodes[56923313] = DiscardedCan()
+map.nodes[41524238] = DiscardedCan()
+map.nodes[41313863] = DiscardedCan()
+map.nodes[48995316] = DiscardedCan()
 
 -------------------------------------------------------------------------------
 ----------------------------- WORLDSOUL MEMORIES ------------------------------

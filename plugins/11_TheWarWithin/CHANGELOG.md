@@ -1,6 +1,6 @@
 # v118
 
-* Localization updates: zhCN
+* Localization updates: esES, ruRU, zhCN
 
 # v117
 
