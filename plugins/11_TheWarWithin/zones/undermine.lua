@@ -444,7 +444,7 @@ map.nodes[74677988] = Treasure({
     quest = 85424,
     rewards = {
         Achievement({id = 41217, criteria = 71629}),
-        Item({item = 234821, type = L['trinket']}) -- Papa's Prized Putter
+        Item({item = 234821, note = L['trinket']}) -- Papa's Prized Putter
     }
 }) -- Papa's Prized Putter
 
