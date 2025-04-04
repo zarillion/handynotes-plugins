@@ -266,6 +266,30 @@ map.nodes[60580989] = Rare({
     vignette = 6597
 }) -- Flyboy Snooty
 
+-------------------------------- CHOSEN CARTEL --------------------------------
+
+-- local function ChosenCartel()
+--     local cartels = { -- {[1]quest, [2]faction, [3]currency, [4]finders-fee}
+--         {84951,2673,3169,236764}, -- Bilgewater Cartel
+--         {84952,2677,3173,236689}, -- Steamwheedle Cartel
+--         {84954,2675,3171,236763}, -- Blackwater Cartel
+--         {84953,2671,3176,236765}, -- Venture Company
+--         -- {nil,nil,3221,nil}, -- Goblin Cartels Reputation
+--     }
+--     if not C_QuestLog.IsQuestFlaggedCompleted(84948) -- Contract Work
+--     then return nil end
+--     for i = 1, #cartels do
+--         if C_QuestLog.IsQuestFlaggedCompleted(cartels[i][1])
+--         then return cartels[i]
+--         end
+--     end
+--     return {nil,nil,3221,nil}
+-- end
+
+-- local cartel = ChosenCartel()
+
+-------------------------------------------------------------------------------
+
 map.nodes[40002232] = Rare({
     id = 234480,
     note = format(L['complete_event'], 234819), -- Ragzy Cashgrab
@@ -512,8 +536,9 @@ map.nodes[35384142] = Vendor({
     }
 }) -- Ditty Fuzeboy <Entertainment Supplier>
 
-map.nodes[43208280] = Vendor({
+map.nodes[43258284] = Vendor({
     id = 228286,
+    requires = ns.requirement.Quest(84218, nil, nil, true), -- ![The Getaway] (warband)
     note = L['skedgit_cinderbangs_note'],
     rewards = {
         Mount({item = 229941, id = 2283, count = 25}), -- Innovation Investigator
@@ -540,6 +565,7 @@ map.nodes[25743813] = Vendor({
 
 map.nodes[34097126] = Vendor({
     id = 226994,
+    requires = ns.requirement.Quest(83542, nil, nil, true), -- ![Quick Gills for Gold Now] (warband)
     note = L['blair_bass_note'],
     rewards = {
         Toy({item = 237346, count = 5}), -- Artisan Beverage Goblet Bobber
@@ -576,6 +602,36 @@ map.nodes[24606320] = Vendor({
 
 ------------------------ GOBLIN CARTEL QUARTERMASTERS -------------------------
 
+-- local Knowledge = ns.reward.Knowledge
+
+map.nodes[43845082] = Vendor({
+    id = 231409,
+    sublabel = format(L['quartermaster'], '{faction:2653}'), -- The Cartels of Undermine
+    rewards = {
+        Recipe({item = 232535, profession = 773}), -- Technique: Contract: The Cartels of Undermine
+        Recipe({item = 233022, profession = 773}), -- Technique: Vantus Rune: Liberation of Undermine
+        Recipe({item = 234274, profession = 202}), -- Schematic: 22H Slicks
+        Recipe({item = 235338, profession = 165}), -- Pattern: Charged Armor Kit
+        -- Knowledge({item = 232499, profession = 171, quest = 85734}), -- Undermine Treatise on Alchemy
+        -- Knowledge({item = 232500, profession = 164, quest = 85735}), -- Undermine Treatise on Blacksmithing
+        -- Knowledge({item = 232501, profession = 333, quest = 85736}), -- Undermine Treatise on Enchanting
+        -- Knowledge({item = 232507, profession = 202, quest = 85737}), -- Undermine Treatise on Engineering
+        -- Knowledge({item = 232503, profession = 182, quest = 85738}), -- Undermine Treatise on Herbalism
+        -- Knowledge({item = 232508, profession = 773, quest = 85739}), -- Undermine Treatise on Inscription
+        -- Knowledge({item = 232504, profession = 755, quest = 85740}), -- Undermine Treatise on Jewelcrafting
+        -- Knowledge({item = 232505, profession = 165, quest = 85741}), -- Undermine Treatise on Leatherworking
+        -- Knowledge({item = 232509, profession = 186, quest = 85742}), -- Undermine Treatise on Mining
+        -- Knowledge({item = 232506, profession = 393, quest = 85744}), -- Undermine Treatise on Skinning
+        -- Knowledge({item = 232502, profession = 197, quest = 85745}), -- Undermine Treatise on Tailoring
+        Transmog({item = 231743, slot = _G.HEADSLOT}), -- Undermine Enforcer's Helmet
+        Transmog({item = 231749, slot = _G.SHOULDERSLOT}), -- Undermine Enforcer's Spikes
+        Transmog({item = 232515, slot = _G.BACKSLOT}), -- Experimental Goblin Jetpack
+        Mount({item = 229936, id = 2277}), -- Violet Armored Growler
+        Mount({item = 229944, id = 2280}), -- The Topskimmer Special
+        BreakneckCustomization({item = 232981, quest = 85776}) -- GNZ Airmaster 9000
+    }
+}) -- Smaks Topskimmer <Renown Quartermaster>
+
 map.nodes[39152219] = Vendor({
     id = 231406,
     sublabel = format(L['quartermaster'], '{faction:2673}'),
@@ -591,7 +647,9 @@ map.nodes[39152219] = Vendor({
         Spacer(), Section(L['rep_exalted']),
         BreakneckCustomization({item = 235388, quest = 86773}), -- Paint: Redlining Red
         Transmog({item = 231526}), -- Bilgewater Undermine Tabard
-        Mount({item = 229935, id = 2272}) -- Crimson Armored Growler
+        Mount({item = 229935, id = 2272}), -- Crimson Armored Growler
+        Spacer(), Section(L['rep_paragon'] .. ' ({item:235259})'), -- Bilgewater's Trove (paragon reputation reward)
+        Mount({item = 229957, id = 2295}) -- Bilgewater Bombardier
     }
 }) -- Rocco Razzboom <Bilgewater Quartermaster>
 
@@ -610,7 +668,9 @@ map.nodes[27127256] = Vendor({
         Spacer(), Section(L['rep_exalted']),
         BreakneckCustomization({item = 235389, quest = 86772}), -- Paint: Goblin Green
         Transmog({item = 231527}), -- Steamwheedle Undermine Tabard
-        Mount({item = 229956, id = 2294}) -- Mean Green Flying Machine
+        Mount({item = 229956, id = 2294}), -- Mean Green Flying Machine
+        Spacer(), Section(L['rep_paragon'] .. ' ({item:237134})'), -- Steamwheedle Trove (paragon reputation reward)
+        Mount({item = 229943, id = 2281}) -- Steamwheedle Supplier
     }
 }) -- Lab Assistant Laszly <Steamwheedle Quartermaster>
 
@@ -629,7 +689,9 @@ map.nodes[63421673] = Vendor({
         Spacer(), Section(L['rep_exalted']),
         BreakneckCustomization({item = 235390, quest = 86771}), -- Paint: Body Roll Blue
         Transmog({item = 231528}), -- Blackwater Undermine Tabard
-        Mount({item = 229948, id = 2286}) -- Blackwater Shredder Deluxe Mk 2
+        Mount({item = 229948, id = 2286}), -- Blackwater Shredder Deluxe Mk 2
+        Spacer(), Section(L['rep_paragon'] .. ' ({item:235261})'), -- Blackwater's Trove (paragon reputation reward)
+        Mount({item = 229937, id = 2274}) -- Blackwater Bonecrusher
     }
 }) -- Boatswain Hardee <Blackwater Quartermaster>
 
@@ -648,7 +710,9 @@ map.nodes[53297271] = Vendor({
         Spacer(), Section(L['rep_exalted']),
         BreakneckCustomization({item = 235391, quest = 86774}), -- Paint: Yellow Cake Yellow
         Transmog({item = 231542}), -- Venture Co. Undermine Tabard
-        Mount({item = 229946, id = 2284}) -- Ocher Delivery Rocket
+        Mount({item = 229946, id = 2284}), -- Ocher Delivery Rocket
+        Spacer(), Section(L['rep_paragon'] .. ' ({item:235265})'), -- Venture Co.'s Trove (paragon reputation reward)
+        Mount({item = 229951, id = 2289}) -- Venture Co-ordinator
     }
 }) -- Shredz the Scapper <Venture Quartermaster>
 
@@ -656,6 +720,7 @@ map.nodes[30723890] = Vendor({
     id = 231396,
     sublabel = format(L['quartermaster'], '{faction:2669}'),
     location = L['in_sewer'],
+    requires = ns.requirement.Quest(86961, nil, nil, true), -- ![Diversified Investments] (warband)
     note = L['quartermaster_note'],
     pois = {Entrance({29754112})},
     rewards = {
@@ -664,7 +729,9 @@ map.nodes[30723890] = Vendor({
         Spacer(), Section(L['rep_revered']), --
         Mount({item = 229950, id = 2287}), -- Darkfuse Demolisher
         Spacer(), Section(L['rep_exalted']), --
-        Transmog({item = 231550}) -- Darkfuse Lowdown Coat
+        Transmog({item = 231550}), -- Darkfuse Lowdown Coat
+        Spacer(), Section(L['rep_paragon'] .. ' ({item:232465})'), -- Darkfuse Trove (paragon reputation reward)
+        Mount({item = 233064, id = 2334}) -- Bronze Goblin Waveshredder
     }
 }) -- Sitch Lowdown <Darkfuse Solutions Quartermaster>
 
@@ -711,6 +778,171 @@ map.nodes[67482929] = ScrapHeap({criteriaID = 103187}) -- Blackwater Marina
 
 ns.hook.Vignette({group = ns.groups.SCRAP_REWARDS, vignetteID = 6687})
 ns.hook.Vignette({group = ns.groups.SCRAP_REWARDS, vignetteID = 6757})
+ns.hook.Vignette({group = ns.groups.SCRAP_REWARDS, vignetteID = 6700}) -- Gallagio Garbage
+
+-------------------------------------------------------------------------------
+------------------------ SHIPPING AND HANDLING REWARDS ------------------------
+-------------------------------------------------------------------------------
+
+local ShippingHandling = Class('ShippingHandling', Collectible, {
+    label = '{spell:1222389}', -- Shipping & Handling: Job Streak
+    icon = 132764,
+    scale = 1.5,
+    rewards = {
+        Pet({item = 232847, id = 4646}), -- Personal-Use Sapper (86303)
+        Pet({item = 232852, id = 4636}), -- Mutt (86302)
+        Mount({item = 229947, id = 2303}), -- Violet Goblin Shredder (86300)
+        Transmog({item = 231556, slot = _G.CHESTSLOT}) -- Breakneck Cabbie's Coat (86299)
+    }
+}) -- Shipping & Handling 10/10 rewards
+
+function ShippingHandling.getters:note()
+    return C_Spell.GetSpellDescription(1222389)
+end
+
+map.nodes[15852496] = ShippingHandling()
+
+-------------------------------------------------------------------------------
+-------------------------- D.R.I.V.E. CUSTOMIZATIONS --------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[15852996] = Collectible({
+    label = _G.ACCESSIBILITY_DRIVE_LABEL, -- D.R.I.V.E.
+    sublabel = L['breakneck_customization'], -- Item() instead of BreakneckCustomization()
+    -- note = ,
+    icon = 6383558,
+    scale = 1.5,
+    rewards = {
+        Section(L['paint_job_colors']),
+        Item({item = 235388, quest = 86773, note = '{faction:2673}'}), -- Paint: Redlining Red
+        Item({item = 235389, quest = 86772, note = '{faction:2677}'}), -- Paint: Goblin Green
+        Item({item = 235390, quest = 86771, note = '{faction:2675}'}), -- Paint: Body Roll Blue
+        Item({item = 235391, quest = 86774, note = '{faction:2671}'}), -- Paint: Yellow Cake Yellow
+        Spacer(), Section(L['engine_options']),
+        Item({item = 232982, quest = 85775, note = '{achievement:41081}'}), -- The Pozzik Standard
+        Item({item = 232981, quest = 85776, note = '{faction:2653}'}), -- GNZ Airmaster 9000
+        Spacer(), Section(L['wheel_options']),
+        Item({item = 232985, quest = 85782, note = '{spell:4036}'}), -- 22H Slicks
+        Item({item = 232986, quest = 85781, note = L['scrap_exchange']}), -- GE86 Advance -- which better? L['scrap_exchange'] or '{npc:234776}'?
+        Spacer(), Section(L['turbo_options']),
+        Item({item = 232983, quest = 85783, note = _G.MAP_LEGEND_RARE}), -- Steamboil
+        Item({item = 232984, quest = 85784, note = _G.MAP_LEGEND_RARE}), -- Handcrank
+        Spacer(), Section(L['horn_options']),
+        Item({item = 236672, quest = 85785, note = '{faction:2673}'}), -- The Ol' Low-and-Slow
+        Item({item = 236670, quest = 85787, note = '{faction:2677}'}), -- Maniacle Melodies
+        Item({item = 236671, quest = 85786, note = '{faction:2675}'}), -- The Buzzer
+        Item({item = 236669, quest = 85788, note = '{faction:2671}'}) -- The Whole Brass Band
+    }
+}) -- D.R.I.V.E. Customizations
+
+-------------------------------------------------------------------------------
+----------------------------- C.H.E.T.T. REWARDS ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[43415050] = Collectible({
+    id = 238029,
+    requires = {
+        ns.requirement.Reputation(2653, 13, true), -- The Cartels of Undermine
+        ns.requirement.Quest(87374, nil, nil, true) -- ![C.H.E.T.T.ing In] (warband)
+    },
+    icon = 134391,
+    rewards = {
+        Achievement({
+            id = 41629,
+            criteria = {id = 1, qty = true, suffix = L['chett_suffix']}
+        }), -- C.H.E.T.T.mate
+        Transmog({item = 237900, slot = _G.BACKSLOT}), -- C.H.E.T.T. Pack
+        Item({item = 236682, weekly = 87296}) -- C.H.E.T.T. List
+    }
+}) -- C.H.E.T.T.
+
+local ChettList = Class('ChettList', Node, {
+    label = '{item:236682}',
+    requires = {
+        ns.requirement.Reputation(2653, 13, true), -- The Cartels of Undermine
+        ns.requirement.Quest(87374, nil, nil, true) -- ![C.H.E.T.T.ing In] (warband)
+    },
+    icon = 134391,
+    scale = 1.5
+}) -- C.H.E.T.T. List
+
+function ChettList.getters:note()
+    local note = ''
+    if not ns.PlayerHasItem(235053) then
+        if C_QuestLog.IsQuestFlaggedCompleted(87296) then
+            note = note .. L['chett_complete'] ..
+                       ns.tooltip.ItemStatus(236668, 40, L['chett_extra'])
+        else
+            note = note .. L['chett_available']
+        end
+    elseif ns.PlayerHasItem(235053) then
+        local function ChettStatus()
+            local quests = {
+                {86915, L['side_with_a_cartel']}, {86917, L['ship_right']},
+                {86918, L['reclaimed_scrap']}, {86919, L['side_gig']},
+                {86920, L['war_mode_violence']}, {86923, L['go_fish']},
+                {86924, L['gotta_catch_at_least_a_few']},
+                {87302, L['rare_rivals']}, {87303, L['clean_the_sidestreets']},
+                {87304, L['time_to_vacate']}, {87305, L['desire_to_drive']},
+                {87306, L['kaja_cruising']}, {87307, L['garbage_day']}
+            }
+            local submit, ready, total = 0, 0, 0
+            local list = ''
+            for i = 1, #quests do
+                if C_QuestLog.IsQuestFlaggedCompleted(quests[i][1]) then
+                    submit = submit + 1
+                    list = list .. '\n' .. ns.status.Green(L['completed']) ..
+                               ' ' .. quests[i][2]
+                end
+                if C_QuestLog.IsOnQuest(quests[i][1]) then
+                    if C_QuestLog.ReadyForTurnIn(quests[i][1]) then
+                        ready = ready + 1
+                        list =
+                            list .. '\n' .. ns.status.Orange(L['completed']) ..
+                                ' ' .. quests[i][2]
+                    else
+                        list = list .. '\n' .. ns.status.Red(L['incomplete']) ..
+                                   ' ' .. quests[i][2]
+                    end
+                end
+                total = submit + ready
+            end
+            return submit, total, list
+        end
+        local submit, total, list = ChettStatus()
+        if submit >= 4 then
+            note = note .. L['chett_exchange_1']
+            local _, _, _, completed = GetAchievementInfo(41627)
+            if not completed then
+                note = note .. L['chett_exchange_2_requirement']
+            elseif C_QuestLog.IsQuestFlaggedCompleted(84951) then
+                note = note ..
+                           format(L['chett_exchange_2a'], 3169, 236764, 2673)
+            elseif C_QuestLog.IsQuestFlaggedCompleted(84952) then
+                note = note ..
+                           format(L['chett_exchange_2a'], 3173, 236689, 2677)
+            elseif C_QuestLog.IsQuestFlaggedCompleted(84953) then
+                note = note ..
+                           format(L['chett_exchange_2a'], 3176, 236765, 2671)
+            elseif C_QuestLog.IsQuestFlaggedCompleted(84954) then
+                note = note ..
+                           format(L['chett_exchange_2a'], 3171, 236763, 2675)
+            else
+                note = note .. L['chett_exchange_2b']
+            end
+        elseif total >= 4 then
+            note =
+                note .. ns.status.Green(total .. '/4') .. L['chett_ongoing'] ..
+                    L['chett_submit']
+        elseif total < 4 then
+            note = note .. ns.status.Red(total .. '/4') .. L['chett_ongoing'] ..
+                       list
+        end
+    end
+    return note
+end
+
+map.nodes[15851996] = ChettList()
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: NINE-TENTHS OF THE LAW ---------------------
@@ -953,3 +1185,19 @@ zul.nodes[17576104] = HunterPetNode({
         Path({22845943, 21715939, 21526072, 20445985, 19156043, 17576104})
     }
 }) -- George <The Big Pinch>
+
+------------------- UNLOCK SKYROCKETING RACES WORLD QUESTS --------------------
+
+local UnlockSkyrocketing = Class('UnlockSkyrocketing', Node, {
+    icon = 'peg_rd',
+    scale = 2.0,
+    label = L['skyrocketing_sprint'],
+    note = L['unlock_skyrocketing_note'],
+    vignette = 6760,
+    pois = {Entrance({39912882})},
+    IsEnabled = function()
+        return not C_CurrencyInfo.GetCurrencyInfo(3119).discovered
+    end -- 11 Z6 R1 Easy
+}) --  probably a bug which may be fixed in the future by blizzard
+
+map.nodes[39052870] = UnlockSkyrocketing()

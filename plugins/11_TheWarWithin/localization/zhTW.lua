@@ -644,3 +644,40 @@ L['upgrade_turbo_handcrank'] = nil
 L['blazefeather_peacock_note'] = nil
 L['radioactive_subject_note'] = nil
 L['george_the_big_pinch_note'] = nil
+
+L['skyrocketing_sprint'] = '衝天火箭奔馳賽道'
+L['unlock_skyrocketing_note'] = '{note:該角色須完成一次衝天火箭奔馳賽}\n解鎖衝天火箭競賽的4個世界任務: \n{wq:天空騎術競賽 - 衝天火箭奔馳賽}\n{wq:天空騎術競賽 - 垃圾場飛躍賽道}\n{wq:天空騎術競賽 - 廢料工坊彈射}\n{wq:天空騎術競賽 - 發家致富疾衝賽}'
+
+L['chett_suffix'] = 'C.H.E.T.T.清單'
+L['chett_exchange_1'] = nil
+L['chett_exchange_2a'] = nil
+L['chett_exchange_2b'] = nil
+L['chett_exchange_2_requirement'] = nil
+L['chett_complete'] = nil
+L['chett_extra'] = nil
+L['chett_available'] = nil
+L['chett_ongoing'] = nil
+L['chett_submit'] = nil
+
+L['side_with_a_cartel'] = '支持一個集團'
+L['ship_right'] = '船隻權力' -- ???
+L['reclaimed_scrap'] = '回收的廢料'
+L['side_gig'] = '零工'
+L['war_mode_violence'] = '戰爭模式暴力'
+L['go_fish'] = '釣魚'
+L['gotta_catch_at_least_a_few'] = '至少得抓住幾個'
+L['rare_rivals'] = '稀有對手'
+L['clean_the_sidestreets'] = '清理後街'
+L['time_to_vacate'] = '撤離時間'
+L['desire_to_drive'] = 'D.R.I.V.E.慾望'
+L['kaja_cruising'] = '卡迦巡航'
+L['garbage_day'] = '收垃圾日'
+
+L['scrap_exchange'] = '廢料交易'
+L['paint_job_colors'] = '塗裝'
+L['engine_options'] = '引擎'
+L['wheel_options'] = '車輪'
+L['turbo_options'] = '渦輪'
+L['horn_options'] = '喇叭'
+
+L['rep_paragon'] = '楷模'
