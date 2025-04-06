@@ -646,7 +646,7 @@ L['radioactive_subject_note'] = 'Usa las tuberías cercanas y, combinando {item:
 L['george_the_big_pinch_note'] = 'Haz click rápidamente en los 5 {npc:238189} para conseguir {spell:1219679} que te permitirá domesticar {npc:233938}.'
 
 L['skyrocketing_sprint'] = 'Esprint fulminante'
-L['unlock_skyrocketing_note'] = '{note:Este personaje tiene que completar Esprint fulminante sólo una vez.}\nPara desbloquear las 4 misiones del mundo de Carreras fulminates: \n{wq:Carreras de surcacielos - Esprint fulminante}\n{wq:Carreras de surcacielos - Paseo chatarrero}\n{wq:Carreras de surcacielos - Rally de la chatarra}\n{wq:Carreras de surcacielos - Recorrido del ricachón}'
+L['unlock_skyrocketing_note'] = '{note:Este personaje tiene que completar Esprint fulminante sólo una vez.}\nPara desbloquear las 3 misiones del mundo de Carreras fulminates: \n{wq:Carreras de surcacielos - Paseo chatarrero}\n{wq:Carreras de surcacielos - Rally de la chatarra}\n{wq:Carreras de surcacielos - Recorrido del ricachón}'
 
 L['chett_suffix'] = 'Lista de la T.C.E.H.T.'
 L['chett_exchange_1'] = 'Elige por qué quieres intercambiar la {item:235053}.\n\n #1. ' .. ns.color.LightBlue('250x') .. ' {currency:3008}.\n (Llévasela a {npc:238029}).\n\n #2. '

@@ -647,7 +647,7 @@ L['radioactive_subject_note'] = 'Utilisez les tuyaux à proximité, aidez-vous d
 L['george_the_big_pinch_note'] = 'Cliquez rapidement sur les 5 {npc:238189} pour recevoir le buff {spell:1219679} et ainsi pouvoir dompter {npc:233938}.'
 
 L['skyrocketing_sprint'] = 'Sprint à réaction'
-L['unlock_skyrocketing_note'] = nil -- \n{wq:Course draconique – Sprint à réaction}\n{wq:Course draconique – Face à la Pile}\n{wq:Course draconique – Retour à la Recyclerie}\n{wq:Course draconique – Course à la fortune}
+L['unlock_skyrocketing_note'] = nil -- \n{wq:Course draconique – Face à la Pile}\n{wq:Course draconique – Retour à la Recyclerie}\n{wq:Course draconique – Course à la fortune}
 
 L['chett_suffix'] = 'Liste C.H.E.T.T.'
 L['chett_exchange_1'] = nil

@@ -649,7 +649,7 @@ L['radioactive_subject_note'] = 'Benutze nahegelegene Rohre und eine Kombination
 L['george_the_big_pinch_note'] = 'Klicke schnell alle 5 {npc:238189} an, um den Stärkungszauber {spell:1219679} zu erhalten, der dir erlaubt {npc:233938} zu zähmen.'
 
 L['skyrocketing_sprint'] = 'Raketenrennen'
-L['unlock_skyrocketing_note'] = nil -- \n{wq:Drachenreiterrennen - Raketenrennen}\n{wq:Drachenreiterrennen - Haldenhüpfer}\n{wq:Drachenreiterrennen - Schrottladenchance}\n{wq:Drachenreiterrennen - Tellerwäschertriumph}
+L['unlock_skyrocketing_note'] = nil -- \n{wq:Drachenreiterrennen - Haldenhüpfer}\n{wq:Drachenreiterrennen - Schrottladenchance}\n{wq:Drachenreiterrennen - Tellerwäschertriumph}
 
 L['chett_suffix'] = 'C.H.E.T.T.-Liste'
 L['chett_exchange_1'] = nil
