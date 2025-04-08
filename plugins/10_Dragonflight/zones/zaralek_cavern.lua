@@ -215,7 +215,7 @@ map.nodes[28515115] = Rare({
         Toy({item = 205419}), -- Jrumm's Drum
         Transmog({item = 205304, slot = L['leather']}), -- Snareguard Sash
         Transmog({item = 205299, slot = L['cloth']}), -- Rudiment Cuffs
-        DC.WindingSlitherdrake.Ears, --
+        DC.WindingSlitherdrake.Ears --
         -- Currency({id = 2245}) -- Flightstones
     }
 }) -- Jrumm
@@ -232,7 +232,7 @@ map.nodes[42226524] = Rare({
         Transmog({item = 205298, slot = L['cloth']}), -- Belt of Floating Stone
         Transmog({item = 205292, slot = L['cloak']}), -- Kairoktra's Mane
         DC.WindingSlitherdrake.SmallFinnedTail, --
-        Pet({item = 205147, id = 3541}), -- Ridged Shalewing
+        Pet({item = 205147, id = 3541}) -- Ridged Shalewing
         -- Currency({id = 2245}) -- Flightstones
     }
 }) -- Karokta
@@ -294,7 +294,7 @@ map.nodes[40753817] = Rare({
         Transmog({item = 205311, slot = L['mail']}), -- Magmascale Pauldrons
         Transmog({item = 205300, slot = L['leather']}), -- Magma Waders
         DC.WindingSlitherdrake.ImpalerHorns, --
-        Item({item = 192055}), -- Dragon Isle Artifact
+        Item({item = 192055}) -- Dragon Isle Artifact
         -- Currency({id = 2245}) -- Flightstones
     }
 }) -- Magmanesha
@@ -325,7 +325,7 @@ map.nodes[36205300] = Rare({
         Achievement({id = 18100, criteria = 59507}), -- Cavern Clawbbering
         Transmog({item = 205294, slot = L['cloth']}), -- Sandals of Molten Scorn
         Transmog({item = 205301, slot = L['leather']}), -- Hardened Lava Handwraps
-        DC.WindingSlitherdrake.CurledCheekHorn, --
+        DC.WindingSlitherdrake.CurledCheekHorn --
         -- Currency({id = 2245}) -- Flightstones
     }
 }) -- Skornak
@@ -563,7 +563,7 @@ map.nodes[62055534] = Treasure({
     location = L['in_water'],
     rewards = {
         Item({item = 199906}), -- Titan Relic
-        Item({item = 204985}), -- Barter Brick
+        Item({item = 204985}) -- Barter Brick
         -- Currency({id = 2245}) -- Flightstones
     },
     pois = {

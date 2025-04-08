@@ -1100,7 +1100,7 @@ local Scoutpack = Class('Scoutpack', Node, {
         Item({item = 198852, quest = 70407}), -- Bear Termination Orders
         Item({item = 198843, quest = 70392}), -- Emerald Gardens Explorer's Notes
         Item({item = 192055}), -- Dragon Isles Artifact
-        Currency({id = 2003}), -- Dragon Isles Supplies
+        Currency({id = 2003}) -- Dragon Isles Supplies
         -- Currency({id = 2245}) -- Flightstones
     }
 })
