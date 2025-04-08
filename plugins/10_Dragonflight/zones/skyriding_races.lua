@@ -130,11 +130,11 @@ local function AzureSpan_Rewards(b, c, r, s) -- basic, challenge, reverse challe
         Achievement({id = 17201, criteria = b, oneline = true}), -- reverse bronze
         Achievement({id = 17202, criteria = b, oneline = true}), -- reverse silver
         Achievement({id = 17203, criteria = b, oneline = true}), -- reverse gold
-        Section(L['dr_challenge']),
+        Section(L['sr_challenge']),
         Achievement({id = 18757, criteria = c, oneline = true}), -- challenge bronze
         Achievement({id = 18758, criteria = c, oneline = true}), -- challenge silver
         Achievement({id = 18759, criteria = c, oneline = true}), -- challenge gold
-        Spacer(), Section(L['dr_reverse_challenge']),
+        Spacer(), Section(L['sr_reverse_challenge']),
         Achievement({id = 18757, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18758, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18759, criteria = r, oneline = true}), -- reverse challenge gold
@@ -234,11 +234,11 @@ local function ForbiddenReach_Rewards(b, c, r, s) -- basic, challenge, reverse c
         Achievement({id = 17288, criteria = b, oneline = true}), -- reverse bronze
         Achievement({id = 17289, criteria = b, oneline = true}), -- reverse silver
         Achievement({id = 17290, criteria = b, oneline = true}), -- reverse gold
-        Section(L['dr_challenge']),
+        Section(L['sr_challenge']),
         Achievement({id = 18779, criteria = c, oneline = true}), -- challenge bronze
         Achievement({id = 18780, criteria = c, oneline = true}), -- challenge silver
         Achievement({id = 18781, criteria = c, oneline = true}), -- challenge gold
-        Spacer(), Section(L['dr_reverse_challenge']),
+        Spacer(), Section(L['sr_reverse_challenge']),
         Achievement({id = 18779, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18780, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18781, criteria = r, oneline = true}), -- reverse challenge gold
@@ -341,11 +341,11 @@ local function OhnahranPlains_Rewards(b, c, r, s) -- basic, challenge, reverse c
         Achievement({id = 17198, criteria = b, oneline = true}), -- reverse bronze
         Achievement({id = 17199, criteria = b, oneline = true}), -- reverse silver
         Achievement({id = 17200, criteria = b, oneline = true}), -- reverse gold
-        Section(L['dr_challenge']),
+        Section(L['sr_challenge']),
         Achievement({id = 18754, criteria = c, oneline = true}), -- challenge bronze
         Achievement({id = 18755, criteria = c, oneline = true}), -- challenge silver
         Achievement({id = 18756, criteria = c, oneline = true}), -- challenge gold
-        Spacer(), Section(L['dr_reverse_challenge']),
+        Spacer(), Section(L['sr_reverse_challenge']),
         Achievement({id = 18754, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18755, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18756, criteria = r, oneline = true}), -- reverse challenge gold
@@ -404,7 +404,7 @@ OhnahranPlains.nodes[59933555] = SkyridingRace({
         Achievement({id = 15918, criteria = 5, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 5, oneline = true}), -- normal silver
         Achievement({id = 15920, criteria = 5, oneline = true}), -- normal gold
-        Section(L['dr_challenge']),
+        Section(L['sr_challenge']),
         Achievement({id = 18754, criteria = 11, oneline = true}), -- challenge bronze
         Achievement({id = 18755, criteria = 11, oneline = true}), -- challenge silver
         Achievement({id = 18756, criteria = 11, oneline = true}), -- challenge gold
@@ -420,7 +420,7 @@ OhnahranPlains.nodes[47487064] = SkyridingRace({
         Achievement({id = 15918, criteria = 6, oneline = true}), -- normal bronze
         Achievement({id = 15919, criteria = 6, oneline = true}), -- normal silver
         Achievement({id = 15920, criteria = 6, oneline = true}), -- normal gold
-        Section(L['dr_challenge']),
+        Section(L['sr_challenge']),
         Achievement({id = 18754, criteria = 12, oneline = true}), -- challenge bronze
         Achievement({id = 18755, criteria = 12, oneline = true}), -- challenge silver
         Achievement({id = 18756, criteria = 12, oneline = true}), -- challenge gold
@@ -445,11 +445,11 @@ OhnahranPlains.nodes[43746678] = SkyridingRace({
         Achievement({id = 17198, criteria = 5, oneline = true}), -- reverse bronze
         Achievement({id = 17199, criteria = 5, oneline = true}), -- reverse silver
         Achievement({id = 17200, criteria = 5, oneline = true}), -- reverse gold
-        Section(L['dr_challenge']),
+        Section(L['sr_challenge']),
         Achievement({id = 18754, criteria = 9, oneline = true}), -- challenge bronze
         Achievement({id = 18755, criteria = 9, oneline = true}), -- challenge silver
         Achievement({id = 18756, criteria = 9, oneline = true}), -- challenge gold
-        Spacer(), Section(L['dr_reverse_challenge']),
+        Spacer(), Section(L['sr_reverse_challenge']),
         Achievement({id = 18754, criteria = 10, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18755, criteria = 10, oneline = true}), -- reverse challenge silver
         Achievement({id = 18756, criteria = 10, oneline = true}), -- reverse challenge gold
@@ -487,11 +487,11 @@ local function Thaldraszus_Rewards(b, c, r, s) -- basic, challenge, reverse chal
         Achievement({id = 17204, criteria = b, oneline = true}), -- reverse bronze
         Achievement({id = 17205, criteria = b, oneline = true}), -- reverse silver
         Achievement({id = 17206, criteria = b, oneline = true}), -- reverse gold
-        Section(L['dr_challenge']),
+        Section(L['sr_challenge']),
         Achievement({id = 18760, criteria = c, oneline = true}), -- challenge bronze
         Achievement({id = 18761, criteria = c, oneline = true}), -- challenge silver
         Achievement({id = 18762, criteria = c, oneline = true}), -- challenge gold
-        Spacer(), Section(L['dr_reverse_challenge']),
+        Spacer(), Section(L['sr_reverse_challenge']),
         Achievement({id = 18760, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18761, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18762, criteria = r, oneline = true}), -- reverse challenge gold
@@ -591,11 +591,11 @@ local function WakingShores_Rewards(b, c, r, s) -- basic, challenge, reverse cha
         Achievement({id = 17195, criteria = b, oneline = true}), -- reverse bronze
         Achievement({id = 17196, criteria = b, oneline = true}), -- reverse silver
         Achievement({id = 17197, criteria = b, oneline = true}), -- reverse gold
-        Section(L['dr_challenge']),
+        Section(L['sr_challenge']),
         Achievement({id = 18748, criteria = c, oneline = true}), -- challenge bronze
         Achievement({id = 18749, criteria = c, oneline = true}), -- challenge silver
         Achievement({id = 18750, criteria = c, oneline = true}), -- challenge gold
-        Spacer(), Section(L['dr_reverse_challenge']),
+        Spacer(), Section(L['sr_reverse_challenge']),
         Achievement({id = 18748, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18749, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18750, criteria = r, oneline = true}), -- reverse challenge gold
@@ -633,11 +633,11 @@ WakingShores.nodes[47018558] = SkyridingRace({
         Achievement({id = 17195, criteria = 2, oneline = true}), -- reverse bronze
         Achievement({id = 17196, criteria = 2, oneline = true}), -- reverse silver
         Achievement({id = 17197, criteria = 2, oneline = true}), -- reverse gold
-        Section(L['dr_challenge']),
+        Section(L['sr_challenge']),
         Achievement({id = 18748, criteria = 15, oneline = true}), -- challenge bronze
         Achievement({id = 18749, criteria = 3, oneline = true}), -- challenge silver
         Achievement({id = 18750, criteria = 3, oneline = true}), -- challenge gold
-        Spacer(), Section(L['dr_reverse_challenge']),
+        Spacer(), Section(L['sr_reverse_challenge']),
         Achievement({id = 18748, criteria = 16, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18749, criteria = 4, oneline = true}), -- reverse challenge silver
         Achievement({id = 18750, criteria = 4, oneline = true}), -- reverse challenge gold
@@ -712,11 +712,11 @@ WakingShores.nodes[42599445] = SkyridingRace({
         Achievement({id = 17195, criteria = 8, oneline = true}), -- reverse bronze
         Achievement({id = 17196, criteria = 8, oneline = true}), -- reverse silver
         Achievement({id = 17197, criteria = 8, oneline = true}), -- reverse gold
-        Section(L['dr_challenge']),
+        Section(L['sr_challenge']),
         Achievement({id = 18748, criteria = 3, oneline = true}), -- challenge bronze
         Achievement({id = 18749, criteria = 15, oneline = true}), -- challenge silver
         Achievement({id = 18750, criteria = 15, oneline = true}), -- challenge gold
-        Spacer(), Section(L['dr_reverse_challenge']),
+        Spacer(), Section(L['sr_reverse_challenge']),
         Achievement({id = 18748, criteria = 4, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18749, criteria = 16, oneline = true}), -- reverse challenge silver
         Achievement({id = 18750, criteria = 16, oneline = true}), -- reverse challenge gold
@@ -755,11 +755,11 @@ local function ZaralekCavern_Rewards(b, c, r, s) -- basic, challenge, reverse ch
         Achievement({id = 17489, criteria = b, oneline = true}), -- reverse bronze
         Achievement({id = 17490, criteria = b, oneline = true}), -- reverse silver
         Achievement({id = 17491, criteria = b, oneline = true}), -- reverse gold
-        Section(L['dr_challenge']),
+        Section(L['sr_challenge']),
         Achievement({id = 18786, criteria = c, oneline = true}), -- challenge bronze
         Achievement({id = 18787, criteria = c, oneline = true}), -- challenge silver
         Achievement({id = 18788, criteria = c, oneline = true}), -- challenge gold
-        Spacer(), Section(L['dr_reverse_challenge']),
+        Spacer(), Section(L['sr_reverse_challenge']),
         Achievement({id = 18786, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 18787, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 18788, criteria = r, oneline = true}), -- reverse challenge gold
@@ -867,11 +867,11 @@ local function EmeraldDream_Rewards(b, c, r) -- basic, challenge, reverse challe
         Achievement({id = 19115, criteria = b, oneline = true}), -- reverse bronze
         Achievement({id = 19116, criteria = b, oneline = true}), -- reverse silver
         Achievement({id = 19117, criteria = b, oneline = true}), -- reverse gold
-        Section(L['dr_challenge']),
+        Section(L['sr_challenge']),
         Achievement({id = 19121, criteria = c, oneline = true}), -- challenge bronze
         Achievement({id = 19122, criteria = c, oneline = true}), -- challenge silver
         Achievement({id = 19123, criteria = c, oneline = true}), -- challenge gold
-        Spacer(), Section(L['dr_reverse_challenge']),
+        Spacer(), Section(L['sr_reverse_challenge']),
         Achievement({id = 19124, criteria = r, oneline = true}), -- reverse challenge bronze
         Achievement({id = 19125, criteria = r, oneline = true}), -- reverse challenge silver
         Achievement({id = 19126, criteria = r, oneline = true}), -- reverse challenge gold
