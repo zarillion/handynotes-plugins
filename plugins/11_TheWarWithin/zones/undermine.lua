@@ -293,7 +293,7 @@ map.nodes[60580989] = Rare({
 map.nodes[40002232] = Rare({
     id = 234480,
     note = format(L['complete_event'], 234819), -- Ragzy Cashgrab
-    quest = 86298,
+    quest = 90488, -- 86298
     vignette = 6689,
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
@@ -315,7 +315,7 @@ map.nodes[40002232] = Rare({
 map.nodes[32027652] = Rare({
     id = 234499,
     note = format(L['complete_event'], 234751), -- Noggenfogger Recall Technician
-    quest = 86307,
+    quest = 90489, -- 86307
     vignette = {6710, 6694},
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
@@ -337,7 +337,7 @@ map.nodes[32027652] = Rare({
 map.nodes[57207860] = Rare({
     id = 233471,
     note = format(L['complete_event'], 236035), -- Scrapminer Krazzik
-    quest = 85778,
+    quest = 90491, -- 85778
     vignette = {6667, 6752},
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
@@ -355,7 +355,7 @@ map.nodes[57207860] = Rare({
 map.nodes[64162556] = Rare({
     id = 233472,
     note = format(L['complete_event'], 234834), -- Boatwright Frankle
-    quest = 85777,
+    quest = 90490, -- 85777
     vignette = {6668, 6753},
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
@@ -373,7 +373,7 @@ map.nodes[64162556] = Rare({
 map.nodes[40209190] = Rare({
     id = 231310,
     note = format(L['complete_event'], 231329), -- De-Pollution Station X1119
-    quest = 90492,
+    quest = 90492, -- 85010
     vignette = {6613, 6614},
     requires = {
         ns.requirement.Reputation(2653, 6, true), -- The Cartels of Undermine

@@ -511,7 +511,7 @@ map.nodes[72002700] = Node({
         DC.GrottoNetherwingDrake.BarbedTail,
         DC.GrottoNetherwingDrake.ShortHorns,
         DC.GrottoNetherwingDrake.TripleSpikedCrest, Spacer(),
-        Currency({id = 2245}), -- Flightstones
+        -- Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
 })
