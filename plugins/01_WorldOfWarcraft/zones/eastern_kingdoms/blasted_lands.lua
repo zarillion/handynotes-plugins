@@ -103,7 +103,16 @@ map.nodes[60482959] = BLRare({id = 45257}) -- Mordak Nightbender
 map.nodes[32184441] = BLRare({id = 45262}) -- Narixxus the Doombringer
 map.nodes[49313534] = BLRare({id = 8300}) -- Ravage
 map.nodes[62003660] = BLRare({id = 8299}) -- Spiteflayer
-map.nodes[52404920] = BLRare({id = 7846}) -- Teremus the Devourer
+map.nodes[51364878] = BLRare({
+    id = 7846,
+    pois = {
+        ns.poi.Path({
+            57615140, 56955290, 55835413, 54475457, 53165403, 52235297,
+            51615166, 51325024, 51364878, 51654743, 52194617, 53144515,
+            54484473, 55954515, 56864618, 57504751, 57824902, 57785045, 57615140
+        })
+    }
+}) -- Teremus the Devourer
 
 map.nodes[33604960] = ns.node.AnniversaryRare({
     id = 121818,
