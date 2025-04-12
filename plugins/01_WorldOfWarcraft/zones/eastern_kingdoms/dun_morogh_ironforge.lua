@@ -57,22 +57,22 @@ new_tinkertown.nodes[29806660] = Rare({
     }
 }) -- Great Father Arctikus
 
-map.nodes[35204960] = Rare({
+ns.Map({id = 29}).nodes[32245270] = Rare({
     id = 1137,
-    note = 'in the grizzled den cave',
     rewards = {
         Transmog({item = 3008, type = L['cloak']}), -- Wendigo Fur Cloak
         Transmog({item = 3225, type = L['dagger']}) -- Bloodstained Knife
-    }
+    },
+    parent = {id = map.id, location = L['in_cave'], pois = {POI({49335208})}}
 }) -- Edan the Howler
 
-map.nodes[57003960] = Rare({
+ns.Map({id = 31}).nodes[54924013] = Rare({
     id = 1119,
-    note = 'in gol bolar qarry cave',
     rewards = {
         Transmog({item = 763, type = L['leather']}), -- Ice-Covered Bracers
         Transmog({item = 2254, type = L['2h_mace']}) -- Icepane Warhammer
-    }
+    },
+    parent = {id = map.id, location = L['in_cave'], pois = {POI({77875490})}}
 }) -- Hammerspine
 
 -------------------------------------------------------------------------------

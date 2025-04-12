@@ -102,7 +102,16 @@ map.nodes[46402660] = BLRare({
 map.nodes[60482959] = BLRare({id = 45257}) -- Mordak Nightbender
 map.nodes[32184441] = BLRare({id = 45262}) -- Narixxus the Doombringer
 map.nodes[49313534] = BLRare({id = 8300}) -- Ravage
-map.nodes[62003660] = BLRare({id = 8299}) -- Spiteflayer
+map.nodes[61284050] = BLRare({
+    id = 8299,
+    pois = {
+        ns.poi.Path({
+            63673316, 62353252, 61023286, 60043395, 59563531, 59393672,
+            59603814, 60233955, 61284050, 62774060, 63873979, 64573850,
+            64833702, 64783561, 64403428, 63673316
+        })
+    }
+}) -- Spiteflayer
 map.nodes[51364878] = BLRare({
     id = 7846,
     pois = {
