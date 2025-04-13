@@ -295,7 +295,7 @@ local WORLD_BOSS_ENCOUNTER_IDS = {
     } -- Rukhmar
 }
 
-ns.hook.Encounter({encounterIDs = WORLD_BOSS_ENCOUNTER_IDS})
+ns.hooks.encounter.Add(nil, WORLD_BOSS_ENCOUNTER_IDS)
 
 ---------------- SHOW / HIDE POI DOT AT RUKHMAR SPAWN LOCATION ----------------
 

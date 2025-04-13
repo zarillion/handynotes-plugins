@@ -760,32 +760,47 @@ map.nodes[67756834] = ForbiddenHoard()
 
 local FSV_PS = {
     ['all'] = {
-        Achievement({id = 17540, criteria = {58567, 58568, 58569, 58570}}), -- Under the Weather
-        Item({item = 199749, quest = 70753}), -- Primal Air Core
-        Item({item = 199691, quest = 70723}), -- Primal Earth Core
-        Item({item = 199750, quest = 70754}), -- Primal Fire Core
-        Item({item = 199748, quest = 70752}), -- Primal Water Core
-        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        note = L['gooey_snailemental_note'],
+        rewards = {
+            Achievement({id = 17540, criteria = {58567, 58568, 58569, 58570}}), -- Under the Weather
+            Item({item = 199749, quest = 70753}), -- Primal Air Core
+            Item({item = 199691, quest = 70723}), -- Primal Earth Core
+            Item({item = 199750, quest = 70754}), -- Primal Fire Core
+            Item({item = 199748, quest = 70752}), -- Primal Water Core
+            Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        }
     },
     [7408] = {
-        Achievement({id = 17540, criteria = 58567}), -- Under the Weather
-        Spacer(), Item({item = 199749, quest = 70753}), -- Primal Air Core
-        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        note = L['gooey_snailemental_note'],
+        rewards = {
+            Achievement({id = 17540, criteria = 58567}), -- Under the Weather
+            Spacer(), Item({item = 199749, quest = 70753}), -- Primal Air Core
+            Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        }
     }, -- Air
     [7409] = {
-        Achievement({id = 17540, criteria = 58568}), -- Under the Weather
-        Spacer(), Item({item = 199691, quest = 70723}), -- Primal Earth Core
-        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        note = L['gooey_snailemental_note'],
+        rewards = {
+            Achievement({id = 17540, criteria = 58568}), -- Under the Weather
+            Spacer(), Item({item = 199691, quest = 70723}), -- Primal Earth Core
+            Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        }
     }, -- Earth
     [7410] = {
-        Achievement({id = 17540, criteria = 58569}), -- Under the Weather
-        Spacer(), Item({item = 199750, quest = 70754}), -- Primal Fire Core
-        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        note = L['gooey_snailemental_note'],
+        rewards = {
+            Achievement({id = 17540, criteria = 58569}), -- Under the Weather
+            Spacer(), Item({item = 199750, quest = 70754}), -- Primal Fire Core
+            Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        }
     }, -- Fire
     [7411] = {
-        Achievement({id = 17540, criteria = 58570}), -- Under the Weather
-        Spacer(), Item({item = 199748, quest = 70752}), -- Primal Water Core
-        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        note = L['gooey_snailemental_note'],
+        rewards = {
+            Achievement({id = 17540, criteria = 58570}), -- Under the Weather
+            Spacer(), Item({item = 199748, quest = 70752}), -- Primal Water Core
+            Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        }
     } -- Water
 }
 
@@ -814,11 +829,7 @@ local FroststoneVaultPrimalStorm = Class('FroststoneVaultPrimalStorm',
 
 map.nodes[60103875] = FroststoneVaultPrimalStorm()
 
-ns.hook.AreaPoi({
-    group = ns.groups.FROSTSTONE_VAULT_STORM,
-    pois = FSV_PS,
-    note = L['gooey_snailemental_note']
-})
+ns.hooks.areapoi.Add(ns.groups.FROSTSTONE_VAULT_STORM, FSV_PS)
 
 -------------------------------------------------------------------------------
 ------------------------------- SMALL TREASURES -------------------------------
@@ -1012,10 +1023,7 @@ map.nodes[29265268] = Collectible({
     }
 }) -- Zskera Vaults
 
-ns.hook.AreaPoi({
-    group = ns.groups.ZSKERA_VAULTS,
-    pois = {[7414] = ZSKERA_VAULTS_REWARDS}
-})
+ns.hooks.areapoi.Add(ns.groups.ZSKERA_VAULTS, {[7414] = ZSKERA_VAULTS_REWARDS})
 
 ------------------------ RENEWED PROTO-DRAKE: ANTLERS -------------------------
 

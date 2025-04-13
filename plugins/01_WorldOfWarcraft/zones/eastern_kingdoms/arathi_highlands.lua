@@ -29,8 +29,9 @@ map.nodes[68606660] = Rare({
     }
 }) -- Nimar the Slayer
 
-map.nodes[15408880] = Rare({
+map.nodes[14198693] = Rare({
     id = 2779,
+    location = L['in_water'],
     rewards = {
         Transmog({item = 7484, type = L['leather']}), -- Ranger Wristguards
         Transmog({item = 9878, type = L['cloth']}) -- Sorcerer Hat

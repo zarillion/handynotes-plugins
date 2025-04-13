@@ -141,7 +141,7 @@ local EXCAVATION_POIS = {
     [8152] = map.nodes[26206546].rewards -- Nerathor (The Drowned Lair)
 }
 
-ns.hook.AreaPoiEvent({group = ns.groups.RARE, pois = EXCAVATION_POIS})
+ns.hooks.areapoievent.Add(ns.groups.RARE, EXCAVATION_POIS)
 
 ------------------------------- VYKRUL AND NAGA -------------------------------
 
@@ -497,6 +497,8 @@ map.nodes[60675264] = RunedStormChest()
 map.nodes[61076286] = RunedStormChest()
 map.nodes[61944401] = RunedStormChest()
 map.nodes[67956202] = RunedStormChest()
+map.nodes[49115830] = RunedStormChest()
+map.nodes[53774468] = RunedStormChest()
 
 map.nodes[51523734] = RunedStormChest({
     location = L['in_cave'],

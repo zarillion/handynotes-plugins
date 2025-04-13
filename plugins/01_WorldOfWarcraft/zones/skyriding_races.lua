@@ -189,29 +189,26 @@ UngoroCrater.nodes[53379308] = SkyridingRace({
 }) -- Un'Goro Crater Circuit
 
 local KALIMDOR_POIS = {
-    [7494] = 58181079, -- Fel Flyover
-    [7495] = 68836804, -- Winter Wander
-    [7496] = 56702790, -- Nordrassil Spiral
-    [7497] = 21905420, -- Hyjal Hotfoot
-    [7498] = 67202617, -- Rocketway Ride
-    [7499] = 37043058, -- Ashenvale Ambit
-    [7500] = 56906286, -- Durotar Tour
-    [7501] = 66778681, -- Webwinder Weave
-    [7502] = 28106328, -- Desolace Drift
-    [7503] = 41431300, -- Barrens Divide Dive
-    [7504] = 42809308, -- Razorfen Roundabout
-    [7505] = 09731735, -- Thousand Needles Thread
-    [7506] = 64125435, -- Feralas Ruins Ramble
-    [7507] = 39548419, -- Ahn'Qiraj Circuit
-    [7508] = 55764218, -- Uldum Tour
-    [7509] = 53379308 -- Un'Goro Crater Circuit
+    [7494] = Felwood.nodes[58181079], -- Fel Flyover
+    [7495] = Winterspring.nodes[68836804], -- Winter Wander
+    [7496] = Hyjal.nodes[56702790], -- Nordrassil Spiral
+    [7497] = Hyjal.nodes[21905420], -- Hyjal Hotfoot
+    [7498] = Azshara.nodes[67202617], -- Rocketway Ride
+    [7499] = Ashenvale.nodes[37043058], -- Ashenvale Ambit
+    [7500] = Durotar.nodes[56906286], -- Durotar Tour
+    [7501] = StonetalonMontains.nodes[66778681], -- Webwinder Weave
+    [7502] = Desolace.nodes[28106328], -- Desolace Drift
+    [7503] = SouthernBarrens.nodes[41431300], -- Barrens Divide Dive
+    [7504] = SouthernBarrens.nodes[42809308], -- Razorfen Roundabout
+    [7505] = ThousandNeedles.nodes[09731735], -- Thousand Needles Thread
+    [7506] = Feralas.nodes[64125435], -- Feralas Ruins Ramble
+    [7507] = Silithus.nodes[39548419], -- Ahn'Qiraj Circuit
+    [7508] = Uldum.nodes[55764218], -- Uldum Tour
+    [7509] = UngoroCrater.nodes[53379308] -- Un'Goro Crater Circuit
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    pois = KALIMDOR_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, KALIMDOR_POIS,
+    {showNote = true})
 
 -------------------------------------------------------------------------------
 ------------------------------- EASTERN KINGDOMS ------------------------------
@@ -284,11 +281,12 @@ local GurubashiGala = SkyridingRace({
     normal = {2542, 61, 56},
     advanced = {2558, 52, 49},
     reverse = {2574, 53, 50},
-    rewards = EasternKingdoms_Rewards(7)
+    rewards = EasternKingdoms_Rewards(7),
+    parent = StranglethornVale.id
 }) -- Gurubashi Gala
 
 NorthernStranglethorn.nodes[70102655] = GurubashiGala
-StranglethornVale.nodes[62691781] = GurubashiGala
+-- StranglethornVale.nodesx[62691781] = GurubashiGala
 
 DunMorogh.nodes[74133398] = SkyridingRace({
     label = '{quest:76445}',
@@ -319,11 +317,12 @@ local BootyBayBlast = SkyridingRace({
     normal = {2546, 68, 63},
     advanced = {2562, 60, 57},
     reverse = {2578, 59, 56},
-    rewards = EasternKingdoms_Rewards(11)
+    rewards = EasternKingdoms_Rewards(11),
+    parent = StranglethornVale.id
 }) -- Booty Bay Blast
 
 CapeOfStranglethorn.nodes[40417782] = BootyBayBlast
-StranglethornVale.nodes[37608240] = BootyBayBlast
+-- StranglethornVale.nodesx[37608240] = BootyBayBlast
 
 Badlands.nodes[67113676] = SkyridingRace({
     label = '{quest:76523}',
@@ -350,24 +349,21 @@ RedridgeMountains.nodes[40822500] = SkyridingRace({
 }) -- Redridge Rally
 
 local EASTERN_KINGDOMS_POIS = {
-    [7571] = 58611160, -- Gilneas Gambit
-    [7572] = 46921391, -- Loch Modan Loop
-    [7573] = 73244238, -- Searing Slalom
-    [7574] = 34797786, -- Twilight Terror
-    [7575] = 46227221, -- Deadwind Derby
-    [7576] = 64704879, -- Elwynn Forest Flash
-    [7577] = {62691781, 70102655}, -- Gurubashi Gala
-    [7578] = 74133398, -- Ironforge Interceptor
-    [7579] = 62662616, -- Blasted Lands Bolt
-    [7580] = 34753792, -- Plaguelands Plunge
-    [7581] = {37608240, 40417782}, -- Booty Bay Blast
-    [7582] = 67113676, -- Fuselight Night Flight
-    [7583] = 72892784, -- Krazzworks Klash
-    [7584] = 40822500 -- Redridge Rally
+    [7571] = Gilneas.nodes[58611160], -- Gilneas Gambit
+    [7572] = LochModan.nodes[46921391], -- Loch Modan Loop
+    [7573] = SearingGorge.nodes[73244238], -- Searing Slalom
+    [7574] = TwilightHighlands.nodes[34797786], -- Twilight Terror
+    [7575] = DeadwindPass.nodes[46227221], -- Deadwind Derby
+    [7576] = ElwynnForest.nodes[64704879], -- Elwynn Forest Flash
+    [7577] = NorthernStranglethorn.nodes[70102655], -- Gurubashi Gala
+    [7578] = DunMorogh.nodes[74133398], -- Ironforge Interceptor
+    [7579] = BlastedLands.nodes[62662616], -- Blasted Lands Bolt
+    [7580] = EasternPlaguelands.nodes[34753792], -- Plaguelands Plunge
+    [7581] = CapeOfStranglethorn.nodes[40417782], -- Booty Bay Blast
+    [7582] = Badlands.nodes[67113676], -- Fuselight Night Flight
+    [7583] = TwilightHighlands.nodes[72892784], -- Krazzworks Klash
+    [7584] = RedridgeMountains.nodes[40822500] -- Redridge Rally
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    pois = EASTERN_KINGDOMS_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, EASTERN_KINGDOMS_POIS,
+    {showNote = true})

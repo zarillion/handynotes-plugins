@@ -57,16 +57,13 @@ Uldum.nodes[55764218] = SkyridingRace({
 }) -- Uldum Tour
 
 local KALIMDOR_POIS = {
-    [7496] = 56702790, -- Nordrassil Spiral
-    [7497] = 21905420, -- Hyjal Hotfoot
-    [7508] = 55764218 -- Uldum Tour
+    [7496] = Hyjal.nodes[56702790], -- Nordrassil Spiral
+    [7497] = Hyjal.nodes[21905420], -- Hyjal Hotfoot
+    [7508] = Uldum.nodes[55764218] -- Uldum Tour
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    pois = KALIMDOR_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, KALIMDOR_POIS,
+    {showNote = true})
 
 -------------------------------------------------------------------------------
 ------------------------------- EASTERN KINGDOMS ------------------------------
@@ -103,12 +100,9 @@ TwilightHighlands.nodes[72892784] = SkyridingRace({
 }) -- Krazzworks Klash
 
 local EASTERN_KINGDOMS_POIS = {
-    [7574] = 34797786, -- Twilight Terror
-    [7583] = 72892784 -- Krazzworks Klash
+    [7574] = TwilightHighlands.nodes[34797786], -- Twilight Terror
+    [7583] = TwilightHighlands.nodes[72892784] -- Krazzworks Klash
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    pois = EASTERN_KINGDOMS_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, EASTERN_KINGDOMS_POIS,
+    {showNote = true})

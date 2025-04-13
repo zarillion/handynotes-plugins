@@ -1545,7 +1545,7 @@ local ASSAULTS = {
     [KYRIAN.assault] = KYRIAN_ASSAULT_REWARDS
 }
 
-ns.hook.Legend({questIDs = ASSAULTS})
+ns.hooks.legend.Add(nil, ASSAULTS)
 
 -------------------------------------------------------------------------------
 

@@ -498,4 +498,4 @@ local WORLD_BOSS_ENCOUNTER_IDS = {
     [861] = {Achievement({id = 8533})} -- Ordos, Fire-God of the Yaungol
 }
 
-ns.hook.Encounter({encounterIDs = WORLD_BOSS_ENCOUNTER_IDS})
+ns.hooks.encounter.Add(nil, WORLD_BOSS_ENCOUNTER_IDS)
