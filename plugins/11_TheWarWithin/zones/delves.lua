@@ -692,7 +692,6 @@ local DELVE_REWARDS = {
     }
 }
 
-
 local DELVE_AREA_POIS = {
     -- NORMAL DELVES ----------------------------------------------------------
     [7863] = DELVE_REWARDS['earthcrawl_mines'],

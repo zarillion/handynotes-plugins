@@ -92,7 +92,9 @@ end
 
 local function renderTooltip(self, POI)
 
-    if POI.group and not POI.group:GetDisplay(self:GetMap().mapID) then return end
+    if POI.group and not POI.group:GetDisplay(self:GetMap().mapID) then
+        return
+    end
 
     -- Add LABEL to tooltip if provided/enabled
     if POI.showLabel and POI.label then
@@ -294,6 +296,4 @@ end
 
 ns.HookAllPOIS = HookAllPOIS
 
-ns.hook = {
-    Vignette = Vignette
-}
+ns.hook = {Vignette = Vignette}
