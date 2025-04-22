@@ -1,5 +1,6 @@
 # v118
 
+* Update Undermine reputation reward amounts
 * Localization updates: esES, ruRU, zhCN
 
 # v117
