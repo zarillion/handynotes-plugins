@@ -1,7 +1,9 @@
-## Interface: 110100
+## Interface: 110105
 ## Title: HandyNotes: Legion
+## Title-ruRU: HandyNotes: |cFF69CCF0Легион|r
 ## Version: 0
 ## Notes: Legion Notes
+## Notes-ruRU: Заметки: |cFF69CCF0Легион|r
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3

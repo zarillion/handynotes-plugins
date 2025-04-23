@@ -1,7 +1,9 @@
-## Interface: 110100
+## Interface: 110105
 ## Title: HandyNotes: Dragonflight
+## Title-ruRU: HandyNotes: |cFF69CCF0Драконы|r
 ## Version: 0
 ## Notes: Dragonflight Notes
+## Notes-ruRU: Заметки: |cFF69CCF0Драконы|r
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3

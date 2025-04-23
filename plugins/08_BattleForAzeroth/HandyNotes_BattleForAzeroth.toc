@@ -1,7 +1,9 @@
-## Interface: 110100
+## Interface: 110105
 ## Title: HandyNotes: Battle for Azeroth
+## Title-ruRU: HandyNotes: |cFF69CCF0Битва за Азерот|r
 ## Version: 0
 ## Notes: Battle for Azeroth Notes
+## Notes-ruRU: Заметки: |cFF69CCF0Битва за Азерот|r
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3

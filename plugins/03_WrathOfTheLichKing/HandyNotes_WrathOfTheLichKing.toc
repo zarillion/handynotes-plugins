@@ -1,7 +1,9 @@
-## Interface: 110100
+## Interface: 110105
 ## Title: HandyNotes: Wrath of the Lich King
+## Title-ruRU: HandyNotes: |cFF69CCF0Гнев Короля-лича|r
 ## Version: 0
 ## Notes: Wrath of the Lich King Notes
+## Notes-ruRU: Заметки: |cFF69CCF0Гнев Короля-лича|r
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3

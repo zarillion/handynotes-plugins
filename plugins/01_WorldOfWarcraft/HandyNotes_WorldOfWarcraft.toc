@@ -1,7 +1,9 @@
-## Interface: 110100
+## Interface: 110105
 ## Title: HandyNotes: World of Warcraft
+## Title-ruRU: HandyNotes: |cFF69CCF0Original Classic|r
 ## Version: 0
 ## Notes: World of Warcraft Original Zone Notes
+## Notes-ruRU: Заметки: |cFF69CCF0Original Classic|r
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3

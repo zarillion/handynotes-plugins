@@ -1,7 +1,9 @@
-## Interface: 110100
+## Interface: 110105
 ## Title: HandyNotes: The Burning Crusade
+## Title-ruRU: HandyNotes: |cFF69CCF0The BC|r
 ## Version: 0
 ## Notes: Burning Crusade Notes
+## Notes-ruRU: Заметки: |cFF69CCF0The BC|r
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3

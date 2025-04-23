@@ -1,7 +1,9 @@
-## Interface: 110100
+## Interface: 110105
 ## Title: HandyNotes: Cataclysm
+## Title-ruRU: HandyNotes: |cFF69CCF0Катаклизм|r
 ## Version: 0
 ## Notes: Cataclysm Notes
+## Notes-ruRU: Заметки: |cFF69CCF0Катаклизм|r
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3
