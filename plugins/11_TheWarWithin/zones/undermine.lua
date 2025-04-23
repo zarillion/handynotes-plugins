@@ -273,9 +273,7 @@ local function ChosenCartelReputation(gain, quest)
     local cartels = {84951, 84952, 84954, 84953}
     local factions = {2673, 2677, 2675, 2671}
     -- Check if prerequisite quest "Contract Work" is completed
-    if not C_QuestLog.IsQuestFlaggedCompleted(84948) then
-        return nil
-    end
+    if not C_QuestLog.IsQuestFlaggedCompleted(84948) then return nil end
     -- Check which cartel contract is completed and return corresponding reputation
     for i = 1, #cartels do
         if C_QuestLog.IsQuestFlaggedCompleted(cartels[i]) then
