@@ -268,29 +268,24 @@ map.nodes[60580989] = Rare({
 
 -------------------------------- CHOSEN CARTEL --------------------------------
 
--- local function ChosenCartel()
---     local cartels = { -- {[1]quest, [2]faction, [3]currency, [4]finders-fee}
---         {84951,2673,3169,236764}, -- Bilgewater Cartel
---         {84952,2677,3173,236689}, -- Steamwheedle Cartel
---         {84954,2675,3171,236763}, -- Blackwater Cartel
---         {84953,2671,3176,236765}, -- Venture Company
---         -- {nil,nil,3221,nil}, -- Goblin Cartels Reputation
---     }
---     if not C_QuestLog.IsQuestFlaggedCompleted(84948) -- Contract Work
---     then return nil end
---     for i = 1, #cartels do
---         if C_QuestLog.IsQuestFlaggedCompleted(cartels[i][1])
---         then return cartels[i]
---         end
---     end
---     return {nil,nil,3221,nil}
--- end
-
--- local cartel = ChosenCartel()
+local function ChosenCartelReputation(gain, quest)
+    -- {[1]Bilgewater, [2]Steamwheedle, [3]Blackwater, [4]Venture}
+    local cartels = {84951, 84952, 84954, 84953}
+    local factions = {2673, 2677, 2675, 2671}
+    if not C_QuestLog.IsQuestFlaggedCompleted(84948) -- Contract Work
+    then return nil end
+    for i = 1, #cartels do
+        if C_QuestLog.IsQuestFlaggedCompleted(cartels[i])
+        then
+            return Reputation({id = factions[i], gain = gain, quest = quest})
+        end
+    end
+    return nil
+end
 
 -------------------------------------------------------------------------------
 
-map.nodes[40002232] = Rare({
+local Magno = Class('Magno', Rare, {
     id = 234480,
     note = format(L['complete_event'], 234819), -- Ragzy Cashgrab
     quest = 90488, -- 86298
@@ -298,9 +293,14 @@ map.nodes[40002232] = Rare({
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
     },
-    rewards = {
+    sublabel = format(L['requires_ally'], 2673) -- Bilgewater Cartel
+}) -- M.A.G.N.O.
+
+function Magno.getters:rewards()
+    return {
         Achievement({id = 41216, criteria = 71608}),
         Reputation({id = 2653, gain = 100, quest = 86298}), -- The Cartels of Undermine
+        ChosenCartelReputation(300, 86298), -- Aligned Cartel
         Transmog({item = 235835, type = L['cloak']}), -- Braided Wire Wrap
         Transmog({item = 235836, type = L['2h_sword']}), -- Gas-Powered Chainblade
         Spacer(), Section(L['shared_drops']),
@@ -308,11 +308,12 @@ map.nodes[40002232] = Rare({
         Transmog({item = 235315, slot = L['plate']}), -- Rocketstep Boots
         Transmog({item = 235322, slot = L['mail']}), -- Junkyard Clawguards
         Transmog({item = 235351, slot = L['1h_sword']}) -- Hypersteel CX4 Greatsword
-    },
-    sublabel = format(L['requires_ally'], 2673) -- Bilgewater Cartel
-}) -- M.A.G.N.O.
+    }
+end
 
-map.nodes[32027652] = Rare({
+map.nodes[40002232] = Magno()
+
+local Giovante = Class('Giovante', Rare, {
     id = 234499,
     note = format(L['complete_event'], 234751), -- Noggenfogger Recall Technician
     quest = 90489, -- 86307
@@ -320,9 +321,14 @@ map.nodes[32027652] = Rare({
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
     },
-    rewards = {
+    sublabel = format(L['requires_ally'], 2677) -- Steamwheedle Cartel
+}) -- Giovante
+
+function Giovante.getters:rewards()
+    return {
         Achievement({id = 41216, criteria = 71609}),
         Reputation({id = 2653, gain = 100, quest = 86307}), -- The Cartels of Undermine
+        ChosenCartelReputation(300, 86307), -- Aligned Cartel
         Transmog({item = 235823, type = L['leather']}), -- Scrap-Plated Pants
         Transmog({item = 235824, type = L['gun']}), -- Flame Sputterer
         Spacer(), Section(L['shared_drops']),
@@ -330,11 +336,12 @@ map.nodes[32027652] = Rare({
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
         Transmog({item = 235327, slot = L['leather']}), -- Mend-and-Match Shoulderpads
         Transmog({item = 235347, slot = L['dagger']}) -- 100% Sharp Glimmerblade
-    },
-    sublabel = format(L['requires_ally'], 2677) -- Steamwheedle Cartel
-}) -- Giovante
+    }
+end
 
-map.nodes[57207860] = Rare({
+map.nodes[32027652] = Giovante()
+
+local Scrapchewer = Class('Scrapchewer', Rare, {
     id = 233471,
     note = format(L['complete_event'], 236035), -- Scrapminer Krazzik
     quest = 90491, -- 85778
@@ -342,17 +349,23 @@ map.nodes[57207860] = Rare({
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
     },
-    rewards = {
-        Achievement({id = 41216, criteria = 71610}),
-        Reputation({id = 2653, gain = 100, quest = 85778}), -- The Cartels of Undermine
-        Transmog({item = 235829, type = L['mail']}), -- Welded Scrap Hood
-        Transmog({item = 235830, type = L['mail']}), -- Unstable Missilecaps
-        Transmog({item = 235831, type = L['1h_sword']}) -- Battery-Powered Longshank
-    },
     sublabel = format(L['requires_ally'], 2671) -- Venture Company
 }) -- Scrapchewer
 
-map.nodes[64162556] = Rare({
+function Scrapchewer.getters:rewards()
+    return {
+        Achievement({id = 41216, criteria = 71610}),
+        Reputation({id = 2653, gain = 100, quest = 85778}), -- The Cartels of Undermine
+        ChosenCartelReputation(300, 85778), -- Aligned Cartel
+        Transmog({item = 235829, type = L['mail']}), -- Welded Scrap Hood
+        Transmog({item = 235830, type = L['mail']}), -- Unstable Missilecaps
+        Transmog({item = 235831, type = L['1h_sword']}) -- Battery-Powered Longshank
+    }
+end
+
+map.nodes[57207860] = Scrapchewer()
+
+local Volstrike = Class('Volstrike', Rare, {
     id = 233472,
     note = format(L['complete_event'], 234834), -- Boatwright Frankle
     quest = 90490, -- 85777
@@ -360,17 +373,23 @@ map.nodes[64162556] = Rare({
     requires = {
         ns.requirement.Reputation(2653, 6, true) -- The Cartels of Undermine
     },
-    rewards = {
-        Achievement({id = 41216, criteria = 71611}),
-        Reputation({id = 2653, gain = 100, quest = 85777}), -- The Cartels of Undermine
-        Transmog({item = 235826, type = L['cloth']}), -- Electric Wristrags
-        Transmog({item = 235827, type = L['leather']}), -- Statically Charged Vest
-        Transmog({item = 235828, type = L['staff']}) -- Electrocution Warning
-    },
     sublabel = format(L['requires_ally'], 2675) -- Blackwater Cartel
 }) -- Volstrike the Charged
 
-map.nodes[40209190] = Rare({
+function Volstrike.getters:rewards()
+    return {
+        Achievement({id = 41216, criteria = 71611}),
+        Reputation({id = 2653, gain = 100, quest = 85777}), -- The Cartels of Undermine
+        ChosenCartelReputation(300, 85777), -- Aligned Cartel
+        Transmog({item = 235826, type = L['cloth']}), -- Electric Wristrags
+        Transmog({item = 235827, type = L['leather']}), -- Statically Charged Vest
+        Transmog({item = 235828, type = L['staff']}) -- Electrocution Warning
+    }
+end
+
+map.nodes[64162556] = Volstrike()
+
+local DarkfusePrecipitant = Class('DarkfusePrecipitant', Rare, {
     id = 231310,
     note = format(L['complete_event'], 231329), -- De-Pollution Station X1119
     quest = 90492, -- 85010
@@ -378,16 +397,22 @@ map.nodes[40209190] = Rare({
     requires = {
         ns.requirement.Reputation(2653, 6, true), -- The Cartels of Undermine
         ns.requirement.Item(229823) -- Canister of Darkfuse Solution
-    },
-    rewards = {
+    }
+}) -- Darkfuse Precipitant
+
+function DarkfusePrecipitant.getters:rewards()
+    return {
         Achievement({id = 41216, criteria = 71612}),
         Reputation({id = 2653, gain = 100, quest = 85010}), -- The Cartels of Undermine
+        ChosenCartelReputation(300, 85010), -- Aligned Cartel
         Transmog({item = 235832, type = L['cloak']}), -- Oil-Splattered Cloak
         Transmog({item = 235833, type = L['polearm']}), -- Serrated Slickgrip
         Transmog({item = 235834, type = L['warglaive']}), -- Rocketgrip Turboslicer
         Mount({item = 229955, id = 2293}) -- Darkfuse Spy-Eye
     }
-}) -- Darkfuse Precipitant
+end
+
+map.nodes[40209190] = DarkfusePrecipitant()
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
