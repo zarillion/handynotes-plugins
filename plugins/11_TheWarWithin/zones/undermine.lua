@@ -270,25 +270,18 @@ map.nodes[60580989] = Rare({
 
 local function ChosenCartelReputation(gain, quest)
     -- Cartel quest IDs: [1] Bilgewater, [2] Steamwheedle, [3] Blackwater, [4] Venture
-    local cartels = { 84951, 84952, 84954, 84953 }
-    local factions = { 2673, 2677, 2675, 2671 }
-
+    local cartels = {84951, 84952, 84954, 84953}
+    local factions = {2673, 2677, 2675, 2671}
     -- Check if prerequisite quest "Contract Work" is completed
     if not C_QuestLog.IsQuestFlaggedCompleted(84948) then
         return nil
     end
-
     -- Check which cartel contract is completed and return corresponding reputation
     for i = 1, #cartels do
         if C_QuestLog.IsQuestFlaggedCompleted(cartels[i]) then
-            return Reputation({
-                id = factions[i],
-                gain = gain,
-                quest = quest
-            })
+            return Reputation({id = factions[i], gain = gain, quest = quest})
         end
     end
-
     -- Return nil if no cartel contracts are completed
     return nil
 end
