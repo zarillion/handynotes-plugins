@@ -302,8 +302,8 @@ local Magno = Class('Magno', Rare, {
 function Magno.getters:rewards()
     return {
         Achievement({id = 41216, criteria = 71608}),
-        Reputation({id = 2653, gain = 100, quest = 86298}), -- The Cartels of Undermine
-        ChosenCartelReputation(300, 86298), -- Aligned Cartel
+        Reputation({id = 2653, gain = 100, quest = 90488}), -- The Cartels of Undermine
+        ChosenCartelReputation(300, 90488), -- Aligned Cartel
         Transmog({item = 235835, type = L['cloak']}), -- Braided Wire Wrap
         Transmog({item = 235836, type = L['2h_sword']}), -- Gas-Powered Chainblade
         Spacer(), Section(L['shared_drops']),
@@ -330,8 +330,8 @@ local Giovante = Class('Giovante', Rare, {
 function Giovante.getters:rewards()
     return {
         Achievement({id = 41216, criteria = 71609}),
-        Reputation({id = 2653, gain = 100, quest = 86307}), -- The Cartels of Undermine
-        ChosenCartelReputation(300, 86307), -- Aligned Cartel
+        Reputation({id = 2653, gain = 100, quest = 90489}), -- The Cartels of Undermine
+        ChosenCartelReputation(300, 90489), -- Aligned Cartel
         Transmog({item = 235823, type = L['leather']}), -- Scrap-Plated Pants
         Transmog({item = 235824, type = L['gun']}), -- Flame Sputterer
         Spacer(), Section(L['shared_drops']),
@@ -358,8 +358,8 @@ local Scrapchewer = Class('Scrapchewer', Rare, {
 function Scrapchewer.getters:rewards()
     return {
         Achievement({id = 41216, criteria = 71610}),
-        Reputation({id = 2653, gain = 100, quest = 85778}), -- The Cartels of Undermine
-        ChosenCartelReputation(300, 85778), -- Aligned Cartel
+        Reputation({id = 2653, gain = 100, quest = 90491}), -- The Cartels of Undermine
+        ChosenCartelReputation(300, 90491), -- Aligned Cartel
         Transmog({item = 235829, type = L['mail']}), -- Welded Scrap Hood
         Transmog({item = 235830, type = L['mail']}), -- Unstable Missilecaps
         Transmog({item = 235831, type = L['1h_sword']}) -- Battery-Powered Longshank
@@ -382,8 +382,8 @@ local Volstrike = Class('Volstrike', Rare, {
 function Volstrike.getters:rewards()
     return {
         Achievement({id = 41216, criteria = 71611}),
-        Reputation({id = 2653, gain = 100, quest = 85777}), -- The Cartels of Undermine
-        ChosenCartelReputation(300, 85777), -- Aligned Cartel
+        Reputation({id = 2653, gain = 100, quest = 90490}), -- The Cartels of Undermine
+        ChosenCartelReputation(300, 90490), -- Aligned Cartel
         Transmog({item = 235826, type = L['cloth']}), -- Electric Wristrags
         Transmog({item = 235827, type = L['leather']}), -- Statically Charged Vest
         Transmog({item = 235828, type = L['staff']}) -- Electrocution Warning
@@ -406,8 +406,8 @@ local DarkfusePrecipitant = Class('DarkfusePrecipitant', Rare, {
 function DarkfusePrecipitant.getters:rewards()
     return {
         Achievement({id = 41216, criteria = 71612}),
-        Reputation({id = 2653, gain = 100, quest = 85010}), -- The Cartels of Undermine
-        ChosenCartelReputation(300, 85010), -- Aligned Cartel
+        Reputation({id = 2653, gain = 100, quest = 90492}), -- The Cartels of Undermine
+        ChosenCartelReputation(300, 90492), -- Aligned Cartel
         Transmog({item = 235832, type = L['cloak']}), -- Oil-Splattered Cloak
         Transmog({item = 235833, type = L['polearm']}), -- Serrated Slickgrip
         Transmog({item = 235834, type = L['warglaive']}), -- Rocketgrip Turboslicer
