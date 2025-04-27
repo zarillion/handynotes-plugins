@@ -366,6 +366,9 @@ end
 
 function Item:IsObtained()
     if self.quest then return C_QuestLog.IsQuestFlaggedCompleted(self.quest) end
+    if self.quest_account then
+        return C_QuestLog.IsQuestFlaggedCompletedOnAccount(self.quest_account)
+    end
     if self.bag then return ns.PlayerHasItem(self.item) end
     return true
 end
@@ -395,6 +398,10 @@ function Item:GetStatus()
         return format('(%s)', self.status)
     elseif self.quest then
         local completed = C_QuestLog.IsQuestFlaggedCompleted(self.quest)
+        return completed and Green(L['completed']) or Red(L['incomplete'])
+    elseif self.quest_account then
+        local completed = C_QuestLog.IsQuestFlaggedCompletedOnAccount(
+            self.quest_account)
         return completed and Green(L['completed']) or Red(L['incomplete'])
     elseif self.weekly then
         local completed = C_QuestLog.IsQuestFlaggedCompleted(self.weekly)

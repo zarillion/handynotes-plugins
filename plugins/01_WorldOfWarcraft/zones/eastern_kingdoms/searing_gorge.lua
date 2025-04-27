@@ -52,7 +52,7 @@ map.nodes[71201780] = Rare({
 
 map.nodes[35005200] = Rare({
     id = 51010,
-    location = L['in_cave'],
+    location = L['in_small_cave'],
     rewards = {
         Transmog({item = 9962, type = L['mail']}), -- Warmonger's Greaves
         Transmog({item = 9945, type = L['cloth']}) -- Abjurer's Sash

@@ -1,5 +1,11 @@
+# v119
+
+* Localization updates:
+
 # v118
 
+* Added Algari Delver achievements.
+* Numerous updates to the Undermine zone.
 * Localization updates: esES, ruRU, zhCN
 
 # v117
