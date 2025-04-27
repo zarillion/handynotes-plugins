@@ -206,20 +206,16 @@ AzureSpan.nodes[42275677] = SkyridingRace({
 }) -- Archive Ambit
 
 local AZURE_SPAN_POIS = {
-    [7760] = 42275677, -- Archive Ambit
-    [7756] = 20952262, -- Azure Span Slalom
-    [7755] = 47914078, -- Azure Span Sprint
-    [7759] = 48473579, -- Frostland Flyover
-    [7758] = 16584937, -- Iskaara Tour
-    [7757] = 71292464 -- Vakthros Ascent
+    [7760] = AzureSpan.nodes[42275677], -- Archive Ambit
+    [7756] = AzureSpan.nodes[20952262], -- Azure Span Slalom
+    [7755] = AzureSpan.nodes[47914078], -- Azure Span Sprint
+    [7759] = AzureSpan.nodes[48473579], -- Frostland Flyover
+    [7758] = AzureSpan.nodes[16584937], -- Iskaara Tour
+    [7757] = AzureSpan.nodes[71292464] -- Vakthros Ascent
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    showSublabel = true,
-    pois = AZURE_SPAN_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, AZURE_SPAN_POIS,
+    {showNote = true, showSublabel = true})
 
 ------------------------------- FORBIDDEN REACH -------------------------------
 
@@ -313,20 +309,16 @@ ForbiddenReach.nodes[49426006] = SkyridingRace({
 }) -- Forbidden Reach Rush
 
 local FORBIDDEN_REACH_POIS = {
-    [7769] = 63095195, -- Aerie Chasm Cruise
-    [7771] = 41361455, -- Caldera Coaster
-    [7772] = 49426006, -- Forbidden Reach Rush
-    [7768] = 31326573, -- Morqut Ascent
-    [7770] = 63658406, -- Southern Reach Route
-    [7767] = 76136563 -- Stormsunder Crater Circuit
+    [7769] = ForbiddenReach.nodes[63095195], -- Aerie Chasm Cruise
+    [7771] = ForbiddenReach.nodes[41361455], -- Caldera Coaster
+    [7772] = ForbiddenReach.nodes[49426006], -- Forbidden Reach Rush
+    [7768] = ForbiddenReach.nodes[31326573], -- Morqut Ascent
+    [7770] = ForbiddenReach.nodes[63658406], -- Southern Reach Route
+    [7767] = ForbiddenReach.nodes[76136563] -- Stormsunder Crater Circuit
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    showSublabel = true,
-    pois = FORBIDDEN_REACH_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, FORBIDDEN_REACH_POIS,
+    {showNote = true, showSublabel = true})
 
 ------------------------------- OHNAHRAN PLAINS -------------------------------
 
@@ -458,21 +450,17 @@ OhnahranPlains.nodes[43746678] = SkyridingRace({
 }) -- River Rapids Route
 
 local OHNAHRAN_PLAINS_POIS = {
-    [7751] = 25715508, -- Emerald Gardens Ascent
-    [7749] = 86263583, -- Fen Flythrough
-    [7753] = 59933555, -- Maruukai Dash
-    [7754] = 47487064, -- Mirror of the Sky Dash
-    [7750] = 80897220, -- Ravine River Run
-    [7752] = 43746678, -- River Rapids Route
-    [7748] = 63743051 -- Sundapple Copse Circuit
+    [7751] = OhnahranPlains.nodes[25715508], -- Emerald Gardens Ascent
+    [7749] = OhnahranPlains.nodes[86263583], -- Fen Flythrough
+    [7753] = OhnahranPlains.nodes[59933555], -- Maruukai Dash
+    [7754] = OhnahranPlains.nodes[47487064], -- Mirror of the Sky Dash
+    [7750] = OhnahranPlains.nodes[80897220], -- Ravine River Run
+    [7752] = OhnahranPlains.nodes[43746678], -- River Rapids Route
+    [7748] = OhnahranPlains.nodes[63743051] -- Sundapple Copse Circuit
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    showSublabel = true,
-    pois = OHNAHRAN_PLAINS_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, OHNAHRAN_PLAINS_POIS,
+    {showNote = true, showSublabel = true})
 
 --------------------------------- THALDRASZUS ---------------------------------
 
@@ -563,20 +551,16 @@ Thaldraszus.nodes[58053361] = SkyridingRace({
 }) -- Caverns Criss-Cross
 
 local THALDRASZUS_POIS = {
-    [7764] = 60294159, -- Academy Ascent
-    [7766] = 58053361, -- Caverns Criss-Cross
-    [7763] = 37654893, -- Cliffside Circuit
-    [7761] = 57777501, -- Flowing Forest Flight
-    [7765] = 39517619, -- Garden Gallivant
-    [7762] = 57236690 -- Tyrhold Trial
+    [7764] = Thaldraszus.nodes[60294159], -- Academy Ascent
+    [7766] = Thaldraszus.nodes[58053361], -- Caverns Criss-Cross
+    [7763] = Thaldraszus.nodes[37654893], -- Cliffside Circuit
+    [7761] = Thaldraszus.nodes[57777501], -- Flowing Forest Flight
+    [7765] = Thaldraszus.nodes[39517619], -- Garden Gallivant
+    [7762] = Thaldraszus.nodes[57236690] -- Tyrhold Trial
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    showSublabel = true,
-    pois = THALDRASZUS_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, THALDRASZUS_POIS,
+    {showNote = true, showSublabel = true})
 
 -------------------------------- WAKING SHORES --------------------------------
 
@@ -725,22 +709,18 @@ WakingShores.nodes[42599445] = SkyridingRace({
 }) -- Wild Preserve Circuit
 
 local WAKING_SHORSE_POIS = {
-    [7744] = 23268430, -- Apex Canopy River Run
-    [7743] = 41976730, -- Emberflow Flight
-    [7741] = 62777400, -- Flashfrost Flyover
-    [7740] = 63327090, -- Ruby Lifeshrine Loop
-    [7745] = 55454113, -- Uktulut Coaster
-    [7747] = 42599445, -- Wild Preserve Circuit
-    [7742] = 47018558, -- Wild Preserve Slalom
-    [7746] = 73203393 -- Wingrest Roundabout
+    [7744] = WakingShores.nodes[23268430], -- Apex Canopy River Run
+    [7743] = WakingShores.nodes[41976730], -- Emberflow Flight
+    [7741] = WakingShores.nodes[62777400], -- Flashfrost Flyover
+    [7740] = WakingShores.nodes[63327090], -- Ruby Lifeshrine Loop
+    [7745] = WakingShores.nodes[55454113], -- Uktulut Coaster
+    [7747] = WakingShores.nodes[42599445], -- Wild Preserve Circuit
+    [7742] = WakingShores.nodes[47018558], -- Wild Preserve Slalom
+    [7746] = WakingShores.nodes[73203393] -- Wingrest Roundabout
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    showSublabel = true,
-    pois = WAKING_SHORSE_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, WAKING_SHORSE_POIS,
+    {showNote = true, showSublabel = true})
 
 ------------------------------- ZARALEK CAVERN --------------------------------
 
@@ -839,20 +819,16 @@ ZaralekCavern.nodes[51264667] = SkyridingRace({
 }) -- Sulfur Sprint
 
 local ZARALEK_CAVERN_POIS = {
-    [7773] = 38756061, -- Crystal Circuit
-    [7774] = 39054999, -- Caldera Cruise
-    [7775] = 54502371, -- Brimstone Scramble
-    [7776] = 58724503, -- Shimmering Slalom
-    [7777] = 58155759, -- Loamm Roamm
-    [7778] = 51264667 -- Sulfur Sprint
+    [7773] = ZaralekCavern.nodes[38756061], -- Crystal Circuit
+    [7774] = ZaralekCavern.nodes[39054999], -- Caldera Cruise
+    [7775] = ZaralekCavern.nodes[54502371], -- Brimstone Scramble
+    [7776] = ZaralekCavern.nodes[58724503], -- Shimmering Slalom
+    [7777] = ZaralekCavern.nodes[58155759], -- Loamm Roamm
+    [7778] = ZaralekCavern.nodes[51264667] -- Sulfur Sprint
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    showSublabel = true,
-    pois = ZARALEK_CAVERN_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, ZARALEK_CAVERN_POIS,
+    {showNote = true, showSublabel = true})
 
 -------------------------------- EMERALD DREAM --------------------------------
 
@@ -948,20 +924,16 @@ EmeraldDream.nodes[32364825] = SkyridingRace({
 }) -- Emerald Amble
 
 local EMERALD_DREAM_POIS = {
-    [7903] = 59112881, -- Ysera Invitational
-    [7904] = 37184408, -- Smoldering Sprint
-    [7905] = 35165522, -- Viridescent Venture
-    [7906] = 69625262, -- Shoreline Switchback
-    [7907] = 62808812, -- Canopy Concours
-    [7908] = 32364825 -- Emerald Amble
+    [7903] = EmeraldDream.nodes[59112881], -- Ysera Invitational
+    [7904] = EmeraldDream.nodes[37184408], -- Smoldering Sprint
+    [7905] = EmeraldDream.nodes[35165522], -- Viridescent Venture
+    [7906] = EmeraldDream.nodes[69625262], -- Shoreline Switchback
+    [7907] = EmeraldDream.nodes[62808812], -- Canopy Concours
+    [7908] = EmeraldDream.nodes[32364825] -- Emerald Amble
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    showSublabel = true,
-    pois = EMERALD_DREAM_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, EMERALD_DREAM_POIS,
+    {showNote = true, showSublabel = true})
 
 -------------------------------------------------------------------------------
 ---------------------------------- KALIMDOR -----------------------------------
@@ -1126,30 +1098,26 @@ UngoroCrater.nodes[53379308] = KalimdorCup({
 }) -- Un'Goro Crater Circuit
 
 local KALIMDOR_POIS = {
-    [7494] = 58181079, -- Fel Flyover
-    [7495] = 68836804, -- Winter Wander
-    [7496] = 56702790, -- Nordrassil Spiral
-    [7497] = 21905420, -- Hyjal Hotfoot
-    [7498] = 67202617, -- Rocketway Ride
-    [7499] = 37043058, -- Ashenvale Ambit
-    [7500] = 56906286, -- Durotar Tour
-    [7501] = 66778681, -- Webwinder Weave
-    [7502] = 28106328, -- Desolace Drift
-    [7503] = 41431300, -- Barrens Divide Dive
-    [7504] = 42809308, -- Razorfen Roundabout
-    [7505] = 09731735, -- Thousand Needles Thread
-    [7506] = 64125435, -- Feralas Ruins Ramble
-    [7507] = 39548419, -- Ahn'Qiraj Circuit
-    [7508] = 55764218, -- Uldum Tour
-    [7509] = 53379308 -- Un'Goro Crater Circuit
+    [7494] = Felwood.nodes[58181079], -- Fel Flyover
+    [7495] = Winterspring.nodes[68836804], -- Winter Wander
+    [7496] = Hyjal.nodes[56702790], -- Nordrassil Spiral
+    [7497] = Hyjal.nodes[21905420], -- Hyjal Hotfoot
+    [7498] = Azshara.nodes[67202617], -- Rocketway Ride
+    [7499] = Ashenvale.nodes[37043058], -- Ashenvale Ambit
+    [7500] = Durotar.nodes[56906286], -- Durotar Tour
+    [7501] = StonetalonMontains.nodes[66778681], -- Webwinder Weave
+    [7502] = Desolace.nodes[28106328], -- Desolace Drift
+    [7503] = SouthernBarrens.nodes[41431300], -- Barrens Divide Dive
+    [7504] = SouthernBarrens.nodes[42809308], -- Razorfen Roundabout
+    [7505] = ThousandNeedles.nodes[09731735], -- Thousand Needles Thread
+    [7506] = Feralas.nodes[64125435], -- Feralas Ruins Ramble
+    [7507] = Silithus.nodes[39548419], -- Ahn'Qiraj Circuit
+    [7508] = Uldum.nodes[55764218], -- Uldum Tour
+    [7509] = UngoroCrater.nodes[53379308] -- Un'Goro Crater Circuit
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    showSublabel = true,
-    pois = KALIMDOR_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, KALIMDOR_POIS,
+    {showNote = true, showSublabel = true})
 
 -------------------------------------------------------------------------------
 ------------------------------- EASTERN KINGDOMS ------------------------------
@@ -1232,11 +1200,12 @@ local GurubashiGala = EasternKingdomsCup({
     normal = {2542, 61, 56},
     advanced = {2558, 52, 49},
     reverse = {2574, 53, 50},
-    rewards = EasternKingdoms_Rewards(7)
+    rewards = EasternKingdoms_Rewards(7),
+    parent = StranglethornVale.id
 }) -- Gurubashi Gala
 
 NorthernStranglethorn.nodes[70102655] = GurubashiGala
-StranglethornVale.nodes[62691781] = GurubashiGala
+-- StranglethornVale.nodes[62691781] = GurubashiGala
 
 local DunMorogh = ns.maps[27] or Map({id = 27, settings = true})
 DunMorogh.nodes[74133398] = EasternKingdomsCup({
@@ -1271,11 +1240,12 @@ local BootyBayBlast = EasternKingdomsCup({
     normal = {2546, 68, 63},
     advanced = {2562, 60, 57},
     reverse = {2578, 59, 56},
-    rewards = EasternKingdoms_Rewards(11)
+    rewards = EasternKingdoms_Rewards(11),
+    parent = StranglethornVale.id
 }) -- Booty Bay Blast
 
 CapeOfStranglethorn.nodes[40417782] = BootyBayBlast
-StranglethornVale.nodes[37608240] = BootyBayBlast
+-- StranglethornVale.nodes[37608240] = BootyBayBlast
 
 local Badlands = ns.maps[15] or Map({id = 15, settings = true})
 Badlands.nodes[67113676] = EasternKingdomsCup({
@@ -1304,28 +1274,24 @@ RedridgeMountains.nodes[40822500] = EasternKingdomsCup({
 }) -- Redridge Rally
 
 local EASTERN_KINGDOMS_POIS = {
-    [7571] = 58611160, -- Gilneas Gambit
-    [7572] = 46921391, -- Loch Modan Loop
-    [7573] = 73244238, -- Searing Slalom
-    [7574] = 34797786, -- Twilight Terror
-    [7575] = 46227221, -- Deadwind Derby
-    [7576] = 64704879, -- Elwynn Forest Flash
-    [7577] = {62691781, 70102655}, -- Gurubashi Gala
-    [7578] = 74133398, -- Ironforge Interceptor
-    [7579] = 62662616, -- Blasted Lands Bolt
-    [7580] = 34753792, -- Plaguelands Plunge
-    [7581] = {37608240, 40417782}, -- Booty Bay Blast
-    [7582] = 67113676, -- Fuselight Night Flight
-    [7583] = 72892784, -- Krazzworks Klash
-    [7584] = 40822500 -- Redridge Rally
+    [7571] = Gilneas.nodes[58611160], -- Gilneas Gambit
+    [7572] = LochModan.nodes[46921391], -- Loch Modan Loop
+    [7573] = SearingGorge.nodes[73244238], -- Searing Slalom
+    [7574] = TwilightHighlands.nodes[34797786], -- Twilight Terror
+    [7575] = DeadwindPass.nodes[46227221], -- Deadwind Derby
+    [7576] = ElwynnForest.nodes[64704879], -- Elwynn Forest Flash
+    [7577] = NorthernStranglethorn.nodes[70102655], -- Gurubashi Gala
+    [7578] = DunMorogh.nodes[74133398], -- Ironforge Interceptor
+    [7579] = BlastedLands.nodes[62662616], -- Blasted Lands Bolt
+    [7580] = EasternPlaguelands.nodes[34753792], -- Plaguelands Plunge
+    [7581] = CapeOfStranglethorn.nodes[40417782], -- Booty Bay Blast
+    [7582] = Badlands.nodes[67113676], -- Fuselight Night Flight
+    [7583] = TwilightHighlands.nodes[72892784], -- Krazzworks Klash
+    [7584] = RedridgeMountains.nodes[40822500] -- Redridge Rally
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    showSublabel = true,
-    pois = EASTERN_KINGDOMS_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, EASTERN_KINGDOMS_POIS,
+    {showNote = true, showSublabel = true})
 
 -------------------------------------------------------------------------------
 ----------------------------------- OUTLANDS ----------------------------------
@@ -1415,10 +1381,11 @@ local ShattrathCitySashay = OutlandCup({
     normal = {2607, 80, 75},
     advanced = {2622, 68, 65},
     reverse = {2637, 69, 66},
-    rewards = Outland_Rewards(8)
+    rewards = Outland_Rewards(8),
+    parent = TerokkarForest.id
 }) -- Shattrath City Sashay
 
-TerokkarForest.nodes[34813025] = ShattrathCitySashay
+-- TerokkarForest.nodes[34813025] = ShattrathCitySashay
 Shattrath.nodes[71317061] = ShattrathCitySashay
 
 local RazorthornRiseRush = OutlandCup({
@@ -1426,10 +1393,11 @@ local RazorthornRiseRush = OutlandCup({
     normal = {2604, 72, 67},
     advanced = {2619, 57, 54},
     reverse = {2634, 57, 54},
-    rewards = Outland_Rewards(5)
+    rewards = Outland_Rewards(5),
+    parent = TerokkarForest.id
 }) -- Razorthorn Rise Rush
 
-TerokkarForest.nodes[59810480] = RazorthornRiseRush
+-- TerokkarForest.nodes[59810480] = RazorthornRiseRush
 HellfirePeninsula.nodes[32657707] = RazorthornRiseRush
 
 TerokkarForest.nodes[42256788] = OutlandCup({
@@ -1466,24 +1434,20 @@ Netherstorm.nodes[68894774] = OutlandCup({
 }) -- Tempest Keep Sweep
 
 local OUTLAND_POIS = {
-    [7589] = 75514425, -- Hellfire Hustle
-    [7590] = 36923719, -- Coilfang Caper
-    [7591] = 61032759, -- Blade's Edge Brawl
-    [7592] = 58267599, -- Telaar Tear
-    [7593] = {59810480, 32657707}, -- Razorthorn Rise Rush
-    [7594] = 42256788, -- Auchindoun Coaster
-    [7595] = 68894774, -- Tempest Keep Sweep
-    [7596] = {34813025, 71317061}, -- Shattrath City Sashay
-    [7597] = 61734841, -- Shadowmoon Slam
-    [7598] = 51204193, -- Eco-Dome Excursion
-    [7599] = 29472503, -- Warmaul Wingding
-    [7600] = 67256586, -- Skettis Scramble
-    [7601] = 51014006 -- Fel Pit Fracas
+    [7589] = HellfirePeninsula.nodes[75514425], -- Hellfire Hustle
+    [7590] = Zangarmarsh.nodes[36923719], -- Coilfang Caper
+    [7591] = BladesEdge.nodes[61032759], -- Blade's Edge Brawl
+    [7592] = Nagrand.nodes[58267599], -- Telaar Tear
+    [7593] = HellfirePeninsula.nodes[32657707], -- Razorthorn Rise Rush
+    [7594] = TerokkarForest.nodes[42256788], -- Auchindoun Coaster
+    [7595] = Netherstorm.nodes[68894774], -- Tempest Keep Sweep
+    [7596] = Shattrath.nodes[71317061], -- Shattrath City Sashay
+    [7597] = ShadowmoonValley.nodes[61734841], -- Shadowmoon Slam
+    [7598] = Netherstorm.nodes[51204193], -- Eco-Dome Excursion
+    [7599] = Nagrand.nodes[29472503], -- Warmaul Wingding
+    [7600] = TerokkarForest.nodes[67256586], -- Skettis Scramble
+    [7601] = ShadowmoonValley.nodes[51014006] -- Fel Pit Fracas
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    showSublabel = true,
-    pois = OUTLAND_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, OUTLAND_POIS,
+    {showNote = true, showSublabel = true})

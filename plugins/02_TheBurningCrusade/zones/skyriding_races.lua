@@ -98,10 +98,11 @@ local ShattrathCitySashay = SkyridingRace({
     normal = {2607, 80, 75},
     advanced = {2622, 68, 65},
     reverse = {2637, 69, 66},
-    rewards = Outland_Rewards(8)
+    rewards = Outland_Rewards(8),
+    parent = TerokkarForest.id
 }) -- Shattrath City Sashay
 
-TerokkarForest.nodes[34813025] = ShattrathCitySashay
+-- TerokkarForest.nodesx[34813025] = ShattrathCitySashay
 Shattrath.nodes[71317061] = ShattrathCitySashay
 
 local RazorthornRiseRush = SkyridingRace({
@@ -109,10 +110,11 @@ local RazorthornRiseRush = SkyridingRace({
     normal = {2604, 72, 67},
     advanced = {2619, 57, 54},
     reverse = {2634, 57, 54},
-    rewards = Outland_Rewards(5)
+    rewards = Outland_Rewards(5),
+    parent = TerokkarForest.id
 }) -- Razorthorn Rise Rush
 
-TerokkarForest.nodes[59810480] = RazorthornRiseRush
+-- TerokkarForest.nodesx[59810480] = RazorthornRiseRush
 HellfirePeninsula.nodes[32657707] = RazorthornRiseRush
 
 TerokkarForest.nodes[42256788] = SkyridingRace({
@@ -148,23 +150,20 @@ Netherstorm.nodes[68894774] = SkyridingRace({
 }) -- Tempest Keep Sweep
 
 local OUTLAND_POIS = {
-    [7589] = 75514425, -- Hellfire Hustle
-    [7590] = 36923719, -- Coilfang Caper
-    [7591] = 61032759, -- Blade's Edge Brawl
-    [7592] = 58267599, -- Telaar Tear
-    [7593] = {59810480, 32657707}, -- Razorthorn Rise Rush
-    [7594] = 42256788, -- Auchindoun Coaster
-    [7595] = 68894774, -- Tempest Keep Sweep
-    [7596] = {34813025, 71317061}, -- Shattrath City Sashay
-    [7597] = 61734841, -- Shadowmoon Slam
-    [7598] = 51204193, -- Eco-Dome Excursion
-    [7599] = 29472503, -- Warmaul Wingding
-    [7600] = 67256586, -- Skettis Scramble
-    [7601] = 51014006 -- Fel Pit Fracas
+    [7589] = HellfirePeninsula.nodes[75514425], -- Hellfire Hustle
+    [7590] = Zangarmarsh.nodes[36923719], -- Coilfang Caper
+    [7591] = BladesEdge.nodes[61032759], -- Blade's Edge Brawl
+    [7592] = Nagrand.nodes[58267599], -- Telaar Tear
+    [7593] = HellfirePeninsula.nodes[32657707], -- Razorthorn Rise Rush
+    [7594] = TerokkarForest.nodes[42256788], -- Auchindoun Coaster
+    [7595] = Netherstorm.nodes[68894774], -- Tempest Keep Sweep
+    [7596] = Shattrath.nodes[71317061], -- Shattrath City Sashay
+    [7597] = ShadowmoonValley.nodes[61734841], -- Shadowmoon Slam
+    [7598] = Netherstorm.nodes[51204193], -- Eco-Dome Excursion
+    [7599] = Nagrand.nodes[29472503], -- Warmaul Wingding
+    [7600] = TerokkarForest.nodes[67256586], -- Skettis Scramble
+    [7601] = ShadowmoonValley.nodes[51014006] -- Fel Pit Fracas
 }
 
-ns.hook.SkyridingRace({
-    group = ns.groups.SKYRIDING_RACE,
-    showNote = true,
-    pois = OUTLAND_POIS
-})
+ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, OUTLAND_POIS,
+    {showNote = true})
