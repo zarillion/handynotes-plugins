@@ -1,3 +1,7 @@
+# v119
+
+* Localization updates:
+
 # v118
 
 * Added Algari Delver achievements.
