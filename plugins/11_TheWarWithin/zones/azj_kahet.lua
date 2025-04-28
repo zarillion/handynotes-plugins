@@ -396,31 +396,6 @@ map.nodes[62816618] = Rare({
     } -- starts the questchain to get the Siesbarg mount.
 }) -- Tka'ktath
 
-map.nodes[64402830] = Rare({
-    id = 241228, -- and 241237
-    label = '{quest:88945}', -- Radiant Incursion: Rak-Zakaz
-    note = L['nightfall_elites_note'],
-    quest = {91150, 00000},
-    questCount = true,
-    rewards = {
-        Achievement({
-            id = 41999,
-            criteria = {
-                {id = 104456, quest = 91150}, -- Dissenter Oathland
-                {id = 104464, quest = 00000} -- Whisperer Warsididel
-            }
-        }), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 91150}),
-        Reputation({id = 2688, gain = 50, quest = 00000}), -- missing
-    },
-    pois = {
-        POI({
-            color = 'Red',
-            points = {61903010, 62602670, 64103010, 67402760}
-        })
-    }
-}) -- Dissenter Oathland & Whisperer Warsididel
-
 ----------------------------- NIGHTFALL ELITES --------------------------------
 
 map.nodes[64452830] = Rare({
