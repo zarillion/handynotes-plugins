@@ -506,7 +506,7 @@ map.nodes[51206940] = Rare({
     }
 }) -- Dissenter Fervormyt <Order of Night>
 
-map.nodes[51476855] = Rare({
+map.nodes[49606500] = Rare({
     id = 241238,
     sublabel = '{quest:87477}', -- Sureki Incursion: Southern Swarm
     note = L['suspicious_document_note'],

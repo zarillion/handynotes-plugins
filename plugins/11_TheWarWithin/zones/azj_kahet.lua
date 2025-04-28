@@ -423,7 +423,7 @@ map.nodes[64402830] = Rare({
 
 ----------------------------- NIGHTFALL ELITES --------------------------------
 
-map.nodes[61782727] = Rare({
+map.nodes[64452830] = Rare({
     id = 241228,
     sublabel = '{quest:88945}', -- Radiant Incursion: Rak-Zakaz
     quest = 91150,
@@ -480,7 +480,7 @@ map.nodes[63070386] = Rare({
     }
 }) -- Dissenter Tailtrek <Order of Night>
 
-map.nodes[63890647] = Rare({
+map.nodes[64601360] = Rare({
     id = 241235,
     sublabel = '{quest:88916}', -- Radiant Incursion: Sureki's End
     note = L['suspicious_document_note'],
