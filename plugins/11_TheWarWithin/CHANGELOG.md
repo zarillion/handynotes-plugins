@@ -1,6 +1,7 @@
 # v119
 
-* Localization updates:
+* Fix lua error when hovering scrap heaps in undermine [#492]
+* Localization updates: ruRu
 
 # v118
 
