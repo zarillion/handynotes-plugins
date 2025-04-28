@@ -396,6 +396,81 @@ map.nodes[62816618] = Rare({
     } -- starts the questchain to get the Siesbarg mount.
 }) -- Tka'ktath
 
+map.nodes[64402830] = Rare({
+    id = 241228, -- and 241237
+    label = '{quest:88945}', -- Radiant Incursion: Rak-Zakaz
+    note = L['nightfall_elites_note'],
+    quest = {91150, 00000},
+    questCount = true,
+    rewards = {
+        Achievement({
+            id = 41999,
+            criteria = {
+                {id = 104456, quest = 91150}, -- Dissenter Oathland
+                {id = 104464, quest = 00000} -- Whisperer Warsididel
+            }
+        }), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 50, quest = 91150}),
+        Reputation({id = 2688, gain = 50, quest = 00000}), -- missing
+    },
+    pois = {
+        POI({
+            color = 'Red',
+            points = {61903010, 62602670, 64103010, 67402760}
+        })
+    }
+}) -- Dissenter Oathland & Whisperer Warsididel
+
+map.nodes[63101130] = Rare({
+    id = 241230, -- and 241235
+    label = '{quest:88916}', -- Radiant Incursion: Sureki's End
+    note = L['nightfall_elites_note'],
+    quest = {91154, 91152},
+    questCount = true,
+    rewards = {
+        Achievement({
+            id = 41999,
+            criteria = {
+                {id = 104458, quest = 91154}, -- Dissenter Tailtrek
+                {id = 104462, quest = 91152} -- Whisperer Hillhelm
+            }
+        }), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 50, quest = 91154}),
+        Reputation({id = 2688, gain = 50, quest = 91152}),
+    },
+    pois = {
+        POI({
+            color = 'Red',
+            points = {63700680, 64800660, 64801330, 65300940, 65400590}
+        })
+    }
+}) -- Dissenter Tailtrek & Whisperer Hillhelm
+
+map.nodes[66665366] = Rare({
+    id = 241227, -- and 241239
+    label = '{quest:88711}', -- Radiant Incursion: Toxins and Pheromones
+    note = L['nightfall_elites_note'],
+    quest = {89273, 91160},
+    questCount = true,
+    rewards = {
+        Achievement({
+            id = 41999,
+            criteria = {
+                {id = 104455, quest = 89273}, -- Dissenter Glaivefur
+                {id = 104466, quest = 91160} -- Whisperer Warhavuk
+            }
+        }), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 50, quest = 89273}),
+        Reputation({id = 2688, gain = 50, quest = 91160}),
+    },
+    pois = {
+        POI({
+            color = 'Red',
+            points = {66505370, 66705070, 68405460, 69505450}
+        })
+    }
+}) -- Dissenter Glaivefur & Whisperer Warhavuk
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------

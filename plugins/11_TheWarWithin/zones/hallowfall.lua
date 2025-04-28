@@ -458,6 +458,81 @@ map.nodes[62090835] = Rare({
     fgroup = 'mycelium'
 }) -- Radiant-Twisted Mycelium
 
+map.nodes[41506170] = Rare({
+    id = 241231, -- and 241234
+    label = '{quest:87475}', -- Sureki Incursion: Hold the Wall
+    note = L['nightfall_elites_note'],
+    quest = {91157, 91151},
+    questCount = true,
+    rewards = {
+        Achievement({
+            id = 41999,
+            criteria = {
+                {id = 104459, quest = 91157}, -- Dissenter Fortfervor
+                {id = 104461, quest = 91151} -- Whisperer Batalsworn
+            }
+        }), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 50, quest = 91157}),
+        Reputation({id = 2688, gain = 50, quest = 91151})
+    },
+    pois = {
+        POI({
+            color = 'Red',
+            points = {
+                40105850, 40305960, 40306080, 41006210, 41305960, 41506170,
+                40006190, 41906200
+            }
+        })
+    }
+}) -- Dissenter Fortfervor & Whisperer Batalsworn
+
+map.nodes[51506860] = Rare({
+    id = 241229, -- and 241238
+    label = '{quest:87477}', -- Sureki Incursion: Southern Swarm
+    note = L['nightfall_elites_note'],
+    quest = {00000, 91159},
+    questCount = true,
+    rewards = {
+        Achievement({
+            id = 41999,
+            criteria = {
+                {id = 104457, quest = 00000}, -- Dissenter Fervormyt
+                {id = 104465, quest = 91159} -- Whisperer Siegesage
+            }
+        }), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 50, quest = 00000}), -- missing
+        Reputation({id = 2688, gain = 50, quest = 91159})
+    },
+    pois = {
+        POI({
+            color = 'Red',
+            points = {
+                49806500, 49807040, 50606620, 51406870, 51507000, 51907020
+            }
+        })
+    }
+}) -- Dissenter Fervormyt & Whisperer Siegesage
+
+map.nodes[74004360] = Rare({
+    id = 241232, -- and 241236
+    label = '{quest:87480}', -- Sureki Incursion: The Eastern Assault
+    note = L['nightfall_elites_note'],
+    quest = {00000, 00000},
+    questCount = true,
+    rewards = {
+        Achievement({
+            id = 41999,
+            criteria = {
+                {id = 104460, quest = 00000}, -- Dissenter Troosilver
+                {id = 104463, quest = 00000} -- Whisperer Bravefort
+            }
+        }), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 50, quest = 00000}), -- missing
+        Reputation({id = 2688, gain = 50, quest = 00000}), -- missing
+    },
+    pois = {POI({color = 'Red', points = {}})}
+}) -- Dissenter Troosilver & Whisperer Bravefort (bugged?)
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
