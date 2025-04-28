@@ -249,7 +249,7 @@ L['nightfarm_growthling_note'] = nil
 
 L['thunder_lynx_note'] = nil
 
-L['nightfall_elites_note'] = nil
+L['suspicious_document_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------

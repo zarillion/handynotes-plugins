@@ -421,55 +421,122 @@ map.nodes[64402830] = Rare({
     }
 }) -- Dissenter Oathland & Whisperer Warsididel
 
-map.nodes[63101130] = Rare({
-    id = 241230, -- and 241235
-    label = '{quest:88916}', -- Radiant Incursion: Sureki's End
-    note = L['nightfall_elites_note'],
-    quest = {91154, 91152},
-    questCount = true,
-    rewards = {
-        Achievement({
-            id = 41999,
-            criteria = {
-                {id = 104458, quest = 91154}, -- Dissenter Tailtrek
-                {id = 104462, quest = 91152} -- Whisperer Hillhelm
-            }
-        }), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 91154}),
-        Reputation({id = 2688, gain = 50, quest = 91152}),
-    },
-    pois = {
-        POI({
-            color = 'Red',
-            points = {63700680, 64800660, 64801330, 65300940, 65400590}
-        })
-    }
-}) -- Dissenter Tailtrek & Whisperer Hillhelm
+----------------------------- NIGHTFALL ELITES --------------------------------
 
-map.nodes[66665366] = Rare({
-    id = 241227, -- and 241239
-    label = '{quest:88711}', -- Radiant Incursion: Toxins and Pheromones
-    note = L['nightfall_elites_note'],
-    quest = {89273, 91160},
-    questCount = true,
+map.nodes[61782727] = Rare({
+    id = 241228,
+    sublabel = '{quest:88945}', -- Radiant Incursion: Rak-Zakaz
+    quest = 91150,
     rewards = {
-        Achievement({
-            id = 41999,
-            criteria = {
-                {id = 104455, quest = 89273}, -- Dissenter Glaivefur
-                {id = 104466, quest = 91160} -- Whisperer Warhavuk
-            }
-        }), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 89273}),
-        Reputation({id = 2688, gain = 50, quest = 91160}),
+        Achievement({id = 41999, criteria = 104456}), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 50, quest = 91150})
     },
     pois = {
         POI({
             color = 'Red',
-            points = {66505370, 66705070, 68405460, 69505450}
+            points = {
+                61802760, 62602740, 62602760, 64202820, 64602840, 65803020,
+                67002800, 67002860, 64452830, 61782727
+            }
         })
     }
-}) -- Dissenter Glaivefur & Whisperer Warhavuk
+}) -- Dissenter Oathland <Order of Night>
+
+map.nodes[62003058] = Rare({
+    id = 241237,
+    sublabel = '{quest:88945}', -- Radiant Incursion: Rak-Zakaz
+    note = L['suspicious_document_note'],
+    quest = 91156,
+    rewards = {
+        Achievement({id = 41999, criteria = 104464}), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 50, quest = 91156})
+    },
+    pois = {
+        POI({
+            color = 'Green',
+            points = {
+                62602640, 64203020, 65803100, 67402760, 66402850, 62003058
+            }
+        })
+    }
+}) -- Whisperer Warsididel <Order of Night>
+
+map.nodes[63070386] = Rare({
+    id = 241230,
+    sublabel = '{quest:88916}', -- Radiant Incursion: Sureki's End
+    quest = 91154,
+    rewards = {
+        Achievement({id = 41999, criteria = 104458}), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 50, quest = 91154})
+    },
+    pois = {
+        POI({
+            color = 'Red',
+            points = {
+                63070386, 63000400, 63201120, 63801220, 64001260, 65000580,
+                65800940, 65800960
+            }
+        })
+    }
+}) -- Dissenter Tailtrek <Order of Night>
+
+map.nodes[63890647] = Rare({
+    id = 241235,
+    sublabel = '{quest:88916}', -- Radiant Incursion: Sureki's End
+    note = L['suspicious_document_note'],
+    quest = 91152,
+    rewards = {
+        Achievement({id = 41999, criteria = 104462}), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 50, quest = 91152})
+    },
+    pois = {
+        POI({
+            color = 'Green',
+            points = {
+                63890647, 63800660, 64401360, 64601340, 64601360, 64800620,
+                64800660, 65000940, 65400960, 65401660, 65611623, 62561617
+            }
+        })
+    }
+}) -- Whisperer Hillhelm <Order of Night>
+
+map.nodes[69585454] = Rare({
+    id = 241227,
+    sublabel = '{quest:88711}', -- Radiant Incursion: Toxins and Pheromones
+    note = L['suspicious_document_note'],
+    quest = 89273,
+    rewards = {
+        Achievement({id = 41999, criteria = 104455}), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 50, quest = 89273})
+    },
+    pois = {
+        POI({
+            color = 'Green',
+            points = {
+                66605360, 66805080, 68205460, 69405440, 69405460, 69585454
+            }
+        })
+    }
+}) -- Dissenter Glaivefur <Order of Night>
+
+map.nodes[65715384] = Rare({
+    id = 241239,
+    sublabel = '{quest:88711}', -- Radiant Incursion: Toxins and Pheromones
+    quest = 91160,
+    rewards = {
+        Achievement({id = 41999, criteria = 104466}), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 50, quest = 91160})
+    },
+    pois = {
+        POI({
+            color = 'Red',
+            points = {
+                65605300, 65805380, 68005620, 69205520, 69205640, 69605600,
+                69325669, 67905638, 67965614, 65715384
+            }
+        })
+    }
+}) -- Whisperer Warhavuk <Order of Night>
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
