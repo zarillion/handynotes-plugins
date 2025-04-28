@@ -102,6 +102,7 @@ map.nodes[64560668] = Rare({
         Reputation({id = 2601, gain = 50, quest = 84081}),
         Reputation({id = 2605, gain = 50, quest = 84081}),
         Reputation({id = 2607, gain = 50, quest = 84081}),
+        Reputation({id = 2688, gain = 50, quest = 91161}), -- Flame's Radiance
         Transmog({item = 223923, type = L['plate']}), -- Gilded Cryptlord's Sabatons
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
         Transmog({item = 223915, type = L['dagger']}), -- Nerubian Orator's Stiletto
@@ -133,6 +134,7 @@ map.nodes[61232730] = Rare({
         Reputation({id = 2601, gain = 50, quest = 81699}),
         Reputation({id = 2605, gain = 50, quest = 81699}),
         Reputation({id = 2607, gain = 50, quest = 81699}),
+        Reputation({id = 2688, gain = 50, quest = 91165}), -- Flame's Radiance
         Transmog({item = 223369, slot = L['cloak']}) -- Webspeaker's Spiritual Cloak
     }
 }) -- Webspeaker Grik'ik
@@ -183,6 +185,7 @@ map.nodes[62400703] = Rare({ -- renamed by Blizzard?
         Reputation({id = 2601, gain = 50, quest = 84082}),
         Reputation({id = 2605, gain = 50, quest = 84082}),
         Reputation({id = 2607, gain = 50, quest = 84082}),
+        Reputation({id = 2688, gain = 50, quest = 91163}), -- Flame's Radiance
         Transmog({item = 223939, type = L['cloth']}), -- Esteemed Nerubian's Mantle
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
         Transmog({item = 223915, type = L['dagger']}), -- Nerubian Orator's Stiletto
@@ -200,6 +203,7 @@ map.nodes[63152530] = Rare({
         Reputation({id = 2601, gain = 50, quest = 84071}),
         Reputation({id = 2605, gain = 50, quest = 84071}),
         Reputation({id = 2607, gain = 50, quest = 84071}),
+        Reputation({id = 2688, gain = 50, quest = 91162}), -- Flame's Radiance
         Transmog({item = 221206, type = L['plate']}), -- Reinforced Chitin Chestpiece
         Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
         Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
@@ -309,6 +313,7 @@ map.nodes[64590352] = Rare({
         Reputation({id = 2601, gain = 50, quest = 84080}),
         Reputation({id = 2605, gain = 50, quest = 84080}),
         Reputation({id = 2607, gain = 50, quest = 84080}),
+        Reputation({id = 2688, gain = 50, quest = 91164}), -- Flame's Radiance
         Transmog({item = 223930, type = L['mail']}), -- Monstrous Chain Pincers
         Transmog({item = 221240, type = L['1h_sword']}), -- Nerubian Stagshell Gouger
         Transmog({item = 221252, type = L['2h_sword']}) -- Nerubian Slayer's Claymore
