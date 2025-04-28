@@ -644,7 +644,6 @@ L['upgrade_the_pozzik_standard'] = '{item:232982} (Motor): Erreiche den Rang |cF
 L['upgrade_22h_slicks'] = '{item:232985} (Räder): Kann von Ingenieuren hergestellt oder auch im Auktionshaus gekauft werden.'
 L['upgrade_turbo_handcrank'] = '{item:232984} (Turbo): Kombiniere alle 5 Teile, die du von seltenen Gegnern plündern oder im Auktionshaus kaufen kannst.'
 
-
 L['blazefeather_peacock_note'] = 'Spreche nach Abschluss des {quest:83421} Geschichtsstrangs mit {npc:226555}, um für %s ein einen zähmbaren {npc:226561} zu beschwören.'
 L['radioactive_subject_note'] = 'Benutze nahegelegene Rohre und eine Kombination aus {item:237276}, {item:109076} und {item:231099} oder anderen Sprung-Puzzle-Tricks, um das Dach des {location:Dampfdrucklabore} Gebäudes zu erreichen.'
 L['george_the_big_pinch_note'] = 'Klicke schnell alle 5 {npc:238189} an, um den Stärkungszauber {spell:1219679} zu erhalten, der dir erlaubt {npc:233938} zu zähmen.'

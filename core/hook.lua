@@ -278,7 +278,7 @@ local function HookAllPOIS()
 
     -------------------------------- VIGNETTE ---------------------------------
 
-    hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self) -- TODO
+    hooksecurefunc(VignettePinMixin, 'OnMouseEnter', function(self)
         local hookInfo = ns.hooks.vignette[self.vignetteID]
         if not hookInfo then return end
         local mapID = self:GetMap().mapID
