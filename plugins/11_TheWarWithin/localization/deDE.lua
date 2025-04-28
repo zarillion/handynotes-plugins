@@ -639,10 +639,11 @@ L['undermine_clam_chowder_label'] = 'Lorenhalls Ratgeber zu authentischer Küche
 L['undermine_clam_chowder_location'] = 'In der Gasse auf einem Regal hinter {npc:226728}.'
 L['undermine_clam_chowder_note'] = '1. Um dieses Rezept zu erhalten, musst du zunächst das Rezept {item:16767} erlernen, welches bei zwei {object:Classic}-Händlern für %s gekaut werden kann.\n\n{npc:54232} in {location:Beutebucht} ({location:Die Östlichen Königreiche}, {location:Schlingendorntal})\n\n{npc:48060} in {location:Luntenbrand} ({location:Die Östlichen Königreiche}, {location:Ödland})\n\n2. Wenn du das "alte" Rezept erlernt hast, interagiere mit dem Buch {object:Lorenhalls Ratgeber zu authentischer Küche} und lese dir alle Seiten durch, um das Rezept {item:235800} zu erhalten.'
 
-L['breakneck_race_note'] = nil
-L['upgrade_the_pozzik_standard'] = nil
-L['upgrade_22h_slicks'] = nil
-L['upgrade_turbo_handcrank'] = nil
+L['breakneck_race_note'] = 'Die folgenden {object:99-G-Genickbrecher} Anpassungen werden empfohlen, um das Erreichen von |cFFFFD700Gold|r ein wenig zu erleichtern: \n\n%s\n\n%s\n\n%s'
+L['upgrade_the_pozzik_standard'] = '{item:232982} (Motor): Erreiche den Rang |cFFCD7F32Bronze|r bei allen normalen and umgekehrten Halsbrecherrennen.'
+L['upgrade_22h_slicks'] = '{item:232985} (Räder): Kann von Ingenieuren hergestellt oder auch im Auktionshaus gekauft werden.'
+L['upgrade_turbo_handcrank'] = '{item:232984} (Turbo): Kombiniere alle 5 Teile, die du von seltenen Gegnern plündern oder im Auktionshaus kaufen kannst.'
+
 
 L['blazefeather_peacock_note'] = 'Spreche nach Abschluss des {quest:83421} Geschichtsstrangs mit {npc:226555}, um für %s ein einen zähmbaren {npc:226561} zu beschwören.'
 L['radioactive_subject_note'] = 'Benutze nahegelegene Rohre und eine Kombination aus {item:237276}, {item:109076} und {item:231099} oder anderen Sprung-Puzzle-Tricks, um das Dach des {location:Dampfdrucklabore} Gebäudes zu erreichen.'
