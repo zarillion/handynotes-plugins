@@ -43,7 +43,7 @@ map.nodes[48431991] = Rare({
     quest = 81674, -- 84046
     rewards = {
         Achievement({id = 40837, criteria = 69634}),
-        Reputation({id = 2594, gain = 150, quest = 84046}),
+        Reputation({id = 2594, gain = 300, quest = 84046}),
         Transmog({item = 221218, slot = L['mail']}), -- Reinforced Construct's Greaves
         Transmog({item = 221238, slot = L['staff']}) -- Pillar of Constructs
     }
@@ -80,7 +80,7 @@ map.nodes[37211692] = Rare({
     quest = 81562, -- 84044
     rewards = {
         Achievement({id = 40837, criteria = 69632}),
-        Reputation({id = 2594, gain = 150, quest = 84044}),
+        Reputation({id = 2594, gain = 300, quest = 84044}),
         Transmog({item = 221209, slot = L['leather']}), -- Flame Trader's Gloves
         Transmog({item = 221249, slot = L['1h_mace']}) -- Kobold Rodent Squasher
     }
@@ -91,7 +91,7 @@ map.nodes[53743813] = Rare({
     quest = 81511, -- 84045
     rewards = {
         Achievement({id = 40837, criteria = 69633}),
-        Reputation({id = 2594, gain = 150, quest = 84045}),
+        Reputation({id = 2594, gain = 300, quest = 84045}),
         Transmog({item = 221226, slot = L['plate']}) -- Voidtouched Waistguard
     }
 }) -- Coalesced Monstrosity
@@ -101,7 +101,7 @@ map.nodes[46834631] = Rare({
     quest = 80560, -- 84042
     rewards = {
         Achievement({id = 40837, criteria = 69630}),
-        Reputation({id = 2594, gain = 150, quest = 84042}),
+        Reputation({id = 2594, gain = 300, quest = 84042}),
         Transmog({item = 221205, slot = L['cloth']}), -- Vest of the River
         Transmog({item = 221507, slot = L['cloak']}), -- Earth Golem's Wrap
         Transmog({item = 221254, slot = L['polearm']}) -- Earthshatter Lance
@@ -124,7 +124,7 @@ map.nodes[62885265] = Rare({
     note = L['disturbed_earthgorger_note'],
     rewards = {
         Achievement({id = 40837, criteria = 69640}),
-        Reputation({id = 2594, gain = 150, quest = 84050}),
+        Reputation({id = 2594, gain = 300, quest = 84050}),
         Transmog({item = 223926, slot = L['mail']}), -- Earthgorger's Chain Bib
         Transmog({item = 223943, slot = L['leather']}), -- Cord of the Earthbreaker
         Transmog({item = 221237, slot = L['offhand']}) -- Lamentable Vagrant's Lantern
@@ -143,7 +143,7 @@ map.nodes[48840880] = Rare({
     },
     rewards = {
         Achievement({id = 40837, criteria = 69636}),
-        Reputation({id = 2594, gain = 150, quest = 85162}),
+        Reputation({id = 2594, gain = 300, quest = 85162}),
         Transmog({item = 221254, slot = L['polearm']}), -- Earthshatter Lance
         Transmog({item = 221507, slot = L['cloak']}), -- Earth Golem's Wrap
         Transmog({item = 225999, slot = L['tabard']}) -- Earthen Adventurer's Tabard
@@ -155,7 +155,7 @@ map.nodes[61194950] = Rare({
     quest = 81648, -- 84048
     rewards = {
         Achievement({id = 40837, criteria = 69639}),
-        Reputation({id = 2594, gain = 150, quest = 84048}),
+        Reputation({id = 2594, gain = 300, quest = 84048}),
         Transmog({item = 223949, slot = L['mail']}), -- Dark Depth Stompers
         Transmog({item = 221248, slot = L['1h_axe']}), -- Deep Terror Carver
         Transmog({item = 221255, slot = L['dagger']}) -- Sharpened Scalepiercer
@@ -167,7 +167,7 @@ map.nodes[42904697] = Rare({
     quest = 81485, -- 84047
     rewards = {
         Achievement({id = 40837, criteria = 69635}),
-        Reputation({id = 2594, gain = 150, quest = 84047}),
+        Reputation({id = 2594, gain = 300, quest = 84047}),
         Transmog({item = 221204, slot = L['plate']}), -- Spore Giant's Stompers
         Transmog({item = 221250, slot = L['1h_sword']}), -- Creeping Lasher Machete
         Transmog({item = 221253, slot = L['fist']}) -- Cultivator's Plant Puncher
@@ -194,7 +194,7 @@ map.nodes[56727668] = Rare({
     rewards = {
         Achievement({id = 40837, criteria = 69637}),
         Mount({item = 223501, id = 2205}), -- Ol' Mole Rufus
-        Reputation({id = 2594, gain = 150, quest = 85163}),
+        Reputation({id = 2594, gain = 300, quest = 85163}),
         Transmog({item = 221255, slot = L['dagger']}), -- Sharpened Scalepiercer
         Transmog({item = 221248, slot = L['1h_axe']}) -- Deep Terror Carver
     },
@@ -225,7 +225,7 @@ map.nodes[62054622] = Rare({
     quest = 81652, -- 84049
     rewards = {
         Achievement({id = 40837, criteria = 69638}),
-        Reputation({id = 2594, gain = 150, quest = 84049}),
+        Reputation({id = 2594, gain = 300, quest = 84049}),
         Transmog({item = 223942, slot = L['cloth']}), -- Spore-Encrusted Ribbon
         Transmog({item = 223919, slot = L['1h_mace']}), -- Abducted Lawman's Gavel
         Transmog({item = 223918, slot = L['gun']}) -- Specter Stalker's Shotgun
@@ -243,7 +243,7 @@ map.nodes[43461217] = Rare({
     quest = 80507, -- 84040
     rewards = {
         Achievement({id = 40837, criteria = 69628}),
-        Reputation({id = 2594, gain = 150, quest = 84040}),
+        Reputation({id = 2594, gain = 300, quest = 84040}),
         Transmog({item = 221242, slot = L['plate']}), -- Forgeborn Helm
         Transmog({item = 221248, slot = L['1h_axe']}), -- Deep Terror Carver
         Transmog({item = 221255, slot = L['dagger']}) -- Sharpened Scalepiercer
@@ -256,7 +256,7 @@ map.nodes[67494630] = Rare({
     note = L['trungal_note'],
     rewards = {
         Achievement({id = 40837, criteria = 69631}),
-        Reputation({id = 2594, gain = 150, quest = 84043}),
+        Reputation({id = 2594, gain = 300, quest = 84043}),
         Transmog({item = 221228, slot = L['cloth']}), -- Infested Fungal Wristwraps
         Transmog({item = 221253, slot = L['fist']}), -- Cultivator's Plant Puncher
         Transmog({item = 221250, slot = L['1h_sword']}) -- Creeping Lasher Machete
@@ -269,7 +269,7 @@ map.nodes[47872657] = Rare({
     quest = 80506, -- 84041
     rewards = {
         Achievement({id = 40837, criteria = 69629}),
-        Reputation({id = 2594, gain = 150, quest = 84041}),
+        Reputation({id = 2594, gain = 300, quest = 84041}),
         Transmog({item = 221220, slot = L['leather']}), -- Basilisk Scale Pauldrons
         Transmog({item = 221246, slot = L['staff']}), -- Fierce Beast Staff
         Transmog({item = 221247, slot = L['crossbow']}), -- Cavernous Critter Shooter

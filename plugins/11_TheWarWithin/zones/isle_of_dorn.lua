@@ -75,7 +75,7 @@ map.nodes[55762753] = Rare({
     quest = 81920, -- 84036
     rewards = {
         Achievement({id = 40435, criteria = 68224}),
-        Reputation({id = 2590, gain = 150, quest = 84036})
+        Reputation({id = 2590, gain = 300, quest = 84036})
     }
 }) -- Clawbreaker K'zithix
 
@@ -101,7 +101,7 @@ map.nodes[25784503] = Rare({
     quest = 81907, -- 84029
     rewards = {
         Achievement({id = 40435, criteria = 68218}),
-        Reputation({id = 2590, gain = 150, quest = 84029}),
+        Reputation({id = 2590, gain = 300, quest = 84029}),
         Transmog({item = 221208, slot = L['leather']}), -- Unseen Cutthroat's Tunic
         Transmog({item = 221235, slot = L['cloak']}) -- Dark Agent's Cloak
     }
@@ -112,7 +112,7 @@ map.nodes[63984054] = Rare({ -- get path
     quest = 81905, -- 84034
     rewards = {
         Achievement({id = 40435, criteria = 68223}),
-        Reputation({id = 2590, gain = 150, quest = 84034}),
+        Reputation({id = 2590, gain = 300, quest = 84034}),
         Transmog({item = 221244, slot = L['mail']}), -- Flamekeeper's Footpads
         Transmog({item = 221249, slot = L['1h_mace']}) -- Kobold Rodent Squasher
     }
@@ -123,7 +123,7 @@ map.nodes[53527998] = Rare({
     quest = 81899, -- 84028
     rewards = {
         Achievement({id = 40435, criteria = 68217}),
-        Reputation({id = 2590, gain = 150, quest = 84028}),
+        Reputation({id = 2590, gain = 300, quest = 84028}),
         Transmog({item = 221248, type = L['1h_axe']}), -- Deep Terror Carver
         Transmog({item = 221255, type = L['dagger']}), -- Sharpened Scalepiercer
         Transmog({item = 221222, type = L['cloth']}) -- Water-Imbued Spaulders
@@ -135,7 +135,7 @@ map.nodes[48212701] = Rare({
     quest = 81902, -- 84031
     rewards = {
         Achievement({id = 40435, criteria = 68220}),
-        Reputation({id = 2590, gain = 150, quest = 84031}),
+        Reputation({id = 2590, gain = 300, quest = 84031}),
         Transmog({item = 221210, slot = L['plate']}), -- Grips of the Earth
         Transmog({item = 221507, slot = L['cloak']}), -- Earth Golem's Wrap
         Transmog({item = 221254, slot = L['polearm']}) -- Earthshatter Lance
@@ -147,7 +147,7 @@ map.nodes[73004009] = Rare({
     quest = 81921, -- 84039
     rewards = {
         Achievement({id = 40435, criteria = 68231}),
-        Reputation({id = 2590, gain = 150, quest = 84039}),
+        Reputation({id = 2590, gain = 300, quest = 84039}),
         Transmog({item = 223948, slot = L['plate']}), -- Stubborn Wolf's Greathelm
         Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
         Transmog({item = 221247, type = L['crossbow']}), -- Cavernous Critter Shooter
@@ -160,7 +160,7 @@ map.nodes[50876975] = Rare({
     quest = 81897, -- 84026
     rewards = {
         Achievement({id = 40435, criteria = 68216}),
-        Reputation({id = 2590, gain = 150, quest = 84026}),
+        Reputation({id = 2590, gain = 300, quest = 84026}),
         Transmog({item = 221213, slot = L['cloth']}), -- Shawl of the Plagued
         Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
         Transmog({item = 221247, type = L['crossbow']}), -- Cavernous Critter Shooter
@@ -204,7 +204,7 @@ map.nodes[74422804] = Rare({
     quest = 81903, -- 84032
     rewards = {
         Achievement({id = 40435, criteria = 68221}),
-        Reputation({id = 2590, gain = 150, quest = 84032}),
+        Reputation({id = 2590, gain = 300, quest = 84032}),
         Transmog({item = 221224, slot = L['plate']}), -- Bouldershell Waistguard
         Transmog({item = 221248, type = L['1h_axe']}), -- Deep Terror Carver
         Transmog({item = 221255, type = L['dagger']}) -- Sharpened Scalepiercer
@@ -229,7 +229,7 @@ map.nodes[69853850] = Rare({
     quest = 81922, -- 84038
     rewards = {
         Achievement({id = 40435, criteria = 68230}),
-        Reputation({id = 2590, gain = 150, quest = 84038}),
+        Reputation({id = 2590, gain = 300, quest = 84038}),
         Transmog({item = 223929, slot = L['cloth']}), -- Honey Sweetener's Squeezers
         Transmog({item = 223920, slot = L['shield']}) -- Slime Deflecting Stopper
     }
@@ -240,7 +240,7 @@ map.nodes[56891601] = Rare({
     quest = 81901, -- 84030
     rewards = {
         Achievement({id = 40435, criteria = 68219}),
-        Reputation({id = 2590, gain = 150, quest = 84030}),
+        Reputation({id = 2590, gain = 300, quest = 84030}),
         Transmog({item = 221230, slot = L['mail']}), -- Storm Bindings
         Transmog({item = 221236, slot = L['shield']}) -- Stormbreaker's Shield
     },
@@ -252,7 +252,7 @@ map.nodes[72913794] = Rare({
     quest = 81923, -- 84037
     rewards = {
         Achievement({id = 40435, criteria = 68229}),
-        Reputation({id = 2590, gain = 150, quest = 84037}),
+        Reputation({id = 2590, gain = 300, quest = 84037}),
         Transmog({item = 223937, slot = L['leather']}), -- Honey Deliverer's Leggings
         Transmog({item = 223922, slot = L['cloak']}) -- Cinder Pollen Cloak
     },
@@ -264,7 +264,7 @@ map.nodes[57122241] = Rare({
     quest = 81904, -- 84033
     rewards = {
         Achievement({id = 40435, criteria = 68222}),
-        Reputation({id = 2590, gain = 150, quest = 84033}),
+        Reputation({id = 2590, gain = 300, quest = 84033}),
         Transmog({item = 221219, slot = L['leather']}), -- Silkwing Trousers
         Transmog({item = 221239, slot = L['gun']}), -- Spider Blasting Blunderbuss
         Transmog({item = 221506, slot = L['cloak']}) -- Arachnid's Web-Sown Guise
@@ -286,17 +286,17 @@ map.nodes[30905239] = Rare({
             }
         }), --
         Section('{npc:222378}'), -- Kereke
-        Reputation({id = 2590, gain = 150, quest = 85160}),
+        Reputation({id = 2590, gain = 300, quest = 85160}),
         Transmog({item = 226113, type = L['1h_sword']}), -- Kereke's Flourishing Sabre
         Transmog({item = 226114, type = L['polearm']}), -- Windslicer's Lance
         Transmog({item = 226111, type = L['staff']}), -- Arakkoan Ritual Staff
         Section('{npc:222380}'), -- Rotfist
-        Reputation({id = 2590, gain = 150, quest = 85161}),
+        Reputation({id = 2590, gain = 300, quest = 85161}),
         Transmog({item = 226116}), -- Coagulating Phlegm Churner
         Transmog({item = 226115, type = L['2h_axe']}), -- Contaminating Cleaver
         Transmog({item = 226112, type = L['1h_sword']}), -- Rotfist Flesh Carver
         Section('{npc:219284}'), -- Zovex
-        Reputation({id = 2590, gain = 150, quest = 85159}),
+        Reputation({id = 2590, gain = 300, quest = 85159}),
         Transmog({item = 226119, type = L['crossbow']}), -- Arcane Sharpshooter's Crossbow
         Transmog({item = 226118, type = L['fist']}), -- Arcane Prisoner's Puncher
         Transmog({item = 226117, type = L['offhand']}) -- Dalaran Guardian's Arcanotool

@@ -70,9 +70,9 @@ map.nodes[70722147] = Rare({
     note = L['in_waterfall_cave'],
     rewards = {
         Achievement({id = 40840, criteria = 69661}),
-        Reputation({id = 2601, gain = 50, quest = 84073}),
-        Reputation({id = 2605, gain = 50, quest = 84073}),
-        Reputation({id = 2607, gain = 50, quest = 84073}),
+        Reputation({id = 2601, gain = 100, quest = 84073}),
+        Reputation({id = 2605, gain = 100, quest = 84073}),
+        Reputation({id = 2607, gain = 100, quest = 84073}),
         Transmog({item = 221212, type = L['mail']}), -- Death Burrower Handguards
         Transmog({item = 221237, type = L['offhand']}) -- Lamentable Vagrant's Lantern
     },
@@ -84,9 +84,9 @@ cot.nodes[30755599] = Rare({
     quest = 81634, -- 84069
     rewards = {
         Achievement({id = 40840, criteria = 69657}),
-        Reputation({id = 2601, gain = 50, quest = 84069}),
-        Reputation({id = 2605, gain = 50, quest = 84069}),
-        Reputation({id = 2607, gain = 50, quest = 84069}),
+        Reputation({id = 2601, gain = 100, quest = 84069}),
+        Reputation({id = 2605, gain = 100, quest = 84069}),
+        Reputation({id = 2607, gain = 100, quest = 84069}),
         Transmog({item = 221214, type = L['mail']}), -- Chitin Chain Headpiece
         Transmog({item = 221240, type = L['1h_sword']}), -- Nerubian Stagshell Gouger
         Transmog({item = 221252, type = L['2h_sword']}) -- Nerubian Slayer's Claymore
@@ -99,9 +99,9 @@ map.nodes[64560668] = Rare({
     quest = 82077, -- 84081
     rewards = {
         Achievement({id = 40840, criteria = 69669}),
-        Reputation({id = 2601, gain = 50, quest = 84081}),
-        Reputation({id = 2605, gain = 50, quest = 84081}),
-        Reputation({id = 2607, gain = 50, quest = 84081}),
+        Reputation({id = 2601, gain = 100, quest = 84081}),
+        Reputation({id = 2605, gain = 100, quest = 84081}),
+        Reputation({id = 2607, gain = 100, quest = 84081}),
         Transmog({item = 223923, type = L['plate']}), -- Gilded Cryptlord's Sabatons
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
         Transmog({item = 223915, type = L['dagger']}), -- Nerubian Orator's Stiletto
@@ -115,9 +115,9 @@ map.nodes[58036210] = Rare({
     quest = 81707, -- 84076
     rewards = {
         Achievement({id = 40840, criteria = 69664}),
-        Reputation({id = 2601, gain = 50, quest = 84076}),
-        Reputation({id = 2605, gain = 50, quest = 84076}),
-        Reputation({id = 2607, gain = 50, quest = 84076}),
+        Reputation({id = 2601, gain = 100, quest = 84076}),
+        Reputation({id = 2605, gain = 100, quest = 84076}),
+        Reputation({id = 2607, gain = 100, quest = 84076}),
         Transmog({item = 221243, type = L['cloth']}), -- Slippers of Delirium
         Transmog({item = 221255, type = L['dagger']}), -- Sharpened Scalepiercer
         Transmog({item = 221248, type = L['1h_axe']}) -- Deep Terror Carver
@@ -142,9 +142,9 @@ akl.nodes[65198283] = Rare({
     quest = 82036, -- 84079
     rewards = {
         Achievement({id = 40840, criteria = 69667}),
-        Reputation({id = 2601, gain = 50, quest = 84079}),
-        Reputation({id = 2605, gain = 50, quest = 84079}),
-        Reputation({id = 2607, gain = 50, quest = 84079}),
+        Reputation({id = 2601, gain = 100, quest = 84079}),
+        Reputation({id = 2605, gain = 100, quest = 84079}),
+        Reputation({id = 2607, gain = 100, quest = 84079}),
         Transmog({item = 223941, type = L['plate']}), -- Nerubian Cultivator's Girdle
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
         Transmog({item = 223915, type = L['dagger']}), -- Nerubian Orator's Stiletto
@@ -164,9 +164,9 @@ akl.nodes[67438318] = Rare({
     quest = 82034, -- 84077
     rewards = {
         Achievement({id = 40840, criteria = 69665}),
-        Reputation({id = 2601, gain = 50, quest = 84077}),
-        Reputation({id = 2605, gain = 50, quest = 84077}),
-        Reputation({id = 2607, gain = 50, quest = 84077}),
+        Reputation({id = 2601, gain = 100, quest = 84077}),
+        Reputation({id = 2605, gain = 100, quest = 84077}),
+        Reputation({id = 2607, gain = 100, quest = 84077}),
         Transmog({item = 223950, type = L['leather']}), -- Corruption Sifter's Treads
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
         Transmog({item = 223915, type = L['dagger']}), -- Nerubian Orator's Stiletto
@@ -180,9 +180,9 @@ map.nodes[62400703] = Rare({ -- renamed by Blizzard?
     quest = 82078, -- 84082
     rewards = {
         Achievement({id = 40840, criteria = 69670}),
-        Reputation({id = 2601, gain = 50, quest = 84082}),
-        Reputation({id = 2605, gain = 50, quest = 84082}),
-        Reputation({id = 2607, gain = 50, quest = 84082}),
+        Reputation({id = 2601, gain = 100, quest = 84082}),
+        Reputation({id = 2605, gain = 100, quest = 84082}),
+        Reputation({id = 2607, gain = 100, quest = 84082}),
         Transmog({item = 223939, type = L['cloth']}), -- Esteemed Nerubian's Mantle
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
         Transmog({item = 223915, type = L['dagger']}), -- Nerubian Orator's Stiletto
@@ -197,9 +197,9 @@ map.nodes[63152530] = Rare({
     quest = 81702, -- 84071
     rewards = {
         Achievement({id = 40840, criteria = 69659}),
-        Reputation({id = 2601, gain = 50, quest = 84071}),
-        Reputation({id = 2605, gain = 50, quest = 84071}),
-        Reputation({id = 2607, gain = 50, quest = 84071}),
+        Reputation({id = 2601, gain = 100, quest = 84071}),
+        Reputation({id = 2605, gain = 100, quest = 84071}),
+        Reputation({id = 2607, gain = 100, quest = 84071}),
         Transmog({item = 221206, type = L['plate']}), -- Reinforced Chitin Chestpiece
         Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
         Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
@@ -218,9 +218,9 @@ map.nodes[66496197] = Rare({
     quest = 81706, -- 84075
     rewards = {
         Achievement({id = 40840, criteria = 69663}),
-        Reputation({id = 2601, gain = 50, quest = 84075}),
-        Reputation({id = 2605, gain = 50, quest = 84075}),
-        Reputation({id = 2607, gain = 50, quest = 84075}),
+        Reputation({id = 2601, gain = 100, quest = 84075}),
+        Reputation({id = 2605, gain = 100, quest = 84075}),
+        Reputation({id = 2607, gain = 100, quest = 84075}),
         Transmog({item = 221217, type = L['cloth']}), -- Nerubian Bomber's Leggings
         Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
         Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
@@ -241,9 +241,9 @@ map.nodes[69986923] = Rare({
     quest = 81705, -- 84074
     rewards = {
         Achievement({id = 40840, criteria = 69662}),
-        Reputation({id = 2601, gain = 50, quest = 84074}),
-        Reputation({id = 2605, gain = 50, quest = 84074}),
-        Reputation({id = 2607, gain = 50, quest = 84074}),
+        Reputation({id = 2601, gain = 100, quest = 84074}),
+        Reputation({id = 2605, gain = 100, quest = 84074}),
+        Reputation({id = 2607, gain = 100, quest = 84074}),
         Transmog({item = 221227, type = L['leather']}), -- Monstrous Fungal Cord
         Transmog({item = 221253, type = L['fist']}), -- Cultivator's Plant Puncher
         Transmog({item = 221250, type = L['1h_sword']}) -- Creeping Lasher Machete
@@ -278,9 +278,9 @@ akl.nodes[61918962] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 40840, criteria = 69666}),
-        Reputation({id = 2601, gain = 50, quest = 84078}),
-        Reputation({id = 2605, gain = 50, quest = 84078}),
-        Reputation({id = 2607, gain = 50, quest = 84078}),
+        Reputation({id = 2601, gain = 100, quest = 84078}),
+        Reputation({id = 2605, gain = 100, quest = 84078}),
+        Reputation({id = 2607, gain = 100, quest = 84078}),
         Transmog({item = 223931, type = L['cloth']})
     },
     parent = map.id,
@@ -293,9 +293,9 @@ map.nodes[76585780] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 40840, criteria = 69660}),
-        Reputation({id = 2601, gain = 50, quest = 84072}),
-        Reputation({id = 2605, gain = 50, quest = 84072}),
-        Reputation({id = 2607, gain = 50, quest = 84072}),
+        Reputation({id = 2601, gain = 100, quest = 84072}),
+        Reputation({id = 2605, gain = 100, quest = 84072}),
+        Reputation({id = 2607, gain = 100, quest = 84072}),
         Transmog({item = 221231, type = L['leather']}) -- Steam-Powered Wristwatch
     },
     pois = {Entrance({77485899})} -- Entrance
@@ -306,9 +306,9 @@ map.nodes[64590352] = Rare({
     quest = 82037, -- 84080
     rewards = {
         Achievement({id = 40840, criteria = 69668}),
-        Reputation({id = 2601, gain = 50, quest = 84080}),
-        Reputation({id = 2605, gain = 50, quest = 84080}),
-        Reputation({id = 2607, gain = 50, quest = 84080}),
+        Reputation({id = 2601, gain = 100, quest = 84080}),
+        Reputation({id = 2605, gain = 100, quest = 84080}),
+        Reputation({id = 2607, gain = 100, quest = 84080}),
         Transmog({item = 223930, type = L['mail']}), -- Monstrous Chain Pincers
         Transmog({item = 221240, type = L['1h_sword']}), -- Nerubian Stagshell Gouger
         Transmog({item = 221252, type = L['2h_sword']}) -- Nerubian Slayer's Claymore
@@ -342,9 +342,9 @@ cotl.nodes[67525826] = Rare({
     parent = {map.id, cot.id},
     rewards = {
         Achievement({id = 40840, criteria = 69658}),
-        Reputation({id = 2601, gain = 50, quest = 84070}),
-        Reputation({id = 2605, gain = 50, quest = 84070}),
-        Reputation({id = 2607, gain = 50, quest = 84070}),
+        Reputation({id = 2601, gain = 100, quest = 84070}),
+        Reputation({id = 2605, gain = 100, quest = 84070}),
+        Reputation({id = 2607, gain = 100, quest = 84070}),
         Transmog({item = 221239, type = L['gun']}), -- Spider Blasting Blunderbuss
         Transmog({item = 221221, type = L['plate']}), -- Venomous Lurker's Greathelm
         Transmog({item = 221506, type = L['cloak']}) -- Arachnid's Web-Sown Guise
@@ -358,9 +358,9 @@ map.nodes[63479504] = Rare({
     location = L['in_cave'],
     quest = 82290, -- 85167
     rewards = {
-        Reputation({id = 2601, gain = 50, quest = 85167}),
-        Reputation({id = 2605, gain = 50, quest = 85167}),
-        Reputation({id = 2607, gain = 50, quest = 85167}),
+        Reputation({id = 2601, gain = 100, quest = 85167}),
+        Reputation({id = 2605, gain = 100, quest = 85167}),
+        Reputation({id = 2607, gain = 100, quest = 85167}),
         Transmog({item = 221247, type = L['crossbow']}), -- Cavernous Critter Shooter
         Transmog({item = 221246, type = L['staff']}), -- Fierce Beast Staff
         Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
@@ -382,9 +382,9 @@ map.nodes[62816618] = Rare({
     quest = 82289, -- 85166
     note = L['tkaktath_note'],
     rewards = {
-        Reputation({id = 2601, gain = 50, quest = 85166}),
-        Reputation({id = 2605, gain = 50, quest = 85166}),
-        Reputation({id = 2607, gain = 50, quest = 85166}),
+        Reputation({id = 2601, gain = 100, quest = 85166}),
+        Reputation({id = 2605, gain = 100, quest = 85166}),
+        Reputation({id = 2607, gain = 100, quest = 85166}),
         Transmog({item = 221240, type = L['1h_sword']}), -- Nerubian Stagshell Gouger
         Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
         BloodVial()
