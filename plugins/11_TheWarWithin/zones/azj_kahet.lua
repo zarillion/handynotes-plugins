@@ -127,7 +127,7 @@ map.nodes[58036210] = Rare({
 
 map.nodes[61232730] = Rare({
     id = 216041,
-    quest = 81699, -- One Time Kill
+    quest = {81699, 91165}, -- One Time Kill
     note = L['in_building'],
     rewards = {
         Achievement({id = 40840, criteria = 69655}),
