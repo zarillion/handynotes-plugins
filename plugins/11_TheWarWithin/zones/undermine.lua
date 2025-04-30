@@ -826,16 +826,15 @@ function ShippingHandling.getters:note()
     return C_Spell.GetSpellDescription(1222389)
 end
 
-map.nodes[15852496] = ShippingHandling()
+map.nodes[90003500] = ShippingHandling()
 
 -------------------------------------------------------------------------------
 -------------------------- D.R.I.V.E. CUSTOMIZATIONS --------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[15852996] = Collectible({
+map.nodes[90004000] = Collectible({
     label = _G.ACCESSIBILITY_DRIVE_LABEL, -- D.R.I.V.E.
-    sublabel = L['breakneck_customization'], -- Item() instead of BreakneckCustomization()
-    -- note = ,
+    sublabel = L['breakneck_customization'],
     icon = 6383558,
     scale = 1.5,
     rewards = {
@@ -849,7 +848,7 @@ map.nodes[15852996] = Collectible({
         Item({item = 232981, quest = 85776, note = '{faction:2653}'}), -- GNZ Airmaster 9000
         Spacer(), Section(L['wheel_options']),
         Item({item = 232985, quest = 85782, note = '{spell:4036}'}), -- 22H Slicks
-        Item({item = 232986, quest = 85781, note = L['scrap_exchange']}), -- GE86 Advance -- which better? L['scrap_exchange'] or '{npc:234776}'?
+        Item({item = 232986, quest = 85781, note = L['scrap_exchange']}), -- GE86 Advance
         Spacer(), Section(L['turbo_options']),
         Item({item = 232983, quest = 85783, note = _G.MAP_LEGEND_RARE}), -- Steamboil
         Item({item = 232984, quest = 85784, note = _G.MAP_LEGEND_RARE}), -- Handcrank
@@ -968,7 +967,7 @@ function ChettList.getters:note()
     return note
 end
 
-map.nodes[15851996] = ChettList()
+map.nodes[90003000] = ChettList()
 
 -------------------------------------------------------------------------------
 --------------------- ACHIEVEMENT: NINE-TENTHS OF THE LAW ---------------------
