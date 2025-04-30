@@ -409,10 +409,7 @@ end
 
 ns.node.WorldsoulMemory = WorldsoulMemory
 
-ns.hook.AreaPoiEvent({
-    group = ns.groups.WORLDSOUL_MEMORIES,
-    pois = WORLDSOUL_AREA_POIS
-})
+ns.hooks.areapoievent.Add(ns.groups.WORLDSOUL_MEMORIES, WORLDSOUL_AREA_POIS)
 
 -------------------------------------------------------------------------------
 ------------------------------ KHAZ ALGAR SAFARI ------------------------------

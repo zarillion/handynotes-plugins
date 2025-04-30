@@ -1545,7 +1545,7 @@ local ASSAULTS = {
     [KYRIAN.assault] = KYRIAN_ASSAULT_REWARDS
 }
 
-ns.hook.Legend({questIDs = ASSAULTS})
+ns.hooks.legend.Add(nil, ASSAULTS)
 
 -------------------------------------------------------------------------------
 
@@ -1902,13 +1902,13 @@ map.nodes[46914169] = NPC({
         Item({item = 184588, quest = 63091, note = L['Ambivalent']}), -- Soul-Stabilizing Talisman
         Item({item = 184870, note = L['Appreciative']}), -- Stygia Dowser
         Spacer(), Section(L['torghast']), Spacer(),
-        Item({item = 184620, quest = 63202, note = L['Apprehensive']}), -- Vessel of Unforunate Spirits
-        Item({item = 184615, quest = 63183, note = L['Apprehensive']}), -- Extradimensional Pockets
-        Item({item = 184901, quest = 63523, note = L['Apprehensive']}), -- Broker Traversal Enhancer
-        Item({item = 184617, quest = 63193, note = L['Tentative']}), -- Bangle of Seniority
-        Item({item = 184621, quest = 63204, note = L['Ambivalent']}), -- Ritual Prism of Fortune
-        Item({item = 184618, quest = 63200, note = L['Cordial']}), -- Rank Insignia: Acquisitionist
-        Item({item = 184619, quest = 63201, note = L['Cordial']}), -- Loupe of Unusual Charm
-        Item({item = 180952, quest = 61144, note = L['Appreciative']}) -- Possibility Matrix
+        Item({item = 184620, quest_account = 63202, note = L['Apprehensive']}), -- Vessel of Unforunate Spirits
+        Item({item = 184615, quest_account = 63183, note = L['Apprehensive']}), -- Extradimensional Pockets
+        Item({item = 184901, quest_account = 63523, note = L['Apprehensive']}), -- Broker Traversal Enhancer
+        Item({item = 184617, quest_account = 63193, note = L['Tentative']}), -- Bangle of Seniority
+        Item({item = 184621, quest_account = 63204, note = L['Ambivalent']}), -- Ritual Prism of Fortune
+        Item({item = 184618, quest_account = 63200, note = L['Cordial']}), -- Rank Insignia: Acquisitionist
+        Item({item = 184619, quest_account = 63201, note = L['Cordial']}), -- Loupe of Unusual Charm
+        Item({item = 180952, quest_account = 61144, note = L['Appreciative']}) -- Possibility Matrix
     }
 }) -- Ve'nari

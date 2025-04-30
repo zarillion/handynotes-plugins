@@ -1,3 +1,7 @@
+# v118
+
+* Venari rewards are now tracked as account-bound.
+
 # v97
 
 * Localization updates: esES

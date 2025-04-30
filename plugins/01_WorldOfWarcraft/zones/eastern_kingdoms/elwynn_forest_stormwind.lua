@@ -39,13 +39,13 @@ map.nodes[38608360] = Rare({
     }
 }) -- Narg the Taskmaster
 
-map.nodes[51403020] = Rare({
+ns.Map({id = 40}).nodes[51403020] = Rare({
     id = 471,
-    note = 'Jasperlode Mines',
     rewards = {
         Transmog({item = 6148, type = L['cloth']}), -- Web-Covered Boots
         Transmog({item = 3000, type = L['leather']}) -- Brood Mother Carapace
-    }
+    },
+    parent = {{id = map.id, location = L['in_cave'], pois = {POI({61675366})}}}
 }) -- Mother Fang
 
 map.nodes[67083960] = Rare({

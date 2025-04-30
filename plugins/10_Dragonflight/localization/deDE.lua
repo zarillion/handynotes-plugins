@@ -579,7 +579,7 @@ L['naszuro_windsong_rise'] = 'Oben auf der Steinsäule.'
 L['naszuro_emerald_gardens'] = 'Im Gras neben dem Wasserfall.'
 
 L['prismatic_leaper_school_label'] = 'Prismatischer Springerschwarm'
-L['prismatic_leaper_school_note'] = 'Sprich mit {npc:195935} in {location:Iskaara}, um Verbesserungen freizuschalten.\n\nAngle die folgenden Gegenstände aus {object:Prismatischer Springerschwarm} in {location:Ohn\'ahran Plains}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
+L['prismatic_leaper_school_note'] = 'Sprich mit {npc:195935} in {location:Iskaara}, um Verbesserungen freizuschalten.\n\nAngle die folgenden Gegenstände aus {object:Prismatischer Springerschwarm} in den {location:Ebenen von Ohn\'ahra}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
 L['aylaag_spear'] = 'Speer der Aylaag'
 L['dedication_plaquard'] = 'Widmungsplakette'

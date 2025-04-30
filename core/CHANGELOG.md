@@ -1,3 +1,8 @@
+# v118
+
+* Added a new approach to hooking POI vignettes.
+* Updated TOC for 11.1.5
+
 # v104
 
 * Add toggle for faction restrictions
