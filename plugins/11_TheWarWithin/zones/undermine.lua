@@ -674,7 +674,7 @@ map.nodes[39152219] = Vendor({
         BreakneckCustomization({item = 235388, quest = 86773}), -- Paint: Redlining Red
         Transmog({item = 231526}), -- Bilgewater Undermine Tabard
         Mount({item = 229935, id = 2272}), -- Crimson Armored Growler
-        Spacer(), Section(L['rep_paragon'] .. ' ({item:235259})'), -- Bilgewater's Trove (paragon reputation reward)
+        Spacer(), Section(L['rep_paragon'] .. ' ({item:237132})'), -- Bilgewater Trove (paragon reputation reward)
         Mount({item = 229957, id = 2295}) -- Bilgewater Bombardier
     }
 }) -- Rocco Razzboom <Bilgewater Quartermaster>
@@ -716,7 +716,7 @@ map.nodes[63421673] = Vendor({
         BreakneckCustomization({item = 235390, quest = 86771}), -- Paint: Body Roll Blue
         Transmog({item = 231528}), -- Blackwater Undermine Tabard
         Mount({item = 229948, id = 2286}), -- Blackwater Shredder Deluxe Mk 2
-        Spacer(), Section(L['rep_paragon'] .. ' ({item:235261})'), -- Blackwater's Trove (paragon reputation reward)
+        Spacer(), Section(L['rep_paragon'] .. ' ({item:237135})'), -- Blackwater Trove (paragon reputation reward)
         Mount({item = 229937, id = 2274}) -- Blackwater Bonecrusher
     }
 }) -- Boatswain Hardee <Blackwater Quartermaster>
@@ -737,7 +737,7 @@ map.nodes[53297271] = Vendor({
         BreakneckCustomization({item = 235391, quest = 86774}), -- Paint: Yellow Cake Yellow
         Transmog({item = 231542}), -- Venture Co. Undermine Tabard
         Mount({item = 229946, id = 2284}), -- Ocher Delivery Rocket
-        Spacer(), Section(L['rep_paragon'] .. ' ({item:235265})'), -- Venture Co.'s Trove (paragon reputation reward)
+        Spacer(), Section(L['rep_paragon'] .. ' ({item:237133})'), -- Venture Co. Trove (paragon reputation reward)
         Mount({item = 229951, id = 2289}) -- Venture Co-ordinator
     }
 }) -- Shredz the Scapper <Venture Quartermaster>
