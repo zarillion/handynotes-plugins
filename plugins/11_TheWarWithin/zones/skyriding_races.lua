@@ -261,7 +261,7 @@ ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, HALLOWFALL_POIS)
 
 local function AzjKahet_Rewards(a)
     return {
-        Achievement({id = 40343, criteria = a, oneline = false}), -- normal bronze
+        Achievement({id = 40343, criteria = a, oneline = true}), -- normal bronze
         Achievement({id = 40344, criteria = a, oneline = true}), -- normal silver
         Achievement({id = 40345, criteria = a, oneline = true}), -- normal gold
         Achievement({id = 40346, criteria = a, oneline = true}), -- advanced bronze
