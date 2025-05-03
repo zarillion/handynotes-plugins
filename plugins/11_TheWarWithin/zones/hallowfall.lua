@@ -497,10 +497,7 @@ map.nodes[51206940] = Rare({
         Reputation({id = 2688, gain = 100, quest = 91153})
     },
     pois = {
-        POI({
-            color = 'Red',
-            points = {50007020, 50206520, 51256975, 51807000}
-        })
+        POI({color = 'Red', points = {50007020, 50206520, 51256975, 51807000}})
     }
 }) -- Dissenter Fervormyt <Order of Night>
 

@@ -494,10 +494,7 @@ map.nodes[65715384] = Rare({
         Reputation({id = 2688, gain = 100, quest = 91160})
     },
     pois = {
-        POI({
-            color = 'Red',
-            points = {69145542, 69325669, 67905638, 65715384}
-        })
+        POI({color = 'Red', points = {69145542, 69325669, 67905638, 65715384}})
     }
 }) -- Whisperer Warhavuk <Order of Night>
 
