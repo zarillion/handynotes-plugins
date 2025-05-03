@@ -102,7 +102,7 @@ map.nodes[64560668] = Rare({
         Reputation({id = 2601, gain = 50, quest = 84081}),
         Reputation({id = 2605, gain = 50, quest = 84081}),
         Reputation({id = 2607, gain = 50, quest = 84081}),
-        Reputation({id = 2688, gain = 50, quest = 91161}), -- Flame's Radiance
+        Reputation({id = 2688, gain = 100, quest = 91161}), -- Flame's Radiance
         Transmog({item = 223923, type = L['plate']}), -- Gilded Cryptlord's Sabatons
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
         Transmog({item = 223915, type = L['dagger']}), -- Nerubian Orator's Stiletto
@@ -134,7 +134,7 @@ map.nodes[61232730] = Rare({
         Reputation({id = 2601, gain = 50, quest = 81699}),
         Reputation({id = 2605, gain = 50, quest = 81699}),
         Reputation({id = 2607, gain = 50, quest = 81699}),
-        Reputation({id = 2688, gain = 50, quest = 91165}), -- Flame's Radiance
+        Reputation({id = 2688, gain = 100, quest = 91165}), -- Flame's Radiance
         Transmog({item = 223369, slot = L['cloak']}) -- Webspeaker's Spiritual Cloak
     }
 }) -- Webspeaker Grik'ik
@@ -185,7 +185,7 @@ map.nodes[62400703] = Rare({ -- renamed by Blizzard?
         Reputation({id = 2601, gain = 50, quest = 84082}),
         Reputation({id = 2605, gain = 50, quest = 84082}),
         Reputation({id = 2607, gain = 50, quest = 84082}),
-        Reputation({id = 2688, gain = 50, quest = 91163}), -- Flame's Radiance
+        Reputation({id = 2688, gain = 100, quest = 91163}), -- Flame's Radiance
         Transmog({item = 223939, type = L['cloth']}), -- Esteemed Nerubian's Mantle
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
         Transmog({item = 223915, type = L['dagger']}), -- Nerubian Orator's Stiletto
@@ -203,7 +203,7 @@ map.nodes[63152530] = Rare({
         Reputation({id = 2601, gain = 50, quest = 84071}),
         Reputation({id = 2605, gain = 50, quest = 84071}),
         Reputation({id = 2607, gain = 50, quest = 84071}),
-        Reputation({id = 2688, gain = 50, quest = 91162}), -- Flame's Radiance
+        Reputation({id = 2688, gain = 100, quest = 91162}), -- Flame's Radiance
         Transmog({item = 221206, type = L['plate']}), -- Reinforced Chitin Chestpiece
         Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
         Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
@@ -313,7 +313,7 @@ map.nodes[64590352] = Rare({
         Reputation({id = 2601, gain = 50, quest = 84080}),
         Reputation({id = 2605, gain = 50, quest = 84080}),
         Reputation({id = 2607, gain = 50, quest = 84080}),
-        Reputation({id = 2688, gain = 50, quest = 91164}), -- Flame's Radiance
+        Reputation({id = 2688, gain = 100, quest = 91164}), -- Flame's Radiance
         Transmog({item = 223930, type = L['mail']}), -- Monstrous Chain Pincers
         Transmog({item = 221240, type = L['1h_sword']}), -- Nerubian Stagshell Gouger
         Transmog({item = 221252, type = L['2h_sword']}) -- Nerubian Slayer's Claymore
@@ -404,15 +404,12 @@ map.nodes[64452830] = Rare({
     quest = 91150,
     rewards = {
         Achievement({id = 41999, criteria = 104456}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 91150})
+        Reputation({id = 2688, gain = 100, quest = 91150})
     },
     pois = {
         POI({
             color = 'Red',
-            points = {
-                61802760, 62602740, 62602760, 64202820, 64602840, 65803020,
-                67002800, 67002860, 64452830, 61782727
-            }
+            points = {62512719, 65953034, 67102832, 64452830, 61782727}
         })
     }
 }) -- Dissenter Oathland <Order of Night>
@@ -424,13 +421,13 @@ map.nodes[62003058] = Rare({
     quest = 91156,
     rewards = {
         Achievement({id = 41999, criteria = 104464}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 91156})
+        Reputation({id = 2688, gain = 100, quest = 91156})
     },
     pois = {
         POI({
             color = 'Green',
             points = {
-                62602640, 64203020, 65803100, 67402760, 66402850, 62003058
+                62602640, 64203020, 65803100, 67472757, 66652823, 62003058
             }
         })
     }
@@ -442,34 +439,30 @@ map.nodes[63070386] = Rare({
     quest = 91154,
     rewards = {
         Achievement({id = 41999, criteria = 104458}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 91154})
+        Reputation({id = 2688, gain = 100, quest = 91154})
     },
     pois = {
         POI({
             color = 'Red',
-            points = {
-                63070386, 63000400, 63201120, 63801220, 64001260, 65000580,
-                65800940, 65800960
-            }
+            points = {63070386, 63201120, 63801220, 65000580, 65980941}
         })
     }
 }) -- Dissenter Tailtrek <Order of Night>
 
-map.nodes[64601360] = Rare({
+map.nodes[64691333] = Rare({
     id = 241235,
     sublabel = '{quest:88916}', -- Radiant Incursion: Sureki's End
     note = L['suspicious_document_note'],
     quest = 91152,
     rewards = {
         Achievement({id = 41999, criteria = 104462}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 91152})
+        Reputation({id = 2688, gain = 100, quest = 91152})
     },
     pois = {
         POI({
             color = 'Green',
             points = {
-                63890647, 63800660, 64401360, 64601340, 64601360, 64800620,
-                64800660, 65000940, 65400960, 65401660, 65611623, 62561617
+                63670688, 64691333, 64820648, 65280942, 65601622, 62561617
             }
         })
     }
@@ -482,14 +475,12 @@ map.nodes[69585454] = Rare({
     quest = 89273,
     rewards = {
         Achievement({id = 41999, criteria = 104455}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 89273})
+        Reputation({id = 2688, gain = 100, quest = 89273})
     },
     pois = {
         POI({
             color = 'Green',
-            points = {
-                66605360, 66805080, 68205460, 69405440, 69405460, 69585454
-            }
+            points = {66725077, 66655365, 68205460, 69575454}
         })
     }
 }) -- Dissenter Glaivefur <Order of Night>
@@ -500,15 +491,12 @@ map.nodes[65715384] = Rare({
     quest = 91160,
     rewards = {
         Achievement({id = 41999, criteria = 104466}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 91160})
+        Reputation({id = 2688, gain = 100, quest = 91160})
     },
     pois = {
         POI({
             color = 'Red',
-            points = {
-                65605300, 65805380, 68005620, 69205520, 69205640, 69605600,
-                69325669, 67905638, 67965614, 65715384
-            }
+            points = {69145542, 69325669, 67905638, 65715384}
         })
     }
 }) -- Whisperer Warhavuk <Order of Night>

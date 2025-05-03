@@ -467,14 +467,12 @@ map.nodes[41456165] = Rare({
     quest = 91157,
     rewards = {
         Achievement({id = 41999, criteria = 104459}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 91157})
+        Reputation({id = 2688, gain = 100, quest = 91157})
     },
     pois = {
         POI({
             color = 'Green',
-            points = {
-                40005840, 40405940, 40405960, 40406080, 41205940, 41406180
-            }
+            points = {39955847, 40405960, 40406080, 41205940, 41446166}
         })
     }
 }) -- Dissenter Fortfervor <Order of Night>
@@ -485,9 +483,9 @@ map.nodes[40006060] = Rare({
     quest = 91151,
     rewards = {
         Achievement({id = 41999, criteria = 104461}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 91151})
+        Reputation({id = 2688, gain = 100, quest = 91151})
     },
-    pois = {POI({color = 'Red', points = {39806240, 40006060, 42006180}})}
+    pois = {POI({color = 'Red', points = {39806240, 40026194, 41886199}})}
 }) -- Whisperer Batalsworn <Order of Night>
 
 map.nodes[51206940] = Rare({
@@ -496,43 +494,41 @@ map.nodes[51206940] = Rare({
     quest = 91153,
     rewards = {
         Achievement({id = 41999, criteria = 104457}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 91153})
+        Reputation({id = 2688, gain = 100, quest = 91153})
     },
     pois = {
         POI({
             color = 'Red',
-            points = {50007020, 50206520, 51206940, 51206960, 51807000}
+            points = {50007020, 50206520, 51256975, 51807000}
         })
     }
 }) -- Dissenter Fervormyt <Order of Night>
 
-map.nodes[49606500] = Rare({
+map.nodes[49756497] = Rare({
     id = 241238,
     sublabel = '{quest:87477}', -- Sureki Incursion: Southern Swarm
     note = L['suspicious_document_note'],
     quest = 91159,
     rewards = {
         Achievement({id = 41999, criteria = 104465}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 91159})
+        Reputation({id = 2688, gain = 100, quest = 91159})
     },
     pois = {
         POI({
             color = 'Green',
-            points = {
-                49606500, 49807020, 50606660, 51006640, 51406840, 51406860,
-                51407000, 51606840, 51476855, 51517009
-            }
+            points = {49756497, 49817033, 50676615, 51466857, 51527006}
         })
     }
 }) -- Whisperer Siegesage <Order of Night>
 
-map.nodes[74004360] = Rare({ -- (bugged, placeholder)
+map.nodes[74004360] = Rare({
     id = 241232,
     sublabel = '{quest:87480}', -- Sureki Incursion: The Eastern Assault
+    note = 'bugged', -- placeholder
     quest = 00000, -- missing
     rewards = {
         Achievement({id = 41999, criteria = 104460}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 00000}) -- missing
+        Reputation({id = 2688, gain = 100, quest = 00000}) -- missing
     },
     pois = {
         POI({
@@ -542,14 +538,14 @@ map.nodes[74004360] = Rare({ -- (bugged, placeholder)
     }
 }) -- Dissenter Troosilver <Order of Night>
 
-map.nodes[76004560] = Rare({ -- (bugged, placeholder)
+map.nodes[76004560] = Rare({
     id = 241236,
     sublabel = '{quest:87480}', -- Sureki Incursion: The Eastern Assault
-    note = L['suspicious_document_note'],
+    note = 'bugged', -- placeholder
     quest = 00000, --- missing
     rewards = {
         Achievement({id = 41999, criteria = 104463}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 50, quest = 00000}) -- missing
+        Reputation({id = 2688, gain = 100, quest = 00000}) -- missing
     },
     pois = {
         POI({
