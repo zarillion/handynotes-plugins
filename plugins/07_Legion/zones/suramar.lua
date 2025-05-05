@@ -296,6 +296,14 @@ map.nodes[18676106] = Rare({
     }
 }) -- Tideclaw
 
+map.nodes[16812672] = Rare({
+    id = 103841,
+    quest = 43996,
+    rewards = {
+        Achievement({id = 11265, criteria = 33348}) -- Adventurer of Suramar
+    }
+}) -- Shadowquill
+
 -- local Baconlisk = Class('Baconlisk', Rare, {id = 103787, quest = nil, fgroup = 'baconlisk'})
 -- map.nodes[24804980] = Baconlisk()
 -- map.nodes[39002940] = Baconlisk({note = L['in_small_cave']})
