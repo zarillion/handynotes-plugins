@@ -540,9 +540,7 @@ map.nodes[72384757] = Rare({
     },
     pois = {
         POI({
-            color = 'Green',
-            points = {72384757, 74744296, 72724155, 72944478}
-        })
+            color = 'Green', points = {72384757, 74744296, 72724155, 72944478}})
     }
 }) -- Whisperer Bravefort <Order of Night>
 
