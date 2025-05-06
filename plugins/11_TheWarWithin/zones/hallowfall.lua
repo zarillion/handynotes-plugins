@@ -518,36 +518,30 @@ map.nodes[49756497] = Rare({
     }
 }) -- Whisperer Siegesage <Order of Night>
 
-map.nodes[74004360] = Rare({
+map.nodes[75904471] = Rare({
     id = 241232,
     sublabel = '{quest:87480}', -- Sureki Incursion: The Eastern Assault
-    note = 'bugged', -- placeholder
-    quest = 00000, -- missing
+    quest = 91158,
     rewards = {
         Achievement({id = 41999, criteria = 104460}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 100, quest = 00000}) -- missing
+        Reputation({id = 2688, gain = 100, quest = 91158})
     },
-    pois = {
-        POI({
-            color = 'Red', -- L['suspicious_document_note'] for green, otherwise red
-            points = {}
-        })
-    }
+    pois = {POI({color = 'Red', points = {75904471, 71184609, 72054157}})}
 }) -- Dissenter Troosilver <Order of Night>
 
-map.nodes[76004560] = Rare({
+map.nodes[72384757] = Rare({
     id = 241236,
     sublabel = '{quest:87480}', -- Sureki Incursion: The Eastern Assault
-    note = 'bugged', -- placeholder
-    quest = 00000, --- missing
+    note = L['suspicious_document_note'],
+    quest = 91155,
     rewards = {
         Achievement({id = 41999, criteria = 104463}), -- Fighter of the Nightman
-        Reputation({id = 2688, gain = 100, quest = 00000}) -- missing
+        Reputation({id = 2688, gain = 100, quest = 91155})
     },
     pois = {
         POI({
-            color = 'Green', -- L['suspicious_document_note'] for green, otherwise red
-            points = {}
+            color = 'Green',
+            points = {72384757, 74744296, 72724155, 72944478}
         })
     }
 }) -- Whisperer Bravefort <Order of Night>
