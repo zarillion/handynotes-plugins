@@ -478,10 +478,7 @@ map.nodes[69585454] = Rare({
         Reputation({id = 2688, gain = 100, quest = 89273})
     },
     pois = {
-        POI({
-            color = 'Green',
-            points = {66725077, 66655365, 68205460, 69575454}
-        })
+        POI({color = 'Green', points = {66725077, 66655365, 68205460, 69575454}})
     }
 }) -- Dissenter Glaivefur <Order of Night>
 
