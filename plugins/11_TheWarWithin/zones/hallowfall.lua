@@ -539,8 +539,7 @@ map.nodes[72384757] = Rare({
         Reputation({id = 2688, gain = 100, quest = 91155})
     },
     pois = {
-        POI({
-            color = 'Green', points = {72384757, 74744296, 72724155, 72944478}})
+        POI({color = 'Green', points = {72384757, 74744296, 72724155, 72944478}})
     }
 }) -- Whisperer Bravefort <Order of Night>
 
