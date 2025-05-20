@@ -67,6 +67,10 @@ local CHEST3 = Chest({
 local orgrimmar = Map({id = 1469, settings = true})
 local stormwind = Map({id = 1470, settings = true})
 
+-- new IDs for War Within revisit
+ns.maps[2403] = orgrimmar
+ns.maps[2404] = stormwind
+
 -------------------------------------------------------------------------------
 ---------------------------------- ORGRIMMAR ----------------------------------
 -------------------------------------------------------------------------------
