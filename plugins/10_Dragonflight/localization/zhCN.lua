@@ -1252,7 +1252,7 @@ L['soa_13_great_place_c_note'] = '在一座小建筑里，两个 {npc:197035} �
 L['soa_13_great_place_d_label'] = '研究员的笔记'
 L['soa_13_great_place_d_note'] = '在一栋小建筑内，一些书旁边。'
 L['soa_13_great_place_e_label'] = '字迹潦草的字条'
-L['soa_13_great_place_e_note'] = '在 {ocation:匠人集市} 的供应商摊位后面。'
+L['soa_13_great_place_e_note'] = '在 {location:匠人集市} 的供应商摊位后面。'
 L['soa_13_great_place_f_label'] = '给克里沙的便条'
 L['soa_13_great_place_f_note'] = '在 {location:巨龙宝藏} 内的一个箱子上。\n\n需要对 {location:脆烤山羊旅店} 中的 {npc:189827} 进行表情 {emote:/鞠躬}，{emote:/bow} 才能进入秘密酒吧。'
 
