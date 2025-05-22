@@ -582,7 +582,7 @@ L['prismatic_leaper_school_label'] = '棱光跃鲑鱼群'
 L['prismatic_leaper_school_note'] = '与 {location:伊斯卡拉} 的 {npc:195935} 交谈以进行升级。\n\n从整个 {location:欧恩哈拉平原} 的 {object:棱光跃鲑鱼群} 中钓取以下物品：\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
 L['aylaag_spear'] = '艾拉格长矛'
-L['dedication_plaquard'] = '奉献壁橱'
+L['dedication_plaquard'] = '专心标牌'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
