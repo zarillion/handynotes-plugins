@@ -133,7 +133,7 @@ L['sr_reverse_challenge'] = 'Испытание наоборот'
 L['sr_storm_race'] = 'Гонки Бурь'
 L['sr_bronze'] = 'Завершите гонку, чтобы получить ' .. ns.color.Bronze('Бронзу') .. '.'
 L['sr_vendor_note'] = 'Обмен {currency:2588} на манускрипты и трансмогрификацию.'
-L['options_icons_skyriding_race'] = nil
+L['options_icons_skyriding_race'] = 'Гонки на драконах'
 L['options_icons_skyriding_race_desc'] = 'Отображение местоположения гонок на драконах.'
 
 -------------------------------------------------------------------------------
