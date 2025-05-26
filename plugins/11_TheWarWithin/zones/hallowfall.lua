@@ -458,6 +458,91 @@ map.nodes[62090835] = Rare({
     fgroup = 'mycelium'
 }) -- Radiant-Twisted Mycelium
 
+----------------------------- NIGHTFALL ELITES --------------------------------
+
+map.nodes[41456165] = Rare({
+    id = 241231,
+    sublabel = '{quest:87475}', -- Sureki Incursion: Hold the Wall
+    note = L['suspicious_document_note'],
+    quest = 91157,
+    rewards = {
+        Achievement({id = 41999, criteria = 104459}), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 100, quest = 91157})
+    },
+    pois = {
+        POI({
+            color = 'Green',
+            points = {39955847, 40405960, 40406080, 41205940, 41446166}
+        })
+    }
+}) -- Dissenter Fortfervor <Order of Night>
+
+map.nodes[40006060] = Rare({
+    id = 241234,
+    sublabel = '{quest:87475}', -- Sureki Incursion: Hold the Wall
+    quest = 91151,
+    rewards = {
+        Achievement({id = 41999, criteria = 104461}), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 100, quest = 91151})
+    },
+    pois = {POI({color = 'Red', points = {39806240, 40026194, 41886199}})}
+}) -- Whisperer Batalsworn <Order of Night>
+
+map.nodes[51206940] = Rare({
+    id = 241229,
+    sublabel = '{quest:87477}', -- Sureki Incursion: Southern Swarm
+    quest = 91153,
+    rewards = {
+        Achievement({id = 41999, criteria = 104457}), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 100, quest = 91153})
+    },
+    pois = {
+        POI({color = 'Red', points = {50007020, 50206520, 51256975, 51807000}})
+    }
+}) -- Dissenter Fervormyt <Order of Night>
+
+map.nodes[49756497] = Rare({
+    id = 241238,
+    sublabel = '{quest:87477}', -- Sureki Incursion: Southern Swarm
+    note = L['suspicious_document_note'],
+    quest = 91159,
+    rewards = {
+        Achievement({id = 41999, criteria = 104465}), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 100, quest = 91159})
+    },
+    pois = {
+        POI({
+            color = 'Green',
+            points = {49756497, 49817033, 50676615, 51466857, 51527006}
+        })
+    }
+}) -- Whisperer Siegesage <Order of Night>
+
+map.nodes[75904471] = Rare({
+    id = 241232,
+    sublabel = '{quest:87480}', -- Sureki Incursion: The Eastern Assault
+    quest = 91158,
+    rewards = {
+        Achievement({id = 41999, criteria = 104460}), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 100, quest = 91158})
+    },
+    pois = {POI({color = 'Red', points = {75904471, 71184609, 72054157}})}
+}) -- Dissenter Troosilver <Order of Night>
+
+map.nodes[72384757] = Rare({
+    id = 241236,
+    sublabel = '{quest:87480}', -- Sureki Incursion: The Eastern Assault
+    note = L['suspicious_document_note'],
+    quest = 91155,
+    rewards = {
+        Achievement({id = 41999, criteria = 104463}), -- Fighter of the Nightman
+        Reputation({id = 2688, gain = 100, quest = 91155})
+    },
+    pois = {
+        POI({color = 'Green', points = {72384757, 74744296, 72724155, 72944478}})
+    }
+}) -- Whisperer Bravefort <Order of Night>
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
