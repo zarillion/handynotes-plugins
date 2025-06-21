@@ -61,7 +61,7 @@ map.nodes[12345678] = Rare({
     }
 }) -- Grubber
 
-map.nodes[12345678] = Rare({
+map.nodes[75233098] = Rare({
     id = 245998,
     rewards = {
         Achievement({id = 42761, criteria = 106334})
@@ -131,12 +131,14 @@ map.nodes[12345678] = Rare({
     }
 }) -- Revenant of the Wasteland
 
-map.nodes[12345678] = Rare({
+map.nodes[72205557] = Rare({
     id = 232006,
+    quest = 90673, -- 90585 (rep)?
     rewards = {
-        Achievement({id = 42761, criteria = 106343})
+        Achievement({id = 42761, criteria = 106343}),
+        Reputation({id = 2658, gain = 15, quest = 90585}) -- The K'aresh Trust
     }
-}) -- Sha'ryth the Cursed
+}) -- Sha'ryth the Cursed (patrols needs path)
 
 map.nodes[12345678] = Rare({
     id = 232129,
@@ -191,7 +193,7 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Gift of the Brothers
 
-map.nodes[00000000] = Treasure({
+map.nodes[60903835] = Treasure({
     quest = 00000,
     rewards = {
         Achievement({id = 42741, criteria = 106271}),
@@ -205,28 +207,28 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Forlorn Wind Chime
 
-map.nodes[00000000] = Treasure({
+tav.nodes[47766265] = Treasure({
     quest = 00000,
     rewards = {
         Achievement({id = 42741, criteria = 106273}),
     }
 }) -- Mailroom Distribution
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
+map.nodes[64104398] = Treasure({
+    quest = 86492,
     rewards = {
         Achievement({id = 42741, criteria = 106244}),
     }
 }) -- Ixthar's Favorite Crystal
 
-map.nodes[00000000] = Treasure({
+map.nodes[60544213] = Treasure({
     quest = 00000,
     rewards = {
         Achievement({id = 42741, criteria = 106274}),
     }
 }) -- Wastelander Stash
 
-map.nodes[00000000] = Treasure({
+map.nodes[65346362] = Treasure({
     quest = 00000,
     rewards = {
         Achievement({id = 42741, criteria = 106275}),
@@ -240,17 +242,18 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Rashaal's Vase
 
-map.nodes[00000000] = Treasure({
+map.nodes[75065534] = Treasure({
     quest = 00000,
     rewards = {
         Achievement({id = 42741, criteria = 106276}),
     }
 }) -- Shattered Crystals
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
+map.nodes[77782787] = Treasure({
+    quest = 86322,
     rewards = {
         Achievement({id = 42741, criteria = 106277}),
+        Pet({item = 243158, id = 4813, count = 1}) -- Ixthal the Observling
     }
 }) -- Skeletal Tail Bones
 
@@ -268,8 +271,8 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Abandoned Lockbox
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
+map.nodes[54956245] = Treasure({
+    quest = 91352,
     rewards = {
         Achievement({id = 42741, criteria = 106279}),
     }
@@ -410,7 +413,7 @@ map.nodes[74003250] = SkyridingGlyph({
 }) -- The Oasis
 
 -------------------------------------------------------------------------------
------------------------ DANGEROUS PROWLERS OF K'ARESH -------------------------
+-------------------------- SECRETS OF THE K'ARESHI ----------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[00000000] = LoreObject({
@@ -448,7 +451,7 @@ map.nodes[00000000] = LoreObject({
     }
 }) -- Checklist of Minor Pleasures
 
-map.nodes[00000000] = LoreObject({
+tav.nodes[46321858] = LoreObject({
     quest = 00000,
     rewards = {
         Achievement({id = 60890, criteria = 107311}),
@@ -469,16 +472,24 @@ map.nodes[00000000] = LoreObject({
     }
 }) -- Mysterious Notebook
 
-map.nodes[00000000] = LoreObject({
-    quest = 00000,
+tav.nodes[41683982] = LoreObject({
+    quest = 91648,
     rewards = {
         Achievement({id = 60890, criteria = 107314}),
+        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
     }
 }) -- Coins: An Oath We Exchange
 
-map.nodes[00000000] = LoreObject({
-    quest = 00000,
+map.nodes[48925715] = LoreObject({
+    quest = 91686,
     rewards = {
         Achievement({id = 60890, criteria = 107313}),
+        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
     }
 }) -- Geologist Field Journal
+
+
+-------------------------------------------------------------------------------
+----------------------- DANGEROUS PROWLERS OF K'ARESH -------------------------
+-------------------------------------------------------------------------------
+
