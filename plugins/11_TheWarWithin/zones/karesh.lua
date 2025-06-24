@@ -1,6 +1,7 @@
 -------------------------------------------------------------------------------
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
+
 local ADDON_NAME, ns = ...
 local Class = ns.Class
 local L = ns.locale
@@ -31,10 +32,11 @@ local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
+------------------------------------ MAPS -------------------------------------
+-------------------------------------------------------------------------------
 
 local tav = Map({id = 2472, settings = true})
 local map = Map({id = 2371, settings = true})
-
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -420,6 +422,7 @@ map.nodes[00000000] = LoreObject({
     quest = 00000,
     rewards = {
         Achievement({id = 60890, criteria = 107306}),
+        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
     }
 }) -- I Have Become Void!
 
@@ -427,6 +430,7 @@ map.nodes[00000000] = LoreObject({
     quest = 00000,
     rewards = {
         Achievement({id = 60890, criteria = 107307}),
+        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
     }
 }) -- Multiversal Energy Dynamics and the Murmuration Paradox
 
@@ -434,6 +438,7 @@ map.nodes[00000000] = LoreObject({
     quest = 00000,
     rewards = {
         Achievement({id = 60890, criteria = 107308}),
+        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
     }
 }) -- From Vengeance to Void
 
@@ -441,6 +446,7 @@ map.nodes[00000000] = LoreObject({
     quest = 00000,
     rewards = {
         Achievement({id = 60890, criteria = 107309}),
+        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
     }
 }) -- The Facets of K'aresh
 
@@ -448,6 +454,7 @@ map.nodes[00000000] = LoreObject({
     quest = 00000,
     rewards = {
         Achievement({id = 60890, criteria = 107310}),
+        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
     }
 }) -- Checklist of Minor Pleasures
 
@@ -455,6 +462,7 @@ tav.nodes[46321858] = LoreObject({
     quest = 00000,
     rewards = {
         Achievement({id = 60890, criteria = 107311}),
+        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
     }
 }) -- Ba'key's Aromatic Broker Cookies Recipes
 
@@ -462,6 +470,7 @@ map.nodes[00000000] = LoreObject({
     quest = 00000,
     rewards = {
         Achievement({id = 60890, criteria = 107312}),
+        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
     }
 }) -- A Dog-eared Book
 
@@ -469,6 +478,7 @@ map.nodes[00000000] = LoreObject({
     quest = 00000,
     rewards = {
         Achievement({id = 60890, criteria = 107315}),
+        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
     }
 }) -- Mysterious Notebook
 
@@ -493,3 +503,31 @@ map.nodes[48925715] = LoreObject({
 ----------------------- DANGEROUS PROWLERS OF K'ARESH -------------------------
 -------------------------------------------------------------------------------
 
+local Purrkins = Class('purrkins', Collectible, {
+    icon = 4549129,
+    group = ns.groups.PURRKINS,
+})
+
+map.nodes[00000000] = Purrkins({
+    rewards = {Achievement({id = 42729, criteria = 00000})}
+}) -- C.T.
+
+map.nodes[00000000] = Purrkins({
+    rewards = {Achievement({id = 42729, criteria = 00000})}
+}) -- Empurror
+
+map.nodes[00000000] = Purrkins({
+    rewards = {Achievement({id = 42729, criteria = 00000})}
+}) -- K'aresh'ire
+
+map.nodes[00000000] = Purrkins({
+    rewards = {Achievement({id = 42729, criteria = 00000})}
+}) -- Little Ms. Phaser
+
+map.nodes[00000000] = Purrkins({
+    rewards = {Achievement({id = 42729, criteria = 00000})}
+}) -- Mar <Alley Queen of Tazavesh>
+
+map.nodes[00000000] = Purrkins({
+    rewards = {Achievement({id = 42729, criteria = 00000})}
+}) -- The King in Silver
