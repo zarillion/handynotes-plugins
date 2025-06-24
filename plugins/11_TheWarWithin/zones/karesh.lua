@@ -504,7 +504,7 @@ map.nodes[48925715] = LoreObject({
 -------------------------------------------------------------------------------
 
 local Purrkins = Class('purrkins', Collectible, {
-    icon = 4549129,
+    icon = 3742947,
     group = ns.groups.PURRKINS,
 })
 
