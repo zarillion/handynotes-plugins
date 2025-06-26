@@ -329,7 +329,7 @@ L['kej_pet_vendor_note'] = 'Each pet has a limited stock and costs 2,250x {curre
 L['options_icons_back_to_the_wall'] = '{achievement:40620}'
 L['options_icons_back_to_the_wall_desc'] = 'Display {npc:222119} locations for {achievement:40620}.'
 L['arathi_prisoner_suffix'] = 'Arathi prisoners saved'
-L['arathi_prisoner_note'] = 'Free webbed-wrapped {npc:222119} during the {wq:Special Assignment: A Pound of Cure}.'
+L['arathi_prisoner_note'] = 'Free webbed-wrapped {npc:222119}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
