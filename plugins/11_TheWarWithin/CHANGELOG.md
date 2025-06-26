@@ -2,6 +2,7 @@
 
 * Add Nightfall elite locations for [Fighter of the Nightman](https://www.wowhead.com/achievement=41999/fighter-of-the-nightman)
 * Fix note for [Back to the Wall](https://www.wowhead.com/achievement=40620/back-to-the-wall)
+* Localization updates: esES, frFR
 
 # v119
 
