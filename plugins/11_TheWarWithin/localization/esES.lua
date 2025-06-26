@@ -249,6 +249,11 @@ L['nightfarm_growthling_note'] = 'Usa 3x {item:206350} en la {object:Llave ardie
 
 L['thunder_lynx_note'] = '1. Usa 3x {item:206350} en la {object:Llave ardiente inferior} de la {location:Mina Antorcha} para invocar a {npc:212419}.\n\n2. Habla con {npc:212419} y sigue todas las líneas de diálogo hasta que consigas la misión {quest:82007}.\n\n3. Localiza cada cría de lince: {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}), y {npc:222374} ({dot:Red}).\n\n{note:Asegúrate de empezar la misión {quest:76169} al mismo tiempo que consigas la {item:219198} o usa un objeto similar como la {item:219148}. Necesitarás una luz para conseguir a {npc:222373} dentro de la {location:Cueva Sombrafría}.}\n\n4. Rescata todos los gatitos lince y regresa con {npc:212419}.'
 
+L['options_icons_fighter'] = '{achievement:41999}'
+L['options_icons_fighter_desc'] = nil
+L['suspicious_document_label'] = nil
+L['suspicious_document_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

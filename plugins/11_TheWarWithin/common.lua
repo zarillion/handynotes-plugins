@@ -81,6 +81,12 @@ ns.groups.BOOKWORM = Group('bookworm', 4549129, {
     achievement = 40629
 })
 
+ns.groups.FIGHTER = Group('fighter', 135945, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 41999
+})
+
 ns.groups.FLAMEGARDS_HOPE = Group('flamegards_hope', 463526, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -342,6 +348,20 @@ local FlightMaster = Class('FlightMaster', Collectible, {
 }) -- Flight Point
 
 ns.node.FlightMaster = FlightMaster
+
+-------------------------------------------------------------------------------
+-------------------- ACHIEVEMENT: FIGHTER OF THE NIGHTMAN ---------------------
+-------------------------------------------------------------------------------
+
+local SuspiciousDocument = Collectible({
+    label = L['suspicious_document_label'],
+    icon = 'peg_bl',
+    scale = 1.5,
+    note = L['suspicious_document_note'],
+    group = ns.groups.FIGHTER
+})
+
+ns.node.SuspiciousDocument = SuspiciousDocument
 
 -------------------------------------------------------------------------------
 ----------------------------- WORLDSOUL MEMORIES ------------------------------

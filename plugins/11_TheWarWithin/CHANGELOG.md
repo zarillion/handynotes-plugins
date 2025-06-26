@@ -1,3 +1,8 @@
+# v120
+
+* Add Nightfall elite locations for [Fighter of the Nightman](https://www.wowhead.com/achievement=41999/fighter-of-the-nightman)
+* Fix note for [Back to the Wall](https://www.wowhead.com/achievement=40620/back-to-the-wall)
+
 # v119
 
 * Fix lua error when hovering scrap heaps in undermine [#492]
