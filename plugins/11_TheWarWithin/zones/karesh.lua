@@ -240,6 +240,16 @@ map.nodes[65144998] = Rare({
     }
 }) -- Xarran the Binder
 
+-------
+map.nodes[31155818] = Rare({
+    id = 238384,
+    quest = 90694,
+    requires = ns.requirement.Item(236753), -- [Xy'vox Refuge Dampener] from warrants
+    rewards = {
+        Achievement({id = 42761, criteria = 106349}),
+        Reputation({id = 2658, gain = 15, quest = 90695}) -- The K'aresh Trust
+    }
+}) -- Xy'vox The Twisted
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
@@ -453,8 +463,10 @@ map.nodes[74003250] = SkyridingGlyph({
 -------------------------- SECRETS OF THE K'ARESHI ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[00000000] = LoreObject({
-    quest = 00000,
+taz.nodes[36795807] = LoreObject({
+    parent = map.id,
+    quest = 91649,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 60890, criteria = 107306}),
         Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
@@ -485,8 +497,10 @@ map.nodes[00000000] = LoreObject({
     }
 }) -- The Facets of K'aresh
 
-map.nodes[00000000] = LoreObject({
-    quest = 00000,
+taz.nodes[38234562] = LoreObject({
+    parent = map.id,
+    quest = 91687,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 60890, criteria = 107310}),
         Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
