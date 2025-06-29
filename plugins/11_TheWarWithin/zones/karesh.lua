@@ -8,21 +8,15 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
-local DisturbedEarth = ns.node.DisturbedEarth
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
-local Vendor = ns.node.Vendor
-
-local FlightMaster = ns.node.FlightMaster
 local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
-local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
-local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
 
@@ -44,143 +38,181 @@ local map = Map({id = 2371, settings = true})
 
 map.nodes[12345678] = Rare({
     id = 232098,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106331})
+        Achievement({id = 42761, criteria = 106331}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
 }) -- "Chowdar" <Escaped Auction Parcel #8675308>
 
 map.nodes[12345678] = Rare({
     id = 241956,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106332})
+        Achievement({id = 42761, criteria = 106332}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
 }) -- Arcana-Monger So'zer
 
 map.nodes[12345678] = Rare({
     id = 238540,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106333})
+        Achievement({id = 42761, criteria = 106333}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
 }) -- Grubber
 
 map.nodes[75233098] = Rare({
     id = 245998,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106334})
+        Achievement({id = 42761, criteria = 106334}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
 }) -- Heka'tamos <the Elemental Disjunction>
 
-map.nodes[12345678] = Rare({
+map.nodes[63824363] = Rare({
     id = 232128,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106245})
+        Achievement({id = 42761, criteria = 106245}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
-}) -- Ixthar the Unblinking
+}) -- Ixthar the Unblinking (requires phase diving phase)
 
-map.nodes[12345678] = Rare({
+map.nodes[64244320] = Rare({
     id = 232077,
+    quest = 90586,
     rewards = {
-        Achievement({id = 42761, criteria = 106335})
+        Achievement({id = 42761, criteria = 106335}),
+        Reputation({id = 2658, gain = 15, quest = 90675}) -- The K'aresh Trust
     }
-}) -- Korgorath the Ravager
+}) -- Korgorath the Ravager 64144309-64984381 patrol path
 
-map.nodes[12345678] = Rare({
+map.nodes[54055884] = Rare({
     id = 245997,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106336})
+        Achievement({id = 42761, criteria = 106336}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
 }) -- Malek'ta <The Jaws of Oblivion>
 
-map.nodes[12345678] = Rare({
+map.nodes[54455445] = Rare({
     id = 231981,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106337})
+        Achievement({id = 42761, criteria = 106337}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
-}) -- Maw of the Sands
+}) -- Maw of the Sands (requires phase diving phase)
 
 map.nodes[12345678] = Rare({
     id = 232108,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106338})
+        Achievement({id = 42761, criteria = 106338}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
 }) -- Morgil the Netherspawn
 
-map.nodes[12345678] = Rare({
+map.nodes[52782081] = Rare({
     id = 232127,
+    quest = 90595,
     rewards = {
-        Achievement({id = 42761, criteria = 106339})
+        Achievement({id = 42761, criteria = 106339}),
+        Reputation({id = 2658, gain = 15, quest = 90684}) -- The K'aresh Trust
     }
-}) -- Orith the Dreadful
+}) -- Orith the Dreadful (requires phase diving phase)
 
 map.nodes[12345678] = Rare({
     id = 235422,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106340})
+        Achievement({id = 42761, criteria = 106340}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
 }) -- Phase-Thief Tezra
 
-map.nodes[12345678] = Rare({
+map.nodes[45782425] = Rare({
     id = 232182,
+    quest = 90590,
     rewards = {
-        Achievement({id = 42761, criteria = 106341})
+        Achievement({id = 42761, criteria = 106341}),
+        Reputation({id = 2658, gain = 15, quest = 90679}) -- The K'aresh Trust
     }
-}) -- Prototype Mk-V
+}) -- Prototype Mk-V (46262459-45832393) patrol path
 
-map.nodes[12345678] = Rare({
+map.nodes[50536469] = Rare({
     id = 232189,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106342})
+        Achievement({id = 42761, criteria = 106342}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
 }) -- Revenant of the Wasteland
 
 map.nodes[72205557] = Rare({
     id = 232006,
-    quest = 90673, -- 90585 (rep)?
+    quest = 90585,
     rewards = {
         Achievement({id = 42761, criteria = 106343}),
-        Reputation({id = 2658, gain = 15, quest = 90585}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 90673}) -- The K'aresh Trust
     }
 }) -- Sha'ryth the Cursed (patrols needs path)
 
 map.nodes[12345678] = Rare({
     id = 232129,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106344})
+        Achievement({id = 42761, criteria = 106344}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
 }) -- Shadowhowl
 
 map.nodes[12345678] = Rare({
     id = 232193,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106345})
+        Achievement({id = 42761, criteria = 106345}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
 }) -- Stalker of the Wastes
 
 map.nodes[12345678] = Rare({
     id = 234845,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106346})
+        Achievement({id = 42761, criteria = 106346}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
 }) -- Sthaarbs <the Mindroiler>
 
-map.nodes[12345678] = Rare({
+map.nodes[52705660] = Rare({
     id = 232111,
+    quest = 00000,
     rewards = {
-        Achievement({id = 42761, criteria = 106347})
+        Achievement({id = 42761, criteria = 106347}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
 }) -- The Nightreaver
 
-map.nodes[12345678] = Rare({
+map.nodes[70144983] = Rare({
     id = 232195,
+    quest = 90593,
     rewards = {
-        Achievement({id = 42761, criteria = 106348})
+        Achievement({id = 42761, criteria = 106348}),
+        Reputation({id = 2658, gain = 15, quest = 90682}) -- The K'aresh Trust
     }
 }) -- Urmag <The Terror Below>
 
-map.nodes[12345678] = Rare({
+map.nodes[65144998] = Rare({
     id = 232199,
+    quest = 90584,
     rewards = {
-        Achievement({id = 42761, criteria = 106349})
+        Achievement({id = 42761, criteria = 106349}),
+        Reputation({id = 2658, gain = 15, quest = 90672}) -- The K'aresh Trust
     }
 }) -- Xarran the Binder
 
@@ -202,8 +234,8 @@ map.nodes[60903835] = Treasure({
     }
 }) -- Ancient Coffer
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
+map.nodes[69745231] = Treasure({
+    quest = 85837,
     rewards = {
         Achievement({id = 42741, criteria = 106272}),
     }
@@ -220,6 +252,7 @@ map.nodes[64104398] = Treasure({
     quest = 86492,
     rewards = {
         Achievement({id = 42741, criteria = 106244}),
+        --ixthar's legacy
     }
 }) -- Ixthar's Favorite Crystal
 
@@ -237,19 +270,19 @@ map.nodes[65346362] = Treasure({
     }
 }) -- Tumbled Package
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
+map.nodes[70204773] = Treasure({
+    quest = 86306,
     rewards = {
         Achievement({id = 42741, criteria = 106276}),
     }
-}) -- Rashaal's Vase
+}) -- Rashaal's Vase (cave enterance 68794783)
 
 map.nodes[75065534] = Treasure({
-    quest = 00000,
+    quest = 86308,
     rewards = {
         Achievement({id = 42741, criteria = 106276}),
     }
-}) -- Shattered Crystals
+}) -- Shattered Crystals (in the place where rashalls vase is)
 
 map.nodes[77782787] = Treasure({
     quest = 86322,
@@ -259,14 +292,14 @@ map.nodes[77782787] = Treasure({
     }
 }) -- Skeletal Tail Bones
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
+map.nodes[58653434] = Treasure({
+    quest = 86323,
     rewards = {
         Achievement({id = 42741, criteria = 106278}),
     }
 }) -- Crudely Stitched Sack
 
-map.nodes[00000000] = Treasure({
+map.nodes[10005000] = Treasure({
     quest = 00000,
     rewards = {
         Achievement({id = 42741, criteria = 106278}),
@@ -280,7 +313,7 @@ map.nodes[54956245] = Treasure({
     }
 }) -- Lightly-Dented Luggage
 
-map.nodes[00000000] = Treasure({
+map.nodes[54462444] = Treasure({
     quest = 00000,
     rewards = {
         Achievement({id = 42741, criteria = 106280}),
