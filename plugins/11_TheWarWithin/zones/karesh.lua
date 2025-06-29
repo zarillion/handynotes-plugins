@@ -17,6 +17,7 @@ local SkyridingGlyph = ns.node.SkyridingGlyph
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Pet = ns.reward.Pet
+local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
 
@@ -29,20 +30,23 @@ local POI = ns.poi.POI
 ------------------------------------ MAPS -------------------------------------
 -------------------------------------------------------------------------------
 
-local tav = Map({id = 2472, settings = true})
+local taz = Map({id = 2472, settings = true})
 local map = Map({id = 2371, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[12345678] = Rare({
+taz.nodes[72948327] = Rare({
     id = 232098,
-    quest = 00000,
+    quest = 90587,
+    parent = map.id,
     rewards = {
         Achievement({id = 42761, criteria = 106331}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
-    }
+        Reputation({id = 2658, gain = 15, quest = 90676}) -- The K'aresh Trust
+    },
+    pois = {Path({81987555,80167580,75177783,73188013,72388259,72838465})}
+
 }) -- "Chowdar" <Escaped Auction Parcel #8675308>
 
 map.nodes[12345678] = Rare({
@@ -65,12 +69,31 @@ map.nodes[12345678] = Rare({
 
 map.nodes[75233098] = Rare({
     id = 245998,
-    quest = 00000,
+    quest = 91276,
     rewards = {
         Achievement({id = 42761, criteria = 106334}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 91422}) -- The K'aresh Trust
+        --item - [Reshii Magi's Pendant]
+    },
+    pois = {
+        POI({
+            label = '{object:551887}', -- Windcatcher (need local string)
+            points = {76983177}
+        }),
+        POI({
+            label = '{object:551884}', -- Dewminder
+            points = {72713472}
+        }),
+        POI({
+            label = '{object:551890}', -- earthy succulent
+            points = {71783462}
+        }),
+        POI({
+            label = '{object:551893}', -- Spectral Lantern
+            points = {72572845}
+        })
     }
-}) -- Heka'tamos <the Elemental Disjunction>
+}) -- Heka'tamos <the Elemental Disjunction> collect 4 element from around the eco dome then interact with brazer
 
 map.nodes[63824363] = Rare({
     id = 232128,
@@ -146,10 +169,10 @@ map.nodes[45782425] = Rare({
 
 map.nodes[50536469] = Rare({
     id = 232189,
-    quest = 00000,
+    quest = 90591,
     rewards = {
         Achievement({id = 42761, criteria = 106342}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 90680}) -- The K'aresh Trust
     }
 }) -- Revenant of the Wasteland
 
@@ -220,12 +243,30 @@ map.nodes[65144998] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
+map.nodes[76114526] = Treasure({
+    quest = {85958,85959},
     rewards = {
         Achievement({id = 42741, criteria = 106270}),
+        Transmog({item = 248199, type = L['offhand']}) -- [The Brothers' Final Gift]
+    },
+    pois = {
+        POI({
+            label = '{npc:234112}', -- Naji
+           -- quest = 86065,
+            points = {68304530}
+        }),
+        POI({
+            label = '{npc:234113}', -- M'alim
+         --   quest = 86066,
+            points = {69806050}
+        }),
+        POI({
+            label = '{npc:234075}', -- Sahra
+          --  quest = 86067,
+            points = {75503980}
+        })
     }
-}) -- Gift of the Brothers
+}) -- Gift of the Brothers (speak with 3 npcs at pois then return to Ihya at he flickering lantern)
 
 map.nodes[60903835] = Treasure({
     quest = 00000,
@@ -241,12 +282,14 @@ map.nodes[69745231] = Treasure({
     }
 }) -- Forlorn Wind Chime
 
-tav.nodes[47766265] = Treasure({
+taz.nodes[47766265] = Treasure({
     quest = 00000,
+    parent = map.id,
     rewards = {
         Achievement({id = 42741, criteria = 106273}),
+        Toy({item = 245970}), -- [P.O.S.T. Master's Express Hearthstone]
     }
-}) -- Mailroom Distribution
+}) -- Mailroom Distribution (need to write insturctions, click mailoverflow go into room head to swirls and press extra action button then chest spawns near door)
 
 map.nodes[64104398] = Treasure({
     quest = 86492,
@@ -314,9 +357,10 @@ map.nodes[54956245] = Treasure({
 }) -- Lightly-Dented Luggage
 
 map.nodes[54462444] = Treasure({
-    quest = 00000,
+    quest = 85840,
     rewards = {
         Achievement({id = 42741, criteria = 106280}),
+        Transmog({item = 246297, type = L['staff']}) -- [Desperate Defender's Bladed Staff]
     }
 }) -- Sand-Worn Coffer
 
@@ -439,7 +483,8 @@ map.nodes[44001700] = SkyridingGlyph({
     rewards = {Achievement({id = 42727, criteria = 106188 })}
 }) -- Shadow Point
 
-tav.nodes[55106750] = SkyridingGlyph({
+taz.nodes[55106750] = SkyridingGlyph({
+    parent = map.id,
     rewards = {Achievement({id = 42727, criteria = 106189 })}
 }) -- Tazavesh, the Veiled Market
 
@@ -491,8 +536,9 @@ map.nodes[00000000] = LoreObject({
     }
 }) -- Checklist of Minor Pleasures
 
-tav.nodes[46321858] = LoreObject({
+taz.nodes[46321858] = LoreObject({
     quest = 00000,
+    parent = map.id,
     rewards = {
         Achievement({id = 60890, criteria = 107311}),
         Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
@@ -507,16 +553,17 @@ map.nodes[00000000] = LoreObject({
     }
 }) -- A Dog-eared Book
 
-map.nodes[00000000] = LoreObject({
-    quest = 00000,
+map.nodes[58459150] = LoreObject({
+    quest = 91642,
     rewards = {
         Achievement({id = 60890, criteria = 107315}),
         Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
     }
 }) -- Mysterious Notebook
 
-tav.nodes[41683982] = LoreObject({
+taz.nodes[41683982] = LoreObject({
     quest = 91648,
+    parent = map.id,
     rewards = {
         Achievement({id = 60890, criteria = 107314}),
         Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
@@ -527,7 +574,7 @@ map.nodes[48925715] = LoreObject({
     quest = 91686,
     rewards = {
         Achievement({id = 60890, criteria = 107313}),
-        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 250, quest = 91686}) -- The K'aresh Trust
     }
 }) -- Geologist Field Journal
 
@@ -540,27 +587,29 @@ local Purrkins = Class('purrkins', Collectible, {
     icon = 3742947,
     group = ns.groups.PURRKINS,
 })
-
-map.nodes[00000000] = Purrkins({
-    rewards = {Achievement({id = 42729, criteria = 00000})}
+--/pet them
+map.nodes[48776248] = Purrkins({
+    rewards = {Achievement({id = 42729, criteria = 106220})},
+    pois = {Path({48796221, 48766249, 48516292, 48476313, 48246256,48076234,47846249,47616252,47326228,47406197,47906154,48166151,48376160,48556179,48786221,48776248,48496295,48796221})}
 }) -- C.T.
 
 map.nodes[00000000] = Purrkins({
-    rewards = {Achievement({id = 42729, criteria = 00000})}
+    rewards = {Achievement({id = 42729, criteria = 106225})}
 }) -- Empurror
 
 map.nodes[00000000] = Purrkins({
-    rewards = {Achievement({id = 42729, criteria = 00000})}
+    rewards = {Achievement({id = 42729, criteria = 106226})}
 }) -- K'aresh'ire
 
 map.nodes[00000000] = Purrkins({
-    rewards = {Achievement({id = 42729, criteria = 00000})}
+    rewards = {Achievement({id = 42729, criteria = 106221})}
 }) -- Little Ms. Phaser
 
-map.nodes[00000000] = Purrkins({
-    rewards = {Achievement({id = 42729, criteria = 00000})}
+taz.nodes[61015552] = Purrkins({
+    parent = map.id,
+    rewards = {Achievement({id = 42729, criteria = 106222})}
 }) -- Mar <Alley Queen of Tazavesh>
 
 map.nodes[00000000] = Purrkins({
-    rewards = {Achievement({id = 42729, criteria = 00000})}
+    rewards = {Achievement({id = 42729, criteria = 106223})}
 }) -- The King in Silver
