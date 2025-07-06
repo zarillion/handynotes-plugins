@@ -11,6 +11,7 @@ local DisturbedEarth = ns.node.DisturbedEarth
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
+local Vendor = ns.node.Vendor
 
 local FlightMaster = ns.node.FlightMaster
 local LoreObject = ns.node.LoreObject
@@ -657,6 +658,14 @@ map.nodes[60042799] = PT.Skinning({quest = 83915, id = 226341}) -- Earthen Worke
 dor.nodes[61561850] =
     PT.Tailoring({quest = 83922, id = 226348, parent = map.id}) -- Dornogal Seam Ripper
 map.nodes[56216102] = PT.Tailoring({quest = 83923, id = 226349}) -- Earthen Tape Measure
+
+dor.nodes[49295561] = Vendor({
+    id = 219098, -- Supply Foreman Drezmol <Engineering Supplies>
+    questDeps = 86487,
+    rewards = {
+        Item({item = 235037, quest = 86630}) -- Crumpled Schematic: Wormhole Generator: Undermine
+    }
+}) -- Link: Crumpled Schematics (undermine.lua)
 
 -------------------------------------------------------------------------------
 -------------------------- ISLE OF DORN GLYPH HUNTER --------------------------

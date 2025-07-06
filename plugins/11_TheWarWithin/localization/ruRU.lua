@@ -652,3 +652,40 @@ L['upgrade_turbo_handcrank'] = '{item:232984} (Ускорение): Объеди
 L['blazefeather_peacock_note'] = 'После завершения сюжетной линии {quest:83421} поговорите с {npc:226555}, чтобы заплатить %s за призыв {npc:226561}.'
 L['radioactive_subject_note'] = 'Используйте ближайшие трубы и комбинацию {item:237276}, {item:109076}, {item:231099} или любые другие трюки с прыжками, чтобы добраться до крыши здания {location:Лаборатории Хитрой Шестеренки} в {location:Котельной}.'
 L['george_the_big_pinch_note'] = 'Быстро щелкните по всем 5 {npc:238189}, чтобы получить {spell:1219679} и приручить {npc:233938}.'
+
+L['skyrocketing_sprint'] = 'Турбоскоростной спринт'
+L['unlock_skyrocketing_note'] = nil -- \n{wq:Воздушные гонки – Бросок по Хламовнику}\n{wq:Воздушные гонки – Пролет по Хламовской}\n{wq:Воздушные гонки – Рывок из грязи в князи}
+
+L['chett_suffix'] = 'Список КРОТ'
+L['chett_exchange_1'] = nil
+L['chett_exchange_2a'] = nil
+L['chett_exchange_2b'] = nil
+L['chett_exchange_2_requirement'] = nil
+L['chett_complete'] = nil
+L['chett_extra'] = nil
+L['chett_available'] = nil
+L['chett_ongoing'] = nil
+L['chett_submit'] = nil
+
+L['side_with_a_cartel'] = 'Выбор картеля'
+L['ship_right'] = 'Надежная доставка'
+L['reclaimed_scrap'] = 'Возвращенный утиль'
+L['side_gig'] = 'Побочное поручение'
+L['war_mode_violence'] = 'Резня в режиме войны'
+L['go_fish'] = 'Ловля рыбы'
+L['gotta_catch_at_least_a_few'] = 'Отлов зверьков'
+L['rare_rivals'] = 'Редкие враги'
+L['clean_the_sidestreets'] = 'Уборка переулков'
+L['time_to_vacate'] = 'Время эвакуации'
+L['desire_to_drive'] = 'Рвение к РАЗГОНу'
+L['kaja_cruising'] = 'Каджа-коллекция'
+L['garbage_day'] = 'Сбор мусора'
+
+L['scrap_exchange'] = 'Обмен ХЛАМа'
+L['paint_job_colors'] = 'Цвет'
+L['engine_options'] = 'Двигатель'
+L['wheel_options'] = 'Колеса'
+L['turbo_options'] = 'Турбоускоритель'
+L['horn_options'] = nil
+
+L['rep_paragon'] = 'Идеал'
