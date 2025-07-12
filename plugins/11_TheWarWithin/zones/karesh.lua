@@ -123,22 +123,23 @@ map.nodes[54055884] = Rare({
 
 map.nodes[54455445] = Rare({
     id = 231981,
-    quest = 00000,
+    quest = 90594,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 42761, criteria = 106337}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 90594}) -- The K'aresh Trust
     }
 }) -- Maw of the Sands (requires phase diving phase)
 
-map.nodes[12345678] = Rare({
+map.nodes[56045357] = Rare({
     id = 232108,
-    quest = 00000,
+    quest = 90588,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 42761, criteria = 106338}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 90677}) -- The K'aresh Trust
     }
-}) -- Morgil the Netherspawn
+}) -- Morgil the Netherspawn phase diving/patrols
 
 map.nodes[52782081] = Rare({
     id = 232127,
@@ -186,12 +187,13 @@ map.nodes[72205557] = Rare({
     }
 }) -- Sha'ryth the Cursed (patrols needs path)
 
-map.nodes[12345678] = Rare({
+map.nodes[54174911] = Rare({
     id = 232129,
-    quest = 00000,
+    quest = 90583,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 42761, criteria = 106344}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 90674}) -- The K'aresh Trust
     }
 }) -- Shadowhowl
 
@@ -240,7 +242,60 @@ map.nodes[65144998] = Rare({
     }
 }) -- Xarran the Binder
 
--------
+-------------------------------------------------------------------------------
+-------------------------------- WARRANT RARES --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[11111111] = Rare({
+    id = 238144,
+    quest = 00000,
+    requires = ns.requirement.Item(236967), -- [Grubber Lure] from warrants
+    rewards = {
+        -- Achievement({id = 42761, criteria = 106349}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
+    }
+}) -- Grubber (Review)
+
+map.nodes[22222222] = Rare({
+    id = 238144,
+    quest = 00000,
+    requires = ns.requirement.Item(236353), -- [Shatterpulse Cell Key] from warrants
+    rewards = {
+        -- Achievement({id = 42761, criteria = 106349}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
+    }
+}) -- Shatterpulse (Review)
+
+map.nodes[33333333] = Rare({
+    id = 238144,
+    quest = 00000,
+    requires = ns.requirement.Item(236353), -- [Shatterpulse Cell Key] from warrants
+    rewards = {
+        -- Achievement({id = 42761, criteria = 106349}),
+        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
+    }
+}) -- Arcana-Monger So'zer (Review)
+
+map.nodes[48441696] = Rare({
+    id = 238536,
+    quest = 90689,
+    requires = ns.requirement.Item(236957), -- [Hollowbane Portal Key] from warrants
+    rewards = {
+        -- Achievement({id = 42761, criteria = 106349}),
+        Reputation({id = 2658, gain = 15, quest = 90691}) -- The K'aresh Trust
+    }
+}) -- Hollowbane
+
+map.nodes[42505755] = Rare({
+    id = 238384,
+    quest = 87546,
+    requires = ns.requirement.Item(239276), -- [Purple Peat Cell Key] from warrants
+    rewards = {
+        -- Achievement({id = 42761, criteria = 106349}),
+        Reputation({id = 2658, gain = 15, quest = 90807}) -- The K'aresh Trust
+    }
+}) -- Purple Peat
+
 map.nodes[31155818] = Rare({
     id = 238384,
     quest = 90694,
@@ -250,6 +305,7 @@ map.nodes[31155818] = Rare({
         Reputation({id = 2658, gain = 15, quest = 90695}) -- The K'aresh Trust
     }
 }) -- Xy'vox The Twisted
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
@@ -304,12 +360,12 @@ map.nodes[64104398] = Treasure({
 }) -- Ixthar's Favorite Crystal
 
 map.nodes[60544213] = Treasure({
-    quest = 00000,
+    quest = 86301,
     rewards = {Achievement({id = 42741, criteria = 106274})}
 }) -- Wastelander Stash
 
 map.nodes[65346362] = Treasure({
-    quest = 00000,
+    quest = 86304,
     rewards = {Achievement({id = 42741, criteria = 106275})}
 }) -- Tumbled Package
 
@@ -357,8 +413,9 @@ map.nodes[54462444] = Treasure({
     }
 }) -- Sand-Worn Coffer
 
-map.nodes[00000000] = Treasure({
+map.nodes[52096833] = Treasure({
     quest = 00000,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
     rewards = {Achievement({id = 42741, criteria = 106224})}
 }) -- Ethereal Voidforged Container
 
@@ -372,14 +429,23 @@ map.nodes[00000000] = Treasure({
     rewards = {Achievement({id = 42741, criteria = 106296})}
 }) -- Spear of Fallen Memories
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
-    rewards = {Achievement({id = 42741, criteria = 106283})}
+map.nodes[77994894] = Treasure({
+    quest = 90514,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    rewards = {
+        Achievement({id = 42741, criteria = 106283}),
+        Transmog({item = 243004, type = L['shield']}) -- [Efrat's Forgotten Bulwark]
+    }
 }) -- Efrat's Forgotten Bulwark
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
-    rewards = {Achievement({id = 42741, criteria = 106284})}
+map.nodes[51056509] = Treasure({
+    quest = 90522,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    rewards = {
+        Achievement({id = 42741, criteria = 106284}),
+        Achievement({id = 42738, criteria = 106284}), -- We've All Got Swords!
+        Transmog({item = 243005, type = L['sword']}) -- [Tulwar of the Golden Guard]}
+    }
 }) -- Tulwar of the Golden Guard
 
 map.nodes[00000000] = Treasure({
@@ -397,24 +463,39 @@ map.nodes[00000000] = Treasure({
     rewards = {Achievement({id = 42741, criteria = 106287})}
 }) -- Sufaadi Skiff Lantern
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
+map.nodes[64434269] = Treasure({
+    quest = 90532,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
     rewards = {Achievement({id = 42741, criteria = 106288})}
 }) -- Korgorath's Talon
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
-    rewards = {Achievement({id = 42741, criteria = 106289})}
-}) -- Warglaive of the Audacious Hunter
+map.nodes[58432259] = Treasure({
+    quest = 91055,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    rewards = {
+        Achievement({id = 42741, criteria = 106289}),
+        Transmog({item = 245667, type = L['warglave']}) -- [Warglaive of the Audacious Hunter]
+    }
+}) -- Warglaive of the Audacious Hunter (cave entrerance 56892408)
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
-    rewards = {Achievement({id = 42741, criteria = 106290})}
+taz.nodes[47476998] = Treasure({
+    parent = map.id,
+    quest = 91056,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    rewards = {
+        Achievement({id = 42741, criteria = 106290}),
+        Transmog({item = 245669, type = L['want']}) -- [P.O.S.T. Master's Prototype Parcel and Postage Presser]
+    }
 }) -- P.O.S.T. Master's Prototype Parcel and Postage Presser
 
-map.nodes[00000000] = Treasure({
+map.nodes[50823534] = Treasure({
     quest = 00000,
-    rewards = {Achievement({id = 42741, criteria = 106291})}
+    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    rewards = {
+        Achievement({id = 42741, criteria = 106291}),
+        Achievement({id = 42738, criteria = 106291}), -- We've All Got Swords!
+        Transmog({item = 245671, type = L['sword']}) -- [Phaseblade of the Void Marches]
+    }
 }) -- Phaseblade of the Void Marches
 
 map.nodes[00000000] = Treasure({
@@ -509,7 +590,7 @@ taz.nodes[38234562] = LoreObject({
 
 taz.nodes[46321858] = LoreObject({
     parent = map.id,
-    quest = 00000,
+    quest = 91645,
     rewards = {
         Achievement({id = 60890, criteria = 107311}),
         Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
@@ -567,17 +648,17 @@ map.nodes[48776248] = Purrkins({
     }
 }) -- C.T.
 
-map.nodes[00000000] = Purrkins({
+map.nodes[73172374] = Purrkins({
     rewards = {Achievement({id = 42729, criteria = 106225})}
-}) -- Empurror
+}) -- Empurror (up on ledge)
 
 map.nodes[00000000] = Purrkins({
     rewards = {Achievement({id = 42729, criteria = 106226})}
 }) -- K'aresh'ire
 
-map.nodes[00000000] = Purrkins({
+map.nodes[50355920] = Purrkins({
     rewards = {Achievement({id = 42729, criteria = 106221})}
-}) -- Little Ms. Phaser
+}) -- Little Ms. Phaser (phases in and out, so might need to wait a little)
 
 taz.nodes[61015552] = Purrkins({
     parent = map.id,
