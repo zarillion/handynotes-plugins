@@ -197,12 +197,13 @@ map.nodes[54174911] = Rare({
     }
 }) -- Shadowhowl
 
-map.nodes[12345678] = Rare({
+map.nodes[76754219] = Rare({
     id = 232193,
-    quest = 00000,
+    quest = 90592,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 42761, criteria = 106345}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 90681}) -- The K'aresh Trust
     }
 }) -- Stalker of the Wastes
 
@@ -414,19 +415,34 @@ map.nodes[54462444] = Treasure({
 }) -- Sand-Worn Coffer
 
 map.nodes[52096833] = Treasure({
-    quest = 00000,
+    quest = 89378,
     requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-    rewards = {Achievement({id = 42741, criteria = 106224})}
-}) -- Ethereal Voidforged Container
+    rewards = {
+        Achievement({id = 42741, criteria = 106224}),
+        Achievement({id = 42730, criteria = 106224}), -- Jump, Jump, and Away! (need to validate)
+        Transmog({item = 246293, type = L['shield']}) -- [Buckler of the Last Stand]
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
-    rewards = {Achievement({id = 42741, criteria = 106281})}
+    }
+}) -- Ethereal Voidforged Container (recommend "untethered Xy'bucha" potion if you are bad at jumping puzzles fly top top of ledge then use)
+
+map.nodes[52504677] = Treasure({
+    quest = 90511,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    rewards = {
+        Achievement({id = 42741, criteria = 106281}),
+        Transmog({item = 243002, type = L['axe']}) -- [Light-Soaked Cleaver]
+    }
+
 }) -- Light-Soaked Cleaver
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
-    rewards = {Achievement({id = 42741, criteria = 106296})}
+taz.nodes[23694682] = Treasure({
+    parent = map.id,
+    quest = 90512,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    rewards = {
+        Achievement({id = 42741, criteria = 106296}),
+        Transmog({item = 243003, type = L['polearm']}) -- [Spear of Fallen Memories]
+    }
 }) -- Spear of Fallen Memories
 
 map.nodes[77994894] = Treasure({
@@ -443,7 +459,7 @@ map.nodes[51056509] = Treasure({
     requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
     rewards = {
         Achievement({id = 42741, criteria = 106284}),
-        Achievement({id = 42738, criteria = 106284}), -- We've All Got Swords!
+        Achievement({id = 42738, criteria = 106284}), -- We've All Got Swords! Need to validate
         Transmog({item = 243005, type = L['sword']}) -- [Tulwar of the Golden Guard]}
     }
 }) -- Tulwar of the Golden Guard
@@ -453,13 +469,18 @@ map.nodes[00000000] = Treasure({
     rewards = {Achievement({id = 42741, criteria = 106285})}
 }) -- Petrified Branch of Janaa
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
-    rewards = {Achievement({id = 42741, criteria = 106286})}
+map.nodes[49201805] = Treasure({
+    quest = 90527,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    rewards = {
+        Achievement({id = 42741, criteria = 106286}),
+        Transmog({item = 243008, type = L['mace']}) -- [Shadowguard Crusher]
+    }
 }) -- Shadowguard Crusher
 
-map.nodes[00000000] = Treasure({
+map.nodes[80725267] = Treasure({
     quest = 00000,
+    equires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
     rewards = {Achievement({id = 42741, criteria = 106287})}
 }) -- Sufaadi Skiff Lantern
 
@@ -498,9 +519,14 @@ map.nodes[50823534] = Treasure({
     }
 }) -- Phaseblade of the Void Marches
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
-    rewards = {Achievement({id = 42741, criteria = 106292})}
+taz.nodes[65161472] = Treasure({
+    parent = map.id,
+    quest = 91058,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    rewards = {
+        Achievement({id = 42741, criteria = 106292}),
+        Transmog({item = 245673, type = L['gun']}) -- [Bladed Rifle of Unfettered Momentum]
+    }
 }) -- Bladed Rifle of Unfettered Momentum
 
 -------------------------------------------------------------------------------
@@ -554,27 +580,29 @@ taz.nodes[36795807] = LoreObject({
     }
 }) -- I Have Become Void!
 
-map.nodes[00000000] = LoreObject({
-    quest = 00000,
+map.nodes[49632676] = LoreObject({
+    quest = 91643,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 60890, criteria = 107307}),
-        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 250, quest = 00000}) -- The K'aresh Trust
     }
 }) -- Multiversal Energy Dynamics and the Murmuration Paradox
 
-map.nodes[00000000] = LoreObject({
-    quest = 00000,
+map.nodes[42292093] = LoreObject({
+    quest = 91646,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 60890, criteria = 107308}),
-        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 250, quest = 91646}) -- The K'aresh Trust
     }
 }) -- From Vengeance to Void
 
-map.nodes[00000000] = LoreObject({
-    quest = 00000,
+map.nodes[72122941] = LoreObject({
+    quest = 91647,
     rewards = {
         Achievement({id = 60890, criteria = 107309}),
-        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 250, quest = 00000}) -- The K'aresh Trust
     }
 }) -- The Facets of K'aresh
 
@@ -584,7 +612,7 @@ taz.nodes[38234562] = LoreObject({
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 60890, criteria = 107310}),
-        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 250, quest = 91687}) -- The K'aresh Trust
     }
 }) -- Checklist of Minor Pleasures
 
@@ -593,7 +621,7 @@ taz.nodes[46321858] = LoreObject({
     quest = 91645,
     rewards = {
         Achievement({id = 60890, criteria = 107311}),
-        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 250, quest = 91645}) -- The K'aresh Trust
     }
 }) -- Ba'key's Aromatic Broker Cookies Recipes
 
@@ -601,7 +629,7 @@ map.nodes[00000000] = LoreObject({
     quest = 00000,
     rewards = {
         Achievement({id = 60890, criteria = 107312}),
-        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 250, quest = 00000}) -- The K'aresh Trust
     }
 }) -- A Dog-eared Book
 
@@ -609,7 +637,7 @@ map.nodes[58459150] = LoreObject({
     quest = 91642,
     rewards = {
         Achievement({id = 60890, criteria = 107315}),
-        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 250, quest = 91642}) -- The K'aresh Trust
     }
 }) -- Mysterious Notebook
 
