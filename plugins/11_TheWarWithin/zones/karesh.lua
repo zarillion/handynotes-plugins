@@ -61,6 +61,7 @@ taz.nodes[71135712] = Rare({
     id = 238540,
     parent = map.id,
     quest = 90698,
+    requires = ns.requirement.Item(236967), -- [Grubber Lure] from warrants
     rewards = {
         Achievement({id = 42761, criteria = 106333}),
         Reputation({id = 2658, gain = 15, quest = 90699}) -- The K'aresh Trust
@@ -247,16 +248,6 @@ map.nodes[65144998] = Rare({
 -------------------------------- WARRANT RARES --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[11111111] = Rare({
-    id = 238144,
-    quest = 00000,
-    requires = ns.requirement.Item(236967), -- [Grubber Lure] from warrants
-    rewards = {
-        -- Achievement({id = 42761, criteria = 106349}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
-    }
-}) -- Grubber (Review)
-
 map.nodes[22222222] = Rare({
     id = 238144,
     quest = 00000,
@@ -268,7 +259,7 @@ map.nodes[22222222] = Rare({
 }) -- Shatterpulse (Review)
 
 map.nodes[33333333] = Rare({
-    id = 238144,
+    id = 241956,
     quest = 00000,
     requires = ns.requirement.Item(236353), -- [Shatterpulse Cell Key] from warrants
     rewards = {
@@ -297,8 +288,9 @@ map.nodes[42505755] = Rare({
     }
 }) -- Purple Peat
 
-map.nodes[31155818] = Rare({
+taz.nodes[31155818] = Rare({
     id = 238384,
+    parent = map.id,
     quest = 90694,
     requires = ns.requirement.Item(236753), -- [Xy'vox Refuge Dampener] from warrants
     rewards = {
@@ -389,7 +381,7 @@ map.nodes[77782787] = Treasure({
 }) -- Skeletal Tail Bones
 
 map.nodes[58653434] = Treasure({
-    quest = 86323,
+    quest = 86323, -- review
     rewards = {Achievement({id = 42741, criteria = 106278})}
 }) -- Crudely Stitched Sack
 
@@ -459,7 +451,7 @@ map.nodes[51056509] = Treasure({
     requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
     rewards = {
         Achievement({id = 42741, criteria = 106284}),
-        Achievement({id = 42738, criteria = 106284}), -- We've All Got Swords! Need to validate
+        Achievement({id = 42738, oneline = true}), -- We've All Got Swords! Need to validate
         Transmog({item = 243005, type = L['sword']}) -- [Tulwar of the Golden Guard]}
     }
 }) -- Tulwar of the Golden Guard
@@ -479,9 +471,12 @@ map.nodes[49201805] = Treasure({
 }) -- Shadowguard Crusher
 
 map.nodes[80725267] = Treasure({
-    quest = 00000,
-    equires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-    rewards = {Achievement({id = 42741, criteria = 106287})}
+    quest = 90521,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    rewards = {
+        Achievement({id = 42741, criteria = 106287}),
+        Transmog({item = 243009, type = L['offhand']}) -- [Sufaadi Skiff Lantern]
+    }
 }) -- Sufaadi Skiff Lantern
 
 map.nodes[64434269] = Treasure({
@@ -514,7 +509,7 @@ map.nodes[50823534] = Treasure({
     requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
     rewards = {
         Achievement({id = 42741, criteria = 106291}),
-        Achievement({id = 42738, criteria = 106291}), -- We've All Got Swords!
+        Achievement({id = 42738, oneline = true}), -- We've All Got Swords!
         Transmog({item = 245671, type = L['sword']}) -- [Phaseblade of the Void Marches]
     }
 }) -- Phaseblade of the Void Marches
@@ -576,7 +571,7 @@ taz.nodes[36795807] = LoreObject({
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 60890, criteria = 107306}),
-        Reputation({id = 2658, gain = 250, quest = 91648}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 250, quest = 91649}) -- The K'aresh Trust
     }
 }) -- I Have Become Void!
 
@@ -585,7 +580,7 @@ map.nodes[49632676] = LoreObject({
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 60890, criteria = 107307}),
-        Reputation({id = 2658, gain = 250, quest = 00000}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 250, quest = 91643}) -- The K'aresh Trust
     }
 }) -- Multiversal Energy Dynamics and the Murmuration Paradox
 
@@ -602,7 +597,7 @@ map.nodes[72122941] = LoreObject({
     quest = 91647,
     rewards = {
         Achievement({id = 60890, criteria = 107309}),
-        Reputation({id = 2658, gain = 250, quest = 00000}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 250, quest = 91647}) -- The K'aresh Trust
     }
 }) -- The Facets of K'aresh
 
