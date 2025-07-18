@@ -78,7 +78,7 @@ map.nodes[75233098] = Rare({
     },
     pois = {
         POI({
-            label = '{object:551887}', -- Windcatcher (need local string)
+            label = '{object:551887}', -- Windcatcher (need local string) respawns in differnt spots :()
             points = {76983177}
         }), POI({
             label = '{object:551884}', -- Dewminder
@@ -208,14 +208,15 @@ map.nodes[76754219] = Rare({
     }
 }) -- Stalker of the Wastes
 
-map.nodes[12345678] = Rare({
+map.nodes[74043254] = Rare({
     id = 234845,
-    quest = 00000,
+    quest = 91293,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 42761, criteria = 106346}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 91431}) -- The K'aresh Trust
     }
-}) -- Sthaarbs <the Mindroiler>
+}) -- Sthaarbs <the Mindroiler> use portal near the phase pad to get upto rare
 
 map.nodes[52705660] = Rare({
     id = 232111,
@@ -309,21 +310,23 @@ map.nodes[76114526] = Treasure({
         Achievement({id = 42741, criteria = 106270}),
         Transmog({item = 248199, type = L['offhand']}) -- [The Brothers' Final Gift]
     },
-    pois = {
-        POI({
-            label = '{npc:234112}', -- Naji
-            -- quest = 86065,
-            points = {68304530}
-        }), POI({
-            label = '{npc:234113}', -- M'alim
-            --   quest = 86066,
-            points = {69806050}
-        }), POI({
-            label = '{npc:234075}', -- Sahra
-            --  quest = 86067,
-            points = {75503980}
-        })
-    }
+ --[[
+        pois = {
+            POI({
+                label = '{npc:234112}', -- Naji
+                -- quest = 86065,
+                points = {68304530}
+            }), POI({
+                label = '{npc:234113}', -- M'alim
+                --   quest = 86066,
+                points = {69806050}
+            }), POI({
+                label = '{npc:234075}', -- Sahra
+                --  quest = 86067,
+                points = {75503980}
+            })
+        }
+    ]]
 }) -- Gift of the Brothers (speak with 3 npcs at pois then return to Ihya at he flickering lantern)
 
 map.nodes[60903835] = Treasure({
@@ -338,7 +341,7 @@ map.nodes[69745231] = Treasure({
 
 taz.nodes[47766265] = Treasure({
     parent = map.id,
-    quest = 00000,
+    quest = 86467,
     rewards = {
         Achievement({id = 42741, criteria = 106273}), Toy({item = 245970}) -- [P.O.S.T. Master's Express Hearthstone]
     }
@@ -370,7 +373,7 @@ map.nodes[70204773] = Treasure({
 map.nodes[75065534] = Treasure({
     quest = 86308,
     rewards = {Achievement({id = 42741, criteria = 106276})}
-}) -- Shattered Crystals (in the place where rashalls vase is)
+}) -- Shattered Crystals
 
 map.nodes[77782787] = Treasure({
     quest = 86322,
@@ -386,7 +389,7 @@ map.nodes[58653434] = Treasure({
 }) -- Crudely Stitched Sack
 
 map.nodes[53985926] = Treasure({
-    quest = 00000,
+    quest = 92348,
     rewards = {
         Achievement({id = 42741, criteria = 106278}),
         Transmog({item = 246299, type = L['sword']})
@@ -620,15 +623,17 @@ taz.nodes[46321858] = LoreObject({
     }
 }) -- Ba'key's Aromatic Broker Cookies Recipes
 
-map.nodes[00000000] = LoreObject({
-    quest = 00000,
+taz.nodes[37282570] = LoreObject({
+    parent = map.id,
+    quest = 91640,
     rewards = {
         Achievement({id = 60890, criteria = 107312}),
         Reputation({id = 2658, gain = 250, quest = 00000}) -- The K'aresh Trust
     }
 }) -- A Dog-eared Book
 
-map.nodes[58459150] = LoreObject({
+taz.nodes[58459150] = LoreObject({
+    parent = map.id,
     quest = 91642,
     rewards = {
         Achievement({id = 60890, criteria = 107315}),
