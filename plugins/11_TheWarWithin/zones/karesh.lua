@@ -75,8 +75,8 @@ map.nodes[75233098] = Rare({
         Achievement({id = 42761, criteria = 106334}),
         Reputation({id = 2658, gain = 15, quest = 91422}) -- The K'aresh Trust
         -- item - [Reshii Magi's Pendant]
-    },
-    pois = {
+    }
+--[[ pois = {
         POI({
             label = '{object:551887}', -- Windcatcher (need local string) respawns in differnt spots :()
             points = {76983177}
@@ -91,6 +91,7 @@ map.nodes[75233098] = Rare({
             points = {72572845}
         })
     }
+    ]]
 }) -- Heka'tamos <the Elemental Disjunction> collect 4 element from around the eco dome then interact with brazer
 
 map.nodes[63824363] = Rare({
@@ -310,23 +311,21 @@ map.nodes[76114526] = Treasure({
         Achievement({id = 42741, criteria = 106270}),
         Transmog({item = 248199, type = L['offhand']}) -- [The Brothers' Final Gift]
     },
- --[[
-        pois = {
-            POI({
-                label = '{npc:234112}', -- Naji
-                -- quest = 86065,
-                points = {68304530}
-            }), POI({
-                label = '{npc:234113}', -- M'alim
-                --   quest = 86066,
-                points = {69806050}
-            }), POI({
-                label = '{npc:234075}', -- Sahra
-                --  quest = 86067,
-                points = {75503980}
-            })
-        }
-    ]]
+    pois = {
+        POI({
+            label = '{npc:234112}', -- Naji
+            -- quest = 86065,
+            points = {68304530}
+        }), POI({
+            label = '{npc:234113}', -- M'alim
+            --   quest = 86066,
+            points = {69806050}
+        }), POI({
+            label = '{npc:234075}', -- Sahra
+            --  quest = 86067,
+            points = {75503980}
+        })
+    }
 }) -- Gift of the Brothers (speak with 3 npcs at pois then return to Ihya at he flickering lantern)
 
 map.nodes[60903835] = Treasure({
