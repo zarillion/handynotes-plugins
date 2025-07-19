@@ -39,23 +39,13 @@ local map = Map({id = 2371, settings = true})
 taz.nodes[72948327] = Rare({
     id = 232098,
     parent = map.id,
+    pois = {Path({81987555, 80167580, 75177783, 73188013, 72388259, 72838465})},
     quest = 90587,
     rewards = {
         Achievement({id = 42761, criteria = 106331}),
         Reputation({id = 2658, gain = 15, quest = 90676}) -- The K'aresh Trust
-    },
-    pois = {Path({81987555, 80167580, 75177783, 73188013, 72388259, 72838465})}
-
-}) -- "Chowdar" <Escaped Auction Parcel #8675308>
-
-map.nodes[12345678] = Rare({
-    id = 241956,
-    quest = 00000,
-    rewards = {
-        Achievement({id = 42761, criteria = 106332}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
-}) -- Arcana-Monger So'zer
+}) -- "Chowdar" <Escaped Auction Parcel #8675308>
 
 taz.nodes[71135712] = Rare({
     id = 238540,
@@ -76,7 +66,7 @@ map.nodes[75233098] = Rare({
         Reputation({id = 2658, gain = 15, quest = 91422}) -- The K'aresh Trust
         -- item - [Reshii Magi's Pendant]
     }
---[[ pois = {
+    --[[ pois = {
         POI({
             label = '{object:551887}', -- Windcatcher (need local string) respawns in differnt spots :()
             points = {76983177}
@@ -152,15 +142,6 @@ map.nodes[52782081] = Rare({
         Reputation({id = 2658, gain = 15, quest = 90684}) -- The K'aresh Trust
     }
 }) -- Orith the Dreadful (requires phase diving phase)
-
-map.nodes[12345678] = Rare({
-    id = 235422,
-    quest = 00000,
-    rewards = {
-        Achievement({id = 42761, criteria = 106340}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
-    }
-}) -- Phase-Thief Tezra
 
 map.nodes[45782425] = Rare({
     id = 232182,
@@ -306,11 +287,6 @@ taz.nodes[31155818] = Rare({
 -------------------------------------------------------------------------------
 
 map.nodes[76114526] = Treasure({
-    quest = {85958, 85959},
-    rewards = {
-        Achievement({id = 42741, criteria = 106270}),
-        Transmog({item = 248199, type = L['offhand']}) -- [The Brothers' Final Gift]
-    },
     pois = {
         POI({
             label = '{npc:234112}', -- Naji
@@ -325,7 +301,13 @@ map.nodes[76114526] = Treasure({
             --  quest = 86067,
             points = {75503980}
         })
+    },
+    quest = {85958, 85959},
+    rewards = {
+        Achievement({id = 42741, criteria = 106270}),
+        Transmog({item = 248199, type = L['offhand']}) -- [The Brothers' Final Gift]
     }
+
 }) -- Gift of the Brothers (speak with 3 npcs at pois then return to Ihya at he flickering lantern)
 
 map.nodes[60903835] = Treasure({
@@ -488,13 +470,14 @@ map.nodes[64434269] = Treasure({
 }) -- Korgorath's Talon
 
 map.nodes[58432259] = Treasure({
+    pois = {Entrance({56892408})},
     quest = 91055,
     requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
     rewards = {
         Achievement({id = 42741, criteria = 106289}),
         Transmog({item = 245667, type = L['warglave']}) -- [Warglaive of the Audacious Hunter]
     }
-}) -- Warglaive of the Audacious Hunter (cave entrerance 56892408)
+}) -- Warglaive of the Audacious Hunter
 
 taz.nodes[47476998] = Treasure({
     parent = map.id,
@@ -507,7 +490,7 @@ taz.nodes[47476998] = Treasure({
 }) -- P.O.S.T. Master's Prototype Parcel and Postage Presser
 
 map.nodes[50823534] = Treasure({
-    quest = 00000,
+    quest = 91057,
     requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
     rewards = {
         Achievement({id = 42741, criteria = 106291}),
@@ -566,7 +549,7 @@ map.nodes[74003250] = SkyridingGlyph({
 -------------------------------------------------------------------------------
 -------------------------- SECRETS OF THE K'ARESHI ----------------------------
 -------------------------------------------------------------------------------
-
+-- TODO: FIX ACHIVEMENT SHOWING KHAZ ALGAR LORE HUNTER AND NOT ACTUAL ONE
 taz.nodes[36795807] = LoreObject({
     parent = map.id,
     quest = 91649,
@@ -627,7 +610,7 @@ taz.nodes[37282570] = LoreObject({
     quest = 91640,
     rewards = {
         Achievement({id = 60890, criteria = 107312}),
-        Reputation({id = 2658, gain = 250, quest = 00000}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 250, quest = 91640}) -- The K'aresh Trust
     }
 }) -- A Dog-eared Book
 
@@ -665,14 +648,14 @@ local Purrkins = Class('purrkins', Collectible,
     {icon = 3742947, group = ns.groups.PURRKINS})
 -- /pet them
 map.nodes[48776248] = Purrkins({
-    rewards = {Achievement({id = 42729, criteria = 106220})},
     pois = {
         Path({
             48796221, 48766249, 48516292, 48476313, 48246256, 48076234,
             47846249, 47616252, 47326228, 47406197, 47906154, 48166151,
             48376160, 48556179, 48786221, 48776248, 48496295, 48796221
         })
-    }
+    },
+    rewards = {Achievement({id = 42729, criteria = 106220})}
 }) -- C.T.
 
 map.nodes[73172374] = Purrkins({
@@ -695,3 +678,12 @@ taz.nodes[61015552] = Purrkins({
 map.nodes[00000000] = Purrkins({
     rewards = {Achievement({id = 42729, criteria = 106223})}
 }) -- The King in Silver
+
+
+--[[
+DELVE CHESTS
+map:2452 62383800 quest:83692
+map:2452 61931087 quest 83673
+map:2476 43886472 quest:90839
+map:2455 49669258 quest:83653
+]]
