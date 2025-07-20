@@ -647,3 +647,15 @@ L['upgrade_turbo_handcrank'] = '{item:232984} (Ускорение): Объеди
 L['blazefeather_peacock_note'] = 'После завершения сюжетной линии {quest:83421} поговорите с {npc:226555}, чтобы заплатить %s за призыв {npc:226561}.'
 L['radioactive_subject_note'] = 'Используйте ближайшие трубы и комбинацию {item:237276}, {item:109076}, {item:231099} или любые другие трюки с прыжками, чтобы добраться до крыши здания {location:Лаборатории Хитрой Шестеренки} в {location:Котельной}.'
 L['george_the_big_pinch_note'] = 'Быстро щелкните по всем 5 {npc:238189}, чтобы получить {spell:1219679} и приручить {npc:233938}.'
+
+-------------------------------------------------------------------------------
+----------------------------------- K'ARESH -----------------------------------
+-------------------------------------------------------------------------------
+L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
+L['options_icons_karesh_lore_hunter_desc'] = 'Отображение местоположений предметов для достижения {achievement:60890}.'
+
+L['options_icons_purrkins'] = '{achievement:42729}'
+L['options_icons_purrkins_desc'] = nil
+L['purrkins_note'] = nil
+L['kareshire_sublabel'] = nil
+L['little_ms_phaser_sublabel'] = nil

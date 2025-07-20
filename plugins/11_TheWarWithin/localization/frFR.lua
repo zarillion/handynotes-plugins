@@ -645,3 +645,15 @@ L['upgrade_turbo_handcrank'] = '{item:232984} (Turbo) : Combinez les 5 pièces r
 L['blazefeather_peacock_note'] = 'Après avoir terminé la suite de quêtes {quest:83421}, parlez à {npc:226555} et payez-le %s pour invoquer un {npc:226561} domptable.'
 L['radioactive_subject_note'] = 'Utilisez les tuyaux à proximité, aidez-vous des objets {item:237276}, {item:109076}, {item:231099} ou de toute autre technique de saut pour atteindre le toit du bâtiment des {location:Laboratoires de Gentepression} à la {location:Cuverie}.'
 L['george_the_big_pinch_note'] = 'Cliquez rapidement sur les 5 {npc:238189} pour recevoir le buff {spell:1219679} et ainsi pouvoir dompter {npc:233938}.'
+
+-------------------------------------------------------------------------------
+----------------------------------- K'ARESH -----------------------------------
+-------------------------------------------------------------------------------
+L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
+L['options_icons_karesh_lore_hunter_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:60890}.'
+
+L['options_icons_purrkins'] = '{achievement:42729}'
+L['options_icons_purrkins_desc'] = nil
+L['purrkins_note'] = nil
+L['kareshire_sublabel'] = nil
+L['little_ms_phaser_sublabel'] = nil

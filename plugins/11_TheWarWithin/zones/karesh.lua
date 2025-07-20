@@ -7,20 +7,17 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
-local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
-local LoreObject = ns.node.LoreObject
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
-local Item = ns.reward.Item
+--local Item = ns.reward.Item
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
 
-local Circle = ns.poi.Circle
 local Entrance = ns.poi.Entrance
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -550,7 +547,10 @@ map.nodes[74003250] = SkyridingGlyph({
 -------------------------- SECRETS OF THE K'ARESHI ----------------------------
 -------------------------------------------------------------------------------
 -- TODO: FIX ACHIVEMENT SHOWING KHAZ ALGAR LORE HUNTER AND NOT ACTUAL ONE
-taz.nodes[36795807] = LoreObject({
+local KareshLore = Class('karesh_lore_hunter', Collectible,
+    {group = ns.groups.KARESH_LORE_HUNTER, icon = 1723993})
+
+taz.nodes[36795807] = KareshLore({
     parent = map.id,
     quest = 91649,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
@@ -560,7 +560,7 @@ taz.nodes[36795807] = LoreObject({
     }
 }) -- I Have Become Void!
 
-map.nodes[49632676] = LoreObject({
+map.nodes[49632676] = KareshLore({
     quest = 91643,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
@@ -569,7 +569,7 @@ map.nodes[49632676] = LoreObject({
     }
 }) -- Multiversal Energy Dynamics and the Murmuration Paradox
 
-map.nodes[42292093] = LoreObject({
+map.nodes[42292093] = KareshLore({
     quest = 91646,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
@@ -578,7 +578,7 @@ map.nodes[42292093] = LoreObject({
     }
 }) -- From Vengeance to Void
 
-map.nodes[72122941] = LoreObject({
+map.nodes[72122941] = KareshLore({
     quest = 91647,
     rewards = {
         Achievement({id = 60890, criteria = 107309}),
@@ -586,7 +586,7 @@ map.nodes[72122941] = LoreObject({
     }
 }) -- The Facets of K'aresh
 
-taz.nodes[38234562] = LoreObject({
+taz.nodes[38234562] = KareshLore({
     parent = map.id,
     quest = 91687,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
@@ -596,7 +596,7 @@ taz.nodes[38234562] = LoreObject({
     }
 }) -- Checklist of Minor Pleasures
 
-taz.nodes[46321858] = LoreObject({
+taz.nodes[46321858] = KareshLore({
     parent = map.id,
     quest = 91645,
     rewards = {
@@ -605,7 +605,7 @@ taz.nodes[46321858] = LoreObject({
     }
 }) -- Ba'key's Aromatic Broker Cookies Recipes
 
-taz.nodes[37282570] = LoreObject({
+taz.nodes[37282570] = KareshLore({
     parent = map.id,
     quest = 91640,
     rewards = {
@@ -614,7 +614,7 @@ taz.nodes[37282570] = LoreObject({
     }
 }) -- A Dog-eared Book
 
-taz.nodes[58459150] = LoreObject({
+taz.nodes[58459150] = KareshLore({
     parent = map.id,
     quest = 91642,
     rewards = {
@@ -623,7 +623,7 @@ taz.nodes[58459150] = LoreObject({
     }
 }) -- Mysterious Notebook
 
-taz.nodes[41683982] = LoreObject({
+taz.nodes[41683982] = KareshLore({
     parent = map.id,
     quest = 91648,
     rewards = {
@@ -632,7 +632,7 @@ taz.nodes[41683982] = LoreObject({
     }
 }) -- Coins: An Oath We Exchange
 
-map.nodes[48925715] = LoreObject({
+map.nodes[48925715] = KareshLore({
     quest = 91686,
     rewards = {
         Achievement({id = 60890, criteria = 107313}),
@@ -644,9 +644,12 @@ map.nodes[48925715] = LoreObject({
 ----------------------- DANGEROUS PROWLERS OF K'ARESH -------------------------
 -------------------------------------------------------------------------------
 
-local Purrkins = Class('purrkins', Collectible,
-    {icon = 3742947, group = ns.groups.PURRKINS})
--- /pet them
+local Purrkins = Class('purrkins', Collectible, {
+    group = ns.groups.PURRKINS,
+    icon = 3742947,
+    note = L['purrkins_note']
+})
+
 map.nodes[48776248] = Purrkins({
     pois = {
         Path({
@@ -662,12 +665,14 @@ map.nodes[73172374] = Purrkins({
     rewards = {Achievement({id = 42729, criteria = 106225})}
 }) -- Empurror (up on ledge)
 
-map.nodes[00000000] = Purrkins({
-    rewards = {Achievement({id = 42729, criteria = 106226})}
-}) -- K'aresh'ire
+map.nodes[70245426] = Purrkins({
+    rewards = {Achievement({id = 42729, criteria = 106226})},
+    sublabel = L['kareshire_sublabel']
+}) -- K'aresh'ire (visible for 15sec on tree then disappears for 20sec)
 
 map.nodes[50355920] = Purrkins({
-    rewards = {Achievement({id = 42729, criteria = 106221})}
+    rewards = {Achievement({id = 42729, criteria = 106221})},
+    sublabel = L['little_ms_phaser_sublabel']
 }) -- Little Ms. Phaser (phases in and out, so might need to wait a little)
 
 taz.nodes[61015552] = Purrkins({
@@ -675,10 +680,10 @@ taz.nodes[61015552] = Purrkins({
     rewards = {Achievement({id = 42729, criteria = 106222})}
 }) -- Mar <Alley Queen of Tazavesh>
 
-map.nodes[00000000] = Purrkins({
+map.nodes[47613738] = Purrkins({
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {Achievement({id = 42729, criteria = 106223})}
 }) -- The King in Silver
-
 
 --[[
 DELVE CHESTS
