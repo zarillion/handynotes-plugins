@@ -653,7 +653,7 @@ L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
 L['options_icons_karesh_lore_hunter_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:60890}.'
 
 L['options_icons_purrkins'] = '{achievement:42729}'
-L['options_icons_purrkins_desc'] = nil
-L['purrkins_note'] = nil
-L['kareshire_sublabel'] = nil
-L['little_ms_phaser_sublabel'] = nil
+L['options_icons_purrkins_desc'] = 'Afficher les emplacements des félidrons pour le haut-fait {achievement:42729}'
+L['purrkins_note'] = '{emote:/Caressez} le félidron'
+L['kareshire_sublabel'] = 'Apparaît et disparaît par phase'
+L['little_ms_phaser_sublabel'] = 'Apparaît et disparaît par phase'
