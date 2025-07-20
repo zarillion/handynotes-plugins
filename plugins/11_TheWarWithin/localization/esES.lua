@@ -654,7 +654,7 @@ L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
 L['options_icons_karesh_lore_hunter_desc'] = 'Muestra dónde están los objetos históricos del logro {achievement:60890}.'
 
 L['options_icons_purrkins'] = '{achievement:42729}'
-L['options_icons_purrkins_desc'] = nil
-L['purrkins_note'] = nil
-L['kareshire_sublabel'] = nil
-L['little_ms_phaser_sublabel'] = nil
+L['options_icons_purrkins_desc'] = 'Muestra dónde están los ronroneadores para el logro {achievement:42729}.'
+L['purrkins_note'] = 'Teclea {emote:/acariciar} en el ronroneador.'
+L['kareshire_sublabel'] = 'Cambia de fases'
+L['little_ms_phaser_sublabel'] = 'Cambia de fases'
