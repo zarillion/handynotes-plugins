@@ -1,3 +1,7 @@
+# v121
+
+* Removed [I TAKE Candle!](https://www.wowhead.com/achievement=40446/i-take-candle) from Kobold delves as achievement is now a Feat of Strength and can no longer be attained.
+
 # v120
 
 * Add Nightfall elite locations for [Fighter of the Nightman](https://www.wowhead.com/achievement=41999/fighter-of-the-nightman)
