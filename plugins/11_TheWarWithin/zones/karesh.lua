@@ -12,7 +12,7 @@ local Treasure = ns.node.Treasure
 local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
---local Item = ns.reward.Item
+-- local Item = ns.reward.Item
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -437,9 +437,13 @@ map.nodes[51056509] = Treasure({
     }
 }) -- Tulwar of the Golden Guard
 
-map.nodes[00000000] = Treasure({
-    quest = 00000,
-    rewards = {Achievement({id = 42741, criteria = 106285})}
+map.nodes[78346154] = Treasure({
+    quest = 90515,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    rewards = {
+        Achievement({id = 42741, criteria = 106285}),
+        Transmog({item = 243006, type = L['staff']}) -- [Petrified Branch of Janaa]
+    }
 }) -- Petrified Branch of Janaa
 
 map.nodes[49201805] = Treasure({
@@ -546,7 +550,7 @@ map.nodes[74003250] = SkyridingGlyph({
 -------------------------------------------------------------------------------
 -------------------------- SECRETS OF THE K'ARESHI ----------------------------
 -------------------------------------------------------------------------------
--- TODO: FIX ACHIVEMENT SHOWING KHAZ ALGAR LORE HUNTER AND NOT ACTUAL ONE
+
 local KareshLore = Class('karesh_lore_hunter', Collectible,
     {group = ns.groups.KARESH_LORE_HUNTER, icon = 1723993})
 
