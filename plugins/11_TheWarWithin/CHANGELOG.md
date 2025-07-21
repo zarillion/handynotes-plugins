@@ -1,6 +1,6 @@
 # v121
 
-* Removed [I TAKE Candle!](https://www.wowhead.com/achievement=40446/i-take-candle) from Kobold delves as achievement is now a Feat of Strength and can no longer be attained.
+* Removed [I TAKE Candle!](https://www.wowhead.com/achievement=40446/i-take-candle) from Kobold delves as achievement. Now is a Feat of Strength and can no longer be attained.
 
 # v120
 
