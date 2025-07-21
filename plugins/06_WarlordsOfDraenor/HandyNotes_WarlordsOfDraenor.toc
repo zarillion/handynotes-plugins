@@ -1,4 +1,4 @@
-## Interface: 110105
+## Interface: 110200
 ## Title: HandyNotes: Warlords of Draenor
 ## Version: 0
 ## Notes: Warlords of Draenor Notes
