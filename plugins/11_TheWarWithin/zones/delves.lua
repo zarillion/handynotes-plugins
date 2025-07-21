@@ -559,7 +559,6 @@ local DELVE_REWARDS = {
     ['kriegvals_rest'] = {
         Achievement({id = 40807, criteria = SturdyChestCriteria}), -- Kriegval's Rest Discoveries
         Achievement({id = 40526, criteria = {68755, 68756, 68757, 102967}}), -- Kriegval's Rest Stories
-        Achievement({id = 40446, oneline = true}), -- I TAKE Candle!
         Achievement({id = 41110, oneline = true, criteria = {71060}}), -- Algari Delver Damage Dealer III
         Achievement({id = 41112, oneline = true, criteria = {71088}}), -- Algari Delver Healer III
         Achievement({id = 41114, oneline = true, criteria = {71116}}), -- Algari Delver Tank  III
@@ -570,7 +569,6 @@ local DELVE_REWARDS = {
     ['the_waterworks'] = {
         Achievement({id = 40816, criteria = SturdyChestCriteria}), -- The Waterworks Discoveries
         Achievement({id = 40528, criteria = {68761, 68762, 68763, 102968}}), -- The Waterworks Stories
-        Achievement({id = 40446, oneline = true}), -- I TAKE Candle!
         Achievement({id = 41110, oneline = true, criteria = {71069}}), -- Algari Delver Damage Dealer III
         Achievement({id = 41112, oneline = true, criteria = {71097}}), -- Algari Delver Healer III
         Achievement({id = 41114, oneline = true, criteria = {71125}}), -- Algari Delver Tank  III

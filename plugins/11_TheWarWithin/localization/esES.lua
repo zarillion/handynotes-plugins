@@ -249,6 +249,11 @@ L['nightfarm_growthling_note'] = 'Usa 3x {item:206350} en la {object:Llave ardie
 
 L['thunder_lynx_note'] = '1. Usa 3x {item:206350} en la {object:Llave ardiente inferior} de la {location:Mina Antorcha} para invocar a {npc:212419}.\n\n2. Habla con {npc:212419} y sigue todas las líneas de diálogo hasta que consigas la misión {quest:82007}.\n\n3. Localiza cada cría de lince: {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}), y {npc:222374} ({dot:Red}).\n\n{note:Asegúrate de empezar la misión {quest:76169} al mismo tiempo que consigas la {item:219198} o usa un objeto similar como la {item:219148}. Necesitarás una luz para conseguir a {npc:222373} dentro de la {location:Cueva Sombrafría}.}\n\n4. Rescata todos los gatitos lince y regresa con {npc:212419}.'
 
+L['options_icons_fighter'] = '{achievement:41999}'
+L['options_icons_fighter_desc'] = 'Muestra dónde están los élite del Ocaso para el logro {achievement:41999}.'
+L['suspicious_document_label'] = 'Documento sospechoso'
+L['suspicious_document_note'] = 'Abre el {object:Documento sospechoso} para invocar a un élite del Ocaso.'
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
@@ -324,7 +329,7 @@ L['kej_pet_vendor_note'] = 'Hay una cantidad limitada de cada mascota y cuesta 2
 L['options_icons_back_to_the_wall'] = '{achievement:40620}'
 L['options_icons_back_to_the_wall_desc'] = 'Muestra dónde están los {npc:222119} para el logro {achievement:40620}.'
 L['arathi_prisoner_suffix'] = 'Prisioneros arathi rescatados'
-L['arathi_prisoner_note'] = 'Libera {npc:222119} envueltos en telarañas durante la misión del mundo {wq:Tarea especial: Más vale prevenir}.'
+L['arathi_prisoner_note'] = 'Libera {npc:222119} envueltos en telarañas.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------

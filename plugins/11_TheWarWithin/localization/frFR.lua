@@ -250,6 +250,11 @@ L['nightfarm_growthling_note'] = 'Utilisez 3x {item:206350} pour allumer la {obj
 
 L['thunder_lynx_note'] = '1. Utilisez 3x {item:206350} pour allumer la {object:Flammeclé inférieure} à la {location:Mine Torche-Vive} pour faire apparaître {npc:212419}.\n\n2. Parlez à {npc:212419} et écoutez toutes les lignes de dialogue supplémentaires pour révéler {quest:82007}.\n\n3. Trouvez chaque bébé lynx : {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}), et {npc:222374} ({dot:Red}).\n\n{note:Assurez-vous de commencer {quest:76169} au même moment pour recevoir la {item:219198} ou utilisez un objet similaire tel qu\'une {item:219148}. Vous aurez besoin de lumière pour faire apparaître {npc:222373} dans la {location:Grotte d’Ombre-Froid}.}\n\n4. Sauvez chaque jeune lynx et retournez auprès d\'{npc:212419}.'
 
+L['options_icons_fighter'] = '{achievement:41999}'
+L['options_icons_fighter_desc'] = 'Afficher les emplacements des créatures élite de {object:Noctechute} pour le haut-fait {achievement:41999}'
+L['suspicious_document_label'] = 'Document suspect'
+L['suspicious_document_note'] = 'Ouvrez le {object:Document suspect} pour invoquer une créature élite de {object:Noctechute}.'
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
@@ -323,7 +328,7 @@ L['kej_pet_vendor_note'] = 'Chaque mascotte est limitée en stock et coûte 2250
 L['options_icons_back_to_the_wall'] = '{achievement:40620}'
 L['options_icons_back_to_the_wall_desc'] = 'Afficher les emplacements des {npc:222119} pour le haut-fait {achievement:40620}.'
 L['arathi_prisoner_suffix'] = 'Prisonniers arathi sauvés'
-L['arathi_prisoner_note'] = 'Libérez les {npc:222119} enveloppés de toiles pendant l\'expédition {wq:Mission spéciale : une livre de remède}.'
+L['arathi_prisoner_note'] = 'Libérez les {npc:222119} enveloppés de toiles.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------

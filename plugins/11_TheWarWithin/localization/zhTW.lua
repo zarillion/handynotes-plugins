@@ -249,6 +249,11 @@ L['nightfarm_growthling_note'] = nil
 
 L['thunder_lynx_note'] = nil
 
+L['options_icons_fighter'] = '{achievement:41999}'
+L['options_icons_fighter_desc'] = nil
+L['suspicious_document_label'] = nil
+L['suspicious_document_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

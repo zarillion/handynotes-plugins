@@ -249,6 +249,11 @@ L['nightfarm_growthling_note'] = '在 {location:旋辉田野} 的 {object:小型
 
 L['thunder_lynx_note'] = '1. 在 {location:炬光矿脉} 的 {object:小型钥焰} 使用3个 {item:206350} 召唤 {npc:212419}。\n\n2. 与 {npc:212419} 交谈并按照所有额外的对话框提示找到 {quest:82007}。\n\n3. 找到每只小山猫：{npc:222373}（{dot:Blue}）、{npc:222372}（{dot:Green}）、{npc:222375}（{dot:Orange}）和 {npc:222374}（{dot:Red}）。\n\n{note:请确保同时开始 {quest:76169} 以接收 {item:219198} 或使用类似物品，例如 {item:219148}。需要一盏灯来照亮 {location:霜影洞穴} 内的 {npc:222373}。}\n\n4. 拯救每一只山猫幼崽并返回 {npc:212419}。'
 
+L['options_icons_fighter'] = '{achievement:41999}'
+L['options_icons_fighter_desc'] = '显示 {achievement:41999} 成就中 {object:夜幕激斗} 精英的位置。'
+L['suspicious_document_label'] = '可疑的文件'
+L['suspicious_document_note'] = '打开 {object:可疑的文件} 召唤 {object:夜幕激斗} 精英。'
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------

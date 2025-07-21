@@ -249,6 +249,11 @@ L['nightfarm_growthling_note'] = 'Use 3x {item:206350} at the {object:Lesser Key
 
 L['thunder_lynx_note'] = '1. Use 3x {item:206350} at the {object:Lesser Keyflame} in {location:Torchlight Mine} to summon {npc:212419}.\n\n2. Speak with {npc:212419} and follow all extra dialog prompts to reveal {quest:82007}.\n\n3. Locate each baby lynx: {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}), and {npc:222374} ({dot:Red}).\n\n{note:Be sure to start {quest:76169} at the same to to receive {item:219198} or use a similar item such as {item:219148}. You\'ll need a light to reveal {npc:222373} within {location:Coldshadow Cave}.}\n\n4. Rescue each lynx kitten and return to {npc:212419}.'
 
+L['options_icons_fighter'] = '{achievement:41999}'
+L['options_icons_fighter_desc'] = 'Show {object:Nightfall} elite locations for {achievement:41999}'
+L['suspicious_document_label'] = 'Suspicious Document'
+L['suspicious_document_note'] = 'Open the {object:Suspicious Document} to summon a {object:Nightfall} elite.'
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
@@ -324,7 +329,7 @@ L['kej_pet_vendor_note'] = 'Each pet has a limited stock and costs 2,250x {curre
 L['options_icons_back_to_the_wall'] = '{achievement:40620}'
 L['options_icons_back_to_the_wall_desc'] = 'Display {npc:222119} locations for {achievement:40620}.'
 L['arathi_prisoner_suffix'] = 'Arathi prisoners saved'
-L['arathi_prisoner_note'] = 'Free webbed-wrapped {npc:222119} during the {wq:Special Assignment: A Pound of Cure}.'
+L['arathi_prisoner_note'] = 'Free webbed-wrapped {npc:222119}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------

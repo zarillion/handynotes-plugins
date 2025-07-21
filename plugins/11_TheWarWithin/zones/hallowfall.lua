@@ -1362,6 +1362,40 @@ map.nodes[71365648] = FlightMaster({
 }) -- The Aegis Wall
 
 -------------------------------------------------------------------------------
+-------------------- ACHIEVEMENT: FIGHTER OF THE NIGHTMAN ---------------------
+-------------------------------------------------------------------------------
+
+local HoldTheWall = Class('HoldTheWall', ns.node.SuspiciousDocument, {
+    rewards = {Achievement({id = 41999, criteria = {5, 7}})}
+})
+
+map.nodes[40005840] = HoldTheWall()
+map.nodes[40306090] = HoldTheWall()
+map.nodes[40505960] = HoldTheWall()
+map.nodes[41006210] = HoldTheWall()
+map.nodes[41505930] = HoldTheWall()
+map.nodes[41506170] = HoldTheWall()
+
+local SouthernSwarm = Class('SouthernSwarm', ns.node.SuspiciousDocument, {
+    rewards = {Achievement({id = 41999, criteria = {3, 11}})}
+})
+
+map.nodes[49806510] = SouthernSwarm()
+map.nodes[49807040] = SouthernSwarm()
+map.nodes[50606620] = SouthernSwarm()
+map.nodes[51406850] = SouthernSwarm()
+map.nodes[51507000] = SouthernSwarm()
+
+local EasternAssault = Class('EasternAssault', ns.node.SuspiciousDocument, {
+    rewards = {Achievement({id = 41999, criteria = {6, 9}})}
+})
+
+map.nodes[71804280] = EasternAssault()
+map.nodes[72404750] = EasternAssault()
+map.nodes[72704170] = EasternAssault()
+map.nodes[74804300] = EasternAssault()
+
+-------------------------------------------------------------------------------
 ---------------------------- PET: HALLOWED GLOWFLY ----------------------------
 -------------------------------------------------------------------------------
 

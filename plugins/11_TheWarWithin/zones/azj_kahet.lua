@@ -1146,6 +1146,39 @@ map.nodes[63800073] = ArathiPrisoner()
 map.nodes[63880010] = ArathiPrisoner()
 
 -------------------------------------------------------------------------------
+-------------------- ACHIEVEMENT: FIGHTER OF THE NIGHTMAN ---------------------
+-------------------------------------------------------------------------------
+
+local RakZakaz = Class('RakZakaz', ns.node.SuspiciousDocument, {
+    rewards = {Achievement({id = 41999, criteria = {2, 10}})}
+})
+
+map.nodes[61903020] = RakZakaz()
+map.nodes[62702670] = RakZakaz()
+map.nodes[63103070] = RakZakaz()
+map.nodes[64102990] = RakZakaz()
+map.nodes[66003110] = RakZakaz()
+map.nodes[67502770] = RakZakaz()
+
+local SurekisEnd = Class('SurekisEnd', ns.node.SuspiciousDocument, {
+    rewards = {Achievement({id = 41999, criteria = {4, 8}})}
+})
+
+map.nodes[63700680] = SurekisEnd()
+map.nodes[64800650] = SurekisEnd()
+map.nodes[65200940] = SurekisEnd()
+
+local ToxinsAndPheromones = Class('ToxinsAndPheromones',
+    ns.node.SuspiciousDocument, {
+        rewards = {Achievement({id = 41999, criteria = {1, 12}})}
+    })
+
+map.nodes[66705090] = ToxinsAndPheromones()
+map.nodes[66705370] = ToxinsAndPheromones()
+map.nodes[68405460] = ToxinsAndPheromones()
+map.nodes[69505450] = ToxinsAndPheromones()
+
+-------------------------------------------------------------------------------
 ---------------------- PET: BEAN (FRESHLY WEBBED KEBAB) -----------------------
 -------------------------------------------------------------------------------
 

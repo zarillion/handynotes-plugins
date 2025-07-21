@@ -251,6 +251,11 @@ L['nightfarm_growthling_note'] = 'Entfache mit 3x {item:206350} die {object:Klei
 
 L['thunder_lynx_note'] = '1. Entfache mit 3x {item:206350} die {object:Kleine Schlüsselflamme} in {location:Fackelscheinmine}, damit {npc:212419} erscheint.\n\n2. Spreche mit {npc:212419}, damit du die Quest {quest:82007} erhalten kannst.\n\n3. Finde die Luchswelpen: {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}) und {npc:222374} ({dot:Red}).\n\n{note:Starte gleichzeitig die Quest {quest:76169}, um eine {item:219198} zu erhalten oder benutze einen vergleichbaren Gegenstand, wie die {item:219148}. Du brauchst eine Fackel, um {npc:222373} in der {location:Kaltschattenhöhle} zu finden.}\n\n4. Rette alle Luchswelpen und kehre dann zu {npc:212419} zurück.'
 
+L['options_icons_fighter'] = '{achievement:41999}'
+L['options_icons_fighter_desc'] = 'Zeigt die Positionen der {npc:Nachtsturzelitegegner} für den Erfolg {achievement:41999} an'
+L['suspicious_document_label'] = 'Verdächtiges Dokument'
+L['suspicious_document_note'] = 'Untersuche das {object:Verdächtiges Dokument}, damit der {npc:Nachtsturzelitegegner} erscheint.'
+
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
