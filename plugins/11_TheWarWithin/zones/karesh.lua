@@ -44,16 +44,7 @@ taz.nodes[72948327] = Rare({
     }
 }) -- "Chowdar" <Escaped Auction Parcel #8675308>
 
-taz.nodes[71135712] = Rare({
-    id = 238540,
-    parent = map.id,
-    quest = 90698,
-    requires = ns.requirement.Item(236967), -- [Grubber Lure] from warrants
-    rewards = {
-        Achievement({id = 42761, criteria = 106333}),
-        Reputation({id = 2658, gain = 15, quest = 90699}) -- The K'aresh Trust
-    }
-}) -- Grubber
+
 
 map.nodes[75233098] = Rare({
     id = 245998,
@@ -228,22 +219,36 @@ map.nodes[65144998] = Rare({
 -------------------------------- WARRANT RARES --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[22222222] = Rare({
+taz.nodes[71135712] = Rare({
+    id = 238540,
+    parent = map.id,
+    quest = 90698,
+    requires = ns.requirement.Item(236967), -- [Grubber Lure] from warrants
+    rewards = {
+        Achievement({id = 42761, criteria = 106333}),
+        Achievement({id = 41980, criteria = 104425}),
+        Reputation({id = 2658, gain = 15, quest = 90699}) -- The K'aresh Trust
+    }
+}) -- Grubber
+
+map.nodes[49152824] = Rare({
     id = 238144,
-    quest = 00000,
+    quest = 90687,
     requires = ns.requirement.Item(236353), -- [Shatterpulse Cell Key] from warrants
     rewards = {
         -- Achievement({id = 42761, criteria = 106349}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
+        Achievement({id = 41980, criteria = 104427}),
+        Reputation({id = 2658, gain = 15, quest = 90688}) -- The K'aresh Trust
     }
 }) -- Shatterpulse (Review)
 
 map.nodes[33333333] = Rare({
     id = 241956,
     quest = 00000,
-    requires = ns.requirement.Item(236353), -- [Shatterpulse Cell Key] from warrants
+    requires = ns.requirement.Item(239314), -- [Arcane Lure] from warrants
     rewards = {
-        -- Achievement({id = 42761, criteria = 106349}),
+        Achievement({id = 42761, criteria = 106332}),
+        Achievement({id = 41980, criteria = 104424}),
         Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
     }
 }) -- Arcana-Monger So'zer (Review)
@@ -254,16 +259,18 @@ map.nodes[48441696] = Rare({
     requires = ns.requirement.Item(236957), -- [Hollowbane Portal Key] from warrants
     rewards = {
         -- Achievement({id = 42761, criteria = 106349}),
+        Achievement({id = 41980, criteria = 104428}),
         Reputation({id = 2658, gain = 15, quest = 90691}) -- The K'aresh Trust
     }
 }) -- Hollowbane
 
 map.nodes[42505755] = Rare({
-    id = 238384,
+    id = 241920,
     quest = 87546,
     requires = ns.requirement.Item(239276), -- [Purple Peat Cell Key] from warrants
     rewards = {
         -- Achievement({id = 42761, criteria = 106349}),
+        Achievement({id = 41980, criteria = 104426}),
         Reputation({id = 2658, gain = 15, quest = 90807}) -- The K'aresh Trust
     }
 }) -- Purple Peat
@@ -275,6 +282,7 @@ taz.nodes[31155818] = Rare({
     requires = ns.requirement.Item(236753), -- [Xy'vox Refuge Dampener] from warrants
     rewards = {
         Achievement({id = 42761, criteria = 106349}),
+        Achievement({id = 41980, criteria = 104429}),
         Reputation({id = 2658, gain = 15, quest = 90695}) -- The K'aresh Trust
     }
 }) -- Xy'vox The Twisted
@@ -308,7 +316,7 @@ map.nodes[76114526] = Treasure({
 }) -- Gift of the Brothers (speak with 3 npcs at pois then return to Ihya at he flickering lantern)
 
 map.nodes[60903835] = Treasure({
-    quest = 00000,
+    quest = 86416,
     rewards = {Achievement({id = 42741, criteria = 106271})}
 }) -- Ancient Coffer
 
