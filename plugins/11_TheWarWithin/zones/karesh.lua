@@ -44,8 +44,6 @@ taz.nodes[72948327] = Rare({
     }
 }) -- "Chowdar" <Escaped Auction Parcel #8675308>
 
-
-
 map.nodes[75233098] = Rare({
     id = 245998,
     quest = 91276,
@@ -81,16 +79,17 @@ map.nodes[63824363] = Rare({
         Achievement({id = 42736, criteria = 106245}),
         Reputation({id = 2658, gain = 15, quest = 90685}) -- The K'aresh Trust
     }
-}) -- Ixthar the Unblinking (requires phase diving phase)
+}) -- Ixthar the Unblinking
 
 map.nodes[64244320] = Rare({
     id = 232077,
+    pois = {Path({64144309, 64984381})},
     quest = 90586,
     rewards = {
         Achievement({id = 42761, criteria = 106335}),
         Reputation({id = 2658, gain = 15, quest = 90675}) -- The K'aresh Trust
     }
-}) -- Korgorath the Ravager 64144309-64984381 patrol path
+}) -- Korgorath the Ravager
 
 map.nodes[54055884] = Rare({
     id = 245997,
@@ -109,7 +108,7 @@ map.nodes[54455445] = Rare({
         Achievement({id = 42761, criteria = 106337}),
         Reputation({id = 2658, gain = 15, quest = 90594}) -- The K'aresh Trust
     }
-}) -- Maw of the Sands (requires phase diving phase)
+}) -- Maw of the Sands
 
 map.nodes[56045357] = Rare({
     id = 232108,
@@ -119,7 +118,7 @@ map.nodes[56045357] = Rare({
         Achievement({id = 42761, criteria = 106338}),
         Reputation({id = 2658, gain = 15, quest = 90677}) -- The K'aresh Trust
     }
-}) -- Morgil the Netherspawn phase diving/patrols
+}) -- Morgil the Netherspawn - patrols
 
 map.nodes[52782081] = Rare({
     id = 232127,
@@ -129,7 +128,7 @@ map.nodes[52782081] = Rare({
         Achievement({id = 42761, criteria = 106339}),
         Reputation({id = 2658, gain = 15, quest = 90684}) -- The K'aresh Trust
     }
-}) -- Orith the Dreadful (requires phase diving phase)
+}) -- Orith the Dreadful
 
 map.nodes[45782425] = Rare({
     id = 232182,
@@ -240,7 +239,7 @@ map.nodes[49152824] = Rare({
         Achievement({id = 41980, criteria = 104427}),
         Reputation({id = 2658, gain = 15, quest = 90688}) -- The K'aresh Trust
     }
-}) -- Shatterpulse (Review)
+}) -- Shatterpulse
 
 map.nodes[33333333] = Rare({
     id = 241956,
@@ -281,7 +280,7 @@ taz.nodes[31155818] = Rare({
     quest = 90694,
     requires = ns.requirement.Item(236753), -- [Xy'vox Refuge Dampener] from warrants
     rewards = {
-        Achievement({id = 42761, criteria = 106349}),
+        -- Achievement({id = 42761, criteria = 106349}),
         Achievement({id = 41980, criteria = 104429}),
         Reputation({id = 2658, gain = 15, quest = 90695}) -- The K'aresh Trust
     }
@@ -352,13 +351,14 @@ map.nodes[65346362] = Treasure({
 }) -- Tumbled Package
 
 map.nodes[70204773] = Treasure({
+    pois = {Entrance({68794783})},
     quest = 86306,
     rewards = {Achievement({id = 42741, criteria = 106276})}
-}) -- Rashaal's Vase (cave enterance 68794783)
+}) -- Rashaal's Vase
 
 map.nodes[75065534] = Treasure({
     quest = 86308,
-    rewards = {Achievement({id = 42741, criteria = 106276})}
+    rewards = {Achievement({id = 42741, criteria = 108722})}
 }) -- Shattered Crystals
 
 map.nodes[77782787] = Treasure({
@@ -377,7 +377,7 @@ map.nodes[58653434] = Treasure({
 map.nodes[53985926] = Treasure({
     quest = 92348,
     rewards = {
-        Achievement({id = 42741, criteria = 106278}),
+        Achievement({id = 42741, criteria = 108723}),
         Transmog({item = 246299, type = L['sword']})
     }
 }) -- Abandoned Lockbox
