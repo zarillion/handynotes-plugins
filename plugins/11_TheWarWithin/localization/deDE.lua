@@ -663,4 +663,5 @@ L['options_icons_purrkins'] = '{achievement:42729}'
 L['options_icons_purrkins_desc'] = nil
 L['purrkins_note'] = nil
 L['kareshire_sublabel'] = nil
+L['in_a_tree'] = 'Oben im Baum.'
 L['little_ms_phaser_sublabel'] = nil

@@ -375,6 +375,34 @@ map.nodes[58653434] = Treasure({
 }) -- Crudely Stitched Sack
 
 map.nodes[53985926] = Treasure({
+    note = L['multiple_spawns'],
+    quest = 92348,
+    rewards = {
+        Achievement({id = 42741, criteria = 108723}),
+        Transmog({item = 246299, type = L['sword']})
+    }
+}) -- Abandoned Lockbox
+
+map.nodes[60106090] = Treasure({
+    note = L['multiple_spawns'],
+    quest = 92348,
+    rewards = {
+        Achievement({id = 42741, criteria = 108723}),
+        Transmog({item = 246299, type = L['sword']})
+    }
+}) -- Abandoned Lockbox
+
+map.nodes[53955496] = Treasure({
+    note = L['multiple_spawns'],
+    quest = 92348,
+    rewards = {
+        Achievement({id = 42741, criteria = 108723}),
+        Transmog({item = 246299, type = L['sword']})
+    }
+}) -- Abandoned Lockbox
+
+map.nodes[59755372] = Treasure({
+    note = L['multiple_spawns'],
     quest = 92348,
     rewards = {
         Achievement({id = 42741, criteria = 108723}),
@@ -383,9 +411,16 @@ map.nodes[53985926] = Treasure({
 }) -- Abandoned Lockbox
 
 map.nodes[53706405] = Treasure({
+    note = L['multiple_spawns'],
     quest = 91352,
     rewards = {Achievement({id = 42741, criteria = 106279})}
-}) -- Lightly-Dented Luggage (prev 54956245)
+}) -- Lightly-Dented Luggage
+
+map.nodes[54956245] = Treasure({
+    note = L['multiple_spawns'],
+    quest = 91352,
+    rewards = {Achievement({id = 42741, criteria = 106279})}
+}) -- Lightly-Dented Luggage
 
 map.nodes[54462444] = Treasure({
     quest = 85840,
@@ -678,6 +713,7 @@ map.nodes[73172374] = Purrkins({
 }) -- Empurror (up on ledge)
 
 map.nodes[70245426] = Purrkins({
+    location = L['in_a_tree'],
     rewards = {Achievement({id = 42729, criteria = 106226})},
     sublabel = L['kareshire_sublabel']
 }) -- K'aresh'ire (visible for 15sec on tree then disappears for 20sec)

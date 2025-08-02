@@ -662,5 +662,6 @@ L['options_icons_purrkins'] = '{achievement:42729}'
 L['options_icons_purrkins_desc'] = 'Display purrkins for {achievement:42729}'
 L['purrkins_note'] = '{emote:/Pet} the purrkin'
 L['kareshire_sublabel'] = 'Phases in and out'
+L['in_a_tree'] = 'Up in a tree.'
 L['little_ms_phaser_sublabel'] = 'Phases in and out'
 
