@@ -663,3 +663,8 @@ L['purrkins_note'] = '{emote:/Caressez} le félidron'
 L['kareshire_sublabel'] = 'Apparaît et disparaît par phase'
 L['in_a_tree'] = 'En haut d\'un arbre.'
 L['little_ms_phaser_sublabel'] = 'Apparaît et disparaît par phase'
+
+L['mailroom_distribution_note'] = nil
+L['gift_of_the_brothers_note'] = nil
+
+L['sthaarbs_note']  = nil

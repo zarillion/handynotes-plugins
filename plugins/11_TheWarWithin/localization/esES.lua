@@ -664,3 +664,8 @@ L['purrkins_note'] = 'Teclea {emote:/acariciar} en el ronroneador.'
 L['kareshire_sublabel'] = 'Cambia de fases'
 L['in_a_tree'] = 'Encima del árbol.'
 L['little_ms_phaser_sublabel'] = 'Cambia de fases'
+
+L['mailroom_distribution_note'] = nil
+L['gift_of_the_brothers_note'] = nil
+
+L['sthaarbs_note']  = nil

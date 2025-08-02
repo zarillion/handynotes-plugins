@@ -179,6 +179,8 @@ map.nodes[76754219] = Rare({
 
 map.nodes[74043254] = Rare({
     id = 234845,
+    note = L['sthaarbs_note'],
+    pois = {POI({75813291})},
     quest = 91293,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
@@ -291,16 +293,20 @@ taz.nodes[31155818] = Rare({
 -------------------------------------------------------------------------------
 
 map.nodes[76114526] = Treasure({
+    note = L['gift_of_the_brothers_note'],
     pois = {
         POI({
+            color = 'Red',
             label = '{npc:234112}', -- Naji
             -- quest = 86065,
             points = {68304530}
         }), POI({
+            color = 'Yellow',
             label = '{npc:234113}', -- M'alim
             --   quest = 86066,
             points = {69806050}
         }), POI({
+            color = 'Green',
             label = '{npc:234075}', -- Sahra
             --  quest = 86067,
             points = {75503980}
@@ -325,7 +331,13 @@ map.nodes[69745231] = Treasure({
 }) -- Forlorn Wind Chime
 
 taz.nodes[47766265] = Treasure({
+    note = L['mailroom_distribution_note'],
     parent = map.id,
+    pois = {
+        POI({
+            points = {46676445,47456925,48656722,48326555}
+        })
+    },
     quest = 86467,
     rewards = {
         Achievement({id = 42741, criteria = 106273}), Toy({item = 245970}) -- [P.O.S.T. Master's Express Hearthstone]

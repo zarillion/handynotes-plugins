@@ -665,3 +665,8 @@ L['purrkins_note'] = nil
 L['kareshire_sublabel'] = nil
 L['in_a_tree'] = 'На дереве.'
 L['little_ms_phaser_sublabel'] = nil
+
+L['mailroom_distribution_note'] = nil
+L['gift_of_the_brothers_note'] = nil
+
+L['sthaarbs_note']  = nil
