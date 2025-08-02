@@ -664,7 +664,7 @@ L['kareshire_sublabel'] = 'Apparaît et disparaît par phase'
 L['in_a_tree'] = 'En haut d\'un arbre.'
 L['little_ms_phaser_sublabel'] = 'Apparaît et disparaît par phase'
 
-L['mailroom_distribution_note'] = nil
-L['gift_of_the_brothers_note'] = nil
+L['mailroom_distribution_note'] = 'Interagissez avec le chariot à l\'extérieur, puis ouvrez la porte de la salle du courrier. Placez-vous sur les cercles et utilisez le bouton d\'action supplémentaire. Le trésor apparaîtra près de la porte.'
+L['gift_of_the_brothers_note'] = 'Interagissez avec la {object:Lanterne vacillante} et parlez à {npc:233881}, allez ensuite trouver {npc:234112}, {npc:234113} et {npc:234075}, puis retournez voir {npc:233881} près de la {object:Lanterne vacillante}.'
 
-L['sthaarbs_note']  = nil
+L['sthaarbs_note'] = 'Utilisez le téléporteur près du {object:Conduit de phase} pour atteindre {npc:234845}.'
