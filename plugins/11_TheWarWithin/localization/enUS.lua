@@ -668,4 +668,4 @@ L['little_ms_phaser_sublabel'] = 'Phases in and out'
 L['mailroom_distribution_note'] = 'Interact with the cart outside, then open the Mailroom door. Stand on the circles and use the extra action button. Treasure will appear near the door'
 L['gift_of_the_brothers_note'] = 'Interact with the {object:Flickering Lantern} and speak with {npc:233881}, then go find {npc:234112}, {npc:234113} and {npc:234075} then return to {npc:233881} at the {object:Flickering Lantern}.'
 
-L['sthaarbs_note'] = 'Use the teleporter to reach the rare.'
+L['sthaarbs_note'] = 'Use the teleporter near the {object:Phase Conduit} to reach {npc:234845}'
