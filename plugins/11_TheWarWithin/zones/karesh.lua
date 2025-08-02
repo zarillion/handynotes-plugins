@@ -697,10 +697,3 @@ map.nodes[47613738] = Purrkins({
     rewards = {Achievement({id = 42729, criteria = 106223})}
 }) -- The King in Silver
 
---[[
-DELVE CHESTS
-map:2452 62383800 quest:83692
-map:2452 61931087 quest 83673
-map:2476 43886472 quest:90839
-map:2455 49669258 quest:83653
-]]
