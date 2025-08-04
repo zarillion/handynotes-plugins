@@ -447,7 +447,7 @@ map.nodes[52096833] = Treasure({
     requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
     rewards = {
         Achievement({id = 42741, criteria = 106224}),
-        Achievement({id = 42730, criteria = 106224}), -- Jump, Jump, and Away! (need to validate)
+        Achievement({id = 42730, criteria = 106224, oneline = true}), -- Jump, Jump, and Away! (need to validate)
         Transmog({item = 246293, type = L['shield']}) -- [Buckler of the Last Stand]
 
     }
