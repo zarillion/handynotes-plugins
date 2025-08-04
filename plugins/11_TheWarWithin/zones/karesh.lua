@@ -13,6 +13,7 @@ local SkyridingGlyph = ns.node.SkyridingGlyph
 
 local Achievement = ns.reward.Achievement
 -- local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -185,7 +186,8 @@ map.nodes[74043254] = Rare({
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 42761, criteria = 106346}),
-        Reputation({id = 2658, gain = 15, quest = 91431}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 91431}), -- The K'aresh Trust
+        Mount({item = 246160, id = 2603}) -- Sthaarbs's Last Lunch
     }
 }) -- Sthaarbs <the Mindroiler> use portal near the phase pad to get upto rare
 
@@ -203,7 +205,8 @@ map.nodes[70144983] = Rare({
     quest = 90593,
     rewards = {
         Achievement({id = 42761, criteria = 106348}),
-        Reputation({id = 2658, gain = 15, quest = 90682}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 90682}), -- The K'aresh Trust
+        Mount({item = 246067, id = 2601}) -- Pearlescent Krolusk
     }
 }) -- Urmag <The Terror Below>
 
@@ -298,17 +301,17 @@ map.nodes[76114526] = Treasure({
         POI({
             color = 'Red',
             label = '{npc:234112}', -- Naji
-            -- quest = 86065,
+            quest = 86066,
             points = {68304530}
         }), POI({
             color = 'Yellow',
             label = '{npc:234113}', -- M'alim
-            --   quest = 86066,
+            quest = 86067,
             points = {69806050}
         }), POI({
             color = 'Green',
             label = '{npc:234075}', -- Sahra
-            --  quest = 86067,
+            quest = 86065,
             points = {75503980}
         })
     },
@@ -400,51 +403,32 @@ map.nodes[58653434] = Treasure({
     rewards = {Achievement({id = 42741, criteria = 106278})}
 }) -- Crudely Stitched Sack
 
-map.nodes[53985926] = Treasure({
+local AbandonedLockbox = Class('AbandonedLockbox', Treasure, {
     note = L['multiple_spawns'],
     quest = 92348,
+    fgroup = 'abandoned_lockbox',
     rewards = {
         Achievement({id = 42741, criteria = 108723}),
-        Transmog({item = 246299, type = L['sword']})
+        Transmog({item = 246299, type = L['1h_sword']})
     }
 }) -- Abandoned Lockbox
 
-map.nodes[60106090] = Treasure({
-    note = L['multiple_spawns'],
-    quest = 92348,
-    rewards = {
-        Achievement({id = 42741, criteria = 108723}),
-        Transmog({item = 246299, type = L['sword']})
-    }
-}) -- Abandoned Lockbox
-
-map.nodes[53955496] = Treasure({
-    note = L['multiple_spawns'],
-    quest = 92348,
-    rewards = {
-        Achievement({id = 42741, criteria = 108723}),
-        Transmog({item = 246299, type = L['sword']})
-    }
-}) -- Abandoned Lockbox
-
-map.nodes[59755372] = Treasure({
-    note = L['multiple_spawns'],
-    quest = 92348,
-    rewards = {
-        Achievement({id = 42741, criteria = 108723}),
-        Transmog({item = 246299, type = L['sword']})
-    }
-}) -- Abandoned Lockbox
+map.nodes[53985926] = AbandonedLockbox()
+map.nodes[60106090] = AbandonedLockbox()
+map.nodes[53955496] = AbandonedLockbox()
+map.nodes[59755372] = AbandonedLockbox()
 
 map.nodes[53706405] = Treasure({
     note = L['multiple_spawns'],
     quest = 91352,
+    fgroup = 'lightly_dented_luggage',
     rewards = {Achievement({id = 42741, criteria = 106279})}
 }) -- Lightly-Dented Luggage
 
 map.nodes[54956245] = Treasure({
     note = L['multiple_spawns'],
     quest = 91352,
+    fgroup = 'lightly_dented_luggage',
     rewards = {Achievement({id = 42741, criteria = 106279})}
 }) -- Lightly-Dented Luggage
 

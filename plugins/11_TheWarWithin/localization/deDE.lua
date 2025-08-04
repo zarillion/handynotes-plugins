@@ -656,18 +656,19 @@ L['george_the_big_pinch_note'] = 'Klicke schnell alle 5 {npc:238189} an, um den 
 -------------------------------------------------------------------------------
 ----------------------------------- K'ARESH -----------------------------------
 -------------------------------------------------------------------------------
+
 L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
 L['options_icons_karesh_lore_hunter_desc'] = 'Zeigt die Positionen der Geschichtsobjekte für den Erfolg {achievement:60890} an.'
 
 L['options_icons_purrkins'] = '{achievement:42729}'
-L['options_icons_purrkins_desc'] = nil
-L['purrkins_note'] = nil
-L['kareshire_sublabel'] = nil
+L['options_icons_purrkins_desc'] = 'Zeigt die Positionen der Schnurrer für den Erfolg {achievement:42729} an.'
+L['purrkins_note'] = 'Streichel ({emote:/streicheln}) den Schnurrer.'
+L['kareshire_sublabel'] = 'Erscheint und verschwindet hin und wieder.'
 L['in_a_tree'] = 'Oben im Baum.'
-L['little_ms_phaser_sublabel'] = nil
+L['little_ms_phaser_sublabel'] = 'Erscheint und verschwindet hin und wieder.'
 
-L['mailroom_distribution_note'] = nil
-L['gift_of_the_brothers_note'] = nil
-L['ancient_coffer_note'] = nil
+L['mailroom_distribution_note'] = 'Sammle vor dem Eingang die {object:Überschüssige Post} ein, öffne dann die Tür und stelle dich auf die Kreise, um mit dem Extraaktionsbutton die Post auszutragen. Der Schatz erscheint neben dem Eingang.'
+L['gift_of_the_brothers_note'] = 'Interagiere mit der {object:Flackernde Laterne} und spreche mit {npc:233881}. Suche nach den Brüdern {npc:234112} ({dot:Red}), {npc:234113} ({dot:Yellow}) und {npc:234075} ({dot:Green}) und spreche mit ihnen, kehre dann zu {npc:233881} zurück, um ihm die Laterne zurück zu geben.'
+L['ancient_coffer_note'] = 'Sammle das {item:233794} ({dot:Red}) und die {item:233799} ({dot:Yellow}), um den Kasten öffnen zu können.'
 
-L['sthaarbs_note'] = nil
+L['sthaarbs_note'] = 'Verwende den Teleporter in der Nähe des {object:Phase Conduit}, um {npc:234845} zu erreichen.' -- review

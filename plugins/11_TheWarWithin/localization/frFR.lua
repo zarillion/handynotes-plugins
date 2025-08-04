@@ -654,6 +654,7 @@ L['george_the_big_pinch_note'] = 'Cliquez rapidement sur les 5 {npc:238189} pour
 -------------------------------------------------------------------------------
 ----------------------------------- K'ARESH -----------------------------------
 -------------------------------------------------------------------------------
+
 L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
 L['options_icons_karesh_lore_hunter_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:60890}.'
 
