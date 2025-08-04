@@ -666,6 +666,6 @@ L['little_ms_phaser_sublabel'] = 'Apparaît et disparaît par phase'
 
 L['mailroom_distribution_note'] = 'Interagissez avec le chariot à l\'extérieur, puis ouvrez la porte de la salle du courrier. Placez-vous sur les cercles et utilisez le bouton d\'action supplémentaire. Le trésor apparaîtra près de la porte.'
 L['gift_of_the_brothers_note'] = 'Interagissez avec la {object:Lanterne vacillante} et parlez à {npc:233881}, allez ensuite trouver {npc:234112}, {npc:234113} et {npc:234075}, puis retournez voir {npc:233881} près de la {object:Lanterne vacillante}.'
-L['ancient_coffer_note'] = nil
+L['ancient_coffer_note'] = 'Récupérez le {item:233794}({dot:Red}) et la {item:233799}({dot:Yellow}), puis retournez à l\'emplacement du {object:Coffre ancien} pour recevoir {item:245269}.'
 
 L['sthaarbs_note'] = 'Utilisez le téléporteur près du {object:Conduit de phase} pour atteindre {npc:234845}.'
