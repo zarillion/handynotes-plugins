@@ -667,5 +667,6 @@ L['little_ms_phaser_sublabel'] = 'Cambia de fases'
 
 L['mailroom_distribution_note'] = 'Interactúa con el carro de fuera y abre la puerta de la sala de correo. Párate en los círculos y usa el botón de acción adicional. El tesoro aparecerá cerca de la puerta.'
 L['gift_of_the_brothers_note'] = 'Interactúa con el {object:Farol chisporroteante} y habla con {npc:233881}. Después ves a buscar a {npc:234112}, {npc:234113} y {npc:234075}. Por último, vuelve a {npc:233881} en el {object:Farol chisporroteante}.'
+L['ancient_coffer_note'] = nil
 
 L['sthaarbs_note'] = 'Usa el teletransportador cerca del {object:Conducto de fase} para alcanzar a {npc:234845}.'

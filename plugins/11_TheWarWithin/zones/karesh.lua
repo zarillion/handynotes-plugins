@@ -321,8 +321,26 @@ map.nodes[76114526] = Treasure({
 }) -- Gift of the Brothers (speak with 3 npcs at pois then return to Ihya at he flickering lantern)
 
 map.nodes[60903835] = Treasure({
+    note = L['ancient_coffer_note'],
+    pois = {
+        POI({
+            color = 'Red',
+            label = '{item:233794}', -- Battered Book
+            -- quest = 86415,
+            points = {66564480}
+        }), POI({
+            color = 'Yellow',
+            label = '{item:233799}', -- Submerged Bottle
+            -- quest = 86417,
+            points = {76233122}
+        })
+    },
     quest = 86416,
-    rewards = {Achievement({id = 42741, criteria = 106271})}
+    requires = {ns.requirement.Item(233794), ns.requirement.Item(233799)}, -- [Battered Book] & [Submerged Bottle]
+    rewards = {
+        Achievement({id = 42741, criteria = 106271}),
+        Pet({item = 245269, id = 4845, count = 1}) -- Mr. Long-Legs
+    }
 }) -- Ancient Coffer
 
 map.nodes[69745231] = Treasure({
