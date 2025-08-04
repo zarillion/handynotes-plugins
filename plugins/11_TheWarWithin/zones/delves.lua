@@ -35,9 +35,9 @@ local esn = Map({id = 2396, settings = false}) -- Excavation Site 9
 local pit = Map({id = 2420, settings = false}) -- Sidestreet Sluice - The Pits
 local thd = Map({id = 2422, settings = false}) -- Sidestreet Sluice - The High Decks
 
---local upc = Map({id = 2452, settings = false}) -- Archival Assault -- Upper Chamber
+-- local upc = Map({id = 2452, settings = false}) -- Archival Assault -- Upper Chamber
 local arc = Map({id = 2452, settings = false}) -- Archival Assault -- The Arcane Conservatory
---local mol = Map({id = 2455, settings = false}) -- Archival Assault -- Mausoleum of Legends
+-- local mol = Map({id = 2455, settings = false}) -- Archival Assault -- Mausoleum of Legends
 local low = Map({id = 2455, settings = false}) -- Archival Assault -- Lower Chamber
 local cch = Map({id = 2476, settings = false}) -- Archival Assault -- Crystal Chambers
 
@@ -725,7 +725,7 @@ local DELVE_REWARDS = {
     },
     ['archival_assault'] = {
         Achievement({id = 42679, criteria = SturdyChestCriteria}), -- Archival Assault Discoveries
-        Achievement({id = 42771, criteria = {106401, 106402, 106403, 106404}}), -- Archival Assault Stories
+        Achievement({id = 42771, criteria = {106401, 106402, 106403, 106404}}) -- Archival Assault Stories
     }
 }
 

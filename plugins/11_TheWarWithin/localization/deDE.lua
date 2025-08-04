@@ -669,4 +669,4 @@ L['little_ms_phaser_sublabel'] = nil
 L['mailroom_distribution_note'] = nil
 L['gift_of_the_brothers_note'] = nil
 
-L['sthaarbs_note']  = nil
+L['sthaarbs_note'] = nil

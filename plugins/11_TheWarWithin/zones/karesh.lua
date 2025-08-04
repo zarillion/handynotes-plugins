@@ -333,11 +333,7 @@ map.nodes[69745231] = Treasure({
 taz.nodes[47766265] = Treasure({
     note = L['mailroom_distribution_note'],
     parent = map.id,
-    pois = {
-        POI({
-            points = {46676445,47456925,48656722,48326555}
-        })
-    },
+    pois = {POI({points = {46676445, 47456925, 48656722, 48326555}})},
     quest = 86467,
     rewards = {
         Achievement({id = 42741, criteria = 106273}), Toy({item = 245970}) -- [P.O.S.T. Master's Express Hearthstone]
