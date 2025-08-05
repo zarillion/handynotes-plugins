@@ -651,3 +651,23 @@ L['upgrade_turbo_handcrank'] = '{item:232984} (Turbo): Combine all 5 pieces coll
 L['blazefeather_peacock_note'] = 'After completing the {quest:83421} storyline, speak with {npc:226555} to pay %s to summon a trainable {npc:226561}.'
 L['radioactive_subject_note'] = 'Use nearby pipes and combination of {item:237276}, {item:109076}, {item:231099} or any other jumping puzzle tricks to reach the roof of the {location:Steamwheedle Laboratories} building in {location:The Vatworks}.'
 L['george_the_big_pinch_note'] = 'Quickly click all 5 {npc:238189} to recieve {spell:1219679} and allow you to tame {npc:233938}.'
+
+-------------------------------------------------------------------------------
+----------------------------------- K'ARESH -----------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
+L['options_icons_karesh_lore_hunter_desc'] = 'Display lore object locations for {achievement:60890} achievement.'
+
+L['options_icons_purrkins'] = '{achievement:42729}'
+L['options_icons_purrkins_desc'] = 'Display purrkins for {achievement:42729}.'
+L['purrkins_note'] = '{emote:/Pet} the purrkin.'
+L['kareshire_sublabel'] = 'Phases in and out.'
+L['in_a_tree'] = 'Up in a tree.'
+L['little_ms_phaser_sublabel'] = 'Phases in and out.'
+
+L['mailroom_distribution_note'] = 'Interact with the cart outside, then open the Mailroom door. Stand on the circles and use the extra action button. Treasure will appear near the door.'
+L['gift_of_the_brothers_note'] = 'Interact with the {object:Flickering Lantern} and speak with {npc:233881}, then go find {npc:234112} ({dot:Red}), {npc:234113} ({dot:Yellow}) and {npc:234075} ({dot:Green}), then return to {npc:233881} at the {object:Flickering Lantern}.'
+L['ancient_coffer_note'] = 'Collect the {item:233794}({dot:Red}) and {item:233799}({dot:Yellow}) then return to the {object:Ancient Coffer} to receive {item:245269}.'
+
+L['sthaarbs_note'] = 'Use the teleporter near the {object:Phase Conduit} to reach {npc:234845}.'

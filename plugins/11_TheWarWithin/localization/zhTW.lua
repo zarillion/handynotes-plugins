@@ -649,3 +649,23 @@ L['upgrade_turbo_handcrank'] = nil
 L['blazefeather_peacock_note'] = nil
 L['radioactive_subject_note'] = nil
 L['george_the_big_pinch_note'] = nil
+
+-------------------------------------------------------------------------------
+----------------------------------- K'ARESH -----------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
+L['options_icons_karesh_lore_hunter_desc'] = '顯示成就 {achievement:60890} 所需的知識位置.'
+
+L['options_icons_purrkins'] = '{achievement:42729}'
+L['options_icons_purrkins_desc'] = nil
+L['purrkins_note'] = nil
+L['kareshire_sublabel'] = nil
+L['in_a_tree'] = '在一棵樹上.'
+L['little_ms_phaser_sublabel'] = nil
+
+L['mailroom_distribution_note'] = nil
+L['gift_of_the_brothers_note'] = nil
+L['ancient_coffer_note'] = nil
+
+L['sthaarbs_note'] = nil

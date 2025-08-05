@@ -1,6 +1,15 @@
 # v121
 
+* Ghosts of K'aresh - 11.2
+  * All rare locations
+  * All treasure locations
+  * All delve locations
+  * All locations for the achievement [Dangerous Prowlers of K'aresh](https://www.wowhead.com/achievement=42729)
+  * All locations for the achievement [Secrets of the K'areshi](https://www.wowhead.com/achievement=60890)
+  * All locations for the achievement [K'aresh Glyph Hunter](https://www.wowhead.com/achievement=42727)
+
 * Removed [I TAKE Candle!](https://www.wowhead.com/achievement=40446/i-take-candle) from Kobold delves as achievement. Now is a Feat of Strength and can no longer be attained.
+* Localization updates: deDE, esES, frFR, zhCN
 
 # v120
 

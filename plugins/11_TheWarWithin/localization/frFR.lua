@@ -650,3 +650,23 @@ L['upgrade_turbo_handcrank'] = '{item:232984} (Turbo) : Combinez les 5 pièces r
 L['blazefeather_peacock_note'] = 'Après avoir terminé la suite de quêtes {quest:83421}, parlez à {npc:226555} et payez-le %s pour invoquer un {npc:226561} domptable.'
 L['radioactive_subject_note'] = 'Utilisez les tuyaux à proximité, aidez-vous des objets {item:237276}, {item:109076}, {item:231099} ou de toute autre technique de saut pour atteindre le toit du bâtiment des {location:Laboratoires de Gentepression} à la {location:Cuverie}.'
 L['george_the_big_pinch_note'] = 'Cliquez rapidement sur les 5 {npc:238189} pour recevoir le buff {spell:1219679} et ainsi pouvoir dompter {npc:233938}.'
+
+-------------------------------------------------------------------------------
+----------------------------------- K'ARESH -----------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
+L['options_icons_karesh_lore_hunter_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:60890}.'
+
+L['options_icons_purrkins'] = '{achievement:42729}'
+L['options_icons_purrkins_desc'] = 'Afficher les emplacements des félidrons pour le haut-fait {achievement:42729}.'
+L['purrkins_note'] = '{emote:/Caressez} le félidron.'
+L['kareshire_sublabel'] = 'Apparaît et disparaît par phase.'
+L['in_a_tree'] = 'En haut d\'un arbre.'
+L['little_ms_phaser_sublabel'] = 'Apparaît et disparaît par phase.'
+
+L['mailroom_distribution_note'] = 'Interagissez avec le chariot à l\'extérieur, puis ouvrez la porte de la salle du courrier. Placez-vous sur les cercles et utilisez le bouton d\'action supplémentaire. Le trésor apparaîtra près de la porte.'
+L['gift_of_the_brothers_note'] = 'Interagissez avec la {object:Lanterne vacillante} et parlez à {npc:233881}, allez ensuite trouver {npc:234112} ({dot:Red}), {npc:234113} ({dot:Yellow}) et {npc:234075} ({dot:Green}), puis retournez voir {npc:233881} près de la {object:Lanterne vacillante}.'
+L['ancient_coffer_note'] = 'Récupérez le {item:233794}({dot:Red}) et la {item:233799}({dot:Yellow}), puis retournez à l\'emplacement du {object:Coffre ancien} pour recevoir {item:245269}.'
+
+L['sthaarbs_note'] = 'Utilisez le téléporteur près du {object:Conduit de phase} pour atteindre {npc:234845}.'
