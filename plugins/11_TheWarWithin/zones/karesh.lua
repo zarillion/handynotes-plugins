@@ -248,7 +248,7 @@ map.nodes[49152824] = Rare({
 
 map.nodes[33333333] = Rare({
     id = 241956,
-    quest = 00000,
+    quest = 90696,
     requires = ns.requirement.Item(239314), -- [Arcane Lure] from warrants
     rewards = {
         Achievement({id = 42761, criteria = 106332}),
