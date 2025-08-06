@@ -1,6 +1,8 @@
 # v122
 
-* Add Phase Diving requirement to The Facets of K'aresh for [Secrets of the K'areshi](https://www.wowhead.com/achievement=60890)
+* Added Phase Diving requirement to The Facets of K'aresh for [Secrets of the K'areshi](https://www.wowhead.com/achievement=60890)
+* Added Phase Diving requirement for multiple rares
+* Added Reshii Wraps trait "What Lies Beyond" requirement for Phase Diving treasures
 
 # v121
 
