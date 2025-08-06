@@ -637,6 +637,7 @@ map.nodes[42292093] = KareshLore({
 
 map.nodes[72122941] = KareshLore({
     quest = 91647,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Achievement({id = 60890, criteria = 107309}),
         Reputation({id = 2658, gain = 250, quest = 91647}) -- The K'aresh Trust

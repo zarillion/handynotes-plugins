@@ -1,3 +1,7 @@
+# v122
+
+* Add Phase Diving requirement to The Facets of K'aresh for [Secrets of the K'areshi](https://www.wowhead.com/achievement=60890)
+
 # v121
 
 * Ghosts of K'aresh - 11.2
