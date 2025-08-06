@@ -84,6 +84,7 @@ map.nodes[63824363] = Rare({
 
 map.nodes[64244320] = Rare({
     id = 232077,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     pois = {Path({64144309, 64984381})},
     quest = 90586,
     rewards = {
@@ -142,6 +143,7 @@ map.nodes[45782425] = Rare({
 
 map.nodes[50536469] = Rare({
     id = 232189,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90591,
     rewards = {
         Achievement({id = 42761, criteria = 106342}),
@@ -151,6 +153,7 @@ map.nodes[50536469] = Rare({
 
 map.nodes[72205557] = Rare({
     id = 232006,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90585,
     rewards = {
         Achievement({id = 42761, criteria = 106343}),
@@ -193,6 +196,7 @@ map.nodes[74043254] = Rare({
 
 map.nodes[52705660] = Rare({
     id = 232111,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90589,
     rewards = {
         Achievement({id = 42761, criteria = 106347}),
@@ -202,6 +206,7 @@ map.nodes[52705660] = Rare({
 
 map.nodes[70144983] = Rare({
     id = 232195,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90593,
     rewards = {
         Achievement({id = 42761, criteria = 106348}),
@@ -212,6 +217,7 @@ map.nodes[70144983] = Rare({
 
 map.nodes[65144998] = Rare({
     id = 232199,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90584,
     rewards = {
         Achievement({id = 42761, criteria = 106349}),
@@ -270,12 +276,12 @@ map.nodes[48441696] = Rare({
 
 map.nodes[42505755] = Rare({
     id = 241920,
-    quest = 87546,
+    quest = 90692,
     requires = ns.requirement.Item(239276), -- [Purple Peat Cell Key] from warrants
     rewards = {
         -- Achievement({id = 42761, criteria = 106349}),
         Achievement({id = 41980, criteria = 104426}),
-        Reputation({id = 2658, gain = 15, quest = 90807}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 90693}) -- The K'aresh Trust
     }
 }) -- Purple Peat
 
@@ -294,6 +300,20 @@ taz.nodes[31155818] = Rare({
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
+
+local WhatLiesBeyond = Class('WhatLiesBeyond', ns.requirement.Requirement)
+
+function WhatLiesBeyond:Initialize()
+    local definitionInfo = C_Traits.GetDefinitionInfo(135401) -- What Lies Beyond
+    local name = C_Item.GetItemInfo(235499) -- Reshii Wraps
+    self.text = definitionInfo and definitionInfo.overrideName or UNKNOWN
+    self.type = name
+end
+
+function WhatLiesBeyond:IsMet()
+    local nInfo = C_Traits.GetNodeInfo(57801712, 105870) -- What Lies Beyond
+    return nInfo and nInfo.ranksPurchased and nInfo.ranksPurchased > 0
+end
 
 map.nodes[76114526] = Treasure({
     note = L['gift_of_the_brothers_note'],
@@ -371,6 +391,7 @@ map.nodes[64104398] = Treasure({
 
 map.nodes[60544213] = Treasure({
     quest = 86301,
+    note = L['in_small_cave'],
     rewards = {Achievement({id = 42741, criteria = 106274})}
 }) -- Wastelander Stash
 
@@ -380,9 +401,10 @@ map.nodes[65346362] = Treasure({
 }) -- Tumbled Package
 
 map.nodes[70204773] = Treasure({
-    pois = {Entrance({68794783})},
     quest = 86306,
-    rewards = {Achievement({id = 42741, criteria = 106276})}
+    note = L['in_cave'],
+    rewards = {Achievement({id = 42741, criteria = 106276})},
+    pois = {Entrance({68794783})}
 }) -- Rashaal's Vase
 
 map.nodes[75065534] = Treasure({
@@ -442,7 +464,10 @@ map.nodes[54462444] = Treasure({
 
 map.nodes[52096833] = Treasure({
     quest = 89378,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+        WhatLiesBeyond()
+    },
     rewards = {
         Achievement({id = 42741, criteria = 106224}),
         Achievement({id = 42730, criteria = 106224, oneline = true}), -- Jump, Jump, and Away! (need to validate)
@@ -453,10 +478,13 @@ map.nodes[52096833] = Treasure({
 
 map.nodes[52504677] = Treasure({
     quest = 90511,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+        WhatLiesBeyond()
+    },
     rewards = {
         Achievement({id = 42741, criteria = 106281}),
-        Transmog({item = 243002, type = L['axe']}) -- [Light-Soaked Cleaver]
+        Transmog({item = 243002, type = L['1h_axe']}) -- [Light-Soaked Cleaver]
     }
 
 }) -- Light-Soaked Cleaver
@@ -464,7 +492,10 @@ map.nodes[52504677] = Treasure({
 taz.nodes[23694682] = Treasure({
     parent = map.id,
     quest = 90512,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+        WhatLiesBeyond()
+    },
     rewards = {
         Achievement({id = 42741, criteria = 106296}),
         Transmog({item = 243003, type = L['polearm']}) -- [Spear of Fallen Memories]
@@ -473,7 +504,10 @@ taz.nodes[23694682] = Treasure({
 
 map.nodes[77994894] = Treasure({
     quest = 90514,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+        WhatLiesBeyond()
+    },
     rewards = {
         Achievement({id = 42741, criteria = 106283}),
         Transmog({item = 243004, type = L['shield']}) -- [Efrat's Forgotten Bulwark]
@@ -482,17 +516,23 @@ map.nodes[77994894] = Treasure({
 
 map.nodes[51056509] = Treasure({
     quest = 90522,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+        WhatLiesBeyond()
+    },
     rewards = {
         Achievement({id = 42741, criteria = 106284}),
         Achievement({id = 42738, oneline = true}), -- We've All Got Swords! Need to validate
-        Transmog({item = 243005, type = L['sword']}) -- [Tulwar of the Golden Guard]}
+        Transmog({item = 243005, type = L['2h_sword']}) -- [Tulwar of the Golden Guard]}
     }
 }) -- Tulwar of the Golden Guard
 
 map.nodes[78346154] = Treasure({
     quest = 90515,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+        WhatLiesBeyond()
+    },
     rewards = {
         Achievement({id = 42741, criteria = 106285}),
         Transmog({item = 243006, type = L['staff']}) -- [Petrified Branch of Janaa]
@@ -501,16 +541,22 @@ map.nodes[78346154] = Treasure({
 
 map.nodes[49201805] = Treasure({
     quest = 90527,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+        WhatLiesBeyond()
+    },
     rewards = {
         Achievement({id = 42741, criteria = 106286}),
-        Transmog({item = 243008, type = L['mace']}) -- [Shadowguard Crusher]
+        Transmog({item = 243008, type = L['1h_mace']}) -- [Shadowguard Crusher]
     }
 }) -- Shadowguard Crusher
 
 map.nodes[80725267] = Treasure({
     quest = 90521,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+        WhatLiesBeyond()
+    },
     rewards = {
         Achievement({id = 42741, criteria = 106287}),
         Transmog({item = 243009, type = L['offhand']}) -- [Sufaadi Skiff Lantern]
@@ -519,44 +565,59 @@ map.nodes[80725267] = Treasure({
 
 map.nodes[64434269] = Treasure({
     quest = 90532,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+        WhatLiesBeyond()
+    },
     rewards = {Achievement({id = 42741, criteria = 106288})}
 }) -- Korgorath's Talon
 
 map.nodes[58432259] = Treasure({
     pois = {Entrance({56892408})},
     quest = 91055,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+        WhatLiesBeyond()
+    },
     rewards = {
         Achievement({id = 42741, criteria = 106289}),
-        Transmog({item = 245667, type = L['warglave']}) -- [Warglaive of the Audacious Hunter]
+        Transmog({item = 245667, type = L['warglaive']}) -- [Warglaive of the Audacious Hunter]
     }
 }) -- Warglaive of the Audacious Hunter
 
 taz.nodes[47476998] = Treasure({
     parent = map.id,
     quest = 91056,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+        WhatLiesBeyond()
+    },
     rewards = {
         Achievement({id = 42741, criteria = 106290}),
-        Transmog({item = 245669, type = L['want']}) -- [P.O.S.T. Master's Prototype Parcel and Postage Presser]
+        Transmog({item = 245669, type = L['wand']}) -- [P.O.S.T. Master's Prototype Parcel and Postage Presser]
     }
 }) -- P.O.S.T. Master's Prototype Parcel and Postage Presser
 
 map.nodes[50823534] = Treasure({
     quest = 91057,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+        WhatLiesBeyond()
+    },
     rewards = {
         Achievement({id = 42741, criteria = 106291}),
         Achievement({id = 42738, oneline = true}), -- We've All Got Swords!
-        Transmog({item = 245671, type = L['sword']}) -- [Phaseblade of the Void Marches]
+        Transmog({item = 245671, type = L['1h_sword']}) -- [Phaseblade of the Void Marches]
     }
 }) -- Phaseblade of the Void Marches
 
 taz.nodes[65161472] = Treasure({
     parent = map.id,
     quest = 91058,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving & treasure one
+        WhatLiesBeyond()
+    },
     rewards = {
         Achievement({id = 42741, criteria = 106292}),
         Transmog({item = 245673, type = L['gun']}) -- [Bladed Rifle of Unfettered Momentum]

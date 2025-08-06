@@ -527,7 +527,7 @@ arc.nodes[62383800] = SturdyChest({
     achievementID = 42679,
     quest = 83692,
     rlabel = ns.status.Gray('#1')
-}) -- Sturdy Chest 1 (need to validate)
+}) -- Sturdy Chest 1
 
 arc.nodes[61931087] = SturdyChest({
     achievementID = 42679,
@@ -543,7 +543,7 @@ cch.nodes[43886472] = SturdyChest({
 
 low.nodes[49669258] = SturdyChest({
     achievementID = 42679,
-    quest = 83653,
+    quest = 92573,
     rlabel = ns.status.Gray('#4')
 }) -- Sturdy Chest 4 (good)
 
