@@ -671,4 +671,4 @@ L['gift_of_the_brothers_note'] = '与 {object:闪烁的灯笼} 互动并与 {npc
 L['ancient_coffer_note'] = '收集 {item:233794}（{dot:Red}）和 {item:233799}（{dot:Yellow}），然后回到 {object:古老宝箱} 处领取 {item:245269}。'
 
 L['sthaarbs_note'] = '使用 {object:相位导管} 附近的传送器前往 {npc:234845} 处。'
-L['heka_tamos_note'] = '从附近的 {object:露珠守护者}、{object:幽灵灯笼}、{object:土灵多肉} 和 {object:捕风者} 处各收集一层增益效果，然后与 {object:元素融合火盆} 互动召唤稀有。'
+L['heka_tamos_note'] = '从附近的 {object:望露莲}、{object:幽灵提灯}、{object:土生肉质植物} 和 {object:捕风花} 处各收集一层增益效果，然后与 {object:元素融合火盆} 互动召唤稀有。'
