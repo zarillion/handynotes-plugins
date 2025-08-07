@@ -671,4 +671,4 @@ L['gift_of_the_brothers_note'] = 'Interactúa con el {object:Farol chisporrotean
 L['ancient_coffer_note'] = 'Recoge el {item:233794}({dot:Red}) y la {item:233799}({dot:Yellow}). Devuélvelos a la {object:Arca antigua} para conseguir {item:245269}.'
 
 L['sthaarbs_note'] = 'Usa el teletransportador cerca del {object:Conducto de fase} para alcanzar a {npc:234845}.'
-L['heka_tamos_note'] = nil
+L['heka_tamos_note'] = 'Consigue un buff de {object:Minador de rocío}, {object:Farol espectral}, {object:Exquisitez terránea} y {object:Atrapavientos} que aparecen cerca e interactúa con el {object:Blandón de unión elemental} para invocar al raro.'
