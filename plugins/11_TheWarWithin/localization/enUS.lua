@@ -671,4 +671,4 @@ L['gift_of_the_brothers_note'] = 'Interact with the {object:Flickering Lantern} 
 L['ancient_coffer_note'] = 'Collect the {item:233794}({dot:Red}) and {item:233799}({dot:Yellow}) then return to the {object:Ancient Coffer} to receive {item:245269}.'
 
 L['sthaarbs_note'] = 'Use the teleporter near the {object:Phase Conduit} to reach {npc:234845}.'
-L['heka_tamos_note'] = 'Collect a buff from each of the {object:Dewminder}, {object:Spectral Lantern}, {object:Earthy Succulent} and {object:Windcatcher} which spawn nearby to summon the rare.'
+L['heka_tamos_note'] = 'Collect a buff from each of the {object:Dewminder}, {object:Spectral Lantern}, {object:Earthy Succulent} and {object:Windcatcher} which spawn nearby then interact with the {object:Brazier of Elemental Union} to summon the rare.'
