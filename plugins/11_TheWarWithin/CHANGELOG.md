@@ -1,3 +1,7 @@
+# v123
+
+* Localization updates: esES, frFR
+
 # v122
 
 * Added Phase Diving requirement to The Facets of K'aresh for [Secrets of the K'areshi](https://www.wowhead.com/achievement=60890)
