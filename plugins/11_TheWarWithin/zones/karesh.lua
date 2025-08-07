@@ -47,6 +47,7 @@ taz.nodes[72948327] = Rare({
 
 map.nodes[75233098] = Rare({
     id = 245998,
+    note = L['heka_tamos_note'],
     quest = 91276,
     rewards = {
         Achievement({id = 42761, criteria = 106334}),

@@ -672,3 +672,4 @@ L['gift_of_the_brothers_note'] = 'Interagiere mit der {object:Flackernde Laterne
 L['ancient_coffer_note'] = 'Sammle das {item:233794} ({dot:Red}) und die {item:233799} ({dot:Yellow}), um den Kasten öffnen zu können.'
 
 L['sthaarbs_note'] = 'Verwende den Teleporter in der Nähe des {object:Phase Conduit}, um {npc:234845} zu erreichen.' -- review
+L['heka_tamos_note'] = nil
