@@ -670,4 +670,4 @@ L['gift_of_the_brothers_note'] = 'Interagissez avec la {object:Lanterne vacillan
 L['ancient_coffer_note'] = 'Récupérez le {item:233794}({dot:Red}) et la {item:233799}({dot:Yellow}), puis retournez à l\'emplacement du {object:Coffre ancien} pour recevoir {item:245269}.'
 
 L['sthaarbs_note'] = 'Utilisez le téléporteur près du {object:Conduit de phase} pour atteindre {npc:234845}.'
-L['heka_tamos_note'] = nil
+L['heka_tamos_note'] = 'Récupérez un buff auprès de chacun des objects {object:Veile-rosée}, {object:Lanterne spectrale}, {object:Succulente terreuse} et {object:Ventianne} qui apparaissent à proximité, puis interagissez avec le {object:Brasero d\'union élementaire} pour invoquer le rare.'
