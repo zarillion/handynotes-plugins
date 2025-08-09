@@ -1,5 +1,7 @@
 # v123
 
+* Update spawn points for several rares in K'aresh
+* Added additional spawn of Abandoned Lockbox and Lightly-Dented Luggage treasures in K'aresh
 * Localization updates: esES, frFR, zhCN
 
 # v122
