@@ -671,5 +671,5 @@ L['mailroom_distribution_note'] = 'Sammle vor dem Eingang die {object:Überschü
 L['gift_of_the_brothers_note'] = 'Interagiere mit der {object:Flackernde Laterne} und spreche mit {npc:233881}. Suche nach den Brüdern {npc:234112} ({dot:Red}), {npc:234113} ({dot:Yellow}) und {npc:234075} ({dot:Green}) und spreche mit ihnen, kehre dann zu {npc:233881} zurück, um ihm die Laterne zurück zu geben.'
 L['ancient_coffer_note'] = 'Sammle das {item:233794} ({dot:Red}) und die {item:233799} ({dot:Yellow}), um den Kasten öffnen zu können.'
 
-L['sthaarbs_note'] = 'Verwende den Teleporter in der Nähe des {object:Phase Conduit}, um {npc:234845} zu erreichen.' -- review
-L['heka_tamos_note'] = nil
+L['sthaarbs_note'] = 'Verwende den Teleporter in der Nähe des {object:Phasenleiter}, um {npc:234845} zu erreichen.'
+L['heka_tamos_note'] = 'Sammle die folgenden Objekte: {object:Taufänger}, {object:Spektrale Laterne}, {object:Erdige Sukkulente} und {object:Windfänger}, die in {location:Die Oase} erscheinen. Interagiere anschließend mit der {object:Kohlepfanne der Elementaren Einheit}, um den seltenen Gegner zu beschwören.'
