@@ -433,8 +433,11 @@ map.nodes[77782787] = Treasure({
 }) -- Skeletal Tail Bones
 
 map.nodes[58653434] = Treasure({
-    quest = 86323, -- review
-    rewards = {Achievement({id = 42741, criteria = 106278})}
+    quest = 86323,
+    rewards = {
+        Achievement({id = 42741, criteria = 106278}),
+        Transmog({item = 246295, type = L['1h_mace']}) -- Tazavesh Lookout's Mace
+    }
 }) -- Crudely Stitched Sack
 
 local AbandonedLockbox = Class('AbandonedLockbox', Treasure, {
