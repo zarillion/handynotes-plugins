@@ -659,9 +659,9 @@ L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
 L['options_icons_karesh_lore_hunter_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:60890}.'
 
 L['options_icons_phase_lost_and_found'] = '{achievement:61017}'
-L['options_icons_phase_lost_and_found_desc'] = nil
-L['phaseorb_label'] = nil
-L['phaseorb_note'] = nil
+L['options_icons_phase_lost_and_found_desc'] = 'Afficher les emplacements des Orbes de Plongée phasique pour le haut-fait {achievement:61017}.'
+L['phaseorb_label'] = 'Orbe de Plongée phasique'
+L['phaseorb_note'] = 'Traversez l\'Orbe de Plongée phasique pour avoir une chance d\'obtenir l\'une des apparences.'
 
 L['options_icons_purrkins'] = '{achievement:42729}'
 L['options_icons_purrkins_desc'] = 'Afficher les emplacements des félidrons pour le haut-fait {achievement:42729}.'
