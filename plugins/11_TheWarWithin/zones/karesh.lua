@@ -36,9 +36,14 @@ local map = Map({id = 2371, settings = true})
 
 taz.nodes[72948327] = Rare({
     id = 232098,
-    parent = map.id,
-    pois = {Path({81987555, 80167580, 75177783, 73188013, 72388259, 72838465})},
     quest = 90587,
+    parent = {
+        id = map.id,
+        pois = {
+            Path({73658421, 73258427, 72158471, 71718522, 71538576, 71638622})
+        }
+    },
+    pois = {Path({81987555, 80167580, 75177783, 73188013, 72388259, 72838465})},
     rewards = {
         Toy({item = 242323}), -- Chowdar's Favorite Ribbon
         Transmog({item = 239455, slot = L['cloth']}), -- Reshii Magi's Bands
@@ -88,10 +93,10 @@ map.nodes[63824363] = Rare({
     }
 }) -- Ixthar the Unblinking
 
-map.nodes[64244320] = Rare({
+map.nodes[66314258] = Rare({
     id = 232077,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
-    pois = {Path({64144309, 64984381})},
+    pois = {Path({67963990, 65604364})},
     quest = 90586,
     rewards = {
         Transmog({item = 239448, slot = L['cloth']}), -- Reshii Magi's Vestments
@@ -122,7 +127,7 @@ map.nodes[54455445] = Rare({
     }
 }) -- Maw of the Sands
 
-map.nodes[56045357] = Rare({
+map.nodes[56205058] = Rare({
     id = 232108,
     quest = 90588,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
@@ -148,6 +153,7 @@ map.nodes[52782081] = Rare({
 
 map.nodes[45782425] = Rare({
     id = 232182,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90590,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
@@ -296,16 +302,17 @@ map.nodes[49152824] = Rare({
     }
 }) -- Shatterpulse
 
-map.nodes[33333333] = Rare({
+taz.nodes[35053647] = Rare({
     id = 241956,
+    parent = map.id,
     quest = 90696,
     requires = ns.requirement.Item(239314), -- [Arcane Lure] from warrants
     rewards = {
         Achievement({id = 42761, criteria = 106332}),
         Achievement({id = 41980, criteria = 104424}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 90697}) -- The K'aresh Trust
     }
-}) -- Arcana-Monger So'zer (Review)
+}) -- Arcana-Monger So'zer
 
 map.nodes[48441696] = Rare({
     id = 238536,
@@ -359,9 +366,8 @@ local WhatLiesBeyond = Class('WhatLiesBeyond', ns.requirement.Requirement)
 
 function WhatLiesBeyond:Initialize()
     local definitionInfo = C_Traits.GetDefinitionInfo(135401) -- What Lies Beyond
-    local name = C_Item.GetItemInfo(235499) -- Reshii Wraps
     self.text = definitionInfo and definitionInfo.overrideName or UNKNOWN
-    self.type = name
+    self.type = '{item:235499}' -- Reshii Wraps
 end
 
 function WhatLiesBeyond:IsMet()
@@ -493,20 +499,18 @@ map.nodes[53985926] = AbandonedLockbox()
 map.nodes[60106090] = AbandonedLockbox()
 map.nodes[53955496] = AbandonedLockbox()
 map.nodes[59755372] = AbandonedLockbox()
+map.nodes[58643431] = AbandonedLockbox()
 
-map.nodes[53706405] = Treasure({
+local LightlyDentedLuggage = Class('LightlyDentedLuggage', Treasure, {
     note = L['multiple_spawns'],
     quest = 91352,
     fgroup = 'lightly_dented_luggage',
     rewards = {Achievement({id = 42741, criteria = 106279})}
 }) -- Lightly-Dented Luggage
 
-map.nodes[54956245] = Treasure({
-    note = L['multiple_spawns'],
-    quest = 91352,
-    fgroup = 'lightly_dented_luggage',
-    rewards = {Achievement({id = 42741, criteria = 106279})}
-}) -- Lightly-Dented Luggage
+map.nodes[53706405] = LightlyDentedLuggage()
+map.nodes[54956245] = LightlyDentedLuggage()
+map.nodes[55696415] = LightlyDentedLuggage()
 
 map.nodes[54462444] = Treasure({
     quest = 85840,
