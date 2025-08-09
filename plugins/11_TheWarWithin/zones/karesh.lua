@@ -31,6 +31,24 @@ local taz = Map({id = 2472, settings = true})
 local map = Map({id = 2371, settings = true})
 
 -------------------------------------------------------------------------------
+--------------------------------- Reshii Wraps --------------------------------
+-------------------------------------------------------------------------------
+
+local ReshiiWraps = Class('ReshiiWraps', ns.requirement.Requirement)
+
+function ReshiiWraps:Initialize(definitionID, nodeID)
+    local definitionInfo = C_Traits.GetDefinitionInfo(definitionID)
+    self.text = definitionInfo and definitionInfo.overrideName or UNKNOWN
+    self.type = '{item:235499}' -- Reshii Wraps
+    self.nodeID = nodeID
+end
+
+function ReshiiWraps:IsMet()
+    local nInfo = C_Traits.GetNodeInfo(57801712, self.nodeID)
+    return nInfo and nInfo.ranksPurchased and nInfo.ranksPurchased > 0
+end
+
+-------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
@@ -309,19 +327,6 @@ taz.nodes[31155818] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-local WhatLiesBeyond = Class('WhatLiesBeyond', ns.requirement.Requirement)
-
-function WhatLiesBeyond:Initialize()
-    local definitionInfo = C_Traits.GetDefinitionInfo(135401) -- What Lies Beyond
-    self.text = definitionInfo and definitionInfo.overrideName or UNKNOWN
-    self.type = '{item:235499}' -- Reshii Wraps
-end
-
-function WhatLiesBeyond:IsMet()
-    local nInfo = C_Traits.GetNodeInfo(57801712, 105870) -- What Lies Beyond
-    return nInfo and nInfo.ranksPurchased and nInfo.ranksPurchased > 0
-end
-
 map.nodes[76114526] = Treasure({
     note = L['gift_of_the_brothers_note'],
     pois = {
@@ -471,7 +476,7 @@ map.nodes[52096833] = Treasure({
     quest = 89378,
     requires = {
         ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-        WhatLiesBeyond()
+        ReshiiWraps(135401, 105870) -- What Lies Beyond
     },
     rewards = {
         Achievement({id = 42741, criteria = 106224}),
@@ -485,7 +490,7 @@ map.nodes[52504677] = Treasure({
     quest = 90511,
     requires = {
         ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-        WhatLiesBeyond()
+        ReshiiWraps(135401, 105870) -- What Lies Beyond
     },
     rewards = {
         Achievement({id = 42741, criteria = 106281}),
@@ -499,7 +504,7 @@ taz.nodes[23694682] = Treasure({
     quest = 90512,
     requires = {
         ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-        WhatLiesBeyond()
+        ReshiiWraps(135401, 105870) -- What Lies Beyond
     },
     rewards = {
         Achievement({id = 42741, criteria = 106296}),
@@ -511,7 +516,7 @@ map.nodes[77994894] = Treasure({
     quest = 90514,
     requires = {
         ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-        WhatLiesBeyond()
+        ReshiiWraps(135401, 105870) -- What Lies Beyond
     },
     rewards = {
         Achievement({id = 42741, criteria = 106283}),
@@ -523,7 +528,7 @@ map.nodes[51056509] = Treasure({
     quest = 90522,
     requires = {
         ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-        WhatLiesBeyond()
+        ReshiiWraps(135401, 105870) -- What Lies Beyond
     },
     rewards = {
         Achievement({id = 42741, criteria = 106284}),
@@ -536,7 +541,7 @@ map.nodes[78346154] = Treasure({
     quest = 90515,
     requires = {
         ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-        WhatLiesBeyond()
+        ReshiiWraps(135401, 105870) -- What Lies Beyond
     },
     rewards = {
         Achievement({id = 42741, criteria = 106285}),
@@ -548,7 +553,7 @@ map.nodes[49201805] = Treasure({
     quest = 90527,
     requires = {
         ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-        WhatLiesBeyond()
+        ReshiiWraps(135401, 105870) -- What Lies Beyond
     },
     rewards = {
         Achievement({id = 42741, criteria = 106286}),
@@ -560,7 +565,7 @@ map.nodes[80725267] = Treasure({
     quest = 90521,
     requires = {
         ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-        WhatLiesBeyond()
+        ReshiiWraps(135401, 105870) -- What Lies Beyond
     },
     rewards = {
         Achievement({id = 42741, criteria = 106287}),
@@ -572,7 +577,7 @@ map.nodes[64434269] = Treasure({
     quest = 90532,
     requires = {
         ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-        WhatLiesBeyond()
+        ReshiiWraps(135401, 105870) -- What Lies Beyond
     },
     rewards = {Achievement({id = 42741, criteria = 106288})}
 }) -- Korgorath's Talon
@@ -582,7 +587,7 @@ map.nodes[58432259] = Treasure({
     quest = 91055,
     requires = {
         ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-        WhatLiesBeyond()
+        ReshiiWraps(135401, 105870) -- What Lies Beyond
     },
     rewards = {
         Achievement({id = 42741, criteria = 106289}),
@@ -595,7 +600,7 @@ taz.nodes[47476998] = Treasure({
     quest = 91056,
     requires = {
         ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-        WhatLiesBeyond()
+        ReshiiWraps(135401, 105870) -- What Lies Beyond
     },
     rewards = {
         Achievement({id = 42741, criteria = 106290}),
@@ -607,7 +612,7 @@ map.nodes[50823534] = Treasure({
     quest = 91057,
     requires = {
         ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-        WhatLiesBeyond()
+        ReshiiWraps(135401, 105870) -- What Lies Beyond
     },
     rewards = {
         Achievement({id = 42741, criteria = 106291}),
@@ -621,7 +626,7 @@ taz.nodes[65161472] = Treasure({
     quest = 91058,
     requires = {
         ns.requirement.Spell(1214374), -- Phase Diving & treasure one
-        WhatLiesBeyond()
+        ReshiiWraps(135401, 105870) -- What Lies Beyond
     },
     rewards = {
         Achievement({id = 42741, criteria = 106292}),
@@ -810,3 +815,102 @@ map.nodes[47613738] = Purrkins({
     rewards = {Achievement({id = 42729, criteria = 106223})}
 }) -- The King in Silver
 
+-------------------------------------------------------------------------------
+---------------------------- PHASE-LOST-AND-FOUND -----------------------------
+-------------------------------------------------------------------------------
+
+local PhaseOrb = Class('phaseorb', Collectible, {
+    group = ns.groups.PHASE_LOST_AND_FOUND,
+    icon = 'peg_bl',
+    scale = 1.25,
+    label = L['phaseorb_label'],
+    note = L['phaseorb_note'],
+    requires = {
+        ns.requirement.Spell(1214374), -- Phase Diving
+        ReshiiWraps(135403, 105872) -- Secrets of the Depths
+    },
+    rewards = {
+        Achievement({
+            id = 61017,
+            criteria = {
+                107806, 107807, 107808, 107809, 107810, 107811, 107812, 107813,
+                107814, 107815, 107816, 107817, 107818, 107819, 107820, 107821,
+                107822, 107823, 107824, 107825, 107826, 107827, -- 107827 is MISSING in the achievement, but required
+                107828, 107829, 107830, 107831, 107832, 107833
+            }
+        }) -- Phase-Lost-and-Found
+    }
+})
+
+map.nodes[43142148] = PhaseOrb()
+map.nodes[43072156] = PhaseOrb()
+map.nodes[44231681] = PhaseOrb() -- review
+map.nodes[45745153] = PhaseOrb()
+map.nodes[47171579] = PhaseOrb() -- review
+map.nodes[47181578] = PhaseOrb()
+map.nodes[47733728] = PhaseOrb()
+map.nodes[47806085] = PhaseOrb()
+map.nodes[48603845] = PhaseOrb()
+map.nodes[48892670] = PhaseOrb() -- review
+map.nodes[48985746] = PhaseOrb() -- review
+map.nodes[49341897] = PhaseOrb()
+map.nodes[50113620] = PhaseOrb()
+map.nodes[50495412] = PhaseOrb()
+map.nodes[50573510] = PhaseOrb()
+map.nodes[50953671] = PhaseOrb()
+map.nodes[51026912] = PhaseOrb()
+map.nodes[51176774] = PhaseOrb()
+map.nodes[52176488] = PhaseOrb()
+map.nodes[53362057] = PhaseOrb()
+map.nodes[53734838] = PhaseOrb()
+map.nodes[54326317] = PhaseOrb()
+map.nodes[54505016] = PhaseOrb()
+map.nodes[54916381] = PhaseOrb()
+map.nodes[55285545] = PhaseOrb() -- review
+map.nodes[56002153] = PhaseOrb() -- review
+map.nodes[56552093] = PhaseOrb()
+map.nodes[57902393] = PhaseOrb()
+map.nodes[58742099] = PhaseOrb()
+map.nodes[58935751] = PhaseOrb() -- review
+map.nodes[59416044] = PhaseOrb()
+map.nodes[59842272] = PhaseOrb()
+map.nodes[60352841] = PhaseOrb()
+map.nodes[60514201] = PhaseOrb()
+map.nodes[60525549] = PhaseOrb() -- review
+map.nodes[60602968] = PhaseOrb()
+map.nodes[61082734] = PhaseOrb()
+map.nodes[61162324] = PhaseOrb()
+map.nodes[61203920] = PhaseOrb()
+map.nodes[62594165] = PhaseOrb()
+map.nodes[62582407] = PhaseOrb()
+map.nodes[63003911] = PhaseOrb()
+map.nodes[63984597] = PhaseOrb()
+map.nodes[64865224] = PhaseOrb() -- review
+map.nodes[64905495] = PhaseOrb() -- review
+map.nodes[66054880] = PhaseOrb()
+map.nodes[68824791] = PhaseOrb()
+map.nodes[69755531] = PhaseOrb() -- review
+map.nodes[70206061] = PhaseOrb() -- review
+map.nodes[70263197] = PhaseOrb() -- review
+map.nodes[72711232] = PhaseOrb() -- review
+map.nodes[72791006] = PhaseOrb() -- review
+map.nodes[73985749] = PhaseOrb() -- review
+map.nodes[75713442] = PhaseOrb()
+map.nodes[75963255] = PhaseOrb()
+map.nodes[76035820] = PhaseOrb() -- review
+map.nodes[78374889] = PhaseOrb()
+map.nodes[78762917] = PhaseOrb()
+map.nodes[80405123] = PhaseOrb()
+taz.nodes[34935795] = PhaseOrb({parent = map.id})
+taz.nodes[39613240] = PhaseOrb({parent = map.id})
+taz.nodes[40126818] = PhaseOrb({parent = map.id})
+taz.nodes[42835032] = PhaseOrb({parent = map.id})
+taz.nodes[44322686] = PhaseOrb({parent = map.id}) -- review
+taz.nodes[44323460] = PhaseOrb({parent = map.id})
+taz.nodes[44383470] = PhaseOrb({parent = map.id}) -- review
+taz.nodes[53226055] = PhaseOrb({parent = map.id})
+taz.nodes[55813363] = PhaseOrb({parent = map.id})
+taz.nodes[56468678] = PhaseOrb({parent = map.id})
+taz.nodes[60415720] = PhaseOrb({parent = map.id})
+taz.nodes[61128910] = PhaseOrb({parent = map.id})
+taz.nodes[62132931] = PhaseOrb({parent = map.id})

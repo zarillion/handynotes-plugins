@@ -69,6 +69,12 @@ ns.groups.BEACON_OF_HOPE = Group('beacon_of_hope', 135922, {
     achievement = 40308
 })
 
+ns.groups.BETWEEN_THE_LINES = Group('between_the_lines', 4549129, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 41588
+})
+
 ns.groups.BIBLO_ARCHIVIST = Group('biblo_archivist', 5341597, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -182,10 +188,10 @@ ns.groups.NOTABLE_MACHINES = Group('notable_machines', 1506451, {
     achievement = 40628
 })
 
-ns.groups.BETWEEN_THE_LINES = Group('between_the_lines', 4549129, {
+ns.groups.PHASE_LOST_AND_FOUND = Group('phase_lost_and_found', 135305, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
-    achievement = 41588
+    achievement = 61017
 })
 
 ns.groups.ROCKED_TO_SLEEP = Group('rocked_to_sleep', 5788303, {

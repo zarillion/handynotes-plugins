@@ -660,6 +660,11 @@ L['george_the_big_pinch_note'] = 'Klicke schnell alle 5 {npc:238189} an, um den 
 L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
 L['options_icons_karesh_lore_hunter_desc'] = 'Zeigt die Positionen der Geschichtsobjekte für den Erfolg {achievement:60890} an.'
 
+L['options_icons_phase_lost_and_found'] = '{achievement:61017}'
+L['options_icons_phase_lost_and_found_desc'] = 'Zeigt mögliche Positionen der Phasentauchkugel für den Erfolg {achievement:61017} an.'
+L['phaseorb_label'] = 'Phasentauchkugel'
+L['phaseorb_note'] = 'Laufe durch die Phasentauchkugel, um mit etwas Glück eine der Vorlagen zu erhalten.'
+
 L['options_icons_purrkins'] = '{achievement:42729}'
 L['options_icons_purrkins_desc'] = 'Zeigt die Positionen der Schnurrer für den Erfolg {achievement:42729} an.'
 L['purrkins_note'] = 'Streichel ({emote:/streicheln}) den Schnurrer.'

@@ -659,6 +659,11 @@ L['george_the_big_pinch_note'] = 'Quickly click all 5 {npc:238189} to recieve {s
 L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
 L['options_icons_karesh_lore_hunter_desc'] = 'Display lore object locations for {achievement:60890} achievement.'
 
+L['options_icons_phase_lost_and_found'] = '{achievement:61017}'
+L['options_icons_phase_lost_and_found_desc'] = 'Display Phase Diving Orb locations for {achievement:61017} achievement.'
+L['phaseorb_label'] = 'Phase Diving Orb'
+L['phaseorb_note'] = 'Walk through the Phase Diving Orb for a chance to obtain one of the appearances.'
+
 L['options_icons_purrkins'] = '{achievement:42729}'
 L['options_icons_purrkins_desc'] = 'Display purrkins for {achievement:42729}.'
 L['purrkins_note'] = '{emote:/Pet} the purrkin.'

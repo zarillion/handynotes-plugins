@@ -658,6 +658,11 @@ L['george_the_big_pinch_note'] = 'Cliquez rapidement sur les 5 {npc:238189} pour
 L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
 L['options_icons_karesh_lore_hunter_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:60890}.'
 
+L['options_icons_phase_lost_and_found'] = '{achievement:61017}'
+L['options_icons_phase_lost_and_found_desc'] = nil
+L['phaseorb_label'] = nil
+L['phaseorb_note'] = nil
+
 L['options_icons_purrkins'] = '{achievement:42729}'
 L['options_icons_purrkins_desc'] = 'Afficher les emplacements des félidrons pour le haut-fait {achievement:42729}.'
 L['purrkins_note'] = '{emote:/Caressez} le félidron.'

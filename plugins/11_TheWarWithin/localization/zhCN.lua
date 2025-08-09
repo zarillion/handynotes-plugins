@@ -659,6 +659,11 @@ L['george_the_big_pinch_note'] = '快速点击所有5个 {npc:238189} 以获得 
 L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
 L['options_icons_karesh_lore_hunter_desc'] = '显示 {achievement:60890} 成就中剧情物品的位置。'
 
+L['options_icons_phase_lost_and_found'] = '{achievement:61017}'
+L['options_icons_phase_lost_and_found_desc'] = nil
+L['phaseorb_label'] = nil
+L['phaseorb_note'] = nil
+
 L['options_icons_purrkins'] = '{achievement:42729}'
 L['options_icons_purrkins_desc'] = '显示 {achievement:42729} 成就中呼噜猫的位置。'
 L['purrkins_note'] = '向呼噜猫招手（{emote:/亲昵}、{emote:/pet}）。'
