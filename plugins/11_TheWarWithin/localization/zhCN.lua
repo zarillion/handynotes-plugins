@@ -661,14 +661,14 @@ L['options_icons_karesh_lore_hunter_desc'] = '显示 {achievement:60890} 成就�
 
 L['options_icons_purrkins'] = '{achievement:42729}'
 L['options_icons_purrkins_desc'] = '显示 {achievement:42729} 成就中呼噜猫的位置。'
-L['purrkins_note'] = '向呼噜猫招手（{emote:/抚摸}、{emote:/pet}）。'
-L['kareshire_sublabel'] = '位面切换。'
+L['purrkins_note'] = '向呼噜猫招手（{emote:/亲昵}、{emote:/pet}）。'
+L['kareshire_sublabel'] = '相位切换。'
 L['in_a_tree'] = '在树上。'
-L['little_ms_phaser_sublabel'] = '位面切换。'
+L['little_ms_phaser_sublabel'] = '相位切换。'
 
 L['mailroom_distribution_note'] = '与外面的推车互动，然后打开邮件室的门。站在圆圈上并使用额外动作按钮。宝藏将出现在门附近。'
-L['gift_of_the_brothers_note'] = '与 {object:闪烁的灯笼} 互动并与 {npc:233881} 对话，然后去找 {npc:234112}（{dot:Red}）、{npc:234113}（{dot:Yellow}）和 {npc:234075}（{dot:Green}），最后回到 {object:闪烁的灯笼} 处的 {npc:233881}。'
+L['gift_of_the_brothers_note'] = '与 {object:闪烁的提灯} 互动并与 {npc:233881} 对话，然后去找 {npc:234112}（{dot:Red}）、{npc:234113}（{dot:Yellow}）和 {npc:234075}（{dot:Green}），最后回到 {object:闪烁的提灯} 处的 {npc:233881}。'
 L['ancient_coffer_note'] = '收集 {item:233794}（{dot:Red}）和 {item:233799}（{dot:Yellow}），然后回到 {object:古老宝箱} 处领取 {item:245269}。'
 
 L['sthaarbs_note'] = '使用 {object:相位导管} 附近的传送器前往 {npc:234845} 处。'
-L['heka_tamos_note'] = '从附近的 {object:望露莲}、{object:幽灵提灯}、{object:土生肉质植物} 和 {object:捕风花} 处各收集一层增益效果，然后与 {object:元素融合火盆} 互动召唤稀有。'
+L['heka_tamos_note'] = '从附近的 {object:望露莲}、{object:幽灵提灯}、{object:土生肉质植物} 和 {object:捕风花} 处各收集一层增益效果，然后与 {object:元素团结火盆} 互动召唤稀有。'

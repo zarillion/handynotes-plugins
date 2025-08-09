@@ -138,7 +138,7 @@ L['soulshape_cat_note'] = [[
 · {location:利爪之缘}
 ]]
 L['soulshape_corgi_note'] = [[
-目标为 {npc:174608} 并使用表情 {emote:/安抚}，{emote:/pet}
+目标为 {npc:174608} 并使用表情 {emote:/亲昵}，{emote:/pet}
 
 与 {npc:181582} 交谈时将立即可用柯基选项。
 ]]
