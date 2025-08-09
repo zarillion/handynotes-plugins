@@ -135,6 +135,7 @@ map.nodes[52782081] = Rare({
 
 map.nodes[45782425] = Rare({
     id = 232182,
+    requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90590,
     rewards = {
         Achievement({id = 42761, criteria = 106341}),
