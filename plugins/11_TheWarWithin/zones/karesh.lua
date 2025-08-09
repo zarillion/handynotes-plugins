@@ -253,16 +253,17 @@ map.nodes[49152824] = Rare({
     }
 }) -- Shatterpulse
 
-map.nodes[33333333] = Rare({
+taz.nodes[35053647] = Rare({
     id = 241956,
+    parent = map.id,
     quest = 90696,
     requires = ns.requirement.Item(239314), -- [Arcane Lure] from warrants
     rewards = {
         Achievement({id = 42761, criteria = 106332}),
         Achievement({id = 41980, criteria = 104424}),
-        Reputation({id = 2658, gain = 15, quest = 00000}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 90697}) -- The K'aresh Trust
     }
-}) -- Arcana-Monger So'zer (Review)
+}) -- Arcana-Monger So'zer
 
 map.nodes[48441696] = Rare({
     id = 238536,
