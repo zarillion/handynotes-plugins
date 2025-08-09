@@ -36,9 +36,14 @@ local map = Map({id = 2371, settings = true})
 
 taz.nodes[72948327] = Rare({
     id = 232098,
-    parent = map.id,
-    pois = {Path({81987555, 80167580, 75177783, 73188013, 72388259, 72838465})},
     quest = 90587,
+    parent = {
+        id = map.id,
+        pois = {
+            Path({73658421, 73258427, 72158471, 71718522, 71538576, 71638622})
+        }
+    },
+    pois = {Path({81987555, 80167580, 75177783, 73188013, 72388259, 72838465})},
     rewards = {
         Achievement({id = 42761, criteria = 106331}),
         Reputation({id = 2658, gain = 15, quest = 90676}) -- The K'aresh Trust
@@ -308,9 +313,8 @@ local WhatLiesBeyond = Class('WhatLiesBeyond', ns.requirement.Requirement)
 
 function WhatLiesBeyond:Initialize()
     local definitionInfo = C_Traits.GetDefinitionInfo(135401) -- What Lies Beyond
-    local name = C_Item.GetItemInfo(235499) -- Reshii Wraps
     self.text = definitionInfo and definitionInfo.overrideName or UNKNOWN
-    self.type = name
+    self.type = '{item:235499}' -- Reshii Wraps
 end
 
 function WhatLiesBeyond:IsMet()
