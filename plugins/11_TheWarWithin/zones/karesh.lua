@@ -440,20 +440,18 @@ map.nodes[53985926] = AbandonedLockbox()
 map.nodes[60106090] = AbandonedLockbox()
 map.nodes[53955496] = AbandonedLockbox()
 map.nodes[59755372] = AbandonedLockbox()
+map.nodes[58643431] = AbandonedLockbox()
 
-map.nodes[53706405] = Treasure({
+local LightlyDentedLuggage = Class('LightlyDentedLuggage', Treasure, {
     note = L['multiple_spawns'],
     quest = 91352,
     fgroup = 'lightly_dented_luggage',
     rewards = {Achievement({id = 42741, criteria = 106279})}
 }) -- Lightly-Dented Luggage
 
-map.nodes[54956245] = Treasure({
-    note = L['multiple_spawns'],
-    quest = 91352,
-    fgroup = 'lightly_dented_luggage',
-    rewards = {Achievement({id = 42741, criteria = 106279})}
-}) -- Lightly-Dented Luggage
+map.nodes[53706405] = LightlyDentedLuggage()
+map.nodes[54956245] = LightlyDentedLuggage()
+map.nodes[55696415] = LightlyDentedLuggage()
 
 map.nodes[54462444] = Treasure({
     quest = 85840,
