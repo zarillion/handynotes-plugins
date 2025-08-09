@@ -130,6 +130,7 @@ map.nodes[56045357] = Rare({
         Transmog({item = 239450, slot = L['cloth']}), -- Reshii Magi's Gloves
         Transmog({item = 239457, slot = L['leather']}), -- Reshii Scout's Soles
         Transmog({item = 239472, slot = L['plate']}), -- Reshii Brute's Breastplate
+        Pet({item = 244915, id = 4834}), -- Jimmy
         Achievement({id = 42761, criteria = 106338}),
         Reputation({id = 2658, gain = 15, quest = 90677}) -- The K'aresh Trust
     }
@@ -164,6 +165,7 @@ map.nodes[50536469] = Rare({
     quest = 90591,
     rewards = {
         Transmog({item = 239459, slot = L['leather']}), -- Reshii Scout's Hood
+        Transmog({item = 239471, slot = L['mail']}), -- Reshii Skirmisher's Armguards
         Transmog({item = 239476, slot = L['plate']}), -- Reshii Brute's Greaves
         Achievement({id = 42761, criteria = 106342}),
         Reputation({id = 2658, gain = 15, quest = 90680}) -- The K'aresh Trust
@@ -189,6 +191,7 @@ map.nodes[54174911] = Rare({
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Transmog({item = 239452, slot = L['cloth']}), -- Reshii Magi's Leggings
+        Transmog({item = 239469, slot = L['mail']}), -- Reshii Skirmisher's Pauldrons
         Transmog({item = 239474, slot = L['plate']}), -- Reshii Brute's Handguards
         Achievement({id = 42761, criteria = 106344}),
         Reputation({id = 2658, gain = 15, quest = 90674}) -- The K'aresh Trust
