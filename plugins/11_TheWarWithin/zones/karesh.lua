@@ -83,10 +83,10 @@ map.nodes[63824363] = Rare({
     }
 }) -- Ixthar the Unblinking
 
-map.nodes[64244320] = Rare({
+map.nodes[66314258] = Rare({
     id = 232077,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
-    pois = {Path({64144309, 64984381})},
+    pois = {Path({67963990, 65604364})},
     quest = 90586,
     rewards = {
         Achievement({id = 42761, criteria = 106335}),
@@ -113,7 +113,7 @@ map.nodes[54455445] = Rare({
     }
 }) -- Maw of the Sands
 
-map.nodes[56045357] = Rare({
+map.nodes[56205058] = Rare({
     id = 232108,
     quest = 90588,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
