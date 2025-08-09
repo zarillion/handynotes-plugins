@@ -155,7 +155,6 @@ map.nodes[45782425] = Rare({
     id = 232182,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90590,
-    requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
         Transmog({item = 239449, slot = L['cloth']}), -- Reshii Magi's Slippers
         Transmog({item = 239464, slot = L['mail']}), -- Reshii Skirmisher's Brigandine
