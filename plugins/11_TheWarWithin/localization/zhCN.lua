@@ -660,9 +660,9 @@ L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
 L['options_icons_karesh_lore_hunter_desc'] = '显示 {achievement:60890} 成就中剧情物品的位置。'
 
 L['options_icons_phase_lost_and_found'] = '{achievement:61017}'
-L['options_icons_phase_lost_and_found_desc'] = nil
-L['phaseorb_label'] = nil
-L['phaseorb_note'] = nil
+L['options_icons_phase_lost_and_found_desc'] = '显示 {achievement:61017} 成就中相位潜行宝珠的位置。'
+L['phaseorb_label'] = '相位潜行宝珠'
+L['phaseorb_note'] = '穿越相位潜行宝珠，即有机会获取其中一款外观。'
 
 L['options_icons_purrkins'] = '{achievement:42729}'
 L['options_icons_purrkins_desc'] = '显示 {achievement:42729} 成就中呼噜猫的位置。'
