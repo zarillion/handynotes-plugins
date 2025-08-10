@@ -56,7 +56,7 @@ end
 local function RenderPinTooltip(pin)
     local x, _ = pin:GetCenter()
     local parentX, _ = pin:GetParent():GetCenter()
-    if (x > parentX) then
+    if (x and parentX and x > parentX) then
         GameTooltip:SetOwner(pin, 'ANCHOR_LEFT')
     else
         GameTooltip:SetOwner(pin, 'ANCHOR_RIGHT')
