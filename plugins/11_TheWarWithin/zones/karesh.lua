@@ -187,10 +187,10 @@ map.nodes[50536469] = Rare({
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90591,
     rewards = {
-        Transmog({item = 239459, slot = L['leather']}), -- Reshii Scout's Hood
-        Transmog({item = 239476, slot = L['plate']}), -- Reshii Brute's Greaves
         Achievement({id = 42761, criteria = 106342}),
-        Reputation({id = 2658, gain = 15, quest = 90680}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 90680}), -- The K'aresh Trust
+        Transmog({item = 239459, slot = L['leather']}), -- Reshii Scout's Hood
+        Transmog({item = 239476, slot = L['plate']}) -- Reshii Brute's Greaves
     }
 }) -- Revenant of the Wasteland
 
