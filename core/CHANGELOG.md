@@ -1,3 +1,7 @@
+# v123
+
+* Fixed lua error in pin tooltip [[#503]](https://github.com/zarillion/handynotes-plugins/issues/503)
+
 # v118
 
 * Added a new approach to hooking POI vignettes.

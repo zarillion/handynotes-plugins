@@ -3,7 +3,6 @@
 * Added additional spawn of Abandoned Lockbox and Lightly-Dented Luggage treasures in K'aresh
 * Added Phase Diving Orbs for the [Phase-Lost-and-Found](https://www.wowhead.com/achievement=61017) achievement
 * Updated spawn points and rewards for several rares in K'aresh
-* Fixed lua error in pin tooltip [[#503]](https://github.com/zarillion/handynotes-plugins/issues/503)
 * Localization updates: deDE, esES, frFR, zhCN
 
 # v122
