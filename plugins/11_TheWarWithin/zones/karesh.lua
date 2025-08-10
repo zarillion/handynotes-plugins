@@ -45,12 +45,12 @@ taz.nodes[72948327] = Rare({
     },
     pois = {Path({81987555, 80167580, 75177783, 73188013, 72388259, 72838465})},
     rewards = {
+        Achievement({id = 42761, criteria = 106331}),
+        Reputation({id = 2658, gain = 15, quest = 90676}), -- The K'aresh Trust
         Toy({item = 242323}), -- Chowdar's Favorite Ribbon
         Transmog({item = 239455, slot = L['cloth']}), -- Reshii Magi's Bands
         Transmog({item = 239460, slot = L['leather']}), -- Reshii Scout's Breeches
-        Transmog({item = 239477, slot = L['plate']}), -- Reshii Brute's Epaulettes
-        Achievement({id = 42761, criteria = 106331}),
-        Reputation({id = 2658, gain = 15, quest = 90676}) -- The K'aresh Trust
+        Transmog({item = 239477, slot = L['plate']}) -- Reshii Brute's Epaulettes
     }
 }) -- "Chowdar" <Escaped Auction Parcel #8675308>
 
@@ -60,8 +60,8 @@ map.nodes[75233098] = Rare({
     quest = 91276,
     rewards = {
         Achievement({id = 42761, criteria = 106334}),
-        Pet({item = 245272, id = 4846}), -- Heka'Tarnos, Bringer of Discord
-        Reputation({id = 2658, gain = 15, quest = 91422}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 91422}), -- The K'aresh Trust
+        Pet({item = 245272, id = 4846}) -- Heka'Tarnos, Bringer of Discord
         -- item - [Reshii Magi's Pendant]
     }
     --[[ pois = {
@@ -99,11 +99,11 @@ map.nodes[66314258] = Rare({
     pois = {Path({67963990, 65604364})},
     quest = 90586,
     rewards = {
+        Achievement({id = 42761, criteria = 106335}),
+        Reputation({id = 2658, gain = 15, quest = 90675}), -- The K'aresh Trust
         Transmog({item = 239448, slot = L['cloth']}), -- Reshii Magi's Vestments
         Transmog({item = 239462, slot = L['leather']}), -- Reshii Scout's Belt
-        Transmog({item = 239475, slot = L['plate']}), -- Reshii Brute's Helmet
-        Achievement({id = 42761, criteria = 106335}),
-        Reputation({id = 2658, gain = 15, quest = 90675}) -- The K'aresh Trust
+        Transmog({item = 239475, slot = L['plate']}) -- Reshii Brute's Helmet
     }
 }) -- Korgorath the Ravager
 
@@ -112,8 +112,8 @@ map.nodes[54055884] = Rare({
     quest = 91275,
     rewards = {
         Achievement({id = 42761, criteria = 106336}),
-        Pet({item = 245214, id = 4838}), -- Palek'ti, the Mouth of Nothingness
-        Reputation({id = 2658, gain = 15, quest = 91421}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 91421}), -- The K'aresh Trust
+        Pet({item = 245214, id = 4838}) -- Palek'ti, the Mouth of Nothingness
     }
 }) -- Malek'ta <The Jaws of Oblivion> (inspect nearby Juvenile Dustback corspe then head NE and jump on spawn point)
 
@@ -132,12 +132,12 @@ map.nodes[56205058] = Rare({
     quest = 90588,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
+        Achievement({id = 42761, criteria = 106338}),
+        Reputation({id = 2658, gain = 15, quest = 90677}), -- The K'aresh Trust
+        Pet({item = 244915, id = 4834}), -- Jimmy
         Transmog({item = 239450, slot = L['cloth']}), -- Reshii Magi's Gloves
         Transmog({item = 239457, slot = L['leather']}), -- Reshii Scout's Soles
-        Transmog({item = 239472, slot = L['plate']}), -- Reshii Brute's Breastplate
-        Pet({item = 244915, id = 4834}), -- Jimmy
-        Achievement({id = 42761, criteria = 106338}),
-        Reputation({id = 2658, gain = 15, quest = 90677}) -- The K'aresh Trust
+        Transmog({item = 239472, slot = L['plate']}) -- Reshii Brute's Breastplate
     }
 }) -- Morgil the Netherspawn - patrols
 
@@ -156,11 +156,11 @@ map.nodes[45782425] = Rare({
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90590,
     rewards = {
+        Achievement({id = 42761, criteria = 106341}),
+        Reputation({id = 2658, gain = 15, quest = 90679}), -- The K'aresh Trust
         Transmog({item = 239449, slot = L['cloth']}), -- Reshii Magi's Slippers
         Transmog({item = 239464, slot = L['mail']}), -- Reshii Skirmisher's Brigandine
-        Transmog({item = 239478, slot = L['plate']}), -- Reshii Brute's Greatbelt
-        Achievement({id = 42761, criteria = 106341}),
-        Reputation({id = 2658, gain = 15, quest = 90679}) -- The K'aresh Trust
+        Transmog({item = 239478, slot = L['plate']}) -- Reshii Brute's Greatbelt
     }
 }) -- Prototype Mk-V (46262459-45832393) patrol path
 
@@ -169,11 +169,11 @@ map.nodes[50536469] = Rare({
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90591,
     rewards = {
+        Achievement({id = 42761, criteria = 106342}),
+        Reputation({id = 2658, gain = 15, quest = 90680}), -- The K'aresh Trust
         Transmog({item = 239459, slot = L['leather']}), -- Reshii Scout's Hood
         Transmog({item = 239471, slot = L['mail']}), -- Reshii Skirmisher's Armguards
-        Transmog({item = 239476, slot = L['plate']}), -- Reshii Brute's Greaves
-        Achievement({id = 42761, criteria = 106342}),
-        Reputation({id = 2658, gain = 15, quest = 90680}) -- The K'aresh Trust
+        Transmog({item = 239476, slot = L['plate']}) -- Reshii Brute's Greaves
     }
 }) -- Revenant of the Wasteland
 
@@ -182,11 +182,11 @@ map.nodes[72205557] = Rare({
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90585,
     rewards = {
+        Achievement({id = 42761, criteria = 106343}),
+        Reputation({id = 2658, gain = 15, quest = 90673}), -- The K'aresh Trust
         Transmog({item = 239453, slot = L['cloth']}), -- Reshii Magi's Spines
         Transmog({item = 239458, slot = L['leather']}), -- Reshii Scout's Grips
-        Transmog({item = 239465, slot = L['mail']}), -- Reshii Skirmisher's Boots
-        Achievement({id = 42761, criteria = 106343}),
-        Reputation({id = 2658, gain = 15, quest = 90673}) -- The K'aresh Trust
+        Transmog({item = 239465, slot = L['mail']}) -- Reshii Skirmisher's Boots
     }
 }) -- Sha'ryth the Cursed (patrols needs path)
 
@@ -195,11 +195,11 @@ map.nodes[54174911] = Rare({
     quest = 90583,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
+        Achievement({id = 42761, criteria = 106344}),
+        Reputation({id = 2658, gain = 15, quest = 90674}), -- The K'aresh Trust
         Transmog({item = 239452, slot = L['cloth']}), -- Reshii Magi's Leggings
         Transmog({item = 239469, slot = L['mail']}), -- Reshii Skirmisher's Pauldrons
-        Transmog({item = 239474, slot = L['plate']}), -- Reshii Brute's Handguards
-        Achievement({id = 42761, criteria = 106344}),
-        Reputation({id = 2658, gain = 15, quest = 90674}) -- The K'aresh Trust
+        Transmog({item = 239474, slot = L['plate']}) -- Reshii Brute's Handguards
     }
 }) -- Shadowhowl
 
@@ -208,10 +208,10 @@ map.nodes[76754219] = Rare({
     quest = 90592,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     rewards = {
-        Transmog({item = 239461, slot = L['leather']}), -- Reshii Scout's Shoulderpads
-        Transmog({item = 239466, slot = L['mail']}), -- Reshii Skirmisher's Gauntlets
         Achievement({id = 42761, criteria = 106345}),
-        Reputation({id = 2658, gain = 15, quest = 90681}) -- The K'aresh Trust
+        Reputation({id = 2658, gain = 15, quest = 90681}), -- The K'aresh Trust
+        Transmog({item = 239461, slot = L['leather']}), -- Reshii Scout's Shoulderpads
+        Transmog({item = 239466, slot = L['mail']}) -- Reshii Skirmisher's Gauntlets
     }
 }) -- Stalker of the Wastes
 
@@ -233,12 +233,12 @@ map.nodes[52705660] = Rare({
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90589,
     rewards = {
+        Achievement({id = 42761, criteria = 106347}),
+        Reputation({id = 2658, gain = 15, quest = 90678}), -- The K'aresh Trust
+        Pet({item = 245254, id = 4842}), -- Duskthief
         Transmog({item = 239454, slot = L['cloth']}), -- Reshii Magi's Cord
         Transmog({item = 239467, slot = L['mail']}), -- Reshii Skirmisher's Cowl
-        Transmog({item = 239479, slot = L['plate']}), -- Reshii Brute's Vambraces
-        Pet({item = 245254, id = 4842}), -- Duskthief
-        Achievement({id = 42761, criteria = 106347}),
-        Reputation({id = 2658, gain = 15, quest = 90678}) -- The K'aresh Trust
+        Transmog({item = 239479, slot = L['plate']}) -- Reshii Brute's Vambraces
     }
 }) -- The Nightreaver (flys about need path?)
 
@@ -247,12 +247,12 @@ map.nodes[70144983] = Rare({
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90593,
     rewards = {
-        Transmog({item = 239456, slot = L['leather']}), -- Reshii Scout's Jerkin
-        Transmog({item = 239470, slot = L['mail']}), -- Reshii Skirmisher's Sash
-        Transmog({item = 239473, slot = L['plate']}), -- Reshii Brute's Sollerets
         Achievement({id = 42761, criteria = 106348}),
         Reputation({id = 2658, gain = 15, quest = 90682}), -- The K'aresh Trust
-        Mount({item = 246067, id = 2601}) -- Pearlescent Krolusk
+        Mount({item = 246067, id = 2601}), -- Pearlescent Krolusk
+        Transmog({item = 239456, slot = L['leather']}), -- Reshii Scout's Jerkin
+        Transmog({item = 239470, slot = L['mail']}), -- Reshii Skirmisher's Sash
+        Transmog({item = 239473, slot = L['plate']}) -- Reshii Brute's Sollerets
     }
 }) -- Urmag <The Terror Below>
 
@@ -261,11 +261,11 @@ map.nodes[65144998] = Rare({
     requires = ns.requirement.Spell(1214374), -- Phase Diving
     quest = 90584,
     rewards = {
+        Achievement({id = 42761, criteria = 106349}),
+        Reputation({id = 2658, gain = 15, quest = 90672}), -- The K'aresh Trust
         Transmog({item = 239451, slot = L['cloth']}), -- Reshii Magi's Crown
         Transmog({item = 239463, slot = L['leather']}), -- Reshii Scout's Bracers
-        Transmog({item = 239468, slot = L['mail']}), -- Reshii Skirmisher's Legguards
-        Achievement({id = 42761, criteria = 106349}),
-        Reputation({id = 2658, gain = 15, quest = 90672}) -- The K'aresh Trust
+        Transmog({item = 239468, slot = L['mail']}) -- Reshii Skirmisher's Legguards
     }
 }) -- Xarran the Binder
 
@@ -279,14 +279,14 @@ taz.nodes[71135712] = Rare({
     quest = 90698,
     requires = ns.requirement.Item(236967), -- [Grubber Lure] from warrants
     rewards = {
+        Achievement({id = 42761, criteria = 106333}),
+        Achievement({id = 41980, criteria = 104425}),
+        Reputation({id = 2658, gain = 15, quest = 90699}), -- The K'aresh Trust
         Transmog({item = 239454, slot = L['cloth']}), -- Reshii Magi's Cord
         Transmog({item = 239463, slot = L['leather']}), -- Reshii Scout's Bracers
         Transmog({item = 239465, slot = L['mail']}), -- Reshii Skirmisher's Boots
         Transmog({item = 239469, slot = L['mail']}), -- Reshii Skirmisher's Pauldrons
-        Transmog({item = 239478, slot = L['plate']}), -- Reshii Brute's Greatbelt
-        Achievement({id = 42761, criteria = 106333}),
-        Achievement({id = 41980, criteria = 104425}),
-        Reputation({id = 2658, gain = 15, quest = 90699}) -- The K'aresh Trust
+        Transmog({item = 239478, slot = L['plate']}) -- Reshii Brute's Greatbelt
     }
 }) -- Grubber
 
@@ -330,13 +330,13 @@ map.nodes[42505755] = Rare({
     requires = ns.requirement.Item(239276), -- [Purple Peat Cell Key] from warrants
     rewards = {
         -- Achievement({id = 42761, criteria = 106349}),
+        Achievement({id = 41980, criteria = 104426}),
+        Reputation({id = 2658, gain = 15, quest = 90693}), -- The K'aresh Trust
         Transmog({item = 239448, slot = L['cloth']}), -- Reshii Magi's Vestments
         Transmog({item = 239460, slot = L['leather']}), -- Reshii Scout's Breeches
         Transmog({item = 239459, slot = L['leather']}), -- Reshii Scout's Hood
         Transmog({item = 239466, slot = L['mail']}), -- Reshii Skirmisher's Gauntlets
-        Transmog({item = 239472, slot = L['plate']}), -- Reshii Brute's Breastplate
-        Achievement({id = 41980, criteria = 104426}),
-        Reputation({id = 2658, gain = 15, quest = 90693}) -- The K'aresh Trust
+        Transmog({item = 239472, slot = L['plate']}) -- Reshii Brute's Breastplate
     }
 }) -- Purple Peat
 
@@ -347,13 +347,13 @@ taz.nodes[31155818] = Rare({
     requires = ns.requirement.Item(236753), -- [Xy'vox Refuge Dampener] from warrants
     rewards = {
         -- Achievement({id = 42761, criteria = 106349}),
+        Achievement({id = 41980, criteria = 104429}),
+        Reputation({id = 2658, gain = 15, quest = 90695}), -- The K'aresh Trust
         Transmog({item = 239455, slot = L['cloth']}), -- Reshii Magi's Bands
         Transmog({item = 239457, slot = L['leather']}), -- Reshii Scout's Soles
         Transmog({item = 239461, slot = L['leather']}), -- Reshii Scout's Shoulderpads
         Transmog({item = 239470, slot = L['mail']}), -- Reshii Skirmisher's Sash
-        Transmog({item = 239479, slot = L['plate']}), -- Reshii Brute's Vambraces
-        Achievement({id = 41980, criteria = 104429}),
-        Reputation({id = 2658, gain = 15, quest = 90695}) -- The K'aresh Trust
+        Transmog({item = 239479, slot = L['plate']}) -- Reshii Brute's Vambraces
     }
 }) -- Xy'vox The Twisted
 
