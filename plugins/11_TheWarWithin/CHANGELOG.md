@@ -3,6 +3,7 @@
 * Added additional spawn of Abandoned Lockbox and Lightly-Dented Luggage treasures in K'aresh
 * Added Phase Diving Orbs for the [Phase-Lost-and-Found](https://www.wowhead.com/achievement=61017) achievement
 * Updated spawn points and rewards for several rares in K'aresh
+* Add new nodes of Disturbed Earth to Isle of Dorn
 * Localization updates: deDE, esES, frFR, zhCN
 
 # v122
