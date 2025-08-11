@@ -1,3 +1,7 @@
+# 124
+
+* Fixed a lua error that occurred when the character did not have Reshii Wraps [[#506]](https://github.com/zarillion/handynotes-plugins/issues/506)
+
 # v123
 
 * Added additional spawn of Abandoned Lockbox and Lightly-Dented Luggage treasures in K'aresh

@@ -45,6 +45,7 @@ end
 
 function ReshiiWraps:IsMet()
     local configID = C_Traits.GetConfigIDByTreeID(1115)
+    if not configID then return false end
     local nInfo = C_Traits.GetNodeInfo(configID, self.nodeID)
     return nInfo and nInfo.ranksPurchased and nInfo.ranksPurchased > 0
 end
