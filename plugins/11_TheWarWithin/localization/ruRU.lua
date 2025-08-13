@@ -673,7 +673,7 @@ L['in_a_tree'] = 'На дереве.'
 L['little_ms_phaser_sublabel'] = 'Поэтапно появляется и исчезает.'
 
 L['mailroom_distribution_note'] = 'Взаимодействуйте с тележкой снаружи, затем откройте дверь почтового отделения. Встаньте на круги и нажмите кнопку дополнительного действия. Сокровище появится рядом с дверью.'
-L['gift_of_the_brothers_note'] = 'Interact with the {object:Flickering Lantern} and speak with {npc:233881}, then go find {npc:234112} ({dot:Red}), {npc:234113} ({dot:Yellow}) and {npc:234075} ({dot:Green}), then return to {npc:233881} at the {object:Flickering Lantern}.'
+L['gift_of_the_brothers_note'] = 'Взаимодействуйте с {object:Мерцающим фонарем} и поговорите с {npc:233881}, затем найдите {npc:234112} ({dot:Red}), {npc:234113} ({dot:Yellow}) и {npc:234075} ({dot:Green}), затем вернитесь к {npc:233881} у {object:Мерцающего фонаря}.'
 L['ancient_coffer_note'] = 'Collect the {item:233794}({dot:Red}) and {item:233799}({dot:Yellow}) then return to the {object:Ancient Coffer} to receive {item:245269}.'
 
 L['sthaarbs_note'] = 'Используйте телепорт возле {object:Фазового проводника}, чтобы добраться до {npc:234845}.'
