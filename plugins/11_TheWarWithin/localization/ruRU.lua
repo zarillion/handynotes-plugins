@@ -661,20 +661,20 @@ L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
 L['options_icons_karesh_lore_hunter_desc'] = 'Отображение местоположений предметов для достижения {achievement:60890}.'
 
 L['options_icons_phase_lost_and_found'] = '{achievement:61017}'
-L['options_icons_phase_lost_and_found_desc'] = nil
-L['phaseorb_label'] = nil
-L['phaseorb_note'] = nil
+L['options_icons_phase_lost_and_found_desc'] = 'Отобразить местоположения сфер при фазовых переходах для достижения {achievement:61017}.'
+L['phaseorb_label'] = 'Сфера при фазовом переходе'
+L['phaseorb_note'] = 'Пройдите через сферу при фазовом переходе, чтобы получить шанс получить один из обликов.'
 
 L['options_icons_purrkins'] = '{achievement:42729}'
-L['options_icons_purrkins_desc'] = nil
-L['purrkins_note'] = nil
-L['kareshire_sublabel'] = nil
+L['options_icons_purrkins_desc'] = 'Показать мурмявов для {achievement:42729}.'
+L['purrkins_note'] = '{emote:/гладить} мурмявов.'
+L['kareshire_sublabel'] = 'Поэтапно появляется и исчезает.'
 L['in_a_tree'] = 'На дереве.'
-L['little_ms_phaser_sublabel'] = nil
+L['little_ms_phaser_sublabel'] = 'Поэтапно появляется и исчезает.'
 
-L['mailroom_distribution_note'] = nil
-L['gift_of_the_brothers_note'] = nil
-L['ancient_coffer_note'] = nil
+L['mailroom_distribution_note'] = 'Interact with the cart outside, then open the Mailroom door. Stand on the circles and use the extra action button. Treasure will appear near the door.'
+L['gift_of_the_brothers_note'] = 'Interact with the {object:Flickering Lantern} and speak with {npc:233881}, then go find {npc:234112} ({dot:Red}), {npc:234113} ({dot:Yellow}) and {npc:234075} ({dot:Green}), then return to {npc:233881} at the {object:Flickering Lantern}.'
+L['ancient_coffer_note'] = 'Collect the {item:233794}({dot:Red}) and {item:233799}({dot:Yellow}) then return to the {object:Ancient Coffer} to receive {item:245269}.'
 
-L['sthaarbs_note'] = nil
-L['heka_tamos_note'] = nil
+L['sthaarbs_note'] = 'Use the teleporter near the {object:Phase Conduit} to reach {npc:234845}.'
+L['heka_tamos_note'] = 'Collect a buff from each of the {object:Dewminder}, {object:Spectral Lantern}, {object:Earthy Succulent} and {object:Windcatcher} which spawn nearby then interact with the {object:Brazier of Elemental Union} to summon the rare.'
