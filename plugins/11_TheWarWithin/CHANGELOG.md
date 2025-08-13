@@ -1,4 +1,8 @@
-# 124
+# v125
+
+* Localization updates: ruRU
+
+# v124
 
 * Fixed a lua error that occurred when the character did not have Reshii Wraps [[#506]](https://github.com/zarillion/handynotes-plugins/issues/506)
 
