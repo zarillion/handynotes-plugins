@@ -668,9 +668,9 @@ L['phaseorb_note'] = 'Пройдите через сферу при фазово
 L['options_icons_purrkins'] = '{achievement:42729}'
 L['options_icons_purrkins_desc'] = 'Показать мурмявов для {achievement:42729}.'
 L['purrkins_note'] = '{emote:/гладить} мурмявов.'
-L['kareshire_sublabel'] = 'Поэтапно появляется и исчезает.'
+L['kareshire_sublabel'] = 'Появляется и исчезает.'
 L['in_a_tree'] = 'На дереве.'
-L['little_ms_phaser_sublabel'] = 'Поэтапно появляется и исчезает.'
+L['little_ms_phaser_sublabel'] = 'Появляется и исчезает.'
 
 L['mailroom_distribution_note'] = 'Взаимодействуйте с тележкой снаружи, затем откройте дверь почтового отделения. Встаньте на круги и нажмите кнопку дополнительного действия. Сокровище появится рядом с дверью.'
 L['gift_of_the_brothers_note'] = 'Взаимодействуйте с {object:Мерцающим фонарем} и поговорите с {npc:233881}, затем найдите {npc:234112} ({dot:Red}), {npc:234113} ({dot:Yellow}) и {npc:234075} ({dot:Green}), затем вернитесь к {npc:233881} у {object:Мерцающего фонаря}.'
