@@ -48,7 +48,12 @@ map.nodes[33803080] = Rare({
         Achievement({id = 2257, criteria = 4}), -- Frostbitten
         Transmog({item = 44649, slot = L['plate']}) -- Crystalbark's Toenail
     },
-    pois = {Path({ns.poi.Circle({origin = 28002600, radius = 9})})}
+    pois = {
+        Path({ns.poi.Circle({origin = 28002600, radius = 9})}), Path({
+            34453197, 34343130, 33703101, 33113132, 32453139, 31803125,
+            31413065, 30803037, 30663116, 30533182, 30103233, 29663291
+        })
+    }
 }) -- Old Crystalbark
 
 map.nodes[88603980] = Rare({
