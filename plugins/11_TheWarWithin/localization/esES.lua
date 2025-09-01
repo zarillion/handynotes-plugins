@@ -678,4 +678,4 @@ L['ancient_coffer_note'] = 'Recoge el {item:233794}({dot:Red}) y la {item:233799
 L['sthaarbs_note'] = 'Usa el teletransportador cerca del {object:Conducto de fase} para alcanzar a {npc:234845}.'
 L['heka_tamos_note'] = 'Consigue un buff de {object:Minador de rocío}, {object:Farol espectral}, {object:Exquisitez terránea} y {object:Atrapavientos} que aparecen cerca e interactúa con el {object:Blandón de unión elemental} para invocar al raro.'
 
-L['translocated_gorger_note'] = nil
+L['translocated_gorger_note'] = 'Recoge 1x {item:246240} por boss cada semana de la banda guerrera del boss durante una {object:Invasión de devoradores}. Combínalas y conseguirás tu montura.'
