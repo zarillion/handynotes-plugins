@@ -25,6 +25,8 @@ local Entrance = ns.poi.Entrance
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
+local ItemStatus = ns.tooltip.ItemStatus
+
 -------------------------------------------------------------------------------
 ------------------------------------ MAPS -------------------------------------
 -------------------------------------------------------------------------------
@@ -1058,3 +1060,34 @@ taz.nodes[56468678] = PhaseOrb({parent = map.id})
 taz.nodes[60415720] = PhaseOrb({parent = map.id})
 taz.nodes[61128910] = PhaseOrb({parent = map.id})
 taz.nodes[62132931] = PhaseOrb({parent = map.id})
+
+-------------------------------------------------------------------------------
+------------------------- MOUNT: TRANSLOCATED GORGER --------------------------
+-------------------------------------------------------------------------------
+
+local TranslocatedGorger = Class('TranslocatedGorger', Collectible, {
+    icon = 3767410,
+    rewards = {
+        Mount({item = 246159, id = 2602}) -- Translocated Gorger
+    }
+}) -- Translocated Gorger
+
+function TranslocatedGorger.getters:note()
+    local note = L['translocated_gorger_note']
+    return note .. ItemStatus(246240, 20, '{item:246240}')
+end
+
+taz.nodes[29607260] = TranslocatedGorger({
+    label = '{npc:235104}',
+    quest = 86465,
+    parent = map.id
+}) -- The Wallbreaker (Tazavesh Invasion)
+
+map.nodes[49606460] =
+    TranslocatedGorger({label = '{npc:235087}', quest = 86464}) -- The Harvester (The Atrium Invasion)
+
+map.nodes[50605460] =
+    TranslocatedGorger({label = '{npc:234970}', quest = 86447}) -- Miasmawrath (Eco-Dome Primus Invasion)
+
+map.nodes[71402760] =
+    TranslocatedGorger({label = '{npc:231229}', quest = 84993}) -- Korogoth the Hungerer (The Oasis Invasion)

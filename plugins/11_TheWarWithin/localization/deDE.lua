@@ -678,3 +678,5 @@ L['ancient_coffer_note'] = 'Sammle das {item:233794} ({dot:Red}) und die {item:2
 
 L['sthaarbs_note'] = 'Verwende den Teleporter in der Nähe des {object:Phasenleiter}, um {npc:234845} zu erreichen.'
 L['heka_tamos_note'] = 'Sammle die folgenden Objekte: {object:Taufänger}, {object:Spektrale Laterne}, {object:Erdige Sukkulente} und {object:Windfänger}, die in {location:Die Oase} erscheinen. Interagiere anschließend mit der {object:Kohlepfanne der Elementaren Einheit}, um den seltenen Gegner zu beschwören.'
+
+L['translocated_gorger_note'] = nil

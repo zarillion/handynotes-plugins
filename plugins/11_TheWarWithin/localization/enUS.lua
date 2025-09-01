@@ -677,3 +677,5 @@ L['ancient_coffer_note'] = 'Collect the {item:233794}({dot:Red}) and {item:23379
 
 L['sthaarbs_note'] = 'Use the teleporter near the {object:Phase Conduit} to reach {npc:234845}.'
 L['heka_tamos_note'] = 'Collect a buff from each of the {object:Dewminder}, {object:Spectral Lantern}, {object:Earthy Succulent} and {object:Windcatcher} which spawn nearby then interact with the {object:Brazier of Elemental Union} to summon the rare.'
+
+L['translocated_gorger_note'] = 'Collect 1 {item:246240} per boss per week per warband from the boss during a {object:Devourer Invasion} and combine them to create your mount.'

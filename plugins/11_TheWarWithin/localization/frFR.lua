@@ -676,3 +676,5 @@ L['ancient_coffer_note'] = 'Récupérez le {item:233794}({dot:Red}) et la {item:
 
 L['sthaarbs_note'] = 'Utilisez le téléporteur près du {object:Conduit de phase} pour atteindre {npc:234845}.'
 L['heka_tamos_note'] = 'Récupérez un buff auprès de chacun des objects {object:Veile-rosée}, {object:Lanterne spectrale}, {object:Succulente terreuse} et {object:Ventianne} qui apparaissent à proximité, puis interagissez avec le {object:Brasero d\'union élementaire} pour invoquer le rare.'
+
+L['translocated_gorger_note'] = nil

@@ -675,3 +675,5 @@ L['ancient_coffer_note'] = nil
 
 L['sthaarbs_note'] = nil
 L['heka_tamos_note'] = nil
+
+L['translocated_gorger_note'] = nil
