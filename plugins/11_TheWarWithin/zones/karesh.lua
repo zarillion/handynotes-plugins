@@ -25,7 +25,7 @@ local Entrance = ns.poi.Entrance
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
-local ItemStatus = ns.tooltip.ItemStatus
+-- local ItemStatus = ns.tooltip.ItemStatus
 
 -------------------------------------------------------------------------------
 ------------------------------------ MAPS -------------------------------------
