@@ -293,8 +293,13 @@ map.nodes[65144998] = Rare({
     }
 }) -- Xarran the Binder
 
+-------------------------------------------------------------------------------
+------------------------- MOUNT: TRANSLOCATED GORGER --------------------------
+-------------------------------------------------------------------------------
+
 map.nodes[71402760] = Rare({
     id = 231229,
+    note = L['translocated_gorger_note'],
     quest = 84993,
     rewards = {
         Item({item = 246240, weekly = 91309}), -- Devoured Energy-Pod
@@ -316,6 +321,7 @@ map.nodes[71402760] = Rare({
 
 map.nodes[50605410] = Rare({
     id = 234970,
+    note = L['translocated_gorger_note'],
     quest = 86447,
     rewards = {
         Item({item = 246240, weekly = 91310}), -- Devoured Energy-Pod
@@ -337,6 +343,7 @@ map.nodes[50605410] = Rare({
 
 map.nodes[49506420] = Rare({
     id = 235087,
+    note = L['translocated_gorger_note'],
     quest = 86464,
     rewards = {
         Item({item = 246240, weekly = 91311}), -- Devoured Energy-Pod
@@ -358,6 +365,7 @@ map.nodes[49506420] = Rare({
 
 taz.nodes[27507230] = Rare({
     id = 235104,
+    note = L['translocated_gorger_note'],
     parent = map.id,
     quest = 86465,
     rewards = {
@@ -1061,6 +1069,7 @@ taz.nodes[60415720] = PhaseOrb({parent = map.id})
 taz.nodes[61128910] = PhaseOrb({parent = map.id})
 taz.nodes[62132931] = PhaseOrb({parent = map.id})
 
+--[[
 -------------------------------------------------------------------------------
 ------------------------- MOUNT: TRANSLOCATED GORGER --------------------------
 -------------------------------------------------------------------------------
@@ -1091,3 +1100,4 @@ map.nodes[50605460] =
 
 map.nodes[71402760] =
     TranslocatedGorger({label = '{npc:231229}', quest = 84993}) -- Korogoth the Hungerer (The Oasis Invasion)
+]]
