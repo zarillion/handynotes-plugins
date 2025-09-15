@@ -1,7 +1,7 @@
 # v125
 
-* Add Translocated Gorger mount
-* Add additional Phase Orbs in K'aresh
+* Added Translocated Gorger mount
+* Added additional Phase Orbs in K'aresh
 * Localization updates: esES, fr,FR, ruRU, zhCN
 
 # v124
