@@ -147,12 +147,12 @@ map.nodes[65598595] = ns.node.Collectible({
     },
     rewards = {
         Achievement({id = 9713, criteria = 26800}), -- Awake the Drakes
-        Mount({item = 32858, id = 1736}), -- Reins of the Azure Netherwing Drake
-        Mount({item = 32859, id = 1736}), -- Reins of the Cobalt Netherwing Drake
-        Mount({item = 32857, id = 1736}), -- Reins of the Onyx Netherwing Drake
-        Mount({item = 32860, id = 1736}), -- Reins of the Purple Netherwing Drake
-        Mount({item = 32861, id = 1736}), -- Reins of the Veridian Netherwing Drake
-        Mount({item = 32862, id = 1736}) -- Reins of the Violet Netherwing Drake
+        Mount({item = 32857, id = 186}), -- Reins of the Onyx Netherwing Drake
+        Mount({item = 32858, id = 187}), -- Reins of the Azure Netherwing Drake
+        Mount({item = 32859, id = 188}), -- Reins of the Cobalt Netherwing Drake
+        Mount({item = 32860, id = 189}), -- Reins of the Purple Netherwing Drake
+        Mount({item = 32861, id = 190}), -- Reins of the Veridian Netherwing Drake
+        Mount({item = 32862, id = 191}) -- Reins of the Violet Netherwing Drake
     }
 })
 

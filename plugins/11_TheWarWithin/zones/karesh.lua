@@ -1052,6 +1052,7 @@ map.nodes[73985749] = PhaseOrb() -- review
 map.nodes[75713442] = PhaseOrb()
 map.nodes[75963255] = PhaseOrb()
 map.nodes[76035820] = PhaseOrb() -- review
+map.nodes[77243801] = PhaseOrb()
 map.nodes[78374889] = PhaseOrb()
 map.nodes[78762917] = PhaseOrb()
 map.nodes[80405123] = PhaseOrb()
