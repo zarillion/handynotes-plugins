@@ -1,6 +1,6 @@
 # v125
 
-* Fix mount journal ids for Netherwing Drakes in Shadowmoon Valley
+* Fixed mount journal ids for Netherwing Drakes in Shadowmoon Valley
 
 # v99
 
