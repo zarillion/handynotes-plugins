@@ -1,3 +1,7 @@
+# v126
+
+* Localization updates: ruRU
+
 # v125
 
 * Added Translocated Gorger mount
