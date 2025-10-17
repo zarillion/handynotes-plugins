@@ -1,17 +1,27 @@
 # https://jekyllrb.com/tutorials/navigation/
 
 pages:
+  - title: Core System
+    url: core/core.html
+  - title: Class System
+    url: core/class.html
+  - title: Map System
+    url: core/map.html
   - title: Nodes
     url: core/nodes.html
-  - title: Rewards
-    url: core/rewards.html
   - title: Requirements
     url: core/requirements.html
-  - title: Icons
-    url: core/icons.html
-  - title: Colors
-    url: core/colors.html
+  - title: Rewards
+    url: core/rewards.html
   - title: Groups
     url: core/groups.html
   - title: POIs
     url: core/pois.html
+  - title: Icons
+    url: core/icons.html
+  - title: Colors
+    url: core/colors.html
+  - title: Professions
+    url: core/professions.html
+  - title: Utilities
+    url: core/util.html

@@ -49,7 +49,14 @@ Spacer()
 ### Example <!-- omit from toc -->
 
 ```lua
-Achievement({id = 17736, criteria = {qty = true, id = 1}}) -- The Gift of Cheese
+-- From Azj-Kahet plugin - Zone exploration achievement
+Achievement({id = 40840, criteria = 69392}) -- Adventurer of Azj-Kahet
+
+-- From treasure nodes - Collection achievement with criteria
+Achievement({id = 40625, criteria = 68993}) -- Azj-Kahet Treasures
+
+-- Multiple criteria example
+Achievement({id = 17736, criteria = {qty = true, id = 1}}) -- Counter-based achievement
 ```
 
 ### Properties <!-- omit from toc -->
@@ -117,7 +124,17 @@ The Item reward is used as the base class for other item related rewards
 ### Example <!-- omit from toc -->
 
 ```lua
-Item({item = 188793, quest = 65282, note = '150'}) -- Improved Cypher Analysis Tool
+-- From Azj-Kahet plugin - Basic currency item
+Item({item = 224581}) -- Nerubian Doubloons
+
+-- From vendor nodes - Equipment with quest tracking
+Item({item = 223924, quest = 82745}) -- Web-Woven Hood
+
+-- From profession treasures - Knowledge items with notes
+Item({item = 226271, note = 'Alchemy Knowledge'}) -- Nerubian Mixing Salts
+
+-- Treasure items with completion tracking
+Item({item = 224584, quest = 82721}) -- Memory Fragments
 ```
 
 ### Properties <!-- omit from toc -->
@@ -165,7 +182,14 @@ Uses [Item](#item) as its base class, all properties from Item can be used here 
 ### Example <!-- omit from toc -->
 
 ```lua
-Mount({item = 44168, id = 265}) -- Time-Lost Proto-Drake
+-- From project plugins - Standard mount reward
+Mount({item = 212346, id = 2174}) -- Alliance War Horse
+
+-- From rare encounters - Mount with completion tracking
+Mount({item = 221760, id = 2205, quest = 81705}) -- Siesbarg
+
+-- Mount from vendor with currency note
+Mount({item = 205209, id = 1736, note = '170x Residual Memories'}) -- Boulder Hauler
 ```
 
 ### Properties <!-- omit from toc -->
@@ -184,7 +208,14 @@ Uses [Item](#item) as its base class, all properties from Item can be used here 
 ### Example <!-- omit from toc -->
 
 ```lua
-Pet({id = 635}) -- Adder
+-- From Azj-Kahet Kej Pet Vendor - Standard pet rewards
+Pet({item = 221546, id = 4486}) -- Colossal Warsquid
+Pet({item = 221547, id = 4487}) -- Kej'ra Wool Krolusk
+Pet({item = 221548, id = 4485}) -- Invasive Kej'ra Drone
+Pet({item = 221549, id = 4484}) -- Ominous K'arthok Broodling
+
+-- Pet with currency note
+Pet({item = 205120, id = 3537, note = '85x Residual Memories'}) -- Thimblerig
 ```
 
 ### Properties <!-- omit from toc -->

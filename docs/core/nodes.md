@@ -114,19 +114,30 @@ ns.node.Node({
 ## Collectible
 
 ``` lua
-map.nodes[58085381] = ns.node.Collectible({
-    id = 204693,
-    icon = 'peg_bl',
-    scale = 1.3
-    note = L['ponzo_note'],
+-- From Azj-Kahet plugin - Kej Pet Vendor
+map.nodes[59235348] = ns.node.KejPetVendor({
+    id = 218187,
+    note = L['kej_pet_vendor_note'],
+    group = ns.groups.VENDOR,
     rewards = {
-        DC.SetNote(DC.WindingSlitherdrake.HairyBrow, '55x'),
-        DC.SetNote(DC.WindingSlitherdrake.ClusterChinHorn, '55x'),
-        DC.SetNote(DC.WindingSlitherdrake.CurledNose, '55x'),
-        Pet({item = 205120, id = 3537, note = '85x'}), -- Thimblerig
-        Mount({item = 205209, id = 1736, note = '170x'}) -- Boulder Hauler
+        Pet({item = 221546, id = 4486}), -- Colossal Warsquid
+        Pet({item = 221547, id = 4487}), -- Kej'ra Wool Krolusk
+        Pet({item = 221548, id = 4485}), -- Invasive Kej'ra Drone
+        Pet({item = 221549, id = 4484}) -- Ominous K'arthok Broodling
     }
-}) -- Ponzo <Barterer Extraordinaire>
+}) -- Kej
+
+-- From The War Within - Collectible with custom behavior
+cot.nodes[63892774] = ns.node.Collectible({
+    id = 218649,
+    note = L['collector_kah_note'],
+    group = ns.groups.VENDOR,
+    rewards = {
+        Item({item = 224051}), -- Artisan's Consortium Market Board
+        Item({item = 224052}), -- Artisan's Consortium Supply Cache
+        Item({item = 224053}) -- Artisan's Consortium Ledger
+    }
+}) -- Collector Kah-Nah
 ```
 
 ### Optional Properties <!-- omit from toc -->
@@ -212,25 +223,30 @@ map.nodes[78175317] = ns.node.Item({
 ## NPC
 
 ``` lua
-map.nodes[37164467] = ns.node.NPC({
-    id = 183962,
-    icon = 4254892,
-    requires = {
-        ns.requirement.GarrisonTalent(1902),
-        ns.requirement.Quest(65219)
-    },
-    note = L['olea_manu'],
+-- From Azj-Kahet plugin - Vendor NPC
+cot.nodes[58463084] = ns.node.NPC({
+    id = 220867,
+    note = L['memory_cache_merchant_note'],
+    group = ns.groups.VENDOR,
     rewards = {
-        Item({item = 187804, note = '25'}), -- Recipe: Empty Kettle of Stone Soup
-        Item({item = 187824, note = '25'}), -- Formula: Magically Regulated Automa Core
-        Item({item = 188793, quest = 65282, note = '150'}), -- Improved Cypher Analysis Tool
-        Item({item = 189986, quest = 65514, covenant = NIGHTFAE, note = '500'}), -- Armadillo Soul
-        Item({item = 189980, quest = 65510, covenant = NIGHTFAE, note = '1000'}), -- Brutosaur Soul
-        Toy({item = 190333, note = '100'}), -- Jiro Circle of Song
-        Pet({item = 191039, id = 3247, note = '500'}), -- Pocopoc Traveler
-        Item({item = 187781, note = '700'}) -- Olea Cache
+        Item({item = 223924}), -- Web-Woven Hood
+        Item({item = 223925}), -- Silken Binding Wrap
+        Item({item = 223926}), -- Chitin Studded Boots
+        Item({item = 223927}) -- Reinforced Web Grips
     }
-}) -- Olea Manu
+}) -- Memory Cache Merchant
+
+-- From The War Within - NPC with faction requirement
+map.nodes[41057311] = ns.node.NPC({
+    id = 207471,
+    faction = 'Alliance',
+    note = L['alliance_vendor_note'],
+    group = ns.groups.VENDOR,
+    rewards = {
+        Item({item = 212345}), -- Alliance Banner
+        Mount({item = 212346, id = 2174}) -- Alliance War Horse
+    }
+}) -- Alliance Quartermaster
 ```
 
 ### Required Properties <!-- omit from toc -->
@@ -308,19 +324,30 @@ map.nodes[53486145] = Quest({
 ## Rare
 
 ``` lua
-map.nodes[43947530] = ns.node.Rare({
-    id = 183516,
-    quest = 65580,
-    vignette = 4933,
-    note = L['the_engulfer_note'],
-    rlabel = ns.status.LightBlue('+10 ' .. L['rep']),
+-- From Azj-Kahet plugin - Rare with multiple rewards
+map.nodes[61411274] = ns.node.Rare({
+    id = 221327,
+    quest = 81705,
+    note = L['tka_fleshripper_note'],
     rewards = {
-        Achievement({id = 15391, criteria = 53050}), -- Adventurer of Zereth Mortis
-        Transmog({item = 189913, slot = L['cloth']}), -- Engulfer's Tightening Cinch
-        Transmog({item = 189921, slot = L['leather']}), -- Devourer's Insatiable Grips
-        Transmog({item = 190006, slot = L['1h_sword']}) -- Anima-Siphoning Sword
+        Achievement({id = 40840, criteria = 69392}), -- Adventurer of Azj-Kahet
+        Item({item = 223006}), -- Nerubian Slayer's Cleaver
+        Item({item = 223920}) -- Chitin-Wrapped Bindings
     }
-}) -- The Engulfer
+}) -- Tka'ktath Fleshripper
+
+-- From The War Within - Rare with vignette tracking
+cot.nodes[71632032] = ns.node.Rare({
+    id = 220159,
+    quest = 81634,
+    vignette = 6142,
+    note = L['webspeaker_grik_note'],
+    rewards = {
+        Achievement({id = 40840, criteria = 69389}), -- Adventurer of Azj-Kahet
+        Item({item = 223005}), -- Nerubian Ritualist's Dagger
+        Item({item = 223916}) -- Silk-Lined Cowl
+    }
+}) -- Webspeaker Grik'ik
 ```
 
 ### Default Properites <!-- omit from toc -->
@@ -354,19 +381,29 @@ It is highly recommended that you add the `quest` property to rares and use the 
 ## Treasure
 
 ``` lua
-map.nodes[65804182] = ns.node.Treasure({
-    quest = 70600,
-    note = L['golden_dragon_goblet_note'],
-    requires = {
-        ns.requirement.Quest(72709), -- Funding a Treasure Hunt
-        ns.requirement.Quest(70409, '{item:198854}') -- Archeologist Artifact Notes
-    },
+-- From Azj-Kahet plugin - Standard treasure
+map.nodes[62601430] = ns.node.Treasure({
+    quest = 82718,
+    note = L['concealed_contraband_note'],
     rewards = {
-        Achievement({id = 16297, criteria = 54698}), -- Treasures of The Waking Shores
-        Toy({item = 202019}) -- Golden Dragon Goblet
+        Achievement({id = 40625, criteria = 68993}), -- Azj-Kahet Treasures
+        Item({item = 224581}) -- Nerubian Doubloons
+    }
+}) -- Concealed Contraband
+
+-- From The War Within - Treasure with requirements
+cot.nodes[67013019] = ns.node.Treasure({
+    quest = 82721,
+    label = '{item:224783}',
+    note = L['memory_cache_note'],
+    requires = ns.requirement.Item(224783), -- Web-Entangled Key
+    rewards = {
+        Achievement({id = 40625, criteria = 68994}), -- Azj-Kahet Treasures
+        Item({item = 224584}), -- Memory Fragments
+        Transmog({item = 223921}) -- Nerubian Skitterer's Cord
     },
-    pois = {POI({77992943})}
-}) -- Golden Dragon Goblet
+    pois = {POI({67303040})} -- Key location
+}) -- Trapped Memory Cache
 ```
 
 ### Default Properites <!-- omit from toc -->

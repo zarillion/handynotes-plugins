@@ -1,15 +1,121 @@
-# Functions <!-- omit from toc -->
+# Icon System
 
-* `ns.GetIconPath(name)`
-  * returns the path to the Icon texture
-  * `ns.GetIconPath('chest_bk') -> 'ICONS\chest_bk.blp'`
-* `ns.GetGlowPath(name)`
-  * returns the path to the Glow texture
-  * `ns.GetGlowPath('chest_bk') -> 'GLOWS\chest_bk.blp'`
-* `ns.GetIconLink(name, size, offsetX, offsetY)`
-  * returns the Text Link to be displayed as inline text. [Wowpedia](https://wowpedia.fandom.com/wiki/UI_escape_sequences#Textures)
-  * `ns.GetIconLink('chest_bk')` -> `|TICONS\chest_bk.blp:0:0|t`
-  * `ns.GetIconLink('chest_bk',0,4,8)` -> `|TICONS\chest_bk.blp:0:0:4:8|t`
+The icon system provides a comprehensive set of custom icons for map nodes, along with utility functions for icon management and display.
+
+## Icon Structure
+
+Each icon entry contains both the main icon texture and an optional glow texture:
+
+```lua
+ns.icons.chest_yw = {
+    'Interface\\Addons\\HandyNotes\\core\\artwork\\icons\\chest_yellow.blp',  -- Main icon
+    'Interface\\Addons\\HandyNotes\\core\\artwork\\glows\\chest.blp'         -- Glow texture
+}
+```
+
+## Functions
+
+### ns.GetIconPath(name)
+
+Returns the file path to the main icon texture:
+
+```lua
+local path = ns.GetIconPath('chest_yw')
+-- Returns: 'Interface\\Addons\\HandyNotes\\core\\artwork\\icons\\chest_yellow.blp'
+```
+
+### ns.GetGlowPath(name)
+
+Returns the file path to the glow texture:
+
+```lua
+local glowPath = ns.GetGlowPath('chest_yw')
+-- Returns: 'Interface\\Addons\\HandyNotes\\core\\artwork\\glows\\chest.blp'
+```
+
+### ns.GetIconLink(name, size, offsetX, offsetY)
+
+Creates a texture link for inline text display (see [Wowpedia](https://wowpedia.fandom.com/wiki/UI_escape_sequences#Textures)):
+
+```lua
+-- Basic usage
+local link = ns.GetIconLink('chest_yw')
+-- Returns: '|TInterface\\Addons\\...\\chest_yellow.blp:0:0|t'
+
+-- With custom size and offset
+local link = ns.GetIconLink('chest_yw', 16, 2, 4)
+-- Returns: '|TInterface\\Addons\\...\\chest_yellow.blp:16:16:2:4|t'
+```
+
+## Usage in Nodes
+
+Icons can be specified by name or texture ID:
+
+```lua
+-- From Azj-Kahet plugin - Using framework treasure icon
+map.nodes[62601430] = ns.node.Treasure({
+    quest = 82718,
+    note = L['concealed_contraband_note'],
+    icon = 'chest_gy'  -- Framework gray chest icon
+})
+
+-- From Azj-Kahet plugin - Using game texture ID for vendor
+cot.nodes[58463084] = ns.node.NPC({
+    id = 220867,
+    icon = 4254892,  -- Game texture for vendor NPCs
+    group = ns.groups.VENDOR
+}) -- Memory Cache Merchant
+
+-- From profession treasures - Using profession icons
+cot.nodes[45321322] = ns.node.ProfessionTreasures.Alchemy({
+    quest = 83846,
+    id = 226271,
+    icon = 'crystal_o'  -- Orange crystal for alchemy
+}) -- Nerubian Mixing Salts
+
+-- Rare with default skull icon (framework handles automatically)
+map.nodes[61411274] = ns.node.Rare({
+    id = 221327,
+    quest = 81705,
+    -- icon defaults to 'skull_b', changes to 'skull_w' when completed
+    note = L['tka_fleshripper_note']
+}) -- Tka'ktath Fleshripper
+```
+
+## Usage in Tooltips
+
+Icons can be embedded in tooltip text:
+
+```lua
+-- From project plugins - Embedding icons in notes
+local node = ns.node.Treasure({
+    quest = 82721,
+    label = '{item:224783}',  -- Item icon via game link
+    note = ns.GetIconLink('chest_gy', 16) .. ' ' .. L['memory_cache_note'],
+    icon = 'chest_gy'
+}) -- Trapped Memory Cache
+
+-- From Kej Pet Vendor - Using profession icons in notes
+map.nodes[59235348] = ns.node.KejPetVendor({
+    id = 218187,
+    note = ns.GetIconLink('paw_y', 14) .. ' ' .. L['kej_pet_vendor_note'],
+    group = ns.groups.VENDOR
+}) -- Kej Pet Vendor
+```
+
+## Default Icons
+
+The framework provides a default icon system:
+
+```lua
+local DEFAULT_ICON = 454046  -- Default texture ID
+local DEFAULT_GLOW = 'Interface\\Addons\\...\\square_icon.blp'
+
+-- Fallback when icon not found
+function GetNodeIcon(iconName)
+    return ns.icons[iconName] or DEFAULT_ICON
+end
+```
 
 # Icons <!-- omit from toc -->
 

@@ -1,27 +1,53 @@
-# POIs <!-- omit from toc -->
+# Points of Interest (POIs)
 
-`ns.poi.`
+Points of Interest (POIs) are visual overlays that appear on the map when hovering over nodes. They provide additional context like paths, areas, or related locations.
 
-- [POI](#poi)
-- [Path](#path)
-- [Line](#line)
-- [Arrow](#arrow)
-- [Circle](#circle)
-- [Square](#square)
+## Overview
 
-## POI
+POIs extend the map display with custom graphics:
+- **Points** - Individual coordinate markers
+- **Paths** - Connected lines between multiple points
+- **Lines** - Direct connections between two points
+- **Arrows** - Directional indicators
+- **Circles** - Circular areas or ranges
+- **Squares** - Rectangular areas
 
-Base class for other POI Classes.
-POIs are only displayed when hovering a node.
+All POIs support conditional display based on quests, requirements, and user preferences.
+
+## POI Base Class
+
+The base class for all Point of Interest overlays.
 
 ```lua
-POI({41176055, 41526214, 41995819, 43565838})
-POI({color = 'Green', 41176055, 41526214}) -- this also works, but is not recommended
-POI({color = 'Red', points = {41176055, 41526214, 41995819, 43565838}})
+ns.poi.POI({41176055, 41526214, 41995819, 43565838})
 ```
 
-A POI can have just a table of coordinates, those will be marked by a dot. The color is by default blue and can be changed by the user through the settings.
-POIs can also have following properties:
+### Basic Usage
+
+```lua
+-- From Azj-Kahet plugin - Simple POI for treasure location
+cot.nodes[67013019] = ns.node.Treasure({
+    quest = 82721,
+    label = '{item:224783}',
+    note = L['memory_cache_note'],
+    requires = ns.requirement.Item(224783), -- Web-Entangled Key
+    pois = {POI({67303040})} -- Key location marker
+}) -- Trapped Memory Cache
+
+-- Multiple coordinate path showing route
+local poi = ns.poi.POI({59004200, 60004300, 61004400, 62004500})
+
+-- With color and quest condition from project
+local poi = ns.poi.POI({
+    color = 'Red',
+    quest = 82718, -- Hide after treasure collected
+    points = {62601430, 63501530, 64401630}
+})
+```
+
+### POI Display Behavior
+
+POIs are **only displayed when hovering over their associated node**. This keeps the map clean while providing additional context when needed.
 
 ### Required Properties <!-- omit from toc -->
 
@@ -62,8 +88,21 @@ Glow()
 A Path is used to draw lines between multiple coordinates.
 
 ```lua
-Path({41176055, 41526214, 41995819, 43565838})
-Path({color = 'Red', points = {41176055, 41526214, 41995819, 43565838}})
+-- From project plugins - Path showing route through Azj-Kahet
+Path({58463084, 59004200, 60004300, 61004400, 62004500})
+
+-- Colored path with quest condition
+Path({
+    color = 'Blue',
+    quest = 83287, -- A Spider's-Eye View
+    points = {45321322, 46522291, 47954059, 49234156}
+})
+
+-- Path for profession treasure route
+Path({
+    color = 'Green',
+    points = {42835735, 44484947, 46812169, 47954059}
+}) -- Alchemy treasure path
 ```
 
 ---
@@ -73,8 +112,21 @@ Path({color = 'Red', points = {41176055, 41526214, 41995819, 43565838}})
 This adds a Segmented Line between two far apart coordinates.
 
 ```lua
-Line({41176055, 41526214})
-Line({color = 'Red', points = {41176055, 41526214}})
+-- From project - Line connecting rare spawn to related treasure
+Line({61411274, 62601430}) -- Tka'ktath Fleshripper to Concealed Contraband
+
+-- Colored line with completion tracking
+Line({
+    color = 'Yellow',
+    quest = 81705, -- Hide after rare killed
+    points = {59235348, 58463084} -- Kej to Memory Cache Merchant
+})
+
+-- Line showing connection between vendor and treasure
+Line({
+    color = 'Purple',
+    points = {58463084, 67013019} -- Memory Merchant to Trapped Cache
+})
 ```
 
 ---
