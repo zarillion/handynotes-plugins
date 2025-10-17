@@ -201,7 +201,7 @@ function Achievement:GetLines()
         local c = self.criteria[index]
         local cname, _, ccomp, qty, req = GetCriteriaInfo(self.id, c.id)
         if (cname == '' or c.qty) then
-            cname = c.suffix or cname
+            cname = ns.RenderLinks(c.suffix, true) or cname
             cname = (completed and req .. '/' .. req or qty .. '/' .. req) ..
                         ' ' .. cname
         end
