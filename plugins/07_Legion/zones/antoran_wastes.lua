@@ -208,7 +208,6 @@ map.nodes[66701800] = Rare({
     note = L['mother_rosula_note'],
     rewards = {
         Achievement({id = 12078, criteria = 37665}),
-        Mount({item = 152903, id = 981}), -- Biletooth Gnasher
         Pet({item = 153252, id = 2135}) -- Rebellious Imp
     },
     pois = {POI({65602640})}
