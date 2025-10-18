@@ -348,3 +348,14 @@ map.nodes[46508520] = EWS7
 map.nodes[44208640] = EWS7
 map.nodes[42508770] = EWS7
 map.nodes[41608380] = EWS7
+
+-------------------------------------------------------------------------------
+-------------------------- ANOMALOUS ANIMALS OF ARGUS -------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[66607260] = ns.node.AnomalousAnimal(128007, 1) -- Ruinhoof
+map.nodes[51606380] = ns.node.AnomalousAnimal(128008, 2) -- Foulclaw
+map.nodes[43005200] = ns.node.AnomalousAnimal(128009, 3) -- Baneglow
+map.nodes[58202980] = ns.node.AnomalousAnimal(128010, 4) -- Retch
+map.nodes[29605800] = ns.node.AnomalousAnimal(128011, 5) -- Deathscreech
+map.nodes[39606660] = ns.node.AnomalousAnimal(128012, 6) -- Gnasher

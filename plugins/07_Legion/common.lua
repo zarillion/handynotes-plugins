@@ -293,3 +293,29 @@ ns.node.Safari = {
         }
     })
 }
+
+-------------------------------------------------------------------------------
+-------------------------- ANOMALOUS ANIMALS OF ARGUS -------------------------
+-------------------------------------------------------------------------------
+
+ns.node.AnomalousAnimal = Class('AnomalousAnimal', ns.node.Collectible,
+    {group = ns.groups.PET_BATTLE, icon = 'paw_g'})
+
+function ns.node.AnomalousAnimal:Initialize(id, i)
+    ns.node.Collectible.Initialize(self)
+    self.id = id
+    self.rewards = {
+        Achievement({id = 12088, criteria = i, oneline = true}), -- Anomalous Animals of Argus
+        ns.reward.Spacer(),
+        Achievement({id = 12089, criteria = i, oneline = true}), -- Aquatic
+        Achievement({id = 12091, criteria = i, oneline = true}), -- Beast
+        Achievement({id = 12092, criteria = i, oneline = true}), -- Critter
+        Achievement({id = 12093, criteria = i, oneline = true}), -- Dragon
+        Achievement({id = 12094, criteria = i, oneline = true}), -- Elemental
+        Achievement({id = 12095, criteria = i, oneline = true}), -- Flying
+        Achievement({id = 12096, criteria = i, oneline = true}), -- Humanoid
+        Achievement({id = 12097, criteria = i, oneline = true}), -- Magic
+        Achievement({id = 12098, criteria = i, oneline = true}), -- Mechanical
+        Achievement({id = 12099, criteria = i, oneline = true}) -- Undead
+    }
+end

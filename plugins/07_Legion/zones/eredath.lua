@@ -513,3 +513,14 @@ map.nodes[31602540] = VSC2
 map.nodes[33602380] = VSC2
 map.nodes[34102070] = VSC2
 map.nodes[32502140] = VSC2
+
+-------------------------------------------------------------------------------
+-------------------------- ANOMALOUS ANIMALS OF ARGUS -------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[67604400] = ns.node.AnomalousAnimal(128013, 7) -- Bucky
+map.nodes[69805200] = ns.node.AnomalousAnimal(128014, 8) -- Snozz
+map.nodes[60007100] = ns.node.AnomalousAnimal(128015, 9) -- Gloamwing
+map.nodes[35805400] = ns.node.AnomalousAnimal(128016, 10) -- Shadeflicker
+map.nodes[31803160] = ns.node.AnomalousAnimal(128017, 11) -- Corrupted Blood of Argus
+map.nodes[74603620] = ns.node.AnomalousAnimal(128018, 12) -- Mar'cuus
